@@ -2,7 +2,7 @@
 
 A public, cited, editable knowledge graph of the war on cancer: every technology, target, product, company, institution, pathway, trial, pairing, roadmap, and idea, with one page per object, a plain-English TL;DR on every page, and derived backlinks so the graph is always consistent.
 
-Live: https://onco.vercel.app (see deployment notes below)
+Live: https://onco-umber.vercel.app (see deployment notes below)
 
 ## What is in it
 
@@ -61,7 +61,7 @@ npm run build      # static export to out/
 
 Each kind lives in one file under `src/data/`. Add or edit a record, include a source URL in `links`, run `npm test`, open a PR. Cross-references are validated at build time, so a typo in an id fails the build rather than producing a dead link.
 
-Priorities are on the [50 ideas](https://onco.vercel.app/hub/) page. The next cancer spikes after TNBC: pancreatic, NSCLC, prostate, glioblastoma.
+Priorities are on the [50 ideas](https://onco-umber.vercel.app/hub/) page. The next cancer spikes after TNBC: pancreatic, NSCLC, prostate, glioblastoma.
 
 ## Not medical advice
 

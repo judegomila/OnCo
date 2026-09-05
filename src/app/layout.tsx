@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: { default: "OnCo — the open map of oncology", template: "%s · OnCo" },
   description: "Every technology, target, drug, company, institution, pathway, trial, and idea in the war on cancer. One page per object, linked, with plain-English TL;DRs.",
-  metadataBase: new URL("https://onco.vercel.app"),
+  metadataBase: new URL("https://onco-umber.vercel.app"),
   openGraph: { title: "OnCo — the open map of oncology", description: "The current state of the art, the history, and what is coming, for every cancer.", type: "website" },
 };
 

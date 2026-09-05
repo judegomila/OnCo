@@ -1,0 +1,58 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { graph } from "@/lib/graph";
+import { KIND_META, KINDS } from "@/lib/schema";
+import { Container, PageHeader } from "@/components/ui";
+
+export const metadata: Metadata = { title: "About & methodology", description: "What OnCo is, how it is built, its rules for facts, and how to contribute." };
+
+export default function About() {
+  const g = graph();
+  return (
+    <>
+      <PageHeader kicker={<span className="kicker">Project</span>} title="About OnCo" lede="A public, cited, editable map of oncology. Built so that a patient, a scientist, an investor, or a policymaker can walk in and see the current state of the art, the history, and what is coming, for any cancer, and follow the links between them." />
+      <Container className="pb-16 prose-onco text-[15px] leading-relaxed max-w-3xl space-y-8">
+        <section>
+          <h2 className="text-xl font-semibold mb-2">What it is</h2>
+          <p>OnCo is a knowledge graph of {g.entities.length} objects across {KINDS.length} kinds: {KINDS.map((k) => `${g.kind(k).length} ${KIND_META[k].plural}`).join(", ")}. Every object has its own page, a plain-English TL;DR, a technical summary, an “as of” date, links out to Wikipedia and primary sources, and a list of everything in the graph that connects to it. Relationships are declared once and backlinks are derived, so the graph is always consistent.</p>
+          <p>The first deep “spike” is <Link href="/cancers/tnbc/">triple-negative breast cancer</Link>, chosen because it went from the subtype with no targeted therapy to one with immunotherapy, PARP inhibitors, three ADCs, and a positive bispecific ADC within six years. Other cancers have state-of-the-art, standard-of-care, history, and pipeline sections at varying depth.</p>
+        </section>
+        <section>
+          <h2 className="text-xl font-semibold mb-2">The rules for facts</h2>
+          <ol className="list-decimal pl-5 space-y-1.5">
+            <li><strong>Say when.</strong> Every object carries an <code>asOf</code> date. Oncology changes weekly; a fact without a date is a rumour.</li>
+            <li><strong>Prefer a link to a remembered number.</strong> Trial results quote the headline figure only when it is sourced on the page or in the linked trial record. Where a figure is approximate it says so.</li>
+            <li><strong>Evidence tier is visible.</strong> Approved, phase 3, phase 2, phase 1, preclinical, concept: colour-coded on every card.</li>
+            <li><strong>Ideas are labelled as ideas</strong>, with a maturity grade and a proposed test, so speculation cannot be mistaken for evidence.</li>
+            <li><strong>Unknown beats guessed.</strong> Missing fields render as missing.</li>
+            <li><strong>No patient data.</strong> The corpus contains public information about technologies, products, organisations, and trials only.</li>
+          </ol>
+        </section>
+        <section>
+          <h2 className="text-xl font-semibold mb-2">Institution ranking methodology</h2>
+          <p>The <Link href="/institutions/">institution table</Link> uses a disclosed formula: Newsweek points (60 minus the Newsweek/Statista World&apos;s Best Specialized Hospitals 2026 Oncology rank; zero if unranked), plus NCI designation points (Comprehensive 15, Clinical or Basic Laboratory 8), plus two points per distinct OnCo object linked to the institution. The last term rewards presence in this evidence base and is therefore also a coverage measure. The <Link href="/universities/">university table</Link> sums those scores by parent university and sits alongside links to Nature Index and SCImago, which are better measures of research output. Treat all of it as a starting point for argument, not a verdict.</p>
+        </section>
+        <section>
+          <h2 className="text-xl font-semibold mb-2">How it is built</h2>
+          <p>Next.js static export on Vercel; TypeScript data files validated by Zod schemas; a build step that checks every cross-reference resolves and emits the corpus as JSON at <Link href="/api/">/api/v1/</Link>. Search runs entirely in the browser. The map uses Natural Earth country outlines from world-atlas. No server, no database, no tracking.</p>
+        </section>
+        <section>
+          <h2 className="text-xl font-semibold mb-2">How to contribute</h2>
+          <p>The repository is <a href="https://github.com/judegomila/OnCo" rel="noopener">github.com/judegomila/OnCo</a>. Each kind lives in one file under <code>src/data/</code>. Add or edit a record, include a source URL, run <code>npm test</code> (which validates the schema and every reference), and open a pull request. The <Link href="/hub/">50 ideas</Link> page lists what we want to build next; the failure-museum, readout calendar, and MCP server are the most requested.</p>
+        </section>
+        <section>
+          <h2 className="text-xl font-semibold mb-2">Sources we lean on</h2>
+          <p>FDA Oncology Center of Excellence and the AACR quarterly approval digests; ClinicalTrials.gov; NCI PDQ; NCCN and ESMO guidelines; OncoKB and CIViC; conference coverage from ASCO, ESMO, AACR, SABCS, ASH; Newsweek/Statista hospital rankings; Nature Index. See <Link href="/collections/">Collections</Link> for the full list with licences.</p>
+        </section>
+        <section>
+          <h2 className="text-xl font-semibold mb-2">Not medical advice</h2>
+          <p>OnCo is an orientation tool. It does not know your case. Decisions about diagnosis and treatment belong with you and your clinicians, using the primary sources linked from each page.</p>
+        </section>
+        <section>
+          <h2 className="text-xl font-semibold mb-2">Licence</h2>
+          <p>Code: MIT. Data (the contents of <code>src/data/</code>): CC BY 4.0. Attribute “OnCo (github.com/judegomila/OnCo)”.</p>
+        </section>
+      </Container>
+    </>
+  );
+}

@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fbfbfa;
+  --foreground: #16181d;
+  --muted: #5b6270;
+  --border: #e6e6e3;
+  --card: #ffffff;
+  --accent: #b91c1c;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0e1013;
+    --foreground: #e8e8e6;
+    --muted: #9aa1ad;
+    --border: #23272e;
+    --card: #15181d;
+    --accent: #f87171;
   }
 }
 
+html { scroll-behavior: smooth; }
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
+
+.prose-onco p + p { margin-top: 0.75rem; }
+.prose-onco a { text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 3px; }
+.prose-onco a:hover { text-decoration-color: currentColor; }
+
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; }
+.chip { display: inline-flex; align-items: center; gap: 0.25rem; border-radius: 9999px; padding: 0.1rem 0.6rem; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.01em; border: 1px solid transparent; }
+.kicker { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; font-weight: 600; color: var(--muted); }
+
+table.onco { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+table.onco th { text-align: left; font-weight: 600; color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--border); }
+table.onco td { padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+table.onco tr:hover td { background: color-mix(in srgb, var(--foreground) 3%, transparent); }

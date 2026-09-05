@@ -1,0 +1,354 @@
+import { z } from "zod";
+
+/**
+ * OnCo data model.
+ *
+ * Every object in the hub is an Entity with a `kind`. All entities share the base
+ * fields; each kind adds a few typed fields. Relationships are expressed as arrays
+ * of entity ids. Backlinks are derived at build time (see graph.ts), so a link only
+ * needs to be declared once, on whichever side is most natural.
+ *
+ * Content rules (mirrors the Open Medical Registry):
+ *  - `tldr` is for a non-technical reader. One or two plain sentences, no jargon.
+ *  - `summary` is for a clinician, scientist, or engineer.
+ *  - `asOf` is the date the facts were last checked. Facts change; say when.
+ *  - Do not invent numbers. Prefer a source link over a remembered figure.
+ */
+
+export const KINDS = [
+  "cancer",
+  "section",
+  "technology",
+  "target",
+  "drug",
+  "company",
+  "institution",
+  "pathway",
+  "term",
+  "trial",
+  "pairing",
+  "roadmap",
+  "idea",
+  "collection",
+] as const;
+export type Kind = (typeof KINDS)[number];
+
+export const STATUSES = [
+  "approved",
+  "phase-3",
+  "phase-2",
+  "phase-1",
+  "preclinical",
+  "concept",
+  "standard-of-care",
+  "established",
+  "emerging",
+  "historic",
+  "withdrawn",
+  "active",
+  "completed",
+  "recruiting",
+  "positive",
+  "negative",
+  "mixed",
+  "planned",
+] as const;
+export type Status = (typeof STATUSES)[number];
+
+const id = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "ids are kebab-case");
+const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "YYYY-MM-DD");
+const url = z.string().url();
+
+export const ExternalLinkSchema = z.object({
+  label: z.string().min(1),
+  url,
+});
+export type ExternalLink = z.infer<typeof ExternalLinkSchema>;
+
+export const TimelineEventSchema = z.object({
+  year: z.union([z.number().int(), z.string()]),
+  title: z.string().min(1),
+  note: z.string().optional(),
+  /** Entity ids this event is about. */
+  refs: z.array(id).default([]),
+});
+export type TimelineEvent = z.infer<typeof TimelineEventSchema>;
+
+const Base = z.object({
+  id,
+  kind: z.enum(KINDS),
+  name: z.string().min(1),
+  aka: z.array(z.string()).default([]),
+  /** Plain-language explanation for someone with no background. */
+  tldr: z.string().min(1),
+  /** Technical summary. Markdown-light: paragraphs separated by blank lines. */
+  summary: z.string().min(1),
+  status: z.enum(STATUSES).optional(),
+  asOf: isoDate,
+  wikipedia: url.optional(),
+  links: z.array(ExternalLinkSchema).default([]),
+  tags: z.array(z.string()).default([]),
+  /** Free-form related entity ids (any kind). */
+  related: z.array(id).default([]),
+  /** Typed relationship arrays. Each holds ids of the named kind. */
+  cancers: z.array(id).default([]),
+  sections: z.array(id).default([]),
+  technologies: z.array(id).default([]),
+  targets: z.array(id).default([]),
+  drugs: z.array(id).default([]),
+  companies: z.array(id).default([]),
+  institutions: z.array(id).default([]),
+  pathways: z.array(id).default([]),
+  terms: z.array(id).default([]),
+  trials: z.array(id).default([]),
+  /** Why this matters / what is hard about it. Optional editorial notes. */
+  notes: z.array(z.string()).default([]),
+});
+
+export const CancerSchema = Base.extend({
+  kind: z.literal("cancer"),
+  /** ICD-O / organ system grouping, e.g. "breast", "lung", "blood". */
+  group: z.string(),
+  /** Roughly how common, in words. */
+  burden: z.string().optional(),
+  subtypes: z.array(z.string()).default([]),
+  /** Key biomarkers a clinician tests for. */
+  biomarkers: z.array(z.string()).default([]),
+  standardOfCare: z.array(z.object({ setting: z.string(), approach: z.string(), refs: z.array(id).default([]) })).default([]),
+  /** What is state of the art today, in one paragraph per point. */
+  stateOfArt: z.array(z.string()).default([]),
+  history: z.array(TimelineEventSchema).default([]),
+  /** What is coming: ids of drugs/technologies/trials/ideas. */
+  pipeline: z.array(id).default([]),
+  openProblems: z.array(z.string()).default([]),
+});
+
+export const SectionSchema = Base.extend({
+  kind: z.literal("section"),
+  order: z.number().int(),
+  icon: z.string().optional(),
+});
+
+export const TechnologySchema = Base.extend({
+  kind: z.literal("technology"),
+  /** How it works, for a technical reader. */
+  principle: z.string(),
+  /** Which generation of the idea this is, if the field talks in generations. */
+  generation: z.string().optional(),
+  strengths: z.array(z.string()).default([]),
+  limitations: z.array(z.string()).default([]),
+  /** Year first used in humans or first approved, if meaningful. */
+  since: z.union([z.number().int(), z.string()]).optional(),
+});
+
+export const TargetSchema = Base.extend({
+  kind: z.literal("target"),
+  /** Gene symbol / protein name. */
+  symbol: z.string().optional(),
+  biology: z.string(),
+  /** Expression or alteration by cancer, free text. */
+  whereFound: z.array(z.string()).default([]),
+  targetClass: z.enum(["surface-antigen", "kinase", "checkpoint", "nuclear-receptor", "enzyme", "transcription", "oncogene", "tumor-suppressor", "stroma", "other"]).default("other"),
+});
+
+export const ApprovalSchema = z.object({
+  region: z.string(),
+  year: z.number().int(),
+  indication: z.string(),
+  note: z.string().optional(),
+});
+
+export const DrugSchema = Base.extend({
+  kind: z.literal("drug"),
+  brand: z.string().optional(),
+  code: z.string().optional(),
+  /** Modality, e.g. "ADC", "small molecule", "mAb", "radioligand", "cell therapy", "vaccine", "device". */
+  modality: z.string(),
+  payload: z.string().optional(),
+  linker: z.string().optional(),
+  mechanism: z.string(),
+  approvals: z.array(ApprovalSchema).default([]),
+});
+
+export const CompanySchema = Base.extend({
+  kind: z.literal("company"),
+  hq: z.string(),
+  country: z.string().length(2),
+  companyType: z.enum(["pharma", "biotech", "diagnostics", "imaging", "devices", "ai-software", "radiopharma", "cell-therapy", "cro-services", "nonprofit"]),
+  website: url,
+  ticker: z.string().optional(),
+  founded: z.number().int().optional(),
+});
+
+export const InstitutionSchema = Base.extend({
+  kind: z.literal("institution"),
+  city: z.string(),
+  country: z.string().length(2),
+  lat: z.number(),
+  lng: z.number(),
+  institutionType: z.enum(["cancer-center", "university", "hospital", "research-institute", "government", "consortium"]),
+  website: url,
+  /** NCI designation, US only. */
+  nci: z.enum(["comprehensive", "clinical", "basic"]).optional(),
+  /** Newsweek / Statista World's Best Specialized Hospitals 2026, Oncology rank. */
+  newsweekOncology2026: z.number().int().optional(),
+  /** Parent university, when the institution is a cancer center inside one. */
+  university: z.string().optional(),
+  programs: z.array(z.string()).default([]),
+});
+
+export const PathwayNodeSchema = z.object({ id: z.string(), label: z.string(), x: z.number(), y: z.number(), targetId: id.optional() });
+export const PathwayEdgeSchema = z.object({ from: z.string(), to: z.string(), type: z.enum(["activates", "inhibits"]).default("activates") });
+
+export const PathwaySchema = Base.extend({
+  kind: z.literal("pathway"),
+  /** Layman explanation using an analogy. */
+  analogy: z.string(),
+  nodes: z.array(PathwayNodeSchema),
+  edges: z.array(PathwayEdgeSchema),
+  /** How drugs attack it. */
+  interventions: z.array(z.string()).default([]),
+});
+
+export const TermSchema = Base.extend({
+  kind: z.literal("term"),
+  category: z.string(),
+});
+
+export const TrialSchema = Base.extend({
+  kind: z.literal("trial"),
+  nct: z.string().optional(),
+  phase: z.enum(["1", "1/2", "2", "2/3", "3", "4", "observational", "platform"]),
+  setting: z.string(),
+  sponsor: z.string().optional(),
+  /** Headline result in one or two sentences, with numbers only if sourced. */
+  result: z.string().optional(),
+  yearReported: z.number().int().optional(),
+});
+
+export const PairingSchema = Base.extend({
+  kind: z.literal("pairing"),
+  a: id,
+  b: id,
+  /** Why the pair works better than either alone. */
+  rationale: z.string(),
+  evidence: z.string(),
+  pairingType: z.enum(["combination", "sequence", "diagnostic-therapeutic", "platform", "caution"]),
+});
+
+export const RoadmapStepSchema = z.object({
+  era: z.string(),
+  title: z.string(),
+  description: z.string(),
+  refs: z.array(id).default([]),
+  status: z.enum(["historic", "current", "emerging", "speculative"]),
+});
+
+export const RoadmapSchema = Base.extend({
+  kind: z.literal("roadmap"),
+  steps: z.array(RoadmapStepSchema).min(2),
+});
+
+export const IdeaSchema = Base.extend({
+  kind: z.literal("idea"),
+  hypothesis: z.string(),
+  rationale: z.string(),
+  /** What experiment or trial would confirm or kill it. */
+  test: z.string(),
+  maturity: z.enum(["speculative", "preclinical-evidence", "early-clinical", "being-tested-at-scale"]),
+});
+
+export const CollectionSchema = Base.extend({
+  kind: z.literal("collection"),
+  url,
+  holds: z.string(),
+  license: z.string().optional(),
+  maintainer: z.string().optional(),
+});
+
+export const EntitySchema = z.discriminatedUnion("kind", [
+  CancerSchema,
+  SectionSchema,
+  TechnologySchema,
+  TargetSchema,
+  DrugSchema,
+  CompanySchema,
+  InstitutionSchema,
+  PathwaySchema,
+  TermSchema,
+  TrialSchema,
+  PairingSchema,
+  RoadmapSchema,
+  IdeaSchema,
+  CollectionSchema,
+]);
+
+export type Entity = z.infer<typeof EntitySchema>;
+export type Cancer = z.infer<typeof CancerSchema>;
+export type Section = z.infer<typeof SectionSchema>;
+export type Technology = z.infer<typeof TechnologySchema>;
+export type Target = z.infer<typeof TargetSchema>;
+export type Drug = z.infer<typeof DrugSchema>;
+export type Company = z.infer<typeof CompanySchema>;
+export type Institution = z.infer<typeof InstitutionSchema>;
+export type Pathway = z.infer<typeof PathwaySchema>;
+export type Term = z.infer<typeof TermSchema>;
+export type Trial = z.infer<typeof TrialSchema>;
+export type Pairing = z.infer<typeof PairingSchema>;
+export type Roadmap = z.infer<typeof RoadmapSchema>;
+export type Idea = z.infer<typeof IdeaSchema>;
+export type Collection = z.infer<typeof CollectionSchema>;
+
+/** Input types (before defaults are applied) — what authors write in data files. */
+export type CancerInput = z.input<typeof CancerSchema>;
+export type SectionInput = z.input<typeof SectionSchema>;
+export type TechnologyInput = z.input<typeof TechnologySchema>;
+export type TargetInput = z.input<typeof TargetSchema>;
+export type DrugInput = z.input<typeof DrugSchema>;
+export type CompanyInput = z.input<typeof CompanySchema>;
+export type InstitutionInput = z.input<typeof InstitutionSchema>;
+export type PathwayInput = z.input<typeof PathwaySchema>;
+export type TermInput = z.input<typeof TermSchema>;
+export type TrialInput = z.input<typeof TrialSchema>;
+export type PairingInput = z.input<typeof PairingSchema>;
+export type RoadmapInput = z.input<typeof RoadmapSchema>;
+export type IdeaInput = z.input<typeof IdeaSchema>;
+export type CollectionInput = z.input<typeof CollectionSchema>;
+export type EntityInput = z.input<typeof EntitySchema>;
+
+/** The relationship array fields shared by every entity. */
+export const REL_FIELDS = [
+  "related",
+  "cancers",
+  "sections",
+  "technologies",
+  "targets",
+  "drugs",
+  "companies",
+  "institutions",
+  "pathways",
+  "terms",
+  "trials",
+] as const;
+export type RelField = (typeof REL_FIELDS)[number];
+
+export const KIND_META: Record<Kind, { plural: string; label: string; route: string; blurb: string; color: string }> = {
+  cancer: { plural: "cancers", label: "Cancer", route: "cancers", blurb: "One page per disease: state of the art, history, and what is coming.", color: "rose" },
+  section: { plural: "sections", label: "Section", route: "sections", blurb: "The big families of the field, from imaging to cell therapy.", color: "slate" },
+  technology: { plural: "technologies", label: "Technology", route: "technologies", blurb: "Every way we see, measure, or attack a tumour, explained.", color: "sky" },
+  target: { plural: "targets", label: "Target", route: "targets", blurb: "The molecules drugs and tracers aim at.", color: "violet" },
+  drug: { plural: "drugs", label: "Product", route: "drugs", blurb: "Approved and pipeline products, with what they hit and who makes them.", color: "emerald" },
+  company: { plural: "companies", label: "Company", route: "companies", blurb: "Who is building what.", color: "amber" },
+  institution: { plural: "institutions", label: "Institution", route: "institutions", blurb: "The centres and universities that matter, mapped and ranked.", color: "teal" },
+  pathway: { plural: "pathways", label: "Pathway", route: "pathways", blurb: "The classic signalling circuits, drawn and explained.", color: "fuchsia" },
+  term: { plural: "terms", label: "Term", route: "terms", blurb: "Glossary with plain-English TL;DRs and Wikipedia links.", color: "zinc" },
+  trial: { plural: "trials", label: "Trial", route: "trials", blurb: "Landmark and current trials that define the standard of care.", color: "indigo" },
+  pairing: { plural: "pairings", label: "Pairing", route: "pairings", blurb: "Things that work better together, and things that do not.", color: "orange" },
+  roadmap: { plural: "roadmaps", label: "Roadmap", route: "roadmaps", blurb: "Where a technology has been and where it is heading.", color: "cyan" },
+  idea: { plural: "ideas", label: "Idea", route: "ideas", blurb: "Hypotheses and new directions, linked to the evidence.", color: "lime" },
+  collection: { plural: "collections", label: "Collection", route: "collections", blurb: "The open databases and registries the field runs on.", color: "stone" },
+};
+
+export function routeFor(e: { kind: Kind; id: string }): string {
+  return `/${KIND_META[e.kind].route}/${e.id}/`;
+}

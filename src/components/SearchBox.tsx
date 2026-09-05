@@ -38,16 +38,15 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
     load().then(() => setReady(true));
   }, [open]);
 
-  useEffect(() => {
-    if (!q.trim()) { setResults([]); return; }
-    let alive = true;
+  const latest = useRef("");
+  const runSearch = (value: string) => {
+    latest.current = value;
+    if (!value.trim()) { setResults([]); return; }
     load().then(({ ms }) => {
-      if (!alive) return;
-      const hits = ms.search(q).slice(0, 12) as unknown as SearchDoc[];
-      setResults(hits);
+      if (latest.current !== value) return;
+      setResults(ms.search(value).slice(0, 12) as unknown as SearchDoc[]);
     });
-    return () => { alive = false; };
-  }, [q]);
+  };
 
   useEffect(() => {
     const onDoc = (e: MouseEvent) => { if (box.current && !box.current.contains(e.target as Node)) setOpen(false); };
@@ -63,7 +62,7 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
         type="search"
         value={q}
         autoFocus={autoFocus}
-        onChange={(e) => { setQ(e.target.value); setOpen(true); }}
+        onChange={(e) => { setQ(e.target.value); setOpen(true); runSearch(e.target.value); }}
         onFocus={() => setOpen(true)}
         placeholder={placeholder}
         aria-label="Search OnCo"
@@ -76,7 +75,7 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
           <ul>
             {results.map((r) => (
               <li key={r.id}>
-                <Link href={r.route} onClick={() => { setOpen(false); setQ(""); }} className="flex items-start gap-3 px-3 py-2 hover:bg-foreground/5">
+                <Link href={r.route} onClick={() => { setOpen(false); setQ(""); setResults([]); }} className="flex items-start gap-3 px-3 py-2 hover:bg-foreground/5">
                   <span className={`chip mt-0.5 border ${KIND_COLOR[r.kind]}`}>{KIND_META[r.kind].label}</span>
                   <span className="min-w-0">
                     <span className="block text-sm font-medium truncate">{r.name}</span>

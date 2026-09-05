@@ -23,7 +23,7 @@ export default function Universities() {
         </div>
 
         <h2 className="text-xl font-semibold mt-10 mb-3">Corpus-derived university table</h2>
-        <p className="text-sm text-muted mb-4 max-w-3xl">Score = sum of OnCo institution scores for the university's affiliated cancer centres and hospitals in this corpus (Newsweek points + NCI points + 2 × linked objects). Universities appear only if one of their institutions is documented here; adding an institution record adds the university.</p>
+        <p className="text-sm text-muted mb-4 max-w-3xl">Score = sum of OnCo institution scores for the university&apos;s affiliated cancer centres and hospitals in this corpus (Newsweek points + NCI points + 2 × linked objects). Universities appear only if one of their institutions is documented here; adding an institution record adds the university.</p>
         <div className="overflow-x-auto">
           <table className="onco">
             <thead><tr><th>#</th><th>University</th><th>Institutions in OnCo</th><th>Linked objects</th><th>Score</th></tr></thead>

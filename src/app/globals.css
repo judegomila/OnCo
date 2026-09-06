@@ -51,3 +51,16 @@ table.onco { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
 table.onco th { text-align: left; font-weight: 600; color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--border); }
 table.onco td { padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--border); vertical-align: top; }
 table.onco tr:hover td { background: color-mix(in srgb, var(--foreground) 3%, transparent); }
+
+/* ---- Print: strip chrome, keep content ---- */
+@media print {
+  header, footer, nav, aside, .no-print, canvas { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+  main { display: block; }
+  .card { border: 1px solid #ccc !important; box-shadow: none !important; break-inside: avoid; }
+  a { color: #000 !important; text-decoration: none !important; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.75em; color: #555; }
+  .grid { display: block !important; }
+  h1 { font-size: 22pt; } h2 { font-size: 15pt; margin-top: 1.2em; }
+  .line-clamp-2, .line-clamp-3 { -webkit-line-clamp: unset; display: block; }
+}

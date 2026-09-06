@@ -13,7 +13,7 @@ export type ProductRow = {
 
 type Facet = "status" | "modalityClass" | "payloadClass" | "targets" | "cancers" | "companies" | "sections";
 const FACETS: Array<{ key: Facet; label: string }> = [
-  { key: "status", label: "Evidence" }, { key: "modalityClass", label: "Modality" }, { key: "payloadClass", label: "ADC payload" },
+  { key: "status", label: "Phase / status" }, { key: "modalityClass", label: "Modality" }, { key: "payloadClass", label: "ADC payload" },
   { key: "sections", label: "Front" }, { key: "targets", label: "Target" }, { key: "cancers", label: "Cancer" }, { key: "companies", label: "Company" },
 ];
 const STATUS_ORDER = ["approved", "phase-3", "phase-2", "phase-1", "established", "preclinical"];

@@ -90,7 +90,7 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
           ))}
         </div>
         <div>
-          <div className="kicker mb-1.5">Evidence</div>
+          <div className="kicker mb-1.5">Phase / status</div>
           <div className="flex flex-wrap gap-1.5">
             {statusOptions.map(([s, n]) => {
               const on = status.includes(s);

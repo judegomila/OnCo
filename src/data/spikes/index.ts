@@ -17,7 +17,8 @@ export type Spike = { cancerId: string; entities: EntityInput[]; patch: CancerPa
 
 // Register spikes here. Each file default-exports a Spike.
 import nsclc from "./nsclc";
-const spikes: Spike[] = [nsclc];
+import prostate from "./prostate";
+const spikes: Spike[] = [nsclc, prostate];
 
 export const spikeEntities: EntityInput[] = spikes.flatMap((s) => s.entities);
 

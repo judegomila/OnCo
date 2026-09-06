@@ -13,9 +13,11 @@ import { roadmaps } from "./roadmaps";
 import { ideas } from "./ideas";
 import { collections } from "./collections";
 import type { EntityInput } from "@/lib/schema";
+import { mergeSpikes, spikeEntities } from "./spikes";
 
 export const ALL_INPUTS: EntityInput[] = [
-  ...cancers,
+  ...mergeSpikes(cancers),
+  ...spikeEntities,
   ...sections,
   ...technologies,
   ...targets,

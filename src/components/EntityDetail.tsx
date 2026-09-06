@@ -12,6 +12,10 @@ import { Logo } from "./Logo";
 import { JsonLd } from "./JsonLd";
 import { PrintButton } from "./PrintButton";
 import { EmbedSnippet } from "./EmbedSnippet";
+import { TrialFinder } from "./TrialFinder";
+import { Questions } from "./Questions";
+import { ExpertCentres } from "./ExpertCentres";
+import { conditionQuery, interventionQuery } from "@/lib/ctgov";
 import structureIndex from "../../public/structures/index.json";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -156,6 +160,7 @@ function KindSpecific({ e }: { e: Entity }) {
                 <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> — {a.note}</span>}</td></tr>)}</tbody></table>
             </Section>
           )}
+          <Section title="Recruiting trials (live from ClinicalTrials.gov)"><TrialFinder intervention={interventionQuery(e.name)} title={e.name} /></Section>
         </>
       );
     case "company":
@@ -312,6 +317,9 @@ function CancerDetail({ c }: { c: Cancer }) {
       </Section>
       <Section title="Coming down the pipeline"><Refs ids={c.pipeline} /></Section>
       <Section title="Open problems"><Bullets items={c.openProblems} /></Section>
+      <Section title="Recruiting trials (live from ClinicalTrials.gov)"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Section>
+      <Section title="Expert centres"><ExpertCentres cancerId={c.id} /></Section>
+      <Section title="Questions for your oncologist"><Questions cancer={c} /></Section>
       <Section title="Everything relevant to this cancer" aside={<span className="text-xs text-muted">direct links plus targets, companies, and technologies of its drugs</span>}>
         <Neighbours groups={forMe} exclude={["cancer"]} />
       </Section>

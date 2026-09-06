@@ -17,13 +17,13 @@ export const hubIdeas: HubIdea[] = [
 
   // Patient-facing
   { n: 8, title: "'For me' cancer picker", why: "Select your cancer type(s) and see the technologies, drugs, trials, and ideas relevant to you.", status: "shipped", theme: "Patients" },
-  { n: 9, title: "Biomarker-aware personalisation", why: "Add PD-L1, HER2-low, BRCA, TROP2 status and get a narrower, more useful view. No data leaves the browser.", status: "planned", theme: "Patients" },
-  { n: 10, title: "Questions to ask your oncologist", why: "Per cancer and per stage, a printable list drawn from the state-of-art and pipeline sections.", status: "planned", theme: "Patients" },
-  { n: 11, title: "Trial finder linked to ClinicalTrials.gov API", why: "From any drug or cancer page, live recruiting trials near a postcode.", status: "planned", theme: "Patients" },
+  { n: 9, title: "Biomarker-aware personalisation", why: "Add PD-L1, HER2-low, BRCA, TROP2 status and get a narrower, more useful view. No data leaves the browser.", status: "shipped", theme: "Patients" },
+  { n: 10, title: "Questions to ask your oncologist", why: "Per cancer and per stage, a printable list drawn from the state-of-art and pipeline sections.", status: "shipped", theme: "Patients" },
+  { n: 11, title: "Trial finder linked to ClinicalTrials.gov API", why: "From any drug or cancer page, live recruiting trials near a postcode.", status: "shipped", theme: "Patients" },
   { n: 12, title: "Plain-language trial result explainers", why: "Translate hazard ratios and pCR rates into 'out of 100 people' pictograms.", status: "planned", theme: "Patients" },
-  { n: 13, title: "Second-opinion and expert-centre directory per cancer", why: "Which institutions run the key trials for this cancer; how to get referred.", status: "building", theme: "Patients" },
+  { n: 13, title: "Second-opinion and expert-centre directory per cancer", why: "Which institutions run the key trials for this cancer; how to get referred.", status: "shipped", theme: "Patients" },
   { n: 14, title: "Multilingual TL;DRs", why: "Start with Spanish, Mandarin, Hindi, Portuguese, Arabic for the TL;DR layer only, where translation is cheap and value is high.", status: "proposed", theme: "Patients" },
-  { n: 15, title: "Caregiver and survivorship section", why: "Supportive care, exercise oncology, financial toxicity, fertility, and late effects deserve first-class pages.", status: "planned", theme: "Patients" },
+  { n: 15, title: "Caregiver and survivorship section", why: "Supportive care, exercise oncology, financial toxicity, fertility, and late effects deserve first-class pages.", status: "shipped", theme: "Patients" },
 
   // Science and pipeline
   { n: 16, title: "Roadmaps per technology family", why: "History → current → emerging → speculative, with linked evidence. ADC, TROP2, radiopharma, cell therapy, imaging, early detection shipped.", status: "shipped", theme: "Pipeline" },
@@ -58,8 +58,8 @@ export const hubIdeas: HubIdea[] = [
   { n: 39, title: "Embeddable cards", why: "One line of HTML to embed an OnCo object card in a blog, hospital site, or Wikipedia talk page.", status: "shipped", theme: "Tools" },
   { n: 40, title: "MCP server", why: "Expose the corpus to AI assistants via Model Context Protocol so any chatbot can cite OnCo.", status: "planned", theme: "Tools" },
   { n: 41, title: "Pathway diagrams with clickable nodes", why: "Each node links to its target page and the drugs against it.", status: "shipped", theme: "Tools" },
-  { n: 42, title: "Tumour board mode", why: "Enter a molecular profile (mutations, IHC) and get the relevant targets, drugs, trials, and cautions in one printable view.", status: "planned", theme: "Tools" },
-  { n: 43, title: "Reading paths", why: "Curated sequences of pages: 'ADCs in 30 minutes', 'Understand your TNBC diagnosis', 'Radiopharma for investors'.", status: "planned", theme: "Tools" },
+  { n: 42, title: "Tumour board mode", why: "Enter a molecular profile (mutations, IHC) and get the relevant targets, drugs, trials, and cautions in one printable view.", status: "shipped", theme: "Tools" },
+  { n: 43, title: "Reading paths", why: "Curated sequences of pages: 'ADCs in 30 minutes', 'Understand your TNBC diagnosis', 'Radiopharma for investors'.", status: "shipped", theme: "Tools" },
   { n: 44, title: "Print and PDF export of any page", why: "Patients bring printouts to appointments.", status: "shipped", theme: "Tools" },
 
   // Reach

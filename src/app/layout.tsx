@@ -24,6 +24,8 @@ const NAV: Array<{ href: string; label: string }> = [
   { href: "/roadmaps/", label: "Roadmaps" },
   { href: "/institutions/", label: "Institutions" },
   { href: "/for-me/", label: "For me" },
+  { href: "/tumor-board/", label: "Tumour board" },
+  { href: "/paths/", label: "Paths" },
   { href: "/graph/", label: "Graph" },
 ];
 
@@ -78,6 +80,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <li><Link className="hover:underline" href="/about/">About & methodology</Link></li>
                 <li><Link className="hover:underline" href="/hub/">50 ideas for the hub</Link></li>
                 <li><Link className="hover:underline" href="/universities/">University ranking</Link></li>
+                <li><Link className="hover:underline" href="/tumor-board/">Tumour board</Link></li>
+                <li><Link className="hover:underline" href="/paths/">Reading paths</Link></li>
                 <li><Link className="hover:underline" href="/compare/">Compare</Link></li>
                 <li><Link className="hover:underline" href="/graph/">Graph explorer</Link></li>
                 <li><Link className="hover:underline" href="/api/">Open API</Link></li>

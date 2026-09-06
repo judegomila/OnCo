@@ -12,10 +12,13 @@
     "lint": "eslint",
     "start": "npx serve out",
     "fetch:structures": "tsx scripts/fetch-structures.ts",
+    "mcp": "tsx mcp/server.ts",
+    "fetch:openalex": "tsx scripts/fetch-openalex.ts",
     "fetch:trials": "tsx scripts/fetch-trials.ts",
     "validate:additions": "tsx scripts/validate-additions.ts"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "d3-geo": "^3.1.1",
     "minisearch": "^7.2.0",
     "next": "16.3.4",

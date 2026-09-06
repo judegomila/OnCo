@@ -27,3 +27,14 @@ A "spike" is a fully built cancer page: `standardOfCare` by setting, `stateOfArt
 ## Code
 
 TypeScript strict, Next.js App Router, static export. Keep components small; keep data out of components. `npm run typecheck` and `npm run lint` should pass.
+
+## Expert review track
+
+A page can carry an **Expert-reviewed** badge when a named clinician, scientist, or patient advocate has read it and considers it accurate and fairly framed as of a date.
+
+1. Read the page and its linked sources. Check the standard-of-care rows against current guidelines (NCCN, ESMO) and the trial figures against the primary publication.
+2. Fix anything wrong in the same PR (data files under `src/data/`).
+3. Add an entry to `src/data/reviews.ts` keyed by the entity id: your name, role and institution, the review date, an optional note (what you checked), and an optional profile URL.
+4. Open a PR titled `review: <entity id>`. Maintainers verify identity via the profile URL or a signed commit before merging.
+
+A review is a statement about the page on that date, not an endorsement of any product. Unreviewed pages say so. Patient-advocate reviews of TL;DRs for clarity and tone are welcome under the same track.

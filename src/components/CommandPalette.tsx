@@ -118,7 +118,7 @@ export function CommandPalette() {
 /** A button that opens the palette; used in the header. */
 export function PaletteTrigger({ className = "" }: { className?: string }) {
   const [mac, setMac] = useState(true);
-  useEffect(() => { setMac(/Mac|iPhone|iPad/.test(navigator.platform)); }, []);
+  useEffect(() => { const id = requestAnimationFrame(() => setMac(/Mac|iPhone|iPad/.test(navigator.platform))); return () => cancelAnimationFrame(id); }, []);
   return (
     <button type="button" onClick={() => window.dispatchEvent(new Event("onco:open-palette"))} className={`flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-1.5 text-sm text-muted hover:bg-foreground/5 ${className}`} aria-label="Open search (Command K)">
       <span aria-hidden>⌕</span>

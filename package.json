@@ -11,9 +11,12 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint",
     "start": "npx serve out",
-    "fetch:structures": "tsx scripts/fetch-structures.ts"
+    "fetch:structures": "tsx scripts/fetch-structures.ts",
+    "mcp": "tsx mcp/server.ts",
+    "fetch:openalex": "tsx scripts/fetch-openalex.ts"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "d3-geo": "^3.1.1",
     "minisearch": "^7.2.0",
     "next": "16.3.4",

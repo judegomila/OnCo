@@ -70,3 +70,27 @@ OnCo is an orientation tool. It does not know your case. Decisions about diagnos
 ## Licence
 
 Code: MIT (see LICENSE). Data in `src/data/`: CC BY 4.0 (see LICENSE-DATA). Attribute "OnCo (github.com/judegomila/OnCo)".
+
+## MCP server
+
+OnCo ships a [Model Context Protocol](https://modelcontextprotocol.io) server so AI assistants can search and cite the corpus directly.
+
+```bash
+npm run mcp     # stdio transport
+```
+
+Tools: `search(query, limit)`, `get_entity(id)`, `list_kind(kind)`, `for_cancer(cancerId)`, `rank(kind, cancerId?, limit)`. Every result includes the page URL so answers can link back.
+
+Claude Desktop config (`claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "onco": { "command": "npx", "args": ["-y", "tsx", "/absolute/path/to/OnCo/mcp/server.ts"] }
+  }
+}
+```
+
+## Research output data
+
+`npm run fetch:openalex` refreshes `public/openalex/institutions.json` (OpenAlex, CC0): oncology-subfield work counts for 2024 and 2025 per institution, shown on `/universities/`. Cached rows are kept; pass `--force` to refetch everything.

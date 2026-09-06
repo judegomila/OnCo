@@ -18,6 +18,9 @@ import { ExpertCentres } from "./ExpertCentres";
 import { conditionQuery, interventionQuery } from "@/lib/ctgov";
 import { TrialCounts } from "./TrialCounts";
 import { ReviewBadge } from "./ReviewBadge";
+import { TechSchematic } from "./TechSchematic";
+import { Wireframe3D } from "./Wireframe3D";
+import { schematicFor } from "@/data/schematics";
 import structureIndex from "../../public/structures/index.json";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -125,6 +128,7 @@ function KindSpecific({ e }: { e: Entity }) {
     case "technology":
       return (
         <>
+          <div className="mt-8"><TechSchematic tech={e} /></div>
           <Section title="How it works"><p className="text-[15px] leading-relaxed max-w-3xl">{e.principle}</p></Section>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Strengths"><Bullets items={e.strengths} /></Field>
@@ -149,7 +153,7 @@ function KindSpecific({ e }: { e: Entity }) {
     case "drug":
       return (
         <>
-          {STRUCTURES[e.id] && <div className="mt-8"><MoleculeViewer entries={STRUCTURES[e.id]} /></div>}
+          {STRUCTURES[e.id] ? <div className="mt-8"><MoleculeViewer entries={STRUCTURES[e.id]} /></div> : <DrugSchematic technologies={e.technologies} modality={e.modality} />}
           <div className="mt-6"><TrialCounts drugId={e.id} /></div>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Modality">{e.modality}</Field>
@@ -328,5 +332,19 @@ function CancerDetail({ c }: { c: Cancer }) {
         <Neighbours groups={forMe} exclude={["cancer"]} />
       </Section>
     </>
+  );
+}
+
+/** Products with no molecule (cells, vaccines, devices, tests) get the schematic of their primary technology. */
+function DrugSchematic({ technologies, modality }: { technologies: string[]; modality: string }) {
+  const g = graph();
+  const tech = technologies.map((id) => g.get(id)).find((t) => t && t.kind === "technology");
+  if (!tech || tech.kind !== "technology") return null;
+  const { mesh } = schematicFor(tech.id, tech.sections);
+  return (
+    <div className="mt-8 card overflow-hidden">
+      <Wireframe3D mesh={mesh} />
+      <div className="px-4 py-3 border-t border-border text-sm"><span className="font-medium">Schematic of the modality</span><span className="text-muted"> · {modality} · not a molecule; see the <Link className="underline" href={routeFor(tech)}>{tech.name}</Link> page</span></div>
+    </div>
   );
 }

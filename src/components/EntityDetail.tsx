@@ -17,6 +17,7 @@ import { Questions } from "./Questions";
 import { ExpertCentres } from "./ExpertCentres";
 import { conditionQuery, interventionQuery } from "@/lib/ctgov";
 import { TrialCounts } from "./TrialCounts";
+import { ReviewBadge } from "./ReviewBadge";
 import structureIndex from "../../public/structures/index.json";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -71,6 +72,7 @@ export function EntityDetail({ e }: { e: Entity }) {
           </div>
 
           <aside className="space-y-4 lg:sticky lg:top-20 self-start">
+            <ReviewBadge id={e.id} />
             <div className="card p-4 text-sm space-y-3">
               {e.wikipedia && <div><div className="kicker mb-1">Wikipedia</div><a className="underline break-all" href={e.wikipedia} rel="noopener">{decodeURIComponent(e.wikipedia.replace("https://en.wikipedia.org/wiki/", "")).replace(/_/g, " ")}</a></div>}
               {e.links.length > 0 && (

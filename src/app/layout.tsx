@@ -80,7 +80,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <ul className="space-y-1">
                 <li><Link className="hover:underline" href="/about/">About & methodology</Link></li>
                 <li><Link className="hover:underline" href="/hub/">50 ideas for the hub</Link></li>
-                <li><Link className="hover:underline" href="/universities/">University ranking</Link></li>
+                <li><Link className="hover:underline" href="/universities/">University output</Link></li>
+                <li><Link className="hover:underline" href="/leadership/">Trial leadership</Link></li>
+                <li><Link className="hover:underline" href="/funding/">Funding flows</Link></li>
+                <li><Link className="hover:underline" href="/gaps/">Gaps to fill</Link></li>
+                <li><Link className="hover:underline" href="/changelog/">Changelog</Link></li>
+                <li><Link className="hover:underline" href="/report/2026/">State of the war 2026</Link></li>
                 <li><Link className="hover:underline" href="/calendar/">Readout calendar</Link></li>
                 <li><Link className="hover:underline" href="/digests/">Congress digests</Link></li>
                 <li><Link className="hover:underline" href="/failures/">Failure museum</Link></li>

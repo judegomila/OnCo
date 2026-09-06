@@ -9,7 +9,7 @@ import { KIND_COLOR } from "@/lib/text";
 
 let cache: Promise<{ ms: MiniSearch<SearchDoc>; docs: SearchDoc[] }> | null = null;
 
-function load() {
+export function loadSearch() {
   if (!cache) {
     cache = fetch("/api/v1/search.json")
       .then((r) => r.json())
@@ -35,14 +35,14 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
 
   useEffect(() => {
     if (!open) return;
-    load().then(() => setReady(true));
+    loadSearch().then(() => setReady(true));
   }, [open]);
 
   const latest = useRef("");
   const runSearch = (value: string) => {
     latest.current = value;
     if (!value.trim()) { setResults([]); return; }
-    load().then(({ ms }) => {
+    loadSearch().then(({ ms }) => {
       if (latest.current !== value) return;
       setResults(ms.search(value).slice(0, 12) as unknown as SearchDoc[]);
     });

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
-import { SearchBox } from "@/components/SearchBox";
+import { CommandPalette, PaletteTrigger } from "@/components/CommandPalette";
 import { KIND_META, KINDS } from "@/lib/schema";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -49,10 +49,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               ))}
             </nav>
             <div className="ml-auto w-full max-w-xs sm:max-w-sm">
-              <SearchBox />
+              <PaletteTrigger className="w-full" />
             </div>
           </div>
         </header>
+        <CommandPalette />
         <main className="flex-1">{children}</main>
         <footer className="border-t border-border mt-16">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10 grid gap-8 md:grid-cols-4 text-sm">

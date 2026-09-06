@@ -1,0 +1,33 @@
+name: Refresh trial counts from ClinicalTrials.gov
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run fetch:trials
+      - run: npm run validate
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/refresh-trials
+          title: "Weekly refresh: ClinicalTrials.gov phase 2/3 counts"
+          commit-message: "chore: refresh trial counts from ClinicalTrials.gov"
+          body: |
+            Automated weekly pull of phase 2/3 studies per product from the ClinicalTrials.gov API v2.
+            Files under `public/trials/` changed. Review new recruiting trials for objects worth adding to the corpus.
+          labels: automated, pipeline
+          delete-branch: true

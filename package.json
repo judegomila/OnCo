@@ -11,7 +11,9 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint",
     "start": "npx serve out",
-    "fetch:structures": "tsx scripts/fetch-structures.ts"
+    "fetch:structures": "tsx scripts/fetch-structures.ts",
+    "fetch:trials": "tsx scripts/fetch-trials.ts",
+    "validate:additions": "tsx scripts/validate-additions.ts"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

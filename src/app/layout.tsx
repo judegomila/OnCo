@@ -26,6 +26,7 @@ const NAV: Array<{ href: string; label: string }> = [
   { href: "/for-me/", label: "For me" },
   { href: "/tumor-board/", label: "Tumour board" },
   { href: "/paths/", label: "Paths" },
+  { href: "/calendar/", label: "Calendar" },
   { href: "/graph/", label: "Graph" },
 ];
 
@@ -80,6 +81,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <li><Link className="hover:underline" href="/about/">About & methodology</Link></li>
                 <li><Link className="hover:underline" href="/hub/">50 ideas for the hub</Link></li>
                 <li><Link className="hover:underline" href="/universities/">University ranking</Link></li>
+                <li><Link className="hover:underline" href="/calendar/">Readout calendar</Link></li>
+                <li><Link className="hover:underline" href="/digests/">Congress digests</Link></li>
+                <li><Link className="hover:underline" href="/failures/">Failure museum</Link></li>
+                <li><Link className="hover:underline" href="/resistance/">Resistance atlas</Link></li>
+                <li><Link className="hover:underline" href="/payloads/">Payloads & linkers</Link></li>
+                <li><Link className="hover:underline" href="/isotopes/">Isotope supply</Link></li>
                 <li><Link className="hover:underline" href="/tumor-board/">Tumour board</Link></li>
                 <li><Link className="hover:underline" href="/paths/">Reading paths</Link></li>
                 <li><Link className="hover:underline" href="/compare/">Compare</Link></li>

@@ -14,6 +14,8 @@ import { ideas } from "./ideas";
 import { collections } from "./collections";
 import type { EntityInput } from "@/lib/schema";
 import { mergeSpikes, spikeEntities } from "./spikes";
+import { failures } from "./failures";
+import { pipelineTrials } from "./pipeline-trials";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -31,4 +33,6 @@ export const ALL_INPUTS: EntityInput[] = [
   ...roadmaps,
   ...ideas,
   ...collections,
+  ...failures,
+  ...pipelineTrials,
 ];

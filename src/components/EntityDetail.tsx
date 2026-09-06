@@ -16,6 +16,7 @@ import { TrialFinder } from "./TrialFinder";
 import { Questions } from "./Questions";
 import { ExpertCentres } from "./ExpertCentres";
 import { conditionQuery, interventionQuery } from "@/lib/ctgov";
+import { TrialCounts } from "./TrialCounts";
 import structureIndex from "../../public/structures/index.json";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -147,6 +148,7 @@ function KindSpecific({ e }: { e: Entity }) {
       return (
         <>
           {STRUCTURES[e.id] && <div className="mt-8"><MoleculeViewer entries={STRUCTURES[e.id]} /></div>}
+          <div className="mt-6"><TrialCounts drugId={e.id} /></div>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Modality">{e.modality}</Field>
             <Field label="Mechanism">{e.mechanism}</Field>

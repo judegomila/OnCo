@@ -223,7 +223,7 @@ export const trials: TrialInput[] = [
   t({ id: "nhs-galleri", name: "NHS-Galleri", nct: "ISRCTN91431511", phase: "3", status: "completed", sponsor: "NHS England / GRAIL",
     setting: "140,000 asymptomatic adults aged 50-77 randomised to annual Galleri testing or control for 3 years",
     tldr: "The largest cancer screening trial ever run, testing whether a multi-cancer blood test reduces late-stage diagnoses.",
-    summary: "Primary endpoint: reduction in stage III-IV cancer incidence. Interim 2024 results did not trigger early NHS rollout; final results in 2026 feed the FDA PMA. The definitive test of the MCED hypothesis.",
+    summary: "Primary endpoint: reduction in stage III-IV cancer incidence. Interim 2024 results did not trigger early NHS rollout. Final results presented at ASCO 2026: the primary endpoint (stage III-IV reduction) was not met, while stage IV incidence fell by about 14%; the data feed the FDA PMA and the September 2026 advisory committee. See the ASCO 2026 digest for sources.",
     technologies: ["mced"], drugs: ["galleri"], terms: ["stage-shift"], links: [{ label: "NHS-Galleri", url: "https://www.nhs-galleri.org" }] }),
   t({ id: "pathfinder-2", name: "PATHFINDER 2", nct: "NCT05155605", phase: "observational", status: "completed", yearReported: 2025, sponsor: "GRAIL",
     setting: "~35,000 adults ≥50 receiving Galleri alongside standard screening, single-arm",

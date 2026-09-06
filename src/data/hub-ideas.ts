@@ -27,15 +27,15 @@ export const hubIdeas: HubIdea[] = [
 
   // Science and pipeline
   { n: 16, title: "Roadmaps per technology family", why: "History → current → emerging → speculative, with linked evidence. ADC, TROP2, radiopharma, cell therapy, imaging, early detection shipped.", status: "shipped", theme: "Pipeline" },
-  { n: 17, title: "Pipeline tracker with automated ClinicalTrials.gov ingestion", why: "Nightly job pulls phase 2/3 trials for every drug and target in the corpus and flags new ones for review.", status: "planned", theme: "Pipeline" },
-  { n: 18, title: "Readout calendar", why: "Expected trial readouts, FDA PDUFA dates, and advisory committees (e.g., Galleri 23 Sep 2026) on one timeline.", status: "planned", theme: "Pipeline" },
-  { n: 19, title: "Conference digests (ASCO, ESMO, AACR, SABCS, ASH)", why: "Within a week of each congress, update the affected objects and publish a diff.", status: "planned", theme: "Pipeline" },
-  { n: 20, title: "Failure museum", why: "A section for drugs and ideas that failed (TIGIT, magrolimab, rovalpituzumab, iniparib) with what was learned. Failures are data.", status: "building", theme: "Pipeline" },
+  { n: 17, title: "Pipeline tracker with automated ClinicalTrials.gov ingestion", why: "Nightly job pulls phase 2/3 trials for every drug and target in the corpus and flags new ones for review.", status: "shipped", theme: "Pipeline" },
+  { n: 18, title: "Readout calendar", why: "Expected trial readouts, FDA PDUFA dates, and advisory committees (e.g., Galleri 23 Sep 2026) on one timeline.", status: "shipped", theme: "Pipeline" },
+  { n: 19, title: "Conference digests (ASCO, ESMO, AACR, SABCS, ASH)", why: "Within a week of each congress, update the affected objects and publish a diff.", status: "shipped", theme: "Pipeline" },
+  { n: 20, title: "Failure museum", why: "A section for drugs and ideas that failed (TIGIT, magrolimab, rovalpituzumab, iniparib) with what was learned. Failures are data.", status: "shipped", theme: "Pipeline" },
   { n: 21, title: "Pairings and anti-pairings", why: "Combinations that work, sequences that work, and cautions, each with rationale and evidence.", status: "shipped", theme: "Pipeline" },
   { n: 22, title: "Open ideas board with maturity grading", why: "Hypotheses with a proposed test, so the community can argue, refine, and eventually see them tested.", status: "shipped", theme: "Pipeline" },
-  { n: 23, title: "Resistance mechanism atlas", why: "For each drug class, the known escape routes and the drugs designed to close them.", status: "planned", theme: "Pipeline" },
-  { n: 24, title: "Payload and linker registry", why: "Every ADC payload/linker with permeability, efflux susceptibility, and toxicity profile, cross-referenced to ADCs.", status: "planned", theme: "Pipeline" },
-  { n: 25, title: "Isotope supply tracker", why: "Ac-225, Lu-177, Pb-212 production capacity and suppliers, because supply gates the radiopharma roadmap.", status: "proposed", theme: "Pipeline" },
+  { n: 23, title: "Resistance mechanism atlas", why: "For each drug class, the known escape routes and the drugs designed to close them.", status: "shipped", theme: "Pipeline" },
+  { n: 24, title: "Payload and linker registry", why: "Every ADC payload/linker with permeability, efflux susceptibility, and toxicity profile, cross-referenced to ADCs.", status: "shipped", theme: "Pipeline" },
+  { n: 25, title: "Isotope supply tracker", why: "Ac-225, Lu-177, Pb-212 production capacity and suppliers, because supply gates the radiopharma roadmap.", status: "shipped", theme: "Pipeline" },
 
   // Institutions and people
   { n: 26, title: "Global institution map and transparent ranking", why: "Where the centres that matter are, ranked by a formula anyone can inspect and dispute.", status: "shipped", theme: "Institutions" },

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { graph } from "@/lib/graph";
-import { routeFor, type Kind } from "@/lib/schema";
+import { routeFor, type Entity, type Kind } from "@/lib/schema";
 import { Container, PageHeader } from "@/components/ui";
 import { CancerPicker, type PickerCancer } from "@/components/CancerPicker";
 
@@ -8,16 +8,18 @@ export const metadata: Metadata = { title: "For me — pick your cancer type", d
 
 export default function ForMe() {
   const g = graph();
+  // "For me" shows what works and what could work: drop failures, withdrawals, historic items, and caution pairings.
+  const hopeful = (e: Entity) => !["negative", "withdrawn", "historic"].includes(e.status ?? "") && !e.tags.some((t) => t === "failure" || t === "failed-so-far" || t.startsWith("lesson:")) && !(e.kind === "pairing" && e.pairingType === "caution");
   const data: PickerCancer[] = g.kind("cancer").map((c) => {
     const rel = g.forCancer(c.id);
     const groups: Partial<Record<Kind, Array<{ id: string; name: string; tldr: string; route: string; status?: string }>>> = {};
-    for (const [k, list] of rel) groups[k] = list.map((e) => ({ id: e.id, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status }));
-    return { id: c.id, name: c.name, group: c.group, tldr: c.tldr, route: routeFor(c), stateOfArt: c.stateOfArt, pipeline: c.pipeline.map((id) => { const e = g.must(id); return { id, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status }; }), groups };
+    for (const [k, list] of rel) { const kept = list.filter(hopeful); if (kept.length) groups[k] = kept.map((e) => ({ id: e.id, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status })); }
+    return { id: c.id, name: c.name, group: c.group, tldr: c.tldr, route: routeFor(c), stateOfArt: c.stateOfArt, pipeline: c.pipeline.map((id) => g.must(id)).filter(hopeful).map((e) => ({ id: e.id, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status })), groups };
   });
   return (
     <>
       <PageHeader kicker={<span className="kicker">For me</span>} title="Pick your cancer type(s)"
-        lede="Choose one or more. You will see the state of the art, what is in the pipeline, and every technology, product, target, trial, pairing, and idea in OnCo that touches those cancers. Nothing you select leaves your browser. This is orientation, not medical advice." />
+        lede="Choose one or more. You will see the state of the art, what is in the pipeline, and every technology, product, target, trial, pairing, and idea in OnCo that touches those cancers. Failed, withdrawn, and historic items are left out here: this view is about what works and what could work (see the Failure museum for the rest). Nothing you select leaves your browser. This is orientation, not medical advice." />
       <Container className="pb-16">
         <CancerPicker cancers={data} />
       </Container>

@@ -21,7 +21,7 @@ export default function Home() {
           <div className="max-w-3xl">
             <div className="kicker mb-3">Open · cited · one page per object</div>
             <h1 className="text-4xl sm:text-6xl font-semibold tracking-tight leading-[1.05]">
-              The open map of the war on cancer.
+              Total information dominance on cancer.
             </h1>
             <p className="mt-5 text-lg sm:text-xl text-foreground/85 leading-relaxed">
               Every technology, target, product, company, institution, pathway, trial, pairing, roadmap, and idea in oncology, linked together. The state of the art, the history, and what is coming, for every cancer, with a plain-English TL;DR on every page.
@@ -49,8 +49,8 @@ export default function Home() {
 
       <Container>
         <div className="flex items-baseline justify-between mb-4">
-          <h2 className="text-2xl font-semibold tracking-tight">Sections of the field</h2>
-          <Link href="/sections/" className="text-sm underline">All sections</Link>
+          <h2 className="text-2xl font-semibold tracking-tight">Fronts of the war on cancer</h2>
+          <Link href="/fronts/" className="text-sm underline">All fronts</Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {sections.map((s) => {

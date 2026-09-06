@@ -10,14 +10,15 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const metadata: Metadata = {
   title: { default: "OnCo — the open map of oncology", template: "%s · OnCo" },
-  description: "Every technology, target, drug, company, institution, pathway, trial, and idea in the war on cancer. One page per object, linked, with plain-English TL;DRs.",
+  description: "Total information dominance on cancer: every technology, target, product, company, institution, pathway, trial, and idea, one page per object, linked, with plain-English TL;DRs.",
   metadataBase: new URL("https://onco-umber.vercel.app"),
   openGraph: { title: "OnCo — the open map of oncology", description: "The current state of the art, the history, and what is coming, for every cancer.", type: "website" },
 };
 
 const NAV: Array<{ href: string; label: string }> = [
+  { href: "/explore/", label: "Explore" },
   { href: "/cancers/", label: "Cancers" },
-  { href: "/sections/", label: "Sections" },
+  { href: "/fronts/", label: "Fronts" },
   { href: "/technologies/", label: "Technologies" },
   { href: "/drugs/", label: "Products" },
   { href: "/roadmaps/", label: "Roadmaps" },
@@ -57,7 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 A public, cited, editable map of oncology: technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, and ideas. One page per object, with a plain-English TL;DR on every page.
               </p>
               <p className="text-muted mt-3">
-                Not medical advice. Facts carry an “as of” date and change. Check with a clinician and the primary sources linked on each page.
+                Not medical advice. Oncology moves weekly and this map is kept current; check with a clinician and the primary sources linked on each page.
               </p>
             </div>
             <div>

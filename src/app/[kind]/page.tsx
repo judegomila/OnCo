@@ -2,10 +2,13 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { KIND_META, KINDS, routeFor, type Kind } from "@/lib/schema";
-import { Container, EntityCard, PageHeader, StatusChip } from "@/components/ui";
+import { Container, EntityCard, PageHeader } from "@/components/ui";
 import { rankInstitutions } from "@/lib/ranking";
 import { WorldMap } from "@/components/WorldMap";
 import type { Metadata } from "next";
+import { ProductsBrowser, type ProductRow } from "@/components/ProductsBrowser";
+import { Logo } from "@/components/Logo";
+import structureIndex from "../../../public/structures/index.json";
 
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route, k])) as Record<string, Kind>;
 
@@ -33,7 +36,7 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
     const items = g.kind("section").sort((a, b) => a.order - b.order);
     return (
       <>
-        <PageHeader kicker={<span className="kicker">{title}</span>} title="Sections of oncology" lede={meta.blurb} />
+        <PageHeader kicker={<span className="kicker">{title}</span>} title="Fronts of the war on cancer" lede={meta.blurb} />
         <Container>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {items.map((s) => {
@@ -94,22 +97,19 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
   }
 
   if (k === "drug") {
-    const items = g.kind("drug");
-    const order = ["approved", "phase-3", "phase-2", "phase-1", "established", "preclinical"];
-    const byStatus = order.map((s) => ({ s, items: items.filter((d) => (d.status ?? "") === s) })).filter((x) => x.items.length);
-    const rest = items.filter((d) => !order.includes(d.status ?? ""));
+    const lite = (ids: string[]) => ids.map((id) => g.must(id)).map((x) => ({ id: x.id, name: x.name }));
+    const modalityClass = (m: string) => /bispecific adc/i.test(m) ? "Bispecific ADC" : /^adc/i.test(m) ? "ADC" : /engager|immtac/i.test(m) ? "T-cell engager" : /bispecific/i.test(m) ? "Bispecific antibody" : /monoclonal/i.test(m) ? "Monoclonal antibody" : /car-t|til|tcr-t/i.test(m) ? "Cell therapy" : /radioligand|alpha|theranostic/i.test(m) ? "Radiopharmaceutical" : /pet imaging/i.test(m) ? "Imaging agent" : /vaccine/i.test(m) ? "Vaccine" : /oncolytic/i.test(m) ? "Oncolytic virus" : /device/i.test(m) ? "Device" : /test|assay|profiling|detection|diagnostic/i.test(m) ? "Diagnostic test" : /cytotoxic/i.test(m) ? "Chemotherapy" : /protac|degrader/i.test(m) ? "Degrader" : /small-molecule|serd|inhibitor/i.test(m) ? "Small molecule" : m;
+    const payloadClass = (p?: string) => !p ? undefined : /top|sn-38|dxd|exatecan|belotecan|camptothecin|t030|ed-04/i.test(p) ? "Topoisomerase-I" : /mmae|mmaf|dm1|dm4|maytans|auristatin|tubulin/i.test(p) ? "Tubulin" : /pbd|calicheamicin|dna/i.test(p) ? "DNA-damaging" : "Other";
+    const rows: ProductRow[] = g.kind("drug").map((d) => ({
+      id: d.id, name: d.name, brand: d.brand, code: d.code, tldr: d.tldr, route: routeFor(d), status: d.status, modality: d.modality, modalityClass: modalityClass(d.modality), payloadClass: payloadClass(d.payload),
+      targets: lite(d.targets), cancers: lite(d.cancers), companies: lite(d.companies), sections: lite([...new Set(d.technologies.flatMap((t) => g.must(t).sections))]),
+      firstApproval: d.approvals.length ? Math.min(...d.approvals.map((a) => a.year)) : undefined, latestApproval: d.approvals.length ? Math.max(...d.approvals.map((a) => a.year)) : undefined,
+      hasStructure: d.id in (structureIndex as Record<string, unknown>),
+    }));
     return (
       <>
-        <PageHeader kicker={<span className="kicker">{title}</span>} title="Products" lede={meta.blurb} />
-        <Container>
-          {byStatus.map(({ s, items }) => (
-            <section key={s} className="mt-8">
-              <div className="flex items-center gap-2 mb-3"><StatusChip status={s} /><span className="text-xs text-muted">{items.length}</span></div>
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{items.map((d) => <EntityCard key={d.id} e={d} compact />)}</div>
-            </section>
-          ))}
-          {rest.length > 0 && <section className="mt-8"><div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{rest.map((d) => <EntityCard key={d.id} e={d} compact />)}</div></section>}
-        </Container>
+        <PageHeader kicker={<span className="kicker">{title}</span>} title="Products" lede={meta.blurb} right={<Link href="/explore/?kind=drug" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Rank by cancer type →</Link>} />
+        <Container className="pb-16"><ProductsBrowser rows={rows} /></Container>
       </>
     );
   }
@@ -150,7 +150,12 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
           {types.map((t) => (
             <section key={t} className="mt-8">
               <h2 className="text-lg font-semibold mb-3">{label[t] ?? t}</h2>
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{items.filter((c) => c.companyType === t).map((c) => <EntityCard key={c.id} e={c} compact />)}</div>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{items.filter((c) => c.companyType === t).map((c) => (
+                <Link key={c.id} href={routeFor(c)} className="card p-4 hover:shadow-md transition flex gap-3 items-start">
+                  <Logo website={c.website} name={c.name} size={44} />
+                  <span className="min-w-0"><span className="block font-semibold leading-snug">{c.name}</span><span className="block text-xs text-muted mt-0.5 line-clamp-2">{c.tldr}</span></span>
+                </Link>
+              ))}</div>
             </section>
           ))}
         </Container>
@@ -192,7 +197,7 @@ function InstitutionsIndex() {
               {ranked.map((r) => (
                 <tr key={r.institution.id}>
                   <td className="tabular-nums">{r.rank}</td>
-                  <td><Link href={routeFor(r.institution)} className="font-medium hover:underline">{r.institution.name}</Link>{r.institution.university && <div className="text-xs text-muted">{r.institution.university}</div>}</td>
+                  <td><div className="flex items-center gap-2"><Logo website={r.institution.website} name={r.institution.name} size={28} /><div><Link href={routeFor(r.institution)} className="font-medium hover:underline">{r.institution.name}</Link>{r.institution.university && <div className="text-xs text-muted">{r.institution.university}</div>}</div></div></td>
                   <td className="text-muted">{r.institution.city}, {r.institution.country}</td>
                   <td className="text-muted capitalize">{r.institution.institutionType.replace("-", " ")}</td>
                   <td className="tabular-nums">{r.institution.newsweekOncology2026 ?? "—"}</td>

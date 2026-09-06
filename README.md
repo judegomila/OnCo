@@ -27,7 +27,7 @@ Counts are as of the first build (2026-09-04). Run `npm run validate` for the cu
 
 ## The rules for facts
 
-1. **Say when.** Every object carries an `asOf` date.
+1. **Keep it current.** Every object carries an internal `asOf` last-checked date for maintainers; the site shows current state, not timestamps.
 2. **Prefer a link to a remembered number.** Headline trial figures are quoted only when sourced on the page or in the linked trial record.
 3. **Evidence tier is visible.** Approved / phase 3 / phase 2 / phase 1 / preclinical / concept, colour-coded everywhere.
 4. **Ideas are labelled as ideas**, with a maturity grade and a proposed test.

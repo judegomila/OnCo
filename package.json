@@ -10,7 +10,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint",
-    "start": "npx serve out"
+    "start": "npx serve out",
+    "fetch:structures": "tsx scripts/fetch-structures.ts"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

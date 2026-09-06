@@ -20,7 +20,7 @@ export default function About() {
         <section>
           <h2 className="text-xl font-semibold mb-2">The rules for facts</h2>
           <ol className="list-decimal pl-5 space-y-1.5">
-            <li><strong>Say when.</strong> Every object carries an <code>asOf</code> date. Oncology changes weekly; a fact without a date is a rumour.</li>
+            <li><strong>Keep it current.</strong> Oncology changes weekly. Each record carries an internal last-checked date used by maintainers; the public page shows the current state, not a timestamp.</li>
             <li><strong>Prefer a link to a remembered number.</strong> Trial results quote the headline figure only when it is sourced on the page or in the linked trial record. Where a figure is approximate it says so.</li>
             <li><strong>Evidence tier is visible.</strong> Approved, phase 3, phase 2, phase 1, preclinical, concept: colour-coded on every card.</li>
             <li><strong>Ideas are labelled as ideas</strong>, with a maturity grade and a proposed test, so speculation cannot be mistaken for evidence.</li>

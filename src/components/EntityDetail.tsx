@@ -7,6 +7,11 @@ import { Bullets, ChipList, Container, KindChip, PageHeader, Section, StatusChip
 import { Neighbours } from "./Neighbours";
 import { PathwayDiagram } from "./PathwayDiagram";
 import { rankInstitutions } from "@/lib/ranking";
+import { MoleculeViewer, type StructureEntry } from "./MoleculeViewer";
+import { Logo } from "./Logo";
+import structureIndex from "../../public/structures/index.json";
+
+const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
 function Refs({ ids }: { ids: string[] }) {
   const g = graph();
@@ -35,11 +40,9 @@ export function EntityDetail({ e }: { e: Entity }) {
         kicker={<><Link href={`/${meta.route}/`} className="kicker hover:underline">{meta.plural}</Link><KindChip kind={e.kind} /><StatusChip status={e.status} /></>}
         title={e.name}
         lede={e.tldr}
+        logo={"website" in e ? <Logo website={e.website} name={e.name} size={64} /> : "url" in e && e.kind === "collection" ? <Logo website={e.url} name={e.name} size={64} /> : undefined}
         right={
-          <div className="text-xs text-muted text-right">
-            <div>as of {e.asOf}</div>
-            {e.aka.length > 0 && <div className="mt-1 max-w-xs">aka {e.aka.join(", ")}</div>}
-          </div>
+          e.aka.length > 0 ? <div className="text-xs text-muted text-right max-w-xs">aka {e.aka.join(", ")}</div> : undefined
         }
       />
       <Container className="pb-16">
@@ -84,7 +87,7 @@ export function EntityDetail({ e }: { e: Entity }) {
 function QuickLinks({ e }: { e: Entity }) {
   const g = graph();
   const rows: Array<[string, string[]]> = [
-    ["Cancers", e.cancers], ["Sections", e.sections], ["Technologies", e.technologies], ["Targets", e.targets], ["Products", e.drugs], ["Companies", e.companies], ["Institutions", e.institutions], ["Pathways", e.pathways], ["Terms", e.terms], ["Trials", e.trials], ["Related", e.related],
+    ["Cancers", e.cancers], ["Fronts", e.sections], ["Technologies", e.technologies], ["Targets", e.targets], ["Products", e.drugs], ["Companies", e.companies], ["Institutions", e.institutions], ["Pathways", e.pathways], ["Terms", e.terms], ["Trials", e.trials], ["Related", e.related],
   ];
   const nonEmpty = rows.filter(([, ids]) => ids.length);
   if (!nonEmpty.length) return null;
@@ -132,6 +135,7 @@ function KindSpecific({ e }: { e: Entity }) {
     case "drug":
       return (
         <>
+          {STRUCTURES[e.id] && <div className="mt-8"><MoleculeViewer entries={STRUCTURES[e.id]} /></div>}
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Modality">{e.modality}</Field>
             <Field label="Mechanism">{e.mechanism}</Field>
@@ -233,7 +237,7 @@ function KindSpecific({ e }: { e: Entity }) {
     case "section": {
       const techs = g.incoming(e.id).get("technology") ?? [];
       return (
-        <Section title={`Technologies in this section (${techs.length})`}>
+        <Section title={`Technologies on this front (${techs.length})`}>
           <div className="grid gap-3 sm:grid-cols-2">{techs.map((t) => <Link key={t.id} href={routeFor(t)} className="card p-3 hover:shadow-md transition"><div className="flex items-center gap-2 mb-1"><StatusChip status={t.status} /></div><div className="font-medium">{t.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{t.tldr}</p></Link>)}</div>
         </Section>
       );

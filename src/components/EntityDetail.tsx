@@ -9,6 +9,9 @@ import { PathwayDiagram } from "./PathwayDiagram";
 import { rankInstitutions } from "@/lib/ranking";
 import { MoleculeViewer, type StructureEntry } from "./MoleculeViewer";
 import { Logo } from "./Logo";
+import { JsonLd } from "./JsonLd";
+import { PrintButton } from "./PrintButton";
+import { EmbedSnippet } from "./EmbedSnippet";
 import structureIndex from "../../public/structures/index.json";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -36,6 +39,7 @@ export function EntityDetail({ e }: { e: Entity }) {
 
   return (
     <>
+      <JsonLd e={e} />
       <PageHeader
         kicker={<><Link href={`/${meta.route}/`} className="kicker hover:underline">{meta.plural}</Link><KindChip kind={e.kind} /><StatusChip status={e.status} /></>}
         title={e.name}
@@ -73,8 +77,11 @@ export function EntityDetail({ e }: { e: Entity }) {
               <div><div className="kicker mb-1">Data</div>
                 <a className="underline" href={`/api/v1/entities/${e.id}.json`}>JSON</a>
                 <span className="text-muted"> · </span>
-                <a className="underline" href={`https://github.com/judegomila/OnCo/blob/main/src/data/${meta.plural === "products" ? "drugs" : meta.plural}.ts`} rel="noopener">Edit on GitHub</a>
+                <a className="underline" href={`https://github.com/judegomila/OnCo/blob/main/src/data/${meta.plural === "products" ? "drugs" : meta.plural === "fronts" ? "sections" : meta.plural}.ts`} rel="noopener">Edit on GitHub</a>
+                <span className="text-muted"> · </span>
+                <PrintButton className="underline" />
               </div>
+              <EmbedSnippet id={e.id} name={e.name} />
             </div>
             <QuickLinks e={e} />
           </aside>

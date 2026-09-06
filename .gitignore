@@ -42,3 +42,6 @@ next-env.d.ts
 
 # generated API
 /public/api/v1/
+
+# local agent worktrees
+.claude/

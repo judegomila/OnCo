@@ -10,7 +10,7 @@ export const hubIdeas: HubIdea[] = [
   { n: 1, title: "Page per object, backlinks everywhere", why: "Every technology, target, drug, company, trial, and term has a URL and shows what links to it. That is what makes a hub rather than a list.", status: "shipped", theme: "Knowledge graph" },
   { n: 2, title: "Non-technical TL;DR on every page", why: "Patients, families, journalists, and investors should get the point in one sentence before the jargon.", status: "shipped", theme: "Knowledge graph" },
   { n: 3, title: "Public JSON API of the whole corpus", why: "Let others build on the data: trial matchers, chatbots, dashboards. Published at /api/v1/.", status: "shipped", theme: "Knowledge graph" },
-  { n: 4, title: "Graph explorer", why: "An interactive force graph to navigate from a cancer to its targets to the drugs and the companies, visually.", status: "planned", theme: "Knowledge graph" },
+  { n: 4, title: "Graph explorer", why: "An interactive force graph to navigate from a cancer to its targets to the drugs and the companies, visually.", status: "shipped", theme: "Knowledge graph" },
   { n: 5, title: "Wikidata / Wikipedia cross-linking and edit-back", why: "Push structured facts to Wikidata and pull Wikipedia summaries, so the hub and the commons improve each other.", status: "proposed", theme: "Knowledge graph" },
   { n: 6, title: "'As of' dates and change log on every fact", why: "Oncology changes weekly. Show when each fact was checked and what changed, like a package changelog.", status: "building", theme: "Knowledge graph" },
   { n: 7, title: "Evidence tiers (approved / phase 3 / phase 2 / preclinical / concept) as a visual language", why: "Colour and badge every claim by evidence level so hype is visible at a glance.", status: "shipped", theme: "Knowledge graph" },
@@ -54,18 +54,18 @@ export const hubIdeas: HubIdea[] = [
 
   // Tools
   { n: 37, title: "Full-text search across all objects", why: "Client-side index; works offline; no server.", status: "shipped", theme: "Tools" },
-  { n: 38, title: "Compare view", why: "Side-by-side of two drugs (e.g., sacituzumab vs Dato-DXd) or two technologies with the same fields.", status: "planned", theme: "Tools" },
-  { n: 39, title: "Embeddable cards", why: "One line of HTML to embed an OnCo object card in a blog, hospital site, or Wikipedia talk page.", status: "proposed", theme: "Tools" },
+  { n: 38, title: "Compare view", why: "Side-by-side of two drugs (e.g., sacituzumab vs Dato-DXd) or two technologies with the same fields.", status: "shipped", theme: "Tools" },
+  { n: 39, title: "Embeddable cards", why: "One line of HTML to embed an OnCo object card in a blog, hospital site, or Wikipedia talk page.", status: "shipped", theme: "Tools" },
   { n: 40, title: "MCP server", why: "Expose the corpus to AI assistants via Model Context Protocol so any chatbot can cite OnCo.", status: "planned", theme: "Tools" },
   { n: 41, title: "Pathway diagrams with clickable nodes", why: "Each node links to its target page and the drugs against it.", status: "shipped", theme: "Tools" },
   { n: 42, title: "Tumour board mode", why: "Enter a molecular profile (mutations, IHC) and get the relevant targets, drugs, trials, and cautions in one printable view.", status: "planned", theme: "Tools" },
   { n: 43, title: "Reading paths", why: "Curated sequences of pages: 'ADCs in 30 minutes', 'Understand your TNBC diagnosis', 'Radiopharma for investors'.", status: "planned", theme: "Tools" },
-  { n: 44, title: "Print and PDF export of any page", why: "Patients bring printouts to appointments.", status: "planned", theme: "Tools" },
+  { n: 44, title: "Print and PDF export of any page", why: "Patients bring printouts to appointments.", status: "shipped", theme: "Tools" },
 
   // Reach
   { n: 45, title: "Open licensing (MIT code, CC BY data)", why: "Maximise reuse; require attribution so improvements flow back.", status: "shipped", theme: "Reach" },
   { n: 46, title: "Static, fast, cheap hosting", why: "Static export on Vercel; loads anywhere including low-bandwidth settings.", status: "shipped", theme: "Reach" },
-  { n: 47, title: "Schema.org structured data for search engines", why: "MedicalCondition, Drug, MedicalStudy markup so the hub is machine-readable to Google and AI crawlers.", status: "planned", theme: "Reach" },
+  { n: 47, title: "Schema.org structured data for search engines", why: "MedicalCondition, Drug, MedicalStudy markup so the hub is machine-readable to Google and AI crawlers.", status: "shipped", theme: "Reach" },
   { n: 48, title: "Partnerships with existing collections", why: "Link out to and ingest from OncoKB, CIViC, ClinicalTrials.gov, ADCdb, NCI PDQ rather than duplicating them.", status: "building", theme: "Reach" },
   { n: 49, title: "Cancer-by-cancer spikes with domain experts", why: "TNBC is first. Next: pancreatic, NSCLC, prostate, glioblastoma, each with a named expert reviewer.", status: "building", theme: "Reach" },
   { n: 50, title: "Annual 'State of the War on Cancer' report", why: "Generated from the corpus: approvals, failures, roadmap progress, open problems. A yearly reference point.", status: "proposed", theme: "Reach" },

@@ -17,6 +17,7 @@ import { mergeSpikes, spikeEntities } from "./spikes";
 import { failures } from "./failures";
 import { pipelineTrials } from "./pipeline-trials";
 import { groups } from "./groups";
+import { frontier } from "./frontier";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -37,4 +38,5 @@ export const ALL_INPUTS: EntityInput[] = [
   ...failures,
   ...pipelineTrials,
   ...groups,
+  ...frontier,
 ];

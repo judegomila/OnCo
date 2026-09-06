@@ -931,7 +931,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "epigenetic-drugs", kind: "technology", name: "Epigenetic drugs (HDAC, DNMT, EZH2, IDH, menin, BET)", sections: ["epigenetics"], status: "approved", asOf, wikipedia: W("Epigenetic_therapy"),
     tldr: "Drugs that change how genes are switched on and off without changing the DNA itself.",
-    summary: "Azacitidine/decitabine (DNMT) in MDS/AML, HDAC inhibitors in T-cell lymphoma, tazemetostat (EZH2), ivosidenib/vorasidenib (IDH), revumenib/ziftomenib (menin), and BET inhibitors (pelabresib in myelofibrosis). Solid tumour activity is limited so far except for IDH and EZH2 in defined subsets; combinations to re-sensitise to immunotherapy or hormone therapy are the hope.",
+    summary: "Azacitidine/decitabine (DNMT) in MDS/AML, HDAC inhibitors in T-cell lymphoma, tazemetostat (EZH2; withdrawn worldwide March 2026 over secondary blood cancers), ivosidenib/vorasidenib (IDH), revumenib/ziftomenib (menin), and BET inhibitors (pelabresib in myelofibrosis). Solid tumour activity is limited so far except for IDH and EZH2 in defined subsets; combinations to re-sensitise to immunotherapy or hormone therapy are the hope.",
     principle: "Inhibit writers, erasers, or readers of DNA and histone marks, or scaffold proteins that tether them.",
     strengths: ["Differentiation rather than cytotoxicity", "Defined genetic subsets respond"],
     limitations: ["Broad effects; modest solid tumour activity"],

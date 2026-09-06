@@ -489,9 +489,9 @@ export const targets: TargetInput[] = [
     tags: ["epigenetic"],
   },
   {
-    id: "ezh2", kind: "target", name: "EZH2", symbol: "EZH2", targetClass: "enzyme", asOf, wikipedia: W("EZH2"),
-    tldr: "An enzyme that silences genes; blocking it treats a rare sarcoma and some lymphomas.",
-    summary: "Tazemetostat is approved in epithelioid sarcoma and EZH2-mutant follicular lymphoma. EZH2 inhibition is being explored to re-sensitise prostate and small-cell lung cancers.",
+    id: "ezh2", kind: "target", name: "EZH2", symbol: "EZH2", targetClass: "enzyme", asOf, wikipedia: W("EZH2"), links: [{ label: "FDA alert: Tazverik withdrawal (March 2026)", url: "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerts-health-care-providers-and-patients-about-increased-risk-new-blood-cancers-tazverik" }],
+    tldr: "An enzyme that silences genes. The first drug against it treated a rare sarcoma and some lymphomas until it was withdrawn in 2026 for causing second blood cancers.",
+    summary: "Tazemetostat was approved in epithelioid sarcoma (2020) and EZH2-mutant follicular lymphoma, but Ipsen withdrew it from all markets and indications on 9 March 2026 after the SYMPHONY-1 trial showed excess secondary haematologic malignancies (FDA alert March 2026). EZH2 inhibition continues to be explored (mevrometostat in prostate cancer; SCLC re-sensitisation), now under a safety cloud.",
     biology: "Catalytic subunit of PRC2, writes H3K27me3.",
     whereFound: ["Epithelioid sarcoma (INI1 loss)", "Follicular lymphoma", "Castration-resistant prostate cancer"],
     cancers: ["sarcoma", "prostate", "dlbcl"],

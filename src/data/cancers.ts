@@ -482,7 +482,7 @@ export const cancers: CancerInput[] = [
     biomarkers: ["Histologic subtype", "KIT/PDGFRA (GIST)", "MAGE-A4 + HLA-A*02", "NTRK fusions", "INI1 loss", "CDK4/MDM2 amplification (liposarcoma)"],
     standardOfCare: [
       { setting: "Localised STS", approach: "Wide excision + radiation; neoadjuvant chemotherapy for high-risk.", refs: ["imrt-igrt", "proton-therapy", "hyperthermia"] },
-      { setting: "Advanced", approach: "Doxorubicin ± ifosfamide; subtype-directed: imatinib, afami-cel, tazemetostat, larotrectinib.", refs: ["imatinib", "afamitresgene-autoleucel"] },
+      { setting: "Advanced", approach: "Doxorubicin ± ifosfamide; subtype-directed: imatinib, afami-cel, larotrectinib (tazemetostat was withdrawn in March 2026).", refs: ["imatinib", "afamitresgene-autoleucel"] },
     ],
     stateOfArt: ["Subtype-specific targeted and cellular therapies."],
     history: [{ year: 2002, title: "Imatinib for GIST", refs: ["imatinib"] }, { year: 2024, title: "Afami-cel: first TCR-T for a solid tumour", refs: ["afamitresgene-autoleucel"] }],

@@ -67,6 +67,6 @@ export const hubIdeas: HubIdea[] = [
   { n: 46, title: "Static, fast, cheap hosting", why: "Static export on Vercel; loads anywhere including low-bandwidth settings.", status: "shipped", theme: "Reach" },
   { n: 47, title: "Schema.org structured data for search engines", why: "MedicalCondition, Drug, MedicalStudy markup so the hub is machine-readable to Google and AI crawlers.", status: "shipped", theme: "Reach" },
   { n: 48, title: "Partnerships with existing collections", why: "Link out to and ingest from OncoKB, CIViC, ClinicalTrials.gov, ADCdb, NCI PDQ rather than duplicating them.", status: "building", theme: "Reach" },
-  { n: 49, title: "Cancer-by-cancer spikes with domain experts", why: "TNBC is first. Next: pancreatic, NSCLC, prostate, glioblastoma, each with a named expert reviewer.", status: "building", theme: "Reach" },
+  { n: 49, title: "Cancer-by-cancer spikes with domain experts", why: "TNBC is first. Next: pancreatic, NSCLC, prostate, glioblastoma, each with a named expert reviewer.", status: "shipped", theme: "Reach" },
   { n: 50, title: "Annual 'State of the War on Cancer' report", why: "Generated from the corpus: approvals, failures, roadmap progress, open problems. A yearly reference point.", status: "shipped", theme: "Reach" },
 ];

@@ -64,3 +64,6 @@ table.onco tr:hover td { background: color-mix(in srgb, var(--foreground) 3%, tr
   h1 { font-size: 22pt; } h2 { font-size: 15pt; margin-top: 1.2em; }
   .line-clamp-2, .line-clamp-3 { -webkit-line-clamp: unset; display: block; }
 }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }

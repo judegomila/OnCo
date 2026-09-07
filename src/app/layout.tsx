@@ -3,7 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import { CommandPalette, PaletteTrigger } from "@/components/CommandPalette";
-import { KIND_META, KINDS } from "@/lib/schema";
+import { NavMenu } from "@/components/NavMenu";
+import { NAV_GROUPS } from "@/lib/nav";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -15,20 +16,6 @@ export const metadata: Metadata = {
   openGraph: { title: "OnCo — the open map of oncology", description: "The current state of the art, the history, and what is coming, for every cancer.", type: "website" },
 };
 
-const NAV: Array<{ href: string; label: string }> = [
-  { href: "/explore/", label: "Explore" },
-  { href: "/cancers/", label: "Cancers" },
-  { href: "/fronts/", label: "Fronts" },
-  { href: "/technologies/", label: "Technologies" },
-  { href: "/drugs/", label: "Products" },
-  { href: "/roadmaps/", label: "Roadmaps" },
-  { href: "/institutions/", label: "Institutions" },
-  { href: "/for-me/", label: "For me" },
-  { href: "/tumor-board/", label: "Tumour board" },
-  { href: "/paths/", label: "Paths" },
-  { href: "/calendar/", label: "Calendar" },
-  { href: "/graph/", label: "Graph" },
-];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -41,13 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span>OnCo</span>
               <span className="hidden sm:inline text-muted font-normal text-sm">the open map of oncology</span>
             </Link>
-            <nav className="hidden lg:flex items-center gap-1 text-sm ml-4">
-              {NAV.map((n) => (
-                <Link key={n.href} href={n.href} className="px-2.5 py-1.5 rounded-md hover:bg-foreground/5 text-foreground/80 hover:text-foreground">
-                  {n.label}
-                </Link>
-              ))}
-            </nav>
+            <div className="ml-2"><NavMenu /></div>
             <div className="ml-auto w-full max-w-xs sm:max-w-sm">
               <PaletteTrigger className="w-full" />
             </div>
@@ -56,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CommandPalette />
         <main className="flex-1">{children}</main>
         <footer className="border-t border-border mt-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10 grid gap-8 md:grid-cols-4 text-sm">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-7 text-sm">
             <div className="md:col-span-2">
               <div className="font-semibold mb-2">OnCo</div>
               <p className="text-muted max-w-md">
@@ -66,41 +47,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 Not medical advice. Oncology moves weekly and this map is kept current; check with a clinician and the primary sources linked on each page.
               </p>
             </div>
-            <div>
-              <div className="kicker mb-2">Browse</div>
-              <ul className="space-y-1">
-                {KINDS.map((k) => (
-                  <li key={k}>
-                    <Link className="hover:underline" href={`/${KIND_META[k].route}/`}>{KIND_META[k].plural[0].toUpperCase() + KIND_META[k].plural.slice(1)}</Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <div className="kicker mb-2">Project</div>
-              <ul className="space-y-1">
-                <li><Link className="hover:underline" href="/about/">About & methodology</Link></li>
-                <li><Link className="hover:underline" href="/hub/">50 ideas for the hub</Link></li>
-                <li><Link className="hover:underline" href="/universities/">University output</Link></li>
-                <li><Link className="hover:underline" href="/leadership/">Trial leadership</Link></li>
-                <li><Link className="hover:underline" href="/funding/">Funding flows</Link></li>
-                <li><Link className="hover:underline" href="/gaps/">Gaps to fill</Link></li>
-                <li><Link className="hover:underline" href="/changelog/">Changelog</Link></li>
-                <li><Link className="hover:underline" href="/report/2026/">State of the war 2026</Link></li>
-                <li><Link className="hover:underline" href="/calendar/">Readout calendar</Link></li>
-                <li><Link className="hover:underline" href="/digests/">Congress digests</Link></li>
-                <li><Link className="hover:underline" href="/failures/">Failure museum</Link></li>
-                <li><Link className="hover:underline" href="/resistance/">Resistance atlas</Link></li>
-                <li><Link className="hover:underline" href="/payloads/">Payloads & linkers</Link></li>
-                <li><Link className="hover:underline" href="/isotopes/">Isotope supply</Link></li>
-                <li><Link className="hover:underline" href="/tumor-board/">Tumour board</Link></li>
-                <li><Link className="hover:underline" href="/paths/">Reading paths</Link></li>
-                <li><Link className="hover:underline" href="/compare/">Compare</Link></li>
-                <li><Link className="hover:underline" href="/graph/">Graph explorer</Link></li>
-                <li><Link className="hover:underline" href="/api/">Open API</Link></li>
-                <li><a className="hover:underline" href="https://github.com/judegomila/OnCo" rel="noopener">GitHub</a></li>
-              </ul>
-            </div>
+            {NAV_GROUPS.map((g) => (
+              <div key={g.id}>
+                <div className="kicker mb-2"><Link className="hover:underline" href={g.href}>{g.label}</Link></div>
+                <ul className="space-y-1">
+                  {g.items.map((it) => <li key={it.href}>{it.href.startsWith("http") ? <a className="hover:underline" href={it.href} rel="noopener">{it.label}</a> : <Link className="hover:underline" href={it.href}>{it.label}</Link>}</li>)}
+                </ul>
+              </div>
+            ))}
           </div>
         </footer>
       </body>

@@ -1,9 +1,10 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import type { Cancer, Entity, Roadmap } from "@/lib/schema";
 import { KIND_META, routeFor } from "@/lib/schema";
 import { graph } from "@/lib/graph";
 import { paragraphs, KIND_COLOR, statusClass } from "@/lib/text";
-import { Bullets, ChipList, Container, KindChip, PageHeader, Section, StatusChip } from "./ui";
+import { Bullets, ChipList, Container, KindChip, PageHeader, StatusChip } from "./ui";
 import { Neighbours } from "./Neighbours";
 import { PathwayDiagram } from "./PathwayDiagram";
 import { rankInstitutions } from "@/lib/ranking";
@@ -21,6 +22,7 @@ import { ReviewBadge } from "./ReviewBadge";
 import { TechSchematic } from "./TechSchematic";
 import { Wireframe3D } from "./Wireframe3D";
 import { schematicFor } from "@/data/schematics";
+import { Tabs, type Tab } from "./Tabs";
 import structureIndex from "../../public/structures/index.json";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -31,7 +33,7 @@ function Refs({ ids }: { ids: string[] }) {
   return <ChipList items={items} />;
 }
 
-function Field({ label, children }: { label: string; children: React.ReactNode }) {
+function Field({ label, children }: { label: string; children: ReactNode }) {
   if (children === undefined || children === null || children === "" || (Array.isArray(children) && children.length === 0)) return null;
   return (
     <div>
@@ -41,10 +43,30 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
   );
 }
 
+function Block({ title, children, aside }: { title?: string; children: ReactNode; aside?: ReactNode }) {
+  return (
+    <section className="mt-8 first:mt-0">
+      {title && <div className="flex items-baseline justify-between gap-4 mb-3"><h2 className="text-lg font-semibold tracking-tight">{title}</h2>{aside}</div>}
+      {children}
+    </section>
+  );
+}
+
+const Summary = ({ e }: { e: Entity }) => (
+  <div className="prose-onco text-[15px] leading-relaxed max-w-3xl">{paragraphs(e.summary).map((p, i) => <p key={i}>{p}</p>)}</div>
+);
+
 export function EntityDetail({ e }: { e: Entity }) {
   const g = graph();
   const neighbours = g.neighbours(e.id);
   const meta = KIND_META[e.kind];
+  const nCon = [...neighbours.values()].reduce((a, l) => a + l.length, 0);
+
+  const tabs: Tab[] = [
+    ...kindTabs(e),
+    ...(e.notes.length ? [{ id: "notes", label: "Notes", content: <Bullets items={e.notes} /> }] : []),
+    { id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} /> },
+  ];
 
   return (
     <>
@@ -54,27 +76,15 @@ export function EntityDetail({ e }: { e: Entity }) {
         title={e.name}
         lede={e.tldr}
         logo={"website" in e ? <Logo website={e.website} name={e.name} size={64} /> : "url" in e && e.kind === "collection" ? <Logo website={e.url} name={e.name} size={64} /> : undefined}
-        right={
-          e.aka.length > 0 ? <div className="text-xs text-muted text-right max-w-xs">aka {e.aka.join(", ")}</div> : undefined
-        }
+        right={e.aka.length > 0 ? <div className="text-xs text-muted text-right max-w-xs">aka {e.aka.join(", ")}</div> : undefined}
       />
       <Container className="pb-16">
-        <div className="grid gap-10 lg:grid-cols-[1fr_320px]">
+        <div className="grid gap-10 lg:grid-cols-[1fr_300px]">
           <div className="min-w-0">
-            <div className="prose-onco text-[15px] leading-relaxed max-w-3xl">
-              {paragraphs(e.summary).map((p, i) => <p key={i}>{p}</p>)}
-            </div>
-
-            <KindSpecific e={e} />
-
-            {e.notes.length > 0 && <Section title="Notes"><Bullets items={e.notes} /></Section>}
-
-            <Section title="Connected">
-              <Neighbours groups={neighbours} />
-            </Section>
+            {tabs.length > 2 ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} /> : <div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>}
           </div>
 
-          <aside className="space-y-4 lg:sticky lg:top-20 self-start">
+          <aside className="space-y-4 lg:sticky lg:top-28 self-start">
             <ReviewBadge id={e.id} />
             <div className="card p-4 text-sm space-y-3">
               {e.wikipedia && <div><div className="kicker mb-1">Wikipedia</div><a className="underline break-all" href={e.wikipedia} rel="noopener">{decodeURIComponent(e.wikipedia.replace("https://en.wikipedia.org/wiki/", "")).replace(/_/g, " ")}</a></div>}
@@ -120,41 +130,43 @@ function QuickLinks({ e }: { e: Entity }) {
   );
 }
 
-function KindSpecific({ e }: { e: Entity }) {
+/** Per-kind tabs. The first tab is always "Overview" and contains the summary. */
+function kindTabs(e: Entity): Tab[] {
   const g = graph();
+  const overview = (extra?: ReactNode): Tab => ({ id: "overview", label: "Overview", content: <><Summary e={e} />{extra}</> });
+
   switch (e.kind) {
     case "cancer":
-      return <CancerDetail c={e} />;
+      return cancerTabs(e);
     case "technology":
-      return (
-        <>
+      return [
+        overview(<>
           <div className="mt-8"><TechSchematic tech={e} /></div>
-          <Section title="How it works"><p className="text-[15px] leading-relaxed max-w-3xl">{e.principle}</p></Section>
+          <Block title="How it works"><p className="text-[15px] leading-relaxed max-w-3xl">{e.principle}</p></Block>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Strengths"><Bullets items={e.strengths} /></Field>
             <Field label="Limitations"><Bullets items={e.limitations} /></Field>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2 mt-6">
             <Field label="Generation">{e.generation}</Field>
             <Field label="Since">{e.since}</Field>
           </div>
-        </>
-      );
+        </>),
+        ...productsTab(g.incoming(e.id).get("drug") ?? []),
+      ];
     case "target":
-      return (
-        <>
-          <Section title="Biology"><p className="text-[15px] leading-relaxed max-w-3xl">{e.biology}</p></Section>
+      return [
+        overview(<>
+          <Block title="Biology"><p className="text-[15px] leading-relaxed max-w-3xl">{e.biology}</p></Block>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Where it is found"><Bullets items={e.whereFound} /></Field>
             <Field label="Class"><span className="capitalize">{e.targetClass.replace("-", " ")}</span>{e.symbol && <span className="text-muted"> · {e.symbol}</span>}</Field>
           </div>
-        </>
-      );
+        </>),
+        ...productsTab(g.incoming(e.id).get("drug") ?? []),
+      ];
     case "drug":
-      return (
-        <>
+      return [
+        overview(<>
           {STRUCTURES[e.id] ? <div className="mt-8"><MoleculeViewer entries={STRUCTURES[e.id]} /></div> : <DrugSchematic technologies={e.technologies} modality={e.modality} />}
-          <div className="mt-6"><TrialCounts drugId={e.id} /></div>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Modality">{e.modality}</Field>
             <Field label="Mechanism">{e.mechanism}</Field>
@@ -162,28 +174,26 @@ function KindSpecific({ e }: { e: Entity }) {
             <Field label="Payload">{e.payload}</Field>
             <Field label="Linker">{e.linker}</Field>
           </div>
-          {e.approvals.length > 0 && (
-            <Section title="Approvals">
-              <table className="onco"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
-                <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> — {a.note}</span>}</td></tr>)}</tbody></table>
-            </Section>
-          )}
-          <Section title="Recruiting trials (live from ClinicalTrials.gov)"><TrialFinder intervention={interventionQuery(e.name)} title={e.name} /></Section>
-        </>
-      );
+        </>),
+        ...(e.approvals.length ? [{ id: "approvals", label: "Approvals", count: e.approvals.length, content: (
+          <table className="onco"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
+            <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> — {a.note}</span>}</td></tr>)}</tbody></table>) }] : []),
+        { id: "trials", label: "Trials", content: <><TrialCounts drugId={e.id} /><Block title="Recruiting now (live from ClinicalTrials.gov)"><TrialFinder intervention={interventionQuery(e.name)} title={e.name} /></Block>{e.trials.length > 0 && <Block title="Landmark trials in OnCo"><Refs ids={e.trials} /></Block>}</> },
+      ];
     case "company":
-      return (
-        <div className="grid gap-6 sm:grid-cols-2 mt-8">
+      return [
+        overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
           <Field label="Headquarters">{e.hq}, {e.country}</Field>
           <Field label="Type"><span className="capitalize">{e.companyType.replace("-", " ")}</span>{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
           <Field label="Website"><a className="underline break-all" href={e.website} rel="noopener">{e.website.replace(/^https?:\/\//, "")}</a></Field>
           <Field label="Founded">{e.founded}</Field>
-        </div>
-      );
+        </div>),
+        ...productsTab([...new Map([...e.drugs.map((id) => g.must(id)), ...(g.incoming(e.id).get("drug") ?? [])].map((d) => [d.id, d])).values()]),
+      ];
     case "institution": {
       const row = rankInstitutions().find((r) => r.institution.id === e.id);
-      return (
-        <>
+      return [
+        overview(<>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Location">{e.city}, {e.country}</Field>
             <Field label="Type"><span className="capitalize">{e.institutionType.replace("-", " ")}</span>{e.university && <span className="text-muted"> · {e.university}</span>}</Field>
@@ -192,35 +202,33 @@ function KindSpecific({ e }: { e: Entity }) {
             <Field label="NCI designation"><span className="capitalize">{e.nci ?? "—"}</span></Field>
             {row && <Field label="OnCo score">#{row.rank} · {row.score} points ({row.newsweekPoints} Newsweek + {row.nciPoints} NCI + {row.linkPoints} from {row.links} linked objects) · <Link className="underline" href="/institutions/">ranking</Link></Field>}
           </div>
-          <Section title="Programmes"><Bullets items={e.programs} /></Section>
-        </>
-      );
+        </>),
+        ...(e.programs.length ? [{ id: "programmes", label: "Programmes", count: e.programs.length, content: <Bullets items={e.programs} /> }] : []),
+      ];
     }
     case "pathway":
-      return (
-        <>
-          <Section title="In one picture"><p className="text-[15px] leading-relaxed max-w-3xl italic">{e.analogy}</p></Section>
-          <Section title="Diagram"><PathwayDiagram p={e} /></Section>
-          <Section title="How drugs attack it"><Bullets items={e.interventions} /></Section>
-        </>
-      );
+      return [
+        overview(<Block title="In one picture"><p className="text-[15px] leading-relaxed max-w-3xl italic">{e.analogy}</p></Block>),
+        { id: "diagram", label: "Diagram", content: <PathwayDiagram p={e} /> },
+        { id: "interventions", label: "How drugs attack it", count: e.interventions.length, content: <Bullets items={e.interventions} /> },
+      ];
     case "term":
-      return <div className="mt-6"><Field label="Category">{e.category}</Field></div>;
+      return [overview(<div className="mt-6"><Field label="Category">{e.category}</Field></div>)];
     case "trial":
-      return (
-        <div className="grid gap-6 sm:grid-cols-2 mt-8">
+      return [
+        overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
           <Field label="Setting">{e.setting}</Field>
           <Field label="Phase">Phase {e.phase}</Field>
           <Field label="Sponsor">{e.sponsor}</Field>
           <Field label="Registry">{e.nct && <a className="underline" href={`https://clinicaltrials.gov/study/${e.nct}`} rel="noopener">{e.nct}</a>}</Field>
           <Field label="Headline result">{e.result}</Field>
           <Field label="Reported">{e.yearReported}</Field>
-        </div>
-      );
+        </div>),
+      ];
     case "pairing": {
       const a = g.get(e.a), b = g.get(e.b);
-      return (
-        <>
+      return [
+        overview(<>
           <div className="card p-4 mt-6 flex flex-wrap items-center gap-3 text-sm">
             {a && <Link href={routeFor(a)} className={`chip border text-sm ${KIND_COLOR[a.kind]}`}>{a.name}</Link>}
             <span className="text-muted">{e.pairingType === "caution" ? "⚠ with" : e.pairingType === "sequence" ? "→ then" : e.pairingType === "diagnostic-therapeutic" ? "→ selects" : "+"}</span>
@@ -231,108 +239,108 @@ function KindSpecific({ e }: { e: Entity }) {
             <Field label="Rationale">{e.rationale}</Field>
             <Field label="Evidence">{e.evidence}</Field>
           </div>
-        </>
-      );
+        </>),
+      ];
     }
     case "roadmap":
-      return <RoadmapSteps r={e} />;
+      return [overview(), { id: "steps", label: "Steps", count: e.steps.length, content: <RoadmapSteps r={e} /> }];
     case "idea":
-      return (
-        <div className="grid gap-6 mt-8">
+      return [
+        overview(<div className="grid gap-6 mt-8">
           <Field label="Hypothesis">{e.hypothesis}</Field>
           <Field label="Rationale">{e.rationale}</Field>
           <Field label="What would test it">{e.test}</Field>
           <Field label="Maturity"><span className={`chip ${statusClass(e.maturity === "being-tested-at-scale" ? "phase-3" : e.maturity === "early-clinical" ? "phase-2" : e.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{e.maturity.replace(/-/g, " ")}</span></Field>
-        </div>
-      );
+        </div>),
+      ];
     case "collection":
-      return (
-        <div className="grid gap-6 sm:grid-cols-2 mt-8">
+      return [
+        overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
           <Field label="URL"><a className="underline break-all" href={e.url} rel="noopener">{e.url.replace(/^https?:\/\//, "")}</a></Field>
           <Field label="Holds">{e.holds}</Field>
           <Field label="Licence">{e.license}</Field>
           <Field label="Maintainer">{e.maintainer}</Field>
-        </div>
-      );
+        </div>),
+      ];
     case "section": {
       const techs = g.incoming(e.id).get("technology") ?? [];
-      return (
-        <Section title={`Technologies on this front (${techs.length})`}>
-          <div className="grid gap-3 sm:grid-cols-2">{techs.map((t) => <Link key={t.id} href={routeFor(t)} className="card p-3 hover:shadow-md transition"><div className="flex items-center gap-2 mb-1"><StatusChip status={t.status} /></div><div className="font-medium">{t.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{t.tldr}</p></Link>)}</div>
-        </Section>
-      );
+      return [
+        overview(),
+        { id: "technologies", label: "Technologies", count: techs.length, content: (
+          <div className="grid gap-3 sm:grid-cols-2">{techs.map((t) => <Link key={t.id} href={routeFor(t)} className="card p-3 hover:shadow-md transition"><div className="flex items-center gap-2 mb-1"><StatusChip status={t.status} /></div><div className="font-medium">{t.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{t.tldr}</p></Link>)}</div>) },
+      ];
     }
-    default:
-      return null;
   }
+}
+
+function productsTab(drugs: Entity[]): Tab[] {
+  if (!drugs.length) return [];
+  return [{ id: "products", label: "Products", count: drugs.length, content: (
+    <div className="grid gap-3 sm:grid-cols-2">{drugs.map((d) => <Link key={d.id} href={routeFor(d)} className="card p-3 hover:shadow-md transition"><div className="flex items-center gap-2 mb-1"><StatusChip status={d.status} />{d.kind === "drug" && <span className="text-xs text-muted truncate">{d.modality}</span>}</div><div className="font-medium">{d.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{d.tldr}</p></Link>)}</div>) }];
 }
 
 function RoadmapSteps({ r }: { r: Roadmap }) {
   const tone: Record<string, string> = { historic: "bg-zinc-400", current: "bg-emerald-500", emerging: "bg-amber-500", speculative: "bg-violet-500" };
   return (
-    <Section title="Steps">
-      <ol className="relative border-l-2 border-border ml-3 space-y-8">
-        {r.steps.map((s, i) => (
-          <li key={i} className="ml-6">
-            <span className={`absolute -left-[9px] mt-1.5 h-4 w-4 rounded-full ring-4 ring-background ${tone[s.status]}`} />
-            <div className="flex flex-wrap items-center gap-2"><span className="kicker">{s.era}</span><span className={`chip ${statusClass(s.status === "current" ? "approved" : s.status === "emerging" ? "phase-2" : s.status === "speculative" ? "concept" : "historic")}`}>{s.status}</span></div>
-            <h3 className="font-semibold mt-1">{s.title}</h3>
-            <p className="text-[15px] leading-relaxed mt-1 max-w-3xl">{s.description}</p>
-            {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
-          </li>
-        ))}
-      </ol>
-    </Section>
+    <ol className="relative border-l-2 border-border ml-3 space-y-8">
+      {r.steps.map((s, i) => (
+        <li key={i} className="ml-6">
+          <span className={`absolute -left-[9px] mt-1.5 h-4 w-4 rounded-full ring-4 ring-background ${tone[s.status]}`} />
+          <div className="flex flex-wrap items-center gap-2"><span className="kicker">{s.era}</span><span className={`chip ${statusClass(s.status === "current" ? "approved" : s.status === "emerging" ? "phase-2" : s.status === "speculative" ? "concept" : "historic")}`}>{s.status}</span></div>
+          <h3 className="font-semibold mt-1">{s.title}</h3>
+          <p className="text-[15px] leading-relaxed mt-1 max-w-3xl">{s.description}</p>
+          {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
+        </li>
+      ))}
+    </ol>
   );
 }
 
-function CancerDetail({ c }: { c: Cancer }) {
+function cancerTabs(c: Cancer): Tab[] {
   const g = graph();
   const forMe = g.forCancer(c.id);
-  return (
-    <>
+  const nRel = [...forMe.values()].reduce((a, l) => a + l.length, 0);
+  return [
+    { id: "overview", label: "Overview", content: <>
+      <Summary e={c} />
       <div className="grid gap-6 sm:grid-cols-2 mt-8">
         <Field label="Burden">{c.burden}</Field>
         <Field label="Group"><span className="capitalize">{c.group}</span></Field>
       </div>
-      <Section title="State of the art today"><Bullets items={c.stateOfArt} /></Section>
-      <Section title="Standard of care by setting">
-        <div className="space-y-3">
-          {c.standardOfCare.map((s, i) => (
-            <div key={i} className="card p-4">
-              <div className="font-medium">{s.setting}</div>
-              <p className="text-[15px] text-foreground/85 mt-1">{s.approach}</p>
-              {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
-            </div>
-          ))}
-        </div>
-      </Section>
-      <div className="grid gap-6 sm:grid-cols-2 mt-10">
+      <Block title="State of the art today"><Bullets items={c.stateOfArt} /></Block>
+    </> },
+    { id: "care", label: "Standard of care", count: c.standardOfCare.length, content: (
+      <div className="space-y-3">
+        {c.standardOfCare.map((s, i) => (
+          <div key={i} className="card p-4">
+            <div className="font-medium">{s.setting}</div>
+            <p className="text-[15px] text-foreground/85 mt-1">{s.approach}</p>
+            {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
+          </div>
+        ))}
+      </div>) },
+    { id: "biology", label: "Subtypes & biomarkers", content: (
+      <div className="grid gap-6 sm:grid-cols-2">
         <Field label="Subtypes"><Bullets items={c.subtypes} /></Field>
         <Field label="Biomarkers clinicians test"><Bullets items={c.biomarkers} /></Field>
-      </div>
-      <Section title="History">
-        <ol className="relative border-l-2 border-border ml-3 space-y-5">
-          {c.history.map((h, i) => (
-            <li key={i} className="ml-6">
-              <span className="absolute -left-[7px] mt-1.5 h-3 w-3 rounded-full bg-accent ring-4 ring-background" />
-              <div className="flex flex-wrap items-baseline gap-2"><span className="font-mono text-sm text-muted">{h.year}</span><span className="font-medium">{h.title}</span></div>
-              {h.note && <p className="text-sm text-muted mt-0.5">{h.note}</p>}
-              {h.refs.length > 0 && <div className="mt-1.5"><Refs ids={h.refs} /></div>}
-            </li>
-          ))}
-        </ol>
-      </Section>
-      <Section title="Coming down the pipeline"><Refs ids={c.pipeline} /></Section>
-      <Section title="Open problems"><Bullets items={c.openProblems} /></Section>
-      <Section title="Recruiting trials (live from ClinicalTrials.gov)"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Section>
-      <Section title="Expert centres"><ExpertCentres cancerId={c.id} /></Section>
-      <Section title="Questions for your oncologist"><Questions cancer={c} /></Section>
-      <Section title="Everything relevant to this cancer" aside={<span className="text-xs text-muted">direct links plus targets, companies, and technologies of its drugs</span>}>
-        <Neighbours groups={forMe} exclude={["cancer"]} />
-      </Section>
-    </>
-  );
+      </div>) },
+    { id: "history", label: "History", count: c.history.length, content: (
+      <ol className="relative border-l-2 border-border ml-3 space-y-5">
+        {c.history.map((h, i) => (
+          <li key={i} className="ml-6">
+            <span className="absolute -left-[7px] mt-1.5 h-3 w-3 rounded-full bg-accent ring-4 ring-background" />
+            <div className="flex flex-wrap items-baseline gap-2"><span className="font-mono text-sm text-muted">{h.year}</span><span className="font-medium">{h.title}</span></div>
+            {h.note && <p className="text-sm text-muted mt-0.5">{h.note}</p>}
+            {h.refs.length > 0 && <div className="mt-1.5"><Refs ids={h.refs} /></div>}
+          </li>
+        ))}
+      </ol>) },
+    { id: "pipeline", label: "Pipeline", count: c.pipeline.length, content: <><Refs ids={c.pipeline} /><Block title="Open problems"><Bullets items={c.openProblems} /></Block></> },
+    { id: "trials", label: "Trials", content: <><Block title="Recruiting now (live from ClinicalTrials.gov)"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>{(forMe.get("trial") ?? []).length > 0 && <Block title="Landmark trials in OnCo"><ChipList items={forMe.get("trial") ?? []} /></Block>}</> },
+    { id: "centres", label: "Expert centres", content: <ExpertCentres cancerId={c.id} /> },
+    { id: "questions", label: "Questions to ask", content: <Questions cancer={c} /> },
+    { id: "relevant", label: "Everything relevant", count: nRel, content: <><p className="text-xs text-muted mb-3">Direct links plus the targets, companies, and technologies of this cancer&apos;s products.</p><Neighbours groups={forMe} exclude={["cancer"]} /></> },
+  ];
 }
 
 /** Products with no molecule (cells, vaccines, devices, tests) get the schematic of their primary technology. */

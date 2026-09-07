@@ -4,6 +4,7 @@ import { KIND_META, KINDS, routeFor } from "@/lib/schema";
 import { Container, EntityCard, KindChip, StatusChip } from "@/components/ui";
 import { SearchBox } from "@/components/SearchBox";
 import { KIND_COLOR } from "@/lib/text";
+import { NAV_GROUPS } from "@/lib/nav";
 
 export default function Home() {
   const g = graph();
@@ -37,11 +38,19 @@ export default function Home() {
       </section>
 
       <Container className="py-12">
-        <div className="grid gap-3 grid-cols-2 sm:grid-cols-4 lg:grid-cols-7">
+        <div className="grid gap-3 md:grid-cols-5">
+          {NAV_GROUPS.map((grp) => (
+            <Link key={grp.id} href={grp.href} className="card p-4 hover:shadow-md transition">
+              <div className="kicker mb-1">{grp.label}</div>
+              <p className="text-sm text-muted line-clamp-3">{grp.blurb}</p>
+              <div className="mt-3 flex flex-wrap gap-1">{grp.items.slice(0, 4).map((it) => <span key={it.href} className="chip bg-foreground/5">{it.label}</span>)}{grp.items.length > 4 && <span className="chip bg-foreground/5">+{grp.items.length - 4}</span>}</div>
+            </Link>
+          ))}
+        </div>
+        <div className="grid gap-2 grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 mt-4">
           {counts.map(({ k, n }) => (
-            <Link key={k} href={`/${KIND_META[k].route}/`} className={`card p-3 hover:shadow-md transition border ${KIND_COLOR[k]}`}>
-              <div className="text-2xl font-semibold tabular-nums">{n}</div>
-              <div className="text-sm capitalize">{KIND_META[k].plural}</div>
+            <Link key={k} href={`/${KIND_META[k].route}/`} className={`rounded-lg border px-3 py-2 text-sm flex items-baseline justify-between ${KIND_COLOR[k]}`}>
+              <span className="capitalize">{KIND_META[k].plural}</span><span className="font-semibold tabular-nums">{n}</span>
             </Link>
           ))}
         </div>

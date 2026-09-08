@@ -1,0 +1,262 @@
+import type { DrugInput, EntityInput, IdeaInput, PairingInput, TermInput, TrialInput } from "@/lib/schema";
+import type { Spike } from "./index";
+
+/**
+ * Gastric / GEJ adenocarcinoma spike. Facts checked 2026-09-07.
+ * References ids defined in the colorectal spike (capox, folfox, ramucirumab is defined HERE) and the
+ * oesophageal spike (tislelizumab); register the three spikes together.
+ */
+const asOf = "2026-09-07";
+const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
+const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
+const NCCN_GASTRIC = "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1434";
+const ESMO_GASTRIC = "https://www.esmo.org/guidelines/guidelines-by-topic/esmo-clinical-practice-guidelines-gastrointestinal-cancers/gastric-cancer";
+
+type T = Omit<TrialInput, "kind" | "asOf">;
+const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
+type D = Omit<DrugInput, "kind" | "asOf">;
+const d = (x: D): DrugInput => ({ kind: "drug", asOf, ...x });
+type Te = Omit<TermInput, "kind" | "asOf">;
+const term = (x: Te): TermInput => ({ kind: "term", asOf, ...x });
+
+// ======================= TRIALS =======================
+const trials: TrialInput[] = [
+  t({ id: "toga", name: "ToGA", nct: "NCT01041404", phase: "3", status: "positive", yearReported: 2010, sponsor: "Roche", enrolled: 594,
+    setting: "First-line HER2-positive advanced gastric/GEJ adenocarcinoma: trastuzumab + cisplatin/fluoropyrimidine vs chemotherapy",
+    tldr: "The trial that brought the breast-cancer drug Herceptin to stomach cancer, the first targeted therapy to improve survival in this disease.",
+    summary: "OS 13.8 vs 11.1 months (HR 0.74; Lancet 2010); 16.0 months in IHC3+ or IHC2+/FISH+ tumours. Established HER2 testing for all advanced gastric cancers and the trastuzumab-chemotherapy backbone that KEYNOTE-811 (pembrolizumab added) and HERIZON-GEA-01 (zanidatamab) have since built on.",
+    result: "OS 13.8 vs 11.1 months, HR 0.74.",
+    outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Trastuzumab + chemotherapy", n: 294, value: 13.8 }, { name: "Chemotherapy", n: 290, value: 11.1 }], hr: 0.74, ci: [0.60, 0.91], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61121-X/abstract" }],
+    replication: "Effect confirmed in real-world cohorts and as the control arm of HERIZON-GEA-01 (median PFS 8.1 months).",
+    drugs: ["trastuzumab"], cancers: ["gastric"], targets: ["her2"], links: [ct("NCT01041404")] }),
+  t({ id: "checkmate-649", name: "CheckMate 649", nct: "NCT02872116", phase: "3", status: "positive", yearReported: 2020, sponsor: "BMS", enrolled: 1581,
+    setting: "First-line HER2-negative advanced gastric/GEJ/oesophageal adenocarcinoma: nivolumab + chemotherapy vs chemotherapy",
+    tldr: "The trial that added immunotherapy to first-line stomach cancer chemotherapy; at five years, 16% of patients with PD-L1-rich tumours were alive versus 6%.",
+    summary: "Largest phase 3 in gastric cancer. PD-L1 CPS ≥5: OS 14.4 vs 11.1 months (HR 0.71), 5-year OS 16% vs 6% (Annals of Oncology 2026). All randomised: OS 13.7 vs 11.6 months (HR 0.79). FDA approved for all patients (2021); EMA and many guidelines restrict to CPS ≥5 because benefit in CPS <1 is unproven.",
+    result: "CPS ≥5: OS 14.4 vs 11.1 months (HR 0.71); 5-year OS 16% vs 6%.",
+    outcomes: [
+      { endpoint: "Overall survival, PD-L1 CPS ≥5", primary: true, unit: "months", arms: [{ name: "Nivolumab + chemotherapy", n: 473, value: 14.4 }, { name: "Chemotherapy", n: 482, value: 11.1 }], hr: 0.71, ci: [0.61, 0.81], source: "https://www.annalsofoncology.org/article/S0923-7534(26)00059-1/fulltext" },
+      { endpoint: "Overall survival at 5 years, CPS ≥5", unit: "percent", arms: [{ name: "Nivolumab + chemotherapy", value: 16 }, { name: "Chemotherapy", value: 6 }], source: "https://www.annalsofoncology.org/article/S0923-7534(26)00059-1/fulltext" },
+    ],
+    replication: "Replicated by KEYNOTE-859 (pembrolizumab), RATIONALE-305 (tislelizumab), and ORIENT-16 (sintilimab).",
+    drugs: ["nivolumab", "capox", "folfox"], cancers: ["gastric", "esophageal"], targets: ["pd1", "pdl1"], terms: ["cps"], links: [ct("NCT02872116"), { label: "5-year follow-up, Annals of Oncology 2026", url: "https://www.annalsofoncology.org/article/S0923-7534(26)00059-1/fulltext" }] }),
+  t({ id: "keynote-859", name: "KEYNOTE-859", nct: "NCT03675737", phase: "3", status: "positive", yearReported: 2023, sponsor: "Merck", enrolled: 1579,
+    setting: "First-line HER2-negative advanced gastric/GEJ adenocarcinoma: pembrolizumab + chemotherapy vs placebo + chemotherapy",
+    tldr: "Confirmed that adding a PD-1 blocker to first-line chemotherapy helps in stomach cancer, with the biggest gain in tumours rich in PD-L1.",
+    summary: "OS HR 0.78 overall; CPS ≥1 OS 13.0 vs 11.4 months (HR 0.74); CPS ≥10 OS 15.7 vs 11.8 months (HR 0.65). FDA approval November 2023 for all PD-L1 levels; EMA restricted to CPS ≥1.",
+    result: "OS HR 0.78 (all); CPS ≥10 OS 15.7 vs 11.8 months (HR 0.65).",
+    outcomes: [{ endpoint: "Overall survival, all randomised", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + chemotherapy", n: 790, value: 12.9 }, { name: "Placebo + chemotherapy", n: 789, value: 11.5 }], hr: 0.78, ci: [0.70, 0.87], source: "https://www.annalsofoncology.org/article/S0923-7534(24)04258-3/fulltext" }, { endpoint: "Overall survival, CPS ≥10", unit: "months", arms: [{ name: "Pembrolizumab + chemotherapy", value: 15.7 }, { name: "Placebo + chemotherapy", value: 11.8 }], hr: 0.65, ci: [0.53, 0.79], source: "https://www.annalsofoncology.org/article/S0923-7534(24)04258-3/fulltext" }],
+    replication: "Replicates CheckMate 649.",
+    drugs: ["pembrolizumab"], cancers: ["gastric"], targets: ["pd1"], terms: ["cps"], links: [ct("NCT03675737")] }),
+  t({ id: "spotlight-glow", name: "SPOTLIGHT & GLOW", nct: "NCT03504397", phase: "3", status: "positive", yearReported: 2023, sponsor: "Astellas",
+    setting: "First-line CLDN18.2-positive (≥75% of cells), HER2-negative advanced gastric/GEJ adenocarcinoma: zolbetuximab + mFOLFOX6 (SPOTLIGHT) or CAPOX (GLOW) vs chemotherapy",
+    tldr: "Two trials that made Claudin 18.2 the third biomarker in stomach cancer, adding about two to three months of survival with an antibody against it.",
+    summary: "SPOTLIGHT: PFS 10.6 vs 8.7 months, OS 18.2 vs 15.5 months. GLOW: PFS 8.2 vs 6.8, OS 14.4 vs 12.2 months. About 38% of screened patients were CLDN18.2-positive at the ≥75% threshold. FDA approval 18 October 2024 (Vyloy), first CLDN18.2-directed therapy. Nausea and vomiting, on-target from gastric mucosa, are frequent and front-loaded.",
+    result: "SPOTLIGHT OS 18.2 vs 15.5 months; GLOW OS 14.4 vs 12.2 months.",
+    outcomes: [
+      { endpoint: "Overall survival (SPOTLIGHT)", unit: "months", arms: [{ name: "Zolbetuximab + mFOLFOX6", value: 18.2 }, { name: "Placebo + mFOLFOX6", value: 15.5 }], source: "https://www.gioncologynow.com/post/spotlight-glow-trials-lead-to-fda-approval-of-zolbetuximab-clzb-with-chemotherapy-for-gastric-gej-cancer" },
+      { endpoint: "Overall survival (GLOW)", unit: "months", arms: [{ name: "Zolbetuximab + CAPOX", value: 14.4 }, { name: "Placebo + CAPOX", value: 12.2 }], source: "https://www.gioncologynow.com/post/spotlight-glow-trials-lead-to-fda-approval-of-zolbetuximab-clzb-with-chemotherapy-for-gastric-gej-cancer" },
+    ],
+    replication: "Two independent phase 3 trials with different chemotherapy backbones agree.",
+    drugs: ["zolbetuximab", "folfox", "capox"], cancers: ["gastric"], targets: ["cldn18-2"], links: [ct("NCT03504397"), { label: "GLOW NCT03653507", url: "https://clinicaltrials.gov/study/NCT03653507" }] }),
+  t({ id: "matterhorn", name: "MATTERHORN", nct: "NCT04592913", phase: "3", status: "positive", yearReported: 2025, sponsor: "AstraZeneca", enrolled: 948,
+    setting: "Resectable stage II-IVA gastric/GEJ adenocarcinoma: perioperative FLOT + durvalumab vs FLOT + placebo",
+    tldr: "Adding immunotherapy before and after surgery cut deaths in early stomach cancer; nearly seven in ten patients were alive at three years.",
+    summary: "EFS HR 0.71; pCR 19.2% vs 7.2%; OS HR 0.78 (3-year OS 68.6% vs 61.9%, ESMO 2025). FDA approval 25 November 2025, the first perioperative immunotherapy in gastric cancer. Benefit was consistent across PD-L1 levels; the trial did not include a chemotherapy-free arm.",
+    result: "EFS HR 0.71; OS HR 0.78; 3-year OS 68.6%.",
+    outcomes: [{ endpoint: "Event-free survival", primary: true, arms: [{ name: "FLOT + durvalumab", n: 474 }, { name: "FLOT + placebo", n: 474 }], hr: 0.71, source: "https://www.cancernetwork.com/view/fda-approves-durvalumab-plus-flot-in-early-stage-gastric-gej-cancers" }, { endpoint: "Overall survival", arms: [{ name: "FLOT + durvalumab", n: 474 }, { name: "FLOT + placebo", n: 474 }], hr: 0.78, ci: [0.63, 0.96], p: "0.021", source: "https://ascopost.com/issues/december-10-2025-supplement-conference-highlights-esmo-2025/final-overall-survival-confirms-benefit-of-durvalumab-plus-flot-in-resectable-gastric-and-gastroesophageal-junction-adenocarcinomas/" }, { endpoint: "Pathologic complete response", unit: "percent", arms: [{ name: "FLOT + durvalumab", value: 19.2 }, { name: "FLOT + placebo", value: 7.2 }], source: "https://www.cancernetwork.com/view/behind-the-matterhorn-trial-of-durvalumab-flot-in-gastric-gej-cancer" }],
+    replication: "KEYNOTE-585 (pembrolizumab + chemotherapy) improved pCR but not EFS significantly; MATTERHORN is the only positive perioperative IO trial so far.",
+    drugs: ["durvalumab", "flot"], cancers: ["gastric"], targets: ["pdl1"], terms: ["neoadjuvant-adjuvant", "pcr", "efs"], links: [ct("NCT04592913")] }),
+  t({ id: "fortitude-101", name: "FORTITUDE-101", nct: "NCT05052801", phase: "3", status: "mixed", yearReported: 2025, sponsor: "Amgen", enrolled: 547,
+    setting: "First-line FGFR2b-overexpressing (≥10% 2+/3+), HER2-negative advanced gastric/GEJ cancer: bemarituzumab + mFOLFOX6 vs placebo + mFOLFOX6",
+    tldr: "A new target, FGFR2b, showed a survival gain at first look that shrank with longer follow-up, and the trial did not include the immunotherapy patients now routinely get.",
+    summary: "Interim analysis: OS 17.9 vs 12.5 months (HR 0.61, p=0.005). Updated analysis (ESMO 2025) showed the difference attenuate and lose significance. The chemotherapy-only control (no PD-1) and ocular toxicity (corneal events in most patients) limit interpretation. FORTITUDE-102 tests the combination with nivolumab.",
+    result: "Interim OS 17.9 vs 12.5 months (HR 0.61); benefit attenuated on follow-up.",
+    outcomes: [{ endpoint: "Overall survival (interim)", primary: true, unit: "months", arms: [{ name: "Bemarituzumab + mFOLFOX6", value: 17.9 }, { name: "Placebo + mFOLFOX6", value: 12.5 }], hr: 0.61, p: "0.005", source: "https://www.annalsofoncology.org/article/S0923-7534(25)04862-8/fulltext" }],
+    replication: "Phase 2 FIGHT showed a similar early signal; no confirmatory trial yet.",
+    drugs: ["bemarituzumab", "folfox"], cancers: ["gastric"], targets: ["fgfr2"], links: [ct("NCT05052801"), { label: "ESMO 2025 LBA10", url: "https://www.annalsofoncology.org/article/S0923-7534(25)04862-8/fulltext" }] }),
+  t({ id: "herizon-gea-01", name: "HERIZON-GEA-01", nct: "NCT05152147", phase: "3", status: "positive", yearReported: 2026, sponsor: "Jazz / BeOne", enrolled: 914,
+    setting: "First-line HER2-positive advanced gastro-oesophageal adenocarcinoma: zanidatamab + chemotherapy ± tislelizumab vs trastuzumab + chemotherapy",
+    tldr: "A two-armed HER2 antibody beat Herceptin head-to-head as first-line treatment for HER2-positive stomach cancer, the first such win since 2010.",
+    summary: "PFS 12.4 months in both zanidatamab arms vs 8.1 months with trastuzumab (HR ~0.63 and 0.65); OS significantly improved in both arms (NEJM 2026). Supplemental BLA planned in the first half of 2026. Sets up zanidatamab as the HER2 agent of choice and raises the question of how T-DXd fits after it.",
+    result: "PFS 12.4 vs 8.1 months (HR 0.63-0.65); OS significantly improved.",
+    outcomes: [{ endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Zanidatamab + chemotherapy + tislelizumab", value: 12.4 }, { name: "Zanidatamab + chemotherapy", value: 12.4 }, { name: "Trastuzumab + chemotherapy", value: 8.1 }], source: "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.LBA285" }],
+    replication: "First phase 3; consistent with phase 2 (ORR 76% first line).",
+    drugs: ["zanidatamab", "trastuzumab", "tislelizumab"], cancers: ["gastric", "esophageal"], targets: ["her2", "pd1"], links: [ct("NCT05152147"), { label: "ASCO GI 2026 LBA285", url: "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.LBA285" }] }),
+  t({ id: "destiny-gastric04", name: "DESTINY-Gastric04", nct: "NCT04704934", phase: "3", status: "positive", yearReported: 2025, sponsor: "Daiichi Sankyo / AstraZeneca", enrolled: 494,
+    setting: "Second-line HER2-positive gastric/GEJ cancer after trastuzumab: T-DXd vs ramucirumab + paclitaxel",
+    tldr: "The first randomised proof that a HER2 drug beats standard chemotherapy in second-line stomach cancer: Enhertu added about three months of life.",
+    summary: "OS 14.7 vs 11.4 months (HR 0.70); PFS 6.7 vs 5.6 months (ASCO 2025 plenary, NEJM). Confirms the accelerated approval from DESTINY-Gastric01 (Asia) and DESTINY-Gastric02 (West). Grade ≥3 treatment-related events 68% vs 74%; ILD requires monitoring.",
+    result: "OS 14.7 vs 11.4 months, HR 0.70.",
+    outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "T-DXd 6.4 mg/kg", n: 246, value: 14.7 }, { name: "Ramucirumab + paclitaxel", n: 248, value: 11.4 }], hr: 0.70, source: "https://www.asco.org/about-asco/press-center/news-releases/trastuzumab-deruxtecan-can-help-some-people-with-advanced-gastric-cancers-live-about-3-months-longer" }],
+    replication: "Consistent with DESTINY-Gastric01 (OS 12.5 vs 8.4 months vs chemotherapy, third line).",
+    drugs: ["trastuzumab-deruxtecan", "ramucirumab"], cancers: ["gastric"], targets: ["her2"], terms: ["ild"], links: [ct("NCT04704934")] }),
+  t({ id: "rainbow", name: "RAINBOW", nct: "NCT01170663", phase: "3", status: "positive", yearReported: 2014, sponsor: "Eli Lilly", enrolled: 665,
+    setting: "Second-line advanced gastric/GEJ cancer: ramucirumab + paclitaxel vs paclitaxel",
+    tldr: "Made ramucirumab plus paclitaxel the standard second-line stomach cancer treatment, a role it held for a decade until Enhertu and Claudin drugs arrived.",
+    summary: "OS 9.6 vs 7.4 months (HR 0.81; Lancet Oncology 2014). With REGARD (ramucirumab alone), established VEGFR2 blockade in gastric cancer. Remains the second-line standard for HER2-negative disease and the comparator in DESTINY-Gastric04 and CLARITY-Gastric01.",
+    result: "OS 9.6 vs 7.4 months, HR 0.81.",
+    outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Ramucirumab + paclitaxel", n: 330, value: 9.6 }, { name: "Placebo + paclitaxel", n: 335, value: 7.4 }], hr: 0.81, source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(14)70420-6/abstract" }],
+    replication: "Consistent with REGARD (monotherapy OS benefit) and RAINBOW-Asia.",
+    drugs: ["ramucirumab", "paclitaxel"], cancers: ["gastric"], targets: ["vegf"], links: [ct("NCT01170663")] }),
+  t({ id: "clarity-gastric01", name: "CLARITY-Gastric 01", nct: "NCT06346392", phase: "3", status: "positive", yearReported: 2026, sponsor: "AstraZeneca",
+    setting: "Second- or later-line CLDN18.2-positive advanced gastric/GEJ cancer: sonesitatug vedotin (AZD0901/CMG901) vs investigator's choice",
+    tldr: "The first ADC against Claudin 18.2 to prove it extends life, announced July 2026, giving stomach cancer its first ADC beyond HER2.",
+    summary: "Met both co-primary endpoints including overall survival (AstraZeneca, 27 July 2026); full data pending congress presentation. Positions CLDN18.2 ADCs after zolbetuximab-chemotherapy or in zolbetuximab-naive patients; CLDN18.2 CAR-T (satri-cel) is the other post-progression option in China.",
+    result: "Co-primary endpoints including OS met (July 2026); numbers pending.",
+    drugs: ["cmg901", "ramucirumab"], cancers: ["gastric"], targets: ["cldn18-2"], technologies: ["adc"], links: [ct("NCT06346392"), { label: "ASCO GI 2025 trial-in-progress", url: "https://ascopubs.org/doi/10.1200/JCO.2025.43.4_suppl.TPS507" }] }),
+];
+
+// ======================= DRUGS =======================
+const drugs: DrugInput[] = [
+  d({ id: "zolbetuximab", name: "Zolbetuximab", brand: "Vyloy", code: "IMAB362", modality: "Monoclonal antibody (anti-Claudin 18.2)", status: "approved", wikipedia: W("Zolbetuximab"),
+    tldr: "The first drug against Claudin 18.2, a protein exposed on stomach cancer cells. Added to chemotherapy it extends survival by two to three months; nausea is the price.",
+    summary: "Chimeric IgG1 binding CLDN18.2, killing via ADCC and CDC. SPOTLIGHT and GLOW positive; FDA approval 18 October 2024 with a companion IHC assay (VENTANA CLDN18). Eligible patients are CLDN18.2 ≥75% moderate-to-strong membranous staining, HER2-negative. Nausea and vomiting occur in most patients in cycle 1 and need aggressive antiemetic prophylaxis and infusion-rate adjustment.",
+    mechanism: "Binds CLDN18.2 exposed on malignant gastric cells; Fc-mediated ADCC and complement-dependent cytotoxicity.",
+    mechanismSteps: ["Normal stomach cells hide Claudin 18.2 inside tight junctions; cancer cells expose it on their surface", "Zolbetuximab binds the exposed protein", "Its IgG1 tail recruits NK cells (ADCC) and complement (CDC)", "The coated tumour cells are killed; some normal gastric mucosa is hit too, causing nausea"],
+    dosing: { route: "Intravenous", schedule: "800 mg/m² loading, then 600 mg/m² every 3 weeks or 400 mg/m² every 2 weeks with chemotherapy", modifications: "Slow or interrupt infusion for nausea/vomiting; premedicate with antiemetics", monitoring: "Nausea/vomiting in cycle 1; hypersensitivity", source: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761365s000lbl.pdf" },
+    toxicity: [{ event: "Nausea", note: "Most patients; worst in cycle 1" }, { event: "Vomiting", note: "Most patients; infusion-related" }, { event: "Decreased appetite" }, { event: "Hypersensitivity/infusion reactions" }],
+    approvals: [{ region: "Japan", year: 2024, indication: "CLDN18.2+ HER2- gastric cancer (first approval, March 2024)" }, { region: "US", year: 2024, indication: "First-line CLDN18.2+ (≥75%), HER2- locally advanced/metastatic gastric or GEJ adenocarcinoma with fluoropyrimidine/platinum chemotherapy" }],
+    regulatoryEvents: [{ date: "2024-03", type: "approval", region: "Japan", note: "World-first approval" }, { date: "2024-10-18", type: "approval", region: "US", note: "SPOTLIGHT/GLOW; companion diagnostic VENTANA CLDN18 (43-14A)" }],
+    targets: ["cldn18-2"], technologies: ["monoclonal-antibody", "companion-diagnostic"], companies: ["astellas"], cancers: ["gastric"], trials: ["spotlight-glow"], terms: ["adcc"],
+    links: [{ label: "FDA label", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761365s000lbl.pdf" }] }),
+  d({ id: "ramucirumab", name: "Ramucirumab", brand: "Cyramza", modality: "Monoclonal antibody (anti-VEGFR2)", status: "approved", wikipedia: W("Ramucirumab"),
+    tldr: "An antibody that blocks the blood-vessel receptor VEGFR2; with paclitaxel it has been the standard second-line stomach cancer treatment since 2014.",
+    summary: "Fully human IgG1 against VEGFR2. RAINBOW (with paclitaxel) and REGARD (alone) in second-line gastric/GEJ cancer; also approved in NSCLC (with docetaxel; with erlotinib in EGFR-mutant), mCRC (with FOLFIRI, RAISE), and HCC with AFP ≥400 (REACH-2). Now the comparator arm that T-DXd (DESTINY-Gastric04) and the CLDN18.2 ADC (CLARITY-Gastric01) have beaten.",
+    mechanism: "Blocks VEGF-A, -C, -D binding to VEGFR2 on endothelium.",
+    mechanismSteps: ["Ramucirumab binds VEGFR2 on blood-vessel cells", "VEGF signals cannot be received", "Angiogenesis and vascular permeability fall", "Tumour growth slows, especially with paclitaxel"],
+    dosing: { route: "Intravenous", schedule: "8 mg/kg days 1 and 15 with paclitaxel 80 mg/m² days 1, 8, 15 every 28 days (gastric)", modifications: "Hold for uncontrolled hypertension, proteinuria >2 g/24 h", monitoring: "Blood pressure, urine protein", source: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125477s040lbl.pdf" },
+    toxicity: [{ event: "Hypertension" }, { event: "Proteinuria" }, { event: "Bleeding/epistaxis" }, { event: "Neutropenia (with paclitaxel)" }],
+    approvals: [{ region: "US", year: 2014, indication: "Second-line advanced gastric/GEJ cancer alone or with paclitaxel" }, { region: "US", year: 2014, indication: "NSCLC with docetaxel; 2015 mCRC with FOLFIRI; 2019 HCC AFP ≥400; 2020 EGFR-mutant NSCLC with erlotinib" }],
+    targets: ["vegf"], technologies: ["monoclonal-antibody", "antiangiogenic"], companies: ["eli-lilly"], cancers: ["gastric", "nsclc", "colorectal", "hcc"], trials: ["rainbow", "destiny-gastric04"], pathways: ["vegf-angiogenesis"],
+    links: [{ label: "FDA label", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125477s040lbl.pdf" }] }),
+  d({ id: "bemarituzumab", name: "Bemarituzumab", code: "FPA144", modality: "Monoclonal antibody (anti-FGFR2b)", status: "phase-3", wikipedia: W("Bemarituzumab"),
+    tldr: "An antibody against FGFR2b, a growth receptor overproduced in about a third of stomach cancers. It improved survival early in its phase 3 trial, but the gain faded with longer follow-up.",
+    summary: "Afucosylated IgG1 blocking FGFR2b ligand binding and enhancing ADCC. FORTITUDE-101: interim OS 17.9 vs 12.5 months (HR 0.61) in FGFR2b ≥10% 2+/3+ tumours, attenuated at updated analysis (ESMO 2025). Corneal adverse events are frequent. FORTITUDE-102 adds nivolumab. Regulatory path uncertain as of September 2026.",
+    mechanism: "Blocks FGF ligand binding to FGFR2b and recruits NK-mediated ADCC.",
+    mechanismSteps: ["Bemarituzumab binds the FGFR2b receptor on tumour cells", "Growth-factor ligands can no longer activate it", "Downstream RAS-MAPK signalling drops", "The afucosylated antibody tail recruits NK cells to kill the coated cells"],
+    toxicity: [{ event: "Corneal adverse events (keratitis, dry eye)", note: "Frequent; dose-limiting" }, { event: "Stomatitis" }],
+    targets: ["fgfr2"], technologies: ["monoclonal-antibody"], companies: ["amgen"], cancers: ["gastric"], trials: ["fortitude-101"], pathways: ["ras-mapk"],
+    links: [{ label: "Amgen topline announcement", url: "https://www.amgen.com/newsroom/press-releases/2025/06/amgen-announces-positive-topline-phase-3-results-for-bemarituzumab-in-fibroblast-growth-factor-receptor-2b-fgfr2b-positive-firstline-gastric-cancer" }] }),
+  d({ id: "flot", name: "FLOT (5-FU, leucovorin, oxaliplatin, docetaxel)", modality: "Cytotoxic regimen", status: "standard-of-care", wikipedia: W("FLOT"),
+    tldr: "The four-drug chemotherapy given before and after surgery for stomach cancer in the West; since 2025 immunotherapy is added to it.",
+    summary: "FLOT4-AIO (2019): perioperative FLOT beat ECF/ECX (OS 50 vs 35 months). MATTERHORN added durvalumab (OS HR 0.78; FDA approval November 2025). Four cycles before and four after gastrectomy. Neutropenia, neuropathy, and diarrhoea; tolerability limits use in frail patients, where FOLFOX or CAPOX substitute.",
+    mechanism: "Docetaxel stabilises microtubules; oxaliplatin crosslinks DNA; 5-FU/leucovorin inhibit thymidylate synthase.",
+    mechanismSteps: ["Docetaxel freezes the microtubule scaffold so cells cannot divide", "Oxaliplatin crosslinks DNA", "5-FU with leucovorin blocks thymidine synthesis", "Three mechanisms at once shrink the tumour before surgery and mop up microscopic disease after"],
+    dosing: { route: "Intravenous", schedule: "Docetaxel 50 mg/m², oxaliplatin 85 mg/m², leucovorin 200 mg/m², 5-FU 2,600 mg/m² over 24 h, every 14 days; 4 cycles pre- and 4 post-operative", modifications: "G-CSF support commonly used; reduce for neuropathy or neutropenic fever", monitoring: "Blood counts, neuropathy, nutrition" },
+    toxicity: [{ event: "Neutropenia", note: "Common, including febrile neutropenia" }, { event: "Peripheral neuropathy" }, { event: "Diarrhoea, mucositis" }, { event: "Fatigue" }],
+    technologies: ["cytotoxic-chemotherapy", "platinum"], cancers: ["gastric", "esophageal"], trials: ["matterhorn"], related: ["folfox"] }),
+];
+
+// ======================= TERMS =======================
+const terms: TermInput[] = [
+  term({ id: "siewert-classification", name: "Siewert classification (GEJ tumours)", category: "Clinical", tldr: "A way of classifying cancers at the junction of the oesophagus and stomach by where their centre sits, which decides whether they are treated as oesophageal or gastric.", summary: "Type I (1-5 cm above the junction) is treated as oesophageal adenocarcinoma (CROSS or FLOT); type II (1 cm above to 2 cm below) either; type III (2-5 cm below) as gastric cancer (perioperative FLOT ± durvalumab). Matters for trial eligibility and surgical approach.", wikipedia: W("Siewert_classification"), cancers: ["gastric", "esophageal"] }),
+  term({ id: "lauren-classification", name: "Lauren classification (intestinal vs diffuse)", category: "Pathology", tldr: "Stomach cancers come in two main shapes: intestinal (gland-forming, linked to H. pylori and HER2) and diffuse (scattered cells, linked to CDH1 loss and worse outcomes).", summary: "Intestinal type is more often HER2-positive, EBV- or MSI-associated, and arises via chronic gastritis; diffuse (signet-ring) type is CDH1-mutant, more common in younger patients and hereditary diffuse gastric cancer, poorly responsive to chemotherapy, and prone to peritoneal spread. The TCGA molecular classes (EBV, MSI, genomically stable, chromosomal instability) refine it.", wikipedia: W("Gastric_cancer#Classification"), cancers: ["gastric"] }),
+  term({ id: "peritoneal-metastasis", name: "Peritoneal metastasis", category: "Clinical", tldr: "Spread across the lining of the abdomen, the most common way stomach cancer recurs and the hardest to treat.", summary: "Present in ~30% at diagnosis and the leading site of relapse after gastrectomy. Poorly imaged (CT misses low-volume disease; staging laparoscopy is standard), poorly penetrated by systemic drugs. Intraperitoneal paclitaxel (PHOENIX-GC), HIPEC, and PIPAC are under evaluation; CLDN18.2 CAR-T shows activity.", cancers: ["gastric", "ovarian", "colorectal"], technologies: ["hipec"] }),
+];
+
+// ======================= PAIRINGS =======================
+const pairings: PairingInput[] = [
+  { id: "her2-gastric-sequence", kind: "pairing", name: "HER2 sequence in gastric cancer: zanidatamab/trastuzumab + chemo ± PD-1 → T-DXd", a: "zanidatamab", b: "trastuzumab-deruxtecan", pairingType: "sequence", asOf,
+    tldr: "For HER2-positive stomach cancer, an antibody-plus-chemotherapy first, then Enhertu when it progresses. Both steps now have phase 3 proof.",
+    summary: "First line: trastuzumab + chemotherapy + pembrolizumab (KEYNOTE-811, PD-L1 CPS ≥1) or zanidatamab + chemotherapy ± tislelizumab (HERIZON-GEA-01, PFS 12.4 vs 8.1 months). Second line: T-DXd (DESTINY-Gastric04, OS 14.7 vs 11.4 months). HER2 loss after first-line therapy occurs in ~30%, so re-biopsy or ctDNA before T-DXd is advisable.",
+    rationale: "Antibody blockade and ADC payload delivery are distinct mechanisms; HER2 expression usually persists at progression.",
+    evidence: "Phase 3 for each step; the sequence itself is inferred, not randomised.",
+    drugs: ["zanidatamab", "trastuzumab", "trastuzumab-deruxtecan", "pembrolizumab"], trials: ["herizon-gea-01", "destiny-gastric04", "toga"], cancers: ["gastric"], targets: ["her2"] },
+  { id: "cldn18-antibody-then-adc", kind: "pairing", name: "CLDN18.2 antibody first line → CLDN18.2 ADC or CAR-T on progression", a: "zolbetuximab", b: "cmg901", pairingType: "sequence", asOf,
+    tldr: "Hit Claudin 18.2 twice: first with a plain antibody plus chemotherapy, then with an ADC or engineered cells when the cancer comes back.",
+    summary: "Zolbetuximab + chemotherapy is approved first line; CLARITY-Gastric 01 showed an OS benefit for the CLDN18.2 ADC sonesitatug vedotin in later lines (July 2026); satri-cel CAR-T is approved in China. Whether prior zolbetuximab reduces ADC benefit (antigen persistence, ADCC-selected clones) is the key unknown.",
+    rationale: "CLDN18.2 is a lineage antigen that tends to persist; the three modalities kill by different mechanisms (ADCC/CDC, payload, T cells).",
+    evidence: "Phase 3 for each agent individually; sequencing data pending.",
+    drugs: ["zolbetuximab", "cmg901", "satricabtagene-autoleucel"], trials: ["spotlight-glow", "clarity-gastric01"], cancers: ["gastric"], targets: ["cldn18-2"] },
+];
+
+// ======================= IDEAS =======================
+const ideas: IdeaInput[] = [
+  { id: "idea-biomarker-quadruplet-gastric", kind: "idea", name: "Biomarker-directed first-line quadruplets in gastric cancer", maturity: "early-clinical", asOf,
+    tldr: "Stomach cancer now has three add-on biomarkers (HER2, PD-L1, Claudin 18.2) that often overlap. Test whether combining two add-ons beats picking one.",
+    summary: "About 20% of CLDN18.2-positive tumours are PD-L1 CPS ≥5; HER2 and CLDN18.2 rarely overlap. Chemotherapy + zolbetuximab + nivolumab is under study (ILUSTRO cohorts); HERIZON-GEA-01 already combined zanidatamab with tislelizumab.",
+    hypothesis: "In CLDN18.2-positive, PD-L1 CPS ≥5 tumours, chemotherapy + zolbetuximab + PD-1 blockade improves OS over chemotherapy + PD-1 alone without prohibitive toxicity.",
+    rationale: "Non-overlapping mechanisms (ADCC vs T-cell release); zolbetuximab-induced cell death may increase antigen presentation.",
+    test: "Randomised phase 3 in double-positive patients; OS primary; ctDNA and CLDN18.2 heterogeneity as stratifiers.",
+    drugs: ["zolbetuximab", "nivolumab", "zanidatamab", "tislelizumab"], cancers: ["gastric"], targets: ["cldn18-2", "pd1", "her2"], trials: ["spotlight-glow", "checkmate-649", "herizon-gea-01"] },
+  { id: "idea-peritoneal-directed-gastric", kind: "idea", name: "Peritoneal-directed therapy for gastric cancer", maturity: "early-clinical", asOf,
+    tldr: "Stomach cancer usually comes back on the abdominal lining, where drugs barely reach. Deliver treatment directly into the abdomen.",
+    summary: "Intraperitoneal paclitaxel with systemic chemotherapy (PHOENIX-GC narrowly missed; Japanese follow-up trials), PIPAC, and regionally delivered CLDN18.2 CAR-T target the compartment systemic therapy misses. Staging laparoscopy with cytology identifies candidates early.",
+    hypothesis: "Adding intraperitoneal paclitaxel to systemic chemotherapy-immunotherapy improves OS in patients with peritoneal-only metastases.",
+    rationale: "Pharmacokinetic advantage of intraperitoneal delivery; peritoneal-only disease is a distinct, chemoresistant compartment.",
+    test: "Randomised phase 3 restricted to peritoneal-only disease by laparoscopy; OS primary.",
+    technologies: ["hipec"], cancers: ["gastric"], terms: ["peritoneal-metastasis"], drugs: ["paclitaxel", "satricabtagene-autoleucel"] },
+];
+
+const entities: EntityInput[] = [...trials, ...drugs, ...terms, ...pairings, ...ideas];
+
+const spike: Spike = {
+  cancerId: "gastric",
+  entities,
+  patch: {
+    asOf,
+    summary: "Gastric and gastro-oesophageal junction adenocarcinoma causes about one million new cases and 660,000 deaths a year, concentrated in East Asia, Eastern Europe, and Latin America, where Helicobacter pylori infection, salt, and smoking drive incidence. Japan and Korea screen endoscopically and cure most cases early; elsewhere two-thirds present with advanced disease and five-year survival is under 30%. Biology splits by the Lauren classification (intestinal vs diffuse) and the TCGA classes (EBV-positive, MSI, genomically stable, chromosomally unstable), and clinically by three actionable biomarkers: HER2 (~15-20%), PD-L1 (CPS ≥5 in ~60%), and Claudin 18.2 (~38% at the approval threshold), with FGFR2b, MSI, and EBV as further strata.\n\nLocalised disease is treated with gastrectomy and D2 lymphadenectomy plus perioperative chemotherapy: FLOT in the West, adjuvant S-1 or CAPOX in Asia. MATTERHORN (2025) added durvalumab to FLOT, the first perioperative immunotherapy with an overall survival benefit (3-year OS 68.6%). Advanced disease is stratified at diagnosis: HER2-positive tumours get trastuzumab + chemotherapy + pembrolizumab (KEYNOTE-811) or, after HERIZON-GEA-01, zanidatamab + chemotherapy ± tislelizumab; HER2-negative, PD-L1 CPS ≥5 tumours get nivolumab or pembrolizumab with chemotherapy (CheckMate 649 5-year OS 16% vs 6%); CLDN18.2-positive tumours get zolbetuximab + chemotherapy (SPOTLIGHT/GLOW). Second line: T-DXd for HER2-positive disease (DESTINY-Gastric04, OS 14.7 vs 11.4 months), ramucirumab + paclitaxel otherwise, and from 2026 the CLDN18.2 ADC sonesitatug vedotin (CLARITY-Gastric 01). Third line: trifluridine/tipiracil.\n\nThe frontier is Claudin 18.2 (ADCs, CAR-T satri-cel approved in China, bispecifics), biomarker overlap and combination quadruplets, peritoneal-directed therapy for the commonest site of relapse, FGFR2b after the mixed FORTITUDE-101 result, and ctDNA-guided perioperative strategies. Diffuse-type and genomically stable tumours remain the least treatable subgroup.",
+    burden: "~1 million cases and ~660,000 deaths per year; fifth most common cancer and fifth leading cause of cancer death; 5-year survival >60% in Korea and Japan (screening) vs <30% in most of the West.",
+    subtypes: ["Intestinal type (Lauren; H. pylori-associated, HER2-enriched)", "Diffuse / signet-ring type (CDH1, peritoneal spread, poor prognosis)", "TCGA: EBV-positive (~9%, PD-L1 high, IO-responsive)", "TCGA: MSI-high (~20% localised, ~5% advanced)", "TCGA: genomically stable (diffuse, RHOA/CLDN18-ARHGAP fusions)", "TCGA: chromosomal instability (HER2, EGFR, MET amplification)", "HER2-positive (~15-20%)", "CLDN18.2-positive ≥75% (~38%)", "FGFR2b-overexpressing (~30% any; ~16% at ≥10% 2+/3+)", "Hereditary diffuse gastric cancer (germline CDH1)", "GEJ tumours by Siewert type"],
+    biomarkers: ["HER2 IHC/ISH (all advanced cases)", "PD-L1 CPS (22C3 or 28-8)", "CLDN18.2 IHC (VENTANA 43-14A; ≥75% 2+/3+)", "MSI/dMMR", "EBV (EBER in situ hybridisation)", "FGFR2b IHC (trials)", "Germline CDH1 in diffuse type or family history", "Staging laparoscopy with peritoneal cytology", "ctDNA (trials)"],
+    standardOfCare: [
+      { setting: "Prevention and screening", approach: "H. pylori eradication reduces incidence; endoscopic screening programmes in Japan and Korea (biennial from age 40-50) detect most cancers at a curable stage. No population screening in the West. Prophylactic total gastrectomy for germline CDH1 carriers.", refs: ["chemoprevention", "germline-testing"], guideline: { url: NCCN_GASTRIC } },
+      { setting: "Early (T1a) disease", approach: "Endoscopic submucosal dissection for well-differentiated mucosal tumours ≤2 cm without ulceration (expanded criteria in Japan); otherwise gastrectomy.", refs: ["endoscopic-resection"], guideline: { url: NCCN_GASTRIC } },
+      { setting: "Resectable stage II-III (Western)", approach: "Perioperative FLOT + durvalumab (MATTERHORN: OS HR 0.78, pCR 19%) with D2 gastrectomy; FOLFOX/CAPOX perioperatively for patients unfit for docetaxel.", refs: ["matterhorn", "flot", "durvalumab", "capox"], guideline: { nccn: "Category 1 (perioperative FLOT)", url: NCCN_GASTRIC } },
+      { setting: "Resectable stage II-III (Asian practice)", approach: "D2 gastrectomy then adjuvant S-1 (ACTS-GC) or CAPOX (CLASSIC) for 6-12 months; neoadjuvant approaches increasingly adopted.", refs: ["capox"], guideline: { url: ESMO_GASTRIC } },
+      { setting: "Advanced, HER2-positive, first line", approach: "Trastuzumab + fluoropyrimidine/platinum + pembrolizumab (KEYNOTE-811, PD-L1 CPS ≥1); zanidatamab + chemotherapy ± tislelizumab after HERIZON-GEA-01 (PFS 12.4 vs 8.1 months; sBLA 2026).", refs: ["toga", "herizon-gea-01", "trastuzumab", "zanidatamab", "pembrolizumab", "tislelizumab", "her2-gastric-sequence"], guideline: { nccn: "Category 1 (trastuzumab + chemo ± pembrolizumab)", url: NCCN_GASTRIC } },
+      { setting: "Advanced, HER2-negative, PD-L1 CPS ≥5 (or ≥1), first line", approach: "Nivolumab (CheckMate 649) or pembrolizumab (KEYNOTE-859) or tislelizumab (RATIONALE-305) with FOLFOX or CAPOX; add zolbetuximab if CLDN18.2-positive (sequencing/combination under study).", refs: ["checkmate-649", "keynote-859", "nivolumab", "pembrolizumab", "tislelizumab", "folfox", "capox"], guideline: { nccn: "Category 1 (CPS ≥5)", esmoMcbs: "3 (nivolumab, CPS ≥5)", url: NCCN_GASTRIC } },
+      { setting: "Advanced, CLDN18.2-positive (≥75%), HER2-negative, first line", approach: "Zolbetuximab + mFOLFOX6 or CAPOX (SPOTLIGHT/GLOW). PD-L1 CPS ≥5 double-positives: either add-on; combination trials ongoing.", refs: ["spotlight-glow", "zolbetuximab", "folfox", "capox", "idea-biomarker-quadruplet-gastric"], guideline: { nccn: "Category 1", url: NCCN_GASTRIC } },
+      { setting: "Advanced, HER2-negative, PD-L1 CPS <1 and CLDN18.2-negative", approach: "FOLFOX or CAPOX chemotherapy alone; MSI-high tumours get PD-1 blockade regardless of CPS.", refs: ["folfox", "capox", "msi"], guideline: { url: NCCN_GASTRIC } },
+      { setting: "Second line, HER2-positive", approach: "Trastuzumab deruxtecan 6.4 mg/kg (DESTINY-Gastric04, OS 14.7 vs 11.4 months) if HER2 persists on re-biopsy or ctDNA.", refs: ["destiny-gastric04", "trastuzumab-deruxtecan"], guideline: { nccn: "Category 1", url: NCCN_GASTRIC } },
+      { setting: "Second line, HER2-negative", approach: "Ramucirumab + paclitaxel (RAINBOW, OS 9.6 vs 7.4 months); CLDN18.2-positive: sonesitatug vedotin after CLARITY-Gastric 01 (2026) or satri-cel CAR-T (China).", refs: ["rainbow", "ramucirumab", "paclitaxel", "clarity-gastric01", "cmg901", "satricabtagene-autoleucel", "cldn18-antibody-then-adc"], guideline: { nccn: "Category 1 (ramucirumab + paclitaxel)", url: NCCN_GASTRIC } },
+      { setting: "Third line and beyond", approach: "Trifluridine/tipiracil (TAGS, OS 5.7 vs 3.6 months); irinotecan; clinical trials (FGFR2b, CLDN18.2 bispecifics, T-cell engagers).", refs: ["trifluridine-tipiracil"], guideline: { url: NCCN_GASTRIC } },
+      { setting: "Peritoneal metastases", approach: "Systemic therapy; intraperitoneal paclitaxel, HIPEC, and PIPAC in trials; palliative gastrectomy not recommended (REGATTA).", refs: ["peritoneal-metastasis", "hipec", "idea-peritoneal-directed-gastric"], guideline: { url: ESMO_GASTRIC } },
+    ],
+    stateOfArt: [
+      "Three first-line biomarkers (HER2, PD-L1, CLDN18.2) each with a phase 3-proven add-on to chemotherapy; testing all three at diagnosis is standard.",
+      "Perioperative durvalumab + FLOT (MATTERHORN) is the first immunotherapy to improve survival in resectable gastric cancer (FDA November 2025).",
+      "Zanidatamab beat trastuzumab head-to-head first line (HERIZON-GEA-01, 2026), the first HER2 advance in first line since ToGA.",
+      "T-DXd has phase 3 proof in second-line HER2-positive disease (DESTINY-Gastric04).",
+      "Claudin 18.2 is the first target with an antibody, an ADC with OS benefit (CLARITY-Gastric 01, 2026), and an approved CAR-T (satri-cel, China).",
+      "Five-year survivors exist with chemo-immunotherapy in PD-L1-rich disease (16% vs 6%, CheckMate 649).",
+    ],
+    history: [
+      { year: 1881, title: "Billroth performs the first successful gastrectomy for cancer", refs: ["robotic-surgery"] },
+      { year: 1965, title: "Lauren describes intestinal and diffuse types", refs: ["lauren-classification"] },
+      { year: 1983, title: "Helicobacter pylori identified (Marshall and Warren)", note: "Later classified as a class I carcinogen (1994); eradication shown to reduce gastric cancer incidence.", refs: ["chemoprevention"] },
+      { year: 1990, title: "Japan and Korea institute endoscopic screening programmes", note: "Shift to early-stage diagnosis and 5-year survival >60%." },
+      { year: 2006, title: "MAGIC: perioperative chemotherapy improves survival (ECF)", refs: ["cytotoxic-chemotherapy"] },
+      { year: 2010, title: "ToGA: trastuzumab, the first targeted therapy in gastric cancer", refs: ["toga", "trastuzumab"] },
+      { year: 2014, title: "TCGA molecular classification; RAINBOW establishes ramucirumab + paclitaxel", refs: ["rainbow", "ramucirumab"] },
+      { year: 2017, title: "Nivolumab third line (ATTRACTION-2); pembrolizumab for MSI-high tumours", refs: ["nivolumab", "pembrolizumab", "msi"] },
+      { year: 2019, title: "FLOT4: docetaxel quadruplet becomes perioperative standard; trifluridine/tipiracil third line (TAGS)", refs: ["flot", "trifluridine-tipiracil"] },
+      { year: 2021, title: "CheckMate 649: nivolumab + chemotherapy first line; KEYNOTE-811 adds pembrolizumab to trastuzumab; T-DXd approved (DESTINY-Gastric01)", refs: ["checkmate-649", "trastuzumab-deruxtecan"] },
+      { year: 2023, title: "SPOTLIGHT and GLOW: Claudin 18.2 validated; KEYNOTE-859", refs: ["spotlight-glow", "keynote-859"] },
+      { year: 2024, title: "Zolbetuximab approved (Japan March, US October); zanidatamab approved in biliary cancer", refs: ["zolbetuximab", "zanidatamab"] },
+      { year: 2025, title: "MATTERHORN: perioperative durvalumab approved; DESTINY-Gastric04 phase 3; satri-cel CAR-T approved in China; FORTITUDE-101 mixed; CheckMate 649 five-year data", refs: ["matterhorn", "destiny-gastric04", "satricabtagene-autoleucel", "fortitude-101", "checkmate-649"] },
+      { year: 2026, title: "HERIZON-GEA-01: zanidatamab beats trastuzumab; CLARITY-Gastric 01: first CLDN18.2 ADC with OS benefit", refs: ["herizon-gea-01", "clarity-gastric01"] },
+    ],
+    pipeline: ["herizon-gea-01", "clarity-gastric01", "cmg901", "satricabtagene-autoleucel", "bemarituzumab", "fortitude-101", "idea-biomarker-quadruplet-gastric", "idea-peritoneal-directed-gastric", "her2-gastric-sequence", "cldn18-antibody-then-adc", "zanidatamab", "disitamab-vedotin", "fapi-pet", "mrd-testing", "trastuzumab-deruxtecan"],
+    openProblems: [
+      "Peritoneal metastasis is the dominant relapse pattern and is poorly imaged, poorly penetrated by drugs, and excluded from most trials.",
+      "Diffuse-type and genomically stable tumours lack targets and respond poorly to chemotherapy and immunotherapy.",
+      "Biomarker overlap (CLDN18.2 with PD-L1) has no randomised guidance on combination versus sequence.",
+      "HER2 and CLDN18.2 expression are heterogeneous and can be lost at progression; re-biopsy or ctDNA before second-line targeting is not standard.",
+      "No Western screening strategy; most patients present with advanced disease.",
+      "FGFR2b benefit is uncertain after FORTITUDE-101; the control arm lacked immunotherapy.",
+      "Perioperative immunotherapy benefit by PD-L1 or MSI status, and whether chemotherapy can be omitted in MSI-high disease, are unresolved.",
+    ],
+    targets: ["her2", "cldn18-2", "pd1", "pdl1", "fgfr2", "vegf", "fap"],
+    technologies: ["checkpoint-inhibitor", "adc", "car-t", "hipec", "fapi-pet", "monoclonal-antibody", "bispecific-antibody", "antiangiogenic", "companion-diagnostic", "endoscopic-resection"],
+    pathways: ["pi3k-akt-mtor", "ras-mapk", "vegf-angiogenesis", "pd1-checkpoint"],
+    companies: ["astellas", "bms", "merck", "astrazeneca", "daiichi-sankyo", "jazz", "beone", "amgen", "eli-lilly", "carsgen", "remegen", "keymed"],
+    terms: ["cps", "siewert-classification", "lauren-classification", "peritoneal-metastasis", "msi", "neoadjuvant-adjuvant", "adcc", "ild"],
+    institutions: ["ncc-japan", "snuh", "samsung-medical-center", "asan-medical-center", "jfcr", "sysucc"],
+    links: [{ label: "NCCN Gastric Cancer guideline", url: NCCN_GASTRIC }, { label: "ESMO gastric cancer guideline", url: ESMO_GASTRIC }, { label: "NCI PDQ gastric cancer treatment", url: "https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq" }],
+    tags: ["spike", "gi"],
+  },
+};
+
+export default spike;

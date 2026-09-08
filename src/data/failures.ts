@@ -1,4 +1,5 @@
 import type { EntityInput } from "@/lib/schema";
+import { TRIAL_OUTCOMES } from "./trial-outcomes";
 
 /**
  * The failure museum: drugs, technologies, and trials that did not work, and what each taught.
@@ -14,7 +15,7 @@ import type { EntityInput } from "@/lib/schema";
 const asOf = "2026-09-06";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 
-export const failures: EntityInput[] = [
+const raw: EntityInput[] = [
   {
     id: "tiragolumab", kind: "drug", name: "Tiragolumab", code: "RG6058, MTIG7192A", modality: "Monoclonal antibody (anti-TIGIT)", asOf, status: "negative", wikipedia: W("Tiragolumab"),
     tldr: "An immune-brake blocker that looked excellent in a phase 2 lung cancer trial and then failed every phase 3.",
@@ -128,3 +129,5 @@ export const failures: EntityInput[] = [
     links: [{ label: "FDA withdrawal of Pepaxto approval (Feb 2024)", url: "https://www.fda.gov/drugs/drug-safety-and-availability/fda-withdraws-approval-pepaxto" }],
   },
 ];
+
+export const failures: EntityInput[] = raw.map((t) => (t.kind === "trial" ? { ...t, ...TRIAL_OUTCOMES[t.id] } : t));

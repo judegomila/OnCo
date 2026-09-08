@@ -1,11 +1,12 @@
 import type { TrialInput } from "@/lib/schema";
+import { TRIAL_OUTCOMES } from "./trial-outcomes";
 
 const asOf = "2026-09-04";
 type T = Omit<TrialInput, "kind" | "asOf">;
 const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 
-export const trials: TrialInput[] = [
+const raw: TrialInput[] = [
   // ---- TNBC ----
   t({ id: "keynote-522", name: "KEYNOTE-522", nct: "NCT03036488", phase: "3", status: "positive", yearReported: 2020, sponsor: "Merck",
     setting: "Early-stage (II-III) TNBC: pembrolizumab + chemotherapy before surgery, pembrolizumab after",
@@ -237,3 +238,6 @@ export const trials: TrialInput[] = [
     result: "Chemotherapy use 15% vs 28% with non-inferior RFS.",
     technologies: ["mrd-testing"], cancers: ["colorectal"], terms: ["mrd"], links: [{ label: "NEJM 2022", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2200075" }] }),
 ];
+
+/** Structured outcomes, enrolment, and replication notes live in trial-outcomes.ts and are merged here. */
+export const trials: TrialInput[] = raw.map((t) => ({ ...t, ...TRIAL_OUTCOMES[t.id] }));

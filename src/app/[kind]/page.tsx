@@ -8,6 +8,7 @@ import { rankInstitutions } from "@/lib/ranking";
 import { WorldMap } from "@/components/WorldMap";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef } from "@/components/EntityBrowser";
 import structureIndex from "../../../public/structures/index.json";
+import { FrontSchematic } from "@/components/FrontSchematic";
 
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route, k])) as Record<string, Kind>;
 
@@ -160,12 +161,28 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
       <PageHeader kicker={<span className="kicker">{meta.plural}</span>} title={title} lede={meta.blurb} right={right} />
       <Container className="pb-16">
         {k === "institution" && <InstitutionsMap />}
+        {k === "section" && <FrontsGrid />}
         <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
         {k === "institution" && (
           <p className="text-xs text-muted mt-3 max-w-3xl">Score = Newsweek points (60 − Newsweek/Statista 2026 Oncology rank, 0 if unranked) + NCI designation points (Comprehensive 15, Clinical or Basic 8) + 2 × distinct OnCo objects linked to the institution. The last term measures presence in this evidence base and grows with the corpus. A starting point for argument, not a verdict.</p>
         )}
       </Container>
     </>
+  );
+}
+
+function FrontsGrid() {
+  const g = graph();
+  const items = g.kind("section").sort((a, b) => a.order - b.order);
+  return (
+    <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 mb-8">
+      {items.map((s) => (
+        <Link key={s.id} href={routeFor(s)} className="card overflow-hidden hover:shadow-md transition">
+          <FrontSchematic sectionId={s.id} compact height="h-28" />
+          <div className="px-3 py-2 text-sm font-medium leading-snug">{s.name}</div>
+        </Link>
+      ))}
+    </div>
   );
 }
 

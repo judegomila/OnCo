@@ -39,6 +39,7 @@ import { AccessTable } from "./AccessTable";
 import { RegulatoryTimeline } from "./RegulatoryTimeline";
 import { MechanismCard } from "./MechanismCard";
 import { TldrText } from "./TldrText";
+import { FrontSchematic } from "./FrontSchematic";
 import { LayerAware } from "./LayerAware";
 import { withTermHovers } from "@/lib/term-hover";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
@@ -301,7 +302,7 @@ function kindTabs(e: Entity): Tab[] {
     case "section": {
       const techs = g.incoming(e.id).get("technology") ?? [];
       return [
-        overview(),
+        overview(<div className="mt-8"><FrontSchematic sectionId={e.id} /></div>),
         { id: "technologies", label: "Technologies", count: techs.length, content: (
           <div className="grid gap-3 sm:grid-cols-2">{techs.map((t) => <Link key={t.id} href={routeFor(t)} className="card p-3 hover:shadow-md transition"><div className="flex items-center gap-2 mb-1"><StatusChip status={t.status} /></div><div className="font-medium">{t.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{t.tldr}</p></Link>)}</div>) },
       ];

@@ -5,6 +5,7 @@ import { Container, EntityCard, KindChip, StatusChip } from "@/components/ui";
 import { SearchBox } from "@/components/SearchBox";
 import { KIND_COLOR } from "@/lib/text";
 import { NAV_GROUPS } from "@/lib/nav";
+import { FrontSchematic } from "@/components/FrontSchematic";
 
 export default function Home() {
   const g = graph();
@@ -65,12 +66,15 @@ export default function Home() {
           {sections.map((s) => {
             const techs = g.incoming(s.id).get("technology") ?? [];
             return (
-              <Link key={s.id} href={routeFor(s)} className="card p-4 hover:shadow-md transition">
-                <div className="flex items-center justify-between mb-1">
-                  <div className="font-semibold">{s.name}</div>
-                  <span className="text-xs text-muted">{techs.length} technologies</span>
+              <Link key={s.id} href={routeFor(s)} className="card overflow-hidden hover:shadow-md transition">
+                <FrontSchematic sectionId={s.id} compact height="h-32" />
+                <div className="p-4">
+                  <div className="flex items-center justify-between mb-1">
+                    <div className="font-semibold">{s.name}</div>
+                    <span className="text-xs text-muted">{techs.length} technologies</span>
+                  </div>
+                  <p className="text-sm text-muted line-clamp-2">{s.tldr}</p>
                 </div>
-                <p className="text-sm text-muted line-clamp-2">{s.tldr}</p>
               </Link>
             );
           })}

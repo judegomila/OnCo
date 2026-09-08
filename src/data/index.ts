@@ -24,6 +24,7 @@ import { sources } from "./sources";
 import { mechanisms } from "./mechanisms";
 import { frontierRoadmaps } from "./frontier-roadmap";
 import { supporting } from "./supporting";
+import { gapFill } from "./gap-fill";
 import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
@@ -55,6 +56,7 @@ export const ALL_INPUTS: EntityInput[] = [
   ...mechanisms,
   ...frontierRoadmaps,
   ...supporting,
+  ...gapFill,
   ...foundationModels,
   ...foundationRoadmaps,
 ];

@@ -46,7 +46,7 @@ export function ChipList({ items, kind }: { items: Entity[]; kind?: Kind }) {
   );
 }
 
-export function PageHeader({ kicker, title, lede, right, logo }: { kicker?: React.ReactNode; title: string; lede?: string; right?: React.ReactNode; logo?: React.ReactNode }) {
+export function PageHeader({ kicker, title, lede, ledeNode, right, logo }: { kicker?: React.ReactNode; title: string; lede?: string; ledeNode?: React.ReactNode; right?: React.ReactNode; logo?: React.ReactNode }) {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 pt-10 pb-6">
       {kicker && <div className="mb-2 flex items-center gap-2">{kicker}</div>}
@@ -57,7 +57,7 @@ export function PageHeader({ kicker, title, lede, right, logo }: { kicker?: Reac
         </div>
         {right}
       </div>
-      {lede && <p className="mt-3 text-lg text-foreground/85 max-w-3xl leading-relaxed">{lede}</p>}
+      {(ledeNode || lede) && <p className="mt-3 text-lg text-foreground/85 max-w-3xl leading-relaxed">{ledeNode ?? lede}</p>}
     </div>
   );
 }

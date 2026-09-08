@@ -6,6 +6,7 @@ import { CommandPalette, PaletteTrigger } from "@/components/CommandPalette";
 import { NavMenu } from "@/components/NavMenu";
 import { ThemeToggle, ThemeScript } from "@/components/ThemeToggle";
 import { SkipLink } from "@/components/SkipLink";
+import { LayerToggle } from "@/components/LayerToggle";
 import { NAV_GROUPS } from "@/lib/nav";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="ml-auto w-full max-w-xs sm:max-w-sm">
               <PaletteTrigger className="w-full" />
             </div>
+            <LayerToggle />
             <ThemeToggle />
           </div>
         </header>

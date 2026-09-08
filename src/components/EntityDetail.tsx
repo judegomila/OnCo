@@ -38,6 +38,9 @@ import { ToxicityTable } from "./ToxicityTable";
 import { AccessTable } from "./AccessTable";
 import { RegulatoryTimeline } from "./RegulatoryTimeline";
 import { MechanismCard } from "./MechanismCard";
+import { TldrText } from "./TldrText";
+import { LayerAware } from "./LayerAware";
+import { withTermHovers } from "@/lib/term-hover";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 
@@ -69,7 +72,9 @@ function Block({ title, children, aside }: { title?: string; children: ReactNode
 }
 
 const Summary = ({ e }: { e: Entity }) => (
-  <div className="prose-onco text-[15px] leading-relaxed max-w-3xl">{paragraphs(e.summary).map((p, i) => <p key={i}>{p}</p>)}</div>
+  <LayerAware>
+    <div className="prose-onco text-[15px] leading-relaxed max-w-3xl">{paragraphs(e.summary).map((p, i) => <p key={i}>{withTermHovers(p, { skipId: e.id })}</p>)}</div>
+  </LayerAware>
 );
 
 export function EntityDetail({ e }: { e: Entity }) {
@@ -90,7 +95,7 @@ export function EntityDetail({ e }: { e: Entity }) {
       <PageHeader
         kicker={<><Link href={`/${meta.route}/`} className="kicker hover:underline">{meta.plural}</Link><KindChip kind={e.kind} /><StatusChip status={e.status} /></>}
         title={e.name}
-        lede={e.tldr}
+        ledeNode={<TldrText id={e.id} tldr={e.tldr} simple={e.simple} />}
         logo={"website" in e ? <Logo website={e.website} name={e.name} size={64} /> : "url" in e && e.kind === "collection" ? <Logo website={e.url} name={e.name} size={64} /> : undefined}
         right={e.aka.length > 0 ? <div className="text-xs text-muted text-right max-w-xs">aka {e.aka.join(", ")}</div> : undefined}
       />

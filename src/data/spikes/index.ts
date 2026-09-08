@@ -28,7 +28,22 @@ import cholangiocarcinoma from "./cholangiocarcinoma";
 import neuroendocrine from "./neuroendocrine";
 const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine];
 
-export const spikeEntities: EntityInput[] = spikes.flatMap((s) => s.entities.map((e) => (e.kind === "trial" && TRIAL_OUTCOMES[e.id] ? { ...e, ...TRIAL_OUTCOMES[e.id] } : e)));
+/** Spikes may overlap (two cancers adding the same drug). Duplicates are merged: first record's scalars win, array fields are appended and de-duplicated. */
+function mergeDuplicates(list: EntityInput[]): EntityInput[] {
+  const byId = new Map<string, Record<string, unknown>>();
+  for (const e of list) {
+    const prev = byId.get(e.id);
+    if (!prev) { byId.set(e.id, { ...e }); continue; }
+    if (prev.kind !== e.kind) throw new Error(`Spike duplicate "${e.id}" has conflicting kinds ${String(prev.kind)} vs ${e.kind}`);
+    for (const [k, v] of Object.entries(e)) {
+      if (Array.isArray(v) && Array.isArray(prev[k])) prev[k] = dedupe([...(prev[k] as unknown[]), ...v]);
+      else if (prev[k] === undefined) prev[k] = v;
+    }
+  }
+  return [...byId.values()] as EntityInput[];
+}
+
+export const spikeEntities: EntityInput[] = mergeDuplicates(spikes.flatMap((s) => s.entities.map((e) => (e.kind === "trial" && TRIAL_OUTCOMES[e.id] ? { ...e, ...TRIAL_OUTCOMES[e.id] } : e))));
 
 const ARRAY_FIELDS = ["aka", "links", "tags", "related", "cancers", "sections", "technologies", "targets", "drugs", "companies", "institutions", "pathways", "terms", "trials", "notes", "subtypes", "biomarkers", "standardOfCare", "stateOfArt", "history", "pipeline", "openProblems"] as const;
 

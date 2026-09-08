@@ -75,7 +75,7 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
         rows: g.kind("drug").map((d) => {
           const first = d.approvals.length ? Math.min(...d.approvals.map((a) => a.year)) : undefined, last = d.approvals.length ? Math.max(...d.approvals.map((a) => a.year)) : undefined;
           const pc = payloadClass(d.payload);
-          return { ...base(d), sub: [d.brand, d.code].filter(Boolean).join(" · ") + (d.id in (structureIndex as Record<string, unknown>) ? "  ⟳ 3D" : ""), facets: { cancers: names(d.cancers), modality: [modalityClass(d.modality)], targets: names(d.targets), companies: names(d.companies), front: frontsOf(d), payload: pc ? [pc] : [] }, cols: { modality: modalityClass(d.modality), targets: links(d.targets), cancers: links(d.cancers), companies: links(d.companies), approved: first ? (last && last !== first ? `${first}–${last}` : String(first)) : undefined }, sortKeys: { approved: last ?? 0 } };
+          return { ...base(d), sub: [d.brand, d.code].filter(Boolean).join(" · ") + (d.id in (structureIndex as Record<string, unknown>) ? "  · 3D molecule" : ""), facets: { cancers: names(d.cancers), modality: [modalityClass(d.modality)], targets: names(d.targets), companies: names(d.companies), front: frontsOf(d), payload: pc ? [pc] : [] }, cols: { modality: modalityClass(d.modality), targets: links(d.targets), cancers: links(d.cancers), companies: links(d.companies), approved: first ? (last && last !== first ? `${first}–${last}` : String(first)) : undefined }, sortKeys: { approved: last ?? 0 } };
         }),
         facets: [{ key: "cancers", label: "Cancer", width: "w-56" }, { key: "modality", label: "Modality", searchable: false }, { key: "targets", label: "Target", width: "w-44" }, { key: "companies", label: "Company" }, { key: "front", label: "Front", searchable: false, width: "w-44" }, { key: "payload", label: "ADC payload", searchable: false, width: "w-44" }],
         columns: [{ key: "modality", label: "Modality", sortable: true, hide: "hidden sm:table-cell" }, { key: "targets", label: "Targets", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "companies", label: "Companies", hide: "hidden lg:table-cell" }, { key: "approved", label: "Approved", sortable: true, numeric: true }],
@@ -117,14 +117,14 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
     case "trial": return {
       rows: g.kind("trial").map((t) => ({ ...base(t), sub: t.nct, facets: { phase: [`Phase ${t.phase}`], cancers: names(t.cancers), sponsor: t.sponsor ? [t.sponsor] : [], drugs: names(t.drugs) }, cols: { phase: `Phase ${t.phase}`, cancers: links(t.cancers), drugs: links(t.drugs), sponsor: t.sponsor, year: t.yearReported }, sortKeys: { year: t.yearReported ?? 0 } })),
       facets: [{ key: "cancers", label: "Cancer", width: "w-56" }, { key: "phase", label: "Phase", searchable: false, width: "w-40" }, { key: "drugs", label: "Product", width: "w-48" }, { key: "sponsor", label: "Sponsor", width: "w-48" }],
-      columns: [{ key: "phase", label: "Phase", sortable: true, hide: "hidden sm:table-cell" }, { key: "drugs", label: "Products", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "sponsor", label: "Sponsor", hide: "hidden lg:table-cell" }, { key: "year", label: "Reported", sortable: true, numeric: true }],
+      columns: [{ key: "drugs", label: "Products", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "sponsor", label: "Sponsor", hide: "hidden lg:table-cell" }, { key: "year", label: "Reported", sortable: true, numeric: true }],
       defaultSort: { key: "year", dir: -1 },
     };
     case "pairing": return {
       hideStatus: true,
       rows: g.kind("pairing").map((p) => ({ ...base(p), facets: { type: [cap(p.pairingType.replace("-", " → "))], cancers: names(p.cancers) }, cols: { type: cap(p.pairingType.replace("-", " → ")), a: short(g.must(p.a).name), b: short(g.must(p.b).name), cancers: links(p.cancers) } })),
       facets: [{ key: "type", label: "Type", searchable: false, width: "w-52" }, { key: "cancers", label: "Cancer", width: "w-52" }],
-      columns: [{ key: "type", label: "Type", sortable: true, chip: true }, { key: "a", label: "A", hide: "hidden md:table-cell" }, { key: "b", label: "B", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }],
+      columns: [{ key: "type", label: "Type", sortable: true, chip: true }, { key: "a", label: "First", hide: "hidden md:table-cell" }, { key: "b", label: "Second", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }],
       defaultSort: { key: "type", dir: 1 },
     };
     case "roadmap": return {
@@ -175,7 +175,7 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
   const k = ROUTE_TO_KIND[kind];
   if (!k) notFound();
   const meta = KIND_META[k];
-  const title = k === "section" ? "Fronts of the war on cancer" : k === "term" ? "Glossary" : k === "bottleneck" ? "Bottlenecks of the war on cancer" : cap(meta.plural);
+  const title = k === "section" ? "Fronts of the war on cancer" : k === "term" ? "Glossary" : k === "bottleneck" ? "Bottlenecks of the war on cancer" : k === "drug" ? "Products" : cap(meta.plural);
   const { rows, facets, columns, hideStatus, hideTldr, defaultSort } = buildBrowser(k);
 
   const right = k === "cancer" ? <Link href="/for-me/" className="rounded-lg bg-accent text-white px-4 py-2 text-sm font-medium">Pick mine →</Link>

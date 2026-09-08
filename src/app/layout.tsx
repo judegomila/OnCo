@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="inline-flex h-10 shrink-0 items-center gap-2.5 rounded-lg pr-2 font-semibold tracking-tight" aria-label="OnCo home">
               <Mark />
               <span className="text-[15px]">OnCo</span>
-              <span className="hidden 2xl:inline text-muted font-normal text-sm">time to win</span>
+              <span className="hidden min-[1800px]:inline text-muted font-normal text-sm">time to win</span>
             </Link>
             <NavMenu />
             <div className="ml-auto flex-1 min-w-[6.5rem] max-w-[17rem] sm:max-w-xs xl:ml-auto">

@@ -1,0 +1,31 @@
+name: Bug report
+description: Something on the site or in the build is broken.
+title: "bug: "
+labels: [bug]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      placeholder: https://onco-umber.vercel.app/...
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, what you expected, and steps to reproduce.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Browser and device
+      placeholder: Safari 19 on iPhone; Chrome 140 on macOS
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checks
+      options:
+        - label: This is not a factual error in the content (use "Fact correction" for that).
+          required: true

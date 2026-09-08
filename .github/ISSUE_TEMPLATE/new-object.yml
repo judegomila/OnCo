@@ -1,0 +1,36 @@
+name: New object
+description: Propose a cancer, technology, target, product, trial, company, institution, person, pathway, term, pairing, or idea that is missing.
+title: "add: "
+labels: [new-object]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [cancer, technology, target, product, trial, company, institution, person, pathway, term, pairing, roadmap, idea, collection]
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: textarea
+    id: tldr
+    attributes:
+      label: One or two plain-English sentences (the TL;DR)
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters and what it should link to
+      description: Cancers, targets, products, trials, companies already in OnCo.
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: At least one URL. Trials should include the NCT id.
+    validations:
+      required: true

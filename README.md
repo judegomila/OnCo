@@ -1,96 +1,103 @@
-# OnCo — the open map of oncology
+# OnCo — total information dominance on cancer
 
-A public, cited, editable knowledge graph of the war on cancer: every technology, target, product, company, institution, pathway, trial, pairing, roadmap, and idea, with one page per object, a plain-English TL;DR on every page, and derived backlinks so the graph is always consistent.
+**Live:** https://onco-umber.vercel.app
 
-Live: https://onco-umber.vercel.app (see deployment notes below)
+OnCo is a public, cited, editable knowledge graph of oncology. Every cancer, front, technology, target, product, company, institution, person, pathway, trial, pairing, roadmap, idea, and collection has its own page. Every page opens with a plain-English TL;DR (switchable to a simpler reading level or to Spanish, Chinese, Portuguese, or Hindi), continues with a technical summary, and ends with everything in the graph that connects to it. Links are declared once and backlinks are derived, so the graph stays consistent.
 
-## What is in it
+> **Work in progress. Verify at source.** Every fact on this site is being built and checked in the open and may be incomplete, out of date, or wrong. Do your own research and confirm anything here at its primary source before relying on it. Nothing here is medical advice; decisions belong with you and your clinicians.
 
-| Kind | Count | Examples |
-|---|---|---|
-| Cancers | 31 | Triple-negative breast cancer (deep spike), NSCLC, pancreatic, prostate, AML |
-| Sections | 18 | Imaging, ADCs, Radiopharmaceuticals, Cell therapy, AI & computation |
-| Technologies | 104 | PET/CT, TROP2 PET, bispecific ADC, in vivo CAR-T, FLASH RT, MCED |
-| Targets | 60 | TROP2, HER2, PSMA, FAP, KRAS, PD-1, BRCA |
-| Products | 93 | Trodelvy, Enhertu, Datroway, sac-TMT, Pluvicto, vepdegestrant, Galleri |
-| Companies | 83 | Pharma, biotech, diagnostics, radiopharma, AI, devices |
-| Institutions | 62 | Mapped and ranked; Newsweek 2026 and NCI designation as inputs |
-| Pathways | 13 | PI3K/AKT/mTOR, RAS/MAPK, p53, DDR, PD-1 checkpoint, cGAS-STING, ER, AR, EMT |
-| Terms | 60 | ADC vocabulary, endpoints, biomarkers, toxicities, regulatory |
-| Trials | 37 | KEYNOTE-522, ASCENT-03/04, TROPION-Breast02, BL-B01D1-307, INTerpath-001, IMvigor011 |
-| Pairings | 22 | ADC + IO, PSMA PET → RLT, cautions on ADC sequencing and TIGIT |
-| Roadmaps | 9 | ADC generations, TROP2 ADC, TNBC, radiopharma, cell therapy, imaging, early detection, immunotherapy, KRAS |
-| Ideas | 20 | Hypotheses with a proposed test and maturity grade |
-| Collections | 30 | OncoKB, CIViC, cBioPortal, DepMap, ClinicalTrials.gov, NCI PDQ, Newsweek, Nature Index |
+## What you can do
 
-Counts are as of the first build (2026-09-04). Run `npm run validate` for the current numbers.
+| Group | Pages |
+|---|---|
+| **Find** | [Explore](https://onco-umber.vercel.app/explore/) (pick a cancer, switch kind, ranked list), [For me](https://onco-umber.vercel.app/for-me/), [Navigator](https://onco-umber.vercel.app/navigator/) (line of therapy from a browser-only profile), [Tumour board](https://onco-umber.vercel.app/tumor-board/), [Compare](https://onco-umber.vercel.app/compare/), [Pivot](https://onco-umber.vercel.app/pivot/), [Timeline](https://onco-umber.vercel.app/timeline/), [Query](https://onco-umber.vercel.app/query/), [Graph](https://onco-umber.vercel.app/graph/), [Body map](https://onco-umber.vercel.app/body/), ⌘K search |
+| **Map** | [Cancers](https://onco-umber.vercel.app/cancers/), [Fronts](https://onco-umber.vercel.app/fronts/), [Technologies](https://onco-umber.vercel.app/technologies/), [Targets](https://onco-umber.vercel.app/targets/), [Products](https://onco-umber.vercel.app/drugs/), [Pathways](https://onco-umber.vercel.app/pathways/), [Prevalence](https://onco-umber.vercel.app/prevalence/), [Trials](https://onco-umber.vercel.app/trials/), [Pairings](https://onco-umber.vercel.app/pairings/), [Roadmaps](https://onco-umber.vercel.app/roadmaps/), [Ideas](https://onco-umber.vercel.app/ideas/), [Glossary](https://onco-umber.vercel.app/terms/), [Collections](https://onco-umber.vercel.app/collections/) |
+| **Intelligence** | [Evidence](https://onco-umber.vercel.app/evidence/), [Readout calendar](https://onco-umber.vercel.app/calendar/), [Congress digests](https://onco-umber.vercel.app/digests/), [Failure museum](https://onco-umber.vercel.app/failures/), [Resistance atlas](https://onco-umber.vercel.app/resistance/), [Payloads & linkers](https://onco-umber.vercel.app/payloads/), [Regulatory timeline](https://onco-umber.vercel.app/regulatory/), [Toxicity compare](https://onco-umber.vercel.app/toxicity/), [Isotope supply](https://onco-umber.vercel.app/isotopes/), [State of the war 2026](https://onco-umber.vercel.app/report/2026/), [Changelog](https://onco-umber.vercel.app/changelog/), [Audit](https://onco-umber.vercel.app/audit/), [Corrections](https://onco-umber.vercel.app/corrections/) |
+| **Who** | [Institutions](https://onco-umber.vercel.app/institutions/) (map and disclosed ranking), [Universities](https://onco-umber.vercel.app/universities/), [Trial leadership](https://onco-umber.vercel.app/leadership/), [People](https://onco-umber.vercel.app/people/), [Companies](https://onco-umber.vercel.app/companies/), [Funding](https://onco-umber.vercel.app/funding/) |
+| **Learn & contribute** | [Reading paths](https://onco-umber.vercel.app/paths/), [About & methodology](https://onco-umber.vercel.app/about/), [Roadmap ideas](https://onco-umber.vercel.app/hub/), [Gaps to fill](https://onco-umber.vercel.app/gaps/), [Suggest an edit](https://onco-umber.vercel.app/suggest/), [Open evaluation](https://onco-umber.vercel.app/eval/), [Open API](https://onco-umber.vercel.app/api/) |
+
+Product pages show the exact molecule as a slowly rotating 3D wireframe (PubChem conformers for small molecules, the payload for ADCs, real PDB structures for antibodies where they exist, drug–target complexes with binding pockets for several kinase inhibitors), plus dosing, safety, cost and access, a dated regulatory timeline, and an animated mechanism card. Technology, front, and glossary pages open with animated wireframe schematics. Trials carry structured outcomes drawn as people out of 100.
+
+## What is in the corpus
+
+Counts from `npm run validate` on 2026-09-08. Run it for the current numbers.
+
+| Kind | Count |
+|---|---|
+| Cancers | 31 (every one with a deep "spike": standard of care by setting with guideline mapping, state of the art, history, pipeline, open problems) |
+| Fronts | 18 |
+| Technologies | 153 |
+| Targets | 72 (with sourced prevalence by cancer) |
+| Products | 290 |
+| Companies | 180 |
+| Institutions | 73 |
+| Pathways | 13 |
+| Terms | 154 |
+| Trials | 387 (with structured outcomes, replication notes, evidence score) |
+| Pairings | 85 |
+| Roadmaps | 9 |
+| Ideas | 79 |
+| Collections | 30 |
+| People | 0 (schema in place; records arriving) |
+
+Total: 1574 objects, about 3200 static pages.
 
 ## The rules for facts
 
-1. **Keep it current.** Every object carries an internal `asOf` last-checked date for maintainers; the site shows current state, not timestamps.
-2. **Prefer a link to a remembered number.** Headline trial figures are quoted only when sourced on the page or in the linked trial record.
-3. **Evidence tier is visible.** Approved / phase 3 / phase 2 / phase 1 / preclinical / concept, colour-coded everywhere.
-4. **Ideas are labelled as ideas**, with a maturity grade and a proposed test.
-5. **Unknown beats guessed.** Missing fields render as missing.
-6. **No patient data.** Public information about technologies, products, organisations, and trials only.
+1. **Cite it.** New facts carry a source URL. If it cannot be sourced, leave the field out.
+2. **Keep it current.** Every record carries an internal last-checked date for maintainers; pages show the current state.
+3. **Prefer a link to a remembered number.** Trial figures appear only when sourced on the page or in the linked trial record.
+4. **Evidence tier is visible.** Approved, phase 3, phase 2, phase 1, preclinical, concept: colour-coded everywhere, plus a disclosed evidence score.
+5. **Ideas are labelled as ideas**, with a maturity grade, a proposed test, and a named confidence estimate.
+6. **Unknown beats guessed.** Missing fields render as missing.
+7. **No patient data.** Public information about technologies, products, organisations, trials, and public professional figures only.
+8. **Failures are data.** Negative trials, withdrawals, and discontinued programmes are kept and explained.
+
+Trust tooling: `/audit/` (staleness and contradictions, recomputed each build), weekly fact checks against openFDA and ClinicalTrials.gov, a provenance line on every page from `git blame`, a public corrections log, and expert and patient-advocate review badges with mandatory conflict-of-interest statements.
 
 ## Run it
 
 ```bash
 npm install
-npm run validate   # schema + every cross-reference
-npm test           # vitest
-npm run dev        # http://localhost:3000 (builds the JSON API first)
-npm run build      # static export to out/
+npm run validate     # schema + every cross-reference (fails on a bad id)
+npm test             # vitest: schema, invariants, ranking
+npm run dev          # http://localhost:3000 (builds the JSON API first)
+npm run build        # static export to out/
 ```
+
+Node 22 or newer. No server, database, environment variables, or tracking. Optional data refreshers (network): `fetch:structures`, `fetch:logos`, `fetch:trials`, `fetch:openalex`, `factcheck`, `provenance`, `audit`, `bench`.
 
 ## Layout
 
 | Path | What |
 |---|---|
-| `src/lib/schema.ts` | Zod schemas for all 14 kinds. The source of truth. |
+| `src/lib/schema.ts` | Zod schemas for all kinds. The source of truth. |
 | `src/lib/graph.ts` | Loads and validates the corpus; derives backlinks and neighbourhoods. |
-| `src/lib/ranking.ts` | The disclosed institution and university scoring formula. |
+| `src/lib/ranking.ts`, `relevance.ts`, `evidence.ts` | The disclosed scoring formulas. |
 | `src/data/*.ts` | The corpus, one file per kind. Edit these. |
-| `src/data/hub-ideas.ts` | 50 product/community ideas with status. |
-| `src/app/` | Next.js App Router pages: `/[kind]/`, `/[kind]/[id]/`, `/for-me/`, `/universities/`, `/hub/`, `/about/`, `/api/`. |
-| `scripts/build-api.ts` | Emits `public/api/v1/*.json` (gitignored, rebuilt on every build). |
-| `docs/` | Design spec and notes. |
+| `src/data/spikes/*.ts` | One deep dive per cancer, merged onto the base record at build time. |
+| `src/data/people/` | Clinicians and scientists, one file per group. |
+| `src/app/` | Next.js App Router pages. |
+| `public/structures/`, `public/logos/`, `public/openalex/` | Self-hosted data fetched by `scripts/`. |
+| `scripts/` | Validators, fetchers, fact checks, provenance, benchmark. |
+| `mcp/server.ts` | MCP server exposing the corpus to AI assistants (`npm run mcp`). |
 
 ## Contribute
 
-Each kind lives in one file under `src/data/`. Add or edit a record, include a source URL in `links`, run `npm test`, open a PR. Cross-references are validated at build time, so a typo in an id fails the build rather than producing a dead link.
+Read [CONTRIBUTING.md](CONTRIBUTING.md). In short: each kind lives in one file under `src/data/`, ids are kebab-case and unique, every fact needs a source, and `npm test` must pass. Ways in:
 
-Priorities are on the [50 ideas](https://onco-umber.vercel.app/hub/) page. The next cancer spikes after TNBC: pancreatic, NSCLC, prostate, glioblastoma.
+- **Fix a fact.** Use "Suggest an edit" on any page (it opens a prefilled issue) or edit the record directly.
+- **Deepen a cancer.** Add to its spike under `src/data/spikes/`.
+- **Review a page.** Expert and patient-advocate review tracks put a badge on the page; see `.github/REVIEWERS.md`.
+- **Fill a gap.** `/gaps/` lists objects and fields that need work.
+- **Build a roadmap item.** `/hub/` has two roadmaps with statuses.
 
-## Not medical advice
-
-OnCo is an orientation tool. It does not know your case. Decisions about diagnosis and treatment belong with you and your clinicians, using the primary sources linked from each page.
+Maintainers: the weekly workflows (`refresh-trials.yml`, `factcheck.yml`) open pull requests, which requires **Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests"** to be enabled.
 
 ## Licence
 
-Code: MIT (see LICENSE). Data in `src/data/`: CC BY 4.0 (see LICENSE-DATA). Attribute "OnCo (github.com/judegomila/OnCo)".
+Code: [MIT](LICENSE). Data in `src/data/`: [CC BY 4.0](LICENSE-DATA). Attribute "OnCo (github.com/judegomila/OnCo)". Logos under `public/logos/` are trademarks of their owners, shown for identification; Wikimedia Commons files carry their own licences, recorded per file in `public/logos/index.json`.
 
-## MCP server
+## Credits
 
-OnCo ships a [Model Context Protocol](https://modelcontextprotocol.io) server so AI assistants can search and cite the corpus directly.
-
-```bash
-npm run mcp     # stdio transport
-```
-
-Tools: `search(query, limit)`, `get_entity(id)`, `list_kind(kind)`, `for_cancer(cancerId)`, `rank(kind, cancerId?, limit)`. Every result includes the page URL so answers can link back.
-
-Claude Desktop config (`claude_desktop_config.json`):
-
-```json
-{
-  "mcpServers": {
-    "onco": { "command": "npx", "args": ["-y", "tsx", "/absolute/path/to/OnCo/mcp/server.ts"] }
-  }
-}
-```
-
-## Research output data
-
-`npm run fetch:openalex` refreshes `public/openalex/institutions.json` (OpenAlex, CC0): oncology-subfield work counts for 2024 and 2025 per institution, shown on `/universities/`. Cached rows are kept; pass `--force` to refetch everything.
+Data and structures from [PubChem](https://pubchem.ncbi.nlm.nih.gov), [RCSB PDB](https://www.rcsb.org), [Wikimedia Commons and Wikidata](https://commons.wikimedia.org), [ClinicalTrials.gov](https://clinicaltrials.gov), [openFDA](https://open.fda.gov), [OpenAlex](https://openalex.org), [world-atlas](https://github.com/topojson/world-atlas) (Natural Earth), and the open databases listed under [Collections](https://onco-umber.vercel.app/collections/). Built with Next.js, Tailwind, Zod, MiniSearch, and d3-geo. Modelled on the Open Medical Registry's "cite everything, omit what you cannot confirm" approach.

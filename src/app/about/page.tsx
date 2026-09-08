@@ -45,8 +45,13 @@ export default function About() {
           <p>FDA Oncology Center of Excellence and the AACR quarterly approval digests; ClinicalTrials.gov; NCI PDQ; NCCN and ESMO guidelines; OncoKB and CIViC; conference coverage from ASCO, ESMO, AACR, SABCS, ASH; Newsweek/Statista hospital rankings; Nature Index. See <Link href="/collections/">Collections</Link> for the full list with licences.</p>
         </section>
         <section>
-          <h2 className="text-xl font-semibold mb-2">Not medical advice</h2>
-          <p>OnCo is an orientation tool. It does not know your case. Decisions about diagnosis and treatment belong with you and your clinicians, using the primary sources linked from each page.</p>
+          <h2 className="text-xl font-semibold mb-2">Status and disclaimer</h2>
+          <p><strong>OnCo is a work in progress.</strong> Every fact on this site is being built and checked in the open and may be incomplete, out of date, or wrong. Much of the corpus was drafted quickly from public sources and has not yet been reviewed by a named expert; pages that have been reviewed carry a badge with the reviewer and date. You must do your own research and verify anything here at its primary source (the publication, label, registry, regulator, or guideline linked from the page) before relying on it.</p>
+          <p><strong>Not medical advice.</strong> OnCo is an orientation tool. It does not know your case. Decisions about diagnosis and treatment belong with you and your clinicians. If something here is wrong, use “Suggest an edit” on the page or open a <a href="https://github.com/judegomila/OnCo/issues/new/choose" rel="noopener">fact correction</a>; confirmed errors are logged at <Link href="/corrections/">/corrections/</Link>.</p>
+        </section>
+        <section>
+          <h2 className="text-xl font-semibold mb-2">Credits and data sources</h2>
+          <p>Molecular structures from <a href="https://pubchem.ncbi.nlm.nih.gov" rel="noopener">PubChem</a> and the <a href="https://www.rcsb.org" rel="noopener">RCSB Protein Data Bank</a>; organisation logos from <a href="https://commons.wikimedia.org" rel="noopener">Wikimedia Commons</a> via Wikidata (licences recorded per file) with site favicons as fallback; live trial data from <a href="https://clinicaltrials.gov" rel="noopener">ClinicalTrials.gov</a>; label checks from <a href="https://open.fda.gov" rel="noopener">openFDA</a>; research output from <a href="https://openalex.org" rel="noopener">OpenAlex</a>; country outlines from Natural Earth via world-atlas. Trademarks belong to their owners and are shown for identification. The editorial approach (cite everything, omit what you cannot confirm) follows the Open Medical Registry.</p>
         </section>
         <section>
           <h2 className="text-xl font-semibold mb-2">Licence</h2>

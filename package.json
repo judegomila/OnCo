@@ -1,7 +1,12 @@
 {
   "name": "onco",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "private": true,
+  "description": "OnCo: total information dominance on cancer. A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, people, pathways, trials, pairings, roadmaps, and ideas, one page per object.",
+  "homepage": "https://onco-umber.vercel.app",
+  "repository": { "type": "git", "url": "https://github.com/judegomila/OnCo.git" },
+  "bugs": { "url": "https://github.com/judegomila/OnCo/issues" },
+  "keywords": ["oncology", "cancer", "knowledge-graph", "open-data", "nextjs", "static-site", "clinical-trials", "adc", "precision-medicine"],
   "scripts": {
     "dev": "npm run build:api && next dev",
     "build": "npm run build:api && next build",
@@ -49,6 +54,5 @@
     "typescript": "^5",
     "vitest": "^5.0.0"
   },
-  "license": "MIT",
-  "description": "OnCo — the open map of oncology: technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, and ideas."
+  "license": "MIT"
 }

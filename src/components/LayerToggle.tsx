@@ -23,9 +23,9 @@ export function LayerToggle({ className = "" }: { className?: string }) {
   return (
     <div ref={box} className={`relative ${className}`}>
       <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="dialog" aria-expanded={open} aria-label="Reading level and language"
-        className={`flex items-center gap-1.5 rounded-lg border px-2.5 py-1.5 text-sm hover:bg-foreground/5 ${nonDefault ? "border-accent bg-accent/5" : "border-border bg-card"}`}>
-        <span aria-hidden>Aa</span>
-        <span className="hidden md:inline text-muted">{level.label} · {lang.code.toUpperCase()}</span>
+        className={`flex h-8 shrink-0 items-center gap-1 whitespace-nowrap rounded-lg border px-2 text-sm leading-none hover:bg-foreground/5 ${nonDefault ? "border-accent bg-accent/5" : "border-border bg-card"}`} title={`${level.label} · ${lang.label}`}>
+        <span aria-hidden className="font-semibold">Aa</span>
+        <span className="text-xs text-muted">{lang.code.toUpperCase()}</span>
       </button>
       {open && (
         <div role="dialog" aria-label="Reading level and language" className="absolute right-0 z-50 mt-1 w-72 card shadow-xl p-3 text-sm">

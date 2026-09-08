@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="hidden sm:inline text-muted font-normal text-sm">the open map of oncology</span>
             </Link>
             <div className="ml-2"><NavMenu /></div>
-            <div className="ml-auto w-full max-w-xs sm:max-w-sm">
+            <div className="ml-auto w-full max-w-[220px] sm:max-w-xs">
               <PaletteTrigger className="w-full" />
             </div>
             <LayerToggle />

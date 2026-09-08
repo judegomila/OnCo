@@ -31,7 +31,7 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
   const next = ORDER[(ORDER.indexOf(theme) + 1) % ORDER.length];
   return (
     <button type="button" onClick={() => set(next)} title={`Theme: ${LABEL[theme]}. Click for ${LABEL[next]}.`} aria-label={`Theme: ${LABEL[theme]}. Switch to ${LABEL[next]}`}
-      className={`inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-2.5 py-1.5 text-sm hover:bg-foreground/5 ${className}`}>
+      className={`shrink-0 whitespace-nowrap h-8 leading-none inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-2.5 py-1.5 text-sm hover:bg-foreground/5 ${className}`}>
       <span aria-hidden>{ICON[theme]}</span><span className="hidden md:inline text-muted">{LABEL[theme]}</span>
     </button>
   );

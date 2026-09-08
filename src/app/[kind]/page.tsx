@@ -5,7 +5,7 @@ import { graph } from "@/lib/graph";
 import { KIND_META, KINDS, routeFor, type Entity, type Kind } from "@/lib/schema";
 import { Container, PageHeader } from "@/components/ui";
 import { rankInstitutions } from "@/lib/ranking";
-import { WorldMap } from "@/components/WorldMap";
+import { InstitutionsExplorer } from "@/components/InstitutionsExplorer";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef } from "@/components/EntityBrowser";
 import structureIndex from "../../../public/structures/index.json";
 import { FrontSchematic } from "@/components/FrontSchematic";
@@ -186,11 +186,16 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
     <>
       <PageHeader kicker={<span className="kicker">{meta.plural}</span>} title={title} lede={meta.blurb} right={right} />
       <Container className="pb-16">
-        {k === "institution" && <InstitutionsMap />}
-        {k === "section" && <FrontsGrid />}
-        {k === "term" && <TermCategoryGrid />}
-        {k === "bottleneck" && <BottlenecksPipeline />}
-        <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
+        {k === "institution" ? (
+          <InstitutionsExplorer points={institutionPoints()} rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
+        ) : (
+          <>
+            {k === "section" && <FrontsGrid />}
+            {k === "term" && <TermCategoryGrid />}
+            {k === "bottleneck" && <BottlenecksPipeline />}
+            <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
+          </>
+        )}
         {k === "institution" && (
           <p className="text-xs text-muted mt-3 max-w-3xl">Score = Newsweek points (60 − Newsweek/Statista 2026 Oncology rank, 0 if unranked) + NCI designation points (Comprehensive 15, Clinical or Basic 8) + 2 × distinct OnCo objects linked to the institution. The last term measures presence in this evidence base and grows with the corpus. A starting point for argument, not a verdict.</p>
         )}
@@ -240,8 +245,10 @@ function FrontsGrid() {
   );
 }
 
-function InstitutionsMap() {
-  const ranked = rankInstitutions();
-  const points = ranked.map((r) => ({ id: r.institution.id, name: r.institution.name, city: `${r.institution.city}, ${r.institution.country}`, lat: r.institution.lat, lng: r.institution.lng, score: r.score, rank: r.rank, route: routeFor(r.institution) }));
-  return <div className="mb-6"><WorldMap points={points} /></div>;
+/** Map dots for the institutions explorer; `type` uses the same label as the table's "type" facet so the legend can drive both. */
+function institutionPoints() {
+  return rankInstitutions().map((r) => {
+    const i = r.institution;
+    return { id: i.id, name: i.name, city: i.city, country: i.country, type: cap(i.institutionType.replace("-", " ")), lat: i.lat, lon: i.lng, route: routeFor(i), logo: logoFor(i.id, i.website), links: r.links };
+  });
 }

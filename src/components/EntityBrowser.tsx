@@ -31,11 +31,29 @@ export type ColDef = { key: string; label: string; sortable?: boolean; hide?: st
 
 const STATUS_ORDER = ["approved", "standard-of-care", "positive", "phase-3", "established", "completed", "recruiting", "active", "phase-2", "emerging", "phase-1", "preclinical", "concept", "planned", "mixed", "historic", "negative", "withdrawn"];
 
-export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideStatus = false, hideTldr = false }: {
+export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideStatus = false, hideTldr = false, external = null, onExternalChange }: {
   rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[]; noun: string; defaultSort?: SortState; hideStatus?: boolean; hideTldr?: boolean;
+  /** Facet values set by a parent (e.g. a map legend); merged with the internal selection for that key and shown as selected. */
+  external?: { key: string; values: string[] } | null;
+  /** Called when the user changes the externally controlled facet from inside the table (or clears all filters). */
+  onExternalChange?: (values: string[]) => void;
 }) {
   const [q, setQ] = useState("");
-  const [sel, setSel] = useState<Record<string, string[]>>({});
+  const [own, setOwn] = useState<Record<string, string[]>>({});
+  /** Effective selection: the internal choice plus whatever the parent set on the controlled key. */
+  const sel = useMemo(() => {
+    if (!external?.values.length) return own;
+    return { ...own, [external.key]: [...new Set([...(own[external.key] ?? []), ...external.values])] };
+  }, [own, external]);
+  const setFacet = (key: string, vals: string[]) => {
+    if (external && key === external.key) {
+      if (onExternalChange) { onExternalChange(vals); setOwn((s) => ({ ...s, [key]: [] })); return; }
+      setOwn((s) => ({ ...s, [key]: vals.filter((v) => !external.values.includes(v)) }));
+      return;
+    }
+    setOwn((s) => ({ ...s, [key]: vals }));
+  };
+  const clearAll = () => { setOwn({}); setQ(""); onExternalChange?.([]); };
   const [sort, setSort] = useState<SortState>(defaultSort ?? { key: hideStatus ? "name" : "status", dir: 1 });
 
   const allFacets = useMemo(() => (hideStatus ? facets : [{ key: "status", label: "Phase / status", searchable: false, width: "w-48", order: STATUS_ORDER }, ...facets]), [facets, hideStatus]);
@@ -116,10 +134,10 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
           {allFacets.map((f) => {
             const opts = options[f.key] ?? [];
             if (!opts.length && !(sel[f.key]?.length)) return null;
-            return <FacetSelect key={f.key} label={f.label} options={opts} value={sel[f.key] ?? []} onChange={(v) => setSel((s) => ({ ...s, [f.key]: v as string[] }))} multi searchable={f.searchable ?? true} allLabel="Any" width={f.width ?? "w-48"} />;
+            return <FacetSelect key={f.key} label={f.label} options={opts} value={sel[f.key] ?? []} onChange={(v) => setFacet(f.key, v as string[])} multi searchable={f.searchable ?? true} allLabel="Any" width={f.width ?? "w-48"} />;
           })}
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={`Filter ${noun}…`} aria-label={`Filter ${noun}`} className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
-          {active ? <button type="button" onClick={() => { setSel({}); setQ(""); }} className="text-sm underline text-muted">Clear</button> : null}
+          {active ? <button type="button" onClick={clearAll} className="text-sm underline text-muted">Clear</button> : null}
         </>}
       />
       <ResultsTable columns={tableCols} rows={filtered} rowKey={(r) => r.id} sort={sort} onSort={onSort} />

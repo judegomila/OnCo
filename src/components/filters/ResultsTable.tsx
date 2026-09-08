@@ -26,7 +26,7 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "
   columns: Column<T>[]; rows: T[]; rowKey: (r: T) => string; sort?: SortState; onSort?: (key: string) => void; empty?: string;
 }) {
   return (
-    <div className="card overflow-x-auto lg:overflow-x-visible">
+    <div className="card results-table overflow-x-auto lg:overflow-x-visible">
       <table className="onco">
         <thead>
           <tr>

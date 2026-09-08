@@ -266,6 +266,16 @@
   table.onco tbody tr:hover td { background: color-mix(in srgb, var(--foreground) 3.5%, transparent); }
   table.onco th:first-child, table.onco td:first-child { padding-left: 1rem; }
   table.onco th:last-child, table.onco td:last-child { padding-right: 1rem; }
+  /* A sideways-scrolling wrapper is the sticky container for its table, so a page-relative offset
+     would push the header row down over the first rows. Pin it to the wrapper top instead; the
+     results table goes back to tracking the page from lg, where it stops scrolling sideways. */
+  .overflow-x-auto table.onco thead th, .overflow-auto table.onco thead th { top: 0; }
+  @media (width >= 64rem) { .results-table table.onco thead th { top: var(--sticky-top); } }
+
+  /* A sideways scroller must also be the containing block for its absolutely positioned descendants
+     (notably `sr-only` text inside static buttons): otherwise their static position past the right
+     edge escapes the clip and widens the whole page on phones. Fixed popovers are unaffected. */
+  .overflow-x-auto, .overflow-auto { position: relative; }
 
   .no-scrollbar { scrollbar-width: none; }
   .no-scrollbar::-webkit-scrollbar { display: none; }

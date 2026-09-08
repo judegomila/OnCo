@@ -187,8 +187,9 @@ export function GraphExplorer({ data }: { data: GraphData }) {
           })}
         </div>
       )}
-      <div className="card overflow-hidden">
-        <canvas ref={canvas} className="w-full h-auto cursor-pointer" style={{ aspectRatio: "1000 / 640" }} aria-label="Knowledge graph"
+      {/* Below lg the 1000-unit scene is kept at least 52rem wide and scrolls sideways, so labels stay legible. */}
+      <div className="card overflow-x-auto">
+        <canvas ref={canvas} className="w-full min-w-[52rem] lg:min-w-0 h-auto cursor-pointer" style={{ aspectRatio: "1000 / 640" }} aria-label="Knowledge graph"
           onMouseMove={(e) => setHover(hit(e))} onMouseLeave={() => setHover(null)}
           onClick={(e) => { const i = hit(e); if (i === null) return; if (i === focus) router.push(data.nodes[i].route); else go(i); }} />
       </div>

@@ -308,6 +308,26 @@ function kindTabs(e: Entity): Tab[] {
           {e.bottlenecks.length > 0 && <Field label="Bottlenecks it attacks"><ul className="space-y-1">{e.bottlenecks.map((id) => { const b = g.get(id); return b ? <li key={id}><Link className="underline" href={routeFor(b)}>{b.name}</Link><span className="text-muted"> · {b.tldr}</span></li> : null; })}</ul></Field>}
         </div>),
       ];
+    case "paper": {
+      const typeLabel: Record<string, string> = { rct: "Randomised controlled trial", "meta-analysis": "Meta-analysis", observational: "Observational study", "real-world": "Real-world evidence", basic: "Basic science", translational: "Translational study", review: "Review", guideline: "Guideline", methods: "Methods" };
+      return [
+        overview(<div className="grid gap-6 mt-8">
+          <div className="flex flex-wrap gap-2 items-center text-sm">
+            <span className="chip bg-foreground/5">{typeLabel[e.paperType] ?? e.paperType}</span>
+            {e.changedPractice !== undefined && <span className={`chip ${statusClass(e.changedPractice ? "approved" : "mixed")}`}>{e.changedPractice ? "Changed practice" : "Has not changed practice yet"}</span>}
+            {e.participants !== undefined && <span className="chip bg-foreground/5 tabular-nums">{e.participants.toLocaleString()} participants</span>}
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <Field label="Authors">{e.authors}</Field>
+            <Field label="Published">{e.journal}, {e.year}</Field>
+            {(e.doi || e.pmid) && <Field label="Read it">{e.doi && <a className="underline mr-3" href={`https://doi.org/${e.doi}`} rel="noopener">doi:{e.doi}</a>}{e.pmid && <a className="underline" href={`https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/`} rel="noopener">PubMed {e.pmid}</a>}</Field>}
+          </div>
+          {e.findings.length > 0 && <Field label="What it found"><ul className="list-disc pl-5 space-y-1">{e.findings.map((f, i) => <li key={i}>{withTermHovers(f)}</li>)}</ul></Field>}
+          <div className="card p-4 bg-accent-soft/60 border-accent/20"><div className="kicker mb-1">What it means</div><p className="text-[15px] leading-relaxed">{withTermHovers(e.whatItMeans)}</p></div>
+          {e.caveats.length > 0 && <Field label="Be careful"><ul className="list-disc pl-5 space-y-1">{e.caveats.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
+        </div>),
+      ];
+    }
     case "bottleneck": {
       const ideas = g.incoming(e.id).get("idea") ?? [];
       const relievers = [...(g.incoming(e.id).get("technology") ?? []), ...(g.incoming(e.id).get("collection") ?? []), ...(g.incoming(e.id).get("trial") ?? [])];

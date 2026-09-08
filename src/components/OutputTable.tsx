@@ -2,6 +2,7 @@ import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { routeFor, type Institution } from "@/lib/schema";
 import openalex from "../../public/openalex/institutions.json";
+import { Logo } from "./Logo";
 
 export type OpenAlexRow = { openalexId: string; openalexName: string; works2024: number; works2025: number; cited2024: number | null; cited2025: number | null; matchedBy: "override" | "search" };
 export type OpenAlexFile = { fetched: string; subfield: number; subfieldName: string; source: string; license: string; note?: string; institutions: Record<string, OpenAlexRow> };
@@ -53,7 +54,7 @@ export function OutputTable({ rows }: { rows: OutputRow[] }) {
           {rows.map((r) => (
             <tr key={r.institution.id}>
               <td className="tabular-nums text-muted">{r.rank}</td>
-              <td className="min-w-[220px]"><Link href={routeFor(r.institution)} className="font-medium hover:underline">{r.institution.name}</Link>{r.institution.university && <div className="text-xs text-muted">{r.institution.university}</div>}</td>
+              <td className="min-w-[240px]"><div className="flex items-center gap-2"><Logo id={r.institution.id} website={r.institution.website} name={r.institution.name} size={28} className="shrink-0" /><div><Link href={routeFor(r.institution)} className="font-medium hover:underline">{r.institution.name}</Link>{r.institution.university && <div className="text-xs text-muted font-normal">{r.institution.university}</div>}</div></div></td>
               <td className="text-xs text-muted min-w-[200px]"><a className="underline" href={`https://openalex.org/${r.oa.openalexId}`} rel="noopener">{r.oa.openalexName}</a></td>
               <td className="tabular-nums">{r.oa.works2024.toLocaleString()}</td>
               <td className="tabular-nums">{r.oa.works2025.toLocaleString()}</td>

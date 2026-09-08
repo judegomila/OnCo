@@ -13,16 +13,16 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: { default: "OnCo — the open map of oncology", template: "%s · OnCo" },
+  title: { default: "OnCo — time to win", template: "%s · OnCo" },
   description: "Total information dominance on cancer: every technology, target, product, company, institution, pathway, trial, and idea, one page per object, linked, with plain-English TL;DRs.",
   metadataBase: new URL("https://onco-umber.vercel.app"),
-  openGraph: { title: "OnCo — the open map of oncology", description: "The current state of the art, the history, and what is coming, for every cancer.", type: "website" },
+  openGraph: { title: "OnCo — time to win", description: "The current state of the art, the history, and what is coming, for every cancer.", type: "website" },
 };
 
 function Mark({ size = 28 }: { size?: number }) {
   return (
     <svg viewBox="0 0 64 64" width={size} height={size} aria-hidden className="shrink-0">
-      <rect width="64" height="64" rx="14" fill="#b91c1c" />
+      <rect width="64" height="64" rx="14" fill="#d6336c" />
       <circle cx="32" cy="32" r="15" fill="none" stroke="#fff" strokeWidth="5" />
       <circle cx="32" cy="12" r="4" fill="#fff" />
       <circle cx="50" cy="42" r="4" fill="#fff" />
@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="inline-flex h-10 shrink-0 items-center gap-2.5 rounded-lg pr-2 font-semibold tracking-tight" aria-label="OnCo home">
               <Mark />
               <span className="text-[15px]">OnCo</span>
-              <span className="hidden 2xl:inline text-muted font-normal text-sm">the open map of oncology</span>
+              <span className="hidden 2xl:inline text-muted font-normal text-sm">time to win</span>
             </Link>
             <NavMenu />
             <div className="ml-auto flex-1 min-w-[6.5rem] max-w-[17rem] sm:max-w-xs xl:ml-auto">

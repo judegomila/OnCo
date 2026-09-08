@@ -32,6 +32,7 @@ export const KINDS = [
   "collection",
   "person",
   "bottleneck",
+  "paper",
 ] as const;
 export type Kind = (typeof KINDS)[number];
 
@@ -106,6 +107,8 @@ const Base = z.object({
   people: z.array(id).default([]),
   /** Bottlenecks of the war on cancer this object bears on (ideas attack them; technologies, trials, collections relieve them). */
   bottlenecks: z.array(id).default([]),
+  /** Key papers (kind "paper") this object rests on or is discussed in. */
+  keyPapers: z.array(id).default([]),
   /** Why this matters / what is hard about it. Optional editorial notes. */
   notes: z.array(z.string()).default([]),
   /** Even simpler explanation (about a 12-year-old reading age). Optional. */
@@ -303,6 +306,28 @@ export const IdeaSchema = Base.extend({
   horizonYears: z.number().int().min(0).max(30).optional(),
 });
 
+/** A key paper: a landmark publication explained. One page each: what it found, what it means, and what to be careful about. */
+export const PaperSchema = Base.extend({
+  kind: z.literal("paper"),
+  journal: z.string(),
+  year: z.number().int(),
+  doi: z.string().optional(),
+  pmid: z.string().optional(),
+  /** "Surname A, Surname B, et al." */
+  authors: z.string(),
+  paperType: z.enum(["rct", "meta-analysis", "observational", "real-world", "basic", "translational", "review", "guideline", "methods"]),
+  /** The key results, one per item, with the numbers. */
+  findings: z.array(z.string()).default([]),
+  /** Plain English: what this changes for patients, clinicians or the field. */
+  whatItMeans: z.string(),
+  /** Limitations, open questions, disputes. */
+  caveats: z.array(z.string()).default([]),
+  /** Did it change guidelines or approvals? */
+  changedPractice: z.boolean().optional(),
+  /** Roughly how many participants, for trials and cohorts. */
+  participants: z.number().int().optional(),
+});
+
 /** A bottleneck: a systemic constraint that slows the whole war on cancer. Ideas link to bottlenecks; the fixes are derived by backlink. */
 export const BottleneckSchema = Base.extend({
   kind: z.literal("bottleneck"),
@@ -359,6 +384,7 @@ export const EntitySchema = z.discriminatedUnion("kind", [
   CollectionSchema,
   PersonSchema,
   BottleneckSchema,
+  PaperSchema,
 ]);
 
 export type Entity = z.infer<typeof EntitySchema>;
@@ -378,6 +404,7 @@ export type Idea = z.infer<typeof IdeaSchema>;
 export type Collection = z.infer<typeof CollectionSchema>;
 export type Person = z.infer<typeof PersonSchema>;
 export type Bottleneck = z.infer<typeof BottleneckSchema>;
+export type Paper = z.infer<typeof PaperSchema>;
 
 /** Input types (before defaults are applied) — what authors write in data files. */
 export type CancerInput = z.input<typeof CancerSchema>;
@@ -396,6 +423,7 @@ export type IdeaInput = z.input<typeof IdeaSchema>;
 export type CollectionInput = z.input<typeof CollectionSchema>;
 export type PersonInput = z.input<typeof PersonSchema>;
 export type BottleneckInput = z.input<typeof BottleneckSchema>;
+export type PaperInput = z.input<typeof PaperSchema>;
 export type EntityInput = z.input<typeof EntitySchema>;
 
 /** The relationship array fields shared by every entity. */
@@ -413,6 +441,7 @@ export const REL_FIELDS = [
   "trials",
   "people",
   "bottlenecks",
+  "keyPapers",
 ] as const;
 export type RelField = (typeof REL_FIELDS)[number];
 
@@ -432,6 +461,7 @@ export const KIND_META: Record<Kind, { plural: string; label: string; route: str
   idea: { plural: "ideas", label: "Idea", route: "ideas", blurb: "Hypotheses and new directions, linked to the evidence.", color: "lime" },
   collection: { plural: "collections", label: "Collection", route: "collections", blurb: "The open databases and registries the field runs on.", color: "stone" },
   person: { plural: "people", label: "Person", route: "people", blurb: "The clinicians and scientists doing the work: specialisms, bios, papers, and where to find them.", color: "pink" },
+  paper: { plural: "key papers", label: "Key paper", route: "key-papers", blurb: "The papers that changed practice or thinking, each explained: what it found, what it means, and what to be careful about.", color: "sky" },
   bottleneck: { plural: "bottlenecks", label: "Bottleneck", route: "bottlenecks", blurb: "The systemic constraints slowing the whole war on cancer, with the ideas that could break each one.", color: "red" },
 };
 

@@ -91,6 +91,13 @@ export const sections: SectionInput[] = [
     summary: "HPV and HBV vaccination, hereditary cancer syndrome testing (BRCA, Lynch), chemoprevention (tamoxifen, aspirin in Lynch), risk-reducing surgery, and population-level tobacco and alcohol control. The most cost-effective section of oncology and the least glamorous.",
   },
   {
+    id: "nutrition-lifestyle", kind: "section", name: "Diet, Exercise & Lifestyle", order: 19, asOf, icon: "leaf",
+    tldr: "What people eat, drink, weigh and do affects who gets cancer, how treatment goes, and who relapses. This front studies that with the rigour of a drug trial.",
+    summary: "Obesity, alcohol and inactivity are established causes; diet quality, fibre and the gut microbiome shape immunotherapy response; structured exercise improved survival in a randomised colon cancer trial (CHALLENGE, 2025); fasting-mimicking and ketogenic diets, GLP-1 agonists, vitamin D and aspirin are under test. Cachexia and malnutrition during treatment are treatable and under-treated. The evidence ranges from strong to hype, and this front keeps the two apart.",
+    tags: ["nutrition", "exercise", "microbiome", "obesity", "cachexia", "prevention"],
+    links: [{ label: "WCRF Continuous Update Project", url: "https://www.wcrf.org/research-policy/continuous-update-project/" }, { label: "CHALLENGE trial (NEJM 2025)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2502760" }],
+  },
+  {
     id: "devices", kind: "section", name: "Devices & Physical Therapies", order: 18, asOf, icon: "device",
     tldr: "Machines that treat cancer with electric fields, heat, or sound rather than chemicals.",
     summary: "Tumour treating fields (Optune, now approved in pancreatic cancer), hyperthermia, HIFU, histotripsy, photodynamic and photoimmunotherapy, electroporation, and intraoperative devices.",

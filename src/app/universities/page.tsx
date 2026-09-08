@@ -4,6 +4,7 @@ import { rankUniversities } from "@/lib/ranking";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, PageHeader } from "@/components/ui";
+import { Logo } from "@/components/Logo";
 import { OPENALEX, OutputTable, UniversityOutputTable, outputRows, universityOutputRows } from "@/components/OutputTable";
 
 export const metadata: Metadata = { title: "Research output ranking", description: "Universities and cancer centres ranked by oncology research output: OpenAlex counts, external bibliometric leaders, and the corpus-derived score." };
@@ -46,8 +47,8 @@ export default function Universities() {
               {corpus.map((r) => (
                 <tr key={r.university}>
                   <td className="tabular-nums text-muted">{r.rank}</td>
-                  <td className="font-medium">{r.university}</td>
-                  <td className="text-sm">{r.institutions.map((i) => <Link key={i.id} href={routeFor(i)} className="underline mr-2">{i.name}</Link>)}</td>
+                  <td className="font-medium min-w-[220px]"><div className="flex items-center gap-2"><Logo id={r.institutions[0]?.id} website={r.institutions[0]?.website ?? ""} name={r.university} size={28} className="shrink-0" /><span>{r.university}</span></div></td>
+                  <td className="text-sm max-w-md"><span className="text-muted">{r.institutions.slice(0, 4).map((i, k) => <span key={i.id}>{k > 0 && ", "}<Link href={routeFor(i)} className="hover:underline hover:text-foreground">{i.name}</Link></span>)}{r.institutions.length > 4 && <span className="text-xs"> +{r.institutions.length - 4} more</span>}</span></td>
                   <td className="tabular-nums">{r.links}</td>
                   <td className="tabular-nums font-semibold">{r.score}</td>
                 </tr>

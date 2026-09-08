@@ -71,6 +71,19 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
       if (mesh.animate) {
         const t = reduced ? 0.35 : (((time - t0) / 1000) % mesh.animate.duration) / mesh.animate.duration;
         const fr = mesh.animate.frame(t);
+        // Seamless loop: over the last part of the cycle, ease the geometry back towards the opening frame so the
+        // restart is a continuation rather than a jump. Captions and labels switch at the end.
+        const BLEND = 0.14;
+        if (!reduced && t > 1 - BLEND) {
+          const w0 = (t - (1 - BLEND)) / BLEND, w = w0 * w0 * (3 - 2 * w0);
+          const f0 = mesh.animate.frame(0);
+          const a = fr.points ?? basePts, b = f0.points ?? basePts;
+          const len = Math.max(a.length, b.length);
+          const mixed: Vec3[] = [];
+          for (let i = 0; i < len; i++) { const pa = a[i] ?? basePts[i], pb = b[i] ?? basePts[i]; mixed.push([pa[0] + (pb[0] - pa[0]) * w, pa[1] + (pb[1] - pa[1]) * w, pa[2] + (pb[2] - pa[2]) * w]); }
+          fr.points = mixed;
+          if (fr.alpha || f0.alpha) { const aa = fr.alpha, ab = f0.alpha; fr.alpha = Array.from({ length: Math.max(aa?.length ?? 0, ab?.length ?? 0) }, (_, i) => { const x = aa?.[i] ?? 1, y = ab?.[i] ?? 1; return x + (y - x) * w; }); }
+        }
         if (fr.points) pts = fr.points.length >= n ? fr.points : fr.points.concat(basePts.slice(fr.points.length));
         alpha = fr.alpha; caption = fr.caption; if (fr.labels) labels = fr.labels;
       }

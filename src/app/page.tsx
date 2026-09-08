@@ -77,7 +77,6 @@ export default function Home() {
       <section className="hero border-b border-border">
         <Container className="pt-14 pb-10 sm:pt-20 sm:pb-12">
           <div className="max-w-3xl">
-            <div className="kicker mb-4">Open · cited · one page per object</div>
             <h1 className="display">Total information dominance on cancer.</h1>
             <p className="mt-6 text-[17px] sm:text-xl text-foreground/85 leading-relaxed max-w-2xl">
               Every technology, target, product, company, institution, pathway, trial, pairing, roadmap, and idea in oncology, linked together. The state of the art, the history, and what is coming, for every cancer, with a plain-English TL;DR on every page.

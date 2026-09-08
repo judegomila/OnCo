@@ -94,5 +94,6 @@ export const KIND_COLOR: Record<string, string> = {
   idea: "bg-lime-50 text-lime-800 border-lime-200 dark:bg-lime-950/40 dark:text-lime-200 dark:border-lime-900",
   collection: "bg-stone-50 text-stone-700 border-stone-200 dark:bg-stone-900 dark:text-stone-200 dark:border-stone-700",
   person: "bg-pink-50 text-pink-700 border-pink-200 dark:bg-pink-950/40 dark:text-pink-200 dark:border-pink-900",
+  paper: "bg-sky-50 text-sky-800 border-sky-200 dark:bg-sky-950/40 dark:text-sky-200 dark:border-sky-900",
   bottleneck: "bg-red-50 text-red-800 border-red-200 dark:bg-red-950/40 dark:text-red-200 dark:border-red-900",
 };

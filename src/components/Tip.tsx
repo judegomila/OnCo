@@ -3,37 +3,47 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
 
+const W = 288, H_EST = 150, GAP = 14;
+
+type Pos = { left: number; top: number };
+
+/** Position a fixed popover next to the pointer (or an element for keyboard users), kept inside the viewport. */
+export function placeNear(x: number, y: number): Pos {
+  const vw = window.innerWidth, vh = window.innerHeight;
+  let left = x + GAP, top = y + GAP;
+  if (left + W > vw - 8) left = Math.max(8, x - W - GAP);
+  if (top + H_EST > vh - 8) top = Math.max(8, y - H_EST - GAP);
+  return { left, top };
+}
+
 /**
  * Quick-reference popover: hover or focus any technical name to see a one-line explanation and,
- * when the name is an object in the corpus, a link to its page. Used in tables, chips and headers.
+ * when the name is an object in the corpus, a link to its page. The popover follows the pointer so it
+ * appears where the reader is looking, even when the name wraps across two lines.
  */
 export function Tip({ title, text, href, linkLabel = "Open page →", children, className = "", inline = true }: {
   title?: string; text: string; href?: string; linkLabel?: string; children: ReactNode; className?: string; inline?: boolean;
 }) {
-  const [open, setOpen] = useState(false);
-  const [pos, setPos] = useState<{ above: boolean; right: boolean }>({ above: false, right: false });
+  const [pos, setPos] = useState<Pos | null>(null);
   const ref = useRef<HTMLSpanElement>(null);
   const timer = useRef<number | null>(null);
+  const last = useRef<{ x: number; y: number } | null>(null);
 
-  const show = () => {
-    if (timer.current) window.clearTimeout(timer.current);
-    timer.current = window.setTimeout(() => {
-      const r = ref.current?.getBoundingClientRect();
-      setPos({ above: !!r && r.bottom + 150 > window.innerHeight, right: !!r && r.left + 300 > window.innerWidth });
-      setOpen(true);
-    }, 140);
-  };
-  const hide = () => { if (timer.current) window.clearTimeout(timer.current); timer.current = window.setTimeout(() => setOpen(false), 120); };
-  useEffect(() => () => { if (timer.current) window.clearTimeout(timer.current); }, []);
+  const clear = () => { if (timer.current) window.clearTimeout(timer.current); timer.current = null; };
+  const showAt = (x: number, y: number) => { clear(); timer.current = window.setTimeout(() => setPos(placeNear(x, y)), 140); };
+  const move = (e: React.MouseEvent) => { last.current = { x: e.clientX, y: e.clientY }; if (pos) setPos(placeNear(e.clientX, e.clientY)); else showAt(e.clientX, e.clientY); };
+  const focus = () => { const r = ref.current?.getBoundingClientRect(); if (r) showAt(r.left, r.bottom); };
+  const hide = () => { clear(); timer.current = window.setTimeout(() => setPos(null), 120); };
+  useEffect(() => () => clear(), []);
 
   return (
-    <span ref={ref} className={`relative ${inline ? "inline" : "inline-block"} ${className}`} onMouseEnter={show} onMouseLeave={hide} onFocus={show} onBlur={hide}>
+    <span ref={ref} className={`${inline ? "inline" : "inline-block"} ${className}`} onMouseEnter={move} onMouseMove={move} onMouseLeave={hide} onFocus={focus} onBlur={hide}>
       {children}
-      {open && (
-        <span role="tooltip" className={`absolute z-50 w-72 max-w-[85vw] card shadow-xl p-3 text-sm text-left not-italic font-normal normal-case tracking-normal leading-snug ${pos.above ? "bottom-full mb-1" : "top-full mt-1"} ${pos.right ? "right-0" : "left-0"}`}>
+      {pos && (
+        <span role="tooltip" style={{ left: pos.left, top: pos.top, width: W }} className="fixed z-[80] max-w-[85vw] card shadow-xl p-3 text-sm text-left not-italic font-normal normal-case tracking-normal leading-snug pointer-events-none">
           {title && <span className="block font-semibold mb-0.5 text-foreground">{title}</span>}
           <span className="block text-muted">{text}</span>
-          {href && <Link href={href} className="mt-1.5 inline-block text-xs underline text-foreground">{linkLabel}</Link>}
+          {href && <Link href={href} className="mt-1.5 inline-block text-xs underline text-foreground pointer-events-auto">{linkLabel}</Link>}
         </span>
       )}
     </span>

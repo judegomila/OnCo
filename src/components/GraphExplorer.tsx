@@ -8,9 +8,9 @@ import { FacetSelect } from "./filters/FacetSelect";
 
 const HUE: Record<Kind, string> = {
   cancer: "#e11d48", section: "#64748b", technology: "#0284c7", target: "#7c3aed", drug: "#059669", company: "#d97706", institution: "#0d9488",
-  pathway: "#c026d3", term: "#71717a", trial: "#4f46e5", pairing: "#ea580c", roadmap: "#0891b2", idea: "#65a30d", collection: "#78716c", person: "#db2777", bottleneck: "#b91c1c",
+  pathway: "#c026d3", term: "#71717a", trial: "#4f46e5", pairing: "#ea580c", roadmap: "#0891b2", idea: "#65a30d", collection: "#78716c", person: "#db2777", bottleneck: "#b91c1c", paper: "#0369a1",
 };
-const ORDER: Kind[] = ["cancer", "section", "technology", "target", "drug", "trial", "pairing", "pathway", "company", "institution", "person", "bottleneck", "idea", "roadmap", "term", "collection"];
+const ORDER: Kind[] = ["cancer", "section", "technology", "target", "drug", "trial", "pairing", "pathway", "company", "institution", "person", "bottleneck", "paper", "idea", "roadmap", "term", "collection"];
 const MAX_PER_KIND = 18;
 
 type Placed = { n: GraphNode; x: number; y: number; r: number; ring?: number };

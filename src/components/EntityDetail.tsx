@@ -45,6 +45,9 @@ import { DrugGrid } from "./DrugCard";
 import type { Drug } from "@/lib/schema";
 import { LayerAware } from "./LayerAware";
 import { withTermHovers } from "@/lib/term-hover";
+import { paperQuery } from "@/lib/europepmc";
+import { LatestPapers } from "./LatestPapers";
+import { PaperTrend } from "./PapersPulse";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 import { RegionStrip } from "./RegionMatrix";
@@ -93,6 +96,7 @@ export function EntityDetail({ e }: { e: Entity }) {
   const tabs: Tab[] = [
     ...kindTabs(e),
     ...(e.notes.length ? [{ id: "notes", label: "Notes", content: <Bullets items={e.notes} /> }] : []),
+    ...papersTab(e),
     { id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} /> },
   ];
 
@@ -353,6 +357,14 @@ function kindTabs(e: Entity): Tab[] {
       ];
     }
   }
+}
+
+/** Live literature: what the world is publishing about this object, from Europe PMC, plus the weekly-refreshed trend. */
+function papersTab(e: Entity): Tab[] {
+  if (!["drug", "target", "cancer", "technology"].includes(e.kind)) return [];
+  const q = paperQuery(e);
+  if (!q) return [];
+  return [{ id: "papers", label: "Latest papers", content: (<div className="space-y-4"><PaperTrend id={e.id} /><LatestPapers query={q} title={e.name} kind={e.kind} /></div>) }];
 }
 
 function peopleTab(items: Entity[]): Tab[] {

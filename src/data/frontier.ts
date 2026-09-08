@@ -261,7 +261,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: Lu-177 PSMA plus olaparib", url: "https://clinicaltrials.gov/search?term=lutetium%20PSMA%20olaparib" }],
   },
   {
-    id: "cancer-neuroscience", kind: "technology", name: "Cancer neuroscience: cutting the nerve supply", sections: ["targeted-therapy", "supportive-care"], status: "phase-2", asOf: RAD,
+    id: "nerve-tumour-denervation", kind: "technology", name: "Cancer neuroscience: cutting the nerve supply", sections: ["targeted-therapy", "supportive-care"], status: "phase-2", asOf: RAD,
     tldr: "Tumours recruit nerves and use nerve signals to grow. Blocking that traffic, with beta-blockers or botulinum toxin, is being tested.",
     summary: "Nerves infiltrate tumours and drive proliferation through adrenergic and cholinergic signalling; perineural invasion is a long-standing prognostic marker. Trials are testing perioperative propranolol in prostate cancer (NCT05679193, completed), pancreatic cancer (NCT06145074, recruiting), and beta-blockade with a COX-2 inhibitor in ovarian cancer (NCT06839144, recruiting). Botulinum toxin denervation has been trialled in gastric cancer. Effects so far are on biomarkers, not survival.",
     principle: "Adrenergic and cholinergic nerve endings supply growth and survival signals to tumour and stromal cells; pharmacological or surgical denervation removes them.",

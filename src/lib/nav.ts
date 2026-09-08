@@ -48,6 +48,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/payloads/", label: "Payloads & linkers", blurb: "The chemistry inside ADCs." },
       { href: "/regulatory/", label: "Regulatory timeline", blurb: "Every dated filing, approval, CRL, and label change." },
       { href: "/regulatory/regions/", label: "Approvals by region", blurb: "Which products are approved in the US, EU, UK, Japan, China and Australia, and which are missing where." },
+      { href: "/papers/", label: "What the world is publishing", blurb: "Fastest-growing topics in the literature, refreshed weekly from Europe PMC." },
       { href: "/pulse/", label: "Research pulse", blurb: "What the leading journals, regulators and news sources are saying this month." },
       { href: "/toxicity/", label: "Toxicity compare", blurb: "Grade 3+ adverse events across products of the same class." },
       { href: "/isotopes/", label: "Isotope supply", blurb: "Lu-177, Ac-225, Pb-212 and who makes them." },

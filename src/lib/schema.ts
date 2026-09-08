@@ -103,6 +103,12 @@ const Base = z.object({
   trials: z.array(id).default([]),
   /** Why this matters / what is hard about it. Optional editorial notes. */
   notes: z.array(z.string()).default([]),
+  /** Even simpler explanation (about a 12-year-old reading age). Optional. */
+  simple: z.string().optional(),
+  /** Who last substantively edited this record (name or handle) and when. */
+  provenance: z.object({ editedBy: z.string(), editedOn: isoDate, note: z.string().optional() }).optional(),
+  /** Named probability estimate for speculative content. */
+  confidence: z.object({ probability: z.tuple([z.number().min(0).max(1), z.number().min(0).max(1)]), by: z.string(), on: isoDate, note: z.string().optional() }).optional(),
 });
 
 export const CancerSchema = Base.extend({
@@ -114,7 +120,11 @@ export const CancerSchema = Base.extend({
   subtypes: z.array(z.string()).default([]),
   /** Key biomarkers a clinician tests for. */
   biomarkers: z.array(z.string()).default([]),
-  standardOfCare: z.array(z.object({ setting: z.string(), approach: z.string(), refs: z.array(id).default([]) })).default([]),
+  standardOfCare: z.array(z.object({
+    setting: z.string(), approach: z.string(), refs: z.array(id).default([]),
+    /** Guideline mapping: NCCN category (e.g. "1", "2A", "preferred"), ESMO-MCBS grade (e.g. "A", "4"), guideline version/URL. */
+    guideline: z.object({ nccn: z.string().optional(), esmoMcbs: z.string().optional(), version: z.string().optional(), url: url.optional() }).optional(),
+  })).default([]),
   /** What is state of the art today, in one paragraph per point. */
   stateOfArt: z.array(z.string()).default([]),
   history: z.array(TimelineEventSchema).default([]),
@@ -149,6 +159,8 @@ export const TargetSchema = Base.extend({
   /** Expression or alteration by cancer, free text. */
   whereFound: z.array(z.string()).default([]),
   targetClass: z.enum(["surface-antigen", "kinase", "checkpoint", "nuclear-receptor", "enzyme", "transcription", "oncogene", "tumor-suppressor", "stroma", "other"]).default("other"),
+  /** Fraction of each cancer that expresses or carries the alteration, sourced. `pct` is 0-100 or a range string like "15-20". */
+  prevalence: z.array(z.object({ cancerId: id, pct: z.union([z.number(), z.string()]), measure: z.string().optional(), source: url.optional(), note: z.string().optional() })).default([]),
 });
 
 export const ApprovalSchema = z.object({
@@ -168,6 +180,14 @@ export const DrugSchema = Base.extend({
   linker: z.string().optional(),
   mechanism: z.string(),
   approvals: z.array(ApprovalSchema).default([]),
+  /** Step-by-step mechanism for the animated mechanism card. */
+  mechanismSteps: z.array(z.string()).default([]),
+  dosing: z.object({ route: z.string(), schedule: z.string(), modifications: z.string().optional(), monitoring: z.string().optional(), source: url.optional() }).optional(),
+  /** Adverse events with rates in percent, from the label or pivotal trial. */
+  toxicity: z.array(z.object({ event: z.string(), anyGradePct: z.number().optional(), grade3PlusPct: z.number().optional(), source: url.optional(), note: z.string().optional() })).default([]),
+  /** Cost and access by country. */
+  access: z.array(z.object({ country: z.string(), listPrice: z.string().optional(), reimbursement: z.string().optional(), assistance: z.string().optional(), generic: z.boolean().optional(), source: url.optional(), asOf: isoDate.optional() })).default([]),
+  regulatoryEvents: z.array(z.object({ date: z.string(), type: z.enum(["designation", "filing", "pdufa", "approval", "crl", "withdrawal", "label-change", "advisory-committee"]), region: z.string(), note: z.string(), source: url.optional() })).default([]),
 });
 
 export const CompanySchema = Base.extend({
@@ -224,6 +244,20 @@ export const TrialSchema = Base.extend({
   /** Headline result in one or two sentences, with numbers only if sourced. */
   result: z.string().optional(),
   yearReported: z.number().int().optional(),
+  enrolled: z.number().int().optional(),
+  /** Structured outcomes; values in the arm's unit (months, percent). Enables pictograms and comparisons. */
+  outcomes: z.array(z.object({
+    endpoint: z.string(),
+    primary: z.boolean().optional(),
+    unit: z.string().optional(),
+    arms: z.array(z.object({ name: z.string(), n: z.number().int().optional(), value: z.number().optional(), note: z.string().optional() })).min(1),
+    hr: z.number().optional(),
+    ci: z.tuple([z.number(), z.number()]).optional(),
+    p: z.string().optional(),
+    source: url.optional(),
+  })).default([]),
+  /** Has an independent trial or real-world study confirmed the effect? */
+  replication: z.string().optional(),
 });
 
 export const PairingSchema = Base.extend({

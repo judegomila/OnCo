@@ -13,7 +13,7 @@ import { Logo } from "./Logo";
 import { JsonLd } from "./JsonLd";
 import { PrintButton } from "./PrintButton";
 import { EmbedSnippet } from "./EmbedSnippet";
-import { TrialFinder } from "./TrialFinder";
+import { TrialFinderGeo as TrialFinder } from "./TrialFinderGeo";
 import { Questions } from "./Questions";
 import { ExpertCentres } from "./ExpertCentres";
 import { conditionQuery, interventionQuery } from "@/lib/ctgov";

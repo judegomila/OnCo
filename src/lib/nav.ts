@@ -8,6 +8,7 @@ export const NAV_GROUPS: NavGroup[] = [
     items: [
       { href: "/explore/", label: "Explore", blurb: "Pick a cancer, switch kind, get a ranked and sortable list." },
       { href: "/for-me/", label: "For me", blurb: "Choose your cancer type(s) and see what works and what could work." },
+      { href: "/navigator/", label: "Navigator", blurb: "Standard of care for your stage, what you have tried, cautions, next options, trials near you." },
       { href: "/tumor-board/", label: "Tumour board", blurb: "Tick biomarkers and alterations, get matched options and cautions." },
       { href: "/compare/", label: "Compare", blurb: "Two products or technologies side by side." },
       { href: "/graph/", label: "Graph explorer", blurb: "Navigate the knowledge graph visually." },

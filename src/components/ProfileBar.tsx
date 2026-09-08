@@ -25,7 +25,7 @@ export function ProfileBar({ cancers, lines, compact = false }: { cancers: Profi
         <FacetSelect label="Stage" options={STAGES.map((s) => ({ value: s.id, label: s.label }))} value={p.stage === "unknown" ? null : p.stage} onChange={(v) => update({ stage: ((v as string | null) ?? "unknown") as Stage })} searchable={false} allLabel="Not sure" width="w-60" />
         <FacetSelect label="Biomarkers" options={bmOptions} value={p.biomarkers} onChange={(v) => update({ biomarkers: v as string[] })} multi allLabel="None entered" width="w-60" />
         <FacetSelect label="Already tried" options={lineOptions} value={p.priorLines} onChange={(v) => update({ priorLines: v as string[] })} multi allLabel="Nothing yet" width="w-60" />
-        <FacetSelect label="I am a" options={MODES.map((m) => ({ value: m.id, label: m.label }))} value={p.mode} onChange={(v) => { if (v) update({ mode: v as ProfileMode }); }} searchable={false} width="w-44" />
+        <FacetSelect label="I am a" options={MODES.map((m) => ({ value: m.id, label: m.label }))} value={p.mode} onChange={(v) => { if (v) update({ mode: v as ProfileMode }); }} searchable={false} width="w-44" highlight={false} />
         {ready && (p.cancerId || p.biomarkers.length || p.priorLines.length || p.stage !== "unknown") ? <button type="button" onClick={reset} className="text-sm underline text-muted">Clear profile</button> : null}
       </div>
       {!compact && <p className="text-[11px] text-muted mt-2">Your profile is saved in this browser only (localStorage). There is no account and no server; clear it any time. OnCo is orientation, not medical advice.</p>}

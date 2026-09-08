@@ -5,7 +5,7 @@ import { routeFor } from "@/lib/schema";
 import { logoSrc } from "@/lib/logos";
 import { sources } from "@/data/sources";
 import { pulseAsOf, pulseItems, pulseThemes } from "@/data/pulse";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PulseBoard, type PulseSource, type RefLite } from "@/components/PulseBoard";
 
 export const metadata: Metadata = { title: "Research pulse", description: "What the leading oncology journals, preprint servers, regulators, and news outlets are saying right now, and the cross-source themes." };
@@ -28,7 +28,7 @@ export default function PulsePage() {
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Intelligence</span>} title="Research pulse"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Research pulse"
         lede="What the leading journals, preprint servers, regulators, congress portals, and news outlets are saying about cancer right now, item by item with links, and the themes that run across them. A human reading of the field, not a feed."
         right={<Link href="/collections/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">All sources →</Link>} />
       <Container className="pb-16">

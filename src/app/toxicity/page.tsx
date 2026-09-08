@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { ToxicityBrowser, type ToxRow } from "@/components/ToxicityBrowser";
 
 export const metadata: Metadata = { title: "Toxicity compare", description: "Compare adverse-event rates across products of the same modality, from the prescribing information." };
@@ -13,7 +13,7 @@ export default function ToxicityPage() {
   const rows: ToxRow[] = g.kind("drug").filter((d) => d.toxicity.length).flatMap((d) => d.toxicity.map((t, i) => ({ id: `${d.id}-${i}`, drugId: d.id, drug: d.name, route: routeFor(d), modality: modalityClass(d.modality), event: t.event, anyGradePct: t.anyGradePct, grade3PlusPct: t.grade3PlusPct, source: t.source, note: t.note })));
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Intelligence</span>} title="Toxicity compare" lede="Adverse-event rates side by side across products of the same class. Any-grade and grade 3 or higher, from the US prescribing information where read. Blank means not sourced, not zero. Trial populations differ, so compare with care." />
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Toxicity compare" lede="Adverse-event rates side by side across products of the same class. Any-grade and grade 3 or higher, from the US prescribing information where read. Blank means not sourced, not zero. Trial populations differ, so compare with care." />
       <Container className="pb-16"><ToxicityBrowser rows={rows} /></Container>
     </>
   );

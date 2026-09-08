@@ -21,7 +21,7 @@ export default async function DigestPage({ params }: { params: Promise<{ id: str
   if (!d) notFound();
   return (
     <>
-      <PageHeader kicker={<><Link href="/digests/" className="kicker hover:underline">Conference digests</Link><span className="kicker">· {d.dates} · {d.location}</span></>} title={d.congress} lede={d.tldr} />
+      <PageHeader kicker={<><Link href="/digests/" className="kicker hover:underline">Congress digests</Link><span className="kicker">· {d.dates} · {d.location}</span></>} title={d.congress} lede={d.tldr} />
       <Container className="pb-16">
         <div className="grid gap-10 lg:grid-cols-[1fr_300px]">
           <ol className="space-y-4">

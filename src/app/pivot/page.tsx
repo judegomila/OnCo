@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PivotTable, type Dim, type DimMeta, type Fact } from "@/components/PivotTable";
 
 export const metadata: Metadata = { title: "Landscape grid", description: "Count products, trials or technologies by cancer, target, treatment type or company in one grid. Cross-tabulate products, trials, or technologies by cancer, target, modality, company, front, status, or phase." };
@@ -48,7 +48,7 @@ export default function PivotPage() {
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Find</span>} title="Landscape grid" lede="Count what exists where. Pick what to count and how to slice it: rows by cancer, columns by target or modality, cells showing how many products (or trials, or technologies) sit at the intersection and the best evidence tier among them. Click a count to open the list." />
+      <PageHeader kicker={<GroupKicker id="find" />} title="Landscape grid" lede="Count what exists where. Pick what to count and how to slice it: rows by cancer, columns by target or modality, cells showing how many products (or trials, or technologies) sit at the intersection and the best evidence tier among them. Click a count to open the list." />
       <Container className="pb-16">
         <PivotTable facts={facts} meta={meta} />
       </Container>

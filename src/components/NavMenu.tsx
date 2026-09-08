@@ -31,16 +31,16 @@ export function NavMenu() {
   const activeGroup = NAV_GROUPS.find((g) => g.items.some((i) => i.href !== "/" && path?.startsWith(i.href)) || (g.href !== "/" && path?.startsWith(g.href)));
 
   return (
-    <div ref={wrap} className="flex items-center order-last lg:order-none min-w-0">
-      <nav className="hidden lg:flex items-center gap-0.5 text-sm" aria-label="Primary">
+    <div ref={wrap} className="flex items-center order-last xl:order-none min-w-0">
+      <nav className="hidden xl:flex items-center text-sm" aria-label="Primary">
         {NAV_GROUPS.map((g) => {
           const on = open === g.id;
           const active = activeGroup?.id === g.id;
           return (
             <div key={g.id} className="relative" onMouseEnter={() => setOpen(g.id)} onMouseLeave={() => setOpen((o) => (o === g.id ? null : o))}>
               <button type="button" aria-haspopup="menu" aria-expanded={on} aria-current={active ? "page" : undefined} onClick={() => setOpen(on ? null : g.id)}
-                className={`relative inline-flex h-10 items-center gap-1 rounded-lg px-2.5 whitespace-nowrap transition-colors hover:bg-surface hover:text-foreground ${on ? "bg-surface" : ""} ${active ? "text-foreground font-medium after:absolute after:left-2.5 after:right-2.5 after:-bottom-2 after:h-0.5 after:rounded-full after:bg-accent" : "text-foreground/75"}`}>
-                <NavIcon id={g.id} className="h-4 w-4 text-muted" />{g.label}
+                className={`relative inline-flex h-10 items-center gap-1 rounded-lg px-2 whitespace-nowrap transition-colors hover:bg-surface hover:text-foreground ${on ? "bg-surface" : ""} ${active ? "text-foreground font-medium after:absolute after:left-2 after:right-2 after:-bottom-2 after:h-0.5 after:rounded-full after:bg-accent" : "text-foreground/75"}`}>
+                {g.label}
                 <svg aria-hidden viewBox="0 0 12 12" width="10" height="10" className={`text-muted transition-transform ${on ? "rotate-180" : ""}`}><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </button>
               {on && (
@@ -70,7 +70,7 @@ export function NavMenu() {
         })}
       </nav>
 
-      <button type="button" onClick={() => setDrawer(true)} className="ctl lg:hidden px-0 sm:px-3" aria-label="Open menu" aria-expanded={drawer} aria-controls="site-drawer">
+      <button type="button" onClick={() => setDrawer(true)} className="ctl xl:hidden px-0 sm:px-3" aria-label="Open menu" aria-expanded={drawer} aria-controls="site-drawer">
         <svg aria-hidden viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14" /></svg>
         <span className="hidden sm:inline">Menu</span>
       </button>

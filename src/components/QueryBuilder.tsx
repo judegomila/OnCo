@@ -77,7 +77,7 @@ export function QueryBuilder({ data }: { data: QueryData }) {
   ];
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[300px_1fr]">
+    <div className="grid gap-8 lg:grid-cols-[300px_1fr] [&>*]:min-w-0">
       <aside className="space-y-4">
         <div className="card p-3">
           <div className="kicker mb-2">Saved queries</div>

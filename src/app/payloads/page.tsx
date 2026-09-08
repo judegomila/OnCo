@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { linkers, payloads } from "@/data/payloads";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
 
 export const metadata: Metadata = { title: "ADC payload & linker registry", description: "Every ADC payload and linker: mechanism, bystander capability, efflux susceptibility, typical DAR, toxicities, and the products that use them." };
@@ -8,7 +8,7 @@ export const metadata: Metadata = { title: "ADC payload & linker registry", desc
 export default function PayloadsPage() {
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Pipeline</span>} title="ADC payload & linker registry"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="ADC payload & linker registry"
         lede="An ADC is three parts. The antibody gets most of the attention, but payload and linker decide bystander killing, cross-resistance, and the side-effect profile. This registry cross-references both to the products in the map." />
       <Container className="pb-16">
         <h2 className="text-xl font-semibold mb-3">Payloads</h2>

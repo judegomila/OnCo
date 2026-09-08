@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { isotopes } from "@/data/isotopes";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
 import { statusClass } from "@/lib/text";
 
@@ -11,7 +11,7 @@ const TONE: Record<string, string> = { adequate: "approved", tight: "phase-2", c
 export default function IsotopesPage() {
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Pipeline</span>} title="Isotope supply tracker"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Isotope supply tracker"
         lede="Radiopharmaceuticals are only as available as their isotopes. Actinium-225 gates the entire alpha-therapy pipeline; lutetium-177 supply dictated Pluvicto's launch. This page tracks each medical radionuclide, how it is made, who makes it, and how tight supply is." />
       <Container className="pb-16">
         <div className="flex flex-wrap gap-2 text-xs mb-6">{Object.entries(TONE).map(([k, v]) => <span key={k} className={`chip ${statusClass(v)}`}>{k}</span>)}</div>

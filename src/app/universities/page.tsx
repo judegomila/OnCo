@@ -3,7 +3,7 @@ import Link from "next/link";
 import { rankUniversities } from "@/lib/ranking";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { Logo } from "@/components/Logo";
 import { OPENALEX, OutputTable, UniversityOutputTable, outputRows, universityOutputRows } from "@/components/OutputTable";
 
@@ -18,7 +18,7 @@ export default function Universities() {
   const corpus = rankUniversities();
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Institutions</span>} title="Research output: universities and cancer centres"
+      <PageHeader kicker={<GroupKicker id="who" />} title="Research output: universities and cancer centres"
         lede="Three layers, each disclosed. First, the external bibliometric leaders. Second, oncology publication counts pulled from OpenAlex for every institution in OnCo, with the exact query. Third, the corpus-derived score, which measures presence in this evidence base rather than output."
         right={<div className="flex gap-2"><Link href="/institutions/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Map & ranking</Link><Link href="/leadership/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Trial leadership</Link></div>} />
       <Container className="pb-16">

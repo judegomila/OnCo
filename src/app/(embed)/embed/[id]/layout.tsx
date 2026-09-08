@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
-import "../../../globals.css";
 
 export const metadata: Metadata = { robots: { index: false } };
 
-/** Minimal root layout for embeddable cards: no header, footer, or navigation. */
+/**
+ * Embeddable cards: no header, footer, or navigation. This layout is nested under the root layout
+ * (Next allows only one <html>/<body>), so the site chrome is hidden here rather than omitted.
+ */
 export default function EmbedLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="h-full antialiased">
-      <body className="min-h-full bg-transparent">{children}</body>
-    </html>
+    <>
+      <style>{`body > header, body > footer { display: none !important; } body { background: transparent; }`}</style>
+      {children}
+    </>
   );
 }

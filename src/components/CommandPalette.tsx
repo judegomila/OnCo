@@ -14,7 +14,7 @@ const PAGES: Item[] = [
   { id: "p-for-me", name: "For me: pick your cancer type", tldr: "What works and what could work for your cancer(s)", route: "/for-me/", action: true },
   { id: "p-tumor-board", name: "Tumour board mode", tldr: "Enter biomarkers, get matched options", route: "/tumor-board/", action: true },
   { id: "p-graph", name: "Graph explorer", tldr: "Navigate the knowledge graph visually", route: "/graph/", action: true },
-  { id: "p-compare", name: "Compare two products or technologies", tldr: "Side by side", route: "/compare/", action: true },
+  { id: "p-compare", name: "Compare products, technologies, targets, trials, or cancers", tldr: "Up to five side by side, differences highlighted", route: "/compare/", action: true },
   { id: "p-calendar", name: "Readout calendar", tldr: "Upcoming decisions, readouts, congresses", route: "/calendar/", action: true },
   { id: "p-digests", name: "Congress digests", tldr: "ASCO, ESMO, AACR, ASCO GU", route: "/digests/", action: true },
   { id: "p-failures", name: "Failure museum", tldr: "What did not work and why", route: "/failures/", action: true },
@@ -22,7 +22,7 @@ const PAGES: Item[] = [
   { id: "p-paths", name: "Reading paths", tldr: "Curated sequences of pages", route: "/paths/", action: true },
   { id: "p-institutions", name: "Institutions map and ranking", tldr: "Who matters, where", route: "/institutions/", action: true },
   { id: "p-report", name: "State of the war on cancer, 2026", tldr: "Annual report from the corpus", route: "/report/2026/", action: true },
-  { id: "p-hub", name: "50 ideas for the hub", tldr: "Roadmap and status", route: "/hub/", action: true },
+  { id: "p-hub", name: "Roadmap", tldr: "What OnCo is building next, in waves, with status", route: "/hub/", action: true },
   { id: "p-api", name: "Open API", tldr: "The corpus as JSON", route: "/api/", action: true },
   { id: "p-about", name: "About and methodology", tldr: "Rules for facts, ranking formula, licence", route: "/about/", action: true },
 ];
@@ -34,6 +34,7 @@ export function CommandPalette() {
   const [items, setItems] = useState<Item[]>(PAGES);
   const [active, setActive] = useState(0);
   const [ready, setReady] = useState(false);
+  const [indexed, setIndexed] = useState(0);
   const input = useRef<HTMLInputElement>(null);
   const list = useRef<HTMLUListElement>(null);
   const router = useRouter();
@@ -54,7 +55,7 @@ export function CommandPalette() {
   useEffect(() => {
     if (!open) return;
     const t = setTimeout(() => input.current?.focus(), 0);
-    loadSearch().then(() => setReady(true));
+    loadSearch().then(({ docs }) => { setIndexed(docs.length); setReady(true); });
     document.body.style.overflow = "hidden";
     return () => { clearTimeout(t); document.body.style.overflow = ""; };
   }, [open]);
@@ -108,7 +109,7 @@ export function CommandPalette() {
           <span><kbd className="border border-border rounded px-1">↑</kbd> <kbd className="border border-border rounded px-1">↓</kbd> navigate</span>
           <span><kbd className="border border-border rounded px-1">↵</kbd> open</span>
           <span><kbd className="border border-border rounded px-1">⌘K</kbd> toggle</span>
-          <span className="ml-auto">{ready ? "875 objects indexed" : ""}</span>
+          <span className="ml-auto">{ready ? `${indexed.toLocaleString("en-GB")} objects indexed` : ""}</span>
         </div>
       </div>
     </div>
@@ -122,8 +123,8 @@ export function PaletteTrigger({ className = "" }: { className?: string }) {
   return (
     <button type="button" onClick={() => window.dispatchEvent(new Event("onco:open-palette"))} className={`flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-1.5 text-sm text-muted hover:bg-foreground/5 ${className}`} aria-label="Open search (Command K)">
       <span aria-hidden>⌕</span>
-      <span className="hidden sm:inline">Search</span>
-      <kbd className="ml-auto text-[10px] border border-border rounded px-1.5 py-0.5">{mac ? "⌘" : "Ctrl"} K</kbd>
+      <span>Search</span>
+      <kbd className="ml-auto hidden sm:inline text-[10px] border border-border rounded px-1.5 py-0.5">{mac ? "⌘" : "Ctrl"} K</kbd>
     </button>
   );
 }

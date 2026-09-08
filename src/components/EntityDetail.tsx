@@ -54,6 +54,7 @@ import { RegionStrip } from "./RegionMatrix";
 import { regionalApprovals } from "@/data/regional-approvals";
 import { CountryCasesMini } from "./CountryCasesMini";
 import { CancerIcon } from "./CancerIcon";
+import { confidence } from "@/data/confidence";
 import { FrontIcon } from "./FrontIcon";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -130,7 +131,7 @@ export function EntityDetail({ e }: { e: Entity }) {
                   <ul className="space-y-1">{e.links.map((l) => <li key={l.url}><a className="underline break-words" href={l.url} rel="noopener">{l.label}</a></li>)}</ul>
                 </div>
               )}
-              {e.tags.length > 0 && <div><div className="kicker mb-1">Tags</div><div className="flex flex-wrap gap-1">{e.tags.map((t) => <span key={t} className="chip bg-foreground/5">{t}</span>)}</div></div>}
+              {e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:")).length > 0 && <div><div className="kicker mb-1">Tags</div><div className="flex flex-wrap gap-1">{e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:")).map((t) => <span key={t} className="chip bg-foreground/5">{t}</span>)}</div></div>}
               <div><div className="kicker mb-1">Data</div>
                 <a className="underline" href={`/api/v1/entities/${e.id}.json`}>JSON</a>
                 <span className="text-muted"> · </span>
@@ -246,7 +247,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Type"><span className="capitalize">{e.institutionType.replace("-", " ")}</span>{e.university && <span className="text-muted"> · {e.university}</span>}</Field>
             <Field label="Website"><a className="underline break-all" href={e.website} rel="noopener">{e.website.replace(/^https?:\/\//, "")}</a></Field>
             <Field label="Newsweek 2026 oncology rank">{e.newsweekOncology2026 ? `#${e.newsweekOncology2026}` : "Not in top 300 listing used"}</Field>
-            <Field label="NCI designation"><span className="capitalize">{e.nci ?? "—"}</span></Field>
+            {e.nci && <Field label="NCI designation"><span className="capitalize">{e.nci}</span></Field>}
             {row && <Field label="OnCo score">#{row.rank} · {row.score} points ({row.newsweekPoints} Newsweek + {row.nciPoints} NCI + {row.linkPoints} from {row.links} linked objects) · <Link className="underline" href="/institutions/">ranking</Link></Field>}
           </div>
         </>),
@@ -298,13 +299,13 @@ function kindTabs(e: Entity): Tab[] {
     case "idea":
       return [
         overview(<div className="grid gap-6 mt-8">
-          <Field label="Confidence"><ConfidenceChip id={e.id} /></Field>
+          {(confidence[e.id] || e.confidence) && <Field label="Confidence"><ConfidenceChip id={e.id} value={e.confidence ?? undefined} /></Field>}
           <Field label="Hypothesis">{e.hypothesis}</Field>
           <Field label="Rationale">{e.rationale}</Field>
           <Field label="What would test it">{e.test}</Field>
           <Field label="Maturity"><span className={`chip ${statusClass(e.maturity === "being-tested-at-scale" ? "phase-3" : e.maturity === "early-clinical" ? "phase-2" : e.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{e.maturity.replace(/-/g, " ")}</span></Field>
           {(e.actor || e.cost || e.horizonYears !== undefined) && <div className="grid gap-6 sm:grid-cols-3">
-            {e.actor && <Field label="Who has to act">{e.actor}</Field>}
+            {e.actor && <Field label="Who has to act"><span className="capitalize">{e.actor}</span></Field>}
             {e.cost && <Field label="Cost to try">{e.cost === "small" ? "Small (under $1M)" : e.cost === "medium" ? "Medium ($1M to $50M)" : "Large (over $50M)"}</Field>}
             {e.horizonYears !== undefined && <Field label="Years to first evidence">{e.horizonYears}</Field>}
           </div>}

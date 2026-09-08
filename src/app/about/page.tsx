@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { KIND_META, KINDS } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "About & methodology", description: "What OnCo is, how it is built, its rules for facts, and how to contribute." };
 
@@ -10,11 +10,11 @@ export default function About() {
   const g = graph();
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Project</span>} title="About OnCo" lede="A public, cited, editable map of oncology. Built so that a patient, a scientist, an investor, or a policymaker can walk in and see the current state of the art, the history, and what is coming, for any cancer, and follow the links between them." />
+      <PageHeader kicker={<GroupKicker id="learn" />} title="About OnCo" lede="A public, cited, editable map of oncology. Built so that a patient, a scientist, an investor, or a policymaker can walk in and see the current state of the art, the history, and what is coming, for any cancer, and follow the links between them." />
       <Container className="pb-16 prose-onco text-[15px] leading-relaxed max-w-3xl space-y-8">
         <section>
           <h2 className="text-xl font-semibold mb-2">What it is</h2>
-          <p>OnCo is a knowledge graph of {g.entities.length} objects across {KINDS.length} kinds: {KINDS.map((k) => `${g.kind(k).length} ${KIND_META[k].plural}`).join(", ")}. Every object has its own page, a plain-English TL;DR, a technical summary, an “as of” date, links out to Wikipedia and primary sources, and a list of everything in the graph that connects to it. Relationships are declared once and backlinks are derived, so the graph is always consistent.</p>
+          <p>OnCo is a knowledge graph of {g.entities.length.toLocaleString("en-GB")} objects across {KINDS.filter((k) => g.kind(k).length > 0).length} kinds: {KINDS.filter((k) => g.kind(k).length > 0).map((k) => `${g.kind(k).length.toLocaleString("en-GB")} ${KIND_META[k].plural}`).join(", ")}. Every object has its own page, a plain-English TL;DR, a technical summary, an internal last-checked date, links out to Wikipedia and primary sources, and a list of everything in the graph that connects to it. Relationships are declared once and backlinks are derived, so the graph is always consistent.</p>
           <p>The first fully built example is <Link href="/cancers/tnbc/">triple-negative breast cancer</Link>, chosen because it went from the subtype with no targeted therapy to one with immunotherapy, PARP inhibitors, three ADCs, and a positive bispecific ADC within six years. Other cancers have state-of-the-art, standard-of-care, history, and pipeline sections at varying depth.</p>
         </section>
         <section>
@@ -38,7 +38,7 @@ export default function About() {
         </section>
         <section>
           <h2 className="text-xl font-semibold mb-2">How to contribute</h2>
-          <p>The repository is <a href="https://github.com/judegomila/OnCo" rel="noopener">github.com/judegomila/OnCo</a>. Each kind lives in one file under <code>src/data/</code>. Add or edit a record, include a source URL, run <code>npm test</code> (which validates the schema and every reference), and open a pull request. The <Link href="/hub/">50 ideas</Link> page lists what we want to build next; the failure-museum, readout calendar, and MCP server are the most requested.</p>
+          <p>The repository is <a href="https://github.com/judegomila/OnCo" rel="noopener">github.com/judegomila/OnCo</a>. Each kind lives in one file under <code>src/data/</code>. Add or edit a record, include a source URL, run <code>npm test</code> (which validates the schema and every reference), and open a pull request. The <Link href="/hub/">Roadmap</Link> page lists what we want to build next; the failure-museum, readout calendar, and MCP server are the most requested.</p>
         </section>
         <section>
           <h2 className="text-xl font-semibold mb-2">Sources we lean on</h2>

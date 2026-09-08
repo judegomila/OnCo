@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { resistance, type Mechanism, type ResistanceClass } from "@/data/resistance";
 import { CATEGORIES, categoryOf, type MechanismCategory } from "@/lib/resistance-categories";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
 import { AtlasProvider, CategoryDot, CategoryScope, ResistanceMatrix, type MatrixRow } from "@/components/ResistanceMatrix";
 import { ResistanceMap, type MapRoute } from "@/components/ResistanceMap";
@@ -48,7 +48,7 @@ export default function ResistancePage() {
 
   return (
     <AtlasProvider>
-      <PageHeader kicker={<span className="kicker">Pipeline</span>} title="Resistance mechanism atlas"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Resistance mechanism atlas"
         lede={`Every cancer drug eventually meets resistance. For ${resistance.length} major classes, the ${totalRoutes} known escape routes, sorted into eight kinds, how often they occur where that is known, and the countermeasures, linked to the products, targets, and ideas in the map.`} />
       <Container className="pb-16">
         <ResistanceMatrix rows={rows} />

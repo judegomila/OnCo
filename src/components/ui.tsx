@@ -2,7 +2,9 @@ import Link from "next/link";
 import type { Entity, Kind } from "@/lib/schema";
 import { KIND_META, routeFor } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
+import { NAV_GROUPS } from "@/lib/nav";
 import { DrugChip } from "./DrugChip";
+import { NavIcon } from "./NavIcon";
 
 export function KindChip({ kind }: { kind: Kind }) {
   return <span className={`chip border ${KIND_COLOR[kind]}`}>{KIND_META[kind].label}</span>;
@@ -49,10 +51,22 @@ export function ChipList({ items, kind }: { items: Entity[]; kind?: Kind }) {
   );
 }
 
+/** Kicker naming the navigation section a page belongs to, linking to that section's landing page. */
+export function GroupKicker({ id, children }: { id: string; children?: React.ReactNode }) {
+  const g = NAV_GROUPS.find((x) => x.id === id);
+  if (!g) return null;
+  return (
+    <>
+      <Link href={g.href} className="kicker inline-flex items-center gap-1.5 hover:text-foreground"><NavIcon id={g.id} className="h-3.5 w-3.5" />{g.label}</Link>
+      {children}
+    </>
+  );
+}
+
 export function PageHeader({ kicker, title, lede, ledeNode, right, logo }: { kicker?: React.ReactNode; title: string; lede?: string; ledeNode?: React.ReactNode; right?: React.ReactNode; logo?: React.ReactNode }) {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 pt-8 sm:pt-10 pb-6">
-      {kicker && <div className="mb-2 flex items-center gap-2">{kicker}</div>}
+      {kicker && <div className="mb-2 flex flex-wrap items-center gap-2">{kicker}</div>}
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div className="flex items-start gap-4 max-w-3xl">
           {logo}

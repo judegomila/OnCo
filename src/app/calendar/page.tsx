@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { calendar, type CalendarKind } from "@/data/calendar";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
 import { statusClass } from "@/lib/text";
 
@@ -38,7 +38,7 @@ export default function CalendarPage() {
   const confirmed = calendar.filter((e) => e.confidence === "confirmed").length;
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Pipeline</span>} title="Readout calendar"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Readout calendar"
         lede="Regulatory decisions, advisory committees, expected trial readouts, and the congresses where results land. Confirmed items carry a source. Expected items are our editorial estimate from trial registrations and sponsor statements, and can slip by quarters." />
       <Container className="pb-16">
         <div className="flex flex-wrap gap-2 text-sm mb-6">

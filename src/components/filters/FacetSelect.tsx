@@ -16,10 +16,12 @@ type Props = {
   /** Text for the "none" choice in single mode. */
   allLabel?: string;
   width?: string;
+  /** Tint the control when something is selected (off for selects that always hold a value). */
+  highlight?: boolean;
 };
 
 /** Compact dropdown facet with optional search. Shared by Explore and the products browser. */
-export function FacetSelect({ label, options, value, onChange, multi = false, searchable = true, placeholder, allLabel = "All", width = "w-56" }: Props) {
+export function FacetSelect({ label, options, value, onChange, multi = false, searchable = true, placeholder, allLabel = "All", width = "w-56", highlight = true }: Props) {
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState("");
   const box = useRef<HTMLDivElement>(null);
@@ -54,7 +56,7 @@ export function FacetSelect({ label, options, value, onChange, multi = false, se
   return (
     <div ref={box} className="relative">
       <button type="button" onClick={() => { setQ(""); setOpen((o) => !o); }} aria-haspopup="listbox" aria-expanded={open}
-        className={`${width} max-w-full flex items-center justify-between gap-2 rounded-lg border px-3 py-1.5 text-sm text-left transition-colors ${selected.size ? "border-accent bg-accent-soft" : "border-border bg-card hover:border-border-strong"} hover:bg-surface`}>
+        className={`${width} max-w-full flex items-center justify-between gap-2 rounded-lg border px-3 py-1.5 text-sm text-left transition-colors ${selected.size && highlight ? "border-accent bg-accent-soft" : "border-border bg-card hover:border-border-strong"} hover:bg-surface`}>
         <span className="min-w-0 truncate"><span className="text-muted">{label}: </span><span className="font-medium">{summary}</span></span>
         <svg aria-hidden viewBox="0 0 12 12" width="10" height="10" className={`shrink-0 text-muted transition-transform ${open ? "rotate-180" : ""}`}><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
       </button>

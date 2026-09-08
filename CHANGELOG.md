@@ -22,7 +22,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 ## [0.3.0] - 2026-09-07
 
 ### Added
-- Deep spikes for all 31 cancers (standard of care by setting with NCCN/ESMO guideline mapping, state of the art, history, pipeline, open problems), taking the corpus from 875 to 1574 objects.
+- Deep dives for all 31 cancers (standard of care by setting with NCCN/ESMO guideline mapping, state of the art, history, pipeline, open problems), taking the corpus from 875 to 1574 objects.
 - Structured trial outcomes on every trial, out-of-100 pictograms, replication notes, and a disclosed evidence score (`/evidence/`).
 - Product depth: dosing, label-sourced toxicity tables, cost and access, dated regulatory timelines (`/regulatory/`), class-wise toxicity comparison (`/toxicity/`), and animated mechanism cards.
 - Sourced biomarker prevalence by cancer for targets, with a matrix at `/prevalence/`.
@@ -36,7 +36,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 - Research output ranking from OpenAlex on `/universities/`, trial leadership index at `/leadership/`, cooperative trial groups as institution records, funding flows at `/funding/`, gaps and bounties at `/gaps/`, annual report at `/report/2026/`, and an MCP server (`npm run mcp`).
 
 ### Changed
-- Duplicate entity ids across spikes are merged at load time (first record's scalars win, arrays appended).
+- Duplicate entity ids across per-cancer files are merged at load time (first record's scalars win, arrays appended).
 
 ## [0.2.0] - 2026-09-06
 
@@ -55,7 +55,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 ### Added
 - Initial release: 642 objects across 14 kinds (cancers, fronts, technologies, targets, products, companies, institutions, pathways, terms, trials, pairings, roadmaps, ideas, collections), one page per object with plain-English TL;DR, derived backlinks, and connected-objects panels.
-- Triple-negative breast cancer deep spike: standard of care by setting, state of the art, history timeline, pipeline, open problems.
+- Triple-negative breast cancer deep dive (the first fully built example): standard of care by setting, state of the art, history timeline, pipeline, open problems.
 - Nine roadmaps including ADC generations, TROP2 ADCs, TNBC, radiopharmaceuticals, cell therapy, molecular imaging, early detection, immunotherapy, and KRAS.
 - "For me" cancer picker, institution world map with a disclosed ranking, pathway diagrams, glossary, 50 hub ideas, and a static JSON API at `/api/v1/`.
 - Build-time validation of every cross-reference; MIT code licence, CC BY 4.0 data licence.

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { funding } from "@/data/funding";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity } from "@/lib/schema";
-import { ChipList, Container, PageHeader } from "@/components/ui";
+import { ChipList, Container, GroupKicker, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Funding flows", description: "Where the money in the war on cancer comes from: government, charity, EU, and industry, with sources." };
 
@@ -13,7 +13,7 @@ export default function Funding() {
   type FundingType = (typeof funding)[number]["type"];
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Institutions</span>} title="Funding flows"
+      <PageHeader kicker={<GroupKicker id="who" />} title="Funding flows"
         lede="Who pays for cancer research and care innovation. Figures are as published by each funder, in their own currency and fiscal year, each with a source link. Unsourced figures are omitted. This is a starting map, not an audit." />
       <Container className="pb-16">
         <div className="prose-onco text-[15px] leading-relaxed max-w-3xl mb-8">

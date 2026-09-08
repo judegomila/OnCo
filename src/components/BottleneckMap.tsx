@@ -57,7 +57,7 @@ export function BottleneckMap({ items }: { items: BottleneckLite[] }) {
                       <Tip title={b.name} text={b.tldr} href={b.route}>
                         <Link href={b.route} className={`flex items-start gap-1.5 rounded-md border px-2 py-1 text-xs leading-snug hover:bg-foreground/5 ${SEV[b.severity].ring}`}>
                           <span className={`mt-1 inline-block h-2 w-2 shrink-0 rounded-full ${SEV[b.severity].dot}`} aria-label={SEV[b.severity].label} />
-                          <span className="flex-1">{b.name}</span>
+                          <span className="flex-1 min-w-0 break-words">{b.name}</span>
                           <span className="text-muted tabular-nums shrink-0">{b.ideas}</span>
                         </Link>
                       </Tip>

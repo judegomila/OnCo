@@ -6,9 +6,10 @@
 import { add, antibody, antibodyTips, arrow, box, cone, cylinder, dna, dots, ellipsoid, empty, fan, grid3, helix, icosahedron, label, line, octahedron, polyline, ring, sphere, torus, type Mesh, type Vec3 } from "@/lib/wireframe";
 import { ANIMATED } from "./animated";
 import { FRONT_ANIMATED } from "./front-animations";
+import { TERM_ANIMATED, termCategoryKey } from "./term-animations";
 
 /** All animated builders by key: technology ids, plus `front:<sectionId>` for the fronts (adcs reuses the ADC sequence). */
-export const ALL_ANIMATED: Record<string, () => Mesh> = { ...ANIMATED, ...Object.fromEntries(Object.entries(FRONT_ANIMATED).map(([k, f]) => [`front:${k}`, f])), "front:adcs": ANIMATED["adc"] };
+export const ALL_ANIMATED: Record<string, () => Mesh> = { ...ANIMATED, ...Object.fromEntries(Object.entries(FRONT_ANIMATED).map(([k, f]) => [`front:${k}`, f])), "front:adcs": ANIMATED["adc"], ...Object.fromEntries(Object.entries(TERM_ANIMATED).map(([k, f]) => [`term:${k}`, f])) };
 
 const TAU = Math.PI * 2;
 const circlePts = (r: number, n: number, y = 0): Vec3[] => Array.from({ length: n }, (_, i) => [r * Math.cos((TAU * i) / n), y, r * Math.sin((TAU * i) / n)]);
@@ -540,6 +541,14 @@ export function hasFrontAnimation(sectionId: string): boolean { return `front:${
 export function frontSchematicFor(sectionId: string): Mesh {
   if (hasFrontAnimation(sectionId)) return marker(`front:${sectionId}`);
   return genericFor(sectionId);
+}
+
+/** Animated schematic for a glossary term category (see term-animations.ts). */
+export function hasTermAnimation(category: string): boolean { return `term:${termCategoryKey(category)}` in ALL_ANIMATED; }
+export function termSchematicFor(category: string): Mesh {
+  const key = `term:${termCategoryKey(category)}`;
+  if (key in ALL_ANIMATED) return marker(key);
+  return genericFor("diagnostics");
 }
 
 /** Returns a specific mesh if one exists (animated where available), else a generic mesh for the first matching front.

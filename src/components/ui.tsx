@@ -23,13 +23,13 @@ export function EntityLink({ e, className = "" }: { e: Entity; className?: strin
 
 export function EntityCard({ e, compact = false }: { e: Entity; compact?: boolean }) {
   return (
-    <Link href={routeFor(e)} className="card block p-4 hover:shadow-md hover:-translate-y-px transition">
+    <Link href={routeFor(e)} className="card block p-4">
       <div className="flex items-center gap-2 mb-1.5">
         <KindChip kind={e.kind} />
         <StatusChip status={e.status} />
       </div>
-      <div className="font-semibold leading-snug">{e.name}</div>
-      {!compact && <p className="text-sm text-muted mt-1 line-clamp-3">{e.tldr}</p>}
+      <div className="font-semibold leading-snug text-balance">{e.name}</div>
+      {!compact && <p className="text-sm text-muted mt-1.5 line-clamp-3">{e.tldr}</p>}
     </Link>
   );
 }
@@ -41,7 +41,7 @@ export function ChipList({ items, kind }: { items: Entity[]; kind?: Kind }) {
       {items.map((e) => e.kind === "drug" ? (
         <DrugChip key={e.id} id={e.id} name={e.name} route={routeFor(e)} tldr={e.tldr} className={KIND_COLOR[kind ?? e.kind]} />
       ) : (
-        <Link key={e.id} href={routeFor(e)} className={`chip border hover:brightness-95 ${KIND_COLOR[kind ?? e.kind]}`}>
+        <Link key={e.id} href={routeFor(e)} className={`chip border transition-[filter] hover:brightness-95 dark:hover:brightness-125 ${KIND_COLOR[kind ?? e.kind]}`}>
           {e.name}
         </Link>
       ))}
@@ -51,16 +51,16 @@ export function ChipList({ items, kind }: { items: Entity[]; kind?: Kind }) {
 
 export function PageHeader({ kicker, title, lede, ledeNode, right, logo }: { kicker?: React.ReactNode; title: string; lede?: string; ledeNode?: React.ReactNode; right?: React.ReactNode; logo?: React.ReactNode }) {
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 pt-10 pb-6">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 pt-8 sm:pt-10 pb-6">
       {kicker && <div className="mb-2 flex items-center gap-2">{kicker}</div>}
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div className="flex items-start gap-4 max-w-3xl">
           {logo}
-          <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">{title}</h1>
+          <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight leading-[1.1]">{title}</h1>
         </div>
         {right}
       </div>
-      {(ledeNode || lede) && <p className="mt-3 text-lg text-foreground/85 max-w-3xl leading-relaxed">{ledeNode ?? lede}</p>}
+      {(ledeNode || lede) && <p className="mt-3 text-[17px] sm:text-lg text-foreground/85 max-w-3xl leading-relaxed">{ledeNode ?? lede}</p>}
     </div>
   );
 }
@@ -69,7 +69,7 @@ export function Section({ title, children, id, aside }: { title: string; childre
   return (
     <section id={id} className="mt-10">
       <div className="flex items-baseline justify-between gap-4 mb-3">
-        <h2 className="text-lg font-semibold tracking-tight">{title}</h2>
+        <h2 className="text-lg font-semibold tracking-tight leading-snug">{title}</h2>
         {aside}
       </div>
       {children}

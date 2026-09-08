@@ -15,7 +15,7 @@ function apply(t: Theme) {
 
 /**
  * Theme switch: auto (follows the OS), light, dark, high contrast. Persisted in localStorage and
- * applied via data-theme on <html>; CSS variables for each live at the end of globals.css.
+ * applied via data-theme on <html>; CSS variables for each live near the top of globals.css.
  * Render <ThemeScript /> in <head> (or the top of <body>) to apply the saved theme before paint.
  */
 export function ThemeToggle({ className = "" }: { className?: string }) {
@@ -31,8 +31,9 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
   const next = ORDER[(ORDER.indexOf(theme) + 1) % ORDER.length];
   return (
     <button type="button" onClick={() => set(next)} title={`Theme: ${LABEL[theme]}. Click for ${LABEL[next]}.`} aria-label={`Theme: ${LABEL[theme]}. Switch to ${LABEL[next]}`}
-      className={`shrink-0 whitespace-nowrap h-8 leading-none inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-2.5 py-1.5 text-sm hover:bg-foreground/5 ${className}`}>
-      <span aria-hidden>{ICON[theme]}</span><span className="hidden md:inline text-muted">{LABEL[theme]}</span>
+      className={`ctl px-0 md:px-3 ${className}`}>
+      <span aria-hidden className="text-base leading-none">{ICON[theme]}</span>
+      <span className="hidden md:inline text-muted">{LABEL[theme]}</span>
     </button>
   );
 }

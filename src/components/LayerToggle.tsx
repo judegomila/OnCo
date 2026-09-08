@@ -23,27 +23,29 @@ export function LayerToggle({ className = "" }: { className?: string }) {
   return (
     <div ref={box} className={`relative ${className}`}>
       <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="dialog" aria-expanded={open} aria-label="Reading level and language"
-        className={`flex h-8 shrink-0 items-center gap-1 whitespace-nowrap rounded-lg border px-2 text-sm leading-none hover:bg-foreground/5 ${nonDefault ? "border-accent bg-accent/5" : "border-border bg-card"}`} title={`${level.label} · ${lang.label}`}>
-        <span aria-hidden className="font-semibold">Aa</span>
-        <span className="text-xs text-muted">{lang.code.toUpperCase()}</span>
+        className={`ctl px-2.5 ${nonDefault ? "border-accent bg-accent-soft" : ""}`} title={`${level.label} · ${lang.label}`}>
+        <span aria-hidden className="font-semibold tracking-tight">Aa</span>
+        <span className="text-xs text-muted font-medium">{lang.code.toUpperCase()}</span>
       </button>
       {open && (
-        <div role="dialog" aria-label="Reading level and language" className="absolute right-0 z-50 mt-1 w-72 card shadow-xl p-3 text-sm">
+        <div role="dialog" aria-label="Reading level and language" className="absolute right-0 z-50 mt-1.5 w-72 card shadow-pop p-3 text-sm">
           <div className="kicker mb-1.5">Reading level</div>
-          <div className="flex rounded-md border border-border overflow-hidden mb-1">
+          <div className="flex rounded-lg border border-border overflow-hidden mb-1.5 p-0.5 gap-0.5 bg-surface">
             {LEVELS.map((l) => (
-              <button key={l.code} type="button" onClick={() => update({ level: l.code })} className={`flex-1 px-2 py-1.5 ${layer.level === l.code ? "bg-foreground text-background" : "bg-card hover:bg-foreground/5"}`}>{l.label}</button>
+              <button key={l.code} type="button" onClick={() => update({ level: l.code })} aria-pressed={layer.level === l.code}
+                className={`flex-1 rounded-md px-2 py-1.5 transition-colors ${layer.level === l.code ? "bg-foreground text-background font-medium shadow-sm" : "hover:bg-card"}`}>{l.label}</button>
             ))}
           </div>
-          <p className="text-xs text-muted mb-3">{level.blurb}.</p>
+          <p className="text-xs text-muted mb-3 leading-relaxed">{level.blurb}.</p>
           <div className="kicker mb-1.5">Language of TL;DRs</div>
           <div className="grid grid-cols-5 gap-1">
             {LANGS.map((l) => (
-              <button key={l.code} type="button" onClick={() => update({ lang: l.code })} title={l.label} className={`rounded-md border px-1 py-1.5 text-xs ${layer.lang === l.code ? "bg-foreground text-background border-foreground" : "border-border hover:bg-foreground/5"}`}>{l.native}</button>
+              <button key={l.code} type="button" onClick={() => update({ lang: l.code })} title={l.label} aria-pressed={layer.lang === l.code}
+                className={`rounded-md border px-1 py-1.5 text-xs transition-colors ${layer.lang === l.code ? "bg-foreground text-background border-foreground font-medium" : "border-border hover:bg-surface"}`}>{l.native}</button>
             ))}
           </div>
-          <p className="text-[11px] text-muted mt-2">Translations and simplified text are machine-assisted and unreviewed. Technical summaries stay in English. Where a translation is missing, the English TL;DR is shown with an EN mark.</p>
-          {nonDefault && <button type="button" onClick={() => update({ level: "technical", lang: "en" })} className="mt-2 text-xs underline text-muted">Reset</button>}
+          <p className="text-[11px] text-muted mt-2.5 leading-relaxed">Translations and simplified text are machine-assisted and unreviewed. Technical summaries stay in English. Where a translation is missing, the English TL;DR is shown with an EN mark.</p>
+          {nonDefault && <button type="button" onClick={() => update({ level: "technical", lang: "en" })} className="mt-2 text-xs underline text-muted hover:text-foreground">Reset</button>}
         </div>
       )}
     </div>

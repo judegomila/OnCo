@@ -1,0 +1,367 @@
+import type { DrugInput, EntityInput, IdeaInput, PairingInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
+import type { Spike } from "./index";
+
+/**
+ * Melanoma spike: deepens the melanoma record and adds the trials, drugs, technologies, terms,
+ * pairings, and ideas it depends on. Facts checked 2026-09-07 against primary publications,
+ * FDA notices, and company releases linked in each record.
+ */
+const asOf = "2026-09-07";
+const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
+const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
+
+type T = Omit<TrialInput, "kind" | "asOf">;
+const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
+type D = Omit<DrugInput, "kind" | "asOf">;
+const d = (x: D): DrugInput => ({ kind: "drug", asOf, ...x });
+type Tech = Omit<TechnologyInput, "kind" | "asOf">;
+const tech = (x: Tech): TechnologyInput => ({ kind: "technology", asOf, ...x });
+type Term = Omit<TermInput, "kind" | "asOf">;
+const term = (x: Term): TermInput => ({ kind: "term", asOf, ...x });
+type P = Omit<PairingInput, "kind" | "asOf">;
+const pair = (x: P): PairingInput => ({ kind: "pairing", asOf, ...x });
+type I = Omit<IdeaInput, "kind" | "asOf">;
+const idea = (x: I): IdeaInput => ({ kind: "idea", asOf, ...x });
+
+// ======================= TRIALS =======================
+const trials: TrialInput[] = [
+  t({ id: "keynote-006", name: "KEYNOTE-006", nct: "NCT01866319", phase: "3", status: "positive", yearReported: 2015, sponsor: "Merck", enrolled: 834,
+    setting: "Advanced melanoma, ≤1 prior systemic therapy: pembrolizumab (two schedules) vs ipilimumab",
+    tldr: "The trial that made PD-1 blockade the first choice over the older CTLA-4 drug, with a third of patients alive at ten years.",
+    summary: "Pembrolizumab improved PFS and OS versus ipilimumab with fewer high-grade side effects. The 10-year analysis (Annals of Oncology 2024) reported OS 34.0% versus 23.6%; patients who completed two years of pembrolizumab had durable remissions off treatment. Established anti-PD-1 monotherapy as a first-line standard and the two-year treatment duration.",
+    result: "10-year OS 34.0% vs 23.6%.",
+    outcomes: [
+      { endpoint: "Overall survival at 10 years", unit: "%", arms: [{ name: "Pembrolizumab", value: 34.0 }, { name: "Ipilimumab", value: 23.6 }], source: "https://www.annalsofoncology.org/article/S0923-7534(24)03910-3/fulltext" },
+    ],
+    replication: "Consistent with CheckMate 066/067 (nivolumab) and long-term KEYNOTE-001 data; PD-1 superiority over ipilimumab is replicated.",
+    drugs: ["pembrolizumab", "ipilimumab"], targets: ["pd1", "ctla4"], cancers: ["melanoma"], technologies: ["checkpoint-inhibitor"],
+    links: [ct("NCT01866319"), { label: "10-year follow-up, Annals of Oncology 2024", url: "https://www.annalsofoncology.org/article/S0923-7534(24)03910-3/fulltext" }] }),
+  t({ id: "relativity-047", name: "RELATIVITY-047", nct: "NCT03470922", phase: "2/3", status: "positive", yearReported: 2022, sponsor: "BMS", enrolled: 714,
+    setting: "Untreated unresectable or metastatic melanoma: nivolumab + relatlimab (fixed dose) vs nivolumab",
+    tldr: "Proved that adding a LAG-3 blocker to PD-1 blockade delays progression, with far less toxicity than the ipilimumab combination.",
+    summary: "PFS 10.1 vs 4.6 months (HR 0.75) led to FDA approval of Opdualag in March 2022. OS was not formally significant at first analysis; extended follow-up reported median OS 51.0 vs 34.1 months with 3-year OS 54.6% vs 48.0% (JCO 2024) and a 4-year update (EJC 2025) with the upper confidence bound below 1. Grade 3-4 treatment-related events ~21% versus ~59% for nivolumab-ipilimumab in CheckMate 067.",
+    result: "PFS HR 0.75; median OS 51.0 vs 34.1 months.",
+    outcomes: [
+      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Nivolumab + relatlimab", value: 10.1 }, { name: "Nivolumab", value: 4.6 }], hr: 0.75, source: "https://ascopubs.org/doi/10.1200/JCO.24.01124" },
+      { endpoint: "Overall survival (3-year)", unit: "%", arms: [{ name: "Nivolumab + relatlimab", value: 54.6 }, { name: "Nivolumab", value: 48.0 }], source: "https://ascopubs.org/doi/10.1200/JCO.24.01124" },
+    ],
+    replication: "No independent phase 3 yet; the adjuvant RELATIVITY-098 trial of the same combination was negative, so the benefit appears specific to the advanced setting.",
+    drugs: ["relatlimab-nivolumab", "nivolumab"], targets: ["lag3", "pd1"], cancers: ["melanoma"], trials: ["checkmate-067"],
+    links: [ct("NCT03470922"), { label: "3-year OS, JCO 2024", url: "https://ascopubs.org/doi/10.1200/JCO.24.01124" }, { label: "4-year update, EJC 2025", url: "https://www.ejcancer.com/article/S0959-8049(25)00329-6/fulltext" }] }),
+  t({ id: "nadina", name: "NADINA", nct: "NCT04949113", phase: "3", status: "positive", yearReported: 2024, sponsor: "Netherlands Cancer Institute / Melanoma Institute Australia", enrolled: 423,
+    setting: "Resectable macroscopic stage III melanoma: two cycles neoadjuvant ipilimumab + nivolumab then surgery (adjuvant only if incomplete response) vs surgery then 12 cycles adjuvant nivolumab",
+    tldr: "Giving the immunotherapy doublet before surgery, instead of nivolumab after, cut the risk of recurrence by about two thirds and let most patients skip further treatment.",
+    summary: "Presented at the ASCO 2024 plenary and published in NEJM (June 2024). 12-month EFS 83.7% vs 57.2%; HR for progression, recurrence or death 0.32. Around 59% of the neoadjuvant arm had a major pathological response and received no adjuvant therapy. The first phase 3 in oncology to test an immunotherapy-only neoadjuvant regimen against standard of care; adopted into NCCN and ESMO guidance as a preferred option for resectable nodal disease.",
+    result: "12-month EFS 83.7% vs 57.2%; HR 0.32.",
+    outcomes: [
+      { endpoint: "Event-free survival at 12 months", primary: true, unit: "%", arms: [{ name: "Neoadjuvant ipilimumab + nivolumab", value: 83.7 }, { name: "Adjuvant nivolumab", value: 57.2 }], hr: 0.32, source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2402604" },
+    ],
+    replication: "SWOG S1801 (neoadjuvant pembrolizumab) independently showed an EFS benefit for the neoadjuvant sequence, with a different drug.",
+    drugs: ["nivolumab", "ipilimumab"], targets: ["pd1", "ctla4"], cancers: ["melanoma"], terms: ["neoadjuvant-adjuvant", "efs", "major-pathological-response"], institutions: ["nki"],
+    links: [ct("NCT04949113"), { label: "NEJM 2024", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2402604" }] }),
+  t({ id: "swog-s1801", name: "SWOG S1801", nct: "NCT03698019", phase: "2", status: "positive", yearReported: 2022, sponsor: "SWOG / NCI", enrolled: 313,
+    setting: "Resectable stage IIIB-IV melanoma: three doses of pembrolizumab before surgery then 15 after, vs 18 doses after surgery",
+    tldr: "Simply moving three doses of the same drug to before surgery improved outcomes, a result that changed how the field thinks about timing.",
+    summary: "2-year EFS 72% vs 49% (HR 0.58), NEJM 2023. Same total drug exposure in both arms; the difference is attributed to priming the immune response while the tumour and its draining nodes are still present. Three-year follow-up presented at ESMO 2025 sustained the benefit. Together with NADINA it established neoadjuvant immunotherapy as standard for resectable stage III disease.",
+    result: "2-year EFS 72% vs 49%; HR 0.58.",
+    outcomes: [
+      { endpoint: "Event-free survival at 2 years", primary: true, unit: "%", arms: [{ name: "Neoadjuvant + adjuvant pembrolizumab", value: 72 }, { name: "Adjuvant pembrolizumab", value: 49 }], hr: 0.58, source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2211437" },
+    ],
+    replication: "Replicated in principle by NADINA with a different regimen.",
+    drugs: ["pembrolizumab"], targets: ["pd1"], cancers: ["melanoma"], terms: ["neoadjuvant-adjuvant"], institutions: ["swog"],
+    links: [ct("NCT03698019"), { label: "NEJM 2023", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2211437" }] }),
+  t({ id: "keynote-716", name: "KEYNOTE-716", nct: "NCT03553836", phase: "3", status: "positive", yearReported: 2021, sponsor: "Merck", enrolled: 976,
+    setting: "Resected stage IIB or IIC melanoma: adjuvant pembrolizumab 1 year vs placebo",
+    tldr: "Extended adjuvant immunotherapy to thick node-negative melanomas, a group whose risk of relapse rivals stage III.",
+    summary: "RFS and distant metastasis-free survival improved (FDA approval December 2021 for stage IIB/IIC). Five-year follow-up (ESMO 2025) reported sustained RFS and DMFS benefit; OS not yet mature. The absolute benefit is smaller than in stage III and the trial reignited debate about over-treatment given that most stage II patients never relapse.",
+    result: "RFS and DMFS improved; 5-year benefit sustained (ESMO 2025).",
+    replication: "CheckMate 76K (nivolumab in stage IIB/IIC) showed a concordant RFS benefit.",
+    drugs: ["pembrolizumab"], cancers: ["melanoma"], terms: ["efs"],
+    links: [ct("NCT03553836"), { label: "5-year follow-up, Annals of Oncology 2025", url: "https://www.annalsofoncology.org/article/S0923-7534(25)03159-X/fulltext" }] }),
+  t({ id: "combi-ad", name: "COMBI-AD", nct: "NCT01682083", phase: "3", status: "positive", yearReported: 2017, sponsor: "Novartis", enrolled: 870,
+    setting: "Resected stage III BRAF V600-mutant melanoma: adjuvant dabrafenib + trametinib 1 year vs placebo",
+    tldr: "A year of two targeted pills after surgery halves the risk of relapse in BRAF-mutant melanoma, and the benefit is still visible a decade later.",
+    summary: "RFS HR 0.47 at first analysis; final analysis (JCO 2024, >10 years) reported 10-year RFS 48% vs 32% and DMFS 63% vs 48%. OS analysis was hampered by crossover and subsequent immunotherapy. The longest follow-up of any adjuvant melanoma trial; the alternative to adjuvant PD-1 for BRAF-mutant patients.",
+    result: "10-year RFS 48% vs 32%; DMFS 63% vs 48%.",
+    outcomes: [
+      { endpoint: "Relapse-free survival at 10 years", primary: true, unit: "%", arms: [{ name: "Dabrafenib + trametinib", value: 48 }, { name: "Placebo", value: 32 }], source: "https://ascopubs.org/doi/10.1200/JCO.2024.42.16_suppl.9500" },
+      { endpoint: "Distant metastasis-free survival at 10 years", unit: "%", arms: [{ name: "Dabrafenib + trametinib", value: 63 }, { name: "Placebo", value: 48 }], source: "https://ascopubs.org/doi/10.1200/JCO.2024.42.16_suppl.9500" },
+    ],
+    replication: "No second adjuvant BRAF/MEK phase 3 (BRIM8 with vemurafenib alone was mixed); benefit consistent with metastatic COMBI-d/v data.",
+    drugs: ["dabrafenib-trametinib"], targets: ["braf"], cancers: ["melanoma"], pathways: ["ras-mapk"],
+    links: [ct("NCT01682083"), { label: "Final analysis, ASCO 2024", url: "https://ascopubs.org/doi/10.1200/JCO.2024.42.16_suppl.9500" }] }),
+  t({ id: "columbus", name: "COLUMBUS", nct: "NCT01909453", phase: "3", status: "positive", yearReported: 2018, sponsor: "Array / Pfizer", enrolled: 577,
+    setting: "Advanced BRAF V600 melanoma: encorafenib + binimetinib vs vemurafenib vs encorafenib",
+    tldr: "The third BRAF/MEK doublet, with the longest median survival of the class and less fever than dabrafenib-trametinib.",
+    summary: "Median PFS 14.9 months versus 7.3 for vemurafenib; median OS 33.6 months (7-year update: OS 27.7%). Approved June 2018. Distinguished by lower pyrexia and photosensitivity and by a longer dissociation half-life of encorafenib on BRAF.",
+    result: "PFS 14.9 vs 7.3 months (HR 0.54); median OS 33.6 months.",
+    outcomes: [
+      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Encorafenib + binimetinib", value: 14.9 }, { name: "Vemurafenib", value: 7.3 }], hr: 0.54, source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(18)30142-6/fulltext" },
+    ],
+    replication: "Class effect replicated across coBRIM (vemurafenib-cobimetinib) and COMBI-d/v (dabrafenib-trametinib).",
+    drugs: ["encorafenib", "binimetinib", "vemurafenib"], targets: ["braf"], cancers: ["melanoma"], pathways: ["ras-mapk"],
+    links: [ct("NCT01909453"), { label: "Lancet Oncology 2018", url: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(18)30142-6/fulltext" }] }),
+  t({ id: "dreamseq", name: "DREAMseq (ECOG-ACRIN EA6134)", nct: "NCT02224781", phase: "3", status: "positive", yearReported: 2021, sponsor: "ECOG-ACRIN / NCI", enrolled: 265,
+    setting: "Untreated BRAF V600 metastatic melanoma: nivolumab + ipilimumab then dabrafenib + trametinib at progression, vs the reverse sequence",
+    tldr: "Settled the order question: for BRAF-mutant melanoma, start with immunotherapy and save the targeted pills for later.",
+    summary: "2-year OS 71.8% vs 51.5% for the immunotherapy-first sequence (JCO 2023); the trial was stopped early for benefit. Targeted therapy remained effective after immunotherapy, while immunotherapy after BRAF/MEK failure performed poorly. SECOMBIT reached a similar conclusion.",
+    result: "2-year OS 71.8% vs 51.5%.",
+    outcomes: [
+      { endpoint: "Overall survival at 2 years", primary: true, unit: "%", arms: [{ name: "Immunotherapy first", value: 71.8 }, { name: "Targeted therapy first", value: 51.5 }], p: "0.010", source: "https://ascopubs.org/doi/10.1200/JCO.22.01763" },
+    ],
+    replication: "SECOMBIT (phase 2, Italy) independently favoured immunotherapy first.",
+    drugs: ["nivolumab", "ipilimumab", "dabrafenib-trametinib"], targets: ["braf", "pd1", "ctla4"], cancers: ["melanoma"], institutions: ["ecog-acrin"],
+    links: [ct("NCT02224781"), { label: "JCO 2023", url: "https://ascopubs.org/doi/10.1200/JCO.22.01763" }] }),
+  t({ id: "c-144-01", name: "C-144-01", nct: "NCT02360579", phase: "2", status: "positive", yearReported: 2021, sponsor: "Iovance", enrolled: 153,
+    setting: "Advanced melanoma progressing after anti-PD-1 (and BRAF/MEK if applicable): single infusion of lifileucel TIL",
+    tldr: "The single-arm study that got the first cell therapy for a solid tumour approved: one in three patients responded after everything else had failed.",
+    summary: "ORR 31.4% in the pivotal cohort; median duration of response 36.5 months in the 5-year analysis, with ~31% of responders still responding at five years. Accelerated FDA approval February 2024. TILVANCE-301 (first-line, with pembrolizumab) is the confirmatory trial.",
+    result: "ORR 31.4%; median DOR 36.5 months (5-year analysis).",
+    outcomes: [
+      { endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "Lifileucel", n: 153, value: 31.4 }], source: "https://www.iovance.com" },
+    ],
+    replication: "Consistent with decades of NCI Surgery Branch TIL series; randomised confirmation pending (TILVANCE-301).",
+    drugs: ["lifileucel"], cancers: ["melanoma"], technologies: ["til-therapy"], companies: ["iovance"],
+    links: [ct("NCT02360579")] }),
+  t({ id: "imcgp100-202", name: "IMCgp100-202", nct: "NCT03070392", phase: "3", status: "positive", yearReported: 2021, sponsor: "Immunocore", enrolled: 378,
+    setting: "Untreated HLA-A*02:01-positive metastatic uveal melanoma: tebentafusp vs investigator's choice (pembrolizumab, ipilimumab, or dacarbazine)",
+    tldr: "The first drug ever to extend life in metastatic uveal melanoma, and the first T-cell receptor-based medicine to win a phase 3.",
+    summary: "OS 21.7 vs 16.0 months (HR 0.51) despite a low response rate, showing that ctDNA reduction and tumour growth slowing matter more than RECIST shrinkage for this class. FDA approval January 2022. Cytokine release syndrome and rash are frequent but manageable with step-up dosing.",
+    result: "OS 21.7 vs 16.0 months; HR 0.51.",
+    outcomes: [
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Tebentafusp", value: 21.7 }, { name: "Investigator's choice", value: 16.0 }], hr: 0.51, source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2103485" },
+    ],
+    replication: "Supported by a phase 2 in previously treated uveal melanoma; no second randomised trial.",
+    drugs: ["tebentafusp"], targets: ["gp100", "cd3"], cancers: ["melanoma"], technologies: ["t-cell-engager"], companies: ["immunocore"],
+    links: [ct("NCT03070392"), { label: "NEJM 2021", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2103485" }] }),
+  t({ id: "mslt-ii", name: "MSLT-II", nct: "NCT00297895", phase: "3", status: "positive", yearReported: 2017, sponsor: "John Wayne Cancer Institute / NCI", enrolled: 1939,
+    setting: "Sentinel-node-positive melanoma: immediate completion lymph node dissection vs ultrasound surveillance",
+    tldr: "Showed that removing all the remaining lymph nodes after a positive sentinel node does not help patients live longer, ending a routine operation.",
+    summary: "Melanoma-specific survival at 3 years 86% in both arms; dissection improved regional control at the cost of lymphoedema in ~24% versus 6%. Practice changed worldwide to nodal surveillance, which in turn made adjuvant and neoadjuvant systemic therapy the main lever for stage III disease.",
+    result: "No melanoma-specific survival benefit; lymphoedema 24% vs 6%.",
+    outcomes: [
+      { endpoint: "Melanoma-specific survival at 3 years", primary: true, unit: "%", arms: [{ name: "Completion dissection", value: 86 }, { name: "Observation", value: 86 }], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1613210" },
+    ],
+    replication: "DeCOG-SLT (Germany) reached the same conclusion.",
+    technologies: ["sentinel-node", "ultrasound"], cancers: ["melanoma"],
+    links: [ct("NCT00297895"), { label: "NEJM 2017", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1613210" }] }),
+  t({ id: "prism-mel-301", name: "PRISM-MEL-301", nct: "NCT06112314", phase: "3", status: "recruiting", sponsor: "Immunocore",
+    setting: "Untreated HLA-A*02:01-positive advanced cutaneous melanoma: brenetafusp + nivolumab vs nivolumab-based regimens",
+    tldr: "Tests whether a PRAME-directed T-cell engager adds to first-line immunotherapy in ordinary skin melanoma, following tebentafusp's success in the eye form.",
+    summary: "Phase 3 launched 2024. Supporting phase 1/2 data (ASCO 2026): in 66 heavily pretreated patients on monotherapy, median OS 14.3 months with 57% alive at 12 months; the 160 µg dose was carried into phase 3. PRAME is expressed in most cutaneous melanomas, giving a broader target than gp100.",
+    drugs: ["brenetafusp", "nivolumab"], targets: ["prame", "cd3"], cancers: ["melanoma"], technologies: ["t-cell-engager"], companies: ["immunocore"],
+    links: [ct("NCT06112314"), { label: "Immunocore ASCO 2026 update", url: "https://www.globenewswire.com/news-release/2026/05/31/3303917/0/en/immunocore-presents-updated-phase-1-data-of-brenetafusp-in-patients-with-heavily-pretreated-advanced-melanoma.html" }] }),
+  t({ id: "fianlimab-phase3-melanoma", name: "Fianlimab + cemiplimab phase 3 (first-line melanoma)", nct: "NCT05352672", phase: "3", status: "negative", yearReported: 2026, sponsor: "Regeneron",
+    setting: "Untreated unresectable or metastatic melanoma: fianlimab + cemiplimab (two dose levels) vs pembrolizumab",
+    tldr: "A second LAG-3 blocker failed to beat pembrolizumab alone, a warning that the Opdualag result is not automatically a class effect.",
+    summary: "Regeneron reported that the trial missed its primary PFS endpoint; the high-dose combination improved median PFS numerically by 5.1 months but not significantly. Differences from RELATIVITY-047 include the comparator (pembrolizumab rather than nivolumab), the antibody, and dosing. The adjuvant fianlimab phase 3 continues.",
+    result: "Primary PFS endpoint not met; numerical +5.1 months median PFS at the high dose.",
+    drugs: ["fianlimab", "cemiplimab", "pembrolizumab"], targets: ["lag3", "pd1"], cancers: ["melanoma"], trials: ["relativity-047"], companies: ["regeneron"], tags: ["failure", "lesson:class-effect-not-guaranteed"],
+    links: [ct("NCT05352672"), { label: "Regeneron update", url: "https://investor.regeneron.com/news-releases/news-release-details/regeneron-provides-update-phase-3-trial-fianlimab-lag-3" }] }),
+  t({ id: "relativity-098", name: "RELATIVITY-098", nct: "NCT05002569", phase: "3", status: "negative", yearReported: 2025, sponsor: "BMS",
+    setting: "Resected stage III/IV melanoma: adjuvant nivolumab + relatlimab vs nivolumab",
+    tldr: "Adding relatlimab to adjuvant nivolumab did not reduce recurrence, so the LAG-3 combination stays a treatment for measurable disease.",
+    summary: "The trial did not improve RFS over nivolumab alone (published 2025). Suggests LAG-3 blockade needs an antigen-rich tumour to act on, echoing why neoadjuvant designs outperform adjuvant ones.",
+    result: "RFS not improved.",
+    drugs: ["relatlimab-nivolumab", "nivolumab"], targets: ["lag3"], cancers: ["melanoma"], tags: ["failure", "lesson:adjuvant-vs-active-disease"],
+    links: [ct("NCT05002569"), { label: "RELATIVITY-098 publication", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12705465/" }] }),
+];
+
+// ======================= DRUGS =======================
+const drugs: DrugInput[] = [
+  d({ id: "vemurafenib", name: "Vemurafenib", brand: "Zelboraf", modality: "Small-molecule kinase inhibitor (BRAF V600)", status: "approved", wikipedia: W("Vemurafenib"),
+    tldr: "The first BRAF inhibitor (2011), which shrank melanomas in weeks and proved that a single mutation could be drugged in a solid tumour.",
+    summary: "BRIM-3: OS benefit versus dacarbazine in BRAF V600E melanoma; approved August 2011 alongside ipilimumab in the same year that transformed the disease. Now used with cobimetinib (coBRIM) or displaced by encorafenib-binimetinib and dabrafenib-trametinib. Also approved for Erdheim-Chester disease. Photosensitivity, arthralgia, and cutaneous squamous cell carcinomas (from paradoxical MAPK activation in RAS-mutant keratinocytes) are characteristic.",
+    mechanism: "ATP-competitive inhibitor of BRAF V600 monomers; paradoxically activates wild-type RAF dimers, hence MEK partnering.",
+    mechanismSteps: ["Vemurafenib enters the cell and binds the ATP pocket of mutant BRAF V600E", "MEK and ERK phosphorylation fall within hours", "Proliferation stops and apoptosis follows in BRAF-addicted melanoma cells", "In RAS-active normal cells, drug-bound BRAF dimerises with CRAF and paradoxically boosts signalling, causing skin squamous lesions", "Resistance emerges via NRAS mutation, BRAF splice variants, or MEK mutations, restoring ERK output"],
+    dosing: { route: "Oral", schedule: "960 mg twice daily continuously", modifications: "Dose reduction for grade 2-3 rash, arthralgia, photosensitivity, QT prolongation", monitoring: "Dermatology exams for squamous cell carcinoma; ECG; liver enzymes", source: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/202429s019lbl.pdf" },
+    toxicity: [
+      { event: "Cutaneous squamous cell carcinoma / keratoacanthoma", anyGradePct: 24, source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1103782", note: "BRIM-3 vemurafenib arm" },
+      { event: "Arthralgia", anyGradePct: 53, source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1103782" },
+      { event: "Photosensitivity", anyGradePct: 33, source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1103782" },
+    ],
+    approvals: [{ region: "US", year: 2011, indication: "Unresectable or metastatic BRAF V600E melanoma" }, { region: "US", year: 2017, indication: "Erdheim-Chester disease with BRAF V600 mutation" }],
+    regulatoryEvents: [{ date: "2011-08-17", type: "approval", region: "US", note: "Approved with the cobas BRAF V600 companion test, the first melanoma targeted therapy" }, { date: "2015-11-10", type: "approval", region: "US", note: "Cobimetinib approved in combination (coBRIM)" }],
+    targets: ["braf"], technologies: ["kinase-inhibitors"], companies: ["roche-genentech"], cancers: ["melanoma"], pathways: ["ras-mapk"], trials: ["columbus"],
+    links: [{ label: "BRIM-3, NEJM 2011", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1103782" }] }),
+  d({ id: "binimetinib", name: "Binimetinib", brand: "Mektovi", modality: "Small-molecule kinase inhibitor (MEK1/2)", status: "approved", wikipedia: W("Binimetinib"),
+    tldr: "The MEK inhibitor partnered with encorafenib; blocking the next step in the same relay stops the tumour rerouting around the BRAF block.",
+    summary: "Approved June 2018 with encorafenib for BRAF V600 melanoma (COLUMBUS) and 2023 for BRAF V600E NSCLC. Class effects: retinopathy (serous retinal detachment), CK elevation, left-ventricular dysfunction, rash, diarrhoea.",
+    mechanism: "Allosteric, ATP-non-competitive MEK1/2 inhibitor.",
+    mechanismSteps: ["Binds MEK1/2 outside the ATP site and locks them in an inactive conformation", "ERK phosphorylation falls even if RAF activity rebounds", "Combined with a BRAF inhibitor, blocks the paradoxical activation that causes squamous skin lesions and delays resistance"],
+    dosing: { route: "Oral", schedule: "45 mg twice daily with encorafenib 450 mg once daily", modifications: "Hold for retinopathy, LVEF drop, CK rise", monitoring: "Ophthalmology at baseline and for symptoms; echocardiogram; CK", source: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/210498s009lbl.pdf" },
+    approvals: [{ region: "US", year: 2018, indication: "BRAF V600E/K melanoma with encorafenib" }, { region: "US", year: 2023, indication: "BRAF V600E metastatic NSCLC with encorafenib" }],
+    regulatoryEvents: [{ date: "2018-06-27", type: "approval", region: "US", note: "Encorafenib + binimetinib approved for BRAF V600 melanoma" }],
+    targets: ["braf"], technologies: ["kinase-inhibitors"], companies: ["pfizer"], cancers: ["melanoma", "nsclc"], pathways: ["ras-mapk"], drugs: ["encorafenib"], trials: ["columbus"] }),
+  d({ id: "cobimetinib", name: "Cobimetinib", brand: "Cotellic", modality: "Small-molecule kinase inhibitor (MEK1/2)", status: "approved", wikipedia: W("Cobimetinib"),
+    tldr: "The MEK partner for vemurafenib, and the first drug approved for histiocytic neoplasms.",
+    summary: "coBRIM (2015): PFS 12.3 vs 7.2 months added to vemurafenib in BRAF V600 melanoma. Also approved with atezolizumab and vemurafenib (IMspire150, 2020) and alone for histiocytic neoplasms (2022). Retinopathy, photosensitivity, CK elevation.",
+    mechanism: "Allosteric MEK1/2 inhibitor.",
+    mechanismSteps: ["Binds MEK1/2 allosterically", "Suppresses ERK reactivation that limits BRAF inhibitor monotherapy", "With atezolizumab, MAPK inhibition may increase antigen presentation and T-cell infiltration"],
+    dosing: { route: "Oral", schedule: "60 mg once daily for 21 days of each 28-day cycle, with vemurafenib", source: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/206192s006lbl.pdf" },
+    approvals: [{ region: "US", year: 2015, indication: "BRAF V600 melanoma with vemurafenib" }, { region: "US", year: 2020, indication: "With atezolizumab and vemurafenib in BRAF V600 melanoma" }, { region: "US", year: 2022, indication: "Histiocytic neoplasms" }],
+    targets: ["braf"], technologies: ["kinase-inhibitors"], companies: ["roche-genentech"], cancers: ["melanoma"], pathways: ["ras-mapk"], drugs: ["vemurafenib", "atezolizumab"] }),
+  d({ id: "brenetafusp", name: "Brenetafusp", code: "IMC-F106C", modality: "ImmTAC (PRAME TCR × CD3 bispecific)", status: "phase-3",
+    tldr: "Tebentafusp's successor: a soluble T-cell receptor that recognises a fragment of PRAME, a protein present in most melanomas and many other cancers, and drags T cells onto the tumour.",
+    summary: "Phase 1/2 in heavily pretreated cutaneous melanoma: median OS 14.3 months on monotherapy (ASCO 2026 update). PRISM-MEL-301 phase 3 with nivolumab in first-line HLA-A*02:01-positive melanoma is enrolling; further trials in ovarian, lung, and endometrial cancer. Requires HLA-A*02:01 (roughly half of European-ancestry patients).",
+    mechanism: "Affinity-enhanced TCR binding PRAME peptide–HLA-A*02:01 fused to an anti-CD3 scFv; redirects polyclonal T cells.",
+    mechanismSteps: ["The TCR arm binds PRAME peptide displayed on HLA-A*02:01 on the tumour cell", "The CD3 arm engages any nearby T cell", "An artificial immune synapse forms and the T cell releases perforin and granzymes", "Interferon-gamma release upregulates PD-L1, the rationale for pairing with nivolumab"],
+    dosing: { route: "Intravenous", schedule: "Weekly with step-up dosing to 160 µg", monitoring: "Cytokine release syndrome during the first doses; rash", source: "https://clinicaltrials.gov/study/NCT06112314" },
+    regulatoryEvents: [{ date: "2024", type: "designation", region: "US", note: "Phase 3 PRISM-MEL-301 initiated after FDA alignment on design" }],
+    targets: ["prame", "cd3"], technologies: ["t-cell-engager"], companies: ["immunocore"], cancers: ["melanoma", "ovarian", "nsclc"], trials: ["prism-mel-301"], drugs: ["tebentafusp"],
+    links: [{ label: "Immunocore ASCO 2026 data", url: "https://www.globenewswire.com/news-release/2026/05/31/3303917/0/en/immunocore-presents-updated-phase-1-data-of-brenetafusp-in-patients-with-heavily-pretreated-advanced-melanoma.html" }] }),
+  d({ id: "fianlimab", name: "Fianlimab", code: "REGN3767", modality: "Monoclonal antibody (anti-LAG-3)", status: "phase-3",
+    tldr: "Regeneron's LAG-3 blocker. Promising early data with cemiplimab did not hold up against pembrolizumab in a first-line phase 3 in 2026.",
+    summary: "Phase 1 with cemiplimab reported ORR ~60% in first-line melanoma, prompting phase 3 trials versus pembrolizumab in metastatic disease (missed PFS, 2026) and in the adjuvant setting (ongoing). Also being tested in NSCLC. The result narrows the LAG-3 story to the specific nivolumab-relatlimab pairing so far.",
+    mechanism: "Fully human IgG4 blocking LAG-3 binding to MHC class II and FGL1.",
+    mechanismSteps: ["Blocks LAG-3 on exhausted T cells", "With PD-1 blockade, aims to restore effector function in doubly inhibited T cells"],
+    regulatoryEvents: [{ date: "2026", type: "designation", region: "US", note: "First-line metastatic phase 3 missed its primary PFS endpoint (Regeneron release)" }],
+    targets: ["lag3"], technologies: ["checkpoint-inhibitor"], companies: ["regeneron"], cancers: ["melanoma"], trials: ["fianlimab-phase3-melanoma"], drugs: ["cemiplimab"], tags: ["failed-so-far"],
+    links: [{ label: "Regeneron update", url: "https://investor.regeneron.com/news-releases/news-release-details/regeneron-provides-update-phase-3-trial-fianlimab-lag-3" }] }),
+];
+
+// ======================= TECHNOLOGIES =======================
+const technologies: TechnologyInput[] = [
+  tech({ id: "dermoscopy-ai", name: "Dermoscopy, total-body photography & AI skin analysis", sections: ["early-detection", "ai-computation"], status: "established",
+    tldr: "Magnified skin imaging and whole-body photo mapping, increasingly read by algorithms, to find melanoma early and avoid unnecessary biopsies.",
+    summary: "Dermoscopy improves diagnostic accuracy over the naked eye; sequential total-body photography tracks change in high-risk patients. Deep-learning classifiers have matched dermatologists on benchmark images and DermaSensor (elastic scattering spectroscopy, FDA 2024) is cleared for primary care. Real-world impact depends on population, skin tone representation in training data, and workflow; no screening RCT has shown mortality benefit.",
+    principle: "Polarised or immersion magnification of skin structures; convolutional networks trained on labelled lesion images; spectroscopy of tissue optical properties.",
+    strengths: ["Cheap, non-invasive, repeatable", "Reduces benign excisions when used well"],
+    limitations: ["Algorithm performance drops on darker skin and rare subtypes", "No proven mortality benefit for population screening"],
+    cancers: ["melanoma"], technologies: ["radiology-ai-screening"], terms: ["breslow-thickness"] }),
+];
+
+// ======================= TERMS =======================
+const terms: TermInput[] = [
+  term({ id: "breslow-thickness", name: "Breslow thickness", category: "Pathology", wikipedia: W("Breslow%27s_depth"),
+    tldr: "How deep a melanoma has grown into the skin, in millimetres. The single strongest predictor of whether it will spread.",
+    summary: "Measured from the granular layer to the deepest tumour cell. Drives T stage (T1 ≤1 mm to T4 >4 mm), sentinel node biopsy decisions (generally offered from ~0.8 mm or with ulceration), and adjuvant eligibility. Ulceration upstages within each thickness band.", cancers: ["melanoma"], terms: ["tnm-staging"] }),
+  term({ id: "ulceration-melanoma", name: "Ulceration (melanoma)", category: "Pathology",
+    tldr: "Loss of the skin surface over a melanoma under the microscope; a sign of aggressive biology that raises the stage.",
+    summary: "Present in roughly a quarter of primary melanomas; independently worsens prognosis and defines the 'b' substage at each T level. Historically predicted benefit from interferon; today it helps define stage IIB/IIC, where adjuvant PD-1 is approved.", cancers: ["melanoma"], terms: ["breslow-thickness"] }),
+  term({ id: "major-pathological-response", name: "Major pathological response (MPR)", category: "Endpoints",
+    tldr: "When, after pre-surgery treatment, the removed tumour contains little or no living cancer: 10% or less viable cells.",
+    summary: "Defined by the International Neoadjuvant Melanoma Consortium as ≤10% viable tumour (pathological complete response is 0%). In NADINA and earlier OpCACI trials, MPR predicted very low relapse risk and was used to decide whether adjuvant therapy could be omitted. The melanoma analogue of pCR in breast cancer.", cancers: ["melanoma"], trials: ["nadina"], terms: ["pcr", "neoadjuvant-adjuvant"] }),
+  term({ id: "hla-a02-restriction", name: "HLA-A*02:01 restriction", category: "Immunology",
+    tldr: "Some T-cell-receptor drugs only work in people with a particular immune 'tissue type'. About half of people of European ancestry have it; far fewer in some other populations.",
+    summary: "Tebentafusp, brenetafusp, and afamitresgene autoleucel recognise peptides presented on HLA-A*02:01, so eligibility requires a blood test. Frequencies vary from ~45-50% in Europeans to under 20% in some African and East Asian populations, creating an equity problem that next-generation TCR agents against other alleles aim to address.", cancers: ["melanoma", "sarcoma"], drugs: ["tebentafusp", "brenetafusp", "afamitresgene-autoleucel"], technologies: ["tcr-t", "t-cell-engager"] }),
+];
+
+// ======================= PAIRINGS =======================
+const pairings: PairingInput[] = [
+  pair({ id: "io-first-then-braf-mek", name: "Immunotherapy first, then BRAF/MEK (BRAF-mutant melanoma)", a: "checkpoint-inhibitor", b: "dabrafenib-trametinib", pairingType: "sequence",
+    tldr: "In BRAF-mutant melanoma, start with immunotherapy and keep the targeted pills in reserve; the reverse order costs lives.",
+    summary: "DREAMseq: 2-year OS 71.8% vs 51.5% favouring nivolumab-ipilimumab first. Targeted therapy still works after immunotherapy, but immunotherapy after targeted therapy underperforms, possibly because BRAF/MEK progression is rapid and immunologically cold.",
+    rationale: "Immunotherapy responses are durable and can be curative; BRAF/MEK responses are fast but nearly always temporary. Using the durable option first preserves the fast option as a rescue.",
+    evidence: "Phase 3 DREAMseq; phase 2 SECOMBIT concordant.",
+    drugs: ["nivolumab", "ipilimumab", "dabrafenib-trametinib", "encorafenib"], cancers: ["melanoma"], trials: ["dreamseq"], targets: ["braf"] }),
+  pair({ id: "neoadjuvant-io-response-adapted", name: "Neoadjuvant immunotherapy → response-adapted adjuvant", a: "checkpoint-inhibitor", b: "sentinel-node", pairingType: "sequence",
+    tldr: "Treat before surgery, look at the removed tumour, and only continue treatment if the response was incomplete.",
+    summary: "NADINA's design: two neoadjuvant cycles, surgery, then adjuvant therapy only for partial or non-responders. Sixty percent of patients avoided a year of adjuvant treatment. SWOG S1801 showed the same drug works better given partly before surgery.",
+    rationale: "The intact tumour and nodes provide antigen and T-cell priming; pathological response is a reliable early readout that lets therapy be de-escalated.",
+    evidence: "Phase 3 NADINA, phase 2 SWOG S1801.",
+    drugs: ["nivolumab", "ipilimumab", "pembrolizumab"], cancers: ["melanoma"], trials: ["nadina", "swog-s1801"], terms: ["major-pathological-response"] }),
+  pair({ id: "lag3-adjuvant-caution", name: "Caution: LAG-3 blockade outside active disease", a: "relatlimab-nivolumab", b: "fianlimab", pairingType: "caution",
+    tldr: "LAG-3 blockers helped in measurable melanoma with one drug pairing, but failed as adjuvant therapy and with a different PD-1 partner.",
+    summary: "RELATIVITY-098 (adjuvant nivolumab-relatlimab) and the fianlimab-cemiplimab first-line phase 3 (2026) were both negative. The LAG-3 benefit so far is confined to nivolumab-relatlimab in unresectable disease.",
+    rationale: "LAG-3 is expressed on exhausted T cells inside tumours; without tumour, or with different antibody properties and comparators, the effect may vanish.",
+    evidence: "Two negative phase 3 trials versus one positive.",
+    drugs: ["relatlimab-nivolumab", "fianlimab"], cancers: ["melanoma"], trials: ["relativity-047", "relativity-098", "fianlimab-phase3-melanoma"], targets: ["lag3"] }),
+];
+
+// ======================= IDEAS =======================
+const ideas: IdeaInput[] = [
+  idea({ id: "idea-ctdna-guided-adjuvant-melanoma", name: "ctDNA-guided adjuvant therapy in stage II-III melanoma", maturity: "early-clinical",
+    tldr: "Most stage II patients never relapse, yet all are offered a year of immunotherapy. Use a blood test to treat only those with detectable residual disease.",
+    summary: "KEYNOTE-716 and CheckMate 76K treat everyone in stage IIB/IIC for a modest absolute benefit. Tumour-informed ctDNA assays could identify the minority at risk. The DETECTION trial (UK) tests this approach.",
+    hypothesis: "Reserving adjuvant PD-1 for ctDNA-positive patients (or starting at ctDNA conversion) achieves equivalent distant metastasis-free survival with far fewer patients treated.",
+    rationale: "Melanoma sheds ctDNA proportional to burden; IMvigor011 proved the concept in bladder cancer; over-treatment and immune toxicity in stage II are substantial.",
+    test: "Randomised trial of ctDNA-triggered versus standard adjuvant pembrolizumab in stage IIB-IIIA with DMFS endpoint (the DETECTION design).",
+    technologies: ["mrd-testing", "checkpoint-inhibitor"], cancers: ["melanoma"], trials: ["keynote-716", "imvigor011"], terms: ["mrd"] }),
+  idea({ id: "idea-prame-tcr-beyond-a02", name: "TCR therapeutics for non-HLA-A*02 patients", maturity: "preclinical-evidence",
+    tldr: "Today's T-cell-receptor drugs only work for people with one tissue type. Building versions for the other common types would roughly double who can be treated.",
+    summary: "Tebentafusp and brenetafusp require HLA-A*02:01. Immunocore and others have preclinical ImmTACs against PRAME on HLA-A*24 and A*11, common in East Asian populations.",
+    hypothesis: "PRAME-directed ImmTACs restricted to HLA-A*24:02 or A*11:01 achieve comparable activity and safety to the A*02 agent.",
+    rationale: "Same antigen, same format; the only variable is the HLA context, which is a solved engineering problem in principle.",
+    test: "Phase 1 dose escalation in HLA-A*24:02-positive melanoma in Japan and Korea, with ctDNA and OS follow-up mirroring IMCgp100-202.",
+    technologies: ["t-cell-engager", "tcr-t"], targets: ["prame"], cancers: ["melanoma"], drugs: ["brenetafusp", "tebentafusp"], terms: ["hla-a02-restriction"] }),
+];
+
+// ======================= TARGET (PRAME) =======================
+const prame: EntityInput = {
+  id: "prame", kind: "target", name: "PRAME", symbol: "PRAME", targetClass: "other", asOf, wikipedia: W("PRAME"),
+  tldr: "A protein normally confined to testis that most melanomas and many other cancers switch on; T-cell receptor drugs can recognise fragments of it.",
+  summary: "Preferentially Expressed Antigen in Melanoma is a cancer-testis antigen expressed in ~90% of cutaneous melanomas and in substantial fractions of ovarian, lung, endometrial, and uveal cancers. Intracellular, so reachable only via peptide–HLA recognition: brenetafusp (ImmTAC), IMA203 (Immatics TCR-T, phase 3 in melanoma), and other TCR programmes. PRAME immunohistochemistry is also a diagnostic aid for distinguishing melanoma from naevi.",
+  biology: "Represses retinoic acid receptor signalling; drives proliferation and blocks differentiation; presented on HLA class I as peptides such as PRAME 425-433 on A*02:01.",
+  whereFound: ["Cutaneous melanoma (~90%)", "Uveal melanoma (subset, associated with metastasis)", "Ovarian, endometrial, NSCLC, breast (subsets)", "Synovial sarcoma"],
+  prevalence: [{ cancerId: "melanoma", pct: "~90", measure: "IHC positivity in cutaneous melanoma", source: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6234029/" }],
+  cancers: ["melanoma", "ovarian", "nsclc", "sarcoma"], drugs: ["brenetafusp"], technologies: ["t-cell-engager", "tcr-t"], companies: ["immunocore", "immatics"], terms: ["hla-a02-restriction"], tags: ["tcr-target"],
+};
+
+// ======================= SPIKE =======================
+const spike: Spike = {
+  cancerId: "melanoma",
+  entities: [...trials, ...drugs, ...technologies, ...terms, ...pairings, ...ideas, prame],
+  patch: {
+    summary: "Melanoma arises from pigment cells and is the deadliest skin cancer, though most cases are cured by excision when found early. Risk is driven by ultraviolet exposure and fair skin; the tumour carries the highest mutation burden of any common cancer, which is why it became the proving ground for immunotherapy. About half of cutaneous melanomas carry BRAF V600 mutations, a quarter NRAS, and acral and mucosal subtypes carry KIT alterations; uveal melanoma is a distinct disease driven by GNAQ/GNA11 and BAP1.\n\nThe treatment revolution began in 2011 with ipilimumab and vemurafenib and accelerated with PD-1 blockade (2014). Nivolumab-ipilimumab now delivers ~50% melanoma-specific survival at ten years in advanced disease (CheckMate 067), pembrolizumab 34% overall survival at ten years (KEYNOTE-006), and nivolumab-relatlimab offers a gentler doublet. For BRAF-mutant disease, DREAMseq settled that immunotherapy should come first. In resectable stage III disease, NADINA and SWOG S1801 moved immunotherapy to before surgery with response-adapted follow-on treatment, and adjuvant PD-1 or BRAF/MEK covers stage IIB-III. After immunotherapy fails, lifileucel TIL therapy (2024) and the oncolytic virus RP1 with nivolumab (2026) are approved; tebentafusp is the first survival-extending drug in metastatic uveal melanoma. Intismeran autogene plus pembrolizumab became the first personalised mRNA vaccine to pass a phase 3 in August 2026.\n\nOpen problems: roughly 40% of advanced patients never respond to immunotherapy, and second-line options after PD-1 failure remain limited; LAG-3 blockade failed as adjuvant therapy and with a different PD-1 partner; adjuvant treatment of stage II over-treats most patients; uveal, mucosal, and acral subtypes lag far behind; brain metastases affect up to half of advanced patients; and half the world's population lacks the HLA type required by the T-cell-receptor drugs.",
+    subtypes: ["Superficial spreading (most common cutaneous)", "Nodular", "Lentigo maligna (chronically sun-damaged skin)", "Acral lentiginous (palms, soles, nails; KIT/NRAS; not UV-driven)", "Mucosal (KIT, low TMB, poor IO response)", "Uveal (GNAQ/GNA11, BAP1; HLA-A*02 tebentafusp)", "Desmoplastic (very high TMB, IO-sensitive)", "BRAF V600-mutant (~50%)", "NRAS-mutant (~25%)", "Triple wild-type"],
+    biomarkers: ["Breslow thickness and ulceration (staging)", "Sentinel node status", "BRAF V600E/K (targeted therapy eligibility)", "NRAS, KIT (subtype and trial eligibility)", "HLA-A*02:01 (tebentafusp, brenetafusp)", "PRAME (diagnostic IHC; TCR target)", "LDH (prognostic in stage IV)", "ctDNA (investigational for MRD and response)", "TMB and interferon signatures (research predictors of IO response)"],
+    standardOfCare: [
+      { setting: "Screening and diagnosis", approach: "Dermoscopy, total-body photography for high-risk patients, excisional biopsy with Breslow thickness and ulceration reported; AI decision support emerging.", refs: ["dermoscopy-ai", "breslow-thickness", "ulceration-melanoma"] },
+      { setting: "Stage I-II primary", approach: "Wide local excision with margins by thickness (1-2 cm); sentinel lymph node biopsy from ~0.8 mm Breslow or with ulceration; nodal ultrasound surveillance rather than completion dissection if positive (MSLT-II).", refs: ["sentinel-node", "mslt-ii", "ultrasound"], guideline: { nccn: "Category 1 for SLNB thresholds", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1492" } },
+      { setting: "Stage IIB-IIC (thick or ulcerated, node-negative)", approach: "Adjuvant pembrolizumab or nivolumab for one year (KEYNOTE-716, CheckMate 76K); discuss modest absolute benefit and irAE risk; ctDNA-guided trials.", refs: ["keynote-716", "pembrolizumab", "nivolumab"], guideline: { nccn: "2A", esmoMcbs: "A", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1492" } },
+      { setting: "Resectable stage III (macroscopic nodes)", approach: "Neoadjuvant ipilimumab + nivolumab (two cycles) then surgery with response-adapted adjuvant therapy (NADINA), or neoadjuvant pembrolizumab (SWOG S1801); alternative adjuvant-only PD-1 or, if BRAF-mutant, dabrafenib-trametinib.", refs: ["nadina", "swog-s1801", "combi-ad", "major-pathological-response"], guideline: { nccn: "Preferred (neoadjuvant IO)", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1492" } },
+      { setting: "Stage III after surgery (adjuvant)", approach: "Nivolumab or pembrolizumab for one year; dabrafenib-trametinib for BRAF V600 (COMBI-AD, 10-year RFS 48%); relatlimab adds nothing (RELATIVITY-098).", refs: ["combi-ad", "dabrafenib-trametinib", "relativity-098"], guideline: { nccn: "1", esmoMcbs: "A" } },
+      { setting: "Unresectable or metastatic, first line", approach: "Nivolumab + ipilimumab (highest long-term survival; ~59% grade 3-4 events) or nivolumab + relatlimab (Opdualag; ~21%) or anti-PD-1 alone; for BRAF-mutant disease, immunotherapy first (DREAMseq) unless rapid control is needed.", refs: ["checkmate-067", "relativity-047", "keynote-006", "dreamseq", "io-first-then-braf-mek"], guideline: { nccn: "1 (preferred)", esmoMcbs: "4-5" } },
+      { setting: "BRAF V600-mutant, after immunotherapy or needing rapid response", approach: "BRAF + MEK doublet: encorafenib-binimetinib, dabrafenib-trametinib, or vemurafenib-cobimetinib; triplet with atezolizumab is approved but little used.", refs: ["columbus", "encorafenib", "binimetinib", "vemurafenib", "cobimetinib", "braf-plus-mek"], guideline: { nccn: "1" } },
+      { setting: "After anti-PD-1 failure", approach: "Lifileucel TIL therapy (accelerated approval 2024), RP1 oncolytic virus + nivolumab (2026), ipilimumab-based rechallenge, brenetafusp trials; clinical trials strongly encouraged.", refs: ["lifileucel", "c-144-01", "vusolimogene-oderparepvec", "prism-mel-301", "brenetafusp"], guideline: { nccn: "2A" } },
+      { setting: "Metastatic uveal melanoma (HLA-A*02:01-positive)", approach: "Tebentafusp (OS benefit, IMCgp100-202); liver-directed therapy for hepatic-dominant disease; ipilimumab-nivolumab has modest activity.", refs: ["tebentafusp", "imcgp100-202", "hla-a02-restriction"], guideline: { nccn: "1" } },
+      { setting: "Brain metastases", approach: "Nivolumab + ipilimumab for asymptomatic disease (~50% intracranial response, CheckMate 204); stereotactic radiosurgery; BRAF/MEK for symptomatic BRAF-mutant disease.", refs: ["nivolumab", "ipilimumab", "sbrt"] },
+    ],
+    stateOfArt: [
+      "About half of patients with advanced melanoma treated with nivolumab-ipilimumab are alive at ten years, and a third of those on pembrolizumab; durable remissions persist off treatment.",
+      "Neoadjuvant immunotherapy with response-adapted follow-on treatment (NADINA, SWOG S1801) is the new standard for resectable stage III disease and lets most patients skip a year of adjuvant therapy.",
+      "Sequencing is settled for BRAF-mutant disease: immunotherapy first, targeted therapy in reserve.",
+      "Post-PD-1 options now exist: TIL therapy, an oncolytic virus with nivolumab, and PRAME-directed T-cell engagers in phase 3.",
+      "The first personalised mRNA vaccine to pass a phase 3 (intismeran, August 2026) did so in melanoma.",
+      "Completion lymph node dissection has been abandoned after MSLT-II, sparing most stage III patients lymphoedema.",
+    ],
+    history: [
+      { year: 1992, title: "High-dose interleukin-2 produces rare durable cures", note: "The first evidence that the immune system alone could eradicate metastatic melanoma.", refs: ["cytokine-therapy"] },
+      { year: 2002, title: "BRAF V600E mutations discovered in ~50% of melanomas", note: "Davies et al., Nature.", refs: ["braf"] },
+      { year: 2010, title: "Ipilimumab is the first drug to extend survival in metastatic melanoma", note: "Hodi et al., NEJM.", refs: ["ipilimumab"] },
+      { year: 2011, title: "Ipilimumab and vemurafenib approved", note: "Immunotherapy and targeted therapy arrive in the same year.", refs: ["vemurafenib", "ipilimumab"] },
+      { year: 2014, title: "Pembrolizumab and nivolumab approved; first BRAF/MEK combination (dabrafenib-trametinib)", refs: ["pembrolizumab", "nivolumab", "dabrafenib-trametinib"] },
+      { year: 2015, title: "CheckMate 067 combination and KEYNOTE-006; T-VEC first oncolytic virus; cobimetinib", refs: ["checkmate-067", "keynote-006", "talimogene-laherparepvec", "cobimetinib"] },
+      { year: 2017, title: "COMBI-AD and CheckMate 238 establish adjuvant therapy for stage III; MSLT-II ends completion dissection", refs: ["combi-ad", "mslt-ii"] },
+      { year: 2018, title: "Encorafenib + binimetinib approved (COLUMBUS); Nobel Prize to Allison and Honjo", refs: ["columbus", "encorafenib", "binimetinib"] },
+      { year: 2021, title: "DREAMseq sets sequencing; KEYNOTE-716 extends adjuvant IO to stage II; tebentafusp phase 3 positive", refs: ["dreamseq", "keynote-716", "imcgp100-202"] },
+      { year: 2022, title: "Nivolumab-relatlimab (Opdualag) approved; tebentafusp approved; SWOG S1801 shows neoadjuvant benefit", refs: ["relativity-047", "relatlimab-nivolumab", "tebentafusp", "swog-s1801"] },
+      { year: 2024, title: "NADINA neoadjuvant phase 3; lifileucel first TIL therapy; KEYNOTE-006 ten-year data; COMBI-AD ten-year data", refs: ["nadina", "lifileucel", "c-144-01", "keynote-006", "combi-ad"] },
+      { year: 2025, title: "RELATIVITY-098 adjuvant LAG-3 negative; CheckMate 067 ten-year survival ~50%", refs: ["relativity-098", "checkmate-067"] },
+      { year: 2026, title: "Intismeran autogene phase 3 positive; RP1 approved with nivolumab; fianlimab-cemiplimab phase 3 misses; brenetafusp phase 3 enrolling", refs: ["interpath-001", "intismeran-autogene", "vusolimogene-oderparepvec", "fianlimab-phase3-melanoma", "prism-mel-301"] },
+    ],
+    pipeline: ["intismeran-autogene", "interpath-001", "brenetafusp", "prism-mel-301", "prame", "lifileucel", "vusolimogene-oderparepvec", "fianlimab", "idea-ctdna-guided-adjuvant-melanoma", "idea-prame-tcr-beyond-a02", "mrd-testing", "dermoscopy-ai", "neoadjuvant-io-response-adapted", "immuno-pet", "tcr-t"],
+    openProblems: [
+      "Primary resistance: about 40% of advanced patients never respond to PD-1-based therapy, and predictive biomarkers (PD-L1, TMB, interferon signatures) remain too weak to guide choices.",
+      "After PD-1 failure, response rates for approved options are ~30% at best; most patients still die of melanoma.",
+      "LAG-3 blockade is not a class effect: it failed as adjuvant therapy and with cemiplimab, so the biology of when it helps is unresolved.",
+      "Adjuvant therapy in stage IIB/IIC treats many to benefit few; ctDNA-guided selection is unproven.",
+      "Uveal, mucosal, and acral melanomas respond poorly to checkpoint inhibitors and have few targeted options.",
+      "Brain metastases occur in up to half of advanced patients; leptomeningeal disease is untreatable.",
+      "T-cell-receptor drugs require HLA-A*02:01, excluding most people of African and East Asian ancestry.",
+      "Long-term immune toxicity (endocrinopathies, arthritis) in cured patients is under-studied.",
+    ],
+    targets: ["prame", "lag3"],
+    technologies: ["dermoscopy-ai", "sentinel-node", "sbrt", "mrd-testing"],
+    terms: ["breslow-thickness", "ulceration-melanoma", "major-pathological-response", "hla-a02-restriction", "irae"],
+    trials: ["keynote-006", "relativity-047", "nadina", "swog-s1801", "keynote-716", "combi-ad", "columbus", "dreamseq", "c-144-01", "imcgp100-202", "mslt-ii", "prism-mel-301", "fianlimab-phase3-melanoma", "relativity-098"],
+    drugs: ["vemurafenib", "binimetinib", "cobimetinib", "brenetafusp", "fianlimab"],
+    companies: ["bms", "merck", "regeneron", "immunocore", "iovance", "replimune", "moderna", "roche-genentech", "pfizer", "novartis", "immatics"],
+    institutions: ["nki", "moffitt", "ucla-jonsson", "swog", "ecog-acrin"],
+    related: ["immunotherapy-roadmap", "io-first-then-braf-mek", "neoadjuvant-io-response-adapted", "lag3-adjuvant-caution", "io-then-til", "oncolytic-plus-pd1", "vaccine-plus-pd1"],
+    tags: ["spike", "skin"],
+  },
+};
+
+export default spike;

@@ -29,7 +29,10 @@ import neuroendocrine from "./neuroendocrine";
 import melanoma from "./melanoma";
 import headAndNeck from "./head-and-neck";
 import thyroid from "./thyroid";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid];
+import colorectal from "./colorectal";
+import gastric from "./gastric";
+import esophageal from "./esophageal";
+const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal];
 
 /** Spikes may overlap (two cancers adding the same drug). Duplicates are merged: first record's scalars win, array fields are appended and de-duplicated. */
 function mergeDuplicates(list: EntityInput[]): EntityInput[] {

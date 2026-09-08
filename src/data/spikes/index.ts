@@ -23,7 +23,10 @@ import pancreatic from "./pancreatic";
 import glioblastoma from "./glioblastoma";
 import breastHr from "./breast-hr-positive";
 import breastHer2 from "./breast-her2-positive";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2];
+import hcc from "./hcc";
+import cholangiocarcinoma from "./cholangiocarcinoma";
+import neuroendocrine from "./neuroendocrine";
+const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine];
 
 export const spikeEntities: EntityInput[] = spikes.flatMap((s) => s.entities.map((e) => (e.kind === "trial" && TRIAL_OUTCOMES[e.id] ? { ...e, ...TRIAL_OUTCOMES[e.id] } : e)));
 

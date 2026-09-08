@@ -38,6 +38,7 @@ export const NAV_GROUPS: NavGroup[] = [
   {
     id: "intel", label: "Intelligence", href: "/intel/", blurb: "What is happening and what is coming: dates, congress readouts, failures, resistance, and the supply chain behind the drugs.",
     items: [
+      { href: "/evidence/", label: "Evidence", blurb: "Every trial ranked by evidence strength, endpoints as people out of 100." },
       { href: "/calendar/", label: "Readout calendar", blurb: "Decisions, readouts, advisory committees, congresses." },
       { href: "/digests/", label: "Congress digests", blurb: "ASCO, ESMO, AACR, ASCO GU, sourced item by item." },
       { href: "/failures/", label: "Failure museum", blurb: "What did not work, and the lesson." },

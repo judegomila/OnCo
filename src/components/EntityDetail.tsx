@@ -24,6 +24,8 @@ import { Wireframe3D } from "./Wireframe3D";
 import { schematicFor } from "@/data/schematics";
 import { Tabs, type Tab } from "./Tabs";
 import { RoadmapStory } from "./RoadmapStory";
+import { TrialOutcomes } from "./Pictogram";
+import { EvidenceBar } from "./EvidenceBar";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 
@@ -87,6 +89,7 @@ export function EntityDetail({ e }: { e: Entity }) {
           </div>
 
           <aside className="space-y-4 lg:sticky lg:top-28 self-start">
+            {(e.kind === "drug" || e.kind === "technology" || e.kind === "target" || e.kind === "trial") && <EvidenceBar e={e} />}
             <ReviewBadge id={e.id} />
             <div className="card p-4 text-sm space-y-3">
               {e.wikipedia && <div><div className="kicker mb-1">Wikipedia</div><a className="underline break-all" href={e.wikipedia} rel="noopener">{decodeURIComponent(e.wikipedia.replace("https://en.wikipedia.org/wiki/", "")).replace(/_/g, " ")}</a></div>}
@@ -225,7 +228,10 @@ function kindTabs(e: Entity): Tab[] {
           <Field label="Registry">{e.nct && <a className="underline" href={`https://clinicaltrials.gov/study/${e.nct}`} rel="noopener">{e.nct}</a>}</Field>
           <Field label="Headline result">{e.result}</Field>
           <Field label="Reported">{e.yearReported}</Field>
+          <Field label="Enrolled">{e.enrolled}</Field>
+          <Field label="Replication">{e.replication}</Field>
         </div>),
+        ...(e.outcomes.length ? [{ id: "outcomes", label: "Outcomes", count: e.outcomes.length, content: <TrialOutcomes t={e} /> }] : []),
       ];
     case "pairing": {
       const a = g.get(e.a), b = g.get(e.b);

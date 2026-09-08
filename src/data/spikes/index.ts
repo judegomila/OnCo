@@ -11,6 +11,7 @@
  * de-duplicated (history is sorted by year after merge).
  */
 import type { CancerInput, EntityInput } from "@/lib/schema";
+import { TRIAL_OUTCOMES } from "../trial-outcomes";
 
 export type CancerPatch = Partial<Omit<CancerInput, "id" | "kind">>;
 export type Spike = { cancerId: string; entities: EntityInput[]; patch: CancerPatch };
@@ -22,7 +23,7 @@ import pancreatic from "./pancreatic";
 import glioblastoma from "./glioblastoma";
 const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma];
 
-export const spikeEntities: EntityInput[] = spikes.flatMap((s) => s.entities);
+export const spikeEntities: EntityInput[] = spikes.flatMap((s) => s.entities.map((e) => (e.kind === "trial" && TRIAL_OUTCOMES[e.id] ? { ...e, ...TRIAL_OUTCOMES[e.id] } : e)));
 
 const ARRAY_FIELDS = ["aka", "links", "tags", "related", "cancers", "sections", "technologies", "targets", "drugs", "companies", "institutions", "pathways", "terms", "trials", "notes", "subtypes", "biomarkers", "standardOfCare", "stateOfArt", "history", "pipeline", "openProblems"] as const;
 

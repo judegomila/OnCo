@@ -28,6 +28,8 @@ import { TrialOutcomes } from "./Pictogram";
 import { EvidenceBar } from "./EvidenceBar";
 import { GuidelineChip } from "./GuidelineChip";
 import { PrevalenceTable, CancerPrevalence } from "./PrevalenceTable";
+import { SuggestEdit } from "./SuggestEdit";
+import { sourceLocation } from "@/lib/source-location";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 
@@ -110,6 +112,7 @@ export function EntityDetail({ e }: { e: Entity }) {
               </div>
               <EmbedSnippet id={e.id} name={e.name} />
             </div>
+            <SuggestEdit id={e.id} kind={e.kind} name={e.name} fields={Object.keys(e)} source={sourceLocation(e.id, e.kind)} />
             <QuickLinks e={e} />
           </aside>
         </div>

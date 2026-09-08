@@ -1,3 +1,4 @@
+import { NavIcon } from "./NavIcon";
 import Link from "next/link";
 import { NAV_GROUPS } from "@/lib/nav";
 import { Container, PageHeader } from "./ui";
@@ -7,7 +8,7 @@ export function GroupLanding({ groupId, children }: { groupId: string; children?
   const g = NAV_GROUPS.find((x) => x.id === groupId)!;
   return (
     <>
-      <PageHeader kicker={<span className="kicker">{g.label}</span>} title={g.label} lede={g.blurb} />
+      <PageHeader kicker={<span className="kicker inline-flex items-center gap-1.5"><NavIcon id={g.id} className="h-4 w-4" />{g.label}</span>} title={g.label} lede={g.blurb} />
       <Container className="pb-16">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {g.items.map((it, i) => {

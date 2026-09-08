@@ -11,6 +11,7 @@ import structureIndex from "../../../public/structures/index.json";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { BottleneckMap } from "@/components/BottleneckMap";
 import { CancerIcon } from "@/components/CancerIcon";
+import { FrontIcon } from "@/components/FrontIcon";
 import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
 
@@ -264,7 +265,7 @@ function FrontsGrid() {
       {items.map((s) => (
         <Link key={s.id} href={routeFor(s)} className="card overflow-hidden hover:shadow-md transition">
           <FrontSchematic sectionId={s.id} compact height="h-28" />
-          <div className="px-3 py-2 text-sm font-medium leading-snug">{s.name}</div>
+          <div className="px-3 py-2 text-sm font-medium leading-snug flex items-center gap-1.5"><FrontIcon id={s.id} className="h-4 w-4 text-accent shrink-0" />{s.name}</div>
         </Link>
       ))}
     </div>

@@ -54,6 +54,7 @@ import { RegionStrip } from "./RegionMatrix";
 import { regionalApprovals } from "@/data/regional-approvals";
 import { CountryCasesMini } from "./CountryCasesMini";
 import { CancerIcon } from "./CancerIcon";
+import { FrontIcon } from "./FrontIcon";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
@@ -108,7 +109,7 @@ export function EntityDetail({ e }: { e: Entity }) {
         kicker={<><Link href={`/${meta.route}/`} className="kicker hover:underline">{meta.plural}</Link><KindChip kind={e.kind} /><StatusChip status={e.status} /></>}
         title={e.name}
         ledeNode={<TldrText id={e.id} tldr={e.tldr} simple={e.simple} />}
-        logo={e.kind === "cancer" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><CancerIcon cancerId={e.id} className="h-10 w-10" /></span> : "website" in e ? <Logo id={e.id} website={e.website} name={e.name} size={64} /> : "url" in e && e.kind === "collection" ? <Logo id={e.id} website={e.url} name={e.name} size={64} /> : undefined}
+        logo={e.kind === "cancer" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><CancerIcon cancerId={e.id} className="h-10 w-10" /></span> : e.kind === "section" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><FrontIcon id={e.id} className="h-9 w-9" /></span> : "website" in e ? <Logo id={e.id} website={e.website} name={e.name} size={64} /> : "url" in e && e.kind === "collection" ? <Logo id={e.id} website={e.url} name={e.name} size={64} /> : undefined}
         right={e.aka.length > 0 ? <div className="text-xs text-muted text-right max-w-xs">aka {e.aka.join(", ")}</div> : undefined}
       />
       <Container className="pb-16">

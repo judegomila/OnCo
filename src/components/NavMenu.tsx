@@ -1,5 +1,6 @@
 "use client";
 
+import { NavIcon } from "./NavIcon";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -39,14 +40,14 @@ export function NavMenu() {
             <div key={g.id} className="relative" onMouseEnter={() => setOpen(g.id)} onMouseLeave={() => setOpen((o) => (o === g.id ? null : o))}>
               <button type="button" aria-haspopup="menu" aria-expanded={on} aria-current={active ? "page" : undefined} onClick={() => setOpen(on ? null : g.id)}
                 className={`relative inline-flex h-10 items-center gap-1 rounded-lg px-2.5 whitespace-nowrap transition-colors hover:bg-surface hover:text-foreground ${on ? "bg-surface" : ""} ${active ? "text-foreground font-medium after:absolute after:left-2.5 after:right-2.5 after:-bottom-2 after:h-0.5 after:rounded-full after:bg-accent" : "text-foreground/75"}`}>
-                {g.label}
+                <NavIcon id={g.id} className="h-4 w-4 text-muted" />{g.label}
                 <svg aria-hidden viewBox="0 0 12 12" width="10" height="10" className={`text-muted transition-transform ${on ? "rotate-180" : ""}`}><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </button>
               {on && (
                 <div role="menu" className="absolute left-0 top-full pt-1.5 z-50">
                   <div className="card shadow-pop w-[400px] p-2">
                     <Link href={g.href} role="menuitem" className="block rounded-lg px-3 py-2.5 hover:bg-surface">
-                      <div className="font-semibold leading-snug">{g.label}</div>
+                      <div className="font-semibold leading-snug flex items-center gap-2"><NavIcon id={g.id} className="h-4 w-4 text-accent" />{g.label}</div>
                       <div className="text-xs text-muted mt-0.5 leading-relaxed">{g.blurb}</div>
                     </Link>
                     <div className="my-1.5 border-t border-border" />
@@ -85,7 +86,7 @@ export function NavMenu() {
             <div className="px-4 py-4 space-y-6">
               {NAV_GROUPS.map((g) => (
                 <div key={g.id}>
-                  <Link href={g.href} className={`kicker inline-flex items-center gap-1.5 hover:text-foreground ${activeGroup?.id === g.id ? "text-accent" : ""}`}>{g.label}</Link>
+                  <Link href={g.href} className={`kicker inline-flex items-center gap-1.5 hover:text-foreground ${activeGroup?.id === g.id ? "text-accent" : ""}`}><NavIcon id={g.id} className="h-4 w-4" />{g.label}</Link>
                   <ul className="mt-2 -mx-2">
                     {g.items.map((it) => {
                       const here = !!path && path.startsWith(it.href) && !it.href.startsWith("http");

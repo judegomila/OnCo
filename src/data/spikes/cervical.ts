@@ -1,0 +1,301 @@
+import type { DrugInput, EntityInput, IdeaInput, PairingInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
+import type { Spike } from "./index";
+
+/**
+ * Cervical cancer spike. Facts checked 2026-09-07. Depends on the ovarian spike for
+ * bevacizumab and the endometrial spike for destiny-pantumor02.
+ */
+const asOf = "2026-09-07";
+const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
+const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
+
+type T = Omit<TrialInput, "kind" | "asOf">;
+const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
+type D = Omit<DrugInput, "kind" | "asOf">;
+const d = (x: D): DrugInput => ({ kind: "drug", asOf, ...x });
+type Tm = Omit<TermInput, "kind" | "asOf">;
+const tm = (x: Tm): TermInput => ({ kind: "term", asOf, ...x });
+type P = Omit<PairingInput, "kind" | "asOf">;
+const pr = (x: P): PairingInput => ({ kind: "pairing", asOf, ...x });
+type I = Omit<IdeaInput, "kind" | "asOf">;
+const idea = (x: I): IdeaInput => ({ kind: "idea", asOf, ...x });
+type Te = Omit<TechnologyInput, "kind" | "asOf">;
+const te = (x: Te): TechnologyInput => ({ kind: "technology", asOf, ...x });
+
+// ======================= TRIALS =======================
+const trials: TrialInput[] = [
+  t({ id: "keynote-a18", name: "KEYNOTE-A18 / ENGOT-cx11 / GOG-3047", nct: "NCT04221945", phase: "3", status: "positive", yearReported: 2023, sponsor: "Merck", enrolled: 1060,
+    setting: "Newly diagnosed high-risk locally advanced cervical cancer (FIGO 2014 IB2-IIB node-positive or III-IVA): pembrolizumab + cisplatin chemoradiation + brachytherapy, then pembrolizumab, vs chemoradiation",
+    tldr: "Adding immunotherapy to curative chemoradiation for locally advanced cervical cancer improved both control and survival, the first such advance in two decades.",
+    summary: "24-month PFS 68% vs 57% (HR 0.70; Lancet 2024). 36-month OS 82.6% vs 74.8% (HR 0.67; Lancet 2024 OS paper). FDA approval January 2024 for FIGO 2014 stage III-IVA disease; the first change to the cisplatin-radiation standard set in 1999.",
+    result: "PFS HR 0.70; 36-month OS 82.6% vs 74.8% (HR 0.67).",
+    outcomes: [
+      { endpoint: "Progression-free survival at 24 months", primary: true, unit: "%", arms: [{ name: "Pembrolizumab + CRT", n: 529, value: 68 }, { name: "Placebo + CRT", n: 531, value: 57 }], hr: 0.70, ci: [0.55, 0.89], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)00317-9/fulltext" },
+      { endpoint: "Overall survival at 36 months", primary: true, unit: "%", arms: [{ name: "Pembrolizumab + CRT", value: 82.6 }, { name: "Placebo + CRT", value: 74.8 }], hr: 0.67, ci: [0.50, 0.90], source: "https://pubmed.ncbi.nlm.nih.gov/39288779/" },
+    ],
+    replication: "CALLA (durvalumab + chemoradiation) was negative, so the benefit is not yet reproduced with another agent; differences in risk population and drug are debated.",
+    drugs: ["pembrolizumab"], targets: ["pd1"], technologies: ["imrt-igrt", "brachytherapy", "checkpoint-inhibitor"], cancers: ["cervical"], links: [ct("NCT04221945"), { label: "OS, Lancet 2024", url: "https://pubmed.ncbi.nlm.nih.gov/39288779/" }] }),
+  t({ id: "interlace", name: "INTERLACE", nct: "NCT01566240", phase: "3", status: "positive", yearReported: 2023, sponsor: "UCL Cancer Trials Centre / CRUK", enrolled: 500,
+    setting: "Locally advanced cervical cancer: 6 weeks of induction carboplatin-paclitaxel before chemoradiation vs chemoradiation alone",
+    tldr: "Six weeks of cheap, generic chemotherapy before standard chemoradiation cut deaths by 40%, an advance usable anywhere in the world.",
+    summary: "5-year PFS 72% vs 64% (HR 0.65) and 5-year OS 80% vs 72% (HR 0.60; Lancet 2024). Median follow-up 67 months across 32 centres in five countries including India and Mexico. Now an accepted option alongside KEYNOTE-A18, and the pragmatic choice where pembrolizumab is unaffordable.",
+    result: "5-year OS 80% vs 72% (HR 0.60); PFS HR 0.65.",
+    outcomes: [
+      { endpoint: "Progression-free survival at 5 years", primary: true, unit: "%", arms: [{ name: "Induction chemo + CRT", n: 250, value: 72 }, { name: "CRT alone", n: 250, value: 64 }], hr: 0.65, ci: [0.46, 0.91], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01438-7/fulltext" },
+      { endpoint: "Overall survival at 5 years", primary: true, unit: "%", arms: [{ name: "Induction chemo + CRT", value: 80 }, { name: "CRT alone", value: 72 }], hr: 0.60, ci: [0.40, 0.91], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01438-7/fulltext" },
+    ],
+    replication: "Earlier neoadjuvant chemotherapy trials before surgery (EORTC 55994) were negative; INTERLACE's short weekly induction before radiation is a distinct strategy not yet reproduced.",
+    drugs: ["carboplatin", "paclitaxel", "cisplatin"], technologies: ["imrt-igrt", "brachytherapy", "cytotoxic-chemotherapy"], cancers: ["cervical"], institutions: ["cruk"], links: [ct("NCT01566240"), { label: "Lancet 2024", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01438-7/fulltext" }] }),
+  t({ id: "keynote-826", name: "KEYNOTE-826", nct: "NCT03635567", phase: "3", status: "positive", yearReported: 2021, sponsor: "Merck", enrolled: 617,
+    setting: "Persistent, recurrent, or metastatic cervical cancer, first line: pembrolizumab + platinum-paclitaxel ± bevacizumab vs placebo + chemotherapy ± bevacizumab",
+    tldr: "Added nearly ten months of life for women with advanced cervical cancer and made immunotherapy part of first-line treatment.",
+    summary: "Final analysis: OS 26.4 vs 16.8 months in all comers (HR 0.63) and 28.6 vs 16.5 months in PD-L1 CPS ≥1 (HR 0.60; JCO 2023). FDA approval October 2021 for CPS ≥1 disease. Bevacizumab was given to ~63% of patients at investigator discretion.",
+    result: "OS 26.4 vs 16.8 months (HR 0.63), all comers.",
+    outcomes: [
+      { endpoint: "Overall survival (all comers)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + chemo ± bev", n: 308, value: 26.4 }, { name: "Placebo + chemo ± bev", n: 309, value: 16.8 }], hr: 0.63, ci: [0.52, 0.77], source: "https://ascopubs.org/doi/10.1200/JCO.23.00810" },
+      { endpoint: "Overall survival (CPS ≥1)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + chemo ± bev", value: 28.6 }, { name: "Placebo + chemo ± bev", value: 16.5 }], hr: 0.60, ci: [0.49, 0.74], source: "https://ascopubs.org/doi/10.1200/JCO.23.00810" },
+    ],
+    replication: "BEATcc (atezolizumab + chemotherapy + bevacizumab) and COMPASSION-16 (cadonilimab) reproduced the first-line survival benefit with different antibodies.",
+    drugs: ["pembrolizumab", "bevacizumab", "cisplatin", "paclitaxel"], targets: ["pd1"], cancers: ["cervical"], terms: ["cps"], links: [ct("NCT03635567"), { label: "Final OS, JCO 2023", url: "https://ascopubs.org/doi/10.1200/JCO.23.00810" }] }),
+  t({ id: "beatcc", name: "BEATcc / ENGOT-Cx10 / GOG-3030", nct: "NCT03556839", phase: "3", status: "positive", yearReported: 2023, sponsor: "GEICO / Roche", enrolled: 410,
+    setting: "Metastatic, persistent, or recurrent cervical cancer, first line: atezolizumab + cisplatin/carboplatin-paclitaxel + bevacizumab vs the same without atezolizumab",
+    tldr: "A second immunotherapy confirmed that adding a checkpoint inhibitor to chemotherapy plus bevacizumab extends life in advanced cervical cancer.",
+    summary: "PFS 13.7 vs 10.4 months (HR 0.62) and OS 32.1 vs 22.8 months (HR 0.68; Lancet 2024), the longest median survival reported in this setting, with benefit irrespective of PD-L1. Regulatory approval status differs by region; check the current label.",
+    result: "OS 32.1 vs 22.8 months (HR 0.68).",
+    outcomes: [
+      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Atezolizumab + chemo + bev", n: 206, value: 13.7 }, { name: "Chemo + bev", n: 204, value: 10.4 }], hr: 0.62, ci: [0.49, 0.78], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)02517-3/fulltext" },
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Atezolizumab + chemo + bev", value: 32.1 }, { name: "Chemo + bev", value: 22.8 }], hr: 0.68, ci: [0.52, 0.88], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)02517-3/fulltext" },
+    ],
+    drugs: ["atezolizumab", "bevacizumab", "cisplatin", "paclitaxel"], targets: ["pdl1", "vegf"], cancers: ["cervical"], links: [ct("NCT03556839"), { label: "Lancet 2024", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)02517-3/fulltext" }] }),
+  t({ id: "compassion-16", name: "COMPASSION-16 / AK104-303", nct: "NCT04982237", phase: "3", status: "positive", yearReported: 2024, sponsor: "Akeso", enrolled: 445,
+    setting: "Persistent, recurrent, or metastatic cervical cancer, first line (China): cadonilimab (PD-1×CTLA-4 bispecific) + platinum-paclitaxel ± bevacizumab vs placebo + chemotherapy ± bevacizumab",
+    tldr: "A two-headed antibody that blocks two immune brakes at once extended survival in advanced cervical cancer regardless of PD-L1 status.",
+    summary: "PFS HR 0.62 and OS HR 0.64 (Lancet 2024), with benefit in both PD-L1-positive and PD-L1-negative subgroups. NMPA approved the first-line combination in 2024 (second-line monotherapy since 2022). Not approved outside China as of 2026.",
+    result: "OS HR 0.64; PFS HR 0.62.",
+    outcomes: [
+      { endpoint: "Progression-free survival", primary: true, unit: "HR", arms: [{ name: "Cadonilimab + chemo ± bev", n: 222 }, { name: "Placebo + chemo ± bev", n: 223 }], hr: 0.62, ci: [0.49, 0.80], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02135-4/abstract" },
+      { endpoint: "Overall survival", primary: true, unit: "HR", arms: [{ name: "Cadonilimab + chemo ± bev" }, { name: "Placebo + chemo ± bev" }], hr: 0.64, ci: [0.48, 0.86], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02135-4/abstract" },
+    ],
+    drugs: ["cadonilimab", "bevacizumab", "cisplatin", "paclitaxel"], targets: ["pd1", "ctla4"], cancers: ["cervical"], companies: ["akeso"], technologies: ["bispecific-antibody"], links: [ct("NCT04982237"), { label: "Lancet 2024", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02135-4/abstract" }] }),
+  t({ id: "innovatv-301", name: "innovaTV 301 / ENGOT-cx12 / GOG-3057", nct: "NCT04697628", phase: "3", status: "positive", yearReported: 2023, sponsor: "Genmab / Pfizer (Seagen)", enrolled: 502,
+    setting: "Recurrent or metastatic cervical cancer after 1-2 prior lines including platinum: tisotumab vedotin vs investigator's-choice chemotherapy",
+    tldr: "The first ADC to extend life in cervical cancer, for women whose disease has come back after chemotherapy.",
+    summary: "OS 11.5 vs 9.5 months (HR 0.70) and PFS 4.2 vs 2.9 months (HR 0.67; NEJM 2024); ORR 17.8% vs 5.2%. Full FDA approval April 2024. Ocular events (~50%, mostly conjunctivitis), neuropathy, and bleeding require mitigation.",
+    result: "OS 11.5 vs 9.5 months (HR 0.70).",
+    outcomes: [
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Tisotumab vedotin", n: 253, value: 11.5 }, { name: "Chemotherapy", n: 249, value: 9.5 }], hr: 0.70, ci: [0.54, 0.89], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2313811" },
+      { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Tisotumab vedotin", value: 4.2 }, { name: "Chemotherapy", value: 2.9 }], hr: 0.67, ci: [0.54, 0.82], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2313811" },
+    ],
+    drugs: ["tisotumab-vedotin"], targets: ["tissue-factor"], technologies: ["adc"], cancers: ["cervical"], links: [ct("NCT04697628"), { label: "NEJM 2024", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2313811" }] }),
+  t({ id: "empower-cervical-1", name: "EMPOWER-Cervical 1 / GOG-3016 / ENGOT-cx9", nct: "NCT03257267", phase: "3", status: "positive", yearReported: 2021, sponsor: "Regeneron / Sanofi", enrolled: 608,
+    setting: "Recurrent cervical cancer after first-line platinum: cemiplimab vs single-agent chemotherapy",
+    tldr: "The first immunotherapy to extend life in recurrent cervical cancer, approved in Europe but declined by the FDA.",
+    summary: "OS 12.0 vs 8.5 months (HR 0.69; NEJM 2022), regardless of PD-L1 or histology. EU approval 2022; the FDA issued a complete response letter in January 2022 over inspection issues, and the application was not resubmitted. Largely superseded by first-line chemo-immunotherapy.",
+    result: "OS 12.0 vs 8.5 months (HR 0.69).",
+    outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Cemiplimab", n: 304, value: 12.0 }, { name: "Chemotherapy", n: 304, value: 8.5 }], hr: 0.69, ci: [0.56, 0.84], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2112187" }],
+    drugs: ["cemiplimab"], targets: ["pd1"], cancers: ["cervical"], companies: ["regeneron", "sanofi"], links: [ct("NCT03257267"), { label: "NEJM 2022", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2112187" }] }),
+  t({ id: "outback", name: "OUTBACK / ANZGOG 0902 / GOG-0274", nct: "NCT01414608", phase: "3", status: "negative", yearReported: 2021, sponsor: "ANZGOG / NRG Oncology", enrolled: 919,
+    setting: "Locally advanced cervical cancer: chemoradiation followed by 4 cycles adjuvant carboplatin-paclitaxel vs chemoradiation alone",
+    tldr: "Giving extra chemotherapy after chemoradiation added side effects and no survival benefit, so timing matters: chemotherapy helps before radiation (INTERLACE), not after.",
+    summary: "5-year OS 72% vs 71% (HR 0.91, not significant), 5-year PFS 63% vs 61% (Lancet Oncology 2023); 22% of the adjuvant arm did not receive the planned chemotherapy and grade 3-5 toxicity rose from 62% to 81%.",
+    result: "5-year OS 72% vs 71%; no benefit.",
+    outcomes: [{ endpoint: "Overall survival at 5 years", primary: true, unit: "%", arms: [{ name: "CRT + adjuvant chemo", n: 463, value: 72 }, { name: "CRT alone", n: 456, value: 71 }], hr: 0.91, ci: [0.70, 1.18], source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00147-X/fulltext" }],
+    drugs: ["carboplatin", "paclitaxel"], technologies: ["imrt-igrt"], cancers: ["cervical"], institutions: ["nrg-oncology"], tags: ["failure", "lesson:timing"], links: [ct("NCT01414608"), { label: "Lancet Oncology 2023", url: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00147-X/fulltext" }] }),
+  t({ id: "lacc", name: "LACC (Laparoscopic Approach to Cervical Cancer)", nct: "NCT00614211", phase: "3", status: "negative", yearReported: 2018, sponsor: "MD Anderson", enrolled: 631,
+    setting: "Early-stage cervical cancer (IA1 with LVSI to IB1): minimally invasive vs open radical hysterectomy",
+    tldr: "Keyhole surgery, assumed equivalent, turned out to be worse: more recurrences and more deaths than open surgery, reversing practice overnight.",
+    summary: "4.5-year disease-free survival 86.0% vs 96.5% and OS HR for death 6.00 with minimally invasive surgery (NEJM 2018); the final analysis (2024) confirmed inferiority. Guidelines now recommend open radical hysterectomy; tumour spillage from uterine manipulators and CO2 is the leading hypothesis. Trials of protective manoeuvres (RACC, ROCC) are ongoing.",
+    result: "4.5-year DFS 86.0% vs 96.5%; death HR 6.00 with MIS.",
+    outcomes: [{ endpoint: "Disease-free survival at 4.5 years", primary: true, unit: "%", arms: [{ name: "Minimally invasive", n: 319, value: 86.0 }, { name: "Open surgery", n: 312, value: 96.5 }], hr: 3.74, ci: [1.63, 8.58], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1806395" }],
+    replication: "Confirmed by the SEER/NCDB cohort (Melamed, NEJM 2018) and the SUCCOR European cohort.",
+    technologies: ["robotic-surgery"], cancers: ["cervical"], institutions: ["md-anderson"], tags: ["failure", "lesson:surgical-technique"], links: [ct("NCT00614211"), { label: "NEJM 2018", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1806395" }] }),
+  t({ id: "ken-she", name: "KEN SHE (single-dose HPV vaccine)", nct: "NCT03675256", phase: "3", status: "positive", yearReported: 2022, sponsor: "University of Washington / Bill & Melinda Gates Foundation", enrolled: 2275,
+    setting: "Kenyan women aged 15-20: single dose of bivalent or nonavalent HPV vaccine vs meningococcal control, endpoint persistent HPV16/18 infection",
+    tldr: "One shot of HPV vaccine was 97.5% effective against the two most dangerous HPV types, making it realistic to vaccinate the whole world.",
+    summary: "Vaccine efficacy 97.5% against persistent HPV16/18 infection at 18 months (NEJM Evidence 2022), sustained at 36 months. Together with the IARC India cohort and Costa Rica trial data, it underpinned the WHO 2022 recommendation for one- or two-dose schedules, adopted by more than 60 countries by 2025 and roughly doubling the number of girls a fixed vaccine supply can protect.",
+    result: "Single-dose efficacy 97.5% against persistent HPV16/18.",
+    outcomes: [{ endpoint: "Vaccine efficacy against persistent HPV16/18 infection", primary: true, unit: "%", arms: [{ name: "Single dose nonavalent HPV", value: 97.5 }], source: "https://www.cdc.gov/acip/downloads/slides-2025-04-15-16/03-Barnabas-HPV-508.pdf" }],
+    replication: "IARC India cohort (Basu 2021) and Costa Rica ESCUDDO/CVT data show similar single-dose protection.",
+    drugs: ["gardasil-9"], technologies: ["hpv-vaccine"], cancers: ["cervical", "head-and-neck"], links: [ct("NCT03675256"), { label: "Single-dose evidence, Lancet Global Health 2024", url: "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(24)00009-3/fulltext" }] }),
+  t({ id: "senticol-iii", name: "SENTICOL III", nct: "NCT03386734", phase: "3", status: "recruiting", sponsor: "ARCAGY-GINECO / ENGOT",
+    setting: "Early-stage cervical cancer: sentinel lymph node biopsy alone vs sentinel node plus full pelvic lymphadenectomy",
+    tldr: "Tests whether removing only the first draining lymph nodes is safe enough to spare women the lymphoedema of full node removal.",
+    summary: "Non-inferiority trial (~950 patients) with disease-free survival and quality of life endpoints, following the SENTICOL I/II accuracy studies and the SENTIX single-arm trial. Readout expected 2027-28.",
+    technologies: ["sentinel-node"], cancers: ["cervical"], links: [ct("NCT03386734")] }),
+];
+
+// ======================= DRUGS =======================
+const drugs: DrugInput[] = [
+  d({ id: "cisplatin", name: "Cisplatin", brand: "Platinol (generic)", modality: "Cytotoxic chemotherapy (platinum)", status: "approved", wikipedia: W("Cisplatin"),
+    tldr: "The original platinum chemotherapy, discovered by accident in 1965, which cures testicular cancer and makes radiation work better in cervical and head and neck cancer.",
+    summary: "Approved 1978. Weekly cisplatin with radiation has been the backbone of curative cervical cancer treatment since five 1999 trials (the NCI alert), and remains so within KEYNOTE-A18 and INTERLACE. Nephrotoxicity, ototoxicity, neuropathy, and emesis limit it; carboplatin substitutes when kidneys or hearing are at risk.",
+    mechanism: "Forms intrastrand DNA crosslinks (1,2-GpG) that block replication and transcription; radiosensitises by inhibiting repair of radiation-induced damage.",
+    mechanismSteps: ["Enters the cell and loses chloride ligands to become reactive", "Binds adjacent guanines, kinking DNA", "Repair fails in dividing or irradiated cells", "Apoptosis follows; radiation damage is fixed rather than repaired"],
+    dosing: { route: "Intravenous", schedule: "40 mg/m² weekly × 5-6 with radiation (cervical); 75-100 mg/m² every 3 weeks (other tumours)", modifications: "Hold for creatinine clearance <50 mL/min, grade ≥2 neuropathy or hearing loss", monitoring: "Creatinine, magnesium, audiometry, hydration protocol" },
+    toxicity: [{ event: "Nausea and vomiting", anyGradePct: 90, note: "Without modern antiemetics; ~30% with NK1/5-HT3 prophylaxis" }, { event: "Nephrotoxicity (any grade)", anyGradePct: 30 }, { event: "Ototoxicity", anyGradePct: 40, note: "Dose-dependent, higher in children" }],
+    approvals: [{ region: "US", year: 1978, indication: "Testicular and ovarian cancer; bladder cancer 1993" }],
+    technologies: ["platinum", "cytotoxic-chemotherapy"], cancers: ["cervical", "head-and-neck", "urothelial", "nsclc", "ovarian"], trials: ["keynote-a18", "interlace"] }),
+  d({ id: "cadonilimab", name: "Cadonilimab", brand: "Kaitanni", code: "AK104", modality: "Bispecific antibody (PD-1×CTLA-4)", status: "approved",
+    tldr: "A Chinese two-armed antibody that blocks PD-1 and CTLA-4 together, approved in China for cervical cancer and extending survival even in PD-L1-negative tumours.",
+    summary: "Akeso's tetravalent bispecific. NMPA approval June 2022 (second-line cervical cancer, ORR ~33%) and 2024 for first-line combination with chemotherapy ± bevacizumab (COMPASSION-16, OS HR 0.64). Also approved in China for first-line gastric cancer (COMPASSION-15, 2024). Designed for tumour-enriched dual blockade with lower immune toxicity than ipilimumab + nivolumab. Not approved in the US or EU as of 2026.",
+    mechanism: "Binds PD-1 and CTLA-4 simultaneously; higher avidity for cells co-expressing both (tumour-infiltrating T cells) concentrates activity in the tumour.",
+    mechanismSteps: ["Two arms bind PD-1 and CTLA-4 on the same exhausted T cell", "Avidity concentrates the drug where both receptors are present", "Both brakes are released at once", "T cells kill tumour cells even when PD-L1 is low"],
+    dosing: { route: "Intravenous", schedule: "10 mg/kg every 3 weeks with platinum-paclitaxel ± bevacizumab", monitoring: "Thyroid, liver, glucose, skin; immune-related adverse events" },
+    toxicity: [{ event: "Grade ≥3 treatment-related adverse events", grade3PlusPct: 82, note: "COMPASSION-16 cadonilimab arm (mostly chemotherapy-related haematologic)" }, { event: "Immune-related adverse events, any grade", anyGradePct: 52 }],
+    approvals: [{ region: "China", year: 2022, indication: "Recurrent/metastatic cervical cancer after platinum" }, { region: "China", year: 2024, indication: "First-line persistent/recurrent/metastatic cervical cancer with chemotherapy ± bevacizumab; first-line gastric cancer with chemotherapy" }],
+    regulatoryEvents: [{ date: "2022-06-29", type: "approval", region: "China", note: "First PD-1×CTLA-4 bispecific approved anywhere" }, { date: "2024-09", type: "approval", region: "China", note: "First-line cervical cancer (COMPASSION-16)", source: "https://www.onclive.com/view/china-s-nmpa-approves-cadonilimab-plus-chemo-with-without-bevacizumab-in-cervical-cancer" }],
+    targets: ["pd1", "ctla4"], technologies: ["bispecific-antibody", "checkpoint-inhibitor"], companies: ["akeso"], cancers: ["cervical", "gastric"], trials: ["compassion-16"], pathways: ["pd1-checkpoint"] }),
+  d({ id: "gardasil-9", name: "Nonavalent HPV vaccine", brand: "Gardasil 9", modality: "Prophylactic vaccine (virus-like particles)", status: "approved", wikipedia: W("Gardasil"),
+    tldr: "A vaccine against nine HPV types that prevents about 90% of cervical cancers, and now works with a single dose.",
+    summary: "Approved 2014 (US), covering HPV 6, 11, 16, 18, 31, 33, 45, 52, 58. Population data from Sweden (NEJM 2020) and Scotland (JNCI 2024) show ~90% and near-100% reductions in invasive cervical cancer in women vaccinated at 12-13. WHO recommends one- or two-dose schedules since 2022 (KEN SHE, IARC India); FDA label remains two doses under 15 and three doses at 15-45. Also prevents anal, oropharyngeal, vulvar, vaginal, and penile cancers and genital warts. Global coverage of girls with at least one dose was ~27% in 2023, the binding constraint on elimination.",
+    mechanism: "Recombinant L1 capsid proteins self-assemble into virus-like particles that induce high-titre neutralising antibodies preventing persistent oncogenic HPV infection.",
+    mechanismSteps: ["L1 protein particles mimic the virus shell without DNA", "The immune system makes neutralising antibodies", "Antibodies at the cervix block HPV from entering basal cells", "No persistent infection, so no precancer or cancer"],
+    dosing: { route: "Intramuscular", schedule: "1 dose (WHO, age 9-20) or 2 doses 6-12 months apart (age 9-14); 3 doses at 15-45 (US label)", monitoring: "None routine" },
+    toxicity: [{ event: "Injection-site pain", anyGradePct: 90 }, { event: "Syncope (adolescents)", note: "Observe 15 minutes after injection" }],
+    approvals: [{ region: "US", year: 2014, indication: "Prevention of HPV-related cancers and precancers, ages 9-26; extended to 45 in 2018" }, { region: "WHO", year: 2022, indication: "Single-dose schedule recommended for girls 9-20" }],
+    regulatoryEvents: [{ date: "2006-06-08", type: "approval", region: "US", note: "Original quadrivalent Gardasil approved" }, { date: "2014-12-10", type: "approval", region: "US", note: "Gardasil 9 approved" }, { date: "2022-12", type: "label-change", region: "WHO", note: "One-dose schedule endorsed (SAGE)" }],
+    technologies: ["hpv-vaccine"], companies: ["merck"], cancers: ["cervical", "head-and-neck"], trials: ["ken-she"] }),
+];
+
+// ======================= TERMS =======================
+const terms: TermInput[] = [
+  tm({ id: "cin-hsil", name: "Cervical precancer (CIN, HSIL/LSIL)", category: "Cancer biology", wikipedia: W("Cervical_intraepithelial_neoplasia"),
+    tldr: "Abnormal cervical cells caused by HPV that can turn into cancer over 10-20 years. Screening finds them; a five-minute procedure removes them.",
+    summary: "Cervical intraepithelial neoplasia grades 1-3, now reported as low-grade (LSIL, CIN1) or high-grade (HSIL, CIN2-3) squamous intraepithelial lesions; adenocarcinoma in situ is the glandular equivalent. Most LSIL regresses; ~30% of untreated CIN3 progresses to cancer within 30 years. Treated by LEEP/LLETZ excision, cold-knife cone, cryotherapy, or thermal ablation. HPV16 is the most persistent and carcinogenic type.",
+    cancers: ["cervical"], technologies: ["hpv-testing", "colposcopy-excision", "precancer-ablation"] }),
+];
+
+// ======================= TECHNOLOGIES =======================
+const technologies: TechnologyInput[] = [
+  te({ id: "hpv-testing", name: "HPV DNA testing and self-sampling", sections: ["early-detection", "diagnostics"], status: "standard-of-care", since: 2003, wikipedia: W("HPV_DNA_test"),
+    tldr: "A swab tested for the virus that causes cervical cancer, more accurate than the Pap smear and doable at home.",
+    summary: "HPV primary screening detects CIN3+ more sensitively than cytology and allows 5-year intervals; it is the WHO-recommended screening test and is standard in the Netherlands, Australia, England, and increasingly the US. Self-collected vaginal samples perform as well as clinician samples for PCR-based tests; the FDA approved self-collection in health-care settings in May 2024 and the first at-home kit in 2025. Extended genotyping and methylation triage (FAM19A4/miR124-2) reduce colposcopy referrals. Point-of-care and AI-read tests target low-resource settings.",
+    principle: "Nucleic acid amplification or hybrid capture of high-risk HPV types (16, 18 and 12 others) from cervical or vaginal cells.",
+    strengths: ["Higher sensitivity for precancer than cytology", "Self-sampling reaches never-screened women", "Long safe intervals cut cost"],
+    limitations: ["Lower specificity in young women (transient infection)", "Needs triage (cytology, genotyping, methylation) before colposcopy"],
+    cancers: ["cervical"], technologies: ["colposcopy-excision", "hpv-vaccine"], terms: ["cin-hsil"] }),
+  te({ id: "colposcopy-excision", name: "Colposcopy and excisional treatment (LEEP/LLETZ, cone)", sections: ["surgery", "early-detection"], status: "standard-of-care", wikipedia: W("Loop_electrical_excision_procedure"),
+    tldr: "Looking at the cervix with a magnifier after a positive screen, then removing the abnormal patch with an electric wire loop in a clinic visit.",
+    summary: "Colposcopy with acetic acid and biopsy confirms high-grade lesions; LEEP/LLETZ or cold-knife conisation removes them with cure rates above 90%. Excision slightly raises preterm birth risk, which drives interest in ablation and in 'see-and-treat' for HSIL. AI-assisted colposcopy is being validated for settings without specialists.",
+    principle: "Magnified inspection with contrast agents to target biopsy, followed by electrosurgical excision of the transformation zone.",
+    strengths: ["Outpatient, definitive histology", "High cure rate"],
+    limitations: ["Requires trained providers and equipment", "Obstetric risk after excision"],
+    cancers: ["cervical"], terms: ["cin-hsil"], technologies: ["hpv-testing"] }),
+  te({ id: "precancer-ablation", name: "Thermal ablation and cryotherapy for cervical precancer", sections: ["surgery", "prevention"], status: "standard-of-care",
+    tldr: "Destroying precancerous cervical cells with a heated or frozen probe in under a minute, the tool that makes screen-and-treat possible where there are no surgeons.",
+    summary: "WHO (2019) recommends thermal ablation (100°C probe, 20-40 seconds) or cryotherapy for eligible CIN2+ lesions in screen-and-treat programmes, often after visual inspection with acetic acid (VIA) or HPV testing. Portable battery-powered devices cost a few hundred dollars; cure rates ~85-95% for eligible lesions. Central to the WHO cervical cancer elimination strategy's 90% treatment target.",
+    principle: "Coagulative necrosis (thermal) or freeze-thaw injury (cryo) of the cervical transformation zone.",
+    strengths: ["Cheap, fast, no anaesthesia or electricity mains", "Enables single-visit screen-and-treat"],
+    limitations: ["No histology", "Not suitable for large or endocervical lesions"],
+    cancers: ["cervical"], terms: ["cin-hsil"], technologies: ["hpv-testing"] }),
+];
+
+// ======================= PAIRINGS =======================
+const pairings: PairingInput[] = [
+  pr({ id: "induction-chemo-then-crt", name: "Induction chemotherapy → chemoradiation (locally advanced cervical cancer)", a: "carboplatin", b: "imrt-igrt", pairingType: "sequence",
+    tldr: "Six weeks of cheap chemotherapy before chemoradiation cut deaths by 40% (INTERLACE), while chemotherapy after chemoradiation did nothing (OUTBACK). Order matters.",
+    summary: "INTERLACE: 5-year OS 80% vs 72% (HR 0.60). OUTBACK: no benefit from adjuvant chemotherapy and much more toxicity. Induction is deliverable in low- and middle-income countries where pembrolizumab is not.",
+    rationale: "Early systemic control of micrometastases while patients are fit; adjuvant chemotherapy after radiation suffers poor compliance and marrow toxicity.",
+    evidence: "One positive phase 3 (induction) and one negative phase 3 (adjuvant).",
+    trials: ["interlace", "outback"], cancers: ["cervical"], technologies: ["imrt-igrt", "brachytherapy"] }),
+  pr({ id: "io-plus-crt-cervical", name: "PD-1 blockade + chemoradiation (locally advanced cervical cancer)", a: "pembrolizumab", b: "brachytherapy", pairingType: "combination",
+    tldr: "Adding pembrolizumab to curative chemoradiation improved survival in high-risk locally advanced cervical cancer (KEYNOTE-A18); durvalumab in a broader population did not (CALLA).",
+    summary: "KEYNOTE-A18: 36-month OS 82.6% vs 74.8% (HR 0.67); FDA approval for FIGO III-IVA (2024). CALLA (durvalumab) was negative, possibly because it enrolled lower-risk patients and used a different drug. Cost limits use outside high-income countries.",
+    rationale: "Radiation-induced antigen release and PD-L1 upregulation make the tumour immunogenic; concurrent and maintenance PD-1 blockade sustains the response.",
+    evidence: "Phase 3 OS benefit (KEYNOTE-A18); negative sister trial (CALLA).",
+    trials: ["keynote-a18"], drugs: ["pembrolizumab"], cancers: ["cervical"], related: ["radiation-plus-io"] }),
+  pr({ id: "caution-mis-radical-hysterectomy", name: "Caution: minimally invasive radical hysterectomy for early cervical cancer", a: "robotic-surgery", b: "cervical", pairingType: "caution",
+    tldr: "Keyhole radical hysterectomy, though less painful, led to more recurrences and deaths than open surgery in the LACC trial. Open surgery is the standard until protective techniques are proven.",
+    summary: "LACC: 4.5-year DFS 86.0% vs 96.5%, death HR 6.0. Confirmed by cohort studies. Hypotheses: CO2 insufflation and uterine manipulator spread tumour cells. RACC and ROCC trials test manipulator-free, vaginal-closure techniques.",
+    rationale: "Tumour cell dissemination during laparoscopic manipulation of the cervix.",
+    evidence: "Phase 3 (negative for MIS) plus large cohorts.",
+    trials: ["lacc"], cancers: ["cervical"], technologies: ["robotic-surgery"] }),
+];
+
+// ======================= IDEAS =======================
+const ideas: IdeaInput[] = [
+  idea({ id: "idea-single-dose-hpv-self-sampling-elimination", name: "Single-dose HPV vaccination plus HPV self-sampling to reach WHO elimination in low-income countries", maturity: "being-tested-at-scale",
+    tldr: "One shot for girls and a mail-in swab for women could hit the WHO 90-70-90 targets at a fraction of the cost of the traditional three-dose, clinic-based model.",
+    summary: "KEN SHE showed 97.5% single-dose efficacy; self-sampled HPV PCR matches clinician sampling; thermal ablation enables screen-and-treat. Modelling (Lancet Global Health 2024) suggests single-dose schedules could make elimination feasible in most low-income settings within the century, but coverage of girls is still ~27% globally.",
+    hypothesis: "Countries adopting single-dose HPV vaccination plus HPV self-sampling with screen-and-treat reach 90% vaccination and 70% screening coverage a decade earlier than those on multi-dose, cytology-based programmes.",
+    rationale: "Cost per protected girl halves; self-sampling removes clinic access and stigma barriers; ablation removes the surgeon bottleneck.",
+    test: "Country-level comparisons within the WHO Cervical Cancer Elimination Initiative dashboards, and cluster-randomised implementation trials (e.g., in Kenya, Rwanda, India).",
+    drugs: ["gardasil-9"], technologies: ["hpv-vaccine", "hpv-testing", "precancer-ablation"], cancers: ["cervical"], trials: ["ken-she"] }),
+  idea({ id: "idea-hpv-ctdna-cervical", name: "HPV circulating tumour DNA to guide cervical cancer therapy", maturity: "early-clinical",
+    tldr: "Because cervical tumours carry viral DNA that normal cells do not, a blood test for HPV DNA is a near-perfect tumour marker for tracking response and relapse.",
+    summary: "Plasma HPV ctDNA (droplet digital PCR or NGS) is detectable in most locally advanced cases, falls with chemoradiation, and predicts relapse months before imaging (Cabel, Han, and others). Analogous to HPV ctDNA in oropharyngeal cancer, where commercial assays exist.",
+    hypothesis: "Persistent HPV ctDNA at the end of chemoradiation identifies patients who benefit from adjuvant immunotherapy, and undetectable ctDNA allows omission of pembrolizumab maintenance.",
+    rationale: "Tumour-specific analyte with essentially zero background; cheap PCR; would make KEYNOTE-A18's benefit affordable by targeting it.",
+    test: "Prospective ctDNA-stratified randomisation of maintenance pembrolizumab after chemoradiation; primary endpoint PFS.",
+    technologies: ["liquid-biopsy", "mrd-testing"], cancers: ["cervical"], drugs: ["pembrolizumab"], terms: ["mrd", "ctdna"], trials: ["keynote-a18"] }),
+];
+
+const entities: EntityInput[] = [...trials, ...drugs, ...terms, ...technologies, ...pairings, ...ideas];
+
+// ======================= CANCER PATCH =======================
+const spike: Spike = {
+  cancerId: "cervical",
+  entities,
+  patch: {
+    asOf,
+    summary: "Cervical cancer is almost entirely caused by persistent infection with high-risk human papillomavirus, which makes it the one common cancer that could be eliminated: HPV vaccination prevents about 90% of cases, HPV screening finds the precancers that remain, and a minute of thermal ablation or a loop excision cures them. Around 660,000 women are diagnosed and 350,000 die each year, nine in ten of them in low- and middle-income countries where vaccination and screening have not reached. In Sweden, Scotland, and Australia, cohorts vaccinated at 12-13 show near-zero invasive cancer, and Australia expects to pass the WHO elimination threshold (4 per 100,000) around 2035.\n\nFor women who develop cancer, treatment depends on stage. Early disease is treated with open radical hysterectomy (minimally invasive surgery proved worse in the LACC trial) or, for the smallest tumours, fertility-sparing surgery, with sentinel node mapping under evaluation. Locally advanced disease is cured in roughly two-thirds by cisplatin chemoradiation with brachytherapy, and two 2023-24 trials improved on that standard for the first time since 1999: six weeks of induction carboplatin-paclitaxel (INTERLACE, 5-year OS 80% vs 72%) and pembrolizumab with chemoradiation (KEYNOTE-A18, 36-month OS 82.6% vs 74.8%). Metastatic or recurrent disease, once treated with chemotherapy alone, now has first-line chemotherapy plus a checkpoint inhibitor with or without bevacizumab (KEYNOTE-826, BEATcc, COMPASSION-16 in China), the tissue-factor ADC tisotumab vedotin in second line (innovaTV 301), and HER2-directed therapy for the minority with HER2-positive tumours.\n\nWhat comes next is mostly delivery rather than discovery: single-dose HPV vaccination and self-sampled HPV testing to reach the 90-70-90 targets, screen-and-treat with portable ablation devices, AI-read colposcopy, and cheaper immunotherapy access. On the treatment side, HPV ctDNA to guide who needs maintenance therapy, TROP2 ADCs (sacituzumab tirumotecan), TIL therapy, and therapeutic HPV vaccines are in trials. The enduring problem is that the tools already exist and the women who die do not have them.",
+    burden: "~660,000 cases and ~350,000 deaths per year; fourth most common cancer in women worldwide and the leading cancer killer of women in many sub-Saharan African countries.",
+    subtypes: ["Squamous cell carcinoma (~75%; HPV16 predominant)", "Adenocarcinoma (~20-25%; HPV18 enriched; rising share in screened populations)", "Adenosquamous carcinoma", "HPV-independent adenocarcinoma (gastric-type; ~5% of adenocarcinomas; poor prognosis)", "Neuroendocrine carcinoma (rare; SCLC-like)", "Precursor lesions: CIN2-3/HSIL, adenocarcinoma in situ"],
+    biomarkers: ["High-risk HPV type (16, 18, others) and HPV status (HPV-independent tumours behave worse)", "PD-L1 CPS (≥1 for pembrolizumab in recurrent disease; not required for KEYNOTE-A18)", "p16 IHC (HPV surrogate)", "HER2 (IHC 3+ for T-DXd; ~5-10%)", "Tissue factor (not required for tisotumab)", "Plasma HPV ctDNA (investigational monitoring)", "FIGO 2018 stage incorporating imaging and nodal status", "MSI/TMB (rare tumour-agnostic eligibility)"],
+    standardOfCare: [
+      { setting: "Primary prevention", approach: "HPV vaccination of girls (and boys) at 9-14, one or two doses per WHO; catch-up to 26 (US label to 45). Reduces invasive cancer ~90% when given before exposure.", refs: ["hpv-vaccine", "gardasil-9", "ken-she"], guideline: { nccn: "Prevention guideline", url: "https://www.who.int/publications/i/item/9789240014107" } },
+      { setting: "Screening", approach: "HPV primary testing every 5 years from 25-30 (self-sampling accepted), or cytology every 3 years; VIA or HPV screen-and-treat in low-resource settings; WHO target 70% screened twice in a lifetime.", refs: ["hpv-testing", "precancer-ablation", "colposcopy-excision"], guideline: { nccn: "USPSTF Grade A" } },
+      { setting: "Precancer (HSIL / CIN2-3, AIS)", approach: "Colposcopy-directed biopsy then LEEP/LLETZ or cone excision; thermal ablation or cryotherapy where eligible; HPV test of cure at 6-12 months.", refs: ["colposcopy-excision", "precancer-ablation", "cin-hsil"], guideline: { nccn: "ASCCP 2019 risk-based management" } },
+      { setting: "Stage IA1-IB1 (≤2 cm)", approach: "Simple hysterectomy is non-inferior to radical for low-risk IA2-IB1 ≤2 cm (SHAPE trial, 2024); cone or trachelectomy for fertility preservation; sentinel node mapping in trials (SENTICOL III).", refs: ["robotic-surgery", "sentinel-node", "senticol-iii"], guideline: { nccn: "2A" } },
+      { setting: "Stage IB2-IIA (surgical candidates)", approach: "Open radical hysterectomy with pelvic lymphadenectomy (minimally invasive approach inferior in LACC); adjuvant radiation or chemoradiation for intermediate/high-risk pathology (Sedlis, Peters criteria).", refs: ["lacc", "caution-mis-radical-hysterectomy", "imrt-igrt", "cisplatin"], guideline: { nccn: "1 (open approach)" } },
+      { setting: "Locally advanced (IB3, IIB-IVA), standard", approach: "Weekly cisplatin 40 mg/m² with external-beam IMRT/IGRT followed by image-guided brachytherapy to ≥85 Gy EQD2, completed within 56 days.", refs: ["cisplatin", "imrt-igrt", "brachytherapy"], guideline: { nccn: "1", esmoMcbs: "A" } },
+      { setting: "Locally advanced, high risk (node-positive IB2-IIB, III-IVA)", approach: "Add pembrolizumab during chemoradiation and for 15 maintenance cycles (KEYNOTE-A18, approved 2024 for FIGO III-IVA), or induction carboplatin-paclitaxel weekly × 6 before chemoradiation (INTERLACE). Adjuvant chemotherapy after chemoradiation is not recommended (OUTBACK).", refs: ["keynote-a18", "pembrolizumab", "interlace", "induction-chemo-then-crt", "io-plus-crt-cervical", "outback"], guideline: { nccn: "1 (pembrolizumab); 2A (induction)", esmoMcbs: "A (KEYNOTE-A18)" } },
+      { setting: "Persistent, recurrent, or metastatic, first line", approach: "Pembrolizumab + cisplatin/carboplatin-paclitaxel ± bevacizumab (KEYNOTE-826, CPS ≥1 in the US); atezolizumab + chemotherapy + bevacizumab (BEATcc, region-dependent); cadonilimab + chemotherapy in China (COMPASSION-16).", refs: ["keynote-826", "pembrolizumab", "bevacizumab", "beatcc", "atezolizumab", "compassion-16", "cadonilimab"], guideline: { nccn: "1", esmoMcbs: "4" } },
+      { setting: "Second line and beyond", approach: "Tisotumab vedotin (innovaTV 301, OS benefit); cemiplimab if immunotherapy-naive (EU); T-DXd for HER2 IHC 3+; pembrolizumab for MSI-H/TMB-high; single-agent chemotherapy; trials of sac-TMT and TIL therapy.", refs: ["tisotumab-vedotin", "innovatv-301", "cemiplimab", "empower-cervical-1", "trastuzumab-deruxtecan", "destiny-pantumor02", "sacituzumab-tirumotecan", "lifileucel"], guideline: { nccn: "1 (tisotumab)" } },
+      { setting: "Pelvic recurrence after radiation", approach: "Pelvic exenteration in selected patients with central recurrence; re-irradiation with brachytherapy or proton therapy in specialised centres.", refs: ["robotic-surgery", "brachytherapy", "proton-therapy"], guideline: { nccn: "2A" } },
+    ],
+    stateOfArt: [
+      "Vaccinated cohorts in Sweden and Scotland show a ~90% to near-total reduction in invasive cervical cancer; single-dose schedules (97.5% efficacy in KEN SHE) make global coverage achievable.",
+      "HPV primary screening with self-sampling has replaced the Pap smear as the recommended test and reaches women who never attended clinics.",
+      "Two curative-intent advances in one year after 24 years of stasis: induction chemotherapy (INTERLACE, OS HR 0.60) and pembrolizumab with chemoradiation (KEYNOTE-A18, OS HR 0.67).",
+      "First-line chemo-immunotherapy roughly doubles median survival in metastatic disease compared with the pre-2014 era (KEYNOTE-826 26.4 months; BEATcc 32.1 months).",
+      "The first ADC with survival benefit in cervical cancer (tisotumab vedotin) and tumour-agnostic HER2 ADC access.",
+      "Surgical evidence now favours less: simple over radical hysterectomy for small tumours (SHAPE) and open over minimally invasive radical hysterectomy (LACC).",
+    ],
+    history: [
+      { year: 1943, title: "Papanicolaou smear introduced", note: "Cytology screening cuts cervical cancer mortality by ~70% where implemented." },
+      { year: 1983, title: "zur Hausen identifies HPV16 in cervical cancer", note: "HPV18 follows in 1984; Nobel Prize 2008.", refs: ["dkfz", "hpv-vaccine"] },
+      { year: 1999, title: "NCI clinical alert: cisplatin with radiation", note: "Five randomised trials show 30-50% mortality reduction; chemoradiation becomes standard for locally advanced disease.", refs: ["cisplatin", "imrt-igrt"] },
+      { year: 2006, title: "First HPV vaccine (Gardasil) approved", refs: ["gardasil-9", "hpv-vaccine"] },
+      { year: 2014, title: "Bevacizumab extends survival in advanced disease (GOG-0240); Gardasil 9 approved; HPV primary screening approved in the US", refs: ["bevacizumab", "gardasil-9", "hpv-testing"] },
+      { year: 2018, title: "LACC: minimally invasive radical hysterectomy is inferior", note: "Practice reverses to open surgery within months.", refs: ["lacc"] },
+      { year: 2020, title: "WHO launches the Cervical Cancer Elimination Initiative (90-70-90 by 2030)", note: "Swedish registry study shows ~88% cancer reduction in women vaccinated before 17.", refs: ["hpv-vaccine", "hpv-testing"] },
+      { year: 2021, title: "KEYNOTE-826: first-line chemo-immunotherapy; tisotumab vedotin accelerated approval; EMPOWER-Cervical 1", refs: ["keynote-826", "tisotumab-vedotin", "empower-cervical-1"] },
+      { year: 2022, title: "WHO endorses single-dose HPV vaccination (KEN SHE); OUTBACK negative", refs: ["ken-she", "outback"] },
+      { year: 2023, title: "KEYNOTE-A18 and INTERLACE positive; BEATcc and innovaTV 301 positive", note: "Four practice-changing phase 3 results presented at ESMO 2023.", refs: ["keynote-a18", "interlace", "beatcc", "innovatv-301"] },
+      { year: 2024, title: "Pembrolizumab approved with chemoradiation (Jan); tisotumab full approval (Apr); FDA approves HPV self-collection (May); COMPASSION-16 published; SHAPE trial supports simple hysterectomy; Scotland reports zero cancers in fully vaccinated cohort", refs: ["keynote-a18", "tisotumab-vedotin", "hpv-testing", "compassion-16"] },
+      { year: 2025, title: "At-home HPV self-test approved in the US; single-dose schedules adopted by 60+ countries", refs: ["hpv-testing", "gardasil-9"] },
+      { year: 2026, title: "World Health Assembly calls for accountable elimination systems; sac-TMT and TIL trials in recurrent disease", refs: ["sacituzumab-tirumotecan", "lifileucel"] },
+    ],
+    pipeline: ["sacituzumab-tirumotecan", "lifileucel", "cadonilimab", "trastuzumab-deruxtecan", "senticol-iii", "hpv-testing", "precancer-ablation", "idea-single-dose-hpv-self-sampling-elimination", "idea-hpv-ctdna-cervical", "gardasil-9", "mrd-testing", "proton-therapy"],
+    openProblems: [
+      "Global HPV vaccination coverage of girls is around 27%; the disease is preventable and 350,000 women still die each year.",
+      "Screening reaches under 30% of women in most low- and middle-income countries; brachytherapy capacity is absent in much of Africa.",
+      "Pembrolizumab with chemoradiation costs far more than induction chemotherapy; how to combine or choose between KEYNOTE-A18 and INTERLACE is untested.",
+      "Recurrent disease after chemo-immunotherapy has few options; tisotumab adds two months of median survival.",
+      "HPV-independent (gastric-type) adenocarcinoma and neuroendocrine carcinoma have poor outcomes and no specific therapy.",
+      "Minimally invasive surgery's harm mechanism is unresolved; protective-technique trials (RACC, ROCC) are pending.",
+      "Therapeutic HPV vaccines (E6/E7-directed) have repeatedly shown immunogenicity without clear clinical benefit in invasive cancer.",
+      "Fertility preservation options for tumours over 2 cm remain limited.",
+    ],
+    targets: ["ctla4", "her2", "pdl1"],
+    technologies: ["hpv-testing", "colposcopy-excision", "precancer-ablation", "imrt-igrt", "sentinel-node", "robotic-surgery", "liquid-biopsy"],
+    terms: ["cin-hsil", "cps", "tumour-agnostic"],
+    companies: ["merck", "roche-genentech", "genmab", "pfizer", "akeso", "regeneron"],
+    institutions: ["iarc", "cruk", "md-anderson", "nrg-oncology"],
+    related: ["induction-chemo-then-crt", "io-plus-crt-cervical", "caution-mis-radical-hysterectomy", "radiation-plus-io", "early-detection-roadmap"],
+    tags: ["spike", "gyn"],
+  },
+};
+
+export default spike;

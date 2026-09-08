@@ -13,7 +13,9 @@ import { structures, type StructureDef } from "../src/data/structures";
 const out = join(process.cwd(), "public", "structures");
 mkdirSync(out, { recursive: true });
 
-type Mol = { atoms: Array<[number, number, number, string]>; bonds: Array<[number, number, number]>; dim: 2 | 3; source: string; id: string; name: string };
+/** atoms: [x, y, z, element, chain?, role?] where role is "ca" (backbone trace), "lig" (bound ligand), or "pkt" (pocket residue atoms within 5 Å of a ligand). */
+type Atom = [number, number, number, string] | [number, number, number, string, string, string];
+type Mol = { atoms: Atom[]; bonds: Array<[number, number, number]>; dim: 2 | 3; source: string; id: string; name: string; chains?: string[]; ligands?: string[] };
 
 async function get(url: string): Promise<string | null> {
   const r = await fetch(url, { headers: { "User-Agent": "OnCo/1.0 (github.com/judegomila/OnCo)" } });
@@ -62,6 +64,8 @@ async function pubchem(def: StructureDef): Promise<{ file: string; cid: number; 
   return { file, cid, dim: parsed.dim };
 }
 
+const SKIP_HET = new Set(["HOH", "WAT", "DOD", "SO4", "GOL", "PEG", "PG4", "EDO", "DMS", "ACT", "PO4", "CL", "NA", "MG", "ZN", "CA", "K", "MN", "NI", "CD", "IOD", "BR", "NO3", "FMT", "TRS", "MES", "EPE", "BME", "MPD", "PGE", "1PE", "P6G", "NAG", "MAN", "BMA", "FUC", "GAL", "GLC", "NDG", "SIA", "CIT", "TLA", "MLI", "IMD", "BU3", "PE4", "OLC", "UNX", "UNL"]);
+
 async function pdb(def: StructureDef): Promise<{ file: string } | null> {
   const id = def.query.toUpperCase();
   const file = `pdb-${id}.json`;
@@ -69,20 +73,60 @@ async function pdb(def: StructureDef): Promise<{ file: string } | null> {
   if (existsSync(path)) return { file };
   const txt = await get(`https://files.rcsb.org/download/${id}.pdb`);
   if (!txt) return null;
-  const atoms: Mol["atoms"] = [];
-  const bonds: Mol["bonds"] = [];
-  let prevChain = "", prevIdx = -1, prevRes = -999;
+  type Raw = { x: number; y: number; z: number; el: string; chain: string; res: number; resn: string; name: string; het: boolean };
+  const raw: Raw[] = [];
   for (const l of txt.split(/\r?\n/)) {
-    if (!l.startsWith("ATOM")) continue;
-    if (l.slice(12, 16).trim() !== "CA") continue;
+    if (l.startsWith("ENDMDL")) break; // first model only
+    const isAtom = l.startsWith("ATOM"), isHet = l.startsWith("HETATM");
+    if (!isAtom && !isHet) continue;
     if (l[16] !== " " && l[16] !== "A") continue; // alt loc
-    const chain = l[21], res = parseInt(l.slice(22, 26), 10);
-    atoms.push([parseFloat(l.slice(30, 38)), parseFloat(l.slice(38, 46)), parseFloat(l.slice(46, 54)), "CA"]);
-    const idx = atoms.length - 1;
-    if (chain === prevChain && prevIdx >= 0 && res - prevRes <= 1) bonds.push([prevIdx, idx, 1]);
-    prevChain = chain; prevIdx = idx; prevRes = res;
+    const resn = l.slice(17, 20).trim();
+    if (isHet && SKIP_HET.has(resn)) continue;
+    const elRaw = l.slice(76, 78).trim() || l.slice(12, 14).trim().replace(/[0-9]/g, "");
+    const el = elRaw[0].toUpperCase() + elRaw.slice(1).toLowerCase();
+    if (el === "H" || el === "D") continue;
+    raw.push({ x: parseFloat(l.slice(30, 38)), y: parseFloat(l.slice(38, 46)), z: parseFloat(l.slice(46, 54)), el, chain: l[21], res: parseInt(l.slice(22, 26), 10), resn, name: l.slice(12, 16).trim(), het: isHet });
   }
-  const mol: Mol = { atoms, bonds, dim: 3, source: "pdb", id, name: `PDB ${id}` };
+  // Ligands: HETATM residues with >= 12 heavy atoms (drug-like), grouped by chain + residue.
+  const groups = new Map<string, Raw[]>();
+  for (const a of raw) if (a.het) { const k = `${a.chain}:${a.resn}:${a.res}`; groups.set(k, [...(groups.get(k) ?? []), a]); }
+  const ligAtoms: Raw[] = []; const ligands = new Set<string>();
+  for (const [k, g] of groups) if (g.length >= 12) { ligAtoms.push(...g); ligands.add(k.split(":")[1]); }
+  // Pocket: protein residues with any atom within 5 Å of a ligand atom (whole residue kept).
+  const pocketRes = new Set<string>();
+  if (ligAtoms.length) {
+    for (const a of raw) {
+      if (a.het) continue;
+      for (const l of ligAtoms) { const d = (a.x - l.x) ** 2 + (a.y - l.y) ** 2 + (a.z - l.z) ** 2; if (d <= 25) { pocketRes.add(`${a.chain}:${a.res}`); break; } }
+    }
+  }
+  const atoms: Atom[] = []; const bonds: Mol["bonds"] = [];
+  let prevChain = "", prevIdx = -1, prevRes = -999;
+  const chains = new Set<string>();
+  for (const a of raw) {
+    if (a.het || a.name !== "CA") continue;
+    chains.add(a.chain);
+    atoms.push([a.x, a.y, a.z, "CA", a.chain, "ca"]);
+    const idx = atoms.length - 1;
+    if (a.chain === prevChain && prevIdx >= 0 && a.res - prevRes <= 1) bonds.push([prevIdx, idx, 1]);
+    prevChain = a.chain; prevIdx = idx; prevRes = a.res;
+  }
+  const bondByDistance = (list: Raw[], role: "lig" | "pkt") => {
+    const start = atoms.length;
+    for (const a of list) atoms.push([a.x, a.y, a.z, a.el, a.chain, role]);
+    for (let i = 0; i < list.length; i++) for (let j = i + 1; j < list.length; j++) {
+      const d2 = (list[i].x - list[j].x) ** 2 + (list[i].y - list[j].y) ** 2 + (list[i].z - list[j].z) ** 2;
+      const big = ["S", "P", "Cl", "Br", "I", "Se"];
+      const lim = big.includes(list[i].el) || big.includes(list[j].el) ? 2.1 : 1.9;
+      if (d2 <= lim * lim) bonds.push([start + i, start + j, 1]);
+    }
+  };
+  if (ligAtoms.length) {
+    bondByDistance(ligAtoms, "lig");
+    const pocket = raw.filter((a) => !a.het && pocketRes.has(`${a.chain}:${a.res}`) && a.name !== "CA");
+    if (pocket.length && pocket.length <= 1500) bondByDistance(pocket, "pkt");
+  }
+  const mol: Mol = { atoms, bonds, dim: 3, source: "pdb", id, name: `PDB ${id}`, chains: [...chains], ligands: [...ligands] };
   writeFileSync(path, JSON.stringify(mol));
   return { file };
 }

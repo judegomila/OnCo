@@ -4,6 +4,7 @@
  * Segment classes: "accent" = beams/energy/payload, "hot" = the thing being treated or highlighted, "soft" = context.
  */
 import { add, antibody, antibodyTips, arrow, box, cone, cylinder, dna, dots, ellipsoid, empty, fan, grid3, helix, icosahedron, label, line, octahedron, polyline, ring, sphere, torus, type Mesh, type Vec3 } from "@/lib/wireframe";
+import { ANIMATED } from "./animated";
 
 const TAU = Math.PI * 2;
 const circlePts = (r: number, n: number, y = 0): Vec3[] => Array.from({ length: n }, (_, i) => [r * Math.cos((TAU * i) / n), y, r * Math.sin((TAU * i) / n)]);
@@ -522,8 +523,17 @@ function build(key: string, f: () => Mesh): Mesh {
   return m;
 }
 
-/** Returns a specific mesh if one exists, else a generic mesh for the first matching front. */
+/** Animated process schematic for a technology id, if one exists (see animated.ts). */
+export function hasAnimation(techId: string): boolean { return techId in ANIMATED; }
+/** Serialisable stand-in for an animated mesh: static geometry plus the `anim` marker; Wireframe3D rebuilds the animation client-side. */
+function marker(techId: string): Mesh {
+  return build(`anim:${techId}`, () => { const m = ANIMATED[techId](); return { points: m.points, segments: m.segments, labels: m.labels, anim: techId }; });
+}
+export function animatedFor(techId: string): Mesh | undefined { return ANIMATED[techId] ? marker(techId) : undefined; }
+
+/** Returns a specific mesh if one exists (animated where available), else a generic mesh for the first matching front. */
 export function schematicFor(techId: string, sections: string[]): { mesh: Mesh; specific: boolean } {
+  if (ANIMATED[techId]) return { mesh: marker(techId), specific: true };
   if (S[techId]) return { mesh: build(techId, S[techId]), specific: true };
   for (const s of sections) if (GENERIC[s]) return { mesh: build(`generic:${s}`, GENERIC[s]), specific: false };
   return { mesh: build("generic:default", () => { const m = empty(); add(m, sphere(1, 5, 10)); return m; }), specific: false };

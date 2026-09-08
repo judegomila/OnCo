@@ -27,7 +27,8 @@
     "factcheck": "tsx scripts/factcheck.ts",
     "bench": "tsx scripts/benchmark-run.ts",
     "bench:score": "tsx scripts/benchmark-score.ts",
-    "fetch:countries": "tsx scripts/fetch-countries.ts"
+    "fetch:countries": "tsx scripts/fetch-countries.ts",
+    "fetch:globocan": "tsx scripts/fetch-globocan.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

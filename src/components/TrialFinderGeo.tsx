@@ -1,0 +1,106 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { buildGeoApiUrl, buildGeoSearchUrl, COUNTRIES, geocode, parseGeoStudies, type GeoStudy } from "@/lib/ctgov-geo";
+import { useProfile } from "@/lib/profile";
+import { FacetSelect } from "./filters/FacetSelect";
+
+/**
+ * Recruiting trials from ClinicalTrials.gov, filtered by country and optionally by distance from a
+ * postcode or place. Loads on demand. Nearest site and distance are computed in the browser.
+ */
+export function TrialFinderGeo({ condition, intervention, title }: { condition?: string; intervention?: string; title: string }) {
+  const [profile, update, ready] = useProfile();
+  const [country, setCountry] = useState<string | null>(null);
+  const [place, setPlace] = useState("");
+  const [radius, setRadius] = useState(100);
+  const [center, setCenter] = useState<{ lat: number; lon: number; label: string } | null>(null);
+  const [state, setState] = useState<"idle" | "loading" | "done" | "error" | "geocode-failed">("idle");
+  const [studies, setStudies] = useState<GeoStudy[]>([]);
+
+  // Seed the filters from the saved profile once it has loaded.
+  useEffect(() => {
+    if (!ready) return;
+    const id = requestAnimationFrame(() => { setCountry((c) => c ?? profile.country ?? null); setPlace((p) => p || profile.postcode || ""); });
+    return () => cancelAnimationFrame(id);
+  }, [ready, profile.country, profile.postcode]);
+
+  const searchUrl = buildGeoSearchUrl({ condition, intervention, country: country ?? undefined });
+
+  const load = async () => {
+    setState("loading");
+    try {
+      let c = center;
+      if (place.trim() && (!c || c.label !== place)) {
+        const g = await geocode(place.trim(), country ?? undefined);
+        if (!g) { setState("geocode-failed"); return; }
+        c = { ...g, label: place };
+        setCenter(c);
+      }
+      if (!place.trim()) c = null;
+      const url = buildGeoApiUrl({ condition, intervention, country: country ?? undefined, center: c ? { lat: c.lat, lon: c.lon, radiusMi: radius } : undefined, pageSize: 20 });
+      const r = await fetch(url);
+      if (!r.ok) throw new Error(String(r.status));
+      setStudies(parseGeoStudies(await r.json(), c ? { lat: c.lat, lon: c.lon } : undefined));
+      setState("done");
+      update({ country: country ?? undefined, postcode: place.trim() || undefined });
+    } catch {
+      setState("error");
+    }
+  };
+
+  return (
+    <div className="card p-4">
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <div>
+          <div className="kicker">Recruiting trials near you · live from ClinicalTrials.gov</div>
+          <div className="font-medium mt-0.5">{title}</div>
+          <div className="text-xs text-muted mt-0.5">{condition && <span>condition: <em>{condition}</em></span>}{condition && intervention && " · "}{intervention && <span>intervention: <em>{intervention}</em></span>}</div>
+        </div>
+        <a href={searchUrl} rel="noopener" className="underline text-muted text-sm">Open on ClinicalTrials.gov →</a>
+      </div>
+
+      <div className="mt-3 flex flex-wrap items-center gap-2">
+        <FacetSelect label="Country" options={COUNTRIES.map((c) => ({ value: c, label: c }))} value={country} onChange={(v) => setCountry(v as string | null)} allLabel="Anywhere" width="w-56" />
+        <input value={place} onChange={(e) => setPlace(e.target.value)} placeholder="Postcode or city (optional)" aria-label="Postcode or city" className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
+        <label className="text-sm text-muted flex items-center gap-1.5">within
+          <select value={radius} onChange={(e) => setRadius(Number(e.target.value))} className="rounded-md border border-border bg-card px-2 py-1 text-sm">
+            {[25, 50, 100, 250, 500].map((r) => <option key={r} value={r}>{r} mi</option>)}
+          </select>
+        </label>
+        <button type="button" onClick={load} className="rounded-lg bg-accent text-white px-3 py-1.5 text-sm font-medium hover:brightness-110">{state === "idle" ? "Find trials" : "Search again"}</button>
+      </div>
+      <p className="text-[11px] text-muted mt-2">Country and place are remembered in this browser only. A postcode is sent to OpenStreetMap&apos;s Nominatim service to find coordinates when you press the button; nothing else leaves your device.</p>
+
+      {state === "loading" && <p className="text-sm text-muted mt-3">Querying ClinicalTrials.gov…</p>}
+      {state === "geocode-failed" && <p className="text-sm text-muted mt-3">Could not find that place. Try a city name, or clear it to search by country only.</p>}
+      {state === "error" && <p className="text-sm text-muted mt-3">Could not reach ClinicalTrials.gov from your browser. <a className="underline" href={searchUrl} rel="noopener">Run the same search there</a>.</p>}
+      {state === "done" && studies.length === 0 && <p className="text-sm text-muted mt-3">No recruiting trials matched. Widen the radius, clear the place, or <a className="underline" href={searchUrl} rel="noopener">broaden the search on ClinicalTrials.gov</a>.</p>}
+      {state === "done" && studies.length > 0 && (
+        <div className="overflow-x-auto mt-3">
+          {center && <p className="text-xs text-muted mb-2">Distances from {center.label}. Nearest site shown; most trials have several.</p>}
+          <table className="onco">
+            <thead><tr><th>NCT</th><th>Title</th><th>Phase</th>{center && <th>Nearest site</th>}<th>Sites{country ? ` in ${country}` : ""}</th><th>Sponsor</th></tr></thead>
+            <tbody>
+              {studies.map((s) => {
+                const inCountry = country ? s.sites.filter((x) => x.country === country) : s.sites;
+                const cities = [...new Set(inCountry.map((x) => x.city).filter(Boolean))];
+                return (
+                  <tr key={s.nctId}>
+                    <td><a className="underline font-mono text-xs" href={`https://clinicaltrials.gov/study/${s.nctId}`} rel="noopener">{s.nctId}</a></td>
+                    <td className="max-w-md">{s.title}</td>
+                    <td className="tabular-nums whitespace-nowrap">{s.phase}</td>
+                    {center && <td className="whitespace-nowrap">{s.nearest ? <><span className="tabular-nums font-medium">{Math.round(s.nearest.km)} km</span><div className="text-xs text-muted">{s.nearest.site.city}{s.nearest.site.country ? `, ${s.nearest.site.country}` : ""}</div></> : <span className="text-muted">—</span>}</td>}
+                    <td className="text-muted text-xs max-w-xs">{cities.length ? `${cities.slice(0, 6).join(", ")}${cities.length > 6 ? ` +${cities.length - 6}` : ""}` : `${s.sites.length} sites`}</td>
+                    <td className="text-muted">{s.sponsor}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+          <p className="text-xs text-muted mt-2">Recruiting status, sites, and eligibility change often; confirm on the registry and with your clinical team.</p>
+        </div>
+      )}
+    </div>
+  );
+}

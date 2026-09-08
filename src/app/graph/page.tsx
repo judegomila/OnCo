@@ -10,7 +10,7 @@ export default function GraphPage() {
   return (
     <>
       <PageHeader kicker={<span className="kicker">Tools</span>} title="Graph explorer"
-        lede="The whole map as a force-directed graph. Filter by kind and connectivity, or focus on one object to see its neighbourhood. Click any node to open its page." />
+        lede="Fronts on the inner ring, cancers on the outer. Pick or click any object to put it in the centre with its neighbours grouped by kind. Click the centre to open its page." />
       <Container className="pb-16">
         <GraphExplorer data={data} />
       </Container>

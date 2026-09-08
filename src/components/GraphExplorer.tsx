@@ -2,249 +2,199 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import type { GraphData, GraphNode } from "@/lib/graph-export";
 import { KIND_META, KINDS, type Kind } from "@/lib/schema";
-import type { GraphData } from "@/lib/graph-export";
-import { KIND_COLOR } from "@/lib/text";
+import { FacetSelect } from "./filters/FacetSelect";
 
 const HUE: Record<Kind, string> = {
   cancer: "#e11d48", section: "#64748b", technology: "#0284c7", target: "#7c3aed", drug: "#059669", company: "#d97706", institution: "#0d9488",
   pathway: "#c026d3", term: "#71717a", trial: "#4f46e5", pairing: "#ea580c", roadmap: "#0891b2", idea: "#65a30d", collection: "#78716c",
 };
+const ORDER: Kind[] = ["cancer", "section", "technology", "target", "drug", "trial", "pairing", "pathway", "company", "institution", "idea", "roadmap", "term", "collection"];
+const MAX_PER_KIND = 18;
 
-type Sim = { x: Float32Array; y: Float32Array; vx: Float32Array; vy: Float32Array };
+type Placed = { n: GraphNode; x: number; y: number; r: number; ring?: number };
 
 /**
- * Force-directed explorer of the knowledge graph. Layout runs ~300 ticks then freezes.
- * Wheel to zoom, drag background to pan, click a node to open its page.
+ * Clean radial explorer. Overview: fronts (inner ring) and cancers (outer ring). Focus: one object in the
+ * centre, neighbours grouped by kind in arcs. No physics, no jitter; every label stays readable.
  */
 export function GraphExplorer({ data }: { data: GraphData }) {
   const router = useRouter();
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [kinds, setKinds] = useState<Set<Kind>>(new Set(KINDS));
-  const [minDegree, setMinDegree] = useState(4);
-  const [focus, setFocus] = useState<string | null>(null);
-  const [query, setQuery] = useState("");
+  const canvas = useRef<HTMLCanvasElement>(null);
+  const [focus, setFocus] = useState<number | null>(null);
+  const [trail, setTrail] = useState<number[]>([]);
+  const [hidden, setHidden] = useState<Set<Kind>>(new Set(["term", "collection"]));
   const [hover, setHover] = useState<number | null>(null);
-  const view = useRef({ scale: 1, tx: 0, ty: 0 });
-  const sim = useRef<Sim | null>(null);
-  const tick = useRef(0);
-  const raf = useRef(0);
+  const [expanded, setExpanded] = useState<Set<Kind>>(new Set());
 
-  const adjacency = useMemo(() => {
-    const adj: number[][] = data.nodes.map(() => []);
-    for (const [a, b] of data.edges) { adj[a].push(b); adj[b].push(a); }
-    return adj;
+  const byId = useMemo(() => new Map(data.nodes.map((n, i) => [n.id, i])), [data.nodes]);
+  const adj = useMemo(() => {
+    const m = data.nodes.map(() => [] as number[]);
+    for (const [a, b] of data.edges) { m[a].push(b); m[b].push(a); }
+    return m;
   }, [data]);
 
-  // Visible node set: focus neighbourhood, or degree/kind filter.
-  const visible = useMemo(() => {
-    const set = new Set<number>();
-    if (focus !== null) {
-      const fi = data.nodes.findIndex((n) => n.id === focus);
-      if (fi >= 0) {
-        set.add(fi);
-        for (const n of adjacency[fi]) set.add(n);
-        for (const n of [...set]) for (const m of adjacency[n]) if (set.size < 220) set.add(m);
-      }
-    } else {
-      data.nodes.forEach((n, i) => { if (n.degree >= minDegree && kinds.has(n.kind)) set.add(i); });
-    }
-    return set;
-  }, [data, adjacency, focus, minDegree, kinds]);
-
-  const visibleEdges = useMemo(() => data.edges.filter(([a, b]) => visible.has(a) && visible.has(b)), [data, visible]);
-
-  const matches = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    if (!q) return [];
-    return data.nodes.filter((n) => n.name.toLowerCase().includes(q) || n.id.includes(q)).slice(0, 8);
-  }, [data, query]);
-
-  // (Re)initialise simulation when the visible set changes.
+  // Read ?focus= on mount.
   useEffect(() => {
-    const n = data.nodes.length;
-    const s: Sim = { x: new Float32Array(n), y: new Float32Array(n), vx: new Float32Array(n), vy: new Float32Array(n) };
-    const ids = [...visible];
-    const R = Math.sqrt(ids.length) * 28 + 40;
-    ids.forEach((i, k) => {
-      const a = (k / Math.max(1, ids.length)) * Math.PI * 2 * 7.3;
-      const r = R * Math.sqrt((k + 1) / ids.length);
-      s.x[i] = Math.cos(a) * r; s.y[i] = Math.sin(a) * r;
+    const id = requestAnimationFrame(() => {
+      const f = new URLSearchParams(window.location.search).get("focus");
+      if (f && byId.has(f)) setFocus(byId.get(f)!);
     });
-    sim.current = s;
-    tick.current = 0;
-    view.current = { scale: 1, tx: 0, ty: 0 };
-  }, [visible, data.nodes.length]);
-
+    return () => cancelAnimationFrame(id);
+  }, [byId]);
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return;
-    const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const ids = [...visible];
-    const degIn = new Map<number, number>();
-    for (const [a, b] of visibleEdges) { degIn.set(a, (degIn.get(a) ?? 0) + 1); degIn.set(b, (degIn.get(b) ?? 0) + 1); }
-    const radius = (i: number) => 3 + Math.min(14, Math.sqrt(degIn.get(i) ?? 0) * 1.6);
+    const p = focus === null ? "" : `?focus=${data.nodes[focus].id}`;
+    window.history.replaceState(null, "", p || window.location.pathname);
+  }, [focus, data.nodes]);
 
-    const step = () => {
-      const s = sim.current!;
-      // Grid-based repulsion.
-      const cell = 60;
-      const grid = new Map<string, number[]>();
-      for (const i of ids) { const k = `${Math.floor(s.x[i] / cell)},${Math.floor(s.y[i] / cell)}`; (grid.get(k) ?? grid.set(k, []).get(k)!).push(i); }
-      for (const i of ids) {
-        const gx = Math.floor(s.x[i] / cell), gy = Math.floor(s.y[i] / cell);
-        for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
-          const bucket = grid.get(`${gx + dx},${gy + dy}`); if (!bucket) continue;
-          for (const j of bucket) {
-            if (j === i) continue;
-            let ddx = s.x[i] - s.x[j], ddy = s.y[i] - s.y[j];
-            let d2 = ddx * ddx + ddy * ddy;
-            if (d2 < 1) { ddx = Math.random() - 0.5; ddy = Math.random() - 0.5; d2 = 1; }
-            const f = 900 / d2;
-            s.vx[i] += ddx * f * 0.02; s.vy[i] += ddy * f * 0.02;
-          }
-        }
+  // Layout.
+  const scene = useMemo(() => {
+    const W = 1000, H = 640, cx = W / 2, cy = H / 2;
+    const placed: Placed[] = [];
+    const arcs: Array<{ kind: Kind; a0: number; a1: number; count: number; shown: number }> = [];
+    if (focus === null) {
+      const fronts = data.nodes.map((n, i) => [n, i] as const).filter(([n]) => n.kind === "section");
+      const cancers = data.nodes.map((n, i) => [n, i] as const).filter(([n]) => n.kind === "cancer");
+      fronts.forEach(([n, i], k) => { const a = (k / fronts.length) * Math.PI * 2 - Math.PI / 2; placed.push({ n, x: cx + Math.cos(a) * 150, y: cy + Math.sin(a) * 150, r: 7, ring: 1 }); void i; });
+      cancers.forEach(([n], k) => { const a = (k / cancers.length) * Math.PI * 2 - Math.PI / 2; placed.push({ n, x: cx + Math.cos(a) * 265, y: cy + Math.sin(a) * 265, r: 6, ring: 2 }); });
+      return { W, H, cx, cy, placed, arcs, center: null as Placed | null };
+    }
+    const center: Placed = { n: data.nodes[focus], x: cx, y: cy, r: 14 };
+    const groups = new Map<Kind, number[]>();
+    for (const j of adj[focus]) { const k = data.nodes[j].kind; if (hidden.has(k)) continue; (groups.get(k) ?? groups.set(k, []).get(k)!).push(j); }
+    const kinds = ORDER.filter((k) => groups.has(k));
+    const shownCounts = kinds.map((k) => { const g = groups.get(k)!; return expanded.has(k) ? g.length : Math.min(g.length, MAX_PER_KIND); });
+    const total = shownCounts.reduce((a, b) => a + b, 0) || 1;
+    let a = -Math.PI / 2;
+    kinds.forEach((k, gi) => {
+      const g = groups.get(k)!.slice().sort((x, y) => data.nodes[y].degree - data.nodes[x].degree);
+      const shown = shownCounts[gi];
+      const span = (shown / total) * Math.PI * 2;
+      const gap = Math.min(0.12, span * 0.2);
+      arcs.push({ kind: k, a0: a, a1: a + span, count: g.length, shown });
+      for (let i = 0; i < shown; i++) {
+        const t = shown === 1 ? 0.5 : (i + 0.5) / shown;
+        const ang = a + gap / 2 + t * (span - gap);
+        const rad = 210 + (i % 2) * 44; // alternate radii so labels do not collide
+        placed.push({ n: data.nodes[g[i]], x: cx + Math.cos(ang) * rad, y: cy + Math.sin(ang) * rad, r: 5 });
       }
-      // Springs.
-      for (const [a, b] of visibleEdges) {
-        const dx = s.x[b] - s.x[a], dy = s.y[b] - s.y[a];
-        const d = Math.hypot(dx, dy) || 1;
-        const f = (d - 55) * 0.004;
-        s.vx[a] += dx / d * f; s.vy[a] += dy / d * f; s.vx[b] -= dx / d * f; s.vy[b] -= dy / d * f;
-      }
-      // Centre gravity + integrate.
-      for (const i of ids) {
-        s.vx[i] -= s.x[i] * 0.0015; s.vy[i] -= s.y[i] * 0.0015;
-        s.vx[i] *= 0.85; s.vy[i] *= 0.85;
-        s.x[i] += s.vx[i]; s.y[i] += s.vy[i];
-      }
-    };
+      a += span;
+    });
+    return { W, H, cx, cy, placed, arcs, center };
+  }, [focus, data.nodes, adj, hidden, expanded]);
 
-    const draw = () => {
-      const s = sim.current!;
-      const dpr = window.devicePixelRatio || 1;
-      const W = canvas.clientWidth, H = canvas.clientHeight;
-      if (canvas.width !== W * dpr || canvas.height !== H * dpr) { canvas.width = W * dpr; canvas.height = H * dpr; }
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      ctx.clearRect(0, 0, W, H);
-      const v = view.current;
-      const tx = (x: number) => W / 2 + (x + v.tx) * v.scale, ty = (y: number) => H / 2 + (y + v.ty) * v.scale;
-      const hoverSet = hover !== null ? new Set([hover, ...adjacency[hover]]) : null;
-      ctx.lineWidth = 0.8;
-      for (const [a, b] of visibleEdges) {
-        const lit = hoverSet ? hoverSet.has(a) && hoverSet.has(b) && (a === hover || b === hover) : false;
-        ctx.strokeStyle = lit ? (dark ? "rgba(248,250,252,0.9)" : "rgba(15,23,42,0.85)") : dark ? "rgba(148,163,184,0.18)" : "rgba(71,85,105,0.16)";
-        ctx.lineWidth = lit ? 1.6 : 0.8;
-        ctx.beginPath(); ctx.moveTo(tx(s.x[a]), ty(s.y[a])); ctx.lineTo(tx(s.x[b]), ty(s.y[b])); ctx.stroke();
-      }
-      for (const i of ids) {
-        const n = data.nodes[i];
-        const r = radius(i) * Math.sqrt(v.scale);
-        const dim = hoverSet ? !hoverSet.has(i) : false;
-        ctx.globalAlpha = dim ? 0.25 : 1;
-        ctx.fillStyle = HUE[n.kind];
-        ctx.beginPath(); ctx.arc(tx(s.x[i]), ty(s.y[i]), r, 0, Math.PI * 2); ctx.fill();
-        if (i === focusIndex || i === hover) { ctx.strokeStyle = dark ? "#fff" : "#000"; ctx.lineWidth = 2; ctx.stroke(); }
-        if (r >= 6 || i === hover || i === focusIndex || (hoverSet && hoverSet.has(i))) {
-          ctx.fillStyle = dark ? "#e8e8e6" : "#16181d";
-          ctx.font = `${i === hover ? 600 : 500} ${Math.max(10, Math.min(13, 9 + r / 2))}px system-ui, sans-serif`;
-          ctx.fillText(n.name.length > 28 ? n.name.slice(0, 27) + "…" : n.name, tx(s.x[i]) + r + 3, ty(s.y[i]) + 4);
-        }
-        ctx.globalAlpha = 1;
-      }
-    };
-
-    const focusIndex = focus !== null ? data.nodes.findIndex((n) => n.id === focus) : -1;
-    const loop = () => {
-      if (tick.current < 300) { step(); tick.current++; }
-      draw();
-      raf.current = requestAnimationFrame(loop);
-    };
-    loop();
-    return () => cancelAnimationFrame(raf.current);
-  }, [visible, visibleEdges, adjacency, data.nodes, hover, focus]);
-
-  // Interaction: hover, click, pan, zoom.
+  // Draw.
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-    let dragging = false, lx = 0, ly = 0, moved = false;
-    const pick = (mx: number, my: number): number | null => {
-      const s = sim.current!; const v = view.current;
-      const W = canvas.clientWidth, H = canvas.clientHeight;
-      let best: number | null = null, bd = 12 * 12;
-      for (const i of visible) {
-        const x = W / 2 + (s.x[i] + v.tx) * v.scale, y = H / 2 + (s.y[i] + v.ty) * v.scale;
-        const d = (x - mx) ** 2 + (y - my) ** 2;
-        if (d < bd) { bd = d; best = i; }
-      }
-      return best;
-    };
-    const pos = (e: MouseEvent) => { const r = canvas.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top] as const; };
-    const onMove = (e: MouseEvent) => {
-      const [mx, my] = pos(e);
-      if (dragging) { view.current.tx += (mx - lx) / view.current.scale; view.current.ty += (my - ly) / view.current.scale; lx = mx; ly = my; moved = true; return; }
-      const h = pick(mx, my); setHover(h); canvas.style.cursor = h !== null ? "pointer" : "grab";
-    };
-    const onDown = (e: MouseEvent) => { dragging = true; moved = false; [lx, ly] = pos(e); };
-    const onUp = (e: MouseEvent) => {
-      dragging = false;
-      if (moved) return;
-      const [mx, my] = pos(e); const h = pick(mx, my);
-      if (h !== null) router.push(data.nodes[h].route);
-    };
-    const onWheel = (e: WheelEvent) => { e.preventDefault(); const f = Math.exp(-e.deltaY * 0.0015); view.current.scale = Math.min(6, Math.max(0.2, view.current.scale * f)); };
-    const onLeave = () => { dragging = false; setHover(null); };
-    canvas.addEventListener("mousemove", onMove); canvas.addEventListener("mousedown", onDown); canvas.addEventListener("mouseup", onUp);
-    canvas.addEventListener("wheel", onWheel, { passive: false }); canvas.addEventListener("mouseleave", onLeave);
-    return () => { canvas.removeEventListener("mousemove", onMove); canvas.removeEventListener("mousedown", onDown); canvas.removeEventListener("mouseup", onUp); canvas.removeEventListener("wheel", onWheel); canvas.removeEventListener("mouseleave", onLeave); };
-  }, [visible, data.nodes, router]);
+    const c = canvas.current; if (!c) return;
+    const ctx = c.getContext("2d"); if (!ctx) return;
+    const dpr = window.devicePixelRatio || 1;
+    const { W, H, cx, cy, placed, arcs, center } = scene;
+    c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, W, H);
+    const dark = document.documentElement.dataset.theme === "dark" || (!document.documentElement.dataset.theme && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    const ink = dark ? "#e8e8e6" : "#16181d", faint = dark ? "rgba(232,232,230,0.10)" : "rgba(22,24,29,0.08)";
+    const hoverIdx = hover;
+    const hoverSet = new Set<number>(hoverIdx !== null ? adj[hoverIdx] : []);
+    ctx.font = "12px ui-sans-serif, system-ui, sans-serif";
 
-  const toggleKind = (k: Kind) => setKinds((s) => { const n = new Set(s); if (n.has(k)) n.delete(k); else n.add(k); return n; });
-  const hoverNode = hover !== null ? data.nodes[hover] : null;
+    if (center) {
+      // arcs
+      for (const arc of arcs) {
+        ctx.beginPath(); ctx.strokeStyle = HUE[arc.kind]; ctx.globalAlpha = 0.35; ctx.lineWidth = 3;
+        ctx.arc(cx, cy, 300, arc.a0 + 0.02, arc.a1 - 0.02); ctx.stroke(); ctx.globalAlpha = 1;
+        const mid = (arc.a0 + arc.a1) / 2;
+        ctx.fillStyle = HUE[arc.kind]; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+        ctx.font = "600 11px ui-sans-serif, system-ui, sans-serif";
+        const label = `${KIND_META[arc.kind].plural} ${arc.count}${arc.shown < arc.count ? ` (showing ${arc.shown})` : ""}`;
+        ctx.fillText(label.toUpperCase(), cx + Math.cos(mid) * 318, cy + Math.sin(mid) * 318);
+        ctx.font = "12px ui-sans-serif, system-ui, sans-serif";
+      }
+      // spokes
+      for (const p of placed) {
+        const on = hoverIdx !== null && byId.get(p.n.id) === hoverIdx;
+        ctx.beginPath(); ctx.moveTo(cx, cy);
+        const mx = (cx + p.x) / 2 + (p.y - cy) * 0.08, my = (cy + p.y) / 2 - (p.x - cx) * 0.08;
+        ctx.quadraticCurveTo(mx, my, p.x, p.y);
+        ctx.strokeStyle = on ? HUE[p.n.kind] : faint; ctx.lineWidth = on ? 1.6 : 1; ctx.stroke();
+      }
+    } else if (hoverIdx !== null) {
+      // overview: connections of hovered node among placed nodes
+      const pos = new Map(placed.map((p) => [byId.get(p.n.id)!, p]));
+      const h = pos.get(hoverIdx);
+      if (h) for (const j of adj[hoverIdx]) { const q = pos.get(j); if (!q) continue; ctx.beginPath(); ctx.moveTo(h.x, h.y); ctx.lineTo(q.x, q.y); ctx.strokeStyle = HUE[h.n.kind]; ctx.globalAlpha = 0.35; ctx.lineWidth = 1.2; ctx.stroke(); ctx.globalAlpha = 1; }
+      // rings
+    }
+    if (!center) {
+      for (const r of [150, 265]) { ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.strokeStyle = faint; ctx.lineWidth = 1; ctx.stroke(); }
+      ctx.fillStyle = ink; ctx.textAlign = "center"; ctx.textBaseline = "middle"; ctx.font = "600 14px ui-sans-serif, system-ui, sans-serif"; ctx.fillText("OnCo", cx, cy - 8);
+      ctx.font = "11px ui-sans-serif, system-ui, sans-serif"; ctx.fillStyle = dark ? "#9aa1ad" : "#5b6270"; ctx.fillText("fronts inside · cancers outside", cx, cy + 10); ctx.font = "12px ui-sans-serif, system-ui, sans-serif";
+    }
+    // nodes + labels
+    const drawNode = (p: Placed, big = false) => {
+      const idx = byId.get(p.n.id)!;
+      const on = hoverIdx === idx || hoverSet.has(idx);
+      ctx.beginPath(); ctx.arc(p.x, p.y, big ? 14 : p.r + (on ? 1.5 : 0), 0, Math.PI * 2);
+      ctx.fillStyle = HUE[p.n.kind]; ctx.globalAlpha = hoverIdx !== null && !on && !big ? 0.45 : 1; ctx.fill(); ctx.globalAlpha = 1;
+      ctx.lineWidth = 2; ctx.strokeStyle = dark ? "#0e1013" : "#fbfbfa"; ctx.stroke();
+      const name = p.n.name.replace(/ \(.*\)$/, "");
+      const text = big ? name : name.length > 26 ? name.slice(0, 25) + "…" : name;
+      ctx.fillStyle = on || big ? ink : dark ? "#c8ccd3" : "#3a3f48";
+      ctx.font = big ? "600 14px ui-sans-serif, system-ui, sans-serif" : on ? "600 12px ui-sans-serif, system-ui, sans-serif" : "12px ui-sans-serif, system-ui, sans-serif";
+      if (big) { ctx.textAlign = "center"; ctx.textBaseline = "top"; ctx.fillText(text, p.x, p.y + 20); }
+      else {
+        const dx = p.x - cx, dy = p.y - cy; const right = dx >= 0;
+        ctx.textAlign = right ? "left" : "right"; ctx.textBaseline = "middle";
+        const off = 9 + (Math.abs(dy) > Math.abs(dx) * 3 ? 0 : 0);
+        ctx.fillText(text, p.x + (right ? off : -off), p.y);
+      }
+      ctx.font = "12px ui-sans-serif, system-ui, sans-serif";
+    };
+    for (const p of placed) drawNode(p);
+    if (center) drawNode(center, true);
+  }, [scene, hover, adj, byId]);
+
+  // Hit testing.
+  const hit = (e: React.MouseEvent<HTMLCanvasElement>): number | null => {
+    const c = canvas.current!; const rect = c.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * scene.W, y = ((e.clientY - rect.top) / rect.height) * scene.H;
+    const all = scene.center ? [scene.center, ...scene.placed] : scene.placed;
+    let best: Placed | null = null, bd = 1e9;
+    for (const p of all) { const d = Math.hypot(p.x - x, p.y - y); if (d < 16 && d < bd) { bd = d; best = p; } }
+    return best ? byId.get(best.n.id)! : null;
+  };
+  const go = (i: number) => { if (focus !== null) setTrail((t) => [...t.slice(-7), focus]); setFocus(i); setExpanded(new Set()); };
+
+  const options = useMemo(() => data.nodes.map((n) => ({ value: n.id, label: n.name, group: KIND_META[n.kind].plural })), [data.nodes]);
+  const focusNode = focus !== null ? data.nodes[focus] : null;
+  const kindsPresent = focus !== null ? ORDER.filter((k) => adj[focus].some((j) => data.nodes[j].kind === k)) : [];
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[260px_1fr]">
-      <aside className="space-y-4 text-sm">
-        <div>
-          <div className="kicker mb-1.5">Focus on a node</div>
-          <input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="e.g. TROP2, Enhertu, TNBC" aria-label="Focus search" className="w-full rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40" />
-          {matches.length > 0 && (
-            <ul className="card mt-1 divide-y divide-border">
-              {matches.map((m) => <li key={m.id}><button onClick={() => { setFocus(m.id); setQuery(""); }} className="w-full text-left px-3 py-1.5 hover:bg-foreground/5"><span className={`chip border mr-2 ${KIND_COLOR[m.kind]}`}>{KIND_META[m.kind].label}</span>{m.name}</button></li>)}
-            </ul>
-          )}
-          {focus && <div className="mt-2 flex items-center gap-2"><span className="text-muted">Focused: {data.nodes.find((n) => n.id === focus)?.name}</span><button onClick={() => setFocus(null)} className="underline text-muted">clear</button></div>}
+    <div>
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        <FacetSelect label="Focus" options={options} value={focusNode?.id ?? null} onChange={(v) => { if (v) go(byId.get(v as string)!); else { setFocus(null); setTrail([]); } }} allLabel="Overview" width="w-80" />
+        {focusNode && <button type="button" onClick={() => router.push(focusNode.route)} className="rounded-lg bg-accent text-white px-3 py-1.5 text-sm">Open {KIND_META[focusNode.kind].label.toLowerCase()} page →</button>}
+        {trail.length > 0 && <button type="button" onClick={() => { const prev = trail[trail.length - 1]; setTrail((t) => t.slice(0, -1)); setFocus(prev); }} className="text-sm underline text-muted">← Back</button>}
+        {focusNode && <button type="button" onClick={() => { setFocus(null); setTrail([]); }} className="text-sm underline text-muted">Overview</button>}
+        <span className="ml-auto text-xs text-muted">{focusNode ? `${adj[focus!].length} connections · click a node to refocus` : "Hover a node to see its links · click to focus"}</span>
+      </div>
+      {focusNode && (
+        <div className="flex flex-wrap gap-1.5 mb-3">
+          {kindsPresent.map((k) => {
+            const n = adj[focus!].filter((j) => data.nodes[j].kind === k).length;
+            const off = hidden.has(k);
+            return <button key={k} type="button" onClick={() => setHidden((h) => { const s = new Set(h); if (s.has(k)) s.delete(k); else s.add(k); return s; })} className={`chip border text-[12px] ${off ? "bg-card border-border text-muted line-through" : "text-white border-transparent"}`} style={off ? {} : { background: HUE[k] }}>{KIND_META[k].plural} {n}{!off && n > MAX_PER_KIND && !expanded.has(k) && <span role="button" onClick={(e) => { e.stopPropagation(); setExpanded((x) => new Set([...x, k])); }} className="ml-1 underline">show all</span>}</button>;
+          })}
         </div>
-        {!focus && (
-          <>
-            <div>
-              <div className="kicker mb-1.5">Minimum connections: {minDegree}</div>
-              <input type="range" min={1} max={20} value={minDegree} onChange={(e) => setMinDegree(Number(e.target.value))} className="w-full" aria-label="Minimum degree" />
-            </div>
-            <div>
-              <div className="kicker mb-1.5">Kinds</div>
-              <div className="flex flex-wrap gap-1.5">
-                {KINDS.map((k) => (
-                  <button key={k} onClick={() => toggleKind(k)} className={`chip border text-[12px] ${kinds.has(k) ? KIND_COLOR[k] : "bg-card border-border text-muted line-through"}`}>
-                    <span className="inline-block h-2 w-2 rounded-full mr-1" style={{ background: HUE[k] }} />{KIND_META[k].plural}
-                  </button>
-                ))}
-              </div>
-            </div>
-          </>
-        )}
-        <div className="text-xs text-muted">{visible.size} nodes · {visibleEdges.length} edges. Scroll to zoom, drag to pan, click a node to open it.</div>
-      </aside>
-      <div className="card relative overflow-hidden">
-        <canvas ref={canvasRef} className="block w-full h-[70vh] min-h-[480px]" aria-label="Knowledge graph" />
-        {hoverNode && (
-          <div className="absolute left-3 bottom-3 card px-3 py-2 text-sm shadow pointer-events-none">
-            <span className={`chip border mr-2 ${KIND_COLOR[hoverNode.kind]}`}>{KIND_META[hoverNode.kind].label}</span><span className="font-medium">{hoverNode.name}</span><span className="text-muted"> · {hoverNode.degree} links</span>
-          </div>
-        )}
+      )}
+      <div className="card overflow-hidden">
+        <canvas ref={canvas} className="w-full h-auto cursor-pointer" style={{ aspectRatio: "1000 / 640" }} aria-label="Knowledge graph"
+          onMouseMove={(e) => setHover(hit(e))} onMouseLeave={() => setHover(null)}
+          onClick={(e) => { const i = hit(e); if (i === null) return; if (i === focus) router.push(data.nodes[i].route); else go(i); }} />
+      </div>
+      <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted">
+        {KINDS.map((k) => <span key={k} className="inline-flex items-center gap-1"><span className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: HUE[k] }} />{KIND_META[k].plural}</span>)}
+        <span className="ml-auto">Terms and collections are hidden by default; toggle them above when focused.</span>
       </div>
     </div>
   );

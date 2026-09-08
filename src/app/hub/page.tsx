@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { hubIdeas } from "@/data/hub-ideas";
+import { hubIdeas, hubIdeas2 } from "@/data/hub-ideas";
 import { Container, PageHeader } from "@/components/ui";
 import { statusClass } from "@/lib/text";
 
@@ -20,6 +20,23 @@ export default function Hub() {
             <h2 className="text-lg font-semibold mb-3">{t}</h2>
             <ol className="card divide-y divide-border">
               {hubIdeas.filter((h) => h.theme === t).map((h) => (
+                <li key={h.n} className="p-4 grid sm:grid-cols-[3rem_1fr_auto] gap-3">
+                  <span className="font-mono text-muted tabular-nums">{String(h.n).padStart(2, "0")}</span>
+                  <div><div className="font-medium">{h.title}</div><p className="text-sm text-muted mt-0.5">{h.why}</p></div>
+                  <span className={`chip self-start ${statusClass(tone[h.status])}`}>{h.status}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+        <h2 className="text-2xl font-semibold tracking-tight mt-16 mb-2">Roadmap two: better, deeper, more user-friendly, more powerful</h2>
+        <p className="text-muted text-sm mb-6">Fifty more ideas proposed on 7 September 2026; most were built the same day by parallel agents and wired in by hand.</p>
+        <div className="flex flex-wrap gap-2 mb-8 text-sm">{["shipped", "building", "planned", "proposed"].map((s) => <span key={s} className={`chip ${statusClass(tone[s])}`}>{hubIdeas2.filter((h) => h.status === s).length} {s}</span>)}</div>
+        {[...new Set(hubIdeas2.map((h) => h.theme))].map((t) => (
+          <section key={t} className="mt-8">
+            <h3 className="text-lg font-semibold mb-3">{t}</h3>
+            <ol className="card divide-y divide-border">
+              {hubIdeas2.filter((h) => h.theme === t).map((h) => (
                 <li key={h.n} className="p-4 grid sm:grid-cols-[3rem_1fr_auto] gap-3">
                   <span className="font-mono text-muted tabular-nums">{String(h.n).padStart(2, "0")}</span>
                   <div><div className="font-medium">{h.title}</div><p className="text-sm text-muted mt-0.5">{h.why}</p></div>

@@ -4,3 +4,4 @@ node_modules
 public/api/v1
 .git
 coverage
+.claude

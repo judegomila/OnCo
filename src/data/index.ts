@@ -21,6 +21,7 @@ import { frontier } from "./frontier";
 import { people } from "./people";
 import { bottlenecks } from "./bottlenecks";
 import { sources } from "./sources";
+import { mechanisms } from "./mechanisms";
 import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
@@ -49,6 +50,7 @@ export const ALL_INPUTS: EntityInput[] = [
   ...bottlenecks,
   ...ideaWaves,
   ...sources,
+  ...mechanisms,
   ...foundationModels,
   ...foundationRoadmaps,
 ];

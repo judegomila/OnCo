@@ -957,7 +957,7 @@ export const technologies: TechnologyInput[] = [
     limitations: ["Workforce and access"],
   },
   {
-    id: "exercise-oncology", kind: "technology", name: "Exercise & lifestyle oncology", sections: ["supportive-care", "prevention"], status: "established", asOf,
+    id: "exercise-oncology", kind: "technology", name: "Exercise & lifestyle oncology", sections: ["supportive-care", "prevention", "nutrition-lifestyle"], status: "established", asOf,
     tldr: "Structured exercise during and after treatment, which the CHALLENGE trial showed improves survival in colon cancer.",
     summary: "The CHALLENGE trial (NEJM 2025) randomised colon cancer survivors to a structured exercise programme and showed improved disease-free and overall survival, the first level-1 evidence that exercise changes cancer outcomes. Exercise also reduces fatigue, cardiotoxicity, and chemotherapy-induced neuropathy.",
     principle: "Aerobic and resistance training modulating insulin, inflammation, and immune function.",

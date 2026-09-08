@@ -26,6 +26,7 @@ import { frontierRoadmaps } from "./frontier-roadmap";
 import { supporting } from "./supporting";
 import { gapFill } from "./gap-fill";
 import { keyPapers } from "./key-papers";
+import { nutrition } from "./nutrition";
 import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
@@ -59,6 +60,7 @@ export const ALL_INPUTS: EntityInput[] = [
   ...supporting,
   ...gapFill,
   ...keyPapers,
+  ...nutrition,
   ...foundationModels,
   ...foundationRoadmaps,
 ];

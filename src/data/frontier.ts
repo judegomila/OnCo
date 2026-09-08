@@ -118,7 +118,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: bacteriophage cancer", url: "https://clinicaltrials.gov/search?term=bacteriophage%20cancer" }],
   },
   {
-    id: "microbiome-modulation-io", kind: "technology", name: "Microbiome modulation to unlock immunotherapy", sections: ["immunotherapy", "supportive-care"], status: "phase-2", asOf: RAD,
+    id: "microbiome-modulation-io", kind: "technology", name: "Microbiome modulation to unlock immunotherapy", sections: ["immunotherapy", "supportive-care", "nutrition-lifestyle"], status: "phase-2", asOf: RAD,
     tldr: "Changing the gut bacteria of a patient whose immunotherapy stopped working, in the hope of restarting the response.",
     summary: "Gut composition predicts checkpoint-inhibitor response across cohorts, and small single-arm studies of faecal transplant from responders reported that a minority of refractory melanoma patients regained response. Randomised work is now running: LND101 with checkpoint blockade in advanced melanoma (NCT06623461, phase 2, Canadian Cancer Trials Group), an Oslo phase 2 using responder stool (NCT05286294), and a Netherlands Cancer Institute study (NCT05251389). Defined bacterial consortia are being developed as an alternative to whole stool.",
     principle: "Transferring or supplementing gut commensals alters antigen presentation, systemic interferon tone, and intratumoural T-cell infiltration, restoring sensitivity to PD-1 blockade.",
@@ -272,7 +272,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "Perioperative propranolol in PDAC (NCT06145074)", url: "https://clinicaltrials.gov/study/NCT06145074" }, { label: "Beta-blockade in ovarian cancer (NCT06839144)", url: "https://clinicaltrials.gov/study/NCT06839144" }],
   },
   {
-    id: "cachexia-therapy", kind: "technology", name: "Cachexia-directed therapy (GDF-15 blockade)", sections: ["supportive-care"], status: "phase-3", asOf: RAD,
+    id: "cachexia-therapy", kind: "technology", name: "Cachexia-directed therapy (GDF-15 blockade)", sections: ["supportive-care", "nutrition-lifestyle"], status: "phase-3", asOf: RAD,
     tldr: "Treating the wasting that kills many cancer patients, by blocking the hormone that suppresses appetite.",
     summary: "GDF-15 rises in advanced cancer and acts on the brainstem to suppress appetite. Pfizer's ponsegromab, a GDF-15 antibody, improved weight in a phase 2 in patients with elevated GDF-15 (NCT05546476, completed) and has moved into a phase 2/3 programme in pancreatic cancer-associated cachexia (NCT06989437, recruiting since October 2025), with a further lung cancer study planned (NCT07663630). Cachexia has no approved disease-modifying therapy, so a positive phase 3 would be a first.",
     principle: "Neutralising circulating GDF-15 removes the anorexigenic signal at the GFRAL receptor in the hindbrain, restoring appetite and lean mass.",
@@ -283,7 +283,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "Ponsegromab phase 2/3 in PDAC cachexia (NCT06989437)", url: "https://clinicaltrials.gov/study/NCT06989437" }, { label: "Phase 2 (NCT05546476)", url: "https://clinicaltrials.gov/study/NCT05546476" }],
   },
   {
-    id: "chronotherapy", kind: "technology", name: "Chronotherapy: timing treatment to the body clock", sections: ["chemotherapy", "immunotherapy", "supportive-care"], status: "phase-2", asOf: RAD,
+    id: "chronotherapy", kind: "technology", name: "Chronotherapy: timing treatment to the body clock", sections: ["chemotherapy", "immunotherapy", "supportive-care", "nutrition-lifestyle"], status: "phase-2", asOf: RAD,
     tldr: "Giving the same drug at a different time of day, because the body clock changes how much damage it does and how well the immune system responds.",
     summary: "Retrospective series repeatedly report better outcomes when checkpoint inhibitors are infused earlier in the day, and chronomodulated chemotherapy has a long European history in colorectal cancer with mixed randomised results. The signal is confounded: patients infused late are often sicker or attend different clinics. Prospective randomised trials of infusion timing are small and ongoing, and nothing has changed practice.",
     principle: "Circadian variation in drug metabolism, DNA repair and immune-cell trafficking makes both toxicity and efficacy depend on time of day.",
@@ -294,7 +294,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: time-of-day immunotherapy infusion", url: "https://clinicaltrials.gov/search?term=time%20of%20day%20immunotherapy%20infusion" }],
   },
   {
-    id: "metabolic-therapy", kind: "technology", name: "Metabolic therapy: starving the tumour of a nutrient", sections: ["targeted-therapy", "chemotherapy"], status: "phase-2", asOf: RAD,
+    id: "metabolic-therapy", kind: "technology", name: "Metabolic therapy: starving the tumour of a nutrient", sections: ["targeted-therapy", "chemotherapy", "nutrition-lifestyle"], status: "phase-2", asOf: RAD,
     tldr: "Removing an amino acid or nutrient that certain tumours cannot make for themselves, while normal cells can.",
     summary: "Arginine deprivation with pegargiminase (ADI-PEG 20) exploits ASS1 loss; the phase 2/3 ATOMIC-Meso study in mesothelioma completed (NCT02709512), while the phase 3 leiomyosarcoma study (NCT05712694) and a lung study were terminated. Glutaminase inhibition failed in renal cancer, asparaginase remains standard in ALL, and dietary approaches such as ketogenic or fasting-mimicking regimens have only small randomised trials with mixed results. The lesson so far is that metabolic dependencies are real but narrow.",
     principle: "Enzymatic depletion of a circulating nutrient (arginine, asparagine, methionine) kills tumour cells that have lost the biosynthetic enzyme, while normal cells resynthesise it.",

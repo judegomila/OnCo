@@ -33,6 +33,11 @@ import { sourceLocation } from "@/lib/source-location";
 import { ProvenanceLine } from "./ProvenanceLine";
 import { ConfidenceChip, ConfidenceLegend } from "./ConfidenceChip";
 import { ProcessSchematic } from "./ProcessSchematic";
+import { DosingCard } from "./DosingCard";
+import { ToxicityTable } from "./ToxicityTable";
+import { AccessTable } from "./AccessTable";
+import { RegulatoryTimeline } from "./RegulatoryTimeline";
+import { MechanismCard } from "./MechanismCard";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 
@@ -183,6 +188,7 @@ function kindTabs(e: Entity): Tab[] {
         overview(<>
           {STRUCTURES[e.id] ? <div className="mt-8"><MoleculeViewer entries={STRUCTURES[e.id]} /></div> : <DrugSchematic technologies={e.technologies} modality={e.modality} />}
           <div className="mt-6"><ProcessSchematic entity={e} /></div>
+          {e.mechanismSteps.length > 0 && <div className="mt-6"><MechanismCard steps={e.mechanismSteps} /></div>}
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Modality">{e.modality}</Field>
             <Field label="Mechanism">{e.mechanism}</Field>
@@ -190,10 +196,15 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Payload">{e.payload}</Field>
             <Field label="Linker">{e.linker}</Field>
           </div>
+          {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
         </>),
-        ...(e.approvals.length ? [{ id: "approvals", label: "Approvals", count: e.approvals.length, content: (
-          <table className="onco"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
-            <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> — {a.note}</span>}</td></tr>)}</tbody></table>) }] : []),
+        ...(e.approvals.length || e.regulatoryEvents.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length, content: (<>
+          {e.regulatoryEvents.length > 0 && <RegulatoryTimeline events={e.regulatoryEvents} />}
+          {e.approvals.length > 0 && <Block title="Approvals"><table className="onco"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
+            <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> — {a.note}</span>}</td></tr>)}</tbody></table></Block>}
+        </>) }] : []),
+        ...(e.toxicity.length ? [{ id: "safety", label: "Safety", count: e.toxicity.length, content: <ToxicityTable toxicity={e.toxicity} /> }] : []),
+        ...(e.access.length ? [{ id: "access", label: "Cost & access", count: e.access.length, content: <AccessTable access={e.access} /> }] : []),
         { id: "trials", label: "Trials", content: <><TrialCounts drugId={e.id} /><Block title="Recruiting now (live from ClinicalTrials.gov)"><TrialFinder intervention={interventionQuery(e.name)} title={e.name} /></Block>{e.trials.length > 0 && <Block title="Landmark trials in OnCo"><Refs ids={e.trials} /></Block>}</> },
       ];
     case "company":

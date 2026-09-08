@@ -45,6 +45,8 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/failures/", label: "Failure museum", blurb: "What did not work, and the lesson." },
       { href: "/resistance/", label: "Resistance atlas", blurb: "Escape routes per drug class and the countermeasures." },
       { href: "/payloads/", label: "Payloads & linkers", blurb: "The chemistry inside ADCs." },
+      { href: "/regulatory/", label: "Regulatory timeline", blurb: "Every dated filing, approval, CRL, and label change." },
+      { href: "/toxicity/", label: "Toxicity compare", blurb: "Grade 3+ adverse events across products of the same class." },
       { href: "/isotopes/", label: "Isotope supply", blurb: "Lu-177, Ac-225, Pb-212 and who makes them." },
       { href: "/report/2026/", label: "State of the war, 2026", blurb: "The annual report generated from the corpus." },
       { href: "/changelog/", label: "Changelog", blurb: "What changed in OnCo, and when." },

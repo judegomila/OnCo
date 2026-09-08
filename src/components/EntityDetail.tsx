@@ -42,7 +42,7 @@ import { TldrText } from "./TldrText";
 import { FrontSchematic } from "./FrontSchematic";
 import { TermSchematic } from "./TermSchematic";
 import { DrugGrid } from "./DrugCard";
-import type { Drug } from "@/lib/schema";
+import type { Drug, Paper } from "@/lib/schema";
 import { LayerAware } from "./LayerAware";
 import { withTermHovers } from "@/lib/term-hover";
 import { paperQuery } from "@/lib/europepmc";
@@ -98,6 +98,7 @@ export function EntityDetail({ e }: { e: Entity }) {
   const tabs: Tab[] = [
     ...kindTabs(e),
     ...(e.notes.length ? [{ id: "notes", label: "Notes", content: <Bullets items={e.notes} /> }] : []),
+    ...keyPapersTab(e),
     ...papersTab(e),
     { id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} /> },
   ];
@@ -379,6 +380,20 @@ function kindTabs(e: Entity): Tab[] {
       ];
     }
   }
+}
+
+/** Key papers in the corpus that cite this object, with what they mean in plain English. */
+function keyPapersTab(e: Entity): Tab[] {
+  const g = graph();
+  const papers = [...new Map([...(g.incoming(e.id).get("paper") ?? []), ...e.keyPapers.map((id) => g.get(id)).filter((x): x is Entity => !!x)].map((p) => [p.id, p])).values()].filter((p): p is Paper => p.kind === "paper").sort((a, b) => b.year - a.year);
+  if (!papers.length) return [];
+  return [{ id: "key-papers", label: "Key papers", count: papers.length, content: (
+    <div className="grid gap-3 md:grid-cols-2">{papers.map((p) => (
+      <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition">
+        <div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.journal} {p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}</div>
+        <div className="font-medium leading-snug">{p.name}</div>
+        <p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p>
+      </Link>))}</div>) }];
 }
 
 /** Live literature: what the world is publishing about this object, from Europe PMC, plus the weekly-refreshed trend. */

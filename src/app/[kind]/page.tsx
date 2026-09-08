@@ -33,7 +33,7 @@ const logoFor = (id: string, website?: string) => logoSrc(id, website);
 function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[]; hideStatus?: boolean; hideTldr?: boolean; defaultSort?: { key: string; dir: 1 | -1 } } {
   const g = graph();
   const names = (ids: string[]) => ids.map((id) => short(g.must(id).name));
-  const links = (ids: string[]) => ids.map((id) => { const x = g.must(id); return { label: short(x.name), href: routeFor(x) }; });
+  const links = (ids: string[]) => ids.map((id) => { const x = g.must(id); return { label: short(x.name), href: routeFor(x), tip: x.tldr }; });
   const base = (e: Entity): BrowserRow => ({ id: e.id, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status, facets: {}, cols: {} });
   const frontsOf = (e: Entity) => [...new Set([...e.sections, ...e.technologies.flatMap((t) => g.must(t).sections)])].map((id) => g.must(id).name);
   const inc = (id: string, kind: Kind) => g.incoming(id).get(kind) ?? [];

@@ -2,7 +2,8 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { STATUS_LABEL, statusClass } from "@/lib/text";
+import { Tip } from "@/components/Tip";
+import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
 
@@ -23,9 +24,10 @@ export type BrowserRow = {
   logo?: string;
 };
 
-export type LinkList = Array<{ label: string; href: string }>;
+/** A list of linked objects; `tip` is the object's one-line explanation, shown on hover. */
+export type LinkList = Array<{ label: string; href: string; tip?: string }>;
 export type FacetDef = { key: string; label: string; searchable?: boolean; width?: string; order?: string[] };
-export type ColDef = { key: string; label: string; sortable?: boolean; hide?: string; className?: string; numeric?: boolean; chip?: boolean };
+export type ColDef = { key: string; label: string; sortable?: boolean; hide?: string; className?: string; numeric?: boolean; chip?: boolean; tip?: string; /** Tips for chip/string values keyed by value, e.g. { "Phase 3": "..." }. */ valueTips?: Record<string, string> };
 
 const STATUS_ORDER = ["approved", "standard-of-care", "positive", "phase-3", "established", "completed", "recruiting", "active", "phase-2", "emerging", "phase-1", "preclinical", "concept", "planned", "mixed", "historic", "negative", "withdrawn"];
 
@@ -92,14 +94,16 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
         )}
         <div><Link href={r.route} className="font-medium hover:underline">{r.name}</Link>{r.sub && <div className="text-xs text-muted">{r.sub}</div>}{!hideTldr && <div className="text-xs text-muted line-clamp-2 max-w-lg">{r.tldr}</div>}</div>
       </div>) },
-    ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, render: (r: BrowserRow) => r.status ? <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span> : null } as Column<BrowserRow>]),
+    ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, render: (r: BrowserRow) => r.status ? (STATUS_TIPS[r.status] ? <Tip title={STATUS_LABEL[r.status] ?? r.status} text={STATUS_TIPS[r.status]}><span className={`chip cursor-help ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span></Tip> : <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span>) : null } as Column<BrowserRow>]),
     ...columns.map((c): Column<BrowserRow> => ({
-      key: c.key, label: c.label, sortable: c.sortable, hide: c.hide, className: c.className,
+      key: c.key, label: c.label, sortable: c.sortable, hide: c.hide, className: c.className, tip: c.tip,
       render: (r) => {
         const v = r.cols[c.key];
         if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted">—</span>;
-        if (Array.isArray(v)) return <span className="text-muted">{v.map((l, i) => <span key={l.href}>{i > 0 && ", "}<Link href={l.href} className="hover:underline hover:text-foreground">{l.label}</Link></span>)}</span>;
-        return c.chip ? <span className="chip bg-foreground/5">{v}</span> : <span className={`text-muted ${c.numeric ? "tabular-nums" : ""}`}>{v}</span>;
+        if (Array.isArray(v)) return <span className="text-muted">{v.map((l, i) => <span key={l.href}>{i > 0 && ", "}{l.tip ? <Tip title={l.label} text={l.tip} href={l.href}><Link href={l.href} className="hover:underline hover:text-foreground underline decoration-dotted decoration-foreground/25 underline-offset-[3px]">{l.label}</Link></Tip> : <Link href={l.href} className="hover:underline hover:text-foreground">{l.label}</Link>}</span>)}</span>;
+        const vt = c.valueTips?.[String(v)];
+        const cell = c.chip ? <span className="chip bg-foreground/5">{v}</span> : <span className={`text-muted ${c.numeric ? "tabular-nums" : ""}`}>{v}</span>;
+        return vt ? <Tip title={String(v)} text={vt}><span className="cursor-help">{cell}</span></Tip> : cell;
       },
     })),
   ];

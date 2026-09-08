@@ -20,6 +20,9 @@ import { groups } from "./groups";
 import { frontier } from "./frontier";
 import { people } from "./people";
 import { bottlenecks } from "./bottlenecks";
+import { sources } from "./sources";
+import { foundationModels } from "./foundation-models";
+import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
 
 export const ALL_INPUTS: EntityInput[] = [
@@ -43,4 +46,9 @@ export const ALL_INPUTS: EntityInput[] = [
   ...groups,
   ...frontier,
   ...people,
+  ...bottlenecks,
+  ...ideaWaves,
+  ...sources,
+  ...foundationModels,
+  ...foundationRoadmaps,
 ];

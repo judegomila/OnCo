@@ -1,6 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
+import { Tip, COLUMN_TIPS } from "@/components/Tip";
 
 export type Column<T> = {
   key: string;
@@ -10,6 +11,8 @@ export type Column<T> = {
   className?: string;
   /** Tailwind visibility classes, e.g. "hidden md:table-cell". */
   hide?: string;
+  /** Plain-English explanation shown on hover of the header; falls back to COLUMN_TIPS by label. */
+  tip?: string;
 };
 
 export type SortState = { key: string; dir: 1 | -1 };
@@ -25,11 +28,15 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "
           <tr>
             {columns.map((c) => (
               <th key={c.key} className={`${c.hide ?? ""} ${c.className ?? ""}`}>
-                {c.sortable && onSort ? (
-                  <button type="button" onClick={() => onSort(c.key)} className={`inline-flex items-center gap-1 ${sort?.key === c.key ? "text-foreground" : ""}`}>
-                    {c.label}{sort?.key === c.key && <span aria-hidden>{sort.dir === -1 ? "↓" : "↑"}</span>}
-                  </button>
-                ) : c.label}
+                {(() => {
+                  const tip = c.tip ?? COLUMN_TIPS[c.label];
+                  const label = tip ? <Tip text={tip} title={c.label}><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{c.label}</span></Tip> : c.label;
+                  return c.sortable && onSort ? (
+                    <button type="button" onClick={() => onSort(c.key)} className={`inline-flex items-center gap-1 ${sort?.key === c.key ? "text-foreground" : ""}`}>
+                      {label}{sort?.key === c.key && <span aria-hidden>{sort.dir === -1 ? "↓" : "↑"}</span>}
+                    </button>
+                  ) : label;
+                })()}
               </th>
             ))}
           </tr>

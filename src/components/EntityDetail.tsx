@@ -47,6 +47,9 @@ import { LayerAware } from "./LayerAware";
 import { withTermHovers } from "@/lib/term-hover";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
+import { RegionStrip } from "./RegionMatrix";
+import { regionalApprovals } from "@/data/regional-approvals";
+import { CountryCasesMini } from "./CountryCasesMini";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
@@ -206,6 +209,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Linker">{e.linker}</Field>
           </div>
           {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
+          {regionalApprovals[e.id] && <div className="mt-6"><div className="kicker mb-2">Where it is approved</div><RegionStrip row={regionalApprovals[e.id]} /><p className="text-xs text-muted mt-1"><Link className="underline" href="/regulatory/regions/">Compare all products across the US, EU, UK, Japan, China and Australia →</Link></p></div>}
         </>),
         ...(e.approvals.length || e.regulatoryEvents.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length, content: (<>
           {e.regulatoryEvents.length > 0 && <RegulatoryTimeline events={e.regulatoryEvents} />}
@@ -406,6 +410,7 @@ function cancerTabs(c: Cancer): Tab[] {
         <Field label="Group"><span className="capitalize">{c.group}</span></Field>
       </div>
       <Block title="State of the art today"><Bullets items={c.stateOfArt} /></Block>
+      <Block title="Where the cases are"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
     </> },
     { id: "care", label: "Standard of care", count: c.standardOfCare.length, content: (
       <div className="space-y-3">

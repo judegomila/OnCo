@@ -24,6 +24,28 @@ export const STATUS_LABEL: Record<string, string> = {
   planned: "Planned",
 };
 
+/** Plain-English meaning of each status, for tooltips. */
+export const STATUS_TIPS: Record<string, string> = {
+  approved: "A regulator (FDA, EMA or another) has cleared it for at least one use.",
+  "phase-3": "In the last, largest stage of testing: compared head to head against the current standard of care.",
+  "phase-2": "Being tested in a few hundred patients to see whether it works and at what dose.",
+  "phase-1": "First tests in people, mostly for safety and dose.",
+  preclinical: "Lab and animal work only; not yet given to people.",
+  concept: "An idea or design; no experiments yet.",
+  "standard-of-care": "What guidelines recommend today for this situation.",
+  established: "Mature, widely used and well understood.",
+  emerging: "New, promising, not yet routine.",
+  historic: "Once important, now superseded; kept for context.",
+  withdrawn: "Pulled from the market or from development.",
+  active: "Ongoing but not recruiting new patients.",
+  completed: "Finished enrolling and following patients.",
+  recruiting: "Open and looking for patients now.",
+  positive: "Met its main goal.",
+  negative: "Did not meet its main goal.",
+  mixed: "Some goals met, others not, or results disputed.",
+  planned: "Announced but not yet started.",
+};
+
 /** Tailwind classes per status; evidence tiers get a consistent visual language. */
 export function statusClass(status?: string): string {
   switch (status) {

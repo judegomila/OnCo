@@ -6,7 +6,41 @@
 export type Vec3 = [number, number, number];
 export type Segment = [number, number] | [number, number, string];
 export type Label = { at: Vec3; text: string };
-export type Mesh = { points: Vec3[]; segments: Segment[]; labels?: Label[] };
+/** One animation frame: replacement point positions (same length as `points`), per-segment alpha multipliers (0-1), an optional caption, and optional label overrides. */
+export type Frame = { points?: Vec3[]; alpha?: number[]; caption?: string; labels?: Label[] };
+export type Animation = { duration: number; frame: (t: number) => Frame };
+/** `anim` names an animated builder (see data/animated.ts); server components pass this marker and the client viewer builds the animation, because functions cannot cross the server→client boundary. */
+export type Mesh = { points: Vec3[]; segments: Segment[]; labels?: Label[]; animate?: Animation; anim?: string };
+
+/** Interpolation helpers for animations. */
+export const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
+export const lerp3 = (a: Vec3, b: Vec3, t: number): Vec3 => [lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)];
+export const clamp01 = (t: number) => Math.max(0, Math.min(1, t));
+/** Maps t from [a,b] to [0,1], clamped, smoothstep-eased. */
+export const phase = (t: number, a: number, b: number) => { const u = clamp01((t - a) / (b - a)); return u * u * (3 - 2 * u); };
+
+/** Named part of a composed mesh: index ranges into points/segments, so animations can transform parts independently. */
+export type Part = { p0: number; p1: number; s0: number; s1: number };
+/** Append `m` as a named part; returns its index ranges. */
+export function part(target: Mesh, m: Mesh, opts: Parameters<typeof add>[2] = {}): Part {
+  const p0 = target.points.length, s0 = target.segments.length;
+  add(target, m, opts);
+  return { p0, p1: target.points.length, s0, s1: target.segments.length };
+}
+/** Transform a part in a frame buffer: translate by dx, scale about the part centroid, optionally spin around Y. */
+export function movePart(buf: Vec3[], base: Vec3[], pt: Part, dx: Vec3, scale = 1, spin = 0): void {
+  let cx = 0, cy = 0, cz = 0; const n = pt.p1 - pt.p0 || 1;
+  for (let i = pt.p0; i < pt.p1; i++) { cx += base[i][0]; cy += base[i][1]; cz += base[i][2]; }
+  cx /= n; cy /= n; cz /= n;
+  const c = Math.cos(spin), si = Math.sin(spin);
+  for (let i = pt.p0; i < pt.p1; i++) {
+    let x = (base[i][0] - cx) * scale, z = (base[i][2] - cz) * scale;
+    const y = (base[i][1] - cy) * scale;
+    if (spin) { const x1 = x * c + z * si; z = -x * si + z * c; x = x1; }
+    buf[i] = [x + cx + dx[0], y + cy + dx[1], z + cz + dx[2]];
+  }
+}
+export function setAlpha(alpha: number[], pt: Part, a: number): void { for (let i = pt.s0; i < pt.s1; i++) alpha[i] = a; }
 
 const TAU = Math.PI * 2;
 

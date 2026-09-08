@@ -39,7 +39,7 @@ export function ExpertCentres({ cancerId }: { cancerId: string }) {
         <ul className="divide-y divide-border">
           {rows.map(({ inst, via }) => (
             <li key={inst.id} className="py-2.5 flex items-start gap-3">
-              <Logo website={inst.website} name={inst.name} size={36} />
+              <Logo id={inst.id} website={inst.website} name={inst.name} size={36} />
               <div className="min-w-0 flex-1">
                 <div className="flex flex-wrap items-baseline gap-x-2">
                   <Link href={routeFor(inst)} className="font-medium hover:underline">{inst.name}</Link>

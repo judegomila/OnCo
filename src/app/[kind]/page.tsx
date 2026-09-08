@@ -10,6 +10,7 @@ import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef } from "@/co
 import structureIndex from "../../../public/structures/index.json";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { TermSchematic } from "@/components/TermSchematic";
+import { logoSrc } from "@/lib/logos";
 
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route, k])) as Record<string, Kind>;
 
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ kind: str
 
 const cap = (s: string) => s[0].toUpperCase() + s.slice(1);
 const short = (s: string) => s.replace(/ \(.*\)$/, "");
-const logoFor = (website?: string) => { try { return website ? `https://www.google.com/s2/favicons?domain=${encodeURIComponent(new URL(website).hostname.replace(/^www\./, ""))}&sz=128` : undefined; } catch { return undefined; } };
+const logoFor = (id: string, website?: string) => logoSrc(id, website);
 
 /** Every kind gets the same templated table; this function decides facets, columns, and row values per kind. */
 function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[]; hideStatus?: boolean; hideTldr?: boolean; defaultSort?: { key: string; dir: 1 | -1 } } {
@@ -80,7 +81,7 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
       const label: Record<string, string> = { pharma: "Large pharma", biotech: "Biotech", diagnostics: "Diagnostics", imaging: "Imaging equipment", devices: "Devices & RT hardware", "ai-software": "AI & software", radiopharma: "Radiopharmaceuticals", "cell-therapy": "Cell therapy", "cro-services": "Services", nonprofit: "Nonprofit" };
       return {
         hideStatus: true,
-        rows: g.kind("company").map((c) => { const products = new Set([...c.drugs, ...inc(c.id, "drug").map((d) => d.id)]).size; const techs = new Set([...c.technologies, ...inc(c.id, "technology").map((t) => t.id)]).size; return { ...base(c), logo: logoFor(c.website), sub: `${c.hq}, ${c.country}${c.ticker ? ` · ${c.ticker}` : ""}`, facets: { type: [label[c.companyType] ?? c.companyType], country: [c.country], front: c.sections.map((id) => g.must(id).name), cancers: names(c.cancers) }, cols: { type: label[c.companyType] ?? c.companyType, hq: c.hq, products, techs }, sortKeys: { products, techs } }; }),
+        rows: g.kind("company").map((c) => { const products = new Set([...c.drugs, ...inc(c.id, "drug").map((d) => d.id)]).size; const techs = new Set([...c.technologies, ...inc(c.id, "technology").map((t) => t.id)]).size; return { ...base(c), logo: logoFor(c.id, c.website), sub: `${c.hq}, ${c.country}${c.ticker ? ` · ${c.ticker}` : ""}`, facets: { type: [label[c.companyType] ?? c.companyType], country: [c.country], front: c.sections.map((id) => g.must(id).name), cancers: names(c.cancers) }, cols: { type: label[c.companyType] ?? c.companyType, hq: c.hq, products, techs }, sortKeys: { products, techs } }; }),
         facets: [{ key: "type", label: "Type", searchable: false, width: "w-52" }, { key: "country", label: "Country", searchable: false, width: "w-40" }, { key: "front", label: "Front", searchable: false, width: "w-44" }, { key: "cancers", label: "Cancer", width: "w-52" }],
         columns: [{ key: "type", label: "Type", sortable: true, hide: "hidden sm:table-cell" }, { key: "hq", label: "HQ", hide: "hidden md:table-cell" }, { key: "products", label: "Products", sortable: true, numeric: true }, { key: "techs", label: "Technologies", sortable: true, numeric: true, hide: "hidden lg:table-cell" }],
         defaultSort: { key: "products", dir: -1 },
@@ -90,7 +91,7 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
       const ranked = rankInstitutions();
       return {
         hideStatus: true, hideTldr: true,
-        rows: ranked.map((r) => { const i = r.institution; return { ...base(i), logo: logoFor(i.website), sub: [i.university, `${i.city}, ${i.country}`].filter(Boolean).join(" · "), facets: { type: [cap(i.institutionType.replace("-", " "))], country: [i.country], nci: i.nci ? [cap(i.nci)] : [], cancers: names(i.cancers) }, cols: { rank: r.rank, type: cap(i.institutionType.replace("-", " ")), newsweek: i.newsweekOncology2026, nci: i.nci ? cap(i.nci) : undefined, links: r.links, score: r.score }, sortKeys: { rank: r.rank, newsweek: i.newsweekOncology2026 ?? 999, links: r.links, score: r.score } }; }),
+        rows: ranked.map((r) => { const i = r.institution; return { ...base(i), logo: logoFor(i.id, i.website), sub: [i.university, `${i.city}, ${i.country}`].filter(Boolean).join(" · "), facets: { type: [cap(i.institutionType.replace("-", " "))], country: [i.country], nci: i.nci ? [cap(i.nci)] : [], cancers: names(i.cancers) }, cols: { rank: r.rank, type: cap(i.institutionType.replace("-", " ")), newsweek: i.newsweekOncology2026, nci: i.nci ? cap(i.nci) : undefined, links: r.links, score: r.score }, sortKeys: { rank: r.rank, newsweek: i.newsweekOncology2026 ?? 999, links: r.links, score: r.score } }; }),
         facets: [{ key: "type", label: "Type", searchable: false, width: "w-48" }, { key: "country", label: "Country", searchable: false, width: "w-40" }, { key: "nci", label: "NCI", searchable: false, width: "w-40" }, { key: "cancers", label: "Cancer", width: "w-52" }],
         columns: [{ key: "rank", label: "#", sortable: true, numeric: true }, { key: "type", label: "Type", hide: "hidden md:table-cell" }, { key: "newsweek", label: "Newsweek 2026", sortable: true, numeric: true, hide: "hidden sm:table-cell" }, { key: "nci", label: "NCI", hide: "hidden lg:table-cell" }, { key: "links", label: "Linked objects", sortable: true, numeric: true, hide: "hidden sm:table-cell" }, { key: "score", label: "Score", sortable: true, numeric: true }],
         defaultSort: { key: "score", dir: -1 },
@@ -137,7 +138,7 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
     };
     case "collection": return {
       hideStatus: true,
-      rows: g.kind("collection").map((c) => ({ ...base(c), logo: logoFor(c.url), sub: c.maintainer, facets: { license: c.license ? [c.license.split(/[;(]/)[0].trim()] : [] }, cols: { holds: c.holds, license: c.license } })),
+      rows: g.kind("collection").map((c) => ({ ...base(c), logo: logoFor(c.id, c.url), sub: c.maintainer, facets: { license: c.license ? [c.license.split(/[;(]/)[0].trim()] : [] }, cols: { holds: c.holds, license: c.license } })),
       facets: [{ key: "license", label: "Licence", searchable: false, width: "w-56" }],
       columns: [{ key: "holds", label: "Holds", hide: "hidden md:table-cell" }, { key: "license", label: "Licence", hide: "hidden lg:table-cell" }],
     };

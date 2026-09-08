@@ -1,0 +1,34 @@
+name: Refresh literature snapshot from Europe PMC
+
+on:
+  schedule:
+    - cron: "41 5 * * 2" # Tuesdays 05:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run fetch:papers -- --force
+      - run: npm run validate
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/refresh-papers
+          title: "Weekly refresh: Europe PMC literature snapshot"
+          commit-message: "chore: refresh literature snapshot from Europe PMC"
+          body: |
+            Automated weekly pull of paper counts per year and the five most recent titles for every product, target, cancer, and technology, from the Europe PMC REST API.
+            Files under `public/papers/` changed. The /papers/ page recomputes fastest-growing topics from this snapshot.
+          labels: automated, pipeline
+          delete-branch: true

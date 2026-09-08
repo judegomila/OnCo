@@ -1,8 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from "react";
 
 export type Tab = { id: string; label: string; content: ReactNode; count?: number };
+
+/** Below the site header (3.5rem) plus this bar (3rem): where sticky table headers should stop. */
+const CONTENT_STYLE = { "--sticky-top": "calc(var(--header-h) + 3rem)" } as CSSProperties;
 
 /**
  * Section navigator for long object pages. All sections are rendered one after another so the
@@ -57,25 +60,25 @@ export function Tabs({ tabs, ariaLabel = "Sections" }: { tabs: Tab[]; ariaLabel?
   return (
     <div>
       <nav ref={bar} aria-label={ariaLabel}
-        className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 bg-background/95 backdrop-blur border-b border-border flex gap-1.5 overflow-x-auto no-scrollbar">
+        className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 h-12 bg-background/90 backdrop-blur border-b border-border flex items-center gap-1 overflow-x-auto no-scrollbar">
         {tabs.map((t) => {
           const on = t.id === active;
           return (
             <a key={t.id} href={`#${t.id}`} data-id={t.id} onClick={(e) => { e.preventDefault(); jump(t.id); }} aria-current={on ? "true" : undefined}
-              className={`shrink-0 whitespace-nowrap rounded-full border px-3 py-1.5 text-sm transition ${on ? "bg-foreground text-background border-foreground font-medium" : "bg-card border-border text-foreground/80 hover:bg-foreground/5 hover:text-foreground"}`}>
+              className={`shrink-0 inline-flex h-8 items-center whitespace-nowrap rounded-full border px-3 text-[13px] transition-colors ${on ? "bg-foreground text-background border-foreground font-medium" : "bg-card border-border text-foreground/75 hover:bg-surface hover:text-foreground hover:border-border-strong"}`}>
               {t.label}{t.count !== undefined && <span className={`ml-1.5 text-xs tabular-nums ${on ? "text-background/70" : "text-muted"}`}>{t.count}</span>}
             </a>
           );
         })}
       </nav>
-      <div className="pt-6 space-y-14">
+      <div className="pt-6 space-y-14" style={CONTENT_STYLE}>
         {tabs.map((t) => (
           <section key={t.id} id={`sec-${t.id}`} aria-labelledby={`h-${t.id}`} className="scroll-mt-28">
             {t.id !== "overview" && (
               <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-border">
                 <h2 id={`h-${t.id}`} className="text-xl font-semibold tracking-tight">{t.label}</h2>
                 {t.count !== undefined && <span className="text-sm text-muted tabular-nums">{t.count}</span>}
-                <a href="#top" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }} className="ml-auto text-xs text-muted hover:underline">top ↑</a>
+                <a href="#top" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }} className="ml-auto text-xs text-muted hover:text-foreground hover:underline">top <span aria-hidden>↑</span></a>
               </div>
             )}
             {t.content}

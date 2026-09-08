@@ -17,28 +17,36 @@ export type Column<T> = {
 
 export type SortState = { key: string; dir: 1 | -1 };
 
-/** Full-width, sortable results table shared by the filterable views. */
+/**
+ * Full-width, sortable results table shared by the filterable views.
+ * The header row sticks below the site header (see `--sticky-top` in globals.css); on small
+ * screens the table scrolls sideways inside its card instead.
+ */
 export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "Nothing matches. Clear a filter." }: {
   columns: Column<T>[]; rows: T[]; rowKey: (r: T) => string; sort?: SortState; onSort?: (key: string) => void; empty?: string;
 }) {
   return (
-    <div className="card overflow-x-auto">
+    <div className="card overflow-x-auto lg:overflow-x-visible">
       <table className="onco">
         <thead>
           <tr>
-            {columns.map((c) => (
-              <th key={c.key} className={`${c.hide ?? ""} ${c.className ?? ""}`}>
-                {(() => {
-                  const tip = c.tip ?? COLUMN_TIPS[c.label];
-                  const label = tip ? <Tip text={tip} title={c.label}><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{c.label}</span></Tip> : c.label;
-                  return c.sortable && onSort ? (
-                    <button type="button" onClick={() => onSort(c.key)} className={`inline-flex items-center gap-1 ${sort?.key === c.key ? "text-foreground" : ""}`}>
-                      {label}{sort?.key === c.key && <span aria-hidden>{sort.dir === -1 ? "↓" : "↑"}</span>}
+            {columns.map((c) => {
+              const tip = c.tip ?? COLUMN_TIPS[c.label];
+              const sorted = sort?.key === c.key;
+              const label = tip ? <Tip text={tip} title={c.label}><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{c.label}</span></Tip> : c.label;
+              return (
+                <th key={c.key} className={`${c.hide ?? ""} ${c.className ?? ""}`} aria-sort={sorted ? (sort!.dir === -1 ? "descending" : "ascending") : undefined}>
+                  {c.sortable && onSort ? (
+                    <button type="button" onClick={() => onSort(c.key)} className={`group inline-flex items-center gap-1 rounded-sm ${sorted ? "text-foreground" : ""}`} title={sorted ? (sort!.dir === -1 ? "Sorted descending. Click to flip." : "Sorted ascending. Click to flip.") : `Sort by ${c.label}`}>
+                      {label}
+                      <span aria-hidden className={`inline-block w-3 text-center text-[11px] leading-none ${sorted ? "text-accent" : "text-muted/40 group-hover:text-muted"}`}>
+                        {sorted ? (sort!.dir === -1 ? "↓" : "↑") : "↕"}
+                      </span>
                     </button>
-                  ) : label;
-                })()}
-              </th>
-            ))}
+                  ) : label}
+                </th>
+              );
+            })}
           </tr>
         </thead>
         <tbody>
@@ -49,7 +57,7 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "
           ))}
         </tbody>
       </table>
-      {rows.length === 0 && <div className="p-8 text-center text-muted text-sm">{empty}</div>}
+      {rows.length === 0 && <div className="px-6 py-12 text-center text-muted text-sm">{empty}</div>}
     </div>
   );
 }
@@ -59,8 +67,8 @@ export function Toolbar({ left, right, count, total, noun }: { left: ReactNode; 
   return (
     <div className="flex flex-wrap items-center gap-2 mb-3">
       {left}
-      <div className="ml-auto flex items-center gap-3 text-sm">
-        <span><span className="font-semibold tabular-nums">{count}</span>{total !== undefined && <span className="text-muted"> of {total}</span>} <span className="text-muted">{noun}</span></span>
+      <div className="ml-auto flex items-center gap-3 text-sm whitespace-nowrap">
+        <span aria-live="polite"><span className="font-semibold tabular-nums">{count.toLocaleString("en-GB")}</span>{total !== undefined && total !== count && <span className="text-muted"> of {total.toLocaleString("en-GB")}</span>} <span className="text-muted">{noun}</span></span>
         {right}
       </div>
     </div>

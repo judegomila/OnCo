@@ -13,6 +13,13 @@ export const targets: TargetInput[] = [
     whereFound: ["Triple-negative breast cancer (~80-90% express)", "HR+ breast cancer", "NSCLC", "Urothelial carcinoma", "Gastric, pancreatic, endometrial cancers"],
     cancers: ["tnbc", "breast-hr-positive", "nsclc", "urothelial"],
     tags: ["adc-target", "pet-target"],
+    prevalence: [
+      { cancerId: "tnbc", pct: "80-90", measure: "IHC, any/moderate-high expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/", note: "ASCENT benefit was independent of TROP2 IHC level" },
+      { cancerId: "breast-hr-positive", pct: "75-90", measure: "IHC, any expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/" },
+      { cancerId: "nsclc", pct: "60-70", measure: "IHC, moderate-high", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/", note: "Adenocarcinoma and squamous" },
+      { cancerId: "urothelial", pct: "80-90", measure: "IHC, any expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/" },
+      { cancerId: "pancreatic", pct: 50, measure: "IHC, any expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/", note: "Approximate; heterogeneous" },
+    ],
   },
   {
     id: "her2", kind: "target", name: "HER2", symbol: "ERBB2", targetClass: "surface-antigen", asOf, wikipedia: W("HER2/neu"),
@@ -23,6 +30,15 @@ export const targets: TargetInput[] = [
     cancers: ["breast-her2-positive", "breast-hr-positive", "gastric", "nsclc", "colorectal", "cholangiocarcinoma"],
     pathways: ["pi3k-akt-mtor", "ras-mapk"],
     tags: ["adc-target", "driver"],
+    prevalence: [
+      { cancerId: "breast-her2-positive", pct: 100, measure: "IHC 3+ or ISH-amplified (defining)", source: "https://www.nature.com/articles/s41591-025-03981-4" },
+      { cancerId: "breast-hr-positive", pct: "55-65", measure: "HER2-low (IHC 1+ or 2+/ISH-)", source: "https://www.nature.com/articles/s41591-025-03981-4" },
+      { cancerId: "tnbc", pct: "30-40", measure: "HER2-low (IHC 1+ or 2+/ISH-)", source: "https://www.nature.com/articles/s41591-025-03981-4" },
+      { cancerId: "gastric", pct: "15-20", measure: "IHC 3+ or 2+/ISH+", source: "https://en.wikipedia.org/wiki/Trastuzumab", note: "ToGA screening" },
+      { cancerId: "nsclc", pct: "2-3", measure: "ERBB2 exon 20 mutation", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
+      { cancerId: "colorectal", pct: "3-5", measure: "Amplification/IHC 3+", source: "https://en.wikipedia.org/wiki/HER2/neu", note: "RAS wild-type enriched" },
+      { cancerId: "cholangiocarcinoma", pct: "10-20", measure: "IHC 3+ or amplification", source: "https://en.wikipedia.org/wiki/HER2/neu", note: "Higher in gallbladder/extrahepatic" },
+    ],
   },
   {
     id: "her3", kind: "target", name: "HER3", symbol: "ERBB3", targetClass: "surface-antigen", asOf, wikipedia: W("ERBB3"),
@@ -32,6 +48,11 @@ export const targets: TargetInput[] = [
     whereFound: ["Breast cancer (all subtypes)", "EGFR-mutant NSCLC", "Colorectal", "NRG1-fusion tumours"],
     cancers: ["tnbc", "nsclc", "breast-hr-positive"],
     tags: ["adc-target", "resistance"],
+    prevalence: [
+      { cancerId: "tnbc", pct: "50-70", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/ERBB3" },
+      { cancerId: "nsclc", pct: "80-90", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/ERBB3", note: "EGFR-mutant NSCLC in HERTHENA-Lung01" },
+      { cancerId: "breast-hr-positive", pct: "50-70", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/ERBB3" },
+    ],
   },
   {
     id: "egfr", kind: "target", name: "EGFR", symbol: "EGFR", targetClass: "kinase", asOf, wikipedia: W("Epidermal_growth_factor_receptor"),
@@ -42,6 +63,12 @@ export const targets: TargetInput[] = [
     cancers: ["nsclc", "colorectal", "head-and-neck", "glioblastoma"],
     pathways: ["ras-mapk", "pi3k-akt-mtor"],
     tags: ["driver", "kinase"],
+    prevalence: [
+      { cancerId: "nsclc", pct: "10-15", measure: "Activating mutation (US/Europe)", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "40-50% in East Asian adenocarcinoma" },
+      { cancerId: "colorectal", pct: 100, measure: "Wild-type EGFR is the antibody target", source: "https://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor", note: "Benefit restricted to RAS/BRAF wild-type (~40%)" },
+      { cancerId: "head-and-neck", pct: "80-90", measure: "Overexpression by IHC", source: "https://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor" },
+      { cancerId: "glioblastoma", pct: "40-50", measure: "Amplification", source: "https://www.cbioportal.org/study/summary?id=gbm_tcga_pan_can_atlas_2018", note: "EGFRvIII in ~25-30%" },
+    ],
   },
   {
     id: "nectin4", kind: "target", name: "Nectin-4", symbol: "NECTIN4", targetClass: "surface-antigen", asOf, wikipedia: W("Nectin-4"),
@@ -51,6 +78,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Urothelial carcinoma (>80%)", "TNBC", "NSCLC", "Pancreatic"],
     cancers: ["urothelial", "tnbc"],
     tags: ["adc-target"],
+    prevalence: [
+      { cancerId: "urothelial", pct: "80-90", measure: "IHC, moderate-strong", source: "https://en.wikipedia.org/wiki/Nectin-4" },
+      { cancerId: "tnbc", pct: "50-60", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Nectin-4" },
+    ],
   },
   {
     id: "b7h3", kind: "target", name: "B7-H3", symbol: "CD276", targetClass: "surface-antigen", asOf, wikipedia: W("CD276"),
@@ -60,6 +91,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Small-cell lung cancer", "Prostate", "Head and neck", "Paediatric solid tumours"],
     cancers: ["sclc", "prostate"],
     tags: ["adc-target"],
+    prevalence: [
+      { cancerId: "sclc", pct: "60-70", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CD276" },
+      { cancerId: "prostate", pct: "80-90", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CD276", note: "Castration-resistant disease" },
+    ],
   },
   {
     id: "cldn18-2", kind: "target", name: "Claudin 18.2", symbol: "CLDN18", targetClass: "surface-antigen", asOf, wikipedia: W("CLDN18"),
@@ -69,6 +104,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Gastric/GEJ adenocarcinoma", "Pancreatic ductal adenocarcinoma", "Biliary"],
     cancers: ["gastric", "pancreatic"],
     tags: ["adc-target", "car-t-target"],
+    prevalence: [
+      { cancerId: "gastric", pct: "35-40", measure: "IHC 2+/3+ in >=75% of cells (zolbetuximab definition)", source: "https://en.wikipedia.org/wiki/Zolbetuximab", note: "SPOTLIGHT/GLOW screening" },
+      { cancerId: "pancreatic", pct: "20-60", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CLDN18", note: "Wide range across series" },
+    ],
   },
   {
     id: "psma", kind: "target", name: "PSMA", symbol: "FOLH1", targetClass: "surface-antigen", asOf, wikipedia: W("Glutamate_carboxypeptidase_II"),
@@ -78,6 +117,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Prostate cancer (>90%)", "Neovasculature of RCC, glioma, others"],
     cancers: ["prostate"],
     tags: ["theranostic", "pet-target"],
+    prevalence: [
+      { cancerId: "prostate", pct: ">90", measure: "PSMA PET positivity, metastatic disease", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12796145/", note: "~10% PSMA-negative or low" },
+      { cancerId: "rcc", pct: "60-80", measure: "Neovascular PSMA expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12796145/", note: "Clear-cell; imaging studies" },
+    ],
   },
   {
     id: "fap", kind: "target", name: "FAP", symbol: "FAP", targetClass: "stroma", asOf, wikipedia: W("Fibroblast_activation_protein,_alpha"),
@@ -87,6 +130,12 @@ export const targets: TargetInput[] = [
     whereFound: ["Pancreatic", "Gastric", "Breast", "Sarcoma", "Almost all desmoplastic tumours"],
     cancers: ["pancreatic", "gastric", "tnbc", "sarcoma"],
     tags: ["theranostic", "pet-target", "stroma"],
+    prevalence: [
+      { cancerId: "pancreatic", pct: ">90", measure: "Stromal FAP by IHC/FAPI PET", source: "https://en.wikipedia.org/wiki/Fibroblast_activation_protein,_alpha", note: "Cancer-associated fibroblasts" },
+      { cancerId: "gastric", pct: ">85", measure: "Stromal FAP", source: "https://en.wikipedia.org/wiki/Fibroblast_activation_protein,_alpha" },
+      { cancerId: "tnbc", pct: ">80", measure: "Stromal FAP", source: "https://en.wikipedia.org/wiki/Fibroblast_activation_protein,_alpha" },
+      { cancerId: "sarcoma", pct: "60-90", measure: "Tumour and stromal FAP", source: "https://en.wikipedia.org/wiki/Fibroblast_activation_protein,_alpha" },
+    ],
   },
   {
     id: "sstr2", kind: "target", name: "Somatostatin receptor 2", symbol: "SSTR2", targetClass: "surface-antigen", asOf, wikipedia: W("Somatostatin_receptor_2"),
@@ -96,6 +145,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Neuroendocrine tumours", "Meningioma", "Small-cell lung cancer (subset)"],
     cancers: ["neuroendocrine", "sclc"],
     tags: ["theranostic"],
+    prevalence: [
+      { cancerId: "neuroendocrine", pct: "80-90", measure: "SSTR PET positivity (well-differentiated)", source: "https://en.wikipedia.org/wiki/Somatostatin_receptor_2", note: "Lower in grade 3" },
+      { cancerId: "sclc", pct: "30-50", measure: "IHC/imaging", source: "https://en.wikipedia.org/wiki/Somatostatin_receptor_2" },
+    ],
   },
   {
     id: "dll3", kind: "target", name: "DLL3", symbol: "DLL3", targetClass: "surface-antigen", asOf, wikipedia: W("DLL3"),
@@ -105,6 +158,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Small-cell lung cancer", "Neuroendocrine prostate cancer", "Large-cell neuroendocrine carcinoma"],
     cancers: ["sclc", "prostate"],
     tags: ["t-cell-engager-target"],
+    prevalence: [
+      { cancerId: "sclc", pct: "80-85", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/DLL3" },
+      { cancerId: "prostate", pct: "70-80", measure: "Neuroendocrine prostate cancer only", source: "https://en.wikipedia.org/wiki/DLL3", note: "Rare in adenocarcinoma" },
+    ],
   },
   {
     id: "folr1", kind: "target", name: "Folate receptor alpha", symbol: "FOLR1", targetClass: "surface-antigen", asOf, wikipedia: W("Folate_receptor_1"),
@@ -114,6 +171,11 @@ export const targets: TargetInput[] = [
     whereFound: ["High-grade serous ovarian (~80% any expression)", "Endometrial", "NSCLC adenocarcinoma", "TNBC (subset)"],
     cancers: ["ovarian", "endometrial", "nsclc"],
     tags: ["adc-target"],
+    prevalence: [
+      { cancerId: "ovarian", pct: "35-40", measure: "FRα-high (PS2+ in >=75% of cells)", source: "https://en.wikipedia.org/wiki/Folate_receptor_1", note: "MIRASOL eligibility; ~80% any expression" },
+      { cancerId: "endometrial", pct: "60-80", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Folate_receptor_1" },
+      { cancerId: "nsclc", pct: "70-80", measure: "Adenocarcinoma, any expression", source: "https://en.wikipedia.org/wiki/Folate_receptor_1" },
+    ],
   },
   {
     id: "tissue-factor", kind: "target", name: "Tissue factor", symbol: "F3", targetClass: "surface-antigen", asOf, wikipedia: W("Tissue_factor"),
@@ -123,6 +185,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Cervical", "Pancreatic", "Head and neck", "Ovarian"],
     cancers: ["cervical", "pancreatic"],
     tags: ["adc-target"],
+    prevalence: [
+      { cancerId: "cervical", pct: "90-95", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Tissue_factor", note: "innovaTV did not select on TF" },
+      { cancerId: "pancreatic", pct: "50-80", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Tissue_factor" },
+    ],
   },
   {
     id: "cdh6", kind: "target", name: "CDH6", symbol: "CDH6", targetClass: "surface-antigen", asOf, wikipedia: W("CDH6"),
@@ -132,6 +198,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Ovarian", "Renal cell carcinoma"],
     cancers: ["ovarian", "rcc"],
     tags: ["adc-target"],
+    prevalence: [
+      { cancerId: "ovarian", pct: "65-85", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CDH6", note: "High-grade serous" },
+      { cancerId: "rcc", pct: "60-80", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CDH6" },
+    ],
   },
   {
     id: "ceacam5", kind: "target", name: "CEACAM5", symbol: "CEACAM5", targetClass: "surface-antigen", asOf, wikipedia: W("Carcinoembryonic_antigen"),
@@ -141,6 +211,11 @@ export const targets: TargetInput[] = [
     whereFound: ["Colorectal", "Gastric", "Lung adenocarcinoma", "Pancreatic"],
     cancers: ["colorectal", "nsclc", "gastric"],
     tags: ["adc-target", "biomarker"],
+    prevalence: [
+      { cancerId: "colorectal", pct: "80-90", measure: "IHC, moderate-high", source: "https://en.wikipedia.org/wiki/Carcinoembryonic_antigen" },
+      { cancerId: "nsclc", pct: "20-25", measure: "High expression (>=50% cells 2+/3+)", source: "https://en.wikipedia.org/wiki/Carcinoembryonic_antigen", note: "Non-squamous, CARMEN threshold" },
+      { cancerId: "gastric", pct: "50-60", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Carcinoembryonic_antigen" },
+    ],
   },
   {
     id: "gpc3", kind: "target", name: "Glypican-3", symbol: "GPC3", targetClass: "surface-antigen", asOf, wikipedia: W("Glypican_3"),
@@ -150,6 +225,9 @@ export const targets: TargetInput[] = [
     whereFound: ["Hepatocellular carcinoma", "Hepatoblastoma", "Yolk-sac tumours"],
     cancers: ["hcc"],
     tags: ["car-t-target"],
+    prevalence: [
+      { cancerId: "hcc", pct: "70-80", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Glypican_3" },
+    ],
   },
   {
     id: "mesothelin", kind: "target", name: "Mesothelin", symbol: "MSLN", targetClass: "surface-antigen", asOf, wikipedia: W("Mesothelin"),
@@ -159,6 +237,11 @@ export const targets: TargetInput[] = [
     whereFound: ["Mesothelioma", "Pancreatic", "Ovarian", "Lung adenocarcinoma"],
     cancers: ["mesothelioma", "pancreatic", "ovarian"],
     tags: ["car-t-target", "adc-target"],
+    prevalence: [
+      { cancerId: "mesothelioma", pct: "85-100", measure: "Epithelioid histology", source: "https://en.wikipedia.org/wiki/Mesothelin", note: "Lower in sarcomatoid" },
+      { cancerId: "pancreatic", pct: "80-90", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Mesothelin" },
+      { cancerId: "ovarian", pct: "60-70", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Mesothelin", note: "Serous" },
+    ],
   },
   {
     id: "cd70", kind: "target", name: "CD70", symbol: "CD70", targetClass: "surface-antigen", asOf, wikipedia: W("CD70"),
@@ -168,6 +251,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Clear-cell RCC", "AML", "Lymphomas"],
     cancers: ["rcc", "aml"],
     tags: ["car-t-target"],
+    prevalence: [
+      { cancerId: "rcc", pct: "80-90", measure: "Clear-cell, IHC", source: "https://en.wikipedia.org/wiki/CD70" },
+      { cancerId: "aml", pct: "30-50", measure: "Blasts and leukaemic stem cells", source: "https://en.wikipedia.org/wiki/CD70" },
+    ],
   },
   {
     id: "ror1", kind: "target", name: "ROR1", symbol: "ROR1", targetClass: "surface-antigen", asOf, wikipedia: W("ROR1"),
@@ -177,6 +264,11 @@ export const targets: TargetInput[] = [
     whereFound: ["CLL", "Mantle cell lymphoma", "DLBCL", "TNBC", "NSCLC"],
     cancers: ["dlbcl", "cll", "tnbc"],
     tags: ["adc-target"],
+    prevalence: [
+      { cancerId: "cll", pct: ">90", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/ROR1" },
+      { cancerId: "dlbcl", pct: "30-50", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/ROR1" },
+      { cancerId: "tnbc", pct: "40-60", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/ROR1" },
+    ],
   },
   {
     id: "cd19", kind: "target", name: "CD19", symbol: "CD19", targetClass: "surface-antigen", asOf, wikipedia: W("CD19"),
@@ -186,6 +278,11 @@ export const targets: TargetInput[] = [
     whereFound: ["ALL", "DLBCL", "Follicular lymphoma", "Mantle cell lymphoma", "CLL"],
     cancers: ["all-leukemia", "dlbcl", "cll"],
     tags: ["car-t-target"],
+    prevalence: [
+      { cancerId: "all-leukemia", pct: ">95", measure: "B-ALL surface expression", source: "https://en.wikipedia.org/wiki/CD19" },
+      { cancerId: "dlbcl", pct: ">95", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/CD19", note: "Loss in ~30% of CAR-T relapses" },
+      { cancerId: "cll", pct: ">95", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/CD19" },
+    ],
   },
   {
     id: "cd20", kind: "target", name: "CD20", symbol: "MS4A1", targetClass: "surface-antigen", asOf, wikipedia: W("CD20"),
@@ -195,6 +292,10 @@ export const targets: TargetInput[] = [
     whereFound: ["DLBCL", "Follicular lymphoma", "CLL", "Mantle cell lymphoma"],
     cancers: ["dlbcl", "cll"],
     tags: ["antibody-target"],
+    prevalence: [
+      { cancerId: "dlbcl", pct: ">95", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/CD20" },
+      { cancerId: "cll", pct: ">90", measure: "Dim surface expression", source: "https://en.wikipedia.org/wiki/CD20" },
+    ],
   },
   {
     id: "bcma", kind: "target", name: "BCMA", symbol: "TNFRSF17", targetClass: "surface-antigen", asOf, wikipedia: W("B-cell_maturation_antigen"),
@@ -204,6 +305,9 @@ export const targets: TargetInput[] = [
     whereFound: ["Multiple myeloma"],
     cancers: ["multiple-myeloma"],
     tags: ["car-t-target", "t-cell-engager-target"],
+    prevalence: [
+      { cancerId: "multiple-myeloma", pct: ">95", measure: "Plasma-cell surface expression", source: "https://en.wikipedia.org/wiki/B-cell_maturation_antigen" },
+    ],
   },
   {
     id: "gprc5d", kind: "target", name: "GPRC5D", symbol: "GPRC5D", targetClass: "surface-antigen", asOf, wikipedia: W("GPRC5D"),
@@ -213,6 +317,9 @@ export const targets: TargetInput[] = [
     whereFound: ["Multiple myeloma"],
     cancers: ["multiple-myeloma"],
     tags: ["t-cell-engager-target"],
+    prevalence: [
+      { cancerId: "multiple-myeloma", pct: "60-80", measure: "High expression by IHC/RNA", source: "https://en.wikipedia.org/wiki/GPRC5D", note: "Expression correlates with high risk" },
+    ],
   },
   {
     id: "cd3", kind: "target", name: "CD3", symbol: "CD3E", targetClass: "surface-antigen", asOf, wikipedia: W("CD3_(immunology)"),
@@ -230,6 +337,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Multiple myeloma", "AML (subset)"],
     cancers: ["multiple-myeloma"],
     tags: ["antibody-target"],
+    prevalence: [
+      { cancerId: "multiple-myeloma", pct: ">95", measure: "Plasma-cell surface expression", source: "https://en.wikipedia.org/wiki/CD38" },
+      { cancerId: "aml", pct: "60-80", measure: "Blast expression, variable intensity", source: "https://en.wikipedia.org/wiki/CD38" },
+    ],
   },
   {
     id: "cd33", kind: "target", name: "CD33", symbol: "CD33", targetClass: "surface-antigen", asOf, wikipedia: W("CD33"),
@@ -239,6 +350,9 @@ export const targets: TargetInput[] = [
     whereFound: ["Acute myeloid leukaemia"],
     cancers: ["aml"],
     tags: ["adc-target"],
+    prevalence: [
+      { cancerId: "aml", pct: "85-90", measure: "Blast surface expression", source: "https://en.wikipedia.org/wiki/CD33" },
+    ],
   },
   {
     id: "cd123", kind: "target", name: "CD123", symbol: "IL3RA", targetClass: "surface-antigen", asOf, wikipedia: W("Interleukin-3_receptor"),
@@ -248,6 +362,9 @@ export const targets: TargetInput[] = [
     whereFound: ["BPDCN", "AML"],
     cancers: ["aml"],
     tags: ["adc-target"],
+    prevalence: [
+      { cancerId: "aml", pct: "70-80", measure: "Blasts and leukaemic stem cells", source: "https://en.wikipedia.org/wiki/Interleukin-3_receptor", note: "Universal in BPDCN" },
+    ],
   },
   {
     id: "mage-a4", kind: "target", name: "MAGE-A4", symbol: "MAGEA4", targetClass: "other", asOf, wikipedia: W("MAGEA4"),
@@ -257,6 +374,10 @@ export const targets: TargetInput[] = [
     whereFound: ["Synovial sarcoma", "Myxoid liposarcoma", "NSCLC, ovarian, gastric (subsets)"],
     cancers: ["sarcoma"],
     tags: ["tcr-target"],
+    prevalence: [
+      { cancerId: "sarcoma", pct: "60-80", measure: "Synovial sarcoma, IHC/RNA", source: "https://en.wikipedia.org/wiki/MAGEA4", note: "HLA-A*02 needed for TCR-T; ~40-45% of population" },
+      { cancerId: "nsclc", pct: "20-30", measure: "Squamous enriched", source: "https://en.wikipedia.org/wiki/MAGEA4" },
+    ],
   },
   {
     id: "gp100", kind: "target", name: "gp100 (PMEL)", symbol: "PMEL", targetClass: "other", asOf, wikipedia: W("Premelanosome_protein"),
@@ -266,6 +387,9 @@ export const targets: TargetInput[] = [
     whereFound: ["Melanoma including uveal"],
     cancers: ["melanoma"],
     tags: ["tcr-target"],
+    prevalence: [
+      { cancerId: "melanoma", pct: ">90", measure: "Melanocytic lineage antigen", source: "https://en.wikipedia.org/wiki/Premelanosome_protein", note: "HLA-A*02:01 required for tebentafusp" },
+    ],
   },
 
   // ---- Checkpoints ----
@@ -278,6 +402,10 @@ export const targets: TargetInput[] = [
     pathways: ["pd1-checkpoint"],
     cancers: ["melanoma", "nsclc", "rcc", "urothelial", "head-and-neck", "tnbc", "hodgkin-lymphoma", "colorectal"],
     tags: ["checkpoint"],
+    prevalence: [
+      { cancerId: "melanoma", pct: "30-40", measure: "Objective response to PD-1 monotherapy (proxy)", source: "https://en.wikipedia.org/wiki/Programmed_cell_death_protein_1", note: "Not an expression prevalence" },
+      { cancerId: "nsclc", pct: "20-45", measure: "Response by PD-L1 stratum (proxy)", source: "https://en.wikipedia.org/wiki/Programmed_cell_death_protein_1" },
+    ],
   },
   {
     id: "pdl1", kind: "target", name: "PD-L1", symbol: "CD274", targetClass: "checkpoint", asOf, wikipedia: W("PD-L1"),
@@ -288,6 +416,13 @@ export const targets: TargetInput[] = [
     pathways: ["pd1-checkpoint"],
     cancers: ["tnbc", "nsclc", "urothelial", "sclc"],
     tags: ["checkpoint", "biomarker"],
+    prevalence: [
+      { cancerId: "tnbc", pct: "35-40", measure: "CPS >=10 (22C3), metastatic", source: "https://en.wikipedia.org/wiki/PD-L1", note: "KEYNOTE-355 screening" },
+      { cancerId: "nsclc", pct: "25-30", measure: "TPS >=50%", source: "https://en.wikipedia.org/wiki/PD-L1", note: "~60-65% TPS >=1%" },
+      { cancerId: "urothelial", pct: "25-30", measure: "CPS >=10", source: "https://en.wikipedia.org/wiki/PD-L1" },
+      { cancerId: "sclc", pct: "15-20", measure: "Any tumour-cell expression", source: "https://en.wikipedia.org/wiki/PD-L1" },
+      { cancerId: "head-and-neck", pct: "80-85", measure: "CPS >=1", source: "https://en.wikipedia.org/wiki/PD-L1", note: "KEYNOTE-048" },
+    ],
   },
   {
     id: "ctla4", kind: "target", name: "CTLA-4", symbol: "CTLA4", targetClass: "checkpoint", asOf, wikipedia: W("CTLA-4"),
@@ -298,6 +433,9 @@ export const targets: TargetInput[] = [
     pathways: ["pd1-checkpoint"],
     cancers: ["melanoma", "rcc", "colorectal", "hcc", "mesothelioma"],
     tags: ["checkpoint"],
+    prevalence: [
+      { cancerId: "melanoma", pct: "n/a", measure: "Immune-cell target; no tumour prevalence", source: "https://en.wikipedia.org/wiki/CTLA-4" },
+    ],
   },
   {
     id: "lag3", kind: "target", name: "LAG-3", symbol: "LAG3", targetClass: "checkpoint", asOf, wikipedia: W("LAG3"),
@@ -308,6 +446,9 @@ export const targets: TargetInput[] = [
     pathways: ["pd1-checkpoint"],
     cancers: ["melanoma"],
     tags: ["checkpoint"],
+    prevalence: [
+      { cancerId: "melanoma", pct: "75-80", measure: "LAG-3 >=1% on immune cells", source: "https://en.wikipedia.org/wiki/LAG3", note: "RELATIVITY-047 population" },
+    ],
   },
   {
     id: "tigit", kind: "target", name: "TIGIT", symbol: "TIGIT", targetClass: "checkpoint", asOf, wikipedia: W("TIGIT"),
@@ -318,6 +459,9 @@ export const targets: TargetInput[] = [
     pathways: ["pd1-checkpoint"],
     cancers: ["nsclc", "sclc"],
     tags: ["checkpoint", "failed-so-far"],
+    prevalence: [
+      { cancerId: "nsclc", pct: "n/a", measure: "Immune-cell target; PD-L1 used for selection", source: "https://en.wikipedia.org/wiki/TIGIT" },
+    ],
   },
 
   // ---- Kinases and oncogenes ----
@@ -330,6 +474,13 @@ export const targets: TargetInput[] = [
     pathways: ["ras-mapk", "pi3k-akt-mtor"],
     cancers: ["pancreatic", "colorectal", "nsclc"],
     tags: ["driver"],
+    prevalence: [
+      { cancerId: "pancreatic", pct: "85-90", measure: "Any KRAS mutation", source: "https://www.cbioportal.org/study/summary?id=paad_tcga_pan_can_atlas_2018", note: "G12D ~40%, G12V ~30%, G12R ~15%, G12C ~1-2%" },
+      { cancerId: "colorectal", pct: "40-45", measure: "Any KRAS mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018", note: "G12C ~3-4%" },
+      { cancerId: "nsclc", pct: "25-30", measure: "Adenocarcinoma, any KRAS mutation", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "G12C ~13% of adenocarcinoma" },
+      { cancerId: "endometrial", pct: "15-20", measure: "Any KRAS mutation", source: "https://www.cbioportal.org/study/summary?id=ucec_tcga_pan_can_atlas_2018" },
+      { cancerId: "ovarian", pct: "10-15", measure: "Low-grade serous and mucinous", source: "https://www.cbioportal.org/study/summary?id=ov_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "braf", kind: "target", name: "BRAF", symbol: "BRAF", targetClass: "kinase", asOf, wikipedia: W("BRAF_(gene)"),
@@ -340,6 +491,12 @@ export const targets: TargetInput[] = [
     pathways: ["ras-mapk"],
     cancers: ["melanoma", "colorectal", "thyroid", "nsclc"],
     tags: ["driver", "kinase"],
+    prevalence: [
+      { cancerId: "melanoma", pct: "45-50", measure: "V600 mutation", source: "https://www.cbioportal.org/study/summary?id=skcm_tcga_pan_can_atlas_2018" },
+      { cancerId: "colorectal", pct: "8-12", measure: "V600E mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018" },
+      { cancerId: "thyroid", pct: "40-60", measure: "Papillary V600E", source: "https://www.cbioportal.org/study/summary?id=thca_tcga_pan_can_atlas_2018", note: "Near-universal in some PTC variants" },
+      { cancerId: "nsclc", pct: "2-4", measure: "V600E and non-V600", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "alk", kind: "target", name: "ALK", symbol: "ALK", targetClass: "kinase", asOf, wikipedia: W("Anaplastic_lymphoma_kinase"),
@@ -350,6 +507,10 @@ export const targets: TargetInput[] = [
     pathways: ["ras-mapk", "pi3k-akt-mtor"],
     cancers: ["nsclc", "neuroblastoma"],
     tags: ["driver", "kinase"],
+    prevalence: [
+      { cancerId: "nsclc", pct: "3-5", measure: "Rearrangement", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "Younger never-smokers" },
+      { cancerId: "neuroblastoma", pct: "8-14", measure: "Activating mutation/amplification", source: "https://en.wikipedia.org/wiki/Anaplastic_lymphoma_kinase", note: "Higher at relapse" },
+    ],
   },
   {
     id: "met", kind: "target", name: "MET", symbol: "MET", targetClass: "kinase", asOf, wikipedia: W("C-Met"),
@@ -360,6 +521,11 @@ export const targets: TargetInput[] = [
     pathways: ["ras-mapk", "pi3k-akt-mtor"],
     cancers: ["nsclc", "gastric", "rcc"],
     tags: ["driver", "kinase", "adc-target"],
+    prevalence: [
+      { cancerId: "nsclc", pct: "3-4", measure: "Exon 14 skipping", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "Amplification in 5-20% post-EGFR TKI; c-MET overexpression ~25% of non-squamous" },
+      { cancerId: "gastric", pct: "2-5", measure: "Amplification", source: "https://www.cbioportal.org/study/summary?id=stad_tcga_pan_can_atlas_2018" },
+      { cancerId: "rcc", pct: "10-15", measure: "Papillary RCC type 1 alterations", source: "https://www.cbioportal.org/study/summary?id=kirp_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "ret", kind: "target", name: "RET", symbol: "RET", targetClass: "kinase", asOf, wikipedia: W("RET_proto-oncogene"),
@@ -370,6 +536,10 @@ export const targets: TargetInput[] = [
     pathways: ["ras-mapk"],
     cancers: ["thyroid", "nsclc"],
     tags: ["driver", "kinase"],
+    prevalence: [
+      { cancerId: "thyroid", pct: "60-70", measure: "RET mutation in medullary thyroid cancer", source: "https://en.wikipedia.org/wiki/RET_proto-oncogene", note: "~10-20% RET fusions in papillary" },
+      { cancerId: "nsclc", pct: "1-2", measure: "Fusion", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "ntrk", kind: "target", name: "NTRK", symbol: "NTRK1/2/3", targetClass: "kinase", asOf, wikipedia: W("Trk_receptor"),
@@ -380,6 +550,11 @@ export const targets: TargetInput[] = [
     pathways: ["ras-mapk"],
     cancers: ["sarcoma", "thyroid", "colorectal"],
     tags: ["driver", "tumour-agnostic"],
+    prevalence: [
+      { cancerId: "sarcoma", pct: ">90", measure: "Infantile fibrosarcoma (ETV6-NTRK3)", source: "https://en.wikipedia.org/wiki/Trk_receptor", note: "<1% in adult common cancers" },
+      { cancerId: "thyroid", pct: "2-3", measure: "Fusion", source: "https://en.wikipedia.org/wiki/Trk_receptor" },
+      { cancerId: "colorectal", pct: "<1", measure: "Fusion", source: "https://en.wikipedia.org/wiki/Trk_receptor", note: "Enriched in MSI-high" },
+    ],
   },
   {
     id: "fgfr2", kind: "target", name: "FGFR2", symbol: "FGFR2", targetClass: "kinase", asOf, wikipedia: W("Fibroblast_growth_factor_receptor_2"),
@@ -390,6 +565,11 @@ export const targets: TargetInput[] = [
     pathways: ["ras-mapk", "pi3k-akt-mtor"],
     cancers: ["cholangiocarcinoma", "gastric", "urothelial"],
     tags: ["driver", "kinase"],
+    prevalence: [
+      { cancerId: "cholangiocarcinoma", pct: "10-15", measure: "Fusion (intrahepatic)", source: "https://www.cbioportal.org/study/summary?id=chol_tcga_pan_can_atlas_2018" },
+      { cancerId: "gastric", pct: "3-8", measure: "FGFR2b overexpression/amplification", source: "https://www.cbioportal.org/study/summary?id=stad_tcga_pan_can_atlas_2018", note: "FORTITUDE-101 selected IHC 2+/3+" },
+      { cancerId: "urothelial", pct: "15-20", measure: "FGFR3 alterations (related target)", source: "https://www.cbioportal.org/study/summary?id=blca_tcga_pan_can_atlas_2018", note: "FGFR3 mutations/fusions; erdafitinib" },
+    ],
   },
   {
     id: "kit", kind: "target", name: "KIT", symbol: "KIT", targetClass: "kinase", asOf, wikipedia: W("CD117"),
@@ -400,6 +580,10 @@ export const targets: TargetInput[] = [
     pathways: ["ras-mapk", "pi3k-akt-mtor"],
     cancers: ["sarcoma", "melanoma"],
     tags: ["driver", "kinase"],
+    prevalence: [
+      { cancerId: "sarcoma", pct: "75-80", measure: "GIST KIT mutation", source: "https://en.wikipedia.org/wiki/CD117", note: "PDGFRA in ~10%" },
+      { cancerId: "melanoma", pct: "2-3", measure: "KIT mutation (acral/mucosal enriched)", source: "https://www.cbioportal.org/study/summary?id=skcm_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "flt3", kind: "target", name: "FLT3", symbol: "FLT3", targetClass: "kinase", asOf, wikipedia: W("CD135"),
@@ -409,6 +593,9 @@ export const targets: TargetInput[] = [
     whereFound: ["Acute myeloid leukaemia"],
     cancers: ["aml"],
     tags: ["driver", "kinase"],
+    prevalence: [
+      { cancerId: "aml", pct: "25-30", measure: "FLT3-ITD or TKD", source: "https://www.cbioportal.org/study/summary?id=laml_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "pik3ca", kind: "target", name: "PIK3CA / PI3K-alpha", symbol: "PIK3CA", targetClass: "kinase", asOf, wikipedia: W("P110α"),
@@ -419,6 +606,12 @@ export const targets: TargetInput[] = [
     pathways: ["pi3k-akt-mtor"],
     cancers: ["breast-hr-positive", "endometrial", "head-and-neck"],
     tags: ["driver", "kinase"],
+    prevalence: [
+      { cancerId: "breast-hr-positive", pct: "35-40", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=brca_tcga_pan_can_atlas_2018" },
+      { cancerId: "endometrial", pct: "45-55", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=ucec_tcga_pan_can_atlas_2018" },
+      { cancerId: "head-and-neck", pct: "15-20", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=hnsc_tcga_pan_can_atlas_2018", note: "HPV+ enriched" },
+      { cancerId: "colorectal", pct: "15-20", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "akt", kind: "target", name: "AKT", symbol: "AKT1/2/3", targetClass: "kinase", asOf, wikipedia: W("Protein_kinase_B"),
@@ -429,6 +622,10 @@ export const targets: TargetInput[] = [
     pathways: ["pi3k-akt-mtor"],
     cancers: ["breast-hr-positive", "prostate"],
     tags: ["kinase"],
+    prevalence: [
+      { cancerId: "breast-hr-positive", pct: "3-5", measure: "AKT1 E17K", source: "https://www.cbioportal.org/study/summary?id=brca_tcga_pan_can_atlas_2018", note: "~50% have PIK3CA/AKT1/PTEN alteration combined" },
+      { cancerId: "prostate", pct: "15-20", measure: "PTEN loss (pathway activation)", source: "https://www.cbioportal.org/study/summary?id=prad_tcga_pan_can_atlas_2018", note: "Higher in mCRPC (~40%)" },
+    ],
   },
   {
     id: "cdk4-6", kind: "target", name: "CDK4/6", symbol: "CDK4, CDK6", targetClass: "kinase", asOf, wikipedia: W("Cyclin-dependent_kinase_4"),
@@ -439,6 +636,10 @@ export const targets: TargetInput[] = [
     pathways: ["p53-cell-cycle", "er-signaling"],
     cancers: ["breast-hr-positive", "sarcoma"],
     tags: ["kinase"],
+    prevalence: [
+      { cancerId: "breast-hr-positive", pct: "15-20", measure: "Cyclin D1 (CCND1) amplification", source: "https://www.cbioportal.org/study/summary?id=brca_tcga_pan_can_atlas_2018", note: "Inhibitors work regardless of amplification" },
+      { cancerId: "sarcoma", pct: ">90", measure: "Well-/dedifferentiated liposarcoma CDK4 amplification", source: "https://en.wikipedia.org/wiki/Cyclin-dependent_kinase_4" },
+    ],
   },
   {
     id: "parp", kind: "target", name: "PARP", symbol: "PARP1", targetClass: "enzyme", asOf, wikipedia: W("PARP_inhibitor"),
@@ -449,6 +650,12 @@ export const targets: TargetInput[] = [
     pathways: ["ddr"],
     cancers: ["ovarian", "tnbc", "breast-hr-positive", "prostate", "pancreatic"],
     tags: ["synthetic-lethality"],
+    prevalence: [
+      { cancerId: "ovarian", pct: "50", measure: "HRD-positive (BRCA or genomic scar)", source: "https://en.wikipedia.org/wiki/PARP_inhibitor", note: "~20% germline/somatic BRCA" },
+      { cancerId: "tnbc", pct: "15-20", measure: "Germline BRCA1/2", source: "https://en.wikipedia.org/wiki/PARP_inhibitor", note: "~40-50% HRD by scar" },
+      { cancerId: "prostate", pct: "20-25", measure: "HRR gene alteration (mCRPC)", source: "https://www.cbioportal.org/study/summary?id=prad_tcga_pan_can_atlas_2018", note: "BRCA2 ~8-10%" },
+      { cancerId: "pancreatic", pct: "5-8", measure: "Germline BRCA1/2 or PALB2", source: "https://www.cbioportal.org/study/summary?id=paad_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "atr", kind: "target", name: "ATR", symbol: "ATR", targetClass: "kinase", asOf, wikipedia: W("Ataxia_telangiectasia_and_Rad3_related"),
@@ -459,6 +666,10 @@ export const targets: TargetInput[] = [
     pathways: ["ddr"],
     cancers: ["nsclc", "ovarian", "tnbc"],
     tags: ["ddr"],
+    prevalence: [
+      { cancerId: "nsclc", pct: "5-10", measure: "ATM loss/mutation (sensitising context)", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
+      { cancerId: "ovarian", pct: "n/a", measure: "Replication-stress context; no expression threshold", source: "https://en.wikipedia.org/wiki/Ataxia_telangiectasia_and_Rad3_related" },
+    ],
   },
   {
     id: "wee1", kind: "target", name: "WEE1", symbol: "WEE1", targetClass: "kinase", asOf, wikipedia: W("Wee1-like_protein_kinase"),
@@ -469,6 +680,10 @@ export const targets: TargetInput[] = [
     pathways: ["ddr", "p53-cell-cycle"],
     cancers: ["ovarian", "endometrial", "tnbc"],
     tags: ["ddr"],
+    prevalence: [
+      { cancerId: "ovarian", pct: "15-20", measure: "CCNE1 amplification (dependency context)", source: "https://www.cbioportal.org/study/summary?id=ov_tcga_pan_can_atlas_2018", note: "TP53 mutation ~95%" },
+      { cancerId: "endometrial", pct: "n/a", measure: "Uterine serous carcinoma context", source: "https://en.wikipedia.org/wiki/Wee1-like_protein_kinase" },
+    ],
   },
   {
     id: "idh", kind: "target", name: "IDH1 / IDH2", symbol: "IDH1, IDH2", targetClass: "enzyme", asOf, wikipedia: W("Isocitrate_dehydrogenase"),
@@ -478,6 +693,11 @@ export const targets: TargetInput[] = [
     whereFound: ["Low-grade glioma (~80%)", "AML (~20%)", "Cholangiocarcinoma (~15%)", "Chondrosarcoma"],
     cancers: ["glioblastoma", "aml", "cholangiocarcinoma"],
     tags: ["driver", "epigenetic"],
+    prevalence: [
+      { cancerId: "glioblastoma", pct: "70-80", measure: "IDH1/2 mutation in grade 2-3 glioma", source: "https://www.cbioportal.org/study/summary?id=lgg_tcga_pan_can_atlas_2018", note: "<10% in primary glioblastoma" },
+      { cancerId: "aml", pct: "15-20", measure: "IDH1 or IDH2 mutation", source: "https://www.cbioportal.org/study/summary?id=laml_tcga_pan_can_atlas_2018" },
+      { cancerId: "cholangiocarcinoma", pct: "10-20", measure: "IDH1 mutation (intrahepatic)", source: "https://www.cbioportal.org/study/summary?id=chol_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "menin", kind: "target", name: "Menin", symbol: "MEN1", targetClass: "transcription", asOf, wikipedia: W("Menin"),
@@ -487,6 +707,10 @@ export const targets: TargetInput[] = [
     whereFound: ["KMT2A-rearranged AML/ALL", "NPM1-mutant AML"],
     cancers: ["aml", "all-leukemia"],
     tags: ["epigenetic"],
+    prevalence: [
+      { cancerId: "aml", pct: "25-30", measure: "NPM1 mutation", source: "https://www.cbioportal.org/study/summary?id=laml_tcga_pan_can_atlas_2018", note: "KMT2A rearrangement ~5-10%" },
+      { cancerId: "all-leukemia", pct: "5-10", measure: "KMT2A rearrangement (adult); ~70% infant ALL", source: "https://en.wikipedia.org/wiki/Menin" },
+    ],
   },
   {
     id: "ezh2", kind: "target", name: "EZH2", symbol: "EZH2", targetClass: "enzyme", asOf, wikipedia: W("EZH2"), links: [{ label: "FDA alert: Tazverik withdrawal (March 2026)", url: "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerts-health-care-providers-and-patients-about-increased-risk-new-blood-cancers-tazverik" }],
@@ -496,6 +720,11 @@ export const targets: TargetInput[] = [
     whereFound: ["Epithelioid sarcoma (INI1 loss)", "Follicular lymphoma", "Castration-resistant prostate cancer"],
     cancers: ["sarcoma", "prostate", "dlbcl"],
     tags: ["epigenetic"],
+    prevalence: [
+      { cancerId: "dlbcl", pct: "20-25", measure: "EZH2 Y641 mutation in follicular/GCB lymphoma", source: "https://en.wikipedia.org/wiki/EZH2", note: "Tazemetostat withdrawn March 2026" },
+      { cancerId: "sarcoma", pct: ">90", measure: "INI1 (SMARCB1) loss in epithelioid sarcoma (EZH2 dependency)", source: "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerts-health-care-providers-and-patients-about-increased-risk-new-blood-cancers-tazverik", note: "Tazemetostat withdrawn March 2026" },
+      { cancerId: "prostate", pct: "n/a", measure: "Overexpression in CRPC; no threshold", source: "https://en.wikipedia.org/wiki/EZH2" },
+    ],
   },
   {
     id: "bcl2", kind: "target", name: "BCL-2", symbol: "BCL2", targetClass: "other", asOf, wikipedia: W("Bcl-2"),
@@ -506,6 +735,11 @@ export const targets: TargetInput[] = [
     pathways: ["apoptosis-bcl2"],
     cancers: ["cll", "aml", "dlbcl"],
     tags: ["apoptosis"],
+    prevalence: [
+      { cancerId: "cll", pct: ">90", measure: "BCL-2 overexpression", source: "https://en.wikipedia.org/wiki/Bcl-2" },
+      { cancerId: "dlbcl", pct: "30-40", measure: "BCL2 translocation/overexpression", source: "https://en.wikipedia.org/wiki/Bcl-2", note: "~90% in follicular lymphoma t(14;18)" },
+      { cancerId: "aml", pct: "n/a", measure: "Dependency, not a prevalence threshold", source: "https://en.wikipedia.org/wiki/Bcl-2" },
+    ],
   },
   {
     id: "vegf", kind: "target", name: "VEGF / VEGFR", symbol: "VEGFA, KDR", targetClass: "other", asOf, wikipedia: W("Vascular_endothelial_growth_factor"),
@@ -516,6 +750,11 @@ export const targets: TargetInput[] = [
     pathways: ["vegf-angiogenesis"],
     cancers: ["rcc", "hcc", "colorectal", "nsclc", "ovarian"],
     tags: ["angiogenesis"],
+    prevalence: [
+      { cancerId: "rcc", pct: ">90", measure: "Clear-cell VHL loss drives VEGF (pathway prevalence)", source: "https://www.cbioportal.org/study/summary?id=kirc_tcga_pan_can_atlas_2018" },
+      { cancerId: "hcc", pct: "n/a", measure: "Angiogenic dependency; no selection biomarker", source: "https://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor" },
+      { cancerId: "colorectal", pct: "n/a", measure: "No selection biomarker for bevacizumab", source: "https://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor" },
+    ],
   },
   {
     id: "hif2a", kind: "target", name: "HIF-2α", symbol: "EPAS1", targetClass: "transcription", asOf, wikipedia: W("EPAS1"),
@@ -526,6 +765,9 @@ export const targets: TargetInput[] = [
     pathways: ["hif-vhl"],
     cancers: ["rcc"],
     tags: ["transcription"],
+    prevalence: [
+      { cancerId: "rcc", pct: "85-90", measure: "VHL inactivation in clear-cell RCC", source: "https://www.cbioportal.org/study/summary?id=kirc_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "estrogen-receptor", kind: "target", name: "Estrogen receptor (ERα)", symbol: "ESR1", targetClass: "nuclear-receptor", asOf, wikipedia: W("Estrogen_receptor_alpha"),
@@ -536,6 +778,10 @@ export const targets: TargetInput[] = [
     pathways: ["er-signaling"],
     cancers: ["breast-hr-positive", "endometrial"],
     tags: ["hormonal"],
+    prevalence: [
+      { cancerId: "breast-hr-positive", pct: 100, measure: "ER+ (>=1% IHC), defining", source: "https://en.wikipedia.org/wiki/Estrogen_receptor_alpha", note: "~70% of all breast cancers; ESR1 mutation ~30% after AI" },
+      { cancerId: "endometrial", pct: "70-80", measure: "ER expression (endometrioid)", source: "https://en.wikipedia.org/wiki/Estrogen_receptor_alpha" },
+    ],
   },
   {
     id: "androgen-receptor", kind: "target", name: "Androgen receptor", symbol: "AR", targetClass: "nuclear-receptor", asOf, wikipedia: W("Androgen_receptor"),
@@ -546,6 +792,10 @@ export const targets: TargetInput[] = [
     pathways: ["ar-signaling"],
     cancers: ["prostate", "tnbc"],
     tags: ["hormonal"],
+    prevalence: [
+      { cancerId: "prostate", pct: ">95", measure: "AR-driven at diagnosis", source: "https://en.wikipedia.org/wiki/Androgen_receptor", note: "AR-V7 in ~20-40% of mCRPC" },
+      { cancerId: "tnbc", pct: "10-15", measure: "Luminal androgen receptor subtype", source: "https://en.wikipedia.org/wiki/Androgen_receptor" },
+    ],
   },
   {
     id: "tp53", kind: "target", name: "TP53", symbol: "TP53", targetClass: "tumor-suppressor", asOf, wikipedia: W("P53"),
@@ -556,6 +806,14 @@ export const targets: TargetInput[] = [
     pathways: ["p53-cell-cycle", "ddr"],
     cancers: ["tnbc", "ovarian", "sclc", "aml"],
     tags: ["tumour-suppressor", "undrugged"],
+    prevalence: [
+      { cancerId: "tnbc", pct: "80-85", measure: "TP53 mutation (basal-like)", source: "https://www.cbioportal.org/study/summary?id=brca_tcga_pan_can_atlas_2018" },
+      { cancerId: "ovarian", pct: "95", measure: "TP53 mutation (high-grade serous)", source: "https://www.cbioportal.org/study/summary?id=ov_tcga_pan_can_atlas_2018" },
+      { cancerId: "sclc", pct: ">90", measure: "TP53 mutation", source: "https://en.wikipedia.org/wiki/P53", note: "RB1 co-loss" },
+      { cancerId: "aml", pct: "8-10", measure: "TP53 mutation", source: "https://www.cbioportal.org/study/summary?id=laml_tcga_pan_can_atlas_2018", note: "Higher in therapy-related AML" },
+      { cancerId: "pancreatic", pct: "70-75", measure: "TP53 mutation", source: "https://www.cbioportal.org/study/summary?id=paad_tcga_pan_can_atlas_2018" },
+      { cancerId: "colorectal", pct: "55-60", measure: "TP53 mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018" },
+    ],
   },
   {
     id: "brca", kind: "target", name: "BRCA1 / BRCA2 (HRD)", symbol: "BRCA1, BRCA2", targetClass: "tumor-suppressor", asOf, wikipedia: W("BRCA_mutation"),
@@ -566,6 +824,13 @@ export const targets: TargetInput[] = [
     pathways: ["ddr"],
     cancers: ["tnbc", "ovarian", "prostate", "pancreatic", "breast-hr-positive"],
     tags: ["germline", "biomarker"],
+    prevalence: [
+      { cancerId: "tnbc", pct: "15-20", measure: "Germline BRCA1/2", source: "https://en.wikipedia.org/wiki/BRCA_mutation", note: "BRCA1 predominant" },
+      { cancerId: "ovarian", pct: "15-20", measure: "Germline BRCA1/2; ~25% including somatic", source: "https://en.wikipedia.org/wiki/BRCA_mutation" },
+      { cancerId: "prostate", pct: "8-12", measure: "Germline or somatic BRCA2 (metastatic)", source: "https://www.cbioportal.org/study/summary?id=prad_tcga_pan_can_atlas_2018" },
+      { cancerId: "pancreatic", pct: "5-8", measure: "Germline BRCA1/2", source: "https://www.cbioportal.org/study/summary?id=paad_tcga_pan_can_atlas_2018" },
+      { cancerId: "breast-hr-positive", pct: "3-5", measure: "Germline BRCA1/2", source: "https://en.wikipedia.org/wiki/BRCA_mutation", note: "BRCA2 predominant" },
+    ],
   },
   {
     id: "cd47", kind: "target", name: "CD47", symbol: "CD47", targetClass: "checkpoint", asOf, wikipedia: W("CD47"),
@@ -575,5 +840,9 @@ export const targets: TargetInput[] = [
     whereFound: ["Broadly on tumour cells"],
     cancers: ["aml", "dlbcl"],
     tags: ["checkpoint", "innate", "failed-so-far"],
+    prevalence: [
+      { cancerId: "aml", pct: ">90", measure: "Surface expression on blasts", source: "https://en.wikipedia.org/wiki/CD47", note: "Magrolimab discontinued" },
+      { cancerId: "dlbcl", pct: ">90", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/CD47" },
+    ],
   },
 ];

@@ -473,6 +473,57 @@ export function devicesFront(): Mesh {
 }
 
 /** Front ids → animated builders. `adcs` reuses the ADC internalisation sequence from ./animated.ts. */
+// ---------------------------------------------------------------- nutrition & lifestyle
+export function nutritionFront(): Mesh {
+  const sc = scene();
+  put(sc, "fig", figure("soft"), { at: [0, 0, 0] });
+  const A0: Vec3 = [-2.8, 0.9, 0.2], A1: Vec3 = [-1.3, 0.9, 0.2];
+  const apple = put(sc, "apple", sphere(0.28, 4, 8, "accent"), { at: A0 });
+  const stem = put(sc, "stem", polyline([[A0[0], A0[1] + 0.28, A0[2]], [A0[0] + 0.1, A0[1] + 0.5, A0[2]]], "accent"));
+  const plate = put(sc, "plate", ring(0.55, 20, "accent", "y"), { at: [-1.3, -0.1, 0.2] });
+  const food = put(sc, "food", dots([[-1.5, 0, 0.1], [-1.2, 0.05, 0.3], [-1.35, -0.02, 0.35], [-1.1, 0.02, 0.05]], "accent"));
+  const track = put(sc, "track", polyline([[-2.4, -1.6, 0], [2.4, -1.6, 0]], "accent"));
+  const weights = [put(sc, "w0", box(0.22, 0.22, 0.22, "accent"), { at: [1.4, 0.6, 0.2] }), put(sc, "w1", box(0.22, 0.22, 0.22, "accent"), { at: [2.0, 0.6, 0.2] })];
+  const bar = put(sc, "bar", line([1.4, 0.6, 0.2], [2.0, 0.6, 0.2], "accent"));
+  const gut: Part[] = [];
+  for (let i = 0; i < 10; i++) { const a = (TAU * i) / 10; gut.push(put(sc, `gut${i}`, sphere(0.06, 3, 6, "accent"), { at: [0.45 * Math.cos(a), -0.15 + 0.3 * Math.sin(a), 0.35] })); }
+  const tcells: Part[] = [];
+  for (let i = 0; i < 4; i++) tcells.push(put(sc, `tc${i}`, icosahedron(0.12, "accent"), { at: [1.0 + 0.35 * i, -0.2 + 0.25 * Math.sin(i * 1.7), 0.3] }));
+  const tum = put(sc, "tum", sphere(0.32, 4, 8, "hot"), { at: [0.35, 0.1, 0.35] });
+  const base = sc.mesh.points, P = sc.parts;
+  return frame(sc, 12, (t, pts, alpha) => {
+    hide(alpha, apple, stem, plate, food, track, ...weights, bar, ...gut, ...tcells, tum);
+    let caption = "";
+    if (t < 0.25) {
+      const u = phase(t, 0, 0.25);
+      setAlpha(alpha, apple, 1); setAlpha(alpha, stem, 1); setAlpha(alpha, plate, u); setAlpha(alpha, food, u);
+      moveTo(pts, base, apple, A0, A1, u, 1, t * 6); moveTo(pts, base, stem, A0, A1, u);
+      caption = "1 · What we eat, drink and weigh changes who gets cancer: about four in ten cases are preventable";
+    } else if (t < 0.5) {
+      const u = phase(t, 0.25, 0.5);
+      setAlpha(alpha, track, 1); weights.forEach((w) => setAlpha(alpha, w, 1)); setAlpha(alpha, bar, 1);
+      const bob = 0.12 * Math.sin(u * TAU * 3);
+      movePart(pts, base, P["fig"], [0, bob, 0], 1);
+      weights.forEach((w) => movePart(pts, base, w, [0, 0.35 * Math.abs(Math.sin(u * TAU * 1.5)), 0], 1)); movePart(pts, base, bar, [0, 0.35 * Math.abs(Math.sin(u * TAU * 1.5)), 0], 1);
+      caption = "2 · A structured exercise programme after colon cancer treatment cut deaths in a randomised trial";
+    } else if (t < 0.75) {
+      const u = phase(t, 0.5, 0.75);
+      gut.forEach((g, i) => { setAlpha(alpha, g, Math.min(1, u * 10 - i * 0.6)); movePart(pts, base, g, [0, 0.03 * Math.sin(t * TAU * 6 + i), 0], 1 + 0.4 * Math.sin(u * Math.PI)); });
+      tcells.forEach((c, i) => { setAlpha(alpha, c, Math.max(0, Math.min(1, u * 4 - i * 0.6))); moveTo(pts, base, c, [1.0 + 0.35 * i, -0.2 + 0.25 * Math.sin(i * 1.7), 0.3], [0.7 + 0.15 * i, 0.2, 0.3], u, 1, t * 5); });
+      setAlpha(alpha, tum, 0.9);
+      caption = "3 · Fibre and a diverse gut microbiome help immunotherapy work; antibiotics and some probiotics blunt it";
+    } else {
+      const u = phase(t, 0.75, 1);
+      setAlpha(alpha, plate, 1); setAlpha(alpha, food, 1); setAlpha(alpha, apple, 1); setAlpha(alpha, stem, 1);
+      moveTo(pts, base, apple, A0, A1, 1); moveTo(pts, base, stem, A0, A1, 1);
+      setAlpha(alpha, tum, 1 - u); movePart(pts, base, tum, [0, 0, 0], 1 - 0.6 * u);
+      movePart(pts, base, P["fig"], [0, 0, 0], 1 + 0.06 * u);
+      caption = "4 · Weight loss and muscle wasting during treatment are treatable: nutrition is part of the therapy, not an afterthought";
+    }
+    return { caption, labels: [{ at: [0, 1.15, 0], text: "Person" }, ...(t < 0.25 || t >= 0.75 ? [{ at: [-1.3, 1.35, 0] as Vec3, text: "Diet" }] : []), ...(t >= 0.25 && t < 0.5 ? [{ at: [1.7, 1.1, 0] as Vec3, text: "Exercise" }] : []), ...(t >= 0.5 && t < 0.75 ? [{ at: [0.5, -0.75, 0] as Vec3, text: "Gut microbiome" }, { at: [1.5, 0.35, 0] as Vec3, text: "Immune cells" }] : [])] };
+  });
+}
+
 export const FRONT_ANIMATED: Record<string, () => Mesh> = {
   imaging: imagingFront,
   diagnostics: diagnosticsFront,
@@ -491,4 +542,5 @@ export const FRONT_ANIMATED: Record<string, () => Mesh> = {
   "drug-discovery": discoveryFront,
   prevention: preventionFront,
   devices: devicesFront,
+  "nutrition-lifestyle": nutritionFront,
 };

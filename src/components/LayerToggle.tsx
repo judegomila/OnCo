@@ -27,8 +27,9 @@ export function LayerToggle({ className = "" }: { className?: string }) {
         <span aria-hidden className="font-semibold tracking-tight">Aa</span>
         <span className="text-xs text-muted font-medium">{lang.code.toUpperCase()}</span>
       </button>
+      {/* Phones: span the viewport below the header (a right-anchored 18rem panel would run off the left edge). */}
       {open && (
-        <div role="dialog" aria-label="Reading level and language" className="absolute right-0 z-50 mt-1.5 w-72 card shadow-pop p-3 text-sm">
+        <div role="dialog" aria-label="Reading level and language" className="fixed inset-x-4 top-[calc(var(--header-h)+0.375rem)] z-50 sm:absolute sm:inset-x-auto sm:right-0 sm:top-full sm:mt-1.5 sm:w-72 card shadow-pop p-3 text-sm">
           <div className="kicker mb-1.5">Reading level</div>
           <div className="flex rounded-lg border border-border overflow-hidden mb-1.5 p-0.5 gap-0.5 bg-surface">
             {LEVELS.map((l) => (

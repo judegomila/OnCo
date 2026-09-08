@@ -38,14 +38,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeScript />
         <SkipLink />
         <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/75">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-2 sm:gap-3">
-            <Link href="/" className="inline-flex h-10 shrink-0 items-center gap-2.5 rounded-lg pr-2 font-semibold tracking-tight" aria-label="OnCo home">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-1.5 sm:gap-3">
+            <Link href="/" className="inline-flex h-10 shrink-0 items-center gap-2.5 rounded-lg sm:pr-2 font-semibold tracking-tight" aria-label="OnCo home">
               <Mark />
               <span className="text-[15px]">OnCo</span>
               <span className="hidden min-[1800px]:inline text-muted font-normal text-sm">time to win</span>
             </Link>
             <NavMenu />
-            <div className="ml-auto flex-1 min-w-[6.5rem] max-w-[17rem] sm:max-w-xs xl:ml-auto">
+            {/* Shrinks to an icon at phone widths so the fixed-width controls and the menu button always fit on one row. */}
+            <div className="ml-auto flex-1 min-w-10 max-w-[17rem] sm:max-w-xs xl:ml-auto">
               <PaletteTrigger className="w-full h-10 rounded-[0.625rem]" />
             </div>
             <LayerToggle />

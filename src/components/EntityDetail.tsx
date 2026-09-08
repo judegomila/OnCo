@@ -221,8 +221,8 @@ function kindTabs(e: Entity): Tab[] {
         </>),
         ...(e.approvals.length || e.regulatoryEvents.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length, content: (<>
           {e.regulatoryEvents.length > 0 && <RegulatoryTimeline events={e.regulatoryEvents} />}
-          {e.approvals.length > 0 && <Block title="Approvals"><table className="onco"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
-            <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> — {a.note}</span>}</td></tr>)}</tbody></table></Block>}
+          {e.approvals.length > 0 && <Block title="Approvals"><div className="overflow-x-auto -mx-4 px-4"><table className="onco"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
+            <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> — {a.note}</span>}</td></tr>)}</tbody></table></div></Block>}
         </>) }] : []),
         ...(e.toxicity.length ? [{ id: "safety", label: "Safety", count: e.toxicity.length, content: <ToxicityTable toxicity={e.toxicity} /> }] : []),
         ...(e.access.length ? [{ id: "access", label: "Cost & access", count: e.access.length, content: <AccessTable access={e.access} /> }] : []),
@@ -368,8 +368,8 @@ function kindTabs(e: Entity): Tab[] {
           <Field label="Profiles"><ul className="space-y-0.5">{e.profiles.map((p) => <li key={p.url}><a className="underline" href={p.url} rel="noopener">{p.label}</a></li>)}{e.orcid && <li><a className="underline" href={`https://orcid.org/${e.orcid}`} rel="noopener">ORCID {e.orcid}</a></li>}</ul></Field>
         </div>),
         ...(e.papers.length ? [{ id: "papers", label: "Papers", count: e.papers.length, content: (
-          <table className="onco"><thead><tr><th>Title</th><th>Journal</th><th>Year</th></tr></thead>
-            <tbody>{e.papers.map((p, i) => <tr key={i}><td>{p.url || p.doi ? <a className="underline" href={p.url ?? `https://doi.org/${p.doi}`} rel="noopener">{p.title}</a> : p.title}{p.note && <div className="text-xs text-muted">{p.note}</div>}</td><td className="text-muted">{p.journal}</td><td className="tabular-nums text-muted">{p.year}</td></tr>)}</tbody></table>) }] : []),
+          <div className="card overflow-x-auto"><table className="onco"><thead><tr><th>Title</th><th>Journal</th><th>Year</th></tr></thead>
+            <tbody>{e.papers.map((p, i) => <tr key={i}><td>{p.url || p.doi ? <a className="underline" href={p.url ?? `https://doi.org/${p.doi}`} rel="noopener">{p.title}</a> : p.title}{p.note && <div className="text-xs text-muted">{p.note}</div>}</td><td className="text-muted">{p.journal}</td><td className="tabular-nums text-muted">{p.year}</td></tr>)}</tbody></table></div>) }] : []),
       ];
     }
     case "section": {

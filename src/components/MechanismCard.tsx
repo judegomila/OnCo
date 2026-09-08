@@ -57,7 +57,7 @@ export function MechanismCard({ steps, title = "Mechanism, step by step" }: { st
       <div className="flex items-baseline justify-between"><div className="kicker">{title}</div><span className="text-[10px] text-muted">{paused ? "paused" : reduced ? "" : "auto-advancing · hover to pause"}</span></div>
       <div className="mt-3 flex items-start gap-1 overflow-x-auto no-scrollbar pb-1">
         {steps.map((s, k) => (
-          <button key={k} type="button" onClick={() => { setI(k); setPaused(true); }} aria-current={k === i} className="flex flex-col items-center shrink-0 w-[4.5rem] group">
+          <button key={k} type="button" onClick={() => { setI(k); setPaused(true); }} aria-current={k === i} className="relative flex flex-col items-center shrink-0 w-[4.5rem] group">
             <Glyph kind={classify(s)} active={k === i} />
             <span className={`mt-1 text-[10px] tabular-nums ${k === i ? "text-foreground font-semibold" : "text-muted"}`}>{k + 1}</span>
             {k < steps.length - 1 && <span className="sr-only">then</span>}

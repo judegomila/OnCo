@@ -2,6 +2,7 @@
 
 import { NavIcon } from "./NavIcon";
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAV_GROUPS } from "@/lib/nav";
@@ -74,9 +75,11 @@ export function NavMenu() {
         <svg aria-hidden viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14" /></svg>
         <span className="hidden sm:inline">Menu</span>
       </button>
-      {drawer && (
+      {/* Portaled to <body>: the header's backdrop-filter makes it the containing block for fixed
+          descendants, which would trap the overlay inside the 56px header bar. */}
+      {drawer && createPortal(
         <div className="fixed inset-0 z-[90] bg-black/45 backdrop-blur-[2px]" onMouseDown={(e) => { if (e.target === e.currentTarget) setDrawer(false); }}>
-          <div id="site-drawer" role="dialog" aria-modal="true" aria-label="Menu" className="absolute right-0 top-0 h-full w-[88vw] max-w-sm bg-background border-l border-border overflow-y-auto shadow-pop flex flex-col">
+          <div id="site-drawer" role="dialog" aria-modal="true" aria-label="Menu" className="absolute right-0 top-0 h-full w-[88vw] max-w-sm bg-background border-l border-border overflow-y-auto overscroll-contain shadow-pop flex flex-col">
             <div className="sticky top-0 z-10 flex items-center justify-between gap-3 px-4 h-14 border-b border-border bg-background/95 backdrop-blur">
               <span className="font-semibold tracking-tight">Menu</span>
               <button type="button" onClick={() => setDrawer(false)} className="ctl ctl-icon" aria-label="Close menu">
@@ -103,7 +106,8 @@ export function NavMenu() {
               ))}
             </div>
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </div>
   );

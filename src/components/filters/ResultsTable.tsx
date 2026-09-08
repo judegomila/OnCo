@@ -28,7 +28,7 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "
   scroll?: boolean;
 }) {
   return (
-    <div className={`card overflow-x-auto ${scroll ? "" : "lg:overflow-x-visible"}`}>
+    <div className={`card results-table overflow-x-auto ${scroll ? "" : "lg:overflow-x-visible"}`}>
       <table className="onco">
         <thead>
           <tr>

@@ -5,6 +5,10 @@
  */
 import { add, antibody, antibodyTips, arrow, box, cone, cylinder, dna, dots, ellipsoid, empty, fan, grid3, helix, icosahedron, label, line, octahedron, polyline, ring, sphere, torus, type Mesh, type Vec3 } from "@/lib/wireframe";
 import { ANIMATED } from "./animated";
+import { FRONT_ANIMATED } from "./front-animations";
+
+/** All animated builders by key: technology ids, plus `front:<sectionId>` for the fronts (adcs reuses the ADC sequence). */
+export const ALL_ANIMATED: Record<string, () => Mesh> = { ...ANIMATED, ...Object.fromEntries(Object.entries(FRONT_ANIMATED).map(([k, f]) => [`front:${k}`, f])), "front:adcs": ANIMATED["adc"] };
 
 const TAU = Math.PI * 2;
 const circlePts = (r: number, n: number, y = 0): Vec3[] => Array.from({ length: n }, (_, i) => [r * Math.cos((TAU * i) / n), y, r * Math.sin((TAU * i) / n)]);
@@ -526,15 +530,24 @@ function build(key: string, f: () => Mesh): Mesh {
 /** Animated process schematic for a technology id, if one exists (see animated.ts). */
 export function hasAnimation(techId: string): boolean { return techId in ANIMATED; }
 /** Serialisable stand-in for an animated mesh: static geometry plus the `anim` marker; Wireframe3D rebuilds the animation client-side. */
-function marker(techId: string): Mesh {
-  return build(`anim:${techId}`, () => { const m = ANIMATED[techId](); return { points: m.points, segments: m.segments, labels: m.labels, anim: techId }; });
+function marker(key: string): Mesh {
+  return build(`anim:${key}`, () => { const m = ALL_ANIMATED[key](); return { points: m.points, segments: m.segments, labels: m.labels, anim: key }; });
 }
 export function animatedFor(techId: string): Mesh | undefined { return ANIMATED[techId] ? marker(techId) : undefined; }
 
-/** Returns a specific mesh if one exists (animated where available), else a generic mesh for the first matching front. */
+/** Animated schematic for a front (section id). Every front has one. */
+export function hasFrontAnimation(sectionId: string): boolean { return `front:${sectionId}` in ALL_ANIMATED; }
+export function frontSchematicFor(sectionId: string): Mesh {
+  if (hasFrontAnimation(sectionId)) return marker(`front:${sectionId}`);
+  return genericFor(sectionId);
+}
+
+/** Returns a specific mesh if one exists (animated where available), else a generic mesh for the first matching front.
+ *  Called with a section id (schematicFor(sectionId, [sectionId])) it returns that front's animated schematic. */
 export function schematicFor(techId: string, sections: string[]): { mesh: Mesh; specific: boolean } {
   if (ANIMATED[techId]) return { mesh: marker(techId), specific: true };
   if (S[techId]) return { mesh: build(techId, S[techId]), specific: true };
+  if (hasFrontAnimation(techId) && sections.includes(techId)) return { mesh: marker(`front:${techId}`), specific: true };
   for (const s of sections) if (GENERIC[s]) return { mesh: build(`generic:${s}`, GENERIC[s]), specific: false };
   return { mesh: build("generic:default", () => { const m = empty(); add(m, sphere(1, 5, 10)); return m; }), specific: false };
 }

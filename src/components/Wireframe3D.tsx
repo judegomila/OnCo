@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef } from "react";
 import type { Mesh, Vec3 } from "@/lib/wireframe";
-import { ANIMATED } from "@/data/animated";
+import { ALL_ANIMATED } from "@/data/schematics";
 
 /**
  * Slowly rotating wireframe schematic on a canvas, in the same visual language as MoleculeViewer:
@@ -13,10 +13,11 @@ import { ANIMATED } from "@/data/animated";
  * multipliers, a caption, and optional label overrides, so process schematics (ADC internalisation,
  * CAR-T killing, …) can play as loops while the whole scene keeps rotating.
  */
-export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3, tilt = 0.35 }: { mesh: Mesh; height?: string; speed?: number; tilt?: number }) {
+/** `compact`: thumbnail mode. Draws at ~30 fps, skips labels and the caption box, thin progress bar. Safe to show many at once. */
+export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3, tilt = 0.35, compact = false }: { mesh: Mesh; height?: string; speed?: number; tilt?: number; compact?: boolean }) {
   const ref = useRef<HTMLCanvasElement>(null);
   // Server components send a marker (`anim`) instead of the animation function; build the animated mesh here.
-  const mesh = useMemo(() => (given.anim && ANIMATED[given.anim] ? ANIMATED[given.anim]() : given), [given]);
+  const mesh = useMemo(() => (given.anim && ALL_ANIMATED[given.anim] ? ALL_ANIMATED[given.anim]() : given), [given]);
 
   useEffect(() => {
     const canvas = ref.current;
@@ -92,7 +93,8 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
         if (a === b) { ctx.beginPath(); ctx.arc(pa[0], pa[1], 1.4 + 1.6 * t, 0, Math.PI * 2); ctx.fill(); continue; }
         ctx.beginPath(); ctx.moveTo(pa[0], pa[1]); ctx.lineTo(pb[0], pb[1]); ctx.stroke();
       }
-      // Labels: leader dot + text, faded by depth, skipped when far behind.
+      // Labels: leader dot + text, faded by depth, skipped when far behind (not drawn in compact mode).
+      if (compact) labels = [];
       ctx.font = "11px ui-sans-serif, system-ui, sans-serif";
       ctx.textBaseline = "middle";
       for (const l of labels) {
@@ -110,8 +112,11 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
         ctx.fillStyle = `rgba(${base}, ${al.toFixed(3)})`;
         ctx.fillText(l.text, p[0] + 15, p[1] - 10.5);
       }
-      // Caption for animated process phases.
-      if (caption) {
+      // Caption for animated process phases (compact mode: progress bar only).
+      if (caption && compact && mesh.animate) {
+        const t = reduced ? 0.35 : (((time - t0) / 1000) % mesh.animate.duration) / mesh.animate.duration;
+        ctx.fillStyle = `rgba(${accent}, 0.6)`; ctx.fillRect(6, H - 3, (W - 12) * t, 2);
+      } else if (caption) {
         ctx.font = "600 12px ui-sans-serif, system-ui, sans-serif";
         const w = ctx.measureText(caption).width;
         ctx.fillStyle = dark ? "rgba(15,17,19,0.85)" : "rgba(251,251,250,0.9)";
@@ -128,14 +133,16 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
       }
     };
 
+    let last = 0;
+    const minGap = compact ? 1000 / 30 : 0;
     const loop = (time: number) => {
       if (!visible) return;
-      draw(time);
+      if (time - last >= minGap) { draw(time); last = time; }
       if (!reduced) raf = requestAnimationFrame(loop);
     };
     loop(performance.now());
     return () => { cancelAnimationFrame(raf); io.disconnect(); };
-  }, [mesh, speed, tilt]);
+  }, [mesh, speed, tilt, compact]);
 
   return (
     <div className="relative bg-gradient-to-b from-foreground/[0.03] to-transparent">

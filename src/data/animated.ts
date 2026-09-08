@@ -8,14 +8,14 @@ import { add, antibody, antibodyTips, dots, empty, helix, lerp, lerp3, line, mov
 const TAU = Math.PI * 2;
 const cell = (r: number, cls?: string) => sphere(r, 5, 10, cls);
 
-type Scene = { mesh: Mesh; parts: Record<string, Part> };
-function scene(): Scene { return { mesh: empty(), parts: {} }; }
-function put(sc: Scene, name: string, m: Mesh, opts: Parameters<typeof add>[2] = {}): Part { const p = part(sc.mesh, m, opts); sc.parts[name] = p; return p; }
+export type Scene = { mesh: Mesh; parts: Record<string, Part> };
+export function scene(): Scene { return { mesh: empty(), parts: {} }; }
+export function put(sc: Scene, name: string, m: Mesh, opts: Parameters<typeof add>[2] = {}): Part { const p = part(sc.mesh, m, opts); sc.parts[name] = p; return p; }
 /** Fresh frame buffers: copy of base points and all-ones alpha. */
-function buffers(sc: Scene): { pts: Vec3[]; alpha: number[] } { return { pts: sc.mesh.points.map((p) => [p[0], p[1], p[2]] as Vec3), alpha: sc.mesh.segments.map(() => 1) }; }
-const pulse = (t: number, f = 6) => 0.55 + 0.45 * Math.sin(t * TAU * f);
+export function buffers(sc: Scene): { pts: Vec3[]; alpha: number[] } { return { pts: sc.mesh.points.map((p) => [p[0], p[1], p[2]] as Vec3), alpha: sc.mesh.segments.map(() => 1) }; }
+export const pulse = (t: number, f = 6) => 0.55 + 0.45 * Math.sin(t * TAU * f);
 /** Small receptor stub with a head, pointing along +x from `base`. */
-function receptor(base: Vec3, len = 0.28, cls?: string): Mesh { const m = empty(); add(m, line(base, [base[0] + len, base[1], base[2]], cls)); add(m, sphere(0.06, 2, 6, cls), { at: [base[0] + len, base[1], base[2]] }); return m; }
+export function receptor(base: Vec3, len = 0.28, cls?: string): Mesh { const m = empty(); add(m, line(base, [base[0] + len, base[1], base[2]], cls)); add(m, sphere(0.06, 2, 6, cls), { at: [base[0] + len, base[1], base[2]] }); return m; }
 /** ADC-like antibody with payload octahedra on the Fc region; returns the parts needed for animation. */
 function adcParts(sc: Scene, prefix: string, at: Vec3, scale: number, sites: number, arms: [boolean, boolean] = [true, true], payloadCls = "accent"): Part[] {
   put(sc, `${prefix}.ab`, antibody(scale, undefined, 0.6, arms[0], arms[1]), { at });
@@ -131,7 +131,7 @@ export function adcAnimated(opts: { bispecific?: boolean; payloadLabel?: string;
   return sc.mesh;
 }
 
-function centroid(pts: Vec3[], p: Part): Vec3 { let x = 0, y = 0, z = 0; const n = p.p1 - p.p0 || 1; for (let i = p.p0; i < p.p1; i++) { x += pts[i][0]; y += pts[i][1]; z += pts[i][2]; } return [x / n, y / n, z / n]; }
+export function centroid(pts: Vec3[], p: Part): Vec3 { let x = 0, y = 0, z = 0; const n = p.p1 - p.p0 || 1; for (let i = p.p0; i < p.p1; i++) { x += pts[i][0]; y += pts[i][1]; z += pts[i][2]; } return [x / n, y / n, z / n]; }
 
 // =====================================================================================
 // CAR-T: approach → synapse → granules → target dies → CAR-T expands

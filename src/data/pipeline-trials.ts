@@ -1,4 +1,5 @@
 import type { EntityInput } from "@/lib/schema";
+import { TRIAL_OUTCOMES } from "./trial-outcomes";
 
 /**
  * Trials referenced by the readout calendar that were not yet in the corpus.
@@ -6,7 +7,7 @@ import type { EntityInput } from "@/lib/schema";
  */
 const asOf = "2026-09-06";
 
-export const pipelineTrials: EntityInput[] = [
+const raw: EntityInput[] = [
   {
     id: "ascent-05", kind: "trial", name: "ASCENT-05 / OptimICE-RD (AFT-65, GBG 119, NSABP B-63)", nct: "NCT05633654", phase: "3", status: "active", asOf, sponsor: "Gilead / Alliance Foundation Trials",
     setting: "Stage II–III TNBC with residual invasive disease after neoadjuvant therapy and surgery: adjuvant sacituzumab govitecan + pembrolizumab vs pembrolizumab ± capecitabine",
@@ -24,3 +25,5 @@ export const pipelineTrials: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov NCT05629585", url: "https://clinicaltrials.gov/study/NCT05629585" }, { label: "TROPION-Breast03 design (Ther Adv Med Oncol 2024)", url: "https://journals.sagepub.com/doi/10.1177/17588359241248336" }],
   },
 ];
+
+export const pipelineTrials: EntityInput[] = raw.map((t) => (t.kind === "trial" ? { ...t, ...TRIAL_OUTCOMES[t.id] } : t));

@@ -36,3 +36,12 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 - Nine roadmaps including ADC generations, TROP2 ADCs, TNBC, radiopharmaceuticals, cell therapy, molecular imaging, early detection, immunotherapy, and KRAS.
 - "For me" cancer picker, institution world map with a disclosed ranking, pathway diagrams, glossary, 50 hub ideas, and a static JSON API at `/api/v1/`.
 - Build-time validation of every cross-reference; MIT code licence, CC BY 4.0 data licence.
+
+## 2026-09-07 — Trust layer
+
+- `/audit/`: contradiction and staleness detector (status vs approvals, positive trials without results, standard-of-care rows citing withdrawn items, future years, duplicates, unsourced records), plus registry fact checks.
+- `/corrections/`: public corrections log from `CORRECTIONS.md`.
+- Provenance line on every object page (last edit commit, author, message, diff link) from `git blame`.
+- Confidence chips: named probability ranges for the 26 ideas and 9 speculative roadmap steps.
+- Review tracks: expert and patient-advocate badges with mandatory conflict-of-interest statements.
+- Weekly GitHub Action runs fact check, audit, and provenance and opens a PR.

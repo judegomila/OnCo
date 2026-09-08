@@ -16,6 +16,9 @@
     "fetch:openalex": "tsx scripts/fetch-openalex.ts",
     "fetch:trials": "tsx scripts/fetch-trials.ts",
     "validate:additions": "tsx scripts/validate-additions.ts",
+    "audit": "tsx scripts/audit.ts",
+    "provenance": "tsx scripts/provenance.ts",
+    "factcheck": "tsx scripts/factcheck.ts",
     "bench": "tsx scripts/benchmark-run.ts",
     "bench:score": "tsx scripts/benchmark-score.ts"
   },

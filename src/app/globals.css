@@ -2,7 +2,7 @@
 
 /* ------------------------------------------------------------------------------------------------
    OnCo design tokens
-   Serious, scientific, warm. One accent (the brand's dark red) used for meaning: primary actions,
+   Serious, scientific, warm. One accent (the pink long used by cancer groups) for meaning: primary actions,
    active state, focus. Everything else is neutral so the kind and status colours carry information.
    ------------------------------------------------------------------------------------------------ */
 :root {
@@ -13,10 +13,10 @@
   --border-strong: #cfcdc7;
   --card: #ffffff;
   --surface: #f1f0ec;
-  --accent: #b91c1c;
-  --accent-solid: #b91c1c;
+  --accent: #c2185b;
+  --accent-solid: #d6336c;
   --accent-fg: #ffffff;
-  --accent-soft: #fbeaea;
+  --accent-soft: #fce7f0;
   --ring: #b91c1c;
   --shadow-1: 0 1px 2px rgb(23 25 29 / 0.05), 0 1px 1px rgb(23 25 29 / 0.03);
   --shadow-2: 0 8px 20px -10px rgb(23 25 29 / 0.16), 0 2px 4px -2px rgb(23 25 29 / 0.06);
@@ -58,10 +58,10 @@
     --border-strong: #3b414a;
     --card: #1a1d22;
     --surface: #22262c;
-    --accent: #f87171;
-    --accent-solid: #c62828;
+    --accent: #f9a8d4;
+    --accent-solid: #db2777;
     --accent-fg: #ffffff;
-    --accent-soft: #3a1c1c;
+    --accent-soft: #3b1a2b;
     --ring: #f87171;
     --shadow-1: 0 1px 2px rgb(0 0 0 / 0.35);
     --shadow-2: 0 8px 20px -10px rgb(0 0 0 / 0.6);
@@ -72,7 +72,7 @@
 /* Themes (ThemeToggle sets data-theme on <html>; default follows prefers-color-scheme above). */
 [data-theme="light"] {
   --background: #f9f8f6; --foreground: #17191d; --muted: #5a616e; --border: #e3e2de; --border-strong: #cfcdc7; --card: #ffffff; --surface: #f1f0ec;
-  --accent: #b91c1c; --accent-solid: #b91c1c; --accent-fg: #ffffff; --accent-soft: #fbeaea; --ring: #b91c1c;
+  --accent: #c2185b; --accent-solid: #d6336c; --accent-fg: #ffffff; --accent-soft: #fce7f0; --ring: #d6336c;
   --shadow-1: 0 1px 2px rgb(23 25 29 / 0.05), 0 1px 1px rgb(23 25 29 / 0.03);
   --shadow-2: 0 8px 20px -10px rgb(23 25 29 / 0.16), 0 2px 4px -2px rgb(23 25 29 / 0.06);
   --shadow-3: 0 18px 40px -18px rgb(23 25 29 / 0.28), 0 4px 10px -4px rgb(23 25 29 / 0.08);
@@ -80,7 +80,7 @@
 }
 [data-theme="dark"] {
   --background: #121417; --foreground: #e7e8ea; --muted: #a3aab5; --border: #2b3037; --border-strong: #3b414a; --card: #1a1d22; --surface: #22262c;
-  --accent: #f87171; --accent-solid: #c62828; --accent-fg: #ffffff; --accent-soft: #3a1c1c; --ring: #f87171;
+  --accent: #f9a8d4; --accent-solid: #db2777; --accent-fg: #ffffff; --accent-soft: #3b1a2b; --ring: #f9a8d4;
   --shadow-1: 0 1px 2px rgb(0 0 0 / 0.35);
   --shadow-2: 0 8px 20px -10px rgb(0 0 0 / 0.6);
   --shadow-3: 0 18px 40px -18px rgb(0 0 0 / 0.7);

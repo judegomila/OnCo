@@ -15,7 +15,7 @@ export default function About() {
         <section>
           <h2 className="text-xl font-semibold mb-2">What it is</h2>
           <p>OnCo is a knowledge graph of {g.entities.length} objects across {KINDS.length} kinds: {KINDS.map((k) => `${g.kind(k).length} ${KIND_META[k].plural}`).join(", ")}. Every object has its own page, a plain-English TL;DR, a technical summary, an “as of” date, links out to Wikipedia and primary sources, and a list of everything in the graph that connects to it. Relationships are declared once and backlinks are derived, so the graph is always consistent.</p>
-          <p>The first deep “spike” is <Link href="/cancers/tnbc/">triple-negative breast cancer</Link>, chosen because it went from the subtype with no targeted therapy to one with immunotherapy, PARP inhibitors, three ADCs, and a positive bispecific ADC within six years. Other cancers have state-of-the-art, standard-of-care, history, and pipeline sections at varying depth.</p>
+          <p>The first fully built example is <Link href="/cancers/tnbc/">triple-negative breast cancer</Link>, chosen because it went from the subtype with no targeted therapy to one with immunotherapy, PARP inhibitors, three ADCs, and a positive bispecific ADC within six years. Other cancers have state-of-the-art, standard-of-care, history, and pipeline sections at varying depth.</p>
         </section>
         <section>
           <h2 className="text-xl font-semibold mb-2">The rules for facts</h2>

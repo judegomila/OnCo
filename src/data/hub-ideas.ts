@@ -67,13 +67,13 @@ export const hubIdeas: HubIdea[] = [
   { n: 46, title: "Static, fast, cheap hosting", why: "Static export on Vercel; loads anywhere including low-bandwidth settings.", status: "shipped", theme: "Reach" },
   { n: 47, title: "Schema.org structured data for search engines", why: "MedicalCondition, Drug, MedicalStudy markup so the hub is machine-readable to Google and AI crawlers.", status: "shipped", theme: "Reach" },
   { n: 48, title: "Partnerships with existing collections", why: "Link out to and ingest from OncoKB, CIViC, ClinicalTrials.gov, ADCdb, NCI PDQ rather than duplicating them.", status: "building", theme: "Reach" },
-  { n: 49, title: "Cancer-by-cancer spikes with domain experts", why: "TNBC is first. Next: pancreatic, NSCLC, prostate, glioblastoma, each with a named expert reviewer.", status: "shipped", theme: "Reach" },
+  { n: 49, title: "Cancer-by-cancer deep dives with domain experts", why: "TNBC is first. Next: pancreatic, NSCLC, prostate, glioblastoma, each with a named expert reviewer.", status: "shipped", theme: "Reach" },
   { n: 50, title: "Annual 'State of the War on Cancer' report", why: "Generated from the corpus: approvals, failures, roadmap progress, open problems. A yearly reference point.", status: "shipped", theme: "Reach" },
 ];
 
 /** Second roadmap (2026-09-07): 50 ideas to make OnCo better, deeper, more user-friendly, more powerful. */
 export const hubIdeas2: HubIdea[] = [
-  { n: 1, title: "Spike every cancer to TNBC depth", why: "All 31 cancers now carry standard of care by setting with guideline mapping, history, pipeline, open problems, and landmark trials with structured outcomes.", status: "shipped", theme: "Depth" },
+  { n: 1, title: "Build every cancer to TNBC depth", why: "All 31 cancers now carry standard of care by setting with guideline mapping, history, pipeline, open problems, and landmark trials with structured outcomes.", status: "shipped", theme: "Depth" },
   { n: 2, title: "Structured trial outcomes", why: "Arms, N, endpoints, hazard ratios and confidence intervals on every trial.", status: "shipped", theme: "Depth" },
   { n: 3, title: "Out-of-100 pictograms", why: "Percent endpoints drawn as people, time endpoints as median bars.", status: "shipped", theme: "Depth" },
   { n: 4, title: "Dosing and schedule on product pages", why: "Route, cycle, modifications, monitoring, with the label as source.", status: "shipped", theme: "Depth" },

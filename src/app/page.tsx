@@ -85,7 +85,7 @@ export default function Home() {
             <div className="mt-8 max-w-2xl"><SearchBox large autoFocus={false} /></div>
             <div className="mt-5 flex flex-wrap gap-2">
               <Link href="/for-me/" className="btn btn-primary">Pick my cancer type <span aria-hidden>→</span></Link>
-              <Link href={routeFor(tnbc)} className="btn">Spike: triple-negative breast cancer</Link>
+              <Link href={routeFor(tnbc)} className="btn">Example: triple-negative breast cancer</Link>
               <Link href="/roadmaps/trop2-adc-roadmap/" className="btn">TROP2 ADC roadmap</Link>
             </div>
           </div>

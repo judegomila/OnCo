@@ -23,6 +23,8 @@ import { TechSchematic } from "./TechSchematic";
 import { Wireframe3D } from "./Wireframe3D";
 import { schematicFor } from "@/data/schematics";
 import { Tabs, type Tab } from "./Tabs";
+import { RoadmapStory } from "./RoadmapStory";
+import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -243,7 +245,7 @@ function kindTabs(e: Entity): Tab[] {
       ];
     }
     case "roadmap":
-      return [overview(), { id: "steps", label: "Steps", count: e.steps.length, content: <RoadmapSteps r={e} /> }];
+      return [overview(), { id: "steps", label: "Steps", count: e.steps.length, content: <RoadmapSteps r={e} /> }, { id: "story", label: "Story", content: <RoadmapStory title={e.name} steps={roadmapStorySteps(e)} /> }];
     case "idea":
       return [
         overview(<div className="grid gap-6 mt-8">

@@ -15,6 +15,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/timeline/", label: "Timeline", blurb: "Scrub through the years: approvals, trials, and standard of care as it stood." },
       { href: "/query/", label: "Query", blurb: "Build a graph query and get a table." },
       { href: "/graph/", label: "Graph explorer", blurb: "Navigate the knowledge graph visually." },
+      { href: "/body/", label: "Body map", blurb: "Start from where the cancer is." },
     ],
   },
   {

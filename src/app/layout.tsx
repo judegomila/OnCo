@@ -4,6 +4,8 @@ import Link from "next/link";
 import "./globals.css";
 import { CommandPalette, PaletteTrigger } from "@/components/CommandPalette";
 import { NavMenu } from "@/components/NavMenu";
+import { ThemeToggle, ThemeScript } from "@/components/ThemeToggle";
+import { SkipLink } from "@/components/SkipLink";
 import { NAV_GROUPS } from "@/lib/nav";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -21,6 +23,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <ThemeScript />
+        <SkipLink />
         <header className="sticky top-0 z-40 border-b border-border bg-background/85 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-4">
             <Link href="/" className="flex items-center gap-2 font-semibold tracking-tight">
@@ -32,10 +36,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="ml-auto w-full max-w-xs sm:max-w-sm">
               <PaletteTrigger className="w-full" />
             </div>
+            <ThemeToggle />
           </div>
         </header>
         <CommandPalette />
-        <main className="flex-1">{children}</main>
+        <main id="main" className="flex-1">{children}</main>
         <footer className="border-t border-border mt-16">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-7 text-sm">
             <div className="md:col-span-2">

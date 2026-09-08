@@ -1,0 +1,219 @@
+import type { EntityInput, IdeaInput, PairingInput, TargetInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
+import type { Spike } from "./index";
+
+/**
+ * HODGKIN LYMPHOMA SPIKE. Adds the CD30 target, PET-adapted therapy, the Deauville score, landmark trials with
+ * structured outcomes, pairings and ideas, and patches `hodgkin-lymphoma` to TNBC depth. Facts checked 2026-09-07.
+ * References doxorubicin (sarcoma spike) and autologous-stem-cell-transplant (myeloma spike).
+ */
+const asOf = "2026-09-07";
+const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
+const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
+
+const t = (x: Omit<TrialInput, "kind" | "asOf">): TrialInput => ({ kind: "trial", asOf, ...x });
+const tg = (x: Omit<TargetInput, "kind" | "asOf">): TargetInput => ({ kind: "target", asOf, ...x });
+const tech = (x: Omit<TechnologyInput, "kind" | "asOf">): TechnologyInput => ({ kind: "technology", asOf, ...x });
+const term = (x: Omit<TermInput, "kind" | "asOf">): TermInput => ({ kind: "term", asOf, ...x });
+const idea = (x: Omit<IdeaInput, "kind" | "asOf">): IdeaInput => ({ kind: "idea", asOf, ...x });
+const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: "pairing", asOf, ...x });
+
+// ======================= TARGETS =======================
+const targets: TargetInput[] = [
+  tg({ id: "cd30", name: "CD30", symbol: "TNFRSF8", targetClass: "surface-antigen", wikipedia: W("CD30"),
+    tldr: "A protein on the malignant Reed-Sternberg cells of Hodgkin lymphoma and on some T-cell lymphomas, the address for the ADC brentuximab vedotin.",
+    summary: "TNF-receptor family member expressed on activated lymphocytes and near-universally on Hodgkin Reed-Sternberg cells, anaplastic large-cell lymphoma, and subsets of peripheral T-cell lymphoma and DLBCL. Brentuximab vedotin (2011) validated it; CD30 CAR-T (phase 1/2, ~60-70% ORR in relapsed Hodgkin) and CD30 bispecifics are in trials. Expression level does not predict brentuximab response well.",
+    biology: "Signals via TRAF proteins to NF-κB; shed soluble CD30 is a serum marker. Sparse normal expression outside activated T and B cells.",
+    whereFound: ["Classical Hodgkin lymphoma (~100%)", "Anaplastic large-cell lymphoma", "Peripheral T-cell lymphoma (subset)", "Primary mediastinal B-cell lymphoma", "Embryonal carcinoma"],
+    cancers: ["hodgkin-lymphoma", "dlbcl"], drugs: ["brentuximab-vedotin"], tags: ["adc-target"] }),
+];
+
+// ======================= TECHNOLOGIES / TERMS =======================
+const technologies: TechnologyInput[] = [
+  tech({ id: "pet-adapted-therapy", name: "PET-adapted (response-adapted) therapy", sections: ["imaging", "chemotherapy"], status: "standard-of-care", since: 2016,
+    tldr: "Scan after two cycles of chemotherapy; if the tumour has gone dark, give less treatment, and if not, give more. Hodgkin lymphoma pioneered this.",
+    summary: "Interim FDG-PET after cycle 2 (PET2) scored on the Deauville scale steers escalation or de-escalation: RATHL (omit bleomycin if PET2-negative, no loss of efficacy), HD18 (shorten escalated BEACOPP), HD16/HD17 and RAPID (omit radiotherapy in early stage if PET-negative, at a small PFS cost), and HD21/S1826 (PET-guided consolidation). Being extended to DLBCL and to ctDNA-adapted designs.",
+    principle: "FDG-PET measures metabolic response early; Deauville ≥4 at PET2 predicts failure, allowing therapy to be tailored before completion.",
+    strengths: ["Spares most patients bleomycin, radiation or intensified chemotherapy", "Identifies the minority who need escalation"],
+    limitations: ["Interim PET has imperfect positive predictive value (many PET2-positive patients are cured anyway)", "Omitting radiotherapy trades a few percent PFS for late-toxicity avoidance"],
+    cancers: ["hodgkin-lymphoma", "dlbcl"], technologies: ["fdg-pet", "pet-ct"], terms: ["deauville-score"] }),
+];
+
+const terms: TermInput[] = [
+  term({ id: "deauville-score", name: "Deauville five-point scale", category: "Imaging",
+    tldr: "A 1-to-5 score for how bright a lymphoma looks on PET compared with the liver; 1-3 is considered a complete metabolic response.",
+    summary: "1: no uptake; 2: ≤ mediastinum; 3: > mediastinum but ≤ liver; 4: moderately > liver; 5: markedly > liver or new lesions. Adopted in the Lugano classification (2014); the decision point in PET-adapted Hodgkin and DLBCL trials. Inter-reader agreement is good at the extremes and weaker for score 3 vs 4.",
+    cancers: ["hodgkin-lymphoma", "dlbcl"], technologies: ["fdg-pet", "pet-adapted-therapy"] }),
+  term({ id: "reed-sternberg-cell", name: "Reed-Sternberg cell", category: "Biology", wikipedia: W("Reed–Sternberg_cell"),
+    tldr: "The giant, often two-nucleus cancer cell of Hodgkin lymphoma, which makes up only about 1% of the tumour; the rest is immune cells it has recruited.",
+    summary: "Crippled germinal-centre B cells that have lost their B-cell programme, express CD30 and CD15, carry 9p24.1 (PD-L1/PD-L2) amplification in most cases, and are often EBV-positive. Their dependence on PD-L1 explains why Hodgkin lymphoma is the most checkpoint-inhibitor-responsive cancer (ORR ~70% for nivolumab or pembrolizumab in relapse).",
+    cancers: ["hodgkin-lymphoma"], targets: ["cd30", "pdl1"] }),
+];
+
+// ======================= TRIALS =======================
+const trials: TrialInput[] = [
+  t({ id: "echelon-1", name: "ECHELON-1", nct: "NCT01712490", phase: "3", status: "positive", yearReported: 2017, sponsor: "Seagen / Takeda", enrolled: 1334,
+    setting: "Untreated stage III-IV classical Hodgkin lymphoma: brentuximab vedotin + AVD vs ABVD",
+    tldr: "Swapping bleomycin for the CD30 ADC in first-line chemotherapy improved survival in advanced Hodgkin lymphoma, the first frontline survival gain in decades.",
+    summary: "Modified PFS HR 0.77 at 2 years; 6-year OS 93.9% vs 89.4% (HR 0.59, NEJM 2022). More neuropathy and neutropenia (G-CSF now recommended), less pulmonary toxicity. Approved March 2018.",
+    result: "6-year OS 93.9% vs 89.4%, HR 0.59.",
+    outcomes: [
+      { endpoint: "Overall survival at 6 years", unit: "%", arms: [{ name: "BV-AVD", n: 664, value: 93.9 }, { name: "ABVD", n: 670, value: 89.4 }], hr: 0.59, ci: [0.40, 0.88], p: "0.009", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2206125" },
+      { endpoint: "Modified PFS at 2 years", primary: true, unit: "%", arms: [{ name: "BV-AVD", value: 82.1 }, { name: "ABVD", value: 77.2 }], hr: 0.77, ci: [0.60, 0.98], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1708984" },
+    ],
+    replication: "SWOG S1826 used BV-AVD as its control and found nivolumab-AVD superior; ECHELON-1's OS benefit stands as the comparator.",
+    drugs: ["brentuximab-vedotin", "doxorubicin"], cancers: ["hodgkin-lymphoma"], targets: ["cd30"], technologies: ["adc"], links: [ct("NCT01712490")] }),
+  t({ id: "swog-s1826", name: "SWOG S1826", nct: "NCT03907488", phase: "3", status: "positive", yearReported: 2023, sponsor: "SWOG / NCI (with COG)", enrolled: 994,
+    setting: "Untreated stage III-IV classical Hodgkin lymphoma, age ≥12: nivolumab + AVD vs brentuximab vedotin + AVD",
+    tldr: "Immunotherapy plus chemotherapy beat the previous best regimen with far less nerve damage, in the first Hodgkin trial to enrol children and adults together; approved March 2026.",
+    summary: "1-year PFS 94% vs 86%; 2-year PFS 92% vs 83% (HR 0.45, NEJM 2024). Peripheral neuropathy 28.1% vs 54.2%; fewer treatment discontinuations. Radiotherapy given to <1%. FDA approval 20 March 2026 for ages 12+. Now the frontline standard for advanced-stage disease in North America; HD21's BrECADD is the European alternative.",
+    result: "2-year PFS 92% vs 83%, HR 0.45.",
+    outcomes: [
+      { endpoint: "Progression-free survival at 2 years", primary: true, unit: "%", arms: [{ name: "Nivolumab-AVD", n: 489, value: 92 }, { name: "BV-AVD", n: 487, value: 83 }], hr: 0.45, ci: [0.30, 0.65], p: "<0.001", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2405888" },
+      { endpoint: "Any-grade peripheral neuropathy", unit: "%", arms: [{ name: "Nivolumab-AVD", value: 28.1 }, { name: "BV-AVD", value: 54.2 }] },
+    ],
+    replication: "Consistent with phase 2 N-AVD data (CheckMate 205 cohort D) and with pembrolizumab-AVD single-arm studies; no second randomised trial yet.",
+    drugs: ["nivolumab", "brentuximab-vedotin", "doxorubicin"], cancers: ["hodgkin-lymphoma"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], institutions: ["swog", "childrens-oncology-group"], links: [ct("NCT03907488"), { label: "FDA approval (Mar 2026)", url: "https://www.targetedonc.com/view/fda-approves-nivolumab-plus-avd-for-classical-hodgkin-lymphoma" }] }),
+  t({ id: "hd21", name: "GHSG HD21", nct: "NCT02661503", phase: "3", status: "positive", yearReported: 2024, sponsor: "German Hodgkin Study Group", enrolled: 1500,
+    setting: "Untreated advanced-stage classical Hodgkin lymphoma, age 18-60: PET-guided BrECADD vs escalated BEACOPP",
+    tldr: "A new brentuximab-based intensive regimen matched Europe's most effective (and most toxic) chemotherapy with far fewer side effects.",
+    summary: "BrECADD (brentuximab, etoposide, cyclophosphamide, doxorubicin, dacarbazine, dexamethasone) non-inferior and then superior for PFS: 4-year 94.3% vs 90.9% (Lancet 2024); 5-year 94% vs 91% (ASH 2025). Treatment-related morbidity 42% vs 59%; fertility markers preserved. 4-6 cycles guided by PET2.",
+    result: "4-year PFS 94.3% vs 90.9%, HR 0.66; less toxicity.",
+    outcomes: [{ endpoint: "Progression-free survival at 4 years", primary: true, unit: "%", arms: [{ name: "BrECADD", n: 742, value: 94.3 }, { name: "eBEACOPP", n: 740, value: 90.9 }], hr: 0.66, ci: [0.45, 0.97], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01315-1/fulltext" }, { endpoint: "Treatment-related morbidity", unit: "%", arms: [{ name: "BrECADD", value: 42 }, { name: "eBEACOPP", value: 59 }] }],
+    drugs: ["brentuximab-vedotin", "doxorubicin"], cancers: ["hodgkin-lymphoma"], technologies: ["pet-adapted-therapy"], institutions: ["gbg"], links: [ct("NCT02661503")] }),
+  t({ id: "rathl", name: "RATHL", nct: "NCT00678327", phase: "3", status: "positive", yearReported: 2016, sponsor: "UK NCRI / Cancer Research UK", enrolled: 1214,
+    setting: "Advanced Hodgkin lymphoma: interim-PET-guided omission of bleomycin (AVD) vs continued ABVD",
+    tldr: "Showed that patients whose PET scan is clear after two cycles can safely drop bleomycin and its lung toxicity.",
+    summary: "PET2-negative patients randomised to ABVD or AVD: 3-year PFS 85.7% vs 84.4% (difference within non-inferiority margin), with fewer pulmonary events; PET2-positive escalated to BEACOPP with 3-year PFS 67.5%. Established interim PET as a treatment-steering tool.",
+    result: "3-year PFS 85.7% (ABVD) vs 84.4% (AVD); bleomycin safely omitted.",
+    outcomes: [{ endpoint: "Progression-free survival at 3 years (PET2-negative)", primary: true, unit: "%", arms: [{ name: "ABVD", n: 470, value: 85.7 }, { name: "AVD", n: 465, value: 84.4 }], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1510093" }],
+    replication: "Concordant with GHSG HD18 (shortened BEACOPP after negative PET2).",
+    cancers: ["hodgkin-lymphoma"], technologies: ["pet-adapted-therapy", "fdg-pet"], terms: ["deauville-score"], institutions: ["cruk"], links: [ct("NCT00678327")] }),
+  t({ id: "keynote-204", name: "KEYNOTE-204", nct: "NCT02684292", phase: "3", status: "positive", yearReported: 2020, sponsor: "Merck", enrolled: 304,
+    setting: "Relapsed/refractory classical Hodgkin lymphoma: pembrolizumab vs brentuximab vedotin",
+    tldr: "PD-1 blockade beat the CD30 ADC head to head in relapsed Hodgkin lymphoma.",
+    summary: "PFS 13.2 vs 8.3 months (HR 0.65); approved October 2020 for relapse after ≥1 line in adults and ≥2 lines in children.",
+    result: "PFS 13.2 vs 8.3 months, HR 0.65.",
+    outcomes: [{ endpoint: "Progression-free survival (median)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab", n: 151, value: 13.2 }, { name: "Brentuximab vedotin", n: 153, value: 8.3 }], hr: 0.65, ci: [0.48, 0.88], p: "0.0027", source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(21)00005-X/fulltext" }],
+    drugs: ["pembrolizumab", "brentuximab-vedotin"], cancers: ["hodgkin-lymphoma"], links: [ct("NCT02684292")] }),
+  t({ id: "checkmate-205", name: "CheckMate 205", nct: "NCT02181738", phase: "2", status: "positive", yearReported: 2016, sponsor: "BMS", enrolled: 243,
+    setting: "Relapsed/refractory classical Hodgkin lymphoma after autologous transplant: nivolumab (cohorts A-C); cohort D nivolumab-AVD frontline",
+    tldr: "Established PD-1 blockade in relapsed Hodgkin lymphoma with ~70% response rates and seeded the frontline nivolumab-AVD idea.",
+    summary: "ORR 69%, CR 16% across cohorts (median PFS ~15 months); accelerated approval May 2016. Cohort D (frontline N-AVD): CR 80%, 9-month mPFS 94%, the basis for S1826.",
+    result: "ORR 69%.",
+    outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "Nivolumab", n: 243, value: 69 }] }],
+    drugs: ["nivolumab"], cancers: ["hodgkin-lymphoma"], links: [ct("NCT02181738")] }),
+  t({ id: "ahod2131", name: "AHOD2131 (COG / NCTN)", nct: "NCT05675410", phase: "3", status: "recruiting", sponsor: "Children's Oncology Group / NCI",
+    setting: "Newly diagnosed stage I-II classical Hodgkin lymphoma, age 5-60: standard therapy vs brentuximab vedotin + nivolumab (response-adapted), with or without radiation",
+    tldr: "Asks whether early-stage Hodgkin lymphoma in children and adults can be treated with immunotherapy instead of some chemotherapy and radiation.",
+    summary: "Response-adapted design using PET after two cycles; primary endpoint PFS; also measures late effects. Ongoing; no results as of September 2026.",
+    drugs: ["brentuximab-vedotin", "nivolumab"], cancers: ["hodgkin-lymphoma"], technologies: ["pet-adapted-therapy"], institutions: ["childrens-oncology-group"], links: [ct("NCT05675410")] }),
+  t({ id: "aethera", name: "AETHERA", nct: "NCT01100502", phase: "3", status: "positive", yearReported: 2015, sponsor: "Seagen", enrolled: 329,
+    setting: "High-risk Hodgkin lymphoma after autologous transplant: brentuximab vedotin consolidation vs placebo",
+    tldr: "A year of the CD30 ADC after transplant halved relapse risk in high-risk patients.",
+    summary: "PFS HR 0.57 (median 42.9 vs 24.1 months); no OS difference (crossover). Approved August 2015 as post-transplant consolidation.",
+    result: "PFS HR 0.57.",
+    outcomes: [{ endpoint: "Progression-free survival (median)", primary: true, unit: "months", arms: [{ name: "Brentuximab vedotin", n: 165, value: 42.9 }, { name: "Placebo", n: 164, value: 24.1 }], hr: 0.57, ci: [0.40, 0.81], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60165-9/fulltext" }],
+    drugs: ["brentuximab-vedotin"], cancers: ["hodgkin-lymphoma"], technologies: ["autologous-stem-cell-transplant"], links: [ct("NCT01100502")] }),
+];
+
+// ======================= PAIRINGS / IDEAS =======================
+const pairings: PairingInput[] = [
+  pair({ id: "pd1-plus-avd-hodgkin", name: "PD-1 blockade + AVD chemotherapy", a: "nivolumab", b: "doxorubicin", pairingType: "combination",
+    tldr: "Immunotherapy given alongside standard chemotherapy from day one cures more advanced Hodgkin lymphoma with less nerve damage.",
+    summary: "SWOG S1826: 2-year PFS 92% vs 83% for BV-AVD, neuropathy halved; approved March 2026 for ages 12+.",
+    rationale: "Reed-Sternberg cells are PD-L1-amplified (9p24.1) and immune-dependent; chemotherapy debulks while PD-1 blockade engages the abundant reactive T cells in the tumour.",
+    evidence: "Phase 3 (S1826) positive; phase 2 CheckMate 205 cohort D.",
+    cancers: ["hodgkin-lymphoma"], trials: ["swog-s1826", "checkmate-205"] }),
+  pair({ id: "bleomycin-omission-caution", name: "Caution: bleomycin lung toxicity, especially with brentuximab or G-CSF", a: "brentuximab-vedotin", b: "pet-adapted-therapy", pairingType: "caution",
+    tldr: "Bleomycin scars the lungs; combining it with brentuximab was fatal in early trials, and PET-adapted therapy now lets most patients skip it.",
+    summary: "Brentuximab + ABVD caused 44% pulmonary toxicity with deaths in the phase 1 study, so ECHELON-1 used AVD. RATHL showed bleomycin can be dropped after a negative PET2. Bleomycin toxicity rises with age, renal impairment, G-CSF and oxygen exposure.",
+    rationale: "Additive pneumotoxicity; bleomycin adds little efficacy once PET2 is negative.",
+    evidence: "Phase 1 toxicity signal; RATHL phase 3 non-inferiority.",
+    cancers: ["hodgkin-lymphoma"], trials: ["rathl", "echelon-1"] }),
+];
+
+const ideas: IdeaInput[] = [
+  idea({ id: "idea-chemo-free-hodgkin", name: "Chemotherapy-free Hodgkin lymphoma: brentuximab + PD-1 in early stage", maturity: "early-clinical",
+    tldr: "For a cancer already cured in 90% of young people, the goal is curing without the chemotherapy and radiation that cause heart disease and second cancers decades later.",
+    summary: "Brentuximab-nivolumab doublets produce ~60-80% CR in relapsed disease and high CR rates as frontline induction in older patients (SGN35-015 cohort). AHOD2131 tests BV-nivo response-adapted therapy in stage I-II; ctDNA could replace PET for steering.",
+    hypothesis: "In early-stage classical Hodgkin lymphoma, PET/ctDNA-adapted brentuximab-nivolumab with minimal or no chemotherapy achieves 3-year PFS ≥90% with fewer late effects than ABVD-based therapy.",
+    rationale: "Two non-cytotoxic mechanisms hit both the Reed-Sternberg cell (CD30) and its immune shield (PD-1/PD-L1); late toxicity of anthracyclines, alkylators and radiation dominates survivorship.",
+    test: "AHOD2131 primary results; a follow-on trial substituting ctDNA for interim PET; 20-year late-effects registry.",
+    technologies: ["pet-adapted-therapy", "checkpoint-inhibitor", "adc", "ctdna-lymphoma-monitoring"], drugs: ["brentuximab-vedotin", "nivolumab"], cancers: ["hodgkin-lymphoma"], trials: ["ahod2131"] }),
+  idea({ id: "idea-cd30-car-t-hodgkin", name: "CD30 CAR-T for multiply relapsed Hodgkin lymphoma", maturity: "early-clinical",
+    tldr: "Engineer T cells against CD30 for the few patients who fail brentuximab, PD-1 blockade and transplant.",
+    summary: "Phase 1/2 CD30 CAR-T (UNC/Baylor; Tessa Therapeutics TT11) produced ORR ~62-72% and CR ~50-60% with fludarabine-based lymphodepletion; durability modest. A pivotal CHARIOT study was halted for business reasons in 2023-24.",
+    hypothesis: "CD30 CAR-T after PD-1 failure yields durable CR in ≥40% of patients with an acceptable CRS profile, and combination with PD-1 blockade prolongs persistence.",
+    rationale: "CD30 is near-universal on Reed-Sternberg cells and shed CD30 does not block binding at therapeutic doses; the inflamed microenvironment supports CAR-T trafficking.",
+    test: "Randomised phase 2 of CD30 CAR-T ± nivolumab vs investigator's choice in triple-refractory disease.",
+    technologies: ["car-t"], targets: ["cd30"], cancers: ["hodgkin-lymphoma"] }),
+];
+
+const entities: EntityInput[] = [...targets, ...technologies, ...terms, ...trials, ...pairings, ...ideas];
+
+const spike: Spike = {
+  cancerId: "hodgkin-lymphoma",
+  entities,
+  patch: {
+    asOf,
+    summary: "Classical Hodgkin lymphoma is a B-cell cancer in which rare, giant Reed-Sternberg cells (about 1% of the mass) recruit an inflammatory microenvironment and hide behind amplified PD-L1. It peaks in young adults and again after 55, is staged with PET-CT and the Lugano system, and is cured in more than 85% of patients overall and in over 90% of early-stage disease. Because most patients are young and will live for decades, the field's defining problem is not cure but the cost of cure: anthracycline heart disease, bleomycin lung injury, infertility, and second cancers from alkylators and radiation.\n\nThat is why Hodgkin lymphoma pioneered response-adapted therapy. Interim PET after two cycles (Deauville score) steers de-escalation (drop bleomycin after negative PET2 in RATHL; omit radiotherapy in early stage in HD16/HD17/RAPID at a small PFS cost) or escalation to BEACOPP-type regimens. Two ADC- and immunotherapy-based regimens then replaced ABVD for advanced disease: brentuximab vedotin-AVD (ECHELON-1, overall survival benefit) and, from March 2026, nivolumab-AVD (SWOG S1826, PFS HR 0.45 versus BV-AVD, neuropathy halved, children and adults together). In Europe, GHSG HD21's PET-guided BrECADD matches escalated BEACOPP's ~94% PFS with far less toxicity. Relapse is treated with PD-1 blockade (pembrolizumab beat brentuximab in KEYNOTE-204), brentuximab, salvage chemotherapy and autologous transplant, with brentuximab consolidation for high-risk patients (AETHERA); allogeneic transplant and CD30 CAR-T are options for the few who fail everything.\n\nThe next questions are how far chemotherapy can be removed. AHOD2131 tests brentuximab-nivolumab in early-stage disease across children and adults; ctDNA may replace PET for steering; older patients, who have half the cure rate of young ones, need regimens they can tolerate (nivolumab-AVD, brentuximab-based). Survivorship care for the tens of thousands cured decades ago, and the shift from radiotherapy to systemic de-escalation, remain the field's distinctive concerns.",
+    burden: "~83,000 new cases and ~23,000 deaths a year worldwide; ~8,500 US cases; bimodal age peaks (20-30 and >55); five-year survival ~89% overall in high-income countries.",
+    subtypes: ["Classical Hodgkin lymphoma: nodular sclerosis (most common in young adults), mixed cellularity, lymphocyte-rich, lymphocyte-depleted", "Nodular lymphocyte-predominant B-cell lymphoma (reclassified 2022; indolent, CD20+, rituximab-responsive)", "Early stage (I-II) favourable vs unfavourable (bulk, ESR, ≥3 sites)", "Advanced stage (III-IV); IPS 0-7 risk score", "Paediatric / adolescent-young-adult vs older (>60) disease", "EBV-positive (more common in children, older adults, and low-income settings)"],
+    biomarkers: ["Interim PET (Deauville score) after cycle 2", "CD30 and CD15 on Reed-Sternberg cells; CD20 in NLPBL", "9p24.1 (PD-L1/PD-L2) amplification", "EBV status (EBER)", "International Prognostic Score (IPS)", "Baseline metabolic tumour volume", "ctDNA (research; PhasED-seq)", "Soluble CD30 (research)"],
+    standardOfCare: [
+      { setting: "Early stage, favourable (I-II)", approach: "ABVD × 2 + involved-site radiotherapy 20 Gy (HD10), or PET-adapted omission of radiotherapy after 3 cycles if PET-negative (RAPID, HD16) accepting ~5% lower PFS; AHOD2131 tests BV-nivo.", refs: ["doxorubicin", "pet-adapted-therapy", "imrt-igrt", "deauville-score", "ahod2131"], guideline: { nccn: "Category 1 (ABVD × 2 + ISRT 20 Gy or PET-adapted chemotherapy alone)", version: "NCCN Hodgkin Lymphoma 2026" } },
+      { setting: "Early stage, unfavourable (I-II bulky or risk factors)", approach: "ABVD × 4 + ISRT 30 Gy, or escalated BEACOPP × 2 + ABVD × 2 + RT (HD14/HD17 PET-guided); nivolumab- or BV-containing regimens in trials.", refs: ["doxorubicin", "pet-adapted-therapy", "imrt-igrt"], guideline: { nccn: "Category 2A", version: "NCCN 2026" } },
+      { setting: "Advanced stage (III-IV), age ≤60", approach: "Nivolumab-AVD × 6 (S1826; approved March 2026, no routine radiotherapy) or BV-AVD × 6 with G-CSF (ECHELON-1); in Europe PET-guided BrECADD × 4-6 (HD21) or eBEACOPP; PET-adapted ABVD/AVD (RATHL) where novel agents unavailable.", refs: ["swog-s1826", "nivolumab", "echelon-1", "brentuximab-vedotin", "hd21", "rathl", "pd1-plus-avd-hodgkin"], guideline: { nccn: "Category 1 (nivolumab-AVD preferred; BV-AVD)", esmoMcbs: "A (ECHELON-1)", version: "NCCN 2026" } },
+      { setting: "Advanced stage, age >60", approach: "Nivolumab-AVD (S1826 included older adults with less toxicity than BV-AVD); sequential brentuximab → AVD → brentuximab; avoid bleomycin; ABVD/AVD with dose adaptation.", refs: ["swog-s1826", "nivolumab", "brentuximab-vedotin", "bleomycin-omission-caution"] },
+      { setting: "First relapse, transplant-eligible", approach: "Salvage (ICE, DHAP, GVD, BV-nivolumab or pembrolizumab-GVD) → PET-negative → high-dose therapy and autologous transplant; brentuximab consolidation for high-risk (AETHERA); PD-1 maintenance in trials.", refs: ["autologous-stem-cell-transplant", "brentuximab-vedotin", "nivolumab", "pembrolizumab", "aethera"], guideline: { nccn: "Category 1 (ASCT after chemosensitive salvage; BV consolidation for high risk)", version: "NCCN 2026" } },
+      { setting: "Relapse after transplant or transplant-ineligible", approach: "Pembrolizumab (KEYNOTE-204) or nivolumab; brentuximab vedotin if not yet given; BV + nivolumab; allogeneic transplant for fit patients after response; CD30 CAR-T in trials; palliative radiotherapy or bendamustine.", refs: ["pembrolizumab", "keynote-204", "nivolumab", "checkmate-205", "brentuximab-vedotin", "idea-cd30-car-t-hodgkin"], guideline: { nccn: "Category 1 (pembrolizumab, nivolumab, brentuximab)", version: "NCCN 2026" } },
+      { setting: "Paediatric (COG / EuroNet)", approach: "Risk-adapted OEPA/COPDAC (EuroNet-PHL-C2) or ABVE-PC with brentuximab (AHOD1331, EFS benefit) and PET-guided radiotherapy omission; S1826 and AHOD2131 now enrol from age 12 or 5.", refs: ["brentuximab-vedotin", "pet-adapted-therapy", "childrens-oncology-group"] },
+      { setting: "Survivorship", approach: "Lifelong surveillance for cardiac disease (anthracycline, mediastinal RT), breast cancer screening from 8 years after chest RT in women, thyroid and lung checks, fertility counselling before therapy.", refs: ["cardio-oncology", "mammography"] },
+    ],
+    stateOfArt: [
+      "Nivolumab-AVD is the new frontline standard for advanced disease (S1826: 2-year PFS 92%, neuropathy halved), approved March 2026 for ages 12 and up.",
+      "Two intensive but de-toxified European options: PET-guided BrECADD (HD21) achieves ~94% 5-year PFS with 40% less morbidity than eBEACOPP.",
+      "Interim PET steers therapy for nearly every patient: bleomycin omission (RATHL), radiotherapy omission (HD16/17, RAPID), cycle number (HD18, HD21).",
+      "Radiotherapy is disappearing from advanced-stage care (<1% in S1826) and being minimised in early stage.",
+      "PD-1 blockade is the most effective single agent in any lymphoma relapse (ORR ~70%), and beat brentuximab head to head (KEYNOTE-204).",
+      "Cure rates above 90% in young patients shift the research agenda to late effects and to older adults.",
+    ],
+    history: [
+      { year: 1832, title: "Thomas Hodgkin describes the disease; Reed and Sternberg characterise the cell (1898-1902)", refs: ["reed-sternberg-cell"] },
+      { year: 1950, title: "Peters shows extended-field radiotherapy can cure early-stage disease", refs: ["imrt-igrt"] },
+      { year: 1964, title: "MOPP: the first combination chemotherapy to cure an advanced cancer (DeVita, NCI)", refs: ["cytotoxic-chemotherapy"] },
+      { year: 1975, title: "ABVD introduced (Bonadonna); becomes global standard by the 1990s", refs: ["doxorubicin"] },
+      { year: 1992, title: "Escalated BEACOPP developed by the German Hodgkin Study Group", refs: ["gbg"] },
+      { year: 2000, title: "Autologous transplant standard for relapse; late-effects registries reveal cardiac and second-cancer burden", refs: ["autologous-stem-cell-transplant", "cardio-oncology"] },
+      { year: 2011, title: "Brentuximab vedotin approved for relapsed disease; CD30 validated as an ADC target", refs: ["brentuximab-vedotin", "cd30"] },
+      { year: 2014, title: "Lugano classification formalises PET staging and the Deauville scale", refs: ["lugano-classification", "deauville-score"] },
+      { year: 2015, title: "AETHERA: brentuximab consolidation after transplant", refs: ["aethera"] },
+      { year: 2016, title: "RATHL: bleomycin dropped after negative interim PET; nivolumab approved for relapse (CheckMate 205)", refs: ["rathl", "checkmate-205", "nivolumab"] },
+      { year: 2018, title: "ECHELON-1: BV-AVD approved frontline; radiotherapy omission trials (RAPID, HD16/17) report", refs: ["echelon-1", "pet-adapted-therapy"] },
+      { year: 2020, title: "KEYNOTE-204: pembrolizumab beats brentuximab in relapse", refs: ["keynote-204", "pembrolizumab"] },
+      { year: 2022, title: "ECHELON-1 shows overall survival benefit; WHO reclassifies nodular lymphocyte-predominant disease", refs: ["echelon-1"] },
+      { year: 2023, title: "SWOG S1826: nivolumab-AVD beats BV-AVD (ASCO plenary)", refs: ["swog-s1826"] },
+      { year: 2024, title: "HD21 (BrECADD) published in Lancet; S1826 in NEJM", refs: ["hd21", "swog-s1826"] },
+      { year: 2026, title: "Nivolumab-AVD approved by FDA (20 March) for ages 12+; HD21 5-year data confirm BrECADD", refs: ["swog-s1826", "nivolumab", "hd21"] },
+    ],
+    pipeline: ["ahod2131", "idea-chemo-free-hodgkin", "idea-cd30-car-t-hodgkin", "ctdna-lymphoma-monitoring", "pet-adapted-therapy", "cd30", "hd21"],
+    openProblems: [
+      "Late effects dominate: cardiac disease, breast and lung cancer after mediastinal radiotherapy, infertility; survivors need lifelong surveillance that most health systems do not organise.",
+      "Older patients (>60) have roughly half the cure rate and double the toxicity; the best regimen for them is unsettled.",
+      "The ~10-15% with primary refractory or early-relapsing disease still need transplant; those failing PD-1 blockade have few options beyond allogeneic transplant.",
+      "Interim PET has limited positive predictive value; ctDNA-guided designs are unproven.",
+      "Access: brentuximab and nivolumab are costly and unavailable in many countries where EBV-positive Hodgkin lymphoma is common in children.",
+      "Nodular lymphocyte-predominant disease is now a separate entity with little trial evidence of its own.",
+      "Radiotherapy omission trades a few percent of PFS for lower late toxicity; the right trade-off differs by age and sex.",
+    ],
+    targets: ["cd30", "pd1", "pdl1"],
+    technologies: ["pet-adapted-therapy", "autologous-stem-cell-transplant", "ctdna-lymphoma-monitoring", "cardio-oncology", "imrt-igrt"],
+    terms: ["deauville-score", "reed-sternberg-cell", "lugano-classification", "pfs", "os"],
+    companies: ["bms", "merck", "pfizer", "takeda"],
+    institutions: ["swog", "childrens-oncology-group", "gbg", "cruk", "mskcc", "dana-farber"],
+    related: ["pd1-plus-avd-hodgkin", "bleomycin-omission-caution"],
+    tags: ["spike"],
+  },
+};
+
+export default spike;

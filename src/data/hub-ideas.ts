@@ -124,3 +124,25 @@ export const hubIdeas2: HubIdea[] = [
   { n: 49, title: "Teaching packs", why: "Slides and quizzes per cancer and front.", status: "proposed", theme: "Community" },
   { n: 50, title: "Open evaluation", why: "100 questions, a rubric, and a public leaderboard at /eval/.", status: "shipped", theme: "Community" },
 ];
+
+/** Wave three: total information dominance. Proposed on 8 September 2026. */
+export const hubIdeas3: HubIdea[] = [
+  { n: 1, title: "Bottlenecks of the war on cancer", why: "45 systemic constraints, each with sourced metrics, root causes, current efforts and a page at /bottlenecks/.", status: "shipped", theme: "Strategy" },
+  { n: 2, title: "One thousand ideas against the bottlenecks", why: "Ten waves of 100 ideas, each with a hypothesis, a test, who must act, cost and horizon; filterable at /ideas/.", status: "shipped", theme: "Strategy" },
+  { n: 3, title: "People of oncology", why: "Clinicians, scientists and leaders per institution with specialisms, roles and papers at /people/.", status: "shipped", theme: "Knowledge graph" },
+  { n: 4, title: "Approvals by region", why: "US, EU, UK, Japan, China and Australia compared product by product, gaps included.", status: "shipped", theme: "Intelligence" },
+  { n: 5, title: "Cases by country", why: "GLOBOCAN incidence per country and cancer with data gaps made explicit at /cases/.", status: "shipped", theme: "Intelligence" },
+  { n: 6, title: "Country research ranking", why: "Output, growth, trials, burden and funders per country at /countries/.", status: "shipped", theme: "Intelligence" },
+  { n: 7, title: "What the world is publishing", why: "Europe PMC feed and weekly trends on every drug, target, cancer and technology page, and at /papers/.", status: "shipped", theme: "Intelligence" },
+  { n: 8, title: "Research pulse", why: "What the leading journals, regulators and news sources are saying this month at /pulse/.", status: "shipped", theme: "Intelligence" },
+  { n: 9, title: "Foundation models for cancer and the cell", why: "Models, companies, datasets and two roadmaps mapped as first-class objects.", status: "shipped", theme: "Knowledge graph" },
+  { n: 10, title: "Mechanism research map", why: "Hallmarks, metastasis, microenvironment, metabolism and dormancy as pathways, terms and ideas.", status: "shipped", theme: "Knowledge graph" },
+  { n: 11, title: "Supporting technologies and their companies", why: "Sequencing, pathology, imaging, data, manufacturing and trial infrastructure that everything else depends on.", status: "shipped", theme: "Knowledge graph" },
+  { n: 12, title: "Resistance atlas visuals", why: "Category matrix and animated escape-route maps per drug class at /resistance/.", status: "shipped", theme: "Visual" },
+  { n: 13, title: "Tooltips everywhere", why: "Every linked object in every table explains itself on hover; headers and statuses too.", status: "shipped", theme: "Visual" },
+  { n: 14, title: "Animated technology cards on front pages", why: "Each technology on a front page shows its schematic in motion.", status: "shipped", theme: "Visual" },
+  { n: 15, title: "Design pass", why: "Type scale, surfaces, tables, header, home and footer made consistent and legible in light, dark and high contrast.", status: "shipped", theme: "Visual" },
+  { n: 16, title: "Gap audit against the goal", why: "A systematic list of what is still missing for total information dominance, turned into work.", status: "building", theme: "Strategy" },
+  { n: 17, title: "Bottleneck scoreboard", why: "Track each bottleneck over time: is it easing or worsening, and which ideas are being tried.", status: "proposed", theme: "Strategy" },
+  { n: 18, title: "Idea voting and adoption tracking", why: "Let readers back ideas and record when an organisation picks one up.", status: "proposed", theme: "Community" },
+];

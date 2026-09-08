@@ -6,6 +6,7 @@ import { KIND_META, type Kind } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { Tip } from "./Tip";
+import { CancerIcon } from "./CancerIcon";
 
 export type Lite = { id: string; name: string; tldr: string; route: string; status?: string };
 export type PickerCancer = { id: string; name: string; group: string; tldr: string; route: string; stateOfArt: string[]; pipeline: Lite[]; groups: Partial<Record<Kind, Lite[]>> };
@@ -74,10 +75,9 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
           <div className="kicker mt-8 mb-2">Or tap one</div>
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
             {cancers.map((c) => (
-              <button key={c.id} onClick={() => setSelected([c.id])} className="card p-3 text-left hover:shadow-md transition">
-                <div className="text-xs text-muted capitalize">{c.group}</div>
-                <div className="font-medium leading-snug">{c.name}</div>
-                <p className="text-xs text-muted mt-0.5 line-clamp-2">{c.tldr}</p>
+              <button key={c.id} onClick={() => setSelected([c.id])} className="card p-3 text-left hover:shadow-md transition flex gap-3">
+                <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={c.id} className="h-7 w-7" /></span>
+                <span className="min-w-0"><span className="block text-xs text-muted capitalize">{c.group}</span><span className="block font-medium leading-snug">{c.name}</span><span className="block text-xs text-muted mt-0.5 line-clamp-2">{c.tldr}</span></span>
               </button>
             ))}
           </div>
@@ -86,7 +86,7 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
 
       {chosen.map((c) => (
         <div key={c.id} className="card p-5 mt-6">
-          <div className="flex items-baseline justify-between gap-3"><h2 className="text-xl font-semibold"><Link href={c.route} className="hover:underline">{c.name}</Link></h2><Link href={c.route} className="text-sm underline shrink-0">Full page →</Link></div>
+          <div className="flex items-center justify-between gap-3"><h2 className="text-xl font-semibold flex items-center gap-3"><span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={c.id} className="h-7 w-7" /></span><Link href={c.route} className="hover:underline">{c.name}</Link></h2><Link href={c.route} className="text-sm underline shrink-0">Full page →</Link></div>
           <p className="text-[15px] mt-1">{c.tldr}</p>
           <div className="grid gap-4 sm:grid-cols-2 mt-4 text-sm">
             <div><div className="kicker mb-1">State of the art</div><ul className="list-disc pl-5 space-y-1">{c.stateOfArt.map((s, i) => <li key={i}>{s}</li>)}</ul></div>

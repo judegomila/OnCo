@@ -6,6 +6,8 @@ import { biomarkers, type BiomarkerGroup } from "@/data/biomarkers";
 import { cautionsFor, scoreRows, type MatchRow } from "@/lib/biomarker-match";
 import { KIND_META, type Kind } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
+import { FacetSelect } from "./filters/FacetSelect";
+import { CancerIcon } from "./CancerIcon";
 
 export type TbCancer = { id: string; name: string; group: string; route: string };
 const GROUPS: BiomarkerGroup[] = ["IHC", "genomic", "germline", "immune"];
@@ -19,7 +21,9 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
   const selected = useMemo(() => biomarkers.filter((b) => picked.includes(b.id)), [picked]);
   const scored = useMemo(() => scoreRows(rows, selected, cancer), [rows, selected, cancer]);
   const cautions = useMemo(() => cautionsFor(rows, scored, selected), [rows, scored, selected]);
-  const groups = useMemo(() => [...new Set(cancers.map((c) => c.group))], [cancers]);
+  const cancerOptions = useMemo(() => cancers.map((c) => ({ value: c.id, label: c.name, group: c.group[0].toUpperCase() + c.group.slice(1) })), [cancers]);
+  const typicalHere = useMemo(() => (cancer ? biomarkers.filter((b) => b.typical?.includes(cancer) && !picked.includes(b.id)) : []), [cancer, picked]);
+  const chosenCancer = cancers.find((c) => c.id === cancer);
   const toggle = (id: string) => setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : [...p, id]));
 
   const visibleBiomarkers = biomarkers.filter((b) => {
@@ -35,19 +39,16 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
       <aside className="space-y-5 lg:sticky lg:top-20 self-start max-h-[85vh] overflow-auto pr-1">
         <div>
           <div className="kicker mb-1.5">1 · Cancer type (optional)</div>
-          <div className="flex flex-wrap gap-1.5 mb-1">
-            <button onClick={() => setCancer(null)} className={`chip border text-[12px] ${cancer === null ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>Any</button>
+          <div className="flex items-center gap-2">
+            {chosenCancer && <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent-soft text-accent"><CancerIcon cancerId={chosenCancer.id} className="h-6 w-6" /></span>}
+            <FacetSelect label="Cancer type" options={cancerOptions} value={cancer} onChange={(v) => setCancer((v as string | null) || null)} searchable placeholder="Search cancers…" allLabel="Any cancer" width="w-full" />
           </div>
-          {groups.map((grp) => (
-            <div key={grp} className="mb-1.5">
-              <div className="text-[11px] text-muted capitalize">{grp}</div>
-              <div className="flex flex-wrap gap-1">
-                {cancers.filter((c) => c.group === grp).map((c) => (
-                  <button key={c.id} onClick={() => setCancer(c.id === cancer ? null : c.id)} className={`chip border text-[11px] ${cancer === c.id ? "bg-accent text-white border-accent" : "bg-card border-border hover:bg-foreground/5"}`}>{c.name.replace(/ \(.*\)$/, "")}</button>
-                ))}
-              </div>
+          {typicalHere.length > 0 && (
+            <div className="mt-2">
+              <div className="text-[11px] text-muted mb-1">Typical for {chosenCancer?.name}: tap to add</div>
+              <div className="flex flex-wrap gap-1">{typicalHere.slice(0, 8).map((b) => <button key={b.id} onClick={() => toggle(b.id)} className="chip border bg-card border-border hover:bg-foreground/5 text-[12px]">+ {b.label}</button>)}</div>
             </div>
-          ))}
+          )}
         </div>
         <div>
           <div className="kicker mb-1.5">2 · Biomarkers and alterations</div>
@@ -84,7 +85,11 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
           <strong>Not medical advice.</strong> This view matches biomarkers to objects documented in OnCo. It does not know your history, stage, fitness, prior treatments, or local availability. Bring it to a real tumour board or oncologist.
         </div>
         {selected.length === 0 ? (
-          <div className="card p-8 text-center text-muted">Tick one or more biomarkers to see the products, technologies, trials, pairings, and ideas they unlock. Choosing a cancer type first sorts the typical biomarkers to the top and boosts matches relevant to that cancer.</div>
+          <div className="card p-8 text-center">
+            <div className="text-lg font-medium">Nothing to show yet.</div>
+            <p className="text-muted mt-1">Tick one or more biomarkers on the left, or tap a typical one once you have chosen a cancer type. The matching products, technologies, trials, pairings and ideas appear here, ranked.</p>
+            {chosenCancer && <p className="text-sm mt-3">Or read the <Link href={chosenCancer.route} className="underline">{chosenCancer.name} page</Link> for the standard of care and pipeline.</p>}
+          </div>
         ) : (
           <>
             <div className="flex flex-wrap items-baseline gap-2 mb-4 text-sm">

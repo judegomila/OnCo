@@ -10,6 +10,7 @@ import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef } from "@/co
 import structureIndex from "../../../public/structures/index.json";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { BottleneckMap } from "@/components/BottleneckMap";
+import { CancerIcon } from "@/components/CancerIcon";
 import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
 
@@ -193,6 +194,7 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
             {k === "section" && <FrontsGrid />}
             {k === "term" && <TermCategoryGrid />}
             {k === "bottleneck" && <BottlenecksPipeline />}
+            {k === "cancer" && <CancersGrid />}
             <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
           </>
         )}
@@ -220,6 +222,30 @@ function TermCategoryGrid() {
           </div>
         ))}
       </div>
+    </div>
+  );
+}
+
+/** Every cancer as an icon tile, grouped, so a newcomer can find theirs by organ rather than by name. */
+function CancersGrid() {
+  const g = graph();
+  const items = g.kind("cancer");
+  const groups = [...new Set(items.map((c) => c.group))];
+  return (
+    <div className="mb-10 space-y-5">
+      {groups.map((grp) => (
+        <div key={grp}>
+          <div className="kicker mb-2 capitalize">{grp}</div>
+          <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
+            {items.filter((c) => c.group === grp).sort((a, b) => a.name.localeCompare(b.name)).map((c) => (
+              <Link key={c.id} href={routeFor(c)} title={c.tldr} className="card p-3 flex flex-col items-center text-center gap-2 hover:shadow-md transition">
+                <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={c.id} className="h-8 w-8" /></span>
+                <span className="text-xs font-medium leading-snug">{c.name}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

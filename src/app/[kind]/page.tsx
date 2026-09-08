@@ -136,6 +136,13 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
       columns: [{ key: "maturity", label: "Maturity", sortable: true, chip: true }, { key: "technologies", label: "Technologies", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }],
       defaultSort: { key: "maturity", dir: 1 },
     };
+    case "person": return {
+      hideStatus: true,
+      rows: g.kind("person").map((p) => { const inst = p.institutionId ? g.get(p.institutionId) : undefined; return { ...base(p), sub: `${p.role}${inst ? ` · ${inst.name}` : ""}`, facets: { specialism: p.specialisms, institution: inst ? [inst.name] : [], cancers: names(p.cancers), country: inst && inst.kind === "institution" ? [inst.country] : [] }, cols: { institution: inst?.name, specialisms: p.specialisms.join(", "), papers: p.papers.length, trials: p.trials.length }, sortKeys: { papers: p.papers.length, trials: p.trials.length } }; }),
+      facets: [{ key: "specialism", label: "Specialism", width: "w-56" }, { key: "institution", label: "Institution", width: "w-56" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "country", label: "Country", searchable: false, width: "w-40" }],
+      columns: [{ key: "institution", label: "Institution", hide: "hidden md:table-cell" }, { key: "specialisms", label: "Specialisms", hide: "hidden lg:table-cell" }, { key: "papers", label: "Papers listed", sortable: true, numeric: true }, { key: "trials", label: "Trials", sortable: true, numeric: true, hide: "hidden sm:table-cell" }],
+      defaultSort: { key: "name", dir: 1 },
+    };
     case "collection": return {
       hideStatus: true,
       rows: g.kind("collection").map((c) => ({ ...base(c), logo: logoFor(c.id, c.url), sub: c.maintainer, facets: { license: c.license ? [c.license.split(/[;(]/)[0].trim()] : [] }, cols: { holds: c.holds, license: c.license } })),

@@ -30,6 +30,7 @@ export const KINDS = [
   "roadmap",
   "idea",
   "collection",
+  "person",
 ] as const;
 export type Kind = (typeof KINDS)[number];
 
@@ -101,6 +102,7 @@ const Base = z.object({
   pathways: z.array(id).default([]),
   terms: z.array(id).default([]),
   trials: z.array(id).default([]),
+  people: z.array(id).default([]),
   /** Why this matters / what is hard about it. Optional editorial notes. */
   notes: z.array(z.string()).default([]),
   /** Even simpler explanation (about a 12-year-old reading age). Optional. */
@@ -300,6 +302,21 @@ export const CollectionSchema = Base.extend({
   maintainer: z.string().optional(),
 });
 
+export const PersonSchema = Base.extend({
+  kind: z.literal("person"),
+  /** Current role and affiliation in one line, e.g. "Chief, Breast Medicine Service". */
+  role: z.string(),
+  /** Primary institution id (also list in `institutions`). */
+  institutionId: id.optional(),
+  specialisms: z.array(z.string()).default([]),
+  /** Professional links: profile, lab, Google Scholar, ORCID, PubMed, X/LinkedIn. */
+  profiles: z.array(z.object({ label: z.string(), url })).default([]),
+  /** Selected publications, most recent or most cited first. */
+  papers: z.array(z.object({ title: z.string(), journal: z.string().optional(), year: z.number().int().optional(), url: url.optional(), doi: z.string().optional(), note: z.string().optional() })).default([]),
+  orcid: z.string().optional(),
+  hIndex: z.number().int().optional(),
+});
+
 export const EntitySchema = z.discriminatedUnion("kind", [
   CancerSchema,
   SectionSchema,
@@ -315,6 +332,7 @@ export const EntitySchema = z.discriminatedUnion("kind", [
   RoadmapSchema,
   IdeaSchema,
   CollectionSchema,
+  PersonSchema,
 ]);
 
 export type Entity = z.infer<typeof EntitySchema>;
@@ -332,6 +350,7 @@ export type Pairing = z.infer<typeof PairingSchema>;
 export type Roadmap = z.infer<typeof RoadmapSchema>;
 export type Idea = z.infer<typeof IdeaSchema>;
 export type Collection = z.infer<typeof CollectionSchema>;
+export type Person = z.infer<typeof PersonSchema>;
 
 /** Input types (before defaults are applied) — what authors write in data files. */
 export type CancerInput = z.input<typeof CancerSchema>;
@@ -348,6 +367,7 @@ export type PairingInput = z.input<typeof PairingSchema>;
 export type RoadmapInput = z.input<typeof RoadmapSchema>;
 export type IdeaInput = z.input<typeof IdeaSchema>;
 export type CollectionInput = z.input<typeof CollectionSchema>;
+export type PersonInput = z.input<typeof PersonSchema>;
 export type EntityInput = z.input<typeof EntitySchema>;
 
 /** The relationship array fields shared by every entity. */
@@ -363,6 +383,7 @@ export const REL_FIELDS = [
   "pathways",
   "terms",
   "trials",
+  "people",
 ] as const;
 export type RelField = (typeof REL_FIELDS)[number];
 
@@ -381,6 +402,7 @@ export const KIND_META: Record<Kind, { plural: string; label: string; route: str
   roadmap: { plural: "roadmaps", label: "Roadmap", route: "roadmaps", blurb: "Where a technology has been and where it is heading.", color: "cyan" },
   idea: { plural: "ideas", label: "Idea", route: "ideas", blurb: "Hypotheses and new directions, linked to the evidence.", color: "lime" },
   collection: { plural: "collections", label: "Collection", route: "collections", blurb: "The open databases and registries the field runs on.", color: "stone" },
+  person: { plural: "people", label: "Person", route: "people", blurb: "The clinicians and scientists doing the work: specialisms, bios, papers, and where to find them.", color: "pink" },
 };
 
 export function routeFor(e: { kind: Kind; id: string }): string {

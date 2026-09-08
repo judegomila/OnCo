@@ -71,4 +71,5 @@ export const KIND_COLOR: Record<string, string> = {
   roadmap: "bg-cyan-50 text-cyan-700 border-cyan-200 dark:bg-cyan-950/40 dark:text-cyan-200 dark:border-cyan-900",
   idea: "bg-lime-50 text-lime-800 border-lime-200 dark:bg-lime-950/40 dark:text-lime-200 dark:border-lime-900",
   collection: "bg-stone-50 text-stone-700 border-stone-200 dark:bg-stone-900 dark:text-stone-200 dark:border-stone-700",
+  person: "bg-pink-50 text-pink-700 border-pink-200 dark:bg-pink-950/40 dark:text-pink-200 dark:border-pink-900",
 };

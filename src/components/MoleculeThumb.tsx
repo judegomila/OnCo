@@ -1,17 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import structureIndex from "../../public/structures/index.json";
-import type { StructureEntry } from "./MoleculeViewer";
-
-const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
+import { STRUCTURES } from "@/lib/structures";
+export { hasMolecule } from "@/lib/structures";
 type Mol = { atoms: Array<[number, number, number, string]>; bonds: Array<[number, number, number]>; chains?: string[] };
 const CPK: Record<string, string> = { C: "#9ca3af", N: "#3b82f6", O: "#ef4444", S: "#eab308", F: "#22c55e", Cl: "#16a34a", Br: "#b45309", I: "#7c3aed", P: "#f97316", Pt: "#94a3b8", Lu: "#0ea5e9", Ga: "#0ea5e9" };
 
-/** Does this product have a structure to show? */
-export function hasMolecule(drugId: string): boolean {
-  return !!STRUCTURES[drugId]?.length;
-}
 
 /**
  * Tiny slowly rotating wireframe of a product's molecule (first structure entry: the payload for ADCs,

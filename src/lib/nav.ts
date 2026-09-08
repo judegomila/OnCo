@@ -60,6 +60,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/institutions/", label: "Institutions", blurb: "Global map and ranking of cancer centres and institutes." },
       { href: "/universities/", label: "Universities", blurb: "Research output from OpenAlex, Nature Index, SCImago." },
       { href: "/leadership/", label: "Trial leadership", blurb: "Who led the pivotal trials." },
+      { href: "/people/", label: "People", blurb: "The clinicians and scientists doing the work: specialisms, bios, papers." },
       { href: "/companies/", label: "Companies", blurb: "Pharma, biotech, diagnostics, devices, AI." },
       { href: "/funding/", label: "Funding flows", blurb: "Where the money comes from." },
     ],

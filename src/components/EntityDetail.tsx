@@ -142,7 +142,7 @@ export function EntityDetail({ e }: { e: Entity }) {
 function QuickLinks({ e }: { e: Entity }) {
   const g = graph();
   const rows: Array<[string, string[]]> = [
-    ["Cancers", e.cancers], ["Fronts", e.sections], ["Technologies", e.technologies], ["Targets", e.targets], ["Products", e.drugs], ["Companies", e.companies], ["Institutions", e.institutions], ["Pathways", e.pathways], ["Terms", e.terms], ["Trials", e.trials], ["Related", e.related],
+    ["Cancers", e.cancers], ["People", e.people], ["Fronts", e.sections], ["Technologies", e.technologies], ["Targets", e.targets], ["Products", e.drugs], ["Companies", e.companies], ["Institutions", e.institutions], ["Pathways", e.pathways], ["Terms", e.terms], ["Trials", e.trials], ["Related", e.related],
   ];
   const nonEmpty = rows.filter(([, ids]) => ids.length);
   if (!nonEmpty.length) return null;
@@ -240,6 +240,7 @@ function kindTabs(e: Entity): Tab[] {
           </div>
         </>),
         ...(e.programs.length ? [{ id: "programmes", label: "Programmes", count: e.programs.length, content: <Bullets items={e.programs} /> }] : []),
+        ...peopleTab([...(g.incoming(e.id).get("person") ?? []), ...e.people.map((id) => g.must(id))]),
       ];
     }
     case "pathway":
@@ -302,6 +303,20 @@ function kindTabs(e: Entity): Tab[] {
           <Field label="Maintainer">{e.maintainer}</Field>
         </div>),
       ];
+    case "person": {
+      const inst = e.institutionId ? g.get(e.institutionId) : undefined;
+      return [
+        overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
+          <Field label="Role">{e.role}</Field>
+          <Field label="Institution">{inst && <Link className="underline" href={routeFor(inst)}>{inst.name}</Link>}</Field>
+          <Field label="Specialisms"><div className="flex flex-wrap gap-1">{e.specialisms.map((s) => <span key={s} className="chip bg-foreground/5">{s}</span>)}</div></Field>
+          <Field label="Profiles"><ul className="space-y-0.5">{e.profiles.map((p) => <li key={p.url}><a className="underline" href={p.url} rel="noopener">{p.label}</a></li>)}{e.orcid && <li><a className="underline" href={`https://orcid.org/${e.orcid}`} rel="noopener">ORCID {e.orcid}</a></li>}</ul></Field>
+        </div>),
+        ...(e.papers.length ? [{ id: "papers", label: "Papers", count: e.papers.length, content: (
+          <table className="onco"><thead><tr><th>Title</th><th>Journal</th><th>Year</th></tr></thead>
+            <tbody>{e.papers.map((p, i) => <tr key={i}><td>{p.url || p.doi ? <a className="underline" href={p.url ?? `https://doi.org/${p.doi}`} rel="noopener">{p.title}</a> : p.title}{p.note && <div className="text-xs text-muted">{p.note}</div>}</td><td className="text-muted">{p.journal}</td><td className="tabular-nums text-muted">{p.year}</td></tr>)}</tbody></table>) }] : []),
+      ];
+    }
     case "section": {
       const techs = g.incoming(e.id).get("technology") ?? [];
       return [
@@ -311,6 +326,14 @@ function kindTabs(e: Entity): Tab[] {
       ];
     }
   }
+}
+
+function peopleTab(items: Entity[]): Tab[] {
+  const people = [...new Map(items.filter((x) => x.kind === "person").map((x) => [x.id, x])).values()];
+  if (!people.length) return [];
+  return [{ id: "people", label: "People", count: people.length, content: (
+    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{people.map((p) => p.kind === "person" && (
+      <Link key={p.id} href={routeFor(p)} className="card p-3 hover:shadow-md transition"><div className="font-medium">{p.name}</div><div className="text-xs text-muted">{p.role}</div><div className="mt-1 flex flex-wrap gap-1">{p.specialisms.slice(0, 3).map((s) => <span key={s} className="chip bg-foreground/5">{s}</span>)}</div><p className="text-sm text-muted mt-1 line-clamp-2">{p.tldr}</p></Link>))}</div>) }];
 }
 
 function productsTab(drugs: Entity[]): Tab[] {

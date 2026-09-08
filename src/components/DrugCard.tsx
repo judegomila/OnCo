@@ -2,7 +2,8 @@ import Link from "next/link";
 import type { Drug } from "@/lib/schema";
 import { routeFor } from "@/lib/schema";
 import { StatusChip } from "./ui";
-import { MoleculeThumb, hasMolecule } from "./MoleculeThumb";
+import { MoleculeThumb } from "./MoleculeThumb";
+import { hasMolecule } from "@/lib/structures";
 
 /** Product card with its rotating molecule. Used wherever products are listed as a section. */
 export function DrugCard({ d, compact = false }: { d: Drug; compact?: boolean }) {

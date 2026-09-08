@@ -1,9 +1,10 @@
 import type { DrugInput } from "@/lib/schema";
+import { drugDepth } from "./drug-depth";
 
 const asOf = "2026-09-04";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 
-export const drugs: DrugInput[] = [
+const baseDrugs: DrugInput[] = [
   // ======================= ADCs =======================
   {
     id: "sacituzumab-govitecan", kind: "drug", name: "Sacituzumab govitecan", brand: "Trodelvy", code: "IMMU-132", modality: "ADC", asOf, status: "approved", wikipedia: W("Sacituzumab_govitecan"),
@@ -829,3 +830,6 @@ export const drugs: DrugInput[] = [
     technologies: ["cytotoxic-chemotherapy"], cancers: ["tnbc", "breast-hr-positive", "nsclc", "ovarian", "pancreatic"],
   },
 ];
+
+/** Core records merged with dosing, toxicity, access, regulatory events, and mechanism steps from drug-depth.ts. */
+export const drugs: DrugInput[] = baseDrugs.map((d) => ({ ...d, ...(drugDepth[d.id] ?? {}) }));

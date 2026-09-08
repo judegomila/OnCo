@@ -1,0 +1,39 @@
+name: Fact correction
+description: Something on a page is wrong, out of date, or unsourced.
+title: "correction: "
+labels: [correction]
+body:
+  - type: input
+    id: entity
+    attributes:
+      label: Object id or page URL
+      placeholder: trastuzumab-deruxtecan or https://onco-umber.vercel.app/drugs/trastuzumab-deruxtecan/
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: Quote the current text.
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Primary source (publication, label, registry, regulator, guideline). Required for a change to be merged.
+    validations:
+      required: true
+  - type: input
+    id: coi
+    attributes:
+      label: Conflict of interest
+      description: Employment, funding, advisory roles, or equity relevant to this record in the last three years. "None declared" is fine.
+    validations:
+      required: true

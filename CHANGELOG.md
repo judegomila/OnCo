@@ -4,16 +4,39 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-09-08
+
 ### Added
-- Research output ranking from OpenAlex (oncology subfield, 2024–2025) on `/universities/`, with the exact query disclosed and data committed under `public/openalex/`.
-- Trial leadership index at `/leadership/`.
-- Cooperative trial groups and guideline bodies as institution records: SWOG, NRG Oncology, Alliance, ECOG-ACRIN, Children's Oncology Group, CCTG, BIG, GBG, JCOG, UNICANCER, NCCN.
-- Funding flows at `/funding/`, every figure sourced.
-- Gaps and bounties at `/gaps/`, computed from the corpus at build time.
-- This changelog and its page at `/changelog/`.
-- Expert review badge infrastructure (`src/data/reviews.ts`) and a documented review track in CONTRIBUTING.
-- Annual report at `/report/2026/`, generated from the corpus.
-- MCP server (`npm run mcp`) exposing search, get, list, for-cancer, and rank tools to AI assistants.
+- Animated wireframe schematics for all 18 fronts (front pages, Fronts index, home) and for all 19 glossary term categories (`/terms/` and every term page).
+- Molecule thumbnails wherever a product is mentioned: cards in pipelines, connected lists, and product tabs; hover popover with the rotating molecule on inline drug chips.
+- Self-hosted organisation logos under `public/logos/` (Wikimedia Commons via Wikidata with domain verification, favicon fallback) for companies, institutions, and collections.
+- `person` kind (clinicians and scientists: role, specialisms, profiles, papers) with a People index and a People tab on institution pages.
+- Site favicon and Apple touch icon; GitHub link in the header.
+- Public-readiness: CI workflow, issue and pull-request templates, Code of Conduct, security policy, consolidated contributing guide.
+
+### Changed
+- Graph explorer rebuilt as a clean radial view (fronts inner ring, cancers outer ring) with a focus mode that groups neighbours by kind; no physics.
+- Header language and theme controls are single-line and compact.
+- Footer and About page carry the work-in-progress disclaimer: verify every fact at its primary source; not medical advice.
+
+## [0.3.0] - 2026-09-07
+
+### Added
+- Deep spikes for all 31 cancers (standard of care by setting with NCCN/ESMO guideline mapping, state of the art, history, pipeline, open problems), taking the corpus from 875 to 1574 objects.
+- Structured trial outcomes on every trial, out-of-100 pictograms, replication notes, and a disclosed evidence score (`/evidence/`).
+- Product depth: dosing, label-sourced toxicity tables, cost and access, dated regulatory timelines (`/regulatory/`), class-wise toxicity comparison (`/toxicity/`), and animated mechanism cards.
+- Sourced biomarker prevalence by cancer for targets, with a matrix at `/prevalence/`.
+- Browser-only profile with Navigator (line of therapy, cautions, next options), caregiver mode, and a trial finder with country and distance filters.
+- Reading-level and language layers: plain and simple TL;DRs, translations into Spanish, Chinese, Portuguese, and Hindi (machine-assisted, unreviewed), and glossary hovers.
+- Power tools: multi-item Compare with differences, Pivot tables, Timeline scrubber, Query builder.
+- Trust layer: `/audit/` (staleness and contradictions), provenance line per record from the commit history, weekly fact checks against openFDA and ClinicalTrials.gov, confidence chips for ideas and speculative roadmap steps, `/corrections/` from `CORRECTIONS.md`, and expert and patient-advocate review tracks with mandatory conflict-of-interest statements.
+- Visuals: pathway diagrams that light up per product, Body map, theme toggle with high contrast and skip link, Story mode on roadmaps, interactive molecule viewer with nine drug–target PDB complexes, animated process schematics (ADC internalisation, CAR-T, radioligand, and more).
+- Suggest-an-edit on every page with an organisation self-service track; open evaluation benchmark of 100 questions (`/eval/`).
+- Tabbed object pages with the section kept in the URL; grouped navigation (Find, Map, Intelligence, Who, Learn & contribute) with landing pages.
+- Research output ranking from OpenAlex on `/universities/`, trial leadership index at `/leadership/`, cooperative trial groups as institution records, funding flows at `/funding/`, gaps and bounties at `/gaps/`, annual report at `/report/2026/`, and an MCP server (`npm run mcp`).
+
+### Changed
+- Duplicate entity ids across spikes are merged at load time (first record's scalars win, arrays appended).
 
 ## [0.2.0] - 2026-09-06
 
@@ -36,12 +59,3 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 - Nine roadmaps including ADC generations, TROP2 ADCs, TNBC, radiopharmaceuticals, cell therapy, molecular imaging, early detection, immunotherapy, and KRAS.
 - "For me" cancer picker, institution world map with a disclosed ranking, pathway diagrams, glossary, 50 hub ideas, and a static JSON API at `/api/v1/`.
 - Build-time validation of every cross-reference; MIT code licence, CC BY 4.0 data licence.
-
-## 2026-09-07 — Trust layer
-
-- `/audit/`: contradiction and staleness detector (status vs approvals, positive trials without results, standard-of-care rows citing withdrawn items, future years, duplicates, unsourced records), plus registry fact checks.
-- `/corrections/`: public corrections log from `CORRECTIONS.md`.
-- Provenance line on every object page (last edit commit, author, message, diff link) from `git blame`.
-- Confidence chips: named probability ranges for the 26 ideas and 9 speculative roadmap steps.
-- Review tracks: expert and patient-advocate badges with mandatory conflict-of-interest statements.
-- Weekly GitHub Action runs fact check, audit, and provenance and opens a PR.

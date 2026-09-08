@@ -31,6 +31,7 @@ export const KINDS = [
   "idea",
   "collection",
   "person",
+  "bottleneck",
 ] as const;
 export type Kind = (typeof KINDS)[number];
 
@@ -103,6 +104,8 @@ const Base = z.object({
   terms: z.array(id).default([]),
   trials: z.array(id).default([]),
   people: z.array(id).default([]),
+  /** Bottlenecks of the war on cancer this object bears on (ideas attack them; technologies, trials, collections relieve them). */
+  bottlenecks: z.array(id).default([]),
   /** Why this matters / what is hard about it. Optional editorial notes. */
   notes: z.array(z.string()).default([]),
   /** Even simpler explanation (about a 12-year-old reading age). Optional. */
@@ -292,6 +295,28 @@ export const IdeaSchema = Base.extend({
   /** What experiment or trial would confirm or kill it. */
   test: z.string(),
   maturity: z.enum(["speculative", "preclinical-evidence", "early-clinical", "being-tested-at-scale"]),
+  /** Who would have to act: research, clinic, industry, regulator, payer, policy, patients, data, philanthropy. */
+  actor: z.enum(["research", "clinic", "industry", "regulator", "payer", "policy", "patients", "data", "philanthropy", "engineering"]).optional(),
+  /** Rough cost to try: small (<$1M), medium ($1-50M), large (>$50M). */
+  cost: z.enum(["small", "medium", "large"]).optional(),
+  /** Time to first evidence of impact in years. */
+  horizonYears: z.number().int().min(0).max(30).optional(),
+});
+
+/** A bottleneck: a systemic constraint that slows the whole war on cancer. Ideas link to bottlenecks; the fixes are derived by backlink. */
+export const BottleneckSchema = Base.extend({
+  kind: z.literal("bottleneck"),
+  /** Where in the pipeline it bites. */
+  stage: z.enum(["biology", "prevention-detection", "trials", "regulation-manufacturing", "access-delivery", "data-knowledge", "funding-incentives", "people-culture"]),
+  severity: z.enum(["critical", "major", "moderate"]),
+  /** Numbers that show the size of the problem, each with a source. */
+  metrics: z.array(z.object({ label: z.string(), value: z.string(), source: z.string().optional(), url: url.optional() })).default([]),
+  /** Root causes, plain English, one per item. */
+  causes: z.array(z.string()).default([]),
+  /** What is already being tried and by whom. */
+  currentEfforts: z.array(z.string()).default([]),
+  /** What would count as the bottleneck being broken. */
+  successLooksLike: z.string().optional(),
 });
 
 export const CollectionSchema = Base.extend({
@@ -333,6 +358,7 @@ export const EntitySchema = z.discriminatedUnion("kind", [
   IdeaSchema,
   CollectionSchema,
   PersonSchema,
+  BottleneckSchema,
 ]);
 
 export type Entity = z.infer<typeof EntitySchema>;
@@ -351,6 +377,7 @@ export type Roadmap = z.infer<typeof RoadmapSchema>;
 export type Idea = z.infer<typeof IdeaSchema>;
 export type Collection = z.infer<typeof CollectionSchema>;
 export type Person = z.infer<typeof PersonSchema>;
+export type Bottleneck = z.infer<typeof BottleneckSchema>;
 
 /** Input types (before defaults are applied) — what authors write in data files. */
 export type CancerInput = z.input<typeof CancerSchema>;
@@ -368,6 +395,7 @@ export type RoadmapInput = z.input<typeof RoadmapSchema>;
 export type IdeaInput = z.input<typeof IdeaSchema>;
 export type CollectionInput = z.input<typeof CollectionSchema>;
 export type PersonInput = z.input<typeof PersonSchema>;
+export type BottleneckInput = z.input<typeof BottleneckSchema>;
 export type EntityInput = z.input<typeof EntitySchema>;
 
 /** The relationship array fields shared by every entity. */
@@ -384,6 +412,7 @@ export const REL_FIELDS = [
   "terms",
   "trials",
   "people",
+  "bottlenecks",
 ] as const;
 export type RelField = (typeof REL_FIELDS)[number];
 
@@ -403,6 +432,7 @@ export const KIND_META: Record<Kind, { plural: string; label: string; route: str
   idea: { plural: "ideas", label: "Idea", route: "ideas", blurb: "Hypotheses and new directions, linked to the evidence.", color: "lime" },
   collection: { plural: "collections", label: "Collection", route: "collections", blurb: "The open databases and registries the field runs on.", color: "stone" },
   person: { plural: "people", label: "Person", route: "people", blurb: "The clinicians and scientists doing the work: specialisms, bios, papers, and where to find them.", color: "pink" },
+  bottleneck: { plural: "bottlenecks", label: "Bottleneck", route: "bottlenecks", blurb: "The systemic constraints slowing the whole war on cancer, with the ideas that could break each one.", color: "red" },
 };
 
 export function routeFor(e: { kind: Kind; id: string }): string {

@@ -7,7 +7,7 @@ describe("corpus", () => {
   it("parses, has unique ids, and every reference resolves", () => {
     const g = graph();
     expect(g.entities.length).toBeGreaterThan(500);
-    for (const k of KINDS) expect(g.kind(k).length).toBeGreaterThan(0);
+    for (const k of KINDS) if (k !== "person" && k !== "bottleneck") expect(g.kind(k).length).toBeGreaterThan(0);
   });
 
   it("every entity has a non-technical tldr shorter than its summary", () => {

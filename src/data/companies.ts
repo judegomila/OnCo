@@ -359,7 +359,7 @@ export const companies: CompanyInput[] = [
     technologies: ["ai-trial-matching"] }),
 
   // =====================================================================
-  // Imported from the Katsutake company map (public information only)
+  // Imported from a public company map (public information only)
   // =====================================================================
   c({ id: "celldex", name: "Celldex Therapeutics", hq: "Hampton, NJ", country: "US", companyType: "biotech", website: "https://www.celldex.com", ticker: "CLDX", sections: ["adcs", "immunotherapy"],
     tldr: "Biotech that ran one of the early GPNMB ADCs in triple-negative breast cancer, which failed, and has since pivoted to mast-cell (KIT) antibodies for allergic disease.",

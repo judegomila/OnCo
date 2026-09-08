@@ -19,6 +19,8 @@ import { pipelineTrials } from "./pipeline-trials";
 import { groups } from "./groups";
 import { frontier } from "./frontier";
 import { people } from "./people";
+import { bottlenecks } from "./bottlenecks";
+import { ideaWaves } from "./ideas-waves";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),

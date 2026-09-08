@@ -3,7 +3,7 @@ import { hubIdeas, hubIdeas2 } from "@/data/hub-ideas";
 import { Container, PageHeader } from "@/components/ui";
 import { statusClass } from "@/lib/text";
 
-export const metadata: Metadata = { title: "50 ideas for the hub", description: "Product and community ideas for making OnCo the central hub for the war on cancer, with status." };
+export const metadata: Metadata = { title: "Roadmap", description: "What OnCo is building, in waves, with the status of every idea." };
 
 export default function Hub() {
   const themes = [...new Set(hubIdeas.map((h) => h.theme))];
@@ -11,9 +11,10 @@ export default function Hub() {
   const counts = ["shipped", "building", "planned", "proposed"].map((s) => ({ s, n: hubIdeas.filter((h) => h.status === s).length }));
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Project</span>} title="Fifty ideas for making OnCo the central hub for the war on cancer"
+      <PageHeader kicker={<span className="kicker">Project</span>} title="Roadmap"
         lede="Product, data, and community ideas, distinct from the scientific ideas in the corpus. Each has a status. Argue with them in the repo." />
       <Container className="pb-16">
+        <h2 className="text-2xl font-semibold tracking-tight mb-2">Wave one: the hub</h2>
         <div className="flex flex-wrap gap-2 mb-8 text-sm">{counts.map(({ s, n }) => <span key={s} className={`chip ${statusClass(tone[s])}`}>{n} {s}</span>)}</div>
         {themes.map((t) => (
           <section key={t} className="mt-8">
@@ -29,8 +30,8 @@ export default function Hub() {
             </ol>
           </section>
         ))}
-        <h2 className="text-2xl font-semibold tracking-tight mt-16 mb-2">Roadmap two: better, deeper, more user-friendly, more powerful</h2>
-        <p className="text-muted text-sm mb-6">Fifty more ideas proposed on 7 September 2026; most were built the same day by parallel agents and wired in by hand.</p>
+        <h2 className="text-2xl font-semibold tracking-tight mt-16 mb-2">Wave two: deeper, more useful, more powerful</h2>
+        <p className="text-muted text-sm mb-6">Ideas proposed and largely built in the second wave.</p>
         <div className="flex flex-wrap gap-2 mb-8 text-sm">{["shipped", "building", "planned", "proposed"].map((s) => <span key={s} className={`chip ${statusClass(tone[s])}`}>{hubIdeas2.filter((h) => h.status === s).length} {s}</span>)}</div>
         {[...new Set(hubIdeas2.map((h) => h.theme))].map((t) => (
           <section key={t} className="mt-8">

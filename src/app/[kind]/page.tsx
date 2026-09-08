@@ -132,10 +132,17 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
     };
     case "idea": return {
       hideStatus: true,
-      rows: g.kind("idea").map((i) => ({ ...base(i), facets: { maturity: [cap(i.maturity.replace(/-/g, " "))], cancers: names(i.cancers), technologies: names(i.technologies) }, cols: { maturity: cap(i.maturity.replace(/-/g, " ")), cancers: links(i.cancers), technologies: links(i.technologies) } })),
-      facets: [{ key: "maturity", label: "Maturity", searchable: false, width: "w-52" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "technologies", label: "Technology", width: "w-52" }],
-      columns: [{ key: "maturity", label: "Maturity", sortable: true, chip: true }, { key: "technologies", label: "Technologies", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }],
+      rows: g.kind("idea").map((i) => ({ ...base(i), facets: { maturity: [cap(i.maturity.replace(/-/g, " "))], bottleneck: names(i.bottlenecks), actor: i.actor ? [cap(i.actor)] : [], cost: i.cost ? [cap(i.cost)] : [], cancers: names(i.cancers), technologies: names(i.technologies) }, cols: { maturity: cap(i.maturity.replace(/-/g, " ")), bottlenecks: links(i.bottlenecks), actor: i.actor ? cap(i.actor) : undefined, cost: i.cost ? cap(i.cost) : undefined, cancers: links(i.cancers), technologies: links(i.technologies) } })),
+      facets: [{ key: "bottleneck", label: "Bottleneck", width: "w-60" }, { key: "maturity", label: "Maturity", searchable: false, width: "w-52" }, { key: "actor", label: "Who acts", searchable: false, width: "w-44" }, { key: "cost", label: "Cost to try", searchable: false, width: "w-40" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "technologies", label: "Technology", width: "w-52" }],
+      columns: [{ key: "maturity", label: "Maturity", sortable: true, chip: true }, { key: "bottlenecks", label: "Bottleneck", hide: "hidden md:table-cell" }, { key: "actor", label: "Who acts", sortable: true, hide: "hidden lg:table-cell" }, { key: "cost", label: "Cost", sortable: true, hide: "hidden xl:table-cell" }, { key: "technologies", label: "Technologies", hide: "hidden lg:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden xl:table-cell" }],
       defaultSort: { key: "maturity", dir: 1 },
+    };
+    case "bottleneck": return {
+      hideStatus: true,
+      rows: g.kind("bottleneck").map((b) => { const ideas = inc(b.id, "idea"); return { ...base(b), facets: { stage: [cap(b.stage.replace(/-/g, " "))], severity: [cap(b.severity)], cancers: names(b.cancers) }, cols: { stage: cap(b.stage.replace(/-/g, " ")), severity: cap(b.severity), ideas: ideas.length, technologies: links(b.technologies.slice(0, 4)) }, sortKeys: { ideas: ideas.length, severity: b.severity === "critical" ? 0 : b.severity === "major" ? 1 : 2 } }; }),
+      facets: [{ key: "stage", label: "Stage", searchable: false, width: "w-56" }, { key: "severity", label: "Severity", searchable: false, width: "w-40" }, { key: "cancers", label: "Cancer", width: "w-52" }],
+      columns: [{ key: "stage", label: "Stage", sortable: true, chip: true }, { key: "severity", label: "Severity", sortable: true, chip: true }, { key: "ideas", label: "Ideas to fix it", sortable: true, numeric: true }, { key: "technologies", label: "Technologies that relieve it", hide: "hidden lg:table-cell" }],
+      defaultSort: { key: "severity", dir: 1 },
     };
     case "person": return {
       hideStatus: true,

@@ -292,8 +292,31 @@ function kindTabs(e: Entity): Tab[] {
           <Field label="Rationale">{e.rationale}</Field>
           <Field label="What would test it">{e.test}</Field>
           <Field label="Maturity"><span className={`chip ${statusClass(e.maturity === "being-tested-at-scale" ? "phase-3" : e.maturity === "early-clinical" ? "phase-2" : e.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{e.maturity.replace(/-/g, " ")}</span></Field>
+          {(e.actor || e.cost || e.horizonYears !== undefined) && <div className="grid gap-6 sm:grid-cols-3">
+            {e.actor && <Field label="Who has to act">{e.actor}</Field>}
+            {e.cost && <Field label="Cost to try">{e.cost === "small" ? "Small (under $1M)" : e.cost === "medium" ? "Medium ($1M to $50M)" : "Large (over $50M)"}</Field>}
+            {e.horizonYears !== undefined && <Field label="Years to first evidence">{e.horizonYears}</Field>}
+          </div>}
+          {e.bottlenecks.length > 0 && <Field label="Bottlenecks it attacks"><ul className="space-y-1">{e.bottlenecks.map((id) => { const b = g.get(id); return b ? <li key={id}><Link className="underline" href={routeFor(b)}>{b.name}</Link><span className="text-muted"> · {b.tldr}</span></li> : null; })}</ul></Field>}
         </div>),
       ];
+    case "bottleneck": {
+      const ideas = g.incoming(e.id).get("idea") ?? [];
+      const relievers = [...(g.incoming(e.id).get("technology") ?? []), ...(g.incoming(e.id).get("collection") ?? []), ...(g.incoming(e.id).get("trial") ?? [])];
+      const sevClass = e.severity === "critical" ? "negative" : e.severity === "major" ? "phase-2" : "mixed";
+      return [
+        overview(<div className="grid gap-6 mt-8">
+          <div className="flex flex-wrap gap-2"><span className={`chip ${statusClass(sevClass)}`}>{e.severity}</span><span className="chip bg-foreground/5">{e.stage.replace(/-/g, " ")}</span><span className="chip bg-foreground/5">{ideas.length} ideas to fix it</span></div>
+          {e.metrics.length > 0 && <div><div className="kicker mb-2">How big the problem is</div><div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{e.metrics.map((m, i) => <div key={i} className="card p-3"><div className="text-2xl font-semibold tabular-nums">{m.value}</div><div className="text-sm">{m.label}</div>{(m.source || m.url) && <div className="text-xs text-muted mt-1">{m.url ? <a className="underline" href={m.url} rel="noopener">{m.source ?? "source"}</a> : m.source}</div>}</div>)}</div></div>}
+          {e.causes.length > 0 && <Field label="Root causes"><ul className="list-disc pl-5 space-y-1">{e.causes.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
+          {e.currentEfforts.length > 0 && <Field label="What is already being tried"><ul className="list-disc pl-5 space-y-1">{e.currentEfforts.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
+          {e.successLooksLike && <Field label="What breaking it looks like">{e.successLooksLike}</Field>}
+        </div>),
+        ...(ideas.length ? [{ id: "ideas", label: "Ideas to fix it", count: ideas.length, content: (
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{ideas.map((i) => i.kind === "idea" && <Link key={i.id} href={routeFor(i)} className="card p-3 hover:shadow-md transition"><div className="flex flex-wrap gap-1 mb-1"><span className={`chip ${statusClass(i.maturity === "being-tested-at-scale" ? "phase-3" : i.maturity === "early-clinical" ? "phase-2" : i.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{i.maturity.replace(/-/g, " ")}</span>{i.actor && <span className="chip bg-foreground/5">{i.actor}</span>}{i.cost && <span className="chip bg-foreground/5">{i.cost} cost</span>}</div><div className="font-medium">{i.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-3">{i.tldr}</p></Link>)}</div>) }] : []),
+        ...(relievers.length ? [{ id: "relievers", label: "What relieves it today", count: relievers.length, content: <RefsWithMolecules ids={relievers.map((r) => r.id)} /> }] : []),
+      ];
+    }
     case "collection":
       return [
         overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
@@ -322,7 +345,7 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<div className="mt-8"><FrontSchematic sectionId={e.id} /></div>),
         { id: "technologies", label: "Technologies", count: techs.length, content: (
-          <div className="grid gap-3 sm:grid-cols-2">{techs.map((t) => <Link key={t.id} href={routeFor(t)} className="card p-3 hover:shadow-md transition"><div className="flex items-center gap-2 mb-1"><StatusChip status={t.status} /></div><div className="font-medium">{t.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{t.tldr}</p></Link>)}</div>) },
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{techs.map((t) => t.kind === "technology" && <Link key={t.id} href={routeFor(t)} className="card overflow-hidden hover:shadow-md transition"><TechSchematic tech={t} compact height="h-32" /><div className="p-3"><div className="flex items-center gap-2 mb-1"><StatusChip status={t.status} /></div><div className="font-medium">{t.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{t.tldr}</p></div></Link>)}</div>) },
       ];
     }
   }

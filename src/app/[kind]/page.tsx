@@ -9,6 +9,7 @@ import { WorldMap } from "@/components/WorldMap";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef } from "@/components/EntityBrowser";
 import structureIndex from "../../../public/structures/index.json";
 import { FrontSchematic } from "@/components/FrontSchematic";
+import { BottleneckMap } from "@/components/BottleneckMap";
 import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
 
@@ -165,12 +166,13 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
   const k = ROUTE_TO_KIND[kind];
   if (!k) notFound();
   const meta = KIND_META[k];
-  const title = k === "section" ? "Fronts of the war on cancer" : k === "term" ? "Glossary" : cap(meta.plural);
+  const title = k === "section" ? "Fronts of the war on cancer" : k === "term" ? "Glossary" : k === "bottleneck" ? "Bottlenecks of the war on cancer" : cap(meta.plural);
   const { rows, facets, columns, hideStatus, hideTldr, defaultSort } = buildBrowser(k);
 
   const right = k === "cancer" ? <Link href="/for-me/" className="rounded-lg bg-accent text-white px-4 py-2 text-sm font-medium">Pick mine →</Link>
     : k === "drug" ? <Link href="/explore/?kind=drug" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Rank by cancer type →</Link>
     : k === "institution" ? <Link href="/universities/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">University output →</Link>
+    : k === "bottleneck" ? <Link href="/ideas/" className="rounded-lg bg-accent text-white px-4 py-2 text-sm font-medium">All ideas →</Link>
     : undefined;
 
   return (
@@ -180,6 +182,7 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
         {k === "institution" && <InstitutionsMap />}
         {k === "section" && <FrontsGrid />}
         {k === "term" && <TermCategoryGrid />}
+        {k === "bottleneck" && <BottlenecksPipeline />}
         <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
         {k === "institution" && (
           <p className="text-xs text-muted mt-3 max-w-3xl">Score = Newsweek points (60 − Newsweek/Statista 2026 Oncology rank, 0 if unranked) + NCI designation points (Comprehensive 15, Clinical or Basic 8) + 2 × distinct OnCo objects linked to the institution. The last term measures presence in this evidence base and grows with the corpus. A starting point for argument, not a verdict.</p>
@@ -207,6 +210,12 @@ function TermCategoryGrid() {
       </div>
     </div>
   );
+}
+
+function BottlenecksPipeline() {
+  const g = graph();
+  const items = g.kind("bottleneck").map((b) => ({ id: b.id, name: b.name, tldr: b.tldr, route: routeFor(b), stage: b.stage, severity: b.severity, ideas: (g.incoming(b.id).get("idea") ?? []).length }));
+  return <BottleneckMap items={items} />;
 }
 
 function FrontsGrid() {

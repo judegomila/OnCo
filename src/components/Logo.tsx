@@ -1,19 +1,22 @@
+import { logoFor } from "@/lib/logos";
+
 /**
- * Organisation logo, hotlinked from the organisation's own site via Google's favicon
- * service (never copied into this repository). Falls back to initials.
- * Trademarks belong to their owners; this is nominative use for identification.
+ * Organisation logo. Prefers the self-hosted file fetched by scripts/fetch-logos.ts
+ * (Wikimedia Commons or Clearbit), falls back to the organisation's favicon, then initials.
+ * Trademarks belong to their owners; shown for identification. Commons licences and attribution
+ * are recorded in public/logos/index.json and surfaced in the title attribute.
  */
-export function Logo({ website, name, size = 56, className = "" }: { website: string; name: string; size?: number; className?: string }) {
-  let domain = "";
-  try { domain = new URL(website).hostname.replace(/^www\./, ""); } catch { domain = ""; }
+export function Logo({ id, website, name, size = 56, className = "" }: { id?: string; website: string; name: string; size?: number; className?: string }) {
+  const { src, source, entry } = logoFor(id, website);
   const initials = name.split(/[\s/–-]+/).filter(Boolean).slice(0, 2).map((w) => w[0]?.toUpperCase() ?? "").join("");
+  const title = entry?.source === "wikidata" ? `${name} logo · Wikimedia Commons${entry.license ? ` · ${entry.license}` : ""}${entry.attribution ? ` · ${entry.attribution}` : ""}` : `${name} logo`;
+  const pad = source === "favicon" ? "h-[62%] w-[62%]" : "h-[78%] w-[78%]";
   return (
-    <span className={`relative inline-flex shrink-0 items-center justify-center rounded-xl border border-border bg-white overflow-hidden ${className}`} style={{ width: size, height: size }} aria-hidden>
+    <span className={`relative inline-flex shrink-0 items-center justify-center rounded-xl border border-border bg-white overflow-hidden ${className}`} style={{ width: size, height: size }} title={src ? title : undefined} aria-hidden>
       <span className="absolute inset-0 flex items-center justify-center text-sm font-semibold text-zinc-500">{initials}</span>
-      {domain && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={`https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`} alt="" width={size} height={size} loading="lazy" referrerPolicy="no-referrer"
-          className="relative h-[70%] w-[70%] object-contain" onError={undefined} />
+      {src && (
+        // eslint-disable-next-line @next/next/no-img-element -- static logo files, no optimisation pipeline
+        <img src={src} alt="" width={size} height={size} loading="lazy" decoding="async" referrerPolicy="no-referrer" className={`relative ${pad} object-contain bg-white`} />
       )}
     </span>
   );

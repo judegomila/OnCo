@@ -7,3 +7,8 @@ Attribution: "OnCo (github.com/judegomila/OnCo)".
 The corpus describes third-party products, organisations, trials, and publications.
 Trademarks belong to their owners. Linked external sources retain their own licences.
 Nothing in the corpus is medical advice.
+
+Logos under public/logos/ are trademarks of their respective owners and are shown for
+identification only (nominative use). Files sourced from Wikimedia Commons carry their own
+licences and attribution, recorded per file in public/logos/index.json. Favicons are the
+organisations' own site icons, fetched via Google's favicon service.

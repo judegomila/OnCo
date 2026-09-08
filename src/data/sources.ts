@@ -1,0 +1,135 @@
+import type { CollectionInput } from "@/lib/schema";
+
+/**
+ * The leading sources of oncology research and news, as collection entities.
+ * Ids are prefixed `src-` so they never collide with src/data/collections.ts.
+ * Access model is recorded in `license`. URLs checked 2026-09-08 (a 403 to scripts still
+ * confirms the page exists; several publishers block automated fetches).
+ */
+const asOf = "2026-09-08";
+type S = Omit<CollectionInput, "kind" | "asOf">;
+const s = (x: S): CollectionInput => ({ kind: "collection", asOf, ...x });
+
+export const sources: CollectionInput[] = [
+  // ---- Journals ----
+  s({ id: "src-nejm", name: "New England Journal of Medicine", url: "https://www.nejm.org/browse/specialty/hematology-oncology", holds: "The practice-changing phase 3 trials, most published simultaneously with ASCO, ESMO, and ASH presentations.", license: "Paywalled; abstracts free; many trial papers free after 6 months", maintainer: "Massachusetts Medical Society", tags: ["source", "journal"],
+    tldr: "Where the biggest trial results appear first. If a drug changes practice, the paper is usually here.", summary: "Weekly. Highest bar for randomised evidence; editorials and correspondence often carry the critical read. Use the hematology-oncology specialty page or PubMed sorted by date. Simultaneous publication with congress plenaries means the paper and the slides land the same day." }),
+  s({ id: "src-lancet-oncology", name: "The Lancet Oncology", url: "https://www.thelancet.com/journals/lanonc/home", holds: "Phase 2 and 3 trials, meta-analyses, global oncology policy, and the ESMO-aligned commentaries.", license: "Paywalled; abstracts free", maintainer: "Elsevier / The Lancet", tags: ["source", "journal"],
+    tldr: "The other home of practice-changing trials, with a stronger European and global-health voice.", summary: "Monthly plus online-first. Strong on radiotherapy, surgical, and health-system trials that NEJM covers less; the Commission series shapes policy. Quality-of-life and long-term follow-up papers of major trials often appear here." }),
+  s({ id: "src-jco", name: "Journal of Clinical Oncology", url: "https://ascopubs.org/journal/jco", holds: "ASCO's flagship journal: trials, guidelines (including living guidelines), and long-term follow-up of cooperative-group studies.", license: "Paywalled; guidelines and many trials free", maintainer: "American Society of Clinical Oncology", tags: ["source", "journal"],
+    tldr: "Where ASCO publishes its guidelines and most US cooperative-group trial results.", summary: "Three issues a month. The ASCO living guidelines are the fastest route to what US oncologists are told to do; long-term survival updates (for example COMBI-I, AEGEAN) tend to land here first. Companion journals JCO Precision Oncology and JCO Oncology Practice cover genomics and delivery." }),
+  s({ id: "src-cancer-discovery", name: "Cancer Discovery", url: "https://aacrjournals.org/cancerdiscovery", holds: "High-impact translational and early-clinical science, plus 'In the Spotlight' and news digests of the field.", license: "Paywalled; news free", maintainer: "American Association for Cancer Research", tags: ["source", "journal"],
+    tldr: "The best single journal for seeing what will be in the clinic in five years.", summary: "Monthly. First-in-human data for new modalities, resistance mechanisms, and target validation; its news pages summarise notable papers from elsewhere. AACR's other journals (Cancer Research, Clinical Cancer Research) carry the deeper biology and phase 1 detail." }),
+  s({ id: "src-nature-medicine", name: "Nature Medicine", url: "https://www.nature.com/nm/", holds: "Translational medicine including cancer vaccines, AI diagnostics, and phase 1-3 trials with mechanistic depth.", license: "Paywalled; abstracts free; some open access", maintainer: "Nature Portfolio", tags: ["source", "journal"],
+    tldr: "Where AI-in-medicine trials, personalised vaccines, and cell-therapy firsts get published.", summary: "Monthly. Expect the mRNA vaccine, CAR-T persistence, and AI screening trials here; the 'News & Views' pieces are readable summaries. Sister titles Nature Cancer and Nature Reviews Cancer carry biology and reviews." }),
+  s({ id: "src-nature-cancer", name: "Nature Cancer", url: "https://www.nature.com/natcancer/", holds: "Cancer biology and translational studies across the spectrum.", license: "Paywalled", maintainer: "Nature Portfolio", tags: ["source", "journal"],
+    tldr: "Nature's dedicated cancer journal, heavier on mechanism than on trials.", summary: "Monthly. Tumour microenvironment, metabolism, evolution, and early translational work." }),
+  s({ id: "src-cancer-cell", name: "Cancer Cell", url: "https://www.cell.com/cancer-cell/home", holds: "Mechanistic cancer biology, multi-omic atlases, and translational studies.", license: "Paywalled", maintainer: "Cell Press / Elsevier", tags: ["source", "journal"],
+    tldr: "The biology behind the targets: where new dependencies and resistance mechanisms are first described.", summary: "Monthly. Proteogenomic atlases (CPTAC), spatial biology, and target-discovery papers that later become companies." }),
+  s({ id: "src-annals-oncology", name: "Annals of Oncology", url: "https://www.annalsofoncology.org/", holds: "ESMO's journal: trials, ESMO guidelines, ESMO-MCBS scorecards, and congress abstracts.", license: "Paywalled; guidelines and abstracts free", maintainer: "European Society for Medical Oncology / Elsevier", tags: ["source", "journal", "congress"],
+    tldr: "The European counterpart of JCO, and the place ESMO Congress abstracts are published.", summary: "Monthly. ESMO Clinical Practice Guidelines and the Magnitude of Clinical Benefit Scale live here; ESMO abstract supplements appear each autumn." }),
+  s({ id: "src-jama-oncology", name: "JAMA Oncology", url: "https://jamanetwork.com/journals/jamaoncology", holds: "Trials, health-services research, and epidemiology with a strong methods focus.", license: "Paywalled; abstracts free; some open access", maintainer: "American Medical Association", tags: ["source", "journal"],
+    tldr: "Good for real-world outcomes, costs, disparities, and critical secondary analyses.", summary: "Monthly. Expect ctDNA cohort studies, surrogate-endpoint critiques, and pricing analyses." }),
+  s({ id: "src-blood", name: "Blood", url: "https://ashpublications.org/blood", holds: "Haematology's flagship: leukaemia, lymphoma, myeloma trials and biology; ASH abstracts.", license: "Paywalled; abstracts free", maintainer: "American Society of Hematology", tags: ["source", "journal", "congress"],
+    tldr: "For blood cancers, this and ASH's December meeting are the centre of gravity.", summary: "Weekly. ASH annual meeting abstracts are published as a Blood supplement each November." }),
+  s({ id: "src-cancer-research", name: "Cancer Research", url: "https://aacrjournals.org/cancerres", holds: "AACR's oldest journal: preclinical and mechanistic cancer science.", license: "Paywalled", maintainer: "American Association for Cancer Research", tags: ["source", "journal"],
+    tldr: "Deep preclinical biology, one step before Cancer Discovery.", summary: "Twice monthly." }),
+  s({ id: "src-clinical-cancer-research", name: "Clinical Cancer Research", url: "https://aacrjournals.org/clincancerres", holds: "Phase 1-2 trials, biomarker studies, and CCR Translations commentaries.", license: "Paywalled", maintainer: "American Association for Cancer Research", tags: ["source", "journal"],
+    tldr: "The best place to read early-phase trial detail and biomarker validation.", summary: "Twice monthly. Dose-finding, pharmacodynamics, and predictive biomarker papers." }),
+  s({ id: "src-jnci", name: "JNCI: Journal of the National Cancer Institute", url: "https://academic.oup.com/jnci", holds: "Epidemiology, screening, health policy, and trials.", license: "Paywalled; some open access", maintainer: "Oxford University Press", tags: ["source", "journal"],
+    tldr: "Screening and population science, including the long-running US cancer statistics reports.", summary: "Monthly." }),
+  s({ id: "src-esmo-open", name: "ESMO Open", url: "https://www.esmoopen.com/", holds: "ESMO's open-access journal for trials, real-world data, and guidelines.", license: "Open access (CC BY / CC BY-NC-ND)", maintainer: "ESMO / Elsevier", tags: ["source", "journal"],
+    tldr: "Free-to-read ESMO content, including many guideline updates.", summary: "Monthly." }),
+  s({ id: "src-npj-precision-oncology", name: "npj Precision Oncology", url: "https://www.nature.com/npjprecisiononcology/", holds: "Open-access precision oncology: genomics, AI, biomarker studies.", license: "Open access (CC BY)", maintainer: "Nature Portfolio", tags: ["source", "journal"],
+    tldr: "Open-access home for genomics and AI-in-oncology papers.", summary: "Continuous publication." }),
+
+  // ---- Preprints ----
+  s({ id: "src-medrxiv", name: "medRxiv", url: "https://www.medrxiv.org/collection/oncology", holds: "Clinical preprints before peer review; the oncology collection.", license: "Open (author-chosen CC licences)", maintainer: "Cold Spring Harbor Laboratory, BMJ, Yale", tags: ["source", "preprint"],
+    tldr: "Trial results and real-world analyses weeks to months before journals. Unreviewed.", summary: "Daily. Useful for early signals and for methods critiques; treat every claim as provisional and check for the peer-reviewed version." }),
+  s({ id: "src-biorxiv", name: "bioRxiv", url: "https://www.biorxiv.org/collection/cancer-biology", holds: "Biology preprints; the cancer biology collection.", license: "Open (author-chosen CC licences)", maintainer: "Cold Spring Harbor Laboratory", tags: ["source", "preprint"],
+    tldr: "Where new targets and mechanisms surface first, unreviewed.", summary: "Daily." }),
+
+  // ---- Regulatory and HTA feeds ----
+  s({ id: "src-ema-chmp", name: "EMA news and CHMP meeting highlights", url: "https://www.ema.europa.eu/en/news", holds: "Monthly CHMP opinions: new medicines recommended, indication extensions, negative opinions.", license: "Public", maintainer: "European Medicines Agency", tags: ["source", "data"],
+    tldr: "Europe's approval pipeline, one month ahead of European Commission decisions.", summary: "Published the Friday of each CHMP week. Read alongside the FDA OCE approval notifications to see where US and EU diverge." }),
+  s({ id: "src-nice-ta", name: "NICE technology appraisals", url: "https://www.nice.org.uk/guidance/published?type=ta", holds: "England's cost-effectiveness decisions for cancer drugs, with committee papers and prices where disclosed.", license: "Public", maintainer: "National Institute for Health and Care Excellence", tags: ["source", "data"],
+    tldr: "Whether the NHS will pay, and the reasoning. The most transparent HTA record in the world.", summary: "Continuous. TA documents include the evidence review and often the only public sight of confidential discounts being negotiated." }),
+
+  // ---- News and analysis ----
+  s({ id: "src-asco-post", name: "The ASCO Post", url: "https://ascopost.com/", holds: "News and expert commentary on trials, approvals, guidelines, and oncology leadership.", license: "Free", maintainer: "Harborside / ASCO", tags: ["source", "news"],
+    tldr: "Reliable, clinician-written summaries of the trials that matter, usually within days.", summary: "Twice monthly print, daily online. Good balance of data and expert perspective; the congress coverage is thorough." }),
+  s({ id: "src-onclive", name: "OncLive", url: "https://www.onclive.com/", holds: "Daily oncology news, approval alerts, and expert video interviews.", license: "Free with registration for some content", maintainer: "MJH Life Sciences", tags: ["source", "news"],
+    tldr: "Fast approval and readout news with key opinion leader interviews.", summary: "Daily. Industry-sponsored content is common; check the primary source for numbers." }),
+  s({ id: "src-targeted-oncology", name: "Targeted Oncology", url: "https://www.targetedonc.com/", holds: "Precision oncology news, case-based discussions, and approval coverage.", license: "Free", maintainer: "MJH Life Sciences", tags: ["source", "news"],
+    tldr: "OncLive's sibling with a biomarker and targeted-therapy focus.", summary: "Daily." }),
+  s({ id: "src-cancer-network", name: "CancerNetwork (ONCOLOGY)", url: "https://www.cancernetwork.com/", holds: "News, reviews, and the journal ONCOLOGY.", license: "Free", maintainer: "MJH Life Sciences", tags: ["source", "news"],
+    tldr: "Daily practice-oriented news across solid and haematologic cancers.", summary: "Daily." }),
+  s({ id: "src-cancer-letter", name: "The Cancer Letter", url: "https://cancerletter.com/", holds: "Investigative reporting on cancer policy, NCI, cancer centres, leadership, and misconduct since 1973.", license: "Paywalled; some free", maintainer: "The Cancer Letter Inc.", tags: ["source", "news"],
+    tldr: "The inside story of cancer institutions and policy. Nobody else covers NCI and the centres this closely.", summary: "Weekly. Essential for leadership changes, funding, and governance; light on trial data." }),
+  s({ id: "src-endpoints-news", name: "Endpoints News", url: "https://endpoints.news/", holds: "Biopharma industry news: deals, readouts, regulatory decisions, executive moves.", license: "Freemium; premium subscription", maintainer: "Endpoints News", tags: ["source", "news"],
+    tldr: "Fastest read on what biotech and pharma are doing in oncology, deal by deal.", summary: "Daily newsletters. Strong on China-out licensing and ADC/bispecific deal flow." }),
+  s({ id: "src-fierce-biotech", name: "Fierce Biotech", url: "https://www.fiercebiotech.com/oncology", holds: "Industry news with an oncology channel: trial failures and successes, layoffs, financings.", license: "Free with registration", maintainer: "Questex", tags: ["source", "news"],
+    tldr: "Where trial failures get reported plainly.", summary: "Daily." }),
+  s({ id: "src-stat-news", name: "STAT News", url: "https://www.statnews.com/topic/cancer/", holds: "Health and biotech journalism: cancer science, drug pricing, policy, and industry.", license: "Freemium; STAT+ subscription", maintainer: "Boston Globe Media", tags: ["source", "news"],
+    tldr: "The best-written reporting on the science and business of cancer, with real scepticism.", summary: "Daily. Strong on radiopharma, mRNA vaccines, access after approval, and FDA politics." }),
+  s({ id: "src-biocentury", name: "BioCentury", url: "https://www.biocentury.com/", holds: "Strategic analysis of biopharma: regulatory trends, first-in-class approvals, China, deal terms.", license: "Subscription", maintainer: "BioCentury Inc.", tags: ["source", "news"],
+    tldr: "Analysis for people who make decisions about pipelines.", summary: "Daily. The monthly first-in-class approval tallies and regulatory reform coverage are distinctive." }),
+  s({ id: "src-evaluate", name: "Evaluate Vantage", url: "https://www.evaluate.com/vantage/", holds: "Market forecasts, deal analysis, and readout scorecards for oncology assets.", license: "Freemium; Evaluate subscription for data", maintainer: "Evaluate (Norstella)", tags: ["source", "news", "data"],
+    tldr: "Forecasts of which drugs and modalities will matter commercially in the next decade.", summary: "Weekly analysis; the oncology market forecast to 2036 is the reference for investors." }),
+  s({ id: "src-adc-review", name: "ADC Review", url: "https://www.adcreview.com/", holds: "Antibody-drug conjugate news, conference coverage, pipeline watch, and the ADC database.", license: "Free", maintainer: "Sunvalley Communication", tags: ["source", "news"],
+    tldr: "Everything ADC: deals, payload chemistry, and monthly pipeline summaries.", summary: "Weekly. The 'Pipeline Watch' monthly digest is the quickest ADC catch-up." }),
+  s({ id: "src-urotoday", name: "UroToday", url: "https://www.urotoday.com/", holds: "Genitourinary oncology abstracts, conference coverage, and expert video.", license: "Free with registration", maintainer: "Digital Science Press", tags: ["source", "news"],
+    tldr: "The prostate, bladder, and kidney cancer feed, including PSMA and radioligand news.", summary: "Daily. Conference coverage (ASCO GU, EAU, AUA, PSMA conference) is exhaustive." }),
+  s({ id: "src-oncodaily", name: "OncoDaily", url: "https://oncodaily.com/", holds: "Global oncology news, education, and career items, with a strong non-US voice.", license: "Free", maintainer: "OncoDaily", tags: ["source", "news"],
+    tldr: "High-volume daily oncology news with international reach.", summary: "Daily. Mixes trial news with profiles and history pieces; check primary sources." }),
+  s({ id: "src-healio-hemonc", name: "Healio Hematology/Oncology", url: "https://www.healio.com/news/hematology-oncology", holds: "Daily news and expert Q&As across haematology and oncology.", license: "Free with registration", maintainer: "Healio / SLACK", tags: ["source", "news"],
+    tldr: "Clinician-facing daily news with good approval and lifestyle-risk coverage.", summary: "Daily." }),
+  s({ id: "src-medscape-oncology", name: "Medscape Oncology", url: "https://www.medscape.com/oncology", holds: "News, perspectives, and CME for oncologists.", license: "Free with registration", maintainer: "WebMD / Medscape", tags: ["source", "news"],
+    tldr: "Broad clinician news with continuing-education tie-ins.", summary: "Daily." }),
+  s({ id: "src-biopharma-dive", name: "BioPharma Dive", url: "https://www.biopharmadive.com/", holds: "Industry news: approvals, trial results, M&A, policy.", license: "Free", maintainer: "Industry Dive (Informa)", tags: ["source", "news"],
+    tldr: "Clean, free industry reporting; good for deal and approval context.", summary: "Daily." }),
+
+  // ---- Congress portals ----
+  s({ id: "src-asco-meeting-library", name: "ASCO Meeting Library", url: "https://meetings.asco.org/meetings", holds: "Abstracts, slides, and posters from ASCO Annual Meeting, GI, GU, Breast, and thematic meetings.", license: "Abstracts free; slides for members/registrants", maintainer: "American Society of Clinical Oncology", tags: ["source", "congress"],
+    tldr: "The primary record of what was presented at ASCO meetings each year.", summary: "Annual Meeting each June (Chicago); GI in January, GU in February. Late-breaking abstracts are the market-moving ones." }),
+  s({ id: "src-esmo-congress", name: "ESMO Congress", url: "https://www.esmo.org/meetings/esmo-congress-2026", holds: "Europe's largest oncology congress; abstracts published in Annals of Oncology.", license: "Abstracts free; content for registrants", maintainer: "European Society for Medical Oncology", tags: ["source", "congress"],
+    tldr: "The autumn counterpart to ASCO, where many phase 3 firsts now land.", summary: "Each October. See the readout calendar for this year's dates and expected presentations." }),
+  s({ id: "src-aacr-annual", name: "AACR Annual Meeting", url: "https://www.aacr.org/meeting/aacr-annual-meeting-2026/", holds: "Basic, translational, and early-clinical science; first-in-human and platform data.", license: "Abstracts free", maintainer: "American Association for Cancer Research", tags: ["source", "congress"],
+    tldr: "Where new modalities and targets debut, each April.", summary: "Annual, April. Watch the clinical trials plenaries and the emerging ADC/bispecific sessions." }),
+  s({ id: "src-ash-annual", name: "ASH Annual Meeting", url: "https://www.hematology.org/meetings/annual-meeting", holds: "Haematologic malignancy trials and science; abstracts in Blood.", license: "Abstracts free", maintainer: "American Society of Hematology", tags: ["source", "congress"],
+    tldr: "December's blood-cancer summit: CAR-T, bispecifics, menin, BTK, and myeloma news.", summary: "Annual, December." }),
+  s({ id: "src-sabcs", name: "San Antonio Breast Cancer Symposium", url: "https://www.sabcs.org/", holds: "The breast cancer meeting; abstracts in Cancer Research and Clinical Cancer Research supplements.", license: "Abstracts free", maintainer: "UT Health San Antonio, AACR, Baylor", tags: ["source", "congress"],
+    tldr: "Every December, the year's breast cancer evidence in one week.", summary: "Annual, December." }),
+  s({ id: "src-astro", name: "ASTRO Annual Meeting", url: "https://www.astro.org/meetings-and-education/annual-meeting", holds: "Radiation oncology trials and technology.", license: "Abstracts free", maintainer: "American Society for Radiation Oncology", tags: ["source", "congress"],
+    tldr: "Where hypofractionation, SBRT, protons, FLASH, and MR-guided radiotherapy results appear.", summary: "Annual, autumn." }),
+  s({ id: "src-snmmi", name: "SNMMI Annual Meeting", url: "https://www.snmmi.org/", holds: "Nuclear medicine and theranostics: new tracers, radioligand therapy data, dosimetry.", license: "Abstracts free (Journal of Nuclear Medicine supplement)", maintainer: "Society of Nuclear Medicine and Molecular Imaging", tags: ["source", "congress"],
+    tldr: "The theranostics meeting, each June.", summary: "Annual, June. Journal of Nuclear Medicine carries the field's papers." }),
+
+  // ---- Newsletters and briefings ----
+  s({ id: "src-asco-daily-news", name: "ASCO Daily News", url: "https://dailynews.ascopubs.org/", holds: "ASCO's news service: meeting coverage, guideline updates, and expert perspectives.", license: "Free", maintainer: "American Society of Clinical Oncology", tags: ["source", "news"],
+    tldr: "ASCO's own daily read, best during the Annual Meeting.", summary: "Daily during meetings; weekly otherwise." }),
+  s({ id: "src-nature-briefing-cancer", name: "Nature Briefing: Cancer", url: "https://www.nature.com/briefing/cancer", holds: "A weekly email digest of cancer research and news curated by Nature editors.", license: "Free email", maintainer: "Nature Portfolio", tags: ["source", "news"],
+    tldr: "One email a week that catches the papers you missed.", summary: "Weekly." }),
+
+  // ---- Patient-facing ----
+  s({ id: "src-cancer-org-asco", name: "American Cancer Society (cancer.org, incl. former Cancer.Net)", url: "https://www.cancer.org/", holds: "Patient information across cancer types; ASCO's Cancer.Net content moved here.", license: "Free", maintainer: "American Cancer Society with ASCO", tags: ["source", "patient"],
+    tldr: "Plain-language patient information, with ASCO's clinical review behind it.", summary: "Cancer.Net now redirects to cancer.org after the ASCO–ACS partnership." }),
+  s({ id: "src-cruk-about-cancer", name: "Cancer Research UK: About Cancer", url: "https://www.cancerresearchuk.org/about-cancer", holds: "Patient information from symptoms to life after treatment, UK context.", license: "Free", maintainer: "Cancer Research UK", tags: ["source", "patient"],
+    tldr: "Clear UK patient information, including NHS treatment pathways.", summary: "Continuously updated; nurse helpline." }),
+  s({ id: "src-macmillan", name: "Macmillan Cancer Support", url: "https://www.macmillan.org.uk/cancer-information-and-support", holds: "Practical, emotional, and financial support information for people with cancer in the UK.", license: "Free", maintainer: "Macmillan Cancer Support", tags: ["source", "patient"],
+    tldr: "The practical side: money, work, coping, and where to get help.", summary: "Continuously updated." }),
+  s({ id: "src-lbbc", name: "Living Beyond Breast Cancer", url: "https://www.lbbc.org/news", holds: "Patient-facing breast cancer news, congress summaries, and question guides.", license: "Free", maintainer: "Living Beyond Breast Cancer", tags: ["source", "patient"],
+    tldr: "Congress results translated for people with breast cancer, fast and accurately.", summary: "Its ASCO and SABCS summaries are among the best patient-facing trial explainers." }),
+  s({ id: "src-bcrf", name: "Breast Cancer Research Foundation", url: "https://www.bcrf.org/blog/", holds: "Research news, approval explainers, and funded-research updates.", license: "Free", maintainer: "Breast Cancer Research Foundation", tags: ["source", "patient"],
+    tldr: "Research-literate breast cancer news for a general audience.", summary: "Weekly." }),
+  s({ id: "src-pancan", name: "Pancreatic Cancer Action Network (PanCAN)", url: "https://pancan.org/news/", holds: "Pancreatic cancer news, patient services, and the Know Your Tumor programme.", license: "Free", maintainer: "PanCAN", tags: ["source", "patient"],
+    tldr: "The patient hub for pancreatic cancer, including trial navigation.", summary: "Continuously updated." }),
+  s({ id: "src-tnbc-foundation", name: "Triple Negative Breast Cancer Foundation", url: "https://tnbcfoundation.org/", holds: "TNBC-specific information, helpline, support groups, webinars, and trial information.", license: "Free", maintainer: "TNBC Foundation", tags: ["source", "patient"],
+    tldr: "Support and information built specifically for triple-negative breast cancer.", summary: "Helpline staffed by oncology social workers." }),
+
+  // ---- Data and AI literature tools ----
+  s({ id: "src-semantic-scholar", name: "Semantic Scholar", url: "https://www.semanticscholar.org/", holds: "AI-powered literature search with citation graphs, TL;DRs, and a free API.", license: "Free; open API", maintainer: "Allen Institute for AI", tags: ["source", "data"],
+    tldr: "Free literature search with machine-generated summaries and citation context.", summary: "Continuous. The API is a practical way to enrich person and trial pages with publication lists." }),
+  s({ id: "src-dimensions", name: "Dimensions", url: "https://www.dimensions.ai/", holds: "Linked research data: publications, grants, trials, patents, policy documents.", license: "Free version; subscription for analytics", maintainer: "Digital Science", tags: ["source", "data"],
+    tldr: "Connects papers to the grants and trials behind them.", summary: "Continuous." }),
+];

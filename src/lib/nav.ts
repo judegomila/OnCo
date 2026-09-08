@@ -48,6 +48,8 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/isotopes/", label: "Isotope supply", blurb: "Lu-177, Ac-225, Pb-212 and who makes them." },
       { href: "/report/2026/", label: "State of the war, 2026", blurb: "The annual report generated from the corpus." },
       { href: "/changelog/", label: "Changelog", blurb: "What changed in OnCo, and when." },
+      { href: "/audit/", label: "Audit", blurb: "Staleness, contradictions, and registry mismatches, recomputed each build." },
+      { href: "/corrections/", label: "Corrections", blurb: "Every factual correction, what was wrong and how it was found." },
     ],
   },
   {

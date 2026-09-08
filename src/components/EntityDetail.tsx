@@ -30,6 +30,9 @@ import { GuidelineChip } from "./GuidelineChip";
 import { PrevalenceTable, CancerPrevalence } from "./PrevalenceTable";
 import { SuggestEdit } from "./SuggestEdit";
 import { sourceLocation } from "@/lib/source-location";
+import { ProvenanceLine } from "./ProvenanceLine";
+import { ConfidenceChip, ConfidenceLegend } from "./ConfidenceChip";
+import { ProcessSchematic } from "./ProcessSchematic";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 
@@ -95,6 +98,7 @@ export function EntityDetail({ e }: { e: Entity }) {
           <aside className="space-y-4 lg:sticky lg:top-28 self-start">
             {(e.kind === "drug" || e.kind === "technology" || e.kind === "target" || e.kind === "trial") && <EvidenceBar e={e} />}
             <ReviewBadge id={e.id} />
+            <ProvenanceLine id={e.id} />
             <div className="card p-4 text-sm space-y-3">
               {e.wikipedia && <div><div className="kicker mb-1">Wikipedia</div><a className="underline break-all" href={e.wikipedia} rel="noopener">{decodeURIComponent(e.wikipedia.replace("https://en.wikipedia.org/wiki/", "")).replace(/_/g, " ")}</a></div>}
               {e.links.length > 0 && (
@@ -178,6 +182,7 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<>
           {STRUCTURES[e.id] ? <div className="mt-8"><MoleculeViewer entries={STRUCTURES[e.id]} /></div> : <DrugSchematic technologies={e.technologies} modality={e.modality} />}
+          <div className="mt-6"><ProcessSchematic entity={e} /></div>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Modality">{e.modality}</Field>
             <Field label="Mechanism">{e.mechanism}</Field>
@@ -261,6 +266,7 @@ function kindTabs(e: Entity): Tab[] {
     case "idea":
       return [
         overview(<div className="grid gap-6 mt-8">
+          <Field label="Confidence"><ConfidenceChip id={e.id} /></Field>
           <Field label="Hypothesis">{e.hypothesis}</Field>
           <Field label="Rationale">{e.rationale}</Field>
           <Field label="What would test it">{e.test}</Field>
@@ -295,19 +301,20 @@ function productsTab(drugs: Entity[]): Tab[] {
 
 function RoadmapSteps({ r }: { r: Roadmap }) {
   const tone: Record<string, string> = { historic: "bg-zinc-400", current: "bg-emerald-500", emerging: "bg-amber-500", speculative: "bg-violet-500" };
-  return (
+  return (<>
     <ol className="relative border-l-2 border-border ml-3 space-y-8">
       {r.steps.map((s, i) => (
         <li key={i} className="ml-6">
           <span className={`absolute -left-[9px] mt-1.5 h-4 w-4 rounded-full ring-4 ring-background ${tone[s.status]}`} />
-          <div className="flex flex-wrap items-center gap-2"><span className="kicker">{s.era}</span><span className={`chip ${statusClass(s.status === "current" ? "approved" : s.status === "emerging" ? "phase-2" : s.status === "speculative" ? "concept" : "historic")}`}>{s.status}</span></div>
+          <div className="flex flex-wrap items-center gap-2"><span className="kicker">{s.era}</span><span className={`chip ${statusClass(s.status === "current" ? "approved" : s.status === "emerging" ? "phase-2" : s.status === "speculative" ? "concept" : "historic")}`}>{s.status}</span>{s.status === "speculative" && <ConfidenceChip id={`${r.id}#${i}`} compact />}</div>
           <h3 className="font-semibold mt-1">{s.title}</h3>
           <p className="text-[15px] leading-relaxed mt-1 max-w-3xl">{s.description}</p>
           {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
         </li>
       ))}
     </ol>
-  );
+    {r.steps.some((s) => s.status === "speculative") && <div className="mt-4"><ConfidenceLegend /></div>}
+  </>);
 }
 
 function cancerTabs(c: Cancer): Tab[] {

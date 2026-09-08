@@ -30,6 +30,21 @@ function patterns(): Pattern[] {
  * Wrap the first occurrence of each glossary term in a paragraph with a hover popover.
  * Pure text in, React nodes out; call once per paragraph. Skips a term when it is the page's own subject.
  */
+/** Serialisable glossary marks for a plain string (used by client tables): first occurrence of each term, non-overlapping. */
+export type TermMark = { s: number; e: number; label: string; tip: string; href: string };
+export function termMarks(text: string, max = 4): TermMark[] {
+  const hits: TermMark[] = [];
+  for (const { re, term } of patterns()) {
+    const m = re.exec(text);
+    if (!m) continue;
+    const s = m.index, e = s + m[0].length;
+    if (hits.some((h) => s < h.e && e > h.s)) continue;
+    hits.push({ s, e, label: term.name, tip: term.tldr, href: term.route });
+    if (hits.length >= max) break;
+  }
+  return hits.sort((a, b) => a.s - b.s);
+}
+
 export function withTermHovers(text: string, opts: { skipId?: string; max?: number } = {}): ReactNode[] {
   const max = opts.max ?? 8;
   const hits: Array<{ start: number; end: number; term: TermRef }> = [];

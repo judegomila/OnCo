@@ -17,7 +17,7 @@ export type BrowserRow = {
   /** Facet values keyed by facet key; arrays for multi-valued facets. */
   facets: Record<string, string[]>;
   /** Extra columns keyed by column key: formatted strings, numbers, or lists of links. */
-  cols: Record<string, string | number | undefined | LinkList>;
+  cols: Record<string, string | number | undefined | LinkList | RichText>;
   /** Optional numeric sort keys for extra columns. */
   sortKeys?: Record<string, number>;
   sub?: string;
@@ -26,6 +26,10 @@ export type BrowserRow = {
 
 /** A list of linked objects; `tip` is the object's one-line explanation, shown on hover. */
 export type LinkList = Array<{ label: string; href: string; tip?: string }>;
+/** Free text with glossary marks: each mark is a span with a one-line explanation and a link to the term page. */
+export type RichText = { text: string; marks: Array<{ s: number; e: number; label: string; tip: string; href: string }> };
+const isRich = (v: unknown): v is RichText => !!v && typeof v === "object" && !Array.isArray(v) && "text" in (v as object);
+const cellText = (v: unknown): string => (Array.isArray(v) ? (v as LinkList).map((l) => l.label).join(", ") : isRich(v) ? v.text : String(v ?? ""));
 export type FacetDef = { key: string; label: string; searchable?: boolean; width?: string; order?: string[] };
 export type ColDef = { key: string; label: string; sortable?: boolean; hide?: string; className?: string; numeric?: boolean; chip?: boolean; tip?: string; /** Tips for chip/string values keyed by value, e.g. { "Phase 3": "..." }. */ valueTips?: Record<string, string> };
 
@@ -61,7 +65,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
 
   const matches = (r: BrowserRow, skip?: string) => {
     const needle = q.trim().toLowerCase();
-    if (needle && !`${r.name} ${r.tldr} ${r.sub ?? ""} ${Object.values(r.facets).flat().join(" ")} ${Object.values(r.cols).map((v) => (Array.isArray(v) ? v.map((l) => l.label).join(" ") : v)).join(" ")}`.toLowerCase().includes(needle)) return false;
+    if (needle && !`${r.name} ${r.tldr} ${r.sub ?? ""} ${Object.values(r.facets).flat().join(" ")} ${Object.values(r.cols).map((v) => cellText(v)).join(" ")}`.toLowerCase().includes(needle)) return false;
     for (const f of allFacets) {
       if (f.key === skip) continue;
       const want = sel[f.key]; if (!want || !want.length) continue;
@@ -78,7 +82,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
       if (sort.key === "name") d = a.name.localeCompare(b.name);
       else if (sort.key === "status") d = statusIdx(a.status) - statusIdx(b.status);
       else if (a.sortKeys && b.sortKeys && sort.key in a.sortKeys) d = (a.sortKeys[sort.key] ?? 0) - (b.sortKeys[sort.key] ?? 0);
-      else { const sv = (v: unknown) => (Array.isArray(v) ? (v as LinkList).map((l) => l.label).join(", ") : String(v ?? "")); d = sv(a.cols[sort.key]).localeCompare(sv(b.cols[sort.key])); }
+      else d = cellText(a.cols[sort.key]).localeCompare(cellText(b.cols[sort.key]));
       return sort.dir * d || a.name.localeCompare(b.name);
     });
     return list;
@@ -118,6 +122,12 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
       render: (r) => {
         const v = r.cols[c.key];
         if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted">—</span>;
+        if (isRich(v)) {
+          const parts: React.ReactNode[] = []; let pos = 0;
+          v.marks.forEach((m, i) => { if (m.s > pos) parts.push(v.text.slice(pos, m.s)); parts.push(<Tip key={i} title={m.label} text={m.tip} href={m.href} linkLabel="Glossary page →"><Link href={m.href} className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] hover:text-foreground">{v.text.slice(m.s, m.e)}</Link></Tip>); pos = m.e; });
+          if (pos < v.text.length) parts.push(v.text.slice(pos));
+          return <span className="text-muted">{parts}</span>;
+        }
         if (Array.isArray(v)) return <span className="text-muted">{v.map((l, i) => <span key={l.href}>{i > 0 && ", "}{l.tip ? <Tip title={l.label} text={l.tip} href={l.href}><Link href={l.href} className="hover:underline hover:text-foreground underline decoration-dotted decoration-foreground/25 underline-offset-[3px]">{l.label}</Link></Tip> : <Link href={l.href} className="hover:underline hover:text-foreground">{l.label}</Link>}</span>)}</span>;
         const vt = c.valueTips?.[String(v)];
         const cell = c.chip ? <span className="chip bg-foreground/5">{v}</span> : <span className={`text-muted ${c.numeric ? "tabular-nums" : ""}`}>{v}</span>;

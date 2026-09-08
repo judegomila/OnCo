@@ -12,6 +12,7 @@ import { FrontSchematic } from "@/components/FrontSchematic";
 import { BottleneckMap } from "@/components/BottleneckMap";
 import { CancerIcon } from "@/components/CancerIcon";
 import { FrontIcon } from "@/components/FrontIcon";
+import { termMarks } from "@/lib/term-hover";
 import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
 
@@ -176,7 +177,11 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
   if (!k) notFound();
   const meta = KIND_META[k];
   const title = k === "section" ? "Fronts of the war on cancer" : k === "term" ? "Glossary" : k === "bottleneck" ? "Bottlenecks of the war on cancer" : k === "drug" ? "Products" : cap(meta.plural);
-  const { rows, facets, columns, hideStatus, hideTldr, defaultSort } = buildBrowser(k);
+  const built = buildBrowser(k);
+  // Glossary tooltips inside free-text cells: any non-chip, non-numeric string column gets its technical terms marked.
+  const richKeys = new Set(built.columns.filter((c) => !c.chip && !c.numeric).map((c) => c.key));
+  const rows = built.rows.map((r) => { const cols = { ...r.cols }; for (const key of richKeys) { const v = cols[key]; if (typeof v === "string" && v.length > 3) { const marks = termMarks(v); if (marks.length) cols[key] = { text: v, marks }; } } return { ...r, cols }; });
+  const { facets, columns, hideStatus, hideTldr, defaultSort } = built;
 
   const right = k === "cancer" ? <Link href="/for-me/" className="rounded-lg bg-accent text-white px-4 py-2 text-sm font-medium">Pick mine →</Link>
     : k === "drug" ? <Link href="/explore/?kind=drug" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Rank by cancer type →</Link>

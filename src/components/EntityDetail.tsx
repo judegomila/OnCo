@@ -40,6 +40,7 @@ import { RegulatoryTimeline } from "./RegulatoryTimeline";
 import { MechanismCard } from "./MechanismCard";
 import { TldrText } from "./TldrText";
 import { FrontSchematic } from "./FrontSchematic";
+import { TermSchematic } from "./TermSchematic";
 import { LayerAware } from "./LayerAware";
 import { withTermHovers } from "@/lib/term-hover";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
@@ -246,7 +247,7 @@ function kindTabs(e: Entity): Tab[] {
         { id: "interventions", label: "How drugs attack it", count: e.interventions.length, content: <Bullets items={e.interventions} /> },
       ];
     case "term":
-      return [overview(<div className="mt-6"><Field label="Category">{e.category}</Field></div>)];
+      return [overview(<><div className="mt-8"><TermSchematic category={e.category} /></div><div className="mt-6"><Field label="Category">{e.category}</Field></div></>)];
     case "trial":
       return [
         overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">

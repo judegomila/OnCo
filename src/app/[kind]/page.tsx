@@ -9,6 +9,7 @@ import { WorldMap } from "@/components/WorldMap";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef } from "@/components/EntityBrowser";
 import structureIndex from "../../../public/structures/index.json";
 import { FrontSchematic } from "@/components/FrontSchematic";
+import { TermSchematic } from "@/components/TermSchematic";
 
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route, k])) as Record<string, Kind>;
 
@@ -162,12 +163,33 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
       <Container className="pb-16">
         {k === "institution" && <InstitutionsMap />}
         {k === "section" && <FrontsGrid />}
+        {k === "term" && <TermCategoryGrid />}
         <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
         {k === "institution" && (
           <p className="text-xs text-muted mt-3 max-w-3xl">Score = Newsweek points (60 − Newsweek/Statista 2026 Oncology rank, 0 if unranked) + NCI designation points (Comprehensive 15, Clinical or Basic 8) + 2 × distinct OnCo objects linked to the institution. The last term measures presence in this evidence base and grows with the corpus. A starting point for argument, not a verdict.</p>
         )}
       </Container>
     </>
+  );
+}
+
+function TermCategoryGrid() {
+  const g = graph();
+  const counts = new Map<string, number>();
+  for (const t of g.kind("term")) counts.set(t.category, (counts.get(t.category) ?? 0) + 1);
+  const cats = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  return (
+    <div className="mb-8">
+      <p className="text-sm text-muted mb-3">Each kind of term, as a short animation. Every term page opens with the animation for its category.</p>
+      <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6">
+        {cats.map(([cat, n]) => (
+          <div key={cat} className="card overflow-hidden">
+            <TermSchematic category={cat} compact height="h-28" />
+            <div className="px-3 py-2 text-sm flex items-baseline justify-between"><span className="font-medium">{cat}</span><span className="text-xs text-muted tabular-nums">{n}</span></div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
 

@@ -15,7 +15,9 @@
     "mcp": "tsx mcp/server.ts",
     "fetch:openalex": "tsx scripts/fetch-openalex.ts",
     "fetch:trials": "tsx scripts/fetch-trials.ts",
-    "validate:additions": "tsx scripts/validate-additions.ts"
+    "validate:additions": "tsx scripts/validate-additions.ts",
+    "bench": "tsx scripts/benchmark-run.ts",
+    "bench:score": "tsx scripts/benchmark-score.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

@@ -2,71 +2,103 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
-import { KIND_META } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
+import { FacetSelect } from "./filters/FacetSelect";
 
-export type CompareItem = {
-  id: string; kind: "drug" | "technology"; name: string; route: string; status?: string; tldr: string;
-  fields: Array<[string, string]>;
+export type CompareKind = "drug" | "technology" | "target" | "trial" | "cancer";
+export type CompareItem = { id: string; kind: CompareKind; name: string; route: string; status?: string; tldr: string; fields: Array<[string, string]> };
+
+const KINDS: CompareKind[] = ["drug", "technology", "target", "trial", "cancer"];
+const DEFAULTS: Record<CompareKind, string[]> = {
+  drug: ["sacituzumab-govitecan", "datopotamab-deruxtecan", "sacituzumab-tirumotecan"],
+  technology: ["adc", "bispecific-adc", "radioligand-therapy"],
+  target: ["trop2", "her2", "nectin4"],
+  trial: ["ascent-03", "tropion-breast02"],
+  cancer: ["tnbc", "breast-hr-positive"],
 };
-
-function Select({ label, value, items, onChange }: { label: string; value: string; items: CompareItem[]; onChange: (id: string) => void }) {
-  const listId = `compare-${label}`;
-  const [text, setText] = useState(items.find((i) => i.id === value)?.name ?? "");
-  return (
-    <label className="block text-sm">
-      <span className="kicker block mb-1">{label}</span>
-      <input list={listId} value={text} onChange={(e) => { setText(e.target.value); const hit = items.find((i) => i.name === e.target.value); if (hit) onChange(hit.id); }}
-        className="w-full rounded-lg border border-border bg-card px-3 py-2 outline-none focus:ring-2 focus:ring-accent/40" placeholder="Type a product or technology…" aria-label={label} />
-      <datalist id={listId}>{items.map((i) => <option key={i.id} value={i.name} />)}</datalist>
-    </label>
-  );
-}
+const MAX = 5;
 
 export function CompareView({ items }: { items: CompareItem[] }) {
-  const params = useSearchParams();
   const byId = useMemo(() => new Map(items.map((i) => [i.id, i])), [items]);
-  const [a, setA] = useState(params.get("a") ?? "sacituzumab-govitecan");
-  const [b, setB] = useState(params.get("b") ?? "datopotamab-deruxtecan");
-  useEffect(() => { const p = new URLSearchParams({ a, b }); window.history.replaceState(null, "", `?${p}`); }, [a, b]);
-  const A = byId.get(a), B = byId.get(b);
+  const [ids, setIds] = useState<string[]>(DEFAULTS.drug);
+  const [diffOnly, setDiffOnly] = useState(false);
+
+  // Initial state from ?ids=a,b,c (or legacy ?a=&b=), deferred to avoid a synchronous setState in the effect.
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => {
+      const p = new URLSearchParams(window.location.search);
+      const list = (p.get("ids")?.split(",") ?? [p.get("a"), p.get("b")]).filter((x): x is string => !!x && byId.has(x));
+      if (list.length) setIds(list.slice(0, MAX));
+      if (p.get("diff") === "1") setDiffOnly(true);
+    });
+    return () => cancelAnimationFrame(raf);
+  }, [byId]);
+  useEffect(() => {
+    const p = new URLSearchParams();
+    p.set("ids", ids.join(","));
+    if (diffOnly) p.set("diff", "1");
+    window.history.replaceState(null, "", `?${p}`);
+  }, [ids, diffOnly]);
+
+  const chosen = ids.map((id) => byId.get(id)).filter((x): x is CompareItem => !!x);
+  const kind: CompareKind = chosen[0]?.kind ?? "drug";
+  const pool = useMemo(() => items.filter((i) => i.kind === kind), [items, kind]);
+  const options = useMemo(() => pool.map((i) => ({ value: i.id, label: i.name, className: "" })), [pool]);
+
   const rows = useMemo(() => {
     const keys: string[] = [];
-    for (const it of [A, B]) if (it) for (const [k] of it.fields) if (!keys.includes(k)) keys.push(k);
-    return keys.map((k) => [k, A?.fields.find((f) => f[0] === k)?.[1] ?? "—", B?.fields.find((f) => f[0] === k)?.[1] ?? "—"] as const);
-  }, [A, B]);
+    for (const it of chosen) for (const [k] of it.fields) if (!keys.includes(k)) keys.push(k);
+    return keys.map((k) => {
+      const vals = chosen.map((it) => it.fields.find((f) => f[0] === k)?.[1] ?? "—");
+      const same = vals.every((v) => v === vals[0]);
+      return { k, vals, same };
+    });
+  }, [chosen]);
+  const shown = diffOnly ? rows.filter((r) => !r.same) : rows;
 
-  const head = (it?: CompareItem) => it ? (
-    <div>
-      <div className="flex items-center gap-2 mb-1"><span className={`chip border ${KIND_COLOR[it.kind]}`}>{KIND_META[it.kind].label}</span>{it.status && <span className={`chip ${statusClass(it.status)}`}>{STATUS_LABEL[it.status] ?? it.status}</span>}</div>
-      <Link href={it.route} className="font-semibold text-lg hover:underline">{it.name}</Link>
-      <p className="text-sm text-muted mt-1">{it.tldr}</p>
-    </div>
-  ) : <span className="text-muted">Pick an item</span>;
+  const setSlot = (i: number, v: string | null) => setIds((cur) => { const next = [...cur]; if (v) next[i] = v; else next.splice(i, 1); return next.length ? next : cur; });
+  const switchKind = (k: CompareKind) => { setIds(DEFAULTS[k]); };
 
   return (
     <div>
-      <div className="grid gap-4 sm:grid-cols-2 mb-6">
-        <Select key={`a-${a}`} label="A" value={a} items={items} onChange={setA} />
-        <Select key={`b-${b}`} label="B" value={b} items={items} onChange={setB} />
+      <div className="flex flex-wrap items-center gap-2 mb-4">
+        <FacetSelect label="Kind" options={KINDS.map((k) => ({ value: k, label: KIND_META[k].plural[0].toUpperCase() + KIND_META[k].plural.slice(1) }))} value={kind} onChange={(v) => { if (v) switchKind(v as CompareKind); }} searchable={false} allLabel="Products" width="w-44" />
+        {chosen.map((it, i) => (
+          <FacetSelect key={`${i}-${it.id}`} label={`#${i + 1}`} options={options} value={it.id} onChange={(v) => setSlot(i, v as string | null)} allLabel="Remove" width="w-64" />
+        ))}
+        {ids.length < MAX && (
+          <FacetSelect key={`add-${ids.length}`} label="Add" options={options.filter((o) => !ids.includes(o.value))} value={null} onChange={(v) => { if (v) setIds((c) => [...c, v as string]); }} placeholder="pick another…" width="w-52" />
+        )}
+        <label className="ml-auto flex items-center gap-2 text-sm"><input type="checkbox" checked={diffOnly} onChange={(e) => setDiffOnly(e.target.checked)} /> differences only</label>
       </div>
-      <button onClick={() => { setA(b); setB(a); }} className="text-sm underline text-muted mb-4">Swap</button>
+
       <div className="overflow-x-auto card">
         <table className="onco">
-          <thead><tr><th className="w-40">Field</th><th>{head(A)}</th><th>{head(B)}</th></tr></thead>
+          <thead>
+            <tr>
+              <th className="w-40">Field</th>
+              {chosen.map((it) => (
+                <th key={it.id} className="min-w-[220px] normal-case tracking-normal">
+                  <div className="flex items-center gap-2 mb-1"><span className={`chip border ${KIND_COLOR[it.kind as Kind]}`}>{KIND_META[it.kind].label}</span>{it.status && <span className={`chip ${statusClass(it.status)}`}>{STATUS_LABEL[it.status] ?? it.status}</span>}</div>
+                  <Link href={it.route} className="font-semibold text-base text-foreground hover:underline">{it.name}</Link>
+                  <p className="text-xs text-muted mt-1 font-normal line-clamp-3">{it.tldr}</p>
+                </th>
+              ))}
+            </tr>
+          </thead>
           <tbody>
-            {rows.map(([k, va, vb]) => (
-              <tr key={k}>
-                <td className="font-medium text-muted">{k}</td>
-                <td className={va !== vb && va !== "—" ? "" : "text-muted"}>{va}</td>
-                <td className={va !== vb && vb !== "—" ? "" : "text-muted"}>{vb}</td>
+            {shown.map(({ k, vals, same }) => (
+              <tr key={k} className={same ? "" : "bg-amber-50/40 dark:bg-amber-950/10"}>
+                <td className="font-medium text-muted">{k}{!same && <span className="ml-1 text-amber-600" title="differs">•</span>}</td>
+                {vals.map((v, i) => <td key={i} className={`text-sm ${!same && v !== "—" ? "text-foreground" : "text-foreground/80"}`}>{v}</td>)}
               </tr>
             ))}
+            {shown.length === 0 && <tr><td colSpan={chosen.length + 1} className="text-center text-muted py-8">No differing fields.</td></tr>}
           </tbody>
         </table>
       </div>
-      <p className="text-xs text-muted mt-3">Fields that differ are shown in full colour. Comparison of documented attributes, not clinical equivalence.</p>
+      <p className="text-xs text-muted mt-3">Rows marked • differ between the selected items. Fields come from the OnCo records; empty fields render as —. Add more data to a record on GitHub to fill a gap.</p>
     </div>
   );
 }

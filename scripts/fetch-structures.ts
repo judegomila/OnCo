@@ -17,10 +17,21 @@ mkdirSync(out, { recursive: true });
 type Atom = [number, number, number, string] | [number, number, number, string, string, string];
 type Mol = { atoms: Atom[]; bonds: Array<[number, number, number]>; dim: 2 | 3; source: string; id: string; name: string; chains?: string[]; ligands?: string[] };
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+let last = 0;
+
+/** PubChem allows about 5 requests a second and answers 503 when busy; space requests and retry with backoff. */
 async function get(url: string): Promise<string | null> {
-  const r = await fetch(url, { headers: { "User-Agent": "OnCo/1.0 (github.com/judegomila/OnCo)" } });
-  if (!r.ok) return null;
-  return r.text();
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const wait = 220 - (Date.now() - last);
+    if (wait > 0) await sleep(wait);
+    last = Date.now();
+    const r = await fetch(url, { headers: { "User-Agent": "OnCo/1.0 (github.com/judegomila/OnCo)" } });
+    if (r.ok) return r.text();
+    if (r.status === 404 || r.status === 400) return null;
+    await sleep(500 * 2 ** attempt);
+  }
+  return null;
 }
 
 function parseSdf(sdf: string): Omit<Mol, "source" | "id" | "name" | "dim"> & { dim: 2 | 3 } {

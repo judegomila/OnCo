@@ -106,7 +106,7 @@ export function EntityDetail({ e }: { e: Entity }) {
       <Container className="pb-16">
         <div className="grid gap-10 lg:grid-cols-[1fr_300px]">
           <div className="min-w-0">
-            {tabs.length > 2 ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} /> : <div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>}
+            {tabs.length > 1 ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} /> : <div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>}
           </div>
 
           <aside className="space-y-4 lg:sticky lg:top-28 self-start">
@@ -124,7 +124,7 @@ export function EntityDetail({ e }: { e: Entity }) {
               <div><div className="kicker mb-1">Data</div>
                 <a className="underline" href={`/api/v1/entities/${e.id}.json`}>JSON</a>
                 <span className="text-muted"> · </span>
-                <a className="underline" href={`https://github.com/judegomila/OnCo/blob/main/src/data/${meta.plural === "products" ? "drugs" : meta.plural === "fronts" ? "sections" : meta.plural}.ts`} rel="noopener">Edit on GitHub</a>
+                <a className="underline" href={`https://github.com/judegomila/OnCo/blob/main/src/data/${meta.plural === "products" ? "drugs" : meta.plural === "fronts" ? "sections" : meta.plural}.ts`} rel="noopener" title="Opens the TypeScript data file that holds this record on GitHub. Change it and open a pull request; every edit is reviewed and validated before it goes live.">Edit source on GitHub</a>
                 <span className="text-muted"> · </span>
                 <PrintButton className="underline" />
               </div>

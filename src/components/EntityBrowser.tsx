@@ -15,14 +15,15 @@ export type BrowserRow = {
   id: string; name: string; tldr: string; route: string; status?: string;
   /** Facet values keyed by facet key; arrays for multi-valued facets. */
   facets: Record<string, string[]>;
-  /** Extra columns keyed by column key (already formatted strings or numbers). */
-  cols: Record<string, string | number | undefined>;
+  /** Extra columns keyed by column key: formatted strings, numbers, or lists of links. */
+  cols: Record<string, string | number | undefined | LinkList>;
   /** Optional numeric sort keys for extra columns. */
   sortKeys?: Record<string, number>;
   sub?: string;
   logo?: string;
 };
 
+export type LinkList = Array<{ label: string; href: string }>;
 export type FacetDef = { key: string; label: string; searchable?: boolean; width?: string; order?: string[] };
 export type ColDef = { key: string; label: string; sortable?: boolean; hide?: string; className?: string; numeric?: boolean; chip?: boolean };
 
@@ -40,7 +41,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
 
   const matches = (r: BrowserRow, skip?: string) => {
     const needle = q.trim().toLowerCase();
-    if (needle && !`${r.name} ${r.tldr} ${r.sub ?? ""} ${Object.values(r.facets).flat().join(" ")} ${Object.values(r.cols).join(" ")}`.toLowerCase().includes(needle)) return false;
+    if (needle && !`${r.name} ${r.tldr} ${r.sub ?? ""} ${Object.values(r.facets).flat().join(" ")} ${Object.values(r.cols).map((v) => (Array.isArray(v) ? v.map((l) => l.label).join(" ") : v)).join(" ")}`.toLowerCase().includes(needle)) return false;
     for (const f of allFacets) {
       if (f.key === skip) continue;
       const want = sel[f.key]; if (!want || !want.length) continue;
@@ -57,7 +58,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
       if (sort.key === "name") d = a.name.localeCompare(b.name);
       else if (sort.key === "status") d = statusIdx(a.status) - statusIdx(b.status);
       else if (a.sortKeys && b.sortKeys && sort.key in a.sortKeys) d = (a.sortKeys[sort.key] ?? 0) - (b.sortKeys[sort.key] ?? 0);
-      else d = String(a.cols[sort.key] ?? "").localeCompare(String(b.cols[sort.key] ?? ""));
+      else { const sv = (v: unknown) => (Array.isArray(v) ? (v as LinkList).map((l) => l.label).join(", ") : String(v ?? "")); d = sv(a.cols[sort.key]).localeCompare(sv(b.cols[sort.key])); }
       return sort.dir * d || a.name.localeCompare(b.name);
     });
     return list;
@@ -94,7 +95,12 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
     ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, render: (r: BrowserRow) => r.status ? <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span> : null } as Column<BrowserRow>]),
     ...columns.map((c): Column<BrowserRow> => ({
       key: c.key, label: c.label, sortable: c.sortable, hide: c.hide, className: c.className,
-      render: (r) => { const v = r.cols[c.key]; if (v === undefined || v === "") return <span className="text-muted">—</span>; return c.chip ? <span className="chip bg-foreground/5">{v}</span> : <span className={`text-muted ${c.numeric ? "tabular-nums" : ""}`}>{v}</span>; },
+      render: (r) => {
+        const v = r.cols[c.key];
+        if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted">—</span>;
+        if (Array.isArray(v)) return <span className="text-muted">{v.map((l, i) => <span key={l.href}>{i > 0 && ", "}<Link href={l.href} className="hover:underline hover:text-foreground">{l.label}</Link></span>)}</span>;
+        return c.chip ? <span className="chip bg-foreground/5">{v}</span> : <span className={`text-muted ${c.numeric ? "tabular-nums" : ""}`}>{v}</span>;
+      },
     })),
   ];
 

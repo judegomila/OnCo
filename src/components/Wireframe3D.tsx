@@ -112,10 +112,14 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
         ctx.fillStyle = `rgba(${base}, ${al.toFixed(3)})`;
         ctx.fillText(l.text, p[0] + 15, p[1] - 10.5);
       }
-      // Caption for animated process phases (compact mode: progress bar only).
-      if (caption && compact && mesh.animate) {
-        const t = reduced ? 0.35 : (((time - t0) / 1000) % mesh.animate.duration) / mesh.animate.duration;
-        ctx.fillStyle = `rgba(${accent}, 0.6)`; ctx.fillRect(6, H - 3, (W - 12) * t, 2);
+      // Caption for animated process phases. Compact mode: a small phase label (information, not decoration).
+      if (caption && compact) {
+        ctx.font = "600 10px ui-sans-serif, system-ui, sans-serif";
+        const w = ctx.measureText(caption).width;
+        ctx.fillStyle = dark ? "rgba(15,17,19,0.8)" : "rgba(251,251,250,0.85)";
+        ctx.fillRect(6, H - 20, w + 10, 15);
+        ctx.fillStyle = `rgba(${base}, 0.9)`;
+        ctx.fillText(caption, 11, H - 12.5);
       } else if (caption) {
         ctx.font = "600 12px ui-sans-serif, system-ui, sans-serif";
         const w = ctx.measureText(caption).width;
@@ -124,12 +128,6 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
         ctx.strokeStyle = `rgba(${base}, 0.25)`; ctx.lineWidth = 1; ctx.strokeRect(10.5, H - 29.5, w + 15, 21);
         ctx.fillStyle = `rgba(${base}, 0.95)`;
         ctx.fillText(caption, 18, H - 19);
-        // progress bar
-        if (mesh.animate) {
-          const t = reduced ? 0.35 : (((time - t0) / 1000) % mesh.animate.duration) / mesh.animate.duration;
-          ctx.fillStyle = `rgba(${accent}, 0.7)`; ctx.fillRect(10, H - 6, (W - 20) * t, 2);
-          ctx.fillStyle = `rgba(${base}, 0.12)`; ctx.fillRect(10 + (W - 20) * t, H - 6, (W - 20) * (1 - t), 2);
-        }
       }
     };
 

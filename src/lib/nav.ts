@@ -4,7 +4,7 @@ export type NavGroup = { id: string; label: string; href: string; blurb: string;
 
 export const NAV_GROUPS: NavGroup[] = [
   {
-    id: "find", label: "Find", href: "/find/", blurb: "Start from your question: a cancer, a biomarker, two products to compare, or the whole graph.",
+    id: "find", label: "Start here", href: "/find/", blurb: "Begin from your situation or your question: your cancer, your biomarkers, what to compare, where the cancer is in the body.",
     items: [
       { href: "/explore/", label: "Explore", blurb: "Pick a cancer, switch kind, get a ranked and sortable list." },
       { href: "/for-me/", label: "For me", blurb: "Choose your cancer type(s) and see what works and what could work." },
@@ -19,7 +19,7 @@ export const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
-    id: "map", label: "Map", href: "/map/", blurb: "The corpus by kind. Every page is one object with a plain-English TL;DR and everything connected to it.",
+    id: "map", label: "Cancers & treatments", href: "/map/", blurb: "Every cancer, every way to detect and treat it, every drug, target, trial, and term. One page each, in plain English first.",
     items: [
       { href: "/cancers/", label: "Cancers", blurb: "State of the art, standard of care, history, pipeline." },
       { href: "/fronts/", label: "Fronts", blurb: "The fronts of the war: imaging to cell therapy." },
@@ -37,7 +37,7 @@ export const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
-    id: "intel", label: "Intelligence", href: "/intel/", blurb: "What is happening and what is coming: dates, congress readouts, failures, resistance, and the supply chain behind the drugs.",
+    id: "intel", label: "News & evidence", href: "/intel/", blurb: "What is happening and how strong the evidence is: dates, congress readouts, approvals, failures, resistance, and the supply chain behind the drugs.",
     items: [
       { href: "/evidence/", label: "Evidence", blurb: "Every trial ranked by evidence strength, endpoints as people out of 100." },
       { href: "/calendar/", label: "Readout calendar", blurb: "Decisions, readouts, advisory committees, congresses." },
@@ -55,7 +55,7 @@ export const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
-    id: "who", label: "Who", href: "/institutions/", blurb: "The institutions, universities, companies, and funders that matter, mapped and ranked with disclosed formulas.",
+    id: "who", label: "Institutions & people", href: "/institutions/", blurb: "The hospitals, universities, doctors, scientists, companies, countries, and funders behind the field, mapped and ranked with disclosed formulas.",
     items: [
       { href: "/institutions/", label: "Institutions", blurb: "Global map and ranking of cancer centres and institutes." },
       { href: "/universities/", label: "Universities", blurb: "Research output from OpenAlex, Nature Index, SCImago." },

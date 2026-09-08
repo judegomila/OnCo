@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="sticky top-0 z-40 border-b border-border bg-background/85 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-4">
             <Link href="/" className="flex items-center gap-2 font-semibold tracking-tight">
-              <span className="inline-block h-6 w-6 rounded-md bg-accent" aria-hidden />
+              <svg viewBox="0 0 64 64" width="24" height="24" aria-hidden className="shrink-0"><rect width="64" height="64" rx="14" fill="#b91c1c"/><circle cx="32" cy="32" r="15" fill="none" stroke="#fff" strokeWidth="5"/><circle cx="32" cy="12" r="4" fill="#fff"/><circle cx="50" cy="42" r="4" fill="#fff"/><circle cx="14" cy="42" r="4" fill="#fff"/></svg>
               <span>OnCo</span>
               <span className="hidden sm:inline text-muted font-normal text-sm">the open map of oncology</span>
             </Link>

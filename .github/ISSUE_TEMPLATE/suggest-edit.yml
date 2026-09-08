@@ -1,0 +1,68 @@
+name: Suggest an edit
+description: Propose a correction or addition to an OnCo record, with a source.
+title: "edit: <entity id> · <field>"
+labels: ["suggested-edit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. Two rules: **cite it** (a URL to a label, publication, registry, or official announcement) and **say who you are** so we can verify. Organisations may update their own records; declare that relationship under conflicts of interest.
+  - type: input
+    id: entity
+    attributes:
+      label: Entity
+      description: The id and kind of the record (shown in the form on the page), e.g. `sacituzumab-govitecan (drug)`.
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: Which field changes (summary, tldr, approvals, status, website, …) or "other".
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed value
+      description: The exact text or value you propose.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Where the fact can be checked.
+    validations:
+      required: true
+  - type: input
+    id: why
+    attributes:
+      label: Why
+      description: One line on what is wrong or missing.
+  - type: input
+    id: contributor
+    attributes:
+      label: You
+      description: Name, role, organisation.
+    validations:
+      required: true
+  - type: input
+    id: verification
+    attributes:
+      label: Verification
+      description: Official email domain or a profile URL (ORCID, institutional page, LinkedIn, company site) we can use to confirm identity.
+  - type: input
+    id: coi
+    attributes:
+      label: Conflicts of interest
+      description: Employment, consulting, equity, or grants related to this record; or "none".
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Licence
+      options:
+        - label: I agree that my contribution is published under CC BY 4.0 (data) and MIT (code).
+          required: true

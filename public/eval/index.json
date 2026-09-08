@@ -1,0 +1,16 @@
+[
+ {
+  "file": "onco-2026-09-08.json",
+  "system": "OnCo (search-retrieval proxy, top 8 entities)",
+  "date": "2026-09-08",
+  "questions": 100,
+  "meanScore": 0.841,
+  "meanRetrievalRecall": 0.446,
+  "byCategory": {
+   "factual": 0.859,
+   "reasoning": 0.854,
+   "procedural": 0.621
+  },
+  "method": "For each question: MiniSearch retrieval over the site index; rubric coverage of tldr+summary of the top entities. 1 point per rubric item met, normalised to 0-1."
+ }
+]

@@ -8,6 +8,7 @@ import { graph } from "../src/lib/graph";
 import { KIND_META, KINDS, routeFor } from "../src/lib/schema";
 import { searchDocs } from "../src/lib/search-index";
 import { rankInstitutions } from "../src/lib/ranking";
+import { benchmark } from "../src/data/benchmark";
 
 const out = join(process.cwd(), "public", "api", "v1");
 rmSync(out, { recursive: true, force: true });
@@ -31,6 +32,7 @@ for (const e of g.entities) {
   write(`entities/${e.id}.json`, { entity: e, route: routeFor(e), neighbours });
 }
 write("ranking.json", rankInstitutions().map((r) => ({ rank: r.rank, id: r.institution.id, name: r.institution.name, city: r.institution.city, country: r.institution.country, newsweekOncology2026: r.institution.newsweekOncology2026 ?? null, nci: r.institution.nci ?? null, links: r.links, newsweekPoints: r.newsweekPoints, nciPoints: r.nciPoints, linkPoints: r.linkPoints, score: r.score })));
+write("benchmark.json", benchmark);
 write("meta.json", { built: new Date().toISOString(), schema: 1, counts: Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])), total: g.entities.length, license: "CC BY 4.0", source: "https://github.com/judegomila/OnCo" });
 
 console.log(`api: wrote ${g.entities.length} entities to public/api/v1`);

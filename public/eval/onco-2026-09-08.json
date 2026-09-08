@@ -1,0 +1,1521 @@
+{
+ "summary": {
+  "system": "OnCo (search-retrieval proxy, top 8 entities)",
+  "date": "2026-09-08",
+  "questions": 100,
+  "meanScore": 0.841,
+  "meanRetrievalRecall": 0.446,
+  "byCategory": {
+   "factual": 0.859,
+   "reasoning": 0.854,
+   "procedural": 0.621
+  },
+  "method": "For each question: MiniSearch retrieval over the site index; rubric coverage of tldr+summary of the top entities. 1 point per rubric item met, normalised to 0-1."
+ },
+ "results": [
+  {
+   "id": "tnbc-01",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "datopotamab-deruxtecan",
+    "tropion-breast02"
+   ],
+   "retrievalRecall": 0.4,
+   "answer": "tnbc, breast-hr-positive, tnbc-history, tropion-breast02, idea-dual-payload-first, trop2-adc-roadmap, izabright-breast01, datopotamab-deruxtecan"
+  },
+  {
+   "id": "tnbc-02",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "tnbc"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "tnbc, breast-hr-positive, tils, gbg, artera-ai-breast, iniparib, tropion-breast02, izabright-breast01"
+  },
+  {
+   "id": "tnbc-03",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 5,
+   "total": 5,
+   "missed": [],
+   "retrievedEntities": [
+    "tnbc"
+   ],
+   "retrievalRecall": 0.2,
+   "answer": "tnbc, breast-hr-positive, standard-of-care, tropion-breast02, aacr, gbg, rcb, tropion-breast03"
+  },
+  {
+   "id": "tnbc-04",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "keynote-522"
+   ],
+   "retrievalRecall": 1,
+   "answer": "keynote-522, idea-post-neoadjuvant-adc, os, keynote-671, ev-302, tropion-breast01, polo, keynote-024-189"
+  },
+  {
+   "id": "tnbc-05",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "pcr",
+    "tnbc"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "pcr, ddr, alliance-oncology, tnbc, idea-ctdna-escalation-tnbc, egfr-exon20-insertion, curesponse, radiology-ai-screening"
+  },
+  {
+   "id": "tnbc-06",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "tropion-breast02"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "tropion-breast02, tnbc-history, tnbc, idea-dual-payload-first, idea-exercise-as-adjuvant, breast-hr-positive, izabright-breast01, first-line"
+  },
+  {
+   "id": "tnbc-07",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 5,
+   "total": 5,
+   "missed": [],
+   "retrievedEntities": [
+    "bispecific-adc"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "adc-generations, tnbc-history, idea-dual-payload-first, topoisomerase-inhibitors, bispecific-adc, idea-exercise-as-adjuvant, nature-index, intismeran-autogene"
+  },
+  {
+   "id": "tnbc-08",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "trastuzumab-deruxtecan",
+    "her2-low"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "her2-low, trastuzumab-deruxtecan, breast-her2-positive, breast-hr-positive, her2, idea-ai-her2-low-scoring, trastuzumab, her2-low-to-tdxd"
+  },
+  {
+   "id": "tnbc-09",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "adc-after-adc-caution",
+    "adc-sequencing",
+    "idea-payload-switching"
+   ],
+   "retrievalRecall": 1,
+   "answer": "adc-after-adc-caution, idea-payload-switching, adc-sequencing, idea-alpha-after-adc, idea-shared-kras-vaccine-adjuvant, adc-payload-neutralizer, idea-dual-payload-first, first-line"
+  },
+  {
+   "id": "tnbc-10",
+   "category": "procedural",
+   "difficulty": 2,
+   "score": 0.8,
+   "met": 4,
+   "total": 5,
+   "missed": [
+    "fertility"
+   ],
+   "retrievedEntities": [
+    "tnbc"
+   ],
+   "retrievalRecall": 0.16666666666666666,
+   "answer": "tnbc, breast-hr-positive, tropion-breast03, idea-neoadjuvant-io-glioblastoma, gbg, artera-ai-breast, tropion-breast02, pembrolizumab"
+  },
+  {
+   "id": "tnbc-11",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "ascent"
+   ],
+   "retrievedEntities": [
+    "trop2",
+    "trop2-pet"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "tki-then-adc-lung, trop2-pet-to-adc, adc-after-adc-caution, trop2, trop2-pet, ai-pathology-to-adt, idea-multimodal-foundation-model, oncokb"
+  },
+  {
+   "id": "breast-12",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "vepdegestrant"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "idea-dual-payload-first, first-line, head-and-neck, vepdegestrant, ttd, theranostics, the-christie, idea-mced-plus-fapi"
+  },
+  {
+   "id": "breast-13",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "abemaciclib",
+    "monarche"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "breast-hr-positive, cdk46-inhibitor, cdk4-6, breast-her2-positive, abemaciclib, artera-ai-breast, monarche, cdk46-plus-endocrine"
+  },
+  {
+   "id": "breast-14",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "oncotype-dx",
+    "breast-hr-positive"
+   ],
+   "retrievalRecall": 1,
+   "answer": "artera-ai-breast, breast-hr-positive, oncotype-dx, breast-her2-positive, early-detection-roadmap, idea-exercise-as-adjuvant, abiraterone, idea-psma-pet-guided-mdt"
+  },
+  {
+   "id": "breast-15",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "trastuzumab-deruxtecan",
+    "breast-her2-positive"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "breast-her2-positive, breast-hr-positive, artera-ai-breast, trastuzumab-deruxtecan, tnbc, tropion-breast01, her2-low-to-tdxd, tils"
+  },
+  {
+   "id": "lung-16",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 5,
+   "total": 5,
+   "missed": [],
+   "retrievedEntities": [
+    "nsclc"
+   ],
+   "retrievalRecall": 0.2,
+   "answer": "nsclc, sclc, diagnostics, allogeneic-cell-therapy, idea-alpha-first-mhspc, kinase-inhibitors, head-and-neck, cancer-commons"
+  },
+  {
+   "id": "lung-17",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "adaura",
+    "three years",
+    "0.49"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "egfr-exon20-insertion, standard-of-care, ctdna-mrd-to-adjuvant, first-line, egfr-exon19-l858r, egfr, idea-shared-kras-vaccine-adjuvant, sclc"
+  },
+  {
+   "id": "lung-18",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "mariposa"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "amivantamab-plus-lazertinib, osimertinib, mariposa, lazertinib, egfr, egfr-exon20-insertion, egfr-exon19-l858r, idea-dual-payload-first"
+  },
+  {
+   "id": "lung-19",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "tarlatamab",
+    "dellphi-304"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "cell-therapy-roadmap, idea-in-vivo-car-solid, tarlatamab, t-cell-engager, dellphi-304, allogeneic-cell-therapy, tcr-t, idea-dual-payload-first"
+  },
+  {
+   "id": "lung-20",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "feedback"
+   ],
+   "retrievedEntities": [
+    "kras-plus-egfr-crc"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "kras-plus-egfr-crc, kras-inhibitors, egfr-exon20-insertion, topoisomerase-inhibitors, egfr, iniparib, icr-london, amivantamab-plus-lazertinib"
+  },
+  {
+   "id": "lung-21",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "ivonescimab"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "ivonescimab, pfs, efs, tki-then-adc-lung, idea-exercise-as-adjuvant, head-and-neck, idea-ras-inhibitor-neoadjuvant-pdac, harmoni-2"
+  },
+  {
+   "id": "lung-22",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "lorlatinib"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "lorlatinib, pfs, efs, targeted-before-io-nsclc, tki-then-adc-lung, idea-exercise-as-adjuvant, crown, idea-fap-theranostics-pancancer"
+  },
+  {
+   "id": "prostate-23",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "theranostics"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "theranostics, idea-fap-theranostics-pancancer, radiopharma, head-and-neck, first-line, the-christie, diagnostics, ttd"
+  },
+  {
+   "id": "prostate-24",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "castration-resistant"
+   ],
+   "retrievedEntities": [
+    "vision"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "vision, ai-trial-matching, eortc-26981, therap, checkmate-816, theranostics, tropion-breast01, the-christie"
+  },
+  {
+   "id": "prostate-25",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "beta-then-alpha",
+    "ac225-psma"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "idea-alpha-first-mhspc, ac225-psma, beta-then-alpha, alphabreak, psma-pet, idea-alpha-after-adc, psma, idea-psma-pet-guided-mdt"
+  },
+  {
+   "id": "prostate-26",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "artera-ai-prostate",
+    "digital-pathology-ai"
+   ],
+   "retrievalRecall": 1,
+   "answer": "artera-ai-prostate, digital-pathology-ai, radiology-ai-screening, artera, paige, first-line, ai-pathology-to-adt, nature-index"
+  },
+  {
+   "id": "bladder-27",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "urothelial"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "first-line, idea-dual-payload-first, head-and-neck, urothelial, platinum, idea-fap-theranostics-pancancer, idea-mced-plus-fapi, tnbc-history"
+  },
+  {
+   "id": "bladder-28",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "atezolizumab"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "early-detection-roadmap, idea-fap-theranostics-pancancer, first-line, idea-mced-plus-fapi, fda-approvals, atezolizumab, idea-payload-switching, idea-mced-new-onset-diabetes"
+  },
+  {
+   "id": "gi-29",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "kras",
+    "kras-roadmap"
+   ],
+   "retrievalRecall": 0.4,
+   "answer": "kras-roadmap, gene-fusion, kras, tnbc, nature-index, adc-generations, head-and-neck, early-detection-roadmap"
+  },
+  {
+   "id": "gi-30",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "daraxonrasib"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "daraxonrasib, itm, ddr, head-and-neck, diagnostics, mr-linac, egfr-exon20-insertion, standard-of-care"
+  },
+  {
+   "id": "gi-31",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "dostarlimab"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "dostarlimab, mskcc, the-christie, nci-cancer-centers, idea-fap-theranostics-pancancer, shared-antigen-vaccine, icr-london, mount-sinai"
+  },
+  {
+   "id": "gi-32",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "dynamic"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "idea-mced-new-onset-diabetes, idea-shared-kras-vaccine-adjuvant, early-detection-roadmap, dynamic, ctdna-mrd-to-adjuvant, cytotoxic-chemotherapy, germline-to-parp, atezolizumab"
+  },
+  {
+   "id": "gi-33",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "pancreatic"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "idea-ras-inhibitor-neoadjuvant-pdac, tnbc-history, idea-dual-payload-first, urothelial, adc-generations, pancreatic, pancreatic-surveillance, panova-3"
+  },
+  {
+   "id": "gi-34",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "gastric"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "glioma-car-t, idea-in-vivo-car-solid, in-vivo-car-t, gastric, nature-index, cell-therapy-roadmap, trop2-adc-roadmap, head-and-neck"
+  },
+  {
+   "id": "gi-35",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "cold",
+    "stroma",
+    "neoantigen"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "idea-neoadjuvant-io-glioblastoma, tnbc-history, idea-ras-inhibitor-neoadjuvant-pdac, blood-brain-barrier, immunotherapy-roadmap, pancreatic-surveillance, idea-mced-new-onset-diabetes, idea-shared-kras-vaccine-adjuvant"
+  },
+  {
+   "id": "io-36",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "checkmate-067",
+    "nivolumab"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "nivolumab, melanoma, checkmate-067, standard-of-care, first-line, tki-then-adc-lung, relatlimab-nivolumab, g12d-plus-pan-ras"
+  },
+  {
+   "id": "io-37",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "intismeran-autogene",
+    "neoantigen-mrna-vaccine"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "intismeran-autogene, idea-exercise-as-adjuvant, idea-dual-payload-first, panova-3, vaccine-plus-pd1, neoantigen-mrna-vaccine, idea-shared-kras-vaccine-adjuvant, shared-antigen-vaccine"
+  },
+  {
+   "id": "io-38",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.8,
+   "met": 4,
+   "total": 5,
+   "missed": [
+    "sequenc"
+   ],
+   "retrievedEntities": [
+    "neoantigen-mrna-vaccine",
+    "intismeran-autogene"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "neoantigen-mrna-vaccine, idea-shared-kras-vaccine-adjuvant, shared-antigen-vaccine, intismeran-autogene, penn-abramson, aacr, vaccine-plus-pd1, autogene-cevumeran"
+  },
+  {
+   "id": "io-39",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "til-therapy"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "til-therapy, first-line, io-then-til, idea-alpha-first-mhspc, head-and-neck, cell-therapy, idea-dual-payload-first, cell-therapy-roadmap"
+  },
+  {
+   "id": "io-40",
+   "category": "procedural",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "steroid"
+   ],
+   "retrievedEntities": [
+    "checkpoint-inhibitor"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "checkpoint-inhibitor, pd1-checkpoint, standard-of-care, androgen-deprivation, immunotherapy-roadmap, icr-london, idea-ai-her2-low-scoring, adc-plus-io"
+  },
+  {
+   "id": "io-41",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "tigit",
+    "tigit-plus-pd1-caution"
+   ],
+   "retrievalRecall": 1,
+   "answer": "tigit, tigit-plus-pd1-caution, monoclonal-antibody, trop2-adc-roadmap, patient-data-vault, cd47, early-detection, celldex"
+  },
+  {
+   "id": "io-42",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "cold-vs-hot"
+   ],
+   "retrievalRecall": 1,
+   "answer": "cold-vs-hot, tils, tmb, cold-spring-harbor, idea-in-vivo-car-solid, desmoplasia, tps, ttfields"
+  },
+  {
+   "id": "heme-43",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "car-t"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "car-t, idea-in-vivo-car-solid, head-and-neck, glioma-car-t, car-nk-macrophage, tumour-agnostic, tnbc, tcr-t"
+  },
+  {
+   "id": "heme-44",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "2011",
+    "2000"
+   ],
+   "retrievedEntities": [
+    "adc-generations"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "adc-plus-io, idea-dual-payload-first, tnbc-history, checkpoint-inhibitor, the-christie, topoisomerase-inhibitors, idea-alpha-first-mhspc, adc-generations"
+  },
+  {
+   "id": "heme-45",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "menin"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "menin, first-line, head-and-neck, iarc, idea-alpha-first-mhspc, aacr, idea-neoadjuvant-io-glioblastoma, itm"
+  },
+  {
+   "id": "heme-46",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "axicabtagene-ciloleucel",
+    "dlbcl"
+   ],
+   "retrievalRecall": 1,
+   "answer": "dlbcl, cell-therapy-roadmap, car-t, in-vivo-car-t, hodgkin-lymphoma, idea-in-vivo-car-solid, tcr-t, axicabtagene-ciloleucel"
+  },
+  {
+   "id": "heme-47",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "bcl-2",
+    "apoptosis"
+   ],
+   "retrievedEntities": [
+    "venetoclax"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "cll, venetoclax, radiology-ai-screening, idea-dual-payload-first, cell-therapy-roadmap, egfr-exon20-insertion, pd1-plus-chemo-pdl1-low, in-vivo-car-t"
+  },
+  {
+   "id": "img-48",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "x-ray"
+   ],
+   "retrievedEntities": [
+    "pet-ct"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "pet-ct, fapi-pet, psma-pet, trop2-pet-to-adc, idea-psma-pet-guided-mdt, idea-trop2-pet-selection, trop2-pet, idea-fap-theranostics-pancancer"
+  },
+  {
+   "id": "img-49",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "fapi-pet",
+    "fap"
+   ],
+   "retrievalRecall": 1,
+   "answer": "fapi-pet, molecular-imaging-roadmap, idea-mced-plus-fapi, fdg-pet, trop2-pet, psma-pet, fap, immuno-pet"
+  },
+  {
+   "id": "img-50",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "galleri",
+    "nhs-galleri"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "galleri, idea-mced-plus-fapi, fda-approvals, idea-neoadjuvant-io-glioblastoma, nhs-galleri, ild-overlap-caution, the-christie, therap"
+  },
+  {
+   "id": "img-51",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "ppv"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "ppv, early-detection-roadmap, aacr, low-dose-ct-screening, radiology-ai-screening, idea-mced-plus-fapi, breast-hr-positive, head-and-neck"
+  },
+  {
+   "id": "img-52",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "residual",
+    "screen"
+   ],
+   "retrievedEntities": [
+    "liquid-biopsy"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "liquid-biopsy, idea-exercise-as-adjuvant, aacr, idea-in-vivo-car-solid, idea-fap-theranostics-pancancer, radiology-ai-screening, stanford, abiraterone"
+  },
+  {
+   "id": "img-53",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "trop2-pet",
+    "idea-trop2-pet-selection",
+    "trop2-pet-to-adc"
+   ],
+   "retrievalRecall": 1,
+   "answer": "idea-trop2-pet-selection, trop2-pet, trop2-pet-to-adc, trop2-adc-roadmap, cold-vs-hot, trop2, psma-pet-to-rlt, pet-ct"
+  },
+  {
+   "id": "tech-54",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "adc"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "adcs, degrader-antibody-conjugate, adc, peptide-drug-conjugate, standard-of-care, idea-ai-her2-low-scoring, immune-stimulating-adc, icr-london"
+  },
+  {
+   "id": "tech-55",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "bystander-effect"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "bystander-effect, adcs, idea-dual-payload-first, platinum-plus-hrd, abscopal-effect, adc-generations, idea-in-vivo-car-solid, destiny-breast03"
+  },
+  {
+   "id": "tech-56",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "dar"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "dar, adcs, adc, peptide-drug-conjugate, radioimmunotherapy, hazard-ratio, resistance, emt"
+  },
+  {
+   "id": "tech-57",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "synthetic-lethality"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "synthetic-lethality, synthetic-lethality-approaches, head-and-neck, first-line, ai-trial-matching, theranostics, icr-london, parp"
+  },
+  {
+   "id": "tech-58",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "degrad",
+    "e3",
+    "proteasome"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "abiraterone, adc-generations, tnbc-history, idea-fap-theranostics-pancancer, parp-plus-arpi, checkpoint-inhibitor, trop2-adc-roadmap, kras-plus-egfr-crc"
+  },
+  {
+   "id": "tech-59",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "in-vivo-car-t",
+    "car-t"
+   ],
+   "retrievalRecall": 1,
+   "answer": "idea-in-vivo-car-solid, in-vivo-car-t, cell-therapy-roadmap, car-t, glioma-car-t, tcr-t, itm, head-and-neck"
+  },
+  {
+   "id": "tech-60",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "bispecific-adc"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "bispecific-adc, bispecific-antibody, masked-adc, adc, adc-generations, trop2-adc-roadmap, adc-payload-neutralizer, adc-plus-io"
+  },
+  {
+   "id": "tech-61",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "flash-rt"
+   ],
+   "retrievalRecall": 1,
+   "answer": "flash-rt, mr-linac, sbrt, varian, radiation-plus-io, diagnostics, fda-approvals, first-line"
+  },
+  {
+   "id": "tech-62",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "brachytherapy"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "itm, mr-linac, diagnostics, head-and-neck, first-line, isomorphic-labs, int-milan, brachytherapy"
+  },
+  {
+   "id": "tech-63",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "radiopharma-roadmap, terrapower-isotopes, ryz101, ac225-psma, itm, pluvicto, ttd, lutathera"
+  },
+  {
+   "id": "tech-64",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "terrapower-isotopes"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "ac225-psma, terrapower-isotopes, ryz101, radiopharma-roadmap, alpha-vs-beta, alphabreak, aacr, antiangiogenic"
+  },
+  {
+   "id": "tech-65",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "ttfields"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "ttfields, tumour-agnostic, head-and-neck, early-detection-roadmap, idea-neoadjuvant-io-glioblastoma, aacr, diagnostics, novocure"
+  },
+  {
+   "id": "tech-66",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "pathology-foundation-model",
+    "digital-pathology-ai"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "pathology-foundation-model, idea-multimodal-foundation-model, androgen-deprivation, digital-pathology-ai, ai-pathology-to-adt, nature-index, in-vivo-car-t, topoisomerase-inhibitors"
+  },
+  {
+   "id": "path-67",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 5,
+   "total": 5,
+   "missed": [],
+   "retrievedEntities": [
+    "pi3k-akt-mtor",
+    "gedatolisib"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "pi3k-akt-mtor, pik3ca, akt, epigenetic-drugs, idea-in-vivo-car-solid, androgen-deprivation, gedatolisib, idea-exercise-as-adjuvant"
+  },
+  {
+   "id": "path-68",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "braf-plus-mek",
+    "braf",
+    "ras-mapk"
+   ],
+   "retrievalRecall": 1,
+   "answer": "braf-plus-mek, kras-plus-egfr-crc, braf, adc-plus-io, ras-mapk, parp-plus-arpi, checkpoint-inhibitor, amivantamab-plus-lazertinib"
+  },
+  {
+   "id": "path-69",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "cgas-sting"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "cgas-sting, idea-fus-plus-adc-glioma, idea-dual-payload-first, adc-generations, ild-overlap-caution, adc-after-adc-caution, radiation, sting-agonist"
+  },
+  {
+   "id": "path-70",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "oncogene-addiction"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "oncogene-addiction, diagnostics, fda-approvals, first-line, proteomics, terrapower-isotopes, idea-neoadjuvant-io-glioblastoma, isomorphic-labs"
+  },
+  {
+   "id": "who-71",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "memorial sloan kettering",
+    "md anderson",
+    "2026"
+   ],
+   "retrievedEntities": [
+    "newsweek-hospitals"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "alliance-oncology, newsweek-hospitals, nature-index, head-and-neck, idea-dual-payload-first, west-china, cell-therapy-roadmap, cardio-oncology"
+  },
+  {
+   "id": "who-72",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "58",
+    "basic"
+   ],
+   "retrievedEntities": [
+    "nci-cancer-centers",
+    "nci"
+   ],
+   "retrievalRecall": 1,
+   "answer": "nci-cancer-centers, seer, nci, early-detection-roadmap, nki, basket-umbrella-platform, md-anderson, head-and-neck"
+  },
+  {
+   "id": "who-73",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "heidelberg",
+    "dkfz",
+    "haberkorn"
+   ],
+   "retrievedEntities": [
+    "fapi-pet"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "idea-mced-plus-fapi, fapi-pet, penn-abramson, parp-pet, pet, trop2-pet-to-adc, idea-psma-pet-guided-mdt, psma-pet-to-rlt"
+  },
+  {
+   "id": "who-74",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0,
+   "met": 0,
+   "total": 4,
+   "missed": [
+    "gilead",
+    "immunomedics",
+    "21",
+    "2020"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "trop2-adc-roadmap, seer, idea-trop2-pet-selection, her2-low, her2-low-to-tdxd, idea-ai-her2-low-scoring, itm, epigenetic-drugs"
+  },
+  {
+   "id": "who-75",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "sacituzumab-tirumotecan"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "sacituzumab-tirumotecan, sacituzumab-govitecan, west-china, idea-trop2-pet-selection, trop2-adc-roadmap, exercise-oncology, iarc, functional-drug-testing"
+  },
+  {
+   "id": "who-76",
+   "category": "procedural",
+   "difficulty": 1,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "oncokb",
+    "civic",
+    "cbioportal"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "tumour-agnostic, idea-exercise-as-adjuvant, idea-in-vivo-car-solid, topoisomerase-inhibitors, site-specific-conjugation, adcs, adc, bispecific-antibody"
+  },
+  {
+   "id": "who-77",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "cell lines",
+    "broad"
+   ],
+   "retrievedEntities": [
+    "depmap"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "idea-neoadjuvant-io-glioblastoma, depmap, fda-approvals, aacr, isomorphic-labs, first-line, early-detection-roadmap, diagnostics"
+  },
+  {
+   "id": "who-78",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "swog",
+    "hodgkin-lymphoma"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "hodgkin-lymphoma, ecog-acrin, cctg, first-line, idea-dual-payload-first, swog, amivantamab-plus-lazertinib, relatlimab-nivolumab"
+  },
+  {
+   "id": "proc-79",
+   "category": "procedural",
+   "difficulty": 1,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "clinicaltrials.gov",
+    "oncologist"
+   ],
+   "retrievedEntities": [
+    "pancreatic"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "ai-trial-matching, idea-ras-inhibitor-neoadjuvant-pdac, idea-psma-pet-guided-mdt, pancreatic, idea-fap-theranostics-pancancer, idea-exercise-as-adjuvant, abiraterone, idea-alpha-first-mhspc"
+  },
+  {
+   "id": "proc-80",
+   "category": "procedural",
+   "difficulty": 2,
+   "score": 0.8,
+   "met": 4,
+   "total": 5,
+   "missed": [
+    "schedule"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "topoisomerase-inhibitors, idea-payload-switching, masked-adc, adc-plus-io, targeted-before-io-nsclc, idea-neoadjuvant-adc-io, adc-payload-neutralizer, ild-overlap-caution"
+  },
+  {
+   "id": "proc-81",
+   "category": "procedural",
+   "difficulty": 2,
+   "score": 1,
+   "met": 5,
+   "total": 5,
+   "missed": [],
+   "retrievedEntities": [
+    "germline-testing"
+   ],
+   "retrievalRecall": 0.16666666666666666,
+   "answer": "germline-testing, functional-drug-testing, iarc, mrd-testing, cervical, idea-mced-new-onset-diabetes, whole-body-mri, idea-neoadjuvant-io-glioblastoma"
+  },
+  {
+   "id": "proc-82",
+   "category": "procedural",
+   "difficulty": 1,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "refer",
+    "nci",
+    "cancer commons"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "idea-exercise-as-adjuvant, aacr, idea-psma-pet-guided-mdt, abiraterone, idea-fap-theranostics-pancancer, idea-ai-her2-low-scoring, amivantamab, molecular-imaging-roadmap"
+  },
+  {
+   "id": "proc-83",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "exercise-oncology"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "exercise-oncology, real-world-evidence, nrg-oncology, fda-approvals, rcc, asco, cardio-oncology, champions-oncology"
+  },
+  {
+   "id": "proc-84",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "scalp-cooling"
+   ],
+   "retrievalRecall": 1,
+   "answer": "scalp-cooling, idea-dual-payload-first, adc-generations, prevention, chemotherapy, idea-neoadjuvant-adc-io, cytotoxic-chemotherapy, hipec"
+  },
+  {
+   "id": "proc-85",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "safety",
+    "hundreds"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "alphabreak, ai-trial-matching, tigit-plus-pd1-caution, mevpro-1, lag3, panova-3, tiragolumab, therap"
+  },
+  {
+   "id": "proc-86",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "accelerated-approval"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "accelerated-approval, fda-approvals, head-and-neck, ar-v7, tumour-agnostic, idea-multimodal-foundation-model, idea-neoadjuvant-io-glioblastoma, aacr"
+  },
+  {
+   "id": "pipe-87",
+   "category": "factual",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "brentuximab"
+   ],
+   "retrievedEntities": [
+    "adc-generations"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "adc-generations, adc-therapeutics, masked-adc, litt, adcdb, trop2-adc-roadmap, standard-of-care, topoisomerase-inhibitors"
+  },
+  {
+   "id": "pipe-88",
+   "category": "factual",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "trop2-adc-roadmap"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "trop2-adc-roadmap, idea-organoid-guided-adc, trop2-pet, trop2-pet-to-adc, adc-generations, idea-trop2-pet-selection, topoisomerase-inhibitors, trop2"
+  },
+  {
+   "id": "pipe-89",
+   "category": "factual",
+   "difficulty": 3,
+   "score": 0,
+   "met": 0,
+   "total": 4,
+   "missed": [
+    "gedatolisib",
+    "zidesamtinib",
+    "pluvicto",
+    "isatuximab"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "alliance-oncology, inavolisib, icr-london, cardio-oncology, nrg-oncology, insilico-medicine, nature-index, exercise-oncology"
+  },
+  {
+   "id": "pipe-90",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "withdr",
+    "secondary"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "topoisomerase-inhibitors, idea-dual-payload-first, intismeran-autogene, inavolisib, idea-ras-inhibitor-neoadjuvant-pdac, idea-neoadjuvant-io-glioblastoma, tovorafenib, idea-in-vivo-car-solid"
+  },
+  {
+   "id": "pipe-91",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "advisory committee",
+    "galleri",
+    "multi-cancer"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "tscan, tki-then-adc-lung, first-line, fda-approvals, oncokb, oncogene-addiction, g12d-plus-pan-ras, therap"
+  },
+  {
+   "id": "pipe-92",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "degrader",
+    "immune-stimulating",
+    "masked"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "adc-generations, bispecific-antibody, bispecific-adc, ngs, trop2-adc-roadmap, tilatamig-samrotecan, tnbc-history, adc-after-adc-caution"
+  },
+  {
+   "id": "pipe-93",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "biontech",
+    "bms"
+   ],
+   "retrievalRecall": 1,
+   "answer": "trop2-adc-roadmap, site-specific-conjugation, bispecific-antibody, bms, pd1-plus-chemo-pdl1-low, head-and-neck, biontech, pd1-checkpoint"
+  },
+  {
+   "id": "pipe-94",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "immunogenic"
+   ],
+   "retrievedEntities": [
+    "adc-plus-io"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "adc-plus-io, ild-overlap-caution, aacr, adcdb, topoisomerase-inhibitors, adc, checkpoint-inhibitor, adc-payload-neutralizer"
+  },
+  {
+   "id": "pipe-95",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "newsweek-hospitals",
+    "nature-index",
+    "scimago-oncology"
+   ],
+   "retrievalRecall": 1,
+   "answer": "scimago-oncology, newsweek-hospitals, iarc, nature-index, swog, sirio-libanes, scarlet-s2212, sbrt"
+  },
+  {
+   "id": "reason-96",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "breast-hr-positive"
+   ],
+   "retrievalRecall": 0.2,
+   "answer": "breast-hr-positive, breast-her2-positive, idea-ai-her2-low-scoring, her2-low, adc-generations, trop2-adc-roadmap, cdk4-6, cdk46-inhibitor"
+  },
+  {
+   "id": "reason-97",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "emt",
+    "idea-efflux-agnostic",
+    "tnbc"
+   ],
+   "retrievalRecall": 0.75,
+   "answer": "her2-low, emt, tnbc, peptide-drug-conjugate, idea-efflux-agnostic, tnbc-history, standard-of-care, resistance"
+  },
+  {
+   "id": "reason-98",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "depends"
+   ],
+   "retrievedEntities": [
+    "ctdna-mrd-to-adjuvant"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "ctdna-mrd-to-adjuvant, idea-alpha-after-adc, adc-after-adc-caution, idea-shared-kras-vaccine-adjuvant, alectinib, adaura, abemaciclib, idea-post-neoadjuvant-adc"
+  },
+  {
+   "id": "reason-99",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "immunosuppress"
+   ],
+   "retrievedEntities": [
+    "neoantigen-mrna-vaccine"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "idea-shared-kras-vaccine-adjuvant, neoantigen-mrna-vaccine, idea-post-neoadjuvant-adc, fluorescence-guided-surgery, surgery, mrd-testing, idea-alpha-after-adc, idea-alpha-first-mhspc"
+  },
+  {
+   "id": "reason-100",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "prevent"
+   ],
+   "retrievedEntities": [
+    "early-detection-roadmap"
+   ],
+   "retrievalRecall": 0.2,
+   "answer": "idea-exercise-as-adjuvant, molecular-imaging-roadmap, early-detection-roadmap, real-world-evidence, basket-umbrella-platform, h3k27m, single-cell-spatial, tp53"
+  }
+ ]
+}

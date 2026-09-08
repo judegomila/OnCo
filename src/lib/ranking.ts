@@ -6,7 +6,7 @@ import { graph } from "./graph";
  *
  *   newsweekPoints  = max(0, 60 - rank)            Newsweek/Statista 2026 Oncology rank (1 → 59 points, 40 → 20, unranked → 0)
  *   nciPoints       = comprehensive 15 | clinical 8 | basic 8 | none 0
- *   linkPoints      = 2 × (distinct objects in this corpus that link to or from the institution)
+ *   linkPoints      = 2 × (distinct objects in this corpus, excluding people, that link to or from the institution)
  *
  *   score = newsweekPoints + nciPoints + linkPoints
  *
@@ -30,8 +30,9 @@ export function rankInstitutions(): RankedInstitution[] {
     const newsweekPoints = inst.newsweekOncology2026 ? Math.max(0, 60 - inst.newsweekOncology2026) : 0;
     const nciPoints = inst.nci === "comprehensive" ? 15 : inst.nci ? 8 : 0;
     const neighbours = g.neighbours(inst.id);
+    // People are excluded: how many staff we happen to have listed reflects our coverage, not the institution's output.
     let links = 0;
-    for (const list of neighbours.values()) links += list.length;
+    for (const [kind, list] of neighbours) if (kind !== "person") links += list.length;
     const linkPoints = 2 * links;
     return { institution: inst, newsweekPoints, nciPoints, links, linkPoints, score: newsweekPoints + nciPoints + linkPoints, rank: 0 };
   });

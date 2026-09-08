@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { KIND_META, routeFor, type Entity, type Kind } from "@/lib/schema";
-import { Container, KindChip, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, KindChip, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Gaps & bounties", description: "Where OnCo is thin: unsourced objects, weakly linked objects, cancers without pipelines, targets without drugs. Claim one and fix it." };
 
@@ -45,7 +45,7 @@ export default function Gaps() {
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Community</span>} title="Gaps and bounties"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Gaps and bounties"
         lede={`Where the map is thin, computed from the corpus at build time. ${total} open items across seven checks. Claim one by opening a pull request; the check disappears when the fix lands.`} />
       <Container className="pb-16">
         <div className="card p-4 text-sm text-muted max-w-3xl">
@@ -55,7 +55,7 @@ export default function Gaps() {
             <li>Add the source URL, the missing links (ids of related objects), or the missing rows. Keep the TL;DR plain and the summary technical.</li>
             <li>Run <code>npm test</code> and open a PR. Mention the gap name in the title. Contributors are credited in the changelog.</li>
           </ol>
-          <p className="mt-2">Counts by kind: {Object.entries(KIND_META).map(([k, m]) => `${g.kind(k as Kind).length} ${m.plural}`).join(", ")}.</p>
+          <p className="mt-2">Counts by kind: {Object.entries(KIND_META).filter(([k]) => g.kind(k as Kind).length > 0).map(([k, m]) => `${g.kind(k as Kind).length.toLocaleString("en-GB")} ${m.plural}`).join(", ")}.</p>
         </div>
         <Gap title="Cancers with thin pages" intro="Every cancer should have at least three standard-of-care settings, a pipeline, and a history. TNBC is the model." items={thinCancers} />
         <Gap title="Targets with no product" intro="A target with no drug, tracer, or cell therapy linked to it is either a research target (say so in the summary) or a documentation gap." items={targetsNoDrugs} />

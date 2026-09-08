@@ -128,19 +128,23 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
       // Caption for animated process phases. Compact mode: a small phase label (information, not decoration).
       if (caption && compact) {
         ctx.font = "600 10px ui-sans-serif, system-ui, sans-serif";
-        const w = ctx.measureText(caption).width;
+        let text = caption;
+        while (text.length > 4 && ctx.measureText(text).width > W - 22) text = text.slice(0, -2).trimEnd() + "…";
+        const w = ctx.measureText(text).width;
         ctx.fillStyle = dark ? "rgba(15,17,19,0.8)" : "rgba(251,251,250,0.85)";
         ctx.fillRect(6, H - 20, w + 10, 15);
         ctx.fillStyle = `rgba(${base}, 0.9)`;
-        ctx.fillText(caption, 11, H - 12.5);
+        ctx.fillText(text, 11, H - 12.5);
       } else if (caption) {
         ctx.font = "600 12px ui-sans-serif, system-ui, sans-serif";
-        const w = ctx.measureText(caption).width;
+        let text = caption;
+        while (text.length > 4 && ctx.measureText(text).width > W - 36) text = text.slice(0, -2).trimEnd() + "…";
+        const w = ctx.measureText(text).width;
         ctx.fillStyle = dark ? "rgba(15,17,19,0.85)" : "rgba(251,251,250,0.9)";
         ctx.fillRect(10, H - 30, w + 16, 22);
         ctx.strokeStyle = `rgba(${base}, 0.25)`; ctx.lineWidth = 1; ctx.strokeRect(10.5, H - 29.5, w + 15, 21);
         ctx.fillStyle = `rgba(${base}, 0.95)`;
-        ctx.fillText(caption, 18, H - 19);
+        ctx.fillText(text, 18, H - 19);
       }
     };
 

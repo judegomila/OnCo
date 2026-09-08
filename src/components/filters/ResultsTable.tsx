@@ -22,11 +22,13 @@ export type SortState = { key: string; dir: 1 | -1 };
  * The header row sticks below the site header (see `--sticky-top` in globals.css); on small
  * screens the table scrolls sideways inside its card instead.
  */
-export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "Nothing matches. Clear a filter." }: {
+export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "Nothing matches. Clear a filter.", scroll = false }: {
   columns: Column<T>[]; rows: T[]; rowKey: (r: T) => string; sort?: SortState; onSort?: (key: string) => void; empty?: string;
+  /** Keep the table scrolling sideways inside its card at every width (for tables wider than the page). */
+  scroll?: boolean;
 }) {
   return (
-    <div className="card overflow-x-auto lg:overflow-x-visible">
+    <div className={`card overflow-x-auto ${scroll ? "" : "lg:overflow-x-visible"}`}>
       <table className="onco">
         <thead>
           <tr>

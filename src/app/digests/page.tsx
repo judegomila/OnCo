@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { digests } from "@/data/digests";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Conference digests", description: "What changed at each oncology congress, item by item, with sources and links to the affected objects." };
+export const metadata: Metadata = { title: "Congress digests", description: "What changed at each oncology congress, item by item, with sources and links to the affected objects." };
 
 export default function DigestsIndex() {
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Pipeline</span>} title="Conference digests"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Congress digests"
         lede="Each congress, distilled to the findings that changed something in this map, with a source for every item and links to the technologies, products, and trials it touches." />
       <Container className="pb-16">
         <div className="grid gap-3 sm:grid-cols-2">

@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Suggest an edit", description: "How anyone, including the organisations described, can correct or extend an OnCo record." };
 
 export default function SuggestPage() {
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Learn & contribute</span>} title="Suggest an edit" lede="Every record has a form. Propose a change with a source, say who you are, declare any conflict, and it becomes a GitHub issue a maintainer can turn into a merged edit. Organisations can update their own records the same way." />
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Suggest an edit" lede="Every record has a form. Propose a change with a source, say who you are, declare any conflict, and it becomes a GitHub issue a maintainer can turn into a merged edit. Organisations can update their own records the same way." />
       <Container className="pb-16 max-w-3xl prose-onco text-[15px] leading-relaxed space-y-8">
         <section>
           <h2 className="text-xl font-semibold mb-2">Three ways in</h2>

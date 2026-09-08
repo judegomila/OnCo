@@ -92,7 +92,7 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
         noun={`${KIND_META[kind].plural}${cancerName ? ` for ${cancerName.replace(/ \(.*\)$/, "")}` : ""}`}
         left={<>
           <FacetSelect label="Cancer" options={cancerOptions} value={cancer} onChange={(v) => setCancer(v as string | null)} allLabel="All cancers" width="w-72" />
-          <FacetSelect label="Kind" options={kindOptions} value={kind} onChange={(v) => { if (v) setKind(v as Kind); }} searchable={false} allLabel="Products" width="w-44" />
+          <FacetSelect label="Kind" options={kindOptions} value={kind} onChange={(v) => { if (v) setKind(v as Kind); }} searchable={false} allLabel="Products" width="w-44" highlight={false} />
           <FacetSelect label="Phase / status" options={statusOptions} value={status} onChange={(v) => setStatus(v as string[])} multi searchable={false} allLabel="Any" width="w-48" />
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={`Filter ${KIND_META[kind].plural}…`} aria-label="Filter" className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
           {(cancer || status.length || q) ? <button type="button" onClick={() => { setCancer(null); setStatus([]); setQ(""); }} className="text-sm underline text-muted">Clear</button> : null}

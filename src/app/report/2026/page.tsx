@@ -3,7 +3,7 @@ import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { KIND_META, KINDS, routeFor, type Entity } from "@/lib/schema";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
-import { ChipList, Container, PageHeader, Section, StatusChip } from "@/components/ui";
+import { ChipList, Container, GroupKicker, PageHeader, Section, StatusChip } from "@/components/ui";
 
 export const metadata: Metadata = { title: "The state of the war on cancer, 2026", description: "OnCo's annual report, generated from the corpus: approvals, trial results, roadmap progress, and open problems." };
 
@@ -28,7 +28,7 @@ export default function Report2026() {
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Annual report</span>} title="The state of the war on cancer, 2026"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="The state of the war on cancer, 2026"
         lede="Generated from the OnCo corpus: what was approved, what read out, where the roadmaps stand, and what is still unsolved. Every figure below is a count over the objects on this site, so it is auditable and it is incomplete in exactly the ways the corpus is." />
       <Container className="pb-16">
         <div className="prose-onco text-[15px] leading-relaxed max-w-3xl">
@@ -38,7 +38,7 @@ export default function Report2026() {
 
         <Section title="The corpus at a glance">
           <div className="grid gap-3 grid-cols-2 sm:grid-cols-4 lg:grid-cols-7">
-            {KINDS.map((k) => <Link key={k} href={`/${KIND_META[k].route}/`} className="card p-3 hover:shadow-md transition"><div className="text-2xl font-semibold tabular-nums">{g.kind(k).length}</div><div className="text-sm capitalize">{KIND_META[k].plural}</div></Link>)}
+            {KINDS.filter((k) => g.kind(k).length > 0).map((k) => <Link key={k} href={`/${KIND_META[k].route}/`} className="card p-3 hover:shadow-md transition"><div className="text-2xl font-semibold tabular-nums">{g.kind(k).length.toLocaleString("en-GB")}</div><div className="text-sm capitalize">{KIND_META[k].plural}</div></Link>)}
           </div>
           <div className="flex flex-wrap gap-1.5 mt-4">
             {[...statusCounts.entries()].sort((a, b) => b[1] - a[1]).map(([s, n]) => <span key={s} className={`chip ${statusClass(s)}`}>{STATUS_LABEL[s] ?? s} {n}</span>)}

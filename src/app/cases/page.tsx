@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CasesByCountry } from "@/components/CasesByCountry";
 import { DATA_URL, GLOBOCAN, gaps, rowsForCancer } from "@/lib/globocan";
 
@@ -15,7 +15,7 @@ export default function CasesPage() {
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Intelligence</span>} title="Cases by country"
+      <PageHeader kicker={<GroupKicker id="who" />} title="Cases by country"
         lede={`Where cancer is: new cases and deaths for ${countries.length} countries and ${cancers.length} OnCo cancers, from GLOBOCAN ${GLOBOCAN.year}. Choose a cancer to rank countries, or one country to rank its cancers. Where the source does not report a cancer the way OnCo defines it, the page says so instead of guessing.`} />
       <Container className="pb-16">
         <CasesByCountry cancers={cancers} initial={initial} countryList={countries} dataUrl={DATA_URL} gaps={gaps()} meta={{ year: GLOBOCAN.year, fetched: GLOBOCAN.fetched, sourceUrl: GLOBOCAN.sourceUrl }} />

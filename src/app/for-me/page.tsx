@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CancerPicker, type PickerCancer } from "@/components/CancerPicker";
 
-export const metadata: Metadata = { title: "For me — pick your cancer type", description: "Select one or more cancer types and see the technologies, products, trials, pairings, and ideas relevant to you." };
+export const metadata: Metadata = { title: "For me: pick your cancer type", description: "Select one or more cancer types and see the technologies, products, trials, pairings, and ideas relevant to you." };
 
 export default function ForMe() {
   const g = graph();
@@ -18,7 +18,7 @@ export default function ForMe() {
   });
   return (
     <>
-      <PageHeader kicker={<span className="kicker">For me</span>} title="For me: pick your cancer type"
+      <PageHeader kicker={<GroupKicker id="find" />} title="For me: pick your cancer type"
         lede="Choose one or more. You will see the state of the art, what is in the pipeline, and every technology, product, target, trial, pairing, and idea in OnCo that touches those cancers. Failed, withdrawn, and historic items are left out here: this view is about what works and what could work (see the Failure museum for the rest). Nothing you select leaves your browser. This is orientation, not medical advice." />
       <Container className="pb-16">
         <CancerPicker cancers={data} />

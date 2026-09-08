@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { BodyMap, type BodyCancer, type BodyTech } from "@/components/BodyMap";
 import { BODY_REGIONS } from "@/data/body-regions";
 
@@ -23,7 +23,7 @@ export default function BodyPage() {
   }
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Find</span>} title="Body map"
+      <PageHeader kicker={<GroupKicker id="find" />} title="Body map"
         lede="An anatomical way in. Pick where the cancer is to reach its page, or flip the switch to see where each imaging, ablation, radiation, and surgical technology is used. Blood, lymph, skin, bone, and neuroendocrine cancers are system-wide and drawn as side boxes." />
       <Container className="pb-16">
         <BodyMap regions={BODY_REGIONS} cancers={cancers} technologies={technologies} />

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { TimelineScrubber, type TimelineData } from "@/components/TimelineScrubber";
 
 export const metadata: Metadata = { title: "Timeline", description: "Drag a year slider and see approvals, trials, history, and roadmap eras as they stood in any year from 1940 to 2030." };
@@ -27,7 +27,7 @@ export default function TimelinePage() {
   };
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Find</span>} title="Timeline" lede="Scrub through the years. Approvals, landmark trials, cancer history events, and roadmap eras appear as they stood in the chosen year, all derived from dated records in the corpus." />
+      <PageHeader kicker={<GroupKicker id="find" />} title="Timeline" lede="Scrub through the years. Approvals, landmark trials, cancer history events, and roadmap eras appear as they stood in the chosen year, all derived from dated records in the corpus." />
       <Container className="pb-16">
         <TimelineScrubber data={data} />
       </Container>

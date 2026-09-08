@@ -27,7 +27,7 @@ export default async function PathPage({ params }: { params: Promise<{ id: strin
   return (
     <>
       <PageHeader kicker={<><Link href="/paths/" className="kicker hover:underline">Reading paths</Link><span className="text-xs text-muted">{p.steps.length} pages · about {p.minutes} minutes</span></>} title={p.title} lede={p.tldr}
-        right={<div className="text-xs text-muted max-w-xs text-right">For: {p.audience}</div>} />
+        right={<div className="text-xs text-muted max-w-xs text-left sm:text-right">For: {p.audience}</div>} />
       <Container className="pb-16">
         <ol className="relative border-l-2 border-border ml-3 space-y-6 max-w-3xl">
           {steps.map((s, i) => (

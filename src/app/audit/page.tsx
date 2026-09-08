@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { runAudit, type Audit } from "../../../scripts/audit";
 
 export const metadata: Metadata = { title: "Audit", description: "Automated staleness, contradiction, and registry fact-check findings for the OnCo corpus." };
@@ -28,10 +28,10 @@ export default function AuditPage() {
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Trust</span>} title="Audit: staleness, contradictions, and registry checks"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Audit: staleness, contradictions, and registry checks"
         lede="Automated checks run on every build (contradictions and staleness) and weekly against public registries (openFDA labels, ClinicalTrials.gov statuses). Findings are candidates for review, not verdicts; confirmed errors go to the corrections log." />
       <Container className="pb-16">
-        <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-6 mb-8">
+        <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 mb-8">
           <Stat label="Entities" value={audit.total} />
           <Stat label="Findings" value={audit.findings.length} />
           <Stat label="High" value={audit.findings.filter((f) => f.severity === "high").length} tone="rose" />

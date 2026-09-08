@@ -5,7 +5,7 @@ import { join } from "node:path";
 import { benchmark, type Category } from "@/data/benchmark";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { statusClass } from "@/lib/text";
 
 export const metadata: Metadata = { title: "Open evaluation", description: "A public benchmark of 100 questions a patient or clinician might ask, scored against OnCo and any other system with the same rubric." };
@@ -37,7 +37,7 @@ export default function EvalPage() {
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Learn & contribute</span>} title="Open evaluation: can you get a good answer here?"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Open evaluation: can you get a good answer here?"
         lede="One hundred questions a patient, carer, clinician, or analyst might ask, each with a grounded expected answer and a rubric of must-mention points. The same rubric scores OnCo, a search engine, or an AI assistant. Scores are published here in public, every run." />
       <Container className="pb-16">
         <section className="grid gap-3 sm:grid-cols-3">

@@ -206,7 +206,7 @@ function Diagram({ uid, compact, drugLabel, exemplarCount, routes, focus, open, 
             className="cursor-pointer outline-none transition-opacity duration-300" style={{ opacity: dim ? 0.22 : 1 }}
             onMouseEnter={() => onHover(i)} onFocus={() => onHover(i)} onBlur={() => onHover(null)} onClick={() => onToggle(i)}
             onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onToggle(i); } }}>
-            <title>{route.name}{route.frequency ? ` · ${route.frequency}` : ""}</title>
+            <title>{`${route.name}${route.frequency ? ` · ${route.frequency}` : ""}`}</title>
             {/* wide invisible hit path */}
             <path d={d} fill="none" stroke="transparent" strokeWidth={18} />
             <path d={d} fill="none" stroke={color} strokeWidth={isFocus ? 3.2 : 1.6} opacity={0.28} />

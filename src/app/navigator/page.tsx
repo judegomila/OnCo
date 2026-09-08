@@ -3,7 +3,7 @@ import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { matchRows } from "@/lib/biomarker-match";
 import { questionsFor } from "@/lib/questions";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { Navigator, type NavigatorData, type NavCancer, type SocRef } from "@/components/Navigator";
 import type { CareDetail, SupportItem } from "@/components/CaregiverPanel";
 import type { ProfileLine } from "@/components/ProfileBar";
@@ -45,7 +45,7 @@ export default function NavigatorPage() {
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Find</span>} title="Line-of-therapy navigator"
+      <PageHeader kicker={<GroupKicker id="find" />} title="Line-of-therapy navigator"
         lede="Set your cancer type, stage, biomarkers, and what has already been tried. The navigator shows the standard of care for that setting, marks what has been used, flags cautions such as one ADC after another, ranks the next options by evidence and biomarker match, and finds recruiting trials near you. Your profile stays in this browser." />
       <Container className="pb-16">
         <Navigator data={data} />

@@ -46,10 +46,11 @@ export function universityOutputRows(): UniversityOutputRow[] {
 }
 
 export function OutputTable({ rows }: { rows: OutputRow[] }) {
+  const hasCited = rows.some((r) => r.cited !== null);
   return (
     <div className="overflow-x-auto card">
       <table className="onco">
-        <thead><tr><th>#</th><th>Institution</th><th>OpenAlex match</th><th>Oncology works 2024</th><th>2025</th><th>Citations to those works</th></tr></thead>
+        <thead><tr><th>#</th><th>Institution</th><th>OpenAlex match</th><th>Oncology works 2024</th><th>2025</th>{hasCited && <th>Citations to those works</th>}</tr></thead>
         <tbody>
           {rows.map((r) => (
             <tr key={r.institution.id}>
@@ -58,7 +59,7 @@ export function OutputTable({ rows }: { rows: OutputRow[] }) {
               <td className="text-xs text-muted min-w-[200px]"><a className="underline" href={`https://openalex.org/${r.oa.openalexId}`} rel="noopener">{r.oa.openalexName}</a></td>
               <td className="tabular-nums">{r.oa.works2024.toLocaleString()}</td>
               <td className="tabular-nums">{r.oa.works2025.toLocaleString()}</td>
-              <td className="tabular-nums text-muted">{r.cited === null ? "—" : r.cited.toLocaleString()}</td>
+              {hasCited && <td className="tabular-nums text-muted">{r.cited === null ? "—" : r.cited.toLocaleString()}</td>}
             </tr>
           ))}
         </tbody>
@@ -68,10 +69,11 @@ export function OutputTable({ rows }: { rows: OutputRow[] }) {
 }
 
 export function UniversityOutputTable({ rows }: { rows: UniversityOutputRow[] }) {
+  const hasCited = rows.some((r) => r.cited !== null);
   return (
     <div className="overflow-x-auto card">
       <table className="onco">
-        <thead><tr><th>#</th><th>University / parent</th><th>Institutions counted</th><th>Oncology works 2024+2025</th><th>Citations</th></tr></thead>
+        <thead><tr><th>#</th><th>University / parent</th><th>Institutions counted</th><th>Oncology works 2024+2025</th>{hasCited && <th>Citations</th>}</tr></thead>
         <tbody>
           {rows.map((r) => (
             <tr key={r.university}>
@@ -79,7 +81,7 @@ export function UniversityOutputTable({ rows }: { rows: UniversityOutputRow[] })
               <td className="font-medium min-w-[200px]">{r.university}</td>
               <td className="text-sm min-w-[220px]">{r.institutions.map((i) => <Link key={i.id} href={routeFor(i)} className="underline mr-2">{i.name.replace(/ \/.*$/, "")}</Link>)}</td>
               <td className="tabular-nums font-semibold">{r.works.toLocaleString()}</td>
-              <td className="tabular-nums text-muted">{r.cited === null ? "—" : r.cited.toLocaleString()}</td>
+              {hasCited && <td className="tabular-nums text-muted">{r.cited === null ? "—" : r.cited.toLocaleString()}</td>}
             </tr>
           ))}
         </tbody>

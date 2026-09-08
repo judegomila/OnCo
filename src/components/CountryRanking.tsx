@@ -96,7 +96,7 @@ export function CountryRanking({ rows, years }: { rows: CountryRow[]; years: num
     { key: "oa", label: "Open access", sortable: true, hide: "hidden lg:table-cell", render: ({ r }) => <span className="tabular-nums text-muted">{pct(r.oa, r.total)}</span> },
     { key: "trials", label: perCapita ? "Trials / M pop" : "Trials with a site", sortable: true, hide: "hidden md:table-cell", render: ({ r }) => <span className="tabular-nums text-muted">{r.trials === undefined ? "—" : perCapita && r.population ? fmt(r.trials / r.population) : fmt(r.trials)}</span> },
     { key: "inst", label: "In OnCo", sortable: true, hide: "hidden lg:table-cell", render: ({ r }) => r.institutions ? <Link href="/institutions/" className="underline tabular-nums">{r.institutions}</Link> : <span className="text-muted">—</span> },
-    { key: "incidence", label: "Incidence / mortality (ASR)", sortable: true, hide: "hidden xl:table-cell", render: ({ r }) => r.incidence ? <a className="tabular-nums text-muted underline decoration-dotted" href={r.gcoUrl} rel="noopener" title="GLOBOCAN 2022 age-standardised rates per 100,000">{r.incidence} / {r.mortality}</a> : <span className="text-muted">—</span> },
+    { key: "incidence", label: "Incidence / mortality", sortable: true, hide: "hidden xl:table-cell", render: ({ r }) => r.incidence ? <a className="tabular-nums text-muted underline decoration-dotted" href={r.gcoUrl} rel="noopener" title="GLOBOCAN 2022 age-standardised rates per 100,000">{r.incidence} / {r.mortality}</a> : <span className="text-muted">—</span> },
     { key: "score", label: "Score", sortable: true, render: ({ score, parts }) => <span className="tabular-nums font-semibold" title={parts.map(([k, v]) => `${k} ${v.toFixed(1)}`).join(" · ")}>{score}</span> },
   ];
 
@@ -109,7 +109,7 @@ export function CountryRanking({ rows, years }: { rows: CountryRow[]; years: num
           <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={perCapita} onChange={(e) => setPerCapita(e.target.checked)} /> per million population</label>
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Country or funder…" aria-label="Filter countries" className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-48" />
         </>} />
-      <ResultsTable columns={columns} rows={scored} rowKey={(x) => x.r.code} sort={sort} onSort={onSort} />
+      <ResultsTable columns={columns} rows={scored} rowKey={(x) => x.r.code} sort={sort} onSort={onSort} scroll />
       <p className="text-xs text-muted mt-3">Hover a score for its breakdown. Per-capita mode needs a population figure (top ~30 countries have one); others keep absolute values.</p>
     </div>
   );

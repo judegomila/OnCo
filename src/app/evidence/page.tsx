@@ -4,7 +4,7 @@ import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { trialEvidence, evidenceLabel } from "@/lib/evidence";
 import { Pictogram, primaryOutcomeSummary } from "@/components/Pictogram";
-import { Container, PageHeader, StatusChip } from "@/components/ui";
+import { Container, GroupKicker, PageHeader, StatusChip } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Evidence", description: "Every trial ranked by evidence strength, with its primary endpoint drawn as people out of 100, and the scoring formula disclosed." };
 
@@ -14,7 +14,7 @@ export default function EvidencePage() {
   const withOutcomes = rows.filter((r) => r.t.outcomes.some((o) => o.arms.some((a) => a.value !== undefined)));
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Intelligence</span>} title="Evidence, trial by trial"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Evidence, trial by trial"
         lede="Every trial in OnCo ranked by a disclosed evidence-strength score, with its primary endpoint drawn as people out of 100 or as median months. The score measures how much and what kind of evidence exists, not how large the benefit is." />
       <Container className="pb-16">
         <details className="card p-4 text-sm mb-8">

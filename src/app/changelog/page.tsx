@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Changelog", description: "What changed in OnCo, release by release." };
 
@@ -46,7 +46,7 @@ export default function Changelog() {
   const blocks = parse(md);
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Project</span>} title="Changelog" lede="What changed, release by release. The corpus is kept current continuously; this records the shape of the site and the major content additions. Also the source of the weekly digest." />
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Changelog" lede="What changed, release by release. The corpus is kept current continuously; this records the shape of the site and the major content additions. Also the source of the weekly digest." />
       <Container className="pb-16 max-w-3xl">
         <div className="prose-onco text-[15px] leading-relaxed">
           {blocks.map((b, i) => {

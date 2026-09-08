@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity } from "@/lib/schema";
-import { Container, KindChip, PageHeader, StatusChip } from "@/components/ui";
+import { Container, GroupKicker, KindChip, PageHeader, StatusChip } from "@/components/ui";
 import { paragraphs } from "@/lib/text";
 
 export const metadata: Metadata = { title: "Failure museum", description: "Drugs, targets, and trials that did not work, and what each taught. Failures are data." };
@@ -31,7 +31,7 @@ export default function FailuresPage() {
   }
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Pipeline</span>} title="Failure museum"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Failure museum"
         lede="Oncology learns more from what did not work than from what did, but failures vanish from pipelines and press releases. This room keeps them: drugs stopped, targets abandoned, approvals withdrawn, each with the lesson it left. Nothing here is a verdict on the idea; several of these targets later worked with a different weapon." />
       <Container className="pb-16">
         <div className="text-sm text-muted mb-8">{items.length} exhibits. Anything in the corpus with status negative or withdrawn, or tagged failure, appears here automatically.</div>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RegionMatrix, type MatrixRow } from "@/components/RegionMatrix";
 import { REGIONS, REGION_META, regionalApprovals, approvedRegions } from "@/data/regional-approvals";
 
@@ -19,7 +19,7 @@ export default function RegionsPage() {
 
   return (
     <>
-      <PageHeader kicker={<Link href="/regulatory/" className="kicker hover:underline">Intelligence · Regulatory</Link>} title="Same drug, different countries"
+      <PageHeader kicker={<GroupKicker id="intel"><span className="kicker">·</span><Link href="/regulatory/" className="kicker hover:underline">Regulatory timeline</Link></GroupKicker>} title="Same drug, different countries"
         lede={`${rows.length} approved and phase-3 products compared across six regulators. ${everywhere} are approved in all six regions, ${usNotEu} are approved in the US but not the EU, and ${cnOnly} are approved only in China. Filter by gap type to see where a pipeline exists in one region and is missing in another.`} />
       <Container className="pb-16 space-y-10">
         <RegionMatrix rows={rows} />

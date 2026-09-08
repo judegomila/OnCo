@@ -281,6 +281,17 @@
   .rule { height: 1px; background: var(--border); }
 }
 
+/* A table inside a horizontally scrolling wrapper scrolls with the wrapper, not the page, so a sticky header
+   would pin itself 56px down inside the card and hide the first rows. Keep it static there, and restore it only
+   where the wrapper stops scrolling (ResultsTable's lg:overflow-x-visible). */
+.overflow-x-auto > table.onco thead th { position: static; }
+@media (min-width: 64rem) { .lg\:overflow-x-visible > table.onco thead th { position: sticky; } }
+
+/* Section tab bar on narrow screens: fade the right edge so the hidden pills read as scrollable. */
+@media (max-width: 63.99rem) {
+  .tabbar { mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); }
+}
+
 /* Theme-specific overrides sit outside layers on purpose so they beat utilities. */
 [data-theme="contrast"] .card { border-width: 2px; }
 [data-theme="contrast"] a { text-decoration: underline; }

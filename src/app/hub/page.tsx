@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { hubIdeas, hubIdeas2, hubIdeas3 } from "@/data/hub-ideas";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { statusClass } from "@/lib/text";
 
 export const metadata: Metadata = { title: "Roadmap", description: "What OnCo is building, in waves, with the status of every idea." };
@@ -11,7 +11,7 @@ export default function Hub() {
   const counts = ["shipped", "building", "planned", "proposed"].map((s) => ({ s, n: hubIdeas.filter((h) => h.status === s).length }));
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Project</span>} title="Roadmap"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Roadmap"
         lede="Product, data, and community ideas, distinct from the scientific ideas in the corpus. Each has a status. Argue with them in the repo." />
       <Container className="pb-16">
         <h2 className="text-2xl font-semibold tracking-tight mb-2">Wave one: the hub</h2>

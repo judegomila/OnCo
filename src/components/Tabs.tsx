@@ -60,7 +60,7 @@ export function Tabs({ tabs, ariaLabel = "Sections" }: { tabs: Tab[]; ariaLabel?
   return (
     <div>
       <nav ref={bar} aria-label={ariaLabel}
-        className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 h-12 bg-background/90 backdrop-blur border-b border-border flex items-center gap-1 overflow-x-auto no-scrollbar">
+        className="tabbar sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 h-12 bg-background/90 backdrop-blur border-b border-border flex items-center gap-1 overflow-x-auto no-scrollbar">
         {tabs.map((t) => {
           const on = t.id === active;
           return (

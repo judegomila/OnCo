@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CompareView, type CompareItem } from "@/components/CompareView";
 
 export const metadata: Metadata = { title: "Compare", description: "Side-by-side comparison of up to five products, technologies, targets, trials, or cancers, with differences highlighted." };
@@ -95,7 +95,7 @@ export default function ComparePage() {
   ].sort((x, y) => x.name.localeCompare(y.name));
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Find</span>} title="Compare" lede="Up to five products, technologies, targets, trials, or cancers side by side, same fields, differences highlighted. The URL is shareable." />
+      <PageHeader kicker={<GroupKicker id="find" />} title="Compare" lede="Up to five products, technologies, targets, trials, or cancers side by side, same fields, differences highlighted. The URL is shareable." />
       <Container className="pb-16">
         <Suspense><CompareView items={items} /></Suspense>
       </Container>

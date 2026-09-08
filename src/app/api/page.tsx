@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { KIND_META, KINDS } from "@/lib/schema";
 import { graph } from "@/lib/graph";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Open API", description: "The OnCo corpus as static JSON." };
 
@@ -9,8 +9,9 @@ export default function ApiDocs() {
   const g = graph();
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Open data</span>} title="Open API" lede="The whole corpus is published as static JSON under /api/v1/ with permissive CORS. No key, no rate limit beyond the CDN. Licence CC BY 4.0." />
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Open API" lede="The whole corpus is published as static JSON under /api/v1/ with permissive CORS. No key, no rate limit beyond the CDN. Licence CC BY 4.0." />
       <Container className="pb-16 max-w-3xl">
+        <div className="card overflow-x-auto">
         <table className="onco">
           <thead><tr><th>Path</th><th>Contents</th></tr></thead>
           <tbody>
@@ -22,6 +23,7 @@ export default function ApiDocs() {
             <tr><td><a className="underline font-mono text-sm" href="/api/v1/meta.json">/api/v1/meta.json</a></td><td>Build date, counts, schema version.</td></tr>
           </tbody>
         </table>
+        </div>
         <h2 className="text-xl font-semibold mt-10 mb-2">Schema</h2>
         <p className="text-[15px] leading-relaxed">Every entity shares base fields (<code>id, kind, name, aka, tldr, summary, status, asOf, wikipedia, links, tags</code>) and relationship arrays (<code>related, cancers, sections, technologies, targets, drugs, companies, institutions, pathways, terms, trials</code>) holding ids. Kind-specific fields are documented in <code>src/lib/schema.ts</code> in the repository, which is the source of truth and is enforced at build time.</p>
         <h2 className="text-xl font-semibold mt-10 mb-2">Example</h2>

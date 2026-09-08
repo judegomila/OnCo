@@ -51,7 +51,7 @@ export function PulseTable({ index, kind, limit = 25, minPrior = 20, sort = "gro
     .slice(0, limit);
   if (!rows.length) return <p className="text-muted text-sm">No topics meet the minimum volume yet.</p>;
   return (
-    <div className="overflow-x-auto">
+    <div className="card overflow-x-auto">
       <table className="w-full text-sm">
         <thead className="text-left text-xs text-muted">
           <tr><th className="py-1 pr-3 font-medium">#</th><th className="py-1 pr-3 font-medium">Topic</th><th className="py-1 pr-3 font-medium">Kind</th><th className="py-1 pr-3 font-medium text-right">Last 12 mo</th><th className="py-1 pr-3 font-medium text-right">Prior 12 mo</th><th className="py-1 pr-3 font-medium text-right">Change</th><th className="py-1 pr-3 font-medium">{YEARS[0]} → {YEARS[YEARS.length - 1]}</th></tr>

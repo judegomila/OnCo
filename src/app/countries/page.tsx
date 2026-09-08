@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { graph } from "@/lib/graph";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CountryRanking, type CountryRow } from "@/components/CountryRanking";
 import { countryExtras } from "@/data/country-extras";
 import data from "../../../public/openalex/countries.json";
@@ -20,7 +20,7 @@ export default function Countries() {
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Who</span>} title="Countries: who is doing the most cancer research"
+      <PageHeader kicker={<GroupKicker id="who" />} title="Countries: who is doing the most cancer research"
         lede={`Oncology research output by country from OpenAlex (${raw.years[0]}–${y1}), with growth, highly cited share, open access, ClinicalTrials.gov sites, cancer burden, and the national funder. Ranked by a disclosed composite score. In ${y1} the leaders by volume were ${top.map((t) => t.name).join(", ")}.`} />
       <Container className="pb-16">
         <CountryRanking rows={rows} years={raw.years} />

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { graph } from "@/lib/graph";
 import { graphData } from "@/lib/graph-export";
-import { Container, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { QueryBuilder, type QueryData } from "@/components/QueryBuilder";
 
 export const metadata: Metadata = { title: "Query", description: "Build structured queries over the knowledge graph: kind, links, status, tags, text, with NOT clauses." };
@@ -15,7 +15,7 @@ export default function QueryPage() {
   };
   return (
     <>
-      <PageHeader kicker={<span className="kicker">Find</span>} title="Query the graph" lede="Ask structured questions of the corpus: which targets have an approved ADC but no PET tracer, which cancers have no phase-3 product, which companies have products but no institutional link. Combine clauses, negate any of them, and get a linked table." />
+      <PageHeader kicker={<GroupKicker id="find" />} title="Query the graph" lede="Ask structured questions of the corpus: which targets have an approved ADC but no PET tracer, which cancers have no phase-3 product, which companies have products but no institutional link. Combine clauses, negate any of them, and get a linked table." />
       <Container className="pb-16">
         <QueryBuilder data={data} />
       </Container>

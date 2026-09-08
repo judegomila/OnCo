@@ -1,0 +1,37 @@
+name: Weekly fact check, audit, and provenance
+
+on:
+  schedule:
+    - cron: "41 6 * * 1" # Mondays 06:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  factcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # provenance needs full history for git blame
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - run: npm run audit
+      - run: npm run provenance
+      - run: npm run factcheck
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/factcheck
+          title: "Weekly fact check: registry mismatches, audit, provenance"
+          commit-message: "chore: weekly fact check, audit, and provenance refresh"
+          body: |
+            Automated weekly run of `npm run factcheck` (openFDA labels, ClinicalTrials.gov statuses), `npm run audit` (contradictions and staleness), and `npm run provenance` (git blame per record).
+            Review `public/factcheck.json` and `public/audit.json` for candidates; confirmed errors go to CORRECTIONS.md.
+          labels: automated, trust
+          delete-branch: true

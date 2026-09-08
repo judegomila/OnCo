@@ -38,3 +38,20 @@ A page can carry an **Expert-reviewed** badge when a named clinician, scientist,
 4. Open a PR titled `review: <entity id>`. Maintainers verify identity via the profile URL or a signed commit before merging.
 
 A review is a statement about the page on that date, not an endorsement of any product. Unreviewed pages say so. Patient-advocate reviews of TL;DRs for clarity and tone are welcome under the same track.
+
+## Review tracks
+
+Two badges can appear on a page. Both are statements about the page on a date, not endorsements.
+
+- **Expert** (`track: "expert"`): a named clinician or scientist read the page and its linked sources, checked the standard-of-care rows against current guidelines (NCCN, ESMO) and the trial figures against the primary publication, fixed anything wrong in the same PR, and signed off.
+- **Patient advocate** (`track: "advocate"`): a named advocate or advocacy organisation reviewed the TL;DRs, the "questions to ask", and the For-me framing for clarity, tone, and what a patient would need that is missing.
+
+To add a review, append an entry to `src/data/reviews.ts` under the entity id with your name, role and organisation, the date, a **conflict-of-interest statement** (`coi`: funding, employment, advisory roles, equity in the last three years; "None declared" is valid and is displayed), an optional note on what you checked, and an optional profile URL. Open a PR titled `review: <entity id>`. Maintainers verify identity via the profile URL or a signed commit before merging. Reviews are displayed with the COI text next to the badge; reviews without a COI statement are not merged.
+
+## Trust tooling
+
+- `npm run audit` — contradictions and staleness from the corpus alone (`public/audit.json`, rendered at `/audit/`).
+- `npm run factcheck` — openFDA and ClinicalTrials.gov comparisons (`public/factcheck.json`); weekly via GitHub Actions.
+- `npm run provenance` — last-edit commit per record from `git blame` (`public/provenance.json`), shown on each page.
+- `CORRECTIONS.md` — every confirmed factual correction, rendered at `/corrections/`. Add an entry in the PR that fixes the error.
+- `src/data/confidence.ts` — named probability estimates for ideas and speculative roadmap steps. Propose revisions with your name and reasoning.

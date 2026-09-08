@@ -26,6 +26,8 @@ import { Tabs, type Tab } from "./Tabs";
 import { RoadmapStory } from "./RoadmapStory";
 import { TrialOutcomes } from "./Pictogram";
 import { EvidenceBar } from "./EvidenceBar";
+import { GuidelineChip } from "./GuidelineChip";
+import { PrevalenceTable, CancerPrevalence } from "./PrevalenceTable";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 
@@ -165,6 +167,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Where it is found"><Bullets items={e.whereFound} /></Field>
             <Field label="Class"><span className="capitalize">{e.targetClass.replace("-", " ")}</span>{e.symbol && <span className="text-muted"> · {e.symbol}</span>}</Field>
           </div>
+          {e.prevalence.length > 0 && <Block title="How common it is, by cancer"><PrevalenceTable target={e} /></Block>}
         </>),
         ...productsTab(g.incoming(e.id).get("drug") ?? []),
       ];
@@ -323,15 +326,18 @@ function cancerTabs(c: Cancer): Tab[] {
           <div key={i} className="card p-4">
             <div className="font-medium">{s.setting}</div>
             <p className="text-[15px] text-foreground/85 mt-1">{s.approach}</p>
+            {s.guideline && <div className="mt-2"><GuidelineChip g={s.guideline} /></div>}
             {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
           </div>
         ))}
       </div>) },
-    { id: "biology", label: "Subtypes & biomarkers", content: (
+    { id: "biology", label: "Subtypes & biomarkers", content: (<>
       <div className="grid gap-6 sm:grid-cols-2">
         <Field label="Subtypes"><Bullets items={c.subtypes} /></Field>
         <Field label="Biomarkers clinicians test"><Bullets items={c.biomarkers} /></Field>
-      </div>) },
+      </div>
+      <Block title="Target prevalence in this cancer"><CancerPrevalence cancerId={c.id} /></Block>
+    </>) },
     { id: "history", label: "History", count: c.history.length, content: (
       <ol className="relative border-l-2 border-border ml-3 space-y-5">
         {c.history.map((h, i) => (

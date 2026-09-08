@@ -41,6 +41,8 @@ import { MechanismCard } from "./MechanismCard";
 import { TldrText } from "./TldrText";
 import { FrontSchematic } from "./FrontSchematic";
 import { TermSchematic } from "./TermSchematic";
+import { DrugGrid } from "./DrugCard";
+import type { Drug } from "@/lib/schema";
 import { LayerAware } from "./LayerAware";
 import { withTermHovers } from "@/lib/term-hover";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
@@ -313,8 +315,19 @@ function kindTabs(e: Entity): Tab[] {
 
 function productsTab(drugs: Entity[]): Tab[] {
   if (!drugs.length) return [];
-  return [{ id: "products", label: "Products", count: drugs.length, content: (
-    <div className="grid gap-3 sm:grid-cols-2">{drugs.map((d) => <Link key={d.id} href={routeFor(d)} className="card p-3 hover:shadow-md transition"><div className="flex items-center gap-2 mb-1"><StatusChip status={d.status} />{d.kind === "drug" && <span className="text-xs text-muted truncate">{d.modality}</span>}</div><div className="font-medium">{d.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{d.tldr}</p></Link>)}</div>) }];
+  return [{ id: "products", label: "Products", count: drugs.length, content: <DrugGrid drugs={drugs.filter((d): d is Drug => d.kind === "drug")} /> }];
+}
+
+/** Refs with product cards (molecule thumbnails) for drugs and chips for everything else. */
+function RefsWithMolecules({ ids }: { ids: string[] }) {
+  const g = graph();
+  const items = ids.map((id) => g.get(id)).filter((x): x is Entity => !!x);
+  const drugs = items.filter((x): x is Drug => x.kind === "drug");
+  const rest = items.filter((x) => x.kind !== "drug");
+  return (<>
+    {drugs.length > 0 && <DrugGrid drugs={drugs} compact />}
+    {rest.length > 0 && <div className={drugs.length ? "mt-4" : ""}><ChipList items={rest} /></div>}
+  </>);
 }
 
 function RoadmapSteps({ r }: { r: Roadmap }) {
@@ -377,7 +390,7 @@ function cancerTabs(c: Cancer): Tab[] {
           </li>
         ))}
       </ol>) },
-    { id: "pipeline", label: "Pipeline", count: c.pipeline.length, content: <><Refs ids={c.pipeline} /><Block title="Open problems"><Bullets items={c.openProblems} /></Block></> },
+    { id: "pipeline", label: "Pipeline", count: c.pipeline.length, content: <><RefsWithMolecules ids={c.pipeline} /><Block title="Open problems"><Bullets items={c.openProblems} /></Block></> },
     { id: "trials", label: "Trials", content: <><Block title="Recruiting now (live from ClinicalTrials.gov)"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>{(forMe.get("trial") ?? []).length > 0 && <Block title="Landmark trials in OnCo"><ChipList items={forMe.get("trial") ?? []} /></Block>}</> },
     { id: "centres", label: "Expert centres", content: <ExpertCentres cancerId={c.id} /> },
     { id: "questions", label: "Questions to ask", content: <Questions cancer={c} /> },

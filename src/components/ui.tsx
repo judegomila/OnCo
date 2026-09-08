@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Entity, Kind } from "@/lib/schema";
 import { KIND_META, routeFor } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
+import { DrugChip } from "./DrugChip";
 
 export function KindChip({ kind }: { kind: Kind }) {
   return <span className={`chip border ${KIND_COLOR[kind]}`}>{KIND_META[kind].label}</span>;
@@ -37,7 +38,9 @@ export function ChipList({ items, kind }: { items: Entity[]; kind?: Kind }) {
   if (!items.length) return null;
   return (
     <div className="flex flex-wrap gap-1.5">
-      {items.map((e) => (
+      {items.map((e) => e.kind === "drug" ? (
+        <DrugChip key={e.id} id={e.id} name={e.name} route={routeFor(e)} tldr={e.tldr} className={KIND_COLOR[kind ?? e.kind]} />
+      ) : (
         <Link key={e.id} href={routeFor(e)} className={`chip border hover:brightness-95 ${KIND_COLOR[kind ?? e.kind]}`}>
           {e.name}
         </Link>

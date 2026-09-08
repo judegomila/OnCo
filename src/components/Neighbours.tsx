@@ -1,6 +1,8 @@
 import type { Entity, Kind } from "@/lib/schema";
 import { KIND_META, KINDS } from "@/lib/schema";
 import { ChipList } from "./ui";
+import { DrugGrid } from "./DrugCard";
+import type { Drug } from "@/lib/schema";
 
 /** Grouped links to everything connected to an entity, in a fixed kind order. */
 export function Neighbours({ groups, exclude = [] }: { groups: Map<Kind, Entity[]>; exclude?: Kind[] }) {
@@ -9,9 +11,9 @@ export function Neighbours({ groups, exclude = [] }: { groups: Map<Kind, Entity[
   return (
     <div className="grid gap-4 sm:grid-cols-2">
       {order.map((k) => (
-        <div key={k} className="card p-4">
+        <div key={k} className={`card p-4 ${k === "drug" ? "sm:col-span-2" : ""}`}>
           <div className="kicker mb-2">{KIND_META[k].plural} · {groups.get(k)!.length}</div>
-          <ChipList items={groups.get(k)!} kind={k} />
+          {k === "drug" ? <DrugGrid drugs={groups.get(k) as Drug[]} compact /> : <ChipList items={groups.get(k)!} kind={k} />}
         </div>
       ))}
     </div>

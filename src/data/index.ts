@@ -33,6 +33,7 @@ import { termsBasics } from "./terms-basics";
 import { institutionsUs } from "./institutions/us";
 import { institutionsWorld } from "./institutions/world";
 import { institutionsBodies } from "./institutions/bodies";
+import { institutionsEurope } from "./institutions/europe";
 import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
@@ -73,6 +74,7 @@ export const ALL_INPUTS: EntityInput[] = [
   ...institutionsUs,
   ...institutionsWorld,
   ...institutionsBodies,
+  ...institutionsEurope,
   ...foundationModels,
   ...foundationRoadmaps,
 ];

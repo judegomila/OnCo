@@ -84,6 +84,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/suggest/", label: "Suggest an edit", blurb: "Propose a correction; organisations can edit their own records." },
       { href: "/eval/", label: "Open evaluation", blurb: "100 questions, a rubric, and a public leaderboard." },
       { href: "/api/", label: "Open API", blurb: "The corpus as JSON." },
+      { href: "/data-sources/", label: "Open data", blurb: "Every open database OnCo pulls from, with licences and cadence, and the ones we could add next." },
       { href: "https://github.com/judegomila/OnCo", label: "GitHub", blurb: "Edit any object with a pull request." },
     ],
   },

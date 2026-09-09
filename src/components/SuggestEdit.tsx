@@ -11,7 +11,7 @@ type Props = { id: string; kind: string; name: string; fields?: string[]; source
  * Developers get a direct link to the exact line of the record.
  */
 export function SuggestEdit({ id, kind, name, source }: Props) {
-  const page = `https://onco-umber.vercel.app${source.url.includes("/src/data/") ? "" : ""}`;
+  const page = `https://onco.cc${source.url.includes("/src/data/") ? "" : ""}`;
   const p = new URLSearchParams({
     template: "suggest-edit.yml",
     title: `edit: ${id}`,

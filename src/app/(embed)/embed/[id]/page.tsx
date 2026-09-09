@@ -4,7 +4,7 @@ import { graph } from "@/lib/graph";
 import { KIND_META, routeFor } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 
-const SITE = "https://onco-umber.vercel.app";
+const SITE = "https://onco.cc";
 
 export function generateStaticParams() {
   return graph().entities.map((e) => ({ id: e.id }));

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const SITE = "https://onco-umber.vercel.app";
+const SITE = "https://onco.cc";
 
 /** Copyable iframe snippet for embedding an entity card anywhere. */
 export function EmbedSnippet({ id, name }: { id: string; name: string }) {

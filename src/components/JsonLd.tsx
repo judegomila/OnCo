@@ -2,7 +2,7 @@ import type { Entity } from "@/lib/schema";
 import { routeFor } from "@/lib/schema";
 import { graph } from "@/lib/graph";
 
-const SITE = "https://onco-umber.vercel.app";
+const SITE = "https://onco.cc";
 
 /** schema.org JSON-LD for an entity page, so search engines and crawlers read the map. */
 export function JsonLd({ e }: { e: Entity }) {

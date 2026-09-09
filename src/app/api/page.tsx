@@ -27,7 +27,7 @@ export default function ApiDocs() {
         <h2 className="text-xl font-semibold mt-10 mb-2">Schema</h2>
         <p className="text-[15px] leading-relaxed">Every entity shares base fields (<code>id, kind, name, aka, tldr, summary, status, asOf, wikipedia, links, tags</code>) and relationship arrays (<code>related, cancers, sections, technologies, targets, drugs, companies, institutions, pathways, terms, trials</code>) holding ids. Kind-specific fields are documented in <code>src/lib/schema.ts</code> in the repository, which is the source of truth and is enforced at build time.</p>
         <h2 className="text-xl font-semibold mt-10 mb-2">Example</h2>
-        <pre className="card p-4 text-xs overflow-auto"><code>{`curl -s https://onco-umber.vercel.app/api/v1/entities/trop2.json | jq '.entity.name, .neighbours.drug[].name'`}</code></pre>
+        <pre className="card p-4 text-xs overflow-auto"><code>{`curl -s https://onco.cc/api/v1/entities/trop2.json | jq '.entity.name, .neighbours.drug[].name'`}</code></pre>
       </Container>
     </>
   );

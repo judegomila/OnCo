@@ -7,7 +7,7 @@ body:
     id: entity
     attributes:
       label: Object id or page URL
-      placeholder: trastuzumab-deruxtecan or https://onco-umber.vercel.app/drugs/trastuzumab-deruxtecan/
+      placeholder: trastuzumab-deruxtecan or https://onco.cc/drugs/trastuzumab-deruxtecan/
     validations:
       required: true
   - type: textarea

@@ -7,6 +7,8 @@ import { NavMenu } from "@/components/NavMenu";
 import { ThemeToggle, ThemeScript } from "@/components/ThemeToggle";
 import { SkipLink } from "@/components/SkipLink";
 import { LayerToggle } from "@/components/LayerToggle";
+import { RegionProvider } from "@/lib/region";
+import { RegionToggle } from "@/components/RegionToggle";
 import { GardenBackdrop, GardenDefs } from "@/components/Garden";
 import { NAV_GROUPS } from "@/lib/nav";
 
@@ -36,6 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <RegionProvider>
         <ThemeScript />
         <GardenDefs />
         <SkipLink />
@@ -51,6 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="ml-auto flex-1 min-w-10 max-w-[17rem] sm:max-w-xs xl:ml-auto">
               <PaletteTrigger className="w-full h-10 rounded-[0.625rem]" />
             </div>
+            <RegionToggle />
             <LayerToggle />
             <ThemeToggle />
             <a href="https://github.com/judegomila/OnCo" rel="noopener" aria-label="OnCo on GitHub" title="GitHub repository" className="ctl ctl-icon hidden sm:inline-flex">
@@ -100,6 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         </footer>
+              </RegionProvider>
       </body>
     </html>
   );

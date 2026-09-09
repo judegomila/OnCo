@@ -3,7 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Tip } from "@/components/Tip";
-import { MoleculeThumb } from "./MoleculeThumb";
+import { MoleculeSlot } from "./MoleculeSlot";
+import { ApprovalChip } from "./ApprovalChip";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
@@ -15,8 +16,9 @@ import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/Re
  */
 export type BrowserRow = {
   id: string; name: string; tldr: string; route: string; status?: string;
-  /** Drug id with a structure: renders a small rotating molecule beside the name. */
+  /** Drug id: renders a small rotating molecule beside the name, or an explained placeholder when there is no structure. */
   molecule?: string;
+  modality?: string;
   /** Facet values keyed by facet key; arrays for multi-valued facets. */
   facets: Record<string, string[]>;
   /** Extra columns keyed by column key: formatted strings, numbers, or lists of links. */
@@ -111,7 +113,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
   const tableCols: Column<BrowserRow>[] = [
     { key: "name", label: "Name", sortable: true, render: (r) => (
       <div className="min-w-[220px] flex items-start gap-2">
-        {r.molecule && <Link href={r.route} aria-hidden tabIndex={-1} className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-border bg-card overflow-hidden"><MoleculeThumb drugId={r.molecule} className="h-10 w-10" /></Link>}
+        {r.molecule && <MoleculeSlot drugId={r.molecule} modality={r.modality} name={r.name} className="h-10 w-10" />}
         {r.logo && !r.molecule && (
           <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md border border-border bg-white overflow-hidden">
             {/* eslint-disable-next-line @next/next/no-img-element -- hotlinked favicon, never copied */}
@@ -120,7 +122,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
         )}
         <div><Link href={r.route} className="font-medium hover:underline">{r.name}</Link>{r.sub && <div className="text-xs text-muted">{r.sub}</div>}{!hideTldr && <div className="text-xs text-muted line-clamp-2 max-w-lg">{r.tldr}</div>}</div>
       </div>) },
-    ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, render: (r: BrowserRow) => r.status ? (STATUS_TIPS[r.status] ? <Tip title={STATUS_LABEL[r.status] ?? r.status} text={STATUS_TIPS[r.status]}><span className={`chip cursor-help ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span></Tip> : <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span>) : null } as Column<BrowserRow>]),
+    ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, render: (r: BrowserRow) => r.molecule ? <ApprovalChip drugId={r.molecule} status={r.status} /> : r.status ? (STATUS_TIPS[r.status] ? <Tip title={STATUS_LABEL[r.status] ?? r.status} text={STATUS_TIPS[r.status]}><span className={`chip cursor-help ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span></Tip> : <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span>) : null } as Column<BrowserRow>]),
     ...columns.map((c): Column<BrowserRow> => ({
       key: c.key, label: c.label, sortable: c.sortable, hide: c.hide, className: c.className, tip: c.tip,
       render: (r) => {

@@ -5,9 +5,7 @@ import { graph } from "@/lib/graph";
 import { KIND_META, KINDS, routeFor, type Entity, type Kind } from "@/lib/schema";
 import { Container, PageHeader } from "@/components/ui";
 import { rankInstitutions } from "@/lib/ranking";
-import { InstitutionsExplorer } from "@/components/InstitutionsExplorer";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef } from "@/components/EntityBrowser";
-import structureIndex from "../../../public/structures/index.json";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { BottleneckMap } from "@/components/BottleneckMap";
 import { CancerIcon } from "@/components/CancerIcon";
@@ -76,7 +74,7 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
         rows: g.kind("drug").map((d) => {
           const first = d.approvals.length ? Math.min(...d.approvals.map((a) => a.year)) : undefined, last = d.approvals.length ? Math.max(...d.approvals.map((a) => a.year)) : undefined;
           const pc = payloadClass(d.payload);
-          return { ...base(d), molecule: d.id in (structureIndex as Record<string, unknown>) ? d.id : undefined, sub: [d.brand, d.code].filter(Boolean).join(" · "), facets: { cancers: names(d.cancers), modality: [modalityClass(d.modality)], targets: names(d.targets), companies: names(d.companies), front: frontsOf(d), payload: pc ? [pc] : [] }, cols: { modality: modalityClass(d.modality), targets: links(d.targets), cancers: links(d.cancers), companies: links(d.companies), approved: first ? (last && last !== first ? `${first}–${last}` : String(first)) : undefined }, sortKeys: { approved: last ?? 0 } };
+          return { ...base(d), molecule: d.id, modality: d.modality, sub: [d.brand, d.code].filter(Boolean).join(" · "), facets: { cancers: names(d.cancers), modality: [modalityClass(d.modality)], targets: names(d.targets), companies: names(d.companies), front: frontsOf(d), payload: pc ? [pc] : [] }, cols: { modality: modalityClass(d.modality), targets: links(d.targets), cancers: links(d.cancers), companies: links(d.companies), approved: first ? (last && last !== first ? `${first}–${last}` : String(first)) : undefined }, sortKeys: { approved: last ?? 0 } };
         }),
         facets: [{ key: "cancers", label: "Cancer", width: "w-56" }, { key: "modality", label: "Modality", searchable: false }, { key: "targets", label: "Target", width: "w-44" }, { key: "companies", label: "Company" }, { key: "front", label: "Front", searchable: false, width: "w-44" }, { key: "payload", label: "ADC payload", searchable: false, width: "w-44" }],
         columns: [{ key: "modality", label: "Modality", sortable: true, hide: "hidden sm:table-cell" }, { key: "targets", label: "Targets", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "companies", label: "Companies", hide: "hidden lg:table-cell" }, { key: "approved", label: "Approved", sortable: true, numeric: true }],
@@ -200,17 +198,11 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
     <>
       <PageHeader kicker={<span className="kicker">{meta.plural}</span>} title={title} lede={meta.blurb} right={right} />
       <Container className="pb-16">
-        {k === "institution" ? (
-          <InstitutionsExplorer points={institutionPoints()} rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
-        ) : (
-          <>
-            {k === "section" && <FrontsGrid />}
-            {k === "term" && <TermCategoryGrid />}
-            {k === "bottleneck" && <BottlenecksPipeline />}
-            {k === "cancer" && <CancersGrid />}
-            <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
-          </>
-        )}
+        {k === "section" && <FrontsGrid />}
+        {k === "term" && <TermCategoryGrid />}
+        {k === "bottleneck" && <BottlenecksPipeline />}
+        {k === "cancer" && <CancersGrid />}
+        <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
         {k === "institution" && (
           <p className="text-xs text-muted mt-3 max-w-3xl">Score = Newsweek points (60 − Newsweek/Statista 2026 Oncology rank, 0 if unranked) + NCI designation points (Comprehensive 15, Clinical or Basic 8) + 2 × distinct OnCo objects linked to the institution. The last term measures presence in this evidence base and grows with the corpus. A starting point for argument, not a verdict.</p>
         )}

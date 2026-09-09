@@ -4,9 +4,24 @@
   "private": true,
   "description": "OnCo: total information dominance on cancer. A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, people, pathways, trials, pairings, roadmaps, and ideas, one page per object.",
   "homepage": "https://onco-umber.vercel.app",
-  "repository": { "type": "git", "url": "https://github.com/judegomila/OnCo.git" },
-  "bugs": { "url": "https://github.com/judegomila/OnCo/issues" },
-  "keywords": ["oncology", "cancer", "knowledge-graph", "open-data", "nextjs", "static-site", "clinical-trials", "adc", "precision-medicine"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/judegomila/OnCo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/judegomila/OnCo/issues"
+  },
+  "keywords": [
+    "oncology",
+    "cancer",
+    "knowledge-graph",
+    "open-data",
+    "nextjs",
+    "static-site",
+    "clinical-trials",
+    "adc",
+    "precision-medicine"
+  ],
   "scripts": {
     "dev": "npm run build:api && next dev",
     "build": "npm run build:api && next build",
@@ -29,7 +44,14 @@
     "bench:score": "tsx scripts/benchmark-score.ts",
     "fetch:countries": "tsx scripts/fetch-countries.ts",
     "fetch:globocan": "tsx scripts/fetch-globocan.ts",
-    "fetch:papers": "tsx scripts/fetch-papers.ts"
+    "fetch:papers": "tsx scripts/fetch-papers.ts",
+    "freshness": "tsx scripts/freshness.ts",
+    "freshness:check": "tsx scripts/freshness.ts --check",
+    "numbers": "tsx scripts/numbers.ts",
+    "history": "tsx scripts/history.ts",
+    "check:links": "tsx scripts/check-links.ts",
+    "factcheck:apply": "tsx scripts/apply-factcheck.ts",
+    "affected": "tsx scripts/affected-pages.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

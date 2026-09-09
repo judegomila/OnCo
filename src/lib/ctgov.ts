@@ -83,14 +83,65 @@ export function buildSearchUrl(opts: { condition?: string; intervention?: string
 }
 
 /** Shape of the v2 response (only the parts we read). */
-type RawStudy = {
+export type RawStudy = {
   protocolSection?: {
     identificationModule?: { nctId?: string; briefTitle?: string };
     statusModule?: { overallStatus?: string; startDateStruct?: { date?: string } };
     sponsorCollaboratorsModule?: { leadSponsor?: { name?: string } };
     designModule?: { phases?: string[] };
+    eligibilityModule?: { eligibilityCriteria?: string; minimumAge?: string; maximumAge?: string; sex?: string; healthyVolunteers?: boolean };
+    armsInterventionsModule?: { interventions?: Array<{ name?: string; type?: string }> };
   };
 };
+
+/**
+ * Extra `fields` that return the eligibility and interventions modules, verified against the live
+ * API (2026-09-09): `eligibilityModule.eligibilityCriteria` is the free-text inclusion/exclusion block.
+ */
+export const ELIGIBILITY_FIELDS = "EligibilityCriteria,MinimumAge,MaximumAge,Sex,HealthyVolunteers,InterventionName,InterventionType";
+
+/** Append field names to the `fields` parameter of a studies URL built elsewhere (or add one if missing). */
+export function withExtraFields(url: string, extra: string): string {
+  const u = new URL(url);
+  const cur = u.searchParams.get("fields");
+  const have = new Set((cur ?? "").split(",").filter(Boolean));
+  for (const f of extra.split(",")) if (f && !have.has(f)) have.add(f);
+  u.searchParams.set("fields", [...have].join(","));
+  return u.toString();
+}
+
+export type Eligibility = {
+  nctId: string;
+  /** Free-text inclusion/exclusion block as posted on the registry. */
+  criteria?: string;
+  minimumAge?: string;
+  maximumAge?: string;
+  sex?: string;
+  healthyVolunteers?: boolean;
+  interventions: Array<{ name: string; type?: string }>;
+};
+
+/** Read the eligibility and interventions modules from one raw study. */
+export function parseEligibility(s: RawStudy): Eligibility {
+  const ps = s.protocolSection ?? {};
+  const e = ps.eligibilityModule ?? {};
+  return {
+    nctId: ps.identificationModule?.nctId ?? "",
+    criteria: e.eligibilityCriteria,
+    minimumAge: e.minimumAge,
+    maximumAge: e.maximumAge,
+    sex: e.sex,
+    healthyVolunteers: e.healthyVolunteers,
+    interventions: (ps.armsInterventionsModule?.interventions ?? []).filter((i) => i.name).map((i) => ({ name: i.name as string, type: i.type })),
+  };
+}
+
+/** Eligibility keyed by NCT id for every study in a response; studies without the module still get an entry. */
+export function parseEligibilities(json: { studies?: RawStudy[] }): Record<string, Eligibility> {
+  const out: Record<string, Eligibility> = {};
+  for (const s of json.studies ?? []) { const e = parseEligibility(s); if (e.nctId) out[e.nctId] = e; }
+  return out;
+}
 
 export function parseStudies(json: { studies?: RawStudy[] }): CtgovStudy[] {
   return (json.studies ?? []).map((s) => {

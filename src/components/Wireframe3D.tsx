@@ -34,7 +34,7 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
     // Fit the scene to the card using the 88th-percentile radius rather than the maximum, so a few far-off
     // parts (an ADC approaching from the edge, a distant label anchor) do not shrink the whole drawing.
     const radii = basePts.map((p) => Math.hypot(p[0] - c[0], p[1] - c[1], p[2] - c[2])).sort((x, y) => x - y);
-    let maxR = radii.length ? radii[Math.min(radii.length - 1, Math.floor(radii.length * 0.88))] : 1;
+    let maxR = radii.length ? radii[Math.min(radii.length - 1, Math.floor(radii.length * 0.82))] : 1;
     if (mesh.animate) maxR *= 1.05;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     // Palette follows the site theme (data-theme on <html>), falling back to the OS scheme. Light mode uses
@@ -54,7 +54,7 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
     io.observe(canvas);
 
     const project = (time: number, W: number, H: number) => {
-      const s = Math.min(W * 0.34, H * 0.46) / (maxR || 1);
+      const s = Math.min(W * 0.36, H * 0.5) / (maxR || 1);
       const ay = ((time - t0) / 1000) * speed;
       const ax = tilt + Math.sin(((time - t0) / 1000) * 0.15) * 0.2;
       const cy = Math.cos(ay), sy = Math.sin(ay), cx = Math.cos(ax), sx = Math.sin(ax);
@@ -106,7 +106,7 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
         const depth = (pa[2] + pb[2]) / 2;
         const t = Math.max(0, Math.min(1, (depth + 1) / 2)); // 0 back … 1 front
         const rgb = cls === "accent" ? accent : cls === "hot" ? hot : base;
-        const al = (cls === "soft" ? (dark ? 0.12 + 0.28 * t : 0.2 + 0.35 * t) : cls === "accent" || cls === "hot" ? 0.5 + 0.5 * t : (dark ? 0.25 + 0.6 * t : 0.4 + 0.55 * t)) * mul;
+        const al = (cls === "soft" ? (dark ? 0.12 + 0.28 * t : 0.28 + 0.4 * t) : cls === "accent" || cls === "hot" ? 0.5 + 0.5 * t : (dark ? 0.25 + 0.6 * t : 0.4 + 0.55 * t)) * mul;
         ctx.lineWidth = (cls === "accent" || cls === "hot" ? 1.5 : 1.15) * (dark ? 1 : 1.15);
         ctx.strokeStyle = `rgba(${rgb}, ${al.toFixed(3)})`;
         ctx.fillStyle = ctx.strokeStyle;

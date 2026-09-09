@@ -13,7 +13,7 @@ export function FrontSchematic({ sectionId, height, compact = false }: { section
   const front = graph().get(sectionId);
   return (
     <div className="card overflow-hidden">
-      <Wireframe3D mesh={mesh} height={height ?? "h-64 sm:h-80"} speed={0.18} />
+      <Wireframe3D mesh={mesh} height={height ?? "h-72 sm:h-[26rem]"} speed={0.18} />
       <div className="px-4 py-3 border-t border-border text-sm flex flex-wrap items-baseline justify-between gap-2">
         <div><span className="font-medium">{front?.name ?? sectionId}: how this front works</span><span className="text-muted"> · {animated ? "animated" : "generic"} schematic, not to scale</span></div>
       </div>

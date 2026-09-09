@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { calendar, type CalendarKind } from "@/data/calendar";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
 import { statusClass } from "@/lib/text";
 
-export const metadata: Metadata = { title: "Readout calendar", description: "Upcoming FDA decisions, advisory committees, expected trial readouts, and congresses in oncology, on one timeline." };
+export const metadata: Metadata = pageMeta({ title: "Readout calendar", description: "Upcoming FDA decisions, advisory committees, expected trial readouts, and congresses in oncology, on one timeline.", path: "/calendar/" });
 
 const KIND_LABEL: Record<CalendarKind, string> = { pdufa: "Regulatory decision", adcom: "Advisory committee", "readout-expected": "Expected readout", congress: "Congress", policy: "Policy" };
 const KIND_TONE: Record<CalendarKind, string> = { pdufa: "approved", adcom: "phase-3", "readout-expected": "phase-2", congress: "established", policy: "planned" };

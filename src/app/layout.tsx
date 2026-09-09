@@ -16,11 +16,21 @@ import { NAV_GROUPS } from "@/lib/nav";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
+/**
+ * Site-wide defaults. Every page sets its own title, description, canonical URL and social copies via `pageMeta`
+ * (src/lib/seo.ts); these are the fallbacks and the shared bits (metadataBase, title template, robots, Twitter card).
+ * The Open Graph / Twitter image comes from src/app/opengraph-image.png and is inherited by every route.
+ */
 export const metadata: Metadata = {
   title: { default: "OnCo — time to win", template: "%s · OnCo" },
   description: "Total information dominance on cancer: every technology, target, product, company, institution, pathway, trial, and idea, one page per object, linked, with plain-English TL;DRs.",
   metadataBase: new URL("https://onco.cc"),
-  openGraph: { title: "OnCo — time to win", description: "The current state of the art, the history, and what is coming, for every cancer.", type: "website" },
+  applicationName: "OnCo",
+  keywords: ["oncology", "cancer", "cancer treatments", "clinical trials", "drug targets", "antibody-drug conjugates", "radiopharmaceuticals", "knowledge graph", "open data"],
+  openGraph: { title: "OnCo — time to win", description: "The current state of the art, the history, and what is coming, for every cancer.", type: "website", siteName: "OnCo", locale: "en_GB", url: "https://onco.cc/" },
+  twitter: { card: "summary_large_image", title: "OnCo — time to win", description: "The current state of the art, the history, and what is coming, for every cancer." },
+  robots: { index: true, follow: true },
+  formatDetection: { telephone: false },
 };
 
 function Mark({ size = 28 }: { size?: number }) {

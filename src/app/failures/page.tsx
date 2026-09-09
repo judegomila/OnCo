@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity } from "@/lib/schema";
 import { Container, GroupKicker, KindChip, PageHeader, StatusChip } from "@/components/ui";
 import { paragraphs } from "@/lib/text";
 
-export const metadata: Metadata = { title: "Failure museum", description: "Drugs, targets, and trials that did not work, and what each taught. Failures are data." };
+export const metadata: Metadata = pageMeta({ title: "Failure museum", description: "Drugs, targets, and trials that did not work, and what each taught. Failures are data.", path: "/failures/" });
 
 const LESSONS: Array<{ key: string; title: string; blurb: string }> = [
   { key: "lesson:phase-2-mirage", title: "The phase 2 mirage", blurb: "Encouraging early data, often single-arm response rates on a checkpoint-inhibitor backbone, that phase 3 could not reproduce." },

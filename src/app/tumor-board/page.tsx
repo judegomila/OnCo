@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { matchRows } from "@/lib/biomarker-match";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { TumorBoard, type TbCancer } from "@/components/TumorBoard";
 
-export const metadata: Metadata = { title: "Tumour board mode", description: "Enter a cancer type and biomarkers and see the products, technologies, trials, pairings, and cautions they unlock in OnCo." };
+export const metadata: Metadata = pageMeta({ title: "Tumour board mode", description: "Enter a cancer type and biomarkers and see the products, technologies, trials, pairings, and cautions they unlock in OnCo.", path: "/tumor-board/" });
 
 export default function TumorBoardPage() {
   const g = graph();

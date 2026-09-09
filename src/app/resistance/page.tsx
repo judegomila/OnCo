@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { resistance, type Mechanism, type ResistanceClass } from "@/data/resistance";
 import { CATEGORIES, categoryOf, type MechanismCategory } from "@/lib/resistance-categories";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
@@ -6,7 +7,7 @@ import { RefChips } from "@/components/RefChips";
 import { AtlasProvider, CategoryDot, CategoryScope, ResistanceMatrix, type MatrixRow } from "@/components/ResistanceMatrix";
 import { ResistanceMap, type MapRoute } from "@/components/ResistanceMap";
 
-export const metadata: Metadata = { title: "Resistance atlas", description: "For each drug class, how tumours escape and which drugs and strategies close the route." };
+export const metadata: Metadata = pageMeta({ title: "Resistance atlas", description: "For each drug class, how tumours escape and which drugs and strategies close the route.", path: "/resistance/" });
 
 const shortLabel = (r: ResistanceClass) => r.drugClass.split(" (")[0];
 const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");

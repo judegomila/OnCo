@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PivotTable, type Dim, type DimMeta, type Fact } from "@/components/PivotTable";
 
-export const metadata: Metadata = { title: "Landscape grid", description: "Count products, trials or technologies by cancer, target, treatment type or company in one grid. Cross-tabulate products, trials, or technologies by cancer, target, modality, company, front, status, or phase." };
+export const metadata: Metadata = pageMeta({ title: "Landscape grid", description: "Count products, trials or technologies by cancer, target, treatment type or company in one grid. Cross-tabulate products, trials, or technologies by cancer, target, modality, company, front, status, or phase.", path: "/pivot/" });
 
 const short = (s: string) => s.replace(/ \(.*\)$/, "");
 

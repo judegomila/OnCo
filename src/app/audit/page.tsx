@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { runAudit, type Audit } from "../../../scripts/audit";
 
-export const metadata: Metadata = { title: "Audit", description: "Automated staleness, contradiction, and registry fact-check findings for the OnCo corpus." };
+export const metadata: Metadata = pageMeta({ title: "Audit", description: "Automated staleness, contradiction, and registry fact-check findings for the OnCo corpus.", path: "/audit/" });
 
 type FactcheckReport = { generated: string; checked: { drugs: number; trials: number }; mismatches: Array<{ check: string; id: string; name: string; route: string; recorded: string; registry: string; url: string; severity: string }>; errors: string[] };
 

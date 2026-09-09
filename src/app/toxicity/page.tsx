@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { ToxicityBrowser, type ToxRow } from "@/components/ToxicityBrowser";
 
-export const metadata: Metadata = { title: "Toxicity compare", description: "Compare adverse-event rates across products of the same modality, from the prescribing information." };
+export const metadata: Metadata = pageMeta({ title: "Toxicity compare", description: "Compare adverse-event rates across products of the same modality, from the prescribing information.", path: "/toxicity/" });
 
 const modalityClass = (m: string) => /bispecific adc/i.test(m) ? "Bispecific ADC" : /^adc/i.test(m) ? "ADC" : /engager|immtac/i.test(m) ? "T-cell engager" : /bispecific/i.test(m) ? "Bispecific antibody" : /monoclonal/i.test(m) ? "Checkpoint / antibody" : /car-t|til|tcr-t/i.test(m) ? "Cell therapy" : /radioligand|alpha|theranostic/i.test(m) ? "Radiopharmaceutical" : /cdk4\/6/i.test(m) ? "CDK4/6 inhibitor" : /parp/i.test(m) ? "PARP inhibitor" : /kras|ras\(on\)/i.test(m) ? "RAS inhibitor" : /kinase/i.test(m) ? "Kinase inhibitor" : /cytotoxic/i.test(m) ? "Chemotherapy" : /oncolytic|vaccine/i.test(m) ? "Immunotherapy (other)" : m;
 

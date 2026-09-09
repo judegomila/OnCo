@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { linkers, payloads } from "@/data/payloads";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
@@ -8,7 +9,7 @@ import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { withTermHovers } from "@/lib/term-hover";
 
-export const metadata: Metadata = { title: "ADC payload & linker registry", description: "Every ADC payload and linker: mechanism, bystander capability, efflux susceptibility, typical DAR, toxicities, and the products that use them." };
+export const metadata: Metadata = pageMeta({ title: "ADC payload & linker registry", description: "Every ADC payload and linker: mechanism, bystander capability, efflux susceptibility, typical DAR, toxicities, and the products that use them.", path: "/payloads/" });
 
 /** Link a registry row to its glossary page with a hover explanation. */
 function Obj({ id, children, className = "" }: { id: string; children: React.ReactNode; className?: string }) {

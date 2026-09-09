@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
@@ -6,7 +7,7 @@ import { trialEvidence, evidenceLabel } from "@/lib/evidence";
 import { Pictogram, primaryOutcomeSummary } from "@/components/Pictogram";
 import { Container, GroupKicker, PageHeader, StatusChip } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Evidence", description: "Every trial ranked by evidence strength, with its primary endpoint drawn as people out of 100, and the scoring formula disclosed." };
+export const metadata: Metadata = pageMeta({ title: "Evidence", description: "Every trial ranked by evidence strength, with its primary endpoint drawn as people out of 100, and the scoring formula disclosed.", path: "/evidence/" });
 
 export default function EvidencePage() {
   const g = graph();

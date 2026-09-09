@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CountryRanking, type CountryRow } from "@/components/CountryRanking";
 import { countryExtras } from "@/data/country-extras";
 import data from "../../../public/openalex/countries.json";
 
-export const metadata: Metadata = { title: "Countries: who is doing the most cancer research", description: "Countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders." };
+export const metadata: Metadata = pageMeta({ title: "Countries: who is doing the most cancer research", description: "Countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.", path: "/countries/" });
 
 type Raw = { built: string; years: number[]; source: string; countries: Record<string, { name: string; works: Record<string, number>; total: number; citedHigh: number; oa: number; trials?: number }> };
 

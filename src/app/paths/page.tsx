@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { paths } from "@/data/paths";
 import { graph } from "@/lib/graph";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Reading paths", description: "Curated sequences of OnCo pages: ADCs in 30 minutes, understand your TNBC diagnosis, radiopharma for investors, and more." };
+export const metadata: Metadata = pageMeta({ title: "Reading paths", description: "Curated sequences of OnCo pages: ADCs in 30 minutes, understand your TNBC diagnosis, radiopharma for investors, and more.", path: "/paths/" });
 
 export default function PathsIndex() {
   const g = graph();

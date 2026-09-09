@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import Link from "next/link";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { MarkdownLite } from "@/components/MarkdownLite";
 
-export const metadata: Metadata = { title: "Corrections", description: "Every factual correction made to OnCo: what was wrong, how it was found, and the fix." };
+export const metadata: Metadata = pageMeta({ title: "Corrections", description: "Every factual correction made to OnCo: what was wrong, how it was found, and the fix.", path: "/corrections/" });
 
 export default function Corrections() {
   const md = readFileSync(join(process.cwd(), "CORRECTIONS.md"), "utf8");

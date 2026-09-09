@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { rankUniversities } from "@/lib/ranking";
 import { graph } from "@/lib/graph";
@@ -7,7 +8,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { Logo } from "@/components/Logo";
 import { OPENALEX, OutputTable, UniversityOutputTable, outputRows, universityOutputRows } from "@/components/OutputTable";
 
-export const metadata: Metadata = { title: "Research output ranking", description: "Universities and cancer centres ranked by oncology research output: OpenAlex counts, external bibliometric leaders, and the corpus-derived score." };
+export const metadata: Metadata = pageMeta({ title: "Research output ranking", description: "Universities and cancer centres ranked by oncology research output: OpenAlex counts, external bibliometric leaders, and the corpus-derived score.", path: "/universities/" });
 
 export default function Universities() {
   const g = graph();

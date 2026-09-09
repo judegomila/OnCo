@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { digests } from "@/data/digests";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Congress digests", description: "What changed at each oncology congress, item by item, with sources and links to the affected objects." };
+export const metadata: Metadata = pageMeta({ title: "Congress digests", description: "What changed at each oncology congress, item by item, with sources and links to the affected objects.", path: "/digests/" });
 
 export default function DigestsIndex() {
   return (

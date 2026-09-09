@@ -29,9 +29,10 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
     // Read shareable state from the URL after hydration (deferred to avoid a synchronous setState in the effect).
     const id = requestAnimationFrame(() => {
       const p = new URLSearchParams(window.location.search);
-      const c = p.get("cancer"), k = p.get("kind") as Kind | null;
+      const c = p.get("cancer"), k = p.get("kind") as Kind | null, query = p.get("q");
       if (c && cancers.some((x) => x.id === c)) setCancer(c);
       if (k && KINDS_ORDER.includes(k)) setKind(k);
+      if (query) setQ(query); // /explore/?q=… is the site search target advertised in the WebSite JSON-LD
     });
     return () => cancelAnimationFrame(id);
   }, [cancers]);
@@ -39,9 +40,10 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
     const p = new URLSearchParams();
     if (cancer) p.set("cancer", cancer);
     if (kind !== "drug") p.set("kind", kind);
+    if (q.trim()) p.set("q", q.trim());
     const qs = p.toString();
     window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
-  }, [cancer, kind]);
+  }, [cancer, kind, q]);
 
   const cancerOptions = useMemo(() => cancers.map((c) => ({ value: c.id, label: c.name, group: c.group })), [cancers]);
   const cancerName = cancers.find((c) => c.id === cancer)?.name;

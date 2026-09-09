@@ -10,10 +10,11 @@ export function generateStaticParams() {
   return graph().entities.map((e) => ({ id: e.id }));
 }
 
+/** Embed cards are iframe content that duplicates the entity page, so they are noindex (follow) and point at the real page. */
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const e = graph().get(id);
-  return e ? { title: `${e.name} · OnCo card`, description: e.tldr } : {};
+  return e ? { title: `${e.name} · OnCo card`, description: e.tldr, robots: { index: false, follow: true }, alternates: { canonical: `${SITE}${routeFor(e)}` } } : {};
 }
 
 export default async function EmbedCard({ params }: { params: Promise<{ id: string }> }) {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
@@ -6,7 +7,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RegionMatrix, type MatrixRow } from "@/components/RegionMatrix";
 import { REGIONS, REGION_META, regionalApprovals, approvedRegions } from "@/data/regional-approvals";
 
-export const metadata: Metadata = { title: "Regulatory regions", description: "Which cancer drugs are approved in the US, EU, UK, Japan, China and Australia, where the gaps are, who approves first, and how long the rest of the world waits." };
+export const metadata: Metadata = pageMeta({ title: "Regulatory regions", description: "Which cancer drugs are approved in the US, EU, UK, Japan, China and Australia, where the gaps are, who approves first, and how long the rest of the world waits.", path: "/regulatory/regions/" });
 
 export default function RegionsPage() {
   const g = graph();

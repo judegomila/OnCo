@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
@@ -8,7 +9,7 @@ import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { statusClass } from "@/lib/text";
 
-export const metadata: Metadata = { title: "Open evaluation", description: "A public benchmark of 100 questions a patient or clinician might ask, scored against OnCo and any other system with the same rubric." };
+export const metadata: Metadata = pageMeta({ title: "Open evaluation", description: "A public benchmark of 100 questions a patient or clinician might ask, scored against OnCo and any other system with the same rubric.", path: "/eval/" });
 
 type RunSummary = { file: string; system: string; date: string; questions: number; meanScore: number; meanRetrievalRecall?: number; byCategory: Record<string, number>; method: string };
 type RunResult = { id: string; score: number; met: number; total: number; missed: string[]; retrievalRecall?: number };

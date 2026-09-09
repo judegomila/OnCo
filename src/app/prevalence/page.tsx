@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PrevalenceMatrix, type MatrixCancer, type MatrixTarget } from "@/components/PrevalenceMatrix";
 import { pctValue } from "@/components/PrevalenceTable";
 
-export const metadata: Metadata = { title: "Biomarker prevalence matrix", description: "How common each drug target or alteration is in each cancer, sourced, as a filterable heat matrix." };
+export const metadata: Metadata = pageMeta({ title: "Biomarker prevalence matrix", description: "How common each drug target or alteration is in each cancer, sourced, as a filterable heat matrix.", path: "/prevalence/" });
 
 export default function Prevalence() {
   const g = graph();

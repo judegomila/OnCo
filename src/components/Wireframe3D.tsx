@@ -31,10 +31,11 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
     const c = [0, 0, 0];
     for (const p of basePts) { c[0] += p[0]; c[1] += p[1]; c[2] += p[2]; }
     c[0] /= n; c[1] /= n; c[2] /= n;
-    let maxR = 0;
-    for (const p of basePts) maxR = Math.max(maxR, Math.hypot(p[0] - c[0], p[1] - c[1], p[2] - c[2]));
-    // Animated meshes may move parts outside the initial bounds; leave headroom.
-    if (mesh.animate) maxR *= 1.15;
+    // Fit the scene to the card using the 88th-percentile radius rather than the maximum, so a few far-off
+    // parts (an ADC approaching from the edge, a distant label anchor) do not shrink the whole drawing.
+    const radii = basePts.map((p) => Math.hypot(p[0] - c[0], p[1] - c[1], p[2] - c[2])).sort((x, y) => x - y);
+    let maxR = radii.length ? radii[Math.min(radii.length - 1, Math.floor(radii.length * 0.88))] : 1;
+    if (mesh.animate) maxR *= 1.05;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     // Palette follows the site theme (data-theme on <html>), falling back to the OS scheme. Light mode uses
     // darker, more saturated strokes and slightly heavier lines so the wireframes read on a white card.
@@ -53,7 +54,7 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
     io.observe(canvas);
 
     const project = (time: number, W: number, H: number) => {
-      const s = (Math.min(W, H) * 0.42) / (maxR || 1);
+      const s = Math.min(W * 0.34, H * 0.46) / (maxR || 1);
       const ay = ((time - t0) / 1000) * speed;
       const ax = tilt + Math.sin(((time - t0) / 1000) * 0.15) * 0.2;
       const cy = Math.cos(ay), sy = Math.sin(ay), cx = Math.cos(ax), sx = Math.sin(ax);

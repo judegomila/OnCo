@@ -25,7 +25,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/fronts/", label: "Fronts", blurb: "The fronts of the war: imaging to cell therapy." },
       { href: "/technologies/", label: "Technologies", blurb: "Every way we see, measure, or attack a tumour." },
       { href: "/targets/", label: "Targets", blurb: "The molecules drugs and tracers aim at." },
-      { href: "/drugs/", label: "Products", blurb: "Approved and pipeline products, with rotating molecules." },
+      { href: "/drugs/", label: "Treatments & tests", blurb: "Approved and pipeline products, with rotating molecules." },
       { href: "/pathways/", label: "Pathways", blurb: "Signalling circuits, drawn and explained." },
       { href: "/prevalence/", label: "Prevalence", blurb: "How common each target is in each cancer." },
       { href: "/trials/", label: "Trials", blurb: "Landmark and current trials." },

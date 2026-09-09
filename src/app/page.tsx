@@ -108,7 +108,7 @@ export default function Home() {
                     <span className="text-xl font-semibold tabular-nums leading-none tracking-tight">{fmt(n)}</span>
                     <span className="flex items-center gap-1.5 text-xs text-muted capitalize">
                       <span aria-hidden className={`inline-flex ${KIND_COLOR[k]} !bg-transparent border-0`}><span className="h-1.5 w-1.5 rounded-full bg-current" /></span>
-                      {KIND_META[k].plural}
+                      {(KIND_META[k].title ?? KIND_META[k].plural)}
                     </span>
                   </Link>
                 </li>

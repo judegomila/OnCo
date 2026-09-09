@@ -470,12 +470,12 @@ export const REL_FIELDS = [
 ] as const;
 export type RelField = (typeof REL_FIELDS)[number];
 
-export const KIND_META: Record<Kind, { plural: string; label: string; route: string; blurb: string; color: string }> = {
+export const KIND_META: Record<Kind, { plural: string; label: string; route: string; blurb: string; color: string; /** Display title where the plural is not the best public name (e.g. "Treatments & tests" for drugs, which also covers tests and devices). */ title?: string }> = {
   cancer: { plural: "cancers", label: "Cancer", route: "cancers", blurb: "One page per disease: state of the art, history, and what is coming.", color: "rose" },
   section: { plural: "fronts", label: "Front", route: "fronts", blurb: "The fronts of the war on cancer: from imaging and early detection to ADCs, radiopharma, and cell therapy.", color: "slate" },
   technology: { plural: "technologies", label: "Technology", route: "technologies", blurb: "Every way we see, measure, or attack a tumour, explained.", color: "sky" },
   target: { plural: "targets", label: "Target", route: "targets", blurb: "The molecules drugs and tracers aim at.", color: "violet" },
-  drug: { plural: "drugs", label: "Product", route: "drugs", blurb: "Approved and pipeline products, with what they hit and who makes them.", color: "emerald" },
+  drug: { plural: "drugs", label: "Product", route: "drugs", title: "Treatments & tests", blurb: "Approved and pipeline products, with what they hit and who makes them.", color: "emerald" },
   company: { plural: "companies", label: "Company", route: "companies", blurb: "Who is building what.", color: "amber" },
   institution: { plural: "institutions", label: "Institution", route: "institutions", blurb: "The centres and universities that matter, mapped and ranked.", color: "teal" },
   pathway: { plural: "pathways", label: "Pathway", route: "pathways", blurb: "The classic signalling circuits, drawn and explained.", color: "fuchsia" },

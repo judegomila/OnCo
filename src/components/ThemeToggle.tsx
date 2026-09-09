@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 export type Theme = "system" | "light" | "dark" | "contrast";
 const KEY = "onco:theme";
-const ORDER: Theme[] = ["system", "light", "dark", "contrast"];
+const ORDER: Theme[] = ["light", "dark", "contrast", "system"];
 const LABEL: Record<Theme, string> = { system: "Auto", light: "Light", dark: "Dark", contrast: "High contrast" };
 const ICON: Record<Theme, string> = { system: "◐", light: "☀", dark: "☾", contrast: "◑" };
 
@@ -19,7 +19,7 @@ function apply(t: Theme) {
  * Render <ThemeScript /> in <head> (or the top of <body>) to apply the saved theme before paint.
  */
 export function ThemeToggle({ className = "" }: { className?: string }) {
-  const [theme, setTheme] = useState<Theme>("system");
+  const [theme, setTheme] = useState<Theme>("light");
   useEffect(() => {
     const id = requestAnimationFrame(() => {
       const saved = localStorage.getItem(KEY) as Theme | null;
@@ -40,6 +40,7 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
 
 /** Inline script that applies the saved theme before first paint (avoids a flash). */
 export function ThemeScript() {
-  const js = `try{var t=localStorage.getItem("${KEY}");if(t&&t!=="system"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}`;
+  // Light is the default; "system" follows the OS only when a reader chooses it.
+  const js = `try{var t=localStorage.getItem("${KEY}")||"light";if(t!=="system"){document.documentElement.setAttribute("data-theme",t)}}catch(e){document.documentElement.setAttribute("data-theme","light")}`;
   return <script dangerouslySetInnerHTML={{ __html: js }} />;
 }

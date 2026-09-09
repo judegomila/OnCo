@@ -74,7 +74,7 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
         rows: g.kind("drug").map((d) => {
           const first = d.approvals.length ? Math.min(...d.approvals.map((a) => a.year)) : undefined, last = d.approvals.length ? Math.max(...d.approvals.map((a) => a.year)) : undefined;
           const pc = payloadClass(d.payload);
-          return { ...base(d), molecule: d.id, modality: d.modality, sub: [d.brand, d.code].filter(Boolean).join(" · "), facets: { cancers: names(d.cancers), modality: [modalityClass(d.modality)], targets: names(d.targets), companies: names(d.companies), front: frontsOf(d), payload: pc ? [pc] : [] }, cols: { modality: modalityClass(d.modality), targets: links(d.targets), cancers: links(d.cancers), companies: links(d.companies), approved: first ? (last && last !== first ? `${first}–${last}` : String(first)) : undefined }, sortKeys: { approved: last ?? 0 } };
+          return { ...base(d), molecule: d.id, modality: d.modality, sub: [d.brand, d.code].filter(Boolean).join(" · "), facets: { cancers: names(d.cancers), modality: [modalityClass(d.modality)], targets: names(d.targets), companies: names(d.companies), front: frontsOf(d), payload: pc ? [pc] : [] }, cols: { modality: d.technologies.length ? [{ label: modalityClass(d.modality), href: routeFor(g.must(d.technologies[0])), tip: g.must(d.technologies[0]).tldr }] : modalityClass(d.modality), targets: links(d.targets), cancers: links(d.cancers), companies: links(d.companies), approved: first ? (last && last !== first ? `${first}–${last}` : String(first)) : undefined }, sortKeys: { approved: last ?? 0 } };
         }),
         facets: [{ key: "cancers", label: "Cancer", width: "w-56" }, { key: "modality", label: "Modality", searchable: false }, { key: "targets", label: "Target", width: "w-44" }, { key: "companies", label: "Company" }, { key: "front", label: "Front", searchable: false, width: "w-44" }, { key: "payload", label: "ADC payload", searchable: false, width: "w-44" }],
         columns: [{ key: "modality", label: "Modality", sortable: true, hide: "hidden sm:table-cell" }, { key: "targets", label: "Targets", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "companies", label: "Companies", hide: "hidden lg:table-cell" }, { key: "approved", label: "Approved", sortable: true, numeric: true }],
@@ -181,7 +181,7 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
   const k = ROUTE_TO_KIND[kind];
   if (!k) notFound();
   const meta = KIND_META[k];
-  const title = k === "section" ? "Fronts of the war on cancer" : k === "term" ? "Glossary" : k === "bottleneck" ? "Bottlenecks of the war on cancer" : k === "drug" ? "Products" : cap(meta.plural);
+  const title = k === "section" ? "Fronts of the war on cancer" : k === "term" ? "Glossary" : k === "bottleneck" ? "Bottlenecks of the war on cancer" : (meta.title ?? cap(meta.plural));
   const built = buildBrowser(k);
   // Glossary tooltips inside free-text cells: any non-chip, non-numeric string column gets its technical terms marked.
   const richKeys = new Set(built.columns.filter((c) => !c.chip && !c.numeric).map((c) => c.key));

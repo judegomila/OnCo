@@ -1,103 +1,78 @@
-# OnCo — total information dominance on cancer
+# OnCo — time to win
 
 **Live:** https://onco.cc
 
-OnCo is a public, cited, editable knowledge graph of oncology. Every cancer, front, technology, target, product, company, institution, person, pathway, trial, pairing, roadmap, idea, and collection has its own page. Every page opens with a plain-English TL;DR (switchable to a simpler reading level or to Spanish, Chinese, Portuguese, or Hindi), continues with a technical summary, and ends with everything in the graph that connects to it. Links are declared once and backlinks are derived, so the graph stays consistent.
+OnCo is a public, cited, editable knowledge graph of oncology: every cancer, front, technology, target, treatment, company, institution, person, pathway, trial, key paper, journal, pairing, roadmap, bottleneck and idea, one page each, with a plain-English TL;DR before the technical layer and links in every direction. It exists so that a patient, a clinician, a scientist, an investor or a policymaker can walk from any object to everything connected to it and see the state of the art, the history and what is coming.
 
-> **Work in progress. Verify at source.** Every fact on this site is being built and checked in the open and may be incomplete, out of date, or wrong. Do your own research and confirm anything here at its primary source before relying on it. Nothing here is medical advice; decisions belong with you and your clinicians.
+> **Work in progress. Verify at source.** Every fact is being built and checked in the open and may be incomplete, out of date or wrong. Nothing here is medical advice. Do your own research and check anything that matters at its primary source, which every page links.
 
-## What you can do
+Current counts live at https://onco.cc/about/ and print from `npm run validate`. This file deliberately carries no numbers, so it never goes stale.
 
-| Group | Pages |
+## How the site is organised
+
+| Area | What it holds |
 |---|---|
-| **Find** | [Explore](https://onco.cc/explore/) (pick a cancer, switch kind, ranked list), [For me](https://onco.cc/for-me/), [Navigator](https://onco.cc/navigator/) (line of therapy from a browser-only profile), [Tumour board](https://onco.cc/tumor-board/), [Compare](https://onco.cc/compare/), [Pivot](https://onco.cc/pivot/), [Timeline](https://onco.cc/timeline/), [Query](https://onco.cc/query/), [Graph](https://onco.cc/graph/), [Body map](https://onco.cc/body/), ⌘K search |
-| **Map** | [Cancers](https://onco.cc/cancers/), [Fronts](https://onco.cc/fronts/), [Technologies](https://onco.cc/technologies/), [Targets](https://onco.cc/targets/), [Products](https://onco.cc/drugs/), [Pathways](https://onco.cc/pathways/), [Prevalence](https://onco.cc/prevalence/), [Trials](https://onco.cc/trials/), [Pairings](https://onco.cc/pairings/), [Roadmaps](https://onco.cc/roadmaps/), [Ideas](https://onco.cc/ideas/), [Glossary](https://onco.cc/terms/), [Collections](https://onco.cc/collections/) |
-| **Intelligence** | [Evidence](https://onco.cc/evidence/), [Readout calendar](https://onco.cc/calendar/), [Congress digests](https://onco.cc/digests/), [Failure museum](https://onco.cc/failures/), [Resistance atlas](https://onco.cc/resistance/), [Payloads & linkers](https://onco.cc/payloads/), [Regulatory timeline](https://onco.cc/regulatory/), [Toxicity compare](https://onco.cc/toxicity/), [Isotope supply](https://onco.cc/isotopes/), [State of the war 2026](https://onco.cc/report/2026/), [Changelog](https://onco.cc/changelog/), [Audit](https://onco.cc/audit/), [Corrections](https://onco.cc/corrections/) |
-| **Who** | [Institutions](https://onco.cc/institutions/) (map and disclosed ranking), [Universities](https://onco.cc/universities/), [Trial leadership](https://onco.cc/leadership/), [People](https://onco.cc/people/), [Companies](https://onco.cc/companies/), [Funding](https://onco.cc/funding/) |
-| **Learn & contribute** | [Reading paths](https://onco.cc/paths/), [About & methodology](https://onco.cc/about/), [Roadmap ideas](https://onco.cc/hub/), [Gaps to fill](https://onco.cc/gaps/), [Suggest an edit](https://onco.cc/suggest/), [Open evaluation](https://onco.cc/eval/), [Open API](https://onco.cc/api/) |
+| **Start here** | Explore (ranked, filterable view of everything for a cancer), For me (pick your cancer type), Navigator, Tumour board, Compare, Landscape grid, Timeline, Query builder, Graph explorer, Body map |
+| **Cancers & treatments** | One page per cancer type, front, technology, target, treatment or test, trial, pairing, pathway, roadmap, key paper and glossary term; the Mechanics of cancer atlas; the Resistance atlas |
+| **News & evidence** | Evidence ranking, readout calendar, congress digests, research pulse, what the world is publishing, approvals by region, failures, payloads and linkers, toxicity, isotopes, key papers, journals, annual report, changelog, audit and corrections |
+| **Institutions & people** | Institutions, universities, trial leadership, companies, countries, cases by country, funding, people, heroes and heroines |
+| **Learn & contribute** | Reading paths, About and methodology, Roadmap (what we are building), Gaps, Bottlenecks of the war on cancer, Ideas, Suggest an edit, Evaluation, Open API |
 
-Product pages show the exact molecule as a slowly rotating 3D wireframe (PubChem conformers for small molecules, the payload for ADCs, real PDB structures for antibodies where they exist, drug–target complexes with binding pockets for several kinase inhibitors), plus dosing, safety, cost and access, a dated regulatory timeline, and an animated mechanism card. Technology, front, and glossary pages open with animated wireframe schematics. Trials carry structured outcomes drawn as people out of 100.
+Every treatment with a small-molecule structure shows the exact molecule as a slowly rotating wireframe; antibodies, cells, vaccines, devices and tests show an explained placeholder. Fronts, technologies, cancers, targets and glossary categories carry hand-drawn animated schematics. Readers pick their country in the header, and "approved" then means their regulator's verdict, with other regions shown as flags.
 
-## What is in the corpus
+## Repository layout
 
-Counts from `npm run validate` on 2026-09-08. Run it for the current numbers.
-
-| Kind | Count |
-|---|---|
-| Cancers | 31 (every one with a deep "spike": standard of care by setting with guideline mapping, state of the art, history, pipeline, open problems) |
-| Fronts | 18 |
-| Technologies | 153 |
-| Targets | 72 (with sourced prevalence by cancer) |
-| Products | 290 |
-| Companies | 180 |
-| Institutions | 73 |
-| Pathways | 13 |
-| Terms | 154 |
-| Trials | 387 (with structured outcomes, replication notes, evidence score) |
-| Pairings | 85 |
-| Roadmaps | 9 |
-| Ideas | 79 |
-| Collections | 30 |
-| People | 0 (schema in place; records arriving) |
-
-Total: 1574 objects, about 3200 static pages.
-
-## The rules for facts
-
-1. **Cite it.** New facts carry a source URL. If it cannot be sourced, leave the field out.
-2. **Keep it current.** Every record carries an internal last-checked date for maintainers; pages show the current state.
-3. **Prefer a link to a remembered number.** Trial figures appear only when sourced on the page or in the linked trial record.
-4. **Evidence tier is visible.** Approved, phase 3, phase 2, phase 1, preclinical, concept: colour-coded everywhere, plus a disclosed evidence score.
-5. **Ideas are labelled as ideas**, with a maturity grade, a proposed test, and a named confidence estimate.
-6. **Unknown beats guessed.** Missing fields render as missing.
-7. **No patient data.** Public information about technologies, products, organisations, trials, and public professional figures only.
-8. **Failures are data.** Negative trials, withdrawals, and discontinued programmes are kept and explained.
-
-Trust tooling: `/audit/` (staleness and contradictions, recomputed each build), weekly fact checks against openFDA and ClinicalTrials.gov, a provenance line on every page from `git blame`, a public corrections log, and expert and patient-advocate review badges with mandatory conflict-of-interest statements.
-
-## Run it
-
-```bash
-npm install
-npm run validate     # schema + every cross-reference (fails on a bad id)
-npm test             # vitest: schema, invariants, ranking
-npm run dev          # http://localhost:3000 (builds the JSON API first)
-npm run build        # static export to out/
+```
+src/data/            The corpus: TypeScript records, one array per kind or theme
+  index.ts           ALL_INPUTS: every array that becomes part of the graph
+  cancers.ts, drugs.ts, targets.ts, technologies.ts, companies.ts, institutions.ts, ...
+  spikes/            Per-cancer deep dives merged into the cancer records at load time
+  people/, key-papers/, ideas-waves/, institutions/   Multi-file kinds, each with an index
+  regional-approvals.ts, payloads.ts, resistance.ts, biomarkers.ts, ...   Structured side data
+src/lib/schema.ts    Zod schemas for every kind, KIND_META (routes, labels), REL_FIELDS
+src/lib/graph.ts     Builds the graph: validates ids, resolves references, derives backlinks
+src/lib/nav.ts       Navigation groups and every top-level route
+src/app/             Next.js App Router pages; src/app/[kind]/ renders every index, src/components/EntityDetail.tsx every object page
+src/components/      UI: EntityBrowser (the shared filterable table), Wireframe3D and schematics, Tip (tooltips), icons, maps
+scripts/             Fetchers and checks: structures (PubChem/RCSB), logos, OpenAlex, GLOBOCAN, trials, papers, factcheck, audit, provenance, API build
+public/              Self-hosted structures, logos, snapshots, the static JSON API under /api/v1/
+docs/                GAPS.md (what is still missing) and design notes
 ```
 
-Node 22 or newer. No server, database, environment variables, or tracking. Optional data refreshers (network): `fetch:structures`, `fetch:logos`, `fetch:trials`, `fetch:openalex`, `factcheck`, `provenance`, `audit`, `bench`.
+### Adding or fixing a record
 
-## Layout
+1. Find the kind's file under `src/data/` (or the right sub-file for multi-file kinds) and add or edit the record. Every record needs an `id`, `name`, `tldr` (plain English, one or two sentences), `summary`, `asOf`, and at least one primary `links` entry.
+2. Reference other objects by id in the relationship fields (`cancers`, `drugs`, `targets`, `technologies`, `trials`, `terms`, `people`, `bottlenecks`, `keyPapers`, `related`, and so on). Backlinks are derived, so link in one direction only.
+3. Run `npm run validate`. It rejects duplicate ids, dangling references and malformed records, and prints the counts per kind.
+4. Run `npm run typecheck && npm run lint && npm test && npm run build`.
+5. Open a pull request. Suggested edits from the site arrive as GitHub issues using the templates in `.github/ISSUE_TEMPLATE/`.
 
-| Path | What |
+New kinds need: a schema in `src/lib/schema.ts` (plus `KIND_META`, and the rel field in `Base` and `REL_FIELDS` if objects can point at it), a data file spread into `ALL_INPUTS`, a `case` in `buildBrowser` (`src/app/[kind]/page.tsx`) for the index table, a `case` in `kindTabs` (`src/components/EntityDetail.tsx`) for the page, a colour in `src/lib/text.ts` and `GraphExplorer`, and a nav entry.
+
+### Scripts
+
+| Command | Purpose |
 |---|---|
-| `src/lib/schema.ts` | Zod schemas for all kinds. The source of truth. |
-| `src/lib/graph.ts` | Loads and validates the corpus; derives backlinks and neighbourhoods. |
-| `src/lib/ranking.ts`, `relevance.ts`, `evidence.ts` | The disclosed scoring formulas. |
-| `src/data/*.ts` | The corpus, one file per kind. Edit these. |
-| `src/data/spikes/*.ts` | One deep dive per cancer, merged onto the base record at build time. |
-| `src/data/people/` | Clinicians and scientists, one file per group. |
-| `src/app/` | Next.js App Router pages. |
-| `public/structures/`, `public/logos/`, `public/openalex/` | Self-hosted data fetched by `scripts/`. |
-| `scripts/` | Validators, fetchers, fact checks, provenance, benchmark. |
-| `mcp/server.ts` | MCP server exposing the corpus to AI assistants (`npm run mcp`). |
+| `npm run validate` | Parse the corpus, check ids and references, print counts |
+| `npm run dev` / `npm run build` | Develop / build the static site into `out/` |
+| `npm run fetch:structures` | Pull molecule structures from PubChem and RCSB for `src/data/structures.ts` |
+| `npm run fetch:logos` | Self-host institution and company logos (Wikidata or favicon) |
+| `npm run fetch:openalex`, `fetch:countries`, `fetch:globocan`, `fetch:trials`, `fetch:papers` | Refresh research output, country rankings, incidence, trial registry and literature snapshots |
+| `npm run factcheck`, `npm run audit`, `npm run provenance` | Cross-check against openFDA and ClinicalTrials.gov, find stale or contradictory facts, map records to commits |
+| `npm run build:api` | Emit the static JSON API |
 
-## Contribute
+GitHub Actions run the checks on every push and open weekly pull requests with refreshed snapshots.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md). In short: each kind lives in one file under `src/data/`, ids are kebab-case and unique, every fact needs a source, and `npm test` must pass. Ways in:
+## Principles
 
-- **Fix a fact.** Use "Suggest an edit" on any page (it opens a prefilled issue) or edit the record directly.
-- **Deepen a cancer.** Add to its spike under `src/data/spikes/`.
-- **Review a page.** Expert and patient-advocate review tracks put a badge on the page; see `.github/REVIEWERS.md`.
-- **Fill a gap.** `/gaps/` lists objects and fields that need work.
-- **Build a roadmap item.** `/hub/` has two roadmaps with statuses.
+- **One page per object, links everywhere.** If it can be a page, it is a page.
+- **Plain English first.** Every object opens with a TL;DR a newcomer understands; the technical layer follows. Technical terms are glossary objects and get hover explanations wherever they appear.
+- **Cited, dated, honest about gaps.** Every record links a primary source, carries the date it was last checked, and says "no data" rather than guessing.
+- **Nothing stale by design.** Counts and dates are computed at build time from the corpus, never written into copy.
+- **Open.** Code is MIT; data is CC BY 4.0 (see `LICENSE-DATA`); logos remain their owners' trademarks.
 
-Maintainers: the weekly workflows (`refresh-trials.yml`, `factcheck.yml`) open pull requests, which requires **Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests"** to be enabled.
+## Contributing and safety
 
-## Licence
+See `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` and `SECURITY.md`. No personal or patient data belongs in this repository; only public knowledge about the science, the products and the organisations.
 
-Code: [MIT](LICENSE). Data in `src/data/`: [CC BY 4.0](LICENSE-DATA). Attribute "OnCo (github.com/judegomila/OnCo)". Logos under `public/logos/` are trademarks of their owners, shown for identification; Wikimedia Commons files carry their own licences, recorded per file in `public/logos/index.json`.
-
-## Credits
-
-Data and structures from [PubChem](https://pubchem.ncbi.nlm.nih.gov), [RCSB PDB](https://www.rcsb.org), [Wikimedia Commons and Wikidata](https://commons.wikimedia.org), [ClinicalTrials.gov](https://clinicaltrials.gov), [openFDA](https://open.fda.gov), [OpenAlex](https://openalex.org), [world-atlas](https://github.com/topojson/world-atlas) (Natural Earth), and the open databases listed under [Collections](https://onco.cc/collections/). Built with Next.js, Tailwind, Zod, MiniSearch, and d3-geo. Modelled on the Open Medical Registry's "cite everything, omit what you cannot confirm" approach.
+Data and structures from PubChem, RCSB PDB, Wikimedia Commons and Wikidata, OpenAlex, GLOBOCAN (IARC), ClinicalTrials.gov, Europe PMC, openFDA and the publishers and institutions linked on each page.

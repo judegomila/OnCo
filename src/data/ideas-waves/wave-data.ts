@@ -181,7 +181,7 @@ export const ideasData: IdeaInput[] = [
     bottlenecks: ["b-data-silos"], actor: "data", cost: "medium", horizonYears: 2,
     sections: ["ai-computation"] }),
   i({ id: "idea-data-registry-in-a-box", name: "Open-source cancer registry-in-a-box for low-resource settings", maturity: "early-clinical",
-    tldr: "A free, ready-to-run cancer registry system, working on phones and without constant internet, so any hospital anywhere can start counting and following its cancer patients.",
+    tldr: "A registry-in-a-box would be a free, ready-to-run cancer registry system, working on phones and without constant internet, so any hospital anywhere can start counting and following its cancer patients.",
     summary: "Fewer than one in five people in low- and middle-income countries are covered by a high-quality cancer registry. IARC's CanReg5 is the established open tool; the proposal modernises it as a mobile-first, offline-capable system with built-in ICD-O coding assistance, staging, treatment and follow-up modules, automated data-quality checks and export to the Global Initiative for Cancer Registry Development, funded as a global public good with regional support hubs.",
     hypothesis: "Registry-in-a-box deployment will double the number of population-based registries meeting IARC quality criteria in sub-Saharan Africa within seven years.",
     rationale: "DHIS2 became the health information backbone of more than 70 countries by being free, offline-capable and supported; cancer registration has no equivalent modern tool.",

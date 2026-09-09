@@ -19,7 +19,7 @@ const raw: EntityInput[] = [
   {
     id: "tropion-breast03", kind: "trial", name: "TROPION-Breast03", nct: "NCT05629585", phase: "3", status: "active", asOf, sponsor: "AstraZeneca / Daiichi Sankyo",
     setting: "Stage I–III TNBC with residual invasive disease after neoadjuvant therapy: adjuvant Dato-DXd ± durvalumab vs investigator's choice (capecitabine, pembrolizumab, or both)",
-    tldr: "The Dato-DXd counterpart to ASCENT-05: an ADC, with or without immunotherapy, for triple-negative patients with leftover cancer at surgery.",
+    tldr: "TROPION-Breast03 is the Dato-DXd counterpart to ASCENT-05: an ADC, with or without immunotherapy, for triple-negative patients with leftover cancer at surgery.",
     summary: "Three-arm phase 3 (randomised 2:1:2): Dato-DXd 6 mg/kg q3w for eight cycles plus durvalumab for nine cycles, Dato-DXd alone, or investigator's choice. Primary endpoint invasive disease-free survival. Registry estimated primary completion is 20 September 2027.",
     drugs: ["datopotamab-deruxtecan", "durvalumab", "pembrolizumab"], cancers: ["tnbc"], terms: ["rcb", "efs"], trials: ["keynote-522"], related: ["idea-post-neoadjuvant-adc", "ascent-05"],
     links: [{ label: "ClinicalTrials.gov NCT05629585", url: "https://clinicaltrials.gov/study/NCT05629585" }, { label: "TROPION-Breast03 design (Ther Adv Med Oncol 2024)", url: "https://journals.sagepub.com/doi/10.1177/17588359241248336" }],

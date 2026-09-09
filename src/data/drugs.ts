@@ -24,7 +24,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "trastuzumab-deruxtecan", kind: "drug", name: "Trastuzumab deruxtecan", brand: "Enhertu", code: "DS-8201, T-DXd", modality: "ADC", asOf, status: "approved", wikipedia: W("Trastuzumab_deruxtecan"),
     payload: "DXd (exatecan derivative, TOP1 inhibitor), DAR ~8", linker: "Tetrapeptide GGFG, protease-cleavable",
-    tldr: "The most successful ADC ever. It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer.",
+    tldr: "Trastuzumab deruxtecan (Enhertu) is the most successful ADC ever. It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer.",
     summary: "Approved in HER2+ metastatic breast cancer (DESTINY-Breast03: beat T-DM1), HER2-low (DESTINY-Breast04, 2022) and HER2-ultralow (DESTINY-Breast06, 2025) HR+ breast cancer, HER2+ gastric, HER2-mutant NSCLC, and tumour-agnostically for HER2 IHC 3+ solid tumours (2024). DESTINY-Breast09 (with pertuzumab) established it in first-line HER2+ metastatic disease. In Q2 2026 the FDA approved two early-stage HER2+ indications (neoadjuvant DESTINY-Breast11; post-neoadjuvant DESTINY-Breast05). Interstitial lung disease (~10-15%, ~1% fatal) requires monitoring. Membrane-permeable payload gives a strong bystander effect.",
     mechanism: "Trastuzumab backbone; DXd released by lysosomal cathepsins; TOP1 inhibition and bystander diffusion.",
     approvals: [
@@ -42,7 +42,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "datopotamab-deruxtecan", kind: "drug", name: "Datopotamab deruxtecan", brand: "Datroway", code: "Dato-DXd, DS-1062", modality: "ADC", asOf, status: "approved", wikipedia: W("Datopotamab_deruxtecan"),
     payload: "DXd (TOP1 inhibitor), DAR ~4", linker: "Tetrapeptide GGFG, cleavable",
-    tldr: "The second TROP2 ADC, sharing Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy.",
+    tldr: "Datopotamab deruxtecan (Datroway) is the second TROP2 ADC and shares Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy.",
     summary: "Approved January 2025 for HR+/HER2- metastatic breast cancer after endocrine and chemotherapy (TROPION-Breast01) and June 2025 for EGFR-mutant NSCLC after TKI and chemotherapy (TROPION-Lung05). In Q2 2026 approved for first-line unresectable/metastatic TNBC in patients ineligible for PD-1/PD-L1 inhibitors based on TROPION-Breast02 (OS 23.7 vs 18.7 months per patient-facing summaries). Lower DAR than T-DXd; stomatitis and ocular surface events are characteristic; ILD occurs. TROPION-Breast05 tests it with durvalumab in PD-L1+ TNBC.",
     mechanism: "Humanised anti-TROP2 IgG1 with DXd; internalisation, lysosomal release, TOP1 inhibition, bystander effect.",
     approvals: [
@@ -56,7 +56,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "sacituzumab-tirumotecan", kind: "drug", name: "Sacituzumab tirumotecan", code: "sac-TMT, MK-2870, SKB264", modality: "ADC", asOf, status: "phase-3",
     payload: "T030 (belotecan-derived TOP1 inhibitor), DAR ~7.4", linker: "Sulfonyl pyrimidine (CL2A-like), pH-sensitive and enzyme-cleavable",
-    tldr: "A third TROP2 ADC from China, licensed to Merck for a very large global programme. Approved in China; in the US it has a priority voucher but not yet approval.",
+    tldr: "Sacituzumab tirumotecan is a third TROP2 ADC from China, licensed to Merck for a very large global programme. It is approved in China; in the US it has a priority voucher but not yet approval.",
     summary: "Kelun-Biotech's sac-TMT was approved by China's NMPA in 2024 for pretreated TNBC (the first TROP2 ADC approval in China) and later for EGFR-mutant NSCLC. Merck holds ex-Greater-China rights and runs the TroFuse programme of >10 phase 3 trials, including first-line TNBC (positive on primary endpoint per 2026 reports), HR+ breast, NSCLC, endometrial, and cervical cancer, many combined with pembrolizumab. FDA Breakthrough Therapy designation (EGFR-mutant NSCLC, 2024) and a Commissioner's National Priority Voucher (July 2026).",
     mechanism: "Anti-TROP2 IgG1 with a stable, irreversibly-conjugated linker and a belotecan-derived TOP1 payload with reported lower efflux-pump susceptibility.",
     approvals: [
@@ -69,7 +69,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "trastuzumab-emtansine", kind: "drug", name: "Trastuzumab emtansine", brand: "Kadcyla", code: "T-DM1", modality: "ADC", asOf, status: "approved", wikipedia: W("Trastuzumab_emtansine"),
     payload: "DM1 (maytansinoid, tubulin inhibitor), DAR ~3.5", linker: "SMCC, non-cleavable",
-    tldr: "The first ADC for a solid tumour (2013). Still standard after surgery for HER2+ breast cancer patients whose tumour did not fully respond to pre-surgery treatment.",
+    tldr: "Trastuzumab emtansine (Kadcyla, T-DM1) was the first ADC for a solid tumour (2013). It is still standard after surgery for HER2+ breast cancer patients whose tumour did not fully respond to pre-surgery treatment.",
     summary: "Approved 2013 for pretreated HER2+ metastatic breast cancer (EMILIA) and 2019 for residual disease after neoadjuvant therapy (KATHERINE: invasive DFS HR 0.50, with OS benefit). Non-cleavable linker means no bystander effect, which explains its inferiority to T-DXd in DESTINY-Breast03 and its failure in HER2-low disease. Being displaced post-neoadjuvantly by T-DXd (DESTINY-Breast05).",
     mechanism: "Trastuzumab with lysine-conjugated DM1; released as Lys-MCC-DM1 after lysosomal degradation, cell-impermeable.",
     approvals: [
@@ -81,7 +81,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "enfortumab-vedotin", kind: "drug", name: "Enfortumab vedotin", brand: "Padcev", modality: "ADC", asOf, status: "approved", wikipedia: W("Enfortumab_vedotin"),
     payload: "MMAE (tubulin inhibitor), DAR ~3.8", linker: "mc-vc-PABC, protease-cleavable",
-    tldr: "An ADC against Nectin-4 that, combined with pembrolizumab, nearly doubled survival in advanced bladder cancer.",
+    tldr: "Enfortumab vedotin is an ADC against Nectin-4 that, combined with pembrolizumab, nearly doubled survival in advanced bladder cancer.",
     summary: "EV-302 (2023): enfortumab vedotin plus pembrolizumab versus platinum chemotherapy in first-line advanced urothelial cancer, OS 31.5 vs 16.1 months (HR 0.47). Now the global standard. Being tested in muscle-invasive bladder cancer (EV-303/304, positive in 2025). Rash, neuropathy, and hyperglycaemia are class effects.",
     mechanism: "Fully human anti-Nectin-4 IgG1; MMAE released by cathepsin B; bystander killing.",
     approvals: [
@@ -102,7 +102,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "mirvetuximab-soravtansine", kind: "drug", name: "Mirvetuximab soravtansine", brand: "Elahere", modality: "ADC", asOf, status: "approved", wikipedia: W("Mirvetuximab_soravtansine"),
     payload: "DM4 (maytansinoid), DAR ~3.5", linker: "Sulfo-SPDB, cleavable disulfide",
-    tldr: "The first ADC for ovarian cancer, for tumours with high folate receptor alpha.",
+    tldr: "Mirvetuximab soravtansine (Elahere) is the first ADC for ovarian cancer, for tumours with high folate receptor alpha.",
     summary: "Accelerated approval 2022, full approval 2024 after MIRASOL showed an OS benefit (16.5 vs 12.7 months) in FRα-high platinum-resistant ovarian cancer. Ocular toxicity (keratopathy) requires eye exams. Combination and earlier-line trials ongoing.",
     mechanism: "Anti-FRα antibody with DM4; bystander-capable after disulfide cleavage.",
     approvals: [{ region: "US", year: 2022, indication: "FRα-high platinum-resistant ovarian cancer (full approval 2024)" }],
@@ -111,7 +111,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "tisotumab-vedotin", kind: "drug", name: "Tisotumab vedotin", brand: "Tivdak", modality: "ADC", asOf, status: "approved", wikipedia: W("Tisotumab_vedotin"),
     payload: "MMAE", linker: "mc-vc-PABC",
-    tldr: "An ADC against tissue factor, the first to show a survival benefit in recurrent cervical cancer.",
+    tldr: "Tisotumab vedotin is an ADC against tissue factor, the first to show a survival benefit in recurrent cervical cancer.",
     summary: "innovaTV 301: OS 11.5 vs 9.5 months versus chemotherapy in second/third-line cervical cancer; full approval 2024. Ocular and bleeding events are notable.",
     mechanism: "Human anti-tissue-factor IgG1 with MMAE.",
     approvals: [{ region: "US", year: 2021, indication: "Recurrent/metastatic cervical cancer after chemotherapy (full 2024)" }],
@@ -120,7 +120,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "telisotuzumab-vedotin", kind: "drug", name: "Telisotuzumab vedotin", brand: "Emrelis", modality: "ADC", asOf, status: "approved",
     payload: "MMAE", linker: "mc-vc-PABC",
-    tldr: "The first c-MET-directed ADC, approved in 2025 for lung cancer with high c-MET protein.",
+    tldr: "Telisotuzumab vedotin (Emrelis) is the first c-MET-directed ADC, approved in 2025 for lung cancer with high c-MET protein.",
     summary: "Accelerated approval May 2025 for previously treated non-squamous NSCLC with high c-MET overexpression (LUMINOSITY: ORR ~35%). Confirmatory TeliMET NSCLC-01 ongoing.",
     mechanism: "Anti-c-MET antibody with MMAE.",
     approvals: [{ region: "US", year: 2025, indication: "c-MET-high non-squamous NSCLC, previously treated (accelerated)" }],
@@ -129,7 +129,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "zynlonta", kind: "drug", name: "Loncastuximab tesirine", brand: "Zynlonta", modality: "ADC", asOf, status: "approved", wikipedia: W("Loncastuximab_tesirine"),
     payload: "SG3199 (PBD dimer, DNA crosslinker), DAR ~2.3", linker: "Val-Ala, cleavable",
-    tldr: "A CD19 ADC with a DNA-crosslinking payload for relapsed large B-cell lymphoma.",
+    tldr: "Loncastuximab tesirine (Zynlonta) is a CD19 ADC with a DNA-crosslinking payload for relapsed large B-cell lymphoma.",
     summary: "Approved 2021 for relapsed/refractory DLBCL after ≥2 lines (LOTIS-2, ORR 48%). PBD payloads are extremely potent but carry oedema, photosensitivity, and effusion toxicity, limiting the class in solid tumours.",
     mechanism: "Humanised anti-CD19 with PBD dimer; interstrand DNA crosslinks.",
     approvals: [{ region: "US", year: 2021, indication: "Relapsed/refractory DLBCL after ≥2 systemic therapies" }],
@@ -138,7 +138,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "gemtuzumab-ozogamicin", kind: "drug", name: "Gemtuzumab ozogamicin", brand: "Mylotarg", modality: "ADC", asOf, status: "approved", wikipedia: W("Gemtuzumab_ozogamicin"),
     payload: "Calicheamicin (DNA cleaver), DAR ~2-3", linker: "Acid-labile hydrazone",
-    tldr: "The very first ADC, approved in 2000, withdrawn in 2010 for toxicity, and re-approved in 2017 at a lower fractionated dose. A cautionary and instructive history.",
+    tldr: "Gemtuzumab ozogamicin (Mylotarg) was the very first ADC: approved in 2000, withdrawn in 2010 for toxicity, and re-approved in 2017 at a lower fractionated dose. Its history is cautionary and instructive.",
     summary: "First-generation ADC with unstable linker and heterogeneous conjugation. Re-approval based on ALFA-0701 with fractionated dosing in CD33+ AML, showing event-free survival benefit with induction chemotherapy.",
     mechanism: "Anti-CD33 humanised IgG4 with calicheamicin; DNA double-strand cleavage.",
     approvals: [{ region: "US", year: 2000, indication: "Relapsed CD33+ AML (withdrawn 2010)" }, { region: "US", year: 2017, indication: "Newly diagnosed and relapsed CD33+ AML" }],
@@ -156,7 +156,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "izalontamab-brengitecan", kind: "drug", name: "Izalontamab brengitecan", code: "iza-bren, BL-B01D1", modality: "Bispecific ADC", asOf, status: "phase-3",
     payload: "Ed-04 (camptothecin-derived TOP1 inhibitor), DAR ~8", linker: "Cleavable",
-    tldr: "The first bispecific ADC to succeed in a phase 3 trial, hitting two growth receptors at once in triple-negative breast cancer.",
+    tldr: "Izalontamab brengitecan is the first bispecific ADC to succeed in a phase 3 trial, hitting two growth receptors at once in triple-negative breast cancer.",
     summary: "EGFR×HER3 bispecific ADC from SystImmune (Sichuan Biokin), partnered with Bristol Myers Squibb (2023, up to $8.4B). Phase 3 BL-B01D1-307 in previously treated locally advanced/metastatic TNBC met PFS and OS at interim analysis (announced 26 February 2026; presented ASCO 2026). Also positive in oesophageal squamous cell carcinoma. IZABRIGHT-Breast01 (first-line TNBC, PD-1 ineligible) and trials in NSCLC (EGFR-mutant, post-TKI), urothelial, nasopharyngeal, and SCLC are ongoing. Haematologic toxicity is the main limitation.",
     mechanism: "Dual EGFR/HER3 binding drives internalisation across heterogeneous tumours; TOP1 payload with bystander effect.",
     targets: ["egfr", "her3"], technologies: ["bispecific-adc", "adc"], companies: ["systimmune", "bms"],
@@ -174,7 +174,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "ifinatamab-deruxtecan", kind: "drug", name: "Ifinatamab deruxtecan", code: "I-DXd, DS-7300", modality: "ADC", asOf, status: "phase-3",
     payload: "DXd, DAR ~8", linker: "GGFG cleavable",
-    tldr: "A B7-H3 ADC showing some of the best response rates ever seen in relapsed small-cell lung cancer.",
+    tldr: "Ifinatamab deruxtecan is a B7-H3 ADC showing some of the best response rates ever seen in relapsed small-cell lung cancer.",
     summary: "IDeate-Lung01 phase 2: ORR ~55% in pretreated extensive-stage SCLC at 12 mg/kg. Phase 3 IDeate-Lung02 versus topotecan ongoing; Breakthrough Therapy designation. Also in prostate and oesophageal cancer.",
     mechanism: "Anti-B7-H3 IgG1 with DXd.",
     targets: ["b7h3"], technologies: ["adc"], companies: ["daiichi-sankyo", "merck"], cancers: ["sclc", "prostate"],
@@ -182,7 +182,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "raludotatug-deruxtecan", kind: "drug", name: "Raludotatug deruxtecan", code: "R-DXd, DS-6000", modality: "ADC", asOf, status: "phase-3",
     payload: "DXd", linker: "GGFG cleavable",
-    tldr: "A CDH6 ADC in phase 3 for platinum-resistant ovarian cancer.",
+    tldr: "Raludotatug deruxtecan is a CDH6 ADC in phase 3 for platinum-resistant ovarian cancer.",
     summary: "Phase 1 ORR ~46% in heavily pretreated ovarian cancer; REJOICE-Ovarian01 phase 2/3 versus chemotherapy. Daiichi Sankyo/Merck.",
     mechanism: "Anti-CDH6 IgG1 with DXd.",
     targets: ["cdh6"], technologies: ["adc"], companies: ["daiichi-sankyo", "merck"], cancers: ["ovarian", "rcc"],
@@ -198,7 +198,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "ak146d1", kind: "drug", name: "AK146D1", modality: "Bispecific ADC", asOf, status: "phase-1",
     payload: "TOP1 inhibitor", linker: "Cleavable",
-    tldr: "Akeso's Nectin-4 × TROP2 bispecific ADC, combining the two most validated ADC addresses in one molecule.",
+    tldr: "AK146D1 is Akeso's Nectin-4 × TROP2 bispecific ADC, combining the two most validated ADC addresses in one molecule.",
     summary: "Entered clinic in 2025 alongside Avenzo's AVZO-103 in the same target pair. Rationale: complementary expression across urothelial, breast, and lung cancers; potentially higher internalisation. Very early.",
     mechanism: "Bispecific Nectin-4/TROP2 antibody with TOP1 payload.",
     targets: ["nectin4", "trop2"], technologies: ["bispecific-adc"], companies: ["akeso"], cancers: ["urothelial", "tnbc", "nsclc"],
@@ -206,7 +206,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "disitamab-vedotin", kind: "drug", name: "Disitamab vedotin", code: "RC48", modality: "ADC", asOf, status: "approved",
     payload: "MMAE", linker: "mc-vc-PABC",
-    tldr: "A Chinese HER2 ADC approved for gastric and bladder cancer, now in global trials with Pfizer.",
+    tldr: "Disitamab vedotin is a Chinese HER2 ADC approved for gastric and bladder cancer, now in global trials with Pfizer.",
     summary: "Approved in China (2021) for HER2+ gastric cancer and HER2-expressing urothelial cancer. Phase 3 with toripalimab in first-line HER2-expressing urothelial cancer was positive (2025). Pfizer (via Seagen) holds ex-China rights.",
     mechanism: "Anti-HER2 (hertuzumab) with MMAE.",
     approvals: [{ region: "China", year: 2021, indication: "HER2+ gastric cancer; HER2-expressing urothelial cancer" }],
@@ -215,7 +215,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "zilovertamab-vedotin", kind: "drug", name: "Zilovertamab vedotin", code: "MK-2140", modality: "ADC", asOf, status: "phase-3",
     payload: "MMAE", linker: "Cleavable",
-    tldr: "A ROR1-directed ADC in phase 3 for large B-cell lymphoma.",
+    tldr: "Zilovertamab vedotin is a ROR1-directed ADC in phase 3 for large B-cell lymphoma.",
     summary: "Merck (via VelosBio). waveLINE-003 phase 3 with R-GemOx in relapsed DLBCL; also being tested in first line.",
     mechanism: "Anti-ROR1 with MMAE.",
     targets: ["ror1"], technologies: ["adc"], companies: ["merck"], cancers: ["dlbcl"],
@@ -223,7 +223,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "cmg901", kind: "drug", name: "Sonesitatug vedotin", code: "CMG901, AZD0901", modality: "ADC", asOf, status: "phase-3",
     payload: "MMAE", linker: "Cleavable",
-    tldr: "A Claudin 18.2 ADC in phase 3 for gastric cancer, licensed by AstraZeneca from KYM Biosciences.",
+    tldr: "Sonesitatug vedotin is a Claudin 18.2 ADC in phase 3 for gastric cancer, licensed by AstraZeneca from KYM Biosciences.",
     summary: "Phase 1 ORR ~33% in CLDN18.2+ gastric cancer; CLARITY-Gastric01 phase 3 second-line ongoing. Competes with XNW27011 and other CLDN18.2 ADCs.",
     mechanism: "Anti-CLDN18.2 with MMAE.",
     targets: ["cldn18-2"], technologies: ["adc"], companies: ["astrazeneca"], cancers: ["gastric", "pancreatic"],
@@ -231,7 +231,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "puxitatug-samrotecan", kind: "drug", name: "Puxitatug samrotecan", code: "AZD8205", modality: "ADC", asOf, status: "phase-2",
     payload: "TOP1 inhibitor (AZ14170133), DAR ~8", linker: "Cleavable",
-    tldr: "A B7-H4 ADC targeting a checkpoint-like protein enriched in breast, ovarian, and endometrial cancers.",
+    tldr: "Puxitatug samrotecan is a B7-H4 ADC targeting a checkpoint-like protein enriched in breast, ovarian, and endometrial cancers.",
     summary: "AstraZeneca's B7-H4 ADC in phase 2 (endometrial, ovarian, TNBC). B7-H4 has minimal normal expression and is inversely correlated with PD-L1, offering a route into 'cold' tumours.",
     mechanism: "Anti-B7-H4 IgG1 with TOP1 inhibitor.",
     technologies: ["adc"], companies: ["astrazeneca"], cancers: ["tnbc", "ovarian", "endometrial"],
@@ -256,7 +256,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "nivolumab", kind: "drug", name: "Nivolumab", brand: "Opdivo / Opdivo Qvantig (SC)", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Nivolumab"),
-    tldr: "The second PD-1 blocker, often combined with ipilimumab. Long-term data show about half of advanced melanoma patients alive at 10 years on the combination.",
+    tldr: "Nivolumab was the second PD-1 blocker and is often combined with ipilimumab. Long-term data show about half of advanced melanoma patients alive at 10 years on the combination.",
     summary: "Approved across melanoma (CheckMate 067 combination), NSCLC, RCC, Hodgkin, head and neck, urothelial, MSI-H CRC (CheckMate 8HW first-line), gastric/oesophageal, HCC, mesothelioma, and perioperative NSCLC. March 2026: first-line advanced classical Hodgkin lymphoma with AVD (SWOG S1826) for ages 12+. Partner of relatlimab (Opdualag) and of the oncolytic virus Tudriqev.",
     mechanism: "Fully human IgG4 anti-PD-1.",
     approvals: [
@@ -269,7 +269,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "ipilimumab", kind: "drug", name: "Ipilimumab", brand: "Yervoy", modality: "Monoclonal antibody (anti-CTLA-4)", asOf, status: "approved", wikipedia: W("Ipilimumab"),
-    tldr: "The first checkpoint inhibitor (2011), which proved the immune system could be unleashed against cancer.",
+    tldr: "Ipilimumab was the first checkpoint inhibitor (2011), and proved the immune system could be unleashed against cancer.",
     summary: "Monotherapy improved OS in melanoma (2010 NEJM); now mostly used with nivolumab in melanoma, RCC, MSI-H CRC, HCC, mesothelioma, and NSCLC. Immune-related adverse events are frequent (colitis, hypophysitis).",
     mechanism: "Fully human IgG1 anti-CTLA-4; enhances T-cell priming and depletes intratumoural Tregs.",
     approvals: [{ region: "US", year: 2011, indication: "Metastatic melanoma" }],
@@ -302,7 +302,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "relatlimab-nivolumab", kind: "drug", name: "Relatlimab + nivolumab", brand: "Opdualag", modality: "Fixed-dose bispecific combination (anti-LAG-3 + anti-PD-1)", asOf, status: "approved", wikipedia: W("Nivolumab/relatlimab"),
-    tldr: "The first drug targeting the LAG-3 immune brake, given with nivolumab for melanoma.",
+    tldr: "Opdualag combines relatlimab, the first drug targeting the LAG-3 immune brake, with nivolumab for melanoma.",
     summary: "RELATIVITY-047: PFS 10.1 vs 4.6 months versus nivolumab alone in untreated advanced melanoma with less toxicity than ipilimumab-nivolumab. Approved 2022. Adjuvant and other tumour trials ongoing.",
     mechanism: "Anti-LAG-3 plus anti-PD-1 in one infusion.",
     approvals: [{ region: "US", year: 2022, indication: "Unresectable or metastatic melanoma, age ≥12" }],
@@ -310,7 +310,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "dostarlimab", kind: "drug", name: "Dostarlimab", brand: "Jemperli", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Dostarlimab"),
-    tldr: "A PD-1 blocker famous for making rectal cancer disappear without surgery in every patient with a mismatch-repair-deficient tumour.",
+    tldr: "Dostarlimab is a PD-1 blocker famous for making rectal cancer disappear without surgery in every patient with a mismatch-repair-deficient tumour.",
     summary: "Approved in dMMR endometrial cancer (RUBY, with chemotherapy; OS benefit) and dMMR solid tumours. The MSK rectal cancer study (Cercek, NEJM 2022; 100% clinical complete response sustained in >40 patients by 2025) led to an organ-preservation paradigm and the AZUR-1 registrational trial.",
     mechanism: "Humanised IgG4 anti-PD-1.",
     approvals: [{ region: "US", year: 2021, indication: "dMMR recurrent/advanced endometrial cancer; dMMR solid tumours" }, { region: "US", year: 2024, indication: "Primary advanced/recurrent endometrial cancer with chemotherapy (all-comers)" }],
@@ -336,7 +336,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "teclistamab", kind: "drug", name: "Teclistamab", brand: "Tecvayli", modality: "Bispecific T-cell engager (BCMA×CD3)", asOf, status: "approved", wikipedia: W("Teclistamab"),
-    tldr: "The first off-the-shelf bispecific for multiple myeloma, now approved after just one prior line of therapy.",
+    tldr: "Teclistamab was the first off-the-shelf bispecific for multiple myeloma, and is now approved after just one prior line of therapy.",
     summary: "Approved 2022 for heavily pretreated myeloma (MajesTEC-1, ORR 63%). In Q1 2026 label expanded to relapsed/refractory myeloma after ≥1 prior therapy (MajesTEC-3, with daratumumab). Infection prophylaxis is essential.",
     mechanism: "Humanised IgG4 BCMA×CD3 DuoBody.",
     approvals: [{ region: "US", year: 2022, indication: "Relapsed/refractory myeloma after ≥4 lines" }, { region: "US", year: 2026, indication: "Relapsed/refractory myeloma after ≥1 prior therapy" }],
@@ -344,7 +344,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "glofitamab", kind: "drug", name: "Glofitamab", brand: "Columvi", modality: "Bispecific T-cell engager (CD20×CD3, 2:1)", asOf, status: "approved", wikipedia: W("Glofitamab"),
-    tldr: "A fixed-duration bispecific for large B-cell lymphoma, with OS benefit when combined with chemotherapy.",
+    tldr: "Glofitamab is a fixed-duration bispecific for large B-cell lymphoma, with OS benefit when combined with chemotherapy.",
     summary: "Accelerated approval 2023 (ORR 56%, CR 43% in relapsed DLBCL after ≥2 lines). STARGLO showed OS benefit with GemOx in transplant-ineligible relapsed DLBCL (FDA declined in 2025 citing regional heterogeneity; approved in EU and elsewhere).",
     mechanism: "2:1 CD20:CD3 format with obinutuzumab pre-treatment to mitigate CRS.",
     approvals: [{ region: "US", year: 2023, indication: "Relapsed/refractory DLBCL after ≥2 lines (accelerated)" }],
@@ -360,7 +360,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "blinatumomab", kind: "drug", name: "Blinatumomab", brand: "Blincyto", modality: "Bispecific T-cell engager (CD19×CD3)", asOf, status: "approved", wikipedia: W("Blinatumomab"),
-    tldr: "The first T-cell engager (2014), now given to children and adults with leukaemia even when in remission, because it improves survival.",
+    tldr: "Blinatumomab was the first T-cell engager (2014), and is now given to children and adults with leukaemia even when in remission, because it improves survival.",
     summary: "Approved for relapsed and MRD-positive B-ALL; 2024 approval in consolidation for MRD-negative adults (E1910, OS benefit) and children (AALL1731). Continuous infusion because of a 2-hour half-life; subcutaneous formulation in development.",
     mechanism: "Tandem scFv BiTE.",
     approvals: [{ region: "US", year: 2014, indication: "Relapsed/refractory B-ALL" }, { region: "US", year: 2024, indication: "Consolidation in CD19+ B-ALL regardless of MRD" }],
@@ -376,7 +376,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "zanidatamab", kind: "drug", name: "Zanidatamab", brand: "Ziihera", modality: "Biparatopic bispecific antibody (HER2)", asOf, status: "approved", wikipedia: W("Zanidatamab"),
-    tldr: "An antibody that grabs HER2 at two different spots, approved for HER2+ bile duct cancer.",
+    tldr: "Zanidatamab (Ziihera) is an antibody that grabs HER2 at two different spots, approved for HER2+ bile duct cancer.",
     summary: "Accelerated approval November 2024 for HER2+ biliary tract cancer (HERIZON-BTC-01). HERIZON-GEA-01 phase 3 in first-line HER2+ gastro-oesophageal cancer with chemotherapy ± tislelizumab was positive (2025). Jazz (ex-Asia) and BeOne. Biparatopic binding drives receptor clustering and internalisation, the basis of the ADC zanidatamab zovodotin.",
     mechanism: "Binds ECD2 and ECD4 of HER2 simultaneously; clustering, internalisation, ADCC.",
     approvals: [{ region: "US", year: 2024, indication: "HER2+ (IHC 3+) unresectable/metastatic biliary tract cancer, previously treated" }],
@@ -384,7 +384,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "zenocutuzumab", kind: "drug", name: "Zenocutuzumab", brand: "Bizengri", modality: "Bispecific antibody (HER2×HER3)", asOf, status: "approved", wikipedia: W("Zenocutuzumab"),
-    tldr: "The first drug for cancers driven by NRG1 gene fusions, working by blocking HER3 from receiving its growth signal.",
+    tldr: "Zenocutuzumab is the first drug for cancers driven by NRG1 gene fusions, working by blocking HER3 from receiving its growth signal.",
     summary: "Accelerated approval December 2024 for NRG1-fusion NSCLC and pancreatic cancer (eNRGy trial); Q2 2026 expanded to NRG1-fusion cholangiocarcinoma. Merus/Partner Therapeutics.",
     mechanism: "Docks on HER2 and blocks NRG1 binding to HER3 ('dock and block').",
     approvals: [{ region: "US", year: 2024, indication: "NRG1-fusion NSCLC and pancreatic adenocarcinoma" }, { region: "US", year: 2026, indication: "NRG1-fusion cholangiocarcinoma" }],
@@ -402,7 +402,7 @@ const baseDrugs: DrugInput[] = [
   // ======================= CELL THERAPY =======================
   {
     id: "ciltacabtagene-autoleucel", kind: "drug", name: "Ciltacabtagene autoleucel", brand: "Carvykti", code: "cilta-cel", modality: "CAR-T (BCMA)", asOf, status: "approved", wikipedia: W("Ciltacabtagene_autoleucel"),
-    tldr: "A one-time BCMA CAR-T for myeloma that, in CARTITUDE-4, cut the risk of death by about 45% compared with standard regimens.",
+    tldr: "Ciltacabtagene autoleucel is a one-time BCMA CAR-T for myeloma that, in CARTITUDE-4, cut the risk of death by about 45% compared with standard regimens.",
     summary: "Approved 2022 (≥4 lines) and 2024 (≥1 prior line, lenalidomide-refractory; CARTITUDE-4 with OS benefit HR 0.55). A third of patients in CARTITUDE-1 remain progression-free at 5 years without maintenance. Delayed neurotoxicity (parkinsonism) and secondary malignancies are rare but notable. Legend Biotech/Johnson & Johnson.",
     mechanism: "Two BCMA-binding VHH domains, 4-1BB costimulation; lentiviral.",
     approvals: [{ region: "US", year: 2022, indication: "Relapsed/refractory myeloma ≥4 lines" }, { region: "US", year: 2024, indication: "Relapsed myeloma after ≥1 line, lenalidomide-refractory" }],
@@ -418,7 +418,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "satricabtagene-autoleucel", kind: "drug", name: "Satricabtagene autoleucel", code: "satri-cel, CT041", modality: "CAR-T (Claudin 18.2)", asOf, status: "approved",
-    tldr: "The first CAR-T therapy approved for a solid tumour (gastric cancer), in China.",
+    tldr: "Satricabtagene autoleucel (satri-cel) is the first CAR-T therapy approved for a solid tumour (gastric cancer), in China.",
     summary: "CARsgen's CLDN18.2 CAR-T. Randomised phase 2 in China (2025) showed PFS and OS benefit versus physician's choice in pretreated CLDN18.2+ gastric/GEJ cancer; NMPA approval followed in 2025-26 per company reports. US trials ongoing. Gastric mucosal toxicity is on-target.",
     mechanism: "Humanised CLDN18.2 scFv CAR-T; lymphodepletion with nab-paclitaxel-containing regimen.",
     approvals: [{ region: "China", year: 2025, indication: "CLDN18.2+ advanced gastric/GEJ adenocarcinoma, previously treated" }],
@@ -426,7 +426,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "lifileucel", kind: "drug", name: "Lifileucel", brand: "Amtagvi", modality: "TIL cell therapy", asOf, status: "approved", wikipedia: W("Lifileucel"),
-    tldr: "The first approved TIL therapy: the patient's own tumour-fighting immune cells, expanded to billions and given back.",
+    tldr: "Lifileucel was the first approved TIL therapy: the patient's own tumour-fighting immune cells are expanded to billions and given back.",
     summary: "Accelerated approval February 2024 for anti-PD-1-refractory advanced melanoma (C-144-01: ORR 31%; 5-year data show median DOR 36.5 months and ~30% of responders in ongoing response). Confirmatory TILVANCE-301 with pembrolizumab in first line. EU approval 2025. Trials in NSCLC, cervical, and endometrial cancer.",
     mechanism: "Autologous TILs expanded ex vivo with IL-2; lymphodepletion; high-dose IL-2 after infusion.",
     approvals: [{ region: "US", year: 2024, indication: "Unresectable/metastatic melanoma after anti-PD-1 (and BRAF/MEK if applicable)" }],
@@ -434,7 +434,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "afamitresgene-autoleucel", kind: "drug", name: "Afamitresgene autoleucel", brand: "Tecelra", code: "afami-cel", modality: "TCR-T (MAGE-A4)", asOf, status: "approved", wikipedia: W("Afamitresgene_autoleucel"),
-    tldr: "The first engineered T-cell receptor therapy approved for a solid tumour, synovial sarcoma.",
+    tldr: "Afamitresgene autoleucel was the first engineered T-cell receptor therapy approved for a solid tumour, synovial sarcoma.",
     summary: "Accelerated approval August 2024 (SPEARHEAD-1: ORR ~39%, median DOR ~12 months) for MAGE-A4+ HLA-A*02+ synovial sarcoma; Q2 2026 label includes patients aged 12+. Adaptimmune divested US rights to US WorldMeds in 2025.",
     mechanism: "Affinity-enhanced TCR against MAGE-A4 230-239/HLA-A*02.",
     approvals: [{ region: "US", year: 2024, indication: "Advanced MAGE-A4+ synovial sarcoma, HLA-A*02+ (age ≥12 from 2026)" }],
@@ -452,7 +452,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "lutathera", kind: "drug", name: "Lutetium-177 dotatate", brand: "Lutathera", code: "177Lu-DOTATATE", modality: "Radioligand therapy (beta)", asOf, status: "approved", wikipedia: W("Lutetium_(177Lu)_oxodotreotide"),
-    tldr: "The first modern radioligand therapy (2018), for neuroendocrine tumours, now used in first line.",
+    tldr: "Lutetium-177 dotatate was the first modern radioligand therapy (2018), for neuroendocrine tumours, and is now used in first line.",
     summary: "NETTER-1 (midgut NETs after octreotide) and NETTER-2 (2024; first-line high-grade-2/3 GEP-NETs, PFS 22.8 vs 8.5 months). Paediatric approval 2024. Alpha-emitting successors RYZ101 and AlphaMedix are in phase 3.",
     mechanism: "SSTR2 agonist peptide with 177Lu.",
     approvals: [{ region: "US", year: 2018, indication: "SSTR+ GEP-NETs" }, { region: "US", year: 2024, indication: "Paediatric ≥12 years; first-line (NETTER-2 label)" }],
@@ -460,7 +460,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "pylarify", kind: "drug", name: "Piflufolastat F-18 / Pylarify TruVu", brand: "Pylarify", code: "18F-DCFPyL", modality: "PET imaging agent", asOf, status: "approved", wikipedia: W("Piflufolastat_F-18"),
-    tldr: "The leading PSMA PET tracer for prostate cancer, with a new formulation approved in March 2026.",
+    tldr: "Piflufolastat F-18 (Pylarify) is the leading PSMA PET tracer for prostate cancer, with a new formulation approved in March 2026.",
     summary: "Approved 2021 for PSMA PET in prostate cancer staging and biochemical recurrence. Lantheus' Pylarify TruVu, approved 9 March 2026, offers an improved formulation/distribution profile. Competes with Illuccix/Gozellix (68Ga, Telix), Locametz (Novartis), and Posluma.",
     mechanism: "18F-labelled PSMA-binding urea.",
     approvals: [{ region: "US", year: 2021, indication: "PSMA PET imaging in prostate cancer" }, { region: "US", year: 2026, indication: "Pylarify TruVu formulation" }],
@@ -491,7 +491,7 @@ const baseDrugs: DrugInput[] = [
   // ======================= TARGETED SMALL MOLECULES =======================
   {
     id: "osimertinib", kind: "drug", name: "Osimertinib", brand: "Tagrisso", modality: "Small-molecule kinase inhibitor (EGFR)", asOf, status: "approved", wikipedia: W("Osimertinib"),
-    tldr: "The standard pill for EGFR-mutant lung cancer, now also given after surgery and with chemotherapy or after chemoradiation.",
+    tldr: "Osimertinib (Tagrisso) is the standard pill for EGFR-mutant lung cancer, now also given after surgery and with chemotherapy or after chemoradiation.",
     summary: "FLAURA (first-line OS benefit), ADAURA (adjuvant, OS HR 0.49), FLAURA2 (with chemotherapy, OS benefit 2025), LAURA (after chemoradiation in stage III). Challenged by amivantamab-lazertinib (MARIPOSA).",
     mechanism: "Irreversible third-generation EGFR TKI sparing wild-type EGFR; active against T790M; CNS penetrant.",
     approvals: [{ region: "US", year: 2015, indication: "EGFR T790M NSCLC" }, { region: "US", year: 2018, indication: "First-line EGFR-mutant NSCLC" }, { region: "US", year: 2020, indication: "Adjuvant EGFR-mutant NSCLC" }],
@@ -507,7 +507,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "sotorasib", kind: "drug", name: "Sotorasib", brand: "Lumakras", modality: "Small-molecule inhibitor (KRAS G12C)", asOf, status: "approved", wikipedia: W("Sotorasib"),
-    tldr: "The first drug to hit KRAS, approved in 2021 after four decades of failure.",
+    tldr: "Sotorasib (Lumakras) was the first drug to hit KRAS, approved in 2021 after four decades of failure.",
     summary: "CodeBreaK 100 (NSCLC ORR 37%), CodeBreaK 200 (PFS vs docetaxel), CodeBreaK 300 (with panitumumab in colorectal cancer, approved January 2025). Full approval in NSCLC pending confirmatory data.",
     mechanism: "Covalent binder to cysteine-12 in the switch-II pocket, locking KRAS G12C in the inactive GDP state.",
     approvals: [{ region: "US", year: 2021, indication: "KRAS G12C NSCLC, previously treated (accelerated)" }, { region: "US", year: 2025, indication: "KRAS G12C colorectal cancer with panitumumab" }],
@@ -515,7 +515,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "adagrasib", kind: "drug", name: "Adagrasib", brand: "Krazati", modality: "Small-molecule inhibitor (KRAS G12C)", asOf, status: "approved", wikipedia: W("Adagrasib"),
-    tldr: "The second KRAS G12C inhibitor, with a long half-life and brain penetration, approved in lung and colorectal cancer.",
+    tldr: "Adagrasib was the second KRAS G12C inhibitor, with a long half-life and brain penetration, and is approved in lung and colorectal cancer.",
     summary: "KRYSTAL-1 and KRYSTAL-12 (NSCLC), KRYSTAL-1 with cetuximab in colorectal cancer (accelerated 2024). Mirati acquired by BMS (2024).",
     mechanism: "Covalent KRAS G12C inhibitor, 24-hour half-life.",
     approvals: [{ region: "US", year: 2022, indication: "KRAS G12C NSCLC (accelerated)" }, { region: "US", year: 2024, indication: "KRAS G12C colorectal cancer with cetuximab" }],
@@ -524,7 +524,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "daraxonrasib", kind: "drug", name: "Daraxonrasib", brand: "Rasonque", code: "RMC-6236", modality: "Small-molecule pan-RAS(ON) inhibitor", asOf, status: "approved",
     tldr: "The first drug that blocks all active RAS variants, approved by the FDA in August 2026 for metastatic pancreatic cancer, where KRAS drives 90% of tumours.",
-    summary: "Revolution Medicines' tri-complex inhibitor. Phase 1/2: median OS ~14.5 months in second-line pancreatic cancer versus historical ~6 months. RASolute 302 (second-line PDAC) supported FDA approval on 26 August 2026 as Rasonque for metastatic pancreatic cancer; RASolute 303 (first-line) and the NSCLC phase 3 (RASolve 301) continue. Rash and stomatitis are the main toxicities.",
+    summary: "Daraxonrasib is Revolution Medicines' tri-complex inhibitor. Phase 1/2: median OS ~14.5 months in second-line pancreatic cancer versus historical ~6 months. RASolute 302 (second-line PDAC) supported FDA approval on 26 August 2026 as Rasonque for metastatic pancreatic cancer; RASolute 303 (first-line) and the NSCLC phase 3 (RASolve 301) continue. Rash and stomatitis are the main toxicities.",
     approvals: [{ region: "US", year: 2026, indication: "Metastatic pancreatic cancer (previously treated)", note: "Rasonque, 26 August 2026" }],
     links: [{ label: "FDA novel drug approvals 2026", url: "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026" }],
     mechanism: "Binds cyclophilin A to form a tri-complex that sterically blocks RAS(ON) from engaging effectors, across G12X/G13X/Q61X and wild-type RAS.",
@@ -532,7 +532,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "encorafenib", kind: "drug", name: "Encorafenib", brand: "Braftovi", modality: "Small-molecule kinase inhibitor (BRAF)", asOf, status: "approved", wikipedia: W("Encorafenib"),
-    tldr: "A BRAF inhibitor that, with cetuximab and chemotherapy, became first-line standard for BRAF-mutant colorectal cancer in 2026.",
+    tldr: "Encorafenib is a BRAF inhibitor that, with cetuximab and chemotherapy, became first-line standard for BRAF-mutant colorectal cancer in 2026.",
     summary: "With binimetinib in melanoma (COLUMBUS); with cetuximab in BRAF V600E colorectal cancer (BEACON, 2020); BREAKWATER with cetuximab and FOLFOX in first-line BRAF V600E mCRC (accelerated December 2024, full approval 2026 with OS benefit). Also in BRAF V600E NSCLC with binimetinib.",
     mechanism: "ATP-competitive BRAF V600 inhibitor with long target residence time.",
     approvals: [{ region: "US", year: 2018, indication: "BRAF V600 melanoma with binimetinib" }, { region: "US", year: 2020, indication: "BRAF V600E mCRC with cetuximab, previously treated" }, { region: "US", year: 2026, indication: "First-line BRAF V600E mCRC with cetuximab and chemotherapy" }],
@@ -540,7 +540,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "selpercatinib", kind: "drug", name: "Selpercatinib", brand: "Retevmo", modality: "Small-molecule kinase inhibitor (RET)", asOf, status: "approved", wikipedia: W("Selpercatinib"),
-    tldr: "A selective RET inhibitor approved for any tumour with a RET fusion, with a further label update in July 2026.",
+    tldr: "Selpercatinib is a selective RET inhibitor approved for any tumour with a RET fusion, with a further label update in July 2026.",
     summary: "LIBRETTO-001 (NSCLC ORR ~84% treatment-naive), LIBRETTO-431 (first-line vs chemo-immunotherapy), LIBRETTO-531 (medullary thyroid vs cabozantinib/vandetanib). Tumour-agnostic RET-fusion approval 2022; July 2026 FDA action listed among that month's oncology approvals.",
     mechanism: "Highly selective RET TKI.",
     approvals: [{ region: "US", year: 2020, indication: "RET-fusion NSCLC and thyroid; RET-mutant MTC" }, { region: "US", year: 2022, indication: "RET-fusion solid tumours (tumour-agnostic)" }, { region: "US", year: 2026, indication: "Label update (July 2026)" }],
@@ -548,7 +548,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "zongertinib", kind: "drug", name: "Zongertinib", brand: "Hernexeos", modality: "Small-molecule kinase inhibitor (HER2)", asOf, status: "approved",
-    tldr: "The first oral HER2 inhibitor for lung cancer with HER2 mutations, approved in 2025 and moved to first line in 2026.",
+    tldr: "Zongertinib was the first oral HER2 inhibitor for lung cancer with HER2 mutations, approved in 2025 and moved to first line in 2026.",
     summary: "Beamion LUNG-1 (ORR ~71% in previously treated HER2-mutant NSCLC) led to accelerated approval August 2025; Q1 2026 first-line approval. Boehringer Ingelheim. Competes with T-DXd and sevabertinib (Bayer, approved late 2025).",
     mechanism: "Irreversible HER2-selective TKI sparing EGFR.",
     approvals: [{ region: "US", year: 2025, indication: "HER2-mutant NSCLC, previously treated (accelerated)" }, { region: "US", year: 2026, indication: "First-line HER2-mutant non-squamous NSCLC" }],
@@ -564,7 +564,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "olaparib", kind: "drug", name: "Olaparib", brand: "Lynparza", modality: "Small-molecule PARP inhibitor", asOf, status: "approved", wikipedia: W("Olaparib"),
-    tldr: "The first PARP inhibitor, which turned an inherited BRCA mutation from a risk factor into a drug target, including after surgery in breast cancer.",
+    tldr: "Olaparib was the first PARP inhibitor, and turned an inherited BRCA mutation from a risk factor into a drug target, including after surgery in breast cancer.",
     summary: "Approved 2014 (ovarian), then maintenance first-line (SOLO-1, 7-year OS benefit), with bevacizumab (PAOLA-1, HRD+), metastatic BRCA breast (OlympiAD), adjuvant germline-BRCA HER2-negative early breast cancer (OlympiA, OS HR 0.72), pancreatic maintenance (POLO), and prostate (PROfound; PROpel with abiraterone). AstraZeneca/Merck.",
     mechanism: "PARP1/2 inhibitor and trapper; synthetic lethality with HRD.",
     approvals: [{ region: "US", year: 2014, indication: "gBRCA ovarian cancer ≥3 lines" }, { region: "US", year: 2018, indication: "gBRCA HER2- metastatic breast cancer" }, { region: "US", year: 2022, indication: "Adjuvant gBRCA high-risk HER2- early breast cancer" }],
@@ -572,7 +572,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "niraparib", kind: "drug", name: "Niraparib", brand: "Zejula", modality: "Small-molecule PARP inhibitor", asOf, status: "approved", wikipedia: W("Niraparib"),
-    tldr: "A PARP inhibitor approved as maintenance for ovarian cancer regardless of BRCA status, and in prostate cancer with abiraterone.",
+    tldr: "Niraparib is a PARP inhibitor approved as maintenance for ovarian cancer regardless of BRCA status, and in prostate cancer with abiraterone.",
     summary: "NOVA and PRIMA (first-line maintenance, all-comers; label later restricted to HRD+ in some settings); Akeega (niraparib + abiraterone) for BRCA-mutant mCRPC (MAGNITUDE, 2023). GSK.",
     mechanism: "PARP1/2 inhibitor.",
     approvals: [{ region: "US", year: 2017, indication: "Recurrent ovarian cancer maintenance" }, { region: "US", year: 2020, indication: "First-line ovarian maintenance" }],
@@ -580,7 +580,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "talazoparib", kind: "drug", name: "Talazoparib", brand: "Talzenna", modality: "Small-molecule PARP inhibitor", asOf, status: "approved", wikipedia: W("Talazoparib"),
-    tldr: "The most potent PARP trapper, approved in BRCA breast cancer and with enzalutamide in prostate cancer.",
+    tldr: "Talazoparib is the most potent PARP trapper, approved in BRCA breast cancer and with enzalutamide in prostate cancer.",
     summary: "EMBRACA (gBRCA HER2- metastatic breast), TALAPRO-2 (with enzalutamide in mCRPC; HRR-mutant label 2023, OS benefit 2024-25). Pfizer.",
     mechanism: "PARP inhibitor with ~100x greater trapping than olaparib.",
     approvals: [{ region: "US", year: 2018, indication: "gBRCA HER2- locally advanced/metastatic breast cancer" }, { region: "US", year: 2023, indication: "HRR-mutant mCRPC with enzalutamide" }],
@@ -588,7 +588,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "palbociclib", kind: "drug", name: "Palbociclib", brand: "Ibrance", modality: "Small-molecule CDK4/6 inhibitor", asOf, status: "approved", wikipedia: W("Palbociclib"),
-    tldr: "The first CDK4/6 inhibitor (2015), and in 2026 the first approved as maintenance in HER2-positive, hormone-positive breast cancer.",
+    tldr: "Palbociclib was the first CDK4/6 inhibitor (2015), and in 2026 became the first approved as maintenance in HER2-positive, hormone-positive breast cancer.",
     summary: "PALOMA-2/3 (PFS benefit, no OS benefit); PALLAS and PENELOPE-B negative in adjuvant setting. PATINA (2024 SABCS; approved Q2 2026): adding palbociclib to anti-HER2 plus endocrine maintenance in HR+/HER2+ metastatic disease extended PFS by ~15 months. Pfizer.",
     mechanism: "Reversible CDK4/6 inhibitor.",
     approvals: [{ region: "US", year: 2015, indication: "HR+/HER2- advanced breast cancer with endocrine therapy" }, { region: "US", year: 2026, indication: "HR+/HER2+ advanced breast cancer maintenance with anti-HER2 and endocrine therapy" }],
@@ -596,7 +596,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "ribociclib", kind: "drug", name: "Ribociclib", brand: "Kisqali", modality: "Small-molecule CDK4/6 inhibitor", asOf, status: "approved", wikipedia: W("Ribociclib"),
-    tldr: "The CDK4/6 inhibitor with the most consistent survival benefit, approved for a broad population of early breast cancer patients since 2024.",
+    tldr: "Ribociclib is the CDK4/6 inhibitor with the most consistent survival benefit, approved for a broad population of early breast cancer patients since 2024.",
     summary: "MONALEESA-2/3/7 (OS benefit in all three), NATALEE (adjuvant stage II-III HR+/HER2-, iDFS HR 0.75, approved September 2024). Novartis. QT prolongation and liver enzymes need monitoring.",
     mechanism: "CDK4-biased CDK4/6 inhibitor.",
     approvals: [{ region: "US", year: 2017, indication: "HR+/HER2- advanced breast cancer" }, { region: "US", year: 2024, indication: "Adjuvant stage II-III HR+/HER2- breast cancer at high risk of recurrence" }],
@@ -604,7 +604,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "abemaciclib", kind: "drug", name: "Abemaciclib", brand: "Verzenio", modality: "Small-molecule CDK4/6 inhibitor", asOf, status: "approved", wikipedia: W("Abemaciclib"),
-    tldr: "The first CDK4/6 inhibitor approved after surgery for high-risk hormone-positive breast cancer.",
+    tldr: "Abemaciclib was the first CDK4/6 inhibitor approved after surgery for high-risk hormone-positive breast cancer.",
     summary: "MONARCH 2/3 (OS benefit in MONARCH 2), monarchE (adjuvant, iDFS HR 0.68 at 5 years; approved 2021, label broadened 2023). Continuous dosing; diarrhoea is the main toxicity. Eli Lilly.",
     mechanism: "CDK4-biased inhibitor with continuous dosing.",
     approvals: [{ region: "US", year: 2017, indication: "HR+/HER2- advanced breast cancer" }, { region: "US", year: 2021, indication: "Adjuvant high-risk node-positive HR+/HER2- early breast cancer" }],
@@ -612,7 +612,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "capivasertib", kind: "drug", name: "Capivasertib", brand: "Truqap", modality: "Small-molecule AKT inhibitor", asOf, status: "approved", wikipedia: W("Capivasertib"),
-    tldr: "The first AKT inhibitor, for breast cancer with PI3K-pathway mutations and, since 2026, for prostate cancer with PTEN loss.",
+    tldr: "Capivasertib (Truqap) is the first AKT inhibitor, for breast cancer with PI3K-pathway mutations and, since 2026, for prostate cancer with PTEN loss.",
     summary: "CAPItello-291 (with fulvestrant in HR+/HER2- breast cancer with PIK3CA/AKT1/PTEN alterations, 2023). CAPItello-281 (with abiraterone in PTEN-deficient mHSPC) approved Q2 2026. AstraZeneca.",
     mechanism: "ATP-competitive pan-AKT inhibitor, intermittent 4-days-on/3-off dosing.",
     approvals: [{ region: "US", year: 2023, indication: "HR+/HER2- breast cancer with PIK3CA/AKT1/PTEN alteration, with fulvestrant" }, { region: "US", year: 2026, indication: "PTEN-deficient metastatic prostate cancer with abiraterone" }],
@@ -620,7 +620,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "inavolisib", kind: "drug", name: "Inavolisib", brand: "Itovebi", modality: "Small-molecule PI3Kα inhibitor and degrader", asOf, status: "approved", wikipedia: W("Inavolisib"),
-    tldr: "A PI3K drug that also destroys the mutant protein, approved in 2024 with palbociclib and fulvestrant for PIK3CA-mutant breast cancer.",
+    tldr: "Inavolisib is a PI3K drug that also destroys the mutant protein, approved in 2024 with palbociclib and fulvestrant for PIK3CA-mutant breast cancer.",
     summary: "INAVO120: PFS 15.0 vs 7.3 months in endocrine-resistant PIK3CA-mutant HR+/HER2- breast cancer; OS benefit reported 2025. Roche/Genentech.",
     mechanism: "PI3Kα-selective inhibitor that promotes degradation of mutant p110α.",
     approvals: [{ region: "US", year: 2024, indication: "PIK3CA-mutant HR+/HER2- advanced breast cancer with palbociclib and fulvestrant" }],
@@ -636,7 +636,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "vepdegestrant", kind: "drug", name: "Vepdegestrant", brand: "Veppanu", code: "ARV-471", modality: "PROTAC oestrogen receptor degrader", asOf, status: "approved",
-    tldr: "The first PROTAC ever approved (2026): a pill that tags the oestrogen receptor for destruction, for breast cancers with ESR1 mutations.",
+    tldr: "Vepdegestrant is the first PROTAC ever approved (2026): a pill that tags the oestrogen receptor for destruction, for breast cancers with ESR1 mutations.",
     summary: "VERITAC-2: improved PFS versus fulvestrant in ESR1-mutant ER+/HER2- advanced breast cancer after CDK4/6 and endocrine therapy (no benefit in ESR1-wild-type). Approved Q2 2026. Arvinas/Pfizer. Marks the clinical arrival of targeted protein degradation.",
     mechanism: "Heterobifunctional molecule recruiting cereblon E3 ligase to ERα for proteasomal degradation.",
     approvals: [{ region: "US", year: 2026, indication: "ESR1-mutated ER+/HER2- advanced or metastatic breast cancer after endocrine therapy" }],
@@ -644,7 +644,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "elacestrant", kind: "drug", name: "Elacestrant", brand: "Orserdu", modality: "Oral SERD", asOf, status: "approved", wikipedia: W("Elacestrant"),
-    tldr: "The first oral oestrogen-receptor degrader (2023), for ESR1-mutant breast cancer detected by blood test.",
+    tldr: "Elacestrant was the first oral oestrogen-receptor degrader (2023), for ESR1-mutant breast cancer detected by blood test.",
     summary: "EMERALD: PFS benefit confined to ESR1-mutant disease; Guardant360 CDx as companion diagnostic. Stemline/Menarini. Imlunestrant (Lilly, Inluriyo, 2025) and camizestrant (AstraZeneca, SERENA-6 ctDNA-guided switch) followed.",
     mechanism: "Oral selective ER degrader.",
     approvals: [{ region: "US", year: 2023, indication: "ESR1-mutant ER+/HER2- advanced breast cancer after ≥1 endocrine therapy" }],
@@ -652,7 +652,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "belzutifan", kind: "drug", name: "Belzutifan", brand: "Welireg", modality: "Small-molecule HIF-2α inhibitor", asOf, status: "approved", wikipedia: W("Belzutifan"),
-    tldr: "The first HIF-2α inhibitor, born from Nobel-winning biology, now approved after kidney cancer surgery with pembrolizumab.",
+    tldr: "Belzutifan is the first HIF-2α inhibitor, born from Nobel-winning biology, and is now approved after kidney cancer surgery with pembrolizumab.",
     summary: "VHL disease (2021), advanced RCC after PD-1 and VEGF-TKI (LITESPARK-005, 2023), pheochromocytoma/paraganglioma (2025), and Q2 2026 adjuvant clear-cell RCC with pembrolizumab (LITESPARK-022). Merck.",
     mechanism: "Blocks HIF-2α/ARNT dimerisation.",
     approvals: [{ region: "US", year: 2021, indication: "VHL-associated RCC, CNS haemangioblastoma, pNET" }, { region: "US", year: 2023, indication: "Advanced RCC after PD-1/PD-L1 and VEGF-TKI" }, { region: "US", year: 2026, indication: "Adjuvant clear-cell RCC with pembrolizumab" }],
@@ -668,7 +668,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "revumenib", kind: "drug", name: "Revumenib", brand: "Revuforj", modality: "Small-molecule menin inhibitor", asOf, status: "approved", wikipedia: W("Revumenib"),
-    tldr: "The first menin inhibitor (2024), for acute leukaemias with KMT2A rearrangements or NPM1 mutations.",
+    tldr: "Revumenib (Revuforj) is the first menin inhibitor (2024), for acute leukaemias with KMT2A rearrangements or NPM1 mutations.",
     summary: "AUGMENT-101: CR/CRh ~23% in heavily pretreated KMT2A-rearranged leukaemia; NPM1-mutant AML approval 2025. Differentiation syndrome and QT prolongation. Syndax. Ziftomenib (Kura/Kyowa Kirin) approved 2025.",
     mechanism: "Disrupts menin-KMT2A interaction, releasing differentiation block.",
     approvals: [{ region: "US", year: 2024, indication: "Relapsed/refractory KMT2A-rearranged acute leukaemia, age ≥1" }, { region: "US", year: 2025, indication: "Relapsed/refractory NPM1-mutant AML" }],
@@ -719,7 +719,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "intismeran-autogene", kind: "drug", name: "Intismeran autogene", code: "V940, mRNA-4157", modality: "Personalised mRNA neoantigen vaccine", asOf, status: "phase-3",
     tldr: "A custom mRNA vaccine encoding up to 34 of a patient's own tumour mutations. In August 2026 it became the first personalised cancer vaccine to win a phase 3 trial.",
-    summary: "Moderna/Merck. Phase 2b KEYNOTE-942 showed 49% reduction in recurrence or death with pembrolizumab in resected melanoma. Phase 3 INTerpath-001 (1,137 patients, stage IIB-IV resected melanoma) met RFS and DMFS endpoints (19 August 2026); regulatory filings expected. Phase 3 trials in adjuvant NSCLC (INTerpath-002), RCC, bladder, and cutaneous SCC ongoing. Manufacturing ~6 weeks per patient.",
+    summary: "Intismeran is developed by Moderna and Merck. Phase 2b KEYNOTE-942 showed 49% reduction in recurrence or death with pembrolizumab in resected melanoma. Phase 3 INTerpath-001 (1,137 patients, stage IIB-IV resected melanoma) met RFS and DMFS endpoints (19 August 2026); regulatory filings expected. Phase 3 trials in adjuvant NSCLC (INTerpath-002), RCC, bladder, and cutaneous SCC ongoing. Manufacturing ~6 weeks per patient.",
     mechanism: "Tumour/normal WES → neoantigen prediction → single mRNA encoding up to 34 neoepitopes in LNP → intramuscular dosing with pembrolizumab.",
     technologies: ["neoantigen-mrna-vaccine"], companies: ["moderna", "merck"], cancers: ["melanoma", "nsclc", "rcc", "urothelial"], trials: ["interpath-001"], drugs: ["pembrolizumab"],
     links: [{ label: "Merck/Moderna announcement", url: "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/" }],
@@ -733,7 +733,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "vusolimogene-oderparepvec", kind: "drug", name: "Vusolimogene oderparepvec", brand: "Tudriqev", code: "RP1", modality: "Oncolytic virus (HSV-1)", asOf, status: "approved",
-    tldr: "An engineered herpes virus injected into melanoma tumours, approved in August 2026 with nivolumab after immunotherapy failure.",
+    tldr: "Vusolimogene oderparepvec is an engineered herpes virus injected into melanoma tumours, approved in August 2026 with nivolumab after immunotherapy failure.",
     summary: "Replimune's RP1 expresses GM-CSF and GALV-GP R- fusogenic protein. IGNYTE: ORR ~33% in anti-PD-1-failed melanoma, including uninjected lesions. FDA issued a complete response letter in July 2025 then granted accelerated approval on 6 August 2026 with nivolumab. Confirmatory IGNYTE-3 ongoing.",
     mechanism: "Selective replication in tumour cells, cell fusion and lysis, GM-CSF-driven antigen presentation.",
     approvals: [{ region: "US", year: 2026, indication: "Unresectable/metastatic melanoma after anti-PD-1, with nivolumab (accelerated)" }],
@@ -741,7 +741,7 @@ const baseDrugs: DrugInput[] = [
   },
   {
     id: "talimogene-laherparepvec", kind: "drug", name: "Talimogene laherparepvec", brand: "Imlygic", code: "T-VEC", modality: "Oncolytic virus (HSV-1)", asOf, status: "approved", wikipedia: W("Talimogene_laherparepvec"),
-    tldr: "The first approved oncolytic virus (2015), injected into melanoma skin lesions.",
+    tldr: "Talimogene laherparepvec (T-VEC, Imlygic) was the first approved oncolytic virus (2015), injected into melanoma skin lesions.",
     summary: "OPTiM: durable response rate 16% vs 2% for GM-CSF. Modest uptake; combination with pembrolizumab (MASTERKEY-265) did not improve PFS/OS. Amgen.",
     mechanism: "HSV-1 with ICP34.5 and ICP47 deleted, expressing GM-CSF.",
     approvals: [{ region: "US", year: 2015, indication: "Unresectable melanoma with injectable lesions" }],
@@ -751,7 +751,7 @@ const baseDrugs: DrugInput[] = [
   // ======================= DEVICES =======================
   {
     id: "optune", kind: "drug", name: "Optune / Optune Pax (TTFields)", brand: "Optune", modality: "Device (tumour treating fields)", asOf, status: "approved", wikipedia: W("Tumor_treating_fields"),
-    tldr: "A wearable device delivering electric fields that disrupt cell division. Approved for glioblastoma and, in 2026, pancreatic cancer.",
+    tldr: "Optune is a wearable device delivering electric fields that disrupt cell division. It is approved for glioblastoma and, in 2026, pancreatic cancer.",
     summary: "Optune Gio in glioblastoma (EF-14, 2015) and mesothelioma; Optune Lua in NSCLC after platinum (LUNAR, 2024); Optune Pax approved Q1 2026 with gemcitabine/nab-paclitaxel in unresectable locally advanced pancreatic cancer (PANOVA-3, OS 16.2 vs 14.2 months). Novocure.",
     mechanism: "200 kHz (glioma) or 150 kHz (pancreas, lung) alternating fields via transducer arrays.",
     approvals: [{ region: "US", year: 2011, indication: "Recurrent glioblastoma (newly diagnosed 2015)" }, { region: "US", year: 2024, indication: "Metastatic NSCLC after platinum with PD-1 or docetaxel" }, { region: "US", year: 2026, indication: "Locally advanced pancreatic cancer with chemotherapy" }],
@@ -762,7 +762,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "galleri", kind: "drug", name: "Galleri", modality: "Multi-cancer early detection blood test", asOf, status: "phase-3",
     tldr: "A blood test screening for more than 50 cancers at once, before the FDA in September 2026.",
-    summary: "GRAIL's methylation-based MCED. Available as an LDT since 2021 (~$949). PATHFINDER 2 (25,000+ participants) and NHS-Galleri (140,000 randomised) underpin the PMA submitted January 2026; FDA advisory committee 23 September 2026. Cancer signal detected in ~1% of screened adults with PPV ~40-60% in PATHFINDER 2; sensitivity for stage I disease is low.",
+    summary: "Galleri is GRAIL's methylation-based MCED. Available as an LDT since 2021 (~$949). PATHFINDER 2 (25,000+ participants) and NHS-Galleri (140,000 randomised) underpin the PMA submitted January 2026; FDA advisory committee 23 September 2026. Cancer signal detected in ~1% of screened adults with PPV ~40-60% in PATHFINDER 2; sensitivity for stage I disease is low.",
     mechanism: "Targeted cfDNA methylation sequencing with machine-learned cancer signal and tissue-of-origin classifier.",
     technologies: ["mced", "liquid-biopsy", "methylation-profiling"], companies: ["grail"], trials: ["nhs-galleri", "pathfinder-2"],
     links: [{ label: "GRAIL PMA announcement", url: "https://grail.com/press-releases/grail-submits-fda-premarket-approval-application-for-the-galleri-multi-cancer-early-detection-test/" }],
@@ -770,7 +770,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "shield", kind: "drug", name: "Shield", modality: "Blood-based colorectal cancer screening test", asOf, status: "approved",
     tldr: "The first FDA-approved blood test for colorectal cancer screening (2024), now optionally reporting other cancers too.",
-    summary: "Guardant Health. ECLIPSE: 83% sensitivity for CRC, 13% for advanced adenomas, 90% specificity. Medicare coverage. Shield MCD (multi-cancer) option added 2025 with Breakthrough designation.",
+    summary: "Shield is Guardant Health's blood-based colorectal cancer screening test. ECLIPSE: 83% sensitivity for CRC, 13% for advanced adenomas, 90% specificity. Medicare coverage. Shield MCD (multi-cancer) option added 2025 with Breakthrough designation.",
     mechanism: "cfDNA methylation, fragmentomics, and mutations.",
     approvals: [{ region: "US", year: 2024, indication: "Colorectal cancer screening, average-risk adults ≥45" }],
     technologies: ["mced", "liquid-biopsy"], companies: ["guardant-health"], cancers: ["colorectal"],
@@ -778,14 +778,14 @@ const baseDrugs: DrugInput[] = [
   {
     id: "signatera", kind: "drug", name: "Signatera", modality: "Tumour-informed ctDNA MRD test", asOf, status: "established",
     tldr: "The most widely used blood test for detecting leftover cancer after surgery, personalised to each patient's tumour mutations.",
-    summary: "Natera. Tracks 16 patient-specific variants. Medicare-covered in colorectal, breast, bladder, lung, ovarian, and immunotherapy monitoring. Used in interventional trials (CIRCULATE-US, ZEST in TNBC with niraparib, negative for feasibility reasons; IMvigor011 used Signatera to select ctDNA+ bladder patients for atezolizumab, leading to the first ctDNA-based approval in 2026).",
+    summary: "Signatera is Natera's tumour-informed MRD test and tracks 16 patient-specific variants. Medicare-covered in colorectal, breast, bladder, lung, ovarian, and immunotherapy monitoring. Used in interventional trials (CIRCULATE-US, ZEST in TNBC with niraparib, negative for feasibility reasons; IMvigor011 used Signatera to select ctDNA+ bladder patients for atezolizumab, leading to the first ctDNA-based approval in 2026).",
     mechanism: "WES of tumour → bespoke 16-plex PCR/NGS assay on plasma at very high depth.",
     technologies: ["mrd-testing", "liquid-biopsy"], companies: ["natera"], cancers: ["colorectal", "urothelial", "tnbc", "nsclc"], trials: ["imvigor011"],
   },
   {
     id: "foundationone-cdx", kind: "drug", name: "FoundationOne CDx / Liquid CDx", modality: "Comprehensive genomic profiling test", asOf, status: "approved",
     tldr: "The FDA-approved tissue (324 genes) and blood genomic tests that serve as companion diagnostics for dozens of drugs.",
-    summary: "Foundation Medicine (Roche). Reports mutations, CNVs, fusions, TMB, MSI, and (tissue) HRD-LOH. Companion diagnostic for >30 therapies including olaparib, capivasertib, T-DXd (HER2 in NSCLC), and selpercatinib.",
+    summary: "FoundationOne CDx and Liquid CDx are Foundation Medicine's (Roche) comprehensive genomic profiling tests. They report mutations, CNVs, fusions, TMB, MSI, and (tissue) HRD-LOH. Companion diagnostic for >30 therapies including olaparib, capivasertib, T-DXd (HER2 in NSCLC), and selpercatinib.",
     mechanism: "Hybrid-capture NGS of 324 genes.",
     approvals: [{ region: "US", year: 2017, indication: "Tissue CGP companion diagnostic (Liquid CDx 2020)" }],
     technologies: ["cgp", "companion-diagnostic", "liquid-biopsy"], companies: ["foundation-medicine"],
@@ -817,7 +817,7 @@ const baseDrugs: DrugInput[] = [
   // ======================= CHEMOTHERAPY BACKBONES (selected) =======================
   {
     id: "carboplatin", kind: "drug", name: "Carboplatin", modality: "Cytotoxic chemotherapy (platinum)", asOf, status: "approved", wikipedia: W("Carboplatin"),
-    tldr: "A platinum chemotherapy that crosslinks DNA; part of the standard pre-surgery regimen for triple-negative breast cancer.",
+    tldr: "Carboplatin is a platinum chemotherapy that crosslinks DNA; it is part of the standard pre-surgery regimen for triple-negative breast cancer.",
     summary: "Generic since 2004. In TNBC, adding carboplatin to neoadjuvant chemotherapy raised pathologic complete response (BrighTNess, GeparSixto) and is part of the KEYNOTE-522 backbone.",
     mechanism: "DNA intrastrand crosslinks.",
     approvals: [{ region: "US", year: 1989, indication: "Ovarian cancer (now broad use)" }],

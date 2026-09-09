@@ -9,7 +9,7 @@ export const cancers: CancerInput[] = [
   // ======================= TNBC — the spike =======================
   c({
     id: "tnbc", name: "Triple-negative breast cancer (TNBC)", group: "breast", wikipedia: W("Triple-negative_breast_cancer"),
-    burden: "About 10-15% of breast cancers, ~200,000 cases per year worldwide; more common in younger women, Black women, and BRCA1 carriers.",
+    burden: "TNBC accounts for about 10-15% of breast cancers, roughly 200,000 cases per year worldwide, and is more common in younger women, Black women, and BRCA1 carriers.",
     tldr: "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that.",
     summary: "TNBC is defined by what it lacks: ER <1%, PR <1%, HER2 0-1+ (or 2+/ISH-negative). It is biologically heterogeneous (basal-like 1 and 2, mesenchymal, luminal androgen receptor, immunomodulatory subtypes), nearly always TP53-mutant, frequently HRD-positive (~20% germline BRCA1/2), and has the highest TROP2 expression and the most immune infiltration of any breast subtype. Relapses cluster in the first three years and favour visceral and brain metastases.\n\nThe standard of care changed three times in six years. KEYNOTE-522 (2020-21) made pembrolizumab plus carboplatin-containing chemotherapy before surgery, continued after, the standard for stage II-III disease, with a 7.9-point overall survival gain at seven years. OlympiA (2021) added adjuvant olaparib for germline BRCA carriers with residual disease. In metastatic disease, pembrolizumab-chemotherapy (CPS ≥10) was joined by the TROP2 ADCs: sacituzumab govitecan (ASCENT, second line 2020; first-line ASCENT-03/04 2026) and datopotamab deruxtecan (TROPION-Breast02, first-line PD-1-ineligible, 2026, with an overall survival benefit), while T-DXd covers the ~35% of TNBC that is HER2-low. The EGFR×HER3 bispecific ADC iza-bren posted the first positive phase 3 for a bispecific ADC in pretreated TNBC in February 2026.\n\nWhat remains unsolved: residual disease after KEYNOTE-522 (RCB II-III) still carries ~40-50% relapse risk; ADC sequencing (TOP1-payload cross-resistance) is unstudied; PD-L1-negative early disease has no immunotherapy option; brain metastases; and the biology of the mesenchymal/claudin-low subtype resists every class. The most promising directions are ADC + IO first line, de-escalation guided by TILs and pCR, ctDNA-guided escalation, TROP2 PET selection, next-generation ADCs with non-TOP1 or dual payloads, and personalised vaccines in the adjuvant setting.",
     subtypes: ["Basal-like 1 (BL1, DDR-deficient, platinum/PARP-sensitive)", "Basal-like 2 (BL2, growth-factor signalling)", "Mesenchymal / claudin-low (EMT, stem-like, chemoresistant)", "Luminal androgen receptor (LAR, AR+, PIK3CA-mutant)", "Immunomodulatory (high TILs, IO-responsive)", "HER2-low TNBC (~35%, eligible for T-DXd)"],
@@ -64,7 +64,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "breast-hr-positive", name: "HR-positive / HER2-negative breast cancer", group: "breast", wikipedia: W("Breast_cancer"),
     burden: "About 70% of the 2.3 million breast cancers diagnosed each year.",
-    tldr: "The most common breast cancer, driven by oestrogen. Treated for years with hormone-blocking pills, now joined by CDK4/6 inhibitors, PI3K-pathway drugs, degraders, and ADCs.",
+    tldr: "HR-positive breast cancer is the most common breast cancer, driven by oestrogen. It was treated for years with hormone-blocking pills, now joined by CDK4/6 inhibitors, PI3K-pathway drugs, degraders, and ADCs.",
     summary: "Endocrine therapy (tamoxifen, aromatase inhibitors, ovarian suppression) for 5-10 years is the backbone; adjuvant CDK4/6 inhibitors (abemaciclib, ribociclib) for high-risk disease; genomic assays (Oncotype DX) spare chemotherapy for most. Metastatic first line: CDK4/6 inhibitor + endocrine therapy; then PI3K/AKT/mTOR-pathway agents by genotype (alpelisib, capivasertib, inavolisib; gedatolisib 2026), oral SERDs or PROTAC (vepdegestrant 2026) for ESR1 mutations detected by ctDNA; then ADCs: T-DXd (HER2-low/ultralow, DESTINY-Breast06), sacituzumab govitecan, Dato-DXd. ctDNA-guided switching (SERENA-6) is a new paradigm.",
     subtypes: ["Luminal A", "Luminal B", "HER2-low (~60% of HR+)", "ESR1-mutant (acquired)", "PIK3CA-mutant (~40%)"],
     biomarkers: ["ER/PR", "HER2 IHC 0/1+/2+ (low, ultralow)", "Ki-67", "Oncotype DX / MammaPrint / Prosigna", "PIK3CA/AKT1/PTEN", "ESR1 (ctDNA)", "gBRCA"],
@@ -93,7 +93,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "breast-her2-positive", name: "HER2-positive breast cancer", group: "breast", wikipedia: W("HER2-positive_breast_cancer"),
     burden: "15-20% of breast cancers.",
-    tldr: "Once the most aggressive subtype, now one of the most treatable thanks to trastuzumab and, more recently, Enhertu.",
+    tldr: "HER2-positive breast cancer was once the most aggressive subtype and is now one of the most treatable, thanks to trastuzumab and, more recently, Enhertu.",
     summary: "Dual HER2 blockade (trastuzumab + pertuzumab) with chemotherapy is neoadjuvant standard; T-DM1 for residual disease (KATHERINE) is being replaced by T-DXd (DESTINY-Breast05), and T-DXd moved into neoadjuvant therapy (DESTINY-Breast11, approved 2026). Metastatic first line: T-DXd + pertuzumab (DESTINY-Breast09). Tucatinib for brain metastases. In HR+/HER2+, palbociclib maintenance approved 2026 (PATINA). De-escalation by imaging/pCR (PHERGain) is a live theme.",
     biomarkers: ["HER2 IHC 3+ or ISH-amplified", "HR status", "pCR after neoadjuvant therapy"],
     standardOfCare: [
@@ -118,7 +118,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "nsclc", name: "Non-small-cell lung cancer", group: "lung", wikipedia: W("Non-small-cell_lung_cancer"),
     burden: "~85% of lung cancer; lung cancer kills ~1.8 million people a year, more than any other cancer.",
-    tldr: "The biggest cancer killer, and the proving ground for precision medicine: a dozen targetable mutations, immunotherapy for the rest, and ADCs and bispecifics arriving now.",
+    tldr: "Non-small-cell lung cancer is the biggest cancer killer, and the proving ground for precision medicine: a dozen targetable mutations, immunotherapy for the rest, and ADCs and bispecifics arriving now.",
     summary: "Biomarker testing (EGFR, ALK, ROS1, BRAF, MET, RET, NTRK, KRAS G12C, HER2, PD-L1) is mandatory at diagnosis. Oncogene-addicted disease gets targeted therapy first (osimertinib, amivantamab-lazertinib, lorlatinib, selpercatinib, zongertinib, sotorasib/adagrasib); the rest get PD-(L)1 blockade ± chemotherapy. Perioperative immunotherapy (CheckMate 816, KEYNOTE-671) and adjuvant targeted therapy (ADAURA, ALINA) are standard. ADCs (Dato-DXd, T-DXd, telisotuzumab vedotin, iza-bren, HER3-DXd) and bispecifics (ivonescimab PD-1×VEGF) are the next layer. Low-dose CT screening cuts mortality by 20-24%.",
     subtypes: ["Adenocarcinoma", "Squamous", "EGFR-mutant", "ALK-rearranged", "KRAS-mutant", "PD-L1-high"],
     biomarkers: ["EGFR", "ALK", "ROS1", "BRAF V600E", "MET ex14 / amplification / c-MET IHC", "RET", "NTRK", "KRAS G12C", "HER2 mutation", "PD-L1 TPS", "ctDNA"],
@@ -197,8 +197,8 @@ export const cancers: CancerInput[] = [
   }),
   c({
     id: "pancreatic", name: "Pancreatic ductal adenocarcinoma", group: "gastrointestinal", wikipedia: W("Pancreatic_cancer"),
-    burden: "~500,000 cases per year; 5-year survival ~13%; projected second-leading cancer killer in the US by 2030.",
-    tldr: "The deadliest common cancer. Almost every tumour carries a KRAS mutation, and for the first time drugs against it are in pivotal trials.",
+    burden: "Pancreatic cancer causes about 500,000 cases per year with 5-year survival of about 13%, and is projected to be the second-leading cancer killer in the US by 2030.",
+    tldr: "Pancreatic cancer is the deadliest common cancer. Almost every tumour carries a KRAS mutation, and for the first time drugs against it are in pivotal trials.",
     summary: "FOLFIRINOX or gemcitabine/nab-paclitaxel remain the mainstays; surgery cures a minority. 2026 brought the first new approval in locally advanced disease in decades (Optune Pax TTFields). Daraxonrasib (pan-RAS) showed ~14.5-month OS in second line and is in phase 3; KRAS G12D inhibitors and KRAS vaccines (ELI-002) follow. Personalised mRNA vaccines (autogene cevumeran) show durable T-cell responses correlating with recurrence-free survival. CLDN18.2 and mesothelin are ADC/CAR-T targets; FAPI PET outperforms FDG. Germline BRCA (~5-7%): olaparib maintenance (POLO). MCED tests aim at earlier detection.",
     biomarkers: ["KRAS (G12D 40%, G12V 30%, G12R 15%, G12C 1-2%)", "Germline BRCA/PALB2", "MSI (rare)", "NRG1 fusions (KRAS-wild-type)", "CLDN18.2", "CA19-9"],
     standardOfCare: [
@@ -245,7 +245,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "esophageal", name: "Oesophageal cancer", group: "gastrointestinal", wikipedia: W("Esophageal_cancer"),
     burden: "~600,000 cases per year; squamous cell carcinoma dominates in Asia, adenocarcinoma in the West.",
-    tldr: "Two different diseases sharing an organ. Immunotherapy is now standard, and the bispecific ADC iza-bren posted a positive phase 3 in the squamous type in 2026.",
+    tldr: "Oesophageal cancer is really two diseases sharing one organ: squamous cell carcinoma, which dominates in Asia, and adenocarcinoma, which dominates in the West and is treated like gastric cancer. Immunotherapy is now standard, and the bispecific ADC iza-bren posted a positive phase 3 in the squamous type in 2026.",
     summary: "Chemoradiation ± surgery for localised disease with adjuvant nivolumab for residual disease (CheckMate 577). Advanced: chemotherapy + PD-1 (KEYNOTE-590, CheckMate 648). Iza-bren phase 3 positive in pretreated ESCC (2026). Adenocarcinoma follows gastric paradigms.",
     biomarkers: ["PD-L1", "HER2 (adenocarcinoma)", "EGFR (squamous)"],
     standardOfCare: [
@@ -299,7 +299,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "prostate", name: "Prostate cancer", group: "genitourinary", wikipedia: W("Prostate_cancer"),
     burden: "~1.5 million cases per year; the most common cancer in men in most high-income countries.",
-    tldr: "The home of theranostics: PSMA PET finds it, PSMA radioligands treat it. Hormonal therapy remains the foundation, with PARP and AKT inhibitors added by genotype.",
+    tldr: "Prostate cancer is the home of theranostics: PSMA PET finds it, PSMA radioligands treat it. Hormonal therapy remains the foundation, with PARP and AKT inhibitors added by genotype.",
     summary: "Screening by PSA with MRI triage; active surveillance for low-risk disease; surgery or radiation (hypofractionated, brachytherapy) for localised; ADT + AR pathway inhibitor ± docetaxel for metastatic hormone-sensitive; olaparib/niraparib/talazoparib + ARPI for HRR-mutant, capivasertib + abiraterone for PTEN-deficient (2026), 177Lu-PSMA-617 (Pluvicto) pre- and post-chemotherapy, 225Ac-PSMA in phase 3. ArteraAI Prostate (2025) is the first FDA-cleared predictive AI pathology test. Radium-223 for bone-predominant disease.",
     biomarkers: ["PSA", "Gleason / Grade Group", "PSMA PET", "HRR genes (BRCA2, ATM, etc.)", "PTEN", "MSI", "AR-V7 (research)", "Decipher / ArteraAI"],
     standardOfCare: [
@@ -415,7 +415,7 @@ export const cancers: CancerInput[] = [
   // ======================= Skin / CNS / H&N =======================
   c({
     id: "melanoma", name: "Melanoma", group: "skin", wikipedia: W("Melanoma"),
-    burden: "~330,000 cases per year; incidence rising in fair-skinned populations.",
+    burden: "Melanoma causes about 330,000 cases per year, and incidence is rising in fair-skinned populations.",
     tldr: "The cancer that proved immunotherapy works: half of advanced patients now live 10 years. Also the first with an approved TIL therapy, an oncolytic virus, and a positive phase 3 personalised vaccine.",
     summary: "Adjuvant/neoadjuvant PD-1 for stage III (and IIB/C); neoadjuvant nivolumab-ipilimumab (NADINA) superior to adjuvant. Metastatic: nivolumab-ipilimumab or nivolumab-relatlimab first line; BRAF/MEK for BRAF V600 (usually after IO); lifileucel TIL after PD-1; RP1 oncolytic virus + nivolumab (2026); tebentafusp for uveal melanoma. Intismeran autogene + pembrolizumab met phase 3 endpoints in adjuvant setting (August 2026).",
     biomarkers: ["BRAF V600", "NRAS", "KIT (acral/mucosal)", "PD-L1 (weak)", "TMB", "HLA-A*02:01 (tebentafusp)"],
@@ -440,8 +440,8 @@ export const cancers: CancerInput[] = [
   }),
   c({
     id: "glioblastoma", name: "Glioma & glioblastoma", group: "central nervous system", wikipedia: W("Glioblastoma"),
-    burden: "~300,000 CNS tumours per year; glioblastoma median survival ~15 months.",
-    tldr: "The most lethal brain tumour, barely improved since 2005. Low-grade IDH-mutant gliomas, by contrast, got their first targeted drug in 2024.",
+    burden: "About 300,000 CNS tumours occur per year; glioblastoma median survival is about 15 months.",
+    tldr: "Glioblastoma is the most lethal brain tumour, barely improved since 2005. Low-grade IDH-mutant gliomas, by contrast, got their first targeted drug in 2024.",
     summary: "Glioblastoma: maximal safe resection (5-ALA fluorescence), radiation + temozolomide (Stupp), TTFields; MGMT methylation predicts benefit. Every large IO and targeted trial has failed; CAR-T (IL13Rα2, EGFRvIII, GD2 for DIPG), intrathecal delivery, and BBB-opening focused ultrasound are active areas. IDH-mutant grade 2 glioma: vorasidenib (INDIGO) delays radiation/chemotherapy. Methylation classification is diagnostic standard.",
     biomarkers: ["IDH1/2", "1p/19q codeletion", "MGMT methylation", "H3K27M", "EGFR amplification", "Methylation class"],
     standardOfCare: [
@@ -477,7 +477,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "sarcoma", name: "Sarcomas (soft tissue, bone, GIST)", group: "sarcoma", wikipedia: W("Sarcoma"),
     burden: "~1% of adult cancers, >70 subtypes.",
-    tldr: "Dozens of rare cancers of bone and connective tissue. GIST was the first solid tumour cured-in-practice by a targeted pill; synovial sarcoma got the first TCR-T therapy.",
+    tldr: "Sarcomas are dozens of rare cancers of bone and connective tissue. GIST was the first solid tumour cured-in-practice by a targeted pill; synovial sarcoma got the first TCR-T therapy.",
     summary: "Surgery ± radiation for localised soft-tissue sarcoma; doxorubicin-based chemotherapy for advanced. Subtype-specific therapy: imatinib (GIST), tazemetostat (epithelioid), afamitresgene autoleucel (synovial sarcoma, MAGE-A4), larotrectinib (NTRK), pexidartinib (TGCT), nirogacestat (desmoid). Carbon-ion and proton therapy for unresectable bone sarcomas. Hyperthermia with chemotherapy improves survival (EORTC 62961).",
     biomarkers: ["Histologic subtype", "KIT/PDGFRA (GIST)", "MAGE-A4 + HLA-A*02", "NTRK fusions", "INI1 loss", "CDK4/MDM2 amplification (liposarcoma)"],
     standardOfCare: [
@@ -494,7 +494,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "thyroid", name: "Thyroid cancer", group: "endocrine", wikipedia: W("Thyroid_cancer"),
     burden: "~820,000 cases per year; most are indolent papillary cancers with >98% survival.",
-    tldr: "Usually curable with surgery and radioactive iodine, the original theranostic. Rare aggressive forms respond to RET and BRAF inhibitors.",
+    tldr: "Thyroid cancer is usually curable with surgery and radioactive iodine, the original theranostic. Rare aggressive forms respond to RET and BRAF inhibitors.",
     summary: "Radioactive iodine (since 1946) is the first theranostic. Active surveillance for microcarcinomas. Advanced radioiodine-refractory disease: lenvatinib, sorafenib; selpercatinib (RET), dabrafenib-trametinib (BRAF V600E anaplastic), larotrectinib (NTRK). Redifferentiation with MEK/BRAF inhibitors restores iodine uptake.",
     biomarkers: ["BRAF V600E", "RET fusion/mutation", "NTRK", "RAS", "TERT"],
     standardOfCare: [
@@ -542,7 +542,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "neuroblastoma", name: "Neuroblastoma (paediatric)", group: "paediatric", wikipedia: W("Neuroblastoma"),
     burden: "The most common extracranial solid tumour of childhood; ~800 US cases per year.",
-    tldr: "A childhood nerve-cell cancer where anti-GD2 antibodies and, recently, GD2 CAR-T have improved survival in high-risk disease.",
+    tldr: "Neuroblastoma is a childhood nerve-cell cancer where anti-GD2 antibodies and, recently, GD2 CAR-T have improved survival in high-risk disease.",
     summary: "Risk-stratified therapy: observation for low-risk; intensive chemotherapy, surgery, autologous transplant, radiation, and anti-GD2 immunotherapy (dinutuximab, naxitamab) for high-risk. GD2 CAR-T (Italian phase 1/2, 63% response in relapsed disease) and ALK inhibitors (lorlatinib in ALK-mutant) are the frontier. 131I-MIBG theranostics used in relapse.",
     biomarkers: ["MYCN amplification", "ALK mutation", "Age, stage, ploidy", "Segmental chromosome aberrations"],
     standardOfCare: [{ setting: "High-risk", approach: "Induction chemo → surgery → tandem transplant → RT → anti-GD2 + isotretinoin; lorlatinib if ALK-mutant.", refs: ["lorlatinib", "monoclonal-antibody"], guideline: { version: "NCI PDQ: Neuroblastoma Treatment (COG risk groups)", url: "https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq" } }],
@@ -558,7 +558,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "aml", name: "Acute myeloid leukaemia", group: "haematologic", wikipedia: W("Acute_myeloid_leukemia"),
     burden: "~20,000 US cases per year; median age 68.",
-    tldr: "An aggressive blood cancer where, after 40 years of the same chemotherapy, a wave of targeted drugs (FLT3, IDH, BCL-2, menin) arrived.",
+    tldr: "Acute myeloid leukaemia is an aggressive blood cancer where, after 40 years of the same chemotherapy, a wave of targeted drugs (FLT3, IDH, BCL-2, menin) arrived.",
     summary: "Fit patients: intensive '7+3' ± midostaurin/quizartinib (FLT3) or gemtuzumab (CD33), then transplant for adverse risk. Unfit: azacitidine + venetoclax. Relapsed: gilteritinib (FLT3), ivosidenib/enasidenib (IDH), revumenib/ziftomenib (KMT2A/NPM1). MRD by flow/NGS guides transplant. CD123 ADC pivekimab (2026) for BPDCN. Magrolimab (CD47) failed.",
     biomarkers: ["FLT3-ITD/TKD", "NPM1", "IDH1/2", "KMT2A", "TP53", "CD33", "ELN risk", "MRD"],
     standardOfCare: [
@@ -576,7 +576,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "all-leukemia", name: "Acute lymphoblastic leukaemia", group: "haematologic", wikipedia: W("Acute_lymphoblastic_leukemia"),
     burden: "The most common childhood cancer; 90% cure in children, lower in adults.",
-    tldr: "The childhood cancer success story, and the first disease treated with CAR-T and with a T-cell engager.",
+    tldr: "Acute lymphoblastic leukaemia is the childhood cancer success story, and was the first disease treated with CAR-T and with a T-cell engager.",
     summary: "Multi-agent chemotherapy over 2-3 years; TKIs for Ph+ (dasatinib, ponatinib); blinatumomab now in frontline consolidation for all (E1910, AALL1731); inotuzumab (CD22 ADC); tisagenlecleucel and obecabtagene (CD19 CAR-T) for relapsed disease; menin inhibitors for KMT2A-rearranged.",
     biomarkers: ["BCR-ABL (Ph+)", "KMT2A", "Ph-like signature", "MRD (flow/NGS)"],
     standardOfCare: [{ setting: "Frontline", approach: "Risk-adapted chemotherapy + blinatumomab consolidation; TKI if Ph+.", refs: ["blinatumomab"], guideline: { version: "NCCN Guidelines: Acute Lymphoblastic Leukemia", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1410" } }, { setting: "Relapsed", approach: "CAR-T (tisagenlecleucel, obe-cel), inotuzumab, transplant.", refs: ["car-t", "revumenib"], guideline: { version: "NCCN Guidelines: Acute Lymphoblastic Leukemia", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1410" } }],
@@ -590,7 +590,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "dlbcl", name: "Diffuse large B-cell lymphoma", group: "haematologic", wikipedia: W("Diffuse_large_B-cell_lymphoma"),
     burden: "The most common aggressive lymphoma; ~150,000 cases per year.",
-    tldr: "An aggressive but curable lymphoma. CAR-T cures about 40% of relapsed patients, and off-the-shelf bispecifics are now approved.",
+    tldr: "Diffuse large B-cell lymphoma (DLBCL) is an aggressive but curable lymphoma. CAR-T cures about 40% of relapsed patients, and off-the-shelf bispecifics are now approved.",
     summary: "R-CHOP (or Pola-R-CHP, POLARIX) cures ~60%. Relapse within 12 months: CAR-T (axi-cel, liso-cel) beats transplant. Later: glofitamab, epcoritamab (CD20×CD3), loncastuximab, tafasitamab-lenalidomide. Bispecifics moving into frontline (EPCORE DLBCL-2). ROR1 ADC in phase 3.",
     biomarkers: ["Cell of origin (GCB/ABC)", "Double-hit (MYC/BCL2)", "CD19/CD20", "ctDNA MRD"],
     standardOfCare: [
@@ -622,7 +622,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "multiple-myeloma", name: "Multiple myeloma", group: "haematologic", wikipedia: W("Multiple_myeloma"),
     burden: "~190,000 cases per year; median survival now >10 years in fit patients.",
-    tldr: "A plasma-cell cancer with more new drug classes than any other: proteasome inhibitors, IMiDs, CD38 antibodies, BCMA CAR-T, bispecifics, and an ADC.",
+    tldr: "Multiple myeloma is a plasma-cell cancer with more new drug classes than any other: proteasome inhibitors, IMiDs, CD38 antibodies, BCMA CAR-T, bispecifics, and an ADC.",
     summary: "Quadruplet induction (daratumumab-VRd, PERSEUS) ± transplant, lenalidomide maintenance; MRD-guided de-escalation emerging. Relapse: cilta-cel (CARTITUDE-4, OS benefit), ide-cel, teclistamab (≥1 line from 2026), elranatamab, talquetamab, linvoseltamab, belantamab (2025). CELMoDs (iberdomide, mezigdomide) and GPRC5D CAR-T in phase 3. Whole-body MRI/PET for imaging.",
     biomarkers: ["Cytogenetics (del17p, t(4;14), 1q gain)", "R-ISS", "MRD (NGS/flow)", "BCMA/GPRC5D expression"],
     standardOfCare: [
@@ -639,7 +639,7 @@ export const cancers: CancerInput[] = [
   c({
     id: "hodgkin-lymphoma", name: "Hodgkin lymphoma", group: "haematologic", wikipedia: W("Hodgkin_lymphoma"),
     burden: "~80,000 cases per year; peaks in young adults; >85% cured.",
-    tldr: "One of the most curable cancers, where the goal is now to cure with less toxicity, using brentuximab and, from 2026, first-line nivolumab.",
+    tldr: "Hodgkin lymphoma is one of the most curable cancers, where the goal is now to cure with less toxicity, using brentuximab and, from 2026, first-line nivolumab.",
     summary: "PET-adapted ABVD/BV-AVD; nivolumab-AVD superior to BV-AVD (SWOG S1826), approved March 2026 for ages 12+. Relapse: brentuximab, PD-1, transplant. Radiation increasingly omitted.",
     biomarkers: ["Interim PET (Deauville)", "CD30", "PD-L1 (9p24.1 amplification)"],
     standardOfCare: [{ setting: "Advanced stage", approach: "Nivolumab-AVD (2026) or BV-AVD; PET-adapted.", refs: ["nivolumab", "brentuximab-vedotin", "fdg-pet"], guideline: { version: "NCCN Guidelines: Hodgkin Lymphoma", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1439" } }],

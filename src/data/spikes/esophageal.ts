@@ -72,7 +72,7 @@ const trials: TrialInput[] = [
     drugs: ["nivolumab", "ipilimumab"], cancers: ["esophageal"], targets: ["pd1", "ctla4"], links: [ct("NCT03143153"), { label: "5-year follow-up", url: "https://pubmed.ncbi.nlm.nih.gov/42575473/" }] }),
   t({ id: "rationale-306", name: "RATIONALE-306", nct: "NCT03783442", phase: "3", status: "positive", yearReported: 2022, sponsor: "BeOne (BeiGene)", enrolled: 649,
     setting: "First-line advanced oesophageal squamous cell carcinoma: tislelizumab + platinum chemotherapy vs placebo + chemotherapy",
-    tldr: "The trial behind tislelizumab's US approval for squamous oesophageal cancer, with the biggest gains in PD-L1-positive tumours.",
+    tldr: "RATIONALE-306 is the trial behind tislelizumab's US approval for squamous oesophageal cancer, with the biggest gains in PD-L1-positive tumours.",
     summary: "OS 17.2 vs 10.6 months overall (HR 0.66; Lancet Oncology 2023); PD-L1 ≥1%: 16.8 vs 9.6 months. FDA approval 4 March 2025 restricted to PD-L1 ≥1% (TAP). Also approved in EU (2024).",
     result: "OS 17.2 vs 10.6 months (HR 0.66); PD-L1 ≥1% OS 16.8 vs 9.6 months.",
     outcomes: [{ endpoint: "Overall survival, all patients", primary: true, unit: "months", arms: [{ name: "Tislelizumab + chemotherapy", n: 326, value: 17.2 }, { name: "Placebo + chemotherapy", n: 323, value: 10.6 }], hr: 0.66, source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00108-0/abstract" }, { endpoint: "Overall survival, PD-L1 ≥1%", unit: "months", arms: [{ name: "Tislelizumab + chemotherapy", value: 16.8 }, { name: "Placebo + chemotherapy", value: 9.6 }], source: "https://www.onclive.com/view/fda-approves-first-line-tislelizumab-plus-chemotherapy-for-unresectable-or-metastatic-escc" }],
@@ -80,7 +80,7 @@ const trials: TrialInput[] = [
     drugs: ["tislelizumab"], cancers: ["esophageal"], targets: ["pd1"], links: [ct("NCT03783442")] }),
   t({ id: "escort-1st", name: "ESCORT-1st", nct: "NCT03691090", phase: "3", status: "positive", yearReported: 2021, sponsor: "Jiangsu Hengrui", enrolled: 596,
     setting: "First-line advanced oesophageal squamous cell carcinoma (China): camrelizumab + paclitaxel/cisplatin vs placebo + chemotherapy",
-    tldr: "China's first-line immunotherapy trial for squamous oesophageal cancer, one of five that together made chemo-immunotherapy the global standard.",
+    tldr: "ESCORT-1st is China's first-line immunotherapy trial for squamous oesophageal cancer, one of five that together made chemo-immunotherapy the global standard.",
     summary: "OS 15.3 vs 12.0 months (HR 0.70; JAMA 2021), confirmed at final analysis (2024). Camrelizumab is approved in China for ESCC; not approved in the US. ESCORT-NEO (2024) showed neoadjuvant camrelizumab + chemotherapy raises pCR in resectable ESCC.",
     result: "OS 15.3 vs 12.0 months, HR 0.70.",
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Camrelizumab + chemotherapy", n: 298, value: 15.3 }, { name: "Placebo + chemotherapy", n: 298, value: 12.0 }], hr: 0.70, source: "https://jamanetwork.com/journals/jama/fullarticle/2784143" }],
@@ -136,13 +136,13 @@ const technologies: TechnologyInput[] = [
 // ======================= TERMS =======================
 const terms: TermInput[] = [
   term({ id: "barretts-esophagus", name: "Barrett's oesophagus", category: "Biology", tldr: "A change in the lining of the lower oesophagus caused by acid reflux that can, in a minority, progress through dysplasia to adenocarcinoma. It is why Western oesophageal cancer is mostly adenocarcinoma.", summary: "Intestinal metaplasia of the distal oesophagus in ~1-2% of adults; annual progression to adenocarcinoma ~0.1-0.3%, higher with dysplasia. Surveillance endoscopy, radiofrequency ablation and endoscopic resection for dysplasia, and proton-pump inhibitors (AspECT) reduce progression. Non-endoscopic screening (Cytosponge, capsule sponge) is being evaluated for population use.", wikipedia: W("Barrett%27s_esophagus"), cancers: ["esophageal"], technologies: ["endoscopic-resection", "chemoprevention"] }),
-  term({ id: "escc-vs-eac", name: "Squamous cell carcinoma vs adenocarcinoma of the oesophagus", category: "Pathology", tldr: "Two different diseases in one organ: squamous cancer (upper/mid oesophagus, tobacco and alcohol, dominant in Asia) and adenocarcinoma (lower oesophagus, reflux and obesity, dominant in the West).", summary: "ESCC is ~85% of cases worldwide, concentrated in the 'oesophageal cancer belt' from Iran to China; genetically resembles head-and-neck squamous cancer (TP53, NOTCH1, CCND1, SOX2) and responds better to chemoradiation and immunotherapy. EAC arises from Barrett's, resembles gastric adenocarcinoma (HER2 amplification in ~15-20%), and is treated on gastric-like pathways (FLOT, trastuzumab, zolbetuximab trials). Trial eligibility, PD-L1 scoring (TAP vs CPS), and surgery differ between them.", cancers: ["esophageal"], terms: ["siewert-classification", "barretts-esophagus"] }),
+  term({ id: "escc-vs-eac", name: "Squamous cell carcinoma vs adenocarcinoma of the oesophagus", category: "Pathology", tldr: "Oesophageal cancer is two different diseases in one organ: squamous cell carcinoma (upper/mid oesophagus, tobacco and alcohol, dominant in Asia) and adenocarcinoma (lower oesophagus, reflux and obesity, dominant in the West).", summary: "ESCC is ~85% of cases worldwide, concentrated in the 'oesophageal cancer belt' from Iran to China; genetically resembles head-and-neck squamous cancer (TP53, NOTCH1, CCND1, SOX2) and responds better to chemoradiation and immunotherapy. EAC arises from Barrett's, resembles gastric adenocarcinoma (HER2 amplification in ~15-20%), and is treated on gastric-like pathways (FLOT, trastuzumab, zolbetuximab trials). Trial eligibility, PD-L1 scoring (TAP vs CPS), and surgery differ between them.", cancers: ["esophageal"], terms: ["siewert-classification", "barretts-esophagus"] }),
 ];
 
 // ======================= PAIRINGS =======================
 const pairings: PairingInput[] = [
   { id: "cross-then-nivolumab", kind: "pairing", name: "CROSS chemoradiation → surgery → adjuvant nivolumab if residual disease", a: "cross", b: "nivolumab", pairingType: "sequence", asOf,
-    tldr: "Chemotherapy and radiation, then surgery, then a year of immunotherapy if the operation shows cancer was still there. The current curative-intent pathway.",
+    tldr: "Chemotherapy and radiation, then surgery, then a year of immunotherapy if the operation shows cancer was still there. This is the current curative-intent pathway.",
     summary: "CROSS gives 10-year OS of 38%; CheckMate 577 adds DFS 22.4 vs 11.0 months in the ~70% with residual disease after resection (OS HR 0.85, not significant). Patients with pathologic complete response do not receive nivolumab. SANO offers surveillance instead of surgery for clinical complete responders.",
     rationale: "Residual disease after chemoradiation marks high relapse risk; radiation-induced immunogenic cell death primes T cells that PD-1 blockade sustains.",
     evidence: "Phase 3 for each step (CROSS, CheckMate 577); the sequence is guideline standard.",
@@ -163,7 +163,7 @@ const ideas: IdeaInput[] = [
     summary: "Capsule sponge (Cytosponge-TFF3) detected ten times more Barrett's than usual care in the BEST3 trial (Lancet 2020); BEST4 (NIHR, 120,000 participants) tests whether screening and surveillance reduce mortality. Combining with methylation markers (EsoGuard) and AI histology could scale it.",
     hypothesis: "Offering capsule-sponge screening to adults on long-term acid suppression increases the proportion of oesophageal adenocarcinomas diagnosed at stage I and reduces oesophageal cancer mortality.",
     rationale: "Adenocarcinoma has a known precursor, a defined at-risk population, and curative endoscopic treatment for early disease; the missing piece is an accessible test.",
-    test: "BEST4 screening and surveillance arms (mortality and stage-shift endpoints), reporting late 2020s.",
+    test: "The BEST4 screening and surveillance arms (mortality and stage-shift endpoints) report in the late 2020s.",
     technologies: ["endoscopic-resection", "mced", "methylation-profiling"], cancers: ["esophageal"], terms: ["barretts-esophagus", "stage-shift"] },
 ];
 

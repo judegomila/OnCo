@@ -84,7 +84,7 @@ export const simpleA: Record<string, string> = {
   pik3ca: "The most commonly broken gene in hormone-driven breast cancer. Drugs against it work but took years to make safe.",
   akt: "A survival switch inside cells, blocked by a pill in breast cancer and now in prostate cancer.",
   "cdk4-6": "The engine that pushes a cell to copy itself. Blocking it alongside hormone pills roughly doubled how long breast cancer stays under control.",
-  parp: "A DNA repair enzyme. Cancers that have already lost another repair system die when this one is blocked, while healthy cells survive.",
+  parp: "PARP is a DNA repair enzyme. Cancers that have already lost another repair system die when this one is blocked, while healthy cells survive.",
   atr: "An alarm enzyme for DNA damage. Blocking it makes cancers with broken repair systems collapse.",
   wee1: "A checkpoint enzyme that gives cells time to fix their DNA. Removing it forces damaged cancer cells into a fatal division.",
   idh: "A metabolic enzyme whose broken form scrambles how genes are read. Blocking it slows some brain tumours and leukaemias.",

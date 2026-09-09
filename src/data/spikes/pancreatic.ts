@@ -9,7 +9,7 @@ const entities: EntityInput[] = [
   // ======================= DRUGS / REGIMENS =======================
   {
     id: "folfirinox", kind: "drug", name: "FOLFIRINOX / mFOLFIRINOX", modality: "Cytotoxic regimen", asOf, status: "standard-of-care", wikipedia: W("FOLFIRINOX"),
-    tldr: "A four-drug chemotherapy combination that, in 2011, became the first treatment to meaningfully extend life in metastatic pancreatic cancer, and now the standard before and after surgery.",
+    tldr: "FOLFIRINOX is a four-drug chemotherapy combination that, in 2011, became the first treatment to meaningfully extend life in metastatic pancreatic cancer; it is now the standard before and after surgery.",
     summary: "Oxaliplatin, irinotecan, leucovorin, and 5-fluorouracil. PRODIGE 4/ACCORD 11 (2011): OS 11.1 vs 6.8 months versus gemcitabine in fit metastatic patients. Modified FOLFIRINOX (PRODIGE 24, 2018) became the adjuvant standard after resection with median OS ~54 months, and is the most used neoadjuvant regimen for borderline-resectable disease. Toxicity (neutropenia, diarrhoea, neuropathy) restricts it to ECOG 0-1 patients. NALIRIFOX (liposomal irinotecan) is a 2024 variant for metastatic disease.",
     mechanism: "DNA crosslinking (oxaliplatin), topoisomerase-I inhibition (irinotecan), antimetabolite (5-FU with leucovorin modulation).",
     approvals: [{ region: "Global", year: 2011, indication: "Metastatic PDAC (PRODIGE 4 / ACCORD 11; component drugs generic)" }],
@@ -17,7 +17,7 @@ const entities: EntityInput[] = [
   },
   {
     id: "nalirifox", kind: "drug", name: "NALIRIFOX (liposomal irinotecan + oxaliplatin + 5-FU/LV)", brand: "Onivyde regimen", modality: "Cytotoxic regimen", asOf, status: "approved",
-    tldr: "A version of FOLFIRINOX using a liposome-wrapped irinotecan, approved in 2024 as a first-line option for metastatic pancreatic cancer.",
+    tldr: "NALIRIFOX is a version of FOLFIRINOX using a liposome-wrapped irinotecan, approved in 2024 as a first-line option for metastatic pancreatic cancer.",
     summary: "NAPOLI 3 (n=770): OS 11.1 vs 9.2 months (HR 0.84) and PFS 7.4 vs 5.6 months versus gemcitabine plus nab-paclitaxel. FDA approval February 2024. Ipsen. The first phase 3 head-to-head win between the two chemotherapy backbones, though the absolute gain is modest.",
     mechanism: "Liposomal irinotecan (prolonged SN-38 exposure) with oxaliplatin and 5-FU/leucovorin.",
     approvals: [{ region: "US", year: 2024, indication: "First-line metastatic pancreatic adenocarcinoma" }],
@@ -26,7 +26,7 @@ const entities: EntityInput[] = [
   },
   {
     id: "gemcitabine-nab-paclitaxel", kind: "drug", name: "Gemcitabine + nab-paclitaxel", brand: "Gemzar + Abraxane", modality: "Cytotoxic regimen", asOf, status: "standard-of-care", wikipedia: W("Gemcitabine"),
-    tldr: "The gentler of the two standard chemotherapy backbones for pancreatic cancer, and the base on which most new drugs are being tested.",
+    tldr: "Gemcitabine plus nab-paclitaxel is the gentler of the two standard chemotherapy backbones for pancreatic cancer, and the base on which most new drugs are being tested.",
     summary: "MPACT (2013): OS 8.5 vs 6.7 months versus gemcitabine alone. Preferred for less fit patients; the control or backbone arm in PANOVA-3 (TTFields), zoldonrasib first-line combinations, and CLDN18.2 and other add-on trials. Gemcitabine monotherapy (1997) was the standard for 14 years before FOLFIRINOX.",
     mechanism: "Nucleoside analogue (gemcitabine) plus albumin-bound taxane that may deplete stroma and increase gemcitabine delivery.",
     approvals: [{ region: "US", year: 2013, indication: "First-line metastatic pancreatic adenocarcinoma (nab-paclitaxel label)" }],
@@ -49,7 +49,7 @@ const entities: EntityInput[] = [
   },
   {
     id: "mrtx1133", kind: "drug", name: "MRTX1133", modality: "Small-molecule non-covalent KRAS G12D inhibitor", asOf, status: "phase-1",
-    tldr: "The first potent chemical tool against KRAS G12D, which proved the mutation could be drugged even though it lacks the reactive handle G12C has.",
+    tldr: "MRTX1133 was the first potent chemical tool against KRAS G12D, and proved the mutation could be drugged even though it lacks the reactive handle G12C has.",
     summary: "Mirati (now BMS) non-covalent G12D inhibitor; striking regressions in pancreatic PDX models (Nature 2023). Poor oral bioavailability required intravenous dosing in the phase 1/2 trial; development pace slowed after the BMS acquisition, while covalent RAS(ON) competitors advanced.",
     mechanism: "Non-covalent binder to the switch-II pocket of KRAS G12D, inhibiting both ON and OFF states.",
     targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["bms"], cancers: ["pancreatic", "colorectal"], pathways: ["ras-mapk"],
@@ -108,7 +108,7 @@ const entities: EntityInput[] = [
   {
     id: "panova-3", kind: "trial", name: "PANOVA-3", nct: "NCT03377491", phase: "3", status: "positive", yearReported: 2025, sponsor: "Novocure", asOf,
     setting: "Unresectable locally advanced PDAC: TTFields + gemcitabine/nab-paclitaxel vs chemotherapy alone",
-    tldr: "The trial behind the 2026 approval of a wearable electric-field device for pancreatic cancer, the first new approval in locally advanced disease in decades.",
+    tldr: "PANOVA-3 is the trial behind the 2026 approval of a wearable electric-field device for pancreatic cancer, the first new approval in locally advanced disease in decades.",
     summary: "571 patients. OS 16.2 vs 14.2 months (HR 0.82, p=0.039; ASCO 2025 plenary). Pain-free survival also improved. FDA approved Optune Pax in Q1 2026. Modest effect size and open-label design are debated.",
     result: "OS 16.2 vs 14.2 months, HR 0.82.",
     drugs: ["optune", "gemcitabine-nab-paclitaxel"], cancers: ["pancreatic"], technologies: ["ttfields"], companies: ["novocure"], links: [ct("NCT03377491")],
@@ -160,7 +160,7 @@ const entities: EntityInput[] = [
   // ======================= COMPANIES =======================
   {
     id: "ipsen", kind: "company", name: "Ipsen", hq: "Paris", country: "FR", companyType: "pharma", website: "https://www.ipsen.com", ticker: "IPN.PA", asOf,
-    tldr: "French pharma behind Onivyde (liposomal irinotecan) and the NALIRIFOX regimen, and marketer of tovorafenib in Europe.",
+    tldr: "Ipsen is the French pharma behind Onivyde (liposomal irinotecan) and the NALIRIFOX regimen, and marketer of tovorafenib in Europe.",
     summary: "Onivyde/NALIRIFOX (NAPOLI 3), Cabometyx (ex-US), tazemetostat (Tazverik), Ojemda (tovorafenib, EU rights from Day One).",
     drugs: ["nalirifox", "tovorafenib"], cancers: ["pancreatic", "glioblastoma"],
   },

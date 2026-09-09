@@ -33,7 +33,7 @@ export const pathways: PathwayInput[] = [
   }),
   p({
     id: "ras-mapk", name: "RAS / RAF / MEK / ERK (MAPK)", wikipedia: W("MAPK/ERK_pathway"),
-    tldr: "The cell's 'divide' relay. A signal at the surface flips RAS on, which passes to RAF, MEK, and ERK, which tell the nucleus to make the cell divide. KRAS and BRAF mutations jam it in the on position.",
+    tldr: "The RAS-MAPK pathway is the cell's 'divide' relay. A signal at the surface flips RAS on, which passes to RAF, MEK, and ERK, which tell the nucleus to make the cell divide. KRAS and BRAF mutations jam it in the on position.",
     summary: "Growth-factor receptors recruit GRB2/SOS to load GTP onto RAS (KRAS, NRAS, HRAS). RAS-GTP recruits RAF (BRAF, CRAF) dimers, which phosphorylate MEK1/2, which phosphorylate ERK1/2. ERK drives transcription of cyclin D1, MYC, and negative feedback (DUSP, SPRY). Alterations: KRAS (pancreatic 90%, CRC 45%, lung 30%), BRAF V600E (melanoma 50%), NF1 loss, receptor fusions (ALK, RET, NTRK). Drugs: KRAS G12C inhibitors, pan-RAS(ON) inhibitors, BRAF+MEK doublets, upstream RTK inhibitors. Feedback reactivation (loss of ERK-mediated inhibition of RTKs) is why single agents fail and vertical combinations (BRAF+MEK, KRAS+EGFR in CRC) work.",
     analogy: "A relay race: receptor hands the baton to RAS, RAS to RAF, RAF to MEK, MEK to ERK, ERK runs into the nucleus and shouts 'divide'. A KRAS mutation is a runner who never stops running whether or not anyone handed them the baton.",
     nodes: [
@@ -55,7 +55,7 @@ export const pathways: PathwayInput[] = [
   }),
   p({
     id: "p53-cell-cycle", name: "p53 / RB / cell-cycle checkpoint", wikipedia: W("Cell_cycle_checkpoint"),
-    tldr: "The brakes. p53 senses damage and stops the cell from copying itself; RB holds the cell at the G1 gate until CDK4/6 unlocks it. Cancers cut these brakes.",
+    tldr: "The p53 and RB checkpoints are the cell's brakes. p53 senses damage and stops the cell from copying itself; RB holds the cell at the G1 gate until CDK4/6 unlocks it. Cancers cut these brakes.",
     summary: "DNA damage activates ATM/ATR → CHK2/CHK1 → p53 stabilisation (MDM2 degrades p53 normally). p53 induces p21, which inhibits CDK4/6-cyclin D and CDK2-cyclin E, keeping RB bound to E2F and the cell in G1. Cyclin D1 amplification, CDK4 amplification, CDKN2A (p16) loss, RB loss, and TP53 mutation (50% of cancers) each release the brake. CDK4/6 inhibitors re-impose it in RB-intact HR+ breast cancer; WEE1 and PLK1 inhibitors exploit G2/M dependence in TP53-mutant cells; MDM2 inhibitors reactivate wild-type p53.",
     analogy: "A checkpoint at a border: p53 is the inspector who halts traffic when something looks wrong, MDM2 is the manager who keeps sending the inspector home, RB is the barrier arm, and CDK4/6 is the motor that lifts it. Cancers bribe the inspector (TP53 mutation) or hot-wire the motor (cyclin D amplification).",
     nodes: [
@@ -78,7 +78,7 @@ export const pathways: PathwayInput[] = [
   }),
   p({
     id: "ddr", name: "DNA damage response & homologous recombination", wikipedia: W("DNA_repair"),
-    tldr: "The repair crews. Single-strand breaks are patched by PARP; double-strand breaks by BRCA-dependent homologous recombination. Lose one crew and the cell survives; lose both and it dies. That is how PARP inhibitors work.",
+    tldr: "The DNA damage response is the cell's set of repair crews. Single-strand breaks are patched by PARP; double-strand breaks by BRCA-dependent homologous recombination. Lose one crew and the cell survives; lose both and it dies. That is how PARP inhibitors work.",
     summary: "Single-strand breaks recruit PARP1 for base-excision repair. Unrepaired breaks collapse replication forks into double-strand breaks, repaired by homologous recombination (BRCA1, BRCA2, PALB2, RAD51) in S/G2 or by error-prone NHEJ/POLQ-mediated end joining. ATR senses replication stress and signals via CHK1; ATM senses double-strand breaks. HR-deficient tumours (BRCA mutation, HRD) depend on PARP, POLQ, and ATR: the basis of synthetic lethality. Resistance: BRCA reversion, 53BP1/Shieldin loss restoring HR, drug efflux.",
     analogy: "Two repair crews for a road: PARP fixes potholes, BRCA rebuilds collapsed bridges. A town that has lost its bridge crew (BRCA mutation) survives as long as potholes are fixed before they become bridge collapses. Block the pothole crew (PARP inhibitor) and the bridges fall.",
     nodes: [
@@ -123,7 +123,7 @@ export const pathways: PathwayInput[] = [
   }),
   p({
     id: "cgas-sting", name: "cGAS–STING innate sensing", wikipedia: W("Stimulator_of_interferon_genes"),
-    tldr: "The cell's alarm for DNA in the wrong place. Radiation, chemotherapy, and ADCs spill DNA into the cytoplasm; cGAS detects it, STING sounds the alarm, and interferon calls in the immune system.",
+    tldr: "cGAS-STING is the cell's alarm for DNA in the wrong place. Radiation, chemotherapy, and ADCs spill DNA into the cytoplasm; cGAS detects it, STING sounds the alarm, and interferon calls in the immune system.",
     summary: "Cytosolic double-stranded DNA (from micronuclei after DNA damage, or from dying tumour cells taken up by dendritic cells) is sensed by cGAS, producing cGAMP, which activates STING on the ER, recruiting TBK1 to phosphorylate IRF3 and NF-κB, driving type I interferon and chemokines (CXCL10) that recruit and prime T cells. Explains the immunogenic effects of radiation (abscopal effect), PARP inhibitors, and TOP1-payload ADCs. Tumours silence STING or express ENPP1 (degrades cGAMP). STING agonists as drugs have disappointed; ENPP1 inhibitors and STING-agonist ADCs are being tested.",
     analogy: "A smoke detector wired to the fire brigade. DNA in the cytoplasm is smoke; cGAS is the detector; STING is the alarm bell; interferon is the 999 call that brings the immune system. Many tumours have quietly removed the batteries.",
     nodes: [
@@ -166,7 +166,7 @@ export const pathways: PathwayInput[] = [
   }),
   p({
     id: "ar-signaling", name: "Androgen receptor signalling", wikipedia: W("Androgen_receptor"),
-    tldr: "Prostate cancer's engine. Testosterone becomes DHT, binds the androgen receptor, and drives growth genes. Castration removes the fuel; newer pills block the receptor or the enzyme that makes fuel inside the tumour.",
+    tldr: "Androgen receptor signalling is prostate cancer's engine. Testosterone becomes DHT, binds the androgen receptor, and drives growth genes. Castration removes the fuel; newer pills block the receptor or the enzyme that makes fuel inside the tumour.",
     summary: "Testicular testosterone (and adrenal precursors converted intratumourally via CYP17A1) is reduced to DHT by 5α-reductase and binds AR, which translocates to the nucleus and drives PSA, TMPRSS2-ERG, and proliferation genes. GnRH agonists/antagonists shut testicular production; abiraterone blocks CYP17A1; enzalutamide, apalutamide, darolutamide block AR. Castration resistance arises via AR amplification, ligand-binding mutations, splice variants (AR-V7 lacks the ligand domain), glucocorticoid receptor substitution, and lineage plasticity to neuroendocrine phenotype.",
     analogy: "Same key-and-lock idea as oestrogen: castration stops making keys, abiraterone shuts the tumour's own key factory, enzalutamide blocks the lock. AR-V7 is a lock with no keyhole that is permanently open.",
     nodes: [
@@ -187,7 +187,7 @@ export const pathways: PathwayInput[] = [
   }),
   p({
     id: "apoptosis-bcl2", name: "Intrinsic apoptosis (BCL-2 family)", wikipedia: W("Bcl-2_family"),
-    tldr: "The cell's self-destruct switch. BCL-2 holds it shut; BAX and BAK pull it open. Venetoclax pries BCL-2 off so the switch can fire.",
+    tldr: "Intrinsic apoptosis is the cell's self-destruct switch. BCL-2 holds it shut; BAX and BAK pull it open. Venetoclax pries BCL-2 off so the switch can fire.",
     summary: "Stress signals induce BH3-only proteins (BIM, PUMA, NOXA, BAD) that either inhibit anti-apoptotic BCL-2, BCL-XL, MCL-1 or directly activate BAX/BAK, which permeabilise the mitochondrial outer membrane, releasing cytochrome c to activate caspase-9 and executioner caspases. Cancers overexpress BCL-2 (t(14;18) in follicular lymphoma; CLL), MCL-1 (myeloma, AML), or BCL-XL (solid tumours, platelets). Venetoclax (BCL-2) transformed CLL and AML; MCL-1 inhibitors have cardiac toxicity; BCL-XL degraders and platelet-sparing PROTACs are in development.",
     analogy: "A dam (mitochondrial membrane) held by guards (BCL-2, MCL-1) against demolition crews (BAX/BAK). Cancer hires extra guards. Venetoclax fires the BCL-2 guards, and the dam breaks.",
     nodes: [
@@ -227,7 +227,7 @@ export const pathways: PathwayInput[] = [
   }),
   p({
     id: "hif-vhl", name: "VHL / HIF oxygen sensing", wikipedia: W("Hypoxia-inducible_factor"),
-    tldr: "How cells sense oxygen (the 2019 Nobel Prize). VHL destroys HIF when oxygen is present. Kidney cancers lose VHL, so HIF-2α is permanently on and drives blood vessel growth and proliferation.",
+    tldr: "The VHL/HIF pathway is how cells sense oxygen (the 2019 Nobel Prize). VHL destroys HIF when oxygen is present. Kidney cancers lose VHL, so HIF-2α is permanently on and drives blood vessel growth and proliferation.",
     summary: "In normoxia, prolyl hydroxylases (PHD) hydroxylate HIF-α, allowing the VHL E3 ligase to ubiquitinate it for proteasomal degradation. In hypoxia (or with VHL loss in ~90% of clear-cell RCC), HIF-α accumulates, dimerises with HIF-1β (ARNT), and transcribes VEGF, PDGF, GLUT1, CAIX, cyclin D1, and EPO. HIF-2α is the oncogenic paralogue in RCC; belzutifan blocks its dimerisation. CAIX is a PET and radioligand target (89Zr-girentuximab).",
     analogy: "VHL is the shredder that destroys the 'we are suffocating' memo whenever there is oxygen around. Kidney cancer breaks the shredder, so the memo piles up and the cell keeps ordering new blood vessels and sugar.",
     nodes: [
@@ -247,7 +247,7 @@ export const pathways: PathwayInput[] = [
   }),
   p({
     id: "wnt", name: "Wnt / β-catenin", wikipedia: W("Wnt_signaling_pathway"),
-    tldr: "A developmental pathway hijacked by colorectal cancer. Normally a destruction complex keeps β-catenin low; losing APC lets it flood the nucleus and drive growth genes.",
+    tldr: "Wnt/β-catenin is a developmental pathway hijacked by colorectal cancer. Normally a destruction complex keeps β-catenin low; losing APC lets it flood the nucleus and drive growth genes.",
     summary: "Without Wnt, β-catenin is phosphorylated by the destruction complex (APC, AXIN, GSK3β, CK1) and degraded. Wnt binding to Frizzled/LRP5/6 disables the complex; β-catenin accumulates, enters the nucleus, and with TCF/LEF drives MYC, cyclin D1, LGR5, AXIN2. APC loss initiates ~80% of colorectal cancers; CTNNB1 mutations occur in HCC, endometrial, and desmoid tumours; RNF43/RSPO alterations define a ligand-dependent subset. Wnt is also immunosuppressive (excludes dendritic cells). Drugs have been hard: porcupine inhibitors for RSPO/RNF43 tumours, tankyrase inhibitors, and nirogacestat (gamma-secretase, desmoid) are the closest.",
     analogy: "β-catenin is a messenger constantly being shredded by a committee (APC and friends). A Wnt signal tells the committee to stand down. Colorectal cancer fires the committee (APC loss), so the messenger runs unchecked into the nucleus.",
     nodes: [

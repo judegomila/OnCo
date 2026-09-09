@@ -36,7 +36,7 @@ const raw: EntityInput[] = [
   },
   {
     id: "rovalpituzumab-tesirine", kind: "drug", name: "Rovalpituzumab tesirine", code: "Rova-T, SC16LD6.5", modality: "ADC", asOf, status: "withdrawn", wikipedia: W("Rovalpituzumab_tesirine"),
-    tldr: "The first drug against DLL3 in small-cell lung cancer. AbbVie bought it for $5.8B and abandoned it after two failed phase 3 trials. The target later worked with a different weapon.",
+    tldr: "Rovalpituzumab tesirine (Rova-T) was the first drug against DLL3 in small-cell lung cancer. AbbVie bought it for $5.8B and abandoned it after two failed phase 3 trials. The target later worked with a different weapon.",
     summary: "A DLL3-directed ADC with a PBD dimer payload (DAR ~2). Phase 2 TRINITY showed modest response rates with high toxicity (effusions, oedema, photosensitivity). Phase 3 TAHOE (second line vs topotecan) was stopped for shorter survival in the Rova-T arm; MERU (first-line maintenance) failed. AbbVie ended development in 2019 after the 2016 Stemcentrx acquisition. Tarlatamab, a DLL3×CD3 T-cell engager, later improved survival in the same setting (DeLLphi-304, 2025).\n\nLesson: target validation and modality are separable. DLL3 was the right address; a PBD payload with a narrow window in a frail population was the wrong weapon.",
     mechanism: "Humanised anti-DLL3 with PBD dimer (SC-DR002) via cleavable linker.",
     payload: "PBD dimer (SC-DR002)", linker: "Cleavable dipeptide",
@@ -55,7 +55,7 @@ const raw: EntityInput[] = [
   },
   {
     id: "bempegaldesleukin", kind: "drug", name: "Bempegaldesleukin", code: "NKTR-214, bempeg", modality: "Engineered cytokine (PEGylated IL-2)", asOf, status: "negative", wikipedia: W("Bempegaldesleukin"),
-    tldr: "A re-engineered interleukin-2 meant to be a safer version of a famous old immunotherapy. It added nothing to nivolumab in three phase 3 trials.",
+    tldr: "Bempegaldesleukin was a re-engineered interleukin-2 meant to be a safer version of a famous old immunotherapy. It added nothing to nivolumab in three phase 3 trials.",
     summary: "Bempegaldesleukin is a PEGylated IL-2 prodrug biased toward the CD122 receptor to expand CD8 T cells over regulatory T cells. Phase 1/2 PIVOT-02 with nivolumab reported high response rates in melanoma. In 2022, PIVOT IO-001 (melanoma), PIVOT-09 (RCC), and PIVOT-10 (urothelial) all failed to improve response, PFS, or OS over nivolumab alone; BMS and Nektar ended the collaboration (BMS had paid $1.85B upfront in 2018).\n\nLesson: single-arm combination response rates in melanoma are unreliable because nivolumab alone already produces them; biological rationale (Treg sparing) did not translate.",
     mechanism: "IL-2 with releasable PEG chains; preferential CD122 (IL-2Rβγ) engagement.",
     technologies: ["cytokine-therapy"], companies: ["bms"], cancers: ["melanoma", "rcc", "urothelial"], drugs: ["nivolumab"],
@@ -64,7 +64,7 @@ const raw: EntityInput[] = [
   },
   {
     id: "adu-s100", kind: "drug", name: "ADU-S100 (MIW815)", code: "ADU-S100", modality: "Small molecule (STING agonist, intratumoural)", asOf, status: "withdrawn",
-    tldr: "The first STING agonist in the clinic. Injected directly into tumours, it produced almost no responses, alone or with checkpoint blockade.",
+    tldr: "ADU-S100 was the first STING agonist in the clinic. Injected directly into tumours, it produced almost no responses, alone or with checkpoint blockade.",
     summary: "A cyclic dinucleotide STING agonist from Aduro (partnered with Novartis). Phase 1 monotherapy and combinations with spartalizumab or ipilimumab produced single-digit response rates; Novartis returned rights in 2019 and Aduro discontinued the programme in 2020. Merck's MK-1454 followed the same path. The pathway remains important (it mediates immune effects of radiation and ADCs), and systemic and antibody-conjugated STING agonists continue.\n\nLesson: intratumoural delivery to one lesion rarely produces systemic immunity in humans as it does in mice; pharmacology (rapid clearance, dosing) matters as much as the target.",
     mechanism: "Synthetic cyclic dinucleotide activating STING → TBK1 → IRF3 → type I interferon.",
     pathways: ["cgas-sting"], technologies: ["sting-agonist"], companies: ["novartis"], cancers: ["melanoma", "head-and-neck"],
@@ -73,7 +73,7 @@ const raw: EntityInput[] = [
   },
   {
     id: "eprenetapopt", kind: "drug", name: "Eprenetapopt", code: "APR-246", modality: "Small molecule (p53 reactivator)", asOf, status: "negative", wikipedia: W("Eprenetapopt"),
-    tldr: "A drug meant to refold mutant p53, the most common broken protein in cancer. Its phase 3 in blood cancer failed in 2020.",
+    tldr: "Eprenetapopt (APR-246) was a drug meant to refold mutant p53, the most common broken protein in cancer. Its phase 3 in blood cancer failed in 2020.",
     summary: "Eprenetapopt (APR-246) is a prodrug of methylene quinuclidinone, proposed to covalently modify mutant p53 and restore wild-type conformation. Phase 2 with azacitidine in TP53-mutant MDS reported ~50% complete remission. The phase 3 (n=154) missed its primary endpoint of complete remission rate in 2020 (33% vs 22%, not significant). Aprea pivoted away. Subsequent studies suggest much of the activity reflected glutathione depletion and oxidative stress rather than p53 refolding.\n\nLesson: TP53 remains undrugged by direct reactivation; the field moved to mutation-specific correctors (rezatapopt for Y220C) and to exploiting p53-loss dependencies (WEE1, ATR).",
     mechanism: "Converted to MQ, which alkylates cysteines in mutant p53 (claimed) and depletes glutathione.",
     targets: ["tp53"], cancers: ["aml"], pathways: ["p53-cell-cycle"],
@@ -82,7 +82,7 @@ const raw: EntityInput[] = [
   },
   {
     id: "tusamitamab-ravtansine", kind: "drug", name: "Tusamitamab ravtansine", code: "SAR408701", modality: "ADC", asOf, status: "withdrawn",
-    tldr: "Sanofi's ADC against the classic CEA tumour marker, stopped for futility in lung cancer in 2023.",
+    tldr: "Tusamitamab ravtansine was Sanofi's ADC against the classic CEA tumour marker, stopped for futility in lung cancer in 2023.",
     summary: "A CEACAM5-directed ADC with a DM4 maytansinoid payload. Phase 3 CARMEN-LC03 (vs docetaxel in CEACAM5-high non-squamous NSCLC) was stopped in December 2023 when an interim analysis showed the PFS endpoint would not be met; OS was not improved. Sanofi discontinued the whole programme.\n\nLesson: a tubulin-inhibitor payload at DAR ~4 with a non-permeable release mechanism could not match the TOP1-payload ADC bar set in lung cancer; CEACAM5 itself remains under study with T-cell engagers.",
     mechanism: "Humanised anti-CEACAM5 IgG1 with DM4 via cleavable SPDB linker.",
     payload: "DM4 (ravtansine)", linker: "SPDB disulfide",
@@ -93,7 +93,7 @@ const raw: EntityInput[] = [
   {
     id: "impassion131", kind: "trial", name: "IMpassion131", nct: "NCT03125902", phase: "3", status: "negative", yearReported: 2020, sponsor: "Roche", asOf,
     setting: "First-line metastatic TNBC: atezolizumab + paclitaxel vs paclitaxel",
-    tldr: "The sister trial to the first immunotherapy success in breast cancer. It failed, and the approval it was meant to confirm was withdrawn.",
+    tldr: "IMpassion131 was the sister trial to the first immunotherapy success in breast cancer. It failed, and the approval it was meant to confirm was withdrawn.",
     summary: "IMpassion130 (nab-paclitaxel partner) had shown a PFS benefit in PD-L1-positive metastatic TNBC and won accelerated approval in 2019. IMpassion131 used conventional paclitaxel (which requires steroid premedication) and showed no PFS or OS benefit; OS trended worse in the atezolizumab arm. Roche withdrew the US TNBC indication in 2021. Pembrolizumab with chemotherapy (KEYNOTE-355) became the standard instead.\n\nLesson: the chemotherapy partner (steroid premedication, immunogenic cell death profile) and the PD-L1 assay (SP142 vs 22C3) can decide an immunotherapy trial; confirmatory trials must replicate the winning design.",
     result: "PFS HR 0.82 (not significant); OS trend unfavourable; US indication withdrawn 2021.",
     drugs: ["atezolizumab", "paclitaxel", "pembrolizumab"], cancers: ["tnbc"], trials: ["impassion130", "keynote-355"], terms: ["cps", "accelerated-approval"],

@@ -18,7 +18,7 @@ const d = (x: D): DrugInput => ({ kind: "drug", asOf, ...x });
 const trials: TrialInput[] = [
   t({ id: "impower133", name: "IMpower133", nct: "NCT02763579", phase: "3", status: "positive", yearReported: 2018, sponsor: "Roche", enrolled: 403,
     setting: "First-line extensive-stage SCLC: carboplatin-etoposide + atezolizumab vs carboplatin-etoposide + placebo",
-    tldr: "The first trial in decades to lengthen survival in extensive-stage small-cell lung cancer, by adding immunotherapy to chemotherapy.",
+    tldr: "IMpower133 was the first trial in decades to lengthen survival in extensive-stage small-cell lung cancer, by adding immunotherapy to chemotherapy.",
     summary: "Median OS 12.3 vs 10.3 months (HR 0.70); PFS 5.2 vs 4.3 months. Established chemo-immunotherapy as first-line standard (FDA March 2019). The IMbrella A extension reported the first five-year survival data for chemo-immunotherapy in ES-SCLC, with a small tail of long-term survivors in the atezolizumab arm. Benefit was independent of PD-L1 and TMB.",
     result: "OS 12.3 vs 10.3 months, HR 0.70.",
     outcomes: [
@@ -40,7 +40,7 @@ const trials: TrialInput[] = [
     drugs: ["durvalumab", "tremelimumab", "platinum-etoposide"], cancers: ["sclc"], links: [ct("NCT03043872")] }),
   t({ id: "adriatic", name: "ADRIATIC", nct: "NCT03703297", phase: "3", status: "positive", yearReported: 2024, sponsor: "AstraZeneca", enrolled: 730,
     setting: "Limited-stage SCLC without progression after concurrent chemoradiotherapy: durvalumab consolidation (up to 2 years) vs placebo",
-    tldr: "The first improvement in curative-intent small-cell lung cancer treatment in 30 years: a year or two of immunotherapy after chemoradiation lengthens life.",
+    tldr: "ADRIATIC brought the first improvement in curative-intent small-cell lung cancer treatment in 30 years: a year or two of immunotherapy after chemoradiation lengthens life.",
     summary: "Median OS 55.9 vs 33.4 months (HR 0.73); PFS 16.6 vs 9.2 months (HR 0.76). FDA approval 4 December 2024; the PACIFIC template applied to SCLC. Benefit held regardless of prophylactic cranial irradiation. Durvalumab + tremelimumab arm results were reported separately.",
     result: "OS 55.9 vs 33.4 months, HR 0.73.",
     outcomes: [
@@ -52,7 +52,7 @@ const trials: TrialInput[] = [
     links: [ct("NCT03703297"), { label: "FDA approval (Dec 2024)", url: "https://www.onclive.com/view/fda-approves-durvalumab-for-limited-stage-small-cell-lung-cancer" }] }),
   t({ id: "imforte", name: "IMforte", nct: "NCT05091567", phase: "3", status: "positive", yearReported: 2025, sponsor: "Roche / Jazz / PharmaMar", enrolled: 483,
     setting: "First-line maintenance after induction chemo-immunotherapy in ES-SCLC: lurbinectedin + atezolizumab vs atezolizumab",
-    tldr: "The first maintenance treatment ever approved for extensive-stage small-cell lung cancer, adding lurbinectedin to the immunotherapy that continues after chemotherapy.",
+    tldr: "IMforte produced the first maintenance treatment ever approved for extensive-stage small-cell lung cancer, adding lurbinectedin to the immunotherapy that continues after chemotherapy.",
     summary: "Randomised after four cycles of carboplatin-etoposide-atezolizumab without progression. OS 13.2 vs 10.6 months from randomisation (HR 0.73); PFS HR 0.54. FDA approval 2 October 2025. Presented ASCO 2025 plenary; Lancet 2025. Adds myelosuppression and fatigue.",
     result: "OS 13.2 vs 10.6 months (HR 0.73); PFS HR 0.54.",
     outcomes: [
@@ -76,12 +76,12 @@ const trials: TrialInput[] = [
     drugs: ["tarlatamab", "durvalumab"], targets: ["dll3"], cancers: ["sclc"], links: [ct("NCT06211036"), { label: "DeLLphi-303 results (IASLC)", url: "https://www.iaslc.org/iaslc-news/press-release/tarlatamab-anti-pd-l1-first-line-maintenance-after-chemo-immunotherapy-es" }] }),
   t({ id: "ideate-lung02", name: "IDeate-Lung02", nct: "NCT06203210", phase: "3", status: "recruiting", sponsor: "Daiichi Sankyo / Merck",
     setting: "Relapsed SCLC after one prior line: ifinatamab deruxtecan vs topotecan, amrubicin, or lurbinectedin",
-    tldr: "The pivotal trial for the B7-H3 ADC that produced some of the highest response rates ever seen in relapsed small-cell lung cancer.",
+    tldr: "IDeate-Lung02 is the pivotal trial for the B7-H3 ADC that produced some of the highest response rates ever seen in relapsed small-cell lung cancer.",
     summary: "Follows IDeate-Lung01 (ORR ~55% at 12 mg/kg). Primary endpoints ORR and OS. Positioned to compete with tarlatamab in second line; sequencing of the two is an open question.",
     drugs: ["ifinatamab-deruxtecan", "topotecan", "lurbinectedin"], targets: ["b7h3"], cancers: ["sclc"], links: [ct("NCT06203210"), { label: "Trial design paper", url: "https://pubmed.ncbi.nlm.nih.gov/41055143/" }] }),
   t({ id: "astrum-005", name: "ASTRUM-005", nct: "NCT04063163", phase: "3", status: "positive", yearReported: 2022, sponsor: "Henlius", enrolled: 585,
     setting: "First-line ES-SCLC: serplulimab + carboplatin-etoposide vs placebo + carboplatin-etoposide",
-    tldr: "A Chinese PD-1 antibody that produced the longest first-line survival of the chemo-immunotherapy trials, now approved in Europe and the UK but not yet in the US.",
+    tldr: "In ASTRUM-005, a Chinese PD-1 antibody produced the longest first-line survival of the chemo-immunotherapy trials; it is now approved in Europe and the UK but not yet in the US.",
     summary: "OS 15.4 vs 10.9 months (HR 0.63). Approved in China (2022), EU (February 2025), UK and India (2025). A US bridging study versus atezolizumab (ASTRIDE) has completed enrolment.",
     result: "OS 15.4 vs 10.9 months, HR 0.63.",
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Serplulimab + CE", n: 389, value: 15.4 }, { name: "Placebo + CE", n: 196, value: 10.9 }], hr: 0.63, ci: [0.49, 0.82], source: "https://jamanetwork.com/journals/jama/fullarticle/2796605" }],
@@ -99,7 +99,7 @@ const trials: TrialInput[] = [
 // ======================= DRUGS =======================
 const drugs: DrugInput[] = [
   d({ id: "platinum-etoposide", name: "Platinum + etoposide (EP / CE)", modality: "Cytotoxic regimen", status: "standard-of-care", wikipedia: W("Etoposide"),
-    tldr: "The chemotherapy backbone of small-cell lung cancer for over 40 years: a platinum drug plus etoposide, now given with immunotherapy.",
+    tldr: "Platinum plus etoposide has been the chemotherapy backbone of small-cell lung cancer for over 40 years, and is now given with immunotherapy.",
     summary: "Cisplatin or carboplatin with etoposide for 4 (extensive-stage) to 4-6 (limited-stage, with concurrent radiotherapy) cycles. Response rates 60-80% but relapse is near-universal in extensive-stage disease. Carboplatin is preferred with immunotherapy and in frailer patients; cisplatin with concurrent thoracic radiotherapy in fit limited-stage patients.",
     mechanism: "Platinum DNA crosslinks plus topoisomerase-II inhibition by etoposide.",
     mechanismSteps: ["Platinum forms intrastrand DNA crosslinks", "Etoposide traps topoisomerase II on DNA, causing double-strand breaks", "Rapidly dividing SCLC cells (near-universal RB1 and TP53 loss) cannot arrest and undergo apoptosis", "Surviving clones re-emerge within months, often with lineage plasticity"],
@@ -121,7 +121,7 @@ const drugs: DrugInput[] = [
     ],
     technologies: ["cytotoxic-chemotherapy"], companies: ["jazz", "pharmamar"], cancers: ["sclc"], trials: ["imforte", "atlantis"] }),
   d({ id: "topotecan", name: "Topotecan", brand: "Hycamtin", modality: "Cytotoxic (topoisomerase-I inhibitor)", status: "approved", wikipedia: W("Topotecan"),
-    tldr: "The long-standing second-line chemotherapy for relapsed small-cell lung cancer, now the comparator that new drugs must beat.",
+    tldr: "Topotecan is the long-standing second-line chemotherapy for relapsed small-cell lung cancer, and now the comparator that new drugs must beat.",
     summary: "Approved 1996 (IV) and 2007 (oral) for relapsed SCLC after platinum. ORR ~20%, median OS ~6-8 months; heavy myelosuppression. Control arm in DeLLphi-304 (beaten by tarlatamab) and IDeate-Lung02.",
     mechanism: "Topoisomerase-I poison; stabilises the cleavage complex causing replication-associated DNA breaks.",
     mechanismSteps: ["Enters cell as active lactone", "Traps TOP1 on DNA", "Replication fork collision produces double-strand breaks", "Apoptosis in S-phase cells"],
@@ -130,7 +130,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 1996, indication: "Relapsed SCLC (IV)" }, { region: "US", year: 2007, indication: "Relapsed SCLC (oral)" }],
     technologies: ["topoisomerase-inhibitors", "cytotoxic-chemotherapy"], cancers: ["sclc", "ovarian", "cervical"], trials: ["dellphi-304", "atlantis", "ideate-lung02"] }),
   d({ id: "serplulimab", name: "Serplulimab", brand: "Hansizhuang / Hetronifly", code: "HLX10", modality: "Monoclonal antibody (anti-PD-1)", status: "approved",
-    tldr: "A Chinese PD-1 antibody with the largest survival gain of any first-line small-cell lung cancer immunotherapy trial, approved in China, Europe, and the UK but not yet the US.",
+    tldr: "Serplulimab is a Chinese PD-1 antibody with the largest survival gain of any first-line small-cell lung cancer immunotherapy trial, approved in China, Europe, and the UK but not yet the US.",
     summary: "ASTRUM-005: OS 15.4 vs 10.9 months with carboplatin-etoposide. Approved in China (2022, first PD-1 for ES-SCLC), EU (2025), UK, India, Korea. US bridging trial versus atezolizumab (ASTRIDE) fully enrolled; FDA decision pending. Henlius, with Accord in Europe.",
     mechanism: "Humanised IgG4 anti-PD-1.",
     mechanismSteps: ["Binds PD-1 on exhausted T cells", "Blocks PD-L1/PD-L2 engagement", "Restores cytotoxic T-cell function against antigens released by chemotherapy"],
@@ -172,7 +172,7 @@ const companies: CompanyInput[] = [
 
 const pairings: PairingInput[] = [
   { id: "chemo-io-then-maintenance-sclc", kind: "pairing", name: "Chemo-immunotherapy induction → maintenance intensification (SCLC)", a: "platinum-etoposide", b: "lurbinectedin", pairingType: "sequence", asOf,
-    tldr: "Four cycles of chemotherapy plus immunotherapy, then keep the immunotherapy going and add a second drug to hold the disease longer.",
+    tldr: "Chemo-immunotherapy followed by maintenance in small-cell lung cancer gives four cycles of chemotherapy plus immunotherapy, then keeps the immunotherapy going and adds a second drug to hold the disease longer.",
     summary: "IMforte showed adding lurbinectedin to atezolizumab maintenance improves OS; DeLLphi-305 tests tarlatamab in the same slot. Maintenance intensification is the first new first-line strategy since chemo-immunotherapy itself.",
     rationale: "Extensive-stage SCLC almost always relapses within months of induction; targeting residual disease during the response window with a non-cross-resistant agent delays relapse.",
     evidence: "Phase 3 IMforte positive (2025, FDA approved); DeLLphi-305 pending.",
@@ -210,7 +210,7 @@ const spike: Spike = {
   patch: {
     asOf,
     summary: "Small-cell lung cancer is a high-grade neuroendocrine carcinoma, almost always caused by smoking, defined by near-universal loss of TP53 and RB1 and by explosive growth. It presents as extensive-stage disease in two thirds of patients, responds to chemotherapy in most, and relapses in almost all. For three decades the treatment was platinum-etoposide, thoracic radiotherapy for limited-stage disease, prophylactic cranial irradiation, and topotecan at relapse.\n\nThe field moved in three steps. First-line chemo-immunotherapy (IMpower133 2018, CASPIAN 2019, ASTRUM-005 2022) added two to five months of median survival and a small tail of long-term survivors. Consolidation durvalumab after chemoradiotherapy for limited-stage disease (ADRIATIC, approved December 2024) was the first curative-intent advance in 30 years, lifting median survival to nearly five years. In relapsed disease, tarlatamab, the DLL3 T-cell engager, became the first drug to beat chemotherapy on overall survival (DeLLphi-304; full FDA approval November 2025), and lurbinectedin plus atezolizumab became the first approved first-line maintenance regimen (IMforte, October 2025).\n\nWhat is next: maintenance intensification with tarlatamab (DeLLphi-305), the B7-H3 ADC ifinatamab deruxtecan in second line (IDeate-Lung02), alpha-emitting SSTR radioligands (RYZ101), subtype-directed therapy (ASCL1, NEUROD1, POU2F3, inflamed), bispecific and trispecific DLL3 engagers, and the settled question of whether MRI surveillance can replace prophylactic cranial irradiation. Screening remains limited to low-dose CT in smokers, which detects few small-cell cancers early.",
-    burden: "About 15% of lung cancers, roughly 250,000 cases a year worldwide; almost entirely in current or former smokers; median survival about one year in extensive-stage disease.",
+    burden: "Small-cell lung cancer makes up about 15% of lung cancers, roughly 250,000 cases a year worldwide, almost entirely in current or former smokers. Median survival is about one year in extensive-stage disease.",
     subtypes: ["Limited-stage (one hemithorax, ~30%)", "Extensive-stage (~70%)", "SCLC-A (ASCL1-driven, DLL3-high; ~50%)", "SCLC-N (NEUROD1)", "SCLC-P (POU2F3, tuft-cell-like)", "SCLC-I (inflamed, IO-responsive)", "Transformed SCLC (from EGFR-mutant NSCLC under TKI)", "Combined small-cell / non-small-cell histology"],
     biomarkers: ["Stage (limited vs extensive) is the dominant decision", "DLL3 (not required for tarlatamab)", "B7-H3 (I-DXd trials)", "SSTR2 (RYZ101)", "Transcription-factor subtype (ASCL1/NEUROD1/POU2F3/YAP1, research)", "PD-L1 and TMB (not predictive in SCLC)", "SLFN11 (chemotherapy/PARP sensitivity, research)", "ctDNA (research)"],
     standardOfCare: [

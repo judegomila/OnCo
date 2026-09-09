@@ -11,20 +11,20 @@ const RAD = "2026-09-08";
 const frontierBase: EntityInput[] = [
   {
     id: "programmable-dna-targeting-therapeutics", kind: "technology", name: "Programmable DNA-targeting therapeutics", sections: ["targeted-therapy", "drug-discovery"], status: "preclinical", asOf,
-    tldr: "An experimental idea: a drug that reads a cell's DNA, recognises a cancer-specific sequence, and kills only cells that carry it. Change the guide, and the same drug becomes a new drug.",
-    summary: "Sequence-programmable therapeutics aim to act at the DNA level rather than the protein level, in principle reaching drivers with no druggable protein pocket (MYC, TP53 loss, APC loss). Conceptual relatives include CRISPR-based transcriptional or lethal editing, sequence-specific DNA-binding toxins, and synthetic gene circuits that fire on a mutant sequence. FinalDose (Y Combinator Spring 2026) is the most visible company pursuing a programmable 'guide + kill switch' platform; no peer-reviewed data, IND, or clinical trial has been disclosed as of September 2026. Delivery to tumour cells in vivo, off-target recognition, and immunogenicity are the known barriers for every DNA-level modality to date.",
+    tldr: "Programmable DNA-targeting therapeutics are an experimental idea: a drug that reads a cell's DNA, recognises a cancer-specific sequence, and kills only cells that carry it. Change the guide, and the same drug becomes a new drug.",
+    summary: "Sequence-programmable therapeutics aim to act at the DNA level rather than the protein level, in principle reaching drivers with no druggable protein pocket (MYC, TP53 loss, APC loss). Conceptual relatives include CRISPR-based transcriptional or lethal editing, sequence-specific DNA-binding toxins, and synthetic gene circuits that fire on a mutant sequence. FinalDose (Y Combinator Spring 2026) is the most visible company pursuing a programmable 'guide + kill switch' platform; no peer-reviewed data, IND, or clinical trial had been disclosed by September 2026. Delivery to tumour cells in vivo, off-target recognition, and immunogenicity are the known barriers for every DNA-level modality to date.",
     principle: "A guide component recognises a defined genomic sequence inside the cell; recognition triggers an effector (nuclease, toxin, or transcriptional switch) that kills or disables the cell. Healthy cells lacking the sequence are, in theory, untouched.",
     strengths: ["Targets the causal genetic lesion rather than a downstream protein", "Re-programmable: new guide, new indication", "Could address tumour-suppressor loss and 'undruggable' drivers"],
-    limitations: ["No human data as of 2026", "Delivery to solid tumours is unsolved for nucleic-acid therapeutics", "Off-target cutting or recognition; immunogenicity of bacterial proteins", "Tumour heterogeneity means a single sequence may not be present in every cell"],
+    limitations: ["No human data yet (2026)", "Delivery to solid tumours is unsolved for nucleic-acid therapeutics", "Off-target cutting or recognition; immunogenicity of bacterial proteins", "Tumour heterogeneity means a single sequence may not be present in every cell"],
     technologies: ["crispr-screens", "antisense-sirna"], targets: ["tp53", "kras"],
     tags: ["frontier", "concept"],
     links: [{ label: "FinalDose (Y Combinator)", url: "https://www.ycombinator.com/companies/finaldose" }],
   },
   {
     id: "fragmentomics", kind: "technology", name: "cfDNA fragmentomics", sections: ["early-detection", "diagnostics"], status: "established", asOf, wikipedia: "https://en.wikipedia.org/wiki/Cell-free_DNA",
-    tldr: "Reading the sizes and positions of DNA fragments in blood, not the mutations. Cancer cells die messily and leave a recognisable fragmentation pattern.",
+    tldr: "Fragmentomics reads the sizes and positions of DNA fragments in blood, not the mutations. Cancer cells die messily and leave a recognisable fragmentation pattern.",
     summary: "Fragmentomics analyses genome-wide cell-free DNA fragment length, end motifs, and nucleosome footprints at low sequencing depth, which is cheaper than deep mutation or methylation sequencing. DELFI Diagnostics commercialised FirstLook Lung (2023) as a blood test to increase uptake of low-dose CT screening, and presented the first randomised clinical-utility data (L301 FIRSTLUNG) at ATS 2026. Fragment features are also being layered into multi-cancer detection and MRD assays by Guardant, GRAIL, and academic groups.",
-    principle: "Whole-genome sequencing of plasma cfDNA at ~1-2x depth; machine learning on fragment-size distributions across genomic windows distinguishes tumour-derived from haematopoietic DNA.",
+    principle: "Plasma cfDNA is whole-genome sequenced at ~1-2x depth; machine learning on fragment-size distributions across genomic windows distinguishes tumour-derived from haematopoietic DNA.",
     strengths: ["Low cost per sample", "Complements methylation and mutation signals", "Sensitive to chromatin state of the cell of origin"],
     limitations: ["Lower specificity than deep methylation panels alone", "Tissue-of-origin resolution weaker than methylation", "Clinical utility (mortality benefit) unproven"],
     technologies: ["liquid-biopsy", "mced", "mrd-testing"], terms: ["ctdna"], cancers: ["nsclc"],
@@ -33,7 +33,7 @@ const frontierBase: EntityInput[] = [
   },
   {
     id: "adc-payload-neutralizer", kind: "technology", name: "ADC payload neutralisers", sections: ["adcs", "supportive-care"], status: "phase-1", asOf,
-    tldr: "An antibody given alongside an ADC that mops up the poison once it leaks into the bloodstream, so the ADC can hit the tumour with fewer side effects.",
+    tldr: "An ADC payload neutraliser is an antibody given alongside an ADC that mops up the poison once it leaks into the bloodstream, so the ADC can hit the tumour with fewer side effects.",
     summary: "Free payload released from ADCs in circulation drives much of their toxicity (neuropathy, rash, hyperglycaemia with MMAE; neutropenia with SN-38). A neutralising antibody with high affinity for the free payload but not the conjugated form could widen the therapeutic index without changing the ADC. Generate Biomedicines' GB-4362, an AI-designed MMAE neutraliser, entered the clinic in 2026 with FDA Fast Track designation for enfortumab vedotin-induced toxicity in urothelial cancer.",
     principle: "Antibody binds the released small-molecule payload in plasma, preventing uptake by normal tissue; conjugated payload on the ADC remains unaffected.",
     strengths: ["Adds to existing approved ADCs without reformulation", "Could permit higher ADC doses"],
@@ -53,11 +53,11 @@ const frontierBase: EntityInput[] = [
 const frontierRadical: EntityInput[] = [
   {
     id: "in-vivo-gene-editing-cancer", kind: "technology", name: "In vivo base and prime editing for cancer", sections: ["targeted-therapy", "drug-discovery"], status: "concept", asOf: RAD,
-    tldr: "Rewriting a cancer's DNA letter by letter inside the body. It works in the liver for inherited disease; nobody has yet corrected a cancer this way in a person.",
-    summary: "Base editors change a single DNA letter without cutting; prime editors write short new sequences. Both are in the clinic for inherited liver and blood disease, and base editing is used ex vivo to build allogeneic CAR-T cells. Direct in vivo correction of a cancer driver, restoring TP53 or disabling a mutant KRAS allele, has not entered human trials as of September 2026: solid-tumour delivery, editing every malignant cell, and the fact that a corrected cell must still out-compete an uncorrected one are all unsolved.",
+    tldr: "In vivo base and prime editing would rewrite a cancer's DNA letter by letter inside the body. It works in the liver for inherited disease; nobody has yet corrected a cancer this way in a person.",
+    summary: "Base editors change a single DNA letter without cutting; prime editors write short new sequences. Both are in the clinic for inherited liver and blood disease, and base editing is used ex vivo to build allogeneic CAR-T cells. Direct in vivo correction of a cancer driver, restoring TP53 or disabling a mutant KRAS allele, had not entered human trials by September 2026: solid-tumour delivery, editing every malignant cell, and the fact that a corrected cell must still out-compete an uncorrected one are all unsolved.",
     principle: "A catalytically impaired Cas protein fused to a deaminase or reverse transcriptase is guided to a locus and edits it without a double-strand break; delivered by lipid nanoparticle or virus.",
     strengths: ["Acts on the causal lesion, not a downstream protein", "No double-strand breaks, so fewer translocations than nuclease editing", "Re-programmable by changing the guide"],
-    limitations: ["No in vivo oncology trial as of 2026", "Delivery reaches liver far better than solid tumours", "Editing a fraction of cells may not change tumour behaviour", "Off-target edits are permanent"],
+    limitations: ["No in vivo oncology trial yet (2026)", "Delivery reaches liver far better than solid tumours", "Editing a fraction of cells may not change tumour behaviour", "Off-target edits are permanent"],
     technologies: ["crispr-screens", "in-vivo-car-t", "programmable-dna-targeting-therapeutics"], targets: ["tp53", "kras"],
     tags: ["frontier", "radical"],
     links: [{ label: "ClinicalTrials.gov: base editing studies", url: "https://clinicaltrials.gov/search?term=base%20editing" }],
@@ -65,10 +65,10 @@ const frontierRadical: EntityInput[] = [
   {
     id: "epigenetic-editing", kind: "technology", name: "Epigenetic editing (durable gene silencing)", sections: ["epigenetics", "targeted-therapy"], status: "concept", asOf: RAD,
     tldr: "Switching a gene off for good without changing the DNA sequence, by writing chemical marks onto it.",
-    summary: "CRISPRoff-style effectors fuse a dead Cas protein to DNA methyltransferase and repressor domains, imposing heritable silencing that survives cell division. Tune Therapeutics and Chroma Medicine took the approach into the clinic in hepatitis B, not cancer. In oncology it is an attractive route to silence undruggable drivers such as MYC, but no oncology trial has been registered as of September 2026, and silencing would have to reach essentially every tumour cell to matter.",
+    summary: "CRISPRoff-style effectors fuse a dead Cas protein to DNA methyltransferase and repressor domains, imposing heritable silencing that survives cell division. Tune Therapeutics and Chroma Medicine took the approach into the clinic in hepatitis B, not cancer. In oncology it is an attractive route to silence undruggable drivers such as MYC, but no oncology trial had been registered by September 2026, and silencing would have to reach essentially every tumour cell to matter.",
     principle: "dCas9 fused to DNMT3A/3L and KRAB deposits CpG methylation and repressive histone marks at a promoter; the silenced state is copied to daughter cells.",
     strengths: ["No DNA cut, so no translocation risk", "Potentially reversible", "Reaches transcription factors that have no drug pocket"],
-    limitations: ["No oncology trial as of 2026", "Delivery to solid tumours unsolved", "Escape by cells that lose the mark or the dependency"],
+    limitations: ["No oncology trial yet (2026)", "Delivery to solid tumours unsolved", "Escape by cells that lose the mark or the dependency"],
     technologies: ["epigenetic-drugs", "programmable-dna-targeting-therapeutics", "crispr-screens"],
     tags: ["frontier", "radical"],
     links: [{ label: "ClinicalTrials.gov: epigenetic editing", url: "https://clinicaltrials.gov/search?term=epigenetic%20editing" }],
@@ -109,7 +109,7 @@ const frontierRadical: EntityInput[] = [
   {
     id: "phage-delivery", kind: "technology", name: "Bacteriophage-based tumour delivery", sections: ["drug-discovery", "immunotherapy"], status: "preclinical", asOf: RAD,
     tldr: "Using viruses that infect bacteria, not human cells, as programmable delivery shells for cancer drugs and vaccines.",
-    summary: "Phage particles are cheap, cannot replicate in human cells, and their coat proteins can be engineered to display tumour-homing peptides or antigens; phage display already underpins several approved antibodies. As a delivery vehicle in oncology the work is preclinical, with interest in phage-displayed neoantigen vaccines and in the tumour microbiome, where intratumoural bacteria could be targeted by phage. No oncology phage-therapy trial has reported efficacy as of 2026.",
+    summary: "Phage particles are cheap, cannot replicate in human cells, and their coat proteins can be engineered to display tumour-homing peptides or antigens; phage display already underpins several approved antibodies. As a delivery vehicle in oncology the work is preclinical, with interest in phage-displayed neoantigen vaccines and in the tumour microbiome, where intratumoural bacteria could be targeted by phage. No oncology phage-therapy trial had reported efficacy by 2026.",
     principle: "Engineered phage capsids display homing peptides or antigens and carry payloads; they are cleared by the reticuloendothelial system rather than infecting human cells.",
     strengths: ["No human tropism, so no productive infection", "Cheap manufacturing", "Highly modular surface display"],
     limitations: ["Rapid clearance and anti-phage antibodies", "No clinical efficacy data in oncology", "Limited payload capacity"],
@@ -152,7 +152,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "magnetic-nanoparticle-hyperthermia", kind: "technology", name: "Magnetic nanoparticle hyperthermia", sections: ["devices", "radiation"], status: "phase-2", asOf: RAD,
-    tldr: "Injecting iron-oxide nanoparticles into a tumour and heating them from outside with an alternating magnetic field.",
+    tldr: "Magnetic nanoparticle hyperthermia injects iron-oxide nanoparticles into a tumour and heats them from outside with an alternating magnetic field.",
     summary: "NanoTherm received European approval for glioblastoma in 2010 and is used at a small number of German centres, usually with radiotherapy. A phase 2 adjuvant glioblastoma study is recruiting in Poland (NCT06271421); the US prostate focal-ablation study (NCT05010759) was terminated. Systemically delivered magnetic hyperthermia, as opposed to direct intratumoural injection, is still preclinical.",
     principle: "Superparamagnetic iron-oxide nanoparticles deposited in the tumour dissipate heat under an alternating magnetic field, reaching 40-45 °C and sensitising cells to radiation and chemotherapy.",
     strengths: ["Heat is generated only where particles sit", "Adds to radiotherapy without extra systemic toxicity", "Approved precedent in Europe"],
@@ -197,7 +197,7 @@ const frontierRadical: EntityInput[] = [
   {
     id: "vhee-radiotherapy", kind: "technology", name: "Very-high-energy electron therapy", sections: ["radiation"], status: "preclinical", asOf: RAD,
     tldr: "Using very fast electrons instead of photons or protons: a possible way to deliver FLASH-speed radiation to deep tumours from a compact machine.",
-    summary: "Electrons in the 100-250 MeV range penetrate deeply, are steerable by magnets, and can be delivered at the ultra-high dose rates associated with the FLASH effect, in principle for a fraction of the cost of a proton facility. Work is at the accelerator-development and preclinical stage at CHUV/CERN, SLAC and elsewhere; the FLASH studies that exist in humans use conventional-energy electrons for skin lesions (for example NCT06549439, completed) or protons. No VHEE patient treatment has been reported as of September 2026.",
+    summary: "Electrons in the 100-250 MeV range penetrate deeply, are steerable by magnets, and can be delivered at the ultra-high dose rates associated with the FLASH effect, in principle for a fraction of the cost of a proton facility. Work is at the accelerator-development and preclinical stage at CHUV/CERN, SLAC and elsewhere; the FLASH studies that exist in humans use conventional-energy electrons for skin lesions (for example NCT06549439, completed) or protons. No VHEE patient treatment had been reported by September 2026.",
     principle: "Very-high-energy electrons deposit a relatively flat depth dose that can be shaped magnetically, enabling deep targets and millisecond delivery.",
     strengths: ["Potential FLASH sparing at depth", "Magnetic scanning is fast and precise", "Cheaper and smaller than proton or carbon facilities"],
     limitations: ["No clinical machine yet", "Dosimetry at ultra-high dose rate is unsolved", "FLASH sparing itself remains unproven in humans"],
@@ -241,7 +241,7 @@ const frontierRadical: EntityInput[] = [
   {
     id: "alpha-nanogenerators", kind: "technology", name: "Alpha-emitter nanogenerators and daughter trapping", sections: ["radiopharma"], status: "preclinical", asOf: RAD,
     tldr: "Actinium-225 releases four alpha particles as it decays, but the daughters escape and irradiate the kidneys and salivary glands. Nanocarriers try to hold them in place.",
-    summary: "The therapeutic power of actinium-225 comes from its decay chain, but recoil energy ejects daughter nuclides from any chelator, causing off-target dose. Nanoparticle carriers (lanthanum phosphate, titanium dioxide, liposomes) and polymer cages are designed to retain daughters long enough for them to decay inside the tumour. Retention above 90% has been reported in animals; no such construct has reached human trials as of 2026.",
+    summary: "The therapeutic power of actinium-225 comes from its decay chain, but recoil energy ejects daughter nuclides from any chelator, causing off-target dose. Nanoparticle carriers (lanthanum phosphate, titanium dioxide, liposomes) and polymer cages are designed to retain daughters long enough for them to decay inside the tumour. Retention above 90% has been reported in animals; no such construct had reached human trials by 2026.",
     principle: "Encapsulating the parent nuclide in a solid-state or multi-shell carrier physically retains recoiling daughters, converting a leaky decay chain into a contained one.",
     strengths: ["Could remove the main toxicity limit on actinium therapy", "Multiplies alpha dose per targeting event", "Compatible with existing targeting ligands"],
     limitations: ["No human data", "Nanoparticle biodistribution favours liver and spleen", "No trodden regulatory path for a radioactive nanomaterial"],
@@ -252,7 +252,7 @@ const frontierRadical: EntityInput[] = [
   {
     id: "radionuclide-parp-combination", kind: "technology", name: "Radioligand plus DNA-repair inhibitor combinations", sections: ["radiopharma", "targeted-therapy"], status: "phase-1", asOf: RAD,
     tldr: "Adding a PARP or ATR inhibitor to a radioactive drug so the tumour cannot repair the damage the radiation causes.",
-    summary: "Radioligand therapy kills by DNA damage, so blocking repair should amplify it. Early-phase studies combine 177Lu-PSMA with olaparib in prostate cancer and 177Lu-DOTATATE with PARP inhibitors in neuroendocrine tumours; the recurring question is whether marrow toxicity rises faster than tumour control. No phase 3 has read out as of 2026.",
+    summary: "Radioligand therapy kills by DNA damage, so blocking repair should amplify it. Early-phase studies combine 177Lu-PSMA with olaparib in prostate cancer and 177Lu-DOTATATE with PARP inhibitors in neuroendocrine tumours; the recurring question is whether marrow toxicity rises faster than tumour control. No phase 3 had read out by 2026.",
     principle: "Beta or alpha decay produces single- and double-strand breaks; PARP or ATR inhibition prevents repair, converting sublethal damage into cell death and lowering the activity required.",
     strengths: ["Rational and mechanism-driven", "Both components already approved separately", "Could reduce the number of radioligand cycles"],
     limitations: ["Overlapping haematologic toxicity", "Optimal sequencing and timing unknown", "No randomised evidence yet"],
@@ -339,7 +339,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "molecular-glue-platforms", kind: "technology", name: "Molecular glue discovery platforms", sections: ["drug-discovery", "targeted-therapy"], status: "phase-1", asOf: RAD,
-    tldr: "Small molecules that stick two proteins together so the cell destroys one of them. Smaller and more drug-like than bifunctional degraders.",
+    tldr: "Molecular glues are small molecules that stick two proteins together so the cell destroys one of them. They are smaller and more drug-like than bifunctional degraders.",
     summary: "Thalidomide analogues work by gluing neosubstrates to cereblon; the field is now searching systematically for glues against chosen targets using chemoproteomics and machine learning. Monte Rosa, Nurix, C4 Therapeutics and Proxygen have clinical or near-clinical candidates against targets including cyclin K, GSPT1 and transcription factors. No purpose-designed molecular glue has been approved: the approved examples were discovered by accident decades ago.",
     principle: "A small molecule remodels the surface of an E3 ligase so it recognises a protein it would normally ignore, marking that protein for proteasomal destruction.",
     strengths: ["Oral, small and cell-permeable, unlike PROTACs", "Reaches proteins with no active site", "Catalytic: one molecule degrades many copies"],
@@ -461,7 +461,7 @@ const frontierRadical: EntityInput[] = [
   {
     id: "continuous-ctdna-monitoring", kind: "technology", name: "Continuous and near-continuous ctDNA monitoring", sections: ["diagnostics"], status: "concept", asOf: RAD,
     tldr: "Instead of testing blood every three months, sampling constantly, so a relapse is caught the week it starts.",
-    summary: "MRD testing already detects relapse months before imaging, but sampling is episodic. Work on implantable and wearable sampling, microneedle interstitial-fluid collection, and at-home dried blood spots aims to shorten the interval, while urine and saliva ctDNA reduce the burden of venepuncture. Nothing in this class is validated for clinical use as of 2026, and the question of what to do with an earlier signal is still open.",
+    summary: "MRD testing already detects relapse months before imaging, but sampling is episodic. Work on implantable and wearable sampling, microneedle interstitial-fluid collection, and at-home dried blood spots aims to shorten the interval, while urine and saliva ctDNA reduce the burden of venepuncture. Nothing in this class was validated for clinical use by 2026, and the question of what to do with an earlier signal is still open.",
     principle: "Frequent low-volume sampling of blood or interstitial fluid, with error-suppressed sequencing or targeted PCR, turns a periodic test into a trend line.",
     strengths: ["Earlier detection of relapse and of resistance", "A trend beats a single value for treatment decisions", "Fewer clinic visits"],
     limitations: ["No validated device", "Assay sensitivity limited by cfDNA quantity in small samples", "Lead time without a proven intervention causes harm as well as good"],
@@ -515,7 +515,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "organoid-guided-therapy-scale", kind: "technology", name: "Organoid-guided therapy at scale", sections: ["diagnostics", "drug-discovery"], status: "phase-2", asOf: RAD,
-    tldr: "Routinely growing a piece of each patient's tumour and testing drugs on it before choosing, rather than relying on genetics alone.",
+    tldr: "Organoid-guided therapy means routinely growing a piece of each patient's tumour and testing drugs on it before choosing, rather than relying on genetics alone.",
     summary: "Patient-derived organoids reproduce genotype and drug response, and prospective series in colorectal, pancreatic and ovarian cancer report meaningful correlation between ex vivo sensitivity and clinical response. Turning that into routine care needs take rates above 70%, results inside three weeks, and a randomised trial showing that acting on the result helps. Companies including Xilis and Curesponse and several academic programmes are pushing on throughput; the randomised evidence does not exist yet.",
     principle: "Fresh tumour tissue is dissociated and cultured in matrix; a drug panel is applied and viability read out, producing a per-patient sensitivity profile.",
     strengths: ["Phenotype captures what genotype misses", "Tests combinations and sequences", "Useful when no actionable mutation is found"],

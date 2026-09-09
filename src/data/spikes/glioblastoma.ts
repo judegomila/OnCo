@@ -33,7 +33,7 @@ const entities: EntityInput[] = [
   },
   {
     id: "dordaviprone", kind: "drug", name: "Dordaviprone", brand: "Modeyso", code: "ONC201", modality: "Small-molecule imipridone (ClpP agonist / DRD2 antagonist)", asOf, status: "approved",
-    tldr: "The first drug ever approved for a lethal childhood and young-adult brain tumour, diffuse midline glioma with the H3 K27M mutation (August 2025).",
+    tldr: "Dordaviprone is the first drug ever approved for a lethal childhood and young-adult brain tumour, diffuse midline glioma with the H3 K27M mutation (August 2025).",
     summary: "FDA accelerated approval 6 August 2025 for patients ≥1 year with H3 K27M-mutant diffuse midline glioma progressing after prior therapy, based on an integrated analysis of 50 patients across five trials: ORR 22%, median duration of response 10.3 months. Brain-penetrant oral agent from Oncoceutics → Chimerix → Jazz Pharmaceuticals (2025). Confirmatory phase 3 ACTION trial (newly diagnosed, after radiotherapy) ongoing. Debate continues on the strength of single-arm evidence.",
     mechanism: "Hyperactivates the mitochondrial protease ClpP and antagonises dopamine receptor D2, triggering integrated stress response and apoptosis in H3 K27M-altered cells.",
     approvals: [{ region: "US", year: 2025, indication: "Recurrent H3 K27M-mutant diffuse midline glioma, age ≥1 (accelerated)" }],
@@ -42,7 +42,7 @@ const entities: EntityInput[] = [
   },
   {
     id: "tovorafenib", kind: "drug", name: "Tovorafenib", brand: "Ojemda", modality: "Small-molecule type II RAF inhibitor", asOf, status: "approved",
-    tldr: "A pill for the most common childhood brain tumour, low-grade glioma driven by BRAF changes, approved in 2024.",
+    tldr: "Tovorafenib is a pill for the most common childhood brain tumour, low-grade glioma driven by BRAF changes, approved in 2024.",
     summary: "FDA accelerated approval 23 April 2024 for relapsed/refractory paediatric low-grade glioma (age ≥6 months) with BRAF fusion/rearrangement or V600 mutation (FIREFLY-1: ORR ~51% by RANO-HGG). European conditional approval April 2026 (Ipsen, regardless of BRAF alteration type). Type II RAF inhibitor active against KIAA1549-BRAF fusions where type I inhibitors cause paradoxical activation. Phase 3 LOGGIPY-2 in first line versus chemotherapy. Day One Biopharmaceuticals.",
     mechanism: "Pan-RAF type II inhibitor binding the DFG-out conformation; blocks monomeric and dimeric BRAF signalling.",
     approvals: [{ region: "US", year: 2024, indication: "Relapsed/refractory BRAF-altered paediatric low-grade glioma (accelerated)" }, { region: "EU", year: 2026, indication: "Relapsed/refractory paediatric low-grade glioma (conditional)" }],
@@ -52,7 +52,7 @@ const entities: EntityInput[] = [
   {
     id: "dcvax-l", kind: "drug", name: "DCVax-L", modality: "Autologous dendritic cell vaccine (tumour lysate)", asOf, status: "phase-3",
     tldr: "A personalised vaccine made from the patient's own immune cells and tumour. Its 20-year-old phase 3 trial reported longer survival, but the way the result was analysed has divided the field.",
-    summary: "Northwest Biotherapeutics. Phase 3 (NCT00045968, enrolled 2007-2015, n=331) published in JAMA Oncology 2023 using an external control comparison after a protocol change from PFS to OS: median OS 19.3 vs 16.5 months (newly diagnosed) and 13.2 vs 7.8 months (recurrent) versus matched external controls. Because almost all placebo patients crossed over and the primary endpoint was changed post hoc, most neuro-oncologists regard the evidence as inconclusive. UK MHRA marketing application submitted December 2023; not FDA-approved as of September 2026.",
+    summary: "DCVax-L is made by Northwest Biotherapeutics. Its phase 3 (NCT00045968, enrolled 2007-2015, n=331) published in JAMA Oncology 2023 using an external control comparison after a protocol change from PFS to OS: median OS 19.3 vs 16.5 months (newly diagnosed) and 13.2 vs 7.8 months (recurrent) versus matched external controls. Because almost all placebo patients crossed over and the primary endpoint was changed post hoc, most neuro-oncologists regard the evidence as inconclusive. UK MHRA marketing application submitted December 2023; it was still not FDA-approved in September 2026.",
     mechanism: "Autologous dendritic cells pulsed with autologous tumour lysate, injected intradermally to prime anti-tumour T cells.",
     technologies: ["shared-antigen-vaccine", "neoantigen-mrna-vaccine"], companies: ["northwest-biotherapeutics"], cancers: ["glioblastoma"],
     links: [{ label: "ClinicalTrials.gov NCT00045968", url: "https://clinicaltrials.gov/study/NCT00045968" }, { label: "NICE appraisal (in development)", url: "https://www.nice.org.uk/guidance/indevelopment/gid-ta10143" }],
@@ -60,7 +60,7 @@ const entities: EntityInput[] = [
   },
   {
     id: "rindopepimut", kind: "drug", name: "Rindopepimut", code: "CDX-110", modality: "Peptide vaccine (EGFRvIII)", asOf, status: "negative",
-    tldr: "A vaccine against a glioblastoma-specific mutant protein that looked promising for years and then failed its phase 3 trial in 2016. A landmark failure.",
+    tldr: "A vaccine against a glioblastoma-specific mutant protein that looked promising for years and then failed its phase 3 trial in 2016. It is a landmark failure.",
     summary: "EGFRvIII peptide conjugated to KLH with GM-CSF. Phase 2 (ACT III) suggested prolonged survival versus historical controls; the double-blind phase 3 ACT IV (n=745, EGFRvIII-positive newly diagnosed glioblastoma with minimal residual disease) showed no OS benefit (20.1 vs 20.0 months). Loss of EGFRvIII expression at recurrence in both arms illustrated antigen escape. Celldex discontinued the programme.",
     mechanism: "Induces humoral and cellular immunity against the EGFRvIII neoepitope.",
     targets: ["egfr"], technologies: ["shared-antigen-vaccine"], cancers: ["glioblastoma"], trials: ["act-iv"], terms: ["egfrviii"],
@@ -94,7 +94,7 @@ const entities: EntityInput[] = [
   {
     id: "checkmate-548", kind: "trial", name: "CheckMate 548 & CheckMate 143 & CheckMate 498", nct: "NCT02667587", phase: "3", status: "negative", yearReported: 2020, sponsor: "BMS", asOf,
     setting: "Glioblastoma: nivolumab added to standard therapy (newly diagnosed, MGMT-methylated CM548; MGMT-unmethylated vs temozolomide CM498) and nivolumab vs bevacizumab at recurrence (CM143)",
-    tldr: "Three large trials, all negative: the immunotherapy that transformed melanoma and lung cancer did nothing in glioblastoma.",
+    tldr: "CheckMate 548, 143 and 498 were three large trials, all negative: the immunotherapy that transformed melanoma and lung cancer did nothing in glioblastoma.",
     summary: "CheckMate 143 (recurrent, n=369): OS 9.8 vs 10.0 months with bevacizumab. CheckMate 498 (unmethylated, nivolumab replacing temozolomide): OS 13.4 vs 14.9 months, worse. CheckMate 548 (methylated, nivolumab added): no PFS or OS benefit. Explanations: low mutational burden, T-cell exclusion behind the blood-brain barrier, steroid immunosuppression, systemic lymphopenia. Neoadjuvant PD-1 (Cloughesy 2019) showed immune activation and remains the only encouraging signal.",
     result: "No OS benefit in any of the three trials.",
     drugs: ["nivolumab", "bevacizumab-glioma", "temozolomide"], cancers: ["glioblastoma"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], terms: ["cold-vs-hot", "blood-brain-barrier"], links: [ct("NCT02667587")],
@@ -111,7 +111,7 @@ const entities: EntityInput[] = [
   // ======================= TECHNOLOGIES =======================
   {
     id: "litt", kind: "technology", name: "Laser interstitial thermal therapy (LITT)", sections: ["surgery"], status: "established", asOf, wikipedia: W("Laser_interstitial_thermal_therapy"),
-    tldr: "A laser fibre guided through a small skull hole, monitored by real-time MRI, that heats and destroys deep brain tumours a surgeon could not safely reach.",
+    tldr: "Laser interstitial thermal therapy guides a laser fibre through a small skull hole, monitored by real-time MRI, to heat and destroy deep brain tumours a surgeon could not safely reach.",
     summary: "MRI thermometry-guided ablation (NeuroBlate, Visualase) for deep-seated or recurrent gliomas, radiation necrosis, and brain metastases. Case series suggest survival comparable to resection for selected recurrent glioblastoma; may transiently open the blood-brain barrier, enabling drug delivery (LAANTERN registry, phase 2 combinations with immunotherapy). No randomised evidence yet.",
     principle: "Stereotactically placed laser fibre delivers thermal energy; MR thermometry maps the ablation zone in real time.",
     strengths: ["Minimally invasive access to deep lesions", "Short hospital stay", "Possible BBB disruption for adjuvant drugs"],
@@ -152,7 +152,7 @@ const entities: EntityInput[] = [
   },
   {
     id: "egfrviii", kind: "term", name: "EGFRvIII", category: "Biomarkers", asOf, wikipedia: W("EGFRvIII"),
-    tldr: "A mutant, tumour-only version of the EGFR receptor found in about a third of glioblastomas. Ideal-looking target; every drug against it has failed so far.",
+    tldr: "EGFRvIII is a mutant, tumour-only version of the EGFR receptor found in about a third of glioblastomas. It is an ideal-looking target, yet every drug against it has failed so far.",
     summary: "In-frame deletion of exons 2-7 creating a constitutively active receptor with a tumour-specific junctional epitope. Targeted by rindopepimut (ACT IV negative), EGFRvIII CAR-T (antigen loss), bispecifics (AMG 596), and ADCs (depatuxizumab mafodotin, INTELLANCE-1 negative). Expression is heterogeneous and frequently lost at recurrence.",
     cancers: ["glioblastoma"], targets: ["egfr"], drugs: ["rindopepimut"], trials: ["act-iv"], terms: ["resistance"],
   },
@@ -172,7 +172,7 @@ const entities: EntityInput[] = [
   },
   {
     id: "northwest-biotherapeutics", kind: "company", name: "Northwest Biotherapeutics", hq: "Bethesda, MD", country: "US", companyType: "cell-therapy", website: "https://nwbio.com", ticker: "NWBO", asOf,
-    tldr: "Developer of the DCVax-L dendritic cell vaccine for glioblastoma, seeking UK approval on contested phase 3 data.",
+    tldr: "Northwest Biotherapeutics developed the DCVax-L dendritic cell vaccine for glioblastoma and is seeking UK approval on contested phase 3 data.",
     summary: "DCVax-L MHRA application (December 2023) pending; manufacturing at Sawston, UK. Not FDA-approved.",
     drugs: ["dcvax-l"], cancers: ["glioblastoma"],
   },
@@ -181,7 +181,7 @@ const entities: EntityInput[] = [
   {
     id: "idea-neoadjuvant-io-glioblastoma", kind: "idea", name: "Neoadjuvant immunotherapy with surgical window for glioblastoma", maturity: "early-clinical", asOf,
     tldr: "Give immunotherapy before surgery rather than after, so the tumour is still present to teach the immune system, then look inside it to learn what happened.",
-    summary: "Cloughesy et al. (Nature Medicine 2019): neoadjuvant pembrolizumab in recurrent glioblastoma increased interferon signatures and T-cell clonal expansion and was associated with longer OS than adjuvant-only in a small randomised study, the only positive checkpoint signal in the disease. Window-of-opportunity designs (GESTALT, ASCO 2026) show feasibility.",
+    summary: "A Nature Medicine 2019 study by Cloughesy and colleagues showed that neoadjuvant pembrolizumab in recurrent glioblastoma increased interferon signatures and T-cell clonal expansion and was associated with longer OS than adjuvant-only in a small randomised study, the only positive checkpoint signal in the disease. Window-of-opportunity designs (GESTALT, ASCO 2026) show feasibility.",
     hypothesis: "Neoadjuvant PD-1 blockade ± vaccine or CAR-T, with steroid minimisation, improves OS in recurrent glioblastoma compared with adjuvant-only administration.",
     rationale: "Antigen supply from intact tumour, tissue-based pharmacodynamic read-outs, and avoidance of post-operative lymphopenia and dexamethasone.",
     test: "Randomised phase 2 neoadjuvant-plus-adjuvant versus adjuvant-only PD-1 in resectable recurrent GBM with mandated steroid protocols; OS primary, tissue immune correlates secondary.",
@@ -191,7 +191,7 @@ const entities: EntityInput[] = [
     id: "idea-fus-plus-adc-glioma", kind: "idea", name: "Focused-ultrasound BBB opening to deliver ADCs and radioligands to glioma", maturity: "preclinical-evidence", asOf,
     tldr: "Brain tumours have targets that ADCs could hit, but antibodies cannot cross the barrier. Open the barrier with ultrasound first.",
     summary: "Depatuxizumab mafodotin (EGFR ADC) failed in INTELLANCE-1 partly through poor CNS penetration. Focused ultrasound raises antibody delivery several-fold in humans (Insightec, Carthera trials). Combining BBB opening with EGFR/EGFRvIII or B7-H3 ADCs, or with 177Lu/225Ac radioconjugates, is untested clinically.",
-    hypothesis: "FUS-BBB opening immediately before ADC or radioconjugate infusion achieves therapeutic intratumoural concentrations and objective responses in recurrent glioblastoma.",
+    hypothesis: "Opening the blood-brain barrier with focused ultrasound immediately before ADC or radioconjugate infusion achieves therapeutic intratumoural concentrations and objective responses in recurrent glioblastoma.",
     rationale: "Mechanism-agnostic delivery boost; targets (EGFR, B7-H3, IL13Rα2) are validated; payload potency compensates for limited volume.",
     test: "Phase 1 with paired pre/post-opening tumour sampling at re-resection measuring ADC concentration; expansion cohort with RANO response.",
     technologies: ["bbb-focused-ultrasound", "adc", "radioimmunotherapy"], cancers: ["glioblastoma"], targets: ["egfr", "b7h3"], terms: ["blood-brain-barrier"],

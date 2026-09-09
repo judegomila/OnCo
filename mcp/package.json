@@ -1,0 +1,22 @@
+{
+  "name": "onco-mcp",
+  "version": "0.3.0",
+  "description": "MCP server for OnCo, the public cited knowledge graph of oncology: search, grounded cited answers, biomarker matching, regimens, calendar, toxicity comparison, graph paths, and live trial lookup.",
+  "license": "MIT",
+  "homepage": "https://onco.cc/api/",
+  "repository": { "type": "git", "url": "https://github.com/judegomila/OnCo.git", "directory": "mcp" },
+  "keywords": ["mcp", "model-context-protocol", "oncology", "cancer", "knowledge-graph", "clinical-trials"],
+  "type": "module",
+  "bin": { "onco-mcp": "./bin.mjs" },
+  "files": ["bin.mjs", "server.ts", "tools/", "README.md"],
+  "scripts": {
+    "start": "tsx server.ts"
+  },
+  "peerDependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "minisearch": "^7.2.0",
+    "tsx": "^4.23.13",
+    "zod": "^4.5.4"
+  },
+  "publishConfig": { "access": "public" }
+}

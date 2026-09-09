@@ -1,0 +1,1600 @@
+{
+ "summary": {
+  "system": "OnCo Ask (extractive answer, lexical + concept retrieval, top 6 records)",
+  "date": "2026-09-09",
+  "questions": 100,
+  "meanScore": 0.709,
+  "meanRetrievalRecall": 0.428,
+  "byCategory": {
+   "factual": 0.756,
+   "reasoning": 0.656,
+   "procedural": 0.436
+  },
+  "method": "For each question: MiniSearch and concept-index retrieval fused by reciprocal rank, top 6 records; the extractive answer shown on /ask/ (best sentences, two per record, one citation each) is scored for rubric coverage. No language model."
+ },
+ "results": [
+  {
+   "id": "tnbc-01",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "ascent-03",
+    "tropion-breast02"
+   ],
+   "retrievalRecall": 0.4,
+   "answer": "The first trial to show an overall survival benefit for a first-line ADC in triple-negative breast cancer. [1] The trial that proved a TROP2 ADC could nearly double survival in heavily pretreated triple-negative breast cancer. [2] In triple-negative breast cancer that had already been through at least two treatments, the TROP2 antibody-drug conjugate sacituzumab govitecan roughly doubled the time patients lived compared with standard chemotherapy. [3] Sacituzumab govitecan is a standard second-line or later treatment for metastatic triple-negative breast cancer, roughly doubling survival compared with the chemotherapies it was tested against. [3] Moved Trodelvy into first-line use for triple-negative patients who cannot receive immunotherapy. [4] Metastatic, first line, PD-L1 negative or PD-1 ineligible: Datopotamab deruxtecan (TROPION-Breast02, OS benefit) or sacituzumab govitecan (ASCENT-03), both approved 2026; PARP inhibitor if germline BRCA; chemotherapy. [5]\n\nSources\n[1] TROPION-Breast02 (https://onco.cc/trials/tropion-breast02/)\n[2] ASCENT (https://onco.cc/trials/ascent/)\n[3] ASCENT: sacituzumab govitecan doubles survival in heavily pretreated metastatic triple-negative breast cancer (https://onco.cc/key-papers/paper-ascent-nejm-2021/)\n[4] ASCENT-03 (https://onco.cc/trials/ascent-03/)\n[5] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)"
+  },
+  {
+   "id": "tnbc-02",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "her2"
+   ],
+   "retrievedEntities": [
+    "tnbc"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Support and information built specifically for triple-negative breast cancer. [1] More of them means better outcomes in triple-negative breast cancer. [2] In triple-negative breast cancer that had already been through at least two treatments, the TROP2 antibody-drug conjugate sacituzumab govitecan roughly doubled the time patients lived compared with standard chemotherapy. [3] Open-label phase 3 trial of 529 patients with relapsed or refractory metastatic triple-negative breast cancer after two or more prior chemotherapy regimens, randomised to sacituzumab govitecan or single-agent chemotherapy (eribulin, vinorelbine, capecitabine or gemcitabine). [3] Hatem Soliman is a breast oncologist leading immunotherapy and genomic-assay trials, including in triple-negative disease. [4] Runs breast medical oncology at MGH and studies the tumour-suppressor biology behind hereditary and triple-negative breast cancer. [5]\n\nSources\n[1] Triple Negative Breast Cancer Foundation (https://onco.cc/collections/src-tnbc-foundation/)\n[2] Tumour-infiltrating lymphocytes (TILs) (https://onco.cc/terms/tils/)\n[3] ASCENT: sacituzumab govitecan doubles survival in heavily pretreated metastatic triple-negative breast cancer (https://onco.cc/key-papers/paper-ascent-nejm-2021/)\n[4] Hatem Soliman (https://onco.cc/people/hatem-soliman/)\n[5] Leif W. Ellisen (https://onco.cc/people/leif-ellisen/)"
+  },
+  {
+   "id": "tnbc-03",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.8,
+   "met": 4,
+   "total": 5,
+   "missed": [
+    "olaparib"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Adding the immunotherapy pembrolizumab to chemotherapy before surgery, then continuing it afterwards, cut the risk of relapse or death by about a third in stage II-III triple-negative breast cancer and later improved survival. [1] For stage II-III triple-negative breast cancer, chemotherapy plus pembrolizumab before surgery and pembrolizumab alone afterwards is now the standard approach worldwide, and the survival gain is real, not just a surrogate. [1] A ctDNA-directed strategy (omit in negatives; escalate positives with FOLFOX ± a biology-matched agent) yields non-inferior 3-year DFS with half the chemotherapy exposure across stage II-III. [2] Most stage II patients never relapse, yet all are offered a year of immunotherapy. [3] Support and information built specifically for triple-negative breast cancer. [4] Three years of the CDK4/6 inhibitor ribociclib added to hormone therapy reduced relapses in stage II-III hormone-receptor-positive breast cancer, including some node-negative patients. [5]\n\nSources\n[1] KEYNOTE-522: adding pembrolizumab before and after surgery in early triple-negative breast cancer (https://onco.cc/key-papers/paper-keynote-522-nejm-2022/)\n[2] ctDNA-guided adjuvant therapy as the default in stage II-III colon cancer (https://onco.cc/ideas/idea-ctdna-guided-adjuvant-crc/)\n[3] ctDNA-guided adjuvant therapy in stage II-III melanoma (https://onco.cc/ideas/idea-ctdna-guided-adjuvant-melanoma/)\n[4] Triple Negative Breast Cancer Foundation (https://onco.cc/collections/src-tnbc-foundation/)\n[5] NATALEE: three years of ribociclib after surgery in a broad population of hormone-receptor-positive early breast cancer (https://onco.cc/key-papers/paper-natalee-nejm-2024/)"
+  },
+  {
+   "id": "tnbc-04",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "yes",
+    "85.1",
+    "77.2"
+   ],
+   "retrievedEntities": [
+    "keynote-522"
+   ],
+   "retrievalRecall": 1,
+   "answer": "KEYNOTE-522, Overall survival at 5 years: Pembrolizumab + chemotherapy 86.6% versus Placebo + chemotherapy 81.7%, hazard ratio 0.66, p 0.002. [1] KEYNOTE-522, Event-free survival at 7 years: Pembrolizumab + chemotherapy 78.3% versus Placebo + chemotherapy 69.8%. [1] Adjuvant TROP2 ADC ± pembrolizumab improves iDFS in TNBC with residual disease (RCB I-III) after neoadjuvant KEYNOTE-522 therapy compared with pembrolizumab ± capecitabine. [2] KEYNOTE-522's backbone includes anthracyclines with cardiac and leukaemia risk. [3] Neoadjuvant TROP2 ADC + pembrolizumab achieves non-inferior pCR and EFS to KEYNOTE-522 with fewer grade 3+ toxicities. [3] It is the midpoint of a spread, not a prediction for anyone: half live longer, some much longer. [4]\n\nSources\n[1] KEYNOTE-522 (https://onco.cc/trials/keynote-522/)\n[2] ADC for residual disease after KEYNOTE-522 (https://onco.cc/ideas/idea-post-neoadjuvant-adc/)\n[3] Neoadjuvant ADC + IO replacing anthracycline chemotherapy in TNBC (https://onco.cc/ideas/idea-neoadjuvant-adc-io/)\n[4] Median survival (https://onco.cc/terms/median-survival/)"
+  },
+  {
+   "id": "tnbc-05",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "surgery",
+    "de-escalat"
+   ],
+   "retrievedEntities": [
+    "pcr",
+    "optimice-pcr"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "Under RECIST, complete response means every target lesion has disappeared and any lymph nodes have shrunk below 10 mm; it must be confirmed on a repeat scan. [1] Pathologic complete response is the surgical equivalent: no cancer cells found in the removed tissue after pre-operative treatment. [1] A quicker, easier measurement used as a stand-in for what really matters. [2] Progression-free survival, response rate, pathologic complete response, minimal residual disease and ctDNA clearance are the main surrogates in oncology; they are available months or years before overall survival and need fewer patients, so they drive most accelerated approvals and many full ones. [2] Pathologic response in 98%, major pathologic response 95%, pathologic complete response 68% (NEJM 2024). [3] NICHE-2, Pathologic complete response: Neoadjuvant nivolumab + ipilimumab 68 percent. [3]\n\nSources\n[1] Complete response (https://onco.cc/terms/complete-response/)\n[2] Surrogate endpoint (https://onco.cc/terms/surrogate-endpoint/)\n[3] NICHE-2 (https://onco.cc/trials/niche-2/)"
+  },
+  {
+   "id": "tnbc-06",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "datopotamab",
+    "23.7",
+    "18.7"
+   ],
+   "retrievedEntities": [
+    "tropion-breast02"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "The first trial to show an overall survival benefit for a first-line ADC in triple-negative breast cancer. [1] Immunotherapy added to first-line chemotherapy has failed to extend survival in ovarian cancer in every large trial so far; its only win is in PD-L1-positive platinum-resistant disease. [2] Established immunotherapy plus chemotherapy as first-line treatment for metastatic triple-negative breast cancer with PD-L1 expression. [3] Moved Trodelvy into first-line use for triple-negative patients who cannot receive immunotherapy. [4] Adding the immunotherapy pembrolizumab to chemotherapy before surgery, then continuing it afterwards, cut the risk of relapse or death by about a third in stage II-III triple-negative breast cancer and later improved survival. [5] For stage II-III triple-negative breast cancer, chemotherapy plus pembrolizumab before surgery and pembrolizumab alone afterwards is now the standard approach worldwide, and the survival gain is real, not just a surrogate. [5]\n\nSources\n[1] TROPION-Breast02 (https://onco.cc/trials/tropion-breast02/)\n[2] Caution: checkpoint inhibitors in first-line ovarian cancer (https://onco.cc/pairings/caution-pd1-first-line-ovarian/)\n[3] KEYNOTE-355 (https://onco.cc/trials/keynote-355/)\n[4] ASCENT-03 (https://onco.cc/trials/ascent-03/)\n[5] KEYNOTE-522: adding pembrolizumab before and after surgery in early triple-negative breast cancer (https://onco.cc/key-papers/paper-keynote-522-nejm-2022/)"
+  },
+  {
+   "id": "tnbc-07",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 5,
+   "total": 5,
+   "missed": [],
+   "retrievedEntities": [
+    "izalontamab-brengitecan",
+    "bl-b01d1-307"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "Izalontamab brengitecan is the first bispecific ADC to succeed in a phase 3 trial, hitting two growth receptors at once in triple-negative breast cancer. [1] EGFR×HER3 bispecific ADC from SystImmune (Sichuan Biokin), partnered with Bristol Myers Squibb (2023, up to $8.4B). [1] The three stages a new drug passes through: phase 1 finds a safe dose in a few dozen patients, phase 2 looks for signs of activity in a hundred or so, and phase 3 compares it with the standard treatment in hundreds or thousands. [2] Twenty-five years of trying to make chemotherapy hit only cancer cells, from the unstable first ADC to today's third-generation blockbusters and the fourth generation now in trials. [3] The first phase 3 win for a bispecific ADC, in triple-negative breast cancer, announced February 2026. [4] AK146D1 is Akeso's Nectin-4 × TROP2 bispecific ADC, combining the two most validated ADC addresses in one molecule. [5]\n\nSources\n[1] Izalontamab brengitecan (https://onco.cc/drugs/izalontamab-brengitecan/)\n[2] Phase 1, 2 and 3 trials (https://onco.cc/terms/trial-phases/)\n[3] ADC roadmap: from Mylotarg to bispecific and dual-payload ADCs (https://onco.cc/roadmaps/adc-generations/)\n[4] BL-B01D1-307 (https://onco.cc/trials/bl-b01d1-307/)\n[5] AK146D1 (https://onco.cc/drugs/ak146d1/)"
+  },
+  {
+   "id": "tnbc-08",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "bystander",
+    "cleavable linker"
+   ],
+   "retrievedEntities": [
+    "trastuzumab-deruxtecan",
+    "her2-low",
+    "destiny-breast04"
+   ],
+   "retrievalRecall": 0.75,
+   "answer": "Tumours with a little HER2 (IHC 1+ or 2+ without amplification), or a trace (ultralow), which older HER2 drugs ignored but Enhertu can attack. [1] Trastuzumab deruxtecan (Enhertu) is the most successful ADC ever. [2] It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer. [2] Breast cancers with only a little HER2 on their surface, long called HER2-negative, responded to trastuzumab deruxtecan and patients lived about six months longer than on chemotherapy. [3] Given as the first chemotherapy-type treatment after hormone therapy stopped working, trastuzumab deruxtecan delayed progression by about five months compared with standard chemotherapy, including in tumours with barely detectable HER2. [4] Created a new category of breast cancer, HER2-low, by showing Enhertu works in tumours previously called HER2-negative. [5]\n\nSources\n[1] HER2-low and HER2-ultralow (https://onco.cc/terms/her2-low/)\n[2] Trastuzumab deruxtecan (https://onco.cc/drugs/trastuzumab-deruxtecan/)\n[3] DESTINY-Breast04: trastuzumab deruxtecan works in HER2-low breast cancer, creating a new treatable group (https://onco.cc/key-papers/paper-destiny-breast04-nejm-2022/)\n[4] DESTINY-Breast06: trastuzumab deruxtecan before any chemotherapy in hormone-receptor-positive, HER2-low or ultralow breast cancer (https://onco.cc/key-papers/paper-destiny-breast06-nejm-2024/)\n[5] DESTINY-Breast04 (https://onco.cc/trials/destiny-breast04/)"
+  },
+  {
+   "id": "tnbc-09",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "adc-after-adc-caution",
+    "adc-sequencing",
+    "idea-payload-switching"
+   ],
+   "retrievalRecall": 1,
+   "answer": "Giving a second ADC with the same kind of payload straight after the first often does not work well. [1] When one ADC fails, the next should carry a different kind of poison, not just aim at a different protein. [2] The open question of whether a second ADC works after the first one fails, especially when both carry the same type of payload. [3] Retrospective series (SATEEN, BRE-354, ESMO Breast 2026) show reduced efficacy of a second TOP1-payload ADC given immediately after the first; some suggest interposing chemotherapy. [3] When Enhertu stops working, the next ADC should probably carry a different kind of payload, such as the tubulin inhibitors in Kadcyla or ARX788, rather than another topoisomerase drug. [4] Measuring it could stop patients receiving a second drug of the same kind that will not work. [5]\n\nSources\n[1] Caution: TOP1 ADC immediately after TOP1 ADC (https://onco.cc/pairings/adc-after-adc-caution/)\n[2] Payload-class switching as the rule for ADC sequencing (https://onco.cc/ideas/idea-payload-switching/)\n[3] ADC sequencing (https://onco.cc/terms/adc-sequencing/)\n[4] Sequencing HER2 ADCs by payload after T-DXd (https://onco.cc/ideas/idea-her2-adc-sequencing-payload/)\n[5] Use SLFN11 status to decide which antibody-drug payload to give next (https://onco.cc/ideas/idea-bio1-slfn11-payload-guidance/)"
+  },
+  {
+   "id": "tnbc-10",
+   "category": "procedural",
+   "difficulty": 2,
+   "score": 0.4,
+   "met": 2,
+   "total": 5,
+   "missed": [
+    "brca",
+    "fertility",
+    "pcr"
+   ],
+   "retrievedEntities": [
+    "tnbc"
+   ],
+   "retrievalRecall": 0.16666666666666666,
+   "answer": "Support and information built specifically for triple-negative breast cancer. [1] Adding the immunotherapy pembrolizumab to chemotherapy before surgery, then continuing it afterwards, cut the risk of relapse or death by about a third in stage II-III triple-negative breast cancer and later improved survival. [2] For stage II-III triple-negative breast cancer, chemotherapy plus pembrolizumab before surgery and pembrolizumab alone afterwards is now the standard approach worldwide, and the survival gain is real, not just a surrogate. [2] In triple-negative breast cancer that had already been through at least two treatments, the TROP2 antibody-drug conjugate sacituzumab govitecan roughly doubled the time patients lived compared with standard chemotherapy. [3] Leads the world's highest-volume breast cancer surgical unit and the FUTURE trial that treats triple-negative breast cancer by molecular subtype. [4] A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. [5]\n\nSources\n[1] Triple Negative Breast Cancer Foundation (https://onco.cc/collections/src-tnbc-foundation/)\n[2] KEYNOTE-522: adding pembrolizumab before and after surgery in early triple-negative breast cancer (https://onco.cc/key-papers/paper-keynote-522-nejm-2022/)\n[3] ASCENT: sacituzumab govitecan doubles survival in heavily pretreated metastatic triple-negative breast cancer (https://onco.cc/key-papers/paper-ascent-nejm-2021/)\n[4] Zhi-Ming Shao (https://onco.cc/people/shao-zhi-ming/)\n[5] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)"
+  },
+  {
+   "id": "tnbc-11",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "heterogene"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Proposed: a TROP2 PET scan to choose between three TROP2 ADCs and predict who will respond, since tissue staining has not worked. [1] Moved Trodelvy into first-line use for triple-negative patients who cannot receive immunotherapy. [2] Cell therapies are tested for purity and count, but not for whether they can actually kill that patient's tumour. [3] Insomnia therapy works well for cancer survivors and is barely offered. [4] A trial that fixes sleep and then follows recurrence would test whether restoring the body clock changes the disease as well as the symptom. [4] Joining the two would tell you where to biopsy or irradiate. [5]\n\nSources\n[1] TROP2 PET → TROP2 ADC selection (https://onco.cc/pairings/trop2-pet-to-adc/)\n[2] ASCENT-03 (https://onco.cc/trials/ascent-03/)\n[3] Use patient organoids to check a cell therapy will work before infusing it (https://onco.cc/ideas/idea-bio1-organoid-cell-therapy-potency/)\n[4] Treat insomnia in survivors and measure whether the cancer notices (https://onco.cc/ideas/idea-nl-sleep-circadian-survivorship-rct/)\n[5] Match each blood-detected clone to the lesion it comes from on the scan (https://onco.cc/ideas/idea-bio1-clone-to-lesion-mapping/)"
+  },
+  {
+   "id": "breast-12",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "vepdegestrant",
+    "veritac-2"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "Crews and Deshaies built a two-headed molecule linking a ligand for the target protein MetAP-2 to a peptide recognised by an E3 ubiquitin ligase, and showed it induced ubiquitination and degradation of the target, founding targeted protein degradation. [1] The proteolysis-targeting chimera (Protac-1) joined ovalicin, which binds methionine aminopeptidase-2, to the IkappaBalpha phosphopeptide recognised by the SCF-beta-TRCP E3 ligase. [1] Vepdegestrant is the first PROTAC ever approved (2026): a pill that tags the oestrogen receptor for destruction, for breast cancers with ESR1 mutations. [2] PROTAC pioneer whose vepdegestrant became the first approved targeted protein degrader in 2026. [3] Most cancer cells that spread die or sleep forever; a few grow into lethal metastases. [4] The trial that got the first PROTAC approved, with benefit only in tumours with ESR1 mutations. [5]\n\nSources\n[1] The first PROTAC: a chimeric molecule that tags a protein for destruction (https://onco.cc/key-papers/paper-protac-concept-sakamoto-pnas-2001/)\n[2] Vepdegestrant (https://onco.cc/drugs/vepdegestrant/)\n[3] Arvinas (https://onco.cc/companies/arvinas/)\n[4] What decides which disseminated cells ever colonise? (https://onco.cc/ideas/idea-dtc-colonisation-determinants/)\n[5] VERITAC-2 (https://onco.cc/trials/veritac-2/)"
+  },
+  {
+   "id": "breast-13",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "abemaciclib",
+    "monarche",
+    "natalee"
+   ],
+   "retrievalRecall": 0.75,
+   "answer": "Open-label phase 3 trial of 5,637 patients with hormone-receptor-positive, HER2-negative early breast cancer at high risk of recurrence (four or more positive nodes, or one to three nodes with grade 3, tumour 5 cm or more, or high Ki-67), randomised to standard endocrine therapy with or without two years of abemaciclib. [1] Abemaciclib was the first CDK4/6 inhibitor approved after surgery for high-risk hormone-positive breast cancer. [2] Open-label phase 3 trial of 5,101 patients with hormone-receptor-positive, HER2-negative stage II or III early breast cancer, including node-negative patients with high-risk features, randomised to a non-steroidal aromatase inhibitor with or without three years of ribociclib at a reduced dose (400 mg daily). [3] HR-positive breast cancer is the most common breast cancer, driven by oestrogen. [4] It was treated for years with hormone-blocking pills, now joined by CDK4/6 inhibitors, PI3K-pathway drugs, degraders, and ADCs. [4] Extended CDK4/6 inhibitors to a broad group of early hormone-positive breast cancer patients, including node-negative. [5]\n\nSources\n[1] monarchE: two years of abemaciclib after surgery in high-risk, hormone-receptor-positive early breast cancer (https://onco.cc/key-papers/paper-monarche-jco-2020/)\n[2] Abemaciclib (https://onco.cc/drugs/abemaciclib/)\n[3] NATALEE: three years of ribociclib after surgery in a broad population of hormone-receptor-positive early breast cancer (https://onco.cc/key-papers/paper-natalee-nejm-2024/)\n[4] HR-positive / HER2-negative breast cancer (https://onco.cc/cancers/breast-hr-positive/)\n[5] NATALEE (https://onco.cc/trials/natalee/)"
+  },
+  {
+   "id": "breast-14",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "tailorx"
+   ],
+   "retrievedEntities": [
+    "oncotype-dx"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "An FDA-cleared AI test (May 2026) that reads breast cancer slides to estimate recurrence risk in early hormone-positive disease. [1] A 21-gene test that tells most women with early hormone-positive breast cancer whether they can safely skip chemotherapy. [2] Adding two years of the CDK4/6 inhibitor abemaciclib to standard hormone therapy after surgery cut the risk of the cancer coming back by a quarter in women with node-positive, high-risk disease. [3] Treatment that starves cancers which grow in response to a hormone, mainly oestrogen in breast cancer and testosterone in prostate cancer, by lowering the hormone or blocking its receptor. [4] The first CDK4/6 inhibitor to reduce recurrence after surgery in high-risk hormone-positive breast cancer. [5] Extended CDK4/6 inhibitors to a broad group of early hormone-positive breast cancer patients, including node-negative. [6]\n\nSources\n[1] ArteraAI Breast (https://onco.cc/drugs/artera-ai-breast/)\n[2] Oncotype DX (https://onco.cc/drugs/oncotype-dx/)\n[3] monarchE: two years of abemaciclib after surgery in high-risk, hormone-receptor-positive early breast cancer (https://onco.cc/key-papers/paper-monarche-jco-2020/)\n[4] Hormone therapy (https://onco.cc/terms/hormone-therapy/)\n[5] monarchE (https://onco.cc/trials/monarche/)\n[6] NATALEE (https://onco.cc/trials/natalee/)"
+  },
+  {
+   "id": "breast-15",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "destiny-breast11"
+   ],
+   "retrievedEntities": [
+    "trastuzumab-deruxtecan",
+    "destiny-breast11",
+    "breast-her2-positive"
+   ],
+   "retrievalRecall": 1,
+   "answer": "HER2-positive breast cancer was once the most aggressive subtype and is now one of the most treatable, thanks to trastuzumab and, more recently, Enhertu. [1] The pipeline is defined by T-DXd's move into every curative setting, tucatinib-based maintenance, next-generation and biparatopic HER2 ADCs (zanidatamab zovodotin), HER2 CAR-T and vaccines, and imaging- and ctDNA-adapted de-escalation trials. [1] For HER2-positive stomach cancer, an antibody-plus-chemotherapy first, then Enhertu when it progresses. [2] The TROP2-directed antibody-drug conjugate Dato-DXd delayed progression by about two months compared with chemotherapy, but patients did not live longer, which stalled its approval in breast cancer. [3] It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer. [4] Trastuzumab deruxtecan approvals: US 2019 for HER2+ metastatic breast cancer, ≥2 prior anti-HER2 regimens; US 2022 for HER2-low metastatic breast cancer; HER2-mutant NSCLC; US 2024 for HER2 IHC3+ solid tumours (tumour-agnostic); US 2025 for HER2-low/ultralow HR+ breast cancer after endocrine therapy (DESTINY-Breast06); US 2026 for Early-stage HER2+ breast cancer (neoadjuvant and post-neoadjuvant). [4]\n\nSources\n[1] HER2-positive breast cancer (https://onco.cc/cancers/breast-her2-positive/)\n[2] HER2 sequence in gastric cancer: zanidatamab/trastuzumab + chemo ± PD-1 → T-DXd (https://onco.cc/pairings/her2-gastric-sequence/)\n[3] TROPION-Breast01: datopotamab deruxtecan versus chemotherapy in pretreated hormone-receptor-positive breast cancer, and why a PFS win did not translate to survival (https://onco.cc/key-papers/paper-tropion-breast01-jco-2024/)\n[4] Trastuzumab deruxtecan (https://onco.cc/drugs/trastuzumab-deruxtecan/)"
+  },
+  {
+   "id": "lung-16",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0,
+   "met": 0,
+   "total": 5,
+   "missed": [
+    "egfr",
+    "alk",
+    "kras",
+    "pd-l1",
+    "ret"
+   ],
+   "retrievedEntities": [
+    "nsclc"
+   ],
+   "retrievalRecall": 0.2,
+   "answer": "Many patients with advanced lung or bowel cancer start treatment without the gene tests that would show whether a targeted drug would work. [1] Let the pathologist order the full test the moment cancer is confirmed, without waiting for an oncologist. [1] Fiona Blackhall leads thoracic oncology research at The Christie and the University of Manchester, with trials in small-cell and non-small-cell lung cancer and blood-based biomarkers. [2] Non-small-cell lung cancer is the biggest cancer killer, and the proving ground for precision medicine: a dozen targetable mutations, immunotherapy for the rest, and ADCs and bispecifics arriving now. [3] Non-small-cell lung cancer is ~85% of lung cancer and the leading cause of cancer death worldwide (~1.8 million deaths a year, all lung cancer). [3] Lung cancer oncologist who has pushed for universal biomarker testing and better trial design. [4]\n\nSources\n[1] Pathologists order genomic profiling automatically at diagnosis of advanced cancer (https://onco.cc/ideas/idea-acc-reflex-genomic-profiling-at-diagnosis/)\n[2] Fiona Blackhall (https://onco.cc/people/fiona-blackhall/)\n[3] Non-small-cell lung cancer (https://onco.cc/cancers/nsclc/)\n[4] Nathan A. Pennell (https://onco.cc/people/nathan-pennell/)"
+  },
+  {
+   "id": "lung-17",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "adaura",
+    "three years",
+    "0.49"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "A rarer EGFR mutation (~2% of lung cancers) that does not respond to standard EGFR pills and needs its own drugs. [1] A second-generation EGFR pill that beat gefitinib on survival in EGFR-mutant lung cancer but was quickly overshadowed by osimertinib. [2] Comparing 649 men with lung cancer to matched hospital controls in London, Doll and Hill found that almost none of the cancer patients were non-smokers and that risk rose steeply with the amount smoked. [3] A free web service where any app or hospital system can ask 'what is the recommended treatment for this exact situation today' and get a cited, versioned answer. [4] The study that got Datroway approved for EGFR-mutant lung cancer after other treatments fail. [5] ORR 43.6% in EGFR-mutant disease. [5]\n\nSources\n[1] EGFR exon 20 insertion (https://onco.cc/terms/egfr-exon20-insertion/)\n[2] Dacomitinib (https://onco.cc/drugs/dacomitinib/)\n[3] Doll and Hill 1950: the case-control study that tied smoking to lung cancer (https://onco.cc/key-papers/paper-doll-hill-smoking-lung-cancer-bmj-1950/)\n[4] A public API serving the current standard of care for any cancer, stage and biomarker (https://onco.cc/ideas/idea-data-standard-of-care-api/)\n[5] TROPION-Lung05 (https://onco.cc/trials/tropion-lung05/)"
+  },
+  {
+   "id": "lung-18",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "mariposa"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "The first regimen to beat osimertinib in EGFR-mutant lung cancer, with a survival benefit exceeding a year. [1] A third-generation EGFR pill used together with amivantamab as the first regimen to beat osimertinib in EGFR-mutant lung cancer. [2] Blocking EGFR from inside (a pill) and outside (an antibody that also blocks MET) beat osimertinib and added more than a year of survival. [3] Osimertinib (Tagrisso) is the standard pill for EGFR-mutant lung cancer, now also given after surgery and with chemotherapy or after chemoradiation. [4] Osimertinib approvals: US 2015 for EGFR T790M NSCLC; US 2018 for First-line EGFR-mutant NSCLC; US 2020 for Adjuvant EGFR-mutant NSCLC. [4] Patients newly diagnosed with EGFR-mutated advanced lung cancer now have a first-line option that improves survival over osimertinib, particularly if they have high-risk features. [5]\n\nSources\n[1] MARIPOSA (https://onco.cc/trials/mariposa/)\n[2] Lazertinib (https://onco.cc/drugs/lazertinib/)\n[3] Amivantamab + lazertinib (first-line EGFR NSCLC) (https://onco.cc/pairings/amivantamab-plus-lazertinib/)\n[4] Osimertinib (https://onco.cc/drugs/osimertinib/)\n[5] MARIPOSA: amivantamab plus lazertinib versus osimertinib as first treatment for EGFR-mutated lung cancer (https://onco.cc/key-papers/paper-mariposa-nejm-2024/)"
+  },
+  {
+   "id": "lung-19",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "dll3"
+   ],
+   "retrievedEntities": [
+    "tarlatamab",
+    "dellphi-304"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "The first T-cell engager to improve survival in a common solid tumour, small-cell lung cancer. [1] DeLLphi-304 was the first trial in which a T-cell engager improved survival in a common solid tumour. [2] T cells taken from patients and engineered to recognise the MAGE-A4 protein shrank tumours in about four in ten patients with advanced synovial sarcoma, leading to the first approval of a TCR T-cell therapy for any solid cancer. [3] The FDA granted accelerated approval in August 2024, the first TCR-T therapy and the first engineered T-cell therapy for a solid tumour. [4] From a cure for some leukaemias in 2017 to the first solid-tumour CAR-T and the prospect of making CAR-T inside the body with an injection. [5] gp100 is a pigment-cell protein, and the target of the first bispecific drug to improve survival in a solid tumour, uveal melanoma. [6]\n\nSources\n[1] Tarlatamab (https://onco.cc/drugs/tarlatamab/)\n[2] DeLLphi-304 (https://onco.cc/trials/dellphi-304/)\n[3] SPEARHEAD-1: afamitresgene autoleucel, the first engineered T-cell receptor therapy approved for a solid tumour, in synovial sarcoma (https://onco.cc/key-papers/paper-spearhead-1-lancet-2024/)\n[4] SPEARHEAD-1: afami-cel, the first engineered T-cell receptor therapy approved for a solid tumour, in synovial sarcoma (https://onco.cc/key-papers/paper-spearhead-1-afami-cel-sarcoma-lancet-2024/)\n[5] Cell therapy roadmap: CD19 CAR-T → solid tumours → in vivo CAR (https://onco.cc/roadmaps/cell-therapy-roadmap/)\n[6] gp100 (PMEL) (https://onco.cc/targets/gp100/)"
+  },
+  {
+   "id": "lung-20",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "feedback"
+   ],
+   "retrievedEntities": [
+    "kras-plus-egfr-crc",
+    "codebreak-300",
+    "adagrasib"
+   ],
+   "retrievalRecall": 0.75,
+   "answer": "In colorectal cancer, a KRAS blocker alone barely works because the cell turns EGFR up; adding an EGFR antibody stops that. [1] A rarer EGFR mutation (~2% of lung cancers) that does not respond to standard EGFR pills and needs its own drugs. [2] CodeBreaK 300 showed that a KRAS drug needs an EGFR antibody partner to work in colorectal cancer. [3] The first drug to directly block mutant KRAS beat docetaxel chemotherapy on delaying progression in KRAS G12C lung cancer, but only by about a month, and did not improve survival. [4] Adagrasib was the second KRAS G12C inhibitor, with a long half-life and brain penetration, and is approved in lung and colorectal cancer. [5] In bowel cancers that start on the left and have normal RAS and BRAF genes, adding an EGFR antibody to chemotherapy gives the longest survival seen in first-line trials. [6]\n\nSources\n[1] KRAS G12C inhibitor + anti-EGFR antibody (colorectal) (https://onco.cc/pairings/kras-plus-egfr-crc/)\n[2] EGFR exon 20 insertion (https://onco.cc/terms/egfr-exon20-insertion/)\n[3] CodeBreaK 300 (https://onco.cc/trials/codebreak-300/)\n[4] CodeBreaK 200: sotorasib versus docetaxel in KRAS G12C-mutated lung cancer, a modest win for the first KRAS drug (https://onco.cc/key-papers/paper-codebreak-200-lancet-2023/)\n[5] Adagrasib (https://onco.cc/drugs/adagrasib/)\n[6] Anti-EGFR antibody + chemotherapy in left-sided RAS/BRAF wild-type mCRC (https://onco.cc/pairings/anti-egfr-left-sided/)"
+  },
+  {
+   "id": "lung-21",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "ivonescimab"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "In the first randomised trial to beat pembrolizumab directly, a single antibody that blocks both PD-1 and VEGF nearly doubled the time to progression in PD-L1-positive lung cancer, though survival data were still immature. [1] Progression-free survival only; overall survival has not reached significance, and pembrolizumab's own benefit is defined by OS. [1] A Chinese bispecific that beat Keytruda head-to-head on progression-free survival in lung cancer, the first drug ever to do so. [2] Progression-free survival (PFS) is how long patients live without their cancer growing. [3] Caicun Zhou led OPTIMAL (erlotinib vs chemotherapy), one of the first trials to prove EGFR-TKI superiority, and two decades later HARMONi-2, the first trial to beat pembrolizumab on progression-free survival in first-line NSCLC. [4] HARMONi-2, Progression-free survival (IRRC): Ivonescimab 11.1 months versus Pembrolizumab 5.8 months, hazard ratio 0.51, p <0.0001. [5]\n\nSources\n[1] HARMONi-2: ivonescimab, a PD-1 x VEGF bispecific, beats pembrolizumab head-to-head in PD-L1-positive lung cancer (https://onco.cc/key-papers/paper-harmoni-2-lancet-2025/)\n[2] Ivonescimab (https://onco.cc/drugs/ivonescimab/)\n[3] Progression-free survival (PFS) (https://onco.cc/terms/pfs/)\n[4] Caicun Zhou (https://onco.cc/people/zhou-caicun/)\n[5] HARMONi-2 (https://onco.cc/trials/harmoni-2/)"
+  },
+  {
+   "id": "lung-22",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "lorlatinib"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "An ALK inhibitor with the longest disease control ever recorded for a targeted lung cancer pill: 60% progression-free at five years. [1] CROWN, Progression-free survival at 5 years (BICR): Lorlatinib 60% versus Crizotinib 8%, hazard ratio 0.19. [2] It is the midpoint of a spread, not a prediction for anyone: half live longer, some much longer. [3] The combination with the longest progression-free survival ever reported in first-line kidney cancer, at nearly two years. [4] CLEAR (KEYNOTE-581), Progression-free survival: Lenvatinib + pembrolizumab 23.9 months versus Sunitinib 9.2 months, hazard ratio 0.39. [4] LUNGevity is the largest US lung cancer charity, focused on making sure every patient gets comprehensive biomarker testing and access to targeted therapy and trials, with a screening-advocacy partner in GO2. [5]\n\nSources\n[1] Lorlatinib (https://onco.cc/drugs/lorlatinib/)\n[2] CROWN (https://onco.cc/trials/crown/)\n[3] Median survival (https://onco.cc/terms/median-survival/)\n[4] CLEAR (KEYNOTE-581) (https://onco.cc/trials/clear/)\n[5] LUNGevity Foundation (and GO2 for Lung Cancer) (https://onco.cc/collections/lungevity/)"
+  },
+  {
+   "id": "prostate-23",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "psma",
+    "pluvicto"
+   ],
+   "retrievedEntities": [
+    "theranostics"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "Komen is the best-known breast cancer charity, a major funder of research and a large provider of patient navigation and financial assistance, with a patient-driven research registry that shares data for metastatic breast cancer research. [1] The best-known oncology example is iExosomes, mesenchymal-cell exosomes loaded with siRNA against KRAS G12D, in a phase 1 in pancreatic cancer at MD Anderson (NCT03608631). [2] Using the same targeting molecule for a diagnostic scan and a therapy, so you treat exactly what you can see. [3] The best-known demonstration delivered thrombin into tumour vasculature in mice, causing intravascular thrombosis and tumour necrosis; a 2024 Karolinska design displayed death-receptor ligands only at tumour pH. [4]\n\nSources\n[1] Susan G. Komen (https://onco.cc/collections/susan-g-komen/)\n[2] Engineered exosomes as drug carriers (https://onco.cc/technologies/exosome-therapeutics/)\n[3] Theranostics (https://onco.cc/terms/theranostics/)\n[4] DNA origami nanorobots (https://onco.cc/technologies/dna-origami-nanorobots/)"
+  },
+  {
+   "id": "prostate-24",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "vision"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "VISION was the trial that established radioligand therapy in prostate cancer. [1] VISION, Overall survival: 177Lu-PSMA-617 + standard care 15.3 months versus Standard care 11.3 months, hazard ratio 0.62, p <0.001. [1] It led to FDA and EMA approval of Pluvicto in 2022, the first radioligand therapy to show a survival benefit in a common cancer, and made PSMA PET a theranostic gatekeeper. [2] Men with metastatic castration-resistant prostate cancer that has progressed after hormonal therapy and chemotherapy, and whose tumours show PSMA on a PET scan, can now receive lutetium-PSMA, which extends life, controls pain and is usually better tolerated than further chemotherapy. [2] Medical oncologist who led VISION (177Lu-PSMA-617) and co-led PSMAfore and PSMA PET studies, and chaired the Alliance GU committee. [3] Merlin (2024) is a 3D vision-language model trained on 6M images and 6M EHR codes from abdominal CTs; supports zero-shot finding classification and report generation. [4]\n\nSources\n[1] VISION (https://onco.cc/trials/vision/)\n[2] VISION: lutetium-177 PSMA-617 radioligand therapy extends survival in advanced prostate cancer (https://onco.cc/key-papers/paper-vision-nejm-2021/)\n[3] Michael J. Morris (https://onco.cc/people/michael-morris/)\n[4] Merlin (Stanford abdominal CT vision-language model) (https://onco.cc/technologies/merlin-ct/)"
+  },
+  {
+   "id": "prostate-25",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "double-strand"
+   ],
+   "retrievedEntities": [
+    "beta-then-alpha",
+    "ac225-psma"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "Alpha-emitting PSMA drugs that produce responses even after Pluvicto fails, held back mainly by isotope supply. [1] If Pluvicto helps at first diagnosis, an alpha version might do more against microscopic disease, when tumour burden is smallest. [2] The phase 3 trials that will decide whether alpha-emitting PSMA drugs become the next step after Pluvicto. [3] When lutetium radioligand therapy stops working, alpha-emitting versions can still control the disease. [4] After lutetium therapy stops working, an actinium version of the same drug can still produce responses. [5] Alpha-emitting 225Ac-PSMA agents and PSMA-targeted bispecifics and CAR-T are in trials. [6]\n\nSources\n[1] Actinium-225 PSMA agents (https://onco.cc/drugs/ac225-psma/)\n[2] Alpha-emitting PSMA therapy at first metastatic diagnosis (https://onco.cc/ideas/idea-alpha-first-mhspc/)\n[3] AlphaBreak (FPI-2265) & AcTION (225Ac-PSMA-617) (https://onco.cc/trials/alphabreak/)\n[4] Beta PRRT → alpha PRRT (https://onco.cc/pairings/prrt-then-alpha-net/)\n[5] Beta radioligand → alpha radioligand (https://onco.cc/pairings/beta-then-alpha/)\n[6] PSMA (https://onco.cc/targets/psma/)"
+  },
+  {
+   "id": "prostate-26",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "artera-ai-prostate"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "The first AI tool cleared by the FDA to predict both prognosis and treatment benefit from a routine biopsy slide, in prostate cancer. [1] Multimodal AI on H&E biopsy images plus clinical variables predicts distant metastasis and benefit from short-term androgen deprivation with radiotherapy (validated on NRG/RTOG trial cohorts). [1] An FDA-cleared AI test (May 2026) that reads breast cancer slides to estimate recurrence risk in early hormone-positive disease. [2] First FDA-cleared digital-pathology-based risk stratification tool for early-stage HR+/HER2- invasive breast cancer, positioned as a faster, cheaper alternative to gene-expression assays. [2] How AI is moving from single-task readers of scans and slides towards systems that weigh everything about a patient, and what regulators and evidence still require. [3] First company with FDA-cleared AI pathology tests that predict treatment benefit (prostate 2025, breast 2026). [4]\n\nSources\n[1] ArteraAI Prostate (https://onco.cc/drugs/artera-ai-prostate/)\n[2] ArteraAI Breast (https://onco.cc/drugs/artera-ai-breast/)\n[3] AI in the oncology clinic: from narrow cleared tools to multimodal decision support (https://onco.cc/roadmaps/ai-oncology-clinic/)\n[4] Artera (https://onco.cc/companies/artera/)"
+  },
+  {
+   "id": "bladder-27",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "The regimen that defined first-line treatment for advanced head and neck cancer from 2008 until immunotherapy replaced it. [1] Combining the Nectin-4 antibody-drug conjugate enfortumab vedotin with pembrolizumab nearly doubled survival compared with platinum chemotherapy in advanced urothelial cancer, the biggest advance in this disease in 40 years. [2] It displaced platinum chemotherapy as first-line standard of care, the first regimen to do so since the 1980s, and is the first ADC plus checkpoint inhibitor combination to become a first-line standard in any cancer. [2] Avelumab is a PD-L1 blocker given as maintenance after chemotherapy for advanced bladder cancer, which lengthened survival by about seven months. [3] Combining the immunotherapy atezolizumab with the anti-blood-vessel antibody bevacizumab helped patients with advanced hepatocellular carcinoma live longer than sorafenib, ending a decade in which nothing had beaten that drug. [4] Adding the immunotherapy nivolumab to first-line chemotherapy helped patients with advanced stomach and oesophageal adenocarcinoma live longer, especially when the tumour showed PD-L1, making chemo-immunotherapy the new standard. [5]\n\nSources\n[1] EXTREME (https://onco.cc/trials/extreme/)\n[2] EV-302: enfortumab vedotin plus pembrolizumab replaces chemotherapy as first treatment for advanced bladder cancer (https://onco.cc/key-papers/paper-ev-302-nejm-2024/)\n[3] Avelumab (https://onco.cc/drugs/avelumab/)\n[4] IMbrave150: atezolizumab plus bevacizumab replaces sorafenib as first treatment for advanced liver cancer (https://onco.cc/key-papers/paper-imbrave150-nejm-2020/)\n[5] CheckMate 649: nivolumab plus chemotherapy as first treatment for advanced gastric, gastro-oesophageal junction and oesophageal adenocarcinoma (https://onco.cc/key-papers/paper-checkmate-649-lancet-2021/)"
+  },
+  {
+   "id": "bladder-28",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "atezolizumab",
+    "bladder"
+   ],
+   "retrievedEntities": [
+    "imvigor011",
+    "signatera"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "When a resistance mutation first appears in the blood, the current drug is often still controlling most of the tumour. [1] The most widely used blood test for detecting leftover cancer after surgery, personalised to each patient's tumour mutations. [2] Many cancer drugs are approved at the highest dose patients could stand, not the best dose. [3] Run trials that test lower doses on approved drugs and measure how patients feel. [3] The first trial to use a blood test for leftover cancer to decide who gets immunotherapy, and it worked. [4] Radiation oncologist who showed a blood test can detect leftover lung cancer months before scans. [5]\n\nSources\n[1] Add a drug when the blood test turns, without stopping the one that works (https://onco.cc/ideas/idea-bio1-molecular-progression-add-on/)\n[2] Signatera (https://onco.cc/drugs/signatera/)\n[3] Randomised lower-dose trials for approved drugs with quality of life as the primary endpoint (https://onco.cc/ideas/idea-moon-post-approval-dose-deescalation/)\n[4] IMvigor011 (https://onco.cc/trials/imvigor011/)\n[5] Maximilian Diehn (https://onco.cc/people/maximilian-diehn/)"
+  },
+  {
+   "id": "gi-29",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "sotorasib"
+   ],
+   "retrievedEntities": [
+    "kras",
+    "kras-roadmap"
+   ],
+   "retrievalRecall": 0.4,
+   "answer": "Then a pocket was found, and now a pan-RAS drug is in phase 3 for pancreatic cancer. [1] Fast grants for oncology would be a fund that decides within two days on small grants for quick, decisive experiments in cancers or questions that mainstream funders neglect, modelled on the pandemic-era Fast Grants. [2] KRAS is the most commonly mutated cancer gene, called 'undruggable' for 40 years until 2021. [3] A stretch of DNA that holds the recipe for one protein (or one working RNA). [4] Humans have about 20,000, and cancer typically involves a handful of them going wrong. [4] Switching a gene off for good without changing the DNA sequence, by writing chemical marks onto it. [5]\n\nSources\n[1] KRAS roadmap: undruggable → G12C → pan-RAS (https://onco.cc/roadmaps/kras-roadmap/)\n[2] Forty-eight-hour small grants for bold experiments in neglected cancers (https://onco.cc/ideas/idea-fund-fast-grants-oncology/)\n[3] KRAS (https://onco.cc/targets/kras/)\n[4] Gene (https://onco.cc/terms/gene/)\n[5] Epigenetic editing (durable gene silencing) (https://onco.cc/technologies/epigenetic-editing/)"
+  },
+  {
+   "id": "gi-30",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "daraxonrasib",
+    "revolution-medicines"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "The first drug that blocks all active RAS variants, approved by the FDA in August 2026 for metastatic pancreatic cancer, where KRAS drives 90% of tumours. [1] Daraxonrasib is Revolution Medicines' tri-complex inhibitor. [1] Revolution Medicines is the leading RAS company, with daraxonrasib in phase 3 for pancreatic cancer. [2] Daraxonrasib (pan-RAS), elironrasib (G12C-selective ON), zoldonrasib (G12D); RASolute and RASolve phase 3 programmes; expanded credit facility 2025 to fund launch. [2] If daraxonrasib shrinks metastatic tumours this well, use it before surgery to make more locally advanced tumours operable. [3] A next-generation KRAS G12C drug that hits the active form of the protein, from the same company as daraxonrasib. [4]\n\nSources\n[1] Daraxonrasib (https://onco.cc/drugs/daraxonrasib/)\n[2] Revolution Medicines (https://onco.cc/companies/revolution-medicines/)\n[3] RAS(ON) inhibitors to convert unresectable pancreatic cancer to resectable (https://onco.cc/ideas/idea-ras-inhibitor-neoadjuvant-pdac/)\n[4] Elironrasib (https://onco.cc/drugs/elironrasib/)"
+  },
+  {
+   "id": "gi-31",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "dostarlimab"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Six months of the PD-1 antibody dostarlimab made every tumour disappear in a small group of patients with mismatch-repair-deficient rectal cancer, allowing them to avoid chemotherapy, radiotherapy and surgery. [1] Single-arm phase 2 trial of patients with stage II-III mismatch-repair-deficient locally advanced rectal adenocarcinoma treated with dostarlimab 500 mg every three weeks for six months, with the plan to proceed to chemoradiotherapy and surgery only if disease persisted. [1] The follow-up report (NEJM 2025) extended the approach to more than 100 patients with dMMR cancers of several organs, with rectal cancer patients continuing to show near-universal complete responses and most avoiding surgery at two years. [2] Cercek's dostarlimab study is the clearest demonstration that immunotherapy can replace surgery in a solid tumour: patients with dMMR rectal cancer can keep their rectum and avoid the permanent effects of pelvic radiotherapy and surgery. [2] The world's top-ranked cancer hospital, home of MSK-IMPACT sequencing, the dostarlimab rectal cancer study, and CAR-T pioneers. [3] Led the study in which every patient with mismatch-repair-deficient rectal cancer had a complete response to dostarlimab, without surgery or radiation. [4]\n\nSources\n[1] Dostarlimab alone cures mismatch-repair-deficient rectal cancer without surgery or radiotherapy (https://onco.cc/key-papers/paper-cercek-dmmr-rectal-nejm-2022/)\n[2] Cercek 2022: six months of dostarlimab alone made rectal cancer disappear in every patient with mismatch-repair deficiency (https://onco.cc/key-papers/paper-cercek-dostarlimab-rectal-nejm-2022/)\n[3] Memorial Sloan Kettering Cancer Center (https://onco.cc/institutions/mskcc/)\n[4] Andrea Cercek (https://onco.cc/people/andrea-cercek/)"
+  },
+  {
+   "id": "gi-32",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "dynamic"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Giving chemotherapy only to patients with tumour DNA in their blood after surgery cut chemotherapy use from 28% to 15% with no loss in recurrence-free survival at two years. [1] For stage II colon cancer, where most patients are cured by surgery alone, a blood test can identify the minority who benefit from chemotherapy and spare everyone else its side effects. [1] Use a blood test after surgery to decide who gets chemotherapy: spare the negatives, and find something that actually works for the positives. [2] In 1,039 Japanese patients with resected colorectal cancer, a positive Signatera test at week 4 carried a tenfold higher recurrence risk, and only ctDNA-positive patients appeared to benefit from adjuvant chemotherapy. [3] A ctDNA MRD blood test after surgery decides who gets more treatment and who is spared it. [4] Showed that a blood test can safely halve the number of colon cancer patients given chemotherapy after surgery. [5]\n\nSources\n[1] DYNAMIC: a blood test safely halved chemotherapy use after surgery for stage II colon cancer (https://onco.cc/key-papers/paper-dynamic-nejm-2022/)\n[2] ctDNA-guided adjuvant therapy as the default in stage II-III colon cancer (https://onco.cc/ideas/idea-ctdna-guided-adjuvant-crc/)\n[3] GALAXY: tumour DNA in blood four weeks after bowel cancer surgery predicts relapse tenfold (https://onco.cc/key-papers/paper-galaxy-signatera-nat-med-2023/)\n[4] ctDNA MRD → adjuvant therapy decision (https://onco.cc/pairings/ctdna-mrd-to-adjuvant/)\n[5] DYNAMIC (https://onco.cc/trials/dynamic/)"
+  },
+  {
+   "id": "gi-33",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "optune"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "If daraxonrasib shrinks metastatic tumours this well, use it before surgery to make more locally advanced tumours operable. [1] A cheap blood pressure drug may soften the dense scar tissue around pancreatic tumours so chemotherapy and immune cells can get in. [2] Early trials look encouraging. [2] PANOVA-3 is the trial behind the 2026 approval of a wearable electric-field device for pancreatic cancer, the first new approval in locally advanced disease in decades. [3] Adding pembrolizumab to standard chemoradiotherapy for high-risk locally advanced cervical cancer reduced progression by 30% and later improved survival, the first systemic advance in this setting since cisplatin was added to radiotherapy in 1999. [4] Nearly all are removed surgically; the rare advanced cases are treated with drugs that block the hedgehog signalling pathway, and with immunotherapy if those fail. [5]\n\nSources\n[1] RAS(ON) inhibitors to convert unresectable pancreatic cancer to resectable (https://onco.cc/ideas/idea-ras-inhibitor-neoadjuvant-pdac/)\n[2] Losartan to loosen the stroma of pancreatic cancer before chemotherapy: a phase 3 (https://onco.cc/ideas/idea-reg-losartan-pancreatic-stroma/)\n[3] PANOVA-3 (https://onco.cc/trials/panova-3/)\n[4] KEYNOTE-A18: pembrolizumab with chemoradiotherapy for locally advanced cervical cancer (https://onco.cc/key-papers/paper-keynote-a18-lancet-2024/)\n[5] Basal cell carcinoma (https://onco.cc/cancers/basal-cell-carcinoma/)"
+  },
+  {
+   "id": "gi-34",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "satricabtagene-autoleucel"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "Hit Claudin 18.2 twice: first with a plain antibody plus chemotherapy, then with an ADC or engineered cells when the cancer comes back. [1] Zolbetuximab + chemotherapy is approved first line; CLARITY-Gastric 01 showed an OS benefit for the CLDN18.2 ADC sonesitatug vedotin in later lines (July 2026); satri-cel CAR-T is approved in China. [1] Satricabtagene autoleucel (satri-cel) is the first CAR-T therapy approved for a solid tumour (gastric cancer), in China. [2] The three stages a new drug passes through: phase 1 finds a safe dose in a few dozen patients, phase 2 looks for signs of activity in a hundred or so, and phase 3 compares it with the standard treatment in hundreds or thousands. [3] An adhesion protein on almost all carcinoma cells and the capture molecule for circulating tumour cell tests; the target of the first bispecific antibody ever approved (catumaxomab, 2009). [4] EpCAM CAR-T and ADCs are being tested in gastric and colorectal cancer, and germline EPCAM deletions cause Lynch syndrome via MSH2 silencing. [4]\n\nSources\n[1] CLDN18.2 antibody first line → CLDN18.2 ADC or CAR-T on progression (https://onco.cc/pairings/cldn18-antibody-then-adc/)\n[2] Satricabtagene autoleucel (https://onco.cc/drugs/satricabtagene-autoleucel/)\n[3] Phase 1, 2 and 3 trials (https://onco.cc/terms/trial-phases/)\n[4] EpCAM (https://onco.cc/targets/epcam/)"
+  },
+  {
+   "id": "gi-35",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0,
+   "met": 0,
+   "total": 4,
+   "missed": [
+    "cold",
+    "stroma",
+    "neoantigen",
+    "vaccine"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Give a small number of scientists a decade of guaranteed funding to work on a single hard problem such as dormant cancer cells, with no pressure to publish quickly. [1] Any treatment that works by getting the patient's own immune system to attack the cancer, rather than attacking the cancer directly. [2] It can produce responses that last for years, but only in some patients. [2] Rare, hard to treat, and the focus of new immunotherapy trials. [3] Directs Penn's cancer centre and pioneered CD40 agonist immunotherapy for pancreatic cancer. [4] Use immunotherapy to shrink liver cancer enough for a transplant, and find the safe gap between the last dose and surgery so the new liver is not rejected. [5]\n\nSources\n[1] Ten-year awards for scientists who commit to one hard problem (https://onco.cc/ideas/idea-fund-ten-year-hard-problem-awards/)\n[2] Immunotherapy (https://onco.cc/terms/immunotherapy-term/)\n[3] Richter transformation (https://onco.cc/terms/richter-transformation/)\n[4] Robert H. Vonderheide (https://onco.cc/people/robert-vonderheide/)\n[5] Immunotherapy downstaging to transplant with a safe washout (https://onco.cc/ideas/idea-hcc-io-before-transplant/)"
+  },
+  {
+   "id": "io-36",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "checkmate-067",
+    "nivolumab"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "Ten years after starting treatment, about half of patients with advanced melanoma treated with nivolumab plus ipilimumab were still alive, most without any further treatment, showing that immunotherapy can cure a disease that once killed most patients within a year. [1] Final ten-year analysis of the double-blind phase 3 trial of 945 patients with untreated advanced melanoma randomised to nivolumab plus ipilimumab, nivolumab alone, or ipilimumab alone. [1] Ten-year follow-up of the trial that established combination checkpoint blockade shows median survival over six years with nivolumab plus ipilimumab and a plateau in the survival curve consistent with cure. [2] CheckMate 067 randomised 945 patients with previously untreated advanced melanoma to nivolumab plus ipilimumab, nivolumab alone, or ipilimumab alone (Larkin et al., NEJM 2015). [2] Nivolumab was the second PD-1 blocker and is often combined with ipilimumab. [3] Long-term data show about half of advanced melanoma patients alive at 10 years on the combination. [3]\n\nSources\n[1] CheckMate 067 at ten years: nivolumab plus ipilimumab produces long-term survival in half of patients with advanced melanoma (https://onco.cc/key-papers/paper-checkmate-067-10-year-nejm-2025/)\n[2] CheckMate 067 at ten years: half of melanoma patients treated with nivolumab plus ipilimumab were alive a decade later (https://onco.cc/key-papers/paper-checkmate-067-ten-year-nejm-2025/)\n[3] Nivolumab (https://onco.cc/drugs/nivolumab/)"
+  },
+  {
+   "id": "io-37",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "moderna",
+    "melanoma"
+   ],
+   "retrievedEntities": [
+    "intismeran-autogene",
+    "interpath-001"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "A custom mRNA vaccine encoding up to 34 of a patient's own tumour mutations. [1] In August 2026 it became the first personalised cancer vaccine to win a phase 3 trial. [1] The three stages a new drug passes through: phase 1 finds a safe dose in a few dozen patients, phase 2 looks for signs of activity in a hundred or so, and phase 3 compares it with the standard treatment in hundreds or thousands. [2] Phase 1 escalates the dose in small groups until side effects limit it, defining the maximum tolerated dose and the dose for later study; in oncology, phase 1 patients have usually exhausted standard options and modern phase 1 trials often expand into hundreds of patients with early efficacy readouts. [2] BioNTech's personalised vaccine, notable for a small pancreatic cancer study where vaccine responders stayed cancer-free for years. [3] A vaccine of three frameshift peptides shared by almost all microsatellite-unstable tumours was safe and induced immune responses in every patient with MSI colorectal cancer, opening the path to cancer interception vaccines for Lynch syndrome. [4]\n\nSources\n[1] Intismeran autogene (https://onco.cc/drugs/intismeran-autogene/)\n[2] Phase 1, 2 and 3 trials (https://onco.cc/terms/trial-phases/)\n[3] Autogene cevumeran (https://onco.cc/drugs/autogene-cevumeran/)\n[4] First trial of a vaccine against the shared neoantigens of mismatch-repair-deficient cancers (https://onco.cc/key-papers/paper-lynch-frameshift-vaccine-ccr-2020/)"
+  },
+  {
+   "id": "io-38",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.8,
+   "met": 4,
+   "total": 5,
+   "missed": [
+    "sequenc"
+   ],
+   "retrievedEntities": [
+    "neoantigen-mrna-vaccine",
+    "intismeran-autogene"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "A vaccine made for one patient, encoding the unique mutations in their own tumour, to train the immune system to hunt it. [1] Florida's newest NCI-designated centre (2023), with a pioneering proton institute in Jacksonville and personalised mRNA vaccine work in brain tumours. [2] Duane Mitchell and Elias Sayour's neuro-oncology immunotherapy programme developed RNA-loaded dendritic cell vaccines and, in 2024, reported a personalised mRNA-lipid particle vaccine that rapidly reprogrammed the immune response in glioblastoma patients. [2] A vaccine custom-made from each patient's own tumour mutations, given with pembrolizumab after surgery for high-risk melanoma, reduced recurrence by about 44% compared with pembrolizumab alone in a mid-sized randomised trial, the first sign that personalised cancer vaccines can work. [3] If it does, personalised mRNA vaccines could become a routine adjunct to checkpoint inhibitors after surgery. [3] Moderna is the mRNA company whose personalised cancer vaccine intismeran won the first phase 3 in the class (August 2026). [4]\n\nSources\n[1] Personalised neoantigen (mRNA) vaccines (https://onco.cc/technologies/neoantigen-mrna-vaccine/)\n[2] University of Florida Health Cancer Center (https://onco.cc/institutions/uf-health-cancer-center/)\n[3] KEYNOTE-942: a personalised mRNA cancer vaccine plus pembrolizumab after melanoma surgery (https://onco.cc/key-papers/paper-keynote-942-lancet-2024/)\n[4] Moderna (https://onco.cc/companies/moderna/)"
+  },
+  {
+   "id": "io-39",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "2024"
+   ],
+   "retrievedEntities": [
+    "lifileucel",
+    "til-therapy"
+   ],
+   "retrievalRecall": 1,
+   "answer": "When checkpoint blockade fails in melanoma, harvesting and expanding the patient's own tumour-reactive T cells still works in a third of patients. [1] Lifileucel approved after anti-PD-1; TIL retains activity because it supplies tumour-reactive T cells that were quantitatively insufficient rather than absent. [1] Cell therapies are tested for purity and count, but not for whether they can actually kill that patient's tumour. [2] Testing them against the patient's own mini-tumour would show this. [2] Lifileucel was the first approved TIL therapy: the patient's own tumour-fighting immune cells are expanded to billions and given back. [3] Iovance makes Amtagvi, the first approved TIL therapy. [4]\n\nSources\n[1] PD-1 failure → TIL therapy (https://onco.cc/pairings/io-then-til/)\n[2] Use patient organoids to check a cell therapy will work before infusing it (https://onco.cc/ideas/idea-bio1-organoid-cell-therapy-potency/)\n[3] Lifileucel (https://onco.cc/drugs/lifileucel/)\n[4] Iovance Biotherapeutics (https://onco.cc/companies/iovance/)"
+  },
+  {
+   "id": "io-40",
+   "category": "procedural",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "combination"
+   ],
+   "retrievedEntities": [
+    "irae"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "An adverse event is anything bad that happens to a patient during a trial, whether or not the drug caused it; a side effect is a harm the drug is known to cause. [1] The ASCO 2021 guideline is the consensus rulebook for checkpoint-inhibitor toxicity: grade the problem, hold or stop the drug, give steroids early, escalate to other immunosuppressants if they fail, and involve specialists. [2] Checkpoint inhibitors are now given to hundreds of thousands of patients a year, many in community clinics and emergency departments, so a common, explicit playbook for their autoimmune side effects saves lives. [2] Bosutinib is a CML pill with less cardiovascular and pleural toxicity than its rivals; its main side effect is diarrhoea. [3] Side-effects are under-reported and under-treated. [4] Immune-related adverse events (irAEs) are the autoimmune side effects of checkpoint inhibitors: colitis, thyroid problems, rash, hepatitis, pneumonitis. [5]\n\nSources\n[1] Side effect versus adverse event (https://onco.cc/terms/side-effect-vs-adverse-event/)\n[2] ASCO 2021 guideline: how to recognise and manage the immune-related side effects of checkpoint inhibitors (https://onco.cc/key-papers/paper-asco-irae-guideline-jco-2021/)\n[3] Bosutinib (https://onco.cc/drugs/bosutinib/)\n[4] Toxicity and quality of life are undervalued (https://onco.cc/bottlenecks/b-toxicity-qol/)\n[5] Immune-related adverse events (irAEs) (https://onco.cc/terms/irae/)"
+  },
+  {
+   "id": "io-41",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "fc"
+   ],
+   "retrievedEntities": [
+    "tigit",
+    "tigit-plus-pd1-caution"
+   ],
+   "retrievalRecall": 1,
+   "answer": "TIGIT is an immune brake that looked promising, then failed in several big lung cancer trials. [1] Adding a TIGIT blocker to PD-1/PD-L1 blockade looked good in phase 2 and then failed repeatedly in phase 3. [2] Promising early data with cemiplimab did not hold up against pembrolizumab in a first-line phase 3 in 2026. [3] Drugs fail for very different reasons: the target was wrong, the drug did not reach it, the side-effects were too bad, or the trial was badly designed. [4] Recording which reason each time would show where the system is broken. [4]\n\nSources\n[1] TIGIT (https://onco.cc/targets/tigit/)\n[2] Caution: TIGIT + PD-(L)1 blockade (https://onco.cc/pairings/tigit-plus-pd1-caution/)\n[3] Fianlimab (https://onco.cc/drugs/fianlimab/)\n[4] A machine-readable taxonomy of why cancer drugs fail (https://onco.cc/ideas/idea-tr2-failure-taxonomy/)"
+  },
+  {
+   "id": "io-42",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "pancrea"
+   ],
+   "retrievedEntities": [
+    "cold-vs-hot"
+   ],
+   "retrievalRecall": 1,
+   "answer": "'Hot' tumours are full of immune cells and respond to immunotherapy; 'cold' tumours have kept the immune system out. [1] Immunotherapy works in tumours that immune cells can enter and ignores those that shut them out. [2] Systematically test ways to open up the shut-out tumours, measured with spatial maps. [2] Predicting who will respond, and turning cold tumours hot, are two of the field's central problems. [3] A benign tumour grows but stays put and does not invade; a malignant tumour invades surrounding tissue and can spread. [4] More of them means better outcomes in triple-negative breast cancer. [5]\n\nSources\n[1] Hot vs cold tumours (https://onco.cc/terms/cold-vs-hot/)\n[2] Make every cold tumour hot: a coordinated programme to reprogramme immune-excluded tumours (https://onco.cc/ideas/idea-moon-cold-to-hot-programme/)\n[3] Immunotherapy (https://onco.cc/terms/immunotherapy-term/)\n[4] Benign versus malignant (https://onco.cc/terms/benign-vs-malignant/)\n[5] Tumour-infiltrating lymphocytes (TILs) (https://onco.cc/terms/tils/)"
+  },
+  {
+   "id": "heme-43",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "t cell",
+    "lymphoma",
+    "myeloma"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Developed the CD19 CAR-T therapy that became the first approved gene-modified cell therapy for cancer. [1] Led the CTL019 programme, including Emily Whitehead's treatment in 2012, culminating in the approval of tisagenlecleucel in 2017; his centre developed the 4-1BB CAR design used widely today. [1] Built the manufacturing that turned CAR-T from a lab idea into a product given to thousands of patients. [2] Led the CT041 trials that produced the first CAR-T therapy approved for a solid tumour, in gastric cancer. [3] Lin Shen's group at Peking University Cancer Hospital ran the phase 1 and randomised phase 2 trials of satricabtagene autoleucel (CT041, Claudin 18.2 CAR-T) and leads Chinese gastric cancer immunotherapy and HER2 studies. [3]\n\nSources\n[1] Carl H. June (https://onco.cc/people/carl-june/)\n[2] Bruce L. Levine (https://onco.cc/people/bruce-levine/)\n[3] Lin Shen (https://onco.cc/people/shen-lin/)"
+  },
+  {
+   "id": "heme-44",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "2011"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "An ADC kills tumour cells in a way that alerts the immune system; a checkpoint inhibitor lets the immune system finish the job. [1] CD33 is a myeloid marker and the target of the very first ADC ever approved, in 2000. [2] Gemtuzumab ozogamicin against CD33 was approved in 2000, withdrawn in 2010, and re-approved in 2017 with fractionated dosing, an object lesson in ADC development. [2] A Chinese bispecific that beat Keytruda head-to-head on progression-free survival in lung cancer, the first drug ever to do so. [3] Blocking the immune brake CTLA-4 was the first treatment ever to prolong life in metastatic melanoma, with about one in five patients alive at two years and a new class of autoimmune side effects. [4] Tumours pull these brakes to protect themselves; checkpoint inhibitor drugs release them so T cells can attack the cancer. [5]\n\nSources\n[1] ADC + checkpoint inhibitor (https://onco.cc/pairings/adc-plus-io/)\n[2] CD33 (https://onco.cc/targets/cd33/)\n[3] Ivonescimab (https://onco.cc/drugs/ivonescimab/)\n[4] Hodi 2010: ipilimumab, the first checkpoint inhibitor, extends survival in metastatic melanoma (https://onco.cc/key-papers/paper-hodi-ipilimumab-melanoma-nejm-2010/)\n[5] Immune checkpoint (https://onco.cc/terms/immune-checkpoint/)"
+  },
+  {
+   "id": "heme-45",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "revumenib"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "Infant leukaemia is driven almost entirely by KMT2A fusions, which menin inhibitors were built to attack. [1] Adding a menin inhibitor to Interfant-21-type therapy raises 2-year EFS above 80% in KMT2A-rearranged infants without excess differentiation syndrome or hepatotoxicity. [1] Menin inhibition forces differentiation and lowers BCL-2 family dependence; venetoclax kills the primed cells; azacitidine sensitises both. [2] Revumenib (Revuforj) is the first menin inhibitor (2024), for acute leukaemias with KMT2A rearrangements or NPM1 mutations. [3] Revumenib dosing: Oral; 270 mg twice daily (≥40 kg) or 160 mg BID with strong CYP3A4 inhibitors; weight-based below 40 kg. [3] Syndax developed the first menin inhibitor, revumenib. [4]\n\nSources\n[1] Menin inhibitors for infant KMT2A-rearranged ALL (https://onco.cc/ideas/idea-menin-infant-all/)\n[2] Menin inhibitor + venetoclax + azacitidine (https://onco.cc/pairings/menin-plus-venetoclax-hma/)\n[3] Revumenib (https://onco.cc/drugs/revumenib/)\n[4] Syndax Pharmaceuticals (https://onco.cc/companies/syndax/)"
+  },
+  {
+   "id": "heme-46",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "axicabtagene-ciloleucel"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "In TRANSFORM, a second CD19 CAR-T, lisocabtagene maraleucel, also beat chemotherapy-plus-transplant as second-line treatment, with a low rate of severe side effects. [1] A CD19 CAR-T that cures about 40% of patients with large B-cell lymphoma who had failed everything, and beat transplant in second line. [2] Axicabtagene ciloleucel approvals: US 2017 for Relapsed/refractory large B-cell lymphoma ≥2 lines; US 2022 for Second-line LBCL refractory or relapsed within 12 months. [2] For lymphoma that came back within a year, going straight to CAR-T beat the decades-old chemotherapy-then-transplant approach, and later improved survival. [3] ZUMA-7 rewrote second-line treatment for aggressive lymphoma: patients whose disease returns within a year of R-CHOP should be offered CAR-T rather than salvage chemotherapy and transplant. [3] The trial that moved CAR-T ahead of transplant as second-line treatment for early-relapsing large B-cell lymphoma, with a survival benefit. [4]\n\nSources\n[1] TRANSFORM: liso-cel CAR-T versus salvage chemotherapy and transplant in early-relapsing large B-cell lymphoma (https://onco.cc/key-papers/paper-transform-liso-cel-lancet-2022/)\n[2] Axicabtagene ciloleucel (https://onco.cc/drugs/axicabtagene-ciloleucel/)\n[3] ZUMA-7: axi-cel CAR-T instead of salvage chemotherapy and transplant for large B-cell lymphoma that relapses early (https://onco.cc/key-papers/paper-zuma-7-axi-cel-second-line-nejm-2022/)\n[4] ZUMA-7 (https://onco.cc/trials/zuma-7/)"
+  },
+  {
+   "id": "heme-47",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "venetoclax"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Combining the newest leukaemia drug class with the venetoclax backbone is producing remission rates in frontline NPM1 and KMT2A leukaemia that single agents never reached. [1] Azacitidine primes leukaemia cells for death; venetoclax removes the BCL-2 shield. [2] Give venetoclax for 7 or 14 days per cycle instead of 28 to cut infections and low blood counts without losing the benefit. [3] A pill that removes the survival shield from leukaemia cells, enabling chemotherapy-free, time-limited treatment for CLL. [4] Chemotherapy-based regimens barely work when the p53 gene is lost; these patients need BTK inhibitors or venetoclax from the start. [5] Adding the BCL-2 inhibitor venetoclax to azacitidine more than doubled remission rates and extended median survival from 9.6 to 14.7 months in unfit AML patients. [6]\n\nSources\n[1] Menin inhibitor + venetoclax + azacitidine (https://onco.cc/pairings/menin-plus-venetoclax-hma/)\n[2] Venetoclax + hypomethylating agent (https://onco.cc/pairings/venetoclax-plus-hma/)\n[3] Shorter venetoclax courses in unfit AML (https://onco.cc/ideas/idea-shortened-venetoclax/)\n[4] Venetoclax (https://onco.cc/drugs/venetoclax/)\n[5] Caution: chemoimmunotherapy in del(17p)/TP53 CLL (https://onco.cc/pairings/cit-in-del17p-caution/)\n[6] VIALE-A: venetoclax plus azacitidine for older adults with acute myeloid leukaemia who cannot have intensive chemotherapy (https://onco.cc/key-papers/paper-viale-a-venetoclax-azacitidine-nejm-2020/)"
+  },
+  {
+   "id": "img-48",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "pet/ct"
+   ],
+   "retrievedEntities": [
+    "ct"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "Merlin is a model trained on 15,000 CT scans with their reports that can find and describe hundreds of findings. [1] SPECT and the bone scan are an older type of nuclear scan, still used for bone metastases and to check where a radioactive drug went after treatment. [2] 99mTc-MDP bone scan for skeletal metastases (being displaced by PSMA PET in prostate). [2] A model pretrained on 148,000 CT scans to segment organs and triage findings. [3] A CT scan is a fast 3D X-ray that shows the size and shape of tumours and whether they have spread. [4]\n\nSources\n[1] Merlin (Stanford abdominal CT vision-language model) (https://onco.cc/technologies/merlin-ct/)\n[2] SPECT & bone scan (https://onco.cc/technologies/spect/)\n[3] CT-FM (whole-body CT foundation model) (https://onco.cc/technologies/ct-fm/)\n[4] CT (computed tomography) (https://onco.cc/technologies/ct/)"
+  },
+  {
+   "id": "img-49",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "not yet approved"
+   ],
+   "retrievedEntities": [
+    "fapi-pet"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "FAPI PET is a PET scan that lights up the scaffolding around almost any solid tumour, including cancers the standard sugar scan misses. [1] Sees desmoplastic tumours FDG misses [1] When a blood test says 'cancer signal, origin unclear', a FAPI PET scan may find it where FDG cannot. [2] FAPI PET has higher sensitivity than FDG in pancreatic, gastric, low-grade, and peritoneal disease, exactly the cancers MCED promises to catch. [2] A radioactive sugar shows which tissues are burning glucose fast, which most cancers do. [3] A PET scan after two cycles of antibodies alone identifies women who can be cured without chemotherapy. [4]\n\nSources\n[1] FAPI PET (https://onco.cc/technologies/fapi-pet/)\n[2] FAPI PET as the workup for MCED positives (https://onco.cc/ideas/idea-mced-plus-fapi/)\n[3] FDG PET (https://onco.cc/technologies/fdg-pet/)\n[4] Early FDG-PET response → chemotherapy omission (HER2+) (https://onco.cc/pairings/pet-adapted-her2-deescalation/)"
+  },
+  {
+   "id": "img-50",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "galleri",
+    "pathfinder-2"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "GRAIL developed Galleri, the multi-cancer blood test awaiting an FDA decision after a September 2026 advisory committee. [1] A positive blood test tells you cancer is back but not where. [2] Combining whole-body MRI with modern PET tracers may find a single spot that can be zapped. [2] PATHFINDER 2 is the US real-world study of the Galleri test that forms the core of its FDA submission. [3] A blood test screening for more than 50 cancers at once, before the FDA in September 2026. [4] PATHFINDER 2 (25,000+ participants) and NHS-Galleri (140,000 randomised) underpin the PMA submitted January 2026; FDA advisory committee 23 September 2026. [4]\n\nSources\n[1] GRAIL (https://onco.cc/companies/grail/)\n[2] When the blood test is positive, hunt for the lesion with sensitive imaging (https://onco.cc/ideas/idea-bio2-localise-the-mrd/)\n[3] PATHFINDER 2 (https://onco.cc/trials/pathfinder-2/)\n[4] Galleri (https://onco.cc/drugs/galleri/)"
+  },
+  {
+   "id": "img-51",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "positive result",
+    "workup"
+   ],
+   "retrievedEntities": [
+    "ppv"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Positive predictive value (PPV) is the chance that a test saying 'cancer' is right. [1] A blood test for viral DNA finds it early, and a large study showed better survival. [2] A strong single-cancer test with a clear cause; high-incidence regions make positive predictive value acceptable. [2] A positive blood test with no known tumour is frightening and hard to manage. [3] PATHFINDER 2, Positive predictive value: Galleri 61.6%. [4] In 6,621 adults over 50, the Galleri test flagged a cancer signal in 1.4%, of whom 38% turned out to have cancer; diagnostic work-up took about two months for true positives and over five months for false positives. [5]\n\nSources\n[1] Positive predictive value (PPV) (https://onco.cc/terms/ppv/)\n[2] Blood EBV DNA screening for nasopharyngeal cancer across southern China and Southeast Asia (https://onco.cc/ideas/idea-prev-ebv-dna-npc-screening-scaleup/)\n[3] A 28-day national pathway for people with a positive multi-cancer blood test (https://onco.cc/ideas/idea-prev-mced-positive-resolution-pathway/)\n[4] PATHFINDER 2 (https://onco.cc/trials/pathfinder-2/)\n[5] PATHFINDER: the first prospective test of a multi-cancer blood test in people without symptoms (https://onco.cc/key-papers/paper-pathfinder-lancet-2023/)"
+  },
+  {
+   "id": "img-52",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "residual",
+    "screen"
+   ],
+   "retrievedEntities": [
+    "liquid-biopsy"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Biopsies range from a fine needle drawing up cells, to a core needle removing a sliver of tissue, to surgical removal of the whole lesion; the sample is fixed, sliced, stained and read by a pathologist, and today also tested for protein markers and sequenced for mutations. [1] Tissue is precious and finite, and a single biopsy samples one spot of a tumour that may vary from place to place and change over time, which is why repeat biopsies at progression and blood-based liquid biopsies have become important. [1] When a treatment stops working, the tumour is rarely re-sampled, so nobody learns why. [2] Paying for a biopsy at that moment would build the missing map of resistance. [2] A blood test that reads fragments of DNA shed by the tumour, so you can genotype or monitor cancer without a needle in the tumour. [3] Klaus Pantel is a pioneer of circulating tumour cell research and the liquid biopsy field. [4]\n\nSources\n[1] Biopsy (https://onco.cc/terms/biopsy/)\n[2] Fund a biopsy at progression, every time, as standard care (https://onco.cc/ideas/idea-bio1-mandatory-progression-biopsy/)\n[3] Liquid biopsy (ctDNA) (https://onco.cc/technologies/liquid-biopsy/)\n[4] Klaus Pantel (https://onco.cc/people/klaus-pantel/)"
+  },
+  {
+   "id": "img-53",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "psma"
+   ],
+   "retrievedEntities": [
+    "trop2-pet",
+    "idea-trop2-pet-selection",
+    "trop2-pet-to-adc"
+   ],
+   "retrievalRecall": 1,
+   "answer": "Proposed: a TROP2 PET scan to choose between three TROP2 ADCs and predict who will respond, since tissue staining has not worked. [1] An experimental PET scan that shows whether a tumour carries the TROP2 protein, so doctors could pick the right ADC before giving it. [2] Use a whole-body TROP2 scan instead of a single tissue stain to decide which patients get a TROP2 ADC, which one, and when to switch. [3] Baseline TROP2 PET uptake (SUV, heterogeneity index) predicts PFS on TROP2 ADCs better than IHC, and a fall in uptake at progression indicates antigen-loss resistance that should prompt a switch to a non-TROP2 ADC rather than a second TROP2 agent. [3] Leads the nuclear medicine group behind the first human TROP2 PET imaging, aiming to pick patients for TROP2 ADCs with a scan. [4] PET scans built from radiolabelled antibodies or their fragments, to see any protein an antibody can reach, including immune cells inside tumours. [5]\n\nSources\n[1] TROP2 PET → TROP2 ADC selection (https://onco.cc/pairings/trop2-pet-to-adc/)\n[2] TROP2 PET (https://onco.cc/technologies/trop2-pet/)\n[3] TROP2 PET to choose and sequence TROP2 ADCs (https://onco.cc/ideas/idea-trop2-pet-selection/)\n[4] Shaoli Song (https://onco.cc/people/song-shaoli/)\n[5] Immuno-PET (https://onco.cc/technologies/immuno-pet/)"
+  },
+  {
+   "id": "tech-54",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "linker"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Antibody-drug conjugates carry potent chemotherapy into tumours but also cause lung, eye and nerve damage that depends on total exposure. [1] Trials comparing lower doses, longer intervals and payload caps could keep the benefit while cutting these harms. [1] Pivekimab sunirine is an antibody-drug conjugate against CD123, approved in 2026 for blastic plasmacytoid dendritic cell neoplasm as the second targeted drug for this rare cancer. [2] Manufactured antibodies are now a cornerstone of cancer treatment, either blocking a protein or delivering a payload to it. [3] Noboru Yamamoto leads early-phase drug development at the National Cancer Center Hospital, including first-in-human studies of trastuzumab deruxtecan, datopotamab deruxtecan, and other antibody-drug conjugates and targeted agents. [4] An antibody-drug conjugate put four in five relapsed ALL patients into remission versus fewer than one in three with chemotherapy. [5]\n\nSources\n[1] Dose and schedule optimisation trials specific to antibody-drug conjugates (https://onco.cc/ideas/idea-tr1-adc-dose-and-schedule-optimisation/)\n[2] Pivekimab sunirine (https://onco.cc/drugs/pivekimab-sunirine/)\n[3] Antibody (https://onco.cc/terms/antibody/)\n[4] Noboru Yamamoto (https://onco.cc/people/yamamoto-noboru/)\n[5] INO-VATE ALL (https://onco.cc/trials/ino-vate/)"
+  },
+  {
+   "id": "tech-55",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "permeable"
+   ],
+   "retrievedEntities": [
+    "bystander-effect"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "When a released payload leaks out of the targeted cell and kills its neighbours, including cells that lack the target. [1] CL2A is the deliberately fragile linker in Trodelvy: it releases SN-38 in the acidic tumour environment as well as inside cells, feeding the bystander effect. [2] The mc-Val-Cit-PABC linker is the workhorse of the vedotin ADCs: a valine-citrulline dipeptide cut by cathepsin B, releasing MMAE with a bystander effect. [3] Some harms appear only years later (heart damage from anthracyclines, second cancers after radiation, permanent hormone deficiencies after immunotherapy) and are called late effects, and survivorship care exists to watch for them. [4] DM4 is a maytansinoid payload released in a form that can cross membranes, giving mirvetuximab soravtansine a bystander effect that DM1 lacks. [5] Ocular toxicity (keratopathy, blurred vision) is the dose-limiting effect and is managed with steroid eye drops. [5]\n\nSources\n[1] Bystander effect (ADC) (https://onco.cc/terms/bystander-effect/)\n[2] CL2A (https://onco.cc/terms/cl2a/)\n[3] mc-Val-Cit-PABC (https://onco.cc/terms/mc-vc-pabc/)\n[4] Side effect versus adverse event (https://onco.cc/terms/side-effect-vs-adverse-event/)\n[5] DM4 (https://onco.cc/terms/dm4/)"
+  },
+  {
+   "id": "tech-56",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "more drug"
+   ],
+   "retrievedEntities": [
+    "dar"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "The drug-to-antibody ratio (DAR) is how many payload molecules ride on each antibody, typically 2 to 8. [1] Antibody-drug conjugates carry potent chemotherapy into tumours but also cause lung, eye and nerve damage that depends on total exposure. [2] A hazard ratio of 0.70 means that at any given moment patients on the new treatment had 30% less risk of the event (death, progression) than those on the comparison. [3] Glucuronide-triggered linkers (cleaved by beta-glucuronidase), PEGylated linkers and sulfatase- or phosphatase-triggered designs increase hydrophilicity so drug-to-antibody ratios of eight are stable, reduce liver clearance and can yield released species that are poorer efflux-pump substrates. [4] It moved T-DXd into the second line and is the clearest head-to-head demonstration that ADC design (payload, drug-to-antibody ratio, bystander effect) determines clinical outcome. [5] The benefit is large enough that ADC design, not just the target, is understood to be what matters. [5]\n\nSources\n[1] Drug-to-antibody ratio (DAR) (https://onco.cc/terms/dar/)\n[2] Dose and schedule optimisation trials specific to antibody-drug conjugates (https://onco.cc/ideas/idea-tr1-adc-dose-and-schedule-optimisation/)\n[3] Reading a hazard ratio (https://onco.cc/terms/hazard-ratio-basics/)\n[4] Hydrophilic next-generation linkers (TMALIN, Dolaflexin, sulfonyl-pyrimidine, PEG-containing) (https://onco.cc/terms/hydrophilic-next-gen/)\n[5] DESTINY-Breast03: trastuzumab deruxtecan beats T-DM1 as second-line treatment of HER2-positive metastatic breast cancer (https://onco.cc/key-papers/paper-destiny-breast03-nejm-2022/)"
+  },
+  {
+   "id": "tech-57",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "synthetic-lethality"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Two genes where losing either alone is fine but losing both kills the cell. [1] Cancers that have lost one become vulnerable to drugs against the other. [1] Finding a second gene that a cancer needs only because its first gene is broken, then hitting the second one. [2] For each cancer-causing mutation, find every gene the cancer cell newly depends on, in every tissue, so that even undruggable drivers get druggable partners. [3] PARP inhibitors in BRCA-mutant cancers proved synthetic lethality can be turned into medicine; DepMap has screened around two thousand cell lines but coverage of driver-context combinations, in vivo dependencies and combination interactions is incomplete. [3] Co-discovered the synthetic lethality between PARP inhibition and BRCA loss that underlies PARP inhibitor therapy. [4]\n\nSources\n[1] Synthetic lethality (https://onco.cc/terms/synthetic-lethality/)\n[2] Synthetic lethality approaches (https://onco.cc/technologies/synthetic-lethality-approaches/)\n[3] A synthetic lethality map for every cancer driver in every tissue context (https://onco.cc/ideas/idea-moon-synthetic-lethality-map-every-driver/)\n[4] Christopher Lord (https://onco.cc/people/chris-lord/)"
+  },
+  {
+   "id": "tech-58",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "e3",
+    "proteasome"
+   ],
+   "retrievedEntities": [
+    "vepdegestrant"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "Labels carry genotype-based dosing where exposure differs, replacing crude race-based statements. [1] Vepdegestrant is the first PROTAC ever approved (2026): a pill that tags the oestrogen receptor for destruction, for breast cancers with ESR1 mutations. [2] A drug that blocks a specific protein from doing its job, usually by lodging in the pocket the protein needs to work. [3] Most targeted cancer drugs are named after what they inhibit. [3] Shaomeng Wang is the medicinal chemist behind some of the first clinical MDM2 inhibitors and PROTAC degraders. [4] PROTAC pioneer whose vepdegestrant became the first approved targeted protein degrader in 2026. [5]\n\nSources\n[1] Ancestry-aware pharmacology: drug-level sub-studies across populations before approval (https://onco.cc/ideas/idea-tr1-ancestry-aware-pharmacology-programme/)\n[2] Vepdegestrant (https://onco.cc/drugs/vepdegestrant/)\n[3] Inhibitor (https://onco.cc/terms/inhibitor/)\n[4] Shaomeng Wang (https://onco.cc/people/shaomeng-wang/)\n[5] Arvinas (https://onco.cc/companies/arvinas/)"
+  },
+  {
+   "id": "tech-59",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "in-vivo-car-t"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "If a lipid nanoparticle can make CAR-T cells inside the body for lymphoma, it could be redosed weekly against solid-tumour targets that autologous CAR-T cannot sustain. [1] Weekly in vivo CAR mRNA-LNP against CLDN18.2 or GPC3 produces response rates comparable to ex vivo CAR-T with lower toxicity and no manufacturing delay. [1] Test whether that makes CAR-T affordable and available in ordinary hospitals. [2] In vivo CAR-T uses targeted lipid nanoparticles or engineered lentiviral vectors to deliver the CAR gene to T cells inside the patient (programmes from Interius, Umoja, Orna, Capstan and others entered the clinic in 2024-25). [2] From a cure for some leukaemias in 2017 to the first solid-tumour CAR-T and the prospect of making CAR-T inside the body with an injection. [3] In vivo CAR-T company using lentiviral vectors (VivoVec); first CD22-directed in vivo CAR-T cleared for US trials in 2026. [4]\n\nSources\n[1] In vivo CAR-T against solid-tumour antigens (https://onco.cc/ideas/idea-in-vivo-car-solid/)\n[2] In vivo CAR-T as a vial on the shelf: a cost and access trial in lymphoma (https://onco.cc/ideas/idea-reg-in-vivo-cart-off-the-shelf-vial/)\n[3] Cell therapy roadmap: CD19 CAR-T → solid tumours → in vivo CAR (https://onco.cc/roadmaps/cell-therapy-roadmap/)\n[4] Umoja Biopharma (https://onco.cc/companies/umoja-biopharma/)"
+  },
+  {
+   "id": "tech-60",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "internalis",
+    "heterogene"
+   ],
+   "retrievedEntities": [
+    "bispecific-adc"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "AK146D1 is Akeso's Nectin-4 × TROP2 bispecific ADC, combining the two most validated ADC addresses in one molecule. [1] A bispecific ADC is an ADC whose antibody grabs two different proteins on the cancer cell, so it sticks better to tumour and less to healthy tissue. [2] Izalontamab brengitecan (iza-bren, EGFR×HER3, SystImmune/BMS) is the first bispecific ADC with positive phase 3 results, meeting PFS and OS in previously treated TNBC (BL-B01D1-307, February 2026) and in oesophageal cancer, with first-line trials (IZABRIGHT-Breast01) ongoing. [2] A chemotherapy-free bispecific plus ADC doublet beat salvage chemotherapy in relapsed large B-cell lymphoma. [3] Chinese biotech whose ivonescimab beat Keytruda head-to-head, and developer of the Nectin-4×TROP2 ADC. [4] Ivonescimab (PD-1×VEGF), cadonilimab (PD-1×CTLA-4), AK146D1 bispecific ADC. [4]\n\nSources\n[1] AK146D1 (https://onco.cc/drugs/ak146d1/)\n[2] Bispecific ADC (https://onco.cc/technologies/bispecific-adc/)\n[3] SUNMO (https://onco.cc/trials/sunmo/)\n[4] Akeso (https://onco.cc/companies/akeso/)"
+  },
+  {
+   "id": "tech-61",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "flash-rt"
+   ],
+   "retrievalRecall": 1,
+   "answer": "Ultra-fast FLASH radiotherapy and proton beams may spare healthy tissue dramatically, but the machines cost tens of millions. [1] FLASH radiotherapy (dose delivered in under a second) reduces normal tissue toxicity in animal models with preserved tumour control and has entered early human trials; proton therapy spares normal tissue by physics but costs an order of magnitude more than photon systems. [1] Ultra-fast radiotherapy may spare healthy tissue while still killing tumours, but every centre is testing it differently. [2] FLASH radiotherapy (dose delivered in under a second at ultra-high dose rate) shows a normal-tissue sparing effect in animals; the first human trial (FAST-01, proton FLASH for bone metastases) showed feasibility. [2] SBRT and hypofractionation spread for a decade on retrospective data before randomised trials confirmed benefit; FLASH and adaptive radiotherapy are following the same path. [3] Varian is the largest radiotherapy equipment maker and is running the first human FLASH proton trials. [4]\n\nSources\n[1] Compact FLASH and proton systems at the price of a conventional linac (https://onco.cc/ideas/idea-moon-compact-flash-proton/)\n[2] A coordinated FLASH radiotherapy evidence programme with shared dose-rate standards (https://onco.cc/ideas/idea-fund-flash-evidence-programme/)\n[3] A regulatory pathway for new radiotherapy techniques modelled on drug development (https://onco.cc/ideas/idea-fund-radiotherapy-innovation-pathway/)\n[4] Varian (Siemens Healthineers) (https://onco.cc/companies/varian/)"
+  },
+  {
+   "id": "tech-62",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "prostate"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Brachytherapy is essential for curative cervical cancer treatment, yet many LMIC radiotherapy centres have none or have units whose iridium-192 sources cannot be replaced every three months for cost and logistics reasons. [1] Regional centres receiving a cobalt HDR unit and training will increase the proportion of locally advanced cervical cancer patients completing brachytherapy within the recommended overall treatment time from under 40% to above 80%. [1] Pragmatic trials of protocolised methadone or tramadol-based regimens delivered by nurses in settings with unreliable morphine would establish safe fallback options and could inform essential medicines lists. [2] Methadone is already used for cancer pain by specialists in high-income countries and is on the WHO essential medicines list; the question is safe delivery by non-specialists. [2] It was for two decades the country's only public cancer treatment facility and remains the national referral centre, providing radiotherapy (cobalt and now linear accelerators and brachytherapy), chemotherapy, palliative care and cervical cancer screening, and hosting the national cancer registry and training with the Muhimbili University of Health and Allied Sciences. [3] The Institut National d'Oncologie Sidi Mohamed Ben Abdellah in Rabat opened in 1985 as Morocco's national cancer institute within the Ibn Sina University Hospital Centre (CHU Ibn Sina) and the Université Mohammed V medical school, providing surgical, medical and radiation oncology, brachytherapy, nuclear medicine and paediatric oncology as the national referral centre. [4]\n\nSources\n[1] Low-cost cobalt-60 brachytherapy for cervical cancer in every regional centre (https://onco.cc/ideas/idea-acc-frugal-hdr-brachytherapy/)\n[2] Trials of low-cost opioid alternatives where morphine supply is unreliable (https://onco.cc/ideas/idea-acc-methadone-and-alternatives-where-morphine-fails/)\n[3] Ocean Road Cancer Institute (https://onco.cc/institutions/ocean-road-cancer-institute/)\n[4] Institut National d'Oncologie, Rabat (https://onco.cc/institutions/institut-national-oncologie-rabat/)"
+  },
+  {
+   "id": "tech-63",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "range"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Bill Gates-backed producer of actinium-225 from thorium-229, building a Philadelphia facility to raise supply 20-fold. [1] Thousands of old radium sources sit in hospital and industrial storage. [2] They are exactly the raw material needed to make actinium-225, the scarcest cancer isotope. [2] An alpha-particle version of Lutathera for neuroendocrine tumours that have stopped responding to the beta version. [3] Alpha-emitting PSMA drugs that produce responses even after Pluvicto fails, held back mainly by isotope supply. [4] The radiopharmaceutical roadmap runs eighty years from radioactive iodine for thyroid cancer to alpha-emitting drugs for prostate and neuroendocrine cancers, with isotope supply as the limiting factor. [5]\n\nSources\n[1] TerraPower Isotopes (https://onco.cc/companies/terrapower-isotopes/)\n[2] Recover legacy radium-226 sources worldwide as the feedstock for actinium-225 (https://onco.cc/ideas/idea-reg-legacy-radium-recovery-ac225/)\n[3] Actinium-225 DOTATATE (https://onco.cc/drugs/ryz101/)\n[4] Actinium-225 PSMA agents (https://onco.cc/drugs/ac225-psma/)\n[5] Radiopharmaceutical roadmap: iodine → lutetium → actinium (https://onco.cc/roadmaps/radiopharma-roadmap/)"
+  },
+  {
+   "id": "tech-64",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "terrapower-isotopes"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "Bill Gates-backed producer of actinium-225 from thorium-229, building a Philadelphia facility to raise supply 20-fold. [1] They are exactly the raw material needed to make actinium-225, the scarcest cancer isotope. [2] Actinium-225 supply from thorium-229 generators (the legacy US and Russian stockpiles) is limited to tens of curies a year, far short of projected demand for alpha radioligand therapy. [2] Actinium-225 dominates targeted alpha therapy pipelines, but lead-212 (from thorium-228/radium-224 generators, used by Orano Med and Perspective Therapeutics), astatine-211 (cyclotron-produced, short half-life, suited to regional supply) and terbium-149 have complementary properties and independent supply routes. [3] Within five years at least two alpha emitters other than actinium-225 reach late-stage trials with GMP supply exceeding clinical demand, and the proportion of alpha therapy trials delayed by isotope supply falls below 10%. [3] Actinium-225 can be made in particle accelerators, but the product contains a trace of a long-lived impurity that regulators have not agreed how to handle. [4]\n\nSources\n[1] TerraPower Isotopes (https://onco.cc/companies/terrapower-isotopes/)\n[2] Recover legacy radium-226 sources worldwide as the feedstock for actinium-225 (https://onco.cc/ideas/idea-reg-legacy-radium-recovery-ac225/)\n[3] Fund alpha emitters beyond actinium-225: lead-212, terbium-149 and astatine-211 (https://onco.cc/ideas/idea-reg-alpha-emitter-portfolio/)\n[4] Regional cyclotron hubs for actinium-225 with an agreed actinium-227 impurity limit (https://onco.cc/ideas/idea-reg-ac225-accelerator-pharmacopoeia/)"
+  },
+  {
+   "id": "tech-65",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "ttfields"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "Wearable electrodes that deliver alternating electric fields disrupting cancer cell division. [1] Optune approved in glioblastoma (EF-14), mesothelioma, and NSCLC after platinum (LUNAR, 2024). [1] A national pathway modelled on the Dutch DRUP and UK-style access schemes would combine a molecular tumour board decision, company-supplied drug, mandatory outcome registration and payer participation, so that every off-label use generates evidence. [2] Novocure makes Optune tumour treating fields, approved in glioblastoma, lung, mesothelioma, and (2026) pancreatic cancer. [3] Whole regions of tissue carry cancer mutations long before a tumour exists. [4] Detecting and treating the field, not the tumour, could prevent cancers rather than cure them. [4]\n\nSources\n[1] Tumour treating fields (TTFields) (https://onco.cc/technologies/ttfields/)\n[2] A fast route to the matched drug when it is licensed for another cancer (https://onco.cc/ideas/idea-bio1-mechanism-matched-access/)\n[3] Novocure (https://onco.cc/companies/novocure/)\n[4] Intercept cancer at the field stage (https://onco.cc/ideas/idea-field-interception/)"
+  },
+  {
+   "id": "tech-66",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "virchow",
+    "artera"
+   ],
+   "retrievedEntities": [
+    "pathology-foundation-model"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Very large AI models trained on millions of slides or scans that can be adapted to almost any diagnostic question. [1] PathAI's compact pathology foundation model designed to run across many tasks and resolutions. [2] Hibou is a family of open pathology foundation models under a permissive licence. [3] For many rare cancers there is not a single laboratory model in the world, so no one can test drugs. [4] A shared bank with free distribution would change that. [4] A pathology model trained across 19 cancer types that predicts survival and mutations from slides. [5]\n\nSources\n[1] Pathology & radiology foundation models (https://onco.cc/technologies/pathology-foundation-model/)\n[2] PLUTO (PathAI) (https://onco.cc/technologies/pluto/)\n[3] Hibou (HistAI) (https://onco.cc/technologies/hibou/)\n[4] An open organoid bank for cancers too rare to have models (https://onco.cc/ideas/idea-bio1-rare-cancer-organoid-bank/)\n[5] CHIEF (Harvard, Yu Lab) (https://onco.cc/technologies/chief/)"
+  },
+  {
+   "id": "path-67",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.8,
+   "met": 4,
+   "total": 5,
+   "missed": [
+    "pten"
+   ],
+   "retrievedEntities": [
+    "pi3k-akt-mtor",
+    "gedatolisib"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "The cell's 'grow and survive' circuit. [1] Growth signals from the surface switch on PI3K, which switches on AKT, which switches on mTOR, which builds proteins and blocks self-destruction. [1] Blocking the PI3K growth pathway alongside hormone therapy works only when the tumour carries a mutation in that pathway, and works best early. [2] A chain of proteins that passes a message from the cell surface to the nucleus, each one switching on the next like a relay race. [3] An intravenous drug that blocks the whole PI3K/mTOR pathway, approved in July 2026 for hormone-positive breast cancer. [4] The next step is a proper pathway and a name that does not say cancer. [5]\n\nSources\n[1] PI3K / AKT / mTOR (https://onco.cc/pathways/pi3k-akt-mtor/)\n[2] PI3K/AKT-pathway inhibitor + endocrine therapy (± CDK4/6) (https://onco.cc/pairings/pi3k-pathway-plus-endocrine/)\n[3] Signalling pathway (https://onco.cc/terms/signalling-pathway/)\n[4] Gedatolisib (https://onco.cc/drugs/gedatolisib/)\n[5] After the COMET trial: surveillance pathways and a new name for low-risk DCIS (https://onco.cc/ideas/idea-prev-low-risk-dcis-surveillance-pathway/)"
+  },
+  {
+   "id": "path-68",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "skin cancer"
+   ],
+   "retrievedEntities": [
+    "braf-plus-mek",
+    "braf"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "Blocking two consecutive steps in the same relay prevents the pathway from rerouting and reduces side effects. [1] BRAF inhibitor monotherapy causes paradoxical MEK/ERK reactivation via CRAF dimers; adding MEK inhibition blocks the escape. [1] In BRAF-mutant melanoma, start with immunotherapy and keep the targeted pills in reserve; the reverse order costs lives. [2] Shrink a BRAF-mutant anaplastic thyroid tumour with pills first, then remove what is left; some patients now survive years instead of months. [3] BRAF is a signalling kinase mutated in half of melanomas; blocking it with two drugs at once became a template for targeted therapy. [4] Binimetinib is the MEK inhibitor partnered with encorafenib; blocking the next step in the same relay stops the tumour rerouting around the BRAF block. [5]\n\nSources\n[1] BRAF inhibitor + MEK inhibitor (https://onco.cc/pairings/braf-plus-mek/)\n[2] Immunotherapy first, then BRAF/MEK (BRAF-mutant melanoma) (https://onco.cc/pairings/io-first-then-braf-mek/)\n[3] BRAF/MEK inhibition → surgery in anaplastic thyroid cancer (https://onco.cc/pairings/braf-mek-neoadjuvant-atc/)\n[4] BRAF (https://onco.cc/targets/braf/)\n[5] Binimetinib (https://onco.cc/drugs/binimetinib/)"
+  },
+  {
+   "id": "path-69",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "cgas-sting"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "cGAS-STING is the cell's alarm for DNA in the wrong place. [1] Radiation, chemotherapy, and ADCs spill DNA into the cytoplasm; cGAS detects it, STING sounds the alarm, and interferon calls in the immune system. [1] Single fractions above roughly 12-18 Gy induce the DNA exonuclease TREX1, which degrades cytoplasmic DNA and prevents cGAS-STING activation, whereas fractionated schedules around 8 Gy times three maximise interferon signalling in mouse models. [2] North Texas's NCI comprehensive centre, where the HIF-2 inhibitor belzutifan, stereotactic body radiotherapy and the cGAS-STING pathway were born. [3] Robert Timmerman pioneered stereotactic body radiotherapy for lung and other tumours, and Zhijian 'James' Chen discovered the cGAS-STING innate immune sensing pathway that STING agonists exploit. [3] Radiation induces immunogenic cell death, cGAS-STING signalling, MHC upregulation, and antigen release; PD-L1 rises after radiation, which checkpoint blockade counters. [4]\n\nSources\n[1] cGAS–STING innate sensing (https://onco.cc/pathways/cgas-sting/)\n[2] Pick the radiation dose that switches the immune alarm on, not off (https://onco.cc/ideas/idea-bio2-radiotherapy-sting-fractionation/)\n[3] Harold C. Simmons Comprehensive Cancer Center, UT Southwestern (https://onco.cc/institutions/utsw-simmons/)\n[4] Radiotherapy + immunotherapy (https://onco.cc/pairings/radiation-plus-io/)"
+  },
+  {
+   "id": "path-70",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "oncogene-addiction"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "Normal cells carry these genes as proto-oncogenes, which drive growth only when the cell receives the right signals; a mutation, amplification or fusion can lock them permanently on. [1] Because a single activated oncogene can dominate a tumour's behaviour, blocking it can produce dramatic responses, the basis of oncogene addiction and of the whole targeted-therapy paradigm. [1] When a cancer depends so completely on one mutated gene that blocking it collapses the tumour. [2] Drivers cluster in a few hundred genes: oncogenes activated by mutation or amplification (EGFR, KRAS, BRAF, HER2, ALK) and tumour suppressors lost by mutation or deletion (TP53, RB1, PTEN). [3] Genomic profiling looks for known drivers because a tumour that depends on one can often be treated with a drug against it, the phenomenon called oncogene addiction. [3] When a tumour is truly dependent on the target (oncogene addiction) responses can be dramatic and side effects milder than chemotherapy, though the effects are rarely permanent because resistance evolves, and each new generation of drug is built to overcome the last generation's escape mutations. 'Precision oncology' is the broader programme of matching every patient to the right drug by testing; only a minority of tumours have an actionable target today. [4]\n\nSources\n[1] Oncogene (https://onco.cc/terms/oncogene/)\n[2] Oncogene addiction (https://onco.cc/terms/oncogene-addiction/)\n[3] Driver mutation (https://onco.cc/terms/driver-mutation/)\n[4] Targeted therapy (https://onco.cc/terms/targeted-therapy-term/)"
+  },
+  {
+   "id": "who-71",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "memorial sloan kettering",
+    "md anderson",
+    "2026"
+   ],
+   "retrievedEntities": [
+    "newsweek-hospitals"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "How long people wait between first noticing something wrong and being diagnosed is barely measured. [1] Recording it routinely and publishing it by hospital would expose where the system loses time. [1] The Newsweek/Statista ranking is the most-cited global hospital ranking for cancer care. [2] The world's first carbon-ion therapy hospital (HIMAC, 1994), which established the clinical evidence base for heavy-ion radiotherapy. [3] West China Hospital is one of the largest hospitals in the world and a top-4 Nature Index healthcare institution, strong in oncology and biotherapy. [4] Brazil's second top-ranked oncology hospital with strong radiotherapy and research programmes. [5]\n\nSources\n[1] Record and publish the symptom-to-diagnosis interval for every cancer, by hospital (https://onco.cc/ideas/idea-acc-diagnostic-interval-public-registry/)\n[2] Newsweek/Statista World's Best Specialized Hospitals – Oncology (https://onco.cc/collections/newsweek-hospitals/)\n[3] QST Hospital (National Institutes for Quantum Science and Technology) (https://onco.cc/institutions/qst-hospital/)\n[4] West China Hospital, Sichuan University (https://onco.cc/institutions/west-china/)\n[5] Hospital Sírio-Libanês (https://onco.cc/institutions/sirio-libanes/)"
+  },
+  {
+   "id": "who-72",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "74",
+    "clinical",
+    "basic"
+   ],
+   "retrievedEntities": [
+    "nci-cancer-centers"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "NCI-designated cancer centres are the US government's list of the cancer centres that meet its research and care standards. [1] Host of the San Antonio Breast Cancer Symposium and heir to the CTRC phase 1 institute that first tested many of oncology's drugs; NCI-designated since 1991. [2] Mays Cancer Center descends from the Cancer Therapy & Research Center, NCI-designated since 1991, whose Institute for Drug Development under Daniel Von Hoff conducted early trials of gemcitabine, nab-paclitaxel and many other agents. [2] Florida's newest NCI-designated centre (2023), with a pioneering proton institute in Jacksonville and personalised mRNA vaccine work in brain tumours. [3] Thomas Jefferson University's NCI-designated cancer centre, known for prostate cancer biology and GUCY2C-targeted colorectal cancer immunotherapy. [4] South Florida's NCI-designated cancer centre, serving a largely Hispanic catchment, with strengths in myeloma, myeloid malignancies and proton therapy. [5]\n\nSources\n[1] NCI-Designated Cancer Centers (https://onco.cc/collections/nci-cancer-centers/)\n[2] Mays Cancer Center at UT Health San Antonio (https://onco.cc/institutions/mays-cancer-center/)\n[3] University of Florida Health Cancer Center (https://onco.cc/institutions/uf-health-cancer-center/)\n[4] Sidney Kimmel Comprehensive Cancer Center at Jefferson Health (https://onco.cc/institutions/jefferson-kimmel/)\n[5] Sylvester Comprehensive Cancer Center, University of Miami (https://onco.cc/institutions/sylvester-miami/)"
+  },
+  {
+   "id": "who-73",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "heidelberg",
+    "dkfz"
+   ],
+   "retrievedEntities": [
+    "fapi-pet"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "When a blood test says 'cancer signal, origin unclear', a FAPI PET scan may find it where FDG cannot. [1] FAPI PET has higher sensitivity than FDG in pancreatic, gastric, low-grade, and peritoneal disease, exactly the cancers MCED promises to catch. [1] FAPI PET is a PET scan that lights up the scaffolding around almost any solid tumour, including cancers the standard sugar scan misses. [2] Nuclear medicine physician whose group invented FAPI PET tracers and pioneered PSMA and FAP radioligand therapy. [3] Frederik Giesel co-developed FAPI PET imaging and now leads nuclear medicine in Düsseldorf. [4] A PET tracer that measures how much of the DNA repair enzyme PARP a tumour has, to predict response to PARP inhibitors. [5]\n\nSources\n[1] FAPI PET as the workup for MCED positives (https://onco.cc/ideas/idea-mced-plus-fapi/)\n[2] FAPI PET (https://onco.cc/technologies/fapi-pet/)\n[3] Uwe Haberkorn (https://onco.cc/people/uwe-haberkorn/)\n[4] Frederik Giesel (https://onco.cc/people/frederik-giesel/)\n[5] PARP PET (https://onco.cc/technologies/parp-pet/)"
+  },
+  {
+   "id": "who-74",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "2020"
+   ],
+   "retrievedEntities": [
+    "gilead"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "Gilead owns Trodelvy (via the $21B Immunomedics deal) and the Kite CAR-T franchise. [1] Half of cancer patients need radiotherapy and most of the world cannot get it. [2] Governments could pay a company a large one-off sum for the rights to a highly effective cancer drug, then let anyone make it cheaply for everyone. [3] McKesson runs the largest US community oncology network (about 3,000 providers) and distributes drugs, and co-owns the Sarah Cannon Research Institute. [4] Oracle owns the Cerner EHR (PowerChart Oncology) and the Oracle Clinical One trial platform. [5]\n\nSources\n[1] Gilead Sciences (incl. Kite) (https://onco.cc/companies/gilead/)\n[2] Radiotherapy for everyone who needs it by 2040 (https://onco.cc/ideas/idea-moon-radiotherapy-for-everyone-2040/)\n[3] Buy out the patent on a curative cancer drug and sell it at generic prices (https://onco.cc/ideas/idea-reg-patent-buyout-prize/)\n[4] McKesson / The US Oncology Network (https://onco.cc/companies/mckesson-us-oncology/)\n[5] Oracle Health (Cerner) & Oracle Life Sciences (https://onco.cc/companies/oracle-health-sciences/)"
+  },
+  {
+   "id": "who-75",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "sacituzumab-tirumotecan",
+    "kelun-biotech"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "Sacituzumab tirumotecan is a third TROP2 ADC from China, licensed to Merck for a very large global programme. [1] Merck holds ex-Greater-China rights and runs the TroFuse programme of >10 phase 3 trials, including first-line TNBC (positive on primary endpoint per 2026 reports), HR+ breast, NSCLC, endometrial, and cervical cancer, many combined with pembrolizumab. [1] Sacituzumab tirumotecan (first TROP2 ADC approved in China), MK-3120 Nectin-4 ADC, and a broad ADC platform partnered with Merck (up to $9.3B). [2] Extensive ADC and GLP-1 pipelines with multiple ex-China licensing deals since 2023. [3] Multiple ex-China licences to Western partners (Merck, GSK, Kailera). [4] Thousands of promising cancer compounds sit unused in university freezers and company archives. [5]\n\nSources\n[1] Sacituzumab tirumotecan (https://onco.cc/drugs/sacituzumab-tirumotecan/)\n[2] Sichuan Kelun-Biotech (https://onco.cc/companies/kelun-biotech/)\n[3] Jiangsu Hengrui Pharmaceuticals (https://onco.cc/companies/jiangsu-hengrui/)\n[4] Jiangsu Hengrui Pharmaceuticals (https://onco.cc/companies/hengrui/)\n[5] A public registry of stalled academic assets and shelved company compounds (https://onco.cc/ideas/idea-fund-stalled-asset-registry/)"
+  },
+  {
+   "id": "who-76",
+   "category": "procedural",
+   "difficulty": 1,
+   "score": 0,
+   "met": 0,
+   "total": 4,
+   "missed": [
+    "oncokb",
+    "civic",
+    "cbioportal",
+    "evidence"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Most cancer antigens are ordinary human proteins that a tumour makes in unusual amounts (HER2, TROP2, CD19, PSMA), so drugs targeting them also touch normal cells that carry a little; truly tumour-specific antigens arise from mutations (neoantigens) or from viral proteins. [1] A vaccine against a glioblastoma-specific mutant protein that looked promising for years and then failed its phase 3 trial in 2016. [2] When you look up a paper, you should immediately see whether anyone has tried to repeat it and whether they succeeded. [3] A tumour-agnostic approval lets a drug be used for any cancer carrying a specific molecular feature, regardless of where it started. [4] Hospitals hold weekly meetings to decide each patient's plan but rarely check what happened afterwards. [5] A trastuzumab look-alike with an engineered tail that binds immune cells more tightly; approved in 2020 but rarely used after ADCs arrived. [6]\n\nSources\n[1] Antigen (https://onco.cc/terms/antigen/)\n[2] Rindopepimut (https://onco.cc/drugs/rindopepimut/)\n[3] A replication status badge on every cancer paper, visible in PubMed (https://onco.cc/ideas/idea-tr2-replication-status-badge/)\n[4] Tumour-agnostic (tissue-agnostic) approval (https://onco.cc/terms/tumour-agnostic/)\n[5] Audit whether tumour board recommendations were actually carried out (https://onco.cc/ideas/idea-acc-tumour-board-implementation-audit/)\n[6] Margetuximab (https://onco.cc/drugs/margetuximab/)"
+  },
+  {
+   "id": "who-77",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "cell lines"
+   ],
+   "retrievedEntities": [
+    "depmap",
+    "broad-institute"
+   ],
+   "retrievalRecall": 0.6666666666666666,
+   "answer": "Francisca Vazquez leads DepMap, the public map of which genes each cancer cell line cannot live without. [1] The map of synthetic-lethal targets. [2] The Broad Institute is the genomics powerhouse behind DepMap, cBioPortal co-development, and the Cancer Cell Line Encyclopedia. [3] DepMap (cancer dependency map), CCLE, PRISM drug screening, Cancer Program (Getz, Meyerson), CRISPR technology (Zhang). [3]\n\nSources\n[1] Francisca Vazquez (https://onco.cc/people/francisca-vazquez/)\n[2] DepMap (Cancer Dependency Map) (https://onco.cc/collections/depmap/)\n[3] Broad Institute of MIT and Harvard (https://onco.cc/institutions/broad-institute/)"
+  },
+  {
+   "id": "who-78",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "hodgkin-lymphoma"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Led the SWOG S1826 trial that made nivolumab part of first-line Hodgkin lymphoma treatment. [1] Hematologist-oncologist and study chair of SWOG S1826 (nivolumab-AVD versus brentuximab-AVD), which led to the 2026 approval of nivolumab in untreated advanced Hodgkin lymphoma. [1] Hodgkin lymphoma is one of the most curable cancers, where the goal is now to cure with less toxicity, using brentuximab and, from 2026, first-line nivolumab. [2] Swapping bleomycin for the CD30 ADC in first-line chemotherapy improved survival in advanced Hodgkin lymphoma, the first frontline survival gain in decades. [3] Established PD-1 blockade in relapsed Hodgkin lymphoma with ~70% response rates and seeded the frontline nivolumab-AVD idea. [4] The Cologne-based group whose HD trials, from BEACOPP to BrECADD in HD21, have set the standard for treating Hodgkin lymphoma for four decades. [5]\n\nSources\n[1] Alex F. Herrera (https://onco.cc/people/alex-herrera/)\n[2] Hodgkin lymphoma (https://onco.cc/cancers/hodgkin-lymphoma/)\n[3] ECHELON-1 (https://onco.cc/trials/echelon-1/)\n[4] CheckMate 205 (https://onco.cc/trials/checkmate-205/)\n[5] German Hodgkin Study Group (https://onco.cc/institutions/ghsg/)"
+  },
+  {
+   "id": "proc-79",
+   "category": "procedural",
+   "difficulty": 1,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "clinicaltrials.gov",
+    "oncologist",
+    "recruiting"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "A research study that tests a treatment in volunteers under strict rules, to find out whether it is safe and whether it works. [1] Testing their stored tumour samples and contacting their relatives would find carriers before they get cancer. [2] Uses organoids and functional genomics to find what pancreatic cancers depend on beyond KRAS. [3] When someone tests positive for a BRCA or Lynch mutation, relatives are told only if the patient passes the message on. [4] Letting clinics contact relatives directly, with consent, could double testing. [4] A four-drug chemotherapy combination built on liposomal irinotecan extended survival in metastatic pancreatic cancer by about two months compared with the most widely used doublet, the first positive first-line trial in a decade. [5]\n\nSources\n[1] Clinical trial (https://onco.cc/terms/clinical-trial/)\n[2] Go back to families of women who died of ovarian cancer and offer BRCA testing (https://onco.cc/ideas/idea-prev-traceback-deceased-probands/)\n[3] Andrew J. Aguirre (https://onco.cc/people/andrew-aguirre/)\n[4] Let clinics contact relatives directly when a cancer gene is found (https://onco.cc/ideas/idea-prev-cascade-direct-contact-relatives/)\n[5] NAPOLI-3: NALIRIFOX versus gemcitabine plus nab-paclitaxel as first treatment for metastatic pancreatic cancer (https://onco.cc/key-papers/paper-napoli-3-lancet-2023/)"
+  },
+  {
+   "id": "proc-80",
+   "category": "procedural",
+   "difficulty": 2,
+   "score": 0.6,
+   "met": 3,
+   "total": 5,
+   "missed": [
+    "nausea",
+    "schedule"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Almost every newly diagnosed patient searches for what to eat and finds sugar-starvation, alkaline and juice-cure claims. [1] Hengrui's HER2 ADC, approved in China for lung cancer and showing Enhertu-scale results in breast cancer, part of a wave of Chinese ADCs heading for global trials. [2] A HER3-directed ADC with Enhertu's payload, active in lung and all subtypes of breast cancer, but with a bumpy regulatory road. [3] They are weak as free drugs in many cancers, but devastating when delivered by an ADC. [4] When Enhertu stops working, the next ADC should probably carry a different kind of payload, such as the tubulin inhibitors in Kadcyla or ARX788, rather than another topoisomerase drug. [5] Before a big trial starts, ask hundreds of patients how much extra survival they would trade for a given side-effect, so the trial is designed to test something patients would actually want. [6]\n\nSources\n[1] Ask about diet at diagnosis, and prebunk the myths before the internet does (https://onco.cc/ideas/idea-nl-ask-about-diet-prebunking/)\n[2] Trastuzumab rezetecan (https://onco.cc/drugs/trastuzumab-rezetecan/)\n[3] Patritumab deruxtecan (https://onco.cc/drugs/patritumab-deruxtecan/)\n[4] Topoisomerase-I inhibitors (and ADC payloads) (https://onco.cc/technologies/topoisomerase-inhibitors/)\n[5] Sequencing HER2 ADCs by payload after T-DXd (https://onco.cc/ideas/idea-her2-adc-sequencing-payload/)\n[6] Quantitative patient preference studies set the benefit-risk bar before phase 3 (https://onco.cc/ideas/idea-moon-preference-studies-before-phase3/)"
+  },
+  {
+   "id": "proc-81",
+   "category": "procedural",
+   "difficulty": 2,
+   "score": 0.8,
+   "met": 4,
+   "total": 5,
+   "missed": [
+    "parp"
+   ],
+   "retrievedEntities": [
+    "germline-testing"
+   ],
+   "retrievalRecall": 0.16666666666666666,
+   "answer": "There are too few genetic counsellors to see every patient who should have an inherited-risk test. [1] Mainstreaming, in which oncologists and nurses consent and order germline testing with genetic counselling reserved for positive or complex results, has been shown in ovarian and breast cancer to increase testing rates and shorten time to result without harm. [1] Anyone with ovarian, pancreatic, metastatic prostate or mismatch-repair-deficient cancer should be tested for inherited mutations, but many are not. [2] A test of the DNA you were born with, to find inherited risk genes such as BRCA or Lynch syndrome. [3] A validated chatbot can do the standard pre-test education, leaving people with complex needs for humans. [4] Offer testing to all adults so carriers can be protected before that happens. [5]\n\nSources\n[1] Oncology teams order germline tests; tele-genetic counsellors handle the results (https://onco.cc/ideas/idea-acc-mainstream-tele-genetic-counselling/)\n[2] Automatic germline testing for every cancer type where it changes care (https://onco.cc/ideas/idea-prev-reflex-germline-testing/)\n[3] Germline (hereditary) testing (https://onco.cc/technologies/germline-testing/)\n[4] A chatbot for pre-test genetic counselling so counsellors see only who needs them (https://onco.cc/ideas/idea-prev-genetic-counselling-chatbot/)\n[5] Population germline screening for hereditary cancer genes with cascade testing (https://onco.cc/ideas/idea-moon-population-germline-screening/)"
+  },
+  {
+   "id": "proc-82",
+   "category": "procedural",
+   "difficulty": 1,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "refer",
+    "nci",
+    "cancer commons"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Rare cancers are often misdiagnosed, which sends patients down the wrong treatment path. [1] Digital slide sharing could get every case to an expert within days. [1] Anyone diagnosed with a rare or complex cancer gets an automatic remote review by a specialist centre, paid for by the health system, before treatment starts. [2] Second opinions change diagnosis or management in a substantial minority of rare cancer cases (sarcoma, lymphoma subtyping, neuroendocrine tumours) and pathology discordance for rare tumours is well documented. [2] Any oncologist could send a difficult case, with the records, to a specialist centre and get a written expert opinion back within three days, free to the patient. [3] MORE Health is a cross-border telemedicine company delivering expert second opinions from leading specialists for serious illness including cancer. [4]\n\nSources\n[1] A same-week expert second opinion for every rare cancer diagnosis (https://onco.cc/ideas/idea-bio2-rare-cancer-telepathology-network/)\n[2] A funded expert second opinion for every new high-stakes or rare cancer diagnosis (https://onco.cc/ideas/idea-moon-funded-second-opinion/)\n[3] A digital second-opinion network answering community oncologists within 72 hours (https://onco.cc/ideas/idea-data-72-hour-second-opinion-network/)\n[4] MORE Health (https://onco.cc/companies/more-health/)"
+  },
+  {
+   "id": "proc-83",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "exercise-oncology"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "Offer the complementary approaches that have evidence (acupuncture for nausea and pain, exercise, mindfulness, yoga) inside the cancer centre, so patients do not seek them, and worse, elsewhere. [1] ASCO and the Society for Integrative Oncology have issued joint guidelines identifying interventions with supporting evidence for pain, anxiety, fatigue and nausea. [1] Using complementary approaches with real evidence, such as acupuncture for nausea and pain, yoga and mindfulness for anxiety and fatigue, alongside standard treatment, while steering patients away from unproven 'alternative' therapies that can shorten life. [2] Integrative oncology combines conventional treatment with mind-body practices, acupuncture, massage, music therapy, exercise and nutrition guidance. [2] Structured exercise during and after treatment, which the CHALLENGE trial showed improves survival in colon cancer. [3] The FDA Real-World Evidence Framework (2018, under the 21st Century Cures Act) and Oncology Center of Excellence Project Confirm track and publish the status of accelerated approvals and confirmatory trials. [4]\n\nSources\n[1] Evidence-based integrative oncology in every cancer centre to meet demand safely (https://onco.cc/ideas/idea-moon-integrative-oncology-bridge/)\n[2] Evidence-based integrative oncology (https://onco.cc/technologies/integrative-oncology/)\n[3] Exercise & lifestyle oncology (https://onco.cc/technologies/exercise-oncology/)\n[4] Weak real-world evidence and registries (https://onco.cc/bottlenecks/b-real-world-evidence/)"
+  },
+  {
+   "id": "proc-84",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "taxane",
+    "anthracycline"
+   ],
+   "retrievedEntities": [
+    "scalp-cooling"
+   ],
+   "retrievalRecall": 1,
+   "answer": "A cold cap worn during chemotherapy that reduces hair loss by narrowing blood vessels in the scalp. [1] Losing hair is one of the most distressing side-effects of chemotherapy and can often be prevented with a cooling cap. [2] Payer covers scalp cooling in one region; measure uptake, hair preservation rates and refusal of recommended chemotherapy versus a matched region. [2] Because cancer cells divide fast they are hit hardest, but so are hair, gut lining and bone marrow, which is where the side effects come from. [3] Given in cycles to let normal tissue recover, chemotherapy cures some cancers outright (testicular cancer, many lymphomas and childhood leukaemias), prevents recurrence after surgery, and controls advanced disease; it remains the backbone that newer drugs are added to. [3] Vismodegib was the first hedgehog-pathway drug, for basal cell carcinomas too advanced for surgery; it shrinks most tumours but muscle cramps, taste loss and hair loss make long-term use hard. [4]\n\nSources\n[1] Scalp cooling (https://onco.cc/technologies/scalp-cooling/)\n[2] Fund scalp cooling and hair-preserving measures for every alopecia-inducing regimen (https://onco.cc/ideas/idea-moon-hair-preservation-for-all/)\n[3] Chemotherapy (https://onco.cc/terms/chemotherapy-term/)\n[4] Vismodegib (https://onco.cc/drugs/vismodegib/)"
+  },
+  {
+   "id": "proc-85",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "approval"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "The three stages a new drug passes through: phase 1 finds a safe dose in a few dozen patients, phase 2 looks for signs of activity in a hundred or so, and phase 3 compares it with the standard treatment in hundreds or thousands. [1] A hazard ratio is a number comparing the rate of bad events in two groups. [2] An HR of 0.5 means the risk is halved at any moment. [2] In vitro means 'in glass': experiments on cells or molecules in a dish. [3] In vivo means 'in the living': experiments in animals or people. [3] Trials comparing the two, plus rounding doses to standard vial sizes, could keep effectiveness while cutting cost and waste. [4]\n\nSources\n[1] Phase 1, 2 and 3 trials (https://onco.cc/terms/trial-phases/)\n[2] Hazard ratio (HR) (https://onco.cc/terms/hazard-ratio/)\n[3] In vitro and in vivo (https://onco.cc/terms/in-vitro-in-vivo/)\n[4] Test flat versus weight-based dosing of antibodies, and use dose banding to cut waste (https://onco.cc/ideas/idea-tr1-weight-based-vs-flat-dosing-trials/)"
+  },
+  {
+   "id": "proc-86",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "atezolizumab"
+   ],
+   "retrievedEntities": [
+    "accelerated-approval"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "Making a randomised contribution assessment (or a factorial design) a firm condition of accelerated approval for combinations would redirect development effort towards combinations with evidence of synergy. [1] Accelerated approvals rest on surrogate endpoints; confirmatory trials take a median of several years and some are never completed. [2] The proposal makes registry enrolment with automatic outcome capture (via mCODE and registry linkage) a condition of prescribing under accelerated approval, giving regulators an interim real-world signal on survival and toxicity while the confirmatory trial runs. [2] FDA approval based on early evidence (like tumour shrinkage) on condition that a confirmatory trial follows. [3] A PDGFRα antibody that had won accelerated approval on a small trial failed to improve survival in the confirmatory study and was withdrawn. [4] A frequently cited lesson on phase 2 signals and accelerated approval. [4]\n\nSources\n[1] No accelerated approval for a combination without proof each part contributes (https://onco.cc/ideas/idea-tr2-contribution-of-components-mandate/)\n[2] Every patient on an accelerated-approval drug enrolled in a registry until confirmation (https://onco.cc/ideas/idea-data-accelerated-approval-registry-condition/)\n[3] Accelerated approval (https://onco.cc/terms/accelerated-approval/)\n[4] ANNOUNCE (https://onco.cc/trials/announce/)"
+  },
+  {
+   "id": "pipe-87",
+   "category": "factual",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "brentuximab"
+   ],
+   "retrievedEntities": [
+    "adc-generations"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "Twenty-five years of trying to make chemotherapy hit only cancer cells, from the unstable first ADC to today's third-generation blockbusters and the fourth generation now in trials. [1] ADC Therapeutics developed Zynlonta and the PBD-payload ADC platform. [2] AstraZeneca's EGFR×c-MET bispecific ADC, the most advanced in the most crowded next-generation ADC target pair. [3] A dual-payload ADC is an ADC carrying two different poisons at once, so the tumour cannot escape by becoming resistant to one. [4] The UK body that decides which cancer treatments the NHS pays for, publishing detailed appraisals of cost per quality-adjusted life year for each drug, plus clinical guidelines. [5] NICE technology appraisals (since 1999) assess clinical and cost-effectiveness against a threshold of about £20,000-30,000 per QALY (with end-of-life and severity modifiers), and can recommend, restrict, or route drugs to the Cancer Drugs Fund for data collection. [5]\n\nSources\n[1] ADC roadmap: from Mylotarg to bispecific and dual-payload ADCs (https://onco.cc/roadmaps/adc-generations/)\n[2] ADC Therapeutics (https://onco.cc/companies/adc-therapeutics/)\n[3] Tilatamig samrotecan (https://onco.cc/drugs/tilatamig-samrotecan/)\n[4] Dual-payload ADC (https://onco.cc/technologies/dual-payload-adc/)\n[5] NICE cancer guidance and technology appraisals (UK) (https://onco.cc/collections/nice-guidance/)"
+  },
+  {
+   "id": "pipe-88",
+   "category": "factual",
+   "difficulty": 3,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "trop2-adc-roadmap"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "One target, three approved-or-nearly-approved drugs, and a fourth wave. [1] How TROP2 went from an obscure trophoblast antigen to the centre of breast and lung cancer treatment. [1] Grow the patient's tumour in a dish and test which ADC payload kills it before choosing among three TROP2 ADCs. [2] DNA cleaver payloads are natural products that cut both strands of DNA. [3] They are used in the two oldest approved ADCs, both for leukaemias. [3] Proposed: a TROP2 PET scan to choose between three TROP2 ADCs and predict who will respond, since tissue staining has not worked. [4]\n\nSources\n[1] TROP2 ADC roadmap: sacituzumab govitecan → Dato-DXd → sac-TMT → bispecifics and PET (https://onco.cc/roadmaps/trop2-adc-roadmap/)\n[2] Patient-derived organoids to pick ADC payloads (https://onco.cc/ideas/idea-organoid-guided-adc/)\n[3] DNA cleaver payloads (enediynes) (https://onco.cc/terms/dna-cleaver-payloads/)\n[4] TROP2 PET → TROP2 ADC selection (https://onco.cc/pairings/trop2-pet-to-adc/)"
+  },
+  {
+   "id": "pipe-89",
+   "category": "factual",
+   "difficulty": 3,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "pluvicto",
+    "isatuximab"
+   ],
+   "retrievedEntities": [
+    "gedatolisib",
+    "zidesamtinib"
+   ],
+   "retrievalRecall": 0.4,
+   "answer": "McKesson runs the largest US community oncology network (about 3,000 providers) and distributes drugs, and co-owns the Sarah Cannon Research Institute. [1] A ROS1 inhibitor approved in July 2026 that works after other ROS1 drugs fail and avoids their brain side effects. [2] Zidesamtinib approvals: US 2026 for ROS1+ NSCLC (July 2026). [2] An intravenous drug that blocks the whole PI3K/mTOR pathway, approved in July 2026 for hormone-positive breast cancer. [3] Gedatolisib approvals: US 2026 for HR+/HER2- advanced breast cancer after CDK4/6 inhibitor (July 2026). [3] Divarasib is Roche's KRAS G12C pill, the first to beat the two approved KRAS drugs head-to-head (July 2026). [4]\n\nSources\n[1] McKesson / The US Oncology Network (https://onco.cc/companies/mckesson-us-oncology/)\n[2] Zidesamtinib (https://onco.cc/drugs/zidesamtinib/)\n[3] Gedatolisib (https://onco.cc/drugs/gedatolisib/)\n[4] Divarasib (https://onco.cc/drugs/divarasib/)"
+  },
+  {
+   "id": "pipe-90",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievedEntities": [
+    "ezh2"
+   ],
+   "retrievalRecall": 1,
+   "answer": "Tazemetostat was the first EZH2 inhibitor, approved for epithelioid sarcoma and follicular lymphoma in 2020 and withdrawn worldwide in 2026 after secondary blood cancers. [1] Withdrawn worldwide in March 2026 over secondary haematologic malignancies (T-ALL, MDS), ending the EZH2 class in lymphoma for now. [1] The first drug against it treated a rare sarcoma and some lymphomas until it was withdrawn in 2026 for causing second blood cancers. [2] Tazemetostat was approved in epithelioid sarcoma (2020) and EZH2-mutant follicular lymphoma, but Ipsen withdrew it from all markets and indications on 9 March 2026 after the SYMPHONY-1 trial showed excess secondary haematologic malignancies (FDA alert March 2026). [2] Onivyde/NALIRIFOX (NAPOLI 3), Cabometyx (ex-US), tazemetostat (Tazverik), Ojemda (tovorafenib, EU rights from Day One). [3] The detailed molecular maps of tumours being built today mostly lack information on what happened to the patient. [4]\n\nSources\n[1] Tazemetostat (https://onco.cc/drugs/tazemetostat/)\n[2] EZH2 (https://onco.cc/targets/ezh2/)\n[3] Ipsen (https://onco.cc/companies/ipsen/)\n[4] Link single-cell and spatial tumour atlases to clinical outcomes (https://onco.cc/ideas/idea-data-atlas-to-outcome-linkage/)"
+  },
+  {
+   "id": "pipe-91",
+   "category": "factual",
+   "difficulty": 1,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "multi-cancer"
+   ],
+   "retrievedEntities": [
+    "galleri"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "An adverse event is anything bad that happens to a patient during a trial, whether or not the drug caused it; a side effect is a harm the drug is known to cause. [1] Trial tables list adverse events and then judge which were treatment-related. [1] See the readout calendar for this year's dates and expected presentations. [2] Interim PFS not statistically significant (May 2026); final readouts pending. [3] A blood test screening for more than 50 cancers at once, before the FDA in September 2026. [4] PATHFINDER 2 (25,000+ participants) and NHS-Galleri (140,000 randomised) underpin the PMA submitted January 2026; FDA advisory committee 23 September 2026. [4]\n\nSources\n[1] Side effect versus adverse event (https://onco.cc/terms/side-effect-vs-adverse-event/)\n[2] ESMO Congress (https://onco.cc/collections/src-esmo-congress/)\n[3] HARMONi-3 (https://onco.cc/trials/harmoni-3/)\n[4] Galleri (https://onco.cc/drugs/galleri/)"
+  },
+  {
+   "id": "pipe-92",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.25,
+   "met": 1,
+   "total": 4,
+   "missed": [
+    "degrader",
+    "immune-stimulating",
+    "masked"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Hydrophilic next-generation linkers have built-in sugars or polyethylene glycol that let ADCs carry more payload without clumping, and they resist efflux pumps. [1] Reading millions of DNA fragments in parallel, the engine behind every modern genomic test. [2] Twenty-five years of trying to make chemotherapy hit only cancer cells, from the unstable first ADC to today's third-generation blockbusters and the fourth generation now in trials. [3] AstraZeneca's EGFR×c-MET bispecific ADC, the most advanced in the most crowded next-generation ADC target pair. [4] A bispecific ADC is an ADC whose antibody grabs two different proteins on the cancer cell, so it sticks better to tumour and less to healthy tissue. [5] A next-generation KRAS G12C drug that hits the active form of the protein, from the same company as daraxonrasib. [6]\n\nSources\n[1] Hydrophilic next-generation linkers (TMALIN, Dolaflexin, sulfonyl-pyrimidine, PEG-containing) (https://onco.cc/terms/hydrophilic-next-gen/)\n[2] Next-generation sequencing (NGS) (https://onco.cc/terms/ngs/)\n[3] ADC roadmap: from Mylotarg to bispecific and dual-payload ADCs (https://onco.cc/roadmaps/adc-generations/)\n[4] Tilatamig samrotecan (https://onco.cc/drugs/tilatamig-samrotecan/)\n[5] Bispecific ADC (https://onco.cc/technologies/bispecific-adc/)\n[6] Elironrasib (https://onco.cc/drugs/elironrasib/)"
+  },
+  {
+   "id": "pipe-93",
+   "category": "factual",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "2025"
+   ],
+   "retrievedEntities": [
+    "biontech"
+   ],
+   "retrievalRecall": 0.5,
+   "answer": "From COVID vaccine to a broad oncology pipeline: personalised vaccines, ADCs from China, and a PD-L1×VEGF bispecific sold to BMS for $11B. [1] Autogene cevumeran (with Genentech), BNT323/trastuzumab pamirtecan (DualityBio), pumitamig (BNT327, PD-L1×VEGF, BMS partnership), BNT113 (HPV16), CAR-T BNT211 (CLDN6). [1] A drug label says 'for PD-L1 positive patients' but does not say that other tests give different answers. [2] Ivonescimab (PD-1×VEGF), cadonilimab (PD-1×CTLA-4), AK146D1 bispecific ADC. [3] Spawned a wave of PD-(L)1×VEGF bispecifics (Pfizer/3SBio, BMS/BioNTech, Merck/LaNova). [4] Tetravalent PD-1×VEGF-A bispecific with cooperative binding: VEGF binding increases PD-1 affinity, concentrating activity in tumour. [4]\n\nSources\n[1] BioNTech (https://onco.cc/companies/biontech/)\n[2] Drug labels must state which biomarker assays were validated and how they compare (https://onco.cc/ideas/idea-tr2-label-assay-concordance/)\n[3] Akeso (https://onco.cc/companies/akeso/)\n[4] Ivonescimab (https://onco.cc/drugs/ivonescimab/)"
+  },
+  {
+   "id": "pipe-94",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "immunogenic"
+   ],
+   "retrievedEntities": [
+    "adc-plus-io"
+   ],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "An ADC kills tumour cells in a way that alerts the immune system; a checkpoint inhibitor lets the immune system finish the job. [1] Proven in urothelial cancer (EV-302: enfortumab vedotin + pembrolizumab, OS HR 0.47) and TNBC (ASCENT-04: sacituzumab govitecan + pembrolizumab, PFS HR 0.65, approved 2026). [1] Brakes on the immune system that stop T cells attacking healthy tissue. [2] Tumours pull these brakes to protect themselves; checkpoint inhibitor drugs release them so T cells can attack the cancer. [2] AK146D1 is Akeso's Nectin-4 × TROP2 bispecific ADC, combining the two most validated ADC addresses in one molecule. [3] RATIONALE-306 is the trial behind tislelizumab's US approval for squamous oesophageal cancer, with the biggest gains in PD-L1-positive tumours. [4]\n\nSources\n[1] ADC + checkpoint inhibitor (https://onco.cc/pairings/adc-plus-io/)\n[2] Immune checkpoint (https://onco.cc/terms/immune-checkpoint/)\n[3] AK146D1 (https://onco.cc/drugs/ak146d1/)\n[4] RATIONALE-306 (https://onco.cc/trials/rationale-306/)"
+  },
+  {
+   "id": "pipe-95",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "nci",
+    "link"
+   ],
+   "retrievedEntities": [
+    "newsweek-hospitals",
+    "nature-index",
+    "scimago-oncology"
+   ],
+   "retrievalRecall": 1,
+   "answer": "SCImago publishes a bibliometric ranking of institutions specifically in oncology. [1] OnCo uses it as one input to its institution table. [2] Almost no surgeons or radiation oncologists have time or funding to do research. [3] Dedicated training awards with protected time would build the workforce that surgical and radiotherapy trials need. [3] The Nature Index shows which institutions publish the most top-tier research. [4] It is the best public proxy for university output in cancer science. [4]\n\nSources\n[1] SCImago Institutions Rankings – Oncology (https://onco.cc/collections/scimago-oncology/)\n[2] Newsweek/Statista World's Best Specialized Hospitals – Oncology (https://onco.cc/collections/newsweek-hospitals/)\n[3] Funded research pathways for surgeon-scientists and radiation oncologist-scientists (https://onco.cc/ideas/idea-fund-surgeon-scientist-pathway/)\n[4] Nature Index – Healthcare and Cancer institutions (https://onco.cc/collections/nature-index/)"
+  },
+  {
+   "id": "reason-96",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "sacituzumab",
+    "cross-resist"
+   ],
+   "retrievedEntities": [
+    "breast-hr-positive"
+   ],
+   "retrievalRecall": 0.2,
+   "answer": "Abemaciclib was the first CDK4/6 inhibitor approved after surgery for high-risk hormone-positive breast cancer. [1] HR-positive breast cancer is the most common breast cancer, driven by oestrogen. [2] It was treated for years with hormone-blocking pills, now joined by CDK4/6 inhibitors, PI3K-pathway drugs, degraders, and ADCs. [2] Palbociclib was the first CDK4/6 inhibitor (2015), and in 2026 became the first approved as maintenance in HER2-positive, hormone-positive breast cancer. [3] Given as the first chemotherapy-type treatment after hormone therapy stopped working, trastuzumab deruxtecan delayed progression by about five months compared with standard chemotherapy, including in tumours with barely detectable HER2. [4] Open-label phase 3 trial of 866 patients with hormone-receptor-positive metastatic breast cancer that was HER2-low (IHC 1+ or 2+/ISH-negative) or HER2-ultralow (IHC 0 with faint membrane staining), who had progressed on endocrine therapy but had not received chemotherapy for metastatic disease. [4]\n\nSources\n[1] Abemaciclib (https://onco.cc/drugs/abemaciclib/)\n[2] HR-positive / HER2-negative breast cancer (https://onco.cc/cancers/breast-hr-positive/)\n[3] Palbociclib (https://onco.cc/drugs/palbociclib/)\n[4] DESTINY-Breast06: trastuzumab deruxtecan before any chemotherapy in hormone-receptor-positive, HER2-low or ultralow breast cancer (https://onco.cc/key-papers/paper-destiny-breast06-nejm-2024/)"
+  },
+  {
+   "id": "reason-97",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "immune exclu"
+   ],
+   "retrievedEntities": [
+    "idea-efflux-agnostic"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "Support and information built specifically for triple-negative breast cancer. [1] Some tumours pump out every drug. [2] Use treatments the pumps cannot touch: radiation, radioligands, immune cells, and payloads designed to evade them. [2] Billed as the first PARP inhibitor for triple-negative breast cancer, it failed its phase 3 in 2011. [3]\n\nSources\n[1] Triple Negative Breast Cancer Foundation (https://onco.cc/collections/src-tnbc-foundation/)\n[2] Efflux-agnostic therapy for mesenchymal TNBC (https://onco.cc/ideas/idea-efflux-agnostic/)\n[3] Iniparib (https://onco.cc/drugs/iniparib/)"
+  },
+  {
+   "id": "reason-98",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "depends",
+    "dynamic"
+   ],
+   "retrievedEntities": [
+    "ctdna-mrd-to-adjuvant"
+   ],
+   "retrievalRecall": 0.25,
+   "answer": "A ctDNA MRD blood test after surgery decides who gets more treatment and who is spared it. [1] Patients whose blood turned positive for tumour DNA after cystectomy lived longer with atezolizumab than placebo; patients who stayed ctDNA-negative did well without any treatment. [2] It is the first ctDNA-guided adjuvant trial to improve survival. [2] When a company stops developing a cancer drug for business reasons, the rights and data would automatically be offered to charities and universities on set terms after two years, so promising compounds do not disappear. [3] Starting immunotherapy right after chemotherapy, rather than waiting for relapse, lengthened survival by about seven months. [4] Women whose HER2-positive breast cancer was still present at surgery after chemotherapy and trastuzumab had half the risk of relapse if their post-surgery treatment was switched to the antibody-drug conjugate T-DM1 instead of continuing trastuzumab. [5]\n\nSources\n[1] ctDNA MRD → adjuvant therapy decision (https://onco.cc/pairings/ctdna-mrd-to-adjuvant/)\n[2] IMvigor011: using a blood test for leftover cancer to decide who gets immunotherapy after bladder surgery (https://onco.cc/key-papers/paper-imvigor011-nejm-2025/)\n[3] Automatic offer of shelved cancer assets to non-profits after two years (https://onco.cc/ideas/idea-fund-shelved-asset-escrow/)\n[4] JAVELIN Bladder 100 (https://onco.cc/trials/javelin-bladder-100/)\n[5] KATHERINE: switching to T-DM1 when HER2-positive breast cancer survives pre-surgery treatment (https://onco.cc/key-papers/paper-katherine-nejm-2019/)"
+  },
+  {
+   "id": "reason-99",
+   "category": "reasoning",
+   "difficulty": 2,
+   "score": 0.5,
+   "met": 2,
+   "total": 4,
+   "missed": [
+    "low tumour burden",
+    "immunosuppress"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Custom cancer vaccines take weeks to make and work best when there is very little disease. [1] Making one at surgery and giving it when a blood test turns positive matches both facts. [1] A pre-made vaccine against them could be given to every patient after surgery. [2] A vaccine custom-made from each patient's own tumour mutations, given with pembrolizumab after surgery for high-risk melanoma, reduced recurrence by about 44% compared with pembrolizumab alone in a mid-sized randomised trial, the first sign that personalised cancer vaccines can work. [3] If it does, personalised mRNA vaccines could become a routine adjunct to checkpoint inhibitors after surgery. [3] Surgery stress may help hidden cancer cells spread. [4]\n\nSources\n[1] Personalised vaccines given only when the blood test turns positive (https://onco.cc/ideas/idea-bio2-mrd-triggered-neoantigen-vaccine/)\n[2] Off-the-shelf KRAS vaccines after pancreatic cancer surgery (https://onco.cc/ideas/idea-shared-kras-vaccine-adjuvant/)\n[3] KEYNOTE-942: a personalised mRNA cancer vaccine plus pembrolizumab after melanoma surgery (https://onco.cc/key-papers/paper-keynote-942-lancet-2024/)\n[4] Perioperative beta-blocker plus COX-2 inhibitor to reduce metastasis after surgery (https://onco.cc/ideas/idea-reg-perioperative-propranolol-etodolac/)"
+  },
+  {
+   "id": "reason-100",
+   "category": "reasoning",
+   "difficulty": 3,
+   "score": 0,
+   "met": 0,
+   "total": 4,
+   "missed": [
+    "prevent",
+    "screen",
+    "mortality",
+    "mced"
+   ],
+   "retrievedEntities": [],
+   "retrievalRecall": 0,
+   "answer": "Give every tumour board a tool that pulls up the relevant trials and guideline lines for each case with citations, records what was decided, and later shows how the patient did. [1] The proposal is an assistant built on the evidence graph and computable guidelines: it prepares a cited evidence brief per case, records the board's recommendation in structured form, and links it to the patient's subsequent treatment and outcome, creating a learning loop across boards. [1] Health systems would pay for AI tools that have shown in trials that they help patients, and pay nothing for tools that have not, giving makers a reason to run the trials. [2] Children with cancer, and their families, need symptom relief and support from diagnosis, not only at the end. [3] Payers would cover it only inside trials or registries that answer that question, across every centre at once. [4] Require every atlas sample to carry consented outcome data. [5]\n\nSources\n[1] A tumour board assistant that cites its evidence and tracks outcomes (https://onco.cc/ideas/idea-data-tumour-board-evidence-assistant/)\n[2] Pay for cancer AI only when it has outcome evidence, then pay properly (https://onco.cc/ideas/idea-data-ai-reimbursement-tied-to-outcomes/)\n[3] A paediatric palliative care team in every childhood cancer unit (https://onco.cc/ideas/idea-acc-paediatric-palliative-in-every-childhood-unit/)\n[4] Pooled coverage-with-evidence for proton therapy across all centres (https://onco.cc/ideas/idea-fund-proton-coverage-with-evidence/)\n[5] Link single-cell and spatial tumour atlases to clinical outcomes (https://onco.cc/ideas/idea-data-atlas-to-outcome-linkage/)"
+  }
+ ]
+}

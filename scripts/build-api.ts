@@ -33,6 +33,6 @@ for (const e of g.entities) {
 }
 write("ranking.json", rankInstitutions().map((r) => ({ rank: r.rank, id: r.institution.id, name: r.institution.name, city: r.institution.city, country: r.institution.country, newsweekOncology2026: r.institution.newsweekOncology2026 ?? null, nci: r.institution.nci ?? null, links: r.links, newsweekPoints: r.newsweekPoints, nciPoints: r.nciPoints, linkPoints: r.linkPoints, score: r.score })));
 write("benchmark.json", benchmark);
-write("meta.json", { built: new Date().toISOString(), schema: 1, counts: Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])), total: g.entities.length, license: "CC BY 4.0", source: "https://github.com/judegomila/OnCo" });
+write("meta.json", { built: new Date().toISOString(), schema: 1, attribution: "Data from OnCo (https://onco.cc), CC BY 4.0. Attribution is required: name OnCo and link to https://onco.cc wherever the data or derived text appears.", licenseUrl: "https://creativecommons.org/licenses/by/4.0/", counts: Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])), total: g.entities.length, license: "CC BY 4.0", source: "https://github.com/judegomila/OnCo" });
 
 console.log(`api: wrote ${g.entities.length} entities to public/api/v1`);

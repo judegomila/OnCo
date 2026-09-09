@@ -11,6 +11,10 @@ export default function ApiDocs() {
     <>
       <PageHeader kicker={<GroupKicker id="learn" />} title="Open API" lede="The whole corpus is published as static JSON under /api/v1/ with permissive CORS. No key, no rate limit beyond the CDN. Licence CC BY 4.0." />
       <Container className="pb-16 max-w-3xl">
+        <div className="card p-4 mb-6 text-sm border-accent/30 bg-accent-soft/40">
+          <div className="kicker mb-1">Attribution required</div>
+          <p>The data are free to use under <a className="underline" href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>. If you use the API or the JSON, name OnCo and link to <a className="underline" href="https://onco.cc">onco.cc</a> wherever the data or text derived from it appears, for example: <code className="text-xs">Data from OnCo (onco.cc), CC BY 4.0</code>. Logos remain their owners&apos; trademarks and molecule structures keep their PubChem and RCSB terms. The same notice is in <code className="text-xs">/api/v1/meta.json</code>.</p>
+        </div>
         <div className="card overflow-x-auto">
         <table className="onco">
           <thead><tr><th>Path</th><th>Contents</th></tr></thead>

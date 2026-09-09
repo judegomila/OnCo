@@ -12,7 +12,6 @@ import { MoleculeViewer, type StructureEntry } from "./MoleculeViewer";
 import { Logo } from "./Logo";
 import { JsonLd } from "./JsonLd";
 import { PrintButton } from "./PrintButton";
-import { EmbedSnippet } from "./EmbedSnippet";
 import { TrialFinderGeo as TrialFinder } from "./TrialFinderGeo";
 import { Questions } from "./Questions";
 import { ExpertCentres } from "./ExpertCentres";
@@ -57,6 +56,9 @@ import { CancerIcon } from "./CancerIcon";
 import { confidence } from "@/data/confidence";
 import { FrontIcon } from "./FrontIcon";
 import { ApprovalChip } from "./ApprovalChip";
+import { TargetSchematic } from "./TargetSchematic";
+import { Tip } from "./Tip";
+import { TargetExplainer } from "./TargetExplainer";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
@@ -140,7 +142,6 @@ export function EntityDetail({ e }: { e: Entity }) {
                 <span className="text-muted"> · </span>
                 <PrintButton className="underline" />
               </div>
-              <EmbedSnippet id={e.id} name={e.name} />
             </div>
             <SuggestEdit id={e.id} kind={e.kind} name={e.name} fields={Object.keys(e)} source={sourceLocation(e.id, e.kind)} />
             <QuickLinks e={e} />
@@ -195,7 +196,9 @@ function kindTabs(e: Entity): Tab[] {
     case "target":
       return [
         overview(<>
-          <Block title="Biology"><p className="text-[15px] leading-relaxed max-w-3xl">{e.biology}</p></Block>
+          <div className="mt-8"><TargetSchematic target={{ id: e.id, name: e.name, targetClass: e.targetClass, tldr: e.tldr }} /></div>
+          <div className="mt-6"><TargetExplainer target={e} /></div>
+          <Block title="Biology"><p className="text-[15px] leading-relaxed max-w-3xl">{withTermHovers(e.biology, { skipId: e.id })}</p></Block>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Where it is found"><Bullets items={e.whereFound} /></Field>
             <Field label="Class"><span className="capitalize">{e.targetClass.replace("-", " ")}</span>{e.symbol && <span className="text-muted"> · {e.symbol}</span>}</Field>
@@ -426,6 +429,31 @@ function papersTab(e: Entity): Tab[] {
   return [{ id: "papers", label: "Latest papers", content: (<div className="space-y-4"><PaperTrend id={e.id} /><LatestPapers query={q} title={e.name} kind={e.kind} /></div>) }];
 }
 
+/**
+ * Bullet list where any object we have a page for becomes a link: the leading name (before a colon, dash or
+ * bracket) is matched against target, term, technology, drug and cancer names and aliases; the rest of the
+ * sentence gets glossary hovers.
+ */
+function LinkedBullets({ items, skipId }: { items: string[]; skipId?: string }) {
+  const g = graph();
+  const index = new Map<string, Entity>();
+  for (const k of ["target", "term", "technology", "drug", "cancer", "pathway"] as const) for (const x of g.kind(k)) { index.set(x.name.toLowerCase(), x); for (const a of x.aka) index.set(a.toLowerCase(), x); const bare = x.name.replace(/\s*\(.*?\)\s*$/, "").toLowerCase(); if (!index.has(bare)) index.set(bare, x); }
+  const find = (label: string): Entity | undefined => {
+    const l = label.trim().toLowerCase();
+    return index.get(l) ?? index.get(l.replace(/-positive$|-negative$|\+$|-$/g, "").trim()) ?? [...index.entries()].find(([k]) => k.length > 3 && (l === k || l.startsWith(k + " ") || l.endsWith(" " + k)))?.[1];
+  };
+  return (
+    <ul className="list-disc pl-5 space-y-1.5 text-[15px] leading-relaxed">
+      {items.map((it, i) => {
+        const m = it.match(/^([^:–—(]+?)\s*([:–—(].*)?$/);
+        const head = m?.[1] ?? it, rest = m?.[2] ?? "";
+        const e = find(head);
+        return <li key={i}>{e && e.id !== skipId ? <Tip title={e.name} text={e.tldr} href={routeFor(e)}><Link href={routeFor(e)} className="font-medium underline decoration-dotted decoration-foreground/30 underline-offset-[3px] hover:decoration-foreground">{head}</Link></Tip> : <span className="font-medium">{withTermHovers(head, { skipId })}</span>}{rest && <span className="text-foreground/85"> {withTermHovers(rest.replace(/^\s*/, ""), { skipId })}</span>}</li>;
+      })}
+    </ul>
+  );
+}
+
 function peopleTab(items: Entity[]): Tab[] {
   const people = [...new Map(items.filter((x) => x.kind === "person").map((x) => [x.id, x])).values()];
   if (!people.length) return [];
@@ -496,8 +524,8 @@ function cancerTabs(c: Cancer): Tab[] {
       </div>) },
     { id: "biology", label: "Subtypes & biomarkers", content: (<>
       <div className="grid gap-6 sm:grid-cols-2">
-        <Field label="Subtypes"><Bullets items={c.subtypes} /></Field>
-        <Field label="Biomarkers clinicians test"><Bullets items={c.biomarkers} /></Field>
+        <Field label="Subtypes"><LinkedBullets items={c.subtypes} skipId={c.id} /></Field>
+        <Field label="Biomarkers clinicians test"><LinkedBullets items={c.biomarkers} skipId={c.id} /></Field>
       </div>
       <Block title="Target prevalence in this cancer"><CancerPrevalence cancerId={c.id} /></Block>
     </>) },

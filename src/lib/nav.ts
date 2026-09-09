@@ -40,6 +40,7 @@ export const NAV_GROUPS: NavGroup[] = [
   {
     id: "intel", label: "News & evidence", href: "/intel/", blurb: "What is happening and how strong the evidence is: dates, congress readouts, approvals, failures, resistance, and the supply chain behind the drugs.",
     items: [
+      { href: "/journals/", label: "Journals", blurb: "Where the evidence is published: scope, access model and the key papers each venue carried." },
       { href: "/key-papers/", label: "Key papers", blurb: "The papers that changed practice, each explained: what it found, what it means, what to be careful about." },
       { href: "/evidence/", label: "Evidence", blurb: "Every trial ranked by evidence strength, endpoints as people out of 100." },
       { href: "/calendar/", label: "Readout calendar", blurb: "Decisions, readouts, advisory committees, congresses." },

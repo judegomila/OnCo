@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Annual reports", description: "The state of the war on cancer, year by year, generated from the OnCo corpus." };
+export const metadata: Metadata = pageMeta({ title: "Annual reports", description: "The state of the war on cancer, year by year, generated from the OnCo corpus.", path: "/report/" });
 
 /** Index of annual reports. Add a folder per year under /report/. */
 const YEARS = [2026];

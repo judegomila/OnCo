@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CasesByCountry } from "@/components/CasesByCountry";
 import { DATA_URL, GLOBOCAN, gaps, rowsForCancer } from "@/lib/globocan";
 
-export const metadata: Metadata = { title: "Cases by country", description: "GLOBOCAN 2022 new cases and deaths by country and cancer type, with every data gap stated." };
+export const metadata: Metadata = pageMeta({ title: "Cases by country", description: "GLOBOCAN 2022 new cases and deaths by country and cancer type, with every data gap stated.", path: "/cases/" });
 
 export default function CasesPage() {
   const g = graph();

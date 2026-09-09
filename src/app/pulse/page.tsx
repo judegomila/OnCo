@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
@@ -8,7 +9,7 @@ import { pulseAsOf, pulseItems, pulseThemes } from "@/data/pulse";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PulseBoard, type PulseSource, type RefLite } from "@/components/PulseBoard";
 
-export const metadata: Metadata = { title: "Research pulse", description: "What the leading oncology journals, preprint servers, regulators, and news outlets are saying right now, and the cross-source themes." };
+export const metadata: Metadata = pageMeta({ title: "Research pulse", description: "What the leading oncology journals, preprint servers, regulators, and news outlets are saying right now, and the cross-source themes.", path: "/pulse/" });
 
 const TYPE_OF = (tags: string[]) => tags.find((t) => ["journal", "news", "preprint", "congress", "patient", "data"].includes(t)) ?? "other";
 

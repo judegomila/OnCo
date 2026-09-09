@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { KIND_META, KINDS } from "@/lib/schema";
 import { graph } from "@/lib/graph";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Open API", description: "The OnCo corpus as static JSON." };
+export const metadata: Metadata = pageMeta({ title: "Open API", description: "The OnCo corpus as static JSON.", path: "/api/" });
 
 export default function ApiDocs() {
   const g = graph();

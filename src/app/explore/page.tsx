@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { Suspense } from "react";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
@@ -6,7 +7,7 @@ import { powerRows } from "@/lib/relevance";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PowerView, type PowerCancer } from "@/components/PowerView";
 
-export const metadata: Metadata = { title: "Explore: ranked power view", description: "Pick a cancer type, switch entity kind, and get a ranked, sortable, filterable list of products, technologies, targets, trials, and more, each linking to its page." };
+export const metadata: Metadata = pageMeta({ title: "Explore: ranked power view", description: "Pick a cancer type, switch entity kind, and get a ranked, sortable, filterable list of products, technologies, targets, trials, and more, each linking to its page.", path: "/explore/" });
 
 export default function Explore() {
   const g = graph();

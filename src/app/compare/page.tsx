@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { Suspense } from "react";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CompareView, type CompareItem } from "@/components/CompareView";
 
-export const metadata: Metadata = { title: "Compare", description: "Side-by-side comparison of up to five products, technologies, targets, trials, or cancers, with differences highlighted." };
+export const metadata: Metadata = pageMeta({ title: "Compare", description: "Side-by-side comparison of up to five products, technologies, targets, trials, or cancers, with differences highlighted.", path: "/compare/" });
 
 export default function ComparePage() {
   const g = graph();

@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { TimelineScrubber, type TimelineData } from "@/components/TimelineScrubber";
 
-export const metadata: Metadata = { title: "Timeline", description: "Drag a year slider and see approvals, trials, history, and roadmap eras as they stood in any year from 1940 to 2030." };
+export const metadata: Metadata = pageMeta({ title: "Timeline", description: "Drag a year slider and see approvals, trials, history, and roadmap eras as they stood in any year from 1940 to 2030.", path: "/timeline/" });
 
 /** Parse an era like "2019-2022", "2026-2030", "2028+", "1980s-2000", "1946-2000" into [start, end]. */
 function eraRange(era: string): [number, number] {

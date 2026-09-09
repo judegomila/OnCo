@@ -5,6 +5,7 @@ import { paths } from "@/data/paths";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, KindChip, PageHeader, StatusChip } from "@/components/ui";
+import { pageMeta } from "@/lib/seo";
 
 export function generateStaticParams() {
   return paths.map((p) => ({ id: p.id }));
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const p = paths.find((x) => x.id === id);
-  return p ? { title: p.title, description: p.tldr } : {};
+  return p ? pageMeta({ title: `${p.title} · Reading path`, description: p.tldr, path: `/paths/${p.id}/` }) : {};
 }
 
 export default async function PathPage({ params }: { params: Promise<{ id: string }> }) {

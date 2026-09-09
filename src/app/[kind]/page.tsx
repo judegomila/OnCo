@@ -13,6 +13,7 @@ import { FrontIcon } from "@/components/FrontIcon";
 import { termMarks } from "@/lib/term-hover";
 import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
+import { kindTitle, pageMeta } from "@/lib/seo";
 
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route, k])) as Record<string, Kind>;
 
@@ -20,11 +21,14 @@ export function generateStaticParams() {
   return KINDS.map((k) => ({ kind: KIND_META[k].route }));
 }
 
+/** Index page title is the public kind name ("Treatments & tests", "Cancers"); the description is the KIND_META blurb with the live count. */
 export async function generateMetadata({ params }: { params: Promise<{ kind: string }> }): Promise<Metadata> {
   const { kind } = await params;
   const k = ROUTE_TO_KIND[kind];
   if (!k) return {};
-  return { title: KIND_META[k].plural[0].toUpperCase() + KIND_META[k].plural.slice(1), description: KIND_META[k].blurb };
+  const meta = KIND_META[k];
+  const n = graph().kind(k).length;
+  return pageMeta({ title: kindTitle(k), description: `${meta.blurb} ${n} ${meta.plural}, each with a plain-English TL;DR and sources.`, path: `/${meta.route}/` });
 }
 
 const cap = (s: string) => s[0].toUpperCase() + s.slice(1);

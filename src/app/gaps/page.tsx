@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { KIND_META, routeFor, type Entity, type Kind } from "@/lib/schema";
 import { Container, GroupKicker, KindChip, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Gaps & bounties", description: "Where OnCo is thin: unsourced objects, weakly linked objects, cancers without pipelines, targets without drugs. Claim one and fix it." };
+export const metadata: Metadata = pageMeta({ title: "Gaps & bounties", description: "Where OnCo is thin: unsourced objects, weakly linked objects, cancers without pipelines, targets without drugs. Claim one and fix it.", path: "/gaps/" });
 
 const FILE_FOR: Partial<Record<Kind, string>> = { drug: "drugs", cancer: "cancers", technology: "technologies", target: "targets", company: "companies", institution: "institutions", pathway: "pathways", term: "terms", trial: "trials", pairing: "pairings", roadmap: "roadmaps", idea: "ideas", collection: "collections", section: "sections" };
 const gh = (e: Entity) => `https://github.com/judegomila/OnCo/blob/main/src/data/${FILE_FOR[e.kind]}.ts`;

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { KIND_META, KINDS, routeFor } from "@/lib/schema";
@@ -11,6 +12,12 @@ import { NavIcon } from "@/components/NavIcon";
 import { MoleculeSlot } from "@/components/MoleculeSlot";
 import { GardenBackdrop } from "@/components/Garden";
 import { GardenDivider } from "@/components/GardenDivider";
+import { WebSiteJsonLd } from "@/components/JsonLd";
+import { pageMeta } from "@/lib/seo";
+
+const HOME_DESCRIPTION = "The open, cited map of oncology: every cancer, treatment, target, trial, company, institution and idea on one page each, in plain English first, with sources.";
+
+export const metadata: Metadata = pageMeta({ title: "OnCo", absoluteTitle: "OnCo — the open, cited map of cancer: treatments, targets, trials, and what is coming", description: HOME_DESCRIPTION, path: "/" });
 
 const AUDIENCES: Array<{ id: string; title: string; lede: string; links: Array<{ href: string; label: string; blurb: string }> }> = [
   {
@@ -78,6 +85,7 @@ export default function Home() {
 
   return (
     <>
+      <WebSiteJsonLd description={HOME_DESCRIPTION} />
       {/* Hero */}
       <section className="hero relative border-b border-border">
         <GardenBackdrop variant="hero" />

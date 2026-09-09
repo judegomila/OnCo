@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { hubIdeas, hubIdeas2, hubIdeas3 } from "@/data/hub-ideas";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { statusClass } from "@/lib/text";
 
-export const metadata: Metadata = { title: "Roadmap", description: "What OnCo is building, in waves, with the status of every idea." };
+export const metadata: Metadata = pageMeta({ title: "Roadmap", description: "What OnCo is building, in waves, with the status of every idea.", path: "/hub/" });
 
 export default function Hub() {
   const themes = [...new Set(hubIdeas.map((h) => h.theme))];

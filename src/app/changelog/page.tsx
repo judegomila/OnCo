@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Changelog", description: "What changed in OnCo, release by release." };
+export const metadata: Metadata = pageMeta({ title: "Changelog", description: "What changed in OnCo, release by release.", path: "/changelog/" });
 
 type Block = { type: "h2" | "h3" | "p" | "ul"; text?: string; items?: string[] };
 

@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { graphData } from "@/lib/graph-export";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { QueryBuilder, type QueryData } from "@/components/QueryBuilder";
 
-export const metadata: Metadata = { title: "Query", description: "Build structured queries over the knowledge graph: kind, links, status, tags, text, with NOT clauses." };
+export const metadata: Metadata = pageMeta({ title: "Query", description: "Build structured queries over the knowledge graph: kind, links, status, tags, text, with NOT clauses.", path: "/query/" });
 
 export default function QueryPage() {
   const g = graph();

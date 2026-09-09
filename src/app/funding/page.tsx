@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { funding } from "@/data/funding";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity } from "@/lib/schema";
 import { ChipList, Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Funding flows", description: "Where the money in the war on cancer comes from: government, charity, EU, and industry, with sources." };
+export const metadata: Metadata = pageMeta({ title: "Funding flows", description: "Where the money in the war on cancer comes from: government, charity, EU, and industry, with sources.", path: "/funding/" });
 
 export default function Funding() {
   const g = graph();

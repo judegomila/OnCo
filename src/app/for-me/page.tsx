@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CancerPicker, type PickerCancer } from "@/components/CancerPicker";
 
-export const metadata: Metadata = { title: "For me: pick your cancer type", description: "Select one or more cancer types and see the technologies, products, trials, pairings, and ideas relevant to you." };
+export const metadata: Metadata = pageMeta({ title: "For me: pick your cancer type", description: "Select one or more cancer types and see the technologies, products, trials, pairings, and ideas relevant to you.", path: "/for-me/" });
 
 export default function ForMe() {
   const g = graph();

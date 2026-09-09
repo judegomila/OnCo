@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { KIND_META, KINDS } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "About & methodology", description: "What OnCo is, how it is built, its rules for facts, and how to contribute." };
+export const metadata: Metadata = pageMeta({ title: "About & methodology", description: "What OnCo is, how it is built, its rules for facts, and how to contribute.", path: "/about/" });
 
 export default function About() {
   const g = graph();

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { digests } from "@/data/digests";
 import { Container, PageHeader } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
+import { pageMeta } from "@/lib/seo";
 
 export function generateStaticParams() {
   return digests.map((d) => ({ id: d.id }));
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const d = digests.find((x) => x.id === id);
-  return d ? { title: `${d.congress} digest`, description: d.tldr } : {};
+  return d ? pageMeta({ title: `${d.congress} digest`, description: d.tldr, path: `/digests/${d.id}/` }) : {};
 }
 
 export default async function DigestPage({ params }: { params: Promise<{ id: string }> }) {

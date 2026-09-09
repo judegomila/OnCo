@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { BodyMap, type BodyCancer, type BodyTech } from "@/components/BodyMap";
 import { BODY_REGIONS } from "@/data/body-regions";
 
-export const metadata: Metadata = { title: "Body map", description: "Click a region of the body to reach the cancers that arise there and the imaging, ablation, radiation, and surgical technologies that apply there." };
+export const metadata: Metadata = pageMeta({ title: "Body map", description: "Click a region of the body to reach the cancers that arise there and the imaging, ablation, radiation, and surgical technologies that apply there.", path: "/body/" });
 
 export default function BodyPage() {
   const g = graph();

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PulseTable, readPulse } from "@/components/PapersPulse";
 
-export const metadata: Metadata = { title: "What the world is publishing", description: "Fastest-growing topics in the cancer literature, computed weekly from Europe PMC for every product, target, cancer, and technology in OnCo." };
+export const metadata: Metadata = pageMeta({ title: "What the world is publishing", description: "Fastest-growing topics in the cancer literature, computed weekly from Europe PMC for every product, target, cancer, and technology in OnCo.", path: "/papers/" });
 
 const KINDS: Array<{ kind: string; label: string; minPrior: number }> = [
   { kind: "technology", label: "Technologies", minPrior: 30 },

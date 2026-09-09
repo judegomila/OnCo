@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { KIND_META, KINDS, routeFor, type Entity } from "@/lib/schema";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
 import { ChipList, Container, GroupKicker, PageHeader, Section, StatusChip } from "@/components/ui";
 
-export const metadata: Metadata = { title: "The state of the war on cancer, 2026", description: "OnCo's annual report, generated from the corpus: approvals, trial results, roadmap progress, and open problems." };
+export const metadata: Metadata = pageMeta({ title: "The state of the war on cancer, 2026", description: "OnCo's annual report, generated from the corpus: approvals, trial results, roadmap progress, and open problems.", path: "/report/2026/" });
 
 export default function Report2026() {
   const g = graph();

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Suggest an edit", description: "How anyone, including the organisations described, can correct or extend an OnCo record." };
+export const metadata: Metadata = pageMeta({ title: "Suggest an edit", description: "How anyone, including the organisations described, can correct or extend an OnCo record.", path: "/suggest/" });
 
 export default function SuggestPage() {
   return (

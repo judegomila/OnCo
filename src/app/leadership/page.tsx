@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { trialLeadership } from "@/lib/trial-leadership";
 import { TrialLeadership } from "@/components/TrialLeadership";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Trial leadership index", description: "Which institutions and cooperative groups are attached to the pivotal trials, products, and technologies in OnCo." };
+export const metadata: Metadata = pageMeta({ title: "Trial leadership index", description: "Which institutions and cooperative groups are attached to the pivotal trials, products, and technologies in OnCo.", path: "/leadership/" });
 
 export default function Leadership() {
   const rows = trialLeadership();

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { matchRows } from "@/lib/biomarker-match";
@@ -8,7 +9,7 @@ import { Navigator, type NavigatorData, type NavCancer, type SocRef } from "@/co
 import type { CareDetail, SupportItem } from "@/components/CaregiverPanel";
 import type { ProfileLine } from "@/components/ProfileBar";
 
-export const metadata: Metadata = { title: "Line-of-therapy navigator", description: "Set your cancer, stage, biomarkers, and what has been tried; see the standard of care for that setting, the cautions, and the next options ranked, with recruiting trials near you." };
+export const metadata: Metadata = pageMeta({ title: "Line-of-therapy navigator", description: "Set your cancer, stage, biomarkers, and what has been tried; see the standard of care for that setting, the cautions, and the next options ranked, with recruiting trials near you.", path: "/navigator/" });
 
 const SUPPORT_IDS = ["scalp-cooling", "cardio-oncology", "exercise-oncology", "geriatric-assessment"];
 

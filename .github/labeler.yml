@@ -1,0 +1,67 @@
+# Labels applied to pull requests by the files they touch (actions/labeler v5, .github/workflows/label.yml).
+# One label per kind of record plus one per review track, so a reviewer can filter the queue.
+
+"data: cancers":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/cancers.ts", "src/data/spikes/**"]
+"data: products":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/drugs.ts", "src/data/drug-depth.ts", "src/data/regional-approvals.ts", "src/data/payloads.ts", "src/data/adc-chemistry.ts", "src/data/coverage-*.ts"]
+"data: trials":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/trials.ts", "src/data/trial-outcomes.ts", "src/data/pipeline-trials.ts", "src/data/failures.ts"]
+"data: targets & pathways":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/targets.ts", "src/data/pathways.ts", "src/data/biomarkers.ts", "src/data/resistance.ts", "src/data/mechanisms.ts"]
+"data: technologies":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/technologies.ts", "src/data/roadmaps.ts", "src/data/frontier*.ts", "src/data/foundation-*.ts"]
+"data: companies":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/companies.ts", "src/data/funding.ts", "src/data/isotopes.ts"]
+"data: institutions & people":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/institutions.ts", "src/data/institutions/**", "src/data/people/**"]
+"data: glossary & plain language":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/terms.ts", "src/data/terms-basics.ts", "src/data/simple.ts", "src/data/simple/**", "src/data/questions.ts", "src/data/paths.ts", "src/data/i18n/**"]
+"data: ideas & bottlenecks":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/ideas.ts", "src/data/ideas-waves/**", "src/data/bottlenecks.ts", "src/data/hub-ideas.ts"]
+"data: papers & journals":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/key-papers/**", "src/data/journals.ts", "src/data/collections.ts", "src/data/sources.ts"]
+"data: calendar & digests":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/calendar.ts", "src/data/digests.ts", "src/data/pulse.ts"]
+
+# Review tracks (.github/REVIEWERS.md)
+"track: clinical":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/cancers.ts", "src/data/spikes/**", "src/data/trials.ts", "src/data/trial-outcomes.ts", "src/data/pairings.ts"]
+"track: scientific":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/targets.ts", "src/data/pathways.ts", "src/data/technologies.ts", "src/data/payloads.ts", "src/data/resistance.ts"]
+"track: regulatory":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/drugs.ts", "src/data/drug-depth.ts", "src/data/regional-approvals.ts", "src/data/calendar.ts"]
+"track: advocate":
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/simple.ts", "src/data/simple/**", "src/data/questions.ts", "src/data/paths.ts", "src/data/terms.ts", "src/data/terms-basics.ts"]
+
+# Non-data areas
+schema:
+  - changed-files:
+      - any-glob-to-any-file: ["src/lib/schema.ts", "src/data/index.ts"]
+site:
+  - changed-files:
+      - any-glob-to-any-file: ["src/app/**", "src/components/**", "src/lib/**", "!src/lib/schema.ts"]
+scripts:
+  - changed-files:
+      - any-glob-to-any-file: ["scripts/**", ".github/**"]
+corrections:
+  - changed-files:
+      - any-glob-to-any-file: ["CORRECTIONS.md"]
+reviews:
+  - changed-files:
+      - any-glob-to-any-file: ["src/data/reviews.ts"]

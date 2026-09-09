@@ -143,7 +143,6 @@ export function EntityDetail({ e }: { e: Entity }) {
               <div><div className="kicker mb-1">Data</div>
                 <a className="underline" href={`/api/v1/entities/${e.id}.json`}>JSON</a>
                 <span className="text-muted"> · </span>
-                <a className="underline" href={`https://github.com/judegomila/OnCo/blob/main/src/data/${meta.plural === "products" ? "drugs" : meta.plural === "fronts" ? "sections" : meta.plural}.ts`} rel="noopener" title="Opens the TypeScript data file that holds this record on GitHub. Change it and open a pull request; every edit is reviewed and validated before it goes live.">Edit source on GitHub</a>
                 <span className="text-muted"> · </span>
                 <PrintButton className="underline" />
               </div>

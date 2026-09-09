@@ -27,6 +27,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/targets/", label: "Targets", blurb: "The molecules drugs and tracers aim at." },
       { href: "/drugs/", label: "Treatments & tests", blurb: "Approved and pipeline products, with rotating molecules." },
       { href: "/pathways/", label: "Pathways", blurb: "Signalling circuits, drawn and explained." },
+      { href: "/mechanics/", label: "Mechanics of cancer", blurb: "How cancer works, drawn stage by stage, with the drugs that act on each mechanism." },
       { href: "/prevalence/", label: "Prevalence", blurb: "How common each target is in each cancer." },
       { href: "/trials/", label: "Trials", blurb: "Landmark and current trials." },
       { href: "/pairings/", label: "Pairings", blurb: "What works together, and what does not." },

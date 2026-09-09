@@ -8,7 +8,7 @@ type Props = { id: string; kind: string; name: string; fields?: string[]; source
 /**
  * Suggest an edit via a GitHub issue, prefilled with the object and page. No form on the site:
  * the issue template collects the proposed change, the source, and who is proposing it.
- * Developers get a direct link to the exact line of the record.
+ *
  */
 export function SuggestEdit({ id, kind, name, source }: Props) {
   const page = `https://onco.cc${source.url.includes("/src/data/") ? "" : ""}`;
@@ -29,7 +29,6 @@ export function SuggestEdit({ id, kind, name, source }: Props) {
       <p className="text-muted">Propose a change with a source. Organisations can update their own records. Every suggestion is reviewed and validated before it goes live.</p>
       <div className="mt-2 flex flex-wrap gap-2">
         <a href={issueUrl} rel="noopener" className="rounded-lg bg-foreground text-background px-3 py-1.5 text-xs font-medium hover:brightness-110">Suggest an edit on GitHub →</a>
-        <a href={source.editUrl} rel="noopener" className="rounded-lg border border-border px-3 py-1.5 text-xs hover:bg-foreground/5" title="Opens this record's line in the data file; edit it and open a pull request.">Edit the record directly</a>
       </div>
       <p className="mt-2 text-xs text-muted"><Link className="underline" href="/suggest/">How review works</Link></p>
     </div>

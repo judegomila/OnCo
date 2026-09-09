@@ -1,0 +1,59 @@
+# Code owners by review track (.github/REVIEWERS.md). GitHub requests a review from the owners of any
+# file a pull request touches. Every line resolves to the maintainer today; as reviewers join a track,
+# add their handle after the maintainer's on that track's lines (teams work too: @org/onco-clinical).
+#
+# Later lines win, so the specific data files below override the catch-all.
+
+*                                   @judegomila
+
+# Maintainer: schema, build, site
+/src/lib/schema.ts                  @judegomila
+/src/data/index.ts                  @judegomila
+/scripts/                           @judegomila
+/.github/                           @judegomila
+
+# Expert (clinical): cancer pages, spike standard-of-care rows, trial outcomes
+/src/data/cancers.ts                @judegomila
+/src/data/spikes/                   @judegomila
+/src/data/trials.ts                 @judegomila
+/src/data/trial-outcomes.ts         @judegomila
+/src/data/pipeline-trials.ts        @judegomila
+/src/data/failures.ts               @judegomila
+/src/data/pairings.ts               @judegomila
+
+# Expert (scientific): targets, pathways, technologies, payloads, resistance
+/src/data/targets.ts                @judegomila
+/src/data/pathways.ts               @judegomila
+/src/data/technologies.ts           @judegomila
+/src/data/payloads.ts               @judegomila
+/src/data/adc-chemistry.ts          @judegomila
+/src/data/resistance.ts             @judegomila
+/src/data/biomarkers.ts             @judegomila
+/src/data/mechanisms.ts             @judegomila
+
+# Expert (regulatory): approvals, regulatory events, regional status, calendar
+/src/data/drugs.ts                  @judegomila
+/src/data/drug-depth.ts             @judegomila
+/src/data/regional-approvals.ts     @judegomila
+/src/data/calendar.ts               @judegomila
+/src/data/coverage-us.ts            @judegomila
+/src/data/coverage-uk.ts            @judegomila
+
+# Patient advocate: plain-language layers
+/src/data/simple.ts                 @judegomila
+/src/data/simple/                   @judegomila
+/src/data/terms.ts                  @judegomila
+/src/data/terms-basics.ts           @judegomila
+/src/data/questions.ts              @judegomila
+/src/data/paths.ts                  @judegomila
+/src/data/i18n/                     @judegomila
+
+# Organisations and people (self-edits are verified per REVIEWERS.md)
+/src/data/companies.ts              @judegomila
+/src/data/institutions.ts           @judegomila
+/src/data/institutions/             @judegomila
+/src/data/people/                   @judegomila
+
+# Public record of errors and reviews
+/CORRECTIONS.md                     @judegomila
+/src/data/reviews.ts                @judegomila

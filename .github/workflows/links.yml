@@ -1,0 +1,34 @@
+name: Weekly citation link check
+
+on:
+  schedule:
+    - cron: "17 4 * * 3" # Wednesdays 04:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - run: npx tsx scripts/check-links.ts
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/check-links
+          title: "Weekly link check: broken citations and archive copies"
+          commit-message: "chore: weekly citation link check"
+          body: |
+            Automated weekly run of `scripts/check-links.ts`: every cited URL probed (HEAD, then GET), redirects and domain moves recorded, Wayback Machine snapshots looked up and requested for broken links.
+            Review `public/links.json`; the broken-links section of /audit/ renders it. Replace dead URLs with the archive copy or a current source; log factual changes in CORRECTIONS.md.
+          labels: automated, trust
+          delete-branch: true

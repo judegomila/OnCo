@@ -5,6 +5,7 @@ import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { NAV_GROUPS } from "@/lib/nav";
 import { DrugChip } from "./DrugChip";
 import { NavIcon } from "./NavIcon";
+import { GardenBackdrop, gardenSeed } from "./Garden";
 
 export function KindChip({ kind }: { kind: Kind }) {
   return <span className={`chip border ${KIND_COLOR[kind]}`}>{KIND_META[kind].label}</span>;
@@ -63,20 +64,29 @@ export function GroupKicker({ id, children }: { id: string; children?: React.Rea
   );
 }
 
-export function PageHeader({ kicker, title, lede, ledeNode, right, logo }: { kicker?: React.ReactNode; title: string; lede?: string; ledeNode?: React.ReactNode; right?: React.ReactNode; logo?: React.ReactNode }) {
-  return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 pt-8 sm:pt-10 pb-6">
-      {kicker && <div className="mb-2 flex flex-wrap items-center gap-2">{kicker}</div>}
-      <div className="flex flex-wrap items-start justify-between gap-4">
-        <div className="flex items-start gap-4 max-w-3xl">
-          {logo}
-          <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight leading-[1.1]">{title}</h1>
+/**
+ * Page title block. A faint leaf spray or frond sits in the top-right corner (chosen by a hash of the
+ * title so pages differ; hidden on phones). `tone="band"` adds the soft garden wash used by group
+ * landing pages, echoing the home hero.
+ */
+export function PageHeader({ kicker, title, lede, ledeNode, right, logo, tone = "plain" }: { kicker?: React.ReactNode; title: string; lede?: string; ledeNode?: React.ReactNode; right?: React.ReactNode; logo?: React.ReactNode; tone?: "plain" | "band" }) {
+  const inner = (
+    <div className={`relative mx-auto max-w-7xl px-4 sm:px-6 pt-8 sm:pt-10 ${tone === "band" ? "pb-10 sm:pb-12" : "pb-6"}`}>
+      <GardenBackdrop variant="page" seed={gardenSeed(title)} />
+      <div className="relative">
+        {kicker && <div className="mb-2 flex flex-wrap items-center gap-2">{kicker}</div>}
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div className="flex items-start gap-4 max-w-3xl">
+            {logo}
+            <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight leading-[1.1]">{title}</h1>
+          </div>
+          {right}
         </div>
-        {right}
+        {(ledeNode || lede) && <p className="mt-3 text-[17px] sm:text-lg text-foreground/85 max-w-3xl leading-relaxed">{ledeNode ?? lede}</p>}
       </div>
-      {(ledeNode || lede) && <p className="mt-3 text-[17px] sm:text-lg text-foreground/85 max-w-3xl leading-relaxed">{ledeNode ?? lede}</p>}
     </div>
   );
+  return tone === "band" ? <div className="garden-band border-b border-border mb-8">{inner}</div> : inner;
 }
 
 export function Section({ title, children, id, aside }: { title: string; children: React.ReactNode; id?: string; aside?: React.ReactNode }) {

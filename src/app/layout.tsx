@@ -7,6 +7,7 @@ import { NavMenu } from "@/components/NavMenu";
 import { ThemeToggle, ThemeScript } from "@/components/ThemeToggle";
 import { SkipLink } from "@/components/SkipLink";
 import { LayerToggle } from "@/components/LayerToggle";
+import { GardenBackdrop, GardenDefs } from "@/components/Garden";
 import { NAV_GROUPS } from "@/lib/nav";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <ThemeScript />
+        <GardenDefs />
         <SkipLink />
         <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/75">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-1.5 sm:gap-3">
@@ -58,8 +60,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <CommandPalette />
         <main id="main" className="flex-1">{children}</main>
-        <footer className="border-t border-border mt-20 bg-surface/40">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
+        <footer className="garden-footer relative border-t border-border mt-28">
+          {/* A low grass line grows up from the footer's top edge into the gap above it. */}
+          <GardenBackdrop variant="footer" />
+          <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-12">
             <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-[minmax(0,1.8fr)_repeat(5,minmax(0,1fr))] lg:gap-x-8 text-sm">
               <div className="col-span-2 sm:col-span-3 lg:col-span-1">
                 <Link href="/" className="inline-flex items-center gap-2 font-semibold tracking-tight"><Mark size={24} /><span>OnCo</span></Link>

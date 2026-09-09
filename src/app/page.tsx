@@ -8,6 +8,8 @@ import { NAV_GROUPS } from "@/lib/nav";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { FrontIcon } from "@/components/FrontIcon";
 import { NavIcon } from "@/components/NavIcon";
+import { GardenBackdrop } from "@/components/Garden";
+import { GardenDivider } from "@/components/GardenDivider";
 
 const AUDIENCES: Array<{ id: string; title: string; lede: string; links: Array<{ href: string; label: string; blurb: string }> }> = [
   {
@@ -76,8 +78,9 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="hero border-b border-border">
-        <Container className="pt-14 pb-10 sm:pt-20 sm:pb-12">
+      <section className="hero relative border-b border-border">
+        <GardenBackdrop variant="hero" />
+        <Container className="relative pt-14 pb-10 sm:pt-20 sm:pb-12">
           <div className="max-w-3xl">
             <h1 className="display">Total information dominance on cancer.</h1>
             <p className="mt-6 text-[17px] sm:text-xl text-foreground/85 leading-relaxed max-w-2xl">
@@ -118,8 +121,9 @@ export default function Home() {
       <Container className="pt-14">
         <div className="grid gap-4 md:grid-cols-3">
           {AUDIENCES.map((a) => (
-            <section key={a.id} aria-labelledby={`aud-${a.id}`} className="card p-5 flex flex-col">
-              <h2 id={`aud-${a.id}`} className="text-lg font-semibold tracking-tight">{a.title}</h2>
+            <section key={a.id} aria-labelledby={`aud-${a.id}`} className="card relative p-5 flex flex-col">
+              <GardenBackdrop variant="card" seed={a.id.length * 7} />
+              <h2 id={`aud-${a.id}`} className="relative text-lg font-semibold tracking-tight">{a.title}</h2>
               <p className="text-sm text-muted mt-1 leading-relaxed">{a.lede}</p>
               <ul className="mt-4 -mx-2 divide-y divide-border/70">
                 {a.links.map((l) => (
@@ -151,7 +155,8 @@ export default function Home() {
       </Container>
 
       {/* Fronts */}
-      <Container className="mt-16">
+      <Container className="mt-16"><GardenDivider /></Container>
+      <Container className="mt-10">
         <Heading title="Fronts of the war on cancer" sub="Every way we see, measure or attack a tumour, grouped. Each schematic is a working model, not to scale." href="/fronts/" label="All fronts" />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {sections.map((s) => {
@@ -173,7 +178,8 @@ export default function Home() {
       </Container>
 
       {/* What is new */}
-      <Container className="mt-16">
+      <Container className="mt-16"><GardenDivider /></Container>
+      <Container className="mt-10">
         <Heading title="What is new" sub="Generated from the corpus at each build: approvals by product, and the latest milestone recorded for each cancer." href="/changelog/" label="Site changelog" />
         <div className="grid gap-4 lg:grid-cols-2">
           <section aria-labelledby="new-approvals" className="card">
@@ -217,7 +223,8 @@ export default function Home() {
       </Container>
 
       {/* Spotlight */}
-      <Container className="mt-16">
+      <Container className="mt-16"><GardenDivider /></Container>
+      <Container className="mt-10">
         <Heading title="Spotlight: triple-negative breast cancer" sub="The deepest page on the site, and the template every cancer page is growing into." href={routeFor(tnbc)} label="Full page" />
         <div className="card p-5 sm:p-6">
           <p className="text-[15px] sm:text-base leading-relaxed max-w-3xl">{tnbc.tldr}</p>
@@ -236,7 +243,8 @@ export default function Home() {
       </Container>
 
       {/* Roadmaps */}
-      <Container className="mt-16">
+      <Container className="mt-16"><GardenDivider /></Container>
+      <Container className="mt-10">
         <Heading title="Roadmaps" sub="History to horizon for each technology family." href="/roadmaps/" label="All roadmaps" />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {roadmaps.map((r) => (
@@ -250,7 +258,8 @@ export default function Home() {
       </Container>
 
       {/* Frontier */}
-      <Container className="mt-16">
+      <Container className="mt-16"><GardenDivider /></Container>
+      <Container className="mt-10">
         <Heading title="Frontier technologies" sub="Early, unproven, and worth watching." href="/technologies/" label="All technologies" />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {frontier.map((t) => <EntityCard key={t.id} e={t} />)}

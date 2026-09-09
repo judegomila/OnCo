@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { loadSearch } from "./SearchBox";
+import { MoleculeThumb } from "./MoleculeThumb";
+import { STRUCTURES } from "@/lib/structures";
 import type { SearchDoc } from "@/lib/search-index";
 import { KIND_META } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";

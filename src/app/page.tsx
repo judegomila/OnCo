@@ -167,7 +167,7 @@ export default function Home() {
                 <FrontSchematic sectionId={s.id} compact height="h-32" />
                 <div className="p-4 border-t border-border">
                   <div className="flex items-baseline justify-between gap-3 mb-1">
-                    <div className="font-semibold leading-snug flex items-center gap-2"><FrontIcon id={s.id} className="h-5 w-5 text-accent shrink-0" />{s.name}</div>
+                    <div className="font-semibold leading-snug flex items-center gap-2.5"><span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent-soft text-accent"><FrontIcon id={s.id} className="h-5.5 w-5.5" /></span>{s.name}</div>
                     <span className="text-xs text-muted tabular-nums shrink-0">{techs.length} technologies</span>
                   </div>
                   <p className="text-sm text-muted line-clamp-2 leading-relaxed">{s.tldr}</p>

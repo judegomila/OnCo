@@ -1,0 +1,52 @@
+name: Stale fact
+description: Something was true and events have overtaken it (a readout, a withdrawal, a new guideline, a completed trial).
+title: "stale: <entity id>"
+labels: [correction, stale]
+body:
+  - type: input
+    id: entity
+    attributes:
+      label: Entity
+      description: The id and kind of the record, e.g. `nhs-galleri (trial)`.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://onco.cc/trials/nhs-galleri/
+  - type: textarea
+    id: current
+    attributes:
+      label: What the page says now
+      description: Quote the text or name the field that is out of date.
+    validations:
+      required: true
+  - type: textarea
+    id: changed
+    attributes:
+      label: What changed
+      description: The event and, if you know it, the new value.
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date of the change
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Primary source for the change (publication, press release from the sponsor or agency, registry entry, guideline). Required for a change to be merged.
+    validations:
+      required: true
+  - type: input
+    id: coi
+    attributes:
+      label: Conflicts of interest
+      description: Employment, consulting, equity or grants related to this record; or "none".
+    validations:
+      required: true

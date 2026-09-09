@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discuss an object
+    url: https://github.com/judegomila/OnCo/discussions/categories/objects
+    about: Questions, interpretations and "is anyone working on this" for any cancer, product, target, trial, company, institution, person or idea. Discussions that end in a fact become an issue.
+  - name: How review works
+    url: https://onco.cc/suggest/
+    about: One gate for every change. What happens after you submit, and how organisations update their own records.
+  - name: Report a security problem
+    url: https://github.com/judegomila/OnCo/security/policy
+    about: Use private vulnerability reporting, not a public issue.

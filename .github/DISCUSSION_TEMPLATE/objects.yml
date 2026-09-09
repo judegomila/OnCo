@@ -1,0 +1,30 @@
+title: "<entity id>: <name>"
+labels: [object]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One thread per object. Use it for questions, interpretations, "is anyone working on this" and votes (a thumbs-up on this post counts at https://onco.cc/idea-votes/). If the thread ends in a fact that should change the record, open a Suggest-an-edit issue from the page; discussions do not change records.
+  - type: input
+    id: entity
+    attributes:
+      label: Entity
+      description: The id and kind, e.g. `idea-payload-switching (idea)`. Prefilled when you arrive from the page.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://onco.cc/ideas/idea-payload-switching/
+  - type: textarea
+    id: topic
+    attributes:
+      label: What you want to discuss
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (optional)
+      description: Links that inform the question.

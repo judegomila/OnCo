@@ -1,0 +1,60 @@
+name: Trial readout
+description: A trial has reported, been updated, or been stopped. Give the figures and the source.
+title: "readout: <trial id>"
+labels: [trial-readout]
+body:
+  - type: input
+    id: trial
+    attributes:
+      label: Trial
+      description: The OnCo trial id and kind, e.g. `ascent-04 (trial)`, or the NCT number if the trial is not in OnCo yet.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://onco.cc/trials/ascent-04/
+  - type: dropdown
+    id: readout
+    attributes:
+      label: Type of readout
+      options: [topline press release, congress presentation, full publication, regulatory filing or decision, protocol change or early stop, other]
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Headline result
+      description: One or two sentences. Primary endpoint met or not; the direction of effect.
+    validations:
+      required: true
+  - type: textarea
+    id: figures
+    attributes:
+      label: Endpoints and figures
+      description: Endpoint, arms, values and units, hazard ratio and confidence interval, p-value, number enrolled. Only numbers you can point to in the source.
+      placeholder: |
+        PFS (primary): 11.2 vs 7.8 months, HR 0.65 (95% CI 0.51-0.84), p<0.001, n=443
+        OS: immature
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: The publication, abstract, press release or registry entry the figures come from.
+    validations:
+      required: true
+  - type: input
+    id: coi
+    attributes:
+      label: Conflicts of interest
+      description: Employment, consulting, equity or grants related to this trial or its sponsor; or "none".
+    validations:
+      required: true

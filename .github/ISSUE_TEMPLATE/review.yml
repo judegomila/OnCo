@@ -1,0 +1,78 @@
+name: Review this page
+description: Sign off a page as a clinician, scientist, regulatory specialist or patient advocate, with a conflict-of-interest statement.
+title: "review: <entity id>"
+labels: [review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. A review is a statement that you read the page and its linked sources on a date and consider it accurate and fairly framed. It is not an endorsement. A maintainer verifies your identity, fixes anything you flag (each fix is a sourced edit), then records the sign-off in `src/data/reviews.ts`; the badge shows your name, the date and your conflicts of interest. Tracks: [REVIEWERS.md](https://github.com/judegomila/OnCo/blob/main/.github/REVIEWERS.md). Queue: https://onco.cc/review/
+  - type: input
+    id: entity
+    attributes:
+      label: Entity
+      description: The id and kind of the record, e.g. `tnbc (cancer)`. Prefilled when you arrive from the page.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://onco.cc/cancers/tnbc/
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      description: Clinical and scientific and regulatory reviews show as "Expert-reviewed"; advocate reviews as "Patient-advocate reviewed".
+      options: [clinical, scientific, regulatory, advocate]
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: What I checked
+      description: Tick what applies to your track. Leave the rest unticked.
+      options:
+        - label: I read the whole page and opened its linked sources.
+          required: true
+        - label: Clinical - standard-of-care rows match current NCCN or ESMO guidance, and trial figures match the primary publication.
+        - label: Scientific - mechanism, biology and evidence tier are accurately stated; speculation is labelled as such.
+        - label: Regulatory - approval dates, regions and indications match the label or agency notice.
+        - label: Advocate - the TL;DR, simple text and "questions to ask" are clear, non-alarming and accurate at the stated reading level.
+  - type: textarea
+    id: findings
+    attributes:
+      label: What I found
+      description: Anything wrong, missing or misleading, each with a source URL. "Nothing to correct" is a valid answer.
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: You
+      description: Name, role, organisation, as they should appear on the badge.
+    validations:
+      required: true
+  - type: input
+    id: verification
+    attributes:
+      label: Verification
+      description: A profile URL we can use to confirm identity (institutional page, ORCID, professional register, advocacy organisation page). If you have a person record on OnCo, give its id too.
+    validations:
+      required: true
+  - type: input
+    id: coi
+    attributes:
+      label: Conflicts of interest
+      description: Employment, consulting, advisory roles, equity or grants relevant to this page in the last three years. "None declared" is valid and is displayed.
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Sign-off
+      options:
+        - label: As of today, and to the best of my knowledge, the page is accurate and fairly framed once the findings above are addressed. I understand this is displayed publicly with my name and COI statement and is not an endorsement of any product.
+          required: true
+        - label: I agree that my contribution is published under CC BY 4.0.
+          required: true

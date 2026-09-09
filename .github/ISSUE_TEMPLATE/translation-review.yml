@@ -1,0 +1,67 @@
+name: Translation review
+description: Sign off a batch of translated TL;DRs in a language you speak, so pages show "Reviewed" instead of "MT".
+title: "translation review: <language>"
+labels: [translation, review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reviews are recorded per entity and language in `src/data/i18n/reviewed.ts` and shown on the page beside the translated TL;DR. Coverage per language: https://onco.cc/review/#translations
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options: [Spanish, Chinese, Portuguese, Hindi]
+    validations:
+      required: true
+  - type: textarea
+    id: entities
+    attributes:
+      label: Entities reviewed
+      description: One id per line. Add "(fixed)" after any whose translation you corrected in this issue, and give the corrected text below.
+      placeholder: |
+        tnbc
+        nsclc (fixed)
+        trastuzumab-deruxtecan
+    validations:
+      required: true
+  - type: textarea
+    id: corrections
+    attributes:
+      label: Corrected translations
+      description: For each "(fixed)" id, the corrected TL;DR.
+  - type: input
+    id: reviewer
+    attributes:
+      label: You
+      description: Name and role, as they should appear beside the "Reviewed" mark.
+    validations:
+      required: true
+  - type: input
+    id: verification
+    attributes:
+      label: Verification
+      description: A profile URL (institutional page, professional register, translator association) we can use to confirm identity.
+    validations:
+      required: true
+  - type: checkboxes
+    id: competence
+    attributes:
+      label: Language competence
+      options:
+        - label: I am a native or professional-level speaker of this language and familiar with its medical terminology.
+          required: true
+  - type: input
+    id: coi
+    attributes:
+      label: Conflicts of interest
+      description: Employment, consulting, equity or grants related to the records reviewed; or "none".
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Licence
+      options:
+        - label: I agree that my contribution is published under CC BY 4.0.
+          required: true

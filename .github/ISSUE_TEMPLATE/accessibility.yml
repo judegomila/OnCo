@@ -1,0 +1,38 @@
+name: Accessibility
+description: Something does not work with a screen reader, keyboard, zoom, high contrast or reduced motion.
+title: "a11y: "
+labels: [accessibility, bug]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      placeholder: https://onco.cc/...
+    validations:
+      required: true
+  - type: input
+    id: tech
+    attributes:
+      label: Assistive technology and browser
+      placeholder: VoiceOver with Safari 19 on macOS; NVDA with Firefox 145 on Windows; keyboard only; 200% zoom
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you tried, what happened, what you expected. Steps to reproduce help.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options: [blocks a task, makes a task hard, cosmetic]
+    validations:
+      required: true
+  - type: input
+    id: wcag
+    attributes:
+      label: WCAG criterion (optional)
+      placeholder: 1.4.3 Contrast, 2.1.1 Keyboard, 4.1.2 Name Role Value

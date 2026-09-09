@@ -920,7 +920,7 @@ export const bottlenecks: BottleneckInput[] = [
     name: "Regulatory divergence between regions",
     stage: "regulation-manufacturing",
     severity: "major",
-    tldr: "A drug approved in one country can take years to reach another, or never arrive.",
+    tldr: "Regulatory divergence means a drug approved in one country can take years to reach another, or never arrive.",
     summary: "Every major regulator (FDA, EMA, MHRA, PMDA, NMPA, TGA, Health Canada) requires its own dossier, applies its own evidence standards, and reviews on its own timeline, and approval is followed by a separate reimbursement process in each country. The result is a staggered global launch in which the same drug can be available in the US a year before the EU and years before Japan or China, or never filed at all in small or low-income markets. Sponsors also run duplicate or bridging trials to satisfy region-specific requirements, and divergent decisions on accelerated approvals create confusion about what the evidence actually shows. Harmonisation through ICH, collaborative review (Project Orbis, the Access Consortium), reliance pathways for smaller regulators, and the EU's joint clinical assessment are narrowing the gap, but the sequence of separate national decisions remains the norm.",
     metrics: [
       { label: "Median total review time for novel therapeutics at FDA vs EMA vs Health Canada, 2001-2010", value: "303 vs 366 vs 352 days", source: "Downing et al., NEJM 2012", url: "https://doi.org/10.1056/NEJMsa1200223" },
@@ -1448,7 +1448,7 @@ export const bottlenecks: BottleneckInput[] = [
     name: "Knowledge reaches practice too slowly",
     stage: "data-knowledge",
     severity: "major",
-    tldr: "It takes years for a proven result to change what most patients receive, and no one can keep up with the literature.",
+    tldr: "Knowledge diffusion is slow: it takes years for a proven result to change what most patients receive, and no one can keep up with the literature.",
     summary: "The often-quoted estimate that it takes 17 years for research evidence to reach clinical practice is an average across medicine, and oncology, with more than a million and a half new biomedical citations indexed in MEDLINE each year and guidelines that change several times a year in the major cancers, is at the demanding end. Oncologists in community practice cannot read the primary literature, guideline documents run to hundreds of pages, and knowledge is fragmented across specialties, so uptake of new standards (for example, biomarker testing, de-escalation, geriatric assessment) lags years behind evidence and varies widely between hospitals. Patients, meanwhile, cannot find trustworthy, current, plain-language information about their own disease and options. Living guidelines, curated knowledge bases embedded in clinical systems, decision support at the point of care, and open plain-language resources are the mechanisms for closing the gap.",
     metrics: [
       { label: "Estimated average time for research evidence to reach clinical practice", value: "17 years", source: "Morris, Wooding & Grant, Journal of the Royal Society of Medicine 2011", url: "https://doi.org/10.1258/jrsm.2011.110180" },

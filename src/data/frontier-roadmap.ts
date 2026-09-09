@@ -11,7 +11,7 @@ const asOf = "2026-09-08";
 export const frontierRoadmaps: RoadmapInput[] = [
   {
     id: "frontier-2035", kind: "roadmap", name: "Radical oncology: what could change the war by 2035", asOf,
-    tldr: "A horizon map of the wilder ideas in cancer, sorted by how close they are to mattering, with the reason each one might never arrive.",
+    tldr: "Radical oncology is a horizon map of the wilder ideas in cancer, sorted by how close they are to mattering, with the reason each one might never arrive.",
     summary: "Most of what is celebrated as a breakthrough is an incremental gain on an existing modality. This roadmap collects the ideas that would change the shape of treatment rather than its slope: therapies that read DNA directly, living drugs, radiation delivered in milliseconds, and detection that runs continuously rather than annually.\n\nThe grouping is by horizon, from technologies already producing randomised data to ideas with no human evidence at all. Placement reflects the state of evidence in September 2026, not company timelines. Several steps will not happen: the failure record of hypoxia-activated prodrugs, metabolic therapy, and matrix-softening agents is a reminder that a clean mechanism is not a clinical benefit.",
     sections: ["drug-discovery", "radiation", "cell-therapy", "early-detection"],
     steps: [

@@ -17,7 +17,7 @@ const d = (x: D): DrugInput => ({ kind: "drug", asOf, ...x });
 const trials: TrialInput[] = [
   t({ id: "checkmate-214", name: "CheckMate 214", nct: "NCT02231749", phase: "3", status: "positive", yearReported: 2018, sponsor: "BMS", enrolled: 1096,
     setting: "Untreated advanced clear-cell RCC: nivolumab + ipilimumab vs sunitinib",
-    tldr: "The trial that brought dual immunotherapy to kidney cancer, with a survival advantage still visible eight years later and a fifth of patients in long-term remission.",
+    tldr: "CheckMate 214 is the trial that brought dual immunotherapy to kidney cancer, with a survival advantage still visible eight years later and a fifth of patients in long-term remission.",
     summary: "Intermediate/poor-risk: OS HR 0.69 at 8 years; ITT OS HR 0.72; complete response ~12% with many durable off treatment. Favourable-risk patients did not gain OS. FDA approval April 2018. The comparator for every later first-line RCC trial and the backbone of COSMIC-313 and PDIGREE.",
     result: "8-year OS HR 0.72 (ITT), 0.69 (intermediate/poor risk).",
     outcomes: [
@@ -128,7 +128,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2006, indication: "Advanced RCC; imatinib-resistant GIST" }, { region: "US", year: 2017, indication: "Adjuvant RCC at high risk (S-TRAC), little used" }],
     targets: ["vegf", "kit"], technologies: ["kinase-inhibitors", "antiangiogenic"], companies: ["pfizer"], cancers: ["rcc", "sarcoma"], trials: ["checkmate-214", "keynote-426", "checkmate-9er", "clear"] }),
   d({ id: "axitinib", name: "Axitinib", brand: "Inlyta", modality: "Small-molecule kinase inhibitor (VEGFR)", status: "approved", wikipedia: W("Axitinib"),
-    tldr: "A selective VEGF-receptor pill, now given mainly with pembrolizumab or avelumab as first-line kidney cancer treatment.",
+    tldr: "Axitinib is a selective VEGF-receptor pill, now given mainly with pembrolizumab or avelumab as first-line kidney cancer treatment.",
     summary: "AXIS (2011): PFS 6.7 vs 4.7 months vs sorafenib in second line. Partner in KEYNOTE-426 (pembrolizumab, OS benefit) and JAVELIN Renal 101 (avelumab, PFS benefit). Short half-life allows titration and rapid washout for immune toxicity management.",
     mechanism: "Potent selective VEGFR1-3 inhibitor.",
     mechanismSteps: ["Oral, twice-daily dosing with short half-life", "Blocks VEGFR2 on endothelial cells", "Anti-angiogenesis normalises tumour vasculature, aiding T-cell entry when combined with PD-1 blockade"],
@@ -164,7 +164,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2009, indication: "Advanced RCC after sunitinib or sorafenib" }, { region: "US", year: 2012, indication: "HR+/HER2- breast cancer with exemestane" }],
     targets: ["akt"], technologies: ["kinase-inhibitors"], companies: ["novartis"], cancers: ["rcc", "breast-hr-positive", "neuroendocrine"], pathways: ["pi3k-akt-mtor"], trials: ["litespark-005", "clear"] }),
   d({ id: "tivozanib", name: "Tivozanib", brand: "Fotivda", modality: "Small-molecule kinase inhibitor (VEGFR)", status: "approved", wikipedia: W("Tivozanib"),
-    tldr: "A highly selective VEGF-receptor pill for kidney cancer after two or more prior treatments, notable for its tolerability and for a trial that closed the door on immunotherapy rechallenge.",
+    tldr: "Tivozanib is a highly selective VEGF-receptor pill for kidney cancer after two or more prior treatments, notable for its tolerability and for a trial that closed the door on immunotherapy rechallenge.",
     summary: "TIVO-3 (2019): PFS 5.6 vs 3.9 months vs sorafenib in third line and beyond; FDA approval March 2021. TiNivo-2 (2024-26): adding nivolumab gave no benefit after prior IO. AVEO, acquired by LG Chem in 2023.",
     mechanism: "Selective VEGFR1-3 inhibitor with low off-target kinase activity.",
     mechanismSteps: ["Oral dosing 3 weeks on / 1 off", "Potent VEGFR blockade with minimal PDGFR/KIT inhibition", "Less hand-foot syndrome and diarrhoea than multi-targeted TKIs"],
@@ -183,7 +183,7 @@ const technologies: TechnologyInput[] = [
     limitations: ["No reliable imaging biomarker for aggressive small tumours", "Surveillance anxiety and adherence"],
     cancers: ["rcc"], technologies: ["robotic-surgery", "thermal-ablation", "sbrt"] },
   { id: "caix-pet", kind: "technology", name: "CAIX PET (89Zr-girentuximab)", sections: ["imaging"], status: "phase-3", asOf,
-    tldr: "A PET scan using an antibody against a protein almost unique to clear-cell kidney cancer, to tell cancer from benign kidney lumps without a biopsy.",
+    tldr: "CAIX PET is a scan using an antibody against a protein almost unique to clear-cell kidney cancer, to tell cancer from benign kidney lumps without a biopsy.",
     summary: "ZIRCON phase 3 (2023): sensitivity 86%, specificity 87% for clear-cell RCC in indeterminate renal masses. Telix's TLX250-CDx received an FDA complete response letter in 2025 (manufacturing); resubmission planned. Also a theranostic pair with 177Lu-girentuximab (STARLITE trials).",
     principle: "89Zr-labelled anti-CAIX antibody girentuximab imaged 5 days after injection; CAIX is a HIF target expressed in >95% of clear-cell RCC via VHL loss.",
     strengths: ["Non-invasive histology-level specificity", "Whole-body staging of clear-cell disease"],
@@ -193,7 +193,7 @@ const technologies: TechnologyInput[] = [
 
 const terms: TermInput[] = [
   { id: "imdc-risk", kind: "term", name: "IMDC risk groups (favourable / intermediate / poor)", category: "Clinical", asOf,
-    tldr: "A six-factor score that sorts metastatic kidney cancer into three risk groups. It decides whether dual immunotherapy or immunotherapy plus a targeted pill is offered first.",
+    tldr: "The IMDC score uses six factors to sort metastatic kidney cancer into three risk groups. It decides whether dual immunotherapy or immunotherapy plus a targeted pill is offered first.",
     summary: "International Metastatic RCC Database Consortium (Heng) criteria: Karnofsky <80%, <1 year from diagnosis to treatment, anaemia, hypercalcaemia, neutrophilia, thrombocytosis. 0 factors favourable, 1-2 intermediate, ≥3 poor. Nivolumab-ipilimumab's OS benefit is confined to intermediate/poor risk; IO-TKI doublets benefit all groups on PFS, with less clear OS benefit in favourable risk.",
     cancers: ["rcc"], trials: ["checkmate-214", "keynote-426", "clear"] },
   { id: "sarcomatoid-rcc", kind: "term", name: "Sarcomatoid differentiation (RCC)", category: "Pathology", asOf,
@@ -212,7 +212,7 @@ const companies: CompanyInput[] = [
     summary: "Lenvatinib (Lenvima) across RCC, HCC, thyroid, endometrial cancer; eribulin (Halaven); lecanemab (Alzheimer's) with Biogen.",
     drugs: ["lenvatinib"], cancers: ["rcc", "hcc", "thyroid"] },
   { id: "aveo", kind: "company", name: "AVEO Oncology (LG Chem)", hq: "Boston, MA", country: "US", companyType: "biotech", website: "https://www.aveooncology.com", asOf, sections: ["targeted-therapy"],
-    tldr: "Developer of tivozanib, acquired by LG Chem in 2023.",
+    tldr: "AVEO Oncology developed tivozanib and was acquired by LG Chem in 2023.",
     summary: "Fotivda (tivozanib) in relapsed RCC; TiNivo-2 negative for IO rechallenge; ficlatuzumab (HGF) in head and neck cancer.",
     drugs: ["tivozanib"], cancers: ["rcc"] },
 ];
@@ -257,7 +257,7 @@ const spike: Spike = {
   patch: {
     asOf,
     summary: "Renal cell carcinoma is a cancer of the kidney's tubules, increasingly found by chance on scans done for other reasons. Three quarters are clear-cell tumours defined by loss of the VHL gene, which leaves the oxygen-sensing HIF-2α switch permanently on and makes the tumour intensely vascular and immune-infiltrated. That biology explains the whole modern treatment story: anti-VEGF pills (2005-2012), immunotherapy (2015 onward), their combination (2018 onward), and the first HIF-2α inhibitor, belzutifan (2021).\n\nFor metastatic disease, four immunotherapy-based first-line regimens have survival benefit: nivolumab-ipilimumab (CheckMate 214, durable remissions in a fifth of intermediate/poor-risk patients, still visible at eight years) and three IO-TKI doublets (pembrolizumab-axitinib, nivolumab-cabozantinib, lenvatinib-pembrolizumab). Attempts to do better in first line with triplets failed on survival (COSMIC-313) or fell short (LITESPARK-012), and two trials (CONTACT-03, TiNivo-2) showed that restarting immunotherapy after it fails does not help. After surgery, adjuvant pembrolizumab (KEYNOTE-564) was the first adjuvant immunotherapy in any solid tumour to improve overall survival, and in 2026 belzutifan plus pembrolizumab (LITESPARK-022) became the first adjuvant combination, though three other adjuvant immunotherapy trials were negative.\n\nWhat comes next: selecting who needs adjuvant therapy (ctDNA is weak in RCC; CAIX PET and gene signatures are candidates); CAIX theranostics with radiolabelled girentuximab; zanzalintinib and next-generation TKIs; HIF-2α combinations in the right setting; CD70 and CAIX cell therapies; treatment-free survival as an endpoint; and better management of the small renal masses that make up an increasing share of diagnoses, many of which need no treatment at all. Non-clear-cell histologies (papillary, chromophobe, translocation) remain under-served.",
-    burden: "About 430,000 cases and 180,000 deaths a year worldwide; incidence rising with imaging; ~20-30% metastatic at diagnosis; 5-year survival ~15% for metastatic disease overall, higher with modern IO regimens.",
+    burden: "Renal cell carcinoma causes about 430,000 cases and 180,000 deaths a year worldwide, with incidence rising as imaging finds more tumours; ~20-30% are metastatic at diagnosis. Five-year survival is ~15% for metastatic disease overall, higher with modern IO regimens.",
     subtypes: ["Clear-cell (~75%; VHL loss, HIF-2α driven)", "Papillary type 1 (MET) and type 2 (FH, others)", "Chromophobe", "Translocation (TFE3/TFEB)", "Collecting duct and medullary (SMARCB1)", "Sarcomatoid differentiation (any histology, ~10%)", "Hereditary syndromes: VHL, HLRCC (FH), BHD (FLCN), HPRC (MET)"],
     biomarkers: ["IMDC risk group (six clinical factors)", "Histology and sarcomatoid features", "VHL / HIF-2α axis (belzutifan)", "PD-L1 (not used for selection)", "CAIX (imaging; theranostic target)", "CD70 (CAR-T target)", "MET (papillary type 1)", "Gene-expression signatures (angiogenesis vs T-effector; research)", "ctDNA (low shedding; research)"],
     standardOfCare: [

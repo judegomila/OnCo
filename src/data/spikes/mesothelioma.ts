@@ -17,7 +17,7 @@ const d = (x: D): DrugInput => ({ kind: "drug", asOf, ...x });
 const trials: TrialInput[] = [
   t({ id: "checkmate-743", name: "CheckMate 743", nct: "NCT02899299", phase: "3", status: "positive", yearReported: 2020, sponsor: "BMS", enrolled: 605,
     setting: "Unresectable pleural mesothelioma, first line: nivolumab + ipilimumab vs platinum-pemetrexed",
-    tldr: "The first immunotherapy to lengthen survival in mesothelioma, and the first new first-line option in 16 years.",
+    tldr: "CheckMate 743 was the first immunotherapy trial to lengthen survival in mesothelioma, and gave the first new first-line option in 16 years.",
     summary: "OS 18.1 vs 14.1 months (HR 0.74); 3-year OS 23% vs 15%; 5-year OS 14% vs 6% (JCO 2025). Benefit largest in non-epithelioid histology (OS 18.1 vs 8.8 months), where chemotherapy performs poorly. FDA approval October 2020. Grade 3-4 treatment-related events 30%.",
     result: "OS 18.1 vs 14.1 months, HR 0.74; 5-year OS 14% vs 6%.",
     outcomes: [
@@ -39,7 +39,7 @@ const trials: TrialInput[] = [
     drugs: ["pembrolizumab", "pemetrexed"], cancers: ["mesothelioma"], links: [ct("NCT02784171"), { label: "Merck OS announcement", url: "https://www.merck.com/news/keytruda-pembrolizumab-plus-chemotherapy-significantly-improved-overall-survival-versus-chemotherapy-alone-as-first-line-treatment-for-advanced-malignant-pleural-mesothelioma/" }] }),
   t({ id: "maps", name: "MAPS", nct: "NCT00651456", phase: "3", status: "positive", yearReported: 2016, sponsor: "IFCT (France)", enrolled: 448,
     setting: "Unresectable pleural mesothelioma, first line: cisplatin-pemetrexed ± bevacizumab",
-    tldr: "Adding the anti-VEGF antibody bevacizumab to chemotherapy lengthened survival by about three months, the first improvement after pemetrexed.",
+    tldr: "In MAPS, adding the anti-VEGF antibody bevacizumab to chemotherapy lengthened survival by about three months, the first improvement after pemetrexed.",
     summary: "OS 18.8 vs 16.1 months (HR 0.77). Bevacizumab is NCCN-listed for mesothelioma but never received an FDA indication; use varies. Established angiogenesis as a valid target in the disease.",
     result: "OS 18.8 vs 16.1 months, HR 0.77.",
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Chemotherapy + bevacizumab", n: 223, value: 18.8 }, { name: "Chemotherapy", n: 225, value: 16.1 }], hr: 0.77, ci: [0.62, 0.95], p: "0.0167", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)01238-6/fulltext" }],
@@ -47,7 +47,7 @@ const trials: TrialInput[] = [
     drugs: ["pemetrexed"], targets: ["vegf"], technologies: ["antiangiogenic"], cancers: ["mesothelioma"], links: [ct("NCT00651456")] }),
   t({ id: "mars-2", name: "MARS 2", nct: "NCT02040272", phase: "3", status: "negative", yearReported: 2024, sponsor: "Royal Brompton / NIHR (UK)", enrolled: 335,
     setting: "Resectable pleural mesothelioma: extended pleurectomy/decortication + chemotherapy vs chemotherapy alone",
-    tldr: "The trial that overturned decades of surgical practice: removing the lining of the lung did not help patients live longer and left them worse off.",
+    tldr: "MARS 2 is the trial that overturned decades of surgical practice: removing the lining of the lung did not help patients live longer and left them worse off.",
     summary: "Survival was worse with surgery (HR 1.28, 95% CI 1.02-1.60; median 19.3 vs 24.8 months), with more serious adverse events and poorer quality of life. Extended pleurectomy/decortication is no longer recommended outside trials in most guidelines; MARS 1 had earlier cast doubt on extrapleural pneumonectomy.",
     result: "OS HR 1.28 favouring no surgery; median 19.3 vs 24.8 months.",
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Surgery + chemotherapy", n: 169, value: 19.3 }, { name: "Chemotherapy alone", n: 166, value: 24.8 }], hr: 1.28, ci: [1.02, 1.60], source: "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(24)00119-X/fulltext" }],
@@ -55,7 +55,7 @@ const trials: TrialInput[] = [
     technologies: ["pleurectomy-decortication"], cancers: ["mesothelioma"], tags: ["lesson:surgery-without-evidence"], links: [ct("NCT02040272")] }),
   t({ id: "lume-meso", name: "LUME-Meso", nct: "NCT01907100", phase: "3", status: "negative", yearReported: 2019, sponsor: "Boehringer Ingelheim", enrolled: 458,
     setting: "Epithelioid pleural mesothelioma, first line: cisplatin-pemetrexed ± nintedanib",
-    tldr: "A promising phase 2 signal for the multi-kinase inhibitor nintedanib vanished in phase 3.",
+    tldr: "In LUME-Meso, a promising phase 2 signal for the multi-kinase inhibitor nintedanib vanished in phase 3.",
     summary: "PFS 6.8 vs 7.0 months (HR 1.01); no OS benefit. A lesson in the unreliability of small randomised phase 2 PFS signals in mesothelioma.",
     result: "PFS HR 1.01, negative.",
     outcomes: [{ endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Nintedanib + chemotherapy", n: 229, value: 6.8 }, { name: "Placebo + chemotherapy", n: 229, value: 7.0 }], hr: 1.01, ci: [0.79, 1.30], source: "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(19)30139-0/fulltext" }],
@@ -75,7 +75,7 @@ const trials: TrialInput[] = [
     drugs: ["durvalumab", "pemetrexed"], cancers: ["mesothelioma"], tags: ["lesson:single-arm-to-phase-3"], links: [ct("NCT04334759"), { label: "2026 trial landscape (MesoWatch)", url: "https://mesowatch.org/news/2026/03/mesothelioma-clinical-trial-results-compared/" }] }),
   t({ id: "stellar", name: "STELLAR", nct: "NCT02397928", phase: "2", status: "positive", yearReported: 2019, sponsor: "Novocure", enrolled: 80,
     setting: "Unresectable pleural mesothelioma, first line: TTFields (150 kHz) + platinum-pemetrexed, single arm",
-    tldr: "The small single-arm study behind the device approval of tumour treating fields in mesothelioma.",
+    tldr: "STELLAR is the small single-arm study behind the device approval of tumour treating fields in mesothelioma.",
     summary: "Median OS 18.2 months versus 12.1 months in a historical chemotherapy control; led to FDA Humanitarian Device Exemption approval (May 2019). No randomised confirmation.",
     result: "Median OS 18.2 months (single arm) vs 12.1 historical.",
     outcomes: [{ endpoint: "Overall survival (single arm vs historical)", unit: "months", arms: [{ name: "TTFields + chemotherapy", n: 80, value: 18.2 }, { name: "Historical chemotherapy control", value: 12.1 }] }],
@@ -85,7 +85,7 @@ const trials: TrialInput[] = [
 
 const drugs: DrugInput[] = [
   d({ id: "pemetrexed", name: "Pemetrexed", brand: "Alimta (and generics)", modality: "Cytotoxic (antifolate)", status: "approved", wikipedia: W("Pemetrexed"),
-    tldr: "The chemotherapy that, with a platinum drug, became the first approved treatment for mesothelioma in 2004, and is still the backbone today.",
+    tldr: "Pemetrexed is the chemotherapy that, with a platinum drug, became the first approved treatment for mesothelioma in 2004, and is still the backbone today.",
     summary: "EMPHACIS (2003): cisplatin-pemetrexed OS 12.1 vs 9.3 months versus cisplatin alone, the first randomised survival gain in mesothelioma. Now given with pembrolizumab (KEYNOTE-483) or bevacizumab (MAPS). Also standard in non-squamous NSCLC. Requires folic acid and vitamin B12 supplementation.",
     mechanism: "Multitargeted antifolate inhibiting thymidylate synthase, DHFR, and GARFT.",
     mechanismSteps: ["Enters cells via the reduced folate carrier", "Polyglutamated and retained intracellularly", "Inhibits thymidylate synthase, blocking DNA synthesis", "Preferential toxicity to rapidly dividing cells; vitamin supplementation protects normal tissue"],
@@ -104,7 +104,7 @@ const drugs: DrugInput[] = [
 
 const technologies: TechnologyInput[] = [
   { id: "pleurectomy-decortication", kind: "technology", name: "Extended pleurectomy/decortication & radical mesothelioma surgery", sections: ["surgery"], status: "historic", asOf, wikipedia: W("Pleurectomy"),
-    tldr: "Operations that strip the tumour-bearing lining from the lung and chest wall. Long assumed to help; the MARS 2 trial showed they do not.",
+    tldr: "Pleurectomy and decortication are operations that strip the tumour-bearing lining from the lung and chest wall. They were long assumed to help; the MARS 2 trial showed they do not.",
     summary: "Extrapleural pneumonectomy (removing lung, pleura, diaphragm, pericardium) was largely abandoned after MARS 1 (2011) showed high mortality without benefit. Lung-sparing extended pleurectomy/decortication remained standard in selected centres until MARS 2 (2024) showed worse survival and quality of life with surgery plus chemotherapy than chemotherapy alone. Surgery now has a limited role: diagnosis, palliation (pleurodesis, indwelling catheters), and trials.",
     principle: "Macroscopic complete resection of parietal and visceral pleura with or without lung; usually within multimodality therapy.",
     strengths: ["Symptom relief in trapped lung", "Tissue for diagnosis and research"],
@@ -153,7 +153,7 @@ const spike: Spike = {
   patch: {
     asOf,
     summary: "Malignant pleural mesothelioma arises from the lining of the lung, almost always decades after asbestos exposure, and is rising in countries that banned asbestos late or not at all. It grows along surfaces rather than as a mass, is hard to image and stage, and resists most systemic therapy. Histology is the dominant biological variable: epithelioid tumours are slower and chemosensitive; sarcomatoid and biphasic tumours are aggressive, chemoresistant, and paradoxically more immunotherapy-responsive.\n\nFor 16 years after pemetrexed-cisplatin (2004) nothing improved survival except, modestly, adding bevacizumab (MAPS, 2016). Immunotherapy then changed the first line twice: nivolumab-ipilimumab (CheckMate 743, approved 2020) and pembrolizumab with chemotherapy (IND.227/KEYNOTE-483, approved September 2024). Tumour treating fields hold a device approval on single-arm data. Radical surgery, long assumed beneficial, was shown by MARS 2 (2024) to shorten survival and worsen quality of life, and is now largely confined to trials.\n\nWhat comes next is biology-led: PRMT5 and MAT2A inhibitors for the ~40-50% of tumours with MTAP deletion, mesothelin-directed CAR-T delivered into the pleural space, ADCs and T-cell engagers against mesothelin, and better use of histology and BAP1/CDKN2A status to choose therapy. Prevention remains the biggest lever: asbestos is still mined and used in parts of Asia, Russia, and Brazil.",
-    burden: "About 30,000 cases a year worldwide, ~3,000 in the US; median survival 12-18 months; incidence still rising in Asia and parts of Europe because of asbestos exposure 20-50 years ago.",
+    burden: "Mesothelioma causes about 30,000 cases a year worldwide, ~3,000 in the US, with median survival of 12-18 months. Incidence is still rising in Asia and parts of Europe because of asbestos exposure 20-50 years ago.",
     subtypes: ["Epithelioid (~60-70%)", "Biphasic (~20%)", "Sarcomatoid (~10-20%, includes desmoplastic)", "Peritoneal mesothelioma (~10-15% of all mesothelioma; treated with cytoreductive surgery and HIPEC)", "Pericardial and testicular (rare)"],
     biomarkers: ["Histology (epithelioid vs non-epithelioid) drives first-line choice", "BAP1 loss (diagnostic; germline BAP1 syndrome)", "CDKN2A/MTAP deletion (diagnostic; PRMT5-inhibitor target)", "Mesothelin (CAR-T, ADC, engager target)", "PD-L1 (weakly predictive)", "Soluble mesothelin-related peptides and fibulin-3 (research)", "Asbestos exposure history"],
     standardOfCare: [

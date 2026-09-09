@@ -5,7 +5,7 @@ const asOf = "2026-09-04";
 export const sections: SectionInput[] = [
   {
     id: "imaging", kind: "section", name: "Imaging", order: 1, asOf, icon: "scan",
-    tldr: "Ways of seeing cancer inside the body without cutting, from X-rays to tracers that light up a single protein.",
+    tldr: "Imaging covers the ways of seeing cancer inside the body without cutting, from X-rays to tracers that light up a single protein.",
     summary: "Anatomic imaging (CT, MRI, ultrasound) shows shape and size. Functional and molecular imaging (PET, SPECT) shows biology: glucose uptake, receptor expression, immune cell presence. The frontier is target-specific PET that predicts whether a targeted drug will work, and imaging that reads out treatment response within days rather than months.",
     tags: ["diagnosis", "staging", "response"],
   },
@@ -17,7 +17,7 @@ export const sections: SectionInput[] = [
   },
   {
     id: "early-detection", kind: "section", name: "Early Detection & Screening", order: 3, asOf, icon: "radar",
-    tldr: "Finding cancer before it causes symptoms, when it is most curable.",
+    tldr: "Early detection and screening means finding cancer before it causes symptoms, when it is most curable.",
     summary: "Population screening (mammography, colonoscopy, low-dose CT, HPV testing, PSA) has proven mortality benefit in several cancers. Blood-based multi-cancer early detection (MCED) and risk-adapted AI screening aim to extend this to cancers with no screening today.",
   },
   {
@@ -37,7 +37,7 @@ export const sections: SectionInput[] = [
   },
   {
     id: "targeted-therapy", kind: "section", name: "Targeted Therapy", order: 7, asOf, icon: "crosshair",
-    tldr: "Drugs designed to switch off a specific broken protein that a cancer depends on.",
+    tldr: "Targeted therapies are drugs designed to switch off a specific broken protein that a cancer depends on.",
     summary: "Small-molecule kinase inhibitors, monoclonal antibodies, hormone-pathway agents, PARP inhibitors, degraders (PROTACs, molecular glues), and synthetic-lethality approaches. Matched to a molecular alteration by a companion diagnostic. Resistance is the central problem; next-generation and combination strategies are the response.",
   },
   {
@@ -47,7 +47,7 @@ export const sections: SectionInput[] = [
   },
   {
     id: "immunotherapy", kind: "section", name: "Immunotherapy", order: 9, asOf, icon: "shield",
-    tldr: "Helping the patient's own immune system recognise and destroy the cancer.",
+    tldr: "Immunotherapy helps the patient's own immune system recognise and destroy the cancer.",
     summary: "Checkpoint inhibitors (PD-1, PD-L1, CTLA-4, LAG-3), bispecific T-cell engagers, cancer vaccines (including personalised mRNA neoantigen vaccines), oncolytic viruses, cytokines, and innate-immune agonists. Determining who responds, and converting cold tumours to hot, are the central problems.",
   },
   {
@@ -67,12 +67,12 @@ export const sections: SectionInput[] = [
   },
   {
     id: "epigenetics", kind: "section", name: "Epigenetic & Transcriptional Therapy", order: 13, asOf, icon: "helix",
-    tldr: "Changing how genes are read rather than the genes themselves.",
+    tldr: "Epigenetic and transcriptional therapy changes how genes are read rather than the genes themselves.",
     summary: "DNMT and HDAC inhibitors (haematologic malignancies), EZH2 inhibitors, IDH inhibitors, menin inhibitors (revumenib), BET inhibitors, and emerging transcription-factor degraders. Mostly established in blood cancers; solid tumours are catching up.",
   },
   {
     id: "supportive-care", kind: "section", name: "Supportive Care & Survivorship", order: 14, asOf, icon: "heart",
-    tldr: "Everything that keeps a patient well enough to receive treatment, and well afterwards.",
+    tldr: "Supportive care and survivorship covers everything that keeps a patient well enough to receive treatment, and well afterwards.",
     summary: "Anti-emetics, growth factors, scalp cooling, cardio-oncology, fertility preservation, geriatric assessment, palliative integration, exercise oncology, financial toxicity mitigation, and long-term survivorship monitoring. Under-studied relative to its impact.",
   },
   {
@@ -82,7 +82,7 @@ export const sections: SectionInput[] = [
   },
   {
     id: "drug-discovery", kind: "section", name: "Drug Discovery Platforms", order: 16, asOf, icon: "beaker",
-    tldr: "The tools used to find the next drug: gene screens, organoids, models in mice, and AI.",
+    tldr: "Drug discovery platforms are the tools used to find the next drug: gene screens, organoids, models in mice, and AI.",
     summary: "CRISPR functional genomics (DepMap), patient-derived organoids and xenografts, ex vivo drug sensitivity testing, structure-based and AI-driven design, degrader platforms, and conjugation chemistry.",
   },
   {
@@ -99,7 +99,7 @@ export const sections: SectionInput[] = [
   },
   {
     id: "devices", kind: "section", name: "Devices & Physical Therapies", order: 18, asOf, icon: "device",
-    tldr: "Machines that treat cancer with electric fields, heat, or sound rather than chemicals.",
+    tldr: "Devices and physical therapies treat cancer with electric fields, heat, or sound rather than chemicals.",
     summary: "Tumour treating fields (Optune, now approved in pancreatic cancer), hyperthermia, HIFU, histotripsy, photodynamic and photoimmunotherapy, electroporation, and intraoperative devices.",
   },
 ];

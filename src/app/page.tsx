@@ -8,6 +8,8 @@ import { NAV_GROUPS } from "@/lib/nav";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { FrontIcon } from "@/components/FrontIcon";
 import { NavIcon } from "@/components/NavIcon";
+import { MoleculeThumb } from "@/components/MoleculeThumb";
+import { hasMolecule } from "@/lib/structures";
 import { GardenBackdrop } from "@/components/Garden";
 import { GardenDivider } from "@/components/GardenDivider";
 
@@ -100,7 +102,7 @@ export default function Home() {
               <p className="text-sm text-muted"><span className="font-semibold text-foreground tabular-nums">{fmt(total)}</span> linked objects, one page each. Every count is a link.</p>
               <Link href="/api/" className="text-sm text-muted hover:text-foreground underline decoration-foreground/20 underline-offset-[3px]">Whole corpus as JSON</Link>
             </div>
-            <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-px rounded-xl border border-border bg-border overflow-hidden shadow-card">
+            <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-px rounded-xl border border-border bg-card overflow-hidden shadow-card [&>li]:border-border [&>li]:border-b [&>li]:border-r">
               {counts.map(({ k, n }) => (
                 <li key={k} className="bg-card">
                   <Link href={`/${KIND_META[k].route}/`} className="flex h-full flex-col gap-1 px-3.5 py-3 hover:bg-surface transition-colors">
@@ -189,9 +191,12 @@ export default function Home() {
             </div>
             <ul className="divide-y divide-border">
               {approvals.slice(0, 10).map((d) => (
-                <li key={d.id} className="px-4 py-2.5">
-                  <Link href={routeFor(d)} className="font-medium hover:underline">{d.name}</Link>
-                  <div className="text-xs text-muted mt-0.5 leading-relaxed line-clamp-2">{d.approvals.filter((a) => a.year === approvalYear).map((a) => a.indication).join("; ")}</div>
+                <li key={d.id} className="px-4 py-2.5 flex items-start gap-3">
+                  {hasMolecule(d.id) && <span className="shrink-0 rounded-md border border-border bg-card"><MoleculeThumb drugId={d.id} className="h-11 w-11" /></span>}
+                  <div className="min-w-0">
+                    <Link href={routeFor(d)} className="font-medium hover:underline">{d.name}</Link>
+                    <div className="text-xs text-muted mt-0.5 leading-relaxed line-clamp-2">{d.approvals.filter((a) => a.year === approvalYear).map((a) => a.indication).join("; ")}</div>
+                  </div>
                 </li>
               ))}
             </ul>

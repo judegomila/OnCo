@@ -2,6 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { MoleculeThumb } from "./MoleculeThumb";
+import { STRUCTURES } from "@/lib/structures";
 import { KIND_META, type Kind } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
@@ -81,6 +83,7 @@ export function CompareView({ items }: { items: CompareItem[] }) {
               {chosen.map((it) => (
                 <th key={it.id} className="min-w-[220px] normal-case tracking-normal">
                   <div className="flex items-center gap-2 mb-1"><span className={`chip border ${KIND_COLOR[it.kind as Kind]}`}>{KIND_META[it.kind].label}</span>{it.status && <span className={`chip ${statusClass(it.status)}`}>{STATUS_LABEL[it.status] ?? it.status}</span>}</div>
+                  {it.kind === "drug" && STRUCTURES[it.id] && <div className="mb-2 inline-block rounded-md border border-border bg-card"><MoleculeThumb drugId={it.id} className="h-20 w-20" /></div>}
                   <Link href={it.route} className="font-semibold text-base text-foreground hover:underline">{it.name}</Link>
                   <p className="text-xs text-muted mt-1 font-normal line-clamp-3">{it.tldr}</p>
                 </th>

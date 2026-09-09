@@ -7,6 +7,8 @@ import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { Tip } from "./Tip";
 import { CancerIcon } from "./CancerIcon";
+import { MoleculeThumb } from "./MoleculeThumb";
+import { STRUCTURES } from "@/lib/structures";
 
 export type Lite = { id: string; name: string; tldr: string; route: string; status?: string };
 export type PickerCancer = { id: string; name: string; group: string; tldr: string; route: string; stateOfArt: string[]; pipeline: Lite[]; groups: Partial<Record<Kind, Lite[]>> };
@@ -118,10 +120,13 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
                   <div className="flex items-baseline gap-3 mb-3 pb-2 border-b border-border"><h3 className="text-xl font-semibold capitalize">{KIND_META[k].plural}</h3><span className="text-sm text-muted">{KIND_HINT[k]}</span><span className="ml-auto text-sm text-muted tabular-nums">{items.length}</span></div>
                   <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                     {items.map((e) => (
-                      <Link key={e.id} href={e.route} className={`card p-3 hover:shadow-md transition border ${KIND_COLOR[k]}`}>
-                        <div className="flex items-center gap-2">{e.status && <span className={`chip ${statusClass(e.status)}`}>{STATUS_LABEL[e.status] ?? e.status}</span>}{chosen.length > 1 && e.n > 1 && <span className="text-xs text-muted">{e.n} of your cancers</span>}</div>
-                        <div className="font-medium mt-1 leading-snug">{e.name}</div>
-                        <p className="text-xs text-muted mt-0.5 line-clamp-2">{e.tldr}</p>
+                      <Link key={e.id} href={e.route} className={`card p-3 hover:shadow-md transition border ${KIND_COLOR[k]} ${k === "drug" && STRUCTURES[e.id] ? "flex gap-3" : ""}`}>
+                        {k === "drug" && STRUCTURES[e.id] && <span className="shrink-0 rounded-md border border-border bg-card"><MoleculeThumb drugId={e.id} className="h-14 w-14" /></span>}
+                        <span className="min-w-0 block">
+                          <div className="flex items-center gap-2">{e.status && <span className={`chip ${statusClass(e.status)}`}>{STATUS_LABEL[e.status] ?? e.status}</span>}{chosen.length > 1 && e.n > 1 && <span className="text-xs text-muted">{e.n} of your cancers</span>}</div>
+                          <div className="font-medium mt-1 leading-snug">{e.name}</div>
+                          <p className="text-xs text-muted mt-0.5 line-clamp-2">{e.tldr}</p>
+                        </span>
                       </Link>
                     ))}
                   </div>

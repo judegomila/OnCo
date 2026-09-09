@@ -8,6 +8,8 @@ import { KIND_META, type Kind } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { CancerIcon } from "./CancerIcon";
+import { MoleculeThumb } from "./MoleculeThumb";
+import { STRUCTURES } from "@/lib/structures";
 
 export type TbCancer = { id: string; name: string; group: string; route: string };
 const GROUPS: BiomarkerGroup[] = ["IHC", "genomic", "germline", "immune"];
@@ -126,7 +128,7 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
                         {items.map(({ row, score, hits }, i) => (
                           <tr key={row.id}>
                             <td className="tabular-nums text-muted">{i + 1}</td>
-                            <td className="min-w-[220px]"><Link href={row.route} className="font-medium hover:underline">{row.name}</Link><div className="text-xs text-muted line-clamp-2 max-w-md">{row.meta && <span className="text-foreground/70">{row.meta} · </span>}{row.tldr}</div></td>
+                            <td className="min-w-[220px]"><div className="flex items-start gap-2">{row.kind === "drug" && STRUCTURES[row.id] && <span className="shrink-0 rounded-md border border-border bg-card"><MoleculeThumb drugId={row.id} className="h-10 w-10" /></span>}<div><Link href={row.route} className="font-medium hover:underline">{row.name}</Link><div className="text-xs text-muted line-clamp-2 max-w-md">{row.meta && <span className="text-foreground/70">{row.meta} · </span>}{row.tldr}</div></div></div></td>
                             <td>{row.status && <span className={`chip ${statusClass(row.status)}`}>{STATUS_LABEL[row.status] ?? row.status}</span>}</td>
                             <td className="hidden md:table-cell"><div className="flex flex-wrap gap-1">{hits.map((h) => <span key={h} className={`chip text-[10px] border ${KIND_COLOR[k]}`}>{h}</span>)}{cancer && row.cancers.includes(cancer) && <span className="chip text-[10px] bg-foreground/5">this cancer +2</span>}</div></td>
                             <td className="tabular-nums font-semibold">{score}</td>

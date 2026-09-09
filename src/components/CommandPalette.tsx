@@ -95,6 +95,7 @@ export function CommandPalette() {
           {items.map((it, i) => (
             <li key={it.id} role="option" aria-selected={i === active} onMouseEnter={() => setActive(i)} onMouseDown={(e) => { e.preventDefault(); go(it); }}
               className={`flex items-start gap-3 px-4 py-2 cursor-pointer ${i === active ? "bg-foreground/5" : ""}`}>
+              {it.kind === "drug" && STRUCTURES[it.id] && <span className="shrink-0 rounded-md border border-border bg-card"><MoleculeThumb drugId={it.id} className="h-9 w-9" /></span>}
               <span className={`chip mt-0.5 border shrink-0 ${it.kind ? KIND_COLOR[it.kind] : "bg-foreground/5 border-border"}`}>{it.kind ? KIND_META[it.kind].label : "Page"}</span>
               <span className="min-w-0 flex-1">
                 <span className="block text-sm font-medium truncate">{it.name}</span>

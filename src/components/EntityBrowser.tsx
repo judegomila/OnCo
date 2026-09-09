@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Tip } from "@/components/Tip";
+import { MoleculeThumb } from "./MoleculeThumb";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
@@ -14,6 +15,8 @@ import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/Re
  */
 export type BrowserRow = {
   id: string; name: string; tldr: string; route: string; status?: string;
+  /** Drug id with a structure: renders a small rotating molecule beside the name. */
+  molecule?: string;
   /** Facet values keyed by facet key; arrays for multi-valued facets. */
   facets: Record<string, string[]>;
   /** Extra columns keyed by column key: formatted strings, numbers, or lists of links. */
@@ -108,7 +111,8 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
   const tableCols: Column<BrowserRow>[] = [
     { key: "name", label: "Name", sortable: true, render: (r) => (
       <div className="min-w-[220px] flex items-start gap-2">
-        {r.logo && (
+        {r.molecule && <Link href={r.route} aria-hidden tabIndex={-1} className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-border bg-card overflow-hidden"><MoleculeThumb drugId={r.molecule} className="h-10 w-10" /></Link>}
+        {r.logo && !r.molecule && (
           <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md border border-border bg-white overflow-hidden">
             {/* eslint-disable-next-line @next/next/no-img-element -- hotlinked favicon, never copied */}
             <img src={r.logo} alt="" className="h-[70%] w-[70%] object-contain" loading="lazy" referrerPolicy="no-referrer" />

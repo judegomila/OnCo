@@ -37,6 +37,7 @@ import { institutionsEurope } from "./institutions/europe";
 import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
+import { mechanicsPathways } from "./mechanics-pathways";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -77,4 +78,5 @@ export const ALL_INPUTS: EntityInput[] = [
   ...institutionsEurope,
   ...foundationModels,
   ...foundationRoadmaps,
+  ...mechanicsPathways,
 ];

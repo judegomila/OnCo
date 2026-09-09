@@ -43,6 +43,7 @@ export const NAV_GROUPS: NavGroup[] = [
     items: [
       { href: "/journals/", label: "Journals", blurb: "Where the evidence is published: scope, access model and the key papers each venue carried." },
       { href: "/key-papers/", label: "Key papers", blurb: "The papers that changed practice, each explained: what it found, what it means, what to be careful about." },
+      { href: "/explained/", label: "Trials in plain words", blurb: "Every trial result as people out of 100, medians explained, surrogate endpoints flagged." },
       { href: "/evidence/", label: "Evidence", blurb: "Every trial ranked by evidence strength, endpoints as people out of 100." },
       { href: "/calendar/", label: "Readout calendar", blurb: "Decisions, readouts, advisory committees, congresses." },
       { href: "/digests/", label: "Congress digests", blurb: "ASCO, ESMO, AACR, ASCO GU, sourced item by item." },
@@ -75,6 +76,24 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/countries/", label: "Countries", blurb: "Who is doing the most cancer research: output, growth, trials, burden, funders." },
       { href: "/cases/", label: "Cases by country", blurb: "New cancer cases per country and per cancer, with the data gaps made explicit." },
       { href: "/funding/", label: "Funding flows", blurb: "Where the money comes from." },
+    ],
+  },
+  {
+    id: "live", label: "Living with cancer", href: "/live/", blurb: "Practical help for patients, families and carers: what to ask, what to watch for, what it costs and who can help, in plain words.",
+    items: [
+      { href: "/for-me/", label: "For me", blurb: "Pick your cancer type and see what works and what could work." },
+      { href: "/prep/", label: "Appointment prep pack", blurb: "Tick the questions to ask for your cancer, add your own, and print or download one page for the appointment." },
+      { href: "/side-effects/", label: "Side effects", blurb: "Start from the symptom: which treatments cause it, how often, and when to call." },
+      { href: "/symptoms/", label: "Symptom to test", blurb: "Start from a worrying symptom: what it can mean, which test comes first, and the referral thresholds guidelines state." },
+      { href: "/report-reader/", label: "Report reader", blurb: "Type the values from a pathology report and read what each one means. Nothing is stored." },
+      { href: "/survivorship/", label: "Survivorship planner", blurb: "Late effects to watch for after each treatment, the screening test, how often, and the guideline that says so." },
+      { href: "/second-opinion/", label: "Second opinion", blurb: "Expert centres for your cancer in your country, the people who work on it, and how referral works where you live." },
+      { href: "/assistance/", label: "Financial help", blurb: "Manufacturer programmes, reimbursement and generics by country and product, plus national schemes and charities." },
+      { href: "/coverage/us/", label: "Paying for care (US)", blurb: "Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product." },
+      { href: "/coverage/uk/", label: "What the NHS offers", blurb: "NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works." },
+      { href: "/fronts/nutrition-lifestyle/", label: "Diet, exercise and lifestyle", blurb: "What people eat, drink, weigh and do: what the evidence says and what is hype." },
+      { href: "/fronts/supportive-care/", label: "Supportive care", blurb: "Treating the person, not just the tumour: symptoms, side effects, nutrition, mental health." },
+      { href: "/heroes/", label: "Heroes and heroines", blurb: "The patients, families, advocates and pioneers whose lives and cases changed cancer." },
     ],
   },
   {

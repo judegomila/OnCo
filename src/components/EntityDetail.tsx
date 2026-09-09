@@ -24,6 +24,7 @@ import { schematicFor } from "@/data/schematics";
 import { Tabs, type Tab } from "./Tabs";
 import { RoadmapStory } from "./RoadmapStory";
 import { TrialOutcomes } from "./Pictogram";
+import { TrialExplainer } from "./TrialExplainer";
 import { EvidenceBar } from "./EvidenceBar";
 import { GuidelineChip } from "./GuidelineChip";
 import { PrevalenceTable, CancerPrevalence } from "./PrevalenceTable";
@@ -284,7 +285,7 @@ function kindTabs(e: Entity): Tab[] {
           <Field label="Enrolled">{e.enrolled}</Field>
           <Field label="Replication">{e.replication}</Field>
         </div>),
-        ...(e.outcomes.length ? [{ id: "outcomes", label: "Outcomes", count: e.outcomes.length, content: <TrialOutcomes t={e} /> }] : []),
+        ...(e.outcomes.length ? [{ id: "outcomes", label: "Outcomes", count: e.outcomes.length, content: <div className="space-y-4"><TrialExplainer trial={e} /><TrialOutcomes t={e} /></div> }] : []),
       ];
     case "pairing": {
       const a = g.get(e.a), b = g.get(e.b);

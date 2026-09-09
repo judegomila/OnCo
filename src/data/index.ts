@@ -31,6 +31,8 @@ import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
 import { termsBasics } from "./terms-basics";
 import { institutionsUs } from "./institutions/us";
+import { institutionsWorld } from "./institutions/world";
+import { institutionsBodies } from "./institutions/bodies";
 import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
@@ -69,6 +71,8 @@ export const ALL_INPUTS: EntityInput[] = [
   ...journals,
   ...termsBasics,
   ...institutionsUs,
+  ...institutionsWorld,
+  ...institutionsBodies,
   ...foundationModels,
   ...foundationRoadmaps,
 ];

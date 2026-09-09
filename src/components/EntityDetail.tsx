@@ -59,6 +59,11 @@ import { ApprovalChip } from "./ApprovalChip";
 import { TargetSchematic } from "./TargetSchematic";
 import { Tip } from "./Tip";
 import { TargetExplainer } from "./TargetExplainer";
+import { CoverageUsCard } from "./CoverageUs";
+import { CoverageUkCard } from "./CoverageUk";
+import { coverageUs } from "@/data/coverage-us";
+import { coverageUk } from "@/data/coverage-uk";
+import { SurvivalDisclosure } from "./SurvivalDisclosure";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
@@ -221,6 +226,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Linker">{e.linker}</Field>
           </div>
           {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
+          {(coverageUs[e.id] || coverageUk[e.id]) && <div className="mt-6 grid gap-4 md:grid-cols-2">{coverageUs[e.id] && <CoverageUsCard drugId={e.id} />}{coverageUk[e.id] && <CoverageUkCard drugId={e.id} />}</div>}
           {regionalApprovals[e.id] && <div className="mt-6"><div className="kicker mb-2">Where it is approved</div><RegionStrip row={regionalApprovals[e.id]} /><p className="text-xs text-muted mt-1"><Link className="underline" href="/regulatory/regions/">Compare all products across the US, EU, UK, Japan, China and Australia →</Link></p></div>}
         </>),
         ...(e.approvals.length || e.regulatoryEvents.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length, content: (<>
@@ -504,11 +510,11 @@ function cancerTabs(c: Cancer): Tab[] {
   return [
     { id: "overview", label: "Overview", content: <>
       <Summary e={c} />
+      <Block title="State of the art today"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
       <div className="grid gap-6 sm:grid-cols-2 mt-8">
-        <Field label="Who it affects">{c.burden ? withTermHovers(c.burden, { skipId: c.id }) : null}</Field>
+        <Field label="Who it affects"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>
         <Field label="Group"><Tip title={`${c.group[0].toUpperCase()}${c.group.slice(1)} cancers`} text={`All ${c.group} cancers in OnCo, filtered in the cancers table.`} href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}><Link className="capitalize underline decoration-dotted decoration-foreground/30 underline-offset-[3px]" href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}>{c.group}</Link></Tip></Field>
       </div>
-      <Block title="State of the art today"><Bullets items={c.stateOfArt} linked={(t) => withTermHovers(t, { skipId: c.id })} /></Block>
       <Block title="Where the cases are"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
     </> },
     { id: "care", label: "Standard of care", count: c.standardOfCare.length, content: (

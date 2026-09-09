@@ -49,6 +49,8 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/resistance/", label: "Resistance atlas", blurb: "Escape routes per drug class and the countermeasures." },
       { href: "/payloads/", label: "Payloads & linkers", blurb: "The chemistry inside ADCs." },
       { href: "/regulatory/", label: "Regulatory timeline", blurb: "Every dated filing, approval, CRL, and label change." },
+      { href: "/coverage/us/", label: "Paying for care (US)", blurb: "Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product." },
+      { href: "/coverage/uk/", label: "What the NHS offers", blurb: "NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works." },
       { href: "/regulatory/regions/", label: "Approvals by region", blurb: "Which products are approved in the US, EU, UK, Japan, China and Australia, and which are missing where." },
       { href: "/papers/", label: "What the world is publishing", blurb: "Fastest-growing topics in the literature, refreshed weekly from Europe PMC." },
       { href: "/pulse/", label: "Research pulse", blurb: "What the leading journals, regulators and news sources are saying this month." },

@@ -3,16 +3,27 @@
  * These are product and community ideas, distinct from the scientific ideas in ideas.ts.
  * Status is editorial: shipped | building | planned | proposed.
  */
-export type HubIdea = { n: number; title: string; why: string; status: "shipped" | "building" | "planned" | "proposed"; theme: string };
+export type HubIdea = {
+  n: number;
+  title: string;
+  why: string;
+  status: "shipped" | "building" | "planned" | "proposed";
+  theme: string;
+  /**
+   * Id of a corpus-health metric (src/lib/health.ts) that measures whether the claim holds. When the metric is
+   * below its target, the Roadmap shows the idea as "needs work" with the gauge linked, whatever the status says.
+   */
+  metric?: string;
+};
 
 export const hubIdeas: HubIdea[] = [
   // Knowledge graph
-  { n: 1, title: "Page per object, backlinks everywhere", why: "Every technology, target, drug, company, trial, and term has a URL and shows what links to it. That is what makes a hub rather than a list.", status: "shipped", theme: "Knowledge graph" },
-  { n: 2, title: "Non-technical TL;DR on every page", why: "Patients, families, journalists, and investors should get the point in one sentence before the jargon.", status: "shipped", theme: "Knowledge graph" },
+  { n: 1, title: "Page per object, backlinks everywhere", why: "Every technology, target, drug, company, trial, and term has a URL and shows what links to it. That is what makes a hub rather than a list.", status: "shipped", theme: "Knowledge graph", metric: "orphans" },
+  { n: 2, title: "Non-technical TL;DR on every page", why: "Patients, families, journalists, and investors should get the point in one sentence before the jargon.", status: "shipped", theme: "Knowledge graph", metric: "tldr" },
   { n: 3, title: "Public JSON API of the whole corpus", why: "Let others build on the data: trial matchers, chatbots, dashboards. Published at /api/v1/.", status: "shipped", theme: "Knowledge graph" },
   { n: 4, title: "Graph explorer", why: "An interactive force graph to navigate from a cancer to its targets to the drugs and the companies, visually.", status: "shipped", theme: "Knowledge graph" },
   { n: 5, title: "Wikidata / Wikipedia cross-linking and edit-back", why: "Push structured facts to Wikidata and pull Wikipedia summaries, so the hub and the commons improve each other.", status: "proposed", theme: "Knowledge graph" },
-  { n: 6, title: "'As of' dates and change log on every fact", why: "Oncology changes weekly. Show when each fact was checked and what changed, like a package changelog.", status: "shipped", theme: "Knowledge graph" },
+  { n: 6, title: "'As of' dates and change log on every fact", why: "Oncology changes weekly. Show when each fact was checked and what changed, like a package changelog.", status: "shipped", theme: "Knowledge graph", metric: "stale" },
   { n: 7, title: "Evidence tiers (approved / phase 3 / phase 2 / preclinical / concept) as a visual language", why: "Colour and badge every claim by evidence level so hype is visible at a glance.", status: "shipped", theme: "Knowledge graph" },
 
   // Patient-facing
@@ -27,7 +38,7 @@ export const hubIdeas: HubIdea[] = [
 
   // Science and pipeline
   { n: 16, title: "Roadmaps per technology family", why: "History → current → emerging → speculative, with linked evidence. ADC, TROP2, radiopharma, cell therapy, imaging, early detection shipped.", status: "shipped", theme: "Pipeline" },
-  { n: 17, title: "Pipeline tracker with automated ClinicalTrials.gov ingestion", why: "Nightly job pulls phase 2/3 trials for every drug and target in the corpus and flags new ones for review.", status: "shipped", theme: "Pipeline" },
+  { n: 17, title: "Pipeline tracker with automated ClinicalTrials.gov ingestion", why: "Nightly job pulls phase 2/3 trials for every drug and target in the corpus and flags new ones for review.", status: "shipped", theme: "Pipeline", metric: "trials-snapshot" },
   { n: 18, title: "Readout calendar", why: "Expected trial readouts, FDA PDUFA dates, and advisory committees (e.g., Galleri 23 Sep 2026) on one timeline.", status: "shipped", theme: "Pipeline" },
   { n: 19, title: "Conference digests (ASCO, ESMO, AACR, SABCS, ASH)", why: "Within a week of each congress, update the affected objects and publish a diff.", status: "shipped", theme: "Pipeline" },
   { n: 20, title: "Failure museum", why: "A section for drugs and ideas that failed (TIGIT, magrolimab, rovalpituzumab, iniparib) with what was learned. Failures are data.", status: "shipped", theme: "Pipeline" },
@@ -46,8 +57,8 @@ export const hubIdeas: HubIdea[] = [
 
   // Community and contribution
   { n: 31, title: "GitHub-native contribution", why: "Every object is a TypeScript record; PRs with sources are the edit mechanism. CI validates links and references.", status: "shipped", theme: "Community" },
-  { n: 32, title: "Source-required rule", why: "Like the Open Medical Registry: no claim without a URL and a date. Unknown is better than guessed.", status: "shipped", theme: "Community" },
-  { n: 33, title: "Expert review badges", why: "Clinicians and scientists sign off on pages in their area; badge shows reviewer and date.", status: "shipped", theme: "Community" },
+  { n: 32, title: "Source-required rule", why: "Like the Open Medical Registry: no claim without a URL and a date. Unknown is better than guessed.", status: "shipped", theme: "Community", metric: "sources" },
+  { n: 33, title: "Expert review badges", why: "Clinicians and scientists sign off on pages in their area; badge shows reviewer and date.", status: "shipped", theme: "Community", metric: "reviewed" },
   { n: 34, title: "Patient-advocate review track", why: "Advocacy groups (LBBC, BCRF, TNBC Foundation, PanCAN) review TL;DRs for clarity and tone.", status: "proposed", theme: "Community" },
   { n: 35, title: "Bounties for gaps", why: "List missing objects and stale facts; recognise contributors who fill them.", status: "shipped", theme: "Community" },
   { n: 36, title: "Weekly 'what changed in oncology' newsletter generated from the diff", why: "The changelog is the newsletter. Zero extra editorial cost.", status: "shipped", theme: "Community" },
@@ -67,32 +78,32 @@ export const hubIdeas: HubIdea[] = [
   { n: 46, title: "Static, fast, cheap hosting", why: "Static export on Vercel; loads anywhere including low-bandwidth settings.", status: "shipped", theme: "Reach" },
   { n: 47, title: "Schema.org structured data for search engines", why: "MedicalCondition, Drug, MedicalStudy markup so the hub is machine-readable to Google and AI crawlers.", status: "shipped", theme: "Reach" },
   { n: 48, title: "Partnerships with existing collections", why: "Link out to and ingest from OncoKB, CIViC, ClinicalTrials.gov, ADCdb, NCI PDQ rather than duplicating them.", status: "building", theme: "Reach" },
-  { n: 49, title: "Cancer-by-cancer deep dives with domain experts", why: "TNBC is first. Next: pancreatic, NSCLC, prostate, glioblastoma, each with a named expert reviewer.", status: "shipped", theme: "Reach" },
+  { n: 49, title: "Cancer-by-cancer deep dives with domain experts", why: "TNBC is first. Next: pancreatic, NSCLC, prostate, glioblastoma, each with a named expert reviewer.", status: "shipped", theme: "Reach", metric: "reviewed" },
   { n: 50, title: "Annual 'State of the War on Cancer' report", why: "Generated from the corpus: approvals, failures, roadmap progress, open problems. A yearly reference point.", status: "shipped", theme: "Reach" },
 ];
 
 /** Second roadmap (2026-09-07): 50 ideas to make OnCo better, deeper, more user-friendly, more powerful. */
 export const hubIdeas2: HubIdea[] = [
-  { n: 1, title: "Build every cancer to TNBC depth", why: "All 31 cancers now carry standard of care by setting with guideline mapping, history, pipeline, open problems, and landmark trials with structured outcomes.", status: "shipped", theme: "Depth" },
-  { n: 2, title: "Structured trial outcomes", why: "Arms, N, endpoints, hazard ratios and confidence intervals on every trial.", status: "shipped", theme: "Depth" },
+  { n: 1, title: "Build every cancer to TNBC depth", why: "All 31 cancers now carry standard of care by setting with guideline mapping, history, pipeline, open problems, and landmark trials with structured outcomes.", status: "shipped", theme: "Depth", metric: "cancer-depth" },
+  { n: 2, title: "Structured trial outcomes", why: "Arms, N, endpoints, hazard ratios and confidence intervals on every trial.", status: "shipped", theme: "Depth", metric: "trial-outcomes" },
   { n: 3, title: "Out-of-100 pictograms", why: "Percent endpoints drawn as people, time endpoints as median bars.", status: "shipped", theme: "Depth" },
   { n: 4, title: "Dosing and schedule on product pages", why: "Route, cycle, modifications, monitoring, with the label as source.", status: "shipped", theme: "Depth" },
   { n: 5, title: "Structured toxicity profiles", why: "Grade 3+ rates by event, comparable across a class at /toxicity/.", status: "shipped", theme: "Depth" },
   { n: 6, title: "Cost and access layer", why: "Price where disclosed, reimbursement, assistance programmes, generics.", status: "shipped", theme: "Depth" },
   { n: 7, title: "Guideline mapping", why: "NCCN category and ESMO-MCBS grade on standard-of-care rows where sourced.", status: "shipped", theme: "Depth" },
   { n: 8, title: "Regulatory timeline objects", why: "Filings, PDUFA dates, CRLs, label changes as dated events; browse at /regulatory/.", status: "shipped", theme: "Depth" },
-  { n: 9, title: "Biomarker prevalence tables", why: "How common each target is in each cancer, sourced; matrix at /prevalence/.", status: "shipped", theme: "Depth" },
+  { n: 9, title: "Biomarker prevalence tables", why: "How common each target is in each cancer, sourced; matrix at /prevalence/.", status: "shipped", theme: "Depth", metric: "target-prevalence" },
   { n: 10, title: "Mechanism cards", why: "Step-by-step animated mechanism on product pages next to the molecule.", status: "shipped", theme: "Depth" },
   { n: 11, title: "Saveable browser profile", why: "Cancer, stage, biomarkers, prior lines, country; nothing leaves the device.", status: "shipped", theme: "Users" },
   { n: 12, title: "Line-of-therapy navigator", why: "What has been tried, what is next, and the cautions, at /navigator/.", status: "shipped", theme: "Users" },
   { n: 13, title: "Appointment prep pack", why: "Choose questions, add your own, export one page.", status: "planned", theme: "Users" },
   { n: 14, title: "Plain-language toggle", why: "Switch any page between TL;DR only and the full technical layer.", status: "shipped", theme: "Users" },
-  { n: 15, title: "Simplify further", why: "A reading level for a twelve-year-old, reviewed by advocates.", status: "shipped", theme: "Users" },
+  { n: 15, title: "Simplify further", why: "A reading level for a twelve-year-old, reviewed by advocates.", status: "shipped", theme: "Users", metric: "simple" },
   { n: 16, title: "Caregiver mode", why: "Logistics first: side effects to watch, when to call, practical support.", status: "shipped", theme: "Users" },
   { n: 17, title: "Explain this term on hover", why: "Glossary TL;DRs wherever a term appears.", status: "shipped", theme: "Users" },
   { n: 18, title: "Localised trial finder", why: "Country and distance filters on live ClinicalTrials.gov results.", status: "shipped", theme: "Users" },
   { n: 19, title: "Notifications", why: "Subscribe to a cancer, product, or target.", status: "proposed", theme: "Users" },
-  { n: 20, title: "Multilingual TL;DRs", why: "Spanish, Mandarin, Portuguese, Hindi, marked machine-assisted until reviewed.", status: "shipped", theme: "Users" },
+  { n: 20, title: "Multilingual TL;DRs", why: "Spanish, Mandarin, Portuguese, Hindi, marked machine-assisted until reviewed.", status: "shipped", theme: "Users", metric: "translations" },
   { n: 21, title: "Saved views", why: "Any table state as a short URL pinned to a dashboard.", status: "proposed", theme: "Power" },
   { n: 22, title: "Multi-select compare", why: "Up to five items with a difference highlighter.", status: "shipped", theme: "Power" },
   { n: 23, title: "Cross-kind pivot tables", why: "Cancers by targets by modalities at /pivot/.", status: "shipped", theme: "Power" },
@@ -104,17 +115,17 @@ export const hubIdeas2: HubIdea[] = [
   { n: 29, title: "Live widgets", why: "State-of-the-art panels and trial finders for hospital sites.", status: "proposed", theme: "Power" },
   { n: 30, title: "Offline mode", why: "A PWA that caches the corpus.", status: "proposed", theme: "Power" },
   { n: 31, title: "Source-per-sentence citations", why: "Superscripts and validation on unsourced numbers.", status: "proposed", theme: "Trust" },
-  { n: 32, title: "Provenance display", why: "Last edit, author, and diff from git on every page.", status: "shipped", theme: "Trust" },
+  { n: 32, title: "Provenance display", why: "Last edit, author, and diff from git on every page.", status: "shipped", theme: "Trust", metric: "provenance" },
   { n: 33, title: "Automated fact checks", why: "Weekly comparison against openFDA and ClinicalTrials.gov.", status: "shipped", theme: "Trust" },
   { n: 34, title: "Confidence labels", why: "Probability ranges on speculative roadmap steps and ideas.", status: "shipped", theme: "Trust" },
   { n: 35, title: "Corrections log", why: "Every factual correction at /corrections/.", status: "shipped", theme: "Trust" },
   { n: 36, title: "Conflict-of-interest field", why: "Shown next to every reviewer badge.", status: "shipped", theme: "Trust" },
-  { n: 37, title: "Patient-advocate review track", why: "A badge for clarity and tone.", status: "shipped", theme: "Trust" },
+  { n: 37, title: "Patient-advocate review track", why: "A badge for clarity and tone.", status: "shipped", theme: "Trust", metric: "reviewed" },
   { n: 38, title: "Replication notes", why: "Whether a second trial confirmed the effect, on every trial.", status: "shipped", theme: "Trust" },
   { n: 39, title: "Pathway diagrams that light up", why: "Select a product and see the nodes it hits and the escape routes.", status: "shipped", theme: "Visual" },
   { n: 40, title: "Anatomical entry point", why: "A clickable body map at /body/.", status: "shipped", theme: "Visual" },
-  { n: 41, title: "Molecule interaction", why: "Drag, zoom, hydrogens, pharmacophore colours, drug-target complexes with binding pockets.", status: "shipped", theme: "Visual" },
-  { n: 42, title: "Animated process schematics", why: "ADC internalisation, CAR-T killing, radioligand decay, and more.", status: "shipped", theme: "Visual" },
+  { n: 41, title: "Molecule interaction", why: "Drag, zoom, hydrogens, pharmacophore colours, drug-target complexes with binding pockets.", status: "shipped", theme: "Visual", metric: "molecules" },
+  { n: 42, title: "Animated process schematics", why: "ADC internalisation, CAR-T killing, radioligand decay, and more.", status: "shipped", theme: "Visual", metric: "schematics" },
   { n: 43, title: "Theme toggle and accessibility", why: "Light, dark, high contrast, skip link, focus rings.", status: "shipped", theme: "Visual" },
   { n: 44, title: "Story mode for roadmaps", why: "Scroll-driven narrative on every roadmap.", status: "shipped", theme: "Visual" },
   { n: 45, title: "Expert contributor programme", why: "One named reviewer per cancer and front.", status: "proposed", theme: "Community" },
@@ -127,22 +138,25 @@ export const hubIdeas2: HubIdea[] = [
 
 /** Wave three: total information dominance. Proposed on 8 September 2026. */
 export const hubIdeas3: HubIdea[] = [
-  { n: 1, title: "Bottlenecks of the war on cancer", why: "45 systemic constraints, each with sourced metrics, root causes, current efforts and a page at /bottlenecks/.", status: "shipped", theme: "Strategy" },
+  { n: 1, title: "Bottlenecks of the war on cancer", why: "45 systemic constraints, each with sourced metrics, root causes, current efforts and a page at /bottlenecks/.", status: "shipped", theme: "Strategy", metric: "bottleneck-ideas" },
   { n: 2, title: "One thousand ideas against the bottlenecks", why: "Ten waves of 100 ideas, each with a hypothesis, a test, who must act, cost and horizon; filterable at /ideas/.", status: "shipped", theme: "Strategy" },
-  { n: 3, title: "People of oncology", why: "Clinicians, scientists and leaders per institution with specialisms, roles and papers at /people/.", status: "shipped", theme: "Knowledge graph" },
-  { n: 4, title: "Approvals by region", why: "US, EU, UK, Japan, China and Australia compared product by product, gaps included.", status: "shipped", theme: "Intelligence" },
+  { n: 3, title: "People of oncology", why: "Clinicians, scientists and leaders per institution with specialisms, roles and papers at /people/.", status: "shipped", theme: "Knowledge graph", metric: "people-papers" },
+  { n: 4, title: "Approvals by region", why: "US, EU, UK, Japan, China and Australia compared product by product, gaps included.", status: "shipped", theme: "Intelligence", metric: "regional-approvals" },
   { n: 5, title: "Cases by country", why: "GLOBOCAN incidence per country and cancer with data gaps made explicit at /cases/.", status: "shipped", theme: "Intelligence" },
   { n: 6, title: "Country research ranking", why: "Output, growth, trials, burden and funders per country at /countries/.", status: "shipped", theme: "Intelligence" },
-  { n: 7, title: "What the world is publishing", why: "Europe PMC feed and weekly trends on every drug, target, cancer and technology page, and at /papers/.", status: "shipped", theme: "Intelligence" },
+  { n: 7, title: "What the world is publishing", why: "Europe PMC feed and weekly trends on every drug, target, cancer and technology page, and at /papers/.", status: "shipped", theme: "Intelligence", metric: "papers-snapshot" },
   { n: 8, title: "Research pulse", why: "What the leading journals, regulators and news sources are saying this month at /pulse/.", status: "shipped", theme: "Intelligence" },
   { n: 9, title: "Foundation models for cancer and the cell", why: "Models, companies, datasets and two roadmaps mapped as first-class objects.", status: "shipped", theme: "Knowledge graph" },
   { n: 10, title: "Mechanism research map", why: "Hallmarks, metastasis, microenvironment, metabolism and dormancy as pathways, terms and ideas.", status: "shipped", theme: "Knowledge graph" },
   { n: 11, title: "Supporting technologies and their companies", why: "Sequencing, pathology, imaging, data, manufacturing and trial infrastructure that everything else depends on.", status: "shipped", theme: "Knowledge graph" },
   { n: 12, title: "Resistance atlas visuals", why: "Category matrix and animated escape-route maps per drug class at /resistance/.", status: "shipped", theme: "Visual" },
   { n: 13, title: "Tooltips everywhere", why: "Every linked object in every table explains itself on hover; headers and statuses too.", status: "shipped", theme: "Visual" },
-  { n: 14, title: "Animated technology cards on front pages", why: "Each technology on a front page shows its schematic in motion.", status: "shipped", theme: "Visual" },
+  { n: 14, title: "Animated technology cards on front pages", why: "Each technology on a front page shows its schematic in motion.", status: "shipped", theme: "Visual", metric: "schematics" },
   { n: 15, title: "Design pass", why: "Type scale, surfaces, tables, header, home and footer made consistent and legible in light, dark and high contrast.", status: "shipped", theme: "Visual" },
   { n: 16, title: "Gap audit against the goal", why: "A systematic list of what is still missing for total information dominance, turned into work.", status: "building", theme: "Strategy" },
   { n: 17, title: "Bottleneck scoreboard", why: "Track each bottleneck over time: is it easing or worsening, and which ideas are being tried.", status: "proposed", theme: "Strategy" },
   { n: 18, title: "Idea voting and adoption tracking", why: "Let readers back ideas and record when an organisation picks one up.", status: "proposed", theme: "Community" },
+  { n: 19, title: "Corpus health gauges on the roadmap", why: "Coverage metrics computed from the graph at build time, each with the worst offenders and the fix; an idea is only 'shipped' if its gauge agrees.", status: "shipped", theme: "Strategy" },
+  { n: 20, title: "Schedule every refresh script", why: "Structures, logos, OpenAlex and GLOBOCAN refreshes are manual scripts; trials, papers and the fact check already run weekly in GitHub Actions. Put the rest on a schedule too.", status: "proposed", theme: "Strategy" },
+  { n: 21, title: "Gauge ratchet in CI", why: "A pull request may not lower a health gauge that is already above its target, so coverage only moves one way.", status: "proposed", theme: "Strategy" },
 ];

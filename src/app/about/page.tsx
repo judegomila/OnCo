@@ -38,7 +38,7 @@ export default function About() {
         </section>
         <section>
           <h2 className="text-xl font-semibold mb-2">How to contribute</h2>
-          <p>The repository is <a href="https://github.com/judegomila/OnCo" rel="noopener">github.com/judegomila/OnCo</a>. Each kind lives in one file under <code>src/data/</code>. Add or edit a record, include a source URL, run <code>npm test</code> (which validates the schema and every reference), and open a pull request. The <Link href="/hub/">Roadmap</Link> page lists what we want to build next; the failure-museum, readout calendar, and MCP server are the most requested.</p>
+          <p>The repository is <a href="https://github.com/judegomila/OnCo" rel="noopener">github.com/judegomila/OnCo</a>. Each kind lives in one file under <code>src/data/</code>. Add or edit a record, include a source URL, run <code>npm test</code> (which validates the schema and every reference), and open a pull request. The <Link href="/roadmap/">Roadmap</Link> page lists what we want to build next; the failure-museum, readout calendar, and MCP server are the most requested.</p>
         </section>
         <section>
           <h2 className="text-xl font-semibold mb-2">Sources we lean on</h2>

@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { placeNear } from "./Tip";
 
-export type TermRef = { id: string; name: string; tldr: string; route: string };
+export type TermRef = { id: string; name: string; tldr: string; route: string; kind?: string };
 
 /** A glossary term inside running text: dotted underline, popover with the TL;DR and a link. The popover follows the pointer. */
 export function TermHover({ term, children }: { term: TermRef; children: React.ReactNode }) {
@@ -26,7 +26,7 @@ export function TermHover({ term, children }: { term: TermRef; children: React.R
         <span id={`term-${term.id}`} role="tooltip" style={{ left: pos.left, top: pos.top, width: 288 }} className="fixed z-[80] max-w-[85vw] card shadow-xl p-3 text-sm not-italic font-normal normal-case tracking-normal pointer-events-none">
           <span className="block font-semibold mb-0.5">{term.name}</span>
           <span className="block text-muted leading-snug">{term.tldr}</span>
-          <Link href={term.route} className="mt-1.5 inline-block text-xs underline pointer-events-auto">Glossary page →</Link>
+          <Link href={term.route} className="mt-1.5 inline-block text-xs underline pointer-events-auto">{term.kind && term.kind !== "term" ? "Open page →" : "Glossary page →"}</Link>
         </span>
       )}
     </span>

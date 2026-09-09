@@ -67,6 +67,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/universities/", label: "Universities", blurb: "Research output from OpenAlex, Nature Index, SCImago." },
       { href: "/leadership/", label: "Trial leadership", blurb: "Who led the pivotal trials." },
       { href: "/people/", label: "People", blurb: "The clinicians and scientists doing the work: specialisms, bios, papers." },
+      { href: "/heroes/", label: "Heroes and heroines", blurb: "The patients, families, advocates and pioneers whose lives and cases changed cancer." },
       { href: "/companies/", label: "Companies", blurb: "Pharma, biotech, diagnostics, devices, AI." },
       { href: "/countries/", label: "Countries", blurb: "Who is doing the most cancer research: output, growth, trials, burden, funders." },
       { href: "/cases/", label: "Cases by country", blurb: "New cancer cases per country and per cancer, with the data gaps made explicit." },
@@ -78,7 +79,7 @@ export const NAV_GROUPS: NavGroup[] = [
     items: [
       { href: "/paths/", label: "Reading paths", blurb: "ADCs in 30 minutes, understanding a diagnosis, and more." },
       { href: "/about/", label: "About & methodology", blurb: "Rules for facts, ranking formulas, licence." },
-      { href: "/hub/", label: "Roadmap", blurb: "What we are building next, in waves, with status." },
+      { href: "/roadmap/", label: "Roadmap", blurb: "Corpus health gauges, every idea by status, and how OnCo expands and stays current." },
       { href: "/gaps/", label: "Gaps to fill", blurb: "Objects and fields that need work." },
       { href: "/suggest/", label: "Suggest an edit", blurb: "Propose a correction; organisations can edit their own records." },
       { href: "/eval/", label: "Open evaluation", blurb: "100 questions, a rubric, and a public leaderboard." },

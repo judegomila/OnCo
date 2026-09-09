@@ -29,6 +29,8 @@ import { keyPapers } from "./key-papers";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
+import { termsBasics } from "./terms-basics";
+import { institutionsUs } from "./institutions/us";
 import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
@@ -65,6 +67,8 @@ export const ALL_INPUTS: EntityInput[] = [
   ...nutrition,
   ...adcChemistry,
   ...journals,
+  ...termsBasics,
+  ...institutionsUs,
   ...foundationModels,
   ...foundationRoadmaps,
 ];

@@ -289,7 +289,7 @@ export default function Home() {
             <div className="kicker mb-1.5">Contribute</div>
             <p className="text-sm text-muted leading-relaxed">Every object is a record in a public repo. Fix a fact, add a source, propose an idea.</p>
             <Link href="/about/" className="text-sm font-medium underline underline-offset-[3px] decoration-foreground/25 hover:decoration-foreground mt-2 inline-block mr-4">How <span aria-hidden>→</span></Link>
-            <Link href="/hub/" className="text-sm font-medium underline underline-offset-[3px] decoration-foreground/25 hover:decoration-foreground mt-2 inline-block">Roadmap <span aria-hidden>→</span></Link>
+            <Link href="/roadmap/" className="text-sm font-medium underline underline-offset-[3px] decoration-foreground/25 hover:decoration-foreground mt-2 inline-block">Roadmap <span aria-hidden>→</span></Link>
           </div>
         </div>
       </Container>

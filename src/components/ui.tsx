@@ -105,11 +105,11 @@ export function Container({ children, className = "" }: { children: React.ReactN
   return <div className={`mx-auto max-w-7xl px-4 sm:px-6 ${className}`}>{children}</div>;
 }
 
-export function Bullets({ items }: { items: string[] }) {
+export function Bullets({ items, linked }: { items: string[]; linked?: (s: string) => React.ReactNode }) {
   if (!items.length) return null;
   return (
     <ul className="list-disc pl-5 space-y-1.5 text-[15px] leading-relaxed">
-      {items.map((s, i) => <li key={i}>{s}</li>)}
+      {items.map((s, i) => <li key={i}>{linked ? linked(s) : s}</li>)}
     </ul>
   );
 }

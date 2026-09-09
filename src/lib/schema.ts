@@ -33,6 +33,7 @@ export const KINDS = [
   "person",
   "bottleneck",
   "paper",
+  "journal",
 ] as const;
 export type Kind = (typeof KINDS)[number];
 
@@ -109,6 +110,8 @@ const Base = z.object({
   bottlenecks: z.array(id).default([]),
   /** Key papers (kind "paper") this object rests on or is discussed in. */
   keyPapers: z.array(id).default([]),
+  /** Journals (kind "journal") this object was published in or is tied to. */
+  journals: z.array(id).default([]),
   /** Why this matters / what is hard about it. Optional editorial notes. */
   notes: z.array(z.string()).default([]),
   /** Even simpler explanation (about a 12-year-old reading age). Optional. */
@@ -328,6 +331,24 @@ export const PaperSchema = Base.extend({
   participants: z.number().int().optional(),
 });
 
+/** A journal or publication venue: where the evidence is published, with its stance, access model and the key papers it carried. */
+export const JournalSchema = Base.extend({
+  kind: z.literal("journal"),
+  publisher: z.string(),
+  url,
+  issn: z.string().optional(),
+  /** Broad scope: general medicine, oncology, haematology, basic science, radiology, etc. */
+  scope: z.string(),
+  /** Open access model: subscription, hybrid, open access, diamond. */
+  access: z.enum(["subscription", "hybrid", "open-access", "diamond"]).optional(),
+  founded: z.number().int().optional(),
+  /** Latest impact factor or citation metric, with the year it refers to. Optional and clearly labelled. */
+  impactFactor: z.object({ value: z.number(), year: z.number().int(), source: z.string().optional() }).optional(),
+  /** Names as they appear in paper records, so papers can be matched to this journal. */
+  matchNames: z.array(z.string()).default([]),
+  society: z.string().optional(),
+});
+
 /** A bottleneck: a systemic constraint that slows the whole war on cancer. Ideas link to bottlenecks; the fixes are derived by backlink. */
 export const BottleneckSchema = Base.extend({
   kind: z.literal("bottleneck"),
@@ -385,6 +406,7 @@ export const EntitySchema = z.discriminatedUnion("kind", [
   PersonSchema,
   BottleneckSchema,
   PaperSchema,
+  JournalSchema,
 ]);
 
 export type Entity = z.infer<typeof EntitySchema>;
@@ -405,6 +427,7 @@ export type Collection = z.infer<typeof CollectionSchema>;
 export type Person = z.infer<typeof PersonSchema>;
 export type Bottleneck = z.infer<typeof BottleneckSchema>;
 export type Paper = z.infer<typeof PaperSchema>;
+export type Journal = z.infer<typeof JournalSchema>;
 
 /** Input types (before defaults are applied) — what authors write in data files. */
 export type CancerInput = z.input<typeof CancerSchema>;
@@ -424,6 +447,7 @@ export type CollectionInput = z.input<typeof CollectionSchema>;
 export type PersonInput = z.input<typeof PersonSchema>;
 export type BottleneckInput = z.input<typeof BottleneckSchema>;
 export type PaperInput = z.input<typeof PaperSchema>;
+export type JournalInput = z.input<typeof JournalSchema>;
 export type EntityInput = z.input<typeof EntitySchema>;
 
 /** The relationship array fields shared by every entity. */
@@ -442,6 +466,7 @@ export const REL_FIELDS = [
   "people",
   "bottlenecks",
   "keyPapers",
+  "journals",
 ] as const;
 export type RelField = (typeof REL_FIELDS)[number];
 
@@ -461,6 +486,7 @@ export const KIND_META: Record<Kind, { plural: string; label: string; route: str
   idea: { plural: "ideas", label: "Idea", route: "ideas", blurb: "Hypotheses and new directions, linked to the evidence.", color: "lime" },
   collection: { plural: "collections", label: "Collection", route: "collections", blurb: "The open databases and registries the field runs on.", color: "stone" },
   person: { plural: "people", label: "Person", route: "people", blurb: "The clinicians and scientists doing the work: specialisms, bios, papers, and where to find them.", color: "pink" },
+  journal: { plural: "journals", label: "Journal", route: "journals", blurb: "Where the evidence is published: the journals, their scope and access model, and the key papers each one carried.", color: "slate" },
   paper: { plural: "key papers", label: "Key paper", route: "key-papers", blurb: "The papers that changed practice or thinking, each explained: what it found, what it means, and what to be careful about.", color: "sky" },
   bottleneck: { plural: "bottlenecks", label: "Bottleneck", route: "bottlenecks", blurb: "The systemic constraints slowing the whole war on cancer, with the ideas that could break each one.", color: "red" },
 };

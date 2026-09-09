@@ -27,6 +27,8 @@ import { supporting } from "./supporting";
 import { gapFill } from "./gap-fill";
 import { keyPapers } from "./key-papers";
 import { nutrition } from "./nutrition";
+import { adcChemistry } from "./adc-chemistry";
+import { journals } from "./journals";
 import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
@@ -61,6 +63,8 @@ export const ALL_INPUTS: EntityInput[] = [
   ...gapFill,
   ...keyPapers,
   ...nutrition,
+  ...adcChemistry,
+  ...journals,
   ...foundationModels,
   ...foundationRoadmaps,
 ];

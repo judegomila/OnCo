@@ -141,6 +141,13 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
       columns: [{ key: "maturity", label: "Maturity", sortable: true, chip: true }, { key: "bottlenecks", label: "Bottleneck", hide: "hidden md:table-cell" }, { key: "actor", label: "Who acts", sortable: true, hide: "hidden lg:table-cell" }, { key: "cost", label: "Cost", sortable: true, hide: "hidden xl:table-cell" }, { key: "technologies", label: "Technologies", hide: "hidden lg:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden xl:table-cell" }],
       defaultSort: { key: "maturity", dir: 1 },
     };
+    case "journal": return {
+      hideStatus: true,
+      rows: g.kind("journal").map((j) => { const papers = g.kind("paper").filter((p) => p.journal === j.name || j.matchNames.includes(p.journal)); return { ...base(j), logo: logoFor(j.id, j.url), sub: j.publisher, facets: { scope: [j.scope], access: j.access ? [cap(j.access.replace(/-/g, " "))] : [], publisher: [j.publisher] }, cols: { scope: j.scope, access: j.access ? cap(j.access.replace(/-/g, " ")) : undefined, papers: papers.length, impact: j.impactFactor ? j.impactFactor.value : undefined }, sortKeys: { papers: papers.length, impact: j.impactFactor?.value ?? 0 } }; }),
+      facets: [{ key: "scope", label: "Scope", width: "w-52" }, { key: "access", label: "Access", searchable: false, width: "w-44" }, { key: "publisher", label: "Publisher", width: "w-52" }],
+      columns: [{ key: "scope", label: "Scope", sortable: true, hide: "hidden md:table-cell" }, { key: "access", label: "Access", sortable: true, chip: true, hide: "hidden lg:table-cell" }, { key: "papers", label: "Key papers", sortable: true, numeric: true }, { key: "impact", label: "Impact factor", sortable: true, numeric: true, hide: "hidden sm:table-cell" }],
+      defaultSort: { key: "papers", dir: -1 },
+    };
     case "paper": return {
       hideStatus: true,
       rows: g.kind("paper").map((p) => ({ ...base(p), sub: `${p.authors} · ${p.journal} ${p.year}`, facets: { type: [cap(p.paperType.replace(/-/g, " "))], year: [String(p.year)], journal: [p.journal], cancers: names(p.cancers), changed: [p.changedPractice ? "Changed practice" : "Did not (yet)"] }, cols: { type: cap(p.paperType.replace(/-/g, " ")), year: p.year, journal: p.journal, cancers: links(p.cancers), drugs: links(p.drugs.slice(0, 3)) }, sortKeys: { year: p.year } })),

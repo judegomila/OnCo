@@ -11,7 +11,7 @@ export type SourceLocation = { file: string; line: number; url: string; editUrl:
 const REPO = "https://github.com/judegomila/OnCo";
 const KIND_FILE: Record<Kind, string> = {
   cancer: "cancers.ts", section: "sections.ts", technology: "technologies.ts", target: "targets.ts", drug: "drugs.ts", company: "companies.ts",
-  institution: "institutions.ts", pathway: "pathways.ts", term: "terms.ts", trial: "trials.ts", pairing: "pairings.ts", roadmap: "roadmaps.ts", idea: "ideas.ts", collection: "collections.ts", person: "people/index.ts", bottleneck: "bottlenecks.ts", paper: "key-papers/index.ts",
+  institution: "institutions.ts", pathway: "pathways.ts", term: "terms.ts", trial: "trials.ts", pairing: "pairings.ts", roadmap: "roadmaps.ts", idea: "ideas.ts", collection: "collections.ts", person: "people/index.ts", bottleneck: "bottlenecks.ts", paper: "key-papers/index.ts", journal: "journals.ts",
 };
 
 let index: Map<string, { file: string; line: number }> | null = null;

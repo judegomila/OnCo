@@ -36,10 +36,16 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
     // Animated meshes may move parts outside the initial bounds; leave headroom.
     if (mesh.animate) maxR *= 1.15;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const base = dark ? "226, 232, 240" : "22, 24, 29";
-    const accent = dark ? "248, 113, 113" : "185, 28, 28";
-    const hot = dark ? "251, 191, 36" : "217, 119, 6";
+    // Palette follows the site theme (data-theme on <html>), falling back to the OS scheme. Light mode uses
+    // darker, more saturated strokes and slightly heavier lines so the wireframes read on a white card.
+    const themeOf = () => { const t = document.documentElement.dataset.theme; return t === "dark" || t === "contrast" ? true : t === "light" ? false : window.matchMedia("(prefers-color-scheme: dark)").matches; };
+    let dark = themeOf();
+    let base = dark ? "226, 232, 240" : "28, 25, 23";
+    let accent = dark ? "249, 168, 212" : "194, 24, 91";
+    let hot = dark ? "251, 191, 36" : "180, 83, 9";
+    const repaint = () => { dark = themeOf(); base = dark ? "226, 232, 240" : "28, 25, 23"; accent = dark ? "249, 168, 212" : "194, 24, 91"; hot = dark ? "251, 191, 36" : "180, 83, 9"; };
+    const mo = new MutationObserver(repaint);
+    mo.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
     let raf = 0, visible = true;
     const t0 = performance.now();
@@ -99,7 +105,8 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
         const depth = (pa[2] + pb[2]) / 2;
         const t = Math.max(0, Math.min(1, (depth + 1) / 2)); // 0 back … 1 front
         const rgb = cls === "accent" ? accent : cls === "hot" ? hot : base;
-        const al = (cls === "soft" ? 0.12 + 0.28 * t : cls === "accent" || cls === "hot" ? 0.45 + 0.5 * t : 0.25 + 0.6 * t) * mul;
+        const al = (cls === "soft" ? (dark ? 0.12 + 0.28 * t : 0.2 + 0.35 * t) : cls === "accent" || cls === "hot" ? 0.5 + 0.5 * t : (dark ? 0.25 + 0.6 * t : 0.4 + 0.55 * t)) * mul;
+        ctx.lineWidth = (cls === "accent" || cls === "hot" ? 1.5 : 1.15) * (dark ? 1 : 1.15);
         ctx.strokeStyle = `rgba(${rgb}, ${al.toFixed(3)})`;
         ctx.fillStyle = ctx.strokeStyle;
         ctx.lineWidth = (cls === "accent" ? 1.6 : cls === "hot" ? 1.8 : 1.1) + 0.7 * t;
@@ -156,7 +163,7 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
       if (!reduced) raf = requestAnimationFrame(loop);
     };
     loop(performance.now());
-    return () => { cancelAnimationFrame(raf); io.disconnect(); };
+    return () => { cancelAnimationFrame(raf); io.disconnect(); mo.disconnect(); };
   }, [mesh, speed, tilt, compact]);
 
   return (

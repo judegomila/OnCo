@@ -323,13 +323,33 @@ function kindTabs(e: Entity): Tab[] {
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
             <Field label="Authors">{e.authors}</Field>
-            <Field label="Published">{e.journal}, {e.year}</Field>
+            <Field label="Published">{(() => { const j = g.kind("journal").find((x) => x.kind === "journal" && (x.name === e.journal || x.matchNames.includes(e.journal))); return j ? <Link className="underline" href={routeFor(j)}>{e.journal}</Link> : e.journal; })()}, {e.year}</Field>
             {(e.doi || e.pmid) && <Field label="Read it">{e.doi && <a className="underline mr-3" href={`https://doi.org/${e.doi}`} rel="noopener">doi:{e.doi}</a>}{e.pmid && <a className="underline" href={`https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/`} rel="noopener">PubMed {e.pmid}</a>}</Field>}
           </div>
           {e.findings.length > 0 && <Field label="What it found"><ul className="list-disc pl-5 space-y-1">{e.findings.map((f, i) => <li key={i}>{withTermHovers(f)}</li>)}</ul></Field>}
           <div className="card p-4 bg-accent-soft/60 border-accent/20"><div className="kicker mb-1">What it means</div><p className="text-[15px] leading-relaxed">{withTermHovers(e.whatItMeans)}</p></div>
           {e.caveats.length > 0 && <Field label="Be careful"><ul className="list-disc pl-5 space-y-1">{e.caveats.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
         </div>),
+      ];
+    }
+    case "journal": {
+      const papers = g.kind("paper").filter((p): p is Paper => p.kind === "paper" && (p.journal === e.name || e.matchNames.includes(p.journal))).sort((a, b) => b.year - a.year);
+      const people = g.kind("person").filter((p) => p.kind === "person" && p.papers.some((pp) => pp.journal && (pp.journal === e.name || e.matchNames.includes(pp.journal))));
+      return [
+        overview(<div className="grid gap-6 mt-8">
+          <div className="grid gap-6 sm:grid-cols-2">
+            <Field label="Publisher">{e.publisher}{e.society && <span className="text-muted"> · {e.society}</span>}</Field>
+            <Field label="Scope">{e.scope}</Field>
+            <Field label="Website"><a className="underline break-all" href={e.url} rel="noopener">{e.url.replace(/^https?:\/\//, "")}</a></Field>
+            {e.access && <Field label="Access model"><span className="capitalize">{e.access.replace(/-/g, " ")}</span></Field>}
+            {e.founded && <Field label="Founded">{e.founded}</Field>}
+            {e.issn && <Field label="ISSN">{e.issn}</Field>}
+            {e.impactFactor && <Field label={`Impact factor (${e.impactFactor.year})`}><span className="tabular-nums">{e.impactFactor.value}</span>{e.impactFactor.source && <span className="text-muted text-xs"> · {e.impactFactor.source}</span>}</Field>}
+          </div>
+        </div>),
+        ...(papers.length ? [{ id: "key-papers", label: "Key papers published here", count: papers.length, content: (
+          <div className="grid gap-3 md:grid-cols-2">{papers.map((p) => <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition"><div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}</div><div className="font-medium leading-snug">{p.name}</div><p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p></Link>)}</div>) }] : []),
+        ...peopleTab(people),
       ];
     }
     case "bottleneck": {

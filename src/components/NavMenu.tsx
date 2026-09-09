@@ -39,10 +39,11 @@ export function NavMenu() {
           const active = activeGroup?.id === g.id;
           return (
             <div key={g.id} className="relative" onMouseEnter={() => setOpen(g.id)} onMouseLeave={() => setOpen((o) => (o === g.id ? null : o))}>
-              <button type="button" aria-haspopup="menu" aria-expanded={on} aria-current={active ? "page" : undefined} onClick={() => setOpen(on ? null : g.id)}
+              <Link href={g.href} aria-current={active ? "page" : undefined} onFocus={() => setOpen(g.id)} title={`Open ${g.label}`}
                 className={`relative inline-flex h-10 items-center gap-1 rounded-lg px-2 whitespace-nowrap transition-colors hover:bg-surface hover:text-foreground ${on ? "bg-surface" : ""} ${active ? "text-foreground font-medium after:absolute after:left-2 after:right-2 after:-bottom-2 after:h-0.5 after:rounded-full after:bg-accent" : "text-foreground/75"}`}>
                 {g.label}
-                <svg aria-hidden viewBox="0 0 12 12" width="10" height="10" className={`text-muted transition-transform ${on ? "rotate-180" : ""}`}><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                </Link>
+              <button type="button" aria-haspopup="menu" aria-expanded={on} aria-label={`${on ? "Close" : "Open"} ${g.label} menu`} onClick={() => setOpen(on ? null : g.id)} className="inline-flex h-10 w-5 -ml-1 items-center justify-center rounded-md text-muted hover:text-foreground"><svg aria-hidden viewBox="0 0 12 12" width="10" height="10" className={`text-muted transition-transform ${on ? "rotate-180" : ""}`}><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </button>
               {on && (
                 <div role="menu" className="absolute left-0 top-full pt-1.5 z-50">

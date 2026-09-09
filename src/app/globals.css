@@ -2,25 +2,32 @@
 
 /* ------------------------------------------------------------------------------------------------
    OnCo design tokens
-   Serious, scientific, warm. One accent (the pink long used by cancer groups) for meaning: primary actions,
-   active state, focus. Everything else is neutral so the kind and status colours carry information.
+   Serious, scientific, warm: a quiet garden. One accent (the pink long used by cancer groups) for meaning:
+   primary actions, active state, focus. Neutrals are warm stone with a breath of sage so the kind and status
+   colours still carry the information. `--garden-*` are wash tints for backgrounds and `--garden-ink` is the
+   stroke colour of the botanical line art (src/components/Garden.tsx); none of them is ever used for text.
+   Contrast (WCAG): light body 15.1:1 on background, muted 5.5:1 (5.1:1 on surface); dark body 14.8:1, muted 8:1.
    ------------------------------------------------------------------------------------------------ */
 :root {
-  --background: #f9f8f6;
-  --foreground: #17191d;
-  --muted: #5a616e;
-  --border: #e3e2de;
-  --border-strong: #cfcdc7;
-  --card: #ffffff;
-  --surface: #f1f0ec;
+  --background: #f5f4ee;
+  --foreground: #1b1f1c;
+  --muted: #5b655e;
+  --border: #e0ded4;
+  --border-strong: #c9c6b9;
+  --card: #fcfbf8;
+  --surface: #eeece4;
   --accent: #c2185b;
   --accent-solid: #d6336c;
   --accent-fg: #ffffff;
   --accent-soft: #fce7f0;
   --ring: #d6336c;
-  --shadow-1: 0 1px 2px rgb(23 25 29 / 0.05), 0 1px 1px rgb(23 25 29 / 0.03);
-  --shadow-2: 0 8px 20px -10px rgb(23 25 29 / 0.16), 0 2px 4px -2px rgb(23 25 29 / 0.06);
-  --shadow-3: 0 18px 40px -18px rgb(23 25 29 / 0.28), 0 4px 10px -4px rgb(23 25 29 / 0.08);
+  --garden-1: #9db59a;
+  --garden-2: #6d8a68;
+  --garden-3: #d9d2bf;
+  --garden-ink: #3f5c3d;
+  --shadow-1: 0 1px 2px rgb(31 40 33 / 0.04), 0 2px 6px -2px rgb(31 40 33 / 0.05);
+  --shadow-2: 0 10px 24px -12px rgb(31 40 33 / 0.16), 0 2px 6px -2px rgb(31 40 33 / 0.06);
+  --shadow-3: 0 20px 44px -20px rgb(31 40 33 / 0.26), 0 4px 12px -4px rgb(31 40 33 / 0.08);
   --header-h: 3.5rem;
   --sticky-top: var(--header-h);
 }
@@ -37,6 +44,9 @@
   --color-accent-solid: var(--accent-solid);
   --color-accent-fg: var(--accent-fg);
   --color-accent-soft: var(--accent-soft);
+  --color-garden-1: var(--garden-1);
+  --color-garden-2: var(--garden-2);
+  --color-garden-3: var(--garden-3);
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
   --text-small: 0.8125rem;
@@ -48,21 +58,25 @@
   --shadow-pop: var(--shadow-3);
 }
 
-/* Dark: deep neutral (never pure black), cards a step lighter, borders visible. */
+/* Dark: a night garden. Deep green-grey (never pure black), cards a step lighter, borders visible, pale fronds. */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #121417;
-    --foreground: #e7e8ea;
-    --muted: #a3aab5;
-    --border: #2b3037;
-    --border-strong: #3b414a;
-    --card: #1a1d22;
-    --surface: #22262c;
+    --background: #121816;
+    --foreground: #e6e9e6;
+    --muted: #a6afa9;
+    --border: #2b3431;
+    --border-strong: #3c4642;
+    --card: #1a201e;
+    --surface: #212927;
     --accent: #f9a8d4;
     --accent-solid: #db2777;
     --accent-fg: #ffffff;
     --accent-soft: #3b1a2b;
     --ring: #f87171;
+    --garden-1: #3d5a45;
+    --garden-2: #5f7f63;
+    --garden-3: #2a3330;
+    --garden-ink: #c3d3bf;
     --shadow-1: 0 1px 2px rgb(0 0 0 / 0.35);
     --shadow-2: 0 8px 20px -10px rgb(0 0 0 / 0.6);
     --shadow-3: 0 18px 40px -18px rgb(0 0 0 / 0.7);
@@ -71,16 +85,18 @@
 
 /* Themes (ThemeToggle sets data-theme on <html>; default follows prefers-color-scheme above). */
 [data-theme="light"] {
-  --background: #f9f8f6; --foreground: #17191d; --muted: #5a616e; --border: #e3e2de; --border-strong: #cfcdc7; --card: #ffffff; --surface: #f1f0ec;
+  --background: #f5f4ee; --foreground: #1b1f1c; --muted: #5b655e; --border: #e0ded4; --border-strong: #c9c6b9; --card: #fcfbf8; --surface: #eeece4;
   --accent: #c2185b; --accent-solid: #d6336c; --accent-fg: #ffffff; --accent-soft: #fce7f0; --ring: #d6336c;
-  --shadow-1: 0 1px 2px rgb(23 25 29 / 0.05), 0 1px 1px rgb(23 25 29 / 0.03);
-  --shadow-2: 0 8px 20px -10px rgb(23 25 29 / 0.16), 0 2px 4px -2px rgb(23 25 29 / 0.06);
-  --shadow-3: 0 18px 40px -18px rgb(23 25 29 / 0.28), 0 4px 10px -4px rgb(23 25 29 / 0.08);
+  --garden-1: #9db59a; --garden-2: #6d8a68; --garden-3: #d9d2bf; --garden-ink: #3f5c3d;
+  --shadow-1: 0 1px 2px rgb(31 40 33 / 0.04), 0 2px 6px -2px rgb(31 40 33 / 0.05);
+  --shadow-2: 0 10px 24px -12px rgb(31 40 33 / 0.16), 0 2px 6px -2px rgb(31 40 33 / 0.06);
+  --shadow-3: 0 20px 44px -20px rgb(31 40 33 / 0.26), 0 4px 12px -4px rgb(31 40 33 / 0.08);
   color-scheme: light;
 }
 [data-theme="dark"] {
-  --background: #121417; --foreground: #e7e8ea; --muted: #a3aab5; --border: #2b3037; --border-strong: #3b414a; --card: #1a1d22; --surface: #22262c;
+  --background: #121816; --foreground: #e6e9e6; --muted: #a6afa9; --border: #2b3431; --border-strong: #3c4642; --card: #1a201e; --surface: #212927;
   --accent: #f9a8d4; --accent-solid: #db2777; --accent-fg: #ffffff; --accent-soft: #3b1a2b; --ring: #f9a8d4;
+  --garden-1: #3d5a45; --garden-2: #5f7f63; --garden-3: #2a3330; --garden-ink: #c3d3bf;
   --shadow-1: 0 1px 2px rgb(0 0 0 / 0.35);
   --shadow-2: 0 8px 20px -10px rgb(0 0 0 / 0.6);
   --shadow-3: 0 18px 40px -18px rgb(0 0 0 / 0.7);
@@ -89,6 +105,7 @@
 [data-theme="contrast"] {
   --background: #000000; --foreground: #ffffff; --muted: #e0e0e0; --border: #ffffff; --border-strong: #ffffff; --card: #000000; --surface: #1a1a1a;
   --accent: #ffd400; --accent-solid: #ffd400; --accent-fg: #000000; --accent-soft: #2a2300; --ring: #ffd400;
+  --garden-1: transparent; --garden-2: transparent; --garden-3: transparent; --garden-ink: transparent;
   --shadow-1: none; --shadow-2: none; --shadow-3: none;
   color-scheme: dark;
 }
@@ -160,11 +177,11 @@
     color: var(--muted);
   }
 
-  /* Surfaces */
+  /* Surfaces: a hairline in stone, a soft corner, a shadow that reads as air rather than ink. */
   .card {
     background: var(--card);
     border: 1px solid var(--border);
-    border-radius: 0.75rem;
+    border-radius: 0.875rem;
     box-shadow: var(--shadow-1);
     transition: box-shadow 160ms ease, transform 160ms ease, border-color 160ms ease;
   }
@@ -280,11 +297,24 @@
   .no-scrollbar { scrollbar-width: none; }
   .no-scrollbar::-webkit-scrollbar { display: none; }
 
-  /* Home hero: a faint warm wash from the top, nothing more. */
+  /* Home hero: layered washes, dawn pink at the top-left, sage at the top-right, warm stone low down. */
   .hero {
     background:
-      radial-gradient(60rem 28rem at 12% -10%, color-mix(in srgb, var(--accent) 9%, transparent), transparent 70%),
-      linear-gradient(to bottom, color-mix(in srgb, var(--surface) 60%, transparent), var(--background));
+      radial-gradient(52rem 24rem at 10% -8%, color-mix(in srgb, var(--accent) 7%, transparent), transparent 70%),
+      radial-gradient(48rem 30rem at 94% -4%, color-mix(in srgb, var(--garden-1) 24%, transparent), transparent 70%),
+      radial-gradient(44rem 18rem at 42% 108%, color-mix(in srgb, var(--garden-3) 50%, transparent), transparent 70%),
+      linear-gradient(to bottom, color-mix(in srgb, var(--surface) 55%, transparent), var(--background));
+  }
+  /* Header band for group landing pages: the hero's quieter sibling. */
+  .garden-band {
+    background:
+      radial-gradient(40rem 20rem at 96% -12%, color-mix(in srgb, var(--garden-1) 20%, transparent), transparent 70%),
+      radial-gradient(36rem 14rem at 6% 112%, color-mix(in srgb, var(--garden-3) 40%, transparent), transparent 70%),
+      linear-gradient(to bottom, color-mix(in srgb, var(--surface) 45%, transparent), var(--background));
+  }
+  /* Footer: the ground. A warm stone wash that settles into the page background. */
+  .garden-footer {
+    background: linear-gradient(to bottom, color-mix(in srgb, var(--garden-3) 34%, var(--background)), color-mix(in srgb, var(--surface) 40%, var(--background)) 45%);
   }
 
   /* Hairline separator with a label, used between home sections. */
@@ -302,7 +332,25 @@
   .tabbar { mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); }
 }
 
+/* ------------------------------------------------------------------------------------------------
+   Garden: botanical line art (src/components/Garden.tsx). Ink follows the theme; the art is thin
+   strokes at low opacity, and fronds sway a degree or two over 15 to 25 seconds. CSS only.
+   `--tilt` and `--flip` are set inline per instance so a mirrored, leaning frond can still sway.
+   ------------------------------------------------------------------------------------------------ */
+.garden { color: var(--garden-ink); z-index: 0; }
+.garden-art { transform: scaleX(var(--flip, 1)) rotate(var(--tilt, 0deg)); transform-origin: 50% 100%; will-change: auto; }
+@keyframes garden-sway {
+  from { transform: scaleX(var(--flip, 1)) rotate(calc(var(--tilt, 0deg) - 1.4deg)); }
+  to   { transform: scaleX(var(--flip, 1)) rotate(calc(var(--tilt, 0deg) + 1.4deg)); }
+}
+.garden-sway { animation: garden-sway var(--sway, 16s) ease-in-out infinite alternate; }
+/* Page-header art fades out towards the text on its left; hero art fades before the count grid. */
+.garden-fade { mask-image: linear-gradient(to left, #000 45%, transparent 100%); }
+.garden-hero-fade { mask-image: linear-gradient(to bottom, #000 52%, transparent 74%); }
+
 /* Theme-specific overrides sit outside layers on purpose so they beat utilities. */
+[data-theme="contrast"] .garden { display: none; }
+[data-theme="contrast"] .hero, [data-theme="contrast"] .garden-band, [data-theme="contrast"] .garden-footer { background: var(--background); }
 [data-theme="contrast"] .card { border-width: 2px; }
 [data-theme="contrast"] a { text-decoration: underline; }
 [data-theme="contrast"] .chip { border-color: currentColor; }
@@ -316,11 +364,13 @@
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
   a.card:hover, .card-link:hover { transform: none; }
+  .garden-sway { animation: none !important; }
 }
 
 /* ---- Print: strip chrome, keep content ---- */
 @media print {
-  header, footer, nav, aside, .no-print, canvas { display: none !important; }
+  header, footer, nav, aside, .no-print, canvas, .garden { display: none !important; }
+  .hero, .garden-band { background: none !important; }
   body { background: #fff !important; color: #000 !important; }
   main { display: block; }
   .card { border: 1px solid #ccc !important; box-shadow: none !important; break-inside: avoid; }

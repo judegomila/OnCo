@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { Tip } from "@/components/Tip";
 import { MoleculeSlot } from "./MoleculeSlot";
@@ -30,6 +30,8 @@ export type BrowserRow = {
   cols: Record<string, CellValue>;
   /** Optional numeric sort keys for extra columns. */
   sortKeys?: Record<string, number>;
+  /** Secondary sort when the chosen column ties (higher first), e.g. year reported for trials sorted by status. */
+  tie?: number;
   sub?: string;
   logo?: string;
 };
@@ -85,10 +87,19 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
     }
     setOwn((s) => ({ ...s, [key]: vals }));
   };
-  /** A facet chip: select exactly that value, or clear it when it is already selected. */
+  const root = useRef<HTMLDivElement>(null);
+  /**
+   * A facet chip: select exactly that value, or clear it when it is already selected. Filtering shortens the
+   * table, so if the control row has scrolled off the top, bring it back into view rather than leave the
+   * reader looking at whatever follows the table.
+   */
   const clickFacet = (f: FacetLink) => {
     const cur = sel[f.facet] ?? [];
     setFacet(f.facet, cur.includes(f.value) ? cur.filter((v) => v !== f.value) : [f.value]);
+    requestAnimationFrame(() => {
+      const top = root.current?.getBoundingClientRect().top;
+      if (top !== undefined && top < 0) window.scrollTo({ top: window.scrollY + top - 120, behavior: "smooth" });
+    });
   };
   const clearAll = () => { setOwn({}); setQ(""); onExternalChange?.([]); };
   const [sort, setSort] = useState<SortState>(defaultSort ?? { key: hideStatus ? "name" : "status", dir: 1 });
@@ -155,7 +166,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
       else if (sort.key === "status") d = statusIdx(a.status) - statusIdx(b.status);
       else if (a.sortKeys && b.sortKeys && sort.key in a.sortKeys) d = (a.sortKeys[sort.key] ?? 0) - (b.sortKeys[sort.key] ?? 0);
       else d = cellText(a.cols[sort.key]).localeCompare(cellText(b.cols[sort.key]));
-      return sort.dir * d || a.name.localeCompare(b.name);
+      return sort.dir * d || (b.tie ?? 0) - (a.tie ?? 0) || a.name.localeCompare(b.name);
     });
     return list;
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -228,7 +239,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
         if (isFacetLink(v)) return facetChip(v, c.valueTips?.[itemLabel(v)]);
         if (Array.isArray(v)) {
           const allChips = v.every((i) => !("href" in i));
-          return <span className={allChips ? "inline-flex flex-wrap gap-1" : "text-muted"}>{v.map((l, i) => "href" in l
+          return <span className={allChips ? "inline-flex flex-wrap gap-1" : `text-muted ${c.numeric ? "tabular-nums" : ""}`}>{v.map((l, i) => "href" in l
             ? <span key={`l:${l.href}`}>{i > 0 && ", "}{entityLink(l)}</span>
             : <span key={`f:${l.facet}:${l.value}`}>{i > 0 && !allChips && ", "}{facetChip(l, c.valueTips?.[itemLabel(l)])}</span>)}</span>;
         }
@@ -240,7 +251,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
   ];
 
   return (
-    <div>
+    <div ref={root}>
       <Toolbar
         count={filtered.length} total={rows.length} noun={noun}
         left={<>

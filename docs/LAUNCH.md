@@ -79,14 +79,17 @@ Console token, licensing contact email, stray Vercel project, Discussions catego
 Caveats already stated to the owner: a launch review after this much parallel change will find things to fix (plan a
 day); earlier CC BY 4.0 releases cannot be relicensed, CC BY-NC applies from this version onward.
 
+## Graph health after 10 Sept linking pass
+Orphans 84 (from 2,185), records without a source 415 (from 2,974), backlink gaps 355 (from 595). Remaining orphans are regional hospitals, news-outlet collections and five journals.
+
 ## Merge lessons (10 Sept)
 - Agents working in parallel add the same drug or person; run a duplicate-id scan across src/data before validate and fold the poorer copy into the richer one.
 - Every new nav item needs label and blurb in the eight nav dictionaries.
 - Snapshot files under src/data/universe-lists can collide; keep the completeness envelope names and give other scripts their own file.
 
 ## Queued agent briefs (launch when a slot frees; 20-agent cap)
-- [x] Plain-language sentences for every remaining record (running) (about 140 technologies, 28 targets, 45 bottlenecks, 146 papers, new tests and complementary records) into src/data/simple/part-e.ts; brief drafted 10 Sept, blocked on the 20-agent cap
+- [x] Plain-language sentences: 1,982 added 10 Sept (coverage 54%); terms complete; ideas and people agents running (about 140 technologies, 28 targets, 45 bottlenecks, 146 papers, new tests and complementary records) into src/data/simple/part-e.ts; brief drafted 10 Sept, blocked on the 20-agent cap
 - [x] Insurance rankings (/coverage/rankings/) and Getting costs down (/costs/, 29 ideas): merged 10 Sept (/costs/ with ideas wave-costs). Brief drafted 10 Sept; owner ask: "build a section for insurance rankings for oncology, coverage, costs ranges and add another section for getting costs down and ideas around that".
-- [x] Startups, YC and VC map with investors (running)
+- [x] Startups, YC and VC map with investors: live 10 Sept (/startups/, /investors/; 62 YC, 187 startups, 69 investors)
 - [x] Donors in the heroes section: merged 10 Sept (41 donors, 15 foundations)
 - [x] Open Medical Registry links per section: merged 10 Sept (133 tools, /open-tools/)

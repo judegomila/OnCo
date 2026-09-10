@@ -44,6 +44,7 @@ import { TermSchematic } from "./TermSchematic";
 import { DrugGrid } from "./DrugCard";
 import type { Drug, Paper } from "@/lib/schema";
 import { LayerAware } from "./LayerAware";
+import { KindName, TL } from "./T";
 import { withTermHovers } from "@/lib/term-hover";
 import { paperQuery } from "@/lib/europepmc";
 import { LatestPapers } from "./LatestPapers";
@@ -93,11 +94,12 @@ function Refs({ ids }: { ids: string[] }) {
   return <ChipList items={items} />;
 }
 
+/** Labels and block titles are English source strings, translated on the client through the chrome dictionary (`TL`). */
 function Field({ label, children }: { label: string; children: ReactNode }) {
   if (children === undefined || children === null || children === "" || (Array.isArray(children) && children.length === 0)) return null;
   return (
     <div>
-      <div className="kicker mb-1">{label}</div>
+      <div className="kicker mb-1"><TL text={label} /></div>
       <div className="text-[15px] leading-relaxed">{children}</div>
     </div>
   );
@@ -106,7 +108,7 @@ function Field({ label, children }: { label: string; children: ReactNode }) {
 function Block({ title, children, aside }: { title?: string; children: ReactNode; aside?: ReactNode }) {
   return (
     <section className="mt-8 first:mt-0">
-      {title && <div className="flex items-baseline justify-between gap-4 mb-3"><h2 className="text-lg font-semibold tracking-tight">{title}</h2>{aside}</div>}
+      {title && <div className="flex items-baseline justify-between gap-4 mb-3"><h2 className="text-lg font-semibold tracking-tight"><TL text={title} /></h2>{aside}</div>}
       {children}
     </section>
   );
@@ -136,7 +138,7 @@ export function EntityDetail({ e }: { e: Entity }) {
     <>
       <JsonLd e={e} />
       <PageHeader
-        kicker={<><Link href={`/${meta.route}/`} className="kicker hover:underline">{meta.plural}</Link><KindChip kind={e.kind} />{e.kind === "drug" ? <ApprovalChip drugId={e.id} status={e.status} /> : <StatusChip status={e.status} />}</>}
+        kicker={<><Link href={`/${meta.route}/`} className="kicker hover:underline"><KindName kind={e.kind} form="plural" fallback={meta.plural} /></Link><KindChip kind={e.kind} />{e.kind === "drug" ? <ApprovalChip drugId={e.id} status={e.status} /> : <StatusChip status={e.status} />}</>}
         title={e.name}
         ledeNode={<TldrText id={e.id} tldr={e.tldr} simple={e.simple} />}
         logo={e.kind === "cancer" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><CancerIcon cancerId={e.id} className="h-10 w-10" /></span> : e.kind === "section" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><FrontIcon id={e.id} className="h-9 w-9" /></span> : "website" in e ? <Logo id={e.id} website={e.website} name={e.name} size={64} /> : "url" in e && e.kind === "collection" ? <Logo id={e.id} website={e.url} name={e.name} size={64} /> : undefined}
@@ -153,14 +155,14 @@ export function EntityDetail({ e }: { e: Entity }) {
             <ReviewBadge id={e.id} />
             <ProvenanceLine id={e.id} />
             <div className="card p-4 text-sm space-y-3">
-              {e.wikipedia && <div><div className="kicker mb-1">Wikipedia</div><a className="underline break-all" href={e.wikipedia} rel="noopener">{decodeURIComponent(e.wikipedia.replace("https://en.wikipedia.org/wiki/", "")).replace(/_/g, " ")}</a></div>}
+              {e.wikipedia && <div><div className="kicker mb-1"><TL text="Wikipedia" /></div><a className="underline break-all" href={e.wikipedia} rel="noopener">{decodeURIComponent(e.wikipedia.replace("https://en.wikipedia.org/wiki/", "")).replace(/_/g, " ")}</a></div>}
               {e.links.length > 0 && (
-                <div><div className="kicker mb-1">Sources & links</div>
+                <div><div className="kicker mb-1"><TL text="Sources & links" /></div>
                   <ul className="space-y-1">{e.links.map((l) => <li key={l.url}><a className="underline break-words" href={l.url} rel="noopener">{l.label}</a></li>)}</ul>
                 </div>
               )}
-              {e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:")).length > 0 && <div><div className="kicker mb-1">Tags</div><div className="flex flex-wrap gap-1">{e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:")).map((t) => <span key={t} className="chip bg-foreground/5">{t}</span>)}</div></div>}
-              <div><div className="kicker mb-1">Data</div>
+              {e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:")).length > 0 && <div><div className="kicker mb-1"><TL text="Tags" /></div><div className="flex flex-wrap gap-1">{e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:")).map((t) => <span key={t} className="chip bg-foreground/5">{t}</span>)}</div></div>}
+              <div><div className="kicker mb-1"><TL text="Data" /></div>
                 <a className="underline" href={`/api/v1/entities/${e.id}.json`}>JSON</a>
                 <span className="text-muted"> · </span>
                 <span className="text-muted"> · </span>
@@ -187,7 +189,7 @@ function QuickLinks({ e }: { e: Entity }) {
     <div className="card p-4 text-sm space-y-3">
       {nonEmpty.map(([label, ids]) => (
         <div key={label}>
-          <div className="kicker mb-1">{label}</div>
+          <div className="kicker mb-1"><TL text={label} /></div>
           <ul className="space-y-0.5">{ids.map((id) => { const x = g.get(id); return x ? <li key={id}><Link className="hover:underline" href={routeFor(x)}>{x.name}</Link></li> : null; })}</ul>
         </div>
       ))}
@@ -208,7 +210,7 @@ function kindTabs(e: Entity): Tab[] {
         overview(<>
           <div className="mt-8"><TechSchematic tech={e} /></div>
           {modelFor(e.id) && (() => { const m = modelFor(e.id)!; return (<div className="mt-6 card p-4 text-sm"><div className="kicker mb-1">Model registry</div><div className="grid gap-x-6 gap-y-1 sm:grid-cols-2"><div><span className="text-muted">Modality:</span> {m.modality}</div>{m.parametersM && <div><span className="text-muted">Parameters:</span> {m.parametersM >= 1000 ? `${m.parametersM / 1000} B` : `${m.parametersM} M`}</div>}<div><span className="text-muted">Weights:</span> {m.weights}</div>{m.licence && <div><span className="text-muted">Licence:</span> {m.licence}</div>}<div className="sm:col-span-2"><span className="text-muted">Training data:</span> {m.trainingData}</div>{m.benchmark && <div className="sm:col-span-2"><span className="text-muted">Reported result:</span> {m.benchmark}</div>}</div><Link className="underline text-xs text-muted mt-2 inline-block" href="/models/">Compare all models →</Link></div>); })()}
-          {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc pl-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/open-questions/?subject=${encodeURIComponent(e.name)}`}>{q.question}</Link></li>)}</ul></Block>}
+          {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc ps-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/open-questions/?subject=${encodeURIComponent(e.name)}`}>{q.question}</Link></li>)}</ul></Block>}
           <Block title="How it works"><p className="text-[15px] leading-relaxed max-w-3xl">{e.principle}</p></Block>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Strengths"><Bullets items={e.strengths} linked={(t) => withTermHovers(t, { skipId: e.id })} /></Field>
@@ -228,7 +230,7 @@ function kindTabs(e: Entity): Tab[] {
           <div className="mt-6 flex flex-wrap items-center justify-between gap-2"><Link href={`/dossiers/${e.id}/`} className="chip border bg-card border-border hover:bg-foreground/5 text-sm">Full dossier: hotspots, trials, resistance, assays, models, open questions →</Link></div>
           <Block title="Elsewhere"><XrefStrip targetId={e.id} compact /></Block>
           {hotspotsFor(e.id) && <Block title="Mutation hotspots"><HotspotPlot map={hotspotsFor(e.id)!} compact /><p className="text-xs text-muted mt-1"><Link className="underline" href={`/dossiers/${e.id}/#hotspots`}>Residue-by-residue table on the dossier →</Link></p></Block>}
-          {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc pl-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/dossiers/${e.id}/#q-${q.id}`}>{q.question}</Link></li>)}</ul></Block>}
+          {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc ps-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/dossiers/${e.id}/#q-${q.id}`}>{q.question}</Link></li>)}</ul></Block>}
           {assaysForTarget(e.id).length > 0 && <Block title="Companion diagnostics"><ul className="text-sm space-y-1">{assaysForTarget(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></Block>}
           {modelsFor(e.id) && <p className="text-sm text-muted mt-4"><Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(e.name.split(" (")[0])}`}>Cell lines and mouse models for this target →</Link></p>}
           <Block title="Biology"><p className="text-[15px] leading-relaxed max-w-3xl">{withTermHovers(e.biology, { skipId: e.id })}</p></Block>
@@ -255,10 +257,10 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Linker">{e.linker}</Field>
           </div>
           {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
-          {assaysForDrug(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2">Test required or used to select patients</div><ul className="text-sm space-y-1">{assaysForDrug(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></div>}
+          {assaysForDrug(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2"><TL text="Test required or used to select patients" /></div><ul className="text-sm space-y-1">{assaysForDrug(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></div>}
           {(coverageUs[e.id] || coverageUk[e.id]) && <div className="mt-6 grid gap-4 md:grid-cols-2">{coverageUs[e.id] && <CoverageUsCard drugId={e.id} />}{coverageUk[e.id] && <CoverageUkCard drugId={e.id} />}</div>}
           <div className="mt-6 space-y-4"><ExclusivityPanel drugId={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /></div>
-          {regionalApprovals[e.id] && <div className="mt-6"><div className="kicker mb-2">Where it is approved</div><RegionStrip row={regionalApprovals[e.id]} /><p className="text-xs text-muted mt-1"><Link className="underline" href="/regulatory/regions/">Compare all products across the US, EU, UK, Japan, China and Australia →</Link></p></div>}
+          {regionalApprovals[e.id] && <div className="mt-6"><div className="kicker mb-2"><TL text="Where it is approved" /></div><RegionStrip row={regionalApprovals[e.id]} /><p className="text-xs text-muted mt-1"><Link className="underline" href="/regulatory/regions/">Compare all products across the US, EU, UK, Japan, China and Australia →</Link></p></div>}
         </>),
         ...(e.approvals.length || e.regulatoryEvents.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length, content: (<>
           {e.regulatoryEvents.length > 0 && <RegulatoryTimeline events={e.regulatoryEvents} />}
@@ -374,9 +376,9 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Published">{(() => { const j = g.kind("journal").find((x) => x.kind === "journal" && (x.name === e.journal || x.matchNames.includes(e.journal))); return j ? <Link className="underline" href={routeFor(j)}>{e.journal}</Link> : e.journal; })()}, {e.year}</Field>
             {(e.doi || e.pmid) && <Field label="Read it">{e.doi && <a className="underline mr-3" href={`https://doi.org/${e.doi}`} rel="noopener">doi:{e.doi}</a>}{e.pmid && <a className="underline" href={`https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/`} rel="noopener">PubMed {e.pmid}</a>}</Field>}
           </div>
-          {e.findings.length > 0 && <Field label="What it found"><ul className="list-disc pl-5 space-y-1">{e.findings.map((f, i) => <li key={i}>{withTermHovers(f)}</li>)}</ul></Field>}
-          <div className="card p-4 bg-accent-soft/60 border-accent/20"><div className="kicker mb-1">What it means</div><p className="text-[15px] leading-relaxed">{withTermHovers(e.whatItMeans)}</p></div>
-          {e.caveats.length > 0 && <Field label="Be careful"><ul className="list-disc pl-5 space-y-1">{e.caveats.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
+          {e.findings.length > 0 && <Field label="What it found"><ul className="list-disc ps-5 space-y-1">{e.findings.map((f, i) => <li key={i}>{withTermHovers(f)}</li>)}</ul></Field>}
+          <div className="card p-4 bg-accent-soft/60 border-accent/20"><div className="kicker mb-1"><TL text="What it means" /></div><p className="text-[15px] leading-relaxed">{withTermHovers(e.whatItMeans)}</p></div>
+          {e.caveats.length > 0 && <Field label="Be careful"><ul className="list-disc ps-5 space-y-1">{e.caveats.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
         </div>),
       ];
     }
@@ -407,9 +409,9 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<div className="grid gap-6 mt-8">
           <div className="flex flex-wrap gap-2"><span className={`chip ${statusClass(sevClass)}`}>{e.severity}</span><span className="chip bg-foreground/5">{e.stage.replace(/-/g, " ")}</span><span className="chip bg-foreground/5">{ideas.length} ideas to fix it</span></div>
-          {e.metrics.length > 0 && <div><div className="kicker mb-2">How big the problem is</div><div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{e.metrics.map((m, i) => <div key={i} className="card p-3"><div className="text-2xl font-semibold tabular-nums">{m.value}</div><div className="text-sm">{m.label}</div>{(m.source || m.url) && <div className="text-xs text-muted mt-1">{m.url ? <a className="underline" href={m.url} rel="noopener">{m.source ?? "source"}</a> : m.source}</div>}</div>)}</div></div>}
-          {e.causes.length > 0 && <Field label="Root causes"><ul className="list-disc pl-5 space-y-1">{e.causes.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
-          {e.currentEfforts.length > 0 && <Field label="What is already being tried"><ul className="list-disc pl-5 space-y-1">{e.currentEfforts.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
+          {e.metrics.length > 0 && <div><div className="kicker mb-2"><TL text="How big the problem is" /></div><div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{e.metrics.map((m, i) => <div key={i} className="card p-3"><div className="text-2xl font-semibold tabular-nums">{m.value}</div><div className="text-sm">{m.label}</div>{(m.source || m.url) && <div className="text-xs text-muted mt-1">{m.url ? <a className="underline" href={m.url} rel="noopener">{m.source ?? "source"}</a> : m.source}</div>}</div>)}</div></div>}
+          {e.causes.length > 0 && <Field label="Root causes"><ul className="list-disc ps-5 space-y-1">{e.causes.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
+          {e.currentEfforts.length > 0 && <Field label="What is already being tried"><ul className="list-disc ps-5 space-y-1">{e.currentEfforts.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
           {e.successLooksLike && <Field label="What breaking it looks like">{e.successLooksLike}</Field>}
         </div>),
         ...(ideas.length ? [{ id: "ideas", label: "Ideas to fix it", count: ideas.length, content: (
@@ -488,7 +490,7 @@ function LinkedBullets({ items, skipId }: { items: string[]; skipId?: string }) 
     return index.get(l) ?? index.get(l.replace(/-positive$|-negative$|\+$|-$/g, "").trim()) ?? [...index.entries()].find(([k]) => k.length > 3 && (l === k || l.startsWith(k + " ") || l.endsWith(" " + k)))?.[1];
   };
   return (
-    <ul className="list-disc pl-5 space-y-1.5 text-[15px] leading-relaxed">
+    <ul className="list-disc ps-5 space-y-1.5 text-[15px] leading-relaxed">
       {items.map((it, i) => {
         const m = it.match(/^([^:–—(]+?)\s*([:–—(].*)?$/);
         const head = m?.[1] ?? it, rest = m?.[2] ?? "";
@@ -527,7 +529,7 @@ function RefsWithMolecules({ ids }: { ids: string[] }) {
 function RoadmapSteps({ r }: { r: Roadmap }) {
   const tone: Record<string, string> = { historic: "bg-zinc-400", current: "bg-emerald-500", emerging: "bg-amber-500", speculative: "bg-violet-500" };
   return (<>
-    <ol className="relative border-l-2 border-border ml-3 space-y-8">
+    <ol className="relative border-s-2 border-border ms-3 space-y-8">
       {r.steps.map((s, i) => (
         <li key={i} className="ml-6">
           <span className={`absolute -left-[9px] mt-1.5 h-4 w-4 rounded-full ring-4 ring-background ${tone[s.status]}`} />
@@ -550,7 +552,7 @@ function cancerTabs(c: Cancer): Tab[] {
     { id: "overview", label: "Overview", content: <>
       <Summary e={c} />
       <Block title="State of the art today"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
-      {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1">Treatment journeys</div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}
+      {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1"><TL text="Treatment journeys" /></div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}
       {organFor(c.id) && <Block title="Where it starts and where it drains"><OrganSchematic cancerId={c.id} /></Block>}
       {modelsFor(c.id) && <Block title="Preclinical models"><p className="text-sm text-muted">{modelsFor(c.id)!.cellLines.length} cell lines, {modelsFor(c.id)!.gemms.length} mouse models and {modelsFor(c.id)!.pdx.length + modelsFor(c.id)!.organoids.length} repositories are listed for this cancer. <Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(c.name.split(" (")[0])}`}>See them →</Link></p></Block>}
       <div className="grid gap-6 sm:grid-cols-2 mt-8">
@@ -560,7 +562,7 @@ function cancerTabs(c: Cancer): Tab[] {
       <div className="mt-6"><WhatIsBeingDone topic="late-diagnosis" cancerId={c.id} compact /></div>
       <Block title="Where the cases are"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
       {spreadFor(c.id) && (
-        <GentleSection className="mt-8" title={SPREAD_LABELS.fold} why={SPREAD_LABELS.why} reassurance={SPREAD_LABELS.reassurance} kicker="Advanced disease">
+        <GentleSection className="mt-8" title={SPREAD_LABELS.fold} why={SPREAD_LABELS.why} reassurance={SPREAD_LABELS.reassurance} kicker={<TL text="Advanced disease" />}>
           <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
             <div className="card p-3"><SpreadMap spread={spreadFor(c.id)!} cancerName={c.name} /></div>
             <div className="space-y-4">
@@ -597,7 +599,7 @@ function cancerTabs(c: Cancer): Tab[] {
       <Block title="Target prevalence in this cancer"><CancerPrevalence cancerId={c.id} /></Block>
     </>) },
     { id: "history", label: "History", count: c.history.length, content: (
-      <ol className="relative border-l-2 border-border ml-3 space-y-5">
+      <ol className="relative border-s-2 border-border ms-3 space-y-5">
         {c.history.map((h, i) => (
           <li key={i} className="ml-6">
             <span className="absolute -left-[7px] mt-1.5 h-3 w-3 rounded-full bg-accent ring-4 ring-background" />

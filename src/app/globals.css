@@ -260,7 +260,7 @@
     position: sticky;
     top: var(--sticky-top);
     z-index: 2;
-    text-align: left;
+    text-align: start;
     vertical-align: bottom;
     font-weight: 600;
     color: var(--muted);
@@ -368,12 +368,20 @@
 }
 
 /* ------------------------------------------------------------------------------------------------
-   Languages. TldrText sets `lang` on translated text and the layer sets `data-lang` on <html>. Right-to-left
-   scripts flip direction and alignment on the text itself only (site chrome stays LTR); CJK, Devanagari and
-   Arabic get system font stacks with the glyphs, since Geist has none.
+   Languages. The layer writes the site language to <html lang>, <html dir> and `data-lang`; TldrText sets `lang`
+   on each TL;DR for the language it is actually in. Right-to-left scripts flip direction and alignment; when the
+   whole site is Arabic, <html dir="rtl"> flips the chrome too (components use logical utilities: ps-/pe-/ms-/me-,
+   start/end). CJK, Devanagari and Arabic get system font stacks with the glyphs, since Geist has none. On <html>
+   itself Geist stays first so Latin names, codes and numbers keep the site face.
    ------------------------------------------------------------------------------------------------ */
 [lang="ar"], [lang="he"], [lang="fa"], [lang="ur"] { direction: rtl; unicode-bidi: isolate; text-align: start; }
 [lang="ar"] { font-family: "Noto Naskh Arabic", "Geeza Pro", "Segoe UI", Tahoma, var(--font-sans); line-height: 1.8; }
+html[lang="ar"] { unicode-bidi: normal; font-family: var(--font-sans), "Noto Naskh Arabic", "Geeza Pro", "Segoe UI", Tahoma, sans-serif; line-height: inherit; }
+html[lang="ja"] { font-family: var(--font-sans), "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Meiryo", sans-serif; }
+html[lang="zh"] { font-family: var(--font-sans), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+html[lang="hi"] { font-family: var(--font-sans), "Kohinoor Devanagari", "Nirmala UI", "Noto Sans Devanagari", sans-serif; }
+/* Latin-script identifiers inside an RTL page keep their own direction. */
+html[dir="rtl"] code, html[dir="rtl"] kbd, html[dir="rtl"] .tabular-nums { unicode-bidi: isolate; }
 [lang="ja"] { font-family: var(--font-sans), "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Meiryo", sans-serif; line-height: 1.75; }
 [lang="zh"] { font-family: var(--font-sans), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif; line-height: 1.75; }
 [lang="hi"] { font-family: var(--font-sans), "Kohinoor Devanagari", "Nirmala UI", "Noto Sans Devanagari", sans-serif; line-height: 1.75; }

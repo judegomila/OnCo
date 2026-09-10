@@ -8,6 +8,7 @@ import { MoleculeSlot } from "./MoleculeSlot";
 import type { SearchDoc } from "@/lib/search-index";
 import { KIND_META } from "@/lib/schema";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
+import { useT } from "@/lib/i18n/ui";
 
 type Item = { id: string; kind?: SearchDoc["kind"]; name: string; tldr: string; route: string; status?: string; action?: true };
 
@@ -275,12 +276,13 @@ function ShortcutsSheet({ onClose }: { onClose: () => void }) {
 /** A button that opens the palette; used in the header. */
 export function PaletteTrigger({ className = "" }: { className?: string }) {
   const [mac, setMac] = useState(true);
+  const { t } = useT();
   useEffect(() => { const id = requestAnimationFrame(() => setMac(/Mac|iPhone|iPad/.test(navigator.platform))); return () => cancelAnimationFrame(id); }, []);
   return (
-    <button type="button" onClick={() => window.dispatchEvent(new Event("onco:open-palette"))} className={`flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-1.5 text-sm text-muted hover:bg-foreground/5 min-w-0 overflow-hidden whitespace-nowrap ${className}`} aria-label="Open search (Command K)">
+    <button type="button" onClick={() => window.dispatchEvent(new Event("onco:open-palette"))} className={`flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-1.5 text-sm text-muted hover:bg-foreground/5 min-w-0 overflow-hidden whitespace-nowrap ${className}`} aria-label={t("header.openSearch")}>
       <span aria-hidden>⌕</span>
-      <span className="hidden sm:inline">Search</span>
-      <kbd className="hidden sm:inline-block xl:hidden 2xl:inline-block ml-auto text-[10px] border border-border rounded px-1.5 py-0.5">{mac ? "⌘" : "Ctrl"} K</kbd>
+      <span className="hidden sm:inline">{t("header.search")}</span>
+      <kbd className="hidden sm:inline-block xl:hidden 2xl:inline-block ms-auto text-[10px] border border-border rounded px-1.5 py-0.5">{mac ? "⌘" : "Ctrl"} K</kbd>
     </button>
   );
 }

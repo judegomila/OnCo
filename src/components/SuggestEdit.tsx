@@ -4,6 +4,7 @@ import type { SourceLocation } from "@/lib/source-location";
 import { issueUrl, suggestEditUrl, entityRef, pageUrl } from "@/lib/issue-links";
 import { DiscussLink } from "./DiscussLink";
 import { WatchButton } from "./WatchButton";
+import { T } from "./T";
 
 type Props = { id: string; kind: Kind; name: string; fields?: string[]; source?: SourceLocation; recordJson?: string; /** Page path and record date for the watch button; optional. */ route?: string; asOf?: string };
 
@@ -25,20 +26,20 @@ export function SuggestEdit({ id, kind, name, source, route, asOf }: Props) {
   return (
     <div className="card p-4 text-sm">
       <div className="flex flex-wrap items-center justify-between gap-2 mb-3 pb-3 border-b border-border no-print">
-        <div className="kicker">Follow this page</div>
+        <div className="kicker"><T k="suggest.follow" /></div>
         <WatchButton id={id} kind={kind} name={name} route={route} asOf={asOf} />
       </div>
-      <div className="kicker mb-1">Wrong or missing?</div>
-      <p className="text-muted">Propose a change with a source. Organisations can update their own records. Every suggestion is reviewed, safety-checked and validated before it goes live; nothing is edited directly.</p>
+      <div className="kicker mb-1"><T k="suggest.wrong" /></div>
+      <p className="text-muted"><T k="suggest.body" /></p>
       <div className="mt-2 flex flex-wrap gap-2">
-        <a href={suggest} rel="noopener" className="rounded-lg bg-foreground text-background px-3 py-1.5 text-xs font-medium hover:brightness-110">Suggest an edit</a>
+        <a href={suggest} rel="noopener" className="rounded-lg bg-foreground text-background px-3 py-1.5 text-xs font-medium hover:brightness-110"><T k="suggest.cta" /></a>
         <DiscussLink id={id} kind={kind} name={name} className="rounded-lg border border-border px-3 py-1.5 text-xs hover:bg-foreground/5" />
       </div>
       <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted">
-        <li><a className="underline" href={stale} rel="noopener" title="Something here has been overtaken by events">Out of date?</a></li>
-        {readout && <li><a className="underline" href={readout} rel="noopener" title="This trial has reported or been updated">Report a readout</a></li>}
-        {approval && <li><a className="underline" href={approval} rel="noopener" title="Approved, filed, or withdrawn in another region">Report an approval</a></li>}
-        <li><Link className="underline" href="/suggest/">How review works</Link></li>
+        <li><a className="underline" href={stale} rel="noopener"><T k="suggest.stale" /></a></li>
+        {readout && <li><a className="underline" href={readout} rel="noopener"><T k="suggest.readout" /></a></li>}
+        {approval && <li><a className="underline" href={approval} rel="noopener"><T k="suggest.approval" /></a></li>}
+        <li><Link className="underline" href="/suggest/"><T k="suggest.how" /></Link></li>
       </ul>
     </div>
   );

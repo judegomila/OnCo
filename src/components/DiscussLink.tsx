@@ -1,5 +1,6 @@
 import type { Kind } from "@/lib/schema";
 import { discussionSearchUrl, newDiscussionUrl } from "@/lib/issue-links";
+import { T } from "./T";
 
 /**
  * Open discussion about one object. Suggested edits are issues (they change the record); open
@@ -11,8 +12,8 @@ export function DiscussLink({ id, kind, name, className = "", showNew = true }: 
   const e = { id, kind, name };
   return (
     <span className="inline-flex items-center gap-1.5">
-      <a href={discussionSearchUrl(id)} rel="noopener" className={className || "underline"} title={`Find discussion threads about ${name} on GitHub`}>Discuss</a>
-      {showNew && <a href={newDiscussionUrl(e)} rel="noopener" className="text-xs text-muted underline" title="Start a new thread about this object">start a thread</a>}
+      <a href={discussionSearchUrl(id)} rel="noopener" className={className || "underline"} title={`Find discussion threads about ${name} on GitHub`}><T k="discuss.link" /></a>
+      {showNew && <a href={newDiscussionUrl(e)} rel="noopener" className="text-xs text-muted underline" title="Start a new thread about this object"><T k="discuss.new" /></a>}
     </span>
   );
 }

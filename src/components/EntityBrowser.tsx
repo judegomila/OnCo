@@ -12,6 +12,8 @@ import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/Re
 import { DownloadTable } from "./DownloadTable";
 import { SaveViewButton } from "./SaveViewButton";
 import type { CsvRow } from "@/lib/csv";
+import { useT } from "@/lib/i18n/ui";
+import { tldrFor } from "./TldrText";
 
 /**
  * One templated, full-width, sortable and filterable table for any kind of entity.
@@ -99,6 +101,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
 }) {
   const [q, setQ] = useState("");
   const [own, setOwn] = useState<Record<string, string[]>>({});
+  const { t, tl, status: statusText, noun: nounText, lang } = useT();
   /** True once the URL has been read, so the write-back effect never clobbers a shared link with the empty initial state. */
   const [synced, setSynced] = useState(false);
   /** Effective selection: the internal choice plus whatever the parent set on the controlled key. */
@@ -134,7 +137,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
 
   const allFacets = useMemo(() => (hideStatus ? facets : [STATUS_FACET, ...facets]), [facets, hideStatus]);
   const facetVals = (r: BrowserRow, k: string) => (k === "status" ? (r.status ? [r.status] : []) : (r.facets[k] ?? []));
-  const facetLabel = (key: string) => allFacets.find((f) => f.key === key)?.label ?? key;
+  const facetLabel = (key: string) => tl(allFacets.find((f) => f.key === key)?.label ?? key);
 
   // Read the URL once on mount (deferred a frame, as the other URL-backed views do, so the effect sets no state
   // synchronously). Values repeat (`?cancers=A&cancers=B`) or are comma-separated; a raw value that is itself a
@@ -218,11 +221,11 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
       let arr = [...counts.entries()];
       arr = f.order ? arr.sort((a, b) => (f.order!.indexOf(a[0]) + 1 || 999) - (f.order!.indexOf(b[0]) + 1 || 999)) : arr.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
       const dot = (v: string) => { let h = 0; for (const ch of v) h = (h * 31 + ch.charCodeAt(0)) % 360; return <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: `hsl(${h} 55% 55%)` }} />; };
-      out[f.key] = arr.map(([v, n]) => ({ value: v, label: f.key === "status" ? STATUS_LABEL[v] ?? v : v, count: n, icon: COUNTRY_FACETS.has(f.key) ? flagFor(v) || undefined : f.key === "status" ? <span className={`inline-block h-2.5 w-2.5 rounded-full ${statusClass(v).split(" ").find((c) => c.startsWith("bg-")) ?? "bg-foreground/30"}`} /> : ["type","group","stage","severity","maturity","modality","access","scope","category","class","kind","actor","cost","front","specialism","license","nci","phase"].includes(f.key) ? dot(v) : undefined }));
+      out[f.key] = arr.map(([v, n]) => ({ value: v, label: f.key === "status" ? statusText(v) : v, count: n, icon: COUNTRY_FACETS.has(f.key) ? flagFor(v) || undefined : f.key === "status" ? <span className={`inline-block h-2.5 w-2.5 rounded-full ${statusClass(v).split(" ").find((c) => c.startsWith("bg-")) ?? "bg-foreground/30"}`} /> : ["type","group","stage","severity","maturity","modality","access","scope","category","class","kind","actor","cost","front","specialism","license","nci","phase"].includes(f.key) ? dot(v) : undefined }));
     }
     return out;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [rows, q, sel]);
+  }, [rows, q, sel, lang]);
 
   const onSort = (key: string) => setSort((s) => (s.key === key ? { key, dir: s.dir === 1 ? -1 : 1 } : { key, dir: 1 }));
   const active = Object.values(sel).some((a) => a.length) || q;
@@ -245,12 +248,12 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
     const label = itemLabel(f);
     const fl = facetLabel(f.facet);
     const on = (sel[f.facet] ?? []).includes(f.value);
-    const action = on ? `Filtering by ${fl}: ${label}. Click to clear.` : `Filter by ${fl}: ${label}`;
+    const action = on ? t("table.filteringBy", { facet: fl, value: label }) : t("table.filterBy", { facet: fl, value: label });
     const tip = [f.tip, extraTip, action].filter(Boolean).join(" ");
     const look = className ? `${className} ${on ? "ring-2 ring-accent/50" : ""}` : on ? "bg-accent-soft text-accent border-accent" : "bg-foreground/5 hover:bg-accent-soft hover:text-accent";
     return (
       <Tip title={label} text={tip}>
-        <button type="button" onClick={() => clickFacet(f)} aria-label={`Filter by ${fl}: ${label}`} aria-pressed={on}
+        <button type="button" onClick={() => clickFacet(f)} aria-label={t("table.filterBy", { facet: fl, value: label })} aria-pressed={on}
           className={`chip cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 ${look}`}>
           {label}
         </button>
@@ -262,7 +265,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
     : <Link href={l.href} className="hover:underline hover:text-foreground">{l.label}</Link>);
 
   const tableCols: Column<BrowserRow>[] = [
-    { key: "name", label: "Name", sortable: true, render: (r) => (
+    { key: "name", label: t("name"), sortable: true, render: (r) => (
       <div className="min-w-[220px] flex items-start gap-2">
         {r.molecule && <MoleculeSlot drugId={r.molecule} modality={r.modality} name={r.name} className="h-10 w-10" />}
         {r.logo && !r.molecule && (
@@ -271,16 +274,16 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
             <img src={r.logo} alt="" className="h-[70%] w-[70%] object-contain" loading="lazy" referrerPolicy="no-referrer" />
           </span>
         )}
-        <div><Link href={r.route} data-row className="font-medium hover:underline">{r.name}</Link>{r.sub && <div className="text-xs text-muted">{r.sub}</div>}{!hideTldr && <div className="text-xs text-muted line-clamp-2 max-w-lg">{r.tldr}</div>}</div>
+        <div><Link href={r.route} data-row className="font-medium hover:underline">{r.name}</Link>{r.sub && <div className="text-xs text-muted">{r.sub}</div>}{!hideTldr && <div className="text-xs text-muted line-clamp-2 max-w-lg">{tldrFor(r.id, r.tldr, lang)}</div>}</div>
       </div>) },
     ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, render: (r: BrowserRow) => r.molecule
       ? <ApprovalChip drugId={r.molecule} status={r.status} />
-      : r.status ? facetChip({ facet: "status", value: r.status, label: STATUS_LABEL[r.status] ?? r.status }, STATUS_TIPS[r.status], statusClass(r.status)) : null } as Column<BrowserRow>]),
+      : r.status ? facetChip({ facet: "status", value: r.status, label: statusText(r.status) }, STATUS_TIPS[r.status], statusClass(r.status)) : null } as Column<BrowserRow>]),
     ...columns.map((c): Column<BrowserRow> => ({
       key: c.key, label: c.label, sortable: c.sortable, hide: c.hide, className: c.className, tip: c.tip,
       render: (r) => {
         const v = r.cols[c.key];
-        if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted"><span aria-hidden>—</span><span className="sr-only">none</span></span>;
+        if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted"><span aria-hidden>—</span><span className="sr-only">{t("none")}</span></span>;
         if (isRich(v)) {
           const parts: React.ReactNode[] = []; let pos = 0;
           v.marks.forEach((m, i) => { if (m.s > pos) parts.push(v.text.slice(pos, m.s)); parts.push(<Tip key={i} title={m.label} text={m.tip} href={m.href} linkLabel="Glossary page →"><Link href={m.href} className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] hover:text-foreground">{v.text.slice(m.s, m.e)}</Link></Tip>); pos = m.e; });
@@ -311,8 +314,8 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
             if (!opts.length && !(sel[f.key]?.length)) return null;
             return <FacetSelect key={f.key} label={f.label} options={opts} value={sel[f.key] ?? []} onChange={(v) => setFacet(f.key, v as string[])} multi searchable={f.searchable ?? true} allLabel="Any" width={f.width ?? "w-48"} />;
           })}
-          <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={`Filter ${noun}…`} aria-label={`Filter ${noun}`} className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
-          {active ? <button type="button" onClick={clearAll} className="text-sm underline text-muted">Clear</button> : null}
+          <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={`${t("table.filterNoun", { noun: nounText(noun) })}…`} aria-label={t("table.filterNoun", { noun: nounText(noun) })} className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
+          {active ? <button type="button" onClick={clearAll} className="text-sm underline text-muted">{t("clear")}</button> : null}
         </>}
         right={<>
           <SaveViewButton noun={noun} count={filtered.length} stateKey={stateKey} />

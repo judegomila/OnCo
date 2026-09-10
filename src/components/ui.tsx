@@ -1,19 +1,21 @@
 import Link from "next/link";
 import type { Entity, Kind } from "@/lib/schema";
 import { KIND_META, routeFor } from "@/lib/schema";
-import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
+import { KIND_COLOR, statusClass } from "@/lib/text";
 import { NAV_GROUPS } from "@/lib/nav";
 import { DrugChip } from "./DrugChip";
 import { NavIcon } from "./NavIcon";
 import { GardenBackdrop, gardenSeed } from "./Garden";
+import { KindName, StatusName } from "./T";
+import { TldrText } from "./TldrText";
 
 export function KindChip({ kind }: { kind: Kind }) {
-  return <span className={`chip border ${KIND_COLOR[kind]}`}>{KIND_META[kind].label}</span>;
+  return <span className={`chip border ${KIND_COLOR[kind]}`}><KindName kind={kind} form="label" fallback={KIND_META[kind].label} /></span>;
 }
 
 export function StatusChip({ status }: { status?: string }) {
   if (!status) return null;
-  return <span className={`chip ${statusClass(status)}`}>{STATUS_LABEL[status] ?? status}</span>;
+  return <span className={`chip ${statusClass(status)}`}><StatusName status={status} /></span>;
 }
 
 export function EntityLink({ e, className = "" }: { e: Entity; className?: string }) {
@@ -32,7 +34,7 @@ export function EntityCard({ e, compact = false }: { e: Entity; compact?: boolea
         <StatusChip status={e.status} />
       </div>
       <div className="font-semibold leading-snug text-balance">{e.name}</div>
-      {!compact && <p className="text-sm text-muted mt-1.5 line-clamp-3">{e.tldr}</p>}
+      {!compact && <p className="text-sm text-muted mt-1.5 line-clamp-3"><TldrText id={e.id} tldr={e.tldr} simple={e.simple} /></p>}
     </Link>
   );
 }
@@ -69,10 +71,10 @@ export function GroupKicker({ id, children }: { id: string; children?: React.Rea
  * title so pages differ; hidden on phones). `tone="band"` adds the soft garden wash used by group
  * landing pages, echoing the home hero.
  */
-export function PageHeader({ kicker, title, lede, ledeNode, right, logo, tone = "plain" }: { kicker?: React.ReactNode; title: string; lede?: string; ledeNode?: React.ReactNode; right?: React.ReactNode; logo?: React.ReactNode; tone?: "plain" | "band" }) {
+export function PageHeader({ kicker, title, lede, ledeNode, right, logo, tone = "plain", seed }: { kicker?: React.ReactNode; title: React.ReactNode; lede?: string; ledeNode?: React.ReactNode; right?: React.ReactNode; logo?: React.ReactNode; tone?: "plain" | "band"; /** Stable string for the decorative seed when `title` is not a plain string. */ seed?: string }) {
   const inner = (
     <div className={`relative mx-auto max-w-7xl px-4 sm:px-6 pt-8 sm:pt-10 ${tone === "band" ? "pb-10 sm:pb-12" : "pb-6"}`}>
-      <GardenBackdrop variant="page" seed={gardenSeed(title)} />
+      <GardenBackdrop variant="page" seed={gardenSeed(seed ?? (typeof title === "string" ? title : ""))} />
       <div className="relative">
         {kicker && <div className="mb-2 flex flex-wrap items-center gap-2">{kicker}</div>}
         <div className="flex flex-wrap items-start justify-between gap-4">
@@ -108,7 +110,7 @@ export function Container({ children, className = "" }: { children: React.ReactN
 export function Bullets({ items, linked }: { items: string[]; linked?: (s: string) => React.ReactNode }) {
   if (!items.length) return null;
   return (
-    <ul className="list-disc pl-5 space-y-1.5 text-[15px] leading-relaxed">
+    <ul className="list-disc ps-5 space-y-1.5 text-[15px] leading-relaxed">
       {items.map((s, i) => <li key={i}>{linked ? linked(s) : s}</li>)}
     </ul>
   );

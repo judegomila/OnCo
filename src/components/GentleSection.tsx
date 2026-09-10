@@ -1,10 +1,12 @@
 import type { ReactNode } from "react";
+import { T } from "./T";
 
 /**
  * A closed-by-default fold for content that is accurate but hard to read at first glance: survival
  * tables, death counts, spread maps. The summary line says what is inside and why a reader might
  * want it; a short reassurance paragraph sits above the content. Plain `<details>`, so it works in
  * server components and without JavaScript, and it matches the card and kicker styles used elsewhere.
+ * "Show" and "Hide" follow the site language; the title itself is page content and stays as given.
  */
 export function GentleSection({ title, why, reassurance, children, defaultOpen = false, id, className = "", kicker }: {
   /** Noun phrase completing "Show …", e.g. "the survival table". */
@@ -18,20 +20,20 @@ export function GentleSection({ title, why, reassurance, children, defaultOpen =
   id?: string;
   className?: string;
   /** Optional small label above the summary line. */
-  kicker?: string;
+  kicker?: ReactNode;
 }) {
   return (
     <details id={id} open={defaultOpen || undefined} className={`card group ${className}`}>
       <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden p-4 flex items-start gap-3 hover:bg-foreground/[0.03] rounded-xl">
-        <span aria-hidden className="mt-1 text-muted transition-transform group-open:rotate-90">▸</span>
+        <span aria-hidden className="mt-1 text-muted transition-transform group-open:rotate-90 rtl:rotate-180 rtl:group-open:rotate-90">▸</span>
         <span className="min-w-0">
           {kicker && <span className="kicker block mb-0.5">{kicker}</span>}
-          <span className="font-medium"><span className="group-open:hidden">Show </span><span className="hidden group-open:inline">Hide </span>{title}</span>
+          <span className="font-medium"><span className="group-open:hidden"><T k="show" /> </span><span className="hidden group-open:inline"><T k="hide" /> </span>{title}</span>
           {why && <span className="block text-sm text-muted mt-0.5">{why}</span>}
         </span>
       </summary>
       <div className="px-4 pb-4">
-        {reassurance && <p className="text-sm text-muted mb-3 border-l-2 border-accent/50 pl-3 leading-relaxed">{reassurance}</p>}
+        {reassurance && <p className="text-sm text-muted mb-3 border-s-2 border-accent/50 ps-3 leading-relaxed">{reassurance}</p>}
         {children}
       </div>
     </details>

@@ -5,7 +5,8 @@ import { peopleUsEast } from "./us-east";
 import { peopleUsWest } from "./us-west";
 import { heroes } from "./heroes";
 import { peopleLeadersWave2 } from "./leaders-wave2";
+import { heroesDonors } from "./heroes-donors";
 
 /** People (clinicians, scientists, leaders, and the heroes of /heroes/) grouped by file. Register each file here. */
-const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, peopleLeadersWave2];
+const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, heroesDonors, peopleLeadersWave2];
 export const people: PersonInput[] = files.flat();

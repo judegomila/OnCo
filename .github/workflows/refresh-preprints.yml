@@ -20,7 +20,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npx tsx scripts/fetch-preprints.ts --force
+      - run: npx tsx scripts/fetch-preprints.ts
       - run: npm run validate
       - uses: peter-evans/create-pull-request@v7
         with:

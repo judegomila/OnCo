@@ -52,6 +52,8 @@ export default function PreprintsPage() {
   const published = index?.published ?? [];
   const byKind = (kind: string) => Object.entries(index?.entities ?? {}).filter(([, e]) => e.kind === kind && e.count > 0).sort((a, b) => b[1].count - a[1].count).slice(0, 12);
   const active = Object.values(index?.entities ?? {}).filter((e) => e.count > 0).length;
+  const totalTopics = g.entities.filter((e) => ["target", "drug", "technology"].includes(e.kind) && paperQuery(e as never)).length;
+  const partial = !!index && Object.keys(index.entities).length < totalTopics;
 
   return (
     <>
@@ -79,10 +81,12 @@ export default function PreprintsPage() {
               <span>Window: last <b className="text-foreground">{index.windowDays} days</b></span>
               <span>Preprints: <b className="text-foreground">{items.length.toLocaleString("en-GB")}</b></span>
               <span>Since published: <b className="text-foreground">{published.length.toLocaleString("en-GB")}</b></span>
-              <span>Topics with activity: <b className="text-foreground">{active.toLocaleString("en-GB")}</b> of {Object.keys(index.entities).length.toLocaleString("en-GB")}</span>
+              <span>Topics covered so far: <b className="text-foreground">{Object.keys(index.entities).length.toLocaleString("en-GB")}</b> of {totalTopics.toLocaleString("en-GB")} ({active.toLocaleString("en-GB")} with a preprint in the window)</span>
               <span>Source: {index.source}</span>
               <span>Refreshed weekly by <a className="underline" href="https://github.com/judegomila/OnCo/blob/main/.github/workflows/refresh-preprints.yml" rel="noopener">GitHub Actions</a></span>
             </div>
+
+            {partial && <p className="card p-4 text-sm text-muted max-w-3xl">Coverage is partial: {Object.keys(index.entities).length.toLocaleString("en-GB")} of {totalTopics.toLocaleString("en-GB")} targets, products and technologies have been fetched so far. The weekly workflow resumes from this snapshot and completes the rest; topics not yet covered still have a live preprint feed on their own pages under &ldquo;Latest papers&rdquo;.</p>}
 
             <section id="sec-active" className="space-y-3">
               <h2 className="text-xl font-semibold">Most active topics</h2>

@@ -26,6 +26,8 @@ export function hopLabel(via: string, forward: boolean, fromKind: Kind, toKind: 
     case "standardOfCare": return forward ? "standard of care uses" : "standard of care for";
     case "pathway-node": return forward ? "pathway node" : "sits in pathway";
     case "keyPapers": return forward ? "rests on paper" : "paper underpins";
+    case "investors": return forward ? "backed by" : "invests in";
+    case "acquiredBy": return forward ? "acquired by" : "acquired";
     default: {
       // Typed relationship arrays: "cancers", "targets", "drugs", "trials", "people" ...
       const noun = via.replace(/s$/, "");

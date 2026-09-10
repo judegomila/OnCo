@@ -84,6 +84,9 @@ import { assaysForTarget, assaysForDrug } from "@/data/assays";
 import { modelFor, datasetFor } from "@/data/model-registry";
 import { modelsFor } from "@/data/preclinical-models";
 import { CatalystsPanel, CompanyScorePanel, DealsPanel, ExclusivityPanel, ManufacturingPanel } from "@/components/InvestorPanels";
+import { FundingPanel, PortfolioPanel } from "@/components/StartupPanels";
+import { StageIcon } from "@/components/StageIcon";
+import { portfolioOf, STAGE_LABEL, stageOf, ycBatchLabel } from "@/lib/startups";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
@@ -275,17 +278,22 @@ function kindTabs(e: Entity): Tab[] {
         ...(e.access.length ? [{ id: "access", label: "Cost & access", count: e.access.length, content: <AccessTable access={e.access} /> }] : []),
         { id: "trials", label: "Trials", content: <><TrialCounts drugId={e.id} /><Block title="Recruiting now (live from ClinicalTrials.gov)"><TrialFinder intervention={interventionQuery(e.name)} title={e.name} /></Block>{e.trials.length > 0 && <Block title="Landmark trials in OnCo"><Refs ids={e.trials} /></Block>}</> },
       ];
-    case "company":
+    case "company": {
+      const stage = stageOf(e);
+      const portfolio = e.companyType === "investor" ? portfolioOf(e.id) : [];
       return [
         overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
           <Field label="Headquarters">{e.hq}, {e.country}</Field>
-          <div className="sm:col-span-2 space-y-4"><CompanyScorePanel id={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /><ManufacturingPanel companyId={e.id} /></div>
+          <div className="sm:col-span-2 space-y-4"><CompanyScorePanel id={e.id} /><FundingPanel id={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /><ManufacturingPanel companyId={e.id} /></div>
           <Field label="Type"><span className="capitalize">{e.companyType.replace("-", " ")}</span>{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
+          <Field label="Stage">{stage && <span className="inline-flex items-center gap-1.5"><StageIcon stage={stage} className="h-4 w-4 text-accent" />{STAGE_LABEL[stage]}{e.ycBatch && <span className="text-muted"> · Y Combinator {ycBatchLabel(e.ycBatch)}</span>}</span>}</Field>
           <Field label="Website"><a className="underline break-all" href={e.website} rel="noopener">{e.website.replace(/^https?:\/\//, "")}</a></Field>
           <Field label="Founded">{e.founded}</Field>
         </div>),
+        ...(e.companyType === "investor" ? [{ id: "portfolio", label: "Portfolio", count: portfolio.length, content: <PortfolioPanel id={e.id} /> }] : []),
         ...productsTab([...new Map([...e.drugs.map((id) => g.must(id)), ...(g.incoming(e.id).get("drug") ?? [])].map((d) => [d.id, d])).values()]),
       ];
+    }
     case "institution": {
       const row = rankInstitutions().find((r) => r.institution.id === e.id);
       return [

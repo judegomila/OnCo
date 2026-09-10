@@ -15,6 +15,10 @@ export function labelledOutgoing(e: Entity): Array<[string, string]> {
     for (const s of e.standardOfCare) for (const r of s.refs) out.push([r, "standardOfCare"]);
   }
   if (e.kind === "pathway") for (const n of e.nodes) if (n.targetId) out.push([n.targetId, "pathway-node"]);
+  if (e.kind === "company") {
+    for (const inv of e.investors) out.push([inv, "investors"]);
+    if (e.acquiredBy) out.push([e.acquiredBy, "acquiredBy"]);
+  }
   return out;
 }
 

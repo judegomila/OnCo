@@ -201,14 +201,42 @@ export const DrugSchema = Base.extend({
   regulatoryEvents: z.array(z.object({ date: z.string(), type: z.enum(["designation", "filing", "pdufa", "approval", "crl", "withdrawal", "label-change", "advisory-committee"]), region: z.string(), note: z.string(), source: url.optional() })).default([]),
 });
 
+/** Broad company type. `investor` is a venture fund, corporate venture arm or disease foundation that finances the others; its portfolio is derived from the `investors` field on the companies it backs. */
+export const COMPANY_TYPES = ["pharma", "biotech", "diagnostics", "imaging", "devices", "ai-software", "radiopharma", "cell-therapy", "cro-services", "nonprofit", "investor"] as const;
+export type CompanyType = (typeof COMPANY_TYPES)[number];
+
+/** Where a company is in its life: a venture-backed startup, a later-stage private company, listed, a large private group, acquired, or wound down. */
+export const STAGES = ["startup", "growth", "public", "private-large", "acquired", "defunct"] as const;
+export type Stage = (typeof STAGES)[number];
+
+/** One financing round. `amountUsd` only when the cited source states the figure; `source` is the press release, SEC filing or trade report. */
+export const FundingRoundSchema = z.object({
+  /** "Seed", "Series A", "Series B", "IPO", "Grant", "Crossover", ... */
+  round: z.string().min(1),
+  year: z.number().int().min(1990).max(2100),
+  amountUsd: z.number().positive().optional(),
+  source: url,
+  note: z.string().optional(),
+});
+export type FundingRound = z.infer<typeof FundingRoundSchema>;
+
 export const CompanySchema = Base.extend({
   kind: z.literal("company"),
   hq: z.string(),
   country: z.string().length(2),
-  companyType: z.enum(["pharma", "biotech", "diagnostics", "imaging", "devices", "ai-software", "radiopharma", "cell-therapy", "cro-services", "nonprofit"]),
+  companyType: z.enum(COMPANY_TYPES),
   website: url,
   ticker: z.string().optional(),
   founded: z.number().int().optional(),
+  stage: z.enum(STAGES).optional(),
+  /** Y Combinator batch, e.g. "W21", "S24", "X26" (Spring), "F25" (Fall). */
+  ycBatch: z.string().regex(/^[WSXF]\d{2}$/, "YC batch like W21, S24, X26 or F25").optional(),
+  /** Ids of investor records (companies with `companyType: "investor"`) that have backed this company. Backlinks give each investor its portfolio. */
+  investors: z.array(id).default([]),
+  /** Sourced financing rounds; omit rather than guess. */
+  funding: z.array(FundingRoundSchema).default([]),
+  /** Company id of the acquirer, when `stage` is "acquired" and the acquirer is in OnCo. */
+  acquiredBy: id.optional(),
 });
 
 export const InstitutionSchema = Base.extend({

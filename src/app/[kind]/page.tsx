@@ -14,6 +14,7 @@ import { termMarks } from "@/lib/term-hover";
 import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
 import { kindTitle, pageMeta } from "@/lib/seo";
+import { COMPANY_TYPE_LABEL, portfolioOf, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf } from "@/lib/startups";
 
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route, k])) as Record<string, Kind>;
 
@@ -126,12 +127,24 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
       };
     }
     case "company": {
-      const label: Record<string, string> = { pharma: "Large pharma", biotech: "Biotech", diagnostics: "Diagnostics", imaging: "Imaging equipment", devices: "Devices & RT hardware", "ai-software": "AI & software", radiopharma: "Radiopharmaceuticals", "cell-therapy": "Cell therapy", "cro-services": "Services", nonprofit: "Nonprofit" };
+      const label = COMPANY_TYPE_LABEL;
       return {
         hideStatus: true,
-        rows: g.kind("company").map((c) => { const products = new Set([...c.drugs, ...inc(c.id, "drug").map((d) => d.id)]).size; const techs = new Set([...c.technologies, ...inc(c.id, "technology").map((t) => t.id)]).size; return { ...base(c), logo: logoFor(c.id, c.website), sub: `${c.hq}, ${c.country}${c.ticker ? ` · ${c.ticker}` : ""}`, facets: { type: [label[c.companyType] ?? c.companyType], country: [c.country], front: c.sections.map((id) => g.must(id).name), cancers: names(c.cancers) }, cols: { type: fl("type", label[c.companyType] ?? c.companyType), hq: c.hq, country: fl("country", c.country), products: count(products, c, "products", "product", "from"), techs: count(techs, c, "connected", "technology", "from") }, sortKeys: { products, techs } }; }),
-        facets: [{ key: "type", label: "Type", searchable: false, width: "w-52" }, { key: "country", label: "Country", searchable: false, width: "w-40" }, { key: "front", label: "Front", searchable: false, width: "w-44" }, { key: "cancers", label: "Cancer", width: "w-52" }],
-        columns: [{ key: "type", label: "Type", sortable: true, hide: "hidden sm:table-cell" }, { key: "hq", label: "HQ", hide: "hidden md:table-cell" }, { key: "country", label: "Country", sortable: true, hide: "hidden lg:table-cell", tip: "Country of the headquarters, as a two-letter code." }, { key: "products", label: "Products", sortable: true, numeric: true }, { key: "techs", label: "Technologies", sortable: true, numeric: true, hide: "hidden lg:table-cell" }],
+        rows: g.kind("company").map((c) => {
+          const products = new Set([...c.drugs, ...inc(c.id, "drug").map((d) => d.id)]).size;
+          const techs = new Set([...c.technologies, ...inc(c.id, "technology").map((t) => t.id)]).size;
+          const stage = stageOf(c);
+          const stageLabel = stage ? STAGE_LABEL[stage] : undefined;
+          const portfolio = c.companyType === "investor" ? portfolioOf(c.id).length : 0;
+          return {
+            ...base(c), logo: logoFor(c.id, c.website), sub: `${c.hq}, ${c.country}${c.ticker ? ` · ${c.ticker}` : ""}${c.ycBatch ? ` · YC ${c.ycBatch}` : ""}`,
+            facets: { type: [label[c.companyType] ?? c.companyType], stage: stageLabel ? [stageLabel] : [], country: [c.country], front: c.sections.map((id) => g.must(id).name), cancers: names(c.cancers), investor: c.investors.map((id) => g.must(id).name) },
+            cols: { type: fl("type", label[c.companyType] ?? c.companyType), stage: fl("stage", stageLabel, stage ? { tip: STAGE_TIP[stage] } : undefined), hq: c.hq, country: fl("country", c.country), products: c.companyType === "investor" ? count(portfolio, c, "portfolio", "portfolio company", "backed by") : count(products, c, "products", "product", "from"), techs: count(techs, c, "connected", "technology", "from") },
+            sortKeys: { products: c.companyType === "investor" ? portfolio : products, techs },
+          };
+        }),
+        facets: [{ key: "type", label: "Type", searchable: false, width: "w-52" }, { key: "stage", label: "Stage", searchable: false, width: "w-44", order: STAGE_ORDER.map((s) => STAGE_LABEL[s]) }, { key: "country", label: "Country", searchable: false, width: "w-40" }, { key: "front", label: "Front", searchable: false, width: "w-44" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "investor", label: "Investor", width: "w-52" }],
+        columns: [{ key: "type", label: "Type", sortable: true, hide: "hidden sm:table-cell" }, { key: "stage", label: "Stage", sortable: true, hide: "hidden md:table-cell", tip: "Startup, growth stage, public, large private, acquired or wound down. Listed companies default to public; click a chip to filter." }, { key: "hq", label: "HQ", hide: "hidden md:table-cell" }, { key: "country", label: "Country", sortable: true, hide: "hidden lg:table-cell", tip: "Country of the headquarters, as a two-letter code." }, { key: "products", label: "Products", sortable: true, numeric: true, tip: "Products linked to the company; for investors, the number of portfolio companies in OnCo." }, { key: "techs", label: "Technologies", sortable: true, numeric: true, hide: "hidden lg:table-cell" }],
         defaultSort: { key: "products", dir: -1 },
       };
     }

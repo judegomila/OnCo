@@ -1,0 +1,20 @@
+src/data/simple/part-l2.ts
+  s_0beac9cb5d78fd::t_1a2e81d9f1376c 83-162
+  s_0beac9cb5d78fd::t_60ae704e492122 163-242
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "aea21c79b0f145f6581e085b20b2fc1fd26b0e0f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

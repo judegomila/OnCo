@@ -1,7 +1,8 @@
 import { graph } from "./graph";
 import { REL_FIELDS, routeFor, type Entity, type Kind } from "./schema";
 
-export type GraphNode = { id: string; kind: Kind; name: string; route: string; degree: number };
+/** `blurb` is the first sentence of the TL;DR, clipped, so the explorer's side panel can describe a node without shipping the whole corpus. */
+export type GraphNode = { id: string; kind: Kind; name: string; route: string; degree: number; blurb: string };
 export type GraphEdge = [number, number];
 export type GraphData = { nodes: GraphNode[]; edges: GraphEdge[] };
 
@@ -20,10 +21,19 @@ export function outgoingIds(e: Entity): string[] {
   return out;
 }
 
+/** First sentence of a TL;DR (or all of it when it is one sentence), clipped to `max` characters on a word boundary. */
+export function blurbOf(tldr: string, max = 160): string {
+  const s = tldr.replace(/\s+/g, " ").trim();
+  const m = /^(.{20,}?[.!?])(?=\s+["'(A-Z]|$)/.exec(s);
+  let out = m ? m[1] : s;
+  if (out.length > max) out = out.slice(0, max - 1).replace(/\s+\S*$/, "") + "…";
+  return out;
+}
+
 /** Compact node/edge lists for the client-side graph explorer. Edges are undirected and de-duplicated. */
 export function graphData(): GraphData {
   const g = graph();
-  const nodes: GraphNode[] = g.entities.map((e) => ({ id: e.id, kind: e.kind, name: e.name, route: routeFor(e), degree: g.degree(e.id) }));
+  const nodes: GraphNode[] = g.entities.map((e) => ({ id: e.id, kind: e.kind, name: e.name, route: routeFor(e), degree: g.degree(e.id), blurb: blurbOf(e.tldr) }));
   const index = new Map(nodes.map((n, i) => [n.id, i]));
   const seen = new Set<string>();
   const edges: GraphEdge[] = [];

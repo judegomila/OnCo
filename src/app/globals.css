@@ -356,6 +356,37 @@
 [data-theme="contrast"] .chip { border-color: currentColor; }
 [data-theme="contrast"] table.onco thead th { border-bottom-width: 2px; }
 
+/* Graph explorer (src/components/GraphExplorer.tsx). SVG is themed through variables; --k carries the node's kind hue.
+   Fills are the hue mixed into the card colour, so the same hue reads softly on both the cream and the night palette. */
+.gx { --gx-tint: 16%; --gx-tint-on: 30%; }
+@media (prefers-color-scheme: dark) { .gx { --gx-tint: 26%; --gx-tint-on: 42%; } }
+[data-theme="light"] .gx { --gx-tint: 16%; --gx-tint-on: 30%; }
+[data-theme="dark"] .gx { --gx-tint: 26%; --gx-tint-on: 42%; }
+.gx-node { cursor: pointer; outline: none; transition: transform 520ms cubic-bezier(0.2, 0.7, 0.2, 1), opacity 220ms ease; animation: gx-in 420ms ease backwards; }
+.gx-bubble { fill: color-mix(in srgb, var(--k) var(--gx-tint), var(--card)); stroke: var(--k); stroke-width: 1.25; transition: stroke-width 160ms ease, fill 160ms ease, r 520ms cubic-bezier(0.2, 0.7, 0.2, 1); }
+.gx-node:hover .gx-bubble, .gx-node:focus-visible .gx-bubble, .gx-node.is-hover .gx-bubble { stroke-width: 2; fill: color-mix(in srgb, var(--k) var(--gx-tint-on), var(--card)); }
+.gx-node.is-on .gx-bubble { stroke-width: 1.75; }
+.gx-node:focus-visible .gx-bubble { stroke: var(--ring); }
+.gx-ico { color: var(--k); pointer-events: none; }
+.gx-label { font-size: 11px; fill: var(--foreground); opacity: 0.8; paint-order: stroke; stroke: var(--card); stroke-width: 3px; stroke-linejoin: round; transition: opacity 200ms ease; }
+.gx-node.is-on .gx-label, .gx-node.is-hover .gx-label { opacity: 1; font-weight: 600; }
+.gx-center-label { font-size: 13px; font-weight: 600; fill: var(--foreground); paint-order: stroke; stroke: var(--card); stroke-width: 3px; }
+.gx-center-sub { font-size: 10.5px; fill: var(--muted); }
+.gx.is-dim .gx-node:not(.is-on):not(.is-hover):not(.is-center) { opacity: 0.26; }
+.gx-edge { fill: none; stroke-width: 1.1; stroke-linecap: round; opacity: 0.55; transition: opacity 200ms ease, stroke-width 200ms ease; animation: gx-in 420ms ease backwards; }
+.gx.is-dim .gx-edge:not(.is-on) { opacity: 0.08; }
+.gx-edge.is-on { opacity: 1; stroke-width: 1.8; }
+.gx-link { fill: none; stroke-width: 1.2; stroke-linecap: round; opacity: 0.5; animation: gx-in 220ms ease backwards; }
+.gx-ring { fill: none; stroke: var(--border-strong); stroke-dasharray: 2 6; opacity: 0.8; }
+.gx-band { fill: none; stroke: var(--k); stroke-width: 2.5; stroke-linecap: round; opacity: 0.4; animation: gx-in 420ms ease backwards; }
+.gx-kchip { background: color-mix(in srgb, var(--k) 14%, var(--card)); border-color: color-mix(in srgb, var(--k) 45%, var(--border)); color: var(--foreground); transition: background-color 120ms ease, border-color 120ms ease; }
+.gx-kchip:hover { background: color-mix(in srgb, var(--k) 24%, var(--card)); }
+.gx-kchip[aria-pressed="false"] { background: var(--card); border-color: var(--border); color: var(--muted); text-decoration: line-through; }
+.gx-arc-chip { position: absolute; z-index: 2; white-space: nowrap; box-shadow: var(--shadow-1); background: color-mix(in srgb, var(--k) 14%, var(--card)); border-color: color-mix(in srgb, var(--k) 45%, var(--border)); color: var(--foreground); animation: gx-in 420ms ease backwards; transition: background-color 120ms ease, left 520ms cubic-bezier(0.2, 0.7, 0.2, 1), top 520ms cubic-bezier(0.2, 0.7, 0.2, 1); }
+.gx-arc-chip:hover { background: color-mix(in srgb, var(--k) 26%, var(--card)); }
+.gx-avatar { background: color-mix(in srgb, var(--k) 16%, var(--card)); border: 1px solid color-mix(in srgb, var(--k) 45%, var(--border)); color: var(--k); }
+@keyframes gx-in { from { opacity: 0; } to { opacity: 1; } }
+
 /* Skip link for keyboard users. */
 .skip-link { position: absolute; left: 0.75rem; top: -3rem; z-index: 200; padding: 0.5rem 0.75rem; border-radius: 0.5rem; background: var(--accent-solid); color: var(--accent-fg); font-weight: 600; transition: top 120ms; }
 .skip-link:focus { top: 0.75rem; }

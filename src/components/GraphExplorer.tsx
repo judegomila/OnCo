@@ -1,41 +1,73 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useState, useSyncExternalStore, type CSSProperties } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { GraphData, GraphNode } from "@/lib/graph-export";
-import { KIND_META, KINDS, type Kind } from "@/lib/schema";
+import { adjacency, DEFAULT_PER_KIND, fitChars, HUE, layoutFocus, layoutOverview, NODE_R, ORDER, OVERVIEW_INNER, OVERVIEW_OUTER, RING, shortName, type Placed } from "@/lib/graph-layout";
+import { KIND_META, type Kind } from "@/lib/schema";
+import { KIND_COLOR } from "@/lib/text";
+import { CancerIcon } from "./CancerIcon";
+import { FrontIcon } from "./FrontIcon";
+import { KindIcon } from "./KindIcon";
+import { placeNear } from "./Tip";
 import { FacetSelect } from "./filters/FacetSelect";
 
-const HUE: Record<Kind, string> = {
-  cancer: "#e11d48", section: "#64748b", technology: "#0284c7", target: "#7c3aed", drug: "#059669", company: "#d97706", institution: "#0d9488",
-  pathway: "#c026d3", term: "#71717a", trial: "#4f46e5", pairing: "#ea580c", roadmap: "#0891b2", idea: "#65a30d", collection: "#78716c", person: "#db2777", bottleneck: "#b91c1c", paper: "#0369a1", journal: "#475569",
-};
-const ORDER: Kind[] = ["cancer", "section", "technology", "target", "drug", "trial", "pairing", "pathway", "company", "institution", "person", "bottleneck", "paper", "journal", "idea", "roadmap", "term", "collection"];
-const MAX_PER_KIND = 18;
+/** Scene boxes. The full box leaves room for radial labels and the arc chips; the compact one (phones) drops both. */
+const FULL = { W: 960, H: 700 };
+const COMPACT = { W: 480, H: 480 };
+/** Radial labels stop at this radius; the arc chips start just beyond it. */
+const LABEL_R = 300;
+const CHIP_R = 316;
+const CENTER_R = 24;
+const PANEL_ITEMS = 6;
 
-type Placed = { n: GraphNode; x: number; y: number; r: number; ring?: number };
+const COMPACT_Q = "(max-width: 639px)";
+const subscribeCompact = (cb: () => void) => { const m = window.matchMedia(COMPACT_Q); m.addEventListener("change", cb); return () => m.removeEventListener("change", cb); };
+const useCompact = () => useSyncExternalStore(subscribeCompact, () => window.matchMedia(COMPACT_Q).matches, () => false);
+
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+const num = (n: number) => n.toLocaleString("en-GB");
+const kindStyle = (k: Kind) => ({ "--k": HUE[k] }) as CSSProperties;
+const stripParen = (s: string) => s.replace(/\s*\([^)]*\)\s*$/, "").trim();
+
+/** Cancers get their organ glyph, fronts their front glyph, everything else the kind icon. */
+function glyphFor(n: GraphNode, className: string) {
+  if (n.kind === "cancer") return <CancerIcon cancerId={n.id} className={className} />;
+  if (n.kind === "section") return <FrontIcon id={n.id} className={className} />;
+  return <KindIcon kind={n.kind} className={className} />;
+}
+
+/** Kind icon in its hue, for HTML chips and lists. */
+function KIcon({ k, className = "h-3.5 w-3.5" }: { k: Kind; className?: string }) {
+  return <span className="inline-flex shrink-0" style={{ color: HUE[k] }}><KindIcon kind={k} className={className} /></span>;
+}
+
+/** Glyph inside the SVG scene: a nested <svg> sized in scene units, centred on the current origin. */
+function SceneGlyph({ n, size }: { n: GraphNode; size: number }) {
+  return <svg x={-size / 2} y={-size / 2} width={size} height={size} className="gx-ico" aria-hidden focusable="false">{glyphFor(n, "")}</svg>;
+}
 
 /**
- * Clean radial explorer. Overview: fronts (inner ring) and cancers (outer ring). Focus: one object in the
- * centre, neighbours grouped by kind in arcs. No physics, no jitter; every label stays readable.
+ * SVG radial explorer. Overview: fronts on the inner ring, cancers on the outer. Focus: one object in the centre,
+ * neighbours in arcs by kind. The side panel describes whatever is hovered or focused and lists its neighbours, so
+ * the picture and the detail sit together. Layout is deterministic (src/lib/graph-layout.ts): nothing jitters.
  */
-export function GraphExplorer({ data }: { data: GraphData }) {
+export function GraphExplorer({ data, initialFocus }: { data: GraphData; /** Node id to start on (the ?focus= query takes over after mount). */ initialFocus?: string }) {
   const router = useRouter();
-  const canvas = useRef<HTMLCanvasElement>(null);
-  const [focus, setFocus] = useState<number | null>(null);
+  const compact = useCompact();
+  const [focus, setFocus] = useState<number | null>(() => { const i = initialFocus ? data.nodes.findIndex((n) => n.id === initialFocus) : -1; return i >= 0 ? i : null; });
   const [trail, setTrail] = useState<number[]>([]);
   const [hidden, setHidden] = useState<Set<Kind>>(new Set(["term", "collection"]));
-  const [hover, setHover] = useState<number | null>(null);
   const [expanded, setExpanded] = useState<Set<Kind>>(new Set());
+  const [hover, setHover] = useState<number | null>(null);
+  const [tip, setTip] = useState<{ left: number; top: number } | null>(null);
 
   const byId = useMemo(() => new Map(data.nodes.map((n, i) => [n.id, i])), [data.nodes]);
-  const adj = useMemo(() => {
-    const m = data.nodes.map(() => [] as number[]);
-    for (const [a, b] of data.edges) { m[a].push(b); m[b].push(a); }
-    return m;
-  }, [data]);
+  const adj = useMemo(() => adjacency(data), [data]);
+  const kindCounts = useMemo(() => { const m = new Map<Kind, number>(); for (const n of data.nodes) m.set(n.kind, (m.get(n.kind) ?? 0) + 1); return m; }, [data.nodes]);
 
-  // Read ?focus= on mount.
+  // ?focus= on mount, then keep the URL in step.
   useEffect(() => {
     const id = requestAnimationFrame(() => {
       const f = new URLSearchParams(window.location.search).get("focus");
@@ -48,155 +80,318 @@ export function GraphExplorer({ data }: { data: GraphData }) {
     window.history.replaceState(null, "", p || window.location.pathname);
   }, [focus, data.nodes]);
 
-  // Layout.
-  const scene = useMemo(() => {
-    const W = 1000, H = 640, cx = W / 2, cy = H / 2;
-    const placed: Placed[] = [];
-    const arcs: Array<{ kind: Kind; a0: number; a1: number; count: number; shown: number }> = [];
-    if (focus === null) {
-      const fronts = data.nodes.map((n, i) => [n, i] as const).filter(([n]) => n.kind === "section");
-      const cancers = data.nodes.map((n, i) => [n, i] as const).filter(([n]) => n.kind === "cancer");
-      fronts.forEach(([n, i], k) => { const a = (k / fronts.length) * Math.PI * 2 - Math.PI / 2; placed.push({ n, x: cx + Math.cos(a) * 150, y: cy + Math.sin(a) * 150, r: 7, ring: 1 }); void i; });
-      cancers.forEach(([n], k) => { const a = (k / cancers.length) * Math.PI * 2 - Math.PI / 2; placed.push({ n, x: cx + Math.cos(a) * 265, y: cy + Math.sin(a) * 265, r: 6, ring: 2 }); });
-      return { W, H, cx, cy, placed, arcs, center: null as Placed | null };
-    }
-    const center: Placed = { n: data.nodes[focus], x: cx, y: cy, r: 14 };
-    const groups = new Map<Kind, number[]>();
-    for (const j of adj[focus]) { const k = data.nodes[j].kind; if (hidden.has(k)) continue; (groups.get(k) ?? groups.set(k, []).get(k)!).push(j); }
-    const kinds = ORDER.filter((k) => groups.has(k));
-    const shownCounts = kinds.map((k) => { const g = groups.get(k)!; return expanded.has(k) ? g.length : Math.min(g.length, MAX_PER_KIND); });
-    const total = shownCounts.reduce((a, b) => a + b, 0) || 1;
-    let a = -Math.PI / 2;
-    kinds.forEach((k, gi) => {
-      const g = groups.get(k)!.slice().sort((x, y) => data.nodes[y].degree - data.nodes[x].degree);
-      const shown = shownCounts[gi];
-      const span = (shown / total) * Math.PI * 2;
-      const gap = Math.min(0.12, span * 0.2);
-      arcs.push({ kind: k, a0: a, a1: a + span, count: g.length, shown });
-      for (let i = 0; i < shown; i++) {
-        const t = shown === 1 ? 0.5 : (i + 0.5) / shown;
-        const ang = a + gap / 2 + t * (span - gap);
-        const rad = 210 + (i % 2) * 44; // alternate radii so labels do not collide
-        placed.push({ n: data.nodes[g[i]], x: cx + Math.cos(ang) * rad, y: cy + Math.sin(ang) * rad, r: 5 });
-      }
-      a += span;
-    });
-    return { W, H, cx, cy, placed, arcs, center };
-  }, [focus, data.nodes, adj, hidden, expanded]);
+  const box = compact ? COMPACT : FULL;
+  const cx = box.W / 2, cy = box.H / 2;
+  const scene = useMemo(() => (focus === null ? layoutOverview(data) : layoutFocus(data, adj, focus, hidden, expanded, compact ? 2 : 4)), [focus, data, adj, hidden, expanded, compact]);
+  const showLabels = scene.labels && !compact;
+  const posOf = useMemo(() => new Map(scene.placed.map((p) => [p.i, p])), [scene]);
 
-  // Draw.
-  useEffect(() => {
-    const c = canvas.current; if (!c) return;
-    const ctx = c.getContext("2d"); if (!ctx) return;
-    const dpr = window.devicePixelRatio || 1;
-    const { W, H, cx, cy, placed, arcs, center } = scene;
-    c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    ctx.clearRect(0, 0, W, H);
-    const dark = document.documentElement.dataset.theme === "dark" || (!document.documentElement.dataset.theme && window.matchMedia("(prefers-color-scheme: dark)").matches);
-    const ink = dark ? "#e8e8e6" : "#16181d", faint = dark ? "rgba(232,232,230,0.10)" : "rgba(22,24,29,0.08)";
-    const hoverIdx = hover;
-    const hoverSet = new Set<number>(hoverIdx !== null ? adj[hoverIdx] : []);
-    ctx.font = "12px ui-sans-serif, system-ui, sans-serif";
+  const go = useCallback((i: number) => {
+    setTrail((t) => (focus === null ? [] : [...t.slice(-7), focus]));
+    setFocus(i); setExpanded(new Set()); setHover(null); setTip(null);
+  }, [focus]);
+  const toOverview = () => { setFocus(null); setTrail([]); setExpanded(new Set()); setHover(null); setTip(null); };
+  const jump = (k: number) => { const target = trail[k]; setTrail((t) => t.slice(0, k)); setFocus(target); setExpanded(new Set()); setHover(null); };
+  const toggleHidden = (k: Kind) => setHidden((h) => { const s = new Set(h); if (s.has(k)) s.delete(k); else s.add(k); return s; });
+  const toggleExpanded = (k: Kind) => setExpanded((x) => { const s = new Set(x); if (s.has(k)) s.delete(k); else s.add(k); return s; });
 
-    if (center) {
-      // arcs
-      for (const arc of arcs) {
-        ctx.beginPath(); ctx.strokeStyle = HUE[arc.kind]; ctx.globalAlpha = 0.35; ctx.lineWidth = 3;
-        ctx.arc(cx, cy, 300, arc.a0 + 0.02, arc.a1 - 0.02); ctx.stroke(); ctx.globalAlpha = 1;
-        const mid = (arc.a0 + arc.a1) / 2;
-        ctx.fillStyle = HUE[arc.kind]; ctx.textAlign = "center"; ctx.textBaseline = "middle";
-        ctx.font = "600 11px ui-sans-serif, system-ui, sans-serif";
-        const label = `${KIND_META[arc.kind].plural} ${arc.count}${arc.shown < arc.count ? ` (showing ${arc.shown})` : ""}`;
-        ctx.fillText(label.toUpperCase(), cx + Math.cos(mid) * 318, cy + Math.sin(mid) * 318);
-        ctx.font = "12px ui-sans-serif, system-ui, sans-serif";
-      }
-      // spokes
-      for (const p of placed) {
-        const on = hoverIdx !== null && byId.get(p.n.id) === hoverIdx;
-        ctx.beginPath(); ctx.moveTo(cx, cy);
-        const mx = (cx + p.x) / 2 + (p.y - cy) * 0.08, my = (cy + p.y) / 2 - (p.x - cx) * 0.08;
-        ctx.quadraticCurveTo(mx, my, p.x, p.y);
-        ctx.strokeStyle = on ? HUE[p.n.kind] : faint; ctx.lineWidth = on ? 1.6 : 1; ctx.stroke();
-      }
-    } else if (hoverIdx !== null) {
-      // overview: connections of hovered node among placed nodes
-      const pos = new Map(placed.map((p) => [byId.get(p.n.id)!, p]));
-      const h = pos.get(hoverIdx);
-      if (h) for (const j of adj[hoverIdx]) { const q = pos.get(j); if (!q) continue; ctx.beginPath(); ctx.moveTo(h.x, h.y); ctx.lineTo(q.x, q.y); ctx.strokeStyle = HUE[h.n.kind]; ctx.globalAlpha = 0.35; ctx.lineWidth = 1.2; ctx.stroke(); ctx.globalAlpha = 1; }
-      // rings
-    }
-    if (!center) {
-      for (const r of [150, 265]) { ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.strokeStyle = faint; ctx.lineWidth = 1; ctx.stroke(); }
-      ctx.fillStyle = ink; ctx.textAlign = "center"; ctx.textBaseline = "middle"; ctx.font = "600 14px ui-sans-serif, system-ui, sans-serif"; ctx.fillText("OnCo", cx, cy - 8);
-      ctx.font = "11px ui-sans-serif, system-ui, sans-serif"; ctx.fillStyle = dark ? "#9aa1ad" : "#5b6270"; ctx.fillText("fronts inside · cancers outside", cx, cy + 10); ctx.font = "12px ui-sans-serif, system-ui, sans-serif";
-    }
-    // nodes + labels
-    const drawNode = (p: Placed, big = false) => {
-      const idx = byId.get(p.n.id)!;
-      const on = hoverIdx === idx || hoverSet.has(idx);
-      ctx.beginPath(); ctx.arc(p.x, p.y, big ? 14 : p.r + (on ? 1.5 : 0), 0, Math.PI * 2);
-      ctx.fillStyle = HUE[p.n.kind]; ctx.globalAlpha = hoverIdx !== null && !on && !big ? 0.45 : 1; ctx.fill(); ctx.globalAlpha = 1;
-      ctx.lineWidth = 2; ctx.strokeStyle = dark ? "#0e1013" : "#fbfbfa"; ctx.stroke();
-      const name = p.n.name.replace(/ \(.*\)$/, "");
-      const text = big ? name : name.length > 26 ? name.slice(0, 25) + "…" : name;
-      ctx.fillStyle = on || big ? ink : dark ? "#c8ccd3" : "#3a3f48";
-      ctx.font = big ? "600 14px ui-sans-serif, system-ui, sans-serif" : on ? "600 12px ui-sans-serif, system-ui, sans-serif" : "12px ui-sans-serif, system-ui, sans-serif";
-      if (big) { ctx.textAlign = "center"; ctx.textBaseline = "top"; ctx.fillText(text, p.x, p.y + 20); }
-      else {
-        const dx = p.x - cx, dy = p.y - cy; const right = dx >= 0;
-        ctx.textAlign = right ? "left" : "right"; ctx.textBaseline = "middle";
-        const off = 9 + (Math.abs(dy) > Math.abs(dx) * 3 ? 0 : 0);
-        ctx.fillText(text, p.x + (right ? off : -off), p.y);
-      }
-      ctx.font = "12px ui-sans-serif, system-ui, sans-serif";
-    };
-    for (const p of placed) drawNode(p);
-    if (center) drawNode(center, true);
-  }, [scene, hover, adj, byId]);
-
-  // Hit testing.
-  const hit = (e: React.MouseEvent<HTMLCanvasElement>): number | null => {
-    const c = canvas.current!; const rect = c.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * scene.W, y = ((e.clientY - rect.top) / rect.height) * scene.H;
-    const all = scene.center ? [scene.center, ...scene.placed] : scene.placed;
-    let best: Placed | null = null, bd = 1e9;
-    for (const p of all) { const d = Math.hypot(p.x - x, p.y - y); if (d < 16 && d < bd) { bd = d; best = p; } }
-    return best ? byId.get(best.n.id)! : null;
-  };
-  const go = (i: number) => { if (focus !== null) setTrail((t) => [...t.slice(-7), focus]); setFocus(i); setExpanded(new Set()); };
-
-  const options = useMemo(() => data.nodes.map((n) => ({ value: n.id, label: n.name, group: KIND_META[n.kind].plural })), [data.nodes]);
+  const hoverSet = useMemo(() => new Set<number>(hover !== null ? adj[hover] : []), [hover, adj]);
+  const dim = hover !== null && hover !== focus;
   const focusNode = focus !== null ? data.nodes[focus] : null;
+  const hoverNode = hover !== null ? data.nodes[hover] : null;
+  const options = useMemo(() => data.nodes.map((n) => ({ value: n.id, label: n.name, group: cap(KIND_META[n.kind].plural) })), [data.nodes]);
   const kindsPresent = focus !== null ? ORDER.filter((k) => adj[focus].some((j) => data.nodes[j].kind === k)) : [];
+  const gradientKinds = useMemo(() => Array.from(new Set(scene.placed.map((p) => p.n.kind))), [scene]);
+  const ringNodeR = scene.placed[0]?.r ?? NODE_R;
+
+  // Edge geometry: a gentle quadratic from the centre with a small swirl, so spokes read as strands rather than rays.
+  const spoke = (p: Placed) => `M${cx} ${cy} Q${cx + p.x / 2 + p.y * 0.1} ${cy + p.y / 2 - p.x * 0.1} ${cx + p.x} ${cy + p.y}`;
+  // Overview: links of the hovered node bend through the middle, like bundled threads.
+  const thread = (a: Placed, b: Placed) => `M${cx + a.x} ${cy + a.y} Q${cx + (a.x + b.x) * 0.18} ${cy + (a.y + b.y) * 0.18} ${cx + b.x} ${cy + b.y}`;
+
+  const activate = (p: Placed) => { if (p.i === focus) router.push(p.n.route); else go(p.i); };
+  const nodeProps = (p: Placed, needsTip: boolean) => ({
+    role: "button" as const,
+    tabIndex: 0,
+    "aria-label": `${p.n.name} (${KIND_META[p.n.kind].label.toLowerCase()})`,
+    onMouseEnter: () => setHover(p.i),
+    onMouseMove: (e: React.MouseEvent) => { if (needsTip) setTip(placeNear(e.clientX, e.clientY)); },
+    onMouseLeave: () => { setHover(null); setTip(null); },
+    onFocus: () => setHover(p.i),
+    onBlur: () => setHover(null),
+    onClick: () => activate(p),
+    onKeyDown: (e: React.KeyboardEvent) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); activate(p); } },
+  });
+
+  const centre: Placed | null = focusNode && focus !== null ? { i: focus, n: focusNode, x: 0, y: 0, a: 0, r: CENTER_R, level: 0 } : null;
+  const nodes = centre ? [...scene.placed, centre] : scene.placed;
 
   return (
-    <div>
+    <div className={`gx ${dim ? "is-dim" : ""}`}>
+      {/* Toolbar: pick a focus, walk the trail, and (when focused) switch kinds on and off. */}
       <div className="flex flex-wrap items-center gap-2 mb-3">
-        <FacetSelect label="Focus" options={options} value={focusNode?.id ?? null} onChange={(v) => { if (v) go(byId.get(v as string)!); else { setFocus(null); setTrail([]); } }} allLabel="Overview" width="w-80" />
-        {focusNode && <button type="button" onClick={() => router.push(focusNode.route)} className="rounded-lg bg-accent text-white px-3 py-1.5 text-sm">Open {KIND_META[focusNode.kind].label.toLowerCase()} page →</button>}
-        {trail.length > 0 && <button type="button" onClick={() => { const prev = trail[trail.length - 1]; setTrail((t) => t.slice(0, -1)); setFocus(prev); }} className="text-sm underline text-muted">← Back</button>}
-        {focusNode && <button type="button" onClick={() => { setFocus(null); setTrail([]); }} className="text-sm underline text-muted">Overview</button>}
-        <span className="ml-auto text-xs text-muted">{focusNode ? `${adj[focus!].length} connections · click a node to refocus` : "Hover a node to see its links · click to focus"}</span>
+        <FacetSelect label="Focus" options={options} value={focusNode?.id ?? null} onChange={(v) => { if (v) go(byId.get(v as string)!); else toOverview(); }} allLabel="Overview" width="w-72" />
+        <nav aria-label="Trail" className="flex flex-wrap items-center gap-x-1.5 text-sm min-w-0">
+          <button type="button" onClick={toOverview} className={focusNode ? "text-accent hover:underline underline-offset-2" : "font-medium text-foreground"} aria-current={focusNode ? undefined : "true"}>Overview</button>
+          {trail.map((t, k) => (
+            <span key={`${t}-${k}`} className="flex items-center gap-x-1.5 min-w-0">
+              <span aria-hidden className="text-muted/70">›</span>
+              <button type="button" onClick={() => jump(k)} className="text-accent hover:underline underline-offset-2 truncate max-w-[10rem]">{shortName(data.nodes[t].name, 28)}</button>
+            </span>
+          ))}
+          {focusNode && (
+            <span className="flex items-center gap-x-1.5 min-w-0">
+              <span aria-hidden className="text-muted/70">›</span>
+              <span aria-current="true" className="font-medium text-foreground truncate max-w-[14rem]">{shortName(focusNode.name, 36)}</span>
+            </span>
+          )}
+        </nav>
+        <span className="ml-auto text-xs text-muted hidden sm:inline">{focusNode ? "Click a node to refocus · click the centre to open its page" : "Hover a front or cancer to see its links · click to focus"}</span>
       </div>
-      {focusNode && (
-        <div className="flex flex-wrap gap-1.5 mb-3">
+      {focusNode && focus !== null && (
+        <div className="flex flex-wrap gap-1.5 mb-3" role="group" aria-label="Kinds shown">
           {kindsPresent.map((k) => {
-            const n = adj[focus!].filter((j) => data.nodes[j].kind === k).length;
-            const off = hidden.has(k);
-            return <button key={k} type="button" onClick={() => setHidden((h) => { const s = new Set(h); if (s.has(k)) s.delete(k); else s.add(k); return s; })} className={`chip border text-[12px] ${off ? "bg-card border-border text-muted line-through" : "text-white border-transparent"}`} style={off ? {} : { background: HUE[k] }}>{KIND_META[k].plural} {n}{!off && n > MAX_PER_KIND && !expanded.has(k) && <span role="button" onClick={(e) => { e.stopPropagation(); setExpanded((x) => new Set([...x, k])); }} className="ml-1 underline">show all</span>}</button>;
+            const n = adj[focus].filter((j) => data.nodes[j].kind === k).length;
+            const on = !hidden.has(k);
+            return (
+              <button key={k} type="button" aria-pressed={on} onClick={() => toggleHidden(k)} style={kindStyle(k)} className="chip border gx-kchip" title={on ? `Hide ${KIND_META[k].plural}` : `Show ${KIND_META[k].plural}`}>
+                <KIcon k={k} className="h-3 w-3" />
+                {cap(KIND_META[k].plural)} <span className="tabular-nums opacity-70">{n}</span>
+              </button>
+            );
           })}
         </div>
       )}
-      {/* Below lg the 1000-unit scene is kept at least 52rem wide and scrolls sideways, so labels stay legible. */}
-      <div className="card overflow-x-auto">
-        <canvas ref={canvas} className="w-full min-w-[52rem] lg:min-w-0 h-auto cursor-pointer" style={{ aspectRatio: "1000 / 640" }} aria-label="Knowledge graph"
-          onMouseMove={(e) => setHover(hit(e))} onMouseLeave={() => setHover(null)}
-          onClick={(e) => { const i = hit(e); if (i === null) return; if (i === focus) router.push(data.nodes[i].route); else go(i); }} />
+
+      <div className="flex flex-col lg:flex-row gap-4 lg:items-start">
+        {/* Scene */}
+        <div className="card relative flex-1 min-w-0 overflow-hidden" style={{ aspectRatio: `${box.W} / ${box.H}` }}>
+          <svg viewBox={`0 0 ${box.W} ${box.H}`} className="absolute inset-0 h-full w-full select-none" role="group" aria-label={focusNode && focus !== null ? `${focusNode.name} and its ${adj[focus].length} links` : "OnCo knowledge graph: fronts and cancers"} onMouseLeave={() => { setHover(null); setTip(null); }}>
+            <defs>
+              {gradientKinds.map((k) => (
+                <radialGradient key={k} id={`gx-g-${k}`} gradientUnits="userSpaceOnUse" cx={cx} cy={cy} r={LABEL_R}>
+                  <stop offset="0" style={{ stopColor: "var(--foreground)", stopOpacity: 0.1 }} />
+                  <stop offset="0.55" stopColor={HUE[k]} stopOpacity={0.45} />
+                  <stop offset="1" stopColor={HUE[k]} stopOpacity={0.9} />
+                </radialGradient>
+              ))}
+            </defs>
+
+            {focus === null && (
+              <g>
+                <circle cx={cx} cy={cy} r={OVERVIEW_INNER} className="gx-ring" />
+                <circle cx={cx} cy={cy} r={OVERVIEW_OUTER} className="gx-ring" />
+                {compact && (
+                  <g>
+                    <text x={cx} y={cy - 4} textAnchor="middle" className="gx-center-label">OnCo</text>
+                    <text x={cx} y={cy + 12} textAnchor="middle" className="gx-center-sub">{num(data.nodes.length)} objects</text>
+                  </g>
+                )}
+                {hover !== null && posOf.has(hover) && adj[hover].map((j) => {
+                  const q = posOf.get(j);
+                  return q ? <path key={j} d={thread(posOf.get(hover)!, q)} className="gx-link" stroke={HUE[data.nodes[hover].kind]} /> : null;
+                })}
+              </g>
+            )}
+
+            {focus !== null && (
+              <g>
+                {scene.arcs.map((arc) => {
+                  const pad = 0.02, r0 = RING - ringNodeR - 8;
+                  const a0 = arc.a0 + pad, a1 = arc.a1 - pad;
+                  if (a1 <= a0) return null;
+                  const large = a1 - a0 > Math.PI ? 1 : 0;
+                  return <path key={arc.kind} style={kindStyle(arc.kind)} className="gx-band" d={`M${cx + Math.cos(a0) * r0} ${cy + Math.sin(a0) * r0} A${r0} ${r0} 0 ${large} 1 ${cx + Math.cos(a1) * r0} ${cy + Math.sin(a1) * r0}`} />;
+                })}
+                {scene.placed.map((p) => <path key={p.n.id} d={spoke(p)} stroke={`url(#gx-g-${p.n.kind})`} className={`gx-edge ${hover === p.i || hover === focus ? "is-on" : ""}`} />)}
+              </g>
+            )}
+
+            {nodes.map((p) => {
+              const isCentre = p.i === focus;
+              const isHover = hover === p.i;
+              const on = isCentre || hoverSet.has(p.i);
+              let label: string | null = null;
+              if (showLabels && !isCentre) {
+                // Inner-ring labels in the overview stop short of the outer ring; focus labels stop before the chips.
+                const maxRadius = focus === null ? (p.level === 0 ? OVERVIEW_OUTER - 9 - 8 : Infinity) : LABEL_R;
+                const chars = Math.min(30, fitChars(p.a, Math.hypot(p.x, p.y) + p.r + 8, box.W / 2, box.H / 2, maxRadius, 10, 5.5));
+                label = chars >= 6 ? shortName(p.n.name, chars) : null;
+              }
+              const clipped = !isCentre && label !== stripParen(p.n.name);
+              const deg = (p.a * 180) / Math.PI, left = Math.cos(p.a) < 0;
+              return (
+                <g key={p.n.id} className={`gx-node ${on ? "is-on" : ""} ${isHover ? "is-hover" : ""} ${isCentre ? "is-center" : ""}`} style={{ ...kindStyle(p.n.kind), transform: `translate(${cx + p.x}px, ${cy + p.y}px)` }} {...nodeProps(p, clipped)}>
+                  <circle r={p.r} className="gx-bubble" />
+                  {p.r >= 8 && <SceneGlyph n={p.n} size={isCentre ? p.r * 1.2 : p.r * 1.15} />}
+                  {label && <text className="gx-label" textAnchor={left ? "end" : "start"} dy="0.35em" transform={left ? `rotate(${deg + 180}) translate(${-(p.r + 8)} 0)` : `rotate(${deg}) translate(${p.r + 8} 0)`}>{label}</text>}
+                  {isCentre && compact && <text y={p.r + 16} textAnchor="middle" className="gx-center-label">{shortName(p.n.name, 26)}</text>}
+                  <circle r={p.r + 5} fill="transparent" />
+                </g>
+              );
+            })}
+          </svg>
+
+          {/* Centre card (desktop): who is in the middle, what kind, and a way to its page. */}
+          {!compact && focusNode && focus !== null && (
+            <div className="absolute z-[1] w-48 -translate-x-1/2 card px-3 py-2 text-center shadow-lift" style={{ left: "50%", top: `${((cy + CENTER_R + 8) / box.H) * 100}%` }}>
+              <span className={`chip border ${KIND_COLOR[focusNode.kind]} mx-auto`}><KindIcon kind={focusNode.kind} className="h-3 w-3" />{KIND_META[focusNode.kind].label}</span>
+              <p className="mt-1 text-sm font-semibold leading-snug line-clamp-2">{focusNode.name}</p>
+              <p className="mt-0.5 text-xs text-muted">{num(adj[focus].length)} links · <Link href={focusNode.route} className="text-accent hover:underline underline-offset-2">Open page →</Link></p>
+            </div>
+          )}
+          {!compact && focus === null && (
+            <div className="absolute z-[1] w-32 -translate-x-1/2 -translate-y-1/2 card px-2 py-2 text-center" style={{ left: "50%", top: "50%" }}>
+              <p className="text-sm font-semibold">OnCo</p>
+              <p className="mt-0.5 text-[11px] text-muted leading-snug">{num(data.nodes.length)} objects<br />{num(data.edges.length)} links</p>
+            </div>
+          )}
+
+          {/* Arc chips (desktop): one per kind group, outside the ring; click to expand, collapse or hide the group. */}
+          {!compact && focus !== null && scene.arcs.map((arc) => {
+            const mid = (arc.a0 + arc.a1) / 2, cos = Math.cos(mid), sin = Math.sin(mid);
+            const y = cy + sin * CHIP_R;
+            // Chips near the horizontal pin to the box edge so long names never spill out of the card.
+            const pinned = Math.abs(cos) >= 0.85;
+            const pos: CSSProperties = pinned
+              ? { top: `${(y / box.H) * 100}%`, transform: "translateY(-50%)", ...(cos > 0 ? { right: 8 } : { left: 8 }) }
+              : { left: `${((cx + cos * CHIP_R) / box.W) * 100}%`, top: `${(y / box.H) * 100}%`, transform: `translate(${-50 + 50 * cos}%, ${-50 + 50 * sin}%)` };
+            const isX = expanded.has(arc.kind);
+            const more = arc.count > arc.shown;
+            const title = isX ? `Show fewer ${KIND_META[arc.kind].plural}` : more ? `Show all ${arc.count} ${KIND_META[arc.kind].plural}` : `Hide ${KIND_META[arc.kind].plural}`;
+            return (
+              <button key={arc.kind} type="button" title={title} style={{ ...kindStyle(arc.kind), ...pos }} className="chip border gx-arc-chip" onClick={() => { if (isX || more) toggleExpanded(arc.kind); else toggleHidden(arc.kind); }}>
+                <KIcon k={arc.kind} className="h-3 w-3" />
+                {cap(KIND_META[arc.kind].plural)} <span className="tabular-nums opacity-70">{more && !isX ? `${arc.shown} of ${arc.count}` : arc.count}</span>
+                <span aria-hidden className="opacity-60">{isX ? "‹" : more ? "›" : "×"}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Side panel */}
+        <aside className="lg:w-[21rem] shrink-0" aria-live="polite">
+          <Panel data={data} adj={adj} idx={hover ?? focus} focus={focus} onFocus={go} kindCounts={kindCounts} />
+        </aside>
       </div>
-      <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted">
-        {KINDS.map((k) => <span key={k} className="inline-flex items-center gap-1"><span className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: HUE[k] }} />{KIND_META[k].plural}</span>)}
-        <span className="ml-auto">Terms and collections are hidden by default; toggle them above when focused.</span>
+
+      <p className="mt-3 text-xs text-muted">
+        {focusNode ? `Arcs are sized by how many links of each kind are shown, up to ${DEFAULT_PER_KIND} per kind until you expand a group. ` : ""}
+        Terms and collections are hidden by default; toggle them above when something is in focus.
+      </p>
+
+      {tip && hoverNode && (
+        <div role="tooltip" style={{ left: tip.left, top: tip.top, width: 288 }} className="fixed z-[80] max-w-[85vw] card shadow-xl p-3 text-sm text-left leading-snug pointer-events-none">
+          <span className="block font-semibold text-foreground">{hoverNode.name}</span>
+          <span className="block text-xs text-muted mb-1">{KIND_META[hoverNode.kind].label} · {num(hoverNode.degree)} links</span>
+          <span className="block text-muted">{hoverNode.blurb}</span>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** What is hovered or focused: its TL;DR, a link to its page, and its neighbours grouped by kind. */
+function Panel({ data, adj, idx, focus, onFocus, kindCounts }: { data: GraphData; adj: number[][]; idx: number | null; focus: number | null; onFocus: (i: number) => void; kindCounts: Map<Kind, number> }) {
+  const [open, setOpen] = useState<Set<Kind>>(new Set());
+  const node = idx !== null ? data.nodes[idx] : null;
+  const groups = useMemo(() => {
+    const m = new Map<Kind, number[]>();
+    if (idx === null) return m;
+    for (const j of adj[idx]) { const k = data.nodes[j].kind; (m.get(k) ?? m.set(k, []).get(k)!).push(j); }
+    for (const g of m.values()) g.sort((a, b) => data.nodes[b].degree - data.nodes[a].degree || data.nodes[a].name.localeCompare(data.nodes[b].name));
+    return m;
+  }, [idx, adj, data.nodes]);
+  const starts = useMemo(() => data.nodes.map((n, i) => ({ n, i })).filter(({ n }) => n.kind !== "section" && n.kind !== "term" && n.kind !== "collection").sort((a, b) => b.n.degree - a.n.degree).slice(0, 8), [data.nodes]);
+
+  if (!node || idx === null) {
+    return (
+      <div className="card p-4 space-y-4">
+        <div>
+          <h2 className="text-sm font-semibold">The whole graph</h2>
+          <p className="mt-1 text-sm text-muted leading-snug">Every page on OnCo is a node and every reference between pages is a link. Hover a front or a cancer to light up its links, or start from one of the busiest objects.</p>
+        </div>
+        <div>
+          <h3 className="kicker mb-2">Start from</h3>
+          <ul className="space-y-1">
+            {starts.map(({ n, i }) => (
+              <li key={n.id}>
+                <button type="button" onClick={() => onFocus(i)} className="group flex w-full items-center gap-2 rounded-lg px-1.5 py-1 text-left text-sm hover:bg-surface">
+                  <span className="gx-avatar inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full" style={kindStyle(n.kind)}>{glyphFor(n, "h-3.5 w-3.5")}</span>
+                  <span className="min-w-0 flex-1 truncate group-hover:underline underline-offset-2">{n.name}</span>
+                  <span className="text-xs text-muted tabular-nums">{num(n.degree)}</span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h3 className="kicker mb-2">What is in it</h3>
+          <ul className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+            {ORDER.filter((k) => kindCounts.has(k)).map((k) => (
+              <li key={k} className="flex items-center gap-1.5 text-muted">
+                <KIcon k={k} />
+                <span className="truncate">{cap(KIND_META[k].plural)}</span>
+                <span className="ml-auto tabular-nums text-foreground/80">{num(kindCounts.get(k)!)}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
+    );
+  }
+
+  const kinds = ORDER.filter((k) => groups.has(k));
+  const isFocus = idx === focus;
+  return (
+    <div className="card p-4">
+      <div className="flex items-start gap-3">
+        <span className="gx-avatar inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full" style={kindStyle(node.kind)}>{glyphFor(node, "h-6 w-6")}</span>
+        <div className="min-w-0 flex-1">
+          <span className={`chip border ${KIND_COLOR[node.kind]}`}><KindIcon kind={node.kind} className="h-3 w-3" />{KIND_META[node.kind].label}</span>
+          <h2 className="mt-1 text-base font-semibold leading-snug">{node.name}</h2>
+          <p className="text-xs text-muted">{num(node.degree)} links{isFocus ? " · in focus" : ""}</p>
+        </div>
+      </div>
+      <p className="mt-3 text-sm text-muted leading-snug">{node.blurb}</p>
+      <div className="mt-3 flex flex-wrap gap-2">
+        <Link href={node.route} className="btn btn-primary !h-9 text-sm">Open page →</Link>
+        {!isFocus && <button type="button" onClick={() => onFocus(idx)} className="btn !h-9 text-sm">Put in focus</button>}
+      </div>
+      {kinds.length > 0 && (
+        <div className="mt-4 space-y-3 border-t border-border pt-3">
+          {kinds.map((k) => {
+            const items = groups.get(k)!;
+            const isOpen = open.has(k);
+            const shown = isOpen ? items : items.slice(0, PANEL_ITEMS);
+            return (
+              <section key={k} aria-label={KIND_META[k].plural}>
+                <div className="mb-1 flex items-center gap-1.5">
+                  <KIcon k={k} />
+                  <h3 className="text-xs font-semibold">{cap(KIND_META[k].plural)}</h3>
+                  <span className="text-xs text-muted tabular-nums">{items.length}</span>
+                </div>
+                <ul className="space-y-0.5">
+                  {shown.map((j) => {
+                    const m = data.nodes[j];
+                    return (
+                      <li key={m.id} className="group flex items-center gap-1.5 text-sm">
+                        <button type="button" onClick={() => onFocus(j)} title="Put in focus" className="min-w-0 flex-1 truncate text-left rounded px-1 py-0.5 hover:bg-surface hover:underline underline-offset-2">{m.name}</button>
+                        <Link href={m.route} aria-label={`Open ${m.name}`} className="shrink-0 rounded px-1 text-muted opacity-60 group-hover:opacity-100 hover:text-accent">↗</Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+                {items.length > PANEL_ITEMS && (
+                  <button type="button" onClick={() => setOpen((o) => { const s = new Set(o); if (s.has(k)) s.delete(k); else s.add(k); return s; })} className="mt-0.5 px-1 text-xs text-accent hover:underline underline-offset-2">
+                    {isOpen ? "Show fewer" : `Show all ${items.length}`}
+                  </button>
+                )}
+              </section>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

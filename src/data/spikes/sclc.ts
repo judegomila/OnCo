@@ -160,11 +160,11 @@ const terms: TermInput[] = [
 ];
 
 const companies: CompanyInput[] = [
-  { id: "pharmamar", kind: "company", name: "PharmaMar", hq: "Madrid", country: "ES", companyType: "biotech", website: "https://pharmamar.com", ticker: "PHM.MC", asOf, sections: ["chemotherapy"],
+  { id: "pharmamar", links: [{ label: "Official website", url: "https://pharmamar.com" }], kind: "company", name: "PharmaMar", hq: "Madrid", country: "ES", companyType: "biotech", website: "https://pharmamar.com", ticker: "PHM.MC", asOf, sections: ["chemotherapy"],
     tldr: "Spanish company that turns marine natural products into cancer drugs, including lurbinectedin and trabectedin.",
     summary: "Discovered lurbinectedin (Zepzelca, partnered with Jazz in the US) and trabectedin (Yondelis). IMforte success in 2025 broadened lurbinectedin into first-line maintenance.",
     drugs: ["lurbinectedin"], cancers: ["sclc", "sarcoma"] },
-  { id: "henlius", kind: "company", name: "Shanghai Henlius Biotech", hq: "Shanghai", country: "CN", companyType: "biotech", website: "https://www.henlius.com", ticker: "2696.HK", asOf, sections: ["immunotherapy"],
+  { id: "henlius", links: [{ label: "Official website", url: "https://www.henlius.com" }], kind: "company", name: "Shanghai Henlius Biotech", hq: "Shanghai", country: "CN", companyType: "biotech", website: "https://www.henlius.com", ticker: "2696.HK", asOf, sections: ["immunotherapy"],
     tldr: "Chinese biosimilar and biologics company whose PD-1 antibody serplulimab is approved in China and Europe for small-cell lung cancer.",
     summary: "Serplulimab (ASTRUM-005; EU approvals 2025 for ES-SCLC, squamous NSCLC, and other indications); trastuzumab and bevacizumab biosimilars; US bridging trial for serplulimab completed enrolment.",
     drugs: ["serplulimab"], cancers: ["sclc"] },

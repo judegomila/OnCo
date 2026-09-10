@@ -30,7 +30,7 @@ const companies: CompanyInput[] = [
     tldr: "Taiho Oncology makes Inqovi, the oral decitabine-cedazuridine that in May 2026 became the first all-oral hypomethylating backbone for venetoclax in AML.",
     summary: "Inqovi (decitabine + cedazuridine, a cytidine deaminase inhibitor that makes oral decitabine bioavailable) approved in MDS/CMML in 2020 and, on 13 May 2026, with venetoclax for newly diagnosed AML in adults unfit for intensive induction (ASCERTAIN-V, CR 41.6%). Also Lonsurf and futibatinib.",
     drugs: ["decitabine-cedazuridine"], cancers: ["aml"], links: [{ label: "FDA approval notice (13 May 2026)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-oral-combination-decitabine-and-cedazuridine-tablets-venetoclax-newly-diagnosed-acute" }] }),
-  co({ id: "rigel-pharmaceuticals", name: "Rigel Pharmaceuticals", hq: "South San Francisco, CA", country: "US", companyType: "biotech", website: "https://www.rigel.com", ticker: "RIGL", sections: ["targeted-therapy"],
+  co({ id: "rigel-pharmaceuticals", links: [{ label: "Official website", url: "https://www.rigel.com" }], name: "Rigel Pharmaceuticals", hq: "South San Francisco, CA", country: "US", companyType: "biotech", website: "https://www.rigel.com", ticker: "RIGL", sections: ["targeted-therapy"],
     tldr: "Commercialises olutasidenib (Rezlidhia), an IDH1 inhibitor for relapsed AML, alongside fostamatinib.",
     summary: "Olutasidenib approved 1 December 2022 for relapsed/refractory IDH1-mutated AML (CR+CRh 35% in the pivotal cohort). Rigel licensed it from Forma Therapeutics/Novo Nordisk in 2022.",
     drugs: ["olutasidenib"], cancers: ["aml"] }),

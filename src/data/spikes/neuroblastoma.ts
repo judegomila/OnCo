@@ -22,7 +22,7 @@ const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: 
 
 // ======================= COMPANIES =======================
 const companies: CompanyInput[] = [
-  co({ id: "y-mabs", name: "Y-mAbs Therapeutics", hq: "New York, NY", country: "US", companyType: "biotech", website: "https://www.ymabs.com", ticker: "YMAB", sections: ["immunotherapy", "radiopharma"],
+  co({ id: "y-mabs", links: [{ label: "Official website", url: "https://www.ymabs.com" }], name: "Y-mAbs Therapeutics", hq: "New York, NY", country: "US", companyType: "biotech", website: "https://www.ymabs.com", ticker: "YMAB", sections: ["immunotherapy", "radiopharma"],
     tldr: "MSK spin-out that commercialises naxitamab, the humanised anti-GD2 antibody for relapsed neuroblastoma, and develops pretargeted radioimmunotherapy.",
     summary: "Naxitamab (Danyelza, accelerated approval November 2020); omburtamab (B7-H3, 131I) rejected by FDA in 2022; SADA pretargeted radioimmunotherapy platform (GD2-SADA, 177Lu) in phase 1.",
     drugs: ["naxitamab"], cancers: ["neuroblastoma"], targets: ["gd2"] }),

@@ -114,7 +114,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               ))}
             </div>
             <div className="mt-10 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-x-6 gap-y-2 text-xs text-muted">
-              <p>Code MIT. Data &copy; OnCo, free for non-commercial and educational use under CC BY-NC 4.0 with attribution &ldquo;Data from OnCo (onco.cc)&rdquo;. <a className="underline" href="/about/#licence">Commercial licences</a>.</p>
+              <p>Code MIT. Data &copy; OnCo, free for non-commercial and educational use under CC BY-NC 4.0 with attribution &ldquo;Data from OnCo (onco.cc)&rdquo;. <Link className="underline" href="/about/#licence">Commercial licences</Link>.</p>
               <p className="flex flex-wrap gap-x-4 gap-y-1">
                 <Link href="/about/" className="hover:text-foreground hover:underline">About and methodology</Link>
                 <Link href="/corrections/" className="hover:text-foreground hover:underline">Corrections</Link>

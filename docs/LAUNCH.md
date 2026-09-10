@@ -32,3 +32,27 @@ Plain English first, UK spelling, no em-dashes in copy, no "as of", no invented 
 light theme default, pink accent, no red buttons, never "spike", survival figures behind a click, solution and mechanism first,
 every problem paired with what is being done, Global region default, icons everywhere, tooltips on technical terms,
 data licence CC BY-NC 4.0 with commercial licences (attribution "Data from OnCo (onco.cc)").
+
+## Time estimate and how to go faster (written 10 September 2026)
+
+What "finished" means here: every owner ask above shipped, and the completeness dashboard showing near 100% on the
+defined lists (NCI cancer types, NCI-designated centres, FDA and EMA approved oncology drugs, top journals) with
+people, approvals, schematics, summaries and plain-language text on every record.
+
+Rough sizes, at the pace of the last two days (about 8 to 12 agents finishing per day, each landing 50 to 400 records
+or one feature):
+- Owner feature asks in flight (3D rendering, language, graph, MCP/CLI, complementary care, completeness, India, China): 1 to 2 days.
+- Coverage to the defined denominators (cancer types, centres, tests, approvals, people per institution): 2 to 3 days.
+- Quality gauges to zero (summaries, simple layer, translations, schematics, term Wikipedia, target prevalence): 2 to 4 days, in parallel.
+- Google indexing: hours once the owner pastes the Search Console TXT token; IndexNow is live and retried each tick.
+
+So the five-day window is enough for the asks and for the defined lists, if the machine stays under a load of about
+15 and agents are told to commit early and run one test pass at the end.
+
+Speed-ups that work:
+1. Fan out by list, not by topic: give each agent a fixed list of ids to fill (for example 40 institutions) so none re-scan the corpus.
+2. Merge every 30 minutes and run one build per merge round rather than one per agent; the build is the bottleneck (about 8 minutes).
+3. Keep agents off shared files (schema.ts, nav.ts, EntityDetail.tsx); data-only agents almost never conflict.
+4. Resume stalled agents with "commit what you have; single test pass at the end" instead of restarting.
+5. Let the fetchers do the bulk work (EMA, PMDA, ClinicalTrials.gov, OpenAlex, Wikidata) and use agents for judgement, wording and sourcing.
+6. The remaining owner-only items (Search Console token, Vercel stray project, Discussions category) each take under five minutes.

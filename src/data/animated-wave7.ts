@@ -771,6 +771,346 @@ export function hydrazineSulfate(): Mesh {
   });
 }
 
+// ---------------------------------------------------------------- 21. nuclear medicine and total-body PET hardware
+export function nuclearMedicineHardware(): Mesh {
+  const sc = scene();
+  const G: Vec3 = [-0.9, 0.2, 0];
+  const gantry = put(sc, "gantry", torus(1.0, 0.16, 14, 5, "accent", true), { at: G, rotY: Math.PI / 2 });
+  const bed = put(sc, "bed", box(3.6, 0.1, 0.6, "soft", true), { at: [0.3, G[1] - 0.55, 0] });
+  const P0: Vec3 = [1.6, G[1] - 0.2, 0];
+  const patient = put(sc, "patient", figure("soft"), { at: P0, rotZ: -Math.PI / 2, scale: 0.8 });
+  const fov = put(sc, "fov", box(0.5, 1.5, 1.5, "accent", false), { at: G });
+  const long1 = put(sc, "long1", torus(1.0, 0.16, 14, 5, "accent", true), { at: [G[0] + 0.55, G[1], 0], rotY: Math.PI / 2 });
+  const long2 = put(sc, "long2", torus(1.0, 0.16, 14, 5, "accent", true), { at: [G[0] + 1.1, G[1], 0], rotY: Math.PI / 2 });
+  const long3 = put(sc, "long3", torus(1.0, 0.16, 14, 5, "accent", true), { at: [G[0] + 1.65, G[1], 0], rotY: Math.PI / 2 });
+  const fovL = put(sc, "fovL", box(2.2, 1.5, 1.5, "accent", false), { at: [G[0] + 0.8, G[1], 0] });
+  const photons: Part[] = []; for (let i = 0; i < 6; i++) photons.push(put(sc, `ph${i}`, line([0, 0, 0], [0, 0.35, 0], "hot"), { at: [P0[0] - 1.6 + 0.6 * i, G[1] - 0.15, 0.1], rotZ: (i % 2 ? 1 : -1) * 0.8 }));
+  const s0 = put(sc, "s0", bar(-2.2, 0.15, 0.25, "soft"), { at: [0, -1.85, 0] });
+  const s1 = put(sc, "s1", bar(-1.8, 1.2, 0.25, "accent"), { at: [0, -1.85, 0] });
+  const ct = put(sc, "ct", ring(1.05, 14, "soft", "x"), { at: [G[0] - 0.45, G[1], 0] });
+  const dose = put(sc, "dose", doc(0.6, 0.7, 3, "soft"), { at: [2.3, 1.3, 0] });
+  const cost = put(sc, "cost", polyline([[1.9, -1.5, 0], [2.7, -1.5, 0], [2.7, -0.9, 0], [1.9, -0.9, 0]], "hot", true));
+  sc.mesh.labels = [L([G[0], G[1] + 1.55, 0], "SiPM detector rings with time-of-flight"), L([0.3, G[1] - 1.05, 0], "Standard PET/CT: the bed steps through a short ring"), L([-2.0, -2.2, 0], "Long axial field: sensitivity roughly 40-fold"), L([2.3, -1.85, 0], "Total-body system: more than $10M")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, long1, long2, long3, fovL, s0, s1, dose, cost);
+    setAlpha(alpha, ct, 0.5);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, fov, 0.6 + 0.4 * pulse(t, 5)); photons.forEach((p, i) => setAlpha(alpha, p, (0.4 + 0.6 * pulse(t + i * 0.13, 6)) * (Math.abs(P0[0] - 1.6 + 0.6 * i - G[0]) < 0.35 ? 1 : 0.15))); setAlpha(alpha, bed, 0.7); setAlpha(alpha, gantry, 0.6 + 0.4 * clamp(u * 2)); return { caption: "1 · Silicon photomultiplier rings with time-of-flight timing catch pairs of annihilation photons; the CT ring beside them supplies attenuation correction" }; }
+    if (s === 1) { const u = Q(t, 1); const shift = -2.6 * u; movePart(pts, base, patient, [shift, 0, 0], 1); photons.forEach((p, i) => { movePart(pts, base, p, [shift, 0, 0], 1); const x = P0[0] - 1.6 + 0.6 * i + shift; setAlpha(alpha, p, Math.abs(x - G[0]) < 0.35 ? 0.4 + 0.6 * pulse(t, 6) : 0.15); }); setAlpha(alpha, fov, 0.8); return { caption: "2 · A conventional scanner covers only a short axial length, so the bed steps the patient through several positions, each collecting for minutes" }; }
+    if (s === 2) { const u = Q(t, 2); movePart(pts, base, patient, [-2.6 * (1 - u), 0, 0], 1); photons.forEach((p, i) => { movePart(pts, base, p, [-2.6 * (1 - u), 0, 0], 1); setAlpha(alpha, p, 0.15 + 0.85 * u * (0.4 + 0.6 * pulse(t + i * 0.13, 6))); }); setAlpha(alpha, fov, 1 - u); setAlpha(alpha, long1, clamp(u * 3)); setAlpha(alpha, long2, clamp(u * 3 - 1)); setAlpha(alpha, long3, clamp(u * 3 - 2)); setAlpha(alpha, fovL, clamp(u * 3 - 2) * 0.8); return { caption: "3 · Total-body and long-axial-field-of-view PET (uEXPLORER, Biograph Vision Quadra, Omni Legend) capture the whole body in one bed position" }; }
+    const u = Q(t, 3); photons.forEach((p, i) => setAlpha(alpha, p, 0.4 + 0.6 * pulse(t + i * 0.13, 6))); setAlpha(alpha, fov, 0); show(alpha, 1, long1, long2, long3); setAlpha(alpha, fovL, 0.8);
+    setAlpha(alpha, s0, clamp(u * 2)); setAlpha(alpha, s1, clamp(u * 2 - 0.5)); setAlpha(alpha, dose, clamp(u * 2 - 1)); setAlpha(alpha, cost, clamp(u * 2 - 1) * (0.6 + 0.4 * pulse(t, 4)));
+    return { caption: "4 · Sensitivity rises roughly 40-fold, enabling low-dose, dynamic and multi-tracer studies and SPECT/CT-grade dosimetry for radioligand therapy; the capital cost exceeds $10M and reimbursement is not tied to sensitivity" };
+  });
+}
+
+// ---------------------------------------------------------------- 22. oncology pharmacy automation and compounding robots
+export function pharmacyAutomation(): Mesh {
+  const sc = scene();
+  const ISO: Vec3 = [0.2, 0.3, 0];
+  const iso = put(sc, "iso", box(2.4, 1.6, 1.2, "accent", true), { at: ISO });
+  const arm = put(sc, "arm", polyline([[ISO[0] - 0.9, ISO[1] + 0.6, 0.2], [ISO[0] - 0.9, ISO[1] + 0.1, 0.2], [ISO[0] - 0.5, ISO[1] + 0.1, 0.2], [ISO[0] - 0.5, ISO[1] - 0.2, 0.2]], "soft"));
+  const vialP = put(sc, "vial", vial(0.14, 0.4, "hot"), { at: [ISO[0] - 0.5, ISO[1] - 0.45, 0.2] });
+  const syr = put(sc, "syr", syringe(0.55, "soft"), { at: [ISO[0] + 0.3, ISO[1] - 0.55, 0.3] });
+  const bag = put(sc, "bag", box(0.45, 0.6, 0.2, "soft", true), { at: [ISO[0] + 0.85, ISO[1] - 0.3, 0.3] });
+  const fill = put(sc, "fill", quad(0.35, 0.3, "hot"), { at: [ISO[0] + 0.85, ISO[1] - 0.4, 0.42] });
+  const scale = put(sc, "scale", box(0.6, 0.08, 0.4, "accent", true), { at: [ISO[0] + 0.85, ISO[1] - 0.68, 0.3] });
+  const readout = put(sc, "readout", ticks(-0.2, 0.2, 0, 3, "accent"), { at: [ISO[0] + 0.85, ISO[1] + 0.45, 0.62] });
+  const bc = put(sc, "bc", ticks(-0.15, 0.15, 0, 6, "accent"), { at: [ISO[0] - 0.5, ISO[1] - 0.9, 0.35] });
+  const beam = put(sc, "beam", line([ISO[0] - 0.5, ISO[1] - 0.6, 0.6], [ISO[0] - 0.5, ISO[1] - 0.9, 0.6], "hot"));
+  const cstd = put(sc, "cstd", ring(0.16, 8, "accent", "y"), { at: [ISO[0] - 0.5, ISO[1] - 0.2, 0.2] });
+  const flow: Part[] = []; for (let i = 0; i < 3; i++) flow.push(put(sc, `fl${i}`, arrow([ISO[0] - 1.0 + 1.0 * i, ISO[1] + 1.05, 0], [ISO[0] - 1.0 + 1.0 * i, ISO[1] + 0.8, 0], "accent", 0.1)));
+  const pharm = put(sc, "pharm", figure("soft"), { at: [-2.3, -0.2, 0.3], scale: 0.9 });
+  const shieldRing = put(sc, "shield", ring(0.9, 14, "accent", "z"), { at: [-2.3, -0.2, 0.3] });
+  const vapours = put(sc, "vap", cloud(6, 0.6, "hot", 4), { at: [ISO[0] - 0.2, ISO[1] + 0.2, 0.3] });
+  const err0 = put(sc, "err0", bar(1.95, 0.9, 0.22, "hot"), { at: [0, -1.85, 0] });
+  const err1 = put(sc, "err1", bar(2.3, 0.3, 0.22, "accent"), { at: [0, -1.85, 0] });
+  const uneven = put(sc, "uneven", building(0.6, 0.5, "soft"), { at: [-1.6, -1.55, 0] });
+  const unevenX = put(sc, "unevenX", cross([-1.6, -1.55, 0.3], 0.18));
+  sc.mesh.labels = [L([ISO[0], ISO[1] + 1.35, 0], "Negative-pressure isolator or robot (USP 800)"), L([-2.3, -1.3, 0.3], "Pharmacist outside the closed system"), L([ISO[0] + 0.85, ISO[1] - 1.15, 0.3], "Gravimetric check of every dose"), L([2.1, -2.2, 0], "Fewer dosing errors; uneven adoption outside big centres")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, fill, readout, bc, beam, cstd, ...flow, shieldRing, err0, err1, uneven, unevenX);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, iso, 0.6); setAlpha(alpha, vapours, (0.3 + 0.7 * pulse(t, 4)) * (1 - 0.8 * u)); movePart(pts, base, vapours, [0, 0.3 * ((t * 3) % 1), 0], 1); flow.forEach((f, i) => { const v = (t * 3 + i / 3) % 1; setAlpha(alpha, f, clamp(u * 2 - 0.5) * (1 - v)); movePart(pts, base, f, [0, -0.3 * v, 0], 1); }); setAlpha(alpha, shieldRing, clamp(u * 2 - 1) * 0.7); setAlpha(alpha, pharm, 1); return { caption: "1 · Cytotoxics are handled inside a negative-pressure isolator or robot cell that meets USP 800 hazardous-drug rules, so the pharmacist outside is never exposed" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, iso, 0.6); setAlpha(alpha, vapours, 0.05); show(alpha, 0.5, ...flow, shieldRing); setAlpha(alpha, beam, clamp(u * 3) * (1 - clamp(u * 3 - 1)) * pulse(t, 10)); setAlpha(alpha, bc, clamp(u * 3)); setAlpha(alpha, cstd, clamp(u * 3 - 1)); movePart(pts, base, arm, [0, -0.2 * clamp(u * 3 - 1), 0], 1); setAlpha(alpha, vialP, 1); return { caption: "2 · A barcode scan reconciles the vial against the order; a closed-system transfer device (PhaSeal, Equashield, ChemoLock) seals the withdrawal" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, iso, 0.6); setAlpha(alpha, vapours, 0.05); show(alpha, 0.5, ...flow, shieldRing, bc); setAlpha(alpha, cstd, 1); movePart(pts, base, arm, [1.35 * clamp(u * 2), -0.2, 0], 1); moveTo(pts, base, syr, [ISO[0] + 0.3, ISO[1] - 0.55, 0.3], [ISO[0] + 0.85, ISO[1] - 0.1, 0.45], clamp(u * 2)); setAlpha(alpha, fill, clamp(u * 2 - 1)); movePart(pts, base, fill, [0, 0, 0], 0.3 + 0.7 * clamp(u * 2 - 1)); setAlpha(alpha, readout, clamp(u * 2 - 1) * (0.6 + 0.4 * pulse(t, 5))); setAlpha(alpha, scale, 1); return { caption: "3 · The robot (APOTECAchemo, RIVA, IV Station, BD Cato workflow) draws up and injects the dose into the bag while a balance verifies the mass gravimetrically" }; }
+    const u = Q(t, 3); setAlpha(alpha, iso, 0.6); setAlpha(alpha, vapours, 0.05); show(alpha, 0.5, ...flow, shieldRing, bc, cstd); movePart(pts, base, arm, [1.35, -0.2, 0], 1); moveTo(pts, base, syr, [ISO[0] + 0.3, ISO[1] - 0.55, 0.3], [ISO[0] + 0.85, ISO[1] - 0.1, 0.45], 1); setAlpha(alpha, fill, 1); setAlpha(alpha, readout, 1); setAlpha(alpha, bag, 1);
+    setAlpha(alpha, err0, clamp(u * 2)); setAlpha(alpha, err1, clamp(u * 2 - 0.5)); setAlpha(alpha, uneven, clamp(u * 2 - 1) * 0.7); setAlpha(alpha, unevenX, clamp(u * 2 - 1));
+    return { caption: "4 · Gravimetric verification and barcode workflows cut dosing errors and give traceability; capital cost, throughput and EHR order-set integration keep adoption uneven outside large centres" };
+  });
+}
+
+// ---------------------------------------------------------------- 23. partial nephrectomy, ablation and active surveillance of small renal masses
+export function partialNephrectomy(): Mesh {
+  const sc = scene();
+  const K: Vec3 = [-1.0, 0.1, 0];
+  const kidney = put(sc, "kidney", organ(0.7, 1.05, 0.5), { at: K });
+  put(sc, "hilum", ellipsoid(0.2, 0.4, 0.2, 3, 8, "soft", true), { at: [K[0] + 0.55, K[1], 0] });
+  const MASS: Vec3 = [K[0] - 0.45, K[1] + 0.55, 0.3];
+  const mass = put(sc, "mass", blob(0.22), { at: MASS });
+  const ct = put(sc, "ct", ring(1.5, 16, "accent", "z"), { at: K });
+  const ruler = put(sc, "ruler", ticks(MASS[0] - 0.22, MASS[0] + 0.22, MASS[1] + 0.45, 3, "accent"));
+  const tl = put(sc, "tl", ticks(0.5, 2.6, 1.4, 5, "soft"));
+  const ghosts: Part[] = []; for (let i = 0; i < 5; i++) ghosts.push(put(sc, `g${i}`, ring(0.1 + 0.012 * i, 8, "hot", "z"), { at: [0.5 + 0.525 * i, 1.75, 0] }));
+  const benign = put(sc, "benign", bar(2.5, 0.5, 0.22, "soft"), { at: [0, 0.3, 0] });
+  const probe = put(sc, "probe", polyline([[2.2, 1.0, 0.4], [MASS[0] + 0.15, MASS[1] + 0.1, 0.5]], "accent"));
+  const ice: Part[] = []; for (let i = 0; i < 3; i++) ice.push(put(sc, `ice${i}`, ring(0.28 + 0.1 * i, 10, "accent", "z"), { at: MASS }));
+  const wedge = put(sc, "wedge", polyline([[MASS[0] - 0.35, MASS[1] - 0.35, 0.3], [MASS[0], MASS[1] + 0.4, 0.3], [MASS[0] + 0.35, MASS[1] - 0.35, 0.3]], "accent"));
+  const stitches: Part[] = []; for (let i = 0; i < 3; i++) stitches.push(put(sc, `st${i}`, line([MASS[0] - 0.2 + 0.2 * i, MASS[1] - 0.2, 0.35], [MASS[0] - 0.2 + 0.2 * i, MASS[1] + 0.05, 0.35], "accent")));
+  const f0 = put(sc, "f0", bar(1.3, 1.0, 0.25, "accent"), { at: [0, -1.85, 0] });
+  const f1 = put(sc, "f1", bar(1.7, 0.55, 0.25, "hot"), { at: [0, -1.85, 0] });
+  const radical = put(sc, "radical", organ(0.35, 0.5, 0.25), { at: [2.4, -1.3, 0] });
+  const radX = put(sc, "radX", cross([2.4, -1.3, 0.3], 0.3));
+  sc.mesh.labels = [L([K[0], K[1] + 1.5, 0], "Small renal mass under 4 cm"), L([1.55, 2.05, 0], "Surveillance: growth triggers action"), L([1.5, -2.2, 0], "Nephrons kept: less CKD and cardiovascular death"), L([2.4, -0.55, 0], "20-30% are benign or indolent")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ruler, tl, ...ghosts, benign, probe, ...ice, wedge, ...stitches, f0, f1, radical, radX);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, ct, clamp(u * 2) * (0.4 + 0.6 * pulse(t, 4))); movePart(pts, base, ct, [0, 0, 0], 1.3 - 0.3 * clamp(u * 2)); setAlpha(alpha, mass, clamp(u * 2 - 0.5) * (0.6 + 0.4 * pulse(t, 5))); setAlpha(alpha, ruler, clamp(u * 2 - 1)); setAlpha(alpha, benign, clamp(u * 2 - 1)); return { caption: "1 · A scan done for something else shows a small renal mass under 4 cm; 20-30% of these are benign or indolent, and most grow slowly" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, ct, 0.3); show(alpha, 0.6, ruler, benign); setAlpha(alpha, tl, 1); ghosts.forEach((g, i) => { setAlpha(alpha, g, clamp(u * 5 - i)); movePart(pts, base, g, [0, 0, 0], 1 + 0.15 * i); }); return { caption: "2 · Active surveillance (DISSRM, the Canadian registry) tracks the mass on serial imaging; metastatic risk is low and intervention is triggered by growth" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, ct, 0.3); show(alpha, 0.5, ruler, benign, tl, ...ghosts); ghosts.forEach((g, i) => movePart(pts, base, g, [0, 0, 0], 1 + 0.15 * i)); if (u < 0.5) { const v = u * 2; grow(alpha, probe, v); ice.forEach((r, i) => setAlpha(alpha, r, clamp(v * 3 - i) * pulse(t, 5))); } else { const v = (u - 0.5) * 2; setAlpha(alpha, probe, 0.3); show(alpha, 0.3, ...ice); grow(alpha, wedge, clamp(v * 2)); stitches.forEach((st, i) => setAlpha(alpha, st, clamp(v * 3 - 1 - 0.3 * i))); setAlpha(alpha, mass, 1 - 0.8 * clamp(v * 2 - 0.5)); movePart(pts, base, mass, [0, 0, 0], 1 - 0.6 * clamp(v * 2 - 0.5)); } return { caption: "3 · Percutaneous cryoablation or microwave ablation suits comorbid patients; for T1 tumours the preferred operation is robotic partial nephrectomy, removing the tumour and keeping the kidney" }; }
+    const u = Q(t, 3); setAlpha(alpha, ct, 0.3); show(alpha, 0.5, ruler, benign, tl, ...ghosts, probe, ...ice, wedge, ...stitches); ghosts.forEach((g, i) => movePart(pts, base, g, [0, 0, 0], 1 + 0.15 * i)); setAlpha(alpha, mass, 0.2); movePart(pts, base, mass, [0, 0, 0], 0.4); setAlpha(alpha, kidney, 1);
+    setAlpha(alpha, f0, clamp(u * 2)); setAlpha(alpha, f1, clamp(u * 2 - 0.5)); setAlpha(alpha, radical, clamp(u * 2 - 1) * 0.6); setAlpha(alpha, radX, clamp(u * 2 - 1));
+    return { caption: "4 · Nephron preservation lowers chronic kidney disease and cardiovascular mortality; radical nephrectomy is reserved for larger or central tumours, and renal mass biopsy and SBRT (FASTRACK II) are growing roles" };
+  });
+}
+
+// ---------------------------------------------------------------- 24. pre-analytics: blood-collection tubes and tissue fixation
+export function preanalyticsStabilisation(): Mesh {
+  const sc = scene();
+  const TA: Vec3 = [-1.9, 0.3, 0], TB: Vec3 = [-0.7, 0.3, 0];
+  const tubeA = put(sc, "tubeA", vial(0.28, 1.5, "soft"), { at: TA });
+  const tubeB = put(sc, "tubeB", vial(0.28, 1.5, "accent"), { at: TB });
+  const wbcA: Part[] = []; for (let i = 0; i < 4; i++) wbcA.push(put(sc, `wa${i}`, sphere(0.09, 3, 8, "soft", true), { at: [TA[0] - 0.1 + 0.1 * (i % 2), TA[1] - 0.5 + 0.3 * i, 0.1] }));
+  const wbcB: Part[] = []; for (let i = 0; i < 4; i++) wbcB.push(put(sc, `wb${i}`, sphere(0.09, 3, 8, "accent", true), { at: [TB[0] - 0.1 + 0.1 * (i % 2), TB[1] - 0.5 + 0.3 * i, 0.1] }));
+  const ctA: Part[] = []; for (let i = 0; i < 3; i++) ctA.push(put(sc, `ca${i}`, helix(0.04, 0.12, 1.5, 8, "hot"), { at: [TA[0] + 0.12, TA[1] - 0.4 + 0.35 * i, 0.15] }));
+  const ctB: Part[] = []; for (let i = 0; i < 3; i++) ctB.push(put(sc, `cb${i}`, helix(0.04, 0.12, 1.5, 8, "hot"), { at: [TB[0] + 0.12, TB[1] - 0.4 + 0.35 * i, 0.15] }));
+  const flood = put(sc, "flood", cloud(10, 0.3, "soft", 5), { at: [TA[0], TA[1], 0.2] });
+  const clock = put(sc, "clock", clockFace(0.3), { at: [-1.3, 1.65, 0] });
+  const truck = put(sc, "truck", box(0.6, 0.3, 0.3, "soft", true), { at: [-1.3, -1.3, 0] });
+  const ROUTE: Vec3 = [1.2, -1.3, 0];
+  const BLK: Vec3 = [1.6, 0.4, 0];
+  const bath = put(sc, "bath", box(1.3, 0.9, 0.8, "soft", true), { at: BLK });
+  const block = put(sc, "block", box(0.5, 0.3, 0.4, "hot", true), { at: [BLK[0], BLK[1] - 0.15, 0] });
+  const xlink: Part[] = []; for (let i = 0; i < 3; i++) xlink.push(put(sc, `xl${i}`, ring(0.3 + 0.1 * i, 10, "accent", "y"), { at: [BLK[0], BLK[1] - 0.15, 0] }));
+  const win = put(sc, "win", ticks(0.9, 2.3, 1.55, 4, "soft"));
+  const winLo = put(sc, "winLo", line([1.1, 1.4, 0], [1.1, 1.7, 0], "accent"));
+  const winHi = put(sc, "winHi", line([2.1, 1.4, 0], [2.1, 1.7, 0], "accent"));
+  const slideA = put(sc, "slideA", quad(0.5, 0.25, "accent"), { at: [1.3, -1.0, 0], rotX: Math.PI / 2 });
+  const slideB = put(sc, "slideB", quad(0.5, 0.25, "hot"), { at: [2.0, -1.0, 0], rotX: Math.PI / 2 });
+  const disc0 = put(sc, "disc0", cross([1.65, -1.0, 0.15], 0.15));
+  sc.mesh.labels = [L([-1.3, 2.2, 0], "Plain tube vs cfDNA stabilising tube (Streck, PAXgene, Roche)"), L([-1.3, -1.8, 0], "Room temperature for days"), L([BLK[0], BLK[1] + 0.85, 0], "Formalin fixation: 6-72 hour window (ASCO/CAP)"), L([1.65, -1.55, 0], "Discordant PD-L1 or HER2 result")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, flood, truck, ...xlink, win, winLo, winHi, slideA, slideB, disc0);
+    setAlpha(alpha, tubeA, 0.7); setAlpha(alpha, tubeB, 0.7);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, clock, 1); movePart(pts, base, clock, [0, 0, 0], 1, 0); wbcA.forEach((w, i) => { const v = clamp(u * 2 - 0.2 * i); setAlpha(alpha, w, 1 - 0.9 * v); movePart(pts, base, w, [0, 0, 0], 1 + 0.8 * v); }); setAlpha(alpha, flood, clamp(u * 2 - 0.5) * 0.8); ctA.forEach((c) => setAlpha(alpha, c, 1 - 0.7 * clamp(u * 2 - 0.5))); show(alpha, 1, ...wbcB, ...ctB); setAlpha(alpha, bath, 0.4); setAlpha(alpha, block, 0.4); return { caption: "1 · In a plain tube white cells lyse within hours and nucleases wake up: genomic DNA floods the plasma and drowns the few tumour-derived fragments" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, clock, 0.5); show(alpha, 0.1, ...wbcA); wbcA.forEach((w) => movePart(pts, base, w, [0, 0, 0], 1.8)); setAlpha(alpha, flood, 0.8); show(alpha, 0.3, ...ctA); show(alpha, 1, ...wbcB); ctB.forEach((c, i) => setAlpha(alpha, c, 0.6 + 0.4 * pulse(t + i * 0.1, 5))); setAlpha(alpha, tubeB, 0.7 + 0.3 * pulse(t, 4)); setAlpha(alpha, truck, clamp(u * 2)); moveTo(pts, base, truck, [-1.3, -1.3, 0], ROUTE, clamp(u * 1.4)); setAlpha(alpha, bath, 0.4); setAlpha(alpha, block, 0.4); return { caption: "2 · A chemical stabiliser (Streck Cell-Free DNA BCT, PAXgene ccfDNA, Roche Cell-Free DNA Collection Tube) keeps leukocytes intact and nucleases quiet, so ctDNA can travel at room temperature for days to a central lab" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, clock, 0.5); show(alpha, 0.1, ...wbcA); wbcA.forEach((w) => movePart(pts, base, w, [0, 0, 0], 1.8)); setAlpha(alpha, flood, 0.5); show(alpha, 0.3, ...ctA); show(alpha, 0.8, ...wbcB, ...ctB); setAlpha(alpha, truck, 0.5); moveTo(pts, base, truck, [-1.3, -1.3, 0], ROUTE, 1); setAlpha(alpha, bath, 1); setAlpha(alpha, block, 1); xlink.forEach((x, i) => { const v = (t * 4 + i / 3) % 1; setAlpha(alpha, x, u * (1 - v)); movePart(pts, base, x, [0, 0, 0], 0.5 + 0.8 * v); }); setAlpha(alpha, win, clamp(u * 2 - 0.5)); setAlpha(alpha, winLo, clamp(u * 2 - 0.7)); setAlpha(alpha, winHi, clamp(u * 2 - 1)); return { caption: "3 · For tissue, cross-linking formalin fixation preserves morphology and antigens only inside validated windows: ASCO/CAP HER2 and CAP/CLSI guidance set 6-72 hours, and ischaemia time before fixation also counts" }; }
+    const u = Q(t, 3); setAlpha(alpha, clock, 0.5); show(alpha, 0.1, ...wbcA); wbcA.forEach((w) => movePart(pts, base, w, [0, 0, 0], 1.8)); setAlpha(alpha, flood, 0.5); show(alpha, 0.3, ...ctA); show(alpha, 0.8, ...wbcB, ...ctB); setAlpha(alpha, truck, 0.5); moveTo(pts, base, truck, [-1.3, -1.3, 0], ROUTE, 1); show(alpha, 0.7, bath, block, win, winLo, winHi); show(alpha, 0.3, ...xlink);
+    setAlpha(alpha, slideA, clamp(u * 2)); setAlpha(alpha, slideB, clamp(u * 2 - 0.5)); setAlpha(alpha, disc0, clamp(u * 2 - 1) * (0.6 + 0.4 * pulse(t, 4)));
+    return { caption: "4 · Over- or under-fixation degrades DNA and RNA and shifts IHC scores, so the same tumour can read PD-L1 or HER2 differently in two labs; pre-analytic variability is a major source of discordant biomarker results" };
+  });
+}
+
+// ---------------------------------------------------------------- 25. sonodynamic therapy
+export function sonodynamicTherapy(): Mesh {
+  const sc = scene();
+  const B: Vec3 = [0.2, 0.1, 0];
+  const brain = put(sc, "brain", organ(1.25, 1.0, 0.9), { at: B });
+  put(sc, "fissure", polyline([[B[0], B[1] + 0.95, 0.3], [B[0] - 0.1, B[1] + 0.5, 0.6], [B[0], B[1], 0.85]], "soft"));
+  const GLI: Vec3 = [B[0] + 0.45, B[1] + 0.15, 0.45];
+  const glioma = put(sc, "glioma", blob(0.4), { at: GLI });
+  const cap = put(sc, "cap", capsule(1.2, "accent"), { at: [-2.4, 1.2, 0] });
+  const ppix: Part[] = []; for (let i = 0; i < 6; i++) ppix.push(put(sc, `pp${i}`, dots([[0, 0, 0]], "accent"), { at: [GLI[0] - 0.25 + 0.1 * i, GLI[1] - 0.2 + 0.08 * (i % 3), GLI[2] + 0.2] }));
+  const normalDots: Part[] = []; for (let i = 0; i < 3; i++) normalDots.push(put(sc, `nd${i}`, dots([[0, 0, 0]], "accent"), { at: [B[0] - 0.8 + 0.3 * i, B[1] - 0.3 + 0.2 * (i % 2), 0.6] }));
+  const TR: Vec3 = [-1.9, -0.9, 0.3];
+  const trans = put(sc, "trans", cylinder(0.35, 0.25, 12, 2, "accent", true, true), { at: TR, rotZ: 0.8 });
+  const waves: Part[] = []; for (let i = 0; i < 4; i++) waves.push(put(sc, `wv${i}`, ring(0.15 + 0.12 * i, 10, "accent", "x"), { at: TR, rotZ: 0.8 }));
+  const ros: Part[] = []; for (let i = 0; i < 4; i++) ros.push(put(sc, `ros${i}`, ring(0.1 + 0.05 * i, 8, "hot", "z"), { at: [GLI[0] + 0.1 * Math.cos(i * 1.7), GLI[1] + 0.1 * Math.sin(i * 1.7), GLI[2] + 0.2] }));
+  const tri: Part[] = []; for (let i = 0; i < 3; i++) tri.push(put(sc, `tr${i}`, doc(0.5, 0.55, 3, "soft"), { at: [1.9 + 0.55 * i - 0.55, -1.35 + 0.1 * (i % 2), 0] }));
+  const survX = put(sc, "survX", cross([2.5, -0.55, 0.1], 0.18));
+  const surv = put(sc, "surv", polyline([[2.15, -0.7, 0], [2.4, -0.45, 0], [2.85, -0.7, 0]], "soft"));
+  sc.mesh.labels = [L([B[0], B[1] + 1.4, 0], "Glioblastoma: sound reaches where light cannot"), L([-2.4, 1.7, 0], "5-ALA, already used for fluorescence-guided surgery"), L([TR[0], TR[1] - 0.6, 0.3], "Focused or diffuse ultrasound"), L([1.9, -1.9, 0], "Phase 2 running; no randomised survival data")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ...ppix, ...normalDots, ...waves, ...ros, ...tri, survX, surv);
+    setAlpha(alpha, brain, 0.8);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, cap, 1); moveTo(pts, base, cap, [-2.4, 1.2, 0], [B[0] - 0.9, B[1] + 0.5, 0.6], clamp(u * 1.5)); setAlpha(alpha, cap, 1 - 0.7 * clamp(u * 3 - 2)); normalDots.forEach((d, i) => setAlpha(alpha, d, clamp(u * 3 - 1.5 - 0.2 * i) * 0.5)); ppix.forEach((d, i) => setAlpha(alpha, d, clamp(u * 3 - 1.5 - 0.15 * i))); setAlpha(alpha, glioma, 0.6 + 0.4 * pulse(t, 4)); setAlpha(alpha, trans, 0.4); return { caption: "1 · Oral 5-ALA is taken up by glioma cells and converted into protoporphyrin IX, which builds up in the tumour far more than in normal brain" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, cap, 0.3); moveTo(pts, base, cap, [-2.4, 1.2, 0], [B[0] - 0.9, B[1] + 0.5, 0.6], 1); show(alpha, 0.2, ...normalDots); show(alpha, 1, ...ppix); setAlpha(alpha, trans, 1); waves.forEach((w, i) => { const v = (t * 4 + i / 4) % 1; setAlpha(alpha, w, u * (1 - v)); moveTo(pts, base, w, TR, GLI, v, 0.6 + 1.2 * v); }); return { caption: "2 · Ultrasound through the intact skull, focused (ExAblate) or diffuse, penetrates deep tissue in a way light for photodynamic therapy never could" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, cap, 0.3); moveTo(pts, base, cap, [-2.4, 1.2, 0], [B[0] - 0.9, B[1] + 0.5, 0.6], 1); show(alpha, 0.2, ...normalDots); show(alpha, 1, ...ppix); setAlpha(alpha, trans, 1); waves.forEach((w, i) => { const v = (t * 4 + i / 4) % 1; setAlpha(alpha, w, 0.6 * (1 - v)); moveTo(pts, base, w, TR, GLI, v, 0.6 + 1.2 * v); }); ros.forEach((r, i) => { const v = (t * 5 + i / 4) % 1; setAlpha(alpha, r, u * (1 - v)); movePart(pts, base, r, [0, 0, 0], 0.5 + 1.5 * v); }); setAlpha(alpha, glioma, 1 - 0.5 * u); movePart(pts, base, glioma, [0, 0, 0], 1 - 0.3 * u); return { caption: "3 · Cavitation in the sensitised cells generates reactive oxygen species that kill them locally while the surrounding brain, with little sensitiser, is spared" }; }
+    const u = Q(t, 3); setAlpha(alpha, cap, 0.3); moveTo(pts, base, cap, [-2.4, 1.2, 0], [B[0] - 0.9, B[1] + 0.5, 0.6], 1); show(alpha, 0.2, ...normalDots); show(alpha, 0.6, ...ppix, ...waves); waves.forEach((w, i) => moveTo(pts, base, w, TR, GLI, (i + 0.5) / 4, 0.6 + 1.2 * ((i + 0.5) / 4))); show(alpha, 0.3, ...ros); setAlpha(alpha, glioma, 0.5); movePart(pts, base, glioma, [0, 0, 0], 0.7); setAlpha(alpha, trans, 0.7);
+    cascade(alpha, tri, clamp(u * 1.5)); setAlpha(alpha, surv, clamp(u * 2 - 1)); setAlpha(alpha, survX, clamp(u * 2 - 1) * (0.6 + 0.4 * pulse(t, 4)));
+    return { caption: "4 · Alpheus Medical is in phase 2 in newly diagnosed glioblastoma with temozolomide (NCT07225621) after a phase 1 (NCT05362409); Insightec completed a phase 2 (NCT04845919). No randomised survival data exist, and uptake varies across a heterogeneous tumour" };
+  });
+}
+
+// ---------------------------------------------------------------- 26. spatial biology instruments
+export function spatialBiologyInstruments(): Mesh {
+  const sc = scene();
+  const S: Vec3 = [-0.6, -0.1, 0];
+  put(sc, "slide", quad(3.0, 1.6, "soft"), { at: [S[0], S[1], -0.05] });
+  const section = put(sc, "section", ellipsoid(1.1, 0.6, 0.02, 4, 12, "accent", true), { at: S });
+  const cellsGrid: Part[] = []; for (let i = 0; i < 12; i++) cellsGrid.push(put(sc, `c${i}`, ring(0.11, 6, "soft", "z"), { at: [S[0] - 0.75 + 0.3 * (i % 6), S[1] - 0.22 + 0.44 * Math.floor(i / 6), 0.02] }));
+  const probes: Part[] = []; for (let i = 0; i < 12; i++) probes.push(put(sc, `p${i}`, dots([[0, 0, 0]], i % 3 === 0 ? "hot" : "accent"), { at: [S[0] - 0.75 + 0.3 * (i % 6), S[1] + 1.3 + 0.1 * (i % 4), 0.05 + 0.02 * Math.floor(i / 6)] }));
+  const lens = put(sc, "lens", ring(0.45, 12, "accent", "z"), { at: [S[0] - 0.9, S[1], 0.5] });
+  const beam = put(sc, "beam", cone(0.45, 0.45, 8, "accent", false), { at: [S[0] - 0.9, S[1], 0.27] });
+  const cycles = put(sc, "cycles", ticks(-2.2, -0.2, -1.4, 4, "soft"));
+  const MAP: Vec3 = [1.9, 0.3, 0];
+  const map = put(sc, "map", quad(1.3, 1.3, "soft"), { at: MAP });
+  const clusters: Part[] = []; const CL = [["hot", -0.3, 0.3], ["accent", 0.3, 0.25], ["accent", -0.25, -0.3], ["hot", 0.3, -0.3]] as const; CL.forEach(([cls, dx, dy], i) => clusters.push(put(sc, `cl${i}`, cloud(6, 0.3, cls, i + 2), { at: [MAP[0] + dx, MAP[1] + dy, 0.05] })));
+  const genes = put(sc, "genes", ticks(1.35, 2.45, -0.75, 6, "accent"));
+  const bill = put(sc, "bill", doc(0.55, 0.6, 3, "soft"), { at: [2.2, -1.5, 0] });
+  const billX = put(sc, "billX", cross([2.2, -1.5, 0.1], 0.2));
+  const court = put(sc, "court", building(0.7, 0.5, "soft"), { at: [1.3, -1.5, 0] });
+  sc.mesh.labels = [L([S[0], S[1] + 1.05, 0], "Tumour section on a slide"), L([S[0] - 1.6, S[1] - 0.9, 0.3], "Imaged over many cycles"), L([MAP[0], MAP[1] + 0.95, 0], "Hundreds to thousands of genes, in place"), L([1.75, -1.95, 0], "Cost per section; not yet reimbursed")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ...probes, lens, beam, cycles, map, ...clusters, genes, bill, billX, court);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, section, 0.7); cellsGrid.forEach((c, i) => setAlpha(alpha, c, clamp(u * 3 - 0.2 * i))); probes.forEach((p, i) => { const v = clamp(u * 1.8 - 0.05 * i); setAlpha(alpha, p, clamp(u * 3 - 0.1 * i)); moveTo(pts, base, p, [S[0] - 0.75 + 0.3 * (i % 6), S[1] + 1.3 + 0.1 * (i % 4), 0.05 + 0.02 * Math.floor(i / 6)], [S[0] - 0.75 + 0.3 * (i % 6), S[1] - 0.22 + 0.44 * Math.floor(i / 6), 0.05], v); }); return { caption: "1 · Barcoded probes hybridise in situ to RNA or antibodies bind proteins across an intact tumour section, cell by cell, with the tissue architecture preserved" }; }
+    if (s === 1) { const u = Q(t, 1); probes.forEach((p, i) => { moveTo(pts, base, p, [S[0] - 0.75 + 0.3 * (i % 6), S[1] + 1.3 + 0.1 * (i % 4), 0.05 + 0.02 * Math.floor(i / 6)], [S[0] - 0.75 + 0.3 * (i % 6), S[1] - 0.22 + 0.44 * Math.floor(i / 6), 0.05], 1); const lit = Math.abs(S[0] - 0.75 + 0.3 * (i % 6) - (S[0] - 0.9 + 2.0 * u)) < 0.35; setAlpha(alpha, p, lit ? 1 : 0.5); }); setAlpha(alpha, lens, 1); setAlpha(alpha, beam, 0.6 + 0.4 * pulse(t, 6)); movePart(pts, base, lens, [2.0 * u, 0, 0], 1); movePart(pts, base, beam, [2.0 * u, 0, 0], 1); grow(alpha, cycles, u); return { caption: "2 · An imager (Xenium, CosMx, MERSCOPE, PhenoCycler, COMET) reads the barcodes over many hybridisation and imaging cycles; Visium HD instead captures position on an array and sequences" }; }
+    if (s === 2) { const u = Q(t, 2); probes.forEach((p, i) => { moveTo(pts, base, p, [S[0] - 0.75 + 0.3 * (i % 6), S[1] + 1.3 + 0.1 * (i % 4), 0.05 + 0.02 * Math.floor(i / 6)], [S[0] - 0.75 + 0.3 * (i % 6), S[1] - 0.22 + 0.44 * Math.floor(i / 6), 0.05], 1); setAlpha(alpha, p, 1); }); setAlpha(alpha, lens, 0.5); setAlpha(alpha, beam, 0.3); movePart(pts, base, lens, [2.0, 0, 0], 1); movePart(pts, base, beam, [2.0, 0, 0], 1); setAlpha(alpha, cycles, 0.6); setAlpha(alpha, map, clamp(u * 2)); clusters.forEach((c, i) => setAlpha(alpha, c, clamp(u * 3 - 0.5 - 0.4 * i))); grow(alpha, genes, clamp(u * 2 - 0.8)); return { caption: "3 · The output is a map of which of hundreds to thousands of genes and proteins are active in each part of the tumour: immune niches, hypoxic cores, invasive edges" }; }
+    const u = Q(t, 3); probes.forEach((p, i) => { moveTo(pts, base, p, [S[0] - 0.75 + 0.3 * (i % 6), S[1] + 1.3 + 0.1 * (i % 4), 0.05 + 0.02 * Math.floor(i / 6)], [S[0] - 0.75 + 0.3 * (i % 6), S[1] - 0.22 + 0.44 * Math.floor(i / 6), 0.05], 1); setAlpha(alpha, p, 0.8); }); setAlpha(alpha, lens, 0.5); setAlpha(alpha, beam, 0.3); movePart(pts, base, lens, [2.0, 0, 0], 1); movePart(pts, base, beam, [2.0, 0, 0], 1); setAlpha(alpha, cycles, 0.6); show(alpha, 1, map, ...clusters, genes);
+    setAlpha(alpha, court, clamp(u * 2) * 0.7); setAlpha(alpha, bill, clamp(u * 2 - 0.5)); setAlpha(alpha, billX, clamp(u * 2 - 1) * (0.6 + 0.4 * pulse(t, 4)));
+    return { caption: "4 · Research impact on the tumour microenvironment is large; clinical use is nascent, held back by cost per section, analysis complexity and no reimbursement, and patent litigation reshaped the vendors (NanoString to Bruker, 2024)" };
+  });
+}
+
+// ---------------------------------------------------------------- 27. Sybil: lung cancer risk from a single low-dose CT
+export function sybilRisk(): Mesh {
+  const sc = scene();
+  const CT: Vec3 = [-1.7, 0.2, 0];
+  const vol = put(sc, "vol", box(1.4, 1.5, 1.0, "soft", true), { at: CT });
+  const lungL = put(sc, "lungL", organ(0.3, 0.55, 0.3, "accent"), { at: [CT[0] - 0.35, CT[1] - 0.05, 0] });
+  const lungR = put(sc, "lungR", organ(0.3, 0.55, 0.3, "accent"), { at: [CT[0] + 0.35, CT[1] - 0.05, 0] });
+  const nodX = put(sc, "nodX", cross([CT[0], CT[1] + 1.05, 0.2], 0.15));
+  const nodRing = put(sc, "nodRing", ring(0.12, 8, "hot", "z"), { at: [CT[0], CT[1] + 1.05, 0.15] });
+  const layers: Part[] = []; for (let i = 0; i < 4; i++) layers.push(put(sc, `ly${i}`, quad(0.9 - 0.15 * i, 1.1 - 0.2 * i, "accent"), { at: [-0.3 + 0.35 * i, 0.3, -0.3 + 0.2 * i] }));
+  const feed = put(sc, "feed", arrow([CT[0] + 0.75, CT[1], 0.3], [-0.75, 0.3, 0.2], "accent"));
+  const scanDots: Part[] = []; for (let i = 0; i < 5; i++) scanDots.push(put(sc, `sd${i}`, dots([[0, 0, 0]], "hot"), { at: [CT[0] - 0.5 + 0.25 * i, CT[1] - 0.6 + 0.3 * (i % 2), 0.55] }));
+  const gauge = put(sc, "gauge", ring(0.55, 14, "soft", "z"), { at: [1.9, 0.4, 0] });
+  const needleP = put(sc, "needle", line([1.9, 0.4, 0.05], [1.9, 0.9, 0.05], "hot"));
+  const years = put(sc, "years", ticks(1.35, 2.45, -0.45, 6, "soft"));
+  const lo = put(sc, "lo", ticks(0.4, 2.6, -1.35, 3, "accent"));
+  const hi = put(sc, "hi", ticks(0.4, 2.6, -1.85, 7, "hot"));
+  const ns = put(sc, "ns", figure("soft"), { at: [-2.4, -1.3, 0.2], scale: 0.6 });
+  const nsQ = put(sc, "nsQ", ring(0.14, 8, "hot", "z"), { at: [-2.05, -0.75, 0.3] });
+  sc.mesh.labels = [L([CT[0], CT[1] + 1.45, 0], "One low-dose CT, no visible nodule"), L([0.3, 1.25, 0], "3D CNN trained on time-to-cancer (NLST)"), L([1.9, 1.2, 0], "Six-year lung cancer risk"), L([1.5, -2.2, 0], "Longer intervals for low risk, shorter for high")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, nodX, ...layers, feed, gauge, needleP, years, lo, hi, ns, nsQ);
+    setAlpha(alpha, nodRing, 0.3);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, vol, 0.7); scanDots.forEach((d, i) => { const v = (t * 3 + i / 5) % 1; setAlpha(alpha, d, 1 - v); movePart(pts, base, d, [0, 1.2 * v, 0], 1); }); setAlpha(alpha, nodRing, clamp(u * 2) * 0.6); setAlpha(alpha, nodX, clamp(u * 2 - 1)); show(alpha, 0.6 + 0.4 * pulse(t, 4), lungL, lungR); return { caption: "1 · A single low-dose screening CT of the chest, with no nodule that a radiologist would call, goes in whole" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, vol, 0.7); show(alpha, 0.3, ...scanDots); setAlpha(alpha, nodX, 0.5); grow(alpha, feed, clamp(u * 2)); layers.forEach((l, i) => setAlpha(alpha, l, clamp(u * 3 - 0.5 - 0.5 * i) * (0.5 + 0.5 * pulse(t + i * 0.1, 5)))); return { caption: "2 · A 3D convolutional network from MIT and MGH, trained on National Lung Screening Trial CTs against time-to-cancer rather than visible nodules, scans the whole volume" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, vol, 0.7); show(alpha, 0.3, ...scanDots); setAlpha(alpha, nodX, 0.5); setAlpha(alpha, feed, 0.6); show(alpha, 0.8, ...layers); setAlpha(alpha, gauge, clamp(u * 2)); setAlpha(alpha, needleP, clamp(u * 2 - 0.3)); movePart(pts, base, needleP, [0, 0, 0], 1, 0); const ang = -1.2 * clamp(u * 1.5 - 0.3); for (let i = needleP.p0; i < needleP.p1; i++) { const p = base[i]; const dx = p[0] - 1.9, dy = p[1] - 0.4; pts[i] = [1.9 + dx * Math.cos(ang) - dy * Math.sin(ang), 0.4 + dx * Math.sin(ang) + dy * Math.cos(ang), p[2]]; } grow(alpha, years, clamp(u * 2 - 0.5)); return { caption: "3 · It outputs the person's risk of lung cancer over the next six years, validated at MGH and in Taiwan (JCO 2023); the code is open source" }; }
+    const u = Q(t, 3); setAlpha(alpha, vol, 0.7); show(alpha, 0.3, ...scanDots); setAlpha(alpha, nodX, 0.5); setAlpha(alpha, feed, 0.6); show(alpha, 0.8, ...layers, gauge, years); setAlpha(alpha, needleP, 1); const ang = -1.2; for (let i = needleP.p0; i < needleP.p1; i++) { const p = base[i]; const dx = p[0] - 1.9, dy = p[1] - 0.4; pts[i] = [1.9 + dx * Math.cos(ang) - dy * Math.sin(ang), 0.4 + dx * Math.sin(ang) + dy * Math.cos(ang), p[2]]; }
+    grow(alpha, lo, clamp(u * 2)); grow(alpha, hi, clamp(u * 2 - 0.3)); setAlpha(alpha, ns, clamp(u * 2 - 1) * 0.7); setAlpha(alpha, nsQ, clamp(u * 2 - 1) * (0.6 + 0.4 * pulse(t, 4)));
+    return { caption: "4 · Screening programmes are testing it to personalise intervals, longer for low-risk people and shorter for high-risk ones; trained on screening populations, its performance in never-smokers is less certain and prospective trials are still needed" };
+  });
+}
+
+// ---------------------------------------------------------------- 28. trained innate immunity
+export function trainedInnateImmunity(): Mesh {
+  const sc = scene();
+  const MAR: Vec3 = [-1.6, -0.2, 0];
+  put(sc, "marrow", cylinder(0.55, 2.0, 12, 3, "soft", true, true), { at: MAR });
+  const prog = put(sc, "prog", cell(0.32, "accent"), { at: MAR });
+  const dnaP = put(sc, "dnaP", helix(0.08, 0.3, 2, 12, "accent"), { at: [MAR[0], MAR[1] - 0.15, 0.1] });
+  const marks: Part[] = []; for (let i = 0; i < 3; i++) marks.push(put(sc, `mk${i}`, dots([[0, 0, 0]], "hot"), { at: [MAR[0] + 0.08 * Math.cos(i * 2.1), MAR[1] - 0.12 + 0.12 * i, 0.15] }));
+  const agon: Part[] = []; for (let i = 0; i < 4; i++) agon.push(put(sc, `ag${i}`, octahedron(0.08, "hot"), { at: [-2.5, 1.5 - 0.2 * i, 0.2] }));
+  const mono: Part[] = []; for (let i = 0; i < 3; i++) mono.push(put(sc, `mo${i}`, sphere(0.2, 3, 8, "accent", true), { at: [MAR[0] + 0.9, MAR[1] + 0.5 - 0.5 * i, 0.3] }));
+  const nk = put(sc, "nk", sphere(0.22, 3, 8, "accent", true), { at: [MAR[0] + 0.9, MAR[1] - 0.9, 0.3] });
+  const TUM: Vec3 = [1.7, 0.2, 0];
+  const tumour = put(sc, "tumour", blob(0.6), { at: TUM });
+  const burst: Part[] = []; for (let i = 0; i < 4; i++) burst.push(put(sc, `bu${i}`, ring(0.1 + 0.08 * i, 8, "hot", "z"), { at: [TUM[0] - 0.55, TUM[1] + 0.2, 0.3] }));
+  const r0 = put(sc, "r0", bar(1.3, 0.35, 0.22, "soft"), { at: [0, -1.85, 0] });
+  const r1 = put(sc, "r1", bar(1.65, 0.95, 0.22, "accent"), { at: [0, -1.85, 0] });
+  const flip = put(sc, "flip", arrow([2.5, -0.7, 0], [2.5, -1.5, 0], "hot"));
+  const bladder = put(sc, "bladder", organ(0.4, 0.35, 0.3), { at: [0.2, 1.5, 0] });
+  const bcg = put(sc, "bcg", dots([[0.1, 0.05, 0.2], [-0.1, -0.05, 0.2], [0, 0.15, 0.22]], "hot"), { at: [0.2, 1.5, 0] });
+  sc.mesh.labels = [L([MAR[0], MAR[1] + 1.2, 0], "Haematopoietic progenitors, epigenetically rewired"), L([-2.5, 2.0, 0.2], "BCG, beta-glucans"), L([TUM[0], TUM[1] + 0.95, 0], "Monocytes and NK cells hit harder next time"), L([2.5, -1.85, 0], "Can reverse into suppression")];
+  const base = sc.mesh.points;
+  const monoTo = (i: number): Vec3 => [TUM[0] - 0.85 + 0.15 * (i % 2), TUM[1] + 0.5 - 0.5 * i, 0.3];
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ...marks, ...mono, nk, ...burst, r0, r1, flip, bladder, bcg);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); agon.forEach((a, i) => { setAlpha(alpha, a, 1 - 0.6 * clamp(u * 3 - 2)); moveTo(pts, base, a, [-2.5, 1.5 - 0.2 * i, 0.2], [MAR[0] - 0.2 + 0.1 * i, MAR[1] + 0.25, 0.3], clamp(u * 1.5 - 0.1 * i)); }); setAlpha(alpha, prog, 0.6 + 0.4 * u * pulse(t, 5)); marks.forEach((m, i) => setAlpha(alpha, m, clamp(u * 3 - 1.5 - 0.3 * i))); setAlpha(alpha, tumour, 0.4); return { caption: "1 · BCG, the oldest immunotherapy, or a beta-glucan reaches haematopoietic progenitors in the marrow and rewires them epigenetically and metabolically" }; }
+    if (s === 1) { const u = Q(t, 1); agon.forEach((a, i) => { setAlpha(alpha, a, 0.4); moveTo(pts, base, a, [-2.5, 1.5 - 0.2 * i, 0.2], [MAR[0] - 0.2 + 0.1 * i, MAR[1] + 0.25, 0.3], 1); }); show(alpha, 1, ...marks); setAlpha(alpha, dnaP, 1); mono.forEach((m, i) => { const v = clamp(u * 2 - 0.3 * i); setAlpha(alpha, m, v); movePart(pts, base, m, [-0.6 * (1 - v), 0, 0], 0.3 + 0.7 * v); }); setAlpha(alpha, nk, clamp(u * 2 - 1)); movePart(pts, base, nk, [-0.6 * (1 - clamp(u * 2 - 1)), 0, 0], 0.3 + 0.7 * clamp(u * 2 - 1)); setAlpha(alpha, tumour, 0.4); return { caption: "2 · The progenitors now produce monocytes and NK cells with heightened effector programmes, a state that lasts months: innate memory without antigen or T cells" }; }
+    if (s === 2) { const u = Q(t, 2); agon.forEach((a, i) => { setAlpha(alpha, a, 0.3); moveTo(pts, base, a, [-2.5, 1.5 - 0.2 * i, 0.2], [MAR[0] - 0.2 + 0.1 * i, MAR[1] + 0.25, 0.3], 1); }); show(alpha, 0.7, ...marks); mono.forEach((m, i) => { setAlpha(alpha, m, 1); moveTo(pts, base, m, [MAR[0] + 0.9, MAR[1] + 0.5 - 0.5 * i, 0.3], monoTo(i), clamp(u * 1.4 - 0.1 * i)); }); setAlpha(alpha, nk, 1); moveTo(pts, base, nk, [MAR[0] + 0.9, MAR[1] - 0.9, 0.3], [TUM[0] - 0.7, TUM[1] - 0.75, 0.3], clamp(u * 1.4 - 0.3)); setAlpha(alpha, tumour, 1); burst.forEach((b, i) => { const v = (t * 5 + i / 4) % 1; setAlpha(alpha, b, clamp(u * 2 - 1) * (1 - v)); movePart(pts, base, b, [0, 0, 0], 0.5 + 1.2 * v); }); setAlpha(alpha, r0, clamp(u * 2 - 1)); setAlpha(alpha, r1, clamp(u * 2 - 1.2)); return { caption: "3 · Next time they meet a tumour the response is harder; the aim is to induce the state deliberately, alone or before checkpoint blockade" }; }
+    const u = Q(t, 3); agon.forEach((a, i) => { setAlpha(alpha, a, 0.3); moveTo(pts, base, a, [-2.5, 1.5 - 0.2 * i, 0.2], [MAR[0] - 0.2 + 0.1 * i, MAR[1] + 0.25, 0.3], 1); }); show(alpha, 0.7, ...marks); mono.forEach((m, i) => { setAlpha(alpha, m, 1); moveTo(pts, base, m, [MAR[0] + 0.9, MAR[1] + 0.5 - 0.5 * i, 0.3], monoTo(i), 1); }); setAlpha(alpha, nk, 1); moveTo(pts, base, nk, [MAR[0] + 0.9, MAR[1] - 0.9, 0.3], [TUM[0] - 0.7, TUM[1] - 0.75, 0.3], 1); setAlpha(alpha, tumour, 0.8); show(alpha, 0.3, ...burst); show(alpha, 0.7, r0, r1);
+    setAlpha(alpha, bladder, clamp(u * 2) * 0.8); setAlpha(alpha, bcg, clamp(u * 2)); grow(alpha, flip, clamp(u * 2 - 1));
+    return { caption: "4 · The clear precedent is intravesical BCG in bladder cancer; beyond it the cancer data are early, there is no standard assay to confirm training in patients, and in the wrong context the same reprogramming is immunosuppressive" };
+  });
+}
+
+// ---------------------------------------------------------------- 29. tumour mutational burden testing
+export function tmbTesting(): Mesh {
+  const sc = scene();
+  const dnaM = put(sc, "dna", helix(0.18, 3.6, 6, 48, "soft"), { at: [-0.4, -0.2, 0], rotZ: Math.PI / 2 });
+  const muts: Part[] = []; for (let i = 0; i < 9; i++) muts.push(put(sc, `m${i}`, octahedron(0.07, "hot", true), { at: [-2.0 + 0.4 * i, -0.2 + 0.18 * Math.sin(i * 2.4), 0.18 * Math.cos(i * 2.4)] }));
+  const bracket = put(sc, "bracket", polyline([[-2.2, -0.75, 0], [-2.2, -0.9, 0], [1.4, -0.9, 0], [1.4, -0.75, 0]], "soft"));
+  const gaugeAx = put(sc, "gaugeAx", axes([2.0, -1.0, 0], 0.6, 2.2));
+  const level = put(sc, "level", bar(2.3, 1.6, 0.28, "hot"), { at: [0, -1.0, 0] });
+  const thresh = put(sc, "thresh", line([1.85, 0.1, 0.05], [2.75, 0.1, 0.05], "accent"));
+  const pembro = put(sc, "pembro", polyline([[2.3, 0.85, 0.2], [2.3, 1.45, 0.2]], "accent"));
+  const pembroHead = put(sc, "pembroHead", polyline([[2.1, 1.25, 0.2], [2.3, 1.45, 0.2], [2.5, 1.25, 0.2]], "accent"));
+  const panelA = put(sc, "panelA", bar(-1.6, 1.15, 0.28, "hot"), { at: [0, -2.0, 0] });
+  const panelB = put(sc, "panelB", bar(-1.2, 0.85, 0.28, "soft"), { at: [0, -2.0, 0] });
+  const cut = put(sc, "cut", line([-1.9, -1.0, 0.05], [-0.9, -1.0, 0.05], "accent"));
+  const tubeP = put(sc, "tube", vial(0.16, 0.6, "accent"), { at: [0.3, -1.5, 0] });
+  const blood = put(sc, "blood", dots([[0.3, -1.6, 0.17], [0.25, -1.4, 0.17], [0.36, -1.5, 0.18]], "hot"));
+  const flt: Part[] = []; for (let i = 0; i < 3; i++) flt.push(put(sc, `flt${i}`, cross([-2.0 + 0.4 * i * 3, -0.2 + 0.18 * Math.sin(i * 3 * 2.4), 0.3], 0.12, "accent")));
+  sc.mesh.labels = [L([-0.4, 0.75, 0], "Somatic non-synonymous mutations across the panel"), L([2.3, 1.85, 0.2], "Pembrolizumab: TMB of at least 10 per megabase"), L([-1.4, -2.4, 0], "Panels can disagree around the cut-off"), L([0.3, -2.1, 0], "Blood TMB when tissue is inadequate")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, bracket, gaugeAx, level, thresh, pembro, pembroHead, panelA, panelB, cut, tubeP, blood, ...flt);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, dnaM, 0.8); muts.forEach((m, i) => setAlpha(alpha, m, clamp(u * 9 - i) * (0.6 + 0.4 * pulse(t + i * 0.1, 5)))); grow(alpha, bracket, clamp(u * 1.5 - 0.3)); return { caption: "1 · A comprehensive genomic profiling panel sequences the tumour's coding territory and counts somatic non-synonymous mutations, after filtering germline and known driver variants" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, dnaM, 0.8); show(alpha, 1, ...muts); setAlpha(alpha, bracket, 1); flt.forEach((f, i) => setAlpha(alpha, f, clamp(u * 3 - i) * 0.8)); setAlpha(alpha, gaugeAx, clamp(u * 2)); setAlpha(alpha, level, clamp(u * 2 - 0.5)); movePart(pts, base, level, [0, -0.8 * (1 - clamp(u * 2 - 0.5)), 0], 1); return { caption: "2 · The count is normalised to the megabases actually sequenced and reported as mutations per megabase, free with every large panel" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, dnaM, 0.8); show(alpha, 1, ...muts, bracket, gaugeAx, level); show(alpha, 0.8, ...flt); setAlpha(alpha, thresh, clamp(u * 2) * (0.6 + 0.4 * pulse(t, 5))); setAlpha(alpha, pembro, clamp(u * 2 - 0.7)); setAlpha(alpha, pembroHead, clamp(u * 2 - 0.7)); movePart(pts, base, pembro, [0, -0.5 * clamp(u * 2 - 1), 0], 1); movePart(pts, base, pembroHead, [0, -0.5 * clamp(u * 2 - 1), 0], 1); return { caption: "3 · In June 2020 the FDA gave pembrolizumab a tissue-agnostic accelerated approval for solid tumours with TMB of at least 10 mutations per megabase on FoundationOne CDx (KEYNOTE-158)" }; }
+    const u = Q(t, 3); setAlpha(alpha, dnaM, 0.8); show(alpha, 1, ...muts, bracket, gaugeAx, level, thresh, pembro, pembroHead); show(alpha, 0.8, ...flt); movePart(pts, base, pembro, [0, -0.5, 0], 1); movePart(pts, base, pembroHead, [0, -0.5, 0], 1);
+    setAlpha(alpha, panelA, clamp(u * 2)); setAlpha(alpha, panelB, clamp(u * 2 - 0.3)); setAlpha(alpha, cut, clamp(u * 2 - 0.6) * (0.6 + 0.4 * pulse(t, 4))); setAlpha(alpha, tubeP, clamp(u * 2 - 1)); setAlpha(alpha, blood, clamp(u * 2 - 1));
+    return { caption: "4 · Panel size, synonymous variants and germline filtering all shift the number, and the Friends of Cancer Research harmonisation project showed panels disagreeing at the cut-off; blood TMB is an emerging fallback, and TMB is weakest in tobacco-driven cancers" };
+  });
+}
+
+// ---------------------------------------------------------------- 30. yoga during and after cancer treatment
+export function yogaCancer(): Mesh {
+  const sc = scene();
+  const mat = put(sc, "mat", quad(3.2, 1.0, "soft"), { at: [-0.6, -1.1, 0], rotX: Math.PI / 2 });
+  const P: Vec3 = [-0.6, -0.3, 0];
+  const person = put(sc, "person", figure("accent"), { at: P });
+  const armsUp = put(sc, "armsUp", polyline([[P[0] - 0.3, P[1] + 0.56, 0], [P[0] - 0.4, P[1] + 1.0, 0.05], [P[0] - 0.15, P[1] + 1.35, 0.1]], "accent"));
+  const armsUp2 = put(sc, "armsUp2", polyline([[P[0] + 0.3, P[1] + 0.56, 0], [P[0] + 0.4, P[1] + 1.0, 0.05], [P[0] + 0.15, P[1] + 1.35, 0.1]], "accent"));
+  const breath: Part[] = []; for (let i = 0; i < 3; i++) breath.push(put(sc, `br${i}`, ring(0.25 + 0.12 * i, 10, "accent", "z"), { at: [P[0], P[1] + 0.3, 0.2] }));
+  const group: Part[] = []; for (let i = 0; i < 2; i++) group.push(put(sc, `g${i}`, figure("soft"), { at: [P[0] - 1.3 + 2.6 * i, P[1] - 0.05, -0.5], scale: 0.85 }));
+  const inst = put(sc, "inst", figure("soft"), { at: [P[0], P[1] + 0.1, -1.6], scale: 0.7 });
+  const ax = put(sc, "ax", axes([1.3, -1.9, 0], 1.6, 1.3));
+  const bars: Part[] = []; const HB = [1.0, 0.55, 0.9, 0.5, 0.85, 0.45]; for (let i = 0; i < 6; i++) bars.push(put(sc, `b${i}`, bar(1.5 + 0.25 * i, HB[i], 0.18, i % 2 ? "accent" : "hot"), { at: [0, -1.9, 0] }));
+  const weeks = put(sc, "weeks", ticks(1.3, 2.9, 0.9, 6, "soft"));
+  const dumb = put(sc, "dumb", dumbbell(0.8), { at: [2.2, 1.7, 0] });
+  const runner = put(sc, "runner", polyline([[1.5, 1.45, 0], [1.75, 1.75, 0], [2.0, 1.45, 0], [2.25, 1.75, 0]], "soft"));
+  sc.mesh.labels = [L([P[0], P[1] + 1.75, 0], "Postures, breathing and relaxation, 6 to 12 weeks"), L([P[0], P[1] - 1.55, 0], "Group class with a trained instructor"), L([2.1, -2.25, 0], "Fatigue, anxiety, low mood and sleep: Cochrane, 24 trials"), L([2.0, 2.2, 0], "Aerobic and resistance exercise still needed")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, armsUp, armsUp2, ...breath, ...group, inst, ax, ...bars, weeks, dumb, runner);
+    setAlpha(alpha, mat, 0.6);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, person, 1); alpha[person.s0 + 3] = 1 - u; alpha[person.s0 + 4] = 1 - u; setAlpha(alpha, armsUp, u); setAlpha(alpha, armsUp2, u); breath.forEach((b, i) => { const v = (t * 3 + i / 3) % 1; setAlpha(alpha, b, clamp(u * 2 - 0.5) * (1 - v) * 0.8); movePart(pts, base, b, [0, 0, 0], 0.5 + 1.0 * v); }); return { caption: "1 · Gentle hatha or Iyengar-derived yoga: slow postures, regulated breathing and relaxation over a programme of six to twelve weeks" }; }
+    if (s === 1) { const u = Q(t, 1); alpha[person.s0 + 3] = 0; alpha[person.s0 + 4] = 0; show(alpha, 1, armsUp, armsUp2); breath.forEach((b, i) => { const v = (t * 3 + i / 3) % 1; setAlpha(alpha, b, (1 - v) * 0.8); movePart(pts, base, b, [0, 0, 0], 0.5 + 1.0 * v); }); group.forEach((g, i) => { setAlpha(alpha, g, clamp(u * 2 - 0.5 * i)); movePart(pts, base, g, [0, 0.3 * (1 - clamp(u * 2 - 0.5 * i)), 0], 1); }); setAlpha(alpha, inst, clamp(u * 2 - 1)); return { caption: "2 · Slow movement and breath lower sympathetic arousal and inflammatory signalling; the group setting adds social support, and oncology-trained instructors adapt for limited mobility" }; }
+    if (s === 2) { const u = Q(t, 2); alpha[person.s0 + 3] = 0; alpha[person.s0 + 4] = 0; show(alpha, 1, armsUp, armsUp2, ...group, inst); show(alpha, 0.3, ...breath); setAlpha(alpha, ax, 1); bars.forEach((b, i) => setAlpha(alpha, b, clamp(u * 3 - 0.4 * i))); grow(alpha, weeks, clamp(u * 2)); return { caption: "3 · A Cochrane review of 24 randomised trials in breast cancer found moderate-quality evidence of better quality of life and less fatigue and sleep disturbance than no intervention, and less depression and anxiety than education controls" }; }
+    const u = Q(t, 3); alpha[person.s0 + 3] = 0; alpha[person.s0 + 4] = 0; show(alpha, 1, armsUp, armsUp2, ...group, inst, ax, ...bars, weeks); show(alpha, 0.3, ...breath);
+    setAlpha(alpha, dumb, clamp(u * 2)); movePart(pts, base, dumb, [0, 0.2 * Math.abs(Math.sin(t * TAU * 3)) * clamp(u * 2), 0], 1); grow(alpha, runner, clamp(u * 2 - 0.5));
+    return { caption: "4 · SIO-ASCO recommends yoga for fatigue during treatment (2024) and for anxiety and depressive symptoms (2023); evidence is concentrated in breast cancer, and it does not replace the aerobic and resistance exercise that carries the survival-related evidence" };
+  });
+}
+
 export const WAVE7: Record<string, () => Mesh> = {
   "coffee-intake-cancer": coffeeIntake,
   "lymphoedema-decongestive-therapy": lymphoedemaDecongestive,
@@ -792,4 +1132,14 @@ export const WAVE7: Record<string, () => Mesh> = {
   "ihc-autostainers-histology-automation": ihcAutostainers,
   "honey-radiation-mucositis": honeyRadiationMucositis,
   "hydrazine-sulfate": hydrazineSulfate,
+  "nuclear-medicine-hardware": nuclearMedicineHardware,
+  "pharmacy-automation": pharmacyAutomation,
+  "partial-nephrectomy-active-surveillance": partialNephrectomy,
+  "preanalytics-sample-stabilisation": preanalyticsStabilisation,
+  "sonodynamic-therapy": sonodynamicTherapy,
+  "spatial-biology-instruments": spatialBiologyInstruments,
+  "sybil": sybilRisk,
+  "trained-innate-immunity": trainedInnateImmunity,
+  "tmb-testing": tmbTesting,
+  "yoga-cancer": yogaCancer,
 };

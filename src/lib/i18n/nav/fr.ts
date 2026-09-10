@@ -139,4 +139,6 @@ export const navFr: NavDict = {
   "/live/hair/": ["Perte de cheveux : prévention et repousse", "Casque réfrigérant et protocoles adaptés, minoxidil pour l'affinement durable, sourcils et cils, perruques via le NHS et sur ordonnance aux États-Unis, quels médicaments en sont responsables et quand les cheveux repoussent."],
   "/completeness/": ["Complétude", "Quelle part de ce qui existe se trouve dans OnCo : chaque type comparé à un décompte mondial sourcé, avec les éléments manquants nommés."],
   "/open-tools/": ["Outils ouverts", "Visionneuses, planificateurs, pipelines et matériel open source à utiliser ou sur lesquels bâtir, par front, issus de l'Open Medical Registry."],
+  "/startups/": ["Startups", "Les entreprises Y Combinator et financées par le capital-risque qui s'attaquent au cancer, par stade, modalité, cancer, promotion, investisseur et pays."],
+  "/investors/": ["Investisseurs", "Les fonds de capital-risque, les branches de capital-risque d'entreprise et les fondations de patients qui soutiennent les sociétés d'oncologie, chacun avec son portefeuille."],
 };

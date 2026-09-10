@@ -139,4 +139,6 @@ export const navEs: NavDict = {
   "/live/hair/": ["Caída del cabello: prevención y recuperación", "Enfriamiento del cuero cabelludo y los regímenes a los que conviene, minoxidil para el adelgazamiento persistente, cejas y pestañas, pelucas en el NHS y con receta en EE. UU., qué fármacos la causan y cuándo vuelve el pelo."],
   "/completeness/": ["Completitud", "Cuánto de lo que existe está en OnCo: cada tipo frente a un recuento del mundo con fuente, con los elementos que faltan nombrados."],
   "/open-tools/": ["Herramientas abiertas", "Visores, planificadores, flujos y hardware de código abierto que puedes usar o sobre los que construir, por frente, del Open Medical Registry."],
+  "/startups/": ["Startups", "Empresas de Y Combinator y respaldadas por capital riesgo que atacan el cáncer, por fase, modalidad, cáncer, promoción, inversor y país."],
+  "/investors/": ["Inversores", "Los fondos de capital riesgo, brazos corporativos y fundaciones de pacientes que respaldan empresas oncológicas, cada uno con su cartera."],
 };

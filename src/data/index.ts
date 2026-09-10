@@ -50,6 +50,9 @@ import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
 import { targetsWave1 } from "./targets-wave1";
 import { companiesWave1 } from "./companies-wave1";
+import { companiesYc } from "./companies-yc";
+import { companiesStartups } from "./companies-startups";
+import { investors } from "./investors";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -103,4 +106,7 @@ export const ALL_INPUTS: EntityInput[] = [
   ...approvedWave1,
   ...targetsWave1,
   ...companiesWave1,
+  ...companiesYc,
+  ...companiesStartups,
+  ...investors,
 ];

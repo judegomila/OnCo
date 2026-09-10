@@ -111,6 +111,8 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/people/", label: "People", blurb: "The clinicians and scientists doing the work: specialisms, bios, papers." },
       { href: "/heroes/", label: "Heroes and heroines", blurb: "The patients, families, advocates and pioneers whose lives and cases changed cancer." },
       { href: "/companies/", label: "Companies", blurb: "Pharma, biotech, diagnostics, devices, AI." },
+      { href: "/startups/", label: "Startups", blurb: "Y Combinator and venture-backed companies attacking cancer, by stage, modality, cancer, batch, investor and country." },
+      { href: "/investors/", label: "Investors", blurb: "The venture funds, corporate venture arms and disease foundations that back oncology companies, each with its portfolio." },
       { href: "/scorecards/", label: "Company scorecards", blurb: "Every company ranked by one disclosed formula, with financial snapshots from annual reports." },
       { href: "/sponsors/", label: "Trial sponsors", blurb: "Who runs the most phase 2 and 3 trials, by cancer, from the registry and the corpus." },
       { href: "/manufacturing/", label: "Manufacturing map", blurb: "Where ADCs are conjugated, cell therapies made and isotopes produced." },

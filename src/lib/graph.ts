@@ -1,7 +1,7 @@
 import { EntitySchema, KINDS, REL_FIELDS, type Entity, type Kind, type RelField } from "./schema";
 import { ALL_INPUTS } from "@/data";
 
-export type Backlink = { from: Entity; via: RelField | "pairing" | "roadmap" | "history" | "pipeline" | "standardOfCare" | "pathway-node" };
+export type Backlink = { from: Entity; via: RelField | "pairing" | "roadmap" | "history" | "pipeline" | "standardOfCare" | "pathway-node" | "investors" | "acquiredBy" };
 
 class Graph {
   readonly entities: Entity[];
@@ -132,6 +132,11 @@ function outgoing(e: Entity): Array<[string, Backlink["via"]]> {
     for (const s of e.standardOfCare) for (const r of s.refs) out.push([r, "standardOfCare"]);
   }
   if (e.kind === "pathway") for (const n of e.nodes) if (n.targetId) out.push([n.targetId, "pathway-node"]);
+  if (e.kind === "company") {
+    // Startup graph: a company names its investors and its acquirer; investors get their portfolio by backlink.
+    for (const inv of e.investors) out.push([inv, "investors"]);
+    if (e.acquiredBy) out.push([e.acquiredBy, "acquiredBy"]);
+  }
   return out;
 }
 

@@ -7,6 +7,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 ### Added
 - `Molecule3D`: ball-and-stick models of small molecules (CPK colours, shaded spheres, depth-sorted bond cylinders with double and triple bonds, drag to rotate, element legend) and smooth backbone ribbons for proteins (Catmull-Rom through the C-alpha trace, per-chain colours, wider on helices and strands, bound drug in ball-and-stick), with a wireframe toggle. Used on product pages, in every molecule thumbnail, and in a new "Solved structures with a drug bound" panel on target pages.
 - PDB snapshots now keep secondary structure from the HELIX and SHEET records (`ss`); `npm run fetch:structures -- --refresh-pdb 5A9U,5DK3` refreshes chosen entries without touching the rest.
+- Startups and investors: company records gain optional `stage`, `ycBatch`, `investors`, `funding` (sourced rounds, amounts only where the source states them) and `acquiredBy`; `companyType: "investor"` for venture funds, corporate venture arms, an accelerator and disease foundations, whose portfolios are derived from backlinks.
+- 62 Y Combinator companies attacking cancer, drawn from the open YC directory dataset and checked one by one (`src/data/companies-yc.ts`, snapshot with every hit and its decision in `src/data/universe-lists/yc-oncology.json`); 187 further venture-backed oncology companies across therapeutics, diagnostics, AI, digital care, radiotherapy hardware, surgery and tools (`src/data/companies-startups.ts`); 69 investors (`src/data/investors.ts`).
+- `/startups/` (stage strip, YC batch chips, filters by stage, modality, cancer, batch, investor and country, most active investors, recently funded) and `/investors/`; Funding panel on company pages, Portfolio panel on investor pages; stage and investor facets on `/companies/`; Startups and Investors in the Institutions & people group.
 
 ## [0.4.0] - 2026-09-08
 

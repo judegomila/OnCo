@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY-NC 4.0; attribute "OnCo (onco.cc)".
 
-5,019 records in 18 kinds: 64 cancers, 19 fronts, 403 technologies, 92 targets, 377 drugs, 295 companies, 421 institutions, 86 pathways, 600 terms, 401 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 686 people, 45 bottlenecks, 148 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
+5,237 records in 18 kinds: 100 cancers, 19 fronts, 411 technologies, 92 targets, 417 drugs, 308 companies, 517 institutions, 86 pathways, 605 terms, 420 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 687 people, 45 bottlenecks, 148 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
 
 ## Machine-readable corpus
 
@@ -164,6 +164,7 @@
 - [About & methodology](https://onco.cc/about/): Rules for facts, ranking formulas, licence.
 - [Roadmap](https://onco.cc/roadmap/): Corpus health gauges, every idea by status, and how OnCo expands and stays current.
 - [Gaps to fill](https://onco.cc/gaps/): Objects and fields that need work.
+- [Completeness](https://onco.cc/completeness/): How much of what exists is in OnCo: each kind against a sourced count of the world, with the missing items named.
 - [Review queue](https://onco.cc/review/): Which pages most need a named reviewer, coverage by kind and track, translation coverage.
 - [Reviewer roster](https://onco.cc/reviewers/): Who has signed off pages, on which track, with declared conflicts of interest.
 - [Contributors](https://onco.cc/contributors/): Everyone who wrote or reviewed records, from the repository history.
@@ -176,6 +177,7 @@
 - [Build on OnCo](https://onco.cc/build/): Recipes, OpenAPI spec, TypeScript types, embeddable cards and the MCP server.
 - [Open API](https://onco.cc/api/): The corpus as JSON.
 - [Open data](https://onco.cc/data-sources/): Every open database OnCo pulls from, with licences and cadence, and the ones we could add next.
+- [Open tools](https://onco.cc/open-tools/): Open-source viewers, planners, pipelines and hardware you can use or build on, by front, from the Open Medical Registry.
 
 ## Optional
 

@@ -1,0 +1,65 @@
+src/app/roadmap/page.tsx
+  s_0beac9cb5d78fd::t_b9bb76969fefd1 190
+  s_0beac9cb5d78fd::t_600ae1c99856de 6-7
+  s_0beac9cb5d78fd::t_a9e2b78ef54148 170-171
+  s_0beac9cb5d78fd::t_752b158d28ce75 204-213
+src/lib/completeness.test.ts
+  s_0beac9cb5d78fd::t_9c51561fe4b422 105
+  s_0beac9cb5d78fd::t_aa1ef74d7d3351 1-104,106-215
+package.json
+  s_0beac9cb5d78fd::t_446c8ead83ba7e 75-76
+src/data/universe.ts
+  s_0beac9cb5d78fd::t_c3164b02e90959 1-204
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_59e09971e8e36d 145
+src/lib/completeness.ts
+  s_0beac9cb5d78fd::t_4d83bb6618e683 75-86,91,93-94,97-104
+  s_0beac9cb5d78fd::t_f92813eb39ea96 224
+  s_0beac9cb5d78fd::t_554f2d4971b7aa 170
+  s_0beac9cb5d78fd::t_4af62486ac468d 176,180
+  s_0beac9cb5d78fd::t_5a9095fab40ee5 272
+  s_0beac9cb5d78fd::t_6554b7aad488eb 1-73,87-90,92,95-96,105-126,128,135-141,144-145,155,165-169,171-175,177-179,181-223,225-231,236-259,261-271,273-276,278-420
+  s_0beac9cb5d78fd::t_4e73f29187406e 142-143,146-154,156-164
+  s_0beac9cb5d78fd::t_c32842d85e9e16 127,129-134
+  s_0beac9cb5d78fd::t_378935812c5e00 232-235
+  s_0beac9cb5d78fd::t_b931a4981e5d09 74
+  s_0beac9cb5d78fd::t_857c38c2c555a6 260
+  s_0beac9cb5d78fd::t_c9a32101ac94f6 277
+src/components/CompletenessTable.tsx
+  s_0beac9cb5d78fd::t_3711c20f04c430 1-83
+src/data/universe-lists/fda-oce-sponsors.json
+  s_0beac9cb5d78fd::t_58aa4e74daa46b 1-484
+scripts/fetch-universe.ts
+  s_0beac9cb5d78fd::t_a38729f82c889a 430-432
+  s_0beac9cb5d78fd::t_fef2086c714098 1-415,425,428,440-543
+  s_0beac9cb5d78fd::t_78f56a79ae0448 416-424,426-427,429,433-439
+.github/workflows/refresh-universe.yml
+  s_0beac9cb5d78fd::t_78375027d12fb5 1-36
+src/app/about/page.tsx
+  s_0beac9cb5d78fd::t_002a8ce5ddbcb6 25-29
+  s_0beac9cb5d78fd::t_06c323e9102f4d 7-8
+  s_0beac9cb5d78fd::t_3d883f9e04ae30 14-15
+src/data/universe-lists/hallmarks-2022.json
+  s_0beac9cb5d78fd::t_9b2c1e822a5f4c 1-25
+src/app/completeness/page.tsx
+  s_0beac9cb5d78fd::t_5a16fc334e531a 1-117
+src/lib/health.ts
+  s_0beac9cb5d78fd::t_3fd70d8bf4e766 16
+  s_0beac9cb5d78fd::t_d8986de3bd143a 273-283
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "898a8a0e9d12d2281911bb8fb9cdba3315962422",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -58,7 +58,7 @@ export function AskOnco({ examples }: { examples: AskExample[] }) {
         lexical: (text, k) => ms.search(text).slice(0, k).map((h) => String(h.id)),
         concept: (text, k) => (semantic ? semanticSearch(semantic, text, k).map((h) => h.id) : []),
         load: loadRecord,
-        region: regionRef.current,
+        region: regionRef.current ?? undefined,
         pin,
         onStep: (step) => { if (latest.current === key) setState({ status: "working", step }); },
       });

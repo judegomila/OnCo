@@ -8,7 +8,9 @@
  * `year` is the year of the first approval in that region for any oncology indication. EU EPAR pages
  * checked directly are marked `verified` and carry `verifiedOn` = EPAR_CHECKED, the date of the last check;
  * scripts/fetch-ema.ts re-checks every EU row against the EMA register weekly and moves the stamp forward when
- * all rows agree (per-row results in public/regional/verified.json). Other rows carry regulator search links.
+ * all rows agree (per-row results in public/regional/verified.json). Japanese rows with a day-month note were read from
+ * the PMDA "List of Approved Drugs" (REGION_META.JP.url, April 2004 onwards); UK rows sourced to a GOV.UK press notice
+ * carry the notice URL. Other rows carry regulator search links.
  * "not-filed" is used only where a sponsor has publicly said so or where a product is regionally
  * exclusive by design (e.g. China-only PD-1 antibodies without ex-China filings).
  */
@@ -27,12 +29,14 @@ export type RegionalStatus = "approved" | "conditional" | "under-review" | "not-
 export type RegionalEntry = { status: RegionalStatus; year?: number; indication?: string; source?: string; note?: string; verified?: boolean; /** ISO date of the last check against the regulator (EU rows: the EMA register). */ verifiedOn?: string };
 
 /** Date the EU rows marked V() were last checked against the EMA register. Updated by scripts/fetch-ema.ts. */
-export const EPAR_CHECKED = "2026-09-08";
+export const EPAR_CHECKED = "2026-09-10";
 export type RegionalRow = Partial<Record<Region, RegionalEntry>>;
 
 const epar = (slug: string) => `https://www.ema.europa.eu/en/medicines/human/EPAR/${slug}`;
 const mhra = (brand: string) => `https://products.mhra.gov.uk/?search=${encodeURIComponent(brand)}`;
 const tga = (brand: string) => `https://www.tga.gov.au/resources/artg?search_api_views_fulltext=${encodeURIComponent(brand)}`;
+/** MHRA approval notice on GOV.UK (used where the UK decision is documented by a press notice rather than only the SmPC search). */
+const govuk = (slug: string) => `https://www.gov.uk/government/news/${slug}`;
 const PMDA = REGION_META.JP.url;
 const NMPA = REGION_META.CN.url;
 
@@ -45,6 +49,9 @@ const UR = (note?: string, source?: string): RegionalEntry => ({ status: "under-
 const R = (year?: number, note?: string): RegionalEntry => ({ status: "rejected", year, note });
 /** EU entry for a legacy product authorised nationally by member states (no centralised EPAR exists). Year only where the first national approval is known. */
 const EU_NATIONAL = (year?: number, note = "National authorisations; no centralised EPAR"): RegionalEntry => A(year, undefined, undefined, note);
+/** Row for a combination regimen: each component holds its own authorisations and there is no single marketing authorisation for the regimen, so the row carries the note rather than a year. */
+const REGIMEN_NOTE = "Combination regimen of individually authorised medicines; no single marketing authorisation";
+const regimen = (usYear?: number): RegionalRow => ({ US: A(usYear, undefined, undefined, REGIMEN_NOTE), EU: A(undefined, undefined, undefined, REGIMEN_NOTE), UK: A(undefined, undefined, undefined, REGIMEN_NOTE) });
 
 /** Six-region row for a long-established global product (approved everywhere, first years by region). */
 function global(brand: string, slug: string, us: number, eu: number, uk: number, jp: number, cn: number, au: number, note?: string): RegionalRow {
@@ -55,14 +62,14 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   // ================= ADCs =================
   "trastuzumab-deruxtecan": global("Enhertu", "enhertu", 2019, 2021, 2021, 2020, 2023, 2022, "HER2+ then HER2-low; EU/UK HER2-low 2023; China HER2+ breast Feb 2023"),
   "sacituzumab-govitecan": { US: A(2020), EU: A(2021, epar("trodelvy"), "mTNBC ≥2 lines; HR+ 2023"), UK: A(2021, mhra("Trodelvy")), JP: A(2024, PMDA, "TNBC (Daiichi Sankyo licence)"), CN: A(2022, NMPA, "mTNBC (Everest Medicines)"), AU: A(2022, tga("Trodelvy")) },
-  "datopotamab-deruxtecan": { US: A(2025), EU: V(A(2025, epar("datroway"), "HR+/HER2- mBC after endocrine + chemo; 4 Apr 2025")), UK: A(2025, mhra("Datroway")), JP: A(2025, PMDA, "HR+/HER2- breast (first global approval, Mar 2025)"), CN: UR("Filed for HR+/HER2- breast; not yet approved as of Sept 2026"), AU: UR("Under TGA evaluation") },
+  "datopotamab-deruxtecan": { US: A(2025), EU: V(A(2025, epar("datroway"), "HR+/HER2- mBC after endocrine + chemo; 4 Apr 2025")), UK: A(2025, mhra("Datroway")), JP: A(2024, PMDA, "Datroway, HR+/HER2- breast cancer; 27 Dec 2024 (first approval globally)"), CN: UR("Filed for HR+/HER2- breast; not yet approved as of Sept 2026"), AU: UR("Under TGA evaluation") },
   "sacituzumab-tirumotecan": { US: UR("BLA planned after TroFuse phase 3; Commissioner's National Priority Voucher July 2026"), EU: NF("No MAA announced as of Sept 2026"), CN: A(2024, NMPA, "Pretreated TNBC (Nov 2024); EGFR-mutant NSCLC after TKI (Mar 2025)") },
   "trastuzumab-emtansine": global("Kadcyla", "kadcyla", 2013, 2013, 2013, 2013, 2020, 2013),
   "enfortumab-vedotin": { US: A(2019), EU: A(2022, epar("padcev"), "mUC after platinum + PD-1; 1L with pembrolizumab 2024"), UK: A(2022, mhra("Padcev")), JP: A(2021, PMDA), CN: UR("Filed by Astellas; bridging study ongoing"), AU: A(2023, tga("Padcev")) },
   "brentuximab-vedotin": global("Adcetris", "adcetris", 2011, 2012, 2012, 2014, 2020, 2013),
   "polatuzumab-vedotin": global("Polivy", "polivy", 2019, 2020, 2020, 2021, 2023, 2020),
-  "mirvetuximab-soravtansine": { US: A(2022), EU: V(A(2024, epar("elahere"), "FRα+ platinum-resistant ovarian; 14 Nov 2024")), UK: A(2025, mhra("Elahere")), JP: UR("PMDA filing 2025"), CN: NF("Hansoh licence; NDA status not public"), AU: UR("Under TGA evaluation") },
-  "tisotumab-vedotin": { US: A(2021), EU: V(A(2025, epar("tivdak"), "Recurrent/metastatic cervical after systemic therapy; 28 Mar 2025")), UK: A(2025, mhra("Tivdak")), JP: A(2024, PMDA, "Genmab Japan; cervical cancer") },
+  "mirvetuximab-soravtansine": { US: A(2022), EU: V(A(2024, epar("elahere"), "FRα+ platinum-resistant ovarian; 14 Nov 2024")), UK: A(2025, govuk("mirvetuximab-soravtansine-approved-to-treat-adult-patients-who-have-ovarian-fallopian-tube-or-primary-peritoneal-cancer"), "28 Jul 2025"), JP: UR("PMDA filing 2025"), CN: NF("Hansoh licence; NDA status not public"), AU: UR("Under TGA evaluation") },
+  "tisotumab-vedotin": { US: A(2021), EU: V(A(2025, epar("tivdak"), "Recurrent/metastatic cervical after systemic therapy; 28 Mar 2025")), UK: A(2025, govuk("mhra-approves-tisotumab-vedotin-for-the-treatment-of-cervical-cancer"), "2 Dec 2025"), JP: A(2025, PMDA, "Tivdak, advanced or recurrent cervical cancer after chemotherapy; 27 Mar 2025 (Genmab Japan)") },
   "telisotuzumab-vedotin": { US: A(2025, undefined, "c-MET-high NSCLC (accelerated)"), EU: UR("MAA submitted 2025") },
   zynlonta: { US: A(2021), EU: A(2022, epar("zynlonta"), "R/R DLBCL ≥2 lines (conditional)"), UK: A(2023, mhra("Zynlonta")), CN: A(2025, NMPA, "Overland ADCT licence") },
   "gemtuzumab-ozogamicin": { US: A(2000, undefined, "Withdrawn 2010, re-approved 2017"), EU: A(2018, epar("mylotarg")), UK: A(2018, mhra("Mylotarg")), JP: A(2005, PMDA), AU: A(2020, tga("Mylotarg")) },
@@ -89,7 +96,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   atezolizumab: global("Tecentriq", "tecentriq", 2016, 2017, 2017, 2018, 2020, 2017),
   durvalumab: global("Imfinzi", "imfinzi", 2017, 2018, 2018, 2018, 2019, 2018),
   avelumab: global("Bavencio", "bavencio", 2017, 2017, 2017, 2017, 2020, 2018),
-  cemiplimab: { US: A(2018), EU: A(2019, epar("libtayo")), UK: A(2019, mhra("Libtayo")), JP: A(2024, PMDA), AU: A(2020, tga("Libtayo")) },
+  cemiplimab: { US: A(2018), EU: A(2019, epar("libtayo")), UK: A(2019, mhra("Libtayo")), JP: A(2022, PMDA, "Libtayo; 23 Dec 2022"), AU: A(2020, tga("Libtayo")) },
   dostarlimab: { US: A(2021), EU: A(2021, epar("jemperli")), UK: A(2021, mhra("Jemperli")), AU: A(2023, tga("Jemperli")) },
   tremelimumab: { US: A(2022), EU: A(2023, epar("imjudo")), UK: A(2023, mhra("Imjudo")), JP: A(2022, PMDA), AU: A(2023, tga("Imjudo")) },
   "relatlimab-nivolumab": { US: A(2022), EU: A(2022, epar("opdualag"), "Melanoma, PD-L1 <1% restriction"), UK: A(2023, mhra("Opdualag")), AU: A(2023, tga("Opdualag")) },
@@ -103,7 +110,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   fianlimab: { US: UR("Phase 3 in melanoma missed primary endpoint 2026") },
   cosibelimab: { US: A(2024, undefined, "Unloxcyt, cutaneous SCC (Dec 2024)") },
   penpulimab: { US: A(2025, undefined, "Non-keratinising NPC (Apr 2025)"), CN: A(2021, NMPA, "Akeso; cHL (Aug 2021), later NPC and NSCLC") },
-  retifanlimab: { US: A(2023), EU: A(2024, epar("zynyz"), "Merkel cell carcinoma") },
+  retifanlimab: { US: A(2023), EU: A(2024, epar("zynyz"), "Merkel cell carcinoma"), UK: A(2026, govuk("mhra-approvesretifanlimabzynyz-for-the-treatment-of-advanced-merkel-cell-skin-cancer"), "Advanced Merkel cell carcinoma; 6 Jul 2026"), JP: A(2025, PMDA, "Zynyz, unresectable or recurrent squamous cell carcinoma of the anal canal; 22 Dec 2025 (Incyte Japan)") },
 
   // ================= Bispecifics / T-cell engagers =================
   blinatumomab: global("Blincyto", "blincyto", 2014, 2015, 2015, 2018, 2020, 2016),
@@ -115,10 +122,10 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   epcoritamab: { US: A(2023), EU: C(2023, epar("tepkinly"), "EU brand Tepkinly"), UK: A(2023, mhra("Tepkinly")), JP: A(2023, PMDA, "Epkinly; DLBCL"), AU: A(2024, tga("Tepkinly")) },
   mosunetuzumab: { US: A(2022), EU: C(2022, epar("lunsumio")), UK: A(2022, mhra("Lunsumio")), JP: A(2024, PMDA), AU: A(2023, tga("Lunsumio")) },
   odronextamab: { US: A(2025, undefined, "CRL Mar 2024; approved Jul 2025"), EU: C(2024, epar("ordspono"), "EU brand Ordspono; FL and DLBCL ≥2 lines"), UK: A(2025, mhra("Ordspono")) },
-  tarlatamab: { US: A(2024, undefined, "Accelerated May 2024; full approval Dec 2025"), EU: UR("MAA under CHMP review; no EPAR as of Sept 2026"), JP: A(2025, PMDA, "ES-SCLC after platinum"), AU: UR("TGA evaluation") },
+  tarlatamab: { US: A(2024, undefined, "Accelerated May 2024; full approval Dec 2025"), EU: V(A(2026, epar("imdylltra"), "ES-SCLC after platinum-based chemotherapy; 29 May 2026")), UK: A(2024, govuk("tarlatamab-approved-to-treat-adult-patients-with-small-cell-lung-cancer"), "ES-SCLC after platinum-based chemotherapy; 31 Dec 2024"), JP: A(2024, PMDA, "Imdelltra, small cell lung cancer progressed after chemotherapy; 27 Dec 2024"), AU: UR("TGA evaluation") },
   tebentafusp: { US: A(2022), EU: A(2022, epar("kimmtrak")), UK: A(2022, mhra("Kimmtrak")), AU: A(2023, tga("Kimmtrak")), JP: UR("PMDA filing 2025") },
   amivantamab: { US: A(2021), EU: A(2021, epar("rybrevant"), "Exon 20; 1L with lazertinib Jan 2025"), UK: A(2022, mhra("Rybrevant")), JP: A(2024, PMDA), CN: A(2024, NMPA, "Exon 20 insertion NSCLC"), AU: A(2023, tga("Rybrevant")) },
-  zanidatamab: { US: A(2024), EU: V(C(2025, epar("ziihera"), "HER2+ biliary tract after ≥1 line; 27 Jun 2025 (conditional)")), UK: A(2025, mhra("Ziihera")), CN: A(2025, NMPA, "BeOne; HER2+ BTC") },
+  zanidatamab: { US: A(2024), EU: V(C(2025, epar("ziihera"), "HER2+ biliary tract after ≥1 line; 27 Jun 2025 (conditional)")), UK: A(2026, govuk("mhra-approves-zanidatamab-ziihera-for-the-treatment-of-biliary-tract-cancer"), "HER2+ biliary tract cancer; 19 Feb 2026"), CN: A(2025, NMPA, "BeOne; HER2+ BTC") },
   zenocutuzumab: { US: A(2024), EU: UR("MAA submitted 2025; no EPAR as of Sept 2026") },
   brenetafusp: { US: UR("Phase 3 PRISM-MEL-301") },
   xaluritamig: { US: UR("Phase 3 XALute") },
@@ -133,7 +140,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "lisocabtagene-maraleucel": { US: A(2021), EU: A(2022, epar("breyanzi")), UK: A(2022, mhra("Breyanzi")), JP: A(2021, PMDA), AU: A(2022, tga("Breyanzi")) },
   "idecabtagene-vicleucel": { US: A(2021), EU: A(2021, epar("abecma")), UK: A(2021, mhra("Abecma")), JP: A(2022, PMDA), AU: A(2022, tga("Abecma")) },
   "ciltacabtagene-autoleucel": { US: A(2022), EU: A(2022, epar("carvykti")), UK: A(2022, mhra("Carvykti")), JP: A(2022, PMDA), CN: A(2024, NMPA, "Legend Biotech; R/R myeloma"), AU: A(2023, tga("Carvykti")) },
-  "obecabtagene-autoleucel": { US: A(2024), EU: V(C(2025, epar("aucatzyl"), "R/R B-ALL adults ≥26; 17 Jul 2025 (conditional)")), UK: A(2025, mhra("Aucatzyl")) },
+  "obecabtagene-autoleucel": { US: A(2024), EU: V(C(2025, epar("aucatzyl"), "R/R B-ALL adults ≥26; 17 Jul 2025 (conditional)")), UK: A(2025, govuk("obecabtagene-autoleucel-conditionally-approved-to-treat-adults-with-relapsed-or-refractory-b-cell-precursor-acute-lymphoblastic-leukaemia"), "R/R B-ALL (conditional); 24 Apr 2025") },
   lifileucel: { US: A(2024, undefined, "Accelerated Feb 2024"), EU: W(2025, epar("amtagvi"), "MAA withdrawn 22 Jul 2025 after CHMP signalled a negative opinion (response rate, deaths, manufacturing)"), UK: UR("MHRA application 2025"), CN: NF(), AU: UR("TGA evaluation") },
   "afamitresgene-autoleucel": { US: A(2024, undefined, "Accelerated Aug 2024; full approval Jun 2026"), EU: NF("No MAA; US WorldMeds acquired US rights 2025") },
   "satricabtagene-autoleucel": { US: UR("US phase 1b/2 (CARsgen)"), CN: A(2025, NMPA, "CLDN18.2+ advanced gastric/GEJ after ≥2 lines (Sep 2025); first CAR-T for a solid tumour") },
@@ -147,7 +154,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   lutathera: { US: A(2018), EU: A(2017, epar("lutathera"), "First approval globally (Sep 2017)"), UK: A(2018, mhra("Lutathera")), JP: A(2021, PMDA), CN: A(2024, NMPA), AU: A(2018, tga("Lutathera")) },
   "radium-223": global("Xofigo", "xofigo", 2013, 2013, 2013, 2016, 2020, 2014),
   pylarify: { US: A(2021), EU: A(2023, epar("pylclari"), "EU brand Pylclari (Curium)"), UK: A(2023, mhra("Pylclari")) },
-  "ga68-psma-11": { US: A(2020, undefined, "UCSF/UCLA Ga-68 PSMA-11 Dec 2020; Illuccix, Locametz 2021-22"), EU: A(2022, epar("locametz")), UK: A(2022, mhra("Locametz")), AU: A(2021, tga("Illuccix"), "Illuccix (Telix) first approval globally (Nov 2021)") },
+  "ga68-psma-11": { US: A(2020, undefined, "UCSF/UCLA Ga-68 PSMA-11 Dec 2020; Illuccix, Locametz 2021-22"), EU: A(2022, epar("locametz")), UK: A(2022, mhra("Locametz")), JP: A(2025, PMDA, "Locametz kit (gozetotide), PSMA PET to select patients for PSMA-targeted therapy; 19 Sep 2025"), AU: A(2021, tga("Illuccix"), "Illuccix (Telix), Nov 2021") },
   flotufolastat: { US: A(2023), EU: UR("MAA (Blue Earth Diagnostics)") },
   "radioactive-iodine": global("Sodium iodide I-131", "sodium-iodide-131", 1951, 1990, 1990, 1990, 1990, 1990, "Legacy product; national approvals predate modern registers"),
   "lu177-psma-it": { US: UR("SPLASH phase 3 met rPFS, missed OS; BLA decision pending"), EU: UR("ECLIPSE/SPLASH; no MAA decision") },
@@ -155,19 +162,19 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   ryz101: { US: UR("Phase 3 ACTION-1") },
   "itm-11": { US: UR("PDUFA 28 Aug 2026 (COMPETE); decision not yet in corpus"), EU: UR("MAA 2026") },
   "aminolevulinic-acid-gleolan": { US: A(2017, undefined, "Gleolan"), EU: A(2007, epar("gliolan")), UK: A(2007, mhra("Gliolan")), JP: A(2013, PMDA, "Alaglio (SBI Pharma)"), AU: A(undefined, tga("Gliolan")) },
-  "fluciclovine-f18": { US: A(2016), EU: A(2017, epar("axumin")), UK: A(2017, mhra("Axumin")) },
+  "fluciclovine-f18": { US: A(2016), EU: A(2017, epar("axumin")), UK: A(2017, mhra("Axumin")), JP: A(2021, PMDA, "Axumin, imaging of suspected newly identified malignant glioma for resection planning; 23 Mar 2021 (Nihon Medi-Physics)") },
   "fluoroestradiol-f18": { US: A(2020, undefined, "Cerianna") },
   "ga68-dotatate": { US: A(2016, undefined, "Netspot (Ga-68 DOTATATE) 2016; Detectnet (Cu-64) 2020"), EU: A(undefined, epar("somakit-toc"), "SomaKit TOC (Ga-68 DOTATOC kit); no centralised DOTATATE kit"), UK: A(undefined, mhra("SomaKit TOC")) },
   pafolacianine: { US: A(2021, undefined, "Cytalux; ovarian 2021, lung 2022") },
   pegulicianine: { US: A(2024, undefined, "Lumisight") },
-  "tilmanocept-tc99m": { US: A(2013), EU: A(2014, epar("lymphoseek")), UK: A(2014, mhra("Lymphoseek")) },
+  "tilmanocept-tc99m": { US: A(2013), EU: W(2024, epar("lymphoseek"), "Authorised Nov 2014; marketing authorisation withdrawn at Navidea's request 10 Jun 2024"), UK: A(2014, mhra("Lymphoseek")) },
 
   // ================= Kinase and small-molecule targeted =================
   osimertinib: global("Tagrisso", "tagrisso", 2015, 2016, 2016, 2016, 2017, 2016),
   lorlatinib: global("Lorbrena", "lorviqua", 2018, 2019, 2019, 2018, 2022, 2019, "EU brand Lorviqua"),
   alectinib: global("Alecensa", "alecensa", 2015, 2017, 2017, 2014, 2018, 2016, "Japan first (Jul 2014)"),
   neladalkib: { US: UR("PDUFA 27 Nov 2026 (ALKOVE-1)") },
-  lazertinib: { US: A(2024), EU: V(A(2025, epar("lazcluze"), "1L EGFR-mutant NSCLC with amivantamab; 20 Jan 2025")), UK: A(2025, mhra("Lazcluze")), JP: A(2025, PMDA), CN: A(2025, NMPA) },
+  lazertinib: { US: A(2024), EU: V(A(2025, epar("lazcluze"), "1L EGFR-mutant NSCLC with amivantamab; 20 Jan 2025")), UK: A(2025, govuk("lazertinib-approved-for-use-in-combination-with-amivantamab-for-the-treatment-of-adults-with-non-small-cell-lung-cancer"), "6 Mar 2025"), JP: A(2025, PMDA), CN: A(2025, NMPA) },
   sotorasib: { US: A(2021, undefined, "Accelerated; CRL Dec 2023 for full approval; CRC with panitumumab Jan 2025"), EU: C(2022, epar("lumykras"), "EU brand Lumykras"), UK: A(2021, mhra("Lumykras"), "MHRA Project Orbis first"), JP: A(2022, PMDA), CN: NF("Amgen has not filed in China"), AU: A(2022, tga("Lumykras")) },
   adagrasib: { US: A(2022), EU: V(C(2024, epar("krazati"), "KRAS G12C NSCLC after ≥1 line; 5 Jan 2024 (conditional)")), UK: A(2024, mhra("Krazati")), JP: UR("PMDA filing"), AU: A(2024, tga("Krazati")) },
   divarasib: { US: UR("Phase 3 Krascendo 1 topline Jul 2026") },
@@ -179,13 +186,13 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   vemurafenib: global("Zelboraf", "zelboraf", 2011, 2012, 2012, 2014, 2017, 2012),
   cobimetinib: { US: A(2015), EU: A(2015, epar("cotellic")), UK: A(2015, mhra("Cotellic")), JP: A(2018, PMDA), AU: A(2016, tga("Cotellic")) },
   selpercatinib: { US: A(2020), EU: A(2021, epar("retsevmo"), "EU brand Retsevmo"), UK: A(2021, mhra("Retsevmo")), JP: A(2021, PMDA), CN: A(2022, NMPA), AU: A(2021, tga("Retsevmo")) },
-  pralsetinib: { US: A(2020), EU: A(2021, epar("gavreto")), UK: A(2021, mhra("Gavreto")), CN: A(2021, NMPA, "CStone"), AU: A(2022, tga("Gavreto")) },
+  pralsetinib: { US: A(2020), EU: W(2024, epar("gavreto"), "Authorised Nov 2021; marketing authorisation withdrawn at Blueprint's request 24 Oct 2024"), UK: A(2021, mhra("Gavreto")), CN: A(2021, NMPA, "CStone"), AU: A(2022, tga("Gavreto")) },
   "capmatinib-tepotinib": { US: A(2020), EU: A(2022, epar("tepmetko"), "Tepmetko 2022; Tabrecta 2022"), UK: A(2022, mhra("Tepmetko")), JP: A(2020, PMDA, "Tepotinib first approval globally (Mar 2020)"), CN: A(2023, NMPA), AU: A(2021, tga("Tabrecta")) },
-  zongertinib: { US: A(2025), EU: UR("MAA under review; no EPAR as of Sept 2026"), CN: A(2025, NMPA, "HER2-mutant NSCLC") },
-  sevabertinib: { US: A(2025), EU: UR("MAA 2026") },
+  zongertinib: { US: A(2025), EU: UR("MAA under review; no EPAR as of Sept 2026"), JP: A(2025, PMDA, "Hernexeos, HER2 (ERBB2)-mutant NSCLC after chemotherapy; 19 Sep 2025 (Nippon Boehringer Ingelheim)"), CN: A(2025, NMPA, "HER2-mutant NSCLC") },
+  sevabertinib: { US: A(2025), EU: UR("MAA 2026"), UK: A(2026, govuk("sevabertinib-approved-to-treat-adults-with-her2-positive-lung-cancer-that-has-spread-or-cannot-be-removed-by-surgery"), "HER2-mutant NSCLC; 2 Apr 2026") },
   zidesamtinib: { US: A(2026), EU: UR("MAA planned") },
   repotrectinib: { US: A(2023), EU: V(C(2025, epar("augtyro"), "ROS1+ NSCLC; NTRK+ solid tumours; 13 Jan 2025 (conditional)")), UK: A(2025, mhra("Augtyro")), JP: A(2024, PMDA), CN: A(2025, NMPA) },
-  tucatinib: { US: A(2020), EU: A(2021, epar("tukysa")), UK: A(2021, mhra("Tukysa")), CN: A(2023, NMPA), AU: A(2021, tga("Tukysa")) },
+  tucatinib: { US: A(2020), EU: A(2021, epar("tukysa")), UK: A(2021, mhra("Tukysa")), JP: A(2026, PMDA, "Tukysa, HER2+ inoperable or recurrent breast cancer after chemotherapy; 19 Feb 2026 (Pfizer Japan)"), CN: A(2023, NMPA), AU: A(2021, tga("Tukysa")) },
   neratinib: { US: A(2017), EU: A(2018, epar("nerlynx")), UK: A(2018, mhra("Nerlynx")), AU: A(2019, tga("Nerlynx")) },
   lapatinib: global("Tykerb", "tyverb", 2007, 2008, 2008, 2009, 2013, 2007, "EU brand Tyverb"),
   pyrotinib: { CN: A(2018, NMPA, "HER2+ metastatic breast (Aug 2018)"), US: NF("Hengrui; no US filing") },
@@ -195,45 +202,45 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   asciminib: { US: A(2021), EU: A(2022, epar("scemblix")), UK: A(2022, mhra("Scemblix")), JP: A(2022, PMDA), CN: A(2023, NMPA), AU: A(2022, tga("Scemblix")) },
   ibrutinib: global("Imbruvica", "imbruvica", 2013, 2014, 2014, 2016, 2017, 2015),
   acalabrutinib: { US: A(2017), EU: A(2020, epar("calquence")), UK: A(2020, mhra("Calquence")), JP: A(2021, PMDA), CN: A(2023, NMPA), AU: A(2020, tga("Calquence")) },
-  zanubrutinib: { US: A(2019), EU: A(2021, epar("brukinsa")), UK: A(2021, mhra("Brukinsa")), JP: A(2021, PMDA), CN: A(2020, NMPA), AU: A(2020, tga("Brukinsa")) },
-  pirtobrutinib: { US: A(2023), EU: C(2023, epar("jaypirca")), UK: A(2024, mhra("Jaypirca")), JP: A(2025, PMDA) },
+  zanubrutinib: { US: A(2019), EU: A(2021, epar("brukinsa")), UK: A(2021, mhra("Brukinsa")), JP: A(2024, PMDA, "Brukinsa; 27 Dec 2024"), CN: A(2020, NMPA), AU: A(2020, tga("Brukinsa")) },
+  pirtobrutinib: { US: A(2023), EU: C(2023, epar("jaypirca")), UK: A(2024, mhra("Jaypirca")), JP: A(2024, PMDA, "Jaypirca, relapsed or refractory mantle cell lymphoma; 24 Jun 2024") },
   nemtabrutinib: { US: UR("Phase 3 BELLWAVE-011") },
   "bgb-16673": { US: UR("Phase 3 CaDAnCe-304") },
   venetoclax: global("Venclexta", "venclyxto", 2016, 2016, 2016, 2019, 2020, 2017, "EU brand Venclyxto"),
   sonrotoclax: { US: A(2026, undefined, "Accelerated, MCL (May 2026)"), CN: A(2025, NMPA, "R/R MCL") },
   midostaurin: global("Rydapt", "rydapt", 2017, 2017, 2017, 2019, 2021, 2017),
   gilteritinib: { US: A(2018), EU: A(2019, epar("xospata")), UK: A(2019, mhra("Xospata")), JP: A(2018, PMDA, "First approval globally (Sep 2018)"), CN: A(2021, NMPA), AU: A(2019, tga("Xospata")) },
-  quizartinib: { US: A(2023, undefined, "CRL 2019; approved Jul 2023"), EU: A(2023, epar("vanflyta")), UK: A(2024, mhra("Vanflyta")), JP: A(2019, PMDA, "First approval globally (Jun 2019)"), CN: A(2025, NMPA) },
-  ivosidenib: { US: A(2018), EU: A(2023, epar("tibsovo")), UK: A(2023, mhra("Tibsovo")), CN: A(2022, NMPA, "CStone"), AU: A(2023, tga("Tibsovo")) },
+  quizartinib: { US: A(2023, undefined, "CRL 2019; approved Jul 2023"), EU: A(2023, epar("vanflyta")), UK: A(2024, govuk("quizartinib-approved-to-treat-adult-patients-with-a-type-of-blood-cancer"), "11 Mar 2024"), JP: A(2019, PMDA, "First approval globally (Jun 2019)"), CN: A(2025, NMPA) },
+  ivosidenib: { US: A(2018), EU: A(2023, epar("tibsovo")), UK: A(2023, mhra("Tibsovo")), JP: A(2025, PMDA, "Tibsovo, IDH1-mutant AML; 27 Mar 2025 (Nihon Servier)"), CN: A(2022, NMPA, "CStone"), AU: A(2023, tga("Tibsovo")) },
   enasidenib: { US: A(2017), EU: W(2021, undefined, "MAA withdrawn 2021"), CN: NF() },
   olutasidenib: { US: A(2022), EU: UR("MAA (Rigel)") },
-  vorasidenib: { US: A(2024), EU: V(A(2025, epar("voranigo"), "Grade 2 IDH-mutant glioma ≥12 yrs; 17 Sep 2025")), UK: A(2025, mhra("Voranigo")), JP: UR("PMDA filing 2025"), AU: A(2025, tga("Voranigo")) },
+  vorasidenib: { US: A(2024), EU: V(A(2025, epar("voranigo"), "Grade 2 IDH-mutant glioma ≥12 yrs; 17 Sep 2025")), UK: A(2025, govuk("vorasidenib-approved-to-treat-patients-12-years-and-older-with-grade-2-astrocytoma-or-oligodendroglioma-with-a-susceptible-idh1-or-idh2-mutation"), "16 Sep 2025"), JP: UR("PMDA filing 2025"), AU: A(2025, tga("Voranigo")) },
   revumenib: { US: A(2024), EU: UR("MAA submitted 2025; no EPAR as of Sept 2026") },
   ziftomenib: { US: A(2025), EU: UR("Kura/Kyowa Kirin MAA") },
   azacitidine: global("Vidaza", "vidaza", 2004, 2008, 2008, 2011, 2017, 2009),
   "decitabine-cedazuridine": { US: A(2020), EU: A(2023, epar("inaqovi"), "EU brand Inaqovi"), UK: A(2023, mhra("Inaqovi")), AU: A(2022, tga("Inqovi")) },
   "cpx-351": { US: A(2017), EU: A(2018, epar("vyxeos-liposomal")), UK: A(2018, mhra("Vyxeos")), JP: A(2024, PMDA), AU: A(2021, tga("Vyxeos")) },
-  tagraxofusp: { US: A(2018), EU: A(2021, epar("elzonris")), UK: A(2021, mhra("Elzonris")) },
+  tagraxofusp: { US: A(2018), EU: A(2021, epar("elzonris")), UK: A(2021, mhra("Elzonris")), JP: A(2025, PMDA, "Elzonris, blastic plasmacytoid dendritic cell neoplasm; 22 Dec 2025 (Nippon Shinyaku)") },
   palbociclib: global("Ibrance", "ibrance", 2015, 2016, 2016, 2017, 2018, 2017),
   ribociclib: global("Kisqali", "kisqali", 2017, 2017, 2017, 2019, 2023, 2017),
   abemaciclib: global("Verzenio", "verzenios", 2017, 2018, 2018, 2018, 2020, 2019, "EU brand Verzenios"),
   atirmociclib: { US: UR("Phase 3 FOURLIGHT-3") },
   alpelisib: { US: A(2019), EU: A(2020, epar("piqray")), UK: A(2020, mhra("Piqray")), JP: A(2022, PMDA), CN: A(2024, NMPA), AU: A(2020, tga("Piqray")) },
-  capivasertib: { US: A(2023), EU: V(A(2024, epar("truqap"), "ER+/HER2- mBC with PIK3CA/AKT1/PTEN alteration; 17 Jun 2024")), UK: A(2024, mhra("Truqap")), JP: A(2024, PMDA), CN: A(2025, NMPA), AU: A(2024, tga("Truqap")) },
-  inavolisib: { US: A(2024), EU: V(A(2025, epar("itovebi"), "PIK3CA-mutant ER+/HER2- mBC with palbociclib + fulvestrant; 18 Jul 2025")), UK: A(2025, mhra("Itovebi")), JP: A(2025, PMDA), CN: A(2025, NMPA), AU: UR("TGA evaluation") },
+  capivasertib: { US: A(2023), EU: V(A(2024, epar("truqap"), "ER+/HER2- mBC with PIK3CA/AKT1/PTEN alteration; 17 Jun 2024")), UK: A(2024, govuk("capivasertib-approved-to-treat-patients-with-advanced-breast-cancer"), "13 Aug 2024"), JP: A(2024, PMDA), CN: A(2025, NMPA), AU: A(2024, tga("Truqap")) },
+  inavolisib: { US: A(2024), EU: V(A(2025, epar("itovebi"), "PIK3CA-mutant ER+/HER2- mBC with palbociclib + fulvestrant; 18 Jul 2025")), UK: A(2025, govuk("mhra-approves-inavolisib-for-the-treatment-of-breast-cancer"), "26 Nov 2025"), JP: A(2025, PMDA), CN: A(2025, NMPA), AU: UR("TGA evaluation") },
   gedatolisib: { US: A(2026), EU: UR("MAA planned") },
   everolimus: global("Afinitor", "afinitor", 2009, 2009, 2009, 2010, 2013, 2009),
   olaparib: global("Lynparza", "lynparza", 2014, 2014, 2014, 2018, 2018, 2016),
   niraparib: { US: A(2017), EU: A(2017, epar("zejula")), UK: A(2017, mhra("Zejula")), JP: A(2020, PMDA), CN: A(2019, NMPA, "Zai Lab"), AU: A(2018, tga("Zejula")) },
   rucaparib: { US: A(2016), EU: A(2018, epar("rubraca")), UK: A(2018, mhra("Rubraca")), AU: A(2020, tga("Rubraca")) },
-  talazoparib: { US: A(2018), EU: A(2019, epar("talzenna")), UK: A(2019, mhra("Talzenna")), JP: A(2023, PMDA), CN: A(2021, NMPA), AU: A(2019, tga("Talzenna")) },
+  talazoparib: { US: A(2018), EU: A(2019, epar("talzenna")), UK: A(2019, mhra("Talzenna")), JP: A(2024, PMDA, "Talzenna, BRCA-mutant metastatic CRPC; 18 Jan 2024"), CN: A(2021, NMPA), AU: A(2019, tga("Talzenna")) },
   belzutifan: { US: A(2021), EU: V(C(2025, epar("welireg"), "ccRCC after ≥2 lines; VHL-associated tumours; 12 Feb 2025 (conditional)")), UK: A(2025, mhra("Welireg")), JP: A(2025, PMDA), AU: A(2025, tga("Welireg")) },
   avapritinib: { US: A(2020), EU: A(2020, epar("ayvakyt"), "EU brand Ayvakyt"), UK: A(2020, mhra("Ayvakyt")), CN: A(2021, NMPA, "CStone"), AU: A(2022, tga("Ayvakyt")) },
   ripretinib: { US: A(2020), EU: A(2021, epar("qinlock")), UK: A(2021, mhra("Qinlock")), CN: A(2021, NMPA, "Zai Lab"), AU: A(2020, tga("Qinlock")) },
-  nirogacestat: { US: A(2023), EU: A(2025, epar("ogsiveo")), UK: A(2025, mhra("Ogsiveo")) },
-  vimseltinib: { US: A(2025), EU: UR("MAA 2025 (Deciphera/Ono)") },
+  nirogacestat: { US: A(2023), EU: A(2025, epar("ogsiveo")), UK: A(2026, govuk("nirogacestat-hydrobromide-approved-to-treat-desmoid-tumours"), "Desmoid tumours; 7 Jan 2026") },
+  vimseltinib: { US: A(2025), EU: V(A(2025, epar("romvimza"), "Symptomatic TGCT where surgery has been exhausted or would cause unacceptable morbidity; 17 Sep 2025")), UK: A(2026, govuk("vimseltinib-romvimza-approved-for-use-in-adults-to-treat-tenosynovial-giant-cell-tumours"), "TGCT; 14 Aug 2026") },
   "avutometinib-defactinib": { US: A(2025, undefined, "Accelerated, KRAS-mutant recurrent LGSOC (May 2025)"), EU: UR("MAA 2026") },
-  cabozantinib: global("Cabometyx", "cabometyx", 2012, 2016, 2016, 2020, 2023, 2017, "Cometriq 2012 (MTC); Cabometyx 2016"),
+  cabozantinib: { US: A(2012, undefined, undefined, "Cometriq 2012 (MTC); Cabometyx 2016"), EU: A(2014, epar("cometriq"), "Cometriq for medullary thyroid cancer; 21 Mar 2014. Cabometyx (RCC) Sep 2016"), UK: A(2014, mhra("Cometriq")), JP: A(2020, PMDA), CN: A(2023, NMPA), AU: A(2017, tga("Cabometyx")) },
   lenvatinib: global("Lenvima", "lenvima", 2015, 2015, 2015, 2015, 2018, 2015),
   sorafenib: global("Nexavar", "nexavar", 2005, 2006, 2006, 2008, 2006, 2006),
   regorafenib: global("Stivarga", "stivarga", 2012, 2013, 2013, 2013, 2017, 2013),
@@ -241,7 +248,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   pazopanib: global("Votrient", "votrient", 2009, 2010, 2010, 2012, 2017, 2010),
   axitinib: global("Inlyta", "inlyta", 2012, 2012, 2012, 2012, 2015, 2012),
   tivozanib: { US: A(2021), EU: A(2017, epar("fotivda"), "EU first (Aug 2017)"), UK: A(2017, mhra("Fotivda")) },
-  fruquintinib: { US: A(2023), EU: A(2024, epar("fruzaqla")), UK: A(2024, mhra("Fruzaqla")), JP: A(2024, PMDA), CN: A(2018, NMPA, "First approval globally (Sep 2018)"), AU: A(2025, tga("Fruzaqla")) },
+  fruquintinib: { US: A(2023), EU: A(2024, epar("fruzaqla")), UK: A(2024, govuk("fruquintinib-approved-to-treat-adult-patients-with-metastatic-colorectal-cancer"), "20 Sep 2024"), JP: A(2024, PMDA), CN: A(2018, NMPA, "First approval globally (Sep 2018)"), AU: A(2025, tga("Fruzaqla")) },
   "trifluridine-tipiracil": global("Lonsurf", "lonsurf", 2015, 2016, 2016, 2014, 2019, 2018, "Japan first (Mar 2014)"),
   vandetanib: { US: A(2011), EU: C(2012, epar("caprelsa")), UK: A(2012, mhra("Caprelsa")), JP: A(2015, PMDA), AU: A(2013, tga("Caprelsa")) },
   erdafitinib: { US: A(2019), EU: A(2024, epar("balversa")), UK: A(2024, mhra("Balversa")), JP: A(2024, PMDA), AU: A(2025, tga("Balversa")) },
@@ -265,15 +272,15 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   ensartinib: { US: A(2024, undefined, "Ensacove"), CN: A(2020, NMPA, "Betta; ALK+ NSCLC after crizotinib (Nov 2020)") },
   entrectinib: { US: A(2019), EU: A(2020, epar("rozlytrek"), "Conditional Jul 2020"), UK: A(2020, mhra("Rozlytrek")), JP: A(2019, PMDA, "First approval globally (NTRK, Jun 2019)"), CN: A(2022, NMPA), AU: A(undefined, tga("Rozlytrek")) },
   larotrectinib: { US: A(2018), EU: A(2019, epar("vitrakvi"), "Conditional Sep 2019"), UK: A(2019, mhra("Vitrakvi")), JP: A(2021, PMDA), CN: A(2022, NMPA), AU: A(undefined, tga("Vitrakvi")) },
-  taletrectinib: { US: A(2025, undefined, "Ibtrozi (Jun 2025)"), CN: A(2025, NMPA, "Innovent; ROS1+ NSCLC (Jan 2025)") },
+  taletrectinib: { US: A(2025, undefined, "Ibtrozi (Jun 2025)"), JP: A(2025, PMDA, "Ibtrozi, ROS1 fusion-positive NSCLC; 19 Sep 2025 (Nippon Kayaku)"), CN: A(2025, NMPA, "Innovent; ROS1+ NSCLC (Jan 2025)") },
   nilotinib: { US: A(2007), EU: A(2007, epar("tasigna")), UK: A(2007, mhra("Tasigna")), JP: A(2009, PMDA), CN: A(2009, NMPA), AU: A(undefined, tga("Tasigna")) },
   bosutinib: { US: A(2012), EU: A(2013, epar("bosulif")), UK: A(2013, mhra("Bosulif")), JP: A(2014, PMDA), AU: A(undefined, tga("Bosulif")) },
   ruxolitinib: { US: A(2011), EU: A(2012, epar("jakavi"), "EU brand Jakavi"), UK: A(2012, mhra("Jakavi")), JP: A(2014, PMDA), CN: A(2017, NMPA), AU: A(undefined, tga("Jakavi")) },
-  fedratinib: { US: A(2019), EU: A(2021, epar("inrebic")), UK: A(undefined, mhra("Inrebic")), AU: A(undefined, tga("Inrebic")) },
+  fedratinib: { US: A(2019), EU: A(2021, epar("inrebic")), UK: A(undefined, mhra("Inrebic")), JP: A(2025, PMDA, "Inrebic, myelofibrosis; 24 Jun 2025 (Bristol Myers Squibb)"), AU: A(undefined, tga("Inrebic")) },
   pacritinib: { US: A(2022, undefined, "Accelerated, Vonjo (Feb 2022)") },
-  momelotinib: { US: A(2023), EU: A(2024, epar("omjjara"), "EU brand Omjjara"), UK: A(2024, mhra("Omjjara")) },
+  momelotinib: { US: A(2023), EU: A(2024, epar("omjjara"), "EU brand Omjjara"), UK: A(2024, mhra("Omjjara")), JP: A(2024, PMDA, "Omjjara, myelofibrosis; 24 Jun 2024 (GSK)") },
   idelalisib: { US: A(2014), EU: A(2014, epar("zydelig")), UK: A(2014, mhra("Zydelig")), AU: A(undefined, tga("Zydelig")) },
-  duvelisib: { US: A(2018), EU: A(2021, epar("copiktra")) },
+  duvelisib: { US: A(2018), EU: W(2026, epar("copiktra"), "Authorised May 2021; marketing authorisation withdrawn at Secura Bio's request 16 Feb 2026 (commercial reasons)") },
   glasdegib: { US: A(2018), EU: A(2020, epar("daurismo")), UK: A(2020, mhra("Daurismo")) },
   ixazomib: { US: A(2015), EU: A(2016, epar("ninlaro")), UK: A(2016, mhra("Ninlaro")), JP: A(2017, PMDA), CN: A(2018, NMPA), AU: A(undefined, tga("Ninlaro")) },
   vismodegib: { US: A(2012), EU: A(2013, epar("erivedge")), UK: A(2013, mhra("Erivedge")), AU: A(undefined, tga("Erivedge")) },
@@ -299,8 +306,8 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   exemestane: global("Aromasin", "aromasin", 1999, 1999, 1999, 2002, 2001, 2000),
   fulvestrant: global("Faslodex", "faslodex", 2002, 2004, 2004, 2011, 2010, 2004),
   elacestrant: { US: A(2023), EU: A(2023, epar("orserdu")), UK: A(2024, mhra("Orserdu")), JP: UR("PMDA filing"), AU: A(2024, tga("Orserdu")) },
-  imlunestrant: { US: A(2025), EU: V(A(2026, epar("inluriyo"), "ESR1-mutant ER+/HER2- mBC; 9 Jan 2026")), UK: A(2026, mhra("Inluriyo")), JP: A(2026, PMDA) },
-  camizestrant: { US: A(2026, undefined, "Etcamah, 4 Sep 2026, after 6-3 negative ODAC"), EU: UR("MAA under review") },
+  imlunestrant: { US: A(2025), EU: V(A(2026, epar("inluriyo"), "ESR1-mutant ER+/HER2- mBC; 9 Jan 2026")), UK: A(2026, govuk("mhra-approves-imlunestrant-tosylate-inluryo-a-new-treatment-for-breast-cancer"), "24 Feb 2026"), JP: A(2025, PMDA, "Inluriyo; 22 Dec 2025") },
+  camizestrant: { US: A(2026, undefined, "Etcamah, 4 Sep 2026, after 6-3 negative ODAC"), EU: V(A(2026, epar("etcamah"), "ER+/HER2- advanced breast cancer with emergent ESR1 mutation, with a CDK4/6 inhibitor; 20 Jul 2026")) },
   vepdegestrant: { US: A(2026), EU: UR("MAA (Arvinas/Pfizer)") },
   giredestrant: { US: UR("evERA positive; NDA 2026") },
   "megestrol-progestins": global("Megace", "megestrol", 1971, 1970, 1970, 1980, 1995, 1975, "Legacy product"),
@@ -321,7 +328,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   topotecan: global("Hycamtin", "hycamtin", 1996, 1996, 1996, 2000, 2000, 1998),
   cabazitaxel: global("Jevtana", "jevtana", 2010, 2011, 2011, 2014, 2020, 2011),
   trabectedin: { US: A(2015), EU: A(2007, epar("yondelis"), "EU first (Sep 2007), soft-tissue sarcoma"), UK: A(2007, mhra("Yondelis")), JP: A(2015, PMDA), AU: A(2010, tga("Yondelis")) },
-  lurbinectedin: { US: A(2020), EU: UR("MAA resubmitted after IMforte"), AU: A(2023, tga("Zepzelca")) },
+  lurbinectedin: { US: A(2020), EU: V(A(2026, epar("zepzelca"), "Maintenance with atezolizumab in ES-SCLC after first-line induction; 29 May 2026")), AU: A(2023, tga("Zepzelca")) },
   nalirifox: { US: A(2024, undefined, "Onivyde + oxaliplatin/5-FU/LV for 1L metastatic PDAC"), EU: A(2016, epar("onivyde-pegylated-liposomal"), "Onivyde 2L after gemcitabine (2016); NALIRIFOX label 2025"), UK: A(2016, mhra("Onivyde")), AU: A(2018, tga("Onivyde")) },
   bortezomib: global("Velcade", "velcade", 2003, 2004, 2004, 2006, 2005, 2005),
   carfilzomib: global("Kyprolis", "kyprolis", 2012, 2015, 2015, 2016, 2021, 2015),
@@ -349,6 +356,18 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   bleomycin: { US: A(1973), EU: EU_NATIONAL(), UK: A(undefined, mhra("Bleomycin")), JP: A(undefined, PMDA), CN: A(undefined, NMPA), AU: A(undefined, tga("Bleomycin")) },
   dactinomycin: { US: A(1964), EU: EU_NATIONAL(), UK: A(undefined, mhra("Cosmegen")), JP: A(undefined, PMDA, "Cosmegen"), CN: A(undefined, NMPA), AU: A(undefined, tga("Cosmegen")) },
   mitomycin: { US: A(1974), EU: EU_NATIONAL(), UK: A(undefined, mhra("Mitomycin")), JP: A(undefined, PMDA), CN: A(undefined, NMPA), AU: A(undefined, tga("Mitomycin")) },
+  temozolomide: { US: A(1999), EU: A(1999, epar("temodal"), "Temodal; malignant glioma (recurrent 1999; newly diagnosed glioblastoma with radiotherapy 2005); 26 Jan 1999"), UK: A(1999, mhra("Temodal")), JP: A(2006, PMDA, "Temodal capsules, malignant glioma; 26 Jul 2006") },
+  lomustine: { US: A(1976, undefined, "CeeNU 1976; Gleostine"), EU: EU_NATIONAL(undefined, "National authorisations (e.g. Cecenu, Germany); no centralised EPAR") },
+  // Combination regimens: the components hold the authorisations.
+  capox: regimen(),
+  "cytarabine-7-3": regimen(1969),
+  flot: regimen(),
+  folfiri: regimen(),
+  folfirinox: regimen(),
+  folfox: regimen(),
+  "gemcitabine-cisplatin": regimen(),
+  "gemcitabine-nab-paclitaxel": regimen(),
+  "platinum-etoposide": regimen(),
 
   // ================= Antibodies (non-checkpoint) =================
   trastuzumab: global("Herceptin", "herceptin", 1998, 2000, 2000, 2001, 2002, 2000),
@@ -364,10 +383,10 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   obinutuzumab: global("Gazyva", "gazyvaro", 2013, 2014, 2014, 2018, 2021, 2014, "EU brand Gazyvaro"),
   daratumumab: global("Darzalex", "darzalex", 2015, 2016, 2016, 2017, 2019, 2016),
   isatuximab: global("Sarclisa", "sarclisa", 2020, 2020, 2020, 2020, 2022, 2020),
-  tafasitamab: { US: A(2020), EU: C(2021, epar("minjuvi"), "EU brand Minjuvi"), UK: A(2021, mhra("Minjuvi")), AU: A(2022, tga("Minjuvi")) },
+  tafasitamab: { US: A(2020), EU: C(2021, epar("minjuvi"), "EU brand Minjuvi"), UK: A(2021, mhra("Minjuvi")), JP: A(2025, PMDA, "Minjuvi, relapsed or refractory follicular lymphoma; 22 Dec 2025 (Incyte Japan)"), AU: A(2022, tga("Minjuvi")) },
   dinutuximab: { US: A(2015, undefined, "Unituxin"), EU: A(2017, epar("qarziba"), "Dinutuximab beta (Qarziba, EUSA/Recordati)"), UK: A(2017, mhra("Qarziba")), JP: A(2021, PMDA, "Dinutuximab beta"), AU: A(2020, tga("Qarziba")) },
   naxitamab: { US: A(2020, undefined, "Accelerated"), EU: NF("Y-mAbs withdrew EU MAA 2022"), CN: A(2024, NMPA, "SciClone") },
-  zolbetuximab: { US: A(2024, undefined, "Oct 2024 after 2024 CRL for manufacturing"), EU: V(A(2024, epar("vyloy"), "1L CLDN18.2+ HER2- gastric/GEJ; 19 Sep 2024")), UK: A(2024, mhra("Vyloy")), JP: A(2024, PMDA, "First approval globally (Mar 2024)"), CN: A(2025, NMPA), AU: A(2025, tga("Vyloy")) },
+  zolbetuximab: { US: A(2024, undefined, "Oct 2024 after 2024 CRL for manufacturing"), EU: V(A(2024, epar("vyloy"), "1L CLDN18.2+ HER2- gastric/GEJ; 19 Sep 2024")), UK: A(2024, govuk("mhra-approves-zolbetuximab"), "14 Aug 2024"), JP: A(2024, PMDA, "First approval globally (Mar 2024)"), CN: A(2025, NMPA), AU: A(2025, tga("Vyloy")) },
   elotuzumab: { US: A(2015), EU: A(2016, epar("empliciti")), UK: A(2016, mhra("Empliciti")), JP: A(2016, PMDA), AU: A(undefined, tga("Empliciti")) },
   mogamulizumab: { US: A(2018), EU: A(2018, epar("poteligeo")), UK: A(2018, mhra("Poteligeo")), JP: A(2012, PMDA, "First approval globally (CCR4+ ATL, Mar 2012)") },
 
@@ -376,7 +395,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   mifamurtide: { US: R(2007, "FDA not-approvable letter (Aug 2007); never approved in the US"), EU: A(2009, epar("mepact")), UK: A(2009, mhra("Mepact")) },
   thalidomide: { US: A(1998, undefined, "ENL 1998; multiple myeloma 2006"), EU: A(2008, epar("thalidomide-bms"), "EPAR formerly Thalidomide Celgene"), UK: A(2008, mhra("Thalidomide")), JP: A(2008, PMDA, "Thaled (Fujimoto)"), AU: A(undefined, tga("Thalomid")) },
   pomalidomide: { US: A(2013), EU: A(2013, epar("imnovid"), "EU brand Imnovid"), UK: A(2013, mhra("Imnovid")), JP: A(2015, PMDA), CN: A(2020, NMPA), AU: A(undefined, tga("Pomalyst")) },
-  luspatercept: { US: A(2019, undefined, "Beta-thalassaemia 2019; MDS 2020"), EU: A(2020, epar("reblozyl")), UK: A(2020, mhra("Reblozyl")), AU: A(undefined, tga("Reblozyl")) },
+  luspatercept: { US: A(2019, undefined, "Beta-thalassaemia 2019; MDS 2020"), EU: A(2020, epar("reblozyl")), UK: A(2020, mhra("Reblozyl")), JP: A(2024, PMDA, "Reblozyl, anaemia associated with myelodysplastic syndromes; 18 Jan 2024"), AU: A(undefined, tga("Reblozyl")) },
   "ropeginterferon-alfa-2b": { US: A(2021), EU: A(2019, epar("besremi"), "First approval globally (Feb 2019)"), UK: A(2019, mhra("Besremi")), JP: A(2023, PMDA) },
   rusfertide: { US: A(2026, undefined, "Mimrylo, polycythaemia vera") },
   imetelstat: { US: A(2024), EU: A(2025, epar("rytelo")) },
@@ -388,9 +407,19 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "nadofaragene-firadenovec": { US: A(2022), EU: V(C(2026, epar("adstiladrin"), "BCG-unresponsive NMIBC with CIS; 28 May 2026 (conditional)")), UK: UR("MHRA review") },
   "nogapendekin-alfa": { US: A(2024), EU: V(C(2026, epar("anktiva"), "BCG-unresponsive NMIBC with CIS, with BCG; 16 Feb 2026 (conditional)")), UK: A(2025, mhra("Anktiva")) },
   "tar-200": { US: A(2025, undefined, "Inlexzo, BCG-unresponsive NMIBC (Sep 2025)"), EU: UR("MAA 2026") },
+  "bcg-intravesical": { US: A(1990, undefined, "TICE BCG"), EU: EU_NATIONAL(undefined, "National authorisations (BCG-medac, OncoTICE); no centralised EPAR"), UK: A(undefined, mhra("BCG")) },
   cretostimogene: { US: UR("Rolling BLA (CG Oncology)") },
   "gardasil-9": global("Gardasil 9", "gardasil-9", 2014, 2015, 2015, 2020, 2018, 2015, "Gardasil (4-valent) 2006 US"),
   "intismeran-autogene": { US: UR("INTerpath-001 positive Aug 2026; filings to follow") },
+
+  // ================= Withdrawn products and EU-only authorisations (EMA register) =================
+  melflufen: { US: W(2021, undefined, "Pepaxto accelerated approval Feb 2021; withdrawn from the US market by Oncopeptides Oct 2021"), EU: A(2022, epar("pepaxti"), "Pepaxti with dexamethasone; multiple myeloma after ≥3 prior lines, refractory to a PI, an IMiD and an anti-CD38 antibody; 17 Aug 2022") },
+  panobinostat: { US: W(2022, undefined, "Farydak accelerated approval Feb 2015; US approval withdrawn 2022 at Secura Bio's request"), EU: A(2015, epar("farydak"), "Farydak with bortezomib and dexamethasone; relapsed/refractory myeloma after ≥2 prior regimens; 28 Aug 2015") },
+  nintedanib: { EU: A(2014, epar("vargatef"), "Vargatef with docetaxel; adenocarcinoma NSCLC after first-line chemotherapy; 21 Nov 2014", "US approval (Ofev) is for pulmonary fibrosis, not oncology"), UK: A(2014, mhra("Vargatef")) },
+  "moxetumomab-pasudotox": { US: W(2023, undefined, "Lumoxiti accelerated approval Sep 2018; discontinued by AstraZeneca and withdrawn 2023"), EU: W(2021, epar("lumoxiti"), "Authorised 8 Feb 2021; marketing authorisation withdrawn at the holder's request 23 Jul 2021") },
+  "trastuzumab-duocarmazine": { US: R(2023, "Complete response letter May 2023 (Byondis)"), EU: W(undefined, epar("jivadco"), "Marketing authorisation application withdrawn before a CHMP opinion") },
+  copanlisib: { US: W(2023, undefined, "Aliqopa accelerated approval Sep 2017; withdrawn by Bayer Nov 2023 after CHRONOS-4"), EU: W(undefined, epar("aliqopa"), "Marketing authorisation application withdrawn before a CHMP opinion") },
+  mobocertinib: { US: W(2023, undefined, "Exkivity accelerated approval Sep 2021; withdrawn by Takeda Oct 2023 after EXCLAIM-2"), EU: W(undefined, epar("exkivity"), "Marketing authorisation application withdrawn before a CHMP opinion") },
 
   // ================= Devices and tests =================
   optune: { US: A(2011, undefined, "GBM 2011/2015; NSCLC 2024; pancreatic 2026"), EU: A(2015, undefined, "CE mark (GBM); pancreatic and NSCLC CE marks 2024-26", "CE mark is not an EMA authorisation"), JP: A(2016, PMDA, "GBM"), CN: A(2020, NMPA, "GBM (Zai Lab)") },
@@ -405,4 +434,9 @@ export const regionalApprovals: Record<string, RegionalRow> = {
 /** Convenience: which regions have an approval (approved or conditional). */
 export function approvedRegions(row: RegionalRow): Region[] {
   return REGIONS.filter((r) => { const s = row[r]?.status; return s === "approved" || s === "conditional"; });
+}
+
+/** True when a product's approvals lie entirely outside the US and EU (e.g. China-only antibodies): a regional product rather than a gap in our records. */
+export function regionSpecific(row: RegionalRow): boolean {
+  return !row.US && !row.EU && approvedRegions(row).length > 0;
 }

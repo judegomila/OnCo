@@ -2,9 +2,9 @@
  "source": "https://www.cancer.gov/about-cancer/treatment/drugs/cancer-drugs",
  "checked": "2026-09-10",
  "count": 392,
- "matched": 302,
+ "matched": 326,
  "excluded": 66,
- "unmatched": 24,
+ "unmatched": 0,
  "entries": [
   {
    "slug": "abemaciclib",
@@ -270,7 +270,9 @@
     "Ethyol"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "amifostine"
+   ]
   },
   {
    "slug": "aminolevulinicacid",
@@ -363,7 +365,9 @@
     "Emend"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "aprepitant"
+   ]
   },
   {
    "slug": "arsenictrioxide",
@@ -1465,7 +1469,9 @@
     "Aranesp"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "darbepoetin-alfa"
+   ]
   },
   {
    "slug": "darolutamide",
@@ -1588,7 +1594,9 @@
     "Defitelio"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "defibrotide"
+   ]
   },
   {
    "slug": "degarelix",
@@ -1667,7 +1675,9 @@
     "Zinecard"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "dexrazoxane"
+   ]
   },
   {
    "slug": "dinutuximab",
@@ -2031,7 +2041,9 @@
     "Retacrit"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "epoetin-alfa"
+   ]
   },
   {
    "slug": "erdafitinib",
@@ -2205,7 +2217,9 @@
     "Zarxio"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "filgrastim"
+   ]
   },
   {
    "slug": "fludarabinephosphate",
@@ -2543,7 +2557,9 @@
     "Voraxaze"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "glucarpidase"
+   ]
   },
   {
    "slug": "goserelinacetate",
@@ -2575,7 +2591,9 @@
     "Sustol"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "granisetron"
+   ]
   },
   {
    "slug": "granisetronhydrochloride",
@@ -2586,7 +2604,9 @@
    "generic": "Granisetron Hydrochloride",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "granisetron"
+   ]
   },
   {
    "slug": "hydroxyurea",
@@ -3375,7 +3395,9 @@
     "Mesnex"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "mesna"
+   ]
   },
   {
    "slug": "methotrexate-sodium",
@@ -3407,7 +3429,9 @@
     "Relistor"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "methylnaltrexone"
+   ]
   },
   {
    "slug": "midostaurin",
@@ -3653,7 +3677,9 @@
     "Akynzeo"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "netupitant-palonosetron"
+   ]
   },
   {
    "slug": "nilotinib",
@@ -3930,7 +3956,9 @@
     "Zofran"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "ondansetron"
+   ]
   },
   {
    "slug": "oppa",
@@ -4046,7 +4074,9 @@
     "Kepivance"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "palifermin"
+   ]
   },
   {
    "slug": "palonosetronhydrochloride",
@@ -4060,7 +4090,9 @@
     "Aloxi"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "palonosetron"
+   ]
   },
   {
    "slug": "pamidronatedisodium",
@@ -4170,7 +4202,9 @@
     "Ziextenzo"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "pegfilgrastim"
+   ]
   },
   {
    "slug": "pembrolizumab",
@@ -4308,7 +4342,9 @@
     "Mozobil"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "plerixafor"
+   ]
   },
   {
    "slug": "polatuzumabvedotin-piiq",
@@ -4558,7 +4594,9 @@
     "Elitek"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "rasburicase"
+   ]
   },
   {
    "slug": "ravulizumab-cwvz",
@@ -4588,7 +4626,9 @@
     "Cervarix"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "hpv-bivalent-vaccine"
+   ]
   },
   {
    "slug": "recombinant-hpv-nonavalent-vaccine",
@@ -4620,7 +4660,9 @@
     "Gardasil"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "hpv-quadrivalent-vaccine"
+   ]
   },
   {
    "slug": "recombinant-interferon-alfa-2b",
@@ -4831,7 +4873,9 @@
     "Varubi"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "rolapitant"
+   ]
   },
   {
    "slug": "romidepsin",
@@ -5176,7 +5220,9 @@
     "Steritalc"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "talc-sclerosant"
+   ]
   },
   {
    "slug": "talimogenelaherparepvec",
@@ -5683,7 +5729,9 @@
     "Vistogard"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "uridine-triacetate"
+   ]
   },
   {
    "slug": "vac",

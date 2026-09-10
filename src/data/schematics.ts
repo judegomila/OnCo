@@ -15,9 +15,9 @@ const TAU = Math.PI * 2;
 const circlePts = (r: number, n: number, y = 0): Vec3[] => Array.from({ length: n }, (_, i) => [r * Math.cos((TAU * i) / n), y, r * Math.sin((TAU * i) / n)]);
 
 // ---------- shared compositions ----------
-function torso(): Mesh { return ellipsoid(1.1, 0.75, 0.6, 4, 12, "soft"); }
-function tumour(at: Vec3, r = 0.22): Mesh { const m = empty(); add(m, sphere(r, 4, 8, "hot"), { at }); return m; }
-function cellSphere(r: number, cls?: string): Mesh { return sphere(r, 5, 10, cls); }
+function torso(): Mesh { return ellipsoid(1.1, 0.75, 0.6, 4, 12, "soft", true); }
+function tumour(at: Vec3, r = 0.22): Mesh { const m = empty(); add(m, sphere(r, 4, 8, "hot", true), { at }); return m; }
+function cellSphere(r: number, cls?: string): Mesh { return sphere(r, 5, 10, cls, true); }
 
 function petScanner(targetLabel?: string): Mesh {
   const m = empty();

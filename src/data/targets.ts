@@ -328,6 +328,7 @@ export const targets: TargetInput[] = [
     biology: "Invariant TCR co-receptor; engagement triggers activation and cytokine release independent of MHC.",
     whereFound: ["All T cells (effector arm, not a tumour target)"],
     tags: ["t-cell-engager-target"],
+    notes: ["Prevalence not applicable: CD3 is the T-cell effector arm of bispecific engagers, not a tumour antigen, so no expression rate by cancer is recorded. Surface CD3 is present on most mature T-cell lymphomas, but that is not what the drugs select for."],
   },
   {
     id: "cd38", kind: "target", name: "CD38", symbol: "CD38", targetClass: "surface-antigen", asOf, wikipedia: W("CD38"),

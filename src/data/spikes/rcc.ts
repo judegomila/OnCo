@@ -203,7 +203,7 @@ const terms: TermInput[] = [
 ];
 
 const companies: CompanyInput[] = [
-  { id: "exelixis", kind: "company", name: "Exelixis", hq: "Alameda, CA", country: "US", companyType: "biotech", website: "https://www.exelixis.com", ticker: "EXEL", asOf, sections: ["targeted-therapy"],
+  { id: "exelixis", links: [{ label: "Official website", url: "https://www.exelixis.com" }], kind: "company", name: "Exelixis", hq: "Alameda, CA", country: "US", companyType: "biotech", website: "https://www.exelixis.com", ticker: "EXEL", asOf, sections: ["targeted-therapy"],
     tldr: "Maker of cabozantinib, the most-prescribed kidney cancer pill, and developer of its successor zanzalintinib.",
     summary: "Cabometyx (RCC, HCC, thyroid, NET), zanzalintinib (XL092) in phase 3 across RCC (with belzutifan, LITESPARK-034), colorectal (STELLAR-303), and NET; XB002 ADC.",
     drugs: ["cabozantinib"], cancers: ["rcc"] },

@@ -426,4 +426,345 @@ export const peopleLeadersWave3: PersonInput[] = [
     profiles: [{ label: "Swissmedic Management Board", url: "https://www.swissmedic.ch/swissmedic/en/home/about-us/organisation/management-board.html" }],
     links: [{ label: "Source: Swissmedic Management Board page", url: "https://www.swissmedic.ch/swissmedic/en/home/about-us/organisation/management-board.html" }],
     tags: ["leadership", "regulator", "drug-regulation"], cancers: [] }),
+  // =================== Leeds Cancer Centre, St James's University Hospital ===================
+  p({ id: "brendan-brown", name: "Brendan Brown", role: "Chief Executive, Leeds Teaching Hospitals NHS Trust", institutionId: "leeds-cancer-centre", specialisms: ["Hospital management", "NHS leadership", "Cancer services"],
+    tldr: "Chief Executive of Leeds Teaching Hospitals NHS Trust, the NHS trust that runs the Leeds Cancer Centre at St James's University Hospital.",
+    summary: "Brendan Brown is Chief Executive of Leeds Teaching Hospitals NHS Trust, which operates the Leeds Cancer Centre at St James's University Hospital, one of the largest cancer centres in the UK. He leads the Trust's board of executive directors alongside the Chief Medical Officer, Chief Nurse and Chief Operating Officer. The Trust website does not name a separate clinical director for the cancer centre.",
+    profiles: [{ label: "Trust Board members", url: "https://www.leedsth.nhs.uk/about/board/directors/" }],
+    links: [{ label: "Source: Leeds Teaching Hospitals Trust Board members page", url: "https://www.leedsth.nhs.uk/about/board/directors/" }],
+    tags: ["leadership", "nhs", "hospital-management"], cancers: [] }),
+
+  // =================== Ligue nationale contre le cancer ===================
+  p({ id: "philippe-bergerot", name: "Philippe Bergerot", role: "President of the Ligue nationale contre le cancer (since 2024)", institutionId: "ligue-contre-le-cancer", specialisms: ["Radiation oncology", "Cancer charity governance", "Patient advocacy"],
+    tldr: "Radiation oncologist who has presided over the Ligue nationale contre le cancer, France's national cancer charity, since 2024.",
+    summary: "Philippe Bergerot is President of the Ligue nationale contre le cancer, the French national cancer charity that funds research, supports patients and campaigns on prevention. He is a cancer physician and radiotherapist and was elected to lead the organisation's board in June 2024. He chairs a seven member bureau that prepares and oversees the decisions of the board of directors.",
+    profiles: [{ label: "Ligue governance page", url: "https://www.ligue-cancer.net/qui-sommesnous" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Bergerot+P%5BAuthor%5D" }],
+    links: [{ label: "Source: Ligue nationale contre le cancer, Qui sommes-nous (bureau)", url: "https://www.ligue-cancer.net/qui-sommesnous" }],
+    tags: ["leadership", "clinician-scientist", "radiation-oncology", "charity"], cancers: [] }),
+
+  // =================== Macmillan Cancer Support ===================
+  p({ id: "gemma-peters", name: "Gemma Peters", role: "Chief Executive Officer, Macmillan Cancer Support", institutionId: "macmillan-cancer-support", specialisms: ["Charity leadership", "Cancer support services", "Fundraising"],
+    tldr: "Chief Executive of Macmillan Cancer Support, the UK charity that provides practical, emotional and financial support to people living with cancer.",
+    summary: "Gemma Peters is Chief Executive Officer of Macmillan Cancer Support, the UK cancer support charity. She joined Macmillan in January 2023, bringing wide ranging expertise in the cancer and charity sectors. She leads an executive team that includes a Chief Medical Officer and a Chief Nursing Officer, with a stated focus on making sure people living with cancer get the support they need.",
+    profiles: [{ label: "Macmillan profile", url: "https://www.macmillan.org.uk/about-us/organisation/team/leadership/ceo-gemma-peters" }],
+    links: [{ label: "Source: Macmillan leadership team page", url: "https://www.macmillan.org.uk/about-us/organisation/team/leadership" }],
+    tags: ["leadership", "charity", "supportive-care"], cancers: [] }),
+
+  // =================== Marie Curie ===================
+  p({ id: "matthew-reed", name: "Matthew Reed", role: "Chief Executive, Marie Curie", institutionId: "marie-curie-uk", specialisms: ["Charity leadership", "Palliative and end of life care", "Social policy"],
+    tldr: "Chief Executive of Marie Curie, the UK end of life care charity, since February 2019.",
+    summary: "Matthew Reed has been Chief Executive of Marie Curie, the UK's leading end of life charity, since February 2019. He previously served as Chief Executive of The Children's Society and of the Cystic Fibrosis Trust and as a director at Christian Aid. The charity's Board of Trustees delegates day to day management to him, and its Executive Team reports to him.",
+    profiles: [{ label: "Marie Curie profile", url: "https://www.mariecurie.org.uk/about-us/governance/matthew-reed-chief-executive" }],
+    links: [{ label: "Source: Marie Curie, Who we are", url: "https://www.mariecurie.org.uk/about-us/who-we-are" }],
+    tags: ["leadership", "charity", "palliative-care"], cancers: [] }),
+
+  // =================== Movember ===================
+  p({ id: "andrew-little", name: "Andrew Little", role: "Chief Executive Officer, Movember", institutionId: "movember", specialisms: ["Charity leadership", "Men's health", "Prostate and testicular cancer funding"],
+    tldr: "Chief Executive of Movember, the global men's health charity that funds prostate cancer, testicular cancer and mental health programmes.",
+    summary: "Andrew Little is Chief Executive Officer of Movember, the global men's health charity best known for its annual moustache campaign and its funding of prostate cancer, testicular cancer and mental health work. He heads the Global Leadership Team, which is responsible for executing the strategies set by Movember's Board of Directors. The leadership team also includes the Director of the Movember Institute of Men's Health.",
+    profiles: [{ label: "Movember leadership and governance", url: "https://au.movember.com/about-us/governance" }],
+    links: [{ label: "Source: Movember governance page", url: "https://au.movember.com/about-us/governance" }],
+    tags: ["leadership", "charity", "mens-health"], cancers: ["prostate"] }),
+
+  // =================== National Cancer Institute, Cairo University ===================
+  p({ id: "mohamed-abdel-moaty-samra", name: "Mohamed Abdel Moaty Samra", role: "Dean of the National Cancer Institute, Cairo University", institutionId: "nci-cairo", specialisms: ["Oncology", "Academic leadership", "Cancer care in Egypt"],
+    tldr: "Professor who serves as Dean of the National Cancer Institute at Cairo University, Egypt's national cancer teaching hospital and research institute.",
+    summary: "Professor Mohamed Abdel Moaty Samra is Dean of the National Cancer Institute, Cairo University, the Egyptian national cancer teaching hospital and research institute. He heads the institute's senior administration, which includes vice deans for postgraduate studies and research and for community service, and a hospital director. He presided over the institute's graduation ceremony in February 2025.",
+    profiles: [{ label: "NCI Cairo senior administration", url: "https://nci.cu.edu.eg/%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Samra+MA%5BAuthor%5D+Cairo" }],
+    links: [{ label: "Source: NCI Cairo senior administration page", url: "https://nci.cu.edu.eg/%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7/" }],
+    tags: ["leadership", "clinician-scientist", "africa"], cancers: [] }),
+
+  // =================== National Institute for Health and Care Excellence ===================
+  p({ id: "jonathan-benger", name: "Jonathan Benger", role: "Chief Executive of NICE (since December 2025)", institutionId: "nice", specialisms: ["Health technology assessment", "Clinical guidelines", "Emergency medicine"],
+    tldr: "Emergency physician who became Chief Executive of NICE, the body that appraises new cancer medicines and issues clinical guidance for the NHS, in December 2025.",
+    summary: "Professor Jonathan Benger is Chief Executive of the National Institute for Health and Care Excellence (NICE), the English body that produces clinical guidelines and appraises the cost effectiveness of new treatments, including cancer drugs. He joined NICE in January 2023 as Chief Medical Officer, became interim director of the centre for guidelines in March 2023, was appointed deputy chief executive in May 2024 and chief executive in December 2025. Earlier he was interim chief clinical information officer at NHS England, Chief Medical Officer of NHS Digital and national clinical director for urgent and emergency care.",
+    profiles: [{ label: "NICE executive team", url: "https://www.nice.org.uk/about-us/executive-team" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Benger+JR%5BAuthor%5D" }],
+    links: [{ label: "Source: NICE executive team page", url: "https://www.nice.org.uk/about-us/executive-team" }],
+    tags: ["leadership", "clinician-scientist", "hta", "policy"], cancers: [] }),
+
+  // =================== National Institute of Oncology, Hungary ===================
+  p({ id: "magdolna-dank", name: "Magdolna Dank", role: "Director-General and Chief Physician, National Institute of Oncology, Budapest", institutionId: "noi-budapest", specialisms: ["Clinical oncology", "Medical oncology", "Cancer centre management"],
+    tldr: "Hungarian oncologist who is Director-General of the National Institute of Oncology in Budapest, Hungary's national cancer centre.",
+    summary: "Professor Magdolna Dank is Director-General and Chief Physician (Foigazgato Foorvos) of the National Institute of Oncology (Orszagos Onkologiai Intezet) in Budapest, Hungary's national comprehensive cancer centre. She heads a directorate that includes a medical director, a scientific director and a nursing director. Her welcome message on the institute's home page introduces her in the role of Director-General.",
+    profiles: [{ label: "Institute directors page", url: "https://onkol.hu/igazgatok/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Dank+M%5BAuthor%5D" }],
+    links: [{ label: "Source: National Institute of Oncology directors page", url: "https://onkol.hu/igazgatok/" }],
+    tags: ["leadership", "clinician-scientist", "medical-oncology"], cancers: [] }),
+
+  // =================== Nationwide Children's Hospital ===================
+  p({ id: "timothy-robinson", name: "Timothy Robinson", role: "Chief Executive Officer, Nationwide Children's Hospital", institutionId: "nationwide-childrens", specialisms: ["Hospital management", "Paediatric health systems", "Finance"],
+    tldr: "Chief Executive of Nationwide Children's Hospital in Columbus, Ohio, a large paediatric health system with a major childhood cancer programme.",
+    summary: "Timothy Robinson is Chief Executive Officer of Nationwide Children's Hospital in Columbus, Ohio, a paediatric health system that includes the Abigail Wexner Research Institute and the Nationwide Children's Hospital Foundation. He became CEO on 1 July 2019 after serving as executive vice president and chief financial officer. The hospital describes his financial leadership as central to its growth into a preeminent paediatric health care system.",
+    profiles: [{ label: "Nationwide Children's leadership page", url: "https://www.nationwidechildrens.org/about-us/who-we-are/leadership" }],
+    links: [{ label: "Source: Nationwide Children's executive leadership page", url: "https://www.nationwidechildrens.org/about-us/who-we-are/leadership" }],
+    tags: ["leadership", "paediatric", "hospital-management"], cancers: [] }),
+
+  // =================== NCI Center for Cancer Research (intramural programme) ===================
+  p({ id: "senthil-muthuswamy", name: "Senthil K. Muthuswamy", role: "Director, Center for Cancer Research, National Cancer Institute", institutionId: "nci-ccr", specialisms: ["Cancer cell biology", "Organoid models", "Breast and pancreatic cancer"],
+    tldr: "Cancer biologist who directs the National Cancer Institute's Center for Cancer Research, the large intramural research programme in Bethesda.",
+    summary: "Senthil K. Muthuswamy is Director of the Center for Cancer Research (CCR), the intramural research programme of the US National Cancer Institute, and a Senior Investigator in its Laboratory of Cancer Biology and Genetics. He pioneered three dimensional organoid culture and co-culture methods for mechanistic, translational and co-clinical studies, and his laboratory defined roles for cell polarity proteins in cancer biology and therapy resistance. His research interests include metastasis, breast and pancreatic cancer and cancer immunotherapy.",
+    profiles: [{ label: "CCR staff profile", url: "https://ccr.cancer.gov/staff-directory/senthil-k-muthuswamy" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Muthuswamy+SK%5BAuthor%5D" }],
+    links: [{ label: "Source: CCR Office of the Director leadership page", url: "https://ccr.cancer.gov/about/office-of-the-director" }],
+    tags: ["leadership", "clinician-scientist", "cancer-biology", "organoids"], cancers: ["pancreatic", "breast-hr-positive"] }),
+
+  // =================== Nordic Lymphoma Group ===================
+  p({ id: "sirpa-leppa", name: "Sirpa Leppä", role: "Chairperson, Nordic Lymphoma Group", institutionId: "nordic-lymphoma-group", specialisms: ["Lymphoma", "Medical oncology", "Clinical trials"],
+    tldr: "Helsinki oncologist who chairs the Nordic Lymphoma Group, the cooperative network that runs lymphoma trials and guidelines across the Nordic countries.",
+    summary: "Sirpa Leppä is Chairperson of the Nordic Lymphoma Group (NLG), the cooperative group of Nordic haematologists and oncologists that develops lymphoma guidelines and protocols and runs multicentre trials. She works in the Department of Oncology at Helsinki University Hospital, Finland. The NLG coordinating group she chairs includes representatives from Finland, Norway, Sweden and Denmark, with Alexander Fosså of Oslo University Hospital as vice-chairman.",
+    profiles: [{ label: "NLG coordinating group", url: "https://www.nordic-lymphoma.org/coordinating-group/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Lepp%C3%A4+S%5BAuthor%5D" }],
+    links: [{ label: "Source: Nordic Lymphoma Group coordinating group page", url: "https://www.nordic-lymphoma.org/coordinating-group/" }],
+    tags: ["leadership", "clinician-scientist", "lymphoma", "cooperative-group"], cancers: ["dlbcl", "hodgkin-lymphoma"] }),
+
+  // =================== Northwell Health Cancer Institute ===================
+  p({ id: "richard-barakat", name: "Richard Barakat", role: "Physician-in-Chief and Executive Director, Northwell Cancer Institute", institutionId: "northwell-cancer-institute", specialisms: ["Surgical oncology", "Cancer service line leadership", "Health system oncology"],
+    tldr: "Physician-in-Chief and Executive Director of the Northwell Cancer Institute, the cancer service of New York's largest health system.",
+    summary: "Richard Barakat, MD, MBA, is Physician-in-Chief and Executive Director of the Northwell Cancer Institute, the cancer programme of Northwell Health, which spans hospitals and cancer centres across New York and Connecticut. In that capacity he announced the September 2026 appointment of a system director of central nervous system cancer and described the institute's aim of connecting laboratory discovery with patient care. Institute leadership also includes a deputy physician-in-chief and director of medical oncology.",
+    profiles: [{ label: "Northwell news release naming role", url: "https://www.northwell.edu/news/the-latest/northwell-appoints-system-director-central-nervous-system-cancer" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Barakat+RR%5BAuthor%5D" }],
+    links: [{ label: "Source: Northwell Health news release, September 2026", url: "https://www.northwell.edu/news/the-latest/northwell-appoints-system-director-central-nervous-system-cancer" }],
+    tags: ["leadership", "clinician-scientist", "health-system"], cancers: [] }),
+
+  // =================== Ocean Road Cancer Institute ===================
+  p({ id: "diwani-msemo", name: "Diwani Msemo", role: "Executive Director, Ocean Road Cancer Institute", institutionId: "ocean-road-cancer-institute", specialisms: ["Cancer services in Tanzania", "Radiotherapy access", "Health system leadership"],
+    tldr: "Executive Director of the Ocean Road Cancer Institute, Tanzania's national cancer hospital in Dar es Salaam.",
+    summary: "Dr Diwani Msemo leads the Ocean Road Cancer Institute (ORCI), Tanzania's national specialised cancer institute in Dar es Salaam. In August 2026 he announced that ORCI would begin offering major cancer surgery in October, ending the need to refer patients to other national hospitals for operations before returning for radiotherapy or chemotherapy. He also reported the installation of a PET scanner at ORCI, described as the first in East and Central Africa.",
+    profiles: [{ label: "Daily News (Tanzania) report", url: "https://dailynews.co.tz/orci-set-to-begin-major-cancer-surgery/" }],
+    links: [{ label: "Source: Daily News Tanzania, ORCI set to begin major cancer surgery (August 2026)", url: "https://dailynews.co.tz/orci-set-to-begin-major-cancer-surgery/" }],
+    tags: ["leadership", "clinician-scientist", "africa", "global-oncology"], cancers: [] }),
+
+  // =================== Olivia Newton-John Cancer Wellness and Research Centre ===================
+  p({ id: "marco-herold", name: "Marco Herold", role: "Chief Executive Officer, Olivia Newton-John Cancer Research Institute", institutionId: "onj-cancer-centre", specialisms: ["Blood cancer", "Cancer immunotherapy", "CRISPR genome editing"],
+    tldr: "Cancer biologist who leads the Olivia Newton-John Cancer Research Institute, the research arm of the Olivia Newton-John Cancer Wellness and Research Centre in Melbourne.",
+    summary: "Professor Marco Herold is Chief Executive Officer of the Olivia Newton-John Cancer Research Institute (ONJCRI), the research institute embedded in the Olivia Newton-John Cancer Wellness and Research Centre, an Austin Health comprehensive cancer service in Heidelberg, Melbourne. He also heads the Blood Cancer and Immunotherapy Laboratory and La Trobe University's School of Cancer Medicine, and joined ONJCRI in 2023 from the Walter and Eliza Hall Institute. His research applies genome wide CRISPR screening to find drug resistance factors and targets that enhance immune therapies.",
+    profiles: [{ label: "ONJCRI profile", url: "https://www.onjcri.org.au/about/marco-herold/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Herold+MJ%5BAuthor%5D" }],
+    links: [{ label: "Source: ONJCRI our people page", url: "https://www.onjcri.org.au/our-people/" }],
+    tags: ["leadership", "clinician-scientist", "immunotherapy", "genome-editing"], cancers: [] }),
+
+  // =================== Osaka International Cancer Institute ===================
+  p({ id: "nariaki-matsuura", name: "Nariaki Matsuura", role: "President (Socho), Osaka International Cancer Institute", institutionId: "osaka-international-cancer-institute", specialisms: ["Cancer centre management", "Pathology", "Cancer medicine"],
+    tldr: "President of the Osaka International Cancer Institute, the Osaka prefectural cancer centre that relocated to a new hospital in central Osaka in 2017.",
+    summary: "Nariaki Matsuura (Matsuura Nariaki) is President (Socho) of the Osaka International Cancer Institute, the Osaka Prefectural Hospital Organization's cancer centre, which was founded in 1959 as the Osaka Prefectural Adult Disease Centre and took its current name on moving to Otemae, Osaka, in 2017. In his greeting he describes the institute's aims of delivering the best available treatment, developing new therapies and supporting patients' quality of life under the philosophy of advanced cancer care based on the patient's perspective. The institute is a designated prefectural cancer care hub and a cancer genomic medicine hub hospital.",
+    profiles: [{ label: "Institute overview and president's greeting (Japanese)", url: "https://oici.jp/center/outline/overview/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Matsuura+Nariaki%5BAuthor%5D" }],
+    links: [{ label: "Source: Osaka International Cancer Institute centre overview page", url: "https://oici.jp/center/outline/overview/" }],
+    tags: ["leadership", "clinician-scientist", "japan"], cancers: [] }),
+
+  // =================== Oxford Cancer, Oxford University Hospitals and University of Oxford ===================
+  p({ id: "mark-middleton", name: "Mark Middleton", role: "Director, Oxford Cancer (co-director with Tim Elliott and Adam Mead)", institutionId: "oxford-cancer", specialisms: ["Experimental cancer medicine", "Melanoma", "Upper gastrointestinal cancer", "Early phase trials"],
+    tldr: "Medical oncologist who co-directs Oxford Cancer, the city-wide partnership between the University of Oxford and Oxford University Hospitals.",
+    summary: "Mark Middleton is one of three Directors of Oxford Cancer, the network and partnership between the University of Oxford and Oxford University Hospitals NHS Trust, alongside Tim Elliott and Adam Mead, and he co-chairs its Governance Board. He is Head of the Department of Oncology, Professor of Experimental Cancer Medicine and a Consultant Medical Oncologist at the Oxford Cancer and Haematology Centre, working on early phase, melanoma and upper gastrointestinal cancer trials. He trained at Cambridge, Oxford and the Christie Hospital and has been chief or principal investigator on more than 100 trials.",
+    profiles: [{ label: "Department of Oncology profile", url: "https://www.oncology.ox.ac.uk/team/mark-middleton" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Middleton+MR%5BAuthor%5D" }],
+    links: [{ label: "Source: Oxford Cancer, Our Team", url: "https://www.cancer.ox.ac.uk/about/our-team" }],
+    tags: ["leadership", "clinician-scientist", "medical-oncology", "early-phase-trials"], cancers: ["melanoma", "gastric", "esophageal"] }),
+  // =================== Advanced Research Projects Agency for Health ===================
+  p({ id: "alicia-jackson", name: "Alicia Jackson", role: "Director of the Advanced Research Projects Agency for Health", institutionId: "arpa-h", specialisms: ["Biomedical research funding", "Biotechnology", "Women's health"],
+    tldr: "Materials scientist and biotechnology founder who directs ARPA-H, the United States agency that funds high-risk, high-reward health research programmes.",
+    summary: "Alicia Jackson is Director of the Advanced Research Projects Agency for Health (ARPA-H), the United States government agency that funds high-risk, high-reward biomedical research. She holds a PhD in materials science from MIT and previously served as a Program Manager and Deputy Director of DARPA's Biological Technologies Office, where she guided an investment portfolio across biodefence, novel medicine development and biomanufacturing. She founded and led Evernow, a company focused on women's health during menopause, and co-founded or advised several biotechnology start-ups.",
+    profiles: [{ label: "Institution profile", url: "https://arpa-h.gov/about/people/alicia-jackson" }],
+    links: [{ label: "Source: ARPA-H Our People page", url: "https://arpa-h.gov/about/people" }],
+    tags: ["leadership", "government", "research-funding"], cancers: [] }),
+
+  // =================== Agência Nacional de Vigilância Sanitária ===================
+  p({ id: "leandro-pinheiro-safatle", name: "Leandro Pinheiro Safatle", role: "Diretor-Presidente (Director-President) of Anvisa", institutionId: "anvisa", specialisms: ["Health regulation", "Medicines regulation", "Public health policy"],
+    tldr: "Director-President of Anvisa, the Brazilian health regulatory agency that authorises medicines, including cancer treatments, for the Brazilian market.",
+    summary: "Leandro Pinheiro Safatle is Diretor-Presidente of the Agência Nacional de Vigilância Sanitária (Anvisa), Brazil's federal health regulatory agency, created by law 9.782 of January 1999. He heads the agency's Diretoria Colegiada, the collegiate board that takes regulatory decisions on medicines, medical devices and other health products. His official page on the Anvisa site lists him in the role with the contact details of the presidency office.",
+    profiles: [{ label: "Institution profile", url: "https://www.gov.br/anvisa/pt-br/composicao/diretor-presidente/antonio-barra-torres" }],
+    links: [{ label: "Source: Anvisa Diretor-Presidente page", url: "https://www.gov.br/anvisa/pt-br/composicao/diretor-presidente" }],
+    tags: ["leadership", "regulator", "government"], cancers: [] }),
+
+  // =================== Aichi Cancer Center ===================
+  p({ id: "yasumasa-niwa", name: "Yasumasa Niwa", role: "Hospital Director, Aichi Cancer Center Hospital", institutionId: "aichi-cancer-center", specialisms: ["Cancer hospital leadership", "Oncology", "Hospital management"],
+    tldr: "Physician who leads Aichi Cancer Center Hospital, the 500-bed prefectural cancer hospital in Nagoya, Japan, as its hospital director.",
+    summary: "Yasumasa Niwa (丹羽康正) is listed as Hospital Director (病院長) of Aichi Cancer Center Hospital, the prefectural cancer hospital of Aichi Prefecture in Chikusa, Nagoya. The hospital opened in December 1964, has 500 general beds and offers internal medicine, surgery, orthopaedics, neurosurgery, dermatology, urology, gynaecology, ophthalmology, otolaryngology, radiology, anaesthesiology and dentistry. The centre's own website could not be reached, so this record relies on the Japanese Wikipedia article and gives no start date.",
+    profiles: [{ label: "Wikipedia (Japanese)", url: "https://ja.wikipedia.org/wiki/%E6%84%9B%E7%9F%A5%E7%9C%8C%E3%81%8C%E3%82%93%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC" }],
+    links: [{ label: "Source: Japanese Wikipedia article on Aichi Cancer Center", url: "https://ja.wikipedia.org/wiki/%E6%84%9B%E7%9F%A5%E7%9C%8C%E3%81%8C%E3%82%93%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC" }],
+    tags: ["leadership", "clinician-scientist", "hospital"], cancers: [] }),
+
+  // =================== American Society of Hematology ===================
+  p({ id: "robert-negrin", name: "Robert Negrin", role: "President of the American Society of Hematology (2026)", institutionId: "ash", specialisms: ["Haematology", "Blood and marrow transplantation", "Cellular therapy"],
+    tldr: "Stanford transplant physician and cellular immunologist who is President of the American Society of Hematology for 2026.",
+    summary: "Robert Negrin is President of the American Society of Hematology (ASH) for the 2026 term, serving alongside President-Elect Cindy E. Dunbar and Vice President Alison Loren on the Executive Committee of the professional society for clinicians and scientists in haematology, including blood cancers. He is Professor of Medicine (Blood and Marrow Transplantation and Cellular Therapy) at Stanford University, where he chaired the Division of Blood and Marrow Transplantation from 2000 to 2020. His laboratory studies graft versus host and graft versus tumour reactions, regulatory T cell therapy to prevent complications after transplantation, and expansion of cytotoxic cells for immunotherapy.",
+    profiles: [{ label: "Stanford profile", url: "https://profiles.stanford.edu/robert-negrin" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Negrin+RS%5BAuthor%5D" }],
+    links: [{ label: "Source: ASH Executive Committee page", url: "https://www.hematology.org/about/governance/executive-committee" }],
+    tags: ["leadership", "clinician-scientist", "haematology", "society"], cancers: [] }),
+
+  // =================== Arc Institute ===================
+  p({ id: "silvana-konermann", name: "Silvana Konermann", role: "Executive Director and Core Investigator, Arc Institute", institutionId: "arc-institute", specialisms: ["Functional genomics", "CRISPR technologies", "Neurodegeneration"],
+    tldr: "Neuroscientist and co-founder who runs the Arc Institute, an independent research institute in the San Francisco Bay Area built to tackle complex diseases.",
+    summary: "Silvana Konermann is Co-Founder, Executive Director and a Core Investigator of the Arc Institute, an independent research institute she started with Patrick Hsu and Patrick Collison after the three collaborated on Fast Grants. She is also Assistant Professor of Biochemistry at Stanford, holds a PhD in neuroscience from MIT, and has been a Chan Zuckerberg Biohub Investigator and a Hanna Gray Fellow of the Howard Hughes Medical Institute. Her laboratory uses CRISPR-based transcriptome engineering and functional genomic screens in brain cell models to uncover the molecular pathways behind Alzheimer's disease and other neurodegenerative disorders.",
+    profiles: [{ label: "Institution profile", url: "https://arcinstitute.org/labs/konermannlab" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Konermann+S%5BAuthor%5D" }],
+    links: [{ label: "Source: Arc Institute About page", url: "https://arcinstitute.org/about" }],
+    tags: ["leadership", "clinician-scientist", "genomics", "research-institute"], cancers: [] }),
+
+  // =================== ARCAGY-GINECO ===================
+  p({ id: "sebastien-armanet", name: "Sébastien Armanet", role: "Directeur Général (Director General) of ARCAGY-GINECO", institutionId: "arcagy-gineco", specialisms: ["Clinical research operations", "Gynaecological oncology trials", "Academic cooperative groups"],
+    tldr: "Director General who runs the operational team of ARCAGY-GINECO, the French non-profit academic research group for gynaecological and metastatic breast cancers.",
+    summary: "Sébastien Armanet is Directeur Général of ARCAGY-GINECO, an independent, non-profit academic cooperative group founded more than 30 years ago that runs clinical and translational research in gynaecological cancers and metastatic breast cancer. He leads its operational structure of about 45 staff, organised into clinical operations, quality assurance and regulatory affairs, translational research with a biological resource centre, administration and communication, and a medical unit. The association's board is chaired by President Marc Oberlis, with Alain Dormoy as treasurer, Bernard Poletto as secretary, and GINECO scientific committee members Anne-Claire Hardy-Bessard, Fabrice Lecuru and Bernard Asselain.",
+    profiles: [{ label: "Institution profile", url: "https://arcagy.org/fr/page/50-organisation-d-arcagy.html" }],
+    links: [{ label: "Source: ARCAGY organisation page", url: "https://arcagy.org/fr/page/50-organisation-d-arcagy.html" }],
+    tags: ["leadership", "clinical-trials", "cooperative-group"], cancers: ["ovarian", "endometrial", "cervical"] }),
+
+  // =================== BC Cancer ===================
+  p({ id: "paris-ann-ingledew", name: "Paris-Ann Ingledew", role: "Executive Vice President and Chief Medical Officer, BC Cancer", institutionId: "bc-cancer", specialisms: ["Radiation oncology", "Medical education", "Health leadership"],
+    tldr: "Radiation oncologist and educator who is the executive lead for BC Cancer, the provincial cancer agency of British Columbia, Canada.",
+    summary: "Paris-Ann Ingledew is Executive Vice President and Chief Medical Officer of BC Cancer, the provincial cancer programme within the Provincial Health Services Authority of British Columbia. A radiation oncologist, she has held leadership roles across BC Cancer's regional centres, including department head of radiation oncology at BC Cancer Vancouver, and is past president of BC Cancer's Medical Dental Staff Association. She holds a master's degree in health professions education, is a clinical professor at the University of British Columbia and chairs the Royal College specialty committee for radiation oncology.",
+    profiles: [{ label: "PHSA executive team", url: "http://www.phsa.ca/about/leadership/phsa-executive" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Ingledew+PA%5BAuthor%5D" }],
+    links: [{ label: "Source: PHSA executive leadership page", url: "http://www.phsa.ca/about/leadership/phsa-executive" }],
+    tags: ["leadership", "clinician-scientist", "radiation-oncology"], cancers: [] }),
+
+  // =================== Butaro Cancer Center of Excellence ===================
+  p({ id: "nadine-karema", name: "Nadine Karema", role: "Executive Director, Partners In Health Rwanda (Inshuti Mu Buzima)", institutionId: "butaro-cancer-center", specialisms: ["Global health delivery", "Health systems strengthening", "Non-profit leadership"],
+    tldr: "Executive Director of Partners In Health Rwanda, the organisation whose programme in northern Rwanda includes the Butaro Cancer Center of Excellence.",
+    summary: "Nadine Karema is Executive Director of Partners In Health Rwanda, known locally as Inshuti Mu Buzima, the Rwandan arm of Partners In Health. The organisation supports district health programmes in Burera, Kirehe and Kayonza and the Butaro Cancer Center of Excellence, which Partners In Health describes as a centre for cancer care and medical education in East Africa. She leads an executive team that includes chief officers for policy and partnerships, finance, operations and human resources.",
+    profiles: [{ label: "Institution profile", url: "https://pihrwanda.org/about-us/our-team" }],
+    links: [{ label: "Source: PIH Rwanda team page", url: "https://pihrwanda.org/about-us/our-team" }],
+    tags: ["leadership", "global-oncology", "non-profit"], cancers: [] }),
+
+  // =================== Canadian Cancer Society ===================
+  p({ id: "andrea-seale", name: "Andrea Seale", role: "Chief Executive Officer, Canadian Cancer Society", institutionId: "canadian-cancer-society", specialisms: ["Charity leadership", "Cancer advocacy", "Support programmes and fundraising"],
+    tldr: "Chief executive of the Canadian Cancer Society, the national charity that funds cancer research, advocates on policy and runs support services across Canada.",
+    summary: "Andrea Seale is Chief Executive Officer of the Canadian Cancer Society, the national cancer charity that funds research, delivers cancer support and prevention programmes, and advocates on public policy. She leads an executive team that includes Catalina Lopez-Correa as Executive Vice President of Research, Sandra Krueckl as Executive Vice President of Mission Services, and Riaz Kara as Executive Vice President of Advocacy and Policy.",
+    profiles: [{ label: "Institution profile", url: "https://cancer.ca/en/about-us/our-people" }],
+    links: [{ label: "Source: Canadian Cancer Society Our People page", url: "https://cancer.ca/en/about-us/our-people" }],
+    tags: ["leadership", "charity", "advocacy"], cancers: [] }),
+
+  // =================== Cancer Care Alberta (Alberta Health Services) ===================
+  p({ id: "brenda-hubley", name: "Brenda Hubley", role: "Chair and Managing Director, Cancer Care Alberta", institutionId: "cancer-care-alberta", specialisms: ["Radiation therapy", "Cancer programme leadership", "Health services management"],
+    tldr: "Radiation therapist turned health executive who leads Cancer Care Alberta, the provincial cancer programme for Alberta, Canada.",
+    summary: "Brenda Hubley is Chair and Managing Director of Cancer Care Alberta, the organisation responsible for cancer services across the province of Alberta. She has a clinical background as a radiation therapist and more than 30 years in health care, with senior leadership roles in cancer programmes at large academic centres and in rural and community settings. She previously served as Chief Program Officer for Cancer Care Alberta within Alberta Health Services.",
+    profiles: [{ label: "Institution profile", url: "https://www.cancercarealberta.ca/" }],
+    links: [{ label: "Source: Cancer Care Alberta homepage", url: "https://www.cancercarealberta.ca/" }],
+    tags: ["leadership", "health-system", "radiation-therapy"], cancers: [] }),
+
+  // =================== Cancer Council Australia ===================
+  p({ id: "jacinta-reddan", name: "Jacinta Reddan", role: "Chief Executive Officer, Cancer Council Australia", institutionId: "cancer-council-australia", specialisms: ["Non-profit leadership", "Public health advocacy", "Stakeholder engagement"],
+    tldr: "Chief executive of Cancer Council Australia, the national body of Australia's state and territory cancer councils, which leads cancer control advocacy and research funding.",
+    summary: "Jacinta Reddan is Chief Executive Officer of Cancer Council Australia, the national organisation that brings together the state and territory Cancer Councils. She brings leadership experience across financial services, defence, tourism, public health and infrastructure in Australia and the Asia-Pacific region, and previously held an advocacy leadership role covering Far North Queensland. She holds a degree in international relations and anthropology from Deakin University, a public health qualification from HarvardX, and is a Graduate of the Australian Institute of Company Directors.",
+    profiles: [{ label: "Institution profile", url: "https://www.cancer.org.au/about-us/about-cancer-council/australia/ceo" }],
+    links: [{ label: "Source: Cancer Council Australia CEO page", url: "https://www.cancer.org.au/about-us/about-cancer-council/australia/ceo" }],
+    tags: ["leadership", "charity", "advocacy"], cancers: [] }),
+
+  // =================== Cancer Institute of Iran, Imam Khomeini Hospital Complex ===================
+  p({ id: "seyed-rouhollah-miri", name: "Seyed Rouhollah Miri", role: "Head of the Cancer Institute, Imam Khomeini Hospital Complex", institutionId: "tehran-cancer-institute", specialisms: ["Surgical oncology", "Cancer surgery", "Cancer hospital leadership"],
+    tldr: "Surgical oncologist who heads the Cancer Institute of Iran at Tehran's Imam Khomeini Hospital Complex, the country's oldest dedicated cancer institute.",
+    summary: "Seyed Rouhollah Miri, a subspecialist in cancer surgery, is Head of the Cancer Institute at the Imam Khomeini Hospital Complex of Tehran University of Medical Sciences, with Leila Torkzadeh, who holds a doctorate in health policy, as its manager. The institute is one of the complex's hospitals on the eastern side of the campus, and its site describes a hospital cancer registry office set up in 1997, a Cancer Research Centre that grew out of that registry, and a Radiation Oncology Research Centre approved in 2014. The institute page lists seven outpatient and seven inpatient operating room beds.",
+    profiles: [{ label: "Institution page (Persian)", url: "https://ikhc.tums.ac.ir/%D8%A8%DB%8C%D9%85%D8%A7%D8%B1%D8%B3%D8%AA%D8%A7%D9%86-%D8%A7%D9%86%D8%B3%D8%AA%DB%8C%D8%AA%D9%88-%DA%A9%D8%A7%D9%86%D8%B3%D8%B1" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Miri+SR%5BAuthor%5D" }],
+    links: [{ label: "Source: IKHC Cancer Institute hospital page", url: "https://ikhc.tums.ac.ir/%D8%A8%DB%8C%D9%85%D8%A7%D8%B1%D8%B3%D8%AA%D8%A7%D9%86-%D8%A7%D9%86%D8%B3%D8%AA%DB%8C%D8%AA%D9%88-%DA%A9%D8%A7%D9%86%D8%B3%D8%B1" }],
+    tags: ["leadership", "clinician-scientist", "surgical-oncology"], cancers: [] }),
+  // =================== Instituto Nacional de Cancerología (Mexico) ===================
+  p({ id: "oscar-arrieta-rodriguez", name: "Óscar Gerardo Arrieta Rodríguez", role: "Director General of the Instituto Nacional de Cancerología (INCan)", institutionId: "incan-mexico", specialisms: ["Medical oncology", "Thoracic oncology", "Translational research"],
+    tldr: "Medical oncologist specialising in lung cancer who directs Mexico's national cancer institute, INCan, in Mexico City.",
+    summary: "Óscar Gerardo Arrieta Rodríguez is Director General of the Instituto Nacional de Cancerología (INCan), Mexico's national cancer institute and one of the country's National Institutes of Health. He is a medical oncologist and researcher with a longstanding interest in translational research in thoracic oncology, and he founded and led INCan's Thoracic Oncology Unit before his appointment. He was designated Director General in 2023 for the 2023 to 2028 term and was named in that role in a Ministry of Health press release marking the institute's 79th anniversary in November 2025.",
+    profiles: [{ label: "Institution directory", url: "https://incan.salud.gob.mx/directorio/direccion-general" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Arrieta+O%5BAuthor%5D+AND+Cancerologia" }],
+    links: [{ label: "Source: Mexican Ministry of Health press release, November 2025", url: "https://www.gob.mx/salud/prensa/225-instituto-nacional-de-cancerologia-cumple-79-anos-con-avances-tecnologicos-y-mayor-capacidad-de-atencion" }],
+    tags: ["leadership", "clinician-scientist", "thoracic-oncology"], cancers: ["nsclc"] }),
+
+  // =================== Instituto Nacional de Enfermedades Neoplásicas ===================
+  p({ id: "francisco-berrospi-espinoza", name: "Francisco Berrospi Espinoza", role: "Jefe Institucional (Institutional Head) of INEN", institutionId: "inen-peru", specialisms: ["Surgical oncology", "Hepato-pancreato-biliary surgery", "Gastrointestinal cancer surgery"],
+    tldr: "Cancer surgeon who heads Peru's national cancer institute, INEN, after more than two decades as an abdominal surgeon there.",
+    summary: "Francisco Berrospi Espinoza is Jefe Institucional of the Instituto Nacional de Enfermedades Neoplásicas (INEN), Peru's national cancer institute in Lima. He trained in medicine at the Universidad Nacional de Trujillo, specialised in general and oncological surgery at the Universidad Peruana Cayetano Heredia and holds a master's degree in health services management from ESAN. He has been an attending surgeon in INEN's Abdominal Surgery Department since 2000 and previously directed the institute's surgery department; his clinical focus is gastrointestinal and hepato-pancreato-biliary cancer surgery. He was designated Jefe Institucional by Resolución Suprema 016-2022-SA in August 2022.",
+    profiles: [{ label: "Institution profile", url: "https://portal.inen.sld.pe/jefatura-institucional/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Berrospi+F%5BAuthor%5D" }],
+    links: [{ label: "Source: INEN Jefatura Institucional page", url: "https://portal.inen.sld.pe/jefatura-institucional/" }],
+    tags: ["leadership", "clinician-scientist", "surgical-oncology"], cancers: ["gastric", "hcc", "pancreatic"] }),
+
+  // =================== Instituto Português de Oncologia de Lisboa Francisco Gentil ===================
+  p({ id: "carla-goncalo", name: "Carla Gonçalo", role: "Presidente do Conselho de Administração (Chair of the Board of Directors) of IPO Lisboa", institutionId: "ipo-lisboa", specialisms: ["Health services management", "Hospital governance", "Public health administration"],
+    tldr: "Health manager who chairs the board of IPO Lisboa, the Portuguese Oncology Institute in Lisbon, since the board took office in 2025.",
+    summary: "Carla Gonçalo is Presidente do Conselho de Administração of the Instituto Português de Oncologia de Lisboa Francisco Gentil (IPO Lisboa), the public oncology hospital that serves as the cancer reference centre for the Lisbon region. She is a health manager who previously sat on the management council of the Executive Directorate of Portugal's National Health Service (SNS) and earlier served as vice-president of the Central Administration of the Health System (ACSS). The current board was appointed by Resolução do Conselho de Ministros n.º 60/2025, published on 18 March 2025, for a three-year term.",
+    profiles: [{ label: "Institution news: new board announced", url: "https://www.ipolisboa.min-saude.pt/noticias/ipo-lisboa-tem-nova-administracao/" }, { label: "Institution governance page", url: "https://www.ipolisboa.min-saude.pt/ipo/governacao/" }],
+    links: [{ label: "Source: IPO Lisboa news, new administration", url: "https://www.ipolisboa.min-saude.pt/noticias/ipo-lisboa-tem-nova-administracao/" }],
+    tags: ["leadership", "health-management"], cancers: [] }),
+
+  // =================== Instituto Português de Oncologia do Porto Francisco Gentil ===================
+  p({ id: "julio-oliveira", name: "Júlio Oliveira", role: "Presidente do Conselho de Administração (Chair of the Board of Directors) of IPO Porto", institutionId: "ipo-porto", specialisms: ["Medical oncology", "Cancer centre management", "Clinical research"],
+    tldr: "Medical oncologist who chairs the board of IPO Porto, the public cancer hospital serving northern Portugal, since 2022.",
+    summary: "Júlio Oliveira is Presidente do Conselho de Administração of the Instituto Português de Oncologia do Porto Francisco Gentil (IPO Porto), the National Health Service oncology hospital that is the reference cancer centre for northern Portugal. A medical oncologist, he has chaired the board since it took office in October 2022 and was reappointed for a further three-year term in 2026. In 2024 he was elected to the board of the Organisation of European Cancer Institutes (OECI) as Executive Secretary for the 2024 to 2027 term, and in 2025 he led the creation of an association to promote clinical research at the institute.",
+    profiles: [{ label: "Institution news: elected to OECI board", url: "https://www.ipoporto.pt/presidente-do-ipo-porto-eleito-para-a-nova-direcao-da-oeci/" }],
+    links: [{ label: "Source: IPO Porto news on clinical research association, May 2025", url: "https://www.ipoporto.pt/ipo-porto-cria-associacao-para-impusionar-a-investigacao-clinica/" }],
+    tags: ["leadership", "clinician-scientist", "medical-oncology"], cancers: [] }),
+
+  // =================== Intermountain Health Cancer Center ===================
+  p({ id: "derrick-haslem", name: "Derrick S. Haslem", role: "Senior Medical Director of the Oncology Clinical Program, Intermountain Health", institutionId: "intermountain-cancer", specialisms: ["Medical oncology", "Breast cancer", "Cancer genomics and targeted therapy", "Tele-oncology"],
+    tldr: "Medical oncologist who leads the oncology clinical programme across Intermountain Health's cancer centres in Utah and neighbouring states.",
+    summary: "Derrick S. Haslem is Senior Medical Director of the Oncology Clinical Program at Intermountain Health, the not-for-profit health system whose cancer centres span Utah and surrounding states. He is a board-certified medical oncologist with expertise in targeted therapy, genomics and breast cancer, and completed his haematology and oncology fellowship at Huntsman Cancer Hospital, University of Utah, in 2009. He practises at Intermountain cancer centres in St George, Murray and Logan and has expanded rural access to cancer care through tele-oncology services in Utah, Idaho and Wyoming.",
+    profiles: [{ label: "Institution profile", url: "https://doctors.intermountainhealth.org/provider/derrick-s-haslem/2556921" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Haslem+DS%5BAuthor%5D" }],
+    links: [{ label: "Source: Intermountain Health provider profile", url: "https://doctors.intermountainhealth.org/provider/derrick-s-haslem/2556921" }],
+    tags: ["leadership", "clinician-scientist", "medical-oncology", "tele-oncology"], cancers: ["breast-hr-positive", "breast-her2-positive", "tnbc"] }),
+
+  // =================== International Extranodal Lymphoma Study Group ===================
+  p({ id: "franco-cavalli", name: "Franco Cavalli", role: "President of the Board, International Extranodal Lymphoma Study Group", institutionId: "ielsg", specialisms: ["Medical oncology", "Lymphoma", "International clinical trials"],
+    tldr: "Swiss oncologist who presides over the board of the international study group that runs clinical trials in lymphomas arising outside the lymph nodes.",
+    summary: "Franco Cavalli, of Bellinzona, Switzerland, is President of the Board of the International Extranodal Lymphoma Study Group (IELSG), a not-for-profit association founded in 1998 that brings together medical oncologists, haematologists, imaging specialists, pathologists, biologists and biostatisticians to conduct clinical and translational studies in extranodal lymphomas. The board he chairs includes representatives of national lymphoma cooperative groups from Europe, North America, Australia and China; Emanuele Zucca serves as IELSG Scientific and Medical Director.",
+    profiles: [{ label: "IELSG Board of Directors", url: "https://ielsg.org/site/about-us/board-of-directors/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Cavalli+F%5BAuthor%5D+AND+lymphoma" }],
+    links: [{ label: "Source: IELSG Board of Directors page", url: "https://ielsg.org/site/about-us/board-of-directors/" }],
+    tags: ["leadership", "clinician-scientist", "lymphoma", "clinical-trials"], cancers: ["dlbcl"] }),
+
+  // =================== International Society for Quality of Life Research ===================
+  p({ id: "sandra-nolte", name: "Sandra Nolte", role: "President (2025-2027), International Society for Quality of Life Research", institutionId: "isoqol", specialisms: ["Health-related quality of life", "Patient-reported outcomes", "Outcomes research"],
+    tldr: "Monash University researcher who is President of the international society for health-related quality of life research for the 2025 to 2027 term.",
+    summary: "Sandra Nolte, PhD, of Monash University in Victoria, Australia, is President of the International Society for Quality of Life Research (ISOQOL) for the 2025 to 2027 term. ISOQOL describes itself as a global community of researchers, clinicians, health care professionals, industry professionals, consultants and patient research partners advancing health-related quality of life research. Her presidency coincides with the society's 2025 to 2027 governance restructure.",
+    profiles: [{ label: "ISOQOL leadership page", url: "https://www.isoqol.org/who-we-are/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Nolte+S%5BAuthor%5D+AND+quality+of+life" }],
+    links: [{ label: "Source: ISOQOL Who We Are page", url: "https://www.isoqol.org/who-we-are/" }],
+    tags: ["leadership", "clinician-scientist", "quality-of-life", "patient-reported-outcomes"], cancers: [] }),
+
+  // =================== IRCCS Istituto Romagnolo per lo Studio dei Tumori 'Dino Amadori' (IRST) ===================
+  p({ id: "cristina-marchesi", name: "Cristina Marchesi", role: "Direttrice Generale (General Director) of IRST 'Dino Amadori' IRCCS", institutionId: "irst-meldola", specialisms: ["Healthcare management", "Public health and preventive medicine", "Hospital and community care integration"],
+    tldr: "Physician and health service manager who has been General Director of the Romagna cancer institute IRST in Meldola since July 2025.",
+    summary: "Cristina Marchesi is Direttrice Generale of the IRCCS Istituto Romagnolo per lo Studio dei Tumori 'Dino Amadori' (IRST), the national reference cancer institute for care, research and training based in Meldola with sites in Forlì, Cesena and Ravenna, part of the Emilia-Romagna regional health service. A physician who qualified in 1985 and specialised in hygiene and preventive medicine, she was General Director of the AUSL-IRCCS of Reggio Emilia from 2020 to January 2025 and has been vice-president of FIASO, the Italian federation of health authorities, since July 2023. She took up the IRST post on 1 July 2025, succeeding Lorenzo Maffioli, and leads the institute alongside President Luca Zambianchi, Medical Director Martina Rosticci and Scientific Director Nicola Normanno.",
+    profiles: [{ label: "Institution profile", url: "https://www.irst.emr.it/it/persone/professionisti/marchesi-cristina" }],
+    links: [{ label: "Source: IRST Direzione Generale page", url: "https://www.irst.emr.it/it/listituto/organizzazione/direzioni/direzione-generale" }],
+    tags: ["leadership", "health-management"], cancers: [] }),
+
+  // =================== Irish Cancer Society ===================
+  p({ id: "nikki-gallagher", name: "Nikki Gallagher", role: "Chief Executive Officer of the Irish Cancer Society", institutionId: "irish-cancer-society", specialisms: ["Charity leadership", "Advocacy and public policy", "Governance"],
+    tldr: "Advocacy and governance leader who is Chief Executive of the Irish Cancer Society, Ireland's national cancer charity.",
+    summary: "Nikki Gallagher is Chief Executive Officer of the Irish Cancer Society, the national cancer charity that funds research and provides support services and advocacy for people affected by cancer in Ireland. The society describes her as a purpose-driven leader with experience in strategic leadership, advocacy and governance across the private, public and charity sectors, including central roles in campaigns on children's rights, reproductive healthcare, equality and education reform. She holds an MSc in Strategic Management, a Diploma in Law and a professional certificate in Governance, and leads the organisation with its Executive Leadership Team under a voluntary Board of Directors.",
+    profiles: [{ label: "Institution leadership page", url: "https://www.cancer.ie/about-our-work/our-leadership" }],
+    links: [{ label: "Source: Irish Cancer Society leadership page", url: "https://www.cancer.ie/about-our-work/our-leadership" }],
+    tags: ["leadership", "advocacy", "charity"], cancers: [] }),
+
+  // =================== Istituto Nazionale Tumori IRCCS Fondazione G. Pascale ===================
+  p({ id: "maurizio-di-mauro", name: "Maurizio Di Mauro", role: "Direttore Generale (General Director) of Istituto Nazionale Tumori IRCCS Fondazione G. Pascale", institutionId: "pascale-naples", specialisms: ["Healthcare management", "Hospital administration", "Infectious diseases"],
+    tldr: "Physician and hospital manager who is General Director of the Pascale, the national cancer institute in Naples.",
+    summary: "Maurizio Di Mauro is Direttore Generale of the Istituto Nazionale Tumori IRCCS Fondazione G. Pascale in Naples, southern Italy's national cancer institute for research and care. He graduated in medicine and surgery at the University Federico II of Naples, specialised in infectious diseases and holds a master's degree in health economics and management. He was previously Medical Director of the Pascale, General Director of the Ospedali dei Colli hospital company and General Director of the university hospital of the Second University of Naples, and he was quoted as the institute's General Director in national press coverage in January 2026.",
+    profiles: [{ label: "FIASO profile", url: "https://www.fiaso.it/fiaso/organizzazione/maurizio-di-mauro/" }],
+    links: [{ label: "Source: ANSA report quoting the Pascale General Director, January 2026", url: "https://www.ansa.it/campania/notizie/2026/01/19/al-pascale-primo-prelievo-di-cornee-svolta-per-listituto-tumori-di-napoli_c083e153-1312-4491-b9c3-cd318b98edea.html" }],
+    tags: ["leadership", "health-management"], cancers: [] }),
+
+  // =================== Juravinski Cancer Centre / Escarpment Cancer Research Institute ===================
+  p({ id: "chris-hillis", name: "Chris Hillis", role: "Vice President, Oncology and Site Executive, Juravinski Hospital and Cancer Centre, Hamilton Health Sciences", institutionId: "juravinski", specialisms: ["Malignant haematology", "Chronic lymphocytic leukaemia", "Myeloproliferative neoplasms", "Quality improvement"],
+    tldr: "Blood cancer specialist who leads the Juravinski Cancer Centre, one of Ontario's largest integrated cancer programmes, as Vice President of Oncology.",
+    summary: "Chris Hillis is Vice President, Oncology and Site Executive for the Juravinski Hospital and Cancer Centre at Hamilton Health Sciences, leading one of Ontario's largest integrated cancer programmes, and serves as Regional Vice President for the Hamilton Niagara Haldimand Brant Regional Cancer Program with Ontario Health. He is a malignant haematologist focused on chronic lymphocytic leukaemia and myeloproliferative neoplasms and an Associate Professor at McMaster University. He previously served as Chief of Oncology and Associate Chief Medical Information Officer, holds an MSc in quality improvement and patient safety, and leads a CIHR-funded research programme on making clinical trial outcomes more meaningful to patients with haematological malignancies.",
+    profiles: [{ label: "Institution senior leadership page", url: "https://www.hamiltonhealthsciences.ca/about-us/our-organization/senior-leadership-team/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Hillis+C%5BAuthor%5D+AND+hematology" }],
+    links: [{ label: "Source: Hamilton Health Sciences senior leadership team", url: "https://www.hamiltonhealthsciences.ca/about-us/our-organization/senior-leadership-team/" }],
+    tags: ["leadership", "clinician-scientist", "haematology"], cancers: ["cll"] }),
+
+  // =================== Koo Foundation Sun Yat-Sen Cancer Center ===================
+  p({ id: "nei-min-chu", name: "Nei-Min Chu", role: "President (院長) of Koo Foundation Sun Yat-Sen Cancer Center", institutionId: "koo-foundation-sun-yat-sen-cancer-center", specialisms: ["Medical oncology", "Haematology-oncology", "Lung cancer", "Breast cancer"],
+    tldr: "Medical oncologist who became President of Taipei's Koo Foundation Sun Yat-Sen Cancer Center in late 2024 after nearly three decades on its staff.",
+    summary: "Nei-Min Chu (褚乃銘) is President of the Koo Foundation Sun Yat-Sen Cancer Center, the specialised private cancer hospital in Taipei founded in 1990 and known for its multidisciplinary team model. A medical oncology specialist whose clinical work has focused on lung and breast cancer, he trained in internal medicine in the United States and completed a haematology-oncology fellowship at the University of Florida before joining the centre in 1996. He was previously Vice President and took office as President in November 2024, succeeding founder Andrew T. Huang, who now serves as Chairman.",
+    profiles: [{ label: "Institution medical oncology team page", url: "https://www.kfsyscc.org/department_team/medicaloncology" }, { label: "President's message", url: "https://www.kfsyscc.org/deans_words/3" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Chu+NM%5BAuthor%5D+AND+Taiwan" }],
+    links: [{ label: "Source: KFSYSCC medical oncology team page listing the President", url: "https://www.kfsyscc.org/department_team/medicaloncology" }],
+    tags: ["leadership", "clinician-scientist", "medical-oncology"], cancers: ["nsclc"] }),
+
+  // =================== Korle Bu Teaching Hospital ===================
+  p({ id: "yakubu-seidu-adam", name: "Yakubu Seidu Adam", role: "Chief Executive Officer of Korle Bu Teaching Hospital", institutionId: "korle-bu-teaching-hospital", specialisms: ["Ophthalmology", "Glaucoma and cataract surgery", "Hospital leadership"],
+    tldr: "Consultant eye surgeon who has been Chief Executive of Korle Bu Teaching Hospital, Ghana's largest referral hospital, since May 2025.",
+    summary: "Yakubu Seidu Adam is Chief Executive Officer of Korle Bu Teaching Hospital in Accra, Ghana's premier tertiary teaching hospital and national referral centre, with around 2,000 beds and services including oncology. A consultant eye surgeon with expertise in glaucoma, cataract and refractive surgery, he joined Korle Bu in 2003 and from 2017 headed its Lions International Eye Centre; he is a Fellow of the Ghana College of Surgeons. His appointment as Chief Executive took effect on 6 May 2025, succeeding Opoku Ware Ampomah, and he continued in the role in 2026.",
+    profiles: [{ label: "Appointment report, MyJoyOnline", url: "https://www.myjoyonline.com/dr-yakubu-seidu-adam-appointed-as-new-korle-bu-teaching-hospital-ceo/" }],
+    links: [{ label: "Source: MyJoyOnline report of appointment, May 2025", url: "https://www.myjoyonline.com/dr-yakubu-seidu-adam-appointed-as-new-korle-bu-teaching-hospital-ceo/" }],
+    tags: ["leadership", "clinician-scientist", "ophthalmology"], cancers: [] }),
+
+  // =================== KWF Dutch Cancer Society ===================
+  p({ id: "carla-van-gils", name: "Carla van Gils", role: "Bestuurder (Executive Director) of KWF Kankerbestrijding, jointly with Dorine Manson", institutionId: "kwf", specialisms: ["Clinical epidemiology of cancer", "Cancer research funding", "Research programme leadership"],
+    tldr: "Cancer epidemiologist who co-leads KWF, the Dutch Cancer Society, the Netherlands' largest charitable funder of cancer research.",
+    summary: "Carla van Gils is one of the two bestuurders (executive directors) of KWF Kankerbestrijding, the Dutch Cancer Society, a donor-funded foundation established in 1949 that finances cancer research at universities and institutes across the Netherlands; she leads the organisation jointly with Dorine Manson under a supervisory board chaired by Wiebe Draijer. She is Professor of Clinical Epidemiology of Cancer at UMC Utrecht, where she previously coordinated the cancer research programme of the Julius Center, and joined the KWF executive on 1 June 2021.",
+    profiles: [{ label: "Institution organisation page", url: "https://www.kwf.nl/over-ons/onze-organisatie" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=van+Gils+CH%5BAuthor%5D" }],
+    links: [{ label: "Source: KWF organisation page", url: "https://www.kwf.nl/over-ons/onze-organisatie" }],
+    tags: ["leadership", "clinician-scientist", "epidemiology", "research-funding"], cancers: [] }),
+
+  // =================== Kyushu University Hospital ===================
+  p({ id: "yasuharu-nakashima", name: "Yasuharu Nakashima", role: "Hospital Director (病院長) of Kyushu University Hospital", institutionId: "kyushu-university-hospital", specialisms: ["Orthopaedic surgery", "Hip surgery", "Hospital management"],
+    tldr: "Orthopaedic surgeon who became Director of Kyushu University Hospital in Fukuoka in April 2026 after eight years as a vice director.",
+    summary: "Yasuharu Nakashima (中島康晴) is Hospital Director of Kyushu University Hospital in Fukuoka, the university's principal teaching hospital, according to the hospital's leadership list dated 1 April 2026. He is Professor and Chairman of the Department of Orthopaedic Surgery at Kyushu University, a post he has held since 2016, with clinical interests in hip surgery, total hip arthroplasty, rheumatoid arthritis and paediatric orthopaedics. In his director's greeting he notes that he served as a vice director from 2018, including through the COVID-19 pandemic, before taking the top post.",
+    profiles: [{ label: "Director's greeting (Japanese)", url: "https://www.hosp.kyushu-u.ac.jp/info/aisatsu_20260401/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Nakashima+Y%5BAuthor%5D+AND+Kyushu+orthopaedic" }],
+    links: [{ label: "Source: Kyushu University Hospital leadership list, 1 April 2026", url: "https://www.hosp.kyushu-u.ac.jp/uploads/file/articles/16324.pdf" }],
+    tags: ["leadership", "clinician-scientist", "orthopaedics"], cancers: [] }),
 ];

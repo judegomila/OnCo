@@ -114,7 +114,7 @@ export const peopleEurope: PersonInput[] = [
     papers: [{ title: "A causal mechanism for childhood acute lymphoblastic leukaemia", journal: "Nature Reviews Cancer", year: 2018, doi: "10.1038/s41568-018-0015-6" }] }),
 
   // ======================= Francis Crick Institute =======================
-  p({ id: "charles-swanton", name: "Charles Swanton", role: "Deputy Clinical Director, Francis Crick Institute; Chief Clinician, Cancer Research UK", institutionId: "francis-crick", institutions: ["francis-crick", "cruk"],
+  p({ id: "charles-swanton", name: "Charles Swanton", role: "Deputy Clinical Director, Francis Crick Institute; Chief Clinician, Cancer Research UK", institutionId: "francis-crick", institutions: ["francis-crick", "cruk", "cancer-grand-challenges"],
     specialisms: ["Tumour evolution", "Lung cancer", "Circulating tumour DNA", "Air pollution and cancer"],
     tldr: "Leads TRACERx, the study that follows lung cancers as they evolve, and showed how air pollution can trigger lung cancer without new mutations.", summary: "Charles Swanton's TRACERx programme sequenced hundreds of lung cancers over time to map clonal evolution, ctDNA dynamics, and metastasis. His 2023 work showed PM2.5 pollution promotes lung cancer via inflammation acting on pre-existing mutations.",
     profiles: [site("Crick profile", "https://www.crick.ac.uk/research/find-a-researcher/charles-swanton"), pubmed("Swanton C[Author] TRACERx")], cancers: ["nsclc"], technologies: ["liquid-biopsy", "wes-wgs"], terms: ["ctdna"],
@@ -521,7 +521,7 @@ export const peopleEurope: PersonInput[] = [
     specialisms: ["Gastrointestinal oncology", "Colorectal cancer", "Guidelines"],
     tldr: "Andrés Cervantes is a gastrointestinal oncologist and was ESMO President for 2023-2024.", summary: "Andrés Cervantes leads medical oncology in Valencia and chaired ESMO guideline work in colorectal cancer before serving as ESMO President.",
     profiles: [pubmed("Cervantes A[Author] colorectal")], cancers: ["colorectal"] }),
-  p({ id: "solange-peters", name: "Solange Peters", role: "Head of Medical Oncology, Lausanne University Hospital (CHUV); ESMO President 2020-2021", institutionId: "esmo", institutions: ["esmo"],
+  p({ id: "solange-peters", name: "Solange Peters", role: "Head of Medical Oncology, Lausanne University Hospital (CHUV); ESMO President 2020-2021", institutionId: "esmo", institutions: ["esmo", "chuv-lausanne"],
     specialisms: ["Thoracic oncology", "Immunotherapy", "Mesothelioma"],
     tldr: "Solange Peters is a lung cancer trialist and past ESMO President who led CheckMate 743 in mesothelioma.", summary: "Solange Peters heads medical oncology at CHUV Lausanne, led CheckMate 743 (nivolumab plus ipilimumab in mesothelioma), and served as ESMO President in 2020-2021.",
     profiles: [pubmed("Peters S[Author] mesothelioma nivolumab")], cancers: ["mesothelioma", "nsclc"], drugs: ["nivolumab", "ipilimumab"], trials: ["checkmate-743"],

@@ -1,6 +1,6 @@
 "use client";
 
-import { NavIcon } from "./NavIcon";
+import { NavIcon, NavItemIcon } from "./NavIcon";
 import { useRegion } from "@/lib/region";
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
@@ -63,7 +63,7 @@ export function NavMenu() {
                         const here = !!path && path.startsWith(it.href) && !it.href.startsWith("http");
                         return (
                           <Link key={it.href} href={it.href} role="menuitem" className={`block rounded-lg px-3 py-1.5 hover:bg-surface ${here ? "text-foreground font-medium bg-surface/60" : ""}`}>
-                            <div className="text-sm leading-snug flex items-center gap-1.5">{here && <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-accent shrink-0" />}{it.label}</div>
+                            <div className="text-sm leading-snug flex items-center gap-2"><NavItemIcon href={it.href} label={it.label} className={`h-4 w-4 shrink-0 ${here ? "text-accent" : "text-muted"}`} />{it.label}</div>
                             {visible(g.items).length <= 6 && <div className="text-xs text-muted leading-relaxed">{it.blurb}</div>}
                           </Link>
                         );
@@ -125,7 +125,7 @@ export function NavMenu() {
                               <li key={it.href}>
                                 {it.href.startsWith("http")
                                   ? <a href={it.href} rel="noopener" className="block px-4 py-2.5 text-[15px] hover:bg-surface">{it.label}</a>
-                                  : <Link href={it.href} className={`block px-4 py-2.5 text-[15px] hover:bg-surface ${here ? "font-medium bg-surface" : ""}`}><span className="block">{it.label}</span><span className="block text-xs text-muted leading-snug line-clamp-1">{it.blurb}</span></Link>}
+                                  : <Link href={it.href} className={`block px-4 py-2.5 text-[15px] hover:bg-surface ${here ? "font-medium bg-surface" : ""}`}><span className="flex items-center gap-2"><NavItemIcon href={it.href} label={it.label} className="h-4 w-4 shrink-0 text-accent" />{it.label}</span><span className="block text-xs text-muted leading-snug line-clamp-1 pl-6">{it.blurb}</span></Link>}
                               </li>
                             );
                           })}

@@ -16,8 +16,8 @@ export function Breadcrumbs({ items, className = "" }: { items: Crumb[]; classNa
             <li key={c.href} className="flex items-center gap-x-1.5 min-w-0">
               {i > 0 && <span aria-hidden className="text-muted/70">›</span>}
               {last
-                ? <span aria-current="page" className="truncate max-w-[60vw] text-foreground/80">{c.label}</span>
-                : <Link href={c.href} className="hover:text-foreground hover:underline underline-offset-2">{c.label}</Link>}
+                ? <Link href={c.href} aria-current="page" className="truncate max-w-[60vw] text-foreground/80 hover:text-foreground hover:underline underline-offset-2">{c.label}</Link>
+                : <Link href={c.href} className="text-accent hover:underline underline-offset-2">{c.label}</Link>}
             </li>
           );
         })}

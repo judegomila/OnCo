@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 
-export type FacetOption = { value: string; label: string; count?: number; group?: string; className?: string };
+export type FacetOption = { value: string; label: string; count?: number; group?: string; className?: string; /** Small glyph shown before the label: an emoji flag or a React node. */ icon?: React.ReactNode };
 
 type Props = {
   label: string;
@@ -79,6 +79,7 @@ export function FacetSelect({ label, options, value, onChange, multi = false, se
                           {on && <svg viewBox="0 0 12 12" width="10" height="10"><path d="M2.5 6.5 5 9l4.5-6" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" /></svg>}
                         </span>
                       )}
+                      {o.icon !== undefined && <span aria-hidden className="inline-flex h-4 w-4 shrink-0 items-center justify-center text-sm leading-none">{o.icon}</span>}
                       <span className={`flex-1 truncate ${o.className ?? ""}`}>{o.label}</span>
                       {o.count !== undefined && <span className="text-xs text-muted tabular-nums">{o.count}</span>}
                     </button>

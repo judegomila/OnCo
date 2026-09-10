@@ -9,6 +9,7 @@ import { REGION_META, useRegion } from "@/lib/region";
 import { biomarkers } from "@/data/biomarkers";
 import { MoleculeSlot } from "./MoleculeSlot";
 import { ApprovalChip } from "./ApprovalChip";
+import { KindIcon } from "./KindIcon";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
@@ -68,7 +69,7 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
     for (const r of rows) if (!cancer || r.rel[cancer]) m[r.kind] = (m[r.kind] ?? 0) + 1;
     return m;
   }, [rows, cancer]);
-  const kindOptions = KINDS_ORDER.filter((k) => kindCounts[k]).map((k) => ({ value: k, label: KIND_META[k].plural[0].toUpperCase() + KIND_META[k].plural.slice(1), count: kindCounts[k] }));
+  const kindOptions = KINDS_ORDER.filter((k) => kindCounts[k]).map((k) => ({ value: k, label: (KIND_META[k].title ?? KIND_META[k].plural)[0].toUpperCase() + (KIND_META[k].title ?? KIND_META[k].plural).slice(1), count: kindCounts[k], icon: <KindIcon kind={k} className="h-4 w-4" /> }));
 
   const statusOptions = useMemo(() => {
     const m = new Map<string, number>();

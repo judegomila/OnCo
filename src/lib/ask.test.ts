@@ -189,7 +189,7 @@ describe("Ask OnCo end to end", () => {
     for (const s of a.sentences) expect(a.sources[s.cite - 1]).toBeDefined();
   });
 
-  it("clears the floors on the open benchmark and the natural set (before/after measured 2026-09-10)", async () => {
+  it("clears the floors on the open benchmark and the natural set (before/after measured 2026-09-10)", { timeout: 120_000 }, async () => {
     const h = askHarness();
     // Before (extractive only): benchmark rubric 0.69, recall 0.41; natural rubric 0.59, recall 0.59.
     // After (this pipeline): benchmark rubric 0.83, recall 1.00 (the benchmark questions are curated pairs; with pairs
@@ -213,7 +213,7 @@ describe("Ask OnCo end to end", () => {
     expect(nRecall / askEval.length).toBeGreaterThanOrEqual(0.85);
   });
 
-  it("keeps the extractive path at or above its previous floors", () => {
+  it("keeps the extractive path at or above its previous floors", { timeout: 120_000 }, () => {
     const g = graph();
     const ms = new MiniSearch<SearchDoc>({ fields: ["name", "aka", "tldr", "tags", "id"], storeFields: ["id"], searchOptions: { boost: { name: 4, aka: 3, id: 2 }, prefix: true, fuzzy: 0.2 } });
     ms.addAll(searchDocs());

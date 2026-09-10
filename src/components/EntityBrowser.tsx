@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Tip } from "@/components/Tip";
 import { MoleculeSlot } from "./MoleculeSlot";
 import { ApprovalChip } from "./ApprovalChip";
+import { flagFor, COUNTRY_FACETS } from "@/lib/flags";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
@@ -210,13 +211,14 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
 
   /** Options per facet, counted over rows that pass every other filter (so counts answer "what happens if I pick this?"). */
   const options = useMemo(() => {
-    const out: Record<string, { value: string; label: string; count: number }[]> = {};
+    const out: Record<string, { value: string; label: string; count: number; icon?: React.ReactNode }[]> = {};
     for (const f of allFacets) {
       const counts = new Map<string, number>();
       for (const r of rows) if (matches(r, f.key)) for (const v of facetVals(r, f.key)) counts.set(v, (counts.get(v) ?? 0) + 1);
       let arr = [...counts.entries()];
       arr = f.order ? arr.sort((a, b) => (f.order!.indexOf(a[0]) + 1 || 999) - (f.order!.indexOf(b[0]) + 1 || 999)) : arr.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-      out[f.key] = arr.map(([v, n]) => ({ value: v, label: f.key === "status" ? STATUS_LABEL[v] ?? v : v, count: n }));
+      const dot = (v: string) => { let h = 0; for (const ch of v) h = (h * 31 + ch.charCodeAt(0)) % 360; return <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: `hsl(${h} 55% 55%)` }} />; };
+      out[f.key] = arr.map(([v, n]) => ({ value: v, label: f.key === "status" ? STATUS_LABEL[v] ?? v : v, count: n, icon: COUNTRY_FACETS.has(f.key) ? flagFor(v) || undefined : f.key === "status" ? <span className={`inline-block h-2.5 w-2.5 rounded-full ${statusClass(v).split(" ").find((c) => c.startsWith("bg-")) ?? "bg-foreground/30"}`} /> : ["type","group","stage","severity","maturity","modality","access","scope","category","class","kind","actor","cost","front","specialism","license","nci","phase"].includes(f.key) ? dot(v) : undefined }));
     }
     return out;
     // eslint-disable-next-line react-hooks/exhaustive-deps

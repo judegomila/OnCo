@@ -1,3 +1,7 @@
+import { KIND_META, KINDS, type Kind } from "@/lib/schema";
+const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route.replace(/\//g, ""), k]));
+import { KindIcon } from "./KindIcon";
+import { FrontIcon } from "./FrontIcon";
 import type { ReactNode } from "react";
 
 /**
@@ -104,6 +108,20 @@ const ICONS: Record<string, Icon> = {
   search: Search,
 };
 
+
+/** Icon for a navigation item, derived from its route: kind indexes get their kind glyph, fronts their front glyph, the rest a keyword match. */
+export function NavItemIcon({ href, label, className = "h-4 w-4" }: { href: string; label: string; className?: string }) {
+  const seg = href.replace(/^\/|\/$/g, "").split("/");
+  const kind = ROUTE_TO_KIND[seg[0]];
+  if (kind && seg.length === 1) return <KindIcon kind={kind} className={className} />;
+  if (seg[0] === "fronts" && seg[1]) return <FrontIcon id={seg[1]} className={className} />;
+  const l = (label + " " + href).toLowerCase();
+  const pick = (re: RegExp, id: string) => (re.test(l) ? id : null);
+  const id = pick(/search|ask|explore|query|path|graph|navigator|landscape|compare|timeline|saved|body/, "find") ?? pick(/trial|evidence|forest|explained|readout|calendar|catalyst/, "trials") ?? pick(/approval|regulat|hta|nhs|coverage|paying|financial|assistance|price|exclusivity|deal|market|pipeline|scorecard|sponsor|manufactur/, "money") ?? pick(/paper|journal|publishing|pulse|digest|preprint|newsletter|news|changelog|history|status|freshness|audit|correction/, "intel") ?? pick(/people|heroes|reviewer|contributor|institution|universit|leadership|compan|countr|case/, "who") ?? pick(/learn|about|roadmap|gap|bottleneck|idea|suggest|eval|api|build|schema|data|teach|path|open/, "learn") ?? pick(/prep|side|symptom|report reader|survivor|second opinion|diet|supportive|for me|live/, "live") ?? pick(/mechanics|atlas|molecule|journey|pathway|dossier|model|question|preclinical|assay|resistance|payload|toxicity|isotope|prevalence|regimen|sequenc|staging|guideline|calculator|interaction|irae|biomarker|tumour/, "map") ?? "search";
+  if (id === "trials") return <KindIcon kind="trial" className={className} />;
+  if (id === "money") return <svg viewBox="0 0 24 24" aria-hidden focusable="false" className={className} fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="8.5" /><path d="M12 7v10M9.5 9.5c0-1 1-1.5 2.5-1.5s2.5.6 2.5 1.6c0 2.4-5 1.4-5 3.8 0 1 1 1.6 2.5 1.6s2.5-.6 2.5-1.6" /></svg>;
+  return <NavIcon id={id} className={className} />;
+}
 
 export function NavIcon({ id, className = "h-5 w-5" }: { id: string; className?: string }) {
   const Component = ICONS[id] ?? Search;

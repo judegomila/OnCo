@@ -415,6 +415,317 @@ export function boneModifyingAgents(): Mesh {
   });
 }
 
+// ---------------------------------------------------------------- 11. psycho-oncology and distress screening
+export function psychoOncology(): Mesh {
+  const sc = scene();
+  const PAT: Vec3 = [-2.4, 0, 0];
+  put(sc, "patient", figure(), { at: PAT });
+  const waves: Part[] = []; for (let i = 0; i < 3; i++) waves.push(put(sc, `w${i}`, ring(0.3 + 0.15 * i, 12, "hot", "z"), { at: [PAT[0], 0.8, 0] }));
+  const TH: Vec3 = [-1.1, 0.1, 0];
+  put(sc, "therm", cylinder(0.12, 1.6, 8, 2, "soft", false, true), { at: TH }); put(sc, "bulb", sphere(0.2, 3, 8, "soft", true), { at: [TH[0], TH[1] - 0.9, 0] });
+  const merc = put(sc, "merc", cylinder(0.06, 1.2, 6, 2, "hot", true, true), { at: [TH[0], TH[1] - 0.2, 0] });
+  put(sc, "thTicks", ticks(TH[0] + 0.2, TH[0] + 0.2, TH[1] - 0.5, 1, "soft"), { rotZ: Math.PI / 2 });
+  const STAIR: Vec3 = [0, -1.0, 0];
+  const steps: Part[] = []; for (let i = 0; i < 4; i++) steps.push(put(sc, `step${i}`, bar(0.3 + 0.6 * i, 0.3 + 0.3 * i, 0.45, "accent"), { at: STAIR }));
+  const climber = put(sc, "climber", small(0.12, "hot"), { at: [STAIR[0] + 0.3, STAIR[1] + 0.45, 0] });
+  const onc = put(sc, "onc", figure("soft"), { at: [2.9, 0.7, 0], scale: 0.5 });
+  const psy = put(sc, "psy", figure("accent"), { at: [2.9, -0.5, 0], scale: 0.5 });
+  const link = put(sc, "link", line([2.9, 0.25, 0], [2.9, -0.05, 0], "accent"));
+  sc.mesh.labels = [L([PAT[0], 1.55, 0], "Distress"), L([TH[0], 1.25, 0], "Distress Thermometer"), L([1.2, -1.45, 0], "Stepped care"), L([2.9, 1.45, 0], "Mental-health specialist in the team")];
+  const base = sc.mesh.points;
+  return frame(sc, 12, (t, pts, alpha) => {
+    hide(alpha, ...steps, climber, onc, psy, link); setAlpha(alpha, merc, 0.2); movePart(pts, base, merc, [0, 0, 0], 0.2);
+    const s = stageOf(t);
+    const ripple = (a: number) => waves.forEach((w, i) => { const v = (t * 3 + i / 3) % 1; movePart(pts, base, w, [0, 0, 0], 0.6 + 0.9 * v); setAlpha(alpha, w, a * (1 - v)); });
+    if (s === 0) { ripple(1); return { caption: "1 · About a third of people with cancer meet criteria for anxiety, depression or another disorder; most goes unseen unless someone asks" }; }
+    if (s === 1) { const u = Q(t, 1); ripple(1); setAlpha(alpha, merc, 0.2 + 0.8 * u); movePart(pts, base, merc, [0, 0, 0], 0.2 + 0.8 * u); return { caption: "2 · Everyone is screened with a validated tool such as the Distress Thermometer, a requirement for accredited cancer centres" }; }
+    if (s === 2) { const u = Q(t, 2); ripple(0.7); setAlpha(alpha, merc, 1); movePart(pts, base, merc, [0, 0, 0], 1); cascade(alpha, steps, u); setAlpha(alpha, climber, 1); moveTo(pts, base, climber, [STAIR[0] + 0.3, STAIR[1] + 0.45, 0], [STAIR[0] + 2.1, STAIR[1] + 1.35, 0], u); return { caption: "3 · Stepped care: information and peer support, then cancer-adapted therapies (CBT, meaning-centred, CALM, fear-of-recurrence programmes), then psychiatry" }; }
+    const u = Q(t, 3); ripple(0.7 * (1 - u)); setAlpha(alpha, merc, 1 - 0.6 * u); movePart(pts, base, merc, [0, 0, 0], 1 - 0.6 * u); show(alpha, 1, ...steps); setAlpha(alpha, climber, 1); moveTo(pts, base, climber, [STAIR[0] + 0.3, STAIR[1] + 0.45, 0], [STAIR[0] + 2.1, STAIR[1] + 1.35, 0], 1); cascade(alpha, [onc, psy, link], u);
+    return { caption: "4 · Mental-health specialists sit inside the oncology team; collaborative care lifts depression outcomes above usual care. Screening without a referral route does not help" };
+  });
+}
+
+// ---------------------------------------------------------------- 12. somatostatin receptor PET
+export function sstrPet(): Mesh {
+  const sc = scene();
+  const CELL: Vec3 = [-1.8, 0, 0];
+  put(sc, "cell", cell(0.8), { at: CELL }); put(sc, "nuc", sphere(0.28, 3, 8, "soft"), { at: [CELL[0] + 0.15, 0, 0] });
+  const recs: Part[] = []; for (let i = 0; i < 3; i++) { const a = 0.6 + i * 0.5; recs.push(put(sc, `r${i}`, line([CELL[0] + 0.78 * Math.cos(a), 0.78 * Math.sin(a), 0], [CELL[0] + 1.02 * Math.cos(a), 1.02 * Math.sin(a), 0]))); }
+  const T0: Vec3 = [-1.0, 2.1, 0.3], DOCK: Vec3 = [CELL[0] + 1.2 * Math.cos(1.1), 1.2 * Math.sin(1.1), 0];
+  const pep = put(sc, "pep", helix(0.07, 0.4, 2, 12, "accent"), { at: T0, rotZ: Math.PI / 2 });
+  const ISO_OFF: Vec3 = [0.3, 0.05, 0];
+  const iso = put(sc, "iso", octahedron(0.09, "hot"), { at: [T0[0] + ISO_OFF[0], T0[1] + ISO_OFF[1], T0[2]] });
+  const EMIT: Vec3 = [DOCK[0] + ISO_OFF[0], DOCK[1] + ISO_OFF[1], 0];
+  const ph1 = put(sc, "ph1", line(EMIT, [EMIT[0] + 1.4, EMIT[1] + 0.7, 0], "accent"));
+  const ph2 = put(sc, "ph2", line(EMIT, [EMIT[0] - 1.4, EMIT[1] - 0.7, 0], "accent"));
+  const BODY: Vec3 = [1.9, 0, 0];
+  const bodyF = put(sc, "body", figure("soft"), { at: BODY, scale: 0.8 });
+  const hots: Part[] = []; const HOT: Vec3[] = [[0.12, 0.1, 0.06], [-0.1, -0.3, 0.06], [0.22, 0.32, 0.06]]; for (let i = 0; i < 3; i++) hots.push(put(sc, `hot${i}`, blob(0.1), { at: [BODY[0] + HOT[i][0], BODY[1] + HOT[i][1], HOT[i][2]] }));
+  const pet = put(sc, "pet", torus(1.35, 0.1, 20, 6, undefined, true), { at: BODY, rotX: Math.PI / 2 });
+  const handoff = put(sc, "handoff", arrow([BODY[0], -1.55, 0], [BODY[0], -2.1, 0], "hot"));
+  sc.mesh.labels = [L([CELL[0], 1.2, 0], "Neuroendocrine tumour cell"), L([CELL[0] + 1.5, 0.85, 0], "SSTR2 receptor"), L([BODY[0], 1.75, 0], "PET ring"), L([BODY[0], -2.35, 0], "Bright uptake qualifies for 177Lu-DOTATATE")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ph1, ph2, ...hots, handoff); setAlpha(alpha, pet, 0.35); setAlpha(alpha, bodyF, 0.5);
+    const s = stageOf(t);
+    const carry = (u: number, spin = 0) => { moveTo(pts, base, pep, T0, DOCK, u, 1, spin); moveTo(pts, base, iso, [T0[0] + ISO_OFF[0], T0[1] + ISO_OFF[1], T0[2]], EMIT, u); };
+    if (s === 0) { const u = Q(t, 0); carry(u, u * 3); show(alpha, u > 0.8 ? pulse(t, 5) : 1, ...recs); return { caption: "1 · A radioactive somatostatin look-alike (68Ga- or 64Cu-DOTATATE) is injected and locks onto SSTR2 receptors on neuroendocrine tumour cells" }; }
+    if (s === 1) { const u = Q(t, 1); carry(1); const v = (t * 6) % 1; grow(alpha, ph1, v * 2); grow(alpha, ph2, v * 2); movePart(pts, base, ph1, [0, 0, 0], 0.3 + 0.7 * v); movePart(pts, base, ph2, [0, 0, 0], 0.3 + 0.7 * v); setAlpha(alpha, pet, 0.35 + 0.65 * u * pulse(t, 6)); return { caption: "2 · Each decay sends two gamma photons in opposite directions; the ring of detectors around the patient pins the source" }; }
+    if (s === 2) { const u = Q(t, 2); carry(1); show(alpha, 0.4, ph1, ph2); setAlpha(alpha, pet, 0.8); setAlpha(alpha, bodyF, 0.5 + 0.5 * u); cascade(alpha, hots, u); return { caption: "3 · A whole-body map of receptor-rich tumours, far more sensitive than the older octreotide scan; it changes management in about 40% of patients" }; }
+    const u = Q(t, 3); carry(1); show(alpha, 0.4, ph1, ph2); setAlpha(alpha, pet, 0.8); setAlpha(alpha, bodyF, 1); hots.forEach((h, i) => { setAlpha(alpha, h, 0.6 + 0.4 * pulse(t + i * 0.1, 4)); movePart(pts, base, h, [0, 0, 0], 1 + 0.3 * u); }); grow(alpha, handoff, u);
+    return { caption: "4 · Bright uptake (Krenning score 3 or more) qualifies patients for the matching treatment, 177Lu-DOTATATE; FDG PET covers high-grade disease that stays dark" };
+  });
+}
+
+// ---------------------------------------------------------------- 13. limb-salvage surgery and endoprosthetic reconstruction
+export function limbSalvage(): Mesh {
+  const sc = scene();
+  const LEG: Vec3 = [0, 0, 0];
+  put(sc, "thigh", cylinder(0.32, 1.4, 12, 2, undefined, false, true), { at: [LEG[0], LEG[1] + 1.1, 0] });
+  const seg = put(sc, "seg", cylinder(0.32, 0.9, 12, 2, undefined, false, true), { at: [LEG[0], LEG[1] - 0.05, 0] });
+  put(sc, "shin", cylinder(0.32, 1.4, 12, 2, undefined, false, true), { at: [LEG[0], LEG[1] - 1.2, 0] });
+  const tum = put(sc, "tum", blob(0.36), { at: [LEG[0] + 0.1, LEG[1], 0.05] });
+  const margin = put(sc, "margin", cylinder(0.42, 1.0, 12, 2, "accent"), { at: [LEG[0], LEG[1] - 0.05, 0] });
+  const cut1 = put(sc, "cut1", ring(0.5, 14, "hot", "y"), { at: [LEG[0], LEG[1] + 0.45, 0] });
+  const cut2 = put(sc, "cut2", ring(0.5, 14, "hot", "y"), { at: [LEG[0], LEG[1] - 0.55, 0] });
+  const PRO0: Vec3 = [2.4, 0.9, 0], PRO1: Vec3 = [LEG[0], LEG[1] - 0.05, 0];
+  const pros = put(sc, "pros", cylinder(0.14, 0.9, 8, 3, "accent", true, true), { at: PRO0 });
+  const prosStem1 = put(sc, "stem1", line([PRO0[0], PRO0[1] + 0.45, 0], [PRO0[0], PRO0[1] + 0.8, 0], "accent"));
+  const prosStem2 = put(sc, "stem2", line([PRO0[0], PRO0[1] - 0.45, 0], [PRO0[0], PRO0[1] - 0.8, 0], "accent"));
+  const saw = put(sc, "saw", polyline([[-2.2, 1.2, 0], [-1.2, 1.2, 0], [-1.2, 1.05, 0]], "soft"));
+  const beam = put(sc, "beam", polyline([[-2.4, -1.4, 0], [-0.6, -0.1, 0], [-2.0, -1.9, 0]], "accent"));
+  const drip = put(sc, "drip", box(0.3, 0.45, 0.14, "accent", true), { at: [2.5, -1.2, 0] });
+  const dripLine = put(sc, "dripLine", polyline([[2.5, -1.42, 0], [1.6, -1.6, 0], [0.35, -1.2, 0.05]], "accent"));
+  sc.mesh.labels = [L([LEG[0] + 1.1, 0.3, 0], "Sarcoma"), L([LEG[0] - 1.3, 0.5, 0], "Wide margin"), L([PRO0[0], 1.9, 0], "Metal endoprosthesis"), L([0.2, -2.3, 0], "Chemotherapy (bone) or radiotherapy (soft tissue)")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, margin, cut1, cut2, pros, prosStem1, prosStem2, saw, beam, drip, dripLine);
+    const s = stageOf(t);
+    if (s === 0) { setAlpha(alpha, tum, pulse(t, 4)); return { caption: "1 · A bone or soft-tissue sarcoma sits in the limb; amputation was once the only option" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, margin, u); setAlpha(alpha, cut1, u > 0.3 ? pulse(t, 6) : 0); setAlpha(alpha, cut2, u > 0.5 ? pulse(t, 6) : 0); setAlpha(alpha, saw, u); moveTo(pts, base, saw, [0, 0, 0], [0.5, -0.7, 0], u); setAlpha(alpha, seg, 1 - 0.7 * clamp(u * 2 - 1)); setAlpha(alpha, tum, 1 - 0.7 * clamp(u * 2 - 1)); return { caption: "2 · Surgeons remove the tumour en bloc with a margin of healthy tissue, guided by imaging and navigation" }; }
+    if (s === 2) { const u = Q(t, 2); show(alpha, 0.3, margin, cut1, cut2); setAlpha(alpha, seg, 0.3 * (1 - u)); setAlpha(alpha, tum, 0); show(alpha, 1, pros, prosStem1, prosStem2); moveTo(pts, base, pros, PRO0, PRO1, u); moveTo(pts, base, prosStem1, PRO0, PRO1, u); moveTo(pts, base, prosStem2, PRO0, PRO1, u); return { caption: "3 · The gap is rebuilt with a modular metal endoprosthesis, bone graft or a custom 3D-printed implant; growing prostheses lengthen with a child" }; }
+    const u = Q(t, 3); show(alpha, 0.3, margin); setAlpha(alpha, seg, 0); setAlpha(alpha, tum, 0); show(alpha, 1, pros, prosStem1, prosStem2); moveTo(pts, base, pros, PRO0, PRO1, 1); moveTo(pts, base, prosStem1, PRO0, PRO1, 1); moveTo(pts, base, prosStem2, PRO0, PRO1, 1); setAlpha(alpha, beam, u > 0.1 ? pulse(t, 5) : 0); setAlpha(alpha, drip, u); grow(alpha, dripLine, u);
+    return { caption: "4 · Chemotherapy (bone) or radiotherapy (soft tissue) completes treatment; survival matches amputation and the limb keeps working, with infection and wear the long-term trade-offs" };
+  });
+}
+
+// ---------------------------------------------------------------- 14. bariatric surgery and cancer incidence
+export function bariatricSurgeryCancer(): Mesh {
+  const sc = scene();
+  const PAT: Vec3 = [-2.0, 0, 0];
+  const fig = put(sc, "patient", figure(), { at: PAT });
+  const fat = put(sc, "fat", ellipsoid(0.55, 0.5, 0.4, 4, 10, "soft", true), { at: [PAT[0], 0.25, 0] });
+  const ST: Vec3 = [-0.3, 0.3, 0];
+  const stomach = put(sc, "stomach", organ(0.55, 0.7, 0.4), { at: ST });
+  const sleeve = put(sc, "sleeve", cylinder(0.18, 1.3, 10, 3, "accent", false, true), { at: ST });
+  const staple = put(sc, "staple", polyline([[ST[0] + 0.2, ST[1] + 0.65, 0.1], [ST[0] + 0.22, ST[1] + 0.2, 0.1], [ST[0] + 0.2, ST[1] - 0.25, 0.1], [ST[0] + 0.22, ST[1] - 0.65, 0.1]], "hot"));
+  const sig: Part[] = []; for (let i = 0; i < 6; i++) sig.push(put(sc, `sig${i}`, octahedron(0.06, "hot"), { at: [PAT[0] + 0.3 + 0.12 * (i % 3), 0.5 - 0.25 * Math.floor(i / 3), 0.2] }));
+  const womb = put(sc, "womb", organ(0.35, 0.45, 0.3, "hot"), { at: [1.1, -0.9, 0] });
+  const AX: Vec3 = [1.8, -0.2, 0];
+  put(sc, "axes", axes(AX, 1.5, 1.6));
+  const bFull = put(sc, "bFull", bar(AX[0] + 0.45, 1.3, 0.35, "hot"), { at: [0, AX[1], 0] });
+  const bLess = put(sc, "bLess", bar(AX[0] + 1.05, 0.87, 0.35, "accent"), { at: [0, AX[1], 0] });
+  sc.mesh.labels = [L([PAT[0], 1.45, 0], "Severe obesity"), L([ST[0], 1.35, 0], "Stomach"), L([PAT[0] + 0.7, 0.9, 0], "Insulin, oestrogen, inflammation"), L([AX[0] + 0.75, 1.7, 0], "Cancers over a decade")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, sleeve, staple, bFull, bLess); setAlpha(alpha, fig, 1);
+    const s = stageOf(t);
+    const signals = (a: number) => sig.forEach((p, i) => { setAlpha(alpha, p, a); movePart(pts, base, p, [0.15 * Math.sin(t * TAU * 2 + i), 0.1 * Math.cos(t * TAU * 2 + i), 0], 1); });
+    if (s === 0) { signals(pulse(t, 3)); setAlpha(alpha, womb, 0.5 + 0.5 * pulse(t, 4)); return { caption: "1 · Severe obesity raises insulin, oestrogen and inflammatory signals that drive womb, breast, liver and bowel cancers" }; }
+    if (s === 1) { const u = Q(t, 1); signals(1); grow(alpha, staple, u); setAlpha(alpha, sleeve, u); setAlpha(alpha, stomach, 1 - 0.7 * u); movePart(pts, base, fat, [0, 0, 0], 1 - 0.5 * u); setAlpha(alpha, fat, 1 - 0.5 * u); return { caption: "2 · Weight-loss surgery shrinks or bypasses the stomach; weight falls substantially and stays down" }; }
+    if (s === 2) { const u = Q(t, 2); signals(1 - 0.8 * u); setAlpha(alpha, staple, 1); setAlpha(alpha, sleeve, 1); setAlpha(alpha, stomach, 0.3); movePart(pts, base, fat, [0, 0, 0], 0.5); setAlpha(alpha, fat, 0.5); setAlpha(alpha, womb, 1 - 0.6 * u); movePart(pts, base, womb, [0, 0, 0], 1 - 0.2 * u); return { caption: "3 · Hormone and inflammatory signals fall; the womb lining changes that precede cancer reverse" }; }
+    const u = Q(t, 3); signals(0.2); setAlpha(alpha, staple, 1); setAlpha(alpha, sleeve, 1); setAlpha(alpha, stomach, 0.3); movePart(pts, base, fat, [0, 0, 0], 0.5); setAlpha(alpha, fat, 0.5); setAlpha(alpha, womb, 0.4); movePart(pts, base, womb, [0, 0, 0], 0.8); setAlpha(alpha, bFull, clamp(u * 2)); setAlpha(alpha, bLess, clamp(u * 2 - 0.6));
+    return { caption: "4 · Over the following decade, roughly a third fewer cancers than matched people who did not have surgery, largest for womb cancer; the evidence is observational, not randomised" };
+  });
+}
+
+// ---------------------------------------------------------------- 15. resistance training and protein for cachexia
+export function resistanceTraining(): Mesh {
+  const sc = scene();
+  const ARM: Vec3 = [0, 0, 0];
+  put(sc, "boneA", cylinder(0.1, 2.6, 8, 2, "soft", false, true), { at: ARM, rotZ: Math.PI / 2 });
+  const muscle = put(sc, "muscle", organ(1.0, 0.55, 0.45, undefined), { at: [ARM[0], ARM[1] + 0.35, 0] });
+  const fibres: Part[] = []; for (let i = 0; i < 4; i++) fibres.push(put(sc, `fb${i}`, polyline([[-0.8, 0.2 + 0.1 * i, 0.46], [0, 0.32 + 0.1 * i, 0.46], [0.8, 0.2 + 0.1 * i, 0.46]], "accent")));
+  const TUM: Vec3 = [-2.5, 1.3, 0];
+  put(sc, "tum", blob(0.32), { at: TUM });
+  const cyto: Part[] = []; for (let i = 0; i < 5; i++) cyto.push(put(sc, `cy${i}`, octahedron(0.06, "hot"), { at: TUM }));
+  const DB0: Vec3 = [2.6, -1.3, 0], DB1: Vec3 = [1.6, 0.9, 0];
+  const dumb = put(sc, "dumb", dumbbell(0.8, "accent"), { at: DB0 });
+  const mtor = put(sc, "mtor", ring(0.22, 10, "accent", "z"), { at: [ARM[0] + 0.3, ARM[1] + 0.35, 0.5] });
+  const PROT0: Vec3 = [-2.3, -1.3, 0];
+  const plate = put(sc, "plate", disc(0.45, 14, "soft", "y"), { at: PROT0 });
+  const prot: Part[] = []; for (let i = 0; i < 6; i++) prot.push(put(sc, `pr${i}`, octahedron(0.06, "accent"), { at: [PROT0[0] - 0.2 + 0.08 * i, PROT0[1] + 0.1, 0.1 * Math.sin(i)] }));
+  sc.mesh.labels = [L([ARM[0], 1.35, 0], "Muscle"), L([TUM[0], 1.95, 0], "Tumour: inflammatory signals"), L([DB1[0] + 0.3, 1.55, 0], "Load"), L([PROT0[0], -1.85, 0], "Protein, 1.2 to 1.5 g/kg a day")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, mtor, ...prot); setAlpha(alpha, plate, 0.3); setAlpha(alpha, dumb, 0.3);
+    const s = stageOf(t);
+    const attack = (a: number) => cyto.forEach((c, i) => { const v = (t * 3 + i * 0.2) % 1; moveTo(pts, base, c, TUM, [ARM[0] - 0.6 + 0.3 * i, ARM[1] + 0.5, 0.3], v); setAlpha(alpha, c, a * (v > 0.05 && v < 0.95 ? 1 : 0)); });
+    if (s === 0) { const u = Q(t, 0); attack(1); movePart(pts, base, muscle, [0, 0, 0], 1 - 0.35 * u); fibres.forEach((f, i) => setAlpha(alpha, f, 1 - 0.6 * clamp(u * 1.5 - i * 0.15))); return { caption: "1 · Inflammatory signals from the tumour switch on muscle breakdown; muscle shrinks (cachexia)" }; }
+    if (s === 1) { const u = Q(t, 1); attack(0.6); movePart(pts, base, muscle, [0, 0, 0], 0.65); show(alpha, 0.4, ...fibres); setAlpha(alpha, dumb, 1); moveTo(pts, base, dumb, DB0, DB1, u); movePart(pts, base, dumb, [DB1[0] - DB0[0], DB1[1] - DB0[1] + 0.15 * Math.sin(t * TAU * 4) * u, 0], 1); setAlpha(alpha, mtor, u > 0.5 ? pulse(t, 5) : 0); return { caption: "2 · Resistance exercise loads the muscle, switching on the building pathway (mTOR)" }; }
+    if (s === 2) { const u = Q(t, 2); attack(0.4); movePart(pts, base, muscle, [0, 0, 0], 0.65 + 0.1 * u); show(alpha, 0.5, ...fibres); setAlpha(alpha, dumb, 1); movePart(pts, base, dumb, [DB1[0] - DB0[0], DB1[1] - DB0[1] + 0.15 * Math.sin(t * TAU * 4), 0], 1); setAlpha(alpha, mtor, 1); setAlpha(alpha, plate, 1); prot.forEach((p, i) => { const v = clamp(u * 1.5 - i * 0.1); setAlpha(alpha, p, 1); moveTo(pts, base, p, [PROT0[0] - 0.2 + 0.08 * i, PROT0[1] + 0.1, 0.1 * Math.sin(i)], [ARM[0] - 0.5 + 0.2 * i, ARM[1] + 0.3, 0.4], v); }); return { caption: "3 · Protein, 1.2 to 1.5 g per kilogram a day, supplies the bricks (leucine in particular)" }; }
+    const u = Q(t, 3); attack(0.3); movePart(pts, base, muscle, [0, 0, 0], 0.75 + 0.25 * u); setAlpha(alpha, muscle, 0.7 + 0.3 * pulse(t, 4)); fibres.forEach((f, i) => setAlpha(alpha, f, 0.5 + 0.5 * clamp(u * 1.5 - i * 0.15))); setAlpha(alpha, dumb, 1); movePart(pts, base, dumb, [DB1[0] - DB0[0], DB1[1] - DB0[1] + 0.15 * Math.sin(t * TAU * 4), 0], 1); setAlpha(alpha, mtor, 1); setAlpha(alpha, plate, 1); prot.forEach((p, i) => { setAlpha(alpha, p, 1 - u); moveTo(pts, base, p, [PROT0[0] - 0.2 + 0.08 * i, PROT0[1] + 0.1, 0.1 * Math.sin(i)], [ARM[0] - 0.5 + 0.2 * i, ARM[1] + 0.3, 0.4], 1); });
+    return { caption: "4 · Lean mass and function are preserved or rebuilt in small trials; the catch is that the sickest patients struggle to train, and no trial yet shows longer survival" };
+  });
+}
+
+// ---------------------------------------------------------------- 16. probiotics, antibiotics and stewardship around immunotherapy
+export function antibioticStewardshipIo(): Mesh {
+  const sc = scene();
+  const GUT: Vec3 = [-1.4, -0.6, 0];
+  put(sc, "gut", tube(0.4, 2.6, "soft"), { at: GUT });
+  const flora = put(sc, "flora", cloud(20, 1.0, "accent", 3), { at: GUT });
+  const mono = put(sc, "mono", cloud(14, 1.0, "hot", 9), { at: [GUT[0], GUT[1], 0.05] });
+  const AB0: Vec3 = [-1.4, 1.6, 0];
+  const abx = put(sc, "abx", cylinder(0.12, 0.4, 8, 2, "hot", true, true), { at: AB0, rotZ: 0.5 });
+  const PB0: Vec3 = [-2.6, 1.2, 0];
+  const prob = put(sc, "prob", cylinder(0.12, 0.4, 8, 2, "soft", true, true), { at: PB0, rotZ: -0.5 });
+  const T: Vec3 = [1.4, 0.6, 0], TUM: Vec3 = [2.6, 0.6, 0];
+  const tcell = put(sc, "tcell", cell(0.32, "accent"), { at: T });
+  const ab = put(sc, "ab", antibody(0.22), { at: [T[0] + 0.42, T[1] + 0.05, 0], rotZ: -Math.PI / 2 });
+  const tum = put(sc, "tum", cell(0.5, "hot"), { at: TUM });
+  const signal = put(sc, "signal", arrow([GUT[0] + 0.6, GUT[1] + 0.5, 0], [T[0] - 0.4, T[1] - 0.2, 0], "accent"));
+  const cal = put(sc, "cal", ticks(0.6, 2.8, -1.3, 5, "soft"));
+  const window = put(sc, "window", line([0.6, -1.1, 0], [2.0, -1.1, 0], "hot"));
+  sc.mesh.labels = [L([GUT[0], 0.35, 0], "Gut microbes"), L([AB0[0], 2.05, 0], "Antibiotic"), L([PB0[0], 1.7, 0], "Shop-bought probiotic"), L([TUM[0], 1.45, 0], "Checkpoint therapy, T cell and tumour")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, mono, abx, prob, window); setAlpha(alpha, cal, 0.3);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); grow(alpha, signal, u); setAlpha(alpha, tcell, 0.5 + 0.5 * u); moveTo(pts, base, tcell, T, [TUM[0] - 0.85, TUM[1], 0], 0.5 * u); moveTo(pts, base, ab, [T[0] + 0.42, T[1] + 0.05, 0], [TUM[0] - 0.43, TUM[1] + 0.05, 0], 0.5 * u); return { caption: "1 · A diverse gut community supports the immune response to checkpoint drugs" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, abx, 1); moveTo(pts, base, abx, AB0, [GUT[0], GUT[1] + 0.2, 0], u, 1 - 0.5 * u); setAlpha(alpha, flora, 1 - 0.8 * clamp(u * 1.5 - 0.3)); setAlpha(alpha, signal, 1 - 0.8 * u); setAlpha(alpha, tcell, 1 - 0.6 * u); moveTo(pts, base, tcell, T, [TUM[0] - 0.85, TUM[1], 0], 0.5 - 0.3 * u); moveTo(pts, base, ab, [T[0] + 0.42, T[1] + 0.05, 0], [TUM[0] - 0.43, TUM[1] + 0.05, 0], 0.5 - 0.3 * u); movePart(pts, base, tum, [0, 0, 0], 1 + 0.2 * u); setAlpha(alpha, cal, 1); setAlpha(alpha, window, u); return { caption: "2 · Broad-spectrum antibiotics in the month or two before immunotherapy strip that community; in cohorts survival was roughly halved, though sicker patients get more antibiotics" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, abx, 0.3); moveTo(pts, base, abx, AB0, [GUT[0], GUT[1] + 0.2, 0], 1, 0.5); setAlpha(alpha, flora, 0.2); setAlpha(alpha, prob, 1); moveTo(pts, base, prob, PB0, [GUT[0] - 0.8, GUT[1] + 0.2, 0], u, 1 - 0.5 * u); setAlpha(alpha, mono, clamp(u * 1.5 - 0.3)); setAlpha(alpha, signal, 0.2); setAlpha(alpha, tcell, 0.4); moveTo(pts, base, tcell, T, [TUM[0] - 0.85, TUM[1], 0], 0.2); moveTo(pts, base, ab, [T[0] + 0.42, T[1] + 0.05, 0], [TUM[0] - 0.43, TUM[1] + 0.05, 0], 0.2); movePart(pts, base, tum, [0, 0, 0], 1.2); setAlpha(alpha, cal, 1); setAlpha(alpha, window, 1); return { caption: "3 · Shop-bought probiotics can flood the niche with one strain and lower diversity; one defined strain (CBM588) helped in a small randomised trial in kidney cancer" }; }
+    const u = Q(t, 3); setAlpha(alpha, abx, 0.3 * (1 - u)); moveTo(pts, base, abx, AB0, [GUT[0], GUT[1] + 0.2, 0], 1, 0.5); setAlpha(alpha, prob, 1 - u); moveTo(pts, base, prob, PB0, [GUT[0] - 0.8, GUT[1] + 0.2, 0], 1, 0.5); setAlpha(alpha, mono, 1 - u); setAlpha(alpha, flora, 0.2 + 0.8 * u); grow(alpha, signal, u); setAlpha(alpha, tcell, 0.4 + 0.6 * u); moveTo(pts, base, tcell, T, [TUM[0] - 0.85, TUM[1], 0], 0.2 + 0.8 * u, 1 + 0.3 * u); moveTo(pts, base, ab, [T[0] + 0.42, T[1] + 0.05, 0], [TUM[0] - 0.43, TUM[1] + 0.05, 0], 0.2 + 0.8 * u); movePart(pts, base, tum, [0, 0, 0], 1.2 - 0.5 * u); setAlpha(alpha, cal, 1); setAlpha(alpha, window, 0.4);
+    return { caption: "4 · Stewardship: avoid needless antibiotics around the start of immunotherapy, keep courses short and narrow, and skip unselected probiotic supplements" };
+  });
+}
+
+// ---------------------------------------------------------------- 17. thermal ablation and cryotherapy for cervical precancer
+export function precancerAblation(): Mesh {
+  const sc = scene();
+  const CX: Vec3 = [-0.8, -0.3, 0];
+  put(sc, "cervix", disc(1.1, 22, undefined, "z"), { at: CX });
+  put(sc, "os", ring(0.18, 10, "soft", "z"), { at: [CX[0], CX[1], 0.02] });
+  const lesion = put(sc, "lesion", disc(0.35, 12, "hot", "z"), { at: [CX[0] + 0.45, CX[1] + 0.3, 0.04] });
+  const PROBE0: Vec3 = [2.2, 1.6, 0.6], PROBE1: Vec3 = [CX[0] + 0.45, CX[1] + 0.3, 0.3];
+  const probe = put(sc, "probe", cylinder(0.1, 0.9, 8, 2, "accent", true, true), { at: [PROBE0[0], PROBE0[1] + 0.45, PROBE0[2]] });
+  const tip = put(sc, "tip", disc(0.3, 12, "accent", "y"), { at: PROBE0 });
+  const heat: Part[] = []; for (let i = 0; i < 3; i++) heat.push(put(sc, `heat${i}`, ring(0.4 + 0.15 * i, 14, "hot", "z"), { at: [PROBE1[0], PROBE1[1], 0.06] }));
+  const battery = put(sc, "battery", box(0.4, 0.25, 0.25, "soft", true), { at: [PROBE0[0], PROBE0[1] + 1.05, PROBE0[2]] });
+  const clock = put(sc, "clock", ring(0.35, 14, "soft", "z"), { at: [2.4, -0.7, 0] });
+  const hand = put(sc, "hand", line([2.4, -0.7, 0], [2.4, -0.4, 0], "accent"));
+  const healed = put(sc, "healed", disc(0.35, 12, "soft", "z"), { at: [CX[0] + 0.45, CX[1] + 0.3, 0.04] });
+  const vis = put(sc, "vis", octahedron(0.08, "accent"), { at: [CX[0] - 0.6, CX[1] + 1.3, 0.1] });
+  sc.mesh.labels = [L([CX[0], 1.1, 0], "Cervix"), L([CX[0] + 1.2, 0.4, 0], "Precancer patch"), L([PROBE0[0], 2.4, 0], "Battery-powered thermal probe"), L([2.4, -1.3, 0], "20 to 40 seconds")];
+  const base = sc.mesh.points;
+  return frame(sc, 12, (t, pts, alpha) => {
+    hide(alpha, ...heat, healed, hand); setAlpha(alpha, clock, 0.3); setAlpha(alpha, probe, 0.4); setAlpha(alpha, tip, 0.4); setAlpha(alpha, battery, 0.4);
+    const s = stageOf(t);
+    const approach = (u: number) => { moveTo(pts, base, probe, [PROBE0[0], PROBE0[1] + 0.45, PROBE0[2]], [PROBE1[0], PROBE1[1] + 0.45, PROBE1[2]], u); moveTo(pts, base, tip, PROBE0, PROBE1, u); moveTo(pts, base, battery, [PROBE0[0], PROBE0[1] + 1.05, PROBE0[2]], [PROBE1[0], PROBE1[1] + 1.05, PROBE1[2]], u); };
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, vis, 1); moveTo(pts, base, vis, [CX[0] - 0.6, CX[1] + 1.3, 0.1], [CX[0] + 0.45, CX[1] + 0.3, 0.1], u); setAlpha(alpha, lesion, 0.3 + 0.7 * u * pulse(t, 4)); return { caption: "1 · A positive screen (HPV test or a look with acetic acid) shows a precancer patch on the cervix" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, vis, 0); approach(u); show(alpha, 0.4 + 0.6 * u, probe, tip, battery); setAlpha(alpha, clock, 0.3 + 0.7 * u); setAlpha(alpha, hand, u); movePart(pts, base, hand, [0, 0, 0], 1, u * TAU * 0.6); heat.forEach((h, i) => { const v = ((t * 4) + i / 3) % 1; setAlpha(alpha, h, u > 0.8 ? (1 - v) : 0); movePart(pts, base, h, [0, 0, 0], 0.6 + 0.8 * v); }); return { caption: "2 · A probe heated to 100°C touches it for 20 to 40 seconds, or a cryotherapy tip freezes it" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, vis, 0); approach(1 - u); show(alpha, 1 - 0.6 * u, probe, tip, battery); setAlpha(alpha, clock, 1); setAlpha(alpha, hand, 1); movePart(pts, base, hand, [0, 0, 0], 1, TAU * 0.6); heat.forEach((h, i) => { const v = ((t * 4) + i / 3) % 1; setAlpha(alpha, h, (1 - v) * (1 - u)); movePart(pts, base, h, [0, 0, 0], 0.6 + 0.8 * v); }); setAlpha(alpha, lesion, 1 - 0.8 * u); return { caption: "3 · The abnormal cells die (coagulative necrosis, or freeze-thaw injury) and slough away over the following weeks" }; }
+    const u = Q(t, 3); setAlpha(alpha, vis, 0); approach(0); show(alpha, 0.4, probe, tip, battery); setAlpha(alpha, clock, 0.6); setAlpha(alpha, hand, 0.6); movePart(pts, base, hand, [0, 0, 0], 1, TAU * 0.6); setAlpha(alpha, lesion, 0.2 * (1 - u)); setAlpha(alpha, healed, u);
+    return { caption: "4 · Single-visit screen-and-treat: cure in about 85 to 95% of eligible lesions, no anaesthetic, no mains electricity; large or endocervical lesions need excision instead" };
+  });
+}
+
+// ---------------------------------------------------------------- 18. clinical NGS bioinformatics and variant interpretation
+export function ngsBioinformatics(): Mesh {
+  const sc = scene();
+  const SEQ: Vec3 = [-2.6, 0.6, 0];
+  put(sc, "seq", box(0.9, 0.7, 0.6, undefined, true), { at: SEQ });
+  const N = 8; const reads: Part[] = []; const R0: Vec3[] = []; const R1: Vec3[] = [];
+  for (let i = 0; i < N; i++) { const from: Vec3 = [SEQ[0] + 0.5, SEQ[1] + 0.3 - 0.08 * i, 0.05 * (i % 3)]; const to: Vec3 = [-1.2 + 0.25 * (i % 5), 0.9 - 0.2 * Math.floor(i / 5) - 0.1 * (i % 2), 0]; R0.push(from); R1.push(to); reads.push(put(sc, `rd${i}`, line([0, 0, 0], [0.7, 0, 0], i === 3 ? "hot" : "soft"), { at: from })); }
+  const ref = put(sc, "ref", line([-1.4, 0.2, 0], [0.8, 0.2, 0], "accent"));
+  const variant = put(sc, "variant", small(0.08, "hot"), { at: [-0.45, 0.2, 0] });
+  const KB: Vec3 = [1.7, 0.6, 0];
+  const kb = put(sc, "kb", cylinder(0.5, 0.9, 12, 4, undefined, false, true), { at: KB });
+  const match = put(sc, "match", arrow([-0.45, 0.3, 0], [KB[0] - 0.55, KB[1], 0], "hot"));
+  const REP: Vec3 = [1.7, -1.1, 0];
+  const report = put(sc, "report", doc(0.8, 1.0, 5), { at: REP });
+  const tier = put(sc, "tier", small(0.07, "hot"), { at: [REP[0] - 0.25, REP[1] + 0.22, 0.05] });
+  const toRep = put(sc, "toRep", arrow([KB[0], KB[1] - 0.5, 0], [REP[0], REP[1] + 0.55, 0], "accent"));
+  const clin = put(sc, "clin", figure("soft"), { at: [2.9, -1.2, 0], scale: 0.5 });
+  sc.mesh.labels = [L([SEQ[0], 1.35, 0], "Sequencer: millions of short reads"), L([-0.3, -0.2, 0], "Reference genome"), L([KB[0], 1.45, 0], "Knowledgebases (OncoKB, CIViC, ClinVar)"), L([REP[0], -1.9, 0], "Draft report, tiered by evidence")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, variant, match, toRep, tier, clin); setAlpha(alpha, ref, 0.2); setAlpha(alpha, kb, 0.3); setAlpha(alpha, report, 0.2);
+    const s = stageOf(t);
+    const align = (u: number) => reads.forEach((r, i) => { const v = clamp(u * 1.5 - i * 0.07); moveTo(pts, base, r, R0[i], R1[i], v); });
+    if (s === 0) { reads.forEach((r, i) => { const v = (t * 4 + i / N) % 1; moveTo(pts, base, r, R0[i], [R0[i][0] + 0.8, R0[i][1], R0[i][2]], v); setAlpha(alpha, r, 1 - v); }); return { caption: "1 · The sequencer produces millions of short reads from the tumour sample" }; }
+    if (s === 1) { const u = Q(t, 1); align(u); setAlpha(alpha, ref, 0.2 + 0.8 * u); setAlpha(alpha, variant, u > 0.7 ? pulse(t, 5) : 0); return { caption: "2 · Secondary analysis aligns them to the reference genome and calls variants where the reads disagree" }; }
+    if (s === 2) { const u = Q(t, 2); align(1); setAlpha(alpha, ref, 1); setAlpha(alpha, variant, 1); grow(alpha, match, u); setAlpha(alpha, kb, 0.3 + 0.7 * u); movePart(pts, base, kb, [0, 0, 0], 1, u * 2); return { caption: "3 · Tertiary interpretation: each variant is matched against curated knowledgebases (OncoKB, CIViC, ClinVar) and tiered by strength of evidence" }; }
+    const u = Q(t, 3); align(1); setAlpha(alpha, ref, 1); setAlpha(alpha, variant, 1); setAlpha(alpha, match, 0.5); setAlpha(alpha, kb, 1); movePart(pts, base, kb, [0, 0, 0], 1, 2); grow(alpha, toRep, u); setAlpha(alpha, report, 0.2 + 0.8 * u); setAlpha(alpha, tier, u > 0.5 ? pulse(t, 5) : 0); setAlpha(alpha, clin, u);
+    return { caption: "4 · A draft report lists the mutations that matter, the drugs they point to and open trials, for a clinician to review and sign" };
+  });
+}
+
+// ---------------------------------------------------------------- 19. oncofertility and fertility preservation
+export function fertilityPreservation(): Mesh {
+  const sc = scene();
+  const PAT: Vec3 = [-2.5, 0, 0];
+  put(sc, "patient", figure(), { at: PAT });
+  const drip = put(sc, "drip", box(0.3, 0.45, 0.14, "hot", true), { at: [PAT[0] - 0.9, 1.5, 0] });
+  const dripLine = put(sc, "dripLine", polyline([[PAT[0] - 0.9, 1.27, 0], [PAT[0] - 0.7, 0.6, 0], [PAT[0] - 0.4, 0.3, 0.05]], "hot"));
+  const FRZ: Vec3 = [0.2, 0.7, 0];
+  const freezer = put(sc, "freezer", box(1.0, 1.0, 0.6, undefined, true), { at: FRZ });
+  const snow = put(sc, "snow", dots([[FRZ[0] - 0.25, FRZ[1] + 0.25, 0.31], [FRZ[0] + 0.2, FRZ[1] - 0.1, 0.31], [FRZ[0], FRZ[1] + 0.35, 0.31]], "soft"));
+  const OV: Vec3 = [PAT[0] + 0.25, -0.15, 0.1];
+  const ovary = put(sc, "ovary", sphere(0.14, 3, 8, "accent", true), { at: OV });
+  const eggs: Part[] = []; for (let i = 0; i < 4; i++) eggs.push(put(sc, `egg${i}`, small(0.06, "accent"), { at: OV }));
+  const vial = put(sc, "vial", cylinder(0.1, 0.4, 8, 2, "accent", true, true), { at: [FRZ[0] - 0.25, FRZ[1] - 0.15, 0.2] });
+  const strip = put(sc, "strip", box(0.35, 0.08, 0.15, "accent", true), { at: [FRZ[0] + 0.25, FRZ[1] - 0.15, 0.2] });
+  const shield = put(sc, "shield", ring(0.24, 12, "accent", "z"), { at: OV });
+  const clock = put(sc, "clock", ring(0.35, 14, "soft", "z"), { at: [0.2, -1.2, 0] });
+  const hand = put(sc, "hand", line([0.2, -1.2, 0], [0.2, -0.9, 0], "accent"));
+  const LATER: Vec3 = [2.4, 0, 0];
+  const later = put(sc, "later", figure("soft"), { at: LATER });
+  const bump = put(sc, "bump", sphere(0.22, 3, 8, "accent", true), { at: [LATER[0] + 0.1, 0.15, 0.15] });
+  const tl = put(sc, "tl", arrow([FRZ[0] + 0.6, FRZ[1] - 0.6, 0], [LATER[0] - 0.5, 0.2, 0], "soft"));
+  sc.mesh.labels = [L([PAT[0], 1.45, 0], "Before treatment starts"), L([FRZ[0], 1.55, 0], "Eggs, embryos, sperm or ovarian tissue, frozen"), L([0.2, -1.75, 0], "Within two weeks"), L([LATER[0], 1.35, 0], "Years later")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, vial, strip, shield, later, bump, tl, ...eggs); setAlpha(alpha, freezer, 0.3); setAlpha(alpha, snow, 0.3); setAlpha(alpha, drip, 0.3); setAlpha(alpha, dripLine, 0.3); setAlpha(alpha, clock, 0.3); setAlpha(alpha, hand, 0.3);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, drip, 0.3 + 0.7 * u); setAlpha(alpha, dripLine, 0.3 + 0.7 * u * pulse(t, 5)); setAlpha(alpha, ovary, 1 - 0.5 * u * pulse(t, 5)); return { caption: "1 · Alkylating chemotherapy, pelvic radiotherapy and transplant conditioning damage eggs and sperm; the conversation has to happen before the first dose" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, clock, 1); setAlpha(alpha, hand, 1); movePart(pts, base, hand, [0, 0, 0], 1, u * TAU * 0.8); eggs.forEach((e, i) => { const v = clamp(u * 1.5 - i * 0.12); setAlpha(alpha, e, v > 0 && v < 1 ? 1 : 0); moveTo(pts, base, e, OV, [FRZ[0] - 0.25, FRZ[1] - 0.15, 0.2], v); }); setAlpha(alpha, freezer, 0.3 + 0.7 * u); setAlpha(alpha, snow, 0.3 + 0.7 * u); setAlpha(alpha, vial, clamp(u * 2 - 0.8)); return { caption: "2 · Sperm banking, or egg or embryo freezing after a random-start stimulation that fits inside two weeks" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, clock, 0.6); setAlpha(alpha, hand, 0.6); movePart(pts, base, hand, [0, 0, 0], 1, TAU * 0.8); setAlpha(alpha, freezer, 1); setAlpha(alpha, snow, 1); setAlpha(alpha, vial, 1); setAlpha(alpha, strip, clamp(u * 2)); moveTo(pts, base, strip, [OV[0], OV[1], OV[2]], [FRZ[0] + 0.25, FRZ[1] - 0.15, 0.2], clamp(u * 2)); setAlpha(alpha, shield, clamp(u * 2 - 1) * pulse(t, 4)); return { caption: "3 · Ovarian tissue freezing, the only option for young girls; moving the ovary out of a radiation field; a GnRH agonist to quieten the ovary during chemotherapy for breast cancer" }; }
+    const u = Q(t, 3); setAlpha(alpha, clock, 0.6); setAlpha(alpha, hand, 0.6); movePart(pts, base, hand, [0, 0, 0], 1, TAU * 0.8); setAlpha(alpha, freezer, 1); setAlpha(alpha, snow, 1); setAlpha(alpha, vial, 1); setAlpha(alpha, strip, 1); setAlpha(alpha, shield, 0.6); grow(alpha, tl, u); setAlpha(alpha, later, u); setAlpha(alpha, bump, clamp(u * 2 - 1));
+    return { caption: "4 · Years later, live births from every method; pregnancy after breast cancer is safe (POSITIVE trial). Fewer than half of eligible patients are counselled: the gap is referral" };
+  });
+}
+
+// ---------------------------------------------------------------- 20. prophylactic cranial irradiation versus MRI surveillance
+export function prophylacticCranialIrradiation(): Mesh {
+  const sc = scene();
+  const HEAD: Vec3 = [-1.6, 0.2, 0];
+  put(sc, "head", sphere(0.95, 5, 12, "soft", true), { at: HEAD });
+  const hippo = put(sc, "hippo", polyline([[HEAD[0] - 0.3, HEAD[1] - 0.2, 0.3], [HEAD[0] - 0.1, HEAD[1] - 0.35, 0.3], [HEAD[0] + 0.2, HEAD[1] - 0.3, 0.3]], "accent"));
+  const seeds: Part[] = []; const SEED: Vec3[] = [[0.35, 0.3, 0.2], [-0.4, 0.45, -0.1], [0.1, -0.1, 0.4], [-0.2, 0.0, -0.4], [0.5, -0.3, 0.1]];
+  for (let i = 0; i < 5; i++) seeds.push(put(sc, `sd${i}`, small(0.06, "hot"), { at: [HEAD[0] + SEED[i][0], HEAD[1] + SEED[i][1], SEED[i][2]] }));
+  const beams: Part[] = []; for (let i = 0; i < 4; i++) { const a = 0.5 + i * 0.7; beams.push(put(sc, `bm${i}`, line([HEAD[0] + 2.2 * Math.cos(a), HEAD[1] + 2.2 * Math.sin(a), 0], [HEAD[0] + 0.95 * Math.cos(a), HEAD[1] + 0.95 * Math.sin(a), 0], "accent"))); }
+  const lung = put(sc, "lung", organ(0.35, 0.5, 0.3), { at: [HEAD[0], -1.6, 0] });
+  const primary = put(sc, "primary", blob(0.14), { at: [HEAD[0] + 0.1, -1.55, 0.1] });
+  const MRI: Vec3 = [1.8, 0.2, 0];
+  const mri = put(sc, "mri", torus(1.1, 0.12, 20, 6, undefined, true), { at: MRI, rotX: Math.PI / 2 });
+  const head2 = put(sc, "head2", sphere(0.6, 4, 10, "soft", true), { at: MRI });
+  const met = put(sc, "met", small(0.1, "hot"), { at: [MRI[0] + 0.25, MRI[1] + 0.2, 0.1] });
+  const srs: Part[] = []; for (let i = 0; i < 3; i++) { const a = 0.9 + i * 0.5; srs.push(put(sc, `srs${i}`, line([MRI[0] + 0.25 + 1.0 * Math.cos(a), MRI[1] + 0.2 + 1.0 * Math.sin(a), 0.1], [MRI[0] + 0.25, MRI[1] + 0.2, 0.1], "accent"))); }
+  const cal = put(sc, "cal", ticks(MRI[0] - 1.0, MRI[0] + 1.0, -1.4, 5, "soft"));
+  sc.mesh.labels = [L([HEAD[0], 1.55, 0], "Brain: tiny hidden deposits"), L([HEAD[0] - 0.4, -0.75, 0.3], "Hippocampus, spared"), L([MRI[0], 1.7, 0], "MRI every few months"), L([MRI[0], -1.75, 0], "Treat what appears, focally")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ...beams, met, ...srs); setAlpha(alpha, mri, 0.3); setAlpha(alpha, head2, 0.3); setAlpha(alpha, cal, 0.3); setAlpha(alpha, hippo, 0.4);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, primary, pulse(t, 4)); seeds.forEach((sd, i) => { const v = clamp(u * 1.6 - i * 0.15); setAlpha(alpha, sd, v); moveTo(pts, base, sd, [HEAD[0] + 0.1, -1.55, 0.1], [HEAD[0] + SEED[i][0], HEAD[1] + SEED[i][1], SEED[i][2]], v); }); setAlpha(alpha, lung, 1); return { caption: "1 · Small-cell lung cancer seeds the brain so often that tiny deposits are assumed to be present after the chest is treated" }; }
+    if (s === 1) { const u = Q(t, 1); beams.forEach((b) => setAlpha(alpha, b, u > 0.1 ? pulse(t, 6) : 0)); seeds.forEach((sd) => setAlpha(alpha, sd, 1 - 0.85 * u)); setAlpha(alpha, hippo, 1); return { caption: "2 · Prophylactic cranial irradiation: whole-brain radiotherapy (25 Gy in 10 fractions) sterilises them before symptoms, at a cost to memory; hippocampal avoidance limits the harm" }; }
+    if (s === 2) { const u = Q(t, 2); show(alpha, 0.3, ...beams); show(alpha, 0.15, ...seeds); setAlpha(alpha, mri, 0.3 + 0.7 * u * pulse(t, 5)); setAlpha(alpha, head2, 0.3 + 0.7 * u); setAlpha(alpha, cal, 0.3 + 0.7 * u); setAlpha(alpha, met, u > 0.6 ? pulse(t, 5) : 0); srs.forEach((r) => setAlpha(alpha, r, u > 0.8 ? pulse(t, 7) : 0)); return { caption: "3 · The alternative: regular MRI scans, treating any deposit that appears with focused stereotactic radiosurgery" }; }
+    const u = Q(t, 3); show(alpha, 0.3, ...beams); show(alpha, 0.15, ...seeds); setAlpha(alpha, mri, 1); setAlpha(alpha, head2, 1); setAlpha(alpha, cal, 1); setAlpha(alpha, met, 1 - 0.8 * u); movePart(pts, base, met, [0, 0, 0], 1 - 0.6 * u); show(alpha, 0.5, ...srs);
+    return { caption: "4 · With MRI surveillance available the survival gain from irradiating everyone is unclear; the SWOG S1827 trial compares the two directly" };
+  });
+}
+
 export const WAVE4: Record<string, () => Mesh> = {
   "integrative-oncology": integrativeOncology,
   "flow-cytometry-mrd": flowCytometryMrd,
@@ -426,4 +737,14 @@ export const WAVE4: Record<string, () => Mesh> = {
   "oncology-nutrition": nutritionSupport,
   "transfusion-support": transfusionSupport,
   "bone-modifying-agents": boneModifyingAgents,
+  "psycho-oncology": psychoOncology,
+  "sstr-pet": sstrPet,
+  "limb-salvage-surgery": limbSalvage,
+  "bariatric-surgery-cancer-incidence": bariatricSurgeryCancer,
+  "resistance-training-cachexia": resistanceTraining,
+  "probiotics-antibiotic-stewardship-io": antibioticStewardshipIo,
+  "precancer-ablation": precancerAblation,
+  "ngs-bioinformatics-software": ngsBioinformatics,
+  "fertility-preservation": fertilityPreservation,
+  "prophylactic-cranial-irradiation": prophylacticCranialIrradiation,
 };

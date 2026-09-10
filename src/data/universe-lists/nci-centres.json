@@ -1,0 +1,542 @@
+{
+  "list": "NCI-Designated Cancer Centers",
+  "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+  "checkedOn": "2026-09-10",
+  "note": "One row per entry on the NCI 'Find a Cancer Center' page as of the checked date: 76 entries covering 74 distinct organisations, because Mayo Clinic Cancer Center is listed at three sites (Phoenix, Jacksonville, Rochester) and OnCo holds a record for each. Designation is as shown on the NCI page. `id` is the OnCo institution id; every entry is matched.",
+  "count": 76,
+  "distinctOrganisations": 74,
+  "centres": [
+    {
+      "name": "O'Neal Comprehensive Cancer Center",
+      "city": "Birmingham",
+      "state": "AL",
+      "designation": "comprehensive",
+      "id": "oneal-uab"
+    },
+    {
+      "name": "University of Arizona Cancer Center",
+      "city": "Tucson",
+      "state": "AZ",
+      "designation": "comprehensive",
+      "id": "arizona-cancer-center"
+    },
+    {
+      "name": "Mayo Clinic Cancer Center (Phoenix)",
+      "city": "Phoenix",
+      "state": "AZ",
+      "designation": "comprehensive",
+      "id": "mayo-clinic-arizona"
+    },
+    {
+      "name": "Chao Family Comprehensive Cancer Center",
+      "city": "Orange",
+      "state": "CA",
+      "designation": "comprehensive",
+      "id": "uci-chao"
+    },
+    {
+      "name": "City of Hope Comprehensive Cancer Center",
+      "city": "Duarte",
+      "state": "CA",
+      "designation": "comprehensive",
+      "id": "city-of-hope"
+    },
+    {
+      "name": "Jonsson Comprehensive Cancer Center",
+      "city": "Los Angeles",
+      "state": "CA",
+      "designation": "comprehensive",
+      "id": "ucla-jonsson"
+    },
+    {
+      "name": "Salk Institute Cancer Center",
+      "city": "La Jolla",
+      "state": "CA",
+      "designation": "basic",
+      "id": "salk-institute"
+    },
+    {
+      "name": "Sanford Burnham Prebys Medical Discovery Institute",
+      "city": "La Jolla",
+      "state": "CA",
+      "designation": "basic",
+      "id": "sanford-burnham-prebys"
+    },
+    {
+      "name": "Stanford Cancer Institute",
+      "city": "Stanford",
+      "state": "CA",
+      "designation": "comprehensive",
+      "id": "stanford"
+    },
+    {
+      "name": "UC Davis Comprehensive Cancer Center",
+      "city": "Sacramento",
+      "state": "CA",
+      "designation": "comprehensive",
+      "id": "uc-davis-cancer"
+    },
+    {
+      "name": "Moores Comprehensive Cancer Center",
+      "city": "La Jolla",
+      "state": "CA",
+      "designation": "comprehensive",
+      "id": "ucsd-moores"
+    },
+    {
+      "name": "UCSF Helen Diller Family Comprehensive Cancer Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "designation": "comprehensive",
+      "id": "ucsf"
+    },
+    {
+      "name": "USC Norris Comprehensive Cancer Center",
+      "city": "Los Angeles",
+      "state": "CA",
+      "designation": "comprehensive",
+      "id": "usc-norris"
+    },
+    {
+      "name": "University of Colorado Cancer Center",
+      "city": "Aurora",
+      "state": "CO",
+      "designation": "comprehensive",
+      "id": "colorado-cancer-center"
+    },
+    {
+      "name": "Yale Cancer Center",
+      "city": "New Haven",
+      "state": "CT",
+      "designation": "comprehensive",
+      "id": "yale-cancer-center"
+    },
+    {
+      "name": "Georgetown Lombardi Comprehensive Cancer Center",
+      "city": "Washington",
+      "state": "DC",
+      "designation": "comprehensive",
+      "id": "georgetown-lombardi"
+    },
+    {
+      "name": "Mayo Clinic Cancer Center (Jacksonville)",
+      "city": "Jacksonville",
+      "state": "FL",
+      "designation": "comprehensive",
+      "id": "mayo-clinic-florida"
+    },
+    {
+      "name": "Sylvester Comprehensive Cancer Center",
+      "city": "Miami",
+      "state": "FL",
+      "designation": "clinical",
+      "id": "sylvester-miami"
+    },
+    {
+      "name": "Moffitt Cancer Center",
+      "city": "Tampa",
+      "state": "FL",
+      "designation": "comprehensive",
+      "id": "moffitt"
+    },
+    {
+      "name": "University of Florida Health Cancer Institute",
+      "city": "Gainesville",
+      "state": "FL",
+      "designation": "clinical",
+      "id": "uf-health-cancer-center"
+    },
+    {
+      "name": "Winship Cancer Institute",
+      "city": "Atlanta",
+      "state": "GA",
+      "designation": "comprehensive",
+      "id": "emory-winship"
+    },
+    {
+      "name": "University of Hawai'i Cancer Center",
+      "city": "Honolulu",
+      "state": "HI",
+      "designation": "clinical",
+      "id": "hawaii-cancer-center"
+    },
+    {
+      "name": "Cancer Center at Illinois",
+      "city": "Urbana",
+      "state": "IL",
+      "designation": "basic",
+      "id": "cancer-center-at-illinois"
+    },
+    {
+      "name": "Robert H. Lurie Comprehensive Cancer Center",
+      "city": "Chicago",
+      "state": "IL",
+      "designation": "comprehensive",
+      "id": "northwestern-lurie"
+    },
+    {
+      "name": "The University of Chicago Comprehensive Cancer Center",
+      "city": "Chicago",
+      "state": "IL",
+      "designation": "comprehensive",
+      "id": "uchicago-cancer"
+    },
+    {
+      "name": "Indiana University Melvin and Bren Simon Comprehensive Cancer Center",
+      "city": "Indianapolis",
+      "state": "IN",
+      "designation": "comprehensive",
+      "id": "iu-simon"
+    },
+    {
+      "name": "Purdue Institute for Cancer Research",
+      "city": "West Lafayette",
+      "state": "IN",
+      "designation": "basic",
+      "id": "purdue-cancer-research"
+    },
+    {
+      "name": "Holden Comprehensive Cancer Center",
+      "city": "Iowa City",
+      "state": "IA",
+      "designation": "comprehensive",
+      "id": "iowa-holden"
+    },
+    {
+      "name": "The University of Kansas Cancer Center",
+      "city": "Kansas City",
+      "state": "KS",
+      "designation": "comprehensive",
+      "id": "ku-cancer-center"
+    },
+    {
+      "name": "Markey Cancer Center",
+      "city": "Lexington",
+      "state": "KY",
+      "designation": "comprehensive",
+      "id": "kentucky-markey"
+    },
+    {
+      "name": "The Jackson Laboratory Cancer Center",
+      "city": "Bar Harbor",
+      "state": "ME",
+      "designation": "basic",
+      "id": "jackson-laboratory"
+    },
+    {
+      "name": "Sidney Kimmel Comprehensive Cancer Center",
+      "city": "Baltimore",
+      "state": "MD",
+      "designation": "comprehensive",
+      "id": "johns-hopkins"
+    },
+    {
+      "name": "University of Maryland Marlene and Stewart Greenebaum Comprehensive Cancer Center",
+      "city": "Baltimore",
+      "state": "MD",
+      "designation": "comprehensive",
+      "id": "maryland-greenebaum"
+    },
+    {
+      "name": "Dana-Farber/Harvard Cancer Center",
+      "city": "Boston",
+      "state": "MA",
+      "designation": "comprehensive",
+      "id": "dana-farber"
+    },
+    {
+      "name": "David H. Koch Institute for Integrative Cancer Research at MIT",
+      "city": "Cambridge",
+      "state": "MA",
+      "designation": "basic",
+      "id": "mit-koch"
+    },
+    {
+      "name": "The Barbara Ann Karmanos Cancer Institute",
+      "city": "Detroit",
+      "state": "MI",
+      "designation": "comprehensive",
+      "id": "karmanos"
+    },
+    {
+      "name": "University of Michigan Rogel Cancer Center",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "designation": "comprehensive",
+      "id": "michigan-rogel"
+    },
+    {
+      "name": "Masonic Cancer Center",
+      "city": "Minneapolis",
+      "state": "MN",
+      "designation": "comprehensive",
+      "id": "minnesota-masonic"
+    },
+    {
+      "name": "Mayo Clinic Cancer Center (Rochester)",
+      "city": "Rochester",
+      "state": "MN",
+      "designation": "comprehensive",
+      "id": "mayo-clinic"
+    },
+    {
+      "name": "Alvin J. Siteman Cancer Center",
+      "city": "St. Louis",
+      "state": "MO",
+      "designation": "comprehensive",
+      "id": "wustl-siteman"
+    },
+    {
+      "name": "Fred and Pamela Buffett Cancer Center",
+      "city": "Omaha",
+      "state": "NE",
+      "designation": "clinical",
+      "id": "nebraska-buffett"
+    },
+    {
+      "name": "Dartmouth Cancer Center",
+      "city": "Lebanon",
+      "state": "NH",
+      "designation": "comprehensive",
+      "id": "dartmouth-cancer-center"
+    },
+    {
+      "name": "Rutgers Cancer Institute of New Jersey",
+      "city": "New Brunswick",
+      "state": "NJ",
+      "designation": "comprehensive",
+      "id": "rutgers-cinj"
+    },
+    {
+      "name": "University of New Mexico Cancer Research and Treatment Center",
+      "city": "Albuquerque",
+      "state": "NM",
+      "designation": "comprehensive",
+      "id": "unm-cancer-center"
+    },
+    {
+      "name": "Montefiore Einstein Cancer Center",
+      "city": "Bronx",
+      "state": "NY",
+      "designation": "comprehensive",
+      "id": "montefiore-einstein"
+    },
+    {
+      "name": "Cold Spring Harbor Laboratory Cancer Center",
+      "city": "Cold Spring Harbor",
+      "state": "NY",
+      "designation": "basic",
+      "id": "cold-spring-harbor"
+    },
+    {
+      "name": "Herbert Irving Comprehensive Cancer Center",
+      "city": "New York",
+      "state": "NY",
+      "designation": "comprehensive",
+      "id": "columbia-hicc"
+    },
+    {
+      "name": "Laura and Isaac Perlmutter Cancer Center at NYU Langone Health",
+      "city": "New York",
+      "state": "NY",
+      "designation": "comprehensive",
+      "id": "nyu-perlmutter"
+    },
+    {
+      "name": "Memorial Sloan-Kettering Cancer Center",
+      "city": "New York",
+      "state": "NY",
+      "designation": "comprehensive",
+      "id": "mskcc"
+    },
+    {
+      "name": "Roswell Park Comprehensive Cancer Center",
+      "city": "Buffalo",
+      "state": "NY",
+      "designation": "comprehensive",
+      "id": "roswell-park"
+    },
+    {
+      "name": "Mount Sinai Tisch Cancer Center",
+      "city": "New York",
+      "state": "NY",
+      "designation": "clinical",
+      "id": "mount-sinai"
+    },
+    {
+      "name": "Wilmot Cancer Institute",
+      "city": "Rochester",
+      "state": "NY",
+      "designation": "clinical",
+      "id": "wilmot"
+    },
+    {
+      "name": "Duke Cancer Institute",
+      "city": "Durham",
+      "state": "NC",
+      "designation": "comprehensive",
+      "id": "duke-cancer-institute"
+    },
+    {
+      "name": "UNC Lineberger Comprehensive Cancer Center",
+      "city": "Chapel Hill",
+      "state": "NC",
+      "designation": "comprehensive",
+      "id": "unc-lineberger"
+    },
+    {
+      "name": "Wake Forest Baptist Comprehensive Cancer Center",
+      "city": "Winston-Salem",
+      "state": "NC",
+      "designation": "comprehensive",
+      "id": "wake-forest-cancer"
+    },
+    {
+      "name": "Case Comprehensive Cancer Center",
+      "city": "Cleveland",
+      "state": "OH",
+      "designation": "comprehensive",
+      "id": "case-ccc"
+    },
+    {
+      "name": "The Ohio State University Comprehensive Cancer Center",
+      "city": "Columbus",
+      "state": "OH",
+      "designation": "comprehensive",
+      "id": "osu-james"
+    },
+    {
+      "name": "Stephenson Cancer Center",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "designation": "clinical",
+      "id": "stephenson-oklahoma"
+    },
+    {
+      "name": "Knight Cancer Institute",
+      "city": "Portland",
+      "state": "OR",
+      "designation": "comprehensive",
+      "id": "ohsu-knight"
+    },
+    {
+      "name": "Abramson Cancer Center",
+      "city": "Philadelphia",
+      "state": "PA",
+      "designation": "comprehensive",
+      "id": "penn-abramson"
+    },
+    {
+      "name": "Fox Chase Cancer Center",
+      "city": "Philadelphia",
+      "state": "PA",
+      "designation": "comprehensive",
+      "id": "fox-chase"
+    },
+    {
+      "name": "Sidney Kimmel Cancer Center at Thomas Jefferson University",
+      "city": "Philadelphia",
+      "state": "PA",
+      "designation": "comprehensive",
+      "id": "jefferson-kimmel"
+    },
+    {
+      "name": "UPMC Hillman Cancer Center",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "designation": "comprehensive",
+      "id": "upmc-hillman"
+    },
+    {
+      "name": "The Wistar Institute Cancer Center",
+      "city": "Philadelphia",
+      "state": "PA",
+      "designation": "basic",
+      "id": "wistar"
+    },
+    {
+      "name": "Hollings Cancer Center",
+      "city": "Charleston",
+      "state": "SC",
+      "designation": "clinical",
+      "id": "musc-hollings"
+    },
+    {
+      "name": "St. Jude Children's Research Hospital",
+      "city": "Memphis",
+      "state": "TN",
+      "designation": "comprehensive",
+      "id": "st-jude"
+    },
+    {
+      "name": "Vanderbilt-Ingram Cancer Center",
+      "city": "Nashville",
+      "state": "TN",
+      "designation": "comprehensive",
+      "id": "vanderbilt-ingram"
+    },
+    {
+      "name": "Dan L Duncan Comprehensive Cancer Center",
+      "city": "Houston",
+      "state": "TX",
+      "designation": "comprehensive",
+      "id": "baylor-duncan"
+    },
+    {
+      "name": "Harold C. Simmons Comprehensive Cancer Center",
+      "city": "Dallas",
+      "state": "TX",
+      "designation": "comprehensive",
+      "id": "utsw-simmons"
+    },
+    {
+      "name": "Mays Cancer Center at UT Health San Antonio",
+      "city": "San Antonio",
+      "state": "TX",
+      "designation": "clinical",
+      "id": "mays-cancer-center"
+    },
+    {
+      "name": "The University of Texas MD Anderson Cancer Center",
+      "city": "Houston",
+      "state": "TX",
+      "designation": "comprehensive",
+      "id": "md-anderson"
+    },
+    {
+      "name": "Huntsman Cancer Institute",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "designation": "comprehensive",
+      "id": "huntsman"
+    },
+    {
+      "name": "VCU Massey Comprehensive Cancer Center",
+      "city": "Richmond",
+      "state": "VA",
+      "designation": "comprehensive",
+      "id": "vcu-massey"
+    },
+    {
+      "name": "University of Virginia Cancer Center",
+      "city": "Charlottesville",
+      "state": "VA",
+      "designation": "comprehensive",
+      "id": "uva-cancer-center"
+    },
+    {
+      "name": "Fred Hutchinson/University of Washington/Seattle Children's Cancer Consortium",
+      "city": "Seattle",
+      "state": "WA",
+      "designation": "comprehensive",
+      "id": "fred-hutch"
+    },
+    {
+      "name": "University of Wisconsin Carbone Cancer Center",
+      "city": "Madison",
+      "state": "WI",
+      "designation": "comprehensive",
+      "id": "uw-carbone"
+    }
+  ]
+}

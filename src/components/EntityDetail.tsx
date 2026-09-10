@@ -65,6 +65,7 @@ import { CoverageUkCard } from "./CoverageUk";
 import { coverageUs } from "@/data/coverage-us";
 import { coverageUk } from "@/data/coverage-uk";
 import { SurvivalDisclosure } from "./SurvivalDisclosure";
+import { similarLinks } from "@/lib/similar";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
@@ -110,7 +111,7 @@ export function EntityDetail({ e }: { e: Entity }) {
     ...(e.notes.length ? [{ id: "notes", label: "Notes", content: <Bullets items={e.notes} linked={(t) => withTermHovers(t, { skipId: e.id })} /> }] : []),
     ...keyPapersTab(e),
     ...papersTab(e),
-    { id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} /> },
+    { id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} similar={similarLinks(e.id)} /> },
   ];
 
   return (

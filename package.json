@@ -25,7 +25,7 @@
   "scripts": {
     "dev": "npm run build:api && next dev",
     "build": "npm run build:api && next build",
-    "build:api": "tsx scripts/build-api.ts",
+    "build:api": "tsx scripts/build-api.ts && tsx scripts/embed.ts && tsx scripts/build-similar.ts && tsx scripts/build-triples.ts && tsx scripts/build-context.ts",
     "validate": "tsx scripts/validate.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
@@ -56,7 +56,17 @@
     "issue-forms": "tsx scripts/gen-issue-forms.ts",
     "issue-forms:check": "tsx scripts/gen-issue-forms.ts --check",
     "fetch:votes": "tsx scripts/fetch-votes.ts",
-    "newsletter": "tsx scripts/newsletter.ts"
+    "newsletter": "tsx scripts/newsletter.ts",
+    "bench:ask": "tsx scripts/benchmark-ask.ts",
+    "fetch:wikidata": "tsx scripts/fetch-wikidata.ts",
+    "fetch:fda": "tsx scripts/fetch-fda.ts",
+    "fetch:ema": "tsx scripts/fetch-ema.ts",
+    "fetch:abstracts": "tsx scripts/fetch-abstracts.ts",
+    "fetch:hta": "tsx scripts/fetch-hta.ts",
+    "fetch:pulse": "tsx scripts/fetch-pulse.ts",
+    "fetch:citations": "tsx scripts/fetch-citations.ts",
+    "fetch:survival": "tsx scripts/fetch-survival.ts",
+    "propose": "tsx scripts/propose-updates.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

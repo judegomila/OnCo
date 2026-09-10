@@ -51,7 +51,7 @@ function main() {
   const g = graph();
   const generated = today();
   const proposals: Proposal[] = [];
-  const loc = (id: string, kind: Kind) => { try { const l = sourceLocation(id, kind); return { file: l.file, line: l.line, editUrl: l.editUrl }; } catch { return {}; } };
+  const loc = (id: string, kind: Kind) => { try { const l = sourceLocation(id, kind); return { file: l.file, line: l.line, editUrl: l.url }; } catch { return {}; } };
   const push = (p: Omit<Proposal, "id" | "detected"> & { detected?: string }) => proposals.push({ ...p, id: `${p.kind}:${p.entityId ?? p.entityName}:${p.field}:${p.proposed}`.toLowerCase().replace(/[^a-z0-9:.-]+/g, "-").slice(0, 160), detected: p.detected ?? generated });
 
   const fc = readJson<Factcheck>(publicPath("factcheck.json"));

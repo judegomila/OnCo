@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY 4.0; attribute "OnCo (onco.cc)".
 
-4,455 records in 18 kinds: 64 cancers, 19 fronts, 348 technologies, 92 targets, 377 drugs, 295 companies, 421 institutions, 44 pathways, 357 terms, 401 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 464 people, 45 bottlenecks, 146 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
+4,734 records in 18 kinds: 64 cancers, 19 fronts, 348 technologies, 92 targets, 377 drugs, 295 companies, 421 institutions, 80 pathways, 600 terms, 401 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 464 people, 45 bottlenecks, 146 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
 
 ## Machine-readable corpus
 
@@ -39,6 +39,9 @@
 ## Start here
 
 - [Explore](https://onco.cc/explore/): Pick a cancer, switch kind, get a ranked and sortable list.
+- [Search](https://onco.cc/search/): Word and concept search side by side, each result explaining why it matched.
+- [Ask OnCo](https://onco.cc/ask/): A question in plain words, answered only with cited sentences from OnCo records.
+- [Path finder](https://onco.cc/path/): How any two objects are related: shortest routes with every relationship named.
 - [For me](https://onco.cc/for-me/): Choose your cancer type(s) and see what works and what could work.
 - [Navigator](https://onco.cc/navigator/): Standard of care for your stage, what you have tried, cautions, next options, trials near you.
 - [Tumour board](https://onco.cc/tumor-board/): Tick biomarkers and alterations, get matched options and cautions.
@@ -57,6 +60,7 @@
 - [Targets](https://onco.cc/targets/): The molecules drugs and tracers aim at.
 - [Treatments & tests](https://onco.cc/drugs/): Approved and pipeline products, with rotating molecules.
 - [Pathways](https://onco.cc/pathways/): Signalling circuits, drawn and explained.
+- [Mechanics of cancer](https://onco.cc/mechanics/): How cancer works, drawn stage by stage, with the drugs that act on each mechanism.
 - [Prevalence](https://onco.cc/prevalence/): How common each target is in each cancer.
 - [Trials](https://onco.cc/trials/): Landmark and current trials.
 - [Pairings](https://onco.cc/pairings/): What works together, and what does not.
@@ -70,6 +74,7 @@
 
 - [Journals](https://onco.cc/journals/): Where the evidence is published: scope, access model and the key papers each venue carried.
 - [Key papers](https://onco.cc/key-papers/): The papers that changed practice, each explained: what it found, what it means, what to be careful about.
+- [Trials in plain words](https://onco.cc/explained/): Every trial result as people out of 100, medians explained, surrogate endpoints flagged.
 - [Evidence](https://onco.cc/evidence/): Every trial ranked by evidence strength, endpoints as people out of 100.
 - [Readout calendar](https://onco.cc/calendar/): Decisions, readouts, advisory committees, congresses.
 - [Congress digests](https://onco.cc/digests/): ASCO, ESMO, AACR, ASCO GU, sourced item by item.
@@ -79,6 +84,8 @@
 - [Regulatory timeline](https://onco.cc/regulatory/): Every dated filing, approval, CRL, and label change.
 - [Paying for care (US)](https://onco.cc/coverage/us/): Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product.
 - [What the NHS offers](https://onco.cc/coverage/uk/): NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.
+- [HTA decisions](https://onco.cc/hta/): NICE, SMC, G-BA and PBAC verdicts per product and country, with dates and links to the appraisal.
+- [Survival statistics](https://onco.cc/survival/): Five-year relative survival by cancer and stage from SEER, with the period and caveats.
 - [Approvals by region](https://onco.cc/regulatory/regions/): Which products are approved in the US, EU, UK, Japan, China and Australia, and which are missing where.
 - [What the world is publishing](https://onco.cc/papers/): Fastest-growing topics in the literature, refreshed weekly from Europe PMC.
 - [Research pulse](https://onco.cc/pulse/): What the leading journals, regulators and news sources are saying this month.
@@ -86,6 +93,9 @@
 - [Isotope supply](https://onco.cc/isotopes/): Lu-177, Ac-225, Pb-212 and who makes them.
 - [Annual report](https://onco.cc/report/): The state of the war on cancer, year by year, generated from the corpus.
 - [Changelog](https://onco.cc/changelog/): What changed in OnCo, and when.
+- [Data currency](https://onco.cc/status/): When each automated feed last ran, what is stale, and the incident log.
+- [Freshness](https://onco.cc/freshness/): How old is too old for each kind of record, by review track, and what is past due.
+- [Recent changes](https://onco.cc/history/): What changed on which record, field by field, from the git history.
 - [Audit](https://onco.cc/audit/): Staleness, contradictions, and registry mismatches, recomputed each build.
 - [Corrections](https://onco.cc/corrections/): Every factual correction, what was wrong and how it was found.
 
@@ -101,15 +111,39 @@
 - [Cases by country](https://onco.cc/cases/): New cancer cases per country and per cancer, with the data gaps made explicit.
 - [Funding flows](https://onco.cc/funding/): Where the money comes from.
 
+## Living with cancer
+
+- [For me](https://onco.cc/for-me/): Pick your cancer type and see what works and what could work.
+- [Appointment prep pack](https://onco.cc/prep/): Tick the questions to ask for your cancer, add your own, and print or download one page for the appointment.
+- [Side effects](https://onco.cc/side-effects/): Start from the symptom: which treatments cause it, how often, and when to call.
+- [Symptom to test](https://onco.cc/symptoms/): Start from a worrying symptom: what it can mean, which test comes first, and the referral thresholds guidelines state.
+- [Report reader](https://onco.cc/report-reader/): Type the values from a pathology report and read what each one means. Nothing is stored.
+- [Survivorship planner](https://onco.cc/survivorship/): Late effects to watch for after each treatment, the screening test, how often, and the guideline that says so.
+- [Second opinion](https://onco.cc/second-opinion/): Expert centres for your cancer in your country, the people who work on it, and how referral works where you live.
+- [Financial help](https://onco.cc/assistance/): Manufacturer programmes, reimbursement and generics by country and product, plus national schemes and charities.
+- [Paying for care (US)](https://onco.cc/coverage/us/): Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product.
+- [What the NHS offers](https://onco.cc/coverage/uk/): NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.
+- [Diet, exercise and lifestyle](https://onco.cc/fronts/nutrition-lifestyle/): What people eat, drink, weigh and do: what the evidence says and what is hype.
+- [Supportive care](https://onco.cc/fronts/supportive-care/): Treating the person, not just the tumour: symptoms, side effects, nutrition, mental health.
+- [Heroes and heroines](https://onco.cc/heroes/): The patients, families, advocates and pioneers whose lives and cases changed cancer.
+
 ## Learn & contribute
 
 - [Reading paths](https://onco.cc/paths/): ADCs in 30 minutes, understanding a diagnosis, and more.
 - [About & methodology](https://onco.cc/about/): Rules for facts, ranking formulas, licence.
 - [Roadmap](https://onco.cc/roadmap/): Corpus health gauges, every idea by status, and how OnCo expands and stays current.
 - [Gaps to fill](https://onco.cc/gaps/): Objects and fields that need work.
+- [Review queue](https://onco.cc/review/): Which pages most need a named reviewer, coverage by kind and track, translation coverage.
+- [Reviewer roster](https://onco.cc/reviewers/): Who has signed off pages, on which track, with declared conflicts of interest.
+- [Contributors](https://onco.cc/contributors/): Everyone who wrote or reviewed records, from the repository history.
+- [Idea votes](https://onco.cc/idea-votes/): Which ideas people want tested, and which have been picked up, with sources.
+- [Teaching packs](https://onco.cc/teach/): A slide deck and quiz per cancer and front; print to PDF.
+- [Weekly issue](https://onco.cc/newsletter/): What changed, regulatory events, upcoming readouts, what the journals said. No tracking.
 - [Suggest an edit](https://onco.cc/suggest/): Propose a correction; organisations can edit their own records.
 - [Open evaluation](https://onco.cc/eval/): 100 questions, a rubric, and a public leaderboard.
+- [Data dictionary](https://onco.cc/schema/): Every kind, every field, its type and meaning, with a real example per kind.
 - [Open API](https://onco.cc/api/): The corpus as JSON.
+- [Open data](https://onco.cc/data-sources/): Every open database OnCo pulls from, with licences and cadence, and the ones we could add next.
 
 ## Optional
 

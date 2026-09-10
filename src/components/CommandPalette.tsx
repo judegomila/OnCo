@@ -11,6 +11,9 @@ import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 type Item = { id: string; kind?: SearchDoc["kind"]; name: string; tldr: string; route: string; status?: string; action?: true };
 
 const PAGES: Item[] = [
+  { id: "p-search", name: "Search: words and concepts", tldr: "Full results with the reason each matched", route: "/search/", action: true },
+  { id: "p-ask", name: "Ask OnCo", tldr: "A cited answer assembled from record sentences", route: "/ask/", action: true },
+  { id: "p-path", name: "Path finder", tldr: "Shortest routes between any two objects", route: "/path/", action: true },
   { id: "p-explore", name: "Explore: ranked power view", tldr: "Pick a cancer, switch kind, sort and filter", route: "/explore/", action: true },
   { id: "p-for-me", name: "For me: pick your cancer type", tldr: "What works and what could work for your cancer(s)", route: "/for-me/", action: true },
   { id: "p-tumor-board", name: "Tumour board mode", tldr: "Enter biomarkers, get matched options", route: "/tumor-board/", action: true },

@@ -75,6 +75,7 @@ export function CompareView({ items }: { items: CompareItem[] }) {
       </div>
 
       <div className="overflow-x-auto card">
+        {chosen.length === 2 && <p className="mb-3 text-sm"><Link href={`/path/?from=${chosen[0].id}&to=${chosen[1].id}`} className="underline">How are these two related?</Link></p>}
         <table className="onco">
           <thead>
             <tr>

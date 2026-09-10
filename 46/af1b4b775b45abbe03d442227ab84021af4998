@@ -1,0 +1,25 @@
+src/data/interactions.ts
+  s_0beac9cb5d78fd::t_f4e63f7365fdd5 192,204
+src/data/companies-wave1.ts
+  s_0beac9cb5d78fd::t_f4e63f7365fdd5 64-66
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_75ccd8f5e0582e 284-405
+src/data/universe-lists/nci-cancer-drugs.json
+  s_0beac9cb5d78fd::t_f4e63f7365fdd5 5,7,273-275,368-370,1472-1474,1597-1599,1678-1680,2044-2046,2220-2222,2560-2562,2594-2596,2607-2609,3398-3400,3432-3434,3680-3682,3959-3961,4077-4079,4093-4095,4205-4207,4345-4347,4597-4599,4629-4631,4663-4665,4876-4878,5223-5225,5732-5734
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "46af1b4b775b45abbe03d442227ab84021af4998",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

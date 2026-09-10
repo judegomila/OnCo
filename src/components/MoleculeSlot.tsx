@@ -10,10 +10,10 @@ export function placeholderKind(modality?: string): { id: string; label: string;
   if (/antibody-drug|adc|conjugate/.test(m)) return { id: "adc", label: "Antibody-drug conjugate", why: "An antibody carrying a payload: too large for a small-molecule drawing. The payload itself has a structure on its own page." };
   if (/bispecific|engager|antibody|mab\b|checkpoint/.test(m)) return { id: "antibody", label: "Antibody", why: "A protein of about 150,000 atoms; shown as its Y shape rather than a wireframe." };
   if (/car-t|car t|tcr|til\b|cell therapy|cell-therapy|nk cell|lymphocyte/.test(m)) return { id: "cell", label: "Cell therapy", why: "Living cells, not a molecule." };
-  if (/vaccine|mrna|oncolytic|virus|gene therapy/.test(m)) return { id: "vaccine", label: "Vaccine or viral therapy", why: "Nucleic acid, protein or a whole virus rather than one molecule." };
-  if (/radioligand|radiopharm|isotope|lutetium|actinium|radium|iodine/.test(m)) return { id: "radio", label: "Radiopharmaceutical", why: "A radioactive atom on a carrier; the carrier's structure is shown where known." };
-  if (/test|assay|diagnostic|sequencing|panel|device|software|imaging/.test(m)) return { id: "test", label: "Test or device", why: "Not a drug, so there is no molecule." };
-  if (/cytokine|fusion|enzyme|protein|peptide|hormone analogue/.test(m)) return { id: "protein", label: "Protein therapeutic", why: "A large protein; no small-molecule drawing." };
+  if (/vaccine|mrna|oncolytic|virus|gene therapy|bacteri|oligonucleotide|nucleic acid/.test(m)) return { id: "vaccine", label: "Vaccine, viral or nucleic-acid therapy", why: "Nucleic acid, protein, a whole virus or live bacteria rather than one molecule." };
+  if (/radioligand|radiopharm|isotope|lutetium|actinium|radium|iodine|alpha therapy|emitter/.test(m)) return { id: "radio", label: "Radiopharmaceutical", why: "A radioactive atom, alone or on a carrier; the carrier's structure is shown where known." };
+  if (/test|assay|diagnostic|sequencing|panel|classifier|device|software|imaging/.test(m)) return { id: "test", label: "Test or device", why: "Not a drug, so there is no molecule." };
+  if (/cytokine|fusion|enzyme|protein|peptide|hormone analogue|recombinant|erythropoietin|interferon|growth factor|colony-stimulating|interleukin|il-\d|superagonist|toxin/.test(m)) return { id: "protein", label: "Protein therapeutic", why: "A large protein; no small-molecule drawing." };
   return { id: "none", label: "No structure yet", why: "We have not sourced a structure for this product yet." };
 }
 

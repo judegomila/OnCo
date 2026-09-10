@@ -1,0 +1,34 @@
+name: Refresh preprint tracker from Europe PMC
+
+on:
+  schedule:
+    - cron: "17 6 * * 3" # Wednesdays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/fetch-preprints.ts --force
+      - run: npm run validate
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/refresh-preprints
+          title: "Weekly refresh: Europe PMC preprint tracker"
+          commit-message: "chore: refresh preprint tracker from Europe PMC"
+          body: |
+            Automated weekly pull of bioRxiv, medRxiv and other preprints from the last 90 days for every target, product and technology, from the Europe PMC REST API, with the journal versions that have since appeared (HAS_PREPRINT links).
+            Files under `public/preprints/` changed. The /preprints/ page is rebuilt from `public/preprints/index.json`.
+          labels: automated, pipeline
+          delete-branch: true

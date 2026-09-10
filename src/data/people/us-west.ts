@@ -128,7 +128,7 @@ export const peopleUsWest: PersonInput[] = [
     papers: [{ title: "Delayed Initiation of Adjuvant Chemotherapy Among Patients With Breast Cancer", journal: "JAMA Oncology", year: 2016, doi: "10.1001/jamaoncol.2015.3856", url: "https://doi.org/10.1001/jamaoncol.2015.3856" }, { title: "Evaluation of COVID-19 Mortality and Adverse Outcomes in US Patients With or Without Cancer", journal: "JAMA Oncology", year: 2022, doi: "10.1001/jamaoncol.2021.5148", url: "https://doi.org/10.1001/jamaoncol.2021.5148" }], links: [{ label: "MD Anderson faculty", url: "https://faculty.mdanderson.org/search?q=Mariana%20Chavez-MacGregor" }, pubmed("Chavez-MacGregor M[Author]"), scholar("Mariana Chavez-MacGregor")],
   },
   {
-    id: "cheryl-willman", kind: "person", asOf, name: "Cheryl L. Willman", role: "Executive Director, Mayo Clinic Comprehensive Cancer Center", institutionId: "mayo-clinic", institutions: ["mayo-clinic", "unm-cancer-center"],
+    id: "cheryl-willman", kind: "person", asOf, name: "Cheryl L. Willman", role: "Executive Director, Mayo Clinic Comprehensive Cancer Center", institutionId: "mayo-clinic", institutions: ["mayo-clinic", "mayo-clinic-florida", "unm-cancer-center"],
     specialisms: ["Leukaemia genomics", "Cancer center leadership", "Health disparities"],
     tldr: "Cheryl Willman is a leukaemia genomics pioneer who leads Mayo Clinic's cancer centre across its three sites.",
     summary: "Hematopathologist whose genomic studies defined high-risk subtypes of acute lymphoblastic leukaemia, including work in Hispanic and Native American children. Previously directed the University of New Mexico cancer centre; has led Mayo Clinic Comprehensive Cancer Center since 2021.",

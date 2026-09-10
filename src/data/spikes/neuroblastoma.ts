@@ -69,7 +69,7 @@ const terms: TermInput[] = [
 
 // ======================= PRODUCTS =======================
 const drugs: DrugInput[] = [
-  d({ id: "dinutuximab", name: "Dinutuximab (ch14.18) / dinutuximab beta", brand: "Unituxin / Qarziba (EU)", modality: "Monoclonal antibody (anti-GD2, chimeric)", status: "approved", wikipedia: W("Dinutuximab"),
+  d({ id: "dinutuximab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Dinutuximab/%20dinutuximab%20beta" }], name: "Dinutuximab (ch14.18) / dinutuximab beta", brand: "Unituxin / Qarziba (EU)", modality: "Monoclonal antibody (anti-GD2, chimeric)", status: "approved", wikipedia: W("Dinutuximab"),
     tldr: "The antibody that raised cure rates in high-risk childhood neuroblastoma by about 20 points when given after transplant with immune boosters and retinoid.",
     summary: "ANBL0032: ch14.18 + GM-CSF + IL-2 + isotretinoin vs isotretinoin: 2-year EFS 66% vs 46%, OS 86% vs 75%; approved March 2015 (United Therapeutics). Dinutuximab beta (SIOPEN/EUSA/Recordati) approved in EU 2017; HR-NBL1 showed adding IL-2 to dinutuximab beta added toxicity without benefit, so IL-2 is omitted in Europe. Now also given with chemotherapy for relapse (ANBL1221: irinotecan-temozolomide-dinutuximab ORR ~50%) and during induction (ANBL17P1).",
     mechanism: "Chimeric IgG1 anti-GD2; ADCC (NK cells, granulocytes with GM-CSF) and CDC against GD2+ cells; neuropathic pain from binding to peripheral nerve GD2.",
@@ -88,7 +88,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2020, indication: "Relapsed/refractory high-risk neuroblastoma in bone or bone marrow with partial response, minor response or stable disease, with GM-CSF (accelerated)" }],
     regulatoryEvents: [{ date: "2020-11-25", type: "approval", region: "US", note: "Accelerated approval (Study 201, 12-230)" }],
     targets: ["gd2"], technologies: ["monoclonal-antibody"], companies: ["y-mabs"], cancers: ["neuroblastoma"], trials: ["naxitamab-201"] }),
-  d({ id: "eflornithine", name: "Eflornithine (DFMO)", brand: "Iwilfin", modality: "Small-molecule ornithine decarboxylase inhibitor", status: "approved", wikipedia: W("Eflornithine"),
+  d({ id: "eflornithine", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Eflornithine" }], name: "Eflornithine (DFMO)", brand: "Iwilfin", modality: "Small-molecule ornithine decarboxylase inhibitor", status: "approved", wikipedia: W("Eflornithine"),
     tldr: "Eflornithine (DFMO) is an old sleeping-sickness drug repurposed as the first oral maintenance therapy for high-risk neuroblastoma, approved in December 2023 to reduce relapse after immunotherapy.",
     summary: "Approved 13 December 2023 (US WorldMeds) for adults and children with high-risk neuroblastoma who achieved at least a partial response to prior multiagent, multimodality therapy including anti-GD2 immunotherapy. Evidence: single-arm NMTRC003/003B (n=105) compared with an external control from ANBL0032 (EFS HR 0.48, OS HR 0.32), a controversial externally controlled approval. EU applications filed 2025. Two years of twice-daily tablets.",
     mechanism: "Irreversible inhibitor of ornithine decarboxylase (ODC1), a direct MYCN target, depleting polyamines required for neuroblastoma proliferation.",

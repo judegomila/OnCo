@@ -153,7 +153,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Fatigue", anyGradePct: 24 }, { event: "Bladder spasm", anyGradePct: 20 }, { event: "Micturition urgency", anyGradePct: 19 }, { event: "Grade 3+ treatment-related", grade3PlusPct: 4 }],
     approvals: [{ region: "US", year: 2022, indication: "BCG-unresponsive high-risk NMIBC with CIS ± papillary tumours" }],
     technologies: ["bcg-and-intravesical-therapy"], companies: ["ferring"], cancers: ["urothelial"], terms: ["bcg-unresponsive"] }),
-  d({ id: "erdafitinib", name: "Erdafitinib", brand: "Balversa", modality: "Small-molecule kinase inhibitor (pan-FGFR)", status: "approved", wikipedia: W("Erdafitinib"),
+  d({ id: "erdafitinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Erdafitinib" }], name: "Erdafitinib", brand: "Balversa", modality: "Small-molecule kinase inhibitor (pan-FGFR)", status: "approved", wikipedia: W("Erdafitinib"),
     tldr: "The first targeted pill for bladder cancer, for the roughly 20% of tumours with FGFR3 alterations, used after immunotherapy.",
     summary: "Accelerated approval 2019 (BLC2001, ORR 40%); full approval January 2024 on THOR cohort 1 (OS 12.1 vs 7.8 months after chemotherapy and IO). Requires FGFR3/2 alteration testing. Hyperphosphataemia and central serous retinopathy need monitoring. Johnson & Johnson.",
     mechanism: "Pan-FGFR (1-4) tyrosine kinase inhibitor.",

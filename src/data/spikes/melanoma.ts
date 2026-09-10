@@ -193,7 +193,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2018, indication: "BRAF V600E/K melanoma with encorafenib" }, { region: "US", year: 2023, indication: "BRAF V600E metastatic NSCLC with encorafenib" }],
     regulatoryEvents: [{ date: "2018-06-27", type: "approval", region: "US", note: "Encorafenib + binimetinib approved for BRAF V600 melanoma" }],
     targets: ["braf"], technologies: ["kinase-inhibitors"], companies: ["pfizer"], cancers: ["melanoma", "nsclc"], pathways: ["ras-mapk"], drugs: ["encorafenib"], trials: ["columbus"] }),
-  d({ id: "cobimetinib", name: "Cobimetinib", brand: "Cotellic", modality: "Small-molecule kinase inhibitor (MEK1/2)", status: "approved", wikipedia: W("Cobimetinib"),
+  d({ id: "cobimetinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Cobimetinib" }], name: "Cobimetinib", brand: "Cotellic", modality: "Small-molecule kinase inhibitor (MEK1/2)", status: "approved", wikipedia: W("Cobimetinib"),
     tldr: "Cobimetinib is the MEK partner for vemurafenib, and the first drug approved for histiocytic neoplasms.",
     summary: "coBRIM (2015): PFS 12.3 vs 7.2 months added to vemurafenib in BRAF V600 melanoma. Also approved with atezolizumab and vemurafenib (IMspire150, 2020) and alone for histiocytic neoplasms (2022). Retinopathy, photosensitivity, CK elevation.",
     mechanism: "Allosteric MEK1/2 inhibitor.",

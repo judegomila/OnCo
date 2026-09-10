@@ -224,7 +224,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 1997, indication: "Advanced breast cancer after tamoxifen (letrozole)" }, { region: "US", year: 2005, indication: "Adjuvant early breast cancer (letrozole)" }],
     regulatoryEvents: [{ date: "1997-07-25", type: "approval", region: "US", note: "Letrozole approved for advanced breast cancer" }, { date: "2005-12-28", type: "approval", region: "US", note: "Letrozole adjuvant indication" }],
     targets: ["estrogen-receptor"], technologies: ["endocrine-therapy"], cancers: ["breast-hr-positive"], trials: ["soft-text", "monaleesa-2", "paloma-2", "monarch-3"] }),
-  d({ id: "exemestane", name: "Exemestane", brand: "Aromasin", modality: "Small-molecule steroidal aromatase inactivator", status: "approved", wikipedia: W("Exemestane"),
+  d({ id: "exemestane", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Exemestane" }], name: "Exemestane", brand: "Aromasin", modality: "Small-molecule steroidal aromatase inactivator", status: "approved", wikipedia: W("Exemestane"),
     tldr: "Exemestane is a steroidal aromatase inhibitor, the partner of everolimus and the agent tested with ovarian suppression in young women.",
     summary: "Exemestane is an irreversible steroidal aromatase inactivator. It is used after non-steroidal AI failure, with everolimus (BOLERO-2), and with OFS in premenopausal women (TEXT). Generic.",
     mechanism: "Irreversible 'suicide' inactivation of aromatase.",

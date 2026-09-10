@@ -40,7 +40,7 @@ const baseDrugs: DrugInput[] = [
     terms: ["her2-low", "ild", "bystander-effect"],
   },
   {
-    id: "datopotamab-deruxtecan", kind: "drug", name: "Datopotamab deruxtecan", brand: "Datroway", code: "Dato-DXd, DS-1062", modality: "ADC", asOf, status: "approved", wikipedia: W("Datopotamab_deruxtecan"),
+    id: "datopotamab-deruxtecan", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Datopotamab%20deruxtecan" }], name: "Datopotamab deruxtecan", brand: "Datroway", code: "Dato-DXd, DS-1062", modality: "ADC", asOf, status: "approved", wikipedia: W("Datopotamab_deruxtecan"),
     payload: "DXd (TOP1 inhibitor), DAR ~4", linker: "Tetrapeptide GGFG, cleavable",
     tldr: "Datopotamab deruxtecan (Datroway) is the second TROP2 ADC and shares Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy.",
     summary: "Approved January 2025 for HR+/HER2- metastatic breast cancer after endocrine and chemotherapy (TROPION-Breast01) and June 2025 for EGFR-mutant NSCLC after TKI and chemotherapy (TROPION-Lung05). In Q2 2026 approved for first-line unresectable/metastatic TNBC in patients ineligible for PD-1/PD-L1 inhibitors based on TROPION-Breast02 (OS 23.7 vs 18.7 months per patient-facing summaries). Lower DAR than T-DXd; stomatitis and ocular surface events are characteristic; ILD occurs. TROPION-Breast05 tests it with durvalumab in PD-L1+ TNBC.",
@@ -79,7 +79,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["her2"], technologies: ["adc"], companies: ["roche-genentech"], cancers: ["breast-her2-positive"],
   },
   {
-    id: "enfortumab-vedotin", kind: "drug", name: "Enfortumab vedotin", brand: "Padcev", modality: "ADC", asOf, status: "approved", wikipedia: W("Enfortumab_vedotin"),
+    id: "enfortumab-vedotin", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Enfortumab%20vedotin" }], name: "Enfortumab vedotin", brand: "Padcev", modality: "ADC", asOf, status: "approved", wikipedia: W("Enfortumab_vedotin"),
     payload: "MMAE (tubulin inhibitor), DAR ~3.8", linker: "mc-vc-PABC, protease-cleavable",
     tldr: "Enfortumab vedotin is an ADC against Nectin-4 that, combined with pembrolizumab, nearly doubled survival in advanced bladder cancer.",
     summary: "EV-302 (2023): enfortumab vedotin plus pembrolizumab versus platinum chemotherapy in first-line advanced urothelial cancer, OS 31.5 vs 16.1 months (HR 0.47). Now the global standard. Being tested in muscle-invasive bladder cancer (EV-303/304, positive in 2025). Rash, neuropathy, and hyperglycaemia are class effects.",
@@ -204,7 +204,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["nectin4", "trop2"], technologies: ["bispecific-adc"], companies: ["akeso"], cancers: ["urothelial", "tnbc", "nsclc"],
   },
   {
-    id: "disitamab-vedotin", kind: "drug", name: "Disitamab vedotin", code: "RC48", modality: "ADC", asOf, status: "approved",
+    id: "disitamab-vedotin", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Disitamab%20vedotin" }], name: "Disitamab vedotin", code: "RC48", modality: "ADC", asOf, status: "approved",
     payload: "MMAE", linker: "mc-vc-PABC",
     tldr: "Disitamab vedotin is a Chinese HER2 ADC approved for gastric and bladder cancer, now in global trials with Pfizer.",
     summary: "Approved in China (2021) for HER2+ gastric cancer and HER2-expressing urothelial cancer. Phase 3 with toripalimab in first-line HER2-expressing urothelial cancer was positive (2025). Pfizer (via Seagen) holds ex-China rights.",
@@ -289,7 +289,7 @@ const baseDrugs: DrugInput[] = [
     cancers: ["nsclc", "sclc", "hcc", "urothelial", "tnbc"], trials: ["imvigor011", "impassion130"],
   },
   {
-    id: "durvalumab", kind: "drug", name: "Durvalumab", brand: "Imfinzi", modality: "Monoclonal antibody (anti-PD-L1)", asOf, status: "approved", wikipedia: W("Durvalumab"),
+    id: "durvalumab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Durvalumab" }], name: "Durvalumab", brand: "Imfinzi", modality: "Monoclonal antibody (anti-PD-L1)", asOf, status: "approved", wikipedia: W("Durvalumab"),
     tldr: "A PD-L1 blocker that became standard after chemoradiation for stage III lung cancer, and now in bladder, biliary, and gastric cancers.",
     summary: "PACIFIC (unresectable stage III NSCLC), ADRIATIC (limited-stage SCLC, 2024), TOPAZ-1 (biliary tract), HIMALAYA (HCC with tremelimumab), NIAGARA (perioperative muscle-invasive bladder cancer, 2025), MATTERHORN (perioperative gastric, 2025), and Q2 2026 high-risk non-muscle-invasive bladder cancer with BCG (POTOMAC). Partner of Dato-DXd in TROPION-Breast05.",
     mechanism: "Human IgG1 anti-PD-L1 with reduced Fc effector function.",
@@ -309,7 +309,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["lag3", "pd1"], technologies: ["checkpoint-inhibitor"], companies: ["bms"], cancers: ["melanoma"],
   },
   {
-    id: "dostarlimab", kind: "drug", name: "Dostarlimab", brand: "Jemperli", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Dostarlimab"),
+    id: "dostarlimab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Dostarlimab" }], name: "Dostarlimab", brand: "Jemperli", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Dostarlimab"),
     tldr: "Dostarlimab is a PD-1 blocker famous for making rectal cancer disappear without surgery in every patient with a mismatch-repair-deficient tumour.",
     summary: "Approved in dMMR endometrial cancer (RUBY, with chemotherapy; OS benefit) and dMMR solid tumours. The MSK rectal cancer study (Cercek, NEJM 2022; 100% clinical complete response sustained in >40 patients by 2025) led to an organ-preservation paradigm and the AZUR-1 registrational trial.",
     mechanism: "Humanised IgG4 anti-PD-1.",
@@ -317,7 +317,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["pd1"], technologies: ["checkpoint-inhibitor"], companies: ["gsk"], cancers: ["endometrial", "colorectal"],
   },
   {
-    id: "cemiplimab", kind: "drug", name: "Cemiplimab", brand: "Libtayo", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Cemiplimab"),
+    id: "cemiplimab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Cemiplimab" }], name: "Cemiplimab", brand: "Libtayo", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Cemiplimab"),
     tldr: "A PD-1 blocker that is the standard for advanced skin squamous cell carcinoma, and in 2025 became the first adjuvant immunotherapy for it.",
     summary: "Approved in cutaneous squamous cell carcinoma (2018; adjuvant 2025 based on C-POST), basal cell carcinoma, and NSCLC. Regeneron/Sanofi.",
     mechanism: "Human IgG4 anti-PD-1.",
@@ -401,7 +401,7 @@ const baseDrugs: DrugInput[] = [
 
   // ======================= CELL THERAPY =======================
   {
-    id: "ciltacabtagene-autoleucel", kind: "drug", name: "Ciltacabtagene autoleucel", brand: "Carvykti", code: "cilta-cel", modality: "CAR-T (BCMA)", asOf, status: "approved", wikipedia: W("Ciltacabtagene_autoleucel"),
+    id: "ciltacabtagene-autoleucel", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ciltacabtagene%20autoleucel" }], name: "Ciltacabtagene autoleucel", brand: "Carvykti", code: "cilta-cel", modality: "CAR-T (BCMA)", asOf, status: "approved", wikipedia: W("Ciltacabtagene_autoleucel"),
     tldr: "Ciltacabtagene autoleucel is a one-time BCMA CAR-T for myeloma that, in CARTITUDE-4, cut the risk of death by about 45% compared with standard regimens.",
     summary: "Approved 2022 (≥4 lines) and 2024 (≥1 prior line, lenalidomide-refractory; CARTITUDE-4 with OS benefit HR 0.55). A third of patients in CARTITUDE-1 remain progression-free at 5 years without maintenance. Delayed neurotoxicity (parkinsonism) and secondary malignancies are rare but notable. Legend Biotech/Johnson & Johnson.",
     mechanism: "Two BCMA-binding VHH domains, 4-1BB costimulation; lentiviral.",
@@ -531,7 +531,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["revolution-medicines"], cancers: ["pancreatic", "nsclc", "colorectal"],
   },
   {
-    id: "encorafenib", kind: "drug", name: "Encorafenib", brand: "Braftovi", modality: "Small-molecule kinase inhibitor (BRAF)", asOf, status: "approved", wikipedia: W("Encorafenib"),
+    id: "encorafenib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Encorafenib" }], name: "Encorafenib", brand: "Braftovi", modality: "Small-molecule kinase inhibitor (BRAF)", asOf, status: "approved", wikipedia: W("Encorafenib"),
     tldr: "Encorafenib is a BRAF inhibitor that, with cetuximab and chemotherapy, became first-line standard for BRAF-mutant colorectal cancer in 2026.",
     summary: "With binimetinib in melanoma (COLUMBUS); with cetuximab in BRAF V600E colorectal cancer (BEACON, 2020); BREAKWATER with cetuximab and FOLFOX in first-line BRAF V600E mCRC (accelerated December 2024, full approval 2026 with OS benefit). Also in BRAF V600E NSCLC with binimetinib.",
     mechanism: "ATP-competitive BRAF V600 inhibitor with long target residence time.",
@@ -643,7 +643,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["estrogen-receptor"], technologies: ["protac-degrader", "endocrine-therapy"], companies: ["arvinas", "pfizer"], cancers: ["breast-hr-positive"], trials: ["veritac-2"],
   },
   {
-    id: "elacestrant", kind: "drug", name: "Elacestrant", brand: "Orserdu", modality: "Oral SERD", asOf, status: "approved", wikipedia: W("Elacestrant"),
+    id: "elacestrant", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Elacestrant" }], name: "Elacestrant", brand: "Orserdu", modality: "Oral SERD", asOf, status: "approved", wikipedia: W("Elacestrant"),
     tldr: "Elacestrant was the first oral oestrogen-receptor degrader (2023), for ESR1-mutant breast cancer detected by blood test.",
     summary: "EMERALD: PFS benefit confined to ESR1-mutant disease; Guardant360 CDx as companion diagnostic. Stemline/Menarini. Imlunestrant (Lilly, Inluriyo, 2025) and camizestrant (AstraZeneca, SERENA-6 ctDNA-guided switch) followed.",
     mechanism: "Oral selective ER degrader.",
@@ -816,7 +816,7 @@ const baseDrugs: DrugInput[] = [
 
   // ======================= CHEMOTHERAPY BACKBONES (selected) =======================
   {
-    id: "carboplatin", kind: "drug", name: "Carboplatin", modality: "Cytotoxic chemotherapy (platinum)", asOf, status: "approved", wikipedia: W("Carboplatin"),
+    id: "carboplatin", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Carboplatin" }], name: "Carboplatin", modality: "Cytotoxic chemotherapy (platinum)", asOf, status: "approved", wikipedia: W("Carboplatin"),
     tldr: "Carboplatin is a platinum chemotherapy that crosslinks DNA; it is part of the standard pre-surgery regimen for triple-negative breast cancer.",
     summary: "Generic since 2004. In TNBC, adding carboplatin to neoadjuvant chemotherapy raised pathologic complete response (BrighTNess, GeparSixto) and is part of the KEYNOTE-522 backbone.",
     mechanism: "DNA intrastrand crosslinks.",

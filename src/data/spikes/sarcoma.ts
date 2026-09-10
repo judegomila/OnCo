@@ -58,7 +58,7 @@ const terms: TermInput[] = [
 
 // ======================= PRODUCTS =======================
 const drugs: DrugInput[] = [
-  d({ id: "doxorubicin", name: "Doxorubicin", brand: "Adriamycin", modality: "Cytotoxic chemotherapy (anthracycline)", status: "approved", wikipedia: W("Doxorubicin"),
+  d({ id: "doxorubicin", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Doxorubicin" }], name: "Doxorubicin", brand: "Adriamycin", modality: "Cytotoxic chemotherapy (anthracycline)", status: "approved", wikipedia: W("Doxorubicin"),
     tldr: "The red chemotherapy drug from a soil bacterium that is still the backbone of treatment for sarcoma, lymphoma and breast cancer, limited by cumulative heart damage.",
     summary: "Approved 1974. Backbone of AIM/doxorubicin-ifosfamide (sarcoma), CHOP/R-CHOP (lymphoma), ABVD/AVD (Hodgkin), AC/EC (breast), and MAP (osteosarcoma). Cumulative cardiotoxicity above ~400-450 mg/m2 limits use; dexrazoxane and liposomal formulations mitigate. Also the payload of early ADC attempts.",
     mechanism: "Topoisomerase II poisoning and DNA intercalation with free-radical generation; cardiotoxicity via topoisomerase IIβ in cardiomyocytes.",

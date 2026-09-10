@@ -163,7 +163,7 @@ const drugs: DrugInput[] = [
     mechanism: "Selective RET inhibitor.",
     approvals: [{ region: "US", year: 2020, indication: "RET-fusion metastatic NSCLC (full approval 2023)" }],
     targets: ["ret"], technologies: ["kinase-inhibitors"], cancers: ["nsclc"], drugs: ["selpercatinib"] }),
-  d({ id: "dabrafenib-trametinib", name: "Dabrafenib + trametinib", brand: "Tafinlar + Mekinist", modality: "Small-molecule kinase inhibitors (BRAF + MEK)", status: "approved", wikipedia: W("Dabrafenib"),
+  d({ id: "dabrafenib-trametinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Dabrafenib" }], name: "Dabrafenib + trametinib", brand: "Tafinlar + Mekinist", modality: "Small-molecule kinase inhibitors (BRAF + MEK)", status: "approved", wikipedia: W("Dabrafenib"),
     tldr: "Dabrafenib plus trametinib is the BRAF-plus-MEK pill combination, approved for BRAF V600E lung cancer and, since 2022, for any solid tumour with that mutation.",
     summary: "In BRAF V600E NSCLC (~2% of adenocarcinomas): ORR 64% first line, median PFS ~10.8 months (BRF113928). Tumour-agnostic approval June 2022 for BRAF V600E solid tumours (excluding colorectal). Pyrexia is the characteristic toxicity. Encorafenib + binimetinib (PHAROS, 2023) is the alternative doublet.",
     mechanism: "BRAF V600 inhibitor plus allosteric MEK1/2 inhibitor; vertical blockade prevents paradoxical MAPK reactivation.",

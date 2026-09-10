@@ -64,7 +64,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Diarrhoea/steatorrhoea", anyGradePct: 26, note: "CLARINET" }, { event: "Cholelithiasis", anyGradePct: 10 }, { event: "Hyperglycaemia", anyGradePct: 5 }],
     approvals: [{ region: "US", year: 1988, indication: "Carcinoid syndrome symptoms (octreotide)" }, { region: "US", year: 2014, indication: "Unresectable GEP-NETs to improve PFS (lanreotide)" }],
     targets: ["sstr2"], companies: ["novartis", "ipsen"], cancers: ["neuroendocrine"], trials: ["promid", "clarinet"], terms: ["carcinoid-syndrome"] }),
-  d({ id: "everolimus", name: "Everolimus", brand: "Afinitor", modality: "Small-molecule mTOR inhibitor", status: "approved", wikipedia: W("Everolimus"),
+  d({ id: "everolimus", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Everolimus" }], name: "Everolimus", brand: "Afinitor", modality: "Small-molecule mTOR inhibitor", status: "approved", wikipedia: W("Everolimus"),
     tldr: "A pill that blocks the mTOR growth switch, approved for pancreatic, lung and gut neuroendocrine tumours and for hormone-positive breast cancer.",
     summary: "RADIANT-3 (2011): PFS 11.0 vs 4.6 months in pancreatic NETs; RADIANT-4 (2016): PFS 11.0 vs 3.9 months in lung and GI NETs. Now the comparator that 177Lu-edotreotide beat in COMPETE. Also approved in HR+ breast cancer (BOLERO-2), RCC and TSC-associated tumours. Stomatitis, hyperglycaemia and pneumonitis are class effects.",
     mechanism: "Allosteric mTORC1 inhibitor (rapalog) via FKBP12 binding.",

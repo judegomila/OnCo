@@ -437,7 +437,7 @@ export const companies: CompanyInput[] = [
   // =====================================================================
   // Frontier and interesting-technology companies (2026 web-verified)
   // =====================================================================
-  c({ id: "finaldose", name: "FinalDose", hq: "San Francisco, CA", country: "US", companyType: "biotech", website: "https://www.finaldose.ai/", founded: 2026, sections: ["targeted-therapy", "drug-discovery"],
+  c({ id: "finaldose", name: "FinalDose", hq: "San Francisco, CA", country: "US", companyType: "biotech", website: "https://www.finaldose.ai/", founded: 2026, ycBatch: "X26", stage: "startup", investors: ["y-combinator"], sections: ["targeted-therapy", "drug-discovery"],
     tldr: "Y Combinator Spring 2026 start-up building a programmable DNA-targeting drug: a molecule that recognises a cancer-specific DNA sequence inside a cell and triggers a kill switch only there.",
     summary: "Founded by three Oxford PhDs (Jeff Liu, Li-Yao Huang, Steven Lin). The pitch: swap the guide sequence and the same drug becomes a new drug, unlocking 'undruggable' drivers such as MYC, TP53, and APC at the DNA level and, the company claims, 80% of cancers that protein-targeted drugs cannot reach. Preclinical and pre-revenue, with no published data or trials by September 2026. Listed here as the clearest example of the sequence-programmable therapeutic concept.",
     technologies: ["programmable-dna-targeting-therapeutics"], targets: ["tp53", "kras"], tags: ["frontier", "early-stage", "yc"],

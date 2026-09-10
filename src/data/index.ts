@@ -39,6 +39,9 @@ import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
 import { mechanicsPathways } from "./mechanics-pathways";
+import { companiesYc } from "./companies-yc";
+import { companiesStartups } from "./companies-startups";
+import { investors } from "./investors";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -81,4 +84,7 @@ export const ALL_INPUTS: EntityInput[] = [
   ...foundationModels,
   ...foundationRoadmaps,
   ...mechanicsPathways,
+  ...companiesYc,
+  ...companiesStartups,
+  ...investors,
 ];

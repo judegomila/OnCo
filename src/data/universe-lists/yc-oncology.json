@@ -1,0 +1,2337 @@
+{
+  "title": "Y Combinator companies attacking cancer",
+  "source": "https://yc-oss.github.io/api/companies/all.json",
+  "sourceRepo": "https://github.com/yc-oss/api",
+  "fetched": "2026-09-10",
+  "checked": "2026-09-10",
+  "method": "Filtered the open YC directory dataset (6,209 companies) for oncology: pass 'keyword' matches cancer, oncology, tumour, chemo, radiotherapy, biopsy, leukaemia, lymphoma, melanoma, carcinoma, metastasis, malignancy, myeloma, glioma or sarcoma in the name, one-liner, description or tags; pass 'broad' matches wider terms (onco, carcinoma, precision medicine, liquid biopsy, CAR-T, radiopharmaceutical, immunotherapy, mammography, pathology, antibody, protein degradation, cell therapy, T cell) within the Healthcare industry. Every hit was then read on its YC profile and its website fetched on the checked date; a company is included when cancer is its stated primary work. Companies headquartered in mainland China or India are left to separate passes. matchedId is the OnCo company id.",
+  "counts": {
+    "hits": 105,
+    "included": 62,
+    "excluded": 43
+  },
+  "entries": [
+    {
+      "slug": "adialante",
+      "name": "Adialante",
+      "batch": "Spring 2026",
+      "batchCode": "X26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/adialante",
+      "website": "http://www.adialante.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "adialante"
+    },
+    {
+      "slug": "adventris-pharmaceuticals",
+      "name": "Adventris Pharmaceuticals",
+      "batch": "Winter 2023",
+      "batchCode": "W23",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/adventris-pharmaceuticals",
+      "website": "https://adventris.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Biotech",
+        "Healthcare",
+        "Therapeutics",
+        "Drug discovery",
+        "Oncology"
+      ],
+      "location": "Baltimore, MD, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "adventris-pharmaceuticals"
+    },
+    {
+      "slug": "algen-biotechnologies",
+      "name": "Algen Biotechnologies",
+      "batch": "Winter 2020",
+      "batchCode": "W20",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/algen-biotechnologies",
+      "website": "https://www.algenbio.com/",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "CRISPR",
+        "Biotech",
+        "Therapeutics",
+        "Drug discovery",
+        "AI"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "algen-biotechnologies"
+    },
+    {
+      "slug": "alixia",
+      "name": "Alixia",
+      "batch": "Winter 2022",
+      "batchCode": "W22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/alixia",
+      "website": "http://www.alixia.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech",
+        "Therapeutics",
+        "Drug discovery",
+        "Oncology",
+        "Biotechnology"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "alixia"
+    },
+    {
+      "slug": "altay-therapeutics",
+      "name": "Altay Therapeutics",
+      "batch": "Winter 2020",
+      "batchCode": "W20",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/altay-therapeutics",
+      "website": "http://www.altaytherapeutics.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Biotech",
+        "Therapeutics",
+        "Drug discovery"
+      ],
+      "location": "San Francisco, CA, USA; South San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "altay-therapeutics"
+    },
+    {
+      "slug": "aluna",
+      "name": "Aluna",
+      "batch": "Summer 2024",
+      "batchCode": "S24",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/aluna",
+      "website": "https://alunadata.com",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Artificial Intelligence"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "aluna"
+    },
+    {
+      "slug": "ananya-health",
+      "name": "Ananya Health",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/ananya-health",
+      "website": "https://www.ananya.health/",
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "tags": [
+        "Hardware",
+        "Health Tech",
+        "Medical Devices"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "ananya-health"
+    },
+    {
+      "slug": "aoa-dx-inc",
+      "name": "AOA Dx",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/aoa-dx-inc",
+      "website": "https://www.aoadx.com/",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Healthcare",
+        "Diagnostics",
+        "Women's Health"
+      ],
+      "location": "Denver, CO, USA; Cambridge, MA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "aoa-dx"
+    },
+    {
+      "slug": "arpeggio-bio",
+      "name": "Arpeggio Bio",
+      "batch": "Summer 2019",
+      "batchCode": "S19",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/arpeggio-bio",
+      "website": "http://www.arpeggiobio.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Biotech",
+        "Genomics",
+        "Drug discovery"
+      ],
+      "location": "Boulder, CO, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "arpeggio-bio"
+    },
+    {
+      "slug": "asher-bio",
+      "name": "Asher Bio",
+      "batch": "Summer 2019",
+      "batchCode": "S19",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/asher-bio",
+      "website": "https://www.asherbio.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech"
+      ],
+      "location": "San Francisco, CA, USA; San Carlos, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "asher-bio"
+    },
+    {
+      "slug": "atomic-alchemy",
+      "name": "Atomic Alchemy",
+      "batch": "Winter 2019",
+      "batchCode": "W19",
+      "ycStatus": "Acquired",
+      "ycUrl": "https://www.ycombinator.com/companies/atomic-alchemy",
+      "website": "https://atomicalchemy.us",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Small Modular Reactors",
+        "Medical Devices"
+      ],
+      "location": "Idaho Falls, ID, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "atomic-alchemy"
+    },
+    {
+      "slug": "bikanta",
+      "name": "Bikanta",
+      "batch": "Summer 2014",
+      "batchCode": "S14",
+      "ycStatus": "Inactive",
+      "ycUrl": "https://www.ycombinator.com/companies/bikanta",
+      "website": "http://bikanta.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Nanomedicine"
+      ],
+      "location": "San Francisco, CA, USA; Berkeley, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "bikanta"
+    },
+    {
+      "slug": "billiontoone",
+      "name": "BillionToOne",
+      "batch": "Summer 2017",
+      "batchCode": "S17",
+      "ycStatus": "Public",
+      "ycUrl": "https://www.ycombinator.com/companies/billiontoone",
+      "website": "https://www.billiontoone.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Diagnostics",
+        "Genomics"
+      ],
+      "location": "San Francisco, CA, USA; Menlo Park, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "billiontoone"
+    },
+    {
+      "slug": "blank-bio",
+      "name": "Blank Bio",
+      "batch": "Summer 2025",
+      "batchCode": "S25",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/blank-bio",
+      "website": "http://blank.bio/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "blank-bio"
+    },
+    {
+      "slug": "cambridge-cancer-genomics",
+      "name": "Cambridge Cancer Genomics",
+      "batch": "Summer 2017",
+      "batchCode": "S17",
+      "ycStatus": "Inactive",
+      "ycUrl": "https://www.ycombinator.com/companies/cambridge-cancer-genomics",
+      "website": "http://ccg.ai",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Genomics",
+        "Oncology"
+      ],
+      "location": "Cambridge, England, United Kingdom; England, United Kingdom",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "cambridge-cancer-genomics"
+    },
+    {
+      "slug": "clear-gene",
+      "name": "Clear Gene",
+      "batch": "Summer 2018",
+      "batchCode": "S18",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/clear-gene",
+      "website": "https://cleargene.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Healthcare",
+        "Diagnostics",
+        "Women's Health",
+        "Oncology"
+      ],
+      "location": "San Francisco, CA, USA; San Carlos, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "clear-gene"
+    },
+    {
+      "slug": "cofactor-genomics",
+      "name": "Cofactor Genomics",
+      "batch": "Summer 2015",
+      "batchCode": "S15",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/cofactor-genomics",
+      "website": "http://cofactorgenomics.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Medical Devices",
+        "Biotech",
+        "Diagnostics"
+      ],
+      "location": "St. Louis, MO, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "cofactor-genomics"
+    },
+    {
+      "slug": "data-driven-bioscience",
+      "name": "Data Driven Bioscience",
+      "batch": "Summer 2018",
+      "batchCode": "S18",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/data-driven-bioscience",
+      "website": "http://datadrivenbioscience.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Biotech",
+        "Healthcare"
+      ],
+      "location": "Durham, NC, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "data-driven-bioscience"
+    },
+    {
+      "slug": "delee",
+      "name": "Delee",
+      "batch": "Winter 2017",
+      "batchCode": "W17",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/delee",
+      "website": "http://www.delee.co",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Medical Devices",
+        "Diagnostics"
+      ],
+      "location": "Monterrey, N.L., Mexico",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "delee"
+    },
+    {
+      "slug": "digistain",
+      "name": "Digistain",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/digistain",
+      "website": "https://digistain.co.uk/",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Medical Devices"
+      ],
+      "location": "London, England, United Kingdom",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "digistain"
+    },
+    {
+      "slug": "eris-biotech",
+      "name": "Eris Biotech",
+      "batch": "Winter 2024",
+      "batchCode": "W24",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/eris-biotech",
+      "website": "http://www.erisbio.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech",
+        "Therapeutics",
+        "Drug discovery",
+        "Oncology"
+      ],
+      "location": "Lehi, UT, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "eris-biotech"
+    },
+    {
+      "slug": "fidocure",
+      "name": "FidoCure®",
+      "batch": "Winter 2018",
+      "batchCode": "W18",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/fidocure",
+      "website": "https://www.fidocure.com/",
+      "industries": [
+        "Healthcare",
+        "Healthcare Services"
+      ],
+      "tags": [
+        "Oncology"
+      ],
+      "location": "San Francisco, CA, USA; Palo Alto, CA, USA; Remote",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "fidocure"
+    },
+    {
+      "slug": "finaldose",
+      "name": "FinalDose",
+      "batch": "Spring 2026",
+      "batchCode": "X26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/finaldose",
+      "website": "https://finaldose.ai/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Gene Therapy",
+        "Therapeutics",
+        "Genetic Engineering"
+      ],
+      "location": "Oxford, England, United Kingdom",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "finaldose"
+    },
+    {
+      "slug": "gamgee",
+      "name": "Gamgee",
+      "batch": "Summer 2026",
+      "batchCode": "S26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/gamgee",
+      "website": "https://gamgee.io/",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Biotech",
+        "Genomics",
+        "Oncology",
+        "AI"
+      ],
+      "location": "San Francisco, CA, USA; Remote",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "gamgee"
+    },
+    {
+      "slug": "granza-bio",
+      "name": "Granza Bio",
+      "batch": "Winter 2024",
+      "batchCode": "W24",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/granza-bio",
+      "website": "https://www.granzabio.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Synthetic Biology",
+        "Biotech",
+        "Healthcare",
+        "Therapeutics",
+        "Oncology"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "granza-bio"
+    },
+    {
+      "slug": "guardian-bio",
+      "name": "Guardian Bio",
+      "batch": "Summer 2022",
+      "batchCode": "S22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/guardian-bio",
+      "website": "http://www.guardian-bio.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech",
+        "Healthcare",
+        "Therapeutics",
+        "Oncology"
+      ],
+      "location": "Boston, MA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "guardian-bio"
+    },
+    {
+      "slug": "harmonic-discovery",
+      "name": "Harmonic Discovery",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/harmonic-discovery",
+      "website": "http://harmonicdiscovery.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Biotech",
+        "Healthcare",
+        "Drug discovery"
+      ],
+      "location": "New York City, NY, USA; New York, NY, USA; Remote",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "harmonic-discovery"
+    },
+    {
+      "slug": "histowiz",
+      "name": "HistoWiz",
+      "batch": "Winter 2016",
+      "batchCode": "W16",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/histowiz",
+      "website": "http://histowiz.com",
+      "industries": [
+        "Healthcare",
+        "Healthcare Services"
+      ],
+      "tags": [
+        "Biotech",
+        "AI"
+      ],
+      "location": "New York City, NY, USA; Brooklyn, NY, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "histowiz"
+    },
+    {
+      "slug": "humane-genomics",
+      "name": "Humane Genomics",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/humane-genomics",
+      "website": "https://humanegenomics.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Synthetic Biology"
+      ],
+      "location": "New York City, NY, USA; New York, NY, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "humane-genomics"
+    },
+    {
+      "slug": "isabl",
+      "name": "Isabl",
+      "batch": "Winter 2020",
+      "batchCode": "W20",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/isabl",
+      "website": "http://isabl.io",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Biotech",
+        "Diagnostics"
+      ],
+      "location": "New York City, NY, USA; New York, NY, USA; Remote",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "isabl"
+    },
+    {
+      "slug": "isono-health",
+      "name": "iSono Health",
+      "batch": "Winter 2016",
+      "batchCode": "W16",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/isono-health",
+      "website": "http://www.isonohealth.com",
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Consumer Health Services",
+        "Medical Devices"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "isono-health"
+    },
+    {
+      "slug": "kernal-biologics",
+      "name": "Kernal Biologics",
+      "batch": "Summer 2020",
+      "batchCode": "S20",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/kernal-biologics",
+      "website": "https://www.kernalbio.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Biotech",
+        "Genomics"
+      ],
+      "location": "Boston, MA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "kernal-biologics"
+    },
+    {
+      "slug": "known-medicine",
+      "name": "Known Medicine",
+      "batch": "Summer 2020",
+      "batchCode": "S20",
+      "ycStatus": "Acquired",
+      "ycUrl": "https://www.ycombinator.com/companies/known-medicine",
+      "website": "http://knownmed.com",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Oncology"
+      ],
+      "location": "Salt Lake City, UT, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "known-medicine"
+    },
+    {
+      "slug": "kopra-bio",
+      "name": "Kopra Bio",
+      "batch": "Summer 2024",
+      "batchCode": "S24",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/kopra-bio",
+      "website": "https://kopra.bio",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Gene Therapy",
+        "Synthetic Biology",
+        "Biotech",
+        "Therapeutics",
+        "Oncology"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "kopra-bio"
+    },
+    {
+      "slug": "leah-labs",
+      "name": "LEAH Labs",
+      "batch": "Winter 2019",
+      "batchCode": "W19",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/leah-labs",
+      "website": "http://www.leahlabs.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "CRISPR",
+        "Cell Therapy",
+        "Drug discovery"
+      ],
+      "location": "Minneapolis, MN, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "leah-labs"
+    },
+    {
+      "slug": "liyfe",
+      "name": "Liyfe",
+      "batch": "Summer 2020",
+      "batchCode": "S20",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/liyfe",
+      "website": null,
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "SaaS",
+        "Digital Health"
+      ],
+      "location": "New York City, NY, USA; New Haven, CT, USA; Remote",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "liyfe"
+    },
+    {
+      "slug": "luminate-medical",
+      "name": "Luminate",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/luminate-medical",
+      "website": "http://www.luminatemed.com",
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Consumer Health Services",
+        "Medical Devices"
+      ],
+      "location": "Galway, County Galway, Ireland",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "luminate-medical"
+    },
+    {
+      "slug": "mednet",
+      "name": "Mednet",
+      "batch": "Winter 2017",
+      "batchCode": "W17",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/mednet",
+      "website": "https://www.themednet.org",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "tags": [
+        "Health Tech",
+        "Healthcare",
+        "Social Network"
+      ],
+      "location": "New York City, NY, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "mednet"
+    },
+    {
+      "slug": "modulari-t",
+      "name": "Modulari-T",
+      "batch": "Winter 2023",
+      "batchCode": "W23",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/modulari-t",
+      "website": "https://modularit.bio",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Gene Therapy",
+        "Cell Therapy",
+        "Synthetic Biology",
+        "Biotech",
+        "Oncology"
+      ],
+      "location": "Montreal, QC, Canada; San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "modulari-t"
+    },
+    {
+      "slug": "nearwave",
+      "name": "NearWave",
+      "batch": "Winter 2022",
+      "batchCode": "W22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/nearwave",
+      "website": "http://nearwave.co",
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Hard Tech",
+        "Hardware",
+        "SaaS",
+        "Medical Devices"
+      ],
+      "location": "Austin, TX, USA; South Bend, IN, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "nearwave"
+    },
+    {
+      "slug": "notable-labs",
+      "name": "Notable Labs",
+      "batch": "Winter 2015",
+      "batchCode": "W15",
+      "ycStatus": "Public",
+      "ycUrl": "https://www.ycombinator.com/companies/notable-labs",
+      "website": "http://notablelabs.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Biotech",
+        "Drug discovery",
+        "Oncology"
+      ],
+      "location": "San Francisco, CA, USA; Foster City, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "notable-labs"
+    },
+    {
+      "slug": "nucleo",
+      "name": "Nucleo",
+      "batch": "Fall 2025",
+      "batchCode": "F25",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/nucleo",
+      "website": "https://nucleoresearch.com/",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [],
+      "location": null,
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "nucleo-research"
+    },
+    {
+      "slug": "numen",
+      "name": "Numen",
+      "batch": "Summer 2023",
+      "batchCode": "S23",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/numen",
+      "website": "https://www.numen.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Machine Learning",
+        "Biotech",
+        "Healthcare",
+        "Diagnostics",
+        "AI"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "numen"
+    },
+    {
+      "slug": "omanta",
+      "name": "Omanta",
+      "batch": "Summer 2026",
+      "batchCode": "S26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/omanta",
+      "website": "https://omanta.com/",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Digital Health",
+        "Healthcare",
+        "Health & Wellness",
+        "Oncology"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "omanta"
+    },
+    {
+      "slug": "oncobox",
+      "name": "Oncobox",
+      "batch": "Summer 2017",
+      "batchCode": "S17",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/oncobox",
+      "website": "http://oncobox.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Drug discovery",
+        "Oncology"
+      ],
+      "location": "Walnut, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "oncobox"
+    },
+    {
+      "slug": "origin-bio",
+      "name": "Origin",
+      "batch": "Winter 2026",
+      "batchCode": "W26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/origin-bio",
+      "website": "https://origin.bio/",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "origin-bio"
+    },
+    {
+      "slug": "persephone-biosciences",
+      "name": "Persephone Biosciences",
+      "batch": "Winter 2018",
+      "batchCode": "W18",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/persephone-biosciences",
+      "website": "http://persephonebiosciences.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "COVID-19"
+      ],
+      "location": "San Diego, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "persephone-biosciences"
+    },
+    {
+      "slug": "reprosent",
+      "name": "REPROSENT",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/reprosent",
+      "website": "http://www.reprosent.com",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "Biometrics",
+        "Consumer Health Services",
+        "Digital Health",
+        "Healthcare",
+        "Oncology"
+      ],
+      "location": "San Francisco, CA, USA; Los Gatos, CA, USA; Remote",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "reprosent"
+    },
+    {
+      "slug": "reverie-labs",
+      "name": "Reverie Labs",
+      "batch": "Winter 2018",
+      "batchCode": "W18",
+      "ycStatus": "Inactive",
+      "ycUrl": "https://www.ycombinator.com/companies/reverie-labs",
+      "website": "http://www.reverielabs.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Machine Learning",
+        "Biotech"
+      ],
+      "location": "Boston, MA, USA; Cambridge, MA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "reverie-labs"
+    },
+    {
+      "slug": "serinus-biosciences",
+      "name": "Serinus Biosciences",
+      "batch": "Summer 2022",
+      "batchCode": "S22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/serinus-biosciences",
+      "website": "http://www.serinus.bio",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech",
+        "Therapeutics",
+        "Oncology"
+      ],
+      "location": "New York City, NY, USA; New York, NY, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "serinus-biosciences"
+    },
+    {
+      "slug": "shasqi",
+      "name": "Shasqi",
+      "batch": "Winter 2015",
+      "batchCode": "W15",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/shasqi",
+      "website": null,
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Biotech",
+        "Therapeutics"
+      ],
+      "location": "San Francisco, CA, USA; Remote",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "shasqi"
+    },
+    {
+      "slug": "signatur-biosciences",
+      "name": "Signatur Biosciences",
+      "batch": "Summer 2022",
+      "batchCode": "S22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/signatur-biosciences",
+      "website": "https://www.signatur.bio/",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Biotech",
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "location": "London, England, United Kingdom",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "signatur-biosciences"
+    },
+    {
+      "slug": "synsorybio",
+      "name": "SynsoryBio",
+      "batch": "Winter 2024",
+      "batchCode": "W24",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/synsorybio",
+      "website": "https://www.synsorybio.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Synthetic Biology",
+        "Biotech",
+        "Therapeutics",
+        "Oncology"
+      ],
+      "location": "Boston, MA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "synsorybio"
+    },
+    {
+      "slug": "tarebio",
+      "name": "TareBio",
+      "batch": "Summer 2026",
+      "batchCode": "S26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/tarebio",
+      "website": "https://tarebio.com/",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Vaccines",
+        "Synthetic Biology",
+        "Biotechnology"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "tarebio"
+    },
+    {
+      "slug": "tradewind-bioscience",
+      "name": "Tradewind BioScience",
+      "batch": "Winter 2018",
+      "batchCode": "W18",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/tradewind-bioscience",
+      "website": "https://www.tradewindbio.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "tradewind-bioscience"
+    },
+    {
+      "slug": "triomics",
+      "name": "Triomics",
+      "batch": "Winter 2021",
+      "batchCode": "W21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/triomics",
+      "website": "https://triomics.com/",
+      "industries": [
+        "Healthcare",
+        "Healthcare Services"
+      ],
+      "tags": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "location": "New York City, NY, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "triomics"
+    },
+    {
+      "slug": "valink-therapeutics",
+      "name": "Valink Therapeutics",
+      "batch": "Winter 2021",
+      "batchCode": "W21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/valink-therapeutics",
+      "website": "https://www.valinktx.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech",
+        "Therapeutics",
+        "Drug discovery"
+      ],
+      "location": "Boston, MA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "valink-therapeutics"
+    },
+    {
+      "slug": "velorum-therapeutics",
+      "name": "Velorum Therapeutics",
+      "batch": "Winter 2024",
+      "batchCode": "W24",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/velorum-therapeutics",
+      "website": "https://www.velorumtx.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech",
+        "Healthcare",
+        "Therapeutics",
+        "Drug discovery",
+        "Oncology"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "velorum-therapeutics"
+    },
+    {
+      "slug": "viosera-therapeutics",
+      "name": "ResistanceBio",
+      "batch": "Winter 2019",
+      "batchCode": "W19",
+      "ycStatus": "Inactive",
+      "ycUrl": "https://www.ycombinator.com/companies/viosera-therapeutics",
+      "website": "http://www.resistance.bio",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery"
+      ],
+      "location": "San Francisco, CA, USA; Overland, MO, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "resistancebio"
+    },
+    {
+      "slug": "x-zell",
+      "name": "X-Zell",
+      "batch": "Winter 2015",
+      "batchCode": "W15",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/x-zell",
+      "website": "http://www.x-zell.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Medical Devices"
+      ],
+      "location": "Bangkok, Thailand; Düsseldorf, NRW, Germany",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "x-zell"
+    },
+    {
+      "slug": "yemaachi-biotechnology",
+      "name": "Yemaachi Biotechnology",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/yemaachi-biotechnology",
+      "website": "https://yemaachi.com/",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Biotech",
+        "Diagnostics",
+        "Therapeutics"
+      ],
+      "location": "Accra, Greater Accra Region, Ghana",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "yemaachi-biotech"
+    },
+    {
+      "slug": "zpredicta",
+      "name": "zPREDICTA",
+      "batch": "Summer 2015",
+      "batchCode": "S15",
+      "ycStatus": "Acquired",
+      "ycUrl": "https://www.ycombinator.com/companies/zpredicta",
+      "website": "http://zpredicta.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [],
+      "location": "San Francisco, CA, USA; San Jose, CA, USA",
+      "pass": "keyword",
+      "decision": "included",
+      "matchedId": "zpredicta"
+    },
+    {
+      "slug": "54gene",
+      "name": "54Gene",
+      "batch": "Winter 2019",
+      "batchCode": "W19",
+      "ycStatus": "Inactive",
+      "ycUrl": "https://www.ycombinator.com/companies/54gene",
+      "website": "http://www.54gene.com",
+      "industries": [
+        "Healthcare",
+        "Consumer Health and Wellness"
+      ],
+      "tags": [
+        "Genomics"
+      ],
+      "location": "Lagos, LA, Nigeria; LA, Nigeria",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "African genomics; not oncology-specific."
+    },
+    {
+      "slug": "abalone-bio",
+      "name": "Abalone Bio",
+      "batch": "Winter 2020",
+      "batchCode": "W20",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/abalone-bio",
+      "website": "https://www.abalonebio.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Machine Learning",
+        "Synthetic Biology",
+        "Therapeutics",
+        "Drug discovery"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Antibodies for obesity and other diseases."
+    },
+    {
+      "slug": "aon3d",
+      "name": "AON3D",
+      "batch": "Winter 2017",
+      "batchCode": "W17",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/aon3d",
+      "website": "https://www.aon3d.com",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Hardware",
+        "3D Printing",
+        "Manufacturing"
+      ],
+      "location": "Montreal, QC, Canada",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Industrial 3D printing; keyword match on unrelated text."
+    },
+    {
+      "slug": "catena-biosciences",
+      "name": "Catena Biosciences",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/catena-biosciences",
+      "website": "https://www.catenabiosciences.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech",
+        "Therapeutics"
+      ],
+      "location": "San Francisco, CA, USA; Berkeley, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Protein coupling platform; no oncology programme stated."
+    },
+    {
+      "slug": "cellbyte",
+      "name": "Cellbyte",
+      "batch": "Winter 2022",
+      "batchCode": "W22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/cellbyte",
+      "website": "https://www.cellbyte.com/",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Data Science",
+        "Healthcare IT"
+      ],
+      "location": "Munich, BY, Germany",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Pharma launch analytics."
+    },
+    {
+      "slug": "cellchorus",
+      "name": "CellChorus",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/cellchorus",
+      "website": "https://cellchorus.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Machine Learning"
+      ],
+      "location": "Houston, TX, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Single-cell analysis tools."
+    },
+    {
+      "slug": "celltype",
+      "name": "CellType",
+      "batch": "Winter 2026",
+      "batchCode": "W26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/celltype",
+      "website": "https://www.celltype.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [],
+      "location": "New York City, NY, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "General AI drug discovery; a cancer signal is mentioned but oncology is not the focus."
+    },
+    {
+      "slug": "chariot-2",
+      "name": "Chariot",
+      "batch": "Summer 2022",
+      "batchCode": "S22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/chariot-2",
+      "website": "https://givechariot.com/",
+      "industries": [
+        "Fintech",
+        "Payments"
+      ],
+      "tags": [
+        "Fintech",
+        "SaaS",
+        "Payments",
+        "Nonprofit",
+        "B2B"
+      ],
+      "location": "New York City, NY, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Fintech for non-profits; keyword match on unrelated text."
+    },
+    {
+      "slug": "cytera-cellworks",
+      "name": "Mytos",
+      "batch": "Summer 2018",
+      "batchCode": "S18",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/cytera-cellworks",
+      "website": "https://www.mytos.bio",
+      "industries": [
+        "Healthcare",
+        "Industrial Bio"
+      ],
+      "tags": [
+        "Hardware",
+        "IoT",
+        "Biotech",
+        "Automation",
+        "Biotechnology"
+      ],
+      "location": "London, England, United Kingdom",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Cell manufacturing robots; not oncology."
+    },
+    {
+      "slug": "dnovo",
+      "name": "dNovo",
+      "batch": "Summer 2018",
+      "batchCode": "S18",
+      "ycStatus": "Inactive",
+      "ycUrl": "https://www.ycombinator.com/companies/dnovo",
+      "website": "http://dnovobio.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Anti-Aging"
+      ],
+      "location": "San Francisco, CA, USA; San Jose, CA, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Hair loss."
+    },
+    {
+      "slug": "dropprint-genomics",
+      "name": "Dropprint Genomics",
+      "batch": "Winter 2020",
+      "batchCode": "W20",
+      "ycStatus": "Acquired",
+      "ycUrl": "https://www.ycombinator.com/companies/dropprint-genomics",
+      "website": "http://dropprintgen.com/",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Genomics"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Single-cell software; not oncology."
+    },
+    {
+      "slug": "eugit-therapeutics",
+      "name": "Eugit Therapeutics",
+      "batch": "Summer 2022",
+      "batchCode": "S22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/eugit-therapeutics",
+      "website": "http://www.eugittx.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Cell Therapy",
+        "Synthetic Biology",
+        "Therapeutics",
+        "Oncology",
+        "Biotechnology"
+      ],
+      "location": "San Francisco, CA, USA; South San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Tissue-targeting platform with an initial focus on inflammatory disease."
+    },
+    {
+      "slug": "halmos-labs",
+      "name": "Halmos Labs",
+      "batch": "Fall 2026",
+      "batchCode": "F26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/halmos-labs",
+      "website": "https://halmoslabs.com/",
+      "industries": [
+        "Healthcare",
+        "Industrial Bio"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Swarm AI",
+        "Biotech"
+      ],
+      "location": "Lund, Skåne County, Sweden",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Automated R&D platform; cancer vaccine manufacturing mentioned only as an example."
+    },
+    {
+      "slug": "helix-nanotechnologies",
+      "name": "Helix Nanotechnologies",
+      "batch": "Winter 2017",
+      "batchCode": "W17",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/helix-nanotechnologies",
+      "website": "http://helixnano.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Biotech",
+        "Genomics",
+        "Nanotechnology"
+      ],
+      "location": "Boston, MA, USA; Cambridge, MA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "mRNA platform company; cancer is one of several stated areas and the website names no oncology programme."
+    },
+    {
+      "slug": "indee-labs",
+      "name": "Indee Labs",
+      "batch": "Winter 2017",
+      "batchCode": "W17",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/indee-labs",
+      "website": "http://www.indeelabs.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Gene Therapy",
+        "Microfluidics",
+        "Cell Therapy"
+      ],
+      "location": "San Francisco, CA, USA; Berkeley, CA, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "T-cell manufacturing tool; not oncology-specific."
+    },
+    {
+      "slug": "instapath-inc",
+      "name": "Instapath Inc.",
+      "batch": "Winter 2019",
+      "batchCode": "W19",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/instapath-inc",
+      "website": "http://instapathbio.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Medical Devices"
+      ],
+      "location": "Houston, TX, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Digital pathology laboratory; oncology not stated on the website at the time of checking."
+    },
+    {
+      "slug": "invitris",
+      "name": "Invitris",
+      "batch": "Winter 2023",
+      "batchCode": "W23",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/invitris",
+      "website": "https://invitris.com/",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Biotech",
+        "Nanotechnology",
+        "Drug discovery"
+      ],
+      "location": "Munich, BY, Germany",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Protein manufacturing platform; not oncology."
+    },
+    {
+      "slug": "lumius",
+      "name": "Lumius",
+      "batch": "Spring 2026",
+      "batchCode": "X26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/lumius",
+      "website": "https://www.lumius-imaging.com",
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "tags": [],
+      "location": "Durham, NC, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "3D ultrasound for procedures; not oncology."
+    },
+    {
+      "slug": "macromoltek",
+      "name": "Macromoltek",
+      "batch": "Winter 2018",
+      "batchCode": "W18",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/macromoltek",
+      "website": "https://www.macromoltek.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Deep Learning",
+        "Therapeutics"
+      ],
+      "location": "Austin, TX, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Antibody design; not oncology-specific."
+    },
+    {
+      "slug": "morphle-labs",
+      "name": "Morphle Labs",
+      "batch": "Winter 2020",
+      "batchCode": "W20",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/morphle-labs",
+      "website": "https://morphlelabs.com",
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "tags": [
+        "Hardware",
+        "Robotics",
+        "Health Tech",
+        "Medical Devices",
+        "Automation"
+      ],
+      "location": "Bengaluru, KA, India",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Headquartered in India; out of scope for this pass."
+    },
+    {
+      "slug": "nabla-bio",
+      "name": "Nabla Bio",
+      "batch": "Summer 2020",
+      "batchCode": "S20",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/nabla-bio",
+      "website": "https://www.nabla.bio",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery"
+      ],
+      "location": "Boston, MA, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "AI antibody design; not oncology-specific."
+    },
+    {
+      "slug": "nightingale",
+      "name": "Nightingale",
+      "batch": "Summer 2014",
+      "batchCode": "S14",
+      "ycStatus": "Inactive",
+      "ycUrl": "https://www.ycombinator.com/companies/nightingale",
+      "website": "http://nightingaleapp.com",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "tags": [
+        "Education",
+        "Health Tech"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Not healthcare oncology."
+    },
+    {
+      "slug": "numerion-labs",
+      "name": "Numerion Labs",
+      "batch": "Winter 2015",
+      "batchCode": "W15",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/numerion-labs",
+      "website": "https://www.numerionlabs.ai",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Deep Learning",
+        "Biotech",
+        "Drug discovery",
+        "Oncology"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "General AI drug discovery; no oncology programme stated on the YC profile or website."
+    },
+    {
+      "slug": "origami-therapeutics-inc",
+      "name": "Origami Therapeutics, Inc.",
+      "batch": "Winter 2022",
+      "batchCode": "W22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/origami-therapeutics-inc",
+      "website": "http://origamitherapeutics.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech",
+        "Therapeutics",
+        "Drug discovery"
+      ],
+      "location": "San Diego, CA, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Neurodegeneration."
+    },
+    {
+      "slug": "parallel-bio",
+      "name": "Parallel Bio",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/parallel-bio",
+      "website": "http://parallel.bio",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Biotech"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Immune organoid platform for drug discovery; not oncology-specific."
+    },
+    {
+      "slug": "parcelbio",
+      "name": "ParcelBio",
+      "batch": "Winter 2024",
+      "batchCode": "W24",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/parcelbio",
+      "website": "https://parcelbio.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Gene Therapy",
+        "Synthetic Biology",
+        "Biotech",
+        "Therapeutics",
+        "Drug discovery"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "mRNA platform; not oncology-focused."
+    },
+    {
+      "slug": "persist-ai",
+      "name": "Persist AI",
+      "batch": "Winter 2023",
+      "batchCode": "W23",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/persist-ai",
+      "website": "http://www.persist-ai.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Machine Learning",
+        "Robotics",
+        "Microfluidics",
+        "Nanotechnology",
+        "Therapeutics"
+      ],
+      "location": "Sacramento, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Formulation development; cancer mentioned only as an example disease."
+    },
+    {
+      "slug": "pipebio",
+      "name": "PipeBio",
+      "batch": "Winter 2021",
+      "batchCode": "W21",
+      "ycStatus": "Acquired",
+      "ycUrl": "https://www.ycombinator.com/companies/pipebio",
+      "website": "https://pipebio.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Machine Learning",
+        "SaaS"
+      ],
+      "location": "Aarhus, Denmark; Remote",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Bioinformatics for antibody discovery."
+    },
+    {
+      "slug": "predxion-bio",
+      "name": "PreDxion Bio",
+      "batch": "Summer 2017",
+      "batchCode": "S17",
+      "ycStatus": "Inactive",
+      "ycUrl": "https://www.ycombinator.com/companies/predxion-bio",
+      "website": "http://www.predxionbio.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Microfluidics",
+        "Nanosensors",
+        "COVID-19"
+      ],
+      "location": "San Francisco, CA, USA; South San Francisco, CA, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "COVID-19 diagnostics."
+    },
+    {
+      "slug": "redcliffe-lifetech",
+      "name": "Redcliffe Lifetech",
+      "batch": "Winter 2021",
+      "batchCode": "W21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/redcliffe-lifetech",
+      "website": "http://redcliffelabs.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Consumer Health Services",
+        "Health Tech",
+        "Digital Health",
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "location": "Delhi, DL, India; Gurugram, HR, India; Noida, UP, India",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Headquartered in India; out of scope for this pass."
+    },
+    {
+      "slug": "sample",
+      "name": "Sample",
+      "batch": "Winter 2024",
+      "batchCode": "W24",
+      "ycStatus": "Acquired",
+      "ycUrl": "https://www.ycombinator.com/companies/sample",
+      "website": "https://samplehc.com",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "tags": [
+        "Health Tech",
+        "Healthcare IT"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Healthcare operations software; not oncology."
+    },
+    {
+      "slug": "scout-2",
+      "name": "Scout",
+      "batch": "Winter 2022",
+      "batchCode": "W22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/scout-2",
+      "website": "http://scouthealth.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Consumer Health Services",
+        "COVID-19",
+        "Health Tech",
+        "Diagnostics",
+        "Consumer Products"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "At-home diagnostic testing platform; not oncology."
+    },
+    {
+      "slug": "sfa-therapeutics-inc",
+      "name": "SFA Therapeutics",
+      "batch": "Summer 2021",
+      "batchCode": "S21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/sfa-therapeutics-inc",
+      "website": "https://sfatherapeutics.com/",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Anti-Aging",
+        "Biotech",
+        "Health & Wellness",
+        "Biotechnology"
+      ],
+      "location": "Philadelphia, PA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Lead programmes are in autoimmune disease; cancer is secondary."
+    },
+    {
+      "slug": "shield-bio",
+      "name": "Shield Bio",
+      "batch": "Summer 2016",
+      "batchCode": "S16",
+      "ycStatus": "Inactive",
+      "ycUrl": "https://www.ycombinator.com/companies/shield-bio",
+      "website": "http://shieldbio.com",
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "tags": [
+        "Healthcare",
+        "Genomics",
+        "Nanotechnology"
+      ],
+      "location": "San Francisco, CA, USA; San Jose, CA, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Nanopore sequencing; not oncology."
+    },
+    {
+      "slug": "shiok-meats",
+      "name": "Shiok Meats",
+      "batch": "Winter 2019",
+      "batchCode": "W19",
+      "ycStatus": "Acquired",
+      "ycUrl": "https://www.ycombinator.com/companies/shiok-meats",
+      "website": "http://www.shiokmeats.com",
+      "industries": [
+        "Healthcare",
+        "Industrial Bio"
+      ],
+      "tags": [
+        "Climate",
+        "Cultivated Meat"
+      ],
+      "location": "Singapore, Singapore",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Cell-based food."
+    },
+    {
+      "slug": "sigma-genetics",
+      "name": "Sigma Genetics",
+      "batch": "Winter 2017",
+      "batchCode": "W17",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/sigma-genetics",
+      "website": "http://www.sigmagenetics.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Biotech",
+        "Genomics"
+      ],
+      "location": "Seattle, WA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Magnetic transfection device; not oncology-specific."
+    },
+    {
+      "slug": "syrona-health",
+      "name": "Syrona Health",
+      "batch": "Winter 2022",
+      "batchCode": "W22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/syrona-health",
+      "website": "https://syronahealth.com/",
+      "industries": [
+        "Healthcare",
+        "Healthcare Services"
+      ],
+      "tags": [
+        "Healthcare",
+        "Women's Health"
+      ],
+      "location": "London, England, United Kingdom",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Women's health employee benefit; cancer care is one component."
+    },
+    {
+      "slug": "veera-health",
+      "name": "Veera Health",
+      "batch": "Winter 2021",
+      "batchCode": "W21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/veera-health",
+      "website": "https://www.veerahealth.com",
+      "industries": [
+        "Healthcare",
+        "Consumer Health and Wellness"
+      ],
+      "tags": [
+        "Consumer Health Services",
+        "Femtech"
+      ],
+      "location": "MH, India",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Headquartered in India (out of scope for this pass) and not oncology."
+    },
+    {
+      "slug": "volumetric",
+      "name": "Volumetric",
+      "batch": "Winter 2020",
+      "batchCode": "W20",
+      "ycStatus": "Acquired",
+      "ycUrl": "https://www.ycombinator.com/companies/volumetric",
+      "website": "https://volumetricbio.com/",
+      "industries": [
+        "Healthcare",
+        "Industrial Bio"
+      ],
+      "tags": [
+        "Biotech",
+        "Healthcare"
+      ],
+      "location": "Houston, TX, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Tissue engineering; not oncology."
+    },
+    {
+      "slug": "vorticity",
+      "name": "Vorticity",
+      "batch": "Summer 2019",
+      "batchCode": "S19",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/vorticity",
+      "website": "http://vorticity.xyz/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Cloud Computing"
+      ],
+      "location": "San Francisco, CA, USA",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Scientific computing; cancer mentioned only as an example."
+    },
+    {
+      "slug": "whitelab-genomics",
+      "name": "WhiteLab Genomics",
+      "batch": "Winter 2022",
+      "batchCode": "W22",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/whitelab-genomics",
+      "website": "https://whitelabgx.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Gene Therapy",
+        "Cell Therapy",
+        "Genomics"
+      ],
+      "location": "Paris, Île-de-France, France; Boston, MA, USA",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "AI for genomic therapies; not oncology-specific."
+    },
+    {
+      "slug": "wyndly",
+      "name": "Wyndly",
+      "batch": "Winter 2021",
+      "batchCode": "W21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/wyndly",
+      "website": "https://www.wyndly.com",
+      "industries": [
+        "Healthcare",
+        "Consumer Health and Wellness"
+      ],
+      "tags": [
+        "Consumer Health Services",
+        "Consumer",
+        "Digital Health",
+        "Healthcare"
+      ],
+      "location": "New York City, NY, USA; New York, NY, USA; Remote",
+      "pass": "broad",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Allergy."
+    },
+    {
+      "slug": "zealth",
+      "name": "Zealth",
+      "batch": "Winter 2021",
+      "batchCode": "W21",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/zealth",
+      "website": "https://zealth-ai.com/",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "tags": [
+        "Health Tech",
+        "Remote",
+        "Oncology"
+      ],
+      "location": "Bengaluru, KA, India; Remote",
+      "pass": "keyword",
+      "decision": "excluded",
+      "matchedId": null,
+      "reason": "Headquartered in India; out of scope for this pass."
+    }
+  ]
+}

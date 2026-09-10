@@ -56,3 +56,25 @@ Speed-ups that work:
 4. Resume stalled agents with "commit what you have; single test pass at the end" instead of restarting.
 5. Let the fetchers do the bulk work (EMA, PMDA, ClinicalTrials.gov, OpenAlex, Wikidata) and use agents for judgement, wording and sourcing.
 6. The remaining owner-only items (Search Console token, Vercel stray project, Discussions category) each take under five minutes.
+
+## The plan the owner endorsed on 10 September ("make sure we see this through")
+
+Tier 1, features in flight: flags and icons in filters, submenu icons, breadcrumbs, target thumbnails, CI fix,
+licence (done); graph explorer, homepage schematics, ball-and-stick molecules and protein ribbons (today to
+tomorrow); whole-site language, MCP and CLI, complementary and hair-loss area, completeness dashboard (tomorrow);
+India and China deep dives (1 to 2 days). Then a day of review and polish.
+
+Tier 2, completeness against known lists: 72 NCI centres with directors; every FDA and EMA approved oncology drug
+(agent running from the NCI A to Z list); every institution with at least one person; summaries, plain-language
+sentences, glossary Wikipedia links and schematics to 100%; regional approvals for every approved drug across
+US, EU, UK, Japan, China, India. Target: every defined list at 90%+ and most at 100% by 15 September.
+
+Tier 3, open-ended: trial outcomes for every trial, portraits for every person, body-text translations, every paper
+that matters; continues on weekly workflows and the 30-minute ticks. The completeness page shows where each stands.
+
+Speed levers in use: bulk ingestion from open sources with schema mapping, enriched afterwards by summary agents;
+merge rounds every 30 minutes with one build per round; agents kept off shared files. Waiting on the owner: Search
+Console token, licensing contact email, stray Vercel project, Discussions category.
+
+Caveats already stated to the owner: a launch review after this much parallel change will find things to fix (plan a
+day); earlier CC BY 4.0 releases cannot be relicensed, CC BY-NC applies from this version onward.

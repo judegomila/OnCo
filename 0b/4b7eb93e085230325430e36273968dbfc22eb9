@@ -1,0 +1,35 @@
+src/components/PlanRankings.tsx
+  s_0beac9cb5d78fd::t_137c16f9383574 1-90
+src/app/coverage/rankings/page.tsx
+  s_0beac9cb5d78fd::t_6a9cb28a43bc25 1-142
+src/data/cost-levers.ts
+  s_0beac9cb5d78fd::t_295c71b3a94897 1-181
+src/data/ideas-waves/index.ts
+  s_0beac9cb5d78fd::t_3db4526ac7a90f 12,15
+src/data/ideas-waves/wave-costs.ts
+  s_0beac9cb5d78fd::t_5aba2fe1f84aa8 1-9,11-122,124-259
+  s_0beac9cb5d78fd::t_c80ef713373e25 10,123
+src/data/coverage-rankings.ts
+  s_0beac9cb5d78fd::t_3b1375d563d1dd 1-81,83-317
+  s_0beac9cb5d78fd::t_56f058d50751a3 82
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_9035de01da6d8e 87-88,135-136
+src/app/costs/page.tsx
+  s_0beac9cb5d78fd::t_77672b0968baa7 1-125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0b4b7eb93e085230325430e36273968dbfc22eb9",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+/**
+ * Targets added with the approved-therapeutics wave 1 (drugs-approved-wave1.ts): molecules that approved drugs
+ * on the NCI A to Z list act on and that the corpus lacked. Minimal, sourced records (gene pages and reviews);
+ * expand as deep dives need them.
+ */
+import type { TargetInput } from "@/lib/schema";
+
+const asOf = "2026-09-10";
+const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
+const GENE = (id: string) => `https://www.ncbi.nlm.nih.gov/gene/${id}`;
+const tg = (x: Omit<TargetInput, "kind" | "asOf">): TargetInput => ({ kind: "target", asOf, ...x });
+
+export const targetsWave1: TargetInput[] = [
+  tg({ id: "mek", name: "MEK1/2", symbol: "MAP2K1, MAP2K2", targetClass: "kinase", wikipedia: W("MAP2K1"),
+    tldr: "MEK is the relay in the growth-signal chain that sits just below RAS and RAF. Blocking it starves BRAF- and RAS-driven tumours of their go signal.",
+    summary: "Mitogen-activated protein kinase kinases 1 and 2 (MEK1/2, genes MAP2K1 and MAP2K2) are dual-specificity kinases that phosphorylate and activate ERK1/2, the final step of the RAS-RAF-MEK-ERK cascade. They are rarely mutated in cancer themselves but are the pathway's narrowest point, so allosteric MEK inhibitors (trametinib, cobimetinib, binimetinib, selumetinib, mirdametinib) are used with BRAF inhibitors in BRAF V600 melanoma, NSCLC and thyroid cancer, alone in NF1 plexiform neurofibromas and low-grade glioma, and with encorafenib in BRAF-mutant colorectal cancer. Paradoxical pathway reactivation and adaptive feedback limit single-agent activity in RAS-mutant tumours.",
+    biology: "Allosteric (non-ATP-competitive) inhibitors lock MEK in an inactive conformation. Toxicities reflect on-target ERK inhibition in normal tissue: rash, diarrhoea, retinal changes (central serous retinopathy), and reduced ejection fraction.",
+    whereFound: ["BRAF V600 melanoma (as combination partner)", "NF1-associated plexiform neurofibroma", "BRAF V600E NSCLC and anaplastic thyroid cancer", "Paediatric low-grade glioma", "Histiocytic neoplasms"],
+    cancers: ["melanoma", "nsclc", "thyroid", "colorectal"], pathways: ["ras-mapk"], links: [{ label: "NCBI Gene MAP2K1", url: GENE("5604") }, { label: "NCBI Gene MAP2K2", url: GENE("5605") }], tags: ["kinase"] }),
+  tg({ id: "hdac", name: "Histone deacetylases (HDAC)", symbol: "HDAC1, HDAC2, HDAC3, HDAC6", targetClass: "enzyme", wikipedia: W("Histone_deacetylase"),
+    tldr: "Histone deacetylases tighten the packaging of DNA so that genes are switched off. Drugs that block them loosen the packaging and can wake up genes that make lymphoma cells stop growing or die.",
+    summary: "Histone deacetylases remove acetyl groups from lysines on histones and many non-histone proteins (p53, HSP90, tubulin), condensing chromatin and repressing transcription. Class I (HDAC1, 2, 3, 8) and class II (HDAC4 to 7, 9, 10) enzymes are the targets of approved inhibitors: vorinostat and romidepsin in cutaneous T-cell lymphoma, belinostat and romidepsin in peripheral T-cell lymphoma, and panobinostat (US approval withdrawn) in multiple myeloma. Responses are modest as single agents in solid tumours; combinations with immunotherapy and with hypomethylating agents are under study.",
+    biology: "Inhibition causes histone hyperacetylation, cell-cycle arrest via p21 induction, apoptosis and reduced angiogenesis; class-related toxicities are fatigue, thrombocytopenia, diarrhoea and QT prolongation.",
+    whereFound: ["Cutaneous T-cell lymphoma", "Peripheral T-cell lymphoma", "Multiple myeloma (panobinostat)"],
+    cancers: ["peripheral-t-cell-lymphoma", "multiple-myeloma"], drugs: ["romidepsin", "belinostat"], links: [{ label: "NCBI Gene HDAC1", url: GENE("3065") }], tags: ["epigenetic"] }),
+  tg({ id: "rxr", name: "Retinoid X receptor (RXR)", symbol: "RXRA, RXRB, RXRG", targetClass: "nuclear-receptor", wikipedia: W("Retinoid_X_receptor"),
+    tldr: "The retinoid X receptor is a switch inside cells that vitamin A-like molecules turn on to change which genes are active; bexarotene uses it to make lymphoma cells in the skin mature and die.",
+    summary: "RXR alpha, beta and gamma are nuclear receptors that form heterodimers with retinoic acid receptors, the vitamin D receptor, thyroid hormone receptor, PPARs and LXR, so a single RXR ligand can alter many transcriptional programmes. Bexarotene, a selective RXR agonist (rexinoid), is approved for cutaneous T-cell lymphoma; its metabolic side effects (central hypothyroidism, hypertriglyceridaemia) follow directly from RXR partner activation. The related retinoic acid receptor is the target of all-trans retinoic acid in acute promyelocytic leukaemia.",
+    biology: "Ligand binding recruits co-activators and drives differentiation and apoptosis genes in malignant T cells; RXR also modulates PPAR-gamma-dependent lipid metabolism.",
+    whereFound: ["Cutaneous T-cell lymphoma (bexarotene)"],
+    links: [{ label: "NCBI Gene RXRA", url: GENE("6256") }], tags: ["nuclear-receptor"] }),
+  tg({ id: "rankl", name: "RANK ligand (RANKL)", symbol: "TNFSF11", targetClass: "stroma", wikipedia: W("RANKL"),
+    tldr: "RANK ligand is the signal that tells bone-dissolving cells to get to work. Cancers in the bone hijack it; denosumab blocks it to prevent fractures and other bone complications.",
+    summary: "Receptor activator of nuclear factor kappa-B ligand (TNFSF11) is produced by osteoblasts and stromal cells and binds RANK on osteoclast precursors, driving their maturation and bone resorption. Bone metastases and myeloma cells increase RANKL, feeding a vicious cycle of resorption and growth-factor release. Denosumab, a fully human anti-RANKL antibody, prevents skeletal-related events in bone metastases and myeloma (Xgeva) and treats giant cell tumour of bone and hypercalcaemia of malignancy; it is also an osteoporosis drug (Prolia). Osteonecrosis of the jaw and rebound fractures on discontinuation are the notable risks.",
+    biology: "RANKL also functions in lymph node development and mammary gland biology; RANK signalling in breast epithelium has been linked to progestin-driven and BRCA1-associated tumorigenesis.",
+    whereFound: ["Bone metastases from breast, prostate and lung cancer", "Multiple myeloma bone disease", "Giant cell tumour of bone"],
+    cancers: ["breast-hr-positive", "prostate", "multiple-myeloma"], technologies: ["bone-modifying-agents"], links: [{ label: "NCBI Gene TNFSF11", url: GENE("8600") }], tags: ["bone"] }),
+  tg({ id: "il6", name: "Interleukin-6 and IL-6 receptor", symbol: "IL6, IL6R", targetClass: "other", wikipedia: W("Interleukin_6"),
+    tldr: "Interleukin-6 is an inflammation messenger. Blocking it treats Castleman disease, a lymph node disorder, and calms the dangerous immune storm that CAR-T cell therapy can trigger.",
+    summary: "Interleukin-6 is a pleiotropic cytokine signalling through the IL-6 receptor and gp130 to activate JAK-STAT3. In oncology it is targeted in two ways: siltuximab (anti-IL-6) is approved for idiopathic multicentric Castleman disease, where IL-6 drives the lymphoproliferation and systemic symptoms, and tocilizumab (anti-IL-6 receptor) is approved to treat severe or life-threatening cytokine release syndrome after CAR-T cell therapy and bispecific T-cell engagers. IL-6 also mediates cancer cachexia and tumour-promoting inflammation, and STAT3 activation downstream is a therapeutic target in its own right.",
+    biology: "Classic signalling via membrane IL-6R on hepatocytes and leukocytes; trans-signalling via soluble IL-6R broadens the responsive cell range. IL-6 blockade masks fever and CRP, so infection surveillance must rely on other signs.",
+    whereFound: ["Multicentric Castleman disease", "Cytokine release syndrome after CAR-T or bispecific therapy", "Cancer cachexia", "Multiple myeloma microenvironment"],
+    cancers: ["multiple-myeloma"], technologies: ["car-t", "t-cell-engager"], links: [{ label: "NCBI Gene IL6", url: GENE("3569") }], tags: ["cytokine"] }),
+  tg({ id: "cd25", name: "CD25 (IL-2 receptor alpha)", symbol: "IL2RA", targetClass: "surface-antigen", wikipedia: W("IL2RA"),
+    tldr: "CD25 is the part of the interleukin-2 receptor found on activated T cells and on some lymphoma cells; denileukin diftitox uses it as a doorway to deliver a toxin.",
+    summary: "CD25, the alpha chain of the high-affinity interleukin-2 receptor (IL2RA), is expressed on activated T cells, regulatory T cells and the malignant cells of cutaneous T-cell lymphoma, adult T-cell leukaemia/lymphoma and some Hodgkin and B-cell lymphomas. Denileukin diftitox, a fusion of IL-2 with diphtheria toxin fragments, binds CD25-expressing cells and kills them by blocking protein synthesis; it was approved in 1999, withdrawn in 2014 for manufacturing reasons and reapproved as Lymphir in 2024 for relapsed or refractory stage I to III CTCL. Anti-CD25 antibodies (basiliximab, daclizumab) are used in transplantation and were studied in leukaemia and for regulatory T-cell depletion.",
+    biology: "CD25 confers high-affinity IL-2 binding; its density on regulatory T cells makes it a candidate for depleting immunosuppressive cells in the tumour microenvironment.",
+    whereFound: ["Cutaneous T-cell lymphoma (about half of cases express CD25)", "Adult T-cell leukaemia/lymphoma", "Hodgkin lymphoma (Reed-Sternberg cells)"],
+    cancers: ["hodgkin-lymphoma", "peripheral-t-cell-lymphoma"], links: [{ label: "NCBI Gene IL2RA", url: GENE("3559") }], tags: ["surface-antigen"] }),
+  tg({ id: "mtor", name: "mTOR", symbol: "MTOR", targetClass: "kinase", wikipedia: W("MTOR"),
+    tldr: "mTOR is the cell's master growth controller, deciding whether to build proteins and divide. Rapamycin-like drugs clamp it down in kidney, breast and neuroendocrine cancers and in rare tumours driven by TSC gene loss.",
+    summary: "The mechanistic target of rapamycin is a serine/threonine kinase in two complexes: mTORC1 (with raptor) integrates growth-factor, nutrient and energy signals to control translation via S6K and 4E-BP1, and mTORC2 (with rictor) activates AKT. It is the downstream effector of the PI3K-AKT pathway and is hyperactivated by PIK3CA, PTEN and TSC1/2 alterations. Allosteric mTORC1 inhibitors (rapalogues) are approved: everolimus for renal cell carcinoma, HR-positive breast cancer, neuroendocrine tumours and TSC-associated tumours; temsirolimus for renal cell carcinoma; and albumin-bound sirolimus (Fyarro) for malignant PEComa. ATP-competitive dual mTORC1/2 and PI3K/mTOR inhibitors have not yet reached approval in cancer.",
+    biology: "Rapalogues bind FKBP12 and allosterically inhibit mTORC1; feedback activation of AKT and incomplete 4E-BP1 inhibition explain modest single-agent activity. Stomatitis, hyperglycaemia, hyperlipidaemia and non-infectious pneumonitis are class effects.",
+    whereFound: ["Renal cell carcinoma", "HR-positive breast cancer (endocrine resistance)", "Pancreatic and lung neuroendocrine tumours", "Malignant PEComa and TSC-associated tumours (TSC1/2 loss)"],
+    cancers: ["rcc", "breast-hr-positive", "neuroendocrine", "sarcoma"], drugs: ["everolimus", "temsirolimus"], pathways: ["pi3k-akt-mtor"], links: [{ label: "NCBI Gene MTOR", url: GENE("2475") }], tags: ["kinase"] }),
+];

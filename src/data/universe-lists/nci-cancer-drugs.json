@@ -2,9 +2,9 @@
  "source": "https://www.cancer.gov/about-cancer/treatment/drugs/cancer-drugs",
  "checked": "2026-09-10",
  "count": 392,
- "matched": 251,
- "excluded": 49,
- "unmatched": 92,
+ "matched": 277,
+ "excluded": 66,
+ "unmatched": 49,
  "entries": [
   {
    "slug": "abemaciclib",
@@ -238,7 +238,9 @@
     "Campath"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "alemtuzumab"
+   ]
   },
   {
    "slug": "alpelisib",
@@ -296,7 +298,8 @@
    "generic": "Rybrevant Faspro (",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "subcutaneous formulation of amivantamab (Rybrevant Faspro); see the amivantamab record"
   },
   {
    "slug": "amivantamab-vmjw",
@@ -663,7 +666,9 @@
     "Targretin"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "bexarotene"
+   ]
   },
   {
    "slug": "bicalutamide",
@@ -815,7 +820,8 @@
    "generic": "BuMel",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "regimen: busulfan plus melphalan conditioning; see the busulfan and melphalan records"
   },
   {
    "slug": "busulfan",
@@ -831,7 +837,9 @@
     "Myleran"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "busulfan"
+   ]
   },
   {
    "slug": "cabazitaxel",
@@ -907,7 +915,9 @@
     "Xeloda"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "capecitabine"
+   ]
   },
   {
    "slug": "capivasertib",
@@ -937,7 +947,8 @@
     "Cablivi"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "acquired thrombotic thrombocytopenic purpura; not an oncology therapeutic"
   },
   {
    "slug": "capmatinibhydrochloride",
@@ -1023,7 +1034,9 @@
     "BiCNU"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "carmustine"
+   ]
   },
   {
    "slug": "carmustineimplant",
@@ -1037,7 +1050,9 @@
     "Gliadel Wafer"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "carmustine"
+   ]
   },
   {
    "slug": "cem",
@@ -1123,7 +1138,9 @@
     "Leukeran"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "chlorambucil"
+   ]
   },
   {
    "slug": "chlorambucil-prednisone",
@@ -1203,7 +1220,9 @@
     "Clolar"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "clofarabine"
+   ]
   },
   {
    "slug": "cmf",
@@ -1335,7 +1354,9 @@
    "generic": "Cytarabine",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "cytarabine"
+   ]
   },
   {
    "slug": "dabrafenib",
@@ -1349,7 +1370,9 @@
     "Tafinlar"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "dabrafenib"
+   ]
   },
   {
    "slug": "dacarbazine",
@@ -1360,7 +1383,9 @@
    "generic": "Dacarbazine",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "dacarbazine"
+   ]
   },
   {
    "slug": "dacomitinib",
@@ -1497,7 +1522,9 @@
    "generic": "Daunorubicin Hydrochloride",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "daunorubicin"
+   ]
   },
   {
    "slug": "daunorubicinhydrochlorideandcytarabineliposome",
@@ -1527,7 +1554,9 @@
     "Dacogen"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "decitabine"
+   ]
   },
   {
    "slug": "decitabineandcedazuridine",
@@ -1820,7 +1849,8 @@
     "Promacta"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "immune thrombocytopenia, aplastic anaemia and hepatitis C thrombocytopenia; not an oncology therapeutic"
   },
   {
    "slug": "emapalumab-lzsg",
@@ -1834,7 +1864,8 @@
     "Gamifant"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "primary haemophagocytic lymphohistiocytosis; not an oncology therapeutic"
   },
   {
    "slug": "enasidenibmesylate",
@@ -1960,7 +1991,9 @@
     "Ellence"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "epirubicin"
+   ]
   },
   {
    "slug": "epoch",
@@ -2175,7 +2208,9 @@
    "generic": "Fludarabine Phosphate",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "fludarabine"
+   ]
   },
   {
    "slug": "fluorouracil",
@@ -2226,7 +2261,9 @@
    "generic": "Flutamide",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "flutamide"
+   ]
   },
   {
    "slug": "folfiri",
@@ -2301,7 +2338,8 @@
     "Tavalisse"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "chronic immune thrombocytopenia; not an oncology therapeutic"
   },
   {
    "slug": "fruquintinib",
@@ -2567,7 +2605,8 @@
    "generic": "Hyper-CVAD",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "regimen: hyperfractionated cyclophosphamide, vincristine, doxorubicin and dexamethasone; see the component records"
   },
   {
    "slug": "ibritumomabtiuxetan",
@@ -2623,7 +2662,9 @@
     "Idamycin PFS"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "idarubicin"
+   ]
   },
   {
    "slug": "idecabtagenevicleucel",
@@ -2877,7 +2918,9 @@
     "Ixempra"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "ixabepilone"
+   ]
   },
   {
    "slug": "ixazomibcitrate",
@@ -3235,7 +3278,9 @@
    "generic": "Mechlorethamine Hydrochloride",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "mechlorethamine"
+   ]
   },
   {
    "slug": "megestrolacetate",
@@ -3246,7 +3291,9 @@
    "generic": "Megestrol Acetate",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "megestrol"
+   ]
   },
   {
    "slug": "melphalan",
@@ -3298,7 +3345,9 @@
     "Purixan"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "mercaptopurine"
+   ]
   },
   {
    "slug": "mesna",
@@ -3403,7 +3452,9 @@
    "generic": "Mitoxantrone Hydrochloride",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "mitoxantrone"
+   ]
   },
   {
    "slug": "mogamulizumabkpkc",
@@ -3553,7 +3604,9 @@
     "Arranon"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "nelarabine"
+   ]
   },
   {
    "slug": "neratinibmaleate",
@@ -3628,7 +3681,8 @@
     "Akeega"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "fixed-dose combination of niraparib and abiraterone (Akeega); see those records"
   },
   {
    "slug": "niraparibtosylatemonohydrate",
@@ -3840,7 +3894,9 @@
     "Synribo"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "omacetaxine"
+   ]
   },
   {
    "slug": "ondansetronhydrochloride",
@@ -4183,7 +4239,8 @@
     "Phesgo"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "fixed-dose subcutaneous combination of pertuzumab and trastuzumab (Phesgo); see those records"
   },
   {
    "slug": "pexidartinib",
@@ -4334,7 +4391,9 @@
     "Matulane"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "procarbazine"
+   ]
   },
   {
    "slug": "propranolol-hydrochloride",
@@ -4348,7 +4407,8 @@
     "Hemangeol"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "proliferating infantile haemangioma, a benign vascular tumour; not an oncology therapeutic"
   },
   {
    "slug": "quizartinib-dihydrochloride",
@@ -4486,7 +4546,8 @@
     "Ultomiris"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "paroxysmal nocturnal haemoglobinuria, atypical haemolytic uraemic syndrome and neuromuscular indications; not an oncology therapeutic"
   },
   {
    "slug": "recombinant-hpv-bivalent-vaccine",
@@ -4676,7 +4737,8 @@
     "Kisqali Femara Co-Pack"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "co-pack of ribociclib and letrozole (Kisqali Femara Co-Pack); see those records"
   },
   {
    "slug": "ripretinib",
@@ -4728,7 +4790,8 @@
     "Rituxan Hycela"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "subcutaneous formulation of rituximab (Rituxan Hycela); see the rituximab record"
   },
   {
    "slug": "rolapitanthydrochloride",
@@ -4772,7 +4835,8 @@
     "Nplate"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "immune thrombocytopenia and haematopoietic syndrome of acute radiation; not an oncology therapeutic"
   },
   {
    "slug": "ropeginterferon-alfa-2b-njft",
@@ -4985,7 +5049,8 @@
    "generic": "STANFORD V",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "regimen: Stanford V for Hodgkin lymphoma; see the component records"
   },
   {
    "slug": "sunitinibmalate",
@@ -5253,7 +5318,9 @@
     "Tabloid"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [
+    "thioguanine"
+   ]
   },
   {
    "slug": "thiotepa",
@@ -5479,7 +5546,8 @@
     "Herceptin Hylecta"
    ],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "subcutaneous formulation of trastuzumab (Herceptin Hylecta); see the trastuzumab record"
   },
   {
    "slug": "tremelimumab-actl",
@@ -5635,7 +5703,8 @@
    "generic": "VeIP",
    "brands": [],
    "type": "drug",
-   "matchedIds": []
+   "matchedIds": [],
+   "exclusion": "regimen: vinblastine, ifosfamide and cisplatin; see the component records"
   },
   {
    "slug": "vemurafenib",

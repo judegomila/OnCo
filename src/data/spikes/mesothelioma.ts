@@ -84,7 +84,7 @@ const trials: TrialInput[] = [
 ];
 
 const drugs: DrugInput[] = [
-  d({ id: "pemetrexed", name: "Pemetrexed", brand: "Alimta (and generics)", modality: "Cytotoxic (antifolate)", status: "approved", wikipedia: W("Pemetrexed"),
+  d({ id: "pemetrexed", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pemetrexed" }], name: "Pemetrexed", brand: "Alimta (and generics)", modality: "Cytotoxic (antifolate)", status: "approved", wikipedia: W("Pemetrexed"),
     tldr: "Pemetrexed is the chemotherapy that, with a platinum drug, became the first approved treatment for mesothelioma in 2004, and is still the backbone today.",
     summary: "EMPHACIS (2003): cisplatin-pemetrexed OS 12.1 vs 9.3 months versus cisplatin alone, the first randomised survival gain in mesothelioma. Now given with pembrolizumab (KEYNOTE-483) or bevacizumab (MAPS). Also standard in non-squamous NSCLC. Requires folic acid and vitamin B12 supplementation.",
     mechanism: "Multitargeted antifolate inhibiting thymidylate synthase, DHFR, and GARFT.",

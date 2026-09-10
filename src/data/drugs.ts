@@ -100,7 +100,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["adc"], companies: ["pfizer", "takeda"], cancers: ["hodgkin-lymphoma"],
   },
   {
-    id: "mirvetuximab-soravtansine", kind: "drug", name: "Mirvetuximab soravtansine", brand: "Elahere", modality: "ADC", asOf, status: "approved", wikipedia: W("Mirvetuximab_soravtansine"),
+    id: "mirvetuximab-soravtansine", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Mirvetuximab%20soravtansine" }], name: "Mirvetuximab soravtansine", brand: "Elahere", modality: "ADC", asOf, status: "approved", wikipedia: W("Mirvetuximab_soravtansine"),
     payload: "DM4 (maytansinoid), DAR ~3.5", linker: "Sulfo-SPDB, cleavable disulfide",
     tldr: "Mirvetuximab soravtansine (Elahere) is the first ADC for ovarian cancer, for tumours with high folate receptor alpha.",
     summary: "Accelerated approval 2022, full approval 2024 after MIRASOL showed an OS benefit (16.5 vs 12.7 months) in FRα-high platinum-resistant ovarian cancer. Ocular toxicity (keratopathy) requires eye exams. Combination and earlier-line trials ongoing.",
@@ -239,7 +239,7 @@ const baseDrugs: DrugInput[] = [
 
   // ======================= CHECKPOINT INHIBITORS =======================
   {
-    id: "pembrolizumab", kind: "drug", name: "Pembrolizumab", brand: "Keytruda / Keytruda Qlex (SC)", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Pembrolizumab"),
+    id: "pembrolizumab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pembrolizumab" }], name: "Pembrolizumab", brand: "Keytruda / Keytruda Qlex (SC)", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Pembrolizumab"),
     tldr: "The most widely used cancer immunotherapy, approved in more than 40 settings, including before and after surgery for triple-negative breast cancer.",
     summary: "Approvals span melanoma, NSCLC, head and neck, Hodgkin, urothelial, MSI-H/dMMR tumours (first tumour-agnostic approval, 2017), gastric, oesophageal, cervical, HCC, RCC, endometrial, TNBC (KEYNOTE-355 metastatic CPS ≥10; KEYNOTE-522 neoadjuvant/adjuvant with 7-year OS benefit), TMB-high, and more. 2026 additions include platinum-resistant PD-L1+ ovarian cancer, adjuvant RCC with belzutifan, and combination labels with sacituzumab govitecan (ASCENT-04) and enfortumab vedotin. Subcutaneous Keytruda Qlex approved 2025. Backbone for neoantigen vaccines (intismeran).",
     mechanism: "Humanised IgG4 blocking PD-1; restores T-cell effector function.",
@@ -255,7 +255,7 @@ const baseDrugs: DrugInput[] = [
     trials: ["keynote-522", "keynote-355", "ascent-04", "interpath-001"],
   },
   {
-    id: "nivolumab", kind: "drug", name: "Nivolumab", brand: "Opdivo / Opdivo Qvantig (SC)", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Nivolumab"),
+    id: "nivolumab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Nivolumab" }], name: "Nivolumab", brand: "Opdivo / Opdivo Qvantig (SC)", modality: "Monoclonal antibody (anti-PD-1)", asOf, status: "approved", wikipedia: W("Nivolumab"),
     tldr: "Nivolumab was the second PD-1 blocker and is often combined with ipilimumab. Long-term data show about half of advanced melanoma patients alive at 10 years on the combination.",
     summary: "Approved across melanoma (CheckMate 067 combination), NSCLC, RCC, Hodgkin, head and neck, urothelial, MSI-H CRC (CheckMate 8HW first-line), gastric/oesophageal, HCC, mesothelioma, and perioperative NSCLC. March 2026: first-line advanced classical Hodgkin lymphoma with AVD (SWOG S1826) for ages 12+. Partner of relatlimab (Opdualag) and of the oncolytic virus Tudriqev.",
     mechanism: "Fully human IgG4 anti-PD-1.",
@@ -459,7 +459,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["sstr2"], technologies: ["radioligand-therapy"], companies: ["novartis"], cancers: ["neuroendocrine"],
   },
   {
-    id: "pylarify", kind: "drug", name: "Piflufolastat F-18 / Pylarify TruVu", brand: "Pylarify", code: "18F-DCFPyL", modality: "PET imaging agent", asOf, status: "approved", wikipedia: W("Piflufolastat_F-18"),
+    id: "pylarify", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Piflufolastat%20F-18" }], name: "Piflufolastat F-18 / Pylarify TruVu", brand: "Pylarify", code: "18F-DCFPyL", modality: "PET imaging agent", asOf, status: "approved", wikipedia: W("Piflufolastat_F-18"),
     tldr: "Piflufolastat F-18 (Pylarify) is the leading PSMA PET tracer for prostate cancer, with a new formulation approved in March 2026.",
     summary: "Approved 2021 for PSMA PET in prostate cancer staging and biochemical recurrence. Lantheus' Pylarify TruVu, approved 9 March 2026, offers an improved formulation/distribution profile. Competes with Illuccix/Gozellix (68Ga, Telix), Locametz (Novartis), and Posluma.",
     mechanism: "18F-labelled PSMA-binding urea.",
@@ -490,7 +490,7 @@ const baseDrugs: DrugInput[] = [
 
   // ======================= TARGETED SMALL MOLECULES =======================
   {
-    id: "osimertinib", kind: "drug", name: "Osimertinib", brand: "Tagrisso", modality: "Small-molecule kinase inhibitor (EGFR)", asOf, status: "approved", wikipedia: W("Osimertinib"),
+    id: "osimertinib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Osimertinib" }], name: "Osimertinib", brand: "Tagrisso", modality: "Small-molecule kinase inhibitor (EGFR)", asOf, status: "approved", wikipedia: W("Osimertinib"),
     tldr: "Osimertinib (Tagrisso) is the standard pill for EGFR-mutant lung cancer, now also given after surgery and with chemotherapy or after chemoradiation.",
     summary: "FLAURA (first-line OS benefit), ADAURA (adjuvant, OS HR 0.49), FLAURA2 (with chemotherapy, OS benefit 2025), LAURA (after chemoradiation in stage III). Challenged by amivantamab-lazertinib (MARIPOSA).",
     mechanism: "Irreversible third-generation EGFR TKI sparing wild-type EGFR; active against T790M; CNS penetrant.",
@@ -563,7 +563,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["kinase-inhibitors"], companies: ["nuvalent"], cancers: ["nsclc"],
   },
   {
-    id: "olaparib", kind: "drug", name: "Olaparib", brand: "Lynparza", modality: "Small-molecule PARP inhibitor", asOf, status: "approved", wikipedia: W("Olaparib"),
+    id: "olaparib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Olaparib" }], name: "Olaparib", brand: "Lynparza", modality: "Small-molecule PARP inhibitor", asOf, status: "approved", wikipedia: W("Olaparib"),
     tldr: "Olaparib was the first PARP inhibitor, and turned an inherited BRCA mutation from a risk factor into a drug target, including after surgery in breast cancer.",
     summary: "Approved 2014 (ovarian), then maintenance first-line (SOLO-1, 7-year OS benefit), with bevacizumab (PAOLA-1, HRD+), metastatic BRCA breast (OlympiAD), adjuvant germline-BRCA HER2-negative early breast cancer (OlympiA, OS HR 0.72), pancreatic maintenance (POLO), and prostate (PROfound; PROpel with abiraterone). AstraZeneca/Merck.",
     mechanism: "PARP1/2 inhibitor and trapper; synthetic lethality with HRD.",
@@ -571,7 +571,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["parp", "brca"], technologies: ["parp-inhibitor"], companies: ["astrazeneca", "merck"], cancers: ["ovarian", "tnbc", "breast-hr-positive", "prostate", "pancreatic"], trials: ["olympia"],
   },
   {
-    id: "niraparib", kind: "drug", name: "Niraparib", brand: "Zejula", modality: "Small-molecule PARP inhibitor", asOf, status: "approved", wikipedia: W("Niraparib"),
+    id: "niraparib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Niraparib" }], name: "Niraparib", brand: "Zejula", modality: "Small-molecule PARP inhibitor", asOf, status: "approved", wikipedia: W("Niraparib"),
     tldr: "Niraparib is a PARP inhibitor approved as maintenance for ovarian cancer regardless of BRCA status, and in prostate cancer with abiraterone.",
     summary: "NOVA and PRIMA (first-line maintenance, all-comers; label later restricted to HRD+ in some settings); Akeega (niraparib + abiraterone) for BRCA-mutant mCRPC (MAGNITUDE, 2023). GSK.",
     mechanism: "PARP1/2 inhibitor.",
@@ -587,7 +587,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["parp", "brca"], technologies: ["parp-inhibitor"], companies: ["pfizer"], cancers: ["tnbc", "breast-hr-positive", "prostate"],
   },
   {
-    id: "palbociclib", kind: "drug", name: "Palbociclib", brand: "Ibrance", modality: "Small-molecule CDK4/6 inhibitor", asOf, status: "approved", wikipedia: W("Palbociclib"),
+    id: "palbociclib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Palbociclib" }], name: "Palbociclib", brand: "Ibrance", modality: "Small-molecule CDK4/6 inhibitor", asOf, status: "approved", wikipedia: W("Palbociclib"),
     tldr: "Palbociclib was the first CDK4/6 inhibitor (2015), and in 2026 became the first approved as maintenance in HER2-positive, hormone-positive breast cancer.",
     summary: "PALOMA-2/3 (PFS benefit, no OS benefit); PALLAS and PENELOPE-B negative in adjuvant setting. PATINA (2024 SABCS; approved Q2 2026): adding palbociclib to anti-HER2 plus endocrine maintenance in HR+/HER2+ metastatic disease extended PFS by ~15 months. Pfizer.",
     mechanism: "Reversible CDK4/6 inhibitor.",
@@ -824,7 +824,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["platinum", "cytotoxic-chemotherapy"], cancers: ["tnbc", "ovarian", "nsclc", "sclc"], trials: ["keynote-522"],
   },
   {
-    id: "paclitaxel", kind: "drug", name: "Paclitaxel / nab-paclitaxel", brand: "Taxol / Abraxane", modality: "Cytotoxic chemotherapy (taxane)", asOf, status: "approved", wikipedia: W("Paclitaxel"),
+    id: "paclitaxel", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Paclitaxel" }], name: "Paclitaxel / nab-paclitaxel", brand: "Taxol / Abraxane", modality: "Cytotoxic chemotherapy (taxane)", asOf, status: "approved", wikipedia: W("Paclitaxel"),
     tldr: "A microtubule poison discovered in the Pacific yew tree, among the most used chemotherapies in breast, lung, and ovarian cancer.",
     summary: "Weekly paclitaxel is a backbone of neoadjuvant TNBC therapy; nab-paclitaxel (albumin-bound) avoids steroid premedication and partners with immunotherapy (IMpassion130) and, in 2026, with relacorilant in ovarian cancer and TTFields in pancreatic cancer.",
     mechanism: "Stabilises microtubules, blocking mitosis.",

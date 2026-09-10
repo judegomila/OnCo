@@ -206,7 +206,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Neutropenia grade 3-4", grade3PlusPct: 63, note: "OVA-301 combination arm" }, { event: "ALT increase grade 3-4", grade3PlusPct: 31 }],
     approvals: [{ region: "EU", year: 2009, indication: "Relapsed platinum-sensitive ovarian cancer with PLD" }, { region: "US", year: 2015, indication: "Liposarcoma and leiomyosarcoma after anthracycline" }],
     technologies: ["cytotoxic-chemotherapy"], cancers: ["ovarian", "sarcoma"] }),
-  d({ id: "pegylated-liposomal-doxorubicin", name: "Pegylated liposomal doxorubicin", brand: "Doxil / Caelyx", code: "PLD", modality: "Cytotoxic (liposomal anthracycline)", status: "approved", wikipedia: W("Liposomal_doxorubicin"),
+  d({ id: "pegylated-liposomal-doxorubicin", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pegylated%20liposomal%20doxorubicin" }], name: "Pegylated liposomal doxorubicin", brand: "Doxil / Caelyx", code: "PLD", modality: "Cytotoxic (liposomal anthracycline)", status: "approved", wikipedia: W("Liposomal_doxorubicin"),
     tldr: "Doxorubicin wrapped in a fatty bubble so it reaches tumours with less heart damage; a workhorse of relapsed ovarian cancer.",
     summary: "Approved 1995 (Kaposi sarcoma) and 1999 for platinum-refractory ovarian cancer. Standard single agent or partner (with carboplatin in CALYPSO, with trabectedin in OVA-301, with bevacizumab in AURELIA) in relapsed disease; the comparator arm in MIRASOL and KEYNOTE-B96. Hand-foot syndrome and mucositis replace the alopecia and cardiotoxicity of free doxorubicin.",
     mechanism: "Topoisomerase II poisoning and DNA intercalation by doxorubicin, delivered by long-circulating PEGylated liposomes that extravasate in tumours.",

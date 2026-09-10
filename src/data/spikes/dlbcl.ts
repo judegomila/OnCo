@@ -59,7 +59,7 @@ const terms: TermInput[] = [
 
 // ======================= PRODUCTS =======================
 const drugs: DrugInput[] = [
-  d({ id: "polatuzumab-vedotin", name: "Polatuzumab vedotin", brand: "Polivy", modality: "ADC", status: "approved", wikipedia: W("Polatuzumab_vedotin"),
+  d({ id: "polatuzumab-vedotin", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Polatuzumab%20vedotin" }], name: "Polatuzumab vedotin", brand: "Polivy", modality: "ADC", status: "approved", wikipedia: W("Polatuzumab_vedotin"),
     payload: "MMAE (tubulin inhibitor), DAR ~3.5", linker: "mc-vc-PABC, protease-cleavable",
     tldr: "Polatuzumab vedotin is an ADC against CD79b that, swapped into the classic R-CHOP regimen, became the first improvement on frontline lymphoma therapy in twenty years.",
     summary: "POLARIX (2022): Pola-R-CHP versus R-CHOP in untreated DLBCL, IPI 2-5. Two-year PFS 76.7% vs 70.2% (HR 0.73); five-year PFS 64.9% vs 59.1% (HR 0.77) with OS HR 0.85, not significant. Approved US April 2023 for frontline DLBCL (IPI ≥2) and since 2019 with bendamustine-rituximab for relapsed disease. Peripheral neuropathy is the class toxicity.",
@@ -89,7 +89,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2020, indication: "R/R DLBCL with lenalidomide, transplant-ineligible (accelerated)" }, { region: "US", year: 2025, indication: "R/R follicular lymphoma with lenalidomide and rituximab" }],
     regulatoryEvents: [{ date: "2020-07-31", type: "approval", region: "US", note: "L-MIND accelerated approval" }, { date: "2026-03", type: "filing", region: "US", note: "sBLA for frontline high-risk DLBCL (frontMIND) planned H1 2026", source: "https://www.onclive.com/view/frontmind-results-tafasitamab-based-combo-yields-significant-pfs-benefit-over-r-chop-in-frontline-high-risk-dlbcl" }],
     targets: ["cd19"], technologies: ["monoclonal-antibody"], companies: ["incyte"], cancers: ["dlbcl"], trials: ["l-mind", "frontmind"], drugs: ["lenalidomide"], terms: ["adcc"] }),
-  d({ id: "mosunetuzumab", name: "Mosunetuzumab", brand: "Lunsumio", modality: "Bispecific T-cell engager (CD20×CD3)", status: "approved", wikipedia: W("Mosunetuzumab"),
+  d({ id: "mosunetuzumab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Mosunetuzumab" }], name: "Mosunetuzumab", brand: "Lunsumio", modality: "Bispecific T-cell engager (CD20×CD3)", status: "approved", wikipedia: W("Mosunetuzumab"),
     tldr: "Mosunetuzumab is a fixed-duration CD20 bispecific approved for follicular lymphoma and studied with polatuzumab in large B-cell lymphoma.",
     summary: "Approved December 2022 for R/R follicular lymphoma after ≥2 lines (ORR 80%, CR 60%). In DLBCL, mosunetuzumab + polatuzumab (SUNMO, phase 3 vs R-GemOx) met its PFS endpoint in 2025 in transplant-ineligible R/R disease; subcutaneous formulation approved 2025. Roche.",
     mechanism: "Full-length humanised IgG1 CD20×CD3 bispecific with step-up dosing; fixed 8-17 cycles.",
@@ -97,7 +97,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Cytokine release syndrome", anyGradePct: 44, grade3PlusPct: 2, note: "GO29781 FL cohort" }, { event: "Neutropenia", grade3PlusPct: 27 }],
     approvals: [{ region: "US", year: 2022, indication: "R/R follicular lymphoma after ≥2 lines (accelerated)" }],
     targets: ["cd20", "cd3"], technologies: ["t-cell-engager"], companies: ["roche-genentech"], cancers: ["dlbcl"], trials: ["sunmo"], drugs: ["polatuzumab-vedotin"] }),
-  d({ id: "odronextamab", name: "Odronextamab", brand: "Lynozyfic (EU: Ordspono)", modality: "Bispecific T-cell engager (CD20×CD3)", status: "approved",
+  d({ id: "odronextamab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Odronextamab" }], name: "Odronextamab", brand: "Lynozyfic (EU: Ordspono)", modality: "Bispecific T-cell engager (CD20×CD3)", status: "approved",
     tldr: "Odronextamab is Regeneron's CD20 bispecific, approved in Europe for lymphoma and in the US for follicular lymphoma after earlier FDA rejections over confirmatory-trial enrolment.",
     summary: "ELM-2: ORR 52%, CR 31% in R/R DLBCL after ≥2 lines; ORR 80%, CR 73% in follicular lymphoma. EU approval August 2024 (both); US complete response letters March 2024 over confirmatory-trial enrolment, then US accelerated approval in follicular lymphoma July 2025. OLYMPIA phase 3 programme ongoing.",
     mechanism: "Fully human IgG4 CD20×CD3 bispecific; IV step-up.",

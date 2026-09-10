@@ -164,7 +164,7 @@ const trials: TrialInput[] = [
 
 // ======================= PRODUCTS =======================
 const drugs: DrugInput[] = [
-  d({ id: "pertuzumab", name: "Pertuzumab", brand: "Perjeta; Phesgo (with trastuzumab, subcutaneous)", modality: "Monoclonal antibody (anti-HER2, dimerisation domain)", status: "approved", wikipedia: W("Pertuzumab"),
+  d({ id: "pertuzumab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pertuzumab" }], name: "Pertuzumab", brand: "Perjeta; Phesgo (with trastuzumab, subcutaneous)", modality: "Monoclonal antibody (anti-HER2, dimerisation domain)", status: "approved", wikipedia: W("Pertuzumab"),
     tldr: "A second HER2 antibody that binds a different spot from trastuzumab, blocking HER2 from pairing with HER3; together they extended survival by 16 months in CLEOPATRA.",
     summary: "Binds HER2 extracellular domain II, preventing HER2-HER3 heterodimerisation. Approved with trastuzumab and docetaxel in first-line metastatic disease (2012), neoadjuvant (2013, first pCR-based accelerated approval), and adjuvant node-positive disease (2017, APHINITY). Phesgo (2020) delivers both antibodies subcutaneously in minutes. Being partnered with T-DXd in first line (DESTINY-Breast09) and tucatinib in maintenance (HER2CLIMB-05).",
     mechanism: "Anti-HER2 IgG1 against subdomain II; blocks ligand-dependent HER2-HER3 signalling; ADCC.",
@@ -174,7 +174,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2012, indication: "First-line HER2+ metastatic breast cancer with trastuzumab and docetaxel" }, { region: "US", year: 2013, indication: "Neoadjuvant HER2+ early breast cancer (accelerated; first pCR-based approval)" }, { region: "US", year: 2017, indication: "Adjuvant HER2+ early breast cancer at high risk of recurrence" }, { region: "US", year: 2020, indication: "Phesgo subcutaneous fixed-dose combination with trastuzumab" }],
     regulatoryEvents: [{ date: "2012-06-08", type: "approval", region: "US", note: "First-line metastatic (CLEOPATRA)" }, { date: "2013-09-30", type: "approval", region: "US", note: "Neoadjuvant accelerated approval on pCR" }, { date: "2017-12-20", type: "approval", region: "US", note: "Adjuvant (APHINITY)" }, { date: "2020-06-29", type: "approval", region: "US", note: "Phesgo SC" }],
     targets: ["her2", "her3"], technologies: ["monoclonal-antibody"], companies: ["roche-genentech"], cancers: ["breast-her2-positive"], trials: ["cleopatra", "aphinity", "destiny-breast09", "her2climb-05", "phergain"] }),
-  d({ id: "neratinib", name: "Neratinib", brand: "Nerlynx", modality: "Small-molecule irreversible pan-HER kinase inhibitor", status: "approved", wikipedia: W("Neratinib"),
+  d({ id: "neratinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Neratinib" }], name: "Neratinib", brand: "Nerlynx", modality: "Small-molecule irreversible pan-HER kinase inhibitor", status: "approved", wikipedia: W("Neratinib"),
     tldr: "A pill taken for a year after trastuzumab to further reduce recurrence in HER2-positive, hormone-positive breast cancer, limited by severe diarrhoea.",
     summary: "ExteNET: extended adjuvant neratinib for 1 year after trastuzumab improved 5-year iDFS (90.2% vs 87.7%, HR 0.73), with benefit concentrated in HR+ disease that started within a year of trastuzumab. NALA (with capecitabine, metastatic): PFS HR 0.76 and fewer CNS interventions. Grade 3 diarrhoea ~40% without prophylaxis; loperamide prophylaxis or dose escalation (CONTROL) mitigates it.",
     mechanism: "Irreversible covalent inhibitor of HER1/HER2/HER4 kinases.",
@@ -198,7 +198,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Diarrhoea", anyGradePct: 95, grade3PlusPct: 31 }, { event: "Hand-foot syndrome", anyGradePct: 60 }],
     approvals: [{ region: "China", year: 2018, indication: "HER2+ advanced breast cancer with capecitabine" }],
     targets: ["her2", "egfr"], technologies: ["kinase-inhibitors"], companies: ["hengrui"], cancers: ["breast-her2-positive"], trials: ["horizon-breast01"] }),
-  d({ id: "margetuximab", name: "Margetuximab", brand: "Margenza", modality: "Fc-engineered monoclonal antibody (anti-HER2)", status: "approved", wikipedia: W("Margetuximab"),
+  d({ id: "margetuximab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Margetuximab" }], name: "Margetuximab", brand: "Margenza", modality: "Fc-engineered monoclonal antibody (anti-HER2)", status: "approved", wikipedia: W("Margetuximab"),
     tldr: "A trastuzumab look-alike with an engineered tail that binds immune cells more tightly; approved in 2020 but rarely used after ADCs arrived.",
     summary: "SOPHIA (vs trastuzumab, both with chemotherapy, after ≥2 anti-HER2 lines): PFS 5.8 vs 4.9 months (HR 0.76); OS not significantly improved, with a suggestion of benefit in CD16A-158F carriers. Approved December 2020. Illustrates the ceiling of Fc engineering alone versus payload delivery.",
     mechanism: "Anti-HER2 IgG1 with Fc mutations increasing FcγRIIIa (CD16A) affinity and decreasing FcγRIIb binding, enhancing ADCC.",

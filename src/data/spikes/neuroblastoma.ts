@@ -79,7 +79,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2015, indication: "High-risk neuroblastoma after at least partial response to induction, with GM-CSF, IL-2 and isotretinoin" }, { region: "EU", year: 2017, indication: "Dinutuximab beta: high-risk neuroblastoma after induction/transplant; relapsed/refractory disease" }],
     regulatoryEvents: [{ date: "2015-03-10", type: "approval", region: "US", note: "Unituxin (ANBL0032)" }, { date: "2017-05", type: "approval", region: "EU", note: "Dinutuximab beta (Qarziba)" }],
     targets: ["gd2"], technologies: ["monoclonal-antibody"], cancers: ["neuroblastoma"], trials: ["anbl0032", "hr-nbl1"], terms: ["adcc"] }),
-  d({ id: "naxitamab", name: "Naxitamab", brand: "Danyelza", modality: "Monoclonal antibody (anti-GD2, humanised)", status: "approved", wikipedia: W("Naxitamab"),
+  d({ id: "naxitamab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Naxitamab" }], name: "Naxitamab", brand: "Danyelza", modality: "Monoclonal antibody (anti-GD2, humanised)", status: "approved", wikipedia: W("Naxitamab"),
     tldr: "Naxitamab is a humanised anti-GD2 antibody from Memorial Sloan Kettering, given as an outpatient with GM-CSF for relapsed neuroblastoma in bone or marrow.",
     summary: "Accelerated approval November 2020 for relapsed/refractory high-risk neuroblastoma in bone or bone marrow (Study 201: ORR 50%; MSK 12-230: ORR 45%). Phase 2 in primary refractory disease with stepped-up GM-CSF: 75% CR in a 32-patient series (2025). Outpatient 30-minute infusions but severe pain and hypertension. Y-mAbs.",
     mechanism: "Humanised 3F8 IgG1 anti-GD2 with higher affinity; ADCC/CDC enhanced by GM-CSF-primed granulocytes.",

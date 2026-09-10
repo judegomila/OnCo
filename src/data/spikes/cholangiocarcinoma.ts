@@ -64,7 +64,7 @@ const drugs: DrugInput[] = [
     dosing: { route: "Intravenous", schedule: "Gemcitabine 1000 mg/m² + cisplatin 25 mg/m² days 1 and 8 every 3 weeks, up to 8 cycles", monitoring: "Renal function, hearing, blood counts" },
     toxicity: [{ event: "Neutropenia (grade 3-4)", grade3PlusPct: 25, note: "ABC-02" }, { event: "Fatigue", grade3PlusPct: 19, note: "ABC-02" }],
     technologies: ["cytotoxic-chemotherapy", "platinum"], cancers: ["cholangiocarcinoma"], trials: ["abc-02", "topaz-1", "keynote-966"] }),
-  d({ id: "pemigatinib", name: "Pemigatinib", brand: "Pemazyre", modality: "Small-molecule kinase inhibitor (FGFR1-3)", status: "approved", wikipedia: W("Pemigatinib"),
+  d({ id: "pemigatinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pemigatinib" }], name: "Pemigatinib", brand: "Pemazyre", modality: "Small-molecule kinase inhibitor (FGFR1-3)", status: "approved", wikipedia: W("Pemigatinib"),
     tldr: "Pemigatinib was the first targeted therapy for bile duct cancer, for tumours with an FGFR2 gene fusion.",
     summary: "FIGHT-202: ORR 37%, median PFS 7.0 months, median OS 17.5 months in previously treated FGFR2-fusion cholangiocarcinoma; accelerated approval April 2020. Also approved in FGFR1-rearranged myeloid/lymphoid neoplasms. First-line FIGHT-302 discontinued.",
     mechanism: "Selective oral FGFR1-3 inhibitor.",

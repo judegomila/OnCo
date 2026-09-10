@@ -4,6 +4,10 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 ## [Unreleased]
 
+### Added
+- `Molecule3D`: ball-and-stick models of small molecules (CPK colours, shaded spheres, depth-sorted bond cylinders with double and triple bonds, drag to rotate, element legend) and smooth backbone ribbons for proteins (Catmull-Rom through the C-alpha trace, per-chain colours, wider on helices and strands, bound drug in ball-and-stick), with a wireframe toggle. Used on product pages, in every molecule thumbnail, and in a new "Solved structures with a drug bound" panel on target pages.
+- PDB snapshots now keep secondary structure from the HELIX and SHEET records (`ss`); `npm run fetch:structures -- --refresh-pdb 5A9U,5DK3` refreshes chosen entries without touching the rest.
+
 ## [0.4.0] - 2026-09-08
 
 ### Added

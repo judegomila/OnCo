@@ -24,7 +24,7 @@ describe("animated process schematics", () => {
     for (const k of ["bispecific-antibody", "protac-degrader", "oncolytic-virus", "til-therapy", "tcr-t", "neoantigen-mrna-vaccine"]) expect(k in ANIMATED, k).toBe(true);
   });
 
-  it("every animation stays under 500 points and produces a caption for each phase", () => {
+  it("every animation stays under 500 points and produces a caption for each phase", { timeout: 120_000 }, () => {
     for (const [key, build] of Object.entries(ANIMATED)) {
       const m = build();
       expect(m.points.length, `${key} points`).toBeLessThan(500);

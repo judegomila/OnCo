@@ -93,7 +93,7 @@ export default function CoverageUkPage() {
         <section className="mt-10 grid md:grid-cols-2 gap-6 text-sm">
           <div className="card p-5 space-y-2">
             <h2 className="font-semibold text-base">Data gaps</h2>
-            <p>{covered.length} of {approved.length} approved products ({pct}%) have a record; {researched.length} ({pctResearched}%) have a researched outcome rather than a placeholder. {counts.unknown} rows are marked &ldquo;not yet researched&rdquo;: each links to a NICE search so you can check in one click, and each is a small pull request away from being filled in.</p>
+            <p>{covered.length} of {approved.length} approved products ({pct}%) have a record; {researched.length} ({pctResearched}%) have a researched outcome rather than a placeholder. {counts.unknown} rows are marked &ldquo;not yet researched&rdquo;: each links to a NICE search so you can check in one click, and if you know the outcome you can <a className="underline" href="https://github.com/judegomila/OnCo/issues/new?template=regional-approval.yml&title=coverage%3A%20NICE%20outcome" rel="noopener">tell us through the issue form</a> with the appraisal link.</p>
             {missing.length > 0 ? (
               <p>Approved products with no UK record at all ({missing.length}): {missing.map((d, i) => <span key={d.id}>{i > 0 && ", "}<Link href={routeFor(d)} className="underline">{d.name}</Link></span>)}.</p>
             ) : (

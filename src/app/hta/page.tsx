@@ -51,11 +51,11 @@ export default function HtaPage() {
         lede={`${rows.length} appraisal verdicts for ${products.size} products across ${Object.keys(byBody).length} bodies: ${Object.entries(byBody).map(([b, n]) => `${b} ${n}`).join(", ")}. Regulatory approval says a medicine may be sold; a health technology assessment says whether a health system will pay for it, for whom, and at what price. Dates and links go to the appraisal itself.`}
         right={<div className="flex flex-wrap gap-2"><Link href="/coverage/uk/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">NHS coverage →</Link><Link href="/coverage/us/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">US coverage and assistance →</Link></div>} />
       <Container className="pb-16 space-y-10">
-        {!snap && <p className="card p-4 text-sm text-muted">The HTA feed has not been fetched yet; only curated NICE and SMC rows are shown. Run <code>npx tsx scripts/fetch-hta.ts</code>.</p>}
+        {!snap && <p className="card p-4 text-sm text-muted">The automated appraisal feed has not run yet, so only the curated NICE and SMC rows are shown. The weekly refresh fills in the rest.</p>}
         {mismatches.length > 0 && (
           <div className="card p-4 border-amber-200 dark:border-amber-900">
-            <div className="kicker mb-1">Needs a look</div>
-            <p className="text-sm text-muted">{mismatches.length} NICE {mismatches.length === 1 ? "page does" : "pages do"} not name the product they are cited for, or say the guidance was withdrawn or replaced: {mismatches.map((m, i) => <span key={m.id}>{i > 0 && ", "}{m.route ? <Link className="underline" href={m.route}>{m.product}</Link> : m.product}</span>)}. The TA number in <code>src/data/coverage-uk.ts</code> should be checked.</p>
+            <div className="kicker mb-1">Being re-checked</div>
+            <p className="text-sm text-muted">{mismatches.length} NICE {mismatches.length === 1 ? "page does" : "pages do"} not name the product they are cited for, or say the guidance was withdrawn or replaced: {mismatches.map((m, i) => <span key={m.id}>{i > 0 && ", "}{m.route ? <Link className="underline" href={m.route}>{m.product}</Link> : m.product}</span>)}. Treat these rows as provisional until the appraisal reference is confirmed; if you know the correct appraisal, <a className="underline" href="https://github.com/judegomila/OnCo/issues/new?template=regional-approval.yml&title=hta%3A%20NICE%20appraisal%20reference" rel="noopener">tell us through the issue form</a>.</p>
           </div>
         )}
         <HtaTable rows={rows} />

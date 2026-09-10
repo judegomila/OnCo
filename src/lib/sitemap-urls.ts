@@ -1,3 +1,6 @@
+import { regimens } from "../data/regimens";
+import { guidelineCancerIds } from "./guidelines";
+import { sequencingIndex } from "./sequencing";
 import { existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "./graph";
@@ -87,6 +90,9 @@ export function sitemapUrls(): SitemapUrl[] {
   for (const d of digests) add(`/digests/${d.id}/`);
   for (const p of paths) add(`/paths/${p.id}/`);
   for (const e of g.entities) add(routeFor(e), e.asOf);
+  for (const r of regimens) out.push({ url: absoluteUrl(`/regimens/${r.id}/`), lastModified: r.asOf });
+  for (const c of sequencingIndex()) out.push({ url: absoluteUrl(`/sequencing/${c.id}/`) });
+  for (const id of guidelineCancerIds()) out.push({ url: absoluteUrl(`/guidelines/${id}/`) });
   return out;
 }
 

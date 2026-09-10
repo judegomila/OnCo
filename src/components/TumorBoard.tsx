@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { biomarkers, type BiomarkerGroup } from "@/data/biomarkers";
 import { cautionsFor, scoreRows, type MatchRow } from "@/lib/biomarker-match";
@@ -19,6 +19,17 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
   const [cancer, setCancer] = useState<string | null>(null);
   const [picked, setPicked] = useState<string[]>([]);
   const [q, setQ] = useState("");
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => {
+      const p = new URLSearchParams(window.location.search);
+      const c = p.get("cancer");
+      if (c && cancers.some((x) => x.id === c)) setCancer(c);
+      const bm = p.getAll("bm").flatMap((s) => s.split(",")).filter((id) => biomarkers.some((b) => b.id === id));
+      if (bm.length) setPicked(bm);
+    });
+    return () => cancelAnimationFrame(raf);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- mount only: the URL seeds state
+  }, []);
 
   const selected = useMemo(() => biomarkers.filter((b) => picked.includes(b.id)), [picked]);
   const scored = useMemo(() => scoreRows(rows, selected, cancer), [rows, selected, cancer]);

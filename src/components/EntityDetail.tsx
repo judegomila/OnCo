@@ -71,6 +71,9 @@ import { SpreadMap } from "./SpreadMap";
 import { spreadFor } from "@/data/spread";
 import { journeysForCancer } from "@/data/journeys";
 import { organFor } from "@/data/organ-schematics";
+import { regimensFor, regimenRoute, cycleSummary } from "@/lib/regimens";
+import { guidelineCancerIds } from "@/lib/guidelines";
+import { agentById } from "@/lib/interactions";
 import { CatalystsPanel, CompanyScorePanel, DealsPanel, ExclusivityPanel, ManufacturingPanel } from "@/components/InvestorPanels";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -243,7 +246,13 @@ function kindTabs(e: Entity): Tab[] {
           {e.approvals.length > 0 && <Block title="Approvals"><div className="overflow-x-auto -mx-4 px-4"><table className="onco"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
             <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> — {a.note}</span>}</td></tr>)}</tbody></table></div></Block>}
         </>) }] : []),
-        ...(e.toxicity.length ? [{ id: "safety", label: "Safety", count: e.toxicity.length, content: <ToxicityTable toxicity={e.toxicity} /> }] : []),
+        ...(regimensFor(e.id).length ? [{ id: "regimens", label: "Regimens", count: regimensFor(e.id).length, content: (
+          <ul className="grid gap-3 sm:grid-cols-2">{regimensFor(e.id).map((r) => <li key={r.id}><Link href={regimenRoute(r)} className="card block p-3 text-sm hover:shadow-md transition"><div className="font-medium">{r.name}</div><div className="text-xs text-muted mt-1 line-clamp-2">{r.setting}</div><div className="text-xs text-muted mt-1">{cycleSummary(r)}</div></Link></li>)}</ul>) }] : []),
+        ...(e.toxicity.length || agentById(e.id) ? [{ id: "safety", label: "Safety", count: e.toxicity.length || undefined, content: (<>
+          {e.toxicity.length > 0 && <ToxicityTable toxicity={e.toxicity} />}
+          {agentById(e.id) && <p className="text-sm mt-3"><Link href={`/interactions/?drugs=${e.id}`} className="underline">Check interactions for {e.name} →</Link></p>}
+          {/anti-pd|anti-ctla|pd-1|pd-l1|ctla-4|checkpoint/i.test(e.modality + " " + e.mechanism) && <p className="text-sm mt-1"><Link href="/irae/" className="underline">Immune-related side effects: management guide →</Link></p>}
+        </>) }] : []),
         ...(e.access.length ? [{ id: "access", label: "Cost & access", count: e.access.length, content: <AccessTable access={e.access} /> }] : []),
         { id: "trials", label: "Trials", content: <><TrialCounts drugId={e.id} /><Block title="Recruiting now (live from ClinicalTrials.gov)"><TrialFinder intervention={interventionQuery(e.name)} title={e.name} /></Block>{e.trials.length > 0 && <Block title="Landmark trials in OnCo"><Refs ids={e.trials} /></Block>}</> },
       ];
@@ -540,6 +549,12 @@ function cancerTabs(c: Cancer): Tab[] {
     </> },
     { id: "care", label: "Standard of care", count: c.standardOfCare.length, content: (
       <div className="space-y-3">
+        <div className="flex flex-wrap gap-3 text-sm mb-2">
+          <Link href={`/sequencing/${c.id}/`} className="underline">Lines of therapy by subgroup →</Link>
+          {regimensFor(c.id).length > 0 && <Link href={`/regimens/?cancer=${encodeURIComponent(c.name)}`} className="underline">{regimensFor(c.id).length} regimens →</Link>}
+          {guidelineCancerIds().includes(c.id) && <Link href={`/guidelines/${c.id}/`} className="underline">Guideline history and concordance →</Link>}
+          <Link href={`/staging/#${c.id}`} className="underline">Staging and risk scores →</Link>
+        </div>
         {c.standardOfCare.map((s, i) => (
           <div key={i} className="card p-4">
             <div className="font-medium">{s.setting}</div>

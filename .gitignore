@@ -48,3 +48,6 @@ next-env.d.ts
 
 # generated feeds
 /public/feeds/
+
+# bundled CLI and MCP packages
+/packages/*/dist/

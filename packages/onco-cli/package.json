@@ -1,0 +1,20 @@
+{
+  "name": "onco",
+  "version": "0.1.0",
+  "description": "OnCo, the public cited knowledge graph of oncology, from the terminal: search, records, lists, cited answers (Ask OnCo), Markdown context and CSV/JSON exports, read from the static API at onco.cc.",
+  "license": "MIT",
+  "homepage": "https://onco.cc/api/",
+  "repository": { "type": "git", "url": "https://github.com/judegomila/OnCo.git", "directory": "packages/onco-cli" },
+  "bugs": { "url": "https://github.com/judegomila/OnCo/issues" },
+  "keywords": ["oncology", "cancer", "knowledge-graph", "cli", "open-data", "clinical-trials", "onco"],
+  "type": "module",
+  "bin": { "onco": "./dist/onco.mjs" },
+  "files": ["dist/", "README.md"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "cd ../.. && npm run cli:build",
+    "test": "cd ../.. && npx vitest run packages/onco-cli",
+    "prepublishOnly": "npm run build && test -f dist/onco.mjs"
+  },
+  "publishConfig": { "access": "public" }
+}

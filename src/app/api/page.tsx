@@ -59,6 +59,35 @@ export default function ApiDocs() {
         <p className="text-[15px] leading-relaxed">Each tagged version of OnCo is published as a <a className="underline" href="https://github.com/judegomila/OnCo/releases" rel="noopener">GitHub release</a> with the whole <code>/api/v1/</code> tree attached as a tarball, the CSVs as a zip, the NDJSON, and SHA-256 checksums, so a paper or a pipeline can pin an exact snapshot. The repository carries a <code>.zenodo.json</code> so that Zenodo can archive each release and mint a DOI once archiving is switched on for the repository; until then, cite the release tag and commit.</p>
         <pre className="card p-4 text-xs overflow-auto mt-3"><code>{`OnCo contributors. OnCo: a public, cited map of oncology. Version <tag>, <date>. https://onco.cc (data CC BY 4.0). https://github.com/judegomila/OnCo/releases/tag/<tag>`}</code></pre>
 
+        <h2 id="mcp-cli" className="text-xl font-semibold mt-10 mb-2 scroll-mt-24">MCP and CLI</h2>
+        <p className="text-[15px] leading-relaxed mb-3">The same files, two more ways in. <code>onco</code> is a command-line tool for terminals and shell pipelines; <code>onco-mcp</code> is a Model Context Protocol server that gives Claude, Cursor and other assistants the corpus as tools, with a citation on every fact. Both read <code>/api/v1/</code> directly (no key, no checkout), run on Node 20 or later, and end every output with the attribution line. <code>onco ask</code> and the MCP <code>ask</code> tool run the same pipeline as <Link className="underline" href="/ask/">Ask OnCo</Link>, so the three give the same cited answer.</p>
+        <div className="card overflow-x-auto">
+        <table className="onco">
+          <thead><tr><th scope="col">Command or tool</th><th scope="col">What it does</th></tr></thead>
+          <tbody>
+            <tr><td><span className="font-mono text-sm">onco search &lt;query&gt; [--kind]</span></td><td>Word plus concept search, fused as the site does it; each hit says why it matched.</td></tr>
+            <tr><td><span className="font-mono text-sm">onco get &lt;id|route&gt; [--json]</span></td><td>One record: TL;DR, summary, key fields, connected records, sources.</td></tr>
+            <tr><td><span className="font-mono text-sm">onco list &lt;kind&gt; [--filter key=value]</span></td><td>Every record of a kind, filtered on any field.</td></tr>
+            <tr><td><span className="font-mono text-sm">onco ask &quot;&lt;question&gt;&quot; [--region UK]</span></td><td>The cited, templated Ask OnCo answer.</td></tr>
+            <tr><td><span className="font-mono text-sm">onco context &lt;id&gt;</span> · <span className="font-mono text-sm">onco kinds</span> · <span className="font-mono text-sm">onco export &lt;kind&gt; --csv|--json</span></td><td>Markdown context for a record, the kinds with counts, a kind as CSV or JSON.</td></tr>
+            <tr><td><span className="font-mono text-sm">MCP tools</span></td><td><code>search</code>, <code>get_entity</code>, <code>list_kind</code>, <code>ask</code>, <code>context</code>, <code>compare</code>; resources <code>onco://kinds</code> and <code>onco://kinds/&#123;kind&#125;</code>; prompt <code>onco-brief</code> for a patient or clinician summary.</td></tr>
+          </tbody>
+        </table>
+        </div>
+        <pre className="card p-4 text-xs overflow-auto mt-3"><code>{`# CLI
+npx onco search "HER2-low breast cancer" --kind drug
+npx onco get trastuzumab-deruxtecan
+npx onco ask "What are the side effects of Enhertu?" --region UK
+npx onco export cancer --csv > cancers.csv
+ONCO_API=./out/api/v1 npx onco kinds          # any copy of /api/v1, including a local build
+
+# MCP: Claude Code
+claude mcp add onco -- npx -y onco-mcp
+
+# MCP: Claude Desktop or Cursor (claude_desktop_config.json, .cursor/mcp.json)
+{ "mcpServers": { "onco": { "command": "npx", "args": ["-y", "onco-mcp"] } } }`}</code></pre>
+        <p className="text-sm text-muted mt-3">Source and full references: <a className="underline" href="https://github.com/judegomila/OnCo/tree/main/packages/onco-cli" rel="noopener">packages/onco-cli</a> and <a className="underline" href="https://github.com/judegomila/OnCo/tree/main/packages/onco-mcp" rel="noopener">packages/onco-mcp</a> in the repository, and <a className="underline" href="https://github.com/judegomila/OnCo/blob/main/docs/ACCESS.md" rel="noopener">docs/ACCESS.md</a>. A larger MCP server with biomarker matching, calendar and live trial lookup runs from a checkout with <code>npm run mcp</code>.</p>
+
         <h2 className="text-xl font-semibold mt-10 mb-2">Schema</h2>
         <p className="text-[15px] leading-relaxed">Every entity shares base fields (<code>id, kind, name, aka, tldr, summary, status, asOf, wikipedia, links, tags</code>) and relationship arrays (<code>related, cancers, sections, technologies, targets, drugs, companies, institutions, pathways, terms, trials</code>) holding ids. Kind-specific fields are documented in <code>src/lib/schema.ts</code> in the repository, which is the source of truth and is enforced at build time; <a className="underline" href="/api/v1/schema.json">schema.json</a> is generated from it.</p>
 

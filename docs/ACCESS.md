@@ -1,0 +1,63 @@
+# Access to OnCo: web, API, CLI and MCP
+
+Every record in OnCo is available four ways from the same build. Nothing is behind a key, and every route carries the same attribution line: `Data from OnCo (onco.cc), CC BY-NC 4.0; commercial use needs a licence`.
+
+| Route | For | Where |
+|---|---|---|
+| Web | People | https://onco.cc, one page per record, Ask OnCo at https://onco.cc/ask/ |
+| Static API | Scripts, spreadsheets, pipelines | https://onco.cc/api/v1/ (JSON, NDJSON, CSV, JSON Schema, Markdown context), documented at https://onco.cc/api/ |
+| CLI | Terminals and shell pipelines | `npx onco ...` from `packages/onco-cli` |
+| MCP | Claude, Cursor and other assistants | `npx -y onco-mcp` from `packages/onco-mcp`; `npm run mcp` in a checkout for the larger repository server |
+
+## The static API
+
+`scripts/build-api.ts`, `scripts/embed.ts`, `scripts/build-ask.ts` and `scripts/build-context.ts` write `public/api/v1/` at build time; Vercel serves it with permissive CORS. The files the CLI and MCP server read:
+
+| File | Contents |
+|---|---|
+| `meta.json` | Build date, version, counts per kind, the file list |
+| `<plural>.json`, `<plural>.csv` | Every record of one kind (`drugs.json`, `trials.csv`, `key papers.json`) |
+| `entities/<id>.json` | One record with its neighbours grouped by kind |
+| `search.json` | Compact search documents (id, kind, name, aka, tldr, tags, route, status) |
+| `embeddings.json`, `embeddings.bin` | The concept-search index (TF-IDF, sparse unit vectors) |
+| `ask-index.json` | Names, aliases and curated question pairs for Ask OnCo |
+| `context/<id>.md` | One Markdown document per record; `context/index.md` lists them |
+| `all.json`, `all.ndjson`, `schema.json`, `ranking.json` | Whole-corpus downloads, the entity JSON Schema, the institution ranking |
+
+## CLI: `onco`
+
+```sh
+npx onco search "HER2-low breast cancer" --kind drug
+npx onco get trastuzumab-deruxtecan
+npx onco list trial --filter status=recruiting --limit 20
+npx onco ask "What are the side effects of Enhertu?" --region UK
+npx onco context tnbc
+npx onco kinds
+npx onco export cancer --csv > cancers.csv
+```
+
+`--json` on any command prints machine-readable output and moves the attribution line to stderr. `ONCO_API` or `--api` points at another copy of `/api/v1`, including a local `out/api/v1` directory, which works offline. Full reference: `packages/onco-cli/README.md`.
+
+## MCP: `onco-mcp`
+
+Tools `search`, `get_entity`, `list_kind`, `ask`, `context` and `compare`; resources `onco://kinds` and `onco://kinds/{kind}`; prompt `onco-brief` (patient or clinician summary). Claude Desktop, Claude Code and Cursor snippets are in `packages/onco-mcp/README.md`. The short form:
+
+```sh
+claude mcp add onco -- npx -y onco-mcp
+```
+
+The `ask` tool and `onco ask` run the site's own pipeline (`src/lib/ask-pipeline.ts` and friends), bundled in at build time, so the three surfaces give the same cited answer for the same question.
+
+## Building and testing the packages
+
+```sh
+npm run cli:build        # packages/onco-cli/dist/onco.mjs (no runtime dependencies)
+npm run mcp:build        # packages/onco-mcp/dist/onco-mcp.mjs (depends on @modelcontextprotocol/sdk and zod)
+npm test                 # includes packages/*/src/**/*.test.ts
+```
+
+`scripts/build-packages.ts` bundles each package with esbuild from `packages/*/src/bin.ts`; the site's modules are imported by relative path, so there is no copied code to drift. To try either against a local build: `npm run build` (writes `out/api/v1`), then `ONCO_API=./out/api/v1 node packages/onco-cli/dist/onco.mjs kinds` or `ONCO_API=./out/api/v1 node packages/onco-mcp/dist/onco-mcp.mjs`.
+
+## Publishing
+
+Each package has its own `package.json` with a `prepublishOnly` step that builds the bundle. From the repository root, after `npm ci`: `npm run cli:build && (cd packages/onco-cli && npm publish)` and `npm run mcp:build && (cd packages/onco-mcp && npm publish)`. Bump the `version` fields first; the version is injected into `--version` at build time.

@@ -3,7 +3,7 @@
 import { useRef, useState, type ReactNode } from "react";
 
 const SITE = "onco-umber.vercel.app";
-const LICENCE = "CC BY 4.0, attribute \"OnCo (github.com/judegomila/OnCo)\"";
+const LICENCE = "CC BY-NC 4.0, attribute \"Data from OnCo (onco.cc)\"; commercial use needs a licence";
 /** Presentation properties copied from computed styles so the file looks the same outside the page's CSS (theme variables, Tailwind classes, currentColor). */
 const PROPS = ["fill", "fill-opacity", "stroke", "stroke-width", "stroke-dasharray", "stroke-linecap", "stroke-linejoin", "stroke-opacity", "opacity", "font-family", "font-size", "font-weight", "font-style", "text-anchor", "dominant-baseline", "letter-spacing", "color", "visibility"];
 

@@ -6,6 +6,8 @@ import { Tip } from "@/components/Tip";
 import { MoleculeSlot } from "./MoleculeSlot";
 import { ApprovalChip } from "./ApprovalChip";
 import { flagFor, COUNTRY_FACETS } from "@/lib/flags";
+import { TargetThumb } from "./TargetThumb";
+import type { TargetSchematicTarget } from "./TargetSchematic";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
@@ -30,6 +32,8 @@ export type BrowserRow = {
   /** Drug id: renders a small rotating molecule beside the name, or an explained placeholder when there is no structure. */
   molecule?: string;
   modality?: string;
+  /** Target: renders a small animated schematic of the target class beside the name. */
+  target?: TargetSchematicTarget;
   /** Facet values keyed by facet key; arrays for multi-valued facets. */
   facets: Record<string, string[]>;
   /** Extra columns keyed by column key: formatted strings, numbers, lists of links, glossary-marked text, or facet chips. */
@@ -265,6 +269,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
     { key: "name", label: "Name", sortable: true, render: (r) => (
       <div className="min-w-[220px] flex items-start gap-2">
         {r.molecule && <MoleculeSlot drugId={r.molecule} modality={r.modality} name={r.name} className="h-10 w-10" />}
+        {r.target && <TargetThumb target={r.target} route={r.route} />}
         {r.logo && !r.molecule && (
           <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md border border-border bg-white overflow-hidden">
             {/* eslint-disable-next-line @next/next/no-img-element -- hotlinked favicon, never copied */}

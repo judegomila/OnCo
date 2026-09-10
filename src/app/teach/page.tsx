@@ -70,7 +70,7 @@ export default function TeachIndex() {
         <section className="mt-12 max-w-3xl text-sm text-muted space-y-2">
           <h2 className="text-xl font-semibold text-foreground mb-1">How to use a pack</h2>
           <p>Each deck is the page, re-cut for a room: one idea per slide, the technical detail in the speaker notes, every claim traceable to the record and its sources. Toggle <em>speaker notes</em> to see what to say and what to cite; toggle <em>quiz answers</em> before or after the class. <em>Print / save PDF</em> gives one slide per page, with notes if they are showing.</p>
-          <p>Decks are generated at build time from the corpus, so they are as current, and as incomplete, as the page. Spotted an error? Fix it once through <Link className="underline" href="/suggest/">Suggest an edit</Link> and the deck updates with the page. Slides are CC BY 4.0: reuse them with attribution to OnCo.</p>
+          <p>Decks are generated at build time from the corpus, so they are as current, and as incomplete, as the page. Spotted an error? Fix it once through <Link className="underline" href="/suggest/">Suggest an edit</Link> and the deck updates with the page. Slides are CC BY-NC 4.0: reuse them with attribution to OnCo.</p>
         </section>
       </Container>
     </>

@@ -123,7 +123,7 @@ const summary = Object.entries(counts).filter(([, n]) => n > 0).map(([k, n]) => 
 
 const bodyHtml = `<header><p class="kicker">OnCo · weekly issue</p><h1>${esc(title)}</h1><p class="lede">${esc(summary)}. Generated from the corpus; every item links to its page and, through it, to the primary source. Not medical advice.</p></header>
 ${sections.map((s) => `<section id="${s.id}"><h2>${esc(s.title)}</h2><p class="muted">${esc(s.blurb)}</p><ul>${s.items.map((i) => `<li>${i}</li>`).join("")}</ul></section>`).join("\n")}
-<footer><p>Archive and subscription: <a href="${SITE}/newsletter/">${SITE}/newsletter/</a> · Feed: <a href="${SITE}/newsletter/feed.xml">Atom</a> · Something wrong? Fix it once at <a href="${SITE}/suggest/">${SITE}/suggest/</a>.</p><p class="muted">Code MIT. Data CC BY 4.0, attribute "OnCo (github.com/judegomila/OnCo)". No tracking: this email contains no pixels, no click redirects and no scripts.</p></footer>`;
+<footer><p>Archive and subscription: <a href="${SITE}/newsletter/">${SITE}/newsletter/</a> · Feed: <a href="${SITE}/newsletter/feed.xml">Atom</a> · Something wrong? Fix it once at <a href="${SITE}/suggest/">${SITE}/suggest/</a>.</p><p class="muted">Code MIT. Data CC BY-NC 4.0, attribute "OnCo (github.com/judegomila/OnCo)". No tracking: this email contains no pixels, no click redirects and no scripts.</p></footer>`;
 
 const html = `<!doctype html>
 <html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)}</title>

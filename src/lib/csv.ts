@@ -8,7 +8,7 @@ export type CsvCell = string | number | boolean | null | undefined;
 export type CsvRow = Record<string, CsvCell>;
 
 /** Attribution line written as the first line of every CSV (as a `#` comment) and into every JSON export. */
-export const EXPORT_LICENCE = "Data from OnCo (https://onco.cc), CC BY 4.0. Attribution is required: name OnCo and link to https://onco.cc wherever the data or derived text appears.";
+export const EXPORT_LICENCE = "Data from OnCo (https://onco.cc), CC BY-NC 4.0. Free for non-commercial and educational use with attribution: name OnCo and link to https://onco.cc wherever the data or derived text appears. Commercial use needs a licence from OnCo (https://onco.cc/about/#licence).";
 
 /** RFC 4180 quoting: wrap when the value holds a comma, quote, newline or leading/trailing space; double inner quotes. */
 export function csvEscape(v: CsvCell): string {
@@ -58,7 +58,7 @@ export function exportFilename(name: string, ext: "csv" | "json", date = new Dat
 
 /** JSON export envelope: the licence line travels with the rows. */
 export function toJsonExport(rows: unknown[], meta: { name: string; source?: string; date?: Date }): string {
-  return JSON.stringify({ name: meta.name, source: meta.source ?? "https://onco.cc", exported: (meta.date ?? new Date()).toISOString(), licence: "CC BY 4.0", attribution: EXPORT_LICENCE, count: rows.length, rows }, null, 0);
+  return JSON.stringify({ name: meta.name, source: meta.source ?? "https://onco.cc", exported: (meta.date ?? new Date()).toISOString(), licence: "CC BY-NC 4.0", attribution: EXPORT_LICENCE, count: rows.length, rows }, null, 0);
 }
 
 /** Trigger a browser download of text. No-op outside the browser. */

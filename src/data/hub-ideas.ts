@@ -74,7 +74,7 @@ export const hubIdeas: HubIdea[] = [
   { n: 44, title: "Print and PDF export of any page", why: "Patients bring printouts to appointments.", status: "shipped", theme: "Tools" },
 
   // Reach
-  { n: 45, title: "Open licensing (MIT code, CC BY data)", why: "Maximise reuse; require attribution so improvements flow back.", status: "shipped", theme: "Reach" },
+  { n: 45, title: "Open licensing (MIT code, CC BY-NC data)", why: "Free for non-commercial and educational reuse with attribution; commercial licences fund the work.", status: "shipped", theme: "Reach" },
   { n: 46, title: "Static, fast, cheap hosting", why: "Static export on Vercel; loads anywhere including low-bandwidth settings.", status: "shipped", theme: "Reach" },
   { n: 47, title: "Schema.org structured data for search engines", why: "MedicalCondition, Drug, MedicalStudy markup so the hub is machine-readable to Google and AI crawlers.", status: "shipped", theme: "Reach" },
   { n: 48, title: "Partnerships with existing collections", why: "Link out to and ingest from OncoKB, CIViC, ClinicalTrials.gov, ADCdb, NCI PDQ rather than duplicating them.", status: "building", theme: "Reach" },

@@ -98,7 +98,7 @@ export function SlideDeck({ title, slides, hero }: { title: string; slides: Slid
                 )}
               </div>
               <div className="mt-6 pt-3 border-t border-border/60 flex items-center justify-between text-[11px] text-muted">
-                <span className="truncate">{title} · OnCo, CC BY 4.0 · not medical advice</span>
+                <span className="truncate">{title} · OnCo, CC BY-NC 4.0 · not medical advice</span>
                 <span className="tabular-nums">{i + 1} / {n}</span>
               </div>
             </section>

@@ -2,7 +2,14 @@
 
 **Live:** https://onco.cc
 
-OnCo is a public, cited, editable knowledge graph of oncology: every cancer, front, technology, target, treatment, company, institution, person, pathway, trial, key paper, journal, pairing, roadmap, bottleneck and idea, one page each, with a plain-English TL;DR before the technical layer and links in every direction. It exists so that a patient, a clinician, a scientist, an investor or a policymaker can walk from any object to everything connected to it and see the state of the art, the history and what is coming.
+OnCo is a public, cited knowledge graph of oncology, aiming at total information dominance on cancer: every cancer, front, technology, target, treatment and test, company, institution, person, pathway, trial, key paper, journal, pairing, roadmap, bottleneck and idea, one page each, with a plain-English TL;DR before the technical layer and links in every direction. Readers start in a Global view and pick their country, so "approved" means their regulator's verdict. It exists so that a patient, a carer, a clinician, a scientist, an investor or a policymaker can walk from any object to everything connected to it and see the state of the art, the history, what is being done about each problem, and what is coming.
+
+The website is one surface. The same corpus ships as:
+
+- **the site** (https://onco.cc): tables with filters, tooltips on every technical term, molecule and target renderings, animated schematics, a graph explorer, Ask OnCo question answering, a living-with-cancer area (side effects, symptoms, second opinions, hair loss, complementary approaches graded by evidence), coverage of what insurers and the NHS pay for, and a completeness dashboard that states how much of the known world each kind covers;
+- **a static JSON API** under https://onco.cc/api/v1/ with CORS, per-entity Markdown context files for language models, Atom feeds and RDF triples;
+- **an MCP server and a command-line tool** (`packages/`), so agents and scripts can search, fetch, compare and ask over the corpus;
+- **eight interface languages** with translated TL;DRs where a translation exists.
 
 > **Work in progress. Verify at source.** Every fact is being built and checked in the open and may be incomplete, out of date or wrong. Nothing here is medical advice. Do your own research and check anything that matters at its primary source, which every page links.
 
@@ -15,8 +22,9 @@ Current counts live at https://onco.cc/about/ and print from `npm run validate`.
 | **Start here** | Explore (ranked, filterable view of everything for a cancer), For me (pick your cancer type), Navigator, Tumour board, Compare, Landscape grid, Timeline, Query builder, Graph explorer, Body map |
 | **Cancers & treatments** | One page per cancer type, front, technology, target, treatment or test, trial, pairing, pathway, roadmap, key paper and glossary term; the Mechanics of cancer atlas; the Resistance atlas |
 | **News & evidence** | Evidence ranking, readout calendar, congress digests, research pulse, what the world is publishing, approvals by region, failures, payloads and linkers, toxicity, isotopes, key papers, journals, annual report, changelog, audit and corrections |
-| **Institutions & people** | Institutions, universities, trial leadership, companies, countries, cases by country, funding, people, heroes and heroines |
-| **Learn & contribute** | Reading paths, About and methodology, Roadmap (what we are building), Gaps, Bottlenecks of the war on cancer, Ideas, Suggest an edit, Evaluation, Open API |
+| **Who's who** | Institutions, universities, trial leadership, companies, countries and country deep dives, cases by country, funding, people with portraits, heroes and heroines |
+| **Living with cancer** | Preparing for appointments, side effects and symptoms, report reader, second opinions, diet and lifestyle, hair loss, complementary and supportive approaches with evidence grades, survivorship |
+| **Learn & contribute** | Reading paths, About and methodology, Roadmap (what we are building), Completeness (how much of the known world we cover), Gaps, Bottlenecks of the war on cancer, Ideas, Suggest an edit, Evaluation, Open API, MCP and CLI |
 
 Every treatment with a small-molecule structure shows the exact molecule as a slowly rotating wireframe; antibodies, cells, vaccines, devices and tests show an explained placeholder. Fronts, technologies, cancers, targets and glossary categories carry hand-drawn animated schematics. Readers pick their country in the header, and "approved" then means their regulator's verdict, with other regions shown as flags.
 
@@ -35,7 +43,8 @@ src/lib/nav.ts       Navigation groups and every top-level route
 src/app/             Next.js App Router pages; src/app/[kind]/ renders every index, src/components/EntityDetail.tsx every object page
 src/components/      UI: EntityBrowser (the shared filterable table), Wireframe3D and schematics, Tip (tooltips), icons, maps
 scripts/             Fetchers and checks: structures (PubChem/RCSB), logos, OpenAlex, GLOBOCAN, trials, papers, factcheck, audit, provenance, API build
-public/              Self-hosted structures, logos, snapshots, the static JSON API under /api/v1/
+public/              Self-hosted structures, logos, portraits, snapshots, the static JSON API under /api/v1/
+packages/            onco (CLI) and onco-mcp (Model Context Protocol server) over the API
 docs/                GAPS.md (what is still missing) and design notes
 ```
 
@@ -69,7 +78,7 @@ GitHub Actions run the checks on every push and open weekly pull requests with r
 - **Plain English first.** Every object opens with a TL;DR a newcomer understands; the technical layer follows. Technical terms are glossary objects and get hover explanations wherever they appear.
 - **Cited, dated, honest about gaps.** Every record links a primary source, carries the date it was last checked, and says "no data" rather than guessing.
 - **Nothing stale by design.** Counts and dates are computed at build time from the corpus, never written into copy.
-- **Open.** Code is MIT; data is CC BY 4.0 (see `LICENSE-DATA`); logos remain their owners' trademarks.
+- **Open for good.** Code is MIT. Data is copyright OnCo, free for non-commercial, educational and research use under CC BY-NC 4.0 with attribution; commercial use needs a paid licence (see `LICENSE-DATA`). Logos remain their owners' trademarks.
 
 ## Contributing and safety
 

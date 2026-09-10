@@ -108,7 +108,7 @@ export function Dossier({ target: t }: { target: Target }) {
     openQuestions: d.questions.map((q) => ({ id: q.id, question: q.question, stage: q.stage, actor: q.actor, source: q.source })),
     assays: d.assays.map((a) => ({ id: a.id, name: a.name, cutoff: a.cutoff })),
     resistance: d.mechanisms.map((m) => ({ class: m.classId, mechanism: m.m.name, category: m.m.category })),
-    licence: "CC BY 4.0, attribution to OnCo (https://onco.cc)",
+    licence: "CC BY-NC 4.0, attribution to OnCo (https://onco.cc); commercial use needs a licence",
   });
   const exportHref = `data:application/json;charset=utf-8,${encodeURIComponent(exportJson)}`;
 
@@ -319,7 +319,7 @@ export function Dossier({ target: t }: { target: Target }) {
       </Section>
 
       <Section id="export" title="Export">
-        <p className="text-sm text-muted max-w-3xl">The dossier as machine-readable JSON: identifiers from HGNC, Ensembl, UniProt and ChEMBL, products with status, trials, pathways, hotspots, open questions and assays. The full entity record is in the <Link className="underline" href="/api/">open API</Link> at <code className="text-xs">/api/v1/entities/{t.id}.json</code>. Licence CC BY 4.0.</p>
+        <p className="text-sm text-muted max-w-3xl">The dossier as machine-readable JSON: identifiers from HGNC, Ensembl, UniProt and ChEMBL, products with status, trials, pathways, hotspots, open questions and assays. The full entity record is in the <Link className="underline" href="/api/">open API</Link> at <code className="text-xs">/api/v1/entities/{t.id}.json</code>. Licence CC BY-NC 4.0.</p>
         <div className="mt-3 flex flex-wrap gap-2 text-sm">
           <a href={exportHref} download={`onco-dossier-${t.id}.json`} className="chip border bg-card border-border hover:bg-foreground/5">Download dossier JSON</a>
           <a href={`/api/v1/entities/${t.id}.json`} className="chip border bg-card border-border hover:bg-foreground/5">Entity JSON</a>

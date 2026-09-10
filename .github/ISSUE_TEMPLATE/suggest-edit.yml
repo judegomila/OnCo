@@ -64,5 +64,5 @@ body:
     attributes:
       label: Licence
       options:
-        - label: I agree that my contribution is published under CC BY 4.0 (data) and MIT (code).
+        - label: I agree that my contribution is published as part of the OnCo corpus under CC BY-NC 4.0 (data, commercial licensing handled by OnCo) and MIT (code).
           required: true

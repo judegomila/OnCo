@@ -80,7 +80,7 @@ ${e.summary ? `    <summary type="text">${esc(e.summary)}</summary>\n` : ""}${e.
   <id>${self}</id>
   <updated>${updated}</updated>
   <author><name>OnCo</name><uri>${SITE}/</uri></author>
-  <rights>Data CC BY 4.0, attribute "OnCo (onco.cc)"</rights>
+  <rights>Data CC BY-NC 4.0, attribute "Data from OnCo (onco.cc)"; commercial use needs a licence</rights>
   <generator uri="https://github.com/judegomila/OnCo">OnCo build-feeds</generator>
 ${f.entries.map(entry).join("\n")}
 </feed>

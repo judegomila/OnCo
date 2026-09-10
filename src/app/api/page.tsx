@@ -19,11 +19,11 @@ export default function ApiDocs() {
   const mono = "underline font-mono text-sm";
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="learn" />} title="Open API" lede="The whole corpus is published as static files under /api/v1/ with permissive CORS: JSON per entity and per kind, one-line-per-record NDJSON, CSV for spreadsheets, and a JSON Schema. No key, no rate limit beyond the CDN. Licence CC BY 4.0." />
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Open API" lede="The whole corpus is published as static files under /api/v1/ with permissive CORS: JSON per entity and per kind, one-line-per-record NDJSON, CSV for spreadsheets, and a JSON Schema. No key, no rate limit beyond the CDN. Licence CC BY-NC 4.0." />
       <Container className="pb-16 max-w-3xl">
         <div className="card p-4 mb-6 text-sm border-accent/30 bg-accent-soft/40">
           <div className="kicker mb-1">Attribution required</div>
-          <p>The data are free to use under <a className="underline" href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>. If you use the API or the files, name OnCo and link to <a className="underline" href="https://onco.cc">onco.cc</a> wherever the data or text derived from it appears, for example: <code className="text-xs">Data from OnCo (onco.cc), CC BY 4.0</code>. Logos remain their owners&apos; trademarks and molecule structures keep their PubChem and RCSB terms. The same notice is in <code className="text-xs">/api/v1/meta.json</code>, as the first line of every CSV and inside every JSON download from the site&apos;s tables.</p>
+          <p>The data are free for non-commercial, educational and research use under <a className="underline" href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC BY-NC 4.0</a>; commercial use needs a <Link className="underline" href="/about/#licence">paid licence</Link>. If you use the API or the files, name OnCo and link to <a className="underline" href="https://onco.cc">onco.cc</a> wherever the data or text derived from it appears, for example: <code className="text-xs">Data from OnCo (onco.cc), CC BY-NC 4.0</code>. Logos remain their owners&apos; trademarks and molecule structures keep their PubChem and RCSB terms. The same notice is in <code className="text-xs">/api/v1/meta.json</code>, as the first line of every CSV and inside every JSON download from the site&apos;s tables.</p>
         </div>
 
         <h2 className="text-xl font-semibold mt-2 mb-2">Files</h2>
@@ -57,7 +57,7 @@ export default function ApiDocs() {
 
         <h2 id="bulk" className="text-xl font-semibold mt-10 mb-2 scroll-mt-24">Bulk download and citation</h2>
         <p className="text-[15px] leading-relaxed">Each tagged version of OnCo is published as a <a className="underline" href="https://github.com/judegomila/OnCo/releases" rel="noopener">GitHub release</a> with the whole <code>/api/v1/</code> tree attached as a tarball, the CSVs as a zip, the NDJSON, and SHA-256 checksums, so a paper or a pipeline can pin an exact snapshot. The repository carries a <code>.zenodo.json</code> so that Zenodo can archive each release and mint a DOI once archiving is switched on for the repository; until then, cite the release tag and commit.</p>
-        <pre className="card p-4 text-xs overflow-auto mt-3"><code>{`OnCo contributors. OnCo: a public, cited map of oncology. Version <tag>, <date>. https://onco.cc (data CC BY 4.0). https://github.com/judegomila/OnCo/releases/tag/<tag>`}</code></pre>
+        <pre className="card p-4 text-xs overflow-auto mt-3"><code>{`OnCo contributors. OnCo: a public, cited map of oncology. Version <tag>, <date>. https://onco.cc (data CC BY-NC 4.0). https://github.com/judegomila/OnCo/releases/tag/<tag>`}</code></pre>
 
         <h2 className="text-xl font-semibold mt-10 mb-2">Schema</h2>
         <p className="text-[15px] leading-relaxed">Every entity shares base fields (<code>id, kind, name, aka, tldr, summary, status, asOf, wikipedia, links, tags</code>) and relationship arrays (<code>related, cancers, sections, technologies, targets, drugs, companies, institutions, pathways, terms, trials</code>) holding ids. Kind-specific fields are documented in <code>src/lib/schema.ts</code> in the repository, which is the source of truth and is enforced at build time; <a className="underline" href="/api/v1/schema.json">schema.json</a> is generated from it.</p>

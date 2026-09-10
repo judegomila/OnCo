@@ -74,5 +74,5 @@ body:
       options:
         - label: As of today, and to the best of my knowledge, the page is accurate and fairly framed once the findings above are addressed. I understand this is displayed publicly with my name and COI statement and is not an endorsement of any product.
           required: true
-        - label: I agree that my contribution is published under CC BY 4.0.
+        - label: I agree that my contribution is published as part of the OnCo corpus under CC BY-NC 4.0, with commercial licensing handled by OnCo.
           required: true

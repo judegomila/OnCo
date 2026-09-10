@@ -76,7 +76,7 @@ for (const e of g.entities) {
   if (e.kind === "person" && e.institutionId) add(`${SCHEMA}affiliation`, iri(page(g.must(e.institutionId))));
 }
 lines.push(`${iri(`${SITE}/api/v1/onco.nt`)} ${iri(RDF_TYPE)} ${iri(`${SCHEMA}Dataset`)} .`);
-lines.push(`${iri(`${SITE}/api/v1/onco.nt`)} ${iri(`${SCHEMA}license`)} ${iri("https://creativecommons.org/licenses/by/4.0/")} .`);
+lines.push(`${iri(`${SITE}/api/v1/onco.nt`)} ${iri(`${SCHEMA}license`)} ${iri("https://creativecommons.org/licenses/by-nc/4.0/")} .`);
 lines.push(`${iri(`${SITE}/api/v1/onco.nt`)} ${iri(`${SCHEMA}name`)} ${lit("OnCo knowledge graph", "en")} .`);
 
 const out = join(process.cwd(), "public", "api", "v1");

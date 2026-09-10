@@ -102,9 +102,9 @@ export default function DataSourcesPage() {
             <ul className="list-disc pl-5 space-y-1 text-muted">
               <li>We store counts, identifiers and short derived records, never wholesale copies of a database. Every page links back to the primary record.</li>
               <li>Sources are named on the page that uses them and in the snapshot file; molecule files keep PubChem and RCSB terms, logos remain trademarks and carry per-file Wikimedia Commons licences.</li>
-              <li>Sources with academic-only or commercial licences (COSMIC, OncoKB, DrugBank, KEGG, NCCN text) are linked, not ingested, unless their terms allow redistribution under CC BY 4.0.</li>
+              <li>Sources with academic-only or commercial licences (COSMIC, OncoKB, DrugBank, KEGG, NCCN text) are linked, not ingested, unless their terms allow redistribution under CC BY-NC 4.0.</li>
               <li>No patient-level data, no personal data beyond public professional profiles, and no scraping of patient forums or social media. Epidemiology is aggregate estimates only.</li>
-              <li>The corpus is CC BY 4.0: name OnCo and link to onco.cc; upstream licences stay attached to what came from upstream. Details in <code className="text-xs">docs/DATA-SOURCES.md</code>.</li>
+              <li>The corpus is CC BY-NC 4.0 (free for non-commercial use, commercial use licensed by OnCo): name OnCo and link to onco.cc; upstream licences stay attached to what came from upstream. Details in <code className="text-xs">docs/DATA-SOURCES.md</code>.</li>
             </ul>
           </div>
         </div>

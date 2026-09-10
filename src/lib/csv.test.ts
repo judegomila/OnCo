@@ -45,7 +45,7 @@ describe("csv", () => {
   it("json export carries the attribution", () => {
     const j = JSON.parse(toJsonExport([{ a: 1 }], { name: "t", date: new Date("2026-09-09T00:00:00Z") }));
     expect(j.count).toBe(1);
-    expect(j.licence).toBe("CC BY 4.0");
+    expect(j.licence).toBe("CC BY-NC 4.0");
     expect(j.attribution).toBe(EXPORT_LICENCE);
     expect(j.rows[0].a).toBe(1);
   });

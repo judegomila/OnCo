@@ -56,7 +56,7 @@ export default function SuggestPage() {
         </section>
         <section>
           <h2 className="text-xl font-semibold mb-2">Licence</h2>
-          <p>Contributions are published under CC BY 4.0 (data) and MIT (code). Submitting the form confirms you agree.</p>
+          <p>Contributions are published as part of the OnCo corpus under CC BY-NC 4.0 (data, free for non-commercial use, commercial use licensed by OnCo) and MIT (code). Submitting the form confirms you agree.</p>
         </section>
       </Container>
     </>

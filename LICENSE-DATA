@@ -1,12 +1,29 @@
-The contents of src/data/ (the OnCo corpus) are licensed under the
-Creative Commons Attribution 4.0 International License (CC BY 4.0).
-https://creativecommons.org/licenses/by/4.0/
+The contents of src/data/ (the OnCo corpus: the text, structure, curation and
+derived files that OnCo made) are copyright OnCo and its contributors.
 
-Attribution: "OnCo (github.com/judegomila/OnCo)".
+They are licensed for non-commercial use under the Creative Commons
+Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+https://creativecommons.org/licenses/by-nc/4.0/
 
-The corpus describes third-party products, organisations, trials, and publications.
-Trademarks belong to their owners. Linked external sources retain their own licences.
-Nothing in the corpus is medical advice.
+  Free: personal, educational, academic, charitable and other non-profit use,
+  with attribution.
+  Paid: commercial use (for example inside a paid product, a commercial
+  service, advertising-funded redistribution or a company's internal
+  data pipeline) needs a commercial licence. Ask through
+  https://github.com/judegomila/OnCo/issues (label "licensing") or the
+  contact on https://onco.cc/about/.
+
+Attribution: "Data from OnCo (onco.cc)" with a link to https://onco.cc.
+
+Contributions accepted into the corpus are licensed to OnCo on the same terms
+so that the whole corpus can be offered under one licence.
+
+The corpus describes third-party products, organisations, trials and publications.
+Facts are not copyrightable; the licence covers OnCo's selection, arrangement,
+wording and derived files. Trademarks belong to their owners. Linked external
+sources and anything ingested from upstream keep their own licences, recorded in
+docs/DATA-SOURCES.md and per file where relevant. Nothing in the corpus is medical
+advice.
 
 Logos under public/logos/ are trademarks of their respective owners and are shown for
 identification only (nominative use). Files sourced from Wikimedia Commons carry their own

@@ -140,7 +140,7 @@ const { built, counts } = await fetch("${SITE}/api/v1/meta.json").then((r) => r.
 
         <Section title="Licence and attribution">
           <div className="text-[15px] leading-relaxed space-y-2">
-            <p>The data are <a className="underline" href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a> and the code is MIT. Name OnCo and link to <a className="underline" href={SITE}>onco.cc</a> wherever the data or text derived from it appears, for example <code className="text-xs">Data from OnCo (onco.cc), CC BY 4.0</code>. The same notice is in <code className="text-xs">/api/v1/meta.json</code> so it can travel with the data.</p>
+            <p>The data are <a className="underline" href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC BY-NC 4.0</a> (free for non-commercial use; commercial use needs a licence from OnCo) and the code is MIT. Name OnCo and link to <a className="underline" href={SITE}>onco.cc</a> wherever the data or text derived from it appears, for example <code className="text-xs">Data from OnCo (onco.cc), CC BY 4.0</code>. The same notice is in <code className="text-xs">/api/v1/meta.json</code> so it can travel with the data.</p>
             <p>Logos remain their owners&rsquo; trademarks; molecule structures keep their PubChem and RCSB terms; GLOBOCAN data keep IARC&rsquo;s terms; ClinicalTrials.gov data are public domain. Nothing here is medical advice, and every record carries an <em>as of</em> date: show it.</p>
             <p>Found an error while building? <Link className="underline" href="/suggest/">Suggest an edit</Link> or open a pull request; corrections are logged at <Link className="underline" href="/corrections/">/corrections/</Link>.</p>
           </div>

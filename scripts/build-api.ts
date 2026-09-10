@@ -64,8 +64,8 @@ const feeds = buildFeeds();
 
 write("meta.json", {
   built: new Date().toISOString(), schema: 1, version: process.env.npm_package_version ?? null,
-  attribution: EXPORT_LICENCE, licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
-  counts: Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])), total: g.entities.length, license: "CC BY 4.0", source: "https://github.com/judegomila/OnCo",
+  attribution: EXPORT_LICENCE, licenseUrl: "https://creativecommons.org/licenses/by-nc/4.0/",
+  counts: Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])), total: g.entities.length, license: "CC BY-NC 4.0", source: "https://github.com/judegomila/OnCo",
   files: [
     { path: "/api/v1/all.json", contents: "All entities plus an incoming map of backlinks per id" },
     { path: "/api/v1/all.ndjson", contents: "All entities, one JSON object per line" },

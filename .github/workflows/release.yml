@@ -49,7 +49,7 @@ jobs:
             echo "OnCo corpus $TAG: $TOTAL entities ($COUNTS)."
             echo
             echo "Files: full JSON tree (tar.gz), CSV per kind plus schema (zip), all.json, all.ndjson, schema.json, SHA256SUMS."
-            echo "Data CC BY 4.0, attribute \"OnCo (onco.cc)\". Code MIT. Facts may be incomplete or out of date; verify at the primary source."
+            echo "Data CC BY-NC 4.0, attribute \"Data from OnCo (onco.cc)\"; commercial use needs a licence. Code MIT. Facts may be incomplete or out of date; verify at the primary source."
             echo
             echo "Changelog: https://github.com/${GITHUB_REPOSITORY}/blob/main/CHANGELOG.md"
           } > dist-notes.md

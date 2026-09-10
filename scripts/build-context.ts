@@ -50,7 +50,7 @@ function fields(e: Entity): string[] {
 }
 
 function contextMd(e: Entity): string {
-  const parts: string[] = [`# ${e.name}`, "", `Source: ${url(e)}  `, `OnCo record \`${e.id}\` (${KIND_META[e.kind].label}). Data CC BY 4.0, attribute "OnCo (onco.cc)".`, "", "## TL;DR", "", e.tldr, "", "## Summary", "", ...paragraphs(e.summary).flatMap((p) => [p, ""])];
+  const parts: string[] = [`# ${e.name}`, "", `Source: ${url(e)}  `, `OnCo record \`${e.id}\` (${KIND_META[e.kind].label}). Data CC BY-NC 4.0, attribute "Data from OnCo (onco.cc)"; commercial use needs a licence.`, "", "## TL;DR", "", e.tldr, "", "## Summary", "", ...paragraphs(e.summary).flatMap((p) => [p, ""])];
   const f = fields(e);
   if (f.length) parts.push("## Fields", "", ...f, "");
   if (e.kind === "cancer") {
@@ -89,7 +89,7 @@ writeFileSync(join(dir, "index.md"), index.join("\n"));
 const llms: string[] = [
   "# OnCo",
   "",
-  "> A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY 4.0; attribute \"OnCo (onco.cc)\".",
+  "> A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY-NC 4.0; attribute \"OnCo (onco.cc)\".",
   "",
   `${g.entities.length.toLocaleString("en-GB")} records in ${KINDS.filter((k) => g.kind(k).length).length} kinds: ${KINDS.filter((k) => g.kind(k).length).map((k) => `${g.kind(k).length.toLocaleString("en-GB")} ${KIND_META[k].plural}`).join(", ")}. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.`,
   "",

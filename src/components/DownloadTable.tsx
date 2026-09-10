@@ -4,7 +4,7 @@ import { download, exportFilename, toCsv, toJsonExport, type CsvRow } from "@/li
 
 /**
  * CSV and JSON download of whatever a table is currently showing (the filtered rows, not the whole corpus).
- * Rows are plain records; the caller flattens links and chips to text first. The CSV opens with the CC BY 4.0
+ * Rows are plain records; the caller flattens links and chips to text first. The CSV opens with the CC BY-NC 4.0
  * attribution as a `#` comment line and the JSON carries it as a field, so exports stay attributable.
  */
 export function DownloadTable({ rows, name, columns, className = "" }: {
@@ -21,8 +21,8 @@ export function DownloadTable({ rows, name, columns, className = "" }: {
   return (
     <span className={`inline-flex items-center gap-1 no-print ${className}`} role="group" aria-label={`Download ${name}`}>
       <span className="text-xs text-muted hidden sm:inline">Download</span>
-      <button type="button" onClick={csv} className={btn} title={`Download the ${name} shown as CSV (filtered rows, CC BY 4.0)`}>CSV</button>
-      <button type="button" onClick={json} className={btn} title={`Download the ${name} shown as JSON (filtered rows, CC BY 4.0)`}>JSON</button>
+      <button type="button" onClick={csv} className={btn} title={`Download the ${name} shown as CSV (filtered rows, CC BY-NC 4.0)`}>CSV</button>
+      <button type="button" onClick={json} className={btn} title={`Download the ${name} shown as JSON (filtered rows, CC BY-NC 4.0)`}>JSON</button>
     </span>
   );
 }

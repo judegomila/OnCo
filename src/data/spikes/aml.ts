@@ -156,7 +156,7 @@ const terms: TermInput[] = [
 
 // ======================= PRODUCTS =======================
 const drugs: DrugInput[] = [
-  d({ id: "azacitidine", name: "Azacitidine", brand: "Vidaza / Onureg (oral)", modality: "Small-molecule hypomethylating agent (cytotoxic)", status: "approved", wikipedia: W("Azacitidine"),
+  d({ id: "azacitidine", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Azacitidine" }], name: "Azacitidine", brand: "Vidaza / Onureg (oral)", modality: "Small-molecule hypomethylating agent (cytotoxic)", status: "approved", wikipedia: W("Azacitidine"),
     tldr: "A gentle chemotherapy that switches silenced genes back on. With venetoclax it became the standard for older people with AML who cannot take intensive treatment.",
     summary: "Approved for MDS (2004) and, in combination with venetoclax, for newly diagnosed AML in patients unfit for intensive chemotherapy (VIALE-A, 2020). Oral azacitidine (Onureg, CC-486) is approved as maintenance after intensive induction (QUAZAR AML-001: OS 24.7 vs 14.8 months). Backbone partner for IDH inhibitors (AGILE), menin inhibitors, and FLT3 inhibitors in trials.",
     mechanism: "Cytidine analogue incorporated into RNA and DNA; traps and depletes DNA methyltransferases, reactivating silenced tumour-suppressor genes and inducing differentiation and apoptosis.",

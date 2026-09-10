@@ -133,7 +133,7 @@ const trials: TrialInput[] = [
 
 // ======================= DRUGS =======================
 const drugs: DrugInput[] = [
-  d({ id: "alectinib", name: "Alectinib", brand: "Alecensa", modality: "Small-molecule kinase inhibitor (ALK)", status: "approved", wikipedia: W("Alectinib"),
+  d({ id: "alectinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Alectinib" }], name: "Alectinib", brand: "Alecensa", modality: "Small-molecule kinase inhibitor (ALK)", status: "approved", wikipedia: W("Alectinib"),
     tldr: "Alectinib is a well-tolerated ALK pill, standard first line for years and, since 2024, the first targeted therapy given after surgery for ALK-positive lung cancer.",
     summary: "ALEX (2017): PFS 34.8 vs 10.9 months versus crizotinib with strong CNS control. ALINA (2024): adjuvant alectinib cut recurrence by 76% versus chemotherapy. Being challenged first line by lorlatinib (CROWN) and, in the ALKAZAR trial, by neladalkib.",
     mechanism: "ATP-competitive second-generation ALK inhibitor, CNS-penetrant, spares ROS1.",
@@ -151,7 +151,7 @@ const drugs: DrugInput[] = [
     mechanism: "Compact macrocyclic ROS1/TRK inhibitor active against solvent-front mutations.",
     approvals: [{ region: "US", year: 2023, indication: "ROS1+ locally advanced or metastatic NSCLC" }, { region: "US", year: 2024, indication: "NTRK-fusion solid tumours (tumour-agnostic)" }],
     targets: ["ros1", "ntrk"], technologies: ["kinase-inhibitors"], companies: ["bms"], cancers: ["nsclc"], drugs: ["zidesamtinib"] }),
-  d({ id: "capmatinib-tepotinib", name: "Capmatinib & tepotinib", brand: "Tabrecta / Tepmetko", modality: "Small-molecule kinase inhibitors (MET)", status: "approved", wikipedia: W("Capmatinib"),
+  d({ id: "capmatinib-tepotinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Capmatinib%20%26%20tepotinib" }], name: "Capmatinib & tepotinib", brand: "Tabrecta / Tepmetko", modality: "Small-molecule kinase inhibitors (MET)", status: "approved", wikipedia: W("Capmatinib"),
     tldr: "Capmatinib and tepotinib are two pills for the roughly 3% of lung cancers with a MET exon 14 skipping mutation.",
     summary: "Capmatinib (GEOMETRY mono-1: ORR 68% treatment-naive) approved 2020, full approval 2022; tepotinib (VISION: ORR ~57%) approved 2021, full approval 2024. Peripheral oedema is the class toxicity. MET amplification as an EGFR-TKI escape route is instead addressed by amivantamab and MET ADCs.",
     mechanism: "Highly selective type Ib MET inhibitors.",

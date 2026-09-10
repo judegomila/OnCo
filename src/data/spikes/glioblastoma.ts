@@ -24,7 +24,7 @@ const entities: EntityInput[] = [
     technologies: ["cytotoxic-chemotherapy"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"],
   },
   {
-    id: "bevacizumab-glioma", kind: "drug", name: "Bevacizumab (glioblastoma use)", brand: "Avastin", modality: "Monoclonal antibody (anti-VEGF)", asOf, status: "approved", wikipedia: W("Bevacizumab"),
+    id: "bevacizumab-glioma", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Bevacizumab" }], name: "Bevacizumab (glioblastoma use)", brand: "Avastin", modality: "Monoclonal antibody (anti-VEGF)", asOf, status: "approved", wikipedia: W("Bevacizumab"),
     tldr: "A blood-vessel-blocking antibody that shrinks glioblastoma on scans and reduces swelling, but has never been shown to help patients live longer.",
     summary: "Accelerated approval for recurrent glioblastoma (2009, full 2017) on radiographic response. AVAglio and RTOG 0825 (2014): PFS gain in newly diagnosed disease without OS benefit; EORTC 26101 at recurrence: PFS but no OS benefit with lomustine. Valuable for steroid-sparing control of oedema and radiation necrosis. A case study in pseudo-response and the limits of imaging endpoints in glioma.",
     mechanism: "Neutralises VEGF-A; normalises vasculature and reduces contrast enhancement and oedema.",

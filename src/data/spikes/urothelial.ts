@@ -162,7 +162,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Hyperphosphataemia", anyGradePct: 79 }, { event: "Stomatitis", anyGradePct: 58 }, { event: "Diarrhoea", anyGradePct: 55 }, { event: "Central serous retinopathy", anyGradePct: 17 }, { event: "Onycholysis", anyGradePct: 23 }],
     approvals: [{ region: "US", year: 2019, indication: "FGFR3/2-altered advanced urothelial cancer after platinum (accelerated)" }, { region: "US", year: 2024, indication: "FGFR3-altered advanced urothelial cancer after ≥1 systemic therapy incl. PD-1/PD-L1 (full)" }],
     targets: ["fgfr2"], technologies: ["kinase-inhibitors"], companies: ["johnson-johnson"], cancers: ["urothelial"], trials: ["thor"], terms: ["fgfr3"] }),
-  d({ id: "avelumab", name: "Avelumab", brand: "Bavencio", modality: "Monoclonal antibody (anti-PD-L1)", status: "approved", wikipedia: W("Avelumab"),
+  d({ id: "avelumab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Avelumab" }], name: "Avelumab", brand: "Bavencio", modality: "Monoclonal antibody (anti-PD-L1)", status: "approved", wikipedia: W("Avelumab"),
     tldr: "Avelumab is a PD-L1 blocker given as maintenance after chemotherapy for advanced bladder cancer, which lengthened survival by about seven months.",
     summary: "JAVELIN Bladder 100 (OS 21.4 vs 14.3 months) made avelumab maintenance the standard after platinum in 2020. Also approved in Merkel cell carcinoma and (with axitinib) RCC. Largely displaced in first-line urothelial cancer by EV + pembrolizumab. Merck KGaA / Pfizer.",
     mechanism: "Fully human IgG1 anti-PD-L1 with intact Fc (ADCC-capable).",

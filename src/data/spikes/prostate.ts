@@ -111,7 +111,7 @@ const terms: TermInput[] = [
 
 // ======================= DRUGS =======================
 const drugs: DrugInput[] = [
-  d({ id: "abiraterone", name: "Abiraterone acetate", brand: "Zytiga (generic)", modality: "Small-molecule CYP17A1 inhibitor", status: "approved", wikipedia: W("Abiraterone_acetate"),
+  d({ id: "abiraterone", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Abiraterone%20acetate" }], name: "Abiraterone acetate", brand: "Zytiga (generic)", modality: "Small-molecule CYP17A1 inhibitor", status: "approved", wikipedia: W("Abiraterone_acetate"),
     tldr: "Abiraterone is a pill that shuts down testosterone production everywhere, including inside the tumour. Discovered at the Institute of Cancer Research, now generic and used from the first metastatic diagnosis.",
     summary: "COU-AA-301/302 (mCRPC post- and pre-docetaxel), LATITUDE and STAMPEDE (mHSPC, OS benefit), PEACE-1 (triplet with docetaxel). Given with prednisone. Generic since 2018-19; backbone partner for PARP inhibitors (PROpel, MAGNITUDE), capivasertib (CAPItello-281), and Pluvicto (PSMAddition).",
     mechanism: "Irreversible CYP17A1 (17α-hydroxylase/17,20-lyase) inhibition blocks adrenal and intratumoural androgen synthesis.",
@@ -123,7 +123,7 @@ const drugs: DrugInput[] = [
     mechanism: "Second-generation AR antagonist blocking ligand binding, nuclear translocation, and DNA binding.",
     approvals: [{ region: "US", year: 2012, indication: "mCRPC after docetaxel (pre-chemo 2014)" }, { region: "US", year: 2018, indication: "Non-metastatic CRPC" }, { region: "US", year: 2019, indication: "mHSPC (ARCHES)" }, { region: "US", year: 2023, indication: "High-risk biochemical recurrence (EMBARK)" }],
     targets: ["androgen-receptor"], technologies: ["androgen-deprivation"], companies: ["astellas", "pfizer"], cancers: ["prostate"], trials: ["arches", "embark", "talapro-2", "mevpro-1"], pathways: ["ar-signaling"] }),
-  d({ id: "apalutamide", name: "Apalutamide", brand: "Erleada", modality: "Small-molecule AR antagonist", status: "approved", wikipedia: W("Apalutamide"),
+  d({ id: "apalutamide", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Apalutamide" }], name: "Apalutamide", brand: "Erleada", modality: "Small-molecule AR antagonist", status: "approved", wikipedia: W("Apalutamide"),
     tldr: "An AR blocker approved for prostate cancer that has spread and for high-risk disease before it shows on scans.",
     summary: "SPARTAN (nmCRPC, OS benefit) and TITAN (mHSPC, OS HR 0.65). Rash and hypothyroidism are distinctive.",
     mechanism: "Second-generation AR antagonist with lower CNS penetration than enzalutamide.",
@@ -147,7 +147,7 @@ const drugs: DrugInput[] = [
     mechanism: "Microtubule stabilisation; also disrupts AR nuclear trafficking.",
     approvals: [{ region: "US", year: 2004, indication: "Metastatic CRPC (with prednisone)" }],
     technologies: ["cytotoxic-chemotherapy"], companies: ["sanofi"], cancers: ["prostate", "nsclc", "breast-hr-positive", "gastric", "head-and-neck"], trials: ["chaarted", "stampede", "peace-1", "arasens"] }),
-  d({ id: "cabazitaxel", name: "Cabazitaxel", brand: "Jevtana", modality: "Cytotoxic chemotherapy (taxane)", status: "approved", wikipedia: W("Cabazitaxel"),
+  d({ id: "cabazitaxel", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Cabazitaxel" }], name: "Cabazitaxel", brand: "Jevtana", modality: "Cytotoxic chemotherapy (taxane)", status: "approved", wikipedia: W("Cabazitaxel"),
     tldr: "A second taxane that works after docetaxel and beat a second hormone pill head-to-head (CARD).",
     summary: "TROPIC (2010) post-docetaxel OS benefit; CARD (2019) superior to abiraterone/enzalutamide switch after prior ARPI and docetaxel; comparator in TheraP (lost to 177Lu-PSMA-617 on PSA50) and XALute.",
     mechanism: "Taxane with low P-glycoprotein affinity, active in docetaxel-resistant disease.",

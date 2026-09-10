@@ -184,7 +184,7 @@ const drugs: DrugInput[] = [
     regulatoryEvents: [{ date: "2011-08-17", type: "approval", region: "US", note: "Approved with the cobas BRAF V600 companion test, the first melanoma targeted therapy" }, { date: "2015-11-10", type: "approval", region: "US", note: "Cobimetinib approved in combination (coBRIM)" }],
     targets: ["braf"], technologies: ["kinase-inhibitors"], companies: ["roche-genentech"], cancers: ["melanoma"], pathways: ["ras-mapk"], trials: ["columbus"],
     links: [{ label: "BRIM-3, NEJM 2011", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1103782" }] }),
-  d({ id: "binimetinib", name: "Binimetinib", brand: "Mektovi", modality: "Small-molecule kinase inhibitor (MEK1/2)", status: "approved", wikipedia: W("Binimetinib"),
+  d({ id: "binimetinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Binimetinib" }], name: "Binimetinib", brand: "Mektovi", modality: "Small-molecule kinase inhibitor (MEK1/2)", status: "approved", wikipedia: W("Binimetinib"),
     tldr: "Binimetinib is the MEK inhibitor partnered with encorafenib; blocking the next step in the same relay stops the tumour rerouting around the BRAF block.",
     summary: "Approved June 2018 with encorafenib for BRAF V600 melanoma (COLUMBUS) and 2023 for BRAF V600E NSCLC. Class effects: retinopathy (serous retinal detachment), CK elevation, left-ventricular dysfunction, rash, diarrhoea.",
     mechanism: "Allosteric, ATP-non-competitive MEK1/2 inhibitor.",

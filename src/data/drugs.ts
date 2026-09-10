@@ -91,7 +91,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["nectin4"], technologies: ["adc"], companies: ["astellas", "pfizer"], cancers: ["urothelial"], trials: ["ev-302"],
   },
   {
-    id: "brentuximab-vedotin", kind: "drug", name: "Brentuximab vedotin", brand: "Adcetris", modality: "ADC", asOf, status: "approved", wikipedia: W("Brentuximab_vedotin"),
+    id: "brentuximab-vedotin", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Brentuximab%20vedotin" }], name: "Brentuximab vedotin", brand: "Adcetris", modality: "ADC", asOf, status: "approved", wikipedia: W("Brentuximab_vedotin"),
     payload: "MMAE, DAR ~4", linker: "mc-vc-PABC, cleavable",
     tldr: "The ADC that made the modern field credible (2011), for Hodgkin lymphoma and CD30+ lymphomas.",
     summary: "Approved 2011 for relapsed Hodgkin and anaplastic large-cell lymphoma; first-line with AVD (ECHELON-1, OS benefit) and in paediatric Hodgkin. The vc-MMAE linker-payload it introduced was reused in enfortumab, polatuzumab, tisotumab, and disitamab vedotin.",
@@ -145,7 +145,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cd33"], technologies: ["adc"], companies: ["pfizer"], cancers: ["aml"],
   },
   {
-    id: "belantamab-mafodotin", kind: "drug", name: "Belantamab mafodotin", brand: "Blenrep", modality: "ADC", asOf, status: "approved", wikipedia: W("Belantamab_mafodotin"),
+    id: "belantamab-mafodotin", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Belantamab%20mafodotin" }], name: "Belantamab mafodotin", brand: "Blenrep", modality: "ADC", asOf, status: "approved", wikipedia: W("Belantamab_mafodotin"),
     payload: "MMAF (tubulin inhibitor, non-permeable)", linker: "mc, non-cleavable",
     tldr: "A myeloma ADC that was withdrawn in 2022 then came back in 2025 after strong trials in earlier lines.",
     summary: "DREAMM-7 (with bortezomib/dexamethasone) and DREAMM-8 (with pomalidomide/dexamethasone) showed PFS and OS benefits; re-approved in 2025 in the US and EU in second-line myeloma. Ocular toxicity (keratopathy) requires an ophthalmology-based REMS.",
@@ -277,7 +277,7 @@ const baseDrugs: DrugInput[] = [
     trials: ["checkmate-067"],
   },
   {
-    id: "atezolizumab", kind: "drug", name: "Atezolizumab", brand: "Tecentriq / Tecentriq Hybreza (SC)", modality: "Monoclonal antibody (anti-PD-L1)", asOf, status: "approved", wikipedia: W("Atezolizumab"),
+    id: "atezolizumab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Atezolizumab" }], name: "Atezolizumab", brand: "Tecentriq / Tecentriq Hybreza (SC)", modality: "Monoclonal antibody (anti-PD-L1)", asOf, status: "approved", wikipedia: W("Atezolizumab"),
     tldr: "A PD-L1 blocker used in lung, liver, and bladder cancer. In 2026 it became the first drug approved based on a blood test showing leftover cancer after bladder surgery.",
     summary: "Approvals in NSCLC (including adjuvant, IMpower010), SCLC (first-line with chemotherapy, IMpower133), HCC (with bevacizumab, IMbrave150), melanoma (with cobimetinib/vemurafenib), alveolar soft-part sarcoma, and Q2 2026 adjuvant ctDNA-positive muscle-invasive bladder cancer (IMvigor011), the first ctDNA-guided approval. Its TNBC indication (IMpassion130) was withdrawn in the US in 2021.",
     mechanism: "Fc-engineered humanised IgG1 anti-PD-L1.",
@@ -359,7 +359,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["gp100", "cd3"], technologies: ["t-cell-engager", "tcr-t"], companies: ["immunocore"], cancers: ["melanoma"],
   },
   {
-    id: "blinatumomab", kind: "drug", name: "Blinatumomab", brand: "Blincyto", modality: "Bispecific T-cell engager (CD19×CD3)", asOf, status: "approved", wikipedia: W("Blinatumomab"),
+    id: "blinatumomab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Blinatumomab" }], name: "Blinatumomab", brand: "Blincyto", modality: "Bispecific T-cell engager (CD19×CD3)", asOf, status: "approved", wikipedia: W("Blinatumomab"),
     tldr: "Blinatumomab was the first T-cell engager (2014), and is now given to children and adults with leukaemia even when in remission, because it improves survival.",
     summary: "Approved for relapsed and MRD-positive B-ALL; 2024 approval in consolidation for MRD-negative adults (E1910, OS benefit) and children (AALL1731). Continuous infusion because of a 2-hour half-life; subcutaneous formulation in development.",
     mechanism: "Tandem scFv BiTE.",
@@ -367,7 +367,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cd19", "cd3"], technologies: ["t-cell-engager"], companies: ["amgen"], cancers: ["all-leukemia"],
   },
   {
-    id: "amivantamab", kind: "drug", name: "Amivantamab", brand: "Rybrevant", modality: "Bispecific antibody (EGFR×MET)", asOf, status: "approved", wikipedia: W("Amivantamab"),
+    id: "amivantamab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Amivantamab" }], name: "Amivantamab", brand: "Rybrevant", modality: "Bispecific antibody (EGFR×MET)", asOf, status: "approved", wikipedia: W("Amivantamab"),
     tldr: "A two-armed antibody that blocks EGFR and its escape partner MET, now first-line for EGFR-mutant lung cancer with lazertinib.",
     summary: "Approved for EGFR exon 20 insertion NSCLC (2021, with chemotherapy 2024, PAPILLON), first-line common EGFR mutations with lazertinib (MARIPOSA, 2024; OS benefit shown 2025), and post-osimertinib with chemotherapy (MARIPOSA-2). Subcutaneous formulation (2025) reduces infusion reactions.",
     mechanism: "Low-fucose bispecific IgG1 blocking EGFR and MET with enhanced ADCC/trogocytosis.",
@@ -409,7 +409,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["bcma"], technologies: ["car-t"], companies: ["legend-biotech", "johnson-johnson"], cancers: ["multiple-myeloma"],
   },
   {
-    id: "axicabtagene-ciloleucel", kind: "drug", name: "Axicabtagene ciloleucel", brand: "Yescarta", code: "axi-cel", modality: "CAR-T (CD19)", asOf, status: "approved", wikipedia: W("Axicabtagene_ciloleucel"),
+    id: "axicabtagene-ciloleucel", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Axicabtagene%20ciloleucel" }], name: "Axicabtagene ciloleucel", brand: "Yescarta", code: "axi-cel", modality: "CAR-T (CD19)", asOf, status: "approved", wikipedia: W("Axicabtagene_ciloleucel"),
     tldr: "A CD19 CAR-T that cures about 40% of patients with large B-cell lymphoma who had failed everything, and beat transplant in second line.",
     summary: "Approved 2017 (ZUMA-1; 5-year OS ~43%), 2022 second-line for early relapse (ZUMA-7, OS benefit), and follicular lymphoma. Kite/Gilead. CD28 costimulation gives fast expansion and more neurotoxicity than 4-1BB products.",
     mechanism: "CD19 scFv, CD28 costimulation, retroviral.",
@@ -433,7 +433,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["til-therapy"], companies: ["iovance"], cancers: ["melanoma", "nsclc"],
   },
   {
-    id: "afamitresgene-autoleucel", kind: "drug", name: "Afamitresgene autoleucel", brand: "Tecelra", code: "afami-cel", modality: "TCR-T (MAGE-A4)", asOf, status: "approved", wikipedia: W("Afamitresgene_autoleucel"),
+    id: "afamitresgene-autoleucel", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Afamitresgene%20autoleucel" }], name: "Afamitresgene autoleucel", brand: "Tecelra", code: "afami-cel", modality: "TCR-T (MAGE-A4)", asOf, status: "approved", wikipedia: W("Afamitresgene_autoleucel"),
     tldr: "Afamitresgene autoleucel was the first engineered T-cell receptor therapy approved for a solid tumour, synovial sarcoma.",
     summary: "Accelerated approval August 2024 (SPEARHEAD-1: ORR ~39%, median DOR ~12 months) for MAGE-A4+ HLA-A*02+ synovial sarcoma; Q2 2026 label includes patients aged 12+. Adaptimmune divested US rights to US WorldMeds in 2025.",
     mechanism: "Affinity-enhanced TCR against MAGE-A4 230-239/HLA-A*02.",
@@ -514,7 +514,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["amgen"], cancers: ["nsclc", "colorectal"], trials: ["codebreak-300"],
   },
   {
-    id: "adagrasib", kind: "drug", name: "Adagrasib", brand: "Krazati", modality: "Small-molecule inhibitor (KRAS G12C)", asOf, status: "approved", wikipedia: W("Adagrasib"),
+    id: "adagrasib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Adagrasib" }], name: "Adagrasib", brand: "Krazati", modality: "Small-molecule inhibitor (KRAS G12C)", asOf, status: "approved", wikipedia: W("Adagrasib"),
     tldr: "Adagrasib was the second KRAS G12C inhibitor, with a long half-life and brain penetration, and is approved in lung and colorectal cancer.",
     summary: "KRYSTAL-1 and KRYSTAL-12 (NSCLC), KRYSTAL-1 with cetuximab in colorectal cancer (accelerated 2024). Mirati acquired by BMS (2024).",
     mechanism: "Covalent KRAS G12C inhibitor, 24-hour half-life.",
@@ -603,7 +603,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cdk4-6"], technologies: ["cdk46-inhibitor"], companies: ["novartis"], cancers: ["breast-hr-positive"], trials: ["natalee"],
   },
   {
-    id: "abemaciclib", kind: "drug", name: "Abemaciclib", brand: "Verzenio", modality: "Small-molecule CDK4/6 inhibitor", asOf, status: "approved", wikipedia: W("Abemaciclib"),
+    id: "abemaciclib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Abemaciclib" }], name: "Abemaciclib", brand: "Verzenio", modality: "Small-molecule CDK4/6 inhibitor", asOf, status: "approved", wikipedia: W("Abemaciclib"),
     tldr: "Abemaciclib was the first CDK4/6 inhibitor approved after surgery for high-risk hormone-positive breast cancer.",
     summary: "MONARCH 2/3 (OS benefit in MONARCH 2), monarchE (adjuvant, iDFS HR 0.68 at 5 years; approved 2021, label broadened 2023). Continuous dosing; diarrhoea is the main toxicity. Eli Lilly.",
     mechanism: "CDK4-biased inhibitor with continuous dosing.",
@@ -611,7 +611,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cdk4-6"], technologies: ["cdk46-inhibitor"], companies: ["eli-lilly"], cancers: ["breast-hr-positive"], trials: ["monarche"],
   },
   {
-    id: "capivasertib", kind: "drug", name: "Capivasertib", brand: "Truqap", modality: "Small-molecule AKT inhibitor", asOf, status: "approved", wikipedia: W("Capivasertib"),
+    id: "capivasertib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Capivasertib" }], name: "Capivasertib", brand: "Truqap", modality: "Small-molecule AKT inhibitor", asOf, status: "approved", wikipedia: W("Capivasertib"),
     tldr: "Capivasertib (Truqap) is the first AKT inhibitor, for breast cancer with PI3K-pathway mutations and, since 2026, for prostate cancer with PTEN loss.",
     summary: "CAPItello-291 (with fulvestrant in HR+/HER2- breast cancer with PIK3CA/AKT1/PTEN alterations, 2023). CAPItello-281 (with abiraterone in PTEN-deficient mHSPC) approved Q2 2026. AstraZeneca.",
     mechanism: "ATP-competitive pan-AKT inhibitor, intermittent 4-days-on/3-off dosing.",
@@ -651,7 +651,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["estrogen-receptor"], technologies: ["endocrine-therapy", "liquid-biopsy"], companies: ["menarini"], cancers: ["breast-hr-positive"],
   },
   {
-    id: "belzutifan", kind: "drug", name: "Belzutifan", brand: "Welireg", modality: "Small-molecule HIF-2α inhibitor", asOf, status: "approved", wikipedia: W("Belzutifan"),
+    id: "belzutifan", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Belzutifan" }], name: "Belzutifan", brand: "Welireg", modality: "Small-molecule HIF-2α inhibitor", asOf, status: "approved", wikipedia: W("Belzutifan"),
     tldr: "Belzutifan is the first HIF-2α inhibitor, born from Nobel-winning biology, and is now approved after kidney cancer surgery with pembrolizumab.",
     summary: "VHL disease (2021), advanced RCC after PD-1 and VEGF-TKI (LITESPARK-005, 2023), pheochromocytoma/paraganglioma (2025), and Q2 2026 adjuvant clear-cell RCC with pembrolizumab (LITESPARK-022). Merck.",
     mechanism: "Blocks HIF-2α/ARNT dimerisation.",

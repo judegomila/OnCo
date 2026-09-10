@@ -100,7 +100,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2020, indication: "Advanced GIST after ≥3 prior kinase inhibitors including imatinib" }],
     regulatoryEvents: [{ date: "2020-05-15", type: "approval", region: "US", note: "INVICTUS" }, { date: "2022-05", type: "label-change", region: "US", note: "Label updated with INTRIGUE data" }],
     targets: ["kit"], technologies: ["kinase-inhibitors"], companies: ["deciphera"], cancers: ["sarcoma"], trials: ["invictus", "insight-gist"] }),
-  d({ id: "avapritinib", name: "Avapritinib", brand: "Ayvakit", modality: "Small-molecule kinase inhibitor (PDGFRA D842V / KIT)", status: "approved", wikipedia: W("Avapritinib"),
+  d({ id: "avapritinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Avapritinib" }], name: "Avapritinib", brand: "Ayvakit", modality: "Small-molecule kinase inhibitor (PDGFRA D842V / KIT)", status: "approved", wikipedia: W("Avapritinib"),
     tldr: "Avapritinib is the first drug for GIST driven by the PDGFRA D842V mutation, which resists every other kinase inhibitor; it is also approved for systemic mastocytosis.",
     summary: "NAVIGATOR: ORR 91% in PDGFRA exon 18 (D842V) GIST; approved January 2020. VOYAGER (vs regorafenib in third-line GIST) was negative for PFS. Now mainly a mastocytosis drug (PATHFINDER, PIONEER). Blueprint Medicines, acquired by Sanofi 2025.",
     mechanism: "Type I inhibitor binding the active conformation of KIT/PDGFRA, potent against D842V and exon 17 mutations.",

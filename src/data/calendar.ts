@@ -90,7 +90,7 @@ export const calendar: CalendarEvent[] = [
   },
   {
     date: "2027", kind: "pdufa", confidence: "expected",
-    title: "US regulatory decision on sacituzumab tirumotecan (sac-TMT) — first indication",
+    title: "US regulatory decision on sacituzumab tirumotecan (sac-TMT): first indication",
     refs: ["sacituzumab-tirumotecan", "merck", "kelun-biotech"],
     note: "Merck holds a Commissioner's National Priority Voucher (July 2026) that promises a 1–2 month review once filed. No PDUFA date has been disclosed; indication (TNBC vs EGFR-mutant NSCLC) and filing timing are not public.",
     source: "https://www.pharmacytimes.com/view/fda-grants-national-priority-vouchers-to-enlicitide-decanoate-sacituzumab-tirumotecan",

@@ -47,7 +47,7 @@ const terms: TermInput[] = [
     tldr: "Whether a large B-cell lymphoma resembles a germinal-centre B cell or an activated B cell; the activated type does worse and depends on different pathways.",
     summary: "Determined by gene expression (Lymph2Cx) or the Hans IHC algorithm. ABC/non-GCB depends on NF-κB and BCR signalling (BTK, IRAK4, MYD88 L265P), GCB on BCL2/EZH2. Newer genetic classifications (LymphGen: MCD, BN2, N1, EZB, ST2, A53) refine this but are not yet clinically routine.",
     cancers: ["dlbcl"], targets: ["bcl2", "ezh2"] }),
-  term({ id: "double-hit-lymphoma", name: "Double-hit / high-grade B-cell lymphoma", category: "Biomarkers",
+  term({ id: "double-hit-lymphoma", wikipedia: "https://en.wikipedia.org/wiki/Double-hit_lymphoma", name: "Double-hit / high-grade B-cell lymphoma", category: "Biomarkers",
     tldr: "Double-hit lymphoma is a large B-cell lymphoma with rearrangements of two oncogenes (MYC plus BCL2 and/or BCL6), which behaves aggressively and often escapes R-CHOP.",
     summary: "WHO 2022: high-grade B-cell lymphoma with MYC and BCL2 rearrangements (HGBL-DH-BCL2); MYC/BCL6 double hit reclassified as DLBCL NOS. ~8% of DLBCL; often treated with DA-EPOCH-R; CAR-T outcomes are similar to other LBCL in ZUMA-7.",
     cancers: ["dlbcl"], targets: ["bcl2"] }),

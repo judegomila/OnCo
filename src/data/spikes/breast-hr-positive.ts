@@ -324,7 +324,7 @@ const terms: TermInput[] = [
     tldr: "An oral SERD is a pill that destroys the oestrogen receptor rather than just blocking it, replacing the monthly fulvestrant injection.",
     summary: "Selective oestrogen receptor degraders taken orally: elacestrant (2023), imlunestrant (2025), camizestrant (2026), giredestrant (filed), with palazestrant and others behind. Benefit as monotherapy is confined to ESR1-mutant disease; combination with CDK4/6 or everolimus extends benefit to wild-type tumours (EMBER-3, evERA). Upfront replacement of aromatase inhibitors in unselected first-line disease failed in persevERA. Adjuvant results (lidERA) are positive.",
     drugs: ["elacestrant", "imlunestrant", "camizestrant", "giredestrant", "fulvestrant"], targets: ["estrogen-receptor"], cancers: ["breast-hr-positive"] }),
-  term({ id: "endocrine-resistance", name: "Endocrine resistance", category: "Resistance",
+  term({ id: "endocrine-resistance", wikipedia: "https://en.wikipedia.org/wiki/Hormone_therapy_(oncology)", name: "Endocrine resistance", category: "Resistance",
     tldr: "When hormone therapy stops controlling a hormone-driven breast cancer, either quickly (primary) or after years (acquired).",
     summary: "Primary resistance: relapse within 2 years of adjuvant ET or progression within 6 months of first-line metastatic ET. Secondary: later relapse or progression. Mechanisms: ESR1 mutations, PI3K/AKT/mTOR activation, cyclin D1/CDK4 amplification, RB loss, FGFR1 amplification, HER2 activation, lineage plasticity. Determines eligibility for INAVO120-type regimens (relapse on/within 12 months of adjuvant ET).",
     targets: ["estrogen-receptor", "pik3ca", "cdk4-6"], cancers: ["breast-hr-positive"] }),

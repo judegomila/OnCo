@@ -113,7 +113,7 @@ const technologies: TechnologyInput[] = [
 ];
 
 const terms: TermInput[] = [
-  { id: "epithelioid-vs-sarcomatoid", kind: "term", name: "Epithelioid vs sarcomatoid (biphasic) mesothelioma", category: "Pathology", asOf,
+  { id: "epithelioid-vs-sarcomatoid", wikipedia: "https://en.wikipedia.org/wiki/Mesothelioma", kind: "term", name: "Epithelioid vs sarcomatoid (biphasic) mesothelioma", category: "Pathology", asOf,
     tldr: "Mesothelioma comes in a slower 'epithelioid' form and an aggressive 'sarcomatoid' form. Chemotherapy works better in the first; immunotherapy helps most in the second.",
     summary: "Epithelioid (~60-70%) has median survival 14-18 months with chemotherapy; sarcomatoid (~10-20%) and biphasic (~20%) respond poorly to chemotherapy (median OS 8-12 months) but derived the largest benefit from nivolumab-ipilimumab in CheckMate 743 (OS 18.1 vs 8.8 months) and from pembrolizumab-chemotherapy. Histology is therefore the first branch in first-line decisions. BAP1 loss is common in epithelioid tumours; CDKN2A/MTAP deletion in sarcomatoid.",
     cancers: ["mesothelioma"], trials: ["checkmate-743", "keynote-483", "beat-meso"] },

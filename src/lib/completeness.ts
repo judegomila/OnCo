@@ -187,7 +187,7 @@ function institutionNamesAgree(a: string, b: string): boolean {
 type Result = { ours: number; missing: MissingItem[]; listed: boolean };
 type Resolver = (g: Graph) => Result;
 
-/** KEGG cancer maps mapped by hand to the OnCo pathway pages that cover the same biology. Disease-specific maps (colorectal cancer, glioma, ...) have no OnCo pathway page and stay unmapped. */
+/** KEGG cancer maps mapped by hand to the OnCo pathway pages that cover the same biology. Disease-specific maps (colorectal cancer, glioma, ...) map to the KEGG-derived pages in src/data/pathways-kegg.ts. */
 export const KEGG_TO_ONCO: Record<string, string[]> = {
   hsa05200: ["rtk-activation", "ras-mapk", "pi3k-akt-mtor", "wnt", "p53-cell-cycle", "apoptosis-bcl2", "vegf-angiogenesis", "jak-stat", "notch", "hedgehog", "tgf-beta", "hif-vhl", "cell-cycle-engine-cdks"],
   hsa05202: ["transcription-addiction"],
@@ -196,6 +196,28 @@ export const KEGG_TO_ONCO: Record<string, string[]> = {
   hsa05203: ["oncogenic-viruses"],
   hsa05230: ["cancer-metabolism"],
   hsa05235: ["pd1-checkpoint"],
+  // Wave 2 (src/data/pathways-kegg.ts): one OnCo page per remaining KEGG cancer map.
+  hsa05206: ["micrornas-in-cancer"],
+  hsa05205: ["proteoglycans-in-cancer"],
+  hsa05207: ["chemical-carcinogenesis-receptor-activation"],
+  hsa05231: ["choline-metabolism-in-cancer"],
+  hsa05210: ["colorectal-cancer-signalling"],
+  hsa05212: ["pancreatic-cancer-signalling"],
+  hsa05225: ["hepatocellular-carcinoma-signalling"],
+  hsa05226: ["gastric-cancer-signalling"],
+  hsa05214: ["glioma-signalling"],
+  hsa05216: ["thyroid-cancer-signalling"],
+  hsa05221: ["aml-signalling"],
+  hsa05220: ["cml-signalling"],
+  hsa05217: ["basal-cell-carcinoma-signalling"],
+  hsa05218: ["melanoma-signalling"],
+  hsa05211: ["renal-cell-carcinoma-signalling"],
+  hsa05219: ["bladder-cancer-signalling"],
+  hsa05215: ["prostate-cancer-signalling"],
+  hsa05213: ["endometrial-cancer-signalling"],
+  hsa05224: ["breast-cancer-signalling"],
+  hsa05222: ["sclc-signalling"],
+  hsa05223: ["nsclc-signalling"],
 };
 
 function countOnly(count: (g: Graph) => number): Resolver {

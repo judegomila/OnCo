@@ -196,7 +196,7 @@ const terms: TermInput[] = [
     tldr: "The IMDC score uses six factors to sort metastatic kidney cancer into three risk groups. It decides whether dual immunotherapy or immunotherapy plus a targeted pill is offered first.",
     summary: "International Metastatic RCC Database Consortium (Heng) criteria: Karnofsky <80%, <1 year from diagnosis to treatment, anaemia, hypercalcaemia, neutrophilia, thrombocytosis. 0 factors favourable, 1-2 intermediate, ≥3 poor. Nivolumab-ipilimumab's OS benefit is confined to intermediate/poor risk; IO-TKI doublets benefit all groups on PFS, with less clear OS benefit in favourable risk.",
     cancers: ["rcc"], trials: ["checkmate-214", "keynote-426", "clear"] },
-  { id: "sarcomatoid-rcc", kind: "term", name: "Sarcomatoid differentiation (RCC)", category: "Pathology", asOf,
+  { id: "sarcomatoid-rcc", kind: "term", name: "Sarcomatoid differentiation (RCC)", category: "Pathology", asOf, wikipedia: W("Sarcomatoid_carcinoma"),
     tldr: "A spindle-cell change found in about 10% of kidney cancers that makes them aggressive and, unexpectedly, unusually responsive to immunotherapy.",
     summary: "Sarcomatoid RCC (any histology) has median survival under a year on TKIs alone, but in CheckMate 214 nivolumab-ipilimumab produced ORR ~60% and complete responses in ~20%, with OS HR ~0.45. High PD-L1 and immune infiltration explain the paradox. Guidelines favour IO-based regimens in sarcomatoid disease.",
     cancers: ["rcc"], trials: ["checkmate-214"], drugs: ["nivolumab", "ipilimumab"] },

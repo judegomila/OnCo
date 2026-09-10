@@ -95,7 +95,7 @@ const terms: TermInput[] = [
     tldr: "Prostate cancer that keeps growing even though testosterone has been reduced to castrate levels.",
     summary: "Defined by PSA or radiographic progression with testosterone <50 ng/dL. Mechanisms: AR amplification and mutations, AR-V7 splice variants, intratumoural androgen synthesis, glucocorticoid receptor bypass, lineage plasticity to neuroendocrine phenotype. Since 2026 the FDA label language 'androgen pathway modulation-naive or -sensitive' replaces 'hormone-sensitive'.",
     cancers: ["prostate"], pathways: ["ar-signaling"], terms: ["ar-v7"] }),
-  term({ id: "biochemical-recurrence", name: "Biochemical recurrence (BCR)", category: "Clinical",
+  term({ id: "biochemical-recurrence", name: "Biochemical recurrence (BCR)", category: "Clinical", wikipedia: W("Biochemical_recurrence"),
     tldr: "PSA rising again after surgery or radiation, usually years before anything shows on a scan.",
     summary: "PSA ≥0.2 ng/mL after prostatectomy or nadir +2 after radiation. PSMA PET detects disease at PSA <0.5 in most men, enabling salvage radiation or metastasis-directed therapy. EMBARK (2023) showed enzalutamide ± ADT delays metastasis in high-risk BCR (PSA doubling time ≤9 months).",
     cancers: ["prostate"], technologies: ["psma-pet"], trials: ["embark"] }),

@@ -340,7 +340,7 @@ export const cancers: CancerInput[] = [
     tags: ["gu"],
   }),
   c({
-    id: "rcc", name: "Renal cell carcinoma", group: "genitourinary", wikipedia: W("Renal_cell_carcinoma"),
+    id: "rcc", name: "Renal cell carcinoma", aka: ["RCC"], group: "genitourinary", wikipedia: W("Renal_cell_carcinoma"),
     burden: "~430,000 cases per year.",
     tldr: "Kidney cancer is where anti-angiogenic drugs and immunotherapy came together, and where a Nobel-winning oxygen-sensing pathway yielded a drug, belzutifan.",
     summary: "Surgery or ablation for localised disease; adjuvant pembrolizumab (KEYNOTE-564, OS benefit) and, from 2026, pembrolizumab + belzutifan. Metastatic first line: IO + VEGF-TKI (pembrolizumab-axitinib/lenvatinib, nivolumab-cabozantinib) or nivolumab-ipilimumab. Belzutifan after IO/TKI. CD70 and CAIX are CAR-T/radioligand targets; CDH6 ADC in trials.",

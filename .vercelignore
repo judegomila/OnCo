@@ -3,5 +3,5 @@ out
 node_modules
 public/api/v1
 .git
-coverage
+/coverage
 .claude

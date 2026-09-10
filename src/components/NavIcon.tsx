@@ -88,7 +88,9 @@ const Search: Icon = (p) => (
     <path d="M15.3 15.3 20.5 20.5" />
   </Svg>
 );
-const Live = () => <svg viewBox="0 0 24 24" aria-hidden focusable="false" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20s-6.5-4.2-6.5-9A3.5 3.5 0 0 1 12 8.6 3.5 3.5 0 0 1 18.5 11c0 4.8-6.5 9-6.5 9Z" /><path d="M4 16.5c1.5 1.2 3 1.8 4.5 1.8M20 16.5c-1.5 1.2-3 1.8-4.5 1.8" /></svg>;
+const Live: Icon = (p) => (
+  <Svg {...p}><path d="M12 20s-6.5-4.2-6.5-9A3.5 3.5 0 0 1 12 8.6 3.5 3.5 0 0 1 18.5 11c0 4.8-6.5 9-6.5 9Z" /><path d="M4 16.5c1.5 1.2 3 1.8 4.5 1.8M20 16.5c-1.5 1.2-3 1.8-4.5 1.8" /></Svg>
+);
 
 
 const ICONS: Record<string, Icon> = {

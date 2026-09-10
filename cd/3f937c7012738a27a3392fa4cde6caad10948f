@@ -1,0 +1,56 @@
+src/components/NavText.tsx
+  s_0beac9cb5d78fd::t_8419f2293a85df 1-27
+src/components/ui.tsx
+  s_0beac9cb5d78fd::t_6cdc6aeb6ed4c3 64
+  s_0beac9cb5d78fd::t_06b19f6ac9253e 10
+src/components/GroupLanding.tsx
+  s_0beac9cb5d78fd::t_4c6a104a9f49a0 6-7,11-12,18,26,29-30
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_49797d5f37d6db 145
+src/components/Neighbours.tsx
+  s_0beac9cb5d78fd::t_d3ce434c032293 29
+  s_0beac9cb5d78fd::t_8e344f01be36f3 4
+  s_0beac9cb5d78fd::t_2e4931620c85e4 54
+src/app/globals.css
+  s_0beac9cb5d78fd::t_03e27d9100d72d 388-389
+src/components/AskOnco.tsx
+  s_0beac9cb5d78fd::t_33a010710d57c3 13,15
+  s_0beac9cb5d78fd::t_51c1f71d12531f 142
+  s_0beac9cb5d78fd::t_5795b4e8a2d82c 40-41
+  s_0beac9cb5d78fd::t_1112585e693b3a 116,172
+src/app/page.tsx
+  s_0beac9cb5d78fd::t_29f04838faf609 160-162
+  s_0beac9cb5d78fd::t_15a98008e6c4b5 9
+src/components/CancerPicker.tsx
+  s_0beac9cb5d78fd::t_06df07f7a3a61c 6
+  s_0beac9cb5d78fd::t_c2b8b8677b8be0 122
+  s_0beac9cb5d78fd::t_1fe73140bc7541 110-111
+  s_0beac9cb5d78fd::t_4352d3e3447398 36-37
+src/components/CompareView.tsx
+  s_0beac9cb5d78fd::t_a5bd0a8637b6ba 69
+  s_0beac9cb5d78fd::t_375172eb6e0425 8
+  s_0beac9cb5d78fd::t_dd550684f97e4a 25
+  s_0beac9cb5d78fd::t_32759ee9b99025 87
+  s_0beac9cb5d78fd::t_09970712ca42f4 7
+src/components/CommandPalette.tsx
+  s_0beac9cb5d78fd::t_a362078881e109 10
+  s_0beac9cb5d78fd::t_4c5fe2b3141d46 192
+  s_0beac9cb5d78fd::t_efd79f9dbfe929 187
+  s_0beac9cb5d78fd::t_994391324e3fd1 84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "cd3f937c7012738a27a3392fa4cde6caad10948f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

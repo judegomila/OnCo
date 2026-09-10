@@ -9,13 +9,14 @@
  * Spread into nciCoverage (src/data/nci-coverage.ts).
  */
 import type { EntityInput, InstitutionInput, TermInput, TrialInput } from "@/lib/schema";
+import { TRIAL_OUTCOMES } from "./trial-outcomes";
 
 const asOf = "2026-09-10";
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 const doi = (label: string, d: string) => ({ label, url: `https://doi.org/${d}` });
 
 type T = Omit<TrialInput, "kind" | "asOf">;
-const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
+const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x, ...TRIAL_OUTCOMES[x.id] });
 type I = Omit<InstitutionInput, "kind" | "asOf">;
 const b = (x: I): InstitutionInput => ({ kind: "institution", asOf, ...x });
 type Tm = Omit<TermInput, "kind" | "asOf">;

@@ -13,6 +13,7 @@
  * Wire up with `import { tests } from "./tests";` and `...tests,` in ALL_INPUTS.
  */
 import type { CompanyInput, DrugInput, EntityInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
+import { TRIAL_OUTCOMES } from "./trial-outcomes";
 
 const asOf = "2026-09-10";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
@@ -25,7 +26,7 @@ const CT = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https:/
 const d = (x: Omit<DrugInput, "kind" | "asOf">): DrugInput => ({ kind: "drug", asOf, tags: ["test", ...(x.tags ?? [])], ...x, });
 const tech = (x: Omit<TechnologyInput, "kind" | "asOf">): TechnologyInput => ({ kind: "technology", asOf, ...x });
 const co = (x: Omit<CompanyInput, "kind" | "asOf">): CompanyInput => ({ kind: "company", asOf, ...x });
-const t = (x: Omit<TrialInput, "kind" | "asOf">): TrialInput => ({ kind: "trial", asOf, ...x });
+const t = (x: Omit<TrialInput, "kind" | "asOf">): TrialInput => ({ kind: "trial", asOf, ...x, ...TRIAL_OUTCOMES[x.id] });
 const term = (x: Omit<TermInput, "kind" | "asOf">): TermInput => ({ kind: "term", asOf, ...x });
 
 // =====================================================================================

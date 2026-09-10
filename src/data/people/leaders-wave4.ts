@@ -684,7 +684,7 @@ export const peopleLeadersWave4: PersonInput[] = [
   // =================== Henan Cancer Hospital ===================
   p({ id: "zhang-jiangong", name: "Zhang Jiangong", role: "President (院长), Henan Cancer Hospital", institutionId: "henan-cancer-hospital", specialisms: ["Oncology", "Hospital management"],
     tldr: "Hospital president who leads Henan Cancer Hospital in Zhengzhou, the provincial specialist cancer hospital for Henan province.",
-    summary: "Zhang Jiangong (张建功) leads Henan Cancer Hospital (河南省肿瘤医院) in Zhengzhou as its President. The Chinese Wikipedia article on the hospital lists him in the president field of its infobox. The hospital's own website could not be reached when checked, so no appointment date or biography is given here.",
+    summary: "Zhang Jiangong (张建功) is President of Henan Cancer Hospital (河南省肿瘤医院) in Zhengzhou, the provincial specialist cancer hospital for Henan province. The Chinese Wikipedia article on the hospital lists him in the president field of its infobox, and that article is the source this record was checked against. The hospital's own website could not be reached when checked, so no appointment date or biography is given here. His role combines oncology with hospital management.",
     profiles: [{ label: "Wikipedia (Chinese) article on Henan Cancer Hospital", url: "https://zh.wikipedia.org/wiki/河南省肿瘤医院" }],
     links: [{ label: "Source: Chinese Wikipedia article on Henan Cancer Hospital (president field)", url: "https://zh.wikipedia.org/wiki/河南省肿瘤医院" }],
     tags: ["leadership", "hospital-management"], cancers: [] }),

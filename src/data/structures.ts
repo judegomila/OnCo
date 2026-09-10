@@ -16,10 +16,10 @@
 export type StructureDef = { label: string; source: "pubchem" | "pdb"; query: string; note?: string };
 
 const IGG: StructureDef = { label: "IgG antibody backbone (PDB 1IGT)", source: "pdb", query: "1IGT", note: "Representative intact IgG, C-alpha trace. Not the specific antibody." };
-const pdb = (label: string, id: string, note?: string): StructureDef => ({ label: `${label} (PDB ${id}), backbone trace`, source: "pdb", query: id, note });
+const pdb = (label: string, id: string, note?: string): StructureDef => ({ label: `${label} (PDB ${id})`, source: "pdb", query: id, note });
 const pc = (label: string, query: string, note?: string): StructureDef => ({ label, source: "pubchem", query, note });
 /** Drug bound to its target: RCSB entry with the ligand and the binding pocket kept (titles verified on RCSB, 2026-09-07). */
-const cx = (drug: string, target: string, id: string): StructureDef => ({ label: `${drug} bound to ${target} (PDB ${id})`, source: "pdb", query: id, note: "Backbone trace with the bound drug (red) and pocket residues within 5 Å (thin cage)." });
+const cx = (drug: string, target: string, id: string): StructureDef => ({ label: `${drug} bound to ${target} (PDB ${id})`, source: "pdb", query: id, note: "Backbone ribbon with the bound drug in ball-and-stick (pink carbons). The wireframe view adds the pocket residues within 5 Å as a thin cage." });
 
 // Verified antibody structures.
 const TRASTUZUMAB = pdb("Trastuzumab Fab bound to HER2 extracellular domain", "1N8Z");

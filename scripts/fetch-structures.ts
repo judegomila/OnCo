@@ -2,9 +2,10 @@
  * Resolves src/data/structures.ts to files under public/structures/ (committed).
  *
  *   pubchem → public/structures/pubchem-<cid>.json   { atoms:[[x,y,z,el]], bonds:[[a,b,order]], dim: 2|3, cid, name }
- *   pdb     → public/structures/pdb-<id>.json        { atoms:[[x,y,z,"CA"]], bonds:[[i,i+1,1]] per chain, dim: 3 }
+ *   pdb     → public/structures/pdb-<id>.json        { atoms:[[x,y,z,"CA",chain,role]], bonds:[[i,i+1,1]] per chain, ss, dim: 3 }
  *
  * Run: npm run fetch:structures   (needs network; idempotent, skips existing files)
+ *      npm run fetch:structures -- --refresh-pdb 5A9U,5DK3   (re-download only those PDB entries, leave the index alone)
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -15,7 +16,8 @@ mkdirSync(out, { recursive: true });
 
 /** atoms: [x, y, z, element, chain?, role?] where role is "ca" (backbone trace), "lig" (bound ligand), or "pkt" (pocket residue atoms within 5 Å of a ligand). */
 type Atom = [number, number, number, string] | [number, number, number, string, string, string];
-type Mol = { atoms: Atom[]; bonds: Array<[number, number, number]>; dim: 2 | 3; source: string; id: string; name: string; chains?: string[]; ligands?: string[] };
+/** `ss`: one character per atom, aligned with `atoms`: H helix, E strand, C coil (backbone CA atoms), "-" for everything else. From the HELIX and SHEET records. */
+type Mol = { atoms: Atom[]; bonds: Array<[number, number, number]>; dim: 2 | 3; source: string; id: string; name: string; chains?: string[]; ligands?: string[]; ss?: string };
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 let last = 0;
@@ -77,16 +79,21 @@ async function pubchem(def: StructureDef): Promise<{ file: string; cid: number; 
 
 const SKIP_HET = new Set(["HOH", "WAT", "DOD", "SO4", "GOL", "PEG", "PG4", "EDO", "DMS", "ACT", "PO4", "CL", "NA", "MG", "ZN", "CA", "K", "MN", "NI", "CD", "IOD", "BR", "NO3", "FMT", "TRS", "MES", "EPE", "BME", "MPD", "PGE", "1PE", "P6G", "NAG", "MAN", "BMA", "FUC", "GAL", "GLC", "NDG", "SIA", "CIT", "TLA", "MLI", "IMD", "BU3", "PE4", "OLC", "UNX", "UNL"]);
 
-async function pdb(def: StructureDef): Promise<{ file: string } | null> {
+async function pdb(def: StructureDef, force = false): Promise<{ file: string } | null> {
   const id = def.query.toUpperCase();
   const file = `pdb-${id}.json`;
   const path = join(out, file);
-  if (existsSync(path)) return { file };
+  if (existsSync(path) && !force) return { file };
   const txt = await get(`https://files.rcsb.org/download/${id}.pdb`);
   if (!txt) return null;
   type Raw = { x: number; y: number; z: number; el: string; chain: string; res: number; resn: string; name: string; het: boolean };
   const raw: Raw[] = [];
+  // Secondary structure from the HELIX and SHEET records (PDB format columns are fixed).
+  const ssOf = new Map<string, "H" | "E">();
+  const mark = (kind: "H" | "E", c1: string, r1: number, c2: string, r2: number) => { if (c1 !== c2 || !Number.isFinite(r1) || !Number.isFinite(r2)) return; for (let r = Math.min(r1, r2); r <= Math.max(r1, r2); r++) ssOf.set(`${c1}:${r}`, kind); };
   for (const l of txt.split(/\r?\n/)) {
+    if (l.startsWith("HELIX")) { mark("H", l[19], parseInt(l.slice(21, 25), 10), l[31], parseInt(l.slice(33, 37), 10)); continue; }
+    if (l.startsWith("SHEET")) { mark("E", l[21], parseInt(l.slice(22, 26), 10), l[32], parseInt(l.slice(33, 37), 10)); continue; }
     if (l.startsWith("ENDMDL")) break; // first model only
     const isAtom = l.startsWith("ATOM"), isHet = l.startsWith("HETATM");
     if (!isAtom && !isHet) continue;
@@ -114,10 +121,12 @@ async function pdb(def: StructureDef): Promise<{ file: string } | null> {
   const atoms: Atom[] = []; const bonds: Mol["bonds"] = [];
   let prevChain = "", prevIdx = -1, prevRes = -999;
   const chains = new Set<string>();
+  let ss = "";
   for (const a of raw) {
     if (a.het || a.name !== "CA") continue;
     chains.add(a.chain);
     atoms.push([a.x, a.y, a.z, "CA", a.chain, "ca"]);
+    ss += ssOf.get(`${a.chain}:${a.res}`) ?? "C";
     const idx = atoms.length - 1;
     if (a.chain === prevChain && prevIdx >= 0 && a.res - prevRes <= 1) bonds.push([prevIdx, idx, 1]);
     prevChain = a.chain; prevIdx = idx; prevRes = a.res;
@@ -137,12 +146,22 @@ async function pdb(def: StructureDef): Promise<{ file: string } | null> {
     const pocket = raw.filter((a) => !a.het && pocketRes.has(`${a.chain}:${a.res}`) && a.name !== "CA");
     if (pocket.length && pocket.length <= 1500) bondByDistance(pocket, "pkt");
   }
-  const mol: Mol = { atoms, bonds, dim: 3, source: "pdb", id, name: `PDB ${id}`, chains: [...chains], ligands: [...ligands] };
+  const mol: Mol = { atoms, bonds, dim: 3, source: "pdb", id, name: `PDB ${id}`, chains: [...chains], ligands: [...ligands], ss: ss.padEnd(atoms.length, "-") };
   writeFileSync(path, JSON.stringify(mol));
   return { file };
 }
 
 async function main() {
+  // --refresh-pdb A,B,C: re-download only those PDB entries (file names do not change, so the index is left alone).
+  const flag = process.argv.indexOf("--refresh-pdb");
+  if (flag >= 0) {
+    const ids = (process.argv[flag + 1] ?? "").split(",").map((s) => s.trim().toUpperCase()).filter(Boolean);
+    for (const id of ids) {
+      const r = await pdb({ label: id, source: "pdb", query: id }, true);
+      console.log(r ? `refreshed ${r.file}` : `failed ${id}`);
+    }
+    return;
+  }
   const index: Record<string, Array<{ label: string; file: string; note?: string; dim: 2 | 3; source: string; ref: string }>> = {};
   const failures: string[] = [];
   const cache = new Map<string, Promise<{ file: string; dim: 2 | 3; ref: string } | null>>();

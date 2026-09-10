@@ -88,6 +88,18 @@ import { CatalystsPanel, CompanyScorePanel, DealsPanel, ExclusivityPanel, Manufa
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
+/** PDB structures of drugs caught in the act on this target (antibody with its antigen, small molecule in the pocket), from the products that hit it. Representative IgG stand-ins are left out. */
+function structuresForTarget(targetId: string): StructureEntry[] {
+  const g = graph();
+  const seen = new Set<string>();
+  const out: StructureEntry[] = [];
+  for (const d of g.incoming(targetId).get("drug") ?? []) for (const en of STRUCTURES[d.id] ?? []) {
+    if (en.source !== "pdb" || seen.has(en.file) || !/bound to|with /i.test(en.label) || /representative/i.test(en.label)) continue;
+    seen.add(en.file); out.push(en);
+  }
+  return out.slice(0, 6);
+}
+
 function Refs({ ids }: { ids: string[] }) {
   const g = graph();
   const items = ids.map((id) => g.get(id)).filter((x): x is Entity => !!x);
@@ -225,6 +237,7 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<>
           <div className="mt-8"><TargetSchematic target={{ id: e.id, name: e.name, targetClass: e.targetClass, tldr: e.tldr }} /></div>
+          {structuresForTarget(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2">Solved structures with a drug bound</div><MoleculeViewer entries={structuresForTarget(e.id)} /></div>}
           <div className="mt-6"><TargetExplainer target={e} /></div>
           <div className="mt-6"><CatalystsPanel id={e.id} /></div>
           <div className="mt-6 flex flex-wrap items-center justify-between gap-2"><Link href={`/dossiers/${e.id}/`} className="chip border bg-card border-border hover:bg-foreground/5 text-sm">Full dossier: hotspots, trials, resistance, assays, models, open questions →</Link></div>

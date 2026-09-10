@@ -9,6 +9,7 @@ import { NAV_GROUPS } from "@/lib/nav";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { FrontIcon } from "@/components/FrontIcon";
 import { NavIcon } from "@/components/NavIcon";
+import { KindIcon } from "@/components/KindIcon";
 import { MoleculeSlot } from "@/components/MoleculeSlot";
 import { GardenBackdrop } from "@/components/Garden";
 import { GardenDivider } from "@/components/GardenDivider";
@@ -112,11 +113,11 @@ export default function Home() {
             <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-px rounded-xl border border-border bg-card overflow-hidden shadow-card [&>li]:border-border [&>li]:border-b [&>li]:border-r">
               {counts.map(({ k, n }) => (
                 <li key={k} className="bg-card">
-                  <Link href={`/${KIND_META[k].route}/`} className="flex h-full flex-col gap-1 px-3.5 py-3 hover:bg-surface transition-colors">
-                    <span className="text-xl font-semibold tabular-nums leading-none tracking-tight">{fmt(n)}</span>
-                    <span className="flex items-center gap-1.5 text-xs text-muted capitalize">
-                      <span aria-hidden className={`inline-flex ${KIND_COLOR[k]} !bg-transparent border-0`}><span className="h-1.5 w-1.5 rounded-full bg-current" /></span>
-                      {(KIND_META[k].title ?? KIND_META[k].plural)}
+                  <Link href={`/${KIND_META[k].route}/`} className="flex h-full items-center gap-3 px-3.5 py-3 hover:bg-surface transition-colors">
+                    <span aria-hidden className={`inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border ${KIND_COLOR[k]}`}><KindIcon kind={k} className="h-5 w-5" /></span>
+                    <span className="min-w-0">
+                      <span className="block text-xl font-semibold tabular-nums leading-none tracking-tight">{fmt(n)}</span>
+                      <span className="block text-xs text-muted capitalize mt-1 truncate">{(KIND_META[k].title ?? KIND_META[k].plural)}</span>
                     </span>
                   </Link>
                 </li>

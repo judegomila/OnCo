@@ -63,7 +63,9 @@ function RouteCard({ r }: { r: ReferralRoute }) {
  */
 export function SecondOpinion({ cancers, routes, countries }: { cancers: SoCancer[]; routes: ReferralRoute[]; countries: SoCountry[] }) {
   const [profile, , profileReady] = useProfile();
-  const { region, ready: regionReady } = useRegion();
+  const { region: chosen, ready: regionReady } = useRegion();
+  // Global view starts from the US routes; the picker below lets the reader change country.
+  const region = chosen ?? "US";
   const [cancerId, setCancerId] = useState<string | null>(null);
   const [country, setCountry] = useState<string | null>(null);
   const [routeRegion, setRouteRegion] = useState<Region | null>(null);

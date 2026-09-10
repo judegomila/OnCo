@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { REGION_META, REGION_ORDER, useRegion } from "@/lib/region";
+import { REGION_META, REGION_ORDER, useRegion, guessRegion } from "@/lib/region";
 
 /** Header control: which country's regulator decides what "approved" means on this site. Not a language switch. */
 export function RegionToggle() {
@@ -15,7 +15,7 @@ export function RegionToggle() {
     document.addEventListener("mousedown", onDoc); document.addEventListener("keydown", onKey);
     return () => { document.removeEventListener("mousedown", onDoc); document.removeEventListener("keydown", onKey); };
   }, [open]);
-  const meta = REGION_META[region];
+  const meta = region ? REGION_META[region] : { label: "Global", regulator: "all regulators shown as flags", flag: "🌐", url: "" };
   return (
     <div ref={box} className="relative">
       <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="listbox" aria-expanded={open} aria-label={`Approvals shown for ${meta.label}. Change country`} title={`Approvals shown for ${meta.label} (${meta.regulator}). Click to change country.`}
@@ -26,6 +26,13 @@ export function RegionToggle() {
       {open && (
         <div role="listbox" aria-label="Country for approvals" className="absolute right-0 top-full mt-1.5 z-50 card shadow-pop w-72 p-1.5">
           <div className="px-2.5 pt-1.5 pb-2 text-xs text-muted leading-snug">Which regulator decides what <span className="font-medium text-foreground">approved</span> means on every page. Other countries&apos; approvals stay visible as flags.</div>
+          <button role="option" aria-selected={region === null} onClick={() => { setRegion(null); setOpen(false); }} className={`w-full flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-left text-sm hover:bg-surface ${region === null ? "bg-surface font-medium" : ""}`}>
+            <span aria-hidden className="text-lg leading-none">🌐</span>
+            <span className="min-w-0"><span className="block leading-snug">Global</span><span className="block text-xs text-muted leading-snug">Every region shown as flags; country-specific pages hidden from menus</span></span>
+            {region === null && <span className="ml-auto text-xs text-accent">selected</span>}
+          </button>
+          <button type="button" onClick={() => { setRegion(guessRegion()); setOpen(false); }} className="w-full flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-left text-sm hover:bg-surface text-muted"><span aria-hidden className="text-lg leading-none">📍</span><span className="leading-snug">Use my browser&apos;s country</span></button>
+          <div className="my-1 border-t border-border" />
           {REGION_ORDER.map((r) => {
             const m = REGION_META[r];
             const on = r === region;

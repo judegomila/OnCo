@@ -556,13 +556,17 @@ function cancerTabs(c: Cancer): Tab[] {
       </div>
       <Block title="Where the cases are"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
       {spreadFor(c.id) && (
-        <Block title="Where it spreads">
+        <details className="mt-10 group">
+          <summary className="cursor-pointer list-none inline-flex items-center gap-2 text-sm text-muted hover:text-foreground"><span aria-hidden className="transition-transform group-open:rotate-90">▸</span>Show where this cancer can spread if it advances (medical detail, opens on request)</summary>
+          <p className="text-xs text-muted mt-2 mb-3 max-w-3xl">Most people never reach this stage. The map shows the sites reported in the literature for advanced disease, so that clinicians and readers who want the detail can find it.</p>
+        <Block title="Sites reported in advanced disease">
           <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
             <div className="card p-3"><SpreadMap spread={spreadFor(c.id)!} cancerName={c.name} /></div>
             <ol className="space-y-2 text-sm">{spreadFor(c.id)!.sites.map((s) => <li key={s.region} className="card p-3"><div className="flex items-baseline justify-between gap-2"><span className="font-medium">{s.site}</span><span className="chip bg-foreground/5">{s.tier}</span></div>{(s.pct || s.note) && <p className="text-muted mt-1">{[s.pct, s.note].filter(Boolean).join(". ")}.</p>}</li>)}</ol>
           </div>
           <p className="text-xs text-muted mt-2"><Link href={`/atlas/spread/#${c.id}`} className="underline">All cancers side by side</Link></p>
         </Block>
+        </details>
       )}
     </> },
     { id: "care", label: "Standard of care", count: c.standardOfCare.length, content: (

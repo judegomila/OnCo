@@ -23,6 +23,15 @@ export function ApprovalChip({ drugId, status, compact = false }: { drugId: stri
   const globallyApproved = status === "approved" || status === "standard-of-care" || approvedIn.length > 0;
   if (!globallyApproved) return status ? <span className={`chip ${statusClass(status)}`}>{STATUS_LABEL[status] ?? status}</span> : null;
 
+  if (!region) {
+    const first = approvedIn.length ? Math.min(...approvedIn.map((r) => row?.[r]?.year ?? 9999)) : undefined;
+    const tip = approvedIn.length ? `Approved in ${approvedIn.map((r) => REGION_META[r].label).join(", ")}. Choose your country in the top bar to see the verdict that applies to you.` : "Recorded as approved; choose your country in the top bar to see which regulators have cleared it.";
+    return (
+      <Tip title="🌐 Global view" text={tip} href="/regulatory/regions/" linkLabel="Compare all regions →">
+        <span className={`chip cursor-help inline-flex items-center gap-1 ${statusClass("approved")}`}>Approved{!compact && first && first !== 9999 ? <span className="opacity-70 tabular-nums">{first}</span> : null}{!compact && <span className="inline-flex gap-0.5 ml-0.5">{flags()}</span>}</span>
+      </Tip>
+    );
+  }
   const here = row?.[region];
   const meta = REGION_META[region];
   if (here) {

@@ -53,7 +53,7 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
 
   const hasProfile = profileReady && !isProfileEmpty(profile);
   // The reader's profile as ranking signals. Lives in localStorage; nothing is sent anywhere.
-  const personal: Personal | null = useMemo(() => personalise && hasProfile ? { biomarkers: biomarkers.filter((b) => profile.biomarkers.includes(b.id)), region, stage: profile.stage } : null, [personalise, hasProfile, profile, region]);
+  const personal: Personal | null = useMemo(() => personalise && hasProfile ? { biomarkers: biomarkers.filter((b) => profile.biomarkers.includes(b.id)), region: region ?? undefined, stage: profile.stage } : null, [personalise, hasProfile, profile, region]);
   const togglePersonalise = () => {
     const next = !personalise;
     setPersonalise(next);

@@ -34,7 +34,8 @@ function RefChip({ r }: { r: PathRef }) {
  * the referral thresholds for the reader's region, and the cancers to read about. Nothing is stored.
  */
 export function SymptomPath({ symptoms }: { symptoms: SymptomView[] }) {
-  const { region, ready } = useRegion();
+  const { region: chosen, ready } = useRegion();
+  const region = chosen ?? "US";
   const [selected, setSelected] = useState<string | null>(null);
   const [step, setStep] = useState(0);
   const [q, setQ] = useState("");

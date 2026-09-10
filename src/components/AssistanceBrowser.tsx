@@ -41,7 +41,7 @@ export function AssistanceBrowser({ rows, schemes, orgs }: { rows: AccessRow[]; 
 
   useEffect(() => {
     if (!regionReady) return;
-    const id = requestAnimationFrame(() => setCountry((c) => c ?? REGION_TO_COUNTRY[region]));
+    const id = requestAnimationFrame(() => setCountry((c) => c ?? (region ? REGION_TO_COUNTRY[region] : c)));
     return () => cancelAnimationFrame(id);
   }, [regionReady, region]);
 

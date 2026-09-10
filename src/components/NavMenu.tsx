@@ -1,6 +1,7 @@
 "use client";
 
 import { NavIcon } from "./NavIcon";
+import { useRegion } from "@/lib/region";
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
@@ -11,6 +12,10 @@ import { NAV_GROUPS } from "@/lib/nav";
 export function NavMenu() {
   const [open, setOpen] = useState<string | null>(null);
   const [drawer, setDrawer] = useState(false);
+  const [openGroup, setOpenGroup] = useState<string | null>(null);
+  const { region } = useRegion();
+  // Country-specific pages appear only for readers in that country; Global view shows everything.
+  const visible = <T extends { regions?: string[] }>(items: T[]): T[] => items.filter((it) => !it.regions || region === null || it.regions.includes(region));
   const wrap = useRef<HTMLDivElement>(null);
   const path = usePathname();
 
@@ -53,13 +58,13 @@ export function NavMenu() {
                       <div className="text-xs text-muted mt-0.5 leading-relaxed">{g.blurb}</div>
                     </Link>
                     <div className="my-1.5 border-t border-border" />
-                    <div className={g.items.length > 6 ? "grid grid-cols-2 gap-x-1" : ""}>
-                      {g.items.map((it) => {
+                    <div className={visible(g.items).length > 6 ? "grid grid-cols-2 gap-x-1" : ""}>
+                      {visible(g.items).map((it) => {
                         const here = !!path && path.startsWith(it.href) && !it.href.startsWith("http");
                         return (
                           <Link key={it.href} href={it.href} role="menuitem" className={`block rounded-lg px-3 py-1.5 hover:bg-surface ${here ? "text-foreground font-medium bg-surface/60" : ""}`}>
                             <div className="text-sm leading-snug flex items-center gap-1.5">{here && <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-accent shrink-0" />}{it.label}</div>
-                            {g.items.length <= 6 && <div className="text-xs text-muted leading-relaxed">{it.blurb}</div>}
+                            {visible(g.items).length <= 6 && <div className="text-xs text-muted leading-relaxed">{it.blurb}</div>}
                           </Link>
                         );
                       })}
@@ -72,7 +77,7 @@ export function NavMenu() {
         })}
       </nav>
 
-      <button type="button" onClick={() => setDrawer(true)} className="ctl xl:hidden px-0 sm:px-3" aria-label="Open menu" aria-expanded={drawer} aria-controls="site-drawer">
+      <button type="button" onClick={() => { setOpenGroup(activeGroup?.id ?? "find"); setDrawer(true); }} className="ctl xl:hidden px-0 sm:px-3" aria-label="Open menu" aria-expanded={drawer} aria-controls="site-drawer">
         <svg aria-hidden viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14" /></svg>
         <span className="hidden sm:inline">Menu</span>
       </button>
@@ -87,24 +92,50 @@ export function NavMenu() {
                 <svg aria-hidden viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"><path d="M5 5l10 10M15 5L5 15" /></svg>
               </button>
             </div>
-            <div className="px-4 py-4 space-y-6">
-              {NAV_GROUPS.map((g) => (
-                <div key={g.id}>
-                  <Link href={g.href} className={`kicker inline-flex items-center gap-1.5 hover:text-foreground ${activeGroup?.id === g.id ? "text-accent" : ""}`}><NavIcon id={g.id} className="h-4 w-4" />{g.label}</Link>
-                  <ul className="mt-2 -mx-2">
-                    {g.items.map((it) => {
-                      const here = !!path && path.startsWith(it.href) && !it.href.startsWith("http");
-                      return (
-                        <li key={it.href}>
-                          {it.href.startsWith("http")
-                            ? <a href={it.href} rel="noopener" className="block rounded-lg px-2 py-2 text-[15px] hover:bg-surface">{it.label}</a>
-                            : <Link href={it.href} className={`block rounded-lg px-2 py-2 text-[15px] hover:bg-surface ${here ? "font-medium bg-surface" : ""}`}>{it.label}</Link>}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              ))}
+            <div className="px-3 py-3">
+              {/* Quick actions: the things most people open the menu for */}
+              <div className="grid grid-cols-2 gap-2 mb-3">
+                <button type="button" onClick={() => { setDrawer(false); window.dispatchEvent(new Event("onco:open-palette")); }} className="card px-3 py-2.5 text-left text-sm font-medium hover:bg-surface flex items-center gap-2"><NavIcon id="search" className="h-4 w-4 text-accent" />Search</button>
+                <Link href="/for-me/" className="card px-3 py-2.5 text-sm font-medium hover:bg-surface flex items-center gap-2"><NavIcon id="live" className="h-4 w-4 text-accent" />For me</Link>
+                <Link href="/ask/" className="card px-3 py-2.5 text-sm font-medium hover:bg-surface flex items-center gap-2"><NavIcon id="find" className="h-4 w-4 text-accent" />Ask OnCo</Link>
+                <Link href="/cancers/" className="card px-3 py-2.5 text-sm font-medium hover:bg-surface flex items-center gap-2"><NavIcon id="map" className="h-4 w-4 text-accent" />Cancer types</Link>
+              </div>
+              {/* One group open at a time; the current section starts open */}
+              <div className="divide-y divide-border rounded-xl border border-border overflow-hidden bg-card">
+                {NAV_GROUPS.map((g) => {
+                  const isOpen = openGroup === g.id;
+                  const active = activeGroup?.id === g.id;
+                  return (
+                    <div key={g.id}>
+                      <div className="flex items-stretch">
+                        <button type="button" onClick={() => setOpenGroup(isOpen ? null : g.id)} aria-expanded={isOpen} aria-controls={`drawer-${g.id}`}
+                          className={`flex-1 flex items-center gap-2.5 px-3 py-3 text-left text-[15px] font-medium hover:bg-surface ${active ? "text-accent" : ""}`}>
+                          <NavIcon id={g.id} className="h-5 w-5 shrink-0" />
+                          <span className="flex-1">{g.label}</span>
+                          <span className="text-xs text-muted tabular-nums">{visible(g.items).length}</span>
+                          <svg aria-hidden viewBox="0 0 12 12" width="12" height="12" className={`text-muted transition-transform ${isOpen ? "rotate-180" : ""}`}><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                        </button>
+                      </div>
+                      {isOpen && (
+                        <ul id={`drawer-${g.id}`} className="pb-2 bg-background/60">
+                          <li><Link href={g.href} className="block px-4 py-2.5 text-[15px] text-accent hover:bg-surface">Overview of {g.label.toLowerCase()} →</Link></li>
+                          {visible(g.items).map((it) => {
+                            const here = !!path && path.startsWith(it.href) && !it.href.startsWith("http");
+                            return (
+                              <li key={it.href}>
+                                {it.href.startsWith("http")
+                                  ? <a href={it.href} rel="noopener" className="block px-4 py-2.5 text-[15px] hover:bg-surface">{it.label}</a>
+                                  : <Link href={it.href} className={`block px-4 py-2.5 text-[15px] hover:bg-surface ${here ? "font-medium bg-surface" : ""}`}><span className="block">{it.label}</span><span className="block text-xs text-muted leading-snug line-clamp-1">{it.blurb}</span></Link>}
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+              <p className="mt-3 px-1 text-xs text-muted">Country, language and theme switches are in the top bar.</p>
             </div>
           </div>
         </div>,

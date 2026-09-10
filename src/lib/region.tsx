@@ -24,21 +24,25 @@ function guess(): Region {
   return "US";
 }
 
-const Ctx = createContext<{ region: Region; setRegion: (r: Region) => void; ready: boolean }>({ region: "US", setRegion: () => {}, ready: false });
+const Ctx = createContext<{ region: Region | null; setRegion: (r: Region | null) => void; ready: boolean }>({ region: null, setRegion: () => {}, ready: false });
 
 export function RegionProvider({ children }: { children: ReactNode }) {
-  const [region, set] = useState<Region>("US");
+  const [region, set] = useState<Region | null>(null);
   const [ready, setReady] = useState(false);
   useEffect(() => {
     const id = requestAnimationFrame(() => {
       const saved = window.localStorage.getItem(KEY) as Region | null;
-      set(saved && saved in REGION_META ? saved : guess());
+      // Readers start in Global view and choose a country themselves; a saved choice is honoured.
+      set(saved && saved in REGION_META ? saved : null);
       setReady(true);
     });
     return () => cancelAnimationFrame(id);
   }, []);
-  const setRegion = (r: Region) => { set(r); window.localStorage.setItem(KEY, r); document.documentElement.dataset.region = r; };
+  const setRegion = (r: Region | null) => { set(r); if (r) window.localStorage.setItem(KEY, r); else window.localStorage.removeItem(KEY); document.documentElement.dataset.region = r ?? "global"; };
   return <Ctx.Provider value={{ region, setRegion, ready }}>{children}</Ctx.Provider>;
 }
 
 export function useRegion() { return useContext(Ctx); }
+
+/** Best guess from the browser locale, offered as a one-tap option in the switcher. */
+export function guessRegion(): Region { return guess(); }

@@ -1,5 +1,6 @@
 /** Site information architecture: six groups, each with a landing page and its pages. Used by the header, footer, landing pages, and home. */
-export type NavItem = { href: string; label: string; blurb: string };
+/** `regions`: show only when the reader has chosen one of these countries (Global view shows everything). */
+export type NavItem = { href: string; label: string; blurb: string; regions?: Array<"US" | "EU" | "UK" | "JP" | "CN" | "AU"> };
 /** `short` is an optional shorter label for the desktop header bar only; the drawer, footer and landing pages use `label`. */
 export type NavGroup = { id: string; label: string; short?: string; href: string; blurb: string; items: NavItem[] };
 
@@ -81,8 +82,8 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/preprints/", label: "Preprint tracker", blurb: "bioRxiv and medRxiv preprints of the last 90 days per target, product and technology, and which have since been published." },
       { href: "/payloads/", label: "Payloads & linkers", blurb: "The chemistry inside ADCs." },
       { href: "/regulatory/", label: "Regulatory timeline", blurb: "Every dated filing, approval, CRL, and label change." },
-      { href: "/coverage/us/", label: "Paying for care (US)", blurb: "Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product." },
-      { href: "/coverage/uk/", label: "What the NHS offers", blurb: "NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works." },
+      { href: "/coverage/us/", label: "Paying for care (US)", blurb: "Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product.", regions: ["US"] },
+      { href: "/coverage/uk/", label: "What the NHS offers", blurb: "NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.", regions: ["UK"] },
       { href: "/hta/", label: "HTA decisions", blurb: "NICE, SMC, G-BA and PBAC verdicts per product and country, with dates and links to the appraisal." },
       { href: "/survival/", label: "Survival statistics", blurb: "Five-year relative survival by cancer and stage from SEER, with the period and caveats." },
       { href: "/regulatory/regions/", label: "Approvals by region", blurb: "Which products are approved in the US, EU, UK, Japan, China and Australia, and which are missing where." },
@@ -127,8 +128,8 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/survivorship/", label: "Survivorship planner", blurb: "Late effects to watch for after each treatment, the screening test, how often, and the guideline that says so." },
       { href: "/second-opinion/", label: "Second opinion", blurb: "Expert centres for your cancer in your country, the people who work on it, and how referral works where you live." },
       { href: "/assistance/", label: "Financial help", blurb: "Manufacturer programmes, reimbursement and generics by country and product, plus national schemes and charities." },
-      { href: "/coverage/us/", label: "Paying for care (US)", blurb: "Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product." },
-      { href: "/coverage/uk/", label: "What the NHS offers", blurb: "NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works." },
+      { href: "/coverage/us/", label: "Paying for care (US)", blurb: "Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product.", regions: ["US"] },
+      { href: "/coverage/uk/", label: "What the NHS offers", blurb: "NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.", regions: ["UK"] },
       { href: "/fronts/nutrition-lifestyle/", label: "Diet, exercise and lifestyle", blurb: "What people eat, drink, weigh and do: what the evidence says and what is hype." },
       { href: "/fronts/supportive-care/", label: "Supportive care", blurb: "Treating the person, not just the tumour: symptoms, side effects, nutrition, mental health." },
       { href: "/heroes/", label: "Heroes and heroines", blurb: "The patients, families, advocates and pioneers whose lives and cases changed cancer." },

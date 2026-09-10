@@ -31,7 +31,9 @@ const approvedHere = (d: MatrixDrug, region: Region) => {
 const approvedAnywhere = (d: MatrixDrug) => (d.status === "approved" || d.status === "standard-of-care") || REGIONS.some((r) => d.regions[r] === "approved" || d.regions[r] === "conditional");
 
 export function BiomarkerMatrix({ biomarkers, cancers }: { biomarkers: MatrixBiomarker[]; cancers: MatrixCancer[] }) {
-  const { region } = useRegion();
+  const { region: chosen } = useRegion();
+  // Global view falls back to the US column for the approved-versus-trials split; the note below says so.
+  const region = chosen ?? "US";
   const [groupSel, setGroupSel] = useState<string[]>([]);
   const [cancerSel, setCancerSel] = useState<string[]>([]);
   const [mode, setMode] = useState<"all" | "approved" | "typical">("all");

@@ -1,0 +1,11 @@
+{
+  "editions": [
+    {
+      "year": 2022,
+      "file": "/globocan/countries.json",
+      "fetched": "2026-09-08",
+      "source": "GLOBOCAN 2022, International Agency for Research on Cancer (IARC), Global Cancer Observatory"
+    }
+  ],
+  "note": "One entry per GLOBOCAN edition fetched by scripts/fetch-globocan.ts. Editions are separate estimates with method changes between them, so a line through them is indicative, not a registry time series."
+}

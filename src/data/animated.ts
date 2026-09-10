@@ -8,6 +8,7 @@ import { WAVE3 } from "./animated-wave3";
 import { WAVE4 } from "./animated-wave4";
 import { WAVE5 } from "./animated-wave5";
 import { WAVE6 } from "./animated-wave6";
+import { WAVE7 } from "./animated-wave7";
 
 const TAU = Math.PI * 2;
 const cell = (r: number, cls?: string) => sphere(r, 5, 10, cls);
@@ -537,5 +538,6 @@ export const ANIMATED: Record<string, () => Mesh> = {
   ...WAVE4, // forty more (diagnostics, supportive care, complementary and lifestyle evidence, manufacturing and trial infrastructure)
   ...WAVE5, // forty more (molecular diagnostics, prevention and diet evidence, prehabilitation and ePRO, radiopharma and cell-therapy supply chains)
   ...WAVE6, // forty more (surveillance and screening programmes, acupuncture and other supportive-care trials, trial and sequencing infrastructure, logic gates and hypoxia prodrugs)
+  ...WAVE7, // forty more (coffee and diet evidence, limb and organ-sparing procedures, decongestive therapy and other supportive-care trials, lab and pharmacy automation, generators and Auger emitters, hydrazine sulfate and antineoplastons)
 };
 

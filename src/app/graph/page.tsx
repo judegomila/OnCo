@@ -11,7 +11,7 @@ export default function GraphPage() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="find" />} title="Graph explorer"
-        lede="Fronts on the inner ring, cancers on the outer. Pick or click any object to put it in the centre with its neighbours grouped by kind. Click the centre to open its page." />
+        lede="Fronts on the inner ring, cancers on the outer. Pick or click any object to put it in the centre with its neighbours grouped by kind; the panel beside it explains what you are looking at and lists every link." />
       <Container className="pb-16">
         <GraphExplorer data={data} />
       </Container>

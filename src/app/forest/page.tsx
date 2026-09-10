@@ -34,6 +34,9 @@ export default function ForestPage() {
       <PageHeader kicker={<GroupKicker id="intel" />} title="Forest plot"
         lede={`${rows.length} hazard ratios from ${trials} trials on one axis. A hazard ratio below 1 means the experimental arm did better on that endpoint; the line is the 95% confidence interval. Pick a cancer, a setting and an endpoint to see comparable trials side by side, then download the rows.`} />
       <Container className="pb-16">
+        <p className="card p-4 mb-6 text-sm leading-relaxed max-w-3xl border-accent/30 bg-accent-soft/40">
+          <span className="font-medium">In plain words:</span> every square left of the vertical line at 1 is a trial where the new treatment did better than the old one, and the further left, the bigger the difference; 0.5 means the risk of the event was halved. Each trial enrolled people who were already in the situation it describes (a particular stage, a particular prior treatment), so the ratios say how much better a treatment worked for that group, not how likely the event is for any one person. The trial page behind each row has the outcomes explained in plain words.
+        </p>
         <ForestPlot rows={rows} />
         <section className="mt-10 max-w-3xl text-sm text-muted space-y-2">
           <h2 className="text-lg font-semibold text-foreground">How to read it</h2>

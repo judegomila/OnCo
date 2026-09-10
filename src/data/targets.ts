@@ -573,7 +573,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "kit", kind: "target", name: "KIT", symbol: "KIT", targetClass: "kinase", asOf, wikipedia: W("CD117"),
-    tldr: "KIT mutation is the driver behind most gastrointestinal stromal tumours, and the reason imatinib turned a lethal sarcoma into a chronic disease.",
+    tldr: "KIT mutation is the driver behind most gastrointestinal stromal tumours, and the reason imatinib turned a sarcoma with a median survival of about a year into a chronic disease.",
     summary: "KIT and PDGFRA mutations drive GIST; imatinib, sunitinib, regorafenib, ripretinib, and avapritinib (PDGFRA D842V) form the sequence. KIT is also a target in systemic mastocytosis.",
     biology: "Stem-cell factor receptor tyrosine kinase.",
     whereFound: ["GIST", "Mastocytosis", "Melanoma (mucosal/acral, rare)"],

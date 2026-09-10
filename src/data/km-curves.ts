@@ -12,6 +12,9 @@ export type EndpointFamily = "os" | "pfs" | "efs" | "dfs" | "mfs" | "other";
 export type KmArm = { name: string; points: Array<[number, number]>; median?: number };
 export type KmCurve = { trial: string; endpoint: string; family: EndpointFamily; arms: KmArm[]; sources: string[]; note?: string };
 
+/** Shown under every curve: the population is the trial's, not the reader. */
+export const KM_CAPTION = "Curves show the trial population; they are not a prediction for any one person.";
+
 const nejm = (id: string) => `https://www.nejm.org/doi/full/10.1056/${id}`;
 const doi = (d: string) => `https://doi.org/${d}`;
 

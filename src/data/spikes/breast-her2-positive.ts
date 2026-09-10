@@ -321,7 +321,7 @@ const spike: Spike = {
       { setting: "Cardiac monitoring and survivorship", approach: "LVEF every 3 months during anti-HER2 therapy; hold and cardioprotect for declines; anthracycline-free regimens preferred; long-term surveillance for late recurrence in HR+/HER2+.", refs: ["cardio-oncology", "persephone"] },
     ],
     stateOfArt: [
-      "Ten-year survival above 80% for early disease, from a subtype that was the deadliest in the 1990s.",
+      "Ten-year survival above 80% for early disease: the subtype with the poorest outlook in the 1990s is now one of the most treatable.",
       "Response-adapted curative therapy: pCR patients de-escalate, residual disease escalates to an ADC (now T-DXd, iDFS HR 0.47 vs T-DM1).",
       "T-DXd across the continuum: neoadjuvant (2026), post-neoadjuvant (2026), first-line metastatic with pertuzumab (2025, PFS 40.7 months), second line, and brain metastases.",
       "Systemic control of brain metastases (tucatinib, T-DXd) allowing deferral of radiation.",
@@ -329,7 +329,7 @@ const spike: Spike = {
       "Chemotherapy omission for a third of patients using early PET response (PHERGain).",
     ],
     history: [
-      { year: 1987, title: "Slamon links HER2 amplification to poor prognosis", note: "Science paper identifying HER2/neu amplification in 25-30% of breast cancers.", refs: ["her2"] },
+      { year: 1987, title: "Slamon shows HER2 amplification marks aggressive disease, and a drug target", note: "Science paper identifying HER2/neu amplification in 25-30% of breast cancers.", refs: ["her2"] },
       { year: 1998, title: "Trastuzumab approved for metastatic disease", note: "First antibody for a solid tumour; OS benefit with chemotherapy.", refs: ["trastuzumab"] },
       { year: 2005, title: "Adjuvant trastuzumab halves recurrence (HERA, B-31/N9831)", refs: ["hera-b31-n9831"] },
       { year: 2007, title: "Lapatinib: first HER2 pill", refs: ["lapatinib"] },

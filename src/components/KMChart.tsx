@@ -1,4 +1,4 @@
-import type { KmArm } from "@/data/km-curves";
+import { KM_CAPTION, type KmArm } from "@/data/km-curves";
 
 export const SERIES_PALETTE = ["#b91c1c", "#2563eb", "#7c3aed", "#0d9488"];
 
@@ -9,9 +9,10 @@ const niceMax = (t: number) => Math.max(12, Math.ceil(t / 12) * 12);
  * Kaplan-Meier style survival chart drawn from published landmark estimates. Step lines join the
  * landmarks (each arm starts at 100% at time zero); the true curve between landmarks is not shown, so
  * the points are marked and labelled. Dashed guides mark the median where the source reports one.
- * Plain SVG, server-renderable; wrap with ChartExport for downloads.
+ * Plain SVG, server-renderable; wrap with ChartExport for downloads. A caption under the chart reminds the
+ * reader that the curves describe the trial population, not any one person (`caption` overrides it; "" hides it).
  */
-export function KMChart({ arms, title, annotation, maxMonths, yLabel = "Alive or event-free (%)" }: { arms: KmArm[]; title?: string; annotation?: string; maxMonths?: number; yLabel?: string }) {
+export function KMChart({ arms, title, annotation, maxMonths, yLabel = "Alive or event-free (%)", caption = KM_CAPTION }: { arms: KmArm[]; title?: string; annotation?: string; maxMonths?: number; yLabel?: string; caption?: string }) {
   const tmax = niceMax(maxMonths ?? Math.max(...arms.flatMap((a) => [...a.points.map((p) => p[0]), a.median ?? 0]), 12));
   const x = (t: number) => L + ((W - L - R) * t) / tmax;
   const y = (s: number) => T + ((H - T - B) * (100 - s)) / 100;
@@ -22,6 +23,7 @@ export function KMChart({ arms, title, annotation, maxMonths, yLabel = "Alive or
     return { d, last: s };
   };
   return (
+    <div>
     <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label={`${title ?? "Survival"}: ${arms.map((a) => `${a.name} ${a.points.map((p) => `${p[1]}% at ${p[0]} months`).join(", ")}`).join("; ")}`}>
       {/* grid */}
       {[0, 25, 50, 75, 100].map((s) => <line key={s} x1={L} x2={W - R} y1={y(s)} y2={y(s)} stroke="currentColor" strokeOpacity={s === 50 ? 0.18 : 0.08} strokeDasharray={s === 50 ? "3 3" : undefined} />)}
@@ -65,5 +67,7 @@ export function KMChart({ arms, title, annotation, maxMonths, yLabel = "Alive or
       ))}
       {annotation && <text x={W - R - 6} y={T + 4 + arms.length * 14 + 4} textAnchor="end" fontSize={10} fill="currentColor" fillOpacity={0.6}>{annotation}</text>}
     </svg>
+    {caption && <p className="text-xs text-muted mt-1">{caption}</p>}
+    </div>
   );
 }

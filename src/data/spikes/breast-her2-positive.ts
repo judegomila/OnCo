@@ -190,7 +190,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Diarrhoea", anyGradePct: 65, grade3PlusPct: 13 }, { event: "Palmar-plantar erythrodysaesthesia (with capecitabine)", anyGradePct: 53 }, { event: "Rash", anyGradePct: 28 }],
     approvals: [{ region: "US", year: 2007, indication: "HER2+ advanced breast cancer with capecitabine after trastuzumab" }, { region: "US", year: 2010, indication: "HR+/HER2+ metastatic breast cancer with letrozole" }],
     targets: ["her2", "egfr"], technologies: ["kinase-inhibitors"], companies: ["novartis"], cancers: ["breast-her2-positive"], trials: ["ace-breast-02"] }),
-  d({ id: "pyrotinib", name: "Pyrotinib", brand: "Airuini", modality: "Small-molecule irreversible pan-HER kinase inhibitor", status: "approved",
+  d({ id: "pyrotinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pyrotinib" }], name: "Pyrotinib", brand: "Airuini", modality: "Small-molecule irreversible pan-HER kinase inhibitor", status: "approved",
     tldr: "Pyrotinib is China's HER2 pill, widely used there with capecitabine and as a comparator for the new Chinese HER2 ADCs.",
     summary: "Pyrotinib is Jiangsu Hengrui's HER2 TKI. PHOEBE (vs lapatinib + capecitabine): PFS 12.5 vs 6.8 months; PHILA (first-line with trastuzumab + docetaxel): PFS 24.3 vs 10.4 months. Approved in China (2018, 2020s expansions); not approved in the US or EU. Control arm of HORIZON-Breast01.",
     mechanism: "Irreversible pan-ErbB TKI (EGFR, HER2, HER4).",

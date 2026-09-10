@@ -91,7 +91,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Hypertension", anyGradePct: 41, grade3PlusPct: 7, note: "PALETTE" }, { event: "Fatigue", anyGradePct: 65, grade3PlusPct: 13 }, { event: "ALT elevation", grade3PlusPct: 8 }, { event: "Pneumothorax", anyGradePct: 3 }],
     approvals: [{ region: "US", year: 2009, indication: "Advanced renal cell carcinoma" }, { region: "US", year: 2012, indication: "Advanced non-adipocytic soft-tissue sarcoma after chemotherapy" }],
     targets: ["vegf", "kit"], technologies: ["kinase-inhibitors", "antiangiogenic"], companies: ["novartis"], cancers: ["sarcoma", "rcc"] }),
-  d({ id: "ripretinib", name: "Ripretinib", brand: "Qinlock", modality: "Small-molecule kinase inhibitor (KIT/PDGFRA switch-control)", status: "approved", wikipedia: W("Ripretinib"),
+  d({ id: "ripretinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ripretinib" }], name: "Ripretinib", brand: "Qinlock", modality: "Small-molecule kinase inhibitor (KIT/PDGFRA switch-control)", status: "approved", wikipedia: W("Ripretinib"),
     tldr: "A fourth-line GIST drug that locks KIT in an off state regardless of which resistance mutation the tumour has acquired.",
     summary: "INVICTUS: PFS 6.3 vs 1.0 months vs placebo (HR 0.15), OS HR 0.36; approved May 2020 after ≥3 TKIs. INTRIGUE (second line vs sunitinib) not superior overall but superior in KIT exon 11 + 17/18 mutations, prompting INSIGHT (ctDNA-selected phase 3, positive on PFS 2025-26 per interim reports). Deciphera/Ono.",
     mechanism: "Binds the switch pocket and activation loop of KIT/PDGFRA, inhibiting primary and secondary mutations (exons 9, 11, 13, 14, 17, 18).",

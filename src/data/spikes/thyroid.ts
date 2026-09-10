@@ -114,7 +114,7 @@ const trials: TrialInput[] = [
 
 // ======================= DRUGS =======================
 const drugs: DrugInput[] = [
-  d({ id: "radioactive-iodine", name: "Radioactive iodine (I-131)", brand: "Sodium iodide I-131", modality: "Radiopharmaceutical (beta/gamma emitter, natural uptake)", status: "approved", wikipedia: W("Iodine-131"),
+  d({ id: "radioactive-iodine", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Radioactive%20iodine" }], name: "Radioactive iodine (I-131)", brand: "Sodium iodide I-131", modality: "Radiopharmaceutical (beta/gamma emitter, natural uptake)", status: "approved", wikipedia: W("Iodine-131"),
     tldr: "The original targeted radiotherapy: thyroid cells soak up iodine, so radioactive iodine destroys leftover thyroid tissue and metastases while sparing everything else.",
     summary: "In use since 1946 for differentiated thyroid cancer; the archetype of theranostics (I-123 or I-131 scans image the same uptake). Roles: remnant ablation after thyroidectomy (now omitted in low-risk disease after ESTIMABL2, IoN, HiLo), adjuvant treatment of intermediate/high-risk disease, and treatment of iodine-avid metastases. Given after TSH stimulation (withdrawal or recombinant TSH). Salivary damage, secondary malignancy at high cumulative doses, and refractoriness in dedifferentiated tumours are the limits.",
     mechanism: "Sodium-iodide symporter (NIS) concentrates iodide in thyroid follicular cells; I-131 beta particles (mean path ~0.8 mm) irradiate the cell and neighbours; gamma emission enables imaging.",

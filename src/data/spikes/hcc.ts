@@ -100,7 +100,7 @@ const terms: TermInput[] = [
 
 // ======================= PRODUCTS =======================
 const drugs: DrugInput[] = [
-  d({ id: "sorafenib", name: "Sorafenib", brand: "Nexavar", modality: "Small-molecule multi-kinase inhibitor (VEGFR, PDGFR, RAF)", status: "approved", wikipedia: W("Sorafenib"),
+  d({ id: "sorafenib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sorafenib" }], name: "Sorafenib", brand: "Nexavar", modality: "Small-molecule multi-kinase inhibitor (VEGFR, PDGFR, RAF)", status: "approved", wikipedia: W("Sorafenib"),
     tldr: "The first drug ever to extend life in advanced liver cancer (2007), now mostly a comparator arm that newer combinations are measured against.",
     summary: "SHARP: OS 10.7 vs 7.9 months versus placebo (HR 0.69). Standard first-line therapy for a decade until REFLECT (lenvatinib non-inferior) and IMbrave150 (atezolizumab-bevacizumab superior). Also approved in RCC and radioiodine-refractory thyroid cancer. Hand-foot skin reaction and diarrhoea dominate toxicity.",
     mechanism: "Oral inhibitor of VEGFR1-3, PDGFR-β, KIT, FLT3 and RAF kinases; anti-angiogenic and anti-proliferative.",

@@ -7,7 +7,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const baseDrugs: DrugInput[] = [
   // ======================= ADCs =======================
   {
-    id: "sacituzumab-govitecan", kind: "drug", name: "Sacituzumab govitecan", brand: "Trodelvy", code: "IMMU-132", modality: "ADC", asOf, status: "approved", wikipedia: W("Sacituzumab_govitecan"),
+    id: "sacituzumab-govitecan", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sacituzumab%20govitecan" }], name: "Sacituzumab govitecan", brand: "Trodelvy", code: "IMMU-132", modality: "ADC", asOf, status: "approved", wikipedia: W("Sacituzumab_govitecan"),
     payload: "SN-38 (topoisomerase-I inhibitor), DAR ~7.6", linker: "CL2A, pH-sensitive cleavable",
     tldr: "The first TROP2-targeted ADC. It delivers a strong chemotherapy directly to breast and bladder cancer cells and is now a first-line option in triple-negative breast cancer.",
     summary: "Approved 2020 (accelerated) and 2021 (full) for pretreated metastatic TNBC (ASCENT: OS 12.1 vs 6.7 months), 2023 for HR+/HER2- breast cancer (TROPiCS-02), and urothelial cancer (later withdrawn in the US after TROPiCS-04). In 2026 the FDA approved it in first-line metastatic TNBC as monotherapy for patients not eligible for PD-1 inhibitors (ASCENT-03) and in combination with pembrolizumab for PD-L1-positive disease (ASCENT-04). Hydrolysable linker releases SN-38 in the tumour microenvironment, giving bystander killing. Neutropenia and diarrhoea are the key toxicities; UGT1A1*28 homozygotes are at higher risk.",
@@ -301,7 +301,7 @@ const baseDrugs: DrugInput[] = [
     cancers: ["nsclc", "sclc", "cholangiocarcinoma", "hcc", "urothelial", "gastric", "tnbc"], trials: ["tropion-breast05"],
   },
   {
-    id: "relatlimab-nivolumab", kind: "drug", name: "Relatlimab + nivolumab", brand: "Opdualag", modality: "Fixed-dose bispecific combination (anti-LAG-3 + anti-PD-1)", asOf, status: "approved", wikipedia: W("Nivolumab/relatlimab"),
+    id: "relatlimab-nivolumab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Relatlimab" }], name: "Relatlimab + nivolumab", brand: "Opdualag", modality: "Fixed-dose bispecific combination (anti-LAG-3 + anti-PD-1)", asOf, status: "approved", wikipedia: W("Nivolumab/relatlimab"),
     tldr: "Opdualag combines relatlimab, the first drug targeting the LAG-3 immune brake, with nivolumab for melanoma.",
     summary: "RELATIVITY-047: PFS 10.1 vs 4.6 months versus nivolumab alone in untreated advanced melanoma with less toxicity than ipilimumab-nivolumab. Approved 2022. Adjuvant and other tumour trials ongoing.",
     mechanism: "Anti-LAG-3 plus anti-PD-1 in one infusion.",
@@ -417,7 +417,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cd19"], technologies: ["car-t"], companies: ["gilead"], cancers: ["dlbcl"],
   },
   {
-    id: "satricabtagene-autoleucel", kind: "drug", name: "Satricabtagene autoleucel", code: "satri-cel, CT041", modality: "CAR-T (Claudin 18.2)", asOf, status: "approved",
+    id: "satricabtagene-autoleucel", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Satricabtagene%20autoleucel" }], name: "Satricabtagene autoleucel", code: "satri-cel, CT041", modality: "CAR-T (Claudin 18.2)", asOf, status: "approved",
     tldr: "Satricabtagene autoleucel (satri-cel) is the first CAR-T therapy approved for a solid tumour (gastric cancer), in China.",
     summary: "CARsgen's CLDN18.2 CAR-T. Randomised phase 2 in China (2025) showed PFS and OS benefit versus physician's choice in pretreated CLDN18.2+ gastric/GEJ cancer; NMPA approval followed in 2025-26 per company reports. US trials ongoing. Gastric mucosal toxicity is on-target.",
     mechanism: "Humanised CLDN18.2 scFv CAR-T; lymphodepletion with nab-paclitaxel-containing regimen.",
@@ -506,7 +506,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["alk"], technologies: ["kinase-inhibitors"], companies: ["pfizer"], cancers: ["nsclc"],
   },
   {
-    id: "sotorasib", kind: "drug", name: "Sotorasib", brand: "Lumakras", modality: "Small-molecule inhibitor (KRAS G12C)", asOf, status: "approved", wikipedia: W("Sotorasib"),
+    id: "sotorasib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sotorasib" }], name: "Sotorasib", brand: "Lumakras", modality: "Small-molecule inhibitor (KRAS G12C)", asOf, status: "approved", wikipedia: W("Sotorasib"),
     tldr: "Sotorasib (Lumakras) was the first drug to hit KRAS, approved in 2021 after four decades of failure.",
     summary: "CodeBreaK 100 (NSCLC ORR 37%), CodeBreaK 200 (PFS vs docetaxel), CodeBreaK 300 (with panitumumab in colorectal cancer, approved January 2025). Full approval in NSCLC pending confirmatory data.",
     mechanism: "Covalent binder to cysteine-12 in the switch-II pocket, locking KRAS G12C in the inactive GDP state.",
@@ -539,7 +539,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["braf", "egfr"], technologies: ["kinase-inhibitors"], companies: ["pfizer"], cancers: ["colorectal", "melanoma", "nsclc"],
   },
   {
-    id: "selpercatinib", kind: "drug", name: "Selpercatinib", brand: "Retevmo", modality: "Small-molecule kinase inhibitor (RET)", asOf, status: "approved", wikipedia: W("Selpercatinib"),
+    id: "selpercatinib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Selpercatinib" }], name: "Selpercatinib", brand: "Retevmo", modality: "Small-molecule kinase inhibitor (RET)", asOf, status: "approved", wikipedia: W("Selpercatinib"),
     tldr: "Selpercatinib is a selective RET inhibitor approved for any tumour with a RET fusion, with a further label update in July 2026.",
     summary: "LIBRETTO-001 (NSCLC ORR ~84% treatment-naive), LIBRETTO-431 (first-line vs chemo-immunotherapy), LIBRETTO-531 (medullary thyroid vs cabozantinib/vandetanib). Tumour-agnostic RET-fusion approval 2022; July 2026 FDA action listed among that month's oncology approvals.",
     mechanism: "Highly selective RET TKI.",
@@ -579,7 +579,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["parp"], technologies: ["parp-inhibitor"], companies: ["gsk"], cancers: ["ovarian", "prostate"],
   },
   {
-    id: "talazoparib", kind: "drug", name: "Talazoparib", brand: "Talzenna", modality: "Small-molecule PARP inhibitor", asOf, status: "approved", wikipedia: W("Talazoparib"),
+    id: "talazoparib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Talazoparib" }], name: "Talazoparib", brand: "Talzenna", modality: "Small-molecule PARP inhibitor", asOf, status: "approved", wikipedia: W("Talazoparib"),
     tldr: "Talazoparib is the most potent PARP trapper, approved in BRCA breast cancer and with enzalutamide in prostate cancer.",
     summary: "EMBRACA (gBRCA HER2- metastatic breast), TALAPRO-2 (with enzalutamide in mCRPC; HRR-mutant label 2023, OS benefit 2024-25). Pfizer.",
     mechanism: "PARP inhibitor with ~100x greater trapping than olaparib.",
@@ -595,7 +595,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cdk4-6"], technologies: ["cdk46-inhibitor"], companies: ["pfizer"], cancers: ["breast-hr-positive", "breast-her2-positive"],
   },
   {
-    id: "ribociclib", kind: "drug", name: "Ribociclib", brand: "Kisqali", modality: "Small-molecule CDK4/6 inhibitor", asOf, status: "approved", wikipedia: W("Ribociclib"),
+    id: "ribociclib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ribociclib" }], name: "Ribociclib", brand: "Kisqali", modality: "Small-molecule CDK4/6 inhibitor", asOf, status: "approved", wikipedia: W("Ribociclib"),
     tldr: "Ribociclib is the CDK4/6 inhibitor with the most consistent survival benefit, approved for a broad population of early breast cancer patients since 2024.",
     summary: "MONALEESA-2/3/7 (OS benefit in all three), NATALEE (adjuvant stage II-III HR+/HER2-, iDFS HR 0.75, approved September 2024). Novartis. QT prolongation and liver enzymes need monitoring.",
     mechanism: "CDK4-biased CDK4/6 inhibitor.",
@@ -659,7 +659,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["hif2a"], technologies: ["kinase-inhibitors"], companies: ["merck"], cancers: ["rcc"],
   },
   {
-    id: "relacorilant", kind: "drug", name: "Relacorilant", brand: "Lifyorli", modality: "Small-molecule glucocorticoid receptor antagonist", asOf, status: "approved",
+    id: "relacorilant", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Relacorilant" }], name: "Relacorilant", brand: "Lifyorli", modality: "Small-molecule glucocorticoid receptor antagonist", asOf, status: "approved",
     tldr: "A first-in-class drug that blocks cortisol signalling in tumour cells, approved in 2026 for platinum-resistant ovarian cancer with chemotherapy.",
     summary: "Corcept's ROSELLA phase 3: with nab-paclitaxel improved PFS and OS versus nab-paclitaxel alone. Approved Q1 2026. Glucocorticoid receptor activation is a chemoresistance mechanism.",
     mechanism: "Selective GR antagonist restoring chemosensitivity.",
@@ -667,7 +667,7 @@ const baseDrugs: DrugInput[] = [
     companies: ["corcept"], cancers: ["ovarian"], technologies: ["cytotoxic-chemotherapy"],
   },
   {
-    id: "revumenib", kind: "drug", name: "Revumenib", brand: "Revuforj", modality: "Small-molecule menin inhibitor", asOf, status: "approved", wikipedia: W("Revumenib"),
+    id: "revumenib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Revumenib" }], name: "Revumenib", brand: "Revuforj", modality: "Small-molecule menin inhibitor", asOf, status: "approved", wikipedia: W("Revumenib"),
     tldr: "Revumenib (Revuforj) is the first menin inhibitor (2024), for acute leukaemias with KMT2A rearrangements or NPM1 mutations.",
     summary: "AUGMENT-101: CR/CRh ~23% in heavily pretreated KMT2A-rearranged leukaemia; NPM1-mutant AML approval 2025. Differentiation syndrome and QT prolongation. Syndax. Ziftomenib (Kura/Kyowa Kirin) approved 2025.",
     mechanism: "Disrupts menin-KMT2A interaction, releasing differentiation block.",
@@ -740,7 +740,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["oncolytic-virus"], companies: ["replimune", "bms"], cancers: ["melanoma"], drugs: ["nivolumab"],
   },
   {
-    id: "talimogene-laherparepvec", kind: "drug", name: "Talimogene laherparepvec", brand: "Imlygic", code: "T-VEC", modality: "Oncolytic virus (HSV-1)", asOf, status: "approved", wikipedia: W("Talimogene_laherparepvec"),
+    id: "talimogene-laherparepvec", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Talimogene%20laherparepvec" }], name: "Talimogene laherparepvec", brand: "Imlygic", code: "T-VEC", modality: "Oncolytic virus (HSV-1)", asOf, status: "approved", wikipedia: W("Talimogene_laherparepvec"),
     tldr: "Talimogene laherparepvec (T-VEC, Imlygic) was the first approved oncolytic virus (2015), injected into melanoma skin lesions.",
     summary: "OPTiM: durable response rate 16% vs 2% for GM-CSF. Modest uptake; combination with pembrolizumab (MASTERKEY-265) did not improve PFS/OS. Amgen.",
     mechanism: "HSV-1 with ICP34.5 and ICP47 deleted, expressing GM-CSF.",

@@ -55,7 +55,7 @@ const terms: TermInput[] = [
 
 // ======================= PRODUCTS =======================
 const drugs: DrugInput[] = [
-  d({ id: "octreotide-lanreotide", name: "Somatostatin analogues (octreotide, lanreotide)", brand: "Sandostatin LAR, Somatuline Depot", modality: "Peptide hormone analogue (SSTR2 agonist)", status: "approved", wikipedia: W("Octreotide"),
+  d({ id: "octreotide-lanreotide", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Somatostatin%20analogues" }], name: "Somatostatin analogues (octreotide, lanreotide)", brand: "Sandostatin LAR, Somatuline Depot", modality: "Peptide hormone analogue (SSTR2 agonist)", status: "approved", wikipedia: W("Octreotide"),
     tldr: "Monthly injections of a synthetic hormone that both quiets tumour hormone symptoms and slows tumour growth, the first treatment for most neuroendocrine tumours.",
     summary: "Octreotide (1988) controls carcinoid syndrome; PROMID (2009) showed octreotide LAR delays progression in midgut NETs (TTP 14.3 vs 6.0 months); CLARINET (2014) showed lanreotide improves PFS across enteropancreatic NETs (median not reached vs 18 months, HR 0.47). Standard first-line antiproliferative therapy for SSTR-positive grade 1-2 disease; also premedication against carcinoid crisis.",
     mechanism: "SSTR2/5 agonism suppresses hormone secretion and proliferation; PROMID and CLARINET established the antiproliferative effect.",
@@ -72,7 +72,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Stomatitis", anyGradePct: 64, grade3PlusPct: 7, note: "RADIANT-3" }, { event: "Rash", anyGradePct: 49 }, { event: "Hyperglycaemia", anyGradePct: 13, grade3PlusPct: 5 }, { event: "Pneumonitis", anyGradePct: 17, grade3PlusPct: 2 }],
     approvals: [{ region: "US", year: 2011, indication: "Progressive pancreatic NETs" }, { region: "US", year: 2016, indication: "Progressive non-functional lung and GI NETs" }],
     targets: ["akt"], technologies: ["kinase-inhibitors"], companies: ["novartis"], cancers: ["neuroendocrine", "breast-hr-positive", "rcc"], trials: ["radiant-3-4", "compete"], pathways: ["pi3k-akt-mtor"] }),
-  d({ id: "sunitinib", name: "Sunitinib", brand: "Sutent", modality: "Small-molecule multi-kinase inhibitor (VEGFR, PDGFR, KIT)", status: "approved", wikipedia: W("Sunitinib"),
+  d({ id: "sunitinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sunitinib" }], name: "Sunitinib", brand: "Sutent", modality: "Small-molecule multi-kinase inhibitor (VEGFR, PDGFR, KIT)", status: "approved", wikipedia: W("Sunitinib"),
     tldr: "Sunitinib is an anti-angiogenic pill approved for pancreatic neuroendocrine tumours, kidney cancer and GIST.",
     summary: "Phase 3 in pancreatic NETs (Raymond 2011): PFS 11.4 vs 5.5 months, stopped early for benefit. Largely displaced in RCC by immunotherapy combinations; still standard second-line in GIST.",
     mechanism: "Oral inhibitor of VEGFR1-3, PDGFR, KIT, FLT3, RET.",

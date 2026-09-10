@@ -114,7 +114,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Cytokine release syndrome", anyGradePct: 58, grade3PlusPct: 0, note: "MagnetisMM-3 cohort A" }, { event: "Infections", anyGradePct: 70, grade3PlusPct: 40 }, { event: "Neutropenia", grade3PlusPct: 49 }],
     approvals: [{ region: "US", year: 2023, indication: "Relapsed/refractory myeloma after ≥4 lines (accelerated)" }],
     targets: ["bcma", "cd3"], technologies: ["t-cell-engager"], companies: ["pfizer"], cancers: ["multiple-myeloma"], trials: ["magnetismm-3"], terms: ["crs"] }),
-  d({ id: "talquetamab", name: "Talquetamab", brand: "Talvey", modality: "Bispecific T-cell engager (GPRC5D×CD3)", status: "approved", wikipedia: W("Talquetamab"),
+  d({ id: "talquetamab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Talquetamab" }], name: "Talquetamab", brand: "Talvey", modality: "Bispecific T-cell engager (GPRC5D×CD3)", status: "approved", wikipedia: W("Talquetamab"),
     tldr: "Talquetamab is the first drug against GPRC5D, a second myeloma target used after BCMA therapies stop working; taste and skin side effects are its signature.",
     summary: "MonumenTAL-1: ORR ~73% at both weekly and biweekly doses, including ~65% in patients after prior T-cell redirection. Accelerated approval August 2023. Combinations with teclistamab (RedirecTT-1: ORR ~80% with extramedullary disease) and daratumumab (TRIMM-2) in phase 3 (MonumenTAL-3/-5/-6).",
     mechanism: "Humanised IgG4 GPRC5D×CD3 bispecific; GPRC5D is expressed on plasma cells and keratinised tissue.",

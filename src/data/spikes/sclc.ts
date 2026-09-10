@@ -129,7 +129,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Neutropenia (grade 4)", grade3PlusPct: 70 }, { event: "Thrombocytopenia (grade 4)", grade3PlusPct: 27 }, { event: "Anaemia", anyGradePct: 90 }, { event: "Diarrhoea (oral)", anyGradePct: 30 }],
     approvals: [{ region: "US", year: 1996, indication: "Relapsed SCLC (IV)" }, { region: "US", year: 2007, indication: "Relapsed SCLC (oral)" }],
     technologies: ["topoisomerase-inhibitors", "cytotoxic-chemotherapy"], cancers: ["sclc", "ovarian", "cervical"], trials: ["dellphi-304", "atlantis", "ideate-lung02"] }),
-  d({ id: "serplulimab", name: "Serplulimab", brand: "Hansizhuang / Hetronifly", code: "HLX10", modality: "Monoclonal antibody (anti-PD-1)", status: "approved",
+  d({ id: "serplulimab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Serplulimab" }], name: "Serplulimab", brand: "Hansizhuang / Hetronifly", code: "HLX10", modality: "Monoclonal antibody (anti-PD-1)", status: "approved",
     tldr: "Serplulimab is a Chinese PD-1 antibody with the largest survival gain of any first-line small-cell lung cancer immunotherapy trial, approved in China, Europe, and the UK but not yet the US.",
     summary: "ASTRUM-005: OS 15.4 vs 10.9 months with carboplatin-etoposide. Approved in China (2022, first PD-1 for ES-SCLC), EU (2025), UK, India, Korea. US bridging trial versus atezolizumab (ASTRIDE) fully enrolled; FDA decision pending. Henlius, with Accord in Europe.",
     mechanism: "Humanised IgG4 anti-PD-1.",

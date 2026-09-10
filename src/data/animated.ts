@@ -6,6 +6,7 @@
 import { add, antibody, antibodyTips, cylinder, dots, empty, helix, icosahedron, lerp, lerp3, line, movePart, octahedron, part, phase, polyline, ring, setAlpha, sphere, type Mesh, type Part, type Vec3 } from "@/lib/wireframe";
 import { WAVE3 } from "./animated-wave3";
 import { WAVE4 } from "./animated-wave4";
+import { WAVE5 } from "./animated-wave5";
 
 const TAU = Math.PI * 2;
 const cell = (r: number, cls?: string) => sphere(r, 5, 10, cls);
@@ -533,5 +534,6 @@ export const ANIMATED: Record<string, () => Mesh> = {
   "til-therapy": () => tilAnimated(),
   ...WAVE3, // thirty more technologies (transplants, screening, interventional, nutrition, registries, palliative care, …)
   ...WAVE4, // forty more (diagnostics, supportive care, complementary and lifestyle evidence, manufacturing and trial infrastructure)
+  ...WAVE5, // forty more (molecular diagnostics, prevention and diet evidence, prehabilitation and ePRO, radiopharma and cell-therapy supply chains)
 };
 

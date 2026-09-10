@@ -47,6 +47,9 @@ import { nciCoverage } from "./nci-coverage";
 import { institutionsIndia } from "./institutions/india";
 import { india } from "./india";
 import { china } from "./china";
+import { approvedWave1 } from "./drugs-approved-wave1";
+import { targetsWave1 } from "./targets-wave1";
+import { companiesWave1 } from "./companies-wave1";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -97,4 +100,7 @@ export const ALL_INPUTS: EntityInput[] = [
   ...institutionsIndia,
   ...india,
   ...china,
+  ...approvedWave1,
+  ...targetsWave1,
+  ...companiesWave1,
 ];

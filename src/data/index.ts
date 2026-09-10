@@ -41,6 +41,7 @@ import { ideaWaves } from "./ideas-waves";
 import { mechanicsPathways } from "./mechanics-pathways";
 import { complementary } from "./complementary";
 import { tests } from "./tests";
+import { nciCoverage } from "./nci-coverage";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -85,4 +86,5 @@ export const ALL_INPUTS: EntityInput[] = [
   ...mechanicsPathways,
   ...complementary,
   ...tests,
+  ...nciCoverage,
 ];

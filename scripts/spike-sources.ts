@@ -45,6 +45,6 @@ export const SPIKE_FILES: Record<string, Spike> = {
 };
 
 /** Spike files that are not spikes (the registry itself, and gap-cancers which exports plain entities). */
-export const NON_SPIKE_FILES = ["index", "gap-cancers"];
+export const NON_SPIKE_FILES = ["index", "gap-cancers", "nci-paediatric", "nci-rare-solid", "nci-rare-other"];
 
 export const spikeSources: Spike[] = Object.values(SPIKE_FILES);

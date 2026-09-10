@@ -139,7 +139,7 @@ const drugs: DrugInput[] = [
     mechanism: "ATP-competitive second-generation ALK inhibitor, CNS-penetrant, spares ROS1.",
     approvals: [{ region: "US", year: 2015, indication: "ALK+ NSCLC after crizotinib" }, { region: "US", year: 2017, indication: "First-line ALK+ NSCLC" }, { region: "US", year: 2024, indication: "Adjuvant ALK+ NSCLC after resection (stage IB ≥4 cm to IIIA)" }],
     targets: ["alk"], technologies: ["kinase-inhibitors"], companies: ["roche-genentech"], cancers: ["nsclc"], trials: ["alina"] }),
-  d({ id: "lazertinib", name: "Lazertinib", brand: "Lazcluze", modality: "Small-molecule kinase inhibitor (EGFR)", status: "approved", wikipedia: W("Lazertinib"),
+  d({ id: "lazertinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lazertinib" }], name: "Lazertinib", brand: "Lazcluze", modality: "Small-molecule kinase inhibitor (EGFR)", status: "approved", wikipedia: W("Lazertinib"),
     tldr: "A third-generation EGFR pill used together with amivantamab as the first regimen to beat osimertinib in EGFR-mutant lung cancer.",
     summary: "Developed by Yuhan, licensed to Janssen. Approved August 2024 only in combination with amivantamab (MARIPOSA: PFS HR 0.70; OS HR 0.75 with median >12 months longer than osimertinib, 2025). Rash, paronychia, and venous thromboembolism (prophylactic anticoagulation for 4 months) are the combination's main burdens.",
     mechanism: "Irreversible mutant-selective EGFR TKI (exon 19 del, L858R, T790M), CNS-penetrant.",

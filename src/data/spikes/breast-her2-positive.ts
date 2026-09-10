@@ -182,7 +182,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Diarrhoea", anyGradePct: 95, grade3PlusPct: 40, note: "without prophylaxis; ~15% grade 3 with escalation" }, { event: "Nausea", anyGradePct: 43 }, { event: "Fatigue", anyGradePct: 27 }],
     approvals: [{ region: "US", year: 2017, indication: "Extended adjuvant HER2+ early breast cancer after trastuzumab" }, { region: "US", year: 2020, indication: "HER2+ metastatic breast cancer with capecitabine after ≥2 anti-HER2 regimens" }],
     targets: ["her2", "egfr"], technologies: ["kinase-inhibitors"], companies: ["puma-biotechnology"], cancers: ["breast-her2-positive"] }),
-  d({ id: "lapatinib", name: "Lapatinib", brand: "Tykerb", modality: "Small-molecule reversible HER2/EGFR kinase inhibitor", status: "approved", wikipedia: W("Lapatinib"),
+  d({ id: "lapatinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lapatinib" }], name: "Lapatinib", brand: "Tykerb", modality: "Small-molecule reversible HER2/EGFR kinase inhibitor", status: "approved", wikipedia: W("Lapatinib"),
     tldr: "Lapatinib was the first HER2-blocking pill (2007) and is now mostly a comparator arm and a late-line option, displaced by tucatinib and ADCs.",
     summary: "Approved with capecitabine after trastuzumab (EGF100151: TTP 8.4 vs 4.4 months) and with letrozole. Adjuvant ALTTO negative; neoadjuvant NeoALTTO raised pCR but not survival. Diarrhoea and rash; hepatotoxicity warning. The control arm in ACE-Breast-02 and other Chinese ADC trials.",
     mechanism: "Reversible dual EGFR/HER2 ATP-competitive inhibitor.",

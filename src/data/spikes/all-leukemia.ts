@@ -32,7 +32,7 @@ const companies: CompanyInput[] = [
 
 // ======================= PRODUCTS =======================
 const drugs: DrugInput[] = [
-  d({ id: "inotuzumab-ozogamicin", name: "Inotuzumab ozogamicin", brand: "Besponsa", modality: "ADC", status: "approved", wikipedia: W("Inotuzumab_ozogamicin"),
+  d({ id: "inotuzumab-ozogamicin", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Inotuzumab%20ozogamicin" }], name: "Inotuzumab ozogamicin", brand: "Besponsa", modality: "ADC", status: "approved", wikipedia: W("Inotuzumab_ozogamicin"),
     payload: "Calicheamicin (DNA-cleaving enediyne), DAR ~6", linker: "Acid-labile hydrazone (AcBut)",
     tldr: "Inotuzumab ozogamicin is an antibody carrying a DNA-cutting toxin to CD22 on leukaemia cells. It gets far more relapsed ALL patients into remission than chemotherapy and bridges them to transplant.",
     summary: "INO-VATE (n=326): CR/CRi 80.7% vs 29.4% vs standard chemotherapy, more MRD-negative remissions and transplants; OS 7.7 vs 6.7 months (HR 0.77), significant on the 2-year landmark. Approved 2017 (adults); paediatric approval 2024 (ITCC-059). Hepatic veno-occlusive disease after transplant (boxed warning) is mitigated by limiting cycles and avoiding dual-alkylator conditioning. Moving frontline for older adults (ALLIANCE A041501; Mini-hyper-CVD + InO) and children (COG AALL1732).",

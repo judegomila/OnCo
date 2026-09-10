@@ -127,7 +127,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["met"], technologies: ["adc"], companies: ["abbvie"], cancers: ["nsclc"],
   },
   {
-    id: "zynlonta", kind: "drug", name: "Loncastuximab tesirine", brand: "Zynlonta", modality: "ADC", asOf, status: "approved", wikipedia: W("Loncastuximab_tesirine"),
+    id: "zynlonta", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Loncastuximab%20tesirine" }], name: "Loncastuximab tesirine", brand: "Zynlonta", modality: "ADC", asOf, status: "approved", wikipedia: W("Loncastuximab_tesirine"),
     payload: "SG3199 (PBD dimer, DNA crosslinker), DAR ~2.3", linker: "Val-Ala, cleavable",
     tldr: "Loncastuximab tesirine (Zynlonta) is a CD19 ADC with a DNA-crosslinking payload for relapsed large B-cell lymphoma.",
     summary: "Approved 2021 for relapsed/refractory DLBCL after ≥2 lines (LOTIS-2, ORR 48%). PBD payloads are extremely potent but carry oedema, photosensitivity, and effusion toxicity, limiting the class in solid tumours.",
@@ -136,7 +136,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cd19"], technologies: ["adc"], companies: ["adc-therapeutics"], cancers: ["dlbcl"],
   },
   {
-    id: "gemtuzumab-ozogamicin", kind: "drug", name: "Gemtuzumab ozogamicin", brand: "Mylotarg", modality: "ADC", asOf, status: "approved", wikipedia: W("Gemtuzumab_ozogamicin"),
+    id: "gemtuzumab-ozogamicin", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Gemtuzumab%20ozogamicin" }], name: "Gemtuzumab ozogamicin", brand: "Mylotarg", modality: "ADC", asOf, status: "approved", wikipedia: W("Gemtuzumab_ozogamicin"),
     payload: "Calicheamicin (DNA cleaver), DAR ~2-3", linker: "Acid-labile hydrazone",
     tldr: "Gemtuzumab ozogamicin (Mylotarg) was the very first ADC: approved in 2000, withdrawn in 2010 for toxicity, and re-approved in 2017 at a lower fractionated dose. Its history is cautionary and instructive.",
     summary: "First-generation ADC with unstable linker and heterogeneous conjugation. Re-approval based on ALFA-0701 with fractionated dosing in CD33+ AML, showing event-free survival benefit with induction chemotherapy.",
@@ -268,7 +268,7 @@ const baseDrugs: DrugInput[] = [
     trials: ["checkmate-067"],
   },
   {
-    id: "ipilimumab", kind: "drug", name: "Ipilimumab", brand: "Yervoy", modality: "Monoclonal antibody (anti-CTLA-4)", asOf, status: "approved", wikipedia: W("Ipilimumab"),
+    id: "ipilimumab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ipilimumab" }], name: "Ipilimumab", brand: "Yervoy", modality: "Monoclonal antibody (anti-CTLA-4)", asOf, status: "approved", wikipedia: W("Ipilimumab"),
     tldr: "Ipilimumab was the first checkpoint inhibitor (2011), and proved the immune system could be unleashed against cancer.",
     summary: "Monotherapy improved OS in melanoma (2010 NEJM); now mostly used with nivolumab in melanoma, RCC, MSI-H CRC, HCC, mesothelioma, and NSCLC. Immune-related adverse events are frequent (colitis, hypophysitis).",
     mechanism: "Fully human IgG1 anti-CTLA-4; enhances T-cell priming and depletes intratumoural Tregs.",
@@ -343,7 +343,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["bcma", "cd3"], technologies: ["t-cell-engager"], companies: ["johnson-johnson"], cancers: ["multiple-myeloma"],
   },
   {
-    id: "glofitamab", kind: "drug", name: "Glofitamab", brand: "Columvi", modality: "Bispecific T-cell engager (CD20×CD3, 2:1)", asOf, status: "approved", wikipedia: W("Glofitamab"),
+    id: "glofitamab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Glofitamab" }], name: "Glofitamab", brand: "Columvi", modality: "Bispecific T-cell engager (CD20×CD3, 2:1)", asOf, status: "approved", wikipedia: W("Glofitamab"),
     tldr: "Glofitamab is a fixed-duration bispecific for large B-cell lymphoma, with OS benefit when combined with chemotherapy.",
     summary: "Accelerated approval 2023 (ORR 56%, CR 43% in relapsed DLBCL after ≥2 lines). STARGLO showed OS benefit with GemOx in transplant-ineligible relapsed DLBCL (FDA declined in 2025 citing regional heterogeneity; approved in EU and elsewhere).",
     mechanism: "2:1 CD20:CD3 format with obinutuzumab pre-treatment to mitigate CRS.",
@@ -425,7 +425,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cldn18-2"], technologies: ["car-t"], companies: ["carsgen"], cancers: ["gastric", "pancreatic"],
   },
   {
-    id: "lifileucel", kind: "drug", name: "Lifileucel", brand: "Amtagvi", modality: "TIL cell therapy", asOf, status: "approved", wikipedia: W("Lifileucel"),
+    id: "lifileucel", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lifileucel" }], name: "Lifileucel", brand: "Amtagvi", modality: "TIL cell therapy", asOf, status: "approved", wikipedia: W("Lifileucel"),
     tldr: "Lifileucel was the first approved TIL therapy: the patient's own tumour-fighting immune cells are expanded to billions and given back.",
     summary: "Accelerated approval February 2024 for anti-PD-1-refractory advanced melanoma (C-144-01: ORR 31%; 5-year data show median DOR 36.5 months and ~30% of responders in ongoing response). Confirmatory TILVANCE-301 with pembrolizumab in first line. EU approval 2025. Trials in NSCLC, cervical, and endometrial cancer.",
     mechanism: "Autologous TILs expanded ex vivo with IL-2; lymphodepletion; high-dose IL-2 after infusion.",
@@ -443,7 +443,7 @@ const baseDrugs: DrugInput[] = [
 
   // ======================= RADIOPHARMACEUTICALS =======================
   {
-    id: "pluvicto", kind: "drug", name: "Lutetium-177 vipivotide tetraxetan", brand: "Pluvicto", code: "177Lu-PSMA-617", modality: "Radioligand therapy (beta)", asOf, status: "approved", wikipedia: W("Lutetium_(177Lu)_vipivotide_tetraxetan"),
+    id: "pluvicto", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lutetium-177%20vipivotide%20tetraxetan" }], name: "Lutetium-177 vipivotide tetraxetan", brand: "Pluvicto", code: "177Lu-PSMA-617", modality: "Radioligand therapy (beta)", asOf, status: "approved", wikipedia: W("Lutetium_(177Lu)_vipivotide_tetraxetan"),
     tldr: "A radioactive drug that seeks out PSMA on prostate cancer cells; the best-selling radiopharmaceutical ever.",
     summary: "VISION (2021): OS 15.3 vs 11.3 months in post-chemotherapy mCRPC. PSMAfore (2023) led to a 2025 label before chemotherapy. July 2026 FDA action further expanded the label (per AACR/FDA roundups). PSMAddition tests it in hormone-sensitive disease. Requires PSMA PET positivity. Six cycles every 6 weeks; xerostomia, cytopenias, renal monitoring.",
     mechanism: "Small-molecule PSMA ligand chelated to 177Lu; beta emission with 2 mm range.",
@@ -451,7 +451,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["psma"], technologies: ["radioligand-therapy", "psma-pet"], companies: ["novartis"], cancers: ["prostate"], trials: ["vision", "psmafore"],
   },
   {
-    id: "lutathera", kind: "drug", name: "Lutetium-177 dotatate", brand: "Lutathera", code: "177Lu-DOTATATE", modality: "Radioligand therapy (beta)", asOf, status: "approved", wikipedia: W("Lutetium_(177Lu)_oxodotreotide"),
+    id: "lutathera", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lutetium-177%20dotatate" }], name: "Lutetium-177 dotatate", brand: "Lutathera", code: "177Lu-DOTATATE", modality: "Radioligand therapy (beta)", asOf, status: "approved", wikipedia: W("Lutetium_(177Lu)_oxodotreotide"),
     tldr: "Lutetium-177 dotatate was the first modern radioligand therapy (2018), for neuroendocrine tumours, and is now used in first line.",
     summary: "NETTER-1 (midgut NETs after octreotide) and NETTER-2 (2024; first-line high-grade-2/3 GEP-NETs, PFS 22.8 vs 8.5 months). Paediatric approval 2024. Alpha-emitting successors RYZ101 and AlphaMedix are in phase 3.",
     mechanism: "SSTR2 agonist peptide with 177Lu.",
@@ -498,7 +498,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["egfr"], technologies: ["kinase-inhibitors"], companies: ["astrazeneca"], cancers: ["nsclc"], trials: ["adaura", "flaura2"],
   },
   {
-    id: "lorlatinib", kind: "drug", name: "Lorlatinib", brand: "Lorbrena", modality: "Small-molecule kinase inhibitor (ALK/ROS1)", asOf, status: "approved", wikipedia: W("Lorlatinib"),
+    id: "lorlatinib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lorlatinib" }], name: "Lorlatinib", brand: "Lorbrena", modality: "Small-molecule kinase inhibitor (ALK/ROS1)", asOf, status: "approved", wikipedia: W("Lorlatinib"),
     tldr: "An ALK inhibitor with the longest disease control ever recorded for a targeted lung cancer pill: 60% progression-free at five years.",
     summary: "CROWN: 5-year PFS 60% versus 8% for crizotinib; near-complete CNS protection. Neurocognitive and lipid side effects need management.",
     mechanism: "Macrocyclic third-generation ALK/ROS1 TKI covering G1202R.",
@@ -619,7 +619,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["akt", "pik3ca"], technologies: ["kinase-inhibitors"], companies: ["astrazeneca"], cancers: ["breast-hr-positive", "prostate"],
   },
   {
-    id: "inavolisib", kind: "drug", name: "Inavolisib", brand: "Itovebi", modality: "Small-molecule PI3Kα inhibitor and degrader", asOf, status: "approved", wikipedia: W("Inavolisib"),
+    id: "inavolisib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Inavolisib" }], name: "Inavolisib", brand: "Itovebi", modality: "Small-molecule PI3Kα inhibitor and degrader", asOf, status: "approved", wikipedia: W("Inavolisib"),
     tldr: "Inavolisib is a PI3K drug that also destroys the mutant protein, approved in 2024 with palbociclib and fulvestrant for PIK3CA-mutant breast cancer.",
     summary: "INAVO120: PFS 15.0 vs 7.3 months in endocrine-resistant PIK3CA-mutant HR+/HER2- breast cancer; OS benefit reported 2025. Roche/Genentech.",
     mechanism: "PI3Kα-selective inhibitor that promotes degradation of mutant p110α.",
@@ -627,7 +627,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["pik3ca"], technologies: ["kinase-inhibitors"], companies: ["roche-genentech"], cancers: ["breast-hr-positive"],
   },
   {
-    id: "gedatolisib", kind: "drug", name: "Gedatolisib", brand: "Revtorpyk", modality: "Small-molecule pan-PI3K/mTOR inhibitor", asOf, status: "approved",
+    id: "gedatolisib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Gedatolisib" }], name: "Gedatolisib", brand: "Revtorpyk", modality: "Small-molecule pan-PI3K/mTOR inhibitor", asOf, status: "approved",
     tldr: "An intravenous drug that blocks the whole PI3K/mTOR pathway, approved in July 2026 for hormone-positive breast cancer.",
     summary: "Celcuity's VIKTORIA-1 (with palbociclib and fulvestrant after CDK4/6 inhibitor progression in PIK3CA-wild-type HR+/HER2- breast cancer) supported FDA approval in July 2026, listed among that month's oncology approvals. Notable for activity in PIK3CA-wild-type disease.",
     mechanism: "Pan-class I PI3K and mTORC1/2 inhibitor, intravenous weekly.",
@@ -691,7 +691,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["bcl2"], technologies: ["kinase-inhibitors"], companies: ["abbvie", "roche-genentech"], cancers: ["cll", "aml"],
   },
   {
-    id: "imatinib", kind: "drug", name: "Imatinib", brand: "Gleevec", modality: "Small-molecule kinase inhibitor (BCR-ABL, KIT, PDGFRA)", asOf, status: "approved", wikipedia: W("Imatinib"),
+    id: "imatinib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Imatinib" }], name: "Imatinib", brand: "Gleevec", modality: "Small-molecule kinase inhibitor (BCR-ABL, KIT, PDGFRA)", asOf, status: "approved", wikipedia: W("Imatinib"),
     tldr: "The drug that started the targeted therapy era in 2001, turning chronic myeloid leukaemia into a manageable condition with near-normal life expectancy.",
     summary: "CML (IRIS: 10-year OS ~83%), GIST (adjuvant 3 years), and rare kinase-driven tumours. Now generic. The proof that a cancer could be switched off by blocking one enzyme.",
     mechanism: "ATP-competitive inhibitor of ABL, KIT, PDGFR.",

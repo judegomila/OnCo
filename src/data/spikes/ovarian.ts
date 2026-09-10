@@ -189,7 +189,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2025, indication: "KRAS-mutated recurrent low-grade serous ovarian cancer after prior systemic therapy (accelerated)" }],
     regulatoryEvents: [{ date: "2025-05-08", type: "approval", region: "US", note: "Accelerated approval on RAMP 201; RAMP 301 confirmatory", source: "https://www.targetedonc.com/view/avutometinib-plus-defactinib-gains-fda-approval-in-kras-ovarian-cancer" }],
     targets: ["kras"], technologies: ["kinase-inhibitors"], pathways: ["ras-mapk"], companies: ["verastem"], cancers: ["ovarian"], trials: ["ramp-201"], terms: ["lgsoc"] }),
-  d({ id: "letrozole", name: "Letrozole", brand: "Femara", modality: "Small-molecule aromatase inhibitor", status: "approved", wikipedia: W("Letrozole"),
+  d({ id: "letrozole", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Letrozole" }], name: "Letrozole", brand: "Femara", modality: "Small-molecule aromatase inhibitor", status: "approved", wikipedia: W("Letrozole"),
     tldr: "A hormone-blocking pill, standard in breast cancer, that is also the preferred maintenance treatment for low-grade serous ovarian cancer.",
     summary: "Approved 1997 for breast cancer. In LGSOC, retrospective series and the NRG-GY019 trial concept support endocrine maintenance; letrozole is now widely used after surgery or chemotherapy in LGSOC and in ER-positive endometrial cancer (often with palbociclib or abemaciclib). Cheap and well tolerated; bone loss and arthralgia are the main issues.",
     mechanism: "Non-steroidal aromatase inhibitor; blocks conversion of androgens to oestrogen in peripheral tissue and tumour.",

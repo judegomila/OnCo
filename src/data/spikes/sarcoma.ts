@@ -67,7 +67,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Neutropenia", grade3PlusPct: 60, note: "single-agent 75 mg/m2 (ANNOUNCE control arm)" }, { event: "Cardiomyopathy (cumulative)", anyGradePct: 5, note: "at 400 mg/m2; rises steeply above 550 mg/m2" }, { event: "Alopecia", anyGradePct: 90 }, { event: "Nausea/vomiting", anyGradePct: 60 }],
     approvals: [{ region: "US", year: 1974, indication: "Broad: sarcomas, lymphomas, leukaemias, breast, and other solid tumours" }],
     technologies: ["cytotoxic-chemotherapy", "cardio-oncology"], cancers: ["sarcoma", "dlbcl", "hodgkin-lymphoma", "tnbc", "breast-hr-positive"], access: [{ country: "US", generic: true, listPrice: "Generic; low cost", asOf: "2026-09-07" }] }),
-  d({ id: "ifosfamide", name: "Ifosfamide", brand: "Ifex", modality: "Cytotoxic chemotherapy (alkylating agent)", status: "approved", wikipedia: W("Ifosfamide"),
+  d({ id: "ifosfamide", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ifosfamide" }], name: "Ifosfamide", brand: "Ifex", modality: "Cytotoxic chemotherapy (alkylating agent)", status: "approved", wikipedia: W("Ifosfamide"),
     tldr: "Ifosfamide is an alkylating chemotherapy partnered with doxorubicin in sarcoma and with etoposide in Ewing sarcoma, given with a bladder-protecting drug.",
     summary: "Approved 1988 (testicular cancer); standard in AIM (sarcoma), MAP-IE (osteosarcoma), VDC/IE (Ewing, INT-0091). Requires mesna uroprotection; encephalopathy and nephrotoxicity are characteristic.",
     mechanism: "Prodrug activated by CYP2B6/3A4 to an alkylating mustard causing DNA crosslinks; chloroacetaldehyde metabolite causes neuro- and nephrotoxicity.",

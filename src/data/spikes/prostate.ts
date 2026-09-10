@@ -176,7 +176,7 @@ const drugs: DrugInput[] = [
     summary: "Phase 1: PSA50 in ~40% at the recommended dose with CRS rates far below other engagers; phase 3 (KLK2-P3-01) in mCRPC after ARPI ± taxane began 2025.",
     mechanism: "Low-affinity CD3 arm and KLK2 targeting; designed for outpatient dosing.",
     targets: ["klk2", "cd3"], technologies: ["t-cell-engager"], companies: ["johnson-johnson"], cancers: ["prostate"], terms: ["crs"] }),
-  d({ id: "ga68-psma-11", name: "Gallium-68 gozetotide (PSMA-11)", brand: "Illuccix / Gozellix / Locametz", modality: "PET imaging agent", status: "approved", wikipedia: W("Gallium-68_PSMA-11"),
+  d({ id: "ga68-psma-11", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Gallium-68%20gozetotide" }], name: "Gallium-68 gozetotide (PSMA-11)", brand: "Illuccix / Gozellix / Locametz", modality: "PET imaging agent", status: "approved", wikipedia: W("Gallium-68_PSMA-11"),
     tldr: "Gallium-68 PSMA-11 was the first PSMA PET tracer approved in the US (2020), and is made on site from a generator or cyclotron.",
     summary: "UCLA/UCSF academic NDA (2020) established PSMA PET; Telix's Illuccix (kit, 2021) and Gozellix (2025, longer shelf-life), Novartis' Locametz (2022, companion for Pluvicto). Competes with 18F agents (Pylarify, Posluma) that offer central distribution.",
     mechanism: "68Ga-labelled urea-based PSMA ligand.",

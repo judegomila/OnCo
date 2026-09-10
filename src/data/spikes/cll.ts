@@ -19,7 +19,7 @@ const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: 
 
 // ======================= PRODUCTS =======================
 const drugs: DrugInput[] = [
-  d({ id: "ibrutinib", name: "Ibrutinib", brand: "Imbruvica", modality: "Small-molecule covalent BTK inhibitor (first generation)", status: "approved", wikipedia: W("Ibrutinib"),
+  d({ id: "ibrutinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ibrutinib" }], name: "Ibrutinib", brand: "Imbruvica", modality: "Small-molecule covalent BTK inhibitor (first generation)", status: "approved", wikipedia: W("Ibrutinib"),
     tldr: "The pill that ended chemotherapy for most CLL. It blocks the survival signal B cells depend on, and it was the first drug to beat chemoimmunotherapy in nearly every CLL setting.",
     summary: "Approved 2014 (relapsed CLL, RESONATE), 2016 (frontline, RESONATE-2), and with venetoclax as fixed-duration therapy (GLOW, CAPTIVATE; EU 2022). Also mantle cell lymphoma (withdrawn in the US 2023), Waldenström, marginal zone (withdrawn), and chronic GVHD. Off-target inhibition of EGFR, TEC, and CSK causes atrial fibrillation (~10-16%), hypertension, bleeding, and arthralgia; head-to-head trials (ELEVATE-RR, ALPINE) showed acalabrutinib and zanubrutinib are better tolerated, and zanubrutinib more effective, so ibrutinib is now second choice where alternatives exist.",
     mechanism: "Covalent binding to cysteine 481 in the BTK active site irreversibly blocks BCR signalling; also inhibits ITK, TEC, EGFR (off-target).",
@@ -77,7 +77,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Infusion-related reactions (first infusion)", anyGradePct: 77, note: "Historic lymphoma data; lower with premedication", source: label("Rituxan") }, { event: "Hepatitis B reactivation", note: "Boxed warning; screen all patients" }, { event: "Late-onset neutropenia", anyGradePct: 8 }],
     approvals: [{ region: "US", year: 1997, indication: "Relapsed follicular lymphoma; first antibody approved for cancer" }, { region: "US", year: 2010, indication: "CLL with fludarabine and cyclophosphamide" }],
     targets: ["cd20"], technologies: ["monoclonal-antibody"], companies: ["roche-genentech"], cancers: ["cll", "dlbcl"], terms: ["adcc"] }),
-  d({ id: "lisocabtagene-maraleucel", name: "Lisocabtagene maraleucel", brand: "Breyanzi", code: "liso-cel", modality: "CAR-T (CD19, defined CD4:CD8)", status: "approved", wikipedia: W("Lisocabtagene_maraleucel"),
+  d({ id: "lisocabtagene-maraleucel", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lisocabtagene%20maraleucel" }], name: "Lisocabtagene maraleucel", brand: "Breyanzi", code: "liso-cel", modality: "CAR-T (CD19, defined CD4:CD8)", status: "approved", wikipedia: W("Lisocabtagene_maraleucel"),
     tldr: "Lisocabtagene maraleucel is the only CAR-T approved for chronic lymphocytic leukaemia, for patients whose disease has outrun both BTK and BCL-2 inhibitors.",
     summary: "TRANSCEND CLL 004: in CLL/SLL after BTK and venetoclax failure, CR/CRi 18-20%, ORR 47%, uMRD in blood 64%, durable in complete responders; accelerated approval March 2024. Also approved in LBCL (second line, TRANSFORM), follicular lymphoma, mantle cell lymphoma, and marginal zone lymphoma (2025). Defined 1:1 CD4:CD8 composition; 4-1BB costimulation. Lower CRS/ICANS than CD28-based products.",
     mechanism: "Autologous CD19 CAR-T (4-1BB) manufactured as separate CD4 and CD8 components and infused at a fixed ratio.",

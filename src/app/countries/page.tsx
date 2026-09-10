@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
+import Link from "next/link";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CountryRanking, type CountryRow } from "@/components/CountryRanking";
 import { countryExtras } from "@/data/country-extras";
@@ -25,6 +26,7 @@ export default function Countries() {
         lede={`Oncology research output by country from OpenAlex (${raw.years[0]}–${y1}), with growth, highly cited share, open access, ClinicalTrials.gov sites, cancer burden, and the national funder. Ranked by a disclosed composite score. In ${y1} the leaders by volume were ${top.map((t) => t.name).join(", ")}.`} />
       <Container className="pb-16">
         <CountryRanking rows={rows} years={raw.years} />
+        <p className="mt-4 text-sm text-muted">Country deep dives: <Link href="/countries/in/" className="underline">India</Link> (cancer profile, paying for care, CDSCO, institutions, companies, trials and people).</p>
 
         <section className="mt-12 grid gap-6 lg:grid-cols-2 text-[15px] leading-relaxed max-w-6xl">
           <div>

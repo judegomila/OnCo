@@ -14,9 +14,9 @@ export type AccessRow = { drugId: string; drug: string; route: string; modality:
 export type PatientOrg = { id: string; name: string; tldr: string; route: string; url: string };
 
 /** drug.access[] uses "UK" and "EU"; schemes use ISO2 "GB" and "EU". Map a filter value to the codes each dataset uses. */
-const ACCESS_CODES: Record<string, string[]> = { US: ["US"], GB: ["UK"], EU: ["EU", "DE"], DE: ["DE", "EU"], JP: ["JP"], CN: ["CN"], AU: ["AU"], CA: ["CA"] };
-const SCHEME_CODES: Record<string, string[]> = { US: ["US"], GB: ["GB"], EU: ["EU"], DE: ["EU"], JP: ["JP"], CN: ["CN"], AU: ["AU"], CA: ["CA"] };
-const REGION_TO_COUNTRY: Record<Region, string> = { US: "US", UK: "GB", EU: "EU", JP: "JP", CN: "CN", AU: "AU" };
+const ACCESS_CODES: Record<string, string[]> = { US: ["US"], GB: ["UK"], EU: ["EU", "DE"], DE: ["DE", "EU"], JP: ["JP"], CN: ["CN"], AU: ["AU"], CA: ["CA"], IN: ["IN"] };
+const SCHEME_CODES: Record<string, string[]> = { US: ["US"], GB: ["GB"], EU: ["EU"], DE: ["EU"], JP: ["JP"], CN: ["CN"], AU: ["AU"], CA: ["CA"], IN: ["IN"] };
+const REGION_TO_COUNTRY: Record<Region, string> = { US: "US", UK: "GB", EU: "EU", JP: "JP", CN: "CN", AU: "AU", IN: "IN" };
 const KIND_LABEL: Record<AssistanceScheme["kind"], string> = { public: "Public scheme", charity: "Charity", manufacturer: "Manufacturer", legal: "Legal right" };
 
 const isUrl = (s?: string) => !!s && /^https?:\/\//.test(s);
@@ -53,7 +53,7 @@ export function AssistanceBrowser({ rows, schemes, orgs }: { rows: AccessRow[]; 
   }, [profileReady, profile.priorLines, rows]);
 
   const countryOptions = useMemo(() => {
-    const codes = new Set<string>(["US", "GB", "EU", "DE", "JP", "CN", "AU", "CA"]);
+    const codes = new Set<string>(["US", "GB", "EU", "DE", "JP", "CN", "AU", "CA", "IN"]);
     return [...codes].map((c) => ({ value: c, label: ASSISTANCE_COUNTRIES[c] ?? c }));
   }, []);
 

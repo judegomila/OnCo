@@ -86,7 +86,7 @@ Logos 882 entries (166 new), trial snapshots for all 530 products (17 changes), 
 Orphans 84 (from 2,185), records without a source 415 (from 2,974), backlink gaps 355 (from 595). Remaining orphans are regional hospitals, news-outlet collections and five journals.
 
 ## Gauges after the 10 Sept evening round
-- Plain-language sentences 5,519 of 6,303 (88%); translations in all eight languages 1,464 (third wave of 1,000 running); people with papers 946 of 1,152; technology schematics 224 of 411 specific (wave 6 running); trial outcomes: 5 more filled, 33 left are genuinely unreported; glossary terms 80 without Wikipedia, 61 documented as having no certain source; regional approvals gauge clear; NCI cancer types and NCI drug list 100% matched.
+- Plain-language sentences 5,519 of 6,303 (88%); translations in all eight languages 1,464 (third wave of 1,000 running); people with papers 946 of 1,152; technology schematics 224 of 411 specific (wave 6 running); trial outcomes: 5 more filled, 33 left are genuinely unreported; glossary terms 80 without Wikipedia, 61 documented as having no certain source; molecules gauge clear (409 of 530 products have a structure, the rest are explained placeholders: cells, vaccines, tests, devices); regional approvals gauge clear; NCI cancer types and NCI drug list 100% matched.
 - Still open for the owner's return: reviewed pages 0 (needs named reviewers), Google Search Console token, npm publish of the CLI and MCP packages, deleting the stray Vercel project, Discussions category.
 
 ## Merge lessons (10 Sept)

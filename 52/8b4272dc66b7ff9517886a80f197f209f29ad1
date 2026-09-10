@@ -1,0 +1,33 @@
+src/data/cost-levers.ts
+  s_0beac9cb5d78fd::t_46001dacbb1d40 1-181
+src/data/ideas-waves/wave-costs.ts
+  s_0beac9cb5d78fd::t_46001dacbb1d40 1-259
+src/lib/nav.ts
+  ai_agent 87-88,137-138
+src/app/costs/page.tsx
+  s_0beac9cb5d78fd::t_46001dacbb1d40 1-125
+src/data/coverage-rankings.ts
+  s_0beac9cb5d78fd::t_46001dacbb1d40 1-317
+src/data/ideas-waves/index.ts
+  s_0beac9cb5d78fd::t_46001dacbb1d40 12,15
+src/app/coverage/rankings/page.tsx
+  s_0beac9cb5d78fd::t_46001dacbb1d40 1-142
+src/components/PlanRankings.tsx
+  s_0beac9cb5d78fd::t_46001dacbb1d40 1-90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "528b4272dc66b7ff9517886a80f197f209f29ad1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

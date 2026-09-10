@@ -4,6 +4,11 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 ## [Unreleased]
 
+### Added
+- Startups and investors: company records gain optional `stage`, `ycBatch`, `investors`, `funding` (sourced rounds, amounts only where the source states them) and `acquiredBy`; `companyType: "investor"` for venture funds, corporate venture arms, an accelerator and disease foundations, whose portfolios are derived from backlinks.
+- 62 Y Combinator companies attacking cancer, drawn from the open YC directory dataset and checked one by one (`src/data/companies-yc.ts`, snapshot with every hit and its decision in `src/data/universe-lists/yc-oncology.json`); 187 further venture-backed oncology companies across therapeutics, diagnostics, AI, digital care, radiotherapy hardware, surgery and tools (`src/data/companies-startups.ts`); 69 investors (`src/data/investors.ts`).
+- `/startups/` (stage strip, YC batch chips, filters by stage, modality, cancer, batch, investor and country, most active investors, recently funded) and `/investors/`; Funding panel on company pages, Portfolio panel on investor pages; stage and investor facets on `/companies/`; Startups and Investors in the Institutions & people group.
+
 ## [0.4.0] - 2026-09-08
 
 ### Added

@@ -95,10 +95,10 @@ export function mostActiveInvestors(): Array<{ investor: Company; portfolio: Com
     .sort((a, b) => b.portfolio.length - a.portfolio.length || a.investor.name.localeCompare(b.investor.name));
 }
 
-/** Every sourced round in the corpus, newest first. */
+/** Every sourced financing round in the corpus, newest first. Acquisitions are recorded as rounds for traceability but are not money raised, so they are left out here. */
 export function recentlyFunded(limit = 30): Array<{ company: Company; round: FundingRound }> {
   const rows: Array<{ company: Company; round: FundingRound }> = [];
-  for (const c of graph().kind("company")) for (const round of c.funding) rows.push({ company: c, round });
+  for (const c of graph().kind("company")) for (const round of c.funding) if (!/^acquisition$/i.test(round.round)) rows.push({ company: c, round });
   rows.sort((a, b) => b.round.year - a.round.year || (b.round.amountUsd ?? 0) - (a.round.amountUsd ?? 0) || a.company.name.localeCompare(b.company.name));
   return rows.slice(0, limit);
 }

@@ -78,3 +78,9 @@ Console token, licensing contact email, stray Vercel project, Discussions catego
 
 Caveats already stated to the owner: a launch review after this much parallel change will find things to fix (plan a
 day); earlier CC BY 4.0 releases cannot be relicensed, CC BY-NC applies from this version onward.
+
+## Queued agent briefs (launch when a slot frees; 20-agent cap)
+- [x] Insurance rankings (/coverage/rankings/: US plans by published metrics, UK PMI, international funding table) and Getting costs down (running) (/costs/ with ideas wave-costs). Brief drafted 10 Sept; owner ask: "build a section for insurance rankings for oncology, coverage, costs ranges and add another section for getting costs down and ideas around that".
+- [x] Startups, YC and VC map with investors (running)
+- [x] Donors in the heroes section (running)
+- [x] Open Medical Registry links per section (running)

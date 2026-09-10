@@ -161,13 +161,13 @@ const entities: EntityInput[] = [
   {
     id: "ipsen", links: [{ label: "Official website", url: "https://www.ipsen.com" }], kind: "company", name: "Ipsen", hq: "Paris", country: "FR", companyType: "pharma", website: "https://www.ipsen.com", ticker: "IPN.PA", asOf,
     tldr: "Ipsen is the French pharma behind Onivyde (liposomal irinotecan) and the NALIRIFOX regimen, and marketer of tovorafenib in Europe.",
-    summary: "Onivyde/NALIRIFOX (NAPOLI 3), Cabometyx (ex-US), tazemetostat (Tazverik), Ojemda (tovorafenib, EU rights from Day One).",
+    summary: "Ipsen is the Paris-based pharmaceutical company, listed as IPN.PA, behind Onivyde, the liposomal irinotecan at the heart of the NALIRIFOX regimen for pancreatic cancer, and the European marketer of tovorafenib for paediatric low-grade glioma under rights from Day One. Its oncology portfolio also includes Cabometyx outside the United States, tazemetostat for epithelioid sarcoma and somatostatin analogues for neuroendocrine tumours, with NAPOLI 3 establishing NALIRIFOX and CLARINET supporting lanreotide. OnCo links it to pancreatic ductal adenocarcinoma, glioma, neuroendocrine tumours and epithelioid sarcoma, and to the cabozantinib, irinotecan, tazemetostat and tovorafenib records. Whether NALIRIFOX becomes the default first-line regimen on value as well as efficacy is the open question. Each product has its own page.",
     drugs: ["nalirifox", "tovorafenib"], cancers: ["pancreatic", "glioblastoma"],
   },
   {
     id: "elicio-therapeutics", links: [{ label: "Official website", url: "https://elicio.com" }], kind: "company", name: "Elicio Therapeutics", hq: "Boston, MA", country: "US", companyType: "biotech", website: "https://elicio.com", ticker: "ELTX", asOf,
     tldr: "Small biotech developing lymph-node-targeted KRAS vaccines for pancreatic and colorectal cancer.",
-    summary: "ELI-002 7P (amphiphile mKRAS vaccine); AMPLIFY-7P phase 2 missed its primary endpoint in June 2026; phase 3 strategy being refined.",
+    summary: "Elicio Therapeutics, based in Boston and listed as ELTX, is a small biotechnology company developing lymph-node-targeted vaccines against mutant KRAS for pancreatic and colorectal cancer. Its lead candidate, ELI-002 7P, is an amphiphile vaccine designed to carry mutant KRAS peptides to lymph nodes, and the AMPLIFY-7P phase 2 trial missed its primary endpoint in June 2026, after which the company said its phase 3 strategy was being refined. OnCo links it to pancreatic ductal adenocarcinoma and to the bottleneck of undruggable drivers, since KRAS vaccination is one route around the difficulty of inhibiting the protein directly. Whether a shared-antigen KRAS vaccine can succeed in a phase 3 where the phase 2 did not is the open question. ELI-002 7P has its own page.",
     drugs: ["eli-002-7p"], cancers: ["pancreatic"],
   },
 

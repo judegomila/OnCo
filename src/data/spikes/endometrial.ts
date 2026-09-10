@@ -133,7 +133,7 @@ const drugs: DrugInput[] = [
 const companies: CompanyInput[] = [
   co({ id: "eisai", name: "Eisai", hq: "Tokyo", country: "JP", companyType: "pharma", website: "https://www.eisai.com", ticker: "4523.T", sections: ["targeted-therapy"],
     tldr: "Japanese pharma that discovered lenvatinib and eribulin and co-develops lenvatinib-pembrolizumab with Merck.",
-    summary: "Lenvatinib (Lenvima) across thyroid, liver, kidney, and endometrial cancer; eribulin (Halaven) in breast cancer and liposarcoma; also lecanemab in Alzheimer's disease.",
+    summary: "Eisai is the Tokyo-based pharmaceutical company, listed as 4523.T, that makes lenvatinib, sold as Lenvima, a first-line option in liver cancer and a partner of pembrolizumab in several tumours. Lenvatinib is approved in hepatocellular carcinoma on the REFLECT trial, in thyroid cancer, in renal cell carcinoma with everolimus or pembrolizumab, and in endometrial cancer with pembrolizumab, and Eisai co-develops the LEAP programme of lenvatinib plus pembrolizumab with Merck, in which LEAP-002 in first-line liver cancer and LEAP-012 with TACE both missed their overall survival endpoints. OnCo also links it to eribulin, palonosetron and denileukin diftitox, and to salivary gland cancers and thymic tumours. Whether the LEAP combination has further indications left after two negative liver trials is the open question. Lenvatinib has its own page.",
     drugs: ["lenvatinib"], cancers: ["endometrial", "hcc", "thyroid", "rcc"] }),
 ];
 

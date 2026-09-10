@@ -213,7 +213,7 @@ const companies: CompanyInput[] = [
     drugs: ["lenvatinib"], cancers: ["rcc", "hcc", "thyroid"] },
   { id: "aveo", links: [{ label: "Official website", url: "https://www.aveooncology.com" }], kind: "company", name: "AVEO Oncology (LG Chem)", hq: "Boston, MA", country: "US", companyType: "biotech", website: "https://www.aveooncology.com", asOf, sections: ["targeted-therapy"],
     tldr: "AVEO Oncology developed tivozanib and was acquired by LG Chem in 2023.",
-    summary: "Fotivda (tivozanib) in relapsed RCC; TiNivo-2 negative for IO rechallenge; ficlatuzumab (HGF) in head and neck cancer.",
+    summary: "AVEO Oncology, based in Boston, developed tivozanib and was acquired by LG Chem in 2023. Tivozanib, sold as Fotivda, is used in relapsed renal cell carcinoma, the TiNivo-2 trial of tivozanib as an immunotherapy rechallenge was negative, and ficlatuzumab, an HGF antibody, is in development for head and neck cancer. OnCo links it to renal cell carcinoma and to the tivozanib drug record. Whether a late-line VEGF inhibitor can keep a role as first-line immunotherapy combinations move the goalposts is the open question for its one marketed product. Tivozanib has its own page.",
     drugs: ["tivozanib"], cancers: ["rcc"] },
 ];
 

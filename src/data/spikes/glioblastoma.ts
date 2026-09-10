@@ -167,13 +167,13 @@ const entities: EntityInput[] = [
   {
     id: "day-one-biopharmaceuticals", links: [{ label: "Official website", url: "https://www.dayonebio.com" }], kind: "company", name: "Day One Biopharmaceuticals", hq: "Brisbane, CA", country: "US", companyType: "biotech", website: "https://www.dayonebio.com", ticker: "DAWN", asOf,
     tldr: "Paediatric-first oncology company whose tovorafenib became the first targeted therapy for childhood low-grade glioma.",
-    summary: "Ojemda (tovorafenib) US approval 2024; Ipsen holds ex-US rights; LOGGIPY-2 first-line phase 3; pimasertib (MEK) combinations.",
+    summary: "Day One Biopharmaceuticals, based in Brisbane, California, and listed as DAWN, is a paediatric-first oncology company whose tovorafenib became the first targeted therapy for childhood low-grade glioma. Ojemda, its brand of tovorafenib, was approved in the United States in 2024 on the FIREFLY-1 trial, Ipsen holds the rights outside the United States, the LOGGIPY-2 phase 3 tests it in the first-line setting, and pimasertib, a MEK inhibitor, is being developed in combinations. OnCo links it to glioma and paediatric low-grade glioma and to the bottleneck of rare and paediatric cancers without markets, which its model of developing drugs for children first is meant to answer. Whether a company can sustain itself on paediatric indications alone is the open question. Tovorafenib has its own page.",
     drugs: ["tovorafenib"], cancers: ["glioblastoma"],
   },
   {
     id: "northwest-biotherapeutics", links: [{ label: "Official website", url: "https://nwbio.com" }], kind: "company", name: "Northwest Biotherapeutics", hq: "Bethesda, MD", country: "US", companyType: "cell-therapy", website: "https://nwbio.com", ticker: "NWBO", asOf,
     tldr: "Northwest Biotherapeutics developed the DCVax-L dendritic cell vaccine for glioblastoma and is seeking UK approval on contested phase 3 data.",
-    summary: "DCVax-L MHRA application (December 2023) pending; manufacturing at Sawston, UK. Not FDA-approved.",
+    summary: "Northwest Biotherapeutics, based in Bethesda and listed as NWBO, developed DCVax-L, a dendritic cell vaccine for glioblastoma made from a patient's own tumour and immune cells, and is seeking UK approval on contested phase 3 data. Its application to the MHRA was filed in December 2023 and remains pending, manufacturing is based at Sawston in the United Kingdom, and the product is not approved by the FDA. OnCo links it to glioma and glioblastoma and to the DCVax-L drug record, where the trial design debate is covered. Whether a regulator will accept a phase 3 whose design and analysis are disputed is the open question, and the answer will matter beyond this one product. DCVax-L has its own page.",
     drugs: ["dcvax-l"], cancers: ["glioblastoma"],
   },
 

@@ -232,7 +232,7 @@ const drugs: DrugInput[] = [
 const companies: CompanyInput[] = [
   co({ id: "karyopharm", links: [{ label: "Official website", url: "https://www.karyopharm.com" }], name: "Karyopharm Therapeutics", hq: "Newton, MA", country: "US", companyType: "biotech", website: "https://www.karyopharm.com", ticker: "KPTI", sections: ["targeted-therapy"],
     tldr: "Karyopharm makes selinexor, the first nuclear export inhibitor, approved in myeloma; its endometrial cancer bet failed in 2026.",
-    summary: "Selinexor (Xpovio) is approved in multiple myeloma and DLBCL. The phase 3 XPORT-EC-042 trial of maintenance selinexor in TP53-wild-type endometrial cancer missed its primary endpoint (July 2026), and the company refocused on myelofibrosis and myeloma.",
+    summary: "Karyopharm Therapeutics, based in Newton, Massachusetts, and listed as KPTI, makes selinexor, sold as Xpovio, the first nuclear export inhibitor, approved in multiple myeloma and diffuse large B-cell lymphoma. Its bet on endometrial cancer failed in 2026 when the phase 3 XPORT-EC-042 trial of maintenance selinexor in TP53-wild-type disease missed its primary endpoint in July, after which the company refocused on myelofibrosis and myeloma. OnCo links it to endometrial cancer, to the XPORT-EC-042 trial record and to selinexor. Whether a biomarker-selected maintenance strategy failed because of the drug or because of the TP53 hypothesis is the question the trial leaves open. Selinexor has its own page.",
     drugs: ["selinexor"] }),
 ];
 

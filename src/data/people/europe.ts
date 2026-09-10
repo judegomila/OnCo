@@ -517,7 +517,7 @@ export const peopleEurope: PersonInput[] = [
     tldr: "Created the ESMO Magnitude of Clinical Benefit Scale, the standard tool for grading how much a cancer drug really helps.", summary: "Nathan Cherny led the development of the ESMO-MCBS, which grades trial results by magnitude of benefit and is used by health systems worldwide; he is a palliative medicine physician in Jerusalem.",
     profiles: [pubmed("Cherny NI[Author] ESMO-MCBS")], terms: ["standard-of-care"],
     papers: [{ title: "A standardised, generic, validated approach to stratify the magnitude of clinical benefit that can be anticipated from anti-cancer therapies: the ESMO Magnitude of Clinical Benefit Scale (ESMO-MCBS)", journal: "Annals of Oncology", year: 2015, doi: "10.1093/annonc/mdv249" }] }),
-  p({ id: "andres-cervantes", name: "Andrés Cervantes", role: "Professor of Medicine, University of Valencia; Head of Medical Oncology, INCLIVA; ESMO President 2023-2024", institutionId: "esmo", institutions: ["esmo"],
+  p({ id: "andres-cervantes", name: "Andrés Cervantes", role: "Professor of Medicine, University of Valencia; Head of Medical Oncology, INCLIVA; ESMO President 2023-2024", institutionId: "esmo", institutions: ["esmo", "incliva-valencia"],
     specialisms: ["Gastrointestinal oncology", "Colorectal cancer", "Guidelines"],
     tldr: "Andrés Cervantes is a gastrointestinal oncologist and was ESMO President for 2023-2024.", summary: "Andrés Cervantes leads medical oncology in Valencia and chaired ESMO guideline work in colorectal cancer before serving as ESMO President.",
     profiles: [pubmed("Cervantes A[Author] colorectal")], cancers: ["colorectal"] }),

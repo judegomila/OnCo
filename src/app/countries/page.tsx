@@ -17,7 +17,7 @@ export default function Countries() {
   const g = graph();
   const instByCountry = new Map<string, number>();
   for (const i of g.kind("institution")) instByCountry.set(i.country, (instByCountry.get(i.country) ?? 0) + 1);
-  // Country deep dives live at /countries/<code>/ (for example /countries/china/); link them from the ranking when the page exists.
+  // Country deep dives live at /countries/<code>/ (for example /countries/cn/); link them from the ranking when the page exists.
   const deepDives = Object.keys(raw.countries).filter((code) => routeExists(`/countries/${code.toLowerCase()}/`)).map((code) => code);
   const rows: CountryRow[] = Object.entries(raw.countries).map(([code, c]) => ({ code, ...c, ...(countryExtras[code] ?? {}), name: countryExtras[code]?.name ?? c.name, institutions: instByCountry.get(code) ?? 0 }));
   const y1 = raw.years[raw.years.length - 1];

@@ -13,7 +13,7 @@ import data from "../../../../public/openalex/countries.json";
 export const metadata: Metadata = pageMeta({
   title: "China: the second engine of cancer drug development",
   description: "China in oncology: the cancer burden and what is being done about it, the NMPA and CDE reforms, NRDL price negotiation, Healthy China 2030, hepatitis B vaccination, the domestic PD-1s, ADCs, bispecifics, CAR-Ts and KRAS inhibitors approved by the NMPA, the companies and out-licensing deals, the institutions and the people, every fact with a primary source.",
-  path: "/countries/china/",
+  path: "/countries/cn/",
 });
 
 type Raw = { years: number[]; countries: Record<string, { name: string; works: Record<string, number>; total: number; trials?: number }> };

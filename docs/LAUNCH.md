@@ -17,7 +17,7 @@ Merge finished worktree agents before the chain; never `cd` into a worktree; nev
 - [ ] Homepage front schematics quality (renderer depth cues, mesh rework)
 - [x] Completeness denominators per kind (/completeness/, roadmap panel, fetch:universe): merged 10 Sept, 28 denominators, headline 841 of 2,578 listed items
 - [x] India deep dive (institutions, companies, CDSCO region, trials, people, /countries/in/): finished 10 Sept, merge pending
-- [x] China deep dive (/countries/china/, 20 drugs, 20 companies, 18 trials, 17 people): finished 10 Sept, merge pending
+- [x] China deep dive (/countries/cn/, 20 drugs, 20 companies, 18 trials, 17 people): finished 10 Sept, merge pending
 - [ ] Glossary Wikipedia links and aliases; schematics wave 3; KOL people; research leaders batches; summaries chunks; portraits (wired and live 10 Sept, 77 photos)
 
 ## Owner asks not yet started

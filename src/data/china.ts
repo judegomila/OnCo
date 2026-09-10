@@ -3,7 +3,7 @@ import type { CompanyInput, DrugInput, EntityInput, InstitutionInput, TrialInput
 /**
  * China deep dive (September 2026): the domestic innovative oncology products, companies,
  * institutions and pivotal trials that make China the second engine of cancer drug development,
- * plus the sourced facts behind /countries/china/.
+ * plus the sourced facts behind /countries/cn/.
  *
  * Rules: every approval carries the regulator and year; every trial number comes from the primary
  * publication linked in `links`; deal terms are as announced (see deals.ts). Records that already

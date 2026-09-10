@@ -119,7 +119,6 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   sugemalimab: { US: NF("No BLA"), EU: A(2024, epar("cejemly"), "1L metastatic NSCLC with platinum chemotherapy; Jul 2024"), UK: UR("MHRA application"), CN: A(2021, NMPA, "1L metastatic NSCLC Dec 2021; stage III after CRT 2022") },
   adebrelimab: { US: NF("No BLA"), CN: A(2023, NMPA, "1L ES-SCLC with carboplatin-etoposide (Mar 2023)") },
   envafolimab: { US: NF("TRACON North American programme discontinued"), CN: A(2021, NMPA, "Previously treated MSI-H/dMMR solid tumours (Nov 2021); first subcutaneous PD-L1") },
-  retifanlimab: { US: A(2023), EU: A(2024, epar("zynyz"), "Merkel cell carcinoma") },
 
   // ================= Bispecifics / T-cell engagers =================
   blinatumomab: global("Blincyto", "blincyto", 2014, 2015, 2015, 2018, 2020, 2016),
@@ -445,7 +444,6 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   copanlisib: { US: W(2023, undefined, "Aliqopa accelerated approval Sep 2017; withdrawn by Bayer Nov 2023 after CHRONOS-4"), EU: W(undefined, epar("aliqopa"), "Marketing authorisation application withdrawn before a CHMP opinion") },
   mobocertinib: { US: W(2023, undefined, "Exkivity accelerated approval Sep 2021; withdrawn by Takeda Oct 2023 after EXCLAIM-2"), EU: W(undefined, epar("exkivity"), "Marketing authorisation application withdrawn before a CHMP opinion") },
 
-=======
   // ================= India-first products =================
   "talicabtagene-autoleucel": { IN: IN(2023, "https://immunoact.com", "Relapsed or refractory B-cell lymphoma and B-ALL", "NexCAR19 (ImmunoACT); first CAR-T approved in India") },
   "varnimcabtagene-autoleucel": { IN: IN(2024, "https://www.immuneel.com", "Relapsed or refractory B-cell lymphoma", "Qartemi (Immuneel); Indian version of Barcelona's ARI-0001, which is approved in Spain under the hospital exemption") },

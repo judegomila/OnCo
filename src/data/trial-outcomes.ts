@@ -386,7 +386,11 @@ const RAW: Record<string, TrialOutcomeIn> = {
     outcomes: [{ endpoint: "Progression-free survival (IRRC)", primary: true, unit: "months", arms: [{ name: "Ivonescimab", n: 198, value: 11.1 }, { name: "Pembrolizumab", n: 200, value: 5.8 }], hr: 0.51, ci: [0.38, 0.69], p: "<0.0001", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02722-3/fulltext" }],
     replication: "Single-country (China) trial; OS immature. The global HARMONi-3 interim did not reproduce the PFS margin, so replication outside China is unresolved.",
   },
-  "harmoni-3": { enrolled: 1080, outcomes: [], replication: "Ongoing; interim PFS analysis in 2026 did not meet significance per the sponsor; OS pending." },
+  "harmoni-3": {
+    enrolled: 1080,
+    outcomes: [{ endpoint: "Progression-free survival (interim analysis, May 2026)", primary: true, unit: "months", arms: [{ name: "Ivonescimab + chemotherapy" }, { name: "Pembrolizumab + chemotherapy" }], note: "Interim PFS analysis did not reach statistical significance per the sponsor (announced 30 April 2026); hazard ratio and medians not disclosed. Final PFS and OS analyses pending.", source: ct("NCT05899608") }],
+    replication: "Ongoing; interim PFS analysis in 2026 did not meet significance per the sponsor; OS pending.",
+  },
   "herthena-lung02": {
     enrolled: 586,
     outcomes: [
@@ -413,7 +417,14 @@ const RAW: Record<string, TrialOutcomeIn> = {
     ],
     replication: "Consistent with KRYSTAL-12 (adagrasib) on PFS; the FDA declined full approval at the 960 mg dose pending further data.",
   },
-  "krascendo-1": { enrolled: 320, outcomes: [], replication: "Topline reported July 2026; numbers pending presentation." },
+  "krascendo-1": {
+    enrolled: 338,
+    outcomes: [
+      { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Divarasib" }, { name: "Sotorasib or adagrasib" }], note: "Primary endpoint met with a statistically significant, clinically meaningful improvement per the sponsor (topline 2 July 2026); medians and hazard ratio pending presentation.", source: ct("NCT06497556") },
+      { endpoint: "Overall survival (interim)", unit: "months", arms: [{ name: "Divarasib" }, { name: "Sotorasib or adagrasib" }], note: "Statistically significant OS improvement at the interim analysis per the sponsor; numbers pending.", source: ct("NCT06497556") },
+    ],
+    replication: "Topline reported July 2026; numbers pending presentation. First head-to-head phase 3 among KRAS G12C inhibitors, so no independent replication yet.",
+  },
   "libretto-431": {
     enrolled: 261,
     outcomes: [{ endpoint: "Progression-free survival (BICR), ITT-pembrolizumab population", primary: true, unit: "months", arms: [{ name: "Selpercatinib", n: 129, value: 24.8 }, { name: "Platinum-pemetrexed ± pembrolizumab", n: 83, value: 11.2 }], hr: 0.46, ci: [0.31, 0.70], p: "<0.001", source: nejm("NEJMoa2309457") }],
@@ -597,7 +608,15 @@ const RAW: Record<string, TrialOutcomeIn> = {
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "TTFields + gemcitabine/nab-paclitaxel", n: 284, value: 16.2 }, { name: "Gemcitabine/nab-paclitaxel", n: 287, value: 14.2 }], hr: 0.82, ci: [0.68, 0.99], p: "0.039", source: "https://ascopubs.org/doi/10.1200/JCO.25.00361" }],
     replication: "Single pivotal trial; open-label design and modest effect size are debated.",
   },
-  "amplify-7p": { enrolled: 144, outcomes: [], replication: "Randomised phase 2 missed its primary endpoint (June 2026) per the sponsor; numbers pending." },
+  "amplify-7p": {
+    enrolled: 144,
+    outcomes: [
+      { endpoint: "Disease-free survival (ITT)", primary: true, unit: "months", arms: [{ name: "ELI-002 7P" }, { name: "Observation" }], note: "Primary endpoint not met (sponsor release, 15 June 2026); ITT hazard ratio and medians not disclosed.", source: "https://elicio.com/press_releases/elicio-therapeutics-reports-results-from-phase-2-amplify-7p-study-and-outlines-refined-phase-3-development-strategy-for-eli-002-7p-in-adjuvant-pancreatic-cancer/" },
+      { endpoint: "Disease-free survival at 3 months (landmark)", unit: "%", arms: [{ name: "ELI-002 7P", value: 90.3 }, { name: "Observation", value: 76.6 }], p: "0.022", source: "https://elicio.com/press_releases/elicio-therapeutics-reports-results-from-phase-2-amplify-7p-study-and-outlines-refined-phase-3-development-strategy-for-eli-002-7p-in-adjuvant-pancreatic-cancer/" },
+      { endpoint: "Disease-free survival, R0-resected subgroup (post hoc)", unit: "months", arms: [{ name: "ELI-002 7P", value: 23.8 }, { name: "Observation", value: 12.8 }], hr: 0.65, p: "0.048", note: "Post hoc analysis of 121 R0-resected patients; hypothesis-generating only.", source: "https://elicio.com/press_releases/elicio-therapeutics-reports-results-from-phase-2-amplify-7p-study-and-outlines-refined-phase-3-development-strategy-for-eli-002-7p-in-adjuvant-pancreatic-cancer/" },
+    ],
+    replication: "Randomised phase 2 missed its primary ITT endpoint (June 2026); the post hoc R0 subgroup signal is unreplicated and the sponsor plans a refined phase 3.",
+  },
   // Glioma
   "eortc-26981": {
     enrolled: 573,
@@ -623,6 +642,153 @@ const RAW: Record<string, TrialOutcomeIn> = {
     enrolled: 745,
     outcomes: [{ endpoint: "Overall survival, minimal residual disease population", primary: true, unit: "months", arms: [{ name: "Rindopepimut + temozolomide", n: 371, value: 20.1 }, { name: "Control + temozolomide", n: 374, value: 20.0 }], hr: 1.01, ci: [0.79, 1.30], note: "Not significant", source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(17)30517-X/fulltext" }],
     replication: "Failed to replicate the phase 2 ACT III signal; EGFRvIII loss at recurrence in both arms undermined the target.",
+  },
+
+  // ---------------- Reported trials from spike / nutrition files ----------------
+  // Mesothelioma
+  "beat-meso": {
+    enrolled: 400,
+    outcomes: [
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Atezolizumab + bevacizumab + carboplatin-pemetrexed", n: 200, value: 20.5 }, { name: "Bevacizumab + carboplatin-pemetrexed", n: 200, value: 18.1 }], hr: 0.84, ci: [0.66, 1.06], p: "0.14", note: "Not significant; primary endpoint not met", source: "https://doi.org/10.1016/j.annonc.2024.12.014" },
+      { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Atezolizumab + bevacizumab + carboplatin-pemetrexed", value: 9.2 }, { name: "Bevacizumab + carboplatin-pemetrexed", value: 7.6 }], hr: 0.72, ci: [0.59, 0.89], p: "0.0021", source: "https://doi.org/10.1016/j.annonc.2024.12.014" },
+      { endpoint: "Overall survival, non-epithelioid histology", unit: "months", arms: [{ name: "Atezolizumab + bevacizumab + carboplatin-pemetrexed" }, { name: "Bevacizumab + carboplatin-pemetrexed" }], hr: 0.51, ci: [0.32, 0.80], note: "Pre-specified histology subgroup; interaction p = 0.012 (epithelioid HR 1.01, 95% CI 0.77-1.32)", source: "https://doi.org/10.1016/j.annonc.2024.12.014" },
+    ],
+    replication: "Primary OS endpoint missed; the non-epithelioid benefit echoes CheckMate 743, where ipilimumab-nivolumab helped non-epithelioid disease most. Not independently replicated.",
+  },
+  dream3r: {
+    outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Durvalumab + platinum-pemetrexed" }, { name: "Platinum-pemetrexed" }], note: "Trial closed early; primary OS endpoint not met at the analysis presented at ESMO 2025. Medians and hazard ratio pending publication.", source: ct("NCT04334759") }],
+    replication: "Did not confirm the single-arm PrE0505 and DREAM phase 2 signals; chemo-immunotherapy in mesothelioma rests on the ipilimumab-nivolumab (CheckMate 743) and IND.227 pembrolizumab data instead.",
+  },
+  // Urothelial
+  "ev-304": {
+    enrolled: 808,
+    outcomes: [
+      { endpoint: "Event-free survival at 2 years", primary: true, unit: "%", arms: [{ name: "Perioperative enfortumab vedotin + pembrolizumab", n: 405, value: 79.4 }, { name: "Neoadjuvant cisplatin-gemcitabine", n: 403, value: 66.2 }], hr: 0.53, ci: [0.41, 0.70], p: "<0.001", source: nejm("NEJMoa2601486") },
+      { endpoint: "Overall survival at 2 years", unit: "%", arms: [{ name: "Perioperative enfortumab vedotin + pembrolizumab", value: 86.9 }, { name: "Neoadjuvant cisplatin-gemcitabine", value: 81.3 }], hr: 0.65, ci: [0.48, 0.89], p: "0.006", source: nejm("NEJMoa2601486") },
+      { endpoint: "Pathological complete response", unit: "%", arms: [{ name: "Perioperative enfortumab vedotin + pembrolizumab", value: 55.8 }, { name: "Neoadjuvant cisplatin-gemcitabine", value: 32.5 }], p: "<0.001", source: nejm("NEJMoa2601486") },
+    ],
+    replication: "Mirrors EV-303/KEYNOTE-905 in cisplatin-ineligible MIBC (same regimen, EFS and OS benefit), so the perioperative EV + pembrolizumab effect has now been shown in two randomised populations.",
+  },
+  // Melanoma
+  "fianlimab-phase3-melanoma": {
+    enrolled: 1546,
+    outcomes: [
+      { endpoint: "Progression-free survival, fianlimab 1600 mg + cemiplimab vs pembrolizumab", primary: true, unit: "months", arms: [{ name: "Fianlimab 1600 mg + cemiplimab", n: 508, value: 11.5 }, { name: "Pembrolizumab", n: 462, value: 6.4 }], hr: 0.845, ci: [0.709, 1.008], p: "0.0627", note: "Not significant; primary endpoint not met", source: "https://www.cancernetwork.com/view/fianlimab-combo-does-not-significantly-improve-pfs-in-advanced-melanoma" },
+      { endpoint: "Progression-free survival, fianlimab 400 mg + cemiplimab vs pembrolizumab", primary: true, unit: "months", arms: [{ name: "Fianlimab 400 mg + cemiplimab", n: 422, value: 9.6 }, { name: "Pembrolizumab", n: 462, value: 6.4 }], hr: 0.931, ci: [0.773, 1.112], p: "0.4661", note: "Not significant", source: "https://www.cancernetwork.com/view/fianlimab-combo-does-not-significantly-improve-pfs-in-advanced-melanoma" },
+      { endpoint: "Progression-free survival, cemiplimab monotherapy arm", unit: "months", arms: [{ name: "Cemiplimab", n: 154, value: 6.3 }], source: "https://www.cancernetwork.com/view/fianlimab-combo-does-not-significantly-improve-pfs-in-advanced-melanoma" },
+    ],
+    replication: "Second LAG-3 setback after RELATIVITY-098; the numerical PFS gain at the high dose did not reproduce the phase 1 signal, and RELATIVITY-047 remains the only positive randomised LAG-3 trial in melanoma.",
+  },
+  "relativity-098": {
+    enrolled: 1093,
+    outcomes: [{ endpoint: "Recurrence-free survival", primary: true, unit: "months", arms: [{ name: "Nivolumab + relatlimab", n: 547 }, { name: "Nivolumab", n: 546 }], hr: 1.01, ci: [0.83, 1.22], p: "0.928", note: "No difference; OS not formally tested", source: "https://doi.org/10.1038/s41591-025-04032-8" }],
+    replication: "Failed to extend the RELATIVITY-047 advanced-disease benefit into the adjuvant setting; translational data attribute this to low peripheral LAG-3+ T cells without macroscopic tumour.",
+  },
+  "keynote-716": {
+    enrolled: 976,
+    outcomes: [
+      { endpoint: "Recurrence-free survival (first interim analysis)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab", n: 487 }, { name: "Placebo", n: 489 }], hr: 0.65, ci: [0.46, 0.92], p: "0.0066", note: "Median not reached in either arm; HR 0.61 (95% CI 0.45-0.82) at the second interim analysis", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00562-1/fulltext" },
+      { endpoint: "Distant metastasis-free survival at 36 months (final DMFS analysis)", unit: "%", arms: [{ name: "Pembrolizumab", value: 84.4 }, { name: "Placebo", value: 74.7 }], hr: 0.59, ci: [0.44, 0.79], source: "https://ascopubs.org/doi/10.1200/JCO.23.02355" },
+      { endpoint: "Recurrence-free survival at 36 months", unit: "%", arms: [{ name: "Pembrolizumab", value: 76.2 }, { name: "Placebo", value: 63.4 }], hr: 0.62, ci: [0.49, 0.79], source: "https://ascopubs.org/doi/10.1200/JCO.23.02355" },
+      { endpoint: "Recurrence-free survival at 48 months", unit: "%", arms: [{ name: "Pembrolizumab", value: 71.3 }, { name: "Placebo", value: 58.3 }], hr: 0.62, ci: [0.50, 0.78], source: "https://doi.org/10.1016/j.ejca.2025.115381" },
+    ],
+    replication: "Consistent with the stage III adjuvant trials (KEYNOTE-054, CheckMate 238) and with CheckMate 76K (nivolumab in stage IIB/C, RFS HR 0.42), so adjuvant PD-1 benefit in stage II is replicated across two agents. OS not yet significant.",
+  },
+  // Head and neck
+  "javelin-hn-100": {
+    enrolled: 697,
+    outcomes: [{ endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Avelumab + chemoradiotherapy, then avelumab maintenance", n: 350 }, { name: "Placebo + chemoradiotherapy", n: 347 }], hr: 1.21, ci: [0.93, 1.57], p: "0.92 (one-sided)", note: "Median not reached in either arm; stopped for futility at interim analysis", source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(20)30737-3/fulltext" }],
+    replication: "Consistent with KEYNOTE-412 (pembrolizumab + CRT, EFS HR 0.83, not significant) and IMvoke010: concurrent PD-(L)1 blockade with definitive chemoradiotherapy has failed in three phase 3 trials.",
+  },
+  "nrg-hn002-hn005": {
+    outcomes: [
+      { endpoint: "HN005: progression-free survival at 2 years (phase II non-inferiority)", primary: true, unit: "%", arms: [{ name: "70 Gy + cisplatin (standard)", n: 136, value: 98.1 }, { name: "60 Gy + cisplatin", n: 116, value: 88.6 }, { name: "60 Gy + nivolumab", n: 132, value: 90.3 }], note: "Both de-escalated arms failed non-inferiority (HR vs standard 7.42 and 5.55; non-inferiority margin HR 2.4); the trial did not proceed to phase III", source: ct("NCT03952585") },
+      { endpoint: "HN002: progression-free survival at 2 years (randomised phase II vs 85% historical control)", unit: "%", arms: [{ name: "60 Gy IMRT + weekly cisplatin", value: 90.5 }, { name: "60 Gy IMRT alone", value: 87.6 }], p: "0.04 (IMRT + cisplatin vs 85%)", note: "306 patients; only the cisplatin arm met the PFS and swallowing (MDADI) criteria to advance", source: "https://ascopubs.org/doi/10.1200/JCO.20.03128" },
+    ],
+    replication: "HN005 confirmed the HN002 lesson in a randomised comparison: unselected dose de-escalation in HPV-positive oropharynx cancer costs disease control, consistent with the negative De-ESCALaTE and RTOG 1016 cetuximab-substitution trials.",
+  },
+  // Renal
+  "litespark-012": {
+    enrolled: 1688,
+    outcomes: [{ endpoint: "Progression-free survival (BICR) and overall survival (dual primary)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + lenvatinib + belzutifan" }, { name: "Pembrolizumab/quavonlimab + lenvatinib" }, { name: "Pembrolizumab + lenvatinib" }], note: "Neither investigational regimen met the dual primary PFS and OS endpoints at the pre-specified interim analysis (sponsor release, 21 April 2026); hazard ratios not disclosed", source: "https://www.merck.com/news/merck-and-eisai-provide-update-on-phase-3-litespark-012-trial-evaluating-first-line-combination-treatments-for-certain-patients-with-advanced-renal-cell-carcinoma-rcc/" }],
+    replication: "Consistent with COSMIC-313: adding a third agent to a first-line IO doublet has not improved outcomes in clear-cell RCC. The phase Ib/II KEYMAKER-U03 signal for the belzutifan triplet did not carry into phase 3.",
+  },
+  "litespark-022": {
+    enrolled: 1841,
+    outcomes: [
+      { endpoint: "Disease-free survival at 24 months (investigator-assessed)", primary: true, unit: "%", arms: [{ name: "Pembrolizumab + belzutifan", n: 921, value: 80.7 }, { name: "Pembrolizumab + placebo", n: 920, value: 73.7 }], hr: 0.72, ci: [0.59, 0.87], p: "<0.001", source: nejm("NEJMoa2518245") },
+      { endpoint: "Overall survival at 24 months (interim, 29% of final events)", unit: "%", arms: [{ name: "Pembrolizumab + belzutifan", value: 96.2 }, { name: "Pembrolizumab + placebo", value: 95.7 }], hr: 0.78, ci: [0.51, 1.19], p: "0.24", note: "Not significant; immature", source: nejm("NEJMoa2518245") },
+    ],
+    replication: "First adjuvant RCC trial to beat pembrolizumab (KEYNOTE-564) rather than placebo; single trial, OS immature, and grade >=3 adverse events rose from 30% to 52%.",
+  },
+  // Colorectal
+  "azur-1": {
+    outcomes: [{ endpoint: "Sustained clinical complete response at 12 months (independent central review)", primary: true, unit: "%", arms: [{ name: "Dostarlimab monotherapy (single arm)" }], note: "Primary endpoint met at the interim analysis per the sponsor (13 July 2026); the rate itself is pending congress presentation. Single-arm registrational phase 2.", source: "https://www.cancernetwork.com/view/dostarlimab-yields-sustained-complete-responses-in-dmmr-msi-h-rectal-cancer" }],
+    replication: "Multicentre confirmation of the Memorial Sloan Kettering single-centre cohort (cCR in all 42 evaluable patients, NEJM 2022 / ASCO 2024). FDA granted priority review in August 2026.",
+  },
+  "circulate-japan": {
+    outcomes: [
+      { endpoint: "GALAXY (observational): recurrence risk by post-operative ctDNA status (4 weeks after surgery)", arms: [{ name: "ctDNA-positive" }, { name: "ctDNA-negative" }], hr: 10.0, p: "<0.0001", note: "n = 1,039 resectable stage II-IV CRC; ctDNA positivity was the strongest prognostic factor and identified who benefited from adjuvant chemotherapy (HR 6.59)", source: "https://doi.org/10.1038/s41591-022-02115-4" },
+      { endpoint: "ALTAIR (randomised phase 3): disease-free survival in post-adjuvant ctDNA-positive patients", primary: true, unit: "months", arms: [{ name: "Trifluridine/tipiracil", n: 122, value: 9.3 }, { name: "Placebo", n: 121, value: 5.55 }], hr: 0.79, ci: [0.60, 1.05], p: "0.107", note: "Primary endpoint not met", source: "https://doi.org/10.1038/s41591-026-04428-0" },
+    ],
+    replication: "GALAXY's prognostic ctDNA signal matches DYNAMIC, CIRCULATE-PRODIGE and BESPOKE cohorts; the interventional ALTAIR arm shows that detecting molecular recurrence does not yet translate into a DFS gain with trifluridine/tipiracil. VEGA (de-escalation) still pending.",
+  },
+  // Gastro-oesophageal
+  "clarity-gastric01": {
+    enrolled: 594,
+    outcomes: [
+      { endpoint: "Overall survival, third-line or later (dual primary)", primary: true, unit: "months", arms: [{ name: "Sonesitatug vedotin 2.2 mg/kg" }, { name: "Investigator's choice chemotherapy" }], note: "Met with a statistically significant, clinically meaningful improvement per the sponsor (27 July 2026); OS in the whole second-line-or-later population (key secondary) also significant. Medians and hazard ratios pending presentation.", source: "https://www.cancernetwork.com/view/sonesitatug-vedotin-improves-overall-survival-in-cldn18-2-gastric-cancer" },
+      { endpoint: "Progression-free survival (BICR), second-line or later (dual primary)", primary: true, unit: "months", arms: [{ name: "Sonesitatug vedotin 2.2 mg/kg" }, { name: "Investigator's choice chemotherapy" }], note: "Trend favouring sonesitatug vedotin; did not reach statistical significance", source: "https://www.cancernetwork.com/view/sonesitatug-vedotin-improves-overall-survival-in-cldn18-2-gastric-cancer" },
+    ],
+    replication: "First phase 3 OS win for a CLDN18.2 ADC; builds on the phase 1 KYM901 signal and on zolbetuximab (SPOTLIGHT/GLOW) validating the target in first line. Numbers awaited.",
+  },
+  "panku-esophagus01": {
+    enrolled: 497,
+    outcomes: [
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", value: 9.8 }, { name: "Chemotherapy (physician's choice)", value: 7.2 }], hr: 0.64, ci: [0.49, 0.83], p: "0.0004", source: "https://www.prnewswire.com/news-releases/systimmune-announces-second-approval-of-iza-bren-in-china-for-the-treatment-of-recurrent-or-metastatic-esophageal-squamous-cell-carcinoma-302827983.html" },
+      { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", value: 4.2 }, { name: "Chemotherapy (physician's choice)", value: 2.0 }], hr: 0.50, ci: [0.40, 0.63], p: "<0.0001", source: "https://www.prnewswire.com/news-releases/systimmune-announces-second-approval-of-iza-bren-in-china-for-the-treatment-of-recurrent-or-metastatic-esophageal-squamous-cell-carcinoma-302827983.html" },
+    ],
+    replication: "Single Chinese phase 3 (ASCO 2026 oral; NMPA approval July 2026); consistent with the positive iza-bren phase 3s in nasopharyngeal carcinoma and TNBC (BL-B01D1-307). No data outside China yet.",
+  },
+  // HR+ breast
+  "fourlight-1": {
+    outcomes: [{ endpoint: "Progression-free survival (investigator-assessed)", primary: true, unit: "months", arms: [{ name: "Atirmociclib + fulvestrant" }, { name: "Fulvestrant, or everolimus + exemestane" }], hr: 0.60, ci: [0.440, 0.825], p: "0.0007", note: "Randomised phase 2, post-CDK4/6 inhibitor; medians pending presentation (topline 17 March 2026)", source: "https://www.cancernetwork.com/view/atirmociclib-fulvestrant-improves-pfs-in-hr-her2-breast-cancer" }],
+    replication: "First randomised evidence that a selective CDK4 inhibitor works after CDK4/6 progression; the first-line phase 3 programme will be the confirmatory test.",
+  },
+  // Lymphoma
+  sunmo: {
+    enrolled: 208,
+    outcomes: [
+      { endpoint: "Progression-free survival (dual primary)", primary: true, unit: "months", arms: [{ name: "Mosunetuzumab + polatuzumab vedotin", n: 138, value: 11.5 }, { name: "R-GemOx", n: 70, value: 3.8 }], hr: 0.41, ci: [0.30, 0.60], p: "<0.0001", source: "https://ascopubs.org/doi/10.1200/JCO-25-01957" },
+      { endpoint: "Overall response rate (dual primary)", primary: true, unit: "%", arms: [{ name: "Mosunetuzumab + polatuzumab vedotin", value: 70 }, { name: "R-GemOx", value: 40 }], p: "<0.0001", source: "https://ascopubs.org/doi/10.1200/JCO-25-01957" },
+      { endpoint: "Complete response rate", unit: "%", arms: [{ name: "Mosunetuzumab + polatuzumab vedotin", value: 51 }, { name: "R-GemOx", value: 24 }], source: "https://ascopubs.org/doi/10.1200/JCO-25-01957" },
+    ],
+    replication: "Consistent with STARGLO (glofitamab + GemOx vs R-GemOx, OS benefit) for CD20xCD3 bispecific-based regimens in transplant-ineligible R/R LBCL; OS was a key secondary endpoint and is not yet mature.",
+  },
+  // Endometrial staging
+  "fires-sentor": {
+    outcomes: [
+      { endpoint: "FIRES: sensitivity of sentinel-node mapping for nodal metastasis", primary: true, unit: "%", arms: [{ name: "ICG sentinel-node mapping vs complete lymphadenectomy", n: 340, value: 97.2 }], note: "95% CI 85.0-100; 385 enrolled, 340 analysed; negative predictive value 99.6% (95% CI 97.9-100)", source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(17)30068-2/fulltext" },
+      { endpoint: "SENTOR: sensitivity of the sentinel-node algorithm in intermediate/high-grade endometrial cancer", primary: true, unit: "%", arms: [{ name: "ICG sentinel-node biopsy vs lymphadenectomy", n: 156, value: 96 }], note: "95% CI 81-100; negative predictive value 99% (95% CI 96-100); false-negative rate 4%", source: "https://doi.org/10.1001/jamasurg.2020.5060" },
+    ],
+    replication: "Two independent prospective cohorts (USA and Canada) with matching accuracy, the latter in high-grade histologies; supported by the SHREC and Italian multicentre series and now standard in NCCN/ESGO guidance.",
+  },
+  // Perioperative / lifestyle (nutrition.ts trials)
+  "prehab-trial": {
+    enrolled: 251,
+    outcomes: [
+      { endpoint: "Severe postoperative complications (Comprehensive Complication Index > 20)", primary: true, unit: "%", arms: [{ name: "Multimodal prehabilitation", n: 123, value: 17.1 }, { name: "Standard care (ERAS)", n: 128, value: 29.7 }], p: "0.02", note: "Odds ratio 0.47 (95% CI 0.26-0.87)", source: "https://doi.org/10.1001/jamasurg.2023.0198" },
+      { endpoint: "Medical complications", unit: "%", arms: [{ name: "Multimodal prehabilitation", value: 15.4 }, { name: "Standard care (ERAS)", value: 27.3 }], p: "0.02", note: "Odds ratio 0.48 (95% CI 0.26-0.89)", source: "https://doi.org/10.1001/jamasurg.2023.0198" },
+      { endpoint: "6-minute walking distance at 4 weeks post-operatively (change from baseline)", primary: true, arms: [{ name: "Multimodal prehabilitation" }, { name: "Standard care (ERAS)" }], p: "0.07", note: "Mean difference 15.6 m (95% CI -1.4 to 32.6); not significant. Trial stopped early because of COVID-19.", source: "https://doi.org/10.1001/jamasurg.2023.0198" },
+    ],
+    replication: "Largest multicentre prehabilitation RCT; consistent in direction with the earlier Montreal single-centre trials, though the functional-capacity co-primary endpoint was not met and the trial stopped early, so the complication effect awaits replication.",
+  },
+  bwel: {
+    outcomes: [
+      { endpoint: "Invasive disease-free survival", primary: true, unit: "months", arms: [{ name: "Telephone weight-loss intervention + health education" }, { name: "Health education alone" }], note: "Event-driven primary analysis not yet published; ClinicalTrials.gov lists primary completion in 2030. Only weight and quality-of-life secondary analyses have been reported (2025-2026).", source: ct("NCT02750826") },
+      { endpoint: "Weight change from baseline at 1 year", unit: "%", arms: [{ name: "Telephone weight-loss intervention + health education", n: 1591, value: -4.7 }, { name: "Health education alone", n: 1589, value: 1.0 }], p: "<0.001", note: "Mean -4.3 kg vs +0.9 kg; 3,180 women analysed", source: "https://doi.org/10.1001/jamaoncol.2025.2738" },
+    ],
+    replication: "Weight loss reproduces the LISA trial (letrozole-treated women) and the SUCCESS-C lifestyle arm; whether it changes breast cancer recurrence remains untested pending the BWEL primary analysis.",
   },
 
   // ---------------- Failures ----------------

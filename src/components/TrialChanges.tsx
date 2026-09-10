@@ -30,7 +30,7 @@ function calendarIssueUrl(c: TrialChange, drugName: string): string {
  */
 export function TrialChangesPanel({ limit = 40 }: { limit?: number }) {
   const snap = readTrialChanges();
-  if (!snap) return <p className="card p-4 text-sm text-muted">Registry change detection starts with the next weekly run of <code>npm run fetch:trials</code>; the first run only records a baseline.</p>;
+  if (!snap) return <p className="card p-4 text-sm text-muted">Registry change detection starts with the next weekly refresh; the first run only records a baseline to compare against.</p>;
   const g = graph();
   const interesting = snap.changes
     .filter((c) => c.kind !== "new-study" || c.phases.includes("PHASE3"))

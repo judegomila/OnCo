@@ -103,7 +103,7 @@ export default function Gaps() {
           <ol className="list-decimal pl-5 space-y-1">
             <li>Pick a row and click <em>claim</em>. It opens the Suggest-an-edit issue form prefilled with the record and the gap; add the source URL, the missing links (ids of related objects) or the missing rows, and who you are.</li>
             <li>A maintainer checks the source, makes the edit and merges it. Nothing is edited directly: every change passes the same sourcing, safety and validation gate. If you can code, say so and you will be pointed at the file; pull requests reference the issue.</li>
-            <li>Want to add a whole record? <code>npm run new -- --kind drug --name &quot;X&quot;</code> writes a validated stub with a TODO checklist (<code>scripts/new-record.ts</code>); propose it through <a className="underline" href={issueUrl("new-object", {}, { title: "add: " })} rel="noopener">New object</a>. Contributors are credited at <Link className="underline" href="/contributors/">/contributors/</Link>.</li>
+            <li>Want to add a whole record? Propose it through <a className="underline" href={issueUrl("new-object", {}, { title: "add: " })} rel="noopener">New object</a>: the form asks for the name, kind and one source, and a maintainer builds the validated record from it. Contributors are credited at <Link className="underline" href="/contributors/">/contributors/</Link>.</li>
           </ol>
           <p className="mt-2">Counts by kind: {Object.entries(KIND_META).filter(([k]) => g.kind(k as Kind).length > 0).map(([k, m]) => `${g.kind(k as Kind).length.toLocaleString("en-GB")} ${m.plural}`).join(", ")}.</p>
         </div>

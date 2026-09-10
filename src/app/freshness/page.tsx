@@ -35,21 +35,21 @@ export default function FreshnessPage() {
         </div>
 
         <h2 className="text-xl font-semibold mb-3">By review track</h2>
-        <p className="text-sm text-muted mb-4 max-w-3xl">Tracks follow <a className="underline" href="https://github.com/judegomila/OnCo/blob/main/.github/REVIEWERS.md" rel="noopener">REVIEWERS.md</a>. A track&apos;s count is the number of its records whose last check is older than the track&apos;s SLA for that kind.</p>
+        <p className="text-sm text-muted mb-4 max-w-3xl">Tracks are the same as on the <Link className="underline" href="/review/">review queue</Link>. A track&apos;s count is the number of its records whose last check is older than the track&apos;s SLA for that kind.</p>
         <div className="card overflow-x-auto mb-10">
           <table className="onco"><thead><tr><th>Track</th><th>Owns</th><th>Checked</th><th>Past due</th><th>Critical</th></tr></thead>
             <tbody>{f.tracks.map((t) => <tr key={t.track}><td><span className={`chip ${TRACK_CLASS[t.track]}`}>{t.label}</span></td><td className="text-muted">{TRACK_META[t.track].owner}</td><td className="tabular-nums">{t.checked}</td><td className="tabular-nums">{t.stale}</td><td className="tabular-nums">{t.criticalStale}</td></tr>)}</tbody></table>
         </div>
 
         <h2 className="text-xl font-semibold mb-3">The SLAs</h2>
-        <p className="text-sm text-muted mb-4 max-w-3xl">Days since <code>asOf</code> before a record is due for a re-check. Critical SLAs cover the records where a stale fact can mislead a reader today: approved products, open trials, cancer pages and the readout calendar. Defined in <a className="underline" href="https://github.com/judegomila/OnCo/blob/main/scripts/freshness.ts" rel="noopener">scripts/freshness.ts</a>.</p>
+        <p className="text-sm text-muted mb-4 max-w-3xl">Days since a record was last checked before it is due for a re-check. Critical SLAs cover the records where a stale fact can mislead a reader today: approved products, open trials, cancer pages and the readout calendar.</p>
         <div className="card overflow-x-auto mb-10">
           <table className="onco"><thead><tr><th>Records</th><th>Track</th><th>Max age (days)</th><th>Critical</th><th>Checked</th><th>Past due</th></tr></thead>
             <tbody>{f.slas.map((s) => <tr key={s.id}><td>{s.label}</td><td><span className={`chip ${TRACK_CLASS[s.track]}`}>{TRACK_META[s.track].label}</span></td><td className="tabular-nums">{s.days}</td><td>{s.critical ? "yes" : "no"}</td><td className="tabular-nums">{s.checked}</td><td className={`tabular-nums ${s.stale ? "font-semibold" : ""}`}>{s.stale}</td></tr>)}</tbody></table>
         </div>
 
         <h2 className="text-xl font-semibold mb-3">Past due</h2>
-        {f.stale.length === 0 && f.calendarStale.length === 0 ? <div className="card p-6 text-sm text-muted">Nothing is past due as of {f.today}.</div> : (
+        {f.stale.length === 0 && f.calendarStale.length === 0 ? <div className="card p-6 text-sm text-muted">Nothing is past due: every record and calendar event was checked within its SLA when this page was built ({f.today}).</div> : (
           <>
             {f.calendarStale.length > 0 && (
               <div className="card overflow-x-auto mb-6"><table className="onco"><thead><tr><th>Calendar event</th><th>Kind</th><th>Date</th><th>Days ago</th></tr></thead>

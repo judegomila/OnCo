@@ -20,7 +20,7 @@ function promoteUrl(snap: AbstractsSnapshot, a: AbstractCandidate): string {
 /** Harvested congress abstracts matched to corpus objects, with a "promote to digest" link on each. */
 export function AbstractCandidates({ limit = 40, existingDigestIds = [] }: { limit?: number; existingDigestIds?: string[] }) {
   const snap = readAbstracts();
-  if (!snap) return <p className="card p-4 text-sm text-muted">The abstract harvest has not run yet. Run <code>npx tsx scripts/fetch-abstracts.ts</code>.</p>;
+  if (!snap) return <p className="card p-4 text-sm text-muted">The abstract harvest is not part of this build yet; it appears after the next weekly refresh.</p>;
   const digestId = `${snap.congress.id}-${snap.congress.year}`;
   const hasDigest = existingDigestIds.includes(digestId);
   const items = snap.items.slice(0, limit);

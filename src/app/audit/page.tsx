@@ -97,13 +97,13 @@ export default function AuditPage() {
             {patches && patches.patches.length > 0 && (
               <>
                 <h3 className="text-lg font-semibold mt-8 mb-2">Proposed patches</h3>
-                <p className="text-sm text-muted mb-3 max-w-3xl">Where the registry value maps unambiguously onto ours, the fact check proposes a concrete edit. Nothing is applied automatically: a maintainer runs <code>npx tsx scripts/apply-factcheck.ts &lt;id.field&gt;</code>, which edits the record, bumps <code>asOf</code> and adds a corrections row.</p>
+                <p className="text-sm text-muted mb-3 max-w-3xl">Where the registry value maps unambiguously onto ours, the fact check proposes a concrete edit. Nothing is applied automatically: a maintainer applies each proposed edit by hand, which updates the record, refreshes its checked date and adds a row to the <Link className="underline" href="/corrections/">corrections log</Link>.</p>
                 <div className="card overflow-x-auto"><table className="onco"><thead><tr><th>Entity</th><th>Field</th><th>Current</th><th>Proposed</th><th>Why</th></tr></thead>
                   <tbody>{patches.patches.map((p, i) => <tr key={i}><td><Link href={p.route} className="font-medium hover:underline">{p.name}</Link></td><td><code className="text-xs">{p.field}</code></td><td className="text-muted">{p.current}</td><td>{p.proposed}</td><td className="text-muted"><a className="underline" href={p.source} rel="noopener">{p.reason}</a></td></tr>)}</tbody></table></div>
               </>
             )}
           </>
-        ) : <div className="card p-6 text-sm text-muted">No fact-check report yet. Run <code>npm run factcheck</code>.</div>}
+        ) : <div className="card p-6 text-sm text-muted">The fact-check report is produced weekly and is not part of this build yet; it appears after the next run.</div>}
 
         <h2 className="text-xl font-semibold mt-12 mb-3">Broken links</h2>
         {links ? (
@@ -122,7 +122,7 @@ export default function AuditPage() {
               </details>
             )}
           </>
-        ) : <div className="card p-6 text-sm text-muted">No link report yet. The weekly workflow runs <code>npx tsx scripts/check-links.ts</code> and opens a pull request with <code>public/links.json</code>.</div>}
+        ) : <div className="card p-6 text-sm text-muted">The link report is produced weekly and is not part of this build yet; it appears after the next run.</div>}
 
         <h2 className="text-xl font-semibold mt-12 mb-3">Staleness</h2>
         <p className="text-sm text-muted mb-4 max-w-3xl">Records by last-checked date. The site does not show dates to readers; maintainers use this list to schedule re-checks. What counts as too old for each kind, and which records are past due, is defined on the <Link className="underline" href="/freshness/">freshness page</Link>.</p>

@@ -51,7 +51,7 @@ export default function HtaPage() {
         lede={`${rows.length} appraisal verdicts for ${products.size} products across ${Object.keys(byBody).length} bodies: ${Object.entries(byBody).map(([b, n]) => `${b} ${n}`).join(", ")}. Regulatory approval says a medicine may be sold; a health technology assessment says whether a health system will pay for it, for whom, and at what price. Dates and links go to the appraisal itself.`}
         right={<div className="flex flex-wrap gap-2"><Link href="/coverage/uk/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">NHS coverage →</Link><Link href="/coverage/us/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">US coverage and assistance →</Link></div>} />
       <Container className="pb-16 space-y-10">
-        {!snap && <p className="card p-4 text-sm text-muted">The automated appraisal feed has not run yet, so only the curated NICE and SMC rows are shown. The weekly refresh fills in the rest.</p>}
+        {!snap && <p className="card p-4 text-sm text-muted">This build carries the curated NICE and SMC rows only; the fetched G-BA and PBAC rows arrive with the next monthly refresh.</p>}
         {mismatches.length > 0 && (
           <div className="card p-4 border-amber-200 dark:border-amber-900">
             <div className="kicker mb-1">Being re-checked</div>
@@ -73,7 +73,7 @@ export default function HtaPage() {
             {snap ? (
               <ul className="list-disc pl-5 space-y-1">
                 {Object.entries(snap.bodies).map(([k, b]) => <li key={k}><a className="underline" href={b.url} rel="noopener">{b.name}</a> ({b.country}): {b.method}. {b.ok}/{b.checked} requests succeeded{b.note ? `; ${b.note}` : ""}.</li>)}
-                <li>Curated NICE outcomes and SMC positions come from <code>src/data/coverage-uk.ts</code> and appear when there is no TA page to verify.</li>
+                <li>Curated NICE outcomes and SMC positions come from the hand-researched <Link className="underline" href="/coverage/uk/">UK coverage table</Link> and appear when there is no TA page to verify.</li>
                 <li>Fetched {snap.fetched}; refreshed monthly by GitHub Actions. Status on the <Link className="underline" href="/status/">data currency page</Link>.</li>
               </ul>
             ) : <p className="text-muted">Only curated rows are available until the feed runs.</p>}

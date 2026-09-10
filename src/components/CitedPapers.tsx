@@ -13,7 +13,7 @@ export const readCitations = () => readPublicJson<CitationsSnapshot>("openalex/p
 /** Most cited key papers, with total and recent-year citations from OpenAlex. */
 export function CitedPapers({ limit = 25 }: { limit?: number }) {
   const snap = readCitations();
-  if (!snap) return <p className="card p-4 text-sm text-muted">Citation counts have not been fetched yet. Run <code>npx tsx scripts/fetch-citations.ts</code>.</p>;
+  if (!snap) return <p className="card p-4 text-sm text-muted">Citation counts are not part of this build yet; they appear after the next weekly refresh.</p>;
   const g = graph();
   const rows = Object.entries(snap.papers)
     .map(([id, c]) => ({ id, c, e: g.get(id) }))

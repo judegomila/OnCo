@@ -39,7 +39,7 @@ function newIssueUrl(n: FdaSnapshot["notInCorpus"][number]): string {
  */
 export function FdaFeed() {
   const snap = readFda();
-  if (!snap) return <p className="card p-4 text-sm text-muted">The FDA feed has not been fetched yet. Run <code>npx tsx scripts/fetch-fda.ts</code>.</p>;
+  if (!snap) return <p className="card p-4 text-sm text-muted">The FDA approvals feed is not part of this build yet; it appears after the next weekly refresh. Approvals recorded by hand are on each product page.</p>;
   const g = graph();
   const name = (id: string) => g.get(id)?.name ?? id;
   const route = (id: string) => { const e = g.get(id); return e ? routeFor(e) : undefined; };

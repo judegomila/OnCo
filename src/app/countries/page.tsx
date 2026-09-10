@@ -47,7 +47,7 @@ export default function Countries() {
         <section className="mt-10 text-sm text-muted max-w-4xl">
           <h2 className="text-lg font-semibold text-foreground mb-2">Sources</h2>
           <ul className="list-disc pl-5 space-y-1">
-            <li><a className="underline" href="https://docs.openalex.org/api-entities/works" rel="noopener">OpenAlex works API</a>: {raw.source}. Data built {raw.built}; rebuild with <code>npm run fetch:countries</code>.</li>
+            <li><a className="underline" href="https://docs.openalex.org/api-entities/works" rel="noopener">OpenAlex works API</a>: {raw.source}. Data built {raw.built}.</li>
             <li><a className="underline" href="https://clinicaltrials.gov/data-api/api" rel="noopener">ClinicalTrials.gov API v2</a>, <code>query.locn</code> counts.</li>
             <li><a className="underline" href="https://gco.iarc.who.int/today/en/fact-sheets-populations" rel="noopener">IARC Global Cancer Observatory</a>, GLOBOCAN 2022 country fact sheets.</li>
             <li><a className="underline" href="https://data.worldbank.org/indicator/SP.POP.TOTL" rel="noopener">World Bank population</a>, 2024 estimates; national funder websites as linked in each row.</li>

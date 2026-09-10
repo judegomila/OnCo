@@ -14,6 +14,67 @@
   "method": "For each question: MiniSearch and concept-index retrieval fused by reciprocal rank, top 6 records; the extractive answer shown on /ask/ (best sentences, two per record, one citation each) is scored for rubric coverage. No language model."
  },
  {
+  "file": "ask-2026-09-10.json",
+  "system": "OnCo Ask (intents, entity resolution, templated cited answers; extractive fallback)",
+  "date": "2026-09-10",
+  "questions": 100,
+  "meanScore": 0.83,
+  "meanRetrievalRecall": 1,
+  "byCategory": {
+   "factual": 0.873,
+   "reasoning": 0.76,
+   "procedural": 0.643
+  },
+  "method": "For each question: intent from wording rules; records named in the question resolved by longest match over names and aliases; a template per intent fills sentences from those records' structured fields (TL;DR first), each sentence cited; curated benchmark and patient-question pairs supply records when the question matches closely; sentence retrieval (MiniSearch plus concept index, fused) is the fallback and adds detail. The answer text shown on /ask/ is scored for rubric coverage. No language model.",
+  "before": {
+   "system": "OnCo Ask (extractive answer, lexical + concept retrieval, top 6 records)",
+   "meanScore": 0.69,
+   "meanRetrievalRecall": 0.413,
+   "byCategory": {
+    "factual": 0.734,
+    "reasoning": 0.635,
+    "procedural": 0.443
+   }
+  },
+  "withoutCuratedPairs": {
+   "meanScore": 0.701,
+   "meanRetrievalRecall": 0.574,
+   "byCategory": {
+    "factual": 0.779,
+    "reasoning": 0.594,
+    "procedural": 0.293
+   }
+  },
+  "intents": {
+   "approval": 18,
+   "define": 21,
+   "treatments": 3,
+   "results": 15,
+   "trials": 3,
+   "mechanism": 10,
+   "general": 16,
+   "biomarkers": 1,
+   "prognosis": 1,
+   "side-effects": 2,
+   "compare": 1,
+   "who": 9
+  },
+  "templates": {
+   "approval": 18,
+   "define": 21,
+   "treatments": 3,
+   "results": 15,
+   "trials": 3,
+   "mechanism": 10,
+   "orientation": 16,
+   "biomarkers": 1,
+   "prognosis": 1,
+   "side-effects": 2,
+   "compare": 1,
+   "who": 9
+  }
+ },
+ {
   "file": "onco-2026-09-08.json",
   "system": "OnCo (search-retrieval proxy, top 8 entities)",
   "date": "2026-09-08",

@@ -1,0 +1,629 @@
+{
+ "summary": {
+  "system": "OnCo Ask (intents, entity resolution, templated cited answers; extractive fallback)",
+  "date": "2026-09-10",
+  "questions": 60,
+  "set": "src/data/ask-eval.ts (60 natural questions: patient, clinician, investor)",
+  "meanScore": 0.996,
+  "meanRetrievalRecall": 0.933,
+  "byAudience": {
+   "patient": 1,
+   "clinician": 0.988,
+   "investor": 1
+  },
+  "before": {
+   "system": "OnCo Ask (extractive answer, lexical + concept retrieval, top 6 records)",
+   "meanScore": 0.585,
+   "meanRetrievalRecall": 0.586,
+   "byAudience": {
+    "patient": 0.554,
+    "clinician": 0.521,
+    "investor": 0.679
+   }
+  }
+ },
+ "results": [
+  {
+   "id": "p-01",
+   "audience": "patient",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [1] TNBC is defined by what it lacks: ER <1%, PR <1%, HER2 0-1+ (or 2+/ISH-negative). [1] It is biologically heterogeneous (basal-like 1 and 2, mesenchymal, luminal androgen receptor, immunomodulatory subtypes), nearly always TP53-mutant, frequently HRD-positive (~20% germline BRCA1/2), and has the highest TROP2 expression and the most immune infiltration of any breast subtype. [1] Curative-intent: chemo-immunotherapy (KEYNOTE-522) cures more patients than ever; pCR ~65%. Adjuvant PARP inhibitor for BRCA carriers. [1] Treatments in the standard of care for TNBC on OnCo include Pembrolizumab, Carboplatin, Olaparib, Sacituzumab govitecan and Datopotamab deruxtecan. [1] A growth-signal receptor. Some cancers make far too much of it, and drugs that block it or use it as a docking site have transformed those cancers. [2] The hormone switch that drives most breast cancers. Blocking or destroying it is the oldest and most effective targeted therapy. [3]\n\nSources\n[1] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)\n[2] HER2 (https://onco.cc/targets/her2/)\n[3] Estrogen receptor (ERα) (https://onco.cc/targets/estrogen-receptor/)"
+  },
+  {
+   "id": "p-02",
+   "audience": "patient",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [1] Stage I (T1a-b N0): Surgery ± radiation; chemotherapy for ≥T1c; TIL-high tumours have >90% 5-year RFS even without chemotherapy (OPTimal, ETNA, TIL-CHOICE cohorts). De-escalation trials ongoing. [1] Stage II-III: Neoadjuvant pembrolizumab + carboplatin/paclitaxel → AC/EC, surgery, adjuvant pembrolizumab (KEYNOTE-522). Germline BRCA + residual disease: olaparib 1 year (OlympiA). Residual disease without BRCA: capecitabine (CREATE-X). Radiation per stage. [1] Metastatic, first line, PD-L1 CPS ≥10: Pembrolizumab + chemotherapy (KEYNOTE-355) or sacituzumab govitecan + pembrolizumab (ASCENT-04, approved 2026). [1] Metastatic, first line, PD-L1 negative or PD-1 ineligible: Datopotamab deruxtecan (TROPION-Breast02, OS benefit) or sacituzumab govitecan (ASCENT-03), both approved 2026; PARP inhibitor if germline BRCA; chemotherapy. [1] Metastatic, later lines: Whichever TROP2 ADC was not used first (cross-resistance uncertain); T-DXd if HER2-low (DESTINY-Breast04); iza-bren where available; chemotherapy (eribulin, capecitabine); clinical trials. [1] In the pipeline for TNBC: Sacituzumab tirumotecan, Izalontamab brengitecan, TROPION-Breast05, IZABRIGHT-Breast01, OptimICE-pCR (A012103) and SCARLET (SWOG S2212). [1]\n\nSources\n[1] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)"
+  },
+  {
+   "id": "p-03",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The first TROP2-targeted ADC. It delivers a strong chemotherapy directly to breast and bladder cancer cells and is now a first-line option in triple-negative breast cancer. [1] The side effects recorded for Sacituzumab govitecan (ASCENT, Trodelvy arm, n=258), most serious first: neutropenia (78% any grade, 49% grade 3 or higher); diarrhoea (59% any grade, 11% grade 3 or higher); anaemia (94% any grade, 9% grade 3 or higher); fatigue (65% any grade, 6% grade 3 or higher); nausea (57% any grade, 3.1% grade 3 or higher). [1] Monitoring: Blood counts each dose; UGT1A1*28 homozygotes have earlier and more frequent neutropenia; anti-emetic premedication. [1] Dose changes: Hold and reduce for grade 3-4 neutropenia or diarrhoea; G-CSF prophylaxis permitted. [1]\n\nSources\n[1] Sacituzumab govitecan (https://onco.cc/drugs/sacituzumab-govitecan/)"
+  },
+  {
+   "id": "p-04",
+   "audience": "patient",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Trastuzumab deruxtecan (Enhertu) is the most successful ADC ever. It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer. [1] It is an ADC: Trastuzumab backbone; DXd released by lysosomal cathepsins; TOP1 inhibition and bystander diffusion. [1] In the United Kingdom, Trastuzumab deruxtecan is approved by the MHRA (first approval 2021). [1] It is also approved in the United States (FDA, 2019), the European Union (EMA / European Commission, 2021), Japan (PMDA / MHLW, 2020), China (NMPA, 2023) and Australia (TGA, 2022). [1] Approvals recorded on OnCo: US 2022, HER2-low metastatic breast cancer; HER2-mutant NSCLC; US 2024, HER2 IHC3+ solid tumours (tumour-agnostic); US 2025, HER2-low/ultralow HR+ breast cancer after endocrine therapy (DESTINY-Breast06); US 2026, Early-stage HER2+ breast cancer (neoadjuvant and post-neoadjuvant). [1] Latest regulatory event: 2026-Q2, approval (US): Early-stage HER2+ breast cancer: neoadjuvant (DESTINY-Breast11) and post-neoadjuvant residual disease (DESTINY-Breast05). [1] Sevabertinib is an oral HER2 inhibitor for lung cancers with HER2 mutations, approved in November 2025 as an alternative to Enhertu and zongertinib. [2]\n\nSources\n[1] Trastuzumab deruxtecan (https://onco.cc/drugs/trastuzumab-deruxtecan/)\n[2] Sevabertinib (https://onco.cc/drugs/sevabertinib/)"
+  },
+  {
+   "id": "p-05",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The most widely used cancer immunotherapy, approved in more than 40 settings, including before and after surgery for triple-negative breast cancer. [1] Humanised IgG4 blocking PD-1; restores T-cell effector function. [1] Step by step: 1) Antibody binds PD-1 on T cells; 2) PD-1/PD-L1 engagement between T cell and tumour is blocked; 3) Exhausted tumour-reactive T cells regain effector function; 4) Interferon-γ and cytotoxic granules are released at the tumour; 5) Tumour cells are killed; memory T cells persist. [1] Inhibitory receptor on activated T cells; ligands PD-L1/PD-L2. Tumour PD-L1 expression, TMB, and MSI predict response imperfectly. [2] The first head-to-head trial in which a new drug beat Keytruda, in China; a survival benefit followed in 2026. [3] The global test of whether ivonescimab plus chemotherapy beats the Keytruda-chemotherapy standard. [4]\n\nSources\n[1] Pembrolizumab (https://onco.cc/drugs/pembrolizumab/)\n[2] PD-1 (https://onco.cc/targets/pd1/)\n[3] HARMONi-2 (https://onco.cc/trials/harmoni-2/)\n[4] HARMONi-3 (https://onco.cc/trials/harmoni-3/)"
+  },
+  {
+   "id": "p-06",
+   "audience": "patient",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [1] Curative-intent: chemo-immunotherapy (KEYNOTE-522) cures more patients than ever; pCR ~65%. Adjuvant PARP inhibitor for BRCA carriers. [1] Metastatic: ADCs first line (sacituzumab, Dato-DXd), ADC + IO for PD-L1+ disease; median OS in first-line trials now approaches two years, roughly double the 2015 figure. [1] Stage I (T1a-b N0): Surgery ± radiation; chemotherapy for ≥T1c; TIL-high tumours have >90% 5-year RFS even without chemotherapy (OPTimal, ETNA, TIL-CHOICE cohorts). De-escalation trials ongoing. [1] Outcomes in TNBC depend on stage, subtype and the treatments above, and population statistics describe groups, not any one person; that is why this page starts with what can be done rather than a number. [1] Five-year relative survival for \"Breast (female)\" from SEER, with the period it covers and its caveats, is on the survival page. SEER reports all female breast cancer together, not by subtype; triple-negative disease has worse survival than this average. [1] The expected course of a disease: how likely it is to be cured, how long a person is likely to live, and how they are likely to feel. Always an estimate based on groups of similar patients, never a prediction for one person. [2]\n\nSources\n[1] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)\n[2] Prognosis (https://onco.cc/terms/prognosis/)"
+  },
+  {
+   "id": "p-07",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A cold cap worn during chemotherapy that reduces hair loss by narrowing blood vessels in the scalp. [1] DigniCap and Paxman are FDA-cleared; roughly half of patients on taxane-based regimens keep at least 50% of their hair. [1] Drugs that kill rapidly dividing cells by damaging their DNA or the machinery of division. Because cancer cells divide fast they are hit hardest, but so are hair, gut lining and bone marrow, which is where the side effects come from. [2]\n\nSources\n[1] Scalp cooling (https://onco.cc/technologies/scalp-cooling/)\n[2] Chemotherapy (https://onco.cc/terms/chemotherapy-term/)"
+  },
+  {
+   "id": "p-08",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A hazard ratio is a number comparing the rate of bad events in two groups. An HR of 0.5 means the risk is halved at any moment. [1] From Cox proportional hazards models. [1] HR <1 favours the experimental arm; confidence interval excluding 1 indicates statistical significance. [1] Why it matters: it comes up in Pancreatic ductal adenocarcinoma. [1] A hazard ratio of 0.70 means that at any given moment patients on the new treatment had 30% less risk of the event (death, progression) than those on the comparison. [2]\n\nSources\n[1] Hazard ratio (HR) (https://onco.cc/terms/hazard-ratio/)\n[2] Reading a hazard ratio (https://onco.cc/terms/hazard-ratio-basics/)"
+  },
+  {
+   "id": "p-09",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Pancreatic cancer is the deadliest common cancer. Almost every tumour carries a KRAS mutation, and for the first time drugs against it are in pivotal trials. [1] Trials on OnCo linked to Pancreatic ductal adenocarcinoma: RASolute 302 (positive), NAPOLI 3 (positive), PRODIGE 24 / CCTG PA6 (positive), PANOVA-3 (positive), Low-dose olanzapine for cancer anorexia (Tata Memorial) (positive) and Ponsegromab phase 2 in cancer cachexia (positive). [1] The trial that nearly doubled survival in previously treated pancreatic cancer, presented in the ASCO 2026 plenary. The biggest result in the disease's history. [2] The first head-to-head trial of the two chemotherapy backbones, won narrowly by the four-drug regimen. [3] Showed that giving the strong four-drug chemotherapy after pancreatic surgery adds years of life for fit patients. [4] The first drug that blocks all active RAS variants, approved by the FDA in August 2026 for metastatic pancreatic cancer, where KRAS drives 90% of tumours. [5] A four-drug chemotherapy combination built on liposomal irinotecan extended survival in metastatic pancreatic cancer by about two months compared with the most widely used doublet, the first positive first-line trial in a decade. [6]\n\nSources\n[1] Pancreatic ductal adenocarcinoma (https://onco.cc/cancers/pancreatic/)\n[2] RASolute 302 (https://onco.cc/trials/rasolute-302/)\n[3] NAPOLI 3 (https://onco.cc/trials/napoli-3/)\n[4] PRODIGE 24 / CCTG PA6 (https://onco.cc/trials/prodige-24/)\n[5] Daraxonrasib (https://onco.cc/drugs/daraxonrasib/)\n[6] NAPOLI-3: NALIRIFOX versus gemcitabine plus nab-paclitaxel as first treatment for metastatic pancreatic cancer (https://onco.cc/key-papers/paper-napoli-3-lancet-2023/)"
+  },
+  {
+   "id": "p-10",
+   "audience": "patient",
+   "score": 1,
+   "met": 2,
+   "total": 2,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The most widely used cancer immunotherapy, approved in more than 40 settings, including before and after surgery for triple-negative breast cancer. [1] Pembrolizumab is developed or marketed by Merck & Co. (MSD). [1] Merck & Co. (MSD) makes Keytruda, the world's best-selling cancer drug, and is now building the next act around TROP2 ADCs and personalised vaccines. [2] Institutions on OnCo linked to Pembrolizumab: Alliance for Clinical Trials in Oncology, GOG Foundation, Institut Jules Bordet and Johns Hopkins Hospital / Sidney Kimmel Comprehensive Cancer Center. [1] Approvals span melanoma, NSCLC, head and neck, Hodgkin, urothelial, MSI-H/dMMR tumours (first tumour-agnostic approval, 2017), gastric, oesophageal, cervical, HCC, RCC, endometrial, TNBC (KEYNOTE-355 metastatic CPS ≥10; KEYNOTE-522 neoadjuvant/adjuvant with 7-year OS benefit), TMB-high, and more. [1] Subcutaneous Keytruda Qlex approved 2025. [1] Pembrolizumab dosing: IV infusion over 30 min (subcutaneous Keytruda Qlex available); 200 mg every 3 weeks or 400 mg every 6 weeks; paediatric 2 mg/kg (max 200 mg) every 3 weeks; up to 24 months in most metastatic settings. [1]\n\nSources\n[1] Pembrolizumab (https://onco.cc/drugs/pembrolizumab/)\n[2] Merck & Co. (MSD) (https://onco.cc/companies/merck/)"
+  },
+  {
+   "id": "p-11",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Trastuzumab deruxtecan (Enhertu) is the most successful ADC ever. It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer. [1] In the United Kingdom: coverage: NICE: recommended in HER2+ breast cancer after ≥1 anti-HER2 regimen (TA862) and HER2-low breast cancer (TA1090); HER2-mutant NSCLC via CDF. [1] In the United States: coverage: Medicare Part B (physician-administered); commercial plans per formulary; assistance: https://www.enhertu4u.com. [1] In Japan: coverage: NHI listed; approved in HER2+ breast and gastric cancer since 2020. [1] In the United Kingdom, Trastuzumab deruxtecan is approved by the MHRA (first approval 2021). [1]\n\nSources\n[1] Trastuzumab deruxtecan (https://onco.cc/drugs/trastuzumab-deruxtecan/)"
+  },
+  {
+   "id": "p-12",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 0.5,
+   "answer": "Tumours with a little HER2 (IHC 1+ or 2+ without amplification), or a trace (ultralow), which older HER2 drugs ignored but Enhertu can attack. [1] HER2-low: IHC 1+ or 2+/ISH-negative (~50% of breast cancers, ~35% of TNBC). [1] HER2-ultralow: IHC 0 with membrane staining in ≤10% of cells. [1] Why it matters: it decides or shapes the use of Trastuzumab deruxtecan, and it comes up in HR-positive / HER2-negative breast cancer and TNBC. [1] It created the HER2-low category. [2] Roughly half of all breast cancers are HER2-low, so the trial redefined HER2 testing and opened ADC therapy to a very large population. [2] DESTINY-Breast06, Progression-free survival, HER2-low (BICR): Trastuzumab deruxtecan 13.2 months versus Chemotherapy (TPC) 8.1 months, hazard ratio 0.62, p <0.0001. [3]\n\nSources\n[1] HER2-low and HER2-ultralow (https://onco.cc/terms/her2-low/)\n[2] DESTINY-Breast04: trastuzumab deruxtecan works in HER2-low breast cancer, creating a new treatable group (https://onco.cc/key-papers/paper-destiny-breast04-nejm-2022/)\n[3] DESTINY-Breast06 (https://onco.cc/trials/destiny-breast06/)"
+  },
+  {
+   "id": "p-13",
+   "audience": "patient",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A scan that shows where a radioactive tracer accumulates, so it images what tumours are doing rather than what they look like. [1] A CT scan is a fast 3D X-ray that shows the size and shape of tumours and whether they have spread. [2] Principle of PET: Positron-emitting isotopes (18F, 68Ga, 89Zr, 64Cu) attached to a targeting molecule; coincidence detection of 511 keV photons; standardised uptake value (SUV) quantifies uptake. [1] Principle of CT: A rotating X-ray source and detector measure attenuation, which is reconstructed into cross-sectional images. [2] Since of PET: 1975. [1] Since of CT: 1971. [2] Status of PET: standard-of-care. [1] Strengths of PET: Whole-body biology in one scan; Quantitative. [1] Strengths of CT: Fast, ubiquitous; Sub-millimetre resolution. [2] Limitations of PET: Resolution ~4 mm; Tracer supply and cost. [1] Limitations of CT: Anatomic only; cannot distinguish scar from live tumour; Radiation dose. [2]\n\nSources\n[1] PET (positron emission tomography) (https://onco.cc/technologies/pet/)\n[2] CT (computed tomography) (https://onco.cc/technologies/ct/)"
+  },
+  {
+   "id": "p-14",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Any treatment that works by getting the patient's own immune system to attack the cancer, rather than attacking the cancer directly. It can produce responses that last for years, but only in some patients. [1] The main forms are checkpoint inhibitors (antibodies that release the brakes on T cells), cell therapies (CAR-T, TCR-T and TIL, in which a patient's T cells are removed, engineered or expanded, and returned), bispecific T-cell engagers, cancer vaccines including personalised mRNA vaccines, cytokines, and oncolytic viruses. [1] Because the immune system has memory, responses can persist long after treatment stops, which is why the survival curves for melanoma and lung cancer now show a plateau of long-term survivors; the flip side is autoimmune side effects and the fact that many tumours remain 'cold' and unresponsive. [1]\n\nSources\n[1] Immunotherapy (https://onco.cc/terms/immunotherapy-term/)"
+  },
+  {
+   "id": "p-15",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "No invasive cancer left in the breast and lymph nodes when the surgeon removes the tissue after pre-surgery treatment. [1] Strongly prognostic in TNBC and HER2+ breast cancer (patients with pCR have ~90% 5-year EFS). [1] Accepted for accelerated approval of neoadjuvant regimens. [1] Why it matters: it comes up in Bladder & urothelial cancer, Cutaneous squamous cell carcinoma, HER2-positive breast cancer and Oesophageal cancer. [1] Drugs that kill rapidly dividing cells by damaging their DNA or the machinery of division. Because cancer cells divide fast they are hit hardest, but so are hair, gut lining and bone marrow, which is where the side effects come from. [2] Trials now test de-escalating therapy after pCR (OptimICE-pCR) and escalating for residual disease. [1] Given in cycles to let normal tissue recover, chemotherapy cures some cancers outright (testicular cancer, many lymphomas and childhood leukaemias), prevents recurrence after surgery, and controls advanced disease; it remains the backbone that newer drugs are added to. [2]\n\nSources\n[1] Pathologic complete response (pCR) (https://onco.cc/terms/pcr/)\n[2] Chemotherapy (https://onco.cc/terms/chemotherapy-term/)"
+  },
+  {
+   "id": "p-16",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "HER2-positive breast cancer was once the most aggressive subtype and is now one of the most treatable, thanks to trastuzumab and, more recently, Enhertu. [1] Early stage: Neoadjuvant THP or T-DXd → surgery → trastuzumab/pertuzumab (pCR) or T-DXd/T-DM1 (residual). [1] Metastatic: T-DXd + pertuzumab first line (DESTINY-Breast09); tucatinib + trastuzumab + capecitabine for brain metastases; palbociclib maintenance if HR+. [1] Stage I (≤2-3 cm, node-negative): Surgery then weekly paclitaxel × 12 + trastuzumab × 1 year (APT); T-DM1 × 17 cycles is an alternative (ATEMPT). Endocrine therapy if HR+. [1] Stage II-III, neoadjuvant: TCHP (docetaxel, carboplatin, trastuzumab, pertuzumab) or anthracycline-taxane + HP; from 2026, T-DXd × 4 → THP (DESTINY-Breast11, pCR 67%). PET-adapted chemotherapy omission (PHERGain) in trials. [1] Post-neoadjuvant, pathologic complete response: Complete 1 year of trastuzumab (± pertuzumab if node-positive at diagnosis); endocrine therapy if HR+; radiation per stage. [1] Post-neoadjuvant, residual invasive disease: T-DXd (DESTINY-Breast05, iDFS HR 0.47 vs T-DM1; approved 2026) replacing T-DM1 (KATHERINE); consider extended adjuvant neratinib for HR+ high-risk. [1] In the pipeline for HER2-positive breast cancer: HER2 PET, Zanidatamab, Disitamab vedotin, Trastuzumab rezetecan, Trastuzumab brengitecan and ARX788. [1]\n\nSources\n[1] HER2-positive breast cancer (https://onco.cc/cancers/breast-her2-positive/)"
+  },
+  {
+   "id": "p-17",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A patient's T cells are removed, given a synthetic receptor that recognises the cancer, multiplied, and put back as a living drug. [1] CRS, ICANS, cytopenias. [1] In TRANSFORM, a second CD19 CAR-T, lisocabtagene maraleucel, also beat chemotherapy-plus-transplant as second-line treatment, with a low rate of severe side effects. [2] The trial that showed a gentler CAR-T design could treat adult ALL with a fraction of the severe side effects. [3] A CD19 CAR-T built to grip and release quickly, which cut severe side effects and gave adults with relapsed ALL a real chance at durable remission. [4]\n\nSources\n[1] CAR-T cell therapy (https://onco.cc/technologies/car-t/)\n[2] TRANSFORM: liso-cel CAR-T versus salvage chemotherapy and transplant in early-relapsing large B-cell lymphoma (https://onco.cc/key-papers/paper-transform-liso-cel-lancet-2022/)\n[3] FELIX (https://onco.cc/trials/felix/)\n[4] Obecabtagene autoleucel (https://onco.cc/drugs/obecabtagene-autoleucel/)"
+  },
+  {
+   "id": "p-18",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The three stages a new drug passes through: phase 1 finds a safe dose in a few dozen patients, phase 2 looks for signs of activity in a hundred or so, and phase 3 compares it with the standard treatment in hundreds or thousands. [1] OnCo lists no trial linked to Phase 1, 2 and 3 trials yet; the registry search below covers every registered study. [1] First-line is the first treatment for advanced cancer; second-line is what comes after it fails, and so on. [2] FDA approval based on early evidence (like tumour shrinkage) on condition that a confirmatory trial follows. [3]\n\nSources\n[1] Phase 1, 2 and 3 trials (https://onco.cc/terms/trial-phases/)\n[2] Lines of therapy (https://onco.cc/terms/first-line/)\n[3] Accelerated approval (https://onco.cc/terms/accelerated-approval/)"
+  },
+  {
+   "id": "p-19",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The cancer where screening works best and where immunotherapy can make some tumours disappear entirely, yet most metastatic disease still depends on chemotherapy. [1] ctDNA-guided adjuvant therapy. [1] Immunotherapy cures in dMMR without surgery. [1] Screening: Colonoscopy, FIT, Cologuard, Shield blood test from age 45. [1] Outcomes in Colorectal cancer depend on stage, subtype and the treatments above, and population statistics describe groups, not any one person; that is why this page starts with what can be done rather than a number. [1] Five-year relative survival for \"Colon and rectum\" from SEER, with the period it covers and its caveats, is on the survival page. [1] The expected course of a disease: how likely it is to be cured, how long a person is likely to live, and how they are likely to feel. Always an estimate based on groups of similar patients, never a prediction for one person. [2]\n\nSources\n[1] Colorectal cancer (https://onco.cc/cancers/colorectal/)\n[2] Prognosis (https://onco.cc/terms/prognosis/)"
+  },
+  {
+   "id": "p-20",
+   "audience": "patient",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [1] The trial that added immunotherapy to pre-surgery chemotherapy for triple-negative breast cancer and, uniquely, improved survival. [2] A test of the DNA you were born with, to find inherited risk genes such as BRCA or Lynch syndrome. [3] More of them means better outcomes in triple-negative breast cancer. [4] Support and information built specifically for triple-negative breast cancer. [5] Hatem Soliman is a breast oncologist leading immunotherapy and genomic-assay trials, including in triple-negative disease. [6] Adding the immunotherapy pembrolizumab to chemotherapy before surgery, then continuing it afterwards, cut the risk of relapse or death by about a third in stage II-III triple-negative breast cancer and later improved survival. [7] For stage II-III triple-negative breast cancer, chemotherapy plus pembrolizumab before surgery and pembrolizumab alone afterwards is now the standard approach worldwide, and the survival gain is real, not just a surrogate. [7]\n\nSources\n[1] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)\n[2] KEYNOTE-522 (https://onco.cc/trials/keynote-522/)\n[3] Germline (hereditary) testing (https://onco.cc/technologies/germline-testing/)\n[4] Tumour-infiltrating lymphocytes (TILs) (https://onco.cc/terms/tils/)\n[5] Triple Negative Breast Cancer Foundation (https://onco.cc/collections/src-tnbc-foundation/)\n[6] Hatem Soliman (https://onco.cc/people/hatem-soliman/)\n[7] KEYNOTE-522: adding pembrolizumab before and after surgery in early triple-negative breast cancer (https://onco.cc/key-papers/paper-keynote-522-nejm-2022/)"
+  },
+  {
+   "id": "c-21",
+   "audience": "clinician",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [1] Stage I (T1a-b N0): Surgery ± radiation; chemotherapy for ≥T1c; TIL-high tumours have >90% 5-year RFS even without chemotherapy (OPTimal, ETNA, TIL-CHOICE cohorts). De-escalation trials ongoing. [1] Stage II-III: Neoadjuvant pembrolizumab + carboplatin/paclitaxel → AC/EC, surgery, adjuvant pembrolizumab (KEYNOTE-522). Germline BRCA + residual disease: olaparib 1 year (OlympiA). Residual disease without BRCA: capecitabine (CREATE-X). Radiation per stage. [1] Metastatic, first line, PD-L1 CPS ≥10: Pembrolizumab + chemotherapy (KEYNOTE-355) or sacituzumab govitecan + pembrolizumab (ASCENT-04, approved 2026). [1] Metastatic, first line, PD-L1 negative or PD-1 ineligible: Datopotamab deruxtecan (TROPION-Breast02, OS benefit) or sacituzumab govitecan (ASCENT-03), both approved 2026; PARP inhibitor if germline BRCA; chemotherapy. [1] Metastatic, later lines: Whichever TROP2 ADC was not used first (cross-resistance uncertain); T-DXd if HER2-low (DESTINY-Breast04); iza-bren where available; chemotherapy (eribulin, capecitabine); clinical trials. [1] In the pipeline for TNBC: Sacituzumab tirumotecan, Izalontamab brengitecan, TROPION-Breast05, IZABRIGHT-Breast01, OptimICE-pCR (A012103) and SCARLET (SWOG S2212). [1] The standard of care is the treatment that guidelines and experts currently consider the best-proven option. [2] A stain on the tumour biopsy that measures how much of the PD-L1 'don't attack me' protein is present. Higher levels usually mean checkpoint inhibitors work better, and many approvals require a minimum score. [3]\n\nSources\n[1] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)\n[2] Standard of care (https://onco.cc/terms/standard-of-care/)\n[3] PD-L1 expression testing (22C3, SP142, SP263) (https://onco.cc/terms/pd-l1-testing/)"
+  },
+  {
+   "id": "c-22",
+   "audience": "clinician",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Datopotamab deruxtecan (Datroway) is the second TROP2 ADC and shares Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy. [1] It is an ADC: Humanised anti-TROP2 IgG1 with DXd; internalisation, lysosomal release, TOP1 inhibition, bystander effect. [1] In the United States, Datopotamab deruxtecan is approved by the FDA (first approval 2025). [1] It is also approved in the European Union (EMA / European Commission, 2025), the United Kingdom (MHRA, 2025) and Japan (PMDA / MHLW, 2025). [1] Elsewhere it is under review in China and under review in Australia. [1] Approvals recorded on OnCo: US 2025, HR+/HER2- metastatic breast cancer after endocrine therapy and chemotherapy; US 2025, EGFR-mutant NSCLC after EGFR TKI and platinum chemotherapy; US 2026, First-line unresectable/metastatic TNBC, PD-1/PD-L1 inhibitor ineligible. [1] Latest regulatory event: 2026-Q2, approval (US): First-line unresectable/metastatic TNBC, PD-1/PD-L1 inhibitor ineligible (TROPION-Breast02). [1]\n\nSources\n[1] Datopotamab deruxtecan (https://onco.cc/drugs/datopotamab-deruxtecan/)"
+  },
+  {
+   "id": "c-23",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The first TROP2-targeted ADC. It delivers a strong chemotherapy directly to breast and bladder cancer cells and is now a first-line option in triple-negative breast cancer. [1] The side effects recorded for Sacituzumab govitecan (ASCENT, Trodelvy arm, n=258), most serious first: neutropenia (78% any grade, 49% grade 3 or higher); diarrhoea (59% any grade, 11% grade 3 or higher); anaemia (94% any grade, 9% grade 3 or higher); fatigue (65% any grade, 6% grade 3 or higher); nausea (57% any grade, 3.1% grade 3 or higher). [1] Monitoring: Blood counts each dose; UGT1A1*28 homozygotes have earlier and more frequent neutropenia; anti-emetic premedication. [1] Dose changes: Hold and reduce for grade 3-4 neutropenia or diarrhoea; G-CSF prophylaxis permitted. [1] The standard 1-to-5 scale doctors use to grade every side effect in a trial: 1 mild, 2 moderate, 3 severe or needing hospital care, 4 life-threatening, 5 death. 'Grade 3-4 events in 40% of patients' is the usual headline safety figure. [2] A shortage of neutrophils, the white blood cells that fight bacteria, caused by chemotherapy hitting the bone marrow. It usually bottoms out (the nadir) 7-14 days after each cycle and recovers before the next; while low, infection risk is high. [3] Neutropenia and diarrhoea are the key toxicities; UGT1A1*28 homozygotes are at higher risk. [1]\n\nSources\n[1] Sacituzumab govitecan (https://onco.cc/drugs/sacituzumab-govitecan/)\n[2] CTCAE toxicity grading (grade 3-4 adverse events) (https://onco.cc/terms/ctcae-grading/)\n[3] Neutropenia (https://onco.cc/terms/neutropenia/)"
+  },
+  {
+   "id": "c-24",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Trastuzumab deruxtecan (Enhertu) is the most successful ADC ever. It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer. [1] The side effects recorded for Trastuzumab deruxtecan (DESTINY-Breast03/04; all-grade rates ≥20% per label), most serious first: neutropenia (18% grade 3 or higher); nausea (7% grade 3 or higher); anaemia (7% grade 3 or higher); fatigue (6% grade 3 or higher); interstitial lung disease / pneumonitis (12% any grade). [1] Monitoring: Baseline and periodic LVEF; prompt CT and steroids for any respiratory symptoms; blood counts. [1] Dose changes: Permanently discontinue for grade ≥2 ILD/pneumonitis; hold for grade 1 until resolved; reduce for neutropenia and LVEF decrease. [1] Interstitial lung disease (ILD) is lung inflammation, a serious side effect of some ADCs (especially Enhertu) and immunotherapy. [2] Given as the first chemotherapy-type treatment after hormone therapy stopped working, trastuzumab deruxtecan delayed progression by about five months compared with standard chemotherapy, including in tumours with barely detectable HER2. [3] Breast cancers with only a little HER2 on their surface, long called HER2-negative, responded to trastuzumab deruxtecan and patients lived about six months longer than on chemotherapy. [4]\n\nSources\n[1] Trastuzumab deruxtecan (https://onco.cc/drugs/trastuzumab-deruxtecan/)\n[2] Interstitial lung disease (ILD) / pneumonitis (https://onco.cc/terms/ild/)\n[3] DESTINY-Breast06: trastuzumab deruxtecan before any chemotherapy in hormone-receptor-positive, HER2-low or ultralow breast cancer (https://onco.cc/key-papers/paper-destiny-breast06-nejm-2024/)\n[4] DESTINY-Breast04: trastuzumab deruxtecan works in HER2-low breast cancer, creating a new treatable group (https://onco.cc/key-papers/paper-destiny-breast04-nejm-2022/)"
+  },
+  {
+   "id": "c-25",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The first trial to show an overall survival benefit for a first-line ADC in triple-negative breast cancer. [1] TROPION-Breast02 is a phase 3 trial run by AstraZeneca / Daiichi Sankyo with 644 participants: First-line metastatic TNBC, not candidates for PD-1/PD-L1: Dato-DXd vs chemotherapy. [1] Headline result: OS 23.7 vs 18.7 months; PFS also improved. [1] TROPION-Breast02, Progression-free survival (BICR): Datopotamab deruxtecan 10.8 months versus Chemotherapy (ICC) 5.6 months, hazard ratio 0.57, p <0.0001. [1] Dual primary endpoints of PFS and OS both met (OS 23.7 vs 18.7 months per patient summaries; ESMO 2025 / ESMO Breast 2026). [1] Head-to-head with ASCENT-03 (sacituzumab) is indirect; choice is patient-dependent (stomatitis/ocular vs neutropenia/diarrhoea). [1] Replication: Consistent with ASCENT-03 (sacituzumab govitecan, same population, PFS HR 0.62), supporting a TROP2-ADC class effect in first-line PD-1-ineligible TNBC. [1] Datopotamab deruxtecan (Datroway) is the second TROP2 ADC and shares Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy. [2]\n\nSources\n[1] TROPION-Breast02 (https://onco.cc/trials/tropion-breast02/)\n[2] Datopotamab deruxtecan (https://onco.cc/drugs/datopotamab-deruxtecan/)"
+  },
+  {
+   "id": "c-26",
+   "audience": "clinician",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Non-small-cell lung cancer is the biggest cancer killer, and the proving ground for precision medicine: a dozen targetable mutations, immunotherapy for the rest, and ADCs and bispecifics arriving now. [1] Biomarkers tested in Non-small-cell lung cancer: EGFR; ALK; ROS1; BRAF V600E; MET ex14 / amplification / c-MET IHC; RET; NTRK; KRAS G12C; HER2 mutation; PD-L1 TPS; ctDNA; PD-L1 TPS (22C3); EGFR (exon 19 del, L858R, exon 20 ins, T790M, C797S); ALK fusion; ROS1 fusion; KRAS G12C (and G12D/V); MET exon 14 skipping, MET amplification, c-Met IHC; RET fusion; HER2 (ERBB2) mutation; NTRK fusion; STK11 / KEAP1 (prognostic, IO resistance); TP53 / RB1 (transformation risk); ctDNA (genotyping, MRD, resistance tracking); TMB (limited use). [1] Recognised subtypes: Adenocarcinoma; Squamous; EGFR-mutant; ALK-rearranged; KRAS-mutant; PD-L1-high. [1] Lung cancer oncologist who has pushed for universal biomarker testing and better trial design. [2] Leads lung cancer clinical research at Cleveland Clinic; ASCO educational leader on molecular testing in NSCLC. [2]\n\nSources\n[1] Non-small-cell lung cancer (https://onco.cc/cancers/nsclc/)\n[2] Nathan A. Pennell (https://onco.cc/people/nathan-pennell/)"
+  },
+  {
+   "id": "c-27",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A pill that removes the survival shield from leukaemia cells, enabling chemotherapy-free, time-limited treatment for CLL. [1] BH3-mimetic selective BCL-2 inhibitor. [1] Step by step: 1) Venetoclax occupies the BH3-binding groove of BCL-2; 2) Pro-apoptotic BIM and BAX/BAK are released; 3) Mitochondrial outer membrane is permeabilised; 4) Cytochrome c triggers caspase activation; 5) Leukaemic cells die within hours (tumour lysis risk). [1] BCL-2 is an anti-apoptotic BH3-domain protein, overexpressed via t(14;18) in follicular lymphoma. [2]\n\nSources\n[1] Venetoclax (https://onco.cc/drugs/venetoclax/)\n[2] BCL-2 (https://onco.cc/targets/bcl2/)"
+  },
+  {
+   "id": "c-28",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Osimertinib (Tagrisso) is the standard pill for EGFR-mutant lung cancer, now also given after surgery and with chemotherapy or after chemoradiation. [1] Trials on OnCo linked to Osimertinib: ADAURA (positive), FLAURA2 (positive) and LAURA (positive). [1] Showed a targeted pill after lung cancer surgery halves the risk of death, the first such result for a targeted therapy. [2] Adding chemotherapy to osimertinib extended both progression-free and, in 2025, overall survival. [3] For stage III lung cancers with an EGFR mutation, a targeted pill after chemoradiation cut progression by more than 80%. [4] Non-small-cell lung cancer is the biggest cancer killer, and the proving ground for precision medicine: a dozen targetable mutations, immunotherapy for the rest, and ADCs and bispecifics arriving now. [5] Osimertinib approvals: US 2015 for EGFR T790M NSCLC; US 2018 for First-line EGFR-mutant NSCLC; US 2020 for Adjuvant EGFR-mutant NSCLC. [1]\n\nSources\n[1] Osimertinib (https://onco.cc/drugs/osimertinib/)\n[2] ADAURA (https://onco.cc/trials/adaura/)\n[3] FLAURA2 (https://onco.cc/trials/flaura2/)\n[4] LAURA (https://onco.cc/trials/laura/)\n[5] Non-small-cell lung cancer (https://onco.cc/cancers/nsclc/)"
+  },
+  {
+   "id": "c-29",
+   "audience": "clinician",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The first TROP2-targeted ADC. It delivers a strong chemotherapy directly to breast and bladder cancer cells and is now a first-line option in triple-negative breast cancer. [1] Datopotamab deruxtecan (Datroway) is the second TROP2 ADC and shares Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy. [2] Modality of Sacituzumab govitecan: ADC against TROP2. [1] Modality of Datopotamab deruxtecan: ADC against TROP2. [2] Payload of Sacituzumab govitecan: SN-38 (topoisomerase-I inhibitor), DAR ~7.6. [1] Payload of Datopotamab deruxtecan: DXd (TOP1 inhibitor), DAR ~4. [2] Mechanism of Sacituzumab govitecan: Humanised anti-TROP2 IgG1 (hRS7) internalised; SN-38 released by linker hydrolysis inside and around tumour cells. [1] Mechanism of Datopotamab deruxtecan: Humanised anti-TROP2 IgG1 with DXd; internalisation, lysosomal release, TOP1 inhibition, bystander effect. [2] Approvals of Sacituzumab govitecan: 3 recorded, first 2020: Metastatic TNBC, ≥2 prior lines (accelerated; full 2021). [1] Approvals of Datopotamab deruxtecan: 3 recorded, first 2025: HR+/HER2- metastatic breast cancer after endocrine therapy and chemotherapy. [2] Grade 3 or higher side effects of Sacituzumab govitecan: neutropenia 49%, diarrhoea 11%, anaemia 9%. [1] Grade 3 or higher side effects of Datopotamab deruxtecan: stomatitis 7%, fatigue 4.2%, nausea 1.4%. [2] Companies of Sacituzumab govitecan: Gilead Sciences (incl. Kite). [1] Companies of Datopotamab deruxtecan: Daiichi Sankyo and AstraZeneca. [2]\n\nSources\n[1] Sacituzumab govitecan (https://onco.cc/drugs/sacituzumab-govitecan/)\n[2] Datopotamab deruxtecan (https://onco.cc/drugs/datopotamab-deruxtecan/)"
+  },
+  {
+   "id": "c-30",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [1] Stage I (T1a-b N0): Surgery ± radiation; chemotherapy for ≥T1c; TIL-high tumours have >90% 5-year RFS even without chemotherapy (OPTimal, ETNA, TIL-CHOICE cohorts). De-escalation trials ongoing. [1] Stage II-III: Neoadjuvant pembrolizumab + carboplatin/paclitaxel → AC/EC, surgery, adjuvant pembrolizumab (KEYNOTE-522). Germline BRCA + residual disease: olaparib 1 year (OlympiA). Residual disease without BRCA: capecitabine (CREATE-X). Radiation per stage. [1] Metastatic, first line, PD-L1 CPS ≥10: Pembrolizumab + chemotherapy (KEYNOTE-355) or sacituzumab govitecan + pembrolizumab (ASCENT-04, approved 2026). [1] Metastatic, first line, PD-L1 negative or PD-1 ineligible: Datopotamab deruxtecan (TROPION-Breast02, OS benefit) or sacituzumab govitecan (ASCENT-03), both approved 2026; PARP inhibitor if germline BRCA; chemotherapy. [1] Metastatic, later lines: Whichever TROP2 ADC was not used first (cross-resistance uncertain); T-DXd if HER2-low (DESTINY-Breast04); iza-bren where available; chemotherapy (eribulin, capecitabine); clinical trials. [1] In the pipeline for TNBC: Sacituzumab tirumotecan, Izalontamab brengitecan, TROPION-Breast05, IZABRIGHT-Breast01, OptimICE-pCR (A012103) and SCARLET (SWOG S2212). [1] DNA repair genes. Inheriting a broken copy raises breast and ovarian cancer risk, but tumours that lose them become uniquely vulnerable to PARP inhibitors and platinum. [2]\n\nSources\n[1] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)\n[2] BRCA1 / BRCA2 (HRD) (https://onco.cc/targets/brca/)"
+  },
+  {
+   "id": "c-31",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Antibodies that release the brakes on immune cells so they can attack the cancer. They cure a minority of patients across many cancers, something chemotherapy rarely does. [1] Autoimmune toxicity. [1] Immune-related adverse events are the cost. [1] Any organ can be affected; most common with CTLA-4 + PD-1 combinations (~55% grade 3-4). [2] It is the commonest serious side effect of CTLA-4 antibodies and is treated with steroids and, if needed, infliximab. [3] The ASCO 2021 guideline is the consensus rulebook for checkpoint-inhibitor toxicity: grade the problem, hold or stop the drug, give steroids early, escalate to other immunosuppressants if they fail, and involve specialists. [4] This update of the 2018 ASCO guideline, developed with the National Comprehensive Cancer Network, provides organ-by-organ recommendations for immune-related adverse events (irAEs) of PD-1, PD-L1 and CTLA-4 inhibitors, based on systematic review and expert consensus. [4]\n\nSources\n[1] Immune checkpoint inhibitors (https://onco.cc/technologies/checkpoint-inhibitor/)\n[2] Immune-related adverse events (irAEs) (https://onco.cc/terms/irae/)\n[3] Immune-mediated colitis and diarrhoea (https://onco.cc/terms/immune-colitis/)\n[4] ASCO 2021 guideline: how to recognise and manage the immune-related side effects of checkpoint inhibitors (https://onco.cc/key-papers/paper-asco-irae-guideline-jco-2021/)"
+  },
+  {
+   "id": "c-32",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Sacituzumab tirumotecan is a third TROP2 ADC from China, licensed to Merck for a very large global programme. It is approved in China; in the US it has a priority voucher but not yet approval. [1] It is an ADC: Anti-TROP2 IgG1 with a stable, irreversibly-conjugated linker and a belotecan-derived TOP1 payload with reported lower efflux-pump susceptibility. [1] In the United States, Sacituzumab tirumotecan is under review by the FDA: BLA planned after TroFuse phase 3; Commissioner's National Priority Voucher July 2026. [1] It is also approved in China (NMPA, 2024). [1] Elsewhere it is not filed in the European Union. [1] Approvals recorded on OnCo: China 2024, Pretreated advanced TNBC; later EGFR-mutant NSCLC after TKI. [1] Latest regulatory event: 2026-07, designation (US): Commissioner's National Priority Voucher (CNPV) awarded. [1]\n\nSources\n[1] Sacituzumab tirumotecan (https://onco.cc/drugs/sacituzumab-tirumotecan/)"
+  },
+  {
+   "id": "c-33",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A PD-L1 score that counts stained tumour cells and immune cells together. [1] (PD-L1+ tumour cells + lymphocytes + macrophages) / viable tumour cells × 100, using the 22C3 assay. [1] CPS ≥10 defines pembrolizumab eligibility in TNBC; CPS ≥1 in head and neck, gastric, cervical. [1] Why it matters: it decides or shapes the use of Pembrolizumab, and it comes up in Cervical cancer, Gastric & gastro-oesophageal junction cancer, Head and neck squamous cell carcinoma and Oesophageal cancer. [1] A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [2] The most widely used cancer immunotherapy, approved in more than 40 settings, including before and after surgery for triple-negative breast cancer. [3] In metastatic disease, pembrolizumab-chemotherapy (CPS ≥10) was joined by the TROP2 ADCs: sacituzumab govitecan (ASCENT, second line 2020; first-line ASCENT-03/04 2026) and datopotamab deruxtecan (TROPION-Breast02, first-line PD-1-ineligible, 2026, with an overall survival benefit), while T-DXd covers the ~35% of TNBC that is HER2-low. [2]\n\nSources\n[1] Combined positive score (CPS) (https://onco.cc/terms/cps/)\n[2] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)\n[3] Pembrolizumab (https://onco.cc/drugs/pembrolizumab/)"
+  },
+  {
+   "id": "c-34",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Established immunotherapy plus chemotherapy as first-line treatment for metastatic triple-negative breast cancer with PD-L1 expression. [1] KEYNOTE-355 is a phase 3 trial run by Merck with 847 participants: First-line metastatic TNBC: pembrolizumab + chemotherapy vs chemotherapy. [1] Headline result: OS HR 0.73 in CPS ≥10. [1] KEYNOTE-355, Overall survival, PD-L1 CPS ≥10: Pembrolizumab + chemotherapy 23 months versus Placebo + chemotherapy 16.1 months, hazard ratio 0.73, p 0.0185. [1] No benefit in CPS <10, defining the PD-L1 threshold used today. [1] Replication: Consistent direction with IMpassion130 (atezolizumab, PD-L1+); IMpassion131 was negative, so the PD-L1 CPS ≥10 population and the chemotherapy partner matter. Now being superseded by ADC + pembrolizumab (ASCENT-04). [1] The most widely used cancer immunotherapy, approved in more than 40 settings, including before and after surgery for triple-negative breast cancer. [2] PD-L1 is the tumour's side of the PD-1 brake, and also the biomarker that decides who gets immunotherapy. [3]\n\nSources\n[1] KEYNOTE-355 (https://onco.cc/trials/keynote-355/)\n[2] Pembrolizumab (https://onco.cc/drugs/pembrolizumab/)\n[3] PD-L1 (https://onco.cc/targets/pdl1/)"
+  },
+  {
+   "id": "c-35",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The open question of whether a second ADC works after the first one fails, especially when both carry the same type of payload. [1] Retrospective series (SATEEN, BRE-354, ESMO Breast 2026) show reduced efficacy of a second TOP1-payload ADC given immediately after the first; some suggest interposing chemotherapy. [1] Mechanisms: SLFN11 loss, TOP1 mutations, efflux, antigen downregulation. [1] Why it matters: it comes up in HER2-positive breast cancer, HR-positive / HER2-negative breast cancer and TNBC. [1]\n\nSources\n[1] ADC sequencing (https://onco.cc/terms/adc-sequencing/)"
+  },
+  {
+   "id": "c-36",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 0.3333333333333333,
+   "answer": "A protein that sits on the outside of many cancer cells far more than on normal cells, making it a good address for delivering drugs. [1] Approved products against TROP2: Datopotamab deruxtecan and Sacituzumab govitecan. [1] In phase 3: Sacituzumab tirumotecan. [1] Internalises on antibody binding and traffics to lysosomes, which is what makes it a good ADC target. [1] Leads the nuclear medicine group behind the first human TROP2 PET imaging, aiming to pick patients for TROP2 ADCs with a scan. [2] Shaoli Song's department at FUSCC developed and imaged the first TROP2-targeted PET tracers in patients with breast and other cancers, alongside FAPI, HER2, and PSMA theranostic work. [2]\n\nSources\n[1] TROP2 (https://onco.cc/targets/trop2/)\n[2] Shaoli Song (https://onco.cc/people/song-shaoli/)"
+  },
+  {
+   "id": "c-37",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Trastuzumab deruxtecan (Enhertu) is the most successful ADC ever. It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer. [1] Approved in HER2+ metastatic breast cancer (DESTINY-Breast03: beat T-DM1), HER2-low (DESTINY-Breast04, 2022) and HER2-ultralow (DESTINY-Breast06, 2025) HR+ breast cancer, HER2+ gastric, HER2-mutant NSCLC, and tumour-agnostically for HER2 IHC 3+ solid tumours (2024). [1] DESTINY-Breast09 (with pertuzumab) established it in first-line HER2+ metastatic disease. [1] Trastuzumab backbone; DXd released by lysosomal cathepsins; TOP1 inhibition and bystander diffusion. [1] First approved in US in 2019 for HER2+ metastatic breast cancer, ≥2 prior anti-HER2 regimens. [1] Dosing: IV infusion; 5.4 mg/kg every 3 weeks (breast, NSCLC, HER2 IHC3+ tumours); 6.4 mg/kg every 3 weeks (gastric). [1] Monitoring: Baseline and periodic LVEF; prompt CT and steroids for any respiratory symptoms; blood counts. [1]\n\nSources\n[1] Trastuzumab deruxtecan (https://onco.cc/drugs/trastuzumab-deruxtecan/)"
+  },
+  {
+   "id": "c-38",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 0.5,
+   "answer": "Drugs against the most common cancer gene, considered impossible to target until sotorasib in 2021. [1] Inhibitors bind covalently to the mutant cysteine in the switch-II pocket (G12C), or form a cyclophilin-A-mediated tri-complex that blocks effector binding (RAS(ON) inhibitors). [1] Modest durability as monotherapy. [1] Adaptive RTK feedback requires combinations. [1] Combining a KRAS G12C inhibitor with an EGFR antibody produced responses in about a quarter of patients with heavily pretreated KRAS G12C bowel cancer, versus none with standard chemotherapy, and more than doubled the time to progression. [2] The first drug to directly block mutant KRAS beat docetaxel chemotherapy on delaying progression in KRAS G12C lung cancer, but only by about a month, and did not improve survival. [3] Resistance develops through multiple mechanisms (secondary KRAS mutations, bypass pathways), limiting durability. [3]\n\nSources\n[1] KRAS & RAS inhibitors (https://onco.cc/technologies/kras-inhibitors/)\n[2] CodeBreaK 300: sotorasib plus panitumumab in chemotherapy-refractory KRAS G12C colorectal cancer (https://onco.cc/key-papers/paper-codebreak-300-nejm-2023/)\n[3] CodeBreaK 200: sotorasib versus docetaxel in KRAS G12C-mutated lung cancer, a modest win for the first KRAS drug (https://onco.cc/key-papers/paper-codebreak-200-lancet-2023/)"
+  },
+  {
+   "id": "c-39",
+   "audience": "clinician",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Liver cancer almost always grows in a liver already damaged by hepatitis, alcohol or fatty liver disease. It is one of the most preventable cancers, and since 2020 immunotherapy combinations have roughly doubled how long people with advanced disease live. [1] Early: Resection, ablation, transplant. [1] Intermediate: TACE/TARE ± systemic therapy. [1] Advanced: Atezolizumab-bevacizumab, durvalumab-tremelimumab, or nivolumab-ipilimumab. [1] Prevention: Universal HBV vaccination; antiviral suppression of HBV; direct-acting antiviral cure of HCV; alcohol and metabolic risk reduction. [1] Surveillance: Six-monthly ultrasound ± AFP in cirrhosis and high-risk HBV carriers; abbreviated MRI where ultrasound is inadequate. [1] In the pipeline for Hepatocellular carcinoma: FAPI PET, Camrelizumab + rivoceranib, EMERALD-3, TACE + immunotherapy/anti-VEGF, Radioembolisation (TARE / SIRT, yttrium-90) and Glypican-3. [1] Any treatment that works by getting the patient's own immune system to attack the cancer, rather than attacking the cancer directly. It can produce responses that last for years, but only in some patients. [2]\n\nSources\n[1] Hepatocellular carcinoma (https://onco.cc/cancers/hcc/)\n[2] Immunotherapy (https://onco.cc/terms/immunotherapy-term/)"
+  },
+  {
+   "id": "c-40",
+   "audience": "clinician",
+   "score": 0.75,
+   "met": 3,
+   "total": 4,
+   "missed": [
+    "eye"
+   ],
+   "retrievalRecall": 1,
+   "answer": "Datopotamab deruxtecan (Datroway) is the second TROP2 ADC and shares Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy. [1] The first TROP2-targeted ADC. It delivers a strong chemotherapy directly to breast and bladder cancer cells and is now a first-line option in triple-negative breast cancer. [2] Modality of Datopotamab deruxtecan: ADC against TROP2. [1] Modality of Sacituzumab govitecan: ADC against TROP2. [2] Payload of Datopotamab deruxtecan: DXd (TOP1 inhibitor), DAR ~4. [1] Payload of Sacituzumab govitecan: SN-38 (topoisomerase-I inhibitor), DAR ~7.6. [2] Mechanism of Datopotamab deruxtecan: Humanised anti-TROP2 IgG1 with DXd; internalisation, lysosomal release, TOP1 inhibition, bystander effect. [1] Mechanism of Sacituzumab govitecan: Humanised anti-TROP2 IgG1 (hRS7) internalised; SN-38 released by linker hydrolysis inside and around tumour cells. [2] Approvals of Datopotamab deruxtecan: 3 recorded, first 2025: HR+/HER2- metastatic breast cancer after endocrine therapy and chemotherapy. [1] Approvals of Sacituzumab govitecan: 3 recorded, first 2020: Metastatic TNBC, ≥2 prior lines (accelerated; full 2021). [2] Grade 3 or higher side effects of Datopotamab deruxtecan: stomatitis 7%, fatigue 4.2%, nausea 1.4%. [1] Grade 3 or higher side effects of Sacituzumab govitecan: neutropenia 49%, diarrhoea 11%, anaemia 9%. [2] Companies of Datopotamab deruxtecan: Daiichi Sankyo and AstraZeneca. [1] Companies of Sacituzumab govitecan: Gilead Sciences (incl. Kite). [2]\n\nSources\n[1] Datopotamab deruxtecan (https://onco.cc/drugs/datopotamab-deruxtecan/)\n[2] Sacituzumab govitecan (https://onco.cc/drugs/sacituzumab-govitecan/)"
+  },
+  {
+   "id": "i-41",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The first TROP2-targeted ADC. It delivers a strong chemotherapy directly to breast and bladder cancer cells and is now a first-line option in triple-negative breast cancer. [1] Sacituzumab govitecan is developed or marketed by Gilead Sciences (incl. Kite). [1] Gilead owns Trodelvy (via the $21B Immunomedics deal) and the Kite CAR-T franchise. [2] Approved 2020 (accelerated) and 2021 (full) for pretreated metastatic TNBC (ASCENT: OS 12.1 vs 6.7 months), 2023 for HR+/HER2- breast cancer (TROPiCS-02), and urothelial cancer (later withdrawn in the US after TROPiCS-04). [1]\n\nSources\n[1] Sacituzumab govitecan (https://onco.cc/drugs/sacituzumab-govitecan/)\n[2] Gilead Sciences (incl. Kite) (https://onco.cc/companies/gilead/)"
+  },
+  {
+   "id": "i-42",
+   "audience": "investor",
+   "score": 1,
+   "met": 2,
+   "total": 2,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Sacituzumab tirumotecan is a third TROP2 ADC from China, licensed to Merck for a very large global programme. It is approved in China; in the US it has a priority voucher but not yet approval. [1] Sacituzumab tirumotecan is developed or marketed by Sichuan Kelun-Biotech and Merck & Co. (MSD). [1] Chinese ADC developer whose TROP2 ADC sac-TMT was licensed to Merck in one of the largest China-out deals. [2] Merck & Co. (MSD) makes Keytruda, the world's best-selling cancer drug, and is now building the next act around TROP2 ADCs and personalised vaccines. [3] Institutions on OnCo linked to Sacituzumab tirumotecan: Cancer Hospital, Chinese Academy of Medical Sciences. [1] Kelun-Biotech's sac-TMT was approved by China's NMPA in 2024 for pretreated TNBC (the first TROP2 ADC approval in China) and later for EGFR-mutant NSCLC. [1] Merck holds ex-Greater-China rights and runs the TroFuse programme of >10 phase 3 trials, including first-line TNBC (positive on primary endpoint per 2026 reports), HR+ breast, NSCLC, endometrial, and cervical cancer, many combined with pembrolizumab. [1]\n\nSources\n[1] Sacituzumab tirumotecan (https://onco.cc/drugs/sacituzumab-tirumotecan/)\n[2] Sichuan Kelun-Biotech (https://onco.cc/companies/kelun-biotech/)\n[3] Merck & Co. (MSD) (https://onco.cc/companies/merck/)"
+  },
+  {
+   "id": "i-43",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [1] Stage I (T1a-b N0): Surgery ± radiation; chemotherapy for ≥T1c; TIL-high tumours have >90% 5-year RFS even without chemotherapy (OPTimal, ETNA, TIL-CHOICE cohorts). De-escalation trials ongoing. [1] Stage II-III: Neoadjuvant pembrolizumab + carboplatin/paclitaxel → AC/EC, surgery, adjuvant pembrolizumab (KEYNOTE-522). Germline BRCA + residual disease: olaparib 1 year (OlympiA). Residual disease without BRCA: capecitabine (CREATE-X). Radiation per stage. [1] Metastatic, first line, PD-L1 CPS ≥10: Pembrolizumab + chemotherapy (KEYNOTE-355) or sacituzumab govitecan + pembrolizumab (ASCENT-04, approved 2026). [1] Metastatic, first line, PD-L1 negative or PD-1 ineligible: Datopotamab deruxtecan (TROPION-Breast02, OS benefit) or sacituzumab govitecan (ASCENT-03), both approved 2026; PARP inhibitor if germline BRCA; chemotherapy. [1] Metastatic, later lines: Whichever TROP2 ADC was not used first (cross-resistance uncertain); T-DXd if HER2-low (DESTINY-Breast04); iza-bren where available; chemotherapy (eribulin, capecitabine); clinical trials. [1] In the pipeline for TNBC: Sacituzumab tirumotecan, Izalontamab brengitecan, TROPION-Breast05, IZABRIGHT-Breast01, OptimICE-pCR (A012103) and SCARLET (SWOG S2212). [1]\n\nSources\n[1] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)"
+  },
+  {
+   "id": "i-44",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A protein that sits on the outside of many cancer cells far more than on normal cells, making it a good address for delivering drugs. [1] Approved products against TROP2 on OnCo: Datopotamab deruxtecan and Sacituzumab govitecan. [1] In phase 3: Sacituzumab tirumotecan. [1] Three TROP2 ADCs are approved or in registration (sacituzumab govitecan, datopotamab deruxtecan, sacituzumab tirumotecan) and a TROP2 PET tracer is in development to select patients. [1]\n\nSources\n[1] TROP2 (https://onco.cc/targets/trop2/)"
+  },
+  {
+   "id": "i-45",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "The first phase 3 win for a bispecific ADC, in triple-negative breast cancer, announced February 2026. [1] BL-B01D1-307 is a phase 3 trial run by SystImmune / BMS with 418 participants: Previously treated locally advanced or metastatic TNBC: izalontamab brengitecan vs chemotherapy. [1] Headline result: PFS and OS significantly improved at interim analysis (numbers presented ASCO 2026). [1] BL-B01D1-307, Progression-free survival (BICR): Izalontamab brengitecan 8.5 months versus Chemotherapy (TPC) 3.1 months, hazard ratio 0.29, p <0.0001. [1] BL-B01D1-307, Overall survival (interim, median follow-up 11 months): Izalontamab brengitecan 15.9 months versus Chemotherapy (TPC) 12.5 months, hazard ratio 0.6, p 0.0019. [1] BL-B01D1-307, Confirmed objective response rate (BICR): Izalontamab brengitecan 51.7% versus Chemotherapy (TPC) 20.5%. [1] Interim analysis met PFS and OS with statistically significant and clinically meaningful improvements (topline 26 February 2026; full data ASCO 2026). [1] Conducted in China; global trials underway. [1] Replication: Single Chinese phase 3 with an interim OS analysis; a parallel positive phase 3 in oesophageal squamous cell carcinoma supports the drug, and the global IZABRIGHT-Breast01 trial will test the first-line setting. Not yet replicated outside China. [1] Izalontamab brengitecan is the first bispecific ADC to succeed in a phase 3 trial, hitting two growth receptors at once in triple-negative breast cancer. [2]\n\nSources\n[1] BL-B01D1-307 (https://onco.cc/trials/bl-b01d1-307/)\n[2] Izalontamab brengitecan (https://onco.cc/drugs/izalontamab-brengitecan/)"
+  },
+  {
+   "id": "i-46",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Datopotamab deruxtecan (Datroway) is the second TROP2 ADC and shares Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy. [1] It is an ADC: Humanised anti-TROP2 IgG1 with DXd; internalisation, lysosomal release, TOP1 inhibition, bystander effect. [1] In the United States, Datopotamab deruxtecan is approved by the FDA (first approval 2025). [1] It is also approved in the European Union (EMA / European Commission, 2025), the United Kingdom (MHRA, 2025) and Japan (PMDA / MHLW, 2025). [1] Elsewhere it is under review in China and under review in Australia. [1] Approvals recorded on OnCo: US 2025, HR+/HER2- metastatic breast cancer after endocrine therapy and chemotherapy; US 2025, EGFR-mutant NSCLC after EGFR TKI and platinum chemotherapy; US 2026, First-line unresectable/metastatic TNBC, PD-1/PD-L1 inhibitor ineligible. [1] Latest regulatory event: 2026-Q2, approval (US): First-line unresectable/metastatic TNBC, PD-1/PD-L1 inhibitor ineligible (TROPION-Breast02). [1]\n\nSources\n[1] Datopotamab deruxtecan (https://onco.cc/drugs/datopotamab-deruxtecan/)"
+  },
+  {
+   "id": "i-47",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [1] TNBC is defined by what it lacks: ER <1%, PR <1%, HER2 0-1+ (or 2+/ISH-negative). [1] It is biologically heterogeneous (basal-like 1 and 2, mesenchymal, luminal androgen receptor, immunomodulatory subtypes), nearly always TP53-mutant, frequently HRD-positive (~20% germline BRCA1/2), and has the highest TROP2 expression and the most immune infiltration of any breast subtype. [1] Curative-intent: chemo-immunotherapy (KEYNOTE-522) cures more patients than ever; pCR ~65%. Adjuvant PARP inhibitor for BRCA carriers. [1] Treatments in the standard of care for TNBC on OnCo include Pembrolizumab, Carboplatin, Olaparib, Sacituzumab govitecan and Datopotamab deruxtecan. [1] TNBC accounts for about 10-15% of breast cancers, roughly 200,000 cases per year worldwide, and is more common in younger women, Black women, and BRCA1 carriers. [1]\n\nSources\n[1] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)"
+  },
+  {
+   "id": "i-48",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Gilead Sciences (incl. Kite) is a pharmaceutical company headquartered in Foster City, CA (ticker GILD). [1] Gilead owns Trodelvy (via the $21B Immunomedics deal) and the Kite CAR-T franchise. [1] Products on OnCo linked to Gilead Sciences: Anitocabtagene autoleucel, Axicabtagene ciloleucel, Brexucabtagene autoleucel, Idelalisib, Magrolimab and Sacituzumab govitecan. [1] Sacituzumab govitecan in TNBC (first-line 2026), HR+ breast; Yescarta and Tecartus CAR-T; anito-cel BCMA CAR-T (Arcellx) in registration; domvanalimab (TIGIT) largely failed. [1] German ADC company whose NaPi2b ADC TUB-040 posted a 59% response rate in platinum-resistant ovarian cancer; Gilead agreed to buy it for up to $5B. [2]\n\nSources\n[1] Gilead Sciences (incl. Kite) (https://onco.cc/companies/gilead/)\n[2] Tubulis (Gilead) (https://onco.cc/companies/tubulis/)"
+  },
+  {
+   "id": "i-49",
+   "audience": "investor",
+   "score": 1,
+   "met": 2,
+   "total": 2,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A bispecific ADC is an ADC whose antibody grabs two different proteins on the cancer cell, so it sticks better to tumour and less to healthy tissue. [1] Companies on OnCo linked to Bispecific ADC: Akeso, AstraZeneca, Avenzo Therapeutics, Bristol Myers Squibb, Synaffix (Lonza) and SystImmune / Sichuan Biokin. [1] SystImmune developed iza-bren, the first bispecific ADC to win a phase 3 trial. [2] Izalontamab brengitecan (EGFR×HER3), partnered with BMS for up to $8.4B; pipeline of further bispecific ADCs. [2]\n\nSources\n[1] Bispecific ADC (https://onco.cc/technologies/bispecific-adc/)\n[2] SystImmune / Sichuan Biokin (https://onco.cc/companies/systimmune/)"
+  },
+  {
+   "id": "i-50",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A treatment that adds two months of life but takes up most of those days in hospitals and clinics may not be worth it to an older patient. [1] Endpoints News is the fastest read on what biotech and pharma are doing in oncology, deal by deal. [2] Endpoints sends daily newsletters and is strong on China-out licensing and ADC/bispecific deal flow. [2] Gilead owns Trodelvy (via the $21B Immunomedics deal) and the Kite CAR-T franchise. [3] BioPharma Dive offers clean, free industry reporting and is good for deal and approval context. [4]\n\nSources\n[1] Report time toxicity, the days spent in healthcare, as a standard outcome for older patients (https://onco.cc/ideas/idea-acc-time-toxicity-reporting/)\n[2] Endpoints News (https://onco.cc/collections/src-endpoints-news/)\n[3] Gilead Sciences (incl. Kite) (https://onco.cc/companies/gilead/)\n[4] BioPharma Dive (https://onco.cc/collections/src-biopharma-dive/)"
+  },
+  {
+   "id": "i-51",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Tests whether Dato-DXd plus a PD-L1 blocker beats today's immunotherapy-chemotherapy standard. [1] TROPION-Breast05 is a phase 3 trial run by AstraZeneca / Daiichi Sankyo with 625 participants: First-line PD-L1+ metastatic TNBC: Dato-DXd ± durvalumab vs pembrolizumab + chemotherapy. [1] TROPION-Breast05 has a three-arm design, with readout expected 2026-27. [1] Together with ASCENT-04 will define ADC+IO first-line therapy. [1] Replication: Ongoing; no results. [1] Datopotamab deruxtecan (Datroway) is the second TROP2 ADC and shares Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy. [2] A PD-L1 blocker that became standard after chemoradiation for stage III lung cancer, and now in bladder, biliary, and gastric cancers. [3]\n\nSources\n[1] TROPION-Breast05 (https://onco.cc/trials/tropion-breast05/)\n[2] Datopotamab deruxtecan (https://onco.cc/drugs/datopotamab-deruxtecan/)\n[3] Durvalumab (https://onco.cc/drugs/durvalumab/)"
+  },
+  {
+   "id": "i-52",
+   "audience": "investor",
+   "score": 1,
+   "met": 2,
+   "total": 2,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "An antibody-drug conjugate is a guided missile: an antibody homes to the tumour cell, is swallowed, and releases a chemotherapy so potent it could never be given on its own. [1] ALFA-0701: EFS 17.3 vs 9.5 months; HR 0.56. [2] CLARITY-Gastric 01: Co-primary endpoints including OS met (July 2026); numbers pending. [3] DESTINY-PanTumor02: Endometrial ORR 57.5% (84.6% in IHC 3+); cervical ORR 50%. [4] A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [5] Overall survival (OS) is how long patients live, full stop. It is the gold-standard endpoint. [6] In metastatic disease, pembrolizumab-chemotherapy (CPS ≥10) was joined by the TROP2 ADCs: sacituzumab govitecan (ASCENT, second line 2020; first-line ASCENT-03/04 2026) and datopotamab deruxtecan (TROPION-Breast02, first-line PD-1-ineligible, 2026, with an overall survival benefit), while T-DXd covers the ~35% of TNBC that is HER2-low. [5]\n\nSources\n[1] Antibody-drug conjugate (ADC) (https://onco.cc/technologies/adc/)\n[2] ALFA-0701 (https://onco.cc/trials/alfa-0701/)\n[3] CLARITY-Gastric 01 (https://onco.cc/trials/clarity-gastric01/)\n[4] DESTINY-PanTumor02 (https://onco.cc/trials/destiny-pantumor02/)\n[5] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)\n[6] Overall survival (OS) (https://onco.cc/terms/os/)"
+  },
+  {
+   "id": "i-53",
+   "audience": "investor",
+   "score": 1,
+   "met": 4,
+   "total": 4,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A Chinese bispecific that beat Keytruda head-to-head on progression-free survival in lung cancer, the first drug ever to do so. [1] It is a Bispecific antibody (PD-1×VEGF): Tetravalent PD-1×VEGF-A bispecific with cooperative binding: VEGF binding increases PD-1 affinity, concentrating activity in tumour. [1] In the United States, Ivonescimab is under review by the FDA: Summit BLA for EGFR-mutant NSCLC post-TKI; PDUFA Nov 2026 (HARMONi-3 interim PFS miss noted). [1] It is also approved in China (NMPA, 2024). [1] Elsewhere it is not filed in the European Union. [1] Approvals recorded on OnCo: China 2024, EGFR-mutant NSCLC after TKI (with chemotherapy); first-line PD-L1+ NSCLC. [1] Latest regulatory event: 2026-11-14, pdufa (US): PDUFA target date. [1]\n\nSources\n[1] Ivonescimab (https://onco.cc/drugs/ivonescimab/)"
+  },
+  {
+   "id": "i-54",
+   "audience": "investor",
+   "score": 1,
+   "met": 2,
+   "total": 2,
+   "missed": [],
+   "retrievalRecall": 0.5,
+   "answer": "A drug that finds tumour cells and carries a radioactive atom that irradiates them from inside the body. [1] Companies behind the approved products: Novartis (Netspot, Lutathera and Pluvicto) and Curium (Netspot). [1] Also linked to Radioligand therapy: Clarity Pharmaceuticals and MIM Software (GE HealthCare). [1] Institutions: All India Institute of Medical Sciences, New Delhi, ANZUP Cancer Trials Group, Chris O'Brien Lifehouse and Chulabhorn Hospital / Chulabhorn Royal Academy. [1] People: Emily K. Bergsland, Jeremie Calais, Johannes Czernin and Katherine K. Matthay. [1] Copper theranostics company: Cu-64 SAR-bisPSMA for PET (phase 3 AMPLIFY/CLARIFY) and Cu-67 SAR-bisPSMA for therapy. [2]\n\nSources\n[1] Radioligand therapy (beta emitters) (https://onco.cc/technologies/radioligand-therapy/)\n[2] Clarity Pharmaceuticals (https://onco.cc/companies/clarity-pharmaceuticals/)"
+  },
+  {
+   "id": "i-55",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 0.5,
+   "answer": "Instead of blocking a protein, these drugs tag it for the cell's own garbage disposal, removing it entirely. [1] Approved products using PROTACs & molecular glues on OnCo: Lenalidomide, Pomalidomide, Thalidomide and Vepdegestrant. [1] In phase 3: BGB-16673, Golcadomide, Iberdomide and Mezigdomide. [1] First used in people or approved: 2026. [1] Vepdegestrant (Veppanu, Arvinas/Pfizer), an oral ER PROTAC, became the first approved PROTAC in 2026 for ESR1-mutant HR+ breast cancer (VERITAC-2). [1] PROTAC pioneer whose vepdegestrant became the first approved targeted protein degrader in 2026. [2] Shaomeng Wang is the medicinal chemist behind some of the first clinical MDM2 inhibitors and PROTAC degraders. [3]\n\nSources\n[1] PROTACs & molecular glues (targeted protein degradation) (https://onco.cc/technologies/protac-degrader/)\n[2] Arvinas (https://onco.cc/companies/arvinas/)\n[3] Shaomeng Wang (https://onco.cc/people/shaomeng-wang/)"
+  },
+  {
+   "id": "i-56",
+   "audience": "investor",
+   "score": 1,
+   "met": 2,
+   "total": 2,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Drugs against the most common cancer gene, considered impossible to target until sotorasib in 2021. [1] Approved products using KRAS & RAS inhibitors on OnCo: Adagrasib, Daraxonrasib and Sotorasib. [1] In phase 3: Divarasib and Olomorasib. [1] First used in people or approved: 2021. [1] Pancreatic cancer is the deadliest common cancer. Almost every tumour carries a KRAS mutation, and for the first time drugs against it are in pivotal trials. [2] Non-covalent G12D inhibitors (zoldonrasib, MRTX1133) and pan-RAS(ON) tri-complex inhibitors (daraxonrasib RMC-6236, in phase 3 RASolute 302 in second-line pancreatic cancer) aim at pancreatic cancer, where KRAS is near-universal. [1] G12C (common in smokers' lung cancer) was the first to get a drug; G12D dominates pancreatic and colorectal cancer and its inhibitors are arriving now. [3]\n\nSources\n[1] KRAS & RAS inhibitors (https://onco.cc/technologies/kras-inhibitors/)\n[2] Pancreatic ductal adenocarcinoma (https://onco.cc/cancers/pancreatic/)\n[3] KRAS mutation subtypes (G12C, G12D, G12V) (https://onco.cc/terms/kras-mutation-subtypes/)"
+  },
+  {
+   "id": "i-57",
+   "audience": "investor",
+   "score": 1,
+   "met": 2,
+   "total": 2,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Bristol Myers Squibb is a pharmaceutical company headquartered in Princeton, NJ (ticker BMY). [1] Pioneer of checkpoint inhibitors (Opdivo, Yervoy), now betting on the first successful bispecific ADC and alpha radiopharmaceuticals. [1] Products on OnCo linked to Bristol Myers Squibb: Actinium-225 DOTATATE, Adagrasib, Azacitidine, Bempegaldesleukin, Dasatinib, Elotuzumab, Enasidenib and Fedratinib. [1] Nivolumab, ipilimumab, Opdualag; izalontamab brengitecan (SystImmune, $8.4B); RayzeBio ($4.1B, RYZ101); Mirati (adagrasib); Breyanzi and Abecma CAR-T; BioNTech PD-L1×VEGF bispecific ($11B, 2025). [1] An antibody-drug conjugate is a guided missile: an antibody homes to the tumour cell, is swallowed, and releases a chemotherapy so potent it could never be given on its own. [2]\n\nSources\n[1] Bristol Myers Squibb (https://onco.cc/companies/bms/)\n[2] Antibody-drug conjugate (ADC) (https://onco.cc/technologies/adc/)"
+  },
+  {
+   "id": "i-58",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "Tazemetostat was the first EZH2 inhibitor, approved for epithelioid sarcoma and follicular lymphoma in 2020 and withdrawn worldwide in 2026 after secondary blood cancers. [1] Accelerated approvals in 2020 (epithelioid sarcoma; relapsed EZH2-mutant or option-less FL). [1] Modest response rates (15% and ~35-69%) with good tolerability; SYMPHONY-1 combined it with lenalidomide-rituximab. [1] Latest regulatory event: 2026-03, withdrawal (Global): Withdrawn over secondary haematologic malignancies. [1] EZH2 is an enzyme that silences genes. The first drug against it treated a rare sarcoma and some lymphomas until it was withdrawn in 2026 for causing second blood cancers. [2] Tazemetostat was approved in epithelioid sarcoma (2020) and EZH2-mutant follicular lymphoma, but Ipsen withdrew it from all markets and indications on 9 March 2026 after the SYMPHONY-1 trial showed excess secondary haematologic malignancies (FDA alert March 2026). [2] Withdrawals cluster around accelerated approvals: atezolizumab and pembrolizumab in some bladder and gastric settings (2021), PI3K inhibitors idelalisib, duvelisib, umbralisib and copanlisib in lymphoma (2022-23), melphalan flufenamide, ibrutinib in mantle cell and marginal zone lymphoma (2023), and tazemetostat (2026). [3]\n\nSources\n[1] Tazemetostat (https://onco.cc/drugs/tazemetostat/)\n[2] EZH2 (https://onco.cc/targets/ezh2/)\n[3] Indication withdrawal (https://onco.cc/terms/approval-withdrawal/)"
+  },
+  {
+   "id": "i-59",
+   "audience": "investor",
+   "score": 1,
+   "met": 2,
+   "total": 2,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A breast cancer that lacks the three receptors (oestrogen, progesterone, HER2) that other breast cancers can be treated through. It was the hardest subtype for decades; since 2020 immunotherapy and ADCs have changed that. [1] Companies on OnCo linked to TNBC: AstraZeneca, Bristol Myers Squibb, Celldex Therapeutics, Circle Pharma, Daiichi Sankyo and Gilead Sciences (incl. Kite). [1] Institutions: Alliance for Clinical Trials in Oncology, Breast Cancer Research Foundation, Breast Cancer Trials and Breast International Group (BIG). [1] People: Alan Ashworth, Andrew Tutt, Angela DeMichele and Angelina Jolie. [1]\n\nSources\n[1] Triple-negative breast cancer (TNBC) (https://onco.cc/cancers/tnbc/)"
+  },
+  {
+   "id": "i-60",
+   "audience": "investor",
+   "score": 1,
+   "met": 3,
+   "total": 3,
+   "missed": [],
+   "retrievalRecall": 1,
+   "answer": "A patient's T cells are removed, given a synthetic receptor that recognises the cancer, multiplied, and put back as a living drug. [1] Approved products using CAR-T cell therapy on OnCo: Axicabtagene ciloleucel, Brexucabtagene autoleucel, Ciltacabtagene autoleucel, Cyclophosphamide, Idecabtagene vicleucel, Lisocabtagene maraleucel, Obecabtagene autoleucel and Satricabtagene autoleucel. [1] In phase 3: Anitocabtagene autoleucel. [1] First used in people or approved: 2017. [1] CD19 is a marker on B cells and B-cell cancers, and was the target of the first CAR-T therapies ever approved. [2] BCMA is a survival receptor on plasma cells, and the target that made CAR-T and bispecifics work in multiple myeloma. [3] Seven approved autologous products: CD19 (tisagenlecleucel, axicabtagene, lisocabtagene, brexucabtagene, obecabtagene) and BCMA (idecabtagene, ciltacabtagene). [1]\n\nSources\n[1] CAR-T cell therapy (https://onco.cc/technologies/car-t/)\n[2] CD19 (https://onco.cc/targets/cd19/)\n[3] BCMA (https://onco.cc/targets/bcma/)"
+  }
+ ]
+}

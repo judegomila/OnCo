@@ -1,4 +1,5 @@
 import type { CompanyInput, DrugInput, EntityInput, InstitutionInput, TrialInput } from "@/lib/schema";
+import { TRIAL_OUTCOMES } from "./trial-outcomes";
 
 /**
  * China deep dive (September 2026): the domestic innovative oncology products, companies,
@@ -597,4 +598,4 @@ export const chinaTrials: TrialInput[] = [
     links: [ct("NCT02645981"), doi("J Clin Oncol 2021", "10.1200/JCO.20.02672")], tags: ["china"] }),
 ];
 
-export const china: EntityInput[] = [...chinaDrugs, ...chinaCompanies, ...chinaInstitutions, ...chinaTrials];
+export const china: EntityInput[] = [...chinaDrugs, ...chinaCompanies, ...chinaInstitutions, ...chinaTrials.map((t) => ({ ...t, ...TRIAL_OUTCOMES[t.id] }))];

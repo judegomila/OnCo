@@ -800,6 +800,56 @@ const RAW: Record<string, TrialOutcomeIn> = {
     ],
     replication: "Failed to replicate IMpassion130; the discordance is attributed to the taxane partner (steroid premedication with paclitaxel) and chance.",
   },
+
+  // ---------------- China and India cell therapy (single-arm registrational studies) ----------------
+  "fumanba-1": {
+    enrolled: 103,
+    outcomes: [
+      { endpoint: "Overall response rate (efficacy-evaluable)", primary: true, unit: "%", arms: [{ name: "Equecabtagene autoleucel 1.0 × 10^6 CAR+ T cells/kg", n: 101, value: 96.0 }], note: "97 of 101 evaluable patients; 103 infused; median follow-up 13.8 months (data cut September 2022)", source: "https://doi.org/10.1001/jamaoncol.2024.4879" },
+      { endpoint: "Complete response or better", unit: "%", arms: [{ name: "Equecabtagene autoleucel", n: 103, value: 74.3 }], note: "75 of 103 as reported", source: "https://doi.org/10.1001/jamaoncol.2024.4879" },
+      { endpoint: "MRD negativity (10^-5)", unit: "%", arms: [{ name: "Equecabtagene autoleucel", value: 95.0 }], note: "96 patients", source: "https://doi.org/10.1001/jamaoncol.2024.4879" },
+      { endpoint: "Progression-free survival at 12 months", unit: "%", arms: [{ name: "Equecabtagene autoleucel", value: 78.8 }], ci: [68.6, 86.0], note: "Median PFS not reached", source: "https://doi.org/10.1001/jamaoncol.2024.4879" },
+      { endpoint: "Cytokine release syndrome, any grade", unit: "%", arms: [{ name: "Equecabtagene autoleucel", n: 103, value: 93.2 }], note: "Grade 1-2 in 92.3%; ICANS 1.9% (all grade 1-2)", source: "https://doi.org/10.1001/jamaoncol.2024.4879" },
+    ],
+    replication: "Single-arm phase 1b/2 across 14 Chinese centres; no randomised comparison. The response rate sits alongside zevor-cel (LUMMICAR STUDY 1, ORR 92.2%) and cilta-cel (CARTITUDE-1), so the depth of response is consistent across fully human and llama-derived BCMA CAR-Ts; 9 of 12 patients previously exposed to another CAR-T responded.",
+  },
+  "lummicar-1": {
+    enrolled: 102,
+    outcomes: [
+      { endpoint: "Objective response rate (independent review committee)", primary: true, unit: "%", arms: [{ name: "Zevorcabtagene autoleucel", n: 102, value: 92.2 }], ci: [85.13, 96.55], note: "102 infused of 125 apheresed; median follow-up 20.3 months; DOR, PFS and OS not mature", source: "https://doi.org/10.1186/s40164-025-00710-y" },
+      { endpoint: "Stringent complete response", unit: "%", arms: [{ name: "Zevorcabtagene autoleucel", n: 102, value: 68.6 }], note: "A further 2.9% reached complete response", source: "https://doi.org/10.1186/s40164-025-00710-y" },
+      { endpoint: "Cytokine release syndrome, any grade", unit: "%", arms: [{ name: "Zevorcabtagene autoleucel", n: 102, value: 90.2 }], note: "Grade 3-4 in 6.9%; ICANS in 2 patients, both grade 1", source: "https://doi.org/10.1186/s40164-025-00710-y" },
+    ],
+    replication: "Single-arm phase 2 at 23 Chinese centres (patients with prior BCMA-directed or CAR-T therapy excluded). Consistent with FUMANBA-1 (eque-cel, ORR 96%) and with the North American LUMMICAR STUDY 2 dose-finding cohort; no randomised trial against standard regimens.",
+  },
+  "imagine-varnimcabtagene": {
+    enrolled: 24,
+    outcomes: [
+      { endpoint: "Overall response rate at the primary endpoint", primary: true, unit: "%", arms: [{ name: "Varnimcabtagene autoleucel (IMN-003A)", n: 21, value: 80.9 }], note: "17 of 21 evaluable patients (B-cell NHL and B-ALL combined); 24 infused; median PFS not reached at the ASH 2023 cut, relapse in 9 of 24", source: "https://doi.org/10.1182/blood-2023-181120" },
+      { endpoint: "Cytokine release syndrome, any grade", unit: "%", arms: [{ name: "Varnimcabtagene autoleucel (IMN-003A)", n: 24, value: 66.7 }], note: "Grade 1 in 62.5%, grade 3 or higher in 4.2%; ICANS 4.2% (grade 1 only)", source: "https://doi.org/10.1182/blood-2023-181585" },
+    ],
+    replication: "Figures come from ASH 2023 abstracts, not a full paper. The Indian product is the ARI-0001 construct from Hospital Clinic de Barcelona, whose CART19-BE-01 trial and compassionate-use series (including a 2026 mantle cell lymphoma report, ORR 89%) show similar activity and low rates of severe CRS, so the Bengaluru result replicates the Spanish programme in a new manufacturing site rather than an independent design.",
+  },
+
+  // ---------------- Direction-only topline readouts ----------------
+  "dellphi-305": {
+    enrolled: 563,
+    outcomes: [
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Met at the pre-specified interim analysis: Amgen's 8 September 2026 release describes a statistically significant and clinically meaningful improvement; medians and hazard ratio not yet disclosed, detailed data promised for an upcoming congress", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
+      { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Statistically significant and clinically meaningful improvement per the sponsor; figures not yet public", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
+      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Statistically significant improvement per the sponsor; figures not yet public", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
+    ],
+    replication: "First phase 3 of a DLL3 T-cell engager in first-line maintenance; consistent in direction with the DeLLphi-303 phase 1b cohort (median OS 25.3 months). DeLLphi-312 (tarlatamab added to induction chemo-immunotherapy) is the confirmatory sibling.",
+  },
+
+  // ---------------- Screening cohorts with published interim results ----------------
+  istopmm: {
+    enrolled: 75422,
+    outcomes: [
+      { endpoint: "Prevalence of smouldering multiple myeloma among screened residents aged 40 or older", unit: "%", arms: [{ name: "Screened Icelandic residents (serum protein electrophoresis, immunofixation and free light chains)", n: 75422, value: 0.53 }], ci: [0.49, 0.57], note: "80,759 consented, 75,422 screened; 0.67% in men and 0.39% in women; 193 individuals with smouldering myeloma, median age 70. The randomised primary endpoints (outcomes by follow-up strategy) have not yet been reported", source: "https://doi.org/10.1038/s41591-022-02183-6" },
+    ],
+    replication: "The only nationwide screening cohort for myeloma precursors, so the prevalence figure has no direct replicate; it is roughly five times higher than earlier clinic-based estimates. The randomised comparison of follow-up strategies is unreported and will decide whether screening should be adopted.",
+  },
 };
 
 export const TRIAL_OUTCOMES: Record<string, TrialOutcomeData> = Object.fromEntries(

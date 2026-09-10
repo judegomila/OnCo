@@ -30,6 +30,7 @@ import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
 import { termsBasics } from "./terms-basics";
+import { termsJargon } from "./terms-jargon";
 import { institutionsUs } from "./institutions/us";
 import { institutionsWorld } from "./institutions/world";
 import { institutionsBodies } from "./institutions/bodies";
@@ -72,6 +73,7 @@ export const ALL_INPUTS: EntityInput[] = [
   ...adcChemistry,
   ...journals,
   ...termsBasics,
+  ...termsJargon,
   ...institutionsUs,
   ...institutionsWorld,
   ...institutionsBodies,

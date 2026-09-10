@@ -28,3 +28,5 @@
 - [ ] If this fixes a factual error, `CORRECTIONS.md` has a row: date, entity, what was wrong, how it was found, fix.
 - [ ] If this is a review sign-off, `src/data/reviews.ts` includes a conflict-of-interest statement.
 - [ ] I opened the affected pages listed in the bot comment and checked the TL;DR reads correctly.
+
+- [ ] This PR references a triaged issue (data changes are not accepted without one).

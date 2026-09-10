@@ -45,7 +45,7 @@ docs/                GAPS.md (what is still missing) and design notes
 2. Reference other objects by id in the relationship fields (`cancers`, `drugs`, `targets`, `technologies`, `trials`, `terms`, `people`, `bottlenecks`, `keyPapers`, `related`, and so on). Backlinks are derived, so link in one direction only.
 3. Run `npm run validate`. It rejects duplicate ids, dangling references and malformed records, and prints the counts per kind.
 4. Run `npm run typecheck && npm run lint && npm test && npm run build`.
-5. Open a pull request. Suggested edits from the site arrive as GitHub issues using the templates in `.github/ISSUE_TEMPLATE/`.
+5. Open an issue first (the site's forms prefill it); pull requests that change data reference the triaged issue, so every change passes the same safety check.
 
 New kinds need: a schema in `src/lib/schema.ts` (plus `KIND_META`, and the rel field in `Base` and `REL_FIELDS` if objects can point at it), a data file spread into `ALL_INPUTS`, a `case` in `buildBrowser` (`src/app/[kind]/page.tsx`) for the index table, a `case` in `kindTabs` (`src/components/EntityDetail.tsx`) for the page, a colour in `src/lib/text.ts` and `GraphExplorer`, and a nav entry.
 

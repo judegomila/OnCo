@@ -1,0 +1,57 @@
+name: Translation fix
+description: A translated TL;DR is wrong, misleading or reads badly in your language.
+title: "translation: <entity id>"
+labels: [translation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Translations are machine-assisted until a named speaker reviews them (pages show "MT" until then). Fixes from speakers of the language are what turns that mark into "Reviewed".
+  - type: input
+    id: entity
+    attributes:
+      label: Entity
+      description: The id and kind of the record, e.g. `tnbc (cancer)`.
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options: [Spanish, Chinese, Portuguese, Hindi]
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current translation
+      description: Paste the text as shown on the page.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed translation
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What was wrong
+      options: [meaning changed, medical term wrong, tone or register wrong, grammar or spelling, drug or brand name mangled, other]
+    validations:
+      required: true
+  - type: input
+    id: contributor
+    attributes:
+      label: You
+      description: Name and how you know the language (native speaker, medical translator, clinician working in the language).
+    validations:
+      required: true
+  - type: input
+    id: coi
+    attributes:
+      label: Conflicts of interest
+      description: Employment, consulting, equity or grants related to this record; or "none".
+    validations:
+      required: true

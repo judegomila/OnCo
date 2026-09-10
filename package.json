@@ -51,7 +51,12 @@
     "history": "tsx scripts/history.ts",
     "check:links": "tsx scripts/check-links.ts",
     "factcheck:apply": "tsx scripts/apply-factcheck.ts",
-    "affected": "tsx scripts/affected-pages.ts"
+    "affected": "tsx scripts/affected-pages.ts",
+    "new": "tsx scripts/new-record.ts",
+    "issue-forms": "tsx scripts/gen-issue-forms.ts",
+    "issue-forms:check": "tsx scripts/gen-issue-forms.ts --check",
+    "fetch:votes": "tsx scripts/fetch-votes.ts",
+    "newsletter": "tsx scripts/newsletter.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

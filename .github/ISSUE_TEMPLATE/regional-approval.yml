@@ -1,0 +1,59 @@
+name: Regional approval
+description: A product was approved, filed, rejected, withdrawn or relabelled in a region OnCo does not show.
+title: "approval: <product id>"
+labels: [regional-approval]
+body:
+  - type: input
+    id: product
+    attributes:
+      label: Product
+      description: The OnCo product id and kind, e.g. `trastuzumab-deruxtecan (product)`.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://onco.cc/drugs/trastuzumab-deruxtecan/
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      options: [US (FDA), EU (EMA), UK (MHRA), Japan (PMDA), China (NMPA), Australia (TGA), Canada (Health Canada), Switzerland (Swissmedic), South Korea (MFDS), Brazil (ANVISA), India (CDSCO), other]
+    validations:
+      required: true
+  - type: dropdown
+    id: event
+    attributes:
+      label: Event
+      options: [approval, conditional or accelerated approval, filing accepted, complete response letter or rejection, withdrawal, label change, advisory committee]
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: indication
+    attributes:
+      label: Indication
+      description: The exact wording of the indication or label change, as the agency states it.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: The agency notice, label, or public assessment report. Company press releases are acceptable only when the agency page is not yet live.
+    validations:
+      required: true
+  - type: input
+    id: coi
+    attributes:
+      label: Conflicts of interest
+      description: Employment, consulting, equity or grants related to this product or its sponsor; or "none".
+    validations:
+      required: true

@@ -3,10 +3,10 @@ import { join } from "node:path";
 import type { Kind } from "./schema";
 
 /**
- * Where does an entity live in the repository? Used to build "Edit on GitHub" links with a
+ * Where does an entity live in the repository? Used to point maintainers at the record's line in issue bodies with a
  * line anchor. Scans src/data/*.ts and src/data/spikes/*.ts once at build time for `id: "<id>"`.
  */
-export type SourceLocation = { file: string; line: number; url: string; editUrl: string };
+export type SourceLocation = { file: string; line: number; url: string };
 
 const REPO = "https://github.com/judegomila/OnCo";
 const KIND_FILE: Record<Kind, string> = {
@@ -48,5 +48,5 @@ export function sourceLocation(id: string, kind: Kind): SourceLocation {
   const hit = scan().get(id);
   const file = hit?.file ?? `src/data/${KIND_FILE[kind]}`;
   const line = hit?.line ?? 1;
-  return { file, line, url: `${REPO}/blob/main/${file}#L${line}`, editUrl: `${REPO}/edit/main/${file}#L${line}` };
+  return { file, line, url: `${REPO}/blob/main/${file}#L${line}` };
 }

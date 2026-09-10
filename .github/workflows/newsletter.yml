@@ -1,0 +1,33 @@
+name: Weekly issue
+
+on:
+  schedule:
+    - cron: "31 7 * * 1" # Mondays 07:31 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - run: npx tsx scripts/newsletter.ts
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/newsletter
+          title: "Weekly issue"
+          commit-message: "chore: render this week's issue to public/newsletter/"
+          body: |
+            Automated weekly run of `npx tsx scripts/newsletter.ts`: the week's changelog entries, dated regulatory events, the next thirty days of the readout calendar, the research pulse and any corrections, rendered to `public/newsletter/<date>.html`, the Atom feed and the archive index at /newsletter/.
+            Review the issue before merging; anything wrong in it is wrong in the corpus and should be fixed there.
+          labels: automated, community
+          delete-branch: true

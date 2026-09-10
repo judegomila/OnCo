@@ -1,0 +1,5903 @@
+{
+ "source": "https://www.cancer.gov/about-cancer/treatment/drugs/cancer-drugs",
+ "checked": "2026-09-10",
+ "count": 392,
+ "matched": 251,
+ "excluded": 49,
+ "unmatched": 92,
+ "entries": [
+  {
+   "slug": "abemaciclib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/abemaciclib",
+   "names": [
+    "Abemaciclib",
+    "Verzenio (Abemaciclib)"
+   ],
+   "generic": "Abemaciclib",
+   "brands": [
+    "Verzenio"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "abemaciclib"
+   ]
+  },
+  {
+   "slug": "abirateroneacetate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/abirateroneacetate",
+   "names": [
+    "Abiraterone Acetate",
+    "Yonsa (Abiraterone Acetate)",
+    "Zytiga (Abiraterone Acetate)"
+   ],
+   "generic": "Abiraterone Acetate",
+   "brands": [
+    "Yonsa",
+    "Zytiga"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "abiraterone"
+   ]
+  },
+  {
+   "slug": "abvd",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/abvd",
+   "names": [
+    "ABVD"
+   ],
+   "generic": "ABVD",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "abve",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/abve",
+   "names": [
+    "ABVE"
+   ],
+   "generic": "ABVE",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "abve-pc",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/abve-pc",
+   "names": [
+    "ABVE-PC"
+   ],
+   "generic": "ABVE-PC",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "ac",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ac",
+   "names": [
+    "AC"
+   ],
+   "generic": "AC",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "ac-t",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ac-t",
+   "names": [
+    "AC-T"
+   ],
+   "generic": "AC-T",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "acalabrutinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/acalabrutinib",
+   "names": [
+    "Acalabrutinib Maleate Monohydrate",
+    "Calquence (Acalabrutinib Maleate Monohydrate)"
+   ],
+   "generic": "Acalabrutinib Maleate Monohydrate",
+   "brands": [
+    "Calquence"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "acalabrutinib"
+   ]
+  },
+  {
+   "slug": "adagrasib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/adagrasib",
+   "names": [
+    "Adagrasib",
+    "Krazati (Adagrasib)"
+   ],
+   "generic": "Adagrasib",
+   "brands": [
+    "Krazati"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "adagrasib"
+   ]
+  },
+  {
+   "slug": "ade",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ade",
+   "names": [
+    "ADE"
+   ],
+   "generic": "ADE",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "ado-trastuzumab-emtansine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ado-trastuzumab-emtansine",
+   "names": [
+    "Ado-Trastuzumab Emtansine",
+    "Kadcyla (Ado-Trastuzumab Emtansine)"
+   ],
+   "generic": "Ado-Trastuzumab Emtansine",
+   "brands": [
+    "Kadcyla"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "trastuzumab-emtansine"
+   ]
+  },
+  {
+   "slug": "afamitresgene-autoleucel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/afamitresgene-autoleucel",
+   "names": [
+    "Afamitresgene Autoleucel",
+    "Tecelra (Afamitresgene Autoleucel"
+   ],
+   "generic": "Tecelra (Afamitresgene Autoleucel",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "afamitresgene-autoleucel"
+   ]
+  },
+  {
+   "slug": "afatinibdimaleate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/afatinibdimaleate",
+   "names": [
+    "Afatinib Dimaleate",
+    "Gilotrif (Afatinib Dimaleate)"
+   ],
+   "generic": "Afatinib Dimaleate",
+   "brands": [
+    "Gilotrif"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "afatinib"
+   ]
+  },
+  {
+   "slug": "aldesleukin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/aldesleukin",
+   "names": [
+    "Aldesleukin",
+    "IL-2 (Aldesleukin)",
+    "Interleukin-2 (Aldesleukin)",
+    "Proleukin (Aldesleukin)"
+   ],
+   "generic": "Aldesleukin",
+   "brands": [
+    "IL-2",
+    "Interleukin-2",
+    "Proleukin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "aldesleukin"
+   ]
+  },
+  {
+   "slug": "alectinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/alectinib",
+   "names": [
+    "Alecensa (Alectinib)",
+    "Alectinib"
+   ],
+   "generic": "Alectinib",
+   "brands": [
+    "Alecensa"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "alectinib"
+   ]
+  },
+  {
+   "slug": "alemtuzumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/alemtuzumab",
+   "names": [
+    "Alemtuzumab",
+    "Campath (Alemtuzumab)"
+   ],
+   "generic": "Alemtuzumab",
+   "brands": [
+    "Campath"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "alpelisib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/alpelisib",
+   "names": [
+    "Alpelisib",
+    "Piqray (Alpelisib)"
+   ],
+   "generic": "Alpelisib",
+   "brands": [
+    "Piqray"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "alpelisib"
+   ]
+  },
+  {
+   "slug": "amifostine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/amifostine",
+   "names": [
+    "Amifostine",
+    "Ethyol (Amifostine)"
+   ],
+   "generic": "Amifostine",
+   "brands": [
+    "Ethyol"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "aminolevulinicacid",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/aminolevulinicacid",
+   "names": [
+    "Ameluz (Aminolevulinic Acid Hydrochloride)",
+    "Aminolevulinic Acid Hydrochloride",
+    "Levulan Kerastick (Aminolevulinic Acid Hydrochloride)"
+   ],
+   "generic": "Aminolevulinic Acid Hydrochloride",
+   "brands": [
+    "Ameluz",
+    "Levulan Kerastick"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "amivantamab-and-hyaluronidase",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/amivantamab-and-hyaluronidase",
+   "names": [
+    "Amivantamab and Hyaluronidase-lpuj",
+    "Rybrevant Faspro ("
+   ],
+   "generic": "Rybrevant Faspro (",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "amivantamab-vmjw",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/amivantamab-vmjw",
+   "names": [
+    "Amivantamab-vmjw",
+    "Rybrevant (Amivantamab-vmjw)"
+   ],
+   "generic": "Amivantamab-vmjw",
+   "brands": [
+    "Rybrevant"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "amivantamab"
+   ]
+  },
+  {
+   "slug": "anastrozole",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/anastrozole",
+   "names": [
+    "Anastrozole",
+    "Arimidex (Anastrozole)"
+   ],
+   "generic": "Anastrozole",
+   "brands": [
+    "Arimidex"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "letrozole"
+   ]
+  },
+  {
+   "slug": "apalutamide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/apalutamide",
+   "names": [
+    "Apalutamide",
+    "Erleada (Apalutamide)"
+   ],
+   "generic": "Apalutamide",
+   "brands": [
+    "Erleada"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "apalutamide"
+   ]
+  },
+  {
+   "slug": "aprepitant",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/aprepitant",
+   "names": [
+    "Aprepitant",
+    "Emend (Aprepitant)"
+   ],
+   "generic": "Aprepitant",
+   "brands": [
+    "Emend"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "arsenictrioxide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/arsenictrioxide",
+   "names": [
+    "Arsenic Trioxide",
+    "Trisenox (Arsenic Trioxide)"
+   ],
+   "generic": "Arsenic Trioxide",
+   "brands": [
+    "Trisenox"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "arsenic-trioxide"
+   ]
+  },
+  {
+   "slug": "asciminib-hydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/asciminib-hydrochloride",
+   "names": [
+    "Asciminib Hydrochloride",
+    "Scemblix (Asciminib Hydrochloride)"
+   ],
+   "generic": "Asciminib Hydrochloride",
+   "brands": [
+    "Scemblix"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "asciminib"
+   ]
+  },
+  {
+   "slug": "asparaginase-erwinia-chrysanthemi",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/asparaginase-erwinia-chrysanthemi",
+   "names": [
+    "Asparaginase Erwinia Chrysanthemi",
+    "Erwinaze (Asparaginase Erwinia chrysanthemi)"
+   ],
+   "generic": "Asparaginase Erwinia Chrysanthemi",
+   "brands": [
+    "Erwinaze"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "asparaginase"
+   ]
+  },
+  {
+   "slug": "asparaginase-erwinia-chrysanthemi-recombinant",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/asparaginase-erwinia-chrysanthemi-recombinant",
+   "names": [
+    "Asparaginase Erwinia Chrysanthemi (Recombinant)-rywn",
+    "Rylaze (Asparaginase Erwinia Chrysanthemi [Recombinant]-rywn)"
+   ],
+   "generic": "Asparaginase Erwinia Chrysanthemi (Recombinant)-rywn",
+   "brands": [
+    "Rylaze"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "asparaginase"
+   ]
+  },
+  {
+   "slug": "atezolizumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/atezolizumab",
+   "names": [
+    "Atezolizumab",
+    "Tecentriq (Atezolizumab)"
+   ],
+   "generic": "Atezolizumab",
+   "brands": [
+    "Tecentriq"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "atezolizumab"
+   ]
+  },
+  {
+   "slug": "atezolizumab-and-hyaluronidase-tqjs",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/atezolizumab-and-hyaluronidase-tqjs",
+   "names": [
+    "Atezolizumab and Hyaluronidase-tqjs",
+    "Tecentriq Hybreza (Atezolizumab and Hyaluronidase-tqjs)"
+   ],
+   "generic": "Atezolizumab and Hyaluronidase-tqjs",
+   "brands": [
+    "Tecentriq Hybreza"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "atezolizumab"
+   ]
+  },
+  {
+   "slug": "avapritinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/avapritinib",
+   "names": [
+    "Avapritinib",
+    "Ayvakit (Avapritinib)"
+   ],
+   "generic": "Avapritinib",
+   "brands": [
+    "Ayvakit"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "avapritinib"
+   ]
+  },
+  {
+   "slug": "avelumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/avelumab",
+   "names": [
+    "Avelumab",
+    "Bavencio (Avelumab)"
+   ],
+   "generic": "Avelumab",
+   "brands": [
+    "Bavencio"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "avelumab"
+   ]
+  },
+  {
+   "slug": "axicabtageneciloleucel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/axicabtageneciloleucel",
+   "names": [
+    "Axicabtagene Ciloleucel",
+    "Yescarta (Axicabtagene Ciloleucel)"
+   ],
+   "generic": "Axicabtagene Ciloleucel",
+   "brands": [
+    "Yescarta"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "axicabtagene-ciloleucel"
+   ]
+  },
+  {
+   "slug": "axitinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/axitinib",
+   "names": [
+    "Axitinib",
+    "Inlyta (Axitinib)"
+   ],
+   "generic": "Axitinib",
+   "brands": [
+    "Inlyta"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "axitinib"
+   ]
+  },
+  {
+   "slug": "azacitidine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/azacitidine",
+   "names": [
+    "Azacitidine",
+    "Onureg (Azacitidine)",
+    "Vidaza (Azacitidine)"
+   ],
+   "generic": "Azacitidine",
+   "brands": [
+    "Onureg",
+    "Vidaza"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "azacitidine"
+   ]
+  },
+  {
+   "slug": "beacopp",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/beacopp",
+   "names": [
+    "BEACOPP"
+   ],
+   "generic": "BEACOPP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "belantamab-mafodotin-blmf",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/belantamab-mafodotin-blmf",
+   "names": [
+    "Belantamab Mafodotin-blmf",
+    "Blenrep (Belantamab Mafodotin-blmf)"
+   ],
+   "generic": "Belantamab Mafodotin-blmf",
+   "brands": [
+    "Blenrep"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "belantamab-mafodotin"
+   ]
+  },
+  {
+   "slug": "belinostat",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/belinostat",
+   "names": [
+    "Beleodaq (Belinostat)",
+    "Belinostat"
+   ],
+   "generic": "Belinostat",
+   "brands": [
+    "Beleodaq"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "belinostat"
+   ]
+  },
+  {
+   "slug": "belzutifan",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/belzutifan",
+   "names": [
+    "Belzutifan",
+    "Welireg (Belzutifan)"
+   ],
+   "generic": "Belzutifan",
+   "brands": [
+    "Welireg"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "belzutifan"
+   ]
+  },
+  {
+   "slug": "bendamustinehydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bendamustinehydrochloride",
+   "names": [
+    "Bendamustine Hydrochloride",
+    "Bendeka (Bendamustine Hydrochloride)",
+    "Treanda (Bendamustine Hydrochloride)"
+   ],
+   "generic": "Bendamustine Hydrochloride",
+   "brands": [
+    "Bendeka",
+    "Treanda"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "bendamustine"
+   ]
+  },
+  {
+   "slug": "bep",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bep",
+   "names": [
+    "BEP"
+   ],
+   "generic": "BEP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "bevacizumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bevacizumab",
+   "names": [
+    "Alymsys (Bevacizumab)",
+    "Avastin (Bevacizumab)",
+    "Bevacizumab",
+    "Mvasi (Bevacizumab)",
+    "Zirabev (Bevcizumab)"
+   ],
+   "generic": "Bevacizumab",
+   "brands": [
+    "Alymsys",
+    "Avastin",
+    "Mvasi",
+    "Zirabev"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "bevacizumab",
+    "bevacizumab-glioma"
+   ]
+  },
+  {
+   "slug": "bexarotene",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bexarotene",
+   "names": [
+    "Bexarotene",
+    "Targretin (Bexarotene)"
+   ],
+   "generic": "Bexarotene",
+   "brands": [
+    "Targretin"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "bicalutamide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bicalutamide",
+   "names": [
+    "Bicalutamide",
+    "Casodex (Bicalutamide)"
+   ],
+   "generic": "Bicalutamide",
+   "brands": [
+    "Casodex"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "bicalutamide"
+   ]
+  },
+  {
+   "slug": "binimetinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/binimetinib",
+   "names": [
+    "Binimetinib",
+    "Mektovi (Binimetinib)"
+   ],
+   "generic": "Binimetinib",
+   "brands": [
+    "Mektovi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "binimetinib"
+   ]
+  },
+  {
+   "slug": "bleomycin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bleomycin",
+   "names": [
+    "Bleomycin Sulfate"
+   ],
+   "generic": "Bleomycin Sulfate",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "bleomycin"
+   ]
+  },
+  {
+   "slug": "blinatumomab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/blinatumomab",
+   "names": [
+    "Blinatumomab",
+    "Blincyto (Blinatumomab)"
+   ],
+   "generic": "Blinatumomab",
+   "brands": [
+    "Blincyto"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "blinatumomab"
+   ]
+  },
+  {
+   "slug": "bortezomib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bortezomib",
+   "names": [
+    "Bortezomib",
+    "Velcade (Bortezomib)"
+   ],
+   "generic": "Bortezomib",
+   "brands": [
+    "Velcade"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "bortezomib"
+   ]
+  },
+  {
+   "slug": "bosutinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bosutinib",
+   "names": [
+    "Bosulif (Bosutinib)",
+    "Bosutinib"
+   ],
+   "generic": "Bosutinib",
+   "brands": [
+    "Bosulif"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "bosutinib"
+   ]
+  },
+  {
+   "slug": "brentuximabvedotin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/brentuximabvedotin",
+   "names": [
+    "Adcetris (Brentuximab Vedotin)",
+    "Brentuximab Vedotin"
+   ],
+   "generic": "Brentuximab Vedotin",
+   "brands": [
+    "Adcetris"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "brentuximab-vedotin"
+   ]
+  },
+  {
+   "slug": "brexucabtageneautoleucel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/brexucabtageneautoleucel",
+   "names": [
+    "Brexucabtagene Autoleucel",
+    "Tecartus (Brexucabtagene Autoleucel)"
+   ],
+   "generic": "Brexucabtagene Autoleucel",
+   "brands": [
+    "Tecartus"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "brexucabtagene-autoleucel"
+   ]
+  },
+  {
+   "slug": "brigatinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/brigatinib",
+   "names": [
+    "Alunbrig (Brigatinib)",
+    "Brigatinib"
+   ],
+   "generic": "Brigatinib",
+   "brands": [
+    "Alunbrig"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "brigatinib"
+   ]
+  },
+  {
+   "slug": "bumel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bumel",
+   "names": [
+    "BuMel"
+   ],
+   "generic": "BuMel",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "busulfan",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/busulfan",
+   "names": [
+    "Busulfan",
+    "Busulfex (Busulfan)",
+    "Myleran (Busulfan)"
+   ],
+   "generic": "Busulfan",
+   "brands": [
+    "Busulfex",
+    "Myleran"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "cabazitaxel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cabazitaxel",
+   "names": [
+    "Cabazitaxel",
+    "Jevtana (Cabazitaxel)"
+   ],
+   "generic": "Cabazitaxel",
+   "brands": [
+    "Jevtana"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "cabazitaxel"
+   ]
+  },
+  {
+   "slug": "cabozantinib-s-malate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cabozantinib-s-malate",
+   "names": [
+    "Cabometyx (Cabozantinib-S-Malate)",
+    "Cabozantinib-S-Malate",
+    "Cometriq (Cabozantinib-S-Malate)"
+   ],
+   "generic": "Cabozantinib-S-Malate",
+   "brands": [
+    "Cabometyx",
+    "Cometriq"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "cabozantinib"
+   ]
+  },
+  {
+   "slug": "caf",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/caf",
+   "names": [
+    "CAF"
+   ],
+   "generic": "CAF",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "calaspargasepegol-mknl",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/calaspargasepegol-mknl",
+   "names": [
+    "Asparlas (Calaspargase Pegol-mknl)",
+    "Calaspargase Pegol-mknl"
+   ],
+   "generic": "Calaspargase Pegol-mknl",
+   "brands": [
+    "Asparlas"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "asparaginase"
+   ]
+  },
+  {
+   "slug": "capecitabine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capecitabine",
+   "names": [
+    "Capecitabine",
+    "Xeloda (Capecitabine)"
+   ],
+   "generic": "Capecitabine",
+   "brands": [
+    "Xeloda"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "capivasertib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capivasertib",
+   "names": [
+    "Capivasertib",
+    "Truqap (Capivasertib)"
+   ],
+   "generic": "Capivasertib",
+   "brands": [
+    "Truqap"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "capivasertib"
+   ]
+  },
+  {
+   "slug": "caplacizumab-yhdp",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/caplacizumab-yhdp",
+   "names": [
+    "Cablivi (Caplacizumab-yhdp)",
+    "Caplacizumab-yhdp"
+   ],
+   "generic": "Caplacizumab-yhdp",
+   "brands": [
+    "Cablivi"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "capmatinibhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capmatinibhydrochloride",
+   "names": [
+    "Capmatinib Hydrochloride",
+    "Tabrecta (Capmatinib Hydrochloride)"
+   ],
+   "generic": "Capmatinib Hydrochloride",
+   "brands": [
+    "Tabrecta"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "capmatinib-tepotinib"
+   ]
+  },
+  {
+   "slug": "capox",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capox",
+   "names": [
+    "CAPOX"
+   ],
+   "generic": "CAPOX",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "carboplatin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/carboplatin",
+   "names": [
+    "Carboplatin",
+    "Paraplatin (Carboplatin)"
+   ],
+   "generic": "Carboplatin",
+   "brands": [
+    "Paraplatin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "carboplatin"
+   ]
+  },
+  {
+   "slug": "carboplatin-taxol",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/carboplatin-taxol",
+   "names": [
+    "CARBOPLATIN-TAXOL"
+   ],
+   "generic": "CARBOPLATIN-TAXOL",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "carfilzomib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/carfilzomib",
+   "names": [
+    "Carfilzomib",
+    "Kyprolis (Carfilzomib)"
+   ],
+   "generic": "Carfilzomib",
+   "brands": [
+    "Kyprolis"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "carfilzomib"
+   ]
+  },
+  {
+   "slug": "carmustine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/carmustine",
+   "names": [
+    "BiCNU (Carmustine)",
+    "Carmustine"
+   ],
+   "generic": "Carmustine",
+   "brands": [
+    "BiCNU"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "carmustineimplant",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/carmustineimplant",
+   "names": [
+    "Carmustine Implant",
+    "Gliadel Wafer (Carmustine Implant)"
+   ],
+   "generic": "Carmustine Implant",
+   "brands": [
+    "Gliadel Wafer"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "cem",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cem",
+   "names": [
+    "CEM"
+   ],
+   "generic": "CEM",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "cemiplimab-rwlc",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cemiplimab-rwlc",
+   "names": [
+    "Cemiplimab-rwlc",
+    "Libtayo (Cemiplimab-rwlc)"
+   ],
+   "generic": "Cemiplimab-rwlc",
+   "brands": [
+    "Libtayo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "cemiplimab"
+   ]
+  },
+  {
+   "slug": "ceritinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ceritinib",
+   "names": [
+    "Ceritinib",
+    "Zykadia (Ceritinib)"
+   ],
+   "generic": "Ceritinib",
+   "brands": [
+    "Zykadia"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ceritinib"
+   ]
+  },
+  {
+   "slug": "cetuximab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cetuximab",
+   "names": [
+    "Cetuximab",
+    "Erbitux (Cetuximab)"
+   ],
+   "generic": "Cetuximab",
+   "brands": [
+    "Erbitux"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "cetuximab"
+   ]
+  },
+  {
+   "slug": "cev",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cev",
+   "names": [
+    "CEV"
+   ],
+   "generic": "CEV",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "chlorambucil",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/chlorambucil",
+   "names": [
+    "Chlorambucil",
+    "Leukeran (Chlorambucil)"
+   ],
+   "generic": "Chlorambucil",
+   "brands": [
+    "Leukeran"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "chlorambucil-prednisone",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/chlorambucil-prednisone",
+   "names": [
+    "CHLORAMBUCIL-PREDNISONE"
+   ],
+   "generic": "CHLORAMBUCIL-PREDNISONE",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "chop",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/chop",
+   "names": [
+    "CHOP"
+   ],
+   "generic": "CHOP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "ciltacabtagene-autoleucel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ciltacabtagene-autoleucel",
+   "names": [
+    "Carvykti (Ciltacabtagene Autoleucel)",
+    "Ciltacabtagene Autoleucel"
+   ],
+   "generic": "Ciltacabtagene Autoleucel",
+   "brands": [
+    "Carvykti"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ciltacabtagene-autoleucel"
+   ]
+  },
+  {
+   "slug": "cisplatin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cisplatin",
+   "names": [
+    "Cisplatin"
+   ],
+   "generic": "Cisplatin",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "cisplatin"
+   ]
+  },
+  {
+   "slug": "cladribine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cladribine",
+   "names": [
+    "Cladribine"
+   ],
+   "generic": "Cladribine",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "cladribine"
+   ]
+  },
+  {
+   "slug": "clofarabine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/clofarabine",
+   "names": [
+    "Clofarabine",
+    "Clolar (Clofarabine)"
+   ],
+   "generic": "Clofarabine",
+   "brands": [
+    "Clolar"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "cmf",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cmf",
+   "names": [
+    "CMF"
+   ],
+   "generic": "CMF",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "cobimetinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cobimetinib",
+   "names": [
+    "Cobimetinib Fumarate",
+    "Cotellic (Cobimetinib Fumarate)"
+   ],
+   "generic": "Cobimetinib Fumarate",
+   "brands": [
+    "Cotellic"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "cobimetinib"
+   ]
+  },
+  {
+   "slug": "copdac",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/copdac",
+   "names": [
+    "COPDAC"
+   ],
+   "generic": "COPDAC",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "copp",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/copp",
+   "names": [
+    "COPP"
+   ],
+   "generic": "COPP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "copp-abv",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/copp-abv",
+   "names": [
+    "COPP-ABV"
+   ],
+   "generic": "COPP-ABV",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "cosibelimab-ipdl",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cosibelimab-ipdl",
+   "names": [
+    "Cosibelimab-ipdl",
+    "Unloxcyt (Cosibelimab-ipdl)"
+   ],
+   "generic": "Cosibelimab-ipdl",
+   "brands": [
+    "Unloxcyt"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "cosibelimab"
+   ]
+  },
+  {
+   "slug": "crizotinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/crizotinib",
+   "names": [
+    "Crizotinib",
+    "Xalkori (Crizotinib)"
+   ],
+   "generic": "Crizotinib",
+   "brands": [
+    "Xalkori"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "crizotinib"
+   ]
+  },
+  {
+   "slug": "cvp",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cvp",
+   "names": [
+    "CVP"
+   ],
+   "generic": "CVP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "cyclophosphamide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cyclophosphamide",
+   "names": [
+    "Cyclophosphamide"
+   ],
+   "generic": "Cyclophosphamide",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "cyclophosphamide"
+   ]
+  },
+  {
+   "slug": "cytarabine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cytarabine",
+   "names": [
+    "Cytarabine"
+   ],
+   "generic": "Cytarabine",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "dabrafenib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/dabrafenib",
+   "names": [
+    "Dabrafenib Mesylate",
+    "Tafinlar (Dabrafenib Mesylate)"
+   ],
+   "generic": "Dabrafenib Mesylate",
+   "brands": [
+    "Tafinlar"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "dacarbazine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/dacarbazine",
+   "names": [
+    "Dacarbazine"
+   ],
+   "generic": "Dacarbazine",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "dacomitinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/dacomitinib",
+   "names": [
+    "Dacomitinib",
+    "Vizimpro (Dacomitinib)"
+   ],
+   "generic": "Dacomitinib",
+   "brands": [
+    "Vizimpro"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "dacomitinib"
+   ]
+  },
+  {
+   "slug": "dactinomycin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/dactinomycin",
+   "names": [
+    "Cosmegen (Dactinomycin)",
+    "Dactinomycin"
+   ],
+   "generic": "Dactinomycin",
+   "brands": [
+    "Cosmegen"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "dactinomycin"
+   ]
+  },
+  {
+   "slug": "daratumumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/daratumumab",
+   "names": [
+    "Daratumumab",
+    "Darzalex (Daratumumab)"
+   ],
+   "generic": "Daratumumab",
+   "brands": [
+    "Darzalex"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "daratumumab"
+   ]
+  },
+  {
+   "slug": "daratumumabandhyaluronidase-fihj",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/daratumumabandhyaluronidase-fihj",
+   "names": [
+    "Daratumumab and Hyaluronidase-fihj",
+    "Darzalex Faspro (Daratumumab and Hyaluronidase-fihj)"
+   ],
+   "generic": "Daratumumab and Hyaluronidase-fihj",
+   "brands": [
+    "Darzalex Faspro"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "daratumumab"
+   ]
+  },
+  {
+   "slug": "darbepoetinalfa",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/darbepoetinalfa",
+   "names": [
+    "Aranesp (Darbepoetin Alfa)",
+    "Darbepoetin Alfa"
+   ],
+   "generic": "Darbepoetin Alfa",
+   "brands": [
+    "Aranesp"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "darolutamide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/darolutamide",
+   "names": [
+    "Darolutamide",
+    "Nubeqa (Darolutamide)"
+   ],
+   "generic": "Darolutamide",
+   "brands": [
+    "Nubeqa"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "darolutamide"
+   ]
+  },
+  {
+   "slug": "dasatinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/dasatinib",
+   "names": [
+    "Dasatinib",
+    "Sprycel (Dasatinib)"
+   ],
+   "generic": "Dasatinib",
+   "brands": [
+    "Sprycel"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "dasatinib"
+   ]
+  },
+  {
+   "slug": "datopotamab-deruxtecan-dlnk",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/datopotamab-deruxtecan-dlnk",
+   "names": [
+    "Datopotamab Deruxtecan-dlnk",
+    "Datroway (Datopotamab Deruxtecan-dlnk)"
+   ],
+   "generic": "Datopotamab Deruxtecan-dlnk",
+   "brands": [
+    "Datroway"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "datopotamab-deruxtecan"
+   ]
+  },
+  {
+   "slug": "daunorubicinhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/daunorubicinhydrochloride",
+   "names": [
+    "Daunorubicin Hydrochloride"
+   ],
+   "generic": "Daunorubicin Hydrochloride",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "daunorubicinhydrochlorideandcytarabineliposome",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/daunorubicinhydrochlorideandcytarabineliposome",
+   "names": [
+    "Daunorubicin Hydrochloride and Cytarabine Liposome",
+    "Vyxeos (Daunorubicin Hydrochloride and Cytarabine Liposome)"
+   ],
+   "generic": "Daunorubicin Hydrochloride and Cytarabine Liposome",
+   "brands": [
+    "Vyxeos"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "cpx-351"
+   ]
+  },
+  {
+   "slug": "decitabine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/decitabine",
+   "names": [
+    "Dacogen (Decitabine)",
+    "Decitabine"
+   ],
+   "generic": "Decitabine",
+   "brands": [
+    "Dacogen"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "decitabineandcedazuridine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/decitabineandcedazuridine",
+   "names": [
+    "Decitabine and Cedazuridine",
+    "Inqovi (Decitabine and Cedazuridine)"
+   ],
+   "generic": "Decitabine and Cedazuridine",
+   "brands": [
+    "Inqovi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "decitabine-cedazuridine"
+   ]
+  },
+  {
+   "slug": "defibrotide-sodium",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/defibrotide-sodium",
+   "names": [
+    "Defibrotide Sodium",
+    "Defitelio (Defibrotide Sodium)"
+   ],
+   "generic": "Defibrotide Sodium",
+   "brands": [
+    "Defitelio"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "degarelix",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/degarelix",
+   "names": [
+    "Degarelix",
+    "Firmagon (Degarelix)"
+   ],
+   "generic": "Degarelix",
+   "brands": [
+    "Firmagon"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "degarelix"
+   ]
+  },
+  {
+   "slug": "denileukindiftitox-cxdl",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/denileukindiftitox-cxdl",
+   "names": [
+    "Denileukin Diftitox-cxdl",
+    "Lymphir (Denileukin Diftitox-cxdl)"
+   ],
+   "generic": "Denileukin Diftitox-cxdl",
+   "brands": [
+    "Lymphir"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "denosumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/denosumab",
+   "names": [
+    "Denosumab",
+    "Prolia (Denosumab)",
+    "Xgeva (Denosumab)"
+   ],
+   "generic": "Denosumab",
+   "brands": [
+    "Prolia",
+    "Xgeva"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "dexamethasone",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/dexamethasone",
+   "names": [
+    "Dexamethasone"
+   ],
+   "generic": "Dexamethasone",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "dexrazoxanehydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/dexrazoxanehydrochloride",
+   "names": [
+    "Dexrazoxane Hydrochloride",
+    "Totect (Dexrazoxane Hydrochloride)",
+    "Zinecard (Dexrazoxane Hydrochloride)"
+   ],
+   "generic": "Dexrazoxane Hydrochloride",
+   "brands": [
+    "Totect",
+    "Zinecard"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "dinutuximab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/dinutuximab",
+   "names": [
+    "Dinutuximab",
+    "Unituxin (Dinutuximab)"
+   ],
+   "generic": "Dinutuximab",
+   "brands": [
+    "Unituxin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "dinutuximab"
+   ]
+  },
+  {
+   "slug": "docetaxel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/docetaxel",
+   "names": [
+    "Docetaxel",
+    "Taxotere (Docetaxel)"
+   ],
+   "generic": "Docetaxel",
+   "brands": [
+    "Taxotere"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "docetaxel"
+   ]
+  },
+  {
+   "slug": "dostarlimab-gxly",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/dostarlimab-gxly",
+   "names": [
+    "Dostarlimab-gxly",
+    "Jemperli (Dostarlimab-gxly)"
+   ],
+   "generic": "Dostarlimab-gxly",
+   "brands": [
+    "Jemperli"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "dostarlimab"
+   ]
+  },
+  {
+   "slug": "doxorubicin-hydrochloride-liposome",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/doxorubicin-hydrochloride-liposome",
+   "names": [
+    "Doxil (Doxorubicin Hydrochloride Liposome)",
+    "Doxorubicin Hydrochloride Liposome"
+   ],
+   "generic": "Doxorubicin Hydrochloride Liposome",
+   "brands": [
+    "Doxil"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pegylated-liposomal-doxorubicin"
+   ]
+  },
+  {
+   "slug": "doxorubicinhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/doxorubicinhydrochloride",
+   "names": [
+    "Adriamycin (Doxorubicin Hydrochloride)",
+    "Doxorubicin Hydrochloride"
+   ],
+   "generic": "Doxorubicin Hydrochloride",
+   "brands": [
+    "Adriamycin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "doxorubicin"
+   ]
+  },
+  {
+   "slug": "durvalumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/durvalumab",
+   "names": [
+    "Durvalumab",
+    "Imfinzi (Durvalumab)"
+   ],
+   "generic": "Durvalumab",
+   "brands": [
+    "Imfinzi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "durvalumab"
+   ]
+  },
+  {
+   "slug": "duvelisib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/duvelisib",
+   "names": [
+    "Copiktra (Duvelisib)",
+    "Duvelisib"
+   ],
+   "generic": "Duvelisib",
+   "brands": [
+    "Copiktra"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "duvelisib"
+   ]
+  },
+  {
+   "slug": "eflornithine-hydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/eflornithine-hydrochloride",
+   "names": [
+    "Eflornithine Hydrochloride",
+    "Iwilfin (Eflornithine Hydrochloride)"
+   ],
+   "generic": "Eflornithine Hydrochloride",
+   "brands": [
+    "Iwilfin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "eflornithine"
+   ]
+  },
+  {
+   "slug": "elacestrant-dihydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/elacestrant-dihydrochloride",
+   "names": [
+    "Elacestrant Dihydrochloride",
+    "Orserdu (Elacestrant Dihydrochloride)"
+   ],
+   "generic": "Elacestrant Dihydrochloride",
+   "brands": [
+    "Orserdu"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "elacestrant"
+   ]
+  },
+  {
+   "slug": "elotuzumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/elotuzumab",
+   "names": [
+    "Elotuzumab",
+    "Empliciti (Elotuzumab)"
+   ],
+   "generic": "Elotuzumab",
+   "brands": [
+    "Empliciti"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "elotuzumab"
+   ]
+  },
+  {
+   "slug": "elranatamab-bcmm",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/elranatamab-bcmm",
+   "names": [
+    "Elranatamab-bcmm",
+    "Elrexfio (Elranatamab-bcmm)"
+   ],
+   "generic": "Elranatamab-bcmm",
+   "brands": [
+    "Elrexfio"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "elranatamab"
+   ]
+  },
+  {
+   "slug": "eltrombopagolamine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/eltrombopagolamine",
+   "names": [
+    "Eltrombopag Olamine",
+    "Promacta (Eltrombopag Olamine)"
+   ],
+   "generic": "Eltrombopag Olamine",
+   "brands": [
+    "Promacta"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "emapalumab-lzsg",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/emapalumab-lzsg",
+   "names": [
+    "Emapalumab-lzsg",
+    "Gamifant (Emapalumab-lzsg)"
+   ],
+   "generic": "Emapalumab-lzsg",
+   "brands": [
+    "Gamifant"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "enasidenibmesylate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/enasidenibmesylate",
+   "names": [
+    "Enasidenib Mesylate",
+    "Idhifa (Enasidenib Mesylate)"
+   ],
+   "generic": "Enasidenib Mesylate",
+   "brands": [
+    "Idhifa"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "enasidenib"
+   ]
+  },
+  {
+   "slug": "encorafenib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/encorafenib",
+   "names": [
+    "Braftovi (Encorafenib)",
+    "Encorafenib"
+   ],
+   "generic": "Encorafenib",
+   "brands": [
+    "Braftovi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "encorafenib"
+   ]
+  },
+  {
+   "slug": "enfortumabvedotin-ejfv",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/enfortumabvedotin-ejfv",
+   "names": [
+    "Enfortumab Vedotin-ejfv",
+    "Padcev (Enfortumab Vedotin-ejfv)"
+   ],
+   "generic": "Enfortumab Vedotin-ejfv",
+   "brands": [
+    "Padcev"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "enfortumab-vedotin"
+   ]
+  },
+  {
+   "slug": "ensartinib-hydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ensartinib-hydrochloride",
+   "names": [
+    "Ensacove (Ensartinib Hydrochloride)",
+    "Ensartinib Hydrochloride"
+   ],
+   "generic": "Ensartinib Hydrochloride",
+   "brands": [
+    "Ensacove"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ensartinib"
+   ]
+  },
+  {
+   "slug": "entrectinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/entrectinib",
+   "names": [
+    "Entrectinib",
+    "Rozlytrek (Entrectinib)"
+   ],
+   "generic": "Entrectinib",
+   "brands": [
+    "Rozlytrek"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "entrectinib"
+   ]
+  },
+  {
+   "slug": "enzalutamide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/enzalutamide",
+   "names": [
+    "Enzalutamide",
+    "Xtandi (Enzalutamide)"
+   ],
+   "generic": "Enzalutamide",
+   "brands": [
+    "Xtandi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "enzalutamide"
+   ]
+  },
+  {
+   "slug": "epcoritamab-bysp",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/epcoritamab-bysp",
+   "names": [
+    "Epcoritamab-bysp",
+    "Epkinly (Epcoritamab-bysp)"
+   ],
+   "generic": "Epcoritamab-bysp",
+   "brands": [
+    "Epkinly"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "epcoritamab"
+   ]
+  },
+  {
+   "slug": "epirubicinhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/epirubicinhydrochloride",
+   "names": [
+    "Ellence (Epirubicin Hydrochloride)",
+    "Epirubicin Hydrochloride"
+   ],
+   "generic": "Epirubicin Hydrochloride",
+   "brands": [
+    "Ellence"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "epoch",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/epoch",
+   "names": [
+    "EPOCH"
+   ],
+   "generic": "EPOCH",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "epoetinalfa",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/epoetinalfa",
+   "names": [
+    "Epoetin Alfa",
+    "Epogen (Epoetin Alfa)",
+    "Procrit (Epoetin Alfa)",
+    "Retacrit (Epoetin Alfa)"
+   ],
+   "generic": "Epoetin Alfa",
+   "brands": [
+    "Epogen",
+    "Procrit",
+    "Retacrit"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "erdafitinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/erdafitinib",
+   "names": [
+    "Balversa (Erdafitinib)",
+    "Erdafitinib"
+   ],
+   "generic": "Erdafitinib",
+   "brands": [
+    "Balversa"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "erdafitinib"
+   ]
+  },
+  {
+   "slug": "eribulinmesylate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/eribulinmesylate",
+   "names": [
+    "Eribulin Mesylate",
+    "Halaven (Eribulin Mesylate)"
+   ],
+   "generic": "Eribulin Mesylate",
+   "brands": [
+    "Halaven"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "eribulin"
+   ]
+  },
+  {
+   "slug": "erlotinibhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/erlotinibhydrochloride",
+   "names": [
+    "Erlotinib Hydrochloride",
+    "Tarceva (Erlotinib Hydrochloride)"
+   ],
+   "generic": "Erlotinib Hydrochloride",
+   "brands": [
+    "Tarceva"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "erlotinib"
+   ]
+  },
+  {
+   "slug": "etoposide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/etoposide",
+   "names": [
+    "Etoposide"
+   ],
+   "generic": "Etoposide",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "etoposide"
+   ]
+  },
+  {
+   "slug": "etoposidephosphate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/etoposidephosphate",
+   "names": [
+    "Etopophos (Etoposide Phosphate)",
+    "Etoposide Phosphate"
+   ],
+   "generic": "Etoposide Phosphate",
+   "brands": [
+    "Etopophos"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "etoposide"
+   ]
+  },
+  {
+   "slug": "everolimus",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/everolimus",
+   "names": [
+    "Afinitor (Everolimus)",
+    "Everolimus"
+   ],
+   "generic": "Everolimus",
+   "brands": [
+    "Afinitor"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "everolimus"
+   ]
+  },
+  {
+   "slug": "exemestane",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/exemestane",
+   "names": [
+    "Aromasin (Exemestane)",
+    "Exemestane"
+   ],
+   "generic": "Exemestane",
+   "brands": [
+    "Aromasin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "exemestane",
+    "letrozole"
+   ]
+  },
+  {
+   "slug": "famtrastuzumabderuxtecan-nxki",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/famtrastuzumabderuxtecan-nxki",
+   "names": [
+    "Enhertu (Fam-Trastuzumab Deruxtecan-nxki)",
+    "Fam-Trastuzumab Deruxtecan-nxki"
+   ],
+   "generic": "Fam-Trastuzumab Deruxtecan-nxki",
+   "brands": [
+    "Enhertu"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "trastuzumab-deruxtecan"
+   ]
+  },
+  {
+   "slug": "fec",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/fec",
+   "names": [
+    "FEC"
+   ],
+   "generic": "FEC",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "fedratinibhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/fedratinibhydrochloride",
+   "names": [
+    "Fedratinib Hydrochloride",
+    "Inrebic (Fedratinib Hydrochloride)"
+   ],
+   "generic": "Fedratinib Hydrochloride",
+   "brands": [
+    "Inrebic"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "fedratinib"
+   ]
+  },
+  {
+   "slug": "filgrastim",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/filgrastim",
+   "names": [
+    "Filgrastim",
+    "Granix (Filgrastim)",
+    "Neupogen (Filgrastim)",
+    "Nivestym (Filgrastim)",
+    "Zarxio (Filgrastim)"
+   ],
+   "generic": "Filgrastim",
+   "brands": [
+    "Granix",
+    "Neupogen",
+    "Nivestym",
+    "Zarxio"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "fludarabinephosphate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/fludarabinephosphate",
+   "names": [
+    "Fludarabine Phosphate"
+   ],
+   "generic": "Fludarabine Phosphate",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "fluorouracil",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/fluorouracil",
+   "names": [
+    "5-FU (Fluorouracil Injection)",
+    "Fluorouracil Injection"
+   ],
+   "generic": "Fluorouracil Injection",
+   "brands": [
+    "5-FU"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "fluorouracil"
+   ]
+  },
+  {
+   "slug": "fluorouracil-topical",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/fluorouracil-topical",
+   "names": [
+    "Carac (Fluorouracil Topical)",
+    "Efudex (Fluorouracil Topical)",
+    "5-FU (Fluorouracil Topical)",
+    "Fluoroplex (Fluorouracil Topical)",
+    "Fluorouracil Topical",
+    "Tolak (Fluorouracil Topical)"
+   ],
+   "generic": "Fluorouracil Topical",
+   "brands": [
+    "Carac",
+    "Efudex",
+    "5-FU",
+    "Fluoroplex",
+    "Tolak"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "fluorouracil"
+   ]
+  },
+  {
+   "slug": "flutamide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/flutamide",
+   "names": [
+    "Flutamide"
+   ],
+   "generic": "Flutamide",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "folfiri",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfiri",
+   "names": [
+    "FOLFIRI"
+   ],
+   "generic": "FOLFIRI",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "folfiri-bevacizumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfiri-bevacizumab",
+   "names": [
+    "FOLFIRI-BEVACIZUMAB"
+   ],
+   "generic": "FOLFIRI-BEVACIZUMAB",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "folfiri-cetuximab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfiri-cetuximab",
+   "names": [
+    "FOLFIRI-CETUXIMAB"
+   ],
+   "generic": "FOLFIRI-CETUXIMAB",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "folfirinox",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfirinox",
+   "names": [
+    "FOLFIRINOX"
+   ],
+   "generic": "FOLFIRINOX",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [
+    "folfirinox"
+   ]
+  },
+  {
+   "slug": "folfox",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfox",
+   "names": [
+    "FOLFOX"
+   ],
+   "generic": "FOLFOX",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "fostamatinibdisodium",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/fostamatinibdisodium",
+   "names": [
+    "Fostamatinib Disodium",
+    "Tavalisse (Fostamatinib Disodium)"
+   ],
+   "generic": "Fostamatinib Disodium",
+   "brands": [
+    "Tavalisse"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "fruquintinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/fruquintinib",
+   "names": [
+    "Fruquintinib",
+    "Fruzaqla (Fruquintinib)"
+   ],
+   "generic": "Fruquintinib",
+   "brands": [
+    "Fruzaqla"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "fruquintinib"
+   ]
+  },
+  {
+   "slug": "fu-lv",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/fu-lv",
+   "names": [
+    "FU-LV"
+   ],
+   "generic": "FU-LV",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "fulvestrant",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/fulvestrant",
+   "names": [
+    "Faslodex (Fulvestrant)",
+    "Fulvestrant"
+   ],
+   "generic": "Fulvestrant",
+   "brands": [
+    "Faslodex"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "fulvestrant"
+   ]
+  },
+  {
+   "slug": "futibatinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/futibatinib",
+   "names": [
+    "Futibatinib",
+    "Lytgobi (Futibatinib)"
+   ],
+   "generic": "Futibatinib",
+   "brands": [
+    "Lytgobi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "futibatinib"
+   ]
+  },
+  {
+   "slug": "gefitinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/gefitinib",
+   "names": [
+    "Gefitinib",
+    "Iressa (Gefitinib)"
+   ],
+   "generic": "Gefitinib",
+   "brands": [
+    "Iressa"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "gefitinib"
+   ]
+  },
+  {
+   "slug": "gemcitabine-cisplatin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/gemcitabine-cisplatin",
+   "names": [
+    "GEMCITABINE-CISPLATIN"
+   ],
+   "generic": "GEMCITABINE-CISPLATIN",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "gemcitabine-oxaliplatin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/gemcitabine-oxaliplatin",
+   "names": [
+    "GEMCITABINE-OXALIPLATIN"
+   ],
+   "generic": "GEMCITABINE-OXALIPLATIN",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "gemcitabinehydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/gemcitabinehydrochloride",
+   "names": [
+    "Gemcitabine Hydrochloride",
+    "Gemzar (Gemcitabine Hydrochloride)",
+    "Infugem",
+    "(Gemcitabine Hydrochloride)"
+   ],
+   "generic": "Gemcitabine Hydrochloride",
+   "brands": [
+    "Gemzar"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "gemcitabine"
+   ]
+  },
+  {
+   "slug": "gemtuzumabozogamicin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/gemtuzumabozogamicin",
+   "names": [
+    "Gemtuzumab Ozogamicin",
+    "Mylotarg (Gemtuzumab Ozogamicin)"
+   ],
+   "generic": "Gemtuzumab Ozogamicin",
+   "brands": [
+    "Mylotarg"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "gemtuzumab-ozogamicin"
+   ]
+  },
+  {
+   "slug": "gilteritinibfumarate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/gilteritinibfumarate",
+   "names": [
+    "Gilteritinib Fumarate",
+    "Xospata (Gilteritinib Fumarate)"
+   ],
+   "generic": "Gilteritinib Fumarate",
+   "brands": [
+    "Xospata"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "gilteritinib"
+   ]
+  },
+  {
+   "slug": "glasdegibmaleate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/glasdegibmaleate",
+   "names": [
+    "Daurismo (Glasdegib Maleate)",
+    "Glasdegib Maleate"
+   ],
+   "generic": "Glasdegib Maleate",
+   "brands": [
+    "Daurismo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "glasdegib"
+   ]
+  },
+  {
+   "slug": "glofitamab-gxbm",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/glofitamab-gxbm",
+   "names": [
+    "Columvi (Glofitamab-gxbm)",
+    "Glofitamab-gxbm"
+   ],
+   "generic": "Glofitamab-gxbm",
+   "brands": [
+    "Columvi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "glofitamab"
+   ]
+  },
+  {
+   "slug": "glucarpidase",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/glucarpidase",
+   "names": [
+    "Glucarpidase",
+    "Voraxaze (Glucarpidase)"
+   ],
+   "generic": "Glucarpidase",
+   "brands": [
+    "Voraxaze"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "goserelinacetate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/goserelinacetate",
+   "names": [
+    "Goserelin Acetate",
+    "Zoladex (Goserelin Acetate)"
+   ],
+   "generic": "Goserelin Acetate",
+   "brands": [
+    "Zoladex"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "goserelin"
+   ]
+  },
+  {
+   "slug": "granisetron",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/granisetron",
+   "names": [
+    "Granisetron",
+    "Sancuso (Granisetron)",
+    "Sustol (Granisetron)"
+   ],
+   "generic": "Granisetron",
+   "brands": [
+    "Sancuso",
+    "Sustol"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "granisetronhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/granisetronhydrochloride",
+   "names": [
+    "Granisetron Hydrochloride"
+   ],
+   "generic": "Granisetron Hydrochloride",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "hydroxyurea",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/hydroxyurea",
+   "names": [
+    "Hydrea (Hydroxyurea)",
+    "Hydroxyurea"
+   ],
+   "generic": "Hydroxyurea",
+   "brands": [
+    "Hydrea"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "hydroxyurea"
+   ]
+  },
+  {
+   "slug": "hyper-cvad",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/hyper-cvad",
+   "names": [
+    "Hyper-CVAD"
+   ],
+   "generic": "Hyper-CVAD",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "ibritumomabtiuxetan",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ibritumomabtiuxetan",
+   "names": [
+    "Ibritumomab Tiuxetan",
+    "Zevalin (Ibritumomab Tiuxetan)"
+   ],
+   "generic": "Ibritumomab Tiuxetan",
+   "brands": [
+    "Zevalin"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "ibrutinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ibrutinib",
+   "names": [
+    "Ibrutinib",
+    "Imbruvica (Ibrutinib)"
+   ],
+   "generic": "Ibrutinib",
+   "brands": [
+    "Imbruvica"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ibrutinib"
+   ]
+  },
+  {
+   "slug": "ice",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ice",
+   "names": [
+    "ICE"
+   ],
+   "generic": "ICE",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "idarubicinhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/idarubicinhydrochloride",
+   "names": [
+    "Idamycin PFS (Idarubicin Hydrochloride)",
+    "Idarubicin Hydrochloride"
+   ],
+   "generic": "Idarubicin Hydrochloride",
+   "brands": [
+    "Idamycin PFS"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "idecabtagenevicleucel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/idecabtagenevicleucel",
+   "names": [
+    "Abecma (Idecabtagene Vicleucel)",
+    "Idecabtagene Vicleucel"
+   ],
+   "generic": "Idecabtagene Vicleucel",
+   "brands": [
+    "Abecma"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "idecabtagene-vicleucel"
+   ]
+  },
+  {
+   "slug": "idelalisib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/idelalisib",
+   "names": [
+    "Idelalisib",
+    "Zydelig (Idelalisib)"
+   ],
+   "generic": "Idelalisib",
+   "brands": [
+    "Zydelig"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "idelalisib"
+   ]
+  },
+  {
+   "slug": "ifosfamide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ifosfamide",
+   "names": [
+    "Ifex (Ifosfamide)",
+    "Ifosfamide"
+   ],
+   "generic": "Ifosfamide",
+   "brands": [
+    "Ifex"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ifosfamide"
+   ]
+  },
+  {
+   "slug": "imatinibmesylate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/imatinibmesylate",
+   "names": [
+    "Gleevec (Imatinib Mesylate)",
+    "Imatinib Mesylate",
+    "Imkeldi (Imatinib Mesylate)"
+   ],
+   "generic": "Imatinib Mesylate",
+   "brands": [
+    "Gleevec",
+    "Imkeldi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "imatinib"
+   ]
+  },
+  {
+   "slug": "imetelstat-sodium",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/imetelstat-sodium",
+   "names": [
+    "Imetelstat Sodium",
+    "Rytelo (Imetelstat Sodium)"
+   ],
+   "generic": "Imetelstat Sodium",
+   "brands": [
+    "Rytelo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "imetelstat"
+   ]
+  },
+  {
+   "slug": "imiquimod",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/imiquimod",
+   "names": [
+    "Aldara (Imiquimod)",
+    "Imiquimod",
+    "Zyclara (Imiquimod)"
+   ],
+   "generic": "Imiquimod",
+   "brands": [
+    "Aldara",
+    "Zyclara"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "imlunestrant",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/imlunestrant",
+   "names": [
+    "Imlunestrant",
+    "Inluriyo (Imlunestrant)"
+   ],
+   "generic": "Imlunestrant",
+   "brands": [
+    "Inluriyo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "imlunestrant"
+   ]
+  },
+  {
+   "slug": "inavolisib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/inavolisib",
+   "names": [
+    "Inavolisib",
+    "Itovebi (Inavolisib)"
+   ],
+   "generic": "Inavolisib",
+   "brands": [
+    "Itovebi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "inavolisib"
+   ]
+  },
+  {
+   "slug": "inotuzumabozogamicin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/inotuzumabozogamicin",
+   "names": [
+    "Besponsa (Inotuzumab Ozogamicin)",
+    "Inotuzumab Ozogamicin"
+   ],
+   "generic": "Inotuzumab Ozogamicin",
+   "brands": [
+    "Besponsa"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "inotuzumab-ozogamicin"
+   ]
+  },
+  {
+   "slug": "iobenguanei131",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/iobenguanei131",
+   "names": [
+    "Azedra (Iobenguane I 131)",
+    "Iobenguane I 131"
+   ],
+   "generic": "Iobenguane I 131",
+   "brands": [
+    "Azedra"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "ipilimumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ipilimumab",
+   "names": [
+    "Ipilimumab",
+    "Yervoy (Ipilimumab)"
+   ],
+   "generic": "Ipilimumab",
+   "brands": [
+    "Yervoy"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ipilimumab"
+   ]
+  },
+  {
+   "slug": "irinotecan-hydrochloride-liposome",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/irinotecan-hydrochloride-liposome",
+   "names": [
+    "Irinotecan Sucrosofate",
+    "Onivyde (Irinotecan Sucrosofate)"
+   ],
+   "generic": "Irinotecan Sucrosofate",
+   "brands": [
+    "Onivyde"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "irinotecan"
+   ]
+  },
+  {
+   "slug": "irinotecanhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/irinotecanhydrochloride",
+   "names": [
+    "Camptosar (Irinotecan Hydrochloride)",
+    "Irinotecan Hydrochloride"
+   ],
+   "generic": "Irinotecan Hydrochloride",
+   "brands": [
+    "Camptosar"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "irinotecan"
+   ]
+  },
+  {
+   "slug": "isatuximab-irfc",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/isatuximab-irfc",
+   "names": [
+    "Isatuximab-irfc",
+    "Sarclisa (Isatuximab-irfc)"
+   ],
+   "generic": "Isatuximab-irfc",
+   "brands": [
+    "Sarclisa"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "isatuximab"
+   ]
+  },
+  {
+   "slug": "ivosidenib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ivosidenib",
+   "names": [
+    "Ivosidenib",
+    "Tibsovo (Ivosidenib)"
+   ],
+   "generic": "Ivosidenib",
+   "brands": [
+    "Tibsovo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ivosidenib"
+   ]
+  },
+  {
+   "slug": "ixabepilone",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ixabepilone",
+   "names": [
+    "Ixabepilone",
+    "Ixempra (Ixabepilone)"
+   ],
+   "generic": "Ixabepilone",
+   "brands": [
+    "Ixempra"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "ixazomibcitrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ixazomibcitrate",
+   "names": [
+    "Ixazomib Citrate",
+    "Ninlaro (Ixazomib Citrate)"
+   ],
+   "generic": "Ixazomib Citrate",
+   "brands": [
+    "Ninlaro"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ixazomib"
+   ]
+  },
+  {
+   "slug": "jeb",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/jeb",
+   "names": [
+    "JEB"
+   ],
+   "generic": "JEB",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "lanreotideacetate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lanreotideacetate",
+   "names": [
+    "Lanreotide Acetate",
+    "Somatuline Depot (Lanreotide Acetate)"
+   ],
+   "generic": "Lanreotide Acetate",
+   "brands": [
+    "Somatuline Depot"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "octreotide-lanreotide"
+   ]
+  },
+  {
+   "slug": "lapatinibditosylate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lapatinibditosylate",
+   "names": [
+    "Lapatinib Ditosylate",
+    "Tykerb (Lapatinib Ditosylate)"
+   ],
+   "generic": "Lapatinib Ditosylate",
+   "brands": [
+    "Tykerb"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "lapatinib"
+   ]
+  },
+  {
+   "slug": "larotrectinibsulfate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/larotrectinibsulfate",
+   "names": [
+    "Larotrectinib Sulfate",
+    "Vitrakvi (Larotrectinib Sulfate)"
+   ],
+   "generic": "Larotrectinib Sulfate",
+   "brands": [
+    "Vitrakvi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "larotrectinib"
+   ]
+  },
+  {
+   "slug": "lazertinib-mesylate-hydrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lazertinib-mesylate-hydrate",
+   "names": [
+    "Lazcluze (Lazertinib Mesylate Hydrate)",
+    "Lazertinib Mesylate Hydrate"
+   ],
+   "generic": "Lazertinib Mesylate Hydrate",
+   "brands": [
+    "Lazcluze"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "lazertinib"
+   ]
+  },
+  {
+   "slug": "lenalidomide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lenalidomide",
+   "names": [
+    "Lenalidomide",
+    "Revlimid (Lenalidomide)"
+   ],
+   "generic": "Lenalidomide",
+   "brands": [
+    "Revlimid"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "lenalidomide"
+   ]
+  },
+  {
+   "slug": "lenvatinibmesylate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lenvatinibmesylate",
+   "names": [
+    "Lenvatinib Mesylate",
+    "Lenvima (Lenvatinib Mesylate)"
+   ],
+   "generic": "Lenvatinib Mesylate",
+   "brands": [
+    "Lenvima"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "lenvatinib"
+   ]
+  },
+  {
+   "slug": "letrozole",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/letrozole",
+   "names": [
+    "Femara (Letrozole)",
+    "Letrozole"
+   ],
+   "generic": "Letrozole",
+   "brands": [
+    "Femara"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "letrozole"
+   ]
+  },
+  {
+   "slug": "leucovorincalcium",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/leucovorincalcium",
+   "names": [
+    "Leucovorin Calcium"
+   ],
+   "generic": "Leucovorin Calcium",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "flot",
+    "folfiri",
+    "folfox"
+   ]
+  },
+  {
+   "slug": "leuprolide-mesylate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/leuprolide-mesylate",
+   "names": [
+    "Camcevi (Leuprolide Mesylate)",
+    "Leuprolide Mesylate"
+   ],
+   "generic": "Leuprolide Mesylate",
+   "brands": [
+    "Camcevi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "goserelin",
+    "leuprolide"
+   ]
+  },
+  {
+   "slug": "leuprolideacetate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/leuprolideacetate",
+   "names": [
+    "Eligard (Leuprolide Acetate)",
+    "Leuprolide Acetate",
+    "Lupron Depot (Leuprolide Acetate)"
+   ],
+   "generic": "Leuprolide Acetate",
+   "brands": [
+    "Eligard",
+    "Lupron Depot"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "goserelin",
+    "leuprolide"
+   ]
+  },
+  {
+   "slug": "lifileucel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lifileucel",
+   "names": [
+    "Amtagvi (Lifileucel)",
+    "Lifileucel"
+   ],
+   "generic": "Lifileucel",
+   "brands": [
+    "Amtagvi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "lifileucel"
+   ]
+  },
+  {
+   "slug": "lisocabtagenemaraleucel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lisocabtagenemaraleucel",
+   "names": [
+    "Breyanzi (Lisocabtagene Maraleucel)",
+    "Lisocabtagene Maraleucel"
+   ],
+   "generic": "Lisocabtagene Maraleucel",
+   "brands": [
+    "Breyanzi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "lisocabtagene-maraleucel"
+   ]
+  },
+  {
+   "slug": "lomustine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lomustine",
+   "names": [
+    "Lomustine"
+   ],
+   "generic": "Lomustine",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "lomustine"
+   ]
+  },
+  {
+   "slug": "loncastuximabtesirine-lpyl",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/loncastuximabtesirine-lpyl",
+   "names": [
+    "Loncastuximab Tesirine-lpyl",
+    "Zynlonta (Loncastuximab Tesirine-lpyl)"
+   ],
+   "generic": "Loncastuximab Tesirine-lpyl",
+   "brands": [
+    "Zynlonta"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "zynlonta"
+   ]
+  },
+  {
+   "slug": "lorlatinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lorlatinib",
+   "names": [
+    "Lorbrena (Lorlatinib)",
+    "Lorlatinib"
+   ],
+   "generic": "Lorlatinib",
+   "brands": [
+    "Lorbrena"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "lorlatinib"
+   ]
+  },
+  {
+   "slug": "lurbinectedin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lurbinectedin",
+   "names": [
+    "Lurbinectedin",
+    "Zepzelca (Lurbinectedin)"
+   ],
+   "generic": "Lurbinectedin",
+   "brands": [
+    "Zepzelca"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "lurbinectedin"
+   ]
+  },
+  {
+   "slug": "luspatercept-aamt",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/luspatercept-aamt",
+   "names": [
+    "Luspatercept-aamt",
+    "Reblozyl ("
+   ],
+   "generic": "Reblozyl (",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "luspatercept"
+   ]
+  },
+  {
+   "slug": "lutetium-lu-177-vipivotide-tetraxetan",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lutetium-lu-177-vipivotide-tetraxetan",
+   "names": [
+    "Lutetium Lu 177 Vipivotide Tetraxetan",
+    "Pluvicto (Lutetium Lu 177 Vipivotide Tetraxetan)"
+   ],
+   "generic": "Lutetium Lu 177 Vipivotide Tetraxetan",
+   "brands": [
+    "Pluvicto"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pluvicto"
+   ]
+  },
+  {
+   "slug": "lutetiumlu177-dotatate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/lutetiumlu177-dotatate",
+   "names": [
+    "Lutathera (Lutetium Lu 177-Dotatate)",
+    "Lutetium (Lu 177-Dotatate)"
+   ],
+   "generic": "Lutetium Lu 177-Dotatate",
+   "brands": [
+    "Lutathera",
+    "Lutetium"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "lutathera"
+   ]
+  },
+  {
+   "slug": "margetuximab-cmkb",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/margetuximab-cmkb",
+   "names": [
+    "Margenza (Margetuximab-cmkb)",
+    "Margetuximab-cmkb"
+   ],
+   "generic": "Margetuximab-cmkb",
+   "brands": [
+    "Margenza"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "margetuximab"
+   ]
+  },
+  {
+   "slug": "mechlorethaminehydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mechlorethaminehydrochloride",
+   "names": [
+    "Mechlorethamine Hydrochloride"
+   ],
+   "generic": "Mechlorethamine Hydrochloride",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "megestrolacetate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/megestrolacetate",
+   "names": [
+    "Megestrol Acetate"
+   ],
+   "generic": "Megestrol Acetate",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "melphalan",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/melphalan",
+   "names": [
+    "Alkeran Tablets (Melphalan)",
+    "Melphalan"
+   ],
+   "generic": "Melphalan",
+   "brands": [
+    "Alkeran Tablets"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "melphalan"
+   ]
+  },
+  {
+   "slug": "melphalan-hydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/melphalan-hydrochloride",
+   "names": [
+    "Alkeran for Injection (Melphalan Hydrochloride)",
+    "Evomela (Melphalan Hydrochloride)",
+    "Hepzato (Melphalan Hydrochloride)",
+    "Melphalan Hydrochloride"
+   ],
+   "generic": "Melphalan Hydrochloride",
+   "brands": [
+    "Alkeran for Injection",
+    "Evomela",
+    "Hepzato"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "melphalan"
+   ]
+  },
+  {
+   "slug": "mercaptopurine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mercaptopurine",
+   "names": [
+    "Mercaptopurine",
+    "Purinethol (Mercaptopurine)",
+    "Purixan (Mercaptopurine)"
+   ],
+   "generic": "Mercaptopurine",
+   "brands": [
+    "Purinethol",
+    "Purixan"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "mesna",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mesna",
+   "names": [
+    "Mesna",
+    "Mesnex (Mesna)"
+   ],
+   "generic": "Mesna",
+   "brands": [
+    "Mesnex"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "methotrexate-sodium",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/methotrexate-sodium",
+   "names": [
+    "Methotrexate Sodium",
+    "Trexall (Methotrexate Sodium)",
+    "Xatmep (Methotrexate Sodium)"
+   ],
+   "generic": "Methotrexate Sodium",
+   "brands": [
+    "Trexall",
+    "Xatmep"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "methotrexate"
+   ]
+  },
+  {
+   "slug": "methylnaltrexonebromide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/methylnaltrexonebromide",
+   "names": [
+    "Methylnaltrexone Bromide",
+    "Relistor (Methylnaltrexone Bromide)"
+   ],
+   "generic": "Methylnaltrexone Bromide",
+   "brands": [
+    "Relistor"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "midostaurin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/midostaurin",
+   "names": [
+    "Midostaurin",
+    "Rydapt (Midostaurin)"
+   ],
+   "generic": "Midostaurin",
+   "brands": [
+    "Rydapt"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "midostaurin"
+   ]
+  },
+  {
+   "slug": "mirvetuximab-soravtansine-gynx",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mirvetuximab-soravtansine-gynx",
+   "names": [
+    "Elahere (Mirvetuximab Soravtansine-gynx)",
+    "Mirvetuximab Soravtansine-gynx"
+   ],
+   "generic": "Mirvetuximab Soravtansine-gynx",
+   "brands": [
+    "Elahere"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "mirvetuximab-soravtansine"
+   ]
+  },
+  {
+   "slug": "mitomycin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mitomycin",
+   "names": [
+    "Jelmyto (Mitomycin)",
+    "Mitomycin"
+   ],
+   "generic": "Mitomycin",
+   "brands": [
+    "Jelmyto"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "mitomycin"
+   ]
+  },
+  {
+   "slug": "mitoxantronehydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mitoxantronehydrochloride",
+   "names": [
+    "Mitoxantrone Hydrochloride"
+   ],
+   "generic": "Mitoxantrone Hydrochloride",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "mogamulizumabkpkc",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mogamulizumabkpkc",
+   "names": [
+    "Mogamulizumab-kpkc",
+    "Poteligeo (Mogamulizumab-kpkc)"
+   ],
+   "generic": "Mogamulizumab-kpkc",
+   "brands": [
+    "Poteligeo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "mogamulizumab"
+   ]
+  },
+  {
+   "slug": "momelotinib-dihydrochloride-monohydrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/momelotinib-dihydrochloride-monohydrate",
+   "names": [
+    "Momelotinib Dihydrochloride Monohydrate",
+    "Ojjaara (Momelotinib Dihydrochloride Monohydrate)"
+   ],
+   "generic": "Momelotinib Dihydrochloride Monohydrate",
+   "brands": [
+    "Ojjaara"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "momelotinib"
+   ]
+  },
+  {
+   "slug": "mopp",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mopp",
+   "names": [
+    "MOPP"
+   ],
+   "generic": "MOPP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "mosunetuzumab-axgb",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mosunetuzumab-axgb",
+   "names": [
+    "Lunsumio (Mosunetuzumab-axgb)",
+    "Mosunetuzumab-axgb"
+   ],
+   "generic": "Mosunetuzumab-axgb",
+   "brands": [
+    "Lunsumio"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "mosunetuzumab"
+   ]
+  },
+  {
+   "slug": "mvac",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mvac",
+   "names": [
+    "MVAC"
+   ],
+   "generic": "MVAC",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "nadofaragene-firadenovec-vncg",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nadofaragene-firadenovec-vncg",
+   "names": [
+    "Adstiladrin (Nadofaragene Firadenovec-vncg)",
+    "Nadofaragene Firadenovec-vncg"
+   ],
+   "generic": "Nadofaragene Firadenovec-vncg",
+   "brands": [
+    "Adstiladrin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "nadofaragene-firadenovec"
+   ]
+  },
+  {
+   "slug": "nanoparticlepaclitaxel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nanoparticlepaclitaxel",
+   "names": [
+    "Abraxane (Paclitaxel Albumin-stabilized Nanoparticle Formulation)",
+    "Nanoparticle Paclitaxel (Paclitaxel Albumin-stabilized Nanoparticle Formulation)",
+    "Paclitaxel Albumin-stabilized Nanoparticle Formulation"
+   ],
+   "generic": "Paclitaxel Albumin-stabilized Nanoparticle Formulation",
+   "brands": [
+    "Abraxane",
+    "Nanoparticle Paclitaxel"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "paclitaxel"
+   ]
+  },
+  {
+   "slug": "naxitamab-gqgk",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/naxitamab-gqgk",
+   "names": [
+    "Danyelza (Naxitamab-gqgk)",
+    "Naxitamab-gqgk"
+   ],
+   "generic": "Naxitamab-gqgk",
+   "brands": [
+    "Danyelza"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "naxitamab"
+   ]
+  },
+  {
+   "slug": "necitumumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/necitumumab",
+   "names": [
+    "Necitumumab",
+    "Portrazza (Necitumumab)"
+   ],
+   "generic": "Necitumumab",
+   "brands": [
+    "Portrazza"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "nelarabine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nelarabine",
+   "names": [
+    "Arranon (Nelarabine)",
+    "Nelarabine"
+   ],
+   "generic": "Nelarabine",
+   "brands": [
+    "Arranon"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "neratinibmaleate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/neratinibmaleate",
+   "names": [
+    "Neratinib Maleate",
+    "Nerlynx (Neratinib Maleate)"
+   ],
+   "generic": "Neratinib Maleate",
+   "brands": [
+    "Nerlynx"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "neratinib"
+   ]
+  },
+  {
+   "slug": "netupitant-palonosetronhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/netupitant-palonosetronhydrochloride",
+   "names": [
+    "Akynzeo (Netupitant and Palonosetron Hydrochloride)",
+    "Netupitant and Palonosetron Hydrochloride",
+    "Palonosetron Hydrochloride and Netupitant"
+   ],
+   "generic": "Palonosetron Hydrochloride and Netupitant",
+   "brands": [
+    "Akynzeo"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "nilotinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nilotinib",
+   "names": [
+    "Nilotinib",
+    "Tasigna (Nilotinib)"
+   ],
+   "generic": "Nilotinib",
+   "brands": [
+    "Tasigna"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "nilotinib"
+   ]
+  },
+  {
+   "slug": "nilutamide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nilutamide",
+   "names": [
+    "Nilandron (Nilutamide)",
+    "Nilutamide"
+   ],
+   "generic": "Nilutamide",
+   "brands": [
+    "Nilandron"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "niraparib-tosylate-monohydrate-and-abiraterone-acetate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/niraparib-tosylate-monohydrate-and-abiraterone-acetate",
+   "names": [
+    "Akeega (Niraparib Tosylate Monohydrate and Abiraterone Acetate)",
+    "Niraparib Tosylate Monohydrate and Abiraterone Acetate"
+   ],
+   "generic": "Niraparib Tosylate Monohydrate and Abiraterone Acetate",
+   "brands": [
+    "Akeega"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "niraparibtosylatemonohydrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/niraparibtosylatemonohydrate",
+   "names": [
+    "Niraparib Tosylate Monohydrate",
+    "Zejula (Niraparib Tosylate Monohydrate)"
+   ],
+   "generic": "Niraparib Tosylate Monohydrate",
+   "brands": [
+    "Zejula"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "niraparib"
+   ]
+  },
+  {
+   "slug": "nirogacestat",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nirogacestat",
+   "names": [
+    "Nirogacestat Hydrobromide",
+    "Ogsiveo (Nirogacestat Hydrobromide)"
+   ],
+   "generic": "Nirogacestat Hydrobromide",
+   "brands": [
+    "Ogsiveo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "nirogacestat"
+   ]
+  },
+  {
+   "slug": "nivolumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nivolumab",
+   "names": [
+    "Nivolumab",
+    "Opdivo (Nivolumab)"
+   ],
+   "generic": "Nivolumab",
+   "brands": [
+    "Opdivo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "nivolumab"
+   ]
+  },
+  {
+   "slug": "nivolumab-and-hyaluronidase-nvhy",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nivolumab-and-hyaluronidase-nvhy",
+   "names": [
+    "Nivolumab and Hyaluronidase-nvhy",
+    "Opdivo Qvantig (Nivolumab and Hyaluronidase-nvhy)"
+   ],
+   "generic": "Nivolumab and Hyaluronidase-nvhy",
+   "brands": [
+    "Opdivo Qvantig"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "nivolumab"
+   ]
+  },
+  {
+   "slug": "nivolumab-and-relatlimab-rmbw",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nivolumab-and-relatlimab-rmbw",
+   "names": [
+    "Nivolumab and Relatlimab-rmbw",
+    "Opdualag (Nivolumab and Relatlimab-rmbw)"
+   ],
+   "generic": "Nivolumab and Relatlimab-rmbw",
+   "brands": [
+    "Opdualag"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "relatlimab-nivolumab"
+   ]
+  },
+  {
+   "slug": "nogapendekin-alfa-inbakicept-pmln",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/nogapendekin-alfa-inbakicept-pmln",
+   "names": [
+    "Anktiva (Nogapendekin Alfa Inbakicept-pmln)",
+    "Nogapendekin Alfa Inbakicept-pmln"
+   ],
+   "generic": "Nogapendekin Alfa Inbakicept-pmln",
+   "brands": [
+    "Anktiva"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "nogapendekin-alfa"
+   ]
+  },
+  {
+   "slug": "obecabtagene-autoleucel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/obecabtagene-autoleucel",
+   "names": [
+    "Aucatzyl (Obecabtagene Autoleucel)",
+    "Obecabtagene Autoleucel"
+   ],
+   "generic": "Obecabtagene Autoleucel",
+   "brands": [
+    "Aucatzyl"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "obecabtagene-autoleucel"
+   ]
+  },
+  {
+   "slug": "obinutuzumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/obinutuzumab",
+   "names": [
+    "Gazyva (Obinutuzumab)",
+    "Obinutuzumab"
+   ],
+   "generic": "Obinutuzumab",
+   "brands": [
+    "Gazyva"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "obinutuzumab"
+   ]
+  },
+  {
+   "slug": "oepa",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/oepa",
+   "names": [
+    "OEPA"
+   ],
+   "generic": "OEPA",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "ofatumumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ofatumumab",
+   "names": [
+    "Arzerra (Ofatumumab)",
+    "Ofatumumab"
+   ],
+   "generic": "Ofatumumab",
+   "brands": [
+    "Arzerra"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "off",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/off",
+   "names": [
+    "OFF"
+   ],
+   "generic": "OFF",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "olaparib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/olaparib",
+   "names": [
+    "Lynparza (Olaparib)",
+    "Olaparib"
+   ],
+   "generic": "Olaparib",
+   "brands": [
+    "Lynparza"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "olaparib"
+   ]
+  },
+  {
+   "slug": "olutasidenib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/olutasidenib",
+   "names": [
+    "Olutasidenib",
+    "Rezlidhia (Olutasidenib)"
+   ],
+   "generic": "Olutasidenib",
+   "brands": [
+    "Rezlidhia"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "olutasidenib"
+   ]
+  },
+  {
+   "slug": "omacetaxinemepesuccinate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/omacetaxinemepesuccinate",
+   "names": [
+    "Omacetaxine Mepesuccinate",
+    "Synribo (Omacetaxine Mepesuccinate)"
+   ],
+   "generic": "Omacetaxine Mepesuccinate",
+   "brands": [
+    "Synribo"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "ondansetronhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ondansetronhydrochloride",
+   "names": [
+    "Ondansetron Hydrochloride",
+    "Zofran (Ondansetron Hydrochloride)"
+   ],
+   "generic": "Ondansetron Hydrochloride",
+   "brands": [
+    "Zofran"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "oppa",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/oppa",
+   "names": [
+    "OPPA"
+   ],
+   "generic": "OPPA",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "osimertinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/osimertinib",
+   "names": [
+    "Osimertinib Mesylate",
+    "Tagrisso (Osimertinib Mesylate)"
+   ],
+   "generic": "Osimertinib Mesylate",
+   "brands": [
+    "Tagrisso"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "osimertinib"
+   ]
+  },
+  {
+   "slug": "oxaliplatin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/oxaliplatin",
+   "names": [
+    "Eloxatin (Oxaliplatin)",
+    "Oxaliplatin"
+   ],
+   "generic": "Oxaliplatin",
+   "brands": [
+    "Eloxatin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "flot",
+    "oxaliplatin"
+   ]
+  },
+  {
+   "slug": "paclitaxel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/paclitaxel",
+   "names": [
+    "Paclitaxel"
+   ],
+   "generic": "Paclitaxel",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "paclitaxel"
+   ]
+  },
+  {
+   "slug": "pacritinib-citrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pacritinib-citrate",
+   "names": [
+    "Pacritinib Citrate",
+    "Vonjo (Pacritinib Citrate)"
+   ],
+   "generic": "Pacritinib Citrate",
+   "brands": [
+    "Vonjo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pacritinib"
+   ]
+  },
+  {
+   "slug": "pad",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pad",
+   "names": [
+    "PAD"
+   ],
+   "generic": "PAD",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "palbociclib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/palbociclib",
+   "names": [
+    "Ibrance (Palbociclib)",
+    "Palbociclib"
+   ],
+   "generic": "Palbociclib",
+   "brands": [
+    "Ibrance"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "palbociclib"
+   ]
+  },
+  {
+   "slug": "palifermin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/palifermin",
+   "names": [
+    "Kepivance (Palifermin)",
+    "Palifermin"
+   ],
+   "generic": "Palifermin",
+   "brands": [
+    "Kepivance"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "palonosetronhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/palonosetronhydrochloride",
+   "names": [
+    "Aloxi (Palonosetron Hydrochloride)",
+    "Palonosetron Hydrochloride"
+   ],
+   "generic": "Palonosetron Hydrochloride",
+   "brands": [
+    "Aloxi"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "pamidronatedisodium",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pamidronatedisodium",
+   "names": [
+    "Aredia (Pamidronate Disodium)",
+    "Pamidronate Disodium"
+   ],
+   "generic": "Pamidronate Disodium",
+   "brands": [
+    "Aredia"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "panitumumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/panitumumab",
+   "names": [
+    "Panitumumab",
+    "Vectibix (Panitumumab)"
+   ],
+   "generic": "Panitumumab",
+   "brands": [
+    "Vectibix"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "panitumumab"
+   ]
+  },
+  {
+   "slug": "pazopanibhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pazopanibhydrochloride",
+   "names": [
+    "Pazopanib Hydrochloride",
+    "Votrient (Pazopanib Hydrochloride)"
+   ],
+   "generic": "Pazopanib Hydrochloride",
+   "brands": [
+    "Votrient"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pazopanib"
+   ]
+  },
+  {
+   "slug": "pcv",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pcv",
+   "names": [
+    "PCV"
+   ],
+   "generic": "PCV",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "peb",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/peb",
+   "names": [
+    "PEB"
+   ],
+   "generic": "PEB",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "pegaspargase",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pegaspargase",
+   "names": [
+    "Oncaspar (Pegaspargase)",
+    "Pegaspargase"
+   ],
+   "generic": "Pegaspargase",
+   "brands": [
+    "Oncaspar"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "asparaginase"
+   ]
+  },
+  {
+   "slug": "pegfilgrastim",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pegfilgrastim",
+   "names": [
+    "Fulphila (Pegfilgrastim)",
+    "Neulasta (Pegfilgrastim)",
+    "Nyvepria (Pegfilgrastim)",
+    "Pegfilgrastim",
+    "Undencyca (Pegfilgrastim)",
+    "Ziextenzo (Pegfilgrastim)"
+   ],
+   "generic": "Pegfilgrastim",
+   "brands": [
+    "Fulphila",
+    "Neulasta",
+    "Nyvepria",
+    "Undencyca",
+    "Ziextenzo"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "pembrolizumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pembrolizumab",
+   "names": [
+    "Keytruda (Pembrolizumab)",
+    "Pembrolizumab"
+   ],
+   "generic": "Pembrolizumab",
+   "brands": [
+    "Keytruda"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pembrolizumab"
+   ]
+  },
+  {
+   "slug": "pemetrexeddisodium",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pemetrexeddisodium",
+   "names": [
+    "Alimta (Pemetrexed Disodium)",
+    "Pemetrexed Disodium"
+   ],
+   "generic": "Pemetrexed Disodium",
+   "brands": [
+    "Alimta"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pemetrexed"
+   ]
+  },
+  {
+   "slug": "pemigatinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pemigatinib",
+   "names": [
+    "Pemazyre (Pemigatinib)",
+    "Pemigatinib"
+   ],
+   "generic": "Pemigatinib",
+   "brands": [
+    "Pemazyre"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pemigatinib"
+   ]
+  },
+  {
+   "slug": "penpulimab-kcqx",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/penpulimab-kcqx",
+   "names": [
+    "Penpulimab-kcqx"
+   ],
+   "generic": "Penpulimab-kcqx",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "penpulimab"
+   ]
+  },
+  {
+   "slug": "pertuzumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pertuzumab",
+   "names": [
+    "Perjeta (Pertuzumab)",
+    "Pertuzumab"
+   ],
+   "generic": "Pertuzumab",
+   "brands": [
+    "Perjeta"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pertuzumab"
+   ]
+  },
+  {
+   "slug": "pertuzumabtrastuzumabandhyaluronidase-zzxf",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pertuzumabtrastuzumabandhyaluronidase-zzxf",
+   "names": [
+    "Pertuzumab, Trastuzumab, and Hyaluronidase-zzxf",
+    "Phesgo (Pertuzumab, Trastuzumab, and Hyaluronidase-zzxf)"
+   ],
+   "generic": "Pertuzumab, Trastuzumab, and Hyaluronidase-zzxf",
+   "brands": [
+    "Phesgo"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "pexidartinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pexidartinib",
+   "names": [
+    "Pexidartinib Hydrochloride",
+    "Turalio (Pexidartinib Hydrochloride)"
+   ],
+   "generic": "Pexidartinib Hydrochloride",
+   "brands": [
+    "Turalio"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pexidartinib"
+   ]
+  },
+  {
+   "slug": "pirtobrutinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pirtobrutinib",
+   "names": [
+    "Jaypirca (Pirtobrutinib)",
+    "Pirtobrutinib"
+   ],
+   "generic": "Pirtobrutinib",
+   "brands": [
+    "Jaypirca"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pirtobrutinib"
+   ]
+  },
+  {
+   "slug": "plerixafor",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/plerixafor",
+   "names": [
+    "Mozobil (Plerixafor)",
+    "Plerixafor"
+   ],
+   "generic": "Plerixafor",
+   "brands": [
+    "Mozobil"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "polatuzumabvedotin-piiq",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/polatuzumabvedotin-piiq",
+   "names": [
+    "Polatuzumab Vedotin-piiq",
+    "Polivy (Polatuzumab Vedotin-piiq)"
+   ],
+   "generic": "Polatuzumab Vedotin-piiq",
+   "brands": [
+    "Polivy"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "polatuzumab-vedotin"
+   ]
+  },
+  {
+   "slug": "pomalidomide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pomalidomide",
+   "names": [
+    "Pomalidomide",
+    "Pomalyst (Pomalidomide)"
+   ],
+   "generic": "Pomalidomide",
+   "brands": [
+    "Pomalyst"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pomalidomide"
+   ]
+  },
+  {
+   "slug": "ponatinibhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ponatinibhydrochloride",
+   "names": [
+    "Iclusig (Ponatinib Hydrochloride)",
+    "Ponatinib Hydrochloride"
+   ],
+   "generic": "Ponatinib Hydrochloride",
+   "brands": [
+    "Iclusig"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ponatinib"
+   ]
+  },
+  {
+   "slug": "pralatrexate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pralatrexate",
+   "names": [
+    "Folotyn (Pralatrexate)",
+    "Pralatrexate"
+   ],
+   "generic": "Pralatrexate",
+   "brands": [
+    "Folotyn"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pralatrexate"
+   ]
+  },
+  {
+   "slug": "pralsetinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pralsetinib",
+   "names": [
+    "Gavreto (Pralsetinib)",
+    "Pralsetinib"
+   ],
+   "generic": "Pralsetinib",
+   "brands": [
+    "Gavreto"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "pralsetinib"
+   ]
+  },
+  {
+   "slug": "prednisone",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/prednisone",
+   "names": [
+    "Prednisone"
+   ],
+   "generic": "Prednisone",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "procarbazinehydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/procarbazinehydrochloride",
+   "names": [
+    "Matulane (Procarbazine Hydrochloride)",
+    "Procarbazine Hydrochloride"
+   ],
+   "generic": "Procarbazine Hydrochloride",
+   "brands": [
+    "Matulane"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "propranolol-hydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/propranolol-hydrochloride",
+   "names": [
+    "Hemangeol (Propranolol Hydrochloride)",
+    "Propranolol Hydrochloride"
+   ],
+   "generic": "Propranolol Hydrochloride",
+   "brands": [
+    "Hemangeol"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "quizartinib-dihydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/quizartinib-dihydrochloride",
+   "names": [
+    "Quizartinib Dihydrochloride",
+    "Vanflyta (Quizartinib Dihydrochloride)"
+   ],
+   "generic": "Quizartinib Dihydrochloride",
+   "brands": [
+    "Vanflyta"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "quizartinib"
+   ]
+  },
+  {
+   "slug": "r-chop",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/r-chop",
+   "names": [
+    "R-CHOP"
+   ],
+   "generic": "R-CHOP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "r-cvp",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/r-cvp",
+   "names": [
+    "R-CVP"
+   ],
+   "generic": "R-CVP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "r-epoch",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/r-epoch",
+   "names": [
+    "R-EPOCH"
+   ],
+   "generic": "R-EPOCH",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "r-ice",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/r-ice",
+   "names": [
+    "R-ICE"
+   ],
+   "generic": "R-ICE",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "radium-223-dichloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/radium-223-dichloride",
+   "names": [
+    "Radium 223 Dichloride",
+    "Xofigo (Radium 223 Dichloride)"
+   ],
+   "generic": "Radium 223 Dichloride",
+   "brands": [
+    "Xofigo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "radium-223"
+   ]
+  },
+  {
+   "slug": "raloxifenehydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/raloxifenehydrochloride",
+   "names": [
+    "Evista (Raloxifene Hydrochloride)",
+    "Raloxifene Hydrochloride"
+   ],
+   "generic": "Raloxifene Hydrochloride",
+   "brands": [
+    "Evista"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "ramucirumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ramucirumab",
+   "names": [
+    "Cyramza (Ramucirumab)",
+    "Ramucirumab"
+   ],
+   "generic": "Ramucirumab",
+   "brands": [
+    "Cyramza"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ramucirumab"
+   ]
+  },
+  {
+   "slug": "rasburicase",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/rasburicase",
+   "names": [
+    "Elitek (Rasburicase)",
+    "Rasburicase"
+   ],
+   "generic": "Rasburicase",
+   "brands": [
+    "Elitek"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "ravulizumab-cwvz",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ravulizumab-cwvz",
+   "names": [
+    "Ravulizumab-cwvz",
+    "Ultomiris (Ravulizumab-cwvz)"
+   ],
+   "generic": "Ravulizumab-cwvz",
+   "brands": [
+    "Ultomiris"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "recombinant-hpv-bivalent-vaccine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/recombinant-hpv-bivalent-vaccine",
+   "names": [
+    "Cervarix (Recombinant HPV Bivalent Vaccine)",
+    "HPV Bivalent Vaccine, Recombinant",
+    "Recombinant Human Papillomavirus (HPV) Bivalent Vaccine"
+   ],
+   "generic": "Recombinant Human Papillomavirus (HPV) Bivalent Vaccine",
+   "brands": [
+    "Cervarix"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "recombinant-hpv-nonavalent-vaccine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/recombinant-hpv-nonavalent-vaccine",
+   "names": [
+    "Gardasil 9 (Recombinant HPV Nonavalent Vaccine)",
+    "HPV Nonavalent Vaccine, Recombinant",
+    "Recombinant Human Papillomavirus (HPV) Nonavalent Vaccine"
+   ],
+   "generic": "Recombinant Human Papillomavirus (HPV) Nonavalent Vaccine",
+   "brands": [
+    "Gardasil 9"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "gardasil-9"
+   ]
+  },
+  {
+   "slug": "recombinant-hpv-quadrivalent-vaccine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/recombinant-hpv-quadrivalent-vaccine",
+   "names": [
+    "Gardasil (Recombinant HPV Quadrivalent Vaccine)",
+    "HPV Quadrivalent Vaccine, Recombinant",
+    "Recombinant Human Papillomavirus (HPV) Quadrivalent Vaccine"
+   ],
+   "generic": "Recombinant Human Papillomavirus (HPV) Quadrivalent Vaccine",
+   "brands": [
+    "Gardasil"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "recombinant-interferon-alfa-2b",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/recombinant-interferon-alfa-2b",
+   "names": [
+    "Interferon Alfa-2b, Recombinant",
+    "Intron A (Recombinant Interferon Alfa-2b)",
+    "Recombinant Interferon Alfa-2b"
+   ],
+   "generic": "Recombinant Interferon Alfa-2b",
+   "brands": [
+    "Intron A"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "interferon-alfa"
+   ]
+  },
+  {
+   "slug": "regorafenib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/regorafenib",
+   "names": [
+    "Regorafenib",
+    "Stivarga (Regorafenib)"
+   ],
+   "generic": "Regorafenib",
+   "brands": [
+    "Stivarga"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "regorafenib"
+   ]
+  },
+  {
+   "slug": "relacorilant",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/relacorilant",
+   "names": [
+    "Lifyorli (Relacorilant)",
+    "Relacorilant"
+   ],
+   "generic": "Relacorilant",
+   "brands": [
+    "Lifyorli"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "relacorilant"
+   ]
+  },
+  {
+   "slug": "relugolix",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/relugolix",
+   "names": [
+    "Orgovyx (Relugolix)",
+    "Relugolix"
+   ],
+   "generic": "Relugolix",
+   "brands": [
+    "Orgovyx"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "relugolix"
+   ]
+  },
+  {
+   "slug": "repotrectinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/repotrectinib",
+   "names": [
+    "Augtyro (Repotrectinib)",
+    "Repotrectinib"
+   ],
+   "generic": "Repotrectinib",
+   "brands": [
+    "Augtyro"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "repotrectinib"
+   ]
+  },
+  {
+   "slug": "retifanlimab-dlwr",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/retifanlimab-dlwr",
+   "names": [
+    "Retifanlimab-dlwr",
+    "Zynyz (Retifanlimab-dlwr)"
+   ],
+   "generic": "Retifanlimab-dlwr",
+   "brands": [
+    "Zynyz"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "retifanlimab"
+   ]
+  },
+  {
+   "slug": "revumenib-citrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/revumenib-citrate",
+   "names": [
+    "Revuforj (Revumenib Citrate)",
+    "Revumenib Citrate"
+   ],
+   "generic": "Revumenib Citrate",
+   "brands": [
+    "Revuforj"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "revumenib"
+   ]
+  },
+  {
+   "slug": "ribociclib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ribociclib",
+   "names": [
+    "Kisqali (Ribociclib Succinate)",
+    "Ribociclib Succinate"
+   ],
+   "generic": "Ribociclib Succinate",
+   "brands": [
+    "Kisqali"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ribociclib"
+   ]
+  },
+  {
+   "slug": "ribociclib-succinate-and-letrozole",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ribociclib-succinate-and-letrozole",
+   "names": [
+    "Kisqali Femara Co-Pack (Ribociclib Succinate and Letrozole)",
+    "Ribociclib Succinate and Letrozole"
+   ],
+   "generic": "Ribociclib Succinate and Letrozole",
+   "brands": [
+    "Kisqali Femara Co-Pack"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "ripretinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ripretinib",
+   "names": [
+    "Qinlock (Ripretinib)",
+    "Ripretinib"
+   ],
+   "generic": "Ripretinib",
+   "brands": [
+    "Qinlock"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ripretinib"
+   ]
+  },
+  {
+   "slug": "rituximab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/rituximab",
+   "names": [
+    "Riabni (Rituximab)",
+    "Rituxan (Rituximab)",
+    "Rituximab",
+    "Ruxience (Rituximab)",
+    "Truxima (Rituximab)"
+   ],
+   "generic": "Rituximab",
+   "brands": [
+    "Riabni",
+    "Rituxan",
+    "Ruxience",
+    "Truxima"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "rituximab"
+   ]
+  },
+  {
+   "slug": "rituximabandhyaluronidasehuman",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/rituximabandhyaluronidasehuman",
+   "names": [
+    "Rituxan Hycela (Rituximab and Hyaluronidase Human)",
+    "Rituximab and Hyaluronidase Human"
+   ],
+   "generic": "Rituximab and Hyaluronidase Human",
+   "brands": [
+    "Rituxan Hycela"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "rolapitanthydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/rolapitanthydrochloride",
+   "names": [
+    "Rolapitant Hydrochloride",
+    "Varubi (Rolapitant Hydrochloride)"
+   ],
+   "generic": "Rolapitant Hydrochloride",
+   "brands": [
+    "Varubi"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "romidepsin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/romidepsin",
+   "names": [
+    "Istodax (Romidepsin)",
+    "Romidepsin"
+   ],
+   "generic": "Romidepsin",
+   "brands": [
+    "Istodax"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "romidepsin"
+   ]
+  },
+  {
+   "slug": "romiplostim",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/romiplostim",
+   "names": [
+    "Nplate (Romiplostim)",
+    "Romiplostim"
+   ],
+   "generic": "Romiplostim",
+   "brands": [
+    "Nplate"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "ropeginterferon-alfa-2b-njft",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ropeginterferon-alfa-2b-njft",
+   "names": [
+    "Besremi (Ropeginterferon Alfa-2b-njft)",
+    "Ropeginterferon Alfa-2b-njft"
+   ],
+   "generic": "Ropeginterferon Alfa-2b-njft",
+   "brands": [
+    "Besremi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ropeginterferon-alfa-2b"
+   ]
+  },
+  {
+   "slug": "rucaparibcamsylate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/rucaparibcamsylate",
+   "names": [
+    "Rubraca (Rucaparib Camsylate)",
+    "Rucaparib Camsylate"
+   ],
+   "generic": "Rucaparib Camsylate",
+   "brands": [
+    "Rubraca"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "rucaparib"
+   ]
+  },
+  {
+   "slug": "ruxolitinibphosphate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ruxolitinibphosphate",
+   "names": [
+    "Jakafi (Ruxolitinib Phosphate)",
+    "Ruxolitinib Phosphate"
+   ],
+   "generic": "Ruxolitinib Phosphate",
+   "brands": [
+    "Jakafi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "ruxolitinib"
+   ]
+  },
+  {
+   "slug": "sacituzumabgovitecan-hziy",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/sacituzumabgovitecan-hziy",
+   "names": [
+    "Sacituzumab Govitecan-hziy",
+    "Trodelvy (Sacituzumab Govitecan-hziy)"
+   ],
+   "generic": "Sacituzumab Govitecan-hziy",
+   "brands": [
+    "Trodelvy"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "sacituzumab-govitecan"
+   ]
+  },
+  {
+   "slug": "selinexor",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/selinexor",
+   "names": [
+    "Selinexor",
+    "Xpovio (Selinexor)"
+   ],
+   "generic": "Selinexor",
+   "brands": [
+    "Xpovio"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "selinexor"
+   ]
+  },
+  {
+   "slug": "selpercatinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/selpercatinib",
+   "names": [
+    "Retevmo (Selpercatinib)",
+    "Selpercatinib"
+   ],
+   "generic": "Selpercatinib",
+   "brands": [
+    "Retevmo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "selpercatinib"
+   ]
+  },
+  {
+   "slug": "selumetinibsulfate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/selumetinibsulfate",
+   "names": [
+    "Koselugo (Selumetinib Sulfate)",
+    "Selumetinib Sulfate"
+   ],
+   "generic": "Selumetinib Sulfate",
+   "brands": [
+    "Koselugo"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "siltuximab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/siltuximab",
+   "names": [
+    "Siltuximab",
+    "Sylvant (Siltuximab)"
+   ],
+   "generic": "Siltuximab",
+   "brands": [
+    "Sylvant"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "sipuleucel-t",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/sipuleucel-t",
+   "names": [
+    "Provenge (Sipuleucel-T)",
+    "Sipuleucel-T"
+   ],
+   "generic": "Sipuleucel-T",
+   "brands": [
+    "Provenge"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "sipuleucel-t"
+   ]
+  },
+  {
+   "slug": "sirolimus-protein-bound-particles",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/sirolimus-protein-bound-particles",
+   "names": [
+    "Fyarro (Sirolimus Protein-Bound Particles)",
+    "Sirolimus Protein-Bound Particles"
+   ],
+   "generic": "Sirolimus Protein-Bound Particles",
+   "brands": [
+    "Fyarro"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "sonidegib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/sonidegib",
+   "names": [
+    "Odomzo (Sonidegib)",
+    "Sonidegib"
+   ],
+   "generic": "Sonidegib",
+   "brands": [
+    "Odomzo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "sonidegib"
+   ]
+  },
+  {
+   "slug": "sorafenibtosylate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/sorafenibtosylate",
+   "names": [
+    "Nexavar (Sorafenib Tosylate)",
+    "Sorafenib Tosylate"
+   ],
+   "generic": "Sorafenib Tosylate",
+   "brands": [
+    "Nexavar"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "sorafenib"
+   ]
+  },
+  {
+   "slug": "sotorasib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/sotorasib",
+   "names": [
+    "Lumakras (Sotorasib)",
+    "Sotorasib"
+   ],
+   "generic": "Sotorasib",
+   "brands": [
+    "Lumakras"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "sotorasib"
+   ]
+  },
+  {
+   "slug": "stanfordv",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/stanfordv",
+   "names": [
+    "STANFORD V"
+   ],
+   "generic": "STANFORD V",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "sunitinibmalate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/sunitinibmalate",
+   "names": [
+    "Sunitinib Malate",
+    "Sutent (Sunitinib Malate)"
+   ],
+   "generic": "Sunitinib Malate",
+   "brands": [
+    "Sutent"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "sunitinib"
+   ]
+  },
+  {
+   "slug": "tac",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tac",
+   "names": [
+    "TAC"
+   ],
+   "generic": "TAC",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "tafasitamab-cxix",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tafasitamab-cxix",
+   "names": [
+    "Monjuvi (Tafasitamab-cxix)",
+    "Tafasitamab-cxix"
+   ],
+   "generic": "Tafasitamab-cxix",
+   "brands": [
+    "Monjuvi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tafasitamab"
+   ]
+  },
+  {
+   "slug": "tagraxofusp-erzs",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tagraxofusp-erzs",
+   "names": [
+    "Elzonris (Tagraxofusp-erzs)",
+    "Tagraxofusp-erzs"
+   ],
+   "generic": "Tagraxofusp-erzs",
+   "brands": [
+    "Elzonris"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tagraxofusp"
+   ]
+  },
+  {
+   "slug": "talazoparibtosylate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/talazoparibtosylate",
+   "names": [
+    "Talazoparib Tosylate",
+    "Talzenna (Talazoparib Tosylate)"
+   ],
+   "generic": "Talazoparib Tosylate",
+   "brands": [
+    "Talzenna"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "talazoparib"
+   ]
+  },
+  {
+   "slug": "talc",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/talc",
+   "names": [
+    "Sclerosol Intrapleural Aerosol (Talc)",
+    "Sterile Talc Powder (Talc)",
+    "Steritalc (Talc)",
+    "Talc"
+   ],
+   "generic": "Talc",
+   "brands": [
+    "Sclerosol Intrapleural Aerosol",
+    "Sterile Talc Powder",
+    "Steritalc"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "talimogenelaherparepvec",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/talimogenelaherparepvec",
+   "names": [
+    "Imlygic (Talimogene Laherparepvec)",
+    "Talimogene Laherparepvec"
+   ],
+   "generic": "Talimogene Laherparepvec",
+   "brands": [
+    "Imlygic"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "talimogene-laherparepvec"
+   ]
+  },
+  {
+   "slug": "talquetamab-tgvs",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/talquetamab-tgvs",
+   "names": [
+    "Talquetamab-tgvs",
+    "Talvey (Talquetamab-tgvs)"
+   ],
+   "generic": "Talquetamab-tgvs",
+   "brands": [
+    "Talvey"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "talquetamab"
+   ]
+  },
+  {
+   "slug": "tamoxifencitrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tamoxifencitrate",
+   "names": [
+    "Soltamox (Tamoxifen Citrate)",
+    "Tamoxifen Citrate"
+   ],
+   "generic": "Tamoxifen Citrate",
+   "brands": [
+    "Soltamox"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tamoxifen"
+   ]
+  },
+  {
+   "slug": "tarlatamab-dlle",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tarlatamab-dlle",
+   "names": [
+    "Imdelltra (Tarlatamab-dlle)",
+    "Tarlatamab-dlle"
+   ],
+   "generic": "Tarlatamab-dlle",
+   "brands": [
+    "Imdelltra"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tarlatamab"
+   ]
+  },
+  {
+   "slug": "tebentafusp-tebn",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tebentafusp-tebn",
+   "names": [
+    "Kimmtrak (Tebentafusp-tebn)",
+    "Tebentafusp-tebn"
+   ],
+   "generic": "Tebentafusp-tebn",
+   "brands": [
+    "Kimmtrak"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tebentafusp"
+   ]
+  },
+  {
+   "slug": "teclistamab-cqyv",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/teclistamab-cqyv",
+   "names": [
+    "Teclistamab-cqyv",
+    "Tecvayli (Teclistamab-cqyv)"
+   ],
+   "generic": "Teclistamab-cqyv",
+   "brands": [
+    "Tecvayli"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "teclistamab"
+   ]
+  },
+  {
+   "slug": "temozolomide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/temozolomide",
+   "names": [
+    "Temodar (Temozolomide)",
+    "Temozolomide"
+   ],
+   "generic": "Temozolomide",
+   "brands": [
+    "Temodar"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "temozolomide"
+   ]
+  },
+  {
+   "slug": "temsirolimus",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/temsirolimus",
+   "names": [
+    "Temsirolimus",
+    "Torisel (Temsirolimus)"
+   ],
+   "generic": "Temsirolimus",
+   "brands": [
+    "Torisel"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "temsirolimus"
+   ]
+  },
+  {
+   "slug": "tepotinibhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tepotinibhydrochloride",
+   "names": [
+    "Tepmetko (Tepotinib Hydrochloride)",
+    "Tepotinib Hydrochloride"
+   ],
+   "generic": "Tepotinib Hydrochloride",
+   "brands": [
+    "Tepmetko"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "capmatinib-tepotinib"
+   ]
+  },
+  {
+   "slug": "thalidomide",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/thalidomide",
+   "names": [
+    "Thalidomide",
+    "Thalomid (Thalidomide)"
+   ],
+   "generic": "Thalidomide",
+   "brands": [
+    "Thalomid"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "thalidomide"
+   ]
+  },
+  {
+   "slug": "thioguanine",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/thioguanine",
+   "names": [
+    "Tabloid (Thioguanine)",
+    "Thioguanine"
+   ],
+   "generic": "Thioguanine",
+   "brands": [
+    "Tabloid"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "thiotepa",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/thiotepa",
+   "names": [
+    "Tepadina (Thiotepa)",
+    "Thiotepa"
+   ],
+   "generic": "Thiotepa",
+   "brands": [
+    "Tepadina"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "tisagenlecleucel",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tisagenlecleucel",
+   "names": [
+    "Kymriah (Tisagenlecleucel)",
+    "Tisagenlecleucel"
+   ],
+   "generic": "Tisagenlecleucel",
+   "brands": [
+    "Kymriah"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tisagenlecleucel"
+   ]
+  },
+  {
+   "slug": "tislelizumab-jsgr",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tislelizumab-jsgr",
+   "names": [
+    "Tevimbra (Tislelizumab-jsgr)",
+    "Tislelizumab-jsgr"
+   ],
+   "generic": "Tislelizumab-jsgr",
+   "brands": [
+    "Tevimbra"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tislelizumab"
+   ]
+  },
+  {
+   "slug": "tisotumabvedotin-tftv",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tisotumabvedotin-tftv",
+   "names": [
+    "Tisotumab Vedotin-tftv",
+    "Tivdak (Tisotumab Vedotin-tftv)"
+   ],
+   "generic": "Tisotumab Vedotin-tftv",
+   "brands": [
+    "Tivdak"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tisotumab-vedotin"
+   ]
+  },
+  {
+   "slug": "tivozanibhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tivozanibhydrochloride",
+   "names": [
+    "Fotivda (Tivozanib Hydrochloride)",
+    "Tivozanib Hydrochloride"
+   ],
+   "generic": "Tivozanib Hydrochloride",
+   "brands": [
+    "Fotivda"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tivozanib"
+   ]
+  },
+  {
+   "slug": "tocilizumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tocilizumab",
+   "names": [
+    "Actemra (Tocilizumab)",
+    "Tocilizumab"
+   ],
+   "generic": "Tocilizumab",
+   "brands": [
+    "Actemra"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "topotecanhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/topotecanhydrochloride",
+   "names": [
+    "Hycamtin (Topotecan Hydrochloride)",
+    "Topotecan Hydrochloride"
+   ],
+   "generic": "Topotecan Hydrochloride",
+   "brands": [
+    "Hycamtin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "topotecan"
+   ]
+  },
+  {
+   "slug": "toremifene",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/toremifene",
+   "names": [
+    "Fareston (Toremifene)",
+    "Toremifene"
+   ],
+   "generic": "Toremifene",
+   "brands": [
+    "Fareston"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "toripalimab-tpzi",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/toripalimab-tpzi",
+   "names": [
+    "Loqtorzi (Toripalimab-tpzi)",
+    "Toripalimab-tpzi"
+   ],
+   "generic": "Toripalimab-tpzi",
+   "brands": [
+    "Loqtorzi"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "toripalimab"
+   ]
+  },
+  {
+   "slug": "tovorafenib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tovorafenib",
+   "names": [
+    "Ojemda (Tovorafenib)",
+    "Tovorafenib"
+   ],
+   "generic": "Tovorafenib",
+   "brands": [
+    "Ojemda"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tovorafenib"
+   ]
+  },
+  {
+   "slug": "tpf",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tpf",
+   "names": [
+    "TPF"
+   ],
+   "generic": "TPF",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "trabectedin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/trabectedin",
+   "names": [
+    "Trabectedin",
+    "Yondelis (Trabectedin)"
+   ],
+   "generic": "Trabectedin",
+   "brands": [
+    "Yondelis"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "trabectedin"
+   ]
+  },
+  {
+   "slug": "trametinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/trametinib",
+   "names": [
+    "Mekinist (Trametinib Dimethyl Sulfoxide)",
+    "Trametinib Dimethyl Sulfoxide"
+   ],
+   "generic": "Trametinib Dimethyl Sulfoxide",
+   "brands": [
+    "Mekinist"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "trastuzumab",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/trastuzumab",
+   "names": [
+    "Herceptin (Trastuzumab)",
+    "Trastuzumab"
+   ],
+   "generic": "Trastuzumab",
+   "brands": [
+    "Herceptin"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "trastuzumab"
+   ]
+  },
+  {
+   "slug": "trastuzumabandhyaluronidase-oysk",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/trastuzumabandhyaluronidase-oysk",
+   "names": [
+    "Herceptin Hylecta (Trastuzumab and Hyaluronidase-oysk)",
+    "Trastuzumab and Hyaluronidase-oysk"
+   ],
+   "generic": "Trastuzumab and Hyaluronidase-oysk",
+   "brands": [
+    "Herceptin Hylecta"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "tremelimumab-actl",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tremelimumab-actl",
+   "names": [
+    "Imjudo (Tremelimumab-actl)",
+    "Tremelimumab-actl"
+   ],
+   "generic": "Tremelimumab-actl",
+   "brands": [
+    "Imjudo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tremelimumab"
+   ]
+  },
+  {
+   "slug": "treosulfan",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/treosulfan",
+   "names": [
+    "Grafapex (Treosulfan)",
+    "Treosulfan"
+   ],
+   "generic": "Treosulfan",
+   "brands": [
+    "Grafapex"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "treosulfan"
+   ]
+  },
+  {
+   "slug": "trifluridine-tipiracilhydrochloride",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/trifluridine-tipiracilhydrochloride",
+   "names": [
+    "Lonsurf (Trifluridine and Tipiracil Hydrochloride)",
+    "Trifluridine and Tipiracil Hydrochloride"
+   ],
+   "generic": "Trifluridine and Tipiracil Hydrochloride",
+   "brands": [
+    "Lonsurf"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "trifluridine-tipiracil"
+   ]
+  },
+  {
+   "slug": "triptorelin-pamoate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/triptorelin-pamoate",
+   "names": [
+    "Trelstar (Triptorelin Pamoate)",
+    "Trelstar Depot (Triptorelin Pamoate)",
+    "Triptorelin Pamoate"
+   ],
+   "generic": "Triptorelin Pamoate",
+   "brands": [
+    "Trelstar",
+    "Trelstar Depot"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "tucatinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/tucatinib",
+   "names": [
+    "Tucatinib",
+    "Tukysa (Tucatinib)"
+   ],
+   "generic": "Tucatinib",
+   "brands": [
+    "Tukysa"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "tucatinib"
+   ]
+  },
+  {
+   "slug": "uridinetriacetate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/uridinetriacetate",
+   "names": [
+    "Uridine Triacetate",
+    "Vistogard (Uridine Triacetate)"
+   ],
+   "generic": "Uridine Triacetate",
+   "brands": [
+    "Vistogard"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "vac",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vac",
+   "names": [
+    "VAC"
+   ],
+   "generic": "VAC",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "valrubicin",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/valrubicin",
+   "names": [
+    "Valrubicin",
+    "Valstar (Valrubicin)"
+   ],
+   "generic": "Valrubicin",
+   "brands": [
+    "Valstar"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "vamp",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vamp",
+   "names": [
+    "VAMP"
+   ],
+   "generic": "VAMP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "vandetanib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vandetanib",
+   "names": [
+    "Vandetanib"
+   ],
+   "generic": "Vandetanib",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "vandetanib"
+   ]
+  },
+  {
+   "slug": "veip",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/veip",
+   "names": [
+    "VeIP"
+   ],
+   "generic": "VeIP",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "vemurafenib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vemurafenib",
+   "names": [
+    "Vemurafenib",
+    "Zelboraf (Vemurafenib)"
+   ],
+   "generic": "Vemurafenib",
+   "brands": [
+    "Zelboraf"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "vemurafenib"
+   ]
+  },
+  {
+   "slug": "venetoclax",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/venetoclax",
+   "names": [
+    "Venclexta (Venetoclax)",
+    "Venetoclax"
+   ],
+   "generic": "Venetoclax",
+   "brands": [
+    "Venclexta"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "venetoclax"
+   ]
+  },
+  {
+   "slug": "vimseltinib-dihydrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vimseltinib-dihydrate",
+   "names": [
+    "Romvimza (Vimseltinib Dihydrate)",
+    "Vimseltinib Dihydrate"
+   ],
+   "generic": "Vimseltinib Dihydrate",
+   "brands": [
+    "Romvimza"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "vimseltinib"
+   ]
+  },
+  {
+   "slug": "vinblastinesulfate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vinblastinesulfate",
+   "names": [
+    "Vinblastine Sulfate"
+   ],
+   "generic": "Vinblastine Sulfate",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "vinblastine"
+   ]
+  },
+  {
+   "slug": "vincristinesulfate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vincristinesulfate",
+   "names": [
+    "Vincristine Sulfate"
+   ],
+   "generic": "Vincristine Sulfate",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "vincristine"
+   ]
+  },
+  {
+   "slug": "vinorelbinetartrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vinorelbinetartrate",
+   "names": [
+    "Vinorelbine Tartrate"
+   ],
+   "generic": "Vinorelbine Tartrate",
+   "brands": [],
+   "type": "drug",
+   "matchedIds": [
+    "vinorelbine"
+   ]
+  },
+  {
+   "slug": "vip",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vip",
+   "names": [
+    "VIP"
+   ],
+   "generic": "VIP",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "vismodegib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vismodegib",
+   "names": [
+    "Erivedge (Vismodegib)",
+    "Vismodegib"
+   ],
+   "generic": "Vismodegib",
+   "brands": [
+    "Erivedge"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "vismodegib"
+   ]
+  },
+  {
+   "slug": "vorasidenib-citrate",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vorasidenib-citrate",
+   "names": [
+    "Voranigo (Vorasidenib Citrate)",
+    "Vorasidenib Citrate"
+   ],
+   "generic": "Vorasidenib Citrate",
+   "brands": [
+    "Voranigo"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "vorasidenib"
+   ]
+  },
+  {
+   "slug": "vorinostat",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/vorinostat",
+   "names": [
+    "Vorinostat",
+    "Zolinza (Vorinostat)"
+   ],
+   "generic": "Vorinostat",
+   "brands": [
+    "Zolinza"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "xeliri",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/xeliri",
+   "names": [
+    "XELIRI"
+   ],
+   "generic": "XELIRI",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [],
+   "exclusion": "regimen: combination acronym of individually listed generics; see the component drug records"
+  },
+  {
+   "slug": "xelox",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/xelox",
+   "names": [
+    "XELOX"
+   ],
+   "generic": "XELOX",
+   "brands": [],
+   "type": "regimen",
+   "matchedIds": [
+    "capox"
+   ]
+  },
+  {
+   "slug": "zanidatamab-hrii",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/zanidatamab-hrii",
+   "names": [
+    "Zanidatamab-hrii",
+    "Ziihera (Zanidatamab-hrii)"
+   ],
+   "generic": "Zanidatamab-hrii",
+   "brands": [
+    "Ziihera"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "zanidatamab"
+   ]
+  },
+  {
+   "slug": "zanubrutinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/zanubrutinib",
+   "names": [
+    "Brukinsa (Zanubrutinib)",
+    "Zanubrutinib"
+   ],
+   "generic": "Zanubrutinib",
+   "brands": [
+    "Brukinsa"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "zanubrutinib"
+   ]
+  },
+  {
+   "slug": "zenocutuzumab-zbco",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/zenocutuzumab-zbco",
+   "names": [
+    "Bizengri (Zenocutuzumab-zbco)",
+    "Zenocutuzumab-zbco"
+   ],
+   "generic": "Zenocutuzumab-zbco",
+   "brands": [
+    "Bizengri"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "zenocutuzumab"
+   ]
+  },
+  {
+   "slug": "ziv-aflibercept",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ziv-aflibercept",
+   "names": [
+    "Zaltrap (Ziv-Aflibercept)",
+    "Ziv-Aflibercept"
+   ],
+   "generic": "Ziv-Aflibercept",
+   "brands": [
+    "Zaltrap"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  },
+  {
+   "slug": "zolbetuximab-clzb",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/zolbetuximab-clzb",
+   "names": [
+    "Vyloy (Zolbetuximab-clzb)",
+    "Zolbetuximab-clzb"
+   ],
+   "generic": "Zolbetuximab-clzb",
+   "brands": [
+    "Vyloy"
+   ],
+   "type": "drug",
+   "matchedIds": [
+    "zolbetuximab"
+   ]
+  },
+  {
+   "slug": "zoledronicacid",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/zoledronicacid",
+   "names": [
+    "Zoledronic Acid",
+    "Zometa (Zoledronic Acid)"
+   ],
+   "generic": "Zoledronic Acid",
+   "brands": [
+    "Zometa"
+   ],
+   "type": "drug",
+   "matchedIds": []
+  }
+ ]
+}

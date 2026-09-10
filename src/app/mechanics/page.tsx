@@ -94,10 +94,10 @@ export default function MechanicsPage() {
           the <Link href="/pathways/" className="underline">pathway index</Link> lists every diagram alone.
         </p>
 
-        <nav aria-label="Chapters" className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 mt-8 mb-6 bg-background/95 backdrop-blur border-y border-border flex flex-wrap items-center gap-1.5 text-sm">
+        <nav aria-label="Chapters" className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 mt-8 mb-6 bg-background/95 backdrop-blur border-y border-border flex flex-nowrap overflow-x-auto sm:flex-wrap sm:overflow-visible items-center gap-1.5 text-sm">
           <span className="kicker mr-1 hidden sm:inline">Chapters</span>
           {MECHANICS.map((c, i) => (
-            <a key={c.id} href={`#c-${c.id}`} className="chip border bg-card border-border hover:bg-foreground/5">
+            <a key={c.id} href={`#c-${c.id}`} className="chip border bg-card border-border hover:bg-foreground/5 whitespace-nowrap">
               <span className="text-muted tabular-nums mr-1">{i + 1}</span>{c.title}
             </a>
           ))}

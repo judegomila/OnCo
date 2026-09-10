@@ -80,7 +80,7 @@ export function SavedViews() {
         {!ready ? <p className="text-sm text-muted">Loading…</p> : watching.length === 0 ? (
           <div className="card p-5 text-sm text-muted">
             <p>Nothing watched yet. Every object page has a <span className="inline-flex items-center gap-1 rounded-lg border border-border bg-card px-2 py-0.5 text-xs text-foreground"><span aria-hidden>☆</span> Watch</span> button in the sidebar. Watched pages are listed here with the date their facts were last checked and the date the record last changed, so you can see what moved since your last visit.</p>
-            <p className="mt-2">Try <Link className="underline" href="/drugs/enhertu/">Enhertu</Link>, <Link className="underline" href="/cancers/tnbc/">triple-negative breast cancer</Link> or <Link className="underline" href="/targets/trop2/">TROP2</Link>.</p>
+            <p className="mt-2">Try <Link className="underline" href="/drugs/trastuzumab-deruxtecan/">Enhertu</Link>, <Link className="underline" href="/cancers/tnbc/">triple-negative breast cancer</Link> or <Link className="underline" href="/targets/trop2/">TROP2</Link>.</p>
           </div>
         ) : (
           <div className="card overflow-x-auto">

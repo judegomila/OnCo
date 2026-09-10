@@ -71,7 +71,7 @@ export default function CoverageUsPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="find" />} title="Paying for cancer care in the United States"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Paying for cancer care in the United States"
         lede={`How Medicare, Medicaid and commercial insurance pay for cancer treatment, in plain English first and detail second, then a coverage record for ${covered.length} of the ${approved.length} approved products in OnCo: which part of Medicare pays, what commercial plans usually require, published list prices where they exist, and where to find assistance.`} />
       <Container className="pb-16">
         <div className="card p-4 text-sm text-muted max-w-3xl border-amber-300/60 dark:border-amber-700/60">

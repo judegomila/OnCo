@@ -1,6 +1,7 @@
-/** Site information architecture: five groups, each with a landing page and its pages. Used by the header, footer, landing pages, and home. */
+/** Site information architecture: six groups, each with a landing page and its pages. Used by the header, footer, landing pages, and home. */
 export type NavItem = { href: string; label: string; blurb: string };
-export type NavGroup = { id: string; label: string; href: string; blurb: string; items: NavItem[] };
+/** `short` is an optional shorter label for the desktop header bar only; the drawer, footer and landing pages use `label`. */
+export type NavGroup = { id: string; label: string; short?: string; href: string; blurb: string; items: NavItem[] };
 
 export const NAV_GROUPS: NavGroup[] = [
   {
@@ -99,7 +100,7 @@ export const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
-    id: "who", label: "Institutions & people", href: "/institutions/", blurb: "The hospitals, universities, doctors, scientists, companies, countries, and funders behind the field, mapped and ranked with disclosed formulas.",
+    id: "who", label: "Institutions & people", short: "Who's who", href: "/institutions/", blurb: "The hospitals, universities, doctors, scientists, companies, countries, and funders behind the field, mapped and ranked with disclosed formulas.",
     items: [
       { href: "/institutions/", label: "Institutions", blurb: "Global map and ranking of cancer centres and institutes." },
       { href: "/universities/", label: "Universities", blurb: "Research output from OpenAlex, Nature Index, SCImago." },

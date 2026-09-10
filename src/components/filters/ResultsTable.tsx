@@ -1,6 +1,6 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 import { Tip, COLUMN_TIPS } from "@/components/Tip";
 
 export type Column<T> = {
@@ -22,11 +22,16 @@ export type SortState = { key: string; dir: 1 | -1 };
  * The header row sticks below the site header (see `--sticky-top` in globals.css); on small
  * screens the table scrolls sideways inside its card instead.
  */
-export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "Nothing matches. Clear a filter.", scroll = false }: {
+export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "Nothing matches. Clear a filter.", scroll = false, pageSize }: {
   columns: Column<T>[]; rows: T[]; rowKey: (r: T) => string; sort?: SortState; onSort?: (key: string) => void; empty?: string;
   /** Keep the table scrolling sideways inside its card at every width (for tables wider than the page). */
   scroll?: boolean;
+  /** When set, only this many rows render until the reader asks for the rest (for very long tables on phones). */
+  pageSize?: number;
 }) {
+  const [showAll, setShowAll] = useState(false);
+  const capped = pageSize !== undefined && !showAll && rows.length > pageSize;
+  const visible = capped ? rows.slice(0, pageSize) : rows;
   return (
     <div className={`card results-table overflow-x-auto ${scroll ? "" : "lg:overflow-x-visible"}`}>
       <table className="onco">
@@ -39,7 +44,7 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "
               return (
                 <th key={c.key} scope="col" className={`${c.hide ?? ""} ${c.className ?? ""}`} aria-sort={sorted ? (sort!.dir === -1 ? "descending" : "ascending") : undefined}>
                   {c.sortable && onSort ? (
-                    <button type="button" onClick={() => onSort(c.key)} className={`group inline-flex items-center gap-1 rounded-sm ${sorted ? "text-foreground" : ""}`} title={sorted ? (sort!.dir === -1 ? "Sorted descending. Click to flip." : "Sorted ascending. Click to flip.") : `Sort by ${c.label}`}>
+                    <button type="button" onClick={() => onSort(c.key)} className={`group inline-flex items-center gap-1 rounded-sm py-1.5 -my-1.5 ${sorted ? "text-foreground" : ""}`} title={sorted ? (sort!.dir === -1 ? "Sorted descending. Click to flip." : "Sorted ascending. Click to flip.") : `Sort by ${c.label}`}>
                       {label}
                       <span aria-hidden className={`inline-block w-3 text-center text-[11px] leading-none ${sorted ? "text-accent" : "text-muted/40 group-hover:text-muted"}`}>
                         {sorted ? (sort!.dir === -1 ? "↓" : "↑") : "↕"}
@@ -52,7 +57,7 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "
           </tr>
         </thead>
         <tbody>
-          {rows.map((r, i) => (
+          {visible.map((r, i) => (
             <tr key={rowKey(r)}>
               {columns.map((c) => <td key={c.key} className={`${c.hide ?? ""} ${c.className ?? ""}`}>{c.render(r, i)}</td>)}
             </tr>
@@ -60,6 +65,7 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "
         </tbody>
       </table>
       {rows.length === 0 && <div className="px-6 py-12 text-center text-muted text-sm">{empty}</div>}
+      {capped && <div className="px-4 py-3 border-t border-border text-sm"><button type="button" onClick={() => setShowAll(true)} className="underline">Show all {rows.length.toLocaleString("en-GB")} rows</button> <span className="text-muted">(showing the first {pageSize})</span></div>}
     </div>
   );
 }

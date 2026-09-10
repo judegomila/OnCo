@@ -62,18 +62,25 @@ export default function ExplainedPage() {
                 <h2 className="text-xl font-semibold">{grp.cancer ? <Link href={routeFor(grp.cancer)} className="hover:underline">{grp.cancer.name}</Link> : "Trials not yet linked to a cancer"}</h2>
                 <span className="ml-auto text-sm text-muted tabular-nums">{grp.trials.length} trial{grp.trials.length === 1 ? "" : "s"}</span>
               </div>
-              <div className="space-y-8">
+              {/* Each trial is collapsed by default: 300-plus fully expanded explainers made the page hundreds of screens long on a phone. Fragment links (#trial-id) still open the right one. */}
+              <div className="space-y-3">
                 {grp.trials.map((t) => (
-                  <article key={t.id} id={t.id} className="scroll-mt-20">
-                    <div className="flex flex-wrap items-baseline gap-2 mb-2">
-                      <h3 className="text-lg font-semibold"><Link href={routeFor(t)} className="hover:underline">{t.name}</Link></h3>
-                      <StatusChip status={t.status} />
-                      <span className="text-xs text-muted">Phase {t.phase}{t.yearReported ? ` · reported ${t.yearReported}` : ""}{t.nct ? <> · <a className="underline" href={`https://clinicaltrials.gov/study/${t.nct}`} rel="noopener">{t.nct}</a></> : null}</span>
+                  <details key={t.id} id={t.id} className="group card scroll-mt-20 open:pb-4">
+                    <summary className="cursor-pointer list-none px-4 py-3 marker:content-none [&::-webkit-details-marker]:hidden">
+                      <div className="flex flex-wrap items-baseline gap-2">
+                        <span aria-hidden className="text-muted text-xs transition-transform group-open:rotate-90">▶</span>
+                        <h3 className="text-lg font-semibold">{t.name}</h3>
+                        <StatusChip status={t.status} />
+                        <span className="text-xs text-muted">Phase {t.phase}{t.yearReported ? ` · reported ${t.yearReported}` : ""}</span>
+                      </div>
+                      <p className="text-sm text-muted mt-1 max-w-3xl line-clamp-2 group-open:line-clamp-none">{t.tldr}</p>
+                    </summary>
+                    <div className="px-4">
+                      <p className="text-xs text-muted mb-3"><Link href={routeFor(t)} className="underline">Trial page</Link>{t.nct ? <> · <a className="underline" href={`https://clinicaltrials.gov/study/${t.nct}`} rel="noopener">{t.nct}</a></> : null}</p>
+                      <TrialExplainer trial={t} />
+                      <p className="text-xs text-muted mt-2"><Link href={`${routeFor(t)}#outcomes`} className="underline">Pictograms, table and sources on the trial page</Link></p>
                     </div>
-                    <p className="text-sm text-muted mb-3 max-w-3xl">{t.tldr}</p>
-                    <TrialExplainer trial={t} />
-                    <p className="text-xs text-muted mt-2"><Link href={`${routeFor(t)}#outcomes`} className="underline">Pictograms, table and sources on the trial page</Link></p>
-                  </article>
+                  </details>
                 ))}
               </div>
             </section>

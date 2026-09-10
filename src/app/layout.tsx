@@ -54,14 +54,14 @@ export const viewport: Viewport = { themeColor: [{ media: "(prefers-color-scheme
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+    <html lang="en" suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <RegionProvider>
         <ThemeScript />
         <GardenDefs />
         <SkipLink />
         <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/75">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-1.5 sm:gap-3">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-1.5 sm:gap-3 xl:gap-2 2xl:gap-3">
             <Link href="/" className="inline-flex h-10 shrink-0 items-center gap-2.5 rounded-lg sm:pr-2 font-semibold tracking-tight" aria-label="OnCo home">
               <Mark />
               <span className="text-[15px]">OnCo</span>
@@ -88,8 +88,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* A low grass line grows up from the footer's top edge into the gap above it. */}
           <GardenBackdrop variant="footer" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-12">
-            <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-[minmax(0,1.8fr)_repeat(5,minmax(0,1fr))] lg:gap-x-8 text-sm">
-              <div className="col-span-2 sm:col-span-3 lg:col-span-1">
+            <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 xl:grid-cols-[minmax(0,1.6fr)_repeat(6,minmax(0,1fr))] lg:gap-x-8 text-sm">
+              <div className="col-span-2 sm:col-span-3 xl:col-span-1">
                 <Link href="/" className="inline-flex items-center gap-2 font-semibold tracking-tight"><Mark size={24} /><span>OnCo</span></Link>
                 <p className="text-muted max-w-md mt-3 leading-relaxed">
                   A public, cited, editable map of oncology: technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, and ideas. One page per object, with a plain-English TL;DR on every page.
@@ -100,7 +100,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
               {NAV_GROUPS.map((g) => (
                 <nav key={g.id} aria-label={g.label}>
-                  <div className="kicker mb-3"><Link className="hover:text-foreground" href={g.href}>{g.label}</Link></div>
+                  <div className="kicker mb-2"><Link className="inline-block py-1.5 hover:text-foreground" href={g.href}>{g.label}</Link></div>
                   <ul className="space-y-1.5 text-[13px] leading-snug">
                     {g.items.map((it) => (
                       <li key={it.href}>

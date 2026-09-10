@@ -21,7 +21,7 @@ export function RegionToggle() {
       <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="listbox" aria-expanded={open} aria-label={`Approvals shown for ${meta.label}. Change country`} title={`Approvals shown for ${meta.label} (${meta.regulator}). Click to change country.`}
         className="ctl px-2 gap-1.5 text-sm">
         <span aria-hidden className="text-base leading-none">{meta.flag}</span>
-        <span className="hidden sm:inline text-xs font-medium">{region}</span>
+        <span className="hidden sm:inline xl:hidden 2xl:inline text-xs font-medium">{region}</span>
       </button>
       {open && (
         <div role="listbox" aria-label="Country for approvals" className="absolute right-0 top-full mt-1.5 z-50 card shadow-pop w-72 p-1.5">

@@ -109,7 +109,7 @@ export function SurvivalCurves({ t }: { t: Trial }) {
 
 /** All outcomes for a trial as pictograms (primary first), survival curves where published, and a compact table. */
 export function TrialOutcomes({ t }: { t: Trial }) {
-  if (!t.outcomes.length) return <p className="text-sm text-muted">No structured outcomes recorded yet{t.replication ? ` — ${t.replication}` : "."}</p>;
+  if (!t.outcomes.length) return <p className="text-sm text-muted">No structured outcomes recorded yet{t.replication ? `: ${t.replication}` : "."}</p>;
   const sorted = [...t.outcomes].sort((a, b) => Number(!!b.primary) - Number(!!a.primary));
   return (
     <div className="space-y-4">

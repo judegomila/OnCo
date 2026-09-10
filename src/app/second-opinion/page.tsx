@@ -56,7 +56,7 @@ export default function SecondOpinionPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="who" />} title="Second-opinion finder"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Second-opinion finder"
         lede="Who to ask, where they are, and how to get referred. Pick your cancer and country to see the centres OnCo links to that cancer (yours first), the clinicians and scientists who work on it, and a plain-language guide to how second opinions work in your health system: who refers, what records to send, remote review services, cost and timing, with sources." />
       <Container className="pb-16">
         <SecondOpinion cancers={cancers} routes={referralRoutes} countries={countries} />

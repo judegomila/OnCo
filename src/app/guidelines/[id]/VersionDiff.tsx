@@ -56,8 +56,8 @@ export function VersionDiff({ versions, refs }: { versions: GuidelineVersion[]; 
       {invalid ? <p className="mt-4 text-sm text-rose-700 dark:text-rose-300">The &ldquo;from&rdquo; version is later than the &ldquo;to&rdquo; version; swap them.</p> : (
         <>
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
-            <span className="chip bg-emerald-100 text-emerald-900 dark:bg-emerald-900/40 dark:text-emerald-100 tabular-nums">+{diff.added.length} added</span>
-            <span className="chip bg-rose-100 text-rose-900 dark:bg-rose-900/40 dark:text-rose-100 tabular-nums">−{diff.removed.length} removed</span>
+            <span className="chip bg-emerald-100 text-emerald-900 dark:bg-emerald-900/40 dark:text-emerald-100 tabular-nums">{diff.added.length ? "+" : ""}{diff.added.length} added</span>
+            <span className="chip bg-rose-100 text-rose-900 dark:bg-rose-900/40 dark:text-rose-100 tabular-nums">{diff.removed.length ? "−" : ""}{diff.removed.length} removed</span>
             <span className="chip bg-amber-100 text-amber-900 dark:bg-amber-900/40 dark:text-amber-100 tabular-nums">↔ {diff.recategorised.length} recategorised</span>
             <span className="text-muted">across {diff.versions.length} version{diff.versions.length === 1 ? "" : "s"}</span>
           </div>

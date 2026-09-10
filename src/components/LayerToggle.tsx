@@ -25,7 +25,7 @@ export function LayerToggle({ className = "" }: { className?: string }) {
       <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="dialog" aria-expanded={open} aria-label="Reading level and language"
         className={`ctl px-2.5 ${nonDefault ? "border-accent bg-accent-soft" : ""}`} title={`${level.label} · ${lang.label}`}>
         <span aria-hidden className="font-semibold tracking-tight">Aa</span>
-        <span className="text-xs text-muted font-medium">{lang.code.toUpperCase()}</span>
+        <span className="text-xs text-muted font-medium xl:hidden 2xl:inline">{lang.code.toUpperCase()}</span>
       </button>
       {/* Phones: span the viewport below the header (a right-anchored 18rem panel would run off the left edge). */}
       {open && (

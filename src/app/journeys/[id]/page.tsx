@@ -37,7 +37,7 @@ export default async function JourneyPage({ params }: { params: Promise<{ id: st
             <JourneyGantt journey={j} />
           </ChartExport>
         </div>
-        <p className="text-xs text-muted mt-2 max-w-3xl">Typical sequence for {j.stage.toLowerCase()} disease as of {j.asOf}; durations are protocol values (cycle counts and lengths, fraction schedules, guideline follow-up intervals), not averages of real patients. Your team&apos;s plan will differ in detail.</p>
+        <p className="text-xs text-muted mt-2 max-w-3xl">Typical sequence for {j.stage.replace(/^Stage /, "stage ")} disease; durations are protocol values (cycle counts and lengths, fraction schedules, guideline follow-up intervals), not averages of real patients. Your team&apos;s plan will differ in detail.</p>
 
         <h2 className="text-lg font-semibold mt-10 mb-3">Phase by phase</h2>
         <ol className="space-y-3">

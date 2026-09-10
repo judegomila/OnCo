@@ -32,16 +32,16 @@ export function NavMenu() {
   const activeGroup = NAV_GROUPS.find((g) => g.items.some((i) => i.href !== "/" && path?.startsWith(i.href)) || (g.href !== "/" && path?.startsWith(g.href)));
 
   return (
-    <div ref={wrap} className="flex items-center order-last xl:order-none min-w-0">
+    <div ref={wrap} className="flex items-center order-last xl:order-none min-w-0 xl:shrink-0">
       <nav className="hidden xl:flex items-center text-sm" aria-label="Primary">
         {NAV_GROUPS.map((g) => {
           const on = open === g.id;
           const active = activeGroup?.id === g.id;
           return (
-            <div key={g.id} className="relative" onMouseEnter={() => setOpen(g.id)} onMouseLeave={() => setOpen((o) => (o === g.id ? null : o))}>
+            <div key={g.id} className="relative flex items-center shrink-0" onMouseEnter={() => setOpen(g.id)} onMouseLeave={() => setOpen((o) => (o === g.id ? null : o))}>
               <Link href={g.href} aria-current={active ? "page" : undefined} onFocus={() => setOpen(g.id)} title={`Open ${g.label}`}
-                className={`relative inline-flex h-10 items-center gap-1 rounded-lg px-2 whitespace-nowrap transition-colors hover:bg-surface hover:text-foreground ${on ? "bg-surface" : ""} ${active ? "text-foreground font-medium after:absolute after:left-2 after:right-2 after:-bottom-2 after:h-0.5 after:rounded-full after:bg-accent" : "text-foreground/75"}`}>
-                {g.label}
+                className={`relative inline-flex h-10 items-center gap-1 rounded-lg px-1.5 2xl:px-2 whitespace-nowrap transition-colors hover:bg-surface hover:text-foreground ${on ? "bg-surface" : ""} ${active ? "text-foreground font-medium after:absolute after:left-2 after:right-2 after:-bottom-2 after:h-0.5 after:rounded-full after:bg-accent" : "text-foreground/75"}`}>
+                {g.short ?? g.label}
                 </Link>
               <button type="button" aria-haspopup="menu" aria-expanded={on} aria-label={`${on ? "Close" : "Open"} ${g.label} menu`} onClick={() => setOpen(on ? null : g.id)} className="inline-flex h-10 w-5 -ml-1 items-center justify-center rounded-md text-muted hover:text-foreground"><svg aria-hidden viewBox="0 0 12 12" width="10" height="10" className={`text-muted transition-transform ${on ? "rotate-180" : ""}`}><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </button>

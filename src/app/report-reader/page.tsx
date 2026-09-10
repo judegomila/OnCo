@@ -18,7 +18,7 @@ export default function ReportReaderPage() {
   for (const f of REPORT_FORMS) for (const id of f.cancers) if (!cancers[id]) cancers[id] = ref(id);
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="find" />} title="Pathology report reader"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Pathology report reader"
         lede={`${REPORT_FIELDS.length} report fields across ${REPORT_FORMS.length} cancer groups. Choose the report type, copy in the values as printed (Ki-67, margins, receptor scores, grade group, MSI, PD-L1, Deauville, R-ISS and the rest), and each becomes a plain-language reading with what it changes and a glossary link. Values stay on this page and are never stored or sent. This decodes vocabulary; your team interprets the case.`} />
       <Container className="pb-16">
         <ReportReader terms={terms} cancers={cancers} />

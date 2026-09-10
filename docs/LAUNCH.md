@@ -85,6 +85,10 @@ Logos 882 entries (166 new), trial snapshots for all 530 products (17 changes), 
 ## Graph health after 10 Sept linking pass
 Orphans 84 (from 2,185), records without a source 415 (from 2,974), backlink gaps 355 (from 595). Remaining orphans are regional hospitals, news-outlet collections and five journals.
 
+## Gauges after the 10 Sept evening round
+- Plain-language sentences 5,519 of 6,303 (88%); translations in all eight languages 664 (second wave of 800 running); people with papers 946 of 1,152; technology schematics 184 of 411 specific (wave 5 running); trial outcomes agent running on the remaining 38; regional approvals gauge clear; NCI cancer types and NCI drug list 100% matched.
+- Still open for the owner's return: reviewed pages 0 (needs named reviewers), Google Search Console token, npm publish of the CLI and MCP packages, deleting the stray Vercel project, Discussions category.
+
 ## Merge lessons (10 Sept)
 - Agents working in parallel add the same drug or person; run a duplicate-id scan across src/data before validate and fold the poorer copy into the richer one.
 - Every new nav item needs label and blurb in the eight nav dictionaries.

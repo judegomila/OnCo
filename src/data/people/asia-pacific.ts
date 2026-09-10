@@ -495,7 +495,7 @@ export const peopleAsiaPacific: PersonInput[] = [
     cancers: ["nsclc"], technologies: ["low-dose-ct-screening", "radiology-ai-screening"] }),
 
   // ======================= Cancer Hospital, Chinese Academy of Medical Sciences =======================
-  p({ id: "he-jie", name: "Jie He", role: "President, Cancer Hospital, Chinese Academy of Medical Sciences; Director, National Cancer Center of China; thoracic surgeon", institutionId: "cams-cancer-hospital", institutions: ["cams-cancer-hospital"],
+  p({ id: "he-jie", name: "Jie He", role: "President, Cancer Hospital, Chinese Academy of Medical Sciences; Director, National Cancer Center of China; thoracic surgeon", institutionId: "cams-cancer-hospital", institutions: ["cams-cancer-hospital", "ncc-china"],
     specialisms: ["Thoracic surgery", "Lung and oesophageal cancer", "Cancer registry and statistics", "Screening policy"],
     tldr: "Runs China's national cancer centre and the registry that reports the country's cancer statistics.",
     summary: "Jie He is a thoracic surgeon who leads the Cancer Hospital of the Chinese Academy of Medical Sciences and China's National Cancer Center, overseeing the national cancer registry, screening programmes, and clinical research infrastructure.",

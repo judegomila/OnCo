@@ -10,6 +10,7 @@ import { PathwayDiagram } from "./PathwayDiagram";
 import { rankInstitutions } from "@/lib/ranking";
 import { MoleculeViewer, type StructureEntry } from "./MoleculeViewer";
 import { Logo } from "./Logo";
+import { Portrait, PortraitCredit } from "./Portrait";
 import { JsonLd } from "./JsonLd";
 import { PrintButton } from "./PrintButton";
 import { TrialFinderGeo as TrialFinder } from "./TrialFinderGeo";
@@ -139,7 +140,7 @@ export function EntityDetail({ e }: { e: Entity }) {
         kicker={<><Link href={`/${meta.route}/`} className="kicker hover:underline">{meta.plural}</Link><KindChip kind={e.kind} />{e.kind === "drug" ? <ApprovalChip drugId={e.id} status={e.status} /> : <StatusChip status={e.status} />}</>}
         title={e.name}
         ledeNode={<TldrText id={e.id} tldr={e.tldr} simple={e.simple} />}
-        logo={e.kind === "cancer" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><CancerIcon cancerId={e.id} className="h-10 w-10" /></span> : e.kind === "section" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><FrontIcon id={e.id} className="h-9 w-9" /></span> : "website" in e ? <Logo id={e.id} website={e.website} name={e.name} size={64} /> : "url" in e && e.kind === "collection" ? <Logo id={e.id} website={e.url} name={e.name} size={64} /> : undefined}
+        logo={e.kind === "cancer" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><CancerIcon cancerId={e.id} className="h-10 w-10" /></span> : e.kind === "section" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><FrontIcon id={e.id} className="h-9 w-9" /></span> : e.kind === "person" ? <Portrait id={e.id} name={e.name} size={64} /> : "website" in e ? <Logo id={e.id} website={e.website} name={e.name} size={64} /> : "url" in e && e.kind === "collection" ? <Logo id={e.id} website={e.url} name={e.name} size={64} /> : undefined}
         right={e.aka.length > 0 ? <div className="text-xs text-muted text-right max-w-xs">aka {e.aka.join(", ")}</div> : undefined}
       />
       <Container className="pb-16">
@@ -149,6 +150,7 @@ export function EntityDetail({ e }: { e: Entity }) {
           </div>
 
           <aside className="space-y-4 lg:sticky lg:top-28 self-start">
+            {e.kind === "person" && <PortraitCredit id={e.id} />}
             {(e.kind === "drug" || e.kind === "technology" || e.kind === "target" || e.kind === "trial") && <EvidenceBar e={e} />}
             <ReviewBadge id={e.id} />
             <ProvenanceLine id={e.id} />
@@ -504,7 +506,14 @@ function peopleTab(items: Entity[]): Tab[] {
   if (!people.length) return [];
   return [{ id: "people", label: "People", count: people.length, content: (
     <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{people.map((p) => p.kind === "person" && (
-      <Link key={p.id} href={routeFor(p)} className="card p-3 hover:shadow-md transition"><div className="font-medium">{p.name}</div><div className="text-xs text-muted">{p.role}</div><div className="mt-1 flex flex-wrap gap-1">{p.specialisms.slice(0, 3).map((s) => <span key={s} className="chip bg-foreground/5">{s}</span>)}</div><p className="text-sm text-muted mt-1 line-clamp-2">{p.tldr}</p></Link>))}</div>) }];
+      <Link key={p.id} href={routeFor(p)} className="card p-3 hover:shadow-md transition">
+        <div className="flex items-start gap-3">
+          <Portrait id={p.id} name={p.name} size={40} className="mt-0.5" />
+          <div className="min-w-0">
+            <div className="font-medium">{p.name}</div>
+            <div className="text-xs text-muted">{p.role}</div>
+          </div>
+        </div><div className="mt-1 flex flex-wrap gap-1">{p.specialisms.slice(0, 3).map((s) => <span key={s} className="chip bg-foreground/5">{s}</span>)}</div><p className="text-sm text-muted mt-1 line-clamp-2">{p.tldr}</p></Link>))}</div>) }];
 }
 
 function productsTab(drugs: Entity[]): Tab[] {

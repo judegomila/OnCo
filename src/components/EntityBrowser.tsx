@@ -7,6 +7,7 @@ import { MoleculeSlot } from "./MoleculeSlot";
 import { ApprovalChip } from "./ApprovalChip";
 import { flagFor, COUNTRY_FACETS } from "@/lib/flags";
 import { TargetThumb } from "./TargetThumb";
+import { TechThumb } from "./TechThumb";
 import type { TargetSchematicTarget } from "./TargetSchematic";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
@@ -34,6 +35,8 @@ export type BrowserRow = {
   modality?: string;
   /** Target: renders a small animated schematic of the target class beside the name. */
   target?: TargetSchematicTarget;
+  /** Technology: renders its small rotating schematic beside the name. */
+  schematic?: { id: string; sections: string[] };
   /** Facet values keyed by facet key; arrays for multi-valued facets. */
   facets: Record<string, string[]>;
   /** Extra columns keyed by column key: formatted strings, numbers, lists of links, glossary-marked text, or facet chips. */
@@ -44,6 +47,8 @@ export type BrowserRow = {
   tie?: number;
   sub?: string;
   logo?: string;
+  /** Render the logo as a circle with object-cover (portraits). */
+  round?: boolean;
 };
 
 /** A linked object; `tip` is the object's one-line explanation, shown on hover. */
@@ -270,10 +275,11 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
       <div className="min-w-[220px] flex items-start gap-2">
         {r.molecule && <MoleculeSlot drugId={r.molecule} modality={r.modality} name={r.name} className="h-10 w-10" />}
         {r.target && <TargetThumb target={r.target} route={r.route} />}
+        {r.schematic && <TechThumb id={r.schematic.id} sections={r.schematic.sections} name={r.name} route={r.route} />}
         {r.logo && !r.molecule && (
-          <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md border border-border bg-white overflow-hidden">
-            {/* eslint-disable-next-line @next/next/no-img-element -- hotlinked favicon, never copied */}
-            <img src={r.logo} alt="" className="h-[70%] w-[70%] object-contain" loading="lazy" referrerPolicy="no-referrer" />
+          <span className={`inline-flex h-7 w-7 shrink-0 items-center justify-center border border-border bg-white overflow-hidden ${r.round ? "rounded-full" : "rounded-md"}`}>
+            {/* eslint-disable-next-line @next/next/no-img-element -- self-hosted or hotlinked icon, never optimised */}
+            <img src={r.logo} alt="" className={r.round ? "h-full w-full object-cover" : "h-[70%] w-[70%] object-contain"} loading="lazy" referrerPolicy="no-referrer" />
           </span>
         )}
         <div><Link href={r.route} data-row className="font-medium hover:underline">{r.name}</Link>{r.sub && <div className="text-xs text-muted">{r.sub}</div>}{!hideTldr && <div className="text-xs text-muted line-clamp-2 max-w-lg">{r.tldr}</div>}</div>

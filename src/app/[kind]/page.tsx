@@ -13,6 +13,7 @@ import { FrontIcon } from "@/components/FrontIcon";
 import { termMarks } from "@/lib/term-hover";
 import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
+import { portraitSrc } from "@/lib/portraits";
 import { kindTitle, pageMeta } from "@/lib/seo";
 
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route, k])) as Record<string, Kind>;
@@ -101,7 +102,7 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
       defaultSort: { key: "order", dir: 1 },
     };
     case "technology": return {
-      rows: g.kind("technology").map((t) => ({ ...base(t), facets: { front: t.sections.map((id) => g.must(id).name), cancers: names(t.cancers), targets: names(t.targets), tags: t.tags }, cols: { front: links(t.sections), since: t.since, generation: t.generation, drugs: count(inc(t.id, "drug").length, t, "products", "product", "built on") }, sortKeys: { since: typeof t.since === "number" ? t.since : 0, drugs: inc(t.id, "drug").length } })),
+      rows: g.kind("technology").map((t) => ({ ...base(t), schematic: { id: t.id, sections: t.sections }, facets: { front: t.sections.map((id) => g.must(id).name), cancers: names(t.cancers), targets: names(t.targets), tags: t.tags }, cols: { front: links(t.sections), since: t.since, generation: t.generation, drugs: count(inc(t.id, "drug").length, t, "products", "product", "built on") }, sortKeys: { since: typeof t.since === "number" ? t.since : 0, drugs: inc(t.id, "drug").length } })),
       facets: [{ key: "front", label: "Front", searchable: false, width: "w-52" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "targets", label: "Target" }, { key: "tags", label: "Tag", searchable: false, width: "w-40" }],
       columns: [{ key: "front", label: "Front", hide: "hidden md:table-cell" }, { key: "generation", label: "Generation", hide: "hidden lg:table-cell" }, { key: "since", label: "Since", sortable: true, numeric: true, hide: "hidden sm:table-cell" }, { key: "drugs", label: "Products", sortable: true, numeric: true }],
     };
@@ -219,7 +220,7 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
     };
     case "person": return {
       hideStatus: true,
-      rows: g.kind("person").map((p) => { const inst = p.institutionId ? g.get(p.institutionId) : undefined; return { ...base(p), sub: `${p.role}${inst ? ` · ${inst.name}` : ""}`, facets: { specialism: p.specialisms, institution: inst ? [inst.name] : [], cancers: names(p.cancers), country: inst && inst.kind === "institution" ? [inst.country] : [] }, cols: { institution: inst ? [link(inst, inst.name)] : undefined, specialisms: p.specialisms.map((s) => ({ facet: "specialism", value: s })), papers: count(p.papers.length, p, "papers", "paper", "by"), trials: count(p.trials.length, p, "connected", "trial", "linked to") }, sortKeys: { papers: p.papers.length, trials: p.trials.length } }; }),
+      rows: g.kind("person").map((p) => { const inst = p.institutionId ? g.get(p.institutionId) : undefined; return { ...base(p), logo: portraitSrc(p.id), round: true, sub: `${p.role}${inst ? ` · ${inst.name}` : ""}`, facets: { specialism: p.specialisms, institution: inst ? [inst.name] : [], cancers: names(p.cancers), country: inst && inst.kind === "institution" ? [inst.country] : [] }, cols: { institution: inst ? [link(inst, inst.name)] : undefined, specialisms: p.specialisms.map((s) => ({ facet: "specialism", value: s })), papers: count(p.papers.length, p, "papers", "paper", "by"), trials: count(p.trials.length, p, "connected", "trial", "linked to") }, sortKeys: { papers: p.papers.length, trials: p.trials.length } }; }),
       facets: [{ key: "specialism", label: "Specialism", width: "w-56" }, { key: "institution", label: "Institution", width: "w-56" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "country", label: "Country", searchable: false, width: "w-40" }],
       columns: [{ key: "institution", label: "Institution", hide: "hidden md:table-cell" }, { key: "specialisms", label: "Specialisms", hide: "hidden lg:table-cell" }, { key: "papers", label: "Papers listed", sortable: true, numeric: true }, { key: "trials", label: "Trials", sortable: true, numeric: true, hide: "hidden sm:table-cell" }],
       defaultSort: { key: "name", dir: 1 },

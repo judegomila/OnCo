@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Portrait } from "@/components/Portrait";
 import { graph } from "@/lib/graph";
 import { routeFor, type Person } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
@@ -91,11 +92,10 @@ export default function Heroes() {
 }
 
 function HeroCard({ p }: { p: Person }) {
-  const initial = surname(p.name).charAt(0).toUpperCase();
   const kind = ROLE_LABEL[primaryRole(p)];
   return (
     <Link href={routeFor(p)} className="card flex gap-4 p-4">
-      <span aria-hidden className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-accent-soft text-accent text-2xl font-semibold tracking-tight">{initial}</span>
+      <Portrait id={p.id} name={p.name} size={56} />
       <span className="min-w-0">
         <span className="kicker block">{kind}</span>
         <span className="block font-semibold leading-snug text-balance mt-0.5">{p.name}</span>

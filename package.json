@@ -32,6 +32,7 @@
     "lint": "eslint",
     "start": "npx serve out",
     "fetch:structures": "tsx scripts/fetch-structures.ts",
+    "fetch:portraits": "tsx scripts/fetch-portraits.ts",
     "fetch:logos": "tsx scripts/fetch-logos.ts",
     "mcp": "tsx mcp/server.ts",
     "fetch:openalex": "tsx scripts/fetch-openalex.ts",

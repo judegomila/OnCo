@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY-NC 4.0; attribute "OnCo (onco.cc)".
 
-5,990 records in 18 kinds: 100 cancers, 19 fronts, 411 technologies, 99 targets, 530 drugs, 367 companies, 557 institutions, 86 pathways, 605 terms, 451 trials, 85 pairings, 13 roadmaps, 1,136 ideas, 110 collections, 1,152 people, 45 bottlenecks, 157 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
+6,303 records in 18 kinds: 100 cancers, 19 fronts, 411 technologies, 99 targets, 530 drugs, 680 companies, 557 institutions, 86 pathways, 605 terms, 451 trials, 85 pairings, 13 roadmaps, 1,136 ideas, 110 collections, 1,152 people, 45 bottlenecks, 157 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
 
 ## Machine-readable corpus
 
@@ -135,6 +135,8 @@
 - [People](https://onco.cc/people/): The clinicians and scientists doing the work: specialisms, bios, papers.
 - [Heroes and heroines](https://onco.cc/heroes/): The patients, families, advocates and pioneers whose lives and cases changed cancer.
 - [Companies](https://onco.cc/companies/): Pharma, biotech, diagnostics, devices, AI.
+- [Startups](https://onco.cc/startups/): Y Combinator and venture-backed companies attacking cancer, by stage, modality, cancer, batch, investor and country.
+- [Investors](https://onco.cc/investors/): The venture funds, corporate venture arms and disease foundations that back oncology companies, each with its portfolio.
 - [Company scorecards](https://onco.cc/scorecards/): Every company ranked by one disclosed formula, with financial snapshots from annual reports.
 - [Trial sponsors](https://onco.cc/sponsors/): Who runs the most phase 2 and 3 trials, by cancer, from the registry and the corpus.
 - [Manufacturing map](https://onco.cc/manufacturing/): Where ADCs are conjugated, cell therapies made and isotopes produced.

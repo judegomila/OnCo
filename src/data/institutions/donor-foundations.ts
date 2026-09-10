@@ -1,0 +1,119 @@
+import type { InstitutionInput } from "@/lib/schema";
+
+const asOf = "2026-09-10";
+type I = Omit<InstitutionInput, "kind" | "asOf">;
+const b = (x: I): InstitutionInput => ({ kind: "institution", asOf, ...x });
+
+/**
+ * Foundations and funds built by the donors and fundraisers on /heroes/ (src/data/people/heroes-donors.ts).
+ * Each record carries the official website and only the figures the organisation states about itself.
+ * Where the corpus already holds a `collection` record for the same body (its data holdings), the
+ * institution record links to it via `related` rather than reusing the id.
+ * Coordinates are city-centre approximations. Charities use institutionType "consortium".
+ */
+export const institutionsDonorFoundations: InstitutionInput[] = [
+  b({ id: "ludwig-cancer-research", name: "Ludwig Cancer Research", aka: ["Ludwig Institute for Cancer Research", "LICR"], institutionType: "research-institute", city: "New York", country: "US", lat: 40.751, lng: -73.975, website: "https://www.ludwigcancerresearch.org",
+    tldr: "The cancer research institute that shipping magnate Daniel K. Ludwig endowed in 1971 with nearly all of his international holdings; it has spent more than $1.8 billion of its own money on cancer science.",
+    summary: "Founded in 1971, the Ludwig Institute for Cancer Research is an international not-for-profit that funds and runs its own laboratories rather than making grants from donations. Its own account states that it has invested more than $1.8 billion of its resources in cancer research and holds an endowment valued at $1.5 billion. In 2006 the Ludwig gift also created Ludwig Centers and professorships at six leading US institutions, each with more than $2 million a year in perpetuity. Ludwig scientists worked on the biology that became checkpoint immunotherapy, on tumour antigens and on cancer genomics. Headquartered in New York with historic roots in Zurich.",
+    programs: ["Ludwig Institute branches", "Ludwig Centers at six US institutions (since 2006)", "Cancer immunology and tumour antigens", "Cancer genomics and metabolism"],
+    links: [{ label: "About Ludwig Cancer Research", url: "https://www.ludwigcancerresearch.org/about/" }],
+    institutions: ["mskcc", "mit-koch", "stanford", "uchicago-cancer", "johns-hopkins"], technologies: ["immunotherapy", "checkpoint-inhibitor", "cgp"], bottlenecks: ["b-funding-allocation", "b-translational-valley"] }),
+
+  b({ id: "parker-institute", name: "Parker Institute for Cancer Immunotherapy", aka: ["PICI"], institutionType: "research-institute", city: "San Francisco", country: "US", lat: 37.767, lng: -122.391, website: "https://www.parkerici.org",
+    tldr: "Sean Parker's 2016 institute that runs cancer immunotherapy research as one network across a dozen leading cancer centres, sharing data, samples and intellectual property.",
+    summary: "The Parker Institute for Cancer Immunotherapy was founded in 2016 with a founding grant from Sean Parker. It describes itself as an active research institute rather than a grant maker: its mission is to develop breakthrough immune therapies to turn all cancers into curable diseases faster, and its model removes barriers between institutions so that ideas move into real-world treatments. Member centres include Stanford Medicine, UCSF, Penn Medicine, Dana-Farber, Memorial Sloan Kettering and MD Anderson among the twelve it lists. PICI funds investigators, coordinates multi-centre trials of CAR-T and checkpoint combinations, and has spun out companies to carry results forward.",
+    programs: ["Network research across member cancer centres", "CAR-T and cell therapy engineering", "Checkpoint combination trials", "Shared data and intellectual property model"],
+    links: [{ label: "About PICI", url: "https://www.parkerici.org/about/" }],
+    institutions: ["stanford", "ucsf", "penn-abramson", "dana-farber", "mskcc", "md-anderson"], technologies: ["immunotherapy", "car-t", "checkpoint-inhibitor"], people: ["carl-june", "james-allison"], bottlenecks: ["b-ip-collaboration", "b-immunotherapy-response", "b-funding-allocation"] }),
+
+  b({ id: "pcf", name: "Prostate Cancer Foundation", aka: ["PCF", "CaP CURE"], institutionType: "consortium", city: "Santa Monica, CA", country: "US", lat: 34.017, lng: -118.496, website: "https://www.pcf.org",
+    tldr: "The foundation Michael Milken started in 1993 after his own diagnosis; it funds prostate cancer research worldwide and helped pay for the science behind two of the drugs men now take.",
+    summary: "Founded in 1993 by Michael Milken after he was diagnosed with advanced prostate cancer, the Prostate Cancer Foundation funds investigators and teams rather than running its own labs. Its history page credits $8 million of PCF funding toward the development of abiraterone (Zytiga) and $14.75 million toward enzalutamide (Xtandi), and a $65 million partnership with the US Department of Veterans Affairs in 2016 that set up 22 precision oncology centres of excellence for veterans. PCF runs Young Investigator and Challenge awards, an annual scientific retreat, and awareness campaigns. Headquartered in Santa Monica, California.",
+    programs: ["Young Investigator Awards", "Challenge Awards for team science", "VA Precision Oncology Centers of Excellence", "Annual scientific retreat"],
+    links: [{ label: "PCF: our history", url: "https://www.pcf.org/about/our-history/" }],
+    related: ["prostate-cancer-foundation"], cancers: ["prostate"], drugs: ["abiraterone", "enzalutamide"], people: ["charles-sawyers"], bottlenecks: ["b-funding-allocation", "b-translational-valley"] }),
+
+  b({ id: "alsf", name: "Alex's Lemonade Stand Foundation", aka: ["ALSF"], institutionType: "consortium", city: "Bala Cynwyd, PA", country: "US", lat: 40.008, lng: -75.234, website: "https://www.alexslemonade.org",
+    tldr: "The childhood cancer charity that grew from four-year-old Alex Scott's front-yard lemonade stand; it funds paediatric cancer research grants and the Childhood Cancer Data Lab.",
+    summary: "Alex Scott, a child with neuroblastoma, held her first lemonade stand in 2000 to raise money for her hospital; after her death in 2004 her parents Liz and Jay Scott turned the stands into a national foundation. Alex's Lemonade Stand Foundation funds childhood cancer research grants across career stages, travel support for families in trials, and the Childhood Cancer Data Lab, which builds open data tools for paediatric cancer researchers. Its model, thousands of small community fundraisers pooled into research grants, is the pattern several later childhood cancer charities have followed.",
+    programs: ["Childhood cancer research grants", "Childhood Cancer Data Lab", "Travel For Care family support", "Lemonade Days community fundraising"],
+    links: [{ label: "Alex's Lemonade Stand Foundation", url: "https://www.alexslemonade.org/" }],
+    related: ["alexs-lemonade-stand"], people: ["alex-scott"], bottlenecks: ["b-rare-cancers", "b-funding-allocation", "b-data-silos"] }),
+
+  b({ id: "st-baldricks-foundation", name: "St. Baldrick's Foundation", aka: ["St. Baldrick's"], institutionType: "consortium", city: "Monrovia, CA", country: "US", lat: 34.144, lng: -118.0, website: "https://www.stbaldricks.org",
+    tldr: "A volunteer-powered charity, born from a head-shaving dare in 2000, that says it funds more childhood cancer research grants than any organisation besides the US government.",
+    summary: "St. Baldrick's began as a head-shaving event among colleagues in 2000 and became a foundation whose thousands of volunteer-run shave events fund childhood cancer research. The foundation states that it funds more grants than any organisation besides the US government, that every grant it makes is for childhood cancer research, and that it keeps staff small and expenses low so that every possible dollar goes to research. Its grants support fellows, scholars, consortium research and infrastructure such as the Children's Oncology Group. Headquartered in Monrovia, California.",
+    programs: ["Volunteer head-shaving events", "Fellowship and scholar grants", "Consortium and infrastructure grants", "Children's Oncology Group support"],
+    links: [{ label: "About St. Baldrick's", url: "https://www.stbaldricks.org/about-us" }],
+    related: ["st-baldricks"], bottlenecks: ["b-rare-cancers", "b-funding-allocation"] }),
+
+  b({ id: "bowelbabe-fund", name: "Bowelbabe Fund for Cancer Research UK", aka: ["Bowelbabe Fund"], institutionType: "consortium", city: "London", country: "GB", lat: 51.505, lng: -0.12, website: "https://bowelbabe.org",
+    tldr: "The fund Dame Deborah James launched in the last weeks of her life; a restricted fund within Cancer Research UK, it has raised £21 million and backed 16 research projects.",
+    summary: "Dame Deborah James, the broadcaster known as Bowelbabe, launched the fund in May 2022 while in hospice care for bowel cancer. It is a restricted fund within Cancer Research UK. Its own site reports £21 million raised so far and 16 projects funded worth over £20.3 million, focused on early detection and personalised medicine, alongside work that continues her campaign to share information about bowel cancer and break down stigma around symptoms. It is one of the clearest recent examples of a single patient's public account becoming a durable research fund.",
+    programs: ["Early detection research", "Personalised medicine projects", "Bowel cancer awareness and stigma"],
+    links: [{ label: "Bowelbabe Fund", url: "https://bowelbabe.org/" }],
+    institutions: ["cruk"], people: ["deborah-james"], cancers: ["colorectal"], bottlenecks: ["b-early-detection", "b-patient-voice"] }),
+
+  b({ id: "teenage-cancer-trust", name: "Teenage Cancer Trust", aka: [], institutionType: "consortium", city: "London", country: "GB", lat: 51.52, lng: -0.13, website: "https://www.teenagecancertrust.org",
+    tldr: "The UK charity that built specialist hospital units and nursing for teenagers and young adults with cancer, so that they are treated alongside their peers rather than on children's or elderly wards.",
+    summary: "Teenage Cancer Trust was founded in 1990 to change how young people with cancer are treated in the NHS. It funds and runs specialist units inside NHS hospitals, employs specialist nurses and youth support coordinators, and campaigns for age-appropriate care for 13 to 24 year olds, an age band whose cancers are rare and often diagnosed late. Its annual concerts at the Royal Albert Hall are its best-known fundraiser. Stephen Sutton's 2014 campaign, which raised more than £5 million for the charity, remains the largest individual fundraising story in its history.",
+    programs: ["Specialist teenage and young adult units in NHS hospitals", "Specialist nursing and youth support", "Royal Albert Hall concerts", "Education and awareness in schools"],
+    links: [{ label: "Teenage Cancer Trust", url: "https://www.teenagecancertrust.org/" }],
+    people: ["stephen-sutton"], terms: ["aya-oncology"], bottlenecks: ["b-rare-cancers", "b-care-fragmentation"] }),
+
+  b({ id: "lasker-foundation", name: "Lasker Foundation", aka: ["Albert and Mary Lasker Foundation"], institutionType: "consortium", city: "New York", country: "US", lat: 40.76, lng: -73.98, website: "https://laskerfoundation.org",
+    tldr: "The foundation Albert and Mary Lasker set up in 1942 to push medical research up the public agenda; its Lasker Awards became the most watched prize in American medicine.",
+    summary: "Albert Lasker, the advertising pioneer (1880-1952), and Mary Woodard Lasker (1901-1994) founded the Lasker Foundation in 1942. Its stated mission is to improve health by accelerating support for medical research through recognition of research excellence, advocacy, and education. The Lasker Awards, given since the mid-1940s, honour basic and clinical research and public service; the Foundation also runs education and advocacy programmes. Alongside Mary Lasker's lobbying for the National Cancer Act of 1971, the Foundation was the platform from which the Laskers turned cancer research into a matter of national policy.",
+    programs: ["Lasker Awards", "Research advocacy", "Education programmes"],
+    links: [{ label: "About the Lasker Foundation", url: "https://laskerfoundation.org/about/" }],
+    people: ["mary-lasker"], bottlenecks: ["b-funding-allocation", "b-knowledge-diffusion"] }),
+
+  b({ id: "terry-fox-foundation", name: "Terry Fox Foundation", aka: ["Terry Fox Research Institute", "TFRI"], institutionType: "consortium", city: "Vancouver", country: "CA", lat: 49.263, lng: -123.117, website: "https://terryfox.org",
+    tldr: "The foundation that grew out of Terry Fox's 1980 Marathon of Hope; with the Terry Fox Research Institute it funds cancer research across Canada from the annual Terry Fox Run.",
+    summary: "The Terry Fox Foundation carries on the Marathon of Hope that Terry Fox began in 1980 after losing a leg to osteosarcoma. It runs the annual Terry Fox Run in Canada and abroad, and works with the Terry Fox Research Institute, founded in 2007, which funds team science and the Marathon of Hope Cancer Centres Network linking Canadian cancer centres around shared data and precision medicine. The Foundation and Institute describe their work as pursuit of Terry's dream to end cancer through research. The Run remains one of the largest single-day cancer fundraisers in the world.",
+    programs: ["Terry Fox Run", "Terry Fox Research Institute team grants", "Marathon of Hope Cancer Centres Network"],
+    links: [{ label: "Terry Fox Foundation", url: "https://terryfox.org/" }, { label: "Terry Fox Research Institute", url: "https://www.tfri.ca/" }],
+    people: ["terry-fox"], cancers: ["osteosarcoma"], bottlenecks: ["b-funding-allocation", "b-data-silos"] }),
+
+  b({ id: "mra", name: "Melanoma Research Alliance", aka: ["MRA"], institutionType: "consortium", city: "Washington, DC", country: "US", lat: 38.9, lng: -77.034, website: "https://www.curemelanoma.org",
+    tldr: "The melanoma research funder Debra and Leon Black started in 2007; it has put more than $200 million into research and every donated dollar goes to science because the founders cover the running costs.",
+    summary: "The Melanoma Research Alliance was founded in 2007 by Debra and Leon Black after Debra's melanoma diagnosis. Its own overview states that it has directly invested over $200 million through more than 500 grant awards, that MRA-funded researchers have contributed to 20 new FDA-approved melanoma treatments since its founding, and that because the Blacks cover administrative and fundraising costs, 100% of every donation goes to melanoma research. It funds young investigators, team science and academic-industry partnerships, and convenes an annual scientific retreat. Headquartered in Washington, DC.",
+    programs: ["Young Investigator Awards", "Team Science Awards", "Academic-industry partnership awards", "Annual scientific retreat"],
+    links: [{ label: "MRA overview", url: "https://www.curemelanoma.org/mra-overview/mra-overview" }],
+    related: ["melanoma-research-alliance"], cancers: ["melanoma"], technologies: ["checkpoint-inhibitor", "immunotherapy"], bottlenecks: ["b-funding-allocation", "b-translational-valley"] }),
+
+  b({ id: "jimmy-fund", name: "The Jimmy Fund", aka: ["Jimmy Fund"], institutionType: "consortium", city: "Boston", country: "US", lat: 42.337, lng: -71.107, website: "https://www.jimmyfund.org",
+    tldr: "Dana-Farber's fundraising arm since 1948, born from a radio broadcast at a boy's bedside; the Boston Red Sox have been its partner since 1953 and the Pan-Mass Challenge its largest source of money.",
+    summary: "The Jimmy Fund began in 1948 when a national radio broadcast from the bedside of a 12-year-old patient of Sidney Farber, known only as Jimmy, brought in donations for the Children's Cancer Research Foundation. It has been part of Dana-Farber Cancer Institute since then and funds its research and patient care. The Boston Red Sox have partnered with the Jimmy Fund since 1953, with Ted Williams as its best-known champion. The Pan-Mass Challenge bike ride has raised over $1 billion for Dana-Farber through the Jimmy Fund and now accounts for most of its annual revenue.",
+    programs: ["Pan-Mass Challenge", "Boston Red Sox partnership", "Jimmy Fund Walk and Radio-Telethon", "Jimmy Fund Clinic support"],
+    links: [{ label: "About the Jimmy Fund", url: "https://www.jimmyfund.org/about-us/" }],
+    institutions: ["dana-farber"], people: ["einar-gustafson", "sidney-farber"], bottlenecks: ["b-funding-allocation"] }),
+
+  b({ id: "pan-mass-challenge", name: "Pan-Mass Challenge", aka: ["PMC"], institutionType: "consortium", city: "Needham, MA", country: "US", lat: 42.283, lng: -71.233, website: "https://www.pmc.org",
+    tldr: "The bike ride Billy Starr founded in 1980 after his mother died of melanoma; it has raised $1.125 billion for Dana-Farber and passes on every rider-raised dollar.",
+    summary: "The Pan-Mass Challenge is an annual two-day bike ride across Massachusetts. Its founder Billy Starr organised the first ride in 1980 with 36 riders and 10 volunteers; it now involves more than 6,800 riders and 3,500 volunteers. The PMC states that since 1980 it has raised $1.125 billion for Dana-Farber Cancer Institute, that 100 percent of all rider-raised funds go directly to cancer research and treatment at Dana-Farber and the Jimmy Fund, and that it provides 67 percent of the Jimmy Fund's annual revenue. It is the largest athletic fundraiser for a single institution in the United States.",
+    programs: ["Annual Pan-Mass Challenge ride", "PMC Kids Rides", "PMC Winter Cycle"],
+    links: [{ label: "About the PMC", url: "https://www.pmc.org/about" }],
+    institutions: ["dana-farber", "jimmy-fund"], bottlenecks: ["b-funding-allocation"] }),
+
+  b({ id: "ellison-institute", name: "Ellison Institute of Technology", aka: ["EIT", "Lawrence J. Ellison Institute for Transformative Medicine", "Ellison Medical Institute"], institutionType: "research-institute", city: "Oxford", country: "GB", lat: 51.72, lng: -1.22, website: "https://eit.org",
+    tldr: "Larry Ellison's research institute, which began in 2016 as a cancer-care institute in Los Angeles and is building a campus at Oxford with a £130 million alliance with the university.",
+    summary: "The Lawrence J. Ellison Institute for Transformative Medicine was founded in 2016 in Los Angeles with a mission to reimagine and redefine cancer care, combining clinical care, research and technology. The Ellison Institute of Technology in Oxford extends the model: its own site describes a campus set for completion in 2027, eventually 2 million square feet for up to 7,000 people, a strategic alliance with the University of Oxford involving an investment of £130 million, a collaboration with Cleveland Clinic to advance research, education and patient care, and scholarships that fully fund Oxford degrees. Its institutes span generative biology, AI and robotics, pathogens and plant biology alongside health and medical science.",
+    programs: ["Health and medical science", "Generative Biology Institute", "AI and Robotics Institute", "Oxford scholarships"],
+    links: [{ label: "About EIT", url: "https://eit.org/about/" }, { label: "Ellison Medical Institute", url: "https://ellisonmedicalinstitute.org/" }],
+    institutions: ["cleveland-clinic"], bottlenecks: ["b-funding-allocation", "b-translational-valley"] }),
+
+  b({ id: "li-ka-shing-foundation", name: "Li Ka Shing Foundation", aka: ["LKSF"], institutionType: "consortium", city: "Hong Kong", country: "HK", lat: 22.28, lng: 114.16, website: "https://www.lksf.org",
+    tldr: "Li Ka-shing's foundation, which since 1980 has given more than HK$30 billion, mostly in China and Hong Kong, including free hospice care for tens of thousands of poor cancer patients and the building that houses the Cancer Research UK Cambridge Institute.",
+    summary: "Founded in 1980, the Li Ka Shing Foundation states that Mr Li has invested over HK$30 billion in it, with more than 80% of projects in mainland China and Hong Kong. Its cornerstone project is Shantou University, founded in 1981 and supported with HK$12 billion, which it describes as the only privately funded public university in China. Its Heart of Gold hospice programme in Hong Kong ran from 2007 to 2020 through 10 centres and served over 38,000 low-income terminal cancer patients and their families with palliative care. In Cambridge, the Cancer Research UK Cambridge Institute is housed in the Li Ka Shing Centre on Robinson Way.",
+    programs: ["Heart of Gold hospice programme", "Shantou University and its medical college", "Li Ka Shing Centre, Cambridge", "Healthcare subsidies and medical technology donations"],
+    links: [{ label: "Li Ka Shing Foundation", url: "https://www.lksf.org/" }, { label: "Heart of Gold hospice programme", url: "https://www.lksf.org/heart-of-gold/" }],
+    institutions: ["cruk-cambridge-centre"], technologies: ["palliative-care"], bottlenecks: ["b-palliative", "b-global-access", "b-funding-allocation"] }),
+
+  b({ id: "tata-trusts", name: "Tata Trusts", aka: ["Sir Dorabji Tata Trust", "Sir Ratan Tata Trust"], institutionType: "consortium", city: "Mumbai", country: "IN", lat: 18.93, lng: 72.83, website: "https://www.tatatrusts.org",
+    tldr: "India's oldest philanthropic trusts, which built the Tata Memorial Hospital in 1941 and since 2017 have been building a network of 20 cancer hospitals across seven states so that treatment is closer to home.",
+    summary: "The Sir Dorabji Tata Trust was established in 1932 and, with the Sir Ratan Tata Trust and allied trusts, forms Tata Trusts. The Trusts' own history records the Tata Memorial Centre for Cancer Research and Treatment opening in 1941, called the first large contribution of India to the international fight against cancer. The Tata Medical Center in Kolkata followed in 2012 for eastern and north-eastern India. The Cancer Care Programme launched in 2017 aims to make affordable, high-quality care available closer to patients' homes through a distributed model covering access, quality, affordability, and awareness, early detection and palliative care: a network of 20 hospitals across Andhra Pradesh, Assam, Jharkhand, Maharashtra, Uttar Pradesh, Odisha and Gujarat, and the Assam Cancer Care Foundation, a partnership with the Government of Assam that built a three-level network of two apex centres, twelve district facilities and five day-care centres. The stated aim is to reverse India's 30:70 ratio of early to late detection.",
+    programs: ["Cancer Care Programme (2017)", "Assam Cancer Care Foundation", "Tata Memorial Centre (1941)", "Tata Medical Center, Kolkata (2012)"],
+    links: [{ label: "Tata Trusts: cancer care", url: "https://www.tatatrusts.org/our-work/healthcare/cancer-care" }, { label: "Tata Trusts history 1907-2000", url: "https://www.tatatrusts.org/about-tatatrusts/our-history/our-history-1907-2000" }],
+    institutions: ["tata-memorial", "tata-medical-center-kolkata"], bottlenecks: ["b-global-access", "b-early-detection", "b-care-fragmentation"] }),
+];

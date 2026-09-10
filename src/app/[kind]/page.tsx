@@ -37,6 +37,9 @@ const cap = (s: string) => s[0].toUpperCase() + s.slice(1);
 const short = (s: string) => s.replace(/ \(.*\)$/, "");
 const logoFor = (id: string, website?: string) => logoSrc(id, website);
 
+/** Hero role tags (see /heroes/) shown as a chip facet on /people/, so "Donors" or "Patients" can be picked out of the full list. */
+const HERO_ROLE_LABEL: Record<string, string> = { donor: "Donors", patient: "Patients", carer: "Family", advocate: "Advocates", pioneer: "Pioneers" };
+
 /** Every kind gets the same templated table; this function decides facets, columns, and row values per kind. */
 function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[]; hideStatus?: boolean; hideTldr?: boolean; defaultSort?: { key: string; dir: 1 | -1 } } {
   const g = graph();
@@ -221,8 +224,8 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
     };
     case "person": return {
       hideStatus: true,
-      rows: g.kind("person").map((p) => { const inst = p.institutionId ? g.get(p.institutionId) : undefined; return { ...base(p), logo: portraitSrc(p.id), round: true, sub: `${p.role}${inst ? ` · ${inst.name}` : ""}`, facets: { specialism: p.specialisms, institution: inst ? [inst.name] : [], cancers: names(p.cancers), country: inst && inst.kind === "institution" ? [inst.country] : [] }, cols: { institution: inst ? [link(inst, inst.name)] : undefined, specialisms: p.specialisms.map((s) => ({ facet: "specialism", value: s })), papers: count(p.papers.length, p, "papers", "paper", "by"), trials: count(p.trials.length, p, "connected", "trial", "linked to") }, sortKeys: { papers: p.papers.length, trials: p.trials.length } }; }),
-      facets: [{ key: "specialism", label: "Specialism", width: "w-56" }, { key: "institution", label: "Institution", width: "w-56" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "country", label: "Country", searchable: false, width: "w-40" }],
+      rows: g.kind("person").map((p) => { const inst = p.institutionId ? g.get(p.institutionId) : undefined; return { ...base(p), logo: portraitSrc(p.id), round: true, sub: `${p.role}${inst ? ` · ${inst.name}` : ""}`, facets: { specialism: p.specialisms, institution: inst ? [inst.name] : [], cancers: names(p.cancers), country: inst && inst.kind === "institution" ? [inst.country] : [], role: p.tags.filter((t) => t in HERO_ROLE_LABEL).map((t) => HERO_ROLE_LABEL[t]) }, cols: { institution: inst ? [link(inst, inst.name)] : undefined, specialisms: p.specialisms.map((s) => ({ facet: "specialism", value: s })), papers: count(p.papers.length, p, "papers", "paper", "by"), trials: count(p.trials.length, p, "connected", "trial", "linked to") }, sortKeys: { papers: p.papers.length, trials: p.trials.length } }; }),
+      facets: [{ key: "role", label: "Heroes", searchable: false, width: "w-40", order: Object.values(HERO_ROLE_LABEL) }, { key: "specialism", label: "Specialism", width: "w-56" }, { key: "institution", label: "Institution", width: "w-56" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "country", label: "Country", searchable: false, width: "w-40" }],
       columns: [{ key: "institution", label: "Institution", hide: "hidden md:table-cell" }, { key: "specialisms", label: "Specialisms", hide: "hidden lg:table-cell" }, { key: "papers", label: "Papers listed", sortable: true, numeric: true }, { key: "trials", label: "Trials", sortable: true, numeric: true, hide: "hidden sm:table-cell" }],
       defaultSort: { key: "name", dir: 1 },
     };

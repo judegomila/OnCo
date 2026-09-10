@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Portrait } from "@/components/Portrait";
 import { graph } from "@/lib/graph";
-import { routeFor, type Person } from "@/lib/schema";
+import { routeFor, type Entity, type Person } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = {
@@ -12,17 +12,18 @@ export const metadata: Metadata = {
 
 const SUGGEST_URL = "https://github.com/judegomila/OnCo/issues/new?template=suggest-edit.yml&title=hero";
 
-type Role = "patient" | "carer" | "advocate" | "pioneer";
+type Role = "patient" | "carer" | "advocate" | "donor" | "pioneer";
 type Group = { id: string; title: string; lede: string; roles: Role[] };
 
 /** Each hero appears once, placed by their primary role: the first role tag on the record after "hero". */
 const GROUPS: Group[] = [
   { id: "patients", title: "Patients and families", lede: "People whose own illness, or a child's or a partner's, became a turning point: the first to take a new drug, the first to say so in public, the ones who turned a diagnosis into a fund or a campaign.", roles: ["patient", "carer"] },
   { id: "advocates", title: "Advocates and builders", lede: "People who built the institutions, coalitions and movements that moved money, changed rules and put patients in the room.", roles: ["advocate"] },
+  { id: "donors", title: "Donors and philanthropists", lede: "People who paid for the work, or raised the money for it: the founding gifts behind institutes and cancer centres, the foundations that back early ideas no agency will yet fund, and the fundraisers who turned a diagnosis into a research fund. Gift figures come from the recipient's own announcements. Their names are on the buildings; the work inside them is what changed.", roles: ["donor"] },
   { id: "pioneers", title: "Pioneers", lede: "Scientists and clinicians who saw something the field did not accept, and kept going until it did.", roles: ["pioneer"] },
 ];
-const ROLES: Role[] = ["patient", "carer", "advocate", "pioneer"];
-const ROLE_LABEL: Record<Role, string> = { patient: "Patient", carer: "Family", advocate: "Advocate", pioneer: "Pioneer" };
+const ROLES: Role[] = ["patient", "carer", "advocate", "donor", "pioneer"];
+const ROLE_LABEL: Record<Role, string> = { patient: "Patient", carer: "Family", advocate: "Advocate", donor: "Donor", pioneer: "Pioneer" };
 
 const primaryRole = (p: Person): Role => (p.tags.find((t): t is Role => (ROLES as string[]).includes(t)) ?? "pioneer");
 const surname = (name: string) => name.replace(/^(Dame|Sir|Dr\.?)\s+/, "").replace(/"[^"]*"\s*/g, "").trim().split(/\s+/).pop() ?? name;
@@ -31,7 +32,12 @@ export default function Heroes() {
   const g = graph();
   const heroes = g.kind("person").filter((p) => p.tags.includes("hero"));
   const sections = GROUPS.map((grp) => ({ ...grp, members: heroes.filter((p) => grp.roles.includes(primaryRole(p))).sort((a, b) => surname(a.name).localeCompare(surname(b.name))) }));
-  const counts = { patient: heroes.filter((p) => p.tags.includes("patient")).length, carer: heroes.filter((p) => p.tags.includes("carer")).length, advocate: heroes.filter((p) => p.tags.includes("advocate")).length, pioneer: heroes.filter((p) => p.tags.includes("pioneer")).length };
+  const counts = Object.fromEntries(ROLES.map((r) => [r, heroes.filter((p) => p.tags.includes(r)).length])) as Record<Role, number>;
+  // "What the gifts built": every institution a donor record links to, most-linked first. Derived from the graph, not hand-listed.
+  const donors = heroes.filter((p) => primaryRole(p) === "donor");
+  const built = [...donors.flatMap((p) => p.institutions).reduce((m, id) => m.set(id, (m.get(id) ?? 0) + 1), new Map<string, number>())]
+    .map(([id, n]) => ({ inst: g.get(id), n })).filter((x): x is { inst: Entity; n: number } => x.inst?.kind === "institution")
+    .sort((a, b) => b.n - a.n || a.inst.name.localeCompare(b.inst.name));
 
   return (
     <>
@@ -48,6 +54,7 @@ export default function Heroes() {
           <span>{counts.patient} patients</span>
           <span>{counts.carer} carers and family</span>
           <span>{counts.advocate} advocates</span>
+          <span>{counts.donor} donors</span>
           <span>{counts.pioneer} pioneers</span>
           <span aria-hidden>·</span>
           <span>Public record only. Each record carries the date it was last checked.</span>
@@ -62,6 +69,22 @@ export default function Heroes() {
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {s.members.map((p) => <HeroCard key={p.id} p={p} />)}
             </div>
+            {s.id === "donors" && built.length > 0 && (
+              <div className="mt-5 rounded-xl border border-border bg-card/60 px-4 py-3">
+                <div className="kicker mb-1.5">What the gifts built</div>
+                <p className="text-[13px] text-muted leading-relaxed mb-2">Institutes, centres and funds that the people above founded, endowed or raised money for. Each link opens the record with its donors listed.</p>
+                <ul className="flex flex-wrap gap-1.5">
+                  {built.map(({ inst, n }) => (
+                    <li key={inst.id}>
+                      <Link href={routeFor(inst)} className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-2.5 py-1 text-[13px] hover:border-foreground/40">
+                        <span>{inst.name}</span>
+                        {n > 1 && <span className="text-[11px] text-muted tabular-nums">{n}</span>}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </section>
         ))}
 

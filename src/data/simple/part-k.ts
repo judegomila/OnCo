@@ -600,5 +600,4 @@ export const simpleK: Record<string, string> = {
   "idea-reg-lmic-public-cart-manufacturing": "India, Brazil and South Africa would run public-sector CAR-T manufacturing under fifty thousand dollars a dose, following India's proof that it can be done cheaply.",
   "idea-reg-ai-process-control-cell-manufacturing": "Manufacturers would use sensors and machine learning to adjust cell therapy production in real time, rescuing batches that currently fail more often than any other medicine.",
   "idea-reg-early-apheresis-banking": "Hospitals would collect and freeze healthy T cells from high-risk patients at diagnosis, before chemotherapy exhausts them, improving CAR-T manufacturing success later.",
-  // END-K
 };

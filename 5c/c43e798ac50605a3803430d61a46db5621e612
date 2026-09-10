@@ -1,0 +1,795 @@
+public/trials/relmacabtagene-autoleucel.json
+  ai_agent 1
+public/papers/myeloproliferative-neoplasms.json
+  ai_agent 1
+public/trials/patritumab-deruxtecan.json
+  ai_agent 1
+public/trials/shield.json
+  ai_agent 1
+public/trials/tegafur-gimeracil-oteracil.json
+  ai_agent 1
+public/papers/phage-delivery.json
+  ai_agent 1
+public/papers/rhabdomyosarcoma.json
+  ai_agent 1
+public/trials/prosigna.json
+  ai_agent 1
+public/papers/interception-vaccination.json
+  ai_agent 1
+public/papers/telemedicine-teleoncology.json
+  ai_agent 1
+public/trials/pacritinib.json
+  ai_agent 1
+public/trials/tebentafusp.json
+  ai_agent 1
+public/trials/toremifene.json
+  ai_agent 1
+public/trials/thalidomide.json
+  ai_agent 1
+public/trials/plerixafor.json
+  ai_agent 1
+public/papers/romidepsin.json
+  ai_agent 1
+public/papers/medical-cyclotrons-synthesis-modules.json
+  ai_agent 1
+public/papers/shark-cartilage.json
+  ai_agent 1
+public/trials/pegylated-liposomal-doxorubicin.json
+  ai_agent 1
+public/papers/glasdegib.json
+  ai_agent 1
+public/trials/paclitaxel.json
+  ai_agent 1
+public/trials/penpulimab.json
+  ai_agent 1
+public/trials/tinengotinib.json
+  ai_agent 1
+public/papers/st-johns-wort-interaction.json
+  ai_agent 1
+public/trials/radium-223.json
+  ai_agent 1
+public/trials/tafasitamab.json
+  ai_agent 1
+public/papers/hepatoblastoma.json
+  ai_agent 1
+public/trials/transpara.json
+  ai_agent 1
+public/papers/waldenstrom.json
+  ai_agent 1
+public/trials/sacituzumab-govitecan.json
+  ai_agent 1
+public/trials/talazoparib.json
+  ai_agent 1
+public/trials/urovysion.json
+  ai_agent 1
+public/papers/gist.json
+  ai_agent 1
+public/trials/vorinostat.json
+  ai_agent 1
+public/papers/anal.json
+  ai_agent 1
+public/papers/spatial-biology-instruments.json
+  ai_agent 1
+public/trials/petosemtamab.json
+  ai_agent 1
+public/papers/microbiome-modulation-io.json
+  ai_agent 1
+public/papers/chronotherapy.json
+  ai_agent 1
+public/papers/ihc-autostainers-histology-automation.json
+  ai_agent 1
+public/trials/megestrol-progestins.json
+  ai_agent 1
+public/trials/temsirolimus.json
+  ai_agent 1
+public/trials/vinblastine.json
+  ai_agent 1
+public/trials/tamoxifen.json
+  ai_agent 1
+public/papers/merkel-cell-carcinoma.json
+  ai_agent 1
+public/papers/tretinoin-atra.json
+  ai_agent 1
+public/trials/pemigatinib.json
+  ai_agent 1
+public/papers/basal-cell-carcinoma.json
+  ai_agent 1
+public/papers/minoxidil-chemotherapy-alopecia.json
+  ai_agent 1
+public/papers/ayurvedic-medicine-cancer.json
+  ai_agent 1
+public/papers/peripheral-t-cell-lymphoma.json
+  ai_agent 1
+public/trials/octreotide-lanreotide.json
+  ai_agent 1
+public/trials/relatlimab-nivolumab.json
+  ai_agent 1
+public/papers/hydroxyurea.json
+  ai_agent 1
+public/papers/stroma-directed-car.json
+  ai_agent 1
+public/papers/ai-compute-platforms.json
+  ai_agent 1
+public/papers/ewing-sarcoma.json
+  ai_agent 1
+public/trials/sintilimab.json
+  ai_agent 1
+public/trials/sipuleucel-t.json
+  ai_agent 1
+public/trials/tiragolumab.json
+  ai_agent 1
+public/trials/tislelizumab.json
+  ai_agent 1
+public/trials/tucidinostat.json
+  ai_agent 1
+public/trials/ropeginterferon-alfa-2b.json
+  ai_agent 1
+public/trials/varnimcabtagene-autoleucel.json
+  ai_agent 1
+src/data/simple/part-k.ts
+  s_0beac9cb5d78fd::t_058f7ef7acf36b 1-603
+public/trials/thiotepa.json
+  ai_agent 1
+public/trials/vimseltinib.json
+  ai_agent 1
+public/papers/belinostat.json
+  s_0beac9cb5d78fd::t_3405e33fa31b5d 1
+public/papers/hydrazine-sulfate.json
+  ai_agent 1
+public/trials/valrubicin.json
+  ai_agent 1
+public/papers/lattice-radiotherapy.json
+  ai_agent 1
+public/papers/therapy-isotope-supply-chain.json
+  ai_agent 1
+public/papers/wigs-cranial-prosthesis.json
+  ai_agent 1
+public/trials/vorasidenib.json
+  ai_agent 1
+public/papers/biobanking.json
+  ai_agent 1
+public/papers/bosutinib.json
+  ai_agent 1
+public/papers/pharmacy-automation.json
+  ai_agent 1
+public/trials/sorafenib.json
+  ai_agent 1
+public/papers/hospital-information-systems-oncology.json
+  ai_agent 1
+public/trials/osimertinib.json
+  ai_agent 1
+public/trials/pembrolizumab.json
+  ai_agent 1
+public/trials/procarbazine.json
+  ai_agent 1
+public/papers/testicular.json
+  ai_agent 1
+public/trials/prolaris.json
+  ai_agent 1
+public/trials/simplescreen-crc.json
+  ai_agent 1
+public/papers/clinical-trial-software.json
+  ai_agent 1
+public/papers/epigenetic-editing.json
+  ai_agent 1
+public/papers/alternative-medicine-instead-of-treatment.json
+  ai_agent 1
+public/papers/total-body-pet-screening.json
+  ai_agent 1
+public/trials/olutasidenib.json
+  ai_agent 1
+public/trials/oncodetect.json
+  ai_agent 1
+public/papers/radionuclide-parp-combination.json
+  ai_agent 1
+public/trials/rasburicase.json
+  ai_agent 1
+public/trials/talimogene-laherparepvec.json
+  ai_agent 1
+public/papers/infusion-devices-vascular-access.json
+  ai_agent 1
+public/trials/resolution-ctdx-first.json
+  ai_agent 1
+public/trials/tisotumab-vedotin.json
+  ai_agent 1
+public/trials/tremelimumab.json
+  ai_agent 1
+public/trials/ribociclib.json
+  ai_agent 1
+public/trials/rovalpituzumab-tesirine.json
+  ai_agent 1
+public/trials/trametinib.json
+  ai_agent 1
+public/trials/trastuzumab-brengitecan.json
+  ai_agent 1
+public/trials/tivozanib.json
+  ai_agent 1
+public/trials/selumetinib.json
+  ai_agent 1
+public/trials/tretinoin-atra.json
+  ai_agent 1
+public/trials/omacetaxine.json
+  ai_agent 1
+public/trials/retifanlimab.json
+  ai_agent 1
+public/trials/treosulfan.json
+  ai_agent 1
+public/trials/vepdegestrant.json
+  ai_agent 1
+public/trials/pralatrexate.json
+  ai_agent 1
+public/trials/pirtobrutinib.json
+  ai_agent 1
+public/trials/puxitatug-samrotecan.json
+  ai_agent 1
+public/trials/rolapitant.json
+  ai_agent 1
+public/trials/zanidatamab.json
+  ai_agent 1
+public/papers/fedratinib.json
+  ai_agent 1
+public/papers/drug-repurposing.json
+  ai_agent 1
+public/papers/wilms-tumor.json
+  ai_agent 1
+public/papers/adrenocortical.json
+  ai_agent 1
+public/papers/treatment-planning-systems.json
+  ai_agent 1
+public/papers/cachexia-therapy.json
+  ai_agent 1
+public/trials/talicabtagene-autoleucel.json
+  ai_agent 1
+public/trials/taletrectinib.json
+  ai_agent 1
+public/papers/nuclear-medicine-hardware.json
+  ai_agent 1
+public/papers/ropeginterferon-alfa-2b.json
+  ai_agent 1
+public/papers/retinoblastoma.json
+  ai_agent 1
+public/trials/trastuzumab-biosimilars.json
+  ai_agent 1
+public/papers/tazemetostat.json
+  ai_agent 1
+public/trials/olaparib.json
+  ai_agent 1
+public/trials/tilatamig-samrotecan.json
+  ai_agent 1
+public/papers/idelalisib.json
+  s_0beac9cb5d78fd::t_3405e33fa31b5d 1
+public/trials/vemurafenib.json
+  ai_agent 1
+public/trials/vinflunine.json
+  ai_agent 1
+public/papers/continuous-ctdna-monitoring.json
+  ai_agent 1
+public/trials/sonidegib.json
+  ai_agent 1
+public/papers/variant-knowledgebases.json
+  ai_agent 1
+public/trials/icad-profound-ai.json
+  ai_agent 1
+public/papers/magnetic-nanoparticle-hyperthermia.json
+  ai_agent 1
+public/papers/cancer-registries-surveillance.json
+  ai_agent 1
+public/trials/pyrotinib.json
+  ai_agent 1
+public/trials/zoldonrasib.json
+  ai_agent 1
+public/trials/oncomine-dx-target-test.json
+  ai_agent 1
+public/papers/auger-electron-therapy.json
+  ai_agent 1
+public/trials/polatuzumab-vedotin.json
+  ai_agent 1
+public/trials/thyrotropin-alfa.json
+  ai_agent 1
+public/trials/vincristine.json
+  ai_agent 1
+public/trials/pexidartinib.json
+  ai_agent 1
+public/trials/pivekimab-sunirine.json
+  ai_agent 1
+public/trials/xaluritamig.json
+  ai_agent 1
+public/papers/imaging-core-labs.json
+  ai_agent 1
+public/trials/ponatinib.json
+  ai_agent 1
+public/papers/sterile-fill-finish.json
+  ai_agent 1
+public/trials/toripalimab.json
+  ai_agent 1
+public/papers/generic-drug-shortage-response.json
+  ai_agent 1
+public/papers/osteosarcoma.json
+  ai_agent 1
+public/papers/salivary-gland.json
+  ai_agent 1
+public/trials/optellum-virtual-nodule-clinic.json
+  ai_agent 1
+public/papers/pacritinib.json
+  ai_agent 1
+public/papers/structural-biology-infrastructure.json
+  ai_agent 1
+public/papers/organoid-guided-therapy-scale.json
+  ai_agent 1
+public/trials/trastuzumab-rezetecan.json
+  ai_agent 1
+public/trials/tusamitamab-ravtansine.json
+  ai_agent 1
+public/papers/rusfertide.json
+  ai_agent 1
+public/trials/vandetanib.json
+  ai_agent 1
+public/papers/pet-tracer-manufacturing.json
+  ai_agent 1
+public/papers/proteomics-platforms.json
+  ai_agent 1
+public/papers/federated-learning-medical-ai.json
+  ai_agent 1
+public/trials/savolitinib.json
+  ai_agent 1
+public/papers/trained-innate-immunity.json
+  ai_agent 1
+public/trials/palonosetron.json
+  ai_agent 1
+public/papers/moxetumomab-pasudotox.json
+  s_0beac9cb5d78fd::t_3405e33fa31b5d 1
+public/papers/adc-cdmo-manufacturing.json
+  ai_agent 1
+public/trials/tisagenlecleucel.json
+  ai_agent 1
+public/trials/palifermin.json
+  ai_agent 1
+public/trials/teclistamab.json
+  ai_agent 1
+public/papers/self-amplifying-rna.json
+  ai_agent 1
+public/papers/nilotinib.json
+  ai_agent 1
+public/papers/il12-electroporation.json
+  ai_agent 1
+public/papers/thymic-epithelial.json
+  ai_agent 1
+public/trials/tovorafenib.json
+  ai_agent 1
+public/trials/zolbetuximab.json
+  ai_agent 1
+src/data/simple/part-k2.ts
+  s_0beac9cb5d78fd::t_058f7ef7acf36b 1-513
+public/papers/momelotinib.json
+  ai_agent 1
+public/trials/pegfilgrastim.json
+  ai_agent 1
+public/papers/alpha-nanogenerators.json
+  ai_agent 1
+public/papers/cell-therapy-cold-chain.json
+  ai_agent 1
+public/papers/arsenic-trioxide.json
+  ai_agent 1
+public/papers/cancer-of-unknown-primary.json
+  ai_agent 1
+public/papers/daraxonrasib.json
+  ai_agent 1
+public/papers/ruxolitinib.json
+  ai_agent 1
+public/trials/cmg901.json
+  ai_agent 1
+public/papers/cannabinoids-nausea.json
+  ai_agent 1
+public/papers/viral-vector-manufacturing.json
+  ai_agent 1
+public/trials/rituximab.json
+  ai_agent 1
+public/trials/sevabertinib.json
+  ai_agent 1
+public/trials/trastuzumab-duocarmazine.json
+  ai_agent 1
+src/data/simple.ts
+  ai_agent 12-13,15
+public/trials/ruxolitinib.json
+  ai_agent 1
+public/trials/radioactive-iodine.json
+  ai_agent 1
+public/trials/repotrectinib.json
+  ai_agent 1
+public/trials/pegulicianine.json
+  ai_agent 1
+public/papers/preanalytics-sample-stabilisation.json
+  ai_agent 1
+public/papers/cannabinoids-pain-appetite.json
+  ai_agent 1
+public/papers/contract-research-organisations.json
+  ai_agent 1
+public/papers/gerson-therapy-detox-regimens.json
+  ai_agent 1
+public/papers/senescence-targeting.json
+  ai_agent 1
+public/trials/oncotype-dx-gps.json
+  ai_agent 1
+public/papers/high-throughput-screening-libraries.json
+  ai_agent 1
+public/trials/ripretinib.json
+  ai_agent 1
+public/trials/sunitinib.json
+  ai_agent 1
+public/trials/tazemetostat.json
+  ai_agent 1
+public/papers/radiopharmacy-network.json
+  ai_agent 1
+public/papers/bimatoprost-eyelash-regrowth.json
+  ai_agent 1
+public/papers/monoclonal-antibody-manufacturing.json
+  ai_agent 1
+public/trials/pemetrexed.json
+  ai_agent 1
+public/trials/therascreen-cdx.json
+  ai_agent 1
+public/trials/trifluridine-tipiracil.json
+  ai_agent 1
+public/trials/sirolimus-albumin-bound.json
+  ai_agent 1
+public/trials/oncotype-dx.json
+  ai_agent 1
+public/trials/umbralisib.json
+  ai_agent 1
+public/trials/pazopanib.json
+  ai_agent 1
+public/papers/high-potency-payload-synthesis.json
+  ai_agent 1
+public/trials/sacituzumab-tirumotecan.json
+  ai_agent 1
+public/trials/olomorasib.json
+  ai_agent 1
+public/papers/mogamulizumab.json
+  s_0beac9cb5d78fd::t_3405e33fa31b5d 1
+public/papers/breath-vocs.json
+  ai_agent 1
+public/papers/hyperbaric-oxygen-radiation-injury.json
+  ai_agent 1
+public/papers/radionuclide-generators-kits.json
+  ai_agent 1
+public/papers/vhee-radiotherapy.json
+  ai_agent 1
+public/papers/auto-contouring-ai.json
+  ai_agent 1
+public/trials/oxaliplatin.json
+  ai_agent 1
+public/trials/padeliporfin.json
+  ai_agent 1
+public/trials/ventana-pd-l1-sp263.json
+  ai_agent 1
+public/papers/dna-origami-nanorobots.json
+  ai_agent 1
+public/papers/whole-slide-scanners.json
+  ai_agent 1
+public/trials/vinorelbine.json
+  ai_agent 1
+public/papers/engineered-bacteria-therapy.json
+  ai_agent 1
+public/papers/mechanobiology-therapy.json
+  ai_agent 1
+public/trials/pertuzumab.json
+  ai_agent 1
+public/trials/sodium-thiosulfate.json
+  ai_agent 1
+public/papers/frozen-gloves-compression-taxane.json
+  ai_agent 1
+public/trials/pralsetinib.json
+  ai_agent 1
+public/trials/palbociclib.json
+  ai_agent 1
+public/papers/apheresis-starting-material.json
+  ai_agent 1
+public/trials/regorafenib.json
+  ai_agent 1
+public/papers/lymphoedema-decongestive-therapy.json
+  ai_agent 1
+public/papers/primary-cns-lymphoma.json
+  ai_agent 1
+public/trials/romidepsin.json
+  ai_agent 1
+public/papers/tumour-microbiome-targeting.json
+  ai_agent 1
+public/trials/signatera.json
+  ai_agent 1
+public/trials/topotecan.json
+  ai_agent 1
+public/papers/next-gen-short-read-platforms.json
+  ai_agent 1
+public/trials/uridine-triacetate.json
+  ai_agent 1
+public/trials/zilovertamab-vedotin.json
+  ai_agent 1
+public/trials/talc-sclerosant.json
+  ai_agent 1
+public/trials/ventana-mmr-rxdx.json
+  ai_agent 1
+public/papers/quantum-dot-imaging.json
+  ai_agent 1
+public/trials/tilmanocept-tc99m.json
+  ai_agent 1
+public/trials/zenocutuzumab.json
+  ai_agent 1
+public/papers/long-read-sequencing.json
+  ai_agent 1
+public/papers/follicular-lymphoma.json
+  ai_agent 1
+public/trials/sotorasib.json
+  ai_agent 1
+public/trials/telotristat-ethyl.json
+  ai_agent 1
+public/trials/thioguanine.json
+  ai_agent 1
+public/trials/venetoclax.json
+  ai_agent 1
+public/trials/zoledronic-acid.json
+  ai_agent 1
+public/trials/changes.json
+  ai_agent 1
+public/papers/pralatrexate.json
+  ai_agent 1
+public/papers/spatial-omics-guided-therapy.json
+  ai_agent 1
+public/papers/closed-automated-cell-manufacturing.json
+  ai_agent 1
+public/trials/prednisone.json
+  ai_agent 1
+public/papers/cml.json
+  ai_agent 1
+public/papers/in-situ-vaccination.json
+  ai_agent 1
+public/papers/laetrile-amygdalin.json
+  ai_agent 1
+public/papers/interferon-alfa.json
+  s_0beac9cb5d78fd::t_3405e33fa31b5d 1
+public/trials/relacorilant.json
+  ai_agent 1
+public/trials/pafolacianine.json
+  ai_agent 1
+public/papers/kaposi-sarcoma.json
+  ai_agent 1
+public/papers/gestational-trophoblastic.json
+  ai_agent 1
+public/trials/ondansetron.json
+  ai_agent 1
+public/trials/pasritamig.json
+  ai_agent 1
+public/trials/platinum-etoposide.json
+  ai_agent 1
+public/trials/orelabrutinib.json
+  ai_agent 1
+public/trials/rindopepimut.json
+  ai_agent 1
+public/trials/rucaparib.json
+  ai_agent 1
+public/papers/digital-twins-trials.json
+  ai_agent 1
+public/trials/tagraxofusp.json
+  ai_agent 1
+public/trials/talquetamab.json
+  ai_agent 1
+public/papers/cell-therapy-release-testing.json
+  ai_agent 1
+public/papers/de-novo-protein-design.json
+  ai_agent 1
+public/trials/optune.json
+  ai_agent 1
+public/papers/cell-therapy-orchestration-software.json
+  ai_agent 1
+public/trials/temoporfin.json
+  ai_agent 1
+public/trials/tasonermin.json
+  ai_agent 1
+public/papers/plasmid-dna-manufacturing.json
+  ai_agent 1
+public/trials/index.json
+  ai_agent 1
+public/trials/revumenib.json
+  ai_agent 1
+public/papers/medulloblastoma.json
+  ai_agent 1
+public/papers/pivekimab-sunirine.json
+  s_0beac9cb5d78fd::t_3405e33fa31b5d 1
+public/papers/allogeneic-cell-banking.json
+  ai_agent 1
+public/papers/hypoxia-activated-therapy.json
+  ai_agent 1
+public/papers/oncology-real-world-data.json
+  ai_agent 1
+public/papers/luspatercept.json
+  ai_agent 1
+public/papers/photothermal-nanoparticles.json
+  ai_agent 1
+public/trials/pamidronate.json
+  ai_agent 1
+public/trials/rinatabart-sesutecan.json
+  ai_agent 1
+public/trials/samarium-153-lexidronam.json
+  ai_agent 1
+public/trials/serplulimab.json
+  ai_agent 1
+public/trials/vismodegib.json
+  ai_agent 1
+public/papers/bendamustine.json
+  ai_agent 1
+public/trials/tarlatamab.json
+  ai_agent 1
+public/papers/exosome-therapeutics.json
+  ai_agent 1
+public/papers/hairy-cell-leukemia.json
+  ai_agent 1
+public/papers/reference-laboratories.json
+  ai_agent 1
+public/papers/nerve-tumour-denervation.json
+  ai_agent 1
+public/papers/histotripsy-immune-priming.json
+  ai_agent 1
+public/trials/quizartinib.json
+  ai_agent 1
+public/trials/rusfertide.json
+  ai_agent 1
+public/trials/raludotatug-deruxtecan.json
+  ai_agent 1
+public/trials/tucatinib.json
+  ai_agent 1
+public/trials/pomalidomide.json
+  ai_agent 1
+public/trials/temozolomide.json
+  ai_agent 1
+public/trials/tocilizumab.json
+  ai_agent 1
+public/trials/vusolimogene-oderparepvec.json
+  ai_agent 1
+public/papers/cutaneous-scc.json
+  ai_agent 1
+public/trials/paige-prostate.json
+  ai_agent 1
+public/trials/zelenectide-pevedotin.json
+  ai_agent 1
+public/papers/oral-cryotherapy-mucositis.json
+  ai_agent 1
+public/trials/selinexor.json
+  ai_agent 1
+public/papers/decentralised-clinical-trials.json
+  ai_agent 1
+public/trials/ziftomenib.json
+  ai_agent 1
+public/papers/sonodynamic-therapy.json
+  ai_agent 1
+public/trials/panobinostat.json
+  ai_agent 1
+public/trials/zidesamtinib.json
+  ai_agent 1
+public/trials/dako-pd-l1-22c3-pharmdx.json
+  ai_agent 1
+public/papers/genomics-cloud-platforms.json
+  ai_agent 1
+public/trials/tempus-xt-cdx.json
+  ai_agent 1
+public/trials/radar-mrd.json
+  ai_agent 1
+public/trials/trusight-oncology-comprehensive.json
+  ai_agent 1
+public/papers/in-vivo-gene-editing-cancer.json
+  ai_agent 1
+public/trials/zevorcabtagene-autoleucel.json
+  ai_agent 1
+public/papers/antineoplastons.json
+  ai_agent 1
+public/papers/logic-gated-therapeutics.json
+  ai_agent 1
+public/papers/index.json
+  ai_agent 1
+public/papers/traditional-chinese-herbal-medicine.json
+  ai_agent 1
+public/papers/remote-patient-monitoring.json
+  ai_agent 1
+public/papers/appendiceal.json
+  ai_agent 1
+public/papers/vulvar.json
+  ai_agent 1
+public/trials/relugolix.json
+  ai_agent 1
+public/trials/pylarify.json
+  ai_agent 1
+public/trials/rivoceranib.json
+  ai_agent 1
+public/papers/brexucabtagene-autoleucel.json
+  ai_agent 1
+public/trials/zanubrutinib.json
+  ai_agent 1
+public/papers/mantle-cell-lymphoma.json
+  ai_agent 1
+public/trials/zongertinib.json
+  ai_agent 1
+public/papers/community-oncology-networks.json
+  ai_agent 1
+public/papers/n-of-1-platforms.json
+  ai_agent 1
+public/papers/proton-arc-therapy.json
+  ai_agent 1
+public/trials/panitumumab.json
+  ai_agent 1
+public/trials/satricabtagene-autoleucel.json
+  ai_agent 1
+public/trials/trabectedin.json
+  ai_agent 1
+public/trials/ramucirumab.json
+  ai_agent 1
+public/trials/trastuzumab-deruxtecan.json
+  ai_agent 1
+public/trials/triptorelin.json
+  ai_agent 1
+public/papers/uveal-melanoma.json
+  ai_agent 1
+public/papers/homeopathy-cancer.json
+  ai_agent 1
+public/papers/nasopharyngeal.json
+  ai_agent 1
+public/papers/rcc.json
+  ai_agent 1
+public/trials/trastuzumab-emtansine.json
+  ai_agent 1
+public/papers/mds.json
+  ai_agent 1
+public/papers/photobiomodulation-mucositis.json
+  ai_agent 1
+public/papers/cladribine.json
+  s_0beac9cb5d78fd::t_3405e33fa31b5d 1
+public/papers/metabolic-therapy.json
+  ai_agent 1
+public/trials/sugemalimab.json
+  ai_agent 1
+public/trials/trastuzumab.json
+  ai_agent 1
+public/trials/ventana-pd-l1-sp142.json
+  ai_agent 1
+public/trials/sunvozertinib.json
+  ai_agent 1
+public/papers/antibody-oligonucleotide-conjugates.json
+  ai_agent 1
+public/papers/bpdcn.json
+  ai_agent 1
+public/trials/sonrotoclax.json
+  ai_agent 1
+public/trials/telisotuzumab-vedotin.json
+  ai_agent 1
+public/trials/ziv-aflibercept.json
+  ai_agent 1
+public/papers/ngs-bioinformatics-software.json
+  ai_agent 1
+public/trials/raloxifene.json
+  ai_agent 1
+public/trials/selpercatinib.json
+  ai_agent 1
+public/papers/radiodynamic-therapy.json
+  ai_agent 1
+public/papers/molecular-glue-platforms.json
+  ai_agent 1
+public/papers/point-of-care-cell-manufacturing.json
+  ai_agent 1
+public/trials/siltuximab.json
+  ai_agent 1
+public/papers/imetelstat.json
+  ai_agent 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5cc43e798ac50605a3803430d61a46db5621e612",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

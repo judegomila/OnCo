@@ -11,7 +11,7 @@ describe("issue forms", () => {
     expect(syncIssueForms(FORMS_DIR, false)).toEqual([]);
     expect(KIND_OPTIONS).toContain("product");
     expect(KIND_OPTIONS).toContain("key paper");
-    expect(LANGUAGE_OPTIONS).toEqual(["Spanish", "Chinese", "Portuguese", "Hindi"]);
+    expect(LANGUAGE_OPTIONS).toEqual(["Spanish", "Chinese", "Portuguese", "Hindi", "French", "German", "Japanese", "Arabic"]);
   });
 
   it("syncForm only touches managed dropdowns", () => {

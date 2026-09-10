@@ -1,3 +1,4 @@
+import type { Lang } from "./layer";
 import { graph } from "./graph";
 import { evidenceFor } from "./evidence";
 import { KIND_META, KINDS, routeFor, type Entity, type Kind } from "./schema";
@@ -11,7 +12,6 @@ import { tldr_fr } from "@/data/i18n/fr";
 import { tldr_de } from "@/data/i18n/de";
 import { tldr_ja } from "@/data/i18n/ja";
 import { tldr_ar } from "@/data/i18n/ar";
-import type { Lang } from "./layer";
 import { issueUrl, entityRef, pageUrl } from "./issue-links";
 
 /**
@@ -23,6 +23,10 @@ export const TRANSLATED_LANGS: Array<{ code: Exclude<Lang, "en">; label: string;
   { code: "zh", label: "Chinese", native: "中文" },
   { code: "pt", label: "Portuguese", native: "Português" },
   { code: "hi", label: "Hindi", native: "हिन्दी" },
+  { code: "fr", label: "French", native: "Français" },
+  { code: "de", label: "German", native: "Deutsch" },
+  { code: "ja", label: "Japanese", native: "日本語" },
+  { code: "ar", label: "Arabic", native: "العربية" },
 ];
 
 /**

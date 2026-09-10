@@ -43,7 +43,7 @@ const TRIALS_DIR = join(process.cwd(), "public", "trials");
 
 function readRegistry(): DrugTrials[] {
   if (!existsSync(TRIALS_DIR)) return [];
-  return readdirSync(TRIALS_DIR).filter((f) => f.endsWith(".json") && f !== "index.json").map((f) => JSON.parse(readFileSync(join(TRIALS_DIR, f), "utf8")) as DrugTrials);
+  return (readdirSync(TRIALS_DIR).filter((f) => f.endsWith(".json") && f !== "index.json").map((f) => JSON.parse(readFileSync(join(TRIALS_DIR, f), "utf8")) as DrugTrials)).filter((f) => Array.isArray((f as { studies?: unknown }).studies));
 }
 
 /** Keyword index from cancer names and aliases, longest first so "small-cell lung" beats "lung". */
@@ -120,7 +120,7 @@ export function sponsorLeaderboard(): { rows: SponsorRow[]; registryStudies: num
   const seen = new Set<string>();
   let registryStudies = 0;
   for (const f of files) {
-    for (const s of f.studies) {
+    for (const s of f.studies ?? []) {
       if (!s.sponsor || seen.has(s.nct)) continue;
       seen.add(s.nct);
       registryStudies++;

@@ -27,6 +27,7 @@ import { RoadmapStory } from "./RoadmapStory";
 import { TrialOutcomes } from "./Pictogram";
 import { TrialExplainer } from "./TrialExplainer";
 import { EvidenceBar } from "./EvidenceBar";
+import { EvidenceGradeChip } from "./EvidenceGradeChip";
 import { GuidelineChip } from "./GuidelineChip";
 import { PrevalenceTable, CancerPrevalence } from "./PrevalenceTable";
 import { SuggestEdit } from "./SuggestEdit";
@@ -163,6 +164,7 @@ export function EntityDetail({ e }: { e: Entity }) {
 
           <aside className="space-y-4 lg:sticky lg:top-28 self-start">
             {e.kind === "person" && <PortraitCredit id={e.id} />}
+            {e.kind === "technology" && e.tags.some((t) => t.startsWith("evidence:")) && <div className="card p-4 text-sm"><div className="kicker mb-1.5">Evidence grade</div><EvidenceGradeChip tags={e.tags} /><p className="text-[11px] text-muted mt-2">How much and what kind of evidence, for the stated purpose. Grades are explained on the <Link className="underline" href="/live/complementary/">complementary approaches page</Link>.</p></div>}
             {(e.kind === "drug" || e.kind === "technology" || e.kind === "target" || e.kind === "trial") && <EvidenceBar e={e} />}
             <ReviewBadge id={e.id} />
             <ProvenanceLine id={e.id} />
@@ -173,7 +175,7 @@ export function EntityDetail({ e }: { e: Entity }) {
                   <ul className="space-y-1">{e.links.map((l) => <li key={l.url}><a className="underline break-words" href={l.url} rel="noopener">{l.label}</a></li>)}</ul>
                 </div>
               )}
-              {e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:")).length > 0 && <div><div className="kicker mb-1">Tags</div><div className="flex flex-wrap gap-1">{e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:")).map((t) => <span key={t} className="chip bg-foreground/5">{t}</span>)}</div></div>}
+              {e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:") && !t.startsWith("evidence:")).length > 0 && <div><div className="kicker mb-1">Tags</div><div className="flex flex-wrap gap-1">{e.tags.filter((t) => t !== "spike" && !t.startsWith("lesson:") && !t.startsWith("evidence:")).map((t) => <span key={t} className="chip bg-foreground/5">{t}</span>)}</div></div>}
               <div><div className="kicker mb-1">Data</div>
                 <a className="underline" href={`/api/v1/entities/${e.id}.json`}>JSON</a>
                 <span className="text-muted"> · </span>

@@ -33,7 +33,7 @@ const CLASS_TEXT: Array<{ id: string; name: string; aka: string[]; tldr: string;
     tldr: "DNA alkylator payloads chemically damage DNA regardless of whether the cell is dividing, and are aimed at slow-growing and resistant tumours.", summary: "Duocarmycin-type alkylators act independently of the cell cycle and are not cross-resistant with tubulin or topoisomerase payloads in preclinical models. Clinical translation has been slow; trastuzumab duocarmazine reached phase 3 but was not approved.", related: ["duocarmycin"] },
 ];
 
-const LINKER_TEXT: Record<string, { tldr: string; summary: string; aka?: string[]; related?: string[] }> = {
+const LINKER_TEXT: Record<string, { tldr: string; summary: string; aka?: string[]; related?: string[]; wikipedia?: string }> = {
   cl2a: { tldr: "CL2A is the deliberately fragile linker in Trodelvy: it releases SN-38 in the acidic tumour environment as well as inside cells, feeding the bystander effect.", summary: "CL2A is a pH-sensitive, hydrolysable linker with a short polyethylene glycol spacer. It releases roughly half its payload within a day in plasma, which would be a flaw for a more potent payload but suits moderately potent SN-38 at a very high drug-to-antibody ratio. The result is payload release both inside targeted cells and in the tumour microenvironment.", related: ["sn-38", "bystander-effect"] },
   ggfg: { tldr: "The GGFG tetrapeptide is the four-amino-acid tether in Enhertu and Dato-DXd, cut by enzymes inside the cancer cell and very stable in blood.", summary: "The glycine-glycine-phenylalanine-glycine tetrapeptide is cleaved by lysosomal cathepsins, releasing DXd through a self-immolative aminomethylene spacer. Its stability in circulation allows a drug-to-antibody ratio of eight with acceptable off-target exposure, a combination that earlier linkers could not deliver.", aka: ["tetrapeptide linker", "GGFG-DXd"], related: ["dxd"] },
   "mc-vc-pabc": { tldr: "The mc-Val-Cit-PABC linker is the workhorse of the vedotin ADCs: a valine-citrulline dipeptide cut by cathepsin B, releasing MMAE with a bystander effect.", summary: "Maleimidocaproyl-valine-citrulline-p-aminobenzylcarbamate links through cysteine thiols, is stable in human plasma, and is cleaved by cathepsins in the lysosome. In mice it is cleaved prematurely by a serum carboxylesterase, which complicated early preclinical testing. Neutropenia is partly attributed to premature release near neutrophil elastase.", aka: ["valine-citrulline linker", "vc-MMAE", "mc-VC-PABC"], related: ["mmae", "bystander-effect"] },
@@ -55,7 +55,7 @@ const classTerms: TermInput[] = CLASS_TEXT.map((c) => t({ id: c.id, name: c.name
 
 const linkerTerms: TermInput[] = linkers.map((l) => {
   const x = LINKER_TEXT[l.id];
-  return t({ id: l.id, name: l.name, aka: x?.aka ?? [], tldr: x?.tldr ?? `${l.name}: a ${l.type} ADC linker.`, summary: x?.summary ?? `${l.trigger} ${l.releases}`, drugs: l.adcs, technologies: ["adc"], terms: ["linker"], related: x?.related ?? [] });
+  return t({ id: l.id, name: l.name, aka: x?.aka ?? [], wikipedia: x?.wikipedia, tldr: x?.tldr ?? `${l.name}: a ${l.type} ADC linker.`, summary: x?.summary ?? `${l.trigger} ${l.releases}`, drugs: l.adcs, technologies: ["adc"], terms: ["linker"], related: x?.related ?? [] });
 });
 
 /** Payloads, payload classes and linkers as glossary objects, so every cell in the registry links somewhere. */

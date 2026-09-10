@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY-NC 4.0; attribute "OnCo (onco.cc)".
 
-6,319 records in 18 kinds: 100 cancers, 19 fronts, 411 technologies, 99 targets, 530 drugs, 680 companies, 557 institutions, 86 pathways, 605 terms, 451 trials, 85 pairings, 29 roadmaps, 1,136 ideas, 110 collections, 1,152 people, 45 bottlenecks, 157 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
+6,532 records in 18 kinds: 100 cancers, 19 fronts, 411 technologies, 99 targets, 530 drugs, 680 companies, 557 institutions, 107 pathways, 605 terms, 451 trials, 85 pairings, 29 roadmaps, 1,136 ideas, 110 collections, 1,152 people, 45 bottlenecks, 157 key papers, 259 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
 
 ## Machine-readable corpus
 

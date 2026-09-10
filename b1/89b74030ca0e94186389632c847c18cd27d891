@@ -1,0 +1,74 @@
+src/data/spikes/nci-rare-other.ts
+  s_0beac9cb5d78fd::t_0621d0cd4881b2 467
+  s_0beac9cb5d78fd::t_dc99da9c018f65 1-8,11-273,275-429,431-447,449-450,452-466,468-493
+  s_0beac9cb5d78fd::t_6cd034c0251f94 430,448,451
+  s_0beac9cb5d78fd::t_d4a4ea37e99113 274
+src/data/organ-schematics.test.ts
+  s_0beac9cb5d78fd::t_ceb19d0106ed02 23-24
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_5252a734c0dd77 74
+src/data/spikes/nci-rare-solid.ts
+  s_0beac9cb5d78fd::t_0621d0cd4881b2 62,96,129,160,331
+  s_0beac9cb5d78fd::t_f33326a8818599 325
+  s_0beac9cb5d78fd::t_fa61ebfaf4e201 1-8,11-48,50-61,63-95,97-128,130-159,161-204,206-212,214-280,282-324,326-330,332-415,417-450,452-456
+  s_0beac9cb5d78fd::t_dd6bfc8afbcf6b 49,205,213,281,416,451
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_6a2a9009872508 58
+  s_0beac9cb5d78fd::t_89d5eb86cfe7a8 220
+  s_0beac9cb5d78fd::t_07f48ad7074752 61
+  s_0beac9cb5d78fd::t_4e5045e47972e2 212
+  s_0beac9cb5d78fd::t_168541ce8d2f36 370
+  s_0beac9cb5d78fd::t_ff02831c00293e 375
+  s_0beac9cb5d78fd::t_168be0506ad568 325
+  s_0beac9cb5d78fd::t_a15b4e36a1270b 349
+  s_0beac9cb5d78fd::t_f88f951376ecf3 194
+  s_0beac9cb5d78fd::t_9e2a4781ac72e5 80
+  s_0beac9cb5d78fd::t_b0a89688bbdf14 42
+  s_0beac9cb5d78fd::t_9052b3d7b1bc27 320
+  s_0beac9cb5d78fd::t_8ebaafecc25e1a 39
+  s_0beac9cb5d78fd::t_2356a986cb5364 191
+  s_0beac9cb5d78fd::t_c22074994617f1 238
+  s_0beac9cb5d78fd::t_e0720b1ed08830 328
+  s_0beac9cb5d78fd::t_285e4de2230d26 83
+  s_0beac9cb5d78fd::t_18aa2caba5d64c 346
+  s_0beac9cb5d78fd::t_4558902bbbff4b 297
+  s_0beac9cb5d78fd::t_78e94f91e944c7 305-307
+  s_0beac9cb5d78fd::t_f341e9a303b75c 186
+  s_0beac9cb5d78fd::t_d8934718fa58f5 122
+src/data/paediatric-fronts.ts
+  s_0beac9cb5d78fd::t_668946168133e7 1-11,13-215
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_81188829b34cca 25
+src/data/spikes/nci-paediatric.ts
+  s_0beac9cb5d78fd::t_1b500394b347f1 71
+  s_0beac9cb5d78fd::t_034fcb7da8235d 119
+  s_0beac9cb5d78fd::t_0621d0cd4881b2 31-32,77
+  s_0beac9cb5d78fd::t_e766a95d78b48b 439
+  s_0beac9cb5d78fd::t_6ae6e1d7a743a0 444,467
+  s_0beac9cb5d78fd::t_8eb0df62f95b33 296
+  s_0beac9cb5d78fd::t_3ef8115fa260fa 149
+  s_0beac9cb5d78fd::t_c66f4b3a889667 349
+  s_0beac9cb5d78fd::t_5fcd2749cc7920 206
+  s_0beac9cb5d78fd::t_8bc02882ffd58e 252
+  s_0beac9cb5d78fd::t_c3de11f2045db2 1-10,13-30,33-70,72-76,78-118,120-148,150-205,207-251,253-295,297-348,350-438,440-443,445-466,468-477
+src/lib/semantic.test.ts
+  s_0beac9cb5d78fd::t_a562d186e9c917 53
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_b869d4bad081c3 48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b189b74030ca0e94186389632c847c18cd27d891",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

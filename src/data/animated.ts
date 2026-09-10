@@ -4,6 +4,7 @@
  * Each builder returns a Mesh with `animate` set; the static viewer ignores it, Wireframe3D plays it.
  */
 import { add, antibody, antibodyTips, cylinder, dots, empty, helix, icosahedron, lerp, lerp3, line, movePart, octahedron, part, phase, polyline, ring, setAlpha, sphere, type Mesh, type Part, type Vec3 } from "@/lib/wireframe";
+import { WAVE3 } from "./animated-wave3";
 
 const TAU = Math.PI * 2;
 const cell = (r: number, cls?: string) => sphere(r, 5, 10, cls);
@@ -525,5 +526,6 @@ export const ANIMATED: Record<string, () => Mesh> = {
   "oncolytic-virus": () => oncolyticAnimated("oncolytic"),
   "viral-gene-therapy": () => oncolyticAnimated("gene"),
   "til-therapy": () => tilAnimated(),
+  ...WAVE3, // thirty more technologies (transplants, screening, interventional, nutrition, registries, palliative care, …)
 };
 

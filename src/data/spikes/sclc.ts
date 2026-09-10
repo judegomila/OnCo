@@ -120,7 +120,7 @@ const drugs: DrugInput[] = [
       { date: "2025-10-02", type: "approval", region: "US", note: "Full approval with atezolizumab as first-line maintenance (IMforte)", source: "https://www.roche.com/media/releases/med-cor-2025-10-03b" },
     ],
     technologies: ["cytotoxic-chemotherapy"], companies: ["jazz", "pharmamar"], cancers: ["sclc"], trials: ["imforte", "atlantis"] }),
-  d({ id: "topotecan", name: "Topotecan", brand: "Hycamtin", modality: "Cytotoxic (topoisomerase-I inhibitor)", status: "approved", wikipedia: W("Topotecan"),
+  d({ id: "topotecan", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Topotecan" }], name: "Topotecan", brand: "Hycamtin", modality: "Cytotoxic (topoisomerase-I inhibitor)", status: "approved", wikipedia: W("Topotecan"),
     tldr: "Topotecan is the long-standing second-line chemotherapy for relapsed small-cell lung cancer, and now the comparator that new drugs must beat.",
     summary: "Approved 1996 (IV) and 2007 (oral) for relapsed SCLC after platinum. ORR ~20%, median OS ~6-8 months; heavy myelosuppression. Control arm in DeLLphi-304 (beaten by tarlatamab) and IDeate-Lung02.",
     mechanism: "Topoisomerase-I poison; stabilises the cleavage complex causing replication-associated DNA breaks.",

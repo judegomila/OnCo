@@ -163,7 +163,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Stomatitis", anyGradePct: 44 }, { event: "Rash", anyGradePct: 29 }, { event: "Fatigue", anyGradePct: 31 }, { event: "Pneumonitis", anyGradePct: 14 }, { event: "Hyperglycaemia", anyGradePct: 12 }],
     approvals: [{ region: "US", year: 2009, indication: "Advanced RCC after sunitinib or sorafenib" }, { region: "US", year: 2012, indication: "HR+/HER2- breast cancer with exemestane" }],
     targets: ["akt"], technologies: ["kinase-inhibitors"], companies: ["novartis"], cancers: ["rcc", "breast-hr-positive", "neuroendocrine"], pathways: ["pi3k-akt-mtor"], trials: ["litespark-005", "clear"] }),
-  d({ id: "tivozanib", name: "Tivozanib", brand: "Fotivda", modality: "Small-molecule kinase inhibitor (VEGFR)", status: "approved", wikipedia: W("Tivozanib"),
+  d({ id: "tivozanib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tivozanib" }], name: "Tivozanib", brand: "Fotivda", modality: "Small-molecule kinase inhibitor (VEGFR)", status: "approved", wikipedia: W("Tivozanib"),
     tldr: "Tivozanib is a highly selective VEGF-receptor pill for kidney cancer after two or more prior treatments, notable for its tolerability and for a trial that closed the door on immunotherapy rechallenge.",
     summary: "TIVO-3 (2019): PFS 5.6 vs 3.9 months vs sorafenib in third line and beyond; FDA approval March 2021. TiNivo-2 (2024-26): adding nivolumab gave no benefit after prior IO. AVEO, acquired by LG Chem in 2023.",
     mechanism: "Selective VEGFR1-3 inhibitor with low off-target kinase activity.",

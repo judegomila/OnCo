@@ -231,7 +231,7 @@ const drugs: DrugInput[] = [
     dosing: { route: "Oral", schedule: "25 mg once daily after a meal" },
     approvals: [{ region: "US", year: 1999, indication: "Advanced breast cancer after tamoxifen" }, { region: "US", year: 2005, indication: "Adjuvant after 2-3 years of tamoxifen" }],
     targets: ["estrogen-receptor"], technologies: ["endocrine-therapy"], cancers: ["breast-hr-positive"], trials: ["soft-text", "evera"] }),
-  d({ id: "tamoxifen", name: "Tamoxifen", brand: "Nolvadex", modality: "Small-molecule SERM", status: "approved", wikipedia: W("Tamoxifen"),
+  d({ id: "tamoxifen", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tamoxifen" }], name: "Tamoxifen", brand: "Nolvadex", modality: "Small-molecule SERM", status: "approved", wikipedia: W("Tamoxifen"),
     tldr: "The original targeted cancer drug (1977): a pill that blocks oestrogen's effect on breast cancer and halves recurrence, still essential for premenopausal women.",
     summary: "Selective oestrogen receptor modulator: antagonist in breast, partial agonist in bone and endometrium. Five years reduces 15-year breast cancer mortality by about a third (EBCTCG); ten years is better than five (ATLAS, aTTom). Standard for premenopausal women (alone or with OFS), for men, and for chemoprevention. Endometrial cancer and thromboembolism are the serious rare harms; CYP2D6 activation to endoxifen.",
     mechanism: "Competitive ER antagonist in breast tissue; tissue-selective co-regulator recruitment.",

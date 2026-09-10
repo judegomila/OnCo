@@ -255,7 +255,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2022, indication: "Relapsed/refractory IDH1-mutated AML" }],
     regulatoryEvents: [{ date: "2022-12-01", type: "approval", region: "US", note: "Study 2102-HEM-101 pivotal cohort" }],
     targets: ["idh"], technologies: ["epigenetic-drugs"], companies: ["rigel-pharmaceuticals"], cancers: ["aml"], terms: ["differentiation-syndrome"] }),
-  d({ id: "ziftomenib", name: "Ziftomenib", brand: "Komzifti", modality: "Small-molecule menin inhibitor", status: "approved",
+  d({ id: "ziftomenib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ziftomenib" }], name: "Ziftomenib", brand: "Komzifti", modality: "Small-molecule menin inhibitor", status: "approved",
     tldr: "Ziftomenib is the second menin inhibitor for leukaemia, approved in November 2025 as a once-daily pill for relapsed NPM1-mutated AML.",
     summary: "KOMET-001 (n=112 relapsed/refractory NPM1-mutated AML): CR 23%, ORR 33%, median OS 6.6 months. Approved 13 November 2025 (Kura Oncology / Kyowa Kirin). KOMET-007 combines ziftomenib with 7+3 and with venetoclax-azacitidine in newly diagnosed NPM1-mutated and KMT2A-rearranged AML, with high remission rates in early cohorts; KOMET-017 phase 3 registration studies are underway. Menin inhibition also being tested in KMT2Ar ALL.",
     mechanism: "Displaces KMT2A/KMT2A-fusion complexes from menin, silencing HOXA9/MEIS1 and releasing the differentiation block in NPM1-mutant and KMT2A-rearranged blasts.",

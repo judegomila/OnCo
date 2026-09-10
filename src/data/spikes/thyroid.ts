@@ -124,7 +124,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 1951, indication: "Hyperthyroidism and thyroid carcinoma (first radiopharmaceutical approval)" }],
     regulatoryEvents: [{ date: "1946", type: "approval", region: "US", note: "First therapeutic use in thyroid cancer (Seidlin); formal approval followed" }],
     targets: ["sstr2"], technologies: ["radioiodine-therapy", "radioligand-therapy"], cancers: ["thyroid"], trials: ["hilo", "estimabl2", "ion-trial"], terms: ["theranostics", "rai-refractory", "low-risk-dtc"] }),
-  d({ id: "vandetanib", name: "Vandetanib", brand: "Caprelsa", modality: "Small-molecule kinase inhibitor (RET, VEGFR, EGFR)", status: "approved", wikipedia: W("Vandetanib"),
+  d({ id: "vandetanib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Vandetanib" }], name: "Vandetanib", brand: "Caprelsa", modality: "Small-molecule kinase inhibitor (RET, VEGFR, EGFR)", status: "approved", wikipedia: W("Vandetanib"),
     tldr: "Vandetanib was the first drug approved for medullary thyroid cancer (2011), now largely replaced by RET-selective selpercatinib.",
     summary: "ZETA trial: PFS HR 0.46 versus placebo in advanced MTC; FDA approval April 2011 with a REMS for QT prolongation. LIBRETTO-531 showed selpercatinib superior to vandetanib or cabozantinib first line.",
     mechanism: "Multikinase inhibitor of RET, VEGFR2, and EGFR.",

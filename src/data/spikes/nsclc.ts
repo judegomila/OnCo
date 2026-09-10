@@ -194,7 +194,7 @@ const drugs: DrugInput[] = [
     mechanism: "ALK-selective TKI designed to avoid TRK inhibition (dizziness, weight gain) and cover solvent-front and compound mutations.",
     targets: ["alk"], technologies: ["kinase-inhibitors"], companies: ["nuvalent"], cancers: ["nsclc"], trials: ["alkove-1"], drugs: ["lorlatinib", "alectinib"],
     links: [{ label: "OncLive: priority review", url: "https://www.onclive.com/view/fda-grants-priority-review-to-neladalkib-for-tki-pretreated-alk-nsclc" }] }),
-  d({ id: "tremelimumab", name: "Tremelimumab", brand: "Imjudo", modality: "Monoclonal antibody (anti-CTLA-4)", status: "approved", wikipedia: W("Tremelimumab"),
+  d({ id: "tremelimumab", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tremelimumab" }], name: "Tremelimumab", brand: "Imjudo", modality: "Monoclonal antibody (anti-CTLA-4)", status: "approved", wikipedia: W("Tremelimumab"),
     tldr: "Tremelimumab is AstraZeneca's CTLA-4 antibody, given as a single priming dose with durvalumab and chemotherapy in lung and liver cancer.",
     summary: "POSEIDON: tremelimumab + durvalumab + chemotherapy improved OS versus chemotherapy in first-line metastatic NSCLC (HR 0.77), with the largest benefit in STK11/KEAP1/KRAS-mutant and PD-L1-negative disease. Approved November 2022 (NSCLC) and October 2022 (HCC with durvalumab, HIMALAYA).",
     mechanism: "Human IgG2 anti-CTLA-4; limited priming doses reduce toxicity.",

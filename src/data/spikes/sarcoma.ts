@@ -118,7 +118,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2023, indication: "Progressing desmoid tumours requiring systemic treatment" }, { region: "EU", year: 2025, indication: "Progressing desmoid tumours" }],
     regulatoryEvents: [{ date: "2023-11-27", type: "approval", region: "US", note: "First systemic therapy for desmoid tumours (DeFi)", source: "https://www.onclive.com/view/fda-approves-nirogacestat-for-desmoid-tumors" }, { date: "2025", type: "approval", region: "EU", note: "European Commission approval", source: "https://www.onclive.com/view/nirogacestat-wins-eu-approval-for-progressing-desmoid-tumors" }],
     pathways: ["wnt"], technologies: ["kinase-inhibitors"], companies: ["springworks"], cancers: ["sarcoma"], trials: ["defi"] }),
-  d({ id: "vimseltinib", name: "Vimseltinib", brand: "Romvimza", modality: "Small-molecule kinase inhibitor (CSF1R)", status: "approved",
+  d({ id: "vimseltinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Vimseltinib" }], name: "Vimseltinib", brand: "Romvimza", modality: "Small-molecule kinase inhibitor (CSF1R)", status: "approved",
     tldr: "Vimseltinib is a pill approved in February 2025 for tenosynovial giant cell tumour, a benign but destructive joint tumour, offering an alternative to repeated surgery.",
     summary: "MOTION: ORR 40% vs 0% at week 25; improvements in range of motion, pain and function; no liver toxicity signal of the kind that limited pexidartinib. Approved 14 February 2025. Deciphera/Ono.",
     mechanism: "Switch-control inhibitor of CSF1R; TGCT is driven by CSF1 overexpression (COL6A3-CSF1 translocation) recruiting CSF1R+ macrophages.",

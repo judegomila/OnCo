@@ -43,7 +43,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2017, indication: "Relapsed/refractory CD22+ B-ALL, adults" }, { region: "US", year: 2024, indication: "Paediatric patients ≥1 year with relapsed/refractory CD22+ B-ALL" }],
     regulatoryEvents: [{ date: "2017-08-17", type: "approval", region: "US", note: "INO-VATE" }, { date: "2024-03-06", type: "label-change", region: "US", note: "Paediatric expansion" }],
     targets: ["cd22"], technologies: ["adc"], companies: ["pfizer"], cancers: ["all-leukemia"], trials: ["ino-vate"], terms: ["payload", "linker"] }),
-  d({ id: "tisagenlecleucel", name: "Tisagenlecleucel", brand: "Kymriah", code: "CTL019", modality: "CAR-T (CD19)", status: "approved", wikipedia: W("Tisagenlecleucel"),
+  d({ id: "tisagenlecleucel", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tisagenlecleucel" }], name: "Tisagenlecleucel", brand: "Kymriah", code: "CTL019", modality: "CAR-T (CD19)", status: "approved", wikipedia: W("Tisagenlecleucel"),
     tldr: "Tisagenlecleucel was the first CAR-T therapy ever approved (2017), for children and young adults whose leukaemia had come back after everything else.",
     summary: "ELIANA (n=75 infused, age ≤25): ORR 81% within 3 months, 12-month OS 76%, 5-year EFS ~44% in responders without further therapy (2023 update). Approved 30 August 2017 for relapsed/refractory B-ALL up to age 25; later for DLBCL and follicular lymphoma. 4-1BB costimulation gives long persistence; CD19-negative relapse is the main failure mode. Emily Whitehead, treated in 2012, remains in remission.",
     mechanism: "Autologous T cells transduced with a lentiviral CD19 scFv-4-1BB-CD3ζ CAR; expand in vivo and kill CD19+ blasts.",

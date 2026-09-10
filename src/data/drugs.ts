@@ -22,7 +22,7 @@ const baseDrugs: DrugInput[] = [
     terms: ["bystander-effect", "payload"],
   },
   {
-    id: "trastuzumab-deruxtecan", kind: "drug", name: "Trastuzumab deruxtecan", brand: "Enhertu", code: "DS-8201, T-DXd", modality: "ADC", asOf, status: "approved", wikipedia: W("Trastuzumab_deruxtecan"),
+    id: "trastuzumab-deruxtecan", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Trastuzumab%20deruxtecan" }], name: "Trastuzumab deruxtecan", brand: "Enhertu", code: "DS-8201, T-DXd", modality: "ADC", asOf, status: "approved", wikipedia: W("Trastuzumab_deruxtecan"),
     payload: "DXd (exatecan derivative, TOP1 inhibitor), DAR ~8", linker: "Tetrapeptide GGFG, protease-cleavable",
     tldr: "Trastuzumab deruxtecan (Enhertu) is the most successful ADC ever. It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer.",
     summary: "Approved in HER2+ metastatic breast cancer (DESTINY-Breast03: beat T-DM1), HER2-low (DESTINY-Breast04, 2022) and HER2-ultralow (DESTINY-Breast06, 2025) HR+ breast cancer, HER2+ gastric, HER2-mutant NSCLC, and tumour-agnostically for HER2 IHC 3+ solid tumours (2024). DESTINY-Breast09 (with pertuzumab) established it in first-line HER2+ metastatic disease. In Q2 2026 the FDA approved two early-stage HER2+ indications (neoadjuvant DESTINY-Breast11; post-neoadjuvant DESTINY-Breast05). Interstitial lung disease (~10-15%, ~1% fatal) requires monitoring. Membrane-permeable payload gives a strong bystander effect.",
@@ -67,7 +67,7 @@ const baseDrugs: DrugInput[] = [
     links: [{ label: "Frontiers review (2026)", url: "https://www.frontiersin.org/journals/oncology-reviews/articles/10.3389/or.2026.1781533/full" }],
   },
   {
-    id: "trastuzumab-emtansine", kind: "drug", name: "Trastuzumab emtansine", brand: "Kadcyla", code: "T-DM1", modality: "ADC", asOf, status: "approved", wikipedia: W("Trastuzumab_emtansine"),
+    id: "trastuzumab-emtansine", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Trastuzumab%20emtansine" }], name: "Trastuzumab emtansine", brand: "Kadcyla", code: "T-DM1", modality: "ADC", asOf, status: "approved", wikipedia: W("Trastuzumab_emtansine"),
     payload: "DM1 (maytansinoid, tubulin inhibitor), DAR ~3.5", linker: "SMCC, non-cleavable",
     tldr: "Trastuzumab emtansine (Kadcyla, T-DM1) was the first ADC for a solid tumour (2013). It is still standard after surgery for HER2+ breast cancer patients whose tumour did not fully respond to pre-surgery treatment.",
     summary: "Approved 2013 for pretreated HER2+ metastatic breast cancer (EMILIA) and 2019 for residual disease after neoadjuvant therapy (KATHERINE: invasive DFS HR 0.50, with OS benefit). Non-cleavable linker means no bystander effect, which explains its inferiority to T-DXd in DESTINY-Breast03 and its failure in HER2-low disease. Being displaced post-neoadjuvantly by T-DXd (DESTINY-Breast05).",
@@ -109,7 +109,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["folr1"], technologies: ["adc"], companies: ["abbvie"], cancers: ["ovarian"],
   },
   {
-    id: "tisotumab-vedotin", kind: "drug", name: "Tisotumab vedotin", brand: "Tivdak", modality: "ADC", asOf, status: "approved", wikipedia: W("Tisotumab_vedotin"),
+    id: "tisotumab-vedotin", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tisotumab%20vedotin" }], name: "Tisotumab vedotin", brand: "Tivdak", modality: "ADC", asOf, status: "approved", wikipedia: W("Tisotumab_vedotin"),
     payload: "MMAE", linker: "mc-vc-PABC",
     tldr: "Tisotumab vedotin is an ADC against tissue factor, the first to show a survival benefit in recurrent cervical cancer.",
     summary: "innovaTV 301: OS 11.5 vs 9.5 months versus chemotherapy in second/third-line cervical cancer; full approval 2024. Ocular and bleeding events are notable.",
@@ -118,7 +118,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["tissue-factor"], technologies: ["adc"], companies: ["pfizer", "genmab"], cancers: ["cervical"],
   },
   {
-    id: "telisotuzumab-vedotin", kind: "drug", name: "Telisotuzumab vedotin", brand: "Emrelis", modality: "ADC", asOf, status: "approved",
+    id: "telisotuzumab-vedotin", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Telisotuzumab%20vedotin" }], name: "Telisotuzumab vedotin", brand: "Emrelis", modality: "ADC", asOf, status: "approved",
     payload: "MMAE", linker: "mc-vc-PABC",
     tldr: "Telisotuzumab vedotin (Emrelis) is the first c-MET-directed ADC, approved in 2025 for lung cancer with high c-MET protein.",
     summary: "Accelerated approval May 2025 for previously treated non-squamous NSCLC with high c-MET overexpression (LUMINOSITY: ORR ~35%). Confirmatory TeliMET NSCLC-01 ongoing.",
@@ -327,7 +327,7 @@ const baseDrugs: DrugInput[] = [
 
   // ======================= BISPECIFICS / T-CELL ENGAGERS =======================
   {
-    id: "tarlatamab", kind: "drug", name: "Tarlatamab", brand: "Imdelltra", modality: "Bispecific T-cell engager (DLL3×CD3)", asOf, status: "approved", wikipedia: W("Tarlatamab"),
+    id: "tarlatamab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tarlatamab" }], name: "Tarlatamab", brand: "Imdelltra", modality: "Bispecific T-cell engager (DLL3×CD3)", asOf, status: "approved", wikipedia: W("Tarlatamab"),
     tldr: "The first T-cell engager to improve survival in a common solid tumour, small-cell lung cancer.",
     summary: "Accelerated approval May 2024 (DeLLphi-301, ORR 40%); DeLLphi-304 phase 3 (2025) showed OS 13.6 vs 8.3 months versus chemotherapy in second-line SCLC, converting to full approval. First-line combination with PD-L1 (DeLLphi-305) and limited-stage trials ongoing. CRS in ~50% (mostly grade 1-2); step-up dosing with monitoring.",
     mechanism: "Half-life-extended BiTE binding DLL3 on tumour and CD3 on T cells.",
@@ -335,7 +335,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["dll3", "cd3"], technologies: ["t-cell-engager"], companies: ["amgen"], cancers: ["sclc"], trials: ["dellphi-304"], terms: ["crs"],
   },
   {
-    id: "teclistamab", kind: "drug", name: "Teclistamab", brand: "Tecvayli", modality: "Bispecific T-cell engager (BCMA×CD3)", asOf, status: "approved", wikipedia: W("Teclistamab"),
+    id: "teclistamab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Teclistamab" }], name: "Teclistamab", brand: "Tecvayli", modality: "Bispecific T-cell engager (BCMA×CD3)", asOf, status: "approved", wikipedia: W("Teclistamab"),
     tldr: "Teclistamab was the first off-the-shelf bispecific for multiple myeloma, and is now approved after just one prior line of therapy.",
     summary: "Approved 2022 for heavily pretreated myeloma (MajesTEC-1, ORR 63%). In Q1 2026 label expanded to relapsed/refractory myeloma after ≥1 prior therapy (MajesTEC-3, with daratumumab). Infection prophylaxis is essential.",
     mechanism: "Humanised IgG4 BCMA×CD3 DuoBody.",
@@ -351,7 +351,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cd20", "cd3"], technologies: ["t-cell-engager"], companies: ["roche-genentech"], cancers: ["dlbcl"],
   },
   {
-    id: "tebentafusp", kind: "drug", name: "Tebentafusp", brand: "Kimmtrak", modality: "ImmTAC (TCR×CD3 bispecific)", asOf, status: "approved", wikipedia: W("Tebentafusp"),
+    id: "tebentafusp", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tebentafusp" }], name: "Tebentafusp", brand: "Kimmtrak", modality: "ImmTAC (TCR×CD3 bispecific)", asOf, status: "approved", wikipedia: W("Tebentafusp"),
     tldr: "The first drug to improve survival in metastatic uveal melanoma, and the first TCR-based bispecific.",
     summary: "Approved 2022 for HLA-A*02:01-positive metastatic uveal melanoma (OS 21.7 vs 16.0 months). Also being tested in cutaneous melanoma after PD-1 (TEBE-AM). Immunocore's PRAME-directed brenetafusp follows.",
     mechanism: "Soluble affinity-enhanced TCR against gp100 peptide-HLA fused to anti-CD3 scFv.",
@@ -375,7 +375,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["egfr", "met"], technologies: ["bispecific-antibody"], companies: ["johnson-johnson"], cancers: ["nsclc"], trials: ["mariposa"],
   },
   {
-    id: "zanidatamab", kind: "drug", name: "Zanidatamab", brand: "Ziihera", modality: "Biparatopic bispecific antibody (HER2)", asOf, status: "approved", wikipedia: W("Zanidatamab"),
+    id: "zanidatamab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Zanidatamab" }], name: "Zanidatamab", brand: "Ziihera", modality: "Biparatopic bispecific antibody (HER2)", asOf, status: "approved", wikipedia: W("Zanidatamab"),
     tldr: "Zanidatamab (Ziihera) is an antibody that grabs HER2 at two different spots, approved for HER2+ bile duct cancer.",
     summary: "Accelerated approval November 2024 for HER2+ biliary tract cancer (HERIZON-BTC-01). HERIZON-GEA-01 phase 3 in first-line HER2+ gastro-oesophageal cancer with chemotherapy ± tislelizumab was positive (2025). Jazz (ex-Asia) and BeOne. Biparatopic binding drives receptor clustering and internalisation, the basis of the ADC zanidatamab zovodotin.",
     mechanism: "Binds ECD2 and ECD4 of HER2 simultaneously; clustering, internalisation, ADCC.",
@@ -383,7 +383,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["her2"], technologies: ["bispecific-antibody"], companies: ["jazz", "zymeworks", "beone"], cancers: ["cholangiocarcinoma", "gastric"],
   },
   {
-    id: "zenocutuzumab", kind: "drug", name: "Zenocutuzumab", brand: "Bizengri", modality: "Bispecific antibody (HER2×HER3)", asOf, status: "approved", wikipedia: W("Zenocutuzumab"),
+    id: "zenocutuzumab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Zenocutuzumab" }], name: "Zenocutuzumab", brand: "Bizengri", modality: "Bispecific antibody (HER2×HER3)", asOf, status: "approved", wikipedia: W("Zenocutuzumab"),
     tldr: "Zenocutuzumab is the first drug for cancers driven by NRG1 gene fusions, working by blocking HER3 from receiving its growth signal.",
     summary: "Accelerated approval December 2024 for NRG1-fusion NSCLC and pancreatic cancer (eNRGy trial); Q2 2026 expanded to NRG1-fusion cholangiocarcinoma. Merus/Partner Therapeutics.",
     mechanism: "Docks on HER2 and blocks NRG1 binding to HER3 ('dock and block').",
@@ -547,7 +547,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["ret"], technologies: ["kinase-inhibitors"], companies: ["eli-lilly"], cancers: ["thyroid", "nsclc"],
   },
   {
-    id: "zongertinib", kind: "drug", name: "Zongertinib", brand: "Hernexeos", modality: "Small-molecule kinase inhibitor (HER2)", asOf, status: "approved",
+    id: "zongertinib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Zongertinib" }], name: "Zongertinib", brand: "Hernexeos", modality: "Small-molecule kinase inhibitor (HER2)", asOf, status: "approved",
     tldr: "Zongertinib was the first oral HER2 inhibitor for lung cancer with HER2 mutations, approved in 2025 and moved to first line in 2026.",
     summary: "Beamion LUNG-1 (ORR ~71% in previously treated HER2-mutant NSCLC) led to accelerated approval August 2025; Q1 2026 first-line approval. Boehringer Ingelheim. Competes with T-DXd and sevabertinib (Bayer, approved late 2025).",
     mechanism: "Irreversible HER2-selective TKI sparing EGFR.",
@@ -555,7 +555,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["her2"], technologies: ["kinase-inhibitors"], companies: ["boehringer-ingelheim"], cancers: ["nsclc"],
   },
   {
-    id: "zidesamtinib", kind: "drug", name: "Zidesamtinib", brand: "Jideytro", modality: "Small-molecule kinase inhibitor (ROS1)", asOf, status: "approved",
+    id: "zidesamtinib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Zidesamtinib" }], name: "Zidesamtinib", brand: "Jideytro", modality: "Small-molecule kinase inhibitor (ROS1)", asOf, status: "approved",
     tldr: "A ROS1 inhibitor approved in July 2026 that works after other ROS1 drugs fail and avoids their brain side effects.",
     summary: "Nuvalent's first approval (ARROS-1). Designed to spare TRK (avoiding dizziness and weight gain of repotrectinib/entrectinib) while covering the G2032R resistance mutation. Nuvalent's ALK inhibitor neladalkib follows.",
     mechanism: "TRK-sparing, brain-penetrant ROS1-selective TKI.",
@@ -635,7 +635,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["pik3ca", "akt"], technologies: ["kinase-inhibitors"], companies: ["celcuity"], cancers: ["breast-hr-positive"],
   },
   {
-    id: "vepdegestrant", kind: "drug", name: "Vepdegestrant", brand: "Veppanu", code: "ARV-471", modality: "PROTAC oestrogen receptor degrader", asOf, status: "approved",
+    id: "vepdegestrant", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Vepdegestrant" }], name: "Vepdegestrant", brand: "Veppanu", code: "ARV-471", modality: "PROTAC oestrogen receptor degrader", asOf, status: "approved",
     tldr: "Vepdegestrant is the first PROTAC ever approved (2026): a pill that tags the oestrogen receptor for destruction, for breast cancers with ESR1 mutations.",
     summary: "VERITAC-2: improved PFS versus fulvestrant in ESR1-mutant ER+/HER2- advanced breast cancer after CDK4/6 and endocrine therapy (no benefit in ESR1-wild-type). Approved Q2 2026. Arvinas/Pfizer. Marks the clinical arrival of targeted protein degradation.",
     mechanism: "Heterobifunctional molecule recruiting cereblon E3 ligase to ERα for proteasomal degradation.",
@@ -675,7 +675,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["menin"], technologies: ["epigenetic-drugs"], companies: ["syndax"], cancers: ["aml", "all-leukemia"],
   },
   {
-    id: "vorasidenib", kind: "drug", name: "Vorasidenib", brand: "Voranigo", modality: "Small-molecule IDH1/2 inhibitor", asOf, status: "approved", wikipedia: W("Vorasidenib"),
+    id: "vorasidenib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Vorasidenib" }], name: "Vorasidenib", brand: "Voranigo", modality: "Small-molecule IDH1/2 inhibitor", asOf, status: "approved", wikipedia: W("Vorasidenib"),
     tldr: "The first targeted therapy for low-grade brain tumours, delaying the need for radiation and chemotherapy by years.",
     summary: "INDIGO: PFS 27.7 vs 11.1 months in grade 2 IDH-mutant glioma after surgery. Approved August 2024. Servier.",
     mechanism: "Brain-penetrant dual IDH1/IDH2 inhibitor reducing 2-HG.",
@@ -683,7 +683,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["idh"], technologies: ["epigenetic-drugs"], companies: ["servier"], cancers: ["glioblastoma"],
   },
   {
-    id: "venetoclax", kind: "drug", name: "Venetoclax", brand: "Venclexta", modality: "Small-molecule BCL-2 inhibitor", asOf, status: "approved", wikipedia: W("Venetoclax"),
+    id: "venetoclax", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Venetoclax" }], name: "Venetoclax", brand: "Venclexta", modality: "Small-molecule BCL-2 inhibitor", asOf, status: "approved", wikipedia: W("Venetoclax"),
     tldr: "A pill that removes the survival shield from leukaemia cells, enabling chemotherapy-free, time-limited treatment for CLL.",
     summary: "CLL (fixed-duration with obinutuzumab, CLL14; with ibrutinib), AML with azacitidine in unfit patients (VIALE-A). AbbVie/Genentech. Tumour lysis syndrome managed by ramp-up dosing.",
     mechanism: "BH3-mimetic selective BCL-2 inhibitor.",
@@ -699,7 +699,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["kit"], technologies: ["kinase-inhibitors"], companies: ["novartis"], cancers: ["sarcoma", "cll"],
   },
   {
-    id: "trastuzumab", kind: "drug", name: "Trastuzumab", brand: "Herceptin (and biosimilars, Phesgo with pertuzumab)", modality: "Monoclonal antibody (anti-HER2)", asOf, status: "approved", wikipedia: W("Trastuzumab"),
+    id: "trastuzumab", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Trastuzumab" }], name: "Trastuzumab", brand: "Herceptin (and biosimilars, Phesgo with pertuzumab)", modality: "Monoclonal antibody (anti-HER2)", asOf, status: "approved", wikipedia: W("Trastuzumab"),
     tldr: "The first targeted antibody for a solid tumour (1998), which turned HER2-positive breast cancer from the worst subtype into one of the most treatable.",
     summary: "Metastatic (1998) and adjuvant (2006; HERA, NSABP B-31/N9831 with ~37% reduction in death). With pertuzumab (CLEOPATRA, APHINITY) as dual blockade; subcutaneous Phesgo. Backbone of T-DM1 and T-DXd antibodies. Biosimilars since 2017.",
     mechanism: "Humanised IgG1 binding HER2 ECD4; signal inhibition and ADCC.",
@@ -707,7 +707,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["her2"], technologies: ["monoclonal-antibody"], companies: ["roche-genentech"], cancers: ["breast-her2-positive", "gastric"],
   },
   {
-    id: "tucatinib", kind: "drug", name: "Tucatinib", brand: "Tukysa", modality: "Small-molecule kinase inhibitor (HER2)", asOf, status: "approved", wikipedia: W("Tucatinib"),
+    id: "tucatinib", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tucatinib" }], name: "Tucatinib", brand: "Tukysa", modality: "Small-molecule kinase inhibitor (HER2)", asOf, status: "approved", wikipedia: W("Tucatinib"),
     tldr: "A HER2-selective pill that works in the brain, for HER2-positive breast cancer with brain metastases.",
     summary: "HER2CLIMB (with trastuzumab and capecitabine; OS benefit including active brain metastases). Also in HER2+ colorectal cancer with trastuzumab (MOUNTAINEER, 2023). Pfizer (Seagen).",
     mechanism: "Highly HER2-selective reversible TKI sparing EGFR.",
@@ -732,7 +732,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["neoantigen-mrna-vaccine"], companies: ["biontech", "roche-genentech"], cancers: ["pancreatic", "colorectal", "melanoma"],
   },
   {
-    id: "vusolimogene-oderparepvec", kind: "drug", name: "Vusolimogene oderparepvec", brand: "Tudriqev", code: "RP1", modality: "Oncolytic virus (HSV-1)", asOf, status: "approved",
+    id: "vusolimogene-oderparepvec", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Vusolimogene%20oderparepvec" }], name: "Vusolimogene oderparepvec", brand: "Tudriqev", code: "RP1", modality: "Oncolytic virus (HSV-1)", asOf, status: "approved",
     tldr: "Vusolimogene oderparepvec is an engineered herpes virus injected into melanoma tumours, approved in August 2026 with nivolumab after immunotherapy failure.",
     summary: "Replimune's RP1 expresses GM-CSF and GALV-GP R- fusogenic protein. IGNYTE: ORR ~33% in anti-PD-1-failed melanoma, including uninjected lesions. FDA issued a complete response letter in July 2025 then granted accelerated approval on 6 August 2026 with nivolumab. Confirmatory IGNYTE-3 ongoing.",
     mechanism: "Selective replication in tumour cells, cell fusion and lysis, GM-CSF-driven antigen presentation.",

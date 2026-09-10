@@ -198,7 +198,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Arthralgia", anyGradePct: 25 }, { event: "Hot flushes", anyGradePct: 33 }, { event: "Bone loss / fracture", note: "Cumulative; DEXA monitoring recommended" }],
     approvals: [{ region: "US", year: 1997, indication: "Advanced breast cancer in postmenopausal women; adjuvant from 2005" }],
     targets: ["estrogen-receptor"], technologies: ["endocrine-therapy"], cancers: ["ovarian", "endometrial", "breast-hr-positive"], terms: ["lgsoc"], pathways: ["er-signaling"] }),
-  d({ id: "trabectedin", name: "Trabectedin", brand: "Yondelis", modality: "Cytotoxic (DNA minor-groove binder)", status: "approved", wikipedia: W("Trabectedin"),
+  d({ id: "trabectedin", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Trabectedin" }], name: "Trabectedin", brand: "Yondelis", modality: "Cytotoxic (DNA minor-groove binder)", status: "approved", wikipedia: W("Trabectedin"),
     tldr: "A chemotherapy derived from a sea squirt, used with liposomal doxorubicin in relapsed ovarian cancer in Europe and for sarcomas.",
     summary: "OVA-301 showed a PFS benefit with pegylated liposomal doxorubicin in partially platinum-sensitive relapse; approved in the EU (2009) for ovarian cancer but not in the US for this indication. INOVATYON found no OS advantage over platinum. US approval covers liposarcoma and leiomyosarcoma (2015).",
     mechanism: "Binds the DNA minor groove, bends DNA, blocks transcription-coupled repair, and modulates tumour-associated macrophages.",

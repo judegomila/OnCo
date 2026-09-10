@@ -45,6 +45,7 @@ import { tests } from "./tests";
 import { nciCoverage } from "./nci-coverage";
 import { institutionsIndia } from "./institutions/india";
 import { india } from "./india";
+import { china } from "./china";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -93,4 +94,5 @@ export const ALL_INPUTS: EntityInput[] = [
   ...nciCoverage,
   ...institutionsIndia,
   ...india,
+  ...china,
 ];

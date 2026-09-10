@@ -47,7 +47,7 @@ const REGION: Record<string, string> = { US: "North America", CA: "North America
 const fmt = (n?: number) => (n === undefined || Number.isNaN(n) ? "—" : n >= 1000 ? Math.round(n).toLocaleString("en-GB") : n.toLocaleString("en-GB", { maximumFractionDigits: 1 }));
 const pct = (a: number, b: number) => (b ? `${Math.round((a / b) * 100)}%` : "—");
 
-export function CountryRanking({ rows, years }: { rows: CountryRow[]; years: number[] }) {
+export function CountryRanking({ rows, years, deepDives = [] }: { rows: CountryRow[]; years: number[]; /** ISO codes with a deep-dive page at /countries/<code>/. */ deepDives?: string[] }) {
   const [perCapita, setPerCapita] = useState(false);
   const [region, setRegion] = useState<string[]>([]);
   const [min, setMin] = useState<string | null>("500");
@@ -87,7 +87,7 @@ export function CountryRanking({ rows, years }: { rows: CountryRow[]; years: num
     { key: "rank", label: "#", render: (_, i) => <span className="tabular-nums text-muted">{i + 1}</span>, className: "w-10" },
     { key: "name", label: "Country", sortable: true, render: ({ r }) => (
       <div className="min-w-[200px]">
-        <div className="font-medium">{r.name} <span className="text-xs text-muted">{r.code}</span></div>
+        <div className="font-medium">{r.name} <span className="text-xs text-muted">{r.code}</span>{deepDives.includes(r.code) ? <Link href={`/countries/${r.code.toLowerCase()}/`} className="ml-2 text-xs underline decoration-dotted text-muted hover:text-foreground">Deep dive</Link> : null}</div>
         <div className="text-xs text-muted">{r.funder ?? ""}{r.budget ? ` · ${r.budget}` : ""}</div>
       </div>) },
     { key: "works", label: perCapita ? `Works ${y1} / M pop` : `Oncology works ${y1}`, sortable: true, render: ({ r }) => <span className="tabular-nums">{perCapita && r.population ? fmt((r.works[y1] ?? 0) / r.population) : fmt(r.works[y1])}</span> },

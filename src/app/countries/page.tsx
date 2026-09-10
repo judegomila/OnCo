@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CountryRanking, type CountryRow } from "@/components/CountryRanking";
 import { countryExtras } from "@/data/country-extras";
+import { routeExists } from "@/lib/sitemap-urls";
 import data from "../../../public/openalex/countries.json";
 
 export const metadata: Metadata = pageMeta({ title: "Countries: who is doing the most cancer research", description: "Countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.", path: "/countries/" });
@@ -16,6 +17,8 @@ export default function Countries() {
   const g = graph();
   const instByCountry = new Map<string, number>();
   for (const i of g.kind("institution")) instByCountry.set(i.country, (instByCountry.get(i.country) ?? 0) + 1);
+  // Country deep dives live at /countries/<code>/ (for example /countries/china/); link them from the ranking when the page exists.
+  const deepDives = Object.keys(raw.countries).filter((code) => routeExists(`/countries/${code.toLowerCase()}/`)).map((code) => code);
   const rows: CountryRow[] = Object.entries(raw.countries).map(([code, c]) => ({ code, ...c, ...(countryExtras[code] ?? {}), name: countryExtras[code]?.name ?? c.name, institutions: instByCountry.get(code) ?? 0 }));
   const y1 = raw.years[raw.years.length - 1];
   const top = [...rows].sort((a, b) => (b.works[String(y1)] ?? 0) - (a.works[String(y1)] ?? 0)).slice(0, 3);
@@ -25,8 +28,7 @@ export default function Countries() {
       <PageHeader kicker={<GroupKicker id="who" />} title="Countries: who is doing the most cancer research"
         lede={`Oncology research output by country from OpenAlex (${raw.years[0]}–${y1}), with growth, highly cited share, open access, ClinicalTrials.gov sites, cancer burden, and the national funder. Ranked by a disclosed composite score. In ${y1} the leaders by volume were ${top.map((t) => t.name).join(", ")}.`} />
       <Container className="pb-16">
-        <CountryRanking rows={rows} years={raw.years} />
-        <p className="mt-4 text-sm text-muted">Country deep dives: <Link href="/countries/in/" className="underline">India</Link> (cancer profile, paying for care, CDSCO, institutions, companies, trials and people).</p>
+        <CountryRanking rows={rows} years={raw.years} deepDives={deepDives} />
 
         <section className="mt-12 grid gap-6 lg:grid-cols-2 text-[15px] leading-relaxed max-w-6xl">
           <div>

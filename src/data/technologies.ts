@@ -8,7 +8,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "ct", kind: "technology", name: "CT (computed tomography)", sections: ["imaging"], status: "standard-of-care", asOf, since: 1971, wikipedia: W("CT_scan"),
     tldr: "A CT scan is a fast 3D X-ray that shows the size and shape of tumours and whether they have spread.",
-    summary: "Workhorse of staging and response assessment (RECIST). Fast, widely available, excellent for lung, liver, bone, and lymph nodes. Limited soft-tissue contrast and no biological information; ionising radiation. Photon-counting CT improves resolution at lower dose.",
+    summary: "Computed tomography rotates an X-ray source and detector around the body and reconstructs the measured attenuation into cross-sectional images, with iodinated contrast highlighting vasculature. In use since 1971, it is the workhorse of staging and response assessment and the standard measurement tool for RECIST. It is fast, ubiquitous, offers sub-millimetre resolution and is excellent for lung, liver, bone and lymph nodes. Its limits are that it shows anatomy only, so it cannot distinguish scar from live tumour or give biological information, it has limited soft-tissue contrast, it performs poorly for brain, marrow and small peritoneal disease, and it delivers ionising radiation. Photon-counting CT improves resolution at lower dose, while PET/CT and MRI fill the gaps in biology and soft tissue. CT is the quick 3D X-ray that most cancer decisions are measured against.",
     principle: "A rotating X-ray source and detector measure attenuation, which is reconstructed into cross-sectional images. Iodinated contrast highlights vasculature.",
     strengths: ["Fast, ubiquitous", "Sub-millimetre resolution", "Standard for RECIST response"],
     limitations: ["Anatomic only; cannot distinguish scar from live tumour", "Radiation dose", "Poor for brain, marrow, and small peritoneal disease"],
@@ -25,7 +25,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "ultrasound", kind: "technology", name: "Ultrasound", sections: ["imaging"], status: "standard-of-care", asOf, wikipedia: W("Medical_ultrasound"),
     tldr: "Ultrasound uses sound waves to make live pictures; it is cheap, safe, and used to guide needles into lumps.",
-    summary: "First-line for breast lumps, thyroid nodules, liver, and lymph nodes; guides most biopsies. Endoscopic ultrasound stages pancreatic, oesophageal, and rectal cancer. Contrast-enhanced ultrasound and elastography add characterisation. Operator-dependent.",
+    summary: "Ultrasound sends pulses of high-frequency sound into the body and builds an image from echoes reflected at tissue interfaces, while Doppler shows blood flow. It is first-line for breast lumps, thyroid nodules, liver and lymph nodes, and guides most biopsies because it is real-time, portable and free of radiation. Endoscopic ultrasound, with the probe inside the gut, stages pancreatic, oesophageal and rectal cancer and samples lesions that external probes cannot reach. Contrast-enhanced ultrasound and elastography add characterisation of blood flow and tissue stiffness. Its weaknesses are that image quality depends heavily on the operator and that sound cannot pass through bone or air, so lung and skeletal disease need other methods. Ultrasound is the cheap, safe, live imaging that puts the needle in the lump.",
     principle: "Pulse-echo of high-frequency sound; reflection at tissue interfaces builds the image. Doppler shows blood flow.",
     strengths: ["Real-time, portable, no radiation", "Ideal biopsy guidance"],
     limitations: ["Operator dependent", "Cannot see through bone or air"],
@@ -44,7 +44,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "pet", kind: "technology", name: "PET (positron emission tomography)", sections: ["imaging"], status: "standard-of-care", asOf, since: 1975, wikipedia: W("Positron_emission_tomography"),
     tldr: "A scan that shows where a radioactive tracer accumulates, so it images what tumours are doing rather than what they look like.",
-    summary: "PET detects paired gamma photons from positron annihilation. The tracer determines what is measured: glucose metabolism (FDG), receptor expression (PSMA, SSTR, TROP2, HER2), stroma (FAP), immune cells (CD8), or DNA repair (PARP). Almost always combined with CT or MRI for anatomic reference.",
+    summary: "Positron emission tomography detects the paired 511 keV gamma photons produced when a positron from a radioactive tracer annihilates with an electron; coincidence detection localises the source and the standardised uptake value (SUV) quantifies it. Isotopes such as 18F, 68Ga, 89Zr and 64Cu are attached to a targeting molecule, and the tracer determines what is measured: glucose metabolism (FDG), receptor expression (PSMA, SSTR, TROP2, HER2), stroma (FAP), immune cells (CD8) or DNA repair (PARP). In clinical use since 1975, it is almost always combined with CT or MRI for anatomic reference. Its strengths are whole-body biology in one quantitative scan and the fact that any target with a ligand can in principle be imaged. Resolution of about 4 mm and tracer supply and cost are the main limitations. PET images what tumours are doing rather than what they look like.",
     principle: "Positron-emitting isotopes (18F, 68Ga, 89Zr, 64Cu) attached to a targeting molecule; coincidence detection of 511 keV photons; standardised uptake value (SUV) quantifies uptake.",
     strengths: ["Whole-body biology in one scan", "Quantitative", "Any target with a ligand can in principle be imaged"],
     limitations: ["Resolution ~4 mm", "Tracer supply and cost", "Inflammation confounds FDG"],
@@ -53,7 +53,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "pet-ct", kind: "technology", name: "PET/CT", sections: ["imaging"], status: "standard-of-care", asOf, since: 2001, wikipedia: W("PET-CT"),
     tldr: "PET and CT in one machine, so hot spots on the PET are pinned to exact locations on the CT.",
-    summary: "The default form of clinical PET. Total-body PET/CT scanners (uEXPLORER, Biograph Vision Quadra) image the whole body simultaneously with 40x sensitivity, enabling ultra-low-dose and dynamic imaging.",
+    summary: "PET/CT acquires PET and CT sequentially on one gantry; the CT provides attenuation correction for the PET data and pins each hot spot to an exact anatomical location. In clinical use since 2001, it is the default form of clinical PET and the standard for staging lymphoma, lung cancer, melanoma and head and neck cancer, combining anatomy with biology in one examination. Total-body PET/CT scanners such as the uEXPLORER and Biograph Vision Quadra image the whole body simultaneously with around 40 times the sensitivity of conventional scanners, enabling ultra-low-dose imaging and dynamic studies that follow tracer kinetics over time. The main drawback is that the CT adds radiation to the PET dose, which matters most in children and in patients scanned repeatedly. PET/CT is two scans in one machine so the biology shown by PET can be read against the anatomy shown by CT.",
     principle: "Sequential PET and CT acquisition on one gantry; CT provides attenuation correction and anatomic localisation.",
     strengths: ["Anatomy plus biology", "Standard for lymphoma, lung, melanoma, head and neck staging"],
     limitations: ["CT radiation added to PET dose"],
@@ -62,7 +62,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "pet-mri", kind: "technology", name: "PET/MRI", sections: ["imaging"], status: "established", asOf, since: 2010, wikipedia: W("PET-MRI"),
     tldr: "PET combined with MRI instead of CT, giving biology plus the best soft-tissue detail, at lower radiation dose.",
-    summary: "Valuable in paediatrics, brain tumours, prostate, and pelvic cancers. Limited by cost and scanner availability; attenuation correction is harder than with CT.",
+    summary: "PET/MRI acquires PET and MRI simultaneously or sequentially using MR-compatible detectors, pairing PET's biological signal with MRI's superior soft-tissue contrast instead of CT. Because MRI adds no ionising radiation, the combined dose is lower than PET/CT, which is why it is valuable in paediatrics and in patients who need repeated scans. It is also used in brain tumours, prostate and pelvic cancers, where MRI already outperforms CT for local staging. In clinical use since 2010, it remains limited by cost, the small number of scanners and long acquisition times, and attenuation correction is harder than with CT because MRI does not directly measure tissue density. Whether the added detail changes management enough to justify the expense is still debated outside those niches. It is PET plus the best soft-tissue pictures, at lower radiation dose but with fewer machines available.",
     principle: "PET and MRI are acquired simultaneously or sequentially with MR-compatible detectors.",
     strengths: ["Lower radiation", "Superior soft tissue"],
     limitations: ["Expensive, few scanners", "Long acquisition"],
@@ -71,7 +71,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "fdg-pet", kind: "technology", name: "FDG PET", sections: ["imaging"], status: "standard-of-care", asOf, wikipedia: W("Fludeoxyglucose_(18F)"),
     tldr: "FDG PET is the standard PET scan. A radioactive sugar shows which tissues are burning glucose fast, which most cancers do.",
-    summary: "18F-fluorodeoxyglucose exploits the Warburg effect. Standard for staging and response in lymphoma (Deauville), lung, melanoma, head and neck, oesophageal cancer. Weak in prostate, low-grade neuroendocrine, mucinous, and some breast cancers, which is why target-specific tracers exist.",
+    summary: "FDG PET uses 18F-fluorodeoxyglucose, a radioactive sugar analogue taken up through GLUT transporters and trapped after phosphorylation by hexokinase, exploiting the Warburg effect by which most cancers burn glucose fast. It is the standard PET scan for staging and response in lymphoma (scored on the Deauville scale), lung cancer, melanoma, head and neck cancer and oesophageal cancer, with universal availability and decades of validation. Its limits are biological: infection and inflammation are also hot, normal brain uptake creates a high background, and indolent tumours are poorly seen. It is weak in prostate cancer, low-grade neuroendocrine tumours, mucinous cancers and some breast cancers, which is why target-specific tracers such as PSMA and SSTR ligands exist. FDG PET shows which tissues are consuming glucose fastest, and most, though not all, cancers do.",
     principle: "FDG is taken up via GLUT transporters and trapped after phosphorylation by hexokinase.",
     strengths: ["Universal availability", "Decades of validation"],
     limitations: ["Non-specific: infection and inflammation are also hot", "Brain background", "Poor in indolent tumours"],
@@ -81,7 +81,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "psma-pet", kind: "technology", name: "PSMA PET", sections: ["imaging", "radiopharma"], status: "standard-of-care", asOf, since: 2020, wikipedia: W("PSMA_PET"),
     tldr: "A prostate-cancer-specific PET scan that finds spread far earlier than CT or bone scan, and tells you whether a matched radioactive drug will work.",
-    summary: "68Ga-PSMA-11 (Illuccix, Locametz), 18F-DCFPyL (Pylarify, and Pylarify TruVu approved March 2026), and 18F-rhPSMA-7.3 (Posluma) are approved. Standard for initial staging of high-risk disease and biochemical recurrence; required to select patients for 177Lu-PSMA-617 (VISION, PSMAfore).",
+    summary: "PSMA PET uses small-molecule urea-based ligands that bind the active site of prostate-specific membrane antigen and are internalised, labelled with 68Ga or 18F. Approved agents are 68Ga-PSMA-11 (Illuccix, Locametz), 18F-DCFPyL (Pylarify, with Pylarify TruVu approved in March 2026) and 18F-rhPSMA-7.3 (Posluma). In clinical use since 2020, it is standard for initial staging of high-risk disease and for biochemical recurrence, where it detects disease at PSA below 0.5 ng/mL, far earlier than CT or bone scan. It is also the theranostic gatekeeper: a PSMA-positive scan is required to select patients for 177Lu-PSMA-617, as in VISION and PSMAfore. Around 10% of patients have PSMA-negative disease, and uptake in ganglia and salivary glands can be mistaken for tumour. It finds spread early and predicts whether the matched radioactive drug will work.",
     principle: "Small-molecule urea-based ligands bind PSMA's active site and are internalised.",
     strengths: ["Detects recurrence at PSA <0.5 ng/mL", "Theranostic gatekeeper"],
     limitations: ["PSMA-negative disease in ~10%", "Uptake in ganglia, salivary glands"],
@@ -116,7 +116,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "her2-pet", kind: "technology", name: "HER2 PET", sections: ["imaging", "adcs"], status: "phase-2", asOf, since: 2010,
     tldr: "HER2 PET is a PET scan using radiolabelled trastuzumab or smaller HER2 binders to map HER2 across all metastases at once.",
-    summary: "89Zr-trastuzumab and 68Ga/18F-labelled HER2 affibodies and nanobodies (e.g., 68Ga-ABY-025, 18F-GE-226) have been studied in the ZEPHIR and IMPACT trials. Predictive of T-DM1 response and useful for heterogeneous HER2-low disease where a single biopsy is unrepresentative. Not yet approved.",
+    summary: "HER2 PET images HER2 across every metastasis at once using a radiolabelled HER2 binder, either 89Zr-trastuzumab or smaller 68Ga- and 18F-labelled affibodies and nanobodies such as 68Ga-ABY-025 and 18F-GE-226. The result is a whole-body receptor map rather than a single biopsy, which matters because HER2 expression varies between lesions. The ZEPHIR and IMPACT trials studied these tracers, and uptake was predictive of response to T-DM1. It is most useful in heterogeneous HER2-low disease, where one biopsy may be unrepresentative and HER2-directed ADCs now have indications. Studied since 2010, it is not yet approved; trials have been small, and full-antibody tracers need days between injection and imaging, which smaller binders aim to shorten. It shows how much HER2 each tumour deposit carries without a needle.",
     principle: "Radiolabelled HER2 binder; whole-body receptor map.",
     strengths: ["Captures inter-lesion heterogeneity", "Non-invasive re-assessment"],
     limitations: ["Not approved; small trials", "Antibody tracers need days"],
@@ -127,7 +127,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "immuno-pet", kind: "technology", name: "Immuno-PET", sections: ["imaging", "immunotherapy"], status: "phase-2", asOf, wikipedia: W("Immuno-PET"),
     tldr: "PET scans built from radiolabelled antibodies or their fragments, to see any protein an antibody can reach, including immune cells inside tumours.",
-    summary: "Covers 89Zr-antibody imaging of ADC targets and T-cell imaging with 89Zr-crefmirlimab berdoxam (CD8 minibody) and 18F-AraG (activated T cells). CD8 PET is in phase 2/3 as a pharmacodynamic and predictive biomarker for checkpoint inhibitors.",
+    summary: "Immuno-PET attaches long-lived positron emitters such as 89Zr or 64Cu to antibodies, minibodies or nanobodies, so that any protein an antibody can reach can be imaged across the whole body. It covers 89Zr-antibody imaging of ADC targets including TROP2 and HER2, and T-cell imaging with 89Zr-crefmirlimab berdoxam, a CD8 minibody, and 18F-AraG, which marks activated T cells. CD8 PET is in phase 2/3 as a pharmacodynamic and predictive biomarker for checkpoint inhibitors, aiming to show whether T cells are entering tumours early in treatment. The strengths are non-invasive imaging of target and immune infiltrate, and the fact that any antibody can be turned into a tracer. Full antibodies have slow kinetics, requiring days before imaging, and 89Zr is costly. Immuno-PET turns therapeutic antibodies into imaging agents that show where their targets and the immune cells are.",
     principle: "Long-lived positron emitters (89Zr, 64Cu) chelated to antibodies, minibodies, or nanobodies.",
     strengths: ["Images target and immune infiltrate non-invasively", "Any antibody can be turned into a tracer"],
     limitations: ["Slow kinetics for full antibodies", "Cost of 89Zr"],
@@ -137,7 +137,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "parp-pet", kind: "technology", name: "PARP PET", sections: ["imaging"], status: "phase-2", asOf,
     tldr: "A PET tracer that measures how much of the DNA repair enzyme PARP a tumour has, to predict response to PARP inhibitors.",
-    summary: "18F-FluorThanatrace (FTT, Penn) and 18F-PARPi (MSK) image PARP1 expression and drug engagement. Trials in ovarian, breast, and head-and-neck cancer test whether uptake predicts PARP-inhibitor benefit beyond BRCA/HRD status.",
+    summary: "PARP PET uses radiolabelled analogues of the PARP inhibitors olaparib and rucaparib, such as 18F-FluorThanatrace (FTT, Penn) and 18F-PARPi (MSK), which bind PARP1 in the nucleus and so measure both expression of the enzyme and drug engagement at the target. The rationale is that genomic HRD tests read a permanent scar, whereas a PARP tracer reports the tumour's current state. Trials in ovarian, breast and head-and-neck cancer test whether uptake predicts benefit from PARP inhibitors beyond BRCA and HRD status, and whether a fall in uptake on treatment confirms target engagement. It offers a direct pharmacodynamic readout that complements genomic HRD, but remains at the research stage and is available at only a few academic sites. It is a scan that measures how much of the DNA repair enzyme a tumour has, to predict whether a PARP inhibitor will work.",
     principle: "Radiolabelled olaparib or rucaparib analogues bind PARP1 in the nucleus.",
     strengths: ["Direct pharmacodynamic readout", "Complements genomic HRD"],
     limitations: ["Research stage", "Limited to a few academic sites"],
@@ -148,7 +148,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "spect", kind: "technology", name: "SPECT & bone scan", sections: ["imaging"], status: "standard-of-care", asOf, wikipedia: W("Single-photon_emission_computed_tomography"),
     tldr: "SPECT and the bone scan are an older type of nuclear scan, still used for bone metastases and to check where a radioactive drug went after treatment.",
-    summary: "99mTc-MDP bone scan for skeletal metastases (being displaced by PSMA PET in prostate). SPECT/CT after 177Lu therapy enables post-treatment dosimetry, a key enabler of personalised radioligand dosing.",
+    summary: "SPECT uses gamma cameras to detect single photons from isotopes such as 99mTc, 111In and 177Lu, rotating around the patient to reconstruct a 3D distribution. The 99mTc-MDP bone scan is its most familiar oncology use, detecting skeletal metastases through increased bone turnover, although PSMA PET is displacing it in prostate cancer. Its growing role is in theranostics: SPECT/CT after 177Lu therapy shows where the radioligand went and enables post-treatment dosimetry, a key enabler of personalised radioligand dosing. It is cheap and widespread, but its resolution and sensitivity are lower than PET, and standardising dosimetry protocols across centres remains work in progress. SPECT is the older nuclear scan still used for bone metastases and for checking where a radioactive drug ended up.",
     principle: "Gamma cameras detect single photons from 99mTc, 111In, 177Lu; rotating acquisition reconstructs 3D distribution.",
     strengths: ["Cheap, widespread", "Dosimetry for radioligand therapy"],
     limitations: ["Lower resolution and sensitivity than PET"],
@@ -157,7 +157,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "whole-body-mri", kind: "technology", name: "Whole-body MRI", sections: ["imaging", "early-detection"], status: "established", asOf,
     tldr: "Whole-body MRI is an MRI of the entire body without radiation, used to find spread in myeloma and to screen people with high inherited cancer risk.",
-    summary: "Standard in multiple myeloma (IMWG) and for surveillance in Li-Fraumeni syndrome. Being evaluated for metastatic prostate and breast cancer response assessment (MET-RADS). Commercial 'full-body scan' services are controversial for average-risk people because of incidental findings.",
+    summary: "Whole-body MRI acquires multiple stations of MRI, including diffusion-weighted imaging, and stitches them into a single view of the entire body without radiation. It is standard in multiple myeloma under IMWG criteria because of its sensitivity to bone marrow disease, and for surveillance in Li-Fraumeni syndrome, where the absence of radiation matters for people scanned for life. It is being evaluated for response assessment in metastatic prostate and breast cancer through the MET-RADS framework, since bone metastases are hard to measure on CT. Strengths are repeatability and marrow sensitivity; the main limitations are long scan times and incidental findings in screening use. Commercial 'full-body scan' services for average-risk people are controversial for that reason. It is a radiation-free scan of the whole body, most valuable in myeloma and in people with high inherited cancer risk.",
     principle: "Multi-station MRI with diffusion-weighted imaging stitched into a whole-body view.",
     strengths: ["No radiation, so repeatable", "Bone marrow sensitivity"],
     limitations: ["Long scan", "Incidental findings in screening use"],
@@ -214,7 +214,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "rna-seq", kind: "technology", name: "RNA sequencing & expression profiling", sections: ["diagnostics"], status: "established", asOf, wikipedia: W("RNA-Seq"),
     tldr: "Measuring which genes a tumour is actively using, which reveals its subtype and finds gene fusions.",
-    summary: "Bulk RNA-seq detects fusions (NTRK, RET, NRG1), expression subtypes (PAM50, TNBC subtypes, consensus molecular subtypes in CRC), and immune signatures. Commercial prognostic assays (Oncotype DX, MammaPrint, Prosigna) are expression-based and guide chemotherapy de-escalation in HR+ breast cancer.",
+    summary: "RNA sequencing reverse-transcribes a tumour's RNA to cDNA and sequences it, so read counts per gene quantify which genes are actively expressed rather than merely present. Bulk RNA-seq detects gene fusions (NTRK, RET, NRG1) that DNA panels can miss, defines expression subtypes such as PAM50 in breast cancer, TNBC subtypes and the consensus molecular subtypes in colorectal cancer, and measures immune signatures. Commercial prognostic assays including Oncotype DX, MammaPrint and Prosigna are expression-based and guide chemotherapy de-escalation in HR-positive breast cancer. The strengths are fusion detection and a readout of functional state rather than genotype alone. RNA degrades in formalin-fixed tissue, and bulk measurements average over all cell types. It measures which genes a tumour is using, revealing its subtype and finding fusions a DNA test can overlook.",
     principle: "Reverse transcription of RNA to cDNA and sequencing; counts per gene quantify expression.",
     strengths: ["Fusion detection", "Functional state, not just genotype"],
     limitations: ["RNA degrades in FFPE", "Bulk averages over cell types"],
@@ -276,7 +276,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "companion-diagnostic", kind: "technology", name: "Companion diagnostics", sections: ["diagnostics"], status: "standard-of-care", asOf, wikipedia: W("Companion_diagnostic"),
     tldr: "The test that decides whether a specific drug is right for you, approved together with the drug.",
-    summary: "PD-L1 IHC (22C3, SP142), HER2 IHC/ISH, FoundationOne CDx, Guardant360 CDx, myChoice CDx (HRD), Oncomine Dx. The 'HER2-low' and 'HER2-ultralow' labels for T-DXd showed that an existing test can acquire a new decision threshold overnight.",
+    summary: "A companion diagnostic is an analytically and clinically validated assay tied to a drug label, so the test result decides whether that specific drug is indicated. Examples include PD-L1 immunohistochemistry (22C3, SP142), HER2 IHC and ISH, FoundationOne CDx, Guardant360 CDx, myChoice CDx for HRD and Oncomine Dx. The model enriches for responders and gives regulatory clarity about who should receive a drug. Its weaknesses are threshold effects, where patients just below a cut-off are excluded, and the fact that different assays for the same biomarker are not interchangeable. The 'HER2-low' and 'HER2-ultralow' labels for trastuzumab deruxtecan showed that an existing test can acquire a new decision threshold overnight, turning a long-standing negative result into eligibility. It is the test approved alongside a drug that decides whether the drug is right for you.",
     principle: "Analytically and clinically validated assay linked to a drug label.",
     strengths: ["Enriches responders", "Regulatory clarity"],
     limitations: ["Threshold effects", "Different assays for the same biomarker are not interchangeable"],
@@ -285,7 +285,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "hrd-testing", kind: "technology", name: "HRD & BRCA testing", sections: ["diagnostics"], status: "standard-of-care", asOf,
     tldr: "Tests that reveal whether a tumour has a broken DNA repair system, which predicts response to PARP inhibitors and platinum.",
-    summary: "Germline and somatic BRCA1/2 sequencing plus genomic-scar scores (myChoice CDx GIS, FoundationOne LOH) define HRD. Functional assays (RAD51 foci) and mutational signature 3 are emerging alternatives that may capture reversion.",
+    summary: "HRD and BRCA testing identifies tumours whose homologous recombination DNA repair is defective and therefore vulnerable to PARP inhibitors and platinum. It combines germline and somatic BRCA1/2 sequencing with genomic-scar scores such as the myChoice CDx genomic instability score and FoundationOne LOH, which sum loss of heterozygosity, telomeric allelic imbalance and large-scale transitions into one measure. This extends PARP-inhibitor benefit beyond BRCA carriers. The scar, however, is permanent: it persists even after reversion mutations restore repair and resistance emerges, and the thresholds defining HRD-positive are still debated. Functional assays such as RAD51 foci and mutational signature 3 are emerging alternatives that may capture current repair status. These tests reveal whether a tumour's DNA repair is broken, which predicts response to PARP inhibitors and platinum.",
     principle: "Loss of heterozygosity, telomeric allelic imbalance, and large-scale transitions summed into a genomic instability score.",
     strengths: ["Extends PARP-inhibitor benefit beyond BRCA carriers"],
     limitations: ["Scar is permanent even after resistance emerges", "Threshold debates"],
@@ -295,7 +295,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "germline-testing", kind: "technology", name: "Germline (hereditary) testing", sections: ["diagnostics", "prevention"], status: "standard-of-care", asOf, wikipedia: W("Genetic_testing"),
     tldr: "A test of the DNA you were born with, to find inherited risk genes such as BRCA or Lynch syndrome.",
-    summary: "Multi-gene hereditary panels (BRCA1/2, PALB2, TP53, Lynch genes, CDH1, ATM, CHEK2) are recommended for all TNBC, ovarian, pancreatic, and metastatic prostate cancer patients and increasingly for all breast cancer. Findings change surgery, drug choice (PARP inhibitors), and family screening.",
+    summary: "Germline testing sequences DNA from blood or saliva by next-generation sequencing to find inherited pathogenic variants, as distinct from tumour-only sequencing that picks up acquired mutations. Multi-gene hereditary panels (BRCA1/2, PALB2, TP53, Lynch genes, CDH1, ATM, CHEK2) are recommended for all TNBC, ovarian, pancreatic, and metastatic prostate cancer patients and increasingly for all breast cancer. Findings change surgery, drug choice (PARP inhibitors), and family screening, because relatives can be cascade-tested and offered surveillance or risk-reducing measures. The test itself is cheap and actionable, but variants of uncertain significance remain a burden and counselling capacity limits uptake. The simple version is that this test reads the DNA a person was born with, and a positive result can protect a whole family, not just one patient.",
     principle: "NGS of blood or saliva DNA identifies pathogenic germline variants.",
     strengths: ["Actionable for patient and relatives", "Cheap"],
     limitations: ["VUS burden", "Uptake and counselling capacity"],
@@ -314,7 +314,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "organoids", kind: "technology", name: "Patient-derived organoids", sections: ["drug-discovery"], status: "established", asOf, wikipedia: W("Organoid"),
     tldr: "Patient-derived organoids are miniature 3D versions of a patient's tumour grown in the lab.",
-    summary: "Living biobanks of organoids (HUB, Broad) preserve genotype and drug response. Used for drug screening, CRISPR studies, and increasingly co-cultured with immune cells for immunotherapy testing.",
+    summary: "Patient-derived organoids are grown by stem-cell-driven 3D culture in an extracellular matrix with defined growth factors, so a piece of a patient's tumour becomes a self-renewing miniature that keeps its genotype and drug response. Living biobanks of organoids (HUB, Broad) preserve genotype and drug response across many cancer types. They are used for drug screening, CRISPR studies, and increasingly co-cultured with immune cells for immunotherapy testing. The main limitation is that organoids lack vasculature and the full microenvironment, so stromal and immune effects are only partly captured, and prospective evidence that organoid drug testing improves patient outcomes is still being gathered. For a newcomer, an organoid is a lab-grown copy of one person's tumour that can be tested against drugs before the patient is.",
     principle: "Stem-cell-driven 3D culture in extracellular matrix with defined growth factors.",
     strengths: ["Fidelity to patient tumour", "Scalable"],
     limitations: ["Lacks vasculature and full microenvironment"],
@@ -322,7 +322,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "pdx-models", kind: "technology", name: "Patient-derived xenografts", sections: ["drug-discovery"], status: "established", asOf, wikipedia: W("Patient_derived_xenograft"),
     tldr: "A patient-derived xenograft is a patient's tumour grown in a mouse, used to test drugs before they reach people.",
-    summary: "PDX models retain histology and genomics better than cell lines. Used for ADC and combination testing (Champions Oncology, Crown Bioscience, Jackson Laboratory). Humanised-mouse PDX enables immunotherapy testing.",
+    summary: "A patient-derived xenograft is made by implanting fresh tumour tissue into immunodeficient mice and passaging it, giving an in vivo model that retains histology and genomics better than cell lines. PDX models are used for ADC and combination testing (Champions Oncology, Crown Bioscience, Jackson Laboratory), where bystander and stromal effects can be observed in a way that culture cannot show. Humanised-mouse PDX, in which a human immune system is reconstituted, enables immunotherapy testing. The trade-offs are that mouse stroma progressively replaces human stroma, models take months to establish, and the cost limits how many patients can be modelled. The simple version is that a PDX lets researchers try a treatment on a copy of a real patient's tumour in a mouse before trying it in people.",
     principle: "Fresh tumour implanted into immunodeficient mice and passaged.",
     strengths: ["In vivo pharmacology", "Bystander and stromal effects observable"],
     limitations: ["Mouse stroma replaces human", "Months to establish; cost"],
@@ -330,7 +330,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "proteomics", kind: "technology", name: "Proteomics & phosphoproteomics", sections: ["diagnostics", "drug-discovery"], status: "emerging", asOf, wikipedia: W("Proteomics"),
     tldr: "Measuring the proteins in a tumour, which is what drugs actually hit, rather than the genes that encode them.",
-    summary: "Mass-spectrometry proteomics (CPTAC) reveals pathway activity and ADC target abundance that transcript levels do not predict. Quantitative IHC and mass-spec assays of HER2 and TROP2 aim to improve ADC patient selection.",
+    summary: "Proteomics measures the proteins and phosphorylation sites in a tumour directly, using liquid chromatography tandem mass spectrometry with isobaric labelling to quantify thousands of proteins and phosphosites at once. Mass-spectrometry proteomics (CPTAC) reveals pathway activity and ADC target abundance that transcript levels do not predict, since RNA and protein levels often disagree. Quantitative IHC and mass-spec assays of HER2 and TROP2 aim to improve ADC patient selection by measuring the actual antigen the drug binds rather than a proxy. Throughput and standardisation remain the barriers to routine clinical use, and it is still open whether protein-level selection will outperform established IHC scoring in trials. For a newcomer, proteomics measures what drugs actually hit, the proteins, rather than the genes that encode them.",
     principle: "Liquid chromatography tandem mass spectrometry with isobaric labelling quantifies proteins and phosphosites.",
     strengths: ["Direct measurement of drug targets and signalling"],
     limitations: ["Throughput and standardisation"],
@@ -338,7 +338,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "methylation-profiling", kind: "technology", name: "DNA methylation profiling", sections: ["diagnostics", "early-detection"], status: "established", asOf, wikipedia: W("DNA_methylation"),
     tldr: "Reading chemical tags on DNA that reveal a cell's identity, used to classify brain tumours and to detect cancer in blood.",
-    summary: "The Heidelberg/DKFZ methylation classifier is standard for CNS tumour diagnosis (WHO 2021). Methylation in cfDNA underlies Galleri and tissue-of-origin prediction. Nanopore sequencing gives intraoperative methylation classification in under an hour.",
+    summary: "DNA methylation profiling reads the chemical marks on cytosines that record a cell's identity, using bisulfite or enzymatic conversion followed by arrays or sequencing, with classifiers trained on reference cohorts. The Heidelberg/DKFZ methylation classifier is standard for CNS tumour diagnosis (WHO 2021) because methylation retains cell-of-origin memory even when histology is ambiguous. Methylation in cfDNA underlies Galleri and tissue-of-origin prediction, since it is a stable analyte in blood. Nanopore sequencing gives intraoperative methylation classification in under an hour, allowing the surgical plan to change during the operation. The main limitation is dependence on the reference cohort, so rare or under-represented tumour types can be misclassified. The simple version is that methylation is a cell's identity badge, readable in tissue or blood.",
     principle: "Bisulfite or enzymatic conversion, arrays or sequencing; classifiers trained on reference cohorts.",
     strengths: ["Cell-of-origin memory", "Stable analyte in blood"],
     limitations: ["Reference cohort dependence"],
@@ -359,7 +359,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "fluorescence-guided-surgery", kind: "technology", name: "Fluorescence-guided surgery", sections: ["surgery", "imaging"], status: "established", asOf, wikipedia: W("Fluorescence_image-guided_surgery"),
     tldr: "Injecting a dye that makes tumour glow so the surgeon can see exactly where to cut.",
-    summary: "5-ALA in glioma increases complete resection rates; pafolacianine (Cytalux) finds occult ovarian and lung lesions; pegulicianine (Lumisight, 2024) detects residual breast cancer in the lumpectomy cavity. Targeted probes (EGFR, PSMA, CEA) are in phase 2-3.",
+    summary: "In fluorescence-guided surgery a tumour-selective fluorophore accumulates in the tumour and is imaged with near-infrared camera systems, so the surgeon can see disease that is invisible under white light. 5-ALA in glioma increases complete resection rates; pafolacianine (Cytalux) finds occult ovarian and lung lesions; pegulicianine (Lumisight, 2024) detects residual breast cancer in the lumpectomy cavity. The clinical payoff is fewer positive margins and re-operations. Targeted probes against EGFR, PSMA, and CEA are in phase 2-3 and would extend the approach to more tumour types. The limitation is millimetre depth penetration, so the dye shows surface disease and cannot see deep into tissue. The simple version is that a dye makes the tumour glow so the surgeon knows exactly where to cut.",
     principle: "A tumour-selective fluorophore accumulates in the tumour and is imaged with near-infrared camera systems.",
     strengths: ["Fewer positive margins and re-operations"],
     limitations: ["Millimetre depth penetration"],
@@ -368,7 +368,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "sentinel-node", kind: "technology", name: "Sentinel lymph node biopsy", sections: ["surgery"], status: "standard-of-care", asOf, wikipedia: W("Sentinel_lymph_node"),
     tldr: "Removing just the first lymph node a tumour drains to, instead of all of them, to check for spread.",
-    summary: "Standard in breast cancer and melanoma; replaced full node dissection for most patients (Z0011, AMAROS). Now being omitted entirely in low-risk breast cancer (SOUND, INSEMA trials), an example of surgical de-escalation driven by better systemic therapy and imaging.",
+    summary: "Sentinel lymph node biopsy injects a tracer (radiocolloid, blue dye, ICG, or magnetic particles) at the tumour to identify the first draining node, which is removed and examined instead of clearing the whole nodal basin. It is standard in breast cancer and melanoma and replaced full node dissection for most patients after Z0011 and AMAROS showed that omitting completion dissection did not compromise outcomes. The main benefit is avoiding lymphoedema from full dissection. It is now being omitted entirely in low-risk breast cancer (SOUND, INSEMA trials), an example of surgical de-escalation driven by better systemic therapy and imaging. False negatives occur in roughly 5-10% of cases, which is the accepted trade-off. The simple version is that surgeons check the one node most likely to harbour spread rather than removing them all.",
     principle: "Tracer (radiocolloid, blue dye, ICG, magnetic) injected at tumour identifies draining node.",
     strengths: ["Avoids lymphoedema from full dissection"],
     limitations: ["False negatives in ~5-10%"],
@@ -377,7 +377,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "thermal-ablation", kind: "technology", name: "Thermal ablation (RFA, microwave, cryo)", sections: ["surgery"], status: "standard-of-care", asOf, wikipedia: W("Radiofrequency_ablation"),
     tldr: "Thermal ablation kills a tumour with heat or cold delivered through a needle, with no incision required.",
-    summary: "Radiofrequency and microwave ablation are curative-intent options for small HCC, liver metastases, lung, and kidney tumours; cryoablation for kidney, bone, and (in trials) small breast cancers. Image-guided by CT or ultrasound. Combination with immunotherapy exploits antigen release.",
+    summary: "Thermal ablation destroys a tumour through a percutaneous probe that delivers radiofrequency current, microwave energy, or argon-based freezing, causing coagulative necrosis or ice-ball cell death without an incision. Radiofrequency and microwave ablation are curative-intent options for small HCC, liver metastases, lung, and kidney tumours; cryoablation is used for kidney, bone, and (in trials) small breast cancers. Procedures are image-guided by CT or ultrasound, done as outpatients, repeatable, and preserve organ function. Combination with immunotherapy exploits the antigen release from dying tumour cells, though the clinical value of that is still being tested. Limits are a size ceiling of around 3 cm and the heat-sink effect near large vessels, which can leave viable cells. The simple version is that a needle kills the tumour with heat or cold.",
     principle: "Percutaneous probe delivers RF current, microwave energy, or argon-based freezing; coagulative necrosis or ice-ball cell death.",
     strengths: ["Outpatient, repeatable", "Preserves organ function"],
     limitations: ["Size limit ~3 cm", "Heat-sink near vessels"],
@@ -386,7 +386,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "hifu-histotripsy", kind: "technology", name: "Focused ultrasound & histotripsy", sections: ["surgery", "devices"], status: "established", asOf, wikipedia: W("High-intensity_focused_ultrasound"),
     tldr: "Destroying tumours from outside the body with tightly focused sound waves, using either heat or microscopic bubbles.",
-    summary: "HIFU is approved for prostate cancer focal therapy and uterine fibroids. Histotripsy (HistoSonics Edison, FDA 2023) mechanically liquefies liver tumours without heat, with early evidence of immune activation. Trials extend to kidney and pancreas.",
+    summary: "Focused ultrasound uses an extracorporeal transducer to concentrate acoustic energy inside the body, either heating tissue to coagulation (HIFU) or, in histotripsy, driving cavitation that mechanically fractionates the tumour without heat. HIFU is approved for prostate cancer focal therapy and uterine fibroids. Histotripsy (HistoSonics Edison, FDA 2023) mechanically liquefies liver tumours, with early evidence of immune activation, and trials extend to kidney and pancreas. The approach is completely non-invasive and uses no ionising radiation. Its constraints are the acoustic window, since ribs and bowel gas block the beam, and the fact that long-term oncologic data are limited, so durability of tumour control is the open question. The simple version is that tightly focused sound waves destroy a tumour from outside the body.",
     principle: "Extracorporeal transducer focuses acoustic energy; thermal coagulation (HIFU) or cavitation-driven mechanical fractionation (histotripsy).",
     strengths: ["Completely non-invasive", "No ionising radiation"],
     limitations: ["Acoustic window (ribs, bowel gas)", "Long-term oncologic data limited"],
@@ -396,7 +396,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "irreversible-electroporation", kind: "technology", name: "Irreversible electroporation (NanoKnife)", sections: ["surgery", "devices"], status: "established", asOf, wikipedia: W("Irreversible_electroporation"),
     tldr: "Irreversible electroporation uses short high-voltage pulses that punch permanent holes in tumour cells while sparing nearby vessels and ducts.",
-    summary: "Non-thermal ablation used in locally advanced pancreatic cancer near vessels and in focal prostate therapy (FDA 2024 for prostate). Preserves collagenous structures.",
+    summary: "Irreversible electroporation delivers microsecond high-voltage pulses between needle electrodes, permanently disrupting cell membranes while leaving collagenous structures such as vessels and ducts intact. This non-thermal mechanism is why it is used in locally advanced pancreatic cancer wrapped around vessels, where heat-based ablation would be unsafe, and in focal prostate therapy (FDA 2024 for prostate). The procedure requires general anaesthesia with muscle paralysis and cardiac synchronisation, because the pulses can trigger contractions and arrhythmia. Randomised data remain limited, so its survival benefit in pancreatic cancer is not yet established. The simple version is that electrical pulses punch permanent holes in tumour cells while sparing the pipes running through them.",
     principle: "Microsecond electrical pulses between needle electrodes disrupt membranes irreversibly.",
     strengths: ["Safe next to vessels and bile ducts"],
     limitations: ["General anaesthesia with paralysis; cardiac synchronisation", "Limited randomised data"],
@@ -407,7 +407,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "imrt-igrt", kind: "technology", name: "IMRT / IGRT (modern external beam)", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Intensity-modulated_radiation_therapy"),
     tldr: "Radiation shaped precisely to the tumour and checked with daily imaging, sparing surrounding organs.",
-    summary: "Intensity-modulated and volumetric arc therapy with image guidance are the default for most curative radiotherapy. Hypofractionation (fewer, larger doses) is now standard in breast and prostate cancer. Adaptive replanning and MR-guidance are the next step.",
+    summary: "Intensity-modulated and volumetric arc therapy shape the radiation dose using multi-leaf collimators that modulate beam intensity from many angles, while image guidance with cone-beam CT verifies patient position before each fraction. Together they are the default for most curative radiotherapy, giving conformal dose to the tumour with fewer side effects. Hypofractionation, meaning fewer, larger doses, is now standard in breast and prostate cancer and saves patients many visits. The remaining drawbacks are the low-dose bath spread across normal tissue from many beam angles and the need for motion management in moving targets. Adaptive replanning and MR-guidance are the next step, adjusting the plan to daily anatomy. The simple version is radiation sculpted to the tumour and checked with imaging every day.",
     principle: "Multi-leaf collimators modulate beam intensity from many angles; cone-beam CT verifies position before each fraction.",
     strengths: ["Conformal dose, fewer side effects", "Hypofractionation saves visits"],
     limitations: ["Low-dose bath to normal tissue", "Motion management"],
@@ -415,7 +415,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "sbrt", kind: "technology", name: "SBRT / SABR (stereotactic radiotherapy)", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Stereotactic_radiosurgery"),
     tldr: "Very high, very precise radiation doses in 1-5 sessions that can ablate a tumour like surgery.",
-    summary: "Standard for inoperable early lung cancer, oligometastatic disease (SABR-COMET showed overall survival benefit), liver, spine, and brain metastases (radiosurgery). Enables 'metastasis-directed therapy' and pairs with immunotherapy for abscopal effects.",
+    summary: "Stereotactic body radiotherapy delivers ablative doses in 1-5 sessions by converging multiple non-coplanar beams with sub-millimetre accuracy, producing steep dose gradients that spare surrounding tissue. It is standard for inoperable early lung cancer, oligometastatic disease, liver, spine, and brain metastases (radiosurgery). SABR-COMET showed an overall survival benefit in oligometastatic disease, which underpins the idea of metastasis-directed therapy. Treatment is outpatient with minimal recovery, and SBRT pairs with immunotherapy in the hope of abscopal effects, though that benefit remains unproven in randomised trials. Limits are tumour size and location, with late toxicity a concern near central airways. The simple version is a few very high, very precise doses that can ablate a tumour much as surgery would.",
     principle: "Multiple non-coplanar beams converge with sub-millimetre accuracy; steep dose gradients.",
     strengths: ["Ablative doses with minimal recovery", "Outpatient"],
     limitations: ["Size and location limits", "Late toxicity near central airways"],
@@ -424,7 +424,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "proton-therapy", kind: "technology", name: "Proton therapy", sections: ["radiation"], status: "established", asOf, wikipedia: W("Proton_therapy"),
     tldr: "Radiation using protons, which stop inside the tumour instead of passing through, so tissue behind it gets no dose.",
-    summary: "Established for paediatric tumours, skull-base and spine tumours, and re-irradiation. Randomised data versus photons are mixed in adults (oesophageal positive for toxicity, some negative trials); cost-effectiveness debated. Compact single-room systems (Mevion, IBA Proteus One) expand access.",
+    summary: "Proton therapy exploits the Bragg peak: protons deposit maximum energy at a depth set by their energy and then stop, so there is no exit dose, and pencil-beam scanning paints the tumour layer by layer. This lowers the integral dose to normal tissue and reduces second cancers in children, which is why it is established for paediatric tumours, skull-base and spine tumours, and re-irradiation. Randomised data versus photons are mixed in adults, with oesophageal cancer positive for toxicity but some negative trials, and cost-effectiveness is debated. Range uncertainty, the imprecision in where the beam stops, is a technical limitation alongside cost. Compact single-room systems (Mevion, IBA Proteus One) expand access. The simple version is that protons stop inside the tumour, so tissue behind it is spared.",
     principle: "Bragg peak: protons deposit maximum energy at a depth set by their energy, with no exit dose. Pencil-beam scanning paints the tumour.",
     strengths: ["No exit dose; lower integral dose", "Reduced second cancers in children"],
     limitations: ["Cost", "Range uncertainty", "Limited randomised evidence in adults"],
@@ -433,7 +433,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "carbon-ion", kind: "technology", name: "Carbon-ion therapy", sections: ["radiation"], status: "established", asOf, wikipedia: W("Carbon-ion_radiotherapy"),
     tldr: "Heavier charged particles that kill even radiation-resistant tumours, available at only a handful of centres worldwide.",
-    summary: "Higher biological effectiveness than protons for hypoxic and slow-growing tumours (sarcoma, chordoma, adenoid cystic, pancreatic). About 15 centres worldwide (Japan, Germany, Italy, China, Austria); first US centre under construction at Mayo Clinic Jacksonville.",
+    summary: "Carbon-ion therapy uses carbon nuclei that deposit dense ionisation tracks, causing clustered DNA damage with a sharp Bragg peak, giving higher biological effectiveness than protons for hypoxic and slow-growing tumours. It is used for radioresistant tumours such as sarcoma, chordoma, adenoid cystic carcinoma, and pancreatic cancer, where conventional radiation struggles. About 15 centres operate worldwide (Japan, Germany, Italy, China, Austria), and the first US centre is under construction at Mayo Clinic Jacksonville. Access is the central problem: very few facilities exist and the cost is high, and randomised comparisons with protons or photons are scarce. The simple version is that heavier charged particles can kill tumours that ordinary radiation cannot, but only a handful of centres can deliver them.",
     principle: "Carbon nuclei deposit dense ionisation tracks causing clustered DNA damage with a sharp Bragg peak.",
     strengths: ["Effective in radioresistant tumours"],
     limitations: ["Very few facilities", "Cost"],
@@ -442,7 +442,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "brachytherapy", kind: "technology", name: "Brachytherapy", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Brachytherapy"),
     tldr: "Brachytherapy places a radioactive source directly inside or next to the tumour.",
-    summary: "Curative in cervical cancer (mandatory component), prostate (LDR seeds, HDR), and used in breast (partial-breast), skin, and eye (plaque brachytherapy for uveal melanoma).",
+    summary: "Brachytherapy places sealed radioactive sources (192Ir, 125I, 103Pd) directly inside or next to the tumour, so the dose falls off steeply from within and gives the highest conformality of any radiotherapy technique. It is a mandatory, curative component of cervical cancer treatment, is used in prostate cancer as LDR seed implants or HDR, and is applied in breast (partial-breast), skin, and eye, where plaque brachytherapy treats uveal melanoma. Treatment courses are short compared with external beam. The approach is invasive, requiring an implant procedure, and expertise is declining in some regions even where the evidence is strongest, which is a concern in cervical cancer. The simple version is that the radiation source is put inside the tumour rather than beamed in from outside.",
     principle: "Sealed sources (192Ir, 125I, 103Pd) deliver steep dose fall-off from within.",
     strengths: ["Highest conformality", "Short treatment"],
     limitations: ["Invasive", "Declining expertise in some regions"],
@@ -451,7 +451,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "mr-linac", kind: "technology", name: "MR-guided adaptive radiotherapy", sections: ["radiation"], status: "established", asOf, wikipedia: W("MRI-linac"),
     tldr: "The MR-linac is a radiation machine with an MRI inside it, so the plan is adjusted to where the tumour is that very day.",
-    summary: "Elekta Unity and ViewRay MRIdian enable daily online adaptation and gating on soft-tissue targets (pancreas, prostate, liver). MIRAGE trial showed reduced toxicity in prostate SBRT. Biology-guided radiotherapy (RefleXion, PET-guided) is a parallel approach.",
+    summary: "An MR-linac integrates an MRI scanner into the treatment machine, acquiring images during setup and delivery so the plan can be re-optimised in minutes to the anatomy of that day. Elekta Unity and ViewRay MRIdian enable daily online adaptation and gating on soft-tissue targets such as pancreas, prostate, and liver, allowing tighter margins and dose escalation in pancreas. The MIRAGE trial showed reduced toxicity in prostate SBRT with MR guidance. Biology-guided radiotherapy (RefleXion, PET-guided) is a parallel approach that tracks the tumour's metabolic signal instead. Slow throughput and cost are the practical limits, and whether daily adaptation improves cure rates rather than only toxicity is still being tested. The simple version is a radiation machine with an MRI inside it.",
     principle: "Integrated MRI acquires images during setup and delivery; plan re-optimised in minutes.",
     strengths: ["Tighter margins, dose escalation in pancreas"],
     limitations: ["Slow throughput", "Cost"],
@@ -461,7 +461,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "flash-rt", kind: "technology", name: "FLASH radiotherapy", sections: ["radiation"], status: "phase-1", asOf, wikipedia: W("FLASH_radiotherapy"),
     tldr: "Delivering an entire dose in under a second, which in animals spares healthy tissue while still killing the tumour.",
-    summary: "Ultra-high dose rates (>40 Gy/s) reduce normal-tissue toxicity in preclinical models. First-in-human trials (FAST-01/02 with protons, Varian; electron trials in Lausanne) show feasibility. Mechanism (oxygen depletion, radical recombination) is debated and the clinical effect unproven.",
+    summary: "FLASH radiotherapy delivers the entire dose in milliseconds rather than minutes, at ultra-high dose rates above 40 Gy/s, and in preclinical models this spares normal tissue while killing the tumour equally well. First-in-human trials (FAST-01/02 with protons, Varian; electron trials in Lausanne) show feasibility. The mechanism, proposed as oxygen depletion or radical recombination, is debated, and the clinical effect is unproven. If real, the effect could widen the therapeutic window dramatically, but hardware constraints make it hard to reach deep tumours with current machines. The simple version is that giving radiation in a fraction of a second may protect healthy tissue, and human trials are only now testing whether that holds.",
     principle: "Dose delivered in milliseconds rather than minutes; differential normal-tissue sparing.",
     strengths: ["Potential to widen therapeutic window dramatically"],
     limitations: ["Unproven in humans", "Hardware constraints for deep tumours"],
@@ -506,7 +506,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "bnct", kind: "technology", name: "Boron neutron capture therapy", sections: ["radiation"], status: "approved", asOf, wikipedia: W("Neutron_capture_therapy_of_cancer"),
     tldr: "In boron neutron capture therapy a boron drug accumulates in tumour cells, then a neutron beam makes only those cells explode from inside.",
-    summary: "Approved in Japan (2020) for recurrent head and neck cancer using accelerator-based neutron sources (Sumitomo) and borofalan (10B). Trials extend to glioma and melanoma. Very few facilities.",
+    summary: "Boron neutron capture therapy relies on a boron drug that accumulates in tumour cells: 10B captures thermal neutrons and fissions into alpha and lithium particles with a range of about 10 micrometres, so the damage is confined to the cell that took up the boron. It is approved in Japan (2020) for recurrent head and neck cancer using accelerator-based neutron sources (Sumitomo) and borofalan (10B). Trials extend to glioma and melanoma. The selectivity is cellular-level in principle, but in practice the boron delivery agent limits tumour selectivity, and very few facilities exist. The simple version is that a boron drug marks the tumour cells and a neutron beam then makes only those cells explode from inside.",
     principle: "10B captures thermal neutrons and fissions into alpha and lithium particles with ~10 µm range.",
     strengths: ["Cellular-level selectivity"],
     limitations: ["Boron delivery agent limits tumour selectivity", "Few facilities"],
@@ -526,7 +526,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "platinum", kind: "technology", name: "Platinum agents", sections: ["chemotherapy"], status: "standard-of-care", asOf, wikipedia: W("Platinum-based_antineoplastic"),
     tldr: "Platinum agents such as cisplatin and carboplatin work by crosslinking DNA. They are curative in testicular cancer and central to lung, ovarian, bladder, head and neck, and TNBC treatment.",
-    summary: "Carboplatin added to neoadjuvant TNBC chemotherapy increases pathologic complete response (BrighTNess, KEYNOTE-522 includes it). HRD-positive tumours are particularly sensitive.",
+    summary: "Platinum agents such as cisplatin and carboplatin form intrastrand DNA crosslinks that trigger apoptosis; the damage is repaired by nucleotide excision and homologous recombination, so tumours with defective homologous recombination are particularly sensitive. They are curative in testicular cancer and central to lung, ovarian, bladder, head and neck, and TNBC treatment. Carboplatin added to neoadjuvant TNBC chemotherapy increases pathologic complete response (BrighTNess, and KEYNOTE-522 includes it). HRD-positive tumours are particularly sensitive, which links platinum response to BRCA biology. Nephrotoxicity, ototoxicity, and neurotoxicity are the main costs, and resistance eventually develops in most metastatic settings. The simple version is that platinum drugs glue DNA strands together so cancer cells cannot copy them.",
     principle: "Intrastrand DNA crosslinks trigger apoptosis; repaired by nucleotide excision and homologous recombination.",
     strengths: ["Broad activity", "Synergy with HRD"],
     limitations: ["Nephro-, oto-, neurotoxicity"],
@@ -546,7 +546,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "hipec", kind: "technology", name: "HIPEC / PIPAC (intraperitoneal chemotherapy)", sections: ["chemotherapy", "surgery"], status: "established", asOf, wikipedia: W("Hyperthermic_intraperitoneal_chemotherapy"),
     tldr: "Washing the abdominal cavity with heated chemotherapy during surgery to kill microscopic peritoneal deposits.",
-    summary: "Survival benefit shown in ovarian cancer at interval debulking (OVHIPEC-1) and in pseudomyxoma; negative in colorectal (PRODIGE 7 for oxaliplatin HIPEC). PIPAC (pressurised aerosol) is a palliative laparoscopic alternative.",
+    summary: "HIPEC exposes the peritoneal cavity directly to chemotherapy heated to 41-43 °C during cytoreductive surgery, achieving high local drug concentration and enhanced penetration into microscopic deposits. A survival benefit was shown in ovarian cancer at interval debulking (OVHIPEC-1) and in pseudomyxoma, but the result was negative in colorectal cancer (PRODIGE 7 for oxaliplatin HIPEC), so the evidence is mixed and indication-specific. PIPAC, pressurised intraperitoneal aerosol chemotherapy, is a palliative laparoscopic alternative for patients who are not candidates for full cytoreduction. Morbidity is substantial and outcomes depend on centre expertise. The simple version is a heated chemotherapy wash of the abdomen during surgery, which helps in some cancers and not others.",
     principle: "Direct peritoneal exposure at 41-43 °C enhances drug penetration.",
     strengths: ["High local concentration"],
     limitations: ["Morbidity, centre expertise", "Mixed trial results"],
@@ -633,7 +633,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "antisense-sirna", kind: "technology", name: "Oligonucleotide therapeutics", sections: ["targeted-therapy"], status: "phase-2", asOf, wikipedia: W("Antisense_therapy"),
     tldr: "Oligonucleotide therapeutics are short synthetic strands of genetic code that silence a specific cancer gene.",
-    summary: "Antisense and siRNA drugs are established outside oncology; in cancer, delivery to tumours is the barrier. Antibody-oligonucleotide conjugates and LNP delivery are in early trials; targets include KRAS, STAT3, and MYC.",
+    summary: "Oligonucleotide therapeutics are short synthetic nucleic acid strands that base-pair to a target mRNA and induce RNase H cleavage (antisense) or RISC-mediated degradation (siRNA), silencing a gene at the transcript level. In principle any gene is targetable, including undruggable transcription factors. Antisense and siRNA drugs are established outside oncology; in cancer, delivery to tumours is the barrier, since existing chemistries concentrate in the liver. Antibody-oligonucleotide conjugates and lipid nanoparticle delivery are in early trials, with targets including KRAS, STAT3, and MYC. Whether enough drug can reach solid tumours to silence a driver is the open question. The simple version is a synthetic strand of genetic code that switches off one cancer gene, if it can be delivered.",
     principle: "Base-pairing to mRNA induces RNase H cleavage or RISC-mediated degradation.",
     strengths: ["Any gene is in principle targetable"],
     limitations: ["Delivery beyond liver"],
@@ -652,7 +652,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "antiangiogenic", kind: "technology", name: "Anti-angiogenic therapy", sections: ["targeted-therapy"], status: "standard-of-care", asOf, since: 2004, wikipedia: W("Angiogenesis_inhibitor"),
     tldr: "Anti-angiogenic therapy cuts off the tumour's blood supply; it is now mostly used to help immunotherapy work better.",
-    summary: "Anti-angiogenic drugs include bevacizumab, ramucirumab, and VEGFR TKIs. Alone they extend PFS modestly; with PD-1 blockade they are standard in RCC, HCC (atezolizumab-bevacizumab), and endometrial cancer (lenvatinib-pembrolizumab). PD-1×VEGF bispecifics are the consolidation of this idea.",
+    summary: "Anti-angiogenic therapy blocks VEGF signalling, which normalises the tumour vasculature and reduces immunosuppressive myeloid cells rather than simply starving the tumour. The drugs include bevacizumab, ramucirumab, and VEGFR TKIs. Alone they extend PFS modestly, with a small single-agent benefit; with PD-1 blockade they are standard in RCC, HCC (atezolizumab-bevacizumab), and endometrial cancer (lenvatinib-pembrolizumab). PD-1×VEGF bispecifics are the consolidation of this idea into a single molecule. Hypertension, bleeding, and proteinuria are the class toxicities. The simple version is that these drugs cut off the tumour's blood supply, and their main modern role is helping immunotherapy work better.",
     principle: "Blockade of VEGF signalling normalises vasculature and reduces immunosuppressive myeloid cells.",
     strengths: ["Broad, combinable"],
     limitations: ["Hypertension, bleeding, proteinuria", "Small single-agent benefit"],
@@ -700,7 +700,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "degrader-antibody-conjugate", kind: "technology", name: "Degrader-antibody conjugate (DAC)", sections: ["adcs", "targeted-therapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
     tldr: "An ADC that delivers a protein-destroying molecule instead of chemotherapy, hitting targets inside the cell that were previously unreachable.",
-    summary: "Orum Therapeutics (ORM-5029, HER2-directed GSPT1 degrader; ORM-6151, CD33), Genentech (BRD4 degrader conjugates), and others. Solves the delivery and bioavailability problems of PROTACs and lets a non-cytotoxic mechanism be targeted to the tumour. Early clinical.",
+    summary: "A degrader-antibody conjugate is an ADC whose payload is a molecular glue or PROTAC rather than a cytotoxic: the antibody delivers it to the tumour cell and intracellular release triggers targeted protein degradation. Programmes include Orum Therapeutics (ORM-5029, a HER2-directed GSPT1 degrader; ORM-6151, CD33), Genentech (BRD4 degrader conjugates), and others. The design solves the delivery and bioavailability problems of PROTACs and lets a non-cytotoxic, non-genotoxic mechanism be targeted to the tumour, reaching intracellular targets via antibody selectivity. The trade-off is that potency per molecule is lower than for cytotoxics, and the field is early clinical, so it is not yet known whether degradation can match chemotherapy payloads in efficacy. The simple version is an ADC that destroys a specific protein inside the cancer cell instead of poisoning it.",
     principle: "Antibody delivers a molecular glue or PROTAC payload; intracellular release triggers targeted degradation.",
     strengths: ["Non-genotoxic payload", "Intracellular targets via antibody selectivity"],
     limitations: ["Potency per molecule lower than cytotoxics", "Early stage"],
@@ -710,7 +710,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "immune-stimulating-adc", kind: "technology", name: "Immune-stimulating antibody conjugate (ISAC)", sections: ["adcs", "immunotherapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
     tldr: "An immune-stimulating antibody conjugate (ISAC) is an ADC whose payload wakes up the immune system inside the tumour rather than poisoning the cell.",
-    summary: "TLR7/8 agonist conjugates (Bolt's BDC-1001, HER2; Silverback) and STING agonist conjugates (Mersana XMT-2056, Takeda TAK-500) aim to convert cold tumours. Early results have been modest; dose-limiting systemic cytokine release and the need for antigen-presenting-cell engagement are challenges.",
+    summary: "An immune-stimulating antibody conjugate delivers an innate immune agonist, rather than a cytotoxic, to tumour-resident myeloid cells, aiming to convert immunologically cold tumours into hot ones. TLR7/8 agonist conjugates (Bolt's BDC-1001 against HER2; Silverback) and STING agonist conjugates (Mersana XMT-2056, Takeda TAK-500) are the leading examples. In principle the approach could produce durable immune memory and combine naturally with checkpoint inhibitors. Early results have been modest, with weak single-agent activity so far; dose-limiting systemic cytokine release and the need for antigen-presenting-cell engagement are the challenges. The simple version is an ADC whose payload wakes up the immune system inside the tumour, an idea still waiting for convincing clinical proof.",
     principle: "Antibody-targeted delivery of innate immune agonists to tumour-resident myeloid cells.",
     strengths: ["Durable immune memory in principle", "Combinable with checkpoint inhibitors"],
     limitations: ["Weak single-agent activity so far"],
@@ -740,7 +740,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "peptide-drug-conjugate", kind: "technology", name: "Peptide-drug & small-molecule-drug conjugates", sections: ["adcs"], status: "approved", asOf, wikipedia: W("Peptide-drug_conjugate"),
     tldr: "Like an ADC but with a small targeting peptide instead of an antibody, so it penetrates tumours faster and is cheaper to make.",
-    summary: "Melflufen (Pepaxto, withdrawn in US), lutetium radioligands (technically peptide-radionuclide conjugates), and clinical-stage PDCs (BT8009 zelenectide pevedotin, Nectin-4 Bicycle toxin conjugate; CBX-12 exatecan-SMDC). Bicycle's zelenectide pevedotin is in phase 2/3 in urothelial cancer.",
+    summary: "Peptide-drug conjugates replace the antibody of an ADC with a short or bicyclic peptide that binds the target, giving rapid tumour penetration and renal clearance, with a short half-life that reduces systemic exposure and cheaper synthesis. Examples include melflufen (Pepaxto, withdrawn in the US), lutetium radioligands (technically peptide-radionuclide conjugates), and clinical-stage PDCs such as BT8009 zelenectide pevedotin, a Nectin-4 Bicycle toxin conjugate, and CBX-12, an exatecan-SMDC. Bicycle's zelenectide pevedotin is in phase 2/3 in urothelial cancer. The same short half-life that limits toxicity also limits tumour exposure, and renal toxicity is a class concern. The simple version is an ADC with a small peptide as the address label, faster to penetrate tumours and cheaper to make.",
     principle: "Short peptide or bicyclic peptide binds the target; short half-life reduces systemic exposure.",
     strengths: ["Rapid penetration, renal clearance", "Cheaper synthesis"],
     limitations: ["Short half-life limits tumour exposure", "Renal toxicity"],
@@ -818,7 +818,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "sting-agonist", kind: "technology", name: "STING & innate immune agonists", sections: ["immunotherapy"], status: "phase-2", asOf, wikipedia: W("Stimulator_of_interferon_genes"),
     tldr: "Drugs that trigger the cell's built-in 'virus alarm' inside tumours to summon immune cells.",
-    summary: "Intratumoural STING agonists (ADU-S100, MK-1454) disappointed; systemic and antibody-conjugated versions (TAK-500, XMT-2056), TLR9 agonists (vidutolimod), and CD40 agonists (sotigalimab) continue. The cGAS-STING pathway also mediates the immune effects of radiation and ADCs.",
+    summary: "STING agonists are cyclic dinucleotide or non-nucleotide molecules that activate the STING to TBK1 to IRF3 axis, driving type I interferon and summoning immune cells into the tumour. In models this converts cold tumours, but intratumoural STING agonists (ADU-S100, MK-1454) disappointed in the clinic. Systemic and antibody-conjugated versions (TAK-500, XMT-2056), TLR9 agonists (vidutolimod), and CD40 agonists (sotigalimab) continue in trials as the next attempts. The cGAS-STING pathway also mediates the immune effects of radiation and ADCs, which is why the biology remains important even where the drugs have not worked. Weak clinical activity to date is the central open problem. The simple version is a drug that sets off the cell's built-in virus alarm inside the tumour.",
     principle: "Cyclic dinucleotide or non-nucleotide agonists activate STING → TBK1 → IRF3 → type I interferon.",
     strengths: ["Converts cold tumours in models"],
     limitations: ["Weak clinical activity to date"],
@@ -875,7 +875,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "car-nk-macrophage", kind: "technology", name: "CAR-NK & CAR-macrophage", sections: ["cell-therapy"], status: "phase-1", asOf,
     tldr: "Putting the cancer-seeking receptor on natural killer cells or macrophages instead of T cells, which could be safer and off-the-shelf.",
-    summary: "Cord-blood or iPSC-derived CAR-NK (Nkarta, Fate, Takeda/MD Anderson) show low CRS and allogeneic feasibility; efficacy durability is the question. CAR-macrophages (Carisma CT-0508, HER2) aim at solid tumour infiltration and phagocytosis; early and modest.",
+    summary: "CAR-NK and CAR-macrophage therapies put a chimeric antigen receptor on innate effector cells instead of T cells; NK cells lack graft-versus-host risk, enabling allogeneic, off-the-shelf use with low cytokine release syndrome and neurotoxicity. Cord-blood or iPSC-derived CAR-NK (Nkarta, Fate, Takeda/MD Anderson) show low CRS and allogeneic feasibility, but efficacy durability is the question because persistence is short. CAR-macrophages (Carisma CT-0508, HER2) aim at solid tumour infiltration and phagocytosis, with early and modest results. Manufacturing scale is a further hurdle. The simple version is that these therapies use other immune cells as the cancer-seeking vehicle, promising safety and availability but not yet matching the durable responses of CAR-T.",
     principle: "Innate effector cells engineered with a CAR; NK cells lack GVHD risk enabling allogeneic use.",
     strengths: ["Off-the-shelf potential", "Low CRS/ICANS"],
     limitations: ["Short persistence", "Manufacturing scale"],
@@ -885,7 +885,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "allogeneic-cell-therapy", kind: "technology", name: "Allogeneic (off-the-shelf) cell therapy", sections: ["cell-therapy"], status: "phase-2", asOf,
     tldr: "Cell therapies made from healthy donors in advance, so patients do not have to wait for their own cells to be engineered.",
-    summary: "Gene-edited donor T cells (Allogene cema-cel, ALLO-316 CD70; Caribou; CRISPR Therapeutics) remove TCR and HLA to avoid rejection. Persistence is the main limitation. Also iPSC-derived platforms (Fate, Century).",
+    summary: "Allogeneic cell therapy manufactures engineered cells from healthy donors in advance: TRAC knockout prevents graft-versus-host disease, and B2M/HLA editing or CD52 knockout with alemtuzumab conditioning delays rejection by the patient's immune system. Gene-edited donor T cells (Allogene cema-cel, ALLO-316 against CD70; Caribou; CRISPR Therapeutics) and iPSC-derived platforms (Fate, Century) are the main approaches. The appeal is immediate availability and industrial scale, removing the manufacturing wait that patients with fast-moving disease cannot afford. Persistence is the main limitation, because host rejection eventually clears the donor cells, and deeper lymphodepletion is needed to hold it off. The simple version is a cell therapy taken off the shelf rather than made from each patient's own cells.",
     principle: "TRAC knockout prevents GVHD; B2M/HLA editing or CD52 knockout with alemtuzumab conditioning delays host rejection.",
     strengths: ["Immediate availability, industrial scale"],
     limitations: ["Host rejection limits persistence", "Deeper lymphodepletion"],
@@ -895,7 +895,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "armored-car", kind: "technology", name: "Armoured, logic-gated & next-gen CARs", sections: ["cell-therapy"], status: "phase-1", asOf,
     tldr: "Upgraded CAR-T cells that also secrete immune boosters, resist exhaustion, or only fire when two signals are present.",
-    summary: "IL-12/IL-18-secreting CARs, dominant-negative TGF-β receptors, PD-1 knockout, synNotch logic gates (AND/NOT gating for solid tumours, e.g., Arsenal Bio), and tunable CARs. Addressing the solid-tumour barriers of exhaustion, suppression, and on-target off-tumour toxicity.",
+    summary: "Armoured and logic-gated CARs add transgenes or synthetic circuits that change how CAR-T cells behave in the tumour microenvironment: IL-12 or IL-18 secretion, dominant-negative TGF-β receptors, PD-1 knockout, synNotch logic gates (AND/NOT gating for solid tumours, for example Arsenal Bio), and tunable CARs. Each design addresses one of the solid-tumour barriers of exhaustion, immune suppression, or on-target off-tumour toxicity, with logic gating meant to fire only when two antigens are present together. These constructs are designed for hostile solid-tumour environments where first-generation CARs failed. The cost is complexity, and the safety of constitutively secreted cytokines is unresolved, so most programmes are phase 1. The simple version is an upgraded CAR-T that carries its own boosters, armour, or a two-signal safety switch.",
     principle: "Additional transgenes or synthetic circuits modify CAR-T behaviour in the tumour microenvironment.",
     strengths: ["Designed for hostile solid-tumour environments"],
     limitations: ["Complexity, safety of constitutive cytokines"],
@@ -943,7 +943,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "scalp-cooling", kind: "technology", name: "Scalp cooling", sections: ["supportive-care"], status: "established", asOf, wikipedia: W("Scalp_cooling"),
     tldr: "A cold cap worn during chemotherapy that reduces hair loss by narrowing blood vessels in the scalp.",
-    summary: "DigniCap and Paxman are FDA-cleared; roughly half of patients on taxane-based regimens keep at least 50% of their hair. Less effective with anthracyclines. Reimbursement remains inconsistent.",
+    summary: "Scalp cooling constricts blood vessels in the scalp during chemotherapy infusion, reducing drug delivery to hair follicles and so limiting hair loss. DigniCap and Paxman are FDA-cleared devices; roughly half of patients on taxane-based regimens keep at least 50% of their hair. It is less effective with anthracyclines, which are more damaging to follicles. The benefit is a meaningful quality-of-life gain for patients who find hair loss one of the most distressing parts of treatment. Cost, discomfort from the cold, and variable efficacy are the drawbacks, and reimbursement remains inconsistent. The simple version is a cold cap worn during chemotherapy that helps many patients keep their hair.",
     principle: "Vasoconstriction reduces drug delivery to hair follicles.",
     strengths: ["Meaningful quality-of-life benefit"],
     limitations: ["Cost, discomfort, variable efficacy"],
@@ -951,7 +951,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "cardio-oncology", kind: "technology", name: "Cardio-oncology", sections: ["supportive-care"], status: "established", asOf, wikipedia: W("Cardio-oncology"),
     tldr: "Protecting the heart from cancer treatments, which is increasingly important as patients live longer.",
-    summary: "Anthracycline and trastuzumab cardiotoxicity, checkpoint-inhibitor myocarditis, TKI hypertension and QT prolongation, and radiation heart disease. Baseline and serial echocardiography with strain imaging, troponin/BNP monitoring, and cardioprotective drugs (dexrazoxane, ACE inhibitors, statins).",
+    summary: "Cardio-oncology integrates risk stratification, surveillance, and prevention of heart damage into cancer care, so that patients can complete curative therapy without trading cancer for heart failure. The problems it addresses include anthracycline and trastuzumab cardiotoxicity, checkpoint-inhibitor myocarditis, TKI hypertension and QT prolongation, and radiation heart disease. Tools are baseline and serial echocardiography with strain imaging, troponin and BNP monitoring, and cardioprotective drugs such as dexrazoxane, ACE inhibitors, and statins. As survivors live longer, cardiovascular disease becomes a leading competing cause of death, which is why the field has grown. Workforce and access are the limitations, since specialist clinics are concentrated in large centres. The simple version is protecting the heart while the cancer is being treated.",
     principle: "Risk stratification, surveillance, and prevention integrated into oncology care.",
     strengths: ["Enables completion of curative therapy"],
     limitations: ["Workforce and access"],
@@ -968,7 +968,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "geriatric-assessment", kind: "technology", name: "Geriatric assessment", sections: ["supportive-care"], status: "established", asOf,
     tldr: "Geriatric assessment is a structured check of an older patient's fitness, memory, and support that predicts treatment tolerance better than age.",
-    summary: "GAP70+ and GAIN trials showed geriatric-assessment-guided management reduces severe chemotherapy toxicity by roughly 20% without compromising survival. Recommended by ASCO for all patients ≥65 receiving chemotherapy.",
+    summary: "Geriatric assessment scores validated domains, including function, comorbidity, cognition, nutrition, and social support, to predict how an older patient will tolerate treatment and to guide dose and regimen choice, which age alone does poorly. The GAP70+ and GAIN trials showed that geriatric-assessment-guided management reduces severe chemotherapy toxicity by roughly 20% without compromising survival. ASCO recommends it for all patients aged 65 or over receiving chemotherapy. It reduces harm and improves shared decision-making, giving patients a clearer picture of what treatment will cost them. Time and uptake are the barriers, since the assessment adds clinic work that many services have not resourced. The simple version is a structured fitness check that tells the oncologist how much treatment an older person can safely take.",
     principle: "Validated domains (function, comorbidity, cognition, nutrition, social support) inform dose and regimen choice.",
     strengths: ["Reduces harm, improves shared decision-making"],
     limitations: ["Time and uptake"],
@@ -989,7 +989,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "ai-trial-matching", kind: "technology", name: "AI trial matching & clinical decision support", sections: ["ai-computation"], status: "established", asOf,
     tldr: "Software, increasingly LLM-based, that reads a patient's record and finds trials or guideline options they qualify for.",
-    summary: "Only ~5-8% of adult cancer patients enter trials, partly because matching is manual. Tools: TrialGPT (NIH), Tempus TIME, Massive Bio, Deep 6 AI, and hospital-built LLM matchers. Molecular tumour boards use OncoKB and CIViC annotation. Evidence of increased enrolment is emerging.",
+    summary: "AI trial matching software extracts structured data from the electronic health record, matches it against parsed eligibility criteria, and ranks trials or guideline options a patient may qualify for. The problem it targets is that only around 5-8% of adult cancer patients enter trials, partly because matching is manual. Tools include TrialGPT (NIH), Tempus TIME, Massive Bio, Deep 6 AI, and hospital-built LLM matchers, and molecular tumour boards use OncoKB and CIViC annotation for variant interpretation. The approach scales expert knowledge and could reduce disparities in trial access, but hallucination risk and the need for validation are live concerns, and eligibility criteria are often ambiguous even to humans. Evidence of increased enrolment is emerging but not yet definitive. The simple version is software that reads a patient's record and finds the trials they could join.",
     principle: "Structured data are extracted from the EHR, matched against parsed eligibility criteria, and ranked.",
     strengths: ["Scales expert knowledge", "Reduces disparities in trial access"],
     limitations: ["Hallucination risk; validation", "Eligibility criteria are ambiguous"],
@@ -1006,7 +1006,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "crispr-screens", kind: "technology", name: "CRISPR functional genomics", sections: ["drug-discovery"], status: "established", asOf, wikipedia: W("CRISPR_screen"),
     tldr: "Knocking out every gene one at a time in cancer cells to find which ones they cannot live without.",
-    summary: "Genome-wide knockout, activation, and base-editing screens across >1,000 cell lines (DepMap, Sanger Project Score) map cancer dependencies and synthetic-lethal pairs (PRMT5/MTAP, WRN/MSI). In vivo and immune co-culture screens find immunotherapy resistance genes.",
+    summary: "CRISPR functional genomics uses pooled sgRNA libraries to knock out, activate, or base-edit every gene in cancer cells, then reads depletion or enrichment by sequencing to find which genes the cells cannot live without. Genome-wide screens across more than 1,000 cell lines (DepMap, Sanger Project Score) map cancer dependencies and synthetic-lethal pairs such as PRMT5/MTAP and WRN/MSI, several of which have become drug programmes. In vivo and immune co-culture screens find immunotherapy resistance genes. The output is a systematic, unbiased dependency map, though cell line artefacts and context specificity mean hits need validation in patient-relevant models. The simple version is a way to test every gene at once and ask which ones a cancer depends on.",
     principle: "Pooled sgRNA libraries; depletion or enrichment measured by sequencing.",
     strengths: ["Systematic, unbiased dependency maps"],
     limitations: ["Cell line artefacts; context specificity"],
@@ -1017,7 +1017,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "hpv-vaccine", kind: "technology", name: "HPV & HBV vaccination", sections: ["prevention"], status: "standard-of-care", asOf, wikipedia: W("HPV_vaccine"),
     tldr: "Vaccines that prevent the viral infections behind cervical, throat, anal, and liver cancers. The most effective anti-cancer intervention ever created.",
-    summary: "Gardasil 9 prevents ~90% of cervical cancers; Scotland and Sweden report near-zero cervical cancer in fully vaccinated cohorts. WHO targets cervical cancer elimination (90-70-90). HBV vaccination has reduced liver cancer incidence in Taiwan and elsewhere. Single-dose HPV schedules expand coverage.",
+    summary: "HPV and HBV vaccines are virus-like particle vaccines that induce neutralising antibodies, preventing the persistent oncogenic infections that cause cervical, throat, anal, and liver cancers. Gardasil 9 prevents around 90% of cervical cancers, and Scotland and Sweden report near-zero cervical cancer in fully vaccinated cohorts. The WHO targets cervical cancer elimination through its 90-70-90 goals for vaccination, screening, and treatment, and HBV vaccination has reduced liver cancer incidence in Taiwan and elsewhere. Single-dose HPV schedules expand coverage where multi-dose programmes are hard to deliver, and the vaccines are cheap at scale. Coverage gaps and vaccine hesitancy are the remaining obstacles. The simple version is that these vaccines prevent cancer outright, making them the most effective anti-cancer intervention ever created.",
     principle: "Virus-like particle vaccines induce neutralising antibodies preventing persistent oncogenic infection.",
     strengths: ["Prevents cancer outright", "Cheap at scale"],
     limitations: ["Coverage gaps, vaccine hesitancy"],
@@ -1049,7 +1049,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "photoimmunotherapy", kind: "technology", name: "Photoimmunotherapy & photodynamic therapy", sections: ["devices", "immunotherapy"], status: "approved", asOf, wikipedia: W("Photoimmunotherapy"),
     tldr: "An antibody carries a light-sensitive dye to the tumour; shining near-infrared light then bursts the cells.",
-    summary: "Cetuximab sarotalocan (Akalux, Rakuten Medical) is approved in Japan (2020) for recurrent head and neck cancer; US phase 3 ongoing. Classical photodynamic therapy (porfimer, ALA) is used for skin, oesophageal, and bile-duct lesions. Light delivery via fibres extends reach.",
+    summary: "Photoimmunotherapy conjugates the IR700 dye to an antibody; under 690 nm near-infrared light the dye undergoes a photochemical reaction that ruptures the cell membrane and causes immunogenic cell death, so only antibody-bound cells in the illuminated field are killed. Cetuximab sarotalocan (Akalux, Rakuten Medical), targeting EGFR, is approved in Japan (2020) for recurrent head and neck cancer, and a US phase 3 is ongoing. Classical photodynamic therapy with porfimer or ALA is used for skin, oesophageal, and bile-duct lesions. The treatment is highly selective, repeatable, and immunogenic. Light penetration limits it to accessible tumours, although fibre-optic delivery extends its reach. The simple version is that an antibody carries a light-sensitive dye to the tumour and shining light then bursts the cells.",
     principle: "IR700 dye conjugated to antibody undergoes photochemical reaction under 690 nm light, causing membrane rupture and immunogenic cell death.",
     strengths: ["Highly selective, repeatable", "Immunogenic"],
     limitations: ["Light penetration limits to accessible tumours"],
@@ -1059,7 +1059,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "hyperthermia", kind: "technology", name: "Hyperthermia", sections: ["devices", "radiation"], status: "established", asOf, wikipedia: W("Hyperthermia_therapy"),
     tldr: "Hyperthermia heats tumours to 40-43 °C to make radiation and chemotherapy work better.",
-    summary: "Regional and deep hyperthermia improve outcomes with radiotherapy in cervical cancer, recurrent breast cancer, and soft-tissue sarcoma (EORTC 62961). Magnetic nanoparticle hyperthermia (NanoTherm) is approved in Europe for glioblastoma. Underused outside Germany and the Netherlands.",
+    summary: "Hyperthermia heats tumours to 40-43 °C, which impairs DNA repair and increases perfusion and drug delivery, making radiation and chemotherapy more effective without adding their toxicity. Regional and deep hyperthermia improve outcomes with radiotherapy in cervical cancer, recurrent breast cancer, and soft-tissue sarcoma (EORTC 62961). Magnetic nanoparticle hyperthermia (NanoTherm) is approved in Europe for glioblastoma. Despite this evidence it is underused outside Germany and the Netherlands, because the equipment and expertise are scarce and the technique sits awkwardly between radiotherapy and medical oncology. The simple version is that warming a tumour makes standard treatments work better, and the main barrier is access rather than evidence.",
     principle: "Heat impairs DNA repair and increases perfusion and drug delivery.",
     strengths: ["Radiosensitiser without added toxicity"],
     limitations: ["Equipment and expertise scarce"],

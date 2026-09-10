@@ -1,5 +1,19 @@
 [
  {
+  "file": "ask-2026-09-09.json",
+  "system": "OnCo Ask (extractive answer, lexical + concept retrieval, top 6 records)",
+  "date": "2026-09-09",
+  "questions": 100,
+  "meanScore": 0.709,
+  "meanRetrievalRecall": 0.428,
+  "byCategory": {
+   "factual": 0.756,
+   "reasoning": 0.656,
+   "procedural": 0.436
+  },
+  "method": "For each question: MiniSearch and concept-index retrieval fused by reciprocal rank, top 6 records; the extractive answer shown on /ask/ (best sentences, two per record, one citation each) is scored for rubric coverage. No language model."
+ },
+ {
   "file": "onco-2026-09-08.json",
   "system": "OnCo (search-retrieval proxy, top 8 entities)",
   "date": "2026-09-08",

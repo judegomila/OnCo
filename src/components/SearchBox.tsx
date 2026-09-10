@@ -6,8 +6,10 @@ import MiniSearch from "minisearch";
 import type { SearchDoc } from "@/lib/search-index";
 import { KIND_META } from "@/lib/schema";
 import { KIND_COLOR } from "@/lib/text";
+import { loadSemantic } from "@/lib/semantic-client";
+import { semanticSearch } from "@/lib/semantic";
 
-let cache: Promise<{ ms: MiniSearch<SearchDoc>; docs: SearchDoc[] }> | null = null;
+let cache: Promise<{ ms: MiniSearch<SearchDoc>; docs: SearchDoc[]; byId: Map<string, SearchDoc> }> | null = null;
 
 export function loadSearch() {
   if (!cache) {
@@ -20,16 +22,21 @@ export function loadSearch() {
           searchOptions: { boost: { name: 4, aka: 3, id: 2 }, prefix: true, fuzzy: 0.2 },
         });
         ms.addAll(docs);
-        return { ms, docs };
+        return { ms, docs, byId: new Map(docs.map((d) => [d.id, d])) };
       });
   }
   return cache;
 }
 
+type Hit = SearchDoc & { concept?: string[] };
+
+/** Fewer than this many lexical hits triggers the concept-search fallback. */
+const FALLBACK_BELOW = 3;
+
 export function SearchBox({ large = false, autoFocus = false }: { large?: boolean; autoFocus?: boolean }) {
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
-  const [results, setResults] = useState<SearchDoc[]>([]);
+  const [results, setResults] = useState<Hit[]>([]);
   const [ready, setReady] = useState(false);
   const box = useRef<HTMLDivElement>(null);
 
@@ -42,9 +49,17 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
   const runSearch = (value: string) => {
     latest.current = value;
     if (!value.trim()) { setResults([]); return; }
-    loadSearch().then(({ ms }) => {
+    loadSearch().then(async ({ ms, byId }) => {
       if (latest.current !== value) return;
-      setResults(ms.search(value).slice(0, 12) as unknown as SearchDoc[]);
+      const lexical = ms.search(value).slice(0, 12) as unknown as SearchDoc[];
+      setResults(lexical);
+      if (lexical.length >= FALLBACK_BELOW) return;
+      // Too few exact matches: add concept matches (paraphrases, linked names), labelled as such.
+      const index = await loadSemantic();
+      if (!index || latest.current !== value) return;
+      const seen = new Set(lexical.map((h) => h.id));
+      const extra: Hit[] = semanticSearch(index, value, 10).filter((h) => !seen.has(h.id)).map((h) => ({ ...byId.get(h.id)!, concept: h.matched.slice(0, 3) })).filter((h) => h.id).slice(0, 12 - lexical.length);
+      setResults([...lexical, ...extra]);
     });
   };
 
@@ -55,6 +70,7 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
   }, []);
 
   const placeholder = useMemo(() => "Search TROP2, Enhertu, PSMA PET, TNBC, Gustave Roussy…", []);
+  const close = () => { setOpen(false); setQ(""); setResults([]); };
 
   return (
     <div ref={box} className="relative">
@@ -75,16 +91,21 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
           <ul>
             {results.map((r) => (
               <li key={r.id}>
-                <Link href={r.route} onClick={() => { setOpen(false); setQ(""); setResults([]); }} className="flex items-start gap-3 px-3 py-2 hover:bg-foreground/5">
+                <Link href={r.route} onClick={close} className="flex items-start gap-3 px-3 py-2 hover:bg-foreground/5">
                   <span className={`chip mt-0.5 border ${KIND_COLOR[r.kind]}`}>{KIND_META[r.kind].label}</span>
-                  <span className="min-w-0">
+                  <span className="min-w-0 flex-1">
                     <span className="block text-sm font-medium truncate">{r.name}</span>
                     <span className="block text-xs text-muted line-clamp-2">{r.tldr}</span>
                   </span>
+                  {r.concept && <span className="chip bg-foreground/5 text-[10px] shrink-0 mt-0.5" title={`Concept match on: ${r.concept.join(", ")}`}>concept</span>}
                 </Link>
               </li>
             ))}
           </ul>
+          <div className="flex flex-wrap gap-x-4 gap-y-1 border-t border-border px-3 py-2 text-xs">
+            <Link href={`/search/?q=${encodeURIComponent(q.trim())}`} onClick={close} className="underline">All results and why they match</Link>
+            <Link href={`/ask/?q=${encodeURIComponent(q.trim())}`} onClick={close} className="underline">Ask OnCo this as a question</Link>
+          </div>
         </div>
       )}
     </div>

@@ -1,0 +1,119 @@
+# OnCo
+
+> A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY 4.0; attribute "OnCo (onco.cc)".
+
+4,455 records in 18 kinds: 64 cancers, 19 fronts, 348 technologies, 92 targets, 377 drugs, 295 companies, 421 institutions, 44 pathways, 357 terms, 401 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 464 people, 45 bottlenecks, 146 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
+
+## Machine-readable corpus
+
+- [All records as JSON](https://onco.cc/api/v1/all.json): every entity with defaults applied plus a backlink map
+- [One record as JSON](https://onco.cc/api/v1/entities/tnbc.json): /api/v1/entities/<id>.json, with neighbours grouped by kind
+- [Context files index](https://onco.cc/api/v1/context/index.md): one clean Markdown file per record at /api/v1/context/<id>.md
+- [RDF N-Triples](https://onco.cc/api/v1/onco.nt): schema.org terms, owl:sameAs to Wikidata
+- [Search documents](https://onco.cc/api/v1/search.json): compact id, kind, name, TL;DR, route
+- [Concept index](https://onco.cc/api/v1/embeddings.json): TF-IDF vectors used by the site search (binary at embeddings.bin)
+- [Similar pages](https://onco.cc/api/v1/similar.json): top 8 similar records per id with the shared links
+- [Metadata](https://onco.cc/api/v1/meta.json): build date, counts, schema version, licence
+
+## Kinds
+
+- [Cancers](https://onco.cc/cancers/): One page per disease: state of the art, history, and what is coming. JSON at /api/v1/cancers.json
+- [Fronts](https://onco.cc/fronts/): The fronts of the war on cancer: from imaging and early detection to ADCs, radiopharma, and cell therapy. JSON at /api/v1/fronts.json
+- [Technologies](https://onco.cc/technologies/): Every way we see, measure, or attack a tumour, explained. JSON at /api/v1/technologies.json
+- [Targets](https://onco.cc/targets/): The molecules drugs and tracers aim at. JSON at /api/v1/targets.json
+- [Drugs](https://onco.cc/drugs/): Approved and pipeline products, with what they hit and who makes them. JSON at /api/v1/drugs.json
+- [Companies](https://onco.cc/companies/): Who is building what. JSON at /api/v1/companies.json
+- [Institutions](https://onco.cc/institutions/): The centres and universities that matter, mapped and ranked. JSON at /api/v1/institutions.json
+- [Pathways](https://onco.cc/pathways/): The classic signalling circuits, drawn and explained. JSON at /api/v1/pathways.json
+- [Terms](https://onco.cc/terms/): Glossary with plain-English TL;DRs and Wikipedia links. JSON at /api/v1/terms.json
+- [Trials](https://onco.cc/trials/): Landmark and current trials that define the standard of care. JSON at /api/v1/trials.json
+- [Pairings](https://onco.cc/pairings/): Things that work better together, and things that do not. JSON at /api/v1/pairings.json
+- [Roadmaps](https://onco.cc/roadmaps/): Where a technology has been and where it is heading. JSON at /api/v1/roadmaps.json
+- [Ideas](https://onco.cc/ideas/): Hypotheses and new directions, linked to the evidence. JSON at /api/v1/ideas.json
+- [Collections](https://onco.cc/collections/): The open databases and registries the field runs on. JSON at /api/v1/collections.json
+- [People](https://onco.cc/people/): The clinicians and scientists doing the work: specialisms, bios, papers, and where to find them. JSON at /api/v1/people.json
+- [Bottlenecks](https://onco.cc/bottlenecks/): The systemic constraints slowing the whole war on cancer, with the ideas that could break each one. JSON at /api/v1/bottlenecks.json
+- [Key papers](https://onco.cc/key-papers/): The papers that changed practice or thinking, each explained: what it found, what it means, and what to be careful about. JSON at /api/v1/key papers.json
+- [Journals](https://onco.cc/journals/): Where the evidence is published: the journals, their scope and access model, and the key papers each one carried. JSON at /api/v1/journals.json
+
+## Start here
+
+- [Explore](https://onco.cc/explore/): Pick a cancer, switch kind, get a ranked and sortable list.
+- [For me](https://onco.cc/for-me/): Choose your cancer type(s) and see what works and what could work.
+- [Navigator](https://onco.cc/navigator/): Standard of care for your stage, what you have tried, cautions, next options, trials near you.
+- [Tumour board](https://onco.cc/tumor-board/): Tick biomarkers and alterations, get matched options and cautions.
+- [Compare](https://onco.cc/compare/): Up to five products, technologies, targets, trials, or cancers side by side, differences highlighted.
+- [Landscape grid](https://onco.cc/pivot/): Count products, trials, or technologies by cancer, target, treatment type, or company in one grid.
+- [Timeline](https://onco.cc/timeline/): Scrub through the years: approvals, trials, and standard of care as it stood.
+- [Query](https://onco.cc/query/): Build a graph query and get a table.
+- [Graph explorer](https://onco.cc/graph/): Navigate the knowledge graph visually.
+- [Body map](https://onco.cc/body/): Start from where the cancer is.
+
+## Cancers & treatments
+
+- [Cancers](https://onco.cc/cancers/): State of the art, standard of care, history, pipeline.
+- [Fronts](https://onco.cc/fronts/): The fronts of the war: imaging to cell therapy.
+- [Technologies](https://onco.cc/technologies/): Every way we see, measure, or attack a tumour.
+- [Targets](https://onco.cc/targets/): The molecules drugs and tracers aim at.
+- [Treatments & tests](https://onco.cc/drugs/): Approved and pipeline products, with rotating molecules.
+- [Pathways](https://onco.cc/pathways/): Signalling circuits, drawn and explained.
+- [Prevalence](https://onco.cc/prevalence/): How common each target is in each cancer.
+- [Trials](https://onco.cc/trials/): Landmark and current trials.
+- [Pairings](https://onco.cc/pairings/): What works together, and what does not.
+- [Roadmaps](https://onco.cc/roadmaps/): History to horizon for each technology family.
+- [Bottlenecks](https://onco.cc/bottlenecks/): The constraints slowing the whole war on cancer, and the ideas that could break each one.
+- [Ideas](https://onco.cc/ideas/): Hypotheses and fixes, each with a proposed test.
+- [Glossary](https://onco.cc/terms/): Terms with TL;DRs and Wikipedia links.
+- [Collections](https://onco.cc/collections/): The open databases the field runs on.
+
+## News & evidence
+
+- [Journals](https://onco.cc/journals/): Where the evidence is published: scope, access model and the key papers each venue carried.
+- [Key papers](https://onco.cc/key-papers/): The papers that changed practice, each explained: what it found, what it means, what to be careful about.
+- [Evidence](https://onco.cc/evidence/): Every trial ranked by evidence strength, endpoints as people out of 100.
+- [Readout calendar](https://onco.cc/calendar/): Decisions, readouts, advisory committees, congresses.
+- [Congress digests](https://onco.cc/digests/): ASCO, ESMO, AACR, ASCO GU, sourced item by item.
+- [Failure museum](https://onco.cc/failures/): What did not work, and the lesson.
+- [Resistance atlas](https://onco.cc/resistance/): Escape routes per drug class and the countermeasures.
+- [Payloads & linkers](https://onco.cc/payloads/): The chemistry inside ADCs.
+- [Regulatory timeline](https://onco.cc/regulatory/): Every dated filing, approval, CRL, and label change.
+- [Paying for care (US)](https://onco.cc/coverage/us/): Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product.
+- [What the NHS offers](https://onco.cc/coverage/uk/): NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.
+- [Approvals by region](https://onco.cc/regulatory/regions/): Which products are approved in the US, EU, UK, Japan, China and Australia, and which are missing where.
+- [What the world is publishing](https://onco.cc/papers/): Fastest-growing topics in the literature, refreshed weekly from Europe PMC.
+- [Research pulse](https://onco.cc/pulse/): What the leading journals, regulators and news sources are saying this month.
+- [Toxicity compare](https://onco.cc/toxicity/): Grade 3+ adverse events across products of the same class.
+- [Isotope supply](https://onco.cc/isotopes/): Lu-177, Ac-225, Pb-212 and who makes them.
+- [Annual report](https://onco.cc/report/): The state of the war on cancer, year by year, generated from the corpus.
+- [Changelog](https://onco.cc/changelog/): What changed in OnCo, and when.
+- [Audit](https://onco.cc/audit/): Staleness, contradictions, and registry mismatches, recomputed each build.
+- [Corrections](https://onco.cc/corrections/): Every factual correction, what was wrong and how it was found.
+
+## Institutions & people
+
+- [Institutions](https://onco.cc/institutions/): Global map and ranking of cancer centres and institutes.
+- [Universities](https://onco.cc/universities/): Research output from OpenAlex, Nature Index, SCImago.
+- [Trial leadership](https://onco.cc/leadership/): Who led the pivotal trials.
+- [People](https://onco.cc/people/): The clinicians and scientists doing the work: specialisms, bios, papers.
+- [Heroes and heroines](https://onco.cc/heroes/): The patients, families, advocates and pioneers whose lives and cases changed cancer.
+- [Companies](https://onco.cc/companies/): Pharma, biotech, diagnostics, devices, AI.
+- [Countries](https://onco.cc/countries/): Who is doing the most cancer research: output, growth, trials, burden, funders.
+- [Cases by country](https://onco.cc/cases/): New cancer cases per country and per cancer, with the data gaps made explicit.
+- [Funding flows](https://onco.cc/funding/): Where the money comes from.
+
+## Learn & contribute
+
+- [Reading paths](https://onco.cc/paths/): ADCs in 30 minutes, understanding a diagnosis, and more.
+- [About & methodology](https://onco.cc/about/): Rules for facts, ranking formulas, licence.
+- [Roadmap](https://onco.cc/roadmap/): Corpus health gauges, every idea by status, and how OnCo expands and stays current.
+- [Gaps to fill](https://onco.cc/gaps/): Objects and fields that need work.
+- [Suggest an edit](https://onco.cc/suggest/): Propose a correction; organisations can edit their own records.
+- [Open evaluation](https://onco.cc/eval/): 100 questions, a rubric, and a public leaderboard.
+- [Open API](https://onco.cc/api/): The corpus as JSON.
+
+## Optional
+
+- [About and methodology](https://onco.cc/about/): rules for facts, ranking formulas, licence
+- [Open API](https://onco.cc/api/): the corpus as JSON
+- [Corrections](https://onco.cc/corrections/): every factual correction and how it was found
+- [GitHub](https://github.com/judegomila/OnCo): edit any record with a pull request

@@ -39,6 +39,22 @@ export function matchRows(): MatchRow[] {
   });
 }
 
+/** Which of the selected biomarkers an entity matches (labels), using its targets, terms, technologies and tags. Shared with the Explore personaliser. */
+export function biomarkerHits(row: { targets: string[]; terms: string[]; technologies: string[]; tags: string[] }, selected: Biomarker[]): string[] {
+  const hits: string[] = [];
+  for (const b of selected) {
+    const hit = (b.matches.targets ?? []).some((t) => row.targets.includes(t)) || (b.matches.terms ?? []).some((t) => row.terms.includes(t))
+      || (b.matches.technologies ?? []).some((t) => row.technologies.includes(t)) || (b.matches.tags ?? []).some((t) => row.tags.includes(t));
+    if (hit) hits.push(b.label);
+  }
+  return hits;
+}
+
+/** Resolve profile biomarker ids to biomarker records, ignoring unknown ids. */
+export function biomarkersById(ids: string[]): Biomarker[] {
+  return ids.map((id) => biomarkers.find((b) => b.id === id)).filter((b): b is Biomarker => !!b);
+}
+
 export type Scored = { row: MatchRow; score: number; hits: string[] };
 
 export function scoreRows(rows: MatchRow[], selected: Biomarker[], cancerId: string | null): Scored[] {

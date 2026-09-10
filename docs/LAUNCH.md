@@ -9,16 +9,16 @@ validate → typecheck → lint → test → `rm -rf out && npm run build` (gate
 Merge finished worktree agents before the chain; never `cd` into a worktree; never `vercel link`.
 
 ## Owner asks in flight (agents)
-- [ ] Accurate 3D molecules (ball and stick) and protein ribbons (Molecule3D)
-- [ ] Complementary approaches with evidence grades; hair-loss page under Living with cancer
+- [x] Accurate 3D molecules (ball and stick) and protein ribbons (Molecule3D): merged 10 Sept, deploying
+- [x] Complementary approaches with evidence grades; hair-loss page under Living with cancer: merged 10 Sept
 - [ ] Whole-site language switch (chrome dictionary, 8 languages, RTL for Arabic)
-- [ ] Graph explorer redesign (SVG, kind icons, side panel)
-- [ ] MCP server and CLI (packages/onco-cli, packages/onco-mcp), /api/ section, docs/ACCESS.md
+- [x] Graph explorer redesign (SVG, kind icons, side panel): merged 10 Sept
+- [x] MCP server and CLI (packages/onco-cli, packages/onco-mcp), /api/ section, docs/ACCESS.md: live 10 Sept; owner publishes to npm (name clash with mcp/package.json "onco-mcp" to resolve)
 - [ ] Homepage front schematics quality (renderer depth cues, mesh rework)
 - [ ] Completeness denominators per kind (/completeness/, roadmap panel, fetch:universe)
 - [ ] India deep dive (institutions, companies, CDSCO region, trials, people, /countries/in/)
 - [ ] China deep dive (same structure)
-- [ ] Glossary Wikipedia links and aliases; schematics wave 3; KOL people; research leaders batches; summaries chunks; portraits (wire Portrait per docs/wiring/PORTRAITS.md)
+- [ ] Glossary Wikipedia links and aliases; schematics wave 3; KOL people; research leaders batches; summaries chunks; portraits (wired and live 10 Sept, 77 photos)
 
 ## Owner asks not yet started
 - [ ] Google Search Console verification (needs the owner's TXT token; IndexNow key is live but the host verification was still pending on 10 Sept, retry `api.indexnow.org` each tick)

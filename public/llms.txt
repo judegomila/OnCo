@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY-NC 4.0; attribute "OnCo (onco.cc)".
 
-4,962 records in 18 kinds: 64 cancers, 19 fronts, 348 technologies, 92 targets, 377 drugs, 295 companies, 421 institutions, 86 pathways, 600 terms, 401 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 686 people, 45 bottlenecks, 146 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
+5,019 records in 18 kinds: 64 cancers, 19 fronts, 403 technologies, 92 targets, 377 drugs, 295 companies, 421 institutions, 86 pathways, 600 terms, 401 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 686 people, 45 bottlenecks, 148 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
 
 ## Machine-readable corpus
 
@@ -154,6 +154,8 @@
 - [What the NHS offers](https://onco.cc/coverage/uk/): NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.
 - [Diet, exercise and lifestyle](https://onco.cc/fronts/nutrition-lifestyle/): What people eat, drink, weigh and do: what the evidence says and what is hype.
 - [Supportive care](https://onco.cc/fronts/supportive-care/): Treating the person, not just the tumour: symptoms, side effects, nutrition, mental health.
+- [Complementary and supportive approaches](https://onco.cc/live/complementary/): Acupuncture, mindfulness, yoga, herbs, diets, cannabis, cold caps and more: what the trials show, graded honestly, and what to avoid or never use instead of treatment.
+- [Hair loss: prevention and regrowth](https://onco.cc/live/hair/): Scalp cooling and the regimens it suits, minoxidil for lasting thinning, eyebrows and lashes, wigs on the NHS and by prescription in the US, which drugs cause it and when hair returns.
 - [Heroes and heroines](https://onco.cc/heroes/): The patients, families, advocates and pioneers whose lives and cases changed cancer.
 
 ## Learn & contribute

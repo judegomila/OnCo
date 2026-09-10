@@ -1,0 +1,370 @@
+public/preprints/prov-gigapath.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/cd7.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/contributors.json
+  s_0beac9cb5d78fd::t_0dead7e43fb766 1
+public/preprints/radiopharmacy-network.json
+  s_0beac9cb5d78fd::t_11b63094a16750 1
+public/preprints/integrative-oncology.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/vista.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/alphafold3.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/sybil.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/uni-conch.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/muc16.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/app/gaps/page.tsx
+  s_0beac9cb5d78fd::t_5c846dbb12ec85 106
+docs/wiring/K.md
+  s_0beac9cb5d78fd::t_1308451fdd82cb 1-29
+public/preprints/psycho-oncology.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/app/suggest/page.tsx
+  s_0beac9cb5d78fd::t_c8c468163fd294 32
+public/preprints/fasting-mimicking-diet.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/state-arc.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/app/survival/page.tsx
+  s_0beac9cb5d78fd::t_be24078f936e56 50
+src/app/universities/page.tsx
+  s_0beac9cb5d78fd::t_15d9759ea27896 34
+  s_0beac9cb5d78fd::t_72f16bca7414dd 35
+src/app/hta/page.tsx
+  s_0beac9cb5d78fd::t_299ecfc0f6940e 54
+  s_0beac9cb5d78fd::t_9ca12c5b539554 76
+src/app/status/page.tsx
+  s_0beac9cb5d78fd::t_42de17b6f2e0bc 132
+  s_0beac9cb5d78fd::t_24068c48950430 126
+  s_0beac9cb5d78fd::t_02e5e2a1edb318 90
+  s_0beac9cb5d78fd::t_68ff5999b4a5fd 72
+  s_0beac9cb5d78fd::t_f49680ddf10d9d 64
+public/preprints/ketogenic-diet-glioblastoma.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/components/AssistanceBrowser.tsx
+  s_0beac9cb5d78fd::t_da7b0c965454d0 119
+public/preprints/aspirin-cancer-prevention.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/coffee-intake-cancer.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/cldn6.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/mediterranean-plant-forward-diet.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/pluto.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/medsam.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/treosulfan.json
+  s_0beac9cb5d78fd::t_87367c26baa082 1
+public/preprints/prehabilitation.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/app/preprints/page.tsx
+  s_0beac9cb5d78fd::t_516ba7096854da 86
+  s_0beac9cb5d78fd::t_c866367fb20fb9 70
+public/preprints/prmt5-mtap.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/tempus-multimodal.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/transcriptformer.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/glp1-agonists-cancer-risk.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/bioemu.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/app/history/page.tsx
+  s_0beac9cb5d78fd::t_f59cdf37454604 44
+public/preprints/antiemetic-therapy.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/thalidomide.json
+  s_0beac9cb5d78fd::t_87367c26baa082 1
+public/preprints/sleep-circadian-interventions.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/transfusion-support.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/components/RegisterSW.tsx
+  s_0beac9cb5d78fd::t_c3852d9815f1d2 81
+public/preprints/kaiko-midnight.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/hibou.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/h-optimus.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/app/audit/page.tsx
+  s_0beac9cb5d78fd::t_a4b1ecb7c714cf 100
+  s_0beac9cb5d78fd::t_1a81db616ea846 125
+  s_0beac9cb5d78fd::t_8de4ca7667f298 106
+public/preprints/mdm2.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/phenom-2.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/resistance-training-cachexia.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/gears.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/liv1.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/evo2.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/components/TrialChanges.tsx
+  s_0beac9cb5d78fd::t_a32f8972a38d22 33
+public/preprints/virchow.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/ultra-processed-food-ssb.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/med-gemini.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+scripts/audit-empty-pages.ts
+  s_0beac9cb5d78fd::t_0c70675141b996 4-5,13,21-34,36-37,70,74-77,79-83
+  s_0beac9cb5d78fd::t_ad4370c732d8d5 1-3,6-12,14-20,35,38-69,71-73,78,84-93
+src/components/TimelineScrubber.tsx
+  s_0beac9cb5d78fd::t_9f8077d8752ed0 70
+public/preprints/multidisciplinary-tumour-board.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/cachexia-appetite-pharmacotherapy.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/musk.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/dietitian-led-weight-loss-breast.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/app/pulse/page.tsx
+  s_0beac9cb5d78fd::t_44980ead76ebe2 45
+public/preprints/elotuzumab.json
+  s_0beac9cb5d78fd::t_87367c26baa082 1
+public/openalex/institutions.json
+  s_0beac9cb5d78fd::t_87367c26baa082 1
+public/preprints/telehealth-oncology.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/index.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/pomalidomide.json
+  s_0beac9cb5d78fd::t_87367c26baa082 1
+public/preprints/c2s-scale.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/universal-cell-embedding.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/nucleotide-transformer.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/scgpt.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_08eba98867f62b 7,10-16,18-19,23-28
+public/preprints/oncology-nursing.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/financial-navigation.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/palliative-radiotherapy.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/red-processed-meat-reduction.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/cancer-associated-thrombosis.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/provenance.json
+  s_0beac9cb5d78fd::t_0dead7e43fb766 1
+public/preprints/percutaneous-hepatic-perfusion.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/enformer-borzoi.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/g-csf-growth-factors.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/palliative-care.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/bariatric-surgery-cancer-incidence.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/genept.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/phikon.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/freshness.json
+  s_0beac9cb5d78fd::t_0dead7e43fb766 1
+public/preprints/probiotics-antibiotic-stewardship-io.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/fmt-checkpoint-nonresponders.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/scfoundation.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/app/newsletter/page.tsx
+  s_0beac9cb5d78fd::t_8a5d42dfaadd85 12,18-19,21-22,24,26-28,30-43,45-48,53-55,59,71,75-113,123,128,130-131,136
+public/newsletter/2026-09-09/index.html
+  s_0beac9cb5d78fd::t_08eba98867f62b 1-15
+public/preprints/cellfm.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/dietary-supplements-treatment-interactions.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/app/idea-votes/page.tsx
+  s_0beac9cb5d78fd::t_b8ef1f01446a48 100
+  s_0beac9cb5d78fd::t_2138131492727b 105-106
+  s_0beac9cb5d78fd::t_585967bc31347f 125
+  s_0beac9cb5d78fd::t_75bb16c2a99867 56
+  s_0beac9cb5d78fd::t_a4a3874e7de09c 58-61
+  s_0beac9cb5d78fd::t_0750b85851d062 86
+public/preprints/structured-exercise-survivorship.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/epcam.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/wrn.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/components/FdaFeed.tsx
+  s_0beac9cb5d78fd::t_5130018ece9aab 42
+public/preprints/epro-symptom-monitoring.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/app/reviewers/page.tsx
+  s_0beac9cb5d78fd::t_0b5c5024091e47 63-80
+  s_0beac9cb5d78fd::t_0fc5199baf3637 18
+  s_0beac9cb5d78fd::t_deaac754938b50 8
+  s_0beac9cb5d78fd::t_4162d9661dba5f 25
+src/app/saved/page.tsx
+  s_0beac9cb5d78fd::t_089da6cecd9bef 2
+  s_0beac9cb5d78fd::t_f006d67e8d9dbd 14
+public/preprints/pain-management.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/atlas-aignostics.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/immunonutrition-perioperative.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/oncology-nutrition.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/components/CitedPapers.tsx
+  s_0beac9cb5d78fd::t_a4037c9c9ab1d0 16
+src/app/contributors/page.tsx
+  s_0beac9cb5d78fd::t_55193de632b30b 103
+  s_0beac9cb5d78fd::t_301d10a83c6c56 77
+src/components/AbstractCandidates.tsx
+  s_0beac9cb5d78fd::t_0891f1be087f83 23
+public/preprints/smoothened.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/boltz.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/cd73-adenosine.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/app/freshness/page.tsx
+  s_0beac9cb5d78fd::t_efd3bba8343397 45
+  s_0beac9cb5d78fd::t_a67f79ef55a17c 52
+  s_0beac9cb5d78fd::t_97260f6efafc0f 38
+src/app/review/page.tsx
+  s_0beac9cb5d78fd::t_b35f15a616c15f 23-25
+  s_0beac9cb5d78fd::t_1999a996ee4bfa 62
+  s_0beac9cb5d78fd::t_df73f4fc5a8842 36
+public/preprints/nicheformer.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/pdgfra.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/vitamin-d-omega3-supplementation.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/global-oncology-access.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/survivorship-care-plan.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/mirai.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/alphagenome.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/enteral-parenteral-nutrition.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/app/data-sources/page.tsx
+  s_0beac9cb5d78fd::t_e14a18c685573b 95
+  s_0beac9cb5d78fd::t_0a68674dfc8db2 97
+public/preprints/ewsr1-fli1.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/chai-1.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/chief.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/smoking-cessation-after-diagnosis.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/aidoc-care.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/alphamissense.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/newsletter/2026-09-10.json
+  s_0beac9cb5d78fd::t_08eba98867f62b 1
+public/preprints/csf1r.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/electrochemotherapy.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/geneformer.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+scripts/newsletter.ts
+  s_0beac9cb5d78fd::t_177e9e7cb8b38e 8-16,20-22,24,43-45,48-49,67,122,125-126,132-133,151-155,157,160-169,191
+public/preprints/time-restricted-eating.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_08eba98867f62b 1
+public/preprints/alcohol-reduction-labelling.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/merlin-ct.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/intraoperative-radiotherapy.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/nutrition-screening-mnt.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/chemistry42.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/bionemo.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/ct-fm.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/bone-modifying-agents.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/components/AskOnco.tsx
+  s_0beac9cb5d78fd::t_3f28e6af7c85f7 55
+public/preprints/exercise-during-chemotherapy.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/radfm.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/rfdiffusion.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/cd52.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/tim3.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/esm3.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/panobinostat.json
+  s_0beac9cb5d78fd::t_87367c26baa082 1
+src/app/papers/page.tsx
+  s_0beac9cb5d78fd::t_b0762cbe7dc381 26
+public/preprints/eras-perioperative-nutrition.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/foresight-ehr.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/newsletter/2026-09-10/index.html
+  s_0beac9cb5d78fd::t_08eba98867f62b 1-15
+public/preprints/isolated-limb-perfusion.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/titan.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+src/app/countries/page.tsx
+  s_0beac9cb5d78fd::t_1c540d3ced1e19 50
+public/preprints/soy-breast-cancer.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/hospice-end-of-life.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+public/preprints/dietary-fibre-microbiome-io.json
+  s_0beac9cb5d78fd::t_286ed1ca4c533b 1
+public/preprints/fertility-preservation.json
+  s_0beac9cb5d78fd::t_302351a233564b 1
+src/components/MoleculeGallery.tsx
+  s_0beac9cb5d78fd::t_d4007371bb14af 103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "bd65c4085f42a52aa99a987f8a1fb5cb3aece997",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

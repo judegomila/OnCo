@@ -1,0 +1,844 @@
+{
+  "list": "OECI Accreditation and Designation Programme: certified centres",
+  "source": "https://accreditation.oeci.eu/certified-centres/",
+  "checkedOn": "2026-09-10",
+  "note": "One row per centre on the OECI certified-centres directory as of the checked date. `status` is the OECI designation shown (Comprehensive Cancer Centre, Cancer Centre, Comprehensive Cancer Network) or 'In Accreditation'. `id` is the OnCo institution id where the centre has a record; null where it does not. Completeness should be measured against the accredited rows (status other than 'In Accreditation'); all of those are matched except the Toulouse public oncology network (ATOP), for which no official website could be verified.",
+  "count": 119,
+  "accreditedCount": 80,
+  "centres": [
+    {
+      "name": "Anti-Cancer Center Blida",
+      "city": "Blida",
+      "country": "DZ",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Comprehensive Cancer Center Vienna",
+      "city": "Vienna",
+      "country": "AT",
+      "status": "In Accreditation",
+      "id": "ccc-vienna"
+    },
+    {
+      "name": "Leuven Cancer Institute",
+      "city": "Leuven",
+      "country": "BE",
+      "status": "Comprehensive Cancer Centre",
+      "id": "uz-leuven"
+    },
+    {
+      "name": "Kortrijk Cancer Centre AZ Groeninge",
+      "city": "Kortrijk",
+      "country": "BE",
+      "status": "Cancer Centre",
+      "id": "az-groeninge-kortrijk"
+    },
+    {
+      "name": "Institut Jules Bordet",
+      "city": "Brussels",
+      "country": "BE",
+      "status": "Comprehensive Cancer Centre",
+      "id": "institut-jules-bordet"
+    },
+    {
+      "name": "A.C. Camargo Cancer Center",
+      "city": "São Paulo",
+      "country": "BR",
+      "status": "In Accreditation",
+      "id": "ac-camargo"
+    },
+    {
+      "name": "Fundación Arturo López Pérez",
+      "city": "Santiago",
+      "country": "CL",
+      "status": "Cancer Centre",
+      "id": "falp-chile"
+    },
+    {
+      "name": "National Cancer Institute of Colombia",
+      "city": "Bogotá",
+      "country": "CO",
+      "status": "In Accreditation",
+      "id": "inc-colombia"
+    },
+    {
+      "name": "German Oncology Center",
+      "city": "Nicosia",
+      "country": "CY",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Masaryk Memorial Cancer Institute",
+      "city": "Brno",
+      "country": "CZ",
+      "status": "Comprehensive Cancer Centre",
+      "id": "mou-brno"
+    },
+    {
+      "name": "Copenhagen Comprehensive Cancer Centre",
+      "city": "Copenhagen",
+      "country": "DK",
+      "status": "In Accreditation",
+      "id": "rigshospitalet"
+    },
+    {
+      "name": "Aarhus University Hospital Comprehensive Cancer Centre",
+      "city": "Aarhus",
+      "country": "DK",
+      "status": "Comprehensive Cancer Centre",
+      "id": "aarhus-university-hospital"
+    },
+    {
+      "name": "Vejle Cancer Centre",
+      "city": "Vejle",
+      "country": "DK",
+      "status": "Cancer Centre",
+      "id": "vejle-cancer-centre"
+    },
+    {
+      "name": "Tartu University Hospital",
+      "city": "Tartu",
+      "country": "EE",
+      "status": "Cancer Centre",
+      "id": "tartu-university-hospital"
+    },
+    {
+      "name": "Cancer Center of Kuopio University Hospital",
+      "city": "Kuopio",
+      "country": "FI",
+      "status": "Cancer Centre",
+      "id": "kuopio-university-hospital"
+    },
+    {
+      "name": "Turku University Hospital Cancer Centre",
+      "city": "Turku",
+      "country": "FI",
+      "status": "Cancer Centre",
+      "id": "turku-university-hospital"
+    },
+    {
+      "name": "TAYS Cancer Centre, Tampere University Hospital",
+      "city": "Tampere",
+      "country": "FI",
+      "status": "Cancer Centre",
+      "id": "tays-cancer-centre"
+    },
+    {
+      "name": "Helsinki University Hospital Comprehensive Cancer Center",
+      "city": "Helsinki",
+      "country": "FI",
+      "status": "Comprehensive Cancer Centre",
+      "id": "helsinki-hus"
+    },
+    {
+      "name": "Institut du Cancer AP-HP Université Paris-Saclay",
+      "city": "Paris",
+      "country": "FR",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Institut Sainte Catherine",
+      "city": "Avignon",
+      "country": "FR",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Institut de Cancérologie de Lorraine",
+      "city": "Nancy",
+      "country": "FR",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Institut Godinot",
+      "city": "Reims",
+      "country": "FR",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Institut Universitaire du Cancer Henri-Mondor",
+      "city": "Créteil",
+      "country": "FR",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Centre Georges-François Leclerc",
+      "city": "Dijon",
+      "country": "FR",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Centre Antoine Lacassagne",
+      "city": "Nice",
+      "country": "FR",
+      "status": "Cancer Centre",
+      "id": "centre-antoine-lacassagne"
+    },
+    {
+      "name": "Institut Bergonié",
+      "city": "Bordeaux",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "institut-bergonie"
+    },
+    {
+      "name": "Institut du Cancer de Montpellier",
+      "city": "Montpellier",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "icm-montpellier"
+    },
+    {
+      "name": "Centre Oscar Lambret",
+      "city": "Lille",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "centre-oscar-lambret"
+    },
+    {
+      "name": "Gustave Roussy",
+      "city": "Villejuif",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "gustave-roussy"
+    },
+    {
+      "name": "Cancer Institute AP-HP Nord, Université Paris Cité",
+      "city": "Paris",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "aphp-nord-cancer-institute"
+    },
+    {
+      "name": "Institut Universitaire de Cancérologie AP-HP Sorbonne Université",
+      "city": "Paris",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "iuc-aphp-sorbonne"
+    },
+    {
+      "name": "Centre Jean Perrin",
+      "city": "Clermont-Ferrand",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "centre-jean-perrin"
+    },
+    {
+      "name": "Centre Henri Becquerel",
+      "city": "Rouen",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "centre-henri-becquerel"
+    },
+    {
+      "name": "Centre Eugène Marquis",
+      "city": "Rennes",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "centre-eugene-marquis"
+    },
+    {
+      "name": "Institut de Cancérologie de l'Ouest",
+      "city": "Angers",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "ico-angers-nantes"
+    },
+    {
+      "name": "Association Toulousaine d'Oncologie Publique",
+      "city": "Toulouse",
+      "country": "FR",
+      "status": "Comprehensive Cancer Network",
+      "id": null,
+      "note": "Network of IUCT Oncopole (iuct-oncopole) and CHU de Toulouse; no official website verified"
+    },
+    {
+      "name": "Institut du Cancer Paris CARPEM AP-HP Centre",
+      "city": "Paris",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "carpem-aphp-centre"
+    },
+    {
+      "name": "Centre François Baclesse",
+      "city": "Caen",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "centre-francois-baclesse"
+    },
+    {
+      "name": "Institut Universitaire du Cancer Toulouse Oncopole",
+      "city": "Toulouse",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "iuct-oncopole"
+    },
+    {
+      "name": "Institut Paoli-Calmettes",
+      "city": "Marseille",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "institut-paoli-calmettes"
+    },
+    {
+      "name": "Centre Léon Bérard",
+      "city": "Lyon",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "centre-leon-berard"
+    },
+    {
+      "name": "Institut Curie",
+      "city": "Paris",
+      "country": "FR",
+      "status": "Comprehensive Cancer Centre",
+      "id": "institut-curie"
+    },
+    {
+      "name": "General Oncology Hospital of Athens Saint Savvas",
+      "city": "Athens",
+      "country": "GR",
+      "status": "Cancer Centre",
+      "id": "saint-savvas-athens"
+    },
+    {
+      "name": "National Institute of Oncology",
+      "city": "Budapest",
+      "country": "HU",
+      "status": "Comprehensive Cancer Centre",
+      "id": "noi-budapest"
+    },
+    {
+      "name": "Landspitali University Hospital",
+      "city": "Reykjavik",
+      "country": "IS",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "University Hospital Limerick, Mid-Western Cancer Centre",
+      "city": "Limerick",
+      "country": "IE",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "The Mater Misericordiae University Hospital",
+      "city": "Dublin",
+      "country": "IE",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "St Vincent's UCD Cancer Centre",
+      "city": "Dublin",
+      "country": "IE",
+      "status": "Cancer Centre",
+      "id": "st-vincents-ucd-cancer-centre"
+    },
+    {
+      "name": "Cork University Hospital / University College Cork",
+      "city": "Cork",
+      "country": "IE",
+      "status": "Cancer Centre",
+      "id": "cork-university-hospital"
+    },
+    {
+      "name": "HSE West North West, University of Galway Cancer Centre",
+      "city": "Galway",
+      "country": "IE",
+      "status": "Cancer Centre",
+      "id": "galway-university-hospital-cancer-centre"
+    },
+    {
+      "name": "Beaumont RCSI Cancer Centre",
+      "city": "Dublin",
+      "country": "IE",
+      "status": "Cancer Centre",
+      "id": "beaumont-rcsi-cancer-centre"
+    },
+    {
+      "name": "Trinity St James's Cancer Institute",
+      "city": "Dublin",
+      "country": "IE",
+      "status": "Comprehensive Cancer Centre",
+      "id": "trinity-st-jamess-cancer-institute"
+    },
+    {
+      "name": "Fondazione Poliambulanza Istituto Ospedaliero",
+      "city": "Brescia",
+      "country": "IT",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Fondazione IRCCS Policlinico San Matteo",
+      "city": "Pavia",
+      "country": "IT",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "ASST Spedali Civili di Brescia",
+      "city": "Brescia",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "spedali-civili-brescia"
+    },
+    {
+      "name": "Ospedale San Raffaele",
+      "city": "Milan",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "san-raffaele"
+    },
+    {
+      "name": "Istituto Oncologico del Mediterraneo",
+      "city": "Catania",
+      "country": "IT",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "IRCCS Ospedale Sacro Cuore Don Calabria",
+      "city": "Negrar (Verona)",
+      "country": "IT",
+      "status": "Cancer Centre",
+      "id": "sacro-cuore-don-calabria"
+    },
+    {
+      "name": "IRCCS Centro di Riferimento Oncologico della Basilicata",
+      "city": "Rionero in Vulture",
+      "country": "IT",
+      "status": "Cancer Centre",
+      "id": "crob-rionero"
+    },
+    {
+      "name": "Istituto Tumori Giovanni Paolo II",
+      "city": "Bari",
+      "country": "IT",
+      "status": "Cancer Centre",
+      "id": "istituto-tumori-bari"
+    },
+    {
+      "name": "Candiolo Cancer Institute FPO-IRCCS",
+      "city": "Turin",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "candiolo"
+    },
+    {
+      "name": "Humanitas Research Hospital",
+      "city": "Milan",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "humanitas"
+    },
+    {
+      "name": "Istituto Nazionale Tumori Regina Elena",
+      "city": "Rome",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "regina-elena-rome"
+    },
+    {
+      "name": "Istituto Nazionale Tumori IRCCS Fondazione G. Pascale",
+      "city": "Naples",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "pascale-naples"
+    },
+    {
+      "name": "IRCCS Ospedale Policlinico San Martino",
+      "city": "Genoa",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "san-martino-genoa"
+    },
+    {
+      "name": "Istituto Oncologico Veneto IRCCS",
+      "city": "Padua",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "iov-veneto"
+    },
+    {
+      "name": "Fondazione IRCCS Istituto Nazionale dei Tumori di Milano",
+      "city": "Milan",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "int-milan"
+    },
+    {
+      "name": "AUSL di Reggio Emilia IRCCS in Tecnologie Avanzate e Modelli Assistenziali in Oncologia",
+      "city": "Reggio Emilia",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "ausl-irccs-reggio-emilia"
+    },
+    {
+      "name": "Centro di Riferimento Oncologico di Aviano",
+      "city": "Aviano",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "cro-aviano"
+    },
+    {
+      "name": "IEO European Institute of Oncology",
+      "city": "Milan",
+      "country": "IT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "ieo-milan"
+    },
+    {
+      "name": "King Hussein Cancer Center",
+      "city": "Amman",
+      "country": "JO",
+      "status": "In Accreditation",
+      "id": "khcc"
+    },
+    {
+      "name": "Pauls Stradins Clinical University Hospital",
+      "city": "Riga",
+      "country": "LV",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Riga East University Hospital",
+      "city": "Riga",
+      "country": "LV",
+      "status": "Cancer Centre",
+      "id": "riga-east-university-hospital"
+    },
+    {
+      "name": "Vilnius University Hospital Santaros Klinikos",
+      "city": "Vilnius",
+      "country": "LT",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "National Cancer Institute",
+      "city": "Vilnius",
+      "country": "LT",
+      "status": "Cancer Centre",
+      "id": "nci-vilnius"
+    },
+    {
+      "name": "Helse Bergen Haukeland University Hospital",
+      "city": "Bergen",
+      "country": "NO",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Akershus University Hospital Cancer Centre",
+      "city": "Lørenskog",
+      "country": "NO",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Oslo University Hospital",
+      "city": "Oslo",
+      "country": "NO",
+      "status": "Comprehensive Cancer Centre",
+      "id": "oslo-radium-hospital"
+    },
+    {
+      "name": "Narodowy Instytut Onkologii, Gliwice branch",
+      "city": "Gliwice",
+      "country": "PL",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Narodowy Instytut Onkologii im. Marii Skłodowskiej-Curie",
+      "city": "Warsaw",
+      "country": "PL",
+      "status": "Comprehensive Cancer Centre",
+      "id": "nio-warsaw"
+    },
+    {
+      "name": "Instituto Português de Oncologia de Coimbra Francisco Gentil",
+      "city": "Coimbra",
+      "country": "PT",
+      "status": "Cancer Centre",
+      "id": "ipo-coimbra"
+    },
+    {
+      "name": "Instituto Português de Oncologia de Lisboa Francisco Gentil",
+      "city": "Lisbon",
+      "country": "PT",
+      "status": "Cancer Centre",
+      "id": "ipo-lisboa"
+    },
+    {
+      "name": "Instituto Português de Oncologia do Porto Francisco Gentil",
+      "city": "Porto",
+      "country": "PT",
+      "status": "Comprehensive Cancer Centre",
+      "id": "ipo-porto"
+    },
+    {
+      "name": "Institute of Oncology Ljubljana",
+      "city": "Ljubljana",
+      "country": "SI",
+      "status": "Cancer Centre",
+      "id": "onkoloski-institut-ljubljana"
+    },
+    {
+      "name": "La Princesa University Hospital",
+      "city": "Madrid",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Hospital de la Santa Creu i Sant Pau",
+      "city": "Barcelona",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "HM CIOCC Centro Integral Oncológico Clara Campal",
+      "city": "Madrid",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Hospital Clínico Universitario de Valencia",
+      "city": "Valencia",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": "incliva-valencia"
+    },
+    {
+      "name": "Hospital Universitario La Paz",
+      "city": "Madrid",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": "la-paz"
+    },
+    {
+      "name": "Hospital Universitario Ramón y Cajal",
+      "city": "Madrid",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Hospital General Universitario Gregorio Marañón",
+      "city": "Madrid",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": "gregorio-maranon"
+    },
+    {
+      "name": "Hospital Universitario Puerta de Hierro Majadahonda",
+      "city": "Madrid",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Institut d'Oncologia de la Catalunya Sud, Hospital Universitari Sant Joan de Reus",
+      "city": "Reus",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Fundación Jiménez Díaz University Hospital",
+      "city": "Madrid",
+      "country": "ES",
+      "status": "Comprehensive Cancer Centre",
+      "id": "fundacion-jimenez-diaz"
+    },
+    {
+      "name": "Hospital Clínico San Carlos",
+      "city": "Madrid",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "12 de Octubre University Hospital",
+      "city": "Madrid",
+      "country": "ES",
+      "status": "In Accreditation",
+      "id": "12-de-octubre"
+    },
+    {
+      "name": "Clínic Barcelona Comprehensive Cancer Centre",
+      "city": "Barcelona",
+      "country": "ES",
+      "status": "Comprehensive Cancer Centre",
+      "id": "hospital-clinic-barcelona"
+    },
+    {
+      "name": "Catalan Institute of Oncology",
+      "city": "Barcelona",
+      "country": "ES",
+      "status": "Comprehensive Cancer Centre",
+      "id": "ico-catalonia"
+    },
+    {
+      "name": "Cancer Center Clínica Universidad de Navarra",
+      "city": "Pamplona",
+      "country": "ES",
+      "status": "Comprehensive Cancer Centre",
+      "id": "cun-navarra"
+    },
+    {
+      "name": "Vall d'Hebron Barcelona Campus Hospitalari",
+      "city": "Barcelona",
+      "country": "ES",
+      "status": "Comprehensive Cancer Centre",
+      "id": "vall-dhebron"
+    },
+    {
+      "name": "Fundación Instituto Valenciano de Oncología IVO",
+      "city": "Valencia",
+      "country": "ES",
+      "status": "Cancer Centre",
+      "id": "ivo-valencia"
+    },
+    {
+      "name": "University Hospital of Örebro",
+      "city": "Örebro",
+      "country": "SE",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Stockholm Gotland Comprehensive Cancer Network",
+      "city": "Stockholm",
+      "country": "SE",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "University Hospital of Umeå",
+      "city": "Umeå",
+      "country": "SE",
+      "status": "In Accreditation",
+      "id": null
+    },
+    {
+      "name": "Linköping University Hospital Cancer Center",
+      "city": "Linköping",
+      "country": "SE",
+      "status": "Comprehensive Cancer Centre",
+      "id": "linkoping-university-hospital"
+    },
+    {
+      "name": "Uppsala University Hospital",
+      "city": "Uppsala",
+      "country": "SE",
+      "status": "Comprehensive Cancer Centre",
+      "id": "uppsala-akademiska"
+    },
+    {
+      "name": "Sahlgrenska University Hospital",
+      "city": "Gothenburg",
+      "country": "SE",
+      "status": "Comprehensive Cancer Centre",
+      "id": "sahlgrenska"
+    },
+    {
+      "name": "Skåne University Hospital Cancer Centre",
+      "city": "Malmö",
+      "country": "SE",
+      "status": "Comprehensive Cancer Centre",
+      "id": "lund-skane"
+    },
+    {
+      "name": "Karolinska Institute and University Hospital",
+      "city": "Stockholm",
+      "country": "SE",
+      "status": "Comprehensive Cancer Centre",
+      "id": "karolinska"
+    },
+    {
+      "name": "Radboudumc Centre for Oncology",
+      "city": "Nijmegen",
+      "country": "NL",
+      "status": "In Accreditation",
+      "id": "radboudumc"
+    },
+    {
+      "name": "Erasmus MC Cancer Institute",
+      "city": "Rotterdam",
+      "country": "NL",
+      "status": "Comprehensive Cancer Centre",
+      "id": "erasmus-mc"
+    },
+    {
+      "name": "Rijnstate",
+      "city": "Arnhem",
+      "country": "NL",
+      "status": "Cancer Centre",
+      "id": "rijnstate-arnhem"
+    },
+    {
+      "name": "OncoZON Cancer Network",
+      "city": "Maastricht",
+      "country": "NL",
+      "status": "Comprehensive Cancer Network",
+      "id": "oncozon"
+    },
+    {
+      "name": "University Medical Center Groningen Comprehensive Cancer Center",
+      "city": "Groningen",
+      "country": "NL",
+      "status": "Comprehensive Cancer Centre",
+      "id": "umcg-groningen"
+    },
+    {
+      "name": "Maastricht University Medical Centre+",
+      "city": "Maastricht",
+      "country": "NL",
+      "status": "Comprehensive Cancer Centre",
+      "id": "maastricht-umc"
+    },
+    {
+      "name": "Netherlands Cancer Institute",
+      "city": "Amsterdam",
+      "country": "NL",
+      "status": "Comprehensive Cancer Centre",
+      "id": "nki"
+    },
+    {
+      "name": "Anadolu Medical Center Hospital",
+      "city": "Istanbul",
+      "country": "TR",
+      "status": "Cancer Centre",
+      "id": "anadolu-medical-center"
+    },
+    {
+      "name": "Cancer Research UK Cambridge Centre",
+      "city": "Cambridge",
+      "country": "GB",
+      "status": "Comprehensive Cancer Centre",
+      "id": "cruk-cambridge-centre"
+    },
+    {
+      "name": "The Christie NHS Foundation Trust",
+      "city": "Manchester",
+      "country": "GB",
+      "status": "Comprehensive Cancer Centre",
+      "id": "the-christie"
+    }
+  ]
+}

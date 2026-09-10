@@ -685,4 +685,12 @@ export const peopleUsEast: PersonInput[] = [
     profiles: [{ label: "UHN profile", url: "https://www.uhnresearch.ca/researcher/trevor-j-pugh" }, pubmed("Pugh TJ")],
     papers: [doi("The genetic landscape of high-risk neuroblastoma", "Nature Genetics", 2013, "10.1038/ng.2529")],
     cancers: ["neuroblastoma"], technologies: ["liquid-biopsy", "single-cell-spatial"] }),
+
+  // =================== Yale Cancer Center ===================
+  p({ id: "eric-winer", name: "Eric P. Winer", role: "Director, Yale Cancer Center; President and Physician-in-Chief, Smilow Cancer Hospital; Deputy Dean for Cancer Research, Yale School of Medicine", institutionId: "yale-cancer-center", specialisms: ["Breast cancer", "HER2-positive breast cancer", "Clinical trial design", "Academic leadership"],
+    tldr: "Breast cancer specialist who leads Yale Cancer Center and Smilow Cancer Hospital, and who previously ran breast oncology at Dana-Farber for more than two decades.",
+    summary: "Medical oncologist appointed Director of Yale Cancer Center and Physician-in-Chief of Smilow Cancer Hospital on 1 February 2022, after leading the breast oncology programme at Dana-Farber Cancer Institute, where he was Chief of the Division of Breast Oncology and Chief Clinical Strategy Officer. His research has focused on the treatment of breast cancer, in particular HER2-positive disease, de-escalation of therapy for lower-risk patients and the design of adjuvant and neoadjuvant trials through the Alliance cooperative group and Translational Breast Cancer Research Consortium. He served as President of the American Society of Clinical Oncology for 2022-2023.",
+    profiles: [{ label: "Yale Cancer Center leadership", url: "https://medicine.yale.edu/cancer/about/people/" }, { label: "Yale School of Medicine profile", url: "https://medicine.yale.edu/profile/eric-winer/" }, pubmed("Winer EP")],
+    papers: [doi("Adjuvant paclitaxel and trastuzumab for node-negative, HER2-positive breast cancer", "New England Journal of Medicine", 2015, "10.1056/NEJMoa1406281"), doi("Pembrolizumab versus investigator-choice chemotherapy for metastatic triple-negative breast cancer (KEYNOTE-119): a randomised, open-label, phase 3 trial", "Lancet Oncology", 2021, "10.1016/S1470-2045(20)30754-3")],
+    cancers: ["breast-her2-positive", "tnbc"], drugs: ["pembrolizumab"], institutions: ["yale-cancer-center", "dana-farber"] }),
 ];

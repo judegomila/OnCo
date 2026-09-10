@@ -1,0 +1,37 @@
+src/lib/molecule-render.test.ts
+  s_0beac9cb5d78fd::t_e8072ca84102bf 1-142
+src/components/MoleculeThumb.tsx
+  s_0beac9cb5d78fd::t_29c237fb2ad182 3,8-11,16
+src/lib/molecule-render.ts
+  s_0beac9cb5d78fd::t_c4fb24a075ff29 1-18,20-140,142,144-149,151-222
+  s_0beac9cb5d78fd::t_3d9cf737834815 19
+  s_0beac9cb5d78fd::t_817f184408b2fe 141,143,150
+src/components/MoleculeViewer.tsx
+  s_0beac9cb5d78fd::t_727b7cd063d9a6 3-4,6,9-10,15-16,19,22,24,28
+src/data/structures.ts
+  s_0beac9cb5d78fd::t_ce5b7857107748 22
+src/lib/structures.ts
+  s_0beac9cb5d78fd::t_ce5b7857107748 2
+public/structures/index.json
+  s_0beac9cb5d78fd::t_ce5b7857107748 1
+src/components/Molecule3D.tsx
+  s_0beac9cb5d78fd::t_aa26abc07e6696 1-6,8-105,108-111,114-116,119-201,203-211,213-407
+  s_0beac9cb5d78fd::t_96bc234c5035b1 7
+  s_0beac9cb5d78fd::t_946782a7aa3d88 106-107,112-113,117-118,202,212
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "946e3426e0d1a3a4fab0f02d38e022443f015576",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

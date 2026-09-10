@@ -132,6 +132,8 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/coverage/uk/", label: "What the NHS offers", blurb: "NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.", regions: ["UK"] },
       { href: "/fronts/nutrition-lifestyle/", label: "Diet, exercise and lifestyle", blurb: "What people eat, drink, weigh and do: what the evidence says and what is hype." },
       { href: "/fronts/supportive-care/", label: "Supportive care", blurb: "Treating the person, not just the tumour: symptoms, side effects, nutrition, mental health." },
+      { href: "/live/complementary/", label: "Complementary and supportive approaches", blurb: "Acupuncture, mindfulness, yoga, herbs, diets, cannabis, cold caps and more: what the trials show, graded honestly, and what to avoid or never use instead of treatment." },
+      { href: "/live/hair/", label: "Hair loss: prevention and regrowth", blurb: "Scalp cooling and the regimens it suits, minoxidil for lasting thinning, eyebrows and lashes, wigs on the NHS and by prescription in the US, which drugs cause it and when hair returns." },
       { href: "/heroes/", label: "Heroes and heroines", blurb: "The patients, families, advocates and pioneers whose lives and cases changed cancer." },
     ],
   },

@@ -184,7 +184,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   // ================= Kinase and small-molecule targeted =================
   osimertinib: global("Tagrisso", "tagrisso", 2015, 2016, 2016, 2016, 2017, 2016),
   furmonertinib: { US: UR("ArriVent: EGFR exon 20 insertion programme (FURVENT phase 3)"), CN: A(2021, NMPA, "T790M 2L Mar 2021; 1L EGFR-mutant Jun 2022") },
-  aumolertinib: { US: NF("No NDA"), EU: UR("MAA under evaluation"), CN: A(2020, NMPA, "T790M 2L Mar 2020; 1L EGFR-mutant Dec 2021") },
+  aumolertinib: { US: NF("No NDA"), EU: A(2026, epar("aumseqa"), "Aumseqa: first-line EGFR exon 19 deletion or L858R advanced NSCLC, and T790M-positive NSCLC; February 2026"), CN: A(2020, NMPA, "T790M 2L Mar 2020; 1L EGFR-mutant Dec 2021") },
   icotinib: { US: NF(), CN: A(2011, NMPA, "First China-invented targeted cancer drug; 2L NSCLC 2011, 1L 2014, adjuvant 2021") },
   savolitinib: { US: NF("Global SAFFRON phase 3 with osimertinib ongoing"), EU: NF(), CN: A(2021, NMPA, "MET exon 14 NSCLC (conditional Jun 2021); with osimertinib 2025") },
   anlotinib: { US: NF(), CN: A(2018, NMPA, "3L NSCLC May 2018; sarcoma and SCLC 2019; MTC 2020") },

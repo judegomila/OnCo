@@ -620,7 +620,7 @@ export const cancers: CancerInput[] = [
     tags: ["heme"],
   }),
   c({
-    id: "multiple-myeloma", name: "Multiple myeloma", group: "haematologic", wikipedia: W("Multiple_myeloma"),
+    id: "multiple-myeloma", drugs: ["elotuzumab", "panobinostat", "sipuleucel-t", "fluciclovine-f18", "aminolevulinic-acid-gleolan", "pegulicianine"], name: "Multiple myeloma", group: "haematologic", wikipedia: W("Multiple_myeloma"),
     burden: "~190,000 cases per year; median survival now >10 years in fit patients.",
     tldr: "Multiple myeloma is a plasma-cell cancer with more new drug classes than any other: proteasome inhibitors, IMiDs, CD38 antibodies, BCMA CAR-T, bispecifics, and an ADC.",
     summary: "Quadruplet induction (daratumumab-VRd, PERSEUS) ± transplant, lenalidomide maintenance; MRD-guided de-escalation emerging. Relapse: cilta-cel (CARTITUDE-4, OS benefit), ide-cel, teclistamab (≥1 line from 2026), elranatamab, talquetamab, linvoseltamab, belantamab (2025). CELMoDs (iberdomide, mezigdomide) and GPRC5D CAR-T in phase 3. Whole-body MRI/PET for imaging.",

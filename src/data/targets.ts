@@ -55,7 +55,7 @@ export const targets: TargetInput[] = [
     ],
   },
   {
-    id: "egfr", kind: "target", name: "EGFR", symbol: "EGFR", targetClass: "kinase", asOf, wikipedia: W("Epidermal_growth_factor_receptor"),
+    id: "egfr", drugs: ["dacomitinib", "mobocertinib"], kind: "target", name: "EGFR", symbol: "EGFR", targetClass: "kinase", asOf, wikipedia: W("Epidermal_growth_factor_receptor"),
     tldr: "A growth receptor that is mutated in some lung cancers and overproduced in others; the first great success of targeted pills.",
     summary: "EGFR activating mutations (exon 19 del, L858R) drive ~15% of Western and ~40-50% of East Asian NSCLC; osimertinib is standard first-line. EGFR is also an antibody target in colorectal and head-and-neck cancer (cetuximab, panitumumab) and a component of bispecifics (amivantamab, EGFR×MET; EGFR×HER3 ADCs). Resistance via C797S, MET amplification, and histologic transformation is the central problem.",
     biology: "EGFR is a receptor tyrosine kinase activating RAS-MAPK and PI3K-AKT. Exon 20 insertions need dedicated drugs.",
@@ -164,7 +164,7 @@ export const targets: TargetInput[] = [
     ],
   },
   {
-    id: "folr1", kind: "target", name: "Folate receptor alpha", symbol: "FOLR1", targetClass: "surface-antigen", asOf, wikipedia: W("Folate_receptor_1"),
+    id: "folr1", drugs: ["pafolacianine"], kind: "target", name: "Folate receptor alpha", symbol: "FOLR1", targetClass: "surface-antigen", asOf, wikipedia: W("Folate_receptor_1"),
     tldr: "Folate receptor alpha is a vitamin receptor that ovarian cancer cells carry in large numbers, used as the docking site for the ADC mirvetuximab.",
     summary: "FRα is overexpressed in high-grade serous ovarian cancer, endometrial cancer, and lung adenocarcinoma. Mirvetuximab soravtansine (Elahere) is approved in FRα-high platinum-resistant ovarian cancer (MIRASOL). Next-generation FRα ADCs with topoisomerase-I payloads (ZW191, luveltamab tazevibulin, rinatabart sesutecan) target lower-expressing tumours.",
     biology: "GPI-anchored folate transporter; limited to apical surfaces in normal kidney, lung, and choroid plexus.",
@@ -499,7 +499,7 @@ export const targets: TargetInput[] = [
     ],
   },
   {
-    id: "alk", kind: "target", name: "ALK", symbol: "ALK", targetClass: "kinase", asOf, wikipedia: W("Anaplastic_lymphoma_kinase"),
+    id: "alk", drugs: ["ceritinib", "brigatinib", "ensartinib"], kind: "target", name: "ALK", symbol: "ALK", targetClass: "kinase", asOf, wikipedia: W("Anaplastic_lymphoma_kinase"),
     tldr: "A gene fusion found in about 5% of lung cancers that responds spectacularly to pills, now for many years.",
     summary: "ALK rearrangements occur in ~4-5% of NSCLC, typically in younger never-smokers. Lorlatinib achieved 5-year PFS of ~60% in CROWN, the longest of any targeted therapy in metastatic NSCLC. Alectinib is approved in the adjuvant setting (ALINA). Fourth-generation inhibitors (neladalkib) address compound resistance mutations.",
     biology: "ALK is a receptor tyrosine kinase; the EML4-ALK fusion is most common. It is also altered in anaplastic large-cell lymphoma and neuroblastoma.",
@@ -770,7 +770,7 @@ export const targets: TargetInput[] = [
     ],
   },
   {
-    id: "estrogen-receptor", kind: "target", name: "Estrogen receptor (ERα)", symbol: "ESR1", targetClass: "nuclear-receptor", asOf, wikipedia: W("Estrogen_receptor_alpha"),
+    id: "estrogen-receptor", drugs: ["fluoroestradiol-f18"], kind: "target", name: "Estrogen receptor (ERα)", symbol: "ESR1", targetClass: "nuclear-receptor", asOf, wikipedia: W("Estrogen_receptor_alpha"),
     tldr: "The hormone switch that drives most breast cancers. Blocking or destroying it is the oldest and most effective targeted therapy.",
     summary: "Tamoxifen (SERM), aromatase inhibitors, fulvestrant (SERD), oral SERDs (elacestrant, imlunestrant, camizestrant), and the PROTAC degrader vepdegestrant (approved 2026 for ESR1-mutant disease) form the endocrine armamentarium. ESR1 mutations arise under aromatase-inhibitor pressure and are detected by ctDNA.",
     biology: "Ligand-activated nuclear receptor; ESR1 Y537S/D538G mutations render it ligand-independent.",

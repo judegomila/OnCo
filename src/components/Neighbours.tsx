@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Entity, Kind } from "@/lib/schema";
 import { KIND_META, KINDS } from "@/lib/schema";
+import { KindName } from "./T";
 import type { SimilarLink } from "@/lib/similar";
 import { KIND_COLOR } from "@/lib/text";
 import { ChipList } from "./ui";
@@ -25,7 +26,7 @@ export function Neighbours({ groups, exclude = [], similar }: { groups: Map<Kind
             return (
               <section key={k} aria-label={KIND_META[k].plural} className={`card p-4 ${k === "drug" ? "sm:col-span-2" : ""}`}>
                 <div className="mb-2.5 flex items-baseline justify-between gap-3">
-                  <h3 className="kicker">{KIND_META[k].plural}</h3>
+                  <h3 className="kicker"><KindName kind={k} form="plural" fallback={KIND_META[k].plural} /></h3>
                   <span className="text-xs text-muted tabular-nums">{items.length}</span>
                 </div>
                 {k === "drug" ? <DrugGrid drugs={items as Drug[]} compact /> : <ChipList items={items} kind={k} />}
@@ -50,7 +51,7 @@ export function SimilarStrip({ items }: { items: SimilarLink[] }) {
         {items.map((s) => (
           <li key={s.id} className="rounded-lg border border-border p-2.5 text-sm">
             <div className="flex items-center gap-1.5 mb-1">
-              <span className={`chip border ${KIND_COLOR[s.kind]}`}>{KIND_META[s.kind].label}</span>
+              <span className={`chip border ${KIND_COLOR[s.kind]}`}><KindName kind={s.kind} form="label" fallback={KIND_META[s.kind].label} /></span>
             </div>
             <Link href={s.route} className="font-medium leading-snug hover:underline">{s.name}</Link>
             <p className="text-xs text-muted mt-1 leading-snug">

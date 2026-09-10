@@ -385,8 +385,8 @@ html[dir="rtl"] code, html[dir="rtl"] kbd, html[dir="rtl"] .tabular-nums { unico
 [lang="ja"] { font-family: var(--font-sans), "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Meiryo", sans-serif; line-height: 1.75; }
 [lang="zh"] { font-family: var(--font-sans), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif; line-height: 1.75; }
 [lang="hi"] { font-family: var(--font-sans), "Kohinoor Devanagari", "Nirmala UI", "Noto Sans Devanagari", sans-serif; line-height: 1.75; }
-/* The EN fallback mark inside RTL text should stay LTR. */
-[lang="ar"] > span[title] { direction: ltr; unicode-bidi: isolate; }
+/* The translation mark beside a TL;DR takes the direction of its own text (EN stays LTR inside Arabic, and vice versa). */
+[lang] > span[title] { unicode-bidi: isolate; }
 
 /* ------------------------------------------------------------------------------------------------
    Forced colours (Windows High Contrast). System colours replace ours; keep the borders that carry

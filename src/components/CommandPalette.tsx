@@ -7,7 +7,7 @@ import { loadSearch } from "./SearchBox";
 import { MoleculeSlot } from "./MoleculeSlot";
 import type { SearchDoc } from "@/lib/search-index";
 import { KIND_META } from "@/lib/schema";
-import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
+import { KIND_COLOR, statusClass } from "@/lib/text";
 import { useT } from "@/lib/i18n/ui";
 
 type Item = { id: string; kind?: SearchDoc["kind"]; name: string; tldr: string; route: string; status?: string; action?: true };
@@ -81,6 +81,7 @@ export function CommandPalette() {
   const [active, setActive] = useState(0);
   const [ready, setReady] = useState(false);
   const [indexed, setIndexed] = useState(0);
+  const { kind: kindName, status: statusName } = useT();
   const input = useRef<HTMLInputElement>(null);
   const list = useRef<HTMLUListElement>(null);
   const dialog = useRef<HTMLDivElement>(null);
@@ -183,12 +184,12 @@ export function CommandPalette() {
             <li key={it.id} id={`palette-opt-${i}`} role="option" aria-selected={i === active} onMouseEnter={() => setActive(i)} onMouseDown={(e) => { e.preventDefault(); go(it); }}
               className={`flex items-start gap-3 px-4 py-2 cursor-pointer ${i === active ? "bg-foreground/5" : ""}`}>
               {it.kind === "drug" && <MoleculeSlot drugId={it.id} name={it.name} className="h-9 w-9" />}
-              <span className={`chip mt-0.5 border shrink-0 ${it.kind ? KIND_COLOR[it.kind] : "bg-foreground/5 border-border"}`}>{it.kind ? KIND_META[it.kind].label : "Page"}</span>
+              <span className={`chip mt-0.5 border shrink-0 ${it.kind ? KIND_COLOR[it.kind] : "bg-foreground/5 border-border"}`}>{it.kind ? kindName(it.kind, "label") ?? KIND_META[it.kind].label : "Page"}</span>
               <span className="min-w-0 flex-1">
                 <span className="block text-sm font-medium truncate">{it.name}</span>
                 <span className="block text-xs text-muted line-clamp-1">{it.tldr}</span>
               </span>
-              {it.status && <span className={`chip shrink-0 ${statusClass(it.status)}`}>{STATUS_LABEL[it.status] ?? it.status}</span>}
+              {it.status && <span className={`chip shrink-0 ${statusClass(it.status)}`}>{statusName(it.status)}</span>}
               {i === active && <kbd className="hidden sm:inline text-[10px] text-muted border border-border rounded px-1.5 py-0.5 self-center" aria-hidden>↵</kbd>}
             </li>
           ))}

@@ -6,6 +6,7 @@ import { Container, EntityCard, KindChip, StatusChip } from "@/components/ui";
 import { SearchBox } from "@/components/SearchBox";
 import { KIND_COLOR } from "@/lib/text";
 import { NAV_GROUPS } from "@/lib/nav";
+import { GroupText, ItemText } from "@/components/NavText";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { FrontIcon } from "@/components/FrontIcon";
 import { NavIcon } from "@/components/NavIcon";
@@ -156,9 +157,9 @@ export default function Home() {
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {NAV_GROUPS.map((grp) => (
             <Link key={grp.id} href={grp.href} className="card p-4">
-              <div className="flex items-center gap-2 mb-1.5"><span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-accent-soft text-accent"><NavIcon id={grp.id} className="h-4.5 w-4.5" /></span><div className="kicker">{grp.label}</div></div>
-              <p className="text-sm text-muted line-clamp-3 leading-relaxed">{grp.blurb}</p>
-              <div className="mt-3 flex flex-wrap gap-1">{grp.items.slice(0, 4).map((it) => <span key={it.href} className="chip bg-surface text-foreground/80">{it.label}</span>)}{grp.items.length > 4 && <span className="chip bg-surface text-muted">+{grp.items.length - 4}</span>}</div>
+              <div className="flex items-center gap-2 mb-1.5"><span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-accent-soft text-accent"><NavIcon id={grp.id} className="h-4.5 w-4.5" /></span><div className="kicker"><GroupText id={grp.id} /></div></div>
+              <p className="text-sm text-muted line-clamp-3 leading-relaxed"><GroupText id={grp.id} field="blurb" /></p>
+              <div className="mt-3 flex flex-wrap gap-1">{grp.items.slice(0, 4).map((it) => <span key={it.href} className="chip bg-surface text-foreground/80"><ItemText href={it.href} groupId={grp.id} /></span>)}{grp.items.length > 4 && <span className="chip bg-surface text-muted">+{grp.items.length - 4}</span>}</div>
             </Link>
           ))}
         </div>

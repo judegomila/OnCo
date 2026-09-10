@@ -10,8 +10,9 @@ import { answerQuestion, type AskResult } from "@/lib/ask-pipeline";
 import { INTENT_LABEL } from "@/lib/ask-intent";
 import type { AskEntityRecord } from "@/lib/ask-compose";
 import { answerText } from "@/lib/ask";
-import { KIND_META } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/schema";
 import { KIND_COLOR } from "@/lib/text";
+import { useT } from "@/lib/i18n/ui";
 import { useRegion } from "@/lib/region";
 
 export type AskExample = { question: string; audience: string };
@@ -36,6 +37,8 @@ function loadRecord(id: string): Promise<AskEntityRecord | null> {
  */
 export function AskOnco({ examples }: { examples: AskExample[] }) {
   const [q, setQ] = useState("");
+  const { kind: kindName } = useT();
+  const kindLabel = (k: Kind) => kindName(k, "label") ?? KIND_META[k].label;
   const [state, setState] = useState<State>({ status: "idle" });
   const [copied, setCopied] = useState(false);
   const { region } = useRegion();
@@ -110,7 +113,7 @@ export function AskOnco({ examples }: { examples: AskExample[] }) {
               <div className="flex flex-wrap items-center gap-1.5 mb-3 text-sm">
                 <span className="text-muted">You asked about:</span>
                 {r.entities.map((e) => (
-                  <Link key={e.id} href={e.route} className={`chip border ${KIND_COLOR[e.kind]}`} title={KIND_META[e.kind].label}>{e.name}</Link>
+                  <Link key={e.id} href={e.route} className={`chip border ${KIND_COLOR[e.kind]}`} title={kindLabel(e.kind)}>{e.name}</Link>
                 ))}
                 <span className="chip bg-foreground/5 text-muted" title="How the question was read">{INTENT_LABEL[r.intent]}</span>
               </div>
@@ -136,7 +139,7 @@ export function AskOnco({ examples }: { examples: AskExample[] }) {
                 {r.sources.map((s, i) => (
                   <li key={s.id} className="flex items-start gap-2">
                     <span className="text-[11px] font-medium rounded border border-border bg-foreground/5 px-1 leading-5 mt-0.5">{i + 1}</span>
-                    <span className={`chip border ${KIND_COLOR[s.kind]}`}>{KIND_META[s.kind].label}</span>
+                    <span className={`chip border ${KIND_COLOR[s.kind]}`}>{kindLabel(s.kind)}</span>
                     <Link href={s.route} className="hover:underline">{s.name}</Link>
                   </li>
                 ))}
@@ -166,7 +169,7 @@ export function AskOnco({ examples }: { examples: AskExample[] }) {
                 <div className="kicker mb-2">Not what you meant?</div>
                 <div className="flex flex-wrap gap-1.5">
                   {r.alternates.map((e) => (
-                    <button key={e.id} type="button" onClick={() => submit(q, e.id)} className={`chip border ${KIND_COLOR[e.kind]} hover:brightness-95 dark:hover:brightness-125`} title={`Answer about ${e.name} (${KIND_META[e.kind].label}) instead`}>{e.name}</button>
+                    <button key={e.id} type="button" onClick={() => submit(q, e.id)} className={`chip border ${KIND_COLOR[e.kind]} hover:brightness-95 dark:hover:brightness-125`} title={`Answer about ${e.name} (${kindLabel(e.kind)}) instead`}>{e.name}</button>
                   ))}
                 </div>
               </div>

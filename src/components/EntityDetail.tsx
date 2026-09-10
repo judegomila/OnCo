@@ -78,6 +78,7 @@ import { guidelineCancerIds } from "@/lib/guidelines";
 import { agentById } from "@/lib/interactions";
 import { XrefStrip } from "./XrefStrip";
 import { HotspotPlot } from "./HotspotPlot";
+import { OpenMedicalPanel } from "./OpenMedicalPanel";
 import { hotspotsFor } from "@/data/hotspots";
 import { questionsFor } from "@/data/open-questions";
 import { assaysForTarget, assaysForDrug } from "@/data/assays";
@@ -146,6 +147,7 @@ export function EntityDetail({ e }: { e: Entity }) {
         <div className="grid gap-10 lg:grid-cols-[1fr_300px]">
           <div className="min-w-0">
             {tabs.length > 1 ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} /> : <div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>}
+            {(e.kind === "section" || e.kind === "technology") && <OpenMedicalPanel id={e.id} kind={e.kind} limit={e.kind === "section" ? 12 : undefined} />}
           </div>
 
           <aside className="space-y-4 lg:sticky lg:top-28 self-start">

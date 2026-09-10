@@ -154,6 +154,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/build/", label: "Build on OnCo", blurb: "Recipes, OpenAPI spec, TypeScript types, embeddable cards and the MCP server." },
       { href: "/api/", label: "Open API", blurb: "The corpus as JSON." },
       { href: "/data-sources/", label: "Open data", blurb: "Every open database OnCo pulls from, with licences and cadence, and the ones we could add next." },
+      { href: "/open-tools/", label: "Open tools", blurb: "Open-source viewers, planners, pipelines and hardware you can use or build on, by front, from the Open Medical Registry." },
       { href: "https://github.com/judegomila/OnCo", label: "GitHub", blurb: "Code and data. Propose changes through the issue forms." },
     ],
   },

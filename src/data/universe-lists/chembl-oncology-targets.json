@@ -1,0 +1,2017 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "ChEMBL: mechanism targets of approved drugs with an oncology indication",
+  "url": "https://www.ebi.ac.uk/chembl/"
+ },
+ "method": "ChEMBL API: drug indications with max_phase_for_ind=4 (approved) whose MeSH heading contains one of Neoplasm, Carcinoma, Leukemia, Lymphoma, Myeloma, Melanoma, Sarcoma, Glioma, Glioblastoma, Tumor, Cancer, Mesothelioma, Blastoma, Adenoma; the distinct parent molecules' mechanisms of action; the distinct targets of those mechanisms, with gene symbols from the target components. Includes non-protein targets (DNA, tubulin) and drugs whose oncology indication is supportive.",
+ "total": 181,
+ "molecules": 436,
+ "items": [
+  {
+   "id": "CHEMBL2311221",
+   "name": "DNA",
+   "type": "NUCLEIC-ACID",
+   "symbols": [],
+   "drugs": 43,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2311221"
+  },
+  {
+   "id": "CHEMBL1871",
+   "name": "Androgen receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "AR"
+   ],
+   "drugs": 13,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1871"
+  },
+  {
+   "id": "CHEMBL203",
+   "name": "Epidermal growth factor receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "EGFR"
+   ],
+   "drugs": 12,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL203"
+  },
+  {
+   "id": "CHEMBL2095182",
+   "name": "Tubulin",
+   "type": "PROTEIN COMPLEX GROUP",
+   "symbols": [
+    "TUBB4B",
+    "TUBB1",
+    "TUBA3C",
+    "TUBA4A",
+    "TUBB3",
+    "TUBA1A",
+    "TUBB4A",
+    "TUBB8",
+    "TUBB",
+    "TUBA1B",
+    "TUBA1C",
+    "TUBA3E",
+    "TUBB2A",
+    "TUBB2B",
+    "TUBB6"
+   ],
+   "drugs": 12,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2095182"
+  },
+  {
+   "id": "CHEMBL1824",
+   "name": "Receptor tyrosine-protein kinase erbB-2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "ERBB2"
+   ],
+   "drugs": 10,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1824"
+  },
+  {
+   "id": "CHEMBL2364170",
+   "name": "Interferon alpha/beta receptor",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "IFNAR1",
+    "IFNAR2"
+   ],
+   "drugs": 9,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364170"
+  },
+  {
+   "id": "CHEMBL1936",
+   "name": "Mast/stem cell growth factor receptor Kit",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "KIT"
+   ],
+   "drugs": 9,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1936"
+  },
+  {
+   "id": "CHEMBL2364168",
+   "name": "T cell surface glycoprotein CD3",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "CD3E",
+    "CD3G",
+    "CD3D"
+   ],
+   "drugs": 9,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364168"
+  },
+  {
+   "id": "CHEMBL3390821",
+   "name": "B-lymphocyte antigen CD19",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CD19"
+   ],
+   "drugs": 7,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3390821"
+  },
+  {
+   "id": "CHEMBL2058",
+   "name": "B-lymphocyte antigen CD20",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "MS4A1"
+   ],
+   "drugs": 7,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2058"
+  },
+  {
+   "id": "CHEMBL206",
+   "name": "Estrogen receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "ESR1"
+   ],
+   "drugs": 7,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL206"
+  },
+  {
+   "id": "CHEMBL2034",
+   "name": "Glucocorticoid receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "NR3C1"
+   ],
+   "drugs": 7,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2034"
+  },
+  {
+   "id": "CHEMBL3307223",
+   "name": "Programmed cell death protein 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PDCD1"
+   ],
+   "drugs": 7,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3307223"
+  },
+  {
+   "id": "CHEMBL1974",
+   "name": "Receptor-type tyrosine-protein kinase FLT3",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "FLT3"
+   ],
+   "drugs": 7,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1974"
+  },
+  {
+   "id": "CHEMBL1996",
+   "name": "Granulocyte colony-stimulating factor receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CSF3R"
+   ],
+   "drugs": 6,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1996"
+  },
+  {
+   "id": "CHEMBL2041",
+   "name": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "RET"
+   ],
+   "drugs": 6,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2041"
+  },
+  {
+   "id": "CHEMBL2311222",
+   "name": "RNA",
+   "type": "NUCLEIC-ACID",
+   "symbols": [],
+   "drugs": 6,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2311222"
+  },
+  {
+   "id": "CHEMBL1952",
+   "name": "Thymidylate synthase",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TYMS"
+   ],
+   "drugs": 6,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1952"
+  },
+  {
+   "id": "CHEMBL4247",
+   "name": "ALK tyrosine kinase receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "ALK"
+   ],
+   "drugs": 5,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4247"
+  },
+  {
+   "id": "CHEMBL2364706",
+   "name": "Asparagine",
+   "type": "SMALL MOLECULE",
+   "symbols": [],
+   "drugs": 5,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364706"
+  },
+  {
+   "id": "CHEMBL3580522",
+   "name": "Programmed cell death 1 ligand 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CD274"
+   ],
+   "drugs": 5,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3580522"
+  },
+  {
+   "id": "CHEMBL4523587",
+   "name": "Tumor necrosis factor receptor superfamily member 17",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TNFRSF17"
+   ],
+   "drugs": 5,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4523587"
+  },
+  {
+   "id": "CHEMBL2095227",
+   "name": "Vascular endothelial growth factor receptor",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "FLT1",
+    "FLT4",
+    "KDR"
+   ],
+   "drugs": 5,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2095227"
+  },
+  {
+   "id": "CHEMBL2364701",
+   "name": "26S proteasome",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "PSMD1",
+    "PSMB2",
+    "PSMB1",
+    "PSMB5",
+    "PSMB8",
+    "PSMB9",
+    "PSMB6",
+    "PSMD14",
+    "PSMA1",
+    "PSMA2",
+    "PSMA3",
+    "PSMA4",
+    "PSMA5",
+    "PSMA6",
+    "PSMA7",
+    "PSMA8",
+    "PSMB10",
+    "PSMB11",
+    "PSMB3",
+    "PSMB4",
+    "PSMB7",
+    "ADRM1",
+    "PSMC2",
+    "PSMC1",
+    "PSMC4",
+    "PSMC6",
+    "PSMC3",
+    "PSMC5",
+    "PSMD2",
+    "PSMD3",
+    "PSMD12",
+    "PSMD11",
+    "PSMD6",
+    "PSMD7",
+    "PSMD13",
+    "PSMD4",
+    "PSMD8",
+    "SEM1"
+   ],
+   "drugs": 4,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364701"
+  },
+  {
+   "id": "CHEMBL1978",
+   "name": "Aromatase",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CYP19A1"
+   ],
+   "drugs": 4,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1978"
+  },
+  {
+   "id": "CHEMBL2094255",
+   "name": "DNA topoisomerase II",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "TOP2A",
+    "TOP2B"
+   ],
+   "drugs": 4,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2094255"
+  },
+  {
+   "id": "CHEMBL3717",
+   "name": "Hepatocyte growth factor receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "MET"
+   ],
+   "drugs": 4,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3717"
+  },
+  {
+   "id": "CHEMBL2095189",
+   "name": "Platelet-derived growth factor receptor",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "PDGFRB",
+    "PDGFRA"
+   ],
+   "drugs": 4,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2095189"
+  },
+  {
+   "id": "CHEMBL2007",
+   "name": "Platelet-derived growth factor receptor alpha",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PDGFRA"
+   ],
+   "drugs": 4,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2007"
+  },
+  {
+   "id": "CHEMBL1862",
+   "name": "Tyrosine-protein kinase ABL1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "ABL1"
+   ],
+   "drugs": 4,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1862"
+  },
+  {
+   "id": "CHEMBL5251",
+   "name": "Tyrosine-protein kinase BTK",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "BTK"
+   ],
+   "drugs": 4,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5251"
+  },
+  {
+   "id": "CHEMBL3833061",
+   "name": "CRL4(CRBN) E3 ubiquitin ligase",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "CRBN",
+    "DDB1",
+    "CUL4A",
+    "RBX1"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3833061"
+  },
+  {
+   "id": "CHEMBL331",
+   "name": "Cyclin-dependent kinase 4",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CDK4"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL331"
+  },
+  {
+   "id": "CHEMBL2508",
+   "name": "Cyclin-dependent kinase 6",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CDK6"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2508"
+  },
+  {
+   "id": "CHEMBL202",
+   "name": "Dihydrofolate reductase",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "DHFR"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL202"
+  },
+  {
+   "id": "CHEMBL3390823",
+   "name": "Disialoganglioside GD2",
+   "type": "SMALL MOLECULE",
+   "symbols": [],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3390823"
+  },
+  {
+   "id": "CHEMBL2363042",
+   "name": "DNA polymerase (alpha/delta/epsilon)",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "POLA1",
+    "POLD4",
+    "POLD3",
+    "POLD1",
+    "POLD2",
+    "POLE",
+    "POLA2",
+    "PRIM1",
+    "PRIM2",
+    "POLE2",
+    "POLE3"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2363042"
+  },
+  {
+   "id": "CHEMBL1795108",
+   "name": "Elongation factor 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "EEF2"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1795108"
+  },
+  {
+   "id": "CHEMBL3883330",
+   "name": "EML4-ALK",
+   "type": "CHIMERIC PROTEIN",
+   "symbols": [
+    "ALK",
+    "EML4"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3883330"
+  },
+  {
+   "id": "CHEMBL2093866",
+   "name": "Estrogen receptor",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "ESR2",
+    "ESR1"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2093866"
+  },
+  {
+   "id": "CHEMBL2095217",
+   "name": "Fibroblast growth factor receptor",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "FGFR3",
+    "FGFR1",
+    "FGFR4",
+    "FGFR2"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2095217"
+  },
+  {
+   "id": "CHEMBL1855",
+   "name": "Gonadotropin-releasing hormone receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "GNRHR"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1855"
+  },
+  {
+   "id": "CHEMBL1844",
+   "name": "Macrophage colony-stimulating factor 1 receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CSF1R"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1844"
+  },
+  {
+   "id": "CHEMBL1902",
+   "name": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "FKBP1A"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1902"
+  },
+  {
+   "id": "CHEMBL4005",
+   "name": "Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PIK3CA"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4005"
+  },
+  {
+   "id": "CHEMBL5568",
+   "name": "Proto-oncogene tyrosine-protein kinase ROS",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "ROS1"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5568"
+  },
+  {
+   "id": "CHEMBL2095215",
+   "name": "Ribonucleoside-diphosphate reductase RR1",
+   "type": "PROTEIN COMPLEX GROUP",
+   "symbols": [
+    "RRM1",
+    "RRM2B",
+    "RRM2"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2095215"
+  },
+  {
+   "id": "CHEMBL5145",
+   "name": "Serine/threonine-protein kinase B-raf",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "BRAF"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5145"
+  },
+  {
+   "id": "CHEMBL279",
+   "name": "Vascular endothelial growth factor receptor 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "KDR"
+   ],
+   "drugs": 3,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL279"
+  },
+  {
+   "id": "CHEMBL2364177",
+   "name": "2'-deoxyadenosine",
+   "type": "SMALL MOLECULE",
+   "symbols": [],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364177"
+  },
+  {
+   "id": "CHEMBL1899",
+   "name": "5-hydroxytryptamine receptor 3A",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "HTR3A"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1899"
+  },
+  {
+   "id": "CHEMBL2364178",
+   "name": "Adenosine",
+   "type": "SMALL MOLECULE",
+   "symbols": [],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364178"
+  },
+  {
+   "id": "CHEMBL4660",
+   "name": "ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CD38"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4660"
+  },
+  {
+   "id": "CHEMBL4128",
+   "name": "Angiopoietin-1 receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TEK"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4128"
+  },
+  {
+   "id": "CHEMBL3218",
+   "name": "B-cell receptor CD22",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CD22"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3218"
+  },
+  {
+   "id": "CHEMBL2107",
+   "name": "C-X-C chemokine receptor type 4",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CXCR4"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2107"
+  },
+  {
+   "id": "CHEMBL218",
+   "name": "Cannabinoid receptor 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CNR1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL218"
+  },
+  {
+   "id": "CHEMBL2033",
+   "name": "Cholesterol side-chain cleavage enzyme, mitochondrial",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CYP11A1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2033"
+  },
+  {
+   "id": "CHEMBL3430904",
+   "name": "Coiled-coil domain-containing protein 6/Tyrosine-protein kinase receptor RET",
+   "type": "CHIMERIC PROTEIN",
+   "symbols": [
+    "RET",
+    "CCDC6"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3430904"
+  },
+  {
+   "id": "CHEMBL2364164",
+   "name": "Cytotoxic T-lymphocyte protein 4",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CTLA4"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364164"
+  },
+  {
+   "id": "CHEMBL1993",
+   "name": "DNA (cytosine-5)-methyltransferase 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "DNMT1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1993"
+  },
+  {
+   "id": "CHEMBL1992",
+   "name": "DNA (cytosine-5)-methyltransferase 3A",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "DNMT3A"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1992"
+  },
+  {
+   "id": "CHEMBL1781",
+   "name": "DNA topoisomerase 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TOP1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1781"
+  },
+  {
+   "id": "CHEMBL1806",
+   "name": "DNA topoisomerase 2-alpha",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TOP2A"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1806"
+  },
+  {
+   "id": "CHEMBL3587",
+   "name": "Dual specificity mitogen-activated protein kinase kinase 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "MAP2K1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3587"
+  },
+  {
+   "id": "CHEMBL2964",
+   "name": "Dual specificity mitogen-activated protein kinase kinase 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "MAP2K2"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2964"
+  },
+  {
+   "id": "CHEMBL2068",
+   "name": "Ephrin type-A receptor 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "EPHA2"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2068"
+  },
+  {
+   "id": "CHEMBL3650",
+   "name": "Fibroblast growth factor receptor 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "FGFR1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3650"
+  },
+  {
+   "id": "CHEMBL4142",
+   "name": "Fibroblast growth factor receptor 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "FGFR2"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4142"
+  },
+  {
+   "id": "CHEMBL2742",
+   "name": "Fibroblast growth factor receptor 3",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "FGFR3"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2742"
+  },
+  {
+   "id": "CHEMBL2189121",
+   "name": "GTPase KRas",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "KRAS"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2189121"
+  },
+  {
+   "id": "CHEMBL2815",
+   "name": "High affinity nerve growth factor receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "NTRK1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2815"
+  },
+  {
+   "id": "CHEMBL2093865",
+   "name": "Histone deacetylase",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "HDAC1",
+    "HDAC3",
+    "HDAC6",
+    "HDAC2",
+    "HDAC5",
+    "HDAC7",
+    "HDAC8",
+    "HDAC11",
+    "HDAC4",
+    "HDAC9",
+    "HDAC10"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2093865"
+  },
+  {
+   "id": "CHEMBL2364167",
+   "name": "Interleukin-2 receptor",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "IL2RA",
+    "IL2RG",
+    "IL2RB"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364167"
+  },
+  {
+   "id": "CHEMBL2007625",
+   "name": "Isocitrate dehydrogenase [NADP] cytoplasmic",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "IDH1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2007625"
+  },
+  {
+   "id": "CHEMBL3430888",
+   "name": "Kinesin-1 heavy chain/ Tyrosine-protein kinase receptor RET",
+   "type": "CHIMERIC PROTEIN",
+   "symbols": [
+    "RET",
+    "KIF5B"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3430888"
+  },
+  {
+   "id": "CHEMBL3559684",
+   "name": "Neurotrophic tyrosine kinase receptor",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "NTRK1",
+    "NTRK2",
+    "NTRK3"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3559684"
+  },
+  {
+   "id": "CHEMBL2111387",
+   "name": "NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor)",
+   "type": "CHIMERIC PROTEIN",
+   "symbols": [
+    "ALK",
+    "NPM1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2111387"
+  },
+  {
+   "id": "CHEMBL3390820",
+   "name": "PARP 1, 2 and 3",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "PARP1",
+    "PARP3",
+    "PARP2"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3390820"
+  },
+  {
+   "id": "CHEMBL3130",
+   "name": "Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PIK3CD"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3130"
+  },
+  {
+   "id": "CHEMBL1913",
+   "name": "Platelet-derived growth factor receptor beta",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PDGFRB"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1913"
+  },
+  {
+   "id": "CHEMBL3105",
+   "name": "Poly [ADP-ribose] polymerase 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PARP1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3105"
+  },
+  {
+   "id": "CHEMBL5366",
+   "name": "Poly [ADP-ribose] polymerase 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PARP2"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5366"
+  },
+  {
+   "id": "CHEMBL208",
+   "name": "Progesterone receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PGR"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL208"
+  },
+  {
+   "id": "CHEMBL5971",
+   "name": "Protein smoothened",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "SMO"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5971"
+  },
+  {
+   "id": "CHEMBL267",
+   "name": "Proto-oncogene tyrosine-protein kinase Src",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "SRC"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL267"
+  },
+  {
+   "id": "CHEMBL3009",
+   "name": "Receptor tyrosine-protein kinase erbB-4",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "ERBB4"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3009"
+  },
+  {
+   "id": "CHEMBL3522",
+   "name": "Steroid 17-alpha-hydroxylase/17,20 lyase",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CYP17A1"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3522"
+  },
+  {
+   "id": "CHEMBL2363075",
+   "name": "Steroid 5-alpha-reductase",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "SRD5A1",
+    "SRD5A2",
+    "SRD5A3"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2363075"
+  },
+  {
+   "id": "CHEMBL2971",
+   "name": "Tyrosine-protein kinase JAK2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "JAK2"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2971"
+  },
+  {
+   "id": "CHEMBL1783",
+   "name": "Vascular endothelial growth factor A, long form",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "VEGFA"
+   ],
+   "drugs": 2,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1783"
+  },
+  {
+   "id": "CHEMBL1856",
+   "name": "3-oxo-5-alpha-steroid 4-dehydrogenase 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "SRD5A2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1856"
+  },
+  {
+   "id": "CHEMBL1910",
+   "name": "Adenosine deaminase",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "ADA"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1910"
+  },
+  {
+   "id": "CHEMBL2095158",
+   "name": "Adrenergic receptor alpha-2",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "ADRA2A",
+    "ADRA2C",
+    "ADRA2B"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2095158"
+  },
+  {
+   "id": "CHEMBL4860",
+   "name": "Apoptosis regulator Bcl-2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "BCL2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4860"
+  },
+  {
+   "id": "CHEMBL1886",
+   "name": "ATP-sensitive inward rectifier potassium channel 11",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "KCNJ11"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1886"
+  },
+  {
+   "id": "CHEMBL4770",
+   "name": "ATP-sensitive inward rectifier potassium channel 8",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "KCNJ8"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4770"
+  },
+  {
+   "id": "CHEMBL3712852",
+   "name": "B-cell antigen receptor complex-associated protein beta chain",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CD79B"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3712852"
+  },
+  {
+   "id": "CHEMBL2096618",
+   "name": "Bcr/Abl fusion protein",
+   "type": "CHIMERIC PROTEIN",
+   "symbols": [
+    "ABL1",
+    "BCR"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2096618"
+  },
+  {
+   "id": "CHEMBL4898",
+   "name": "BDNF/NT-3 growth factors receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "NTRK2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4898"
+  },
+  {
+   "id": "CHEMBL2414",
+   "name": "C-C chemokine receptor type 4",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CCR4"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2414"
+  },
+  {
+   "id": "CHEMBL1912",
+   "name": "CAMPATH-1 antigen",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CD52"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1912"
+  },
+  {
+   "id": "CHEMBL4680046",
+   "name": "CD74-ROS1",
+   "type": "CHIMERIC PROTEIN",
+   "symbols": [
+    "CD74",
+    "ROS1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4680046"
+  },
+  {
+   "id": "CHEMBL2111455",
+   "name": "CDK6/cyclin D1",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "CCND1",
+    "CDK6"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2111455"
+  },
+  {
+   "id": "CHEMBL3712881",
+   "name": "Cell adhesion molecule CEACAM5",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CEACAM5"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3712881"
+  },
+  {
+   "id": "CHEMBL3712859",
+   "name": "Claudin-18",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CLDN18"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3712859"
+  },
+  {
+   "id": "CHEMBL1907601",
+   "name": "Cyclin-dependent kinase 4/cyclin D1",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "CDK4",
+    "CCND1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1907601"
+  },
+  {
+   "id": "CHEMBL1908",
+   "name": "Cytochrome P450 11B1, mitochondrial",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CYP11B1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1908"
+  },
+  {
+   "id": "CHEMBL217",
+   "name": "D(2) dopamine receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "DRD2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL217"
+  },
+  {
+   "id": "CHEMBL4630888",
+   "name": "Delta-like protein 3",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "DLL3"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4630888"
+  },
+  {
+   "id": "CHEMBL5122",
+   "name": "Discoidin domain-containing receptor 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "DDR2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5122"
+  },
+  {
+   "id": "CHEMBL2366042",
+   "name": "DNA",
+   "type": "NUCLEIC-ACID",
+   "symbols": [],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2366042"
+  },
+  {
+   "id": "CHEMBL2111289",
+   "name": "Dual specificity mitogen-activated protein kinase kinase; MEK1/2",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "MAP2K2",
+    "MAP2K1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2111289"
+  },
+  {
+   "id": "CHEMBL1744522",
+   "name": "Endothelial PAS domain-containing protein 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "EPAS1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1744522"
+  },
+  {
+   "id": "CHEMBL2363043",
+   "name": "Ephrin receptor",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "EPHA2",
+    "EPHB2",
+    "EPHA5",
+    "EPHA4",
+    "EPHA8",
+    "EPHA6",
+    "EPHA7",
+    "EPHB3",
+    "EPHA3",
+    "EPHB1",
+    "EPHB4",
+    "EPHA1",
+    "EPHB6",
+    "EPHA10"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2363043"
+  },
+  {
+   "id": "CHEMBL2363049",
+   "name": "Epidermal growth factor receptor",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "ERBB2",
+    "EGFR",
+    "ERBB4",
+    "ERBB3"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2363049"
+  },
+  {
+   "id": "CHEMBL3580493",
+   "name": "Epithelial cell adhesion molecule",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "EPCAM"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3580493"
+  },
+  {
+   "id": "CHEMBL4630723",
+   "name": "ErbB-2/ErbB-3 heterodimer",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "ERBB2",
+    "ERBB3"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4630723"
+  },
+  {
+   "id": "CHEMBL1817",
+   "name": "Erythropoietin receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "EPOR"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1817"
+  },
+  {
+   "id": "CHEMBL5661",
+   "name": "Exportin-1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "XPO1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5661"
+  },
+  {
+   "id": "CHEMBL2121",
+   "name": "Folate receptor alpha",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "FOLR1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2121"
+  },
+  {
+   "id": "CHEMBL4523925",
+   "name": "G-protein coupled receptor family C group 5 member D",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "GPRC5D"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4523925"
+  },
+  {
+   "id": "CHEMBL2094135",
+   "name": "Gamma-secretase",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "APH1A",
+    "PSENEN",
+    "APH1B",
+    "PSEN1",
+    "NCSTN",
+    "PSEN2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2094135"
+  },
+  {
+   "id": "CHEMBL2755",
+   "name": "Glutathione reductase, mitochondrial",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "GSR"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2755"
+  },
+  {
+   "id": "CHEMBL2364169",
+   "name": "Granulocyte-macrophage colony-stimulating factor receptor",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "CSF2RA",
+    "CSF2RB"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364169"
+  },
+  {
+   "id": "CHEMBL325",
+   "name": "Histone deacetylase 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "HDAC1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL325"
+  },
+  {
+   "id": "CHEMBL1937",
+   "name": "Histone deacetylase 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "HDAC2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1937"
+  },
+  {
+   "id": "CHEMBL1829",
+   "name": "Histone deacetylase 3",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "HDAC3"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1829"
+  },
+  {
+   "id": "CHEMBL4523659",
+   "name": "IDH1/IDH2",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "IDH1",
+    "IDH2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4523659"
+  },
+  {
+   "id": "CHEMBL2111369",
+   "name": "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "IMPDH1",
+    "IMPDH2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2111369"
+  },
+  {
+   "id": "CHEMBL1957",
+   "name": "Insulin-like growth factor 1 receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "IGF1R"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1957"
+  },
+  {
+   "id": "CHEMBL2364171",
+   "name": "Interferon gamma receptor",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "IFNGR2",
+    "IFNGR1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364171"
+  },
+  {
+   "id": "CHEMBL2050",
+   "name": "Interleukin-11 receptor subunit alpha",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "IL11RA"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2050"
+  },
+  {
+   "id": "CHEMBL3712987",
+   "name": "Interleukin-3 receptor subunit alpha",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "IL3RA"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3712987"
+  },
+  {
+   "id": "CHEMBL2363058",
+   "name": "Iron",
+   "type": "METAL",
+   "symbols": [],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2363058"
+  },
+  {
+   "id": "CHEMBL2689",
+   "name": "Macrophage-stimulating protein receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "MST1R"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2689"
+  },
+  {
+   "id": "CHEMBL3712988",
+   "name": "Melanocyte protein PMEL",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PMEL"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3712988"
+  },
+  {
+   "id": "CHEMBL614126",
+   "name": "Melanoma cell",
+   "type": "CELL-LINE",
+   "symbols": [],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL614126"
+  },
+  {
+   "id": "CHEMBL4296022",
+   "name": "Melanoma-associated antigen 4",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "MAGEA4"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4296022"
+  },
+  {
+   "id": "CHEMBL3961",
+   "name": "Mitogen-activated protein kinase 11",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "MAPK11"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3961"
+  },
+  {
+   "id": "CHEMBL233",
+   "name": "Mu-type opioid receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "OPRM1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL233"
+  },
+  {
+   "id": "CHEMBL3580482",
+   "name": "Mucin-16",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "MUC16"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3580482"
+  },
+  {
+   "id": "CHEMBL1842",
+   "name": "Myeloid cell surface antigen CD33",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "CD33"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1842"
+  },
+  {
+   "id": "CHEMBL3712928",
+   "name": "Nectin-4",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "NECTIN4"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3712928"
+  },
+  {
+   "id": "CHEMBL5608",
+   "name": "NT-3 growth factor receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "NTRK3"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5608"
+  },
+  {
+   "id": "CHEMBL1697671",
+   "name": "Placenta growth factor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PGF"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1697671"
+  },
+  {
+   "id": "CHEMBL230",
+   "name": "Prostaglandin G/H synthase 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PTGS2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL230"
+  },
+  {
+   "id": "CHEMBL2633",
+   "name": "Prostatic acid phosphatase",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "ACP3"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2633"
+  },
+  {
+   "id": "CHEMBL1865",
+   "name": "Protein deacetylase HDAC6",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "HDAC6"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1865"
+  },
+  {
+   "id": "CHEMBL2093867",
+   "name": "Protein kinase C (PKC)",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "PRKD3",
+    "PRKCI",
+    "PRKCA",
+    "PRKCG",
+    "PRKCD",
+    "PRKCB",
+    "PRKCZ",
+    "PRKCE",
+    "PRKCH",
+    "PRKD1",
+    "PRKCQ"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2093867"
+  },
+  {
+   "id": "CHEMBL4601",
+   "name": "Protein-tyrosine kinase 6",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "PTK6"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4601"
+  },
+  {
+   "id": "CHEMBL1906",
+   "name": "RAF proto-oncogene serine/threonine-protein kinase",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "RAF1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1906"
+  },
+  {
+   "id": "CHEMBL3559685",
+   "name": "RAF serine/threonine protein kinase",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "RAF1",
+    "BRAF",
+    "ARAF"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3559685"
+  },
+  {
+   "id": "CHEMBL2363069",
+   "name": "Retinoic acid receptor",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "RARG",
+    "RARB",
+    "RARA"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2363069"
+  },
+  {
+   "id": "CHEMBL2363071",
+   "name": "Retinoid receptor",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "RXRB",
+    "RARG",
+    "RXRG",
+    "RARB",
+    "RARA",
+    "RXRA"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2363071"
+  },
+  {
+   "id": "CHEMBL2363070",
+   "name": "Retinoid X receptor",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "RXRB",
+    "RXRG",
+    "RXRA"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2363070"
+  },
+  {
+   "id": "CHEMBL5303568",
+   "name": "ROS1-SDC4",
+   "type": "CHIMERIC PROTEIN",
+   "symbols": [
+    "ROS1",
+    "SDC4"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5303568"
+  },
+  {
+   "id": "CHEMBL2111353",
+   "name": "Serine/threonine-protein kinase AKT",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "AKT2",
+    "AKT3",
+    "AKT1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2111353"
+  },
+  {
+   "id": "CHEMBL3559386",
+   "name": "SLAM family member 7",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "SLAMF7"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3559386"
+  },
+  {
+   "id": "CHEMBL2331043",
+   "name": "Sodium channel alpha subunit",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "SCN1A",
+    "SCN5A",
+    "SCN4A",
+    "SCN7A",
+    "SCN2A",
+    "SCN9A",
+    "SCN3A",
+    "SCN11A",
+    "SCN8A",
+    "SCN10A"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2331043"
+  },
+  {
+   "id": "CHEMBL2363074",
+   "name": "SRC",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "FYN",
+    "SRC",
+    "LCK",
+    "YES1",
+    "BLK",
+    "HCK",
+    "LYN",
+    "FRK",
+    "FGR",
+    "SRMS"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2363074"
+  },
+  {
+   "id": "CHEMBL249",
+   "name": "Substance-P receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TACR1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL249"
+  },
+  {
+   "id": "CHEMBL1927",
+   "name": "Thioredoxin reductase 1, cytoplasmic",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TXNRD1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1927"
+  },
+  {
+   "id": "CHEMBL2111462",
+   "name": "Thyroid hormone receptor",
+   "type": "PROTEIN COMPLEX",
+   "symbols": [
+    "THRA",
+    "THRB"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2111462"
+  },
+  {
+   "id": "CHEMBL1963",
+   "name": "Thyrotropin receptor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TSHR"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1963"
+  },
+  {
+   "id": "CHEMBL4081",
+   "name": "Tissue factor",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "F3"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4081"
+  },
+  {
+   "id": "CHEMBL5936",
+   "name": "Toll-like receptor 7",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TLR7"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5936"
+  },
+  {
+   "id": "CHEMBL3972",
+   "name": "Trifunctional purine biosynthetic protein adenosine-3",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "GART"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3972"
+  },
+  {
+   "id": "CHEMBL3831287",
+   "name": "Tryptophan 5-hydroxylase",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "TPH2",
+    "TPH1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3831287"
+  },
+  {
+   "id": "CHEMBL2364162",
+   "name": "Tumor necrosis factor ligand superfamily member 11",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TNFSF11"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364162"
+  },
+  {
+   "id": "CHEMBL2364161",
+   "name": "Tumor necrosis factor receptor superfamily member 8",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TNFRSF8"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364161"
+  },
+  {
+   "id": "CHEMBL3856163",
+   "name": "Tumor-associated calcium signal transducer 2",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "TACSTD2"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3856163"
+  },
+  {
+   "id": "CHEMBL4223",
+   "name": "Tyrosine-protein kinase FRK",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "FRK"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4223"
+  },
+  {
+   "id": "CHEMBL3234",
+   "name": "Tyrosine-protein kinase HCK",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "HCK"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3234"
+  },
+  {
+   "id": "CHEMBL3905",
+   "name": "Tyrosine-protein kinase Lyn",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "LYN"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL3905"
+  },
+  {
+   "id": "CHEMBL4895",
+   "name": "Tyrosine-protein kinase receptor UFO",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "AXL"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL4895"
+  },
+  {
+   "id": "CHEMBL2364183",
+   "name": "Uric acid",
+   "type": "SMALL MOLECULE",
+   "symbols": [],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2364183"
+  },
+  {
+   "id": "CHEMBL1868",
+   "name": "Vascular endothelial growth factor receptor 1",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "FLT1"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1868"
+  },
+  {
+   "id": "CHEMBL1955",
+   "name": "Vascular endothelial growth factor receptor 3",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "FLT4"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1955"
+  },
+  {
+   "id": "CHEMBL2362996",
+   "name": "Voltage-gated potassium channel",
+   "type": "PROTEIN FAMILY",
+   "symbols": [
+    "KCNQ1",
+    "KCND3",
+    "KCNH2",
+    "KCNA2",
+    "KCNA1",
+    "KCNQ2",
+    "KCNQ3",
+    "KCNA7",
+    "KCNQ5",
+    "KCNQ4",
+    "KCNH1",
+    "KCNA4",
+    "KCNA5",
+    "KCNA3",
+    "KCNA6",
+    "KCNC1",
+    "KCND2",
+    "KCNB2",
+    "KCNC4",
+    "KCNC3",
+    "KCNB1",
+    "KCNA10",
+    "KCNV1",
+    "KCNH5",
+    "KCNG3",
+    "KCNG4",
+    "KCNV2",
+    "KCNS1",
+    "KCNH8",
+    "KCNC2",
+    "KCNS3",
+    "KCNH6",
+    "KCNF1",
+    "KCNH7",
+    "KCND1",
+    "KCNG1",
+    "KCNG2",
+    "KCNH3",
+    "KCNS2",
+    "KCNH4"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2362996"
+  },
+  {
+   "id": "CHEMBL1929",
+   "name": "Xanthine dehydrogenase/oxidase",
+   "type": "SINGLE PROTEIN",
+   "symbols": [
+    "XDH"
+   ],
+   "drugs": 1,
+   "url": "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1929"
+  }
+ ]
+}

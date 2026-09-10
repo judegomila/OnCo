@@ -1,0 +1,151 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "KEGG PATHWAY: Human Diseases, Cancer",
+  "url": "https://www.genome.jp/kegg/pathway.html#disease"
+ },
+ "method": "Maps listed under 'Cancer: overview' and 'Cancer: specific types' in KEGG BRITE br08901 (pathway map hierarchy), via the KEGG REST API.",
+ "total": 28,
+ "items": [
+  {
+   "id": "hsa05200",
+   "name": "Pathways in cancer",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05202",
+   "name": "Transcriptional misregulation in cancer",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05206",
+   "name": "MicroRNAs in cancer",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05205",
+   "name": "Proteoglycans in cancer",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05204",
+   "name": "Chemical carcinogenesis - DNA adducts",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05207",
+   "name": "Chemical carcinogenesis - receptor activation",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05208",
+   "name": "Chemical carcinogenesis - reactive oxygen species",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05203",
+   "name": "Viral carcinogenesis",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05230",
+   "name": "Central carbon metabolism in cancer",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05231",
+   "name": "Choline metabolism in cancer",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05235",
+   "name": "PD-L1 expression and PD-1 checkpoint pathway in cancer",
+   "group": "overview"
+  },
+  {
+   "id": "hsa05210",
+   "name": "Colorectal cancer",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05212",
+   "name": "Pancreatic cancer",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05225",
+   "name": "Hepatocellular carcinoma",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05226",
+   "name": "Gastric cancer",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05214",
+   "name": "Glioma",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05216",
+   "name": "Thyroid cancer",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05221",
+   "name": "Acute myeloid leukemia",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05220",
+   "name": "Chronic myeloid leukemia",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05217",
+   "name": "Basal cell carcinoma",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05218",
+   "name": "Melanoma",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05211",
+   "name": "Renal cell carcinoma",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05219",
+   "name": "Bladder cancer",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05215",
+   "name": "Prostate cancer",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05213",
+   "name": "Endometrial cancer",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05224",
+   "name": "Breast cancer",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05222",
+   "name": "Small cell lung cancer",
+   "group": "specific"
+  },
+  {
+   "id": "hsa05223",
+   "name": "Non-small cell lung cancer",
+   "group": "specific"
+  }
+ ]
+}

@@ -1,0 +1,2408 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "OECI: Member Profiles",
+  "url": "https://www.oeci.eu/MemberList.aspx"
+ },
+ "method": "Every member profile on the Organisation of European Cancer Institutes member list (full, associate and corresponding members), with the leaders named on each profile.",
+ "total": 193,
+ "byMembership": {
+  "Associate Member": 53,
+  "Full Member": 136,
+  "Linked Institution": 4
+ },
+ "items": [
+  {
+   "id": "227A",
+   "name": "Qendra Spitalore Universitare \"Nënë Tereza\"",
+   "altName": "University Hospital Center \"Mother Teresa\"",
+   "country": "Albania",
+   "website": "https://www.qsut.gov.al/",
+   "membership": "Associate Member",
+   "leaders": []
+  },
+  {
+   "id": "175A",
+   "name": "Anti-Cancer Center Blida Algeria Specialized Hospital Control Against Cancer",
+   "altName": "مركز مكافحة السرطان البليدة المؤسسة الاستشفائية المتخصصة بمكافحة السرطان البليدة",
+   "country": "Algeria",
+   "website": "https://ehs-clccblida.dz",
+   "membership": "Associate Member",
+   "leaders": [
+    "Adda Bounedjar"
+   ]
+  },
+  {
+   "id": "72A",
+   "name": "Comprehensive Cancer Center Vienna",
+   "country": "Austria",
+   "website": "http://www.ccc.ac.at",
+   "membership": "Associate Member",
+   "leaders": [
+    "Shahrokh Shariat",
+    "Charlotte Symmons",
+    "Tobias Schenkermayr"
+   ]
+  },
+  {
+   "id": "19",
+   "name": "Institut Jules Bordet (IJB)",
+   "country": "Belgium",
+   "website": "http://www.bordet.be",
+   "membership": "Full Member",
+   "leaders": [
+    "Sacha Gougnard",
+    "Chloé Spilleboudt"
+   ]
+  },
+  {
+   "id": "138",
+   "name": "Leuven Kankerinstituut (LKI)",
+   "altName": "Leuven Cancer Institute",
+   "country": "Belgium",
+   "website": "https://www.kuleuven.be/kankerinstituut/en/",
+   "membership": "Full Member",
+   "leaders": [
+    "Paul Herijgers",
+    "Gert Van Assche",
+    "Johan Van Lint",
+    "Dirk De Ridder",
+    "Steven De Vleeschouwer"
+   ]
+  },
+  {
+   "id": "89",
+   "name": "Kortrijk Kankercentrum az groeninge",
+   "altName": "Kortrijk Cancer Centre az groeninge",
+   "country": "Belgium",
+   "website": "http://www.azgroeninge.be",
+   "membership": "Full Member",
+   "leaders": [
+    "Inge Buyse",
+    "Serge Vanderschueren",
+    "Petra Archie",
+    "Philip Debruyne",
+    "Louis Van Slambrouck"
+   ]
+  },
+  {
+   "id": "5",
+   "name": "Oncologisch Centrum UZBrussel",
+   "altName": "Brussels Cancer Centre - Centre du Cancer Bruxelles",
+   "country": "Belgium",
+   "website": "http://www.uzbrussel.be",
+   "membership": "Full Member",
+   "leaders": [
+    "Mark De Ridder",
+    "Karin Vanderkerken",
+    "Geertje Miedema"
+   ]
+  },
+  {
+   "id": "181",
+   "name": "UZ Gent Kankercentrum",
+   "altName": "University Hospital Ghent Cancer Centre",
+   "country": "Belgium",
+   "website": "https://www.uzgent.be/kankercentrum",
+   "membership": "Full Member",
+   "leaders": [
+    "Frank Vermassen",
+    "Veerle Duprez",
+    "Gwen Sys",
+    "Karen Geboes"
+   ]
+  },
+  {
+   "id": "71A",
+   "name": "Institut Roi Albert II Cliniques universitaires Saint-Luc",
+   "altName": "King Albert II Cancer Institute",
+   "country": "Belgium",
+   "website": "http://www.institutroialbertdeux.be",
+   "membership": "Associate Member",
+   "leaders": [
+    "Philippe Leroy",
+    "X. Geets",
+    "I. Borbath",
+    "F. Duhoux",
+    "C. Hermans",
+    "C. Hubert",
+    "A. Van Damme"
+   ]
+  },
+  {
+   "id": "172A",
+   "name": "A.C. Camargo Cancer Center",
+   "country": "Brazil",
+   "website": "https://accamargo.org.br/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Victor Piana de Andrade",
+    "Antonio Antonietto",
+    "José Humberto Fregnani"
+   ]
+  },
+  {
+   "id": "157",
+   "name": "Multiprofile Hospital for Active Treatment Heart and Brain Pleven,Bulgaria",
+   "altName": "Многопрофилна Болница за Активно Лечение Сърце и Мозък Плевен,България",
+   "country": "Bulgaria",
+   "website": "https://cardiacinstitute.bg/en/hospitals-and-centers/heart-and-brain-center-of-excellence-pleven/",
+   "membership": "Full Member",
+   "leaders": [
+    "Toni Vekov",
+    "Yana Simova",
+    "Nataliya P. Chilingirova",
+    "Petya Dinovska"
+   ]
+  },
+  {
+   "id": "146A",
+   "name": "Bulgarian Joint Cancer Network (BJCN)",
+   "altName": "Съвместна онкологична национална мрежа (СОНМ)",
+   "country": "Bulgaria",
+   "website": "https://bjcn.bg/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Assia Konsoulova",
+    "Dimitar Kalev",
+    "Margarita Guenova",
+    "Valeria Kaleva"
+   ]
+  },
+  {
+   "id": "115A",
+   "name": "Instituto Oncológico Fundación Arturo López Pérez (FALP)",
+   "country": "Chile",
+   "website": "https://www.institutoncologicofalp.cl/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Rolando Medeiros",
+    "Cristián Enrique Ayala Munita",
+    "Marcos Simpson Álvarez",
+    "Christian Caglevic Medina",
+    "Ricardo Antonio Morales Inzunza"
+   ]
+  },
+  {
+   "id": "203A",
+   "name": "Jinshazhou Hospital of Guangzhou University of Chinese Medicine",
+   "country": "China",
+   "website": "https://www.jsz120.com/szll_gjzlylzx.html",
+   "membership": "Associate Member",
+   "leaders": [
+    "Wensheng Liu",
+    "Zhang Xiuping",
+    "Liu YeMing"
+   ]
+  },
+  {
+   "id": "114A",
+   "name": "Instituto Nacional de Cancerología – ESE",
+   "altName": "National Cancer Institute of Colombia",
+   "country": "Colombia",
+   "website": "http://www.cancer.gov.co",
+   "membership": "Associate Member",
+   "leaders": [
+    "Carolina Wiesner",
+    "Lina Maria Trujillo"
+   ]
+  },
+  {
+   "id": "90",
+   "name": "Klinika za tumore Klinički bolnički centar Sestre milosrdnice",
+   "altName": "University Hospital for Tumors, Sestre milosrdnice University Hospital Centre",
+   "country": "Croatia",
+   "website": "http://www.kbcsm.hr/klinike/klinika-za-tumore",
+   "membership": "Full Member",
+   "leaders": [
+    "Robert Šeparović"
+   ]
+  },
+  {
+   "id": "207A",
+   "name": "Coalition of Associations in Healthcare",
+   "altName": "Koalicija udruga u zdravstvu KUZ",
+   "country": "Croatia",
+   "website": "https://www.kuz.hr/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Ivica Belina",
+    "Irena Bibić",
+    "Ljiljana Lulić Karapetrić",
+    "Tomislav Beganović",
+    "Tatjana Reić"
+   ]
+  },
+  {
+   "id": "143",
+   "name": "German Oncology Center",
+   "country": "Cyprus",
+   "website": "https://www.goc.com.cy/",
+   "membership": "Full Member",
+   "leaders": [
+    "Nikolaos Zamboglou",
+    "Constantinos Zamboglou",
+    "Kristis Vevis"
+   ]
+  },
+  {
+   "id": "163",
+   "name": "Bank of Cyprus Oncology Centre",
+   "altName": "Ογκολογικό Κέντρο Τράπεζας Κύπρου",
+   "country": "Cyprus",
+   "website": "https://www.bococ.org.cy/en",
+   "membership": "Full Member",
+   "leaders": [
+    "Panos Ergatoudes",
+    "Demetris Papamichael",
+    "Dimitrios Vomvas",
+    "Chloe Symeonidou"
+   ]
+  },
+  {
+   "id": "34",
+   "name": "Masarykův onkologický ústav",
+   "altName": "Masaryk Memorial Cancer Institute",
+   "country": "Czech Republic",
+   "website": "http://www.mou.cz",
+   "membership": "Full Member",
+   "leaders": [
+    "Marek Svoboda",
+    "Igor Kiss",
+    "Tomáš Kazda"
+   ]
+  },
+  {
+   "id": "122",
+   "name": "Fakultní nemocnice v Motole",
+   "altName": "Motol University Hospital (MUH)",
+   "country": "Czech Republic",
+   "website": "https://www.fnmotol.cz",
+   "membership": "Full Member",
+   "leaders": [
+    "Petr Polouček",
+    "Martin Holcát",
+    "Anna Šedivá",
+    "Tomáš Büchler"
+   ]
+  },
+  {
+   "id": "74A",
+   "name": "Institut biostatistiky a analýz Lékařská fakulta Masarykovy univerzity",
+   "altName": "Institute of Biostatistics and Analyses,Faculty of Medicine and Faculty of Science, Masaryk University",
+   "country": "Czech Republic",
+   "website": "https://iba.med.muni.cz/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Ladislav Dušek"
+   ]
+  },
+  {
+   "id": "150",
+   "name": "Aarhus Universitetshospital",
+   "altName": "Aarhus University Hospital",
+   "country": "Denmark",
+   "website": "https://www.en.auh.dk/",
+   "membership": "Full Member",
+   "leaders": [
+    "Thomas Balle Kristensen",
+    "Charlotte Rosenkrantz Josefsen",
+    "Charlotte Birkmose Rotbøl"
+   ]
+  },
+  {
+   "id": "91",
+   "name": "Vejle Sygehus, Patienternes Kræftsygehus en del af Sygehus Lillebælt",
+   "altName": "Vejle Cancer Centre – The Patients’ Cancer Hospital part of Lillebaelt Hospital",
+   "country": "Denmark",
+   "website": "http://sygehuslillebaelt.dk/wm398506",
+   "membership": "Full Member",
+   "leaders": [
+    "Christian Sauvr",
+    "Hanne Andersen"
+   ]
+  },
+  {
+   "id": "151",
+   "name": "Copenhagen Comprehensive Cancer Center (CCCC) Departement of oncology Rigshospitalet",
+   "altName": "Kræftafdelingen Rigshospitalet",
+   "country": "Denmark",
+   "website": "https://www.rigshospitalet.dk",
+   "membership": "Full Member",
+   "leaders": [
+    "Jannick Brennum",
+    "Ulrik Lassen"
+   ]
+  },
+  {
+   "id": "152",
+   "name": "Copenhagen Comprehensive Cancer Center (CCCC) Departement for cancer treatment, Herlev and Gentofte Hospital",
+   "country": "Denmark",
+   "website": "https://www.herlevhospital.dk/",
+   "membership": "Full Member",
+   "leaders": [
+    "Lisbet Isenbeg Ravn",
+    "Lisa Sengeløv"
+   ]
+  },
+  {
+   "id": "183",
+   "name": "Odense Universitethospital",
+   "altName": "Odense University Hospital",
+   "country": "Denmark",
+   "website": "https://en.ouh.dk/",
+   "membership": "Full Member",
+   "leaders": [
+    "Niels Nørgaard Pedersen",
+    "Michael Dall",
+    "Bjarne Dahler-Eriksen",
+    "Mathilde Schmidt-Petersen",
+    "Torben Hedegaard Jensen"
+   ]
+  },
+  {
+   "id": "195",
+   "name": "Aalborg Universitetshospital",
+   "altName": "Aalborg University Hospital",
+   "country": "Denmark",
+   "website": "https://aalborguh.rn.dk/da/",
+   "membership": "Full Member",
+   "leaders": [
+    "Lars Dahl Pedersen",
+    "Søren Pihlkjær Hjortshøj",
+    "Jytte Heidmann"
+   ]
+  },
+  {
+   "id": "197",
+   "name": "Zealand University Hospital",
+   "country": "Denmark",
+   "website": "https://www.nfsygehus.dk/",
+   "membership": "Full Member",
+   "leaders": [
+    "Ricco Norman Dyhr",
+    "Peder Gunnar Fabricius"
+   ]
+  },
+  {
+   "id": "55A",
+   "name": "Sihtasutus Tartu Ülikooli Kliinikum",
+   "altName": "Tartu University Hospital",
+   "country": "Estonia",
+   "website": "http://www.kliinikum.ee",
+   "membership": "Associate Member",
+   "leaders": [
+    "Priit Perens",
+    "Liis Salumäe",
+    "Joel Starkopf",
+    "Ilona Pastarus",
+    "Lenne-Triin Kõrgvee"
+   ]
+  },
+  {
+   "id": "62",
+   "name": "North Estonia Medical Centre",
+   "country": "Estonia",
+   "website": "http://www.regionaalhaigla.ee",
+   "membership": "Full Member",
+   "leaders": [
+    "Kristo Erikson"
+   ]
+  },
+  {
+   "id": "131",
+   "name": "AS lda-Tallinna Keskhaigla",
+   "altName": "East Tallinn Central Hospital",
+   "country": "Estonia",
+   "website": "https://www.itk.ee/en",
+   "membership": "Full Member",
+   "leaders": [
+    "Tarmo Bakler",
+    "Kai Sukles"
+   ]
+  },
+  {
+   "id": "68",
+   "name": "HUS Syöpäkeskus Helsingin Yliopistollinen Sairaala",
+   "altName": "Helsinki University Hospital Comprehensive Cancer Center",
+   "country": "Finland",
+   "website": "http://www.hus.fi",
+   "membership": "Full Member",
+   "leaders": [
+    "Johanna Mattson",
+    "Micaela Hernberg",
+    "Aino Lepäntalo",
+    "Mikko Tenhunen",
+    "Tuomo Meretoja",
+    "Outi Akrén",
+    "Peeter Karihtala",
+    "Vuokko Kolhonen"
+   ]
+  },
+  {
+   "id": "94",
+   "name": "TYKS Syöpäkeskus Turun Yliopistollinen Sairaala",
+   "altName": "Turku University Hospital Cancer Centre",
+   "country": "Finland",
+   "website": "https://www.tyks.fi/",
+   "membership": "Full Member",
+   "leaders": [
+    "Sirkku Jyrkkiö"
+   ]
+  },
+  {
+   "id": "95",
+   "name": "TAYS Syöpäkeskus Tampereen Yliopistollinen Sairaala",
+   "altName": "TAYS Cancer Centre Tampere University Hospital",
+   "country": "Finland",
+   "website": "https://www.pirha.fi/fi/palvelut/sairaalat-tays/syopa",
+   "membership": "Full Member",
+   "leaders": [
+    "Annika Auranen",
+    "Olli Leppänen",
+    "Maarit Bärlund",
+    "Arja Jukkola"
+   ]
+  },
+  {
+   "id": "105",
+   "name": "KYS Syövänhoitokeskus Kuopion Yliopistollinen Sairaala",
+   "altName": "Kuopio University Hospital (KUH) Cancer Centre",
+   "country": "Finland",
+   "website": "www.pshyvinvointialue.fi",
+   "membership": "Full Member",
+   "leaders": [
+    "Arto Mannermaa",
+    "Päivi Auvinen",
+    "Satu Tiainen",
+    "Jouni Kurola"
+   ]
+  },
+  {
+   "id": "110",
+   "name": "OYS Oulun Yliopistollinen Sairaala",
+   "altName": "Oulu University Hospital",
+   "country": "Finland",
+   "website": "http://www.ppshp.fi",
+   "membership": "Full Member",
+   "leaders": [
+    "Juha Korpelainen"
+   ]
+  },
+  {
+   "id": "170",
+   "name": "Kansallinen syöpäkeskus FICAN",
+   "altName": "Finnish Cancer Center - FICAN",
+   "country": "Finland",
+   "website": "www.fican.fi",
+   "membership": "Full Member",
+   "leaders": [
+    "Tomi P. Mäkelä",
+    "Markku Makijarvi",
+    "Timo Nykopp"
+   ]
+  },
+  {
+   "id": "9",
+   "name": "Centre Léon Bérard",
+   "altName": "Léon Bérard Center",
+   "country": "France",
+   "website": "http://www.centreleonberard.fr",
+   "membership": "Full Member",
+   "leaders": [
+    "Jean Yves Blay",
+    "Damien Sebileau",
+    "David Perol"
+   ]
+  },
+  {
+   "id": "13",
+   "name": "Gustave Roussy",
+   "country": "France",
+   "website": "http://www.gustaveroussy.fr",
+   "membership": "Full Member",
+   "leaders": [
+    "Fabrice Barlesi",
+    "Fabrice André"
+   ]
+  },
+  {
+   "id": "25",
+   "name": "Institut Curie",
+   "country": "France",
+   "website": "http://www.curie.fr",
+   "membership": "Full Member",
+   "leaders": [
+    "Steven Le Gouill",
+    "Alain Puisieux"
+   ]
+  },
+  {
+   "id": "99",
+   "name": "Centre Jean Perrin",
+   "altName": "Comprehensive Cancer Center Jean Perrin",
+   "country": "France",
+   "website": "http://www.cjp.fr",
+   "membership": "Full Member",
+   "leaders": [
+    "Frédérique Penault-Llorca",
+    "Raphaël Zint",
+    "Christophe Pomel",
+    "Florent Cachin"
+   ]
+  },
+  {
+   "id": "100",
+   "name": "Institut Paoli-Calmettes",
+   "country": "France",
+   "website": "http://www.institutpaolicalmettes.fr",
+   "membership": "Full Member",
+   "leaders": [
+    "Norbert Vey",
+    "Jean-Paul Borg"
+   ]
+  },
+  {
+   "id": "106",
+   "name": "Institut du Cancer de Montpellier (ICM)",
+   "country": "France",
+   "website": "http://www.icm.unicancer.fr/fr",
+   "membership": "Full Member",
+   "leaders": [
+    "Marc Ychou",
+    "Emmanuel Quissac",
+    "David Azria"
+   ]
+  },
+  {
+   "id": "107",
+   "name": "Institut Universitaire du Cancer de Toulouse-Oncopole",
+   "altName": "University Cancer Institute Toulouse-Oncopole",
+   "country": "France",
+   "website": "https://www.iuct-oncopole.fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Jean-Pierre Delord",
+    "Claire Genety",
+    "Gilles Favre"
+   ]
+  },
+  {
+   "id": "112",
+   "name": "Institut du cancer Paris CARPEM AP-HP.Centre-Université Paris Cité",
+   "country": "France",
+   "website": "https://institutducancer-hopitauxcentre-u-paris.aphp.fr",
+   "membership": "Full Member",
+   "leaders": [
+    "Pierre Laurent-Puig",
+    "Marie Wislez"
+   ]
+  },
+  {
+   "id": "113",
+   "name": "Centre François Baclesse",
+   "country": "France",
+   "website": "http://www.baclesse.fr",
+   "membership": "Full Member",
+   "leaders": [
+    "Roman Rouzier",
+    "Michael Canovas",
+    "Florence Joly",
+    "Laurent Poulain"
+   ]
+  },
+  {
+   "id": "117",
+   "name": "lnstitut de Cancérologie de l'Ouest (ICO)",
+   "altName": "Integrated Center for Oncology",
+   "country": "France",
+   "website": "https://www.institut-cancerologie-ouest.com/",
+   "membership": "Full Member",
+   "leaders": [
+    "Mario Campone",
+    "Viviane Joalland"
+   ]
+  },
+  {
+   "id": "132",
+   "name": "Centre de lutte contre le cancer Eugène Marquis",
+   "altName": "Eugène Marquis Cancer Centre",
+   "country": "France",
+   "website": "http://www.centre-eugene-marquis.fr",
+   "membership": "Full Member",
+   "leaders": [
+    "Renaud de Crevoisier",
+    "Pascal Briot",
+    "Nadine Lelievre",
+    "Thierry Lesimple"
+   ]
+  },
+  {
+   "id": "153",
+   "name": "Centre Oscar Lambret",
+   "altName": "Oscar Lambret Center",
+   "country": "France",
+   "website": "https://www.centreoscarlambret.fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Eric Felix Lartigau"
+   ]
+  },
+  {
+   "id": "156",
+   "name": "Institut Bergonié",
+   "altName": "Bergonie Institute",
+   "country": "France",
+   "website": "https://www.bergonie.fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Nicolas Penel",
+    "Céline Etchetto",
+    "Frederique Boyer",
+    "Pierre Soubeyran"
+   ]
+  },
+  {
+   "id": "216",
+   "name": "Cancer Institute AP-HP. Nord - Université Paris Cité",
+   "country": "France",
+   "website": "http://institutducancer-hopitauxnord-u-paris.aphp.fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Gérard Zalcman",
+    "Vannessa Fage-Moreel"
+   ]
+  },
+  {
+   "id": "63A",
+   "name": "Centre Henri Becquerel",
+   "country": "France",
+   "website": "http://www.becquerel.fr",
+   "membership": "Associate Member",
+   "leaders": [
+    "Pierre Vera"
+   ]
+  },
+  {
+   "id": "112b",
+   "name": "Assistance Publique – Hôpitaux de Paris Institut Universitaire de Cancérologie APHP. Sorbonne Université (IUC APHP.SU)",
+   "country": "France",
+   "website": "https://iuc-aphp-sorbonneuniversite.com/",
+   "membership": "Linked Institution",
+   "leaders": [
+    "Jean-Philippe Spano",
+    "Serge Uzan"
+   ]
+  },
+  {
+   "id": "171",
+   "name": "Centre Antoine Lacassagne",
+   "altName": "Antoine Lacassagne Center",
+   "country": "France",
+   "website": "https://www.centreantoinelacassagne.org",
+   "membership": "Full Member",
+   "leaders": [
+    "Emmanuel Barranger",
+    "Gérard Milano",
+    "Jean Marc Ferrero"
+   ]
+  },
+  {
+   "id": "109",
+   "name": "Institut Godinot",
+   "country": "France",
+   "website": "https://www.institutgodinot.fr/fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Yacine Merrouche",
+    "Stéphane Vignot",
+    "Armand Bensussan"
+   ]
+  },
+  {
+   "id": "120",
+   "name": "Centre de Lutte Contre le Cancer Georges-François Leclerc",
+   "altName": "Georges-François Leclerc Cancer Center",
+   "country": "France",
+   "website": "https://www.cgfl.fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Charles Coutant",
+    "Alain Lalié"
+   ]
+  },
+  {
+   "id": "160",
+   "name": "Institut de Cancérologie de Lorraine",
+   "country": "France",
+   "website": "https://www.icl-lorraine.fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Didier Peiffert",
+    "Fadila Chergui",
+    "Olivier Rangeard",
+    "Jean-Louis Merlin",
+    "Frederic Marchal",
+    "Céline Buchy"
+   ]
+  },
+  {
+   "id": "198",
+   "name": "Institut du Cancer – AP-HP. Université Paris-Saclay",
+   "altName": "Cancer Institute – AP-HP. Paris-Saclay University",
+   "country": "France",
+   "website": "https://institutducancer-hopitaux-universiteparissaclay.aphp.fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Pascal Hammel",
+    "Etienne Giroux Leprieur",
+    "Antoinette Lemoine",
+    "Hèlène Gilardi"
+   ]
+  },
+  {
+   "id": "210",
+   "name": "Institut Universitaire du Cancer – AP-HP. Henri-Mondor",
+   "altName": "AP-HP. Hôpitaux Universitaires Henri-Mondor Cancer Institute",
+   "country": "France",
+   "website": "https://iuc-hopitaux-u-mondor.aphp.fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Christophe Tournigand",
+    "François Lemonnier",
+    "Édith Benmansour"
+   ]
+  },
+  {
+   "id": "222",
+   "name": "Institut Strauss",
+   "country": "France",
+   "website": "https://www.institut-strauss.fr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Xavier Pivot",
+    "Stéphanie Dumont",
+    "Georges Noël"
+   ]
+  },
+  {
+   "id": "128A",
+   "name": "Institut Sainte Catherine",
+   "country": "France",
+   "website": "https://www.icap84.org/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Daniel Serin",
+    "Patrice Sapey",
+    "Nicolas Pourel"
+   ]
+  },
+  {
+   "id": "213",
+   "name": "Assistance Publique – Hôpitaux Universitaires de Marseille (AP-HM)",
+   "altName": "University Hospitals of Marseille",
+   "country": "France",
+   "website": "https://fr.ap-hm.fr/",
+   "membership": "Full Member",
+   "leaders": []
+  },
+  {
+   "id": "224A",
+   "name": "UNICANCER - French Federation of Comprehensive Cancer Centres",
+   "country": "France",
+   "website": "https://www.unicancer.fr/en/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Jean-Yves Blay",
+    "Sophie Beaupère"
+   ]
+  },
+  {
+   "id": "7",
+   "name": "Deutsches Krebsforschungszentrum (DKFZ)",
+   "altName": "German Cancer Research Center",
+   "country": "Germany",
+   "website": "http://www.dkfz.de",
+   "membership": "Full Member",
+   "leaders": [
+    "Michael Baumann",
+    "Ursula Weyrich"
+   ]
+  },
+  {
+   "id": "53",
+   "name": "Nationales Centrum für Tumorerkrankungen Dresden NCT/UCC",
+   "altName": "National Cancer Center Dresden",
+   "country": "Germany",
+   "website": "http://www.uniklinikum-dresden.de",
+   "membership": "Full Member",
+   "leaders": [
+    "Martin Bornhäuser"
+   ]
+  },
+  {
+   "id": "76",
+   "name": "Charité Comprehensive Cancer Center",
+   "country": "Germany",
+   "website": "http://cccc.charite.de",
+   "membership": "Full Member",
+   "leaders": []
+  },
+  {
+   "id": "118",
+   "name": "Universitäres Centrum für Tumorerkrankungen (UCT) Frankfurt",
+   "altName": "University Cancer Center Frankfurt",
+   "country": "Germany",
+   "website": "https://www.uct-frankfurt.de/",
+   "membership": "Full Member",
+   "leaders": [
+    "Christian Brandts"
+   ]
+  },
+  {
+   "id": "139",
+   "name": "Comprehensive Cancer Center München (CCC München)",
+   "altName": "Comprehensive Cancer Center Munich (CCC Munich)",
+   "country": "Germany",
+   "website": "https://www.ccc-muenchen.de",
+   "membership": "Full Member",
+   "leaders": [
+    "Volker Heinemann",
+    "Hana Algül"
+   ]
+  },
+  {
+   "id": "177",
+   "name": "Bayerisches Zentrum für Krebsforschung (BZKF)",
+   "altName": "Bavarian Cancer Research Center (BZKF)",
+   "country": "Germany",
+   "website": "https://bzkf.de",
+   "membership": "Full Member",
+   "leaders": [
+    "Andreas Mackensen"
+   ]
+  },
+  {
+   "id": "147",
+   "name": "General Oncology Hospital of Athens “Saint Savvas”",
+   "altName": "Γενικό Αντικαρκινικό Ογκολογικό Νοσοκομείο Αθηνών «Ο Άγιος Σάββας»",
+   "country": "Greece",
+   "website": "https://agsavvas-hosp.gr",
+   "membership": "Full Member",
+   "leaders": [
+    "Panagiotis Klirides",
+    "Spiros Stavrianos",
+    "Aggelos Gritzapis"
+   ]
+  },
+  {
+   "id": "180",
+   "name": "General Oncology Hospital of Pireaus Metaxa",
+   "altName": "Γενικο Αντικαρκινικο Νοσοκομειο Πειραια Μεταξα",
+   "country": "Greece",
+   "website": "https://www.metaxa-hospital.gov.gr/",
+   "membership": "Full Member",
+   "leaders": [
+    "Sarantos Efstathopoulos",
+    "Christos Kosmas",
+    "Eftychia Tsironi",
+    "Maria Kotsopoulou",
+    "Evangelos Lianos"
+   ]
+  },
+  {
+   "id": "205A",
+   "name": "Hellenic Cancer Federation -ELLOK",
+   "altName": "Ελληνικη Ομοσπονδια Καρκινου - ΕΛΛΟΚ",
+   "country": "Greece",
+   "website": "https://ellok.org/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Georgios Kapetanakis"
+   ]
+  },
+  {
+   "id": "29",
+   "name": "Országos Onkológiai Intézet",
+   "altName": "National Institute of Oncology",
+   "country": "Hungary",
+   "website": "http://www.onkol.hu",
+   "membership": "Full Member",
+   "leaders": [
+    "Magdolna Dank",
+    "Ilona Gál",
+    "Péter Nagy",
+    "Tamás Mátrai"
+   ]
+  },
+  {
+   "id": "80",
+   "name": "National Korányi Institute for Pulmonology",
+   "altName": "Országos Korányi Pulmonológiai Intézet",
+   "country": "Hungary",
+   "website": "http://www.koranyi.hu",
+   "membership": "Full Member",
+   "leaders": [
+    "Krisztina Bogos",
+    "Gabriella Temesi"
+   ]
+  },
+  {
+   "id": "174",
+   "name": "Landspítali",
+   "altName": "Landspitali University Hospital",
+   "country": "Iceland",
+   "website": "https://www.landspitali.is",
+   "membership": "Full Member",
+   "leaders": [
+    "Vigdís Hallgrímsdóttir",
+    "Sigurdís Haraldsdóttir"
+   ]
+  },
+  {
+   "id": "101",
+   "name": "Trinity St. James’s Cancer Institute",
+   "country": "Ireland",
+   "website": "http://www.stjames.ie/cancer",
+   "membership": "Full Member",
+   "leaders": [
+    "Maeve Lowery",
+    "John Kennedy",
+    "Lorraine O’Driscoll",
+    "Mary Day"
+   ]
+  },
+  {
+   "id": "126",
+   "name": "Beaumont RCSI Cancer Centre",
+   "country": "Ireland",
+   "website": "https://beaumontrcsicancercentre.ie/",
+   "membership": "Full Member",
+   "leaders": [
+    "Anne Coyle",
+    "Patrick Morris",
+    "Leonie Young"
+   ]
+  },
+  {
+   "id": "134",
+   "name": "HSE West North West, University of Galway Cancer Centre",
+   "country": "Ireland",
+   "website": "https://www.saolta.ie",
+   "membership": "Full Member",
+   "leaders": [
+    "Joseph Martin",
+    "Olive Gallagher",
+    "Geraldine Cooley"
+   ]
+  },
+  {
+   "id": "145",
+   "name": "Cork University Hospital/University College Cork",
+   "country": "Ireland",
+   "website": "https://www.cuh.hse.ie/",
+   "membership": "Full Member",
+   "leaders": [
+    "Dearbhaile Collins",
+    "Roisin M. Connolly"
+   ]
+  },
+  {
+   "id": "162",
+   "name": "St Vincent’s UCD Cancer Centre",
+   "country": "Ireland",
+   "website": "https://stvincentsucdcancercentre.ie/",
+   "membership": "Full Member",
+   "leaders": [
+    "David Fennelly",
+    "William Gallagher",
+    "Paula Carroll"
+   ]
+  },
+  {
+   "id": "137",
+   "name": "Mater Private Network",
+   "country": "Ireland",
+   "website": "https://www.materprivate.ie/",
+   "membership": "Full Member",
+   "leaders": [
+    "Jerome Coffey",
+    "Hugh Healy",
+    "Jane O’Neill"
+   ]
+  },
+  {
+   "id": "154",
+   "name": "The Mater Misericordiae University Hospital",
+   "country": "Ireland",
+   "website": "https://www.mater.ie/",
+   "membership": "Full Member",
+   "leaders": [
+    "Tracey Fitzpatrick",
+    "Michael Hannon",
+    "Donal Brennan"
+   ]
+  },
+  {
+   "id": "193",
+   "name": "Mid-Western Cancer Centre",
+   "country": "Ireland",
+   "membership": "Full Member",
+   "leaders": [
+    "Breda Duggan",
+    "Ian Carter",
+    "Grzegorz Korpanty",
+    "Ruth Clifford",
+    "Mairead Cowan"
+   ]
+  },
+  {
+   "id": "218",
+   "name": "University Hospital Waterford",
+   "country": "Ireland",
+   "website": "https://www2.hse.ie/services/hospitals/university-hospital-waterford/",
+   "membership": "Full Member",
+   "leaders": [
+    "Ben O'Sullivan"
+   ]
+  },
+  {
+   "id": "208A",
+   "name": "Irish Cancer Society",
+   "country": "Ireland",
+   "website": "https://www.cancer.ie/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Emma Browne",
+    "Edel Shovlin",
+    "Amy Nolan",
+    "Jennifer Owens",
+    "Honor Bleakley",
+    "Steve Dempsey"
+   ]
+  },
+  {
+   "id": "3",
+   "name": "Centro di Riferimento Oncologico di Aviano (CRO), IRCCS",
+   "country": "Italy",
+   "website": "http://www.cro.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Giuseppe Tonutti",
+    "Gustavo Baldassarre",
+    "Valter Gattei",
+    "Cristina Zavagno"
+   ]
+  },
+  {
+   "id": "6",
+   "name": "IRCCS Ospedale Policlinico San Martino",
+   "country": "Italy",
+   "website": "https://www.ospedalesanmartino.it/it/",
+   "membership": "Full Member",
+   "leaders": [
+    "Ilaria Panzini",
+    "Monica Calamai",
+    "Angelo Schenone",
+    "Marta Caltabellotta",
+    "Lucia Del Mastro",
+    "Fabrizio Figallo",
+    "Claudia Storace"
+   ]
+  },
+  {
+   "id": "10",
+   "name": "Istituto Europeo di Oncologia",
+   "altName": "IEO European Institute of Oncology",
+   "country": "Italy",
+   "website": "http://www.ieo.it/en",
+   "membership": "Full Member",
+   "leaders": [
+    "Carlo Cimbri",
+    "Mauro Melis",
+    "Roberto Orecchia"
+   ]
+  },
+  {
+   "id": "11",
+   "name": "Fondazione IRCCS- Istituto Nazionale dei Tumori di Milano",
+   "country": "Italy",
+   "website": "http://www.istitutotumori.mi.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Gustavo Galmozzi",
+    "Maria Teresa Montella",
+    "Maurizia Ficarelli"
+   ]
+  },
+  {
+   "id": "12",
+   "name": "Istituto Nazionale Tumori -IRCCS \"Fondazione G.Pascale\" (INT-Pascale)",
+   "country": "Italy",
+   "website": "http://www.istitutotumori.na.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Maurizio Di Mauro",
+    "Alfredo Budillon",
+    "Angelo D’Argenzio",
+    "Maria Maiorano"
+   ]
+  },
+  {
+   "id": "15",
+   "name": "Istituto Nazionale Tumori Regina Elena",
+   "altName": "Regina Elena National Cancer Institute (IRE)",
+   "country": "Italy",
+   "website": "http://www.ifo.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Livio De Angelis",
+    "Giovanni Blandino",
+    "Costanza Cavuto"
+   ]
+  },
+  {
+   "id": "42",
+   "name": "IRCCS Ospedale San Raffaele (OSR)",
+   "country": "Italy",
+   "website": "http://www.hsr.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Marco Centenari",
+    "Fabio Ciceri",
+    "Gianvito Martino",
+    "Roberts Mazzuconi",
+    "Federico Esposti"
+   ]
+  },
+  {
+   "id": "70",
+   "name": "Istituto Oncologico Veneto IRCCS-IOV",
+   "country": "Italy",
+   "website": "http://www.ioveneto.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Patrizia Simionato",
+    "Antonio Rosato",
+    "Anna Maria Saieva"
+   ]
+  },
+  {
+   "id": "79",
+   "name": "Azienda Unità Sanitaria Locale di Reggio Emilia - IRCCS Istituto in Tecnologie Avanzate e Modelli Assistenziali in Oncologia",
+   "country": "Italy",
+   "website": "http://www.ausl.re.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Davide Fornaciari",
+    "Antonino Neri"
+   ]
+  },
+  {
+   "id": "92",
+   "name": "IRCCS Istituto Clinico Humanitas",
+   "altName": "Humanitas Research Hospital",
+   "country": "Italy",
+   "website": "http://www.humanitas.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Riccardo Bui",
+    "Luigi Maria Terracciano",
+    "Alberto Mantovani",
+    "Simona Sancini"
+   ]
+  },
+  {
+   "id": "104",
+   "name": "INOC - Istituto Nazionale Oncologico Candiolo",
+   "country": "Italy",
+   "website": "https://inoc.it/it/",
+   "membership": "Full Member",
+   "leaders": [
+    "Andrea Agnelli",
+    "Salvatore Nieddu",
+    "Anna Sapino",
+    "Piero Fenu",
+    "Vanesa Gregorc"
+   ]
+  },
+  {
+   "id": "149",
+   "name": "ASST Spedali Civili di Brescia (SCH)",
+   "country": "Italy",
+   "website": "https://www.asst-spedalicivili.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Luigi Cajazzo",
+    "Frida Fagandini",
+    "Fabio Agrò",
+    "Aldo Maria Roccaro"
+   ]
+  },
+  {
+   "id": "4",
+   "name": "Istituto Tumori Giovanni Paolo II, Istituto di Ricovero e Cura a Carattere Scientifico",
+   "country": "Italy",
+   "website": "https://www.sanita.puglia.it/web/irccs-istituto-tumori-bari-giovanni-paolo-ii",
+   "membership": "Full Member",
+   "leaders": [
+    "Alessandro Delle Donne",
+    "Raffaella Massafra",
+    "Michele Guida"
+   ]
+  },
+  {
+   "id": "72",
+   "name": "IRCCS Centro di Riferimento Oncologico della Basilicata (CROB)",
+   "country": "Italy",
+   "website": "http://www.crob.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Massimo De Fino",
+    "Rocco Mario Calabrese",
+    "Maria Mariani",
+    "Rocco Galasso"
+   ]
+  },
+  {
+   "id": "127",
+   "name": "IRCCS Ospedale Sacro Cuore Don Calabria",
+   "altName": "Sacro Cuore - Don Calabria Hospital",
+   "country": "Italy",
+   "website": "https://www.sacrocuore.it/",
+   "membership": "Full Member",
+   "leaders": [
+    "Claudio Cracco",
+    "Federico Gobbi",
+    "Fabrizio Nicolis",
+    "Stefania Gori"
+   ]
+  },
+  {
+   "id": "108",
+   "name": "Istituto Oncologico del Mediterraneo s.p.a. (IOM)",
+   "altName": "Mediterranean Institute of Oncology",
+   "country": "Italy",
+   "website": "http://www.grupposamed.com/",
+   "membership": "Full Member",
+   "leaders": [
+    "Roberto Cunsolo",
+    "Ettore Urbano Denti",
+    "Domenico Musumeci",
+    "Lorenzo Memeo",
+    "Dario Giuffrida"
+   ]
+  },
+  {
+   "id": "188",
+   "name": "Fondazione Poliambulanza",
+   "country": "Italy",
+   "website": "https://www.poliambulanza.it/",
+   "membership": "Full Member",
+   "leaders": [
+    "Mario Taccolini",
+    "Marcellino Valerio",
+    "Angelo Meloni",
+    "Cristiano Spada",
+    "Alberto Zaniboni",
+    "Elia Croce"
+   ]
+  },
+  {
+   "id": "135A",
+   "name": "Fondazione IRCCS Policlinico San Matteo",
+   "country": "Italy",
+   "website": "http://www.sanmatteo.org/site/home.html",
+   "membership": "Associate Member",
+   "leaders": [
+    "Alessandro Venturi",
+    "Vincenzo Petronella",
+    "Vittorio Bellotti",
+    "Paolo Pedrazzoli"
+   ]
+  },
+  {
+   "id": "77",
+   "name": "IRCCS Istituto Romagnolo per lo Studio dei Tumori \"Dino Amadori\" - IRST s.r.l.",
+   "altName": "IRCCS - Romagna Institute for the Study of Cancer “Dino Amadori” – IRST s.r.l.",
+   "country": "Italy",
+   "website": "http://www.irst.emr.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Nicola Normanno",
+    "Martina Rosticci"
+   ]
+  },
+  {
+   "id": "130",
+   "name": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+   "country": "Italy",
+   "website": "https://www.policlinicogemelli.it/",
+   "membership": "Full Member",
+   "leaders": [
+    "Daniele Piacentini",
+    "Antonio Gasbarrini",
+    "Giampaolo Tortora",
+    "Andrea Cambieri"
+   ]
+  },
+  {
+   "id": "97A",
+   "name": "Istituto Dermatologico San Gallicano",
+   "altName": "San Gallicano Dermatological Institute",
+   "country": "Italy",
+   "website": "http://www.ifo.it",
+   "membership": "Associate Member",
+   "leaders": [
+    "Livio De Angelis",
+    "Maria Concetta Fargnoli",
+    "Laura Figorilli",
+    "Costanza Cavuto"
+   ]
+  },
+  {
+   "id": "204A",
+   "name": "Federazione italiana delle Associazioni di Volontariato in Oncologia (FAVO)",
+   "altName": "Italian Federation of Voluntary Associations in Oncology",
+   "country": "Italy",
+   "website": "https://www.favo.it/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Francesco De Lorenzo",
+    "Laura Del Campo"
+   ]
+  },
+  {
+   "id": "230A",
+   "name": "Fondazione The Bridge ETS",
+   "country": "Italy",
+   "website": "https://www.fondazionethebridge.it/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Maria Rosaria Iardino",
+    "Luisa Brogonzoli",
+    "Lorenza Gulli",
+    "Elisa Sala"
+   ]
+  },
+  {
+   "id": "124A",
+   "name": "King Hussein Cancer Center",
+   "altName": "مركز الحسين للسرطان",
+   "country": "Jordan",
+   "website": "http://www.khcc.jo/en",
+   "membership": "Associate Member",
+   "leaders": [
+    "Asem Mansour",
+    "Hikmat Abdel-Razeq"
+   ]
+  },
+  {
+   "id": "140",
+   "name": "Rīgas Austrumu klīniskā universitātes slimnīca",
+   "altName": "Riga East University Hospital",
+   "country": "Latvia",
+   "website": "https://www.aslimnica.lv/",
+   "membership": "Full Member",
+   "leaders": [
+    "Alinta Hegmane"
+   ]
+  },
+  {
+   "id": "165",
+   "name": "Paula Stradiņa Klīniskā universitātes slimnīca",
+   "altName": "Pauls Stradins Clinical University Hospital (PSCUH)",
+   "country": "Latvia",
+   "website": "https://stradini.lv/lv",
+   "membership": "Full Member",
+   "leaders": [
+    "Lauris Vidzis",
+    "Aija Gerina-Berzina"
+   ]
+  },
+  {
+   "id": "167A",
+   "name": "Naef K Basile Cancer Institute at the American University of Beirut Medical Center",
+   "country": "Lebanon",
+   "website": "http://aubmc.org.lb/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Ali Taher",
+    "Tfayli Arafat"
+   ]
+  },
+  {
+   "id": "33",
+   "name": "National Cancer Institute",
+   "country": "Lithuania",
+   "website": "http://www.nvi.lt",
+   "membership": "Full Member",
+   "leaders": [
+    "Valdas Pečeliūnas",
+    "Edita Baltruškevičienė",
+    "Živilė Gudlevičienė",
+    "Mindaugas Žilinskis"
+   ]
+  },
+  {
+   "id": "158",
+   "name": "Vilnius University Hospital Santaros Klinikos",
+   "altName": "Vilniaus universiteto ligoninė Santaros klinikos",
+   "country": "Lithuania",
+   "website": "https://www.santa.lt",
+   "membership": "Full Member",
+   "leaders": [
+    "Tomas Jovaiša",
+    "Valdas Pečeliūnas",
+    "Donata Ringaitienė",
+    "Jelena Rascon"
+   ]
+  },
+  {
+   "id": "189",
+   "name": "Hospital of Lithuanian University of Health Sciences Kauno Klinikos",
+   "altName": "Lietuvos sveikatos mokslų universiteto ligoninė Kauno klinikos",
+   "country": "Lithuania",
+   "website": "www.kaunoklinikos.lt, www.lsmu.lt",
+   "membership": "Full Member",
+   "leaders": [
+    "Renaldas Jurkevičius",
+    "Elona Juozaityte"
+   ]
+  },
+  {
+   "id": "211",
+   "name": "Klaipėda University Hospital",
+   "country": "Lithuania",
+   "website": "htttps://www.kul.lt",
+   "membership": "Full Member",
+   "leaders": [
+    "Audrius Šimaitis",
+    "Antanas Gulbinas",
+    "Alvydas Česas"
+   ]
+  },
+  {
+   "id": "166A",
+   "name": "Institut National du Cancer (INC)",
+   "country": "Luxembourg",
+   "website": "https://institutnationalducancer.lu/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Nikolai Goncharenko",
+    "Guy Berchem"
+   ]
+  },
+  {
+   "id": "148A",
+   "name": "Public Health Institution Oncological Institute",
+   "country": "Moldova",
+   "website": "http://onco.md/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Ruslan Baltaga"
+   ]
+  },
+  {
+   "id": "229A",
+   "name": "PHI University Clinic for Radiotherapy and Oncology Skopje",
+   "country": "North Macedonia",
+   "website": "https://www.oncology.org.mk/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Igor Stojkovski",
+    "Andrijana Filipovska",
+    "Dushko Lukarski"
+   ]
+  },
+  {
+   "id": "50",
+   "name": "Oslo Universitetssykehus (OUS)",
+   "altName": "Oslo University Hospital (OUH)",
+   "country": "Norway",
+   "website": "http://www.oslo-universitetssykehus.no",
+   "membership": "Full Member",
+   "leaders": [
+    "Bjørn Atle Bjørnbeth",
+    "Åslaug Helland",
+    "Sigbjørn Smeland"
+   ]
+  },
+  {
+   "id": "161",
+   "name": "Helse Bergen HF – Haukeland Universitetssjukehus",
+   "altName": "Helse Bergen - Haukeland University Hospital",
+   "country": "Norway",
+   "website": "https://helse-bergen.no/en",
+   "membership": "Full Member",
+   "leaders": [
+    "Oddbjorn Straume",
+    "Christian Beisland"
+   ]
+  },
+  {
+   "id": "187",
+   "name": "Akershus universitetssykehus HF",
+   "altName": "Akershus University Hospital Trust",
+   "country": "Norway",
+   "website": "https://www.ahus.no/",
+   "membership": "Full Member",
+   "leaders": [
+    "Øystein Mæland",
+    "Erik Borge Skei",
+    "Pål Wiik",
+    "Helge Rørvik Røsjø"
+   ]
+  },
+  {
+   "id": "202A",
+   "name": "Oncocenter Peru - SAC",
+   "altName": "Clínica Oncosalud - AUNA",
+   "country": "Peru",
+   "website": "https://oncosalud.pe/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Giuliana Càrdenas Gamarra",
+    "Dennise Bretel Morales"
+   ]
+  },
+  {
+   "id": "129",
+   "name": "Narodowy Instytut Onkologii im. Marii Skłodowskiej-Curie Państwowy Instytut Badawczy",
+   "altName": "Maria Sklodowska- Curie National Research Institute of Oncology",
+   "country": "Poland",
+   "website": "https://nio.gov.pl/",
+   "membership": "Full Member",
+   "leaders": [
+    "Beata Jagielska",
+    "Iwona Ługowska",
+    "Piotr Rutkowski"
+   ]
+  },
+  {
+   "id": "129b",
+   "name": "Narodowy Instytut Onkologii im. Marii Skłodowskiej-Curie – Państwowy Instytut Badawczy Oddział w Gliwicach",
+   "altName": "Maria Skłodowska-Curie National Institute of Oncology National Research Institute Gliwice Branch",
+   "country": "Poland",
+   "website": "https://gliwice.nio.gov.pl/",
+   "membership": "Linked Institution",
+   "leaders": []
+  },
+  {
+   "id": "194",
+   "name": "Instytut Matki i Dziecka",
+   "altName": "Institute of Mother and Child",
+   "country": "Poland",
+   "website": "https://imid.med.pl/pl/",
+   "membership": "Full Member",
+   "leaders": [
+    "Tomasz Maciejewski",
+    "Anna Raciborska"
+   ]
+  },
+  {
+   "id": "215",
+   "name": "Uniwersyteckie Centrum Kliniczne w Gdańsku",
+   "altName": "University Clinical Center (UCK) of Medical University of Gdansk",
+   "country": "Poland",
+   "website": "https://www.uck.pl",
+   "membership": "Full Member",
+   "leaders": [
+    "Jakub Kraszewski"
+   ]
+  },
+  {
+   "id": "219",
+   "name": "Instytut “Centrum Zdrowia Matki Polki\"",
+   "altName": "Polish Mothers Memorial Hospital Research Institute",
+   "country": "Poland",
+   "website": "https://www.iczmp.edu.pl/",
+   "membership": "Full Member",
+   "leaders": [
+    "Iwona Maroszyńska",
+    "Dariusz Trzmielak"
+   ]
+  },
+  {
+   "id": "48A",
+   "name": "Wielkopolskie Centrum Onkologii",
+   "altName": "Greater Poland Cancer Centre",
+   "country": "Poland",
+   "website": "http://www.wco.pl",
+   "membership": "Associate Member",
+   "leaders": [
+    "Julian Malicki"
+   ]
+  },
+  {
+   "id": "223A",
+   "name": "AidPort Clinical Trial Hospital",
+   "country": "Poland",
+   "website": "https://www.aidport.pl/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Joanna Lorenc",
+    "Michal Kwiatek"
+   ]
+  },
+  {
+   "id": "14",
+   "name": "Instituto Português de Oncologia do Porto Francisco Gentil, E.P.E. (IPO-Porto)",
+   "country": "Portugal",
+   "website": "http://www.ipoporto.pt/en/",
+   "membership": "Full Member",
+   "leaders": [
+    "Júlio Oliveira",
+    "Carmen Jerónimo",
+    "Donzília Brito"
+   ]
+  },
+  {
+   "id": "8",
+   "name": "Instituto Português de Oncologia de Lisboa Francisco Gentil, E.P.E. (IPO-Lisboa)",
+   "country": "Portugal",
+   "website": "http://www.ipolisboa.min-saude.pt",
+   "membership": "Full Member",
+   "leaders": [
+    "Carla Gonçalo",
+    "Nuno Serrano",
+    "Miguel Fausto",
+    "Teresa Boto",
+    "Gustavo Ferreira"
+   ]
+  },
+  {
+   "id": "22",
+   "name": "Instituto Português de Oncologia de Coimbra Francisco Gentil, E.P.E. (IPO-Coimbra)",
+   "altName": "Portuguese Oncology Institute of Coimbra",
+   "country": "Portugal",
+   "website": "https://www.ipocoimbra.min-saude.pt/",
+   "membership": "Full Member",
+   "leaders": [
+    "Maria Margarida Torres Ornelas",
+    "Luís Miguel Santos Filipe",
+    "Catarina Raquel Jorge Lopes Monteiro",
+    "Ana Filipa Horta de Oliveira Cardoso Pais",
+    "António João Mendes Moreira"
+   ]
+  },
+  {
+   "id": "199A",
+   "name": "Institutul Regional de Oncologie Iași",
+   "altName": "Iași Regional Oncology Institute",
+   "country": "Romania",
+   "website": "https://www.iroiasi.ro/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Mirela Grosu",
+    "Mihail Gabriel Dimofte",
+    "Teodora Alexa Stratulat"
+   ]
+  },
+  {
+   "id": "209A",
+   "name": "Asociația Cancer Free Future (CFFA)",
+   "altName": "Cancer Free Future Association",
+   "country": "Romania",
+   "website": "https://www.cancerfreefuture.eu/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Delia Nicoară"
+   ]
+  },
+  {
+   "id": "31A",
+   "name": "Tatarstan Cancer Center “TCC”",
+   "altName": "Государственное автономное учреждение здравоохранения \"Республиканский клинический онкологический диспансер министерства здравоохранения Республики Татарстан\"",
+   "country": "Russian Federation",
+   "website": "http://oncort.ru",
+   "membership": "Associate Member",
+   "leaders": []
+  },
+  {
+   "id": "43A",
+   "name": "N.N.Blokhin Russian Cancer Research Centre",
+   "altName": "Федеральное государственное бюджетное научное учреждение «Российский научный онкологический центр им. Н.Н.Блохина»",
+   "country": "Russian Federation",
+   "website": "http://www.ronc.ru",
+   "membership": "Associate Member",
+   "leaders": [
+    "Ivan S. Stilidi"
+   ]
+  },
+  {
+   "id": "73A",
+   "name": "National Medical Research Radiological Centre (NMRRC)",
+   "altName": "Государственный научно-исследовательский центр радиологии",
+   "country": "Russian Federation",
+   "website": "http://www.mnioi.nmicr.ru",
+   "membership": "Associate Member",
+   "leaders": []
+  },
+  {
+   "id": "32A",
+   "name": "Oncology Institute of Vojvodina",
+   "country": "Serbia",
+   "website": "http://www.onk.ns.ac.rs",
+   "membership": "Associate Member",
+   "leaders": [
+    "Jasna Trifunovic",
+    "Dubravka Striber-Devaja",
+    "Tihomir Dugandzija",
+    "Ljiljana Stanikic"
+   ]
+  },
+  {
+   "id": "36A",
+   "name": "Biomedicínske centrum Slovenskej akadémie vied",
+   "altName": "Biomedical Research Center of the Slovak Academy of Sciences",
+   "country": "Slovakia",
+   "website": "http://www.biomedcentrum.sav.sk/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Miroslav Chovanec",
+    "Silvia Pastoreková"
+   ]
+  },
+  {
+   "id": "54",
+   "name": "Onkološki Inštitut Ljubljana",
+   "altName": "Institute of Oncology Ljubljana",
+   "country": "Slovenia",
+   "website": "http://www.onko-i.si",
+   "membership": "Full Member",
+   "leaders": [
+    "Zlata Štiblar Kisić",
+    "Janja Ocvirk",
+    "Maja Čemažar"
+   ]
+  },
+  {
+   "id": "21",
+   "name": "Institut Català d’Oncologia ICO",
+   "altName": "Catalan Institute of Oncology",
+   "country": "Spain",
+   "website": "http://ico.gencat.cat/ca/",
+   "membership": "Full Member",
+   "leaders": [
+    "Helena Isàbal Roca",
+    "Joan Brunet Vidal"
+   ]
+  },
+  {
+   "id": "133",
+   "name": "Vall d’Hebron Barcelona Campus Hospitalari",
+   "altName": "Vall d’Hebron Barcelona Hospital Campus",
+   "country": "Spain",
+   "website": "https://www.vallhebron.com/es",
+   "membership": "Full Member",
+   "leaders": [
+    "Albert Salazar Soler",
+    "María José Abadías"
+   ]
+  },
+  {
+   "id": "155",
+   "name": "Cancer Center Clínica Universidad de Navarra",
+   "country": "Spain",
+   "website": "https://cancercenter.cun.es/",
+   "membership": "Full Member",
+   "leaders": [
+    "Antonio Gonzalez Martin",
+    "Francisco Cespedosa",
+    "Antonio Pineda-Lucena",
+    "Eduardo Ecay"
+   ]
+  },
+  {
+   "id": "159",
+   "name": "Fundación Jiménez Díaz University Hospital",
+   "altName": "Hospital Universitario Fundación Jiménez Díaz",
+   "country": "Spain",
+   "website": "https://www.fjd.es/",
+   "membership": "Full Member",
+   "leaders": [
+    "Javier Arcos Campillo",
+    "Jesús García-Foncillas"
+   ]
+  },
+  {
+   "id": "169",
+   "name": "Clínic Barcelona Comprehensive Cancer Centre",
+   "country": "Spain",
+   "website": "https://www.clinicbarcelona.org",
+   "membership": "Full Member",
+   "leaders": [
+    "Aleix Prat",
+    "Meritxell Mollà",
+    "Antoni Castells",
+    "Rosa Garcia",
+    "Elias Campo",
+    "Faust Feu",
+    "Ariadna Domènech",
+    "Josep Maria Campistol",
+    "Raquel Sánchez-Valle",
+    "David Font"
+   ]
+  },
+  {
+   "id": "20",
+   "name": "Fundación Instituto Valenciano de Oncología IVO",
+   "altName": "IVO Foundation",
+   "country": "Spain",
+   "website": "http://www.ivo.es",
+   "membership": "Full Member",
+   "leaders": [
+    "Manuel Llombart Fuertes",
+    "Tomás Quirós Morató",
+    "Jose A. López Guerrero",
+    "Antonio Llombart Bosch"
+   ]
+  },
+  {
+   "id": "164",
+   "name": "Institut d’Oncologia de la Catalunya Sud Hospital Universitari Sant Joan de Reus",
+   "altName": "Southern Catalonia Oncology Institute University Hospital Sant Joan of Reus",
+   "country": "Spain",
+   "website": "https://www.salutsantjoan.cat/",
+   "membership": "Full Member",
+   "leaders": [
+    "Anton Benet Català",
+    "Josep Gumà Padró",
+    "Ramon Descarrega Queralt",
+    "Joan Borràs Balada"
+   ]
+  },
+  {
+   "id": "142",
+   "name": "Centro Integral Oncológico Clara Campal",
+   "country": "Spain",
+   "website": "https://www.hmciocc.com/",
+   "membership": "Full Member",
+   "leaders": [
+    "César Gregorio Muñoz Sánchez-Miguel",
+    "Francisco Aldea",
+    "Antonio Cubillo"
+   ]
+  },
+  {
+   "id": "168",
+   "name": "Hospital Universitario 12 de Octubre",
+   "altName": "12 de Octubre University Hospital",
+   "country": "Spain",
+   "website": "https://www.comunidad.madrid/hospital/12octubre/",
+   "membership": "Full Member",
+   "leaders": [
+    "Carmen Martínez de Pancorbo González",
+    "Luis Paz-Ares Rodríguez",
+    "Joaquín Martínez López"
+   ]
+  },
+  {
+   "id": "176",
+   "name": "Hospital Universitario La Paz",
+   "altName": "La Paz University Hospital",
+   "country": "Spain",
+   "website": "https://www.comunidad.madrid/hospital/lapaz/",
+   "membership": "Full Member",
+   "leaders": [
+    "Rafael Pérez-Santamarina",
+    "Javier Cobas Gamallo",
+    "Fernando Martín Sánchez",
+    "Francisco García Rio",
+    "Javier de Castro Carpeño"
+   ]
+  },
+  {
+   "id": "178",
+   "name": "Hospital Universitario Ramón y Cajal",
+   "altName": "Ramon y Cajal University Hospital",
+   "country": "Spain",
+   "website": "https://www.comunidad.madrid/hospital/ramonycajal/",
+   "membership": "Full Member",
+   "leaders": [
+    "Carlos Mingo Rodriguez"
+   ]
+  },
+  {
+   "id": "179",
+   "name": "Hospital Clínico San Carlos",
+   "country": "Spain",
+   "website": "https://www.comunidad.madrid/hospital/clinicosancarlos",
+   "membership": "Full Member",
+   "leaders": [
+    "César Adolfo Gómez Derch",
+    "Antonio Álvarez Blanco",
+    "Pedro Pérez Segura"
+   ]
+  },
+  {
+   "id": "184",
+   "name": "Hospital Clínico Universitario de Valencia (Departamento de Salud Clínico-Malvarrosa)",
+   "country": "Spain",
+   "website": "https://clinicomalvarrosa.san.gva.es/",
+   "membership": "Full Member",
+   "leaders": [
+    "Álvaro Bonet Pla",
+    "Ana Arizón Benito",
+    "Andrés Cervantes Ruipérez"
+   ]
+  },
+  {
+   "id": "185",
+   "name": "Hospital General Universitario Gregorio Marañón",
+   "altName": "Gregorio Marañón University Hospital",
+   "country": "Spain",
+   "website": "https://www.comunidad.madrid/hospital/gregoriomaranon/",
+   "membership": "Full Member",
+   "leaders": [
+    "Sonia García de San José",
+    "Miguel Martín Jiménez",
+    "Ramón García Sanz",
+    "Elena Cela de Julián",
+    "Yolanda Jerez Gilarranz"
+   ]
+  },
+  {
+   "id": "191",
+   "name": "La Princesa University Hospital",
+   "country": "Spain",
+   "website": "https://www.comunidad.madrid/hospital/laprincesa/",
+   "membership": "Full Member",
+   "leaders": [
+    "Jose Julián Díaz Melguizo",
+    "Gloria Maria Torralbo Caballero",
+    "Isidoro González Álvaro"
+   ]
+  },
+  {
+   "id": "186A",
+   "name": "Hospital Universitario Puerta de Hierro Majadahonda",
+   "altName": "University Hospital Puerta de Hierro Majadahonda",
+   "country": "Spain",
+   "website": "https://www.comunidad.madrid/hospital/puertadehierro/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Julio García Pondal",
+    "Miguel Cuchí",
+    "Fernando Neira",
+    "Mariano Provencio"
+   ]
+  },
+  {
+   "id": "200A",
+   "name": "Fundació de Gestió Sanitària de l’Hospital de La Santa Creu i Sant Pau",
+   "altName": "Campus Sant Pau – Puigvert",
+   "country": "Spain",
+   "website": "https://www.santpau.cat/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Adrià Comella Carnicé",
+    "Alfons Torrego Fernàndez",
+    "Jordi Surrallés",
+    "Lluís Gausa Gascón"
+   ]
+  },
+  {
+   "id": "190",
+   "name": "Hospital Universitario Virgen de la Victoria",
+   "country": "Spain",
+   "website": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/hospital/virgen-victoria/",
+   "membership": "Full Member",
+   "leaders": [
+    "Jesús Fernández Galán",
+    "Lourdes Raya Ortega"
+   ]
+  },
+  {
+   "id": "192",
+   "name": "Hospital Universitario y Politécnico La Fe",
+   "country": "Spain",
+   "website": "https://lafe.san.gva.es/es/",
+   "membership": "Full Member",
+   "leaders": [
+    "José Luis Poveda Andrés",
+    "M.Salomé Matoses Jaen",
+    "Eva Victoria Salvo Marco"
+   ]
+  },
+  {
+   "id": "214",
+   "name": "Hospital Universitario Doctor Peset",
+   "altName": "Doctor Peset University Hospital",
+   "country": "Spain",
+   "website": "https://doctorpeset.san.gva.es/es/",
+   "membership": "Full Member",
+   "leaders": [
+    "Luis Ibáñez Gadea",
+    "Gonzalo Sempere Montes",
+    "Marisa Caparrós Redondo",
+    "Cristina Vivas Maiques",
+    "Immaculada Maestu Maiques",
+    "Estíbaliz López Fernández de Villaverde"
+   ]
+  },
+  {
+   "id": "233A",
+   "name": "Asociación Española Contra el Cáncer",
+   "altName": "Spanish Association Against Cancer",
+   "country": "Spain",
+   "website": "https://www.contraelcancer.es/es",
+   "membership": "Associate Member",
+   "leaders": [
+    "Ramón Reyes Bori",
+    "Isabel Orbe"
+   ]
+  },
+  {
+   "id": "16",
+   "name": "Karolinska Comprehensive Cancer Center",
+   "country": "Sweden",
+   "website": "https://ki.se/en/collaboration/healthcare-services/karolinska-comprehensive-cancer-centre",
+   "membership": "Full Member",
+   "leaders": [
+    "Patrik Rossi",
+    "Elias Arnér"
+   ]
+  },
+  {
+   "id": "96",
+   "name": "Skånes Universitetssjukhus",
+   "altName": "Skåne University Hospital Comprehensive Cancer Centre",
+   "country": "Sweden",
+   "website": "http://www.skane.se",
+   "membership": "Full Member",
+   "leaders": [
+    "Pamela Buchwald",
+    "Silke Engelholm",
+    "Josefin Holm",
+    "Bjorn Lovgren-Ekmehag"
+   ]
+  },
+  {
+   "id": "102",
+   "name": "Uppsala University Hospital",
+   "country": "Sweden",
+   "website": "http://www.akademiska.se/en/",
+   "membership": "Full Member",
+   "leaders": [
+    "Marianne van Rooijen"
+   ]
+  },
+  {
+   "id": "121",
+   "name": "Sahlgrenska University Hospital",
+   "country": "Sweden",
+   "website": "http://www.sahlgrenska.se/",
+   "membership": "Full Member",
+   "leaders": [
+    "Erik Johnsson"
+   ]
+  },
+  {
+   "id": "141",
+   "name": "Linköping Comprehensive Cancer Center",
+   "country": "Sweden",
+   "website": "https://www.regionostergotland.se/",
+   "membership": "Full Member",
+   "leaders": [
+    "Karl Landergren",
+    "Mats Ulfendahl",
+    "Ninnie Borendal Wodlin"
+   ]
+  },
+  {
+   "id": "196",
+   "name": "University Hospital of Örebro",
+   "altName": "Örebro Comprehensive Cancer Centre",
+   "country": "Sweden",
+   "website": "https://www.regionorebrolan.se/",
+   "membership": "Full Member",
+   "leaders": [
+    "Jonas Claesson",
+    "Mats G. Karlsson"
+   ]
+  },
+  {
+   "id": "136A",
+   "name": "Norrlands Universitetssjukhus",
+   "altName": "University Hospital of Umeå",
+   "country": "Sweden",
+   "website": "https://www.regionvasterbotten.se",
+   "membership": "Associate Member",
+   "leaders": [
+    "Pia Näsvall",
+    "Magnus Hedström",
+    "Lotta Edvinsson"
+   ]
+  },
+  {
+   "id": "16b",
+   "name": "Stockholm Gotland Comprehensive Cancer Network – SGCCN",
+   "country": "Sweden",
+   "website": "https://cancercentrum.se/omrcc/kontaktochorganisation/rccstockholmgotland.1334.html",
+   "membership": "Linked Institution",
+   "leaders": []
+  },
+  {
+   "id": "217",
+   "name": "Capio St Görans Sjukhus",
+   "altName": "Capio Saint Göran's Hospital",
+   "country": "Sweden",
+   "membership": "Full Member",
+   "leaders": [
+    "Gustaf Storm",
+    "Lars Rune",
+    "Erika Isaksson Friman"
+   ]
+  },
+  {
+   "id": "206A",
+   "name": "Nätverket mot cancer",
+   "altName": "Swedish Network Against Cancer (NMC)",
+   "country": "Sweden",
+   "website": "https://www.natverketmotcancer.se/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Margareta Haag",
+    "Marianne Olsson"
+   ]
+  },
+  {
+   "id": "116A",
+   "name": "Comprehensive Cancer Center Zurich (CCCZ)",
+   "country": "Switzerland",
+   "website": "https://www.usz.ch/cccz",
+   "membership": "Associate Member",
+   "leaders": [
+    "Markus G. Manz",
+    "Andreas Wicki",
+    "Alexandre Theocharides",
+    "Anne Müller",
+    "Holger Moch",
+    "Matthias Guckenberger",
+    "Bernd Bodenmiller",
+    "Michael Krauthammer"
+   ]
+  },
+  {
+   "id": "226A",
+   "name": "Universitätsspital Basel",
+   "altName": "University Hospital Basel",
+   "country": "Switzerland",
+   "website": "https://www.unispital-basel.ch/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Daniel Staub",
+    "Dieter Köberle"
+   ]
+  },
+  {
+   "id": "125A",
+   "name": "The Aga Khan Hospital, Dar es Salaam",
+   "country": "Tanzania",
+   "website": "https://www.akdn.org/our-agencies/aga-khan-health-services",
+   "membership": "Associate Member",
+   "leaders": [
+    "Sulaiman Shahabuddin",
+    "Sisawo Konteh",
+    "Ahmed Jusabani",
+    "Aika Mongi"
+   ]
+  },
+  {
+   "id": "74b",
+   "name": "OncoZON Cancer Network",
+   "country": "The Netherlands",
+   "website": "https://www.mumc.nl/",
+   "membership": "Linked Institution",
+   "leaders": [
+    "R.R.W.J. van der Hulst"
+   ]
+  },
+  {
+   "id": "1",
+   "name": "Netherlands Cancer Institute",
+   "country": "The Netherlands",
+   "website": "http://www.nki.nl",
+   "membership": "Full Member",
+   "leaders": [
+    "Maurice van den Bosch",
+    "Jacqueline M.L. Stouthard"
+   ]
+  },
+  {
+   "id": "49",
+   "name": "Erasmus MC Cancer Institute",
+   "altName": "Erasmus MC Kanker Instituut",
+   "country": "The Netherlands",
+   "website": "https://www.erasmusmc.nl/en/cancer-institute/patient-care",
+   "membership": "Full Member",
+   "leaders": [
+    "H.M.W. Verheul"
+   ]
+  },
+  {
+   "id": "74",
+   "name": "Maastricht University Medical Centre +",
+   "altName": "Comprehensive Cancer Centre GROW, School for Oncology and & Reproduction",
+   "country": "The Netherlands",
+   "website": "https://www.mumc.nl",
+   "membership": "Full Member",
+   "leaders": [
+    "R.R.W.J. van der Hulst",
+    "Manon van Engeland"
+   ]
+  },
+  {
+   "id": "103",
+   "name": "University Medical Center Groningen Comprehensive Cancer Center (UMCG-CCC)",
+   "country": "The Netherlands",
+   "website": "http://www.umcg.nl",
+   "membership": "Full Member",
+   "leaders": [
+    "Lukas B. Been",
+    "Marcel A.T.M. van Vugt"
+   ]
+  },
+  {
+   "id": "93",
+   "name": "Rijnstate",
+   "country": "The Netherlands",
+   "website": "http://www.rijnstate.nl",
+   "membership": "Full Member",
+   "leaders": [
+    "Rosaline den Blanken",
+    "H.J. Schoo"
+   ]
+  },
+  {
+   "id": "85",
+   "name": "Radboudumc Centrum voor Oncologie",
+   "altName": "Radboudumc Centre for Oncology",
+   "country": "The Netherlands",
+   "website": "http://www.radboudumc.nl",
+   "membership": "Full Member",
+   "leaders": [
+    "Haiko Bloemendal",
+    "Jan Smit"
+   ]
+  },
+  {
+   "id": "66",
+   "name": "IKNL Integraal Kankercentrum Nederland",
+   "altName": "Netherlands Comprehensive Cancer Organisation",
+   "country": "The Netherlands",
+   "website": "http://www.iknl.nl",
+   "membership": "Full Member",
+   "leaders": [
+    "Ernst J. Kuipers",
+    "Bente E. Jorritsma",
+    "Suzanne Verboort"
+   ]
+  },
+  {
+   "id": "98A",
+   "name": "Anadolu Sağlık Merkezi",
+   "altName": "Anadolu Medical Center",
+   "country": "Turkey",
+   "website": "http://www.anadolusaglik.org",
+   "membership": "Associate Member",
+   "leaders": [
+    "Timur Atsuren",
+    "Kenan Keklikci"
+   ]
+  },
+  {
+   "id": "30A",
+   "name": "Dokuz Eylül Üniversitesi Onkoloji Enstitüsü",
+   "altName": "Dokuz Eylul University Instıtute of Oncology",
+   "country": "Turkey",
+   "website": "https://onkoloji.deu.edu.tr/tr/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Refik Emre Çeçen",
+    "Ilhan Oztop",
+    "Zekiye Altun"
+   ]
+  },
+  {
+   "id": "173A",
+   "name": "Türkiye Kanser Enstitüsü - TKE",
+   "altName": "Türkiye Cancer Institute-TKE",
+   "country": "Turkey",
+   "website": "https://www.tuseb.gov.tr/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Burak Civelek"
+   ]
+  },
+  {
+   "id": "38A",
+   "name": "RE Kavetsky Institute of Experimental Pathology, Oncology and Radiobiology of National Academy of Sciences of Ukraine (IEPOR)",
+   "country": "Ukraine",
+   "website": "https://www.iepor.site/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Vasyl F. Chekhun"
+   ]
+  },
+  {
+   "id": "182A",
+   "name": "National Cancer Institute",
+   "country": "Ukraine",
+   "website": "https://unci.org.ua/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Olena Yefimenko",
+    "Yurii Kondratskyi",
+    "Andrii Lukashenko"
+   ]
+  },
+  {
+   "id": "52A",
+   "name": "The Christie NHS Foundation Trust",
+   "country": "United Kingdom",
+   "website": "http://www.christie.nhs.uk",
+   "membership": "Associate Member",
+   "leaders": [
+    "Rob Bristow",
+    "Fiona Blackhall"
+   ]
+  },
+  {
+   "id": "64A",
+   "name": "Cancer Research UK Cambridge Centre",
+   "country": "United Kingdom",
+   "website": "https://crukcambridgecentre.org.uk/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Hugo Ford",
+    "Grant Stewart"
+   ]
+  },
+  {
+   "id": "201A",
+   "name": "Velindre Cancer Service - part of Velindre University NHS Trust",
+   "altName": "Gwasanaeth Canser Felindre - rhan o Ymddiriedolaeth GIG Prifysgol Felindre",
+   "country": "United Kingdom",
+   "website": "https://velindre.nhs.wales/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Jacinta Abraham",
+    "Emma James"
+   ]
+  },
+  {
+   "id": "123A",
+   "name": "Bệnh viện K",
+   "altName": "Viet Nam National Cancer Hospital",
+   "country": "Viet Nam",
+   "website": "http://benhvienk.vn/",
+   "membership": "Associate Member",
+   "leaders": [
+    "Quang Le Van"
+   ]
+  }
+ ]
+}

@@ -4,11 +4,15 @@ import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { KIND_META, KINDS } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
+import { completeness, headline } from "@/lib/completeness";
+import { CompletenessTable } from "@/components/CompletenessTable";
 
 export const metadata: Metadata = pageMeta({ title: "About & methodology", description: "What OnCo is, how it is built, its rules for facts, and how to contribute.", path: "/about/" });
 
 export default function About() {
   const g = graph();
+  const cov = completeness();
+  const h = headline(cov);
   return (
     <>
       <PageHeader kicker={<GroupKicker id="learn" />} title="About OnCo" lede="A public, cited, editable map of oncology. Built so that a patient, a scientist, an investor, or a policymaker can walk in and see the current state of the art, the history, and what is coming, for any cancer, and follow the links between them." />
@@ -17,6 +21,11 @@ export default function About() {
           <h2 className="text-xl font-semibold mb-2">What it is</h2>
           <p>OnCo is a knowledge graph of {g.entities.length.toLocaleString("en-GB")} objects across {KINDS.filter((k) => g.kind(k).length > 0).length} kinds: {KINDS.filter((k) => g.kind(k).length > 0).map((k) => `${g.kind(k).length.toLocaleString("en-GB")} ${KIND_META[k].plural}`).join(", ")}. Every object has its own page, a plain-English TL;DR, a technical summary, an internal last-checked date, links out to Wikipedia and primary sources, and a list of everything in the graph that connects to it. Relationships are declared once and backlinks are derived, so the graph is always consistent.</p>
           <p>The first fully built example is <Link href="/cancers/tnbc/">triple-negative breast cancer</Link>, chosen because it went from the subtype with no targeted therapy to one with immunotherapy, PARP inhibitors, three ADCs, and a positive bispecific ADC within six years. Other cancers have state-of-the-art, standard-of-care, history, and pipeline sections at varying depth.</p>
+        </section>
+        <section id="completeness" className="scroll-mt-24">
+          <h2 className="text-xl font-semibold mb-2">Completeness: how much of the world is here</h2>
+          <p>Counts alone say nothing about coverage. Each row below sets an OnCo count against a sourced count of what exists on the same scope: products against the NCI list of FDA-approved cancer drugs, institutions against the NCI-designated centres and OECI members, journals against the MEDLINE oncology set, key papers against the 100 most-cited oncology works. Across the {cov.filter((c) => c.listed).length} scopes with a public list OnCo holds {h.ours.toLocaleString("en-GB")} of {h.total.toLocaleString("en-GB")} listed items ({h.pct}%). The <Link href="/completeness/">completeness page</Link> names every missing item with an add-this link; the denominators, their sources and the date each was checked live in <code>src/data/universe.ts</code> and are refreshed weekly.</p>
+          <div className="not-prose text-sm"><CompletenessTable rows={cov} compact /></div>
         </section>
         <section>
           <h2 className="text-xl font-semibold mb-2">The rules for facts</h2>

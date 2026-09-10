@@ -1,0 +1,484 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "FDA Oncology Center of Excellence: approval notifications",
+  "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+ },
+ "method": "Sponsor named in brackets in each FDA OCE oncology approval notification on the current page, grouped after removing corporate suffixes. Covers the notifications the page still lists (see window), so it is a floor for 'companies with a recent FDA oncology approval'.",
+ "total": 78,
+ "notifications": 194,
+ "window": {
+  "from": "2023-01-19",
+  "to": "2026-09-09"
+ },
+ "items": [
+  {
+   "name": "Merck",
+   "approvals": 16,
+   "first": "2023-10-16",
+   "last": "2026-07-10"
+  },
+  {
+   "name": "Janssen Biotech, Inc.",
+   "approvals": 13,
+   "first": "2023-08-09",
+   "last": "2026-03-05"
+  },
+  {
+   "name": "Bristol-Myers Squibb Company",
+   "approvals": 10,
+   "first": "2023-10-13",
+   "last": "2026-08-13"
+  },
+  {
+   "name": "AstraZeneca",
+   "approvals": 9,
+   "first": "2024-08-15",
+   "last": "2026-09-04"
+  },
+  {
+   "name": "Genentech, Inc.",
+   "approvals": 8,
+   "first": "2023-04-19",
+   "last": "2026-05-15"
+  },
+  {
+   "name": "Daiichi Sankyo, Inc.",
+   "approvals": 7,
+   "first": "2023-07-20",
+   "last": "2026-05-22"
+  },
+  {
+   "name": "Eli Lilly and Company",
+   "approvals": 7,
+   "first": "2023-12-01",
+   "last": "2026-07-14"
+  },
+  {
+   "name": "AstraZeneca Pharmaceuticals LP",
+   "approvals": 6,
+   "first": "2023-05-31",
+   "last": "2025-11-19"
+  },
+  {
+   "name": "Pfizer Inc.",
+   "approvals": 5,
+   "first": "2023-06-20",
+   "last": "2026-06-24"
+  },
+  {
+   "name": "Amgen Inc.",
+   "approvals": 4,
+   "first": "2024-05-16",
+   "last": "2025-11-19"
+  },
+  {
+   "name": "Incyte Corporation",
+   "approvals": 4,
+   "first": "2023-03-22",
+   "last": "2025-06-18"
+  },
+  {
+   "name": "Jazz Pharmaceuticals",
+   "approvals": 4,
+   "first": "2024-11-20",
+   "last": "2026-08-25"
+  },
+  {
+   "name": "Astellas Pharma US, Inc.",
+   "approvals": 3,
+   "first": "2023-04-03",
+   "last": "2024-10-18"
+  },
+  {
+   "name": "Genmab US, Inc.",
+   "approvals": 3,
+   "first": "2023-05-19",
+   "last": "2025-11-18"
+  },
+  {
+   "name": "AbbVie, Inc.",
+   "approvals": 2,
+   "first": "2025-05-14",
+   "last": "2026-05-27"
+  },
+  {
+   "name": "Array BioPharma Inc., a subsidiary of Pfizer Inc.",
+   "approvals": 2,
+   "first": "2024-12-20",
+   "last": "2026-02-24"
+  },
+  {
+   "name": "Bayer Healthcare Pharmaceuticals Inc.",
+   "approvals": 2,
+   "first": "2025-11-19",
+   "last": "2026-09-09"
+  },
+  {
+   "name": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+   "approvals": 2,
+   "first": "2025-08-08",
+   "last": "2026-02-26"
+  },
+  {
+   "name": "GlaxoSmithKline",
+   "approvals": 2,
+   "first": "2023-07-31",
+   "last": "2025-10-23"
+  },
+  {
+   "name": "Juno Therapeutics, Inc.",
+   "approvals": 2,
+   "first": "2024-05-15",
+   "last": "2024-05-30"
+  },
+  {
+   "name": "Novartis AG",
+   "approvals": 2,
+   "first": "2023-03-16",
+   "last": "2024-10-29"
+  },
+  {
+   "name": "Novartis Pharmaceuticals Corporation",
+   "approvals": 2,
+   "first": "2024-09-17",
+   "last": "2026-07-31"
+  },
+  {
+   "name": "Regeneron Pharmaceuticals Inc.",
+   "approvals": 2,
+   "first": "2025-07-02",
+   "last": "2025-10-08"
+  },
+  {
+   "name": "Sanofi-Aventis U.S. LLC",
+   "approvals": 2,
+   "first": "2024-09-20",
+   "last": "2026-07-09"
+  },
+  {
+   "name": "Servier Pharmaceuticals LLC",
+   "approvals": 2,
+   "first": "2023-10-24",
+   "last": "2024-08-06"
+  },
+  {
+   "name": "SpringWorks Therapeutics, Inc.",
+   "approvals": 2,
+   "first": "2023-11-27",
+   "last": "2025-02-11"
+  },
+  {
+   "name": "Syndax Pharmaceuticals, Inc.",
+   "approvals": 2,
+   "first": "2024-11-15",
+   "last": "2025-10-24"
+  },
+  {
+   "name": "Taiho Oncology, Inc.",
+   "approvals": 2,
+   "first": "2023-08-02",
+   "last": "2026-05-13"
+  },
+  {
+   "name": "Adaptimmune, LLC",
+   "approvals": 1,
+   "first": "2024-08-02",
+   "last": "2024-08-02"
+  },
+  {
+   "name": "Advanced Accelerator Applications USA, Inc., a Novartis company",
+   "approvals": 1,
+   "first": "2024-04-23",
+   "last": "2024-04-23"
+  },
+  {
+   "name": "Akeso Biopharma Co., Ltd.",
+   "approvals": 1,
+   "first": "2025-04-23",
+   "last": "2025-04-23"
+  },
+  {
+   "name": "Altor BioScience, LLC",
+   "approvals": 1,
+   "first": "2024-04-22",
+   "last": "2024-04-22"
+  },
+  {
+   "name": "Array BioPharma Inc., a wholly owned subsidiary of Pfizer",
+   "approvals": 1,
+   "first": "2023-10-11",
+   "last": "2023-10-11"
+  },
+  {
+   "name": "Arvinas Operations, Inc.",
+   "approvals": 1,
+   "first": "2026-05-01",
+   "last": "2026-05-01"
+  },
+  {
+   "name": "AstraZeneca UK Limited",
+   "approvals": 1,
+   "first": "2024-06-14",
+   "last": "2024-06-14"
+  },
+  {
+   "name": "Autolus Inc.",
+   "approvals": 1,
+   "first": "2024-11-08",
+   "last": "2024-11-08"
+  },
+  {
+   "name": "BeiGene USA, Inc.",
+   "approvals": 1,
+   "first": "2024-03-07",
+   "last": "2024-03-07"
+  },
+  {
+   "name": "BeOne Medicines USA, Inc.",
+   "approvals": 1,
+   "first": "2026-05-13",
+   "last": "2026-05-13"
+  },
+  {
+   "name": "Celcuity Inc.",
+   "approvals": 1,
+   "first": "2026-07-14",
+   "last": "2026-07-14"
+  },
+  {
+   "name": "Checkpoint Therapeutics, Inc.",
+   "approvals": 1,
+   "first": "2024-12-13",
+   "last": "2024-12-13"
+  },
+  {
+   "name": "Coherus BioSciences, Inc.",
+   "approvals": 1,
+   "first": "2023-10-27",
+   "last": "2023-10-27"
+  },
+  {
+   "name": "Corcept Therapeutics Inc.",
+   "approvals": 1,
+   "first": "2026-03-25",
+   "last": "2026-03-25"
+  },
+  {
+   "name": "Day One Biopharmaceuticals, Inc.",
+   "approvals": 1,
+   "first": "2024-04-23",
+   "last": "2024-04-23"
+  },
+  {
+   "name": "Deciphera Pharmaceuticals, LLC",
+   "approvals": 1,
+   "first": "2025-02-14",
+   "last": "2025-02-14"
+  },
+  {
+   "name": "Dizal (Jiangsu) Pharmaceutical Co., Ltd.",
+   "approvals": 1,
+   "first": "2025-07-02",
+   "last": "2025-07-02"
+  },
+  {
+   "name": "EMD Serono, Inc.",
+   "approvals": 1,
+   "first": "2024-02-15",
+   "last": "2024-02-15"
+  },
+  {
+   "name": "Exelixis, Inc.",
+   "approvals": 1,
+   "first": "2025-03-26",
+   "last": "2025-03-26"
+  },
+  {
+   "name": "Gamida Cell Ltd.",
+   "approvals": 1,
+   "first": "2023-04-17",
+   "last": "2023-04-17"
+  },
+  {
+   "name": "Geron Corporation",
+   "approvals": 1,
+   "first": "2024-06-06",
+   "last": "2024-06-06"
+  },
+  {
+   "name": "Gilead Sciences, Inc.",
+   "approvals": 1,
+   "first": "2026-06-24",
+   "last": "2026-06-24"
+  },
+  {
+   "name": "GSK",
+   "approvals": 1,
+   "first": "2024-08-01",
+   "last": "2024-08-01"
+  },
+  {
+   "name": "ImmunoGen, Inc. [now a part of AbbVie]",
+   "approvals": 1,
+   "first": "2024-03-22",
+   "last": "2024-03-22"
+  },
+  {
+   "name": "Iovance Biotherapeutics, Inc.",
+   "approvals": 1,
+   "first": "2024-02-16",
+   "last": "2024-02-16"
+  },
+  {
+   "name": "Ipsen Biopharmaceuticals, Inc.",
+   "approvals": 1,
+   "first": "2024-02-13",
+   "last": "2024-02-13"
+  },
+  {
+   "name": "Janssen Research & Development, LLC",
+   "approvals": 1,
+   "first": "2024-07-30",
+   "last": "2024-07-30"
+  },
+  {
+   "name": "Juno Therapeutics, Inc., a Bristol-Myers Squibb Company",
+   "approvals": 1,
+   "first": "2025-12-04",
+   "last": "2025-12-04"
+  },
+  {
+   "name": "Kura Oncology, Inc.",
+   "approvals": 1,
+   "first": "2025-11-13",
+   "last": "2025-11-13"
+  },
+  {
+   "name": "medac GmbH",
+   "approvals": 1,
+   "first": "2025-01-21",
+   "last": "2025-01-21"
+  },
+  {
+   "name": "melphalan for Injection/Hepatic Delivery System",
+   "approvals": 1,
+   "first": "2023-08-14",
+   "last": "2023-08-14"
+  },
+  {
+   "name": "Merus N.V.",
+   "approvals": 1,
+   "first": "2024-12-04",
+   "last": "2024-12-04"
+  },
+  {
+   "name": "Mesoblast, Inc.",
+   "approvals": 1,
+   "first": "2024-12-18",
+   "last": "2024-12-18"
+  },
+  {
+   "name": "Mirati Therapeutics, Inc.",
+   "approvals": 1,
+   "first": "2024-06-21",
+   "last": "2024-06-21"
+  },
+  {
+   "name": "Nuvalent, Inc.",
+   "approvals": 1,
+   "first": "2026-07-22",
+   "last": "2026-07-22"
+  },
+  {
+   "name": "Nuvation Bio Inc.",
+   "approvals": 1,
+   "first": "2025-06-11",
+   "last": "2025-06-11"
+  },
+  {
+   "name": "Partner Therapeutics, Inc.",
+   "approvals": 1,
+   "first": "2026-05-08",
+   "last": "2026-05-08"
+  },
+  {
+   "name": "pharmaand GmbH",
+   "approvals": 1,
+   "first": "2025-12-17",
+   "last": "2025-12-17"
+  },
+  {
+   "name": "Replimune, Inc.",
+   "approvals": 1,
+   "first": "2026-08-06",
+   "last": "2026-08-06"
+  },
+  {
+   "name": "Revolution Medicines, Inc.",
+   "approvals": 1,
+   "first": "2026-08-26",
+   "last": "2026-08-26"
+  },
+  {
+   "name": "Sandoz",
+   "approvals": 1,
+   "first": "2024-11-19",
+   "last": "2024-11-19"
+  },
+  {
+   "name": "Seagen Inc. [now a part of Pfizer Inc.]",
+   "approvals": 1,
+   "first": "2024-04-29",
+   "last": "2024-04-29"
+  },
+  {
+   "name": "Seagen Inc., a subsidiary of Pfizer",
+   "approvals": 1,
+   "first": "2025-02-11",
+   "last": "2025-02-11"
+  },
+  {
+   "name": "Shanghai Henlius Biologics Co. Ltd.",
+   "approvals": 1,
+   "first": "2025-11-13",
+   "last": "2025-11-13"
+  },
+  {
+   "name": "Takeda Pharmaceuticals U.S.A., Inc.",
+   "approvals": 1,
+   "first": "2024-03-19",
+   "last": "2024-03-19"
+  },
+  {
+   "name": "Takeda Pharmaceuticals, Inc.",
+   "approvals": 1,
+   "first": "2023-11-08",
+   "last": "2023-11-08"
+  },
+  {
+   "name": "UroGen Pharma",
+   "approvals": 1,
+   "first": "2025-06-12",
+   "last": "2025-06-12"
+  },
+  {
+   "name": "USWM, LLC",
+   "approvals": 1,
+   "first": "2023-12-13",
+   "last": "2023-12-13"
+  },
+  {
+   "name": "Verastem, Inc.",
+   "approvals": 1,
+   "first": "2025-05-08",
+   "last": "2025-05-08"
+  },
+  {
+   "name": "Xcovery Holdings, Inc.",
+   "approvals": 1,
+   "first": "2024-12-18",
+   "last": "2024-12-18"
+  }
+ ]
+}

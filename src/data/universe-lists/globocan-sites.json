@@ -1,0 +1,191 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "IARC Global Cancer Observatory: GLOBOCAN 2022",
+  "url": "https://gco.iarc.who.int/today"
+ },
+ "method": "The 36 cancer sites GLOBOCAN 2022 estimates (codes 1 to 36 from the GCO metadata API; the aggregate codes 37 to 41 are excluded).",
+ "total": 36,
+ "items": [
+  {
+   "code": 1,
+   "label": "Lip, oral cavity",
+   "icd": "C00-06"
+  },
+  {
+   "code": 2,
+   "label": "Salivary glands",
+   "icd": "C07-08"
+  },
+  {
+   "code": 3,
+   "label": "Oropharynx",
+   "icd": "C09-10"
+  },
+  {
+   "code": 4,
+   "label": "Nasopharynx",
+   "icd": "C11"
+  },
+  {
+   "code": 5,
+   "label": "Hypopharynx",
+   "icd": "C12-13"
+  },
+  {
+   "code": 6,
+   "label": "Oesophagus",
+   "icd": "C15"
+  },
+  {
+   "code": 7,
+   "label": "Stomach",
+   "icd": "C16"
+  },
+  {
+   "code": 8,
+   "label": "Colon",
+   "icd": "C18"
+  },
+  {
+   "code": 9,
+   "label": "Rectum",
+   "icd": "C19-20"
+  },
+  {
+   "code": 10,
+   "label": "Anus",
+   "icd": "C21"
+  },
+  {
+   "code": 11,
+   "label": "Liver and intrahepatic bile ducts",
+   "icd": "C22"
+  },
+  {
+   "code": 12,
+   "label": "Gallbladder",
+   "icd": "C23"
+  },
+  {
+   "code": 13,
+   "label": "Pancreas",
+   "icd": "C25"
+  },
+  {
+   "code": 14,
+   "label": "Larynx",
+   "icd": "C32"
+  },
+  {
+   "code": 15,
+   "label": "Trachea, bronchus and lung",
+   "icd": "C33-34"
+  },
+  {
+   "code": 16,
+   "label": "Melanoma of skin",
+   "icd": "C43"
+  },
+  {
+   "code": 17,
+   "label": "Non-melanoma skin cancer",
+   "icd": "C44"
+  },
+  {
+   "code": 18,
+   "label": "Mesothelioma",
+   "icd": "C45"
+  },
+  {
+   "code": 19,
+   "label": "Kaposi sarcoma",
+   "icd": "C46"
+  },
+  {
+   "code": 20,
+   "label": "Breast",
+   "icd": "C50"
+  },
+  {
+   "code": 21,
+   "label": "Vulva",
+   "icd": "C51"
+  },
+  {
+   "code": 22,
+   "label": "Vagina",
+   "icd": "C52"
+  },
+  {
+   "code": 23,
+   "label": "Cervix uteri",
+   "icd": "C53"
+  },
+  {
+   "code": 24,
+   "label": "Corpus uteri",
+   "icd": "C54"
+  },
+  {
+   "code": 25,
+   "label": "Ovary",
+   "icd": "C56"
+  },
+  {
+   "code": 26,
+   "label": "Penis",
+   "icd": "C60"
+  },
+  {
+   "code": 27,
+   "label": "Prostate",
+   "icd": "C61"
+  },
+  {
+   "code": 28,
+   "label": "Testis",
+   "icd": "C62"
+  },
+  {
+   "code": 29,
+   "label": "Kidney",
+   "icd": "C64"
+  },
+  {
+   "code": 30,
+   "label": "Bladder",
+   "icd": "C67"
+  },
+  {
+   "code": 31,
+   "label": "Brain, central nervous system",
+   "icd": "C70-72"
+  },
+  {
+   "code": 32,
+   "label": "Thyroid",
+   "icd": "C73"
+  },
+  {
+   "code": 33,
+   "label": "Hodgkin lymphoma",
+   "icd": "C81"
+  },
+  {
+   "code": 34,
+   "label": "Non-Hodgkin lymphoma",
+   "icd": "C82-86+C88"
+  },
+  {
+   "code": 35,
+   "label": "Multiple myeloma",
+   "icd": "C90"
+  },
+  {
+   "code": 36,
+   "label": "Leukaemia",
+   "icd": "C91-95"
+  }
+ ]
+}

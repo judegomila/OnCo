@@ -234,7 +234,7 @@ export const METRIC_DEFS: MetricDef[] = [
   {
     id: "simple", label: "Records with a simple explanation",
     plain: "The 'simple' reading layer (about a 12-year-old reading age) needs its own text on every record.",
-    action: "Add a sentence for this id in data/simple/part-b.ts.",
+    action: "Add a sentence for this id in the next data/simple/part-*.ts file (see src/data/simple.ts for the registered parts).",
     target: 80,
     check: (g) => fails(g.entities, (e) => (e.simple || simple[e.id] ? null : "no simple text")),
   },

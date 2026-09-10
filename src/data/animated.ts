@@ -483,6 +483,7 @@ export const MODALITY_SCHEMATICS: Array<[RegExp, string]> = [
   [/vaccine|virus-like/, "shared-antigen-vaccine"],
   [/alpha therapy|actinium|lead-212|radium|thorium|astatine/, "targeted-alpha-therapy"],
   [/radioligand|radiopharmaceutical \(beta|theranostic|lutetium|iodine-131|radioimmuno|beta\/gamma emitter/, "radioligand-therapy"],
+  [/\bai\b.*\bsoftware\b|software as a medical device/, "front:ai-computation"],
   [/fluorescence-guided surgery/, "front:surgery"],
   [/\bpet\b|radiotracer|imaging agent|lymphatic mapping|fluorescen|near-infrared|contrast agent/, "front:imaging"],
   [/early detection|screening test|multi-cancer|\bmced\b/, "front:early-detection"],

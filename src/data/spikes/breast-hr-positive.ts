@@ -311,7 +311,7 @@ const drugs: DrugInput[] = [
     summary: "MammaPrint is Agendia's 70-gene signature. MINDACT (n=6,693): women with high clinical but low genomic risk had 5-year distant metastasis-free survival of 94.7% without chemotherapy; 8-year update showed a small benefit of chemotherapy in women under 50. FDA-cleared (2007), NCCN-listed alongside Oncotype DX; BluePrint adds molecular subtyping. Also used to identify 'ultralow' risk tumours with indolent behaviour.",
     mechanism: "Microarray or NGS expression of 70 genes → dichotomous low/high risk.",
     approvals: [{ region: "US", year: 2007, indication: "FDA 510(k) clearance for recurrence risk in early breast cancer" }],
-    technologies: ["rna-seq", "companion-diagnostic"], cancers: ["breast-hr-positive"], trials: ["tailorx"] }),
+    technologies: ["rna-seq", "companion-diagnostic"], cancers: ["breast-hr-positive"], trials: ["mindact", "tailorx"] }),
 ];
 
 // ======================= TERMS =======================

@@ -795,7 +795,8 @@ const baseDrugs: DrugInput[] = [
     tldr: "A 21-gene test that tells most women with early hormone-positive breast cancer whether they can safely skip chemotherapy.",
     summary: "TAILORx (2018): women with recurrence score ≤25 (and >50 years) derive no chemotherapy benefit. RxPONDER extended this to 1-3 positive nodes in postmenopausal women. Exact Sciences. MammaPrint (Agendia) and Prosigna/PAM50 are alternatives.",
     mechanism: "RT-PCR of 16 cancer and 5 reference genes into a recurrence score.",
-    technologies: ["rna-seq", "companion-diagnostic"], companies: ["exact-sciences"], cancers: ["breast-hr-positive"],
+    technologies: ["rna-seq", "companion-diagnostic"], companies: ["exact-sciences"], cancers: ["breast-hr-positive"], trials: ["tailorx", "rxponder"], related: ["mammaprint", "prosigna", "endopredict"],
+    links: [{ label: "TAILORx (NEJM 2018)", url: "https://doi.org/10.1056/NEJMoa1804710" }, { label: "NICE DG34: tumour profiling tests for breast cancer", url: "https://www.nice.org.uk/guidance/dg34" }],
   },
   {
     id: "artera-ai-prostate", kind: "drug", name: "ArteraAI Prostate", modality: "AI digital pathology prognostic/predictive test", asOf, status: "approved",

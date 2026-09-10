@@ -131,4 +131,12 @@ export const navFr: NavDict = {
   "/api/": ["API ouverte", "Le corpus en JSON."],
   "/data-sources/": ["Données ouvertes", "Chaque base ouverte d'où OnCo puise, avec licences et cadence, et celles que nous pourrions ajouter."],
   "https://github.com/judegomila/OnCo": ["GitHub", "Code et données. Proposez des changements via les formulaires de tickets."],
+  "/coverage/rankings/": ["Quelles assurances couvrent le mieux le cancer", "Assureurs et types de contrats américains classés selon une métrique publiée à la fois, la prise en charge du NHS face à l'assurance privée au Royaume-Uni, et comment neuf pays paient les médicaments anticancéreux."],
+  "/costs/": ["Faire baisser le coût des soins du cancer", "Chaque facteur de coût associé à ce qui est fait et aux idées qui pourraient faire plus : biosimilaires, négociation, optimisation des doses, cures plus courtes, parité, autorisation préalable."],
+  "/countries/in/": ["L'Inde en détail", "Ce que fait l'Inde : profil du cancer, financement des soins, la CDSCO, institutions, entreprises, essais et personnes."],
+  "/countries/cn/": ["La Chine en détail", "Ce que fait la Chine : profil du cancer, la NMPA, la liste de l'assurance nationale, institutions, entreprises, essais et personnes."],
+  "/live/complementary/": ["Approches complémentaires et de soutien", "Acupuncture, méditation, yoga, plantes, régimes, cannabis, casques réfrigérants et plus : ce que montrent les essais, évalué honnêtement, et ce qu'il faut éviter ou ne jamais utiliser à la place du traitement."],
+  "/live/hair/": ["Perte de cheveux : prévention et repousse", "Casque réfrigérant et protocoles adaptés, minoxidil pour l'affinement durable, sourcils et cils, perruques via le NHS et sur ordonnance aux États-Unis, quels médicaments en sont responsables et quand les cheveux repoussent."],
+  "/completeness/": ["Complétude", "Quelle part de ce qui existe se trouve dans OnCo : chaque type comparé à un décompte mondial sourcé, avec les éléments manquants nommés."],
+  "/open-tools/": ["Outils ouverts", "Visionneuses, planificateurs, pipelines et matériel open source à utiliser ou sur lesquels bâtir, par front, issus de l'Open Medical Registry."],
 };

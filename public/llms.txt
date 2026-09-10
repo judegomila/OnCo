@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY-NC 4.0; attribute "OnCo (onco.cc)".
 
-5,237 records in 18 kinds: 100 cancers, 19 fronts, 411 technologies, 92 targets, 417 drugs, 308 companies, 517 institutions, 86 pathways, 605 terms, 420 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 687 people, 45 bottlenecks, 148 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
+5,882 records in 18 kinds: 100 cancers, 19 fronts, 411 technologies, 99 targets, 530 drugs, 367 companies, 557 institutions, 86 pathways, 605 terms, 451 trials, 85 pairings, 13 roadmaps, 1,136 ideas, 110 collections, 1,044 people, 45 bottlenecks, 157 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
 
 ## Machine-readable corpus
 
@@ -110,6 +110,8 @@
 - [Regulatory timeline](https://onco.cc/regulatory/): Every dated filing, approval, CRL, and label change.
 - [Paying for care (US)](https://onco.cc/coverage/us/): Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product.
 - [What the NHS offers](https://onco.cc/coverage/uk/): NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.
+- [Which plans cover cancer care best](https://onco.cc/coverage/rankings/): US insurers and plan types ranked by one published metric at a time, UK NHS entitlement against private medical insurance, and how nine countries pay for cancer drugs.
+- [Getting the cost of cancer care down](https://onco.cc/costs/): Each cost driver paired with what is being done and the ideas that could do more: biosimilars, negotiation, dose optimisation, shorter courses, parity, prior authorisation.
 - [HTA decisions](https://onco.cc/hta/): NICE, SMC, G-BA and PBAC verdicts per product and country, with dates and links to the appraisal.
 - [Survival statistics](https://onco.cc/survival/): Five-year relative survival by cancer and stage from SEER, with the period and caveats.
 - [Approvals by region](https://onco.cc/regulatory/regions/): Which products are approved in the US, EU, UK, Japan, China and Australia, and which are missing where.
@@ -137,6 +139,8 @@
 - [Trial sponsors](https://onco.cc/sponsors/): Who runs the most phase 2 and 3 trials, by cancer, from the registry and the corpus.
 - [Manufacturing map](https://onco.cc/manufacturing/): Where ADCs are conjugated, cell therapies made and isotopes produced.
 - [Countries](https://onco.cc/countries/): Who is doing the most cancer research: output, growth, trials, burden, funders.
+- [India deep dive](https://onco.cc/countries/in/): What India is up to: cancer profile, paying for care, CDSCO, institutions, companies, trials and people.
+- [China deep dive](https://onco.cc/countries/cn/): What China is up to: cancer profile, the NMPA, national insurance listing, institutions, companies, trials and people.
 - [Cases by country](https://onco.cc/cases/): New cancer cases per country and per cancer, with the data gaps made explicit.
 - [Funding flows](https://onco.cc/funding/): Where the money comes from.
 
@@ -152,6 +156,9 @@
 - [Financial help](https://onco.cc/assistance/): Manufacturer programmes, reimbursement and generics by country and product, plus national schemes and charities.
 - [Paying for care (US)](https://onco.cc/coverage/us/): Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product.
 - [What the NHS offers](https://onco.cc/coverage/uk/): NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.
+- [Paying for care (India)](https://onco.cc/countries/in/): PM-JAY, Tata Memorial's subsidised care, National Cancer Grid pooled prices and what CDSCO has approved.
+- [Which plans cover cancer care best](https://onco.cc/coverage/rankings/): US insurers and plan types ranked by one published metric at a time, UK NHS entitlement against private medical insurance, and how nine countries pay for cancer drugs.
+- [Getting the cost of cancer care down](https://onco.cc/costs/): Each cost driver paired with what is being done and the ideas that could do more: biosimilars, negotiation, dose optimisation, shorter courses, parity, prior authorisation.
 - [Diet, exercise and lifestyle](https://onco.cc/fronts/nutrition-lifestyle/): What people eat, drink, weigh and do: what the evidence says and what is hype.
 - [Supportive care](https://onco.cc/fronts/supportive-care/): Treating the person, not just the tumour: symptoms, side effects, nutrition, mental health.
 - [Complementary and supportive approaches](https://onco.cc/live/complementary/): Acupuncture, mindfulness, yoga, herbs, diets, cannabis, cold caps and more: what the trials show, graded honestly, and what to avoid or never use instead of treatment.

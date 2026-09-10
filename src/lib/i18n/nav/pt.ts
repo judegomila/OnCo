@@ -131,4 +131,12 @@ export const navPt: NavDict = {
   "/api/": ["API aberta", "O corpus em JSON."],
   "/data-sources/": ["Dados abertos", "Cada base de dados aberta de que o OnCo recolhe, com licenças e cadência, e as que poderíamos acrescentar."],
   "https://github.com/judegomila/OnCo": ["GitHub", "Código e dados. Proponha alterações através dos formulários de issues."],
+  "/coverage/rankings/": ["Que planos cobrem melhor o cancro", "Seguradoras e tipos de plano dos EUA ordenados por uma métrica publicada de cada vez, a cobertura do NHS face ao seguro privado no Reino Unido, e como nove países pagam os medicamentos oncológicos."],
+  "/costs/": ["Baixar o custo dos cuidados oncológicos", "Cada fator de custo a par do que está a ser feito e das ideias que podiam fazer mais: biossimilares, negociação, otimização de dose, ciclos mais curtos, paridade, autorização prévia."],
+  "/countries/in/": ["Índia em profundidade", "O que a Índia está a fazer: perfil do cancro, como se pagam os cuidados, a CDSCO, instituições, empresas, ensaios e pessoas."],
+  "/countries/cn/": ["China em profundidade", "O que a China está a fazer: perfil do cancro, a NMPA, a lista do seguro nacional, instituições, empresas, ensaios e pessoas."],
+  "/live/complementary/": ["Abordagens complementares e de apoio", "Acupuntura, mindfulness, ioga, ervas, dietas, canábis, gorros frios e mais: o que os ensaios mostram, classificado com honestidade, e o que evitar ou nunca usar em vez do tratamento."],
+  "/live/hair/": ["Queda de cabelo: prevenção e recuperação", "Arrefecimento do couro cabeludo e os regimes a que se adequa, minoxidil para o desbaste persistente, sobrancelhas e pestanas, perucas no NHS e por receita nos EUA, que fármacos a causam e quando o cabelo volta."],
+  "/completeness/": ["Completude", "Quanto do que existe está no OnCo: cada tipo face a uma contagem do mundo com fonte, com os itens em falta nomeados."],
+  "/open-tools/": ["Ferramentas abertas", "Visualizadores, planeadores, pipelines e hardware de código aberto que pode usar ou sobre os quais construir, por frente, do Open Medical Registry."],
 };

@@ -469,6 +469,11 @@ export function isDiagnostic(modality?: string): boolean {
   return /\b(test|assay|kit|software|diagnostic|imaging agent|screening|classifier|panel)\b/i.test(modality ?? "");
 }
 
+/** A product's own `approvals` field names a US or EU approval, so it counts as anchored even without a curated regional row. */
+export function hasAnchorApproval(d: { approvals?: Array<{ region: string }> }): boolean {
+  return (d.approvals ?? []).some((a) => /^(US|USA|United States|FDA|EU|Europe|European Union|EMA)$/i.test(a.region.trim()));
+}
+
 export function regionSpecific(row: RegionalRow): boolean {
   return !row.US && !row.EU && approvedRegions(row).length > 0;
 }

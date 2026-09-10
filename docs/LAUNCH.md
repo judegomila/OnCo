@@ -11,13 +11,13 @@ Merge finished worktree agents before the chain; never `cd` into a worktree; nev
 ## Owner asks in flight (agents)
 - [x] Accurate 3D molecules (ball and stick) and protein ribbons (Molecule3D): merged 10 Sept, deploying
 - [x] Complementary approaches with evidence grades; hair-loss page under Living with cancer: merged 10 Sept
-- [ ] Whole-site language switch (chrome dictionary, 8 languages, RTL for Arabic)
+- [x] Whole-site language switch (chrome dictionary, 8 languages, RTL for Arabic): merged 10 Sept; new nav items need entries in src/lib/i18n/nav/*.ts or the i18n test fails
 - [x] Graph explorer redesign (SVG, kind icons, side panel): merged 10 Sept
 - [x] MCP server and CLI (packages/onco-cli, packages/onco-mcp), /api/ section, docs/ACCESS.md: live 10 Sept; owner publishes to npm (name clash with mcp/package.json "onco-mcp" to resolve)
-- [ ] Homepage front schematics quality (renderer depth cues, mesh rework)
+- [x] Homepage front schematics quality (renderer depth cues, mesh rework): merged 10 Sept
 - [x] Completeness denominators per kind (/completeness/, roadmap panel, fetch:universe): merged 10 Sept, 28 denominators, headline 841 of 2,578 listed items
-- [x] India deep dive (institutions, companies, CDSCO region, trials, people, /countries/in/): finished 10 Sept, merge pending
-- [x] China deep dive (/countries/cn/, 20 drugs, 20 companies, 18 trials, 17 people): finished 10 Sept, merge pending
+- [x] India deep dive (institutions, companies, CDSCO region, trials, people, /countries/in/): merged 10 Sept
+- [x] China deep dive (/countries/cn/, 20 drugs, 20 companies, 18 trials, 17 people): merged 10 Sept
 - [ ] Glossary Wikipedia links and aliases; schematics wave 3; KOL people; research leaders batches; summaries chunks; portraits (wired and live 10 Sept, 77 photos)
 
 ## Owner asks not yet started
@@ -65,7 +65,7 @@ tomorrow); whole-site language, MCP and CLI, complementary and hair-loss area, c
 India and China deep dives (1 to 2 days). Then a day of review and polish.
 
 Tier 2, completeness against known lists: 72 NCI centres with directors; every FDA and EMA approved oncology drug
-(agent running from the NCI A to Z list); every institution with at least one person; summaries, plain-language
+(merged 10 Sept: NCI list fully matched, 91 records added); every institution with at least one person; summaries, plain-language
 sentences, glossary Wikipedia links and schematics to 100%; regional approvals for every approved drug across
 US, EU, UK, Japan, China, India. Target: every defined list at 90%+ and most at 100% by 15 September.
 
@@ -79,9 +79,14 @@ Console token, licensing contact email, stray Vercel project, Discussions catego
 Caveats already stated to the owner: a launch review after this much parallel change will find things to fix (plan a
 day); earlier CC BY 4.0 releases cannot be relicensed, CC BY-NC applies from this version onward.
 
+## Merge lessons (10 Sept)
+- Agents working in parallel add the same drug or person; run a duplicate-id scan across src/data before validate and fold the poorer copy into the richer one.
+- Every new nav item needs label and blurb in the eight nav dictionaries.
+- Snapshot files under src/data/universe-lists can collide; keep the completeness envelope names and give other scripts their own file.
+
 ## Queued agent briefs (launch when a slot frees; 20-agent cap)
 - [x] Plain-language sentences for every remaining record (running) (about 140 technologies, 28 targets, 45 bottlenecks, 146 papers, new tests and complementary records) into src/data/simple/part-e.ts; brief drafted 10 Sept, blocked on the 20-agent cap
-- [x] Insurance rankings (/coverage/rankings/: US plans by published metrics, UK PMI, international funding table) and Getting costs down (running) (/costs/ with ideas wave-costs). Brief drafted 10 Sept; owner ask: "build a section for insurance rankings for oncology, coverage, costs ranges and add another section for getting costs down and ideas around that".
+- [x] Insurance rankings (/coverage/rankings/) and Getting costs down (/costs/, 29 ideas): merged 10 Sept (/costs/ with ideas wave-costs). Brief drafted 10 Sept; owner ask: "build a section for insurance rankings for oncology, coverage, costs ranges and add another section for getting costs down and ideas around that".
 - [x] Startups, YC and VC map with investors (running)
-- [x] Donors in the heroes section (running)
+- [x] Donors in the heroes section: merged 10 Sept (41 donors, 15 foundations)
 - [x] Open Medical Registry links per section: merged 10 Sept (133 tools, /open-tools/)

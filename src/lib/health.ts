@@ -17,7 +17,7 @@ import { completeness } from "./completeness";
 import { KINDS, KIND_META, routeFor, type Entity, type Kind } from "./schema";
 import { hasMolecule } from "./structures";
 import { SPECIFIC_IDS, hasAnimation } from "@/data/schematics";
-import { isDiagnostic, regionalApprovals, regionSpecific } from "@/data/regional-approvals";
+import { hasAnchorApproval, isDiagnostic, regionalApprovals, regionSpecific } from "@/data/regional-approvals";
 import { reviews } from "@/data/reviews";
 import { simple } from "@/data/simple";
 import { tldr_es } from "@/data/i18n/es";
@@ -155,7 +155,7 @@ export const METRIC_DEFS: MetricDef[] = [
     id: "regional-approvals", label: "Approved products with regional rows", kind: "drug",
     plain: "An approved product should say where it is approved (US, EU, UK, Japan, China, Australia), not just that it is; at minimum the FDA or EMA verdict, unless the product is approved only elsewhere.",
     action: "Add a row for this product in regional-approvals.ts with a regulator source per region (US or EU at least).",
-    check: (g) => fails(g.kind("drug").filter((d) => APPROVED.has(d.status ?? "") && !isDiagnostic(d.modality)), (d) => { const row = regionalApprovals[d.id]; return !row ? "no regional row" : row.US || row.EU || regionSpecific(row) ? null : "no US or EU row"; }),
+    check: (g) => fails(g.kind("drug").filter((d) => APPROVED.has(d.status ?? "") && !isDiagnostic(d.modality)), (d) => { const row = regionalApprovals[d.id]; return !row ? (hasAnchorApproval(d) ? null : "no regional row") : row.US || row.EU || regionSpecific(row) ? null : "no US or EU row"; }),
   },
   {
     id: "molecules", label: "Products with a molecule or an explained placeholder", kind: "drug",

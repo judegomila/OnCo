@@ -131,4 +131,12 @@ export const navEs: NavDict = {
   "/api/": ["API abierta", "El corpus en JSON."],
   "/data-sources/": ["Datos abiertos", "Cada base de datos abierta de la que OnCo toma datos, con licencias y cadencia, y las que podríamos añadir."],
   "https://github.com/judegomila/OnCo": ["GitHub", "Código y datos. Propón cambios mediante los formularios de incidencias."],
+  "/coverage/rankings/": ["Qué planes cubren mejor el cáncer", "Aseguradoras y tipos de plan de EE. UU. ordenados por una métrica publicada a la vez, la cobertura del NHS frente al seguro privado en el Reino Unido, y cómo pagan los fármacos contra el cáncer nueve países."],
+  "/costs/": ["Bajar el coste de la atención del cáncer", "Cada factor de coste junto a lo que se está haciendo y las ideas que podrían hacer más: biosimilares, negociación, optimización de dosis, tratamientos más cortos, paridad, autorización previa."],
+  "/countries/in/": ["India en profundidad", "Qué hace India: perfil del cáncer, cómo se paga la atención, la CDSCO, instituciones, empresas, ensayos y personas."],
+  "/countries/cn/": ["China en profundidad", "Qué hace China: perfil del cáncer, la NMPA, listado en el seguro nacional, instituciones, empresas, ensayos y personas."],
+  "/live/complementary/": ["Enfoques complementarios y de apoyo", "Acupuntura, mindfulness, yoga, hierbas, dietas, cannabis, gorros fríos y más: qué muestran los ensayos, calificado con honestidad, y qué evitar o nunca usar en lugar del tratamiento."],
+  "/live/hair/": ["Caída del cabello: prevención y recuperación", "Enfriamiento del cuero cabelludo y los regímenes a los que conviene, minoxidil para el adelgazamiento persistente, cejas y pestañas, pelucas en el NHS y con receta en EE. UU., qué fármacos la causan y cuándo vuelve el pelo."],
+  "/completeness/": ["Completitud", "Cuánto de lo que existe está en OnCo: cada tipo frente a un recuento del mundo con fuente, con los elementos que faltan nombrados."],
+  "/open-tools/": ["Herramientas abiertas", "Visores, planificadores, flujos y hardware de código abierto que puedes usar o sobre los que construir, por frente, del Open Medical Registry."],
 };

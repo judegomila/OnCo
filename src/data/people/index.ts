@@ -4,6 +4,7 @@ import { peopleAsiaPacific } from "./asia-pacific";
 import { peopleUsEast } from "./us-east";
 import { peopleUsWest } from "./us-west";
 import { heroes } from "./heroes";
+import { peopleLeadersWave2 } from "./leaders-wave2";
 import { peopleIndia } from "./india";
 import { peopleChina } from "./china";
 import { heroesDonors } from "./heroes-donors";

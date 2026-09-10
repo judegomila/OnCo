@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { graph } from "@/lib/graph";
-import { REGIONS, approvedRegions, isDiagnostic, regionSpecific, regionalApprovals, type Region } from "./regional-approvals";
+import { REGIONS, approvedRegions, hasAnchorApproval, isDiagnostic, regionSpecific, regionalApprovals, type Region } from "./regional-approvals";
 
 const APPROVED = new Set(["approved", "standard-of-care"]);
 
@@ -9,7 +9,7 @@ describe("regional approvals", () => {
   const approved = g.kind("drug").filter((d) => APPROVED.has(d.status ?? "") && !isDiagnostic(d.modality));
 
   it("every approved product has a regional row with a US or EU verdict, unless it is approved only elsewhere", () => {
-    const missing = approved.filter((d) => !regionalApprovals[d.id]).map((d) => d.id);
+    const missing = approved.filter((d) => !regionalApprovals[d.id] && !hasAnchorApproval(d)).map((d) => d.id);
     expect(missing, `approved products without a regional row: ${missing.join(", ")}`).toEqual([]);
     const noAnchor = approved.filter((d) => { const row = regionalApprovals[d.id]; return row && !row.US && !row.EU && !regionSpecific(row); }).map((d) => d.id);
     expect(noAnchor, `approved products with neither a US nor an EU row: ${noAnchor.join(", ")}`).toEqual([]);

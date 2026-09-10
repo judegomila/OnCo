@@ -66,6 +66,11 @@ import { coverageUs } from "@/data/coverage-us";
 import { coverageUk } from "@/data/coverage-uk";
 import { SurvivalDisclosure } from "./SurvivalDisclosure";
 import { similarLinks } from "@/lib/similar";
+import { OrganSchematic } from "./OrganSchematic";
+import { SpreadMap } from "./SpreadMap";
+import { spreadFor } from "@/data/spread";
+import { journeysForCancer } from "@/data/journeys";
+import { organFor } from "@/data/organ-schematics";
 import { CatalystsPanel, CompanyScorePanel, DealsPanel, ExclusivityPanel, ManufacturingPanel } from "@/components/InvestorPanels";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -516,11 +521,22 @@ function cancerTabs(c: Cancer): Tab[] {
     { id: "overview", label: "Overview", content: <>
       <Summary e={c} />
       <Block title="State of the art today"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
+      {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1">Treatment journeys</div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}
+      {organFor(c.id) && <Block title="Where it starts and where it drains"><OrganSchematic cancerId={c.id} /></Block>}
       <div className="grid gap-6 sm:grid-cols-2 mt-8">
         <Field label="Who it affects"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>
         <Field label="Group"><Tip title={`${c.group[0].toUpperCase()}${c.group.slice(1)} cancers`} text={`All ${c.group} cancers in OnCo, filtered in the cancers table.`} href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}><Link className="capitalize underline decoration-dotted decoration-foreground/30 underline-offset-[3px]" href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}>{c.group}</Link></Tip></Field>
       </div>
       <Block title="Where the cases are"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
+      {spreadFor(c.id) && (
+        <Block title="Where it spreads">
+          <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
+            <div className="card p-3"><SpreadMap spread={spreadFor(c.id)!} cancerName={c.name} /></div>
+            <ol className="space-y-2 text-sm">{spreadFor(c.id)!.sites.map((s) => <li key={s.region} className="card p-3"><div className="flex items-baseline justify-between gap-2"><span className="font-medium">{s.site}</span><span className="chip bg-foreground/5">{s.tier}</span></div>{(s.pct || s.note) && <p className="text-muted mt-1">{[s.pct, s.note].filter(Boolean).join(". ")}.</p>}</li>)}</ol>
+          </div>
+          <p className="text-xs text-muted mt-2"><Link href={`/atlas/spread/#${c.id}`} className="underline">All cancers side by side</Link></p>
+        </Block>
+      )}
     </> },
     { id: "care", label: "Standard of care", count: c.standardOfCare.length, content: (
       <div className="space-y-3">

@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY 4.0; attribute "OnCo (onco.cc)".
 
-4,734 records in 18 kinds: 64 cancers, 19 fronts, 348 technologies, 92 targets, 377 drugs, 295 companies, 421 institutions, 80 pathways, 600 terms, 401 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 464 people, 45 bottlenecks, 146 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
+4,740 records in 18 kinds: 64 cancers, 19 fronts, 348 technologies, 92 targets, 377 drugs, 295 companies, 421 institutions, 86 pathways, 600 terms, 401 trials, 85 pairings, 13 roadmaps, 1,107 ideas, 110 collections, 464 people, 45 bottlenecks, 146 key papers, 67 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
 
 ## Machine-readable corpus
 
@@ -61,6 +61,9 @@
 - [Targets](https://onco.cc/targets/): The molecules drugs and tracers aim at.
 - [Treatments & tests](https://onco.cc/drugs/): Approved and pipeline products, with rotating molecules.
 - [Pathways](https://onco.cc/pathways/): Signalling circuits, drawn and explained.
+- [Treatment journeys](https://onco.cc/journeys/): What the next twelve months look like for a cancer at a stage, phase by phase, with the decision points.
+- [Atlas](https://onco.cc/atlas/): Organ schematics with subsites and node stations, and where each cancer spreads.
+- [Molecule gallery](https://onco.cc/molecules/): Every product with a 3D structure, filterable by modality, payload, target and status.
 - [Mechanics of cancer](https://onco.cc/mechanics/): How cancer works, drawn stage by stage, with the drugs that act on each mechanism.
 - [Prevalence](https://onco.cc/prevalence/): How common each target is in each cancer.
 - [Trials](https://onco.cc/trials/): Landmark and current trials.
@@ -76,6 +79,7 @@
 - [Journals](https://onco.cc/journals/): Where the evidence is published: scope, access model and the key papers each venue carried.
 - [Key papers](https://onco.cc/key-papers/): The papers that changed practice, each explained: what it found, what it means, what to be careful about.
 - [Trials in plain words](https://onco.cc/explained/): Every trial result as people out of 100, medians explained, surrogate endpoints flagged.
+- [Forest plot](https://onco.cc/forest/): Every hazard ratio in the trial corpus on one log axis; filter by cancer, setting and endpoint.
 - [Evidence](https://onco.cc/evidence/): Every trial ranked by evidence strength, endpoints as people out of 100.
 - [Catalyst calendar](https://onco.cc/catalysts/): Regulatory decisions, expected readouts, filings and deal closings by company, with a calendar feed.
 - [Deals and licences](https://onco.cc/deals/): Who bought or licensed what, for how much, and where assets flow between regions.

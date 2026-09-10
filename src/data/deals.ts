@@ -1,0 +1,235 @@
+/**
+ * Deal and licensing map: the licences, acquisitions and co-development agreements that moved oncology
+ * assets between companies.
+ *
+ * Rules: dates are the announcement date at the finest resolution we can source (YYYY-MM-DD, YYYY-MM or
+ * YYYY). Money is as stated in the announcement: `upfront` is cash paid at signing (plus any stated
+ * non-contingent payments), `total` is the headline "up to" figure including milestones. Where a number is
+ * not public the field is left empty; nothing is estimated. Parties are company ids when the company is in
+ * the corpus, otherwise a name with an ISO country code so the flow diagram can place it. `assets` are
+ * product ids in the corpus; `assetText` names the assets in words for deals whose products are not (yet)
+ * objects here.
+ */
+export type DealType = "licence" | "acquisition" | "co-development" | "option";
+export type Party = { id?: string; name: string; /** ISO 3166-1 alpha-2, used when the party is not a corpus company. */ country?: string };
+export type Deal = {
+  id: string;
+  date: string;
+  type: DealType;
+  /** Seller, licensor or acquired company. */
+  from: Party;
+  /** Buyer, licensee or acquirer. */
+  to: Party;
+  assets: string[];
+  assetText: string;
+  upfront?: string;
+  total?: string;
+  territories: string;
+  refs?: string[];
+  note?: string;
+  source: string;
+  status?: "announced" | "closed" | "terminated";
+};
+
+const c = (id: string, name: string): Party => ({ id, name });
+const x = (name: string, country: string): Party => ({ name, country });
+
+export const deals: Deal[] = [
+  // ---------------- Japan-out ADC platform deals ----------------
+  { id: "d-2019-az-ds-enhertu", date: "2019-03-28", type: "co-development", from: c("daiichi-sankyo", "Daiichi Sankyo"), to: c("astrazeneca", "AstraZeneca"),
+    assets: ["trastuzumab-deruxtecan"], assetText: "Trastuzumab deruxtecan (DS-8201, Enhertu)", upfront: "$1.35bn", total: "up to $6.9bn",
+    territories: "Worldwide except Japan; joint development and commercialisation, Daiichi Sankyo books sales", refs: ["her2", "adc"],
+    note: "The deal that made the DXd platform a franchise. Enhertu went on to become the best-selling ADC.",
+    source: "https://www.astrazeneca.com/media-centre/press-releases/2019/astrazeneca-and-daiichi-sankyo-enter-collaboration-for-novel-her2-targeting-antibody-drug-conjugate-28032019.html", status: "closed" },
+  { id: "d-2020-az-ds-dato", date: "2020-07-27", type: "co-development", from: c("daiichi-sankyo", "Daiichi Sankyo"), to: c("astrazeneca", "AstraZeneca"),
+    assets: ["datopotamab-deruxtecan"], assetText: "Datopotamab deruxtecan (DS-1062, Datroway)", upfront: "$1.0bn", total: "up to $6.0bn",
+    territories: "Worldwide except Japan; joint development and commercialisation", refs: ["trop2", "adc"],
+    source: "https://www.astrazeneca.com/media-centre/press-releases.html", status: "closed" },
+  { id: "d-2023-merck-ds-three-adcs", date: "2023-10-20", type: "co-development", from: c("daiichi-sankyo", "Daiichi Sankyo"), to: c("merck", "Merck & Co."),
+    assets: ["patritumab-deruxtecan", "ifinatamab-deruxtecan", "raludotatug-deruxtecan"], assetText: "Patritumab deruxtecan (HER3), ifinatamab deruxtecan (B7-H3) and raludotatug deruxtecan (CDH6)",
+    upfront: "$4.0bn (plus $1.5bn in continuation payments over 24 months)", total: "up to $22bn",
+    territories: "Worldwide except Japan; joint development and commercialisation", refs: ["her3", "b7h3", "cdh6", "adc"],
+    note: "The largest ADC collaboration by headline value.",
+    source: "https://www.daiichisankyo.com/media/press_release/", status: "closed" },
+
+  // ---------------- China-out ADC and bispecific deals ----------------
+  { id: "d-2022-merck-kelun-skb264", date: "2022-05", type: "licence", from: c("kelun-biotech", "Kelun-Biotech"), to: c("merck", "Merck & Co."),
+    assets: ["sacituzumab-tirumotecan"], assetText: "Sacituzumab tirumotecan (SKB264, MK-2870), TROP2 ADC", upfront: "$47m", total: "up to $1.4bn",
+    territories: "Worldwide except Greater China", refs: ["trop2", "adc"],
+    source: "https://www.merck.com/news/", status: "closed" },
+  { id: "d-2022-merck-kelun-seven-adcs", date: "2022-12", type: "licence", from: c("kelun-biotech", "Kelun-Biotech"), to: c("merck", "Merck & Co."),
+    assets: [], assetText: "Up to seven preclinical ADCs", upfront: "$175m", total: "up to $9.3bn",
+    territories: "Worldwide except Greater China (Kelun retains options in China)", refs: ["adc"],
+    note: "Third Kelun deal of 2022; Merck later returned some of the programmes.",
+    source: "https://www.merck.com/news/", status: "closed" },
+  { id: "d-2023-bms-systimmune", date: "2023-12-11", type: "licence", from: c("systimmune", "SystImmune"), to: c("bms", "Bristol Myers Squibb"),
+    assets: ["izalontamab-brengitecan"], assetText: "Izalontamab brengitecan (BL-B01D1), EGFR x HER3 bispecific ADC", upfront: "$800m", total: "up to $8.4bn",
+    territories: "Worldwide except mainland China, Hong Kong, Macau and Taiwan; co-development in the US", refs: ["egfr", "her3", "adc"],
+    note: "The largest China-out single-asset licence at the time.",
+    source: "https://news.bms.com/", status: "closed" },
+  { id: "d-2022-summit-akeso", date: "2022-12-06", type: "licence", from: c("akeso", "Akeso"), to: c("summit-therapeutics", "Summit Therapeutics"),
+    assets: ["ivonescimab"], assetText: "Ivonescimab (AK112, SMT112), PD-1 x VEGF bispecific", upfront: "$500m", total: "up to $5.0bn",
+    territories: "United States, Canada, Europe and Japan (expanded in 2024 to Latin America, the Middle East and Africa)", refs: ["pd1", "vegf"],
+    source: "https://www.smmttx.com/", status: "closed" },
+  { id: "d-2023-keymed-az-cmg901", date: "2023-02", type: "licence", from: c("keymed", "KYM Biosciences (Keymed and Lepu)"), to: c("astrazeneca", "AstraZeneca"),
+    assets: ["cmg901"], assetText: "CMG901 (sonesitatug vedotin, AZD0901), Claudin 18.2 ADC", upfront: "$63m", total: "up to $1.19bn",
+    territories: "Worldwide", refs: ["cldn18-2", "adc"],
+    source: "https://www.astrazeneca.com/media-centre/press-releases.html", status: "closed" },
+  { id: "d-2023-biontech-duality", date: "2023-04-03", type: "licence", from: c("dualitybio", "DualityBio"), to: c("biontech", "BioNTech"),
+    assets: [], assetText: "DB-1303 (HER2 ADC, later BNT323) and DB-1311 (B7-H3 ADC, BNT324)", upfront: "$170m", total: "more than $1.5bn",
+    territories: "Worldwide except mainland China, Hong Kong and Macau", refs: ["her2", "b7h3", "adc"],
+    source: "https://investors.biontech.de/", status: "closed" },
+  { id: "d-2023-biontech-medilink", date: "2023-10", type: "licence", from: c("medilink", "MediLink Therapeutics"), to: c("biontech", "BioNTech"),
+    assets: [], assetText: "YL202 (BNT326), HER3 ADC on the TMALIN linker platform", upfront: "$70m", total: "more than $1.0bn",
+    territories: "Worldwide except mainland China, Hong Kong and Macau", refs: ["her3", "adc"],
+    source: "https://investors.biontech.de/", status: "closed" },
+  { id: "d-2024-roche-medilink", date: "2024-01", type: "licence", from: c("medilink", "MediLink Therapeutics"), to: c("roche-genentech", "Roche"),
+    assets: [], assetText: "YL211, c-MET ADC", upfront: "$50m", total: "about $1.0bn",
+    territories: "Worldwide", refs: ["met", "adc"],
+    source: "https://www.medilinkthera.com/", status: "closed" },
+  { id: "d-2024-avenzo-duality", date: "2024-12", type: "licence", from: c("dualitybio", "DualityBio"), to: c("avenzo", "Avenzo Therapeutics"),
+    assets: [], assetText: "DB-1418 (AVZO-1418), EGFR x HER3 bispecific ADC", upfront: "$50m", total: "up to $1.15bn",
+    territories: "Worldwide except Greater China", refs: ["egfr", "her3", "adc"],
+    source: "https://www.avenzotx.com/", status: "closed" },
+  { id: "d-2024-merck-lanova", date: "2024-11-14", type: "licence", from: x("LaNova Medicines", "CN"), to: c("merck", "Merck & Co."),
+    assets: [], assetText: "LM-299, PD-1 x VEGF bispecific antibody", upfront: "$588m", total: "up to $3.3bn",
+    territories: "Worldwide", refs: ["pd1", "vegf"],
+    note: "Merck's answer to ivonescimab.",
+    source: "https://www.merck.com/news/", status: "closed" },
+  { id: "d-2025-pfizer-3sbio", date: "2025-05-20", type: "licence", from: x("3SBio", "CN"), to: c("pfizer", "Pfizer"),
+    assets: [], assetText: "SSGJ-707, PD-1 x VEGF bispecific antibody", upfront: "$1.25bn (plus a $100m equity investment)", total: "up to $4.8bn",
+    territories: "Worldwide except China", refs: ["pd1", "vegf"],
+    source: "https://www.pfizer.com/newsroom", status: "closed" },
+  { id: "d-2025-bms-biontech-bnt327", date: "2025-06-02", type: "co-development", from: c("biontech", "BioNTech"), to: c("bms", "Bristol Myers Squibb"),
+    assets: [], assetText: "BNT327 (pumitamig), PD-L1 x VEGF bispecific antibody", upfront: "$1.5bn (plus $2.0bn in non-contingent payments through 2028)", total: "up to $11.1bn",
+    territories: "Global co-development and co-commercialisation, costs and profits shared equally", refs: ["pdl1", "vegf"],
+    note: "BioNTech had acquired the asset with its purchase of Biotheus (China) in 2024.",
+    source: "https://news.bms.com/", status: "closed" },
+  { id: "d-2023-gsk-hansoh-b7h3", date: "2023-12", type: "licence", from: x("Hansoh Pharma", "CN"), to: c("gsk", "GSK"),
+    assets: [], assetText: "HS-20093 (GSK5764227), B7-H3 ADC", upfront: "$185m", total: "up to about $1.7bn",
+    territories: "Worldwide except mainland China, Hong Kong, Macau and Taiwan", refs: ["b7h3", "adc"],
+    source: "https://www.gsk.com/en-gb/media/press-releases/", status: "closed" },
+
+  // ---------------- Western licences ----------------
+  { id: "d-2017-jnj-legend-cilta-cel", date: "2017-12-21", type: "co-development", from: c("legend-biotech", "Legend Biotech"), to: c("johnson-johnson", "Johnson & Johnson (Janssen)"),
+    assets: ["ciltacabtagene-autoleucel"], assetText: "LCAR-B38M / JNJ-4528, later ciltacabtagene autoleucel (Carvykti)", upfront: "$350m",
+    territories: "Worldwide; 50/50 outside Greater China, 70/30 in favour of Legend in Greater China", refs: ["bcma", "car-t"],
+    source: "https://www.legendbiotech.com/", status: "closed" },
+  { id: "d-2022-jazz-zymeworks", date: "2022-10-19", type: "licence", from: c("zymeworks", "Zymeworks"), to: c("jazz", "Jazz Pharmaceuticals"),
+    assets: ["zanidatamab"], assetText: "Zanidatamab, HER2 biparatopic bispecific antibody", upfront: "$50m", total: "up to $1.76bn",
+    territories: "United States, Europe, Japan and all other territories except those licensed to BeiGene (Asia-Pacific)", refs: ["her2"],
+    source: "https://investor.jazzpharma.com/", status: "closed" },
+  { id: "d-2024-sanofi-radiomedix-alphamedix", date: "2024-09-12", type: "licence", from: c("radiomedix", "RadioMedix and Orano Med"), to: c("sanofi", "Sanofi"),
+    assets: ["alphamedix"], assetText: "AlphaMedix (lead-212 DOTAMTATE), targeted alpha therapy for neuroendocrine tumours",
+    territories: "Worldwide commercialisation rights", refs: ["sstr2", "targeted-alpha-therapy"],
+    note: "Financial terms were not disclosed in full.",
+    source: "https://www.sanofi.com/en/media-room/press-releases/2024/2024-09-12-05-00-00-2944919", status: "closed" },
+
+  // ---------------- Acquisitions ----------------
+  { id: "d-2015-abbvie-pharmacyclics", date: "2015-03-04", type: "acquisition", from: x("Pharmacyclics", "US"), to: c("abbvie", "AbbVie"),
+    assets: ["ibrutinib"], assetText: "Ibrutinib (Imbruvica), shared with Johnson & Johnson", total: "$21bn", territories: "Company acquisition", refs: ["btk"],
+    source: "https://news.abbvie.com/", status: "closed" },
+  { id: "d-2016-abbvie-stemcentrx", date: "2016-04-28", type: "acquisition", from: x("Stemcentrx", "US"), to: c("abbvie", "AbbVie"),
+    assets: ["rovalpituzumab-tesirine"], assetText: "Rovalpituzumab tesirine (Rova-T), DLL3 ADC", upfront: "$5.8bn", total: "up to $9.8bn", territories: "Company acquisition", refs: ["dll3", "adc"],
+    note: "Rova-T failed in phase 3 and was discontinued in 2019; one of the largest ADC write-offs.",
+    source: "https://news.abbvie.com/", status: "closed" },
+  { id: "d-2017-novartis-aaa", date: "2017-10-30", type: "acquisition", from: x("Advanced Accelerator Applications", "FR"), to: c("novartis", "Novartis"),
+    assets: ["lutathera"], assetText: "Lutathera (lutetium-177 dotatate) and the NETSPOT/SomaKit imaging kits", total: "$3.9bn", territories: "Company acquisition", refs: ["sstr2", "radioligand-therapy"],
+    source: "https://www.novartis.com/news", status: "closed" },
+  { id: "d-2018-novartis-endocyte", date: "2018-10-18", type: "acquisition", from: x("Endocyte", "US"), to: c("novartis", "Novartis"),
+    assets: ["pluvicto"], assetText: "177Lu-PSMA-617, later Pluvicto", total: "$2.1bn", territories: "Company acquisition", refs: ["psma", "radioligand-therapy"],
+    source: "https://www.novartis.com/news", status: "closed" },
+  { id: "d-2019-bms-celgene", date: "2019-01-03", type: "acquisition", from: x("Celgene", "US"), to: c("bms", "Bristol Myers Squibb"),
+    assets: ["lenalidomide", "pomalidomide", "idecabtagene-vicleucel", "lisocabtagene-maraleucel"], assetText: "Revlimid, Pomalyst, bb2121 (Abecma), liso-cel (Breyanzi) and the Celgene pipeline",
+    total: "$74bn (plus a contingent value right)", territories: "Company acquisition; closed November 2019", refs: ["bcma", "cd19", "car-t"],
+    note: "The largest pharmaceutical acquisition at the time.",
+    source: "https://news.bms.com/", status: "closed" },
+  { id: "d-2019-lilly-loxo", date: "2019-01-07", type: "acquisition", from: x("Loxo Oncology", "US"), to: c("eli-lilly", "Eli Lilly"),
+    assets: ["selpercatinib", "pirtobrutinib"], assetText: "LOXO-292 (selpercatinib, Retevmo) and LOXO-305 (pirtobrutinib, Jaypirca)", total: "$8.0bn", territories: "Company acquisition", refs: ["ret", "btk"],
+    source: "https://investor.lilly.com/", status: "closed" },
+  { id: "d-2019-pfizer-array", date: "2019-06-17", type: "acquisition", from: x("Array BioPharma", "US"), to: c("pfizer", "Pfizer"),
+    assets: ["encorafenib", "binimetinib"], assetText: "Encorafenib (Braftovi) and binimetinib (Mektovi)", total: "$11.4bn", territories: "Company acquisition", refs: ["braf"],
+    source: "https://www.pfizer.com/newsroom", status: "closed" },
+  { id: "d-2020-gilead-forty-seven", date: "2020-03-02", type: "acquisition", from: x("Forty Seven", "US"), to: c("gilead", "Gilead Sciences"),
+    assets: ["magrolimab"], assetText: "Magrolimab, anti-CD47 antibody", total: "$4.9bn", territories: "Company acquisition", refs: ["cd47"],
+    note: "Magrolimab was discontinued in 2024 after the ENHANCE trials failed.",
+    source: "https://www.gilead.com/news", status: "closed" },
+  { id: "d-2020-gilead-immunomedics", date: "2020-09-13", type: "acquisition", from: x("Immunomedics", "US"), to: c("gilead", "Gilead Sciences"),
+    assets: ["sacituzumab-govitecan"], assetText: "Sacituzumab govitecan (Trodelvy), TROP2 ADC", total: "$21bn", territories: "Company acquisition", refs: ["trop2", "adc"],
+    source: "https://www.gilead.com/news", status: "closed" },
+  { id: "d-2020-merck-velosbio", date: "2020-11-05", type: "acquisition", from: x("VelosBio", "US"), to: c("merck", "Merck & Co."),
+    assets: ["zilovertamab-vedotin"], assetText: "VLS-101, later zilovertamab vedotin (MK-2140), ROR1 ADC", total: "$2.75bn", territories: "Company acquisition", refs: ["ror1", "adc"],
+    source: "https://www.merck.com/news/", status: "closed" },
+  { id: "d-2021-amgen-five-prime", date: "2021-03-04", type: "acquisition", from: x("Five Prime Therapeutics", "US"), to: c("amgen", "Amgen"),
+    assets: ["bemarituzumab"], assetText: "Bemarituzumab, anti-FGFR2b antibody", total: "$1.9bn", territories: "Company acquisition", refs: ["fgfr2"],
+    source: "https://www.amgen.com/newsroom", status: "closed" },
+  { id: "d-2022-bms-turning-point", date: "2022-06-03", type: "acquisition", from: x("Turning Point Therapeutics", "US"), to: c("bms", "Bristol Myers Squibb"),
+    assets: ["repotrectinib"], assetText: "Repotrectinib (Augtyro), ROS1 and NTRK inhibitor", total: "$4.1bn", territories: "Company acquisition", refs: ["ros1", "ntrk"],
+    source: "https://news.bms.com/", status: "closed" },
+  { id: "d-2023-pfizer-seagen", date: "2023-03-13", type: "acquisition", from: x("Seagen", "US"), to: c("pfizer", "Pfizer"),
+    assets: ["enfortumab-vedotin", "tisotumab-vedotin", "brentuximab-vedotin", "tucatinib"], assetText: "Padcev, Tivdak, Adcetris, Tukysa and the vedotin ADC platform",
+    total: "$43bn", territories: "Company acquisition; closed 14 December 2023", refs: ["adc", "nectin4", "tissue-factor", "cd30"],
+    note: "The largest ADC acquisition to date.",
+    source: "https://www.pfizer.com/newsroom", status: "closed" },
+  { id: "d-2023-bms-mirati", date: "2023-10-08", type: "acquisition", from: x("Mirati Therapeutics", "US"), to: c("bms", "Bristol Myers Squibb"),
+    assets: ["adagrasib", "mrtx1133"], assetText: "Adagrasib (Krazati) and MRTX1133 (KRAS G12D)", total: "$4.8bn (plus a contingent value right of up to $1.0bn)", territories: "Company acquisition; closed January 2024", refs: ["kras"],
+    source: "https://news.bms.com/", status: "closed" },
+  { id: "d-2023-lilly-point", date: "2023-10-03", type: "acquisition", from: x("POINT Biopharma", "US"), to: c("eli-lilly", "Eli Lilly"),
+    assets: [], assetText: "PNT2002 (177Lu-PNT2002, PSMA) and PNT2003 (SSTR), radioligand pipeline and manufacturing", total: "$1.4bn", territories: "Company acquisition; closed December 2023", refs: ["psma", "radioligand-therapy"],
+    source: "https://investor.lilly.com/", status: "closed" },
+  { id: "d-2023-abbvie-immunogen", date: "2023-11-30", type: "acquisition", from: x("ImmunoGen", "US"), to: c("abbvie", "AbbVie"),
+    assets: ["mirvetuximab-soravtansine", "pivekimab-sunirine"], assetText: "Mirvetuximab soravtansine (Elahere) and pivekimab sunirine", total: "$10.1bn", territories: "Company acquisition; closed February 2024", refs: ["folr1", "cd123", "adc"],
+    source: "https://news.abbvie.com/", status: "closed" },
+  { id: "d-2023-bms-rayzebio", date: "2023-12-26", type: "acquisition", from: c("rayzebio", "RayzeBio"), to: c("bms", "Bristol Myers Squibb"),
+    assets: ["ryz101"], assetText: "RYZ101 (actinium-225 DOTATATE) and an actinium-based radiopharmaceutical platform", total: "$4.1bn", territories: "Company acquisition; closed February 2024", refs: ["sstr2", "targeted-alpha-therapy"],
+    source: "https://news.bms.com/", status: "closed" },
+  { id: "d-2023-az-gracell", date: "2023-12-26", type: "acquisition", from: x("Gracell Biotechnologies", "CN"), to: c("astrazeneca", "AstraZeneca"),
+    assets: [], assetText: "GC012F (AZD0120), BCMA x CD19 CAR-T, and the FasTCAR platform", upfront: "$1.0bn", total: "up to $1.2bn including a contingent value right", territories: "Company acquisition", refs: ["bcma", "cd19", "car-t"],
+    source: "https://www.astrazeneca.com/media-centre/press-releases.html", status: "closed" },
+  { id: "d-2024-jnj-ambrx", date: "2024-01-08", type: "acquisition", from: x("Ambrx Biopharma", "US"), to: c("johnson-johnson", "Johnson & Johnson"),
+    assets: ["arx788"], assetText: "ARX517 (PSMA ADC) and ARX788 (HER2 ADC) with site-specific conjugation technology", total: "$2.0bn", territories: "Company acquisition", refs: ["psma", "her2", "adc"],
+    source: "https://www.jnj.com/media-center", status: "closed" },
+  { id: "d-2024-novartis-morphosys", date: "2024-02-05", type: "acquisition", from: c("morphosys", "MorphoSys"), to: c("novartis", "Novartis"),
+    assets: [], assetText: "Pelabresib (BET inhibitor) and tulmimetostat", total: "€2.7bn", territories: "Company acquisition; tafasitamab rights had already passed to Incyte", refs: ["myeloproliferative-neoplasms"],
+    source: "https://www.novartis.com/news", status: "closed" },
+  { id: "d-2024-az-fusion", date: "2024-03-19", type: "acquisition", from: c("fusion-pharma", "Fusion Pharmaceuticals"), to: c("astrazeneca", "AstraZeneca"),
+    assets: ["ac225-psma"], assetText: "FPI-2265 (actinium-225 PSMA) and the Fusion targeted alpha therapy platform", upfront: "$2.0bn", total: "up to $2.4bn including a contingent value right", territories: "Company acquisition; closed June 2024", refs: ["psma", "targeted-alpha-therapy"],
+    source: "https://www.astrazeneca.com/media-centre/press-releases.html", status: "closed" },
+  { id: "d-2024-genmab-profoundbio", date: "2024-04-03", type: "acquisition", from: x("ProfoundBio", "US"), to: c("genmab", "Genmab"),
+    assets: ["rinatabart-sesutecan"], assetText: "Rinatabart sesutecan (Rina-S), folate receptor alpha ADC, and two other clinical ADCs", total: "$1.8bn", territories: "Company acquisition", refs: ["folr1", "adc"],
+    source: "https://ir.genmab.com/", status: "closed" },
+  { id: "d-2024-ono-deciphera", date: "2024-04-29", type: "acquisition", from: c("deciphera", "Deciphera Pharmaceuticals"), to: x("Ono Pharmaceutical", "JP"),
+    assets: ["ripretinib", "vimseltinib"], assetText: "Ripretinib (Qinlock) and vimseltinib", total: "$2.4bn", territories: "Company acquisition", refs: ["kit", "csf1r"],
+    source: "https://investors.deciphera.com/", status: "closed" },
+  { id: "d-2024-novartis-mariana", date: "2024-05-02", type: "acquisition", from: x("Mariana Oncology", "US"), to: c("novartis", "Novartis"),
+    assets: [], assetText: "Preclinical radioligand pipeline including MC-339 (actinium-225, small-cell lung cancer)", upfront: "$1.0bn", total: "up to $1.75bn", territories: "Company acquisition", refs: ["radioligand-therapy", "targeted-alpha-therapy"],
+    source: "https://www.novartis.com/news", status: "closed" },
+  { id: "d-2025-gsk-idrx", date: "2025-01-13", type: "acquisition", from: x("IDRx", "US"), to: c("gsk", "GSK"),
+    assets: [], assetText: "IDRX-42, KIT inhibitor for gastrointestinal stromal tumours", upfront: "$1.0bn", total: "up to $1.15bn", territories: "Company acquisition", refs: ["kit", "gist"],
+    source: "https://www.gsk.com/en-gb/media/press-releases/", status: "closed" },
+  { id: "d-2025-taiho-araris", date: "2025-03", type: "acquisition", from: c("araris", "Araris Biotech"), to: c("taiho", "Taiho Pharmaceutical"),
+    assets: [], assetText: "AraLinQ site-specific ADC linker platform and preclinical ADCs", upfront: "$400m", total: "up to $1.14bn", territories: "Company acquisition", refs: ["adc", "site-specific-conjugation"],
+    source: "https://www.taiho.co.jp/en/", status: "closed" },
+  { id: "d-2025-merck-kgaa-springworks", date: "2025-04-28", type: "acquisition", from: c("springworks", "SpringWorks Therapeutics"), to: x("Merck KGaA", "DE"),
+    assets: ["nirogacestat"], assetText: "Nirogacestat (Ogsiveo) and mirdametinib (Gomekli)", total: "$3.9bn", territories: "Company acquisition", refs: ["sarcoma"],
+    source: "https://www.emdgroup.com/en/news.html", status: "closed" },
+  { id: "d-2025-sanofi-blueprint", date: "2025-06-02", type: "acquisition", from: x("Blueprint Medicines", "US"), to: c("sanofi", "Sanofi"),
+    assets: ["avapritinib"], assetText: "Avapritinib (Ayvakit) and the systemic mastocytosis franchise", upfront: "$9.1bn", total: "up to $9.5bn including a contingent value right", territories: "Company acquisition", refs: ["kit", "pdgfra"],
+    source: "https://www.sanofi.com/en/media-room/press-releases", status: "closed" },
+  { id: "d-2025-genmab-merus", date: "2025-09-29", type: "acquisition", from: c("merus", "Merus"), to: c("genmab", "Genmab"),
+    assets: ["petosemtamab", "zenocutuzumab"], assetText: "Petosemtamab (EGFR x LGR5) and zenocutuzumab (Bizengri)", total: "about $8.0bn ($97 per share)", territories: "Company acquisition", refs: ["egfr", "her3"],
+    source: "https://ir.genmab.com/", status: "announced" },
+  { id: "d-2025-abbott-exact", date: "2025-11", type: "acquisition", from: c("exact-sciences", "Exact Sciences"), to: x("Abbott", "US"),
+    assets: ["oncotype-dx"], assetText: "Cologuard, Oncotype DX, Cancerguard and Oncodetect", total: "$21bn", territories: "Company acquisition", refs: ["mrd-testing", "mced"],
+    source: "https://investor.exactsciences.com/", status: "announced" },
+  { id: "d-2026-lilly-orna", date: "2026-02-09", type: "acquisition", from: c("orna-therapeutics", "Orna Therapeutics"), to: c("eli-lilly", "Eli Lilly"),
+    assets: [], assetText: "Circular-RNA in vivo CAR platform (ORN-252 and a BCMA programme)", total: "about $2.4bn", territories: "Company acquisition", refs: ["in-vivo-car-t", "bcma", "cd19"],
+    source: "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-orna-therapeutics-advance-cell-therapies", status: "announced" },
+  { id: "d-2026-tempus-personalis", date: "2026-07", type: "acquisition", from: c("personalis", "Personalis"), to: c("tempus", "Tempus AI"),
+    assets: [], assetText: "NeXT Personal tumour-informed MRD test", total: "about $1.5bn in stock ($16.25 per share)", territories: "Company acquisition; expected to close late 2026 or early 2027", refs: ["mrd-testing", "liquid-biopsy"],
+    source: "https://investors.tempus.com/news-releases/news-release-details/tempus-acquire-personalis-more-tightly-integrating-molecular", status: "announced" },
+];
+
+export const DEAL_TYPE_LABEL: Record<DealType, string> = { licence: "Licence", acquisition: "Acquisition", "co-development": "Co-development", option: "Option" };
+
+export const dealsFor = (id: string) => deals.filter((d) => d.from.id === id || d.to.id === id || d.assets.includes(id));

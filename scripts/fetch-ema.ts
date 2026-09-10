@@ -32,7 +32,7 @@ const DATA_FILE = join(process.cwd(), "src", "data", "regional-approvals.ts");
 const STAMP = !process.argv.includes("--no-stamp");
 
 export type EmaRow = { name: string; productNumber?: string; status: string; generic: boolean; biosimilar: boolean; opinionStatus?: string; inn?: string; substance?: string; therapeuticArea?: string; atc?: string; conditional: boolean; authorised?: string; withdrawn?: string; refused?: string; holder?: string; url?: string; indication?: string };
-export type RegionalCandidate = { region: "EU"; drugId?: string; product: string; inn?: string; reason: "missing-row" | "status-mismatch" | "year-mismatch" | "not-in-corpus"; recorded?: string; register: string; date?: string; url?: string; indication?: string };
+export type RegionalCandidate = { region: "EU"; drugId?: string; product: string; inn?: string; reason: "missing-row" | "status-mismatch" | "year-mismatch" | "not-in-corpus"; recorded?: string; register: string; date?: string; /** Date the marketing authorisation was withdrawn, when the register records one (so a "withdrawn" row can be written without a second lookup). */ withdrawn?: string; url?: string; indication?: string };
 export type RegionalVerified = { drugId: string; region: "EU"; status: string; year?: number; url?: string; verifiedOn: string };
 export type RegionalSnapshot = {
   fetched: string; sources: { ema: string; mhra: { url: string; note: string }; pmda: { url: string; note: string } };
@@ -108,7 +108,13 @@ function statusOf(r: EmaRow): RegionalStatus | "other" {
 
 async function main() {
   const g = graph();
-  const matcher = new NameMatcher(matchableFromGraph(g.kind("drug") as never), ["drug"]);
+  // Combination regimens (FOLFOX, CAPTEM) are not EMA medicines; their components are, so they are kept out of the matcher.
+  const products = g.kind("drug").filter((d) => !/regimen/i.test(d.modality ?? ""));
+  const matcher = new NameMatcher(matchableFromGraph(products as never), ["drug"]);
+  // An INN that is exactly a product's name beats the alias matcher.
+  const normName = (s: string) => s.toLowerCase().replace(/\(.*?\)/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+  const exact = new Map<string, string>();
+  for (const d of products) if (!exact.has(normName(d.name))) exact.set(normName(d.name), d.id);
   const snap: RegionalSnapshot = {
     fetched: today(), register: { rows: 0, human: 0, oncology: 0 }, verified: [], candidates: [], errors: [],
     sources: {
@@ -148,7 +154,8 @@ async function main() {
   const matchedIds = new Set<string>();
   const perDrug = new Map<string, EmaRow[]>();
   for (const r of onco) {
-    const id = matcher.best(r.inn ?? r.substance ?? r.name) ?? matcher.best(r.name);
+    const q = r.inn ?? r.substance ?? r.name;
+    const id = exact.get(normName(q)) ?? matcher.best(q) ?? matcher.best(r.name);
     const st = statusOf(r);
     if (!id) {
       // Only originator medicines are worth a new record; generics and biosimilars of products we do not track are noise.
@@ -164,18 +171,24 @@ async function main() {
   for (const [id, meds] of perDrug) {
     const originators = meds.filter((m) => !m.generic && !m.biosimilar);
     const pool = originators.length ? originators : meds;
-    const authorised = pool.filter((m) => statusOf(m) === "approved" || statusOf(m) === "conditional");
-    const lead = authorised.sort((a, b) => (a.authorised ?? "9999").localeCompare(b.authorised ?? "9999"))[0] ?? pool.sort((a, b) => (b.authorised ?? b.withdrawn ?? b.refused ?? "").localeCompare(a.authorised ?? a.withdrawn ?? a.refused ?? ""))[0];
-    const st = authorised.length ? (authorised.every((m) => m.conditional) ? "conditional" : "approved") : statusOf(lead);
-    const registerText = authorised.length ? `${lead.status}${st === "conditional" ? " (conditional)" : ""}` : lead.status;
     const row = regionalApprovals[id]?.EU;
+    // When the row cites a specific EPAR, judge by that medicine rather than by the INN's earliest product (Inaqovi, not
+    // Dacogen, for decitabine-cedazuridine; Zytiga, not Akeega, for abiraterone).
+    const sameUrl = (a?: string, b?: string) => !!a && !!b && a.toLowerCase().replace(/\/$/, "") === b.toLowerCase().replace(/\/$/, "");
+    const cited = meds.find((m) => sameUrl(row?.source, m.url));
+    const authorised = pool.filter((m) => statusOf(m) === "approved" || statusOf(m) === "conditional");
+    const lead = cited ?? authorised.sort((a, b) => (a.authorised ?? "9999").localeCompare(b.authorised ?? "9999"))[0] ?? pool.sort((a, b) => (b.authorised ?? b.withdrawn ?? b.refused ?? "").localeCompare(a.authorised ?? a.withdrawn ?? a.refused ?? ""))[0];
+    const st = cited ? statusOf(cited) : authorised.length ? (authorised.every((m) => m.conditional) ? "conditional" : "approved") : statusOf(lead);
+    const registerText = !cited && authorised.length ? `${lead.status}${st === "conditional" ? " (conditional)" : ""}` : `${lead.status}${lead.conditional ? " (conditional)" : ""}`;
     const year = lead.authorised ? Number(lead.authorised.slice(0, 4)) : undefined;
-    const base = { region: "EU" as const, drugId: id, product: lead.name, inn: lead.inn, url: lead.url, indication: lead.indication };
+    const base = { region: "EU" as const, drugId: id, product: lead.name, inn: lead.inn, url: lead.url, indication: lead.indication, withdrawn: lead.withdrawn };
     if (!row) { snap.candidates.push({ ...base, reason: "missing-row", register: registerText, date: lead.authorised ?? lead.refused ?? lead.withdrawn }); continue; }
     const recordedApproved = row.status === "approved" || row.status === "conditional";
     const registerApproved = st === "approved" || st === "conditional";
     if (recordedApproved !== registerApproved && st !== "other") { snap.candidates.push({ ...base, reason: "status-mismatch", recorded: row.status, register: registerText, date: lead.authorised ?? lead.withdrawn ?? lead.refused }); continue; }
-    if (recordedApproved && row.year && year && Math.abs(row.year - year) > 1) { snap.candidates.push({ ...base, reason: "year-mismatch", recorded: String(row.year), register: `authorised ${lead.authorised}`, date: lead.authorised }); continue; }
+    // Without a cited EPAR, the centralised register (1995 onwards) cannot contradict an earlier national approval, so only
+    // an authorisation that predates the recorded year counts as a disagreement.
+    if (recordedApproved && row.year && year && (cited ? Math.abs(row.year - year) > 1 : year < row.year - 1)) { snap.candidates.push({ ...base, reason: "year-mismatch", recorded: String(row.year), register: `authorised ${lead.authorised}`, date: lead.authorised }); continue; }
     if (st !== "other") snap.verified.push({ drugId: id, region: "EU", status: row.status, year: row.year, url: lead.url, verifiedOn: snap.fetched });
   }
   // One verified entry per product (a product can have several EU medicines, e.g. biosimilars).

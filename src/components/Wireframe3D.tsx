@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useRef } from "react";
-import { faceSegments, facing, fitScale, hexToRgb, type Mesh, type Vec3 } from "@/lib/wireframe";
+import { faceSegments, facing, fitScale, hexToRgb, sceneExtents, type Mesh, type Vec3 } from "@/lib/wireframe";
 import { ALL_ANIMATED } from "@/data/schematics";
 
 /**
- * Slowly rotating wireframe schematic on a canvas, in the same visual language as MoleculeViewer:
+ * Slowly turning wireframe schematic on a canvas, in the same visual language as MoleculeViewer:
  * monoline strokes whose weight and opacity follow depth (near edges heavier and darker, far edges thin and pale),
- * optional translucent faces so closed shapes read as bodies, slow Y rotation with a gentle nod, pause when off-screen,
+ * optional translucent faces so closed shapes read as bodies, a slow sway about a three-quarter view with a gentle nod
+ * (never edge-on, so the process stays legible), pause when off-screen,
  * a static three-quarter view under prefers-reduced-motion. Colours come from the theme's CSS variables
  * (--foreground, --muted, --accent, --garden-2, --wire-hot) so the drawing matches light, dark and contrast themes.
  * Segment classes: default structure, "accent" (energy/beam), "hot" (highlight), "soft" (context).
@@ -45,7 +46,7 @@ function stroke(cls: string | undefined, t: number, pal: Palette): { rgb: Rgb; a
   switch (cls) {
     case "accent": return { rgb: pal.accent, alpha: 0.45 + 0.55 * t, width: 1.05 + 1.1 * t };
     case "hot": return { rgb: pal.hot, alpha: 0.5 + 0.5 * t, width: 1.15 + 1.15 * t };
-    case "soft": return { rgb: pal.muted, alpha: L ? 0.2 + 0.32 * t : 0.14 + 0.3 * t, width: 0.6 + 0.65 * t };
+    case "soft": return { rgb: pal.muted, alpha: L ? 0.26 + 0.34 * t : 0.16 + 0.32 * t, width: 0.65 + 0.65 * t };
     default: return { rgb: pal.base, alpha: L ? 0.3 + 0.62 * t : 0.22 + 0.68 * t, width: (L ? 0.85 : 0.8) + 1.0 * t };
   }
 }
@@ -79,13 +80,15 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
     const c = [0, 0, 0];
     for (const p of basePts) { c[0] += p[0]; c[1] += p[1]; c[2] += p[2]; }
     c[0] /= n; c[1] /= n; c[2] /= n;
-    // Fit the scene to the card using the 82nd-percentile radius rather than the maximum, so a few far-off
+    // Fit the scene to the card from its body extents (82nd/90th percentiles) rather than the maximum, so a few far-off
     // parts (an ADC approaching from the edge, a distant label anchor) do not shrink the whole drawing; fitScale
-    // then caps the scale so those outliers still stay close to the card.
-    const radii = basePts.map((p) => Math.hypot(p[0] - c[0], p[1] - c[1], p[2] - c[2])).sort((x, y) => x - y);
-    let pR = radii.length ? radii[Math.min(radii.length - 1, Math.floor(radii.length * 0.82))] : 1;
-    const maxR = radii[radii.length - 1] || 1;
-    if (mesh.animate) pR *= 1.05;
+    // then caps the scale so those outliers still stay close to the card. The nod adds up to 0.2 rad to the tilt; half
+    // of that is allowed for, since the extreme is momentary and a hair of overflow at the rim reads better than slack.
+    const ext = sceneExtents(basePts, c as Vec3, tilt + 0.1);
+    if (mesh.animate) { ext.hx *= 1.05; ext.hy *= 1.05; }
+    let maxR = 0;
+    for (const p of basePts) maxR = Math.max(maxR, Math.hypot(p[0] - c[0], p[1] - c[1], p[2] - c[2]));
+    maxR ||= 1;
     const faces = mesh.faces ?? [];
     const faceSegs = faceSegments(mesh);
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -105,10 +108,12 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
     ro.observe(canvas);
 
     const project = (time: number, W: number, H: number) => {
-      const s = fitScale(W, H, pR, maxR, compact);
+      const s = fitScale(W, H, ext, compact);
       const secs = (time - t0) / 1000;
-      // Reduced motion: a still three-quarter view, slightly from above, which is how the models read best.
-      const ay = reduced ? -0.62 : secs * speed;
+      // Camera: the scene sways slowly about a three-quarter view (±0.5 rad around -0.25) rather than spinning through
+      // 360°, because these compositions are laid out left-to-right and a full turn shows them edge-on twice a cycle.
+      // `speed` sets the sway rate. Reduced motion: a still three-quarter view, slightly from above.
+      const ay = reduced ? -0.62 : -0.25 + 0.5 * Math.sin(secs * speed);
       const ax = reduced ? tilt + 0.06 : tilt + Math.sin(secs * 0.15) * 0.2;
       const cy = Math.cos(ay), sy = Math.sin(ay), cx = Math.cos(ax), sx = Math.sin(ax);
       const zs = s / (maxR || 1);

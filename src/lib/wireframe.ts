@@ -322,7 +322,13 @@ export function membrane(w: number, d: number, cls = "soft", nx = 7, nz = 2, gap
       if (i < nx) m.segments.push([at(i, k), at(i + 1, k), cls]);
       if (k < nz) m.segments.push([at(i, k), at(i, k + 1), cls]);
     }
-    face(m, [at(0, 0), at(nx, 0), at(nx, nz), at(0, nz)], cls);
+    // The sheet's face walks the whole perimeter so every face edge is a drawn grid segment (and fades with it).
+    const rim: number[] = [];
+    for (let i = 0; i < nx; i++) rim.push(at(i, 0));
+    for (let k = 0; k < nz; k++) rim.push(at(nx, k));
+    for (let i = nx; i > 0; i--) rim.push(at(i, nz));
+    for (let k = nz; k > 0; k--) rim.push(at(0, k));
+    face(m, rim, cls);
     return Array.from({ length: (nx + 1) * (nz + 1) }, (_, j) => start + j);
   };
   const top = sheet(gap / 2), bot = sheet(-gap / 2);
@@ -417,13 +423,32 @@ export function facing(pts: Vec3[]): number {
   return L ? Math.abs(n[2]) / L : 0;
 }
 
+/** Half-extents of a scene as the viewer will see it: `hx`/`hy` for the body of the drawing (percentiles), `hxMax`/`hyMax` for everything. */
+export type Extents = { hx: number; hxMax: number; hy: number; hyMax: number };
+
 /**
- * Scene fit used by the viewer. `pR` is the 82nd-percentile radius (the body of the drawing), `maxR` the true extent.
- * The body fills the card (36% of width, 44-50% of height) but the scale is also capped so that outliers (an actor
- * waiting off to one side) never travel more than ~25% past the card edge, so nothing important clips.
+ * Extents of a scene about centre `c` for a camera that spins around Y and is tilted up to `tilt` radians. Width comes
+ * from the XZ radius (the drawing sweeps a circle as it turns); height from |y| plus the part of the XZ radius the tilt
+ * lifts into view. The body uses the 82nd percentile of XZ radii and the 90th of heights, so a single actor parked far
+ * to one side does not shrink the whole drawing; the max values let the viewer keep that actor near the card.
  */
-export function fitScale(W: number, H: number, pR: number, maxR: number, compact: boolean): number {
-  const body = Math.min(W * 0.36, H * (compact ? 0.44 : 0.5)) / (pR || 1);
-  const outer = Math.min(W * 0.55, H * 0.62) / (maxR || pR || 1);
-  return Math.min(body, outer);
+export function sceneExtents(points: Vec3[], c: Vec3, tilt: number, q = 0.82): Extents {
+  const rxz = points.map((p) => Math.hypot(p[0] - c[0], p[2] - c[2])).sort((a, b) => a - b);
+  const ys = points.map((p) => Math.abs(p[1] - c[1])).sort((a, b) => a - b);
+  const pick = (arr: number[], f: number) => (arr.length ? arr[Math.min(arr.length - 1, Math.floor(arr.length * f))] : 1);
+  const hx = pick(rxz, q) || 1, hxMax = rxz[rxz.length - 1] || hx;
+  const cs = Math.cos(tilt), sn = Math.abs(Math.sin(tilt));
+  const hy = (pick(ys, 0.9) * cs + hx * sn) || 1, hyMax = ((ys[ys.length - 1] ?? 0) * cs + hx * sn) || hy;
+  return { hx, hxMax, hy, hyMax };
+}
+
+/**
+ * Scene scale (px per unit) for a W×H card. The body fills 48% of the width and 48-50% of the height, whichever binds;
+ * the result is then capped so that the full extents stay within ~62% of the width and 60% of the height, so an actor
+ * waiting off to one side is never more than a little past the edge and nothing important clips.
+ */
+export function fitScale(W: number, H: number, e: Extents, compact: boolean): number {
+  const body = Math.min((W * 0.48) / (e.hx || 1), (H * (compact ? 0.5 : 0.48)) / (e.hy || 1));
+  const cap = Math.min((W * 0.62) / (e.hxMax || 1), (H * 0.6) / (e.hyMax || 1));
+  return Math.min(body, cap);
 }

@@ -1,0 +1,9 @@
+src/data/people/asia-pacific.ts
+  ai_agent 140,154,191,200,214,221,235,272,279,286,295,353,362,376,383,427,457,464,480,510,531,575,584,619,635,658,672,686
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d1626355b180d9bbf12a3cfaf3db257313148608",
+  "prompts": {}
+}

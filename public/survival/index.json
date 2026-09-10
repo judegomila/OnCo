@@ -1,0 +1,1092 @@
+{
+ "fetched": "2026-09-09",
+ "source": "SEER Cancer Stat Facts, Surveillance, Epidemiology, and End Results Program, National Cancer Institute",
+ "sourceUrl": "https://seer.cancer.gov/statfacts/",
+ "note": "US population statistics. Relative survival compares people with the cancer to the general population of the same age, sex and race; it is not a prediction for an individual. Stage groups are SEER summary stages (localised, regional, distant), not TNM stages.",
+ "sites": {
+  "alyl": {
+   "slug": "alyl",
+   "label": "Acute Lymphocytic Leukemia — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/alyl.html",
+   "byStage": [],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 73.2,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 1.9,
+   "deathsPer100k": 0.4
+  },
+  "amyl": {
+   "slug": "amyl",
+   "label": "Acute Myeloid Leukemia — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/amyl.html",
+   "byStage": [],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 33.4,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 4.4,
+   "deathsPer100k": 2.7
+  },
+  "anus": {
+   "slug": "anus",
+   "label": "Anal Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/anus.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 39,
+     "survivalPct": 85
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 38,
+     "survivalPct": 70.1
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 14,
+     "survivalPct": 36.5
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 8,
+     "survivalPct": 65.1
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 70.9,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 2,
+   "deathsPer100k": 0.4
+  },
+  "bones": {
+   "slug": "bones",
+   "label": "Bone and Joint Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/bones.html",
+   "byStage": [],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 68.7,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 1.1,
+   "deathsPer100k": 0.5
+  },
+  "brain": {
+   "slug": "brain",
+   "label": "Brain and Other Nervous System Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/brain.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 77,
+     "survivalPct": 35.3
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 14,
+     "survivalPct": 20.1
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 2,
+     "survivalPct": 28
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 7,
+     "survivalPct": 32.2
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 32.9,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 6.1,
+   "deathsPer100k": 4.4
+  },
+  "breast": {
+   "slug": "breast",
+   "label": "Female Breast Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/breast.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 64,
+     "survivalPct": 100
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 27,
+     "survivalPct": 87.5
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 6,
+     "survivalPct": 33.8
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 2,
+     "survivalPct": 70.6
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 91.9,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 132.5,
+   "deathsPer100k": 18.9
+  },
+  "cervix": {
+   "slug": "cervix",
+   "label": "Cervical Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/cervix.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 41,
+     "survivalPct": 91.8
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 37,
+     "survivalPct": 64
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 16,
+     "survivalPct": 20.5
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 6,
+     "survivalPct": 62.3
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 68.8,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 7.7,
+   "deathsPer100k": 2.1
+  },
+  "clyl": {
+   "slug": "clyl",
+   "label": "Chronic Lymphocytic Leukemia — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/clyl.html",
+   "byStage": [],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 90.2,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 4.8,
+   "deathsPer100k": 1
+  },
+  "cmyl": {
+   "slug": "cmyl",
+   "label": "Chronic Myeloid Leukemia — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/cmyl.html",
+   "byStage": [],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 71.1,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 2.1,
+   "deathsPer100k": 0.3
+  },
+  "colorect": {
+   "slug": "colorect",
+   "label": "Colorectal Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/colorect.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 34,
+     "survivalPct": 91.3
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 37,
+     "survivalPct": 75.2
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 23,
+     "survivalPct": 16.9
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 6,
+     "survivalPct": 49.7
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 65.4,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 37.6,
+   "deathsPer100k": 12.7
+  },
+  "corp": {
+   "slug": "corp",
+   "label": "Uterine Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/corp.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 67,
+     "survivalPct": 94.9
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 18,
+     "survivalPct": 70.1
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 11,
+     "survivalPct": 19.9
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 4,
+     "survivalPct": 58.3
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 80.9,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 28.7,
+   "deathsPer100k": 5.4
+  },
+  "dlbcl": {
+   "slug": "dlbcl",
+   "label": "Diffuse Large B-Cell Lymphoma — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/dlbcl.html",
+   "byStage": [
+    {
+     "stage": "Stage I",
+     "description": "Confined to Single Region",
+     "casesPct": 20,
+     "survivalPct": 79.9
+    },
+    {
+     "stage": "Stage II",
+     "description": "Involving Mulitple Regions",
+     "casesPct": 19,
+     "survivalPct": 76
+    },
+    {
+     "stage": "Stage III",
+     "description": "Spread to Both Sides of Diaphragm",
+     "casesPct": 16,
+     "survivalPct": 67.5
+    },
+    {
+     "stage": "Stage IV",
+     "description": "Diffuse or Disseminated Involvement",
+     "casesPct": 40,
+     "survivalPct": 56.3
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 5,
+     "survivalPct": 54.6
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 64.8,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 5.6,
+   "deathsPer100k": 1.7
+  },
+  "esoph": {
+   "slug": "esoph",
+   "label": "Esophageal Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/esoph.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 19,
+     "survivalPct": 48.6
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 32,
+     "survivalPct": 29.1
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 39,
+     "survivalPct": 5.3
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 10,
+     "survivalPct": 15.9
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 22.2,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 4.2,
+   "deathsPer100k": 3.7
+  },
+  "follicular": {
+   "slug": "follicular",
+   "label": "Follicular Lymphoma — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/follicular.html",
+   "byStage": [
+    {
+     "stage": "Stage I",
+     "description": "Confined to Single Region",
+     "casesPct": 23,
+     "survivalPct": 97.2
+    },
+    {
+     "stage": "Stage II",
+     "description": "Involving Mulitple Regions",
+     "casesPct": 15,
+     "survivalPct": 91.1
+    },
+    {
+     "stage": "Stage III",
+     "description": "Spread to Both Sides of Diaphragm",
+     "casesPct": 27,
+     "survivalPct": 88.7
+    },
+    {
+     "stage": "Stage IV",
+     "description": "Diffuse or Disseminated Involvement",
+     "casesPct": 28,
+     "survivalPct": 82.3
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 8,
+     "survivalPct": 88.2
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 88.9,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 2.4,
+   "deathsPer100k": 0.4
+  },
+  "hodg": {
+   "slug": "hodg",
+   "label": "Hodgkin Lymphoma — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/hodg.html",
+   "byStage": [
+    {
+     "stage": "Stage I",
+     "description": "Confined to Single Region",
+     "casesPct": 13,
+     "survivalPct": 92.7
+    },
+    {
+     "stage": "Stage II",
+     "description": "Involving Mulitple Regions",
+     "casesPct": 38,
+     "survivalPct": 95.4
+    },
+    {
+     "stage": "Stage III",
+     "description": "Spread to Both Sides of Diaphragm",
+     "casesPct": 19,
+     "survivalPct": 87.7
+    },
+    {
+     "stage": "Stage IV",
+     "description": "Diffuse or Disseminated Involvement",
+     "casesPct": 25,
+     "survivalPct": 82.8
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 5,
+     "survivalPct": 82.1
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 89.3,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 2.5,
+   "deathsPer100k": 0.2
+  },
+  "kidrp": {
+   "slug": "kidrp",
+   "label": "Kidney and Renal Pelvis Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/kidrp.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 66,
+     "survivalPct": 93.6
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 17,
+     "survivalPct": 77.6
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 15,
+     "survivalPct": 20.3
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 3,
+     "survivalPct": 55.2
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 79.2,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 18,
+   "deathsPer100k": 3.4
+  },
+  "livibd": {
+   "slug": "livibd",
+   "label": "Liver and Intrahepatic Bile Duct Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/livibd.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 45,
+     "survivalPct": 37.4
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 23,
+     "survivalPct": 13.4
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 21,
+     "survivalPct": 3.6
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 10,
+     "survivalPct": 11.6
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 21.9,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 9.5,
+   "deathsPer100k": 6.6
+  },
+  "lungb": {
+   "slug": "lungb",
+   "label": "Lung and Bronchus Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/lungb.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 24,
+     "survivalPct": 65.5
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 21,
+     "survivalPct": 38.2
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 51,
+     "survivalPct": 10.5
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 4,
+     "survivalPct": 17.5
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 29.5,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 47.2,
+   "deathsPer100k": 30.2
+  },
+  "melan": {
+   "slug": "melan",
+   "label": "Melanoma of the Skin — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/melan.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 77,
+     "survivalPct": 100
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 10,
+     "survivalPct": 76
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 5,
+     "survivalPct": 34
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 9,
+     "survivalPct": 95.4
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 94.7,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 22.3,
+   "deathsPer100k": 2
+  },
+  "mulmy": {
+   "slug": "mulmy",
+   "label": "Myeloma — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/mulmy.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 3,
+     "survivalPct": 82.1
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 0,
+     "survivalPct": 80.7
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 96,
+     "survivalPct": 63
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 0,
+     "survivalPct": 69
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 63.7,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 7.4,
+   "deathsPer100k": 2.8
+  },
+  "oralcav": {
+   "slug": "oralcav",
+   "label": "Oral Cavity and Pharynx Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/oralcav.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 26,
+     "survivalPct": 88.7
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 55,
+     "survivalPct": 69.7
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 12,
+     "survivalPct": 36
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 6,
+     "survivalPct": 62.3
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 69.9,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 11.7,
+   "deathsPer100k": 2.7
+  },
+  "ovary": {
+   "slug": "ovary",
+   "label": "Ovarian Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/ovary.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 22,
+     "survivalPct": 91.9
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 18,
+     "survivalPct": 70.1
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 54,
+     "survivalPct": 31.5
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 6,
+     "survivalPct": 38.5
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 52,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 10.4,
+   "deathsPer100k": 5.7
+  },
+  "pancreas": {
+   "slug": "pancreas",
+   "label": "Pancreatic Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/pancreas.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 15,
+     "survivalPct": 43.6
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 28,
+     "survivalPct": 17
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 51,
+     "survivalPct": 3.4
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 5,
+     "survivalPct": 12.5
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 13.7,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 13.9,
+   "deathsPer100k": 11.3
+  },
+  "prost": {
+   "slug": "prost",
+   "label": "Prostate Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/prost.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 69,
+     "survivalPct": 100
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 14,
+     "survivalPct": 100
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 9,
+     "survivalPct": 40.1
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 8,
+     "survivalPct": 94.1
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 98.2,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 123.2,
+   "deathsPer100k": 18.9
+  },
+  "smint": {
+   "slug": "smint",
+   "label": "Small Intestine Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/smint.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 33,
+     "survivalPct": 86.3
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 33,
+     "survivalPct": 79.6
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 27,
+     "survivalPct": 47.9
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 7,
+     "survivalPct": 60.7
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 71.8,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 2.7,
+   "deathsPer100k": 0.5
+  },
+  "soft": {
+   "slug": "soft",
+   "label": "Soft Tissue Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/soft.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 57,
+     "survivalPct": 83.3
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 18,
+     "survivalPct": 58.2
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 17,
+     "survivalPct": 17
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 8,
+     "survivalPct": 62.7
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 65.7,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 3.5,
+   "deathsPer100k": 1.3
+  },
+  "stomach": {
+   "slug": "stomach",
+   "label": "Stomach Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/stomach.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 32,
+     "survivalPct": 78.1
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 23,
+     "survivalPct": 39
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 35,
+     "survivalPct": 8.1
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 9,
+     "survivalPct": 33.6
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 39.8,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 7.5,
+   "deathsPer100k": 2.7
+  },
+  "testis": {
+   "slug": "testis",
+   "label": "Testicular Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/testis.html",
+   "byStage": [],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 94.6,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 6.1,
+   "deathsPer100k": 0.3
+  },
+  "thyro": {
+   "slug": "thyro",
+   "label": "Thyroid Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/thyro.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 63,
+     "survivalPct": 99.9
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 31,
+     "survivalPct": 98.1
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 3,
+     "survivalPct": 48.3
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 3,
+     "survivalPct": 91.9
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 98.3,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 13.7,
+   "deathsPer100k": 0.5
+  },
+  "urinb": {
+   "slug": "urinb",
+   "label": "Bladder Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/urinb.html",
+   "byStage": [
+    {
+     "stage": "In Situ",
+     "description": "Only in Originating Layer of Cells",
+     "casesPct": 50,
+     "survivalPct": 98
+    },
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 34,
+     "survivalPct": 73
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 7,
+     "survivalPct": 41.8
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 6,
+     "survivalPct": 9.6
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 3,
+     "survivalPct": 50.8
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 79.1,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 17.9,
+   "deathsPer100k": 4.1
+  },
+  "vulva": {
+   "slug": "vulva",
+   "label": "Vulvar Cancer — Cancer Stat Facts",
+   "url": "https://seer.cancer.gov/statfacts/html/vulva.html",
+   "byStage": [
+    {
+     "stage": "Localized",
+     "description": "Confined to Primary Site",
+     "casesPct": 58,
+     "survivalPct": 85.5
+    },
+    {
+     "stage": "Regional",
+     "description": "Spread to Regional Lymph Nodes",
+     "casesPct": 27,
+     "survivalPct": 51.4
+    },
+    {
+     "stage": "Distant",
+     "description": "Cancer Has Metastasized",
+     "casesPct": 8,
+     "survivalPct": 20.8
+    },
+    {
+     "stage": "Unknown",
+     "description": "Unstaged",
+     "casesPct": 7,
+     "survivalPct": 61
+    }
+   ],
+   "fetched": "2026-09-09",
+   "overall": {
+    "pct": 69.7,
+    "period": "2016-2022"
+   },
+   "basis": "Based on data from SEER 21 (Excluding IL) 2016-2022.",
+   "newCasesPer100k": 2.6,
+   "deathsPer100k": 0.6
+  }
+ },
+ "failed": []
+}

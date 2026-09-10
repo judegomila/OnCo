@@ -4,6 +4,7 @@ import { calendar, type CalendarKind } from "@/data/calendar";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
 import { statusClass } from "@/lib/text";
+import { TrialChangesPanel } from "@/components/TrialChanges";
 
 export const metadata: Metadata = pageMeta({ title: "Readout calendar", description: "Upcoming FDA decisions, advisory committees, expected trial readouts, and congresses in oncology, on one timeline.", path: "/calendar/" });
 
@@ -40,7 +41,7 @@ export default function CalendarPage() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="intel" />} title="Readout calendar"
-        lede="Regulatory decisions, advisory committees, expected trial readouts, and the congresses where results land. Confirmed items carry a source. Expected items are our editorial estimate from trial registrations and sponsor statements, and can slip by quarters." />
+        lede="Regulatory decisions, advisory committees, expected trial readouts, and the congresses where results land. Confirmed items carry a source. Expected items are our editorial estimate from trial registrations and sponsor statements, and can slip by quarters. Below the timeline, registry changes detected by the weekly ClinicalTrials.gov snapshot wait for editorial review." />
       <Container className="pb-16">
         <div className="flex flex-wrap gap-2 text-sm mb-6">
           <span className={`chip ${statusClass("approved")}`}>{confirmed} confirmed</span>
@@ -70,6 +71,7 @@ export default function CalendarPage() {
             </li>
           ))}
         </ol>
+        <div className="mt-12"><TrialChangesPanel /></div>
         <p className="text-xs text-muted mt-10 max-w-2xl">Missing a date? Add it to <code>src/data/calendar.ts</code> with a source. Expected readouts become confirmed only when a sponsor or registry gives a date.</p>
       </Container>
     </>

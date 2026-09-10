@@ -1,0 +1,38 @@
+name: Refresh research pulse, congress abstracts and citations
+
+on:
+  schedule:
+    - cron: "17 5 * * 4" # Thursdays 05:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/fetch-pulse.ts
+      - run: npx tsx scripts/fetch-abstracts.ts
+      - run: npx tsx scripts/fetch-citations.ts
+      - run: npm run validate
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/refresh-pulse
+          title: "Weekly refresh: automated pulse, congress abstracts, key-paper citations"
+          commit-message: "chore: refresh pulse, abstract and citation snapshots"
+          body: |
+            Automated weekly pull of three literature feeds:
+            - `public/pulse/auto.json`: latest items from journal and news feeds and the FDA OCE page, matched to entity ids (`/pulse/`, automated stream).
+            - `public/digests/candidates.json`: congress abstracts from the JCO, Annals of Oncology, Blood and Cancer Research supplements via Crossref, matched to products and trials (`/digests/`, candidates for the next digest).
+            - `public/openalex/papers.json`: OpenAlex citation counts for every key paper with a DOI (`/papers/`, most cited key papers).
+          labels: automated, pipeline
+          delete-branch: true

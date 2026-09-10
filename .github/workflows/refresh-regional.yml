@@ -1,0 +1,36 @@
+name: Refresh regional approvals check (EMA register)
+
+on:
+  schedule:
+    - cron: "37 6 * * 3" # Wednesdays 06:37 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/fetch-ema.ts
+      - run: npm run validate
+      - run: npm run typecheck
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/refresh-regional
+          title: "Weekly refresh: EMA register check for regional approvals"
+          commit-message: "chore: check regional approvals against the EMA register"
+          body: |
+            Automated weekly comparison of `src/data/regional-approvals.ts` with the EMA human-medicines register (public spreadsheet, no key).
+            Outputs: `public/regional/candidates.json` (missing EU rows, status or year disagreements, oncology medicines not in the corpus) and `public/regional/verified.json` (EU rows that agree, with the check date). When every checked row agrees the `EPAR_CHECKED` stamp in `regional-approvals.ts` moves to today.
+            MHRA and PMDA have no machine-readable lists; UK and Japanese rows stay hand-verified.
+          labels: automated, pipeline
+          delete-branch: true

@@ -8,6 +8,8 @@ import { sources } from "@/data/sources";
 import { pulseAsOf, pulseItems, pulseThemes } from "@/data/pulse";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PulseBoard, type PulseSource, type RefLite } from "@/components/PulseBoard";
+import { AutoPulse, type AutoPulseSnapshot } from "@/components/AutoPulse";
+import { readPublicJson } from "@/lib/feed-meta";
 
 export const metadata: Metadata = pageMeta({ title: "Research pulse", description: "What the leading oncology journals, preprint servers, regulators, and news outlets are saying right now, and the cross-source themes.", path: "/pulse/" });
 
@@ -25,6 +27,9 @@ export default function PulsePage() {
   for (const it of pulseItems) for (const id of it.refs) { const e = g.get(id); if (e) refs[id] = { id, name: e.name, route: routeFor(e), kind: e.kind }; }
   for (const t of pulseThemes) for (const id of t.refs) { const e = g.get(id); if (e) refs[id] = { id, name: e.name, route: routeFor(e), kind: e.kind }; }
 
+  const auto = readPublicJson<AutoPulseSnapshot>("pulse/auto.json");
+  if (auto) for (const it of auto.items) for (const id of it.refs) { const e = g.get(id); if (e) refs[id] = { id, name: e.name, route: routeFor(e), kind: e.kind }; }
+
   const bySourceType = srcs.reduce<Record<string, number>>((a, s) => { a[s.type] = (a[s.type] ?? 0) + 1; return a; }, {});
 
   return (
@@ -34,9 +39,14 @@ export default function PulsePage() {
         right={<Link href="/collections/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">All sources →</Link>} />
       <Container className="pb-16">
         <PulseBoard items={pulseItems} themes={pulseThemes} sources={srcs} refs={refs} asOf={pulseAsOf} />
+        <section className="mt-12">
+          <div className="flex flex-wrap items-baseline justify-between gap-3 mb-1"><h2 className="text-xl font-semibold tracking-tight">Automated stream</h2>{auto && <span className="text-xs text-muted">fetched {auto.fetched} · refreshed weekly</span>}</div>
+          <p className="text-sm text-muted mb-3 max-w-3xl">Everything the leading journals, the FDA Oncology Center of Excellence and two news outlets published recently, pulled from their feeds without editing and matched to OnCo objects by name. The curated board above is a reading of the field; this is the raw material it is read from.</p>
+          {auto ? <AutoPulse snap={auto} refs={refs} /> : <p className="card p-4 text-sm text-muted">The automated stream has not been fetched yet. Run <code>npx tsx scripts/fetch-pulse.ts</code>.</p>}
+        </section>
         <section className="mt-12 card p-5 text-sm text-muted max-w-3xl">
           <div className="kicker mb-1">How we read the field</div>
-          <p>Each item above was read on the date shown and links to the page it came from. Sentiment is an editorial label (promising, cautious, negative, neutral) about the item&apos;s implication for patients, not a judgement of the source. Themes are synthesised across sources and given a heat score from 1 to 5 for how much of the field&apos;s attention they hold this month. Several publishers block automated reading, so journal items are drawn from PubMed records of their latest papers; news items come from the outlets&apos; own pages. The source list covers {srcs.length} outlets: {Object.entries(bySourceType).map(([t, n]) => `${n} ${t}`).join(", ")}. This page is rebuilt by hand when the field moves; it is not live.</p>
+          <p>Each item above was read on the date shown and links to the page it came from. Sentiment is an editorial label (promising, cautious, negative, neutral) about the item&apos;s implication for patients, not a judgement of the source. Themes are synthesised across sources and given a heat score from 1 to 5 for how much of the field&apos;s attention they hold this month. Several publishers block automated reading, so journal items are drawn from PubMed records of their latest papers; news items come from the outlets&apos; own pages. The source list covers {srcs.length} outlets: {Object.entries(bySourceType).map(([t, n]) => `${n} ${t}`).join(", ")}. The curated board is rebuilt by hand when the field moves; the automated stream below it is refreshed weekly by GitHub Actions (<Link className="underline" href="/status/">feed status</Link>).</p>
         </section>
       </Container>
     </>

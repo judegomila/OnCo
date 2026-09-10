@@ -1,0 +1,9 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "Reactome: pathways matching 'cancer' (human)",
+  "url": "https://reactome.org/content/query?q=cancer&species=Homo+sapiens&types=Pathway"
+ },
+ "method": "Reactome ContentService search for 'cancer', species Homo sapiens, type Pathway; the number of matching pathways. A text search, so approximate.",
+ "total": 492
+}

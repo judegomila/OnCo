@@ -1,0 +1,2209 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "NLM Catalog: journals currently indexed for MEDLINE, broad subject term Neoplasms",
+  "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=neoplasms%5Bst%5D%20AND%20currentlyindexed%5BAll%5D"
+ },
+ "method": "E-utilities esearch on the NLM Catalog for 'neoplasms[st] AND currentlyindexed[All]' (the MEDLINE broad subject term for cancer journals), then esummary for titles and ISSNs.",
+ "total": 223,
+ "items": [
+  {
+   "nlmId": "8709065",
+   "title": "Acta oncologica",
+   "medlineTa": "Acta Oncol",
+   "issn": [
+    "0284-186X",
+    "1651-226X"
+   ],
+   "country": "Sweden"
+  },
+  {
+   "nlmId": "370416",
+   "title": "Advances in cancer research",
+   "medlineTa": "Adv Cancer Res",
+   "issn": [
+    "0065-230X",
+    "2162-5557"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8207754",
+   "title": "American journal of clinical oncology",
+   "medlineTa": "Am J Clin Oncol",
+   "issn": [
+    "0277-3732",
+    "1537-453X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101233985",
+   "title": "American Society of Clinical Oncology educational book",
+   "medlineTa": "Am Soc Clin Oncol Educ Book",
+   "issn": [
+    "1548-8748",
+    "1548-8756"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101541993",
+   "title": "Analytical cellular pathology (Amsterdam)",
+   "medlineTa": "Anal Cell Pathol (Amst)",
+   "issn": [
+    "2210-7177",
+    "2210-7185"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9007735",
+   "title": "Annals of oncology : official journal of the European Society for Medical Oncology",
+   "medlineTa": "Ann Oncol",
+   "issn": [
+    "0923-7534",
+    "1569-8041"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9420840",
+   "title": "Annals of surgical oncology",
+   "medlineTa": "Ann Surg Oncol",
+   "issn": [
+    "1068-9265",
+    "1534-4681"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8102988",
+   "title": "Anticancer research",
+   "medlineTa": "Anticancer Res",
+   "issn": [
+    "0250-7005",
+    "1791-7530"
+   ],
+   "country": "Greece"
+  },
+  {
+   "nlmId": "101241430",
+   "title": "Asia-Pacific journal of clinical oncology",
+   "medlineTa": "Asia Pac J Clin Oncol",
+   "issn": [
+    "1743-7555",
+    "1743-7563"
+   ],
+   "country": "Australia"
+  },
+  {
+   "nlmId": "101130625",
+   "title": "Asian Pacific journal of cancer prevention : APJCP",
+   "medlineTa": "Asian Pac J Cancer Prev",
+   "issn": [
+    "1513-7368",
+    "2476-762X"
+   ],
+   "country": "Thailand"
+  },
+  {
+   "nlmId": "9806362",
+   "title": "Biochimica et biophysica acta. Reviews on cancer",
+   "medlineTa": "Biochim Biophys Acta Rev Cancer",
+   "issn": [
+    "1879-2561",
+    "0304-419X"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "101764786",
+   "title": "Blood cancer discovery",
+   "medlineTa": "Blood Cancer Discov",
+   "issn": [
+    "2643-3249",
+    "2643-3230"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101568469",
+   "title": "Blood cancer journal",
+   "medlineTa": "Blood Cancer J",
+   "issn": [
+    "2044-5385"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "100967800",
+   "title": "BMC cancer",
+   "medlineTa": "BMC Cancer",
+   "issn": [
+    "1471-2407"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9716507",
+   "title": "Brain tumor pathology",
+   "medlineTa": "Brain Tumor Pathol",
+   "issn": [
+    "1433-7398",
+    "1861-387X"
+   ],
+   "country": "Japan"
+  },
+  {
+   "nlmId": "100888201",
+   "title": "Breast cancer : the journal of the Japanese Breast Cancer Society",
+   "medlineTa": "Breast Cancer",
+   "issn": [
+    "1340-6868",
+    "1880-4233"
+   ],
+   "country": "Japan"
+  },
+  {
+   "nlmId": "100927353",
+   "title": "Breast cancer research : BCR",
+   "medlineTa": "Breast Cancer Res",
+   "issn": [
+    "1465-5411",
+    "1465-542X"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "8111104",
+   "title": "Breast cancer research and treatment",
+   "medlineTa": "Breast Cancer Res Treat",
+   "issn": [
+    "0167-6806",
+    "1573-7217"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "370635",
+   "title": "British journal of cancer",
+   "medlineTa": "Br J Cancer",
+   "issn": [
+    "0007-0920",
+    "1532-1827"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "72416",
+   "title": "Bulletin du cancer",
+   "medlineTa": "Bull Cancer",
+   "issn": [
+    "0007-4551",
+    "1769-6917"
+   ],
+   "country": "France"
+  },
+  {
+   "nlmId": "370647",
+   "title": "CA: a cancer journal for clinicians",
+   "medlineTa": "CA Cancer J Clin",
+   "issn": [
+    "0007-9235",
+    "1542-4863"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "374236",
+   "title": "Cancer",
+   "medlineTa": "Cancer",
+   "issn": [
+    "0008-543X",
+    "1097-0142"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101588850",
+   "title": "Cancer biology & medicine",
+   "medlineTa": "Cancer Biol Med",
+   "issn": [
+    "2095-3941"
+   ],
+   "country": "China"
+  },
+  {
+   "nlmId": "101137842",
+   "title": "Cancer biology & therapy",
+   "medlineTa": "Cancer Biol Ther",
+   "issn": [
+    "1538-4047",
+    "1555-8576"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101256509",
+   "title": "Cancer biomarkers : section A of Disease markers",
+   "medlineTa": "Cancer Biomark",
+   "issn": [
+    "1574-0153",
+    "1875-8592"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9605408",
+   "title": "Cancer biotherapy & radiopharmaceuticals",
+   "medlineTa": "Cancer Biother Radiopharm",
+   "issn": [
+    "1084-9785",
+    "1557-8852"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9100846",
+   "title": "Cancer causes & control : CCC",
+   "medlineTa": "Cancer Causes Control",
+   "issn": [
+    "0957-5243",
+    "1573-7225"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "101130617",
+   "title": "Cancer cell",
+   "medlineTa": "Cancer Cell",
+   "issn": [
+    "1535-6108",
+    "1878-3686"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "7806519",
+   "title": "Cancer chemotherapy and pharmacology",
+   "medlineTa": "Cancer Chemother Pharmacol",
+   "issn": [
+    "0344-5704",
+    "1432-0843"
+   ],
+   "country": "Germany"
+  },
+  {
+   "nlmId": "101723675",
+   "title": "Cancer communications",
+   "medlineTa": "Cancer Commun (Lond)",
+   "issn": [
+    "2523-3548"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9438457",
+   "title": "Cancer control : journal of the Moffitt Cancer Center",
+   "medlineTa": "Cancer Control",
+   "issn": [
+    "1073-2748",
+    "1526-2359"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101499453",
+   "title": "Cancer cytopathology",
+   "medlineTa": "Cancer Cytopathol",
+   "issn": [
+    "1934-662X",
+    "1934-6638"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101561693",
+   "title": "Cancer discovery",
+   "medlineTa": "Cancer Discov",
+   "issn": [
+    "2159-8274",
+    "2159-8290"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101508793",
+   "title": "Cancer epidemiology",
+   "medlineTa": "Cancer Epidemiol",
+   "issn": [
+    "1877-7821",
+    "1877-783X"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "9200608",
+   "title": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+   "medlineTa": "Cancer Epidemiol Biomarkers Prev",
+   "issn": [
+    "1055-9965",
+    "1538-7755"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9432230",
+   "title": "Cancer gene therapy",
+   "medlineTa": "Cancer Gene Ther",
+   "issn": [
+    "0929-1903",
+    "1476-5500"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101539150",
+   "title": "Cancer genetics",
+   "medlineTa": "Cancer Genet",
+   "issn": [
+    "2210-7762"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101188791",
+   "title": "Cancer genomics & proteomics",
+   "medlineTa": "Cancer Genomics Proteomics",
+   "issn": [
+    "1109-6535",
+    "1790-6245"
+   ],
+   "country": "Greece"
+  },
+  {
+   "nlmId": "101172931",
+   "title": "Cancer imaging : the official publication of the International Cancer Imaging Society",
+   "medlineTa": "Cancer Imaging",
+   "issn": [
+    "1470-7330",
+    "1740-5025"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101614637",
+   "title": "Cancer immunology research",
+   "medlineTa": "Cancer Immunol Res",
+   "issn": [
+    "2326-6066",
+    "2326-6074"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8605732",
+   "title": "Cancer immunology, immunotherapy : CII",
+   "medlineTa": "Cancer Immunol Immunother",
+   "issn": [
+    "0340-7004",
+    "1432-0851"
+   ],
+   "country": "Germany"
+  },
+  {
+   "nlmId": "8307154",
+   "title": "Cancer investigation",
+   "medlineTa": "Cancer Invest",
+   "issn": [
+    "0735-7907",
+    "1532-4192"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "7600053",
+   "title": "Cancer letters",
+   "medlineTa": "Cancer Lett",
+   "issn": [
+    "0304-3835",
+    "1872-7980"
+   ],
+   "country": "Ireland"
+  },
+  {
+   "nlmId": "101595310",
+   "title": "Cancer medicine",
+   "medlineTa": "Cancer Med",
+   "issn": [
+    "2045-7634"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8605731",
+   "title": "Cancer metastasis reviews",
+   "medlineTa": "Cancer Metastasis Rev",
+   "issn": [
+    "0167-7659",
+    "1573-7233"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "7805358",
+   "title": "Cancer nursing",
+   "medlineTa": "Cancer Nurs",
+   "issn": [
+    "0162-220X",
+    "1538-9804"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101479409",
+   "title": "Cancer prevention research",
+   "medlineTa": "Cancer Prev Res (Phila)",
+   "issn": [
+    "1940-6207",
+    "1940-6215"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9711272",
+   "title": "Cancer radiothérapie : journal de la Société française de radiothérapie oncologique",
+   "medlineTa": "Cancer Radiother",
+   "issn": [
+    "1278-3218",
+    "1769-6658"
+   ],
+   "country": "France"
+  },
+  {
+   "nlmId": "101747728",
+   "title": "Cancer reports",
+   "medlineTa": "Cancer Rep (Hoboken)",
+   "issn": [
+    "2573-8348"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "445711",
+   "title": "Cancer research",
+   "medlineTa": "Cancer Res",
+   "issn": [
+    "0008-5472",
+    "1538-7445"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101155137",
+   "title": "Cancer research and treatment",
+   "medlineTa": "Cancer Res Treat",
+   "issn": [
+    "1598-2998",
+    "2005-9256"
+   ],
+   "country": "Korea (South)"
+  },
+  {
+   "nlmId": "489454",
+   "title": "Cancer research communications",
+   "medlineTa": "Cancer Res Commun",
+   "issn": [
+    "2767-9764"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101168776",
+   "title": "Cancer science",
+   "medlineTa": "Cancer Sci",
+   "issn": [
+    "1347-9032",
+    "1349-7006"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "8008541",
+   "title": "Cancer treatment and research",
+   "medlineTa": "Cancer Treat Res",
+   "issn": [
+    "0927-3042"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101694651",
+   "title": "Cancer treatment and research communications",
+   "medlineTa": "Cancer Treat Res Commun",
+   "issn": [
+    "2468-2942"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "7502030",
+   "title": "Cancer treatment reviews",
+   "medlineTa": "Cancer Treat Rev",
+   "issn": [
+    "0305-7372",
+    "1532-1967"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "8008055",
+   "title": "Carcinogenesis",
+   "medlineTa": "Carcinogenesis",
+   "issn": [
+    "0143-3334",
+    "1460-2180"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101552938",
+   "title": "Cellular oncology",
+   "medlineTa": "Cell Oncol (Dordr)",
+   "issn": [
+    "2211-3428",
+    "2211-3436"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "101608375",
+   "title": "Chinese clinical oncology",
+   "medlineTa": "Chin Clin Oncol",
+   "issn": [
+    "2304-3873",
+    "2304-3865"
+   ],
+   "country": "China"
+  },
+  {
+   "nlmId": "8409970",
+   "title": "Clinical & experimental metastasis",
+   "medlineTa": "Clin Exp Metastasis",
+   "issn": [
+    "0262-0898",
+    "1573-7276"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "101247119",
+   "title": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+   "medlineTa": "Clin Transl Oncol",
+   "issn": [
+    "1699-048X",
+    "1699-3055"
+   ],
+   "country": "Italy"
+  },
+  {
+   "nlmId": "101167661",
+   "title": "Clinical advances in hematology & oncology : H&O",
+   "medlineTa": "Clin Adv Hematol Oncol",
+   "issn": [
+    "1543-0790"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "100898731",
+   "title": "Clinical breast cancer",
+   "medlineTa": "Clin Breast Cancer",
+   "issn": [
+    "1526-8209",
+    "1938-0666"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9502500",
+   "title": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+   "medlineTa": "Clin Cancer Res",
+   "issn": [
+    "1078-0432",
+    "1557-3265"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101120693",
+   "title": "Clinical colorectal cancer",
+   "medlineTa": "Clin Colorectal Cancer",
+   "issn": [
+    "1533-0028",
+    "1938-0674"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101260955",
+   "title": "Clinical genitourinary cancer",
+   "medlineTa": "Clin Genitourin Cancer",
+   "issn": [
+    "1558-7673",
+    "1938-0682"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9705336",
+   "title": "Clinical journal of oncology nursing",
+   "medlineTa": "Clin J Oncol Nurs",
+   "issn": [
+    "1092-1095",
+    "1538-067X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "100893225",
+   "title": "Clinical lung cancer",
+   "medlineTa": "Clin Lung Cancer",
+   "issn": [
+    "1525-7304",
+    "1938-0690"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101525386",
+   "title": "Clinical lymphoma, myeloma & leukemia",
+   "medlineTa": "Clin Lymphoma Myeloma Leuk",
+   "issn": [
+    "2152-2650",
+    "2152-2669"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9002902",
+   "title": "Clinical oncology : a journal of the Royal College of Radiologists",
+   "medlineTa": "Clin Oncol (R Coll Radiol)",
+   "issn": [
+    "0936-6555",
+    "1433-2981"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101594668",
+   "title": "CNS oncology",
+   "medlineTa": "CNS Oncol",
+   "issn": [
+    "2045-0907",
+    "2045-0915"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "8914610",
+   "title": "Critical reviews in oncogenesis",
+   "medlineTa": "Crit Rev Oncog",
+   "issn": [
+    "0893-9675",
+    "2162-6448"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8916049",
+   "title": "Critical reviews in oncology/hematology",
+   "medlineTa": "Crit Rev Oncol Hematol",
+   "issn": [
+    "1040-8428",
+    "1879-0461"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "101094211",
+   "title": "Current cancer drug targets",
+   "medlineTa": "Curr Cancer Drug Targets",
+   "issn": [
+    "1568-0096",
+    "1873-5576"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "101262565",
+   "title": "Current hematologic malignancy reports",
+   "medlineTa": "Curr Hematol Malig Rep",
+   "issn": [
+    "1558-8211",
+    "1558-822X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9502503",
+   "title": "Current oncology",
+   "medlineTa": "Curr Oncol",
+   "issn": [
+    "1198-0052",
+    "1718-7729"
+   ],
+   "country": "Switzerland"
+  },
+  {
+   "nlmId": "100888967",
+   "title": "Current oncology reports",
+   "medlineTa": "Curr Oncol Rep",
+   "issn": [
+    "1523-3790",
+    "1534-6269"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9007265",
+   "title": "Current opinion in oncology",
+   "medlineTa": "Curr Opin Oncol",
+   "issn": [
+    "1040-8746",
+    "1531-703X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "7702986",
+   "title": "Current problems in cancer",
+   "medlineTa": "Curr Probl Cancer",
+   "issn": [
+    "0147-0272",
+    "1535-6345"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "100900946",
+   "title": "Current treatment options in oncology",
+   "medlineTa": "Curr Treat Options Oncol",
+   "issn": [
+    "1527-2729",
+    "1534-6277"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9436481",
+   "title": "Endocrine-related cancer",
+   "medlineTa": "Endocr Relat Cancer",
+   "issn": [
+    "1351-0088",
+    "1479-6821"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101206627",
+   "title": "Esophagus : official journal of the Japan Esophageal Society",
+   "medlineTa": "Esophagus",
+   "issn": [
+    "1612-9059",
+    "1612-9067"
+   ],
+   "country": "Japan"
+  },
+  {
+   "nlmId": "9005373",
+   "title": "European journal of cancer : official journal for European Organization for Research and Treatment of Cancer (EORTC) [and] European Association for Cancer Research (EACR)",
+   "medlineTa": "Eur J Cancer",
+   "issn": [
+    "0959-8049",
+    "1879-0852"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9300837",
+   "title": "European journal of cancer prevention : the official journal of the European Cancer Prevention Organisation (ECP)",
+   "medlineTa": "Eur J Cancer Prev",
+   "issn": [
+    "0959-8278",
+    "1473-5709"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "100885136",
+   "title": "European journal of oncology nursing : the official journal of European Oncology Nursing Society",
+   "medlineTa": "Eur J Oncol Nurs",
+   "issn": [
+    "1462-3889",
+    "1532-2122"
+   ],
+   "country": "Scotland"
+  },
+  {
+   "nlmId": "8504356",
+   "title": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+   "medlineTa": "Eur J Surg Oncol",
+   "issn": [
+    "0748-7983",
+    "1532-2157"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101604579",
+   "title": "European thyroid journal",
+   "medlineTa": "Eur Thyroid J",
+   "issn": [
+    "2235-0640",
+    "2235-0802"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101724904",
+   "title": "European urology oncology",
+   "medlineTa": "Eur Urol Oncol",
+   "issn": [
+    "2588-9311"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "101230541",
+   "title": "Experimental oncology",
+   "medlineTa": "Exp Oncol",
+   "issn": [
+    "1812-9269",
+    "2312-8852"
+   ],
+   "country": "Ukraine"
+  },
+  {
+   "nlmId": "101123358",
+   "title": "Expert review of anticancer therapy",
+   "medlineTa": "Expert Rev Anticancer Ther",
+   "issn": [
+    "1473-7140",
+    "1744-8328"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "100898211",
+   "title": "Familial cancer",
+   "medlineTa": "Fam Cancer",
+   "issn": [
+    "1389-9600",
+    "1573-7292"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "101256629",
+   "title": "Future oncology",
+   "medlineTa": "Future Oncol",
+   "issn": [
+    "1479-6694",
+    "1744-8301"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "7810034",
+   "title": "Gan to kagaku ryoho. Cancer & chemotherapy",
+   "medlineTa": "Gan To Kagaku Ryoho",
+   "issn": [
+    "0385-0684"
+   ],
+   "country": "Japan"
+  },
+  {
+   "nlmId": "100886238",
+   "title": "Gastric cancer : official journal of the International Gastric Cancer Association and the Japanese Gastric Cancer Association",
+   "medlineTa": "Gastric Cancer",
+   "issn": [
+    "1436-3291",
+    "1436-3305"
+   ],
+   "country": "Japan"
+  },
+  {
+   "nlmId": "9007329",
+   "title": "Genes, chromosomes & cancer",
+   "medlineTa": "Genes Chromosomes Cancer",
+   "issn": [
+    "1045-2257",
+    "1098-2264"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "365304",
+   "title": "Gynecologic oncology",
+   "medlineTa": "Gynecol Oncol",
+   "issn": [
+    "0090-8258",
+    "1095-6859"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8902541",
+   "title": "Head & neck",
+   "medlineTa": "Head Neck",
+   "issn": [
+    "1043-3074",
+    "1097-0347"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101304010",
+   "title": "Head and neck pathology",
+   "medlineTa": "Head Neck Pathol",
+   "issn": [
+    "1936-055X",
+    "1936-0568"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8307268",
+   "title": "Hematological oncology",
+   "medlineTa": "Hematol Oncol",
+   "issn": [
+    "0278-0232",
+    "1099-1069"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101468532",
+   "title": "Hematology/oncology and stem cell therapy",
+   "medlineTa": "Hematol Oncol Stem Cell Ther",
+   "issn": [
+    "1658-3876",
+    "2589-0646"
+   ],
+   "country": "India"
+  },
+  {
+   "nlmId": "8709473",
+   "title": "Hematology/oncology clinics of North America",
+   "medlineTa": "Hematol Oncol Clin North Am",
+   "issn": [
+    "0889-8588",
+    "1558-1977"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8806809",
+   "title": "In vivo",
+   "medlineTa": "In Vivo",
+   "issn": [
+    "0258-851X",
+    "1791-7549"
+   ],
+   "country": "Greece"
+  },
+  {
+   "nlmId": "112040",
+   "title": "Indian journal of cancer",
+   "medlineTa": "Indian J Cancer",
+   "issn": [
+    "0019-509X",
+    "1998-4774"
+   ],
+   "country": "India"
+  },
+  {
+   "nlmId": "101128834",
+   "title": "Integrative cancer therapies",
+   "medlineTa": "Integr Cancer Ther",
+   "issn": [
+    "1534-7354",
+    "1552-695X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "42124",
+   "title": "International journal of cancer",
+   "medlineTa": "Int J Cancer",
+   "issn": [
+    "0020-7136",
+    "1097-0215"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9616295",
+   "title": "International journal of clinical oncology",
+   "medlineTa": "Int J Clin Oncol",
+   "issn": [
+    "1341-9625",
+    "1437-7772"
+   ],
+   "country": "Japan"
+  },
+  {
+   "nlmId": "9111626",
+   "title": "International journal of gynecological cancer : official journal of the International Gynecological Cancer Society",
+   "medlineTa": "Int J Gynecol Cancer",
+   "issn": [
+    "1048-891X",
+    "1525-1438"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8508395",
+   "title": "International journal of hyperthermia : the official journal of European Society for Hyperthermic Oncology, North American Hyperthermia Group",
+   "medlineTa": "Int J Hyperthermia",
+   "issn": [
+    "0265-6736",
+    "1464-5157"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9306042",
+   "title": "International journal of oncology",
+   "medlineTa": "Int J Oncol",
+   "issn": [
+    "1019-6439",
+    "1791-2423"
+   ],
+   "country": "Greece"
+  },
+  {
+   "nlmId": "7603616",
+   "title": "International journal of radiation oncology, biology, physics",
+   "medlineTa": "Int J Radiat Oncol Biol Phys",
+   "issn": [
+    "0360-3016",
+    "1879-355X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101652861",
+   "title": "JAMA oncology",
+   "medlineTa": "JAMA Oncol",
+   "issn": [
+    "2374-2437",
+    "2374-2445"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "313225",
+   "title": "Japanese journal of clinical oncology",
+   "medlineTa": "Jpn J Clin Oncol",
+   "issn": [
+    "0368-2811",
+    "1465-3621"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101708809",
+   "title": "JCO clinical cancer informatics",
+   "medlineTa": "JCO Clin Cancer Inform",
+   "issn": [
+    "2473-4276"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101760170",
+   "title": "JCO global oncology",
+   "medlineTa": "JCO Glob Oncol",
+   "issn": [
+    "2687-8941"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101758685",
+   "title": "JCO oncology practice",
+   "medlineTa": "JCO Oncol Pract",
+   "issn": [
+    "2688-1535",
+    "2688-1527"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101705370",
+   "title": "JCO precision oncology",
+   "medlineTa": "JCO Precis Oncol",
+   "issn": [
+    "2473-4284"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101666844",
+   "title": "JMIR cancer",
+   "medlineTa": "JMIR Cancer",
+   "issn": [
+    "2369-1999"
+   ],
+   "country": "Canada"
+  },
+  {
+   "nlmId": "101721827",
+   "title": "JNCI cancer spectrum",
+   "medlineTa": "JNCI Cancer Spectr",
+   "issn": [
+    "2515-5091"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101620585",
+   "title": "Journal for immunotherapy of cancer",
+   "medlineTa": "J Immunother Cancer",
+   "issn": [
+    "2051-1426"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101543508",
+   "title": "Journal of adolescent and young adult oncology",
+   "medlineTa": "J Adolesc Young Adult Oncol",
+   "issn": [
+    "2156-5333",
+    "2156-535X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101752190",
+   "title": "Journal of breast imaging",
+   "medlineTa": "J Breast Imaging",
+   "issn": [
+    "2631-6129",
+    "2631-6110"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101552883",
+   "title": "Journal of cachexia, sarcopenia and muscle",
+   "medlineTa": "J Cachexia Sarcopenia Muscle",
+   "issn": [
+    "2190-6009",
+    "2190-5991"
+   ],
+   "country": "Germany"
+  },
+  {
+   "nlmId": "8610343",
+   "title": "Journal of cancer education : the official journal of the American Association for Cancer Education",
+   "medlineTa": "J Cancer Educ",
+   "issn": [
+    "0885-8195",
+    "1543-0154"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101639933",
+   "title": "Journal of cancer policy",
+   "medlineTa": "J Cancer Policy",
+   "issn": [
+    "2213-5383"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "7902060",
+   "title": "Journal of cancer research and clinical oncology",
+   "medlineTa": "J Cancer Res Clin Oncol",
+   "issn": [
+    "0171-5216",
+    "1432-1335"
+   ],
+   "country": "Germany"
+  },
+  {
+   "nlmId": "101249598",
+   "title": "Journal of cancer research and therapeutics",
+   "medlineTa": "J Cancer Res Ther",
+   "issn": [
+    "0973-1482",
+    "1998-4138"
+   ],
+   "country": "India"
+  },
+  {
+   "nlmId": "101307557",
+   "title": "Journal of cancer survivorship : research and practice",
+   "medlineTa": "J Cancer Surviv",
+   "issn": [
+    "1932-2259",
+    "1932-2267"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8309333",
+   "title": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+   "medlineTa": "J Clin Oncol",
+   "issn": [
+    "0732-183X",
+    "1527-7755"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8501420",
+   "title": "Journal of environmental pathology, toxicology and oncology : official organ of the International Society for Environmental Toxicology and Cancer",
+   "medlineTa": "J Environ Pathol Toxicol Oncol",
+   "issn": [
+    "0731-8898",
+    "2162-6537"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8308647",
+   "title": "Journal of experimental & clinical cancer research : CR",
+   "medlineTa": "J Exp Clin Cancer Res",
+   "issn": [
+    "0392-9078",
+    "1756-9966"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101559430",
+   "title": "Journal of gastric cancer",
+   "medlineTa": "J Gastric Cancer",
+   "issn": [
+    "2093-582X",
+    "2093-5641"
+   ],
+   "country": "Korea (South)"
+  },
+  {
+   "nlmId": "101479627",
+   "title": "Journal of gastrointestinal cancer",
+   "medlineTa": "J Gastrointest Cancer",
+   "issn": [
+    "1941-6628",
+    "1941-6636"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101534770",
+   "title": "Journal of geriatric oncology",
+   "medlineTa": "J Geriatr Oncol",
+   "issn": [
+    "1879-4068",
+    "1879-4076"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "101483150",
+   "title": "Journal of gynecologic oncology",
+   "medlineTa": "J Gynecol Oncol",
+   "issn": [
+    "2005-0380",
+    "2005-0399"
+   ],
+   "country": "Korea (South)"
+  },
+  {
+   "nlmId": "101468937",
+   "title": "Journal of hematology & oncology",
+   "medlineTa": "J Hematol Oncol",
+   "issn": [
+    "1756-8722"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9706083",
+   "title": "Journal of immunotherapy",
+   "medlineTa": "J Immunother",
+   "issn": [
+    "1524-9557",
+    "1537-4513"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9601804",
+   "title": "Journal of mammary gland biology and neoplasia",
+   "medlineTa": "J Mammary Gland Biol Neoplasia",
+   "issn": [
+    "1083-3021",
+    "1573-7039"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101469340",
+   "title": "Journal of medical imaging and radiation oncology",
+   "medlineTa": "J Med Imaging Radiat Oncol",
+   "issn": [
+    "1754-9477",
+    "1754-9485"
+   ],
+   "country": "Australia"
+  },
+  {
+   "nlmId": "8309335",
+   "title": "Journal of neuro-oncology",
+   "medlineTa": "J Neurooncol",
+   "issn": [
+    "0167-594X",
+    "1573-7373"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9511372",
+   "title": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+   "medlineTa": "J Oncol Pharm Pract",
+   "issn": [
+    "1078-1552",
+    "1477-092X"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9505928",
+   "title": "Journal of pediatric hematology/oncology",
+   "medlineTa": "J Pediatr Hematol Oncol",
+   "issn": [
+    "1077-4114",
+    "1536-3678"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "489718",
+   "title": "Journal of pediatric hematology/oncology nursing",
+   "medlineTa": "J Pediatr Hematol Oncol Nurs",
+   "issn": [
+    "2752-7549",
+    "2752-7530"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8309337",
+   "title": "Journal of psychosocial oncology",
+   "medlineTa": "J Psychosoc Oncol",
+   "issn": [
+    "0734-7332",
+    "1540-7586"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "376611",
+   "title": "Journal of radiation research",
+   "medlineTa": "J Radiat Res",
+   "issn": [
+    "0449-3060",
+    "1349-9157"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9804163",
+   "title": "Journal of registry management",
+   "medlineTa": "J Registry Manag",
+   "issn": [
+    "1945-6123",
+    "1945-6131"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "222643",
+   "title": "Journal of surgical oncology",
+   "medlineTa": "J Surg Oncol",
+   "issn": [
+    "0022-4790",
+    "1096-9098"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9424566",
+   "title": "Journal of the Egyptian National Cancer Institute",
+   "medlineTa": "J Egypt Natl Canc Inst",
+   "issn": [
+    "1110-0362",
+    "2589-0409"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "7503089",
+   "title": "Journal of the National Cancer Institute",
+   "medlineTa": "J Natl Cancer Inst",
+   "issn": [
+    "0027-8874",
+    "1460-2105"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9011255",
+   "title": "Journal of the National Cancer Institute. Monographs",
+   "medlineTa": "J Natl Cancer Inst Monogr",
+   "issn": [
+    "1052-6773",
+    "1745-6614"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101162515",
+   "title": "Journal of the National Comprehensive Cancer Network : JNCCN",
+   "medlineTa": "J Natl Compr Canc Netw",
+   "issn": [
+    "1540-1405",
+    "1540-1413"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101274235",
+   "title": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+   "medlineTa": "J Thorac Oncol",
+   "issn": [
+    "1556-0864",
+    "1556-1380"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9425213",
+   "title": "Klinická onkologie : casopis Ceské a Slovenské onkologické spolecnosti",
+   "medlineTa": "Klin Onkol",
+   "issn": [
+    "0862-495X",
+    "1802-5307"
+   ],
+   "country": "Czech Republic"
+  },
+  {
+   "nlmId": "8704895",
+   "title": "Leukemia",
+   "medlineTa": "Leukemia",
+   "issn": [
+    "0887-6924",
+    "1476-5551"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9007422",
+   "title": "Leukemia & lymphoma",
+   "medlineTa": "Leuk Lymphoma",
+   "issn": [
+    "1042-8194",
+    "1029-2403",
+    "1026-8022"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "7706787",
+   "title": "Leukemia research",
+   "medlineTa": "Leuk Res",
+   "issn": [
+    "0145-2126",
+    "1873-5835"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "8800805",
+   "title": "Lung cancer : journal of the International Association for the Study of Lung Cancer",
+   "medlineTa": "Lung Cancer",
+   "issn": [
+    "0169-5002",
+    "1872-8332"
+   ],
+   "country": "Ireland"
+  },
+  {
+   "nlmId": "9313833",
+   "title": "Magyar onkologia",
+   "medlineTa": "Magy Onkol",
+   "issn": [
+    "0025-0244",
+    "2060-0399"
+   ],
+   "country": "Hungary"
+  },
+  {
+   "nlmId": "9435512",
+   "title": "Medical oncology",
+   "medlineTa": "Med Oncol",
+   "issn": [
+    "1357-0560",
+    "1559-131X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9109623",
+   "title": "Melanoma research",
+   "medlineTa": "Melanoma Res",
+   "issn": [
+    "0960-8931",
+    "1473-5636"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101147698",
+   "title": "Molecular cancer",
+   "medlineTa": "Mol Cancer",
+   "issn": [
+    "1476-4598"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101150042",
+   "title": "Molecular cancer research : MCR",
+   "medlineTa": "Mol Cancer Res",
+   "issn": [
+    "1541-7786",
+    "1557-3125"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8811105",
+   "title": "Molecular carcinogenesis",
+   "medlineTa": "Mol Carcinog",
+   "issn": [
+    "0899-1987",
+    "1098-2744"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101308230",
+   "title": "Molecular oncology",
+   "medlineTa": "Mol Oncol",
+   "issn": [
+    "1574-7891",
+    "1878-0261"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101769553",
+   "title": "NAR cancer",
+   "medlineTa": "NAR Cancer",
+   "issn": [
+    "2632-8674"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101761119",
+   "title": "Nature cancer",
+   "medlineTa": "Nat Cancer",
+   "issn": [
+    "2662-1347"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101124168",
+   "title": "Nature reviews. Cancer",
+   "medlineTa": "Nat Rev Cancer",
+   "issn": [
+    "1474-175X",
+    "1474-1768"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101500077",
+   "title": "Nature reviews. Clinical oncology",
+   "medlineTa": "Nat Rev Clin Oncol",
+   "issn": [
+    "1759-4774",
+    "1759-4782"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "100886622",
+   "title": "Neoplasia : an international journal for oncology research",
+   "medlineTa": "Neoplasia",
+   "issn": [
+    "1522-8002",
+    "1476-5586"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "377266",
+   "title": "Neoplasma",
+   "medlineTa": "Neoplasma",
+   "issn": [
+    "0028-2685",
+    "1338-4317"
+   ],
+   "country": "Slovakia"
+  },
+  {
+   "nlmId": "100887420",
+   "title": "Neuro-oncology",
+   "medlineTa": "Neuro Oncol",
+   "issn": [
+    "1522-8517",
+    "1523-5866"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "7905040",
+   "title": "Nutrition and cancer",
+   "medlineTa": "Nutr Cancer",
+   "issn": [
+    "0163-5581",
+    "1532-7914"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8711562",
+   "title": "Oncogene",
+   "medlineTa": "Oncogene",
+   "issn": [
+    "0950-9232",
+    "1476-5594"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101570526",
+   "title": "Oncoimmunology",
+   "medlineTa": "Oncoimmunology",
+   "issn": [
+    "2162-4011",
+    "2162-402X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8712059",
+   "title": "Oncology",
+   "medlineTa": "Oncology (Williston Park)",
+   "issn": [
+    "0890-9091"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "135054",
+   "title": "Oncology",
+   "medlineTa": "Oncology",
+   "issn": [
+    "0030-2414",
+    "1423-0232"
+   ],
+   "country": "Switzerland"
+  },
+  {
+   "nlmId": "7809033",
+   "title": "Oncology nursing forum",
+   "medlineTa": "Oncol Nurs Forum",
+   "issn": [
+    "0190-535X",
+    "1538-0688"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9422756",
+   "title": "Oncology reports",
+   "medlineTa": "Oncol Rep",
+   "issn": [
+    "1021-335X",
+    "1791-2431"
+   ],
+   "country": "Greece"
+  },
+  {
+   "nlmId": "9208097",
+   "title": "Oncology research",
+   "medlineTa": "Oncol Res",
+   "issn": [
+    "0965-0407",
+    "1555-3906"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101627692",
+   "title": "Oncology research and treatment",
+   "medlineTa": "Oncol Res Treat",
+   "issn": [
+    "2296-5270",
+    "2296-5262"
+   ],
+   "country": "Switzerland"
+  },
+  {
+   "nlmId": "101532965",
+   "title": "Oncotarget",
+   "medlineTa": "Oncotarget",
+   "issn": [
+    "1949-2553"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9709118",
+   "title": "Oral oncology",
+   "medlineTa": "Oral Oncol",
+   "issn": [
+    "1368-8375",
+    "1879-0593"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9706087",
+   "title": "Pathology oncology research : POR",
+   "medlineTa": "Pathol Oncol Res",
+   "issn": [
+    "1219-4956",
+    "1532-2807"
+   ],
+   "country": "Switzerland"
+  },
+  {
+   "nlmId": "101186624",
+   "title": "Pediatric blood & cancer",
+   "medlineTa": "Pediatr Blood Cancer",
+   "issn": [
+    "1545-5009",
+    "1545-5017"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8700164",
+   "title": "Pediatric hematology and oncology",
+   "medlineTa": "Pediatr Hematol Oncol",
+   "issn": [
+    "0888-0018",
+    "1521-0669"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101318927",
+   "title": "Pigment cell & melanoma research",
+   "medlineTa": "Pigment Cell Melanoma Res",
+   "issn": [
+    "1755-1471",
+    "1755-148X"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101558279",
+   "title": "Practical radiation oncology",
+   "medlineTa": "Pract Radiat Oncol",
+   "issn": [
+    "1879-8500",
+    "1879-8519"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9815755",
+   "title": "Prostate cancer and prostatic diseases",
+   "medlineTa": "Prostate Cancer Prostatic Dis",
+   "issn": [
+    "1365-7852",
+    "1476-5608"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9214524",
+   "title": "Psycho-oncology",
+   "medlineTa": "Psychooncology",
+   "issn": [
+    "1057-9249",
+    "1099-1611"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "415677",
+   "title": "Radiation and environmental biophysics",
+   "medlineTa": "Radiat Environ Biophys",
+   "issn": [
+    "0301-634X",
+    "1432-2099"
+   ],
+   "country": "Germany"
+  },
+  {
+   "nlmId": "101265111",
+   "title": "Radiation oncology",
+   "medlineTa": "Radiat Oncol",
+   "issn": [
+    "1748-717X"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9317213",
+   "title": "Radiology and oncology",
+   "medlineTa": "Radiol Oncol",
+   "issn": [
+    "1318-2099",
+    "1581-3207"
+   ],
+   "country": "Poland"
+  },
+  {
+   "nlmId": "101765309",
+   "title": "Radiology. Imaging cancer",
+   "medlineTa": "Radiol Imaging Cancer",
+   "issn": [
+    "2638-616X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8407192",
+   "title": "Radiotherapy and oncology : journal of the European Society for Therapeutic Radiology and Oncology",
+   "medlineTa": "Radiother Oncol",
+   "issn": [
+    "0167-8140",
+    "1879-0887"
+   ],
+   "country": "Ireland"
+  },
+  {
+   "nlmId": "101266081",
+   "title": "Recent patents on anti-cancer drug discovery",
+   "medlineTa": "Recent Pat Anticancer Drug Discov",
+   "issn": [
+    "1574-8928",
+    "2212-3970"
+   ],
+   "country": "United Arab Emirates"
+  },
+  {
+   "nlmId": "44671",
+   "title": "Recent results in cancer research. Fortschritte der Krebsforschung.  Progrès dans les recherches sur le cancer",
+   "medlineTa": "Recent Results Cancer Res",
+   "issn": [
+    "0080-0015"
+   ],
+   "country": "Germany"
+  },
+  {
+   "nlmId": "9010218",
+   "title": "Seminars in cancer biology",
+   "medlineTa": "Semin Cancer Biol",
+   "issn": [
+    "1044-579X",
+    "1096-3650"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "420432",
+   "title": "Seminars in oncology",
+   "medlineTa": "Semin Oncol",
+   "issn": [
+    "0093-7754",
+    "1532-8708"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8504688",
+   "title": "Seminars in oncology nursing",
+   "medlineTa": "Semin Oncol Nurs",
+   "issn": [
+    "0749-2081",
+    "1878-3449"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9202882",
+   "title": "Seminars in radiation oncology",
+   "medlineTa": "Semin Radiat Oncol",
+   "issn": [
+    "1053-4296",
+    "1532-9461"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8603469",
+   "title": "Strahlentherapie und Onkologie : Organ der Deutschen Röntgengesellschaft ... [et al]",
+   "medlineTa": "Strahlenther Onkol",
+   "issn": [
+    "0179-7158",
+    "1439-099X"
+   ],
+   "country": "Germany"
+  },
+  {
+   "nlmId": "9302957",
+   "title": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+   "medlineTa": "Support Care Cancer",
+   "issn": [
+    "0941-4355",
+    "1433-7339"
+   ],
+   "country": "Germany"
+  },
+  {
+   "nlmId": "9208188",
+   "title": "Surgical oncology",
+   "medlineTa": "Surg Oncol",
+   "issn": [
+    "0960-7404",
+    "1879-3320"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "9211789",
+   "title": "Surgical oncology clinics of North America",
+   "medlineTa": "Surg Oncol Clin N Am",
+   "issn": [
+    "1055-3207",
+    "1558-5042"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101270595",
+   "title": "Targeted oncology",
+   "medlineTa": "Target Oncol",
+   "issn": [
+    "1776-2596",
+    "1776-260X"
+   ],
+   "country": "France"
+  },
+  {
+   "nlmId": "101140941",
+   "title": "Technology in cancer research & treatment",
+   "medlineTa": "Technol Cancer Res Treat",
+   "issn": [
+    "1533-0346",
+    "1533-0338"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "9213011",
+   "title": "The Breast : official journal of the European Society of Mastology",
+   "medlineTa": "Breast",
+   "issn": [
+    "0960-9776",
+    "1532-3080"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "9505539",
+   "title": "The breast journal",
+   "medlineTa": "Breast J",
+   "issn": [
+    "1075-122X",
+    "1524-4741"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "100931981",
+   "title": "The cancer journal",
+   "medlineTa": "Cancer J",
+   "issn": [
+    "1528-9117",
+    "1540-336X"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101500911",
+   "title": "The Gulf journal of oncology",
+   "medlineTa": "Gulf J Oncolog",
+   "issn": [
+    "2078-2101",
+    "2521-3881"
+   ],
+   "country": "Kuwait"
+  },
+  {
+   "nlmId": "8712411",
+   "title": "The International journal of biological markers",
+   "medlineTa": "Int J Biol Markers",
+   "issn": [
+    "0393-6155",
+    "1724-6008"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101643584",
+   "title": "The Lancet. Haematology",
+   "medlineTa": "Lancet Haematol",
+   "issn": [
+    "2352-3026"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "100957246",
+   "title": "The Lancet. Oncology",
+   "medlineTa": "Lancet Oncol",
+   "issn": [
+    "1470-2045",
+    "1474-5488"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "9607837",
+   "title": "The oncologist",
+   "medlineTa": "Oncologist",
+   "issn": [
+    "1083-7159",
+    "1549-490X"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101531441",
+   "title": "Thoracic cancer",
+   "medlineTa": "Thorac Cancer",
+   "issn": [
+    "1759-7706",
+    "1759-7714"
+   ],
+   "country": "Singapore"
+  },
+  {
+   "nlmId": "101665956",
+   "title": "Trends in cancer",
+   "medlineTa": "Trends Cancer",
+   "issn": [
+    "2405-8025",
+    "2405-8033"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "111356",
+   "title": "Tumori",
+   "medlineTa": "Tumori",
+   "issn": [
+    "0300-8916",
+    "2038-2529"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "8409922",
+   "title": "Tumour biology : the journal of the International Society for Oncodevelopmental Biology and Medicine",
+   "medlineTa": "Tumour Biol",
+   "issn": [
+    "1010-4283",
+    "1423-0380"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101775149",
+   "title": "Tumour virus research",
+   "medlineTa": "Tumour Virus Res",
+   "issn": [
+    "2666-6790"
+   ],
+   "country": "Netherlands"
+  },
+  {
+   "nlmId": "9805460",
+   "title": "Urologic oncology",
+   "medlineTa": "Urol Oncol",
+   "issn": [
+    "1078-1439",
+    "1873-2496"
+   ],
+   "country": "United States"
+  },
+  {
+   "nlmId": "101185242",
+   "title": "Veterinary and comparative oncology",
+   "medlineTa": "Vet Comp Oncol",
+   "issn": [
+    "1476-5810",
+    "1476-5829"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101170544",
+   "title": "World journal of surgical oncology",
+   "medlineTa": "World J Surg Oncol",
+   "issn": [
+    "1477-7819"
+   ],
+   "country": "England"
+  },
+  {
+   "nlmId": "101126433",
+   "title": "Zhongguo fei ai za zhi = Chinese journal of lung cancer",
+   "medlineTa": "Zhongguo Fei Ai Za Zhi",
+   "issn": [
+    "1009-3419",
+    "1999-6187"
+   ],
+   "country": "China"
+  },
+  {
+   "nlmId": "7910681",
+   "title": "Zhonghua zhong liu za zhi [Chinese journal of oncology]",
+   "medlineTa": "Zhonghua Zhong Liu Za Zhi",
+   "issn": [
+    "0253-3766"
+   ],
+   "country": "China"
+  }
+ ]
+}

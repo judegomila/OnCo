@@ -1,0 +1,36 @@
+name: Refresh universe denominators
+
+on:
+  schedule:
+    - cron: "37 6 * * 3" # Wednesdays 06:37 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run fetch:universe
+      - run: npm run validate
+      - run: npm test -- src/lib/completeness.test.ts
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/refresh-universe
+          title: "Weekly refresh: universe denominators and lists"
+          commit-message: "chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE)"
+          body: |
+            Automated weekly pull of the external lists and counts that `/completeness/` compares the corpus against, into `src/data/universe-lists/*.json`:
+            NCI A to Z cancer drugs and cancer types, GLOBOCAN sites, NCI-designated centres, OECI members, NHS England Cancer Alliances, UICC member count, MEDLINE oncology journals, the 100 most-cited oncology works, KEGG and Reactome cancer pathways, the NCI dictionary term count, ClinicalTrials.gov counts and industry sponsors, FDA OCE sponsors, and ChEMBL oncology targets.
+            A source that could not be reached keeps its previous snapshot. Check the diff for denominators that moved, then look at `/completeness/` for newly listed items to add.
+          labels: automated, pipeline
+          delete-branch: true

@@ -1,0 +1,25 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "Hanahan D. Hallmarks of Cancer: New Dimensions. Cancer Discovery 2022;12(1):31-46",
+  "url": "https://doi.org/10.1158/2159-8290.CD-21-1059"
+ },
+ "method": "The eight hallmarks and two enabling characteristics of Hanahan and Weinberg (2011) plus the two emerging hallmarks and two enabling characteristics proposed in the 2022 update: fourteen in total. Each is mapped by hand to the OnCo pathway pages that explain it; a hallmark counts as covered when at least one mapped page exists.",
+ "total": 14,
+ "items": [
+  { "name": "Sustaining proliferative signalling", "type": "hallmark", "oncoIds": ["rtk-activation", "ras-mapk", "pi3k-akt-mtor"] },
+  { "name": "Evading growth suppressors", "type": "hallmark", "oncoIds": ["p53-cell-cycle", "cell-cycle-engine-cdks"] },
+  { "name": "Resisting cell death", "type": "hallmark", "oncoIds": ["apoptosis-bcl2", "extrinsic-apoptosis-death-receptors", "ferroptosis-cell-death"] },
+  { "name": "Enabling replicative immortality", "type": "hallmark", "oncoIds": ["telomere-maintenance"] },
+  { "name": "Inducing or accessing vasculature", "type": "hallmark", "oncoIds": ["vegf-angiogenesis", "angiogenic-switch"] },
+  { "name": "Activating invasion and metastasis", "type": "hallmark", "oncoIds": ["metastatic-cascade", "invasion-ecm-degradation", "emt"] },
+  { "name": "Reprogramming cellular metabolism", "type": "hallmark", "oncoIds": ["cancer-metabolism", "glutamine-metabolism", "lipid-metabolism-cancer"] },
+  { "name": "Avoiding immune destruction", "type": "hallmark", "oncoIds": ["pd1-checkpoint", "cancer-immunity-cycle", "immune-desert-exclusion"] },
+  { "name": "Genome instability and mutation", "type": "enabling characteristic", "oncoIds": ["chromosomal-instability", "mutagenesis-signatures", "ddr"] },
+  { "name": "Tumour-promoting inflammation", "type": "enabling characteristic", "oncoIds": ["inflammation-nfkb"] },
+  { "name": "Unlocking phenotypic plasticity", "type": "emerging hallmark", "oncoIds": ["cancer-stem-cells-plasticity", "lineage-plasticity-neuroendocrine"] },
+  { "name": "Nonmutational epigenetic reprogramming", "type": "enabling characteristic", "oncoIds": ["epigenetic-reprogramming"] },
+  { "name": "Polymorphic microbiomes", "type": "enabling characteristic", "oncoIds": ["microbiome-tumour"] },
+  { "name": "Senescent cells", "type": "emerging hallmark", "oncoIds": ["senescence"] }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "NHS England: Cancer Alliances",
+  "url": "https://www.england.nhs.uk/cancer/cancer-alliances-improving-care-locally/"
+ },
+ "method": "The numbered list of Cancer Alliances under 'Map of Cancer Alliances in England' on the NHS England page.",
+ "total": 20,
+ "items": [
+  {
+   "name": "Northern Cancer Alliance",
+   "website": "https://www.northerncanceralliance.nhs.uk"
+  },
+  {
+   "name": "Lancashire and South Cumbria Cancer Alliance",
+   "website": "https://www.healthierlsc.co.uk/canceralliance"
+  },
+  {
+   "name": "West Yorkshire and Harrogate Cancer Alliance",
+   "website": "https://canceralliance.wyhpartnership.co.uk"
+  },
+  {
+   "name": "Humber & North Yorkshire Cancer Alliance",
+   "website": "https://www.hnycanceralliance.org.uk"
+  },
+  {
+   "name": "Cheshire and Merseyside Cancer Alliance",
+   "website": "https://www.cmcanceralliance.nhs.uk"
+  },
+  {
+   "name": "Greater Manchester Cancer Alliance",
+   "website": "https://gmcancer.org.uk"
+  },
+  {
+   "name": "South Yorkshire and Bassetlaw Cancer Alliance",
+   "website": "https://www.canceralliancesybnd.co.uk"
+  },
+  {
+   "name": "West Midlands Cancer Alliance",
+   "website": "https://wmcanceralliance.nhs.uk/"
+  },
+  {
+   "name": "East Midlands Cancer Alliance",
+   "website": "https://www.eastmidlandscanceralliance.nhs.uk"
+  },
+  {
+   "name": "East of England Cancer Alliance",
+   "website": "https://www.canceralliance.co.uk"
+  },
+  {
+   "name": "North Central London Cancer Alliance",
+   "website": "https://www.nclcanceralliance.nhs.uk"
+  },
+  {
+   "name": "North East London Cancer Alliance",
+   "website": "https://www.nelcanceralliance.nhs.uk"
+  },
+  {
+   "name": "Royal Marsden Partners",
+   "website": "https://rmpartners.nhs.uk/"
+  },
+  {
+   "name": "South East London Cancer Alliance",
+   "website": "https://www.selca.nhs.uk"
+  },
+  {
+   "name": "Kent and Medway Cancer Alliance",
+   "website": "https://www.kentandmedway.icb.nhs.uk/your-health/local-services/kent-and-medway-cancer-alliance"
+  },
+  {
+   "name": "Surrey and Sussex Cancer Alliance",
+   "website": "https://surreyandsussexcanceralliance.nhs.uk/"
+  },
+  {
+   "name": "Wessex Cancer Alliance",
+   "website": "https://wessexcanceralliance.nhs.uk/"
+  },
+  {
+   "name": "Thames Valley Cancer Alliance",
+   "website": "https://thamesvalleycanceralliance.nhs.uk/"
+  },
+  {
+   "name": "Somerset, Wiltshire, Avon and Gloucestershire Cancer Alliance",
+   "website": "https://www.swagcanceralliance.nhs.uk/"
+  },
+  {
+   "name": "Peninsula Cancer Alliance",
+   "website": "https://peninsulacanceralliance.nhs.uk/"
+  }
+ ]
+}

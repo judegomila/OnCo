@@ -1,0 +1,9 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "NCI Dictionary of Cancer Terms",
+  "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms"
+ },
+ "method": "The term count returned by the NCI glossary API for the English patient dictionary.",
+ "total": 9416
+}

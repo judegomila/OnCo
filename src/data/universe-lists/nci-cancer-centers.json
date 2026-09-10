@@ -1,0 +1,455 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "NCI: Find a Cancer Center",
+  "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find"
+ },
+ "method": "Every centre profile linked from the NCI 'Find a Cancer Center' page (one entry per centre, even when a centre is listed in several states); the website comes from each profile page.",
+ "total": 74,
+ "items": [
+  {
+   "slug": "upennabramson",
+   "name": "Abramson Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/upennabramson",
+   "website": "http://www.penncancer.org/"
+  },
+  {
+   "slug": "washingtonsiteman",
+   "name": "Alvin J. Siteman Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/washingtonsiteman",
+   "website": "http://www.siteman.wustl.edu/"
+  },
+  {
+   "slug": "ccil",
+   "name": "Cancer Center at Illinois",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/ccil",
+   "website": "https://cancer.illinois.edu/"
+  },
+  {
+   "slug": "casewestern",
+   "name": "Case Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/casewestern",
+   "website": "http://cancer.case.edu/"
+  },
+  {
+   "slug": "ucirvinechao",
+   "name": "Chao Family Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/ucirvinechao",
+   "website": "http://www.cancer.uci.edu/"
+  },
+  {
+   "slug": "beckmancityofhope",
+   "name": "City of Hope Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/beckmancityofhope",
+   "website": "http://www.cityofhope.org/"
+  },
+  {
+   "slug": "coldspringharbor",
+   "name": "Cold Spring Harbor Laboratory Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/coldspringharbor",
+   "website": "https://www.cshl.edu/research/cancer/"
+  },
+  {
+   "slug": "baylorduncan",
+   "name": "Dan L Duncan Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/baylorduncan",
+   "website": "https://www.bcm.edu/centers/cancer-center"
+  },
+  {
+   "slug": "dfharvard",
+   "name": "Dana-Farber/Harvard Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/dfharvard",
+   "website": "http://www.dfhcc.harvard.edu/"
+  },
+  {
+   "slug": "dartmouthnorriscotton",
+   "name": "Dartmouth Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/dartmouthnorriscotton",
+   "website": "http://cancer.dartmouth.edu/"
+  },
+  {
+   "slug": "mitkoch",
+   "name": "David H. Koch Institute for Integrative Cancer Research at MIT",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/mitkoch",
+   "website": "http://ki.mit.edu/"
+  },
+  {
+   "slug": "dukeci",
+   "name": "Duke Cancer Institute",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/dukeci",
+   "website": "http://www.dukecancerinstitute.org/"
+  },
+  {
+   "slug": "foxchase",
+   "name": "Fox Chase Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/foxchase",
+   "website": "https://www.foxchase.org/"
+  },
+  {
+   "slug": "nebraska",
+   "name": "Fred and Pamela Buffett Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/nebraska",
+   "website": "https://www.nebraskamed.com/cancer"
+  },
+  {
+   "slug": "fredhutchcrc",
+   "name": "Fred Hutchinson/University of Washington/Seattle Children’s Cancer Consortium",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/fredhutchcrc",
+   "website": "http://www.cancerconsortium.org"
+  },
+  {
+   "slug": "georgetownlombardi",
+   "name": "Georgetown Lombardi Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/georgetownlombardi",
+   "website": "http://lombardi.georgetown.edu/"
+  },
+  {
+   "slug": "utswsimmons",
+   "name": "Harold C. Simmons Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/utswsimmons",
+   "website": "http://www.simmonscancercenter.org/"
+  },
+  {
+   "slug": "irvingcolumbia",
+   "name": "Herbert Irving Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/irvingcolumbia",
+   "website": "http://cancer.columbia.edu/"
+  },
+  {
+   "slug": "iowaholden",
+   "name": "Holden Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/iowaholden",
+   "website": "https://uihc.org/primary-and-specialty-care/holden-comprehensive-cancer-center"
+  },
+  {
+   "slug": "muschollings",
+   "name": "Hollings Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/muschollings",
+   "website": "http://hcc.musc.edu/"
+  },
+  {
+   "slug": "utahhuntsman",
+   "name": "Huntsman Cancer Institute",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/utahhuntsman",
+   "website": "https://healthcare.utah.edu/huntsmancancerinstitute/"
+  },
+  {
+   "slug": "indianasimon",
+   "name": "Indiana University Melvin and Bren Simon Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/indianasimon",
+   "website": "http://www.cancer.iu.edu/"
+  },
+  {
+   "slug": "uclajonsson",
+   "name": "Jonsson Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/uclajonsson",
+   "website": "http://www.cancer.ucla.edu/"
+  },
+  {
+   "slug": "ohsuknight",
+   "name": "Knight Cancer Institute",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/ohsuknight",
+   "website": "http://www.ohsu.edu/xd/health/services/cancer/"
+  },
+  {
+   "slug": "nyuci",
+   "name": "Laura and Isaac Perlmutter Cancer Center at NYU Langone Health",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/nyuci",
+   "website": "http://nyulangone.org/cancer"
+  },
+  {
+   "slug": "ukmarkey",
+   "name": "Markey Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/ukmarkey",
+   "website": "http://ukhealthcare.uky.edu/Markey/"
+  },
+  {
+   "slug": "minnesotamasonic",
+   "name": "Masonic Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/minnesotamasonic",
+   "website": "http://www.cancer.umn.edu"
+  },
+  {
+   "slug": "mayoclinic",
+   "name": "Mayo Clinic Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/mayoclinic",
+   "website": "http://www.mayoclinic.org/departments-centers/mayo-clinic-cancer-center"
+  },
+  {
+   "slug": "utsanantonio",
+   "name": "Mays Cancer Center at UT Health San Antonio",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/utsanantonio",
+   "website": "http://www.ctrc.net/"
+  },
+  {
+   "slug": "memorialsloankettering",
+   "name": "Memorial Sloan-Kettering Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/memorialsloankettering",
+   "website": "http://www.mskcc.org/"
+  },
+  {
+   "slug": "moffitt",
+   "name": "Moffitt Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/moffitt",
+   "website": "http://www.moffitt.org/"
+  },
+  {
+   "slug": "meccc",
+   "name": "Montefiore Einstein Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/meccc",
+   "website": "https://cancer.montefioreeinstein.org/"
+  },
+  {
+   "slug": "ucsdmoores",
+   "name": "Moores Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/ucsdmoores",
+   "website": "http://cancer.ucsd.edu/"
+  },
+  {
+   "slug": "tischmountsinai",
+   "name": "Mount Sinai Tisch Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/tischmountsinai",
+   "website": "https://icahn.mssm.edu/research/tisch"
+  },
+  {
+   "slug": "uabccc",
+   "name": "O’Neal Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/uabccc",
+   "website": "http://www.uab.edu/cancer"
+  },
+  {
+   "slug": "purdueccr",
+   "name": "Purdue Institute for Cancer Research",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/purdueccr",
+   "website": "http://www.cancerresearch.purdue.edu/"
+  },
+  {
+   "slug": "northwesternlurie",
+   "name": "Robert H. Lurie Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/northwesternlurie",
+   "website": "http://www.cancer.northwestern.edu/"
+  },
+  {
+   "slug": "roswellpark",
+   "name": "Roswell Park Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/roswellpark",
+   "website": "http://www.roswellpark.org/"
+  },
+  {
+   "slug": "cinj",
+   "name": "Rutgers Cancer Institute of New Jersey",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/cinj",
+   "website": "http://www.cinj.org/"
+  },
+  {
+   "slug": "salk",
+   "name": "Salk Institute Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/salk",
+   "website": "http://www.salk.edu/faculty/cancer_center.html"
+  },
+  {
+   "slug": "sanfordburnham",
+   "name": "Sanford Burnham Prebys Medical Discovery Institute",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/sanfordburnham",
+   "website": "http://www.sbpdiscovery.org/research/centers/cancer/Pages/Home.aspx"
+  },
+  {
+   "slug": "jeffersonkimmel",
+   "name": "Sidney Kimmel Cancer Center at Thomas Jefferson University",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/jeffersonkimmel",
+   "website": "https://www.jeffersonhealth.org/clinical-specialties/cancer"
+  },
+  {
+   "slug": "hopkinskimmel",
+   "name": "Sidney Kimmel Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/hopkinskimmel",
+   "website": "http://www.hopkinsmedicine.org/kimmel_cancer_center"
+  },
+  {
+   "slug": "stjude",
+   "name": "St. Jude Children's Research Hospital",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/stjude",
+   "website": "http://www.stjude.org/stjude/v/index.jsp?vgnextoid=f87d4c2a71fca210VgnVCM1000001e0215acRCRD"
+  },
+  {
+   "slug": "stanfordci",
+   "name": "Stanford Cancer Institute (SCI)",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/stanfordci",
+   "website": "http://cancer.stanford.edu/"
+  },
+  {
+   "slug": "stephenson",
+   "name": "Stephenson Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/stephenson",
+   "website": "http://stephensoncancercenter.org/"
+  },
+  {
+   "slug": "sylvester-miami",
+   "name": "Sylvester Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/sylvester-miami",
+   "website": "https://umiamihealth.org/sylvester-comprehensive-cancer-center"
+  },
+  {
+   "slug": "waynestatekarmanos",
+   "name": "The Barbara Ann Karmanos Cancer Institute",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/waynestatekarmanos",
+   "website": "http://www.karmanos.org/"
+  },
+  {
+   "slug": "jacksonlab",
+   "name": "The Jackson Laboratory Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/jacksonlab",
+   "website": "https://www.jax.org/research-and-faculty/research-centers/the-jackson-laboratory-cancer-center"
+  },
+  {
+   "slug": "osujames",
+   "name": "The Ohio State University Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/osujames",
+   "website": "http://cancer.osu.edu/"
+  },
+  {
+   "slug": "uchicagoccc",
+   "name": "The University of Chicago Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/uchicagoccc",
+   "website": "http://cancer.uchicago.edu/"
+  },
+  {
+   "slug": "kucc",
+   "name": "The University of Kansas Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/kucc",
+   "website": "http://www.kucancercenter.org/"
+  },
+  {
+   "slug": "mdanderson",
+   "name": "The University of Texas MD Anderson Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/mdanderson",
+   "website": "http://www.mdanderson.org/"
+  },
+  {
+   "slug": "wistar",
+   "name": "The Wistar Institute Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/wistar",
+   "website": "http://www.wistar.org/"
+  },
+  {
+   "slug": "ucdaviscc",
+   "name": "UC Davis Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/ucdaviscc",
+   "website": "http://cancer.ucdmc.ucdavis.edu/"
+  },
+  {
+   "slug": "ucsfhelendiller",
+   "name": "UCSF Helen Diller Family Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/ucsfhelendiller",
+   "website": "http://cancer.ucsf.edu/"
+  },
+  {
+   "slug": "unclineberger",
+   "name": "UNC Lineberger Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/unclineberger",
+   "website": "http://www.unclineberger.org/"
+  },
+  {
+   "slug": "arizonacc",
+   "name": "University of Arizona Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/arizonacc",
+   "website": "https://cancercenter.arizona.edu/"
+  },
+  {
+   "slug": "ucolorado",
+   "name": "University of Colorado Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/ucolorado",
+   "website": "http://www.coloradocancercenter.org/"
+  },
+  {
+   "slug": "ufhealth",
+   "name": "University of Florida Health Cancer Institute",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/ufhealth",
+   "website": "https://cancer.ufl.edu/"
+  },
+  {
+   "slug": "uhawaiicc",
+   "name": "University of Hawai'i Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/uhawaiicc",
+   "website": "http://www.uhcancercenter.org/"
+  },
+  {
+   "slug": "umdgreenebaum",
+   "name": "University of Maryland Marlene and Stewart Greenebaum Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/umdgreenebaum",
+   "website": "https://www.umms.org/umgccc"
+  },
+  {
+   "slug": "umichiganccc",
+   "name": "University of Michigan Rogel Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/umichiganccc",
+   "website": "https://rogelcancercenter.org"
+  },
+  {
+   "slug": "newmexicocrtc",
+   "name": "University of New Mexico Cancer Research and Treatment Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/newmexicocrtc",
+   "website": "http://cancer.unm.edu/"
+  },
+  {
+   "slug": "uvacc",
+   "name": "University of Virginia Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/uvacc",
+   "website": "https://med.virginia.edu/cancer-research/"
+  },
+  {
+   "slug": "uwcarbone",
+   "name": "University of Wisconsin Carbone Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/uwcarbone",
+   "website": "https://cancer.wisc.edu/ "
+  },
+  {
+   "slug": "upci",
+   "name": "UPMC Hillman Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/upci",
+   "website": "https://hillman.upmc.com/"
+  },
+  {
+   "slug": "uscnorris",
+   "name": "USC Norris Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/uscnorris",
+   "website": "http://uscnorriscancer.usc.edu/"
+  },
+  {
+   "slug": "vanderbiltingram",
+   "name": "Vanderbilt-Ingram Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/vanderbiltingram",
+   "website": "http://www.vicc.org/"
+  },
+  {
+   "slug": "vcumassey",
+   "name": "VCU Massey Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/vcumassey",
+   "website": "https://www.masseycancercenter.org/"
+  },
+  {
+   "slug": "wakeforest",
+   "name": "Wake Forest Baptist Comprehensive Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/wakeforest",
+   "website": "https://www.wakehealth.edu/Locations/Facilities/Comprehensive-Cancer-Center"
+  },
+  {
+   "slug": "wilmot",
+   "name": "Wilmot Cancer Institute",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/wilmot",
+   "website": "https://www.urmc.rochester.edu/cancer-institute"
+  },
+  {
+   "slug": "emorywinship",
+   "name": "Winship Cancer Institute",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/emorywinship",
+   "website": "http://winshipcancer.emory.edu/"
+  },
+  {
+   "slug": "yalecc",
+   "name": "Yale Cancer Center",
+   "url": "https://www.cancer.gov/research/infrastructure/cancer-centers/find/yalecc",
+   "website": "http://www.yalecancercenter.org/index.aspx"
+  }
+ ]
+}

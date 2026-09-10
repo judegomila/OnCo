@@ -8,7 +8,7 @@ import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "src", "data", "universe-lists", "nci-cancer-types.json")
+OUT = os.path.join(ROOT, "src", "data", "universe-lists", "nci-cancer-types-coverage.json")
 
 E = []
 X, A, M = "existing", "added", "meta"

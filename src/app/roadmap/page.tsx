@@ -3,6 +3,8 @@ import Link from "next/link";
 import { hubIdeas, hubIdeas2, hubIdeas3, type HubIdea } from "@/data/hub-ideas";
 import { health, type HealthMetric } from "@/lib/health";
 import { HealthGauges } from "@/components/HealthGauges";
+import { completeness, headline } from "@/lib/completeness";
+import { CompletenessTable } from "@/components/CompletenessTable";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Roadmap", description: "How OnCo keeps expanding and stays current: corpus health gauges computed at build, every idea by status, and the method behind both." };
@@ -165,6 +167,8 @@ function Method({ c }: { c: MethodCard }) {
 
 export default function RoadmapPage() {
   const metrics = health();
+  const coverage = completeness();
+  const cov = headline(coverage);
   const byId = new Map(metrics.map((m) => [m.id, m]));
   const rows: Row[] = [...hubIdeas.map((h) => resolve(h, 1, byId)), ...hubIdeas2.map((h) => resolve(h, 2, byId)), ...hubIdeas3.map((h) => resolve(h, 3, byId))];
   const themes = [...new Set(rows.map((r) => r.theme))];
@@ -183,7 +187,7 @@ export default function RoadmapPage() {
         lede="Every upgrade idea we have, with a status the corpus can contradict. The gauges are computed from the data at build time; where a claim of &ldquo;shipped&rdquo; is not borne out, the idea is shown as needing work and the gauge says what to do." />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-x-4 gap-y-1 text-sm mb-8">
-          {[["#health", "A. How healthy is the corpus"], ["#ideas", "B. Every idea, by status"], ["#method", "C. The method"], ["#propose", "D. Propose an idea"]].map(([href, label]) => (
+          {[["#health", "A. How healthy is the corpus"], ["#completeness", "A2. How much of the world is here"], ["#ideas", "B. Every idea, by status"], ["#method", "C. The method"], ["#propose", "D. Propose an idea"]].map(([href, label]) => (
             <a key={href} href={href} className="underline decoration-foreground/25 underline-offset-[3px] hover:decoration-foreground">{label}</a>
           ))}
         </nav>
@@ -195,6 +199,16 @@ export default function RoadmapPage() {
             Each gauge is passing records over records checked; each names the worst offenders and the one edit that fixes them. Adding a check is one entry in an array.
           </p>
           <HealthGauges metrics={metrics} />
+        </section>
+
+        <section id="completeness" className="mt-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold tracking-tight mb-2">A2. How much of the world is here</h2>
+          <p className="text-muted text-sm mb-5 max-w-3xl">
+            The gauges above measure whether each record is complete. This table measures the other axis: of everything that exists, how much OnCo holds. Each row is an OnCo count against a sourced count of the world on the same scope
+            (products against the NCI list of FDA-approved cancer drugs, institutions against the NCI-designated centres and OECI members, journals against MEDLINE&apos;s oncology set), with the missing items named on <Link href="/completeness/" className="underline">/completeness/</Link>.
+            Across the {coverage.filter((c) => c.listed).length} scopes with a public list, OnCo holds {cov.ours.toLocaleString("en-GB")} of {cov.total.toLocaleString("en-GB")} listed items ({cov.pct}%). Denominators: <a className="underline" href={blob("src/data/universe.ts")} rel="noopener">src/data/universe.ts</a>, refreshed weekly.
+          </p>
+          <CompletenessTable rows={coverage} compact />
         </section>
 
         <section id="ideas" className="mt-16 scroll-mt-24">

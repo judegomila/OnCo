@@ -144,6 +144,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/about/", label: "About & methodology", blurb: "Rules for facts, ranking formulas, licence." },
       { href: "/roadmap/", label: "Roadmap", blurb: "Corpus health gauges, every idea by status, and how OnCo expands and stays current." },
       { href: "/gaps/", label: "Gaps to fill", blurb: "Objects and fields that need work." },
+      { href: "/completeness/", label: "Completeness", blurb: "How much of what exists is in OnCo: each kind against a sourced count of the world, with the missing items named." },
       { href: "/review/", label: "Review queue", blurb: "Which pages most need a named reviewer, coverage by kind and track, translation coverage." },
       { href: "/reviewers/", label: "Reviewer roster", blurb: "Who has signed off pages, on which track, with declared conflicts of interest." },
       { href: "/contributors/", label: "Contributors", blurb: "Everyone who wrote or reviewed records, from the repository history." },

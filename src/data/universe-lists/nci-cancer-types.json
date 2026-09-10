@@ -1,1089 +1,524 @@
 {
-  "source": "https://www.cancer.gov/types",
-  "title": "NCI A to Z List of Cancer Types",
-  "checked": "2026-09-10",
-  "method": "Fetched the page, took every A to Z link text, merged duplicates that point at the same PDQ page under one normalised name, and matched each name against cancer ids, names and aliases in src/data/cancers.ts and src/data/spikes/*.ts. Population and situation pages (AYA, childhood cancers, metastatic, recurrent, pregnancy) are listed as meta and excluded from the coverage denominator. status: existing = record predates this pass; added = record created in the September 2026 NCI coverage pass (src/data/nci-coverage.ts).",
-  "coverage": {
-    "cancerTypeEntries": 117,
-    "metaEntries": 7,
-    "coveredBefore": 79,
-    "coveredAfter": 117,
-    "percentBefore": 67.5,
-    "percentAfter": 100.0,
-    "newCancerRecordsForNciEntries": 29,
-    "newCancerRecordsBeyondNci": 7
+ "checked": "2026-09-10",
+ "source": {
+  "label": "NCI: A to Z List of Cancer Types",
+  "url": "https://www.cancer.gov/types"
+ },
+ "method": "Every entry in the 'Find a cancer type' A to Z list (distinct names; several names can share one NCI page).",
+ "total": 128,
+ "pages": 58,
+ "items": [
+  {
+   "name": "Acute Lymphoblastic Leukemia (ALL)",
+   "link": "https://www.cancer.gov/types/leukemia"
   },
-  "entries": [
-    {
-      "name": "Acute Lymphoblastic Leukemia (ALL)",
-      "nciUrl": "https://www.cancer.gov/types/leukemia",
-      "status": "existing",
-      "matchedIds": [
-        "all-leukemia"
-      ]
-    },
-    {
-      "name": "Acute Myeloid Leukemia (AML)",
-      "nciUrl": "https://www.cancer.gov/types/leukemia",
-      "status": "existing",
-      "matchedIds": [
-        "aml"
-      ]
-    },
-    {
-      "name": "Adolescents and Young Adults, Cancer in",
-      "nciUrl": "https://www.cancer.gov/types/aya",
-      "status": "meta",
-      "matchedIds": [
-        "aya-oncology"
-      ],
-      "note": "Population page, not a cancer type; covered by the term aya-oncology."
-    },
-    {
-      "name": "Adrenocortical Carcinoma",
-      "nciUrl": "https://www.cancer.gov/types/adrenocortical",
-      "status": "existing",
-      "matchedIds": [
-        "adrenocortical"
-      ]
-    },
-    {
-      "name": "AIDS-Related Lymphoma",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma",
-      "status": "added",
-      "matchedIds": [
-        "hiv-associated-lymphoma"
-      ]
-    },
-    {
-      "name": "Anal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/anal",
-      "status": "existing",
-      "matchedIds": [
-        "anal"
-      ]
-    },
-    {
-      "name": "Appendix Cancer",
-      "nciUrl": "https://www.cancer.gov/types/gi-neuroendocrine-tumors",
-      "status": "existing",
-      "matchedIds": [
-        "appendiceal",
-        "neuroendocrine"
-      ]
-    },
-    {
-      "name": "Astrocytomas, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/brain",
-      "status": "added",
-      "matchedIds": [
-        "paediatric-low-grade-glioma",
-        "dipg-dmg"
-      ]
-    },
-    {
-      "name": "Atypical Teratoid/Rhabdoid Tumor, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/brain",
-      "status": "added",
-      "matchedIds": [
-        "atrt"
-      ]
-    },
-    {
-      "name": "Basal Cell Carcinoma of the Skin",
-      "nciUrl": "https://www.cancer.gov/types/skin",
-      "status": "existing",
-      "matchedIds": [
-        "basal-cell-carcinoma"
-      ]
-    },
-    {
-      "name": "Bile Duct Cancer",
-      "nciUrl": "https://www.cancer.gov/types/liver",
-      "status": "existing",
-      "matchedIds": [
-        "cholangiocarcinoma"
-      ]
-    },
-    {
-      "name": "Bladder Cancer",
-      "nciUrl": "https://www.cancer.gov/types/bladder",
-      "status": "existing",
-      "matchedIds": [
-        "urothelial"
-      ]
-    },
-    {
-      "name": "Bone Cancer (Ewing Sarcoma, Osteosarcoma, Malignant Fibrous Histiocytoma)",
-      "nciUrl": "https://www.cancer.gov/types/bone",
-      "status": "existing",
-      "matchedIds": [
-        "osteosarcoma",
-        "ewing-sarcoma",
-        "sarcoma"
-      ]
-    },
-    {
-      "name": "Brain Tumors",
-      "nciUrl": "https://www.cancer.gov/types/brain",
-      "status": "existing",
-      "matchedIds": [
-        "glioblastoma",
-        "medulloblastoma",
-        "primary-cns-lymphoma"
-      ],
-      "note": "Umbrella; childhood entries listed separately."
-    },
-    {
-      "name": "Breast Cancer",
-      "nciUrl": "https://www.cancer.gov/types/breast",
-      "status": "existing",
-      "matchedIds": [
-        "breast-hr-positive",
-        "breast-her2-positive",
-        "tnbc"
-      ]
-    },
-    {
-      "name": "Bronchial Tumors, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/lung",
-      "status": "added",
-      "matchedIds": [
-        "pleuropulmonary-blastoma"
-      ],
-      "note": "Covered by the childhood lung and airway tumours record."
-    },
-    {
-      "name": "Burkitt Lymphoma",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma",
-      "status": "added",
-      "matchedIds": [
-        "burkitt-lymphoma"
-      ]
-    },
-    {
-      "name": "Carcinoma of Unknown Primary",
-      "nciUrl": "https://www.cancer.gov/types/unknown-primary",
-      "status": "existing",
-      "matchedIds": [
-        "cancer-of-unknown-primary"
-      ]
-    },
-    {
-      "name": "Central Nervous System Germ Cell Tumor, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/brain",
-      "status": "added",
-      "matchedIds": [
-        "paediatric-germ-cell-tumours"
-      ]
-    },
-    {
-      "name": "Cervical Cancer",
-      "nciUrl": "https://www.cancer.gov/types/cervical",
-      "status": "existing",
-      "matchedIds": [
-        "cervical"
-      ]
-    },
-    {
-      "name": "Childhood Cancers",
-      "nciUrl": "https://www.cancer.gov/types/childhood-cancers",
-      "status": "meta",
-      "matchedIds": [
-        "childrens-oncology-group",
-        "siop-europe",
-        "race-for-children-act"
-      ],
-      "note": "Population page; the paediatric group and the paediatric fronts cover it."
-    },
-    {
-      "name": "Childhood Cardiac (Heart) Tumors",
-      "nciUrl": "https://www.cancer.gov/types/cardiac/patient-child-cardiac-treatment-pdq",
-      "status": "added",
-      "matchedIds": [
-        "rare-childhood-cancers"
-      ]
-    },
-    {
-      "name": "Cholangiocarcinoma",
-      "nciUrl": "https://www.cancer.gov/types/liver",
-      "status": "existing",
-      "matchedIds": [
-        "cholangiocarcinoma"
-      ]
-    },
-    {
-      "name": "Chordoma, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/bone",
-      "status": "added",
-      "matchedIds": [
-        "chordoma"
-      ]
-    },
-    {
-      "name": "Chronic Lymphocytic Leukemia (CLL)",
-      "nciUrl": "https://www.cancer.gov/types/leukemia",
-      "status": "existing",
-      "matchedIds": [
-        "cll"
-      ]
-    },
-    {
-      "name": "Chronic Myelogenous Leukemia (CML)",
-      "nciUrl": "https://www.cancer.gov/types/leukemia",
-      "status": "existing",
-      "matchedIds": [
-        "cml"
-      ]
-    },
-    {
-      "name": "Colorectal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/colorectal",
-      "status": "existing",
-      "matchedIds": [
-        "colorectal"
-      ]
-    },
-    {
-      "name": "Craniopharyngioma, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/brain",
-      "status": "added",
-      "matchedIds": [
-        "craniopharyngioma"
-      ]
-    },
-    {
-      "name": "Cutaneous T-Cell Lymphoma (Mycosis Fungoides and Sezary Syndrome)",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma",
-      "status": "existing",
-      "matchedIds": [
-        "peripheral-t-cell-lymphoma"
-      ],
-      "note": "Existing record carries the aliases CTCL and mycosis fungoides."
-    },
-    {
-      "name": "Diffuse Intrinsic Pontine Glioma (DIPG)",
-      "nciUrl": "https://www.cancer.gov/types/brain",
-      "status": "added",
-      "matchedIds": [
-        "dipg-dmg"
-      ]
-    },
-    {
-      "name": "Ductal Carcinoma In Situ (DCIS)",
-      "nciUrl": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis",
-      "status": "added",
-      "matchedIds": [
-        "ductal-carcinoma-in-situ"
-      ]
-    },
-    {
-      "name": "Endometrial Cancer",
-      "nciUrl": "https://www.cancer.gov/types/uterine",
-      "status": "existing",
-      "matchedIds": [
-        "endometrial"
-      ]
-    },
-    {
-      "name": "Ependymoma, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/brain",
-      "status": "added",
-      "matchedIds": [
-        "ependymoma"
-      ]
-    },
-    {
-      "name": "Esophageal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/esophageal",
-      "status": "existing",
-      "matchedIds": [
-        "esophageal"
-      ]
-    },
-    {
-      "name": "Esthesioneuroblastoma",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "added",
-      "matchedIds": [
-        "sinonasal"
-      ]
-    },
-    {
-      "name": "Ewing Sarcoma",
-      "nciUrl": "https://www.cancer.gov/types/bone",
-      "status": "existing",
-      "matchedIds": [
-        "ewing-sarcoma"
-      ]
-    },
-    {
-      "name": "Extracranial Germ Cell Tumor, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/extracranial-germ-cell",
-      "status": "added",
-      "matchedIds": [
-        "paediatric-germ-cell-tumours"
-      ]
-    },
-    {
-      "name": "Extragonadal Germ Cell Tumor",
-      "nciUrl": "https://www.cancer.gov/types/extragonadal-germ-cell",
-      "status": "existing",
-      "matchedIds": [
-        "testicular",
-        "paediatric-germ-cell-tumours"
-      ],
-      "note": "Adult extragonadal disease is staged and treated with testicular germ cell tumour protocols (IGCCCG)."
-    },
-    {
-      "name": "Fallopian Tube Cancer",
-      "nciUrl": "https://www.cancer.gov/types/ovarian",
-      "status": "existing",
-      "matchedIds": [
-        "ovarian"
-      ]
-    },
-    {
-      "name": "Gallbladder Cancer",
-      "nciUrl": "https://www.cancer.gov/types/gallbladder",
-      "status": "added",
-      "matchedIds": [
-        "gallbladder"
-      ]
-    },
-    {
-      "name": "Gastric (Stomach) Cancer",
-      "nciUrl": "https://www.cancer.gov/types/stomach",
-      "status": "existing",
-      "matchedIds": [
-        "gastric"
-      ]
-    },
-    {
-      "name": "Gastrointestinal Neuroendocrine Tumors",
-      "nciUrl": "https://www.cancer.gov/types/gi-neuroendocrine-tumors",
-      "status": "existing",
-      "matchedIds": [
-        "neuroendocrine"
-      ]
-    },
-    {
-      "name": "Gastrointestinal Stromal Tumors (GIST)",
-      "nciUrl": "https://www.cancer.gov/types/soft-tissue-sarcoma",
-      "status": "existing",
-      "matchedIds": [
-        "gist"
-      ]
-    },
-    {
-      "name": "Gestational Trophoblastic Disease",
-      "nciUrl": "https://www.cancer.gov/types/gestational-trophoblastic",
-      "status": "existing",
-      "matchedIds": [
-        "gestational-trophoblastic"
-      ]
-    },
-    {
-      "name": "Glioma, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/brain",
-      "status": "added",
-      "matchedIds": [
-        "paediatric-low-grade-glioma",
-        "dipg-dmg"
-      ]
-    },
-    {
-      "name": "Hairy Cell Leukemia",
-      "nciUrl": "https://www.cancer.gov/types/leukemia",
-      "status": "existing",
-      "matchedIds": [
-        "hairy-cell-leukemia"
-      ]
-    },
-    {
-      "name": "Head and Neck Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "head-and-neck"
-      ]
-    },
-    {
-      "name": "Hepatocellular (Liver) Cancer",
-      "nciUrl": "https://www.cancer.gov/types/liver",
-      "status": "existing",
-      "matchedIds": [
-        "hcc",
-        "hepatoblastoma"
-      ]
-    },
-    {
-      "name": "Hodgkin Lymphoma",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma",
-      "status": "existing",
-      "matchedIds": [
-        "hodgkin-lymphoma"
-      ]
-    },
-    {
-      "name": "Hypopharyngeal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "head-and-neck"
-      ]
-    },
-    {
-      "name": "Intraocular (Uveal) Melanoma",
-      "nciUrl": "https://www.cancer.gov/types/eye",
-      "status": "existing",
-      "matchedIds": [
-        "uveal-melanoma"
-      ]
-    },
-    {
-      "name": "Kaposi Sarcoma",
-      "nciUrl": "https://www.cancer.gov/types/soft-tissue-sarcoma",
-      "status": "existing",
-      "matchedIds": [
-        "kaposi-sarcoma"
-      ]
-    },
-    {
-      "name": "Kidney (Renal Cell) Cancer",
-      "nciUrl": "https://www.cancer.gov/types/kidney",
-      "status": "existing",
-      "matchedIds": [
-        "rcc"
-      ]
-    },
-    {
-      "name": "Langerhans Cell Histiocytosis",
-      "nciUrl": "https://www.cancer.gov/types/langerhans",
-      "status": "added",
-      "matchedIds": [
-        "langerhans-cell-histiocytosis"
-      ]
-    },
-    {
-      "name": "Laryngeal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "head-and-neck"
-      ]
-    },
-    {
-      "name": "Leukemia",
-      "nciUrl": "https://www.cancer.gov/types/leukemia",
-      "status": "existing",
-      "matchedIds": [
-        "all-leukemia",
-        "aml",
-        "cll",
-        "cml",
-        "hairy-cell-leukemia"
-      ],
-      "note": "Umbrella."
-    },
-    {
-      "name": "Lip and Oral Cavity Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "head-and-neck"
-      ]
-    },
-    {
-      "name": "Lung Cancer",
-      "nciUrl": "https://www.cancer.gov/types/lung",
-      "status": "existing",
-      "matchedIds": [
-        "nsclc",
-        "sclc"
-      ]
-    },
-    {
-      "name": "Lymphoma",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma",
-      "status": "existing",
-      "matchedIds": [
-        "dlbcl",
-        "hodgkin-lymphoma",
-        "follicular-lymphoma",
-        "mantle-cell-lymphoma",
-        "peripheral-t-cell-lymphoma"
-      ],
-      "note": "Umbrella."
-    },
-    {
-      "name": "Male Breast Cancer",
-      "nciUrl": "https://www.cancer.gov/types/breast/male-breast-cancer",
-      "status": "added",
-      "matchedIds": [
-        "male-breast-cancer"
-      ]
-    },
-    {
-      "name": "Medulloblastoma and Other CNS Embryonal Tumors, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/brain",
-      "status": "existing",
-      "matchedIds": [
-        "medulloblastoma",
-        "atrt"
-      ]
-    },
-    {
-      "name": "Melanoma",
-      "nciUrl": "https://www.cancer.gov/types/skin",
-      "status": "existing",
-      "matchedIds": [
-        "melanoma"
-      ]
-    },
-    {
-      "name": "Merkel Cell Carcinoma",
-      "nciUrl": "https://www.cancer.gov/types/skin",
-      "status": "existing",
-      "matchedIds": [
-        "merkel-cell-carcinoma"
-      ]
-    },
-    {
-      "name": "Mesothelioma",
-      "nciUrl": "https://www.cancer.gov/types/mesothelioma",
-      "status": "existing",
-      "matchedIds": [
-        "mesothelioma"
-      ]
-    },
-    {
-      "name": "Metastatic Cancer",
-      "nciUrl": "https://www.cancer.gov/types/metastatic-cancer",
-      "status": "meta",
-      "matchedIds": [
-        "metastasis"
-      ],
-      "note": "Situation page, not a cancer type; covered by the term metastasis."
-    },
-    {
-      "name": "Metastatic Squamous Neck Cancer with Occult Primary",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "head-and-neck",
-        "cancer-of-unknown-primary"
-      ]
-    },
-    {
-      "name": "Midline Tract Carcinoma With NUT Gene Changes",
-      "nciUrl": "https://www.cancer.gov/types/midline/patient-child-midline-tract-carcinoma-treatment-pdq",
-      "status": "added",
-      "matchedIds": [
-        "nut-carcinoma"
-      ]
-    },
-    {
-      "name": "Mouth Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "head-and-neck"
-      ]
-    },
-    {
-      "name": "Multiple Endocrine Neoplasia Syndromes",
-      "nciUrl": "https://www.cancer.gov/types/multiple-endocrine-neoplasia",
-      "status": "added",
-      "matchedIds": [
-        "multiple-endocrine-neoplasia"
-      ]
-    },
-    {
-      "name": "Multiple Myeloma / Plasma Cell Neoplasms",
-      "nciUrl": "https://www.cancer.gov/types/myeloma",
-      "status": "existing",
-      "matchedIds": [
-        "multiple-myeloma"
-      ]
-    },
-    {
-      "name": "Mycosis Fungoides",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma",
-      "status": "existing",
-      "matchedIds": [
-        "peripheral-t-cell-lymphoma"
-      ]
-    },
-    {
-      "name": "Myelodysplastic Syndromes",
-      "nciUrl": "https://www.cancer.gov/types/myeloproliferative",
-      "status": "existing",
-      "matchedIds": [
-        "mds"
-      ]
-    },
-    {
-      "name": "Myelodysplastic/Myeloproliferative Neoplasms",
-      "nciUrl": "https://www.cancer.gov/types/myeloproliferative",
-      "status": "added",
-      "matchedIds": [
-        "cmml"
-      ]
-    },
-    {
-      "name": "Myeloproliferative Neoplasms",
-      "nciUrl": "https://www.cancer.gov/types/myeloproliferative",
-      "status": "existing",
-      "matchedIds": [
-        "myeloproliferative-neoplasms"
-      ]
-    },
-    {
-      "name": "Nasal Cavity and Paranasal Sinus Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "added",
-      "matchedIds": [
-        "sinonasal"
-      ]
-    },
-    {
-      "name": "Nasopharyngeal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "nasopharyngeal"
-      ]
-    },
-    {
-      "name": "Neuroblastoma",
-      "nciUrl": "https://www.cancer.gov/types/neuroblastoma",
-      "status": "existing",
-      "matchedIds": [
-        "neuroblastoma"
-      ]
-    },
-    {
-      "name": "Non-Hodgkin Lymphoma",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma",
-      "status": "existing",
-      "matchedIds": [
-        "dlbcl",
-        "follicular-lymphoma",
-        "mantle-cell-lymphoma",
-        "peripheral-t-cell-lymphoma",
-        "burkitt-lymphoma"
-      ],
-      "note": "Umbrella."
-    },
-    {
-      "name": "Non-Small Cell Lung Cancer",
-      "nciUrl": "https://www.cancer.gov/types/lung",
-      "status": "existing",
-      "matchedIds": [
-        "nsclc"
-      ]
-    },
-    {
-      "name": "Oropharyngeal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "head-and-neck"
-      ]
-    },
-    {
-      "name": "Osteosarcoma and Undifferentiated Pleomorphic Sarcoma of Bone",
-      "nciUrl": "https://www.cancer.gov/types/bone",
-      "status": "existing",
-      "matchedIds": [
-        "osteosarcoma"
-      ]
-    },
-    {
-      "name": "Ovarian Cancer",
-      "nciUrl": "https://www.cancer.gov/types/ovarian",
-      "status": "existing",
-      "matchedIds": [
-        "ovarian"
-      ]
-    },
-    {
-      "name": "Ovarian Germ Cell Tumors",
-      "nciUrl": "https://www.cancer.gov/types/ovarian",
-      "status": "added",
-      "matchedIds": [
-        "paediatric-germ-cell-tumours"
-      ],
-      "note": "Ovarian germ cell tumours are mostly adolescent and young-adult disease; carried as an alias on the childhood and adolescent germ cell record."
-    },
-    {
-      "name": "Pancreatic Cancer",
-      "nciUrl": "https://www.cancer.gov/types/pancreatic",
-      "status": "existing",
-      "matchedIds": [
-        "pancreatic"
-      ]
-    },
-    {
-      "name": "Pancreatic Neuroendocrine Tumors (Islet Cell Tumors)",
-      "nciUrl": "https://www.cancer.gov/types/pancreatic",
-      "status": "existing",
-      "matchedIds": [
-        "neuroendocrine"
-      ]
-    },
-    {
-      "name": "Papillomatosis, Childhood Laryngeal",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "added",
-      "matchedIds": [
-        "rare-childhood-cancers"
-      ]
-    },
-    {
-      "name": "Paraganglioma",
-      "nciUrl": "https://www.cancer.gov/types/pheochromocytoma",
-      "status": "added",
-      "matchedIds": [
-        "pheochromocytoma-paraganglioma"
-      ]
-    },
-    {
-      "name": "Parathyroid Cancer",
-      "nciUrl": "https://www.cancer.gov/types/parathyroid",
-      "status": "added",
-      "matchedIds": [
-        "parathyroid-carcinoma"
-      ]
-    },
-    {
-      "name": "Penile Cancer",
-      "nciUrl": "https://www.cancer.gov/types/penile",
-      "status": "added",
-      "matchedIds": [
-        "penile"
-      ]
-    },
-    {
-      "name": "Pharyngeal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "head-and-neck"
-      ]
-    },
-    {
-      "name": "Pheochromocytoma",
-      "nciUrl": "https://www.cancer.gov/types/pheochromocytoma",
-      "status": "added",
-      "matchedIds": [
-        "pheochromocytoma-paraganglioma"
-      ]
-    },
-    {
-      "name": "Pituitary Tumor",
-      "nciUrl": "https://www.cancer.gov/types/pituitary",
-      "status": "added",
-      "matchedIds": [
-        "pituitary-tumours"
-      ]
-    },
-    {
-      "name": "Pleuropulmonary Blastoma",
-      "nciUrl": "https://www.cancer.gov/types/lung",
-      "status": "added",
-      "matchedIds": [
-        "pleuropulmonary-blastoma"
-      ]
-    },
-    {
-      "name": "Pregnancy and Breast Cancer",
-      "nciUrl": "https://www.cancer.gov/types/breast/breast-cancer-during-pregnancy",
-      "status": "meta",
-      "matchedIds": [
-        "cancer-in-pregnancy"
-      ],
-      "note": "Situation page; covered by the term cancer-in-pregnancy."
-    },
-    {
-      "name": "Pregnancy and Hodgkin Lymphoma",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma/hp/hodgkin-lymphoma-treatment-during-pregnancy-pdq",
-      "status": "meta",
-      "matchedIds": [
-        "cancer-in-pregnancy",
-        "hodgkin-lymphoma"
-      ]
-    },
-    {
-      "name": "Pregnancy and Non-Hodgkin Lymphoma",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma/hp/non-hodgkin-lymphoma-treatment-during-pregnancy-pdq",
-      "status": "meta",
-      "matchedIds": [
-        "cancer-in-pregnancy",
-        "dlbcl"
-      ]
-    },
-    {
-      "name": "Primary Central Nervous System (CNS) Lymphoma",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma",
-      "status": "existing",
-      "matchedIds": [
-        "primary-cns-lymphoma"
-      ]
-    },
-    {
-      "name": "Primary Peritoneal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/ovarian",
-      "status": "existing",
-      "matchedIds": [
-        "ovarian"
-      ]
-    },
-    {
-      "name": "Prostate Cancer",
-      "nciUrl": "https://www.cancer.gov/types/prostate",
-      "status": "existing",
-      "matchedIds": [
-        "prostate"
-      ]
-    },
-    {
-      "name": "Pulmonary Inflammatory Myofibroblastic Tumor",
-      "nciUrl": "https://www.cancer.gov/types/lung",
-      "status": "added",
-      "matchedIds": [
-        "inflammatory-myofibroblastic-tumour"
-      ]
-    },
-    {
-      "name": "Rare Cancers of Childhood",
-      "nciUrl": "https://www.cancer.gov/types/childhood-cancers/patient/rare-childhood-cancers-pdq",
-      "status": "added",
-      "matchedIds": [
-        "rare-childhood-cancers"
-      ]
-    },
-    {
-      "name": "Rectal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/colorectal",
-      "status": "existing",
-      "matchedIds": [
-        "colorectal"
-      ]
-    },
-    {
-      "name": "Recurrent Cancer",
-      "nciUrl": "https://www.cancer.gov/types/recurrent-cancer",
-      "status": "meta",
-      "matchedIds": [
-        "late-recurrence"
-      ],
-      "note": "Situation page, not a cancer type."
-    },
-    {
-      "name": "Retinoblastoma",
-      "nciUrl": "https://www.cancer.gov/types/retinoblastoma",
-      "status": "existing",
-      "matchedIds": [
-        "retinoblastoma"
-      ]
-    },
-    {
-      "name": "Rhabdomyosarcoma, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/soft-tissue-sarcoma",
-      "status": "existing",
-      "matchedIds": [
-        "rhabdomyosarcoma"
-      ]
-    },
-    {
-      "name": "Salivary Gland Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "salivary-gland"
-      ]
-    },
-    {
-      "name": "Sezary Syndrome",
-      "nciUrl": "https://www.cancer.gov/types/lymphoma",
-      "status": "existing",
-      "matchedIds": [
-        "peripheral-t-cell-lymphoma"
-      ]
-    },
-    {
-      "name": "Skin Cancer",
-      "nciUrl": "https://www.cancer.gov/types/skin",
-      "status": "existing",
-      "matchedIds": [
-        "melanoma",
-        "basal-cell-carcinoma",
-        "cutaneous-scc",
-        "merkel-cell-carcinoma"
-      ],
-      "note": "Umbrella."
-    },
-    {
-      "name": "Small Cell Lung Cancer",
-      "nciUrl": "https://www.cancer.gov/types/lung",
-      "status": "existing",
-      "matchedIds": [
-        "sclc"
-      ]
-    },
-    {
-      "name": "Small Intestine Cancer",
-      "nciUrl": "https://www.cancer.gov/types/small-intestine",
-      "status": "added",
-      "matchedIds": [
-        "small-bowel"
-      ]
-    },
-    {
-      "name": "Soft Tissue Sarcoma",
-      "nciUrl": "https://www.cancer.gov/types/soft-tissue-sarcoma",
-      "status": "existing",
-      "matchedIds": [
-        "sarcoma"
-      ]
-    },
-    {
-      "name": "Squamous Cell Carcinoma of the Skin",
-      "nciUrl": "https://www.cancer.gov/types/skin",
-      "status": "existing",
-      "matchedIds": [
-        "cutaneous-scc"
-      ]
-    },
-    {
-      "name": "Testicular Cancer",
-      "nciUrl": "https://www.cancer.gov/types/testicular",
-      "status": "existing",
-      "matchedIds": [
-        "testicular"
-      ]
-    },
-    {
-      "name": "Throat Cancer",
-      "nciUrl": "https://www.cancer.gov/types/head-and-neck",
-      "status": "existing",
-      "matchedIds": [
-        "head-and-neck"
-      ]
-    },
-    {
-      "name": "Thymoma and Thymic Carcinoma (Thymus Cancer)",
-      "nciUrl": "https://www.cancer.gov/types/thymus-cancer",
-      "status": "existing",
-      "matchedIds": [
-        "thymic-epithelial"
-      ]
-    },
-    {
-      "name": "Thyroid Cancer",
-      "nciUrl": "https://www.cancer.gov/types/thyroid",
-      "status": "existing",
-      "matchedIds": [
-        "thyroid"
-      ]
-    },
-    {
-      "name": "Tracheobronchial Tumors, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/lung",
-      "status": "added",
-      "matchedIds": [
-        "pleuropulmonary-blastoma"
-      ],
-      "note": "Covered by the childhood lung and airway tumours record."
-    },
-    {
-      "name": "Transitional Cell Cancer of the Renal Pelvis and Ureter",
-      "nciUrl": "https://www.cancer.gov/types/kidney",
-      "status": "existing",
-      "matchedIds": [
-        "urothelial"
-      ],
-      "note": "Upper tract urothelial carcinoma sits in the urothelial record."
-    },
-    {
-      "name": "Urethral Cancer",
-      "nciUrl": "https://www.cancer.gov/types/urethral",
-      "status": "added",
-      "matchedIds": [
-        "urethral"
-      ]
-    },
-    {
-      "name": "Uterine Sarcoma",
-      "nciUrl": "https://www.cancer.gov/types/uterine",
-      "status": "added",
-      "matchedIds": [
-        "uterine-sarcoma"
-      ]
-    },
-    {
-      "name": "Vaginal Cancer",
-      "nciUrl": "https://www.cancer.gov/types/vaginal",
-      "status": "added",
-      "matchedIds": [
-        "vaginal"
-      ]
-    },
-    {
-      "name": "Vascular Tumors, Childhood",
-      "nciUrl": "https://www.cancer.gov/types/soft-tissue-sarcoma",
-      "status": "added",
-      "matchedIds": [
-        "vascular-tumours"
-      ]
-    },
-    {
-      "name": "Vulvar Cancer",
-      "nciUrl": "https://www.cancer.gov/types/vulvar",
-      "status": "existing",
-      "matchedIds": [
-        "vulvar"
-      ]
-    },
-    {
-      "name": "Wilms Tumor and Other Childhood Kidney Tumors",
-      "nciUrl": "https://www.cancer.gov/types/kidney",
-      "status": "existing",
-      "matchedIds": [
-        "wilms-tumor"
-      ]
-    }
-  ],
-  "addedBeyondNci": [
-    {
-      "id": "ampullary",
-      "reason": "Requested rare adult GI cancer; NCI folds it into the pancreatic and bile duct pages."
-    },
-    {
-      "id": "desmoid-tumour",
-      "reason": "Requested rare tumour with a recent approval (nirogacestat); NCI lists it under soft tissue sarcoma."
-    },
-    {
-      "id": "tenosynovial-giant-cell-tumour",
-      "reason": "Requested rare tumour with CSF1R inhibitors; NCI lists it under soft tissue sarcoma."
-    },
-    {
-      "id": "epithelioid-sarcoma",
-      "reason": "Requested rare sarcoma with tazemetostat; NCI lists it under soft tissue sarcoma."
-    },
-    {
-      "id": "systemic-mastocytosis",
-      "reason": "Requested rare haematologic neoplasm with avapritinib; not an NCI A to Z entry."
-    },
-    {
-      "id": "histiocytoses",
-      "reason": "Erdheim-Chester and Rosai-Dorfman disease; NCI lists only Langerhans cell histiocytosis."
-    },
-    {
-      "id": "post-transplant-lymphoproliferative-disorder",
-      "reason": "Requested rare lymphoma; NCI lists it under non-Hodgkin lymphoma."
-    }
-  ]
+  {
+   "name": "Acute Myeloid Leukemia (AML)",
+   "link": "https://www.cancer.gov/types/leukemia"
+  },
+  {
+   "name": "Adolescents, Cancer in",
+   "link": "https://www.cancer.gov/types/aya"
+  },
+  {
+   "name": "Adrenocortical Carcinoma",
+   "link": "https://www.cancer.gov/types/adrenocortical"
+  },
+  {
+   "name": "AIDS-Related Lymphoma (Lymphoma)",
+   "link": "https://www.cancer.gov/types/lymphoma"
+  },
+  {
+   "name": "Anal Cancer",
+   "link": "https://www.cancer.gov/types/anal"
+  },
+  {
+   "name": "Appendix Cancer (Gastrointestinal Neuroendocrine Tumors)",
+   "link": "https://www.cancer.gov/types/gi-neuroendocrine-tumors"
+  },
+  {
+   "name": "Astrocytomas, Childhood (Brain Cancer)",
+   "link": "https://www.cancer.gov/types/brain"
+  },
+  {
+   "name": "Atypical Teratoid/Rhabdoid Tumor, Childhood, Central Nervous System (CNS) Tumor (Brain Cancer)",
+   "link": "https://www.cancer.gov/types/brain"
+  },
+  {
+   "name": "Basal Cell Carcinoma of the Skin (Skin Cancer)",
+   "link": "https://www.cancer.gov/types/skin"
+  },
+  {
+   "name": "Bile Duct Cancer",
+   "link": "https://www.cancer.gov/types/liver"
+  },
+  {
+   "name": "Bladder Cancer",
+   "link": "https://www.cancer.gov/types/bladder"
+  },
+  {
+   "name": "Brain Tumors",
+   "link": "https://www.cancer.gov/types/brain"
+  },
+  {
+   "name": "Breast Cancer",
+   "link": "https://www.cancer.gov/types/breast"
+  },
+  {
+   "name": "Bronchial Tumors (Lung Cancer)",
+   "link": "https://www.cancer.gov/types/lung"
+  },
+  {
+   "name": "Burkitt Lymphoma (Non-Hodgkin Lymphoma)",
+   "link": "https://www.cancer.gov/types/lymphoma"
+  },
+  {
+   "name": "Carcinoma of Unknown Primary",
+   "link": "https://www.cancer.gov/types/unknown-primary"
+  },
+  {
+   "name": "Central Nervous System (CNS) Germ Cell Tumor, Childhood (Brain Cancer)",
+   "link": "https://www.cancer.gov/types/brain"
+  },
+  {
+   "name": "Cervical Cancer",
+   "link": "https://www.cancer.gov/types/cervical"
+  },
+  {
+   "name": "Childhood Cancers",
+   "link": "https://www.cancer.gov/types/childhood-cancers"
+  },
+  {
+   "name": "Cholangiocarcinoma (Bile Duct Cancer)",
+   "link": "https://www.cancer.gov/types/liver"
+  },
+  {
+   "name": "Chordoma, Childhood (Bone Cancer)",
+   "link": "https://www.cancer.gov/types/bone"
+  },
+  {
+   "name": "Chronic Lymphocytic Leukemia (CLL)",
+   "link": "https://www.cancer.gov/types/leukemia"
+  },
+  {
+   "name": "Chronic Myelogenous Leukemia (CML)",
+   "link": "https://www.cancer.gov/types/leukemia"
+  },
+  {
+   "name": "Colorectal Cancer",
+   "link": "https://www.cancer.gov/types/colorectal"
+  },
+  {
+   "name": "Craniopharyngioma, Childhood (Brain Cancer)",
+   "link": "https://www.cancer.gov/types/brain"
+  },
+  {
+   "name": "Cutaneous T-Cell Lymphoma (Lymphoma) (Mycosis Fungoids and Sézary Syndrome)",
+   "link": "https://www.cancer.gov/types/lymphoma"
+  },
+  {
+   "name": "Diffuse Intrinsic Pontine Glioma (DIPG) (Brain Cancer)",
+   "link": "https://www.cancer.gov/types/brain"
+  },
+  {
+   "name": "Ductal Carcinoma In Situ (DCIS) (Breast Cancer)",
+   "link": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis"
+  },
+  {
+   "name": "Endometrial Cancer (Uterine Cancer)",
+   "link": "https://www.cancer.gov/types/uterine"
+  },
+  {
+   "name": "Ependymoma, Childhood (Brain Cancer)",
+   "link": "https://www.cancer.gov/types/brain"
+  },
+  {
+   "name": "Esophageal Cancer",
+   "link": "https://www.cancer.gov/types/esophageal"
+  },
+  {
+   "name": "Esthesioneuroblastoma (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Ewing Sarcoma (Bone Cancer)",
+   "link": "https://www.cancer.gov/types/bone"
+  },
+  {
+   "name": "Extracranial Germ Cell Tumor, Childhood",
+   "link": "https://www.cancer.gov/types/extracranial-germ-cell"
+  },
+  {
+   "name": "Extragonadal Germ Cell Tumor",
+   "link": "https://www.cancer.gov/types/extragonadal-germ-cell"
+  },
+  {
+   "name": "Fallopian Tube Cancer",
+   "link": "https://www.cancer.gov/types/ovarian"
+  },
+  {
+   "name": "Gallbladder Cancer",
+   "link": "https://www.cancer.gov/types/gallbladder"
+  },
+  {
+   "name": "Gastric (Stomach) Cancer",
+   "link": "https://www.cancer.gov/types/stomach"
+  },
+  {
+   "name": "Gastrointestinal Neuroendocrine Tumors",
+   "link": "https://www.cancer.gov/types/gi-neuroendocrine-tumors"
+  },
+  {
+   "name": "Gastrointestinal Stromal Tumors (GIST) (Soft Tissue Sarcoma)",
+   "link": "https://www.cancer.gov/types/soft-tissue-sarcoma"
+  },
+  {
+   "name": "Gestational Trophoblastic Disease",
+   "link": "https://www.cancer.gov/types/gestational-trophoblastic"
+  },
+  {
+   "name": "Glioma, Childhood (Brain Cancer)",
+   "link": "https://www.cancer.gov/types/brain"
+  },
+  {
+   "name": "Hairy Cell Leukemia",
+   "link": "https://www.cancer.gov/types/leukemia"
+  },
+  {
+   "name": "Head and Neck Cancer",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Heart Tumors, Childhood (Cardiac Tumors)",
+   "link": "https://www.cancer.gov/types/cardiac/patient-child-cardiac-treatment-pdq"
+  },
+  {
+   "name": "Hepatocellular (Liver) Cancer",
+   "link": "https://www.cancer.gov/types/liver"
+  },
+  {
+   "name": "Hodgkin Lymphoma",
+   "link": "https://www.cancer.gov/types/lymphoma"
+  },
+  {
+   "name": "Hypopharyngeal Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Intraocular Melanoma (Eye Cancer)",
+   "link": "https://www.cancer.gov/types/eye"
+  },
+  {
+   "name": "Kaposi Sarcoma (Soft Tissue Sarcoma)",
+   "link": "https://www.cancer.gov/types/soft-tissue-sarcoma"
+  },
+  {
+   "name": "Kidney Cancer (Renal Cell)",
+   "link": "https://www.cancer.gov/types/kidney"
+  },
+  {
+   "name": "Langerhans Cell Histiocytosis",
+   "link": "https://www.cancer.gov/types/langerhans"
+  },
+  {
+   "name": "Laryngeal Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Leukemia",
+   "link": "https://www.cancer.gov/types/leukemia"
+  },
+  {
+   "name": "Lip and Oral Cavity Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Liver Cancer",
+   "link": "https://www.cancer.gov/types/liver"
+  },
+  {
+   "name": "Lung Cancer",
+   "link": "https://www.cancer.gov/types/lung"
+  },
+  {
+   "name": "Lymphoma",
+   "link": "https://www.cancer.gov/types/lymphoma"
+  },
+  {
+   "name": "Male Breast Cancer",
+   "link": "https://www.cancer.gov/types/breast/male-breast-cancer"
+  },
+  {
+   "name": "Medulloblastoma and Other Central Nervous System (CNS) Embryonal Tumors, Childhood (Brain Cancer)",
+   "link": "https://www.cancer.gov/types/brain"
+  },
+  {
+   "name": "Melanoma",
+   "link": "https://www.cancer.gov/types/skin"
+  },
+  {
+   "name": "Merkel Cell Carcinoma (Skin Cancer)",
+   "link": "https://www.cancer.gov/types/skin"
+  },
+  {
+   "name": "Mesothelioma",
+   "link": "https://www.cancer.gov/types/mesothelioma"
+  },
+  {
+   "name": "Metastatic Cancer",
+   "link": "https://www.cancer.gov/types/metastatic-cancer"
+  },
+  {
+   "name": "Metastatic Squamous Neck Cancer with Occult Primary (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Mouth Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Multiple Endocrine Neoplasia Syndromes",
+   "link": "https://www.cancer.gov/types/multiple-endocrine-neoplasia"
+  },
+  {
+   "name": "Mycosis Fungoides (Lymphoma)",
+   "link": "https://www.cancer.gov/types/lymphoma"
+  },
+  {
+   "name": "Myelodysplastic Syndromes",
+   "link": "https://www.cancer.gov/types/myeloproliferative"
+  },
+  {
+   "name": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "link": "https://www.cancer.gov/types/myeloproliferative"
+  },
+  {
+   "name": "Myeloproliferative Neoplasms, Chronic",
+   "link": "https://www.cancer.gov/types/myeloproliferative"
+  },
+  {
+   "name": "Nasal Cavity and Paranasal Sinus Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Nasopharyngeal Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Neuroblastoma",
+   "link": "https://www.cancer.gov/types/neuroblastoma"
+  },
+  {
+   "name": "Neuroendocrine Tumors (Gastrointestinal)",
+   "link": "https://www.cancer.gov/types/gi-neuroendocrine-tumors"
+  },
+  {
+   "name": "Non-Hodgkin Lymphoma",
+   "link": "https://www.cancer.gov/types/lymphoma"
+  },
+  {
+   "name": "Non-Small Cell Lung Cancer",
+   "link": "https://www.cancer.gov/types/lung"
+  },
+  {
+   "name": "Oropharyngeal Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Osteosarcoma and Undifferentiated Pleomorphic Sarcoma of Bone Treatment",
+   "link": "https://www.cancer.gov/types/bone"
+  },
+  {
+   "name": "Ovarian Cancer",
+   "link": "https://www.cancer.gov/types/ovarian"
+  },
+  {
+   "name": "Ovarian Germ Cell Tumors",
+   "link": "https://www.cancer.gov/types/ovarian"
+  },
+  {
+   "name": "Pancreatic Cancer",
+   "link": "https://www.cancer.gov/types/pancreatic"
+  },
+  {
+   "name": "Pancreatic Neuroendocrine Tumors (Islet Cell Tumors)",
+   "link": "https://www.cancer.gov/types/pancreatic"
+  },
+  {
+   "name": "Papillomatosis (Childhood Laryngeal)(Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Paraganglioma",
+   "link": "https://www.cancer.gov/types/pheochromocytoma"
+  },
+  {
+   "name": "Paranasal Sinus and Nasal Cavity Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Parathyroid Cancer",
+   "link": "https://www.cancer.gov/types/parathyroid"
+  },
+  {
+   "name": "Penile Cancer",
+   "link": "https://www.cancer.gov/types/penile"
+  },
+  {
+   "name": "Pharyngeal Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Pheochromocytoma",
+   "link": "https://www.cancer.gov/types/pheochromocytoma"
+  },
+  {
+   "name": "Pituitary Tumor",
+   "link": "https://www.cancer.gov/types/pituitary"
+  },
+  {
+   "name": "Plasma Cell Neoplasm/Multiple Myeloma",
+   "link": "https://www.cancer.gov/types/myeloma"
+  },
+  {
+   "name": "Pleuropulmonary Blastoma (Lung Cancer)",
+   "link": "https://www.cancer.gov/types/lung"
+  },
+  {
+   "name": "Pregnancy and Breast Cancer",
+   "link": "https://www.cancer.gov/types/breast/breast-cancer-during-pregnancy"
+  },
+  {
+   "name": "Primary Central Nervous System (CNS) Lymphoma",
+   "link": "https://www.cancer.gov/types/lymphoma"
+  },
+  {
+   "name": "Primary Peritoneal Cancer",
+   "link": "https://www.cancer.gov/types/ovarian"
+  },
+  {
+   "name": "Prostate Cancer",
+   "link": "https://www.cancer.gov/types/prostate"
+  },
+  {
+   "name": "Pulmonary Inflammatory Myofibroblastic Tumor (Lung Cancer)",
+   "link": "https://www.cancer.gov/types/lung"
+  },
+  {
+   "name": "Rare Cancers of Childhood",
+   "link": "https://www.cancer.gov/types/childhood-cancers/patient/rare-childhood-cancers-pdq"
+  },
+  {
+   "name": "Rectal Cancer",
+   "link": "https://www.cancer.gov/types/colorectal"
+  },
+  {
+   "name": "Recurrent Cancer",
+   "link": "https://www.cancer.gov/types/recurrent-cancer"
+  },
+  {
+   "name": "Retinoblastoma",
+   "link": "https://www.cancer.gov/types/retinoblastoma"
+  },
+  {
+   "name": "Rhabdomyosarcoma, Childhood (Soft Tissue Sarcoma)",
+   "link": "https://www.cancer.gov/types/soft-tissue-sarcoma"
+  },
+  {
+   "name": "Salivary Gland Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Sézary Syndrome (Lymphoma)",
+   "link": "https://www.cancer.gov/types/lymphoma"
+  },
+  {
+   "name": "Skin Cancer",
+   "link": "https://www.cancer.gov/types/skin"
+  },
+  {
+   "name": "Small Cell Lung Cancer",
+   "link": "https://www.cancer.gov/types/lung"
+  },
+  {
+   "name": "Small Intestine Cancer",
+   "link": "https://www.cancer.gov/types/small-intestine"
+  },
+  {
+   "name": "Soft Tissue Sarcoma",
+   "link": "https://www.cancer.gov/types/soft-tissue-sarcoma"
+  },
+  {
+   "name": "Squamous Cell Carcinoma of the Skin",
+   "link": "https://www.cancer.gov/types/skin"
+  },
+  {
+   "name": "Stomach (Gastric) Cancer",
+   "link": "https://www.cancer.gov/types/stomach"
+  },
+  {
+   "name": "Testicular Cancer",
+   "link": "https://www.cancer.gov/types/testicular"
+  },
+  {
+   "name": "Throat Cancer (Head and Neck Cancer)",
+   "link": "https://www.cancer.gov/types/head-and-neck"
+  },
+  {
+   "name": "Thymoma and Thymic Carcinoma",
+   "link": "https://www.cancer.gov/types/thymus-cancer"
+  },
+  {
+   "name": "Thymus Cancer",
+   "link": "https://www.cancer.gov/types/thymus-cancer"
+  },
+  {
+   "name": "Thyroid Cancer",
+   "link": "https://www.cancer.gov/types/thyroid"
+  },
+  {
+   "name": "Tracheobronchial Tumors (Lung Cancer)",
+   "link": "https://www.cancer.govtypes/lung"
+  },
+  {
+   "name": "Transitional Cell Cancer of the Renal Pelvis and Ureter (Kidney Cancer)",
+   "link": "https://www.cancer.gov/types/kidney"
+  },
+  {
+   "name": "Ureter and Renal Pelvis, Transitional Cell Cancer (Kidney Cancer)",
+   "link": "https://www.cancer.gov/types/kidney"
+  },
+  {
+   "name": "Urethral Cancer",
+   "link": "https://www.cancer.gov/types/urethral"
+  },
+  {
+   "name": "Uterine Cancer, Endometrial",
+   "link": "https://www.cancer.gov/types/uterine"
+  },
+  {
+   "name": "Uterine Sarcoma",
+   "link": "https://www.cancer.gov/types/soft-tissue-sarcoma"
+  },
+  {
+   "name": "Vaginal Cancer",
+   "link": "https://www.cancer.gov/types/vaginal"
+  },
+  {
+   "name": "Vascular Tumors, Childhood (Soft Tissue Sarcoma)",
+   "link": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp"
+  },
+  {
+   "name": "Vulvar Cancer",
+   "link": "https://www.cancer.gov/types/vulvar"
+  },
+  {
+   "name": "Wilms Tumor and Other Childhood Kidney Tumors",
+   "link": "https://www.cancer.gov/types/kidney"
+  },
+  {
+   "name": "Young Adults, Cancer in",
+   "link": "https://www.cancer.gov/types/aya"
+  }
+ ]
 }

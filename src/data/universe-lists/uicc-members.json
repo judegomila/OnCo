@@ -1,0 +1,10 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "UICC: Membership",
+  "url": "https://www.uicc.org/membership"
+ },
+ "method": "The member-organisation count stated on the UICC membership page (a round figure published by UICC, so approximate).",
+ "total": 1100,
+ "countries": 170
+}

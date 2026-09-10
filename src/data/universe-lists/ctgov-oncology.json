@@ -1,0 +1,3757 @@
+{
+ "checked": "2026-09-10",
+ "source": {
+  "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
+  "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
+ },
+ "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
+ "total": 97105,
+ "phase3": 10992,
+ "recruiting": 14315,
+ "industryPhase3": {
+  "studies": 4236,
+  "sponsors": 935
+ },
+ "items": [
+  {
+   "name": "Hoffmann-La Roche",
+   "studies": 230
+  },
+  {
+   "name": "Merck Sharp & Dohme LLC",
+   "studies": 218
+  },
+  {
+   "name": "AstraZeneca",
+   "studies": 203
+  },
+  {
+   "name": "Novartis Pharmaceuticals",
+   "studies": 160
+  },
+  {
+   "name": "Pfizer",
+   "studies": 122
+  },
+  {
+   "name": "Bristol-Myers Squibb",
+   "studies": 109
+  },
+  {
+   "name": "GlaxoSmithKline",
+   "studies": 102
+  },
+  {
+   "name": "Amgen",
+   "studies": 92
+  },
+  {
+   "name": "Janssen Research & Development, LLC",
+   "studies": 72
+  },
+  {
+   "name": "Eli Lilly and Company",
+   "studies": 71
+  },
+  {
+   "name": "Sanofi",
+   "studies": 70
+  },
+  {
+   "name": "Jiangsu HengRui Medicine Co., Ltd.",
+   "studies": 68
+  },
+  {
+   "name": "Bayer",
+   "studies": 53
+  },
+  {
+   "name": "Celgene",
+   "studies": 50
+  },
+  {
+   "name": "AbbVie",
+   "studies": 48
+  },
+  {
+   "name": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
+   "studies": 43
+  },
+  {
+   "name": "Qilu Pharmaceutical Co., Ltd.",
+   "studies": 34
+  },
+  {
+   "name": "Boehringer Ingelheim",
+   "studies": 33
+  },
+  {
+   "name": "Sichuan Baili Pharmaceutical Co., Ltd.",
+   "studies": 33
+  },
+  {
+   "name": "Daiichi Sankyo",
+   "studies": 31
+  },
+  {
+   "name": "Incyte Corporation",
+   "studies": 28
+  },
+  {
+   "name": "Gilead Sciences",
+   "studies": 27
+  },
+  {
+   "name": "Ferring Pharmaceuticals",
+   "studies": 25
+  },
+  {
+   "name": "Suzhou Suncadia Biopharmaceuticals Co., Ltd.",
+   "studies": 25
+  },
+  {
+   "name": "Shanghai Henlius Biotech",
+   "studies": 23
+  },
+  {
+   "name": "Akeso",
+   "studies": 22
+  },
+  {
+   "name": "Regeneron Pharmaceuticals",
+   "studies": 22
+  },
+  {
+   "name": "Takeda",
+   "studies": 22
+  },
+  {
+   "name": "Johnson & Johnson Pharmaceutical Research & Development, L.L.C.",
+   "studies": 20
+  },
+  {
+   "name": "BeiGene",
+   "studies": 19
+  },
+  {
+   "name": "Genentech, Inc.",
+   "studies": 18
+  },
+  {
+   "name": "Spectrum Pharmaceuticals, Inc",
+   "studies": 18
+  },
+  {
+   "name": "Ipsen",
+   "studies": 17
+  },
+  {
+   "name": "Biocad",
+   "studies": 16
+  },
+  {
+   "name": "Eisai Inc.",
+   "studies": 16
+  },
+  {
+   "name": "Innovent Biologics (Suzhou) Co. Ltd.",
+   "studies": 16
+  },
+  {
+   "name": "Alexion Pharmaceuticals, Inc.",
+   "studies": 15
+  },
+  {
+   "name": "Astellas Pharma Global Development, Inc.",
+   "studies": 15
+  },
+  {
+   "name": "Endo USA Inc., a Keenova Therapeutics Company",
+   "studies": 15
+  },
+  {
+   "name": "Genmab",
+   "studies": 15
+  },
+  {
+   "name": "Jazz Pharmaceuticals",
+   "studies": 15
+  },
+  {
+   "name": "Shanghai JMT-Bio Inc.",
+   "studies": 15
+  },
+  {
+   "name": "Exelixis",
+   "studies": 14
+  },
+  {
+   "name": "Genzyme, a Sanofi Company",
+   "studies": 14
+  },
+  {
+   "name": "Merck KGaA, Darmstadt, Germany",
+   "studies": 14
+  },
+  {
+   "name": "Novartis",
+   "studies": 14
+  },
+  {
+   "name": "Taiho Pharmaceutical Co., Ltd.",
+   "studies": 14
+  },
+  {
+   "name": "AB Science",
+   "studies": 13
+  },
+  {
+   "name": "Abbott",
+   "studies": 13
+  },
+  {
+   "name": "BeOne Medicines",
+   "studies": 13
+  },
+  {
+   "name": "CSPC ZhongQi Pharmaceutical Technology Co., Ltd.",
+   "studies": 13
+  },
+  {
+   "name": "CTI BioPharma",
+   "studies": 13
+  },
+  {
+   "name": "Millennium Pharmaceuticals, Inc.",
+   "studies": 13
+  },
+  {
+   "name": "RemeGen Co., Ltd.",
+   "studies": 13
+  },
+  {
+   "name": "UCB Biopharma SRL",
+   "studies": 13
+  },
+  {
+   "name": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
+   "studies": 12
+  },
+  {
+   "name": "CSPC Megalith Biopharmaceutical Co.,Ltd.",
+   "studies": 11
+  },
+  {
+   "name": "EMD Serono Research & Development Institute, Inc.",
+   "studies": 11
+  },
+  {
+   "name": "Galderma R&D",
+   "studies": 11
+  },
+  {
+   "name": "Hutchison Medipharma Limited",
+   "studies": 11
+  },
+  {
+   "name": "LEO Pharma",
+   "studies": 11
+  },
+  {
+   "name": "Sinocelltech Ltd.",
+   "studies": 11
+  },
+  {
+   "name": "argenx",
+   "studies": 10
+  },
+  {
+   "name": "Kyowa Kirin Co., Ltd.",
+   "studies": 10
+  },
+  {
+   "name": "Astellas Pharma Inc",
+   "studies": 9
+  },
+  {
+   "name": "Astex Pharmaceuticals, Inc.",
+   "studies": 9
+  },
+  {
+   "name": "Betta Pharmaceuticals Co., Ltd.",
+   "studies": 9
+  },
+  {
+   "name": "Pharmacyclics LLC.",
+   "studies": 9
+  },
+  {
+   "name": "Pierre Fabre Medicament",
+   "studies": 9
+  },
+  {
+   "name": "Taiho Oncology, Inc.",
+   "studies": 9
+  },
+  {
+   "name": "Helsinn Healthcare SA",
+   "studies": 8
+  },
+  {
+   "name": "Sandoz",
+   "studies": 8
+  },
+  {
+   "name": "Acerta Pharma BV",
+   "studies": 7
+  },
+  {
+   "name": "Actavis Inc.",
+   "studies": 7
+  },
+  {
+   "name": "Almirall, S.A.",
+   "studies": 7
+  },
+  {
+   "name": "Alza Corporation, DE, USA",
+   "studies": 7
+  },
+  {
+   "name": "Celgene Corporation",
+   "studies": 7
+  },
+  {
+   "name": "Celltrion",
+   "studies": 7
+  },
+  {
+   "name": "Cephalon",
+   "studies": 7
+  },
+  {
+   "name": "Corcept Therapeutics",
+   "studies": 7
+  },
+  {
+   "name": "Cubist Pharmaceuticals LLC, a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA)",
+   "studies": 7
+  },
+  {
+   "name": "Hansoh BioMedical R&D Company",
+   "studies": 7
+  },
+  {
+   "name": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+   "studies": 7
+  },
+  {
+   "name": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+   "studies": 7
+  },
+  {
+   "name": "Mundipharma (China) Pharmaceutical Co. Ltd",
+   "studies": 7
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "studies": 7
+  },
+  {
+   "name": "Ono Pharmaceutical Co., Ltd.",
+   "studies": 7
+  },
+  {
+   "name": "Repros Therapeutics Inc.",
+   "studies": 7
+  },
+  {
+   "name": "Revolution Medicines, Inc.",
+   "studies": 7
+  },
+  {
+   "name": "Seagen, a wholly owned subsidiary of Pfizer",
+   "studies": 7
+  },
+  {
+   "name": "Shanghai Bovax Biotechnology Co., Ltd.",
+   "studies": 7
+  },
+  {
+   "name": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
+   "studies": 7
+  },
+  {
+   "name": "Telix Pharmaceuticals (Innovations) Pty Limited",
+   "studies": 7
+  },
+  {
+   "name": "UroGen Pharma Ltd.",
+   "studies": 7
+  },
+  {
+   "name": "BioNTech SE",
+   "studies": 6
+  },
+  {
+   "name": "Changchun GeneScience Pharmaceutical Co., Ltd.",
+   "studies": 6
+  },
+  {
+   "name": "Chipscreen Biosciences, Ltd.",
+   "studies": 6
+  },
+  {
+   "name": "Eurofarma Laboratorios S.A.",
+   "studies": 6
+  },
+  {
+   "name": "Genta Incorporated",
+   "studies": 6
+  },
+  {
+   "name": "Graceway Pharmaceuticals, LLC",
+   "studies": 6
+  },
+  {
+   "name": "ImmunityBio, Inc.",
+   "studies": 6
+  },
+  {
+   "name": "Jiangsu Alphamab Biopharmaceuticals Co., Ltd",
+   "studies": 6
+  },
+  {
+   "name": "Karyopharm Therapeutics Inc",
+   "studies": 6
+  },
+  {
+   "name": "Kythera Biopharmaceuticals",
+   "studies": 6
+  },
+  {
+   "name": "Loxo Oncology, Inc.",
+   "studies": 6
+  },
+  {
+   "name": "Luye Pharma Group Ltd.",
+   "studies": 6
+  },
+  {
+   "name": "Mabwell (Shanghai) Bioscience Co., Ltd.",
+   "studies": 6
+  },
+  {
+   "name": "MediLink Therapeutics (Suzhou) Co., Ltd.",
+   "studies": 6
+  },
+  {
+   "name": "Mirati Therapeutics Inc.",
+   "studies": 6
+  },
+  {
+   "name": "R-Pharm",
+   "studies": 6
+  },
+  {
+   "name": "Sumitomo Pharma America, Inc.",
+   "studies": 6
+  },
+  {
+   "name": "Wyeth is now a wholly owned subsidiary of Pfizer",
+   "studies": 6
+  },
+  {
+   "name": "Achieve Life Sciences",
+   "studies": 5
+  },
+  {
+   "name": "Allist Pharmaceuticals, Inc.",
+   "studies": 5
+  },
+  {
+   "name": "Beijing InnoCare Pharma Tech Co., Ltd.",
+   "studies": 5
+  },
+  {
+   "name": "Bio-Thera Solutions",
+   "studies": 5
+  },
+  {
+   "name": "Biogen",
+   "studies": 5
+  },
+  {
+   "name": "Blue Earth Diagnostics",
+   "studies": 5
+  },
+  {
+   "name": "Chia Tai Tianqing Pharmaceutical Group Nanjing Shunxin Pharmaceutical Co., Ltd.",
+   "studies": 5
+  },
+  {
+   "name": "CStone Pharmaceuticals",
+   "studies": 5
+  },
+  {
+   "name": "Dendreon",
+   "studies": 5
+  },
+  {
+   "name": "Foresee Pharmaceuticals Co., Ltd.",
+   "studies": 5
+  },
+  {
+   "name": "GTx",
+   "studies": 5
+  },
+  {
+   "name": "Hutchmed",
+   "studies": 5
+  },
+  {
+   "name": "Myovant Sciences GmbH",
+   "studies": 5
+  },
+  {
+   "name": "Natureceuticals Sdn Bhd",
+   "studies": 5
+  },
+  {
+   "name": "Nobelpharma",
+   "studies": 5
+  },
+  {
+   "name": "Peplin",
+   "studies": 5
+  },
+  {
+   "name": "pharmaand GmbH",
+   "studies": 5
+  },
+  {
+   "name": "PharmaMar",
+   "studies": 5
+  },
+  {
+   "name": "Photocure",
+   "studies": 5
+  },
+  {
+   "name": "SecuraBio",
+   "studies": 5
+  },
+  {
+   "name": "Swedish Orphan Biovitrum",
+   "studies": 5
+  },
+  {
+   "name": "Tesaro, Inc.",
+   "studies": 5
+  },
+  {
+   "name": "UCB Pharma",
+   "studies": 5
+  },
+  {
+   "name": "Zai Lab (Shanghai) Co., Ltd.",
+   "studies": 5
+  },
+  {
+   "name": "AEterna Zentaris",
+   "studies": 4
+  },
+  {
+   "name": "Agennix",
+   "studies": 4
+  },
+  {
+   "name": "Agenus Inc.",
+   "studies": 4
+  },
+  {
+   "name": "American Regent, Inc.",
+   "studies": 4
+  },
+  {
+   "name": "AOP Orphan Pharmaceuticals AG",
+   "studies": 4
+  },
+  {
+   "name": "Aragon Pharmaceuticals, Inc.",
+   "studies": 4
+  },
+  {
+   "name": "Ascentage Pharma Group Inc.",
+   "studies": 4
+  },
+  {
+   "name": "Beijing Biostar Pharmaceuticals Co., Ltd.",
+   "studies": 4
+  },
+  {
+   "name": "BeyondSpring Pharmaceuticals Inc.",
+   "studies": 4
+  },
+  {
+   "name": "Biofrontera Bioscience GmbH",
+   "studies": 4
+  },
+  {
+   "name": "Bracco Diagnostics, Inc",
+   "studies": 4
+  },
+  {
+   "name": "Catalyst Pharmaceuticals, Inc.",
+   "studies": 4
+  },
+  {
+   "name": "Deciphera Pharmaceuticals, LLC",
+   "studies": 4
+  },
+  {
+   "name": "Delcath Systems Inc.",
+   "studies": 4
+  },
+  {
+   "name": "Dizal Pharmaceuticals",
+   "studies": 4
+  },
+  {
+   "name": "EMD Serono",
+   "studies": 4
+  },
+  {
+   "name": "HTA Co., Ltd.",
+   "studies": 4
+  },
+  {
+   "name": "Inovio Pharmaceuticals",
+   "studies": 4
+  },
+  {
+   "name": "InSightec",
+   "studies": 4
+  },
+  {
+   "name": "INSYS Therapeutics Inc",
+   "studies": 4
+  },
+  {
+   "name": "Intarcia Therapeutics",
+   "studies": 4
+  },
+  {
+   "name": "Lee's Pharmaceutical Limited",
+   "studies": 4
+  },
+  {
+   "name": "mAbxience Research S.L.",
+   "studies": 4
+  },
+  {
+   "name": "Neovii Biotech",
+   "studies": 4
+  },
+  {
+   "name": "Norgine",
+   "studies": 4
+  },
+  {
+   "name": "NovoCure GmbH",
+   "studies": 4
+  },
+  {
+   "name": "NovoCure Ltd.",
+   "studies": 4
+  },
+  {
+   "name": "Nuvation Bio Inc.",
+   "studies": 4
+  },
+  {
+   "name": "Nycomed",
+   "studies": 4
+  },
+  {
+   "name": "PharmaEssentia",
+   "studies": 4
+  },
+  {
+   "name": "Polaris Group",
+   "studies": 4
+  },
+  {
+   "name": "PregLem SA",
+   "studies": 4
+  },
+  {
+   "name": "Seagen Inc.",
+   "studies": 4
+  },
+  {
+   "name": "Sequus Pharmaceuticals",
+   "studies": 4
+  },
+  {
+   "name": "Shandong New Time Pharmaceutical Co., LTD",
+   "studies": 4
+  },
+  {
+   "name": "Shandong Suncadia Medicine Co., Ltd.",
+   "studies": 4
+  },
+  {
+   "name": "Sol-Gel Technologies, Ltd.",
+   "studies": 4
+  },
+  {
+   "name": "Summit Therapeutics",
+   "studies": 4
+  },
+  {
+   "name": "Taizhou Hanzhong biomedical co. LTD",
+   "studies": 4
+  },
+  {
+   "name": "Telik",
+   "studies": 4
+  },
+  {
+   "name": "Teva Branded Pharmaceutical Products R&D, Inc.",
+   "studies": 4
+  },
+  {
+   "name": "TG Therapeutics, Inc.",
+   "studies": 4
+  },
+  {
+   "name": "ABX advanced biochemical compounds GmbH",
+   "studies": 3
+  },
+  {
+   "name": "Aclaris Therapeutics, Inc.",
+   "studies": 3
+  },
+  {
+   "name": "AGO Research GmbH",
+   "studies": 3
+  },
+  {
+   "name": "Archimedes Development Ltd",
+   "studies": 3
+  },
+  {
+   "name": "Arcus Biosciences, Inc.",
+   "studies": 3
+  },
+  {
+   "name": "Ariad Pharmaceuticals",
+   "studies": 3
+  },
+  {
+   "name": "AVEO Pharmaceuticals, Inc.",
+   "studies": 3
+  },
+  {
+   "name": "BeBetter Med Inc",
+   "studies": 3
+  },
+  {
+   "name": "Beijing Health Guard Biotechnology, Inc",
+   "studies": 3
+  },
+  {
+   "name": "Beijing Pearl Biotechnology Limited Liability Company",
+   "studies": 3
+  },
+  {
+   "name": "BioDelivery Sciences International",
+   "studies": 3
+  },
+  {
+   "name": "Bioniche Life Sciences Inc.",
+   "studies": 3
+  },
+  {
+   "name": "BioNumerik Pharmaceuticals, Inc.",
+   "studies": 3
+  },
+  {
+   "name": "BioVex Limited",
+   "studies": 3
+  },
+  {
+   "name": "Boston Scientific Corporation",
+   "studies": 3
+  },
+  {
+   "name": "Cancer Advances Inc.",
+   "studies": 3
+  },
+  {
+   "name": "Catalysis SL",
+   "studies": 3
+  },
+  {
+   "name": "Celtic Pharma Development Services",
+   "studies": 3
+  },
+  {
+   "name": "CG Oncology, Inc.",
+   "studies": 3
+  },
+  {
+   "name": "Chugai Pharmaceutical",
+   "studies": 3
+  },
+  {
+   "name": "Cordgenics, LLC",
+   "studies": 3
+  },
+  {
+   "name": "Curium US LLC",
+   "studies": 3
+  },
+  {
+   "name": "Dexa Medica Group",
+   "studies": 3
+  },
+  {
+   "name": "Eisai Co., Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "ERYtech Pharma",
+   "studies": 3
+  },
+  {
+   "name": "EVIVE Biotechnology",
+   "studies": 3
+  },
+  {
+   "name": "GC Cell Corporation",
+   "studies": 3
+  },
+  {
+   "name": "Genor Biopharma Co., Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "GP-Pharm",
+   "studies": 3
+  },
+  {
+   "name": "Grünenthal GmbH",
+   "studies": 3
+  },
+  {
+   "name": "Han Xu, M.D., Ph.D., FAPCR, Medical Director,, IRB Chair",
+   "studies": 3
+  },
+  {
+   "name": "Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, IRB Chair",
+   "studies": 3
+  },
+  {
+   "name": "Heidelberg Pharma AG",
+   "studies": 3
+  },
+  {
+   "name": "Helsinn Therapeutics (U.S.), Inc",
+   "studies": 3
+  },
+  {
+   "name": "IDEAYA Biosciences",
+   "studies": 3
+  },
+  {
+   "name": "Il-Yang Pharm. Co., Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "Imunon",
+   "studies": 3
+  },
+  {
+   "name": "iOMEDICO AG",
+   "studies": 3
+  },
+  {
+   "name": "Janssen Pharmaceutical K.K.",
+   "studies": 3
+  },
+  {
+   "name": "Janssen-Cilag G.m.b.H",
+   "studies": 3
+  },
+  {
+   "name": "Juno Therapeutics, Inc., a Bristol-Myers Squibb Company",
+   "studies": 3
+  },
+  {
+   "name": "Kite, A Gilead Company",
+   "studies": 3
+  },
+  {
+   "name": "Lepu Biopharma Co., Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "MacroGenics",
+   "studies": 3
+  },
+  {
+   "name": "Mateon Therapeutics",
+   "studies": 3
+  },
+  {
+   "name": "MEDA Pharma GmbH & Co. KG",
+   "studies": 3
+  },
+  {
+   "name": "medac GmbH",
+   "studies": 3
+  },
+  {
+   "name": "Medical Enterprises Europe B.V.",
+   "studies": 3
+  },
+  {
+   "name": "Nanjing Sanhome Pharmaceutical, Co., Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "Navidea Biopharmaceuticals",
+   "studies": 3
+  },
+  {
+   "name": "NewLink Genetics Corporation",
+   "studies": 3
+  },
+  {
+   "name": "Norroy Bioscience Co., LTD",
+   "studies": 3
+  },
+  {
+   "name": "Ortho Biotech Products, L.P.",
+   "studies": 3
+  },
+  {
+   "name": "OSI Pharmaceuticals",
+   "studies": 3
+  },
+  {
+   "name": "Philips Healthcare",
+   "studies": 3
+  },
+  {
+   "name": "Philogen S.p.A.",
+   "studies": 3
+  },
+  {
+   "name": "QLT Inc.",
+   "studies": 3
+  },
+  {
+   "name": "Relmada Therapeutics, Inc.",
+   "studies": 3
+  },
+  {
+   "name": "S.L.A. Pharma AG",
+   "studies": 3
+  },
+  {
+   "name": "Samsung Bioepis Co., Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "Samyang Biopharmaceuticals Corporation",
+   "studies": 3
+  },
+  {
+   "name": "Shandong Lanjin Pharmaceuticals Co.,Ltd",
+   "studies": 3
+  },
+  {
+   "name": "Shanghai Fosun Pharmaceutical Industrial Development Co. Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "Shanghai Institute Of Biological Products",
+   "studies": 3
+  },
+  {
+   "name": "Shanghai Shengdi Pharmaceutical Co., Ltd",
+   "studies": 3
+  },
+  {
+   "name": "Shanghai Yizhong Pharmaceutical Co., Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "Shanghai Zerun Biotechnology Co.,Ltd",
+   "studies": 3
+  },
+  {
+   "name": "Sirtex Medical",
+   "studies": 3
+  },
+  {
+   "name": "Soligenix",
+   "studies": 3
+  },
+  {
+   "name": "SUNHO（China）BioPharmaceutical CO., Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "Synta Pharmaceuticals Corp.",
+   "studies": 3
+  },
+  {
+   "name": "Taizhou Mabtech Pharmaceutical Co.,Ltd",
+   "studies": 3
+  },
+  {
+   "name": "Traws Pharma, Inc.",
+   "studies": 3
+  },
+  {
+   "name": "US Oncology Research",
+   "studies": 3
+  },
+  {
+   "name": "Valerio Therapeutics",
+   "studies": 3
+  },
+  {
+   "name": "Verrica Pharmaceuticals Inc.",
+   "studies": 3
+  },
+  {
+   "name": "Veru Inc.",
+   "studies": 3
+  },
+  {
+   "name": "Vical",
+   "studies": 3
+  },
+  {
+   "name": "Xian-Janssen Pharmaceutical Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "Xuanzhu Biopharmaceutical Co., Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "1Globe Health Institute LLC",
+   "studies": 2
+  },
+  {
+   "name": "3D Medicines (Sichuan) Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Actinium Pharmaceuticals",
+   "studies": 2
+  },
+  {
+   "name": "Active Biotech AB",
+   "studies": 2
+  },
+  {
+   "name": "Advanced Accelerator Applications",
+   "studies": 2
+  },
+  {
+   "name": "Advenchen Laboratories, LLC",
+   "studies": 2
+  },
+  {
+   "name": "Alaunos Therapeutics",
+   "studies": 2
+  },
+  {
+   "name": "Allergan",
+   "studies": 2
+  },
+  {
+   "name": "AlloVir",
+   "studies": 2
+  },
+  {
+   "name": "Anthos Therapeutics, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "ArriVent BioPharma, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "AryoGen Pharmed Co.",
+   "studies": 2
+  },
+  {
+   "name": "Auron Healthcare GmbH",
+   "studies": 2
+  },
+  {
+   "name": "Avistone Biotechnology Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Basilea Pharmaceutica",
+   "studies": 2
+  },
+  {
+   "name": "Bausch Health Americas, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Beijing Mabworks Biotech Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Beijing Shenogen Biomedical Co., Ltd",
+   "studies": 2
+  },
+  {
+   "name": "Biotheus Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Bioven Europe",
+   "studies": 2
+  },
+  {
+   "name": "Blau Farmaceutica S.A.",
+   "studies": 2
+  },
+  {
+   "name": "Blueprint Medicines Corporation",
+   "studies": 2
+  },
+  {
+   "name": "Braintree Laboratories",
+   "studies": 2
+  },
+  {
+   "name": "Cancer Prevention Pharmaceuticals, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "CancerVax Corporation",
+   "studies": 2
+  },
+  {
+   "name": "Candel Therapeutics, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Celcuity Inc",
+   "studies": 2
+  },
+  {
+   "name": "Cell Genesys",
+   "studies": 2
+  },
+  {
+   "name": "Cellectar Biosciences, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "CellSeed Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Centocor, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Cinnagen",
+   "studies": 2
+  },
+  {
+   "name": "Clarity Pharmaceuticals Ltd",
+   "studies": 2
+  },
+  {
+   "name": "Clovis Oncology, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Cornerstone Pharmaceuticals",
+   "studies": 2
+  },
+  {
+   "name": "Cristália Produtos Químicos Farmacêuticos Ltda.",
+   "studies": 2
+  },
+  {
+   "name": "CSL Behring",
+   "studies": 2
+  },
+  {
+   "name": "CSPC Ouyi Pharmaceutical Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "CSPC Zhongnuo Pharmaceutical (Shijiazhuang) Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Daehwa Pharmaceutical Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Debiopharm International SA",
+   "studies": 2
+  },
+  {
+   "name": "Denovo Biopharma LLC",
+   "studies": 2
+  },
+  {
+   "name": "Dong-A ST Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Dr. Reddy's Laboratories Limited",
+   "studies": 2
+  },
+  {
+   "name": "DualityBio Inc.",
+   "studies": 2
+  },
+  {
+   "name": "DUSA Pharmaceuticals, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Egetis Therapeutics",
+   "studies": 2
+  },
+  {
+   "name": "Eikon Therapeutics",
+   "studies": 2
+  },
+  {
+   "name": "EirGenix, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Eisai Limited",
+   "studies": 2
+  },
+  {
+   "name": "Encube Ethicals Pvt. Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Endocyte",
+   "studies": 2
+  },
+  {
+   "name": "EpicentRx, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "EQRx International, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Favrille",
+   "studies": 2
+  },
+  {
+   "name": "FutureChem",
+   "studies": 2
+  },
+  {
+   "name": "FutureGen Biopharmaceutical (Beijing) Co., Ltd",
+   "studies": 2
+  },
+  {
+   "name": "G1 Therapeutics, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Gamida Cell ltd",
+   "studies": 2
+  },
+  {
+   "name": "GE Healthcare",
+   "studies": 2
+  },
+  {
+   "name": "Genfleet Therapeutics (Shanghai) Inc.",
+   "studies": 2
+  },
+  {
+   "name": "GT Medical Technologies, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Guangzhou Gloria Biosciences Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Harbour BioMed (Guangzhou) Co. Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "ImmunoGen, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Immunovant Sciences GmbH",
+   "studies": 2
+  },
+  {
+   "name": "Immutep S.A.S.",
+   "studies": 2
+  },
+  {
+   "name": "InnoPharmax Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Innovent Biopharmaceutical Technology (Hangzhou) Co., LTD.",
+   "studies": 2
+  },
+  {
+   "name": "Introgen Therapeutics",
+   "studies": 2
+  },
+  {
+   "name": "Italfarmaco",
+   "studies": 2
+  },
+  {
+   "name": "ITM Solucin GmbH",
+   "studies": 2
+  },
+  {
+   "name": "Janssen Pharmaceutica N.V., Belgium",
+   "studies": 2
+  },
+  {
+   "name": "Jiangsu Aosaikang Pharmaceutical Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Jiangsu Famous Medical Technology Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Jiangsu Healthy Life Innovation Medical Technology Co., Ltd",
+   "studies": 2
+  },
+  {
+   "name": "Jiangsu Yahong Meditech Co., Ltd aka Asieris",
+   "studies": 2
+  },
+  {
+   "name": "Jiangxi Kvvit Pharmaceutical Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Jina Pharmaceuticals Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Johnson & Johnson Taiwan Ltd",
+   "studies": 2
+  },
+  {
+   "name": "Kiadis Pharma",
+   "studies": 2
+  },
+  {
+   "name": "Kissei Pharmaceutical Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Kyntra Bio",
+   "studies": 2
+  },
+  {
+   "name": "Laboratorio Elea Phoenix S.A.",
+   "studies": 2
+  },
+  {
+   "name": "Light Sciences Oncology",
+   "studies": 2
+  },
+  {
+   "name": "Marinus Pharmaceuticals",
+   "studies": 2
+  },
+  {
+   "name": "Maxim Pharmaceuticals",
+   "studies": 2
+  },
+  {
+   "name": "MEI Pharma, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Menarini Group",
+   "studies": 2
+  },
+  {
+   "name": "Merrimack Pharmaceuticals",
+   "studies": 2
+  },
+  {
+   "name": "Merus B.V.",
+   "studies": 2
+  },
+  {
+   "name": "Mirror Biologics, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Mylan Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Nanjing NingQi Medicine Science and Technology Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Nanogen Pharmaceutical Biotechnology Joint Stock Company",
+   "studies": 2
+  },
+  {
+   "name": "National Vaccine and Serum Institute, China",
+   "studies": 2
+  },
+  {
+   "name": "Nihon Pharmaceutical Co., Ltd",
+   "studies": 2
+  },
+  {
+   "name": "Nippon Kayaku Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Northwest Biotherapeutics",
+   "studies": 2
+  },
+  {
+   "name": "Novacea",
+   "studies": 2
+  },
+  {
+   "name": "NX Development Corp",
+   "studies": 2
+  },
+  {
+   "name": "Oakwood Laboratories, LLC",
+   "studies": 2
+  },
+  {
+   "name": "ObsEva SA",
+   "studies": 2
+  },
+  {
+   "name": "Olema Pharmaceuticals, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "On Target Laboratories, LLC",
+   "studies": 2
+  },
+  {
+   "name": "OncoC4, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Oncopeptides AB",
+   "studies": 2
+  },
+  {
+   "name": "Organon and Co",
+   "studies": 2
+  },
+  {
+   "name": "OSE Immunotherapeutics",
+   "studies": 2
+  },
+  {
+   "name": "Padagis LLC",
+   "studies": 2
+  },
+  {
+   "name": "Par Pharmaceutical, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Peregrine Pharmaceuticals",
+   "studies": 2
+  },
+  {
+   "name": "Pharmacosmos A/S",
+   "studies": 2
+  },
+  {
+   "name": "PharmaEssentia Japan K.K.",
+   "studies": 2
+  },
+  {
+   "name": "photonamic GmbH & Co. KG",
+   "studies": 2
+  },
+  {
+   "name": "PhytoHealth Corporation",
+   "studies": 2
+  },
+  {
+   "name": "Pierian Biosciences",
+   "studies": 2
+  },
+  {
+   "name": "Point Therapeutics",
+   "studies": 2
+  },
+  {
+   "name": "Poniard Pharmaceuticals",
+   "studies": 2
+  },
+  {
+   "name": "Prestige Biopharma Limited",
+   "studies": 2
+  },
+  {
+   "name": "Progenics Pharmaceuticals, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Protagonist Therapeutics, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Puma Biotechnology, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "QED Therapeutics, a BridgeBio company",
+   "studies": 2
+  },
+  {
+   "name": "R-Pharm International, LLC",
+   "studies": 2
+  },
+  {
+   "name": "Rakuten Medical, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Rovi Pharmaceuticals Laboratories",
+   "studies": 2
+  },
+  {
+   "name": "Servier Affaires Médicales",
+   "studies": 2
+  },
+  {
+   "name": "Sesen Bio, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Shanghai Chia Tai Tianqing Pharmaceutical Technology Development Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Shanghai Huaota Biopharmaceutical Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Shanghai Jiaolian Drug Research and Development Co., Ltd",
+   "studies": 2
+  },
+  {
+   "name": "Shanghai Kechow Pharma, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Shanghai Miracogen Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Shanghai Pharmaceuticals Holding Co., Ltd",
+   "studies": 2
+  },
+  {
+   "name": "Shenzhen Kangzhe Pharmaceutical Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Shenzhen TargetRx Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Shire",
+   "studies": 2
+  },
+  {
+   "name": "Sinotau Pharmaceutical Group",
+   "studies": 2
+  },
+  {
+   "name": "Société des Produits Nestlé (SPN)",
+   "studies": 2
+  },
+  {
+   "name": "Sorrento Therapeutics, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "SOTIO a.s.",
+   "studies": 2
+  },
+  {
+   "name": "Stemline Therapeutics, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Sumitomo Pharma Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Sumitomo Pharma Switzerland GmbH",
+   "studies": 2
+  },
+  {
+   "name": "Sun Pharmaceutical Industries, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Sunshine Lake Pharma Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "SynCore Biotechnology Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Tanvex BioPharma USA, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Tetra Bio-Pharma",
+   "studies": 2
+  },
+  {
+   "name": "Teva Pharmaceuticals USA",
+   "studies": 2
+  },
+  {
+   "name": "Threshold Pharmaceuticals",
+   "studies": 2
+  },
+  {
+   "name": "TJ Biopharma Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Tolmar Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Transgene",
+   "studies": 2
+  },
+  {
+   "name": "TransThera Sciences (Nanjing), Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Tris Pharma, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Vascular Biogenics Ltd. operating as VBL Therapeutics",
+   "studies": 2
+  },
+  {
+   "name": "Wex Pharmaceuticals Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Zeria Pharmaceutical",
+   "studies": 2
+  },
+  {
+   "name": "Zhejiang Teruisi Pharmaceutical Inc.",
+   "studies": 2
+  },
+  {
+   "name": "9305-9954 Quebec Inc",
+   "studies": 1
+  },
+  {
+   "name": "Abbisko Therapeutics Co, Ltd",
+   "studies": 1
+  },
+  {
+   "name": "AbbVie (prior sponsor, Abbott)",
+   "studies": 1
+  },
+  {
+   "name": "Abnoba Gmbh",
+   "studies": 1
+  },
+  {
+   "name": "Abnoba Korea",
+   "studies": 1
+  },
+  {
+   "name": "Acacia Pharma Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Accuray Incorporated",
+   "studies": 1
+  },
+  {
+   "name": "Acrotech Biopharma Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Actinogen Medical",
+   "studies": 1
+  },
+  {
+   "name": "ADC Therapeutics S.A.",
+   "studies": 1
+  },
+  {
+   "name": "Adlai Nortye Biopharma Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Advaxis, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Advenchen Laboratories Nanjing Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "AGC Biologics S.p.A.",
+   "studies": 1
+  },
+  {
+   "name": "Akela Pharma, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Alchemia Oncology",
+   "studies": 1
+  },
+  {
+   "name": "Alfacell",
+   "studies": 1
+  },
+  {
+   "name": "Alpha Biopharma (Jiangsu) Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Alume Biosciences, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "ALX Oncology Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Amarin Neuroscience Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Amneal Pharmaceuticals, LLC",
+   "studies": 1
+  },
+  {
+   "name": "Amphera BV",
+   "studies": 1
+  },
+  {
+   "name": "AnewPharma",
+   "studies": 1
+  },
+  {
+   "name": "Angiochem Inc",
+   "studies": 1
+  },
+  {
+   "name": "Angiocrine Bioscience",
+   "studies": 1
+  },
+  {
+   "name": "Angiodynamics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Anhui Zhifei Longcom Biologic Pharmacy Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Antengene Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Anthra Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Antisoma Research",
+   "studies": 1
+  },
+  {
+   "name": "Apollomics Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Apotex Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Applied Genetics",
+   "studies": 1
+  },
+  {
+   "name": "Aprea Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Aptose Biosciences Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Aravive, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Archigen Biotech Limited",
+   "studies": 1
+  },
+  {
+   "name": "Aresus Pharma GmbH",
+   "studies": 1
+  },
+  {
+   "name": "Argos Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Arog Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Aronex Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Asahi Kasei Therapeutics Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Ascletis Pharmaceuticals Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Asieris MediTech (Hong Kong) Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Astellas (Beijing) Pharmaceutical R&D Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Astellas Pharma Europe Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Athenex, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Ativus Farmaceutica Ltda",
+   "studies": 1
+  },
+  {
+   "name": "Atossa Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Aura Biosciences",
+   "studies": 1
+  },
+  {
+   "name": "Auson Pharmaceuticals Inc.",
+   "studies": 1
+  },
+  {
+   "name": "AVAX Technologies",
+   "studies": 1
+  },
+  {
+   "name": "Aventis Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Aveta Biomics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "B. Braun Melsungen AG",
+   "studies": 1
+  },
+  {
+   "name": "Balmoral Medical company",
+   "studies": 1
+  },
+  {
+   "name": "Barr Laboratories",
+   "studies": 1
+  },
+  {
+   "name": "Bavarian Nordic",
+   "studies": 1
+  },
+  {
+   "name": "Baxalta now part of Shire",
+   "studies": 1
+  },
+  {
+   "name": "Baxter Healthcare Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Beijing Dongfang Biotech Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Beijing Konruns Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Beijing Northland Biotech. Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Beijing Viroad Biotechnology Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Bellicum Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Bellus Health Inc. - a GSK company",
+   "studies": 1
+  },
+  {
+   "name": "Benesis Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Beta Pharma Shanghai",
+   "studies": 1
+  },
+  {
+   "name": "Bharat Serums and Vaccines Limited",
+   "studies": 1
+  },
+  {
+   "name": "Bicara Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Binhui Biopharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Bio Genuine (Shanghai) Biotech Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Biocon Biologics UK Ltd",
+   "studies": 1
+  },
+  {
+   "name": "BioDlink Biopharm Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Biofrontera Inc.",
+   "studies": 1
+  },
+  {
+   "name": "BioLineRx, Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "BioRay Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "BioSante Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Biosearch S.A.",
+   "studies": 1
+  },
+  {
+   "name": "Biotec Pharmacon ASA",
+   "studies": 1
+  },
+  {
+   "name": "Biotest Pharmaceuticals Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Bioven Sdn. Bhd.",
+   "studies": 1
+  },
+  {
+   "name": "Biovest International",
+   "studies": 1
+  },
+  {
+   "name": "Blaze Bioscience Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Bradmer Pharmaceuticals Inc.",
+   "studies": 1
+  },
+  {
+   "name": "BriaCell Therapeutics Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Byondis B.V.",
+   "studies": 1
+  },
+  {
+   "name": "Camurus AB",
+   "studies": 1
+  },
+  {
+   "name": "Can-Fite BioPharma",
+   "studies": 1
+  },
+  {
+   "name": "CanariaBio Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Cartesian Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "CarThera",
+   "studies": 1
+  },
+  {
+   "name": "CAS Lamvac (Guangzhou) Biomedical Technology Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "CatalYm GmbH",
+   "studies": 1
+  },
+  {
+   "name": "CBA Research",
+   "studies": 1
+  },
+  {
+   "name": "CD Pharma India Pvt. Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "CEL-SCI Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Cell>Point LLC",
+   "studies": 1
+  },
+  {
+   "name": "Celldex Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Cellxpert Biotechnology Corp.",
+   "studies": 1
+  },
+  {
+   "name": "Centus Biotherapeutics Limited",
+   "studies": 1
+  },
+  {
+   "name": "Checkpoint Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Chengdu CoenBiotech Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Chengdu JOYO pharma Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Chengdu Zenitar Biomedical Technology Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Chiltern Pesquisa Clinica Ltda",
+   "studies": 1
+  },
+  {
+   "name": "Chimeric Therapies",
+   "studies": 1
+  },
+  {
+   "name": "Chiron Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Cigdem Sahinbas YILMAZ",
+   "studies": 1
+  },
+  {
+   "name": "Cipla BioTec Pvt. Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Clavis Pharma",
+   "studies": 1
+  },
+  {
+   "name": "Clinique Ovo",
+   "studies": 1
+  },
+  {
+   "name": "Cogent Biosciences, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Colotech A/S",
+   "studies": 1
+  },
+  {
+   "name": "Compass Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Concordia Laboratories Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Corbus Pharmaceuticals Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Corixa Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Corvus Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Cosmo Technologies Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Cougar Biotechnology, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Crinetics Pharmaceuticals Inc.",
+   "studies": 1
+  },
+  {
+   "name": "CuraVac",
+   "studies": 1
+  },
+  {
+   "name": "Cure&Sure Biotech Co., LTD",
+   "studies": 1
+  },
+  {
+   "name": "Curium PET France",
+   "studies": 1
+  },
+  {
+   "name": "Cyclacel Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Cytran",
+   "studies": 1
+  },
+  {
+   "name": "Daewoong Pharmaceutical Co. LTD.",
+   "studies": 1
+  },
+  {
+   "name": "Daiichi Sankyo Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Day One Biopharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "DelMar Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Delta-Fly Pharma, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Dermatology Specialties Limited Partnership",
+   "studies": 1
+  },
+  {
+   "name": "Dianthus Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Diffusion Pharmaceuticals Inc",
+   "studies": 1
+  },
+  {
+   "name": "Dizal (Jiangsu) Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Dongkook Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "EDAP Technomed",
+   "studies": 1
+  },
+  {
+   "name": "EDAP TMS S.A.",
+   "studies": 1
+  },
+  {
+   "name": "Egalet Ltd",
+   "studies": 1
+  },
+  {
+   "name": "El Kendi Pharmaceuticals Manufacturing Company",
+   "studies": 1
+  },
+  {
+   "name": "Eleison Pharmaceuticals LLC.",
+   "studies": 1
+  },
+  {
+   "name": "Elevar Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "ElmediX",
+   "studies": 1
+  },
+  {
+   "name": "Elorac, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Emergent BioSolutions",
+   "studies": 1
+  },
+  {
+   "name": "Emergent Product Development Seattle LLC",
+   "studies": 1
+  },
+  {
+   "name": "Emphasys Medical",
+   "studies": 1
+  },
+  {
+   "name": "EndoCeutics Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Epizyme, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Erasca, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Eske Corporation S.A.C",
+   "studies": 1
+  },
+  {
+   "name": "Ethypharm",
+   "studies": 1
+  },
+  {
+   "name": "Everfront Biotech Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Evergreen Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Evopoint Biosciences Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Eximias Pharmaceutical",
+   "studies": 1
+  },
+  {
+   "name": "Facet Biotech",
+   "studies": 1
+  },
+  {
+   "name": "Ferring Ventures Limited",
+   "studies": 1
+  },
+  {
+   "name": "FeRx",
+   "studies": 1
+  },
+  {
+   "name": "Five Eleven Pharma, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Formycon AG",
+   "studies": 1
+  },
+  {
+   "name": "Fujian Shengdi Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "G&E Herbal Biotechnology Co., LTD",
+   "studies": 1
+  },
+  {
+   "name": "Galena Biopharma, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Galera Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Gema Biotech S.A.",
+   "studies": 1
+  },
+  {
+   "name": "Gen-Probe, Incorporated",
+   "studies": 1
+  },
+  {
+   "name": "Genelux Corporation",
+   "studies": 1
+  },
+  {
+   "name": "GeneQuantum Healthcare (Suzhou) Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Genitope Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Genrix (Shanghai) Biopharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "GenVec",
+   "studies": 1
+  },
+  {
+   "name": "Geron Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Global Isotopes, LLC d/b/a Zevacor Molecular",
+   "studies": 1
+  },
+  {
+   "name": "GlycoMimetics Incorporated",
+   "studies": 1
+  },
+  {
+   "name": "Gradalis, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Greenwich LifeSciences, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Grifols Biologicals, LLC",
+   "studies": 1
+  },
+  {
+   "name": "Grifols Therapeutics LLC",
+   "studies": 1
+  },
+  {
+   "name": "Guangzhou Bioseal Biotechnology Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Guangzhou Double Bioproducts Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Guangzhou JOYO Pharma Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Guangzhou Lupeng Pharmaceutical Company LTD.",
+   "studies": 1
+  },
+  {
+   "name": "Guerbet",
+   "studies": 1
+  },
+  {
+   "name": "GW Pharmaceuticals Ltd",
+   "studies": 1
+  },
+  {
+   "name": "GY Highland Biotech LLC",
+   "studies": 1
+  },
+  {
+   "name": "Haihe Biopharma Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Halozyme Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Hamad Medical Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Hamlet Pharma AB",
+   "studies": 1
+  },
+  {
+   "name": "Hangzhou ACEA Pharmaceutical Research Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Hangzhou Sumgen Biotech Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Hayat Pharmaceutical Co. PLC",
+   "studies": 1
+  },
+  {
+   "name": "Health Clinics Limited",
+   "studies": 1
+  },
+  {
+   "name": "Health Hope Pharma",
+   "studies": 1
+  },
+  {
+   "name": "Heron Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "HiberCell, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Hinova Pharmaceuticals Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Hinova Pharmaceuticals USA, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Hookipa Biotech GmbH",
+   "studies": 1
+  },
+  {
+   "name": "Hospira, now a wholly owned subsidiary of Pfizer",
+   "studies": 1
+  },
+  {
+   "name": "HUYABIO International, LLC.",
+   "studies": 1
+  },
+  {
+   "name": "Idera Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "ILEX Oncology Services, Incorporated",
+   "studies": 1
+  },
+  {
+   "name": "Immatics Biotechnologies GmbH",
+   "studies": 1
+  },
+  {
+   "name": "Immatics US, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Immune Design, a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA)",
+   "studies": 1
+  },
+  {
+   "name": "Immuneering Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Immunitor LLC",
+   "studies": 1
+  },
+  {
+   "name": "Immunocore Ltd",
+   "studies": 1
+  },
+  {
+   "name": "ImmunoGenesis",
+   "studies": 1
+  },
+  {
+   "name": "Immunome, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Immunophotonics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Immunotec Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Impact Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Infectopharm Arzneimittel GmbH",
+   "studies": 1
+  },
+  {
+   "name": "Infinity Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Inhibrx Biosciences, Inc",
+   "studies": 1
+  },
+  {
+   "name": "Innervate Radiopharmaceuticals LLC (Formerly: Illumina Radiopharmaceuticals LLC)",
+   "studies": 1
+  },
+  {
+   "name": "InnoCare Pharma Inc.",
+   "studies": 1
+  },
+  {
+   "name": "IntegraGen SA",
+   "studies": 1
+  },
+  {
+   "name": "Intensity Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "InterMune",
+   "studies": 1
+  },
+  {
+   "name": "Intra-IMMUSG Pte Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Intracel",
+   "studies": 1
+  },
+  {
+   "name": "InventisBio Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "InxMed (Shanghai) Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "IO Biotech",
+   "studies": 1
+  },
+  {
+   "name": "Ionis Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Iovance Biotherapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Isarna Therapeutics GmbH",
+   "studies": 1
+  },
+  {
+   "name": "Isofol Medical AB",
+   "studies": 1
+  },
+  {
+   "name": "ITEL Telecomunicazioni Srl",
+   "studies": 1
+  },
+  {
+   "name": "Ivy Life Sciences, Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "J-Pharma Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Janssen Scientific Affairs, LLC",
+   "studies": 1
+  },
+  {
+   "name": "Janssen-Cilag International NV",
+   "studies": 1
+  },
+  {
+   "name": "Janssen-Ortho Inc., Canada",
+   "studies": 1
+  },
+  {
+   "name": "Jemincare",
+   "studies": 1
+  },
+  {
+   "name": "JenKem Technology Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "JHL Biotech, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Jiangsu Chia Tai Fenghai Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Jiangsu vcare pharmaceutical technology co., LTD",
+   "studies": 1
+  },
+  {
+   "name": "Jiangsu Wuzhong Pharmaceutical Group Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Johnpro Biotech, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Johnson & Johnson Enterprise Innovation Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Johnson & Johnson Medical, China",
+   "studies": 1
+  },
+  {
+   "name": "JW Pharmaceutical",
+   "studies": 1
+  },
+  {
+   "name": "K-Group, Beta, Inc., a wholly owned subsidiary of Zentalis Pharmaceuticals, Inc",
+   "studies": 1
+  },
+  {
+   "name": "Kadmon Corporation, LLC",
+   "studies": 1
+  },
+  {
+   "name": "Kael-GemVax Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Kalbe International Pte. Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Kartos Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Kedrion S.p.A.",
+   "studies": 1
+  },
+  {
+   "name": "Kexing Biopharm Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Keymed Biosciences Co.Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Koning (Tianjin) Medical Equipment Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Koning Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Kowa Company, Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Kronos Bio",
+   "studies": 1
+  },
+  {
+   "name": "Kuhnil Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Kura Oncology, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Kyowa Kirin, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Kyverna Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "L & L Bio Co., Ltd., Ningbo, China",
+   "studies": 1
+  },
+  {
+   "name": "L.Molteni & C. dei F.lli Alitti-Soc. di Esercizio S.p.A.",
+   "studies": 1
+  },
+  {
+   "name": "Laboratorio Pablo Cassara S.R.L.",
+   "studies": 1
+  },
+  {
+   "name": "Laekna Limited",
+   "studies": 1
+  },
+  {
+   "name": "Lakefront Biotherapeutics NV",
+   "studies": 1
+  },
+  {
+   "name": "Laminar Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "LaNova Medicines Limited",
+   "studies": 1
+  },
+  {
+   "name": "Lantheus Germany GmbH",
+   "studies": 1
+  },
+  {
+   "name": "Lantheus Medical Imaging",
+   "studies": 1
+  },
+  {
+   "name": "Lavilabor Natural Products Ltd",
+   "studies": 1
+  },
+  {
+   "name": "LeonaBio",
+   "studies": 1
+  },
+  {
+   "name": "LifeBond Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Lifesemantics Corp.",
+   "studies": 1
+  },
+  {
+   "name": "Lightpoint Medical Limited",
+   "studies": 1
+  },
+  {
+   "name": "Linnaeus Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "LintonPharm Co.,Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Lisata Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "LTN PHARMACEUTICALS, INC.",
+   "studies": 1
+  },
+  {
+   "name": "Lumicell, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Lundbeck Canada Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Lyell Immunopharma, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Mabion SA",
+   "studies": 1
+  },
+  {
+   "name": "Mabscale, LLC",
+   "studies": 1
+  },
+  {
+   "name": "Maia Biotechnology",
+   "studies": 1
+  },
+  {
+   "name": "Mallinckrodt",
+   "studies": 1
+  },
+  {
+   "name": "Marubeni Pharmaceuticals (Suzhou) Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Mast Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Matrix Pharmaceutical",
+   "studies": 1
+  },
+  {
+   "name": "McNeil Consumer & Specialty Pharmaceuticals, a Division of McNeil-PPC, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Medallion Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Medical Enterprises Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Medice Arzneimittel Pütter GmbH & Co KG",
+   "studies": 1
+  },
+  {
+   "name": "Medifocus, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "MediGene",
+   "studies": 1
+  },
+  {
+   "name": "MediMergent, LLC",
+   "studies": 1
+  },
+  {
+   "name": "MedImmune LLC",
+   "studies": 1
+  },
+  {
+   "name": "Medlab Clinical",
+   "studies": 1
+  },
+  {
+   "name": "Medsearch",
+   "studies": 1
+  },
+  {
+   "name": "MELA Sciences, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Mendel AI",
+   "studies": 1
+  },
+  {
+   "name": "Merck Healthcare KGaA, Darmstadt, Germany, an affiliate of Merck KGaA, Darmstadt, Germany",
+   "studies": 1
+  },
+  {
+   "name": "Merit Medical Systems, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Mersana Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Mesoblast, Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Molecular Insight Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Moleculin Biotech, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Mologen AG",
+   "studies": 1
+  },
+  {
+   "name": "Monopar Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Monsea Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "MoonLake Immunotherapeutics AG",
+   "studies": 1
+  },
+  {
+   "name": "Morphotek",
+   "studies": 1
+  },
+  {
+   "name": "Multitude Therapeutics Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Mundipharma Research GmbH & Co KG",
+   "studies": 1
+  },
+  {
+   "name": "Mundipharma Research Limited",
+   "studies": 1
+  },
+  {
+   "name": "Mundipharma SAS",
+   "studies": 1
+  },
+  {
+   "name": "Mural Oncology, Inc",
+   "studies": 1
+  },
+  {
+   "name": "Mylan Pharmaceuticals Inc",
+   "studies": 1
+  },
+  {
+   "name": "Nakafarma S.L.",
+   "studies": 1
+  },
+  {
+   "name": "Nanjing Chia-tai Tianqing Pharmaceutical",
+   "studies": 1
+  },
+  {
+   "name": "Nanjing IASO Biotechnology Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Nanjing Luye Sike Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Nanjing Yoko Biomedical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Nanobiotix",
+   "studies": 1
+  },
+  {
+   "name": "NantCell, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Napo Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "NaviFUS Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Neurim Pharmaceuticals Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Newave Pharmaceutical Inc",
+   "studies": 1
+  },
+  {
+   "name": "Newron Pharmaceuticals SPA",
+   "studies": 1
+  },
+  {
+   "name": "Nexstar Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Nielsen BioSciences, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Ningbo Newbay Technology Development Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "NKBio Co.Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Novadaq Technologies ULC, now a part of Stryker",
+   "studies": 1
+  },
+  {
+   "name": "Novartis Vaccines",
+   "studies": 1
+  },
+  {
+   "name": "NovaRx Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Novita Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Nurix Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Nuvalent Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Oasmia Pharmaceutical AB",
+   "studies": 1
+  },
+  {
+   "name": "OBI Pharma, Inc",
+   "studies": 1
+  },
+  {
+   "name": "Octapharma",
+   "studies": 1
+  },
+  {
+   "name": "Odonate Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Oils4Cure",
+   "studies": 1
+  },
+  {
+   "name": "Olive Healthcare",
+   "studies": 1
+  },
+  {
+   "name": "OMRIX Biopharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Oncoimmune, Inc., a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA)",
+   "studies": 1
+  },
+  {
+   "name": "Oncolytics Biotech",
+   "studies": 1
+  },
+  {
+   "name": "Oncoscience AG",
+   "studies": 1
+  },
+  {
+   "name": "Oncotelic Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Oncotherapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Oncothyreon Canada Inc.",
+   "studies": 1
+  },
+  {
+   "name": "OncoZenge AB",
+   "studies": 1
+  },
+  {
+   "name": "Oncternal Therapeutics, Inc",
+   "studies": 1
+  },
+  {
+   "name": "OncXerna Theraputics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Orbus Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Orca Biosystems, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "ORIC Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Orient Europharma Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Otsuka Australia Pharmaceutical Pty Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Oxford BioMedica",
+   "studies": 1
+  },
+  {
+   "name": "Palvella Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Panbela Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "PDS Biotechnology Corp.",
+   "studies": 1
+  },
+  {
+   "name": "Pentixapharm AG",
+   "studies": 1
+  },
+  {
+   "name": "Pfizer's Upjohn has merged with Mylan to form Viatris Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Pharmexa A/S",
+   "studies": 1
+  },
+  {
+   "name": "Pierre Fabre Dermatology",
+   "studies": 1
+  },
+  {
+   "name": "Pinnacle Biologics Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Planmed Oy",
+   "studies": 1
+  },
+  {
+   "name": "POINT Biopharma, a wholly owned subsidiary of Eli Lilly and Company",
+   "studies": 1
+  },
+  {
+   "name": "Polynoma LLC",
+   "studies": 1
+  },
+  {
+   "name": "Portola Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Precision Life Sciences Group",
+   "studies": 1
+  },
+  {
+   "name": "Primo Biotechnology Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Priothera SAS",
+   "studies": 1
+  },
+  {
+   "name": "Privo Technologies",
+   "studies": 1
+  },
+  {
+   "name": "Probiomed S.A. de C.V.",
+   "studies": 1
+  },
+  {
+   "name": "Progen Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Prologue Research International",
+   "studies": 1
+  },
+  {
+   "name": "Protara Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Prothena Biosciences Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Provectus Biopharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "PTC Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "PTS International Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Quanta Medical",
+   "studies": 1
+  },
+  {
+   "name": "Quercis Pharma AG",
+   "studies": 1
+  },
+  {
+   "name": "Quetzal Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Ra Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Radiomedix, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Rain Oncology Inc",
+   "studies": 1
+  },
+  {
+   "name": "Rapamycin Holdings Inc.",
+   "studies": 1
+  },
+  {
+   "name": "RayzeBio, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "RDO Pharm.",
+   "studies": 1
+  },
+  {
+   "name": "Recombio SL",
+   "studies": 1
+  },
+  {
+   "name": "RECORDATI GROUP",
+   "studies": 1
+  },
+  {
+   "name": "Recursion Pharmaceuticals Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Relay Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "RenovoRx",
+   "studies": 1
+  },
+  {
+   "name": "Replimune, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Resilience",
+   "studies": 1
+  },
+  {
+   "name": "Risen (Suzhou) Pharma Tech Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "S&D Pharma SK s.r.o.",
+   "studies": 1
+  },
+  {
+   "name": "Safe Save Medical Cell Sciences & Technology Co.,Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Samsung Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Santen SAS",
+   "studies": 1
+  },
+  {
+   "name": "Saving Patients' Lives Medical B.V.",
+   "studies": 1
+  },
+  {
+   "name": "SBI ALApharma Canada, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "SDK Therapeutics, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Seattle Project Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Sellas Life Sciences Group",
+   "studies": 1
+  },
+  {
+   "name": "Senju USA, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Serum Institute of India Pvt. Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Servier Bio-Innovation LLC",
+   "studies": 1
+  },
+  {
+   "name": "SFJ Pharma Ltd. II",
+   "studies": 1
+  },
+  {
+   "name": "Shandong Boan Biotechnology Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Shanghai Cingularbio Co. Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Shanghai CP Guojian Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Shanghai Gebaide Biotechnology Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Shanghai Jiatan Pharmatech Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Shanghai YingLi Pharmaceutical Co. Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Shanghai Zhangjiang Biotechnology Limited Company",
+   "studies": 1
+  },
+  {
+   "name": "Shantha Biotechnics Limited",
+   "studies": 1
+  },
+  {
+   "name": "Shenyang Sunshine Pharmaceutical Co., LTD.",
+   "studies": 1
+  },
+  {
+   "name": "SillaJen, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Simbec Research",
+   "studies": 1
+  },
+  {
+   "name": "Sino-Swed Pharmaceutical Corporation",
+   "studies": 1
+  },
+  {
+   "name": "SK Chemicals Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "SMT bio Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Sobi, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "SOFIE",
+   "studies": 1
+  },
+  {
+   "name": "Sopherion Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Sosei",
+   "studies": 1
+  },
+  {
+   "name": "Spear Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Speciality European Pharma Limited",
+   "studies": 1
+  },
+  {
+   "name": "Spexis AG",
+   "studies": 1
+  },
+  {
+   "name": "Spirig Pharma Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "SPP Pharmaclon Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "SpringWorks Therapeutics, Inc., a healthcare company of Merck KGaA, Darmstadt, Germany",
+   "studies": 1
+  },
+  {
+   "name": "STEBA France",
+   "studies": 1
+  },
+  {
+   "name": "Strategic Science & Technologies, LLC",
+   "studies": 1
+  },
+  {
+   "name": "Sun Pharma Advanced Research Company Limited",
+   "studies": 1
+  },
+  {
+   "name": "Sunesis Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "SURGE Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Surgimab",
+   "studies": 1
+  },
+  {
+   "name": "Sutro Biopharma, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Suzhou Immunofoco Biotechnology Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Suzhou Puhe Pharmaceutical Technology Co., LTD",
+   "studies": 1
+  },
+  {
+   "name": "Swami Rama Cancer Hospital and Research Institute",
+   "studies": 1
+  },
+  {
+   "name": "SymBio Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Symbollon Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Symphogen A/S",
+   "studies": 1
+  },
+  {
+   "name": "Syndax Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "SynOx Therapeutics Limited",
+   "studies": 1
+  },
+  {
+   "name": "SystImmune Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Taizhou EOC Pharma Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Takara Bio Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Tarapeutics Science Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Tavanta Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "TearScience, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Telix Pharmaceuticals (Innovations) Pty Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Tempest Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Tessa Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "The Vaccine Company",
+   "studies": 1
+  },
+  {
+   "name": "Theradex",
+   "studies": 1
+  },
+  {
+   "name": "Therion Biologics Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Tianjin Hemay Pharmaceutical Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Tocagen Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Tracon Pharmaceuticals Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Transcenta Therapeutics (Hangzhou) Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "TTY Biopharm",
+   "studies": 1
+  },
+  {
+   "name": "TuHURA Biosciences, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Tularik",
+   "studies": 1
+  },
+  {
+   "name": "TYK Medicines, Inc",
+   "studies": 1
+  },
+  {
+   "name": "Tyme, Inc",
+   "studies": 1
+  },
+  {
+   "name": "UCB Biopharma S.P.R.L.",
+   "studies": 1
+  },
+  {
+   "name": "United Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Unither Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Urovant Sciences GmbH",
+   "studies": 1
+  },
+  {
+   "name": "Vaccinogen Inc",
+   "studies": 1
+  },
+  {
+   "name": "Vasgene Therapeutics, Inc",
+   "studies": 1
+  },
+  {
+   "name": "Verastem, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Vergent Bioscience, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Verity Pharmaceuticals Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Vifor Pharma",
+   "studies": 1
+  },
+  {
+   "name": "Vion Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Virchow Group",
+   "studies": 1
+  },
+  {
+   "name": "Vital Therapies, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Vor Biopharma",
+   "studies": 1
+  },
+  {
+   "name": "Watson Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Wellstat Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Wuhan YZY Biopharma Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Xcovery Holdings, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Xenikos",
+   "studies": 1
+  },
+  {
+   "name": "Xenova Biomedix",
+   "studies": 1
+  },
+  {
+   "name": "Xiamen Amoytop Biotech Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Xiamen LP Pharmaceutical Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Xynomic Pharmaceuticals, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Y-mAbs Therapeutics",
+   "studies": 1
+  },
+  {
+   "name": "Yantai LNC Biotechnology Singapore PTE. LTD.",
+   "studies": 1
+  },
+  {
+   "name": "YM BioSciences",
+   "studies": 1
+  },
+  {
+   "name": "Yooyoung Pharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Yuhan Corporation",
+   "studies": 1
+  },
+  {
+   "name": "ZARS Pharma Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Zhejiang Hisun Pharmaceutical Co. Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Zhejiang Raygene Pharmaceuticals Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Zhuhai Beihai Biotech Co., Ltd",
+   "studies": 1
+  },
+  {
+   "name": "Zydus Lifesciences Limited",
+   "studies": 1
+  }
+ ]
+}

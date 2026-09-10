@@ -13,6 +13,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph, type Graph } from "./graph";
+import { completeness } from "./completeness";
 import { KINDS, KIND_META, routeFor, type Entity, type Kind } from "./schema";
 import { hasMolecule } from "./structures";
 import { SPECIFIC_IDS, hasAnimation } from "@/data/schematics";
@@ -268,6 +269,17 @@ export const METRIC_DEFS: MetricDef[] = [
     action: "Run `npm run fetch:logos`; add a Wikidata QID override in the script if the automatic match fails.",
     target: 90,
     check: (g, ctx) => fails(g.entities.filter((e) => ["company", "institution", "collection"].includes(e.kind)), (e) => (ctx.logos.has(e.id) ? null : "no logo")),
+  },
+  {
+    id: "completeness", label: "External denominators at least half covered",
+    plain: "Each scope on /completeness/ sets OnCo's count against a sourced count of what exists (FDA-approved cancer drugs, NCI centres, OECI members, oncology journals); this counts the scopes where OnCo holds at least half.",
+    action: "Open /completeness/, pick the scope, and add the missing items through the prefilled new-object forms (or add an alias to a record the matcher missed).",
+    target: 50,
+    check: () => {
+      const rows = completeness().filter((c) => c.pct !== null && c.den.total !== null);
+      const failing = rows.filter((c) => (c.pct ?? 0) < 50).sort((a, b) => (a.pct ?? 0) - (b.pct ?? 0)).map((c) => ({ id: c.den.id, name: c.den.scope, route: `/completeness/#${c.den.id}`, detail: `${c.ours.toLocaleString("en-GB")} of ${c.den.approx ? "about " : ""}${(c.den.total ?? 0).toLocaleString("en-GB")} (${c.pct}%)` }));
+      return { total: rows.length, failing };
+    },
   },
 ];
 

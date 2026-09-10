@@ -77,7 +77,8 @@
     "fetch:preprints": "tsx scripts/fetch-preprints.ts",
     "fetch:xrefs": "tsx scripts/fetch-xrefs.ts",
     "fetch:cell-lines": "tsx scripts/fetch-cell-lines.ts",
-    "fetch:openmedical": "tsx scripts/fetch-openmedical.ts"
+    "fetch:openmedical": "tsx scripts/fetch-openmedical.ts",
+    "fetch:universe": "tsx scripts/fetch-universe.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

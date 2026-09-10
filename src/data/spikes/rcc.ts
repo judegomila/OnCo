@@ -211,7 +211,7 @@ const companies: CompanyInput[] = [
     tldr: "Japanese pharma that discovered lenvatinib and partners with Merck on its combinations.",
     summary: "Lenvatinib (Lenvima) across RCC, HCC, thyroid, endometrial cancer; eribulin (Halaven); lecanemab (Alzheimer's) with Biogen.",
     drugs: ["lenvatinib"], cancers: ["rcc", "hcc", "thyroid"] },
-  { id: "aveo", kind: "company", name: "AVEO Oncology (LG Chem)", hq: "Boston, MA", country: "US", companyType: "biotech", website: "https://www.aveooncology.com", asOf, sections: ["targeted-therapy"],
+  { id: "aveo", links: [{ label: "Official website", url: "https://www.aveooncology.com" }], kind: "company", name: "AVEO Oncology (LG Chem)", hq: "Boston, MA", country: "US", companyType: "biotech", website: "https://www.aveooncology.com", asOf, sections: ["targeted-therapy"],
     tldr: "AVEO Oncology developed tivozanib and was acquired by LG Chem in 2023.",
     summary: "Fotivda (tivozanib) in relapsed RCC; TiNivo-2 negative for IO rechallenge; ficlatuzumab (HGF) in head and neck cancer.",
     drugs: ["tivozanib"], cancers: ["rcc"] },

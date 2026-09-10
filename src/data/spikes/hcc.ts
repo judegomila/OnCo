@@ -40,7 +40,7 @@ const companies: CompanyInput[] = [
     tldr: "Sirtex makes SIR-Spheres, yttrium-90 resin microspheres used for radioembolisation of liver tumours.",
     summary: "SIR-Spheres are indicated for unresectable metastatic colorectal cancer to the liver (US) and HCC (CE mark, DOORwaY90 trial supporting a US HCC indication). Competes with Boston Scientific's TheraSphere glass microspheres. Owned by China Grand Pharmaceutical.",
     technologies: ["radioembolisation-tare"], cancers: ["hcc", "colorectal"] }),
-  co({ id: "boston-scientific", name: "Boston Scientific", hq: "Marlborough, MA", country: "US", companyType: "devices", website: "https://www.bostonscientific.com", ticker: "BSX", sections: ["radiation", "surgery"],
+  co({ id: "boston-scientific", links: [{ label: "Official website", url: "https://www.bostonscientific.com" }], name: "Boston Scientific", hq: "Marlborough, MA", country: "US", companyType: "devices", website: "https://www.bostonscientific.com", ticker: "BSX", sections: ["radiation", "surgery"],
     tldr: "Medical device giant whose TheraSphere glass microspheres deliver yttrium-90 radioembolisation in liver cancer.",
     summary: "TheraSphere holds FDA approval for HCC (2021) and is studied in EPOCH (colorectal liver metastases, positive PFS) and combination trials with immunotherapy; also drug-eluting embolic beads and interventional oncology devices.",
     technologies: ["radioembolisation-tare", "tace"], cancers: ["hcc", "colorectal"] }),

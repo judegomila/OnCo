@@ -215,7 +215,7 @@ const terms: TermInput[] = [
 ];
 
 const companies: CompanyInput[] = [
-  { id: "cg-oncology", kind: "company", name: "CG Oncology", hq: "Irvine, CA", country: "US", companyType: "biotech", website: "https://cgoncology.com", ticker: "CGON", asOf, sections: ["immunotherapy"],
+  { id: "cg-oncology", links: [{ label: "Official website", url: "https://cgoncology.com" }], kind: "company", name: "CG Oncology", hq: "Irvine, CA", country: "US", companyType: "biotech", website: "https://cgoncology.com", ticker: "CGON", asOf, sections: ["immunotherapy"],
     tldr: "CG Oncology developed cretostimogene, the oncolytic virus for early bladder cancer, and is filing for approval in 2026.",
     summary: "BOND-003 (BCG-unresponsive CIS), PIVOT-006 (intermediate-risk), CORE-008 (BCG-naive). IPO 2024.",
     drugs: ["cretostimogene"], cancers: ["urothelial"] },
@@ -227,7 +227,7 @@ const companies: CompanyInput[] = [
     tldr: "Ferring is the private Swiss pharma that brought the first bladder cancer gene therapy, Adstiladrin, to market.",
     summary: "Nadofaragene firadenovec (approved 2022, launched 2023-24 after manufacturing scale-up); reproductive and gastroenterology franchises.",
     drugs: ["nadofaragene-firadenovec"], cancers: ["urothelial"] },
-  { id: "bicycle-therapeutics", name: "Bicycle Therapeutics", kind: "company", hq: "Cambridge", country: "GB", companyType: "biotech", website: "https://www.bicycletherapeutics.com", ticker: "BCYC", asOf, sections: ["adcs"],
+  { id: "bicycle-therapeutics", links: [{ label: "Official website", url: "https://www.bicycletherapeutics.com" }], name: "Bicycle Therapeutics", kind: "company", hq: "Cambridge", country: "GB", companyType: "biotech", website: "https://www.bicycletherapeutics.com", ticker: "BCYC", asOf, sections: ["adcs"],
     tldr: "Inventor of bicyclic peptide drug conjugates; its lead Nectin-4 conjugate was deprioritised in 2026 after regulatory feedback.",
     summary: "Zelenectide pevedotin (BT8009) and BT5528 (EphA2); Bicycle radio-conjugates; partnerships with Bayer and Novartis on radiopharmaceuticals.",
     drugs: ["zelenectide-pevedotin"], technologies: ["peptide-drug-conjugate"] },

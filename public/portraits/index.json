@@ -1,0 +1,4090 @@
+{
+ "generated": "2026-09-10",
+ "portraits": {
+  "adrian-krainer": {
+   "id": "adrian-krainer",
+   "qid": "Q40473018",
+   "file": "adrian-krainer.jpg",
+   "commonsFile": "Adrian Krainer.jpg",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Cold Spring Harbor Laboratory",
+   "attribution": "Photo: Cold Spring Harbor Laboratory, CC BY 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Adrian_Krainer.jpg",
+   "fetched": "2026-09-10"
+  },
+  "andreas-trumpp": {
+   "id": "andreas-trumpp",
+   "qid": "Q45920296",
+   "file": "andreas-trumpp.jpg",
+   "commonsFile": "Andreas Trumpp.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Jutta Jung, DKFZ",
+   "attribution": "Photo: Jutta Jung, DKFZ, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Andreas_Trumpp.jpg",
+   "fetched": "2026-09-10"
+  },
+  "arul-chinnaiyan": {
+   "id": "arul-chinnaiyan",
+   "qid": "Q4802034",
+   "file": "arul-chinnaiyan.png",
+   "commonsFile": "Arul chinnaiyan.png",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Yniknafs",
+   "attribution": "Photo: Yniknafs, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Arul_chinnaiyan.png",
+   "fetched": "2026-09-10"
+  },
+  "audre-lorde": {
+   "id": "audre-lorde",
+   "qid": "Q463319",
+   "file": "audre-lorde.jpg",
+   "commonsFile": "Audre Lorde.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "K. Kendall",
+   "attribution": "Photo: K. Kendall, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Audre_Lorde.jpg",
+   "fetched": "2026-09-10"
+  },
+  "bernard-fisher": {
+   "id": "bernard-fisher",
+   "qid": "Q4893126",
+   "file": "bernard-fisher.jpg",
+   "commonsFile": "Nci-vol-8226-300 bernard fisher.jpg",
+   "license": "Public domain",
+   "author": "Unknown authorUnknown author",
+   "attribution": "Photo: Unknown authorUnknown author, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Nci-vol-8226-300_bernard_fisher.jpg",
+   "fetched": "2026-09-10"
+  },
+  "bert-vogelstein": {
+   "id": "bert-vogelstein",
+   "qid": "Q827502",
+   "file": "bert-vogelstein.jpg",
+   "commonsFile": "Bert Vogelstein giving the Trent Lecture.jpg",
+   "license": "Public domain",
+   "author": "Raymond MacDougall",
+   "attribution": "Photo: Raymond MacDougall, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Bert_Vogelstein_giving_the_Trent_Lecture.jpg",
+   "fetched": "2026-09-10"
+  },
+  "betty-ford": {
+   "id": "betty-ford",
+   "qid": "Q213122",
+   "file": "betty-ford.jpg",
+   "commonsFile": "Portrait of First Lady Betty Ford - NARA (3x4 cropped).jpg",
+   "license": "Public domain",
+   "author": "Unknown authorUnknown author or not provided",
+   "attribution": "Photo: Unknown authorUnknown author or not provided, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_First_Lady_Betty_Ford_-_NARA_(3x4_cropped).jpg",
+   "fetched": "2026-09-10"
+  },
+  "bradley-bernstein": {
+   "id": "bradley-bernstein",
+   "qid": "Q41556685",
+   "file": "bradley-bernstein.jpg",
+   "commonsFile": "Dr. Bradley Bernstein.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Julie Finn",
+   "attribution": "Photo: Julie Finn, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Dr._Bradley_Bernstein.jpg",
+   "fetched": "2026-09-10"
+  },
+  "brian-druker": {
+   "id": "brian-druker",
+   "qid": "Q373427",
+   "file": "brian-druker.jpg",
+   "commonsFile": "Druker Brian.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Rubenstein",
+   "attribution": "Photo: Rubenstein, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Druker_Brian.jpg",
+   "fetched": "2026-09-10"
+  },
+  "brigitte-widemann": {
+   "id": "brigitte-widemann",
+   "qid": "Q89260126",
+   "file": "brigitte-widemann.jpg",
+   "commonsFile": "Widemann, brigitte.jpg",
+   "license": "Public domain",
+   "author": "Bill Branson (Photographer)",
+   "attribution": "Photo: Bill Branson (Photographer), Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Widemann%2C_brigitte.jpg",
+   "fetched": "2026-09-10"
+  },
+  "bruce-stillman": {
+   "id": "bruce-stillman",
+   "qid": "Q991815",
+   "file": "bruce-stillman.png",
+   "commonsFile": "BruceStillmanCSHLPresidentLG.png",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Constance Brukin",
+   "attribution": "Photo: Constance Brukin, CC BY 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:BruceStillmanCSHLPresidentLG.png",
+   "fetched": "2026-09-10"
+  },
+  "carl-june": {
+   "id": "carl-june",
+   "qid": "Q19277113",
+   "file": "carl-june.jpg",
+   "commonsFile": "Carl H. June, M.D. (2015).JPG",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Gerbil",
+   "attribution": "Photo: Gerbil, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Carl_H._June%2C_M.D._(2015).JPG",
+   "fetched": "2026-09-10"
+  },
+  "caroline-dive": {
+   "id": "caroline-dive",
+   "qid": "Q30119872",
+   "file": "caroline-dive.jpg",
+   "commonsFile": "Professor Caroline Dive.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Joe Dunckley",
+   "attribution": "Photo: Joe Dunckley, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Professor_Caroline_Dive.jpg",
+   "fetched": "2026-09-10"
+  },
+  "chadwick-boseman": {
+   "id": "chadwick-boseman",
+   "qid": "Q5066520",
+   "file": "chadwick-boseman.jpg",
+   "commonsFile": "Chadwick Boseman by Gage Skidmore July 2017 (cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Gage Skidmore",
+   "attribution": "Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Chadwick_Boseman_by_Gage_Skidmore_July_2017_(cropped).jpg",
+   "fetched": "2026-09-10"
+  },
+  "charles-sawyers": {
+   "id": "charles-sawyers",
+   "qid": "Q1065232",
+   "file": "charles-sawyers.jpg",
+   "commonsFile": "Charles Sawyers.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Rubenstein",
+   "attribution": "Photo: Rubenstein, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Charles_Sawyers.jpg",
+   "fetched": "2026-09-10"
+  },
+  "charles-swanton": {
+   "id": "charles-swanton",
+   "qid": "Q30419560",
+   "file": "charles-swanton.jpg",
+   "commonsFile": "Charles Swanton Royal Society.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Duncan.Hull",
+   "attribution": "Photo: Duncan.Hull, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Charles_Swanton_Royal_Society.jpg",
+   "fetched": "2026-09-10"
+  },
+  "cheryl-willman": {
+   "id": "cheryl-willman",
+   "qid": "Q110811050",
+   "file": "cheryl-willman.jpg",
+   "commonsFile": "Cheryl Willman MD.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Audrey at Mayo Clinic",
+   "attribution": "Photo: Audrey at Mayo Clinic, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Cheryl_Willman_MD.jpg",
+   "fetched": "2026-09-10"
+  },
+  "christof-von-kalle": {
+   "id": "christof-von-kalle",
+   "qid": "Q1084355",
+   "file": "christof-von-kalle.jpg",
+   "commonsFile": "Christof von Kalle 01.jpg",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Kuebi = Armin Kuebelbeck",
+   "attribution": "Photo: Kuebi = Armin Kuebelbeck, CC BY 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Christof_von_Kalle_01.jpg",
+   "fetched": "2026-09-10"
+  },
+  "crystal-mackall": {
+   "id": "crystal-mackall",
+   "qid": "Q64697915",
+   "file": "crystal-mackall.jpg",
+   "commonsFile": "Mackall, crystal.jpg",
+   "license": "Public domain",
+   "author": "Unknown photographer",
+   "attribution": "Photo: Unknown photographer, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Mackall%2C_crystal.jpg",
+   "fetched": "2026-09-10"
+  },
+  "cicely-saunders": {
+   "id": "cicely-saunders",
+   "qid": "Q290524",
+   "file": "cicely-saunders.jpg",
+   "commonsFile": "EWS21.13.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Unknown authorUnknown author",
+   "attribution": "Photo: Unknown authorUnknown author, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:EWS21.13.jpg",
+   "fetched": "2026-09-10"
+  },
+  "deborah-james": {
+   "id": "deborah-james",
+   "qid": "Q111970097",
+   "file": "deborah-james.jpg",
+   "commonsFile": "Portrait Deborah James.jpg",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Hibrideacus",
+   "attribution": "Photo: Hibrideacus, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Portrait_Deborah_James.jpg",
+   "fetched": "2026-09-10"
+  },
+  "donald-pinkel": {
+   "id": "donald-pinkel",
+   "qid": "Q5294999",
+   "file": "donald-pinkel.jpg",
+   "commonsFile": "Stjude pinkel donald.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "St. Jude Children's Research Hospital",
+   "attribution": "Photo: St. Jude Children's Research Hospital, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Stjude_pinkel_donald.jpg",
+   "fetched": "2026-09-10"
+  },
+  "douglas-lowy": {
+   "id": "douglas-lowy",
+   "qid": "Q20676488",
+   "file": "douglas-lowy.jpg",
+   "commonsFile": "Dr. Douglas.R.Lowy.jpg",
+   "license": "Public domain",
+   "author": "Ernie Branson (photographer)",
+   "attribution": "Photo: Ernie Branson (photographer), Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Dr._Douglas.R.Lowy.jpg",
+   "fetched": "2026-09-10"
+  },
+  "drew-weissman": {
+   "id": "drew-weissman",
+   "qid": "Q88608402",
+   "file": "drew-weissman.jpg",
+   "commonsFile": "Drew Weissman Life Science medalist.jpg",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Thorne Media at 0:08 and 0:28, cropped, brightened",
+   "attribution": "Photo: Thorne Media at 0:08 and 0:28, cropped, brightened, CC BY 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Drew_Weissman_Life_Science_medalist.jpg",
+   "fetched": "2026-09-10"
+  },
+  "elisabeth-kubler-ross": {
+   "id": "elisabeth-kubler-ross",
+   "qid": "Q123811",
+   "file": "elisabeth-kubler-ross.jpg",
+   "commonsFile": "Elisabeth Kübler-Ross, 1978 (cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Lynn Gilbert",
+   "attribution": "Photo: Lynn Gilbert, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Elisabeth_K%C3%BCbler-Ross%2C_1978_(cropped).jpg",
+   "fetched": "2026-09-10"
+  },
+  "elizabeth-jaffee": {
+   "id": "elizabeth-jaffee",
+   "qid": "Q29452184",
+   "file": "elizabeth-jaffee.jpg",
+   "commonsFile": "Jaffee, ELizabeth (MASTER - USE FOR ALL).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Sfetting",
+   "attribution": "Photo: Sfetting, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jaffee%2C_ELizabeth_(MASTER_-_USE_FOR_ALL).jpg",
+   "fetched": "2026-09-10"
+  },
+  "emil-frei": {
+   "id": "emil-frei",
+   "qid": "Q5371238",
+   "file": "emil-frei.jpg",
+   "commonsFile": "Nci-vol-1838-300 Emil Frei.jpg",
+   "license": "Public domain",
+   "author": "National Cancer Institue",
+   "attribution": "Photo: National Cancer Institue, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Nci-vol-1838-300_Emil_Frei.jpg",
+   "fetched": "2026-09-10"
+  },
+  "gertrude-elion": {
+   "id": "gertrude-elion",
+   "qid": "Q35703",
+   "file": "gertrude-elion.jpg",
+   "commonsFile": "Gertrude Elion (cropped).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "GlaxoSmithKline plc",
+   "attribution": "Photo: GlaxoSmithKline plc, CC BY 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Gertrude_Elion_(cropped).jpg",
+   "fetched": "2026-09-10"
+  },
+  "gilda-radner": {
+   "id": "gilda-radner",
+   "qid": "Q266808",
+   "file": "gilda-radner.jpg",
+   "commonsFile": "Gilda Radner - 1980.jpg",
+   "license": "Public domain",
+   "author": "Solters and Roskin",
+   "attribution": "Photo: Solters and Roskin, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Gilda_Radner_-_1980.jpg",
+   "fetched": "2026-09-10"
+  },
+  "gunter-von-minckwitz": {
+   "id": "gunter-von-minckwitz",
+   "qid": "Q11163000",
+   "file": "gunter-von-minckwitz.jpg",
+   "commonsFile": "Minckwitz, Gunter von.jpg",
+   "license": "CC BY-SA 3.0 de",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+   "author": "File:Minckwitz Jacket Hand Hoch.jpg: Gbg Forschungs GmbH Bearbeitung: Hic et nunc",
+   "attribution": "Photo: File:Minckwitz Jacket Hand Hoch.jpg: Gbg Forschungs GmbH Bearbeitung: Hic et nunc, CC BY-SA 3.0 de, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Minckwitz%2C_Gunter_von.jpg",
+   "fetched": "2026-09-10"
+  },
+  "harald-zur-hausen": {
+   "id": "harald-zur-hausen",
+   "qid": "Q75847",
+   "file": "harald-zur-hausen.jpg",
+   "commonsFile": "Harald zur Hausen 01.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Kuebi = Armin Kuebelbeck",
+   "attribution": "Photo: Kuebi = Armin Kuebelbeck, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Harald_zur_Hausen_01.jpg",
+   "fetched": "2026-09-10"
+  },
+  "henrietta-lacks": {
+   "id": "henrietta-lacks",
+   "qid": "Q1647793",
+   "file": "henrietta-lacks.jpg",
+   "commonsFile": "Henrietta Lacks statue head 02.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "14GTR",
+   "attribution": "Photo: 14GTR, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Henrietta_Lacks_statue_head_02.jpg",
+   "fetched": "2026-09-10"
+  },
+  "ian-frazer": {
+   "id": "ian-frazer",
+   "qid": "Q930011",
+   "file": "ian-frazer.jpg",
+   "commonsFile": "Ian Frazer portrait.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Graeme Bartlett",
+   "attribution": "Photo: Graeme Bartlett, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Ian_Frazer_portrait.jpg",
+   "fetched": "2026-09-10"
+  },
+  "jade-goody": {
+   "id": "jade-goody",
+   "qid": "Q264740",
+   "file": "jade-goody.jpg",
+   "commonsFile": "Goody.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Keira76",
+   "attribution": "Photo: Keira76, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Goody.jpg",
+   "fetched": "2026-09-10"
+  },
+  "james-allison": {
+   "id": "james-allison",
+   "qid": "Q6140731",
+   "file": "james-allison.jpg",
+   "commonsFile": "James P. Allison EM1B5525 (46207775441).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Bengt Nyman from Vaxholm, Sweden",
+   "attribution": "Photo: Bengt Nyman from Vaxholm, Sweden, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:James_P._Allison_EM1B5525_(46207775441).jpg",
+   "fetched": "2026-09-10"
+  },
+  "jane-cooke-wright": {
+   "id": "jane-cooke-wright",
+   "qid": "Q6151222",
+   "file": "jane-cooke-wright.jpg",
+   "commonsFile": "Jane Cooke Wright.jpg",
+   "license": "Public domain",
+   "author": "National Library of Medicine",
+   "attribution": "Photo: National Library of Medicine, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jane_Cooke_Wright.jpg",
+   "fetched": "2026-09-10"
+  },
+  "janet-rowley": {
+   "id": "janet-rowley",
+   "qid": "Q436109",
+   "file": "janet-rowley.jpg",
+   "commonsFile": "Janet Rowley 2009.jpg",
+   "license": "Public domain",
+   "author": "U.S. federal government",
+   "attribution": "Photo: U.S. federal government, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Janet_Rowley_2009.jpg",
+   "fetched": "2026-09-10"
+  },
+  "jean-charles-soria": {
+   "id": "jean-charles-soria",
+   "qid": "Q33120580",
+   "file": "jean-charles-soria.jpg",
+   "commonsFile": "Jean-Charles SORIA.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Institut Gustave Roussy",
+   "attribution": "Photo: Institut Gustave Roussy, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jean-Charles_SORIA.jpg",
+   "fetched": "2026-09-10"
+  },
+  "jean-yves-blay": {
+   "id": "jean-yves-blay",
+   "qid": "Q37842284",
+   "file": "jean-yves-blay.jpg",
+   "commonsFile": "Jean-Yves Blay.jpg",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Communication CLB",
+   "attribution": "Photo: Communication CLB, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jean-Yves_Blay.jpg",
+   "fetched": "2026-09-10"
+  },
+  "jim-valvano": {
+   "id": "jim-valvano",
+   "qid": "Q321392",
+   "file": "jim-valvano.jpg",
+   "commonsFile": "Jim Valvano, Duke Chronicle 1982-11-30.jpg",
+   "license": "Public domain",
+   "author": "The Chronicle",
+   "attribution": "Photo: The Chronicle, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jim_Valvano%2C_Duke_Chronicle_1982-11-30.jpg",
+   "fetched": "2026-09-10"
+  },
+  "jimmie-holland": {
+   "id": "jimmie-holland",
+   "qid": "Q4499091",
+   "file": "jimmie-holland.jpg",
+   "commonsFile": "Jimmie C Holland NIH.jpg",
+   "license": "Public domain",
+   "author": "NIH",
+   "attribution": "Photo: NIH, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jimmie_C_Holland_NIH.jpg",
+   "fetched": "2026-09-10"
+  },
+  "john-dick": {
+   "id": "john-dick",
+   "qid": "Q6229356",
+   "file": "john-dick.jpg",
+   "commonsFile": "Professor John Dick FRS.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Royal Society uploader",
+   "attribution": "Photo: Royal Society uploader, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Professor_John_Dick_FRS.jpg",
+   "fetched": "2026-09-10"
+  },
+  "kate-granger": {
+   "id": "kate-granger",
+   "qid": "Q19665690",
+   "file": "kate-granger.jpg",
+   "commonsFile": "Kate Granger.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Paul Clarke",
+   "attribution": "Photo: Paul Clarke, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Kate_Granger.jpg",
+   "fetched": "2026-09-10"
+  },
+  "katie-couric": {
+   "id": "katie-couric",
+   "qid": "Q230739",
+   "file": "katie-couric.jpg",
+   "commonsFile": "KatieCouric-byPhilipRomano.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "PhilipRomanoPhoto",
+   "attribution": "Photo: PhilipRomanoPhoto, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:KatieCouric-byPhilipRomano.jpg",
+   "fetched": "2026-09-10"
+  },
+  "kris-hallenga": {
+   "id": "kris-hallenga",
+   "qid": "Q20676884",
+   "file": "kris-hallenga.jpg",
+   "commonsFile": "Kristin Hallenga.jpg",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Journalism Now",
+   "attribution": "Photo: Journalism Now, CC BY 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Kristin_Hallenga.jpg",
+   "fetched": "2026-09-10"
+  },
+  "lance-armstrong": {
+   "id": "lance-armstrong",
+   "qid": "Q2172",
+   "file": "lance-armstrong.jpg",
+   "commonsFile": "Lance Armstrong (Tour Down Under 2009).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Paul Coster",
+   "attribution": "Photo: Paul Coster, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Lance_Armstrong_(Tour_Down_Under_2009).jpg",
+   "fetched": "2026-09-10"
+  },
+  "louis-staudt": {
+   "id": "louis-staudt",
+   "qid": "Q47907557",
+   "file": "louis-staudt.jpg",
+   "commonsFile": "Chief of the Lymphoid Malignancies Branch Louis Michael Staudt.jpg",
+   "license": "Public domain",
+   "author": "National Institutes of Health",
+   "attribution": "Photo: National Institutes of Health, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Chief_of_the_Lymphoid_Malignancies_Branch_Louis_Michael_Staudt.jpg",
+   "fetched": "2026-09-10"
+  },
+  "margaret-foti": {
+   "id": "margaret-foti",
+   "qid": "Q75154913",
+   "file": "margaret-foti.jpg",
+   "commonsFile": "Von Eschenbach, Foti, Niederhuber and Balch (cropped).jpg",
+   "license": "Public domain",
+   "author": "Ernie Branson, Photographer",
+   "attribution": "Photo: Ernie Branson, Photographer, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Von_Eschenbach%2C_Foti%2C_Niederhuber_and_Balch_(cropped).jpg",
+   "fetched": "2026-09-10"
+  },
+  "mary-lasker": {
+   "id": "mary-lasker",
+   "qid": "Q436521",
+   "file": "mary-lasker.jpg",
+   "commonsFile": "Lasker, Mary. nlm nlmuid-101441394.jpg",
+   "license": "Public domain",
+   "author": "Unknown authorUnknown author",
+   "attribution": "Photo: Unknown authorUnknown author, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Lasker%2C_Mary._nlm_nlmuid-101441394.jpg",
+   "fetched": "2026-09-10"
+  },
+  "mel-greaves": {
+   "id": "mel-greaves",
+   "qid": "Q258404",
+   "file": "mel-greaves.jpg",
+   "commonsFile": "Professor Melvyn Greaves.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Joe Dunckley",
+   "attribution": "Photo: Joe Dunckley, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Professor_Melvyn_Greaves.jpg",
+   "fetched": "2026-09-10"
+  },
+  "michael-baumann": {
+   "id": "michael-baumann",
+   "qid": "Q59959645",
+   "file": "michael-baumann.jpg",
+   "commonsFile": "Baumann-Michael.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Philip Benjamin",
+   "attribution": "Photo: Philip Benjamin, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Baumann-Michael.jpg",
+   "fetched": "2026-09-10"
+  },
+  "michelle-mitchell": {
+   "id": "michelle-mitchell",
+   "qid": "Q58866750",
+   "file": "michelle-mitchell.jpg",
+   "commonsFile": "Michelle Mitchell.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Jesswade88",
+   "attribution": "Photo: Jesswade88, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Michelle_Mitchell.jpg",
+   "fetched": "2026-09-10"
+  },
+  "nathan-cherny": {
+   "id": "nathan-cherny",
+   "qid": "Q56451958",
+   "file": "nathan-cherny.jpg",
+   "commonsFile": "Nathan Cherny (cropped).jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Mark Neyman",
+   "attribution": "Photo: Mark Neyman, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Nathan_Cherny_(cropped).jpg",
+   "fetched": "2026-09-10"
+  },
+  "nirali-shah": {
+   "id": "nirali-shah",
+   "qid": "Q89900877",
+   "file": "nirali-shah.jpg",
+   "commonsFile": "Nirali N. Shah.jpg",
+   "license": "Public domain",
+   "author": "Unknown authorUnknown author",
+   "attribution": "Photo: Unknown authorUnknown author, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Nirali_N._Shah.jpg",
+   "fetched": "2026-09-10"
+  },
+  "padmanee-sharma": {
+   "id": "padmanee-sharma",
+   "qid": "Q63313365",
+   "file": "padmanee-sharma.jpg",
+   "commonsFile": "20220303 Allison Institute portraits 068 Sharma.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Javi.guerrero1127",
+   "attribution": "Photo: Javi.guerrero1127, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:20220303_Allison_Institute_portraits_068_Sharma.jpg",
+   "fetched": "2026-09-10"
+  },
+  "paul-nurse": {
+   "id": "paul-nurse",
+   "qid": "Q219716",
+   "file": "paul-nurse.jpg",
+   "commonsFile": "Paul Nurse portrait.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Not specified in the submission",
+   "attribution": "Photo: Not specified in the submission, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Paul_Nurse_portrait.jpg",
+   "fetched": "2026-09-10"
+  },
+  "paul-workman": {
+   "id": "paul-workman",
+   "qid": "Q7154482",
+   "file": "paul-workman.png",
+   "commonsFile": "Professor Paul Workman FRS.png",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Kbradnam",
+   "attribution": "Photo: Kbradnam, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Professor_Paul_Workman_FRS.png",
+   "fetched": "2026-09-10"
+  },
+  "philip-greenberg": {
+   "id": "philip-greenberg",
+   "qid": "Q56369828",
+   "file": "philip-greenberg.jpg",
+   "commonsFile": "140128 phil greenberg 018 1039.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Nduerkop",
+   "attribution": "Photo: Nduerkop, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:140128_phil_greenberg_018_1039.jpg",
+   "fetched": "2026-09-10"
+  },
+  "randy-pausch": {
+   "id": "randy-pausch",
+   "qid": "Q49828",
+   "file": "randy-pausch.jpg",
+   "commonsFile": "RandyPausch Wiki 2.jpg",
+   "license": "Public domain",
+   "author": "Randy Pausch",
+   "attribution": "Photo: Randy Pausch, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:RandyPausch_Wiki_2.jpg",
+   "fetched": "2026-09-10"
+  },
+  "rene-bernards": {
+   "id": "rene-bernards",
+   "qid": "Q20518809",
+   "file": "rene-bernards.jpg",
+   "commonsFile": "ReneBernards2005.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "NWO, Arie Wapenaar",
+   "attribution": "Photo: NWO, Arie Wapenaar, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:ReneBernards2005.jpg",
+   "fetched": "2026-09-10"
+  },
+  "robert-schreiber": {
+   "id": "robert-schreiber",
+   "qid": "Q7343346",
+   "file": "robert-schreiber.jpg",
+   "commonsFile": "Robert David Schreiber, 2017 (cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Peter Mosimann",
+   "attribution": "Photo: Peter Mosimann, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Robert_David_Schreiber%2C_2017_(cropped).jpg",
+   "fetched": "2026-09-10"
+  },
+  "sidney-farber": {
+   "id": "sidney-farber",
+   "qid": "Q2281920",
+   "file": "sidney-farber.jpg",
+   "commonsFile": "Sidney Farber nci-vol-1926-300.jpg",
+   "license": "Public domain",
+   "author": "Unknown photographer/artist",
+   "attribution": "Photo: Unknown photographer/artist, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Sidney_Farber_nci-vol-1926-300.jpg",
+   "fetched": "2026-09-10"
+  },
+  "stefan-pfister": {
+   "id": "stefan-pfister",
+   "qid": "Q39183179",
+   "file": "stefan-pfister.jpg",
+   "commonsFile": "Verleihung Zülch-Preis 2016-1042.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Raimond Spekking",
+   "attribution": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Verleihung_Z%C3%BClch-Preis_2016-1042.jpg",
+   "fetched": "2026-09-10"
+  },
+  "steven-rosenberg": {
+   "id": "steven-rosenberg",
+   "qid": "Q2347448",
+   "file": "steven-rosenberg.jpg",
+   "commonsFile": "Nci-vol-7247-300 steven rosenberg.jpg",
+   "license": "Public domain",
+   "author": "Rhoda Baer (Photographer)",
+   "attribution": "Photo: Rhoda Baer (Photographer), Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Nci-vol-7247-300_steven_rosenberg.jpg",
+   "fetched": "2026-09-10"
+  },
+  "gupta-sudeep": {
+   "id": "gupta-sudeep",
+   "qid": "Q91555285",
+   "file": "gupta-sudeep.jpg",
+   "commonsFile": "Sudeep1.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "AyanGupta14",
+   "attribution": "Photo: AyanGupta14, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Sudeep1.jpg",
+   "fetched": "2026-09-10"
+  },
+  "susan-love": {
+   "id": "susan-love",
+   "qid": "Q765451",
+   "file": "susan-love.jpg",
+   "commonsFile": "Dr. Susan Love.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "ContentEditor949",
+   "attribution": "Photo: ContentEditor949, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Dr._Susan_Love.jpg",
+   "fetched": "2026-09-10"
+  },
+  "tasuku-honjo": {
+   "id": "tasuku-honjo",
+   "qid": "Q2395341",
+   "file": "tasuku-honjo.jpg",
+   "commonsFile": "Tasuku Honjo 201311.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "大臣官房人事課",
+   "attribution": "Photo: 大臣官房人事課, CC BY 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Tasuku_Honjo_201311.jpg",
+   "fetched": "2026-09-10"
+  },
+  "terry-fox": {
+   "id": "terry-fox",
+   "qid": "Q295053",
+   "file": "terry-fox.jpg",
+   "commonsFile": "TerryFoxToronto19800712.JPG",
+   "license": "Public domain",
+   "author": "Jeremy Gilbert",
+   "attribution": "Photo: Jeremy Gilbert, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:TerryFoxToronto19800712.JPG",
+   "fetched": "2026-09-10"
+  },
+  "timothy-ley": {
+   "id": "timothy-ley",
+   "qid": "Q7807352",
+   "file": "timothy-ley.jpg",
+   "commonsFile": "Timothy Ley.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "LittleT889",
+   "attribution": "Photo: LittleT889, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Timothy_Ley.jpg",
+   "fetched": "2026-09-10"
+  },
+  "toni-choueiri": {
+   "id": "toni-choueiri",
+   "qid": "Q88414622",
+   "file": "toni-choueiri.jpg",
+   "commonsFile": "Toni-wiki.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Tkc681975",
+   "attribution": "Photo: Tkc681975, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Toni-wiki.jpg",
+   "fetched": "2026-09-10"
+  },
+  "uwe-haberkorn": {
+   "id": "uwe-haberkorn",
+   "qid": "Q126097",
+   "file": "uwe-haberkorn.jpg",
+   "commonsFile": "Uwe Haberkorn 01.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Kuebi = Armin Kübelbeck",
+   "attribution": "Photo: Kuebi = Armin Kübelbeck, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Uwe_Haberkorn_01.jpg",
+   "fetched": "2026-09-10"
+  },
+  "weiping-zou": {
+   "id": "weiping-zou",
+   "qid": "Q47035381",
+   "file": "weiping-zou.png",
+   "commonsFile": "HeadshotWZou.png",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Telkins90",
+   "attribution": "Photo: Telkins90, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:HeadshotWZou.png",
+   "fetched": "2026-09-10"
+  },
+  "william-kaelin": {
+   "id": "william-kaelin",
+   "qid": "Q1603351",
+   "file": "william-kaelin.jpg",
+   "commonsFile": "William G. Kaelin Jr. UNIST CGI 2019.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Rickinasia",
+   "attribution": "Photo: Rickinasia, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:William_G._Kaelin_Jr._UNIST_CGI_2019.jpg",
+   "fetched": "2026-09-10"
+  },
+  "angelina-jolie": {
+   "id": "angelina-jolie",
+   "qid": "Q13909",
+   "file": "angelina-jolie.jpg",
+   "commonsFile": "Angelina Jolie-643531 (cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Harald Krichel",
+   "attribution": "Photo: Harald Krichel, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Angelina_Jolie-643531_(cropped).jpg",
+   "fetched": "2026-09-10"
+  },
+  "weiderpass-elisabete": {
+   "id": "weiderpass-elisabete",
+   "qid": "Q28606966",
+   "file": "weiderpass-elisabete.jpg",
+   "commonsFile": "IARC Director Dr Elisabete Weiderpass.jpg",
+   "license": "CC BY 3.0 igo",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/deed.en",
+   "author": "IARC",
+   "attribution": "Photo: IARC, CC BY 3.0 igo, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:IARC_Director_Dr_Elisabete_Weiderpass.jpg",
+   "fetched": "2026-09-10"
+  },
+  "nancy-brinker": {
+   "id": "nancy-brinker",
+   "qid": "Q1215367",
+   "file": "nancy-brinker.jpg",
+   "commonsFile": "Brinker nancy 200.jpg",
+   "license": "Public domain",
+   "author": "http://www.state.gov/r/pa/ei/biog/92472.htm [dead link] Archive index at the Wayback Machine",
+   "attribution": "Photo: http://www.state.gov/r/pa/ei/biog/92472.htm [dead link] Archive index at the Wayback Machine, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Brinker_nancy_200.jpg",
+   "fetched": "2026-09-10"
+  },
+  "steve-jobs": {
+   "id": "steve-jobs",
+   "qid": "Q19837",
+   "file": "steve-jobs.jpg",
+   "commonsFile": "Steve Jobs Headshot 2010-CROP2.jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "MetalGearLiquid, based on File:Steve_Jobs_Headshot_2010-CROP.jpg made by Matt Yohe",
+   "attribution": "Photo: MetalGearLiquid, based on File:Steve_Jobs_Headshot_2010-CROP.jpg made by Matt Yohe, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP2.jpg",
+   "fetched": "2026-09-10"
+  }
+ },
+ "unresolved": {
+  "keith-stewart": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "aaron-schimmer": {
+   "reason": "matched Q56378117 (Aaron Schimmer) but it has no image (P18)",
+   "qid": "Q56378117",
+   "checked": "2026-09-10"
+  },
+  "alan-ashworth": {
+   "reason": "matched Q4706084 (Alan Ashworth) but it has no image (P18)",
+   "qid": "Q4706084",
+   "checked": "2026-09-10"
+  },
+  "alan-venook": {
+   "reason": "matched Q90239941 (Alan P Venook) but it has no image (P18)",
+   "qid": "Q90239941",
+   "checked": "2026-09-10"
+  },
+  "albert-koong": {
+   "reason": "matched Q55221705 (Albert C. Koong) but it has no image (P18)",
+   "qid": "Q55221705",
+   "checked": "2026-09-10"
+  },
+  "alessandro-gronchi": {
+   "reason": "matched Q33303907 (Alessandro Gronchi) but it has no image (P18)",
+   "qid": "Q33303907",
+   "checked": "2026-09-10"
+  },
+  "alex-herrera": {
+   "reason": "matched Q90763206 (Alex F Herrera) but it has no image (P18)",
+   "qid": "Q90763206",
+   "checked": "2026-09-10"
+  },
+  "alexander-drilon": {
+   "reason": "matched Q89982402 (Alexander Drilon) but it has no image (P18)",
+   "qid": "Q89982402",
+   "checked": "2026-09-10"
+  },
+  "alexander-eggermont": {
+   "reason": "matched Q28317101 (Alexander M. M. Eggermont) but it has no image (P18)",
+   "qid": "Q28317101",
+   "checked": "2026-09-10"
+  },
+  "alex-scott": {
+   "reason": "matched Q42290455 (Alexandra J. Scott) but it has no image (P18)",
+   "qid": "Q42290455",
+   "checked": "2026-09-10"
+  },
+  "alice-yu": {
+   "reason": "matched Q56989429 (Alice L Yu) but it has no image (P18)",
+   "qid": "Q56989429",
+   "checked": "2026-09-10"
+  },
+  "amar-kishan": {
+   "reason": "matched Q96160874 (Amar U Kishan) but it has no image (P18)",
+   "qid": "Q96160874",
+   "checked": "2026-09-10"
+  },
+  "amit-oza": {
+   "reason": "matched Q90647589 (Amit M. Oza) but it has no image (P18)",
+   "qid": "Q90647589",
+   "checked": "2026-09-10"
+  },
+  "amod-sarnaik": {
+   "reason": "matched Q100453729 (Amod A Sarnaik) but it has no image (P18)",
+   "qid": "Q100453729",
+   "checked": "2026-09-10"
+  },
+  "ananya-choudhury": {
+   "reason": "matched Q39896413 (Ananya Choudhury) but it has no image (P18)",
+   "qid": "Q39896413",
+   "checked": "2026-09-10"
+  },
+  "ilbawi-andre": {
+   "reason": "matched Q55127440 (André M. Ilbawi) but it has no image (P18)",
+   "qid": "Q55127440",
+   "checked": "2026-09-10"
+  },
+  "andrea-cercek": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "andreas-von-deimling": {
+   "reason": "matched Q40381084 (Andreas von Deimling) but it has no image (P18)",
+   "qid": "Q40381084",
+   "checked": "2026-09-10"
+  },
+  "andres-cervantes": {
+   "reason": "matched Q88691963 (Andrés Cervantes) but it has no image (P18)",
+   "qid": "Q88691963",
+   "checked": "2026-09-10"
+  },
+  "andrew-aguirre": {
+   "reason": "matched Q91596032 (Andrew J Aguirre) but it has no image (P18)",
+   "qid": "Q91596032",
+   "checked": "2026-09-10"
+  },
+  "andrew-tutt": {
+   "reason": "matched Q30582865 (Andrew Tutt) but it has no image (P18)",
+   "qid": "Q30582865",
+   "checked": "2026-09-10"
+  },
+  "andrew-wardley": {
+   "reason": "matched Q43247711 (Andrew M. Wardley) but it has no image (P18)",
+   "qid": "Q43247711",
+   "checked": "2026-09-10"
+  },
+  "angela-demichele": {
+   "reason": "matched Q101216517 (Angela DeMichele) but it has no image (P18)",
+   "qid": "Q101216517",
+   "checked": "2026-09-10"
+  },
+  "angelika-eggert": {
+   "reason": "matched Q90316697 (Angelika Eggert) but it has no image (P18)",
+   "qid": "Q90316697",
+   "checked": "2026-09-10"
+  },
+  "anirban-maitra": {
+   "reason": "matched Q63019787 (Anirban Maitra) but it has no image (P18)",
+   "qid": "Q63019787",
+   "checked": "2026-09-10"
+  },
+  "ann-partridge": {
+   "reason": "matched Q91305067 (Ann Partridge) but it has no image (P18)",
+   "qid": "Q91305067",
+   "checked": "2026-09-10"
+  },
+  "anna-fagotti": {
+   "reason": "matched Q89676077 (Anna Fagotti) but it has no image (P18)",
+   "qid": "Q89676077",
+   "checked": "2026-09-10"
+  },
+  "anne-chiang": {
+   "reason": "matched Q94450830 (Anne C Chiang) but it has no image (P18)",
+   "qid": "Q94450830",
+   "checked": "2026-09-10"
+  },
+  "anthony-goncalves": {
+   "reason": "matched Q61471997 (Anthony Gonçalves) but it has no image (P18)",
+   "qid": "Q61471997",
+   "checked": "2026-09-10"
+  },
+  "anthony-letai": {
+   "reason": "matched Q88032748 (Anthony Letai) but it has no image (P18)",
+   "qid": "Q88032748",
+   "checked": "2026-09-10"
+  },
+  "antoni-ribas": {
+   "reason": "matched Q32649604 (Antoni Ribas) but it has no image (P18)",
+   "qid": "Q32649604",
+   "checked": "2026-09-10"
+  },
+  "katz-artur": {
+   "reason": "matched Q88053522 (Artur Katz) but it has no image (P18)",
+   "qid": "Q88053522",
+   "checked": "2026-09-10"
+  },
+  "ash-alizadeh": {
+   "reason": "matched Q73440211 (A Alizadeh) but it has no image (P18)",
+   "qid": "Q73440211",
+   "checked": "2026-09-10"
+  },
+  "ashya-king": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "aurelien-marabelle": {
+   "reason": "matched Q42303208 (Aurélien Marabelle) but it has no image (P18)",
+   "qid": "Q42303208",
+   "checked": "2026-09-10"
+  },
+  "barbara-bradfield": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "beatriz-castelo": {
+   "reason": "matched Q91319497 (Beatriz Castelo) but it has no image (P18)",
+   "qid": "Q91319497",
+   "checked": "2026-09-10"
+  },
+  "behnam-badie": {
+   "reason": "matched Q96238839 (Behnam Badie) but it has no image (P18)",
+   "qid": "Q96238839",
+   "checked": "2026-09-10"
+  },
+  "benjamin-besse": {
+   "reason": "matched Q100391370 (Benjamin Besse) but it has no image (P18)",
+   "qid": "Q100391370",
+   "checked": "2026-09-10"
+  },
+  "benjamin-ebert": {
+   "reason": "matched Q91044165 (Benjamin L. Ebert) but it has no image (P18)",
+   "qid": "Q91044165",
+   "checked": "2026-09-10"
+  },
+  "xu-binghe": {
+   "reason": "matched Q88164875 (Binghe Xu) but it has no image (P18)",
+   "qid": "Q88164875",
+   "checked": "2026-09-10"
+  },
+  "bob-li": {
+   "reason": "matched Q41849961 (Bob T. Li) but it has no image (P18)",
+   "qid": "Q41849961",
+   "checked": "2026-09-10"
+  },
+  "bruce-levine": {
+   "reason": "matched Q85544154 (Bruce L. Levine) but it has no image (P18)",
+   "qid": "Q85544154",
+   "checked": "2026-09-10"
+  },
+  "bud-romine": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "cho-byoung-chul": {
+   "reason": "matched Q63775110 (Byoung Chul Cho) but it has no image (P18)",
+   "qid": "Q63775110",
+   "checked": "2026-09-10"
+  },
+  "caetano-reis-e-sousa": {
+   "reason": "matched Q33303948 (Caetano Reis e Sousa) but it has no image (P18)",
+   "qid": "Q33303948",
+   "checked": "2026-09-10"
+  },
+  "zhou-caicun": {
+   "reason": "matched Q114358334 (Caicun Zhou) but it has no image (P18)",
+   "qid": "Q114358334",
+   "checked": "2026-09-10"
+  },
+  "candace-johnson": {
+   "reason": "matched Q131753848 (Candace S. Johnson) but it has no image (P18)",
+   "qid": "Q131753848",
+   "checked": "2026-09-10"
+  },
+  "barrios-carlos": {
+   "reason": "matched Q53266241 (Carlos Barrios) but it has no image (P18)",
+   "qid": "Q53266241",
+   "checked": "2026-09-10"
+  },
+  "carsten-bokemeyer": {
+   "reason": "matched Q1045499 (Carsten Bokemeyer) but it has no image (P18)",
+   "qid": "Q1045499",
+   "checked": "2026-09-10"
+  },
+  "carsten-denkert": {
+   "reason": "matched Q39693505 (Carsten Denkert) but it has no image (P18)",
+   "qid": "Q39693505",
+   "checked": "2026-09-10"
+  },
+  "qi-changsong": {
+   "reason": "matched Q130810024 (Changsong Qi) but it has no image (P18)",
+   "qid": "Q130810024",
+   "checked": "2026-09-10"
+  },
+  "charles-blanke": {
+   "reason": "matched Q95840183 (Charles D Blanke) but it has no image (P18)",
+   "qid": "Q95840183",
+   "checked": "2026-09-10"
+  },
+  "charles-geyer": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "charu-aggarwal": {
+   "reason": "matched Q92675540 (Charu Aggarwal) but it has no image (P18)",
+   "qid": "Q92675540",
+   "checked": "2026-09-10"
+  },
+  "christian-blank": {
+   "reason": "matched Q89370036 (Christian U Blank) but it has no image (P18)",
+   "qid": "Q89370036",
+   "checked": "2026-09-10"
+  },
+  "christine-brown": {
+   "reason": "matched Q59680493 (Christine E Brown) but it has no image (P18)",
+   "qid": "Q59680493",
+   "checked": "2026-09-10"
+  },
+  "christine-chung": {
+   "reason": "matched Q130662933 (Christine H. Chung) but it has no image (P18)",
+   "qid": "Q130662933",
+   "checked": "2026-09-10"
+  },
+  "christophe-le-tourneau": {
+   "reason": "matched Q41608401 (Christophe Le Tourneau) but it has no image (P18)",
+   "qid": "Q41608401",
+   "checked": "2026-09-10"
+  },
+  "chris-lord": {
+   "reason": "matched Q37392895 (Christopher J Lord) but it has no image (P18)",
+   "qid": "Q37392895",
+   "checked": "2026-09-10"
+  },
+  "christopher-flowers": {
+   "reason": "matched Q88175728 (Christopher R Flowers) but it has no image (P18)",
+   "qid": "Q88175728",
+   "checked": "2026-09-10"
+  },
+  "christopher-vakoc": {
+   "reason": "matched Q38321982 (Christopher R. Vakoc) but it has no image (P18)",
+   "qid": "Q38321982",
+   "checked": "2026-09-10"
+  },
+  "claus-belka": {
+   "reason": "matched Q89799331 (Claus Belka) but it has no image (P18)",
+   "qid": "Q89799331",
+   "checked": "2026-09-10"
+  },
+  "clemens-kratochwil": {
+   "reason": "matched Q88952584 (Clemens Kratochwil) but it has no image (P18)",
+   "qid": "Q88952584",
+   "checked": "2026-09-10"
+  },
+  "clifford-hudis": {
+   "reason": "matched Q92892082 (Clifford A Hudis) but it has no image (P18)",
+   "qid": "Q92892082",
+   "checked": "2026-09-10"
+  },
+  "costas-lyssiotis": {
+   "reason": "matched Q47451178 (Costas A Lyssiotis) but it has no image (P18)",
+   "qid": "Q47451178",
+   "checked": "2026-09-10"
+  },
+  "lee-dae-ho": {
+   "reason": "matched Q89664885 (Dae Ho Lee) but it has no image (P18)",
+   "qid": "Q89664885",
+   "checked": "2026-09-10"
+  },
+  "david-tuveson": {
+   "reason": "matched Q23417102 (David Tuveson) but it has no image (P18)",
+   "qid": "Q23417102",
+   "checked": "2026-09-10"
+  },
+  "david-solit": {
+   "reason": "matched Q90267706 (David B Solit) but it has no image (P18)",
+   "qid": "Q90267706",
+   "checked": "2026-09-10"
+  },
+  "david-cameron": {
+   "reason": "matched Q112441590 (David Cameron) but it has no image (P18)",
+   "qid": "Q112441590",
+   "checked": "2026-09-10"
+  },
+  "david-cunningham": {
+   "reason": "matched Q38803238 (David Cunningham) but it has no image (P18)",
+   "qid": "Q38803238",
+   "checked": "2026-09-10"
+  },
+  "david-porter": {
+   "reason": "matched Q110797660 (David L. Porter) but it has no image (P18)",
+   "qid": "Q110797660",
+   "checked": "2026-09-10"
+  },
+  "dawn-hershman": {
+   "reason": "matched Q87128576 (Dawn L. Hershman) but it has no image (P18)",
+   "qid": "Q87128576",
+   "checked": "2026-09-10"
+  },
+  "deborah-bruner": {
+   "reason": "matched Q64684731 (Deborah Bruner) but it has no image (P18)",
+   "qid": "Q64684731",
+   "checked": "2026-09-10"
+  },
+  "debu-tripathy": {
+   "reason": "matched Q89646949 (Debu Tripathy) but it has no image (P18)",
+   "qid": "Q89646949",
+   "checked": "2026-09-10"
+  },
+  "denis-lacombe": {
+   "reason": "matched Q123501210 (Denis Lacombe) but it has no image (P18)",
+   "qid": "Q123501210",
+   "checked": "2026-09-10"
+  },
+  "denise-galloway": {
+   "reason": "matched Q91250425 (Denise Galloway) but it has no image (P18)",
+   "qid": "Q91250425",
+   "checked": "2026-09-10"
+  },
+  "dennis-slamon": {
+   "reason": "matched Q1189226 (Dennis Slamon) but it has no image (P18)",
+   "qid": "Q1189226",
+   "checked": "2026-09-10"
+  },
+  "ye-dingwei": {
+   "reason": "matched Q92379251 (Dingwei Ye) but it has no image (P18)",
+   "qid": "Q92379251",
+   "checked": "2026-09-10"
+  },
+  "oh-do-youn": {
+   "reason": "matched Q87569618 (Do-Youn Oh) but it has no image (P18)",
+   "qid": "Q87569618",
+   "checked": "2026-09-10"
+  },
+  "kim-dong-wan": {
+   "reason": "matched Q58215269 (Dong-Wan Kim) but it has no image (P18)",
+   "qid": "Q58215269",
+   "checked": "2026-09-10"
+  },
+  "tu-dongsheng": {
+   "reason": "matched Q58452576 (Dongsheng Tu) but it has no image (P18)",
+   "qid": "Q58452576",
+   "checked": "2026-09-10"
+  },
+  "douglas-hawkins": {
+   "reason": "matched Q90194614 (Douglas S Hawkins) but it has no image (P18)",
+   "qid": "Q90194614",
+   "checked": "2026-09-10"
+  },
+  "drew-pardoll": {
+   "reason": "matched Q89453911 (Drew M Pardoll) but it has no image (P18)",
+   "qid": "Q89453911",
+   "checked": "2026-09-10"
+  },
+  "dung-le": {
+   "reason": "matched Q102168485 (Dung Le) but it has no image (P18)",
+   "qid": "Q102168485",
+   "checked": "2026-09-10"
+  },
+  "eileen-oreilly": {
+   "reason": "matched Q57517885 (Eileen M. O'Reilly) but it has no image (P18)",
+   "qid": "Q57517885",
+   "checked": "2026-09-10"
+  },
+  "einar-gustafson": {
+   "reason": "matched Q97062086 (Einar Gustafson) but it has no image (P18)",
+   "qid": "Q97062086",
+   "checked": "2026-09-10"
+  },
+  "elena-elez": {
+   "reason": "matched Q90655394 (Elena Elez) but it has no image (P18)",
+   "qid": "Q90655394",
+   "checked": "2026-09-10"
+  },
+  "elena-garralda": {
+   "reason": "matched Q30169423 (Maria Elena Garralda) but it has no image (P18)",
+   "qid": "Q30169423",
+   "checked": "2026-09-10"
+  },
+  "eliane-piaggio": {
+   "reason": "matched Q50078670 (Eliane Piaggio) but it has no image (P18)",
+   "qid": "Q50078670",
+   "checked": "2026-09-10"
+  },
+  "eliezer-van-allen": {
+   "reason": "matched Q57686659 (Eliezer Van Allen) but it has no image (P18)",
+   "qid": "Q57686659",
+   "checked": "2026-09-10"
+  },
+  "emil-freireich": {
+   "reason": "matched Q26923140 (Emil J. Freireich Jr.) but it has no image (P18)",
+   "qid": "Q26923140",
+   "checked": "2026-09-10"
+  },
+  "emile-voest": {
+   "reason": "matched Q88160275 (Emile E Voest) but it has no image (P18)",
+   "qid": "Q88160275",
+   "checked": "2026-09-10"
+  },
+  "emily-bergsland": {
+   "reason": "matched Q87793550 (Emily Bergsland) but it has no image (P18)",
+   "qid": "Q87793550",
+   "checked": "2026-09-10"
+  },
+  "emily-whitehead": {
+   "reason": "matched Q92420305 (Emily Whitehead) but it has no image (P18)",
+   "qid": "Q92420305",
+   "checked": "2026-09-10"
+  },
+  "enrique-espinosa": {
+   "reason": "matched Q56853875 (Enrique Espinosa) but it has no image (P18)",
+   "qid": "Q56853875",
+   "checked": "2026-09-10"
+  },
+  "enriqueta-felip": {
+   "reason": "matched Q56605610 (Enriqueta Felip) but it has no image (P18)",
+   "qid": "Q56605610",
+   "checked": "2026-09-10"
+  },
+  "eric-haura": {
+   "reason": "matched Q91518909 (Eric B Haura) but it has no image (P18)",
+   "qid": "Q91518909",
+   "checked": "2026-09-10"
+  },
+  "eric-small": {
+   "reason": "matched Q58096315 (Eric Small) but it has no image (P18)",
+   "qid": "Q58096315",
+   "checked": "2026-09-10"
+  },
+  "eric-fearon": {
+   "reason": "matched Q107359026 (Eric Fearon) but it has no image (P18)",
+   "qid": "Q107359026",
+   "checked": "2026-09-10"
+  },
+  "erik-sahai": {
+   "reason": "matched Q44050376 (Erik Sahai) but it has no image (P18)",
+   "qid": "Q44050376",
+   "checked": "2026-09-10"
+  },
+  "eunice-wang": {
+   "reason": "matched Q89218278 (Eunice Kagucia) but it has no image (P18)",
+   "qid": "Q89218278",
+   "checked": "2026-09-10"
+  },
+  "evandro-de-azambuja": {
+   "reason": "matched Q38293745 (Evandro de Azambuja) but it has no image (P18)",
+   "qid": "Q38293745",
+   "checked": "2026-09-10"
+  },
+  "evanthia-galanis": {
+   "reason": "matched Q88613246 (Evanthia Galanis) but it has no image (P18)",
+   "qid": "Q88613246",
+   "checked": "2026-09-10"
+  },
+  "evelyn-lauder": {
+   "reason": "matched Q462055 (Evelyn Lauder) but it has no image (P18)",
+   "qid": "Q462055",
+   "checked": "2026-09-10"
+  },
+  "everett-vokes": {
+   "reason": "matched Q73567428 (Everett E Vokes) but it has no image (P18)",
+   "qid": "Q73567428",
+   "checked": "2026-09-10"
+  },
+  "f-stephen-hodi": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "fabrice-barlesi": {
+   "reason": "matched Q91755059 (Fabrice Barlesi) but it has no image (P18)",
+   "qid": "Q91755059",
+   "checked": "2026-09-10"
+  },
+  "ma-fei": {
+   "reason": "matched Q130963314 (Fei Ma) but it has no image (P18)",
+   "qid": "Q130963314",
+   "checked": "2026-09-10"
+  },
+  "wang-feng-sysucc": {
+   "reason": "matched Q102194795 (Feng Wang) but it has no image (P18)",
+   "qid": "Q102194795",
+   "checked": "2026-09-10"
+  },
+  "feng-zhang": {
+   "reason": "matched Q100409492 (Feng Zhang) but it has no image (P18)",
+   "qid": "Q100409492",
+   "checked": "2026-09-10"
+  },
+  "filippo-de-braud": {
+   "reason": "matched Q37837953 (Filippo de Braud) but it has no image (P18)",
+   "qid": "Q37837953",
+   "checked": "2026-09-10"
+  },
+  "fiona-blackhall": {
+   "reason": "matched Q37831554 (Fiona Blackhall) but it has no image (P18)",
+   "qid": "Q37831554",
+   "checked": "2026-09-10"
+  },
+  "fran-visco": {
+   "reason": "no plausible human item (candidates rejected)",
+   "checked": "2026-09-10"
+  },
+  "francisca-vazquez": {
+   "reason": "matched Q56994314 (Francisca Vazquez) but it has no image (P18)",
+   "qid": "Q56994314",
+   "checked": "2026-09-10"
+  },
+  "francois-clement-bidard": {
+   "reason": "matched Q38296975 (François-Clément Bidard) but it has no image (P18)",
+   "qid": "Q38296975",
+   "checked": "2026-09-10"
+  },
+  "frank-mccormick": {
+   "reason": "matched Q21166323 (Frank McCormick) but it has no image (P18)",
+   "qid": "Q21166323",
+   "checked": "2026-09-10"
+  },
+  "bray-freddie": {
+   "reason": "matched Q114414637 (Freddie Bray) but it has no image (P18)",
+   "qid": "Q114414637",
+   "checked": "2026-09-10"
+  },
+  "frederick-locke": {
+   "reason": "matched Q41387995 (Frederick L Locke) but it has no image (P18)",
+   "qid": "Q41387995",
+   "checked": "2026-09-10"
+  },
+  "frederik-giesel": {
+   "reason": "matched Q114442230 (Frederik L Giesel) but it has no image (P18)",
+   "qid": "Q114442230",
+   "checked": "2026-09-10"
+  },
+  "funda-meric-bernstam": {
+   "reason": "matched Q67191264 (Funda Meric-Bernstam) but it has no image (P18)",
+   "qid": "Q67191264",
+   "checked": "2026-09-10"
+  },
+  "gad-getz": {
+   "reason": "matched Q32646381 (Gad Getz) but it has no image (P18)",
+   "qid": "Q32646381",
+   "checked": "2026-09-10"
+  },
+  "gary-lyman": {
+   "reason": "matched Q86850368 (Gary H Lyman) but it has no image (P18)",
+   "qid": "Q86850368",
+   "checked": "2026-09-10"
+  },
+  "giampaolo-tortora": {
+   "reason": "matched Q38544270 (Giampaolo Tortora) but it has no image (P18)",
+   "qid": "Q38544270",
+   "checked": "2026-09-10"
+  },
+  "giovanni-scambia": {
+   "reason": "matched Q29998807 (Giovanni Scambia) but it has no image (P18)",
+   "qid": "Q29998807",
+   "checked": "2026-09-10"
+  },
+  "giulio-draetta": {
+   "reason": "matched Q89070250 (Giulio F Draetta) but it has no image (P18)",
+   "qid": "Q89070250",
+   "checked": "2026-09-10"
+  },
+  "giuseppe-curigliano": {
+   "reason": "matched Q47736732 (Giuseppe Curigliano) but it has no image (P18)",
+   "qid": "Q47736732",
+   "checked": "2026-09-10"
+  },
+  "mcarthur-grant": {
+   "reason": "matched Q45893828 (Grant McArthur) but it has no image (P18)",
+   "qid": "Q45893828",
+   "checked": "2026-09-10"
+  },
+  "hagen-kennecke": {
+   "reason": "matched Q90953434 (Hagen Kennecke) but it has no image (P18)",
+   "qid": "Q90953434",
+   "checked": "2026-09-10"
+  },
+  "hagop-kantarjian": {
+   "reason": "matched Q60394812 (Hagop Kantarjian) but it has no image (P18)",
+   "qid": "Q60394812",
+   "checked": "2026-09-10"
+  },
+  "hans-gustaf-ljunggren": {
+   "reason": "matched Q90100447 (Hans-Gustaf Ljunggren) but it has no image (P18)",
+   "qid": "Q90100447",
+   "checked": "2026-09-10"
+  },
+  "hans-peter-kiem": {
+   "reason": "matched Q88408730 (Hans-Peter Kiem) but it has no image (P18)",
+   "qid": "Q88408730",
+   "checked": "2026-09-10"
+  },
+  "fukuda-haruhiko": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "hatem-soliman": {
+   "reason": "matched Q50586657 (Hatem Soliman) but it has no image (P18)",
+   "qid": "Q50586657",
+   "checked": "2026-09-10"
+  },
+  "heather-wakelee": {
+   "reason": "matched Q63431953 (Heather Wakelee) but it has no image (P18)",
+   "qid": "Q63431953",
+   "checked": "2026-09-10"
+  },
+  "helena-yu": {
+   "reason": "matched Q140775475 (Y. Helena Liu) but it has no image (P18)",
+   "qid": "Q140775475",
+   "checked": "2026-09-10"
+  },
+  "hermann-brenner": {
+   "reason": "matched Q28958315 (Hermann Brenner) but it has no image (P18)",
+   "qid": "Q28958315",
+   "checked": "2026-09-10"
+  },
+  "nakagama-hitoshi": {
+   "reason": "matched Q114872804 (Hitoshi Nakagama) but it has no image (P18)",
+   "qid": "Q114872804",
+   "checked": "2026-09-10"
+  },
+  "lim-ho-yeong": {
+   "reason": "matched Q90543907 (Ho Yeong Lim) but it has no image (P18)",
+   "qid": "Q90543907",
+   "checked": "2026-09-10"
+  },
+  "hope-rugo": {
+   "reason": "matched Q55975497 (Hope Rugo) but it has no image (P18)",
+   "qid": "Q55975497",
+   "checked": "2026-09-10"
+  },
+  "howard-scher": {
+   "reason": "matched Q99633273 (Howard I. Scher) but it has no image (P18)",
+   "qid": "Q99633273",
+   "checked": "2026-09-10"
+  },
+  "kim-hye-ryun": {
+   "reason": "matched Q88899132 (Hye Ryun Kim) but it has no image (P18)",
+   "qid": "Q88899132",
+   "checked": "2026-09-10"
+  },
+  "iain-foulkes": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "cree-ian": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "igor-puzanov": {
+   "reason": "matched Q66829274 (Igor Puzanov) but it has no image (P18)",
+   "qid": "Q66829274",
+   "checked": "2026-09-10"
+  },
+  "irving-weissman": {
+   "reason": "matched Q884581 (Irving Weissman) but it has no image (P18)",
+   "qid": "Q884581",
+   "checked": "2026-09-10"
+  },
+  "jae-park": {
+   "reason": "matched Q91065471 (Jae Park) but it has no image (P18)",
+   "qid": "Q91065471",
+   "checked": "2026-09-10"
+  },
+  "lee-jae-lyun": {
+   "reason": "matched Q89588620 (Jae Lyun Lee) but it has no image (P18)",
+   "qid": "Q89588620",
+   "checked": "2026-09-10"
+  },
+  "jaime-feliu": {
+   "reason": "matched Q92086341 (Jaime Feliu) but it has no image (P18)",
+   "qid": "Q92086341",
+   "checked": "2026-09-10"
+  },
+  "jame-abraham": {
+   "reason": "matched Q98154615 (Jame Abraham) but it has no image (P18)",
+   "qid": "Q98154615",
+   "checked": "2026-09-10"
+  },
+  "james-gulley": {
+   "reason": "matched Q6137574 (James L. Gulley) but it has no image (P18)",
+   "qid": "Q6137574",
+   "checked": "2026-09-10"
+  },
+  "james-larkin": {
+   "reason": "matched Q98157545 (James Larkin) but it has no image (P18)",
+   "qid": "Q98157545",
+   "checked": "2026-09-10"
+  },
+  "dancey-janet": {
+   "reason": "matched Q106171757 (Janet Dancey) but it has no image (P18)",
+   "qid": "Q106171757",
+   "checked": "2026-09-10"
+  },
+  "jaroslaw-maciejewski": {
+   "reason": "matched Q89912865 (Jaroslaw P. Maciejewski) but it has no image (P18)",
+   "qid": "Q89912865",
+   "checked": "2026-09-10"
+  },
+  "javier-cortes": {
+   "reason": "matched Q43114235 (Javier Cortes) but it has no image (P18)",
+   "qid": "Q43114235",
+   "checked": "2026-09-10"
+  },
+  "lee-jeeyun": {
+   "reason": "matched Q89144779 (Jeeyun Lee) but it has no image (P18)",
+   "qid": "Q89144779",
+   "checked": "2026-09-10"
+  },
+  "jennifer-litton": {
+   "reason": "matched Q96051876 (Jennifer K Litton) but it has no image (P18)",
+   "qid": "Q96051876",
+   "checked": "2026-09-10"
+  },
+  "jeremie-calais": {
+   "reason": "matched Q90926372 (Jeremie Calais) but it has no image (P18)",
+   "qid": "Q90926372",
+   "checked": "2026-09-10"
+  },
+  "jian-zhou": {
+   "reason": "matched Q6191473 (Jian Zhou) but it has no image (P18)",
+   "qid": "Q6191473",
+   "checked": "2026-09-10"
+  },
+  "he-jie": {
+   "reason": "matched Q130959366 (Jie He) but it has no image (P18)",
+   "qid": "Q130959366",
+   "checked": "2026-09-10"
+  },
+  "wang-jie-cams": {
+   "reason": "matched Q102230039 (Jie Wang) but it has no image (P18)",
+   "qid": "Q102230039",
+   "checked": "2026-09-10"
+  },
+  "li-jin-fuscc": {
+   "reason": "matched Q102133332 (Jin Li) but it has no image (P18)",
+   "qid": "Q102133332",
+   "checked": "2026-09-10"
+  },
+  "huang-jing-cams": {
+   "reason": "matched Q102169090 (Jing Huang) but it has no image (P18)",
+   "qid": "Q102169090",
+   "checked": "2026-09-10"
+  },
+  "joaquin-arribas": {
+   "reason": "matched Q80171901 (Joaquin Arribas) but it has no image (P18)",
+   "qid": "Q80171901",
+   "checked": "2026-09-10"
+  },
+  "johann-de-bono": {
+   "reason": "matched Q43249916 (Johann de Bono) but it has no image (P18)",
+   "qid": "Q43249916",
+   "checked": "2026-09-10"
+  },
+  "johannes-czernin": {
+   "reason": "no plausible human item (candidates rejected)",
+   "checked": "2026-09-10"
+  },
+  "john-dipersio": {
+   "reason": "matched Q92668323 (John DiPersio) but it has no image (P18)",
+   "qid": "Q92668323",
+   "checked": "2026-09-10"
+  },
+  "john-haanen": {
+   "reason": "matched Q77086321 (John Haanen) but it has no image (P18)",
+   "qid": "Q77086321",
+   "checked": "2026-09-10"
+  },
+  "john-heymach": {
+   "reason": "matched Q88721314 (John V Heymach) but it has no image (P18)",
+   "qid": "Q88721314",
+   "checked": "2026-09-10"
+  },
+  "jonas-bergh": {
+   "reason": "matched Q104287348 (Jonas Bergh) but it has no image (P18)",
+   "qid": "Q104287348",
+   "checked": "2026-09-10"
+  },
+  "sohn-joohyuk": {
+   "reason": "matched Q60683481 (Joohyuk Sohn) but it has no image (P18)",
+   "qid": "Q60683481",
+   "checked": "2026-09-10"
+  },
+  "josep-tabernero": {
+   "reason": "matched Q37387600 (Josep Tabernero Caturla) but it has no image (P18)",
+   "qid": "Q37387600",
+   "checked": "2026-09-10"
+  },
+  "trapani-joseph": {
+   "reason": "matched Q46248485 (Joseph A. Trapani) but it has no image (P18)",
+   "qid": "Q46248485",
+   "checked": "2026-09-10"
+  },
+  "joshua-brody": {
+   "reason": "matched Q89555524 (Joshua D Brody) but it has no image (P18)",
+   "qid": "Q89555524",
+   "checked": "2026-09-10"
+  },
+  "judah-folkman": {
+   "reason": "matched Q710619 (Judah Folkman) but it has no image (P18)",
+   "qid": "Q710619",
+   "checked": "2026-09-10"
+  },
+  "judy-garber": {
+   "reason": "matched Q60668203 (Judy E. Garber) but it has no image (P18)",
+   "qid": "Q60668203",
+   "checked": "2026-09-10"
+  },
+  "julie-brahmer": {
+   "reason": "matched Q114408428 (Julie R Brahmer) but it has no image (P18)",
+   "qid": "Q114408428",
+   "checked": "2026-09-10"
+  },
+  "julie-park": {
+   "reason": "matched Q133721950 (Julie Park) but it has no image (P18)",
+   "qid": "Q133721950",
+   "checked": "2026-09-10"
+  },
+  "ma-jun": {
+   "reason": "matched Q102277860 (Jun Ma) but it has no image (P18)",
+   "qid": "Q102277860",
+   "checked": "2026-09-10"
+  },
+  "juergen-debus": {
+   "reason": "matched Q20742688 (Jürgen Debus) but it has no image (P18)",
+   "qid": "Q20742688",
+   "checked": "2026-09-10"
+  },
+  "juergen-wolf": {
+   "reason": "matched Q1666383 (Jürgen Wolf) but it has no image (P18)",
+   "qid": "Q1666383",
+   "checked": "2026-09-10"
+  },
+  "justin-lathia": {
+   "reason": "matched Q88337055 (Justin D Lathia) but it has no image (P18)",
+   "qid": "Q88337055",
+   "checked": "2026-09-10"
+  },
+  "justin-gainor": {
+   "reason": "matched Q90107827 (Justin F Gainor) but it has no image (P18)",
+   "qid": "Q90107827",
+   "checked": "2026-09-10"
+  },
+  "yonemori-kan": {
+   "reason": "matched Q116480775 (Kan Yonemori) but it has no image (P18)",
+   "qid": "Q116480775",
+   "checked": "2026-09-10"
+  },
+  "karim-fizazi": {
+   "reason": "matched Q73569107 (Karim Fizazi) but it has no image (P18)",
+   "qid": "Q73569107",
+   "checked": "2026-09-10"
+  },
+  "katherine-matthay": {
+   "reason": "matched Q91544711 (Katherine K Matthay) but it has no image (P18)",
+   "qid": "Q91544711",
+   "checked": "2026-09-10"
+  },
+  "kathy-albain": {
+   "reason": "matched Q117232925 (Kathy S. Albain) but it has no image (P18)",
+   "qid": "Q117232925",
+   "checked": "2026-09-10"
+  },
+  "keith-flaherty": {
+   "reason": "matched Q6384357 (Keith Flaherty) but it has no image (P18)",
+   "qid": "Q6384357",
+   "checked": "2026-09-10"
+  },
+  "kellie-smith": {
+   "reason": "matched Q88268887 (Kellie N Smith) but it has no image (P18)",
+   "qid": "Q88268887",
+   "checked": "2026-09-10"
+  },
+  "kenneth-anderson": {
+   "reason": "matched Q28421846 (Kenneth C. Anderson) but it has no image (P18)",
+   "qid": "Q28421846",
+   "checked": "2026-09-10"
+  },
+  "kenneth-kinzler": {
+   "reason": "matched Q28031580 (Kenneth W. Kinzler) but it has no image (P18)",
+   "qid": "Q28031580",
+   "checked": "2026-09-10"
+  },
+  "kevan-shokat": {
+   "reason": "matched Q17124042 (Kevan M. Shokat) but it has no image (P18)",
+   "qid": "Q17124042",
+   "checked": "2026-09-10"
+  },
+  "kevin-harrington": {
+   "reason": "matched Q100750125 (Kevin J Harrington) but it has no image (P18)",
+   "qid": "Q100750125",
+   "checked": "2026-09-10"
+  },
+  "klaus-pantel": {
+   "reason": "matched Q89761826 (Klaus Pantel) but it has no image (P18)",
+   "qid": "Q89761826",
+   "checked": "2026-09-10"
+  },
+  "shitara-kohei": {
+   "reason": "matched Q90762186 (Kohei Shitara) but it has no image (P18)",
+   "qid": "Q90762186",
+   "checked": "2026-09-10"
+  },
+  "goto-koichi": {
+   "reason": "matched Q98181288 (Koichi Goto) but it has no image (P18)",
+   "qid": "Q98181288",
+   "checked": "2026-09-10"
+  },
+  "kristian-helin": {
+   "reason": "matched Q24704761 (Kristian Helin) but it has no image (P18)",
+   "qid": "Q24704761",
+   "checked": "2026-09-10"
+  },
+  "prabhash-kumar": {
+   "reason": "matched Q92438457 (Kumar Prabhash) but it has no image (P18)",
+   "qid": "Q92438457",
+   "checked": "2026-09-10"
+  },
+  "lars-bullinger": {
+   "reason": "matched Q85542113 (Lars Bullinger) but it has no image (P18)",
+   "qid": "Q85542113",
+   "checked": "2026-09-10"
+  },
+  "laura-esserman": {
+   "reason": "matched Q26924769 (Laura J. Esserman) but it has no image (P18)",
+   "qid": "Q26924769",
+   "checked": "2026-09-10"
+  },
+  "laurence-zitvogel": {
+   "reason": "matched Q28317098 (Laurence Zitvogel) but it has no image (P18)",
+   "qid": "Q28317098",
+   "checked": "2026-09-10"
+  },
+  "lecia-sequist": {
+   "reason": "matched Q90926732 (Lecia V Sequist) but it has no image (P18)",
+   "qid": "Q90926732",
+   "checked": "2026-09-10"
+  },
+  "leif-ellisen": {
+   "reason": "matched Q89738055 (Leif W Ellisen) but it has no image (P18)",
+   "qid": "Q89738055",
+   "checked": "2026-09-10"
+  },
+  "li-ding": {
+   "reason": "matched Q102367967 (Li Ding) but it has no image (P18)",
+   "qid": "Q102367967",
+   "checked": "2026-09-10"
+  },
+  "zhang-li-sysucc": {
+   "reason": "matched Q102243247 (Li Zhang) but it has no image (P18)",
+   "qid": "Q102243247",
+   "checked": "2026-09-10"
+  },
+  "lillian-siu": {
+   "reason": "matched Q92127474 (Lillian Siu) but it has no image (P18)",
+   "qid": "Q92127474",
+   "checked": "2026-09-10"
+  },
+  "shen-lin": {
+   "reason": "matched Q131011394 (Lin Shen) but it has no image (P18)",
+   "qid": "Q131011394",
+   "checked": "2026-09-10"
+  },
+  "lori-pierce": {
+   "reason": "matched Q100310367 (Lori J Pierce) but it has no image (P18)",
+   "qid": "Q100310367",
+   "checked": "2026-09-10"
+  },
+  "luis-diaz": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "lynn-schuchter": {
+   "reason": "matched Q117251008 (Lynn Schuchter) but it has no image (P18)",
+   "qid": "Q117251008",
+   "checked": "2026-09-10"
+  },
+  "malachi-griffith": {
+   "reason": "matched Q37382147 (Malachi Griffith) but it has no image (P18)",
+   "qid": "Q37382147",
+   "checked": "2026-09-10"
+  },
+  "marco-guzzo": {
+   "reason": "matched Q42434756 (Marco Guzzo) but it has no image (P18)",
+   "qid": "Q42434756",
+   "checked": "2026-09-10"
+  },
+  "mariana-chavez-macgregor": {
+   "reason": "matched Q56996234 (Mariana Chavez-MacGregor) but it has no image (P18)",
+   "qid": "Q56996234",
+   "checked": "2026-09-10"
+  },
+  "mark-litzow": {
+   "reason": "matched Q87294607 (Mark R Litzow) but it has no image (P18)",
+   "qid": "Q87294607",
+   "checked": "2026-09-10"
+  },
+  "markus-graefen": {
+   "reason": "matched Q97332035 (Markus Graefen) but it has no image (P18)",
+   "qid": "Q97332035",
+   "checked": "2026-09-10"
+  },
+  "martine-piccart": {
+   "reason": "matched Q3295827 (Martine Piccart) but it has no image (P18)",
+   "qid": "Q3295827",
+   "checked": "2026-09-10"
+  },
+  "mary-claire-king": {
+   "reason": "Mary-claire king.jpg: licence \"Copyrighted free use\" not in allow-list",
+   "qid": "Q437741",
+   "checked": "2026-09-10"
+  },
+  "matthew-galsky": {
+   "reason": "matched Q91886243 (Matthew D Galsky) but it has no image (P18)",
+   "qid": "Q91886243",
+   "checked": "2026-09-10"
+  },
+  "matthew-meyerson": {
+   "reason": "matched Q47451221 (Matthew Meyerson) but it has no image (P18)",
+   "qid": "Q47451221",
+   "checked": "2026-09-10"
+  },
+  "matthew-goetz": {
+   "reason": "matched Q95259846 (Matthew P Goetz) but it has no image (P18)",
+   "qid": "Q95259846",
+   "checked": "2026-09-10"
+  },
+  "max-wicha": {
+   "reason": "no plausible human item (candidates rejected)",
+   "checked": "2026-09-10"
+  },
+  "maximilian-diehn": {
+   "reason": "matched Q37647953 (Maximilian Diehn) but it has no image (P18)",
+   "qid": "Q37647953",
+   "checked": "2026-09-10"
+  },
+  "michael-caligiuri": {
+   "reason": "matched Q27886552 (Michael A. Caligiuri) but it has no image (P18)",
+   "qid": "Q27886552",
+   "checked": "2026-09-10"
+  },
+  "michael-teitell": {
+   "reason": "matched Q90341368 (Michael A Teitell) but it has no image (P18)",
+   "qid": "Q90341368",
+   "checked": "2026-09-10"
+  },
+  "michael-hallek": {
+   "reason": "matched Q20752664 (Michael Hallek) but it has no image (P18)",
+   "qid": "Q20752664",
+   "checked": "2026-09-10"
+  },
+  "hofman-michael": {
+   "reason": "matched Q53198887 (Michael S Hofman) but it has no image (P18)",
+   "qid": "Q53198887",
+   "checked": "2026-09-10"
+  },
+  "michael-morris": {
+   "reason": "matched Q38329744 (Michael J. Morris) but it has no image (P18)",
+   "qid": "Q38329744",
+   "checked": "2026-09-10"
+  },
+  "michael-leblanc": {
+   "reason": "matched Q137211285 (Mike LeBlanc) but it has no image (P18)",
+   "qid": "Q137211285",
+   "checked": "2026-09-10"
+  },
+  "michael-von-bergwelt": {
+   "reason": "matched Q47158294 (Michael von Bergwelt-Baildon) but it has no image (P18)",
+   "qid": "Q47158294",
+   "checked": "2026-09-10"
+  },
+  "michael-weller": {
+   "reason": "matched Q2779469 (Michael Weller) but it has no image (P18)",
+   "qid": "Q2779469",
+   "checked": "2026-09-10"
+  },
+  "miguel-martin": {
+   "reason": "matched Q112473825 (Miguel Martín) but it has no image (P18)",
+   "qid": "Q112473825",
+   "checked": "2026-09-10"
+  },
+  "ryu-min-hee": {
+   "reason": "matched Q47561775 (Min-Hee Ryu) but it has no image (P18)",
+   "qid": "Q47561775",
+   "checked": "2026-09-10"
+  },
+  "miriam-merad": {
+   "reason": "matched Q64748184 (Miriam Merad) but it has no image (P18)",
+   "qid": "Q64748184",
+   "checked": "2026-09-10"
+  },
+  "mitchell-schnall": {
+   "reason": "matched Q102133659 (Mitchell D Schnall) but it has no image (P18)",
+   "qid": "Q102133659",
+   "checked": "2026-09-10"
+  },
+  "zeng-mu-sheng": {
+   "reason": "matched Q68691782 (Mu-Sheng Zeng) but it has no image (P18)",
+   "qid": "Q68691782",
+   "checked": "2026-09-10"
+  },
+  "myriam-chalabi": {
+   "reason": "matched Q90616577 (Myriam Chalabi) but it has no image (P18)",
+   "qid": "Q90616577",
+   "checked": "2026-09-10"
+  },
+  "ahn-myung-ju": {
+   "reason": "matched Q124220200 (Myung Ju Ahn) but it has no image (P18)",
+   "qid": "Q124220200",
+   "checked": "2026-09-10"
+  },
+  "nancy-lin": {
+   "reason": "matched Q89531596 (Nancy U Lin) but it has no image (P18)",
+   "qid": "Q89531596",
+   "checked": "2026-09-10"
+  },
+  "natasha-leighl": {
+   "reason": "matched Q94512756 (Natasha B Leighl) but it has no image (P18)",
+   "qid": "Q94512756",
+   "checked": "2026-09-10"
+  },
+  "nathan-pennell": {
+   "reason": "matched Q58854466 (Nathan A Pennell) but it has no image (P18)",
+   "qid": "Q58854466",
+   "checked": "2026-09-10"
+  },
+  "neeraj-agarwal": {
+   "reason": "matched Q100410811 (Neeraj Agarwal) but it has no image (P18)",
+   "qid": "Q100410811",
+   "checked": "2026-09-10"
+  },
+  "nicholas-james": {
+   "reason": "matched Q59545397 (Nicholas James) but it has no image (P18)",
+   "qid": "Q59545397",
+   "checked": "2026-09-10"
+  },
+  "nicholas-turner": {
+   "reason": "matched Q37379956 (Nicholas J. Turner) but it has no image (P18)",
+   "qid": "Q37379956",
+   "checked": "2026-09-10"
+  },
+  "nina-bhardwaj": {
+   "reason": "matched Q101410016 (Nina Bhardwaj) but it has no image (P18)",
+   "qid": "Q101410016",
+   "checked": "2026-09-10"
+  },
+  "yamamoto-noboru": {
+   "reason": "matched Q91210518 (Noboru Yamamoto) but it has no image (P18)",
+   "qid": "Q91210518",
+   "checked": "2026-09-10"
+  },
+  "obi-griffith": {
+   "reason": "matched Q30503239 (Obi Griffith) but it has no image (P18)",
+   "qid": "Q30503239",
+   "checked": "2026-09-10"
+  },
+  "olivier-delattre": {
+   "reason": "matched Q30119391 (Olivier Delattre) but it has no image (P18)",
+   "qid": "Q30119391",
+   "checked": "2026-09-10"
+  },
+  "owen-witte": {
+   "reason": "matched Q24006222 (Owen N Witte) but it has no image (P18)",
+   "qid": "Q24006222",
+   "checked": "2026-09-10"
+  },
+  "pamela-ohashi": {
+   "reason": "matched Q56891473 (Pamela Ohashi) but it has no image (P18)",
+   "qid": "Q56891473",
+   "checked": "2026-09-10"
+  },
+  "chaturvedi-pankaj": {
+   "reason": "matched Q89646134 (Pankaj Chaturvedi) but it has no image (P18)",
+   "qid": "Q89646134",
+   "checked": "2026-09-10"
+  },
+  "paolo-veronesi": {
+   "reason": "matched Q56850272 (Paolo Veronesi) but it has no image (P18)",
+   "qid": "Q56850272",
+   "checked": "2026-09-10"
+  },
+  "basu-partha": {
+   "reason": "matched Q52663415 (Partha Basu) but it has no image (P18)",
+   "qid": "Q52663415",
+   "checked": "2026-09-10"
+  },
+  "pasi-janne": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "patrick-hwu": {
+   "reason": "matched Q89392895 (Patrick Hwu) but it has no image (P18)",
+   "qid": "Q89392895",
+   "checked": "2026-09-10"
+  },
+  "patrick-forde": {
+   "reason": "matched Q87704907 (Patrick F Forde) but it has no image (P18)",
+   "qid": "Q87704907",
+   "checked": "2026-09-10"
+  },
+  "paul-richardson": {
+   "reason": "matched Q87712102 (Paul G. Richardson) but it has no image (P18)",
+   "qid": "Q87712102",
+   "checked": "2026-09-10"
+  },
+  "hoff-paulo": {
+   "reason": "matched Q108429287 (Paulo Hoff) but it has no image (P18)",
+   "qid": "Q108429287",
+   "checked": "2026-09-10"
+  },
+  "pawel-kalinski": {
+   "reason": "matched Q97556607 (Pawel Kalinski) but it has no image (P18)",
+   "qid": "Q97556607",
+   "checked": "2026-09-10"
+  },
+  "peter-bartenstein": {
+   "reason": "matched Q101474031 (Peter Bartenstein) but it has no image (P18)",
+   "qid": "Q101474031",
+   "checked": "2026-09-10"
+  },
+  "peter-odwyer": {
+   "reason": "no plausible human item (candidates rejected)",
+   "checked": "2026-09-10"
+  },
+  "peter-pisters": {
+   "reason": "matched Q112384992 (Peter W. T. Pisters) but it has no image (P18)",
+   "qid": "Q112384992",
+   "checked": "2026-09-10"
+  },
+  "pier-giuseppe-pelicci": {
+   "reason": "matched Q62560313 (Pier Giuseppe Pelicci) but it has no image (P18)",
+   "qid": "Q62560313",
+   "checked": "2026-09-10"
+  },
+  "pilar-garrido": {
+   "reason": "matched Q56885798 (Pilar Garrido) but it has no image (P18)",
+   "qid": "Q56885798",
+   "checked": "2026-09-10"
+  },
+  "primo-lara": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "priyanka-sharma": {
+   "reason": "matched Q101556995 (Priyanka Sharma) but it has no image (P18)",
+   "qid": "Q101556995",
+   "checked": "2026-09-10"
+  },
+  "rachel-rau": {
+   "reason": "matched Q55283665 (Rachel Rau) but it has no image (P18)",
+   "qid": "Q55283665",
+   "checked": "2026-09-10"
+  },
+  "kaliks-rafael": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "raffit-hassan": {
+   "reason": "matched Q96951105 (Raffit Hassan) but it has no image (P18)",
+   "qid": "Q96951105",
+   "checked": "2026-09-10"
+  },
+  "rahul-aggarwal": {
+   "reason": "matched Q92358607 (Rahul Aggarwal) but it has no image (P18)",
+   "qid": "Q92358607",
+   "checked": "2026-09-10"
+  },
+  "badwe-rajendra": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "ramaswamy-govindan": {
+   "reason": "matched Q59526758 (Ramaswamy Govindan) but it has no image (P18)",
+   "qid": "Q59526758",
+   "checked": "2026-09-10"
+  },
+  "ramon-parsons": {
+   "reason": "matched Q91826937 (Ramon Parsons) but it has no image (P18)",
+   "qid": "Q91826937",
+   "checked": "2026-09-10"
+  },
+  "reinhard-buettner": {
+   "reason": "matched Q36977715 (Reinhard Büttner) but it has no image (P18)",
+   "qid": "Q36977715",
+   "checked": "2026-09-10"
+  },
+  "renier-brentjens": {
+   "reason": "matched Q92658014 (Renier J Brentjens) but it has no image (P18)",
+   "qid": "Q92658014",
+   "checked": "2026-09-10"
+  },
+  "robert-fenstermaker": {
+   "reason": "matched Q98664636 (Robert A Fenstermaker) but it has no image (P18)",
+   "qid": "Q98664636",
+   "checked": "2026-09-10"
+  },
+  "robert-gatenby": {
+   "reason": "matched Q89150844 (Robert Gatenby) but it has no image (P18)",
+   "qid": "Q89150844",
+   "checked": "2026-09-10"
+  },
+  "robert-mach": {
+   "reason": "matched Q55507477 (Robert L. Mach) but it has no image (P18)",
+   "qid": "Q55507477",
+   "checked": "2026-09-10"
+  },
+  "robert-vonderheide": {
+   "reason": "matched Q91785236 (Robert H Vonderheide) but it has no image (P18)",
+   "qid": "Q91785236",
+   "checked": "2026-09-10"
+  },
+  "robert-sandler": {
+   "reason": "matched Q87015965 (Robert Sandler) but it has no image (P18)",
+   "qid": "Q87015965",
+   "checked": "2026-09-10"
+  },
+  "roberto-orecchia": {
+   "reason": "matched Q105532303 (Roberto Orecchia) but it has no image (P18)",
+   "qid": "Q105532303",
+   "checked": "2026-09-10"
+  },
+  "robin-zon": {
+   "reason": "matched Q100953182 (Robin Zon) but it has no image (P18)",
+   "qid": "Q100953182",
+   "checked": "2026-09-10"
+  },
+  "roger-stupp": {
+   "reason": "matched Q96302808 (Roger Stupp) but it has no image (P18)",
+   "qid": "Q96302808",
+   "checked": "2026-09-10"
+  },
+  "rolf-kiessling": {
+   "reason": "matched Q19960075 (Rolf Kießling) but it has no image (P18)",
+   "qid": "Q19960075",
+   "checked": "2026-09-10"
+  },
+  "roman-thomas": {
+   "reason": "matched Q133372463 (Q133372463) but it has no image (P18)",
+   "qid": "Q133372463",
+   "checked": "2026-09-10"
+  },
+  "ronald-levy": {
+   "reason": "matched Q1758880 (Ronald Levy) but it has no image (P18)",
+   "qid": "Q1758880",
+   "checked": "2026-09-10"
+  },
+  "rose-kushner": {
+   "reason": "matched Q7367823 (Rose Kushner) but it has no image (P18)",
+   "qid": "Q7367823",
+   "checked": "2026-09-10"
+  },
+  "ross-levine": {
+   "reason": "matched Q96171750 (Ross L Levine) but it has no image (P18)",
+   "qid": "Q96171750",
+   "checked": "2026-09-10"
+  },
+  "xu-rui-hua": {
+   "reason": "matched Q62594089 (Rui-Hua Xu) but it has no image (P18)",
+   "qid": "Q62594089",
+   "checked": "2026-09-10"
+  },
+  "ruth-plummer": {
+   "reason": "matched Q61998362 (Ruth Plummer) but it has no image (P18)",
+   "qid": "Q61998362",
+   "checked": "2026-09-10"
+  },
+  "ryan-corcoran": {
+   "reason": "matched Q89637864 (Ryan B Corcoran) but it has no image (P18)",
+   "qid": "Q89637864",
+   "checked": "2026-09-10"
+  },
+  "ryan-sullivan": {
+   "reason": "matched Q57063582 (Ryan C Sullivan) but it has no image (P18)",
+   "qid": "Q57063582",
+   "checked": "2026-09-10"
+  },
+  "vincent-rajkumar": {
+   "reason": "matched Q61123608 (S. Vincent Rajkumar) but it has no image (P18)",
+   "qid": "Q61123608",
+   "checked": "2026-09-10"
+  },
+  "saad-usmani": {
+   "reason": "matched Q98281076 (Saad Z Usmani) but it has no image (P18)",
+   "qid": "Q98281076",
+   "checked": "2026-09-10"
+  },
+  "sabine-linn": {
+   "reason": "matched Q90447685 (Sabine Linn) but it has no image (P18)",
+   "qid": "Q90447685",
+   "checked": "2026-09-10"
+  },
+  "shin-sang-joon": {
+   "reason": "matched Q63853521 (Sang Joon Shin) but it has no image (P18)",
+   "qid": "Q63853521",
+   "checked": "2026-09-10"
+  },
+  "sara-hurvitz": {
+   "reason": "matched Q90257626 (Sara A Hurvitz) but it has no image (P18)",
+   "qid": "Q90257626",
+   "checked": "2026-09-10"
+  },
+  "sara-lopez-tarruella": {
+   "reason": "matched Q57063863 (Sara López-Tarruella) but it has no image (P18)",
+   "qid": "Q57063863",
+   "checked": "2026-09-10"
+  },
+  "sara-tolaney": {
+   "reason": "matched Q90198507 (Sara M Tolaney) but it has no image (P18)",
+   "qid": "Q90198507",
+   "checked": "2026-09-10"
+  },
+  "dawson-sarah-jane": {
+   "reason": "matched Q38013957 (Sarah-Jane Dawson) but it has no image (P18)",
+   "qid": "Q38013957",
+   "checked": "2026-09-10"
+  },
+  "lee-se-hoon": {
+   "reason": "matched Q46883674 (Se-Hoon Lee) but it has no image (P18)",
+   "qid": "Q46883674",
+   "checked": "2026-09-10"
+  },
+  "selwyn-vickers": {
+   "reason": "matched Q93346014 (Selwyn Vickers) but it has no image (P18)",
+   "qid": "Q93346014",
+   "checked": "2026-09-10"
+  },
+  "semir-beyaz": {
+   "reason": "matched Q57147216 (Semir Beyaz) but it has no image (P18)",
+   "qid": "Q57147216",
+   "checked": "2026-09-10"
+  },
+  "im-seock-ah": {
+   "reason": "matched Q58821370 (Seock-Ah Im) but it has no image (P18)",
+   "qid": "Q58821370",
+   "checked": "2026-09-10"
+  },
+  "sergio-roman-roman": {
+   "reason": "matched Q41606759 (Sergio Roman-Roman) but it has no image (P18)",
+   "qid": "Q41606759",
+   "checked": "2026-09-10"
+  },
+  "sandhu-shahneen": {
+   "reason": "matched Q60042780 (Shahneen K Sandhu) but it has no image (P18)",
+   "qid": "Q60042780",
+   "checked": "2026-09-10"
+  },
+  "shaji-kumar": {
+   "reason": "matched Q85960198 (Shaji K Kumar) but it has no image (P18)",
+   "qid": "Q85960198",
+   "checked": "2026-09-10"
+  },
+  "song-shaoli": {
+   "reason": "matched Q88434120 (Shaoli Song) but it has no image (P18)",
+   "qid": "Q88434120",
+   "checked": "2026-09-10"
+  },
+  "shaomeng-wang": {
+   "reason": "matched Q44006873 (Shaomeng Wang) but it has no image (P18)",
+   "qid": "Q44006873",
+   "checked": "2026-09-10"
+  },
+  "shari-pilon-thomas": {
+   "reason": "matched Q88471623 (Shari Pilon-Thomas) but it has no image (P18)",
+   "qid": "Q88471623",
+   "checked": "2026-09-10"
+  },
+  "sharon-belvin": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "loi-sherene": {
+   "reason": "matched Q42315566 (Sherene Loi) but it has no image (P18)",
+   "qid": "Q42315566",
+   "checked": "2026-09-10"
+  },
+  "shilpa-gupta": {
+   "reason": "matched Q130950144 (Shilpa Gupta) but it has no image (P18)",
+   "qid": "Q130950144",
+   "checked": "2026-09-10"
+  },
+  "ohno-shinji": {
+   "reason": "matched Q103811778 (Shinji Ohno) but it has no image (P18)",
+   "qid": "Q103811778",
+   "checked": "2026-09-10"
+  },
+  "lu-shun": {
+   "reason": "matched Q92039428 (Shun Lu) but it has no image (P18)",
+   "qid": "Q92039428",
+   "checked": "2026-09-10"
+  },
+  "takahashi-shunji": {
+   "reason": "matched Q88925476 (Shunji Takahashi) but it has no image (P18)",
+   "qid": "Q88925476",
+   "checked": "2026-09-10"
+  },
+  "sibylle-loibl": {
+   "reason": "matched Q38291860 (Sibylle Loibl) but it has no image (P18)",
+   "qid": "Q38291860",
+   "checked": "2026-09-10"
+  },
+  "solange-peters": {
+   "reason": "matched Q98952669 (Solange Peters) but it has no image (P18)",
+   "qid": "Q98952669",
+   "checked": "2026-09-10"
+  },
+  "stanley-riddell": {
+   "reason": "matched Q88573550 (Stanley R Riddell) but it has no image (P18)",
+   "qid": "Q88573550",
+   "checked": "2026-09-10"
+  },
+  "stefan-froehling": {
+   "reason": "matched Q88273610 (Stefan Fröhling) but it has no image (P18)",
+   "qid": "Q88273610",
+   "checked": "2026-09-10"
+  },
+  "stephen-baylin": {
+   "reason": "matched Q28113000 (Stephen B. Baylin) but it has no image (P18)",
+   "qid": "Q28113000",
+   "checked": "2026-09-10"
+  },
+  "stephen-forman": {
+   "reason": "matched Q114425571 (Stephen J Forman) but it has no image (P18)",
+   "qid": "Q114425571",
+   "checked": "2026-09-10"
+  },
+  "stephen-sutton": {
+   "reason": "matched Q16874486 (Stephen Sutton) but it has no image (P18)",
+   "qid": "Q16874486",
+   "checked": "2026-09-10"
+  },
+  "steven-artandi": {
+   "reason": "matched Q91522987 (Steven E Artandi) but it has no image (P18)",
+   "qid": "Q91522987",
+   "checked": "2026-09-10"
+  },
+  "steven-le-gouill": {
+   "reason": "matched Q89395565 (Steven Le Gouill) but it has no image (P18)",
+   "qid": "Q89395565",
+   "checked": "2026-09-10"
+  },
+  "steven-rosen": {
+   "reason": "matched Q41693258 (Steven T. Rosen) but it has no image (P18)",
+   "qid": "Q41693258",
+   "checked": "2026-09-10"
+  },
+  "rha-sun-young": {
+   "reason": "matched Q63466586 (Sun Young Rha) but it has no image (P18)",
+   "qid": "Q63466586",
+   "checked": "2026-09-10"
+  },
+  "sundar-jagannath": {
+   "reason": "matched Q88888683 (Sundar Jagannath) but it has no image (P18)",
+   "qid": "Q88888683",
+   "checked": "2026-09-10"
+  },
+  "kim-sung-bae": {
+   "reason": "matched Q88601966 (Sung Bae Kim) but it has no image (P18)",
+   "qid": "Q88601966",
+   "checked": "2026-09-10"
+  },
+  "lee-sung-gyu": {
+   "reason": "matched Q90474655 (Sung Gyu Lee) but it has no image (P18)",
+   "qid": "Q90474655",
+   "checked": "2026-09-10"
+  },
+  "shastri-surendra": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "susan-cohn": {
+   "reason": "matched Q41883268 (Susan L. Cohn) but it has no image (P18)",
+   "qid": "Q41883268",
+   "checked": "2026-09-10"
+  },
+  "susan-domchek": {
+   "reason": "matched Q62772811 (Susan Domchek) but it has no image (P18)",
+   "qid": "Q62772811",
+   "checked": "2026-09-10"
+  },
+  "suzanne-topalian": {
+   "reason": "matched Q89453908 (Suzanne L. Topalian) but it has no image (P18)",
+   "qid": "Q89453908",
+   "checked": "2026-09-10"
+  },
+  "kim-tae-won": {
+   "reason": "matched Q87732228 (Tae-Won Kim) but it has no image (P18)",
+   "qid": "Q87732228",
+   "checked": "2026-09-10"
+  },
+  "kim-tae-you": {
+   "reason": "matched Q87569625 (Tae-You Kim) but it has no image (P18)",
+   "qid": "Q87569625",
+   "checked": "2026-09-10"
+  },
+  "tak-mak": {
+   "reason": "matched Q2389051 (Tak Wah Mak) but it has no image (P18)",
+   "qid": "Q2389051",
+   "checked": "2026-09-10"
+  },
+  "kohno-takashi": {
+   "reason": "matched Q89533799 (Takashi Kohno) but it has no image (P18)",
+   "qid": "Q89533799",
+   "checked": "2026-09-10"
+  },
+  "ueno-takayuki": {
+   "reason": "matched Q88034324 (Takayuki Ueno) but it has no image (P18)",
+   "qid": "Q88034324",
+   "checked": "2026-09-10"
+  },
+  "yoshino-takayuki": {
+   "reason": "matched Q91673704 (Takayuki Yoshino) but it has no image (P18)",
+   "qid": "Q91673704",
+   "checked": "2026-09-10"
+  },
+  "sano-takeshi": {
+   "reason": "matched Q98191319 (Takeshi Sano) but it has no image (P18)",
+   "qid": "Q98191319",
+   "checked": "2026-09-10"
+  },
+  "tanios-bekaii-saab": {
+   "reason": "matched Q43376169 (Tanios Bekaii-Saab) but it has no image (P18)",
+   "qid": "Q43376169",
+   "checked": "2026-09-10"
+  },
+  "theodore-hong": {
+   "reason": "matched Q114292149 (Theodore S Hong) but it has no image (P18)",
+   "qid": "Q114292149",
+   "checked": "2026-09-10"
+  },
+  "theodore-lawrence": {
+   "reason": "matched Q66771739 (Theodore S. Lawrence) but it has no image (P18)",
+   "qid": "Q66771739",
+   "checked": "2026-09-10"
+  },
+  "thomas-hope": {
+   "reason": "matched Q43913457 (Thomas Hope) but it has no image (P18)",
+   "qid": "Q43913457",
+   "checked": "2026-09-10"
+  },
+  "thomas-bachelot": {
+   "reason": "matched Q89504757 (Thomas Bachelot) but it has no image (P18)",
+   "qid": "Q89504757",
+   "checked": "2026-09-10"
+  },
+  "thomas-lynch": {
+   "reason": "no plausible human item (candidates rejected)",
+   "checked": "2026-09-10"
+  },
+  "thomas-marron": {
+   "reason": "matched Q114522998 (Thomas U. Marron) but it has no image (P18)",
+   "qid": "Q114522998",
+   "checked": "2026-09-10"
+  },
+  "timothy-chan": {
+   "reason": "matched Q59748490 (Timothy S Chang) but it has no image (P18)",
+   "qid": "Q59748490",
+   "checked": "2026-09-10"
+  },
+  "timothy-eberlein": {
+   "reason": "matched Q113126743 (Timothy J. Eberlein) but it has no image (P18)",
+   "qid": "Q113126743",
+   "checked": "2026-09-10"
+  },
+  "tobias-janowitz": {
+   "reason": "matched Q91370365 (Tobias Janowitz) but it has no image (P18)",
+   "qid": "Q91370365",
+   "checked": "2026-09-10"
+  },
+  "todd-golub": {
+   "reason": "matched Q7812388 (Todd Golub) but it has no image (P18)",
+   "qid": "Q7812388",
+   "checked": "2026-09-10"
+  },
+  "ton-schumacher": {
+   "reason": "matched Q20730283 (Ton Schumacher) but it has no image (P18)",
+   "qid": "Q20730283",
+   "checked": "2026-09-10"
+  },
+  "doi-toshihiko": {
+   "reason": "matched Q80212852 (Toshihiko Doi) but it has no image (P18)",
+   "qid": "Q80212852",
+   "checked": "2026-09-10"
+  },
+  "trevor-pugh": {
+   "reason": "matched Q55130848 (Trevor J Pugh) but it has no image (P18)",
+   "qid": "Q55130848",
+   "checked": "2026-09-10"
+  },
+  "ulrich-keilholz": {
+   "reason": "matched Q130782977 (Ulrich Keilholz) but it has no image (P18)",
+   "qid": "Q130782977",
+   "checked": "2026-09-10"
+  },
+  "ursula-matulonis": {
+   "reason": "matched Q116996864 (Ursula A. Matulonis) but it has no image (P18)",
+   "qid": "Q116996864",
+   "checked": "2026-09-10"
+  },
+  "uwe-oelfke": {
+   "reason": "matched Q73023118 (Uwe Oelfke) but it has no image (P18)",
+   "qid": "Q73023118",
+   "checked": "2026-09-10"
+  },
+  "noronha-vanita": {
+   "reason": "matched Q96207391 (Vanita Noronha) but it has no image (P18)",
+   "qid": "Q96207391",
+   "checked": "2026-09-10"
+  },
+  "patil-vijay": {
+   "reason": "matched Q91937719 (Vijay M Patil) but it has no image (P18)",
+   "qid": "Q91937719",
+   "checked": "2026-09-10"
+  },
+  "vincent-tuohy": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "vincenzo-valentini": {
+   "reason": "matched Q57059807 (Vincenzo Valentini) but it has no image (P18)",
+   "qid": "Q57059807",
+   "checked": "2026-09-10"
+  },
+  "virginia-sun": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "volker-heinemann": {
+   "reason": "matched Q102291334 (Volker Heinemann) but it has no image (P18)",
+   "qid": "Q102291334",
+   "checked": "2026-09-10"
+  },
+  "li-weimin": {
+   "reason": "matched Q96165162 (Weimin Li) but it has no image (P18)",
+   "qid": "Q96165162",
+   "checked": "2026-09-10"
+  },
+  "parulekar-wendy": {
+   "reason": "matched Q114438338 (Wendy R Parulekar) but it has no image (P18)",
+   "qid": "Q114438338",
+   "checked": "2026-09-10"
+  },
+  "fang-wenfeng": {
+   "reason": "matched Q96167057 (Wenfeng Fang) but it has no image (P18)",
+   "qid": "Q96167057",
+   "checked": "2026-09-10"
+  },
+  "william-nelson": {
+   "reason": "matched Q22096233 (William G. Nelson) but it has no image (P18)",
+   "qid": "Q22096233",
+   "checked": "2026-09-10"
+  },
+  "kang-won-ki": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "park-woong-yang": {
+   "reason": "matched Q55163342 (Woong-Yang Park) but it has no image (P18)",
+   "qid": "Q55163342",
+   "checked": "2026-09-10"
+  },
+  "hu-xichun": {
+   "reason": "matched Q89609846 (Xichun Hu) but it has no image (P18)",
+   "qid": "Q89609846",
+   "checked": "2026-09-10"
+  },
+  "yelena-janjigian": {
+   "reason": "matched Q90388727 (Yelena Y Janjigian) but it has no image (P18)",
+   "qid": "Q90388727",
+   "checked": "2026-09-10"
+  },
+  "park-yeon-hee": {
+   "reason": "matched Q89441271 (Yeon Hee Park) but it has no image (P18)",
+   "qid": "Q89441271",
+   "checked": "2026-09-10"
+  },
+  "wu-yi-long": {
+   "reason": "matched Q42663698 (Yi-Long Wu) but it has no image (P18)",
+   "qid": "Q42663698",
+   "checked": "2026-09-10"
+  },
+  "jiang-yi-zhou": {
+   "reason": "matched Q94559450 (Yi-Zhou Jiang) but it has no image (P18)",
+   "qid": "Q94559450",
+   "checked": "2026-09-10"
+  },
+  "kang-yoon-koo": {
+   "reason": "no Wikidata item found",
+   "checked": "2026-09-10"
+  },
+  "lu-you": {
+   "reason": "matched Q49793260 (You Lu) but it has no image (P18)",
+   "qid": "Q49793260",
+   "checked": "2026-09-10"
+  },
+  "shi-yuankai": {
+   "reason": "matched Q87711513 (Yuankai Shi) but it has no image (P18)",
+   "qid": "Q87711513",
+   "checked": "2026-09-10"
+  },
+  "ohe-yuichiro": {
+   "reason": "matched Q90031996 (Yuichiro Ohe) but it has no image (P18)",
+   "qid": "Q90031996",
+   "checked": "2026-09-10"
+  },
+  "kitagawa-yuko": {
+   "reason": "matched Q91137075 (Yuko Kitagawa) but it has no image (P18)",
+   "qid": "Q91137075",
+   "checked": "2026-09-10"
+  },
+  "bang-yung-jue": {
+   "reason": "matched Q16180903 (Yung-Jue Bang) but it has no image (P18)",
+   "qid": "Q16180903",
+   "checked": "2026-09-10"
+  },
+  "wei-yuquan": {
+   "reason": "matched Q57596156 (Yuquan Wei) but it has no image (P18)",
+   "qid": "Q57596156",
+   "checked": "2026-09-10"
+  },
+  "shao-zhi-ming": {
+   "reason": "matched Q89470217 (Zhi-Ming Shao) but it has no image (P18)",
+   "qid": "Q89470217",
+   "checked": "2026-09-10"
+  },
+  "solomon-benjamin": {
+   "reason": "skipped by override",
+   "checked": "2026-09-10"
+  },
+  "daniel-haber": {
+   "reason": "skipped by override",
+   "checked": "2026-09-10"
+  },
+  "fabrice-andre": {
+   "reason": "skipped by override",
+   "checked": "2026-09-10"
+  },
+  "per-hall": {
+   "reason": "skipped by override",
+   "checked": "2026-09-10"
+  },
+  "robert-stone": {
+   "reason": "skipped by override",
+   "checked": "2026-09-10"
+  }
+ },
+ "rejected": {
+  "alan-ashworth": [
+   {
+    "qid": "Q100548615",
+    "label": "Alan Ashworth",
+    "description": "",
+    "reason": "public figure but no shared role words ( | politician)"
+   }
+  ],
+  "alex-herrera": [
+   {
+    "qid": "Q28874487",
+    "label": "Alex Herrera",
+    "description": "American basketball player (born 1992)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q4717174",
+    "label": "Alex Herrera",
+    "description": "Venezuelan baseball player (1979–2023)",
+    "reason": "search description mismatch"
+   }
+  ],
+  "alice-yu": [
+   {
+    "qid": "Q105717761",
+    "label": "Chang Yung Tsung",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "andrew-tutt": [
+   {
+    "qid": "Q4761422",
+    "label": "Andy Tutt",
+    "description": "English cricketer (born 1968)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q4758776",
+    "label": "Andrew Tutte",
+    "description": "English association football player (born 1990)",
+    "reason": "no medical/scientific signal (English association football player (born 1990) | association football player)"
+   },
+   {
+    "qid": "Q111195330",
+    "label": "Andrew Tuttle",
+    "description": "American racing driver",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q98643452",
+    "label": "Andrew Tutton",
+    "description": "UK election candidate",
+    "reason": "occupation mismatch (UK election candidate | politician)"
+   }
+  ],
+  "anthony-goncalves": [
+   {
+    "qid": "Q2852862",
+    "label": "Anthony Gonçalves",
+    "description": "French footballer",
+    "reason": "search description mismatch"
+   }
+  ],
+  "antoni-ribas": [
+   {
+    "qid": "Q4776197",
+    "label": "Antoni Ribas",
+    "description": "Spanish film director, Screenwriter",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q115860063",
+    "label": "Antoni Ribas i Gori",
+    "description": "",
+    "reason": "occupation mismatch ( | composer)"
+   },
+   {
+    "qid": "Q55946052",
+    "label": "Antoni Ribas",
+    "description": "Spanish painter",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q19997890",
+    "label": "Antoni Ribas Prats",
+    "description": "Spanish painter (1883-1931)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q19997889",
+    "label": "Antoni Ribas Costa",
+    "description": "politician",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q62084182",
+    "label": "Antoni Ribas Tur",
+    "description": "Catalan journalist",
+    "reason": "no medical/scientific signal (Catalan journalist | journalist | Ara)"
+   }
+  ],
+  "katz-artur": [
+   {
+    "qid": "Q131135743",
+    "label": "Artur Katz-Karmer",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "barrios-carlos": [
+   {
+    "qid": "Q5041821",
+    "label": "Carlos Barrios",
+    "description": "Australian artist",
+    "reason": "no medical/scientific signal (Australian artist | artist)"
+   },
+   {
+    "qid": "Q42388427",
+    "label": "Carlos Barrios",
+    "description": "Uruguayan writer",
+    "reason": "no medical/scientific signal (Uruguayan writer | writer)"
+   },
+   {
+    "qid": "Q55459302",
+    "label": "Carlos Barrios",
+    "description": "Argentine singer",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q131194337",
+    "label": "Carlos Barrios Porras",
+    "description": "Peruvian television director and filmmaker",
+    "reason": "occupation mismatch (Peruvian television director and filmmaker | television director | film director)"
+   }
+  ],
+  "charu-aggarwal": [
+   {
+    "qid": "Q130964005",
+    "label": "Charu Aggarwal",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "christian-blank": [
+   {
+    "qid": "Q1078992",
+    "label": "Christian Blank",
+    "description": "German politician (1879-1967)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q113774126",
+    "label": "Christian Blankenstein",
+    "description": "",
+    "reason": "occupation mismatch ( | pastor)"
+   },
+   {
+    "qid": "Q136999878",
+    "label": "Q136999878",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "christine-brown": [
+   {
+    "qid": "Q75683076",
+    "label": "Christine Brown",
+    "description": "Peerage person ID=287126",
+    "reason": "no medical/scientific signal (Peerage person ID=287126)"
+   },
+   {
+    "qid": "Q86629763",
+    "label": "Christine Brown",
+    "description": "American reality TV star",
+    "reason": "no medical/scientific signal (American reality TV star | reality television participant | writer)"
+   },
+   {
+    "qid": "Q76074088",
+    "label": "Christine Browne",
+    "description": "(1909-1910)",
+    "reason": "no medical/scientific signal ((1909-1910))"
+   },
+   {
+    "qid": "Q52637873",
+    "label": "Christine Brown",
+    "description": "Indian track and field athlete",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q106692481",
+    "label": "Christine Brown",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "christophe-le-tourneau": [
+   {
+    "qid": "Q137034304",
+    "label": "Q137034304",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "chris-lord": [
+   {
+    "qid": "Q64761494",
+    "label": "Christopher Lord",
+    "description": "Roman Catholic bishop",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q55695781",
+    "label": "Christopher Lord",
+    "description": "English bishop; suffragan in Canterbury; titular Bishop of Sidon",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q1462480",
+    "label": "Friedrich Tenkrat",
+    "description": "Austrian writer (1939–2022)",
+    "reason": "occupation mismatch (Austrian writer (1939–2022) | writer | screenwriter)"
+   }
+  ],
+  "lee-dae-ho": [
+   {
+    "qid": "Q490103",
+    "label": "Lee Dae-ho",
+    "description": "South Korean baseball player",
+    "reason": "search description mismatch"
+   }
+  ],
+  "david-cameron": [
+   {
+    "qid": "Q3703382",
+    "label": "David Young Cameron",
+    "description": "British artist (1865-1945)",
+    "reason": "occupation mismatch (British artist (1865-1945) | painter | printmaker | exlibrist | etcher)"
+   },
+   {
+    "qid": "Q47345547",
+    "label": "David Cameron",
+    "description": "Australian rower",
+    "reason": "no medical/scientific signal (Australian rower | rower)"
+   },
+   {
+    "qid": "Q192",
+    "label": "David Cameron",
+    "description": "Prime Minister of the United Kingdom from 2010 to 2016",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q113677749",
+    "label": "David Cameron",
+    "description": "Scottish footballer",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q112685984",
+    "label": "David Cameron",
+    "description": "Soldier of The Argyll and Sutherland Highlanders",
+    "reason": "no medical/scientific signal (Soldier of The Argyll and Sutherland Highlanders | soldier | boot boy)"
+   },
+   {
+    "qid": "Q121040128",
+    "label": "David Cameron",
+    "description": "",
+    "reason": "no medical/scientific signal ( | director)"
+   }
+  ],
+  "david-cunningham": [
+   {
+    "qid": "Q5232725",
+    "label": "David Cunningham",
+    "description": "Northern Irish composer and music producer",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q16979898",
+    "label": "Dun Deal",
+    "description": "American record producer and rapper",
+    "reason": "search description mismatch"
+   }
+  ],
+  "denis-lacombe": [
+   {
+    "qid": "Q15970694",
+    "label": "Denis Lacombe",
+    "description": "French crime writer",
+    "reason": "no medical/scientific signal (French crime writer | crime fiction writer)"
+   },
+   {
+    "qid": "Q137385443",
+    "label": "Denis Lacombe",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "douglas-hawkins": [
+   {
+    "qid": "Q76234331",
+    "label": "Douglas Hawkins",
+    "description": "Peerage person ID=625149",
+    "reason": "no medical/scientific signal (Peerage person ID=625149)"
+   }
+  ],
+  "dung-le": [
+   {
+    "qid": "Q133331436",
+    "label": "Q133331436",
+    "description": "",
+    "reason": "no medical/scientific signal ( | mathematician)"
+   }
+  ],
+  "enrique-espinosa": [
+   {
+    "qid": "Q9254097",
+    "label": "Enrique Espinosa",
+    "description": "Argentinian association football player",
+    "reason": "no medical/scientific signal (Argentinian association football player | association football player)"
+   },
+   {
+    "qid": "Q139575383",
+    "label": "Q139575383",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "eric-small": [
+   {
+    "qid": "Q5387533",
+    "label": "Eric Small",
+    "description": "Film and television producer",
+    "reason": "public figure but no shared role words (Film and television producer | screenwriter | film producer | film director)"
+   }
+  ],
+  "ma-fei": [
+   {
+    "qid": "Q131012363",
+    "label": "Fei Ma",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "wang-feng-sysucc": [
+   {
+    "qid": "Q109859855",
+    "label": "Feng Wang",
+    "description": "author (1319-1388)",
+    "reason": "no medical/scientific signal (author (1319-1388))"
+   }
+  ],
+  "fran-visco": [
+   {
+    "qid": "Q139432896",
+    "label": "Q139432896",
+    "description": "",
+    "reason": "no medical/scientific signal ( | jurist)"
+   }
+  ],
+  "francisca-vazquez": [
+   {
+    "qid": "Q21001591",
+    "label": "Francisca Vázquez Gonzálvez",
+    "description": "",
+    "reason": "occupation mismatch ( | politician | council member)"
+   }
+  ],
+  "frank-mccormick": [
+   {
+    "qid": "Q5488273",
+    "label": "Frank McCormick",
+    "description": "American baseball player",
+    "reason": "public figure but no shared role words (American baseball player | baseball player)"
+   },
+   {
+    "qid": "Q5488261",
+    "label": "Frank McCormick",
+    "description": "Player of American Football (1894-1976)",
+    "reason": "no medical/scientific signal (Player of American Football (1894-1976) | American football player)"
+   }
+  ],
+  "mcarthur-grant": [
+   {
+    "qid": "Q5596205",
+    "label": "Grant Enfinger",
+    "description": "American stock car racing driver",
+    "reason": "search description mismatch"
+   }
+  ],
+  "hermann-brenner": [
+   {
+    "qid": "Q125032940",
+    "label": "Hermann Brenner",
+    "description": "German architect, active in Landshut",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q126720701",
+    "label": "Hermann Brenner",
+    "description": "",
+    "reason": "human item without description or occupation"
+   },
+   {
+    "qid": "Q94837737",
+    "label": "Hermann Brenner",
+    "description": "German architect",
+    "reason": "search description mismatch"
+   }
+  ],
+  "igor-puzanov": [
+   {
+    "qid": "Q4383402",
+    "label": "Igor Puzanov",
+    "description": "Russian politician",
+    "reason": "search description mismatch"
+   }
+  ],
+  "jae-park": [
+   {
+    "qid": "Q26220991",
+    "label": "Jae Park",
+    "description": "South Korean-American singer",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q137023305",
+    "label": "Q137023305",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "james-larkin": [
+   {
+    "qid": "Q1583571",
+    "label": "James Larkin",
+    "description": "Irish socialist and trade union leader (1876–1947)",
+    "reason": "occupation mismatch (Irish socialist and trade union leader (1876–1947) | politician | trade unionist | stevedo)"
+   },
+   {
+    "qid": "Q100252438",
+    "label": "James Larkin",
+    "description": "local politician in Oldham, England",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q6137786",
+    "label": "James Larkin",
+    "description": "British actor",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q16014111",
+    "label": "James Larkin",
+    "description": "Irish politician (1932-1998)",
+    "reason": "search description mismatch"
+   }
+  ],
+  "javier-cortes": [
+   {
+    "qid": "Q19946958",
+    "label": "Javier Cortés Echánove",
+    "description": "Spanish painter",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q2418315",
+    "label": "Javier Cortés",
+    "description": "Mexican footballer",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q91793722",
+    "label": "Javier Cortés",
+    "description": "",
+    "reason": "human item without description or occupation"
+   },
+   {
+    "qid": "Q7499897",
+    "label": "Shockercito",
+    "description": "Mexican professional wrestler",
+    "reason": "search description mismatch"
+   }
+  ],
+  "he-jie": [
+   {
+    "qid": "Q130935027",
+    "label": "Jie He",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "wang-jie-cams": [
+   {
+    "qid": "Q110688230",
+    "label": "Jie Wang",
+    "description": "",
+    "reason": "no medical/scientific signal ( | author)"
+   }
+  ],
+  "johannes-czernin": [
+   {
+    "qid": "Q75379491",
+    "label": "Johannes Ladislas Graf Czernin von und zu Chudenitz",
+    "description": "(born 1932)",
+    "reason": "no medical/scientific signal ((born 1932))"
+   }
+  ],
+  "jonas-bergh": [
+   {
+    "qid": "Q5572090",
+    "label": "Jonas Bergh",
+    "description": "Swedish writer",
+    "reason": "no medical/scientific signal (Swedish writer | writer)"
+   }
+  ],
+  "trapani-joseph": [
+   {
+    "qid": "Q3808714",
+    "label": "Joe Trapani",
+    "description": "American basketball player (born 1988)",
+    "reason": "search description mismatch"
+   }
+  ],
+  "julie-park": [
+   {
+    "qid": "Q105570312",
+    "label": "Julie Parkusová",
+    "description": "Holocaust victim (born 1925)",
+    "reason": "no medical/scientific signal (Holocaust victim (born 1925))"
+   },
+   {
+    "qid": "Q110482992",
+    "label": "Julie Parker Benello",
+    "description": "film producer",
+    "reason": "no medical/scientific signal (film producer | film producer)"
+   }
+  ],
+  "juergen-debus": [
+   {
+    "qid": "Q26624095",
+    "label": "Jürgen Debus",
+    "description": "German politician",
+    "reason": "search description mismatch"
+   }
+  ],
+  "juergen-wolf": [
+   {
+    "qid": "Q131736014",
+    "label": "Jürgen Wolf",
+    "description": "",
+    "reason": "no medical/scientific signal ( | internist)"
+   },
+   {
+    "qid": "Q113709635",
+    "label": "Jürgen Wolf",
+    "description": "German cellist, conductor and music teacher (1938-2014)",
+    "reason": "occupation mismatch (German cellist, conductor and music teacher (1938-2014) | cellist | conductor | music educ)"
+   },
+   {
+    "qid": "Q1507453",
+    "label": "Jürgen Wolf",
+    "description": "German organist and conductor",
+    "reason": "occupation mismatch (German organist and conductor | organist | conductor | cantor | church musician | composer)"
+   },
+   {
+    "qid": "Q95246646",
+    "label": "Jürgen Wolf",
+    "description": "",
+    "reason": "no medical/scientific signal ( | teacher)"
+   }
+  ],
+  "kevin-harrington": [
+   {
+    "qid": "Q100800291",
+    "label": "Kevin Harrington",
+    "description": "college basketball player (1980–1981) Saint Louis",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q100800292",
+    "label": "Kevin Harrington",
+    "description": "college basketball player (1953–1953) Saint Louis",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q6395758",
+    "label": "Kevin B. Harrington",
+    "description": "American politician",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q3195711",
+    "label": "Kevin Harrington",
+    "description": "Australian actor",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q136768269",
+    "label": "Kevin Harrington",
+    "description": "American government official",
+    "reason": "no medical/scientific signal (American government official | physicist)"
+   }
+  ],
+  "goto-koichi": [
+   {
+    "qid": "Q117859658",
+    "label": "Kôichi Gotô",
+    "description": "",
+    "reason": "occupation mismatch ( | film director | film producer)"
+   }
+  ],
+  "li-ding": [
+   {
+    "qid": "Q130830966",
+    "label": "Li Ding",
+    "description": "",
+    "reason": "human item without description or occupation"
+   },
+   {
+    "qid": "Q121315457",
+    "label": "Li Ding",
+    "description": "",
+    "reason": "occupation mismatch ( | actor)"
+   },
+   {
+    "qid": "Q131128958",
+    "label": "Li Ding",
+    "description": "",
+    "reason": "human item without description or occupation"
+   },
+   {
+    "qid": "Q130947205",
+    "label": "Li Ding",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "zhang-li-sysucc": [
+   {
+    "qid": "Q110510787",
+    "label": "Li Zhang",
+    "description": "",
+    "reason": "no medical/scientific signal ( | author)"
+   },
+   {
+    "qid": "Q109579500",
+    "label": "Li Zhang",
+    "description": "",
+    "reason": "no medical/scientific signal ( | author)"
+   }
+  ],
+  "shen-lin": [
+   {
+    "qid": "Q45708375",
+    "label": "Lin Shen",
+    "description": "Ming dynasty person CBDB = 203215",
+    "reason": "occupation mismatch (Ming dynasty person CBDB = 203215 | politician)"
+   },
+   {
+    "qid": "Q21502685",
+    "label": "Lin Shen",
+    "description": "entomologist",
+    "reason": "no medical/scientific signal (entomologist | entomologist)"
+   }
+  ],
+  "marco-guzzo": [
+   {
+    "qid": "Q16236180",
+    "label": "Marco Guzzo",
+    "description": "Italian footballer",
+    "reason": "search description mismatch"
+   }
+  ],
+  "max-wicha": [
+   {
+    "qid": "Q108453172",
+    "label": "Max S Wicha",
+    "description": "",
+    "reason": "no medical/scientific signal ( | author)"
+   },
+   {
+    "qid": "Q128068920",
+    "label": "Max-Wichard von Bredow",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "maximilian-diehn": [
+   {
+    "qid": "Q15824197",
+    "label": "Kontra K",
+    "description": "German rapper",
+    "reason": "search description mismatch"
+   }
+  ],
+  "hofman-michael": [
+   {
+    "qid": "Q101170",
+    "label": "Michael Hofmann",
+    "description": "German-born poet and translator",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q19522419",
+    "label": "Michael Hofmann",
+    "description": "writer (1860- )",
+    "reason": "no medical/scientific signal (writer (1860- ) | canon law jurist | Catholic theologian)"
+   },
+   {
+    "qid": "Q110083715",
+    "label": "Michael Hofmann",
+    "description": "(1797-1867)",
+    "reason": "no medical/scientific signal ((1797-1867))"
+   },
+   {
+    "qid": "Q14916795",
+    "label": "Michael Hofmann",
+    "description": "German lawyer and politician",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q11882370",
+    "label": "Michael Hofmann",
+    "description": "sport shooter",
+    "reason": "no medical/scientific signal (sport shooter | sport shooter)"
+   }
+  ],
+  "michael-morris": [
+   {
+    "qid": "Q113718295",
+    "label": "Michael J. Morris",
+    "description": "Irish theologian",
+    "reason": "no medical/scientific signal (Irish theologian | theologian)"
+   },
+   {
+    "qid": "Q137790083",
+    "label": "Michael J. Morrison",
+    "description": "Canadian political candidate from New Brunswick",
+    "reason": "occupation mismatch (Canadian political candidate from New Brunswick | politician | retired)"
+   }
+  ],
+  "michael-leblanc": [
+   {
+    "qid": "Q108050333",
+    "label": "Michael LeBlanc",
+    "description": "American football player (1962-2025)",
+    "reason": "no medical/scientific signal (American football player (1962-2025) | American football player)"
+   },
+   {
+    "qid": "Q6832133",
+    "label": "Michael LeBlanc",
+    "description": "Canadian athlete",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q100875249",
+    "label": "Michael Leblanc",
+    "description": "American basketball player (born 1978)",
+    "reason": "search description mismatch"
+   }
+  ],
+  "michael-weller": [
+   {
+    "qid": "Q15498371",
+    "label": "Michael Weller",
+    "description": "American screenwriter",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q105852740",
+    "label": "Michael Weller",
+    "description": "",
+    "reason": "no medical/scientific signal ( | lawyer)"
+   },
+   {
+    "qid": "Q139334926",
+    "label": "Q139334926",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "miguel-martin": [
+   {
+    "qid": "Q133865639",
+    "label": "Mitch",
+    "description": "Spanish musician and actor",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q383062",
+    "label": "Miguel Martinez",
+    "description": "French cyclist",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q6014694",
+    "label": "Miguel Martín-Fernández de la Torre",
+    "description": "Spanish architect (1894-1980)",
+    "reason": "search description mismatch"
+   }
+  ],
+  "nicholas-james": [
+   {
+    "qid": "Q7027346",
+    "label": "Nick James",
+    "description": "English cricketer (born 1986)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q76269709",
+    "label": "Nicholas James Cuthbert Dunn",
+    "description": "Peerage person ID=651592",
+    "reason": "no medical/scientific signal (Peerage person ID=651592 | naval officer)"
+   }
+  ],
+  "nicholas-turner": [
+   {
+    "qid": "Q75874439",
+    "label": "Nicholas Turner",
+    "description": "Peerage person ID=372159",
+    "reason": "no medical/scientific signal (Peerage person ID=372159)"
+   },
+   {
+    "qid": "Q21460581",
+    "label": "Nicholas Turner",
+    "description": "British landscape painter (born 1972)",
+    "reason": "search description mismatch"
+   }
+  ],
+  "yamamoto-noboru": [
+   {
+    "qid": "Q124481709",
+    "label": "Noboru Yamamoto",
+    "description": "Japanese military personnel",
+    "reason": "no medical/scientific signal (Japanese military personnel | military personnel)"
+   }
+  ],
+  "paolo-veronesi": [
+   {
+    "qid": "Q9440",
+    "label": "Paolo Veronese",
+    "description": "Italian painter of the Renaissance (1528–1588)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q135246446",
+    "label": "Paolo Veronesi",
+    "description": "",
+    "reason": "no medical/scientific signal ( | constitutionalist)"
+   }
+  ],
+  "patrick-forde": [
+   {
+    "qid": "Q102156310",
+    "label": "Patrick Forde",
+    "description": "Guyanese cricketer (1904-1945)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q75378777",
+    "label": "Patrick Mathew Desmond Forde",
+    "description": "(1940-2008)",
+    "reason": "no medical/scientific signal ((1940-2008))"
+   },
+   {
+    "qid": "Q7123475",
+    "label": "Paddy Forde",
+    "description": "Irish politician (1922–1972)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q98273317",
+    "label": "Patrick Forde",
+    "description": "Northern Irish election candidate",
+    "reason": "occupation mismatch (Northern Irish election candidate | politician)"
+   }
+  ],
+  "peter-odwyer": [
+   {
+    "qid": "Q75993614",
+    "label": "Peter O'Dwyer",
+    "description": "Peerage person ID=454520",
+    "reason": "no medical/scientific signal (Peerage person ID=454520)"
+   }
+  ],
+  "pilar-garrido": [
+   {
+    "qid": "Q28872546",
+    "label": "Pilar Garrido Gutiérrez",
+    "description": "Spanish politician",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q113781856",
+    "label": "Pilar Garrido Clemente",
+    "description": "",
+    "reason": "no medical/scientific signal ( | arabist)"
+   },
+   {
+    "qid": "Q111901491",
+    "label": "Pilar Garrido Cendoya",
+    "description": "",
+    "reason": "no medical/scientific signal ( | teacher | writer | pedagogue | Colegio Estudio)"
+   },
+   {
+    "qid": "Q3543286",
+    "label": "Pilita Corrales",
+    "description": "Filipino singer, song writer, and comedian (1939–2025)",
+    "reason": "search description mismatch"
+   }
+  ],
+  "rahul-aggarwal": [
+   {
+    "qid": "Q16058215",
+    "label": "Rahul Aggarwal",
+    "description": "Indian actor and film producer",
+    "reason": "public figure but no shared role words (Indian actor and film producer | actor | film producer | film director)"
+   },
+   {
+    "qid": "Q112862670",
+    "label": "Rahul Aggarwal",
+    "description": "author of numerous RFCs",
+    "reason": "no medical/scientific signal (author of numerous RFCs)"
+   }
+  ],
+  "robert-mach": [
+   {
+    "qid": "Q102313451",
+    "label": "Robert Machuel",
+    "description": "",
+    "reason": "no medical/scientific signal ( | book printer)"
+   },
+   {
+    "qid": "Q119587",
+    "label": "Robert Mächler",
+    "description": "Swiss journalist and writer (1909-1996)",
+    "reason": "no medical/scientific signal (Swiss journalist and writer (1909-1996) | journalist | writer | author | philosopher)"
+   },
+   {
+    "qid": "Q131444639",
+    "label": "Robert MacHardy",
+    "description": "Scottish composer",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q130355889",
+    "label": "Robert Machate",
+    "description": "New York City police officer",
+    "reason": "no medical/scientific signal (New York City police officer | police officer | New York City Police Department)"
+   }
+  ],
+  "rolf-kiessling": [
+   {
+    "qid": "Q95348313",
+    "label": "Rolf Kießling",
+    "description": "",
+    "reason": "no medical/scientific signal ( | film scholar)"
+   },
+   {
+    "qid": "Q137333502",
+    "label": "Q137333502",
+    "description": "",
+    "reason": "no medical/scientific signal ( | pedagogue)"
+   },
+   {
+    "qid": "Q133707494",
+    "label": "Q133707494",
+    "description": "",
+    "reason": "no medical/scientific signal ( | dentist)"
+   }
+  ],
+  "roman-thomas": [
+   {
+    "qid": "Q75425022",
+    "label": "Roman Thomas Haven Barran",
+    "description": "(born 2002)",
+    "reason": "no medical/scientific signal ((born 2002))"
+   }
+  ],
+  "ronald-levy": [
+   {
+    "qid": "Q30078620",
+    "label": "Ronald Levy",
+    "description": "Jamaican athlete",
+    "reason": "search description mismatch"
+   }
+  ],
+  "ruth-plummer": [
+   {
+    "qid": "Q114333276",
+    "label": "Ruth Plummer",
+    "description": "11 Nov 1763 -",
+    "reason": "no medical/scientific signal (11 Nov 1763 -)"
+   },
+   {
+    "qid": "Q96076806",
+    "label": "Ruth Plummer",
+    "description": "(1730-1824)",
+    "reason": "no medical/scientific signal ((1730-1824))"
+   }
+  ],
+  "ryan-sullivan": [
+   {
+    "qid": "Q17403246",
+    "label": "Ryan Sullivan",
+    "description": "American painter (born 1983)",
+    "reason": "search description mismatch"
+   }
+  ],
+  "shaji-kumar": [
+   {
+    "qid": "Q23762011",
+    "label": "Shaji Kumar",
+    "description": "Indian cinematographer",
+    "reason": "no medical/scientific signal (Indian cinematographer | cinematographer)"
+   }
+  ],
+  "shilpa-gupta": [
+   {
+    "qid": "Q7496762",
+    "label": "Shilpa Gupta",
+    "description": "artist (born 1976)",
+    "reason": "occupation mismatch (artist (born 1976) | artist | designer | sculptor | new media artist)"
+   },
+   {
+    "qid": "Q24450214",
+    "label": "Shilpa Gupta",
+    "description": "Indian cricketer",
+    "reason": "search description mismatch"
+   }
+  ],
+  "lu-shun": [
+   {
+    "qid": "Q23114",
+    "label": "Lu Xun",
+    "description": "Chinese novelist and essayist (1881–1936)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q133322735",
+    "label": "Q133322735",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "takahashi-shunji": [
+   {
+    "qid": "Q11670992",
+    "label": "Shunji Takahashi",
+    "description": "Japanese actor",
+    "reason": "search description mismatch"
+   }
+  ],
+  "stefan-froehling": [
+   {
+    "qid": "Q137129715",
+    "label": "Q137129715",
+    "description": "",
+    "reason": "no medical/scientific signal ( | journalist)"
+   }
+  ],
+  "kim-tae-won": [
+   {
+    "qid": "Q134438804",
+    "label": "Kim Tae-won",
+    "description": "South Korean volleyball player",
+    "reason": "no medical/scientific signal (South Korean volleyball player | volleyball player)"
+   }
+  ],
+  "yoshino-takayuki": [
+   {
+    "qid": "Q133582896",
+    "label": "Q133582896",
+    "description": "",
+    "reason": "no medical/scientific signal ( | jurist)"
+   }
+  ],
+  "thomas-hope": [
+   {
+    "qid": "Q1308730",
+    "label": "Thomas Hope",
+    "description": "Dutch-British writer, designer and architect (1769–1831)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q76031244",
+    "label": "Thomas Hope",
+    "description": "British Royal Navy officer (1810-1867)",
+    "reason": "no medical/scientific signal (British Royal Navy officer (1810-1867) | naval officer)"
+   },
+   {
+    "qid": "Q7790796",
+    "label": "Thomas Hope",
+    "description": "Scottish politician (1848–1925)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q117389564",
+    "label": "Thomas Hope",
+    "description": "American politician (1784–1876)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q2049135",
+    "label": "Thomas Hope",
+    "description": "Dutch banker (1704–1779)",
+    "reason": "no medical/scientific signal (Dutch banker (1704–1779) | banker | political adviser | Hope & Co. | Dutch East India Comp)"
+   }
+  ],
+  "thomas-lynch": [
+   {
+    "qid": "Q537583",
+    "label": "Thomas Lynch",
+    "description": "signer of the United States Declaration of Independence from South Carolina (1749-1779)",
+    "reason": "occupation mismatch (signer of the United States Declaration of Independence from South Carolina (1749-1779) | )"
+   }
+  ],
+  "timothy-chan": [
+   {
+    "qid": "Q65297",
+    "label": "Timothy Chandler",
+    "description": "American soccer player",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q135030136",
+    "label": "Timothy Chan",
+    "description": "",
+    "reason": "occupation mismatch ( | singer)"
+   },
+   {
+    "qid": "Q12971940",
+    "label": "Timothy Chan",
+    "description": "Filipino actor",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q133610413",
+    "label": "Q133610413",
+    "description": "",
+    "reason": "no medical/scientific signal ( | philosopher)"
+   },
+   {
+    "qid": "Q136433128",
+    "label": "Timothy Chance",
+    "description": "American pornographic actor",
+    "reason": "search description mismatch"
+   }
+  ],
+  "ulrich-keilholz": [
+   {
+    "qid": "Q107526958",
+    "label": "Ulrich Keilholz",
+    "description": "",
+    "reason": "no medical/scientific signal ( | author)"
+   }
+  ],
+  "patil-vijay": [
+   {
+    "qid": "Q7278407",
+    "label": "Raam Laxman",
+    "description": "Indian composer (1942–2021)",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q88856277",
+    "label": "Vijay Patil",
+    "description": "botanist",
+    "reason": "no medical/scientific signal (botanist | botanist)"
+   }
+  ],
+  "vincenzo-valentini": [
+   {
+    "qid": "Q104028237",
+    "label": "Vincenzo Valentini",
+    "description": "(1764-1842)",
+    "reason": "no medical/scientific signal ((1764-1842) | banker)"
+   },
+   {
+    "qid": "Q124857681",
+    "label": "Vincenzo Valentini",
+    "description": "Italian architect",
+    "reason": "search description mismatch"
+   },
+   {
+    "qid": "Q4013564",
+    "label": "Vincenzo Valentini",
+    "description": "Italian politician",
+    "reason": "search description mismatch"
+   }
+  ],
+  "li-weimin": [
+   {
+    "qid": "Q131008122",
+    "label": "Weimin Li",
+    "description": "",
+    "reason": "human item without description or occupation"
+   }
+  ],
+  "lu-you": [
+   {
+    "qid": "Q130817108",
+    "label": "You Lu",
+    "description": "",
+    "reason": "human item without description or occupation"
+   },
+   {
+    "qid": "Q45605942",
+    "label": "You Lu",
+    "description": "Ming dynasty person CBDB = 126955",
+    "reason": "no medical/scientific signal (Ming dynasty person CBDB = 126955)"
+   },
+   {
+    "qid": "Q45498619",
+    "label": "Sun Guanyi",
+    "description": "Qing dynasty person CBDB = 124741",
+    "reason": "no medical/scientific signal (Qing dynasty person CBDB = 124741)"
+   }
+  ],
+  "kitagawa-yuko": [
+   {
+    "qid": "Q104903800",
+    "label": "Yuko Kitagawa",
+    "description": "Japanese comic artist",
+    "reason": "no medical/scientific signal (Japanese comic artist | mangaka)"
+   }
+  ],
+  "alex-scott": [
+   {
+    "qid": "Q75949682",
+    "label": "Alexandra Mary Scott",
+    "description": "(born 1965)",
+    "reason": "no medical/scientific signal ((born 1965))"
+   },
+   {
+    "qid": "Q75372256",
+    "label": "Alexandra Hough",
+    "description": "Peerage person ID=94677",
+    "reason": "label does not share the surname"
+   },
+   {
+    "qid": "Q111432372",
+    "label": "Alexandra Scott",
+    "description": "",
+    "reason": "public figure but no shared role words ( | actor)"
+   },
+   {
+    "qid": "Q4720589",
+    "label": "Alexandra Billings",
+    "description": "American actor, teacher, singer",
+    "reason": "label does not share the surname"
+   },
+   {
+    "qid": "Q139235571",
+    "label": "Alexandra Scott",
+    "description": "",
+    "reason": "public figure but no shared role words ( | double-bassist | musician)"
+   }
+  ],
+  "stephen-sutton": [
+   {
+    "qid": "Q2347330",
+    "label": "Steve Sutton",
+    "description": "English footballer, coach (born 1961)",
+    "reason": "public figure but no shared role words (English footballer, coach (born 1961) | association football player)"
+   },
+   {
+    "qid": "Q21520423",
+    "label": "Stephen L. Sutton",
+    "description": "lepidopterist active in Malaysia",
+    "reason": "no medical/scientific signal (lepidopterist active in Malaysia | entomologist | lepidopterist)"
+   }
+  ]
+ }
+}

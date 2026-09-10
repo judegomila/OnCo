@@ -1,0 +1,26 @@
+src/data/trial-outcomes.ts
+  s_0beac9cb5d78fd::t_f13f9e406618ec 803-813,815-852
+  s_0beac9cb5d78fd::t_93c1b8916a6c48 814
+src/data/china.ts
+  s_0beac9cb5d78fd::t_34fbd0c5252c6d 2,601
+src/data/india.ts
+  s_0beac9cb5d78fd::t_34fbd0c5252c6d 2,374
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_faf63d3d23d457 72-73,76-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "62503ed7aba0f911b5f26b56262c12caf3fb37be",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

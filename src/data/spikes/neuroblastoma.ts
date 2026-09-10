@@ -24,7 +24,7 @@ const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: 
 const companies: CompanyInput[] = [
   co({ id: "y-mabs", links: [{ label: "Official website", url: "https://www.ymabs.com" }], name: "Y-mAbs Therapeutics", hq: "New York, NY", country: "US", companyType: "biotech", website: "https://www.ymabs.com", ticker: "YMAB", sections: ["immunotherapy", "radiopharma"],
     tldr: "MSK spin-out that commercialises naxitamab, the humanised anti-GD2 antibody for relapsed neuroblastoma, and develops pretargeted radioimmunotherapy.",
-    summary: "Naxitamab (Danyelza, accelerated approval November 2020); omburtamab (B7-H3, 131I) rejected by FDA in 2022; SADA pretargeted radioimmunotherapy platform (GD2-SADA, 177Lu) in phase 1.",
+    summary: "Y-mAbs Therapeutics, based in New York and listed as YMAB, is a Memorial Sloan Kettering spin-out that commercialises naxitamab, the humanised anti-GD2 antibody for relapsed neuroblastoma, and develops pretargeted radioimmunotherapy. Naxitamab, sold as Danyelza, received accelerated approval in November 2020; omburtamab, a B7-H3 antibody carrying iodine-131, was rejected by the FDA in 2022; and the SADA pretargeted radioimmunotherapy platform, with a GD2-SADA and lutetium-177 pairing, is in phase 1. OnCo links it to paediatric neuroblastoma, to GD2 as a target and to the bottleneck of rare and paediatric cancers without markets. Whether pretargeting can deliver radiation to paediatric tumours with less marrow toxicity than direct radioimmunotherapy is the open question. Naxitamab has its own page.",
     drugs: ["naxitamab"], cancers: ["neuroblastoma"], targets: ["gd2"] }),
 ];
 

@@ -31,7 +31,7 @@ const companies: CompanyInput[] = [
     tldr: "Veracyte makes the Decipher genomic classifier, the most-used gene-expression test in localised prostate cancer.",
     summary: "Decipher Prostate (22-gene GC) is NCCN level-1 evidence for prognostication in biopsy and post-prostatectomy settings, validated on NRG/RTOG randomised cohorts. Competes conceptually with ArteraAI's digital-pathology test.",
     drugs: ["decipher-prostate"], cancers: ["prostate"] }),
-  co({ id: "blue-earth-diagnostics", name: "Blue Earth Diagnostics (Bracco)", hq: "Oxford", country: "GB", companyType: "radiopharma", website: "https://www.blueearthdiagnostics.com", sections: ["imaging", "radiopharma"],
+  co({ id: "blue-earth-diagnostics", links: [{ label: "Official website", url: "https://www.blueearthdiagnostics.com" }], name: "Blue Earth Diagnostics (Bracco)", hq: "Oxford", country: "GB", companyType: "radiopharma", website: "https://www.blueearthdiagnostics.com", sections: ["imaging", "radiopharma"],
     tldr: "Blue Earth Diagnostics makes Posluma (18F-rhPSMA-7.3) and Axumin (fluciclovine) PET agents for prostate cancer.",
     summary: "Blue Earth Diagnostics is a Bracco subsidiary. Posluma approved 2023 (LIGHTHOUSE, SPOTLIGHT trials); rhPSMA therapeutic analogue in development.",
     drugs: ["flotufolastat"], cancers: ["prostate"] }),

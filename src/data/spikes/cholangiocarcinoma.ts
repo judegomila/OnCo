@@ -107,7 +107,7 @@ const trials: TrialInput[] = [
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Gemcitabine + cisplatin", n: 204, value: 11.7 }, { name: "Gemcitabine", n: 206, value: 8.1 }], hr: 0.64, ci: [0.52, 0.80], p: "<0.001" }],
     replication: "Confirmed by the Japanese BT22 trial and a decade of use as control arm.",
     drugs: ["gemcitabine-cisplatin"], cancers: ["cholangiocarcinoma"], links: [{ label: "NEJM 2010", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa0908721" }], institutions: ["cruk"] }),
-  t({ id: "bilcap", name: "BILCAP", phase: "3", status: "mixed", yearReported: 2017, sponsor: "Cancer Research UK", enrolled: 447,
+  t({ id: "bilcap", links: [{ label: "ISRCTN registry entry (ISRCTN72785446)", url: "https://www.isrctn.com/ISRCTN72785446" }, { label: "Primrose et al., Lancet Oncology 2019", url: "https://doi.org/10.1016/S1470-2045(18)30915-X" }], name: "BILCAP", phase: "3", status: "mixed", yearReported: 2017, sponsor: "Cancer Research UK", enrolled: 447,
     setting: "Adjuvant capecitabine for 6 months vs observation after resection of biliary tract cancer",
     tldr: "Six months of oral chemotherapy after surgery became the standard for bile duct cancer despite a technically negative primary result.",
     summary: "Intention-to-treat OS 51.1 vs 36.4 months (HR 0.81, not significant); per-protocol HR 0.75 (significant). Adopted by ASCO and ESMO guidelines as standard adjuvant therapy.",

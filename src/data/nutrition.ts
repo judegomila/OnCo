@@ -1,4 +1,5 @@
 import type { EntityInput, IdeaInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
+import { TRIAL_OUTCOMES } from "./trial-outcomes";
 
 /**
  * Diet, exercise and lifestyle front ("nutrition-lifestyle").
@@ -674,4 +675,4 @@ const ideas: IdeaInput[] = [
     bottlenecks: ["b-misinformation", "b-patient-voice", "b-knowledge-diffusion"], related: ["idea-moon-prebunking-at-diagnosis", "idea-moon-misinformation-rapid-response"] }),
 ];
 
-export const nutrition: EntityInput[] = [...technologies, ...terms, ...trials, ...ideas];
+export const nutrition: EntityInput[] = [...technologies, ...terms, ...trials.map((t) => ({ ...t, ...TRIAL_OUTCOMES[t.id] })), ...ideas];

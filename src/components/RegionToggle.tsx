@@ -2,10 +2,12 @@
 
 import { useEffect, useRef, useState } from "react";
 import { REGION_META, REGION_ORDER, useRegion, guessRegion } from "@/lib/region";
+import { useT, type UiKey } from "@/lib/i18n/ui";
 
 /** Header control: which country's regulator decides what "approved" means on this site. Not a language switch. */
 export function RegionToggle() {
   const { region, setRegion } = useRegion();
+  const { t } = useT();
   const [open, setOpen] = useState(false);
   const box = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -15,33 +17,36 @@ export function RegionToggle() {
     document.addEventListener("mousedown", onDoc); document.addEventListener("keydown", onKey);
     return () => { document.removeEventListener("mousedown", onDoc); document.removeEventListener("keydown", onKey); };
   }, [open]);
-  const meta = region ? REGION_META[region] : { label: "Global", regulator: "all regulators shown as flags", flag: "🌐", url: "" };
+  const countryName = (r: string) => t(`country.${r}` as UiKey);
+  const meta = region ? { label: countryName(region), regulator: REGION_META[region].regulator, flag: REGION_META[region].flag } : { label: t("region.global"), regulator: t("region.allRegulators"), flag: "🌐" };
   return (
     <div ref={box} className="relative">
-      <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="listbox" aria-expanded={open} aria-label={`Approvals shown for ${meta.label}. Change country`} title={`Approvals shown for ${meta.label} (${meta.regulator}). Click to change country.`}
+      <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="listbox" aria-expanded={open} aria-label={t("region.aria", { region: meta.label })} title={t("region.title", { region: meta.label, regulator: meta.regulator })}
         className="ctl px-2 gap-1.5 text-sm">
         <span aria-hidden className="text-base leading-none">{meta.flag}</span>
         <span className="hidden sm:inline xl:hidden 2xl:inline text-xs font-medium">{region}</span>
       </button>
       {open && (
-        <div role="listbox" aria-label="Country for approvals" className="absolute right-0 top-full mt-1.5 z-50 card shadow-pop w-72 p-1.5">
-          <div className="px-2.5 pt-1.5 pb-2 text-xs text-muted leading-snug">Which regulator decides what <span className="font-medium text-foreground">approved</span> means on every page. Other countries&apos; approvals stay visible as flags.</div>
-          <button role="option" aria-selected={region === null} onClick={() => { setRegion(null); setOpen(false); }} className={`w-full flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-left text-sm hover:bg-surface ${region === null ? "bg-surface font-medium" : ""}`}>
+        <div role="listbox" aria-label={t("region.listbox")} className="absolute end-0 top-full mt-1.5 z-50 card shadow-pop w-72 p-1.5">
+          <div className="px-2.5 pt-1.5 pb-2 text-xs text-muted leading-snug">
+            {t("region.intro").split("{approved}").map((part, i, arr) => <span key={i}>{part}{i < arr.length - 1 && <span className="font-medium text-foreground">{t("region.approved")}</span>}</span>)}
+          </div>
+          <button role="option" aria-selected={region === null} onClick={() => { setRegion(null); setOpen(false); }} className={`w-full flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-start text-sm hover:bg-surface ${region === null ? "bg-surface font-medium" : ""}`}>
             <span aria-hidden className="text-lg leading-none">🌐</span>
-            <span className="min-w-0"><span className="block leading-snug">Global</span><span className="block text-xs text-muted leading-snug">Every region shown as flags; country-specific pages hidden from menus</span></span>
-            {region === null && <span className="ml-auto text-xs text-accent">selected</span>}
+            <span className="min-w-0"><span className="block leading-snug">{t("region.global")}</span><span className="block text-xs text-muted leading-snug">{t("region.globalBlurb")}</span></span>
+            {region === null && <span className="ms-auto text-xs text-accent">{t("selected")}</span>}
           </button>
-          <button type="button" onClick={() => { setRegion(guessRegion()); setOpen(false); }} className="w-full flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-left text-sm hover:bg-surface text-muted"><span aria-hidden className="text-lg leading-none">📍</span><span className="leading-snug">Use my browser&apos;s country</span></button>
+          <button type="button" onClick={() => { setRegion(guessRegion()); setOpen(false); }} className="w-full flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-start text-sm hover:bg-surface text-muted"><span aria-hidden className="text-lg leading-none">📍</span><span className="leading-snug">{t("region.useBrowser")}</span></button>
           <div className="my-1 border-t border-border" />
           {REGION_ORDER.map((r) => {
             const m = REGION_META[r];
             const on = r === region;
             return (
               <button key={r} role="option" aria-selected={on} onClick={() => { setRegion(r); setOpen(false); }}
-                className={`w-full flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-left text-sm hover:bg-surface ${on ? "bg-surface font-medium" : ""}`}>
+                className={`w-full flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-start text-sm hover:bg-surface ${on ? "bg-surface font-medium" : ""}`}>
                 <span aria-hidden className="text-lg leading-none">{m.flag}</span>
-                <span className="min-w-0"><span className="block leading-snug">{m.label}</span><span className="block text-xs text-muted leading-snug">{m.regulator}</span></span>
-                {on && <span className="ml-auto text-xs text-accent">selected</span>}
+                <span className="min-w-0"><span className="block leading-snug">{countryName(r)}</span><span className="block text-xs text-muted leading-snug">{m.regulator}</span></span>
+                {on && <span className="ms-auto text-xs text-accent">{t("selected")}</span>}
               </button>
             );
           })}

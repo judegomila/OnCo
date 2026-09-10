@@ -6,14 +6,16 @@ import { CommandPalette, PaletteTrigger } from "@/components/CommandPalette";
 import { NavMenu } from "@/components/NavMenu";
 import { ThemeToggle, ThemeScript } from "@/components/ThemeToggle";
 import { SkipLink } from "@/components/SkipLink";
-import { LayerToggle } from "@/components/LayerToggle";
+import { LayerToggle, LayerScript } from "@/components/LayerToggle";
+import { LangStrip } from "@/components/LangStrip";
 import { RegionProvider } from "@/lib/region";
 import { RegionToggle } from "@/components/RegionToggle";
 import { GitHubStars } from "@/components/GitHubStars";
 import { RegisterSW } from "@/components/RegisterSW";
 import { FEED_TYPES } from "@/lib/seo";
 import { GardenBackdrop, GardenDefs } from "@/components/Garden";
-import { NAV_GROUPS } from "@/lib/nav";
+import { FooterNav } from "@/components/FooterNav";
+import { T } from "@/components/T";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -52,24 +54,30 @@ function Mark({ size = 28 }: { size?: number }) {
 
 export const viewport: Viewport = { themeColor: [{ media: "(prefers-color-scheme: light)", color: "#d6336c" }, { media: "(prefers-color-scheme: dark)", color: "#121816" }] };
 
+/**
+ * The saved site language is applied to <html lang> and <html dir> before paint by LayerScript and kept in sync
+ * by useLayer, so the static "en" here is only the server default. Chrome text in server components goes through
+ * <T>, which renders English first and swaps after hydration.
+ */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <RegionProvider>
         <ThemeScript />
+        <LayerScript />
         <GardenDefs />
         <SkipLink />
         <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/75">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-1.5 sm:gap-3 xl:gap-2 2xl:gap-3">
-            <Link href="/" className="inline-flex h-10 shrink-0 items-center gap-2.5 rounded-lg sm:pr-2 font-semibold tracking-tight" aria-label="OnCo home">
+            <Link href="/" className="inline-flex h-10 shrink-0 items-center gap-2.5 rounded-lg sm:pe-2 font-semibold tracking-tight" aria-label="OnCo home">
               <Mark />
               <span className="text-[15px]">OnCo</span>
               <span className="hidden min-[1800px]:inline text-muted font-normal text-sm">time to win</span>
             </Link>
             <NavMenu />
             {/* Shrinks to an icon at phone widths so the fixed-width controls and the menu button always fit on one row. */}
-            <div className="ml-auto flex-1 min-w-10 max-w-[17rem] sm:max-w-xs xl:ml-auto">
+            <div className="ms-auto flex-1 min-w-10 max-w-[17rem] sm:max-w-xs xl:ms-auto">
               <PaletteTrigger className="w-full h-10 rounded-[0.625rem]" />
             </div>
             <RegionToggle />
@@ -81,6 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </a>
           </div>
         </header>
+        <LangStrip />
         <CommandPalette />
         <RegisterSW />
         <main id="main" className="flex-1">{children}</main>
@@ -91,34 +100,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 xl:grid-cols-[minmax(0,1.6fr)_repeat(6,minmax(0,1fr))] lg:gap-x-8 text-sm">
               <div className="col-span-2 sm:col-span-3 xl:col-span-1">
                 <Link href="/" className="inline-flex items-center gap-2 font-semibold tracking-tight"><Mark size={24} /><span>OnCo</span></Link>
-                <p className="text-muted max-w-md mt-3 leading-relaxed">
-                  A public, cited, editable map of oncology: technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, and ideas. One page per object, with a plain-English TL;DR on every page.
-                </p>
+                <p className="text-muted max-w-md mt-3 leading-relaxed"><T k="footer.about" /></p>
                 <p className="text-muted mt-3 max-w-md leading-relaxed">
-                  <strong className="text-foreground/80">Work in progress.</strong> Every fact on this site is being built and checked in the open and may be incomplete, out of date, or wrong. You must do your own research and verify anything here at its primary source before relying on it. Nothing on this site is medical advice; decisions belong with you and your clinicians.
+                  <strong className="text-foreground/80"><T k="footer.wip" /></strong> <T k="footer.disclaimer" />
                 </p>
               </div>
-              {NAV_GROUPS.map((g) => (
-                <nav key={g.id} aria-label={g.label}>
-                  <div className="kicker mb-2"><Link className="inline-block py-1.5 hover:text-foreground" href={g.href}>{g.label}</Link></div>
-                  <ul className="space-y-1.5 text-[13px] leading-snug">
-                    {g.items.map((it) => (
-                      <li key={it.href}>
-                        {it.href.startsWith("http")
-                          ? <a className="text-foreground/80 hover:text-foreground hover:underline" href={it.href} rel="noopener">{it.label}</a>
-                          : <Link className="text-foreground/80 hover:text-foreground hover:underline" href={it.href}>{it.label}</Link>}
-                      </li>
-                    ))}
-                  </ul>
-                </nav>
-              ))}
+              <FooterNav />
             </div>
             <div className="mt-10 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-x-6 gap-y-2 text-xs text-muted">
-              <p>Code MIT. Data &copy; OnCo, free for non-commercial and educational use under CC BY-NC 4.0 with attribution &ldquo;Data from OnCo (onco.cc)&rdquo;. <Link className="underline" href="/about/#licence">Commercial licences</Link>.</p>
+              <p><T k="footer.licence" /></p>
               <p className="flex flex-wrap gap-x-4 gap-y-1">
-                <Link href="/about/" className="hover:text-foreground hover:underline">About and methodology</Link>
-                <Link href="/corrections/" className="hover:text-foreground hover:underline">Corrections</Link>
-                <Link href="/api/" className="hover:text-foreground hover:underline">Open API</Link>
+                <Link href="/about/" className="hover:text-foreground hover:underline"><T k="footer.aboutLink" /></Link>
+                <Link href="/corrections/" className="hover:text-foreground hover:underline"><T k="footer.corrections" /></Link>
+                <Link href="/api/" className="hover:text-foreground hover:underline"><T k="footer.api" /></Link>
                 <a href="https://github.com/judegomila/OnCo" rel="noopener" className="hover:text-foreground hover:underline">GitHub</a>
               </p>
             </div>

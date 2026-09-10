@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { fetchEntityDates, isWatched, markSeen, unwatch, watch } from "@/lib/watchlist";
+import { useT } from "@/lib/i18n/ui";
 
 /**
  * Star an object to watch it. The watchlist lives in localStorage; /saved/ shows what changed since you last
@@ -14,6 +15,7 @@ export function WatchButton({ id, kind, name, route, asOf, className = "" }: { i
   const [on, setOn] = useState(false);
   const [ready, setReady] = useState(false);
   const [busy, setBusy] = useState(false);
+  const { t } = useT();
 
   useEffect(() => {
     const raf = requestAnimationFrame(async () => {
@@ -37,12 +39,12 @@ export function WatchButton({ id, kind, name, route, asOf, className = "" }: { i
   return (
     <span className={`inline-flex items-center gap-2 ${className}`}>
       <button type="button" onClick={toggle} disabled={busy || !ready} aria-pressed={on}
-        title={on ? "Watching. You will see what changed on this page since your last visit under Saved. Click to stop." : "Watch this page: Saved will show what changed since you last looked. Stored in this browser only."}
+        title={on ? t("watch.titleOn") : t("watch.title")}
         className={`inline-flex items-center gap-1.5 rounded-lg border px-2.5 py-1 text-xs transition-colors ${on ? "border-accent bg-accent-soft text-accent" : "border-border bg-card hover:bg-surface"}`}>
         <span aria-hidden>{on ? "★" : "☆"}</span>
-        <span>{on ? "Watching" : "Watch"}</span>
+        <span>{on ? t("watch.watching") : t("watch.watch")}</span>
       </button>
-      {on && <Link href="/saved/" className="text-xs text-muted underline hover:text-foreground">Saved</Link>}
+      {on && <Link href="/saved/" className="text-xs text-muted underline hover:text-foreground">{t("watch.saved")}</Link>}
     </span>
   );
 }

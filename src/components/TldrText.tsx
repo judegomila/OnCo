@@ -1,6 +1,7 @@
 "use client";
 
 import { useLayer, type Lang } from "@/lib/layer";
+import { t } from "@/lib/i18n/ui";
 import { simple } from "@/data/simple";
 import { tldr_es } from "@/data/i18n/es";
 import { tldr_zh } from "@/data/i18n/zh";
@@ -16,13 +17,19 @@ const TABLES = { es: tldr_es, zh: tldr_zh, pt: tldr_pt, hi: tldr_hi, fr: tldr_fr
 
 type Mark = { text: string; title: string; tone: "muted" | "ok" };
 
+/** The TL;DR for `id` in `lang` when a translation exists, else the English text. For tables and cards. */
+export function tldrFor(id: string, tldr: string, lang: Lang): string {
+  if (lang === "en") return tldr;
+  return TABLES[lang][id] ?? tldr;
+}
+
 /** Which mark to show beside a translated TL;DR: reviewed by a named speaker, machine-assisted, or English fallback. */
 export function translationMark(id: string, lang: Lang, hasTranslation: boolean): Mark | null {
   if (lang === "en") return null;
-  if (!hasTranslation) return { text: "EN", title: "No translation yet; showing English. Propose one via Suggest an edit.", tone: "muted" };
+  if (!hasTranslation) return { text: t("tldr.en", lang), title: t("tldr.enTitle", lang), tone: "muted" };
   const r = reviewed[id]?.filter((x) => x.lang === lang).sort((a, b) => b.date.localeCompare(a.date))[0];
-  if (r) return { text: "Reviewed", title: `Translation reviewed by ${r.reviewer}${r.role ? `, ${r.role}` : ""} on ${r.date}.`, tone: "ok" };
-  return { text: "MT", title: "Machine-assisted translation, not yet reviewed by a named speaker. Report a problem via Suggest an edit.", tone: "muted" };
+  if (r) return { text: t("tldr.reviewed", lang), title: t("tldr.reviewedTitle", lang, { reviewer: `${r.reviewer}${r.role ? `, ${r.role}` : ""}`, date: r.date }), tone: "ok" };
+  return { text: t("tldr.mt", lang), title: t("tldr.mtTitle", lang), tone: "muted" };
 }
 
 /**
@@ -36,19 +43,23 @@ export function TldrText({ id, tldr, simple: simpleProp, className = "" }: { id:
   const [layer] = useLayer();
   let text = tldr;
   let mark: Mark | null = null;
+  let hasTranslation = false;
   if (layer.level === "simple") {
     const s = simpleProp ?? simple[id];
     if (s) text = s;
   } else if (layer.lang !== "en") {
-    const t = TABLES[layer.lang][id];
-    if (t) text = t;
-    mark = translationMark(id, layer.lang, !!t);
+    const tr = TABLES[layer.lang][id];
+    if (tr) { text = tr; hasTranslation = true; }
+    mark = translationMark(id, layer.lang, !!tr);
   }
+  // The text's own language: English when it is a simplified or untranslated fallback, so screen readers and
+  // browser translation treat it correctly even when <html lang> is something else.
+  const textLang = layer.level === "simple" || !hasTranslation ? "en" : layer.lang;
   return (
-    <span className={className} lang={layer.level === "simple" ? "en" : layer.lang}>
+    <span className={className} lang={textLang}>
       {text}
       {mark && (
-        <span className={`ml-1.5 align-middle text-[10px] font-semibold border rounded px-1 ${mark.tone === "ok" ? "text-emerald-800 border-emerald-300 dark:text-emerald-200 dark:border-emerald-800" : "text-muted border-border"}`} title={mark.title}>{mark.text}</span>
+        <span lang={layer.lang} className={`ms-1.5 align-middle text-[10px] font-semibold border rounded px-1 ${mark.tone === "ok" ? "text-emerald-800 border-emerald-300 dark:text-emerald-200 dark:border-emerald-800" : "text-muted border-border"}`} title={mark.title}>{mark.text}</span>
       )}
     </span>
   );

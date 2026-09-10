@@ -1,6 +1,7 @@
 "use client";
 
 import { download, exportFilename, toCsv, toJsonExport, type CsvRow } from "@/lib/csv";
+import { useT } from "@/lib/i18n/ui";
 
 /**
  * CSV and JSON download of whatever a table is currently showing (the filtered rows, not the whole corpus).
@@ -18,9 +19,10 @@ export function DownloadTable({ rows, name, columns, className = "" }: {
   const csv = () => download(exportFilename(name, "csv"), toCsv(rows(), columns), "text/csv");
   const json = () => download(exportFilename(name, "json"), toJsonExport(rows(), { name }), "application/json");
   const btn = "rounded-md border border-border bg-card px-2 py-1 text-xs text-muted hover:bg-surface hover:text-foreground";
+  const { t } = useT();
   return (
-    <span className={`inline-flex items-center gap-1 no-print ${className}`} role="group" aria-label={`Download ${name}`}>
-      <span className="text-xs text-muted hidden sm:inline">Download</span>
+    <span className={`inline-flex items-center gap-1 no-print ${className}`} role="group" aria-label={`${t("download")}: ${name}`}>
+      <span className="text-xs text-muted hidden sm:inline">{t("download")}</span>
       <button type="button" onClick={csv} className={btn} title={`Download the ${name} shown as CSV (filtered rows, CC BY-NC 4.0)`}>CSV</button>
       <button type="button" onClick={json} className={btn} title={`Download the ${name} shown as JSON (filtered rows, CC BY-NC 4.0)`}>JSON</button>
     </span>

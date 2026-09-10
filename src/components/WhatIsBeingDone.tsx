@@ -2,7 +2,8 @@ import Link from "next/link";
 import type { Entity } from "@/lib/schema";
 import { routeFor } from "@/lib/schema";
 import { graph } from "@/lib/graph";
-import { STATUS_LABEL, statusClass } from "@/lib/text";
+import { statusClass } from "@/lib/text";
+import { StatusName, TL } from "./T";
 
 /**
  * Pairs a problem with the work on it. Given a problem topic (or a free-text problem sentence), assembles
@@ -162,13 +163,13 @@ export function assembleTopic(topic: ProblemTopic, cancerId?: string): Assembled
 function Column({ title, items }: { title: string; items: Entity[] }) {
   return (
     <div className="min-w-0">
-      <div className="kicker mb-1.5">{title}</div>
+      <div className="kicker mb-1.5"><TL text={title} /></div>
       {items.length === 0 ? <p className="text-xs text-muted">Nothing recorded yet.</p> : (
         <ul className="space-y-1">
           {items.map((e) => (
             <li key={e.id} className="leading-snug">
               <Link href={routeFor(e)} className="hover:underline">{e.name}</Link>
-              {e.status && <span className={`chip ml-1.5 align-middle text-[10px] ${statusClass(e.status)}`}>{STATUS_LABEL[e.status] ?? e.status}</span>}
+              {e.status && <span className={`chip ms-1.5 align-middle text-[10px] ${statusClass(e.status)}`}><StatusName status={e.status} /></span>}
             </li>
           ))}
         </ul>
@@ -193,7 +194,7 @@ export function WhatIsBeingDone({ topic, cancerId, compact = false, className = 
     <div className={`card p-4 text-sm ${className}`}>
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-2">
         <div>
-          <div className="kicker">What is being done about this</div>
+          <div className="kicker"><TL text="What is being done about this" /></div>
           <div className="font-semibold mt-0.5">{meta.label}</div>
         </div>
         {data.bottleneck && <Link href={routeFor(data.bottleneck)} className="text-sm underline text-muted hover:text-foreground">and how the field plans to fix it →</Link>}

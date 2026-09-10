@@ -4,7 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { MoleculeSlot } from "./MoleculeSlot";
 import { KIND_META, type Kind } from "@/lib/schema";
-import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
+import { useT } from "@/lib/i18n/ui";
+import { KIND_COLOR, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 
 export type CompareKind = "drug" | "technology" | "target" | "trial" | "cancer";
@@ -21,6 +22,7 @@ const DEFAULTS: Record<CompareKind, string[]> = {
 const MAX = 5;
 
 export function CompareView({ items }: { items: CompareItem[] }) {
+  const { kind: kindName, status: statusName } = useT();
   const byId = useMemo(() => new Map(items.map((i) => [i.id, i])), [items]);
   const [ids, setIds] = useState<string[]>(DEFAULTS.drug);
   const [diffOnly, setDiffOnly] = useState(false);
@@ -64,7 +66,7 @@ export function CompareView({ items }: { items: CompareItem[] }) {
   return (
     <div>
       <div className="flex flex-wrap items-center gap-2 mb-4">
-        <FacetSelect label="Kind" options={KINDS.map((k) => ({ value: k, label: KIND_META[k].plural[0].toUpperCase() + KIND_META[k].plural.slice(1) }))} value={kind} onChange={(v) => { if (v) switchKind(v as CompareKind); }} searchable={false} allLabel="Products" width="w-44" />
+        <FacetSelect label="Kind" options={KINDS.map((k) => { const p = kindName(k, "plural") ?? KIND_META[k].plural; return { value: k, label: p[0].toUpperCase() + p.slice(1) }; })} value={kind} onChange={(v) => { if (v) switchKind(v as CompareKind); }} searchable={false} allLabel="Products" width="w-44" />
         {chosen.map((it, i) => (
           <FacetSelect key={`${i}-${it.id}`} label={`#${i + 1}`} options={options} value={it.id} onChange={(v) => setSlot(i, v as string | null)} allLabel="Remove" width="w-64" />
         ))}
@@ -82,7 +84,7 @@ export function CompareView({ items }: { items: CompareItem[] }) {
               <th className="w-40">Field</th>
               {chosen.map((it) => (
                 <th key={it.id} className="min-w-[220px] normal-case tracking-normal">
-                  <div className="flex items-center gap-2 mb-1"><span className={`chip border ${KIND_COLOR[it.kind as Kind]}`}>{KIND_META[it.kind].label}</span>{it.status && <span className={`chip ${statusClass(it.status)}`}>{STATUS_LABEL[it.status] ?? it.status}</span>}</div>
+                  <div className="flex items-center gap-2 mb-1"><span className={`chip border ${KIND_COLOR[it.kind as Kind]}`}>{kindName(it.kind, "label") ?? KIND_META[it.kind].label}</span>{it.status && <span className={`chip ${statusClass(it.status)}`}>{statusName(it.status)}</span>}</div>
                   {it.kind === "drug" && <div className="mb-2"><MoleculeSlot drugId={it.id} name={it.name} className="h-20 w-20" /></div>}
                   <Link href={it.route} className="font-semibold text-base text-foreground hover:underline">{it.name}</Link>
                   <p className="text-xs text-muted mt-1 font-normal line-clamp-3">{it.tldr}</p>

@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useT, type UiKey } from "@/lib/i18n/ui";
 
 export type Theme = "system" | "light" | "dark" | "contrast";
 const KEY = "onco:theme";
 const ORDER: Theme[] = ["light", "dark", "contrast", "system"];
-const LABEL: Record<Theme, string> = { system: "Auto", light: "Light", dark: "Dark", contrast: "High contrast" };
 const ICON: Record<Theme, string> = { system: "◐", light: "☀", dark: "☾", contrast: "◑" };
 
 function apply(t: Theme) {
@@ -20,6 +20,7 @@ function apply(t: Theme) {
  */
 export function ThemeToggle({ className = "" }: { className?: string }) {
   const [theme, setTheme] = useState<Theme>("light");
+  const { t } = useT();
   useEffect(() => {
     const id = requestAnimationFrame(() => {
       const saved = localStorage.getItem(KEY) as Theme | null;
@@ -27,13 +28,14 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
     });
     return () => cancelAnimationFrame(id);
   }, []);
-  const set = (t: Theme) => { setTheme(t); localStorage.setItem(KEY, t); apply(t); };
+  const set = (th: Theme) => { setTheme(th); localStorage.setItem(KEY, th); apply(th); };
   const next = ORDER[(ORDER.indexOf(theme) + 1) % ORDER.length];
+  const label = (th: Theme) => t(`theme.${th}` as UiKey);
   return (
-    <button type="button" onClick={() => set(next)} title={`Theme: ${LABEL[theme]}. Click for ${LABEL[next]}.`} aria-label={`Theme: ${LABEL[theme]}. Switch to ${LABEL[next]}`}
+    <button type="button" onClick={() => set(next)} title={t("theme.title", { current: label(theme), next: label(next) })} aria-label={t("theme.aria", { current: label(theme), next: label(next) })}
       className={`ctl px-0 md:px-3 xl:px-0 2xl:px-3 ${className}`}>
       <span aria-hidden className="text-base leading-none">{ICON[theme]}</span>
-      <span className="hidden md:inline xl:hidden 2xl:inline text-muted">{LABEL[theme]}</span>
+      <span className="hidden md:inline xl:hidden 2xl:inline text-muted">{label(theme)}</span>
     </button>
   );
 }

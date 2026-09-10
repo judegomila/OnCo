@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { KIND_META, type Kind } from "@/lib/schema";
+import { useT } from "@/lib/i18n/ui";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { Tip } from "./Tip";
@@ -32,6 +33,8 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
   const [kind, setKind] = useState<Kind | "all">("all");
   const [q, setQ] = useState("");
   const [onlyApproved, setOnlyApproved] = useState(false);
+  const { kind: kindName } = useT();
+  const plural = (k: Kind) => kindName(k, "plural") ?? KIND_META[k].plural;
   const chosen = cancers.filter((c) => selected.includes(c.id));
 
   const cancerOptions = useMemo(() => cancers.map((c) => ({ value: c.id, label: c.name, group: c.group[0].toUpperCase() + c.group.slice(1) })), [cancers]);
@@ -104,8 +107,8 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
               <div className="font-semibold">Everything</div><div className="text-xs text-muted">All types together</div><div className="text-2xl font-semibold tabular-nums mt-1">{total}</div>
             </button>
             {ORDER.filter((k) => counts.has(k)).map((k) => (
-              <button key={k} role="tab" aria-selected={kind === k} onClick={() => setKind(kind === k ? "all" : k)} className={`card p-3 text-left border transition ${KIND_COLOR[k]} ${kind === k ? "ring-2 ring-foreground" : "hover:shadow-md"}`}>
-                <div className="font-semibold capitalize">{KIND_META[k].plural}</div><div className="text-xs opacity-80">{KIND_HINT[k]}</div><div className="text-2xl font-semibold tabular-nums mt-1">{counts.get(k)}</div>
+              <button key={k} role="tab" aria-selected={kind === k} onClick={() => setKind(kind === k ? "all" : k)} className={`card p-3 text-start border transition ${KIND_COLOR[k]} ${kind === k ? "ring-2 ring-foreground" : "hover:shadow-md"}`}>
+                <div className="font-semibold capitalize">{plural(k)}</div><div className="text-xs opacity-80">{KIND_HINT[k]}</div><div className="text-2xl font-semibold tabular-nums mt-1">{counts.get(k)}</div>
               </button>
             ))}
           </div>
@@ -116,7 +119,7 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
               if (!items.length) return null;
               return (
                 <section key={k} id={`type-${k}`}>
-                  <div className="flex items-baseline gap-3 mb-3 pb-2 border-b border-border"><h3 className="text-xl font-semibold capitalize">{KIND_META[k].plural}</h3><span className="text-sm text-muted">{KIND_HINT[k]}</span><span className="ml-auto text-sm text-muted tabular-nums">{items.length}</span></div>
+                  <div className="flex items-baseline gap-3 mb-3 pb-2 border-b border-border"><h3 className="text-xl font-semibold capitalize">{plural(k)}</h3><span className="text-sm text-muted">{KIND_HINT[k]}</span><span className="ms-auto text-sm text-muted tabular-nums">{items.length}</span></div>
                   <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                     {items.map((e) => (
                       <Link key={e.id} href={e.route} className={`card p-3 hover:shadow-md transition border ${KIND_COLOR[k]} ${k === "drug" ? "flex gap-3" : ""}`}>

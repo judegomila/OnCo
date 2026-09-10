@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { currentViewUrl, describeQuery, findView, removeView, saveView, type SavedView } from "@/lib/saved-views";
+import { useT } from "@/lib/i18n/ui";
 
 /**
  * "Save view" for any table whose state lives in the URL. Saves the current URL under a name in localStorage
@@ -36,25 +37,26 @@ export function SaveViewButton({ noun, count, stateKey, className = "" }: { noun
     setTimeout(() => setFlash(false), 2500);
   };
   const btn = "rounded-md border border-border bg-card px-2 py-1 text-xs text-muted hover:bg-surface hover:text-foreground";
+  const { t } = useT();
 
   if (existing) {
     return (
       <span className={`inline-flex items-center gap-1 text-xs no-print ${className}`}>
-        <Link href="/saved/" className="rounded-md border border-accent bg-accent-soft px-2 py-1 text-accent hover:brightness-95" title={`Saved as "${existing.name}". Open your saved views.`}>{flash ? "Saved" : "View saved"}</Link>
-        <button type="button" onClick={() => removeView(existing.id)} className={btn} aria-label="Remove this saved view" title="Remove this saved view">Remove</button>
+        <Link href="/saved/" className="rounded-md border border-accent bg-accent-soft px-2 py-1 text-accent hover:brightness-95" title={existing.name}>{flash ? t("table.saved") : t("table.viewSaved")}</Link>
+        <button type="button" onClick={() => removeView(existing.id)} className={btn} aria-label={t("table.removeSaved")} title={t("table.removeSaved")}>{t("remove")}</button>
       </span>
     );
   }
   if (!open) {
-    return <button type="button" onClick={() => setOpen(true)} className={`${btn} no-print ${className}`} title="Save these filters, search and sort under a name (stored in this browser only)">Save view</button>;
+    return <button type="button" onClick={() => setOpen(true)} className={`${btn} no-print ${className}`} title={t("table.saveViewTitle")}>{t("table.saveView")}</button>;
   }
   return (
     <form className={`inline-flex items-center gap-1 no-print ${className}`} onSubmit={(e) => { e.preventDefault(); submit(); }}>
-      <input ref={input} value={name} onChange={(e) => setName(e.target.value)} placeholder={defaultName()} aria-label="Name for this view"
+      <input ref={input} value={name} onChange={(e) => setName(e.target.value)} placeholder={defaultName()} aria-label={t("table.viewName")}
         onKeyDown={(e) => { if (e.key === "Escape") { e.preventDefault(); setOpen(false); } }}
         className="w-56 rounded-md border border-border bg-card px-2 py-1 text-xs outline-none focus:ring-2 focus:ring-accent/40" />
-      <button type="submit" className="rounded-md bg-foreground text-background px-2 py-1 text-xs font-medium hover:brightness-110">Save</button>
-      <button type="button" onClick={() => setOpen(false)} className={btn}>Cancel</button>
+      <button type="submit" className="rounded-md bg-foreground text-background px-2 py-1 text-xs font-medium hover:brightness-110">{t("save")}</button>
+      <button type="button" onClick={() => setOpen(false)} className={btn}>{t("cancel")}</button>
     </form>
   );
 }

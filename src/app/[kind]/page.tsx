@@ -15,6 +15,7 @@ import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
 import { portraitSrc } from "@/lib/portraits";
 import { kindTitle, pageMeta } from "@/lib/seo";
+import { KindName } from "@/components/T";
 
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route, k])) as Record<string, Kind>;
 
@@ -254,7 +255,7 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
 
   return (
     <>
-      <PageHeader kicker={<span className="kicker">{meta.plural}</span>} title={title} lede={meta.blurb} right={right} />
+      <PageHeader kicker={<span className="kicker"><KindName kind={k} form="plural" fallback={meta.plural} /></span>} title={<KindName kind={k} form="title" fallback={title} />} seed={title} lede={meta.blurb} right={right} />
       <Container className="pb-16">
         {k === "section" && <FrontsGrid />}
         {k === "term" && <TermCategoryGrid />}

@@ -3,6 +3,7 @@ import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PulseTable, readPulse } from "@/components/PapersPulse";
+import { CitedPapers } from "@/components/CitedPapers";
 
 export const metadata: Metadata = pageMeta({ title: "What the world is publishing", description: "Fastest-growing topics in the cancer literature, computed weekly from Europe PMC for every product, target, cancer, and technology in OnCo.", path: "/papers/" });
 
@@ -44,6 +45,11 @@ export default function PapersPage() {
                 <PulseTable index={index} kind={k.kind} limit={15} minPrior={k.minPrior} />
               </section>
             ))}
+
+            <section id="sec-cited" className="space-y-3">
+              <h2 className="text-xl font-semibold">Most cited key papers</h2>
+              <CitedPapers limit={25} />
+            </section>
 
             <section id="sec-volume" className="space-y-3">
               <h2 className="text-xl font-semibold">Most published, last 12 months</h2>

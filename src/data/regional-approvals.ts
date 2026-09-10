@@ -6,7 +6,9 @@
  * Rules: a region is recorded only when the status can be traced to a regulator page, an EPAR, a company
  * release, or the corpus' own sourced approvals. Absent = unknown/not researched, NOT "not approved".
  * `year` is the year of the first approval in that region for any oncology indication. EU EPAR pages
- * checked directly on 2026-09-08 are marked `verified`; other rows carry regulator search links.
+ * checked directly are marked `verified` and carry `verifiedOn` = EPAR_CHECKED, the date of the last check;
+ * scripts/fetch-ema.ts re-checks every EU row against the EMA register weekly and moves the stamp forward when
+ * all rows agree (per-row results in public/regional/verified.json). Other rows carry regulator search links.
  * "not-filed" is used only where a sponsor has publicly said so or where a product is regionally
  * exclusive by design (e.g. China-only PD-1 antibodies without ex-China filings).
  */
@@ -22,7 +24,10 @@ export const REGION_META: Record<Region, { label: string; regulator: string; url
 };
 
 export type RegionalStatus = "approved" | "conditional" | "under-review" | "not-filed" | "withdrawn" | "rejected";
-export type RegionalEntry = { status: RegionalStatus; year?: number; indication?: string; source?: string; note?: string; verified?: boolean };
+export type RegionalEntry = { status: RegionalStatus; year?: number; indication?: string; source?: string; note?: string; verified?: boolean; /** ISO date of the last check against the regulator (EU rows: the EMA register). */ verifiedOn?: string };
+
+/** Date the EU rows marked V() were last checked against the EMA register. Updated by scripts/fetch-ema.ts. */
+export const EPAR_CHECKED = "2026-09-08";
 export type RegionalRow = Partial<Record<Region, RegionalEntry>>;
 
 const epar = (slug: string) => `https://www.ema.europa.eu/en/medicines/human/EPAR/${slug}`;
@@ -33,7 +38,7 @@ const NMPA = REGION_META.CN.url;
 
 const A = (year?: number, source?: string, indication?: string, note?: string): RegionalEntry => ({ status: "approved", year, source, indication, note });
 const C = (year?: number, source?: string, indication?: string, note?: string): RegionalEntry => ({ status: "conditional", year, source, indication, note });
-const V = (e: RegionalEntry): RegionalEntry => ({ ...e, verified: true });
+const V = (e: RegionalEntry): RegionalEntry => ({ ...e, verified: true, verifiedOn: EPAR_CHECKED });
 const NF = (note?: string): RegionalEntry => ({ status: "not-filed", note });
 const W = (year?: number, source?: string, note?: string): RegionalEntry => ({ status: "withdrawn", year, source, note });
 const UR = (note?: string, source?: string): RegionalEntry => ({ status: "under-review", note, source });

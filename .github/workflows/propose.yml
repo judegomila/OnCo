@@ -1,0 +1,40 @@
+name: Nightly change proposals
+
+on:
+  schedule:
+    - cron: "23 3 * * *" # daily 03:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Drafts record patches from the feed snapshots already committed to main (fact check, trial changes, FDA and
+# EMA candidates). No network calls, no secrets, no model: the text is assembled from the fetched records.
+# The pull request is labelled bot-proposal and is never merged automatically; a maintainer applies or closes it.
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/propose-updates.ts --corrections
+      - run: npm run validate
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/proposals
+          title: "Bot proposals: record patches drafted from the feeds"
+          commit-message: "chore: draft change proposals from feed snapshots"
+          body: |
+            Drafted by `scripts/propose-updates.ts` from `public/factcheck.json`, `public/trials/changes.json`, `public/fda/recent.json` and `public/regional/candidates.json`.
+
+            Review `docs/proposals/latest.md`: each line names the entity, the file and field, the current and proposed values and the source URL. Apply the ones that check out by editing the data files (or push commits to this branch), then merge; close the rest. `CORRECTIONS.md` carries one line for this run under "Proposed by the update bot"; move confirmed corrections into the dated tables above it.
+
+            This pull request is never merged automatically.
+          labels: bot-proposal, automated
+          delete-branch: true

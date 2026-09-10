@@ -1,0 +1,37 @@
+name: Refresh HTA decisions and survival statistics
+
+on:
+  schedule:
+    - cron: "47 5 1 * *" # 1st of each month 05:47 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/fetch-hta.ts
+      - run: npx tsx scripts/fetch-survival.ts
+      - run: npm run validate
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/refresh-hta
+          title: "Monthly refresh: HTA decisions (NICE, G-BA, PBAC) and SEER survival"
+          commit-message: "chore: refresh HTA decisions and survival snapshots"
+          body: |
+            Automated monthly pull of:
+            - `public/hta/index.json`: every NICE technology appraisal cited in `coverage-uk.ts` re-read for title, dates and withdrawal; the latest G-BA benefit-assessment procedures matched to corpus products; the latest PBAC meeting outcome documents (`/hta/`).
+            - `public/survival/index.json`: five-year relative survival overall and by stage from the SEER Cancer Stat Facts pages for every mapped cancer (`/survival/`).
+            Rows flagged "TA page does not name this product" mean a TA number in `coverage-uk.ts` needs checking.
+          labels: automated, pipeline
+          delete-branch: true

@@ -7,6 +7,7 @@ import { feature } from "topojson-client";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import type { FeatureCollection, Geometry } from "geojson";
 import { FacetSelect } from "./filters/FacetSelect";
+import { Sparkline } from "./TrendChart";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
 import { rowsForCancerIn, sitesForCountry, type CancerRows, type CountryProfile, type CountryRow, type Globocan } from "@/lib/globocan-core";
 
@@ -86,6 +87,7 @@ export function CasesByCountry({ cancers, initial, countryList, dataUrl, gaps, m
     { key: "hdi", label: "HDI", hide: "hidden lg:table-cell", render: (r) => <span className="text-muted">{r.hdi?.replace(" HDI", "") ?? "—"}</span> },
     { key: "cases", label: "New cases", sortable: true, render: (r) => r.cases === null ? <NoData /> : <span className="tabular-nums">{fmt(r.cases)}</span> },
     { key: "incAsr", label: "Incidence ASR", sortable: true, render: (r) => r.incAsr === null ? <NoData /> : <span className="tabular-nums">{fmt(r.incAsr, 1)}</span> },
+    { key: "trend", label: "Trend", hide: "hidden xl:table-cell", tip: "Incidence rate across the GLOBOCAN editions on file; one dot means only one edition is available.", render: (r) => <Sparkline cancerId={cancer} iso3={r.iso3} /> },
     { key: "deaths", label: "Deaths", sortable: true, render: (r) => r.deaths === null ? <NoData /> : <span className="tabular-nums">{fmt(r.deaths)}</span> },
     { key: "mortAsr", label: "Mortality ASR", sortable: true, render: (r) => r.mortAsr === null ? <NoData /> : <span className="tabular-nums">{fmt(r.mortAsr, 1)}</span> },
     { key: "mi", label: "M:I ratio", sortable: true, hide: "hidden sm:table-cell", render: (r) => r.mi === null ? <NoData /> : <span className="tabular-nums" title="Deaths divided by new cases; a rough proxy for lethality and access to care">{fmt(r.mi, 2)}</span> },

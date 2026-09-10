@@ -1,8 +1,12 @@
 import type { Trial } from "@/lib/schema";
+import { endpointFamily, kmCurvesFor } from "@/data/km-curves";
+import { ChartExport } from "./ChartExport";
+import { KMChart, SERIES_PALETTE } from "./KMChart";
 
 type Outcome = Trial["outcomes"][number];
 const outcomeNote = (o: Outcome) => o.arms.map((a) => a.note).filter(Boolean).join(" · ");
-const PALETTE = ["#b91c1c", "#2563eb", "#7c3aed", "#0d9488"];
+const PALETTE = SERIES_PALETTE;
+const hrText = (o: Outcome) => o.hr !== undefined ? `HR ${o.hr}${o.ci ? ` (${o.ci[0]}–${o.ci[1]})` : ""}` : "";
 
 /** "Out of 100 people" dot grid for one arm of a percent endpoint. */
 function DotGrid({ pct, color, label, n }: { pct: number; color: string; label: string; n?: number }) {
@@ -24,30 +28,34 @@ function DotGrid({ pct, color, label, n }: { pct: number; color: string; label: 
   );
 }
 
-/** Paired horizontal bars for a time-to-event endpoint (median months). */
+/** Paired horizontal bars for a time-to-event endpoint (median months), drawn as one SVG so it exports with the card. */
 function MonthBars({ o }: { o: Outcome }) {
   const max = Math.max(...o.arms.map((a) => a.value ?? 0), 1);
+  const ROW = 24, LABEL = 150, VAL = 70, W = 480, H = o.arms.length * ROW;
+  const barW = W - LABEL - VAL - 12;
+  const unit = o.unit ?? "months";
   return (
-    <div className="space-y-1.5">
-      {o.arms.map((a, i) => (
-        <div key={i} className="grid grid-cols-[minmax(120px,1fr)_3fr_auto] items-center gap-2 text-sm">
-          <span className="truncate" title={a.name}>{a.name}</span>
-          <div className="h-3 rounded bg-foreground/10 overflow-hidden"><div className="h-full rounded" style={{ width: a.value !== undefined ? `${(a.value / max) * 100}%` : "0%", background: PALETTE[i % PALETTE.length] }} /></div>
-          <span className="tabular-nums">{a.value !== undefined ? `${a.value} mo` : a.note ?? "—"}</span>
-        </div>
-      ))}
-    </div>
+    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label={`${o.endpoint}: ${o.arms.map((a) => `${a.name} ${a.value !== undefined ? `${a.value} ${unit}` : a.note ?? "not reported"}`).join("; ")}`}>
+      {o.arms.map((a, i) => {
+        const y = i * ROW;
+        const w = a.value !== undefined ? (a.value / max) * barW : 0;
+        return (
+          <g key={i}>
+            <text x={LABEL - 8} y={y + ROW / 2} textAnchor="end" dominantBaseline="middle" fontSize={12} fill="currentColor" fillOpacity={0.9}>{a.name.length > 24 ? a.name.slice(0, 23).trimEnd() + "…" : a.name}</text>
+            <rect x={LABEL} y={y + 6} width={barW} height={ROW - 12} rx={3} fill="currentColor" fillOpacity={0.08} />
+            {w > 0 && <rect x={LABEL} y={y + 6} width={w} height={ROW - 12} rx={3} fill={PALETTE[i % PALETTE.length]} />}
+            <text x={LABEL + barW + 8} y={y + ROW / 2} dominantBaseline="middle" fontSize={12} fill="currentColor" fillOpacity={0.9} style={{ fontVariantNumeric: "tabular-nums" }}>{a.value !== undefined ? `${a.value} ${unit === "months" ? "mo" : unit}` : (a.note ?? "—")}</text>
+          </g>
+        );
+      })}
+    </svg>
   );
 }
 
-export function Pictogram({ o }: { o: Outcome }) {
+export function Pictogram({ o, exportable = true }: { o: Outcome; exportable?: boolean }) {
   const hasValues = o.arms.some((a) => a.value !== undefined);
-  return (
-    <div className="card p-4">
-      <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
-        <div className="font-medium">{o.endpoint}{o.primary && <span className="chip ml-2 bg-foreground/5">primary</span>}</div>
-        <div className="text-xs text-muted tabular-nums">{o.hr !== undefined && <>HR {o.hr}{o.ci && ` (${o.ci[0]}–${o.ci[1]})`}</>}{o.p && <> · p {o.p.startsWith("<") || o.p.startsWith("=") ? o.p : `= ${o.p}`}</>}</div>
-      </div>
+  const body = (
+    <>
       {!hasValues && <p className="text-sm text-muted">{outcomeNote(o) || "Numbers not yet public."}</p>}
       {hasValues && o.unit === "%" && (
         <div className="grid gap-4 sm:grid-cols-2">
@@ -55,13 +63,51 @@ export function Pictogram({ o }: { o: Outcome }) {
         </div>
       )}
       {hasValues && o.unit !== "%" && <MonthBars o={o} />}
+    </>
+  );
+  return (
+    <div className="card p-4">
+      <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
+        <div className="font-medium">{o.endpoint}{o.primary && <span className="chip ml-2 bg-foreground/5">primary</span>}</div>
+        <div className="text-xs text-muted tabular-nums">{hrText(o)}{o.p && <> · p {o.p.startsWith("<") || o.p.startsWith("=") ? o.p : `= ${o.p}`}</>}</div>
+      </div>
+      {hasValues && exportable ? <ChartExport title={o.endpoint} source={o.source ?? "trial publication (see outcome source)"} filename={`outcome-${o.endpoint}`}>{body}</ChartExport> : body}
       {hasValues && outcomeNote(o) && <p className="text-xs text-muted mt-2">{outcomeNote(o)}</p>}
       {o.source && <a className="text-xs underline text-muted mt-2 inline-block" href={o.source} rel="noopener">Source</a>}
     </div>
   );
 }
 
-/** All outcomes for a trial as pictograms (primary first) and a compact table. */
+/** Published landmark survival curves for a trial, paired with the outcome that reports the hazard ratio for the same endpoint family. */
+export function SurvivalCurves({ t }: { t: Trial }) {
+  const curves = kmCurvesFor(t.id);
+  if (!curves.length) return null;
+  return (
+    <div className="space-y-3">
+      <div className="flex items-baseline justify-between gap-3 flex-wrap">
+        <h3 className="font-medium">Survival over time</h3>
+        <p className="text-xs text-muted">Step lines join published landmark estimates; the true curve between them is not shown.</p>
+      </div>
+      <div className="grid gap-3 lg:grid-cols-2">
+        {curves.map((c, i) => {
+          const match = t.outcomes.find((o) => endpointFamily(o.endpoint) === c.family && o.hr !== undefined);
+          return (
+            <div key={i} className="card p-4">
+              <div className="font-medium mb-2">{c.endpoint}</div>
+              <ChartExport title={`${t.name}: ${c.endpoint}`} source={c.sources[0]} filename={`${t.id}-${c.family}-curve`}>
+                <KMChart arms={c.arms} title={`${t.name} ${c.endpoint}`} annotation={match ? hrText(match) : undefined} />
+              </ChartExport>
+              {c.note && <p className="text-xs text-muted mt-2">{c.note}</p>}
+              <p className="text-xs text-muted mt-1">{c.sources.map((s, k) => <a key={k} className="underline mr-2" href={s} rel="noopener">Source {c.sources.length > 1 ? k + 1 : ""}</a>)}</p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+/** All outcomes for a trial as pictograms (primary first), survival curves where published, and a compact table. */
 export function TrialOutcomes({ t }: { t: Trial }) {
   if (!t.outcomes.length) return <p className="text-sm text-muted">No structured outcomes recorded yet{t.replication ? ` — ${t.replication}` : "."}</p>;
   const sorted = [...t.outcomes].sort((a, b) => Number(!!b.primary) - Number(!!a.primary));
@@ -69,6 +115,7 @@ export function TrialOutcomes({ t }: { t: Trial }) {
     <div className="space-y-4">
       {t.enrolled && <p className="text-sm text-muted">{t.enrolled.toLocaleString()} participants enrolled.</p>}
       <div className="grid gap-3 lg:grid-cols-2">{sorted.map((o, i) => <Pictogram key={i} o={o} />)}</div>
+      <SurvivalCurves t={t} />
       <OutcomeTable t={t} />
       {t.replication && <div className="card p-4 text-sm"><div className="kicker mb-1">Replication</div>{t.replication}</div>}
     </div>

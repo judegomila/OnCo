@@ -251,7 +251,7 @@ const terms: TermInput[] = [
     tldr: "HER2 drugs can weaken the heart's pumping, usually reversibly, so heart function is checked every three months during treatment.",
     summary: "Asymptomatic LVEF decline in 10-15% and symptomatic heart failure in 1-4% with trastuzumab, higher with prior or concurrent anthracyclines (NSABP B-31: 4.1% vs 0.8%). Mechanism: HER2 signalling maintains cardiomyocyte survival under stress. Management: hold for LVEF drop ≥16 points or below normal, ACE inhibitors/beta-blockers, rechallenge after recovery; anthracycline-free regimens (TCHP, T-DXd neoadjuvant) reduce risk.",
     drugs: ["trastuzumab", "pertuzumab"], technologies: ["cardio-oncology"], cancers: ["breast-her2-positive"], trials: ["persephone"] }),
-  term({ id: "biosimilar", name: "Biosimilar", category: "Regulatory", wikipedia: W("Biosimilar"),
+  term({ id: "biosimilar", aka: ["biosimilars", "biosimilar competition", "biosimilar uptake", "biosimilar versions", "biosimilar entry", "biosimilar switching"], name: "Biosimilar", category: "Regulatory", wikipedia: W("Biosimilar"),
     tldr: "A biosimilar is a copy of a biologic drug such as trastuzumab, shown to be as safe and effective as the original once its patent expires, usually at a lower price.",
     summary: "Approved via abbreviated pathways (FDA 351(k), EMA) on analytical, pharmacokinetic, and comparative clinical evidence. Oncology biosimilars (trastuzumab, bevacizumab, rituximab, pegfilgrastim) now dominate volume; interchangeability designations and WHO prequalification expand access.",
     drugs: ["trastuzumab-biosimilars", "trastuzumab"], cancers: ["breast-her2-positive"] }),

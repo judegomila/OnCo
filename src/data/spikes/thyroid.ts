@@ -174,7 +174,7 @@ const terms: TermInput[] = [
   term({ id: "tsh-suppression", name: "TSH suppression", category: "Clinical",
     tldr: "Giving slightly more thyroid hormone than the body needs after thyroid cancer surgery, to switch off the pituitary signal that could feed leftover cancer cells.",
     summary: "Levothyroxine dosed to keep TSH below normal; degree tailored to recurrence risk. Long-term over-suppression causes bone loss and atrial fibrillation, so guidelines now recommend normal-range TSH for low-risk patients after a few years.", cancers: ["thyroid"], terms: ["low-risk-dtc"] }),
-  term({ id: "tert-promoter", name: "TERT promoter mutation", category: "Genomics",
+  term({ id: "tert-promoter", aka: ["TERT promoter mutations"], name: "TERT promoter mutation", category: "Genomics",
     tldr: "A mutation that keeps the cell's immortality enzyme switched on. In thyroid cancer, having it alongside BRAF marks the tumours most likely to spread and resist iodine.",
     summary: "C228T and C250T mutations occur in ~10% of papillary and most anaplastic thyroid cancers; co-occurrence with BRAF V600E is synergistic for recurrence, distant metastasis, and mortality. Included in ThyroSeq and used for risk stratification; also a marker in glioma, melanoma, and bladder cancer.", cancers: ["thyroid", "melanoma", "glioblastoma", "urothelial"], targets: ["braf"], technologies: ["thyroid-fna-molecular"] }),
 ];

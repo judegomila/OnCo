@@ -9,21 +9,33 @@ let cached: Matcher<TermRef> | null = null;
 /** Kinds whose names are linked in prose. Glossary terms first so they win ties with equal-length names. */
 const KINDS_LINKED = ["term", "drug", "target", "technology", "cancer", "pathway", "trial", "company", "institution", "bottleneck", "journal", "person"] as const;
 /** Ordinary words that are also record names or aliases; never auto-linked. */
-const STOP = new Set(["cancer", "cell", "cells", "blood", "brain", "skin", "bone", "liver", "lung", "breast", "colon", "the", "and", "for", "with", "science", "nature", "cell press", "target", "trial", "study", "group", "center", "centre", "institute", "hospital", "university", "foundation", "society", "china", "japan", "europe", "united states", "other", "vision", "destiny", "ascent", "monarch", "paradigm", "checkmate", "keynote", "impassion", "javelin", "pacific", "aurora", "orbit", "spotlight"]);
+const STOP = new Set(["cancer", "cell", "cells", "blood", "brain", "skin", "bone", "liver", "lung", "breast", "colon", "the", "and", "for", "with", "science", "nature", "cell press", "target", "trial", "study", "group", "center", "centre", "institute", "hospital", "university", "foundation", "society", "china", "japan", "europe", "united states", "other", "vision", "destiny", "ascent", "monarch", "paradigm", "checkmate", "keynote", "impassion", "javelin", "pacific", "aurora", "orbit", "spotlight", "minimal"]);
+
+/** Two-letter glossary aliases worth linking despite the length floor: overall survival and lines of therapy. */
+const SHORT_OK = new Set(["os", "1l", "2l", "3l"]);
+
+/** Bracketed abbreviation in a record name: "Progression-free survival (PFS)" gives "PFS". */
+const abbrOf = (name: string) => name.match(/\(([A-Za-z0-9\-/ ]{2,12})\)/)?.[1];
 
 /** Name and alias patterns for every linkable record, deduplicated (glossary terms win on ties). */
 export function entityPatterns(): Array<{ pattern: string; ref: TermRef }> {
   const g = graph();
   const entries: Array<{ pattern: string; ref: TermRef }> = [];
+  // Names, aliases and abbreviations owned by non-glossary records. A glossary term's bracketed qualifier
+  // must not claim them: "Ulceration (melanoma)" is not the place "melanoma" should link.
+  const owned = new Set<string>();
+  for (const k of KINDS_LINKED) if (k !== "term") for (const t of g.kind(k)) for (const s of [t.name, abbrOf(t.name), ...t.aka]) if (s) owned.add(s.toLowerCase());
   for (const k of KINDS_LINKED) for (const t of g.kind(k)) {
     const ref: TermRef = { id: t.id, name: t.name, tldr: t.tldr, route: routeFor(t), kind: t.kind };
     const base = t.name.replace(/\s*\(.*?\)\s*$/, "").trim();
-    const abbr = t.name.match(/\(([A-Za-z0-9\-/ ]{2,12})\)/)?.[1];
+    let abbr = abbrOf(t.name);
+    // A lower-case parenthetical is a qualifier, not an abbreviation ("(melanoma)", "(myeloma)", "(disulfide)").
+    if (k === "term" && abbr && (/^[a-z ]+$/.test(abbr) || owned.has(abbr.toLowerCase()))) abbr = undefined;
     const min = k === "term" ? 3 : 4;
     // Glossary entries that name two things ("HER2-low and HER2-ultralow", "TILs / tumour-infiltrating lymphocytes") link from each.
     const halves = k === "term" ? base.split(/\s+(?:and|or|\/|&)\s+/).filter((h) => h.length >= min && h !== base) : [];
     for (const s of [base, abbr, ...halves, ...t.aka]) {
-      if (!s || s.length < min || /^\d+$/.test(s) || STOP.has(s.toLowerCase())) continue;
+      if (!s || (s.length < min && !(k === "term" && SHORT_OK.has(s.toLowerCase()))) || /^\d+$/.test(s) || STOP.has(s.toLowerCase())) continue;
       // Short all-lower-case words from non-glossary kinds are usually ordinary words; skip them.
       if (k !== "term" && /^[a-z]+$/.test(s) && s.length < 6) continue;
       entries.push({ pattern: s, ref });

@@ -138,7 +138,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "overexpression", name: "Overexpression", category: BIO,
-    aka: ["overexpressed", "overexpresses", "over-expression", "over-expressed", "overexpressing", "over-expressing", "abundant on"],
+    aka: ["overexpressed", "overexpresses", "over-expression", "over-expressed", "overexpressing", "over-expressing", "abundant on", "overexpress"],
     tldr: "When a cell makes much more of a particular protein than normal cells do. Drugs that home in on that protein can then hit the tumour harder than healthy tissue.",
     summary: "Overexpression can result from gene amplification, from a mutation in the gene's control region, or from signalling that keeps the gene switched on. It is what makes many antibody and ADC targets useful: TROP2, HER2, Nectin-4 and B7-H3 are all present at low levels on some normal cells but at far higher levels on particular tumours, so a targeted drug concentrates where the target is densest. Overexpression is scored by immunohistochemistry (0, 1+, 2+, 3+), and the threshold that counts as 'positive' can change as drugs improve, as happened with HER2-low.",
     wikipedia: W("Gene_expression"),
@@ -230,7 +230,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "phosphorylation", name: "Phosphorylation", category: BIO,
-    aka: ["phosphorylated", "phosphorylates", "phosphate group", "phosphate groups", "dephosphorylation", "phospho-"],
+    aka: ["phosphorylated", "phosphorylates", "phosphate group", "phosphate groups", "dephosphorylation", "phospho-", "phosphorylate"],
     tldr: "Attaching a small phosphate tag to a protein, which changes its shape and switches it on or off. It is the cell's main way of passing signals from one protein to the next.",
     summary: "Kinases add phosphates and phosphatases remove them, so the balance of the two determines whether a signal is flowing. In a growth pathway, each protein is phosphorylated by the one above it and then phosphorylates the one below, which is why a single stuck kinase can light up the entire chain. Detecting phosphorylated proteins (phospho-ERK, phospho-AKT) in tumour tissue is a direct readout of whether a pathway is active and whether a drug has actually switched it off.",
     wikipedia: W("Protein_phosphorylation"),
@@ -246,7 +246,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "agonist-antagonist", name: "Agonist and antagonist", category: BIO,
-    aka: ["agonist", "agonists", "antagonist", "antagonists", "receptor agonist", "receptor antagonist"],
+    aka: ["agonist", "agonists", "antagonist", "antagonists", "receptor agonist", "receptor antagonist", "receptor agonists"],
     tldr: "An agonist switches a receptor on, imitating the natural signal; an antagonist sits in the receptor and blocks it without switching it on. Cancer medicine uses both.",
     summary: "Antagonists are the more familiar: tamoxifen and fulvestrant occupy the oestrogen receptor so oestrogen cannot, and enzalutamide does the same to the androgen receptor. Agonists are used when switching something on helps, such as STING agonists that alarm the innate immune system, CD40 or 4-1BB agonists that stimulate immune cells, and GnRH agonists that paradoxically shut down testosterone production by overstimulating the pituitary. Partial agonists and selective modulators (SERMs) fall in between, activating a receptor in some tissues while blocking it in others.",
     wikipedia: W("Agonist"),
@@ -282,7 +282,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "monoclonal", name: "Monoclonal", category: BIO,
-    aka: ["monoclonal antibody", "monoclonal antibodies", "mAb", "mAbs"],
+    aka: ["monoclonal antibody", "monoclonal antibodies", "mAb", "mAbs", "monoclonals"],
     tldr: "Made from a single clone of cells, so every antibody molecule in the vial is identical and binds exactly the same spot. All therapeutic antibodies are monoclonal.",
     summary: "The immune system normally produces a mixture of antibodies against a target (polyclonal); the 1975 hybridoma technique of Köhler and Milstein made it possible to immortalise a single antibody-producing cell and harvest one uniform antibody from it. Early monoclonals were mouse proteins that the human body rejected; successive generations were chimeric (-ximab), humanised (-zumab) and fully human (-umab), and are now produced in cultured mammalian cells at ton scale. The word also describes tumours themselves: cancers are clonal, descending from a single cell, though they diversify into subclones over time.",
     wikipedia: W("Monoclonal_antibody"),
@@ -310,7 +310,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "proliferation", name: "Proliferation", category: BIO,
-    aka: ["proliferate", "proliferating", "proliferative", "cell proliferation", "anti-proliferative", "antiproliferative", "Ki-67", "Ki67"],
+    aka: ["proliferate", "proliferating", "proliferative", "cell proliferation", "anti-proliferative", "antiproliferative", "Ki-67", "Ki67", "proliferates"],
     tldr: "Rapid multiplication of cells. A tumour's proliferation rate, often measured by the marker Ki-67, tells you how fast it is growing and how it may respond to treatment.",
     summary: "Proliferation is the net result of cell division outpacing cell death; in a healthy tissue the two are balanced, and a tumour is a tissue where the balance has tipped. Pathologists estimate it by counting cells in mitosis or staining for Ki-67, a protein present only in dividing cells; a high index means an aggressive tumour that may respond well to chemotherapy but relapse quickly, a low index a slower tumour that may suit hormone therapy or watchful waiting. 'Sustaining proliferative signalling' is the first hallmark of cancer, and 'anti-proliferative' describes any drug that slows division rather than killing cells outright.",
     wikipedia: W("Cell_proliferation"),
@@ -326,7 +326,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "stem-cell", name: "Stem cell", category: BIO,
-    aka: ["stem cells", "stem-cell", "stem-cells", "cancer stem cell", "cancer stem cells", "haematopoietic stem cell", "hematopoietic stem cell", "stem cell transplant", "stem-cell transplant", "bone marrow transplant"],
+    aka: ["stem cells", "stem-cell", "stem-cells", "cancer stem cell", "cancer stem cells", "haematopoietic stem cell", "hematopoietic stem cell", "stem cell transplant", "stem-cell transplant", "bone marrow transplant", "haematopoietic stem cells", "hematopoietic stem cells"],
     tldr: "A cell that can both copy itself indefinitely and produce the specialised cells of a tissue. Cancers may be sustained by a small population of stem-like cells that survive treatment and regrow the tumour.",
     summary: "Blood stem cells in the bone marrow make every red cell, white cell and platelet for life, which is why chemotherapy that damages them causes anaemia, infection risk and bleeding, and why a stem cell transplant can rescue a patient after very high-dose treatment. The cancer stem cell idea holds that tumours are hierarchies too, with a minority of self-renewing cells at the top that are more resistant to chemotherapy and radiation; it is well supported in leukaemia and debated in solid tumours. Drugs aimed at stem-like states (against Wnt, Notch and Hedgehog signalling) have been largely disappointing so far.",
     wikipedia: W("Stem_cell"),
@@ -350,7 +350,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "angiogenesis", name: "Angiogenesis", category: BIO,
-    aka: ["angiogenic", "anti-angiogenic", "antiangiogenic", "anti-angiogenesis", "new blood vessels", "blood vessel growth", "neovascularisation", "neovascularization", "tumour vasculature", "tumor vasculature", "vascularised", "vascularized"],
+    aka: ["angiogenic", "anti-angiogenic", "antiangiogenic", "anti-angiogenesis", "new blood vessels", "blood vessel growth", "neovascularisation", "neovascularization", "tumour vasculature", "tumor vasculature", "vascularised", "vascularized", "anti-angiogenics"],
     tldr: "The growth of new blood vessels. A tumour bigger than a pinhead needs its own blood supply and sends out signals (mainly VEGF) to recruit one; anti-angiogenic drugs cut that supply.",
     summary: "Starved of oxygen, tumour cells switch on the HIF transcription factor and secrete VEGF and other growth factors that make nearby blood vessels sprout towards them; the resulting vessels are leaky and disorganised, which raises pressure inside the tumour and hampers drug delivery. 'Inducing angiogenesis' is one of the hallmarks of cancer, and drugs that block VEGF (bevacizumab) or its receptors (sunitinib, lenvatinib, cabozantinib) are standard in kidney, liver, colorectal and other cancers, though they slow rather than cure. Normalising rather than destroying tumour vessels may improve delivery of chemotherapy and immune cells, and VEGF also suppresses immune cells, which is one rationale for combining anti-angiogenics with immunotherapy.",
     wikipedia: W("Angiogenesis"),
@@ -370,7 +370,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "primary-tumour", name: "Primary tumour", category: BIO,
-    aka: ["primary tumours", "primary tumor", "primary tumors", "primary site", "primary cancer", "the primary", "site of origin", "unknown primary", "cancer of unknown primary", "secondary tumour", "secondary tumours", "secondaries"],
+    aka: ["primary tumours", "primary tumor", "primary tumors", "primary site", "primary cancer", "the primary", "site of origin", "unknown primary", "cancer of unknown primary", "secondary tumour", "secondary tumours", "secondaries", "primary cancers"],
     tldr: "The original tumour where a cancer started. Cancer is named after this site for life: a breast cancer that spreads to the liver is still breast cancer, not liver cancer.",
     summary: "The primary defines the cancer's biology, its likely drivers and its treatment, because the spread cells (metastases or secondaries) inherit its identity; a pathologist can usually recognise the origin from the cells' appearance and markers. Local treatments, surgery and radiotherapy, are aimed at the primary and can cure a cancer that has not spread; once distant metastases exist, removing the primary usually no longer cures, though it may still relieve symptoms. In about two percent of cases, the primary is never found (cancer of unknown primary), and genomic profiling is increasingly used to infer where it came from.",
     wikipedia: W("Primary_tumor"),
@@ -378,7 +378,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "metastasis", name: "Metastasis", category: BIO,
-    aka: ["metastases", "metastatic", "metastasise", "metastasize", "metastasised", "metastasized", "metastasising", "metastasizing", "distant spread", "spread to", "secondary cancer", "secondary cancers", "stage IV", "stage 4", "advanced cancer", "advanced disease", "metastatic disease"],
+    aka: ["metastases", "metastatic", "metastasise", "metastasize", "metastasised", "metastasized", "metastasising", "metastasizing", "distant spread", "spread to", "secondary cancer", "secondary cancers", "stage IV", "stage 4", "advanced cancer", "advanced disease", "metastatic disease", "advanced cancers"],
     tldr: "Cancer that has spread from where it started to distant parts of the body, travelling through the blood or lymph. Metastasis is why staging scans look at the whole body, and the setting in which most new cancer drugs are approved first.",
     summary: "To metastasise, a cell must break away from the primary, invade through tissue into a blood or lymph vessel, survive the journey, exit at a distant organ, and grow there; each step is inefficient, yet enough cells succeed that around ninety percent of cancer deaths are due to metastases rather than the primary. Common destinations depend on the cancer (bone for prostate and breast, liver for colorectal, brain for lung and melanoma). Metastatic cancer is stage IV and is usually treated with systemic therapy rather than surgery, aiming at long control rather than cure, though a few sites (limited liver metastases in colorectal cancer, oligometastatic disease) can still be treated with curative intent.",
     wikipedia: W("Metastasis"),
@@ -418,7 +418,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "sarcoma-type", name: "Sarcoma (tissue type)", category: BIO,
-    aka: ["sarcomas", "soft-tissue sarcoma", "soft tissue sarcoma", "bone sarcoma", "connective tissue cancer", "mesenchymal"],
+    aka: ["sarcomas", "soft-tissue sarcoma", "soft tissue sarcoma", "bone sarcoma", "connective tissue cancer", "mesenchymal", "bone sarcomas", "soft-tissue sarcomas"],
     tldr: "Cancer of the body's connective and supporting tissues: bone, muscle, fat, cartilage, blood vessels, fibrous tissue. Rare (about 1% of adult cancers) but relatively common in children.",
     summary: "Sarcomas come from mesenchymal cells rather than the epithelial lining cells that give rise to carcinomas, and there are more than seventy subtypes, many defined by a specific gene fusion (EWSR1-FLI1 in Ewing sarcoma, SS18-SSX in synovial sarcoma) or by a single driver (KIT in GIST). They are treated in specialist centres by surgery and radiotherapy, with chemotherapy for the more aggressive types; GIST was one of the first solid tumours transformed by a targeted drug (imatinib), and fusion-defined sarcomas are natural candidates for precision approaches. Because they are rare and diverse, sarcomas depend heavily on referral networks, registries and international trials.",
     wikipedia: W("Sarcoma"),
@@ -426,7 +426,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "lymphoma-type", name: "Lymphoma (tissue type)", category: BIO,
-    aka: ["lymphomas", "lymphoid malignancy", "lymphoid malignancies", "Hodgkin", "non-Hodgkin", "B-cell lymphoma", "B-cell lymphomas", "T-cell lymphoma"],
+    aka: ["lymphomas", "lymphoid malignancy", "lymphoid malignancies", "Hodgkin", "non-Hodgkin", "B-cell lymphoma", "B-cell lymphomas", "T-cell lymphoma", "T-cell lymphomas"],
     tldr: "Cancer of lymphocytes, the white blood cells of the immune system, usually growing as masses in lymph nodes, spleen or other organs. Divided into Hodgkin and the many non-Hodgkin types.",
     summary: "Most lymphomas arise from B cells and keep surface markers such as CD19, CD20 and CD30, which has made them the proving ground for antibody therapy (rituximab, 1997), ADCs (brentuximab vedotin), CAR-T (axicabtagene, 2017) and bispecific T-cell engagers (glofitamab); diffuse large B-cell lymphoma is the commonest type and is often curable with chemo-immunotherapy. Hodgkin lymphoma, defined by its Reed-Sternberg cells, is highly curable and exceptionally responsive to PD-1 blockade. Lymphomas and leukaemias overlap: the same malignant lymphocyte can present as a mass (lymphoma) or circulate in the blood (leukaemia).",
     wikipedia: W("Lymphoma"),
@@ -434,7 +434,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "leukaemia-type", name: "Leukaemia (tissue type)", category: BIO,
-    aka: ["leukaemias", "leukemia", "leukemias", "leukemic", "leukaemic", "blood cancer", "blood cancers", "haematological malignancy", "haematological malignancies", "hematologic malignancy", "hematologic malignancies", "haematological cancer", "haematological cancers", "liquid tumour", "liquid tumours", "acute leukaemia", "chronic leukaemia"],
+    aka: ["leukaemias", "leukemia", "leukemias", "leukemic", "leukaemic", "blood cancer", "blood cancers", "haematological malignancy", "haematological malignancies", "hematologic malignancy", "hematologic malignancies", "haematological cancer", "haematological cancers", "liquid tumour", "liquid tumours", "acute leukaemia", "chronic leukaemia", "acute leukaemias", "haematologic malignancies", "haematologic malignancy"],
     tldr: "Cancer of the blood-forming cells in the bone marrow, which flood the blood with immature or abnormal white cells and crowd out normal blood production. It has no single lump to remove.",
     summary: "Leukaemias are classed as acute (fast, immature cells, needs urgent treatment) or chronic (slow, more mature cells), and as myeloid or lymphoid by the cell lineage: AML, ALL, CML and CLL. Because leukaemia cells are accessible in blood and marrow, they were the first cancers to be treated with combination chemotherapy (childhood ALL, 1960s), the first with a targeted drug (imatinib for CML, 2001), the first with CAR-T (ALL, 2017), and the first where measuring residual disease guided therapy. Along with lymphomas and myeloma they form the haematological malignancies, which make up roughly a tenth of all cancers.",
     wikipedia: W("Leukemia"),
@@ -462,7 +462,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "cancer-stage", name: "Stage", category: CLINIC,
-    aka: ["stages", "staging", "stage I", "stage II", "stage III", "stage 1", "stage 2", "stage 3", "early-stage", "early stage", "late-stage", "late stage", "locally advanced", "localised", "localized", "regional spread", "staged", "restaging", "upstaged", "downstaged"],
+    aka: ["stages", "staging", "stage I", "stage II", "stage III", "stage 1", "stage 2", "stage 3", "early-stage", "early stage", "late-stage", "late stage", "locally advanced", "localised", "localized", "regional spread", "staged", "restaging", "upstaged", "downstaged", "stage IA", "stage IB", "stage IIB", "stage I-III", "stage II-III"],
     tldr: "How far a cancer has spread, from stage I (small and confined) to stage IV (spread to distant organs). Stage is the single strongest guide to treatment and prognosis.",
     summary: "Stage combines the size and local extent of the primary tumour, whether lymph nodes are involved, and whether there are distant metastases, formalised in the TNM system and grouped into stages I to IV; stage 0 is cancer in situ. Stages I to III are usually treated with curative intent by surgery or radiotherapy, often with drugs before or after, while stage IV is generally treated with systemic therapy to control rather than cure. Stage is determined by imaging and pathology at diagnosis ('clinical' and 'pathological' stage) and is not changed if the cancer later spreads, though the patient is then said to have metastatic or recurrent disease.",
     wikipedia: W("Cancer_staging"),
@@ -470,7 +470,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "in-situ", name: "In situ", category: CLINIC,
-    aka: ["carcinoma in situ", "in-situ", "ductal carcinoma in situ", "DCIS", "stage 0", "pre-invasive", "preinvasive", "pre-cancer", "precancer", "precancerous", "pre-cancerous", "premalignant", "pre-malignant", "dysplasia", "high-grade dysplasia"],
+    aka: ["carcinoma in situ", "in-situ", "ductal carcinoma in situ", "DCIS", "stage 0", "pre-invasive", "preinvasive", "pre-cancer", "precancer", "precancerous", "pre-cancerous", "premalignant", "pre-malignant", "dysplasia", "high-grade dysplasia", "precancers"],
     tldr: "Latin for 'in place': abnormal cells that look like cancer but have not yet broken through the layer they started in. Stage 0. Not yet able to spread, and usually curable by removing it.",
     summary: "Ductal carcinoma in situ (DCIS) of the breast, cervical intraepithelial neoplasia found by smear tests, and high-grade dysplasia in Barrett's oesophagus or colon polyps are all in situ or precancerous lesions; the basement membrane beneath the epithelium is still intact, so the cells have no access to blood or lymph vessels. Screening programmes detect many such lesions, which is both their strength (removing them prevents cancer) and their difficulty (many would never have progressed, so some treatment is overtreatment). Trials such as LORIS and COMET test whether low-risk DCIS can safely be watched rather than removed.",
     wikipedia: W("Carcinoma_in_situ"),
@@ -526,7 +526,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "genomic-profiling", name: "Genomic profiling", category: CLINIC,
-    aka: ["genomic testing", "genomic test", "genomic tests", "molecular profiling", "molecular testing", "molecular test", "tumour sequencing", "tumor sequencing", "tumour profiling", "tumor profiling", "gene panel", "gene panels", "panel testing", "panel sequencing", "genotyping", "genotyped", "mutation testing", "sequenced", "sequencing"],
+    aka: ["genomic testing", "genomic test", "genomic tests", "molecular profiling", "molecular testing", "molecular test", "tumour sequencing", "tumor sequencing", "tumour profiling", "tumor profiling", "gene panel", "gene panels", "panel testing", "panel sequencing", "genotyping", "genotyped", "mutation testing", "sequenced", "sequencing", "molecular tests"],
     tldr: "Reading the DNA (and sometimes RNA) of a tumour to list the mutations it carries and match them to drugs. Now routine in lung, colorectal, breast, prostate and many other cancers.",
     summary: "Most clinical profiling uses a targeted panel of a few hundred cancer-relevant genes sequenced from a biopsy or from blood (liquid biopsy); comprehensive genomic profiling (CGP) reports mutations, amplifications, fusions, tumour mutational burden and microsatellite status in one assay. The result is matched to approved drugs, trials and resistance mechanisms, ideally in a molecular tumour board, and guidelines now require testing before first-line treatment in several cancers. Limits include tumours with no actionable finding (still the majority in many types), variants of uncertain significance, sampling one spot of a heterogeneous tumour, and unequal access.",
     wikipedia: W("Cancer_genome_sequencing"),
@@ -606,7 +606,7 @@ export const termsBasics: TermInput[] = [
   // =====================================================================================
   t({
     id: "immunotherapy-term", name: "Immunotherapy", category: CLINIC,
-    aka: ["immunotherapies", "immuno-oncology", "immunooncology", "IO", "cancer immunotherapy", "immune therapy", "immune-based therapy", "immune-based therapies", "chemo-immunotherapy", "chemoimmunotherapy", "chemo-IO"],
+    aka: ["immunotherapies", "immuno-oncology", "immunooncology", "IO", "cancer immunotherapy", "immune therapy", "immune-based therapy", "immune-based therapies", "chemo-immunotherapy", "chemoimmunotherapy", "chemo-IO", "immune therapies"],
     tldr: "Any treatment that works by getting the patient's own immune system to attack the cancer, rather than attacking the cancer directly. It can produce responses that last for years, but only in some patients.",
     summary: "The main forms are checkpoint inhibitors (antibodies that release the brakes on T cells), cell therapies (CAR-T, TCR-T and TIL, in which a patient's T cells are removed, engineered or expanded, and returned), bispecific T-cell engagers, cancer vaccines including personalised mRNA vaccines, cytokines, and oncolytic viruses. Because the immune system has memory, responses can persist long after treatment stops, which is why the survival curves for melanoma and lung cancer now show a plateau of long-term survivors; the flip side is autoimmune side effects and the fact that many tumours remain 'cold' and unresponsive. Predicting who will respond, and turning cold tumours hot, are two of the field's central problems.",
     wikipedia: W("Cancer_immunotherapy"),
@@ -638,7 +638,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "radiotherapy", name: "Radiotherapy", category: CLINIC,
-    aka: ["radiation therapy", "radiation treatment", "radiation", "irradiation", "irradiated", "radiotherapy fractions", "fractionation", "hypofractionated", "chemoradiotherapy", "chemoradiation", "radiation oncology", "radiation oncologist", "radiosensitiser", "radiosensitizer", "radiosensitive", "radioresistant", "external beam"],
+    aka: ["radiation therapy", "radiation treatment", "radiation", "irradiation", "irradiated", "radiotherapy fractions", "fractionation", "hypofractionated", "chemoradiotherapy", "chemoradiation", "radiation oncology", "radiation oncologist", "radiosensitiser", "radiosensitizer", "radiosensitive", "radioresistant", "external beam", "radiation oncologists", "radiosensitisers"],
     tldr: "Using high-energy X-rays or particles to damage the DNA of cancer cells in a precisely aimed volume of the body. It cures many localised cancers and relieves symptoms in advanced ones, and about half of all cancer patients receive it.",
     summary: "Modern radiotherapy shapes beams to the tumour from many angles (IMRT, image-guided and stereotactic techniques) so that the tumour gets a lethal dose while surrounding tissue gets much less; treatment is usually split into daily fractions over one to seven weeks to let normal tissue repair, though ultra-short courses (SBRT) are increasingly used. It is a local therapy, curative on its own in early prostate, larynx, cervix and skin cancers, combined with chemotherapy in head and neck, lung, oesophageal and rectal cancers, and used after surgery to sterilise the operative bed. Protons and carbon ions spare more normal tissue; radiation may also help immunotherapy by releasing tumour antigens (the abscopal effect), and radioligand therapy delivers radiation internally through a targeting molecule.",
     wikipedia: W("Radiation_therapy"),
@@ -750,7 +750,7 @@ export const termsBasics: TermInput[] = [
   // =====================================================================================
   t({
     id: "clinical-trial", name: "Clinical trial", category: CLINIC,
-    aka: ["clinical trials", "clinical study", "clinical studies", "enrolled", "enrolment", "enrollment", "enrolling", "recruiting", "trial participants", "trial arm", "experimental arm", "control arm", "comparator arm", "single-arm", "single arm", "investigational"],
+    aka: ["clinical trials", "clinical study", "clinical studies", "enrolled", "enrolment", "enrollment", "enrolling", "recruiting", "trial participants", "trial arm", "experimental arm", "control arm", "comparator arm", "single-arm", "single arm", "investigational", "trial participant"],
     tldr: "A research study that tests a treatment in volunteers under strict rules, to find out whether it is safe and whether it works. Every approved cancer drug went through several.",
     summary: "Trials have a written protocol specifying who may join, what they receive, what is measured and how the results will be analysed, and are overseen by ethics committees and regulators; participants give informed consent and are usually monitored more closely than in routine care. Cancer trials progress through phases, from small safety studies to large randomised comparisons against the standard of care, and their results, reported at congresses such as ASCO and ESMO and in journals, are what change practice and win approvals. Fewer than one in ten adult cancer patients take part, participation is skewed towards younger, wealthier and white patients, and the cost and duration of trials is one of the field's main bottlenecks.",
     wikipedia: W("Clinical_trial"),
@@ -758,7 +758,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "trial-phases", name: "Phase 1, 2 and 3 trials", category: CLINIC,
-    aka: ["phase 1", "phase 2", "phase 3", "phase I", "phase II", "phase III", "phase 1/2", "phase I/II", "phase 2/3", "phase II/III", "phase 4", "phase IV", "first-in-human", "first in human", "dose-escalation", "dose escalation", "dose-finding", "pivotal trial", "pivotal trials", "pivotal", "registrational", "confirmatory trial", "confirmatory trials", "early-phase", "early phase", "late-phase", "late phase", "late-stage trial"],
+    aka: ["phase 1", "phase 2", "phase 3", "phase I", "phase II", "phase III", "phase 1/2", "phase I/II", "phase 2/3", "phase II/III", "phase 4", "phase IV", "first-in-human", "first in human", "dose-escalation", "dose escalation", "dose-finding", "pivotal trial", "pivotal trials", "pivotal", "registrational", "confirmatory trial", "confirmatory trials", "early-phase", "early phase", "late-phase", "late phase", "late-stage trial", "late-stage trials"],
     tldr: "The three stages a new drug passes through: phase 1 finds a safe dose in a few dozen patients, phase 2 looks for signs of activity in a hundred or so, and phase 3 compares it with the standard treatment in hundreds or thousands.",
     summary: "Phase 1 escalates the dose in small groups until side effects limit it, defining the maximum tolerated dose and the dose for later study; in oncology, phase 1 patients have usually exhausted standard options and modern phase 1 trials often expand into hundreds of patients with early efficacy readouts. Phase 2 tests the chosen dose for response in a specific cancer, sometimes randomised and sometimes single-arm, and phase 3 is the large randomised, often blinded, comparison against the standard of care that regulators normally require for full approval. Phase 4 studies follow a marketed drug. Only around 5% of oncology drugs entering phase 1 reach approval, and around a third of phase 3 trials fail, which is a major driver of drug cost.",
     wikipedia: W("Phases_of_clinical_research"),
@@ -766,7 +766,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "randomised-trial", name: "Randomised trial", category: CLINIC,
-    aka: ["randomised", "randomized", "randomisation", "randomization", "randomly assigned", "randomised controlled trial", "randomized controlled trial", "RCT", "RCTs", "randomised trials", "randomized trials", "randomised phase 3", "randomized phase 3", "controlled trial", "head-to-head"],
+    aka: ["randomised", "randomized", "randomisation", "randomization", "randomly assigned", "randomised controlled trial", "randomized controlled trial", "RCT", "RCTs", "randomised trials", "randomized trials", "randomised phase 3", "randomized phase 3", "controlled trial", "head-to-head", "controlled trials", "randomized trial"],
     tldr: "A trial in which a coin toss (done by computer) decides which treatment each patient gets, so the groups are alike in every way except the treatment. It is the only reliable way to prove a treatment causes a benefit.",
     summary: "Without randomisation, patients who receive a new drug tend to differ from those who do not (fitter, younger, treated at better centres), and those differences, not the drug, may explain a better outcome; randomising removes this bias, and analysing every patient in the group they were assigned to (intention-to-treat) preserves it. The control group receives the current standard of care, sometimes with a placebo added so that the two arms look identical, and the trial is powered so that a real difference of a given size is unlikely to be missed. Large randomised trials are slow and expensive, which is why surrogate endpoints, single-arm accelerated approvals and real-world evidence are all attempts to shortcut them, each with known pitfalls.",
     wikipedia: W("Randomized_controlled_trial"),
@@ -806,7 +806,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "hazard-ratio-basics", name: "Reading a hazard ratio", category: CLINIC,
-    aka: ["hazard ratios", "relative risk", "risk reduction", "relative risk reduction", "reduced the risk of", "lower risk of death", "risk of death or progression", "risk of progression or death"],
+    aka: ["hazard ratios", "relative risk", "risk reduction", "relative risk reduction", "reduced the risk of", "lower risk of death", "risk of death or progression", "risk of progression or death", "relative risks"],
     tldr: "A hazard ratio of 0.70 means that at any given moment patients on the new treatment had 30% less risk of the event (death, progression) than those on the comparison. It says nothing about how many months that is worth.",
     summary: "The hazard ratio comes from a model that compares event rates across the entire follow-up period, not just at one time point; the confidence interval around it must exclude 1.0 for the difference to be considered statistically significant, and the closer to zero, the larger the effect. Because it is relative, the same hazard ratio can mean very different absolute gains: 0.70 might add one month to a median of three, or two years to a median of six, so it should always be read alongside the median difference and the survival curves. A hazard ratio also assumes the effect is roughly constant over time, which immunotherapy, with its delayed benefit and long tail, often violates.",
     wikipedia: W("Hazard_ratio"),
@@ -842,7 +842,7 @@ export const termsBasics: TermInput[] = [
   // =====================================================================================
   t({
     id: "dose", name: "Dose", category: CLINIC,
-    aka: ["doses", "dosing", "dosage", "dosed", "dose level", "dose levels", "dose reduction", "dose reductions", "dose-reduced", "dose interruption", "dose modification", "dose modifications", "dose-limiting", "dose-limiting toxicity", "maximum tolerated dose", "MTD", "recommended phase 2 dose", "RP2D", "mg/kg", "mg/m²", "mg/m2", "flat dose", "weight-based", "every 3 weeks", "every three weeks", "Q3W", "Q2W", "cycles", "treatment cycle", "treatment cycles", "dosing schedule", "optimal dose", "dose optimisation", "dose optimization"],
+    aka: ["doses", "dosing", "dosage", "dosed", "dose level", "dose levels", "dose reduction", "dose reductions", "dose-reduced", "dose interruption", "dose modification", "dose modifications", "dose-limiting", "dose-limiting toxicity", "maximum tolerated dose", "MTD", "recommended phase 2 dose", "RP2D", "mg/kg", "mg/m²", "mg/m2", "flat dose", "weight-based", "every 3 weeks", "every three weeks", "Q3W", "Q2W", "cycles", "treatment cycle", "treatment cycles", "dosing schedule", "optimal dose", "dose optimisation", "dose optimization", "flat doses"],
     tldr: "How much of a drug is given, how often, and for how long. Cancer drugs have long been given at the highest dose a patient can stand, and regulators are now pushing for doses chosen for benefit rather than tolerability.",
     summary: "Chemotherapy doses are usually scaled to body surface area (mg/m²) or weight (mg/kg) and given in cycles, typically every one to three weeks, to let bone marrow recover; targeted drugs and antibodies are increasingly given at fixed doses. The traditional phase 1 approach escalates until side effects become dose-limiting and sets the maximum tolerated dose as the dose for later trials, a logic that suits chemotherapy but not targeted drugs, which may saturate their target well below the toxic dose; the FDA's Project Optimus now requires sponsors to compare doses. Dose reductions and interruptions for side effects are common in practice and do not necessarily reduce efficacy, as trials with lower-dose arms have shown for several drugs.",
     wikipedia: W("Dose_(biochemistry)"),
@@ -922,7 +922,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "mortality", name: "Mortality", category: CLINIC,
-    aka: ["mortality rate", "mortality rates", "cancer mortality", "cancer deaths", "deaths per 100,000", "death rate", "death rates", "cancer-specific mortality", "disease-specific mortality", "all-cause mortality", "case fatality", "mortality benefit", "mortality reduction", "reduce mortality", "reduces mortality", "fatal"],
+    aka: ["mortality rate", "mortality rates", "cancer mortality", "cancer deaths", "deaths per 100,000", "death rate", "death rates", "cancer-specific mortality", "disease-specific mortality", "all-cause mortality", "case fatality", "mortality benefit", "mortality reduction", "reduce mortality", "reduces mortality", "fatal", "cancer death"],
     tldr: "The number of deaths from a disease in a population per year. Cancer mortality has fallen about a third since 1991 in the US, mostly from less smoking, earlier detection and better treatment.",
     summary: "Mortality rates are the hardest and most important measure of progress because they are immune to the biases that inflate incidence and survival statistics: finding more harmless cancers raises incidence and apparent survival but does not reduce deaths. A screening test is only proven if it lowers disease-specific mortality in a randomised trial, as mammography, colonoscopy and low-dose CT for smokers have and PSA screening only marginally has; 'stage shift' is a surrogate for this. Cancer is now the leading cause of death in many high-income countries as heart disease declines, and global cancer deaths are rising with ageing populations even as age-adjusted rates fall.",
     wikipedia: W("Mortality_rate"),
@@ -930,7 +930,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "risk-factor", name: "Risk factor", category: CLINIC,
-    aka: ["risk factors", "risk-factor", "risk-factors", "modifiable risk factor", "modifiable risk factors", "carcinogen", "carcinogens", "carcinogenic", "cancer risk", "increased risk", "elevated risk", "higher risk", "relative risk of", "predisposition", "predisposing", "exposure to", "exposures", "attributable"],
+    aka: ["risk factors", "risk-factor", "risk-factors", "modifiable risk factor", "modifiable risk factors", "carcinogen", "carcinogens", "carcinogenic", "cancer risk", "increased risk", "elevated risk", "higher risk", "relative risk of", "predisposition", "predisposing", "exposure to", "exposures", "attributable", "cancer risks"],
     tldr: "Anything that raises the chance of developing a cancer: smoking, alcohol, obesity, sunlight, certain infections, inherited genes, age. Having a risk factor does not mean getting cancer, and many cancers occur without any known one.",
     summary: "Around 40% of cancers in high-income countries are attributable to modifiable factors, tobacco alone causing about a fifth of cancer deaths, followed by excess weight, alcohol, infections (HPV, hepatitis B and C, H. pylori), ultraviolet light, and inactivity; the IARC classifies agents by the strength of evidence that they cause cancer in humans. Non-modifiable factors include age (the biggest), sex, inherited mutations, and family history. Risk factors drive prevention (vaccination, smoking cessation, alcohol policy), define who is offered screening (heavy smokers for lung CT, BRCA carriers for MRI), and, through the mutational signatures they leave, can sometimes be read directly from a tumour's DNA.",
     wikipedia: W("Risk_factor"),
@@ -958,7 +958,7 @@ export const termsBasics: TermInput[] = [
   // =====================================================================================
   t({
     id: "in-vitro-in-vivo", name: "In vitro and in vivo", category: BIO,
-    aka: ["in vitro", "in vivo", "in-vitro", "in-vivo", "ex vivo", "ex-vivo", "in silico", "in the dish", "in a dish", "test tube", "in the laboratory", "laboratory studies", "lab studies", "in animals", "animal studies", "animal models"],
+    aka: ["in vitro", "in vivo", "in-vitro", "in-vivo", "ex vivo", "ex-vivo", "in silico", "in the dish", "in a dish", "test tube", "in the laboratory", "laboratory studies", "lab studies", "in animals", "animal studies", "animal models", "animal study"],
     tldr: "In vitro means 'in glass': experiments on cells or molecules in a dish. In vivo means 'in the living': experiments in animals or people. A drug that kills cancer cells in vitro has cleared only the first and easiest hurdle.",
     summary: "In vitro work (cell lines, purified proteins, organoids) is fast, cheap and controlled and is where targets are discovered and drugs first tested, but it lacks the immune system, blood supply, metabolism and toxicity of a whole organism. In vivo work in mice, often carrying transplanted human tumours, adds those features imperfectly; ex vivo means tissue taken from a patient and tested outside the body, and in silico means computer modelling. The gap between these models and patients is one of the main reasons most drugs that look promising in the lab fail in trials.",
     wikipedia: W("In_vitro"),

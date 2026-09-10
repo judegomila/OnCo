@@ -187,7 +187,7 @@ const terms: TermInput[] = [
     tldr: "Throat cancers caused by the human papillomavirus, identified by a p16 stain. They affect younger non-smokers and are far more curable than tobacco-related cancers.",
     summary: "p16 immunohistochemistry is the surrogate for HPV-driven oropharyngeal cancer (confirmed by HPV DNA/RNA where required). Incidence is rising in Western countries and now exceeds cervical cancer in the US. Separate AJCC 8th-edition staging; 3-year OS >80% with chemoradiation (RTOG 0129). De-escalation trials have so far failed to identify who can safely receive less treatment; HPV vaccination is expected to reduce incidence from the 2030s.",
     cancers: ["head-and-neck"], technologies: ["hpv-vaccine", "cthpv-dna"], trials: ["rtog-0129", "nrg-hn002-hn005"] }),
-  term({ id: "lgr5", name: "LGR5", category: "Biology",
+  term({ id: "lgr5", name: "LGR5", category: "Biology", wikipedia: W("LGR5"),
     tldr: "A marker of stem cells in the gut and of stem-like cells in tumours, used to aim drugs at the cells that regrow a cancer.",
     summary: "Leucine-rich repeat-containing G-protein-coupled receptor 5, a Wnt target gene marking intestinal and tumour stem cells. Petosemtamab exploits LGR5 binding to degrade EGFR selectively in tumour cells; LGR5 ADCs have been explored.",
     cancers: ["head-and-neck", "colorectal"], drugs: ["petosemtamab"], pathways: ["wnt"] }),

@@ -239,10 +239,10 @@ const terms: TermInput[] = [
   term({ id: "ulceration-melanoma", name: "Ulceration (melanoma)", category: "Pathology",
     tldr: "Loss of the skin surface over a melanoma under the microscope; a sign of aggressive biology that raises the stage.",
     summary: "Present in roughly a quarter of primary melanomas; independently worsens prognosis and defines the 'b' substage at each T level. Historically predicted benefit from interferon; today it helps define stage IIB/IIC, where adjuvant PD-1 is approved.", cancers: ["melanoma"], terms: ["breslow-thickness"] }),
-  term({ id: "major-pathological-response", name: "Major pathological response (MPR)", category: "Endpoints",
+  term({ id: "major-pathological-response", aka: ["major pathologic response", "≤10% viable tumour"], name: "Major pathological response (MPR)", category: "Endpoints",
     tldr: "When, after pre-surgery treatment, the removed tumour contains little or no living cancer: 10% or less viable cells.",
     summary: "Defined by the International Neoadjuvant Melanoma Consortium as ≤10% viable tumour (pathological complete response is 0%). In NADINA and earlier OpCACI trials, MPR predicted very low relapse risk and was used to decide whether adjuvant therapy could be omitted. The melanoma analogue of pCR in breast cancer.", cancers: ["melanoma"], trials: ["nadina"], terms: ["pcr", "neoadjuvant-adjuvant"] }),
-  term({ id: "hla-a02-restriction", name: "HLA-A*02:01 restriction", category: "Immunology",
+  term({ id: "hla-a02-restriction", name: "HLA-A*02:01 restriction", category: "Immunology", wikipedia: W("HLA-A*02"),
     tldr: "Some T-cell-receptor drugs only work in people with a particular immune 'tissue type'. About half of people of European ancestry have it; far fewer in some other populations.",
     summary: "Tebentafusp, brenetafusp, and afamitresgene autoleucel recognise peptides presented on HLA-A*02:01, so eligibility requires a blood test. Frequencies vary from ~45-50% in Europeans to under 20% in some African and East Asian populations, creating an equity problem that next-generation TCR agents against other alleles aim to address.", cancers: ["melanoma", "sarcoma"], drugs: ["tebentafusp", "brenetafusp", "afamitresgene-autoleucel"], technologies: ["tcr-t", "t-cell-engager"] }),
 ];

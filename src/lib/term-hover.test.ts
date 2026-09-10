@@ -55,4 +55,18 @@ describe("corpus auto-linking", () => {
     // ... and the HER2 target is not linked from inside the hyphenated compound.
     expect(hrefs).not.toContain("/targets/her2/");
   });
+
+  it("a glossary term's bracketed qualifier does not shadow the record that owns the name", () => {
+    const byPattern = new Map(entityPatterns().map((p) => [p.pattern.toLowerCase(), p.ref]));
+    expect(byPattern.get("melanoma")?.route).toBe("/cancers/melanoma/");
+    expect(byPattern.get("myeloma")?.kind).not.toBe("term");
+    expect(byPattern.has("minimal")).toBe(false);
+  });
+
+  it("links the two-letter aliases OS and 1L, and hyphenated variants such as first-line and ctDNA-positive", () => {
+    const hrefs = termMarks("OS improved in 1L; first-line ctDNA-positive patients did worse.", 8).map((mk) => mk.href);
+    expect(hrefs).toContain("/terms/os/");
+    expect(hrefs).toContain("/terms/first-line/");
+    expect(hrefs).toContain("/terms/ctdna/");
+  });
 });

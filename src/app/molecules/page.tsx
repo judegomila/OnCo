@@ -6,7 +6,8 @@ import { STATUS_LABEL } from "@/lib/text";
 import { STRUCTURES } from "@/lib/structures";
 import { payloads } from "@/data/payloads";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
-import { MoleculeGallery, modalityGroup, type GalleryDrug, type MissingDrug } from "@/components/MoleculeGallery";
+import { MoleculeGallery, type GalleryDrug, type MissingDrug } from "@/components/MoleculeGallery";
+import { modalityGroup } from "@/lib/modality-group";
 
 export const metadata: Metadata = pageMeta({ title: "Molecule gallery", description: "Every product in OnCo with a 3D structure, as rotating wireframes: filter by modality, payload class, target and approval status, open any one in the viewer, and see which products still need a structure.", path: "/molecules/" });
 

@@ -58,7 +58,7 @@ export function GroupKicker({ id, children }: { id: string; children?: React.Rea
   if (!g) return null;
   return (
     <>
-      <Link href={g.href} className="kicker inline-flex items-center gap-1.5 hover:text-foreground"><NavIcon id={g.id} className="h-3.5 w-3.5" />{g.label}</Link>
+      <Link href={g.href} className="kicker inline-flex items-center gap-1.5 py-1.5 -my-1.5 hover:text-foreground"><NavIcon id={g.id} className="h-3.5 w-3.5" />{g.label}</Link>
       {children}
     </>
   );

@@ -51,7 +51,7 @@ export function SponsorBoard({ rows, cancers }: { rows: SponsorRow[]; cancers: A
           <FacetSelect label="Type" options={kindOptions} value={kinds} onChange={(v) => setKinds(v as string[])} multi searchable={false} allLabel="Any" width="w-52" />
           {(cancer || kinds.length || q) ? <button type="button" onClick={() => { setCancer(null); setKinds([]); setQ(""); }} className="text-sm underline text-muted">Reset</button> : null}
         </>} />
-      <ResultsTable columns={columns} rows={filtered} rowKey={(r) => r.key} sort={sort} onSort={(k) => setSort((s) => (s.key === k ? { key: k, dir: s.dir === 1 ? -1 : 1 } : { key: k, dir: k === "name" ? 1 : -1 }))} />
+      <ResultsTable columns={columns} rows={filtered} rowKey={(r) => r.key} pageSize={100} sort={sort} onSort={(k) => setSort((s) => (s.key === k ? { key: k, dir: s.dir === 1 ? -1 : 1 } : { key: k, dir: k === "name" ? 1 : -1 }))} />
     </div>
   );
 }

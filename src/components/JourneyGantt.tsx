@@ -3,7 +3,7 @@ import { layoutPhases, type Journey, type PhaseType } from "@/data/journeys";
 const COLOUR: Record<PhaseType, string> = { diagnosis: "#64748b", neoadjuvant: "#b91c1c", surgery: "#0f766e", radiotherapy: "#b45309", adjuvant: "#7c3aed", systemic: "#2563eb", "cell-therapy": "#c2185b", surveillance: "#4d7c0f" };
 const LABEL: Record<PhaseType, string> = { diagnosis: "Diagnosis and tests", neoadjuvant: "Before surgery", surgery: "Surgery and recovery", radiotherapy: "Radiotherapy", adjuvant: "After surgery", systemic: "Systemic therapy", "cell-therapy": "Cell therapy", surveillance: "Surveillance" };
 
-const ROW = 34, LEFT = 230, W = 860, PAD_T = 34, PAD_B = 46;
+const ROW = 34, LEFT = 230, W = 860, PAD_T = 34, PAD_B = 68;
 
 /**
  * Gantt-style timeline of a treatment journey: one bar per phase (solid to the minimum duration, hatched to
@@ -51,7 +51,7 @@ export function JourneyGantt({ journey, horizonWeeks }: { journey: Journey; hori
       {/* decision diamonds */}
       {decisionsAt.map(({ d, at }, i) => { const xx = x(at); return <g key={i}><path d={`M${xx},${PAD_T - 14} l7,7 l-7,7 l-7,-7 z`} fill="var(--accent)" /><title>{d.question}</title><text x={xx} y={PAD_T - 18} textAnchor="middle" fontSize={9.5} fill="currentColor" fillOpacity={0.75}>decision {i + 1}</text></g>; })}
       {/* legend */}
-      {types.map((t, i) => <g key={t} transform={`translate(${LEFT + i * 118} ${H - 6})`}><rect x={0} y={-9} width={10} height={10} rx={2} fill={COLOUR[t]} /><text x={14} y={0} fontSize={9.5} fill="currentColor" fillOpacity={0.75}>{LABEL[t]}</text></g>)}
+      {types.map((t, i) => <g key={t} transform={`translate(${i * 118} ${H - 6})`}><rect x={0} y={-9} width={10} height={10} rx={2} fill={COLOUR[t]} /><text x={14} y={0} fontSize={9.5} fill="currentColor" fillOpacity={0.75}>{LABEL[t]}</text></g>)}
     </svg>
   );
 }

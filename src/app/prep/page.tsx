@@ -23,7 +23,7 @@ export default function PrepPage() {
   const data: PrepData = { cancers, lines };
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="find" />} title="Appointment prep pack"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Appointment prep pack"
         lede="Appointments are short and the questions scatter. Choose your cancer type, tick the questions that matter to you, add your own, and print or download one page with space for the answers. Treatments already recorded in your browser profile are listed at the top. Everything stays in this browser. This is orientation, not medical advice." />
       <Container className="pb-16">
         <PrepPack data={data} />

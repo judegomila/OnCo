@@ -37,7 +37,7 @@ export default function SurvivorshipPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="find" />} title="Survivorship and late-effects planner"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Survivorship and late-effects planner"
         lede="Treatment ends, but some effects arrive years later and are easy to miss once you leave the oncology clinic. Choose the treatments you have had, add the areas that were irradiated, and print one page listing what to watch for, which test finds it, how often, and which guideline says so. Treatments recorded in your browser profile are preselected. This is orientation, not medical advice: take the list to your GP or survivorship clinic." />
       <Container className="pb-16">
         <SurvivorshipPlan entries={entries} options={options} />

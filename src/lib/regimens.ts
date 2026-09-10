@@ -22,8 +22,9 @@ export const intentLabel = (r: Regimen) => r.intent[0].toUpperCase() + r.intent.
 /** "q14d × 12" style summary of the cycle. */
 export function cycleSummary(r: Regimen): string {
   const n = numericCycles(r.cycles);
+  const range = r.cycles.match(/^(\d+)\s*[-–]\s*(\d+)/);
   const q = r.cycleDays === 1 ? "single day" : r.cycleDays === 7 ? "weekly" : `every ${r.cycleDays} days`;
-  return n ? `${q} × ${n}` : q;
+  return range ? `${q} × ${range[1]}-${range[2]}` : n ? `${q} × ${n}` : q;
 }
 
 /** Leading integer in the cycles string ("12 (6 months)" → 12), or null when open-ended. */

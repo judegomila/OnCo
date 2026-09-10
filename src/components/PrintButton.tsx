@@ -100,7 +100,7 @@ export function PrintButton({ className = "", asOf: asOfProp, title: titleProp }
 
   return (
     <span ref={box} className={`relative inline-block ${className.replace("underline", "")}`}>
-      <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="menu" aria-expanded={open} className="underline" aria-label="Print or save this page as PDF">
+      <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="menu" aria-expanded={open} className="underline inline-block py-1.5" aria-label="Print or save this page as PDF">
         Print / save PDF
       </button>
       {open && (

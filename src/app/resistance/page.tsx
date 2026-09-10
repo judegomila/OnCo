@@ -54,9 +54,9 @@ export default function ResistancePage() {
       <Container className="pb-16">
         <ResistanceMatrix rows={rows} />
 
-        <nav aria-label="Drug classes" className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 mt-8 mb-6 bg-background/95 backdrop-blur border-y border-border flex flex-wrap items-center gap-1.5 text-sm">
+        <nav aria-label="Drug classes" className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 mt-8 mb-6 bg-background/95 backdrop-blur border-y border-border flex flex-nowrap overflow-x-auto sm:flex-wrap sm:overflow-visible items-center gap-1.5 text-sm">
           <span className="kicker mr-1 hidden sm:inline">Jump to</span>
-          {resistance.map((r) => <a key={r.id} href={`#${r.id}`} className="chip border bg-card border-border hover:bg-foreground/5">{shortLabel(r)}</a>)}
+          {resistance.map((r) => <a key={r.id} href={`#${r.id}`} className="chip border bg-card border-border hover:bg-foreground/5 whitespace-nowrap">{shortLabel(r)}</a>)}
         </nav>
 
         <div className="space-y-10">

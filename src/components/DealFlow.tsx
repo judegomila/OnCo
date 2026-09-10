@@ -79,7 +79,7 @@ export function DealFlow({ flows }: { flows: DealFlowItem[] }) {
         <span className="ml-auto text-muted">{active.length} {active.length === 1 ? "deal" : "deals"}</span>
       </div>
       <div className="grid gap-4 md:grid-cols-[380px_1fr] items-start">
-        <svg viewBox={`0 0 ${C * 2} ${C * 2}`} role="img" aria-label="Deal flow between regions" className="w-full max-w-[380px] mx-auto">
+        <svg viewBox={`-52 0 ${C * 2 + 104} ${C * 2}`} role="img" aria-label="Deal flow between regions" className="w-full max-w-[380px] mx-auto">
           {geometry.ribbons.map((r) => (
             <path key={r.key} d={r.d} fill={REGION_COLOR[DEAL_REGIONS[r.i]]} fillOpacity={hover && hover !== r.key ? 0.12 : 0.55} stroke={REGION_COLOR[DEAL_REGIONS[r.i]]} strokeOpacity={0.6} strokeWidth={0.5}
               onMouseEnter={() => setHover(r.key)} onMouseLeave={() => setHover(null)} onFocus={() => setHover(r.key)} onBlur={() => setHover(null)} tabIndex={0} className="cursor-pointer outline-none">

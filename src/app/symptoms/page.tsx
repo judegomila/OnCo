@@ -18,7 +18,7 @@ export default function SymptomsPage() {
   }));
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="find" />} title="Symptom to test: what comes next"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Symptom to test: what comes next"
         lede={`${symptoms.length} presenting symptoms, each walked through in four steps: what it can mean (most causes are not cancer), which test comes first and what it rules in or out, the exact referral thresholds from NICE NG12 and US guidance for your region, and the cancer pages to read. Nothing you choose leaves your browser. This is orientation, not a diagnosis.`} />
       <Container className="pb-16">
         <SymptomPath symptoms={symptoms} />

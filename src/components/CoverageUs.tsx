@@ -33,7 +33,7 @@ export function CoverageUsCard({ drugId }: { drugId: string }) {
         {assist.length > 0 && (
           <div>
             <dt className="text-xs uppercase tracking-wide text-muted mb-1">Assistance programmes</dt>
-            <dd><ul className="space-y-0.5">{assist.map((p) => <li key={p.url + p.program}><a className="underline" href={p.url} rel="noopener">{p.program}</a>{p.note && <span className="text-xs text-muted"> — {p.note}</span>}</li>)}</ul></dd>
+            <dd><ul className="space-y-0.5">{assist.map((p) => <li key={p.url + p.program}><a className="underline" href={p.url} rel="noopener">{p.program}</a>{p.note && <span className="text-xs text-muted">: {p.note}</span>}</li>)}</ul></dd>
           </div>
         )}
       </dl>

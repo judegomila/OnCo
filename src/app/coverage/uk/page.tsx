@@ -60,7 +60,7 @@ export default function CoverageUkPage() {
   return (
     <>
       <PageHeader
-        kicker={<GroupKicker id="intel"><span className="kicker">·</span><Link href="/regulatory/regions/" className="kicker hover:underline">Approvals by region</Link></GroupKicker>}
+        kicker={<GroupKicker id="live"><span className="kicker">·</span><Link href="/regulatory/regions/" className="kicker hover:underline">Approvals by region</Link></GroupKicker>}
         title="What the NHS offers for cancer"
         lede={`The NHS is free at the point of use, but a licensed cancer drug is only routinely available once NICE (England, Wales, Northern Ireland) or the SMC (Scotland) has said its benefit is worth its price. Of ${approved.length} approved products in OnCo, ${covered.length} have a UK coverage record here (${pct}%): ${funded} are NICE recommended or funded through the Cancer Drugs Fund, ${counts["not recommended"]} were not recommended, ${counts["not appraised"]} were never appraised (generics funded routinely, or products with no UK licence), and ${counts.unknown} are still to be researched. Below: how the system works, then every product.`}
       />

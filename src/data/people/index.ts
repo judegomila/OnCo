@@ -9,7 +9,8 @@ import { peopleIndia } from "./india";
 import { peopleChina } from "./china";
 import { heroesDonors } from "./heroes-donors";
 import { peopleKeyOpinionLeaders } from "./key-opinion-leaders";
+import { peopleLeadersWave3 } from "./leaders-wave3";
 
 /** People (clinicians, scientists, leaders, and the heroes of /heroes/) grouped by file. Register each file here. */
-const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, heroesDonors, peopleLeadersWave2, peopleIndia, peopleChina, peopleKeyOpinionLeaders];
+const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, heroesDonors, peopleLeadersWave2, peopleLeadersWave3, peopleIndia, peopleChina, peopleKeyOpinionLeaders];
 export const people: PersonInput[] = files.flat();

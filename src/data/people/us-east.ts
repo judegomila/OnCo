@@ -665,7 +665,7 @@ export const peopleUsEast: PersonInput[] = [
     profiles: [{ label: "UHN profile", url: "https://www.uhnresearch.ca/researcher/pamela-s-ohashi" }, pubmed("Ohashi PS")],
     papers: [paper("Ablation of tolerance and induction of diabetes by virus infection in viral antigen transgenic mice", "Cell", 1991)],
     cancers: ["melanoma"], technologies: ["til-therapy"] }),
-  p({ id: "aaron-schimmer", name: "Aaron D. Schimmer", role: "Research Director, Princess Margaret Cancer Centre; Senior Scientist", institutionId: "princess-margaret", specialisms: ["AML", "Mitochondrial metabolism", "Drug repurposing"],
+  p({ id: "aaron-schimmer", name: "Aaron D. Schimmer", role: "Research Director, Princess Margaret Cancer Centre; Senior Scientist", institutionId: "princess-margaret", institutions: ["princess-margaret", "oicr"], specialisms: ["AML", "Mitochondrial metabolism", "Drug repurposing"],
     tldr: "Leukaemia researcher who found that AML stem cells depend on mitochondrial proteases and metabolism.", summary: "Identified mitochondrial dependencies (ClpP, oxidative phosphorylation) in AML and led repurposing trials such as tigecycline; directs research at Princess Margaret.",
     profiles: [{ label: "UHN profile", url: "https://www.uhnresearch.ca/researcher/aaron-d-schimmer" }, pubmed("Schimmer AD")],
     papers: [doi("Inhibition of mitochondrial translation as a therapeutic strategy for human acute myeloid leukemia", "Cancer Cell", 2011, "10.1016/j.ccr.2011.10.015")],

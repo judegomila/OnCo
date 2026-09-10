@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
  * Persisted in localStorage; broadcast via a window event so every widget updates.
  */
 export type Level = "technical" | "plain" | "simple";
-export type Lang = "en" | "es" | "zh" | "pt" | "hi";
+export type Lang = "en" | "es" | "zh" | "pt" | "hi" | "fr" | "de" | "ja" | "ar";
 export type Layer = { level: Level; lang: Lang };
 
 export const LANGS: Array<{ code: Lang; label: string; native: string }> = [
@@ -18,6 +18,10 @@ export const LANGS: Array<{ code: Lang; label: string; native: string }> = [
   { code: "zh", label: "Chinese", native: "中文" },
   { code: "pt", label: "Portuguese", native: "Português" },
   { code: "hi", label: "Hindi", native: "हिन्दी" },
+  { code: "fr", label: "French", native: "Français" },
+  { code: "de", label: "German", native: "Deutsch" },
+  { code: "ja", label: "Japanese", native: "日本語" },
+  { code: "ar", label: "Arabic", native: "العربية" },
 ];
 export const LEVELS: Array<{ code: Level; label: string; blurb: string }> = [
   { code: "technical", label: "Technical", blurb: "Full summaries for clinicians and scientists" },

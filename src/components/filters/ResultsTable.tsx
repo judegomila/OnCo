@@ -37,7 +37,7 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty = "
               const sorted = sort?.key === c.key;
               const label = tip ? <Tip text={tip} title={c.label}><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{c.label}</span></Tip> : c.label;
               return (
-                <th key={c.key} className={`${c.hide ?? ""} ${c.className ?? ""}`} aria-sort={sorted ? (sort!.dir === -1 ? "descending" : "ascending") : undefined}>
+                <th key={c.key} scope="col" className={`${c.hide ?? ""} ${c.className ?? ""}`} aria-sort={sorted ? (sort!.dir === -1 ? "descending" : "ascending") : undefined}>
                   {c.sortable && onSort ? (
                     <button type="button" onClick={() => onSort(c.key)} className={`group inline-flex items-center gap-1 rounded-sm ${sorted ? "text-foreground" : ""}`} title={sorted ? (sort!.dir === -1 ? "Sorted descending. Click to flip." : "Sorted ascending. Click to flip.") : `Sort by ${c.label}`}>
                       {label}

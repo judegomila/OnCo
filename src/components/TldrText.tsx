@@ -6,9 +6,13 @@ import { tldr_es } from "@/data/i18n/es";
 import { tldr_zh } from "@/data/i18n/zh";
 import { tldr_pt } from "@/data/i18n/pt";
 import { tldr_hi } from "@/data/i18n/hi";
+import { tldr_fr } from "@/data/i18n/fr";
+import { tldr_de } from "@/data/i18n/de";
+import { tldr_ja } from "@/data/i18n/ja";
+import { tldr_ar } from "@/data/i18n/ar";
 import { reviewed } from "@/data/i18n/reviewed";
 
-const TABLES = { es: tldr_es, zh: tldr_zh, pt: tldr_pt, hi: tldr_hi } as const;
+const TABLES = { es: tldr_es, zh: tldr_zh, pt: tldr_pt, hi: tldr_hi, fr: tldr_fr, de: tldr_de, ja: tldr_ja, ar: tldr_ar } as const;
 
 type Mark = { text: string; title: string; tone: "muted" | "ok" };
 
@@ -52,7 +56,7 @@ export function TldrText({ id, tldr, simple: simpleProp, className = "" }: { id:
 
 /** True when translations or simplified text exist for an id, for badges and coverage pages. */
 export function coverageFor(id: string) {
-  return { simple: id in simple, es: id in tldr_es, zh: id in tldr_zh, pt: id in tldr_pt, hi: id in tldr_hi };
+  return { simple: id in simple, es: id in tldr_es, zh: id in tldr_zh, pt: id in tldr_pt, hi: id in tldr_hi, fr: id in tldr_fr, de: id in tldr_de, ja: id in tldr_ja, ar: id in tldr_ar };
 }
 
 /** Languages in which this id's translation has a named review. */

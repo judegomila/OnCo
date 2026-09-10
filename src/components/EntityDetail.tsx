@@ -66,6 +66,7 @@ import { coverageUs } from "@/data/coverage-us";
 import { coverageUk } from "@/data/coverage-uk";
 import { SurvivalDisclosure } from "./SurvivalDisclosure";
 import { similarLinks } from "@/lib/similar";
+import { CatalystsPanel, CompanyScorePanel, DealsPanel, ExclusivityPanel, ManufacturingPanel } from "@/components/InvestorPanels";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
@@ -146,10 +147,10 @@ export function EntityDetail({ e }: { e: Entity }) {
                 <a className="underline" href={`/api/v1/entities/${e.id}.json`}>JSON</a>
                 <span className="text-muted"> · </span>
                 <span className="text-muted"> · </span>
-                <PrintButton className="underline" />
+                <PrintButton className="underline" asOf={e.asOf} title={e.name} />
               </div>
             </div>
-            <SuggestEdit id={e.id} kind={e.kind} name={e.name} fields={Object.keys(e)} source={sourceLocation(e.id, e.kind)} />
+            <SuggestEdit id={e.id} kind={e.kind} name={e.name} fields={Object.keys(e)} source={sourceLocation(e.id, e.kind)} route={routeFor(e)} asOf={e.asOf} />
             <QuickLinks e={e} />
           </aside>
         </div>
@@ -204,6 +205,7 @@ function kindTabs(e: Entity): Tab[] {
         overview(<>
           <div className="mt-8"><TargetSchematic target={{ id: e.id, name: e.name, targetClass: e.targetClass, tldr: e.tldr }} /></div>
           <div className="mt-6"><TargetExplainer target={e} /></div>
+          <div className="mt-6"><CatalystsPanel id={e.id} /></div>
           <Block title="Biology"><p className="text-[15px] leading-relaxed max-w-3xl">{withTermHovers(e.biology, { skipId: e.id })}</p></Block>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Where it is found"><Bullets items={e.whereFound} linked={(t) => withTermHovers(t, { skipId: e.id })} /></Field>
@@ -228,6 +230,7 @@ function kindTabs(e: Entity): Tab[] {
           </div>
           {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
           {(coverageUs[e.id] || coverageUk[e.id]) && <div className="mt-6 grid gap-4 md:grid-cols-2">{coverageUs[e.id] && <CoverageUsCard drugId={e.id} />}{coverageUk[e.id] && <CoverageUkCard drugId={e.id} />}</div>}
+          <div className="mt-6 space-y-4"><ExclusivityPanel drugId={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /></div>
           {regionalApprovals[e.id] && <div className="mt-6"><div className="kicker mb-2">Where it is approved</div><RegionStrip row={regionalApprovals[e.id]} /><p className="text-xs text-muted mt-1"><Link className="underline" href="/regulatory/regions/">Compare all products across the US, EU, UK, Japan, China and Australia →</Link></p></div>}
         </>),
         ...(e.approvals.length || e.regulatoryEvents.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length, content: (<>
@@ -243,6 +246,7 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
           <Field label="Headquarters">{e.hq}, {e.country}</Field>
+          <div className="sm:col-span-2 space-y-4"><CompanyScorePanel id={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /><ManufacturingPanel companyId={e.id} /></div>
           <Field label="Type"><span className="capitalize">{e.companyType.replace("-", " ")}</span>{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
           <Field label="Website"><a className="underline break-all" href={e.website} rel="noopener">{e.website.replace(/^https?:\/\//, "")}</a></Field>
           <Field label="Founded">{e.founded}</Field>

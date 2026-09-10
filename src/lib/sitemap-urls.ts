@@ -16,7 +16,7 @@ export const SITEMAP_CHUNK = 45_000;
 const GUARDED_ROUTES = ["/coverage/us/", "/coverage/uk/", "/roadmap/", "/mechanics/", "/heroes/"];
 
 /** Routes that render but should not be in the sitemap (iframe cards, JSON). */
-const EXCLUDED_PREFIXES = ["/embed/"];
+const EXCLUDED_PREFIXES = ["/embed/", "/saved/", "/offline/"];
 
 const APP_DIR = join(process.cwd(), "src", "app");
 

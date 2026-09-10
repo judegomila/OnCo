@@ -39,6 +39,8 @@ export function describe(text: string, max = 155): string {
  * applied by Next on top of this, so it is not repeated here. `title` is the page part only; the root layout
  * template appends " · OnCo" to `<title>` and we mirror that for the social cards.
  */
+export const FEED_TYPES = { "application/atom+xml": [ { url: "/feeds/changelog.xml", title: "OnCo changelog" }, { url: "/feeds/regulatory.xml", title: "OnCo regulatory events" }, { url: "/feeds/calendar.xml", title: "OnCo readout calendar" }, { url: "/feeds/pulse.xml", title: "OnCo research pulse" } ] };
+
 export function pageMeta({ title, description, path, absoluteTitle, noindex }: { title: string; description: string; path: string; absoluteTitle?: string; noindex?: boolean }): Metadata {
   const fullTitle = absoluteTitle ?? `${title} · ${SITE_NAME}`;
   const url = absoluteUrl(path);
@@ -46,7 +48,7 @@ export function pageMeta({ title, description, path, absoluteTitle, noindex }: {
   return {
     title: absoluteTitle ? { absolute: absoluteTitle } : title,
     description: desc,
-    alternates: { canonical: url },
+    alternates: { canonical: url, types: FEED_TYPES },
     openGraph: { title: fullTitle, description: desc, url, siteName: SITE_NAME, type: "website", locale: "en_GB" },
     twitter: { card: "summary_large_image", title: fullTitle, description: desc },
     robots: noindex ? { index: false, follow: true } : { index: true, follow: true },

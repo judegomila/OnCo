@@ -50,6 +50,7 @@
 - [Timeline](https://onco.cc/timeline/): Scrub through the years: approvals, trials, and standard of care as it stood.
 - [Query](https://onco.cc/query/): Build a graph query and get a table.
 - [Graph explorer](https://onco.cc/graph/): Navigate the knowledge graph visually.
+- [Saved](https://onco.cc/saved/): Your saved table views and watched pages, with what changed since you looked. Stored in your browser only.
 - [Body map](https://onco.cc/body/): Start from where the cancer is.
 
 ## Cancers & treatments
@@ -76,6 +77,11 @@
 - [Key papers](https://onco.cc/key-papers/): The papers that changed practice, each explained: what it found, what it means, what to be careful about.
 - [Trials in plain words](https://onco.cc/explained/): Every trial result as people out of 100, medians explained, surrogate endpoints flagged.
 - [Evidence](https://onco.cc/evidence/): Every trial ranked by evidence strength, endpoints as people out of 100.
+- [Catalyst calendar](https://onco.cc/catalysts/): Regulatory decisions, expected readouts, filings and deal closings by company, with a calendar feed.
+- [Deals and licences](https://onco.cc/deals/): Who bought or licensed what, for how much, and where assets flow between regions.
+- [Exclusivity expiry](https://onco.cc/exclusivity/): When each product loses patent or regulatory exclusivity, and the biosimilars and generics coming.
+- [Pipeline funnel](https://onco.cc/pipeline/): Assets by phase for any target, modality or cancer, and how crowded each target is.
+- [Addressable population](https://onco.cc/market/): Incidence times prevalence times setting share, every input linked, as a range.
 - [Readout calendar](https://onco.cc/calendar/): Decisions, readouts, advisory committees, congresses.
 - [Congress digests](https://onco.cc/digests/): ASCO, ESMO, AACR, ASCO GU, sourced item by item.
 - [Failure museum](https://onco.cc/failures/): What did not work, and the lesson.
@@ -107,6 +113,9 @@
 - [People](https://onco.cc/people/): The clinicians and scientists doing the work: specialisms, bios, papers.
 - [Heroes and heroines](https://onco.cc/heroes/): The patients, families, advocates and pioneers whose lives and cases changed cancer.
 - [Companies](https://onco.cc/companies/): Pharma, biotech, diagnostics, devices, AI.
+- [Company scorecards](https://onco.cc/scorecards/): Every company ranked by one disclosed formula, with financial snapshots from annual reports.
+- [Trial sponsors](https://onco.cc/sponsors/): Who runs the most phase 2 and 3 trials, by cancer, from the registry and the corpus.
+- [Manufacturing map](https://onco.cc/manufacturing/): Where ADCs are conjugated, cell therapies made and isotopes produced.
 - [Countries](https://onco.cc/countries/): Who is doing the most cancer research: output, growth, trials, burden, funders.
 - [Cases by country](https://onco.cc/cases/): New cancer cases per country and per cancer, with the data gaps made explicit.
 - [Funding flows](https://onco.cc/funding/): Where the money comes from.
@@ -142,6 +151,7 @@
 - [Suggest an edit](https://onco.cc/suggest/): Propose a correction; organisations can edit their own records.
 - [Open evaluation](https://onco.cc/eval/): 100 questions, a rubric, and a public leaderboard.
 - [Data dictionary](https://onco.cc/schema/): Every kind, every field, its type and meaning, with a real example per kind.
+- [Build on OnCo](https://onco.cc/build/): Recipes, OpenAPI spec, TypeScript types, embeddable cards and the MCP server.
 - [Open API](https://onco.cc/api/): The corpus as JSON.
 - [Open data](https://onco.cc/data-sources/): Every open database OnCo pulls from, with licences and cadence, and the ones we could add next.
 

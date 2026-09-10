@@ -1,0 +1,30 @@
+{
+  "title": "OnCo: a public, cited knowledge graph of oncology",
+  "description": "<p>OnCo maps the war on cancer as a linked corpus: cancers, technologies, targets, products, companies, institutions, people, pathways, trials, pairings, roadmaps, key papers, journals, bottlenecks and ideas, one record per object with a plain-English TL;DR, a technical summary, dated facts and sources. Each release archives the corpus as JSON (per entity and per kind), NDJSON, CSV and a JSON Schema, exactly as published under https://onco.cc/api/v1/. Code is MIT; data are CC BY 4.0 and require attribution to OnCo (onco.cc).</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    { "name": "Gomila, Jude" }
+  ],
+  "contributors": [
+    { "name": "OnCo contributors", "type": "DataCollector" }
+  ],
+  "keywords": [
+    "oncology",
+    "cancer",
+    "knowledge graph",
+    "open data",
+    "clinical trials",
+    "drug targets",
+    "antibody-drug conjugates",
+    "radiopharmaceuticals",
+    "precision medicine"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://onco.cc/", "relation": "isSupplementTo", "resource_type": "other", "scheme": "url" },
+    { "identifier": "https://github.com/judegomila/OnCo", "relation": "isSupplementedBy", "resource_type": "software", "scheme": "url" }
+  ],
+  "language": "eng",
+  "notes": "Facts are being built and checked in the open and may be incomplete, out of date or wrong; verify at the primary source before relying on them. Nothing in this dataset is medical advice."
+}

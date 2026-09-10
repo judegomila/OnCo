@@ -39,7 +39,7 @@ export function LayerToggle({ className = "" }: { className?: string }) {
           </div>
           <p className="text-xs text-muted mb-3 leading-relaxed">{level.blurb}.</p>
           <div className="kicker mb-1.5">Language of TL;DRs</div>
-          <div className="grid grid-cols-5 gap-1">
+          <div className="grid grid-cols-3 gap-1">
             {LANGS.map((l) => (
               <button key={l.code} type="button" onClick={() => update({ lang: l.code })} title={l.label} aria-pressed={layer.lang === l.code}
                 className={`rounded-md border px-1 py-1.5 text-xs transition-colors ${layer.lang === l.code ? "bg-foreground text-background border-foreground font-medium" : "border-border hover:bg-surface"}`}>{l.native}</button>

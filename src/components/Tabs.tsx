@@ -9,8 +9,12 @@ const CONTENT_STYLE = { "--sticky-top": "calc(var(--header-h) + 3rem)" } as CSSP
 
 /**
  * Section navigator for long object pages. All sections are rendered one after another so the
- * page reads top to bottom; a sticky, high-contrast bar lists the sections, highlights the one in
- * view (scroll-spy), and scrolls to a section on click. The section id is kept in the URL hash.
+ * page reads top to bottom (and so print gets every section, see PrintButton); a sticky, high-contrast
+ * bar lists the sections, highlights the one in view (scroll-spy), and scrolls to a section on click.
+ * The section id is kept in the URL hash and on the bar as `data-active` for other components.
+ *
+ * Accessibility: the bar is navigation (a list of same-page links), not a tablist, because no panel is ever
+ * hidden; `aria-current` marks the section in view and Left/Right/Home/End move focus between the pills.
  */
 export function Tabs({ tabs, ariaLabel = "Sections" }: { tabs: Tab[]; ariaLabel?: string }) {
   const [active, setActive] = useState(tabs[0]?.id);
@@ -51,6 +55,17 @@ export function Tabs({ tabs, ariaLabel = "Sections" }: { tabs: Tab[]; ariaLabel?
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  /** Left/Right/Home/End move focus between pills; Enter or Space on a focused pill follows the link as usual. */
+  const onBarKey = (e: React.KeyboardEvent) => {
+    if (!["ArrowRight", "ArrowLeft", "Home", "End"].includes(e.key)) return;
+    const pills = [...(bar.current?.querySelectorAll<HTMLAnchorElement>("a[data-id]") ?? [])];
+    if (!pills.length) return;
+    const i = pills.indexOf(document.activeElement as HTMLAnchorElement);
+    const next = e.key === "Home" ? 0 : e.key === "End" ? pills.length - 1 : e.key === "ArrowRight" ? (i + 1) % pills.length : (i - 1 + pills.length) % pills.length;
+    e.preventDefault();
+    pills[next].focus();
+  };
+
   // Keep the active pill in view inside the bar.
   useEffect(() => {
     const el = bar.current?.querySelector<HTMLElement>(`[data-id="${active}"]`);
@@ -59,7 +74,7 @@ export function Tabs({ tabs, ariaLabel = "Sections" }: { tabs: Tab[]; ariaLabel?
 
   return (
     <div>
-      <nav ref={bar} aria-label={ariaLabel}
+      <nav ref={bar} aria-label={ariaLabel} data-tabbar data-active={active} onKeyDown={onBarKey}
         className="tabbar sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 h-12 bg-background/90 backdrop-blur border-b border-border flex items-center gap-1 overflow-x-auto no-scrollbar">
         {tabs.map((t) => {
           const on = t.id === active;
@@ -73,7 +88,8 @@ export function Tabs({ tabs, ariaLabel = "Sections" }: { tabs: Tab[]; ariaLabel?
       </nav>
       <div className="pt-6 space-y-14" style={CONTENT_STYLE}>
         {tabs.map((t) => (
-          <section key={t.id} id={`sec-${t.id}`} aria-labelledby={`h-${t.id}`} className="scroll-mt-28">
+          <section key={t.id} id={`sec-${t.id}`} aria-labelledby={`h-${t.id}`} data-section={t.id} className="scroll-mt-28 print-section">
+            {t.id === "overview" && <h2 id={`h-${t.id}`} className="sr-only print:not-sr-only print:text-xl print:font-semibold print:mb-3">{t.label}</h2>}
             {t.id !== "overview" && (
               <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-border">
                 <h2 id={`h-${t.id}`} className="text-xl font-semibold tracking-tight">{t.label}</h2>

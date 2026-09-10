@@ -367,17 +367,71 @@
   .garden-sway { animation: none !important; }
 }
 
-/* ---- Print: strip chrome, keep content ---- */
+/* ------------------------------------------------------------------------------------------------
+   Languages. TldrText sets `lang` on translated text and the layer sets `data-lang` on <html>. Right-to-left
+   scripts flip direction and alignment on the text itself only (site chrome stays LTR); CJK, Devanagari and
+   Arabic get system font stacks with the glyphs, since Geist has none.
+   ------------------------------------------------------------------------------------------------ */
+[lang="ar"], [lang="he"], [lang="fa"], [lang="ur"] { direction: rtl; unicode-bidi: isolate; text-align: start; }
+[lang="ar"] { font-family: "Noto Naskh Arabic", "Geeza Pro", "Segoe UI", Tahoma, var(--font-sans); line-height: 1.8; }
+[lang="ja"] { font-family: var(--font-sans), "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Meiryo", sans-serif; line-height: 1.75; }
+[lang="zh"] { font-family: var(--font-sans), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif; line-height: 1.75; }
+[lang="hi"] { font-family: var(--font-sans), "Kohinoor Devanagari", "Nirmala UI", "Noto Sans Devanagari", sans-serif; line-height: 1.75; }
+/* The EN fallback mark inside RTL text should stay LTR. */
+[lang="ar"] > span[title] { direction: ltr; unicode-bidi: isolate; }
+
+/* ------------------------------------------------------------------------------------------------
+   Forced colours (Windows High Contrast). System colours replace ours; keep the borders that carry
+   meaning and make the focus ring and chips visible.
+   ------------------------------------------------------------------------------------------------ */
+@media (forced-colors: active) {
+  .card, .chip, .ctl, .btn, kbd, input, select, textarea { border: 1px solid CanvasText !important; }
+  .chip[aria-pressed="true"], [aria-current="true"], [aria-selected="true"] { outline: 2px solid Highlight; outline-offset: 1px; }
+  :focus-visible { outline: 3px solid Highlight !important; }
+  .garden { display: none; }
+  a { text-decoration: underline; }
+}
+
+/* ---- Print: strip chrome, keep content, add a running header with the date, the URL, a QR code and the disclaimer ---- */
+.print-header { display: none; }
 @media print {
-  header, footer, nav, aside, .no-print, canvas, .garden { display: none !important; }
+  header, footer, nav, aside, .no-print, canvas, .garden, .tabbar { display: none !important; }
   .hero, .garden-band { background: none !important; }
   body { background: #fff !important; color: #000 !important; }
-  main { display: block; }
+  /* The header is portalled to the end of <main> by PrintButton; flex + order puts it first on paper. */
+  main { display: flex !important; flex-direction: column; }
+  main > * { order: 1; }
+  .print-header { display: block !important; order: 0; margin: 0 1.5rem 1rem; padding-bottom: 0.75rem; border-bottom: 2px solid #000; font-size: 9.5pt; color: #000; }
+  .print-header-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.25rem; }
+  .print-header-text { min-width: 0; flex: 1; }
+  .print-header-brand { font-weight: 700; letter-spacing: -0.01em; font-size: 12pt; }
+  .print-header-brand span { font-weight: 400; color: #555; margin-left: 0.5rem; }
+  .print-header-title { font-size: 11pt; font-weight: 600; margin-top: 0.15rem; }
+  .print-header-meta { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; margin-top: 0.25rem; color: #333; font-size: 8.5pt; }
+  .print-header-disclaimer { margin-top: 0.4rem; font-size: 8pt; line-height: 1.35; color: #333; max-width: 60em; }
+  .print-header-qr { width: 88px; height: 88px; flex: none; }
   .card { border: 1px solid #ccc !important; box-shadow: none !important; break-inside: avoid; }
   a { color: #000 !important; text-decoration: none !important; }
   a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.75em; color: #555; }
   .grid { display: block !important; }
   h1 { font-size: 22pt; } h2 { font-size: 15pt; margin-top: 1.2em; }
-  .line-clamp-2, .line-clamp-3 { -webkit-line-clamp: unset; display: block; }
+  h1, h2, h3, h4, .kicker { break-after: avoid; }
+  .line-clamp-1, .line-clamp-2, .line-clamp-3 { -webkit-line-clamp: unset; display: block; }
+  /* Tables: header row repeats on each page, rows never split, sticky offsets are meaningless on paper. */
   table.onco thead th { position: static; }
+  table.onco thead { display: table-header-group; }
+  table.onco tfoot { display: table-footer-group; }
+  table.onco tr, table.onco td, table.onco th { break-inside: avoid; }
+  table.onco { break-inside: auto; }
+  .overflow-x-auto, .overflow-auto, .results-table { overflow: visible !important; }
+  /* Sections: allow long sections to flow, but keep a section heading with its first block. */
+  .print-section { break-inside: auto; }
+  .print-section > div:first-child { break-after: avoid; }
+  /* "This section" mode: PrintButton marks the chosen section .print-active. */
+  [data-print="section"] .print-section:not(.print-active) { display: none !important; }
+  /* Patient pack: technical-only widgets and edit tooling go; plain text and tables stay. */
+  [data-print="pack"] .print-technical { display: none !important; }
+  /* Interactive-only affordances. */
+  button, [role="menu"], .skip-link, kbd { display: none !important; }
+  @page { margin: 14mm 12mm 16mm; }
 }

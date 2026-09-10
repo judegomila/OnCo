@@ -4,6 +4,8 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { FacetSelect } from "./filters/FacetSelect";
 import { STATUS_LABEL } from "@/lib/text";
+import { DownloadTable } from "./DownloadTable";
+import type { CsvRow } from "@/lib/csv";
 
 export type Fact = {
   id: string; kind: "drug" | "trial" | "technology"; name: string; route: string; status?: string; rank: number;
@@ -54,6 +56,15 @@ export function PivotTable({ facts, meta }: { facts: Fact[]; meta: DimMeta }) {
     return cancerId ? `/explore/?cancer=${cancerId}&kind=${kind}` : `/${kindRoute}/`;
   };
   const dimOptions = DIMS.map((d) => ({ value: d, label: meta[d].label }));
+  const nounFor = (k: Fact["kind"]) => (k === "drug" ? "products" : k === "trial" ? "trials" : "technologies");
+  const cellLabel = (dim: Dim, v: string) => (dim === "status" ? STATUS_LABEL[v] ?? v : v);
+  /** The grid as shown: one record per visible row, one field per visible column, plus the row total. */
+  const exportRows = (): CsvRow[] => visibleRows.map((r) => {
+    const row: CsvRow = { [meta[rowDim].label]: cellLabel(rowDim, r) };
+    for (const c of visibleCols) { const cell = cells.get(`${r}|${c}`); row[cellLabel(colDim, c)] = cell && cell.n >= minCount ? cell.n : 0; }
+    row.Total = pool.filter((f) => f.dims[rowDim].includes(r)).length;
+    return row;
+  });
 
   return (
     <div>
@@ -63,7 +74,8 @@ export function PivotTable({ facts, meta }: { facts: Fact[]; meta: DimMeta }) {
         <FacetSelect label="Columns" options={dimOptions.filter((o) => o.value !== rowDim)} value={colDim} onChange={(v) => { if (v) setColDim(v as Dim); }} searchable={false} allLabel="Modality" width="w-44" />
         <button type="button" onClick={() => { setRowDim(colDim); setColDim(rowDim); }} className="text-sm underline text-muted">Swap axes</button>
         <label className="ml-auto text-sm flex items-center gap-2 text-muted">Min count <input type="number" min={1} value={minCount} onChange={(e) => setMinCount(Math.max(1, Number(e.target.value) || 1))} className="w-14 rounded-md border border-border bg-card px-2 py-1 text-sm" /></label>
-        <span className="text-sm"><span className="font-semibold tabular-nums">{pool.length}</span> <span className="text-muted">{kind === "drug" ? "products" : kind === "trial" ? "trials" : "technologies"} · {visibleRows.length} × {visibleCols.length}</span></span>
+        <span className="text-sm"><span className="font-semibold tabular-nums">{pool.length}</span> <span className="text-muted">{nounFor(kind)} · {visibleRows.length} × {visibleCols.length}</span></span>
+        <DownloadTable rows={exportRows} name={`${nounFor(kind)} by ${meta[rowDim].label} and ${meta[colDim].label}`} />
       </div>
       <div className="card overflow-x-auto">
         <table className="onco text-xs">

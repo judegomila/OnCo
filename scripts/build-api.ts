@@ -1,14 +1,22 @@
 /**
- * Emits the corpus as static JSON under public/api/v1/.
+ * Emits the corpus as static files under public/api/v1/ (and the Atom feeds under public/feeds/).
  * Run before `next build` (see package.json). Output is gitignored.
+ *
+ *   all.json            every entity plus an incoming-link map          all.ndjson   one entity per line
+ *   <plural>.json       entities of one kind                             <plural>.csv the same, flattened
+ *   entities/<id>.json  one entity with its neighbours                   schema.json  JSON Schema of an entity
+ *   search.json, ranking.json, benchmark.json, meta.json                 feeds: see scripts/build-feeds.ts
  */
 import { mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { z } from "zod";
 import { graph } from "../src/lib/graph";
-import { KIND_META, KINDS, routeFor } from "../src/lib/schema";
+import { EntitySchema, KIND_META, KINDS, routeFor } from "../src/lib/schema";
 import { searchDocs } from "../src/lib/search-index";
 import { rankInstitutions } from "../src/lib/ranking";
 import { benchmark } from "../src/data/benchmark";
+import { flattenForCsv, toCsv, toNdjson, EXPORT_LICENCE } from "../src/lib/csv";
+import { buildFeeds } from "./build-feeds";
 
 const out = join(process.cwd(), "public", "api", "v1");
 rmSync(out, { recursive: true, force: true });
@@ -16,6 +24,7 @@ mkdirSync(join(out, "entities"), { recursive: true });
 
 const g = graph();
 const write = (name: string, data: unknown) => writeFileSync(join(out, name), JSON.stringify(data, null, 0));
+const writeText = (name: string, text: string) => writeFileSync(join(out, name), text);
 
 const incoming: Record<string, Array<{ id: string; kind: string }>> = {};
 for (const e of g.entities) {
@@ -24,8 +33,17 @@ for (const e of g.entities) {
 }
 
 write("all.json", { entities: g.entities, incoming });
+writeText("all.ndjson", toNdjson(g.entities.map((e) => ({ ...e, route: routeFor(e) }))));
 write("search.json", searchDocs());
-for (const k of KINDS) write(`${KIND_META[k].plural}.json`, g.kind(k));
+const files: Array<{ path: string; contents: string }> = [];
+for (const k of KINDS) {
+  const list = g.kind(k);
+  write(`${KIND_META[k].plural}.json`, list);
+  // CSV: one row per entity, scalars as-is, arrays of scalars joined with "; ", nested records as JSON; column order is the union of keys in first-seen order.
+  const rows = list.map((e) => flattenForCsv({ ...(e as unknown as Record<string, unknown>), route: routeFor(e) }));
+  writeText(`${KIND_META[k].plural}.csv`, toCsv(rows));
+  files.push({ path: `/api/v1/${KIND_META[k].plural}.csv`, contents: `${list.length} ${KIND_META[k].plural} as CSV` });
+}
 for (const e of g.entities) {
   const neighbours: Record<string, Array<{ id: string; kind: string; name: string; route: string }>> = {};
   for (const [k, list] of g.neighbours(e.id)) neighbours[k] = list.map((x) => ({ id: x.id, kind: x.kind, name: x.name, route: routeFor(x) }));
@@ -33,6 +51,32 @@ for (const e of g.entities) {
 }
 write("ranking.json", rankInstitutions().map((r) => ({ rank: r.rank, id: r.institution.id, name: r.institution.name, city: r.institution.city, country: r.institution.country, newsweekOncology2026: r.institution.newsweekOncology2026 ?? null, nci: r.institution.nci ?? null, links: r.links, newsweekPoints: r.newsweekPoints, nciPoints: r.nciPoints, linkPoints: r.linkPoints, score: r.score })));
 write("benchmark.json", benchmark);
-write("meta.json", { built: new Date().toISOString(), schema: 1, attribution: "Data from OnCo (https://onco.cc), CC BY 4.0. Attribution is required: name OnCo and link to https://onco.cc wherever the data or derived text appears.", licenseUrl: "https://creativecommons.org/licenses/by/4.0/", counts: Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])), total: g.entities.length, license: "CC BY 4.0", source: "https://github.com/judegomila/OnCo" });
 
-console.log(`api: wrote ${g.entities.length} entities to public/api/v1`);
+// JSON Schema of one entity (the discriminated union over kinds), generated from the Zod schema that validates the corpus.
+try {
+  const schema = z.toJSONSchema(EntitySchema, { unrepresentable: "any", io: "output" }) as Record<string, unknown>;
+  write("schema.json", { $schema: "https://json-schema.org/draft/2020-12/schema", $id: "https://onco.cc/api/v1/schema.json", title: "OnCo entity", description: "One record of the OnCo corpus. Generated from src/lib/schema.ts, which is the source of truth and is enforced at build time.", ...schema });
+} catch (err) {
+  console.warn(`api: schema.json not written (${err instanceof Error ? err.message : String(err)})`);
+}
+
+const feeds = buildFeeds();
+
+write("meta.json", {
+  built: new Date().toISOString(), schema: 1, version: process.env.npm_package_version ?? null,
+  attribution: EXPORT_LICENCE, licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+  counts: Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])), total: g.entities.length, license: "CC BY 4.0", source: "https://github.com/judegomila/OnCo",
+  files: [
+    { path: "/api/v1/all.json", contents: "All entities plus an incoming map of backlinks per id" },
+    { path: "/api/v1/all.ndjson", contents: "All entities, one JSON object per line" },
+    { path: "/api/v1/schema.json", contents: "JSON Schema (draft 2020-12) of one entity" },
+    { path: "/api/v1/search.json", contents: "Compact search documents" },
+    { path: "/api/v1/entities/<id>.json", contents: "One entity with its neighbours" },
+    { path: "/api/v1/ranking.json", contents: "Institution ranking rows with score components" },
+    ...files,
+  ],
+  feeds: ["/feeds/changelog.xml", "/feeds/regulatory.xml", "/feeds/calendar.xml", "/feeds/pulse.xml"],
+  releases: "https://github.com/judegomila/OnCo/releases",
+});
+
+console.log(`api: wrote ${g.entities.length} entities to public/api/v1 (json, ndjson, ${KINDS.length} csv, schema); feeds: ${feeds.join(", ")}`);

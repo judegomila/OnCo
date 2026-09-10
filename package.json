@@ -66,7 +66,10 @@
     "fetch:pulse": "tsx scripts/fetch-pulse.ts",
     "fetch:citations": "tsx scripts/fetch-citations.ts",
     "fetch:survival": "tsx scripts/fetch-survival.ts",
-    "propose": "tsx scripts/propose-updates.ts"
+    "propose": "tsx scripts/propose-updates.ts",
+    "build:feeds": "tsx scripts/build-feeds.ts",
+    "a11y": "tsx scripts/a11y.ts",
+    "i18n:coverage": "tsx scripts/i18n-coverage.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

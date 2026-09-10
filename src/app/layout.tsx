@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
@@ -10,6 +10,8 @@ import { LayerToggle } from "@/components/LayerToggle";
 import { RegionProvider } from "@/lib/region";
 import { RegionToggle } from "@/components/RegionToggle";
 import { GitHubStars } from "@/components/GitHubStars";
+import { RegisterSW } from "@/components/RegisterSW";
+import { FEED_TYPES } from "@/lib/seo";
 import { GardenBackdrop, GardenDefs } from "@/components/Garden";
 import { NAV_GROUPS } from "@/lib/nav";
 
@@ -25,6 +27,9 @@ export const metadata: Metadata = {
   title: { default: "OnCo — time to win", template: "%s · OnCo" },
   description: "Total information dominance on cancer: every technology, target, product, company, institution, pathway, trial, and idea, one page per object, linked, with plain-English TL;DRs.",
   metadataBase: new URL("https://onco.cc"),
+  manifest: "/manifest.webmanifest",
+  appleWebApp: { capable: true, title: "OnCo", statusBarStyle: "default" },
+  alternates: { canonical: "https://onco.cc/", types: FEED_TYPES },
   applicationName: "OnCo",
   keywords: ["oncology", "cancer", "cancer treatments", "clinical trials", "drug targets", "antibody-drug conjugates", "radiopharmaceuticals", "knowledge graph", "open data"],
   openGraph: { title: "OnCo — time to win", description: "The current state of the art, the history, and what is coming, for every cancer.", type: "website", siteName: "OnCo", locale: "en_GB", url: "https://onco.cc/" },
@@ -44,6 +49,8 @@ function Mark({ size = 28 }: { size?: number }) {
     </svg>
   );
 }
+
+export const viewport: Viewport = { themeColor: [{ media: "(prefers-color-scheme: light)", color: "#d6336c" }, { media: "(prefers-color-scheme: dark)", color: "#121816" }] };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -75,6 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         <CommandPalette />
+        <RegisterSW />
         <main id="main" className="flex-1">{children}</main>
         <footer className="garden-footer relative border-t border-border mt-28">
           {/* A low grass line grows up from the footer's top edge into the gap above it. */}

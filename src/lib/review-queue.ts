@@ -7,6 +7,10 @@ import { tldr_es } from "@/data/i18n/es";
 import { tldr_zh } from "@/data/i18n/zh";
 import { tldr_pt } from "@/data/i18n/pt";
 import { tldr_hi } from "@/data/i18n/hi";
+import { tldr_fr } from "@/data/i18n/fr";
+import { tldr_de } from "@/data/i18n/de";
+import { tldr_ja } from "@/data/i18n/ja";
+import { tldr_ar } from "@/data/i18n/ar";
 import type { Lang } from "./layer";
 import { issueUrl, entityRef, pageUrl } from "./issue-links";
 
@@ -180,7 +184,7 @@ export function reviewerCount(r: Review): number {
 
 export type LangCoverage = { lang: Exclude<Lang, "en">; label: string; native: string; translated: number; reviewed: number; reviewers: number };
 
-const TABLES: Record<Exclude<Lang, "en">, Record<string, string>> = { es: tldr_es, zh: tldr_zh, pt: tldr_pt, hi: tldr_hi };
+const TABLES: Record<Exclude<Lang, "en">, Record<string, string>> = { es: tldr_es, zh: tldr_zh, pt: tldr_pt, hi: tldr_hi, fr: tldr_fr, de: tldr_de, ja: tldr_ja, ar: tldr_ar };
 
 /** Translated TL;DRs per language and how many carry a named review. */
 export function translationCoverage(): LangCoverage[] {

@@ -3,8 +3,9 @@ import type { Kind } from "@/lib/schema";
 import type { SourceLocation } from "@/lib/source-location";
 import { issueUrl, suggestEditUrl, entityRef, pageUrl } from "@/lib/issue-links";
 import { DiscussLink } from "./DiscussLink";
+import { WatchButton } from "./WatchButton";
 
-type Props = { id: string; kind: Kind; name: string; fields?: string[]; source?: SourceLocation; recordJson?: string };
+type Props = { id: string; kind: Kind; name: string; fields?: string[]; source?: SourceLocation; recordJson?: string; /** Page path and record date for the watch button; optional. */ route?: string; asOf?: string };
 
 /**
  * Suggest an edit via a GitHub issue form, prefilled with the object and page. There is no form
@@ -13,7 +14,7 @@ type Props = { id: string; kind: Kind; name: string; fields?: string[]; source?:
  * before a maintainer merges it. The record's read-only location goes into the issue body so the
  * maintainer can find the line; contributors who can code say so in the issue.
  */
-export function SuggestEdit({ id, kind, name, source }: Props) {
+export function SuggestEdit({ id, kind, name, source, route, asOf }: Props) {
   const e = { id, kind, name };
   const suggest = suggestEditUrl(e, { recordUrl: source?.url });
   const entity = `${entityRef(kind, id)} · ${name}`;
@@ -23,6 +24,10 @@ export function SuggestEdit({ id, kind, name, source }: Props) {
   const approval = kind === "drug" ? issueUrl("regional-approval", { product: entity, page }, { title: `approval: ${id}` }) : null;
   return (
     <div className="card p-4 text-sm">
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-3 pb-3 border-b border-border no-print">
+        <div className="kicker">Follow this page</div>
+        <WatchButton id={id} kind={kind} name={name} route={route} asOf={asOf} />
+      </div>
       <div className="kicker mb-1">Wrong or missing?</div>
       <p className="text-muted">Propose a change with a source. Organisations can update their own records. Every suggestion is reviewed, safety-checked and validated before it goes live; nothing is edited directly.</p>
       <div className="mt-2 flex flex-wrap gap-2">

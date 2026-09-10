@@ -8,16 +8,21 @@ import { ApprovalChip } from "./ApprovalChip";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
+import { DownloadTable } from "./DownloadTable";
+import { SaveViewButton } from "./SaveViewButton";
+import type { CsvRow } from "@/lib/csv";
 
 /**
  * One templated, full-width, sortable and filterable table for any kind of entity.
  * The server page turns entities into BrowserRow[] with facet values and extra columns;
  * this component owns the single control row at the top and the table below.
  *
- * Filter state lives in the URL (`?group=Solid&type=Cancer+center&q=her2`): facet keys are the query
- * keys, values repeat (or are comma-separated), and `q` is the search box. The URL is read once on
- * mount and rewritten with `history.replaceState` as filters change, so any view is linkable and the
- * page stays a static export (no server search params).
+ * Filter state lives in the URL (`?group=Solid&type=Cancer+center&q=her2&sort=-name`): facet keys are the
+ * query keys, values repeat (or are comma-separated), `q` is the search box and `sort` is the column key with
+ * a leading `-` for descending. The URL is read once on mount and rewritten with `history.replaceState` as
+ * filters change, so any view is linkable and the page stays a static export (no server search params).
+ * A compact form `?v=<base64url JSON {f,q,s}>` is also accepted on load (for short shared links); it is
+ * expanded into the readable form on the first write. "Save view" stores the URL under a name (see /saved/).
  */
 export type BrowserRow = {
   id: string; name: string; tldr: string; route: string; status?: string;
@@ -62,6 +67,27 @@ export type ColDef = { key: string; label: string; sortable?: boolean; hide?: st
 const STATUS_ORDER = ["approved", "standard-of-care", "positive", "phase-3", "established", "completed", "recruiting", "active", "phase-2", "emerging", "phase-1", "preclinical", "concept", "planned", "mixed", "historic", "negative", "withdrawn"];
 const STATUS_FACET: FacetDef = { key: "status", label: "Phase / status", searchable: false, width: "w-48", order: STATUS_ORDER };
 const QUERY_KEY = "q";
+const SORT_KEY = "sort";
+const VIEW_KEY = "v";
+
+/** Decode `?v=` (base64url JSON `{ f: facets, q: search, s: sort }`) into ordinary query parameters. */
+function decodeView(v: string): URLSearchParams | null {
+  try {
+    const json = atob(v.replace(/-/g, "+").replace(/_/g, "/"));
+    const view = JSON.parse(json) as { f?: Record<string, string[]>; q?: string; s?: { key: string; dir: 1 | -1 } };
+    const p = new URLSearchParams();
+    for (const [k, vals] of Object.entries(view.f ?? {})) for (const x of vals) if (typeof x === "string") p.append(k, x);
+    if (typeof view.q === "string" && view.q) p.set(QUERY_KEY, view.q);
+    if (view.s?.key) p.set(SORT_KEY, `${view.s.dir === -1 ? "-" : ""}${view.s.key}`);
+    return p;
+  } catch { return null; }
+}
+
+/** Encode the state as the compact `v` value; the inverse of `decodeView`. Exported for tests and share links. */
+export function encodeView(state: { f: Record<string, string[]>; q: string; s: SortState }): string {
+  const f = Object.fromEntries(Object.entries(state.f).filter(([, v]) => v.length));
+  return btoa(JSON.stringify({ f, q: state.q || undefined, s: state.s })).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
 
 export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideStatus = false, hideTldr = false, external = null, onExternalChange }: {
   rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[]; noun: string; defaultSort?: SortState; hideStatus?: boolean; hideTldr?: boolean;
@@ -102,7 +128,8 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
     });
   };
   const clearAll = () => { setOwn({}); setQ(""); onExternalChange?.([]); };
-  const [sort, setSort] = useState<SortState>(defaultSort ?? { key: hideStatus ? "name" : "status", dir: 1 });
+  const baseSort = useMemo<SortState>(() => defaultSort ?? { key: hideStatus ? "name" : "status", dir: 1 }, [defaultSort, hideStatus]);
+  const [sort, setSort] = useState<SortState>(baseSort);
 
   const allFacets = useMemo(() => (hideStatus ? facets : [STATUS_FACET, ...facets]), [facets, hideStatus]);
   const facetVals = (r: BrowserRow, k: string) => (k === "status" ? (r.status ? [r.status] : []) : (r.facets[k] ?? []));
@@ -113,7 +140,9 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
   // known facet value is kept whole so values containing commas survive.
   useEffect(() => {
     const raf = requestAnimationFrame(() => {
-      const params = new URLSearchParams(window.location.search);
+      let params = new URLSearchParams(window.location.search);
+      const compact = params.get(VIEW_KEY);
+      if (compact) { const decoded = decodeView(compact); if (decoded) params = decoded; }
       const next: Record<string, string[]> = {};
       let ext: string[] = [];
       for (const f of allFacets) {
@@ -128,6 +157,12 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
       if (ext.length) onExternalChange?.(ext);
       const q0 = params.get(QUERY_KEY);
       if (q0) setQ(q0);
+      const s0 = params.get(SORT_KEY);
+      if (s0) {
+        const key = s0.replace(/^-/, "");
+        const known = key === "name" || (key === "status" && !hideStatus) || columns.some((c) => c.key === key && c.sortable);
+        if (known) setSort({ key, dir: s0.startsWith("-") ? -1 : 1 });
+      }
       setSynced(true);
     });
     return () => cancelAnimationFrame(raf);
@@ -139,12 +174,13 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
     if (!synced) return;
     const url = new URL(window.location.href);
     for (const f of allFacets) url.searchParams.delete(f.key);
-    url.searchParams.delete(QUERY_KEY);
+    url.searchParams.delete(QUERY_KEY); url.searchParams.delete(SORT_KEY); url.searchParams.delete(VIEW_KEY);
     for (const f of allFacets) for (const v of sel[f.key] ?? []) url.searchParams.append(f.key, v);
     if (q.trim()) url.searchParams.set(QUERY_KEY, q.trim());
+    if (sort.key !== baseSort.key || sort.dir !== baseSort.dir) url.searchParams.set(SORT_KEY, `${sort.dir === -1 ? "-" : ""}${sort.key}`);
     const next = url.pathname + url.search + url.hash;
     if (next !== window.location.pathname + window.location.search + window.location.hash) window.history.replaceState(window.history.state, "", next);
-  }, [synced, sel, q, allFacets]);
+  }, [synced, sel, q, sort, baseSort, allFacets]);
 
   const matches = (r: BrowserRow, skip?: string) => {
     const needle = q.trim().toLowerCase();
@@ -188,6 +224,19 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
 
   const onSort = (key: string) => setSort((s) => (s.key === key ? { key, dir: s.dir === 1 ? -1 : 1 } : { key, dir: 1 }));
   const active = Object.values(sel).some((a) => a.length) || q;
+  /** Changes whenever the URL-backed state changes; SaveViewButton re-checks the saved list on it. */
+  const stateKey = JSON.stringify([sel, q, sort]);
+  /** The filtered rows as flat records for CSV/JSON: identity, status, every facet, every column as text. */
+  const exportRows = (): CsvRow[] => filtered.map((r) => {
+    const row: CsvRow = { id: r.id, name: r.name };
+    if (!hideStatus) row.status = r.status ? STATUS_LABEL[r.status] ?? r.status : "";
+    if (r.sub) row.sub = r.sub;
+    row.tldr = r.tldr;
+    row.url = typeof window === "undefined" ? r.route : new URL(r.route, window.location.origin).toString();
+    for (const f of facets) row[f.key] = (r.facets[f.key] ?? []).join("; ");
+    for (const c of columns) row[c.key] = cellText(r.cols[c.key]);
+    return row;
+  });
 
   /** A facet chip: a button that filters the table by that value, with a tooltip saying so. */
   const facetChip = (f: FacetLink, extraTip?: string, className?: string) => {
@@ -220,7 +269,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
             <img src={r.logo} alt="" className="h-[70%] w-[70%] object-contain" loading="lazy" referrerPolicy="no-referrer" />
           </span>
         )}
-        <div><Link href={r.route} className="font-medium hover:underline">{r.name}</Link>{r.sub && <div className="text-xs text-muted">{r.sub}</div>}{!hideTldr && <div className="text-xs text-muted line-clamp-2 max-w-lg">{r.tldr}</div>}</div>
+        <div><Link href={r.route} data-row className="font-medium hover:underline">{r.name}</Link>{r.sub && <div className="text-xs text-muted">{r.sub}</div>}{!hideTldr && <div className="text-xs text-muted line-clamp-2 max-w-lg">{r.tldr}</div>}</div>
       </div>) },
     ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, render: (r: BrowserRow) => r.molecule
       ? <ApprovalChip drugId={r.molecule} status={r.status} />
@@ -229,7 +278,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
       key: c.key, label: c.label, sortable: c.sortable, hide: c.hide, className: c.className, tip: c.tip,
       render: (r) => {
         const v = r.cols[c.key];
-        if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted">—</span>;
+        if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted"><span aria-hidden>—</span><span className="sr-only">none</span></span>;
         if (isRich(v)) {
           const parts: React.ReactNode[] = []; let pos = 0;
           v.marks.forEach((m, i) => { if (m.s > pos) parts.push(v.text.slice(pos, m.s)); parts.push(<Tip key={i} title={m.label} text={m.tip} href={m.href} linkLabel="Glossary page →"><Link href={m.href} className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] hover:text-foreground">{v.text.slice(m.s, m.e)}</Link></Tip>); pos = m.e; });
@@ -262,6 +311,10 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
           })}
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={`Filter ${noun}…`} aria-label={`Filter ${noun}`} className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
           {active ? <button type="button" onClick={clearAll} className="text-sm underline text-muted">Clear</button> : null}
+        </>}
+        right={<>
+          <SaveViewButton noun={noun} count={filtered.length} stateKey={stateKey} />
+          <DownloadTable rows={exportRows} name={noun} />
         </>}
       />
       <ResultsTable columns={tableCols} rows={filtered} rowKey={(r) => r.id} sort={sort} onSort={onSort} />

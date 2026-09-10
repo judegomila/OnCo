@@ -1,0 +1,59 @@
+{
+  "name": "OnCo: time to win",
+  "short_name": "OnCo",
+  "description": "A public, cited map of oncology: every cancer, technology, target, product, company, institution, trial and idea, one page each, in plain English first. Works offline for pages you have visited.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "en-GB",
+  "dir": "ltr",
+  "background_color": "#f5f4ee",
+  "theme_color": "#d6336c",
+  "categories": [
+    "medical",
+    "education",
+    "reference"
+  ],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search",
+      "url": "/explore/",
+      "description": "Find any cancer, product, target or trial"
+    },
+    {
+      "name": "For me",
+      "url": "/for-me/",
+      "description": "What works and what could work for your cancer"
+    },
+    {
+      "name": "Saved",
+      "url": "/saved/",
+      "description": "Your saved views and watchlist"
+    }
+  ]
+}

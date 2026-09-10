@@ -1,4 +1,5 @@
 import type { CompanyInput, DrugInput, EntityInput, PaperInput, TrialInput } from "@/lib/schema";
+import { TRIAL_OUTCOMES } from "./trial-outcomes";
 
 /**
  * INDIA. Companies, products, trials and key papers that make up India's part of the war on cancer:
@@ -370,4 +371,4 @@ const papers: PaperInput[] = [
     links: [doi("10.2471/BLT.23.289714", "Bull WHO 2023")] }),
 ];
 
-export const india: EntityInput[] = [...companies, ...drugs, ...trials, ...papers];
+export const india: EntityInput[] = [...companies, ...drugs, ...trials.map((t) => ({ ...t, ...TRIAL_OUTCOMES[t.id] })), ...papers];

@@ -102,4 +102,8 @@ export const COLUMN_TIPS: Record<string, string> = {
   Year: "Year of the event, approval or publication.",
   Role: "The person's job title or function.",
   Score: "A composite ranking score; higher is stronger. See the method note on the page.",
+  Emetogenicity: "Risk of vomiting without prophylaxis, by the most emetogenic component: high (over 90%), moderate (30 to 90%), low (10 to 30%), minimal (under 10%).",
+  "G-CSF": "Whether growth-factor support is given from cycle 1: recommended above 20% febrile-neutropenia risk, consider at 10 to 20%.",
+  Intent: "What the regimen is for: cure, control, or symptom relief, and in which setting.",
+  Regimen: "A named combination and schedule of drugs, with doses and cycle length.",
 };

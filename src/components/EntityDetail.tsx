@@ -74,6 +74,13 @@ import { organFor } from "@/data/organ-schematics";
 import { regimensFor, regimenRoute, cycleSummary } from "@/lib/regimens";
 import { guidelineCancerIds } from "@/lib/guidelines";
 import { agentById } from "@/lib/interactions";
+import { XrefStrip } from "./XrefStrip";
+import { HotspotPlot } from "./HotspotPlot";
+import { hotspotsFor } from "@/data/hotspots";
+import { questionsFor } from "@/data/open-questions";
+import { assaysForTarget, assaysForDrug } from "@/data/assays";
+import { modelFor, datasetFor } from "@/data/model-registry";
+import { modelsFor } from "@/data/preclinical-models";
 import { CatalystsPanel, CompanyScorePanel, DealsPanel, ExclusivityPanel, ManufacturingPanel } from "@/components/InvestorPanels";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
@@ -198,6 +205,8 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<>
           <div className="mt-8"><TechSchematic tech={e} /></div>
+          {modelFor(e.id) && (() => { const m = modelFor(e.id)!; return (<div className="mt-6 card p-4 text-sm"><div className="kicker mb-1">Model registry</div><div className="grid gap-x-6 gap-y-1 sm:grid-cols-2"><div><span className="text-muted">Modality:</span> {m.modality}</div>{m.parametersM && <div><span className="text-muted">Parameters:</span> {m.parametersM >= 1000 ? `${m.parametersM / 1000} B` : `${m.parametersM} M`}</div>}<div><span className="text-muted">Weights:</span> {m.weights}</div>{m.licence && <div><span className="text-muted">Licence:</span> {m.licence}</div>}<div className="sm:col-span-2"><span className="text-muted">Training data:</span> {m.trainingData}</div>{m.benchmark && <div className="sm:col-span-2"><span className="text-muted">Reported result:</span> {m.benchmark}</div>}</div><Link className="underline text-xs text-muted mt-2 inline-block" href="/models/">Compare all models →</Link></div>); })()}
+          {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc pl-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/open-questions/?subject=${encodeURIComponent(e.name)}`}>{q.question}</Link></li>)}</ul></Block>}
           <Block title="How it works"><p className="text-[15px] leading-relaxed max-w-3xl">{e.principle}</p></Block>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Strengths"><Bullets items={e.strengths} linked={(t) => withTermHovers(t, { skipId: e.id })} /></Field>
@@ -214,6 +223,12 @@ function kindTabs(e: Entity): Tab[] {
           <div className="mt-8"><TargetSchematic target={{ id: e.id, name: e.name, targetClass: e.targetClass, tldr: e.tldr }} /></div>
           <div className="mt-6"><TargetExplainer target={e} /></div>
           <div className="mt-6"><CatalystsPanel id={e.id} /></div>
+          <div className="mt-6 flex flex-wrap items-center justify-between gap-2"><Link href={`/dossiers/${e.id}/`} className="chip border bg-card border-border hover:bg-foreground/5 text-sm">Full dossier: hotspots, trials, resistance, assays, models, open questions →</Link></div>
+          <Block title="Elsewhere"><XrefStrip targetId={e.id} compact /></Block>
+          {hotspotsFor(e.id) && <Block title="Mutation hotspots"><HotspotPlot map={hotspotsFor(e.id)!} compact /><p className="text-xs text-muted mt-1"><Link className="underline" href={`/dossiers/${e.id}/#hotspots`}>Residue-by-residue table on the dossier →</Link></p></Block>}
+          {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc pl-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/dossiers/${e.id}/#q-${q.id}`}>{q.question}</Link></li>)}</ul></Block>}
+          {assaysForTarget(e.id).length > 0 && <Block title="Companion diagnostics"><ul className="text-sm space-y-1">{assaysForTarget(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></Block>}
+          {modelsFor(e.id) && <p className="text-sm text-muted mt-4"><Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(e.name.split(" (")[0])}`}>Cell lines and mouse models for this target →</Link></p>}
           <Block title="Biology"><p className="text-[15px] leading-relaxed max-w-3xl">{withTermHovers(e.biology, { skipId: e.id })}</p></Block>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Where it is found"><Bullets items={e.whereFound} linked={(t) => withTermHovers(t, { skipId: e.id })} /></Field>
@@ -237,6 +252,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Linker">{e.linker}</Field>
           </div>
           {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
+          {assaysForDrug(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2">Test required or used to select patients</div><ul className="text-sm space-y-1">{assaysForDrug(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></div>}
           {(coverageUs[e.id] || coverageUk[e.id]) && <div className="mt-6 grid gap-4 md:grid-cols-2">{coverageUs[e.id] && <CoverageUsCard drugId={e.id} />}{coverageUk[e.id] && <CoverageUkCard drugId={e.id} />}</div>}
           <div className="mt-6 space-y-4"><ExclusivityPanel drugId={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /></div>
           {regionalApprovals[e.id] && <div className="mt-6"><div className="kicker mb-2">Where it is approved</div><RegionStrip row={regionalApprovals[e.id]} /><p className="text-xs text-muted mt-1"><Link className="underline" href="/regulatory/regions/">Compare all products across the US, EU, UK, Japan, China and Australia →</Link></p></div>}
@@ -405,6 +421,7 @@ function kindTabs(e: Entity): Tab[] {
           <Field label="Holds">{e.holds}</Field>
           <Field label="Licence">{e.license}</Field>
           <Field label="Maintainer">{e.maintainer}</Field>
+          {datasetFor(e.id) && (() => { const d = datasetFor(e.id)!; return (<div className="sm:col-span-2 card p-4 text-sm"><div className="kicker mb-1">Dataset registry</div><div><span className="text-muted">Size:</span> {d.size}</div><div><span className="text-muted">Access:</span> {d.access}</div><div><span className="text-muted">Consent and reuse:</span> {d.consent}</div><Link className="underline text-xs text-muted mt-2 inline-block" href="/models/">All datasets and the models trained on them →</Link></div>); })()}
         </div>),
       ];
     case "person": {
@@ -532,6 +549,7 @@ function cancerTabs(c: Cancer): Tab[] {
       <Block title="State of the art today"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
       {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1">Treatment journeys</div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}
       {organFor(c.id) && <Block title="Where it starts and where it drains"><OrganSchematic cancerId={c.id} /></Block>}
+      {modelsFor(c.id) && <Block title="Preclinical models"><p className="text-sm text-muted">{modelsFor(c.id)!.cellLines.length} cell lines, {modelsFor(c.id)!.gemms.length} mouse models and {modelsFor(c.id)!.pdx.length + modelsFor(c.id)!.organoids.length} repositories are listed for this cancer. <Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(c.name.split(" (")[0])}`}>See them →</Link></p></Block>}
       <div className="grid gap-6 sm:grid-cols-2 mt-8">
         <Field label="Who it affects"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>
         <Field label="Group"><Tip title={`${c.group[0].toUpperCase()}${c.group.slice(1)} cancers`} text={`All ${c.group} cancers in OnCo, filtered in the cancers table.`} href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}><Link className="capitalize underline decoration-dotted decoration-foreground/30 underline-offset-[3px]" href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}>{c.group}</Link></Tip></Field>

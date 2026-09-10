@@ -65,6 +65,11 @@
 - [Targets](https://onco.cc/targets/): The molecules drugs and tracers aim at.
 - [Treatments & tests](https://onco.cc/drugs/): Approved and pipeline products, with rotating molecules.
 - [Pathways](https://onco.cc/pathways/): Signalling circuits, drawn and explained.
+- [Target dossiers](https://onco.cc/dossiers/): Everything about a target on one page: biology, prevalence, hotspots, products by phase, trials, resistance, assays, models, open questions, external ids.
+- [Pathway-to-drug matrix](https://onco.cc/pathway-drugs/): Which pathway nodes have a drug, at what phase, and which druggable nodes have none.
+- [Models & datasets](https://onco.cc/models/): Foundation models and the datasets they train on, with parameters, weights, licence and benchmarks.
+- [Open questions](https://onco.cc/open-questions/): Unresolved questions per target and technology: why open, what would answer them, who acts.
+- [Preclinical models](https://onco.cc/preclinical-models/): Cell lines with Cellosaurus and DepMap ids, PDX banks, mouse models and organoids per cancer and target.
 - [Regimens](https://onco.cc/regimens/): Named regimens with doses, days, cycles, emetogenicity and G-CSF need; calendar strip per regimen.
 - [Lines of therapy](https://onco.cc/sequencing/): Per cancer, the standard of care by line and biomarker subgroup, with sequence and caution pairings.
 - [Staging & risk scores](https://onco.cc/staging/): TNM, FIGO, Lugano, BCLC, R-ISS and interactive IPI, IMDC, CLL-IPI, Child-Pugh, Khorana scorers.
@@ -98,6 +103,9 @@
 - [Congress digests](https://onco.cc/digests/): ASCO, ESMO, AACR, ASCO GU, sourced item by item.
 - [Failure museum](https://onco.cc/failures/): What did not work, and the lesson.
 - [Resistance atlas](https://onco.cc/resistance/): Escape routes per drug class and the countermeasures.
+- [Unaddressed resistance](https://onco.cc/resistance/gaps/): Escape routes with no countermeasure, or only preclinical ones: the drug-design opportunities.
+- [Companion diagnostics](https://onco.cc/assays/): Every assay and its cut-off: PD-L1 CPS, HER2-low, MSI, TMB, HRD and the multi-gene panels, linked to the drugs they gate.
+- [Preprint tracker](https://onco.cc/preprints/): bioRxiv and medRxiv preprints of the last 90 days per target, product and technology, and which have since been published.
 - [Payloads & linkers](https://onco.cc/payloads/): The chemistry inside ADCs.
 - [Regulatory timeline](https://onco.cc/regulatory/): Every dated filing, approval, CRL, and label change.
 - [Paying for care (US)](https://onco.cc/coverage/us/): Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product.

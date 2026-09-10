@@ -1,0 +1,22 @@
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_58989c23f21a78 81-82,84-86
+  s_0beac9cb5d78fd::t_568249160bd91f 83
+public/freshness.json
+  s_0beac9cb5d78fd::t_568249160bd91f 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1f4e0435bfd3e929a93d29be3ea3c1e24a611834",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

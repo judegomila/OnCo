@@ -21,6 +21,10 @@ import { hasAnchorApproval, isDiagnostic, regionalApprovals, regionSpecific } fr
 import { reviews } from "@/data/reviews";
 import { simple } from "@/data/simple";
 import { tldr_es } from "@/data/i18n/es";
+import { tldr_fr } from "@/data/i18n/fr";
+import { tldr_de } from "@/data/i18n/de";
+import { tldr_ja } from "@/data/i18n/ja";
+import { tldr_ar } from "@/data/i18n/ar";
 import { tldr_zh } from "@/data/i18n/zh";
 import { tldr_pt } from "@/data/i18n/pt";
 import { tldr_hi } from "@/data/i18n/hi";
@@ -239,11 +243,11 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g) => fails(g.entities, (e) => (e.simple || simple[e.id] ? null : "no simple text")),
   },
   {
-    id: "translations", label: "Records with a TL;DR in all four languages",
-    plain: "Multilingual TL;DRs (Spanish, Mandarin, Portuguese, Hindi) exist only where every language has a translation for the record.",
-    action: "Add the TL;DR translation for this id in data/i18n/{es,zh,pt,hi}.ts, marked machine-assisted until reviewed.",
+    id: "translations", label: "Records with a TL;DR in all eight languages",
+    plain: "Multilingual TL;DRs (Spanish, Mandarin, Portuguese, Hindi, French, German, Japanese, Arabic) count only where every language has a translation for the record.",
+    action: "Add the TL;DR translation for this id in data/i18n/{es,zh,pt,hi,fr,de,ja,ar}.ts, marked machine-assisted until reviewed.",
     target: 50,
-    check: (g) => fails(g.entities, (e) => { const missing = [["es", tldr_es], ["zh", tldr_zh], ["pt", tldr_pt], ["hi", tldr_hi]].filter(([, t]) => !(t as Record<string, string>)[e.id]).map(([c]) => c); return missing.length ? `missing ${missing.join(", ")}` : null; }, (e) => [tldr_es, tldr_zh, tldr_pt, tldr_hi].filter((t) => !t[e.id]).length),
+    check: (g) => fails(g.entities, (e) => { const missing = [["es", tldr_es], ["zh", tldr_zh], ["pt", tldr_pt], ["hi", tldr_hi], ["fr", tldr_fr], ["de", tldr_de], ["ja", tldr_ja], ["ar", tldr_ar]].filter(([, t]) => !(t as Record<string, string>)[e.id]).map(([c]) => c); return missing.length ? `missing ${missing.join(", ")}` : null; }, (e) => [tldr_es, tldr_zh, tldr_pt, tldr_hi].filter((t) => !t[e.id]).length),
   },
   {
     id: "provenance", label: "Records with git provenance",

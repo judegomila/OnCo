@@ -69,7 +69,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Trial networks that spend 10% on implementation trials increase guideline-concordant care for at least two measurable indicators (for example biomarker testing before first-line therapy, adjuvant therapy completion) by 10 percentage points in participating regions within four years.",
     rationale: "Implementation science has a track record in cardiovascular medicine (statin and blood-pressure programmes) and in HIV; in oncology, the gap between proven and delivered care is well documented but seldom the object of a funded trial because no drug sponsor benefits.",
     test: "One network runs the quota for a full funding cycle and compares indicator improvement and cost per additional patient correctly treated with a matched network that does not.",
-    institutions: ["swog", "ecog-acrin", "curie-nki-eortc"], technologies: ["geriatric-assessment", "cgp"], related: ["nccn", "esmo-guidelines", "idea-fund-payer-funded-pragmatic-trials"] }),
+    institutions: ["swog", "ecog-acrin", "curie-nki-eortc"], technologies: ["geriatric-assessment", "cgp"], related: ["nccn", "esmo-guidelines", "idea-fund-payer-funded-pragmatic-trials"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   i({ id: "idea-fund-lmic-burden-match", name: "Burden-matched funding for trials led in low- and middle-income countries", maturity: "speculative",
     actor: "philanthropy", cost: "large", horizonYears: 6, bottlenecks: ["b-funding-allocation", "b-global-access", "b-trial-diversity"],
@@ -78,7 +78,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A burden-matched commitment produces at least ten practice-changing phase 3 results relevant to LMIC settings within a decade at a per-patient cost under a third of comparable high-income trials, and doubles the LMIC share of registered interventional oncology trials.",
     rationale: "Trials in India, Brazil and China have shown that large, pragmatic, low-cost phase 3s are feasible and change guidelines; the limiting factor is core funding for trial units rather than science. Results generalise upward more often than down: hypofractionation and de-escalation findings from LMIC trials have been adopted in rich countries.",
     test: "Two funders pool a pilot fund of tens of millions, award competitively to LMIC-led trial units, and audit after five years for trials completed, guideline citations and cost per patient compared with the funders' other trials.",
-    institutions: ["tata-memorial", "einstein-sao-paulo", "sysucc"], cancers: ["cervical", "esophageal", "hcc", "head-and-neck"], people: ["badwe-rajendra", "gupta-sudeep", "barrios-carlos"], related: ["idea-fund-global-cancer-fund", "idea-fund-lmic-radiotherapy-finance"] }),
+    institutions: ["tata-memorial", "einstein-sao-paulo", "sysucc"], cancers: ["cervical", "esophageal", "hcc", "head-and-neck"], people: ["badwe-rajendra", "gupta-sudeep", "barrios-carlos"], related: ["idea-fund-global-cancer-fund", "idea-fund-lmic-radiotherapy-finance"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   i({ id: "idea-fund-neglected-cancer-lottery", name: "Partial lottery funding for good proposals in under-funded cancers", maturity: "speculative",
     actor: "philanthropy", cost: "medium", horizonYears: 3, bottlenecks: ["b-funding-allocation"],
@@ -107,7 +107,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "An endowment of this kind funds long-term cohort follow-up for more than 80% of paediatric and young-adult survivors in its jurisdiction within five years and produces at least three practice-changing late-effects interventions within ten.",
     rationale: "Earmarked levies have built sustainable research funds elsewhere: France's tobacco tax allocation, the US vaccine injury compensation excise tax, and blood-product and pharmaceutical sector levies in several European countries. Survivorship research currently competes poorly in general peer review because it lacks novelty appeal.",
     test: "Model the levy yield against reimbursed spend in one country, then negotiate a three-year pilot with one national payer and one manufacturer group, tracking funded cohort coverage and cost.",
-    technologies: ["cardio-oncology", "exercise-oncology"], cancers: ["hodgkin-lymphoma", "all-leukemia", "breast-hr-positive"], related: ["idea-exercise-as-adjuvant"] }),
+    technologies: ["cardio-oncology", "exercise-oncology"], cancers: ["hodgkin-lymphoma", "all-leukemia", "breast-hr-positive"], related: ["idea-exercise-as-adjuvant"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   i({ id: "idea-fund-non-drug-trial-quota", name: "A statutory minimum share of public trial money for surgery and radiotherapy", maturity: "speculative",
     actor: "policy", cost: "large", horizonYears: 5, bottlenecks: ["b-funding-allocation", "b-surgery-radiation-innovation"],
@@ -116,7 +116,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A 25% floor doubles the number of adequately powered randomised surgical and radiotherapy trials started per year within five years, without reducing the total number of practice-changing results per public dollar.",
     rationale: "Published audits show surgery and radiotherapy receive a small single-digit share of cancer research funding despite delivering around half of cures; where dedicated infrastructure exists (UK CTRad, TROG, the German Hodgkin Study Group) these fields have produced practice-changing trials at low cost.",
     test: "Audit one funder's portfolio by intervention type, apply the floor for one funding cycle, and count trials started, completed and practice-changing five years later against the prior cycle.",
-    institutions: ["nrg-oncology", "alliance-oncology", "the-christie", "royal-marsden"], technologies: ["sbrt", "robotic-surgery", "imrt-igrt"], related: ["idea-fund-surgical-trials-network", "idea-fund-radiotherapy-trials-infrastructure"] }),
+    institutions: ["nrg-oncology", "alliance-oncology", "the-christie", "royal-marsden"], technologies: ["sbrt", "robotic-surgery", "imrt-igrt"], related: ["idea-fund-surgical-trials-network", "idea-fund-radiotherapy-trials-infrastructure"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   i({ id: "idea-fund-replication-set-aside", name: "Set aside 3% of grant budgets to replicate findings before translation", maturity: "speculative",
     actor: "research", cost: "medium", horizonYears: 3, bottlenecks: ["b-funding-allocation", "b-reproducibility", "b-translational-valley"],
@@ -145,7 +145,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Programmes whose officers are assessed on burden alignment and trial completion show measurable portfolio shift and higher trial completion within two funding cycles compared with programmes on conventional metrics.",
     rationale: "Incentives for intermediaries shape outcomes in development finance and venture capital; in science funding they have been left implicit. Trial non-completion runs at a fifth or more of academic oncology trials, and this is rarely counted against the programme that funded them.",
     test: "One funder adopts the metrics for half of its programmes (chosen at random) and compares portfolio and completion changes with the other half after two cycles.",
-    institutions: ["nci", "cruk"], related: ["idea-fund-burden-weighted-portfolio", "idea-fund-trial-completion-bonus"] }),
+    institutions: ["nci", "cruk"], related: ["idea-fund-burden-weighted-portfolio", "idea-fund-trial-completion-bonus"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   i({ id: "idea-fund-patient-burden-review-criterion", name: "A formal patient-burden score in grant peer review", maturity: "speculative",
     actor: "policy", cost: "small", horizonYears: 2, bottlenecks: ["b-funding-allocation", "b-patient-voice"],
@@ -174,7 +174,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A dedicated programme at 2% of a national budget doubles registered interventional trials in cachexia and toxicity within five years and yields at least one approved supportive-care agent or validated toxicity-prevention strategy within ten.",
     rationale: "Cachexia is implicated in up to a third of cancer deaths; the recent progress on GDF15 came from industry, not academia, because academic supportive-care research was starved. Dedicated programmes created fields in palliative care in the UK and in geriatric oncology in France.",
     test: "Portfolio audit, then launch and compare trial registrations, publications and industry co-investment in the supported area after five years with a matched neglected area.",
-    technologies: ["exercise-oncology", "cardio-oncology", "geriatric-assessment", "scalp-cooling"], related: ["idea-fund-ten-year-hard-problem-awards", "idea-exercise-as-adjuvant"] }),
+    technologies: ["exercise-oncology", "cardio-oncology", "geriatric-assessment", "scalp-cooling"], related: ["idea-fund-ten-year-hard-problem-awards", "idea-exercise-as-adjuvant"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   i({ id: "idea-fund-cross-funder-portfolio-registry", name: "Mandatory machine-readable portfolio reporting for all large cancer funders", maturity: "speculative",
     actor: "data", cost: "small", horizonYears: 2, bottlenecks: ["b-funding-allocation", "b-data-silos"],
@@ -193,7 +193,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A dedicated fund produces at least five phase 3 results in older adults within eight years that change guideline dosing or regimen choice, and increases the median trial age in the funder's portfolio by at least five years.",
     rationale: "The GAP70+ and GAIN trials showed geriatric assessment reduces toxicity; French GERICO and UK trials demonstrated feasibility of elderly-specific phase 3s. The gap is sustained funding, not method.",
     test: "Launch the fund for one cycle and compare median participant age, toxicity-driven discontinuation and guideline impact with the funder's general trials portfolio.",
-    technologies: ["geriatric-assessment"], related: ["idea-fund-payer-funded-pragmatic-trials", "idea-fund-implementation-quota"] }),
+    technologies: ["geriatric-assessment"], related: ["idea-fund-payer-funded-pragmatic-trials", "idea-fund-implementation-quota"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   i({ id: "idea-fund-fast-grants-oncology", name: "Forty-eight-hour small grants for bold experiments in neglected cancers", maturity: "speculative",
     actor: "philanthropy", cost: "medium", horizonYears: 2, bottlenecks: ["b-funding-allocation", "b-translational-valley"],
@@ -212,7 +212,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A dedicated programme raises the share of registration trials in lung, breast and melanoma that include patients with brain metastases from a minority to a majority within six years and produces at least two CNS-specific labels or guideline changes.",
     rationale: "Where brain metastases have been studied deliberately (tucatinib in HER2CLIMB, osimertinib CNS analyses, radiosurgery versus whole-brain trials) practice changed quickly; the constraint is that nobody funds the field systematically because it cuts across tumour-type programmes.",
     test: "Fund a five-centre pilot with a registry and two trials, and audit whether registration trials launched in the pilot's tumour types during the period relax their CNS exclusion criteria compared with the prior five years.",
-    cancers: ["nsclc", "breast-her2-positive", "melanoma", "glioblastoma"], drugs: ["tucatinib", "osimertinib"], technologies: ["sbrt", "whole-body-mri"], related: ["idea-fund-metastasis-moonshot"] }),
+    cancers: ["nsclc", "breast-her2-positive", "melanoma", "glioblastoma"], drugs: ["tucatinib", "osimertinib"], technologies: ["sbrt", "whole-body-mri"], related: ["idea-fund-metastasis-moonshot"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   // ---------------------------------------------------------------------------------------
   // Incentive misalignment: pay for cures and first-in-class, not for copies and months
@@ -234,7 +234,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Announcing prizes of $25 to $100 million for named first-in-class milestones raises the proportion of phase 1 oncology trials testing novel mechanisms (rather than known classes) in the named areas by at least a third within five years.",
     rationale: "The share of oncology pipeline assets that are follow-on rather than first-in-class has grown; analyses show dozens of PD-1 antibodies and TROP2 ADCs in development. Prizes that reward the discovery step have precedent in the Breakthrough Prize and DARPA Grand Challenges, and milestone prizes reduce the risk premium that makes investors avoid novel targets.",
     test: "Run three prizes for three years and compare novel-mechanism trial starts in the prize areas with matched areas; also survey developers on whether the prize changed their portfolio decisions.",
-    targets: ["tp53", "kras"], pathways: ["p53-cell-cycle", "ras-mapk"], related: ["idea-fund-cure-prize", "idea-fund-precompetitive-undruggable-consortium"] }),
+    targets: ["tp53", "kras"], pathways: ["p53-cell-cycle", "ras-mapk"], related: ["idea-fund-cure-prize", "idea-fund-precompetitive-undruggable-consortium"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-amc-paediatric-rare", name: "Advance market commitments for paediatric and rare cancer drugs", maturity: "speculative",
     actor: "payer", cost: "large", horizonYears: 6, bottlenecks: ["b-incentive-misalignment", "b-rare-cancers"],
@@ -263,7 +263,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Linking exclusivity to survival gain shifts industry portfolios: within a decade the share of pivotal trials with overall survival as a primary or co-primary endpoint rises substantially, and the average survival gain of approved drugs increases relative to the prior decade.",
     rationale: "Exclusivity is the main lever of pharmaceutical reward and is currently flat with respect to benefit; paediatric exclusivity extensions show that firms respond strongly to even six months of added protection. Value-based rewards are the explicit goal of ESMO-MCBS and ASCO value frameworks, which are advisory today.",
     test: "Use economic modelling with historical approvals to calibrate the schedule, then run a legislated pilot in one jurisdiction for new oncology approvals over five years, tracking endpoint choice and benefit magnitude of filings.",
-    terms: ["os", "pfs", "accelerated-approval"], related: ["idea-fund-benefit-indexed-exclusivity", "idea-fund-cure-prize"] }),
+    terms: ["os", "pfs", "accelerated-approval"], related: ["idea-fund-benefit-indexed-exclusivity", "idea-fund-cure-prize"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-benefit-indexed-exclusivity", name: "Shorter exclusivity for later-in-class drugs without added benefit", maturity: "speculative",
     actor: "policy", cost: "small", horizonYears: 5, bottlenecks: ["b-incentive-misalignment", "b-drug-pricing"],
@@ -272,7 +272,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Benefit-indexed exclusivity reduces the number of later-in-class oncology programmes entering phase 3 without a superiority design by at least a third within five years and increases the share of pipeline assets on novel targets.",
     rationale: "Portfolio analyses document a dozen or more checkpoint inhibitors and TROP2 ADCs in parallel development, each expecting a share of the same market. Firms respond to exclusivity rules (orphan and paediatric exclusivity changed behaviour rapidly), so trimming reward for redundancy should redirect investment.",
     test: "Simulate the rule against the past decade of approvals to estimate affected products, consult industry, and legislate a sunset pilot with pre-registered indicators of pipeline composition.",
-    drugs: ["pembrolizumab", "nivolumab"], targets: ["pd1", "trop2"], related: ["idea-fund-value-based-patent-extension", "idea-fund-abbreviated-pathway-me-too-biologics"] }),
+    drugs: ["pembrolizumab", "nivolumab"], targets: ["pd1", "trop2"], related: ["idea-fund-value-based-patent-extension", "idea-fund-abbreviated-pathway-me-too-biologics"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-pay-for-cure-annuities", name: "Outcome-based annuity payments for potentially curative one-time therapies", maturity: "early-clinical",
     actor: "payer", cost: "medium", horizonYears: 4, bottlenecks: ["b-incentive-misalignment", "b-drug-pricing"],
@@ -281,7 +281,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Annuity contracts for CAR-T in lymphoma and myeloma lower payer cost per durable remission by at least 20% compared with up-front pricing, without reducing patient access, and manufacturers increase investment in durability (consolidation, MRD-guided retreatment) measurably.",
     rationale: "Contracts exist for Zolgensma and haemophilia gene therapies in several countries; oncology has cleaner outcome definitions (relapse) than many indications. Paying for outcomes corrects the current system where a therapy that fails at month six costs the same as one that cures.",
     test: "A national payer pilots annuity contracts for CAR-T in one indication with a registry-based remission adjudication, comparing cost per remission-year and access metrics against a control region with up-front pricing.",
-    technologies: ["car-t", "mrd-testing"], drugs: ["axicabtagene-ciloleucel", "ciltacabtagene-autoleucel"], cancers: ["dlbcl", "multiple-myeloma"], terms: ["mrd", "real-world-evidence"], related: ["idea-fund-public-car-t-manufacturing", "idea-fund-mcbs-linked-pricing"] }),
+    technologies: ["car-t", "mrd-testing"], drugs: ["axicabtagene-ciloleucel", "ciltacabtagene-autoleucel"], cancers: ["dlbcl", "multiple-myeloma"], terms: ["mrd", "real-world-evidence"], related: ["idea-fund-public-car-t-manufacturing", "idea-fund-mcbs-linked-pricing"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-nonprofit-pharma", name: "A non-profit pharmaceutical company for the cancers markets ignore", maturity: "speculative",
     actor: "philanthropy", cost: "large", horizonYears: 8, bottlenecks: ["b-incentive-misalignment", "b-rare-cancers", "b-translational-valley"],
@@ -310,7 +310,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A ten-hospital public CAR-T network delivers CD19 and BCMA CAR-T with efficacy and safety non-inferior to commercial products in registry comparison, at a fully-loaded cost per treated patient under a third of commercial list prices, and doubles the number of eligible patients treated in its regions within four years.",
     rationale: "ARI-0001 and academic products elsewhere demonstrate feasibility and regulatory acceptance; academic manufacturing removes the margin and much of the logistics cost. Capacity, not biology, currently rations CAR-T in most of the world.",
     test: "Fund a five-centre pilot with a shared vector and process, register a prospective comparative registry against commercial products, and report outcomes and cost at three years.",
-    technologies: ["car-t", "allogeneic-cell-therapy"], targets: ["cd19", "bcma"], cancers: ["dlbcl", "all-leukemia", "multiple-myeloma"], related: ["idea-fund-pay-for-cure-annuities", "idea-fund-hospital-exemption-registry"] }),
+    technologies: ["car-t", "allogeneic-cell-therapy"], targets: ["cd19", "bcma"], cancers: ["dlbcl", "all-leukemia", "multiple-myeloma"], related: ["idea-fund-pay-for-cure-annuities", "idea-fund-hospital-exemption-registry"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-mcbs-linked-pricing", name: "Launch prices indexed to the ESMO benefit scale, revisited when survival matures", maturity: "speculative",
     actor: "payer", cost: "small", horizonYears: 3, bottlenecks: ["b-incentive-misalignment", "b-drug-pricing"],
@@ -329,7 +329,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A head-to-head requirement reduces late-in-class registration filings by at least a quarter within five years and produces comparative effectiveness evidence for the majority of remaining in-class approvals, where today almost none exists.",
     rationale: "The EU and payers such as Germany's G-BA already prefer active comparators; the WHO and IQWiG have argued that placebo- or obsolete-comparator trials waste patients. Comparative trials among PD-1 antibodies and among TROP2 ADCs are essentially absent despite dozens of products.",
     test: "Implement through a payer coalition's reimbursement criteria (faster than legislation) and count filings and comparator choices in oncology over three years against a pre-period.",
-    drugs: ["pembrolizumab", "nivolumab", "sacituzumab-govitecan", "datopotamab-deruxtecan"], terms: ["standard-of-care"], related: ["idea-fund-benefit-indexed-exclusivity"] }),
+    drugs: ["pembrolizumab", "nivolumab", "sacituzumab-govitecan", "datopotamab-deruxtecan"], terms: ["standard-of-care"], related: ["idea-fund-benefit-indexed-exclusivity"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-health-impact-fund-oncology", name: "A Health Impact Fund pilot that pays for measured health gain instead of price", maturity: "speculative",
     actor: "policy", cost: "large", horizonYears: 6, bottlenecks: ["b-incentive-misalignment", "b-global-access", "b-drug-pricing"],
@@ -349,7 +349,7 @@ export const ideasFunding: IdeaInput[] = [
     rationale: "CPRIT has committed billions with a documented multiplier in private follow-on investment and company relocation; CIRM funded therapies now in late-stage trials. Public capital is patient and can accept the higher failure rate of novelty in exchange for a share of rare large wins.",
     test: "Capitalise a fund at $500 million, invest only in assets passing an independent first-in-class test, and compare private follow-on financing and time-to-phase-2 of funded assets against matched unfunded novel assets after five years.",
     links: [{ label: "CPRIT", url: "https://www.cprit.texas.gov/" }, { label: "CIRM", url: "https://www.cirm.ca.gov/" }],
-    related: ["idea-fund-ind-enabling-fund", "idea-fund-royalty-pool-academic-assets", "idea-fund-phase-two-failure-reinsurance"] }),
+    related: ["idea-fund-ind-enabling-fund", "idea-fund-royalty-pool-academic-assets", "idea-fund-phase-two-failure-reinsurance"], institutions: ["cprit"] }),
 
   i({ id: "idea-fund-academic-promotion-reform", name: "Promote academics for trials completed, data shared and findings replicated", maturity: "speculative",
     actor: "research", cost: "small", horizonYears: 3, bottlenecks: ["b-incentive-misalignment", "b-reproducibility", "b-negative-results"],
@@ -388,7 +388,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A duration-trial exclusivity incentive results in at least half of newly approved immune checkpoint and targeted therapies having a completed randomised duration or de-escalation trial within five years of approval, compared with a small minority today.",
     rationale: "Paediatric exclusivity created hundreds of paediatric studies that would otherwise not have happened, demonstrating industry response to modest exclusivity rewards. Duration trials such as CheckMate 153 (one year versus continuous nivolumab) and DANTE show the questions are answerable and matter to patients.",
     test: "Model revenue effects and legislate a pilot in one jurisdiction; count duration and de-escalation trials initiated by sponsors for drugs approved under the pilot versus before.",
-    drugs: ["nivolumab", "pembrolizumab", "osimertinib"], related: ["idea-fund-payer-funded-pragmatic-trials", "idea-fund-value-based-patent-extension"] }),
+    drugs: ["nivolumab", "pembrolizumab", "osimertinib"], related: ["idea-fund-payer-funded-pragmatic-trials", "idea-fund-value-based-patent-extension"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-paediatric-deferral-escrow", name: "Escrow a share of adult revenue until the paediatric study is done", maturity: "speculative",
     actor: "regulator", cost: "small", horizonYears: 4, bottlenecks: ["b-incentive-misalignment", "b-rare-cancers"],
@@ -407,7 +407,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "An abbreviated class pathway reduces net prices of the affected class by at least 30% within three years of the first abbreviated approval and reduces the number of full-scale placebo-controlled phase 3 trials of later-in-class agents in the class.",
     rationale: "Biosimilar pathways cut prices for rituximab and trastuzumab substantially in Europe; several later PD-1 antibodies approved in China are already priced far below Western incumbents. The clinical pharmacology of these classes is well enough understood that repeating full development adds little knowledge.",
     test: "Regulator consultation and a pilot pathway for one class (anti-PD-1) with defined equivalence criteria, tracking approvals, trial designs and net prices over four years.",
-    drugs: ["pembrolizumab", "nivolumab", "trastuzumab"], targets: ["pd1", "cd20", "her2"], related: ["idea-fund-benefit-indexed-exclusivity", "idea-fund-head-to-head-mandate"] }),
+    drugs: ["pembrolizumab", "nivolumab", "trastuzumab"], targets: ["pd1", "cd20", "her2"], related: ["idea-fund-benefit-indexed-exclusivity", "idea-fund-head-to-head-mandate"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-open-source-repurposing-leads", name: "Patent-free open-source development of repurposed and off-patent cancer drugs", maturity: "early-clinical",
     actor: "philanthropy", cost: "medium", horizonYears: 5, bottlenecks: ["b-incentive-misalignment", "b-generic-repurposing"],
@@ -426,7 +426,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A repurposing pathway with assignable indication exclusivity increases label changes for off-patent drugs in oncology from near zero to several per year within five years and raises guideline adoption of positive academic repurposing trials.",
     rationale: "The EU's STAMP working group and the Belgian and Dutch repurposing frameworks have identified the missing label pathway as the key barrier; the orphan-drug precedent shows that indication-level exclusivity can be designed. The Anticancer Fund's and Cures Within Reach's pipelines provide immediate candidates.",
     test: "Legislate a pilot pathway in one region and run two repurposing labels through it, measuring time to label, payer uptake and price.",
-    related: ["idea-fund-open-source-repurposing-leads", "idea-fund-nonprofit-pharma", "idea-fund-shelved-asset-escrow"] }),
+    related: ["idea-fund-open-source-repurposing-leads", "idea-fund-nonprofit-pharma", "idea-fund-shelved-asset-escrow"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-social-impact-bonds-prevention", name: "Social impact bonds for cancer prevention, repaid from avoided treatment costs", maturity: "speculative",
     actor: "payer", cost: "medium", horizonYears: 5, bottlenecks: ["b-incentive-misalignment", "b-prevention-adoption"],
@@ -435,7 +435,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Social impact bonds for cancer prevention achieve their coverage targets in at least two of the first three pilots at a cost per additional person covered no higher than standard grant-funded programmes, and payers repay with a return that is still below the projected downstream savings.",
     rationale: "Prevention is chronically under-funded because its savings accrue years later to different budgets; impact bonds move the money forward while keeping accountability on outcomes. Evaluations of health impact bonds show mixed cost-effectiveness but consistent outcome focus, so oncology pilots should be pre-registered with explicit comparisons.",
     test: "Run three bonds (HPV catch-up, lung screening, bowel screening) in different regions with independent verification and compare coverage and cost against matched regions using standard funding.",
-    technologies: ["hpv-vaccine", "radiology-ai-screening"], cancers: ["cervical", "nsclc", "colorectal"], related: ["idea-fund-prevention-moonshot"] }),
+    technologies: ["hpv-vaccine", "radiology-ai-screening"], cancers: ["cervical", "nsclc", "colorectal"], related: ["idea-fund-prevention-moonshot"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   i({ id: "idea-fund-global-access-licensing-royalties", name: "University licences with royalties indexed to benefit and global access", maturity: "speculative",
     actor: "policy", cost: "small", horizonYears: 4, bottlenecks: ["b-incentive-misalignment", "b-global-access", "b-ip-collaboration"],
@@ -454,7 +454,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A phase 2 reinsurance pool increases the share of oncology phase 2 starts that are first-in-class by at least a quarter among participating sponsors within five years, at a net public cost per additional novel programme below the equivalent grant subsidy.",
     rationale: "Venture and pharma portfolio managers explicitly price the higher attrition of novel mechanisms; insuring the downside is a cheaper way to change the expected value than subsidising the upside, and it conditions payment on transparency, which addresses hidden failures.",
     test: "Capitalise a pilot pool for a defined cohort of first-in-class programmes, pre-register the counterfactual using historical pipeline composition, and evaluate pipeline shift and disclosure compliance after five years.",
-    related: ["idea-fund-sovereign-first-in-class-coinvestment", "idea-fund-trial-data-trust", "idea-fund-first-in-class-prize"] }),
+    related: ["idea-fund-sovereign-first-in-class-coinvestment", "idea-fund-trial-data-trust", "idea-fund-first-in-class-prize"], institutions: ["cprit"], links: [{ label: "Bottleneck evidence (Incentives reward me-too drugs and marginal gains): Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" }] }),
 
   // ---------------------------------------------------------------------------------------
   // Translational valley of death: fund and build the middle step between lab and patient
@@ -496,7 +496,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Routing academic candidates through funded phase 0 studies kills at least 30% before IND-enabling investment and raises the phase 2 success rate of those that proceed compared with the historical academic pipeline, at a cost per candidate under $1 million.",
     rationale: "Regulatory frameworks for exploratory INDs exist in the US and EU; the NCI ran a phase 0 programme demonstrating feasibility with a PARP inhibitor. Immuno-PET and radiolabelled small molecules now allow direct measurement of tumour delivery for many modalities, including antibodies and ADCs.",
     test: "Fund phase 0 studies for ten academic assets and compare downstream attrition and cost with a matched historical cohort that went straight to IND-enabling work.",
-    technologies: ["immuno-pet", "pet", "liquid-biopsy"], terms: ["suv"], related: ["idea-fund-ind-enabling-fund", "idea-fund-fast-grants-oncology", "idea-fund-academic-radiopharma-pipeline"] }),
+    technologies: ["immuno-pet", "pet", "liquid-biopsy"], terms: ["suv"], related: ["idea-fund-ind-enabling-fund", "idea-fund-fast-grants-oncology", "idea-fund-academic-radiopharma-pipeline"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-public-nonprofit-cro", name: "A national non-profit contract research organisation for academic oncology trials", maturity: "speculative",
     actor: "policy", cost: "large", horizonYears: 4, bottlenecks: ["b-translational-valley", "b-trial-design"],
@@ -505,7 +505,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Academic trials supported by a non-profit CRO complete recruitment and report results at least 30% faster than academic trials using commercial or in-house ad hoc support, at lower total cost per patient.",
     rationale: "EORTC and the German and UK cooperative trials units show that shared professional infrastructure lifts completion rates and quality; a non-profit CRO extends this from cooperative-group phase 3 to the early-phase academic trials where the valley of death is deepest.",
     test: "Fund a pilot CRO to sponsor twenty academic phase 1/2 oncology trials and compare start-up time, recruitment velocity, protocol deviations and reporting time against a matched set of contemporaneous academic trials.",
-    institutions: ["curie-nki-eortc", "nci"], related: ["idea-fund-translational-institutes-gmp", "idea-fund-global-academic-phase-one-network"] }),
+    institutions: ["curie-nki-eortc", "nci"], related: ["idea-fund-translational-institutes-gmp", "idea-fund-global-academic-phase-one-network"], keyPapers: ["paper-reproducibility-project-cancer-biology-elife-2021"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-translational-fellowships", name: "Two-year translational fellowships that pay scientists to develop their own discovery", maturity: "speculative",
     actor: "research", cost: "medium", horizonYears: 4, bottlenecks: ["b-translational-valley", "b-workforce"],
@@ -514,7 +514,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Translational fellows advance their assets to a defined milestone (validated target, lead series, IND-enabling start, prototype in patients) in at least half of cases, and a third of assets attract follow-on funding or licensing within two years of the fellowship, versus a small minority of comparable unfunded discoveries.",
     rationale: "Discoveries are stranded because the people who understand them are on short contracts with incentives to publish and move; paying the discoverer to translate is cheaper than paying a company to rediscover. Existing translational fellowship schemes report high rates of spin-out and licensing.",
     test: "Run fifty fellowships over three years and pre-register the milestone and follow-on metrics against a matched cohort of discoveries from the same institutions without fellowship support.",
-    related: ["idea-fund-translational-institutes-gmp", "idea-fund-surgeon-scientist-pathway", "idea-fund-protected-time-physician-scientists"] }),
+    related: ["idea-fund-translational-institutes-gmp", "idea-fund-surgeon-scientist-pathway", "idea-fund-protected-time-physician-scientists"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-target-validation-consortium", name: "A pre-competitive consortium to validate or kill academic targets before licensing", maturity: "early-clinical",
     actor: "industry", cost: "medium", horizonYears: 4, bottlenecks: ["b-translational-valley", "b-reproducibility", "b-ip-collaboration"],
@@ -543,7 +543,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A harmonised hospital-exemption registry across ten European centres captures outcomes for more than 90% of treated patients and supports at least one conditional authorisation or national reimbursement decision for an academic cell therapy within four years.",
     rationale: "Spain's approval of ARI-0001 under hospital exemption shows the route can deliver a reimbursed academic CAR-T; the European Medicines Agency and national agencies have called for better evidence from exempted products. Registry-based approval pathways exist in Japan for regenerative medicine.",
     test: "Establish the registry and standards in a pilot consortium and evaluate data completeness, comparability with pivotal trial outcomes and regulatory uptake at three years.",
-    technologies: ["car-t", "tcr-t", "til-therapy"], institutions: ["vall-dhebron", "nki", "charite"], related: ["idea-fund-public-car-t-manufacturing", "idea-fund-translational-institutes-gmp"] }),
+    technologies: ["car-t", "tcr-t", "til-therapy"], institutions: ["vall-dhebron", "nki", "charite"], related: ["idea-fund-public-car-t-manufacturing", "idea-fund-translational-institutes-gmp"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-academic-radiopharma-pipeline", name: "A university cyclotron network with shared regulatory files for new tracers", maturity: "early-clinical",
     actor: "research", cost: "medium", horizonYears: 4, bottlenecks: ["b-translational-valley", "b-manufacturing-cell-therapy"],
@@ -552,7 +552,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A shared network reduces the time from first-in-human of an academic tracer or radioligand to a five-centre trial from the current several years to under eighteen months, and doubles the number of academic radiopharmaceuticals entering multi-centre trials within four years.",
     rationale: "PSMA PET spread globally because academic centres shared precursors and methods informally; formalising that with shared regulatory files removes the largest delay. Germany's and the Netherlands' academic radiopharmacy networks demonstrate feasibility within a country.",
     test: "Fund a ten-centre network with a shared master file for two agents and measure time to multi-centre trial start and centres activated compared with agents developed without the network.",
-    technologies: ["psma-pet", "fapi-pet", "radioligand-therapy", "targeted-alpha-therapy"], institutions: ["heidelberg-nct", "dkfz", "peter-mac"], people: ["uwe-haberkorn", "frederik-giesel", "hofman-michael"], related: ["idea-fund-phase-zero-fund", "idea-fap-theranostics-pancancer", "radiopharma-roadmap"] }),
+    technologies: ["psma-pet", "fapi-pet", "radioligand-therapy", "targeted-alpha-therapy"], institutions: ["heidelberg-nct", "dkfz", "peter-mac"], people: ["uwe-haberkorn", "frederik-giesel", "hofman-michael"], related: ["idea-fund-phase-zero-fund", "idea-fap-theranostics-pancancer", "radiopharma-roadmap"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-stalled-asset-registry", name: "A public registry of stalled academic assets and shelved company compounds", maturity: "speculative",
     actor: "data", cost: "small", horizonYears: 2, bottlenecks: ["b-translational-valley", "b-negative-results", "b-ip-collaboration"],
@@ -581,7 +581,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A device translation fund of $50 million over five years brings at least fifteen academic cancer surgery or radiotherapy technologies to first-in-human evaluation and at least five to a randomised or IDEAL stage 3 study, compared with a handful in the preceding five years.",
     rationale: "Fluorescence-guided surgery agents and intraoperative margin tools have taken well over a decade to reach approval largely for lack of translational funding; where public funding existed (for example the UK's NIHR i4i programme) academic devices reached patients. Oncology devices are a market failure because they are hard to patent broadly and slow to reimburse.",
     test: "Fund a first cohort of ten technologies and track time to first-in-human, regulatory milestones and subsequent trials against a matched set of unfunded academic devices.",
-    technologies: ["fluorescence-guided-surgery", "optical-imaging", "flash-rt", "mr-linac", "brachytherapy"], related: ["idea-fund-surgical-trials-network", "idea-fund-device-technique-registry", "idea-fund-intraoperative-imaging-trials"] }),
+    technologies: ["fluorescence-guided-surgery", "optical-imaging", "flash-rt", "mr-linac", "brachytherapy"], related: ["idea-fund-surgical-trials-network", "idea-fund-device-technique-registry", "idea-fund-intraoperative-imaging-trials"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-biomarker-validation-fund", name: "A fund for prospective validation of academic biomarkers and companion diagnostics", maturity: "speculative",
     actor: "philanthropy", cost: "medium", horizonYears: 4, bottlenecks: ["b-translational-valley", "b-biomarker-validation"],
@@ -590,7 +590,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A biomarker validation fund of $30 million a year moves at least ten academic biomarkers per five years to guideline-endorsed or regulator-recognised status, compared with very few today, with at least three leading to treatment de-escalation or avoidance in practice.",
     rationale: "The tests that changed practice (Oncotype DX, MammaPrint, MSI, PD-L1 in specific contexts) all required prospective-retrospective validation on trial cohorts; the NCI's Biomarker, Imaging and Quality of Life Studies Funding Program and EORTC's SPECTA show the path exists but is small. Access to trial samples and independent analysis are the bottlenecks money can fix.",
     test: "Fund validation of five biomarkers on banked randomised-trial samples and compare time to guideline consideration and regulatory recognition with matched unfunded biomarkers.",
-    technologies: ["companion-diagnostic", "mrd-testing", "digital-pathology-ai"], drugs: ["oncotype-dx", "signatera"], terms: ["companion-diagnostic-term", "ppv"], related: ["idea-fund-trial-biospecimen-commons", "idea-ai-her2-low-scoring"] }),
+    technologies: ["companion-diagnostic", "mrd-testing", "digital-pathology-ai"], drugs: ["oncotype-dx", "signatera"], terms: ["companion-diagnostic-term", "ppv"], related: ["idea-fund-trial-biospecimen-commons", "idea-ai-her2-low-scoring"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-organoid-translation-gate", name: "A funded organoid and PDX panel as the go/no-go gate before IND-enabling money", maturity: "preclinical-evidence",
     actor: "research", cost: "medium", horizonYears: 3, bottlenecks: ["b-translational-valley", "b-preclinical-models"],
@@ -619,7 +619,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Clinicians with guaranteed protected time initiate at least twice as many investigator-led trials and translational grants per head as matched colleagues without protected time, and the scheme becomes cost-neutral to the hospital within five years through recovered indirect costs and trial income.",
     rationale: "NIH's physician-scientist workforce report documents the decline; where protected time has been funded (Howard Hughes, Burroughs Wellcome career awards, UK academic clinical lecturer posts) retention and output are markedly higher. Trial income is a real revenue line at cancer centres and can be earmarked.",
     test: "Two cancer centres run the scheme for five years with financial tracking and compare trial initiations and grant income of protected clinicians with a matched internal control group.",
-    related: ["idea-fund-translational-fellowships", "idea-fund-surgeon-scientist-pathway"] }),
+    related: ["idea-fund-translational-fellowships", "idea-fund-surgeon-scientist-pathway"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-royalty-pool-academic-assets", name: "A diversified royalty pool that finances academic phase 1 trials across fifty assets", maturity: "speculative",
     actor: "industry", cost: "large", horizonYears: 5, bottlenecks: ["b-translational-valley", "b-incentive-misalignment"],
@@ -628,7 +628,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A pool of fifty academic assets financed to phase 1 produces licensing revenue sufficient to return investors' capital within twelve years in the base case, and doubles the proportion of academic oncology assets reaching phase 1 in participating universities.",
     rationale: "Lo's megafund analysis shows that portfolios of 50 to 150 early assets can achieve investment-grade risk profiles; Royalty Pharma's model demonstrates appetite for royalty streams; university tech transfer income is highly concentrated in a few winners, which is exactly the distribution diversification exploits.",
     test: "Model with historical academic attrition and licensing data, then raise a pilot pool of $200 million across twenty universities and report progression and revenue at years five and ten.",
-    related: ["idea-fund-sovereign-first-in-class-coinvestment", "idea-fund-ind-enabling-fund", "idea-fund-milestone-venture-philanthropy"] }),
+    related: ["idea-fund-sovereign-first-in-class-coinvestment", "idea-fund-ind-enabling-fund", "idea-fund-milestone-venture-philanthropy"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-global-academic-phase-one-network", name: "A global first-in-human network for academic cancer trials with single ethics review", maturity: "speculative",
     actor: "regulator", cost: "medium", horizonYears: 4, bottlenecks: ["b-translational-valley", "b-regulatory-fragmentation", "b-trial-enrolment"],
@@ -637,7 +637,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Academic first-in-human trials run through the network accrue at least three times faster than comparable single-institution academic trials and reach a recommended phase 2 dose within eighteen months in the majority of cases.",
     rationale: "Industry phase 1 trials open globally through CRO networks; academic ones do not, and rare-cancer academic trials routinely close for slow accrual. The EORTC and the Children's Oncology Group show that academic multinational early-phase trials work when infrastructure is shared.",
     test: "Run five academic first-in-human trials through a pilot network of ten units and compare activation time and accrual rate with matched single-centre trials.",
-    institutions: ["curie-nki-eortc", "royal-marsden", "gustave-roussy", "mskcc"], terms: ["basket-umbrella-platform"], related: ["idea-fund-public-nonprofit-cro", "idea-fund-translational-institutes-gmp"] }),
+    institutions: ["curie-nki-eortc", "royal-marsden", "gustave-roussy", "mskcc"], terms: ["basket-umbrella-platform"], related: ["idea-fund-public-nonprofit-cro", "idea-fund-translational-institutes-gmp"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-academic-sponsor-indemnity-pool", name: "A public indemnity pool so universities can sponsor first-in-human cancer trials", maturity: "speculative",
     actor: "policy", cost: "medium", horizonYears: 2, bottlenecks: ["b-translational-valley", "b-trial-design"],
@@ -646,7 +646,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Where a pool exists, the number of academic-sponsored first-in-human oncology trials rises by at least half within three years, and the proportion of academic assets licensed before any human data falls, indicating that institutions retain assets longer and on better terms.",
     rationale: "Institutions respond to liability exposure: after high-profile gene therapy adverse events, academic sponsorship of first-in-human trials fell sharply where insurance costs rose. Pooling risk across many trials is standard for rare, high-severity events, and the actual claims record of early-phase oncology trials is small relative to premiums charged.",
     test: "Establish the pool in one country for three years, track academic first-in-human sponsorships, premiums paid and claims, and compare with a neighbouring country without the scheme.",
-    related: ["idea-fund-global-academic-phase-one-network", "idea-fund-public-nonprofit-cro", "idea-fund-hospital-exemption-registry"] }),
+    related: ["idea-fund-global-academic-phase-one-network", "idea-fund-public-nonprofit-cro", "idea-fund-hospital-exemption-registry"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   // ---------------------------------------------------------------------------------------
   // IP and collaboration: unlock combinations, data and materials across company walls
@@ -728,7 +728,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "After the safe harbour, the number of registered multi-company oncology collaborations involving data sharing or joint trials rises by at least half within two years, and companies stop citing antitrust risk in surveys of collaboration barriers.",
     rationale: "The EU R&D block exemption and US National Cooperative Research and Production Act show that legal clarity increases pre-competitive collaboration; regulators including the FDA have encouraged industry data pooling (for example on immune-related adverse events) but companies report legal caution.",
     test: "Survey collaboration barriers before and after issuing guidance in one jurisdiction; count registered collaborations meeting the safe-harbour criteria over two years.",
-    related: ["idea-fund-compulsory-combination-access", "idea-fund-trial-data-trust", "idea-fund-combination-patent-pool"] }),
+    related: ["idea-fund-compulsory-combination-access", "idea-fund-trial-data-trust", "idea-fund-combination-patent-pool"], links: [{ label: "Bottleneck evidence (Secrecy and intellectual property block collaboration): Danchev et al., Evaluation of data sharing after implementation of the ICMJE data sharing statement requirement (JAMA Netw Open 2021)", url: "https://doi.org/10.1001/jamanetworkopen.2020.33972" }] }),
 
   i({ id: "idea-fund-open-results-bonus", name: "Funder bonuses for releasing results and data within six months, negatives included", maturity: "speculative",
     actor: "philanthropy", cost: "small", horizonYears: 2, bottlenecks: ["b-ip-collaboration", "b-knowledge-diffusion", "b-negative-results"],
@@ -737,7 +737,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Open-results bonuses raise the proportion of funded projects with preprints or data released within six months from a small minority to a majority within two years, with a measurable increase in reported negative results, at a cost under 5% of the portfolio.",
     rationale: "Behavioural experiments in science funding show that small, certain rewards change compliance more than rarely enforced mandates; the Gates Foundation and Wellcome open-access mandates achieved high compliance only when paired with funding for fees. Registered reports formats show negative results are published when the incentive structure allows.",
     test: "Randomise the bonus across half of a funder's awards for one cycle and compare release timing and negative-result reporting with the other half.",
-    related: ["idea-fund-academic-promotion-reform", "idea-fund-trial-completion-bonus", "idea-fund-scoop-protection-policy"] }),
+    related: ["idea-fund-academic-promotion-reform", "idea-fund-trial-completion-bonus", "idea-fund-scoop-protection-policy"], links: [{ label: "Bottleneck evidence (Secrecy and intellectual property block collaboration): Danchev et al., Evaluation of data sharing after implementation of the ICMJE data sharing statement requirement (JAMA Netw Open 2021)", url: "https://doi.org/10.1001/jamanetworkopen.2020.33972" }] }),
 
   i({ id: "idea-fund-shelved-asset-escrow", name: "Automatic offer of shelved cancer assets to non-profits after two years", maturity: "speculative",
     actor: "policy", cost: "small", horizonYears: 3, bottlenecks: ["b-ip-collaboration", "b-translational-valley", "b-rare-cancers"],
@@ -746,7 +746,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "An escrow duty leads to at least ten shelved oncology assets entering non-profit or academic development within three years and at least one reaching a registration trial in a rare or paediatric indication within six.",
     rationale: "Many discontinued assets have adequate safety data and mechanistic rationale in indications the owner never pursued; academic groups routinely identify such assets but cannot obtain them. Use-it-or-lose-it provisions exist in patent law (compulsory licensing for non-working) and in orphan drug regulation (revocation for insufficient supply).",
     test: "Apply the condition to publicly co-funded assets in one jurisdiction and track offers, licences and subsequent trials over three years.",
-    related: ["idea-fund-stalled-asset-registry", "idea-fund-nonprofit-pharma", "idea-fund-repurposing-indication-exclusivity", "tiragolumab", "magrolimab"] }),
+    related: ["idea-fund-stalled-asset-registry", "idea-fund-nonprofit-pharma", "idea-fund-repurposing-indication-exclusivity", "tiragolumab", "magrolimab"], links: [{ label: "Bottleneck evidence (Secrecy and intellectual property block collaboration): Danchev et al., Evaluation of data sharing after implementation of the ICMJE data sharing statement requirement (JAMA Netw Open 2021)", url: "https://doi.org/10.1001/jamanetworkopen.2020.33972" }] }),
 
   i({ id: "idea-fund-federated-learning-consortium", name: "A federated learning consortium of cancer centres that jointly own the models", maturity: "early-clinical",
     actor: "engineering", cost: "medium", horizonYears: 3, bottlenecks: ["b-ip-collaboration", "b-data-silos", "b-ai-validation"],
@@ -755,7 +755,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A member-owned federated consortium of twenty centres trains models that outperform single-centre models on held-out external validation for at least three clinical tasks within three years, and at least one consortium model enters a prospective clinical trial.",
     rationale: "Federated training has matched centralised training in published pathology and radiology tasks; the barrier to scale is governance and IP, not algorithms. Member ownership addresses the concern that centres give away data value to vendors.",
     test: "Constitute the consortium with a governance charter, run three federated training tasks against single-centre baselines and pre-register external validation.",
-    technologies: ["digital-pathology-ai", "pathology-foundation-model", "radiology-ai-screening"], companies: ["owkin"], related: ["idea-multimodal-foundation-model", "idea-fund-trial-data-trust"] }),
+    technologies: ["digital-pathology-ai", "pathology-foundation-model", "radiology-ai-screening"], companies: ["owkin"], related: ["idea-multimodal-foundation-model", "idea-fund-trial-data-trust"], links: [{ label: "Bottleneck evidence (Secrecy and intellectual property block collaboration): Danchev et al., Evaluation of data sharing after implementation of the ICMJE data sharing statement requirement (JAMA Netw Open 2021)", url: "https://doi.org/10.1001/jamanetworkopen.2020.33972" }] }),
 
   i({ id: "idea-fund-trial-biospecimen-commons", name: "A commons for leftover trial biospecimens with standard access for approved research", maturity: "early-clinical",
     actor: "data", cost: "medium", horizonYears: 3, bottlenecks: ["b-ip-collaboration", "b-biomarker-validation"],
@@ -794,7 +794,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "In the two years after major oncology journals adopt scoop protection, the share of cancer biology papers preprinted before submission rises by at least half and surveys show a measurable fall in reported withholding of methods and data before publication.",
     rationale: "Preprinting rates rose sharply in fields where journals signalled acceptance and protection (genomics, neuroscience); the pandemic showed biomedical researchers will share early when norms permit. Back-to-back publication of independent confirmations is already a respected format in structural biology and genetics.",
     test: "Track preprint rates and survey-reported withholding in oncology before and after policy adoption by a coalition of journals and funders, compared with a field without the change.",
-    related: ["idea-fund-open-results-bonus", "idea-fund-academic-promotion-reform"] }),
+    related: ["idea-fund-open-results-bonus", "idea-fund-academic-promotion-reform"], links: [{ label: "Bottleneck evidence (Secrecy and intellectual property block collaboration): Danchev et al., Evaluation of data sharing after implementation of the ICMJE data sharing statement requirement (JAMA Netw Open 2021)", url: "https://doi.org/10.1001/jamanetworkopen.2020.33972" }] }),
 
   // ---------------------------------------------------------------------------------------
   // Surgery and radiotherapy: build the evidence machine the drug world takes for granted
@@ -836,7 +836,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "An evaluation unit with conditional-payment leverage generates randomised or high-quality comparative evidence for at least ten surgical robotic or AI applications within four years and leads to at least two adoption decisions being reversed or restricted on the basis of that evidence.",
     rationale: "Where randomised trials of robotic surgery have been done (ROLARR for rectal cancer, RAZOR for cystectomy) they showed no oncological advantage and much higher cost; those trials were run without any systematic mechanism. Coverage with evidence development has made trials happen for cardiac devices and proton therapy.",
     test: "Establish the unit, link premium reimbursement of two technologies to enrolment in its comparative studies, and measure evidence generated and adoption changes over four years.",
-    technologies: ["robotic-surgery", "fluorescence-guided-surgery"], companies: ["intuitive-surgical"], related: ["idea-fund-device-technique-registry", "idea-fund-surgical-video-registry", "idea-fund-adaptive-radiotherapy-evidence"] }),
+    technologies: ["robotic-surgery", "fluorescence-guided-surgery"], companies: ["intuitive-surgical"], related: ["idea-fund-device-technique-registry", "idea-fund-surgical-video-registry", "idea-fund-adaptive-radiotherapy-evidence"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-flash-evidence-programme", name: "A coordinated FLASH radiotherapy evidence programme with shared dose-rate standards", maturity: "early-clinical",
     actor: "research", cost: "large", horizonYears: 6, bottlenecks: ["b-surgery-radiation-innovation", "b-toxicity-qol"],
@@ -875,7 +875,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Course-based payment raises the use of guideline-concordant hypofractionation for breast and prostate cancer by at least 20 percentage points within two years in affected systems, with no measurable change in outcomes or toxicity.",
     rationale: "Uptake of hypofractionation is far higher in capitated or salaried systems (UK, Canada) than in fee-for-service settings, indicating payment, not evidence, drives practice. Episode payment is a standard tool for aligning incentives and requires no new evidence.",
     test: "Compare hypofractionation rates and outcomes before and after episode-based payment in a payer region against a matched fee-for-service region.",
-    technologies: ["imrt-igrt", "sbrt"], cancers: ["breast-hr-positive", "prostate"], related: ["idea-fund-radiotherapy-trials-infrastructure", "idea-fund-payer-funded-pragmatic-trials"] }),
+    technologies: ["imrt-igrt", "sbrt"], cancers: ["breast-hr-positive", "prostate"], related: ["idea-fund-radiotherapy-trials-infrastructure", "idea-fund-payer-funded-pragmatic-trials"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-surgical-video-registry", name: "A video-based surgical quality registry linking assessed skill to cancer outcomes", maturity: "early-clinical",
     actor: "data", cost: "medium", horizonYears: 3, bottlenecks: ["b-surgery-radiation-innovation", "b-real-world-evidence"],
@@ -884,7 +884,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Surgeons who receive video-based skill feedback improve rated skill and reduce positive margin rates measurably within two years, and registry skill scores predict recurrence independently of volume and stage.",
     rationale: "Skill-outcome associations have been shown in bariatric, colorectal and prostate surgery; video review with feedback improves technical scores in randomised studies of trainees. Making this systematic is an infrastructure and governance problem, not a scientific one.",
     test: "Enrol twenty centres, record and rate a defined operation for two years, and test skill-outcome associations and the effect of feedback in a stepped-wedge design.",
-    technologies: ["robotic-surgery", "digital-pathology-ai"], cancers: ["colorectal", "prostate", "gastric"], related: ["idea-fund-surgical-trials-network", "idea-fund-device-technique-registry", "idea-fund-surgical-outcomes-public-reporting"] }),
+    technologies: ["robotic-surgery", "digital-pathology-ai"], cancers: ["colorectal", "prostate", "gastric"], related: ["idea-fund-surgical-trials-network", "idea-fund-device-technique-registry", "idea-fund-surgical-outcomes-public-reporting"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-organ-preservation-programme", name: "A funded programme of organ-preservation trials to avoid radical surgery", maturity: "being-tested-at-scale",
     actor: "research", cost: "large", horizonYears: 5, bottlenecks: ["b-surgery-radiation-innovation", "b-toxicity-qol"],
@@ -893,7 +893,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A dedicated programme completes at least five randomised or well-controlled organ-preservation trials within seven years, at least three of which establish non-inferior survival with substantially better patient-reported function, changing guidelines in those indications.",
     rationale: "The OPRA and dostarlimab rectal cancer studies, the bladder-preservation trimodality data and the larynx-preservation trials show the biology allows organ preservation in selected patients; the barrier is the trials, which no company will fund and which surgical culture has been slow to run.",
     test: "Launch three trials in the first two years with pre-registered non-inferiority margins and patient-reported co-primary endpoints; track accrual and publication.",
-    drugs: ["dostarlimab", "pembrolizumab"], cancers: ["colorectal", "urothelial", "head-and-neck", "esophageal"], terms: ["msi", "neoadjuvant-adjuvant"], people: ["myriam-chalabi"], related: ["idea-fund-surgical-trials-network", "idea-fund-omission-deescalation-trials"] }),
+    drugs: ["dostarlimab", "pembrolizumab"], cancers: ["colorectal", "urothelial", "head-and-neck", "esophageal"], terms: ["msi", "neoadjuvant-adjuvant"], people: ["myriam-chalabi"], related: ["idea-fund-surgical-trials-network", "idea-fund-omission-deescalation-trials"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-omission-deescalation-trials", name: "Payer-funded trials that omit surgery or radiotherapy in low-risk patients", maturity: "being-tested-at-scale",
     actor: "payer", cost: "medium", horizonYears: 4, bottlenecks: ["b-surgery-radiation-innovation", "b-toxicity-qol", "b-overdiagnosis"],
@@ -902,7 +902,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A payer-funded omission programme produces at least four practice-changing results within six years, each reducing the number of procedures or radiotherapy courses in the target population by a fifth or more with non-inferior recurrence.",
     rationale: "SOUND, INSEMA, PRIME II and the low-risk DCIS trials have shown omission is safe in defined groups and changed guidelines; each was funded with difficulty by academic grants. Payers are the natural sponsors because the savings accrue to them directly.",
     test: "A payer trials fund launches two omission trials and pre-registers projected savings; audit realised savings and outcome non-inferiority at trial completion.",
-    technologies: ["sentinel-node", "imrt-igrt"], cancers: ["breast-hr-positive", "thyroid", "prostate"], drugs: ["oncotype-dx"], related: ["idea-fund-organ-preservation-programme", "idea-fund-payer-funded-pragmatic-trials", "idea-til-guided-deescalation"] }),
+    technologies: ["sentinel-node", "imrt-igrt"], cancers: ["breast-hr-positive", "thyroid", "prostate"], drugs: ["oncotype-dx"], related: ["idea-fund-organ-preservation-programme", "idea-fund-payer-funded-pragmatic-trials", "idea-til-guided-deescalation"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-lmic-radiotherapy-finance", name: "Blended finance and a low-cost linac to close the global radiotherapy gap", maturity: "early-clinical",
     actor: "philanthropy", cost: "large", horizonYears: 6, bottlenecks: ["b-surgery-radiation-innovation", "b-global-access"],
@@ -921,7 +921,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "The network completes randomised trials of at least five intraoperative margin technologies within four years, at least two of which reduce positive margins or re-operation by a third in breast, head and neck or prostate surgery and are adopted under outcome-based payment.",
     rationale: "Re-operation rates after breast-conserving surgery run at a fifth in many systems; positive margins predict recurrence in most solid tumours. Pegulicianine and other agents have shown margin detection in trials, but comparative evidence across technologies and payment models is absent.",
     test: "Launch two randomised trials in breast and head and neck surgery with margin primary endpoints and a pilot outcome-based payment contract with one payer.",
-    technologies: ["fluorescence-guided-surgery", "optical-imaging"], cancers: ["breast-hr-positive", "head-and-neck", "prostate"], related: ["idea-fund-device-and-technique-translation-fund", "idea-fund-surgical-trials-network"] }),
+    technologies: ["fluorescence-guided-surgery", "optical-imaging"], cancers: ["breast-hr-positive", "head-and-neck", "prostate"], related: ["idea-fund-device-and-technique-translation-fund", "idea-fund-surgical-trials-network"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-rt-io-platform", name: "A neutral platform trial for radiotherapy plus immunotherapy combinations", maturity: "early-clinical",
     actor: "research", cost: "large", horizonYears: 4, bottlenecks: ["b-surgery-radiation-innovation", "b-ip-collaboration", "b-combination-space"],
@@ -930,7 +930,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A neutral RT-IO platform evaluates at least six immunotherapy agents with standardised radiotherapy within four years and produces at least one positive signal warranting phase 3 and at least two clear negatives, at a per-agent cost below a third of stand-alone RT-IO trials.",
     rationale: "PACIFIC showed the value of sequencing immunotherapy after chemoradiotherapy; many subsequent trials with poorly standardised radiotherapy have been negative or uninterpretable. Platform designs have worked in glioblastoma and breast cancer; combining them with radiotherapy quality assurance is the missing step.",
     test: "Launch the platform in one indication with three agents and a shared control, and report activation time, standardisation compliance and per-agent cost against recent stand-alone trials.",
-    technologies: ["sbrt", "checkpoint-inhibitor", "imrt-igrt"], drugs: ["durvalumab", "pembrolizumab", "nivolumab"], terms: ["abscopal-effect", "oligometastatic", "basket-umbrella-platform"], people: ["kevin-harrington"], related: ["radiation-plus-io", "idea-fund-neutral-platform-sponsor", "idea-fund-radiotherapy-trials-infrastructure"] }),
+    technologies: ["sbrt", "checkpoint-inhibitor", "imrt-igrt"], drugs: ["durvalumab", "pembrolizumab", "nivolumab"], terms: ["abscopal-effect", "oligometastatic", "basket-umbrella-platform"], people: ["kevin-harrington"], related: ["radiation-plus-io", "idea-fund-neutral-platform-sponsor", "idea-fund-radiotherapy-trials-infrastructure"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-adaptive-radiotherapy-evidence", name: "Coverage-with-evidence registries for MR-guided and adaptive radiotherapy", maturity: "being-tested-at-scale",
     actor: "payer", cost: "medium", horizonYears: 4, bottlenecks: ["b-surgery-radiation-innovation", "b-real-world-evidence"],
@@ -939,7 +939,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Coverage-with-evidence generates outcome and toxicity data on more than 90% of adaptive radiotherapy patients in participating systems and produces at least two randomised comparisons with definitive results within five years.",
     rationale: "MOMENTUM has shown that an international MR-linac registry is feasible; the proton experience shows what happens without payment leverage. Adaptive radiotherapy is the next expensive technology where evidence should precede diffusion.",
     test: "Implement the conditional payment in two health systems and compare registry completeness and trial launch against systems reimbursing unconditionally.",
-    technologies: ["mr-linac", "imrt-igrt", "sbrt"], companies: ["elekta", "varian", "reflexion"], cancers: ["pancreatic", "prostate", "urothelial"], related: ["idea-fund-proton-coverage-with-evidence", "idea-fund-surgical-ai-robotics-evaluation"] }),
+    technologies: ["mr-linac", "imrt-igrt", "sbrt"], companies: ["elekta", "varian", "reflexion"], cancers: ["pancreatic", "prostate", "urothelial"], related: ["idea-fund-proton-coverage-with-evidence", "idea-fund-surgical-ai-robotics-evaluation"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-surgical-outcomes-public-reporting", name: "Public risk-adjusted outcome reporting for cancer surgery to drive centralisation", maturity: "being-tested-at-scale",
     actor: "policy", cost: "small", horizonYears: 3, bottlenecks: ["b-surgery-radiation-innovation", "b-care-fragmentation"],
@@ -958,7 +958,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Validated AI contouring and planning reduces planning time per patient by more than half without loss of plan quality in prospective multi-centre studies, and departments adopting it under supportive payment rules increase patients treated per staff member by at least a fifth within two years.",
     rationale: "Randomised and prospective studies of auto-contouring already show large time savings with acceptable quality for several sites; the barrier is systemic. Radiotherapy is the one area where AI could directly relieve a workforce constraint that rations curative treatment.",
     test: "Run a prospective multi-centre validation with time and quality endpoints, then a stepped-wedge implementation across ten departments measuring throughput and staff time.",
-    technologies: ["imrt-igrt", "radiology-ai-screening"], companies: ["varian", "elekta", "siemens-healthineers"], related: ["idea-fund-radiotherapy-trials-infrastructure", "idea-fund-lmic-radiotherapy-finance"] }),
+    technologies: ["imrt-igrt", "radiology-ai-screening"], companies: ["varian", "elekta", "siemens-healthineers"], related: ["idea-fund-radiotherapy-trials-infrastructure", "idea-fund-lmic-radiotherapy-finance"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-ablation-versus-surgery-trials", name: "Device-agnostic public trials of ablation technologies against surgery", maturity: "early-clinical",
     actor: "research", cost: "large", horizonYears: 5, bottlenecks: ["b-surgery-radiation-innovation", "b-toxicity-qol"],
@@ -967,7 +967,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Within five years the programme delivers randomised evidence in at least three indications on whether ablation achieves non-inferior local control and survival with better functional outcomes than resection, and at least one result changes guidelines.",
     rationale: "Trials such as COLLISION (thermal ablation versus resection for colorectal liver metastases) show that randomising ablation against surgery is feasible and informative; histotripsy and HIFU have reached the clinic with single-arm evidence only. Device-agnostic public trials are the only way to obtain comparative evidence companies will not fund.",
     test: "Launch two randomised trials (liver and kidney) with device-agnostic ablation arms and track accrual, local control and functional outcomes.",
-    technologies: ["hifu-histotripsy", "thermal-ablation", "irreversible-electroporation"], companies: ["histosonics", "insightec"], cancers: ["hcc", "rcc", "prostate", "thyroid"], related: ["idea-fund-surgical-trials-network", "idea-fund-device-technique-registry"] }),
+    technologies: ["hifu-histotripsy", "thermal-ablation", "irreversible-electroporation"], companies: ["histosonics", "insightec"], cancers: ["hcc", "rcc", "prostate", "thyroid"], related: ["idea-fund-surgical-trials-network", "idea-fund-device-technique-registry"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 
   i({ id: "idea-fund-radiotherapy-innovation-pathway", name: "A regulatory pathway for new radiotherapy techniques modelled on drug development", maturity: "speculative",
     actor: "regulator", cost: "small", horizonYears: 4, bottlenecks: ["b-surgery-radiation-innovation", "b-regulatory-fragmentation"],
@@ -986,5 +986,5 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Announcing a standing technique prize increases the number of randomised trials of surgical and radiotherapy technique registered per year by at least a third within five years and the number of trainees entering technique-focused research.",
     rationale: "Prizes reward outputs without requiring exclusivity, exactly the property needed for unpatentable innovations; the Lasker and Breakthrough prizes show that recognition and money shift prestige in science. Surgery and radiotherapy lack an equivalent focused on trial-proven technique.",
     test: "Endow the prize, publish criteria and track technique trial registrations and applicant characteristics over five years against the prior period.",
-    technologies: ["sentinel-node", "sbrt", "robotic-surgery"], related: ["idea-fund-cure-prize", "idea-fund-surgical-trials-network", "idea-fund-surgeon-scientist-pathway"] }),
+    technologies: ["sentinel-node", "sbrt", "robotic-surgery"], related: ["idea-fund-cure-prize", "idea-fund-surgical-trials-network", "idea-fund-surgeon-scientist-pathway"], links: [{ label: "Bottleneck evidence (Surgery and radiotherapy cure most, get least): Sullivan et al., Global cancer surgery (Lancet Oncology Commission 2015)", url: "https://doi.org/10.1016/S1470-2045(15)00223-5" }] }),
 ];

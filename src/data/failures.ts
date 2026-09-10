@@ -32,7 +32,7 @@ const raw: EntityInput[] = [
     mechanism: "Humanised IgG4 anti-CD47; blocks the CD47–SIRPα 'don't eat me' signal, enabling macrophage phagocytosis.",
     targets: ["cd47"], technologies: ["monoclonal-antibody"], companies: ["gilead"], cancers: ["aml"],
     tags: ["failure", "lesson:toxicity"],
-    links: [{ label: "Gilead discontinues magrolimab in AML (Feb 2024)", url: "https://www.gilead.com/news-and-press/press-room/press-releases/2024/2/gilead-statement-on-discontinuation-of-phase-3-enhance-3-study-in-aml" }],
+    links: [{ label: "Gilead discontinues magrolimab in AML (Feb 2024)", url: "https://www.gilead.com/news-and-press/press-room/press-releases/2024/2/gilead-statement-on-discontinuation-of-phase-3-enhance-3-study-in-aml" }], pathways: ["cd47-sirpa"],
   },
   {
     id: "rovalpituzumab-tesirine", kind: "drug", name: "Rovalpituzumab tesirine", code: "Rova-T, SC16LD6.5", modality: "ADC", asOf, status: "withdrawn", wikipedia: W("Rovalpituzumab_tesirine"),

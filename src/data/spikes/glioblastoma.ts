@@ -13,7 +13,7 @@ const entities: EntityInput[] = [
     summary: "Stupp/EORTC 26981-NCIC (2005): adding concurrent and adjuvant temozolomide to radiotherapy raised median OS from 12.1 to 14.6 months and 2-year survival from 10% to 27%. Benefit concentrates in MGMT-promoter-methylated tumours (median OS ~23 months vs ~13 months unmethylated). Also standard with radiotherapy in grade 3 astrocytoma (CATNON) and, with PCV as an alternative, in oligodendroglioma. Oral, well tolerated; lymphopenia and hypermutation at recurrence are the costs.",
     mechanism: "Prodrug of MTIC; methylates O6-guanine; cytotoxicity depends on unrepaired lesions when MGMT is silenced.",
     approvals: [{ region: "US", year: 1999, indication: "Refractory anaplastic astrocytoma" }, { region: "US", year: 2005, indication: "Newly diagnosed glioblastoma with radiotherapy" }],
-    technologies: ["cytotoxic-chemotherapy", "imrt-igrt"], cancers: ["glioblastoma"], trials: ["eortc-26981"], terms: ["mgmt"],
+    technologies: ["cytotoxic-chemotherapy", "imrt-igrt"], cancers: ["glioblastoma"], trials: ["eortc-26981"], terms: ["mgmt"], links: [{ label: "Wikipedia", url: W("Temozolomide") }],
   },
   {
     id: "lomustine", kind: "drug", name: "Lomustine (CCNU)", brand: "Gleostine", modality: "Oral nitrosourea chemotherapy", asOf, status: "standard-of-care", wikipedia: W("Lomustine"),
@@ -21,7 +21,7 @@ const entities: EntityInput[] = [
     summary: "Standard second-line agent in Europe and the control in EORTC 26101 (lomustine ± bevacizumab), REGOMA, and most recurrent-glioblastoma trials; median OS ~8-9 months at recurrence. CeTeG/NOA-09 suggested lomustine-temozolomide improves OS in MGMT-methylated newly diagnosed disease. Delayed, cumulative myelosuppression limits cycles.",
     mechanism: "Lipophilic nitrosourea; DNA alkylation and crosslinking; crosses the blood-brain barrier.",
     approvals: [{ region: "US", year: 1976, indication: "Brain tumours after surgery/radiation; Hodgkin lymphoma" }],
-    technologies: ["cytotoxic-chemotherapy"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"],
+    technologies: ["cytotoxic-chemotherapy"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"], links: [{ label: "Wikipedia", url: W("Lomustine") }],
   },
   {
     id: "bevacizumab-glioma", kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Bevacizumab" }], name: "Bevacizumab (glioblastoma use)", brand: "Avastin", modality: "Monoclonal antibody (anti-VEGF)", asOf, status: "approved", wikipedia: W("Bevacizumab"),
@@ -73,7 +73,7 @@ const entities: EntityInput[] = [
     tldr: "The 2005 trial that set the treatment every glioblastoma patient still receives. Nothing has replaced it in twenty years.",
     summary: "573 patients. Median OS 14.6 vs 12.1 months; 2-year OS 27% vs 10%; 5-year OS 9.8% vs 1.9%. Companion analysis (Hegi) showed MGMT promoter methylation predicts benefit. NEJM 2005; 5-year update Lancet Oncology 2009.",
     result: "OS 14.6 vs 12.1 months, HR 0.63.",
-    drugs: ["temozolomide"], cancers: ["glioblastoma"], technologies: ["imrt-igrt"], terms: ["mgmt"], links: [ct("NCT00006353")],
+    drugs: ["temozolomide"], cancers: ["glioblastoma"], technologies: ["imrt-igrt"], terms: ["mgmt"], links: [ct("NCT00006353")], people: ["martin-van-den-bent", "monika-hegi"],
   },
   {
     id: "ef-14", kind: "trial", name: "EF-14", nct: "NCT00916409", phase: "3", status: "positive", yearReported: 2015, sponsor: "Novocure", asOf,
@@ -89,7 +89,7 @@ const entities: EntityInput[] = [
     tldr: "The first targeted-therapy win in low-grade brain tumours: a pill that more than doubled the time before the tumour grew, delaying radiation and chemotherapy by years.",
     summary: "331 patients. PFS 27.7 vs 11.1 months (HR 0.39); time to next intervention HR 0.26. NEJM 2023; FDA approval August 2024. Long-term OS impact and effect on malignant transformation pending.",
     result: "PFS 27.7 vs 11.1 months, HR 0.39.",
-    drugs: ["vorasidenib"], cancers: ["glioblastoma"], targets: ["idh"], links: [ct("NCT04164901")],
+    drugs: ["vorasidenib"], cancers: ["glioblastoma"], targets: ["idh"], links: [ct("NCT04164901")], people: ["ingo-mellinghoff", "patrick-wen"],
   },
   {
     id: "checkmate-548", kind: "trial", name: "CheckMate 548 & CheckMate 143 & CheckMate 498", nct: "NCT02667587", phase: "3", status: "negative", yearReported: 2020, sponsor: "BMS", asOf,
@@ -116,7 +116,7 @@ const entities: EntityInput[] = [
     principle: "Stereotactically placed laser fibre delivers thermal energy; MR thermometry maps the ablation zone in real time.",
     strengths: ["Minimally invasive access to deep lesions", "Short hospital stay", "Possible BBB disruption for adjuvant drugs"],
     limitations: ["Lesion size limit (~3 cm)", "Oedema after ablation", "No randomised trials"],
-    technologies: ["mri", "thermal-ablation"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"],
+    technologies: ["mri", "thermal-ablation"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"], links: [{ label: "Wikipedia", url: W("Laser_interstitial_thermal_therapy") }],
   },
   {
     id: "bbb-focused-ultrasound", kind: "technology", name: "Focused-ultrasound blood-brain barrier opening", sections: ["devices", "surgery"], status: "phase-2", asOf,
@@ -142,25 +142,25 @@ const entities: EntityInput[] = [
     id: "mgmt", kind: "term", name: "MGMT promoter methylation", category: "Biomarkers", asOf, wikipedia: W("O-6-methylguanine-DNA_methyltransferase"),
     tldr: "A chemical switch that turns off a DNA-repair gene. When it is off, temozolomide works much better.",
     summary: "O6-methylguanine-DNA methyltransferase repairs the lesion temozolomide creates; promoter methylation silences it in ~40% of glioblastomas. Methylated: median OS ~23 months with chemoradiation; unmethylated: ~13 months with minimal temozolomide benefit, so unmethylated patients are the priority for novel-agent trials (e.g., CheckMate 498, which failed). Assay (MSP, pyrosequencing, methylation array) and cut-off variability persist.",
-    cancers: ["glioblastoma"], drugs: ["temozolomide"], technologies: ["methylation-profiling"],
+    cancers: ["glioblastoma"], drugs: ["temozolomide"], technologies: ["methylation-profiling"], links: [{ label: "Wikipedia", url: W("O-6-methylguanine-DNA_methyltransferase") }],
   },
   {
     id: "h3k27m", kind: "term", name: "H3 K27M (diffuse midline glioma)", category: "Biomarkers", asOf, wikipedia: W("Diffuse_midline_glioma"),
     tldr: "A single change in a histone protein that defines diffuse midline glioma, the childhood brain tumour with the fewest treatment options, and now the target of the first approved drug for it.",
     summary: "Lysine-to-methionine mutation at position 27 of histone H3 (H3F3A or HIST1H3B) causes global loss of H3K27 trimethylation. Defines WHO grade 4 diffuse midline glioma (including DIPG), median survival ~11 months, radiotherapy the only proven therapy until dordaviprone (2025). GD2 is overexpressed, enabling CAR-T.",
-    cancers: ["glioblastoma"], drugs: ["dordaviprone"], technologies: ["glioma-car-t", "methylation-profiling"],
+    cancers: ["glioblastoma"], drugs: ["dordaviprone"], technologies: ["glioma-car-t", "methylation-profiling"], links: [{ label: "Wikipedia", url: W("Diffuse_midline_glioma") }],
   },
   {
     id: "egfrviii", kind: "term", name: "EGFRvIII", category: "Biomarkers", asOf, wikipedia: W("EGFRvIII"),
     tldr: "EGFRvIII is a mutant, tumour-only version of the EGFR receptor found in about a third of glioblastomas. It is an ideal-looking target, yet every drug against it has failed so far.",
     summary: "In-frame deletion of exons 2-7 creating a constitutively active receptor with a tumour-specific junctional epitope. Targeted by rindopepimut (ACT IV negative), EGFRvIII CAR-T (antigen loss), bispecifics (AMG 596), and ADCs (depatuxizumab mafodotin, INTELLANCE-1 negative). Expression is heterogeneous and frequently lost at recurrence.",
-    cancers: ["glioblastoma"], targets: ["egfr"], drugs: ["rindopepimut"], trials: ["act-iv"], terms: ["resistance"],
+    cancers: ["glioblastoma"], targets: ["egfr"], drugs: ["rindopepimut"], trials: ["act-iv"], terms: ["resistance"], links: [{ label: "Wikipedia", url: W("EGFRvIII") }],
   },
   {
     id: "blood-brain-barrier", kind: "term", name: "Blood-brain barrier (BBB)", category: "Biology", asOf, wikipedia: W("Blood–brain_barrier"),
     tldr: "The tight seal around brain blood vessels that keeps most drugs out, one of the two main reasons brain cancer is so hard to treat.",
     summary: "Endothelial tight junctions, efflux transporters (P-gp, BCRP), and pericytes exclude most antibodies and many small molecules. Glioblastoma disrupts the barrier heterogeneously (contrast enhancement) but infiltrating cells sit behind intact barrier. Strategies: lipophilic/small brain-penetrant drugs (temozolomide, lomustine, dordaviprone, vorasidenib), locoregional delivery (CAR-T, convection-enhanced), focused-ultrasound opening, LITT, and intra-arterial delivery.",
-    cancers: ["glioblastoma"], technologies: ["bbb-focused-ultrasound", "litt", "glioma-car-t"], terms: ["efflux-pump"],
+    cancers: ["glioblastoma"], technologies: ["bbb-focused-ultrasound", "litt", "glioma-car-t"], terms: ["efflux-pump"], links: [{ label: "Wikipedia", url: W("Blood–brain_barrier") }],
   },
 
   // ======================= COMPANIES =======================

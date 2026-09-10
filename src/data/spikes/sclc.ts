@@ -26,7 +26,7 @@ const trials: TrialInput[] = [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Atezolizumab + CE", value: 5.2 }, { name: "Placebo + CE", value: 4.3 }], hr: 0.77, ci: [0.62, 0.96] },
     ],
     replication: "Replicated by CASPIAN (durvalumab, 2019) and by serplulimab (ASTRUM-005), tislelizumab (RATIONALE-312), adebrelimab and toripalimab trials in China; the class effect is one of the best-replicated in SCLC.",
-    drugs: ["atezolizumab", "platinum-etoposide"], cancers: ["sclc"], technologies: ["checkpoint-inhibitor"], links: [ct("NCT02763579"), { label: "Five-year OS (IMbrella A)", url: "https://pubmed.ncbi.nlm.nih.gov/39306923/" }] }),
+    drugs: ["atezolizumab", "platinum-etoposide"], cancers: ["sclc"], technologies: ["checkpoint-inhibitor"], links: [ct("NCT02763579"), { label: "Five-year OS (IMbrella A)", url: "https://pubmed.ncbi.nlm.nih.gov/39306923/" }], people: ["anne-chiang"] }),
   t({ id: "caspian", name: "CASPIAN", nct: "NCT03043872", phase: "3", status: "positive", yearReported: 2019, sponsor: "AstraZeneca", enrolled: 805,
     setting: "First-line extensive-stage SCLC: platinum-etoposide + durvalumab (± tremelimumab) vs platinum-etoposide",
     tldr: "Confirmed that adding a PD-L1 blocker to first-line chemotherapy helps in small-cell lung cancer, and showed that adding a second immunotherapy did not help further.",
@@ -37,7 +37,7 @@ const trials: TrialInput[] = [
       { endpoint: "3-year overall survival rate", unit: "%", arms: [{ name: "Durvalumab + EP", value: 17.6 }, { name: "EP alone", value: 5.8 }] },
     ],
     replication: "Consistent with IMpower133; the durvalumab-tremelimumab arm's failure was itself replicated by other CTLA-4 add-on attempts in SCLC.",
-    drugs: ["durvalumab", "tremelimumab", "platinum-etoposide"], cancers: ["sclc"], links: [ct("NCT03043872")] }),
+    drugs: ["durvalumab", "tremelimumab", "platinum-etoposide"], cancers: ["sclc"], links: [ct("NCT03043872")], people: ["luis-paz-ares"] }),
   t({ id: "adriatic", name: "ADRIATIC", nct: "NCT03703297", phase: "3", status: "positive", yearReported: 2024, sponsor: "AstraZeneca", enrolled: 730,
     setting: "Limited-stage SCLC without progression after concurrent chemoradiotherapy: durvalumab consolidation (up to 2 years) vs placebo",
     tldr: "ADRIATIC brought the first improvement in curative-intent small-cell lung cancer treatment in 30 years: a year or two of immunotherapy after chemoradiation lengthens life.",
@@ -48,8 +48,8 @@ const trials: TrialInput[] = [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Durvalumab", value: 16.6 }, { name: "Placebo", value: 9.2 }], hr: 0.76, ci: [0.61, 0.95] },
     ],
     replication: "Single pivotal trial; consistent with PACIFIC in NSCLC. Real-world consolidation series are emerging.",
-    drugs: ["durvalumab"], cancers: ["sclc"], technologies: ["imrt-igrt", "prophylactic-cranial-irradiation"], terms: ["limited-vs-extensive-stage"],
-    links: [ct("NCT03703297"), { label: "FDA approval (Dec 2024)", url: "https://www.onclive.com/view/fda-approves-durvalumab-for-limited-stage-small-cell-lung-cancer" }] }),
+    drugs: ["durvalumab"], cancers: ["sclc"], technologies: ["imrt-igrt", "prophylactic-cranial-irradiation"], terms: ["limited-vs-extensive-stage", "pci-term"],
+    links: [ct("NCT03703297"), { label: "FDA approval (Dec 2024)", url: "https://www.onclive.com/view/fda-approves-durvalumab-for-limited-stage-small-cell-lung-cancer" }], people: ["corinne-faivre-finn"] }),
   t({ id: "imforte", name: "IMforte", nct: "NCT05091567", phase: "3", status: "positive", yearReported: 2025, sponsor: "Roche / Jazz / PharmaMar", enrolled: 483,
     setting: "First-line maintenance after induction chemo-immunotherapy in ES-SCLC: lurbinectedin + atezolizumab vs atezolizumab",
     tldr: "IMforte produced the first maintenance treatment ever approved for extensive-stage small-cell lung cancer, adding lurbinectedin to the immunotherapy that continues after chemotherapy.",
@@ -93,7 +93,7 @@ const trials: TrialInput[] = [
     summary: "OS 30 vs 25 months (HR 1.18, not significant); the trial was designed for superiority of once-daily, not non-inferiority. Toxicity similar. Both arms outperformed historical controls.",
     result: "No significant difference; twice-daily 45 Gy remains standard.",
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Twice-daily 45 Gy", n: 274, value: 30 }, { name: "Once-daily 66 Gy", n: 273, value: 25 }], hr: 1.18, ci: [0.95, 1.45], source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(17)30318-2/fulltext" }],
-    cancers: ["sclc"], technologies: ["imrt-igrt"], terms: ["limited-vs-extensive-stage"], links: [ct("NCT00433563")] }),
+    cancers: ["sclc"], technologies: ["imrt-igrt"], terms: ["limited-vs-extensive-stage"], links: [ct("NCT00433563")], people: ["corinne-faivre-finn"] }),
 ];
 
 // ======================= DRUGS =======================
@@ -106,7 +106,7 @@ const drugs: DrugInput[] = [
     dosing: { route: "Intravenous", schedule: "Carboplatin AUC 5 day 1 (or cisplatin 75 mg/m² day 1) + etoposide 100 mg/m² days 1-3, every 21 days, 4 cycles", modifications: "Dose reductions for neutropenia; G-CSF support with concurrent radiotherapy is avoided", monitoring: "Blood counts each cycle; renal function and hearing with cisplatin" },
     toxicity: [{ event: "Neutropenia (grade 3+)", grade3PlusPct: 40, note: "Range across trials 23-45%" }, { event: "Anaemia", anyGradePct: 40 }, { event: "Nausea", anyGradePct: 50 }, { event: "Alopecia", anyGradePct: 60 }],
     approvals: [{ region: "US", year: 1983, indication: "Etoposide approved for SCLC; platinum-etoposide became standard in the 1980s" }],
-    technologies: ["cytotoxic-chemotherapy", "platinum", "topoisomerase-inhibitors"], cancers: ["sclc"], trials: ["impower133", "caspian", "astrum-005"] }),
+    technologies: ["cytotoxic-chemotherapy", "platinum", "topoisomerase-inhibitors"], cancers: ["sclc"], trials: ["impower133", "caspian", "astrum-005"], terms: ["limited-extensive-stage"], links: [{ label: "Wikipedia", url: W("Etoposide") }] }),
   d({ id: "lurbinectedin", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lurbinectedin" }], name: "Lurbinectedin", brand: "Zepzelca", code: "PM01183", modality: "Cytotoxic (transcription inhibitor)", status: "approved", wikipedia: W("Lurbinectedin"),
     tldr: "A marine-derived chemotherapy that jams cancer's gene-reading machinery, approved for relapsed small-cell lung cancer and, since 2025, as first-line maintenance with atezolizumab.",
     summary: "Accelerated approval June 2020 for metastatic SCLC after platinum (ORR 35%, DOR 5.3 months, basket phase 2). ATLANTIS (with doxorubicin) missed OS; IMforte (with atezolizumab as first-line maintenance) improved OS and PFS, leading to full approval on 2 October 2025. Also studied in the LAGOON second-line trial. Jazz Pharmaceuticals (US) and PharmaMar.",
@@ -138,7 +138,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Immune-related adverse events (any)", anyGradePct: 37 }, { event: "Hypothyroidism", anyGradePct: 12 }, { event: "Pneumonitis", anyGradePct: 4 }],
     approvals: [{ region: "China", year: 2022, indication: "First-line ES-SCLC with chemotherapy" }, { region: "EU", year: 2025, indication: "First-line ES-SCLC with carboplatin-etoposide" }],
     regulatoryEvents: [{ date: "2025-02", type: "approval", region: "EU", note: "European Commission approval for ES-SCLC", source: "https://www.henlius.com/en/NewsDetails-5903-26.html" }, { date: "2025", type: "approval", region: "UK", note: "MHRA approval", source: "https://www.henlius.com/en/NewsDetails-5324-26.html" }],
-    targets: ["pd1"], technologies: ["checkpoint-inhibitor"], companies: ["henlius"], cancers: ["sclc"], trials: ["astrum-005"] }),
+    targets: ["pd1"], technologies: ["checkpoint-inhibitor"], companies: ["henlius"], cancers: ["sclc"], trials: ["astrum-005"], terms: ["limited-extensive-stage"] }),
 ];
 
 // ======================= TECHNOLOGIES, TERMS, COMPANIES =======================
@@ -149,7 +149,7 @@ const technologies: TechnologyInput[] = [
     principle: "Whole-brain radiotherapy to sterilise micrometastases before they become symptomatic; MRI surveillance instead detects and treats them early with stereotactic radiosurgery.",
     strengths: ["Halves brain metastasis incidence", "Survival benefit in limited-stage disease with older staging"],
     limitations: ["Neurocognitive decline", "Benefit unclear when MRI surveillance is available", "Ongoing trial will settle the question"],
-    cancers: ["sclc"], technologies: ["mri", "sbrt", "imrt-igrt"], terms: ["limited-vs-extensive-stage"] },
+    cancers: ["sclc"], technologies: ["mri", "sbrt", "imrt-igrt"], terms: ["limited-vs-extensive-stage"], links: [{ label: "Wikipedia", url: W("Prophylactic_cranial_irradiation") }] },
 ];
 
 const terms: TermInput[] = [

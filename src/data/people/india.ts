@@ -12,7 +12,7 @@ import type { PersonInput } from "@/lib/schema";
 const asOf = "2026-09-10";
 const pm = (q: string) => ({ label: "PubMed author search", url: `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(q)}` });
 type P = Omit<PersonInput, "kind" | "asOf">;
-const p = (x: P): PersonInput => ({ kind: "person", asOf, ...x });
+const p = (x: P): PersonInput => ({ kind: "person", asOf, links: x.profiles, ...x });
 
 export const peopleIndia: PersonInput[] = [
   p({ id: "pramesh-c-s", name: "C. S. Pramesh", role: "Director, Tata Memorial Hospital; thoracic surgical oncologist; convener, National Cancer Grid", institutionId: "tata-memorial", institutions: ["tata-memorial", "national-cancer-grid"],

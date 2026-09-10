@@ -12,7 +12,7 @@ import type { PersonInput } from "@/lib/schema";
 const asOf = "2026-09-08";
 const pm = (q: string) => ({ label: "PubMed author search", url: `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(q)}` });
 type P = Omit<PersonInput, "kind" | "asOf">;
-const p = (x: P): PersonInput => ({ kind: "person", asOf, ...x });
+const p = (x: P): PersonInput => ({ kind: "person", asOf, links: x.profiles, ...x });
 
 export const peopleAsiaPacific: PersonInput[] = [
   // ======================= Samsung Medical Center (Seoul) =======================
@@ -57,7 +57,7 @@ export const peopleAsiaPacific: PersonInput[] = [
     summary: "Woong-Yang Park directs the Samsung Genome Institute, which runs clinical sequencing for the hospital and produces single-cell and spatial studies of lung, breast, and gastric tumours that underpin precision oncology trials there.",
     profiles: [{ label: "Samsung Genome Institute", url: "https://www.samsunghospital.com/gb/" }, pm("Park WY[Author] Samsung Genome Institute")],
     papers: [{ title: "Single-cell RNA sequencing demonstrates the molecular and cellular reprogramming of metastatic lung adenocarcinoma", journal: "Nature Communications", year: 2020, doi: "10.1038/s41467-020-16164-1" }],
-    technologies: ["single-cell-spatial", "cgp"], cancers: ["nsclc"] }),
+    technologies: ["single-cell-spatial", "cgp"], cancers: ["nsclc"], journals: ["nature-communications"] }),
 
   // ======================= Asan Medical Center (Seoul) =======================
   p({ id: "kim-sung-bae", name: "Sung-Bae Kim", role: "Professor of Medical Oncology; breast cancer", institutionId: "asan-medical-center", institutions: ["asan-medical-center"],
@@ -131,7 +131,7 @@ export const peopleAsiaPacific: PersonInput[] = [
     summary: "Do-Youn Oh led TOPAZ-1 (durvalumab plus gemcitabine-cisplatin), the first phase 3 to improve survival in advanced biliary tract cancer in more than a decade, and runs pancreatic and biliary trials at Seoul National University Hospital.",
     profiles: [{ label: "Seoul National University Hospital", url: "https://www.snuh.org" }, pm("Oh DY[Author] biliary tract cancer Seoul National University")],
     papers: [{ title: "Durvalumab plus gemcitabine and cisplatin in advanced biliary tract cancer (TOPAZ-1)", journal: "NEJM Evidence", year: 2022, doi: "10.1056/EVIDoa2200015" }],
-    cancers: ["cholangiocarcinoma", "pancreatic"], drugs: ["durvalumab", "gemcitabine-cisplatin"], trials: ["topaz-1"] }),
+    cancers: ["cholangiocarcinoma", "pancreatic"], drugs: ["durvalumab", "gemcitabine-cisplatin"], trials: ["topaz-1"], journals: ["nejm-evidence"] }),
   p({ id: "kim-tae-you", name: "Tae-You Kim", role: "Professor of Internal Medicine; gastrointestinal oncology and cancer genomics", institutionId: "snuh", institutions: ["snuh"],
     specialisms: ["Colorectal cancer", "Gastric cancer", "Cancer genomics", "Precision oncology"],
     tldr: "A GI oncologist and genomics researcher who leads precision oncology and colorectal cancer trials at Seoul National University.",
@@ -397,7 +397,7 @@ export const peopleAsiaPacific: PersonInput[] = [
     summary: "Rui-Hua Xu is a gastrointestinal oncologist whose trials (including JUPITER-06 toripalimab in oesophageal cancer and studies of camrelizumab, fruquintinib, and anti-EGFR therapy) established immunotherapy and targeted therapy for Chinese GI cancer patients; he is president of SYSUCC.",
     profiles: [{ label: "Sun Yat-sen University Cancer Center", url: "https://www.sysucc.org.cn" }, pm("Xu RH[Author] Sun Yat-sen gastrointestinal")],
     papers: [{ title: "Toripalimab plus paclitaxel and cisplatin as first-line treatment for advanced oesophageal squamous cell carcinoma (JUPITER-06)", journal: "Cancer Cell", year: 2022, doi: "10.1016/j.ccell.2022.02.007" }],
-    cancers: ["esophageal", "colorectal", "gastric"], drugs: ["toripalimab", "camrelizumab", "fruquintinib"], trials: ["escort-1st"] }),
+    cancers: ["esophageal", "colorectal", "gastric"], drugs: ["toripalimab", "camrelizumab", "fruquintinib"], trials: ["escort-1st"], journals: ["cancer-cell"] }),
   p({ id: "zhang-li-sysucc", name: "Li Zhang", role: "Professor of Medical Oncology; Director, Department of Medical Oncology, Sun Yat-sen University Cancer Center", institutionId: "sysucc", institutions: ["sysucc"],
     specialisms: ["Lung cancer", "Nasopharyngeal carcinoma", "Immunotherapy", "Antibody-drug conjugates"],
     tldr: "Led the Chinese trials of PD-1 blockade in nasopharyngeal and lung cancer and the early studies of the EGFR×HER3 bispecific ADC iza-bren.",
@@ -418,7 +418,7 @@ export const peopleAsiaPacific: PersonInput[] = [
     summary: "Mu-Sheng Zeng directs the State Key Laboratory of Oncology in South China; his group identified high-risk EBV subtypes linked to nasopharyngeal carcinoma and works on EBV entry mechanisms and vaccine candidates.",
     profiles: [{ label: "Sun Yat-sen University Cancer Center", url: "https://www.sysucc.org.cn" }, pm("Zeng MS[Author] Epstein-Barr virus nasopharyngeal")],
     papers: [{ title: "Genome sequencing analysis identifies Epstein-Barr virus subtypes associated with high risk of nasopharyngeal carcinoma", journal: "Nature Genetics", year: 2019, doi: "10.1038/s41588-019-0436-5" }],
-    cancers: ["head-and-neck"], technologies: ["hpv-vaccine"] }),
+    cancers: ["head-and-neck"], technologies: ["hpv-vaccine"], journals: ["nature-genetics"] }),
   p({ id: "wang-feng-sysucc", name: "Feng Wang", role: "Professor of Medical Oncology, Sun Yat-sen University Cancer Center", institutionId: "sysucc", institutions: ["sysucc"],
     specialisms: ["Gastric cancer", "Colorectal cancer", "Immunotherapy biomarkers"],
     tldr: "A GI oncologist whose work on immunotherapy biomarkers and Chinese gastric cancer trials feeds global guidelines.",
@@ -539,7 +539,7 @@ export const peopleAsiaPacific: PersonInput[] = [
     cancers: ["esophageal"], drugs: ["camrelizumab"], trials: ["escort-1st"] }),
 
   // ======================= Other Chinese trial leaders =======================
-  p({ id: "zhou-caicun", name: "Caicun Zhou", role: "Professor of Medical Oncology; Shanghai Pulmonary Hospital, Tongji University", institutions: [],
+  p({ id: "zhou-caicun", name: "Caicun Zhou", role: "Professor of Medical Oncology; Shanghai Pulmonary Hospital, Tongji University", institutions: ["shanghai-pulmonary-hospital", "ctong"],
     specialisms: ["Lung cancer", "EGFR inhibitors", "Immunotherapy", "Bispecific antibodies"],
     tldr: "Principal investigator of HARMONi-2, the trial where ivonescimab beat pembrolizumab head-to-head, and of the first EGFR-TKI phase 3 in Chinese patients.",
     summary: "Caicun Zhou led OPTIMAL (erlotinib vs chemotherapy), one of the first trials to prove EGFR-TKI superiority, and two decades later HARMONi-2, the first trial to beat pembrolizumab on progression-free survival in first-line NSCLC.",
@@ -560,14 +560,14 @@ export const peopleAsiaPacific: PersonInput[] = [
     profiles: [{ label: "Peking University Cancer Hospital", url: "https://www.bjcancer.org" }, pm("Qi C[Author] claudin18.2 CAR T")],
     papers: [{ title: "Claudin18.2-specific CAR T cells in gastrointestinal cancers: phase 1 trial interim results", journal: "Nature Medicine", year: 2022, doi: "10.1038/s41591-022-01800-8" }],
     cancers: ["gastric"], targets: ["cldn18-2"], drugs: ["satricabtagene-autoleucel"], technologies: ["car-t"] }),
-  p({ id: "wu-yi-long", name: "Yi-Long Wu", role: "Professor; Guangdong Lung Cancer Institute, Guangdong Provincial People's Hospital", institutions: [],
+  p({ id: "wu-yi-long", name: "Yi-Long Wu", role: "Professor; Guangdong Lung Cancer Institute, Guangdong Provincial People's Hospital", institutions: ["ctong"],
     specialisms: ["Lung cancer", "EGFR-mutant NSCLC", "Adjuvant targeted therapy", "Clinical trials"],
     tldr: "Co-led ADAURA and IPASS, the trials that made EGFR-targeted pills standard before and after surgery.",
     summary: "Yi-Long Wu is among the most cited lung cancer trialists in the world, co-principal investigator of ADAURA (adjuvant osimertinib) and a leader of IPASS, ADJUVANT-CTONG, and the Chinese Thoracic Oncology Group.",
     profiles: [{ label: "Guangdong Lung Cancer Institute", url: "https://www.gdghospital.org.cn" }, pm("Wu YL[Author] Guangdong Lung Cancer Institute osimertinib")],
     papers: [{ title: "Osimertinib in resected EGFR-mutated non-small-cell lung cancer (ADAURA)", journal: "NEJM", year: 2020, doi: "10.1056/NEJMoa2027071" }],
     cancers: ["nsclc"], targets: ["egfr"], drugs: ["osimertinib"], trials: ["adaura"] }),
-  p({ id: "lu-shun", name: "Shun Lu", role: "Professor; Director, Shanghai Lung Cancer Center, Shanghai Chest Hospital", institutions: [],
+  p({ id: "lu-shun", name: "Shun Lu", role: "Professor; Director, Shanghai Lung Cancer Center, Shanghai Chest Hospital", institutions: ["ctong"],
     specialisms: ["Lung cancer", "Immunotherapy", "EGFR-TKIs", "Clinical trials"],
     tldr: "A Shanghai lung cancer trialist who has led many Chinese PD-1 and EGFR-TKI phase 3 studies.",
     summary: "Shun Lu has been principal investigator for Chinese phase 3 trials including sintilimab and tislelizumab combinations in NSCLC and for furmonertinib and other EGFR inhibitors.",
@@ -663,7 +663,7 @@ export const peopleAsiaPacific: PersonInput[] = [
     summary: "Freddie Bray leads IARC's Cancer Surveillance Branch, which produces GLOBOCAN and the Global Cancer Observatory, coordinates cancer registries worldwide, and publishes the Global Cancer Statistics series.",
     profiles: [{ label: "IARC", url: "https://www.iarc.who.int" }, pm("Bray F[Author] global cancer statistics")],
     papers: [{ title: "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries", journal: "CA: A Cancer Journal for Clinicians", year: 2024, doi: "10.3322/caac.21834" }],
-    tags: ["statistics"] }),
+    tags: ["statistics"], journals: ["ca-cancer-journal"] }),
   p({ id: "basu-partha", name: "Partha Basu", role: "Head, Early Detection, Prevention and Infections Branch, IARC", institutionId: "iarc", institutions: ["iarc"],
     specialisms: ["Cervical cancer screening", "HPV", "Early detection in low-resource settings", "Implementation research"],
     tldr: "Leads IARC's early detection and prevention work, central to the WHO cervical cancer elimination strategy.",

@@ -236,7 +236,7 @@ const trials: TrialInput[] = [
     summary: "96,517 people in seven intervention clusters and 95,356 in six control clusters were enrolled. After three rounds there were 77 oral cancer deaths in the intervention arm versus 87 in controls (mortality rate ratio 0.79; 95% CI 0.51-1.22 overall), with a significant reduction among tobacco or alcohol users (0.66; 95% CI 0.45-0.95), and 0.57 in male users. At 15 years, after four rounds, oral cancer mortality was 24% lower in tobacco or alcohol users in the intervention arm (95% CI 3-40%) and 81% lower (69-89%) in users who attended all four rounds, with a 38% fall in incidence in that group. It remains the only randomised evidence that oral cancer screening saves lives and underpins India's national screening programme for oral cancer.",
     result: "Oral cancer mortality rate ratio 0.66 in tobacco/alcohol users after 3 rounds; 81% reduction in users who attended all 4 rounds at 15 years.",
     outcomes: [{ endpoint: "Oral cancer mortality, tobacco or alcohol users (rate ratio, 3 rounds)", primary: true, arms: [{ name: "Visual screening", n: 96517, value: 0.66, note: "Rate ratio vs control; 95% CI 0.45-0.95" }], source: "https://doi.org/10.1016/S0140-6736(05)66658-5" }],
-    cancers: ["head-and-neck"], technologies: ["chemoprevention", "global-oncology-access"], institutions: ["iarc"], people: ["sankaranarayanan-rengaswamy"], keyPapers: ["paper-sankaranarayanan-oral-screening-lancet-2005"], bottlenecks: ["b-early-detection", "b-prevention-adoption"],
+    cancers: ["head-and-neck"], technologies: ["chemoprevention", "global-oncology-access", "oral-visual-screening"], institutions: ["iarc"], people: ["sankaranarayanan-rengaswamy"], keyPapers: ["paper-sankaranarayanan-oral-screening-lancet-2005"], bottlenecks: ["b-early-detection", "b-prevention-adoption"],
     links: [doi("10.1016/S0140-6736(05)66658-5", "Sankaranarayanan et al., Lancet 2005"), doi("10.1016/j.oraloncology.2012.11.004", "15-year follow-up, Oral Oncology 2013")] }),
 
   t({ id: "mumbai-via-screening", name: "Mumbai VIA cervical screening trial (Tata Memorial)", phase: "3", status: "positive", yearReported: 2014, enrolled: 151538, sponsor: "Tata Memorial Centre",
@@ -287,7 +287,7 @@ const papers: PaperInput[] = [
     whatItMeans: "For the majority of the world's head and neck cancer patients who cannot afford full-dose checkpoint inhibitors, a low dose added to oral metronomic chemotherapy is a tested alternative that improves survival. It also challenges the assumption that approved doses are the necessary doses: pharmacology had long suggested receptor saturation at far lower exposures.",
     caveats: ["Single-centre and open-label; the comparator was metronomic chemotherapy rather than the standard-dose immunotherapy used in high-income settings.", "Whether low-dose nivolumab matches full-dose nivolumab head to head is untested.", "Patients were mostly tobacco-related, HPV-negative oral cancers, so applicability to oropharyngeal HPV-positive disease is unknown."],
     trials: ["low-dose-nivolumab-tmh"], drugs: ["nivolumab"], cancers: ["head-and-neck"], people: ["patil-vijay", "prabhash-kumar", "noronha-vanita"], institutions: ["tata-memorial"], technologies: ["checkpoint-inhibitor"], bottlenecks: ["b-dose-optimisation", "b-drug-pricing"],
-    links: [doi("10.1200/JCO.22.01015", "JCO 2023")] }),
+    links: [doi("10.1200/JCO.22.01015", "JCO 2023")], journals: ["jco"] }),
 
   p({ id: "paper-sankaranarayanan-hpv-screening-nejm-2009", name: "HPV screening for cervical cancer in rural India (Osmanabad)",
     tldr: "In 131,746 rural Indian women, a single round of HPV testing roughly halved deaths from cervical cancer within eight years, while Pap smears and visual inspection did not.",
@@ -297,7 +297,7 @@ const papers: PaperInput[] = [
     whatItMeans: "HPV DNA testing is the screening test that saves lives in low-resource settings, even when done once. The result underpins WHO's HPV-first screening guidance and India's operational guidelines, and gives the rationale for self-sampled HPV tests as the route to cervical cancer elimination.",
     caveats: ["One round of screening with eight years of follow-up; long-term programme effects were not measured.", "The visual inspection arm's null result differs from the later Mumbai trial, which used repeated rounds and health workers with intensive training.", "Treatment access after a positive test was provided by the trial, which programmes must replicate."],
     trials: ["osmanabad-hpv-screening"], cancers: ["cervical"], people: ["sankaranarayanan-rengaswamy", "shastri-surendra"], institutions: ["iarc", "tata-memorial"], technologies: ["hpv-testing"], bottlenecks: ["b-early-detection", "b-prevention-adoption"],
-    links: [doi("10.1056/NEJMoa0808516", "NEJM 2009")] }),
+    links: [doi("10.1056/NEJMoa0808516", "NEJM 2009")], journals: ["nejm"] }),
 
   p({ id: "paper-sankaranarayanan-oral-screening-lancet-2005", name: "Effect of screening on oral cancer mortality in Kerala, India",
     tldr: "Visual examination of the mouth by trained health workers reduced oral cancer deaths by a third among tobacco and alcohol users in Kerala, the only randomised evidence that oral cancer screening works.",
@@ -307,7 +307,7 @@ const papers: PaperInput[] = [
     whatItMeans: "Targeted visual screening of tobacco and alcohol users is a cheap, workable way to cut oral cancer deaths in high-incidence countries, and is the basis for India's national oral cancer screening component. Its effect depends on people attending repeatedly and on treatment being available.",
     caveats: ["Overall (all-comer) mortality reduction was not statistically significant; the benefit is concentrated in high-risk users.", "Cluster trial with 13 clusters, which limits precision.", "Compliance with referral and treatment was incomplete, so real programmes may achieve less."],
     trials: ["kerala-oral-screening"], cancers: ["head-and-neck"], people: ["sankaranarayanan-rengaswamy"], institutions: ["iarc"], technologies: ["chemoprevention"], bottlenecks: ["b-early-detection", "b-prevention-adoption"],
-    links: [doi("10.1016/S0140-6736(05)66658-5", "Lancet 2005"), doi("10.1016/j.oraloncology.2012.11.004", "15-year follow-up (Oral Oncology 2013)")] }),
+    links: [doi("10.1016/S0140-6736(05)66658-5", "Lancet 2005"), doi("10.1016/j.oraloncology.2012.11.004", "15-year follow-up (Oral Oncology 2013)")], journals: ["lancet"] }),
 
   p({ id: "paper-basu-single-dose-hpv-lancet-oncol-2021", name: "Vaccine efficacy against persistent HPV 16/18 infection at 10 years after one, two and three doses of quadrivalent HPV vaccine in girls in India",
     tldr: "Ten years after vaccination, Indian girls who had received a single dose of HPV vaccine were as well protected against the cancer-causing HPV types as those who had two or three doses, which let the world switch to one-dose programmes.",
@@ -317,7 +317,7 @@ const papers: PaperInput[] = [
     whatItMeans: "One dose protects. WHO endorsed one- or two-dose schedules in 2022, halving the cost and the logistics of vaccinating girls, which is decisive for India (about 127,500 cervical cancers a year) and for the global elimination target. It also removed the main barrier to India's national programme with its home-made vaccine.",
     caveats: ["Non-randomised comparison of dose groups; confounding by who happened to receive fewer doses cannot be fully excluded.", "Endpoint is persistent infection, not cervical cancer, although the link is well established.", "Quadrivalent vaccine; nonavalent and bivalent products rely on separate evidence (KEN SHE, Costa Rica)."],
     trials: ["iarc-india-hpv-dose-study", "ken-she"], drugs: ["gardasil-9", "cervavac"], cancers: ["cervical"], people: ["basu-partha", "sankaranarayanan-rengaswamy"], institutions: ["iarc"], technologies: ["hpv-vaccine"], bottlenecks: ["b-prevention-adoption", "b-dose-optimisation"],
-    links: [doi("10.1016/S1470-2045(21)00453-8", "Lancet Oncology 2021")] }),
+    links: [doi("10.1016/S1470-2045(21)00453-8", "Lancet Oncology 2021")], journals: ["lancet-oncology"] }),
 
   p({ id: "paper-badwe-progesterone-jco-2011", name: "Single-injection depot progesterone before surgery and survival in operable breast cancer",
     tldr: "A single cheap hormone injection given days before breast surgery did not help every patient, but among women whose cancer had spread to lymph nodes it improved five-year survival, a result that seeded twenty years of low-cost perioperative trials in India.",
@@ -327,7 +327,7 @@ const papers: PaperInput[] = [
     whatItMeans: "The trial did not change practice, but it established the idea that the days around surgery are a window in which cheap interventions might reduce metastasis, a line the same group pursued to a positive result with peritumoral lidocaine in 2023. It is a reminder that subgroup findings need confirmation, which is still awaited.",
     caveats: ["The benefit is a subgroup finding in a trial whose primary analysis was negative.", "Mechanism (progesterone-driven changes in tumour gene expression) is plausible but unproven in humans.", "No confirmatory trial has yet reported."],
     trials: ["progesterone-preop-tmh", "lidocaine-peritumoral-tmh"], cancers: ["breast-hr-positive"], people: ["badwe-rajendra"], institutions: ["tata-memorial"], technologies: ["endocrine-therapy"], bottlenecks: ["b-generic-repurposing"],
-    links: [doi("10.1200/JCO.2010.33.0738", "JCO 2011")] }),
+    links: [doi("10.1200/JCO.2010.33.0738", "JCO 2011")], journals: ["jco"] }),
 
   p({ id: "paper-dcruz-elective-neck-dissection-nejm-2015", name: "Elective versus therapeutic neck dissection in node-negative oral cancer",
     tldr: "Removing the neck lymph nodes at the first operation for early mouth cancer, rather than waiting to see if they become involved, raised three-year survival from 67.5% to 80%.",
@@ -337,7 +337,7 @@ const papers: PaperInput[] = [
     whatItMeans: "Elective neck dissection is now the standard for early oral cancer everywhere. The trial shows what high-volume Indian centres can contribute: a definitive answer to a surgical question that had been debated for half a century and that Western centres, with far fewer oral cancers, could not resolve.",
     caveats: ["Ultrasound and clinical staging of the neck were used; modern imaging or sentinel node biopsy may change the trade-off.", "Single-centre trial in a predominantly tobacco-related oral cancer population.", "Quality of life and morbidity outcomes were secondary."],
     trials: ["elective-neck-dissection-tmh"], cancers: ["head-and-neck"], people: ["dcruz-anil"], institutions: ["tata-memorial"], technologies: ["sentinel-node"], bottlenecks: ["b-surgery-radiation-innovation"],
-    links: [doi("10.1056/NEJMoa1506007", "NEJM 2015")] }),
+    links: [doi("10.1056/NEJMoa1506007", "NEJM 2015")], journals: ["nejm"] }),
 
   p({ id: "paper-jain-talicabtagene-lancet-haem-2025", name: "Talicabtagene autoleucel for relapsed or refractory B-cell malignancies: an open-label, multicentre, phase 1/2 study",
     tldr: "The trial report behind India's first CAR-T therapy: about three in four heavily pretreated patients with lymphoma or leukaemia responded to cells engineered and made in Mumbai.",
@@ -347,7 +347,7 @@ const papers: PaperInput[] = [
     whatItMeans: "A lower-middle-income country can design, manufacture, trial and approve an autologous CAR-T therapy. Response rates are in the range of first-generation Western products in similar mixed populations, at a price an order of magnitude lower, which reopens the question of what CAR-T should cost everywhere.",
     caveats: ["Single-arm, small, mixed histologies; durability data are short.", "Response assessment and comparability to pivotal Western trials (which used disease-specific cohorts and complete response endpoints) are limited.", "Haematological toxicity was very high and two deaths were treatment related; safety systems at 130-plus centres matter."],
     trials: ["talicel-phase-1-2"], drugs: ["talicabtagene-autoleucel"], cancers: ["dlbcl", "all-leukemia"], people: ["jain-hasmukh", "narula-gaurav", "purwar-rahul"], institutions: ["tata-memorial", "iit-bombay"], companies: ["immunoact"], technologies: ["car-t"], bottlenecks: ["b-manufacturing-cell-therapy", "b-global-access"],
-    links: [doi("10.1016/S2352-3026(24)00377-6", "Lancet Haematology 2025"), doi("10.1016/S2352-3026(25)00040-7", "Commentary: CAR T-cell therapy in LMICs")] }),
+    links: [doi("10.1016/S2352-3026(24)00377-6", "Lancet Haematology 2025"), doi("10.1016/S2352-3026(25)00040-7", "Commentary: CAR T-cell therapy in LMICs")], journals: ["lancet-haematology"] }),
 
   p({ id: "paper-mathur-ncrp-cancer-statistics-2020", name: "Cancer Statistics, 2020: Report from National Cancer Registry Programme, India",
     tldr: "India's official cancer count: about 1.39 million new cancers in 2020, led by breast, lung, mouth, cervix and tongue, with most breast, cervical and head and neck cancers found only once locally advanced.",
@@ -356,7 +356,7 @@ const papers: PaperInput[] = [
     findings: ["1,392,179 projected new cancers in India in 2020 (1,461,427 estimated for 2022; +12.8% by 2025).", "Leading sites: breast, lung, mouth, cervix uteri, tongue; tobacco-related cancers dominate in men.", "Locally advanced at diagnosis: breast 57.0%, cervix 60.0%, head and neck 66.6%, stomach 50.8%.", "Highest incidence in the north-east (Aizawl and Papumpare districts)."],
     whatItMeans: "India's cancer problem is a late-diagnosis problem as much as a treatment problem: the same cancers that dominate (oral, cervical, breast) are the ones screening and vaccination can prevent or catch early. The numbers set the priorities of the National Cancer Grid, PM-JAY oncology packages and the national screening programme.",
     caveats: ["Registries cover about a tenth of the population and are urban-weighted; national figures are projections.", "GLOBOCAN 2022 estimates for India (1,413,316 cases) use different methods and are not identical.", "Stage data come from hospital registries and may not represent patients never reaching hospital."],
-    cancers: ["head-and-neck", "cervical", "breast-hr-positive", "nsclc", "gastric"], people: ["mathur-prashant"], institutions: ["icmr-ncrp", "icmr"], technologies: ["cancer-registries-surveillance"], bottlenecks: ["b-early-detection", "b-data-silos"],
+    cancers: ["head-and-neck", "cervical", "breast-hr-positive", "nsclc", "gastric"], people: ["mathur-prashant"], institutions: ["icmr-ncrp", "icmr", "nha-pmjay"], technologies: ["cancer-registries-surveillance"], bottlenecks: ["b-early-detection", "b-data-silos"],
     links: [doi("10.1200/GO.20.00122", "JCO Global Oncology 2020"), doi("10.4103/ijmr.ijmr_1821_22", "2022 estimates and 2025 projection (IJMR)")] }),
 
   p({ id: "paper-pramesh-ncg-pooled-procurement-2023", name: "A National Cancer Grid pooled procurement initiative, India",

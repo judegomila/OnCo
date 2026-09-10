@@ -3,7 +3,7 @@ import type { TermInput } from "@/lib/schema";
 const asOf = "2026-09-04";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 type T = Omit<TermInput, "kind" | "asOf">;
-const t = (x: T): TermInput => ({ kind: "term", asOf, ...x });
+const t = (x: T): TermInput => ({ kind: "term", asOf, links: x.wikipedia ? [{ label: "Wikipedia", url: x.wikipedia }] : undefined, ...x });
 
 export const terms: TermInput[] = [
   // ---- ADC vocabulary ----

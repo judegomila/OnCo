@@ -135,7 +135,7 @@ const mindBody: TechnologyInput[] = [
     strengths: ["Non-inferior to CBT-I for insomnia in one trial", "Suitable for frail and older patients", "Recommended for fatigue in SIO-ASCO 2024"],
     limitations: ["Moderate-sized trials", "Heterogeneous styles and doses", "No survival or recurrence data"],
     technologies: ["exercise-oncology", "integrative-oncology", "sleep-circadian-interventions", "geriatric-assessment"], terms: ["quality-of-life", "peripheral-neuropathy"], bottlenecks: ["b-toxicity-qol", "b-aging-comorbidity"],
-    links: [doi("Tai chi chih versus CBT-I for insomnia in breast cancer survivors (JCO 2017)", "10.1200/JCO.2016.71.0285"), SIO_ASCO_FATIGUE] }),
+    links: [doi("Tai chi chih versus CBT-I for insomnia in breast cancer survivors (JCO 2017)", "10.1200/JCO.2016.71.0285"), SIO_ASCO_FATIGUE], related: ["cbt-insomnia-cancer"] }),
 
   tech({ id: "hypnosis-cancer-care", name: "Clinical hypnosis for procedures, pain and hot flushes", sections: [SEC], status: "established", wikipedia: W("Hypnotherapy"), tags: T("moderate"),
     tldr: "A brief hypnosis session before breast surgery or a biopsy reduces pain, nausea and anxiety afterwards, and a course of hypnosis roughly halved hot flushes in one randomised trial. It is a skill some psychologists offer, not a stage act.",
@@ -307,7 +307,7 @@ const herbsAndSupplements: TechnologyInput[] = [
     strengths: ["Cheap, safe, easy", "Several small positive trials"],
     limitations: ["Low-quality single-centre studies", "MASCC/ISOO 2020: no guideline possible", "Sugar load and dental caries risk"],
     cancers: ["head-and-neck"], technologies: ["integrative-oncology", "oral-cryotherapy-mucositis"], terms: ["mucositis"], institutions: ["mascc"], bottlenecks: ["b-toxicity-qol"],
-    links: [MASCC_MUCOSITIS_2020] }),
+    links: [MASCC_MUCOSITIS_2020], related: ["photobiomodulation-mucositis"] }),
 
   tech({ id: "mistletoe-extracts", name: "Mistletoe extracts (Iscador, Helixor)", sections: [SEC], status: "phase-2", wikipedia: W("Viscum_album"), tags: T("insufficient"),
     tldr: "Injectable mistletoe extracts are the most prescribed complementary cancer treatment in German-speaking Europe. Decades of studies have not shown that they lengthen life; some suggest better quality of life during chemotherapy, but the trials are weak and the largest well-run ones were negative.",
@@ -452,7 +452,7 @@ const physical: TechnologyInput[] = [
     strengths: ["Randomised evidence that exercise is protective", "Compression is effective and widely available", "Surgical options for refractory cases"],
     limitations: ["Lifelong garment use", "Specialist therapists in short supply", "Advanced fibrotic lymphoedema responds poorly"],
     cancers: ["breast-hr-positive", "tnbc", "melanoma", "vulvar"], technologies: ["sentinel-node", "exercise-oncology", "survivorship-care-plan"], terms: ["late-effects"], bottlenecks: ["b-survivorship"],
-    links: [doi("Weight lifting in women with breast-cancer-related lymphedema (NEJM 2009)", "10.1056/NEJMoa0810118"), { label: "NCI PDQ: lymphedema (health professional version)", url: "https://www.cancer.gov/about-cancer/treatment/side-effects/lymphedema/lymphedema-hp-pdq" }] }),
+    links: [doi("Weight lifting in women with breast-cancer-related lymphedema (NEJM 2009)", "10.1056/NEJMoa0810118"), { label: "NCI PDQ: lymphedema (health professional version)", url: "https://www.cancer.gov/about-cancer/treatment/side-effects/lymphedema/lymphedema-hp-pdq" }], related: ["reflexology-cancer"] }),
 ];
 
 // =============================================================================
@@ -483,7 +483,7 @@ const hair: TechnologyInput[] = [
     principle: "Restoring appearance reduces the social visibility of illness, which trials of appearance programmes link to lower distress and better body image during treatment.",
     strengths: ["Immediate and universally available", "NHS provision in the UK, insurer reimbursement and charity wig banks in the US", "Fitting before hair loss allows matching"],
     limitations: ["Charges in England unless exempt; many US plans still exclude wigs", "Heat and itch with synthetic wigs", "Human-hair wigs are costly"],
-    technologies: ["scalp-cooling", "minoxidil-chemotherapy-alopecia", "bimatoprost-eyelash-regrowth", "psycho-oncology"], institutions: ["macmillan-cancer-support"], bottlenecks: ["b-toxicity-qol", "b-global-access"], related: ["idea-moon-hair-preservation-for-all", "american-cancer-society"],
+    technologies: ["scalp-cooling", "minoxidil-chemotherapy-alopecia", "bimatoprost-eyelash-regrowth", "psycho-oncology"], institutions: ["macmillan-cancer-support"], bottlenecks: ["b-toxicity-qol", "b-global-access"], related: ["idea-moon-hair-preservation-for-all", "american-cancer-society", "src-cancer-org-asco"],
     links: [{ label: "NHS: wigs and fabric supports on the NHS", url: "https://www.nhs.uk/nhs-services/help-with-health-costs/wigs-and-fabric-supports-on-the-nhs/" }, { label: "Macmillan Cancer Support: hair loss", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/hair-loss" }, { label: "American Cancer Society: hair loss", url: "https://www.cancer.org/cancer/managing-cancer/side-effects/hair-skin-nails/hair-loss.html" }, { label: "Look Good Feel Better", url: "https://lookgoodfeelbetter.org/" }] }),
 ];
 
@@ -594,7 +594,7 @@ const papers: PaperInput[] = [
       "Follow-up ended at a median of around five years; the absolute survival difference varies by cancer and stage.",
     ],
     cancers: ["breast-hr-positive", "tnbc", "colorectal", "nsclc", "prostate"], technologies: ["alternative-medicine-instead-of-treatment", "integrative-oncology"], bottlenecks: ["b-misinformation"], tags: ["complementary"],
-    links: [JOHNSON_JNCI_2018, doi("Companion analysis: complementary medicine, refusal of conventional therapy and survival (JAMA Oncol 2018)", "10.1001/jamaoncol.2018.2487")] }),
+    links: [JOHNSON_JNCI_2018, doi("Companion analysis: complementary medicine, refusal of conventional therapy and survival (JAMA Oncol 2018)", "10.1001/jamaoncol.2018.2487")], journals: ["jnci"] }),
 
   paper({ id: "paper-scalp-trial-jama-2017", name: "SCALP: scalp cooling to prevent hair loss during chemotherapy for early breast cancer", journal: "JAMA", year: 2017, doi: "10.1001/jama.2016.20939",
     authors: "Nangia J, Wang T, Osborne C, et al.", paperType: "rct", participants: 182, changedPractice: true,
@@ -613,7 +613,7 @@ const papers: PaperInput[] = [
       "Anthracycline-containing regimens, common in breast cancer, had lower preservation rates.",
     ],
     cancers: ["breast-hr-positive", "tnbc", "breast-her2-positive"], drugs: ["docetaxel", "paclitaxel", "doxorubicin", "cyclophosphamide"], technologies: ["scalp-cooling"], bottlenecks: ["b-toxicity-qol"], tags: ["complementary", "hair-loss"],
-    links: [doi("SCALP randomised trial (JAMA 2017)", "10.1001/jama.2016.20939"), doi("DigniCap prospective cohort with concurrent controls (JAMA 2017)", "10.1001/jama.2016.21038"), doi("Scalp cooling and the risk of scalp metastases: systematic review (Breast Cancer Res Treat 2017)", "10.1007/s10549-017-4185-9")] }),
+    links: [doi("SCALP randomised trial (JAMA 2017)", "10.1001/jama.2016.20939"), doi("DigniCap prospective cohort with concurrent controls (JAMA 2017)", "10.1001/jama.2016.21038"), doi("Scalp cooling and the risk of scalp metastases: systematic review (Breast Cancer Res Treat 2017)", "10.1007/s10549-017-4185-9")], journals: ["jama"] }),
 ];
 
 export const complementary: EntityInput[] = [...acupuncture, ...mindBody, ...touch, ...herbsAndSupplements, ...cannabis, ...physical, ...hair, ...alternatives, ...papers];

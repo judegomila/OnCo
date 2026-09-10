@@ -25,7 +25,7 @@ const trials: TrialInput[] = [
       { endpoint: "5-year overall survival rate", unit: "%", arms: [{ name: "Nivolumab + ipilimumab", value: 14 }, { name: "Platinum + pemetrexed", value: 6 }], hr: 0.74, ci: [0.62, 0.88], source: "https://ascopubs.org/doi/10.1200/JCO-25-01328" },
     ],
     replication: "Single phase 3; consistent direction in the phase 2 MAPS2 and INITIATE studies of second-line nivolumab-ipilimumab.",
-    drugs: ["nivolumab", "ipilimumab", "pemetrexed"], cancers: ["mesothelioma"], terms: ["epithelioid-vs-sarcomatoid"], links: [ct("NCT02899299")] }),
+    drugs: ["nivolumab", "ipilimumab", "pemetrexed"], cancers: ["mesothelioma"], terms: ["epithelioid-vs-sarcomatoid"], links: [ct("NCT02899299")], people: ["paul-baas"] }),
   t({ id: "keynote-483", name: "IND.227 / KEYNOTE-483", nct: "NCT02784171", phase: "3", status: "positive", yearReported: 2023, sponsor: "Canadian Cancer Trials Group / Merck", enrolled: 440,
     setting: "Unresectable pleural mesothelioma, first line: pembrolizumab + platinum-pemetrexed vs platinum-pemetrexed",
     tldr: "Showed that adding a PD-1 blocker to standard chemotherapy helps in mesothelioma, giving a second immunotherapy-based first-line option.",
@@ -52,7 +52,7 @@ const trials: TrialInput[] = [
     result: "OS HR 1.28 favouring no surgery; median 19.3 vs 24.8 months.",
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Surgery + chemotherapy", n: 169, value: 19.3 }, { name: "Chemotherapy alone", n: 166, value: 24.8 }], hr: 1.28, ci: [1.02, 1.60], source: "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(24)00119-X/fulltext" }],
     replication: "Consistent with MARS 1 feasibility results; no trial has shown a survival benefit for radical mesothelioma surgery.",
-    technologies: ["pleurectomy-decortication"], cancers: ["mesothelioma"], tags: ["lesson:surgery-without-evidence"], links: [ct("NCT02040272")] }),
+    technologies: ["pleurectomy-decortication"], cancers: ["mesothelioma"], tags: ["lesson:surgery-without-evidence"], links: [ct("NCT02040272")], people: ["dean-fennell"] }),
   t({ id: "lume-meso", name: "LUME-Meso", nct: "NCT01907100", phase: "3", status: "negative", yearReported: 2019, sponsor: "Boehringer Ingelheim", enrolled: 458,
     setting: "Epithelioid pleural mesothelioma, first line: cisplatin-pemetrexed ± nintedanib",
     tldr: "In LUME-Meso, a promising phase 2 signal for the multi-kinase inhibitor nintedanib vanished in phase 3.",
@@ -72,7 +72,7 @@ const trials: TrialInput[] = [
     tldr: "The phase 3 test of durvalumab with chemotherapy was stopped early and did not meet its goal, despite an encouraging earlier study.",
     summary: "Follow-on to the single-arm DREAM study. Stopped early without meeting its primary endpoint per 2026 trial-landscape reviews. Together with KEYNOTE-483's modest hazard ratio, it suggests the chemo-IO benefit in mesothelioma is real but small and histology-dependent.",
     result: "Stopped early; primary endpoint not met.",
-    drugs: ["durvalumab", "pemetrexed"], cancers: ["mesothelioma"], tags: ["lesson:single-arm-to-phase-3"], links: [ct("NCT04334759"), { label: "2026 trial landscape (MesoWatch)", url: "https://mesowatch.org/news/2026/03/mesothelioma-clinical-trial-results-compared/" }] }),
+    drugs: ["durvalumab", "pemetrexed"], cancers: ["mesothelioma"], tags: ["lesson:single-arm-to-phase-3"], links: [ct("NCT04334759"), { label: "2026 trial landscape (MesoWatch)", url: "https://mesowatch.org/news/2026/03/mesothelioma-clinical-trial-results-compared/" }], people: ["anna-nowak"] }),
   t({ id: "stellar", name: "STELLAR", nct: "NCT02397928", phase: "2", status: "positive", yearReported: 2019, sponsor: "Novocure", enrolled: 80,
     setting: "Unresectable pleural mesothelioma, first line: TTFields (150 kHz) + platinum-pemetrexed, single arm",
     tldr: "STELLAR is the small single-arm study behind the device approval of tumour treating fields in mesothelioma.",
@@ -92,14 +92,14 @@ const drugs: DrugInput[] = [
     dosing: { route: "Intravenous", schedule: "500 mg/m² day 1 every 21 days with cisplatin 75 mg/m² or carboplatin AUC 5; 4-6 cycles, then optional maintenance", modifications: "Hold for creatinine clearance <45 mL/min; dexamethasone premedication for rash", monitoring: "Renal function and blood counts; folic acid and B12 supplementation" },
     toxicity: [{ event: "Neutropenia (grade 3+)", grade3PlusPct: 23 }, { event: "Fatigue", anyGradePct: 48 }, { event: "Nausea", anyGradePct: 82 }, { event: "Rash", anyGradePct: 16 }],
     approvals: [{ region: "US", year: 2004, indication: "Unresectable pleural mesothelioma with cisplatin" }, { region: "US", year: 2008, indication: "Non-squamous NSCLC first line" }],
-    technologies: ["cytotoxic-chemotherapy"], cancers: ["mesothelioma", "nsclc"], trials: ["keynote-483", "maps", "checkmate-743"] }),
+    technologies: ["cytotoxic-chemotherapy"], cancers: ["mesothelioma", "nsclc"], trials: ["keynote-483", "maps", "checkmate-743", "gefitinib-chemo-tmh"] }),
   d({ id: "nintedanib", name: "Nintedanib", brand: "Ofev (fibrosis); Vargatef (NSCLC, EU)", modality: "Small-molecule kinase inhibitor (VEGFR/FGFR/PDGFR)", status: "negative", wikipedia: W("Nintedanib"),
     tldr: "An anti-angiogenic pill that looked promising in mesothelioma in a small trial but failed in the large one.",
     summary: "Nintedanib is a triple angiokinase inhibitor of VEGFR1-3, FGFR1-3 and PDGFR alpha and beta, designed to cut off tumour blood supply and stromal signalling. It is approved for idiopathic pulmonary fibrosis and, in the EU, for second-line lung adenocarcinoma with docetaxel. In mesothelioma, the LUME-Meso phase 2 suggested a PFS benefit in epithelioid disease, but the phase 3 part of the same trial showed none, with PFS 6.8 versus 7.0 months (HR 1.01) and no OS benefit. The programme is a frequently cited lesson in how unreliable small randomised phase 2 PFS signals can be in this disease. Boehringer Ingelheim developed it, and its oncology role is now limited to the EU lung indication. A plausible mechanism and an encouraging early trial are not enough until a large trial confirms them.",
     mechanism: "Triple angiokinase inhibitor of VEGFR1-3, FGFR1-3, PDGFRα/β.",
     mechanismSteps: ["Blocks VEGFR, FGFR, and PDGFR signalling in endothelial and stromal cells", "Reduces angiogenesis and fibroblast activation", "In mesothelioma, no meaningful effect on tumour progression in phase 3"],
     approvals: [{ region: "EU", year: 2014, indication: "Adenocarcinoma NSCLC after first-line chemotherapy, with docetaxel" }, { region: "US", year: 2014, indication: "Idiopathic pulmonary fibrosis (non-oncology)" }],
-    targets: ["vegf", "fgfr2"], technologies: ["antiangiogenic", "kinase-inhibitors"], companies: ["boehringer-ingelheim"], cancers: ["mesothelioma"], trials: ["lume-meso"], tags: ["failure", "lesson:phase-2-pfs-signal"] }),
+    targets: ["vegf", "fgfr2"], technologies: ["antiangiogenic", "kinase-inhibitors"], companies: ["boehringer-ingelheim"], cancers: ["mesothelioma"], trials: ["lume-meso"], tags: ["failure", "lesson:phase-2-pfs-signal"], links: [{ label: "Wikipedia", url: W("Nintedanib") }] }),
 ];
 
 const technologies: TechnologyInput[] = [
@@ -109,14 +109,14 @@ const technologies: TechnologyInput[] = [
     principle: "Macroscopic complete resection of parietal and visceral pleura with or without lung; usually within multimodality therapy.",
     strengths: ["Symptom relief in trapped lung", "Tissue for diagnosis and research"],
     limitations: ["No survival benefit in randomised trials", "Significant morbidity and quality-of-life cost"],
-    cancers: ["mesothelioma"], trials: ["mars-2"] },
+    cancers: ["mesothelioma"], trials: ["mars-2"], links: [{ label: "Wikipedia", url: W("Pleurectomy") }] },
 ];
 
 const terms: TermInput[] = [
   { id: "epithelioid-vs-sarcomatoid", wikipedia: "https://en.wikipedia.org/wiki/Mesothelioma", kind: "term", name: "Epithelioid vs sarcomatoid (biphasic) mesothelioma", category: "Pathology", asOf,
     tldr: "Mesothelioma comes in a slower 'epithelioid' form and an aggressive 'sarcomatoid' form. Chemotherapy works better in the first; immunotherapy helps most in the second.",
     summary: "Epithelioid (~60-70%) has median survival 14-18 months with chemotherapy; sarcomatoid (~10-20%) and biphasic (~20%) respond poorly to chemotherapy (median OS 8-12 months) but derived the largest benefit from nivolumab-ipilimumab in CheckMate 743 (OS 18.1 vs 8.8 months) and from pembrolizumab-chemotherapy. Histology is therefore the first branch in first-line decisions. BAP1 loss is common in epithelioid tumours; CDKN2A/MTAP deletion in sarcomatoid.",
-    cancers: ["mesothelioma"], trials: ["checkmate-743", "keynote-483", "beat-meso"] },
+    cancers: ["mesothelioma"], trials: ["checkmate-743", "keynote-483", "beat-meso"], links: [{ label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Mesothelioma" }] },
 ];
 
 const pairings: PairingInput[] = [

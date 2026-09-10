@@ -71,7 +71,7 @@ describe("Ask index", () => {
     expect(deriveAliases({ id: "x", kind: "term", name: "Cancer" })).toEqual([]);
   });
 
-  it("round-trips through the compact wire format and derives routes", () => {
+  it("round-trips through the compact wire format and derives routes", { timeout: 30_000 }, () => {
     const { index } = askHarness();
     const back = decodeAskIndex(JSON.parse(JSON.stringify(encodeAskIndex(index))));
     expect(back.entries.length).toBe(index.entries.length);

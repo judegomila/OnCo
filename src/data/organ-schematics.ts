@@ -36,10 +36,10 @@ export function organMesh(o: OrganSchematic): Mesh {
 }
 
 export const ORGAN_SCHEMATICS: OrganSchematic[] = [
-  { id: "breast", name: "Breast", cancers: ["tnbc", "breast-hr-positive", "breast-her2-positive"],
+  { id: "breast", name: "Breast", cancers: ["tnbc", "breast-hr-positive", "breast-her2-positive", "male-breast-cancer", "ductal-carcinoma-in-situ"],
     caption: "Most cancers start in the ducts and drain first to the axillary nodes, which is why the armpit is checked and a sentinel node is sampled.",
     subsites: [
-      { id: "ducts", label: "Ducts (most cancers start here)", at: [0.35, 0.15, 0.85], match: ["ductal", "no special type", "nst", "luminal", "basal", "her2", "claudin"] },
+      { id: "ducts", label: "Ducts (most cancers start here)", at: [0.35, 0.15, 0.85], match: ["ductal", "dcis", "no special type", "nst", "luminal", "basal", "her2", "claudin"] },
       { id: "lobules", label: "Lobules (lobular carcinoma)", at: [-0.7, -0.45, 0.5], match: ["lobular"] },
       { id: "uoq", label: "Upper outer quadrant (commonest site)", at: [0.8, 0.7, 0.55] },
       { id: "nipple", label: "Nipple-areola", at: [0, 0, 1.08], match: ["paget"] },
@@ -55,10 +55,10 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, polyline([[1.3, 0.6, -0.4], [2.0, 0.9, 0.1], [2.6, 1.5, -0.1], [2.2, 2.3, 0]], "soft")); // lymphatic route
       return m;
     } },
-  { id: "lung", name: "Lungs, pleura and mediastinum", cancers: ["nsclc", "sclc", "mesothelioma", "thymic-epithelial"],
+  { id: "lung", name: "Lungs, pleura and mediastinum", cancers: ["nsclc", "sclc", "mesothelioma", "thymic-epithelial", "pleuropulmonary-blastoma", "inflammatory-myofibroblastic-tumour"],
     caption: "Central tumours arise in the large airways, peripheral ones in the alveoli; both drain to hilar then mediastinal nodes, and the pleural lining is a separate cancer site.",
     subsites: [
-      { id: "central", label: "Central airways (squamous, small-cell)", at: [-0.75, 0.55, 0.05], match: ["squamous", "small-cell", "small cell", "sclc", "neuroendocrine"] },
+      { id: "central", label: "Central airways (squamous, small-cell)", at: [-0.75, 0.55, 0.05], match: ["squamous", "small-cell", "small cell", "sclc", "neuroendocrine", "pleuropulmonary", "tracheobronchial", "bronchus", "myofibroblastic"] },
       { id: "peripheral", label: "Periphery (adenocarcinoma)", at: [1.75, -0.7, 0.35], match: ["adenocarcinoma", "egfr", "alk", "kras", "ros1", "ret", "met", "braf", "ntrk", "her2", "pd-l1"] },
       { id: "apex", label: "Apex (Pancoast)", at: [1.3, 1.65, 0] },
       { id: "pleura", label: "Pleura (mesothelioma)", at: [-2.35, 0.1, 0], match: ["epithelioid", "sarcomatoid", "biphasic", "pleural"] },
@@ -77,10 +77,10 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ellipsoid(0.45, 0.35, 0.2, 3, 8, "soft"), { at: [0, 1.05, 0.75] }); // thymus
       return m;
     } },
-  { id: "colorectum", name: "Colon, rectum, anus and appendix", cancers: ["colorectal", "anal", "appendiceal"],
+  { id: "colorectum", name: "Colon, rectum, anus and appendix", cancers: ["colorectal", "anal", "appendiceal", "small-bowel"],
     caption: "Right-sided tumours behave differently from left-sided and rectal ones; the colon drains along its mesenteric vessels, the rectum into the mesorectum and pelvic side wall.",
     subsites: [
-      { id: "right", label: "Right colon (MSI-high, BRAF commoner)", at: [-1.7, 0.3, 0], match: ["msi", "mmr", "braf", "right", "cms1", "mucinous", "serrated"] },
+      { id: "right", label: "Right colon (MSI-high, BRAF commoner)", at: [-1.7, 0.3, 0], match: ["msi", "mmr", "braf", "right", "cms1", "mucinous", "serrated", "duodenal", "jejunal", "ileal", "small bowel"] },
       { id: "left", label: "Left colon and sigmoid", at: [1.6, -0.5, 0], match: ["left", "cms2", "cms4", "her2", "ras"] },
       { id: "rectum", label: "Rectum", at: [0.45, -2.15, 0], match: ["rectal", "rectum"] },
       { id: "anus", label: "Anal canal (HPV squamous)", at: [0.45, -2.7, 0.05], match: ["anal", "squamous", "hpv", "p16", "hiv"] },
@@ -119,7 +119,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ellipsoid(0.5, 0.35, 0.3, 3, 8, "soft"), { at: [-1.6, 0.4, -0.5] }); // spleen
       return m;
     } },
-  { id: "pancreas-biliary", name: "Pancreas and bile ducts", cancers: ["pancreatic", "cholangiocarcinoma", "neuroendocrine"],
+  { id: "pancreas-biliary", name: "Pancreas and bile ducts", cancers: ["pancreatic", "cholangiocarcinoma", "neuroendocrine", "gallbladder", "ampullary"],
     caption: "Most pancreatic cancers arise in the head next to the bile duct, which is why jaundice is the presenting sign; bile duct cancers are named by where along the tree they sit.",
     subsites: [
       { id: "head", label: "Pancreatic head (most PDAC)", at: [-1.3, -0.15, 0.05], match: ["classical", "basal", "pdac", "ductal", "kras", "brca", "msi"] },
@@ -183,15 +183,15 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ellipsoid(0.55, 0.5, 0.3, 3, 8, "soft"), { at: [0, -0.2, -1.55] }); // rectum
       return m;
     } },
-  { id: "kidney-bladder-adrenal", name: "Kidneys, adrenals, ureters and bladder", cancers: ["urothelial", "rcc", "wilms-tumor", "neuroblastoma", "adrenocortical"],
+  { id: "kidney-bladder-adrenal", name: "Kidneys, adrenals, ureters and bladder", cancers: ["urothelial", "rcc", "wilms-tumor", "neuroblastoma", "adrenocortical", "pheochromocytoma-paraganglioma", "urethral", "penile"],
     caption: "Renal cell carcinoma comes from the kidney's filtering cortex, urothelial cancer from the lining of the collecting system and bladder, and the adrenal on top hosts cortical and medullary (neuroblastoma) tumours.",
     subsites: [
       { id: "cortex", label: "Renal cortex (RCC)", at: [-1.95, 1.75, 0.15], match: ["clear cell", "ccrcc", "papillary", "chromophobe", "vhl", "tfe3", "translocation", "collecting duct", "medullary", "sarcomatoid"] },
       { id: "pelvis", label: "Renal pelvis and ureter (upper tract urothelial)", at: [1.5, 1.6, 0.2], match: ["upper tract", "utuc", "renal pelvis", "ureter"] },
-      { id: "urothelium", label: "Bladder lining (non-muscle-invasive)", at: [0, -1.35, 0.9], match: ["nmibc", "non-muscle", "papillary", "cis", "luminal", "basal", "fgfr3", "urothelial", "high-grade", "low-grade"] },
+      { id: "urothelium", label: "Bladder lining (non-muscle-invasive)", at: [0, -1.35, 0.9], match: ["nmibc", "non-muscle", "papillary", "cis", "luminal", "basal", "fgfr3", "urothelial", "high-grade", "low-grade", "urethra", "penile", "pein"] },
       { id: "muscle", label: "Bladder muscle wall (muscle-invasive)", at: [-1.0, -1.45, 0.25], match: ["mibc", "muscle-invasive", "squamous", "small cell", "variant"] },
       { id: "adrenal-cortex", label: "Adrenal cortex", at: [1.5, 2.75, 0], match: ["adrenocortical", "cortisol", "aldosterone", "functional", "non-functional", "adrenal"] },
-      { id: "adrenal-medulla", label: "Adrenal medulla and sympathetic chain (neuroblastoma)", at: [-1.5, 2.75, 0], match: ["mycn", "neuroblast", "ganglio", "high-risk", "intermediate-risk", "low-risk", "alk", "stage ms", "stage 4s"] },
+      { id: "adrenal-medulla", label: "Adrenal medulla and sympathetic chain (neuroblastoma)", at: [-1.5, 2.75, 0], match: ["mycn", "neuroblast", "ganglio", "high-risk", "intermediate-risk", "low-risk", "alk", "stage ms", "stage 4s", "pheochromocytoma", "paraganglioma", "ppgl"] },
       { id: "nephroblastoma", label: "Developing kidney (Wilms tumour)", at: [-1.6, 1.1, 0.25], match: ["favourable histology", "anaplastic", "wilms", "blastemal", "wt1", "bilateral"] },
     ],
     nodes: [{ label: "renal hilar", at: [-1.1, 1.55, 0] }, { label: "para-aortic and paracaval", at: [0, 1.15, -0.25] }, { label: "obturator and iliac (bladder)", at: [1.55, -1.25, 0] }],
@@ -209,7 +209,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, dots([[-0.45, 2.4, -0.3], [-0.45, 2.0, -0.3], [-0.45, 1.6, -0.3], [-0.45, 1.2, -0.3]], "soft")); // sympathetic chain
       return m;
     } },
-  { id: "female-pelvis", name: "Uterus, cervix, ovaries, tubes and vulva", cancers: ["ovarian", "endometrial", "cervical", "vulvar", "gestational-trophoblastic"],
+  { id: "female-pelvis", name: "Uterus, cervix, ovaries, tubes and vulva", cancers: ["ovarian", "endometrial", "cervical", "vulvar", "gestational-trophoblastic", "uterine-sarcoma", "vaginal"],
     caption: "Most high-grade ovarian cancers begin at the tip of the fallopian tube; endometrial cancer lines the uterus, cervical cancer starts at the transformation zone; each drains to a different node group.",
     subsites: [
       { id: "fimbria", label: "Fallopian tube fimbria (origin of high-grade serous)", at: [1.65, 0.8, 0], match: ["high-grade serous", "hgsoc", "serous", "brca", "hrd", "platinum"] },
@@ -217,7 +217,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       { id: "endometrium", label: "Endometrium", at: [0, 0.3, 0.05], match: ["pole", "p53", "mmr", "msi", "nsmp", "endometrioid", "serous", "carcinosarcoma", "copy-number", "her2", "grade"] },
       { id: "myometrium", label: "Myometrium (uterine sarcoma)", at: [0.55, 0.05, 0.4], match: ["sarcoma", "leiomyosarcoma", "stromal"] },
       { id: "placenta", label: "Placental site (gestational trophoblastic)", at: [0.05, 0.75, 0.15], match: ["mole", "choriocarcinoma", "trophoblastic", "pstt", "ett", "low-risk", "high-risk", "hydatidiform"] },
-      { id: "cervix", label: "Cervix, transformation zone", at: [0, -0.95, 0.25], match: ["hpv", "squamous", "adenocarcinoma", "cervical", "figo", "locally advanced", "small cell"] },
+      { id: "cervix", label: "Cervix, transformation zone", at: [0, -0.95, 0.25], match: ["hpv", "squamous", "adenocarcinoma", "cervical", "figo", "locally advanced", "small cell", "vaginal", "vain"] },
       { id: "vulva", label: "Vulva", at: [0, -2.7, 0.3], match: ["vulvar", "lichen", "hpv-independent", "hpv-associated", "melanoma", "paget"] },
     ],
     nodes: [{ label: "obturator and external iliac", at: [1.85, -0.65, 0] }, { label: "internal iliac", at: [1.6, -1.2, -0.25] }, { label: "para-aortic (ovary, high uterus)", at: [0, 1.95, -0.3] }, { label: "inguinal (vulva)", at: [1.7, -2.45, 0.2] }],
@@ -235,7 +235,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ring(0.45, 14, undefined, "z"), { at: [0, -2.7, 0.3] }); // vulva
       return m;
     } },
-  { id: "testis", name: "Testis and retroperitoneum", cancers: ["testicular"],
+  { id: "testis", name: "Testis and retroperitoneum", cancers: ["testicular", "paediatric-germ-cell-tumours"],
     caption: "Germ cell tumours drain along the spermatic cord to the para-aortic nodes high in the abdomen, not to the groin, which is why staging scans look at the retroperitoneum.",
     subsites: [
       { id: "germ", label: "Germinal epithelium", at: [-0.65, -1.0, 0.45], match: ["seminoma", "non-seminoma", "nsgct", "embryonal", "teratoma", "yolk sac", "choriocarcinoma", "mixed", "good-risk", "poor-risk", "intermediate"] },
@@ -294,7 +294,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, polyline([[0.3, 0.9, -0.55], [0.8, 0.5, -0.65]], "soft")); // choroidal vessel hint
       return m;
     } },
-  { id: "brain", name: "Brain", cancers: ["glioblastoma", "primary-cns-lymphoma", "medulloblastoma"],
+  { id: "brain", name: "Brain", cancers: ["glioblastoma", "primary-cns-lymphoma", "medulloblastoma", "paediatric-low-grade-glioma", "dipg-dmg", "atrt", "ependymoma", "craniopharyngioma", "pituitary-tumours"],
     caption: "Gliomas infiltrate along white matter and can cross the corpus callosum, medulloblastoma sits in the cerebellum, and CNS lymphoma favours deep periventricular tissue; none spread through lymph nodes.",
     subsites: [
       { id: "frontal", label: "Frontal lobe (glioblastoma commonest)", at: [0.95, 0.65, 1.15], match: ["idh-wildtype", "gbm", "glioblastoma", "mgmt", "egfr", "tert", "grade 4", "mesenchymal", "proneural"] },
@@ -302,7 +302,9 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       { id: "callosum", label: "Corpus callosum (butterfly glioma)", at: [0, 0.5, 0], match: ["butterfly", "corpus callosum", "multifocal"] },
       { id: "idh", label: "Lower-grade IDH-mutant glioma", at: [-1.25, 0.75, 0.9], match: ["idh-mutant", "oligodendroglioma", "astrocytoma", "1p/19q", "codeleted", "grade 2", "grade 3", "cdkn2a"] },
       { id: "cerebellum", label: "Cerebellum (medulloblastoma)", at: [0, -0.95, -1.25], match: ["wnt", "shh", "group 3", "group 4", "medulloblastoma", "desmoplastic", "large cell"] },
-      { id: "brainstem", label: "Brainstem (diffuse midline glioma)", at: [0, -1.45, -0.6], match: ["dipg", "h3 k27", "diffuse midline", "brainstem", "midline"] },
+      { id: "brainstem", label: "Brainstem (diffuse midline glioma)", at: [0, -1.45, -0.6], match: ["dipg", "h3 k27", "h3.3 k27m", "h3.1 k27m", "k27m", "diffuse midline", "brainstem", "midline"] },
+      { id: "ventricle", label: "Ventricles and ependymal lining (ependymoma)", at: [0.5, 0.05, -0.2], match: ["ependymoma", "posterior fossa", "pf-a", "pf-b", "zfta", "yap1", "subependymoma", "myxopapillary"] },
+      { id: "sella", label: "Sella and pituitary (pituitary tumours, craniopharyngioma)", at: [0, -1.1, 0.45], match: ["pituitary", "prolactinoma", "somatotroph", "corticotroph", "gonadotroph", "thyrotroph", "pit1", "adamantinomatous", "craniopharyngioma", "papillary (braf"] },
       { id: "deep", label: "Deep periventricular tissue (CNS lymphoma)", at: [-0.6, 0.15, -0.25], match: ["pcnsl", "cns lymphoma", "abc", "mcd", "myd88", "cd79b", "vitreoretinal"] },
     ],
     nodes: [], nodeNote: "No conventional lymphatics: gliomas spread along white matter tracts and, rarely, through cerebrospinal fluid; medulloblastoma can seed the spine.",
@@ -315,15 +317,15 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ring(0.35, 12, "soft", "x"), { at: [-0.6, 0.15, -0.25] }); add(m, ring(0.35, 12, "soft", "x"), { at: [0.6, 0.15, -0.25] }); // ventricles
       return m;
     } },
-  { id: "head-neck", name: "Head and neck, salivary glands and thyroid", cancers: ["head-and-neck", "nasopharyngeal", "salivary-gland", "thyroid"],
+  { id: "head-neck", name: "Head and neck, salivary glands and thyroid", cancers: ["head-and-neck", "nasopharyngeal", "salivary-gland", "thyroid", "sinonasal", "nut-carcinoma", "parathyroid-carcinoma", "multiple-endocrine-neoplasia"],
     caption: "Site decides cause and behaviour: HPV drives oropharyngeal cancer, EBV drives nasopharyngeal cancer, tobacco drives oral and laryngeal cancer; all drain into the neck node levels that surgeons and radiotherapists map.",
     subsites: [
       { id: "oral", label: "Oral cavity and tongue", at: [1.15, -0.6, 0.35], match: ["oral", "tongue", "oral cavity", "hpv-negative", "hpv negative", "tobacco", "tp53"] },
       { id: "oropharynx", label: "Oropharynx: tonsil, base of tongue (HPV)", at: [0.35, -0.5, 0], match: ["hpv", "oropharyn", "p16", "tonsil"] },
-      { id: "nasopharynx", label: "Nasopharynx (EBV)", at: [0.35, 0.55, 0], match: ["ebv", "nasopharyn", "keratinising", "non-keratinising", "undifferentiated"] },
+      { id: "nasopharynx", label: "Nasopharynx (EBV)", at: [0.35, 0.55, 0], match: ["ebv", "nasopharyn", "keratinising", "non-keratinising", "undifferentiated", "sinonasal", "esthesioneuroblastoma", "nutm1", "nut carcinoma"] },
       { id: "larynx", label: "Larynx and hypopharynx", at: [0.25, -1.55, 0], match: ["laryn", "glottic", "supraglottic", "hypopharyn"] },
       { id: "parotid", label: "Parotid and other salivary glands", at: [-0.95, -0.45, 1.25], match: ["salivary", "parotid", "adenoid cystic", "mucoepidermoid", "acinic", "salivary duct", "myoepithelial", "androgen receptor", "her2", "ntrk", "secretory"] },
-      { id: "thyroid", label: "Thyroid", at: [0.2, -2.45, 0.45], match: ["papillary", "follicular", "medullary", "anaplastic", "ret", "braf", "thyroid", "hurthle", "oncocytic", "poorly differentiated", "radioiodine"] },
+      { id: "thyroid", label: "Thyroid", at: [0.2, -2.45, 0.45], match: ["papillary", "follicular", "medullary", "anaplastic", "ret", "braf", "thyroid", "hurthle", "oncocytic", "poorly differentiated", "radioiodine", "parathyroid", "men1", "men2"] },
     ],
     nodes: [{ label: "level I (submandibular)", at: [1.15, -1.45, 0.75] }, { label: "level II (upper jugular)", at: [-0.2, -1.05, 1.25] }, { label: "level III-IV (jugular)", at: [-0.05, -1.95, 1.15] }, { label: "level V (posterior)", at: [-0.95, -1.7, 0.95] }, { label: "level VI (central, thyroid)", at: [0.25, -2.7, 0.25] }, { label: "retropharyngeal (nasopharynx)", at: [-0.45, -0.15, 0.25] }],
     build: () => {
@@ -341,10 +343,10 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, polyline([[0.2, -0.7, 1.2], [0, -1.3, 1.25], [-0.05, -1.95, 1.15], [0, -2.6, 0.9]], "soft")); // jugular chain
       return m;
     } },
-  { id: "haematopoietic", name: "Bone marrow, lymph nodes and spleen", cancers: ["aml", "all-leukemia", "cll", "cml", "dlbcl", "follicular-lymphoma", "hodgkin-lymphoma", "mantle-cell-lymphoma", "multiple-myeloma", "mds", "myeloproliferative-neoplasms", "waldenstrom", "hairy-cell-leukemia", "peripheral-t-cell-lymphoma", "bpdcn"],
+  { id: "haematopoietic", name: "Bone marrow, lymph nodes and spleen", cancers: ["aml", "all-leukemia", "cll", "cml", "dlbcl", "follicular-lymphoma", "hodgkin-lymphoma", "mantle-cell-lymphoma", "multiple-myeloma", "mds", "myeloproliferative-neoplasms", "waldenstrom", "hairy-cell-leukemia", "peripheral-t-cell-lymphoma", "bpdcn", "burkitt-lymphoma", "hiv-associated-lymphoma", "cmml", "systemic-mastocytosis", "histiocytoses", "langerhans-cell-histiocytosis", "post-transplant-lymphoproliferative-disorder"],
     caption: "Leukaemias, myeloma and MDS live in the marrow and blood; lymphomas grow in lymph nodes and spleen. The node stations are the disease map, not a route of spread, and staging counts them.",
     subsites: [
-      { id: "marrow", label: "Bone marrow (leukaemia, MDS, MPN, myeloma)", at: [0, 0, 0], match: ["aml", "all", "leukaemia", "myeloid", "lymphoblastic", "mds", "mpn", "myelofibrosis", "polycythaemia", "thrombocythaemia", "cml", "chronic phase", "blast", "myeloma", "plasma", "hairy", "waldenstr", "blastic", "npm1", "flt3", "kmt2a", "tp53", "ipss", "philadelphia", "ph-positive", "ph-negative", "t-cell", "b-cell", "hypercalcaemia", "light chain", "smouldering", "high-risk", "standard-risk", "del(17p)", "ighv", "richter", "jak2", "calr", "mpl"] },
+      { id: "marrow", label: "Bone marrow (leukaemia, MDS, MPN, myeloma)", at: [0, 0, 0], match: ["aml", "all", "leukaemia", "myeloid", "cmml", "mastocytosis", "burkitt", "ptld", "histiocyt", "lch", "lymphoblastic", "mds", "mpn", "myelofibrosis", "polycythaemia", "thrombocythaemia", "cml", "chronic phase", "blast", "myeloma", "plasma", "hairy", "waldenstr", "blastic", "npm1", "flt3", "kmt2a", "tp53", "ipss", "philadelphia", "ph-positive", "ph-negative", "t-cell", "b-cell", "hypercalcaemia", "light chain", "smouldering", "high-risk", "standard-risk", "del(17p)", "ighv", "richter", "jak2", "calr", "mpl"] },
       { id: "node", label: "Lymph node germinal centre (lymphomas)", at: [-1.4, 1.8, 0.6], match: ["gcb", "germinal", "follicular", "hodgkin", "nodular", "classical", "mantle", "dlbcl", "abc", "non-gcb", "double-hit", "high-grade", "ptcl", "alcl", "angioimmunoblastic", "nk", "lymphocyte", "sclerosis", "mixed cellularity", "ebv", "grade 1", "grade 3", "transformed", "blastoid", "sox11", "tp53-mutated"] },
       { id: "spleen", label: "Spleen", at: [1.9, 1.5, 0], match: ["splenic", "marginal zone", "hairy cell", "variant"] },
       { id: "blood", label: "Blood (leukaemic phase)", at: [-2.6, -0.6, 0], match: ["cll", "sll", "leukaemic", "circulating", "lymphocytosis", "sezary", "prolymphocytic"] },
@@ -365,12 +367,12 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ring(0.18, 10, "hot", "z"), { at: [1.25, -0.2, 0.42] }); // lytic lesion
       return m;
     } },
-  { id: "musculoskeletal", name: "Bone and soft tissue (limb cross-section)", cancers: ["sarcoma", "osteosarcoma", "ewing-sarcoma", "rhabdomyosarcoma"],
+  { id: "musculoskeletal", name: "Bone and soft tissue (limb cross-section)", cancers: ["sarcoma", "osteosarcoma", "ewing-sarcoma", "rhabdomyosarcoma", "chordoma", "desmoid-tumour", "tenosynovial-giant-cell-tumour", "epithelioid-sarcoma", "vascular-tumours"],
     caption: "Bone sarcomas favour the fast-growing ends of long bones (osteosarcoma) or the shaft (Ewing), soft tissue sarcomas the deep muscle compartments; spread is through the blood to the lungs, rarely via lymph nodes.",
     subsites: [
       { id: "metaphysis", label: "Metaphysis, near the growth plate (osteosarcoma)", at: [0, 1.5, 0.35], match: ["osteosarcoma", "conventional", "osteoblastic", "chondroblastic", "fibroblastic", "telangiectatic", "high-grade", "parosteal", "periosteal"] },
       { id: "diaphysis", label: "Shaft (Ewing sarcoma)", at: [0, -0.5, 0.38], match: ["ewing", "ewsr1", "fli1", "round cell", "cic", "bcor", "localised", "metastatic"] },
-      { id: "deep", label: "Deep soft tissue compartment", at: [1.05, 0.4, 0.6], match: ["liposarcoma", "leiomyosarcoma", "ups", "undifferentiated", "synovial", "myxofibrosarcoma", "fibrosarcoma", "dedifferentiated", "well-differentiated", "mpnst", "angiosarcoma", "desmoid", "gist", "soft tissue", "bone", "retroperitoneal"] },
+      { id: "deep", label: "Deep soft tissue compartment", at: [1.05, 0.4, 0.6], match: ["liposarcoma", "leiomyosarcoma", "ups", "undifferentiated", "synovial", "chordoma", "epithelioid", "proximal type", "tgct", "villonodular", "haemangioendothelioma", "myxofibrosarcoma", "fibrosarcoma", "dedifferentiated", "well-differentiated", "mpnst", "angiosarcoma", "desmoid", "gist", "soft tissue", "bone", "retroperitoneal"] },
       { id: "muscle", label: "Skeletal muscle (rhabdomyosarcoma)", at: [-1.05, -0.6, 0.55], match: ["rhabdomyosarcoma", "embryonal", "alveolar", "pax3", "pax7", "foxo1", "pleomorphic", "spindle", "fusion-positive", "fusion-negative"] },
       { id: "nv", label: "Neurovascular bundle (limb salvage decision)", at: [-0.5, 0.2, -0.95] },
     ],

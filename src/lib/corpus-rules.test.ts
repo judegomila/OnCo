@@ -22,7 +22,7 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
 const SOC_ROWS_WITHOUT_REFS = new Set(["cholangiocarcinoma: Resectable", "dlbcl: Frontline", "endometrial: Early", "neuroendocrine: Localised", "ovarian: Platinum-sensitive relapse"]);
 
 /** Hosts that publish guidelines, or the primary publication a guideline row cites. */
-const GUIDELINE_HOSTS = ["nccn.org", "jnccn.org", "esmo.org", "esgo.org", "who.int", "cancer.gov", "nice.org.uk", "asco.org", "ascopubs.org", "annalsofoncology.org", "doi.org", "pmc.ncbi.nlm.nih.gov", "pubmed.ncbi.nlm.nih.gov", "nature.com", "nejm.org", "thelancet.com"];
+const GUIDELINE_HOSTS = ["nccn.org", "jnccn.org", "esmo.org", "esgo.org", "uroweb.org", "who.int", "cancer.gov", "nice.org.uk", "asco.org", "ascopubs.org", "annalsofoncology.org", "doi.org", "pmc.ncbi.nlm.nih.gov", "pubmed.ncbi.nlm.nih.gov", "nature.com", "nejm.org", "thelancet.com"];
 /** Rows that cite secondary coverage of a guideline update; replace with the guideline URL when it is public. */
 const GUIDELINE_URL_EXCEPTIONS = new Set(["tnbc: Metastatic, first line, PD-L1 CPS ≥10", "tnbc: Metastatic, first line, PD-L1 negative or PD-1 ineligible"]);
 

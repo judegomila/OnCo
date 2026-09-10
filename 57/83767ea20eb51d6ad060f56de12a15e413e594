@@ -1,0 +1,59 @@
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_3e201c883f7c89 220,224,228,232
+src/data/spikes/cholangiocarcinoma.ts
+  s_0beac9cb5d78fd::t_80b3c99607ace0 23
+  s_0beac9cb5d78fd::t_3e201c883f7c89 27,31
+src/data/spikes/glioblastoma.ts
+  s_0beac9cb5d78fd::t_80b3c99607ace0 170,176
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_80b3c99607ace0 164,170
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_3e201c883f7c89 25,29,33
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_901a365e42f8d3 52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82
+  s_0beac9cb5d78fd::t_ea7d554fc78cdb 17,22,26,28,30,32,34,36,38,40,42,44,46,48,50
+  s_0beac9cb5d78fd::t_2c3870b79ff1ba 96,100,114
+  s_0beac9cb5d78fd::t_4bd483efe58bbd 118,120,122,124,126,128,130,132,134,136,138,140,142,144,146
+  s_0beac9cb5d78fd::t_cb9c04de80061f 84,86,88,90,92,98,102,104,106,108,110,112,116
+src/data/spikes/all-leukemia.ts
+  s_0beac9cb5d78fd::t_3e201c883f7c89 25,29
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_3e201c883f7c89 235
+src/data/spikes/endometrial.ts
+  s_0beac9cb5d78fd::t_80b3c99607ace0 136
+src/data/spikes/hcc.ts
+  s_0beac9cb5d78fd::t_80b3c99607ace0 28,37,41,45
+src/data/spikes/rcc.ts
+  s_0beac9cb5d78fd::t_3e201c883f7c89 216
+src/data/groups.ts
+  s_0beac9cb5d78fd::t_4bd483efe58bbd 20
+  s_0beac9cb5d78fd::t_3415f7944ef0e4 25,35,40,45,50,55,60,65
+src/data/foundation-models.ts
+  s_0beac9cb5d78fd::t_3415f7944ef0e4 20,22,24,26
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_80b3c99607ace0 24,28,32,36,40
+src/data/spikes/breast-her2-positive.ts
+  s_0beac9cb5d78fd::t_80b3c99607ace0 25,30,34
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_3e201c883f7c89 165,169
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_3e201c883f7c89 27,31,35
+src/data/china.ts
+  s_0beac9cb5d78fd::t_3415f7944ef0e4 436,442,447
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5783767ea20eb51d6ad060f56de12a15e413e594",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

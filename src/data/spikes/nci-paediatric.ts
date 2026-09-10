@@ -55,7 +55,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     targets: ["braf"], pathways: ["ras-mapk"], drugs: ["dabrafenib-trametinib", "tovorafenib", "carboplatin", "vincristine", "vinblastine"],
     technologies: ["kinase-inhibitors", "methylation-profiling", "proton-therapy", "mri", "survivorship-care-plan"], trials: ["tadpole", "firefly-1", "pediatric-match"],
     institutions: ["childrens-oncology-group", "siop-europe", "cclg"], companies: ["day-one-biopharmaceuticals", "novartis"], terms: ["late-effects", "germline-testing"], bottlenecks: ["b-rare-cancers", "b-survivorship"],
-    related: ["dipg-dmg", "glioblastoma", "race-for-children-act"],
+    related: ["dipg-dmg", "glioblastoma", "race-for-children-act", "ependymoma", "craniopharyngioma"],
     links: [
       { label: "NCI PDQ: childhood astrocytomas, other gliomas and glioneuronal tumours", url: PDQ("brain/hp/child-astrocytoma-treament-pdq") },
       { label: "TADPOLE: dabrafenib plus trametinib in BRAF V600E pLGG (NEJM 2023)", url: "https://doi.org/10.1056/NEJMoa2303815" },
@@ -325,7 +325,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Harmonising paediatric, adolescent and adult protocols so that a 17-year-old and a 19-year-old receive the same evidence-based care.",
     ],
     drugs: ["cisplatin", "carboplatin", "etoposide", "bleomycin", "ifosfamide", "sodium-thiosulfate"], technologies: ["cytotoxic-chemotherapy", "active-surveillance", "autologous-stem-cell-transplant", "imrt-igrt", "proton-therapy", "fertility-preservation", "survivorship-care-plan"],
-    institutions: ["childrens-oncology-group", "cclg", "siop-europe"], terms: ["afp", "late-effects", "aya-oncology", "bleomycin-omission-caution"], bottlenecks: ["b-survivorship", "b-rare-cancers"],
+    institutions: ["childrens-oncology-group", "cclg", "siop-europe"], terms: ["afp", "late-effects", "aya-oncology", "bleomycin-omission-caution", "retroperitoneum"], bottlenecks: ["b-survivorship", "b-rare-cancers"],
     related: ["testicular", "ovarian", "rare-childhood-cancers"],
     links: [
       { label: "NCI PDQ: childhood extracranial germ cell tumours", url: PDQ("extracranial-germ-cell/hp/germ-cell-treatment-pdq") },

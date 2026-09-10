@@ -48,7 +48,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["serena-6", "circulate-japan"],
     companies: ["10x-genomics", "guardant-health", "natera"],
     institutions: ["francis-crick", "cruk", "moffitt"],
-    related: ["genie", "cbioportal", "idea-ctdna-switch-generalised"],
+    related: ["genie", "cbioportal", "idea-ctdna-switch-generalised", "idea-bio1-multiregion-blocks-default", "idea-bio1-rapid-autopsy-network", "idea-bio1-truncal-branch-labelling", "idea-bio1-outlier-lesion-biopsy", "idea-bio1-barcoded-avatars-clonal-fitness", "idea-bio1-evolvability-index", "idea-bio1-adaptive-therapy-platform", "idea-bio1-ctdna-adaptive-tki", "idea-bio1-first-strike-second-strike", "idea-bio1-collateral-sensitivity-atlas", "idea-bio1-evolutionary-double-bind", "idea-bio1-spatial-clone-immune-map", "idea-bio1-methylation-clone-tracking", "idea-bio1-evolution-forecasting", "idea-bio1-baseline-ultradeep-resistant-clones", "idea-bio1-cfrna-plasticity-tracking", "idea-bio1-evolutionary-tumour-boards", "idea-bio1-apobec-inhibitor-adjunct", "idea-bio1-cin-vulnerability-kif18a", "idea-bio1-federated-evolution-atlas", "idea-bio1-clone-to-lesion-mapping", "idea-bio1-rebiopsy-before-switch", "idea-moon-open-cancer-cell-state-model"],
   }),
   b({
     id: "b-undruggable-targets",
@@ -90,7 +90,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["rasolute-302", "codebreak-200", "krystal-12", "amplify-7p"],
     companies: ["revolution-medicines", "arvinas", "kymera", "nurix", "c4-therapeutics", "monte-rosa", "quanta-therapeutics", "frontier-medicines", "elicio-therapeutics"],
     institutions: ["nci", "broad-institute"],
-    related: ["kras-roadmap", "idea-ras-inhibitor-neoadjuvant-pdac", "idea-shared-kras-vaccine-adjuvant", "depmap", "open-targets"],
+    related: ["kras-roadmap", "idea-ras-inhibitor-neoadjuvant-pdac", "idea-shared-kras-vaccine-adjuvant", "depmap", "open-targets", "idea-bio1-myc-max-molecular-glue", "idea-bio1-omomyc-mrna", "idea-bio1-p53-mutant-reactivator-expansion", "idea-bio1-mutant-p53-degrader", "idea-bio1-pan-ras-covalent-g12d", "idea-bio1-covalent-ligandability-atlas", "idea-bio1-glue-degrader-atlas", "idea-bio1-fusion-tf-degraders", "idea-bio1-condensate-disruptors", "idea-bio1-tumour-restricted-e3-atlas", "idea-bio1-antibody-degrader-conjugates", "idea-bio1-lytac-surface-degraders", "idea-bio1-rna-targeting-small-molecules", "idea-bio1-epigenetic-silencing-in-vivo", "idea-bio1-paralog-synthetic-lethality", "idea-bio1-pp2a-activators", "idea-bio1-wrn-msi-programme", "idea-bio1-macrocycle-ppi-campaign", "idea-bio1-arv7-degrader", "idea-bio1-ai-binders-disordered-regions", "idea-bio1-pmhc-bispecifics-public-drivers", "idea-bio1-mrna-intrabodies", "idea-bio1-translation-dependency-myc", "idea-bio1-undruggable-open-consortium", "idea-bio1-undruggable-market-commitment", "idea-moon-synthetic-lethality-map-every-driver", "idea-moon-open-degrader-consortium"],
   }),
   b({
     id: "b-preclinical-models",
@@ -131,7 +131,7 @@ export const bottlenecks: BottleneckInput[] = [
     companies: ["champions-oncology", "xilis", "curesponse", "sengine", "recursion"],
     institutions: ["broad-institute", "nci", "cold-spring-harbor", "francis-crick"],
     sections: ["drug-discovery"],
-    related: ["cancer-models", "depmap", "idea-organoid-guided-adc"],
+    related: ["cancer-models", "depmap", "idea-organoid-guided-adc", "idea-bio1-immune-matched-humanised-mice", "idea-bio1-co-clinical-avatar-trials", "idea-bio1-organoid-immune-coculture", "idea-bio1-tumour-on-chip-penetration", "idea-bio1-in-silico-trials-dose", "idea-bio1-preclinical-preregistration", "idea-bio1-multicentre-mouse-trials", "idea-bio1-model-predictivity-benchmark", "idea-bio1-negative-preclinical-repository", "idea-bio1-tumour-slice-cultures", "idea-bio1-metastatic-niche-models", "idea-bio1-aged-comorbid-models", "idea-bio1-comparative-oncology-dogs", "idea-bio1-zebrafish-avatars", "idea-bio1-multi-organ-chip-tox", "idea-bio1-rare-cancer-organoid-bank", "idea-bio1-organoid-assay-clinical-validation", "idea-bio1-organoid-cell-therapy-potency", "idea-bio1-somatic-crispr-gemms", "idea-bio1-ctc-derived-explants", "idea-bio1-model-authentication-mandate", "idea-bio1-reverse-translation-resistance-models", "idea-bio1-ex-vivo-perfused-tumour", "idea-bio1-model-patient-matching", "idea-bio1-virtual-cell-perturbation", "idea-moon-self-driving-cancer-labs"],
   }),
   b({
     id: "b-metastasis-biology",
@@ -171,7 +171,7 @@ export const bottlenecks: BottleneckInput[] = [
     pathways: ["emt"],
     trials: ["mslt-ii", "dynamic", "circulate-japan", "imvigor011"],
     institutions: ["cruk", "nci", "mskcc"],
-    related: ["idea-psma-pet-guided-mdt", "idea-ctdna-guided-adjuvant-crc", "idea-peritoneal-directed-gastric"],
+    related: ["idea-psma-pet-guided-mdt", "idea-ctdna-guided-adjuvant-crc", "idea-peritoneal-directed-gastric", "idea-bio2-antimetastatic-endpoint", "idea-bio2-ctc-clearance-go-nogo", "idea-bio2-net-blockade-perioperative", "idea-bio2-perioperative-betablocker-nsaid", "idea-bio2-premetastatic-niche-assay", "idea-bio2-inhaled-lung-niche-immunotherapy", "idea-bio2-liver-niche-kupffer-reprogramming", "idea-bio2-cxcr4-mobilise-then-kill", "idea-bio2-rapid-autopsy-commons", "idea-bio2-metastasis-screen-standard", "idea-bio2-ctc-culture-functional-testing", "idea-bio2-lymph-node-immune-priming", "idea-bio2-organotropism-atlas", "idea-bio2-metastasis-funding-floor", "idea-bio2-matrix-stiffness-prevention", "idea-bio2-brain-met-prevention-trials", "idea-bio2-oligometastatic-signature", "idea-moon-metastasis-prevention-indication"],
   }),
   b({
     id: "b-dormancy-mrd",
@@ -211,7 +211,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["dynamic", "circulate-japan", "imvigor011", "cambria", "natalee"],
     drugs: ["signatera"],
     companies: ["natera", "foresight-diagnostics", "adaptive-biotechnologies", "guardant-health"],
-    related: ["idea-late-recurrence-interception", "idea-ctdna-guided-adjuvant-crc", "idea-ctdna-guided-adjuvant-melanoma", "idea-mrd-guided-stop-myeloma", "idea-ctdna-escalation-tnbc"],
+    related: ["idea-late-recurrence-interception", "idea-ctdna-guided-adjuvant-crc", "idea-ctdna-guided-adjuvant-melanoma", "idea-mrd-guided-stop-myeloma", "idea-ctdna-escalation-tnbc", "idea-bio2-dormancy-selective-screen", "idea-bio2-autophagy-block-mrd", "idea-bio2-pro-dormancy-therapy", "idea-bio2-il1-awakening-blockade", "idea-bio2-national-mrd-platform", "idea-bio2-mrd-reference-standards", "idea-bio2-mrd-triggered-neoantigen-vaccine", "idea-bio2-nk-cells-for-mrd", "idea-bio2-whole-genome-mrd-depth", "idea-bio2-marrow-niche-on-chip", "idea-bio2-localise-the-mrd", "idea-bio2-circadian-mrd-sampling", "idea-bio2-mrd-guided-endocrine-duration", "idea-bio2-mrd-clinic-service", "idea-bio2-survivor-plasma-biobank", "idea-moon-engineered-immune-surveillance", "idea-moon-mrd-weather-service", "idea-moon-dormancy-eradication-programme"],
   }),
   b({
     id: "b-resistance",
@@ -251,7 +251,7 @@ export const bottlenecks: BottleneckInput[] = [
     drugs: ["osimertinib", "camizestrant", "pirtobrutinib", "bgb-16673", "amivantamab"],
     companies: ["astrazeneca", "beone", "nurix", "sutro-biopharma", "mersana", "systimmune"],
     institutions: ["moffitt", "mskcc"],
-    related: ["idea-dual-payload-first", "idea-payload-switching", "idea-btk-degrader-frontline", "idea-ctdna-switch-generalised", "genie"],
+    related: ["idea-dual-payload-first", "idea-payload-switching", "idea-btk-degrader-frontline", "idea-ctdna-switch-generalised", "genie", "idea-bio1-mandatory-progression-biopsy", "idea-bio1-open-resistance-atlas", "idea-bio1-upfront-bypass-combination", "idea-bio1-pre-randomised-sequencing-trials", "idea-bio1-antigen-mapping-at-progression", "idea-bio1-dual-antigen-adc-escape", "idea-bio1-adaptive-car-antigen-switch", "idea-bio1-drug-holiday-resensitisation", "idea-bio1-persister-ferroptosis", "idea-bio1-epigenetic-persister-blockade", "idea-bio1-mutagenesis-blockade-rev1", "idea-bio1-stress-response-blockade", "idea-bio1-senolytics-after-therapy", "idea-bio1-persister-metabolic-vulnerability", "idea-bio1-molecular-progression-add-on", "idea-bio1-alternating-schedules", "idea-bio1-resistance-mutation-vaccine", "idea-bio1-mechanism-matched-access", "idea-bio1-resistance-platform-trial", "idea-bio1-slfn11-payload-guidance", "idea-bio1-stromal-resistance-blockade", "idea-bio1-real-world-resistance-surveillance", "idea-bio1-approval-linked-progression-sampling", "idea-bio1-drug-exposure-sanctuary-mapping", "idea-bio1-immunopeptidome-timing", "idea-moon-closed-loop-adaptive-therapy"],
   }),
   b({
     id: "b-tme-immunosuppression",
@@ -295,7 +295,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["keynote-177", "checkmate-8hw", "niche-2", "napoli-3", "interpath-001"],
     drugs: ["tarlatamab", "fap-2286", "intismeran-autogene", "autogene-cevumeran", "vusolimogene-oderparepvec", "tiragolumab", "magrolimab", "epacadostat", "adu-s100"],
     companies: ["moderna", "biontech", "replimune", "10x-genomics"],
-    related: ["idea-immunotherapy-mss-crc", "idea-fap-theranostics-pancancer", "idea-mesothelin-car-t-regional", "idea-photoimmunotherapy-plus-pd1", "immunotherapy-roadmap", "cellxgene-hca"],
+    related: ["idea-immunotherapy-mss-crc", "idea-fap-theranostics-pancancer", "idea-mesothelin-car-t-regional", "idea-photoimmunotherapy-plus-pd1", "immunotherapy-roadmap", "cellxgene-hca", "idea-bio2-trem2-myeloid-reprogramming", "idea-bio2-in-situ-vaccination-solid", "idea-bio2-oncolytic-regulated-il12", "idea-bio2-engineered-bacteria-payloads", "idea-bio2-tumour-anchored-tgfbeta-trap", "idea-bio2-lactate-acid-axis", "idea-bio2-radiotherapy-sting-fractionation", "idea-bio2-tertiary-lymphoid-induction", "idea-bio2-cxcr2-neutrophil-blockade", "idea-bio2-caf-subtype-assignment", "idea-bio2-implantable-microdevice-screen", "idea-bio2-vascular-normalisation-window", "idea-bio2-complement-c5ar-blockade", "idea-bio2-intracavitary-immunotherapy", "idea-bio2-myeloid-engager-bispecific", "idea-bio2-hypoxia-guided-adenosine", "idea-bio2-histotripsy-immune-priming", "idea-bio2-trained-immunity-priming", "idea-moon-cold-to-hot-programme"],
   }),
   b({
     id: "b-brain-delivery",
@@ -338,7 +338,7 @@ export const bottlenecks: BottleneckInput[] = [
     drugs: ["temozolomide", "vorasidenib", "tucatinib", "optune", "rindopepimut", "dordaviprone", "tovorafenib"],
     companies: ["insightec", "novocure", "servier"],
     institutions: ["city-of-hope", "stanford", "mgh", "heidelberg-nct"],
-    related: ["idea-fus-plus-adc-glioma", "idea-neoadjuvant-io-glioblastoma", "idea-cns-first-adc-strategy", "idea-mri-surveillance-replaces-pci"],
+    related: ["idea-fus-plus-adc-glioma", "idea-neoadjuvant-io-glioblastoma", "idea-cns-first-adc-strategy", "idea-mri-surveillance-replaces-pci", "idea-bio2-sonobiopsy", "idea-bio2-intraventricular-car-t", "idea-bio2-robotic-convection-delivery", "idea-bio2-transferrin-shuttle-adc", "idea-bio2-implanted-ultrasound-repeat-dosing", "idea-bio2-cns-cohort-mandate", "idea-bio2-csf-ctdna-monitoring", "idea-bio2-brain-exposure-disclosure", "idea-bio2-intranasal-delivery", "idea-bio2-blood-csf-barrier-model", "idea-bio2-fus-for-cell-entry", "idea-bio2-brain-penetrant-glue-degraders", "idea-moon-brain-delivery-platform"],
   }),
   b({
     id: "b-cachexia-supportive",
@@ -379,7 +379,7 @@ export const bottlenecks: BottleneckInput[] = [
     sections: ["supportive-care"],
     companies: ["pfizer"],
     institutions: ["asco", "cruk"],
-    related: ["idea-exercise-as-adjuvant"],
+    related: ["idea-exercise-as-adjuvant", "idea-bio2-protein-plus-training-during-io", "idea-bio2-remote-weight-step-monitoring"],
   }),
   b({
     id: "b-rare-cancers",
@@ -422,7 +422,7 @@ export const bottlenecks: BottleneckInput[] = [
     drugs: ["tovorafenib", "dinutuximab", "naxitamab", "nirogacestat", "eflornithine", "selpercatinib", "revumenib"],
     companies: ["y-mabs", "day-one-biopharmaceuticals", "springworks", "us-worldmeds"],
     institutions: ["childrens-oncology-group", "nci", "cruk", "curie-nki-eortc"],
-    related: ["idea-menin-infant-all", "idea-gd2-car-t-frontline-consolidation", "idea-tcr-t-beyond-hla-a2"],
+    related: ["idea-menin-infant-all", "idea-gd2-car-t-frontline-consolidation", "idea-tcr-t-beyond-hla-a2", "idea-bio2-rare-cancer-umbrella-platform", "idea-bio2-n-of-1-framework", "idea-bio2-paediatric-first-development", "idea-bio2-rare-cancer-telepathology-network", "idea-bio2-functional-precision-rare", "idea-bio2-rare-cancer-prize-fund", "idea-bio2-registry-embedded-randomisation", "idea-bio2-patient-partnered-rare-commons", "idea-bio2-mechanism-defined-baskets", "idea-bio2-shared-compound-access-pool", "idea-bio2-bayesian-borrowing-acceptance", "idea-bio2-rare-tumour-model-bank", "idea-moon-rare-cancer-global-network", "idea-moon-open-source-oncology-drug-discovery"],
   }),
   b({
     id: "b-immunotherapy-response",
@@ -462,7 +462,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["keynote-024-189", "keynote-048", "checkmate-067", "keynote-177"],
     drugs: ["pembrolizumab", "nivolumab", "atezolizumab", "durvalumab"],
     companies: ["owkin", "tempus", "paige", "foundation-medicine"],
-    related: ["idea-cd8-pet-io", "idea-multimodal-foundation-model", "immunotherapy-roadmap"],
+    related: ["idea-cd8-pet-io", "idea-multimodal-foundation-model", "immunotherapy-roadmap", "idea-bio2-tcr-repertoire-early-readout", "idea-bio2-spatial-signature-cdx", "idea-bio2-ctdna-six-week-io-switch", "idea-bio2-io-biomarker-data-commons", "idea-bio2-til-reactivity-selection", "idea-bio2-antigen-presentation-triage", "idea-bio2-epigenetic-priming-cold-tumours", "idea-bio2-neoadjuvant-biomarker-engine", "idea-bio2-steroid-sparing-irae"],
   }),
   // Prevention and detection
   b({
@@ -508,7 +508,7 @@ export const bottlenecks: BottleneckInput[] = [
     companies: ["grail", "guardant-health", "exact-sciences", "freenome", "delfi-diagnostics", "harbinger-health"],
     institutions: ["nci", "cruk", "iarc"],
     sections: ["early-detection"],
-    related: ["early-detection-roadmap", "idea-mced-new-onset-diabetes", "idea-mced-plus-fapi", "idea-hcc-blood-surveillance", "idea-non-endoscopic-barretts-screening", "seer", "globocan"],
+    related: ["early-detection-roadmap", "idea-mced-new-onset-diabetes", "idea-mced-plus-fapi", "idea-hcc-blood-surveillance", "idea-non-endoscopic-barretts-screening", "seer", "globocan", "idea-prev-mced-change-control-plan", "idea-prev-interval-cancer-audit-blood-tests", "idea-prev-ldct-ai-negative-triage", "idea-prev-opportunistic-ct-ai-registry", "idea-prev-pancreas-ai-prediagnostic-ct", "idea-prev-new-onset-diabetes-pancreas-pathway", "idea-prev-breath-voc-symptomatic-ruleout", "idea-prev-urine-dna-haematuria-triage", "idea-prev-weight-loss-auto-alert", "idea-prev-cgm-glycaemic-drift-pancreas", "idea-prev-ehr-symptom-signature-prompts", "idea-prev-mced-non-specific-symptom-triage", "idea-prev-blood-count-trend-flags", "idea-prev-blood-crc-test-for-non-responders", "idea-prev-capsule-sponge-pharmacy", "idea-prev-gastric-serology-migrant-screening", "idea-prev-hcc-blood-surveillance-cirrhosis", "idea-prev-mri-first-prostate-screening-prs", "idea-prev-oral-cancer-community-smartphone-ai", "idea-prev-lmic-five-cancer-methylation-test", "idea-prev-fragmentomics-first-tier", "idea-prev-live-stage-dashboard", "idea-prev-open-stage-shift-microsimulation", "idea-prev-emergency-department-cancer-test", "idea-prev-ebv-dna-npc-screening-scaleup", "idea-prev-dental-oral-exam-standard", "idea-prev-bundled-cancer-check-at-60", "idea-moon-population-interception"],
   }),
   b({
     id: "b-overdiagnosis",
@@ -547,7 +547,7 @@ export const bottlenecks: BottleneckInput[] = [
     technologies: ["active-surveillance", "active-surveillance-thyroid", "mp-mri", "mammography", "low-dose-ct-screening", "partial-nephrectomy-active-surveillance", "mced", "thyroid-fna-molecular"],
     terms: ["low-risk-dtc", "psa", "gleason-grade-group", "ppv", "bethesda-category"],
     trials: ["protect", "precision-mri", "nlst-nelson"],
-    related: ["idea-thyroid-overdiagnosis-reversal"],
+    related: ["idea-thyroid-overdiagnosis-reversal", "idea-prev-thyroid-no-screening-no-small-biopsy", "idea-prev-ptmc-active-surveillance-default", "idea-prev-low-risk-dcis-surveillance-pathway", "idea-prev-indolent-lesion-nomenclature-body", "idea-prev-gleason6-terminology-rct", "idea-prev-prostate-as-triggered-biopsy", "idea-prev-small-renal-mass-surveillance", "idea-prev-lung-nodule-ai-discharge", "idea-prev-blood-precursor-watch-registry", "idea-prev-annual-overdiagnosis-reporting", "idea-prev-screening-stop-by-life-expectancy", "idea-prev-barrett-surveillance-deescalation", "idea-prev-melanoma-ai-thick-melanoma-metric", "idea-prev-incidentaloma-natural-history-cohort", "idea-prev-ipmn-surveillance-stop-rule", "idea-prev-pathology-ai-borderline-anchor", "idea-prev-frail-elderly-primary-endocrine-breast", "idea-prev-omit-radiotherapy-low-risk-breast-default", "idea-prev-modern-autopsy-reservoir-studies", "idea-moon-indolence-classifiers-with-screening"],
   }),
   b({
     id: "b-prevention-adoption",
@@ -592,7 +592,7 @@ export const bottlenecks: BottleneckInput[] = [
     institutions: ["iarc", "cruk", "nci"],
     companies: ["merck"],
     sections: ["prevention"],
-    related: ["idea-single-dose-hpv-self-sampling-elimination", "globocan"],
+    related: ["idea-single-dose-hpv-self-sampling-elimination", "globocan", "idea-prev-therapeutic-hpv-vaccine-cin", "idea-prev-hbv-treat-all-hcc", "idea-prev-hcv-test-treat-surveillance-linkage", "idea-prev-hpylori-family-test-and-treat", "idea-prev-hpylori-stool-resistance-guided", "idea-prev-hpylori-childhood-vaccine", "idea-prev-very-low-nicotine-mandate", "idea-prev-cytisine-essential-medicine", "idea-prev-minimum-unit-pricing-cancer-endpoints", "idea-prev-opportunistic-salpingectomy-default", "idea-prev-commercial-sunbed-ban", "idea-prev-radon-testing-at-property-sale", "idea-prev-pay-for-prevention-outcomes", "idea-prev-precursor-endpoints-for-approval", "idea-prev-ebv-vaccine", "idea-moon-eliminate-infection-cancers"],
   }),
   b({
     id: "b-hereditary-risk",
@@ -634,7 +634,7 @@ export const bottlenecks: BottleneckInput[] = [
     drugs: ["olaparib"],
     trials: ["olympia"],
     companies: ["natera", "illumina"],
-    related: ["clinvar", "idea-interception-vaccines"],
+    related: ["clinvar", "idea-interception-vaccines", "idea-prev-cascade-direct-contact-relatives", "idea-prev-deferred-disclosure-newborn-genomes", "idea-prev-prs-screening-start-age", "idea-prev-prs-ancestry-portability-standard", "idea-prev-reflex-germline-testing", "idea-prev-traceback-deceased-probands", "idea-prev-vus-saturation-editing-consortium", "idea-prev-li-fraumeni-mri-plus-cfdna", "idea-prev-genetic-counselling-chatbot", "idea-prev-family-history-auto-match", "idea-prev-genetic-non-discrimination-insurance"],
   }),
   // Trials
   b({
@@ -674,7 +674,7 @@ export const bottlenecks: BottleneckInput[] = [
     terms: ["basket-umbrella-platform", "standard-of-care"],
     institutions: ["nci", "asco", "swog", "ecog-acrin", "alliance-oncology", "nrg-oncology", "cctg", "jcog", "unicancer"],
     companies: ["tempus"],
-    related: ["clinicaltrials-gov", "eudract-ctis"],
+    related: ["clinicaltrials-gov", "eudract-ctis", "idea-tr1-justify-every-exclusion", "idea-tr1-brain-mets-default-included", "idea-tr1-pk-informed-organ-thresholds", "idea-tr1-prior-cancer-hiv-hepatitis-inclusion", "idea-tr1-ehr-point-of-care-trial-alert", "idea-tr1-tumour-board-trial-line-item", "idea-tr1-ngs-report-live-trial-match", "idea-tr1-just-in-time-site-network", "idea-tr1-national-master-trial-agreement", "idea-tr1-mutual-recognition-ethics-review", "idea-tr1-home-infusion-trial-drugs", "idea-tr1-community-site-quota", "idea-tr1-travel-lodging-in-every-budget", "idea-tr1-pay-participants-for-time", "idea-tr1-lay-trial-navigators", "idea-tr1-opt-out-research-contact-register", "idea-tr1-registry-embedded-randomisation", "idea-tr1-rare-cancer-trial-in-a-box", "idea-tr1-pre-consented-cohort-randomisation", "idea-tr1-public-screen-fail-reasons", "idea-tr1-eligibility-impact-statement", "idea-tr1-live-trial-slot-api", "idea-tr1-pathology-triggered-referral", "idea-tr1-evening-weekend-trial-clinics", "idea-tr1-universal-routine-cost-coverage", "idea-tr1-open-trials-inside-guidelines", "idea-tr1-mobile-research-units", "idea-tr1-drop-non-essential-biopsies", "idea-moon-global-open-trials-os", "idea-cost-trial-enrolment-cost-lever"],
   }),
   b({
     id: "b-trial-design",
@@ -713,10 +713,10 @@ export const bottlenecks: BottleneckInput[] = [
     ],
     cancers: ["prostate", "multiple-myeloma", "breast-hr-positive"],
     technologies: ["mrd-testing", "ai-trial-matching"],
-    terms: ["pfs", "os", "orr", "hazard-ratio", "accelerated-approval", "basket-umbrella-platform", "real-world-evidence", "mrd-negativity-myeloma", "pcr", "efs"],
+    terms: ["pfs", "os", "orr", "hazard-ratio", "accelerated-approval", "basket-umbrella-platform", "real-world-evidence", "mrd-negativity-myeloma", "pcr", "efs", "project-frontrunner"],
     trials: ["stampede", "myelomatch"],
     institutions: ["esmo", "asco", "nci"],
-    related: ["fda-approvals", "esmo-guidelines", "clinicaltrials-gov", "idea-mrd-guided-stop-myeloma"],
+    related: ["fda-approvals", "esmo-guidelines", "clinicaltrials-gov", "idea-mrd-guided-stop-myeloma", "idea-tr1-external-control-rulebook", "idea-tr1-bayesian-borrowing-smaller-controls", "idea-tr1-seamless-2-3-with-prespecified-go", "idea-tr1-standing-platform-per-cancer", "idea-tr1-crossover-adjusted-survival-standard", "idea-tr1-ttf-and-qol-coprimary", "idea-tr1-public-de-escalation-trial-fund", "idea-tr1-immunotherapy-stop-trials", "idea-tr1-ctdna-guided-stop-in-metastatic-disease", "idea-tr1-mams-for-sequencing-questions", "idea-tr1-post-approval-pragmatic-trial-in-excluded", "idea-tr1-shared-control-arms-across-sponsors", "idea-tr1-tolerability-estimands", "idea-tr1-registry-linked-os-followup", "idea-tr1-shrinkage-subgroup-analysis", "idea-tr1-ai-central-imaging-reads", "idea-tr1-public-trial-cost-benchmarks", "idea-tr1-esource-ehr-to-edc", "idea-tr1-aggregated-n-of-1-supportive-care", "idea-tr1-aggressive-futility-boundaries", "idea-tr1-window-of-opportunity-default", "idea-tr1-randomised-phase-2-before-phase-3", "idea-tr1-smart-designs-for-adaptive-strategies", "idea-tr1-target-trial-emulation-to-prioritise-rcts", "idea-tr1-tumour-agnostic-approval-standard", "idea-tr1-open-protocol-and-sap-library", "idea-tr1-validate-real-world-progression-endpoints"],
   }),
   b({
     id: "b-trial-diversity",
@@ -756,7 +756,7 @@ export const bottlenecks: BottleneckInput[] = [
     terms: ["egfr-exon19-l858r", "hazard-ratio"],
     institutions: ["nci", "asco", "swog", "ecog-acrin", "sysucc", "tata-memorial", "cams-cancer-hospital"],
     companies: ["hengrui", "akeso", "beone"],
-    related: ["fda-approvals", "clinicaltrials-gov"],
+    related: ["fda-approvals", "clinicaltrials-gov", "idea-tr1-diversity-plans-with-consequences", "idea-tr1-ancestry-aware-pharmacology-programme", "idea-tr1-duffy-null-neutrophil-threshold", "idea-tr1-mandatory-older-adult-cohort", "idea-tr1-parallel-comorbidity-cohorts", "idea-tr1-lmic-sites-in-pivotal-trials", "idea-tr1-community-health-worker-recruitment", "idea-tr1-language-access-in-trials", "idea-tr1-site-equity-index", "idea-tr1-include-pregnancy-capable-people-sensibly", "idea-tr1-age-floor-twelve-for-adult-trials", "idea-tr1-sex-stratified-pk-and-dosing", "idea-tr1-disability-and-mental-illness-inclusion", "idea-tr1-representativeness-in-the-label", "idea-tr1-diverse-investigator-pipeline", "idea-tr1-paid-community-advisory-boards", "idea-tr1-post-marketing-safety-by-ancestry-and-sex", "idea-tr1-ecog-2-dedicated-cohorts", "idea-tr1-trial-desert-map"],
   }),
   b({
     id: "b-dose-optimisation",
@@ -796,7 +796,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["monarch-3", "persephone", "apt-trial"],
     drugs: ["sotorasib", "abemaciclib", "nirogacestat", "venetoclax", "trastuzumab"],
     companies: ["finaldose", "amgen"],
-    related: ["fda-approvals", "idea-shortened-venetoclax", "idea-desmoid-intermittent-dosing", "idea-net-dosimetry-prrt", "idea-total-body-pet-dosimetry"],
+    related: ["fda-approvals", "idea-shortened-venetoclax", "idea-desmoid-intermittent-dosing", "idea-net-dosimetry-prrt", "idea-total-body-pet-dosimetry", "idea-tr1-public-dose-reduction-trials-of-approved-drugs", "idea-tr1-weight-based-vs-flat-dosing-trials", "idea-tr1-extended-interval-checkpoint-dosing", "idea-tr1-therapeutic-drug-monitoring-for-oral-tkis", "idea-tr1-intermittent-dosing-to-delay-resistance", "idea-tr1-adaptive-therapy-randomised-phase-2", "idea-tr1-start-low-titrate-up-oral-agents", "idea-tr1-pre-emptive-pharmacogenomic-testing", "idea-tr1-model-based-dose-finding-with-late-toxicity", "idea-tr1-adc-dose-and-schedule-optimisation", "idea-tr1-dose-evidence-statement-in-label", "idea-tr1-patient-reported-toxicity-dose-algorithms", "idea-tr1-food-effect-dose-reduction", "idea-tr1-factorial-dose-finding-for-combinations", "idea-tr1-organ-impairment-pk-before-approval", "idea-tr1-low-dose-immunotherapy-for-lmic", "idea-tr1-response-adapted-dose-reduction", "idea-moon-individualised-dosing-all-oral-drugs", "idea-cost-low-dose-abiraterone-food", "idea-cost-low-dose-immunotherapy-trials", "idea-cost-optimus-legacy-drugs", "idea-cost-extended-interval-default", "idea-cost-shorter-course-trials"],
   }),
   b({
     id: "b-combination-space",
@@ -835,7 +835,7 @@ export const bottlenecks: BottleneckInput[] = [
     terms: ["basket-umbrella-platform", "adc-sequencing", "first-line"],
     trials: ["stampede", "myelomatch"],
     institutions: ["nci", "broad-institute"],
-    related: ["depmap", "drugbank-chembl", "idea-payload-switching", "idea-dual-payload-first", "idea-organoid-guided-adc"],
+    related: ["depmap", "drugbank-chembl", "idea-payload-switching", "idea-dual-payload-first", "idea-organoid-guided-adc", "idea-tr2-shared-control-network", "idea-tr2-organoid-coclinical-arms", "idea-tr2-alternating-vs-concurrent", "idea-tr2-rwe-combination-emulation", "idea-tr2-factorial-adjuvant-generics", "idea-tr2-platform-single-ethics", "idea-tr2-resistance-mechanism-baskets", "idea-tr2-combination-utility", "idea-tr2-combination-patent-pool", "idea-tr2-sequence-registry", "idea-tr2-bandit-allocation", "idea-tr2-qsp-combo-dosing", "idea-tr2-combo-readiness-dossier", "idea-tr2-rt-drug-platform", "idea-tr2-paediatric-combo-prea", "idea-tr2-combination-forecast-tournament", "idea-tr2-antagonism-surveillance", "idea-tr2-contribution-of-components-mandate", "idea-tr2-window-of-opportunity-triplets", "idea-moon-automated-combination-discovery"],
   }),
   b({
     id: "b-negative-results",
@@ -871,7 +871,7 @@ export const bottlenecks: BottleneckInput[] = [
     ],
     drugs: ["iniparib", "rovalpituzumab-tesirine", "epacadostat", "magrolimab", "bempegaldesleukin", "tiragolumab", "eprenetapopt", "melflufen", "trastuzumab-duocarmazine", "tusamitamab-ravtansine"],
     institutions: ["nci", "asco"],
-    related: ["clinicaltrials-gov", "eudract-ctis", "pubmed-europepmc"],
+    related: ["clinicaltrials-gov", "eudract-ctis", "pubmed-europepmc", "idea-tr2-irb-results-gate", "idea-tr2-material-failure-disclosure", "idea-tr2-writeup-grants", "idea-tr2-null-result-reporting", "idea-tr2-negative-plenaries", "idea-tr2-off-label-outcome-registry", "idea-tr2-reversal-registry", "idea-tr2-sponsor-transparency-score", "idea-moon-negative-results-ledger"],
   }),
   b({
     id: "b-biomarker-validation",
@@ -912,7 +912,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["destiny-breast04", "destiny-breast06"],
     drugs: ["foundationone-cdx", "trastuzumab-deruxtecan"],
     companies: ["foundation-medicine", "paige", "pathai", "roche-genentech"],
-    related: ["idea-ai-her2-low-scoring", "idea-trop2-pet-selection", "adcdb"],
+    related: ["idea-ai-her2-low-scoring", "idea-trop2-pet-selection", "adcdb", "idea-tr2-cdx-mutual-recognition", "idea-tr2-psma-volume-qualification", "idea-tr2-bicr-discordance-public", "idea-tr2-biomarker-evidence-grading", "idea-tr2-tmb-calibration-standard", "idea-tr2-hrd-functional-standard", "idea-tr2-preanalytics-in-report", "idea-tr2-cutpoint-lock", "idea-tr2-spatial-biomarker-standards", "idea-tr2-radiomics-ibsi-mandate", "idea-tr2-biomarker-cwe", "idea-tr2-label-assay-concordance", "idea-tr2-positivity-rate-surveillance", "idea-moon-biomarker-validation-utility"],
   }),
   // Regulation and manufacturing
   b({
@@ -952,7 +952,7 @@ export const bottlenecks: BottleneckInput[] = [
     drugs: ["trastuzumab-biosimilars", "toripalimab", "tislelizumab", "serplulimab", "camrelizumab"],
     companies: ["hengrui", "beone", "akeso", "henlius"],
     institutions: ["esmo", "asco", "ncc-japan", "cams-cancer-hospital"],
-    related: ["fda-approvals", "esmo-guidelines", "eudract-ctis"],
+    related: ["fda-approvals", "esmo-guidelines", "eudract-ctis", "idea-reg-orbis-work-sharing", "idea-reg-reliance-90-day-lmic", "idea-reg-single-global-dossier", "idea-reg-joint-scientific-advice-default", "idea-reg-realtime-streaming-submission", "idea-reg-conditional-approval-sunset", "idea-reg-confirmatory-trial-escrow", "idea-reg-public-assessment-reports-all", "idea-reg-mutual-recognition-inspections-atmp", "idea-reg-global-trial-application-portal", "idea-reg-diagnostic-reliance-pathway", "idea-reg-single-paediatric-plan", "idea-reg-tumour-agnostic-reliance", "idea-reg-label-divergence-index", "idea-reg-approval-access-lag-tracker", "idea-reg-joint-regulator-hta-plan", "idea-reg-mrct-no-bridging", "idea-reg-african-medicines-agency-oncology", "idea-reg-open-source-dossier-tools", "idea-reg-shared-ai-review-assistant", "idea-reg-shared-postmarketing-registry-condition", "idea-reg-manufacturing-change-passport", "idea-reg-orphan-designation-reciprocity", "idea-reg-publish-all-rejections", "idea-moon-reciprocal-tumour-agnostic-approvals"],
   }),
   b({
     id: "b-manufacturing-cell-therapy",
@@ -993,7 +993,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["eliana", "zuma-7", "cartitude-4", "vision"],
     drugs: ["tisagenlecleucel", "ciltacabtagene-autoleucel", "lifileucel", "pluvicto", "lutathera", "ac225-psma"],
     companies: ["novartis", "umoja-biopharma", "interius", "orna-therapeutics", "allogene", "caribou", "sana-biotechnology", "fate-therapeutics", "terrapower-isotopes", "orano-med", "itm", "curium", "iovance"],
-    related: ["cell-therapy-roadmap", "radiopharma-roadmap", "idea-in-vivo-car-solid", "idea-bispecific-vs-car-t-second-line"],
+    related: ["cell-therapy-roadmap", "radiopharma-roadmap", "idea-in-vivo-car-solid", "idea-bispecific-vs-car-t-second-line", "idea-reg-in-vivo-cart-off-the-shelf-vial", "idea-reg-two-day-cart-rapid-release", "idea-reg-ipsc-master-bank-qualified-once", "idea-reg-closed-manufacturing-interop-standard", "idea-reg-cart-potency-reference-standards", "idea-reg-vein-to-vein-public-benchmark", "idea-reg-legacy-radium-recovery-ac225", "idea-reg-ac225-accelerator-pharmacopoeia", "idea-reg-yb176-enrichment-capacity", "idea-reg-medical-isotope-reactor-reserve", "idea-reg-alpha-emitter-portfolio", "idea-reg-regional-radiopharmacy-hubs", "idea-reg-adc-platform-designation", "idea-reg-hpapi-continuous-flow", "idea-reg-open-source-lentiviral-vectors", "idea-reg-non-viral-cart-manufacturing", "idea-reg-manufacturing-slot-exchange", "idea-reg-hospital-exemption-harmonised", "idea-reg-ai-process-control-cell-manufacturing", "idea-reg-early-apheresis-banking", "idea-reg-public-cell-therapy-foundries", "idea-reg-comparability-by-design-digital-twin", "idea-reg-isotope-supply-observatory", "idea-moon-in-vivo-cart-generic-price"],
   }),
   b({
     id: "b-drug-pricing",
@@ -1034,7 +1034,7 @@ export const bottlenecks: BottleneckInput[] = [
     drugs: ["trastuzumab-biosimilars", "imatinib", "ibrutinib", "pembrolizumab", "trastuzumab-deruxtecan", "tisagenlecleucel"],
     technologies: ["car-t", "checkpoint-inhibitor", "adc"],
     institutions: ["esmo", "asco", "nccn-org"],
-    related: ["fda-approvals", "esmo-guidelines", "nccn"],
+    related: ["fda-approvals", "esmo-guidelines", "nccn", "idea-reg-io-subscription-national", "idea-reg-indication-specific-pricing", "idea-reg-pooled-procurement-adult-essentials", "idea-reg-biosimilar-no-efficacy-trial", "idea-reg-pd1-biosimilar-advance-commitment", "idea-reg-patent-pool-oncology-eml", "idea-reg-price-anchored-to-mcbs", "idea-reg-weight-based-io-dosing-label", "idea-reg-public-deescalation-trials-for-cost", "idea-reg-financial-toxicity-vital-sign", "idea-reg-net-price-transparency-registry", "idea-reg-rd-cost-disclosure-condition", "idea-reg-provisional-price-until-os", "idea-reg-patent-buyout-prize", "idea-reg-secondary-patent-thicket-limits", "idea-reg-nonprofit-generic-chemo-manufacturer", "idea-reg-academic-cart-at-cost-coverage", "idea-reg-combination-price-attribution", "idea-reg-middle-income-negotiation-bloc", "idea-reg-tiered-pricing-for-exclusivity", "idea-reg-biosimilar-first-default-switching", "idea-reg-annuity-payment-durable-therapies", "idea-reg-social-impact-bond-switching", "idea-reg-market-expansion-repricing", "idea-moon-pay-for-cure-contracts", "idea-moon-neoantigen-vaccines-at-scale", "idea-cost-asp-flat-fee", "idea-cost-site-neutral-infusion", "idea-cost-340b-pass-through", "idea-cost-indication-based-pricing", "idea-cost-inflation-rebates-commercial", "idea-cost-part-b-cap", "idea-cost-biosimilar-default-substitution", "idea-cost-interchangeable-oncology-biosimilars", "idea-cost-nonprofit-generic-oncology", "idea-cost-transparent-generic-pricing", "idea-cost-vial-sharing-dose-rounding", "idea-cost-federal-oral-parity", "idea-cost-value-scale-in-coverage", "idea-cost-managed-access-everywhere"],
   }),
   b({
     id: "b-generic-repurposing",
@@ -1077,7 +1077,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["nmtrc003"],
     companies: ["us-worldmeds", "recursion"],
     institutions: ["cruk", "nci", "cctg"],
-    related: ["drugbank-chembl", "open-targets"],
+    related: ["drugbank-chembl", "open-targets", "idea-reg-global-repurposing-fund", "idea-reg-third-party-label-update", "idea-reg-repurposing-prize", "idea-reg-repurposing-social-impact-bond", "idea-reg-recovery-style-platform-repurposing", "idea-reg-perioperative-propranolol-etodolac", "idea-reg-statin-hcc-prevention-trial", "idea-reg-evidence-gate-before-repurposing-phase3", "idea-reg-target-trial-emulation-pipeline", "idea-reg-new-indication-exclusivity-off-patent", "idea-reg-delinked-market-entry-reward", "idea-reg-generic-targeted-therapy-drup", "idea-reg-antihistamine-plus-io-trial", "idea-reg-losartan-pancreatic-stroma", "idea-reg-regulator-ready-repurposing-dossiers", "idea-reg-guideline-fast-track-repurposed", "idea-reg-payer-coverage-off-label-generic-commitment", "idea-reg-nonprofit-marketing-authorisation-holder", "idea-reg-metronomic-lmic-phase3-to-label", "idea-reg-generic-chemo-strategic-reserve", "idea-reg-factorial-addon-arms-cooperative-trials", "idea-reg-preregistered-ai-repurposing-scoring", "idea-moon-generics-for-cancer-fund"],
   }),
   // Access and delivery
   b({
@@ -1121,7 +1121,7 @@ export const bottlenecks: BottleneckInput[] = [
     drugs: ["trastuzumab-biosimilars", "imatinib", "gardasil-9"],
     institutions: ["iarc", "tata-memorial", "sysucc", "cams-cancer-hospital", "west-china"],
     sections: ["radiation", "surgery"],
-    related: ["globocan", "idea-single-dose-hpv-self-sampling-elimination"],
+    related: ["globocan", "idea-single-dose-hpv-self-sampling-elimination", "idea-acc-open-hardware-linac", "idea-acc-linac-uptime-contracts", "idea-acc-hypofractionation-default-lmic", "idea-acc-modern-cobalt-bridge", "idea-acc-pooled-procurement-radiotherapy", "idea-acc-telepathology-district-network", "idea-acc-eml-listing-price-commitments", "idea-acc-biosimilar-prequalification-pool", "idea-acc-childhood-medicines-platform-scale", "idea-acc-hub-spoke-national-networks", "idea-acc-mobile-see-and-treat-units", "idea-acc-gbci-country-dashboards", "idea-acc-infusion-sparing-regimens", "idea-acc-metronomic-lmic-platform-trial", "idea-acc-global-cancer-financing-window", "idea-acc-frugal-hdr-brachytherapy", "idea-acc-registries-as-aid-condition", "idea-acc-abandonment-stipends", "idea-acc-diaspora-tele-tumour-boards", "idea-acc-solar-microgrids-for-cancer-units", "idea-moon-radiotherapy-for-everyone-2040", "idea-moon-pooled-procurement-licensing-pool", "idea-cost-pooled-procurement-essential", "idea-cost-voluntary-licensing-oncology"],
   }),
   b({
     id: "b-workforce",
@@ -1160,7 +1160,7 @@ export const bottlenecks: BottleneckInput[] = [
     companies: ["lunit", "paige", "pathai", "aidoc"],
     institutions: ["asco", "esmo", "tata-memorial", "iarc"],
     sections: ["ai-computation"],
-    related: ["nci-cancer-centers"],
+    related: ["nci-cancer-centers", "idea-acc-clinical-officer-oncology-track", "idea-acc-remote-medical-physics-qa", "idea-acc-echo-tele-mentoring-oncology", "idea-acc-retention-packages-oncology", "idea-acc-regional-oncology-training-hubs", "idea-acc-ambient-ai-documentation-oncology", "idea-acc-advanced-practice-radiation-therapists", "idea-acc-pathologist-assistants-and-ai-triage", "idea-acc-open-oncology-workforce-model", "idea-acc-fast-track-relicensing-oncologists", "idea-acc-mainstream-tele-genetic-counselling", "idea-acc-district-surgeon-oncology-mentorship", "idea-moon-task-shifting-ai-oncology-capacity"],
   }),
   b({
     id: "b-care-fragmentation",
@@ -1201,7 +1201,7 @@ export const bottlenecks: BottleneckInput[] = [
     terms: ["standard-of-care", "first-line", "neoadjuvant-adjuvant", "companion-diagnostic-term"],
     companies: ["foundation-medicine", "guardant-health", "tempus"],
     institutions: ["asco", "esmo", "nccn-org", "the-christie", "royal-marsden"],
-    related: ["nccn", "esmo-guidelines", "nci-cancer-centers"],
+    related: ["nccn", "esmo-guidelines", "nci-cancer-centers", "idea-acc-one-stop-breast-diagnostic-clinic", "idea-acc-28-day-diagnosis-standard", "idea-acc-national-virtual-mdt-rare-complex", "idea-acc-primary-care-shared-care-agreements", "idea-acc-tumour-board-implementation-audit", "idea-acc-diagnostic-interval-public-registry", "idea-acc-reflex-biomarker-panels-by-tumour", "idea-acc-rapid-diagnostic-centres-vague-symptoms", "idea-acc-embedded-decision-aids", "idea-acc-financial-toxicity-screening-at-diagnosis", "idea-acc-universal-asynchronous-second-opinion", "idea-acc-episode-payment-tied-to-concordance", "idea-acc-transition-handoff-medication-reconciliation", "idea-acc-pathway-capacity-simulation", "idea-cost-subcutaneous-community", "idea-cost-gold-card-oncology", "idea-cost-real-time-pa-fhir", "idea-cost-travel-teleoncology"],
   }),
   b({
     id: "b-survivorship",
@@ -1241,7 +1241,7 @@ export const bottlenecks: BottleneckInput[] = [
     terms: ["trastuzumab-cardiotoxicity", "late-recurrence", "tsh-suppression"],
     sections: ["supportive-care"],
     institutions: ["childrens-oncology-group", "nci", "asco"],
-    related: ["seer", "idea-exercise-as-adjuvant"],
+    related: ["seer", "idea-exercise-as-adjuvant", "idea-acc-auto-generated-survivorship-plans", "idea-acc-risk-stratified-cardio-oncology-pathway", "idea-acc-default-fertility-preservation-referral", "idea-acc-national-late-effects-registry", "idea-acc-tailored-second-cancer-screening", "idea-acc-return-to-work-rehabilitation", "idea-acc-cognitive-rehabilitation-after-chemotherapy", "idea-acc-cardiometabolic-clinic-hormone-therapy", "idea-acc-aya-survivorship-passport", "idea-acc-survivor-biobank-late-effect-prediction", "idea-acc-lymphoedema-prospective-surveillance", "idea-moon-survivor-lifelong-care-model"],
   }),
   b({
     id: "b-palliative",
@@ -1280,7 +1280,7 @@ export const bottlenecks: BottleneckInput[] = [
     cancers: ["pancreatic", "hcc", "glioblastoma", "esophageal", "gastric", "nsclc", "cervical"],
     sections: ["supportive-care"],
     institutions: ["asco", "esmo", "iarc"],
-    related: ["globocan"],
+    related: ["globocan", "idea-acc-neighbourhood-palliative-networks", "idea-acc-earmarked-palliative-budget-share", "idea-acc-pain-control-public-audit", "idea-acc-serious-illness-conversation-prompts", "idea-acc-single-fraction-palliative-radiotherapy-default", "idea-acc-essential-palliative-package-in-uhc", "idea-acc-paediatric-palliative-in-every-childhood-unit", "idea-acc-home-based-end-of-life-kits", "idea-acc-methadone-and-alternatives-where-morphine-fails", "idea-cost-early-palliative-default"],
   }),
   b({
     id: "b-aging-comorbidity",
@@ -1322,7 +1322,7 @@ export const bottlenecks: BottleneckInput[] = [
     trials: ["viale-a", "cll14"],
     drugs: ["venetoclax"],
     institutions: ["asco", "esmo", "alliance-oncology", "ecog-acrin", "swog"],
-    related: ["idea-shortened-venetoclax", "fda-approvals"],
+    related: ["idea-shortened-venetoclax", "fda-approvals", "idea-acc-broad-eligibility-as-regulatory-default", "idea-acc-pragmatic-trials-over-75-function-endpoints", "idea-acc-home-chemotherapy-older-patients", "idea-acc-hospital-at-home-oncology", "idea-acc-electronic-frailty-index-oncology", "idea-acc-geriatric-co-management-surgery", "idea-acc-post-approval-evidence-over-75", "idea-acc-caregiver-training-as-covered-service", "idea-acc-pharmacist-interaction-review-oral-anticancer", "idea-acc-time-toxicity-reporting", "idea-acc-dementia-and-cancer-pathway"],
   }),
   // Data and knowledge
   b({
@@ -1363,7 +1363,7 @@ export const bottlenecks: BottleneckInput[] = [
     companies: ["tempus", "owkin", "bostongene", "patient-data-vault", "cancer-commons", "foundation-medicine", "guardant-health"],
     institutions: ["aacr", "nci", "broad-institute", "mskcc", "dana-farber"],
     sections: ["ai-computation"],
-    related: ["genie", "cbioportal", "tcga-gdc", "cptac", "seer", "clinicaltrials-gov", "idea-multimodal-foundation-model"],
+    related: ["genie", "cbioportal", "tcga-gdc", "cptac", "seer", "clinicaltrials-gov", "idea-multimodal-foundation-model", "idea-data-mcode-payment-condition", "idea-data-oncology-api-certification", "idea-data-national-cancer-data-space", "idea-data-donor-card", "idea-data-dynamic-consent-app", "idea-data-consent-in-the-pathway", "idea-data-accredited-tre-network", "idea-data-synthetic-companion-datasets", "idea-data-open-deidentification-pipeline", "idea-data-national-slide-archive", "idea-data-automatic-outcome-linkage", "idea-data-open-line-of-therapy-algorithms", "idea-data-point-of-care-randomisation", "idea-data-procurement-open-api-clauses", "idea-data-privacy-preserving-linkage-tokens", "idea-data-atlas-to-outcome-linkage", "idea-data-radiotherapy-dose-repository", "idea-data-surgical-video-commons", "idea-data-ipd-deposit-enforcement", "idea-data-common-biobank-consent-mta", "idea-data-cross-border-rare-cancer-pool", "idea-data-quality-scorecards", "idea-data-structured-radiology-response", "idea-moon-universal-sequencing-learning-system"],
   }),
   b({
     id: "b-real-world-evidence",
@@ -1401,7 +1401,7 @@ export const bottlenecks: BottleneckInput[] = [
     terms: ["real-world-evidence", "accelerated-approval", "os", "pfs"],
     companies: ["foundation-medicine", "tempus", "guardant-health"],
     institutions: ["asco", "esmo", "nci"],
-    related: ["fda-approvals", "seer", "globocan", "esmo-guidelines", "clinicaltrials-gov"],
+    related: ["fda-approvals", "seer", "globocan", "esmo-guidelines", "clinicaltrials-gov", "idea-data-rwe-rct-calibration-library", "idea-data-accelerated-approval-registry-condition", "idea-data-rwpfs-validation-programme", "idea-data-registry-based-rcts", "idea-data-off-label-outcomes-registry", "idea-data-real-world-dose-intensity", "idea-data-excluded-populations-rwe-mandate", "idea-data-linked-pharmacovigilance-interactions", "idea-data-access-programme-outcomes", "idea-data-registry-genomics-linkage-programme", "idea-data-observational-study-registration", "idea-data-gcp-for-real-world-data", "idea-data-registry-follow-up-of-trial-participants", "idea-data-wearable-endpoints-validation", "idea-data-external-control-arm-standard", "idea-data-paediatric-rwe-consortium", "idea-data-sequencing-analysis-per-approval", "idea-data-outcome-based-price-reassessment", "idea-moon-federated-rwe-network"],
   }),
   b({
     id: "b-reproducibility",
@@ -1441,7 +1441,7 @@ export const bottlenecks: BottleneckInput[] = [
     technologies: ["organoids", "pdx-models", "crispr-screens", "functional-drug-testing"],
     institutions: ["broad-institute", "cold-spring-harbor", "aacr", "nci"],
     sections: ["drug-discovery"],
-    related: ["depmap", "hpa", "cancer-models", "pubmed-europepmc"],
+    related: ["depmap", "hpa", "cancer-models", "pubmed-europepmc", "idea-tr2-timestamped-eln", "idea-tr2-tenure-replication-credit", "idea-tr2-random-audit", "idea-tr2-paid-statistical-review", "idea-tr2-reference-model-panels", "idea-tr2-ai-external-validation-registry", "idea-tr2-two-lab-rule", "idea-tr2-preclinical-living-reviews", "idea-tr2-phd-replication-year", "idea-moon-independent-replication-institute"],
   }),
   b({
     id: "b-knowledge-diffusion",
@@ -1480,7 +1480,7 @@ export const bottlenecks: BottleneckInput[] = [
     technologies: ["ai-trial-matching", "cgp", "geriatric-assessment"],
     terms: ["standard-of-care", "her2-low", "companion-diagnostic-term"],
     institutions: ["mskcc", "nccn-org", "esmo", "asco", "nci"],
-    related: ["nccn", "esmo-guidelines", "oncokb", "civic", "cancer-gov-pdq", "pubmed-europepmc"],
+    related: ["nccn", "esmo-guidelines", "oncokb", "civic", "cancer-gov-pdq", "pubmed-europepmc", "idea-data-thirty-day-practice-change-learning", "idea-data-patient-explainers-per-recommendation", "idea-data-evidence-to-adoption-tracker", "idea-data-retraction-propagation", "idea-data-open-licensed-guidelines", "idea-data-unanswered-questions-registry", "idea-data-living-llm-oncology-benchmark", "idea-data-rapid-guideline-translation", "idea-data-offline-cds-lmic-generalists", "idea-data-toxicity-cds-for-nurses", "idea-data-72-hour-second-opinion-network", "idea-data-standard-of-care-change-alerts", "idea-data-full-data-with-abstract", "idea-data-implementation-trials-programme", "idea-data-wikipedia-oncology-editors", "idea-data-order-set-defaults-30-days", "idea-data-standard-of-care-api", "idea-moon-living-machine-readable-guidelines"],
   }),
   b({
     id: "b-ai-validation",
@@ -1522,7 +1522,7 @@ export const bottlenecks: BottleneckInput[] = [
     drugs: ["artera-ai-prostate", "artera-ai-breast"],
     companies: ["paige", "pathai", "lunit", "aidoc", "artera", "owkin", "tempus"],
     sections: ["ai-computation"],
-    related: ["idea-multimodal-foundation-model", "idea-ai-her2-low-scoring", "fda-approvals"],
+    related: ["idea-multimodal-foundation-model", "idea-ai-her2-low-scoring", "fda-approvals", "idea-data-neutral-ai-evaluator", "idea-data-regulatory-sandbox-adaptive-ai", "idea-data-ai-liability-safe-harbour", "idea-data-ai-reimbursement-tied-to-outcomes", "idea-data-silent-trial-before-deployment", "idea-data-subgroup-performance-reporting-mandate", "idea-data-precompetitive-cancer-foundation-model", "idea-data-open-weights-for-public-funded-ai", "idea-data-in-silico-trials-calibrated", "idea-data-ai-pathology-evaluation-standard", "idea-data-multisite-validation-precondition", "idea-data-patient-facing-model-cards", "idea-data-ai-red-team-programme", "idea-data-ai-audit-trail-in-ehr", "idea-data-ai-decommissioning-rules", "idea-data-llm-documentation-rct-oncology", "idea-data-ai-vs-tumour-board-rct", "idea-moon-validated-digital-twins", "idea-moon-continuous-ai-validation-registry"],
   }),
   // Funding and incentives
   b({
@@ -1562,7 +1562,7 @@ export const bottlenecks: BottleneckInput[] = [
     cancers: ["pancreatic", "hcc", "gastric", "esophageal", "nsclc", "urothelial", "endometrial", "glioblastoma"],
     institutions: ["nci", "cruk", "iarc", "aacr", "asco"],
     sections: ["prevention", "surgery", "radiation", "supportive-care"],
-    related: ["globocan", "seer"],
+    related: ["globocan", "seer", "idea-fund-survivorship-endowment-levy", "idea-moon-cure-prizes"],
   }),
   b({
     id: "b-incentive-misalignment",
@@ -1602,10 +1602,10 @@ export const bottlenecks: BottleneckInput[] = [
     cancers: ["pancreatic", "glioblastoma", "nsclc", "tnbc", "multiple-myeloma"],
     technologies: ["checkpoint-inhibitor", "adc", "kras-inhibitors"],
     targets: ["pd1", "pdl1", "trop2", "her2", "bcma", "kras"],
-    terms: ["accelerated-approval", "breakthrough-designation", "standard-of-care", "first-line"],
+    terms: ["accelerated-approval", "breakthrough-designation", "standard-of-care", "first-line", "project-frontrunner"],
     drugs: ["pembrolizumab", "nivolumab", "tislelizumab", "toripalimab", "camrelizumab", "serplulimab", "sacituzumab-govitecan", "datopotamab-deruxtecan", "sacituzumab-tirumotecan", "imatinib"],
     institutions: ["esmo", "asco", "nci"],
-    related: ["fda-approvals", "esmo-guidelines", "trop2-adc-roadmap"],
+    related: ["fda-approvals", "esmo-guidelines", "trop2-adc-roadmap", "idea-fund-public-option-generic-oncology"],
   }),
   b({
     id: "b-translational-valley",
@@ -1644,7 +1644,7 @@ export const bottlenecks: BottleneckInput[] = [
     companies: ["recursion", "insilico-medicine", "isomorphic-labs", "generate-biomedicines"],
     institutions: ["nci", "cruk", "broad-institute", "francis-crick", "dkfz", "icr-london", "nki"],
     sections: ["drug-discovery"],
-    related: ["open-targets", "depmap"],
+    related: ["open-targets", "depmap", "idea-fund-national-drug-development-office", "idea-fund-academic-sponsor-indemnity-pool", "idea-moon-public-phase1-factory"],
   }),
   b({
     id: "b-ip-collaboration",
@@ -1681,7 +1681,7 @@ export const bottlenecks: BottleneckInput[] = [
     ],
     institutions: ["curie-nki-eortc", "big", "gbg", "ecog-acrin", "aacr", "cruk", "nci"],
     companies: ["cancer-commons", "patient-data-vault"],
-    related: ["clinicaltrials-gov", "genie", "open-targets", "pubmed-europepmc"],
+    related: ["clinicaltrials-gov", "genie", "open-targets", "pubmed-europepmc", "idea-fund-federated-learning-consortium"],
   }),
   b({
     id: "b-surgery-radiation-innovation",
@@ -1723,7 +1723,7 @@ export const bottlenecks: BottleneckInput[] = [
     companies: ["intuitive-surgical", "varian", "elekta", "reflexion"],
     institutions: ["nrg-oncology", "curie-nki-eortc", "jcog", "cruk", "royal-marsden"],
     sections: ["surgery", "radiation"],
-    related: ["idea-organ-preservation-esophageal", "idea-bladder-preservation-mibc"],
+    related: ["idea-organ-preservation-esophageal", "idea-bladder-preservation-mibc", "idea-fund-rt-planning-ai-capacity", "idea-fund-ablation-versus-surgery-trials", "idea-fund-radiotherapy-innovation-pathway", "idea-fund-technique-innovation-prize", "idea-moon-image-guided-surgery-everywhere", "idea-moon-compact-flash-proton", "idea-cost-hypofractionation-payment"],
   }),
   // People and culture
   b({
@@ -1764,7 +1764,7 @@ export const bottlenecks: BottleneckInput[] = [
     terms: ["orr", "pfs", "os", "standard-of-care"],
     companies: ["cancer-commons", "more-health", "patient-data-vault", "tempus"],
     institutions: ["asco", "nccn-org", "nci"],
-    related: ["cancer-gov-pdq", "nccn", "clinicaltrials-gov"],
+    related: ["cancer-gov-pdq", "nccn", "clinicaltrials-gov", "idea-moon-navigation-as-a-right", "idea-moon-plain-language-consent", "idea-moon-results-in-plain-words", "idea-moon-certified-decision-aids", "idea-moon-patient-designed-trials", "idea-moon-financial-toxicity-screening", "idea-moon-goals-conversation-trigger", "idea-moon-patient-held-cancer-record", "idea-moon-funded-second-opinion", "idea-moon-recorded-consultations", "idea-moon-question-prompt-lists", "idea-moon-patient-experience-label", "idea-moon-results-back-to-participants", "idea-moon-peer-navigator-workforce", "idea-moon-time-toxicity-reporting", "idea-moon-preference-studies-before-phase3", "idea-moon-caregiver-in-the-plan", "idea-moon-literacy-first-design-standard", "idea-moon-trial-eligibility-at-every-decision"],
   }),
   b({
     id: "b-toxicity-qol",
@@ -1804,7 +1804,7 @@ export const bottlenecks: BottleneckInput[] = [
     terms: ["irae", "crs", "icans", "ild", "orr", "pfs", "os", "hazard-ratio"],
     sections: ["supportive-care"],
     institutions: ["esmo", "asco", "nci", "curie-nki-eortc"],
-    related: ["fda-approvals", "esmo-guidelines"],
+    related: ["fda-approvals", "esmo-guidelines", "idea-moon-toxicity-first-endpoints", "idea-moon-supportive-care-arpa", "idea-moon-neuropathy-prevention-programme", "idea-moon-cardioprotection-by-default", "idea-moon-olanzapine-antiemetic-everywhere", "idea-moon-quality-adjusted-pricing", "idea-moon-adult-late-effects-registry", "idea-moon-cognitive-toxicity-programme", "idea-moon-irae-prediction-and-prevention", "idea-moon-fertility-preservation-default", "idea-moon-hearing-protection-cisplatin", "idea-moon-oncology-hospital-at-home", "idea-moon-supportive-care-platform-trial", "idea-moon-open-pro-data-commons", "idea-moon-mucositis-taste-programme", "idea-moon-sexual-health-as-toxicity-domain", "idea-moon-quality-adjusted-survival-standard", "idea-cost-financial-toxicity-screening"],
   }),
   b({
     id: "b-misinformation",
@@ -1843,6 +1843,6 @@ export const bottlenecks: BottleneckInput[] = [
     technologies: ["hpv-vaccine"],
     institutions: ["asco", "nci", "cruk", "iarc"],
     companies: ["cancer-commons"],
-    related: ["cancer-gov-pdq", "nccn", "pubmed-europepmc"],
+    related: ["cancer-gov-pdq", "nccn", "pubmed-europepmc", "idea-moon-verified-information-layer", "idea-moon-clinician-creator-programme", "idea-moon-unproven-clinic-registry", "idea-moon-ban-unproven-therapy-ads", "idea-moon-ai-cancer-answer-audit", "idea-moon-wikipedia-oncology-fellowships", "idea-moon-hype-index", "idea-moon-patient-community-moderators", "idea-moon-living-plain-evidence-summaries", "idea-moon-treatment-refusal-pathway"],
   }),
 ];

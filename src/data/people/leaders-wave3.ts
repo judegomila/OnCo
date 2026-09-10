@@ -9,7 +9,7 @@ import type { PersonInput } from "@/lib/schema";
 const asOf = "2026-09-10";
 
 type P = Omit<PersonInput, "kind" | "asOf"> & { institutionId: string };
-const p = (x: P): PersonInput => ({ kind: "person", asOf, institutions: [x.institutionId], ...x });
+const p = (x: P): PersonInput => ({ kind: "person", asOf, institutions: [x.institutionId], links: x.profiles, ...x });
 
 export const peopleLeadersWave3: PersonInput[] = [
   // =================== Health Canada ===================

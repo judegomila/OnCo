@@ -11,7 +11,7 @@ import type { PersonInput } from "@/lib/schema";
 const asOf = "2026-09-10";
 const pm = (q: string) => ({ label: "PubMed author search", url: `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(q)}` });
 type P = Omit<PersonInput, "kind" | "asOf">;
-const p = (x: P): PersonInput => ({ kind: "person", asOf, ...x });
+const p = (x: P): PersonInput => ({ kind: "person", asOf, links: x.profiles, ...x });
 
 export const peopleChina: PersonInput[] = [
   // ---- Clinician-scientists ----

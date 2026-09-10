@@ -7,7 +7,7 @@ import type { PersonInput } from "@/lib/schema";
  */
 const asOf = "2026-09-08";
 type P = Omit<PersonInput, "kind" | "asOf">;
-const p = (x: P): PersonInput => ({ kind: "person", asOf, ...x });
+const p = (x: P): PersonInput => ({ kind: "person", asOf, links: x.profiles, ...x });
 const pubmed = (q: string) => ({ label: "PubMed", url: `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(q)}` });
 const site = (label: string, url: string) => ({ label, url });
 
@@ -111,7 +111,7 @@ export const peopleEurope: PersonInput[] = [
     specialisms: ["Cancer evolution", "Childhood leukaemia", "Cancer origins"],
     tldr: "Showed that childhood leukaemia begins before birth and framed cancer as an evolutionary process.", summary: "Mel Greaves traced the prenatal origins of childhood acute lymphoblastic leukaemia using twin studies and neonatal blood spots, and proposed the delayed-infection hypothesis for its aetiology.",
     profiles: [pubmed("Greaves M[Author] leukaemia evolution")], cancers: ["all-leukemia"],
-    papers: [{ title: "A causal mechanism for childhood acute lymphoblastic leukaemia", journal: "Nature Reviews Cancer", year: 2018, doi: "10.1038/s41568-018-0015-6" }] }),
+    papers: [{ title: "A causal mechanism for childhood acute lymphoblastic leukaemia", journal: "Nature Reviews Cancer", year: 2018, doi: "10.1038/s41568-018-0015-6" }], journals: ["nature-reviews-cancer"] }),
 
   // ======================= Francis Crick Institute =======================
   p({ id: "charles-swanton", name: "Charles Swanton", role: "Deputy Clinical Director, Francis Crick Institute; Chief Clinician, Cancer Research UK", institutionId: "francis-crick", institutions: ["francis-crick", "cruk", "cancer-grand-challenges"],
@@ -133,7 +133,7 @@ export const peopleEurope: PersonInput[] = [
     specialisms: ["Tumour microenvironment", "Cancer cell invasion", "Drug resistance and plasticity"],
     tldr: "Cell biologist studying how the tumour's surroundings help cancer cells invade and resist drugs.", summary: "Erik Sahai uses intravital imaging and computational models to study fibroblast-tumour interactions, invasion, and the non-genetic plasticity that lets cancer cells survive targeted therapy.",
     profiles: [pubmed("Sahai E[Author] tumour microenvironment")], pathways: ["emt"], targets: ["fap"],
-    papers: [{ title: "A framework for advancing our understanding of cancer-associated fibroblasts", journal: "Nature Reviews Cancer", year: 2020, doi: "10.1038/s41568-019-0238-1" }] }),
+    papers: [{ title: "A framework for advancing our understanding of cancer-associated fibroblasts", journal: "Nature Reviews Cancer", year: 2020, doi: "10.1038/s41568-019-0238-1" }], journals: ["nature-reviews-cancer"] }),
 
   // ======================= Cancer Research UK =======================
   p({ id: "michelle-mitchell", name: "Michelle Mitchell", role: "Chief Executive, Cancer Research UK", institutionId: "cruk",
@@ -174,17 +174,17 @@ export const peopleEurope: PersonInput[] = [
     specialisms: ["Nuclear medicine", "FAP-targeted radiopharmaceuticals", "Theranostics"],
     tldr: "Nuclear medicine physician whose group invented FAPI PET tracers and pioneered PSMA and FAP radioligand therapy.", summary: "Uwe Haberkorn's Heidelberg group developed the quinoline-based FAP inhibitor (FAPI) tracers that image most epithelial cancers and led early PSMA-617 and FAP-targeted therapy in humans.",
     profiles: [pubmed("Haberkorn U[Author] FAPI")], targets: ["fap", "psma"], technologies: ["fapi-pet", "radioligand-therapy", "psma-pet"], drugs: ["fap-2286", "pluvicto"],
-    papers: [{ title: "68Ga-FAPI PET/CT: tracer uptake in 28 different kinds of cancer", journal: "Journal of Nuclear Medicine", year: 2019, doi: "10.2967/jnumed.119.227967" }] }),
+    papers: [{ title: "68Ga-FAPI PET/CT: tracer uptake in 28 different kinds of cancer", journal: "Journal of Nuclear Medicine", year: 2019, doi: "10.2967/jnumed.119.227967" }], journals: ["journal-of-nuclear-medicine"] }),
   p({ id: "frederik-giesel", name: "Frederik Giesel", role: "Director of Nuclear Medicine, University Hospital Düsseldorf; formerly Heidelberg", institutionId: "heidelberg-nct", institutions: ["heidelberg-nct"],
     specialisms: ["Molecular imaging", "FAPI PET", "PSMA theranostics"],
     tldr: "Frederik Giesel co-developed FAPI PET imaging and now leads nuclear medicine in Düsseldorf.", summary: "Frederik Giesel co-led the first-in-human FAPI PET studies in Heidelberg and continues to develop FAP-targeted imaging and therapy; he moved to Düsseldorf as director of nuclear medicine.",
     profiles: [pubmed("Giesel FL[Author] FAPI")], targets: ["fap"], technologies: ["fapi-pet"],
-    papers: [{ title: "68Ga-FAPI PET/CT: biodistribution and preliminary dosimetry estimate of 2 DOTA-containing FAP-targeting agents", journal: "Journal of Nuclear Medicine", year: 2019, doi: "10.2967/jnumed.118.215913" }] }),
+    papers: [{ title: "68Ga-FAPI PET/CT: biodistribution and preliminary dosimetry estimate of 2 DOTA-containing FAP-targeting agents", journal: "Journal of Nuclear Medicine", year: 2019, doi: "10.2967/jnumed.118.215913" }], journals: ["journal-of-nuclear-medicine"] }),
   p({ id: "clemens-kratochwil", name: "Clemens Kratochwil", role: "Nuclear medicine physician, Heidelberg University Hospital", institutionId: "heidelberg-nct", institutions: ["heidelberg-nct"],
     specialisms: ["Targeted alpha therapy", "PSMA radioligands", "Dosimetry"],
     tldr: "Clemens Kratochwil reported the first patients treated with actinium-225 PSMA therapy.", summary: "Clemens Kratochwil published the first clinical experience with 225Ac-PSMA-617 in metastatic castration-resistant prostate cancer, launching the alpha-emitter era in prostate cancer.",
     profiles: [pubmed("Kratochwil C[Author] 225Ac PSMA")], cancers: ["prostate"], targets: ["psma"], technologies: ["targeted-alpha-therapy"], drugs: ["ac225-psma"],
-    papers: [{ title: "225Ac-PSMA-617 for PSMA-targeted α-radiation therapy of metastatic castration-resistant prostate cancer", journal: "Journal of Nuclear Medicine", year: 2016, doi: "10.2967/jnumed.116.178673" }] }),
+    papers: [{ title: "225Ac-PSMA-617 for PSMA-targeted α-radiation therapy of metastatic castration-resistant prostate cancer", journal: "Journal of Nuclear Medicine", year: 2016, doi: "10.2967/jnumed.116.178673" }], journals: ["journal-of-nuclear-medicine"] }),
   p({ id: "stefan-froehling", name: "Stefan Fröhling", role: "Managing Director, NCT Heidelberg; Head of Translational Medical Oncology, DKFZ", institutionId: "heidelberg-nct", institutions: ["heidelberg-nct", "dkfz"],
     specialisms: ["Precision oncology", "Sarcoma", "Genomics-guided trials"],
     tldr: "Runs the NCT/DKTK MASTER programme that sequences whole genomes of rare and young-adult cancers to guide therapy.", summary: "Stefan Fröhling leads the MASTER precision oncology programme and the NCT Heidelberg, with a focus on sarcomas and rare cancers and on turning genomic findings into molecularly guided treatment.",
@@ -194,7 +194,7 @@ export const peopleEurope: PersonInput[] = [
     specialisms: ["Particle therapy", "Carbon-ion radiotherapy", "Radiation oncology"],
     tldr: "Jürgen Debus leads Europe's pioneering heavy-ion therapy centre.", summary: "Jürgen Debus directs radiation oncology in Heidelberg and the Heidelberg Ion-Beam Therapy Center, which delivers proton and carbon-ion treatment and runs the trials evaluating them.",
     profiles: [pubmed("Debus J[Author] carbon ion")], technologies: ["carbon-ion", "proton-therapy"],
-    papers: [{ title: "Carbon ion radiotherapy for chordomas and low-grade chondrosarcomas of the skull base", journal: "Cancer", year: 2004 }] }),
+    papers: [{ title: "Carbon ion radiotherapy for chordomas and low-grade chondrosarcomas of the skull base", journal: "Cancer", year: 2004 }], journals: ["cancer-wiley"] }),
   p({ id: "andreas-von-deimling", name: "Andreas von Deimling", role: "Head of Neuropathology, Heidelberg University Hospital and DKFZ", institutionId: "heidelberg-nct", institutions: ["heidelberg-nct", "dkfz"],
     specialisms: ["Neuropathology", "Brain tumour classification", "DNA methylation profiling"],
     tldr: "Co-created the DNA methylation classifier that changed how brain tumours are diagnosed worldwide.", summary: "Andreas von Deimling, with Stefan Pfister and David Capper, developed the Heidelberg methylation-based classifier for central nervous system tumours, now embedded in the WHO classification.",
@@ -215,12 +215,12 @@ export const peopleEurope: PersonInput[] = [
     specialisms: ["Cancer epidemiology", "Colorectal cancer screening", "Early detection"],
     tldr: "Epidemiologist whose studies underpin colonoscopy and stool-test screening for bowel cancer.", summary: "Hermann Brenner's population studies quantified the protective effect of colonoscopy and the performance of faecal immunochemical tests, informing screening programmes across Europe.",
     profiles: [pubmed("Brenner H[Author] colorectal screening")], cancers: ["colorectal"], technologies: ["colorectal-screening"],
-    papers: [{ title: "Protection from colorectal cancer after colonoscopy: a population-based, case-control study", journal: "Annals of Internal Medicine", year: 2011, doi: "10.7326/0003-4819-154-1-201101040-00004" }] }),
+    papers: [{ title: "Protection from colorectal cancer after colonoscopy: a population-based, case-control study", journal: "Annals of Internal Medicine", year: 2011, doi: "10.7326/0003-4819-154-1-201101040-00004" }], journals: ["annals-internal-medicine"] }),
   p({ id: "andreas-trumpp", name: "Andreas Trumpp", role: "Head of Stem Cells and Cancer, DKFZ; Managing Director, HI-STEM", institutionId: "dkfz", institutions: ["dkfz"],
     specialisms: ["Cancer stem cells", "Metastasis", "Circulating tumour cells"],
     tldr: "Andreas Trumpp is a stem cell biologist studying how dormant cancer cells seed metastases and resist therapy.", summary: "Andreas Trumpp's group identified metastasis-initiating cells in breast cancer and studies haematopoietic and leukaemic stem cell dormancy.",
     profiles: [pubmed("Trumpp A[Author] metastasis stem cells")], pathways: ["emt"], terms: ["ctdna"],
-    papers: [{ title: "Identification of a population of blood circulating tumor cells from breast cancer patients that initiates metastasis in a xenograft assay", journal: "Nature Biotechnology", year: 2013, doi: "10.1038/nbt.2576" }] }),
+    papers: [{ title: "Identification of a population of blood circulating tumor cells from breast cancer patients that initiates metastasis in a xenograft assay", journal: "Nature Biotechnology", year: 2013, doi: "10.1038/nbt.2576" }], journals: ["nature-biotechnology"] }),
 
   // ======================= Institut Curie =======================
   p({ id: "steven-le-gouill", name: "Steven Le Gouill", role: "Director, Institut Curie Hospital Group; haematologist", institutionId: "institut-curie", institutions: ["institut-curie"],
@@ -340,7 +340,7 @@ export const peopleEurope: PersonInput[] = [
     specialisms: ["Liquid biopsy", "Circulating tumour cells", "Minimal residual disease"],
     tldr: "Klaus Pantel is a pioneer of circulating tumour cell research and the liquid biopsy field.", summary: "Klaus Pantel's work on disseminated and circulating tumour cells established liquid biopsy as a research discipline; he coordinated the European CANCER-ID consortium.",
     profiles: [pubmed("Pantel K[Author] circulating tumor cells")], technologies: ["liquid-biopsy", "mrd-testing"], terms: ["mrd"],
-    papers: [{ title: "Liquid biopsy and minimal residual disease: latest advances and implications for cure", journal: "Nature Reviews Clinical Oncology", year: 2019, doi: "10.1038/s41571-019-0187-3" }] }),
+    papers: [{ title: "Liquid biopsy and minimal residual disease: latest advances and implications for cure", journal: "Nature Reviews Clinical Oncology", year: 2019, doi: "10.1038/s41571-019-0187-3" }], journals: ["nature-reviews-clinical-oncology"] }),
 
   // ======================= LMU Munich =======================
   p({ id: "volker-heinemann", name: "Volker Heinemann", role: "Director, Comprehensive Cancer Center Munich (LMU); Professor of Medical Oncology", institutionId: "lmu-munich", institutions: ["lmu-munich"],
@@ -409,7 +409,7 @@ export const peopleEurope: PersonInput[] = [
     specialisms: ["Breast cancer epidemiology", "Risk-based screening", "Mammographic density"],
     tldr: "Per Hall is the epidemiologist behind KARMA and the risk-based breast screening programme.", summary: "Per Hall leads the KARMA cohort and developed risk models combining mammographic density, genetics, and lifestyle to personalise breast screening intervals.",
     profiles: [pubmed("Hall P[Author] mammographic density risk")], technologies: ["mammography", "radiology-ai-screening"],
-    papers: [{ title: "Artificial intelligence for breast cancer detection in screening mammography in Sweden: a prospective, population-based, paired-reader, non-inferiority study", journal: "Lancet Digital Health", year: 2023, doi: "10.1016/S2589-7500(23)00153-X" }] }),
+    papers: [{ title: "Artificial intelligence for breast cancer detection in screening mammography in Sweden: a prospective, population-based, paired-reader, non-inferiority study", journal: "Lancet Digital Health", year: 2023, doi: "10.1016/S2589-7500(23)00153-X" }], journals: ["lancet-digital-health"] }),
   p({ id: "rolf-kiessling", name: "Rolf Kiessling", role: "Professor of Experimental Oncology, Karolinska Institutet", institutionId: "karolinska", institutions: ["karolinska"],
     specialisms: ["Tumour immunology", "Natural killer cells", "Cancer vaccines"],
     tldr: "Rolf Kiessling is the immunologist who first described natural killer cells.", summary: "Rolf Kiessling co-discovered natural killer cells in the 1970s and has since worked on tumour immune escape and cell-based immunotherapy.",

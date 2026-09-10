@@ -8,7 +8,7 @@ import type { CollectionInput } from "@/lib/schema";
  */
 const asOf = "2026-09-08";
 type S = Omit<CollectionInput, "kind" | "asOf">;
-const s = (x: S): CollectionInput => ({ kind: "collection", asOf, ...x });
+const s = (x: S): CollectionInput => ({ kind: "collection", asOf, links: [{ label: x.name, url: x.url }], ...x });
 
 export const sources: CollectionInput[] = [
   // ---- Journals ----
@@ -17,7 +17,7 @@ export const sources: CollectionInput[] = [
   s({ id: "src-lancet-oncology", name: "The Lancet Oncology", url: "https://www.thelancet.com/journals/lanonc/home", holds: "Phase 2 and 3 trials, meta-analyses, global oncology policy, and the ESMO-aligned commentaries.", license: "Paywalled; abstracts free", maintainer: "Elsevier / The Lancet", tags: ["source", "journal"],
     tldr: "The Lancet Oncology is the other home of practice-changing trials, with a stronger European and global-health voice.", summary: "The Lancet Oncology appears monthly plus online-first and is strong on radiotherapy, surgical, and health-system trials that NEJM covers less; the Commission series shapes policy. Quality-of-life and long-term follow-up papers of major trials often appear here." }),
   s({ id: "src-jco", name: "Journal of Clinical Oncology", url: "https://ascopubs.org/journal/jco", holds: "ASCO's flagship journal: trials, guidelines (including living guidelines), and long-term follow-up of cooperative-group studies.", license: "Paywalled; guidelines and many trials free", maintainer: "American Society of Clinical Oncology", tags: ["source", "journal"],
-    tldr: "The Journal of Clinical Oncology is where ASCO publishes its guidelines and most US cooperative-group trial results.", summary: "JCO publishes three issues a month. The ASCO living guidelines are the fastest route to what US oncologists are told to do; long-term survival updates (for example COMBI-I, AEGEAN) tend to land here first. Companion journals JCO Precision Oncology and JCO Oncology Practice cover genomics and delivery." }),
+    tldr: "The Journal of Clinical Oncology is where ASCO publishes its guidelines and most US cooperative-group trial results.", summary: "JCO publishes three issues a month. The ASCO living guidelines are the fastest route to what US oncologists are told to do; long-term survival updates (for example COMBI-I, AEGEAN) tend to land here first. Companion journals JCO Precision Oncology and JCO Oncology Practice cover genomics and delivery.", journals: ["jco-precision-oncology"] }),
   s({ id: "src-cancer-discovery", name: "Cancer Discovery", url: "https://aacrjournals.org/cancerdiscovery", holds: "High-impact translational and early-clinical science, plus 'In the Spotlight' and news digests of the field.", license: "Paywalled; news free", maintainer: "American Association for Cancer Research", tags: ["source", "journal"],
     tldr: "Cancer Discovery is the best single journal for seeing what will be in the clinic in five years.", summary: "Cancer Discovery appears monthly and carries first-in-human data for new modalities, resistance mechanisms, and target validation; its news pages summarise notable papers from elsewhere. AACR's other journals (Cancer Research, Clinical Cancer Research) carry the deeper biology and phase 1 detail." }),
   s({ id: "src-nature-medicine", name: "Nature Medicine", url: "https://www.nature.com/nm/", holds: "Translational medicine including cancer vaccines, AI diagnostics, and phase 1-3 trials with mechanistic depth.", license: "Paywalled; abstracts free; some open access", maintainer: "Nature Portfolio", tags: ["source", "journal"],
@@ -45,9 +45,9 @@ export const sources: CollectionInput[] = [
 
   // ---- Preprints ----
   s({ id: "src-medrxiv", name: "medRxiv", url: "https://www.medrxiv.org/collection/oncology", holds: "Clinical preprints before peer review; the oncology collection.", license: "Open (author-chosen CC licences)", maintainer: "Cold Spring Harbor Laboratory, BMJ, Yale", tags: ["source", "preprint"],
-    tldr: "medRxiv posts trial results and real-world analyses weeks to months before journals. Nothing on it has been peer reviewed.", summary: "medRxiv posts daily and is useful for early signals and for methods critiques; treat every claim as provisional and check for the peer-reviewed version." }),
+    tldr: "medRxiv posts trial results and real-world analyses weeks to months before journals. Nothing on it has been peer reviewed.", summary: "medRxiv posts daily and is useful for early signals and for methods critiques; treat every claim as provisional and check for the peer-reviewed version.", related: ["medrxiv"] }),
   s({ id: "src-biorxiv", name: "bioRxiv", url: "https://www.biorxiv.org/collection/cancer-biology", holds: "Biology preprints; the cancer biology collection.", license: "Open (author-chosen CC licences)", maintainer: "Cold Spring Harbor Laboratory", tags: ["source", "preprint"],
-    tldr: "bioRxiv is where new targets and mechanisms surface first, before peer review.", summary: "bioRxiv posts new preprints daily." }),
+    tldr: "bioRxiv is where new targets and mechanisms surface first, before peer review.", summary: "bioRxiv posts new preprints daily.", related: ["biorxiv"] }),
 
   // ---- Regulatory and HTA feeds ----
   s({ id: "src-ema-chmp", name: "EMA news and CHMP meeting highlights", url: "https://www.ema.europa.eu/en/news", holds: "Monthly CHMP opinions: new medicines recommended, indication extensions, negative opinions.", license: "Public", maintainer: "European Medicines Agency", tags: ["source", "data"],
@@ -61,7 +61,7 @@ export const sources: CollectionInput[] = [
   s({ id: "src-onclive", name: "OncLive", url: "https://www.onclive.com/", holds: "Daily oncology news, approval alerts, and expert video interviews.", license: "Free with registration for some content", maintainer: "MJH Life Sciences", tags: ["source", "news"],
     tldr: "OncLive delivers fast approval and readout news with key opinion leader interviews.", summary: "OncLive publishes daily. Industry-sponsored content is common; check the primary source for numbers." }),
   s({ id: "src-targeted-oncology", name: "Targeted Oncology", url: "https://www.targetedonc.com/", holds: "Precision oncology news, case-based discussions, and approval coverage.", license: "Free", maintainer: "MJH Life Sciences", tags: ["source", "news"],
-    tldr: "Targeted Oncology is OncLive's sibling with a biomarker and targeted-therapy focus.", summary: "Targeted Oncology publishes daily." }),
+    tldr: "Targeted Oncology is OncLive's sibling with a biomarker and targeted-therapy focus.", summary: "Targeted Oncology publishes daily.", related: ["src-onclive"] }),
   s({ id: "src-cancer-network", name: "CancerNetwork (ONCOLOGY)", url: "https://www.cancernetwork.com/", holds: "News, reviews, and the journal ONCOLOGY.", license: "Free", maintainer: "MJH Life Sciences", tags: ["source", "news"],
     tldr: "CancerNetwork publishes daily practice-oriented news across solid and haematologic cancers.", summary: "CancerNetwork publishes daily." }),
   s({ id: "src-cancer-letter", name: "The Cancer Letter", url: "https://cancerletter.com/", holds: "Investigative reporting on cancer policy, NCI, cancer centres, leadership, and misconduct since 1973.", license: "Paywalled; some free", maintainer: "The Cancer Letter Inc.", tags: ["source", "news"],

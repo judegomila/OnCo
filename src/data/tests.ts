@@ -277,7 +277,7 @@ const prognosticTests: DrugInput[] = [
     summary: "Prolaris (Myriad Genetics) measures how fast tumour cells are dividing and reports a 10-year risk of dying from prostate cancer under conservative management and of metastasis after treatment. It is listed in NCCN guidelines as an option for men with low or favourable-intermediate risk disease considering active surveillance, is covered by Medicare, and validated in conservatively managed UK cohorts and US surgical series. Like Decipher and Oncotype DX GPS it refines, rather than replaces, PSA, Gleason grade and MRI; head-to-head comparisons are few and none of the three has randomised evidence that its use improves outcomes.",
     notes: ["What a result means: a low score supports active surveillance; a high score in an otherwise low-risk cancer argues for treatment."],
     cancers: ["prostate"], companies: ["myriad-genetics"],
-    technologies: ["rna-seq", "active-surveillance"], terms: ["gleason-grade-group", "psa"], related: ["decipher-prostate", "oncotype-dx-gps"],
+    technologies: ["rna-seq", "active-surveillance"], terms: ["gleason-grade-group", "psa", "active-surveillance-term"], related: ["decipher-prostate", "oncotype-dx-gps"],
     links: [{ label: "Myriad: Prolaris", url: "https://myriad.com/oncology/prolaris/" }] }),
   d({ id: "oncotype-dx-gps", name: "Oncotype DX Genomic Prostate Score", brand: "Oncotype DX GPS", modality: "Gene-expression prognostic assay (17-gene Genomic Prostate Score)", status: "established",
     mechanism: "RT-PCR of 12 cancer genes across four pathways (androgen signalling, proliferation, cellular organisation, stromal response) and five reference genes on biopsy tissue, giving a 0-100 Genomic Prostate Score.",
@@ -285,7 +285,7 @@ const prognosticTests: DrugInput[] = [
     summary: "Developed by Genomic Health and sold by Exact Sciences until MDxHealth acquired the test in 2022, the Genomic Prostate Score predicts adverse pathology at prostatectomy and long-term metastasis and death, validated in surgical cohorts and in the Kaiser Permanente and Veterans Affairs populations. NCCN lists it for very-low to favourable-intermediate risk disease. In practice it is ordered when a man and his urologist are on the fence about active surveillance. As with Prolaris and Decipher, evidence that the test changes long-term outcomes rather than decisions is lacking.",
     notes: ["What a result means: a low GPS supports active surveillance; higher scores predict more aggressive disease at surgery."],
     cancers: ["prostate"], companies: ["mdxhealth"],
-    technologies: ["rna-seq", "active-surveillance"], terms: ["gleason-grade-group"], related: ["decipher-prostate", "prolaris"],
+    technologies: ["rna-seq", "active-surveillance"], terms: ["gleason-grade-group", "active-surveillance-term"], related: ["decipher-prostate", "prolaris"],
     links: [{ label: "MDxHealth: Oncotype DX GPS", url: "https://mdxhealth.com/oncotype-dx-gps/" }] }),
   d({ id: "afirma", name: "Afirma Genomic Sequencing Classifier", brand: "Afirma GSC", modality: "RNA-sequencing rule-out classifier test (indeterminate thyroid nodules)", status: "established",
     mechanism: "Whole-transcriptome RNA sequencing of a fine-needle aspirate, with a machine-learned classifier trained to call cytologically indeterminate nodules benign or suspicious, plus reporting of BRAF, RET and other variants.",
@@ -404,7 +404,7 @@ const aiSoftware: DrugInput[] = [
     notes: ["What a result means: in the NHS the AI would replace one of two human readers; discordant cases go to arbitration by a radiologist, as now."],
     cancers: ["breast-hr-positive", "tnbc"], companies: ["kheiron"],
     technologies: ["radiology-ai-screening", "mammography"],
-    links: [{ label: "DeepHealth: Kheiron Medical Technologies", url: "https://deephealth.com/kheiron-medical-technologies/" }] }),
+    links: [{ label: "DeepHealth: Kheiron Medical Technologies", url: "https://deephealth.com/kheiron-medical-technologies/" }], institutions: ["anchor-centre-aberdeen"] }),
 ];
 
 // =====================================================================================
@@ -466,7 +466,7 @@ const technologies: TechnologyInput[] = [
     principle: "Population-wide upper gastrointestinal endoscopy at a fixed interval with biopsy of suspicious lesions, exploiting the slow progression from atrophic gastritis and intestinal metaplasia to cancer.",
     strengths: ["Large stage shift and organ-preserving treatment", "Also detects oesophageal cancer and precursor lesions"],
     limitations: ["Endoscopist capacity and quality", "Observational evidence only", "Not cost-effective at Western incidence rates"],
-    cancers: ["gastric", "esophageal"], technologies: ["endoscopic-resection"], terms: ["screening", "stage-shift"],
+    cancers: ["gastric", "esophageal"], technologies: ["endoscopic-resection"], terms: ["screening", "stage-shift", "endoscopic-resection-term"],
     links: [DOI("Korean endoscopic screening and gastric cancer mortality (Gastroenterology 2017)", "10.1053/j.gastro.2017.01.029")] }),
   tech({ id: "polygenic-risk-scores", name: "Polygenic risk scores for cancer", sections: ["early-detection", "prevention", "ai-computation"], status: "emerging", wikipedia: W("Polygenic_score"),
     tldr: "A score built from hundreds of common gene variants that says whether your inherited risk of a cancer is higher or lower than average, now being tested as a way to decide who is screened and how often.",

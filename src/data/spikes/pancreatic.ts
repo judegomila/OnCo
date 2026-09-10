@@ -13,7 +13,7 @@ const entities: EntityInput[] = [
     summary: "Oxaliplatin, irinotecan, leucovorin, and 5-fluorouracil. PRODIGE 4/ACCORD 11 (2011): OS 11.1 vs 6.8 months versus gemcitabine in fit metastatic patients. Modified FOLFIRINOX (PRODIGE 24, 2018) became the adjuvant standard after resection with median OS ~54 months, and is the most used neoadjuvant regimen for borderline-resectable disease. Toxicity (neutropenia, diarrhoea, neuropathy) restricts it to ECOG 0-1 patients. NALIRIFOX (liposomal irinotecan) is a 2024 variant for metastatic disease.",
     mechanism: "DNA crosslinking (oxaliplatin), topoisomerase-I inhibition (irinotecan), antimetabolite (5-FU with leucovorin modulation).",
     approvals: [{ region: "Global", year: 2011, indication: "Metastatic PDAC (PRODIGE 4 / ACCORD 11; component drugs generic)" }],
-    technologies: ["cytotoxic-chemotherapy", "platinum", "topoisomerase-inhibitors"], cancers: ["pancreatic"], trials: ["prodige-24", "napoli-3"],
+    technologies: ["cytotoxic-chemotherapy", "platinum", "topoisomerase-inhibitors"], cancers: ["pancreatic"], trials: ["prodige-24", "napoli-3"], links: [{ label: "Wikipedia", url: W("FOLFIRINOX") }],
   },
   {
     id: "nalirifox", kind: "drug", name: "NALIRIFOX (liposomal irinotecan + oxaliplatin + 5-FU/LV)", brand: "Onivyde regimen", modality: "Cytotoxic regimen", asOf, status: "approved",
@@ -22,7 +22,7 @@ const entities: EntityInput[] = [
     mechanism: "Liposomal irinotecan (prolonged SN-38 exposure) with oxaliplatin and 5-FU/leucovorin.",
     approvals: [{ region: "US", year: 2024, indication: "First-line metastatic pancreatic adenocarcinoma" }],
     technologies: ["cytotoxic-chemotherapy", "topoisomerase-inhibitors", "platinum"], companies: ["ipsen"], cancers: ["pancreatic"], trials: ["napoli-3"],
-    links: [{ label: "OncLive: FDA approves NALIRIFOX", url: "https://www.onclive.com/view/fda-approves-frontline-nalirifox-for-metastatic-pancreatic-adenocarcinoma" }],
+    links: [{ label: "OncLive: FDA approves NALIRIFOX", url: "https://www.onclive.com/view/fda-approves-frontline-nalirifox-for-metastatic-pancreatic-adenocarcinoma" }], terms: ["prodrug"],
   },
   {
     id: "gemcitabine-nab-paclitaxel", kind: "drug", name: "Gemcitabine + nab-paclitaxel", brand: "Gemzar + Abraxane", modality: "Cytotoxic regimen", asOf, status: "standard-of-care", wikipedia: W("Gemcitabine"),
@@ -30,7 +30,7 @@ const entities: EntityInput[] = [
     summary: "MPACT (2013): OS 8.5 vs 6.7 months versus gemcitabine alone. Preferred for less fit patients; the control or backbone arm in PANOVA-3 (TTFields), zoldonrasib first-line combinations, and CLDN18.2 and other add-on trials. Gemcitabine monotherapy (1997) was the standard for 14 years before FOLFIRINOX.",
     mechanism: "Nucleoside analogue (gemcitabine) plus albumin-bound taxane that may deplete stroma and increase gemcitabine delivery.",
     approvals: [{ region: "US", year: 2013, indication: "First-line metastatic pancreatic adenocarcinoma (nab-paclitaxel label)" }],
-    technologies: ["cytotoxic-chemotherapy"], cancers: ["pancreatic"], drugs: ["paclitaxel"], trials: ["panova-3"],
+    technologies: ["cytotoxic-chemotherapy"], cancers: ["pancreatic"], drugs: ["paclitaxel"], trials: ["panova-3"], links: [{ label: "Wikipedia", url: W("Gemcitabine") }],
   },
   {
     id: "zoldonrasib", kind: "drug", name: "Zoldonrasib", code: "RMC-9805", modality: "Small-molecule RAS(ON) G12D-selective inhibitor", asOf, status: "phase-2",
@@ -79,7 +79,7 @@ const entities: EntityInput[] = [
     tldr: "The first head-to-head trial of the two chemotherapy backbones, won narrowly by the four-drug regimen.",
     summary: "770 patients. OS 11.1 vs 9.2 months (HR 0.84, p=0.04); PFS 7.4 vs 5.6 months (HR 0.69). Led to FDA approval of NALIRIFOX (February 2024). Critics note the absence of a mFOLFIRINOX arm.",
     result: "OS HR 0.84; PFS HR 0.69.",
-    drugs: ["nalirifox", "gemcitabine-nab-paclitaxel"], cancers: ["pancreatic"], links: [ct("NCT04083235")],
+    drugs: ["nalirifox", "gemcitabine-nab-paclitaxel"], cancers: ["pancreatic"], links: [ct("NCT04083235")], people: ["zev-wainberg"],
   },
   {
     id: "prodige-24", kind: "trial", name: "PRODIGE 24 / CCTG PA6", nct: "NCT01526135", phase: "3", status: "positive", yearReported: 2018, sponsor: "UNICANCER / CCTG", asOf,
@@ -87,7 +87,7 @@ const entities: EntityInput[] = [
     tldr: "Showed that giving the strong four-drug chemotherapy after pancreatic surgery adds years of life for fit patients.",
     summary: "493 patients. Median OS 54.4 vs 35.0 months (HR 0.64) and DFS 21.6 vs 12.8 months. Established mFOLFIRINOX as adjuvant standard in fit patients (NEJM 2018; 5-year update 2022).",
     result: "OS 54.4 vs 35.0 months, HR 0.64.",
-    drugs: ["folfirinox"], cancers: ["pancreatic"], links: [ct("NCT01526135")],
+    drugs: ["folfirinox"], cancers: ["pancreatic"], links: [ct("NCT01526135")], people: ["thierry-conroy"],
   },
   {
     id: "preopanc", kind: "trial", name: "PREOPANC-1 / PREOPANC-2", nct: "NCT02172976", phase: "3", status: "mixed", yearReported: 2022, sponsor: "Dutch Pancreatic Cancer Group", asOf,
@@ -95,7 +95,7 @@ const entities: EntityInput[] = [
     tldr: "Dutch trials testing whether treating before surgery beats operating first. Chemoradiation first helped in the long run; FOLFIRINOX first did not clearly beat surgery-first with adjuvant chemotherapy.",
     summary: "PREOPANC-1: gemcitabine-based chemoradiation before surgery improved 5-year OS (20.5% vs 6.5%) despite a non-significant primary analysis. PREOPANC-2 (2023): neoadjuvant FOLFIRINOX did not improve OS versus neoadjuvant gemcitabine-chemoradiation. Together with ALLIANCE A021806 and NORPACT-1, they leave the neoadjuvant question open for resectable disease while borderline-resectable disease is generally treated neoadjuvantly.",
     result: "PREOPANC-1 5-year OS 20.5% vs 6.5%; PREOPANC-2 no OS benefit.",
-    drugs: ["folfirinox"], cancers: ["pancreatic"], technologies: ["imrt-igrt"], links: [ct("NCT02172976")],
+    drugs: ["folfirinox"], cancers: ["pancreatic"], technologies: ["imrt-igrt"], links: [ct("NCT02172976")], people: ["marc-besselink"],
   },
   {
     id: "polo", kind: "trial", name: "POLO", nct: "NCT02184195", phase: "3", status: "mixed", yearReported: 2019, sponsor: "AstraZeneca / Merck", asOf,
@@ -103,7 +103,7 @@ const entities: EntityInput[] = [
     tldr: "The first biomarker-directed drug approval in pancreatic cancer, for the roughly 5-7% with inherited BRCA mutations, though it did not extend overall survival.",
     summary: "154 patients. PFS 7.4 vs 3.8 months (HR 0.53); OS not different (19.0 vs 19.2 months). FDA approval December 2019. Made germline testing standard for every pancreatic cancer patient.",
     result: "PFS HR 0.53; OS HR 0.83 (not significant).",
-    drugs: ["olaparib"], cancers: ["pancreatic"], targets: ["brca", "parp"], technologies: ["parp-inhibitor", "germline-testing"], links: [ct("NCT02184195")],
+    drugs: ["olaparib"], cancers: ["pancreatic"], targets: ["brca", "parp"], technologies: ["parp-inhibitor", "germline-testing"], links: [ct("NCT02184195")], people: ["talia-golan", "hedy-kindler"],
   },
   {
     id: "panova-3", kind: "trial", name: "PANOVA-3", nct: "NCT03377491", phase: "3", status: "positive", yearReported: 2025, sponsor: "Novocure", asOf,
@@ -148,13 +148,13 @@ const entities: EntityInput[] = [
     id: "ca19-9", kind: "term", name: "CA 19-9", category: "Biomarkers", asOf, wikipedia: W("CA19-9"),
     tldr: "A sugar molecule shed into the blood by most pancreatic cancers; useful to follow treatment, not to screen.",
     summary: "Sialyl-Lewis A carbohydrate antigen elevated in ~80% of PDAC; 5-10% of people (Lewis-negative) cannot make it. Prognostic at diagnosis, tracks response and recurrence, and defines eligibility in trials. Too non-specific for population screening (raised in biliary obstruction, pancreatitis), but glycan-engineered variants and combination with cfDNA are under study for high-risk surveillance.",
-    cancers: ["pancreatic", "cholangiocarcinoma"], technologies: ["pancreatic-surveillance"],
+    cancers: ["pancreatic", "cholangiocarcinoma"], technologies: ["pancreatic-surveillance"], links: [{ label: "Wikipedia", url: W("CA19-9") }],
   },
   {
     id: "desmoplasia", kind: "term", name: "Desmoplasia (tumour stroma)", category: "Biology", asOf, wikipedia: W("Desmoplasia"),
     tldr: "The dense scar-like tissue that makes up most of a pancreatic tumour, walling off cancer cells from drugs and immune cells.",
     summary: "Cancer-associated fibroblasts, collagen, and hyaluronan can constitute 70-90% of PDAC volume, compressing vessels, limiting drug delivery, and excluding T cells. Stroma-depleting strategies failed or harmed (hedgehog inhibitors, PEGPH20 in HALO-301), revealing that stroma also restrains tumours. FAP-expressing fibroblasts are now an imaging and radioligand target rather than a depletion target.",
-    cancers: ["pancreatic"], targets: ["fap"], technologies: ["fapi-pet"], terms: ["cold-vs-hot"],
+    cancers: ["pancreatic"], targets: ["fap"], technologies: ["fapi-pet"], terms: ["cold-vs-hot"], links: [{ label: "Wikipedia", url: W("Desmoplasia") }],
   },
 
   // ======================= COMPANIES =======================

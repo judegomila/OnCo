@@ -29,7 +29,7 @@ export const pathways: PathwayInput[] = [
       { from: "akt", to: "foxo", type: "inhibits" }, { from: "mtor", to: "growth" },
     ],
     interventions: ["PI3Kα inhibitors (alpelisib, inavolisib) for PIK3CA-mutant HR+ breast cancer", "AKT inhibitor capivasertib for PIK3CA/AKT1/PTEN-altered breast and PTEN-deficient prostate cancer", "mTOR inhibitor everolimus", "Dual PI3K/mTOR gedatolisib (2026)", "Upstream: anti-HER2, anti-EGFR"],
-    targets: ["pik3ca", "akt", "her2", "egfr"], drugs: ["capivasertib", "inavolisib", "gedatolisib"], cancers: ["breast-hr-positive", "endometrial", "prostate"],
+    targets: ["pik3ca", "akt", "her2", "egfr"], drugs: ["capivasertib", "inavolisib", "gedatolisib"], cancers: ["breast-hr-positive", "endometrial", "prostate"], links: [{ label: "Wikipedia", url: W("PI3K/AKT/mTOR_pathway") }],
   }),
   p({
     id: "ras-mapk", name: "RAS / RAF / MEK / ERK (MAPK)", wikipedia: W("MAPK/ERK_pathway"),
@@ -51,7 +51,7 @@ export const pathways: PathwayInput[] = [
       { from: "rtk", to: "sos" }, { from: "sos", to: "ras" }, { from: "nf1", to: "ras", type: "inhibits" }, { from: "ras", to: "raf" }, { from: "raf", to: "mek" }, { from: "mek", to: "erk" }, { from: "erk", to: "out" }, { from: "erk", to: "fb" }, { from: "fb", to: "rtk", type: "inhibits" },
     ],
     interventions: ["KRAS G12C inhibitors (sotorasib, adagrasib) ± anti-EGFR in colorectal cancer", "Pan-RAS(ON) inhibitor daraxonrasib (phase 3, pancreatic)", "BRAF + MEK inhibitors (dabrafenib/trametinib, encorafenib/binimetinib)", "Encorafenib + cetuximab (+ chemo) in BRAF V600E CRC", "Upstream: EGFR, ALK, RET, MET, NTRK inhibitors and bispecifics"],
-    targets: ["kras", "braf", "egfr", "alk", "ret", "met", "ntrk", "fgfr2", "kit"], drugs: ["sotorasib", "adagrasib", "daraxonrasib", "encorafenib", "osimertinib", "lorlatinib"], cancers: ["pancreatic", "colorectal", "nsclc", "melanoma"],
+    targets: ["kras", "braf", "egfr", "alk", "ret", "met", "ntrk", "fgfr2", "kit"], drugs: ["sotorasib", "adagrasib", "daraxonrasib", "encorafenib", "osimertinib", "lorlatinib"], cancers: ["pancreatic", "colorectal", "nsclc", "melanoma"], links: [{ label: "Wikipedia", url: W("MAPK/ERK_pathway") }],
   }),
   p({
     id: "p53-cell-cycle", name: "p53 / RB / cell-cycle checkpoint", wikipedia: W("Cell_cycle_checkpoint"),
@@ -74,7 +74,7 @@ export const pathways: PathwayInput[] = [
       { from: "dmg", to: "atm" }, { from: "atm", to: "p53" }, { from: "mdm2", to: "p53", type: "inhibits" }, { from: "p53", to: "p21" }, { from: "p21", to: "cdk46", type: "inhibits" }, { from: "cdk46", to: "rb", type: "inhibits" }, { from: "rb", to: "e2f", type: "inhibits" }, { from: "e2f", to: "s" }, { from: "atm", to: "wee1" },
     ],
     interventions: ["CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib)", "WEE1 inhibitors (azenosertib) and PLK1 inhibitors in TP53-mutant tumours", "MDM2 inhibitors (brigimadlin) in TP53-wild-type tumours", "p53 Y220C reactivator rezatapopt", "CDK2 inhibitors for CCNE1-amplified and CDK4/6-resistant disease"],
-    targets: ["tp53", "cdk4-6", "wee1", "atr"], drugs: ["palbociclib", "ribociclib", "abemaciclib"], cancers: ["breast-hr-positive", "tnbc", "ovarian", "sarcoma"],
+    targets: ["tp53", "cdk4-6", "wee1", "atr"], drugs: ["palbociclib", "ribociclib", "abemaciclib"], cancers: ["breast-hr-positive", "tnbc", "ovarian", "sarcoma"], links: [{ label: "Wikipedia", url: W("Cell_cycle_checkpoint") }],
   }),
   p({
     id: "ddr", name: "DNA damage response & homologous recombination", wikipedia: W("DNA_repair"),
@@ -96,7 +96,7 @@ export const pathways: PathwayInput[] = [
       { from: "ssb", to: "parp" }, { from: "parp", to: "fork", type: "inhibits" }, { from: "ssb", to: "fork" }, { from: "fork", to: "dsb" }, { from: "atr", to: "fork", type: "inhibits" }, { from: "dsb", to: "brca" }, { from: "dsb", to: "nhej" }, { from: "brca", to: "fix" }, { from: "nhej", to: "death" },
     ],
     interventions: ["PARP inhibitors in BRCA/HRD ovarian, breast, prostate, pancreatic cancer", "Platinum chemotherapy (crosslinks) in HRD tumours", "ATR inhibitors (ceralasertib) in ATM-deficient or PARP-resistant tumours", "POLQ inhibitors (novobiocin analogues) in HRD", "PARP1-selective saruparib to widen therapeutic window"],
-    targets: ["parp", "brca", "atr", "wee1", "tp53"], drugs: ["olaparib", "niraparib", "talazoparib", "carboplatin"], technologies: ["parp-inhibitor", "hrd-testing", "synthetic-lethality-approaches", "platinum", "parp-pet"], cancers: ["ovarian", "tnbc", "prostate", "pancreatic"],
+    targets: ["parp", "brca", "atr", "wee1", "tp53"], drugs: ["olaparib", "niraparib", "talazoparib", "carboplatin"], technologies: ["parp-inhibitor", "hrd-testing", "synthetic-lethality-approaches", "platinum", "parp-pet"], cancers: ["ovarian", "tnbc", "prostate", "pancreatic"], links: [{ label: "Wikipedia", url: W("DNA_repair") }],
   }),
   p({
     id: "pd1-checkpoint", name: "PD-1 / PD-L1 immune checkpoint & T-cell activation", wikipedia: W("Immune_checkpoint"),
@@ -119,7 +119,7 @@ export const pathways: PathwayInput[] = [
       { from: "dc", to: "tcr" }, { from: "dc", to: "cd28" }, { from: "tcr", to: "tcell" }, { from: "cd28", to: "tcell" }, { from: "ctla4", to: "cd28", type: "inhibits" }, { from: "tcell", to: "ifn" }, { from: "ifn", to: "pdl1" }, { from: "pdl1", to: "pd1" }, { from: "pd1", to: "tcell", type: "inhibits" }, { from: "lag3", to: "tcell", type: "inhibits" }, { from: "tcell", to: "kill" },
     ],
     interventions: ["Anti-PD-1 (pembrolizumab, nivolumab), anti-PD-L1 (atezolizumab, durvalumab)", "Anti-CTLA-4 (ipilimumab) ± anti-PD-1", "Anti-LAG-3 (relatlimab) + nivolumab", "PD-1×VEGF bispecifics (ivonescimab)", "Vaccines, T-cell engagers, and CAR-T supply signal 1 by other means"],
-    targets: ["pd1", "pdl1", "ctla4", "lag3", "tigit", "cd3"], drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "relatlimab-nivolumab", "ivonescimab"], technologies: ["checkpoint-inhibitor", "t-cell-engager", "neoantigen-mrna-vaccine"], cancers: ["melanoma", "nsclc", "tnbc", "rcc", "urothelial"],
+    targets: ["pd1", "pdl1", "ctla4", "lag3", "tigit", "cd3"], drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "relatlimab-nivolumab", "ivonescimab"], technologies: ["checkpoint-inhibitor", "t-cell-engager", "neoantigen-mrna-vaccine"], cancers: ["melanoma", "nsclc", "tnbc", "rcc", "urothelial"], links: [{ label: "Wikipedia", url: W("Immune_checkpoint") }],
   }),
   p({
     id: "cgas-sting", name: "cGAS–STING innate sensing", wikipedia: W("Stimulator_of_interferon_genes"),
@@ -140,7 +140,7 @@ export const pathways: PathwayInput[] = [
       { from: "dmg", to: "dna" }, { from: "dna", to: "cgas" }, { from: "cgas", to: "cgamp" }, { from: "enpp1", to: "cgamp", type: "inhibits" }, { from: "cgamp", to: "sting" }, { from: "sting", to: "tbk1" }, { from: "tbk1", to: "ifn" },
     ],
     interventions: ["Radiotherapy (especially hypofractionated) + checkpoint inhibitors", "PARP inhibitor + PD-1 combinations", "STING agonists (intratumoural, systemic, antibody-conjugated)", "ENPP1 inhibitors", "TOP1-payload ADCs + IO (ASCENT-04, EV-302 analogues)"],
-    targets: ["parp", "pd1"], technologies: ["sbrt", "sting-agonist", "immune-stimulating-adc", "parp-inhibitor", "adc"], terms: ["abscopal-effect", "immunogenic-cell-death"],
+    targets: ["parp", "pd1"], technologies: ["sbrt", "sting-agonist", "immune-stimulating-adc", "parp-inhibitor", "adc"], terms: ["abscopal-effect", "immunogenic-cell-death"], links: [{ label: "Wikipedia", url: W("Stimulator_of_interferon_genes") }],
   }),
   p({
     id: "er-signaling", name: "Oestrogen receptor signalling", wikipedia: W("Estrogen_receptor"),
@@ -162,7 +162,7 @@ export const pathways: PathwayInput[] = [
       { from: "andro", to: "arom" }, { from: "arom", to: "e2" }, { from: "e2", to: "er" }, { from: "esr1mut", to: "er" }, { from: "coact", to: "er" }, { from: "er", to: "ccnd1" }, { from: "ccnd1", to: "cdk" }, { from: "cdk", to: "prol" },
     ],
     interventions: ["Aromatase inhibitors (letrozole, anastrozole, exemestane) ± ovarian suppression", "SERMs (tamoxifen)", "SERDs: fulvestrant, elacestrant, imlunestrant, camizestrant", "PROTAC degrader vepdegestrant (2026)", "CDK4/6 inhibitors downstream; PI3K/AKT inhibitors for cross-talk"],
-    targets: ["estrogen-receptor", "cdk4-6", "pik3ca"], drugs: ["vepdegestrant", "elacestrant", "palbociclib", "ribociclib", "abemaciclib"], technologies: ["endocrine-therapy", "protac-degrader", "cdk46-inhibitor"], cancers: ["breast-hr-positive"],
+    targets: ["estrogen-receptor", "cdk4-6", "pik3ca"], drugs: ["vepdegestrant", "elacestrant", "palbociclib", "ribociclib", "abemaciclib"], technologies: ["endocrine-therapy", "protac-degrader", "cdk46-inhibitor"], cancers: ["breast-hr-positive"], links: [{ label: "Wikipedia", url: W("Estrogen_receptor") }],
   }),
   p({
     id: "ar-signaling", name: "Androgen receptor signalling", wikipedia: W("Androgen_receptor"),
@@ -183,7 +183,7 @@ export const pathways: PathwayInput[] = [
       { from: "gnrh", to: "testo" }, { from: "cyp17", to: "testo" }, { from: "testo", to: "dht" }, { from: "dht", to: "ar" }, { from: "arv7", to: "ar" }, { from: "ar", to: "genes" }, { from: "genes", to: "prol" },
     ],
     interventions: ["GnRH agonists/antagonists (leuprolide, relugolix)", "CYP17A1 inhibitor abiraterone", "AR antagonists enzalutamide, apalutamide, darolutamide", "PARP inhibitors + ARPI in HRR-mutant disease; capivasertib + abiraterone in PTEN-deficient", "AR degraders, N-terminal domain inhibitors (trials)"],
-    targets: ["androgen-receptor", "parp", "akt", "psma"], drugs: ["capivasertib", "olaparib", "talazoparib", "niraparib"], technologies: ["androgen-deprivation"], cancers: ["prostate"],
+    targets: ["androgen-receptor", "parp", "akt", "psma"], drugs: ["capivasertib", "olaparib", "talazoparib", "niraparib"], technologies: ["androgen-deprivation"], cancers: ["prostate"], links: [{ label: "Wikipedia", url: W("Androgen_receptor") }],
   }),
   p({
     id: "apoptosis-bcl2", name: "Intrinsic apoptosis (BCL-2 family)", wikipedia: W("Bcl-2_family"),
@@ -203,7 +203,7 @@ export const pathways: PathwayInput[] = [
       { from: "stress", to: "bh3" }, { from: "bh3", to: "bcl2", type: "inhibits" }, { from: "bh3", to: "bax" }, { from: "bcl2", to: "bax", type: "inhibits" }, { from: "bax", to: "momp" }, { from: "momp", to: "cytc" }, { from: "cytc", to: "casp" },
     ],
     interventions: ["Venetoclax (BCL-2) in CLL, AML, mantle cell lymphoma", "Next-generation BCL-2 inhibitors sonrotoclax, lisaftoclax", "MCL-1 inhibitors (limited by cardiotoxicity)", "BCL-XL PROTACs sparing platelets", "Combinations with hypomethylating agents, BTK inhibitors, menin inhibitors"],
-    targets: ["bcl2", "tp53", "menin"], drugs: ["venetoclax"], cancers: ["cll", "aml", "dlbcl"],
+    targets: ["bcl2", "tp53", "menin"], drugs: ["venetoclax"], cancers: ["cll", "aml", "dlbcl"], links: [{ label: "Wikipedia", url: W("Bcl-2_family") }],
   }),
   p({
     id: "vegf-angiogenesis", name: "VEGF angiogenesis", wikipedia: W("Angiogenesis"),
@@ -223,7 +223,7 @@ export const pathways: PathwayInput[] = [
       { from: "hyp", to: "hif" }, { from: "hif", to: "vegf" }, { from: "vegf", to: "vegfr" }, { from: "vegfr", to: "sig" }, { from: "sig", to: "ang" }, { from: "vegf", to: "imm" },
     ],
     interventions: ["Bevacizumab, ramucirumab (antibodies)", "VEGFR TKIs: axitinib, cabozantinib, lenvatinib, sunitinib", "IO + VEGF combinations in RCC, HCC, endometrial cancer", "PD-1×VEGF bispecifics: ivonescimab and successors", "HIF-2α inhibitor belzutifan upstream in VHL-deficient RCC"],
-    targets: ["vegf", "hif2a", "pd1"], drugs: ["ivonescimab", "belzutifan", "atezolizumab"], technologies: ["antiangiogenic"], cancers: ["rcc", "hcc", "colorectal", "nsclc"],
+    targets: ["vegf", "hif2a", "pd1"], drugs: ["ivonescimab", "belzutifan", "atezolizumab"], technologies: ["antiangiogenic"], cancers: ["rcc", "hcc", "colorectal", "nsclc"], links: [{ label: "Wikipedia", url: W("Angiogenesis") }],
   }),
   p({
     id: "hif-vhl", name: "VHL / HIF oxygen sensing", wikipedia: W("Hypoxia-inducible_factor"),
@@ -243,7 +243,7 @@ export const pathways: PathwayInput[] = [
       { from: "o2", to: "phd" }, { from: "phd", to: "vhl" }, { from: "vhl", to: "hif", type: "inhibits" }, { from: "arnt", to: "hif" }, { from: "hif", to: "genes" }, { from: "genes", to: "out" },
     ],
     interventions: ["Belzutifan (HIF-2α) in VHL disease and RCC, adjuvant with pembrolizumab (2026)", "VEGF-directed therapy downstream", "CAIX-targeted imaging (89Zr-girentuximab) and radioligands in development"],
-    targets: ["hif2a", "vegf"], drugs: ["belzutifan"], cancers: ["rcc"],
+    targets: ["hif2a", "vegf"], drugs: ["belzutifan"], cancers: ["rcc"], links: [{ label: "Wikipedia", url: W("Hypoxia-inducible_factor") }],
   }),
   p({
     id: "wnt", name: "Wnt / β-catenin", wikipedia: W("Wnt_signaling_pathway"),
@@ -263,7 +263,7 @@ export const pathways: PathwayInput[] = [
       { from: "wnt", to: "fzd" }, { from: "rnf43", to: "fzd", type: "inhibits" }, { from: "fzd", to: "dc", type: "inhibits" }, { from: "dc", to: "bcat", type: "inhibits" }, { from: "bcat", to: "tcf" }, { from: "tcf", to: "genes" },
     ],
     interventions: ["Porcupine inhibitors (RSPO-fusion / RNF43-mutant tumours, trials)", "Gamma-secretase inhibitor nirogacestat in desmoid tumours (approved 2023)", "Tankyrase inhibitors (preclinical/early)", "Indirect: chemoprevention with aspirin/COX-2 in Lynch and FAP"],
-    targets: ["gpc3"], cancers: ["colorectal", "hcc", "endometrial"], technologies: ["chemoprevention"],
+    targets: ["gpc3"], cancers: ["colorectal", "hcc", "endometrial"], technologies: ["chemoprevention"], links: [{ label: "Wikipedia", url: W("Wnt_signaling_pathway") }],
   }),
   p({
     id: "emt", name: "Epithelial–mesenchymal transition & drug efflux", wikipedia: W("Epithelial–mesenchymal_transition"),
@@ -284,7 +284,7 @@ export const pathways: PathwayInput[] = [
       { from: "tgf", to: "tf" }, { from: "tf", to: "ecad", type: "inhibits" }, { from: "tf", to: "vim" }, { from: "tf", to: "abc" }, { from: "tf", to: "stem" }, { from: "tf", to: "imm" }, { from: "vim", to: "out" }, { from: "abc", to: "out" }, { from: "stem", to: "out" },
     ],
     interventions: ["No approved direct EMT inhibitor", "Payloads with low efflux susceptibility (sac-TMT's belotecan derivative claims this) and radiation (efflux-independent)", "TGF-β pathway blockade (mostly failed so far)", "Ferroptosis inducers for mesenchymal-state cells (preclinical)", "Immune approaches to overcome exclusion (STING, radiation)"],
-    targets: ["trop2"], technologies: ["adc", "radioligand-therapy", "single-cell-spatial"], cancers: ["tnbc", "nsclc"], terms: ["efflux-pump", "resistance"],
+    targets: ["trop2"], technologies: ["adc", "radioligand-therapy", "single-cell-spatial"], cancers: ["tnbc", "nsclc"], terms: ["efflux-pump", "resistance"], links: [{ label: "Wikipedia", url: W("Epithelial–mesenchymal_transition") }],
   }),
   p({
     id: "bcr-signalling", name: "B-cell receptor / BTK signalling (to NF-κB)", wikipedia: W("B-cell_receptor"),
@@ -306,7 +306,7 @@ export const pathways: PathwayInput[] = [
       { from: "bcr", to: "btk" }, { from: "btk", to: "cbm" }, { from: "tlr", to: "cbm" }, { from: "cbm", to: "ikk" }, { from: "ikk", to: "ikb", type: "inhibits" }, { from: "ikb", to: "nfkb", type: "inhibits" }, { from: "nfkb", to: "out" }, { from: "irf4", to: "nfkb" }, { from: "nfkb", to: "irf4" },
     ],
     interventions: ["Covalent BTK inhibitors ibrutinib, acalabrutinib, zanubrutinib; non-covalent pirtobrutinib after BTK C481S resistance; BTK degraders in trials", "Proteasome inhibitors bortezomib, carfilzomib and ixazomib block IκB degradation in multiple myeloma and mantle cell lymphoma", "Lenalidomide and the CELMoDs degrade IKZF1/3, cutting IRF4 and NF-κB output", "BCL2 inhibition (venetoclax) removes the main survival gene NF-κB switches on"],
-    drugs: ["ibrutinib", "bortezomib", "lenalidomide", "venetoclax"], cancers: ["dlbcl", "cll", "mantle-cell-lymphoma", "waldenstrom", "multiple-myeloma"], targets: ["bcl2"], pathways: ["inflammation-nfkb", "apoptosis-bcl2"],
+    drugs: ["ibrutinib", "bortezomib", "lenalidomide", "venetoclax"], cancers: ["dlbcl", "cll", "mantle-cell-lymphoma", "waldenstrom", "multiple-myeloma"], targets: ["bcl2"], pathways: ["inflammation-nfkb", "apoptosis-bcl2"], links: [{ label: "Wikipedia", url: W("B-cell_receptor") }],
   }),
   p({
     id: "idh-2hg", name: "Mutant IDH / 2-hydroxyglutarate", wikipedia: W("Isocitrate_dehydrogenase"),
@@ -326,7 +326,7 @@ export const pathways: PathwayInput[] = [
       { from: "idh", to: "hg" }, { from: "akg", to: "hg" }, { from: "hg", to: "tet", type: "inhibits" }, { from: "hg", to: "kdm", type: "inhibits" }, { from: "tet", to: "meth", type: "inhibits" }, { from: "kdm", to: "meth", type: "inhibits" }, { from: "meth", to: "block" },
     ],
     interventions: ["Ivosidenib (IDH1) for relapsed AML, first-line AML with azacitidine (AGILE), IDH1-mutant cholangiocarcinoma and MDS", "Olutasidenib (IDH1) and enasidenib (IDH2) for relapsed or refractory AML", "Vorasidenib (dual IDH1/2, brain-penetrant) for residual or recurrent grade 2 IDH-mutant astrocytoma and oligodendroglioma (INDIGO)", "Differentiation syndrome is the class toxicity; steroids and hydroxyurea manage it", "Combination with venetoclax and azacitidine, and with PARP inhibitors (2-HG induces a homologous-recombination defect), under study"],
-    drugs: ["ivosidenib", "olutasidenib", "enasidenib", "vorasidenib"], cancers: ["aml", "glioblastoma", "cholangiocarcinoma", "mds"], targets: ["idh"], trials: ["indigo"], pathways: ["epigenetic-reprogramming"],
+    drugs: ["ivosidenib", "olutasidenib", "enasidenib", "vorasidenib"], cancers: ["aml", "glioblastoma", "cholangiocarcinoma", "mds"], targets: ["idh"], trials: ["indigo"], pathways: ["epigenetic-reprogramming"], links: [{ label: "Wikipedia", url: W("Isocitrate_dehydrogenase") }],
   }),
   p({
     id: "fgfr-signalling", name: "FGF / FGFR signalling", wikipedia: W("Fibroblast_growth_factor_receptor"),
@@ -347,7 +347,7 @@ export const pathways: PathwayInput[] = [
       { from: "fgf", to: "fgfr" }, { from: "fgfr", to: "frs2" }, { from: "frs2", to: "ras" }, { from: "frs2", to: "pi3k" }, { from: "fgfr", to: "plc" }, { from: "ras", to: "out" }, { from: "pi3k", to: "out" }, { from: "plc", to: "out" }, { from: "phos", to: "fgfr" },
     ],
     interventions: ["Erdafitinib for FGFR3-altered advanced urothelial cancer after platinum and PD-1/PD-L1 therapy (THOR)", "Pemigatinib and futibatinib for FGFR2-fusion cholangiocarcinoma; futibatinib's covalent binding keeps activity against gatekeeper mutations", "Bemarituzumab (anti-FGFR2b) with chemotherapy in FGFR2b-overexpressing gastric cancer (FORTITUDE-101)", "Phosphate binders and diet for hyperphosphataemia; eye examinations for central serous retinopathy", "Selective FGFR2 and FGFR3 inhibitors under development to widen the therapeutic window"],
-    drugs: ["erdafitinib", "pemigatinib", "futibatinib", "bemarituzumab"], cancers: ["urothelial", "cholangiocarcinoma", "gastric"], targets: ["fgfr2", "kras", "pik3ca"], pathways: ["ras-mapk", "pi3k-akt-mtor"],
+    drugs: ["erdafitinib", "pemigatinib", "futibatinib", "bemarituzumab"], cancers: ["urothelial", "cholangiocarcinoma", "gastric"], targets: ["fgfr2", "kras", "pik3ca"], pathways: ["ras-mapk", "pi3k-akt-mtor"], links: [{ label: "Wikipedia", url: W("Fibroblast_growth_factor_receptor") }],
   }),
   p({
     id: "menin-kmt2a", name: "Menin / KMT2A (HOXA9-MEIS1 axis)", wikipedia: W("KMT2A"),
@@ -368,7 +368,7 @@ export const pathways: PathwayInput[] = [
       { from: "kmt2a", to: "menin" }, { from: "npm1", to: "menin" }, { from: "menin", to: "chrom" }, { from: "dot1l", to: "chrom" }, { from: "chrom", to: "hox" }, { from: "hox", to: "out" }, { from: "flt3", to: "out" },
     ],
     interventions: ["Revumenib for relapsed or refractory KMT2A-rearranged acute leukaemia (approved 2024) and NPM1-mutant AML", "Ziftomenib for relapsed or refractory NPM1-mutant AML (approved 2025)", "Combinations with venetoclax plus azacitidine and with FLT3 inhibitors in front-line trials", "Differentiation syndrome and QT prolongation need monitoring; MEN1 pocket mutations cause resistance", "DOT1L inhibition (pinometostat) showed limited single-agent activity"],
-    drugs: ["revumenib", "ziftomenib", "venetoclax", "azacitidine"], cancers: ["aml", "all-leukemia"], targets: ["menin", "flt3"], pathways: ["epigenetic-reprogramming"],
+    drugs: ["revumenib", "ziftomenib", "venetoclax", "azacitidine"], cancers: ["aml", "all-leukemia"], targets: ["menin", "flt3"], pathways: ["epigenetic-reprogramming"], links: [{ label: "Wikipedia", url: W("KMT2A") }],
   }),
   p({
     id: "bcr-abl1-signalling", name: "BCR::ABL1 (Philadelphia chromosome)", wikipedia: W("Philadelphia_chromosome"),
@@ -389,7 +389,7 @@ export const pathways: PathwayInput[] = [
       { from: "t922", to: "bcrabl" }, { from: "bcrabl", to: "grb2" }, { from: "bcrabl", to: "stat5" }, { from: "grb2", to: "ras" }, { from: "grb2", to: "pi3k" }, { from: "bcrabl", to: "ros" }, { from: "ras", to: "out" }, { from: "pi3k", to: "out" }, { from: "stat5", to: "out" }, { from: "ros", to: "out" },
     ],
     interventions: ["Imatinib, the first-generation ATP-site inhibitor; dasatinib, nilotinib, bosutinib as more potent second-generation options", "Ponatinib for the T315I gatekeeper mutation", "Asciminib, an allosteric STAMP inhibitor, alone or with an ATP-site inhibitor against compound mutations", "Molecular monitoring (BCR::ABL1 transcripts) to guide treatment-free remission attempts", "In Ph-positive ALL: TKI with chemotherapy or with blinatumomab, and transplant for high-risk disease"],
-    drugs: ["imatinib", "dasatinib", "nilotinib", "bosutinib", "ponatinib", "asciminib"], cancers: ["cml", "all-leukemia"], targets: ["kras", "pik3ca"], pathways: ["ras-mapk", "pi3k-akt-mtor", "jak-stat"],
+    drugs: ["imatinib", "dasatinib", "nilotinib", "bosutinib", "ponatinib", "asciminib"], cancers: ["cml", "all-leukemia"], targets: ["kras", "pik3ca"], pathways: ["ras-mapk", "pi3k-akt-mtor", "jak-stat"], links: [{ label: "Wikipedia", url: W("Philadelphia_chromosome") }],
   }),
   p({
     id: "cd47-sirpa", name: "CD47 / SIRPα (the 'don't eat me' signal)", wikipedia: W("CD47"),
@@ -409,6 +409,6 @@ export const pathways: PathwayInput[] = [
       { from: "cd47", to: "sirpa" }, { from: "sirpa", to: "shp" }, { from: "shp", to: "phago", type: "inhibits" }, { from: "eat", to: "phago" }, { from: "phago", to: "present" }, { from: "rbc", to: "sirpa" },
     ],
     interventions: ["Anti-CD47 magrolimab with azacitidine: phase 3 ENHANCE, ENHANCE-2 and ENHANCE-3 stopped for futility or harm; programme discontinued (2024)", "SIRPα-Fc fusions (evorpacept) and Fc-silent or low-affinity anti-CD47 antibodies designed to spare red cells", "CD47 × CD19 or CD20 bispecifics to confine blockade to B-cell tumours", "Combination with opsonising antibodies (rituximab, cetuximab, trastuzumab) to supply the 'eat me' signal"],
-    drugs: ["magrolimab"], cancers: ["aml", "mds", "dlbcl"], targets: ["cd47"], trials: ["magrolimab"], pathways: ["antigen-presentation-immunoediting", "tumor-microenvironment"],
+    drugs: ["magrolimab"], cancers: ["aml", "mds", "dlbcl"], targets: ["cd47"], trials: ["magrolimab"], pathways: ["antigen-presentation-immunoediting", "tumor-microenvironment"], links: [{ label: "Wikipedia", url: W("CD47") }],
   }),
 ];

@@ -34,7 +34,7 @@ const trials: TrialInput[] = [
     ],
     replication: "Consistent with CheckMate 8HW (nivolumab ± ipilimumab) and the earlier single-arm KEYNOTE-164/CheckMate 142 cohorts; the class effect in dMMR CRC is replicated across three antibodies.",
     drugs: ["pembrolizumab"], cancers: ["colorectal"], targets: ["pd1"], terms: ["msi"], technologies: ["checkpoint-inhibitor"],
-    links: [ct("NCT02563002"), { label: "5-year follow-up, Annals of Oncology 2024", url: "https://www.annalsofoncology.org/article/S0923-7534(24)04949-4/fulltext" }] }),
+    links: [ct("NCT02563002"), { label: "5-year follow-up, Annals of Oncology 2024", url: "https://www.annalsofoncology.org/article/S0923-7534(24)04949-4/fulltext" }], people: ["thierry-andre"] }),
   t({ id: "checkmate-8hw", name: "CheckMate 8HW", nct: "NCT04008030", phase: "3", status: "positive", yearReported: 2024, sponsor: "BMS", enrolled: 839,
     setting: "MSI-H/dMMR metastatic colorectal cancer, all lines: nivolumab + ipilimumab vs nivolumab vs chemotherapy",
     tldr: "Showed that a two-drug immunotherapy combination controls mismatch-repair-deficient bowel cancer for over four years on average, and beats immunotherapy alone.",
@@ -46,7 +46,7 @@ const trials: TrialInput[] = [
     ],
     replication: "Consistent with KEYNOTE-177 for PD-1 monotherapy; the doublet-over-monotherapy result is so far unique to this trial.",
     drugs: ["nivolumab", "ipilimumab"], cancers: ["colorectal"], targets: ["pd1", "ctla4"], terms: ["msi"],
-    links: [ct("NCT04008030"), { label: "NEJM 2024", url: "https://www.nejm.org/doi/abs/10.1056/NEJMoa2402141" }, { label: "Lancet 2025", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02848-4/abstract" }] }),
+    links: [ct("NCT04008030"), { label: "NEJM 2024", url: "https://www.nejm.org/doi/abs/10.1056/NEJMoa2402141" }, { label: "Lancet 2025", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02848-4/abstract" }], people: ["thierry-andre", "heinz-josef-lenz"] }),
   t({ id: "niche-2", name: "NICHE-2", nct: "NCT03026140", phase: "2", status: "positive", yearReported: 2022, sponsor: "Netherlands Cancer Institute", enrolled: 115,
     setting: "Locally advanced (mostly stage III) dMMR colon cancer: 4 weeks of neoadjuvant nivolumab + one dose ipilimumab, then surgery",
     tldr: "In NICHE-2, four weeks of immunotherapy before surgery wiped out most mismatch-repair-deficient colon cancers, and nobody had relapsed three years later.",
@@ -88,7 +88,7 @@ const trials: TrialInput[] = [
     ],
     replication: "Two independent chemotherapy-backbone cohorts within BREAKWATER reproduce the effect; BEACON established the doublet in later lines.",
     drugs: ["encorafenib", "cetuximab", "folfox", "folfiri"], cancers: ["colorectal"], targets: ["braf", "egfr"], pathways: ["ras-mapk"],
-    links: [ct("NCT04607421"), { label: "ASCO 2025 LBA3500", url: "https://ascopubs.org/doi/10.1200/JCO.2025.43.17_suppl.LBA3500" }, { label: "ASCO 2026 LBA3503 (FOLFIRI)", url: "https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA3503" }] }),
+    links: [ct("NCT04607421"), { label: "ASCO 2025 LBA3500", url: "https://ascopubs.org/doi/10.1200/JCO.2025.43.17_suppl.LBA3500" }, { label: "ASCO 2026 LBA3503 (FOLFIRI)", url: "https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA3503" }], people: ["scott-kopetz"], terms: ["project-frontrunner"] }),
   t({ id: "paradigm", name: "PARADIGM", nct: "NCT02394795", phase: "3", status: "positive", yearReported: 2022, sponsor: "Takeda (Japan)", enrolled: 823,
     setting: "First-line RAS wild-type metastatic colorectal cancer: panitumumab + mFOLFOX6 vs bevacizumab + mFOLFOX6",
     tldr: "Proved that for RAS-normal tumours starting on the left side of the colon, an EGFR antibody beats the VEGF antibody as first partner for chemotherapy.",
@@ -106,7 +106,7 @@ const trials: TrialInput[] = [
     outcomes: [{ endpoint: "Overall survival, KRAS wild-type (CRYSTAL)", unit: "months", arms: [{ name: "FOLFIRI + cetuximab", value: 23.5 }, { name: "FOLFIRI", value: 20.0 }], hr: 0.80, source: "https://www.nejm.org/doi/full/10.1056/NEJMoa0805019" }],
     replication: "Replicated by PRIME (panitumumab + FOLFOX) and PARADIGM.",
     drugs: ["cetuximab", "bevacizumab", "folfiri"], cancers: ["colorectal"], targets: ["egfr", "kras"], terms: ["sidedness"],
-    links: [{ label: "CRYSTAL, NEJM 2009", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa0805019" }] }),
+    links: [{ label: "CRYSTAL, NEJM 2009", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa0805019" }], people: ["volker-heinemann", "eric-van-cutsem"] }),
   t({ id: "mountaineer", name: "MOUNTAINEER & MOUNTAINEER-03", nct: "NCT03043313", phase: "3", status: "recruiting", yearReported: 2022, sponsor: "Pfizer (Seagen)",
     setting: "HER2-positive RAS wild-type metastatic colorectal cancer: tucatinib + trastuzumab (phase 2, pretreated); tucatinib + trastuzumab + mFOLFOX6 vs standard first line (phase 3)",
     tldr: "A HER2 pill plus antibody gave durable responses in the 3-5% of bowel cancers driven by HER2, and is now being tested as first-line treatment.",
@@ -149,7 +149,7 @@ const trials: TrialInput[] = [
     result: "GALAXY: ctDNA+ post-op HR for recurrence ~10; ALTAIR: DFS endpoint not met.",
     replication: "DYNAMIC (Australia) independently supports de-escalation in ctDNA-negative stage II; escalation strategies remain unproven.",
     technologies: ["mrd-testing", "liquid-biopsy"], drugs: ["signatera", "trifluridine-tipiracil", "capox"], cancers: ["colorectal"], terms: ["mrd", "ctdna"], trials: ["dynamic"], institutions: ["ncc-japan"],
-    links: [{ label: "GALAXY, Nature Medicine 2023", url: "https://www.nature.com/articles/s41591-022-02115-4" }] }),
+    links: [{ label: "GALAXY, Nature Medicine 2023", url: "https://www.nature.com/articles/s41591-022-02115-4" }], people: ["jeanne-tie"] }),
 ];
 
 // ======================= DRUGS & REGIMENS =======================
@@ -185,8 +185,8 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Hypertension", note: "Common; manageable" }, { event: "Proteinuria" }, { event: "GI perforation", note: "Rare, boxed warning" }, { event: "Bleeding", note: "Epistaxis common; serious haemorrhage rare" }, { event: "Impaired wound healing", note: "Boxed warning" }],
     approvals: [{ region: "US", year: 2004, indication: "First-line metastatic colorectal cancer with 5-FU chemotherapy" }, { region: "US", year: 2006, indication: "NSCLC; later ovarian, cervical, RCC, glioblastoma, HCC" }, { region: "US", year: 2023, indication: "Refractory mCRC with trifluridine/tipiracil (SUNLIGHT)" }],
     regulatoryEvents: [{ date: "2004-02", type: "approval", region: "US", note: "First anti-angiogenic approval (AVF2107)" }, { date: "2017-09", type: "approval", region: "US", note: "First biosimilar (bevacizumab-awwb) approved" }, { date: "2023-08", type: "label-change", region: "US", note: "With trifluridine/tipiracil in refractory mCRC" }],
-    targets: ["vegf"], technologies: ["monoclonal-antibody", "antiangiogenic"], companies: ["roche-genentech"], cancers: ["colorectal", "ovarian", "nsclc", "rcc", "hcc", "cervical", "glioblastoma"], trials: ["sunlight", "paradigm"], pathways: ["vegf-angiogenesis"], related: ["bevacizumab-glioma"],
-    links: [{ label: "FDA label", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125085s340lbl.pdf" }] }),
+    targets: ["vegf"], technologies: ["monoclonal-antibody", "antiangiogenic"], companies: ["roche-genentech", "hetero"], cancers: ["colorectal", "ovarian", "nsclc", "rcc", "hcc", "cervical", "glioblastoma"], trials: ["sunlight", "paradigm"], pathways: ["vegf-angiogenesis"], related: ["bevacizumab-glioma"],
+    links: [{ label: "FDA label", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125085s340lbl.pdf" }], people: ["judah-folkman"] }),
   d({ id: "trifluridine-tipiracil", name: "Trifluridine/tipiracil", brand: "Lonsurf", code: "TAS-102", modality: "Cytotoxic chemotherapy (oral nucleoside)", status: "approved", wikipedia: W("Trifluridine/tipiracil"),
     tldr: "An oral chemotherapy pill for bowel cancer that has stopped responding to everything else; with bevacizumab it extends life by about three months.",
     summary: "Trifluridine is incorporated into DNA; tipiracil blocks its breakdown. RECOURSE (2015) showed OS 7.1 vs 5.3 months alone; SUNLIGHT (2023) showed 10.8 vs 7.5 months with bevacizumab. Also approved in gastric cancer (TAGS). Neutropenia is the main toxicity; works even after 5-FU resistance because of a different mechanism.",
@@ -208,7 +208,7 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "China", year: 2018, indication: "Refractory mCRC (FRESCO)" }, { region: "US", year: 2023, indication: "Refractory mCRC after fluoropyrimidine, oxaliplatin, irinotecan, anti-VEGF, and anti-EGFR if appropriate" }],
     regulatoryEvents: [{ date: "2023-11-08", type: "approval", region: "US", note: "FRESCO-2" }],
     targets: ["vegf"], technologies: ["kinase-inhibitors", "antiangiogenic"], companies: ["takeda"], cancers: ["colorectal"], trials: ["fresco-2"],
-    links: [{ label: "FDA approval summary, Clinical Cancer Research", url: "https://aacrjournals.org/clincancerres/article/30/15/3100/746597/FDA-Approval-Summary-Fruquintinib-for-the" }] }),
+    links: [{ label: "FDA approval summary, Clinical Cancer Research", url: "https://aacrjournals.org/clincancerres/article/30/15/3100/746597/FDA-Approval-Summary-Fruquintinib-for-the" }], people: ["su-weiguo"] }),
   d({ id: "regorafenib", name: "Regorafenib", brand: "Stivarga", modality: "Small-molecule multi-kinase inhibitor", status: "approved", wikipedia: W("Regorafenib"),
     tldr: "A multi-target pill for refractory bowel cancer, liver cancer, and GIST. Modest benefit, significant side effects, now usually placed after trifluridine/tipiracil.",
     summary: "Inhibits VEGFR1-3, TIE2, KIT, RET, RAF, PDGFR. CORRECT (2013): OS 6.4 vs 5.0 months in refractory mCRC. Also approved in GIST after imatinib/sunitinib and HCC after sorafenib. Dose-escalation strategies (ReDOS: start 80 mg) improve tolerability. Hand-foot skin reaction, fatigue, hypertension, and liver toxicity.",
@@ -227,7 +227,7 @@ const drugs: DrugInput[] = [
     dosing: { route: "Intravenous", schedule: "Oxaliplatin 85 mg/m² + leucovorin 400 mg/m² day 1, 5-FU 400 mg/m² bolus then 2,400 mg/m² over 46 h, every 14 days", modifications: "Stop or reduce oxaliplatin for persistent grade 2 neuropathy; DPD deficiency testing before 5-FU is recommended in Europe", monitoring: "Blood counts, neuropathy, liver function" },
     toxicity: [{ event: "Peripheral sensory neuropathy", note: "Cumulative, often persistent; oxaliplatin" }, { event: "Neutropenia" }, { event: "Diarrhoea, mucositis" }, { event: "Cold-induced dysaesthesia", note: "Acute, oxaliplatin" }],
     approvals: [{ region: "US", year: 2004, indication: "Adjuvant stage III colon cancer (oxaliplatin, MOSAIC)" }],
-    technologies: ["cytotoxic-chemotherapy", "platinum"], cancers: ["colorectal", "gastric", "pancreatic"], trials: ["breakwater", "paradigm", "atomic", "mountaineer"], related: ["folfiri", "capox", "folfirinox"] }),
+    technologies: ["cytotoxic-chemotherapy", "platinum"], cancers: ["colorectal", "gastric", "pancreatic"], trials: ["breakwater", "paradigm", "atomic", "mountaineer"], related: ["folfiri", "capox", "folfirinox"], links: [{ label: "Wikipedia", url: W("FOLFOX") }] }),
   d({ id: "folfiri", name: "FOLFIRI (5-FU, leucovorin, irinotecan)", modality: "Cytotoxic regimen", status: "standard-of-care", wikipedia: W("FOLFIRI"),
     tldr: "FOLFIRI is the other backbone bowel-cancer chemotherapy, swapping oxaliplatin for irinotecan. Used first or second line and, since 2026, with the BRAF combination.",
     summary: "FOLFIRI pairs irinotecan, whose active metabolite SN-38 inhibits topoisomerase I, with 5-FU and leucovorin, which inhibit thymidylate synthase, given as a 46-hour infusion every 14 days. It is one of the two backbone chemotherapies for metastatic colorectal cancer, interchangeable with FOLFOX in first-line efficacy (Tournigand 2004) and the standard second-line switch. It is the partner for cetuximab (CRYSTAL, FIRE-3), bevacizumab, aflibercept, ramucirumab and, since 2026, encorafenib plus cetuximab in BRAF V600E disease (BREAKWATER cohort 3, PFS HR 0.44). Diarrhoea, neutropenia and alopecia are the main toxicities, and UGT1A1*28 homozygotes need irinotecan dose reduction. Whether to start with FOLFIRI or FOLFOX is decided by side-effect preference rather than efficacy. For a newcomer, FOLFIRI is bowel cancer chemotherapy with irinotecan instead of oxaliplatin.",
@@ -235,14 +235,14 @@ const drugs: DrugInput[] = [
     mechanismSteps: ["Irinotecan is converted in the body to SN-38", "SN-38 traps topoisomerase I on DNA, causing breaks during copying", "5-FU with leucovorin starves the cell of thymidine", "Dividing cancer cells cannot complete replication"],
     dosing: { route: "Intravenous", schedule: "Irinotecan 180 mg/m² + leucovorin 400 mg/m² day 1, 5-FU 400 mg/m² bolus then 2,400 mg/m² over 46 h, every 14 days", modifications: "Reduce irinotecan for UGT1A1*28/*28; hold for grade 3 diarrhoea", monitoring: "Blood counts; early and late diarrhoea" },
     toxicity: [{ event: "Diarrhoea", note: "Early (cholinergic) and late; can be severe" }, { event: "Neutropenia" }, { event: "Alopecia" }],
-    technologies: ["cytotoxic-chemotherapy", "topoisomerase-inhibitors"], cancers: ["colorectal"], trials: ["crystal-fire3", "breakwater"], related: ["folfox"] }),
+    technologies: ["cytotoxic-chemotherapy", "topoisomerase-inhibitors"], cancers: ["colorectal"], trials: ["crystal-fire3", "breakwater"], related: ["folfox"], links: [{ label: "Wikipedia", url: W("FOLFIRI") }] }),
   d({ id: "capox", name: "CAPOX (capecitabine, oxaliplatin)", code: "XELOX", modality: "Cytotoxic regimen", status: "standard-of-care", wikipedia: W("XELOX"),
     tldr: "CAPOX combines oral capecitabine with oxaliplatin as a pill-based alternative to FOLFOX. Three months of it after surgery is enough for many stage III colon cancers.",
     summary: "IDEA collaboration (2018): 3 months of CAPOX is non-inferior to 6 for low-risk stage III (T1-3 N1) colon cancer, halving neuropathy. Standard perioperative and first-line option in gastric cancer (with nivolumab in CheckMate 649; with zolbetuximab in GLOW). Hand-foot syndrome from capecitabine replaces some 5-FU toxicity.",
     mechanism: "Capecitabine is an oral prodrug of 5-FU activated preferentially in tumour; oxaliplatin crosslinks DNA.",
     dosing: { route: "Oral + intravenous", schedule: "Capecitabine 1,000 mg/m² twice daily days 1-14 + oxaliplatin 130 mg/m² day 1, every 21 days", modifications: "Reduce capecitabine for hand-foot syndrome or renal impairment", monitoring: "Blood counts, creatinine, neuropathy" },
     toxicity: [{ event: "Hand-foot syndrome" }, { event: "Peripheral neuropathy" }, { event: "Diarrhoea" }],
-    technologies: ["cytotoxic-chemotherapy", "platinum"], cancers: ["colorectal", "gastric"], trials: ["circulate-japan"], related: ["folfox"] }),
+    technologies: ["cytotoxic-chemotherapy", "platinum"], cancers: ["colorectal", "gastric"], trials: ["circulate-japan"], related: ["folfox"], links: [{ label: "Wikipedia", url: W("XELOX") }] }),
 ];
 
 // ======================= TECHNOLOGIES =======================
@@ -253,15 +253,15 @@ const technologies: TechnologyInput[] = [
     principle: "Detect adenomas or early cancers by direct visualisation (endoscopy), occult blood or shed DNA in stool, or cfDNA methylation and fragmentation in blood.",
     strengths: ["Colonoscopy both detects and prevents by polypectomy", "Non-invasive options raise participation"],
     limitations: ["Blood and stool tests miss most precancerous polyps", "Colonoscopy capacity and access", "Early-onset cancers arise before screening age"],
-    technologies: ["mced", "liquid-biopsy"], drugs: ["shield"], cancers: ["colorectal"], terms: ["fit-test", "lynch-syndrome"] },
+    technologies: ["mced", "liquid-biopsy"], drugs: ["shield"], cancers: ["colorectal"], terms: ["fit-test", "lynch-syndrome"], trials: ["nordicc"], related: ["cure-paths"], links: [{ label: "Wikipedia", url: W("Colorectal_cancer_screening") }] },
 ];
 
 // ======================= TERMS =======================
 const terms: TermInput[] = [
   term({ id: "sidedness", name: "Sidedness (left vs right colon)", category: "Biology", tldr: "Where in the colon a tumour starts changes its biology and which drugs work. Left-sided tumours respond to EGFR antibodies; right-sided ones do not.", summary: "Right-sided (caecum to transverse) tumours are more often dMMR, BRAF-mutant, mucinous, and worse prognosis; left-sided (splenic flexure to rectum) are more often chromosomally unstable and EGFR-dependent. CALGB 80405, FIRE-3, and PARADIGM showed anti-EGFR benefit is confined to left-sided RAS wild-type disease. Embryologic origin (midgut vs hindgut) underlies the difference.", cancers: ["colorectal"], targets: ["egfr", "braf"], trials: ["paradigm", "crystal-fire3"] }),
   term({ id: "cms-subtypes", name: "Consensus molecular subtypes (CMS1-4)", category: "Genomics", tldr: "The consensus molecular subtypes are four gene-expression groups of bowel cancer: immune (CMS1), canonical (CMS2), metabolic (CMS3), and mesenchymal (CMS4), with different prognoses.", summary: "Guinney et al., Nature Medicine 2015. CMS1 (14%) MSI/immune, BRAF-mutant; CMS2 (37%) WNT/MYC canonical; CMS3 (13%) KRAS, metabolic; CMS4 (23%) TGF-β, stromal, worst prognosis. Prognostic and partly predictive (CMS2 benefits most from anti-EGFR), but not yet used routinely in clinic.", cancers: ["colorectal"], pathways: ["wnt", "emt"], technologies: ["rna-seq"] }),
-  term({ id: "lynch-syndrome", name: "Lynch syndrome", category: "Genetics", tldr: "Lynch syndrome is the most common inherited cancer syndrome: a faulty mismatch-repair gene raises lifetime bowel cancer risk to 40-80% and also endometrial and other cancers.", summary: "Germline MLH1, MSH2, MSH6, PMS2, or EPCAM variants; ~3% of CRC and 1 in ~280 people. Colonoscopy every 1-2 years from age 20-25, aspirin chemoprevention (CAPP2), and risk-reducing hysterectomy. Lynch tumours are dMMR and highly immunotherapy-responsive; frameshift neoantigen vaccines (Nous-209) aim at prevention.", wikipedia: W("Lynch_syndrome"), cancers: ["colorectal", "endometrial"], terms: ["msi", "germline-vs-somatic"], technologies: ["germline-testing", "chemoprevention", "colorectal-screening"] }),
-  term({ id: "fit-test", name: "Faecal immunochemical test (FIT)", category: "Diagnostics", tldr: "A stool test for hidden blood, done at home every year. Positive results are followed by colonoscopy.", summary: "Antibody-based detection of human haemoglobin; sensitivity ~74% for cancer per round, low for adenomas; programmatic annual FIT approaches colonoscopy in modelled mortality benefit. Backbone of most European and Asian screening programmes.", wikipedia: W("Fecal_immunochemical_test"), technologies: ["colorectal-screening"], cancers: ["colorectal"] }),
+  term({ id: "lynch-syndrome", name: "Lynch syndrome", category: "Genetics", tldr: "Lynch syndrome is the most common inherited cancer syndrome: a faulty mismatch-repair gene raises lifetime bowel cancer risk to 40-80% and also endometrial and other cancers.", summary: "Germline MLH1, MSH2, MSH6, PMS2, or EPCAM variants; ~3% of CRC and 1 in ~280 people. Colonoscopy every 1-2 years from age 20-25, aspirin chemoprevention (CAPP2), and risk-reducing hysterectomy. Lynch tumours are dMMR and highly immunotherapy-responsive; frameshift neoantigen vaccines (Nous-209) aim at prevention.", wikipedia: W("Lynch_syndrome"), cancers: ["colorectal", "endometrial"], terms: ["msi", "germline-vs-somatic"], technologies: ["germline-testing", "chemoprevention", "colorectal-screening"], links: [{ label: "Wikipedia", url: W("Lynch_syndrome") }] }),
+  term({ id: "fit-test", name: "Faecal immunochemical test (FIT)", category: "Diagnostics", tldr: "A stool test for hidden blood, done at home every year. Positive results are followed by colonoscopy.", summary: "Antibody-based detection of human haemoglobin; sensitivity ~74% for cancer per round, low for adenomas; programmatic annual FIT approaches colonoscopy in modelled mortality benefit. Backbone of most European and Asian screening programmes.", wikipedia: W("Fecal_immunochemical_test"), technologies: ["colorectal-screening"], cancers: ["colorectal"], links: [{ label: "Wikipedia", url: W("Fecal_immunochemical_test") }] }),
   term({ id: "clinical-complete-response", name: "Clinical complete response (cCR)", category: "Endpoints", tldr: "No sign of tumour on examination, endoscopy, and MRI after treatment, without surgery to confirm it. It is the basis of organ-preservation strategies.", summary: "Defined by digital rectal exam, endoscopy (flat white scar), and MRI (TRG1) in rectal cancer; sustained cCR at 12 months is the primary endpoint of AZUR-1. Watch-and-wait after chemoradiation (OPRA, IWWD) and after immunotherapy (dostarlimab) preserve the rectum; regrowth is usually salvageable with surgery.", cancers: ["colorectal", "esophageal"], trials: ["azur-1", "sano"], terms: ["pcr"] }),
 ];
 

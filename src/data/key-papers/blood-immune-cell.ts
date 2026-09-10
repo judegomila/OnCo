@@ -25,7 +25,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm phase 1 with short follow-up and no survival data.", "Responses were haematological and cytogenetic; molecular monitoring came later.", "CML is unusually dependent on a single fusion kinase, which limits how far the model generalises."],
     changedPractice: true, participants: 83,
     links: [doi("10.1056/NEJM200104053441401")],
-    cancers: ["cml"], drugs: ["imatinib"], targets: ["bcr-abl"], companies: ["novartis"], related: ["paper-iris-imatinib-nejm-2003"], bottlenecks: ["b-undruggable-targets", "b-translational-valley"] }),
+    cancers: ["cml"], drugs: ["imatinib"], targets: ["bcr-abl"], companies: ["novartis"], related: ["paper-iris-imatinib-nejm-2003"], bottlenecks: ["b-undruggable-targets", "b-translational-valley"], journals: ["nejm"] }),
 
   p({ id: "paper-iris-imatinib-nejm-2003", name: "IRIS: imatinib versus interferon plus cytarabine as first treatment for chronic myeloid leukaemia",
     tldr: "Imatinib beat the previous standard by a wide margin in newly diagnosed CML, and the long-term follow-up showed most patients alive at ten years.",
@@ -36,7 +36,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Heavy crossover meant overall survival could not be compared cleanly between arms.", "The primary endpoint was progression, not survival; molecular response monitoring was introduced later.", "Long-term data come from the imatinib arm alone.", "Treatment-free remission, now a goal for deep responders, was not part of the original design."],
     changedPractice: true, participants: 1106,
     links: [doi("10.1056/NEJMoa022457"), doi("10.1056/NEJMoa1609324", "10-year follow-up (Hochhaus 2017)"), ct("NCT00006343")],
-    cancers: ["cml"], drugs: ["imatinib", "dasatinib", "nilotinib", "asciminib"], targets: ["bcr-abl"], companies: ["novartis"], terms: ["pfs", "os"], related: ["paper-druker-imatinib-phase1-nejm-2001"], bottlenecks: ["b-drug-pricing", "b-global-access"] }),
+    cancers: ["cml"], drugs: ["imatinib", "dasatinib", "nilotinib", "asciminib"], targets: ["bcr-abl"], companies: ["novartis"], terms: ["pfs", "os"], related: ["paper-druker-imatinib-phase1-nejm-2001"], bottlenecks: ["b-drug-pricing", "b-global-access"], journals: ["nejm"] }),
 
   // ======================= CLL =======================
   p({ id: "paper-cll14-venetoclax-obinutuzumab-nejm-2019", name: "CLL14: one year of venetoclax plus obinutuzumab instead of chemo-immunotherapy in older, less fit CLL patients",
@@ -48,7 +48,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Overall survival has not differed significantly, partly because effective salvage therapies exist.", "Patients were older and less fit; CLL13/GAIA later confirmed benefit in fit patients.", "Venetoclax requires a 5-week ramp-up and tumour-lysis monitoring, which is a practical burden.", "Retreatment strategy after relapse was not defined by the trial."],
     changedPractice: true, participants: 432,
     links: [doi("10.1056/NEJMoa1815281"), ct("NCT02242942")],
-    cancers: ["cll"], drugs: ["venetoclax", "obinutuzumab"], targets: ["bcl2", "cd20"], trials: ["cll14", "cll13-gaia"], terms: ["mrd", "pfs", "ighv-status", "del17p-tp53"], people: ["michael-hallek"], companies: ["abbvie", "roche-genentech"], related: ["venetoclax-plus-obinutuzumab"], bottlenecks: ["b-dormancy-mrd", "b-aging-comorbidity"] }),
+    cancers: ["cll"], drugs: ["venetoclax", "obinutuzumab"], targets: ["bcl2", "cd20"], trials: ["cll14", "cll13-gaia"], terms: ["mrd", "pfs", "ighv-status", "del17p-tp53"], people: ["michael-hallek"], companies: ["abbvie", "roche-genentech"], related: ["venetoclax-plus-obinutuzumab"], bottlenecks: ["b-dormancy-mrd", "b-aging-comorbidity"], journals: ["nejm"] }),
 
   p({ id: "paper-elevate-tn-acalabrutinib-lancet-2020", name: "ELEVATE-TN: acalabrutinib, alone or with obinutuzumab, against chemo-immunotherapy in untreated CLL",
     tldr: "In ELEVATE-TN, acalabrutinib, a second-generation BTK inhibitor, with or without an antibody, cut the risk of progression by 80-90% compared with chlorambucil-obinutuzumab in older or unfit patients with CLL.",
@@ -59,7 +59,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["The comparator, chlorambucil-obinutuzumab, was already being superseded when the trial reported.", "Continuous therapy until progression; no MRD-guided stopping.", "Cross-trial comparisons with venetoclax regimens are indirect.", "Overall survival was not significantly different at early follow-up."],
     changedPractice: true, participants: 535,
     links: [pubmed("ELEVATE-TN acalabrutinib obinutuzumab chlorambucil Sharman Lancet 2020"), ct("NCT02475681")],
-    cancers: ["cll"], drugs: ["acalabrutinib", "obinutuzumab", "ibrutinib", "zanubrutinib"], targets: ["btk", "cd20"], trials: ["elevate-tn", "sequoia"], terms: ["pfs"], companies: ["astrazeneca"], bottlenecks: ["b-toxicity-qol", "b-drug-pricing"] }),
+    cancers: ["cll"], drugs: ["acalabrutinib", "obinutuzumab", "ibrutinib", "zanubrutinib"], targets: ["btk", "cd20"], trials: ["elevate-tn", "sequoia"], terms: ["pfs"], companies: ["astrazeneca"], bottlenecks: ["b-toxicity-qol", "b-drug-pricing"], journals: ["lancet"] }),
 
   p({ id: "paper-amplify-acalabrutinib-venetoclax-nejm-2025", name: "AMPLIFY: fixed-duration acalabrutinib plus venetoclax, with or without obinutuzumab, versus chemo-immunotherapy in fit CLL patients",
     tldr: "In AMPLIFY, an all-oral, 14-month course of acalabrutinib plus venetoclax beat FCR or BR chemo-immunotherapy in fit CLL patients, offering a time-limited alternative to indefinite pills.",
@@ -70,7 +70,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Chemo-immunotherapy is no longer the preferred comparator in many countries; the relevant question is AV versus venetoclax-obinutuzumab or continuous BTKi.", "The OS signal is confounded by pandemic-era deaths.", "Excluded del(17p)/TP53-mutated patients.", "AV MRD-negativity was lower than with AVO; long-term durability is still maturing."],
     changedPractice: true, participants: 867,
     links: [pubmed("AMPLIFY acalabrutinib venetoclax obinutuzumab Brown NEJM 2025"), ct("NCT03836261")],
-    cancers: ["cll"], drugs: ["acalabrutinib", "venetoclax", "obinutuzumab"], targets: ["btk", "bcl2", "cd20"], trials: ["amplify", "cll13-gaia", "glow"], terms: ["mrd", "pfs", "del17p-tp53"], companies: ["astrazeneca", "abbvie"], related: ["btki-plus-venetoclax-fixed-duration"], bottlenecks: ["b-combination-space", "b-drug-pricing"] }),
+    cancers: ["cll"], drugs: ["acalabrutinib", "venetoclax", "obinutuzumab"], targets: ["btk", "bcl2", "cd20"], trials: ["amplify", "cll13-gaia", "glow"], terms: ["mrd", "pfs", "del17p-tp53"], companies: ["astrazeneca", "abbvie"], related: ["btki-plus-venetoclax-fixed-duration"], bottlenecks: ["b-combination-space", "b-drug-pricing"], journals: ["nejm"] }),
 
   p({ id: "paper-murano-venetoclax-rituximab-nejm-2018", name: "MURANO: two years of venetoclax plus rituximab versus chemo-immunotherapy in relapsed CLL",
     tldr: "In relapsed CLL, a time-limited venetoclax-rituximab course cut progression risk by more than 80% compared with bendamustine-rituximab and later improved survival.",
@@ -81,7 +81,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Bendamustine-rituximab is a weak comparator by today's standards; there is no head-to-head against BTK inhibitors in this setting.", "Few patients had prior BTK inhibitor exposure, so results may not apply after BTKi failure.", "Open-label design with investigator-assessed endpoints.", "Tumour-lysis prophylaxis and ramp-up add complexity."],
     changedPractice: true, participants: 389,
     links: [doi("10.1056/NEJMoa1713976"), ct("NCT02005471")],
-    cancers: ["cll"], drugs: ["venetoclax", "rituximab", "bendamustine"], targets: ["bcl2", "cd20"], terms: ["mrd", "pfs", "os", "del17p-tp53"], companies: ["abbvie", "roche-genentech"], related: ["paper-cll14-venetoclax-obinutuzumab-nejm-2019"], bottlenecks: ["b-dormancy-mrd", "b-resistance"] }),
+    cancers: ["cll"], drugs: ["venetoclax", "rituximab", "bendamustine"], targets: ["bcl2", "cd20"], terms: ["mrd", "pfs", "os", "del17p-tp53"], companies: ["abbvie", "roche-genentech"], related: ["paper-cll14-venetoclax-obinutuzumab-nejm-2019"], bottlenecks: ["b-dormancy-mrd", "b-resistance"], journals: ["nejm"] }),
 
   // ======================= MYELOMA =======================
   p({ id: "paper-maia-daratumumab-rd-nejm-2019", name: "MAIA: adding daratumumab to lenalidomide-dexamethasone for older patients with newly diagnosed myeloma who cannot have a transplant",
@@ -93,7 +93,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Continuous therapy until progression; treatment burden and cost are substantial.", "Patients over 80 and very frail patients were under-represented.", "Median PFS was not reached at the primary analysis; the durability estimate relies on later reports.", "Comparator Rd is itself now being displaced by quadruplets."],
     changedPractice: true, participants: 737,
     links: [doi("10.1056/NEJMoa1817249"), ct("NCT02252172")],
-    cancers: ["multiple-myeloma"], drugs: ["daratumumab", "lenalidomide"], targets: ["cd38"], terms: ["pfs", "os", "mrd-negativity-myeloma"], companies: ["johnson-johnson"], related: ["paper-cepheus-dara-vrd-natmed-2025", "cd38-plus-triplet"], bottlenecks: ["b-aging-comorbidity", "b-drug-pricing"] }),
+    cancers: ["multiple-myeloma"], drugs: ["daratumumab", "lenalidomide"], targets: ["cd38"], terms: ["pfs", "os", "mrd-negativity-myeloma"], companies: ["johnson-johnson"], related: ["paper-cepheus-dara-vrd-natmed-2025", "cd38-plus-triplet"], bottlenecks: ["b-aging-comorbidity", "b-drug-pricing"], journals: ["nejm"] }),
 
   p({ id: "paper-perseus-dara-vrd-transplant-nejm-2024", name: "PERSEUS: daratumumab added to bortezomib-lenalidomide-dexamethasone around autologous transplant in newly diagnosed myeloma",
     tldr: "Adding daratumumab to the standard three-drug induction, transplant and maintenance cut progression or death by 58% and pushed MRD-negativity to three-quarters of patients.",
@@ -104,7 +104,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["PFS, not overall survival, was the primary endpoint; OS follow-up is immature.", "Both arms had autologous transplant, so it does not test transplant versus no transplant.", "MRD-guided discontinuation applied only to daratumumab, not lenalidomide.", "Younger, fitter patients than typical clinic populations."],
     changedPractice: true, participants: 709,
     links: [doi("10.1056/NEJMoa2312054"), ct("NCT03710603")],
-    cancers: ["multiple-myeloma"], drugs: ["daratumumab", "bortezomib", "lenalidomide"], targets: ["cd38"], technologies: ["autologous-stem-cell-transplant", "mrd-testing"], trials: ["perseus"], terms: ["pfs", "mrd-negativity-myeloma"], companies: ["johnson-johnson"], related: ["cd38-plus-triplet"], bottlenecks: ["b-dormancy-mrd", "b-trial-design"] }),
+    cancers: ["multiple-myeloma"], drugs: ["daratumumab", "bortezomib", "lenalidomide"], targets: ["cd38"], technologies: ["autologous-stem-cell-transplant", "mrd-testing"], trials: ["perseus"], terms: ["pfs", "mrd-negativity-myeloma"], companies: ["johnson-johnson"], related: ["cd38-plus-triplet"], bottlenecks: ["b-dormancy-mrd", "b-trial-design"], journals: ["nejm"] }),
 
   p({ id: "paper-cepheus-dara-vrd-natmed-2025", name: "CEPHEUS: daratumumab quadruplet for newly diagnosed myeloma patients not having a transplant, with MRD-negativity as the main endpoint",
     tldr: "In patients who were transplant-ineligible or deferred transplant, the daratumumab quadruplet raised deep-remission rates from about 39% to 61% and cut progression risk by 43%.",
@@ -115,7 +115,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["MRD-negativity is a surrogate; PFS and OS benefits need longer follow-up to confirm.", "Included relatively fit transplant-deferred patients as well as truly ineligible ones.", "Bortezomib-based induction is not ideal for very frail patients; the parallel IMROZ trial used a different quadruplet.", "Cross-trial comparison with MAIA is indirect."],
     changedPractice: true, participants: 395,
     links: [pubmed("CEPHEUS daratumumab bortezomib lenalidomide transplant-ineligible Usmani Nature Medicine 2025"), ct("NCT03652064")],
-    cancers: ["multiple-myeloma"], drugs: ["daratumumab", "bortezomib", "lenalidomide"], targets: ["cd38"], technologies: ["mrd-testing"], trials: ["cepheus", "imroz"], terms: ["mrd-negativity-myeloma", "pfs"], people: ["saad-usmani"], companies: ["johnson-johnson"], related: ["paper-maia-daratumumab-rd-nejm-2019"], bottlenecks: ["b-trial-design", "b-dormancy-mrd"] }),
+    cancers: ["multiple-myeloma"], drugs: ["daratumumab", "bortezomib", "lenalidomide"], targets: ["cd38"], technologies: ["mrd-testing"], trials: ["cepheus", "imroz"], terms: ["mrd-negativity-myeloma", "pfs"], people: ["saad-usmani"], companies: ["johnson-johnson"], related: ["paper-maia-daratumumab-rd-nejm-2019"], bottlenecks: ["b-trial-design", "b-dormancy-mrd"], journals: ["nature-medicine"] }),
 
   p({ id: "paper-cartitude-1-cilta-cel-lancet-2021", name: "CARTITUDE-1: cilta-cel, a BCMA CAR-T, in heavily pretreated myeloma",
     tldr: "A single infusion of BCMA-directed CAR-T cells produced responses in 97% of patients whose myeloma had failed a median of six prior lines, with two-thirds reaching stringent complete response.",
@@ -126,7 +126,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm trial in fit, selected patients; no randomised comparator.", "Manufacturing failures and bridging deaths are not captured in infused-patient analyses.", "Delayed parkinsonism-like neurotoxicity and rare second primary malignancies (including T-cell lymphoma) emerged with follow-up.", "Access limited by manufacturing slots and cost."],
     changedPractice: true, participants: 97,
     links: [pubmed("CARTITUDE-1 ciltacabtagene autoleucel Berdeja Lancet 2021"), ct("NCT03548207")],
-    cancers: ["multiple-myeloma"], drugs: ["ciltacabtagene-autoleucel"], targets: ["bcma"], technologies: ["car-t"], trials: ["cartitude-1"], terms: ["crs", "icans", "orr"], people: ["saad-usmani"], companies: ["legend-biotech", "johnson-johnson"], related: ["paper-cartitude-4-cilta-cel-nejm-2023"], bottlenecks: ["b-manufacturing-cell-therapy", "b-toxicity-qol"] }),
+    cancers: ["multiple-myeloma"], drugs: ["ciltacabtagene-autoleucel"], targets: ["bcma"], technologies: ["car-t"], trials: ["cartitude-1"], terms: ["crs", "icans", "orr"], people: ["saad-usmani"], companies: ["legend-biotech", "johnson-johnson"], related: ["paper-cartitude-4-cilta-cel-nejm-2023"], bottlenecks: ["b-manufacturing-cell-therapy", "b-toxicity-qol"], journals: ["lancet"] }),
 
   p({ id: "paper-cartitude-4-cilta-cel-nejm-2023", name: "CARTITUDE-4: cilta-cel CAR-T versus standard combinations after one to three prior lines of myeloma therapy",
     tldr: "Moving BCMA CAR-T to the second line cut the risk of progression or death by 74% compared with standard triplets, and later improved overall survival.",
@@ -137,7 +137,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Open-label; standard-of-care arm was a mix of two regimens, neither of which is the strongest available.", "Intention-to-treat analysis includes patients who progressed during bridging; per-protocol PFS is even more favourable.", "Only about 15% of standard-arm patients later received CAR-T, so the comparison is partly CAR-T now versus never.", "Secondary haematological malignancies and late neurotoxicity remain concerns."],
     changedPractice: true, participants: 419,
     links: [doi("10.1056/NEJMoa2303379"), ct("NCT04181827")],
-    cancers: ["multiple-myeloma"], drugs: ["ciltacabtagene-autoleucel", "daratumumab", "pomalidomide", "bortezomib"], targets: ["bcma"], technologies: ["car-t"], trials: ["cartitude-4", "cartitude-5"], terms: ["pfs", "os", "mrd-negativity-myeloma", "crs"], companies: ["legend-biotech", "johnson-johnson"], related: ["paper-karmma-3-ide-cel-nejm-2023"], bottlenecks: ["b-manufacturing-cell-therapy", "b-global-access"] }),
+    cancers: ["multiple-myeloma"], drugs: ["ciltacabtagene-autoleucel", "daratumumab", "pomalidomide", "bortezomib"], targets: ["bcma"], technologies: ["car-t"], trials: ["cartitude-4", "cartitude-5"], terms: ["pfs", "os", "mrd-negativity-myeloma", "crs"], companies: ["legend-biotech", "johnson-johnson"], related: ["paper-karmma-3-ide-cel-nejm-2023"], bottlenecks: ["b-manufacturing-cell-therapy", "b-global-access"], journals: ["nejm"] }),
 
   p({ id: "paper-karmma-3-ide-cel-nejm-2023", name: "KarMMa-3: ide-cel CAR-T versus standard regimens in triple-class-exposed relapsed myeloma",
     tldr: "The first randomised CAR-T trial in myeloma tripled median progression-free survival (13.3 versus 4.4 months) compared with standard combinations after two to four prior lines.",
@@ -148,7 +148,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Crossover blunted the OS comparison; a survival benefit could not be shown.", "Standard-arm regimens varied and included some now regarded as suboptimal.", "Median PFS with ide-cel remains modest compared with cilta-cel in CARTITUDE-4 (indirect comparison).", "Manufacturing time and slot availability restrict real-world use."],
     changedPractice: true, participants: 386,
     links: [doi("10.1056/NEJMoa2213614"), ct("NCT03651128")],
-    cancers: ["multiple-myeloma"], drugs: ["idecabtagene-vicleucel"], targets: ["bcma"], technologies: ["car-t"], trials: ["karmma-3"], terms: ["pfs", "orr", "crs"], companies: ["bms"], related: ["paper-cartitude-4-cilta-cel-nejm-2023"], bottlenecks: ["b-manufacturing-cell-therapy", "b-trial-design"] }),
+    cancers: ["multiple-myeloma"], drugs: ["idecabtagene-vicleucel"], targets: ["bcma"], technologies: ["car-t"], trials: ["karmma-3"], terms: ["pfs", "orr", "crs"], companies: ["bms"], related: ["paper-cartitude-4-cilta-cel-nejm-2023"], bottlenecks: ["b-manufacturing-cell-therapy", "b-trial-design"], journals: ["nejm"] }),
 
   p({ id: "paper-majestec-1-teclistamab-nejm-2022", name: "MajesTEC-1: teclistamab, an off-the-shelf BCMA bispecific antibody, in heavily pretreated myeloma",
     tldr: "A ready-made antibody that pulls T cells onto myeloma cells produced responses in 63% of patients after a median of five prior therapies, without the wait for cell manufacturing.",
@@ -159,7 +159,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm study; MajesTEC-3 later provided randomised evidence in earlier lines.", "Continuous weekly dosing until progression in the original protocol; optimal duration and schedule still being defined.", "Infection-related deaths were substantial; many patients were treated during the COVID-19 pandemic.", "Responses are shorter than with cilta-cel, and BCMA-directed sequencing (CAR-T then bispecific or vice versa) reduces subsequent efficacy."],
     changedPractice: true, participants: 165,
     links: [doi("10.1056/NEJMoa2203478"), ct("NCT04557098")],
-    cancers: ["multiple-myeloma"], drugs: ["teclistamab", "talquetamab", "elranatamab"], targets: ["bcma", "cd3"], technologies: ["bispecific-antibody", "t-cell-engager"], trials: ["majestec-1", "majestec-3"], terms: ["crs", "orr"], companies: ["johnson-johnson"], related: ["bispecific-infection-prophylaxis", "bcma-then-gprc5d", "paper-magnetismm-3-elranatamab-natmed-2023"], bottlenecks: ["b-toxicity-qol", "b-dose-optimisation"] }),
+    cancers: ["multiple-myeloma"], drugs: ["teclistamab", "talquetamab", "elranatamab"], targets: ["bcma", "cd3"], technologies: ["bispecific-antibody", "t-cell-engager"], trials: ["majestec-1", "majestec-3"], terms: ["crs", "orr"], companies: ["johnson-johnson"], related: ["bispecific-infection-prophylaxis", "bcma-then-gprc5d", "paper-magnetismm-3-elranatamab-natmed-2023"], bottlenecks: ["b-toxicity-qol", "b-dose-optimisation"], journals: ["nejm"] }),
 
   p({ id: "paper-magnetismm-3-elranatamab-natmed-2023", name: "MagnetisMM-3: elranatamab, a second BCMA bispecific, with a switch to fortnightly dosing after response",
     tldr: "Elranatamab produced responses in 61% of heavily pretreated myeloma patients and showed that dosing can be thinned to every two weeks once patients respond.",
@@ -170,7 +170,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm; no comparator or randomised evidence at approval.", "Excluded patients with prior BCMA therapy in the registrational cohort; cohort B (BCMA-exposed) had lower responses.", "Infection risk and hypogammaglobulinaemia similar to teclistamab.", "Durability beyond two years still being reported."],
     changedPractice: true, participants: 123,
     links: [pubmed("MagnetisMM-3 elranatamab Lesokhin Nature Medicine 2023"), ct("NCT04649359")],
-    cancers: ["multiple-myeloma"], drugs: ["elranatamab", "teclistamab", "talquetamab"], targets: ["bcma", "cd3", "gprc5d"], technologies: ["bispecific-antibody", "t-cell-engager"], trials: ["magnetismm-3", "linker-mm1"], terms: ["crs", "orr"], companies: ["pfizer"], related: ["paper-majestec-1-teclistamab-nejm-2022", "bispecific-infection-prophylaxis"], bottlenecks: ["b-dose-optimisation", "b-toxicity-qol"] }),
+    cancers: ["multiple-myeloma"], drugs: ["elranatamab", "teclistamab", "talquetamab"], targets: ["bcma", "cd3", "gprc5d"], technologies: ["bispecific-antibody", "t-cell-engager"], trials: ["magnetismm-3", "linker-mm1"], terms: ["crs", "orr"], companies: ["pfizer"], related: ["paper-majestec-1-teclistamab-nejm-2022", "bispecific-infection-prophylaxis"], bottlenecks: ["b-dose-optimisation", "b-toxicity-qol"], journals: ["nature-medicine"] }),
 
   // ======================= LYMPHOMA =======================
   p({ id: "paper-zuma-7-axi-cel-second-line-nejm-2022", name: "ZUMA-7: axi-cel CAR-T instead of salvage chemotherapy and transplant for large B-cell lymphoma that relapses early",
@@ -182,7 +182,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Applies only to early relapse or primary refractory disease; late relapse was excluded.", "No bridging chemotherapy was permitted, so patients with rapidly progressive disease may not have been enrolled.", "The parallel BELINDA trial of tisagenlecleucel in the same setting was negative, showing the result depends on product and logistics.", "Costs and centre capacity limit uptake outside high-income countries."],
     changedPractice: true, participants: 359,
     links: [doi("10.1056/NEJMoa2116133"), doi("10.1056/NEJMoa2301665", "Overall survival analysis (Westin 2023)"), ct("NCT03391466")],
-    cancers: ["dlbcl"], drugs: ["axicabtagene-ciloleucel"], targets: ["cd19"], technologies: ["car-t", "autologous-stem-cell-transplant"], trials: ["zuma-7", "transform", "belinda"], terms: ["efs", "os", "crs", "icans"], people: ["frederick-locke"], institutions: ["moffitt"], companies: ["gilead"], related: ["car-t-before-transplant-lbcl", "paper-transform-liso-cel-lancet-2022"], bottlenecks: ["b-manufacturing-cell-therapy", "b-global-access"] }),
+    cancers: ["dlbcl"], drugs: ["axicabtagene-ciloleucel"], targets: ["cd19"], technologies: ["car-t", "autologous-stem-cell-transplant"], trials: ["zuma-7", "transform", "belinda"], terms: ["efs", "os", "crs", "icans"], people: ["frederick-locke"], institutions: ["moffitt"], companies: ["gilead"], related: ["car-t-before-transplant-lbcl", "paper-transform-liso-cel-lancet-2022"], bottlenecks: ["b-manufacturing-cell-therapy", "b-global-access"], journals: ["nejm"] }),
 
   p({ id: "paper-transform-liso-cel-lancet-2022", name: "TRANSFORM: liso-cel CAR-T versus salvage chemotherapy and transplant in early-relapsing large B-cell lymphoma",
     tldr: "In TRANSFORM, a second CD19 CAR-T, lisocabtagene maraleucel, also beat chemotherapy-plus-transplant as second-line treatment, with a low rate of severe side effects.",
@@ -193,7 +193,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Smaller than ZUMA-7 and reported at interim analysis; EFS rather than OS was the endpoint.", "Crossover blunted any survival comparison.", "Excludes late relapse.", "Liso-cel manufacturing involves separate CD4 and CD8 components, adding complexity."],
     changedPractice: true, participants: 184,
     links: [pubmed("TRANSFORM lisocabtagene maraleucel second-line Kamdar Lancet 2022"), ct("NCT03575351")],
-    cancers: ["dlbcl"], drugs: ["lisocabtagene-maraleucel"], targets: ["cd19"], technologies: ["car-t", "autologous-stem-cell-transplant"], trials: ["transform", "zuma-7", "belinda"], terms: ["efs", "crs", "icans"], companies: ["bms"], related: ["car-t-before-transplant-lbcl", "paper-zuma-7-axi-cel-second-line-nejm-2022"], bottlenecks: ["b-manufacturing-cell-therapy", "b-toxicity-qol"] }),
+    cancers: ["dlbcl"], drugs: ["lisocabtagene-maraleucel"], targets: ["cd19"], technologies: ["car-t", "autologous-stem-cell-transplant"], trials: ["transform", "zuma-7", "belinda"], terms: ["efs", "crs", "icans"], companies: ["bms"], related: ["car-t-before-transplant-lbcl", "paper-zuma-7-axi-cel-second-line-nejm-2022"], bottlenecks: ["b-manufacturing-cell-therapy", "b-toxicity-qol"], journals: ["lancet"] }),
 
   p({ id: "paper-polarix-polatuzumab-rchp-nejm-2022", name: "POLARIX: swapping vincristine for the antibody-drug conjugate polatuzumab vedotin in first-line treatment of diffuse large B-cell lymphoma",
     tldr: "Replacing one chemotherapy drug in R-CHOP with a CD79b antibody-drug conjugate modestly reduced progression (2-year PFS 76.7% versus 70.2%) without changing survival or side effects.",
@@ -204,7 +204,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["No overall survival benefit; the PFS gain is modest in absolute terms.", "Subgroup effects are exploratory and hypothesis-generating, yet influence practice.", "Excluded very low IPI (0-1) and age over 80.", "High cost relative to a generic-based regimen."],
     changedPractice: true, participants: 879,
     links: [doi("10.1056/NEJMoa2115304"), ct("NCT03274492")],
-    cancers: ["dlbcl"], drugs: ["polatuzumab-vedotin", "rituximab", "doxorubicin", "vincristine"], targets: ["cd79b", "cd20"], technologies: ["adc"], trials: ["polarix"], terms: ["pfs", "os"], companies: ["roche-genentech"], bottlenecks: ["b-drug-pricing", "b-biomarker-validation"] }),
+    cancers: ["dlbcl"], drugs: ["polatuzumab-vedotin", "rituximab", "doxorubicin", "vincristine"], targets: ["cd79b", "cd20"], technologies: ["adc"], trials: ["polarix"], terms: ["pfs", "os"], companies: ["roche-genentech"], bottlenecks: ["b-drug-pricing", "b-biomarker-validation"], journals: ["nejm"] }),
 
   p({ id: "paper-echelon-1-brentuximab-avd-nejm-2018", name: "ECHELON-1: brentuximab vedotin replacing bleomycin in first-line chemotherapy for advanced Hodgkin lymphoma",
     tldr: "Swapping bleomycin for the CD30 antibody-drug conjugate brentuximab vedotin modestly improved disease control in advanced Hodgkin lymphoma and, at six years, improved survival.",
@@ -215,7 +215,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Modified PFS was a novel composite endpoint counting incomplete response followed by further therapy as an event.", "Early absolute benefit was small (about 5 points) and OS emerged only with long follow-up.", "Excluded early-stage disease; older patients (over 60) had high toxicity with A+AVD.", "Cost of brentuximab restricts use in lower-income settings."],
     changedPractice: true, participants: 1334,
     links: [doi("10.1056/NEJMoa1708984"), doi("10.1056/NEJMoa2206125", "6-year overall survival (Ansell 2022)"), ct("NCT01712490")],
-    cancers: ["hodgkin-lymphoma"], drugs: ["brentuximab-vedotin", "doxorubicin"], targets: ["cd30"], technologies: ["adc"], trials: ["echelon-1", "hd21", "swog-s1826"], terms: ["pfs", "os"], companies: ["pfizer", "takeda"], related: ["paper-swog-s1826-nivolumab-avd-nejm-2024"], bottlenecks: ["b-toxicity-qol", "b-survivorship"] }),
+    cancers: ["hodgkin-lymphoma"], drugs: ["brentuximab-vedotin", "doxorubicin"], targets: ["cd30"], technologies: ["adc"], trials: ["echelon-1", "hd21", "swog-s1826"], terms: ["pfs", "os"], companies: ["pfizer", "takeda"], related: ["paper-swog-s1826-nivolumab-avd-nejm-2024"], bottlenecks: ["b-toxicity-qol", "b-survivorship"], journals: ["nejm"] }),
 
   p({ id: "paper-swog-s1826-nivolumab-avd-nejm-2024", name: "SWOG S1826: nivolumab plus AVD chemotherapy versus brentuximab-AVD for advanced Hodgkin lymphoma in adolescents and adults",
     tldr: "Adding a PD-1 antibody to chemotherapy beat the brentuximab-based standard, with 92% of patients progression-free at two years and less nerve damage.",
@@ -226,7 +226,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Overall survival data are immature; both arms have high survival.", "Follow-up is short for a disease where late relapses and second cancers matter.", "Comparison is with BV-AVD, not the European BrECADD regimen.", "Nivolumab cost and access limit adoption in some health systems."],
     changedPractice: true, participants: 994,
     links: [doi("10.1056/NEJMoa2405888"), ct("NCT03907488")],
-    cancers: ["hodgkin-lymphoma"], drugs: ["nivolumab", "brentuximab-vedotin", "doxorubicin"], targets: ["pd1", "cd30"], technologies: ["checkpoint-inhibitor"], trials: ["swog-s1826", "echelon-1", "hd21", "ahod2131"], terms: ["pfs", "irae"], people: ["alex-herrera"], institutions: ["swog", "childrens-oncology-group"], companies: ["bms"], related: ["pd1-plus-avd-hodgkin", "paper-echelon-1-brentuximab-avd-nejm-2018"], bottlenecks: ["b-trial-design", "b-survivorship"] }),
+    cancers: ["hodgkin-lymphoma"], drugs: ["nivolumab", "brentuximab-vedotin", "doxorubicin"], targets: ["pd1", "cd30"], technologies: ["checkpoint-inhibitor"], trials: ["swog-s1826", "echelon-1", "hd21", "ahod2131"], terms: ["pfs", "irae"], people: ["alex-herrera"], institutions: ["swog", "childrens-oncology-group"], companies: ["bms"], related: ["pd1-plus-avd-hodgkin", "paper-echelon-1-brentuximab-avd-nejm-2018"], bottlenecks: ["b-trial-design", "b-survivorship"], journals: ["nejm"] }),
 
   p({ id: "paper-epcore-nhl-1-epcoritamab-jco-2023", name: "EPCORE NHL-1: epcoritamab, a subcutaneous CD20 x CD3 bispecific, in relapsed large B-cell lymphoma including after CAR-T",
     tldr: "In EPCORE NHL-1, the off-the-shelf bispecific antibody epcoritamab produced responses in 63% of patients with relapsed aggressive lymphoma, including many whose CAR-T had failed.",
@@ -237,7 +237,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm phase 2; randomised confirmation in earlier lines came later with mixed results in some designs.", "Fixed-duration (glofitamab) versus until-progression (epcoritamab) dosing remains a practical difference without head-to-head data.", "Infection risk and hypogammaglobulinaemia accumulate with prolonged dosing.", "Durability of partial responses is limited."],
     changedPractice: true, participants: 157,
     links: [pubmed("EPCORE NHL-1 epcoritamab large B-cell lymphoma Thieblemont JCO 2023"), ct("NCT03625037")],
-    cancers: ["dlbcl", "follicular-lymphoma"], drugs: ["epcoritamab", "glofitamab", "mosunetuzumab", "odronextamab"], targets: ["cd20", "cd3"], technologies: ["bispecific-antibody", "t-cell-engager"], trials: ["epcore-nhl-1", "epcore-dlbcl-1", "starglo"], terms: ["crs", "icans", "orr"], companies: ["abbvie", "roche-genentech"], related: ["bispecific-plus-adc-lymphoma"], bottlenecks: ["b-manufacturing-cell-therapy", "b-resistance"] }),
+    cancers: ["dlbcl", "follicular-lymphoma"], drugs: ["epcoritamab", "glofitamab", "mosunetuzumab", "odronextamab"], targets: ["cd20", "cd3"], technologies: ["bispecific-antibody", "t-cell-engager"], trials: ["epcore-nhl-1", "epcore-dlbcl-1", "starglo"], terms: ["crs", "icans", "orr"], companies: ["abbvie", "roche-genentech"], related: ["bispecific-plus-adc-lymphoma"], bottlenecks: ["b-manufacturing-cell-therapy", "b-resistance"], journals: ["jco"] }),
 
   p({ id: "paper-zuma-2-brexu-cel-mantle-cell-nejm-2020", name: "ZUMA-2: brexu-cel CAR-T for mantle cell lymphoma that has failed BTK inhibitors",
     tldr: "In mantle cell lymphoma that had stopped responding to BTK inhibitors, a single CAR-T infusion produced responses in 93% of patients and complete remissions in two-thirds.",
@@ -248,7 +248,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm; no randomised comparison.", "High rates of neurological toxicity, and a treatment-related death rate that requires experienced centres.", "Later real-world data showed lower complete response rates than the trial.", "Long-term durability is limited by late relapses in roughly half of responders."],
     changedPractice: true, participants: 68,
     links: [doi("10.1056/NEJMoa1914347"), ct("NCT02601313")],
-    cancers: ["mantle-cell-lymphoma"], drugs: ["brexucabtagene-autoleucel", "ibrutinib", "pirtobrutinib"], targets: ["cd19", "btk"], technologies: ["car-t"], terms: ["crs", "icans", "orr"], institutions: ["md-anderson"], companies: ["gilead"], related: ["paper-zuma-1-axi-cel-nejm-2017"], bottlenecks: ["b-toxicity-qol", "b-resistance"] }),
+    cancers: ["mantle-cell-lymphoma"], drugs: ["brexucabtagene-autoleucel", "ibrutinib", "pirtobrutinib"], targets: ["cd19", "btk"], technologies: ["car-t"], terms: ["crs", "icans", "orr"], institutions: ["md-anderson"], companies: ["gilead"], related: ["paper-zuma-1-axi-cel-nejm-2017"], bottlenecks: ["b-toxicity-qol", "b-resistance"], journals: ["nejm"] }),
 
   // ======================= AML =======================
   p({ id: "paper-viale-a-venetoclax-azacitidine-nejm-2020", name: "VIALE-A: venetoclax plus azacitidine for older adults with acute myeloid leukaemia who cannot have intensive chemotherapy",
@@ -260,7 +260,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Median survival gain was about five months; long-term survival is still poor.", "Benefit was smaller in TP53-mutated and adverse-karyotype disease.", "Prolonged cytopenias require dose interruptions and expertise; real-world outcomes are worse than trial results.", "No comparison against intensive chemotherapy in fit patients."],
     changedPractice: true, participants: 431,
     links: [doi("10.1056/NEJMoa2012971"), ct("NCT02993523")],
-    cancers: ["aml"], drugs: ["venetoclax", "azacitidine"], targets: ["bcl2"], trials: ["viale-a"], terms: ["os", "mrd-negative-cr"], institutions: ["md-anderson"], companies: ["abbvie"], related: ["venetoclax-plus-hma", "menin-plus-venetoclax-hma"], bottlenecks: ["b-aging-comorbidity", "b-resistance"] }),
+    cancers: ["aml"], drugs: ["venetoclax", "azacitidine"], targets: ["bcl2"], trials: ["viale-a"], terms: ["os", "mrd-negative-cr"], institutions: ["md-anderson"], companies: ["abbvie"], related: ["venetoclax-plus-hma", "menin-plus-venetoclax-hma"], bottlenecks: ["b-aging-comorbidity", "b-resistance"], journals: ["nejm"] }),
 
   p({ id: "paper-admiral-gilteritinib-flt3-nejm-2019", name: "ADMIRAL: gilteritinib pills versus chemotherapy for relapsed FLT3-mutated acute myeloid leukaemia",
     tldr: "An oral FLT3 inhibitor extended survival compared with salvage chemotherapy in relapsed AML with a FLT3 mutation, doubling the remission rate.",
@@ -271,7 +271,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Modest absolute survival gain; most patients not transplanted eventually relapsed.", "Open-label with heterogeneous chemotherapy comparators.", "Excluded patients previously treated with certain FLT3 inhibitors; prior midostaurin exposure was uncommon.", "Differentiation syndrome and QT prolongation require monitoring."],
     changedPractice: true, participants: 371,
     links: [doi("10.1056/NEJMoa1902688"), ct("NCT02421939")],
-    cancers: ["aml"], drugs: ["gilteritinib", "midostaurin", "quizartinib"], targets: ["flt3"], technologies: ["allogeneic-hsct"], trials: ["admiral"], terms: ["os"], companies: ["astellas"], related: ["paper-quantum-first-quizartinib-lancet-2023"], bottlenecks: ["b-resistance"] }),
+    cancers: ["aml"], drugs: ["gilteritinib", "midostaurin", "quizartinib"], targets: ["flt3"], technologies: ["allogeneic-hsct"], trials: ["admiral"], terms: ["os"], companies: ["astellas"], related: ["paper-quantum-first-quizartinib-lancet-2023"], bottlenecks: ["b-resistance"], journals: ["nejm"] }),
 
   p({ id: "paper-quantum-first-quizartinib-lancet-2023", name: "QuANTUM-First: quizartinib added to intensive chemotherapy and continued as maintenance in newly diagnosed FLT3-ITD AML",
     tldr: "Adding the FLT3 inhibitor quizartinib to standard chemotherapy, and continuing it for up to three years, roughly doubled median survival in FLT3-ITD acute myeloid leukaemia.",
@@ -282,7 +282,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Applies only to FLT3-ITD, not FLT3-TKD mutations.", "Contribution of maintenance versus induction-phase quizartinib cannot be separated.", "Placebo, rather than midostaurin, was the comparator.", "Cardiac monitoring for QT prolongation is required; older patients gained less."],
     changedPractice: true, participants: 539,
     links: [pubmed("QuANTUM-First quizartinib FLT3-ITD Erba Lancet 2023"), ct("NCT02668653")],
-    cancers: ["aml"], drugs: ["quizartinib", "midostaurin", "gilteritinib", "cytarabine-7-3"], targets: ["flt3"], technologies: ["allogeneic-hsct"], trials: ["quantum-first"], terms: ["os"], companies: ["daiichi-sankyo"], related: ["flt3i-plus-7-3", "paper-admiral-gilteritinib-flt3-nejm-2019"], bottlenecks: ["b-resistance", "b-dose-optimisation"] }),
+    cancers: ["aml"], drugs: ["quizartinib", "midostaurin", "gilteritinib", "cytarabine-7-3"], targets: ["flt3"], technologies: ["allogeneic-hsct"], trials: ["quantum-first"], terms: ["os"], companies: ["daiichi-sankyo"], related: ["flt3i-plus-7-3", "paper-admiral-gilteritinib-flt3-nejm-2019"], bottlenecks: ["b-resistance", "b-dose-optimisation"], journals: ["lancet"] }),
 
   p({ id: "paper-agile-ivosidenib-azacitidine-nejm-2022", name: "AGILE: ivosidenib plus azacitidine for newly diagnosed IDH1-mutated AML in patients unfit for intensive chemotherapy",
     tldr: "Adding the IDH1 inhibitor ivosidenib to azacitidine tripled median survival, from 7.9 to 24 months, in older patients with IDH1-mutated AML.",
@@ -293,7 +293,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Small trial that stopped enrolment early; wide confidence intervals.", "Enrolled before venetoclax-azacitidine became standard, so the comparator is azacitidine alone.", "Restricted to IDH1; IDH2-mutated AML is treated with enasidenib or venetoclax-based regimens.", "Differentiation syndrome needs prompt recognition."],
     changedPractice: true, participants: 146,
     links: [doi("10.1056/NEJMoa2117344"), ct("NCT03173248")],
-    cancers: ["aml"], drugs: ["ivosidenib", "azacitidine", "venetoclax"], trials: ["agile"], terms: ["efs", "os"], companies: ["servier"], related: ["paper-viale-a-venetoclax-azacitidine-nejm-2020"], bottlenecks: ["b-rare-cancers", "b-trial-enrolment"] }),
+    cancers: ["aml"], drugs: ["ivosidenib", "azacitidine", "venetoclax"], trials: ["agile"], terms: ["efs", "os"], companies: ["servier"], related: ["paper-viale-a-venetoclax-azacitidine-nejm-2020"], bottlenecks: ["b-rare-cancers", "b-trial-enrolment"], journals: ["nejm"] }),
 
   p({ id: "paper-augment-101-revumenib-menin-nature-2023", name: "AUGMENT-101: revumenib, the first menin inhibitor, in relapsed leukaemias driven by KMT2A rearrangement or NPM1 mutation",
     tldr: "Blocking menin, a scaffold protein the leukaemia depends on, produced remissions in heavily pretreated patients with KMT2A-rearranged or NPM1-mutated acute leukaemia.",
@@ -304,7 +304,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm phase 1/2 in end-stage patients; no randomised data yet.", "Modest CR/CRh rates as monotherapy; benefit likely to come from combinations and as a bridge to transplant.", "QT prolongation and drug interactions with azoles require dose adjustment.", "Resistance via MEN1 mutations emerges within months in some patients."],
     changedPractice: true, participants: 68,
     links: [pubmed("AUGMENT-101 revumenib menin inhibitor KMT2A NPM1 Issa Nature 2023"), ct("NCT04065399")],
-    cancers: ["aml", "all-leukemia"], drugs: ["revumenib", "ziftomenib"], targets: ["menin", "kmt2a", "npm1"], trials: ["augment-101"], terms: ["mrd-negative-cr", "orr"], institutions: ["md-anderson"], companies: ["syndax", "kura-oncology"], related: ["menin-plus-venetoclax-hma"], bottlenecks: ["b-undruggable-targets", "b-resistance"] }),
+    cancers: ["aml", "all-leukemia"], drugs: ["revumenib", "ziftomenib"], targets: ["menin", "kmt2a", "npm1"], trials: ["augment-101"], terms: ["mrd-negative-cr", "orr"], institutions: ["md-anderson"], companies: ["syndax", "kura-oncology"], related: ["menin-plus-venetoclax-hma"], bottlenecks: ["b-undruggable-targets", "b-resistance"], journals: ["nature"] }),
 
   // ======================= ALL =======================
   p({ id: "paper-e1910-blinatumomab-mrd-negative-all-nejm-2024", name: "ECOG-ACRIN E1910: adding blinatumomab to chemotherapy for adults with B-cell ALL already in MRD-negative remission",
@@ -316,7 +316,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["MRD was assessed by flow cytometry at 10^-4 sensitivity; more sensitive NGS assays might identify who truly needs blinatumomab.", "Adults under 30 were excluded (treated on paediatric-inspired protocols).", "Randomised sample was modest and the OS benefit emerged at interim analysis.", "Blinatumomab requires continuous 28-day infusions, a logistical burden."],
     changedPractice: true, participants: 224,
     links: [doi("10.1056/NEJMoa2312948"), ct("NCT02003222")],
-    cancers: ["all-leukemia"], drugs: ["blinatumomab"], targets: ["cd19", "cd3"], technologies: ["bispecific-antibody", "t-cell-engager", "mrd-testing"], trials: ["e1910"], terms: ["mrd", "os", "mrd-negative-cr"], people: ["mark-litzow"], institutions: ["ecog-acrin"], companies: ["amgen"], related: ["blinatumomab-frontline-consolidation", "paper-aall1731-blinatumomab-children-nejm-2025"], bottlenecks: ["b-dormancy-mrd"] }),
+    cancers: ["all-leukemia"], drugs: ["blinatumomab"], targets: ["cd19", "cd3"], technologies: ["bispecific-antibody", "t-cell-engager", "mrd-testing"], trials: ["e1910"], terms: ["mrd", "os", "mrd-negative-cr"], people: ["mark-litzow"], institutions: ["ecog-acrin"], companies: ["amgen"], related: ["blinatumomab-frontline-consolidation", "paper-aall1731-blinatumomab-children-nejm-2025"], bottlenecks: ["b-dormancy-mrd"], journals: ["nejm"] }),
 
   p({ id: "paper-aall1731-blinatumomab-children-nejm-2025", name: "Children's Oncology Group AALL1731: blinatumomab added to chemotherapy for children with standard-risk B-cell ALL",
     tldr: "Two courses of blinatumomab added to standard chemotherapy cut relapses in children with average- or higher-risk standard-risk leukaemia, raising three-year disease-free survival from 88% to 96%.",
@@ -327,7 +327,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Early stopping at interim analysis may overestimate the effect size.", "Follow-up is short for a disease where late relapses occur; overall survival not yet different.", "Infection-related toxicity and central-line management are practical concerns in small children.", "Very favourable-risk children (not randomised) were not tested."],
     changedPractice: true, participants: 1440,
     links: [pubmed("AALL1731 blinatumomab standard-risk B-ALL children Gupta NEJM 2025"), ct("NCT03914625")],
-    cancers: ["all-leukemia"], drugs: ["blinatumomab"], targets: ["cd19", "cd3"], technologies: ["bispecific-antibody", "t-cell-engager"], trials: ["aall1731"], terms: ["efs", "mrd"], people: ["rachel-rau"], institutions: ["childrens-oncology-group"], companies: ["amgen"], related: ["blinatumomab-frontline-consolidation", "paper-e1910-blinatumomab-mrd-negative-all-nejm-2024"], bottlenecks: ["b-trial-design", "b-survivorship"] }),
+    cancers: ["all-leukemia"], drugs: ["blinatumomab"], targets: ["cd19", "cd3"], technologies: ["bispecific-antibody", "t-cell-engager"], trials: ["aall1731"], terms: ["efs", "mrd"], people: ["rachel-rau"], institutions: ["childrens-oncology-group"], companies: ["amgen"], related: ["blinatumomab-frontline-consolidation", "paper-e1910-blinatumomab-mrd-negative-all-nejm-2024"], bottlenecks: ["b-trial-design", "b-survivorship"], journals: ["nejm"] }),
 
   p({ id: "paper-ino-vate-inotuzumab-all-nejm-2016", name: "INO-VATE: inotuzumab ozogamicin, a CD22 antibody-drug conjugate, versus chemotherapy for relapsed adult B-cell ALL",
     tldr: "A CD22 antibody-drug conjugate produced complete remission in 81% of adults with relapsed ALL compared with 29% on chemotherapy, at the cost of liver toxicity in about one in ten.",
@@ -338,7 +338,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["OS benefit was modest and did not meet the trial's statistical threshold at the primary analysis.", "Veno-occlusive disease is a serious, sometimes fatal, toxicity that constrains dosing before transplant.", "Open-label with heterogeneous chemotherapy comparators.", "Requires CD22 expression; antigen loss is a resistance mechanism."],
     changedPractice: true, participants: 326,
     links: [doi("10.1056/NEJMoa1509277"), ct("NCT01564784")],
-    cancers: ["all-leukemia"], drugs: ["inotuzumab-ozogamicin", "blinatumomab"], targets: ["cd22"], technologies: ["adc", "allogeneic-hsct"], terms: ["mrd", "os"], people: ["hagop-kantarjian"], institutions: ["md-anderson"], companies: ["pfizer"], related: ["inotuzumab-then-transplant-caution"], bottlenecks: ["b-toxicity-qol"] }),
+    cancers: ["all-leukemia"], drugs: ["inotuzumab-ozogamicin", "blinatumomab"], targets: ["cd22"], technologies: ["adc", "allogeneic-hsct"], terms: ["mrd", "os"], people: ["hagop-kantarjian"], institutions: ["md-anderson"], companies: ["pfizer"], related: ["inotuzumab-then-transplant-caution"], bottlenecks: ["b-toxicity-qol"], journals: ["nejm"] }),
 
   // ======================= MDS =======================
   p({ id: "paper-commands-luspatercept-mds-lancet-2023", name: "COMMANDS: luspatercept versus epoetin alfa as first treatment for anaemia in lower-risk MDS needing transfusions",
@@ -350,7 +350,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Interim analysis of an open-label trial; the composite primary endpoint is a surrogate for quality of life and survival.", "Uncertain benefit in ring-sideroblast-negative and SF3B1-unmutated disease.", "Excluded patients with del(5q) and those with high transfusion burden plus low erythropoietin only partially represented.", "Cost is far higher than epoetin."],
     changedPractice: true, participants: 301,
     links: [pubmed("COMMANDS luspatercept epoetin alfa lower-risk MDS Platzbecker Lancet 2023"), ct("NCT03682536")],
-    cancers: ["mds"], drugs: ["luspatercept", "imetelstat"], targets: ["tgf-beta"], terms: ["orr"], companies: ["bms"], related: ["paper-imerge-imetelstat-mds-lancet-2024"], bottlenecks: ["b-toxicity-qol", "b-drug-pricing"] }),
+    cancers: ["mds"], drugs: ["luspatercept", "imetelstat"], targets: ["tgf-beta"], terms: ["orr"], companies: ["bms"], related: ["paper-imerge-imetelstat-mds-lancet-2024"], bottlenecks: ["b-toxicity-qol", "b-drug-pricing"], journals: ["lancet"] }),
 
   p({ id: "paper-imerge-imetelstat-mds-lancet-2024", name: "IMerge: imetelstat, a telomerase inhibitor, for transfusion-dependent lower-risk MDS after erythropoietin has failed",
     tldr: "In IMerge, imetelstat, the first telomerase inhibitor to reach approval, freed about 40% of heavily transfused MDS patients from transfusions for eight weeks and 28% for six months, versus 15% and 3% with placebo.",
@@ -361,7 +361,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Surrogate endpoint (transfusion independence) rather than survival or progression.", "High rates of grade 3-4 cytopenias in a population already at bleeding and infection risk.", "Only 8-week independence was the primary endpoint; the more meaningful 24-week rate was secondary.", "Disease-modifying claims rest on exploratory molecular analyses."],
     changedPractice: true, participants: 178,
     links: [pubmed("IMerge imetelstat lower-risk MDS Platzbecker Lancet 2024"), ct("NCT02598661")],
-    cancers: ["mds"], drugs: ["imetelstat", "luspatercept"], terms: ["orr"], related: ["paper-commands-luspatercept-mds-lancet-2023"], bottlenecks: ["b-undruggable-targets", "b-toxicity-qol"] }),
+    cancers: ["mds"], drugs: ["imetelstat", "luspatercept"], terms: ["orr"], related: ["paper-commands-luspatercept-mds-lancet-2023"], bottlenecks: ["b-undruggable-targets", "b-toxicity-qol"], journals: ["lancet"] }),
 
   // ======================= MPN =======================
   p({ id: "paper-comfort-1-ruxolitinib-myelofibrosis-nejm-2012", name: "COMFORT-I: ruxolitinib, the first JAK inhibitor, versus placebo for myelofibrosis",
@@ -373,7 +373,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Primary endpoint was spleen volume, a surrogate; survival gains were shown only in later, crossover-confounded analyses.", "Ruxolitinib worsens anaemia, limiting use in already-anaemic patients.", "Benefit is largely symptomatic; molecular responses are uncommon.", "Discontinuation is followed by rapid symptom rebound."],
     changedPractice: true, participants: 309,
     links: [doi("10.1056/NEJMoa1110557"), ct("NCT00952289")],
-    cancers: ["myeloproliferative-neoplasms"], drugs: ["ruxolitinib", "fedratinib", "pacritinib", "momelotinib"], targets: ["jak2"], companies: ["incyte", "novartis"], related: ["paper-momentum-momelotinib-lancet-2023"], bottlenecks: ["b-toxicity-qol", "b-rare-cancers"] }),
+    cancers: ["myeloproliferative-neoplasms"], drugs: ["ruxolitinib", "fedratinib", "pacritinib", "momelotinib"], targets: ["jak2"], companies: ["incyte", "novartis"], related: ["paper-momentum-momelotinib-lancet-2023"], bottlenecks: ["b-toxicity-qol", "b-rare-cancers"], journals: ["nejm"] }),
 
   p({ id: "paper-momentum-momelotinib-lancet-2023", name: "MOMENTUM: momelotinib versus danazol for myelofibrosis patients with anaemia after a prior JAK inhibitor",
     tldr: "A JAK inhibitor that also blocks the anaemia-driving ACVR1 pathway improved symptoms and spleen size without worsening, and often improving, anaemia in previously treated patients.",
@@ -384,7 +384,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Danazol is a weak comparator with limited efficacy of its own.", "Symptom response rate of 25% is low in absolute terms.", "Short (24-week) randomised period before crossover; long-term comparative data are limited.", "Peripheral neuropathy signal seen in earlier momelotinib trials."],
     changedPractice: true, participants: 195,
     links: [pubmed("MOMENTUM momelotinib danazol myelofibrosis anaemia Verstovsek Lancet 2023"), ct("NCT04173494")],
-    cancers: ["myeloproliferative-neoplasms"], drugs: ["momelotinib", "ruxolitinib", "pacritinib"], targets: ["jak2"], companies: ["gsk"], related: ["paper-comfort-1-ruxolitinib-myelofibrosis-nejm-2012"], bottlenecks: ["b-toxicity-qol"] }),
+    cancers: ["myeloproliferative-neoplasms"], drugs: ["momelotinib", "ruxolitinib", "pacritinib"], targets: ["jak2"], companies: ["gsk"], related: ["paper-comfort-1-ruxolitinib-myelofibrosis-nejm-2012"], bottlenecks: ["b-toxicity-qol"], journals: ["lancet"] }),
 
   // ======================= FIRST CAR-T REPORTS =======================
   p({ id: "paper-maude-ctl019-all-nejm-2014", name: "Maude 2014: CD19 CAR-T cells produce complete remission in 27 of 30 children and adults with relapsed ALL",
@@ -396,7 +396,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-centre, uncontrolled series with short follow-up.", "Selected patients able to wait for manufacturing and tolerate lymphodepletion.", "Durability was uncertain; about a third relapsed within months, often with CD19-negative disease.", "Toxicity management was still empirical."],
     changedPractice: true, participants: 30,
     links: [doi("10.1056/NEJMoa1407222"), doi("10.1056/NEJMoa1103849", "First CLL patient report (Porter 2011)"), ct("NCT01626495")],
-    cancers: ["all-leukemia", "cll"], drugs: ["tisagenlecleucel"], targets: ["cd19"], technologies: ["car-t"], terms: ["crs", "mrd-negative-cr"], people: ["carl-june", "david-porter", "bruce-levine"], institutions: ["penn-abramson"], companies: ["novartis"], related: ["paper-eliana-tisagenlecleucel-nejm-2018"], bottlenecks: ["b-translational-valley", "b-manufacturing-cell-therapy"] }),
+    cancers: ["all-leukemia", "cll"], drugs: ["tisagenlecleucel"], targets: ["cd19"], technologies: ["car-t"], terms: ["crs", "mrd-negative-cr"], people: ["carl-june", "david-porter", "bruce-levine"], institutions: ["penn-abramson"], companies: ["novartis"], related: ["paper-eliana-tisagenlecleucel-nejm-2018"], bottlenecks: ["b-translational-valley", "b-manufacturing-cell-therapy"], journals: ["nejm"] }),
 
   p({ id: "paper-eliana-tisagenlecleucel-nejm-2018", name: "ELIANA: the global trial that made tisagenlecleucel the first approved CAR-T therapy for children and young adults with relapsed ALL",
     tldr: "Across 25 centres, 81% of children and young adults with relapsed or refractory ALL went into remission after a single tisagenlecleucel infusion, and half were still event-free a year later.",
@@ -407,7 +407,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm; no randomised comparator and outcomes reported on infused rather than enrolled patients in most analyses.", "Severe CRS rates were high by later standards, before prophylactic strategies.", "Long-term relapse, often CD19-negative, affects about half; some patients still proceed to transplant.", "List price around 475,000 US dollars at launch raised affordability and access questions."],
     changedPractice: true, participants: 75,
     links: [doi("10.1056/NEJMoa1709866"), ct("NCT02435849")],
-    cancers: ["all-leukemia"], drugs: ["tisagenlecleucel", "obecabtagene-autoleucel"], targets: ["cd19"], technologies: ["car-t"], trials: ["eliana"], terms: ["crs", "icans", "efs"], people: ["carl-june", "bruce-levine"], institutions: ["penn-abramson"], companies: ["novartis"], related: ["paper-maude-ctl019-all-nejm-2014", "apheresis-starting-material"], bottlenecks: ["b-manufacturing-cell-therapy", "b-drug-pricing", "b-global-access"] }),
+    cancers: ["all-leukemia"], drugs: ["tisagenlecleucel", "obecabtagene-autoleucel"], targets: ["cd19"], technologies: ["car-t"], trials: ["eliana"], terms: ["crs", "icans", "efs"], people: ["carl-june", "bruce-levine"], institutions: ["penn-abramson"], companies: ["novartis"], related: ["paper-maude-ctl019-all-nejm-2014", "apheresis-starting-material"], bottlenecks: ["b-manufacturing-cell-therapy", "b-drug-pricing", "b-global-access"], journals: ["nejm"] }),
 
   p({ id: "paper-juliet-tisagenlecleucel-dlbcl-nejm-2019", name: "JULIET: tisagenlecleucel for adults with relapsed or refractory diffuse large B-cell lymphoma",
     tldr: "In adults with aggressive lymphoma after at least two prior treatments, tisagenlecleucel produced responses in 52% and complete responses in 40%, most of which lasted.",
@@ -418,7 +418,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm; efficacy reported on infused patients, flattering the intention-to-treat picture.", "Lower response rates than in ZUMA-1, possibly reflecting product, patient selection or manufacturing time.", "Long vein-to-vein time (median about 54 days) meant many patients progressed before infusion.", "Later randomised second-line trial (BELINDA) was negative for this product."],
     changedPractice: true, participants: 111,
     links: [doi("10.1056/NEJMoa1804980"), ct("NCT02445248")],
-    cancers: ["dlbcl"], drugs: ["tisagenlecleucel"], targets: ["cd19"], technologies: ["car-t"], trials: ["belinda"], terms: ["crs", "icans", "orr"], institutions: ["penn-abramson"], companies: ["novartis"], related: ["paper-zuma-1-axi-cel-nejm-2017"], bottlenecks: ["b-manufacturing-cell-therapy"] }),
+    cancers: ["dlbcl"], drugs: ["tisagenlecleucel"], targets: ["cd19"], technologies: ["car-t"], trials: ["belinda"], terms: ["crs", "icans", "orr"], institutions: ["penn-abramson"], companies: ["novartis"], related: ["paper-zuma-1-axi-cel-nejm-2017"], bottlenecks: ["b-manufacturing-cell-therapy"], journals: ["nejm"] }),
 
   p({ id: "paper-zuma-1-axi-cel-nejm-2017", name: "ZUMA-1: axicabtagene ciloleucel for refractory large B-cell lymphoma, the first CAR-T approved for lymphoma",
     tldr: "In lymphoma refractory to chemotherapy, where expected survival was around six months, a single CAR-T infusion produced responses in 82% of patients and long-term remission in about 40%.",
@@ -429,7 +429,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm with a historical comparator (SCHOLAR-1).", "No bridging therapy was allowed, selecting patients with slower-growing disease.", "Roughly 60% of patients eventually relapsed or died; long-term survivors are a minority.", "Toxicity required intensive-care-capable centres; real-world use has since expanded with prophylactic steroids."],
     changedPractice: true, participants: 101,
     links: [doi("10.1056/NEJMoa1707447"), ct("NCT02348216")],
-    cancers: ["dlbcl", "follicular-lymphoma"], drugs: ["axicabtagene-ciloleucel"], targets: ["cd19"], technologies: ["car-t"], trials: ["zuma-7"], terms: ["crs", "icans", "orr"], people: ["frederick-locke"], institutions: ["md-anderson", "moffitt"], companies: ["gilead"], related: ["paper-zuma-7-axi-cel-second-line-nejm-2022", "paper-juliet-tisagenlecleucel-dlbcl-nejm-2019"], bottlenecks: ["b-manufacturing-cell-therapy", "b-toxicity-qol"] }),
+    cancers: ["dlbcl", "follicular-lymphoma"], drugs: ["axicabtagene-ciloleucel"], targets: ["cd19"], technologies: ["car-t"], trials: ["zuma-7"], terms: ["crs", "icans", "orr"], people: ["frederick-locke"], institutions: ["md-anderson", "moffitt"], companies: ["gilead"], related: ["paper-zuma-7-axi-cel-second-line-nejm-2022", "paper-juliet-tisagenlecleucel-dlbcl-nejm-2019"], bottlenecks: ["b-manufacturing-cell-therapy", "b-toxicity-qol"], journals: ["nejm"] }),
 
   p({ id: "paper-ucart19-allogeneic-car-t-lancet-2020", name: "UCART19: the first gene-edited, donor-derived CAR-T cells in children and adults with relapsed B-cell ALL",
     tldr: "Off-the-shelf CAR-T cells made from a healthy donor, gene-edited to avoid rejection and graft-versus-host disease, produced remission in 14 of 21 patients with relapsed ALL.",
@@ -440,7 +440,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Very small phase 1 with heterogeneous dosing.", "Remissions were mostly a bridge to transplant; few durable responses without further therapy.", "Alemtuzumab-based lymphodepletion causes profound, prolonged immunosuppression and infection risk.", "Gene editing raises questions about off-target effects and chromosomal rearrangements."],
     changedPractice: false, participants: 21,
     links: [pubmed("UCART19 genome-edited donor-derived allogeneic anti-CD19 CAR T Benjamin Lancet 2020"), ct("NCT02746952"), ct("NCT02808442")],
-    cancers: ["all-leukemia"], targets: ["cd19"], technologies: ["allogeneic-cell-therapy", "car-t", "in-vivo-car-t"], terms: ["crs"], companies: ["servier", "allogene"], related: ["allogeneic-cell-banking", "point-of-care-cell-manufacturing", "paper-eliana-tisagenlecleucel-nejm-2018"], bottlenecks: ["b-manufacturing-cell-therapy", "b-resistance"] }),
+    cancers: ["all-leukemia"], targets: ["cd19"], technologies: ["allogeneic-cell-therapy", "car-t", "in-vivo-car-t"], terms: ["crs"], companies: ["servier", "allogene"], related: ["allogeneic-cell-banking", "point-of-care-cell-manufacturing", "paper-eliana-tisagenlecleucel-nejm-2018"], bottlenecks: ["b-manufacturing-cell-therapy", "b-resistance"], journals: ["lancet"] }),
 
   // ======================= TIL AND TCR-T =======================
   p({ id: "paper-c-144-01-lifileucel-melanoma-jco-2021", name: "C-144-01: lifileucel, tumour-infiltrating lymphocytes grown from a patient's own tumour, in melanoma after checkpoint inhibitors have failed",
@@ -452,7 +452,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm trial; approval rested on response rate rather than survival.", "Toxic conditioning and high-dose IL-2 make the regimen unsuitable for frail patients.", "Manufacturing takes about three weeks and needs a resectable lesion; not all patients yield a product.", "Cost (list price above 500,000 US dollars) and centre requirements restrict access."],
     changedPractice: true, participants: 66,
     links: [pubmed("C-144-01 lifileucel tumor-infiltrating lymphocyte melanoma Sarnaik JCO 2021"), ct("NCT02360579")],
-    cancers: ["melanoma"], drugs: ["lifileucel", "aldesleukin", "cyclophosphamide"], technologies: ["til-therapy"], trials: ["c-144-01"], terms: ["tils", "orr"], people: ["amod-sarnaik", "steven-rosenberg"], institutions: ["moffitt", "nci"], companies: ["iovance"], related: ["paper-rohaas-til-vs-ipilimumab-nejm-2022"], bottlenecks: ["b-manufacturing-cell-therapy", "b-immunotherapy-response"] }),
+    cancers: ["melanoma"], drugs: ["lifileucel", "aldesleukin", "cyclophosphamide"], technologies: ["til-therapy"], trials: ["c-144-01"], terms: ["tils", "orr"], people: ["amod-sarnaik", "steven-rosenberg"], institutions: ["moffitt", "nci"], companies: ["iovance"], related: ["paper-rohaas-til-vs-ipilimumab-nejm-2022"], bottlenecks: ["b-manufacturing-cell-therapy", "b-immunotherapy-response"], journals: ["jco"] }),
 
   p({ id: "paper-rohaas-til-vs-ipilimumab-nejm-2022", name: "Rohaas 2022: the first randomised trial of TIL therapy, against ipilimumab, in advanced melanoma",
     tldr: "In a head-to-head trial, tumour-infiltrating lymphocyte therapy halved the risk of progression compared with ipilimumab in melanoma that had mostly already failed PD-1 blockade.",
@@ -463,7 +463,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Ipilimumab monotherapy is a weak comparator in PD-1-refractory melanoma.", "Overall survival benefit was not statistically significant; crossover was allowed.", "Severe but transient toxicity requiring inpatient care.", "Academic manufacturing at two centres; scalability and reproducibility outside them are unproven."],
     changedPractice: true, participants: 168,
     links: [doi("10.1056/NEJMoa2210233"), ct("NCT02278887")],
-    cancers: ["melanoma"], drugs: ["ipilimumab", "aldesleukin", "cyclophosphamide", "lifileucel"], targets: ["ctla4"], technologies: ["til-therapy"], terms: ["tils", "pfs"], people: ["john-haanen", "ton-schumacher"], institutions: ["nki"], related: ["paper-c-144-01-lifileucel-melanoma-jco-2021"], bottlenecks: ["b-manufacturing-cell-therapy", "b-funding-allocation"] }),
+    cancers: ["melanoma"], drugs: ["ipilimumab", "aldesleukin", "cyclophosphamide", "lifileucel"], targets: ["ctla4"], technologies: ["til-therapy"], terms: ["tils", "pfs"], people: ["john-haanen", "ton-schumacher"], institutions: ["nki"], related: ["paper-c-144-01-lifileucel-melanoma-jco-2021"], bottlenecks: ["b-manufacturing-cell-therapy", "b-funding-allocation"], journals: ["nejm"] }),
 
   p({ id: "paper-spearhead-1-afami-cel-sarcoma-lancet-2024", name: "SPEARHEAD-1: afami-cel, the first engineered T-cell receptor therapy approved for a solid tumour, in synovial sarcoma",
     tldr: "T cells engineered with a receptor recognising the MAGE-A4 cancer antigen shrank tumours in 37% of patients with advanced synovial sarcoma or myxoid liposarcoma, leading to the first approval of a TCR-T therapy.",
@@ -474,7 +474,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm; approval based on response rate.", "Eligibility limited to HLA-A*02 carriers with MAGE-A4 expression, excluding most patients.", "Durability is modest and antigen loss or HLA loss can drive relapse.", "Affinity-enhanced TCRs carry theoretical off-target cross-reactivity risk, as seen fatally with an earlier MAGE-A3 TCR."],
     changedPractice: true, participants: 52,
     links: [pubmed("SPEARHEAD-1 afamitresgene autoleucel synovial sarcoma D'Angelo Lancet 2024"), ct("NCT04044768")],
-    cancers: ["sarcoma"], drugs: ["afamitresgene-autoleucel", "letetresgene-autoleucel"], technologies: ["tcr-t"], terms: ["orr", "crs"], companies: ["adaptimmune"], related: ["paper-c-144-01-lifileucel-melanoma-jco-2021"], bottlenecks: ["b-rare-cancers", "b-manufacturing-cell-therapy"] }),
+    cancers: ["sarcoma"], drugs: ["afamitresgene-autoleucel", "letetresgene-autoleucel"], technologies: ["tcr-t"], terms: ["orr", "crs"], companies: ["adaptimmune"], related: ["paper-c-144-01-lifileucel-melanoma-jco-2021"], bottlenecks: ["b-rare-cancers", "b-manufacturing-cell-therapy"], journals: ["lancet"] }),
 
   // ======================= CHECKPOINT FUNDAMENTALS =======================
   p({ id: "paper-hodi-ipilimumab-melanoma-nejm-2010", name: "Hodi 2010: ipilimumab, the first checkpoint inhibitor, extends survival in metastatic melanoma",
@@ -486,7 +486,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Comparator was a peptide vaccine, not an active therapy, and was itself of uncertain effect.", "Restricted to HLA-A*0201-positive patients because of the vaccine.", "Response rate was low; benefit concentrated in a minority with durable responses.", "Toxicity was substantial and management was still being learned."],
     changedPractice: true, participants: 676,
     links: [doi("10.1056/NEJMoa1003466"), ct("NCT00094653")],
-    cancers: ["melanoma"], drugs: ["ipilimumab"], targets: ["ctla4"], technologies: ["checkpoint-inhibitor"], terms: ["irae", "os"], people: ["f-stephen-hodi", "james-allison", "padmanee-sharma"], institutions: ["dana-farber"], companies: ["bms"], related: ["paper-topalian-anti-pd1-nejm-2012", "paper-checkmate-067-ten-year-nejm-2025"], bottlenecks: ["b-immunotherapy-response", "b-toxicity-qol"] }),
+    cancers: ["melanoma"], drugs: ["ipilimumab"], targets: ["ctla4"], technologies: ["checkpoint-inhibitor"], terms: ["irae", "os"], people: ["f-stephen-hodi", "james-allison", "padmanee-sharma"], institutions: ["dana-farber"], companies: ["bms"], related: ["paper-topalian-anti-pd1-nejm-2012", "paper-checkmate-067-ten-year-nejm-2025"], bottlenecks: ["b-immunotherapy-response", "b-toxicity-qol"], journals: ["nejm"] }),
 
   p({ id: "paper-topalian-anti-pd1-nejm-2012", name: "Topalian 2012: the first large trial of a PD-1 antibody shows durable responses across melanoma, lung and kidney cancer",
     tldr: "Nivolumab shrank tumours in roughly a fifth to a quarter of patients with three different advanced cancers, with responses that lasted more than a year and a hint that PD-L1 on the tumour predicted benefit.",
@@ -497,7 +497,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Phase 1 with heterogeneous doses and small tumour cohorts; response rates are imprecise.", "PD-L1 analysis was on 42 patients with archival tissue; the biomarker later proved imperfect.", "No colorectal responses masked the later dMMR story (the one responder in an earlier study was dMMR).", "Survival was not assessed."],
     changedPractice: true, participants: 296,
     links: [doi("10.1056/NEJMoa1200690"), doi("10.1056/NEJMoa1200694", "Companion anti-PD-L1 paper (Brahmer 2012)")],
-    cancers: ["melanoma", "nsclc"], drugs: ["nivolumab", "pembrolizumab", "atezolizumab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], terms: ["irae", "orr"], people: ["suzanne-topalian", "julie-brahmer", "drew-pardoll", "f-stephen-hodi"], companies: ["bms"], related: ["paper-hodi-ipilimumab-melanoma-nejm-2010", "pd1-checkpoint"], bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"] }),
+    cancers: ["melanoma", "nsclc"], drugs: ["nivolumab", "pembrolizumab", "atezolizumab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], terms: ["irae", "orr"], people: ["suzanne-topalian", "julie-brahmer", "drew-pardoll", "f-stephen-hodi"], companies: ["bms"], related: ["paper-hodi-ipilimumab-melanoma-nejm-2010", "pd1-checkpoint"], bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"], journals: ["nejm"] }),
 
   p({ id: "paper-le-mmr-deficiency-pd1-nejm-2015", name: "Le 2015: PD-1 blockade works in tumours with mismatch-repair deficiency, whatever the organ",
     tldr: "Pembrolizumab shrank tumours in 40% of colorectal and 71% of other cancers with faulty DNA mismatch repair, but in none with intact repair, tying immunotherapy response to mutation burden.",
@@ -508,7 +508,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Very small cohorts; response rates have wide confidence intervals.", "Dose of 10 mg/kg is higher than later standard dosing.", "Single-arm; no randomised comparison until KEYNOTE-177.", "Mutation burden as a biomarker beyond dMMR has proved less clean than this data suggested."],
     changedPractice: true, participants: 41,
     links: [doi("10.1056/NEJMoa1500596"), ct("NCT01876511")],
-    cancers: ["colorectal"], drugs: ["pembrolizumab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], terms: ["msi", "tmb", "neoantigen", "tumour-agnostic"], people: ["dung-le", "luis-diaz", "drew-pardoll"], related: ["paper-le-mmr-deficiency-science-2017", "paper-cercek-dostarlimab-rectal-nejm-2022"], bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"] }),
+    cancers: ["colorectal"], drugs: ["pembrolizumab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], terms: ["msi", "tmb", "neoantigen", "tumour-agnostic"], people: ["dung-le", "luis-diaz", "drew-pardoll"], related: ["paper-le-mmr-deficiency-science-2017", "paper-cercek-dostarlimab-rectal-nejm-2022"], bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"], journals: ["nejm"] }),
 
   p({ id: "paper-le-mmr-deficiency-science-2017", name: "Le 2017: mismatch-repair deficiency predicts response to PD-1 blockade across twelve tumour types, leading to the first tissue-agnostic drug approval",
     tldr: "Across 86 patients with 12 different dMMR cancers, pembrolizumab produced responses in 53% and complete responses in 21%, prompting the first approval of a cancer drug based on a genetic marker rather than tumour site.",
@@ -519,7 +519,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm basket study; approvals rested on response rate and durability.", "Heterogeneous prior therapies and tumour types; small numbers per type.", "Roughly a quarter of dMMR tumours are primary resistant, and mechanisms (B2M loss, JAK mutations) are incompletely understood.", "Later data suggest sensitivity varies by MSI assay and tumour type (for example, lower in some dMMR pancreatic and brain tumours)."],
     changedPractice: true, participants: 86,
     links: [doi("10.1126/science.aan6733"), ct("NCT01876511")],
-    cancers: ["colorectal", "pancreatic"], drugs: ["pembrolizumab", "nivolumab", "dostarlimab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], trials: ["keynote-177", "checkmate-8hw"], terms: ["msi", "tumour-agnostic", "neoantigen", "tmb"], people: ["dung-le", "luis-diaz"], related: ["paper-le-mmr-deficiency-pd1-nejm-2015", "paper-niche-2-neoadjuvant-colon-nejm-2024"], bottlenecks: ["b-regulatory-fragmentation", "b-biomarker-validation"] }),
+    cancers: ["colorectal", "pancreatic"], drugs: ["pembrolizumab", "nivolumab", "dostarlimab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], trials: ["keynote-177", "checkmate-8hw"], terms: ["msi", "tumour-agnostic", "neoantigen", "tmb"], people: ["dung-le", "luis-diaz"], related: ["paper-le-mmr-deficiency-pd1-nejm-2015", "paper-niche-2-neoadjuvant-colon-nejm-2024"], bottlenecks: ["b-regulatory-fragmentation", "b-biomarker-validation"], journals: ["science"] }),
 
   p({ id: "paper-niche-2-neoadjuvant-colon-nejm-2024", name: "NICHE-2: a single dose of ipilimumab and two of nivolumab before surgery clears dMMR colon cancer in most patients",
     tldr: "In NICHE-2, four weeks of checkpoint blockade before surgery eliminated nearly all tumour in 95% of patients with mismatch-repair-deficient colon cancer, and none had relapsed at three years.",
@@ -530,7 +530,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Single-arm, single-country study; no randomised comparison with upfront surgery plus adjuvant chemotherapy.", "Pathological response is a surrogate; longer follow-up will confirm survival.", "Patients still had surgery; organ preservation was not the design.", "Only 4% grade 3-4 toxicity with one ipilimumab dose, but late endocrine effects are possible."],
     changedPractice: true, participants: 115,
     links: [pubmed("NICHE-2 neoadjuvant nivolumab ipilimumab dMMR colon cancer Chalabi NEJM 2024"), ct("NCT03026140")],
-    cancers: ["colorectal"], drugs: ["nivolumab", "ipilimumab"], targets: ["pd1", "ctla4"], technologies: ["checkpoint-inhibitor"], trials: ["niche-2"], terms: ["msi", "pcr", "irae"], people: ["myriam-chalabi", "ton-schumacher"], institutions: ["nki"], companies: ["bms"], related: ["paper-cercek-dostarlimab-rectal-nejm-2022", "paper-le-mmr-deficiency-science-2017"], bottlenecks: ["b-surgery-radiation-innovation", "b-trial-design"] }),
+    cancers: ["colorectal"], drugs: ["nivolumab", "ipilimumab"], targets: ["pd1", "ctla4"], technologies: ["checkpoint-inhibitor"], trials: ["niche-2"], terms: ["msi", "pcr", "irae"], people: ["myriam-chalabi", "ton-schumacher"], institutions: ["nki"], companies: ["bms"], related: ["paper-cercek-dostarlimab-rectal-nejm-2022", "paper-le-mmr-deficiency-science-2017"], bottlenecks: ["b-surgery-radiation-innovation", "b-trial-design"], journals: ["nejm"] }),
 
   p({ id: "paper-cercek-dostarlimab-rectal-nejm-2022", name: "Cercek 2022: six months of dostarlimab alone made rectal cancer disappear in every patient with mismatch-repair deficiency",
     tldr: "All 12 patients with locally advanced dMMR rectal cancer had a complete clinical response to a PD-1 antibody alone, avoiding chemotherapy, radiotherapy and surgery.",
@@ -541,7 +541,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Small, single-centre, single-arm study; the 2022 report had only 12 patients and short follow-up.", "Clinical complete response requires expert surveillance with MRI and endoscopy; salvage surgery must remain available.", "Applies only to dMMR disease, a minority of rectal cancers.", "Long-term durability beyond five years and late relapse risk are not yet known."],
     changedPractice: true, participants: 12,
     links: [doi("10.1056/NEJMoa2201445"), ct("NCT04165772")],
-    cancers: ["colorectal"], drugs: ["dostarlimab", "pembrolizumab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], terms: ["msi", "pcr"], people: ["andrea-cercek", "luis-diaz"], institutions: ["mskcc"], companies: ["gsk"], related: ["paper-niche-2-neoadjuvant-colon-nejm-2024", "paper-le-mmr-deficiency-pd1-nejm-2015"], bottlenecks: ["b-surgery-radiation-innovation", "b-toxicity-qol"] }),
+    cancers: ["colorectal"], drugs: ["dostarlimab", "pembrolizumab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], terms: ["msi", "pcr"], people: ["andrea-cercek", "luis-diaz"], institutions: ["mskcc"], companies: ["gsk"], related: ["paper-niche-2-neoadjuvant-colon-nejm-2024", "paper-le-mmr-deficiency-pd1-nejm-2015"], bottlenecks: ["b-surgery-radiation-innovation", "b-toxicity-qol"], journals: ["nejm"] }),
 
   p({ id: "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023", name: "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer",
     tldr: "Individualised mRNA vaccines encoding up to 20 of each patient's tumour mutations generated strong T-cell responses in half of pancreatic cancer patients after surgery, and those responders had far fewer relapses.",
@@ -552,7 +552,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Tiny, non-randomised study; the association between immune response and recurrence could reflect confounding.", "Half the patients did not mount a response, for reasons that are only partly understood (for example, splenectomy).", "Manufacturing an individual vaccine within weeks of surgery is expensive and logistically complex.", "Clinical benefit awaits the randomised IMCODE003 result."],
     changedPractice: false, participants: 16,
     links: [pubmed("Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer Rojas Nature 2023"), ct("NCT04161755")],
-    cancers: ["pancreatic", "melanoma"], drugs: ["autogene-cevumeran", "atezolizumab", "intismeran-autogene"], targets: ["pd1"], technologies: ["neoantigen-mrna-vaccine"], trials: ["interpath-001"], terms: ["neoantigen", "tmb"], institutions: ["mskcc"], companies: ["biontech", "roche-genentech"], related: ["vaccine-plus-pd1"], bottlenecks: ["b-immunotherapy-response", "b-manufacturing-cell-therapy", "b-tme-immunosuppression"] }),
+    cancers: ["pancreatic", "melanoma"], drugs: ["autogene-cevumeran", "atezolizumab", "intismeran-autogene"], targets: ["pd1"], technologies: ["neoantigen-mrna-vaccine"], trials: ["interpath-001"], terms: ["neoantigen", "tmb"], institutions: ["mskcc"], companies: ["biontech", "roche-genentech"], related: ["vaccine-plus-pd1"], bottlenecks: ["b-immunotherapy-response", "b-manufacturing-cell-therapy", "b-tme-immunosuppression"], journals: ["nature"] }),
 
   p({ id: "paper-checkmate-067-ten-year-nejm-2025", name: "CheckMate 067 at ten years: half of melanoma patients treated with nivolumab plus ipilimumab were alive a decade later",
     tldr: "Ten-year follow-up of the trial that established combination checkpoint blockade shows median survival over six years with nivolumab plus ipilimumab and a plateau in the survival curve consistent with cure.",
@@ -563,7 +563,7 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["The trial was not designed or powered for a formal comparison of the combination against nivolumab alone; that difference is descriptive.", "Toxicity of the combination is high and around 40% stopped treatment early for adverse events, though many still benefited.", "Subsequent therapies (including crossover-like use of the other agents) influence long-term survival.", "Results are in melanoma; long-term cure fractions in other cancers are lower."],
     changedPractice: true, participants: 945,
     links: [pubmed("CheckMate 067 10-year nivolumab ipilimumab melanoma Wolchok NEJM 2025"), doi("10.1056/NEJMoa1504030", "Original report (Larkin 2015)"), ct("NCT01844505")],
-    cancers: ["melanoma"], drugs: ["nivolumab", "ipilimumab", "relatlimab-nivolumab"], targets: ["pd1", "ctla4", "lag3"], technologies: ["checkpoint-inhibitor"], trials: ["checkmate-067", "relativity-047"], terms: ["os", "irae"], people: ["james-larkin", "f-stephen-hodi"], institutions: ["mskcc"], companies: ["bms"], related: ["paper-hodi-ipilimumab-melanoma-nejm-2010", "paper-asco-irae-guideline-jco-2021"], bottlenecks: ["b-toxicity-qol", "b-survivorship"] }),
+    cancers: ["melanoma"], drugs: ["nivolumab", "ipilimumab", "relatlimab-nivolumab"], targets: ["pd1", "ctla4", "lag3"], technologies: ["checkpoint-inhibitor"], trials: ["checkmate-067", "relativity-047"], terms: ["os", "irae"], people: ["james-larkin", "f-stephen-hodi"], institutions: ["mskcc"], companies: ["bms"], related: ["paper-hodi-ipilimumab-melanoma-nejm-2010", "paper-asco-irae-guideline-jco-2021"], bottlenecks: ["b-toxicity-qol", "b-survivorship"], journals: ["nejm"] }),
 
   p({ id: "paper-asco-irae-guideline-jco-2021", name: "ASCO 2021 guideline: how to recognise and manage the immune-related side effects of checkpoint inhibitors",
     tldr: "The ASCO 2021 guideline is the consensus rulebook for checkpoint-inhibitor toxicity: grade the problem, hold or stop the drug, give steroids early, escalate to other immunosuppressants if they fail, and involve specialists.",
@@ -574,5 +574,5 @@ export const papersBloodImmuneCell: PaperInput[] = [
     caveats: ["Most recommendations rest on expert consensus and case series rather than randomised trials.", "Steroid-sparing strategies and biomarkers for irAEs remain largely unstudied.", "Guidance on rechallenge and on combination or adjuvant settings is limited.", "Rapidly evolving; later ASCO and SITC updates modify specific sections (for example, myocarditis and CAR-T toxicity)."],
     changedPractice: true,
     links: [pubmed("Management of Immune-Related Adverse Events ASCO Guideline Update Schneider JCO 2021"), { label: "ASCO guidelines", url: "https://www.asco.org/guidelines" }],
-    cancers: ["melanoma", "nsclc"], drugs: ["nivolumab", "ipilimumab", "pembrolizumab", "atezolizumab"], targets: ["pd1", "ctla4"], technologies: ["checkpoint-inhibitor"], terms: ["irae", "crs", "icans"], institutions: ["asco"], related: ["paper-checkmate-067-ten-year-nejm-2025", "paper-hodi-ipilimumab-melanoma-nejm-2010", "cardio-oncology"], bottlenecks: ["b-toxicity-qol", "b-knowledge-diffusion", "b-care-fragmentation"] }),
+    cancers: ["melanoma", "nsclc"], drugs: ["nivolumab", "ipilimumab", "pembrolizumab", "atezolizumab"], targets: ["pd1", "ctla4"], technologies: ["checkpoint-inhibitor"], terms: ["irae", "crs", "icans"], institutions: ["asco"], related: ["paper-checkmate-067-ten-year-nejm-2025", "paper-hodi-ipilimumab-melanoma-nejm-2010", "cardio-oncology"], bottlenecks: ["b-toxicity-qol", "b-knowledge-diffusion", "b-care-fragmentation"], journals: ["jco"] }),
 ];

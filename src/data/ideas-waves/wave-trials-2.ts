@@ -74,7 +74,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "A SMART in HER2-low metastatic breast cancer identifies a sequence with at least four months longer overall survival than the most common real-world sequence.",
     rationale: "Sequences are almost never randomised, so guidelines are built from single-line trials with different populations. Cross-resistance among topoisomerase-1 payload ADCs makes order a plausibly large effect.",
     test: "A cooperative-group SMART with two re-randomisation points, 600 patients, embedding SLFN11 and TOP1 biomarker sampling at each progression.",
-    drugs: ["trastuzumab-deruxtecan", "sacituzumab-govitecan", "datopotamab-deruxtecan"], technologies: ["adc"], terms: ["adc-sequencing", "efflux-pump"], cancers: ["breast-hr-positive", "tnbc"], related: ["idea-payload-switching", "idea-her2-adc-sequencing-payload", "adc-after-adc-caution"] }),
+    drugs: ["trastuzumab-deruxtecan", "sacituzumab-govitecan", "datopotamab-deruxtecan"], technologies: ["adc"], terms: ["adc-sequencing", "efflux-pump"], cancers: ["breast-hr-positive", "tnbc"], related: ["idea-payload-switching", "idea-her2-adc-sequencing-payload", "adc-after-adc-caution"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-organoid-coclinical-arms", name: "Grow each trial patient's tumour as organoids to decide which platform arm opens next", maturity: "preclinical-evidence", actor: "research", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-combination-space", "b-preclinical-models"],
@@ -83,7 +83,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Arms nominated by co-clinical organoid screening achieve a higher objective response rate than arms nominated by investigator choice in the same platform, with the difference visible after two rounds of arm selection.",
     rationale: "Organoid sensitivity correlates with patient response for cytotoxics and some targeted agents. Pairs tested on the actual trial population avoid the mismatch between cell-line panels and the patients enrolled.",
     test: "Add a co-clinical organoid screen to an existing pancreatic or colorectal platform; nominate two arms by organoid data and two by steering committee; compare response rates after 40 patients per arm.",
-    technologies: ["organoids", "functional-drug-testing"], cancers: ["pancreatic", "colorectal"], related: ["pdac-organoid-pharmacotyping", "xilis", "curesponse", "sengine", "idea-organoid-guided-adc"] }),
+    technologies: ["organoids", "functional-drug-testing"], cancers: ["pancreatic", "colorectal"], related: ["pdac-organoid-pharmacotyping", "xilis", "curesponse", "sengine", "idea-organoid-guided-adc"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-organoid-matrix-atlas", name: "A public atlas of drug-pair responses across a thousand patient-derived organoids", maturity: "preclinical-evidence", actor: "philanthropy", cost: "large", horizonYears: 4,
     bottlenecks: ["b-combination-space", "b-preclinical-models", "b-data-silos"],
@@ -122,7 +122,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "A registry-embedded randomisation of sequence (for example CDK4/6 inhibitor then oral SERD versus the reverse) enrols at least ten times faster per site than a conventional sequencing trial and yields a survival comparison with adequate power within four years.",
     rationale: "Cardiology and infectious disease have used registry-randomised trials at scale. Oncology has the registries (national cancer registries, Flatiron-type databases) but has not embedded randomisation.",
     test: "Pilot in one national health system for one sequencing question where equipoise is documented in guidelines; measure enrolment rate and data completeness.",
-    terms: ["real-world-evidence", "adc-sequencing"], cancers: ["breast-hr-positive"], related: ["idea-tr2-smart-sequencing-adc"] }),
+    terms: ["real-world-evidence", "adc-sequencing"], cancers: ["breast-hr-positive"], related: ["idea-tr2-smart-sequencing-adc"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-alternating-vs-concurrent", name: "Test alternating drug schedules against giving both drugs at once", maturity: "preclinical-evidence", actor: "research", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-combination-space", "b-resistance"],
@@ -131,7 +131,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "For at least one common doublet (for example an EGFR TKI plus chemotherapy in EGFR-mutant lung cancer), an alternating schedule achieves non-inferior progression-free survival with at least 30% fewer grade 3 or worse adverse events than concurrent dosing.",
     rationale: "FLAURA2 showed concurrent osimertinib plus chemotherapy improves progression-free survival but with substantial added toxicity. Cell-cycle arguments predict that sequence within a cycle matters.",
     test: "A randomised phase 2 of concurrent versus alternating osimertinib and platinum-pemetrexed with progression-free survival and toxicity endpoints, plus ctDNA kinetics to compare resistance emergence.",
-    drugs: ["osimertinib"], trials: ["flaura2"], cancers: ["nsclc"] }),
+    drugs: ["osimertinib"], trials: ["flaura2"], cancers: ["nsclc"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-rwe-combination-emulation", name: "Emulate combination trials from real-world data to triage which ones to run", maturity: "early-clinical", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-combination-space", "b-real-world-evidence"],
@@ -140,7 +140,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Combinations flagged as futile in pre-registered emulations will subsequently fail randomised testing in at least 80% of cases, allowing trialists to redirect resources.",
     rationale: "Target trial emulation reproduced the results of several oncology trials when confounding was addressable; its false negatives are rarer than its false positives, which suits a triage role.",
     test: "Pre-register emulations for ten combinations with pending randomised readouts and score concordance when trials report.",
-    terms: ["real-world-evidence"], related: ["tempus", "foundation-medicine", "genie"] }),
+    terms: ["real-world-evidence"], related: ["tempus", "foundation-medicine", "genie"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-factorial-adjuvant-generics", name: "Factorial trials that test several cheap generics at once in the adjuvant setting", maturity: "early-clinical", actor: "research", cost: "large", horizonYears: 7,
     bottlenecks: ["b-combination-space", "b-generic-repurposing"],
@@ -159,7 +159,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Arms stopped for ctDNA futility would, had they continued, have failed their radiological primary endpoint in at least 85% of cases; adopting the rule increases the number of arms tested per year by at least 50%.",
     rationale: "Several studies show early ctDNA dynamics predict RECIST response and survival on immunotherapy and targeted therapy. Futility, unlike efficacy, needs only a reliable negative predictor.",
     test: "Run the rule in shadow mode in an existing platform for two years, recording what would have been stopped and comparing with final radiological results.",
-    terms: ["ctdna", "recist", "pfs"], technologies: ["liquid-biopsy"], related: ["guardant-health", "natera", "idea-cd8-pet-io"] }),
+    terms: ["ctdna", "recist", "pfs"], technologies: ["liquid-biopsy"], related: ["guardant-health", "natera", "idea-cd8-pet-io"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-platform-single-ethics", name: "One ethics approval and one consent form for a platform trial across countries", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 3,
     bottlenecks: ["b-combination-space", "b-regulatory-fragmentation"],
@@ -178,7 +178,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Mechanism-defined baskets will achieve objective response rates at least twice those of unselected post-progression combination cohorts of the same agents.",
     rationale: "Histology-agnostic approvals (NTRK, MSI-high) proved that biology can define a population; resistance mechanisms are the same idea applied after progression.",
     test: "A three-cohort basket: SLFN11-low after a TOP1 ADC, MET-amplified after EGFR TKI, and RB1-loss after CDK4/6 inhibitor, each with a pre-specified rescue combination and a Simon two-stage design.",
-    terms: ["tumour-agnostic", "efflux-pump"], technologies: ["adc", "cdk46-inhibitor"], related: ["idea-payload-switching", "idea-tr2-smart-sequencing-adc"] }),
+    terms: ["tumour-agnostic", "efflux-pump"], technologies: ["adc", "cdk46-inhibitor"], related: ["idea-payload-switching", "idea-tr2-smart-sequencing-adc"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-combination-utility", name: "A non-profit phase 1b combination unit that any drug owner can use", maturity: "speculative", actor: "philanthropy", cost: "large", horizonYears: 4,
     bottlenecks: ["b-combination-space", "b-translational-valley"],
@@ -187,7 +187,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "The unit will run combination phase 1b arms at less than half the cost and time of industry-sponsored equivalents and will publish every result, positive or negative, within a year of completion.",
     rationale: "Shared infrastructure works elsewhere in science (synchrotrons, sequencing centres). The UK Experimental Cancer Medicine Centres show the model at national scale.",
     test: "Fund a unit for five years with a mandate of twenty combination arms; audit cost, time and publication rate against matched industry trials.",
-    related: ["cruk", "royal-marsden", "icr-london", "idea-tr2-public-combination-formulary"] }),
+    related: ["cruk", "royal-marsden", "icr-london", "idea-tr2-public-combination-formulary"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-combination-patent-pool", name: "A patent pool for combination method-of-use claims", maturity: "speculative", actor: "industry", cost: "small", horizonYears: 3,
     bottlenecks: ["b-combination-space", "b-ip-collaboration"],
@@ -196,7 +196,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Pool members will initiate at least 50% more cross-company combination trials in the three years after joining than in the three years before.",
     rationale: "Pre-competitive consortia (the Structural Genomics Consortium, TransCelerate) have shown that pharma will pool where IP fear is removed and the benefit is shared.",
     test: "Convene a pool with five sponsors and a neutral administrator; track combination trial initiations and licensing disputes over three years.",
-    related: ["idea-tr2-combination-template-agreement"] }),
+    related: ["idea-tr2-combination-template-agreement"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-sequence-registry", name: "A registry of every treatment sequence patients actually receive, with outcomes", maturity: "early-clinical", actor: "data", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-combination-space", "b-real-world-evidence"],
@@ -205,7 +205,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Publishing sequence-level outcomes will change prescribing away from the bottom-quartile sequences within two years, measurable as a fall in their share of use.",
     rationale: "Registry feedback changed practice in cardiac surgery and in Dutch colorectal cancer care. The data already exists; it is not assembled by sequence.",
     test: "Build the dashboard for metastatic breast and colorectal cancer in one health system; publish; measure change in sequence shares.",
-    terms: ["real-world-evidence", "adc-sequencing"], related: ["idea-tr2-pragmatic-sequence-randomisation"] }),
+    terms: ["real-world-evidence", "adc-sequencing"], related: ["idea-tr2-pragmatic-sequence-randomisation"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-bandit-allocation", name: "Let the trial learn: response-adaptive allocation across many combination arms", maturity: "early-clinical", actor: "research", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-combination-space", "b-trial-design"],
@@ -214,7 +214,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Adaptive allocation across ten combination arms identifies the best arm with 30% fewer patients than equal randomisation at the same error rates, in simulation and in a live platform.",
     rationale: "REMAP-CAP found effective COVID-19 treatments faster than fixed designs. Oncology platforms have been slower to adopt because of endpoint latency; ctDNA or pathological response as intermediate endpoints removes that obstacle.",
     test: "Implement in a neoadjuvant platform using pathological response as the adaptive endpoint; compare patients-to-decision with a fixed-randomisation shadow analysis.",
-    terms: ["basket-umbrella-platform", "pcr"], related: ["idea-tr2-neoadjuvant-combo-platform", "idea-tr2-ctdna-futility-gates"] }),
+    terms: ["basket-umbrella-platform", "pcr"], related: ["idea-tr2-neoadjuvant-combo-platform", "idea-tr2-ctdna-futility-gates"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-qsp-combo-dosing", name: "Mechanistic computer models to pick combination doses before dosing patients", maturity: "early-clinical", actor: "industry", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-combination-space", "b-dose-optimisation"],
@@ -233,7 +233,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Publication of readiness packs increases the number of investigator-initiated combination trials involving newly approved drugs by at least 30% within three years.",
     rationale: "Open pharmacology data (as in the FDA labels' clinical pharmacology sections, but structured and complete) removes an information asymmetry that currently forces every combination through the originator.",
     test: "Pilot voluntary packs for ten recently approved oncology drugs and count investigator-initiated combination trials registered within two years compared with matched drugs without packs.",
-    related: ["fda-approvals", "drugbank-chembl", "idea-tr2-combination-template-agreement"] }),
+    related: ["fda-approvals", "drugbank-chembl", "idea-tr2-combination-template-agreement"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-rt-drug-platform", name: "A standing platform for testing new drugs with radiotherapy", maturity: "early-clinical", actor: "research", cost: "large", horizonYears: 5,
     bottlenecks: ["b-combination-space", "b-surgery-radiation-innovation"],
@@ -262,7 +262,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "A coverage-with-evidence programme for off-label combinations will randomise at least 5,000 patients per year in one large payer and produce a definitive result for at least two combinations within four years.",
     rationale: "The Cancer Drugs Fund's managed access showed payers can collect evidence as a condition of payment; randomisation is the missing step.",
     test: "Pilot with one payer and two common off-label combinations with documented equipoise; measure enrolment, cost neutrality and time to answer.",
-    terms: ["real-world-evidence"], related: ["idea-tr2-pragmatic-sequence-randomisation"] }),
+    terms: ["real-world-evidence"], related: ["idea-tr2-pragmatic-sequence-randomisation"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-combination-forecast-tournament", name: "An open forecasting tournament on which combination trials will succeed", maturity: "speculative", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-combination-space", "b-funding-allocation"],
@@ -271,7 +271,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Aggregated tournament forecasts will discriminate successful from failed combination trials with an area under the curve above 0.75, better than expert panels or sponsor stage-gates.",
     rationale: "Replication prediction markets forecast which psychology findings would replicate with roughly 70% accuracy. Trial outcomes are similarly forecastable from design, prior data and sponsor behaviour.",
     test: "Run a two-year tournament on 100 registered phase 2 and 3 combination trials with readouts due; score Brier and discrimination against outcomes.",
-    related: ["clinicaltrials-gov", "idea-tr2-synergy-ranking-engine"] }),
+    related: ["clinicaltrials-gov", "idea-tr2-synergy-ranking-engine"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-antagonism-surveillance", name: "Watch routine care for drug combinations that quietly make cancer treatment worse", maturity: "early-clinical", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-combination-space", "b-real-world-evidence"],
@@ -280,7 +280,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Systematic surveillance will identify at least three previously unrecognised efficacy-reducing co-medications for immunotherapy or targeted therapy within two years, at least one of which is confirmed in a randomised or well-controlled study.",
     rationale: "Adverse-event pharmacovigilance is mature; efficacy pharmacovigilance is not, even though negative interactions on survival matter more than most side-effects.",
     test: "Run signal detection across a large clinico-genomic database for patients on PD-1 inhibitors; validate top signals in an independent registry; publish a ranked list.",
-    technologies: ["checkpoint-inhibitor"], terms: ["real-world-evidence"], drugs: ["pembrolizumab", "nivolumab"], related: ["tempus"] }),
+    technologies: ["checkpoint-inhibitor"], terms: ["real-world-evidence"], drugs: ["pembrolizumab", "nivolumab"], related: ["tempus"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-contribution-of-components-mandate", name: "No accelerated approval for a combination without proof each part contributes", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 2,
     bottlenecks: ["b-combination-space", "b-incentive-misalignment"],
@@ -289,7 +289,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Combination phase 3 failure rates fall by at least a third within five years of a firm contribution-of-components requirement, as measured against the preceding five years.",
     rationale: "The TIGIT and IDO programmes together consumed thousands of patients and billions of dollars with single-arm or non-randomised phase 2 evidence. Randomised phase 2 with a contribution arm would have flagged the lack of effect.",
     test: "Audit the last decade of combination phase 3 failures for whether a contribution-of-components study existed; model the effect of a requirement; implement via guidance and track.",
-    trials: ["impassion131"], drugs: ["tiragolumab", "epacadostat"], terms: ["accelerated-approval"], related: ["tigit-plus-pd1-caution"] }),
+    trials: ["impassion131"], drugs: ["tiragolumab", "epacadostat"], terms: ["accelerated-approval"], related: ["tigit-plus-pd1-caution"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   i({ id: "idea-tr2-window-of-opportunity-triplets", name: "Two-week pre-operative windows to compare combination biology head to head", maturity: "early-clinical", actor: "research", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-combination-space", "b-preclinical-models"],
@@ -298,7 +298,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Combinations ranked highest by pharmacodynamic effect in a multi-arm window study will have higher pathological response rates when taken forward into neoadjuvant trials than lower-ranked ones.",
     rationale: "Window studies with Ki67 changed endocrine therapy development in breast cancer (POETIC). Multi-arm windows with modern spatial and single-cell readouts can compare combinations mechanistically.",
     test: "A four-arm window study in resectable colorectal or head and neck cancer with paired biopsies, spatial transcriptomics and a pre-specified pharmacodynamic ranking; follow the top arm into a neoadjuvant trial.",
-    technologies: ["single-cell-spatial"], cancers: ["colorectal", "head-and-neck"], related: ["idea-tr2-neoadjuvant-combo-platform"] }),
+    technologies: ["single-cell-spatial"], cancers: ["colorectal", "head-and-neck"], related: ["idea-tr2-neoadjuvant-combo-platform"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
   // ---------------------------------------------------------------------------------------
   // Negative results: registries and journals, mandatory posting with teeth, post-mortems,
@@ -311,7 +311,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Within three years, at least 20% of active oncology labs in participating institutions deposit at least one record per year, and surveyed researchers report avoiding at least one planned experiment because of a registry entry.",
     rationale: "The gene-target level bias is enormous: a handful of targets attract most papers, partly because negative results on them are invisible. Registries with low friction (such as bioRxiv for preprints) achieved rapid adoption once norms shifted.",
     test: "Launch with three funders requiring deposit; measure deposits, views and self-reported behaviour change after two years.",
-    related: ["pubmed-europepmc", "open-targets", "idea-tr2-target-failure-index"] }),
+    related: ["pubmed-europepmc", "open-targets", "idea-tr2-target-failure-index"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-negative-results-journal", name: "A funder-backed, indexed journal of negative and inconclusive cancer results", maturity: "speculative", actor: "philanthropy", cost: "small", horizonYears: 2,
     bottlenecks: ["b-negative-results"],
@@ -320,7 +320,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "The journal publishes at least 300 negative or inconclusive oncology papers per year by year three, and citation analysis shows that these papers are cited in subsequent grant applications and protocols.",
     rationale: "Publication bias is partly a venue problem: authors report that no journal wants a null. Funder ownership addresses the prestige and cost barriers together.",
     test: "Launch with commitments from three funders; monitor submissions, time to decision, and citations at three years.",
-    related: ["pubmed-europepmc", "cruk", "idea-tr2-preclinical-negative-registry"] }),
+    related: ["pubmed-europepmc", "cruk", "idea-tr2-preclinical-negative-registry"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-fdaaa-enforcement", name: "Actually fine sponsors who do not post trial results", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 1,
     bottlenecks: ["b-negative-results"],
@@ -339,7 +339,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Institutions adopting the gate will see completed-trial results posting exceed 95% within two years, and non-adopting peers will remain below 80%.",
     rationale: "Ethics committees already condition approval on prior conduct (for example investigator training). The World Medical Association's Declaration of Helsinki names results publication as an ethical duty.",
     test: "Pilot at five academic institutions with a shared registry lookup tool; compare posting rates with matched institutions.",
-    related: ["clinicaltrials-gov", "idea-tr2-fdaaa-enforcement"] }),
+    related: ["clinicaltrials-gov", "idea-tr2-fdaaa-enforcement"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-termination-reports", name: "Public post-mortem reports when a cancer drug programme is stopped", maturity: "speculative", actor: "industry", cost: "small", horizonYears: 2,
     bottlenecks: ["b-negative-results", "b-knowledge-diffusion"],
@@ -348,7 +348,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Regular publication of termination reports will reduce the number of subsequent programmes against the same target with the same failure mode by at least a third, measurable in pipeline databases over five years.",
     rationale: "Each failure carries information about targets, models and endpoints that the next entrant lacks. Duplicated failures against IDO1, CD47 and DLL3 ADCs show the cost of silence.",
     test: "Persuade three sponsors to publish reports for their next five discontinued oncology programmes; survey competitors and academics on whether the reports changed decisions.",
-    drugs: ["rovalpituzumab-tesirine", "magrolimab", "epacadostat"], related: ["idea-tr2-failure-taxonomy"] }),
+    drugs: ["rovalpituzumab-tesirine", "magrolimab", "epacadostat"], related: ["idea-tr2-failure-taxonomy"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-shelved-asset-commons", name: "A commons of shelved cancer drugs with their full data, open to new hypotheses", maturity: "early-clinical", actor: "industry", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-negative-results", "b-translational-valley"],
@@ -377,7 +377,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "After the rule, the median time from a phase 3 oncology failure to public availability of the primary effect estimate falls from over a year to under one month.",
     rationale: "Investors and clinicians share an interest in the numbers; the asymmetry between success and failure disclosures is a choice, not a necessity. Existing rules on balanced disclosure provide a legal hook.",
     test: "Audit the last five years of oncology failure announcements for data content; propose a standard; pilot voluntary adoption with an industry body and measure uptake.",
-    related: ["idea-tr2-termination-reports"] }),
+    related: ["idea-tr2-termination-reports"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-failed-trial-biobank", name: "Rescue the biological samples from failed trials for biomarker research", maturity: "early-clinical", actor: "research", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-negative-results", "b-biomarker-validation"],
@@ -386,7 +386,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "At least two drugs from failed trials in the biobank will produce a validated predictive biomarker leading to a new enrichment trial within five years.",
     rationale: "Cetuximab in KRAS wild-type colorectal cancer and gefitinib in EGFR-mutant lung cancer were rescued retrospectively from broadly negative or marginal populations. Systematising sample rescue would make such rescues routine.",
     test: "Secure samples from five recently failed phase 3 oncology trials; fund two biomarker discovery studies; report time to access and findings.",
-    related: ["idea-tr2-prospective-retrospective-path", "idea-tr2-shelved-asset-commons"] }),
+    related: ["idea-tr2-prospective-retrospective-path", "idea-tr2-shelved-asset-commons"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-failed-trial-ipd-default", name: "Patient-level data from failed trials becomes open by default after two years", maturity: "early-clinical", actor: "policy", cost: "small", horizonYears: 2,
     bottlenecks: ["b-negative-results", "b-data-silos"],
@@ -405,7 +405,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "A programme of 200 completion grants per year produces at least 150 published or deposited null results per year, at a cost per result under one tenth of a typical project grant.",
     rationale: "Surveys suggest a substantial share of completed studies are never published, most often because the result was null. The barrier is effort, not data.",
     test: "Pilot with 50 grants; measure completion rate, time to deposit and downstream views or citations.",
-    related: ["idea-tr2-negative-results-journal", "idea-tr2-preclinical-negative-registry"] }),
+    related: ["idea-tr2-negative-results-journal", "idea-tr2-preclinical-negative-registry"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-null-result-reporting", name: "Grant progress reports must list what did not work", maturity: "speculative", actor: "policy", cost: "small", horizonYears: 1,
     bottlenecks: ["b-negative-results"],
@@ -414,7 +414,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Within two years the database contains at least 5,000 structured null results from oncology grants and is queried by researchers designing new experiments, as shown by usage logs and surveys.",
     rationale: "Reporting to funders is already compulsory, so the marginal effort is small. Funders have the leverage that journals lack.",
     test: "Add the field at one large funder; measure completion quality and downstream use after eighteen months.",
-    related: ["nci", "cruk", "idea-tr2-preclinical-negative-registry"] }),
+    related: ["nci", "cruk", "idea-tr2-preclinical-negative-registry"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-negative-plenaries", name: "Give negative trials plenary slots at the big cancer conferences", maturity: "speculative", actor: "research", cost: "small", horizonYears: 1,
     bottlenecks: ["b-negative-results", "b-knowledge-diffusion"],
@@ -423,7 +423,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Introduction of a negative-results plenary increases submission of negative phase 3 trials to the meeting by at least 50% and their subsequent full publication rate.",
     rationale: "Conference prestige drives what is submitted and written up. The ASCO 'Trials in Progress' session shows that a new session type can change behaviour.",
     test: "Run the session at one meeting for two years; count negative-trial submissions and publications before and after.",
-    related: ["asco", "esmo", "aacr"] }),
+    related: ["asco", "esmo", "aacr"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-failure-taxonomy", name: "A machine-readable taxonomy of why cancer drugs fail", maturity: "speculative", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-negative-results", "b-translational-valley"],
@@ -432,7 +432,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Applying the taxonomy to a decade of discontinuations will show that at least a third of efficacy failures were preceded by inadequate target-validation or exposure evidence, quantifying an avoidable loss.",
     rationale: "Aviation and surgery improved by classifying failure. Pharma's 'five Rs' framework (right target, tissue, safety, patient, commercial) is a start that has not been applied openly.",
     test: "Curate 500 discontinued oncology programmes with two independent coders; publish inter-rater reliability and the distribution of causes.",
-    related: ["idea-tr2-termination-reports", "idea-tr2-target-failure-index"] }),
+    related: ["idea-tr2-termination-reports", "idea-tr2-target-failure-index"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-model-report-cards", name: "Score every preclinical model by how often it predicted the clinical result", maturity: "speculative", actor: "data", cost: "small", horizonYears: 3,
     bottlenecks: ["b-negative-results", "b-preclinical-models"],
@@ -441,7 +441,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Report cards will show at least two-fold differences in positive predictive value between model classes within the same indication, and this information will change model choice in subsequent grant applications.",
     rationale: "Systematic reviews in stroke and neuroscience showed that animal model results predicted clinical results poorly; oncology has never computed the equivalent at scale despite having the most trials.",
     test: "Link 300 drug-indication pairs with published preclinical data to trial outcomes; compute predictive values by model class; publish and update annually.",
-    technologies: ["pdx-models", "organoids"], related: ["cancer-models", "idea-tr2-failure-taxonomy"] }),
+    technologies: ["pdx-models", "organoids"], related: ["cancer-models", "idea-tr2-failure-taxonomy"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-off-label-outcome-registry", name: "Record what happens when doctors use cancer drugs off-label", maturity: "early-clinical", actor: "clinic", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-negative-results", "b-real-world-evidence"],
@@ -450,7 +450,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "A national off-label registry will identify at least five drug-alteration-cancer combinations with response rates below 10% in over 50 patients within three years, leading to guideline statements against their use.",
     rationale: "DRUP and TAPUR have both closed cohorts for futility, generating negative evidence that changed practice. Most off-label use happens outside such studies and is never counted.",
     test: "Mandate registry entry as a condition of off-label reimbursement in one health system; report cohort response rates annually.",
-    terms: ["tumour-agnostic", "real-world-evidence"], related: ["idea-tr2-payer-combo-cwe"] }),
+    terms: ["tumour-agnostic", "real-world-evidence"], related: ["idea-tr2-payer-combo-cwe"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-retraction-propagation", name: "Alert guidelines and trials when a paper they rely on is retracted", maturity: "speculative", actor: "data", cost: "small", horizonYears: 1,
     bottlenecks: ["b-negative-results", "b-reproducibility"],
@@ -469,7 +469,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Analysis of the registry will identify recurring design features (single-arm evidence, surrogate endpoints, small effect sizes) that predict reversal, and regulators will cite these features in subsequent approval decisions.",
     rationale: "Prasad and colleagues' reviews of reversals in general medicine changed thinking about evidence standards; oncology has enough reversals to learn systematically.",
     test: "Curate 100 oncology reversals with structured fields; publish the analysis of predictors; monitor citation in regulatory documents.",
-    terms: ["accelerated-approval"], related: ["fda-approvals", "idea-tr2-failure-taxonomy"] }),
+    terms: ["accelerated-approval"], related: ["fda-approvals", "idea-tr2-failure-taxonomy"], links: [{ label: "Bottleneck evidence (Failures are hidden): Anderson et al., Compliance with results reporting at ClinicalTrials.gov (NEJM 2015)", url: "https://doi.org/10.1056/NEJMsa1409364" }] }),
 
   i({ id: "idea-tr2-sponsor-transparency-score", name: "A public transparency score for every trial sponsor, used by sites and patients", maturity: "early-clinical", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-negative-results", "b-patient-voice"],
@@ -512,7 +512,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "A calibrated digital PD-L1 score will predict benefit from PD-1 blockade at least as well as each label-specified assay in retrospective analyses of trial samples, allowing a single test to serve multiple drugs.",
     rationale: "Digital quantification removes reader variability, and reference materials remove staining variability, the two dominant sources of disagreement.",
     test: "Stain trial samples from two registrational immunotherapy trials with all four assays plus the digital scale; compare predictive performance against outcomes.",
-    technologies: ["digital-pathology-ai", "histopathology-ihc", "checkpoint-inhibitor"], targets: ["pdl1"], drugs: ["pembrolizumab"], related: ["paige", "pathai"] }),
+    technologies: ["digital-pathology-ai", "histopathology-ihc", "checkpoint-inhibitor"], targets: ["pdl1"], drugs: ["pembrolizumab"], related: ["paige", "pathai"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-marker-stratified-default", name: "Test the drug in biomarker-negative patients too, so the biomarker can be validated", maturity: "early-clinical", actor: "regulator", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-biomarker-validation", "b-trial-design"],
@@ -521,7 +521,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Among drugs approved with a biomarker restriction, marker-negative cohorts will show clinically meaningful benefit in at least a fifth of cases, revealing that current enrichment designs deny treatment to patients who would benefit.",
     rationale: "PD-L1 cut-offs, HER2-low, and HRD have each shifted after post hoc analyses of marker-negative or unselected populations, showing that enrichment-only evidence leads to unstable labels.",
     test: "Fund marker-negative cohorts in five ongoing enrichment trials and analyse interaction effects; compare with historical label revisions.",
-    terms: ["companion-diagnostic-term", "hazard-ratio"], technologies: ["companion-diagnostic"], related: ["hrd", "her2-low", "idea-tr2-biomarker-negative-arms"] }),
+    terms: ["companion-diagnostic-term", "hazard-ratio"], technologies: ["companion-diagnostic"], related: ["hrd", "her2-low", "idea-tr2-biomarker-negative-arms"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-cdx-mutual-recognition", name: "Regulators recognise each other's companion diagnostic approvals", maturity: "speculative", actor: "regulator", cost: "small", horizonYears: 3,
     bottlenecks: ["b-biomarker-validation", "b-regulatory-fragmentation"],
@@ -530,7 +530,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Mutual recognition reduces the median lag between drug approval and companion diagnostic availability in the second region from over a year to under three months.",
     rationale: "Project Orbis and the Access Consortium show that regulators can share reviews; analytical validation of a test is less region-dependent than clinical practice.",
     test: "Pilot recognition of five companion diagnostics between two regulators and measure time to availability against contemporaneous non-pilot tests.",
-    technologies: ["companion-diagnostic"], terms: ["companion-diagnostic-term"], related: ["foundation-medicine", "foundationone-cdx"] }),
+    technologies: ["companion-diagnostic"], terms: ["companion-diagnostic-term"], related: ["foundation-medicine", "foundationone-cdx"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-open-cdx-validation-sets", name: "Public gold-standard datasets for validating every cancer biomarker test", maturity: "early-clinical", actor: "data", cost: "medium", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-ai-validation"],
@@ -569,7 +569,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Systematic publication will show that differential discordance (favouring the experimental arm) is present in a minority of open-label trials but is concentrated in trials with small effect sizes, allowing targeted rather than universal BICR.",
     rationale: "Meta-analyses of BICR versus investigator assessment suggest overall agreement in hazard ratios but with informative exceptions; hiding the data prevents learning which trials are at risk.",
     test: "Adopt as a reporting requirement in journal and regulatory guidance; analyse the first 100 trials reporting discordance.",
-    terms: ["recist", "pfs", "hazard-ratio"], related: ["idea-tr2-automated-stats-check"] }),
+    terms: ["recist", "pfs", "hazard-ratio"], related: ["idea-tr2-automated-stats-check"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-biomarker-evidence-grading", name: "Label every biomarker claim with an evidence phase, like drugs", maturity: "speculative", actor: "research", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-knowledge-diffusion"],
@@ -578,7 +578,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "After adoption, the proportion of guideline-recommended biomarkers at B4 or above will be reported and will rise year on year, and clinicians will rate biomarker evidence more accurately in surveys.",
     rationale: "Evidence grading (GRADE, levels of evidence) improved clarity for treatments; biomarkers lack any equivalent that patients and clinicians see.",
     test: "Grade all biomarkers in two guideline sets and one knowledge base; survey clinicians before and after on their perception of validation status.",
-    related: ["oncokb", "civic", "esmo-guidelines", "nccn"] }),
+    related: ["oncokb", "civic", "esmo-guidelines", "nccn"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-eqa-public-results", name: "Publish each laboratory's biomarker proficiency results", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-care-fragmentation"],
@@ -617,7 +617,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "A standardised functional HRD assay will identify PARP inhibitor benefit in patients scored HRD-negative by genomic scars and will predict lack of benefit in scar-positive tumours that have restored repair, improving the hazard ratio for benefit in the assay-positive group by at least 20% over scar-based selection.",
     rationale: "Functional assays track the phenotype that the drug exploits; scars are a fossil record. Analogous functional testing (BH3 profiling) has predicted venetoclax response.",
     test: "Run the standardised assay on archived samples from a PARP inhibitor maintenance trial with prespecified analysis; if positive, embed prospectively in the next trial.",
-    technologies: ["hrd-testing"], drugs: ["olaparib"], cancers: ["ovarian"], targets: ["parp", "brca"], related: ["hrd", "parp-inhibitor", "bh3-profiling"] }),
+    technologies: ["hrd-testing"], drugs: ["olaparib"], cancers: ["ovarian"], targets: ["parp", "brca"], related: ["hrd", "parp-inhibitor", "bh3-profiling"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-preanalytics-in-report", name: "Record how long tissue waited before fixation in every pathology report", maturity: "speculative", actor: "clinic", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation"],
@@ -626,7 +626,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Once recorded, pre-analytical time will explain a measurable share of the between-hospital variation in biomarker positivity rates, and hospitals with out-of-range times will improve within a year of feedback.",
     rationale: "Clinical chemistry rejects samples with documented pre-analytical faults; anatomic pathology has no equivalent because the data are not captured.",
     test: "Implement the fields in five hospitals; correlate recorded times with HER2 and ER positivity rates and with repeat-test rates.",
-    technologies: ["histopathology-ihc"], terms: ["ihc"], related: ["idea-tr2-eqa-public-results"] }),
+    technologies: ["histopathology-ihc"], terms: ["ihc"], related: ["idea-tr2-eqa-public-results"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-cutpoint-lock", name: "Lock the biomarker cut-off before phase 3, and publish it", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-trial-design"],
@@ -635,7 +635,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Trials with locked and published cut-points will show smaller shrinkage of the biomarker treatment interaction between phase 2 and phase 3 than trials with adaptive or post hoc cut-points.",
     rationale: "Optimism bias from cut-point selection is a known statistical phenomenon; pre-registration is the standard remedy for analytic flexibility.",
     test: "Audit the last 30 biomarker-restricted approvals for cut-point derivation and revision; implement the requirement and compare interaction estimates in subsequent trials.",
-    terms: ["companion-diagnostic-term"], targets: ["pdl1"], related: ["idea-tr2-marker-stratified-default"] }),
+    terms: ["companion-diagnostic-term"], targets: ["pdl1"], related: ["idea-tr2-marker-stratified-default"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-prospective-retrospective-path", name: "A formal regulatory route for validating a biomarker on archived trial samples", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-negative-results"],
@@ -644,7 +644,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Guidance will double the number of biomarker label changes supported by prospective-retrospective analyses within five years and cut the average time from biomarker hypothesis to label from six years to three.",
     rationale: "The design is accepted in the methodological literature and has produced several practice changes; the barrier is regulatory uncertainty and sample access.",
     test: "Draft and publish guidance; track submissions and outcomes; compare with the preceding five years.",
-    drugs: ["oncotype-dx"], terms: ["companion-diagnostic-term"], related: ["idea-tr2-failed-trial-biobank", "tailorx", "rxponder"] }),
+    drugs: ["oncotype-dx"], terms: ["companion-diagnostic-term"], related: ["idea-tr2-failed-trial-biobank", "tailorx", "rxponder"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-spatial-biomarker-standards", name: "Standards for spatial and multiplex tissue biomarkers before they reach the clinic", maturity: "preclinical-evidence", actor: "research", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"],
@@ -653,7 +653,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "A standardised spatial immune score will predict PD-1 blockade response with an area under the curve above 0.75 across two independent cohorts run on different platforms, exceeding PD-L1 IHC.",
     rationale: "Multi-institutional meta-analyses find spatial features outperform PD-L1 in retrospective data; lack of standards, not lack of signal, blocks translation.",
     test: "Run a multi-site ring study on the same tissue blocks across platforms; define the reproducible feature set; validate prospectively in an immunotherapy trial.",
-    technologies: ["single-cell-spatial", "digital-pathology-ai"], terms: ["tils", "cold-vs-hot"], related: ["10x-genomics"] }),
+    technologies: ["single-cell-spatial", "digital-pathology-ai"], terms: ["tils", "cold-vs-hot"], related: ["10x-genomics"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-liquid-biopsy-challenge", name: "An annual blinded shoot-out for liquid biopsy tests", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 1,
     bottlenecks: ["b-biomarker-validation"],
@@ -682,7 +682,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Registered biomarker studies will report smaller effect sizes on average than unregistered studies of the same markers, and the proportion of validated biomarkers that replicate will rise.",
     rationale: "Trial registration reduced positive reporting bias in clinical trials; the same mechanism applies to observational biomarker research, as the REMARK and TRIPOD guidelines argue.",
     test: "Launch the registry with two journals requiring registration; compare reported effect sizes and replication rates over three years.",
-    related: ["clinicaltrials-gov", "idea-tr2-preclinical-registered-reports"] }),
+    related: ["clinicaltrials-gov", "idea-tr2-preclinical-registered-reports"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-biomarker-cwe", name: "Pay for new biomarker tests only while evidence of clinical utility is being collected", maturity: "early-clinical", actor: "payer", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-biomarker-validation", "b-drug-pricing"],
@@ -691,7 +691,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Tests entered into coverage-with-evidence programmes will reach a definitive utility answer within four years in at least half of cases, and at least a quarter will lose coverage on the evidence.",
     rationale: "The National Oncologic PET Registry produced evidence that changed coverage for FDG PET; the model has been under-used for molecular tests.",
     test: "Apply the programme to three new tests in one payer; measure time to evidence and coverage decisions.",
-    terms: ["real-world-evidence", "companion-diagnostic-term"], related: ["idea-tr2-payer-combo-cwe"] }),
+    terms: ["real-world-evidence", "companion-diagnostic-term"], related: ["idea-tr2-payer-combo-cwe"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-ai-cdx-change-control", name: "Version control and locked reference sets for AI algorithms used as companion diagnostics", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-ai-validation"],
@@ -700,7 +700,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Version reporting will reveal at least one clinically meaningful drift (positivity change above five percentage points) in a deployed algorithm within two years, which would otherwise have gone undetected.",
     rationale: "Software versioning is routine in engineering and absent in diagnostic pathology reporting; drift has been documented in deployed medical AI.",
     test: "Implement version logging and reference-set testing for two deployed pathology algorithms across ten laboratories; monitor positivity rates by version.",
-    technologies: ["digital-pathology-ai", "pathology-foundation-model"], related: ["paige", "pathai", "idea-ai-her2-low-scoring", "idea-tr2-open-cdx-validation-sets"] }),
+    technologies: ["digital-pathology-ai", "pathology-foundation-model"], related: ["paige", "pathai", "idea-ai-her2-low-scoring", "idea-tr2-open-cdx-validation-sets"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-label-assay-concordance", name: "Drug labels must state which biomarker assays were validated and how they compare", maturity: "speculative", actor: "regulator", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-knowledge-diffusion"],
@@ -709,7 +709,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Labels with concordance sections will be followed by an increase in published bridging studies and a reduction in the use of unvalidated assay substitutions, measurable in laboratory surveys.",
     rationale: "Clinicians substitute assays in practice for cost and availability reasons; the risk of that substitution is currently invisible in the primary document they consult.",
     test: "Draft the section for five biomarker-restricted labels using existing concordance literature; survey clinicians and laboratories on utility; propose as a labelling requirement.",
-    technologies: ["companion-diagnostic"], terms: ["companion-diagnostic-term"], related: ["fda-approvals", "idea-tr2-pdl1-digital-calibration"] }),
+    technologies: ["companion-diagnostic"], terms: ["companion-diagnostic-term"], related: ["fda-approvals", "idea-tr2-pdl1-digital-calibration"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-biomarker-negative-arms", name: "Randomised trials to test whether biomarker-negative patients really do not benefit", maturity: "early-clinical", actor: "research", cost: "large", horizonYears: 5,
     bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"],
@@ -718,7 +718,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "At least one of three trials in biomarker-negative populations will demonstrate clinically meaningful benefit, changing a label or guideline within five years.",
     rationale: "T-DXd showed activity in HER2-ultralow and possibly HER2 0 populations excluded by the original biomarker, and PD-1 blockade benefits some PD-L1-negative patients in several tumour types.",
     test: "Fund three cooperative-group randomised trials in biomarker-negative populations with overall survival or quality-of-life primary endpoints.",
-    trials: ["destiny-breast06"], drugs: ["trastuzumab-deruxtecan"], targets: ["pdl1"], related: ["her2-low", "idea-tr2-marker-stratified-default"] }),
+    trials: ["destiny-breast06"], drugs: ["trastuzumab-deruxtecan"], targets: ["pdl1"], related: ["her2-low", "idea-tr2-marker-stratified-default"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   i({ id: "idea-tr2-positivity-rate-surveillance", name: "Monitor biomarker positivity rates across labs in real time to catch assay drift", maturity: "speculative", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-data-silos"],
@@ -727,7 +727,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Surveillance will identify at least two laboratory-level drift events per year in a national system, each confirmed on re-testing, that proficiency schemes had not detected.",
     rationale: "Screening programmes detect reader drift through recall-rate monitoring; the same logic applies to any test with a stable expected positivity rate.",
     test: "Pilot with PD-L1 and HER2 results from 30 laboratories over one year; investigate flagged outliers with sample re-testing.",
-    technologies: ["histopathology-ihc"], related: ["idea-tr2-eqa-public-results", "idea-tr2-ai-cdx-change-control"] }),
+    technologies: ["histopathology-ihc"], related: ["idea-tr2-eqa-public-results", "idea-tr2-ai-cdx-change-control"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
   // ---------------------------------------------------------------------------------------
   // Reproducibility: cell-line authentication, pre-registration, replication funding,
@@ -780,7 +780,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "At least a quarter of pivotal efficacy experiments will fail independent replication, and programmes whose experiments replicated will show higher early clinical activity than historical academic-origin programmes.",
     rationale: "Amgen and Bayer reported that only 11 to 25% of landmark preclinical findings reproduced in their hands; nothing in the regulatory pathway checks this for academic sponsors.",
     test: "Fund replication for twenty academic programmes approaching investigational new drug submission through an existing translational accelerator; report replication rate and subsequent clinical outcomes.",
-    related: ["idea-tr2-replication-set-aside", "idea-tr2-multilab-preclinical"] }),
+    related: ["idea-tr2-replication-set-aside", "idea-tr2-multilab-preclinical"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-automated-stats-check", name: "Run automated statistics and image checks on every cancer manuscript before review", maturity: "early-clinical", actor: "engineering", cost: "small", horizonYears: 1,
     bottlenecks: ["b-reproducibility"],
@@ -829,7 +829,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "The programme will produce at least 50 pre-registered replications per year at a cost per replication under a tenth of a standard grant, and at least a third of targeted findings will fail to replicate.",
     rationale: "Replication attempts already happen informally in labs and industry; the bounty converts private knowledge into public record at low cost.",
     test: "Fund 50 bounties in year one; measure uptake, methodological quality of submissions and publication of results.",
-    related: ["idea-tr2-replication-set-aside", "idea-tr2-preclinical-negative-registry"] }),
+    related: ["idea-tr2-replication-set-aside", "idea-tr2-preclinical-negative-registry"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-antibody-validation-mandate", name: "Only use antibodies proven to hit their target with knockout controls", maturity: "early-clinical", actor: "policy", cost: "small", horizonYears: 2,
     bottlenecks: ["b-reproducibility"],
@@ -848,7 +848,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Including reference panels will let discordant screens be reconciled by calibration, reducing cross-study potency disagreement by at least half for the drugs and lines covered.",
     rationale: "Clinical laboratories use internal standards in every run; preclinical pharmacology mostly does not, and the resulting variance has been quantified.",
     test: "Define the panel; run it in five laboratories under their standard conditions; test whether calibration reconciles their results on a shared set of new compounds.",
-    technologies: ["functional-drug-testing", "crispr-screens"], related: ["depmap", "idea-tr2-cell-line-passport"] }),
+    technologies: ["functional-drug-testing", "crispr-screens"], related: ["depmap", "idea-tr2-cell-line-passport"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-timestamped-eln", name: "Time-stamped electronic lab notebooks submitted with the paper", maturity: "speculative", actor: "engineering", cost: "small", horizonYears: 2,
     bottlenecks: ["b-reproducibility"],
@@ -857,7 +857,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Papers with notebook audit trails will show fewer discrepancies between planned and reported analyses and will be corrected or retracted less often.",
     rationale: "Regulated industry research already operates under such audit trails (21 CFR Part 11); academia has the tools but not the norm.",
     test: "Pilot voluntary submission at one journal with reviewer access; survey reviewers on utility; compare discrepancy rates.",
-    related: ["idea-tr2-raw-image-deposit", "idea-tr2-preclinical-registered-reports"] }),
+    related: ["idea-tr2-raw-image-deposit", "idea-tr2-preclinical-registered-reports"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-animal-power-mandate", name: "Pre-specified sample sizes for animal studies; no more 'representative' experiments", maturity: "early-clinical", actor: "policy", cost: "small", horizonYears: 1,
     bottlenecks: ["b-reproducibility", "b-preclinical-models"],
@@ -886,7 +886,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Audits will find serious reproducibility or integrity problems in at least 5% of sampled papers, and adopting funders will see this rate fall by half over five years.",
     rationale: "Random audits deter tax evasion at low audit rates because the expected cost of detection is high; the same logic applies to research where career consequences are severe.",
     test: "One funder audits 100 randomly selected funded oncology papers per year; publish aggregate findings and track the rate.",
-    related: ["idea-tr2-raw-image-deposit", "idea-tr2-data-link-enforcement"] }),
+    related: ["idea-tr2-raw-image-deposit", "idea-tr2-data-link-enforcement"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-replication-status-badge", name: "A replication status badge on every cancer paper, visible in PubMed", maturity: "speculative", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-reproducibility", "b-knowledge-diffusion"],
@@ -905,7 +905,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Enforcement raises the proportion of oncology papers with actually retrievable data from under 30% to over 80% within three years at adopting journals.",
     rationale: "Compliance follows verification: sequencing data deposit is near-universal because journals check accession numbers.",
     test: "Implement at two journals; sample papers annually and attempt retrieval; compare with non-adopting journals.",
-    related: ["idea-tr2-raw-image-deposit", "idea-tr2-failed-trial-ipd-default"] }),
+    related: ["idea-tr2-raw-image-deposit", "idea-tr2-failed-trial-ipd-default"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-paid-statistical-review", name: "Paid independent statistical review for preclinical papers that inform trials", maturity: "speculative", actor: "philanthropy", cost: "medium", horizonYears: 2,
     bottlenecks: ["b-reproducibility", "b-translational-valley"],
@@ -914,7 +914,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Statistical review will identify errors changing the interpretation in at least 20% of translationally important preclinical papers, and trials informed by reviewed papers will have lower early futility rates.",
     rationale: "Statistical review is standard in clinical journals and reduces error; its absence in preclinical publishing is an economic rather than a scientific choice.",
     test: "Review 200 preclinical papers cited in registered trial protocols; publish the error rate and types; follow the trials.",
-    related: ["idea-tr2-automated-stats-check", "idea-tr2-replication-before-ind"] }),
+    related: ["idea-tr2-automated-stats-check", "idea-tr2-replication-before-ind"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-reference-model-panels", name: "Shared reference organoid and PDX panels that every lab can test against", maturity: "preclinical-evidence", actor: "philanthropy", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-reproducibility", "b-preclinical-models"],
@@ -933,7 +933,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Models validated through the registry will show a median performance drop of at least ten percentage points from internal to external validation, and the requirement will improve the external performance of subsequently published models.",
     rationale: "Held-out evaluation servers (as in machine learning benchmarks) prevent overfitting to the test set; medicine has the datasets but not the shared infrastructure.",
     test: "Establish registry datasets for three tasks (HER2 scoring, lung nodule malignancy, ctDNA variant calling); validate 50 published models; report the distribution of performance changes.",
-    technologies: ["digital-pathology-ai", "pathology-foundation-model"], related: ["idea-tr2-open-cdx-validation-sets", "idea-multimodal-foundation-model"] }),
+    technologies: ["digital-pathology-ai", "pathology-foundation-model"], related: ["idea-tr2-open-cdx-validation-sets", "idea-multimodal-foundation-model"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-two-lab-rule", name: "Top journals require an independent lab to reproduce key findings before publication", maturity: "speculative", actor: "policy", cost: "small", horizonYears: 3,
     bottlenecks: ["b-reproducibility"],
@@ -942,7 +942,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Papers published under the rule will replicate in subsequent independent studies at more than twice the rate of comparable papers published without it.",
     rationale: "Genome-wide association studies were plagued by false positives until replication cohorts became mandatory, after which findings became highly reliable.",
     test: "One high-impact journal adopts the rule for therapeutic claims; track replication outcomes of the first 50 papers against matched papers elsewhere.",
-    related: ["idea-tr2-multilab-preclinical", "idea-tr2-replication-before-ind"] }),
+    related: ["idea-tr2-multilab-preclinical", "idea-tr2-replication-before-ind"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-preclinical-living-reviews", name: "Living systematic reviews of animal and organoid evidence before every new trial", maturity: "early-clinical", actor: "research", cost: "medium", horizonYears: 2,
     bottlenecks: ["b-reproducibility", "b-negative-results"],
@@ -961,7 +961,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Ledger analysis will identify at least one widely used reagent lot associated with anomalous results across multiple laboratories within two years, and its identification will explain a documented replication failure.",
     rationale: "Supply-chain traceability is standard in manufacturing and food safety; research reagents have no equivalent despite comparable stakes.",
     test: "Implement lot capture in two inventory tools across twenty labs; link to published experiments; search for lot-associated anomalies.",
-    related: ["idea-tr2-cell-line-passport", "idea-tr2-antibody-validation-mandate"] }),
+    related: ["idea-tr2-cell-line-passport", "idea-tr2-antibody-validation-mandate"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 
   i({ id: "idea-tr2-phd-replication-year", name: "Every cancer biology PhD begins with a funded replication of a published finding", maturity: "speculative", actor: "research", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-reproducibility", "b-workforce"],
@@ -970,5 +970,5 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Participating programmes will publish at least one replication per student, and students will show measurably better methodological practice in subsequent thesis work than matched controls.",
     rationale: "Training and replication are complementary: the student gains skills, the field gains evidence, and the incentive problem is sidestepped because the student is not competing for novelty.",
     test: "Pilot in five doctoral programmes for three cohorts; track replications published and assess later methodological quality.",
-    related: ["idea-tr2-replication-set-aside", "idea-tr2-replication-status-badge"] }),
+    related: ["idea-tr2-replication-set-aside", "idea-tr2-replication-status-badge"], links: [{ label: "Bottleneck evidence (Preclinical results do not reproduce): Errington et al., Investigating the replicability of preclinical cancer biology (eLife 2021)", url: "https://doi.org/10.7554/eLife.71601" }] }),
 ];

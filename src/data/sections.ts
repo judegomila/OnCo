@@ -53,7 +53,7 @@ export const sections: SectionInput[] = [
   {
     id: "cell-therapy", kind: "section", name: "Cell Therapy", order: 10, asOf, icon: "cell",
     tldr: "Taking immune cells, engineering or expanding them, and giving them back as a living drug.",
-    summary: "CAR-T has transformed B-cell malignancies and myeloma. Solid tumours are the frontier: TIL therapy (lifileucel), TCR-T (afamitresgene), CAR-T against CLDN18.2 and GPC3, armoured and logic-gated CARs, allogeneic and in vivo CAR-T (targeted LNPs delivering CAR mRNA), CAR-NK and CAR-macrophages.",
+    summary: "CAR-T has transformed B-cell malignancies and myeloma. Solid tumours are the frontier: TIL therapy (lifileucel), TCR-T (afamitresgene), CAR-T against CLDN18.2 and GPC3, armoured and logic-gated CARs, allogeneic and in vivo CAR-T (targeted LNPs delivering CAR mRNA), CAR-NK and CAR-macrophages.", technologies: ["cell-therapy-release-testing"],
   },
   {
     id: "radiopharma", kind: "section", name: "Radiopharmaceuticals & Theranostics", order: 11, asOf, icon: "atom",
@@ -73,17 +73,17 @@ export const sections: SectionInput[] = [
   {
     id: "supportive-care", kind: "section", name: "Supportive Care & Survivorship", order: 14, asOf, icon: "heart",
     tldr: "Supportive care and survivorship covers everything that keeps a patient well enough to receive treatment, and well afterwards.",
-    summary: "Anti-emetics, growth factors, scalp cooling, cardio-oncology, fertility preservation, geriatric assessment, palliative integration, exercise oncology, financial toxicity mitigation, and long-term survivorship monitoring. Under-studied relative to its impact.",
+    summary: "Anti-emetics, growth factors, scalp cooling, cardio-oncology, fertility preservation, geriatric assessment, palliative integration, exercise oncology, financial toxicity mitigation, and long-term survivorship monitoring. Under-studied relative to its impact.", technologies: ["acupuncture-nausea", "cbt-fatigue-distress", "tai-chi-qigong", "relaxation-guided-imagery", "music-therapy-cancer", "aromatherapy-cancer", "reiki-energy-therapies", "ginger-nausea", "curcumin-turmeric", "melatonin-cancer", "medicinal-mushrooms-reishi-turkey-tail", "ayurvedic-medicine-cancer", "homeopathy-cancer", "essiac-herbal-cancer-cures"],
   },
   {
     id: "ai-computation", kind: "section", name: "AI & Computation", order: 15, asOf, icon: "chip",
     tldr: "Software that reads scans and slides, predicts outcomes, designs drugs, and matches patients to trials.",
-    summary: "FDA-cleared digital pathology risk tools (ArteraAI), radiology triage and screening models, pathology and radiology foundation models, multimodal patient-level models, AI-driven target discovery and ADC design, and LLM-based trial matching and tumour-board support.",
+    summary: "FDA-cleared digital pathology risk tools (ArteraAI), radiology triage and screening models, pathology and radiology foundation models, multimodal patient-level models, AI-driven target discovery and ADC design, and LLM-based trial matching and tumour-board support.", technologies: ["federated-learning-medical-ai", "chief", "phikon", "ct-fm", "medsam", "aidoc-care", "cellfm", "genept", "nucleotide-transformer", "enformer-borzoi", "bionemo"],
   },
   {
     id: "drug-discovery", kind: "section", name: "Drug Discovery Platforms", order: 16, asOf, icon: "beaker",
     tldr: "Drug discovery platforms are the tools used to find the next drug: gene screens, organoids, models in mice, and AI.",
-    summary: "CRISPR functional genomics (DepMap), patient-derived organoids and xenografts, ex vivo drug sensitivity testing, structure-based and AI-driven design, degrader platforms, and conjugation chemistry.",
+    summary: "CRISPR functional genomics (DepMap), patient-derived organoids and xenografts, ex vivo drug sensitivity testing, structure-based and AI-driven design, degrader platforms, and conjugation chemistry.", technologies: ["chai-1", "rfdiffusion", "bioemu", "phenom-2", "chemistry42"],
   },
   {
     id: "prevention", kind: "section", name: "Prevention & Risk", order: 17, asOf, icon: "umbrella",

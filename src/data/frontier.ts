@@ -126,7 +126,7 @@ const frontierRadical: EntityInput[] = [
     limitations: ["Donor variability and transmission risk with whole stool", "Effect sizes uncertain; no phase 3", "Antibiotics and diet confound everything"],
     technologies: ["checkpoint-inhibitor"], cancers: ["melanoma", "rcc"], terms: ["cold-vs-hot"],
     tags: ["frontier", "promising"],
-    links: [{ label: "LND101 + ICB phase 2 (NCT06623461)", url: "https://clinicaltrials.gov/study/NCT06623461" }, { label: "Oslo FMT phase 2 (NCT05286294)", url: "https://clinicaltrials.gov/study/NCT05286294" }],
+    links: [{ label: "LND101 + ICB phase 2 (NCT06623461)", url: "https://clinicaltrials.gov/study/NCT06623461" }, { label: "Oslo FMT phase 2 (NCT05286294)", url: "https://clinicaltrials.gov/study/NCT05286294" }], related: ["frontier-2035"],
   },
   {
     id: "tumour-microbiome-targeting", kind: "technology", name: "Targeting the tumour's own microbes", sections: ["targeted-therapy", "drug-discovery"], status: "preclinical", asOf: RAD,
@@ -181,7 +181,7 @@ const frontierRadical: EntityInput[] = [
     limitations: ["No phase 3 or survival data", "Sensitiser uptake varies across a heterogeneous tumour", "Treatment planning and dosimetry are immature"],
     technologies: ["photoimmunotherapy", "hifu-histotripsy", "fluorescence-guided-surgery", "bbb-focused-ultrasound"], cancers: ["glioblastoma"], companies: ["insightec"],
     tags: ["frontier", "promising"],
-    links: [{ label: "Alpheus phase 2 in GBM (NCT07225621)", url: "https://clinicaltrials.gov/study/NCT07225621" }, { label: "ExAblate SDT phase 2 (NCT04845919)", url: "https://clinicaltrials.gov/study/NCT04845919" }],
+    links: [{ label: "Alpheus phase 2 in GBM (NCT07225621)", url: "https://clinicaltrials.gov/study/NCT07225621" }, { label: "ExAblate SDT phase 2 (NCT04845919)", url: "https://clinicaltrials.gov/study/NCT04845919" }], related: ["frontier-2035"],
   },
   {
     id: "radiodynamic-therapy", kind: "technology", name: "Radiodynamic therapy and radiosensitising nanoparticles", sections: ["radiation"], status: "phase-2", asOf: RAD,
@@ -225,7 +225,7 @@ const frontierRadical: EntityInput[] = [
     limitations: ["Mechanism is not settled", "Mostly palliative, single-arm evidence", "No consensus on vertex spacing or dose"],
     technologies: ["imrt-igrt", "sbrt", "checkpoint-inhibitor"], terms: ["abscopal-effect"],
     tags: ["frontier", "promising"],
-    links: [{ label: "MSK spatially fractionated RT (NCT05837767)", url: "https://clinicaltrials.gov/study/NCT05837767" }, { label: "Randomised SFRT vs conventional RT (NCT06980259)", url: "https://clinicaltrials.gov/study/NCT06980259" }],
+    links: [{ label: "MSK spatially fractionated RT (NCT05837767)", url: "https://clinicaltrials.gov/study/NCT05837767" }, { label: "Randomised SFRT vs conventional RT (NCT06980259)", url: "https://clinicaltrials.gov/study/NCT06980259" }], related: ["frontier-2035"],
   },
   {
     id: "auger-electron-therapy", kind: "technology", name: "Auger-electron therapy", sections: ["radiopharma"], status: "preclinical", asOf: RAD,
@@ -302,7 +302,7 @@ const frontierRadical: EntityInput[] = [
     limitations: ["Repeated failures outside narrow settings", "Antibody responses to pegylated enzymes", "Diet-based approaches lack rigorous evidence"],
     technologies: ["cytotoxic-chemotherapy", "synthetic-lethality-approaches", "exercise-oncology"], cancers: ["mesothelioma", "all-leukemia", "sarcoma"],
     tags: ["frontier"],
-    links: [{ label: "ATOMIC-Meso phase 2/3 (NCT02709512)", url: "https://clinicaltrials.gov/study/NCT02709512" }, { label: "ARGSARC phase 3, terminated (NCT05712694)", url: "https://clinicaltrials.gov/study/NCT05712694" }],
+    links: [{ label: "ATOMIC-Meso phase 2/3 (NCT02709512)", url: "https://clinicaltrials.gov/study/NCT02709512" }, { label: "ARGSARC phase 3, terminated (NCT05712694)", url: "https://clinicaltrials.gov/study/NCT05712694" }], pathways: ["lipid-metabolism-cancer"],
   },
   {
     id: "senescence-targeting", kind: "technology", name: "Senolytics and senescence-directed therapy", sections: ["supportive-care", "targeted-therapy"], status: "preclinical", asOf: RAD,
@@ -333,7 +333,7 @@ const frontierRadical: EntityInput[] = [
     principle: "Diffusion and language models generate backbone geometries complementary to a target epitope; sequences are designed, expressed and screened, compressing discovery from years to weeks.",
     strengths: ["Fast, cheap discovery cycles", "Small size penetrates tumours and clears quickly, useful for imaging and radioligands", "The epitope can be chosen deliberately"],
     limitations: ["Immunogenicity of non-natural sequences is uncharacterised in patients", "Short half-life needs engineering", "Clinical validation is only starting"],
-    technologies: ["ai-drug-design", "adc", "radioligand-therapy", "peptide-drug-conjugate", "adc-payload-neutralizer"], companies: ["generate-biomedicines", "isomorphic-labs", "insilico-medicine"],
+    technologies: ["ai-drug-design", "adc", "radioligand-therapy", "peptide-drug-conjugate", "adc-payload-neutralizer"], companies: ["generate-biomedicines", "isomorphic-labs", "insilico-medicine", "cradle-bio", "profluent-bio", "latent-labs"],
     tags: ["frontier", "promising"],
     links: [{ label: "ClinicalTrials.gov: AI-designed antibody cancer", url: "https://clinicaltrials.gov/search?term=AI-designed%20antibody%20cancer" }],
   },

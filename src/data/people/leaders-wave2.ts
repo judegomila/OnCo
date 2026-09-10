@@ -10,7 +10,7 @@ const asOf = "2026-09-10";
 const doi = (title: string, journal: string | undefined, year: number | undefined, d: string) => ({ title, journal, year, doi: d, url: `https://doi.org/${d}` });
 
 type P = Omit<PersonInput, "kind" | "asOf"> & { institutionId: string };
-const p = (x: P): PersonInput => ({ kind: "person", asOf, institutions: [x.institutionId], ...x });
+const p = (x: P): PersonInput => ({ kind: "person", asOf, institutions: [x.institutionId], links: x.profiles, ...x });
 
 export const peopleLeadersWave2: PersonInput[] = [
   // =================== Organisation of European Cancer Institutes ===================
@@ -562,7 +562,7 @@ export const peopleLeadersWave2: PersonInput[] = [
     summary: "Shahrokh F. Shariat is Leiter (Head) of the Comprehensive Cancer Center Vienna, the joint cancer centre of the Medical University of Vienna and Vienna General Hospital (AKH), and Head of its Department of Urology. He is among the most published urologic oncologists internationally and co-authors the European Association of Urology guidelines on bladder and upper-tract urothelial carcinoma.",
     profiles: [{ label: "Institution profile", url: "https://ccc.meduniwien.ac.at/ueber-uns/die-leitung-des-comprehensive-cancer-center/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Shariat+SF%5BAuthor%5D" }],
     papers: [doi("European Association of Urology Guidelines on Non-muscle-invasive Bladder Cancer (Ta, T1, and Carcinoma in Situ)", "European Urology", 2022, "10.1016/j.eururo.2021.08.010"), doi("European Association of Urology Guidelines on Upper Urinary Tract Urothelial Carcinoma: 2023 Update", "European Urology", 2023, "10.1016/j.eururo.2023.03.013")],
-    tags: ["leadership", "clinician-scientist", "urologic oncology", "bladder cancer"], cancers: ["urothelial", "prostate"] }),
+    tags: ["leadership", "clinician-scientist", "urologic oncology", "bladder cancer"], cancers: ["urothelial", "prostate"], journals: ["european-urology"] }),
   p({ id: "nicole-concin", name: "Nicole Concin", role: "Coordinator, Gynecologic Cancer Unit; Head, Department of Obstetrics and Gynecology", institutionId: "ccc-vienna", specialisms: ["Gynaecologic oncology", "Endometrial cancer", "Ovarian cancer", "Clinical guidelines"],
     tldr: "Gynaecologic oncologist who leads Vienna's women's clinic and is first author of the ESGO/ESTRO/ESP endometrial cancer guidelines.",
     summary: "Nicole Concin heads the Department of Obstetrics and Gynecology at the Medical University of Vienna and AKH and coordinates the Gynecologic Cancer Unit within the Comprehensive Cancer Center Vienna. She is first author of the European ESGO/ESTRO/ESP guidelines for endometrial carcinoma (2021 and the 2025 update) and has served as President of the European Society of Gynaecological Oncology.",
@@ -646,7 +646,7 @@ export const peopleLeadersWave2: PersonInput[] = [
     summary: "Giovanni Blandino was confirmed as Scientific Director of the IRCCS Regina Elena National Cancer Institute (IRE), part of the IFO group in Rome, in May 2026. He leads the institute's Translational Oncology Research unit, where his laboratory studies gain-of-function mutant p53, its effects on tumour metabolism and non-coding RNAs, and strategies to target it therapeutically. His appointment is announced on the IFO website.",
     profiles: [{ label: "Institution profile", url: "https://www.ifo.it/2026/05/blandino-cavuto-2-nomine-strategiche-ifo/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Blandino+G%5BAuthor%5D" }],
     papers: [doi("Mutant p53 sustains serine-glycine synthesis and essential amino acids intake promoting breast cancer growth", "Nature Communications", 2023, "10.1038/s41467-023-42458-1"), doi("Targeting mutant p53 in cancer: the latest insights", "Journal of Experimental & Clinical Cancer Research", 2019, "10.1186/s13046-019-1302-0")],
-    tags: ["leadership", "clinician-scientist", "molecular oncology", "breast cancer"], cancers: ["tnbc", "head-and-neck"] }),
+    tags: ["leadership", "clinician-scientist", "molecular oncology", "breast cancer"], cancers: ["tnbc", "head-and-neck"], journals: ["nature-communications"] }),
   // =================== Newcastle Cancer Centre / Northern Centre for Cancer Care ===================
   p({ id: "steven-clifford", name: "Steven Clifford", role: "Chair of Molecular Paediatric Oncology and Director, Newcastle University Centre for Cancer", institutionId: "newcastle-cancer-centre", specialisms: ["Medulloblastoma", "Paediatric neuro-oncology", "Molecular classification", "Biomarkers"],
     tldr: "Medulloblastoma biologist whose molecular subgrouping work underpins risk-adapted treatment of childhood brain tumours; directs Newcastle University's cancer centre.",
@@ -678,7 +678,7 @@ export const peopleLeadersWave2: PersonInput[] = [
     summary: "Han-Kwang Yang is President of the National Cancer Center Korea, the country's national cancer research institute and hospital in Goyang. A gastric cancer surgeon formerly at Seoul National University Hospital, he was a key investigator in the Korean Laparoendoscopic Gastrointestinal Surgery Study (KLASS) trials that established laparoscopic gastrectomy as a standard for early gastric cancer. His role is stated in the President's greeting on the centre's website.",
     profiles: [{ label: "Institution profile", url: "https://ncc.re.kr/main.ncc?uri=english/sub01_Greetings" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Yang+HK%5BAuthor%5D+AND+gastric" }],
     papers: [doi("Effect of Laparoscopic Distal Gastrectomy vs Open Distal Gastrectomy on Long-term Survival Among Patients With Stage I Gastric Cancer: The KLASS-01 Randomized Clinical Trial", "JAMA Oncology", 2019, "10.1001/jamaoncol.2018.6727"), doi("Decreased Morbidity of Laparoscopic Distal Gastrectomy Compared With Open Distal Gastrectomy for Stage I Gastric Cancer: Short-term Outcomes From a Multicenter Randomized Controlled Trial (KLASS-01)", "Annals of Surgery", 2016, "10.1097/SLA.0000000000001346")],
-    tags: ["leadership", "clinician-scientist", "gastric cancer", "surgical oncology"], cancers: ["gastric"] }),
+    tags: ["leadership", "clinician-scientist", "gastric cancer", "surgical oncology"], cancers: ["gastric"], journals: ["jama-oncology"] }),
   // =================== Masaryk Memorial Cancer Institute ===================
   p({ id: "marek-svoboda", name: "Marek Svoboda", role: "General Director", institutionId: "mou-brno", specialisms: ["Medical oncology", "Breast cancer", "Cancer genetics"],
     tldr: "Medical oncologist who leads the Masaryk Memorial Cancer Institute in Brno, the Czech Republic's largest dedicated cancer centre.",
@@ -1001,7 +1001,7 @@ export const peopleLeadersWave2: PersonInput[] = [
     summary: "Jens Overgaard is Professor in the Department of Oncology at Aarhus University and Aarhus University Hospital, where he founded the Department of Experimental Clinical Oncology. He has led the Danish Head and Neck Cancer Group (DAHANCA) trials for decades, establishing the role of hypoxic modification and altered fractionation in radiotherapy, and has been a central figure in European radiation oncology research.",
     profiles: [{ label: "Institution profile", url: "https://pure.au.dk/portal/en/persons/jens-overgaard" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Overgaard+J%5BAuthor%5D" }],
     papers: [doi("A randomized double-blind phase III study of nimorazole as a hypoxic radiosensitizer of primary radiotherapy in supraglottic larynx and pharynx carcinoma. Results of the Danish Head and Neck Cancer Study (DAHANCA) Protocol 5-85", "Radiotherapy and Oncology", 1998, "10.1016/S0167-8140(97)00220-X")],
-    tags: ["clinician-scientist", "radiotherapy", "head and neck cancer"], cancers: ["head-and-neck"] }),
+    tags: ["clinician-scientist", "radiotherapy", "head and neck cancer"], cancers: ["head-and-neck"], journals: ["radiotherapy-and-oncology"] }),
   // =================== Yale University Open Data Access (YODA) Project ===================
   p({ id: "harlan-krumholz", name: "Harlan M. Krumholz", role: "Principal Investigator", institutionId: "yoda-project", specialisms: ["Clinical trial data sharing", "Outcomes research", "Cardiology", "Research transparency"],
     tldr: "Yale outcomes researcher who founded and leads the YODA Project for independent access to clinical trial data.",

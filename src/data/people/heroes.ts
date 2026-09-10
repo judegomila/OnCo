@@ -14,7 +14,7 @@ import type { PersonInput } from "@/lib/schema";
  */
 const asOf = "2026-09-09";
 type P = Omit<PersonInput, "kind" | "asOf">;
-const p = (x: P): PersonInput => ({ kind: "person", asOf, ...x });
+const p = (x: P): PersonInput => ({ kind: "person", asOf, links: x.profiles, ...x });
 const W = (slug: string) => `https://en.wikipedia.org/wiki/${slug}`;
 const wiki = (slug: string) => ({ label: "Wikipedia", url: W(slug) });
 const site = (label: string, url: string) => ({ label, url });
@@ -44,13 +44,13 @@ export const heroes: PersonInput[] = [
     tldr: "After losing a leg to bone cancer at 18, he set out in 1980 to run across Canada for cancer research. He covered 5,373 km before the disease returned; the run he started has raised over C$850 million.",
     summary: "Terry Fox (1958-1981) was diagnosed with osteosarcoma in 1977 and had his right leg amputated above the knee. Moved by the children he met on the cancer ward, he began the Marathon of Hope on 12 April 1980 at St John's, Newfoundland, running close to a marathon a day on a prosthetic leg. He was forced to stop on 1 September 1980 outside Thunder Bay, Ontario, after 143 days and 5,373 km, when the cancer was found in his lungs. He died on 28 June 1981 at 22. The annual Terry Fox Run, held in Canada and dozens of countries, and the Terry Fox Foundation and Research Institute have since raised more than C$850 million for cancer research, and his name is one of the most recognised in Canadian public life.",
     wikipedia: W("Terry_Fox"), profiles: [wiki("Terry_Fox"), site("Terry Fox Foundation", "https://terryfox.org/")],
-    cancers: ["osteosarcoma", "sarcoma"], terms: ["aya-oncology"], bottlenecks: ["b-funding-allocation", "b-rare-cancers"] }),
+    cancers: ["osteosarcoma", "sarcoma"], terms: ["aya-oncology"], bottlenecks: ["b-funding-allocation", "b-rare-cancers"], institutions: ["terry-fox-foundation"] }),
   p({ id: "stephen-sutton", name: "Stephen Sutton", role: "Teenage patient whose bucket list raised millions for young people with cancer", tags: ["hero", "patient"],
     specialisms: ["Colorectal cancer", "Adolescent and young adult cancer", "Cancer fundraising"],
     tldr: "Diagnosed with bowel cancer at 15, he turned his final years into a public campaign that raised more than £5 million for the Teenage Cancer Trust before he died at 19.",
     summary: "Stephen Sutton (1994-2014), from Burntwood, Staffordshire, was diagnosed with metastatic colorectal cancer at 15, an age at which the disease is rare and easily missed. Rather than pursue his planned medical degree, he wrote a bucket list and shared it online; his final item was to raise £10,000 for the Teenage Cancer Trust. A photograph of him giving a thumbs-up from his hospital bed in April 2014 went viral, and donations passed £3 million within days. He died on 14 May 2014 at 19, having been appointed MBE; the total passed £5 million. His campaign put early-onset bowel cancer and the specific needs of teenage and young adult patients in front of a national audience.",
     wikipedia: W("Stephen_Sutton"), profiles: [wiki("Stephen_Sutton"), site("Teenage Cancer Trust", "https://www.teenagecancertrust.org/")],
-    cancers: ["colorectal"], terms: ["aya-oncology"], bottlenecks: ["b-early-detection", "b-patient-voice"] }),
+    cancers: ["colorectal"], terms: ["aya-oncology"], bottlenecks: ["b-early-detection", "b-patient-voice"], institutions: ["teenage-cancer-trust"] }),
   p({ id: "angelina-jolie", name: "Angelina Jolie", role: "Patient whose public account of BRCA1 testing and risk-reducing surgery changed testing uptake", tags: ["hero", "patient", "advocate"],
     specialisms: ["Hereditary breast and ovarian cancer", "BRCA1", "Risk-reducing surgery"],
     tldr: "Her 2013 New York Times essay about carrying a BRCA1 mutation and choosing preventive mastectomy roughly doubled referrals for hereditary cancer testing in several countries: the \"Angelina Jolie effect\".",
@@ -98,7 +98,7 @@ export const heroes: PersonInput[] = [
     tldr: "Diagnosed with bowel cancer at 35, she spent five years telling people to check their poo, co-hosted the BBC's You, Me and the Big C, and raised over £11 million for Cancer Research UK in the weeks before her death in 2022.",
     summary: "Deborah James (1981-2022) was a deputy headteacher when she was diagnosed with stage IV bowel cancer in December 2016 at 35, having had symptoms dismissed. Writing as Bowelbabe, she used plain language and humour to describe treatment and symptoms, co-hosted the BBC podcast You, Me and the Big C from 2018, and pushed the message that bowel cancer is not an old person's disease. In May 2022, moving to hospice care at home, she launched the Bowelbabe Fund for Cancer Research UK with a target of £250,000; it passed £11 million within weeks. She was made a Dame by Prince William at her parents' home. She died on 28 June 2022 at 40. Bowel Cancer UK and NHS England reported sustained increases in symptom searches and referrals during and after her campaign.",
     wikipedia: W("Deborah_James_(journalist)"), profiles: [wiki("Deborah_James_(journalist)"), site("Bowelbabe Fund for Cancer Research UK", "https://bowelbabe.org/"), site("Cancer Research UK", "https://www.cancerresearchuk.org/")],
-    cancers: ["colorectal"], institutions: ["cruk"], technologies: ["colorectal-screening", "hospice-end-of-life"], terms: ["aya-oncology", "fit-test"], bottlenecks: ["b-patient-voice", "b-early-detection", "b-funding-allocation"] }),
+    cancers: ["colorectal"], institutions: ["cruk", "bowelbabe-fund"], technologies: ["colorectal-screening", "hospice-end-of-life"], terms: ["aya-oncology", "fit-test"], bottlenecks: ["b-patient-voice", "b-early-detection", "b-funding-allocation"] }),
   p({ id: "kris-hallenga", name: "Kris Hallenga", role: "Founder of CoppaFeel!, the first breast cancer charity aimed at young people", tags: ["hero", "patient", "advocate"],
     specialisms: ["Breast cancer in young women", "Early detection", "Cancer charities"],
     tldr: "Diagnosed with incurable breast cancer at 23 after her symptoms were dismissed, she founded CoppaFeel! in 2009 to teach young people to check their chests. She lived with the disease for fifteen years.",
@@ -152,7 +152,7 @@ export const heroes: PersonInput[] = [
     tldr: "Diagnosed with neuroblastoma before her first birthday, she set up a lemonade stand at four to raise money for her hospital. By her death at eight in 2004 it had raised $1 million; the foundation in her name has raised hundreds of millions since.",
     summary: "Alex Scott (1996-2004) of Wynnewood, Pennsylvania, was diagnosed with neuroblastoma shortly before her first birthday. In 2000, aged four, after a stem cell transplant, she told her parents she wanted to hold a lemonade stand to give the money to her doctors so they could help other children. The stand became an annual event copied across the country, and by the time she died on 1 August 2004, aged eight, it had raised $1 million. Her parents, Liz and Jay Scott, formalised Alex's Lemonade Stand Foundation in 2005. It has since raised well over $250 million and become one of the largest private funders of childhood cancer research in the United States, supporting early-career investigators, clinical trials and the Childhood Cancer Data Lab.",
     wikipedia: W("Alex%27s_Lemonade_Stand_Foundation"), profiles: [wiki("Alex%27s_Lemonade_Stand_Foundation"), site("Alex's Lemonade Stand Foundation", "https://www.alexslemonade.org/")],
-    cancers: ["neuroblastoma"], related: ["alexs-lemonade-stand"], bottlenecks: ["b-rare-cancers", "b-funding-allocation"] }),
+    cancers: ["neuroblastoma"], related: ["alexs-lemonade-stand"], bottlenecks: ["b-rare-cancers", "b-funding-allocation"], institutions: ["alsf"] }),
   p({ id: "barbara-bradfield", name: "Barbara Bradfield", role: "First long-term survivor of the trastuzumab trials", tags: ["hero", "patient"],
     specialisms: ["HER2-positive breast cancer", "Clinical trial participation"],
     tldr: "In 1992 she was the first patient with recurrent HER2-positive breast cancer to be treated with the antibody that became Herceptin, in Dennis Slamon's trial at UCLA. She became its first long-term survivor.",

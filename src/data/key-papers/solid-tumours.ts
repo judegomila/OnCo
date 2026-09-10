@@ -40,7 +40,7 @@ export const papersSolidTumours: PaperInput[] = [
     cancers: ["tnbc"], drugs: ["pembrolizumab", "carboplatin", "paclitaxel"], targets: ["pd1"], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy", "platinum"],
     trials: ["keynote-522"], terms: ["pcr", "efs", "neoadjuvant-adjuvant", "cps", "irae", "rcb"], companies: ["merck"],
     people: ["javier-cortes", "jonas-bergh", "park-yeon-hee", "carsten-denkert"], bottlenecks: ["b-immunotherapy-response", "b-toxicity-qol", "b-dormancy-mrd"],
-    related: ["idea-post-neoadjuvant-adc", "idea-ctdna-escalation-tnbc"] }),
+    related: ["idea-post-neoadjuvant-adc", "idea-ctdna-escalation-tnbc"], journals: ["nejm"] }),
 
   p({ id: "paper-destiny-breast03-nejm-2022", name: "DESTINY-Breast03: trastuzumab deruxtecan beats T-DM1 as second-line treatment of HER2-positive metastatic breast cancer",
     tldr: "A newer antibody-drug conjugate, trastuzumab deruxtecan, kept HER2-positive metastatic breast cancer under control roughly four times longer than the previous standard, T-DM1, and later lengthened survival.",
@@ -67,7 +67,7 @@ export const papersSolidTumours: PaperInput[] = [
     cancers: ["breast-her2-positive"], drugs: ["trastuzumab-deruxtecan", "trastuzumab-emtansine"], targets: ["her2"], technologies: ["adc", "topoisomerase-inhibitors"],
     trials: ["destiny-breast03"], terms: ["pfs", "os", "payload", "dar", "bystander-effect", "ild", "adc-sequencing"], companies: ["daiichi-sankyo", "astrazeneca"],
     people: ["javier-cortes", "kim-sung-bae", "im-seock-ah", "park-yeon-hee", "giuseppe-curigliano", "xu-binghe", "sara-hurvitz"], bottlenecks: ["b-resistance", "b-toxicity-qol"],
-    related: ["idea-payload-switching"] }),
+    related: ["idea-payload-switching"], journals: ["nejm"] }),
 
   p({ id: "paper-destiny-breast04-nejm-2022", name: "DESTINY-Breast04: trastuzumab deruxtecan works in HER2-low breast cancer, creating a new treatable group",
     tldr: "Breast cancers with only a little HER2 on their surface, long called HER2-negative, responded to trastuzumab deruxtecan and patients lived about six months longer than on chemotherapy. It created the HER2-low category.",
@@ -95,7 +95,7 @@ export const papersSolidTumours: PaperInput[] = [
     cancers: ["breast-hr-positive", "tnbc"], drugs: ["trastuzumab-deruxtecan"], targets: ["her2"], technologies: ["adc", "histopathology-ihc", "companion-diagnostic"],
     trials: ["destiny-breast04"], terms: ["her2-low", "ihc", "bystander-effect", "ild", "pfs", "os"], companies: ["daiichi-sankyo", "astrazeneca"],
     people: ["sohn-joohyuk", "park-yeon-hee", "xu-binghe", "im-seock-ah", "hope-rugo", "kim-sung-bae", "david-cameron"], bottlenecks: ["b-biomarker-validation", "b-toxicity-qol"],
-    related: ["idea-payload-switching"] }),
+    related: ["idea-payload-switching"], journals: ["nejm"] }),
 
   p({ id: "paper-destiny-breast06-nejm-2024", name: "DESTINY-Breast06: trastuzumab deruxtecan before any chemotherapy in hormone-receptor-positive, HER2-low or ultralow breast cancer",
     tldr: "Given as the first chemotherapy-type treatment after hormone therapy stopped working, trastuzumab deruxtecan delayed progression by about five months compared with standard chemotherapy, including in tumours with barely detectable HER2.",
@@ -122,7 +122,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["breast-hr-positive"], drugs: ["trastuzumab-deruxtecan"], targets: ["her2"], technologies: ["adc", "histopathology-ihc"],
     trials: ["destiny-breast06"], terms: ["her2-low", "ihc", "pfs", "ild", "first-line"], companies: ["daiichi-sankyo", "astrazeneca"],
-    people: ["hu-xichun", "yonemori-kan", "barrios-carlos", "sohn-joohyuk", "im-seock-ah", "giuseppe-curigliano"], bottlenecks: ["b-biomarker-validation", "b-drug-pricing", "b-trial-design"] }),
+    people: ["hu-xichun", "yonemori-kan", "barrios-carlos", "sohn-joohyuk", "im-seock-ah", "giuseppe-curigliano"], bottlenecks: ["b-biomarker-validation", "b-drug-pricing", "b-trial-design"], journals: ["nejm"] }),
 
   p({ id: "paper-monarche-jco-2020", name: "monarchE: two years of abemaciclib after surgery in high-risk, hormone-receptor-positive early breast cancer",
     tldr: "Adding two years of the CDK4/6 inhibitor abemaciclib to standard hormone therapy after surgery cut the risk of the cancer coming back by a quarter in women with node-positive, high-risk disease.",
@@ -149,7 +149,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["breast-hr-positive"], drugs: ["abemaciclib"], targets: ["cdk4-6", "estrogen-receptor"], technologies: ["cdk46-inhibitor", "endocrine-therapy"],
     trials: ["monarche", "natalee"], terms: ["neoadjuvant-adjuvant", "hazard-ratio"], companies: ["eli-lilly"],
-    people: ["miguel-martin", "shao-zhi-ming", "sohn-joohyuk", "javier-cortes", "andrew-wardley", "sara-tolaney"], bottlenecks: ["b-dormancy-mrd", "b-drug-pricing", "b-toxicity-qol"] }),
+    people: ["miguel-martin", "shao-zhi-ming", "sohn-joohyuk", "javier-cortes", "andrew-wardley", "sara-tolaney"], bottlenecks: ["b-dormancy-mrd", "b-drug-pricing", "b-toxicity-qol"], journals: ["jco"] }),
 
   p({ id: "paper-natalee-nejm-2024", name: "NATALEE: three years of ribociclib after surgery in a broad population of hormone-receptor-positive early breast cancer",
     tldr: "Three years of the CDK4/6 inhibitor ribociclib added to hormone therapy reduced relapses in stage II-III hormone-receptor-positive breast cancer, including some node-negative patients.",
@@ -176,7 +176,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["breast-hr-positive"], drugs: ["ribociclib"], targets: ["cdk4-6", "estrogen-receptor"], technologies: ["cdk46-inhibitor", "endocrine-therapy"],
     trials: ["natalee", "monarche"], terms: ["neoadjuvant-adjuvant", "hazard-ratio"], companies: ["novartis"],
-    people: ["dennis-slamon", "im-seock-ah", "miguel-martin", "loi-sherene", "xu-binghe", "sara-hurvitz", "barrios-carlos"], bottlenecks: ["b-dormancy-mrd", "b-drug-pricing", "b-dose-optimisation"] }),
+    people: ["dennis-slamon", "im-seock-ah", "miguel-martin", "loi-sherene", "xu-binghe", "sara-hurvitz", "barrios-carlos"], bottlenecks: ["b-dormancy-mrd", "b-drug-pricing", "b-dose-optimisation"], journals: ["nejm"] }),
 
   p({ id: "paper-olympia-nejm-2021", name: "OlympiA: a year of olaparib after surgery for BRCA-mutated, high-risk early breast cancer",
     tldr: "In women born with a BRCA1 or BRCA2 mutation whose early breast cancer was high risk, a year of the PARP inhibitor olaparib after standard treatment cut relapses by more than 40% and later improved survival.",
@@ -203,7 +203,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["tnbc", "breast-hr-positive"], drugs: ["olaparib"], targets: ["parp", "brca"], technologies: ["parp-inhibitor", "germline-testing", "synthetic-lethality-approaches"],
     trials: ["olympia"], terms: ["germline-vs-somatic", "synthetic-lethality", "neoadjuvant-adjuvant", "rcb"], companies: ["astrazeneca", "merck"],
-    people: ["andrew-tutt", "judy-garber", "evandro-de-azambuja", "susan-domchek", "shao-zhi-ming", "sibylle-loibl", "martine-piccart", "charles-geyer"], bottlenecks: ["b-hereditary-risk", "b-dormancy-mrd"] }),
+    people: ["andrew-tutt", "judy-garber", "evandro-de-azambuja", "susan-domchek", "shao-zhi-ming", "sibylle-loibl", "martine-piccart", "charles-geyer"], bottlenecks: ["b-hereditary-risk", "b-dormancy-mrd"], journals: ["nejm"] }),
 
   p({ id: "paper-katherine-nejm-2019", name: "KATHERINE: switching to T-DM1 when HER2-positive breast cancer survives pre-surgery treatment",
     tldr: "Women whose HER2-positive breast cancer was still present at surgery after chemotherapy and trastuzumab had half the risk of relapse if their post-surgery treatment was switched to the antibody-drug conjugate T-DM1 instead of continuing trastuzumab.",
@@ -231,7 +231,7 @@ export const papersSolidTumours: PaperInput[] = [
     cancers: ["breast-her2-positive"], drugs: ["trastuzumab-emtansine", "trastuzumab"], targets: ["her2"], technologies: ["adc"],
     trials: ["destiny-breast03", "destiny-breast11"], terms: ["pcr", "rcb", "neoadjuvant-adjuvant"], companies: ["roche-genentech"],
     people: ["gunter-von-minckwitz", "sibylle-loibl", "shao-zhi-ming", "charles-geyer"], bottlenecks: ["b-dormancy-mrd", "b-trial-design"],
-    related: ["idea-post-neoadjuvant-adc"] }),
+    related: ["idea-post-neoadjuvant-adc"], journals: ["nejm"] }),
 
   p({ id: "paper-tropion-breast01-jco-2024", name: "TROPION-Breast01: datopotamab deruxtecan versus chemotherapy in pretreated hormone-receptor-positive breast cancer, and why a PFS win did not translate to survival",
     tldr: "The TROP2-directed antibody-drug conjugate Dato-DXd delayed progression by about two months compared with chemotherapy, but patients did not live longer, which stalled its approval in breast cancer.",
@@ -259,7 +259,7 @@ export const papersSolidTumours: PaperInput[] = [
     cancers: ["breast-hr-positive"], drugs: ["datopotamab-deruxtecan"], targets: ["trop2"], technologies: ["adc", "topoisomerase-inhibitors"],
     trials: ["tropion-breast01", "tropion-breast02"], terms: ["pfs", "os", "adc-sequencing", "ihc"], companies: ["daiichi-sankyo", "astrazeneca"],
     people: ["im-seock-ah", "xu-binghe", "barrios-carlos"], bottlenecks: ["b-biomarker-validation", "b-trial-design", "b-negative-results"],
-    related: ["idea-trop2-pet-selection", "idea-payload-switching"] }),
+    related: ["idea-trop2-pet-selection", "idea-payload-switching"], journals: ["jco"] }),
 
   p({ id: "paper-ascent-nejm-2021", name: "ASCENT: sacituzumab govitecan doubles survival in heavily pretreated metastatic triple-negative breast cancer",
     tldr: "In triple-negative breast cancer that had already been through at least two treatments, the TROP2 antibody-drug conjugate sacituzumab govitecan roughly doubled the time patients lived compared with standard chemotherapy.",
@@ -287,7 +287,7 @@ export const papersSolidTumours: PaperInput[] = [
     cancers: ["tnbc"], drugs: ["sacituzumab-govitecan"], targets: ["trop2"], technologies: ["adc", "topoisomerase-inhibitors"],
     trials: ["ascent", "ascent-03", "ascent-04"], terms: ["linker", "payload", "orr", "pfs", "os", "accelerated-approval"], companies: ["gilead"],
     people: ["sara-hurvitz", "sara-tolaney", "javier-cortes", "martine-piccart", "sibylle-loibl", "hope-rugo"], bottlenecks: ["b-resistance", "b-toxicity-qol"],
-    related: ["idea-post-neoadjuvant-adc", "idea-trop2-pet-selection"] }),
+    related: ["idea-post-neoadjuvant-adc", "idea-trop2-pet-selection"], journals: ["nejm"] }),
 
   // ---------------------------------------------------------------- Lung
   p({ id: "paper-flaura-nejm-2018", name: "FLAURA: osimertinib as first treatment for EGFR-mutated lung cancer",
@@ -316,7 +316,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["nsclc"], drugs: ["osimertinib"], targets: ["egfr"], technologies: ["kinase-inhibitors", "cgp"],
     trials: ["flaura2", "mariposa", "adaura"], terms: ["oncogene-addiction", "resistance", "pfs", "os", "first-line"], companies: ["astrazeneca"],
-    institutions: ["gustave-roussy"], people: ["jean-charles-soria", "ohe-yuichiro", "zhou-caicun", "cho-byoung-chul"], bottlenecks: ["b-resistance", "b-brain-delivery", "b-global-access"] }),
+    institutions: ["gustave-roussy"], people: ["jean-charles-soria", "ohe-yuichiro", "zhou-caicun", "cho-byoung-chul"], bottlenecks: ["b-resistance", "b-brain-delivery", "b-global-access"], journals: ["nejm"] }),
 
   p({ id: "paper-mariposa-nejm-2024", name: "MARIPOSA: amivantamab plus lazertinib versus osimertinib as first treatment for EGFR-mutated lung cancer",
     tldr: "Combining an EGFR-MET bispecific antibody with a third-generation EGFR pill beat osimertinib alone, delaying progression by about seven months and later improving survival, at the cost of more side effects.",
@@ -343,7 +343,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["nsclc"], drugs: ["amivantamab", "osimertinib"], targets: ["egfr", "met"], technologies: ["bispecific-antibody", "kinase-inhibitors"],
     trials: ["mariposa", "flaura2"], terms: ["pfs", "os", "resistance", "first-line", "ctdna"], companies: ["johnson-johnson"],
-    institutions: ["severance"], people: ["cho-byoung-chul", "lu-shun", "enriqueta-felip", "lee-se-hoon", "benjamin-besse", "prabhash-kumar"], bottlenecks: ["b-resistance", "b-toxicity-qol", "b-drug-pricing"] }),
+    institutions: ["severance"], people: ["cho-byoung-chul", "lu-shun", "enriqueta-felip", "lee-se-hoon", "benjamin-besse", "prabhash-kumar"], bottlenecks: ["b-resistance", "b-toxicity-qol", "b-drug-pricing"], journals: ["nejm"] }),
 
   p({ id: "paper-adaura-nejm-2020", name: "ADAURA: three years of osimertinib after surgery for EGFR-mutated lung cancer",
     tldr: "After surgery for early-stage EGFR-mutated lung cancer, three years of osimertinib cut recurrences by about 80% and later reduced deaths by half.",
@@ -370,7 +370,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["nsclc"], drugs: ["osimertinib"], targets: ["egfr"], technologies: ["kinase-inhibitors"],
     trials: ["adaura"], terms: ["neoadjuvant-adjuvant", "oncogene-addiction", "mrd"], companies: ["astrazeneca"],
-    people: ["wu-yi-long", "he-jie", "lu-shun"], bottlenecks: ["b-dormancy-mrd", "b-drug-pricing"] }),
+    people: ["wu-yi-long", "he-jie", "lu-shun"], bottlenecks: ["b-dormancy-mrd", "b-drug-pricing"], journals: ["nejm"] }),
 
   p({ id: "paper-crown-nejm-2020", name: "CROWN: lorlatinib versus crizotinib as first treatment for ALK-positive lung cancer",
     tldr: "The third-generation ALK inhibitor lorlatinib kept ALK-positive lung cancer under control for years longer than crizotinib and largely prevented brain metastases; at five years most patients on lorlatinib had still not progressed.",
@@ -396,7 +396,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["nsclc"], drugs: ["lorlatinib"], targets: ["alk"], technologies: ["kinase-inhibitors"],
     terms: ["oncogene-addiction", "gene-fusion", "pfs", "resistance"], companies: ["pfizer"],
-    institutions: ["peter-mac"], people: ["solomon-benjamin", "enriqueta-felip", "kim-dong-wan"], bottlenecks: ["b-brain-delivery", "b-resistance", "b-toxicity-qol"] }),
+    institutions: ["peter-mac"], people: ["solomon-benjamin", "enriqueta-felip", "kim-dong-wan"], bottlenecks: ["b-brain-delivery", "b-resistance", "b-toxicity-qol"], journals: ["nejm"] }),
 
   p({ id: "paper-keynote-189-nejm-2018", name: "KEYNOTE-189: pembrolizumab plus chemotherapy as first treatment for non-squamous lung cancer without a driver mutation",
     tldr: "Adding pembrolizumab to standard chemotherapy roughly halved the risk of death in newly diagnosed non-squamous lung cancer, whatever the PD-L1 level, making chemo-immunotherapy the default first treatment.",
@@ -423,7 +423,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["nsclc"], drugs: ["pembrolizumab", "carboplatin"], targets: ["pd1", "pdl1"], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy", "platinum"],
     terms: ["first-line", "os", "pfs", "cold-vs-hot", "irae"], companies: ["merck"],
-    people: ["enriqueta-felip"], bottlenecks: ["b-immunotherapy-response", "b-biomarker-validation"] }),
+    people: ["enriqueta-felip"], bottlenecks: ["b-immunotherapy-response", "b-biomarker-validation"], journals: ["nejm"] }),
 
   p({ id: "paper-checkmate-816-nejm-2022", name: "CheckMate 816: three cycles of nivolumab plus chemotherapy before lung cancer surgery",
     tldr: "Just three cycles of chemotherapy with the immunotherapy nivolumab before surgery wiped out all viable tumour in a quarter of patients and reduced relapse or death by about a third, without making surgery harder.",
@@ -450,7 +450,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["nsclc"], drugs: ["nivolumab", "carboplatin", "paclitaxel"], targets: ["pd1"], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy"],
     terms: ["pcr", "efs", "neoadjuvant-adjuvant"], companies: ["bms"],
-    institutions: ["johns-hopkins"], people: ["patrick-forde", "lu-shun", "enriqueta-felip", "julie-brahmer", "everett-vokes"], bottlenecks: ["b-immunotherapy-response", "b-trial-design", "b-dormancy-mrd"] }),
+    institutions: ["johns-hopkins"], people: ["patrick-forde", "lu-shun", "enriqueta-felip", "julie-brahmer", "everett-vokes"], bottlenecks: ["b-immunotherapy-response", "b-trial-design", "b-dormancy-mrd"], journals: ["nejm"] }),
 
   p({ id: "paper-pacific-nejm-2017", name: "PACIFIC: a year of durvalumab after chemoradiotherapy for stage III lung cancer",
     tldr: "Giving the immunotherapy durvalumab for a year after chemoradiotherapy for unresectable stage III lung cancer tripled the time to progression and raised five-year survival from about a third to over 40%.",
@@ -478,7 +478,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["nsclc"], drugs: ["durvalumab"], targets: ["pdl1"], technologies: ["checkpoint-inhibitor", "imrt-igrt", "platinum"],
     terms: ["pfs", "os", "standard-of-care", "irae"], companies: ["astrazeneca"],
-    people: ["cho-byoung-chul"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation", "b-biomarker-validation"] }),
+    people: ["cho-byoung-chul"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation", "b-biomarker-validation"], journals: ["nejm"] }),
 
   p({ id: "paper-adriatic-nejm-2024", name: "ADRIATIC: durvalumab after chemoradiotherapy for limited-stage small-cell lung cancer",
     tldr: "For small-cell lung cancer confined to the chest, adding two years of durvalumab after chemoradiotherapy extended median survival from under three years to over four and a half, the first advance in this setting in decades.",
@@ -504,7 +504,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["sclc"], drugs: ["durvalumab"], targets: ["pdl1"], technologies: ["checkpoint-inhibitor", "imrt-igrt", "platinum"],
     terms: ["os", "pfs", "standard-of-care"], companies: ["astrazeneca"],
-    people: ["cho-byoung-chul"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation"] }),
+    people: ["cho-byoung-chul"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation"], journals: ["nejm"] }),
 
   p({ id: "paper-dellphi-301-nejm-2023", name: "DeLLphi-301: tarlatamab, a DLL3-targeting T-cell engager, in previously treated small-cell lung cancer",
     tldr: "A bispecific antibody that pulls T cells onto small-cell lung cancer cells produced responses in 40% of patients whose cancer had come back after chemotherapy, lasting far longer than any previous drug in this setting.",
@@ -531,7 +531,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["sclc"], drugs: ["tarlatamab"], targets: ["dll3", "cd3"], technologies: ["t-cell-engager", "bispecific-antibody"],
     trials: ["dellphi-304"], terms: ["orr", "crs", "icans", "accelerated-approval"], companies: ["amgen"],
-    institutions: ["samsung-medical-center"], people: ["ahn-myung-ju", "cho-byoung-chul", "enriqueta-felip", "juergen-wolf", "fiona-blackhall"], bottlenecks: ["b-undruggable-targets", "b-dose-optimisation", "b-toxicity-qol"] }),
+    institutions: ["samsung-medical-center"], people: ["ahn-myung-ju", "cho-byoung-chul", "enriqueta-felip", "juergen-wolf", "fiona-blackhall"], bottlenecks: ["b-undruggable-targets", "b-dose-optimisation", "b-toxicity-qol"], journals: ["nejm"] }),
 
   p({ id: "paper-codebreak-200-lancet-2023", name: "CodeBreaK 200: sotorasib versus docetaxel in KRAS G12C-mutated lung cancer, a modest win for the first KRAS drug",
     tldr: "The first drug to directly block mutant KRAS beat docetaxel chemotherapy on delaying progression in KRAS G12C lung cancer, but only by about a month, and did not improve survival.",
@@ -558,7 +558,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["nsclc"], drugs: ["sotorasib", "adagrasib"], targets: ["kras"], technologies: ["kras-inhibitors", "kinase-inhibitors"],
     trials: ["codebreak-300"], terms: ["pfs", "os", "orr", "resistance", "accelerated-approval"], companies: ["amgen"],
-    institutions: ["nki"], bottlenecks: ["b-undruggable-targets", "b-resistance", "b-trial-design", "b-dose-optimisation"] }),
+    institutions: ["nki"], bottlenecks: ["b-undruggable-targets", "b-resistance", "b-trial-design", "b-dose-optimisation"], journals: ["lancet"] }),
 
   p({ id: "paper-harmoni-2-lancet-2025", name: "HARMONi-2: ivonescimab, a PD-1 x VEGF bispecific, beats pembrolizumab head-to-head in PD-L1-positive lung cancer",
     tldr: "In the first randomised trial to beat pembrolizumab directly, a single antibody that blocks both PD-1 and VEGF nearly doubled the time to progression in PD-L1-positive lung cancer, though survival data were still immature.",
@@ -585,7 +585,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["nsclc"], drugs: ["ivonescimab", "pembrolizumab"], targets: ["pd1", "vegf"], technologies: ["bispecific-antibody", "checkpoint-inhibitor", "antiangiogenic"],
     terms: ["pfs", "os", "first-line"], companies: ["akeso", "summit-therapeutics", "merck"],
-    people: ["zhou-caicun"], bottlenecks: ["b-immunotherapy-response", "b-trial-diversity", "b-regulatory-fragmentation"] }),
+    people: ["zhou-caicun"], bottlenecks: ["b-immunotherapy-response", "b-trial-diversity", "b-regulatory-fragmentation"], journals: ["lancet"] }),
 
   // ---------------------------------------------------------------- Gastrointestinal
   p({ id: "paper-napoli-3-lancet-2023", name: "NAPOLI-3: NALIRIFOX versus gemcitabine plus nab-paclitaxel as first treatment for metastatic pancreatic cancer",
@@ -613,7 +613,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["pancreatic"], technologies: ["cytotoxic-chemotherapy", "topoisomerase-inhibitors", "platinum"],
     terms: ["os", "pfs", "first-line", "standard-of-care"], companies: ["servier"],
-    people: ["tanios-bekaii-saab"], bottlenecks: ["b-undruggable-targets", "b-drug-pricing", "b-tme-immunosuppression"] }),
+    people: ["tanios-bekaii-saab"], bottlenecks: ["b-undruggable-targets", "b-drug-pricing", "b-tme-immunosuppression"], journals: ["lancet"] }),
 
   p({ id: "paper-spotlight-lancet-2023", name: "SPOTLIGHT: zolbetuximab, the first Claudin 18.2 antibody, added to chemotherapy in gastric cancer",
     tldr: "In stomach cancers that express the protein Claudin 18.2, adding the antibody zolbetuximab to chemotherapy extended survival by nearly three months, making Claudin 18.2 a new biomarker to test for.",
@@ -640,7 +640,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["gastric", "esophageal"], targets: ["cldn18-2"], technologies: ["monoclonal-antibody", "histopathology-ihc", "companion-diagnostic"],
     terms: ["ihc", "pfs", "os", "adcc", "first-line"], companies: ["astellas"],
-    institutions: ["ncc-japan"], people: ["shitara-kohei", "bang-yung-jue", "xu-rui-hua", "kang-yoon-koo"], bottlenecks: ["b-biomarker-validation", "b-combination-space"] }),
+    institutions: ["ncc-japan"], people: ["shitara-kohei", "bang-yung-jue", "xu-rui-hua", "kang-yoon-koo"], bottlenecks: ["b-biomarker-validation", "b-combination-space"], journals: ["lancet"] }),
 
   p({ id: "paper-checkmate-649-lancet-2021", name: "CheckMate 649: nivolumab plus chemotherapy as first treatment for advanced gastric, gastro-oesophageal junction and oesophageal adenocarcinoma",
     tldr: "Adding the immunotherapy nivolumab to first-line chemotherapy helped patients with advanced stomach and oesophageal adenocarcinoma live longer, especially when the tumour showed PD-L1, making chemo-immunotherapy the new standard.",
@@ -667,7 +667,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["gastric", "esophageal"], drugs: ["nivolumab", "ipilimumab"], targets: ["pd1", "pdl1"], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy", "platinum"],
     terms: ["cps", "os", "pfs", "first-line", "msi"], companies: ["bms"],
-    institutions: ["mskcc"], people: ["yelena-janjigian", "shitara-kohei", "shen-lin"], bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response", "b-regulatory-fragmentation"] }),
+    institutions: ["mskcc"], people: ["yelena-janjigian", "shitara-kohei", "shen-lin"], bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response", "b-regulatory-fragmentation"], journals: ["lancet"] }),
 
   p({ id: "paper-imbrave150-nejm-2020", name: "IMbrave150: atezolizumab plus bevacizumab replaces sorafenib as first treatment for advanced liver cancer",
     tldr: "Combining the immunotherapy atezolizumab with the anti-blood-vessel antibody bevacizumab helped patients with advanced hepatocellular carcinoma live longer than sorafenib, ending a decade in which nothing had beaten that drug.",
@@ -695,7 +695,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["hcc"], drugs: ["atezolizumab"], targets: ["pdl1", "vegf"], technologies: ["checkpoint-inhibitor", "antiangiogenic", "monoclonal-antibody"],
     terms: ["os", "pfs", "first-line", "standard-of-care"], companies: ["roche-genentech"],
-    people: ["kim-tae-you", "lim-ho-yeong"], bottlenecks: ["b-immunotherapy-response", "b-global-access", "b-combination-space"] }),
+    people: ["kim-tae-you", "lim-ho-yeong"], bottlenecks: ["b-immunotherapy-response", "b-global-access", "b-combination-space"], journals: ["nejm"] }),
 
   p({ id: "paper-keynote-177-nejm-2020", name: "KEYNOTE-177: pembrolizumab instead of chemotherapy as first treatment for mismatch-repair-deficient metastatic colorectal cancer",
     tldr: "For the roughly 5% of metastatic bowel cancers with defective DNA mismatch repair, pembrolizumab alone doubled the time without progression compared with chemotherapy, with far fewer side effects and many long-lasting remissions.",
@@ -722,7 +722,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["colorectal"], drugs: ["pembrolizumab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor", "histopathology-ihc"],
     terms: ["msi", "pfs", "os", "first-line", "tmb"], companies: ["merck"],
-    people: ["kim-tae-won", "elena-elez", "dung-le", "yoshino-takayuki", "luis-diaz"], bottlenecks: ["b-immunotherapy-response", "b-trial-design", "b-biomarker-validation"] }),
+    people: ["kim-tae-won", "elena-elez", "dung-le", "yoshino-takayuki", "luis-diaz"], bottlenecks: ["b-immunotherapy-response", "b-trial-design", "b-biomarker-validation"], journals: ["nejm"] }),
 
   p({ id: "paper-breakwater-nejm-2025", name: "BREAKWATER: encorafenib plus cetuximab with chemotherapy as first treatment for BRAF V600E-mutated colorectal cancer",
     tldr: "Adding a BRAF inhibitor and an EGFR antibody to first-line chemotherapy roughly doubled survival in BRAF V600E-mutated metastatic bowel cancer, one of the worst-prognosis subtypes.",
@@ -749,7 +749,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["colorectal"], drugs: ["encorafenib"], targets: ["braf", "egfr"], technologies: ["kinase-inhibitors", "monoclonal-antibody", "cytotoxic-chemotherapy", "cgp"],
     terms: ["orr", "pfs", "os", "first-line", "accelerated-approval"], companies: ["pfizer"],
-    institutions: ["vall-dhebron", "md-anderson"], people: ["elena-elez", "yoshino-takayuki", "shen-lin", "kim-tae-won", "josep-tabernero"], bottlenecks: ["b-resistance", "b-combination-space", "b-drug-pricing"] }),
+    institutions: ["vall-dhebron", "md-anderson"], people: ["elena-elez", "yoshino-takayuki", "shen-lin", "kim-tae-won", "josep-tabernero"], bottlenecks: ["b-resistance", "b-combination-space", "b-drug-pricing"], journals: ["nejm"] }),
 
   p({ id: "paper-codebreak-300-nejm-2023", name: "CodeBreaK 300: sotorasib plus panitumumab in chemotherapy-refractory KRAS G12C colorectal cancer",
     tldr: "Combining a KRAS G12C inhibitor with an EGFR antibody produced responses in about a quarter of patients with heavily pretreated KRAS G12C bowel cancer, versus none with standard chemotherapy, and more than doubled the time to progression.",
@@ -776,7 +776,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["colorectal"], drugs: ["sotorasib"], targets: ["kras", "egfr"], technologies: ["kras-inhibitors", "monoclonal-antibody"],
     trials: ["codebreak-300"], terms: ["pfs", "orr", "resistance"], companies: ["amgen"],
-    people: ["kim-tae-won", "david-cunningham"], bottlenecks: ["b-undruggable-targets", "b-resistance", "b-dose-optimisation"] }),
+    people: ["kim-tae-won", "david-cunningham"], bottlenecks: ["b-undruggable-targets", "b-resistance", "b-dose-optimisation"], journals: ["nejm"] }),
 
   p({ id: "paper-niche-2-nejm-2024", name: "NICHE-2: a month of nivolumab and ipilimumab before surgery clears mismatch-repair-deficient colon cancer in most patients",
     tldr: "Two doses of immunotherapy over four weeks before surgery left little or no living tumour in 95% of patients with mismatch-repair-deficient colon cancer, and none had relapsed at three years.",
@@ -803,7 +803,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["colorectal"], drugs: ["nivolumab", "ipilimumab"], targets: ["pd1", "ctla4"], technologies: ["checkpoint-inhibitor"],
     terms: ["msi", "pcr", "neoadjuvant-adjuvant", "irae"], companies: ["bms"],
-    institutions: ["nki"], people: ["myriam-chalabi", "emile-voest", "ton-schumacher", "john-haanen"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation", "b-trial-design"] }),
+    institutions: ["nki"], people: ["myriam-chalabi", "emile-voest", "ton-schumacher", "john-haanen"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation", "b-trial-design"], journals: ["nejm"] }),
 
   p({ id: "paper-cercek-dmmr-rectal-nejm-2022", name: "Dostarlimab alone cures mismatch-repair-deficient rectal cancer without surgery or radiotherapy",
     tldr: "Six months of the PD-1 antibody dostarlimab made every tumour disappear in a small group of patients with mismatch-repair-deficient rectal cancer, allowing them to avoid chemotherapy, radiotherapy and surgery.",
@@ -829,7 +829,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["colorectal"], drugs: ["dostarlimab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor", "mri"],
     terms: ["msi", "pcr", "neoadjuvant-adjuvant", "breakthrough-designation"], companies: ["gsk"],
-    institutions: ["mskcc"], people: ["andrea-cercek", "luis-diaz"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation", "b-toxicity-qol"] }),
+    institutions: ["mskcc"], people: ["andrea-cercek", "luis-diaz"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation", "b-toxicity-qol"], journals: ["nejm"] }),
 
   // ---------------------------------------------------------------- Genitourinary
   p({ id: "paper-vision-nejm-2021", name: "VISION: lutetium-177 PSMA-617 radioligand therapy extends survival in advanced prostate cancer",
@@ -858,7 +858,7 @@ export const papersSolidTumours: PaperInput[] = [
     cancers: ["prostate"], drugs: ["pluvicto"], targets: ["psma"], technologies: ["radioligand-therapy", "psma-pet", "pet-ct"],
     trials: ["vision", "psmafore"], terms: ["theranostics", "alpha-vs-beta", "dosimetry", "os", "pfs"], companies: ["novartis"],
     people: ["johann-de-bono", "karim-fizazi", "michael-morris"], bottlenecks: ["b-global-access", "b-workforce", "b-trial-design"],
-    related: ["psma-pet-to-rlt"] }),
+    related: ["psma-pet-to-rlt"], journals: ["nejm"] }),
 
   p({ id: "paper-stampede-abiraterone-nejm-2017", name: "STAMPEDE: adding abiraterone to hormone therapy at diagnosis of advanced prostate cancer",
     tldr: "Giving the hormone-pathway drug abiraterone from the start, alongside standard testosterone suppression, cut deaths by more than a third in men newly diagnosed with high-risk or metastatic prostate cancer.",
@@ -885,7 +885,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["prostate"], targets: ["androgen-receptor"], technologies: ["androgen-deprivation", "endocrine-therapy"],
     terms: ["basket-umbrella-platform", "os", "standard-of-care"], companies: ["johnson-johnson"],
-    institutions: ["icr-london", "royal-marsden", "cruk"], people: ["nicholas-james", "johann-de-bono"], bottlenecks: ["b-trial-design", "b-drug-pricing", "b-generic-repurposing"] }),
+    institutions: ["icr-london", "royal-marsden", "cruk"], people: ["nicholas-james", "johann-de-bono"], bottlenecks: ["b-trial-design", "b-drug-pricing", "b-generic-repurposing"], journals: ["nejm"] }),
 
   p({ id: "paper-ev-302-nejm-2024", name: "EV-302: enfortumab vedotin plus pembrolizumab replaces chemotherapy as first treatment for advanced bladder cancer",
     tldr: "Combining the Nectin-4 antibody-drug conjugate enfortumab vedotin with pembrolizumab nearly doubled survival compared with platinum chemotherapy in advanced urothelial cancer, the biggest advance in this disease in 40 years.",
@@ -912,7 +912,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["urothelial"], drugs: ["enfortumab-vedotin", "pembrolizumab"], targets: ["nectin4", "pd1"], technologies: ["adc", "checkpoint-inhibitor"],
     trials: ["ev-302"], terms: ["pfs", "os", "orr", "first-line", "standard-of-care", "payload"], companies: ["astellas", "pfizer", "merck"],
-    people: ["shilpa-gupta", "shin-sang-joon"], bottlenecks: ["b-combination-space", "b-drug-pricing", "b-toxicity-qol"] }),
+    people: ["shilpa-gupta", "shin-sang-joon"], bottlenecks: ["b-combination-space", "b-drug-pricing", "b-toxicity-qol"], journals: ["nejm"] }),
 
   p({ id: "paper-niagara-nejm-2024", name: "NIAGARA: durvalumab before and after cystectomy for muscle-invasive bladder cancer",
     tldr: "Adding the immunotherapy durvalumab to chemotherapy before bladder removal, and continuing it afterwards, reduced relapse and death in muscle-invasive bladder cancer, the first improvement on neoadjuvant chemotherapy in two decades.",
@@ -939,7 +939,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["urothelial"], drugs: ["durvalumab"], targets: ["pdl1"], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy", "platinum"],
     terms: ["efs", "pcr", "neoadjuvant-adjuvant"], companies: ["astrazeneca"],
-    institutions: ["mount-sinai"], people: ["matthew-galsky"], bottlenecks: ["b-immunotherapy-response", "b-trial-design", "b-dormancy-mrd"] }),
+    institutions: ["mount-sinai"], people: ["matthew-galsky"], bottlenecks: ["b-immunotherapy-response", "b-trial-design", "b-dormancy-mrd"], journals: ["nejm"] }),
 
   p({ id: "paper-clear-nejm-2021", name: "CLEAR: lenvatinib plus pembrolizumab versus sunitinib as first treatment for advanced kidney cancer",
     tldr: "Combining the multi-kinase inhibitor lenvatinib with pembrolizumab more than doubled the time to progression compared with sunitinib in advanced clear-cell kidney cancer and improved survival, with 71% of patients responding.",
@@ -966,7 +966,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["rcc"], drugs: ["pembrolizumab"], targets: ["pd1", "vegf"], technologies: ["checkpoint-inhibitor", "kinase-inhibitors", "antiangiogenic"],
     terms: ["pfs", "os", "orr", "first-line"], companies: ["merck", "eli-lilly"],
-    people: ["rha-sun-young", "toni-choueiri"], bottlenecks: ["b-combination-space", "b-toxicity-qol", "b-dose-optimisation"] }),
+    people: ["rha-sun-young", "toni-choueiri"], bottlenecks: ["b-combination-space", "b-toxicity-qol", "b-dose-optimisation"], journals: ["nejm"] }),
 
   p({ id: "paper-keynote-564-nejm-2021", name: "KEYNOTE-564: a year of pembrolizumab after kidney cancer surgery",
     tldr: "One year of pembrolizumab after surgery for high-risk kidney cancer reduced relapses by about a third and, in later follow-up, became the first adjuvant treatment to help kidney cancer patients live longer.",
@@ -994,7 +994,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["rcc"], drugs: ["pembrolizumab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"],
     terms: ["neoadjuvant-adjuvant", "os", "irae"], companies: ["merck"],
-    institutions: ["dana-farber"], people: ["toni-choueiri", "lee-jae-lyun"], bottlenecks: ["b-dormancy-mrd", "b-negative-results", "b-toxicity-qol"] }),
+    institutions: ["dana-farber"], people: ["toni-choueiri", "lee-jae-lyun"], bottlenecks: ["b-dormancy-mrd", "b-negative-results", "b-toxicity-qol"], journals: ["nejm"] }),
 
   p({ id: "paper-sunrise-1-jco-2025", name: "SunRISe-1: TAR-200, a gemcitabine-releasing device placed in the bladder, for BCG-unresponsive non-muscle-invasive bladder cancer",
     tldr: "A small pretzel-shaped device that slowly releases gemcitabine inside the bladder cleared carcinoma in situ in about four out of five patients whose cancer had stopped responding to BCG, offering an alternative to bladder removal.",
@@ -1021,7 +1021,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["urothelial"], technologies: ["cytotoxic-chemotherapy"],
     terms: ["orr", "accelerated-approval"], companies: ["johnson-johnson"],
-    bottlenecks: ["b-surgery-radiation-innovation", "b-toxicity-qol", "b-trial-design"] }),
+    bottlenecks: ["b-surgery-radiation-innovation", "b-toxicity-qol", "b-trial-design"], journals: ["jco"] }),
 
   // ---------------------------------------------------------------- Gynaecological
   p({ id: "paper-paola-1-nejm-2019", name: "PAOLA-1: olaparib added to bevacizumab maintenance in newly diagnosed ovarian cancer, with benefit confined to HRD-positive tumours",
@@ -1049,7 +1049,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["ovarian"], drugs: ["olaparib"], targets: ["parp", "brca", "vegf"], technologies: ["parp-inhibitor", "hrd-testing", "antiangiogenic", "synthetic-lethality-approaches"],
     terms: ["hrd", "synthetic-lethality", "pfs", "os", "germline-vs-somatic"], companies: ["astrazeneca", "merck"],
-    institutions: ["gemelli"], people: ["giovanni-scambia"], bottlenecks: ["b-biomarker-validation", "b-dormancy-mrd", "b-drug-pricing"] }),
+    institutions: ["gemelli"], people: ["giovanni-scambia"], bottlenecks: ["b-biomarker-validation", "b-dormancy-mrd", "b-drug-pricing"], journals: ["nejm"] }),
 
   p({ id: "paper-solo-1-nejm-2018", name: "SOLO-1: two years of olaparib maintenance after first-line chemotherapy for BRCA-mutated ovarian cancer",
     tldr: "In women with BRCA-mutated advanced ovarian cancer, two years of the PARP inhibitor olaparib after chemotherapy cut the risk of progression or death by 70%, and years later many more were still alive.",
@@ -1076,7 +1076,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["ovarian"], drugs: ["olaparib"], targets: ["parp", "brca"], technologies: ["parp-inhibitor", "germline-testing", "synthetic-lethality-approaches"],
     terms: ["synthetic-lethality", "pfs", "os", "germline-vs-somatic", "hrd"], companies: ["astrazeneca", "merck"],
-    people: ["giovanni-scambia", "amit-oza"], bottlenecks: ["b-hereditary-risk", "b-dormancy-mrd", "b-resistance"] }),
+    people: ["giovanni-scambia", "amit-oza"], bottlenecks: ["b-hereditary-risk", "b-dormancy-mrd", "b-resistance"], journals: ["nejm"] }),
 
   p({ id: "paper-keynote-a18-lancet-2024", name: "KEYNOTE-A18: pembrolizumab with chemoradiotherapy for locally advanced cervical cancer",
     tldr: "Adding pembrolizumab to standard chemoradiotherapy for high-risk locally advanced cervical cancer reduced progression by 30% and later improved survival, the first systemic advance in this setting since cisplatin was added to radiotherapy in 1999.",
@@ -1103,7 +1103,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["cervical"], drugs: ["pembrolizumab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor", "imrt-igrt", "brachytherapy", "platinum"],
     terms: ["pfs", "os", "cps", "standard-of-care"], companies: ["merck"],
-    institutions: ["gemelli"], people: ["giovanni-scambia"], bottlenecks: ["b-global-access", "b-immunotherapy-response", "b-drug-pricing"] }),
+    institutions: ["gemelli"], people: ["giovanni-scambia"], bottlenecks: ["b-global-access", "b-immunotherapy-response", "b-drug-pricing"], journals: ["lancet"] }),
 
   p({ id: "paper-ruby-nejm-2023", name: "RUBY: dostarlimab with chemotherapy for advanced or recurrent endometrial cancer",
     tldr: "Adding the PD-1 antibody dostarlimab to first-line chemotherapy for advanced endometrial cancer cut progression by 72% in tumours with defective mismatch repair and by about a third overall, and later improved survival.",
@@ -1130,7 +1130,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["endometrial"], drugs: ["dostarlimab", "carboplatin", "paclitaxel"], targets: ["pd1"], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy", "histopathology-ihc"],
     terms: ["msi", "pfs", "os", "first-line"], companies: ["gsk"],
-    bottlenecks: ["b-immunotherapy-response", "b-biomarker-validation"] }),
+    bottlenecks: ["b-immunotherapy-response", "b-biomarker-validation"], journals: ["nejm"] }),
 
   // ---------------------------------------------------------------- Melanoma and skin
   p({ id: "paper-checkmate-067-10-year-nejm-2025", name: "CheckMate 067 at ten years: nivolumab plus ipilimumab produces long-term survival in half of patients with advanced melanoma",
@@ -1158,7 +1158,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["melanoma"], drugs: ["nivolumab", "ipilimumab", "relatlimab-nivolumab"], targets: ["pd1", "ctla4"], technologies: ["checkpoint-inhibitor"],
     trials: ["checkmate-067"], terms: ["os", "irae", "hazard-ratio"], companies: ["bms"],
-    institutions: ["mskcc"], people: ["john-haanen", "mcarthur-grant", "f-stephen-hodi", "james-larkin"], bottlenecks: ["b-immunotherapy-response", "b-toxicity-qol", "b-biomarker-validation"] }),
+    institutions: ["mskcc"], people: ["john-haanen", "mcarthur-grant", "f-stephen-hodi", "james-larkin"], bottlenecks: ["b-immunotherapy-response", "b-toxicity-qol", "b-biomarker-validation"], journals: ["nejm"] }),
 
   p({ id: "paper-nadina-nejm-2024", name: "NADINA: two doses of ipilimumab plus nivolumab before surgery beat a year of nivolumab after surgery in stage III melanoma",
     tldr: "Giving just two cycles of combination immunotherapy before removing melanoma lymph nodes cut relapses by more than two-thirds compared with a year of standard immunotherapy after surgery, and most patients needed no further treatment.",
@@ -1185,7 +1185,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["melanoma"], drugs: ["nivolumab", "ipilimumab"], targets: ["pd1", "ctla4"], technologies: ["checkpoint-inhibitor"],
     terms: ["efs", "neoadjuvant-adjuvant", "pcr", "irae"], companies: ["bms"],
-    institutions: ["nki"], people: ["christian-blank", "john-haanen"], bottlenecks: ["b-trial-design", "b-dose-optimisation", "b-toxicity-qol", "b-surgery-radiation-innovation"] }),
+    institutions: ["nki"], people: ["christian-blank", "john-haanen"], bottlenecks: ["b-trial-design", "b-dose-optimisation", "b-toxicity-qol", "b-surgery-radiation-innovation"], journals: ["nejm"] }),
 
   p({ id: "paper-relativity-047-nejm-2022", name: "RELATIVITY-047: relatlimab plus nivolumab, the first LAG-3 checkpoint combination, in untreated advanced melanoma",
     tldr: "Adding an antibody against a second immune brake, LAG-3, to nivolumab delayed progression in advanced melanoma compared with nivolumab alone, with far fewer serious side effects than the ipilimumab combination.",
@@ -1212,7 +1212,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["melanoma"], drugs: ["relatlimab-nivolumab", "nivolumab"], targets: ["lag3", "pd1"], technologies: ["checkpoint-inhibitor"],
     trials: ["checkmate-067"], terms: ["pfs", "os", "irae", "first-line"], companies: ["bms"],
-    institutions: ["md-anderson"], bottlenecks: ["b-immunotherapy-response", "b-toxicity-qol", "b-combination-space"] }),
+    institutions: ["md-anderson"], bottlenecks: ["b-immunotherapy-response", "b-toxicity-qol", "b-combination-space"], journals: ["nejm"] }),
 
   p({ id: "paper-keynote-942-lancet-2024", name: "KEYNOTE-942: a personalised mRNA cancer vaccine plus pembrolizumab after melanoma surgery",
     tldr: "A vaccine custom-made from each patient's own tumour mutations, given with pembrolizumab after surgery for high-risk melanoma, reduced recurrence by about 44% compared with pembrolizumab alone in a mid-sized randomised trial, the first sign that personalised cancer vaccines can work.",
@@ -1240,7 +1240,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["melanoma"], drugs: ["intismeran-autogene", "pembrolizumab"], targets: ["pd1"], technologies: ["neoantigen-mrna-vaccine", "checkpoint-inhibitor", "wes-wgs"],
     trials: ["interpath-001"], terms: ["neoantigen", "tmb", "neoadjuvant-adjuvant"], companies: ["moderna", "merck"],
-    people: ["ryan-sullivan"], bottlenecks: ["b-immunotherapy-response", "b-manufacturing-cell-therapy", "b-trial-design"] }),
+    people: ["ryan-sullivan"], bottlenecks: ["b-immunotherapy-response", "b-manufacturing-cell-therapy", "b-trial-design"], journals: ["lancet"] }),
 
   // ---------------------------------------------------------------- Brain
   p({ id: "paper-indigo-nejm-2023", name: "INDIGO: vorasidenib, the first targeted drug for IDH-mutant low-grade glioma",
@@ -1268,7 +1268,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["glioblastoma"], drugs: ["vorasidenib"], targets: ["idh"], technologies: ["kinase-inhibitors", "mri"],
     terms: ["pfs", "oncogene-addiction"], companies: ["servier"],
-    institutions: ["mskcc"], bottlenecks: ["b-brain-delivery", "b-toxicity-qol", "b-trial-design"] }),
+    institutions: ["mskcc"], bottlenecks: ["b-brain-delivery", "b-toxicity-qol", "b-trial-design"], journals: ["nejm"] }),
 
   p({ id: "paper-stupp-temozolomide-nejm-2005", name: "Stupp 2005: temozolomide added to radiotherapy for newly diagnosed glioblastoma",
     tldr: "Adding the oral chemotherapy temozolomide during and after radiotherapy extended median survival in glioblastoma by about two and a half months and more than doubled the number of patients alive at two years; twenty years later it is still the standard.",
@@ -1295,7 +1295,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["glioblastoma"], technologies: ["cytotoxic-chemotherapy", "imrt-igrt", "methylation-profiling", "ttfields"],
     terms: ["os", "standard-of-care"],
-    institutions: ["curie-nki-eortc"], people: ["roger-stupp", "michael-weller", "denis-lacombe"], bottlenecks: ["b-brain-delivery", "b-negative-results", "b-undruggable-targets"] }),
+    institutions: ["curie-nki-eortc"], people: ["roger-stupp", "michael-weller", "denis-lacombe"], bottlenecks: ["b-brain-delivery", "b-negative-results", "b-undruggable-targets"], journals: ["nejm"] }),
 
   // ---------------------------------------------------------------- Sarcoma and rare tumours
   p({ id: "paper-netter-2-lancet-2024", name: "NETTER-2: lutetium-177 dotatate as first treatment for higher-grade gastroenteropancreatic neuroendocrine tumours",
@@ -1323,7 +1323,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["neuroendocrine"], drugs: ["lutathera"], targets: ["sstr2"], technologies: ["radioligand-therapy", "pet-ct"],
     terms: ["theranostics", "pfs", "orr", "first-line", "dosimetry"], companies: ["novartis"],
-    people: ["oh-do-youn"], bottlenecks: ["b-rare-cancers", "b-global-access", "b-trial-design"] }),
+    people: ["oh-do-youn"], bottlenecks: ["b-rare-cancers", "b-global-access", "b-trial-design"], journals: ["lancet"] }),
 
   p({ id: "paper-spearhead-1-lancet-2024", name: "SPEARHEAD-1: afamitresgene autoleucel, the first engineered T-cell receptor therapy approved for a solid tumour, in synovial sarcoma",
     tldr: "T cells taken from patients and engineered to recognise the MAGE-A4 protein shrank tumours in about four in ten patients with advanced synovial sarcoma, leading to the first approval of a TCR T-cell therapy for any solid cancer.",
@@ -1350,7 +1350,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["sarcoma"], drugs: ["afamitresgene-autoleucel"], targets: ["mage-a4"], technologies: ["tcr-t"],
     terms: ["orr", "crs", "accelerated-approval"], companies: ["adaptimmune"],
-    people: ["jean-yves-blay"], bottlenecks: ["b-rare-cancers", "b-manufacturing-cell-therapy", "b-trial-diversity"] }),
+    people: ["jean-yves-blay"], bottlenecks: ["b-rare-cancers", "b-manufacturing-cell-therapy", "b-trial-diversity"], journals: ["lancet"] }),
 
   // ---------------------------------------------------------------- Head and neck
   p({ id: "paper-keynote-048-lancet-2019", name: "KEYNOTE-048: pembrolizumab, alone or with chemotherapy, as first treatment for recurrent or metastatic head and neck cancer",
@@ -1378,5 +1378,5 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["head-and-neck"], drugs: ["pembrolizumab"], targets: ["pd1", "egfr"], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy", "platinum", "monoclonal-antibody"],
     terms: ["cps", "os", "pfs", "first-line", "orr"], companies: ["merck"],
-    institutions: ["icr-london", "royal-marsden"], people: ["kevin-harrington"], bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"] }),
+    institutions: ["icr-london", "royal-marsden"], people: ["kevin-harrington"], bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"], journals: ["lancet"] }),
 ];

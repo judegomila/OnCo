@@ -35,7 +35,7 @@ const targets: TargetInput[] = [
     summary: "Disialoganglioside GD2 is expressed at high density on nearly all neuroblastomas, most osteosarcomas and melanomas, and diffuse midline gliomas, with normal expression restricted to peripheral nerves, melanocytes and CNS. Anti-GD2 antibodies (dinutuximab, dinutuximab beta, naxitamab) improved high-risk neuroblastoma survival; GD2 CAR-T (GD2-CART01, Italian phase 1/2) gives durable complete responses in relapsed disease and shows activity in diffuse midline glioma (Stanford). Neuropathic pain from nerve GD2 binding is the class toxicity.",
     biology: "Glycosphingolipid synthesised by GD2 synthase (B4GALNT1); not internalised efficiently, so antibodies act by ADCC/CDC rather than as ADC carriers.",
     whereFound: ["Neuroblastoma (~100%)", "Osteosarcoma", "Melanoma", "Diffuse midline glioma / DIPG", "Small-cell lung cancer (subset)", "Ewing sarcoma (subset)"],
-    cancers: ["neuroblastoma", "sarcoma", "melanoma", "glioblastoma"], drugs: ["dinutuximab", "naxitamab"], tags: ["antibody-target", "car-t-target"] }),
+    cancers: ["neuroblastoma", "sarcoma", "melanoma", "glioblastoma"], drugs: ["dinutuximab", "naxitamab"], tags: ["antibody-target", "car-t-target"], links: [{ label: "Wikipedia", url: W("GD2") }] }),
 ];
 
 // ======================= TECHNOLOGIES / TERMS =======================
@@ -53,18 +53,18 @@ const technologies: TechnologyInput[] = [
     principle: "Norepinephrine transporter (NET) uptake concentrates radio-iodinated MIBG in adrenergic tumours; 131I delivers beta radiation.",
     strengths: ["Theranostic pair with decades of use", "Targets NET-positive disease irrespective of GD2"],
     limitations: ["Prolonged isolation and radiation precautions in children", "Myelosuppression requiring stem-cell support at high doses", "Azedra withdrawal reduced supply"],
-    cancers: ["neuroblastoma", "neuroendocrine"], technologies: ["radioligand-therapy", "spect", "pet"], drugs: ["i131-mibg"] }),
+    cancers: ["neuroblastoma", "neuroendocrine"], technologies: ["radioligand-therapy", "spect", "pet"], drugs: ["i131-mibg"], links: [{ label: "Wikipedia", url: W("Iobenguane") }] }),
 ];
 
 const terms: TermInput[] = [
   term({ id: "inrg-staging", name: "INRG staging and risk groups", category: "Clinical", wikipedia: W("Neuroblastoma#Staging"),
     tldr: "INRG staging is the international system that sorts neuroblastoma into very-low, low, intermediate and high risk using age, spread, MYCN status and tumour biology.",
     summary: "International Neuroblastoma Risk Group (2009): stages L1/L2 (localised, by image-defined risk factors), M (metastatic), MS (infant metastatic to skin/liver/marrow). Risk groups combine stage, age (<18 months), MYCN amplification, 11q aberration, ploidy and histology. Roughly 50% of patients are high risk; very-low-risk L1/MS may be observed and regress spontaneously.",
-    cancers: ["neuroblastoma"] }),
+    cancers: ["neuroblastoma"], links: [{ label: "Wikipedia", url: W("Neuroblastoma#Staging") }] }),
   term({ id: "mycn-amplification", name: "MYCN amplification", category: "Biomarkers", wikipedia: W("N-Myc"),
     tldr: "Extra copies of the MYCN oncogene, found in about 20% of neuroblastomas, mark the most aggressive disease and define high risk at any age.",
     summary: "Detected by FISH (>10 copies); associated with rapid progression, 1p deletion and poor outcome. MYCN is not directly druggable; approaches include BET/Aurora A inhibitors (indirect), ODC1/polyamine inhibition (eflornithine is a MYCN-pathway drug), and ALK co-mutation (lorlatinib in ANBL1531).",
-    cancers: ["neuroblastoma"], drugs: ["eflornithine", "lorlatinib"] }),
+    cancers: ["neuroblastoma"], drugs: ["eflornithine", "lorlatinib"], links: [{ label: "Wikipedia", url: W("N-Myc") }] }),
 ];
 
 // ======================= PRODUCTS =======================
@@ -103,7 +103,7 @@ const drugs: DrugInput[] = [
     summary: "Response rate ~30-40% in relapsed/refractory MIBG-avid neuroblastoma (NANT, COG studies), with myelosuppression requiring stem-cell support at ≥12 mCi/kg. COG ANBL1531 randomised 131I-MIBG added to induction (primary results pending 2026). Commercial Azedra (for pheochromocytoma) was discontinued in 2024, leaving compounding and academic supply.",
     mechanism: "Norepinephrine transporter uptake of radio-iodinated benzylguanidine; 131I beta emission (2 mm range).",
     dosing: { route: "IV", schedule: "12-18 mCi/kg single or tandem doses with autologous stem-cell support; thyroid blockade with potassium iodide", monitoring: "Radiation isolation, counts, thyroid function, secondary malignancy" },
-    technologies: ["mibg-theranostics", "radioligand-therapy"], cancers: ["neuroblastoma"], trials: ["anbl1531"] }),
+    technologies: ["mibg-theranostics", "radioligand-therapy"], cancers: ["neuroblastoma"], trials: ["anbl1531"], links: [{ label: "Wikipedia", url: W("Iobenguane") }] }),
 ];
 
 // ======================= TRIALS =======================
@@ -129,12 +129,12 @@ const trials: TrialInput[] = [
     summary: "R1: BuMel superior to CEM (3-year EFS 50% vs 38%; Lancet Oncol 2017). R2: dinutuximab beta + IL-2 vs dinutuximab beta alone: 3-year EFS 56% vs 60%, no benefit, more toxicity (Lancet Oncol 2018). R3/R4 explored induction regimens (rapid COJEC vs modified N7; 2025 report). Over 3,700 children enrolled since 2002.",
     result: "BuMel > CEM (EFS 50% vs 38%); IL-2 adds no benefit to anti-GD2.",
     outcomes: [{ endpoint: "Event-free survival at 3 years (R1 conditioning)", unit: "%", arms: [{ name: "Busulfan-melphalan", n: 296, value: 50 }, { name: "CEM", n: 302, value: 38 }], p: "0.0005", source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(17)30070-0/fulltext" }, { endpoint: "Event-free survival at 3 years (R2 immunotherapy)", unit: "%", arms: [{ name: "Dinutuximab beta + IL-2", n: 200, value: 56 }, { name: "Dinutuximab beta", n: 206, value: 60 }], source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(18)30578-3/fulltext" }],
-    drugs: ["dinutuximab"], cancers: ["neuroblastoma"], technologies: ["autologous-stem-cell-transplant"], links: [ct("NCT01704716")] }),
+    drugs: ["dinutuximab"], cancers: ["neuroblastoma"], technologies: ["autologous-stem-cell-transplant"], links: [ct("NCT01704716")], people: ["ruth-ladenstein"] }),
   t({ id: "anbl1531", name: "COG ANBL1531", nct: "NCT03126916", phase: "3", status: "active", sponsor: "Children's Oncology Group",
     setting: "Newly diagnosed high-risk neuroblastoma: 131I-MIBG added to induction (randomised, MIBG-avid); lorlatinib added for ALK-aberrant tumours (non-randomised arm)",
     tldr: "COG ANBL1531 is the current North American high-risk trial, adding targeted radiation during induction and an ALK pill for children whose tumours carry ALK mutations.",
     summary: "Also tests reduced-intensity therapy in the standard arm and eflornithine maintenance uptake. Primary MIBG randomisation results expected 2026-27; ALK arm (lorlatinib) reports encouraging response rates.",
-    drugs: ["i131-mibg", "lorlatinib"], cancers: ["neuroblastoma"], technologies: ["mibg-theranostics"], targets: ["alk"], institutions: ["childrens-oncology-group"], links: [ct("NCT03126916")] }),
+    drugs: ["i131-mibg", "lorlatinib"], cancers: ["neuroblastoma"], technologies: ["mibg-theranostics"], targets: ["alk"], institutions: ["childrens-oncology-group"], links: [ct("NCT03126916")], people: ["yael-mosse"] }),
   t({ id: "gd2-cart01", name: "GD2-CART01 (Bambino Gesù phase 1/2)", nct: "NCT03373097", phase: "1/2", status: "positive", yearReported: 2023, sponsor: "Ospedale Pediatrico Bambino Gesù", enrolled: 27,
     setting: "Relapsed/refractory high-risk neuroblastoma: third-generation GD2 CAR-T with inducible caspase-9 safety switch",
     tldr: "GD2-CART01 was the first CAR-T to produce durable complete remissions in a childhood solid tumour: two-thirds responded and a third achieved complete remission.",
@@ -142,14 +142,14 @@ const trials: TrialInput[] = [
     result: "ORR 63%, CR 33%; 3-year OS 60%.",
     outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "GD2-CART01", n: 27, value: 63 }], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2210859" }, { endpoint: "Overall survival at 3 years", unit: "%", arms: [{ name: "GD2-CART01", value: 60 }] }],
     replication: "Stanford GD2 CAR-T (with IL-15, in DIPG/DMG) and Baylor GD2 CAR-T show consistent GD2 targetability; no randomised trial yet.",
-    cancers: ["neuroblastoma"], targets: ["gd2"], technologies: ["car-t", "armored-car"], terms: ["crs"], links: [ct("NCT03373097"), { label: "Nature Medicine 2025 long-term", url: "https://www.nature.com/articles/s41591-025-03513-0" }] }),
+    cancers: ["neuroblastoma"], targets: ["gd2"], technologies: ["car-t", "armored-car"], terms: ["crs"], links: [ct("NCT03373097"), { label: "Nature Medicine 2025 long-term", url: "https://www.nature.com/articles/s41591-025-03513-0" }], people: ["crystal-mackall"] }),
   t({ id: "naxitamab-201", name: "Naxitamab Study 201", nct: "NCT03363373", phase: "2", status: "positive", yearReported: 2020, sponsor: "Y-mAbs", enrolled: 74,
     setting: "Relapsed/refractory high-risk neuroblastoma in bone/bone marrow: naxitamab + GM-CSF",
     tldr: "Study 201 was the pivotal single-arm study behind naxitamab's approval.",
     summary: "Interim ORR 50% (CR 38%) in 34 evaluable; full-cohort Nature Communications 2025: ORR 50%, median DOR 6.2 months. Outpatient administration.",
     result: "ORR 50%.",
     outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "Naxitamab + GM-CSF", n: 74, value: 50 }], source: "https://www.nature.com/articles/s41467-025-56619-x" }],
-    drugs: ["naxitamab"], cancers: ["neuroblastoma"], links: [ct("NCT03363373")] }),
+    drugs: ["naxitamab"], cancers: ["neuroblastoma"], links: [ct("NCT03363373")], people: ["nai-kong-cheung"] }),
   t({ id: "nmtrc003", name: "NMTRC003/003B (DFMO maintenance)", nct: "NCT02395666", phase: "2", status: "positive", yearReported: 2023, sponsor: "Beat Childhood Cancer Consortium", enrolled: 105,
     setting: "High-risk neuroblastoma in remission after standard therapy including anti-GD2: 2 years of oral eflornithine (single arm, externally controlled)",
     tldr: "NMTRC003 was the single-arm study, compared against historical patients, that got eflornithine approved as maintenance; the design remains debated.",

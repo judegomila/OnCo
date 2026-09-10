@@ -81,7 +81,7 @@ export const nciRareSolidCancers: CancerInput[] = [
     targets: [], technologies: ["active-surveillance", "mri", "cytotoxic-chemotherapy", "kinase-inhibitors"], drugs: ["nirogacestat", "sorafenib", "methotrexate", "doxorubicin"],
     pathways: ["wnt", "notch"], companies: ["springworks", "bayer"], trials: ["defi"], terms: ["rare-cancers"], bottlenecks: ["b-rare-cancers", "b-toxicity-qol"],
     links: [{ label: "NCI PDQ: soft tissue sarcoma", url: PDQ("soft-tissue-sarcoma") }, { label: "Desmoid Tumor Working Group consensus (Eur J Cancer 2020)", url: "https://doi.org/10.1016/j.ejca.2020.06.022" }, { label: "DeFi trial (NEJM 2023)", url: "https://doi.org/10.1056/NEJMoa2210140" }, { label: "FDA approval of nirogacestat", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-nirogacestat-desmoid-tumors" }],
-    tags: ["nci-coverage", "rare", "sarcoma"],
+    tags: ["nci-coverage", "rare", "sarcoma"], journals: ["european-journal-of-cancer"],
   }),
   c({
     id: "tenosynovial-giant-cell-tumour", name: "Tenosynovial giant cell tumour (TGCT)", group: "sarcoma", wikipedia: W("Giant-cell_tumor_of_the_tendon_sheath"), aka: ["TGCT", "Pigmented villonodular synovitis", "PVNS", "Giant cell tumour of the tendon sheath"],
@@ -146,7 +146,7 @@ export const nciRareSolidCancers: CancerInput[] = [
     targets: ["ezh2"], technologies: ["epigenetic-drugs", "limb-salvage-surgery", "imrt-igrt", "sentinel-node", "cytotoxic-chemotherapy"], drugs: ["tazemetostat", "doxorubicin", "ifosfamide"],
     pathways: ["swi-snf-chromatin", "epigenetic-reprogramming"], companies: ["ipsen"], terms: ["accelerated-approval", "rare-cancers"], bottlenecks: ["b-rare-cancers"],
     links: [{ label: "NCI PDQ: soft tissue sarcoma", url: PDQ("soft-tissue-sarcoma") }, { label: "FDA approval of tazemetostat for epithelioid sarcoma", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tazemetostat-advanced-epithelioid-sarcoma" }, { label: "EZH-202 (Lancet Oncol 2020)", url: "https://doi.org/10.1016/S1470-2045(20)30451-4" }, { label: "EZH-301 on ClinicalTrials.gov", url: "https://clinicaltrials.gov/study/NCT04204941" }],
-    tags: ["nci-coverage", "rare", "sarcoma"],
+    tags: ["nci-coverage", "rare", "sarcoma"], related: ["atrt"],
   }),
   c({
     id: "inflammatory-myofibroblastic-tumour", name: "Inflammatory myofibroblastic tumour (IMT)", group: "sarcoma", wikipedia: W("Inflammatory_myofibroblastic_tumour"), aka: ["IMT", "Pulmonary inflammatory myofibroblastic tumour", "Inflammatory pseudotumour", "Epithelioid inflammatory myofibroblastic sarcoma"],
@@ -416,7 +416,7 @@ export const nciRareSolidCancers: CancerInput[] = [
     targets: ["sstr2"], technologies: ["endocrine-therapy", "sbrt", "imrt-igrt", "prrt", "mri", "cytotoxic-chemotherapy"], drugs: ["octreotide-lanreotide", "temozolomide", "lutathera", "bevacizumab"],
     pathways: ["pi3k-akt-mtor"], terms: ["mgmt", "rare-cancers"], bottlenecks: ["b-overdiagnosis", "b-rare-cancers"],
     links: [{ label: "NCI PDQ: pituitary tumours", url: PDQ("pituitary") }, { label: "ESE guideline: aggressive pituitary tumours and carcinomas (2018)", url: "https://doi.org/10.1530/EJE-17-0796" }, { label: "Pituitary Society prolactinoma consensus (2023)", url: "https://doi.org/10.1038/s41574-023-00886-5" }],
-    tags: ["nci-coverage", "rare", "endocrine", "cns"],
+    tags: ["nci-coverage", "rare", "endocrine", "cns"], related: ["craniopharyngioma"],
   }),
   c({
     id: "multiple-endocrine-neoplasia", name: "Multiple endocrine neoplasia syndromes (MEN1, MEN2, MEN4)", group: "endocrine", wikipedia: W("Multiple_endocrine_neoplasia"), aka: ["MEN1", "MEN2A", "MEN2B", "MEN4", "Wermer syndrome", "Sipple syndrome"],

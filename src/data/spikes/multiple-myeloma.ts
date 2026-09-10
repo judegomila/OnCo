@@ -37,7 +37,7 @@ const terms: TermInput[] = [
     tldr: "Chromosome changes such as del(17p), t(4;14), t(14;16) and extra copies of 1q that mark myeloma likely to relapse early.",
     summary: "IMS 2024 consensus: high risk = del(17p) with TP53 mutation or ≥20% clonal fraction, t(4;14) or t(14;16) or t(14;20) with 1q gain or del(1p), biallelic del(1p32), or β2M ≥5.5 with normal creatinine. Ultra-high risk with two or more lesions. High-risk patients gain less from most regimens; CAR-T and bispecifics narrow but do not close the gap.",
     cancers: ["multiple-myeloma"], targets: ["tp53"] }),
-  term({ id: "mrd-negativity-myeloma", name: "MRD negativity (myeloma, 10⁻⁵ / 10⁻⁶)", category: "Endpoints",
+  term({ id: "mrd-negativity-myeloma", links: [{ label: "IMWG consensus criteria for response and MRD assessment (Kumar et al., Lancet Oncology 2016)", url: "https://doi.org/10.1016/S1470-2045(16)30206-6" }], name: "MRD negativity (myeloma, 10⁻⁵ / 10⁻⁶)", category: "Endpoints",
     tldr: "MRD negativity means no detectable myeloma cell among 100,000 or a million marrow cells. It is the best predictor of long survival and, since 2024, an accepted endpoint for accelerated approval.",
     summary: "Measured by next-generation flow (EuroFlow) or NGS (clonoSEQ) on bone marrow, increasingly with imaging (PET) confirmation. FDA ODAC voted 12-0 in April 2024 that MRD negativity at 12 months can support accelerated approval. Sustained MRD negativity (≥12 months) is the strongest prognostic marker; MRD-guided de-escalation of maintenance is being tested (DRAMMATIC, MASTER).",
     cancers: ["multiple-myeloma"], terms: ["mrd"], technologies: ["mrd-testing"] }),

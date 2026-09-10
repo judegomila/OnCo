@@ -1,6 +1,6 @@
 /** Site information architecture: six groups, each with a landing page and its pages. Used by the header, footer, landing pages, and home. */
 /** `regions`: show only when the reader has chosen one of these countries (Global view shows everything). */
-export type NavItem = { href: string; label: string; blurb: string; regions?: Array<"US" | "EU" | "UK" | "JP" | "CN" | "AU"> };
+export type NavItem = { href: string; label: string; blurb: string; regions?: Array<"US" | "EU" | "UK" | "JP" | "CN" | "AU" | "IN"> };
 /** `short` is an optional shorter label for the desktop header bar only; the drawer, footer and landing pages use `label`. */
 export type NavGroup = { id: string; label: string; short?: string; href: string; blurb: string; items: NavItem[] };
 
@@ -113,6 +113,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/sponsors/", label: "Trial sponsors", blurb: "Who runs the most phase 2 and 3 trials, by cancer, from the registry and the corpus." },
       { href: "/manufacturing/", label: "Manufacturing map", blurb: "Where ADCs are conjugated, cell therapies made and isotopes produced." },
       { href: "/countries/", label: "Countries", blurb: "Who is doing the most cancer research: output, growth, trials, burden, funders." },
+      { href: "/countries/in/", label: "India deep dive", blurb: "What India is up to: cancer profile, paying for care, CDSCO, institutions, companies, trials and people." },
       { href: "/cases/", label: "Cases by country", blurb: "New cancer cases per country and per cancer, with the data gaps made explicit." },
       { href: "/funding/", label: "Funding flows", blurb: "Where the money comes from." },
     ],
@@ -130,6 +131,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/assistance/", label: "Financial help", blurb: "Manufacturer programmes, reimbursement and generics by country and product, plus national schemes and charities." },
       { href: "/coverage/us/", label: "Paying for care (US)", blurb: "Medicare Part B or D, prior authorisation, list prices and assistance programmes for every approved product.", regions: ["US"] },
       { href: "/coverage/uk/", label: "What the NHS offers", blurb: "NICE, Cancer Drugs Fund and SMC decisions for every approved product, and how NHS cancer care works.", regions: ["UK"] },
+      { href: "/countries/in/", label: "Paying for care (India)", blurb: "PM-JAY, Tata Memorial's subsidised care, National Cancer Grid pooled prices and what CDSCO has approved.", regions: ["IN"] },
       { href: "/fronts/nutrition-lifestyle/", label: "Diet, exercise and lifestyle", blurb: "What people eat, drink, weigh and do: what the evidence says and what is hype." },
       { href: "/fronts/supportive-care/", label: "Supportive care", blurb: "Treating the person, not just the tumour: symptoms, side effects, nutrition, mental health." },
       { href: "/live/complementary/", label: "Complementary and supportive approaches", blurb: "Acupuncture, mindfulness, yoga, herbs, diets, cannabis, cold caps and more: what the trials show, graded honestly, and what to avoid or never use instead of treatment." },

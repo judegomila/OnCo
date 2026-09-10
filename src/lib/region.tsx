@@ -7,7 +7,7 @@ export type { Region };
 export { REGION_META };
 
 /** Order shown in the switcher: the three the owner asked for first, then the other regions we track. */
-export const REGION_ORDER: Region[] = ["US", "UK", "CN", "EU", "JP", "AU"];
+export const REGION_ORDER: Region[] = ["US", "UK", "CN", "EU", "JP", "AU", "IN"];
 const KEY = "onco:region";
 
 /** Best guess from the browser locale; the reader can override it from the header. */
@@ -19,6 +19,7 @@ function guess(): Region {
     if (l.startsWith("zh") || l.endsWith("-cn") || l.endsWith("-hk") || l.endsWith("-tw")) return "CN";
     if (l.startsWith("ja") || l.endsWith("-jp")) return "JP";
     if (l.endsWith("-au") || l.endsWith("-nz")) return "AU";
+    if (l.startsWith("hi") || l.endsWith("-in") || /^(bn|ta|te|mr|gu|kn|ml|pa|or|as)\b/.test(l)) return "IN";
     if (/^(de|fr|es|it|nl|pt|pl|sv|da|fi|el|cs|hu|ro|bg|hr|sk|sl|lt|lv|et|mt)\b/.test(l) && !l.endsWith("-br") && !l.endsWith("-mx") && !l.endsWith("-ar")) return "EU";
   }
   return "US";

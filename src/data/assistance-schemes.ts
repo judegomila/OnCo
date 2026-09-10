@@ -156,7 +156,18 @@ export const assistanceSchemes: AssistanceScheme[] = [
     what: "Guidance on income supports, tax credits and drug coverage, plus travel and lodging programmes near treatment centres.",
     how: ["Call the Cancer Information Helpline or use the community services locator on the site."],
     url: "https://cancer.ca/en/living-with-cancer/how-we-can-help/financial-help", source: { label: "Canadian Cancer Society: financial help", url: "https://cancer.ca/en/living-with-cancer/how-we-can-help/financial-help" } },
+  // ---- India ----
+  { id: "in-pmjay", country: "IN", kind: "public", name: "Ayushman Bharat PM-JAY", asOf: "2026-09-10",
+    who: "Families in the poorest roughly 40% of the population identified through the socio-economic caste census and state lists, and since September 2024 everyone aged 70 and over regardless of income.",
+    what: "Cashless hospital treatment up to 5 lakh rupees per family per year at empanelled public and private hospitals, including oncology packages for cancer surgery, chemotherapy, radiotherapy and supportive care. Outpatient care and most oral medicines are not covered.",
+    how: ["Check eligibility with your Aadhaar or ration card on the PM-JAY portal, the Ayushman app or at a Common Service Centre, and collect an Ayushman card.", "Find an empanelled hospital (public cancer centres and many private hospitals are listed) and go to its PM-JAY help desk (Pradhan Mantri Arogya Mitra) before admission.", "The hospital raises the pre-authorisation for the treatment package; you should not be asked to pay for covered procedures."],
+    url: "https://nha.gov.in/PM-JAY", source: { label: "National Health Authority: AB PM-JAY", url: "https://nha.gov.in/PM-JAY" } },
+  { id: "in-tata-memorial-charity", country: "IN", kind: "charity", name: "Tata Memorial Centre general (subsidised) category and hospital charity funds", asOf: "2026-09-10",
+    who: "Patients registering at Tata Memorial Hospital and its units who cannot pay; the majority of its patients are treated in the general category.",
+    what: "Free or heavily subsidised investigations and treatment in the general category, with medical social workers who connect patients to charitable trusts, state chief minister relief funds and PM-JAY for drugs and accommodation.",
+    how: ["Register as a new patient at Tata Memorial Hospital (Mumbai) or a Tata Memorial unit; ask for the general category at registration.", "Meet the medical social work department, which assesses need and applies to hospital and external charitable funds on your behalf.", "Bring identity documents, income certificate if available, and the PM-JAY card if you have one."],
+    url: "https://tmc.gov.in", source: { label: "Tata Memorial Centre", url: "https://tmc.gov.in" } },
 ];
 
 /** Country labels for the assistance navigator's filter. */
-export const ASSISTANCE_COUNTRIES: Record<string, string> = { US: "United States", GB: "United Kingdom", UK: "United Kingdom", EU: "European Union", DE: "Germany", AU: "Australia", JP: "Japan", CN: "China", CA: "Canada" };
+export const ASSISTANCE_COUNTRIES: Record<string, string> = { US: "United States", GB: "United Kingdom", UK: "United Kingdom", EU: "European Union", DE: "Germany", AU: "Australia", JP: "Japan", CN: "China", CA: "Canada", IN: "India" };

@@ -1,7 +1,7 @@
 /**
- * Regulatory status of approved and late-stage products across six regions.
+ * Regulatory status of approved and late-stage products across seven regions.
  *
- *   US = FDA · EU = European Commission on EMA opinion · UK = MHRA · JP = PMDA/MHLW · CN = NMPA · AU = TGA
+ *   US = FDA · EU = European Commission on EMA opinion · UK = MHRA · JP = PMDA/MHLW · CN = NMPA · AU = TGA · IN = CDSCO (DCGI)
  *
  * Rules: a region is recorded only when the status can be traced to a regulator page, an EPAR, a company
  * release, or the corpus' own sourced approvals. Absent = unknown/not researched, NOT "not approved".
@@ -14,8 +14,8 @@
  * "not-filed" is used only where a sponsor has publicly said so or where a product is regionally
  * exclusive by design (e.g. China-only PD-1 antibodies without ex-China filings).
  */
-export type Region = "US" | "EU" | "UK" | "JP" | "CN" | "AU";
-export const REGIONS: Region[] = ["US", "EU", "UK", "JP", "CN", "AU"];
+export type Region = "US" | "EU" | "UK" | "JP" | "CN" | "AU" | "IN";
+export const REGIONS: Region[] = ["US", "EU", "UK", "JP", "CN", "AU", "IN"];
 export const REGION_META: Record<Region, { label: string; regulator: string; url: string; flag: string }> = {
   US: { label: "United States", regulator: "FDA", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications", flag: "🇺🇸" },
   EU: { label: "European Union", regulator: "EMA / European Commission", url: "https://www.ema.europa.eu/en/medicines", flag: "🇪🇺" },
@@ -23,6 +23,7 @@ export const REGION_META: Record<Region, { label: string; regulator: string; url
   JP: { label: "Japan", regulator: "PMDA / MHLW", url: "https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html", flag: "🇯🇵" },
   CN: { label: "China", regulator: "NMPA", url: "https://english.nmpa.gov.cn/", flag: "🇨🇳" },
   AU: { label: "Australia", regulator: "TGA (PBS for reimbursement)", url: "https://www.tga.gov.au/resources/artg", flag: "🇦🇺" },
+  IN: { label: "India", regulator: "CDSCO (DCGI)", url: "https://cdsco.gov.in/opencms/opencms/en/Approval_new/Approved-New-Drugs/", flag: "🇮🇳" },
 };
 
 export type RegionalStatus = "approved" | "conditional" | "under-review" | "not-filed" | "withdrawn" | "rejected";
@@ -39,6 +40,9 @@ const tga = (brand: string) => `https://www.tga.gov.au/resources/artg?search_api
 const govuk = (slug: string) => `https://www.gov.uk/government/news/${slug}`;
 const PMDA = REGION_META.JP.url;
 const NMPA = REGION_META.CN.url;
+const CDSCO = REGION_META.IN.url;
+/** India rows: recorded only where a CDSCO listing, a company page or a primary paper supports the status. Year = first Indian approval where known; biosimilar and generic entry is noted because it sets the price. */
+const IN = (year?: number, source?: string, indication?: string, note?: string): RegionalEntry => A(year, source ?? CDSCO, indication, note);
 
 const A = (year?: number, source?: string, indication?: string, note?: string): RegionalEntry => ({ status: "approved", year, source, indication, note });
 const C = (year?: number, source?: string, indication?: string, note?: string): RegionalEntry => ({ status: "conditional", year, source, indication, note });
@@ -53,7 +57,7 @@ const EU_NATIONAL = (year?: number, note = "National authorisations; no centrali
 const REGIMEN_NOTE = "Combination regimen of individually authorised medicines; no single marketing authorisation";
 const regimen = (usYear?: number): RegionalRow => ({ US: A(usYear, undefined, undefined, REGIMEN_NOTE), EU: A(undefined, undefined, undefined, REGIMEN_NOTE), UK: A(undefined, undefined, undefined, REGIMEN_NOTE) });
 
-/** Six-region row for a long-established global product (approved everywhere, first years by region). */
+/** Six-region row for a long-established global product (approved everywhere, first years by region). India is added per row where sourced. */
 function global(brand: string, slug: string, us: number, eu: number, uk: number, jp: number, cn: number, au: number, note?: string): RegionalRow {
   return { US: A(us, undefined, undefined, note), EU: A(eu, epar(slug)), UK: A(uk, mhra(brand)), JP: A(jp, PMDA), CN: A(cn, NMPA), AU: A(au, tga(brand)) };
 }
@@ -196,7 +200,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   neratinib: { US: A(2017), EU: A(2018, epar("nerlynx")), UK: A(2018, mhra("Nerlynx")), AU: A(2019, tga("Nerlynx")) },
   lapatinib: global("Tykerb", "tyverb", 2007, 2008, 2008, 2009, 2013, 2007, "EU brand Tyverb"),
   pyrotinib: { CN: A(2018, NMPA, "HER2+ metastatic breast (Aug 2018)"), US: NF("Hengrui; no US filing") },
-  imatinib: global("Gleevec", "glivec", 2001, 2001, 2001, 2001, 2002, 2001, "EU brand Glivec"),
+  imatinib: { ...global("Gleevec", "glivec", 2001, 2001, 2001, 2001, 2002, 2001, "EU brand Glivec"), IN: IN(undefined, "https://en.wikipedia.org/wiki/Novartis_v._Union_of_India_%26_Others", "CML, GIST", "Generic imatinib (Natco Veenat and others) sold since before product patents (2005); the Supreme Court refused Novartis's patent on the beta-crystalline form on 1 April 2013 under section 3(d)") },
   dasatinib: global("Sprycel", "sprycel", 2006, 2006, 2006, 2009, 2011, 2007),
   ponatinib: { US: A(2012), EU: A(2013, epar("iclusig")), UK: A(2013, mhra("Iclusig")), JP: A(2016, PMDA), AU: A(2015, tga("Iclusig")) },
   asciminib: { US: A(2021), EU: A(2022, epar("scemblix")), UK: A(2022, mhra("Scemblix")), JP: A(2022, PMDA), CN: A(2023, NMPA), AU: A(2022, tga("Scemblix")) },
@@ -242,7 +246,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "avutometinib-defactinib": { US: A(2025, undefined, "Accelerated, KRAS-mutant recurrent LGSOC (May 2025)"), EU: UR("MAA 2026") },
   cabozantinib: { US: A(2012, undefined, undefined, "Cometriq 2012 (MTC); Cabometyx 2016"), EU: A(2014, epar("cometriq"), "Cometriq for medullary thyroid cancer; 21 Mar 2014. Cabometyx (RCC) Sep 2016"), UK: A(2014, mhra("Cometriq")), JP: A(2020, PMDA), CN: A(2023, NMPA), AU: A(2017, tga("Cabometyx")) },
   lenvatinib: global("Lenvima", "lenvima", 2015, 2015, 2015, 2015, 2018, 2015),
-  sorafenib: global("Nexavar", "nexavar", 2005, 2006, 2006, 2008, 2006, 2006),
+  sorafenib: { ...global("Nexavar", "nexavar", 2005, 2006, 2006, 2008, 2006, 2006), IN: IN(undefined, "https://en.wikipedia.org/wiki/Natco_Pharma", "HCC, RCC", "Bayer's Nexavar; India's first compulsory licence (Natco, March 2012) cut the price by about 97%") },
   regorafenib: global("Stivarga", "stivarga", 2012, 2013, 2013, 2013, 2017, 2013),
   sunitinib: global("Sutent", "sutent", 2006, 2006, 2006, 2008, 2007, 2006),
   pazopanib: global("Votrient", "votrient", 2009, 2010, 2010, 2012, 2017, 2010),
@@ -295,7 +299,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "arsenic-trioxide": { US: A(2000), EU: A(2002, epar("trisenox")), UK: A(2002, mhra("Trisenox")), JP: A(2004, PMDA), CN: A(undefined, NMPA, "Domestic arsenic trioxide injections"), AU: A(undefined, tga("Trisenox")) },
 
   // ================= Hormonal =================
-  abiraterone: global("Zytiga", "zytiga", 2011, 2011, 2011, 2014, 2015, 2012),
+  abiraterone: { ...global("Zytiga", "zytiga", 2011, 2011, 2011, 2014, 2015, 2012), IN: IN(undefined, "https://en.wikipedia.org/wiki/Abiraterone_acetate", "mCRPC", "Many Indian generics; about $238 a month in 2019") },
   enzalutamide: global("Xtandi", "xtandi", 2012, 2013, 2013, 2014, 2019, 2014),
   apalutamide: global("Erleada", "erleada", 2018, 2019, 2019, 2019, 2019, 2018),
   darolutamide: global("Nubeqa", "nubeqa", 2019, 2020, 2020, 2020, 2021, 2020),
@@ -370,16 +374,16 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "platinum-etoposide": regimen(),
 
   // ================= Antibodies (non-checkpoint) =================
-  trastuzumab: global("Herceptin", "herceptin", 1998, 2000, 2000, 2001, 2002, 2000),
+  trastuzumab: { ...global("Herceptin", "herceptin", 1998, 2000, 2000, 2001, 2002, 2000), IN: IN(undefined, "https://www.biocon.com", "HER2+ breast and gastric", "Roche's Herceptin (also as Herclon via Emcure); Biocon-Mylan CANMAb, the first trastuzumab biosimilar approved anywhere, launched 2014") },
   "trastuzumab-biosimilars": global("Ogivri / Kanjinti / Herzuma", "ogivri", 2017, 2017, 2018, 2018, 2020, 2018),
   pertuzumab: global("Perjeta", "perjeta", 2012, 2013, 2013, 2013, 2018, 2013),
   margetuximab: { US: A(2020), CN: A(2024, NMPA, "Zai Lab"), EU: W(2022, undefined, "MAA withdrawn 2022") },
-  bevacizumab: global("Avastin", "avastin", 2004, 2005, 2005, 2007, 2010, 2005),
+  bevacizumab: { ...global("Avastin", "avastin", 2004, 2005, 2005, 2007, 2010, 2005), IN: IN(undefined, "https://www.heteroworld.com", "Colorectal and other Avastin indications", "Roche's Avastin; Indian biosimilars from Hetero (2016), Biocon (Krabeva), Enzene (2023) and others") },
   "bevacizumab-glioma": { US: A(2009, undefined, "Recurrent GBM (accelerated 2009; full 2017)"), EU: NF("CHMP negative opinion for GBM 2009-10; not approved in EU for glioma"), JP: A(2013, PMDA), AU: A(2010, tga("Avastin")) },
   cetuximab: global("Erbitux", "erbitux", 2004, 2004, 2004, 2008, 2006, 2005),
   panitumumab: global("Vectibix", "vectibix", 2006, 2007, 2007, 2010, 2021, 2008),
   ramucirumab: global("Cyramza", "cyramza", 2014, 2014, 2014, 2015, 2022, 2015),
-  rituximab: global("Rituxan", "mabthera", 1997, 1998, 1998, 2001, 2000, 1998, "EU brand MabThera"),
+  rituximab: { ...global("Rituxan", "mabthera", 1997, 1998, 1998, 2001, 2000, 1998, "EU brand MabThera"), IN: IN(undefined, "https://www.drreddys.com", "NHL, CLL", "Roche's MabThera; Dr Reddy's Reditux (2007) was the first rituximab biosimilar approved anywhere; Hetero (2015) and others followed") },
   obinutuzumab: global("Gazyva", "gazyvaro", 2013, 2014, 2014, 2018, 2021, 2014, "EU brand Gazyvaro"),
   daratumumab: global("Darzalex", "darzalex", 2015, 2016, 2016, 2017, 2019, 2016),
   isatuximab: global("Sarclisa", "sarclisa", 2020, 2020, 2020, 2020, 2022, 2020),
@@ -412,8 +416,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "gardasil-9": global("Gardasil 9", "gardasil-9", 2014, 2015, 2015, 2020, 2018, 2015, "Gardasil (4-valent) 2006 US"),
   "intismeran-autogene": { US: UR("INTerpath-001 positive Aug 2026; filings to follow") },
 
-  // ================= Withdrawn products and EU-only authorisations (EMA register) =================
-  melflufen: { US: W(2021, undefined, "Pepaxto accelerated approval Feb 2021; withdrawn from the US market by Oncopeptides Oct 2021"), EU: A(2022, epar("pepaxti"), "Pepaxti with dexamethasone; multiple myeloma after ≥3 prior lines, refractory to a PI, an IMiD and an anti-CD38 antibody; 17 Aug 2022") },
+  // ================= Withdrawn products and EU-only authorisations (EMA register) ==========  melflufen: { US: W(2021, undefined, "Pepaxto accelerated approval Feb 2021; withdrawn from the US market by Oncopeptides Oct 2021"), EU: A(2022, epar("pepaxti"), "Pepaxti with dexamethasone; multiple myeloma after ≥3 prior lines, refractory to a PI, an IMiD and an anti-CD38 antibody; 17 Aug 2022") },
   panobinostat: { US: W(2022, undefined, "Farydak accelerated approval Feb 2015; US approval withdrawn 2022 at Secura Bio's request"), EU: A(2015, epar("farydak"), "Farydak with bortezomib and dexamethasone; relapsed/refractory myeloma after ≥2 prior regimens; 28 Aug 2015") },
   nintedanib: { EU: A(2014, epar("vargatef"), "Vargatef with docetaxel; adenocarcinoma NSCLC after first-line chemotherapy; 21 Nov 2014", "US approval (Ofev) is for pulmonary fibrosis, not oncology"), UK: A(2014, mhra("Vargatef")) },
   "moxetumomab-pasudotox": { US: W(2023, undefined, "Lumoxiti accelerated approval Sep 2018; discontinued by AstraZeneca and withdrawn 2023"), EU: W(2021, epar("lumoxiti"), "Authorised 8 Feb 2021; marketing authorisation withdrawn at the holder's request 23 Jul 2021") },
@@ -421,6 +424,11 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   copanlisib: { US: W(2023, undefined, "Aliqopa accelerated approval Sep 2017; withdrawn by Bayer Nov 2023 after CHRONOS-4"), EU: W(undefined, epar("aliqopa"), "Marketing authorisation application withdrawn before a CHMP opinion") },
   mobocertinib: { US: W(2023, undefined, "Exkivity accelerated approval Sep 2021; withdrawn by Takeda Oct 2023 after EXCLAIM-2"), EU: W(undefined, epar("exkivity"), "Marketing authorisation application withdrawn before a CHMP opinion") },
 
+=======
+  // ================= India-first products =================
+  "talicabtagene-autoleucel": { IN: IN(2023, "https://immunoact.com", "Relapsed or refractory B-cell lymphoma and B-ALL", "NexCAR19 (ImmunoACT); first CAR-T approved in India") },
+  "varnimcabtagene-autoleucel": { IN: IN(2024, "https://www.immuneel.com", "Relapsed or refractory B-cell lymphoma", "Qartemi (Immuneel); Indian version of Barcelona's ARI-0001, which is approved in Spain under the hospital exemption") },
+  cervavac: { IN: IN(2022, "https://www.seruminstitute.com/product_ind_cervavac.php", "Quadrivalent HPV vaccine, ages 9-26", "Serum Institute of India; introduced 2023") },
   // ================= Devices and tests =================
   optune: { US: A(2011, undefined, "GBM 2011/2015; NSCLC 2024; pancreatic 2026"), EU: A(2015, undefined, "CE mark (GBM); pancreatic and NSCLC CE marks 2024-26", "CE mark is not an EMA authorisation"), JP: A(2016, PMDA, "GBM"), CN: A(2020, NMPA, "GBM (Zai Lab)") },
   "foundationone-cdx": { US: A(2017, undefined, "FDA PMA companion diagnostic"), JP: A(2018, PMDA, "First CGP test approved in Japan"), EU: A(2019, undefined, "CE-IVD", "IVDR transition; CE marking is not an EMA approval") },

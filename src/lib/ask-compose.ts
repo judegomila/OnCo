@@ -169,6 +169,7 @@ export function regionFromQuestion(q: string): Region | undefined {
   if (/\b(?:japan|japanese|pmda|mhlw)\b/.test(s)) return "JP";
   if (/\b(?:china|chinese|nmpa)\b/.test(s)) return "CN";
   if (/\b(?:australia|australian|tga|pbs)\b/.test(s)) return "AU";
+  if (/\b(?:india|indian|cdsco|dcgi|pm-jay|ayushman)\b/.test(s)) return "IN";
   if (/\b(?:us|u\.s\.|usa|united states|america|american|fda|medicare)\b/.test(s)) return "US";
   return undefined;
 }

@@ -27,6 +27,7 @@ export const REGION_COUNTRIES: Record<Region, string[]> = {
   AU: ["AU", "NZ"],
   JP: ["JP"],
   CN: ["CN", "HK"],
+  IN: ["IN"],
 };
 
 export function regionForCountry(iso2: string): Region | undefined {
@@ -148,6 +149,28 @@ export const referralRoutes: ReferralRoute[] = [
     sources: [
       { label: "National Cancer Center China (Cancer Hospital CAMS)", url: "https://www.cicams.ac.cn/" },
       { label: "National Healthcare Security Administration", url: "https://www.nhsa.gov.cn/" },
+    ],
+  },
+  {
+    region: "IN", title: "India", asOf: "2026-09-10",
+    howItWorks: [
+      "You can go directly to a cancer centre: most Indian hospitals, public and private, register new patients without a referral letter, although a summary from your current doctor speeds things up.",
+      "The National Cancer Grid lists its member centres (more than 360 hospitals and institutes) and publishes the treatment guidelines they follow, so you can check what standard care should look like for your cancer.",
+      "Tata Memorial Hospital in Mumbai and its sister units (Varanasi, Sangrur and Mullanpur, Visakhapatnam, Muzaffarpur, Guwahati) and the other Grid centres run multidisciplinary tumour boards; ask whether your case can be discussed there, and whether a virtual tumour board review is possible from your local hospital.",
+      RECORDS + " Bring the original biopsy slides or blocks; a pathology review at the second centre is routine in India.",
+      "If your family holds an Ayushman Bharat PM-JAY card, treatment at an empanelled hospital is cashless up to the family limit; ask the hospital's PM-JAY help desk before admission.",
+    ],
+    remoteReview: [
+      { name: "National Cancer Grid", url: "https://www.ncgindia.org", note: "The Grid's site lists member centres, treatment guidelines and its virtual tumour board service, through which member hospitals present cases to specialists elsewhere." },
+      { name: "Tata Memorial Centre", url: "https://tmc.gov.in", note: "India's largest cancer centre; the site covers new-patient registration at Mumbai and at its units across the country." },
+      { name: "Ayushman Bharat PM-JAY (National Health Authority)", url: "https://nha.gov.in/PM-JAY", note: "Check eligibility, find empanelled hospitals and see which treatment packages are covered." },
+    ],
+    cost: "Public cancer centres charge little or nothing for most patients (Tata Memorial treats the majority of its patients free or at subsidised rates); private hospital consultations are self-pay unless covered by PM-JAY, a state scheme or private insurance. Second opinions themselves are rarely a separate charge.",
+    timeline: "New-patient registration at the large public centres is usually within days, but investigations and treatment slots can take weeks because of volume; private centres are faster.",
+    sources: [
+      { label: "National Cancer Grid", url: "https://www.ncgindia.org" },
+      { label: "Tata Memorial Centre", url: "https://tmc.gov.in" },
+      { label: "National Health Authority: PM-JAY", url: "https://nha.gov.in/PM-JAY" },
     ],
   },
 ];

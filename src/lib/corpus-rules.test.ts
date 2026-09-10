@@ -16,7 +16,9 @@ const TODAY = new Date().toISOString().slice(0, 10);
 const isRegimen = (modality: string) => /regimen/i.test(modality);
 
 /** Phase 3 trials with no ClinicalTrials.gov id: pre-registration era, non-US academic groups, or pooled analyses. */
-const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulate-japan", "crystal-fire3", "first-308", "olanzapine-appetite-tmh", "nlst-nelson", "prehab-trial"]);
+const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulate-japan", "crystal-fire3", "first-308", "olanzapine-appetite-tmh", "nlst-nelson", "prehab-trial",
+  // Indian academic trials registered with the Clinical Trials Registry - India (CTRI) or run before registration was required.
+  "low-dose-nivolumab-tmh", "metronomic-vs-cisplatin-tmh", "metro-plus-varanasi", "gefitinib-chemo-tmh", "progesterone-preop-tmh", "lidocaine-peritumoral-tmh", "osmanabad-hpv-screening", "kerala-oral-screening", "mumbai-via-screening"]);
 
 /** Standard-of-care rows whose approach is surgery or observation, with no product to reference. */
 const SOC_ROWS_WITHOUT_REFS = new Set(["cholangiocarcinoma: Resectable", "dlbcl: Frontline", "endometrial: Early", "neuroendocrine: Localised", "ovarian: Platinum-sensitive relapse"]);

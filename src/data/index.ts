@@ -43,6 +43,8 @@ import { mechanicsPathways } from "./mechanics-pathways";
 import { complementary } from "./complementary";
 import { tests } from "./tests";
 import { nciCoverage } from "./nci-coverage";
+import { institutionsIndia } from "./institutions/india";
+import { india } from "./india";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -89,4 +91,6 @@ export const ALL_INPUTS: EntityInput[] = [
   ...complementary,
   ...tests,
   ...nciCoverage,
+  ...institutionsIndia,
+  ...india,
 ];

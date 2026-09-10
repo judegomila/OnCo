@@ -23,7 +23,7 @@ export default function PapersPage() {
         lede="Every object in OnCo has a literature query. Once a week we ask Europe PMC how many papers matched it in each year and in the last twelve months, then rank topics by how fast they are growing. This is the pulse of research effort, not of results: a surge in papers is a surge in attention." />
 
       <Container className="pb-16 space-y-10">
-        {!index && <p className="card p-4 text-sm text-muted">The snapshot has not been built yet. Run <code>npm run fetch:papers</code>.</p>}
+        {!index && <p className="card p-4 text-sm text-muted">The literature snapshot is not part of this build yet; it appears after the next weekly refresh. Every object page still carries a live &ldquo;Latest papers&rdquo; feed from Europe PMC.</p>}
         {index && (
           <>
             <div className="text-sm text-muted flex flex-wrap gap-x-4 gap-y-1">

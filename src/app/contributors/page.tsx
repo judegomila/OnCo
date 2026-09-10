@@ -74,7 +74,7 @@ export default function ContributorsPage() {
           <p className="text-sm text-muted mb-4 max-w-3xl">
             {method === "blame-lines"
               ? "From git blame over every data file: a record counts for an author when any surviving line of it is theirs. Commits are distinct commits with surviving lines; first and last are the dates of those lines, so a contributor whose early lines were later rewritten shows a later first date."
-              : "From the last commit that touched each record (public/provenance.json). Run npm run provenance to compute the fuller blame-based view."}
+              : "From the last commit that touched each record. The fuller line-by-line view is computed by the weekly refresh."}
             {generated ? ` Generated ${generated.slice(0, 10)}.` : ""}
           </p>
           {list.length ? (
@@ -100,7 +100,7 @@ export default function ContributorsPage() {
               </table>
             </div>
           ) : (
-            <div className="card p-4 text-sm text-muted">No provenance file is present in this build. Run <code>npm run provenance</code> (needs the full git history) to generate it.</div>
+            <div className="card p-4 text-sm text-muted">The contributor table is computed from the edit history once a week and is not part of this build yet; it appears after the next refresh. Every record still names its last editor on its own page.</div>
           )}
         </section>
 

@@ -20,7 +20,9 @@ export default function ReviewPage() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="learn" />} title="Review queue"
-        lede={`${cov.reviewed.toLocaleString("en-GB")} of ${cov.total.toLocaleString("en-GB")} reviewable pages carry a named review. The queue below ranks the rest by reach, stakes and staleness, so a reviewer with an hour knows where it counts most. Signing off is an issue form; a maintainer verifies identity and records the review.`} />
+        lede={cov.reviewed
+          ? `${cov.reviewed.toLocaleString("en-GB")} of ${cov.total.toLocaleString("en-GB")} reviewable pages carry a named review. The queue below ranks the rest by reach, stakes and staleness, so a reviewer with an hour knows where it counts most. Signing off is an issue form; a maintainer verifies identity and records the review.`
+          : `${cov.total.toLocaleString("en-GB")} pages are open for a named review and none has one yet: OnCo has just opened to reviewers. The queue below ranks them by reach, stakes and staleness, so a reviewer with an hour knows where it counts most. Signing off is an issue form; a maintainer verifies identity and records the review.`} />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-x-4 gap-y-1 text-sm mb-8">
           {[["#coverage", "Coverage"], ["#queue", "The queue"], ["#tracks", "By track"], ["#translations", "Translations"], ["#how", "How to review"]].map(([href, label]) => (
@@ -31,7 +33,7 @@ export default function ReviewPage() {
         <section id="coverage" className="scroll-mt-24">
           <h2 className="text-2xl font-semibold tracking-tight mb-3">Coverage</h2>
           <div className="grid gap-3 sm:grid-cols-3 mb-4">
-            <div className="card p-4"><div className="kicker mb-1">Pages reviewed</div><div className="text-2xl font-semibold tabular-nums">{cov.reviewed.toLocaleString("en-GB")} <span className="text-sm text-muted font-normal">of {cov.total.toLocaleString("en-GB")} ({pct(cov.reviewed, cov.total)}%)</span></div></div>
+            <div className="card p-4"><div className="kicker mb-1">Pages reviewed</div>{cov.reviewed ? <div className="text-2xl font-semibold tabular-nums">{cov.reviewed.toLocaleString("en-GB")} <span className="text-sm text-muted font-normal">of {cov.total.toLocaleString("en-GB")} ({pct(cov.reviewed, cov.total)}%)</span></div> : <div className="text-2xl font-semibold">None yet <span className="text-sm text-muted font-normal">of {cov.total.toLocaleString("en-GB")} open for review</span></div>}</div>
             <div className="card p-4"><div className="kicker mb-1">Expert sign-offs</div><div className="text-2xl font-semibold tabular-nums">{cov.byTrack.expert}</div><div className="text-xs text-muted">clinical, scientific and regulatory tracks</div></div>
             <div className="card p-4"><div className="kicker mb-1">Patient-advocate sign-offs</div><div className="text-2xl font-semibold tabular-nums">{cov.byTrack.advocate}</div><div className="text-xs text-muted">TL;DRs, simple text and questions</div></div>
           </div>
@@ -57,7 +59,7 @@ export default function ReviewPage() {
 
         <section id="queue" className="scroll-mt-24 mt-12">
           <h2 className="text-2xl font-semibold tracking-tight mb-2">The queue</h2>
-          <p className="text-sm text-muted mb-4 max-w-3xl">Score out of 100: <strong>reach</strong> (graph connections, log-scaled, up to 40), <strong>stakes</strong> (evidence score or a kind default, up to 30), <strong>staleness</strong> (days since the record&apos;s <code>asOf</code>, a year is 30). Pages already reviewed on every track they need within a year sort to the bottom. Formula in <code>src/lib/review-queue.ts</code>.</p>
+          <p className="text-sm text-muted mb-4 max-w-3xl">Score out of 100: <strong>reach</strong> (graph connections, log-scaled, up to 40), <strong>stakes</strong> (evidence score or a kind default, up to 30), <strong>staleness</strong> (days since the record&apos;s <code>asOf</code>, a year is 30). Pages already reviewed on every track they need within a year sort to the bottom.</p>
           <div className="card overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="text-left text-xs text-muted"><tr><th className="p-3">#</th><th className="p-3">Page</th><th className="p-3 text-right">Score</th><th className="p-3 text-right">Links</th><th className="p-3 text-right">Evidence</th><th className="p-3 text-right">Age</th><th className="p-3">Needs</th><th className="p-3"></th></tr></thead>

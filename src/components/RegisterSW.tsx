@@ -78,7 +78,7 @@ export function CachedPages() {
   }, []);
   if (pages === null) return <p className="text-sm text-muted">Checking this browser&apos;s cache…</p>;
   if (!supported) return <p className="text-sm text-muted">This browser does not support offline caching.</p>;
-  if (!pages.length) return <p className="text-sm text-muted">No pages cached yet. Pages are stored as you visit them (in production builds), up to a few hundred, and the search index is kept so search keeps working.</p>;
+  if (!pages.length) return <p className="text-sm text-muted">Nothing is stored in this browser yet. Pages are kept as you visit them, up to a few hundred, and the search index is kept too, so once you are back online a few minutes of browsing makes the pages you care about readable anywhere. Start with the <Link className="underline" href="/">home page</Link> or a <Link className="underline" href="/cancers/">cancer page</Link>.</p>;
   return (
     <ul className="grid gap-1.5 sm:grid-cols-2 text-sm">
       {pages.map((p) => <li key={p}><Link href={p} className="underline decoration-foreground/20 underline-offset-[3px] hover:decoration-foreground break-all">{p}</Link></li>)}

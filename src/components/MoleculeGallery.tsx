@@ -100,7 +100,7 @@ export function MoleculeGallery({ drugs, missing }: { drugs: GalleryDrug[]; miss
 
       <section className="mt-10">
         <h2 className="text-lg font-semibold tracking-tight">Products without a structure yet ({missing.length})</h2>
-        <p className="text-sm text-muted mt-1 max-w-3xl">Cells, vaccines, tests and devices have no single molecule to draw. The rest of this list is the work queue for the next <code className="text-xs">npm run fetch:structures</code>: add a PubChem or PDB query to <code className="text-xs">src/data/structures.ts</code> and the thumbnail appears everywhere the product is mentioned.</p>
+        <p className="text-sm text-muted mt-1 max-w-3xl">Cells, vaccines, tests and devices have no single molecule to draw. The rest of this list is the work queue: once a product is matched to a PubChem or PDB entry, its structure is fetched and the thumbnail appears everywhere the product is mentioned. Know the right entry? <Link className="underline" href="/suggest/">Suggest it</Link>.</p>
         <div className="grid gap-4 md:grid-cols-2 mt-4">
           {missingByReason.map((g) => (
             <div key={g.label} className="card p-4">

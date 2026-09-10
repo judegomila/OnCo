@@ -5,7 +5,7 @@ import { Container, GroupKicker, KindChip, PageHeader } from "@/components/ui";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { issueUrl } from "@/lib/issue-links";
-import { LEVELS, reviewerRoster } from "@/lib/review-queue";
+import { LEVELS, reviewerRoster, reviewQueue, TRACK_META } from "@/lib/review-queue";
 
 export const metadata: Metadata = pageMeta({ title: "Reviewer roster", description: "The clinicians, scientists and patient advocates who have signed off OnCo pages: what they reviewed, on which track, and their declared conflicts of interest.", path: "/reviewers/" });
 
@@ -15,13 +15,14 @@ export default function ReviewersPage() {
   const roster = reviewerRoster();
   const g = graph();
   const joinUrl = issueUrl("review", {}, { title: "review: " });
+  const queueTop = roster.length ? [] : reviewQueue().slice(0, 12);
 
   return (
     <>
       <PageHeader kicker={<GroupKicker id="learn" />} title="Reviewer roster"
         lede={roster.length
           ? `${roster.length} named reviewer${roster.length === 1 ? "" : "s"} have signed off ${roster.reduce((a, r) => a + r.count, 0)} page reviews. Every entry names the person, their role, what they reviewed and their conflicts of interest.`
-          : "Nobody has signed off a page yet. Review badges name a person, a date and a conflict-of-interest statement; this roster lists everyone who has done so, with a level by count of pages reviewed. The first name here could be yours."} />
+          : "OnCo has just opened for review, so the roster is empty and the first name on it could be yours. Every review badge names a person, a date and a conflict-of-interest statement; this page lists everyone who has signed off a page, with a level by count. Below: the pages where a reviewer's hour counts most right now, and how to join."} />
       <Container className="pb-16">
         <div className="grid gap-3 sm:grid-cols-3 mb-8 max-w-3xl">
           {LEVELS.map((l) => (
@@ -57,6 +58,24 @@ export default function ReviewersPage() {
               </tbody>
             </table>
           </div>
+        )}
+
+        {queueTop.length > 0 && (
+          <section className="mt-4">
+            <h2 className="text-xl font-semibold mb-2">Where a reviewer is needed most</h2>
+            <p className="text-sm text-muted mb-3 max-w-3xl">The top of the <Link className="underline" href="/review/">review queue</Link>: pages ranked by how many others link to them, what is at stake if they are wrong, and how long since they were last checked. Pick one you know, read it against its sources, and sign it off.</p>
+            <ul className="card divide-y divide-border text-sm">
+              {queueTop.map((q, i) => (
+                <li key={q.id} className="p-3 flex flex-wrap items-center gap-x-3 gap-y-1">
+                  <span className="text-muted tabular-nums w-5">{i + 1}</span>
+                  <KindChip kind={q.kind} />
+                  <Link className="font-medium hover:underline" href={q.route}>{q.name}</Link>
+                  <span className="text-xs text-muted">needs {q.missing.map((t) => TRACK_META[t].label.toLowerCase()).join(", ")}</span>
+                  <a className="ml-auto text-xs underline whitespace-nowrap" href={q.issueUrl} rel="noopener">Review this page</a>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         <section className="mt-12 max-w-3xl">

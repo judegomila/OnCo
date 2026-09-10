@@ -52,7 +52,7 @@ export function AskOnco({ examples }: { examples: AskExample[] }) {
     try {
       const [{ ms }, semantic, index] = await Promise.all([loadSearch(), loadSemantic(), loadAskIndex()]);
       if (latest.current !== key) return;
-      if (!index) { setState({ status: "error", message: "The Ask index has not been built for this deployment (public/api/v1/ask-index.json). Run npm run build:api, or search instead." }); return; }
+      if (!index) { setState({ status: "error", message: "Ask is not available in this build. Search works: try the same words in the search box." }); return; }
       const result = await answerQuestion(value, {
         index,
         lexical: (text, k) => ms.search(text).slice(0, k).map((h) => String(h.id)),

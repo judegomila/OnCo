@@ -41,7 +41,7 @@ export default function HistoryPage() {
         lede="Every record shows who last edited it. This page shows what changed: for each recent commit, the records it touched and the fields that differ, before and after. Read it to see the corpus being corrected and kept current, or to check a record you rely on." />
       <Container className="pb-16">
         {!index ? (
-          <div className="card p-6 text-sm text-muted">No history yet. Run <code>npx tsx scripts/history.ts</code> in a clone with full git history.</div>
+          <div className="card p-6 text-sm text-muted">The change feed is computed from the edit history once a week and is not part of this build yet; it appears after the next refresh. In the meantime the <Link className="underline" href="/changelog/">changelog</Link> lists what changed release by release, and every record names its last editor on its own page.</div>
         ) : (
           <>
             <div className="grid gap-3 grid-cols-2 sm:grid-cols-4 mb-8">

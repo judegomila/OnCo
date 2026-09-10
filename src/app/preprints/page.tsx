@@ -67,7 +67,7 @@ export default function PreprintsPage() {
 
         {!index && (
           <>
-            <p className="card p-4 text-sm text-muted">The weekly snapshot has not been built yet (run <code>npx tsx scripts/fetch-preprints.ts</code>). Live preprint feeds for a few active topics are below.</p>
+            <p className="card p-4 text-sm text-muted">The weekly preprint snapshot is not part of this build yet; it appears after the next refresh. Until then, live preprint feeds for a few of the most active topics are below, and every target, product and technology page has its own under &ldquo;Latest papers&rdquo;.</p>
             <div className="grid gap-4 lg:grid-cols-2">
               {LIVE_TOPICS.map((id) => { const e = g.get(id); const q = e ? paperQuery(e as never) : undefined; return e && q ? <div key={id}><div className="kicker mb-1.5"><Link className="hover:underline" href={routeFor(e)}>{e.name}</Link></div><LatestPapers query={`(${q}) AND SRC:PPR`} title={e.name} kind={e.kind} pageSize={6} /></div> : null; })}
             </div>
@@ -83,7 +83,7 @@ export default function PreprintsPage() {
               <span>Since published: <b className="text-foreground">{published.length.toLocaleString("en-GB")}</b></span>
               <span>Topics covered so far: <b className="text-foreground">{Object.keys(index.entities).length.toLocaleString("en-GB")}</b> of {totalTopics.toLocaleString("en-GB")} ({active.toLocaleString("en-GB")} with a preprint in the window)</span>
               <span>Source: {index.source}</span>
-              <span>Refreshed weekly by <a className="underline" href="https://github.com/judegomila/OnCo/blob/main/.github/workflows/refresh-preprints.yml" rel="noopener">GitHub Actions</a></span>
+              <span>Refreshed weekly; schedule on the <Link className="underline" href="/status/">data currency page</Link></span>
             </div>
 
             {partial && <p className="card p-4 text-sm text-muted max-w-3xl">Coverage is partial: {Object.keys(index.entities).length.toLocaleString("en-GB")} of {totalTopics.toLocaleString("en-GB")} targets, products and technologies have been fetched so far. The weekly workflow resumes from this snapshot and completes the rest; topics not yet covered still have a live preprint feed on their own pages under &ldquo;Latest papers&rdquo;.</p>}

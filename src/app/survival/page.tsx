@@ -47,7 +47,7 @@ export default function SurvivalPage() {
       <PageHeader kicker={<GroupKicker id="intel" />} title="Survival: what moves it, then the numbers"
         lede={snap ? `Survival depends first on stage at diagnosis, then on subtype and the treatment received, and it is improving for most cancers because of screening and the drugs approved since these figures were collected. The five-year figures for ${mapped.length} of ${cancers.length} cancers in OnCo, from the US National Cancer Institute's SEER programme (${periodText} diagnoses), are below behind a click: population averages for the United States, not predictions for any one person.` : "What moves survival, then five-year relative survival by cancer and stage from the NCI SEER programme. The snapshot has not been fetched yet."} />
       <Container className="pb-16 space-y-8">
-        {!snap && <p className="card p-4 text-sm text-muted">Run <code>npx tsx scripts/fetch-survival.ts</code> to build the snapshot.</p>}
+        {!snap && <p className="card p-4 text-sm text-muted">The survival tables are not part of this build yet; they appear after the next monthly refresh. Each cancer page carries its own survival figures in the meantime.</p>}
         {snap && (
           <>
             <section className="grid gap-4 lg:grid-cols-2">

@@ -67,7 +67,7 @@ export function TimelineScrubber({ data }: { data: TimelineData }) {
           <Block title={`Roadmap eras active (${activeSteps.length})`}>{activeSteps.map((s, i) => <li key={i}><Link href={s.route} className="hover:underline"><span className="text-muted">{s.roadmap} · {s.era}:</span> <span className="font-medium">{s.title}</span></Link> <span className={`chip ${statusClass(s.status === "current" ? "approved" : s.status === "emerging" ? "phase-2" : s.status === "speculative" ? "concept" : "historic")}`}>{s.status}</span></li>)}</Block>
         </section>
         <section>
-          <h2 className="text-lg font-semibold mb-2">Standard of care as of {year} <span className="text-xs text-muted font-normal">derived</span></h2>
+          <h2 className="text-lg font-semibold mb-2">Standard of care in {year} <span className="text-xs text-muted font-normal">derived</span></h2>
           <p className="text-xs text-muted mb-3">Best effort: for each cancer, the most recent dated history event at or before {year} that references products or technologies. Not a guideline; see each cancer page for the current standard of care.</p>
           <ul className="space-y-2 text-sm">
             {socAsOf.map((h) => <li key={h.cancer} className="card p-3"><Link href={h.cancerRoute} className="font-medium hover:underline">{h.cancer}</Link> <span className="text-muted">({h.year}) · </span>{h.title}<div className="mt-1 flex flex-wrap gap-1">{h.refs.map((r) => <Link key={r.route} href={r.route} className="chip bg-foreground/5 hover:underline">{r.name}</Link>)}</div></li>)}

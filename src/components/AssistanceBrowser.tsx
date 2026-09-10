@@ -116,7 +116,7 @@ export function AssistanceBrowser({ rows, schemes, orgs }: { rows: AccessRow[]; 
                     <td className="max-w-sm text-sm text-muted"><Cell v={r.reimbursement} /></td>
                     <td className="hidden md:table-cell max-w-xs text-sm text-muted"><Cell v={r.listPrice} /></td>
                     <td>{r.generic === undefined ? <span className="text-muted">Not recorded</span> : r.generic ? <Tip title="Generic or biosimilar available" text="A generic or biosimilar is on the market in this country, which usually means a much lower price and wider reimbursement."><span className="chip bg-emerald-50 text-emerald-800 border border-emerald-200 dark:bg-emerald-950/30 dark:text-emerald-200 dark:border-emerald-900 cursor-help">Yes</span></Tip> : <span className="text-muted">No</span>}</td>
-                    <td className="hidden lg:table-cell text-xs text-muted">{r.source ? <a className="underline" href={r.source} rel="noopener">source</a> : "Not recorded"}{r.asOf && <div>as of {r.asOf}</div>}</td>
+                    <td className="hidden lg:table-cell text-xs text-muted">{r.source ? <a className="underline" href={r.source} rel="noopener">source</a> : "Not recorded"}{r.asOf && <div>checked {r.asOf}</div>}</td>
                   </tr>
                 ))}
               </tbody>

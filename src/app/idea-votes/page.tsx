@@ -53,9 +53,12 @@ export default function IdeaVotesPage() {
         <section id="votes" className="scroll-mt-24">
           <h2 className="text-2xl font-semibold tracking-tight mb-2">Most wanted</h2>
           {votes ? (
-            <p className="text-sm text-muted mb-4 max-w-3xl">Reactions and comments on discussion threads in the <a className="underline" href={`${DISCUSSIONS_URL}/categories/${DISCUSSION_CATEGORY}`} rel="noopener">Objects</a> category, matched to idea ids, as of {votes.generated.slice(0, 10)}. {ranked.length} idea{ranked.length === 1 ? " has" : "s have"} at least one vote or comment.</p>
+            <p className="text-sm text-muted mb-4 max-w-3xl">Reactions and comments on discussion threads in the <a className="underline" href={`${DISCUSSIONS_URL}/categories/${DISCUSSION_CATEGORY}`} rel="noopener">Objects</a> category, matched to idea ids, last counted {votes.generated.slice(0, 10)}. {ranked.length} idea{ranked.length === 1 ? " has" : "s have"} at least one vote or comment.</p>
           ) : (
-            <p className="text-sm text-muted mb-4 max-w-3xl">No vote snapshot has been published yet. Votes are read weekly from GitHub Discussions by <code>scripts/fetch-votes.ts</code> into <code>public/votes.json</code>; until the first run, this table is empty. You can still vote: see <a className="underline" href="#how">how voting works</a>.</p>
+            <div className="card p-5 mb-4 max-w-3xl text-sm space-y-2">
+              <p>Voting has just opened, so no idea has a count yet. Once a week we read the thumbs-up and comments on each idea&apos;s discussion thread and rank the ideas here, most wanted first. The first vote on any idea is still up for grabs.</p>
+              <p className="text-muted">To vote, open an idea below or from the <Link className="underline" href="/ideas/">ideas list</Link>, follow its <em>Discuss</em> link and give the first post a thumbs-up. A free GitHub account is all it takes; <a className="underline" href="#how">how voting works</a> has the detail.</p>
+            </div>
           )}
           {ranked.length > 0 && (
             <div className="card overflow-x-auto">
@@ -80,7 +83,7 @@ export default function IdeaVotesPage() {
 
         <section id="adopted" className="scroll-mt-24 mt-12">
           <h2 className="text-2xl font-semibold tracking-tight mb-2">Adopted</h2>
-          <p className="text-sm text-muted mb-4 max-w-3xl">Ideas that someone outside OnCo has picked up, each with the source that shows it: a trial registration, a programme page, a funding announcement, a publication or a policy document. Recorded in <code>src/data/adoptions.ts</code>; nothing is inferred.</p>
+          <p className="text-sm text-muted mb-4 max-w-3xl">Ideas that someone outside OnCo has picked up, each with the source that shows it: a trial registration, a programme page, a funding announcement, a publication or a policy document. Every adoption is recorded by hand with its source; nothing is inferred.</p>
           {adopted.length ? (
             <ul className="card divide-y divide-border">
               {adopted.map(({ a, idea }) => (
@@ -94,13 +97,13 @@ export default function IdeaVotesPage() {
               ))}
             </ul>
           ) : (
-            <div className="card p-4 text-sm text-muted max-w-3xl">No adoption has been recorded yet. Know of a trial, programme or paper that took up one of these ideas? <a className="underline" href={issueUrl("suggest-edit", { field: "adoption", why: "An idea from OnCo has been picked up; please add it to src/data/adoptions.ts" }, { title: "edit: adoption" })} rel="noopener">Tell us with a source</a> and it will be listed here.</div>
+            <div className="card p-4 text-sm max-w-3xl">Nothing to show yet: none of these ideas has a documented pick-up so far. Know of a trial, programme, funder or paper that took one of them up? <a className="underline" href={issueUrl("suggest-edit", { field: "adoption", why: "An idea from OnCo has been picked up; please record the adoption with its source" }, { title: "edit: adoption" })} rel="noopener">Tell us with a source</a> and it is listed here, with credit to whoever spotted it.</div>
           )}
         </section>
 
         <section id="waiting" className="scroll-mt-24 mt-12">
-          <h2 className="text-2xl font-semibold tracking-tight mb-2">Waiting for a vote</h2>
-          <p className="text-sm text-muted mb-4 max-w-3xl">The forty most connected ideas with no thread yet. Start one to open the vote; the first thumbs-up is yours.</p>
+          <h2 className="text-2xl font-semibold tracking-tight mb-2">{votes ? "Waiting for a vote" : "Where to start: the most connected ideas"}</h2>
+          <p className="text-sm text-muted mb-4 max-w-3xl">{votes ? "The forty most connected ideas with no thread yet. Start one to open the vote; the first thumbs-up is yours." : "The forty ideas with the most links to cancers, targets, products and trials, so the ones most of the corpus already bears on. Open one, follow Discuss, and the first thumbs-up is yours."}</p>
           <ul className="card divide-y divide-border">
             {waiting.map(({ i, d }) => (
               <li key={i.id} className="p-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
@@ -119,7 +122,7 @@ export default function IdeaVotesPage() {
           <ol className="list-decimal pl-5 space-y-2 text-[15px] leading-relaxed">
             <li>Every idea has a <em>Discuss</em> link on its page. It searches the Objects category for a thread on that id; if there is none, <em>start a thread</em> opens the discussion form with the id filled in.</li>
             <li>Vote with a thumbs-up on the thread&apos;s first post. Comments count separately, as a signal of debate rather than support. A free GitHub account is all it takes.</li>
-            <li>Once a week <code>scripts/fetch-votes.ts</code> reads reactions and comment counts for every thread in the category, matches the id in the title, and writes <code>public/votes.json</code>. This page is rebuilt from that file.</li>
+            <li>Once a week the reactions and comment counts on every thread in the category are read, matched to the idea named in the title, and this page is rebuilt from them. Votes cast during the week show up after the next weekly refresh.</li>
             <li>Votes do not change a record. Changes to an idea (its hypothesis, test, maturity) still go through <Link className="underline" href="/suggest/">Suggest an edit</Link> with a source.</li>
           </ol>
           <p className="text-sm text-muted mt-3">Example: <a className="underline" href={discussionSearchUrl("idea-payload-switching")} rel="noopener">threads on idea-payload-switching</a>, or <a className="underline" href={newDiscussionUrl({ kind: "idea", id: "idea-payload-switching", name: "Payload-class switching as the rule for ADC sequencing" })} rel="noopener">start one</a>.</p>

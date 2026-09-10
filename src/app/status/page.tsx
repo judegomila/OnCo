@@ -61,7 +61,7 @@ export default function StatusPage() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="intel" />} title="Data currency"
-        lede={`Built ${built}. ${present.length} of ${feeds.length} automated feeds have a snapshot; ${stale.length} are stale and ${missing.length} have never run. ${over60} of ${audit.total} records have not been checked in 60 days. Every feed is a script that writes JSON under public/ on a schedule and opens a pull request; the site reads the snapshots at build time, so nothing here is live.`}
+        lede={`Built ${built}. ${present.length === feeds.length ? `All ${feeds.length} automated feeds have a snapshot` : `${present.length} of ${feeds.length} automated feeds have a snapshot`}${stale.length ? `; ${stale.length} ${stale.length === 1 ? "is" : "are"} stale` : ", none is stale"}${missing.length ? ` and ${missing.length} ${missing.length === 1 ? "has" : "have"} never run` : ""}. ${over60 ? `${over60} of ${audit.total.toLocaleString("en-GB")} records have not been checked in 60 days` : `Every one of the ${audit.total.toLocaleString("en-GB")} records has been checked within the last 60 days`}. Each feed is a script that runs on a schedule, saves what it fetched and opens a pull request; the site reads those snapshots when it is built, so nothing here is live.`}
         right={<CiBadge />} />
       <Container className="pb-16 space-y-10">
         <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6">
@@ -69,7 +69,7 @@ export default function StatusPage() {
           <Stat label="Stale snapshots" value={stale.length} tone={stale.length ? "rose" : "emerald"} sub="older than twice their cadence" />
           <Stat label="Records over 60 days" value={over60} tone={over60 ? "amber" : undefined} sub={`of ${audit.total}`} />
           <Stat label="Records over 180 days" value={over180} tone={over180 ? "rose" : undefined} />
-          <Stat label="Open proposals" value={proposals?.proposals.length ?? 0} sub={proposals ? `drafted ${proposals.generated}` : "bot has not run"} />
+          <Stat label="Open proposals" value={proposals?.proposals.length ?? 0} sub={proposals ? `drafted ${proposals.generated}` : "none drafted yet"} />
           <Stat label="Open incidents" value={open.length} tone={open.length ? "amber" : "emerald"} />
         </div>
 
@@ -87,7 +87,7 @@ export default function StatusPage() {
                     <td className="text-right tabular-nums text-muted">{f.ageDays !== undefined ? `${f.ageDays} d` : ""}</td>
                     <td className="text-right tabular-nums">{f.count !== undefined ? f.count.toLocaleString() : ""}{f.note && <div className="text-[11px] text-muted font-normal">{f.note}</div>}</td>
                     <td className="hidden md:table-cell text-xs">{f.present ? <a className="underline" href={`/${f.path}`}>{f.path}</a> : <span className="text-muted">{f.path}</span>}</td>
-                    <td className="hidden lg:table-cell text-xs text-muted">{f.source}. Every {f.cadenceDays} days{f.workflow ? <>, via <a className="underline" href={`${REPO}/blob/main/.github/workflows/${f.workflow}`} rel="noopener">{f.workflow}</a></> : ", by hand"}.</td>
+                    <td className="hidden lg:table-cell text-xs text-muted">{f.source}. Every {f.cadenceDays} days{f.workflow ? <>, <a className="underline" href={`${REPO}/actions/workflows/${f.workflow}`} rel="noopener">automatically</a></> : ", by hand"}.</td>
                   </tr>
                 ))}
               </tbody>
@@ -123,13 +123,13 @@ export default function StatusPage() {
                 </li>
               ))}
             </ol>
-            <p className="text-xs text-muted mt-2">Add incidents to <code>src/data/incidents.ts</code> with a date and a checkable pointer.</p>
+            <p className="text-xs text-muted mt-2">Every incident carries a date and a pointer you can check. Spotted a feed that is wrong or behind? <Link className="underline" href="/suggest/">Tell us</Link>.</p>
           </div>
         </section>
 
         <section className="card p-5 text-sm text-muted max-w-3xl">
           <div className="kicker mb-1">Stale records</div>
-          <p>{over60} records were last checked more than 60 days ago and {over180} more than 180 days ago (the <code>asOf</code> field on every record). The oldest are listed on the <Link className="underline" href="/audit/">audit page</Link>; oncology moves weekly, so anything over 60 days is due. Raw data: <a className="underline" href="/audit.json">audit.json</a>.</p>
+          <p>{over60 ? `${over60} records were last checked more than 60 days ago and ${over180} more than 180 days ago` : "No record was last checked more than 60 days ago"} (every record carries the date it was last checked). {over60 ? "The oldest are listed on the " : "When any fall behind they are listed on the "}<Link className="underline" href="/audit/">audit page</Link>; oncology moves weekly, so anything over 60 days is due. Raw data: <a className="underline" href="/audit.json">audit.json</a>.</p>
         </section>
       </Container>
     </>

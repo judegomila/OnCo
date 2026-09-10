@@ -5,15 +5,23 @@
  *   - readout-calendar items in the next 30 days
  *   - research-pulse items from the past 14 days
  *   - corrections logged in the past 7 days
- * to public/newsletter/<date>.html (standalone, inline CSS, no scripts, no tracking), updates
- * public/newsletter/index.json (the archive at /newsletter/) and public/newsletter/feed.xml (Atom).
+ * and writes, under public/newsletter/:
+ *   <date>/index.html   the standalone issue (inline CSS, no scripts, no tracking), served at /newsletter/<date>/
+ *   <date>.json         the same issue as structured sections, rendered inline at /newsletter/
+ *   index.json          the archive (newest first)
+ *   feed.xml            Atom feed of the archive with the latest issue's body
+ *
+ * The HTML lives in a directory, not as <date>.html, because static hosts with clean URLs (Vercel with
+ * trailingSlash) do not serve a bare .html path from public/: /newsletter/<date>.html was a 404 in production.
+ * Legacy <date>.html files are moved into place on the next run.
  *
  *   npx tsx scripts/newsletter.ts [--date YYYY-MM-DD]
  *
- * Refreshed weekly by .github/workflows/newsletter.yml. Sending (Buttondown or Listmonk) reads the
- * feed or the HTML; nothing here talks to a mailing service.
+ * Part of `npm run build:api`, so every deploy carries the current issue; .github/workflows/newsletter.yml
+ * also commits it weekly. Sending (Buttondown or Listmonk) reads the feed or the HTML; nothing here talks to a
+ * mailing service.
  */
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import { routeFor } from "../src/lib/schema";
@@ -32,11 +40,13 @@ const inline = (s: string) => esc(s)
   .replace(/`([^`]+)`/g, "<code>$1</code>")
   .replace(/\*([^*]+)\*/g, "<em>$1</em>");
 
-type Section = { id: string; title: string; blurb: string; items: string[] };
+export type IssueSection = { id: string; title: string; blurb: string; items: string[] };
+export type IssueJson = { date: string; title: string; summary: string; counts: Record<string, number>; sections: IssueSection[] };
+export type IndexEntry = { date: string; title: string; path: string; summary: string; counts: Record<string, number> };
 
 // ---- Changelog ----
-function changelogSections(md: string): Section[] {
-  const out: Section[] = [];
+function changelogSections(md: string): IssueSection[] {
+  const out: IssueSection[] = [];
   const blocks = md.split(/^## /m).slice(1);
   let releaseIncluded = false;
   for (const b of blocks) {
@@ -54,7 +64,7 @@ function changelogSections(md: string): Section[] {
       if (line.startsWith("### ")) { sub = line.slice(4).trim(); continue; }
       if (line.startsWith("- ")) items.push(`${sub ? `<strong>${esc(sub)}:</strong> ` : ""}${inline(line.slice(2))}`);
     }
-    if (items.length) out.push({ id: `changelog-${isUnreleased ? "unreleased" : m[1]}`, title: isUnreleased ? "Changed this week (unreleased)" : `Release ${m[1]} (${m[2]})`, blurb: "From CHANGELOG.md.", items });
+    if (items.length) out.push({ id: `changelog-${isUnreleased ? "unreleased" : m[1]}`, title: isUnreleased ? "What changed this week" : `What changed in release ${m[1]} (${m[2]})`, blurb: "New pages, new data and fixes, from the changelog.", items });
   }
   return out;
 }
@@ -109,17 +119,18 @@ const root = process.cwd();
 const changelog = existsSync(join(root, "CHANGELOG.md")) ? readFileSync(join(root, "CHANGELOG.md"), "utf8") : "";
 const correctionsMd = existsSync(join(root, "CORRECTIONS.md")) ? readFileSync(join(root, "CORRECTIONS.md"), "utf8") : "";
 
-const sections: Section[] = [
+const sections: IssueSection[] = [
   ...changelogSections(changelog),
   { id: "regulatory", title: "Regulatory events, past 7 days", blurb: "Dated filings, approvals, letters and label changes recorded on product pages.", items: regulatory() },
-  { id: "calendar", title: "Next 30 days", blurb: "Decisions, advisory committees, expected readouts and congresses from the readout calendar. Expected dates are editorial estimates.", items: upcoming() },
-  { id: "pulse", title: "What the journals and regulators published, past 14 days", blurb: "From the research pulse; every item links to the source.", items: pulse() },
+  { id: "calendar", title: "Upcoming readouts and decisions, next 30 days", blurb: "Decisions, advisory committees, expected readouts and congresses from the readout calendar. Expected dates are editorial estimates.", items: upcoming() },
+  { id: "pulse", title: "What the journals said, past 14 days", blurb: "What the leading journals and regulators published, from the research pulse; every item links to the source.", items: pulse() },
   { id: "corrections", title: "Corrections, past 7 days", blurb: "Confirmed factual corrections to the corpus, with the fixing commit.", items: corrections(correctionsMd) },
 ].filter((s) => s.items.length);
 
 const counts = { changes: sections.filter((s) => s.id.startsWith("changelog")).reduce((a, s) => a + s.items.length, 0), regulatory: sections.find((s) => s.id === "regulatory")?.items.length ?? 0, calendar: sections.find((s) => s.id === "calendar")?.items.length ?? 0, pulse: sections.find((s) => s.id === "pulse")?.items.length ?? 0, corrections: sections.find((s) => s.id === "corrections")?.items.length ?? 0 };
 const title = `OnCo weekly, ${today}`;
-const summary = Object.entries(counts).filter(([, n]) => n > 0).map(([k, n]) => `${n} ${{ changes: "changelog entries", regulatory: "regulatory events", calendar: "upcoming dates", pulse: "publications", corrections: "corrections" }[k as keyof typeof counts]}`).join(", ") || "A quiet week: nothing new to report.";
+const LABEL: Record<keyof typeof counts, [string, string]> = { changes: ["changelog entry", "changelog entries"], regulatory: ["regulatory event", "regulatory events"], calendar: ["upcoming date", "upcoming dates"], pulse: ["publication", "publications"], corrections: ["correction", "corrections"] };
+const summary = (Object.entries(counts) as Array<[keyof typeof counts, number]>).filter(([, n]) => n > 0).map(([k, n]) => `${n} ${LABEL[k][n === 1 ? 0 : 1]}`).join(", ") || "A quiet week: nothing new to report.";
 
 const bodyHtml = `<header><p class="kicker">OnCo · weekly issue</p><h1>${esc(title)}</h1><p class="lede">${esc(summary)}. Generated from the corpus; every item links to its page and, through it, to the primary source. Not medical advice.</p></header>
 ${sections.map((s) => `<section id="${s.id}"><h2>${esc(s.title)}</h2><p class="muted">${esc(s.blurb)}</p><ul>${s.items.map((i) => `<li>${i}</li>`).join("")}</ul></section>`).join("\n")}
@@ -137,13 +148,25 @@ footer{margin-top:36px;padding-top:12px;border-top:1px solid #e5e7eb;font-size:1
 `;
 
 const outDir = join(root, "public", "newsletter");
-mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, `${today}.html`), html);
+const pathFor = (date: string) => `/newsletter/${date}/`;
+mkdirSync(join(outDir, today), { recursive: true });
+writeFileSync(join(outDir, today, "index.html"), html);
+const issueJson: IssueJson = { date: today, title, summary, counts, sections };
+writeFileSync(join(outDir, `${today}.json`), JSON.stringify(issueJson));
 
-type IndexEntry = { date: string; title: string; path: string; summary: string; counts: Record<string, number> };
+// Archive: merge today's entry, normalise legacy "<date>.html" paths and move their files into "<date>/index.html".
 const indexPath = join(outDir, "index.json");
 const index: IndexEntry[] = existsSync(indexPath) ? (JSON.parse(readFileSync(indexPath, "utf8")) as IndexEntry[]) : [];
-const entry: IndexEntry = { date: today, title, path: `/newsletter/${today}.html`, summary, counts };
+for (const i of index) {
+  const legacy = join(outDir, `${i.date}.html`);
+  if (existsSync(legacy)) {
+    mkdirSync(join(outDir, i.date), { recursive: true });
+    if (!existsSync(join(outDir, i.date, "index.html"))) writeFileSync(join(outDir, i.date, "index.html"), readFileSync(legacy));
+    unlinkSync(legacy);
+  }
+  i.path = pathFor(i.date);
+}
+const entry: IndexEntry = { date: today, title, path: pathFor(today), summary, counts };
 const merged = [entry, ...index.filter((i) => i.date !== today)].sort((a, b) => b.date.localeCompare(a.date));
 writeFileSync(indexPath, JSON.stringify(merged, null, 0));
 
@@ -165,4 +188,4 @@ ${merged.slice(0, 26).map((i) => `  <entry>
 </feed>
 `;
 writeFileSync(join(outDir, "feed.xml"), feed);
-console.log(`newsletter: wrote public/newsletter/${today}.html (${summary}); ${merged.length} issue(s) in the archive`);
+console.log(`newsletter: wrote public/newsletter/${today}/index.html and ${today}.json (${summary}); ${merged.length} issue(s) in the archive`);

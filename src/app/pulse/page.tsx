@@ -42,7 +42,7 @@ export default function PulsePage() {
         <section className="mt-12">
           <div className="flex flex-wrap items-baseline justify-between gap-3 mb-1"><h2 className="text-xl font-semibold tracking-tight">Automated stream</h2>{auto && <span className="text-xs text-muted">fetched {auto.fetched} · refreshed weekly</span>}</div>
           <p className="text-sm text-muted mb-3 max-w-3xl">Everything the leading journals, the FDA Oncology Center of Excellence and two news outlets published recently, pulled from their feeds without editing and matched to OnCo objects by name. The curated board above is a reading of the field; this is the raw material it is read from.</p>
-          {auto ? <AutoPulse snap={auto} refs={refs} /> : <p className="card p-4 text-sm text-muted">The automated stream has not been fetched yet. Run <code>npx tsx scripts/fetch-pulse.ts</code>.</p>}
+          {auto ? <AutoPulse snap={auto} refs={refs} /> : <p className="card p-4 text-sm text-muted">The automated stream is not part of this build yet; it appears after the next weekly refresh. The curated board above is complete.</p>}
         </section>
         <section className="mt-12 card p-5 text-sm text-muted max-w-3xl">
           <div className="kicker mb-1">How we read the field</div>

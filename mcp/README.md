@@ -14,7 +14,7 @@ cd OnCo && npm ci
 npm run mcp          # stdio transport
 ```
 
-Or `node mcp/bin.mjs`. A bundled npm package (`npx onco-mcp`) is planned once the data files are packaged; until then the checkout is the supported route.
+Or `node mcp/bin.mjs`. For a zero-install route that needs no checkout, `packages/onco-mcp` publishes `npx -y onco-mcp`: it reads the public API and covers search, records, lists, cited answers, Markdown context and comparison (see `packages/onco-mcp/README.md` and `docs/ACCESS.md`). The server in this folder remains the one with biomarker matching, regimens, calendar, toxicity comparison, graph paths and live trials.
 
 ## Configure
 

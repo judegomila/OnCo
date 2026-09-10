@@ -437,6 +437,11 @@ export function approvedRegions(row: RegionalRow): Region[] {
 }
 
 /** True when a product's approvals lie entirely outside the US and EU (e.g. China-only antibodies): a regional product rather than a gap in our records. */
+/** Tests, assays, imaging kits and AI software are cleared as devices, not authorised as medicines, so they carry no regional drug-approval row. */
+export function isDiagnostic(modality?: string): boolean {
+  return /\b(test|assay|kit|software|diagnostic|imaging agent|screening|classifier|panel)\b/i.test(modality ?? "");
+}
+
 export function regionSpecific(row: RegionalRow): boolean {
   return !row.US && !row.EU && approvedRegions(row).length > 0;
 }

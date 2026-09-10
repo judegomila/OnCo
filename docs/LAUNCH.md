@@ -23,7 +23,7 @@ Merge finished worktree agents before the chain; never `cd` into a worktree; nev
 ## Owner asks not yet started
 - [ ] Google Search Console verification (needs the owner's TXT token; IndexNow key is live but the host verification was still pending on 10 Sept, retry `api.indexnow.org` each tick)
 - [ ] www.onco.cc: confirm the domain is attached in Vercel so the redirect in vercel.json applies (curl returned 200 on 10 Sept, not 308)
-- [ ] Complete coverage: NCI-designated centres (72) and top global centres with people; paediatric and rare cancers; screening and diagnostic tests; EU and Japan approvals for every approved drug
+- [ ] Complete coverage: NCI-designated centres (72) and top global centres with people (running); paediatric and rare cancers (running); screening and diagnostic tests (merged 10 Sept, 72 tests); EU and Japan approvals for every approved drug (merged 10 Sept, gauge clears)
 - [ ] Time estimate and speed-up plan written for the owner (docs/LAUNCH.md bottom)
 - [ ] Repo housekeeping the owner must do: GitHub Discussions "Objects" category; delete stray Vercel project agent-aa17c7ae82bcaf068
 
@@ -80,7 +80,8 @@ Caveats already stated to the owner: a launch review after this much parallel ch
 day); earlier CC BY 4.0 releases cannot be relicensed, CC BY-NC applies from this version onward.
 
 ## Queued agent briefs (launch when a slot frees; 20-agent cap)
+- [ ] Plain-language sentences for every remaining record (about 140 technologies, 28 targets, 45 bottlenecks, 146 papers, new tests and complementary records) into src/data/simple/part-e.ts; brief drafted 10 Sept, blocked on the 20-agent cap
 - [x] Insurance rankings (/coverage/rankings/: US plans by published metrics, UK PMI, international funding table) and Getting costs down (running) (/costs/ with ideas wave-costs). Brief drafted 10 Sept; owner ask: "build a section for insurance rankings for oncology, coverage, costs ranges and add another section for getting costs down and ideas around that".
 - [x] Startups, YC and VC map with investors (running)
 - [x] Donors in the heroes section (running)
-- [x] Open Medical Registry links per section (running)
+- [x] Open Medical Registry links per section: merged 10 Sept (133 tools, /open-tools/)

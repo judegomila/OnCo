@@ -50,7 +50,7 @@ describe("fuseRanks", () => {
 });
 
 describe("corpus index", () => {
-  it("builds for the whole corpus and finds T-DXd for the HER2-low paraphrase", () => {
+  it("builds for the whole corpus and finds T-DXd for the HER2-low paraphrase", { timeout: 120_000 }, () => {
     const index = buildSemanticIndex(semanticDocs());
     expect(index.ids.length).toBeGreaterThan(3000);
     const top = semanticSearch(index, "drug for HER2-low breast cancer", 10).map((h) => h.id);

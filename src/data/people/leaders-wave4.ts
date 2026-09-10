@@ -379,4 +379,345 @@ export const peopleLeadersWave4: PersonInput[] = [
     profiles: [{ label: "Saint Savvas governing bodies page", url: "https://agsavvas-hosp.gr/organa-dioikisis/" }],
     links: [{ label: "Source: Saint Savvas hospital governing bodies (Organa Dioikisis) page", url: "https://agsavvas-hosp.gr/organa-dioikisis/" }],
     tags: ["leadership", "hospital-management"], cancers: [] }),
+  // =================== ACCELERATE ===================
+  p({ id: "nicole-scobie", name: "Nicole Scobie", role: "Chair of the Board of Directors, ACCELERATE", institutionId: "accelerate-platform", specialisms: ["Patient advocacy", "Paediatric oncology drug development", "Multi-stakeholder governance"],
+    tldr: "Patient advocate from Switzerland who chairs the board of ACCELERATE, the European multi-stakeholder platform speeding up new medicines for children and adolescents with cancer.",
+    summary: "Nicole Scobie is Chair of the Board of Directors of ACCELERATE, a multi-stakeholder platform bringing together academia, patient advocates, regulators and industry with the stated goal of making research into therapies for children and adolescents with cancer 'go further, faster'. The platform's leadership page lists her as a patient advocate based in Switzerland, alongside Vice-Chair Elizabeth Fox of St Jude Children's Research Hospital and Treasurer Sam Daems. The Scientific Committee is chaired by Gilles Vassal of Gustave Roussy, and day to day operations are run from a Brussels office. The page gives no appointment date.",
+    profiles: [{ label: "ACCELERATE leadership page", url: "https://www.accelerate-platform.org/our-leadership" }],
+    links: [{ label: "Source: ACCELERATE 'Our Leadership' page", url: "https://www.accelerate-platform.org/our-leadership" }],
+    tags: ["leadership", "professional-society", "philanthropy"], cancers: [] }),
+
+  // =================== Aga Khan University Hospital, Karachi ===================
+  p({ id: "farhat-abbas", name: "Farhat Abbas", role: "Chief Executive Officer, The Aga Khan University Hospital and Health System, Pakistan", institutionId: "aku-karachi", specialisms: ["Urology", "Surgery", "Hospital management"],
+    tldr: "Urological surgeon who is Chief Executive Officer of the Aga Khan University Hospital and Health System in Pakistan, based at the Karachi teaching hospital.",
+    summary: "Farhat Abbas (MD, FCPS, FRCS, FRCSEd, FEBU, FACS) is Chief Executive Officer of The Aga Khan University Hospital and Health System, Pakistan, and also Special Advisor to the President and Husein Cumber Professor of Surgery (Urology) at Aga Khan University. In his welcome message he describes a relationship with AKU spanning more than 40 years, training as a surgeon and serving in multiple roles across the university and its health services. The hospital's page notes that in 2024 nearly 1.5 million patients received financial support through its Patient Welfare and Zakat programmes, and that it is accredited by Joint Commission International and the College of American Pathologists.",
+    profiles: [{ label: "Welcome by CEO, AKUH Pakistan", url: "https://hospitals.aku.edu/pakistan/AboutUs/Pages/welcome-by-ceo-akuh-pakistan.aspx" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Abbas+F%5BAuthor%5D+AND+Aga+Khan" }],
+    links: [{ label: "Source: AKUH Pakistan CEO welcome page", url: "https://hospitals.aku.edu/pakistan/AboutUs/Pages/welcome-by-ceo-akuh-pakistan.aspx" }],
+    tags: ["leadership", "clinician-scientist", "hospital-management"], cancers: [] }),
+
+  // =================== Aga Khan University Hospital, Nairobi ===================
+  p({ id: "rashid-khalani", name: "Rashid Khalani", role: "Chief Executive Officer, Aga Khan University Hospital, Nairobi", institutionId: "aga-khan-university-hospital-nairobi", specialisms: ["Hospital management", "Healthcare finance"],
+    tldr: "Hospital executive who leads Aga Khan University Hospital, Nairobi, the private teaching hospital in Kenya that runs one of East Africa's largest cancer services.",
+    summary: "Rashid Khalani leads Aga Khan University Hospital, Nairobi as Chief Executive Officer, according to the hospital's English Wikipedia article, which notes that he previously served as the hospital's Chief Finance Officer and succeeded Shawn Bolouki in the role. The hospital describes itself as a leading medical institution and teaching hospital for East Africa, with its own profile page setting out its vision, mission and core principles but not naming its executives. The hospital website did not give further biographical detail.",
+    profiles: [{ label: "Wikipedia: Aga Khan University Hospital, Nairobi", url: "https://en.wikipedia.org/wiki/Aga_Khan_University_Hospital,_Nairobi" }, { label: "Hospital profile page", url: "https://hospitals.aku.edu/nairobi/AboutUs/Pages/OurProfile.aspx" }],
+    links: [{ label: "Source: Wikipedia article on the hospital (names the CEO)", url: "https://en.wikipedia.org/wiki/Aga_Khan_University_Hospital,_Nairobi" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== American University of Beirut Medical Center / Naef K. Basile Cancer Institute ===================
+  p({ id: "ali-taher", name: "Ali Taher", role: "Director, Naef K. Basile Cancer Institute, American University of Beirut Medical Center", institutionId: "aubmc-basile-cancer-institute", specialisms: ["Haematology", "Oncology", "Cancer centre management"],
+    tldr: "Physician who directs the Naef K. Basile Cancer Institute, the multidisciplinary cancer centre of the American University of Beirut Medical Center in Lebanon.",
+    summary: "Ali Taher (MD, PhD, FRCP) is Director of the Naef K. Basile Cancer Institute (NKBCI) at the American University of Beirut Medical Center. In his director's message he describes the institute as 'an exciting and growing institute with leading clinicians, educators, and scientists working together to improve patient care', with the aim of reducing the burden of cancer in Lebanon and the region. NKBCI operates as a multidisciplinary cancer centre within AUBMC, with radiation oncology, pathology, laboratory and clinical research units, holds JCI, Magnet, CAP and JACIE accreditations, and runs basic, translational, clinical and population research alongside community outreach on prevention and early detection.",
+    profiles: [{ label: "NKBCI director's message", url: "https://sites.aub.edu.lb/aubmcacc/aboutus/nkbci-dean-message/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Taher+A%5BAuthor%5D+AND+Beirut" }],
+    links: [{ label: "Source: NKBCI institute page naming the director", url: "https://sites.aub.edu.lb/aubmcacc/nkbci/" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+
+  // =================== Amsterdam UMC / Cancer Center Amsterdam ===================
+  p({ id: "hans-van-goudoever", name: "Hans van Goudoever", role: "Voorzitter (Chair) of the Raad van Bestuur, Amsterdam UMC", institutionId: "amsterdam-umc", specialisms: ["Academic medicine", "Hospital governance", "Paediatrics"],
+    tldr: "Chair of the executive board of Amsterdam UMC, the merged university medical centre whose research institute Cancer Center Amsterdam brings together the city's cancer research and care.",
+    summary: "Hans van Goudoever is voorzitter (chair) of the Raad van Bestuur of Amsterdam UMC, the university medical centre formed from the AMC and VUmc, and has held the chair since 1 November 2023. The board also comprises vice-chair Karen Kruijthof, deans Saskia Peerdeman (VU) and Yvo Roos (UvA) and member Yvonne Koppelman. Amsterdam UMC's cancer research is organised through Cancer Center Amsterdam, one of its research institutes; the institute's own pages did not name a separate director when checked.",
+    profiles: [{ label: "Amsterdam UMC Raad van Bestuur (Dutch)", url: "https://www.amsterdamumc.org/nl/organisatie/raad-van-bestuur.htm" }, { label: "Amsterdam UMC Board (English)", url: "https://www.amsterdamumc.org/en/organization/board-1" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=van+Goudoever%5BAuthor%5D" }],
+    links: [{ label: "Source: Amsterdam UMC executive board page", url: "https://www.amsterdamumc.org/nl/organisatie/raad-van-bestuur.htm" }],
+    tags: ["leadership", "hospital-management", "research-institute"], cancers: [] }),
+
+  // =================== Anadolu Medical Center ===================
+  p({ id: "timur-atsuren", name: "Timur Atsüren", role: "Genel Müdür (General Manager), Anadolu Sağlık Merkezi (Anadolu Medical Center)", institutionId: "anadolu-medical-center", specialisms: ["Hospital management", "Private healthcare"],
+    tldr: "General manager who runs Anadolu Medical Center, the foundation-owned hospital near Istanbul that is part of the Anadolu Group and known for its oncology services.",
+    summary: "Timur Atsüren is Genel Müdür (General Manager) of Anadolu Sağlık Merkezi, the Anadolu Medical Center in Gebze near Istanbul. The hospital's management team page lists him at the head of the executive team, alongside Medical Services Director Prof. Dr. Kenan Keklikçi and directors for international services, nursing, information systems, finance and human resources. The hospital describes itself as a foundation enterprise established under Turkey's Foundations Law and part of the Anadolu Group, with a board chaired by Kamilhan Süleyman Yazıcı.",
+    profiles: [{ label: "Anadolu Medical Center management team (Turkish)", url: "https://www.anadolusaglik.org/kurumsal/yonetim-ekibimiz" }],
+    links: [{ label: "Source: Anadolu Sağlık Merkezi 'Yönetim Ekibimiz' page", url: "https://www.anadolusaglik.org/kurumsal/yonetim-ekibimiz" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== ASST Spedali Civili di Brescia ===================
+  p({ id: "luigi-cajazzo", name: "Luigi Cajazzo", role: "Direttore Generale, ASST Spedali Civili di Brescia", institutionId: "spedali-civili-brescia", specialisms: ["Public hospital management", "Health administration"],
+    tldr: "Director general who runs ASST Spedali Civili di Brescia, the large public hospital trust in Lombardy whose Brescia campus hosts university oncology and haematology services.",
+    summary: "Luigi Cajazzo is Direttore Generale of ASST Spedali Civili di Brescia, the Azienda Socio Sanitaria Territoriale that runs the Spedali Civili hospital in Brescia and its associated hospitals in Lombardy. The trust's 'Chi siamo' page lists him at the head of the direzione strategica together with Direttore Sanitario Frida Fagandini, Direttore Socio Sanitario Enrico Burato and Direttore Amministrativo Fabio Agrò. The trust's page describes the Direttore Generale as the legal representative appointed by the regional authority with responsibility for strategic and administrative direction; the Italian Wikipedia article on the hospital also names him in the role.",
+    profiles: [{ label: "ASST Spedali Civili 'Chi siamo' page", url: "https://www.asst-spedalicivili.it/chi-siamo" }, { label: "Direttore Generale page", url: "https://www.asst-spedalicivili.it/luigi-cajazzo-direttore-generale" }],
+    links: [{ label: "Source: ASST Spedali Civili di Brescia direzione strategica listing", url: "https://www.asst-spedalicivili.it/chi-siamo" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Atrium Health Wake Forest Baptist Comprehensive Cancer Center ===================
+  p({ id: "ruben-mesa", name: "Ruben Mesa", role: "Executive Director, Atrium Health Wake Forest Baptist Comprehensive Cancer Center, and President of the Cancer Service Line", institutionId: "wake-forest-cancer", specialisms: ["Haematology and oncology", "Cancer centre leadership", "Academic medicine"],
+    tldr: "Physician who is Executive Director of the NCI-designated Atrium Health Wake Forest Baptist Comprehensive Cancer Center in Winston-Salem and President of its cancer service line.",
+    summary: "Ruben Mesa is Executive Director of the Atrium Health Wake Forest Baptist Comprehensive Cancer Center, a National Cancer Institute designated comprehensive cancer centre in Winston-Salem, North Carolina, and President of the Cancer Service Line. The cancer centre's own website introduces him under the heading 'Meet Dr. Ruben Mesa, Our New Cancer Center Director', asking readers to welcome him as the new Executive Director of the NCI-designated centre. The page did not give an appointment date or further biographical detail.",
+    profiles: [{ label: "Atrium Health Wake Forest Baptist cancer pages", url: "https://www.wakehealth.edu/cancer" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Mesa+RA%5BAuthor%5D" }],
+    links: [{ label: "Source: Wake Forest Baptist cancer centre page introducing the director", url: "https://www.wakehealth.edu/cancer" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+
+  // =================== Auckland City Hospital / Te Pūriri o Te Ora Cancer and Blood Service ===================
+  p({ id: "dale-bramley", name: "Dale Bramley", role: "Chief Executive, Health New Zealand Te Whatu Ora (parent body of Auckland City Hospital)", institutionId: "auckland-city-hospital", specialisms: ["Public health medicine", "Health system leadership"],
+    tldr: "Public health physician who is Chief Executive of Health New Zealand Te Whatu Ora, the national body that runs Auckland City Hospital and its Te Pūriri o Te Ora cancer and blood service.",
+    summary: "Dale Bramley is Chief Executive of Health New Zealand Te Whatu Ora, the single national organisation that since 2022 has run New Zealand's public hospitals, including Auckland City Hospital and its Te Pūriri o Te Ora Cancer and Blood Service. Health New Zealand's executive team page describes him as a public health medicine specialist and former chief executive of Waitematā District Health Board; Wikipedia records that he was appointed Chief Executive on 25 June 2025, succeeding Margie Apa. Auckland City Hospital no longer publishes a separate leadership page, its former adhb.health.nz site redirecting to a Health New Zealand services directory.",
+    profiles: [{ label: "Health New Zealand executive team", url: "https://www.healthnz.govt.nz/about-us/who-we-are/our-executive-team" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Bramley+D%5BAuthor%5D+AND+New+Zealand" }],
+    links: [{ label: "Source: Health New Zealand 'Our executive team' page", url: "https://www.healthnz.govt.nz/about-us/who-we-are/our-executive-team" }, { label: "Source: Wikipedia article on Te Whatu Ora (appointment date)", url: "https://en.wikipedia.org/wiki/Te_Whatu_Ora" }],
+    tags: ["leadership", "government", "hospital-management"], cancers: [] }),
+
+  // =================== AUSL-IRCCS di Reggio Emilia ===================
+  p({ id: "davide-fornaciari", name: "Davide Fornaciari", role: "Direttore Generale, Azienda USL-IRCCS di Reggio Emilia", institutionId: "ausl-irccs-reggio-emilia", specialisms: ["Public health administration", "Hospital management"],
+    tldr: "Director general who leads the Azienda USL-IRCCS di Reggio Emilia, the health authority that runs the Arcispedale Santa Maria Nuova and its oncology research institute.",
+    summary: "Davide Fornaciari leads the Azienda USL-IRCCS di Reggio Emilia as Direttore Generale, according to the Italian Wikipedia article on the Arcispedale Santa Maria Nuova, the hospital at the heart of the authority and an IRCCS (research hospital) in advanced technologies and care models in oncology. The article cites a May 2025 announcement from the Municipality of Reggio Emilia referring to him as the newly appointed Direttore Generale of the AUSL. The authority's own website could not be reached when checked.",
+    profiles: [{ label: "Wikipedia (Italian): Arcispedale Santa Maria Nuova", url: "https://it.wikipedia.org/wiki/Arcispedale_Santa_Maria_Nuova" }],
+    links: [{ label: "Source: Italian Wikipedia article naming the Direttore Generale", url: "https://it.wikipedia.org/wiki/Arcispedale_Santa_Maria_Nuova" }],
+    tags: ["leadership", "hospital-management", "research-institute"], cancers: [] }),
+
+  // =================== AZ Groeninge Kortrijk Cancer Centre ===================
+  p({ id: "inge-buyse", name: "Inge Buyse", role: "CEO (Algemeen Directeur), AZ Groeninge, Kortrijk", institutionId: "az-groeninge-kortrijk", specialisms: ["Hospital management", "Healthcare governance"],
+    tldr: "Chief executive who runs AZ Groeninge in Kortrijk, the large Belgian general hospital whose cancer centre serves the south of West Flanders.",
+    summary: "Inge Buyse is CEO of AZ Groeninge, the general hospital in Kortrijk, Belgium, whose cancer centre (kankercentrum) delivers oncology care for the region. The hospital's governance page states that the directiecomité (management committee), which meets weekly, is chaired by CEO Inge Buyse, and describes the board, general services and committees of the hospital. The page did not give an appointment date or biographical detail.",
+    profiles: [{ label: "AZ Groeninge board, management and committees (Dutch)", url: "https://www.azgroeninge.be/nl/patient/bestuur-directie-comites" }],
+    links: [{ label: "Source: AZ Groeninge 'Bestuur - Directie - Comités' page", url: "https://www.azgroeninge.be/nl/patient/bestuur-directie-comites" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Barbara Ann Karmanos Cancer Institute ===================
+  p({ id: "boris-pasche", name: "Boris C. Pasche", role: "President and Chief Executive Officer, Barbara Ann Karmanos Cancer Institute", institutionId: "karmanos", specialisms: ["Medical oncology", "Cancer genetics", "Cancer centre leadership"],
+    tldr: "Oncologist who leads the Barbara Ann Karmanos Cancer Institute in Detroit as President and CEO and chairs the Department of Oncology at Wayne State University.",
+    summary: "Boris C. Pasche (MD, PhD, FACP) leads the Barbara Ann Karmanos Cancer Institute in Detroit as President and Chief Executive Officer, according to the institute's English Wikipedia article, which describes the institute as being 'under the direction of President and CEO Boris C. Pasche'. Karmanos is a National Cancer Institute designated comprehensive cancer centre, and its academic partner is Wayne State University School of Medicine, whose Department of Oncology page lists him as Chair. The Karmanos website itself could not be fetched when checked.",
+    profiles: [{ label: "Wayne State University Department of Oncology", url: "https://oncology.med.wayne.edu/" }, { label: "Wikipedia: Barbara Ann Karmanos Cancer Institute", url: "https://en.wikipedia.org/wiki/Barbara_Ann_Karmanos_Cancer_Institute" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Pasche+B%5BAuthor%5D" }],
+    links: [{ label: "Source: Wikipedia article on the institute (names President and CEO)", url: "https://en.wikipedia.org/wiki/Barbara_Ann_Karmanos_Cancer_Institute" }, { label: "Source: Wayne State Department of Oncology page (Chair)", url: "https://oncology.med.wayne.edu/" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+
+  // =================== Beaumont RCSI Cancer Centre ===================
+  p({ id: "patrick-morris", name: "Patrick G. Morris", role: "Medical Director, Beaumont RCSI Cancer Centre, Dublin", institutionId: "beaumont-rcsi-cancer-centre", specialisms: ["Medical oncology", "Cancer centre leadership"],
+    tldr: "Physician who is Medical Director of the Beaumont RCSI Cancer Centre, the OECI accredited cancer centre on the Beaumont Hospital campus in Dublin.",
+    summary: "Patrick G. Morris (MD, FRCPI) is Medical Director of the Beaumont RCSI Cancer Centre in Dublin, and welcomes visitors to the centre's website in that role. The centre is a partnership of Beaumont Hospital, RCSI University of Medicine and Health Sciences and St Luke's Radiation Oncology Network, and in 2022 received Cancer Centre accreditation from the Organisation of European Cancer Institutes (OECI). Beaumont Hospital itself is led by Chief Executive Anne Coyle. The website did not give an appointment date.",
+    profiles: [{ label: "Beaumont RCSI Cancer Centre homepage (Medical Director's welcome)", url: "https://beaumontrcsicancercentre.ie/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Morris+PG%5BAuthor%5D+AND+Dublin" }],
+    links: [{ label: "Source: Beaumont RCSI Cancer Centre homepage naming the Medical Director", url: "https://beaumontrcsicancercentre.ie/" }, { label: "Source: Beaumont Hospital 'Our People' page (hospital executive)", url: "https://www.beaumont.ie/pages/about-pages/our-people" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+
+  // =================== BP - A Beneficência Portuguesa de São Paulo ===================
+  p({ id: "denise-soares-dos-santos", name: "Denise Soares dos Santos", role: "Chief Executive Officer, BP - A Beneficência Portuguesa de São Paulo", institutionId: "bp-beneficencia-portuguesa", specialisms: ["Hospital management", "Philanthropic healthcare"],
+    tldr: "Chief executive of BP, the philanthropic Beneficência Portuguesa hospital group in São Paulo whose services include a large oncology programme.",
+    summary: "Denise Soares dos Santos is Chief Executive Officer (CEO) of BP - A Beneficência Portuguesa de São Paulo, one of Brazil's largest philanthropic hospital institutions, founded in 1859. BP's corporate governance page lists her at the head of the Diretoria Executiva, alongside executive directors for technology, finance and operations, people and customer experience, business and expansion, and medical and technical development (Veridiana Camargo de Arruda Penteado), with Regina Stella Lelis as executive director of Hospital BP, BP Mirante and the diagnostic units. The Conselho de Administração is chaired by Josué Dimas de Melo Pimenta.",
+    profiles: [{ label: "BP corporate governance page (Portuguese)", url: "https://www.bp.org.br/institucional/governanca-corporativa/" }],
+    links: [{ label: "Source: BP 'Governança corporativa' page", url: "https://www.bp.org.br/institucional/governanca-corporativa/" }],
+    tags: ["leadership", "hospital-management", "philanthropy"], cancers: [] }),
+
+  // =================== Bristol Haematology and Oncology Centre ===================
+  p({ id: "maria-kane", name: "Maria Kane", role: "Chief Executive, University Hospitals Bristol and Weston NHS Foundation Trust (joint with North Bristol NHS Trust)", institutionId: "bristol-haematology-oncology-centre", specialisms: ["NHS management", "Health system leadership"],
+    tldr: "NHS leader who has been joint chief executive of University Hospitals Bristol and Weston and North Bristol since July 2024, the trusts that run the Bristol Haematology and Oncology Centre.",
+    summary: "Maria Kane OBE is Chief Executive of University Hospitals Bristol and Weston NHS Foundation Trust, the trust that runs the Bristol Haematology and Oncology Centre, and holds the post jointly with the chief executive role at North Bristol NHS Trust. She took up the joint role in July 2024, having been chief executive of North Bristol NHS Trust since April 2021 and previously of North Middlesex University Hospital NHS Trust (2017 to 2021) and Barnet, Enfield and Haringey Mental Health NHS Trust (2007 to 2017). She was made an OBE in 2019 for services to healthcare leadership and has chaired Bristol Health Partners.",
+    profiles: [{ label: "UHBW board: chief executive and executive directors", url: "https://www.bristolft.nhs.uk/about-us/our-board/chief-executive-and-executive-directors" }],
+    links: [{ label: "Source: UHBW 'Chief executive and executive directors' page", url: "https://www.bristolft.nhs.uk/about-us/our-board/chief-executive-and-executive-directors" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Cancer Center at Illinois ===================
+  p({ id: "rohit-bhargava", name: "Rohit Bhargava", role: "Phillip and Ann Sharp Director, Cancer Center at Illinois", institutionId: "cancer-center-at-illinois", specialisms: ["Bioengineering", "Chemical imaging", "Cancer technology research"],
+    tldr: "Engineer who founded and directs the Cancer Center at Illinois, the University of Illinois Urbana-Champaign centre that applies engineering and basic science to cancer.",
+    summary: "Rohit Bhargava is the Phillip and Ann Sharp Director of the Cancer Center at Illinois and holds the Grainger Distinguished Chair in Engineering at the University of Illinois Urbana-Champaign. The centre's history page records that it began in 2011 as the Cancer Community, led by him and a group of more than 50 Illinois faculty, before becoming a formal centre. His leadership team includes Deputy Director Paul Hergenrother and associate directors for translational research (Timothy Fan), shared resources, education, engagement and administration.",
+    profiles: [{ label: "Cancer Center at Illinois leadership directory", url: "https://cancer.illinois.edu/ccil-leadership/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Bhargava+R%5BAuthor%5D+AND+Illinois" }],
+    links: [{ label: "Source: Cancer Center at Illinois leadership page", url: "https://cancer.illinois.edu/ccil-leadership/" }, { label: "Source: Cancer Center at Illinois 'About' page (history)", url: "https://cancer.illinois.edu/about" }],
+    tags: ["leadership", "clinician-scientist", "research-institute"], cancers: [] }),
+  // =================== IRCCS Ospedale Policlinico San Martino ===================
+  p({ id: "monica-calamai", name: "Monica Calamai", role: "Direttore Generale (General Director), IRCCS Ospedale Policlinico San Martino", institutionId: "san-martino-genoa", specialisms: ["Hospital management", "Public health administration"],
+    tldr: "Hospital executive who serves as Direttore Generale of IRCCS Ospedale Policlinico San Martino, the university research hospital in Genoa.",
+    summary: "Monica Calamai is Direttore Generale of IRCCS Ospedale Policlinico San Martino in Genoa, a public research hospital (IRCCS) whose organisational chart places her at the head of the Direzione Strategica. The hospital's organigramma lists the strategic direction as four people: the Direttore Generale, Direttore Scientifico (acting) Angelo Schenone, Direttore Sanitario Marta Caltabellotta and Direttore Amministrativo Fabrizio Figallo. The hospital website did not give further biographical detail or an appointment date.",
+    profiles: [{ label: "San Martino organisational chart (Direzione Strategica)", url: "https://www.ospedalesanmartino.it/it/chi-siamo/organigramma.html" }],
+    links: [{ label: "Source: IRCCS Ospedale Policlinico San Martino organigramma page", url: "https://www.ospedalesanmartino.it/it/chi-siamo/organigramma.html" }],
+    tags: ["leadership", "hospital-management", "research-institute"], cancers: [] }),
+
+  // =================== IRCCS Sacro Cuore Don Calabria Hospital ===================
+  p({ id: "claudio-cracco", name: "Claudio Cracco", role: "Amministratore Delegato (Chief Executive), IRCCS Ospedale Sacro Cuore Don Calabria", institutionId: "sacro-cuore-don-calabria", specialisms: ["Hospital management", "Not-for-profit healthcare governance"],
+    tldr: "Chief executive who runs IRCCS Ospedale Sacro Cuore Don Calabria, the research hospital of the Don Calabria religious institute at Negrar near Verona.",
+    summary: "Claudio Cracco is Amministratore Delegato of IRCCS Ospedale Sacro Cuore Don Calabria at Negrar di Valpolicella near Verona, a private not-for-profit research hospital (IRCCS) run by the Opera Don Calabria. The hospital's leadership page lists him alongside the President, Fratel Gedovar Nazzari, and the Direttore Sanitario, Fabrizio Nicolis. No appointment date is given on the page.",
+    profiles: [{ label: "Sacro Cuore Don Calabria leadership page (La direzione)", url: "https://www.sacrocuore.it/la-direzione/" }],
+    links: [{ label: "Source: IRCCS Sacro Cuore Don Calabria 'La direzione' page", url: "https://www.sacrocuore.it/la-direzione/" }],
+    tags: ["leadership", "hospital-management", "research-institute"], cancers: [] }),
+
+  // =================== Komfo Anokye Teaching Hospital ===================
+  p({ id: "paa-kwesi-baidoo", name: "Paa Kwesi Baidoo", role: "Chief Executive Officer, Komfo Anokye Teaching Hospital", institutionId: "komfo-anokye-teaching-hospital", specialisms: ["Hospital management", "Medicine", "Health service leadership"],
+    tldr: "Physician who is Chief Executive Officer of Komfo Anokye Teaching Hospital in Kumasi, the main teaching and referral hospital for northern and central Ghana.",
+    summary: "Dr (Med) Paa Kwesi Baidoo is Chief Executive Officer of Komfo Anokye Teaching Hospital (KATH) in Kumasi, Ghana. The hospital's management page lists him at the head of a management team that includes Medical Director Prof. Yaw Ampem Amoako, Director of Nursing and Midwifery Services Comfort Asoogo, Director of Finance Elvis Kusi, Director of Pharmacy Kwaku Sarfo and Director of Administration George Fuseini. The hospital describes the team as providing strategic leadership, operational oversight and administrative direction. No appointment date is given on the page.",
+    profiles: [{ label: "KATH management page", url: "https://kath.gov.gh/management/" }],
+    links: [{ label: "Source: Komfo Anokye Teaching Hospital management page", url: "https://kath.gov.gh/management/" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Kuopio University Hospital Cancer Center ===================
+  p({ id: "satu-tiainen", name: "Satu Tiainen", role: "Ylilääkäri and Johtaja (Chief Physician and Director), Itäinen syöpäkeskus (FICAN East), Kuopio University Hospital", institutionId: "kuopio-university-hospital", specialisms: ["Oncology", "Cancer centre management", "Regional cancer networks"],
+    tldr: "Chief physician who directs Itäinen syöpäkeskus, the FICAN East regional cancer centre hosted by Kuopio University Hospital and the Pohjois-Savo wellbeing services county.",
+    summary: "Satu Tiainen is listed as Ylilääkäri, Johtaja (chief physician and director) of Itäinen syöpäkeskus, the Eastern Finland cancer centre (FICAN East) whose host organisations include the Pohjois-Savo wellbeing services county, home of Kuopio University Hospital (KYS), together with the University of Eastern Finland and the wellbeing services counties of Central Finland, North Karelia and South Savo. The centre's contact page lists her with development coordinator Jenni Nyrkkö and clinical expert physician Okko Kääriäinen, and she also sits on the centre's clinical working group as a KYS representative. Its governing board is chaired by Outi Kuittinen of the University of Eastern Finland.",
+    profiles: [{ label: "FICAN East contact page", url: "https://fican.fi/itainen-syopakeskus/yhteystiedot/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Tiainen+S%5BAuthor%5D+AND+Kuopio" }],
+    links: [{ label: "Source: Itäinen syöpäkeskus (FICAN East) contact and staff page", url: "https://fican.fi/itainen-syopakeskus/yhteystiedot/" }, { label: "Source: FICAN East organisation and board page", url: "https://fican.fi/itainen-syopakeskus/tietoa-meista2/organisaatio-ja-johtoryhma/" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+
+  // =================== Leicester Cancer Research Centre / University Hospitals of Leicester ===================
+  p({ id: "richard-mitchell", name: "Richard Mitchell", role: "Chief Executive, University Hospitals of Leicester NHS Trust", institutionId: "leicester-cancer-research-centre", specialisms: ["NHS management", "Hospital leadership"],
+    tldr: "NHS chief executive who leads University Hospitals of Leicester NHS Trust, the hospital partner of the University of Leicester's Leicester Cancer Research Centre.",
+    summary: "Richard Mitchell is Chief Executive of University Hospitals of Leicester NHS Trust, the acute hospital trust for Leicester, Leicestershire and Rutland and the clinical partner of the University of Leicester's Leicester Cancer Research Centre. The trust's board page lists him at the head of an executive team that includes Deputy Chief Executive Simon Barton, Medical Director Gang Xu, Group Chief Nurse Julie Hogg, Chief Operating Officer Helen Hendley and Chief Financial Officer Lee Bond. The University of Leicester's own centre pages could not be read at the time of checking; its Wikipedia coverage names Catrin Pritchard as deputy director of the centre.",
+    profiles: [{ label: "UHL Trust Board members page", url: "https://www.uhleicester.nhs.uk/about/board/members/" }],
+    links: [{ label: "Source: University Hospitals of Leicester NHS Trust board members page", url: "https://www.uhleicester.nhs.uk/about/board/members/" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Linköping University Hospital Cancer Center ===================
+  p({ id: "ida-danmark", name: "Ida Danmark", role: "Centrumchef, Centrum för kirurgi, ortopedi och cancervård (CKOC), Region Östergötland", institutionId: "linkoping-university-hospital", specialisms: ["Cancer care management", "Surgical services", "Regional health administration"],
+    tldr: "Regional health manager who heads the Centre for Surgery, Orthopaedics and Cancer Care, the Region Östergötland centre that runs cancer services at Linköping University Hospital.",
+    summary: "Ida Danmark is Centrumchef (head of centre) of Centrum för kirurgi, ortopedi och cancervård (CKOC), the Region Östergötland organisational centre responsible for surgery, orthopaedics and cancer care, including the cancer services delivered at Universitetssjukhuset i Linköping. Region Östergötland's health and care leadership group page lists her among the centre heads reporting to care directors Jessica Frisk and Ninnie Borendal Wodlin; the region as a whole is led by regiondirektör Mikael Borin. No appointment date is given on the page.",
+    profiles: [{ label: "Region Östergötland health and care leadership group", url: "https://www.regionostergotland.se/ro/om-region-ostergotland/organisation/halso--och-sjukvardens-ledningsgrupp" }],
+    links: [{ label: "Source: Region Östergötland hälso- och sjukvårdens ledningsgrupp page", url: "https://www.regionostergotland.se/ro/om-region-ostergotland/organisation/halso--och-sjukvardens-ledningsgrupp" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Maastricht UMC+ Comprehensive Cancer Center ===================
+  p({ id: "helen-mertens", name: "Helen Mertens", role: "Voorzitter Raad van Bestuur (Chair of the Executive Board), Maastricht UMC+", institutionId: "maastricht-umc", specialisms: ["Gynaecology and obstetrics", "Gynaecological oncology research", "Hospital governance"],
+    tldr: "Gynaecologist with a doctorate in gynaecological cancer research who chairs the executive board of Maastricht UMC+, the university medical centre that runs the Maastricht comprehensive cancer centre.",
+    summary: "Helen Mertens is Voorzitter (chair) of the Raad van Bestuur of academisch ziekenhuis Maastricht and Maastricht UMC+, the university medical centre whose Oncologiecentrum operates as the Maastricht UMC+ Comprehensive Cancer Center. She studied medicine in Maastricht, specialised in obstetrics and gynaecology and obtained her PhD in 2002 on gynaecological cancer research; before joining the board she was medical director at Orbis Medisch Centrum. The board page lists her alongside vice-chair Annemie Schols, chief financial officer Véronique Thoelen, Stef Kremers and Jos Maessen.",
+    profiles: [{ label: "Maastricht UMC+ Raad van Bestuur page", url: "https://www.mumc.nl/over-mumc/bestuur-en-organisatie/bestuur" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Mertens+H%5BAuthor%5D+AND+Maastricht" }],
+    links: [{ label: "Source: Maastricht UMC+ executive board page", url: "https://www.mumc.nl/over-mumc/bestuur-en-organisatie/bestuur" }],
+    tags: ["leadership", "hospital-management", "clinician-scientist"], cancers: [] }),
+
+  // =================== Masonic Cancer Center, University of Minnesota ===================
+  p({ id: "jeffrey-miller", name: "Jeffrey Miller", role: "Director, Masonic Cancer Center, University of Minnesota", institutionId: "minnesota-masonic", specialisms: ["Haematology and oncology", "Cancer immunotherapy", "Cancer centre leadership"],
+    tldr: "Physician who directs the Masonic Cancer Center at the University of Minnesota, the NCI-designated comprehensive cancer centre in Minneapolis.",
+    summary: "Jeffrey Miller, MD, is Director of the Masonic Cancer Center, University of Minnesota. The centre's leadership directory lists him at the head of a senior team that includes Deputy Director David Largaespada, PhD, and Executive Director and Associate Director of Administration Aaron Schilz, MPA, together with associate directors for translational research, clinical research, basic sciences, training and education, population sciences and data sciences. The directory page gives no appointment date or biography.",
+    profiles: [{ label: "Masonic Cancer Center leadership page", url: "https://cancer.umn.edu/about/leadership" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Miller+JS%5BAuthor%5D+AND+Minnesota" }],
+    links: [{ label: "Source: Masonic Cancer Center leadership directory", url: "https://cancer.umn.edu/about/leadership" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+
+  // =================== Max Healthcare (Max Institute of Cancer Care) ===================
+  p({ id: "abhay-soi", name: "Abhay Soi", role: "Chairman and Managing Director, Max Healthcare Institute", institutionId: "max-healthcare", specialisms: ["Healthcare business leadership", "Hospital group management"],
+    tldr: "Business leader who leads Max Healthcare, the Indian private hospital group whose network includes the Max Institute of Cancer Care.",
+    summary: "Abhay Soi leads Max Healthcare Institute as Chairman and Managing Director, according to the company's Wikipedia article. Max Healthcare is one of India's largest private hospital groups and operates the Max Institute of Cancer Care across its hospitals. The article records that he became chairman after his company Radiant Life Care acquired a large stake in Max Healthcare and that he later became the group's sole promoter after KKR sold its holding. The group's own leadership pages could not be read at the time of checking.",
+    profiles: [{ label: "Wikipedia: Max Healthcare", url: "https://en.wikipedia.org/wiki/Max_Healthcare" }],
+    links: [{ label: "Source: Wikipedia article on Max Healthcare (leadership infobox)", url: "https://en.wikipedia.org/wiki/Max_Healthcare" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Mays Cancer Center at UT Health San Antonio ===================
+  p({ id: "lei-zheng", name: "Lei Zheng", role: "Executive Director, Mays Cancer Center, and Vice President for Oncology, UT Health San Antonio", institutionId: "mays-cancer-center", specialisms: ["Medical oncology", "Cancer immunology", "Cancer centre leadership"],
+    tldr: "Physician-scientist who is Executive Director of the Mays Cancer Center at UT Health San Antonio, the only NCI-designated cancer centre in South Texas.",
+    summary: "Lei Zheng, MD, PhD, is Executive Director of the Mays Cancer Center at UT Health San Antonio and the university's Vice President for Oncology. UT Health San Antonio news items from May, June and August 2026 quote him in that role, including the August 2026 announcement naming Georg Aue inaugural director of the centre's stem cell transplant and cellular therapy programme. The centre, which also uses the name UT Health San Antonio MD Anderson Cancer Center, has served South Texas since 1974 and is described by the university as the only NCI-designated cancer centre in the region.",
+    profiles: [{ label: "UT Health San Antonio news (August 2026) quoting the Executive Director", url: "https://news.uthscsa.edu/ut-health-san-antonio-names-nih-expert-inaugural-director-of-stem-cell-transplant-and-cellular-therapy-program/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Zheng+L%5BAuthor%5D+AND+San+Antonio" }],
+    links: [{ label: "Source: UT Health San Antonio news release naming Lei Zheng as Executive Director", url: "https://news.uthscsa.edu/ut-health-san-antonio-names-nih-expert-inaugural-director-of-stem-cell-transplant-and-cellular-therapy-program/" }, { label: "Source: Mays Cancer Center about page", url: "https://cancer.uthscsa.edu/about/about-uthealthsa-mdanderson-cancer-center" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+
+  // =================== McGill University Health Centre / Cedars Cancer Centre ===================
+  p({ id: "lucie-opatrny", name: "Lucie Opatrny", role: "President and Executive Director, McGill University Health Centre", institutionId: "muhc-cedars-cancer-centre", specialisms: ["Hospital management", "Internal medicine", "Health system leadership"],
+    tldr: "Physician and hospital executive who is President and Executive Director of the McGill University Health Centre, the Montreal academic health network that includes the Cedars Cancer Centre.",
+    summary: "Dr Lucie Opatrny is President and Executive Director of the McGill University Health Centre (MUHC), the Montreal academic health network whose cancer services are delivered through the Cedars Cancer Centre. The MUHC senior management page lists her at the head of a team that includes Associate President and Executive Director Colleen Timm, Associate Director General for Administration Caroline Dubé, Director of Medical and Professional Services Nicolas Gillot, Director of The Neuro Edward A. Fon and Director of Nursing Alain Biron. The page does not give an appointment date.",
+    profiles: [{ label: "MUHC senior management profiles", url: "https://muhc.ca/corporate-leadership/senior-management-profiles" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Opatrny+L%5BAuthor%5D" }],
+    links: [{ label: "Source: MUHC senior management profiles page", url: "https://muhc.ca/corporate-leadership/senior-management-profiles" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Moi Teaching and Referral Hospital / AMPATH Oncology ===================
+  p({ id: "philip-kirwa", name: "Philip K. Kirwa", role: "Chief Executive Officer, Moi Teaching and Referral Hospital", institutionId: "moi-teaching-referral-hospital", specialisms: ["Hospital management", "Medicine", "Public health service leadership"],
+    tldr: "Physician who is Chief Executive Officer of Moi Teaching and Referral Hospital in Eldoret, Kenya, the national referral hospital that hosts the AMPATH Oncology programme.",
+    summary: "Dr Philip K. Kirwa is Chief Executive Officer of Moi Teaching and Referral Hospital (MTRH) in Eldoret, Kenya, the public national teaching and referral hospital that hosts the AMPATH Oncology programme. The hospital's management pages show him at the head of the executive structure, with Senior Director for Clinical Services Andrew Wandera and Senior Director for Administration and Finance Tarus B. Kipchumba reporting to him. The pages do not give an appointment date.",
+    profiles: [{ label: "MTRH Office of the CEO", url: "https://www.mtrh.go.ke/?page_id=24" }, { label: "MTRH hospital management team", url: "https://www.mtrh.go.ke/?page_id=3857" }],
+    links: [{ label: "Source: Moi Teaching and Referral Hospital management team page", url: "https://www.mtrh.go.ke/?page_id=3857" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Montefiore Einstein Comprehensive Cancer Center ===================
+  p({ id: "ulrich-steidl", name: "Ulrich G. Steidl", role: "Director, Montefiore Einstein Comprehensive Cancer Center", institutionId: "montefiore-einstein", specialisms: ["Haematological malignancies", "Stem cell biology", "Cancer centre leadership"],
+    tldr: "Physician-scientist who directs the Montefiore Einstein Comprehensive Cancer Center, the NCI-designated cancer centre serving the Bronx and surrounding New York communities.",
+    summary: "Ulrich G. Steidl, MD, PhD, is Director of the Montefiore Einstein Comprehensive Cancer Center, the joint cancer centre of Montefiore Health System and Albert Einstein College of Medicine in the Bronx, New York. The centre's team page lists him at the head of a leadership group that includes Deputy Director Amit K. Verma, Deputy Director for Administration Lauren E. Hackett, Deputy Director for Community Outreach and Engagement Alyson B. Moadel-Robblee, and associate directors Julio A. Aguirre-Ghiso (basic science), Balazs Halmos (clinical science), Marina Konopleva (translational science), Shalom Kalnicki (clinical affairs) and Brendon M. Stiles (surgical oncology). The page gives no appointment date.",
+    profiles: [{ label: "Montefiore Einstein cancer centre team page", url: "https://montefioreeinstein.org/cancer/about/team" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Steidl+U%5BAuthor%5D" }],
+    links: [{ label: "Source: Montefiore Einstein Comprehensive Cancer Center team page", url: "https://montefioreeinstein.org/cancer/about/team" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+
+  // =================== Mount Vernon Cancer Centre ===================
+  p({ id: "martin-armstrong", name: "Martin Armstrong", role: "Chief Executive, East and North Hertfordshire Teaching NHS Trust (Mount Vernon Cancer Centre)", institutionId: "mount-vernon-cancer-centre", specialisms: ["NHS management", "Hospital leadership"],
+    tldr: "NHS chief executive who leads East and North Hertfordshire Teaching NHS Trust, the trust that runs Mount Vernon Cancer Centre in Northwood.",
+    summary: "Martin Armstrong is Chief Executive of East and North Hertfordshire Teaching NHS Trust, which runs Mount Vernon Cancer Centre in Northwood, Middlesex, alongside Lister Hospital and its other Hertfordshire sites. The trust describes Mount Vernon as a specialist cancer centre with more than 500 staff whose consultants each specialise in one or two particular cancers. The trust's executive team page lists him alongside Medical Director Justin Daniels, Chief Operating Officer Lucy Davies, Chief Nurse Theresa Murphy and Chief People Officer Penny St Martin, without giving appointment dates.",
+    profiles: [{ label: "East and North Hertfordshire executive team page", url: "https://www.enherts-tr.nhs.uk/about/board/meet-the-trusts-executive-team/" }],
+    links: [{ label: "Source: East and North Hertfordshire Teaching NHS Trust executive team page", url: "https://www.enherts-tr.nhs.uk/about/board/meet-the-trusts-executive-team/" }, { label: "Source: Mount Vernon Cancer Centre page on the trust website", url: "https://www.enherts-tr.nhs.uk/hospitals/mount-vernon/" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== MUSC Hollings Cancer Center ===================
+  p({ id: "raymond-dubois", name: "Raymond N. DuBois", role: "Director, MUSC Hollings Cancer Center, and Associate Provost for Cancer Programs, Medical University of South Carolina", institutionId: "musc-hollings", specialisms: ["Gastrointestinal cancer biology", "Inflammation and cancer", "Cancer centre leadership"],
+    tldr: "Physician-scientist known for work on inflammation in gastrointestinal cancers who directs MUSC Hollings Cancer Center, South Carolina's NCI-designated cancer centre.",
+    summary: "Raymond N. DuBois, MD, PhD, is Director of MUSC Hollings Cancer Center, Associate Provost for Cancer Programs and Professor of Biochemistry and Molecular Biology at the Medical University of South Carolina in Charleston. The centre describes him as an internationally known scientist whose research has clarified the role of inflammation in gastrointestinal cancers, with more than 160 peer-reviewed articles among 274 publications cited over 70,000 times, and who was elected to the National Academy of Medicine in 2019. He earned his bachelor's degree from Texas A&M University, his PhD from UT Southwestern and his MD from UT San Antonio, and trained at Johns Hopkins Hospital in the laboratory of Nobel laureate Daniel Nathans.",
+    profiles: [{ label: "Hollings Cancer Center leadership page", url: "https://hollingscancercenter.musc.edu/about/leadership" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=DuBois+RN%5BAuthor%5D" }],
+    links: [{ label: "Source: MUSC Hollings Cancer Center leadership page", url: "https://hollingscancercenter.musc.edu/about/leadership" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+  // =================== Davidoff Cancer Center, Rabin Medical Center ===================
+  p({ id: "erez-barenboim", name: "Erez Barenboim", role: "Director of Rabin Medical Center, the Clalit hospital that houses the Davidoff Cancer Center", institutionId: "rabin-davidoff-center", specialisms: ["Internal medicine", "Hospital management", "Health systems management"],
+    tldr: "Internal medicine physician and former air force chief medical officer who directs Rabin Medical Center in Petah Tikva, the Clalit hospital whose Beilinson campus houses the Davidoff Cancer Center.",
+    summary: "Erez Barenboim (ארז ברנבוים) directs Rabin Medical Center in Petah Tikva, the Clalit Health Services hospital whose Beilinson campus includes the Davidoff Cancer Center. Hebrew Wikipedia describes him as an internal medicine physician with a master's degree in health systems management who previously directed a hospital in the Assuta network, served as deputy director of Meir Medical Center and was chief medical officer of the Israeli Air Force. The hospital's own website could not be reached to confirm who currently heads the Davidoff Cancer Center itself, so this record points at the director of the parent hospital.",
+    profiles: [{ label: "Wikipedia (Hebrew)", url: "https://he.wikipedia.org/wiki/ארז_ברנבוים" }],
+    links: [{ label: "Source: Hebrew Wikipedia article on Erez Barenboim", url: "https://he.wikipedia.org/wiki/ארז_ברנבוים" }, { label: "Source: Hebrew Wikipedia article on Rabin Medical Center (director field)", url: "https://he.wikipedia.org/wiki/מרכז_רפואי_רבין" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Department of Biotechnology, Government of India ===================
+  p({ id: "rajesh-gokhale", name: "Rajesh S. Gokhale", role: "Secretary, Department of Biotechnology, Government of India", institutionId: "dbt-india", specialisms: ["Chemical biology", "Microbial metabolism", "Science administration"],
+    tldr: "Chemical biologist who leads India's Department of Biotechnology as its Secretary, having previously directed the Institute of Genomics and Integrative Biology in New Delhi.",
+    summary: "Rajesh Sudhir Gokhale leads the Department of Biotechnology (DBT) as Secretary to the Government of India; DBT, part of the Ministry of Science and Technology, funds biotechnology research and institutions across India. He is a chemical biologist whose work has focused on the metabolic diversity of pathogens, including the discovery of a family of long chain fatty acyl AMP ligases in Mycobacterium tuberculosis. He was Director of the Institute of Genomics and Integrative Biology from 2009 to 2016, is a professor of biology at IISER Pune, and received the Shanti Swarup Bhatnagar Prize in 2006. The DBT website was unreachable when checked, so this record relies on Wikipedia.",
+    profiles: [{ label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Rajesh_Sudhir_Gokhale" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Gokhale+RS%5BAuthor%5D" }],
+    links: [{ label: "Source: Wikipedia article on Rajesh Sudhir Gokhale", url: "https://en.wikipedia.org/wiki/Rajesh_Sudhir_Gokhale" }, { label: "Source: Wikipedia article on the Department of Biotechnology (Secretary field)", url: "https://en.wikipedia.org/wiki/Department_of_Biotechnology" }],
+    tags: ["leadership", "government", "research-institute"], cancers: [] }),
+
+  // =================== First Affiliated Hospital of Sun Yat-sen University ===================
+  p({ id: "xiao-haipeng", name: "Xiao Haipeng", role: "President, The First Affiliated Hospital, Sun Yat-sen University", institutionId: "sysu-first-affiliated-hospital", specialisms: ["Hospital management", "Academic medicine"],
+    tldr: "Hospital president who leads the First Affiliated Hospital of Sun Yat-sen University in Guangzhou, one of the largest university teaching hospitals in southern China.",
+    summary: "Xiao Haipeng is President of The First Affiliated Hospital, Sun Yat-sen University (中山大学附属第一医院) in Guangzhou. The hospital's English leadership page lists him as President alongside Party Committee Secretary Luo Teng and vice presidents Zeng Jinsheng, Kuang Ming, Wang Zilian, Yin Xiaoyu, Zhu Qingtang and Chen Wei. The page gives no appointment date or biographical detail.",
+    profiles: [{ label: "Hospital leadership page (English)", url: "https://www.fahsysu.org.cn/en/basic/32843" }],
+    links: [{ label: "Source: First Affiliated Hospital leadership page", url: "https://www.fahsysu.org.cn/en/basic/32843" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Fox Chase Cancer Center ===================
+  p({ id: "robert-uzzo", name: "Robert G. Uzzo", role: "President and CEO, Fox Chase Cancer Center", institutionId: "fox-chase", specialisms: ["Cancer centre management", "Clinical cancer research", "Academic medicine"],
+    tldr: "Surgeon and cancer centre executive who is President and CEO of Fox Chase Cancer Center in Philadelphia and Executive Vice President for Cancer Services at Temple University Health System.",
+    summary: "Robert G. Uzzo, MD, MBA, FACS, is President and CEO of Fox Chase Cancer Center, the Philadelphia cancer centre that is part of Temple University Health System. Temple Health's leadership directory also lists him as holder of the G. Willing 'Wing' Pepper Chair in Cancer Research at Fox Chase, Executive Vice President for Cancer Services at Temple University Health System, and Senior Associate Dean for Clinical Cancer Research at the Lewis Katz School of Medicine at Temple University. The directory gives no appointment date.",
+    profiles: [{ label: "Temple Health leadership directory", url: "https://www.templehealth.org/about/leadership" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Uzzo+RG%5BAuthor%5D" }],
+    links: [{ label: "Source: Temple University Health System leadership directory", url: "https://www.templehealth.org/about/leadership" }],
+    tags: ["leadership", "comprehensive-cancer-centre", "hospital-management"], cancers: [] }),
+
+  // =================== Fred & Pamela Buffett Cancer Center ===================
+  p({ id: "joann-sweasy", name: "Joann B. Sweasy", role: "Director, Fred & Pamela Buffett Cancer Center, University of Nebraska Medical Center", institutionId: "nebraska-buffett", specialisms: ["DNA repair", "Cancer biology", "Cancer centre management"],
+    tldr: "DNA repair scientist who directs the Fred & Pamela Buffett Cancer Center in Omaha and the UNMC Eppley Institute.",
+    summary: "Joann B. Sweasy, PhD, is Director of the Fred & Pamela Buffett Cancer Center at the University of Nebraska Medical Center (UNMC) in Omaha, where she holds the Robert F. and Myrna L. Krohn Chair in Cancer Research and also directs the UNMC Eppley Institute. Her research focuses on DNA repair. The centre's leadership page lists her senior team, including deputy directors Kathleen Moore (phase 1 oncology trials) and Thomas A. Sellers (population science), and gives no appointment date.",
+    profiles: [{ label: "Cancer centre leadership page", url: "https://www.unmc.edu/cancercenter/about/leadership.html" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Sweasy+JB%5BAuthor%5D" }],
+    links: [{ label: "Source: Fred & Pamela Buffett Cancer Center leadership page", url: "https://www.unmc.edu/cancercenter/about/leadership.html" }],
+    tags: ["leadership", "clinician-scientist", "research-institute"], cancers: [] }),
+
+  // =================== Fundación Instituto Valenciano de Oncología (IVO) ===================
+  p({ id: "antonio-llombart-bosch", name: "Antonio Llombart Bosch", role: "Presidente del Patronato (Chair of the Board of Trustees), Fundación Instituto Valenciano de Oncología", institutionId: "ivo-valencia", specialisms: ["Oncology", "Foundation governance"],
+    tldr: "Physician who presides over the board of trustees of the Fundación Instituto Valenciano de Oncología (IVO), the private non profit cancer centre in Valencia.",
+    summary: "Antonio Llombart Bosch is Presidente del Patronato of the Fundación Instituto Valenciano de Oncología (IVO), a private non profit foundation created in 1976 that runs a dedicated cancer hospital in Valencia. The foundation's board page lists him alongside vice president Tomás Trénor y Puig, Marqués del Turia, secretary Jaime Olleros Izard and treasurer Santiago Bauzá Anglada. The IVO publishes its management structure only as a 2026 organisation chart image, so the executive team below the board could not be read from the site.",
+    profiles: [{ label: "IVO board of trustees page", url: "https://www.ivo.es/la-fundacion/el-patronato/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Llombart-Bosch+A%5BAuthor%5D" }],
+    links: [{ label: "Source: IVO 'El patronato' page", url: "https://www.ivo.es/la-fundacion/el-patronato/" }],
+    tags: ["leadership", "philanthropy", "hospital-management"], cancers: [] }),
+
+  // =================== Fundación Valle del Lili ===================
+  p({ id: "vicente-borrero", name: "Vicente Borrero", role: "Director General, Fundación Valle del Lili", institutionId: "fundacion-valle-del-lili", specialisms: ["Hospital management", "Healthcare leadership"],
+    tldr: "Hospital leader who has run Fundación Valle del Lili in Cali, Colombia, as Director General for three decades.",
+    summary: "Vicente Borrero is Director General of Fundación Valle del Lili, a non profit hospital and medical foundation in Cali, Colombia, that also runs education and research programmes. In February 2026 the foundation paid tribute to him for 30 years of managing the institution, and it also reported his recognition as businessman of the year for Colombia's Pacific zone, an interview in which he said the humanitarian response of his medical staff during the pandemic had been more gratifying than any economic result. The foundation's website names Marcela Granados as Subdirectora General.",
+    profiles: [{ label: "Fundación Valle del Lili tribute article (February 2026)", url: "https://valledellili.org/homenaje-al-dr-vicente-borrero-director-general-de-la-fundacion-valle-del-lili-por-sus-30-anos-de-gestion-de-la-institucion/" }],
+    links: [{ label: "Source: Fundación Valle del Lili article naming the Director General", url: "https://valledellili.org/homenaje-al-dr-vicente-borrero-director-general-de-la-fundacion-valle-del-lili-por-sus-30-anos-de-gestion-de-la-institucion/" }],
+    tags: ["leadership", "hospital-management", "philanthropy"], cancers: [] }),
+
+  // =================== Henan Cancer Hospital ===================
+  p({ id: "zhang-jiangong", name: "Zhang Jiangong", role: "President (院长), Henan Cancer Hospital", institutionId: "henan-cancer-hospital", specialisms: ["Oncology", "Hospital management"],
+    tldr: "Hospital president who leads Henan Cancer Hospital in Zhengzhou, the provincial specialist cancer hospital for Henan province.",
+    summary: "Zhang Jiangong (张建功) leads Henan Cancer Hospital (河南省肿瘤医院) in Zhengzhou as its President. The Chinese Wikipedia article on the hospital lists him in the president field of its infobox. The hospital's own website could not be reached when checked, so no appointment date or biography is given here.",
+    profiles: [{ label: "Wikipedia (Chinese) article on Henan Cancer Hospital", url: "https://zh.wikipedia.org/wiki/河南省肿瘤医院" }],
+    links: [{ label: "Source: Chinese Wikipedia article on Henan Cancer Hospital (president field)", url: "https://zh.wikipedia.org/wiki/河南省肿瘤医院" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
+
+  // =================== Histiocyte Society ===================
+  p({ id: "vasanta-nanduri", name: "Vasanta Nanduri", role: "President, Histiocyte Society", institutionId: "histiocyte-society", specialisms: ["Histiocytic disorders", "Clinical research collaboration"],
+    tldr: "Clinician at Watford General Hospital who is President of the Histiocyte Society, the international research society for histiocytic disorders, for the 2025 to 2028 term.",
+    summary: "Vasanta Nanduri, of Watford General Hospital in the United Kingdom, is President of the Histiocyte Society for the 2025 to 2028 term. The society's executive board page lists her alongside past president Kim Nichols of St. Jude Children's Research Hospital, treasurer Scott Baker of Fred Hutchinson Cancer Center, secretary Caroline Hutter of St. Anna Kinderspital in Vienna, and members at large Oussama Abla and Astrid van Halteren. The Histiocyte Society is an international society of physicians and scientists working on histiocytic disorders.",
+    profiles: [{ label: "Histiocyte Society executive board", url: "https://histiocytesociety.org/executive-board/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Nanduri+V%5BAuthor%5D" }],
+    links: [{ label: "Source: Histiocyte Society executive board page", url: "https://histiocytesociety.org/executive-board/" }],
+    tags: ["leadership", "professional-society", "clinician-scientist"], cancers: [] }),
+
+  // =================== Holden Comprehensive Cancer Center, University of Iowa ===================
+  p({ id: "mark-burkard", name: "Mark E. Burkard", role: "Director, Holden Comprehensive Cancer Center, University of Iowa", institutionId: "iowa-holden", specialisms: ["Breast cancer", "Cancer genomics", "Precision oncology"],
+    tldr: "Breast cancer physician scientist who has directed the Holden Comprehensive Cancer Center at the University of Iowa since October 2024.",
+    summary: "Mark E. Burkard, MD, PhD, became Director of the Holden Comprehensive Cancer Center on 1 October 2024. He holds the C.E. Block Chair of Cancer Research and is Professor and Associate Dean for Cancer in the University of Iowa Carver College of Medicine. His research focuses on understanding the drivers of genomic changes in breast cancer and developing precision treatments. The centre's leadership page lists Jon C. Houtman as Deputy Director of Research.",
+    profiles: [{ label: "Holden leadership page", url: "https://holden.uihealthcare.org/about/leadership" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Burkard+ME%5BAuthor%5D" }],
+    links: [{ label: "Source: Holden Comprehensive Cancer Center leadership page", url: "https://holden.uihealthcare.org/about/leadership" }],
+    tags: ["leadership", "clinician-scientist", "comprehensive-cancer-centre"], cancers: [] }),
+
+  // =================== Hôpital Maisonneuve-Rosemont / CIUSSS de l'Est-de-l'Île-de-Montréal ===================
+  p({ id: "jean-francois-fortin-verreault", name: "Jean-François Fortin Verreault", role: "Président-directeur général, CIUSSS de l'Est-de-l'Île-de-Montréal", institutionId: "ciusss-emtl-maisonneuve-rosemont", specialisms: ["Health system management", "Public administration"],
+    tldr: "Chief executive of the CIUSSS de l'Est-de-l'Île-de-Montréal, the Quebec health authority that runs Hôpital Maisonneuve-Rosemont and its haemato-oncology and cell therapy institute.",
+    summary: "Jean-François Fortin Verreault is Président-directeur général of the CIUSSS de l'Est-de-l'Île-de-Montréal, the integrated university health and social services centre that operates Hôpital Maisonneuve-Rosemont, Hôpital Santa Cabrini Ospedale and the Institut universitaire d'hémato-oncologie et de thérapie cellulaire. The CIUSSS senior management organisation chart dated 8 December 2025 names him as PDG reporting to the board of directors, with the haemato-oncology and cell therapy institute shown within the senior structure. The chart gives no appointment date.",
+    profiles: [{ label: "CIUSSS organisation chart page", url: "https://ciusss-estmtl.gouv.qc.ca/ressources/documentation/organigramme" }],
+    links: [{ label: "Source: CIUSSS de l'Est-de-l'Île-de-Montréal senior management organigramme (PDF, December 2025)", url: "https://ciusss-estmtl.gouv.qc.ca/sites/ciusssemtl/files/media/document/PDF_organigramme_decembre2025_CIUSSS-EMTL.pdf" }],
+    tags: ["leadership", "hospital-management", "government"], cancers: [] }),
+
+  // =================== Hospital Erasto Gaertner ===================
+  p({ id: "flavio-tomasich", name: "Flávio Daniel Saavedra Tomasich", role: "Presidente do Conselho de Administração, Liga Paranaense de Combate ao Câncer (Hospital Erasto Gaertner)", institutionId: "erasto-gaertner", specialisms: ["Abdominal surgical oncology", "Hospital governance"],
+    tldr: "Abdominal cancer surgeon who chairs the governing board of the Liga Paranaense de Combate ao Câncer, the body that runs Hospital Erasto Gaertner in Curitiba.",
+    summary: "Flávio Daniel Saavedra Tomasich is Presidente of the Conselho de Administração of the Liga Paranaense de Combate ao Câncer, which runs Hospital Erasto Gaertner, a specialist cancer hospital in Curitiba, Paraná. The hospital's governance page describes him as a member of the clinical staff in the abdominal surgery service and states that the Liga is governed by a 19 member board serving four year terms, with Claudiane Ligia Minari as vice president and José Clemente Linhares as clinical director. Day to day management sits with an executive board of Fernando Cesar de Oliveira (administrative), Enio Fabrício Ostrovski Ponczek (financial) and Maria Rachel de Castro (care).",
+    profiles: [{ label: "Hospital Erasto Gaertner board page", url: "https://erastogaertner.com.br/pagina/conselho-de-administracao" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Tomasich+F%5BAuthor%5D" }],
+    links: [{ label: "Source: Hospital Erasto Gaertner 'Conselho de Administração' page", url: "https://erastogaertner.com.br/pagina/conselho-de-administracao" }, { label: "Source: Hospital Erasto Gaertner 'Diretoria e Gerências' page", url: "https://erastogaertner.com.br/pagina/diretoria-e-gerencias" }],
+    tags: ["leadership", "hospital-management"], cancers: [] }),
 ];

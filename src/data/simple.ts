@@ -9,5 +9,7 @@ import { simpleG } from "./simple/part-g";
 import { simpleH } from "./simple/part-h";
 import { simpleI } from "./simple/part-i";
 import { simpleJ } from "./simple/part-j";
+import { simpleK } from "./simple/part-k";
+import { simpleK2 } from "./simple/part-k2";
 
-export const simple: Record<string, string> = { ...simpleA, ...simpleB, ...simpleD, ...simpleE, ...simpleF, ...simpleG, ...simpleH, ...simpleI, ...simpleJ };
+export const simple: Record<string, string> = { ...simpleA, ...simpleB, ...simpleD, ...simpleE, ...simpleF, ...simpleG, ...simpleH, ...simpleI, ...simpleJ, ...simpleK, ...simpleK2 };

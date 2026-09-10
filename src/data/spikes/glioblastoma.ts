@@ -171,7 +171,7 @@ const entities: EntityInput[] = [
     drugs: ["tovorafenib"], cancers: ["glioblastoma"],
   },
   {
-    id: "northwest-biotherapeutics", kind: "company", name: "Northwest Biotherapeutics", hq: "Bethesda, MD", country: "US", companyType: "cell-therapy", website: "https://nwbio.com", ticker: "NWBO", asOf,
+    id: "northwest-biotherapeutics", links: [{ label: "Official website", url: "https://nwbio.com" }], kind: "company", name: "Northwest Biotherapeutics", hq: "Bethesda, MD", country: "US", companyType: "cell-therapy", website: "https://nwbio.com", ticker: "NWBO", asOf,
     tldr: "Northwest Biotherapeutics developed the DCVax-L dendritic cell vaccine for glioblastoma and is seeking UK approval on contested phase 3 data.",
     summary: "DCVax-L MHRA application (December 2023) pending; manufacturing at Sawston, UK. Not FDA-approved.",
     drugs: ["dcvax-l"], cancers: ["glioblastoma"],

@@ -12,3 +12,11 @@ Logos under public/logos/ are trademarks of their respective owners and are show
 identification only (nominative use). Files sourced from Wikimedia Commons carry their own
 licences and attribution, recorded per file in public/logos/index.json. Favicons are the
 organisations' own site icons, fetched via Google's favicon service.
+
+Portraits under public/portraits/ are photographs from Wikimedia Commons, taken only from the image
+(P18) attached to the person's Wikidata item and only when the file carries a free licence (CC0,
+CC BY 1.0-4.0, CC BY-SA 1.0-4.0 or public domain). Each file keeps its own licence, which is not
+CC BY 4.0 unless stated; the licence, author, attribution line and Commons file page are recorded
+per person in public/portraits/index.json and shown on every page that displays the image (title
+attribute on the picture and a credit line on the person page). No institutional or news photographs
+are copied. To request removal or a correction, open a GitHub issue.

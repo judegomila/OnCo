@@ -7,6 +7,7 @@ const r = (x: R): RoadmapInput => ({ kind: "roadmap", asOf, ...x });
 export const roadmaps: RoadmapInput[] = [
   r({
     id: "adc-generations", name: "ADC roadmap: from Mylotarg to bispecific and dual-payload ADCs",
+    sections: ["adcs"],
     tldr: "Twenty-five years of trying to make chemotherapy hit only cancer cells, from the unstable first ADC to today's third-generation blockbusters and the fourth generation now in trials.",
     summary: "The ADC field failed for a decade, worked in blood cancers, then broke through in solid tumours once linkers, payloads, and DAR were engineered together. Each generation fixed the previous one's weakness; the next generation is attacking heterogeneity and payload resistance.",
     technologies: ["adc", "bispecific-adc", "dual-payload-adc", "degrader-antibody-conjugate", "immune-stimulating-adc", "masked-adc", "radioimmunotherapy", "site-specific-conjugation"],
@@ -22,6 +23,7 @@ export const roadmaps: RoadmapInput[] = [
   }),
   r({
     id: "trop2-adc-roadmap", name: "TROP2 ADC roadmap: sacituzumab govitecan → Dato-DXd → sac-TMT → bispecifics and PET",
+    sections: ["adcs"],
     tldr: "One target, three approved-or-nearly-approved drugs, and a fourth wave. How TROP2 went from an obscure trophoblast antigen to the centre of breast and lung cancer treatment.",
     summary: "TROP2 is not a driver; it is an address. Its value comes entirely from what is delivered to it. The roadmap therefore tracks payload chemistry, the shift into first line, combination with immunotherapy, the unsolved selection problem, and bispecific successors.",
     targets: ["trop2"], cancers: ["tnbc", "breast-hr-positive", "nsclc", "urothelial"],
@@ -37,6 +39,7 @@ export const roadmaps: RoadmapInput[] = [
   }),
   r({
     id: "tnbc-history", name: "TNBC roadmap: from 'nothing to target' to ADC + immunotherapy first line",
+    sections: ["adcs", "immunotherapy"],
     tldr: "How triple-negative breast cancer went from the subtype with no targeted therapy to one with immunotherapy, PARP inhibitors, three ADCs, and a positive bispecific ADC in six years.",
     summary: "The turning point was recognising that TNBC did not need an oncogenic driver to be targeted: immune infiltration, DNA repair deficiency, and surface antigen abundance are all exploitable. The next phase moves these gains into the curative setting and attacks residual disease.",
     cancers: ["tnbc"],
@@ -117,6 +120,7 @@ export const roadmaps: RoadmapInput[] = [
   }),
   r({
     id: "kras-roadmap", name: "KRAS roadmap: undruggable → G12C → pan-RAS",
+    sections: ["targeted-therapy"],
     tldr: "The most important cancer gene was declared undruggable for 40 years. Then a pocket was found, and now a pan-RAS drug is in phase 3 for pancreatic cancer.",
     summary: "KRAS drives the three deadliest common cancers. Progress came from chemistry (covalent switch-II binders), then from a new mechanism (tri-complex RAS(ON) inhibitors), and next from degraders, vaccines, and combinations.",
     targets: ["kras"], technologies: ["kras-inhibitors"], cancers: ["pancreatic", "colorectal", "nsclc"],

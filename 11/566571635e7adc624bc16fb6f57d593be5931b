@@ -1,0 +1,19 @@
+src/data/regional-approvals.ts
+  s_0beac9cb5d78fd::t_1d2489c4d7949c 45-47,83,104-106,142-143,157-163,257-288,308-310,332-351,371-372,374-384
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "11566571635e7adc624bc16fb6f57d593be5931b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -676,7 +676,7 @@ export const peopleAsiaPacific: PersonInput[] = [
     tldr: "Ian Cree edits the WHO 'Blue Books', the classification every pathologist uses to name a cancer.",
     summary: "Ian Cree leads the WHO Classification of Tumours programme at IARC, coordinating the 5th-edition Blue Books across all tumour types and introducing evidence-based methods into tumour classification.",
     profiles: [{ label: "WHO Classification of Tumours", url: "https://tumourclassification.iarc.who.int" }, pm("Cree IA[Author] WHO classification of tumours")],
-    papers: [],
+    papers: [{ title: "A common classification framework for neuroendocrine neoplasms: an International Agency for Research on Cancer (IARC) and World Health Organization (WHO) expert consensus proposal", journal: "Modern Pathology", year: 2018, doi: "10.1038/s41379-018-0110-y" }, { title: "Revising the WHO classification: female genital tract tumours", journal: "Histopathology", year: 2019, doi: "10.1111/his.13977" }, { title: "The 2021 WHO Classification of Tumors of the Central Nervous System: a summary", journal: "Neuro-Oncology", year: 2021, doi: "10.1093/neuonc/noab106" }],
     technologies: ["histopathology-ihc", "methylation-profiling"] }),
   p({ id: "ilbawi-andre", name: "André Ilbawi", role: "Technical Lead for Cancer Control, World Health Organization", institutions: ["iarc"],
     specialisms: ["Cancer control policy", "Global health", "Surgical oncology", "Access to medicines"],

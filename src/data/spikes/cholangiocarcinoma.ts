@@ -18,7 +18,7 @@ const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: 
 
 // ======================= COMPANIES =======================
 const companies: CompanyInput[] = [
-  co({ id: "incyte", name: "Incyte", hq: "Wilmington, DE", country: "US", companyType: "biotech", website: "https://www.incyte.com", ticker: "INCY", sections: ["targeted-therapy"],
+  co({ id: "incyte", links: [{ label: "Official website", url: "https://www.incyte.com" }], name: "Incyte", hq: "Wilmington, DE", country: "US", companyType: "biotech", website: "https://www.incyte.com", ticker: "INCY", sections: ["targeted-therapy"],
     tldr: "Incyte makes pemigatinib, the first targeted drug approved for bile duct cancer (2020), and the JAK inhibitor ruxolitinib.",
     summary: "Pemigatinib (Pemazyre) approved for FGFR2-fusion cholangiocarcinoma on FIGHT-202; the first-line FIGHT-302 trial versus gemcitabine-cisplatin was discontinued. Also tafasitamab (with MorphoSys), retifanlimab and the failed IDO1 inhibitor epacadostat.",
     drugs: ["pemigatinib", "epacadostat"], cancers: ["cholangiocarcinoma"] }),

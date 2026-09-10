@@ -159,7 +159,7 @@ const entities: EntityInput[] = [
 
   // ======================= COMPANIES =======================
   {
-    id: "ipsen", kind: "company", name: "Ipsen", hq: "Paris", country: "FR", companyType: "pharma", website: "https://www.ipsen.com", ticker: "IPN.PA", asOf,
+    id: "ipsen", links: [{ label: "Official website", url: "https://www.ipsen.com" }], kind: "company", name: "Ipsen", hq: "Paris", country: "FR", companyType: "pharma", website: "https://www.ipsen.com", ticker: "IPN.PA", asOf,
     tldr: "Ipsen is the French pharma behind Onivyde (liposomal irinotecan) and the NALIRIFOX regimen, and marketer of tovorafenib in Europe.",
     summary: "Onivyde/NALIRIFOX (NAPOLI 3), Cabometyx (ex-US), tazemetostat (Tazverik), Ojemda (tovorafenib, EU rights from Day One).",
     drugs: ["nalirifox", "tovorafenib"], cancers: ["pancreatic", "glioblastoma"],

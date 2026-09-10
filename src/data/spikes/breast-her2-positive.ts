@@ -20,7 +20,7 @@ const co = (x: Omit<CompanyInput, "kind" | "asOf">): CompanyInput => ({ kind: "c
 
 // ======================= COMPANIES =======================
 const companies: CompanyInput[] = [
-  co({ id: "hengrui", name: "Jiangsu Hengrui Pharmaceuticals", hq: "Lianyungang", country: "CN", companyType: "pharma", website: "https://www.hengrui.com", ticker: "600276.SS", sections: ["adcs", "targeted-therapy"],
+  co({ id: "hengrui", links: [{ label: "Official website", url: "https://www.hengrui.com" }], name: "Jiangsu Hengrui Pharmaceuticals", hq: "Lianyungang", country: "CN", companyType: "pharma", website: "https://www.hengrui.com", ticker: "600276.SS", sections: ["adcs", "targeted-therapy"],
     tldr: "Jiangsu Hengrui is China's largest oncology pharma, maker of pyrotinib and the HER2 ADC trastuzumab rezetecan, and one of the biggest out-licensers of Chinese assets.",
     summary: "Portfolio spans camrelizumab (PD-1), pyrotinib, dalpiciclib (CDK4/6), and the ADC platform behind trastuzumab rezetecan (SHR-A1811, approved China 2025 for HER2-mutant NSCLC; HORIZON-Breast01 positive). Multiple ex-China licences to Western partners (Merck, GSK, Kailera).",
     drugs: ["trastuzumab-rezetecan", "pyrotinib"], cancers: ["breast-her2-positive", "nsclc"] }),
@@ -28,7 +28,7 @@ const companies: CompanyInput[] = [
     tldr: "Puma Biotechnology developed neratinib (Nerlynx), the extended-adjuvant HER2 pill.",
     summary: "Single-product company; neratinib approved 2017 (extended adjuvant) and 2020 (metastatic with capecitabine); also alisertib (Aurora A) in development.",
     drugs: ["neratinib"], cancers: ["breast-her2-positive"] }),
-  co({ id: "macrogenics", name: "MacroGenics", hq: "Rockville, MD", country: "US", companyType: "biotech", website: "https://www.macrogenics.com", ticker: "MGNX", sections: ["targeted-therapy", "adcs"],
+  co({ id: "macrogenics", links: [{ label: "Official website", url: "https://www.macrogenics.com" }], name: "MacroGenics", hq: "Rockville, MD", country: "US", companyType: "biotech", website: "https://www.macrogenics.com", ticker: "MGNX", sections: ["targeted-therapy", "adcs"],
     tldr: "MacroGenics is the antibody engineering company behind margetuximab and several bispecific and ADC programmes.",
     summary: "Fc-optimisation and DART bispecific platforms; margetuximab (Margenza, 2020); vobramitamab duocarmazine (B7-H3 ADC) paused after toxicity; lorigerlimab (PD-1×CTLA-4).",
     drugs: ["margetuximab"], cancers: ["breast-her2-positive"] }),

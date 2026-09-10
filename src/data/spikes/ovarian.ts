@@ -230,7 +230,7 @@ const drugs: DrugInput[] = [
 
 // ======================= COMPANIES =======================
 const companies: CompanyInput[] = [
-  co({ id: "karyopharm", name: "Karyopharm Therapeutics", hq: "Newton, MA", country: "US", companyType: "biotech", website: "https://www.karyopharm.com", ticker: "KPTI", sections: ["targeted-therapy"],
+  co({ id: "karyopharm", links: [{ label: "Official website", url: "https://www.karyopharm.com" }], name: "Karyopharm Therapeutics", hq: "Newton, MA", country: "US", companyType: "biotech", website: "https://www.karyopharm.com", ticker: "KPTI", sections: ["targeted-therapy"],
     tldr: "Karyopharm makes selinexor, the first nuclear export inhibitor, approved in myeloma; its endometrial cancer bet failed in 2026.",
     summary: "Selinexor (Xpovio) is approved in multiple myeloma and DLBCL. The phase 3 XPORT-EC-042 trial of maintenance selinexor in TP53-wild-type endometrial cancer missed its primary endpoint (July 2026), and the company refocused on myelofibrosis and myeloma.",
     drugs: ["selinexor"] }),

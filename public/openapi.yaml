@@ -1,0 +1,341 @@
+openapi: 3.1.0
+info:
+  title: OnCo Open API
+  version: "1"
+  summary: The OnCo oncology knowledge graph as static JSON.
+  description: |
+    Every object in OnCo (cancers, technologies, targets, products, companies, institutions, pathways,
+    terms, trials, pairings, roadmaps, ideas, collections, people, bottlenecks, key papers, journals) is
+    published as static JSON under /api/v1/ at build time. There is no authentication, no rate limit beyond
+    the CDN, and CORS is permissive. Files are regenerated on every deploy; `meta.json` carries the build
+    time so clients can cache on it.
+
+    Field names and enums are defined by the Zod schema in `src/lib/schema.ts` in the repository, which is
+    the source of truth and is enforced at build time. The schemas below describe the shared fields and the
+    response envelopes; kind-specific fields are documented in that file.
+
+    Licence: data CC BY 4.0, code MIT. Attribution is required: name OnCo and link to https://onco.cc
+    wherever the data or text derived from it appears.
+  license:
+    name: CC BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  contact:
+    name: OnCo on GitHub
+    url: https://github.com/judegomila/OnCo
+servers:
+  - url: https://onco.cc
+    description: Production
+paths:
+  /api/v1/meta.json:
+    get:
+      operationId: getMeta
+      summary: Build metadata, counts and attribution text
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Meta"
+  /api/v1/all.json:
+    get:
+      operationId: getAll
+      summary: Every entity plus a backlink map
+      description: Several megabytes. Prefer the per-kind files unless you need the whole graph.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [entities, incoming]
+                properties:
+                  entities:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Entity"
+                  incoming:
+                    type: object
+                    description: For each entity id, the entities that link to it.
+                    additionalProperties:
+                      type: array
+                      items:
+                        $ref: "#/components/schemas/EntityRef"
+  /api/v1/search.json:
+    get:
+      operationId: getSearchDocs
+      summary: Compact documents used by the site search
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SearchDoc"
+  /api/v1/{plural}.json:
+    get:
+      operationId: listKind
+      summary: All entities of one kind
+      parameters:
+        - name: plural
+          in: path
+          required: true
+          description: The plural route name of the kind.
+          schema:
+            type: string
+            enum: [cancers, fronts, technologies, targets, drugs, companies, institutions, pathways, terms, trials, pairings, roadmaps, ideas, collections, people, bottlenecks, "key papers", journals]
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Entity"
+  /api/v1/entities/{id}.json:
+    get:
+      operationId: getEntity
+      summary: One entity with its route and neighbours grouped by kind
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Kebab-case entity id, for example `trop2`, `tnbc`, `trastuzumab-deruxtecan`.
+          schema:
+            type: string
+            pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [entity, route, neighbours]
+                properties:
+                  entity:
+                    $ref: "#/components/schemas/Entity"
+                  route:
+                    type: string
+                    description: Site-relative URL of the entity page, for example `/targets/trop2/`.
+                  neighbours:
+                    type: object
+                    description: Outgoing plus incoming neighbours, keyed by kind.
+                    additionalProperties:
+                      type: array
+                      items:
+                        $ref: "#/components/schemas/NeighbourRef"
+        "404":
+          description: No such id (the CDN returns the site 404 page).
+  /api/v1/ranking.json:
+    get:
+      operationId: getRanking
+      summary: Institution ranking with the score components
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    rank: { type: integer }
+                    id: { type: string }
+                    name: { type: string }
+                    city: { type: string }
+                    country: { type: string, description: ISO 3166-1 alpha-2 }
+                    newsweekOncology2026: { type: [integer, "null"] }
+                    nci: { type: [string, "null"], enum: [comprehensive, clinical, basic, null] }
+                    links: { type: integer }
+                    newsweekPoints: { type: integer }
+                    nciPoints: { type: integer }
+                    linkPoints: { type: integer }
+                    score: { type: integer }
+  /api/v1/benchmark.json:
+    get:
+      operationId: getBenchmark
+      summary: The open evaluation question set
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  additionalProperties: true
+  /catalysts/feed.ics:
+    get:
+      operationId: getCatalystFeed
+      summary: iCalendar feed of catalysts, readouts, decisions and congresses
+      responses:
+        "200":
+          description: OK
+          content:
+            text/calendar:
+              schema:
+                type: string
+  /trials/index.json:
+    get:
+      operationId: getTrialsIndex
+      summary: ClinicalTrials.gov phase 2 and 3 study counts per product, refreshed weekly
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: object
+                  properties:
+                    query: { type: string }
+                    total: { type: integer }
+                    byPhase: { type: object, additionalProperties: { type: integer } }
+                    byStatus: { type: object, additionalProperties: { type: integer } }
+                    recruiting: { type: integer }
+                    fetched: { type: string, format: date }
+  /trials/{drugId}.json:
+    get:
+      operationId: getTrialsForDrug
+      summary: Registered phase 2 and 3 studies naming one product
+      parameters:
+        - name: drugId
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  drugId: { type: string }
+                  query: { type: string }
+                  fetched: { type: string, format: date }
+                  total: { type: integer }
+                  studies:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        nct: { type: string }
+                        title: { type: string }
+                        status: { type: string }
+                        phases: { type: array, items: { type: string } }
+                        conditions: { type: array, items: { type: string } }
+                        start: { type: string }
+                        primaryCompletion: { type: string }
+                        sponsor: { type: string }
+components:
+  schemas:
+    Kind:
+      type: string
+      enum: [cancer, section, technology, target, drug, company, institution, pathway, term, trial, pairing, roadmap, idea, collection, person, bottleneck, paper, journal]
+    Status:
+      type: string
+      enum: [approved, phase-3, phase-2, phase-1, preclinical, concept, standard-of-care, established, emerging, historic, withdrawn, active, completed, recruiting, positive, negative, mixed, planned]
+    ExternalLink:
+      type: object
+      required: [label, url]
+      properties:
+        label: { type: string }
+        url: { type: string, format: uri }
+    EntityRef:
+      type: object
+      required: [id, kind]
+      properties:
+        id: { type: string }
+        kind: { $ref: "#/components/schemas/Kind" }
+    NeighbourRef:
+      type: object
+      required: [id, kind, name, route]
+      properties:
+        id: { type: string }
+        kind: { $ref: "#/components/schemas/Kind" }
+        name: { type: string }
+        route: { type: string }
+    SearchDoc:
+      type: object
+      description: Compact document for client-side search. Additional fields may be present.
+      required: [id, kind, name, tldr, route]
+      properties:
+        id: { type: string }
+        kind: { $ref: "#/components/schemas/Kind" }
+        name: { type: string }
+        tldr: { type: string }
+        route: { type: string }
+        status: { $ref: "#/components/schemas/Status" }
+      additionalProperties: true
+    Entity:
+      type: object
+      description: |
+        Shared fields of every object. Defaults are applied (empty arrays are present). Kind-specific fields
+        (for example `modality`, `mechanism`, `approvals` on drugs; `phase`, `nct`, `outcomes` on trials;
+        `prevalence` on targets) are defined in src/lib/schema.ts and appear alongside these.
+      required: [id, kind, name, tldr, summary, asOf]
+      properties:
+        id: { type: string, pattern: "^[a-z0-9]+(-[a-z0-9]+)*$" }
+        kind: { $ref: "#/components/schemas/Kind" }
+        name: { type: string }
+        aka: { type: array, items: { type: string } }
+        tldr: { type: string, description: Plain-language explanation for a non-technical reader. }
+        summary: { type: string, description: Technical summary; paragraphs separated by blank lines. }
+        status: { $ref: "#/components/schemas/Status" }
+        asOf: { type: string, format: date, description: The date the facts were last checked. }
+        wikipedia: { type: string, format: uri }
+        links: { type: array, items: { $ref: "#/components/schemas/ExternalLink" } }
+        tags: { type: array, items: { type: string } }
+        related: { type: array, items: { type: string } }
+        cancers: { type: array, items: { type: string } }
+        sections: { type: array, items: { type: string } }
+        technologies: { type: array, items: { type: string } }
+        targets: { type: array, items: { type: string } }
+        drugs: { type: array, items: { type: string } }
+        companies: { type: array, items: { type: string } }
+        institutions: { type: array, items: { type: string } }
+        pathways: { type: array, items: { type: string } }
+        terms: { type: array, items: { type: string } }
+        trials: { type: array, items: { type: string } }
+        people: { type: array, items: { type: string } }
+        bottlenecks: { type: array, items: { type: string } }
+        keyPapers: { type: array, items: { type: string } }
+        journals: { type: array, items: { type: string } }
+        notes: { type: array, items: { type: string } }
+        simple: { type: string }
+        provenance:
+          type: object
+          properties:
+            editedBy: { type: string }
+            editedOn: { type: string, format: date }
+            note: { type: string }
+        confidence:
+          type: object
+          properties:
+            probability: { type: array, minItems: 2, maxItems: 2, items: { type: number, minimum: 0, maximum: 1 } }
+            by: { type: string }
+            on: { type: string, format: date }
+            note: { type: string }
+      additionalProperties: true
+    Meta:
+      type: object
+      properties:
+        built: { type: string, format: date-time }
+        schema: { type: integer }
+        attribution: { type: string }
+        licenseUrl: { type: string, format: uri }
+        license: { type: string }
+        source: { type: string, format: uri }
+        total: { type: integer }
+        counts:
+          type: object
+          additionalProperties: { type: integer }

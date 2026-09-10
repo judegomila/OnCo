@@ -29,7 +29,7 @@ export const cancers: CancerInput[] = [
     ],
     history: [
       { year: 2000, title: "Molecular portraits define the basal-like subtype", note: "Perou and Sørlie's expression profiling separates basal-like from luminal breast cancers.", refs: ["rna-seq"] },
-      { year: 2007, title: "'Triple-negative' enters clinical vocabulary", note: "Defined by absence of ER, PR, HER2; recognised as the subtype with the worst prognosis and no targeted therapy." },
+      { year: 2007, title: "'Triple-negative' enters clinical vocabulary", note: "Defined by absence of ER, PR, HER2; recognised as the subtype with the fewest treatment options, which set the research agenda that followed." },
       { year: 2014, title: "Carboplatin raises pCR", note: "GeparSixto and CALGB 40603 show platinum increases pathologic complete response.", refs: ["carboplatin", "platinum"] },
       { year: 2018, title: "First immunotherapy signal", note: "IMpassion130: atezolizumab + nab-paclitaxel improves PFS in PD-L1+ metastatic TNBC (approval later withdrawn).", refs: ["impassion130", "atezolizumab"] },
       { year: 2018, title: "PARP inhibitors in BRCA breast cancer", note: "OlympiAD and EMBRACA lead to olaparib and talazoparib approvals.", refs: ["olaparib", "talazoparib"] },
@@ -102,7 +102,7 @@ export const cancers: CancerInput[] = [
     ],
     stateOfArt: ["T-DXd across the disease continuum.", "Chemotherapy de-escalation guided by early response."],
     history: [
-      { year: 1987, title: "Slamon links HER2 amplification to poor prognosis" },
+      { year: 1987, title: "Slamon shows HER2 amplification marks aggressive disease, and a drug target" },
       { year: 1998, title: "Trastuzumab approved", refs: ["trastuzumab"] },
       { year: 2013, title: "First solid-tumour ADC: T-DM1", refs: ["trastuzumab-emtansine"] },
       { year: 2021, title: "T-DXd beats T-DM1 (DESTINY-Breast03)", refs: ["destiny-breast03"] },
@@ -117,8 +117,8 @@ export const cancers: CancerInput[] = [
   // ======================= Lung =======================
   c({
     id: "nsclc", name: "Non-small-cell lung cancer", group: "lung", wikipedia: W("Non-small-cell_lung_cancer"),
-    burden: "~85% of lung cancer; lung cancer kills ~1.8 million people a year, more than any other cancer.",
-    tldr: "Non-small-cell lung cancer is the biggest cancer killer, and the proving ground for precision medicine: a dozen targetable mutations, immunotherapy for the rest, and ADCs and bispecifics arriving now.",
+    burden: "~85% of lung cancer. Low-dose CT screening catches cancers in people at high risk while they are still curable (NLST, NELSON), and a dozen targetable drivers each have a matched drug. Lung cancer still accounts for about 1.8 million deaths a year worldwide, more than any other cancer, largely because most cases are found late.",
+    tldr: "Non-small-cell lung cancer is the proving ground for precision medicine: a dozen targetable mutations each with a matched pill, immunotherapy for the rest, and ADCs and bispecifics arriving now. Because most cases are still found late, low-dose CT screening is the other half of the story.",
     summary: "Biomarker testing (EGFR, ALK, ROS1, BRAF, MET, RET, NTRK, KRAS G12C, HER2, PD-L1) is mandatory at diagnosis. Oncogene-addicted disease gets targeted therapy first (osimertinib, amivantamab-lazertinib, lorlatinib, selpercatinib, zongertinib, sotorasib/adagrasib); the rest get PD-(L)1 blockade ± chemotherapy. Perioperative immunotherapy (CheckMate 816, KEYNOTE-671) and adjuvant targeted therapy (ADAURA, ALINA) are standard. ADCs (Dato-DXd, T-DXd, telisotuzumab vedotin, iza-bren, HER3-DXd) and bispecifics (ivonescimab PD-1×VEGF) are the next layer. Low-dose CT screening cuts mortality by 20-24%.",
     subtypes: ["Adenocarcinoma", "Squamous", "EGFR-mutant", "ALK-rearranged", "KRAS-mutant", "PD-L1-high"],
     biomarkers: ["EGFR", "ALK", "ROS1", "BRAF V600E", "MET ex14 / amplification / c-MET IHC", "RET", "NTRK", "KRAS G12C", "HER2 mutation", "PD-L1 TPS", "ctDNA"],
@@ -129,7 +129,7 @@ export const cancers: CancerInput[] = [
       { setting: "Metastatic, driver-positive", approach: "Matched TKI or bispecific; ADCs after progression.", refs: ["osimertinib", "amivantamab", "lorlatinib", "selpercatinib", "zongertinib", "sotorasib", "datopotamab-deruxtecan"], guideline: { esmoMcbs: "3 (DESTINY-Lung02, HER2-mutant, second line)", version: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11163648/" } },
       { setting: "Metastatic, driver-negative", approach: "PD-(L)1 ± chemotherapy; docetaxel or ADC/TTFields second line.", refs: ["pembrolizumab", "nivolumab", "optune"], guideline: { version: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1450" } },
     ],
-    stateOfArt: ["5-year PFS 60% with lorlatinib in ALK+ disease.", "Adjuvant osimertinib halves death risk.", "First regimen to beat osimertinib (MARIPOSA) and first to beat pembrolizumab (ivonescimab, China)."],
+    stateOfArt: ["5-year PFS 60% with lorlatinib in ALK+ disease.", "Adjuvant osimertinib after surgery for EGFR-mutant disease roughly halves the risk of the cancer returning or of dying from it (ADAURA).", "First regimen to beat osimertinib (MARIPOSA) and first to beat pembrolizumab (ivonescimab, China)."],
     history: [
       { year: 2004, title: "EGFR mutations explain gefitinib responses" },
       { year: 2007, title: "EML4-ALK fusion discovered" },
@@ -197,8 +197,8 @@ export const cancers: CancerInput[] = [
   }),
   c({
     id: "pancreatic", name: "Pancreatic ductal adenocarcinoma", group: "gastrointestinal", wikipedia: W("Pancreatic_cancer"),
-    burden: "Pancreatic cancer causes about 500,000 cases per year with 5-year survival of about 13%, and is projected to be the second-leading cancer killer in the US by 2030.",
-    tldr: "Pancreatic cancer is the deadliest common cancer. Almost every tumour carries a KRAS mutation, and for the first time drugs against it are in pivotal trials.",
+    burden: "Pancreatic cancer causes about 500,000 cases per year. Surgery followed by mFOLFIRINOX cures a meaningful share of the ~20% found early, high-risk surveillance now finds most cancers in carriers at stage I, and the first RAS inhibitor, daraxonrasib, delivered the biggest result in the disease's history in advanced disease (RASolute 302, 2026). Five-year survival is about 13% overall and above 40% for resected patients who complete adjuvant chemotherapy; on current trends it will be the second most common cause of cancer death in the US by 2030.",
+    tldr: "Almost every pancreatic tumour carries a KRAS mutation, and for the first time drugs against it work: daraxonrasib nearly doubled survival in previously treated disease in 2026. Pancreatic cancer has been the hardest common cancer to treat once advanced; that is what is starting to change.",
     summary: "FOLFIRINOX or gemcitabine/nab-paclitaxel remain the mainstays; surgery cures a minority. 2026 brought the first new approval in locally advanced disease in decades (Optune Pax TTFields). Daraxonrasib (pan-RAS) showed ~14.5-month OS in second line and is in phase 3; KRAS G12D inhibitors and KRAS vaccines (ELI-002) follow. Personalised mRNA vaccines (autogene cevumeran) show durable T-cell responses correlating with recurrence-free survival. CLDN18.2 and mesothelin are ADC/CAR-T targets; FAPI PET outperforms FDG. Germline BRCA (~5-7%): olaparib maintenance (POLO). MCED tests aim at earlier detection.",
     biomarkers: ["KRAS (G12D 40%, G12V 30%, G12R 15%, G12C 1-2%)", "Germline BRCA/PALB2", "MSI (rare)", "NRG1 fusions (KRAS-wild-type)", "CLDN18.2", "CA19-9"],
     standardOfCare: [
@@ -372,7 +372,7 @@ export const cancers: CancerInput[] = [
     stateOfArt: ["PARP maintenance with 7-year OS benefit in BRCA (SOLO-1).", "First ADC (mirvetuximab) with OS benefit."],
     history: [{ year: 1996, title: "Paclitaxel-cisplatin standard" }, { year: 2014, title: "Olaparib: first PARP inhibitor", refs: ["olaparib"] }, { year: 2022, title: "Mirvetuximab: first ovarian ADC", refs: ["mirvetuximab-soravtansine"] }, { year: 2026, title: "Relacorilant and pembrolizumab approved in platinum-resistant disease", refs: ["relacorilant"] }],
     pipeline: ["raludotatug-deruxtecan", "puxitatug-samrotecan", "parp-pet", "galleri"],
-    openProblems: ["No effective screening.", "PARP resistance via BRCA reversion.", "Platinum-resistant disease remains lethal."],
+    openProblems: ["No effective screening.", "PARP resistance via BRCA reversion.", "Platinum-resistant disease is the hardest setting; three drugs with survival benefit arrived in 2023-26 and each adds months, so combining and sequencing them is the next step."],
     targets: ["brca", "parp", "folr1", "cdh6", "wee1", "atr", "tp53", "mesothelin"], technologies: ["parp-inhibitor", "adc", "hipec", "hrd-testing", "synthetic-lethality-approaches", "mced"], pathways: ["ddr", "p53-cell-cycle"],
     tags: ["gyn"],
   }),
@@ -440,8 +440,8 @@ export const cancers: CancerInput[] = [
   }),
   c({
     id: "glioblastoma", name: "Glioma & glioblastoma", group: "central nervous system", wikipedia: W("Glioblastoma"),
-    burden: "About 300,000 CNS tumours occur per year; glioblastoma median survival is about 15 months.",
-    tldr: "Glioblastoma is the most lethal brain tumour, barely improved since 2005. Low-grade IDH-mutant gliomas, by contrast, got their first targeted drug in 2024.",
+    burden: "About 300,000 CNS tumours occur per year, most of them not glioblastoma; IDH-mutant and paediatric low-grade gliomas can be lived with for decades and now have targeted drugs. Median survival for glioblastoma with maximal therapy is about 15 months.",
+    tldr: "Gliomas are now diagnosed by molecular class, and three classes got their first targeted drugs in 2024-25 (vorasidenib for IDH-mutant glioma, tovorafenib for BRAF-altered paediatric glioma, dordaviprone for H3 K27M). Glioblastoma itself is the hardest to treat and has kept the same standard since 2005; CAR-T delivered into the brain and focused-ultrasound drug delivery are the live directions.",
     summary: "Glioblastoma: maximal safe resection (5-ALA fluorescence), radiation + temozolomide (Stupp), TTFields; MGMT methylation predicts benefit. Every large IO and targeted trial has failed; CAR-T (IL13Rα2, EGFRvIII, GD2 for DIPG), intrathecal delivery, and BBB-opening focused ultrasound are active areas. IDH-mutant grade 2 glioma: vorasidenib (INDIGO) delays radiation/chemotherapy. Methylation classification is diagnostic standard.",
     biomarkers: ["IDH1/2", "1p/19q codeletion", "MGMT methylation", "H3K27M", "EGFR amplification", "Methylation class"],
     standardOfCare: [
@@ -451,7 +451,7 @@ export const cancers: CancerInput[] = [
     stateOfArt: ["Vorasidenib in low-grade glioma.", "Methylation-based diagnosis.", "TTFields."],
     history: [{ year: 2005, title: "Stupp regimen: temozolomide + RT" }, { year: 2015, title: "TTFields improves OS (EF-14)", refs: ["optune"] }, { year: 2024, title: "Vorasidenib approved", refs: ["vorasidenib"] }],
     pipeline: ["armored-car", "bnct", "hyperthermia"],
-    openProblems: ["Blood-brain barrier.", "Immunologically cold, heterogeneous, infiltrative.", "No progress in glioblastoma survival in 20 years."],
+    openProblems: ["Blood-brain barrier.", "Immunologically cold, heterogeneous, infiltrative.", "Glioblastoma: no systemic drug has beaten the 2005 standard; getting drugs across the blood-brain barrier is the crux."],
     targets: ["idh", "egfr", "tp53"], technologies: ["ttfields", "epigenetic-drugs", "fluorescence-guided-surgery", "methylation-profiling", "car-t", "hifu-histotripsy", "mri", "bnct"],
     tags: ["cns"],
   }),
@@ -504,7 +504,7 @@ export const cancers: CancerInput[] = [
     stateOfArt: ["Genotype-directed therapy for aggressive subtypes."],
     history: [{ year: 1946, title: "Radioactive iodine: first theranostic" }, { year: 2020, title: "Selpercatinib approved", refs: ["selpercatinib"] }],
     pipeline: ["selpercatinib"],
-    openProblems: ["Overdiagnosis of microcarcinoma.", "Anaplastic thyroid cancer remains lethal."],
+    openProblems: ["Overdiagnosis of microcarcinoma.", "Anaplastic thyroid cancer: BRAF V600E cases now respond to dabrafenib-trametinib, often enough to allow surgery; the 60% without the mutation still have few options."],
     targets: ["ret", "braf", "ntrk"], technologies: ["kinase-inhibitors", "radioligand-therapy", "ultrasound"], pathways: ["ras-mapk"],
     tags: ["endocrine"],
   }),
@@ -569,7 +569,7 @@ export const cancers: CancerInput[] = [
     stateOfArt: ["Menin inhibitors.", "Venetoclax combinations."],
     history: [{ year: 1973, title: "7+3 regimen" }, { year: 2000, title: "Gemtuzumab: first ADC", refs: ["gemtuzumab-ozogamicin"] }, { year: 2017, title: "Midostaurin, enasidenib, gemtuzumab re-approval" }, { year: 2024, title: "Revumenib: first menin inhibitor", refs: ["revumenib"] }],
     pipeline: ["revumenib", "venetoclax"],
-    openProblems: ["TP53-mutant AML remains lethal.", "Older patients."],
+    openProblems: ["TP53-mutant AML: no drug class has yet improved survival, so it is the priority for new mechanisms.", "Older patients."],
     targets: ["flt3", "idh", "menin", "bcl2", "cd33", "cd123", "cd47", "tp53", "cd70"], technologies: ["epigenetic-drugs", "adc", "kinase-inhibitors", "allogeneic-cell-therapy"], pathways: ["apoptosis-bcl2"],
     tags: ["heme"],
   }),

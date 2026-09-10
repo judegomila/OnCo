@@ -9,6 +9,7 @@ import type { FeatureCollection, Geometry } from "geojson";
 import { FacetSelect } from "./filters/FacetSelect";
 import { Sparkline } from "./TrendChart";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
+import { GentleSection } from "./GentleSection";
 import { rowsForCancerIn, sitesForCountry, type CancerRows, type CountryProfile, type CountryRow, type Globocan } from "@/lib/globocan-core";
 
 export type CancerOption = { id: string; name: string; group: string; route: string };
@@ -28,7 +29,8 @@ const WORLD_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.jso
 const fmt = (n: number | null | undefined, d = 0) => n === null || n === undefined ? null : n.toLocaleString("en-GB", { maximumFractionDigits: d, minimumFractionDigits: d });
 const NoData = () => <span className="text-muted/60 italic text-xs">no data</span>;
 type Metric = "incAsr" | "mortAsr" | "cases" | "deaths";
-const METRICS: Array<[Metric, string]> = [["incAsr", "Incidence rate (ASR per 100k)"], ["mortAsr", "Mortality rate (ASR per 100k)"], ["cases", "New cases (count)"], ["deaths", "Deaths (count)"]];
+const METRICS: Array<[Metric, string]> = [["incAsr", "Incidence rate (ASR per 100k)"], ["cases", "New cases (count)"], ["mortAsr", "Mortality rate (ASR per 100k)"], ["deaths", "Deaths (count)"]];
+const MORTALITY_NOTE = "Deaths and death rates by country mix every stage, subtype and year of diagnosis, and reflect access to screening and treatment as much as the disease itself. Survival for any one person differs by stage, subtype and year; each cancer page leads with what can be done.";
 
 export function CasesByCountry({ cancers, initial, countryList, dataUrl, gaps, meta }: CasesProps) {
   const [data, setData] = useState<Globocan | null>(null);
@@ -88,11 +90,17 @@ export function CasesByCountry({ cancers, initial, countryList, dataUrl, gaps, m
     { key: "cases", label: "New cases", sortable: true, render: (r) => r.cases === null ? <NoData /> : <span className="tabular-nums">{fmt(r.cases)}</span> },
     { key: "incAsr", label: "Incidence ASR", sortable: true, render: (r) => r.incAsr === null ? <NoData /> : <span className="tabular-nums">{fmt(r.incAsr, 1)}</span> },
     { key: "trend", label: "Trend", hide: "hidden xl:table-cell", tip: "Incidence rate across the GLOBOCAN editions on file; one dot means only one edition is available.", render: (r) => <Sparkline cancerId={cancer} iso3={r.iso3} /> },
+    { key: "cumRisk", label: "Risk to 74", sortable: true, hide: "hidden lg:table-cell", tip: "Chance of being diagnosed before age 75, in the absence of competing causes.", render: (r) => r.cumRisk === null ? <NoData /> : <span className="tabular-nums">{fmt(r.cumRisk, 1)}%</span> },
+    { key: "pop", label: "Population", sortable: true, hide: "hidden lg:table-cell", render: (r) => r.pop ? <span className="tabular-nums text-muted">{fmt(r.pop / 1e6, 1)}M</span> : <NoData /> },
+  ];
+  /** Mortality columns live in their own folded table so the first view is about where cancer occurs, not where people die. */
+  const mortalityColumns: Column<CountryRow>[] = [
+    { key: "rank", label: "#", render: (_, i) => <span className="tabular-nums text-muted">{i + 1}</span>, className: "w-10" },
+    { key: "name", label: "Country", sortable: true, render: (r) => <button type="button" onClick={() => setCountry(r.iso3)} className="font-medium hover:underline text-left">{r.name}</button> },
+    { key: "cases", label: "New cases", sortable: true, render: (r) => r.cases === null ? <NoData /> : <span className="tabular-nums">{fmt(r.cases)}</span> },
     { key: "deaths", label: "Deaths", sortable: true, render: (r) => r.deaths === null ? <NoData /> : <span className="tabular-nums">{fmt(r.deaths)}</span> },
     { key: "mortAsr", label: "Mortality ASR", sortable: true, render: (r) => r.mortAsr === null ? <NoData /> : <span className="tabular-nums">{fmt(r.mortAsr, 1)}</span> },
-    { key: "mi", label: "M:I ratio", sortable: true, hide: "hidden sm:table-cell", render: (r) => r.mi === null ? <NoData /> : <span className="tabular-nums" title="Deaths divided by new cases; a rough proxy for lethality and access to care">{fmt(r.mi, 2)}</span> },
-    { key: "cumRisk", label: "Risk to 74", sortable: true, hide: "hidden lg:table-cell", render: (r) => r.cumRisk === null ? <NoData /> : <span className="tabular-nums">{fmt(r.cumRisk, 1)}%</span> },
-    { key: "pop", label: "Population", sortable: true, hide: "hidden lg:table-cell", render: (r) => r.pop ? <span className="tabular-nums text-muted">{fmt(r.pop / 1e6, 1)}M</span> : <NoData /> },
+    { key: "mi", label: "M:I ratio", sortable: true, hide: "hidden sm:table-cell", tip: "Deaths divided by new cases in the same year; a rough proxy for how early cancers are found and how well care is delivered in a country, not for any one person's outlook.", render: (r) => r.mi === null ? <NoData /> : <span className="tabular-nums">{fmt(r.mi, 2)}</span> },
   ];
 
   const noEstimate = sel.mapping.codes.length === 0;
@@ -118,7 +126,7 @@ export function CasesByCountry({ cancers, initial, countryList, dataUrl, gaps, m
         <span className="text-muted"> → GLOBOCAN site: </span><span className="font-medium">{sel.mapping.label}</span>
         {sel.mapping.note && <p className="text-muted mt-1">{sel.mapping.note}</p>}
         {noEstimate && <p className="mt-1 font-medium text-rose-700 dark:text-rose-300">We lack country-level case numbers for this cancer. The table and map below show “no data” on purpose rather than an approximation.</p>}
-        {sel.world && !noEstimate && <p className="text-muted mt-1">World {meta.year}: {fmt(sel.world.cases)} new cases, {fmt(sel.world.deaths)} deaths, incidence ASR {fmt(sel.world.incAsr, 1)}, mortality ASR {fmt(sel.world.mortAsr, 1)} per 100,000.</p>}
+        {sel.world && !noEstimate && <p className="text-muted mt-1">World {meta.year}: {fmt(sel.world.cases)} new cases, incidence ASR {fmt(sel.world.incAsr, 1)} per 100,000.</p>}
       </div>}
 
       {country && (profile ? <CountryPanel c={profile} cancers={cancers} onClose={() => setCountry(null)} /> : <div className="card p-4 mb-4 text-sm text-muted">{loadError ? "Country view unavailable: dataset failed to load." : `Loading ${countryList.find((c) => c.iso3 === country)?.name ?? country}…`}</div>)}
@@ -128,6 +136,13 @@ export function CasesByCountry({ cancers, initial, countryList, dataUrl, gaps, m
       <div className="mt-4">
         <ResultsTable columns={columns} rows={filtered} rowKey={(r) => r.iso3} sort={sort} onSort={onSort} empty={loading ? "Loading…" : "No countries match."} />
       </div>
+
+      {!noEstimate && (
+        <GentleSection className="mt-6" title="deaths and death rates by country" why="GLOBOCAN's estimated deaths, mortality rate and deaths-to-cases ratio for the same countries, for readers who want them."
+          reassurance={<>{MORTALITY_NOTE}{sel.world ? ` World ${meta.year}: ${fmt(sel.world.cases)} new cases and ${fmt(sel.world.deaths)} deaths; mortality ASR ${fmt(sel.world.mortAsr, 1)} per 100,000.` : ""}</>}>
+          <ResultsTable columns={mortalityColumns} rows={filtered} rowKey={(r) => r.iso3} sort={sort} onSort={onSort} empty={loading ? "Loading…" : "No countries match."} />
+        </GentleSection>
+      )}
 
       <details className="card p-4 mt-6 text-sm">
         <summary className="cursor-pointer font-medium">What we lack, and why</summary>
@@ -155,7 +170,7 @@ function CountryPanel({ c, cancers, onClose }: { c: CountryProfile; cancers: Can
       </div>
       <div className="overflow-x-auto">
         <table className="onco">
-          <thead><tr><th>#</th><th>Cancer site (GLOBOCAN)</th><th>OnCo pages</th><th>New cases</th><th>Incidence ASR</th><th>Deaths</th><th>Mortality ASR</th><th className="hidden sm:table-cell">Risk to 74</th></tr></thead>
+          <thead><tr><th>#</th><th>Cancer site (GLOBOCAN)</th><th>OnCo pages</th><th>New cases</th><th>Incidence ASR</th><th className="hidden sm:table-cell">Risk to 74</th></tr></thead>
           <tbody>
             {sites.map((s, i) => (
               <tr key={`${c.iso3}-${s.code}`}>
@@ -164,14 +179,30 @@ function CountryPanel({ c, cancers, onClose }: { c: CountryProfile; cancers: Can
                 <td className="text-sm">{s.oncoIds.length ? s.oncoIds.map((id) => byId.get(id)).filter(Boolean).map((x) => <Link key={x!.id} href={x!.route} className="underline mr-2">{x!.name.replace(/ \(.*\)$/, "")}</Link>) : <span className="text-muted/60 text-xs italic">no OnCo page</span>}</td>
                 <td className="tabular-nums">{s.cases === null ? <NoData /> : fmt(s.cases)}</td>
                 <td className="tabular-nums">{s.incAsr === null ? <NoData /> : fmt(s.incAsr, 1)}</td>
-                <td className="tabular-nums">{s.deaths === null ? <NoData /> : fmt(s.deaths)}</td>
-                <td className="tabular-nums">{s.mortAsr === null ? <NoData /> : fmt(s.mortAsr, 1)}</td>
                 <td className="tabular-nums hidden sm:table-cell">{s.cumRisk === null ? <NoData /> : `${fmt(s.cumRisk, 1)}%`}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
+      <GentleSection className="mt-3 border-dashed" title={`deaths by cancer in ${c.name}`} why="GLOBOCAN's estimated deaths and mortality rate for each site, for readers who want them." reassurance={MORTALITY_NOTE}>
+        <div className="overflow-x-auto">
+          <table className="onco">
+            <thead><tr><th>#</th><th>Cancer site (GLOBOCAN)</th><th>New cases</th><th>Deaths</th><th>Mortality ASR</th></tr></thead>
+            <tbody>
+              {sites.map((s, i) => (
+                <tr key={`${c.iso3}-${s.code}-m`}>
+                  <td className="tabular-nums text-muted">{i + 1}</td>
+                  <td className="font-medium">{s.label}</td>
+                  <td className="tabular-nums">{s.cases === null ? <NoData /> : fmt(s.cases)}</td>
+                  <td className="tabular-nums">{s.deaths === null ? <NoData /> : fmt(s.deaths)}</td>
+                  <td className="tabular-nums">{s.mortAsr === null ? <NoData /> : fmt(s.mortAsr, 1)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </GentleSection>
     </div>
   );
 }

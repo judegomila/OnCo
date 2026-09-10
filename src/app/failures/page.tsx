@@ -35,6 +35,7 @@ export default function FailuresPage() {
       <PageHeader kicker={<GroupKicker id="intel" />} title="Failure museum"
         lede="Oncology learns more from what did not work than from what did, but failures vanish from pipelines and press releases. This room keeps them: drugs stopped, targets abandoned, approvals withdrawn, each with the lesson it left. Nothing here is a verdict on the idea; several of these targets later worked with a different weapon." />
       <Container className="pb-16">
+        <p className="card p-4 mb-4 text-sm leading-relaxed max-w-3xl border-accent/30 bg-accent-soft/40"><span className="font-medium">Why failures are shown:</span> they are how the field learns. Every drug that did not work sharpened the next one: a target that survived a bad molecule, a dose that was wrong, a trial design that misled. Several targets in this room later worked with a different weapon, and the lesson attached to each exhibit is what the successful drugs were built on. Nothing here is a statement about any patient&apos;s outlook; it is the field&apos;s record of what it tried, kept so it does not have to be learned twice.</p>
         <div className="text-sm text-muted mb-8">{items.length} exhibits. Anything in the corpus with status negative or withdrawn, or tagged failure, appears here automatically.</div>
         {LESSONS.map((L) => {
           const list = byLesson.get(L.key);

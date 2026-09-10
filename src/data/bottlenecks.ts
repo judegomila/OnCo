@@ -345,7 +345,7 @@ export const bottlenecks: BottleneckInput[] = [
     name: "Cachexia, toxicity and the limits of the patient",
     stage: "biology",
     severity: "major",
-    tldr: "Patients often die of wasting or cannot tolerate the doses that would work. Treating the patient, not just the tumour, lags far behind.",
+    tldr: "Wasting and treatment intolerance stop many patients from receiving the doses that would work. Treating the patient, not just the tumour, lags far behind.",
     summary: "Cancer cachexia, a syndrome of muscle and fat loss driven by tumour-derived and host inflammatory signals (IL-6, GDF15, activin), affects most patients with advanced pancreatic, gastric and lung cancer and is implicated in a large share of cancer deaths, yet anamorelin in Japan is the only approved drug anywhere and there is none in the US or Europe. Beyond cachexia, treatment-limiting toxicities determine what dose a patient can receive: neuropathy, cardiotoxicity, cytopenias, interstitial lung disease from ADCs, cytokine release and neurotoxicity from cell therapies, and fatigue. Supportive-care research receives a small share of funding relative to its effect on survival and quality of life, and effective interventions such as structured exercise and geriatric assessment are rarely prescribed. Treating the host is a therapeutic target in its own right.",
     metrics: [
       { label: "Share of cancer deaths in which cachexia is the immediate cause (estimate)", value: "Up to 20%", source: "Argilés et al., Nature Reviews Cancer 2014", url: "https://doi.org/10.1038/nrc3829" },
@@ -467,7 +467,7 @@ export const bottlenecks: BottleneckInput[] = [
   // Prevention and detection
   b({
     id: "b-early-detection",
-    name: "Most lethal cancers are found late",
+    name: "The hardest cancers are found late",
     stage: "prevention-detection",
     severity: "critical",
     tldr: "Screening exists for only a few cancers. Pancreatic, ovarian, liver, oesophageal and most lung cancers are found when cure is unlikely.",
@@ -1530,7 +1530,7 @@ export const bottlenecks: BottleneckInput[] = [
     name: "Funding follows fashion, not burden",
     stage: "funding-incentives",
     severity: "major",
-    tldr: "Money goes to the cancers and questions that are easy or popular, not the ones that kill most or where a dollar would do most.",
+    tldr: "Money goes to the cancers and questions that are easy or popular, not the ones with the greatest burden or where a dollar would do most.",
     summary: "Research funding across cancers correlates poorly with burden: breast cancer, leukaemia and prostate cancer receive far more NCI and charity funding per death or per year of life lost than lung, pancreatic, liver, oesophageal, gastric, bladder and uterine cancers, and the pattern is similar in the UK and Europe. Across research types the skew is stronger: metastasis, prevention, implementation, surgery, radiotherapy, supportive care and research in low-income settings are all under-funded relative to their share of deaths or their potential to prevent them, while cell-intrinsic biology and drug discovery are over-represented. The causes are the visibility and advocacy strength of some cancers, peer review that rewards mechanistic novelty, the absence of a burden-weighted portfolio strategy at most funders, and a commercial sector that follows patentability. Transparent portfolio mapping, burden-weighted funding targets, and mission-oriented programmes are the corrective levers.",
     metrics: [
       { label: "Cancers under-funded relative to incidence, mortality and years of life lost in an analysis of NCI, charity and industry funding", value: "Lung, pancreas, liver, oesophagus, stomach, bladder and uterine cancers under-funded; breast, prostate and leukaemia over-funded", source: "Carter & Nguyen, BMC Cancer 2012", url: "https://doi.org/10.1186/1471-2407-12-526" },

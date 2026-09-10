@@ -313,7 +313,7 @@ const spike: Spike = {
       "Richter transformation: median survival still under a year for clonally related cases; no approved therapy.",
       "Double-refractory disease after BTKi and venetoclax: pirtobrutinib gives ~1 year; CAR-T complete responses are only ~20%.",
       "Fixed duration versus continuous therapy has never been compared head to head for OS; MAJIC and CLL17 will inform.",
-      "Infections remain the leading cause of death; vaccine responses are blunted and COVID-19 mortality was high.",
+      "Infections are the main threat to people living with CLL; vaccine responses are blunted and COVID-19 mortality was high, so prophylaxis and immunoglobulin replacement matter.",
       "Second primary cancers, especially skin, on long-term therapy.",
       "Cost: indefinite BTK inhibition costs more than $150,000 per year; access is limited in most of the world and biosimilar rituximab-based chemoimmunotherapy persists where targeted drugs are unaffordable.",
       "T-cell dysfunction in CLL limits CAR-T and bispecific efficacy; how to restore it (BTKi pre-treatment, allogeneic products) is open.",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
-import { routeFor, type Entity } from "@/lib/schema";
+import type { Entity } from "@/lib/schema";
 import { ChipList, Container, EntityCard, EntityLink, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { CHINA_FACTS } from "@/data/china";
 import { countryExtras } from "@/data/country-extras";
@@ -98,7 +98,7 @@ export default function ChinaPage() {
               </div>
             ))}
           </div>
-          <p className="text-sm text-muted mt-3 max-w-4xl">The National Cancer Center's 2024 report: {F.cancerStats.topFive}; {F.cancerStats.trends}. Figures are {F.cancerStats.registries}. GLOBOCAN 2022 gives an age-standardised incidence of {extra.incidence} and mortality of {extra.mortality} per 100,000 for China on a different population standard (<a className="underline" href={extra.gcoUrl} rel="noopener">IARC fact sheet</a>).</p>
+          <p className="text-sm text-muted mt-3 max-w-4xl">The National Cancer Center&apos;s 2024 report: {F.cancerStats.topFive}; {F.cancerStats.trends}. Figures are {F.cancerStats.registries}. GLOBOCAN 2022 gives an age-standardised incidence of {extra.incidence} and mortality of {extra.mortality} per 100,000 for China on a different population standard (<a className="underline" href={extra.gcoUrl} rel="noopener">IARC fact sheet</a>).</p>
         </Section>
 
         {/* ---------- Problems paired with responses ---------- */}
@@ -117,7 +117,7 @@ export default function ChinaPage() {
               doing={<>The National Healthcare Security Administration (<EntityLink e={g.get("nhsa")!} />) now negotiates the National Reimbursement Drug List every year: {F.nrdl.text2017}; {F.nrdl.text2018}; since 2019 dozens of oncology drugs join each round at discounts usually above half, and {F.nrdl.textTrend}. Renewal rules cap further cuts for drugs already listed ({F.nrdl.textRenewal}), a dual-channel policy (2021) lets designated pharmacies dispense listed drugs when hospitals do not, and provincial supplementary insurance (huiminbao) covers some drugs still off the list. The trade-off: prices so low that some Western drugs are not launched in China, and cell therapies (list prices above CN¥ 1 million) remain unlisted.</>}
               sources={[F.nrdl.source2017, F.nrdl.source2018, F.nrdl.sourceTrend, F.nrdl.sourceRenewal, F.nrdl.nhsa]} />
             <Pair
-              problem={<>China-only evidence travels badly. Registration trials run entirely in China with chemotherapy comparators (sintilimab's ORIENT-11) were rejected by the FDA in 2022, and camrelizumab plus rivoceranib has drawn three complete response letters over inspections and trial conduct, so Chinese PD-1s reached Western patients years late or not at all.</>}
+              problem={<>China-only evidence travels badly. Registration trials run entirely in China with chemotherapy comparators (sintilimab&apos;s ORIENT-11) were rejected by the FDA in 2022, and camrelizumab plus rivoceranib has drawn three complete response letters over inspections and trial conduct, so Chinese PD-1s reached Western patients years late or not at all.</>}
               doing={<>The NMPA and CDE reforms since 2015 (backlog cleared, ICH membership 2017, acceptance of overseas data, breakthrough and conditional pathways) made Chinese trials faster; companies now run multiregional confirmatory studies (<EntityLink e={g.get("rationale-302")!} /> for tislelizumab, <EntityLink e={g.get("harmoni-3")!} /> for ivonescimab, ASTRIDE for serplulimab, FRESCO-2 for fruquintinib) and license Western rights to partners who run them. Tislelizumab, toripalimab, penpulimab, fruquintinib, zanubrutinib, ensartinib and ciltacabtagene autoleucel now hold FDA approvals.</>}
               sources={[{ label: "FDA ODAC, 10 February 2022 (sintilimab)", url: "https://www.fda.gov/advisory-committees/advisory-committee-calendar/february-10-2022-meeting-oncologic-drugs-advisory-committee-meeting-announcement-02102022" }, { label: "CDE", url: "https://www.cde.org.cn" }, { label: "NMPA", url: "https://www.nmpa.gov.cn" }]} />
             <Pair
@@ -210,13 +210,13 @@ export default function ChinaPage() {
         {/* ---------- Sources ---------- */}
         <Section title="Sources and caveats">
           <ul className="list-disc pl-5 space-y-1 text-sm text-muted max-w-4xl">
-            <li><Src s={F.cancerStats.source} />: the National Cancer Center's official estimate for 2022; numbers are model projections from registry data, not counts.</li>
+            <li><Src s={F.cancerStats.source} />: the National Cancer Center&apos;s official estimate for 2022; numbers are model projections from registry data, not counts.</li>
             <li><Src s={F.survival.source} />; <Src s={F.healthyChina2030.source} /> (Chinese); <Src s={F.healthyChina2030.secondary} />.</li>
             <li><Src s={F.hbv.source} />: cluster-randomised, Qidong, 1985 to 1990 birth cohorts, followed to 2013.</li>
             <li>NRDL: <Src s={F.nrdl.source2017} />; <Src s={F.nrdl.source2018} />; <Src s={F.nrdl.sourceTrend} />; <Src s={F.nrdl.sourceRenewal} />; <Src s={F.nrdl.nhsa} /> (official notices in Chinese).</li>
             <li><Src s={F.npc.source} />.</li>
             <li>Approvals: <a className="underline" href="https://www.nmpa.gov.cn" rel="noopener">NMPA</a> and <a className="underline" href="https://www.cde.org.cn" rel="noopener">CDE</a> notices (Chinese), with the company announcement and primary publication linked on each product and trial page. Research output: OpenAlex whole counting, which under-represents Chinese-language journals; trials: ClinicalTrials.gov sites, which misses studies registered only on ChiCTR.</li>
-            <li>Deal terms are as announced by the parties and link to the announcing company's newsroom; Chinese company names follow their English filings.</li>
+            <li>Deal terms are as announced by the parties and link to the announcing company&apos;s newsroom; Chinese company names follow their English filings.</li>
           </ul>
         </Section>
       </Container>

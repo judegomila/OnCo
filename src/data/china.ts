@@ -17,7 +17,6 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 const doi = (label: string, d: string) => ({ label, url: `https://doi.org/${d}` });
 const NMPA = { label: "NMPA (National Medical Products Administration)", url: "https://www.nmpa.gov.cn" };
-const CDE = { label: "CDE (Center for Drug Evaluation)", url: "https://www.cde.org.cn" };
 
 type D = Omit<DrugInput, "kind" | "asOf">;
 const d = (x: D): DrugInput => ({ kind: "drug", asOf, ...x });

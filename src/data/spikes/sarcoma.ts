@@ -20,7 +20,7 @@ const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: 
 
 // ======================= COMPANIES =======================
 const companies: CompanyInput[] = [
-  co({ id: "deciphera", name: "Deciphera Pharmaceuticals (Ono)", hq: "Waltham, MA", country: "US", companyType: "biotech", website: "https://www.deciphera.com", sections: ["targeted-therapy"],
+  co({ id: "deciphera", links: [{ label: "Official website", url: "https://www.deciphera.com" }], name: "Deciphera Pharmaceuticals (Ono)", hq: "Waltham, MA", country: "US", companyType: "biotech", website: "https://www.deciphera.com", sections: ["targeted-therapy"],
     tldr: "Kinase-switch-control company behind ripretinib for GIST and vimseltinib for tenosynovial giant cell tumour; bought by Ono Pharmaceutical in 2024.",
     summary: "Ripretinib (Qinlock, 2020; INVICTUS, INTRIGUE, INSIGHT) and vimseltinib (Romvimza, approved 14 February 2025; MOTION). Acquired by Ono for ~$2.4B (2024).",
     drugs: ["ripretinib", "vimseltinib"], cancers: ["sarcoma"] }),

@@ -165,7 +165,7 @@ const entities: EntityInput[] = [
     drugs: ["nalirifox", "tovorafenib"], cancers: ["pancreatic", "glioblastoma"],
   },
   {
-    id: "elicio-therapeutics", kind: "company", name: "Elicio Therapeutics", hq: "Boston, MA", country: "US", companyType: "biotech", website: "https://elicio.com", ticker: "ELTX", asOf,
+    id: "elicio-therapeutics", links: [{ label: "Official website", url: "https://elicio.com" }], kind: "company", name: "Elicio Therapeutics", hq: "Boston, MA", country: "US", companyType: "biotech", website: "https://elicio.com", ticker: "ELTX", asOf,
     tldr: "Small biotech developing lymph-node-targeted KRAS vaccines for pancreatic and colorectal cancer.",
     summary: "ELI-002 7P (amphiphile mKRAS vaccine); AMPLIFY-7P phase 2 missed its primary endpoint in June 2026; phase 3 strategy being refined.",
     drugs: ["eli-002-7p"], cancers: ["pancreatic"],

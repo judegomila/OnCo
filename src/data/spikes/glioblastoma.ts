@@ -165,7 +165,7 @@ const entities: EntityInput[] = [
 
   // ======================= COMPANIES =======================
   {
-    id: "day-one-biopharmaceuticals", kind: "company", name: "Day One Biopharmaceuticals", hq: "Brisbane, CA", country: "US", companyType: "biotech", website: "https://www.dayonebio.com", ticker: "DAWN", asOf,
+    id: "day-one-biopharmaceuticals", links: [{ label: "Official website", url: "https://www.dayonebio.com" }], kind: "company", name: "Day One Biopharmaceuticals", hq: "Brisbane, CA", country: "US", companyType: "biotech", website: "https://www.dayonebio.com", ticker: "DAWN", asOf,
     tldr: "Paediatric-first oncology company whose tovorafenib became the first targeted therapy for childhood low-grade glioma.",
     summary: "Ojemda (tovorafenib) US approval 2024; Ipsen holds ex-US rights; LOGGIPY-2 first-line phase 3; pimasertib (MEK) combinations.",
     drugs: ["tovorafenib"], cancers: ["glioblastoma"],

@@ -207,7 +207,7 @@ const companies: CompanyInput[] = [
     tldr: "Maker of cabozantinib, the most-prescribed kidney cancer pill, and developer of its successor zanzalintinib.",
     summary: "Cabometyx (RCC, HCC, thyroid, NET), zanzalintinib (XL092) in phase 3 across RCC (with belzutifan, LITESPARK-034), colorectal (STELLAR-303), and NET; XB002 ADC.",
     drugs: ["cabozantinib"], cancers: ["rcc"] },
-  { id: "eisai", kind: "company", name: "Eisai", hq: "Tokyo", country: "JP", companyType: "pharma", website: "https://www.eisai.com", ticker: "4523.T", asOf, sections: ["targeted-therapy"],
+  { id: "eisai", links: [{ label: "Official website", url: "https://www.eisai.com" }], kind: "company", name: "Eisai", hq: "Tokyo", country: "JP", companyType: "pharma", website: "https://www.eisai.com", ticker: "4523.T", asOf, sections: ["targeted-therapy"],
     tldr: "Japanese pharma that discovered lenvatinib and partners with Merck on its combinations.",
     summary: "Lenvatinib (Lenvima) across RCC, HCC, thyroid, endometrial cancer; eribulin (Halaven); lecanemab (Alzheimer's) with Biogen.",
     drugs: ["lenvatinib"], cancers: ["rcc", "hcc", "thyroid"] },

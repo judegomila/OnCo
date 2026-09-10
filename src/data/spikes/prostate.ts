@@ -35,7 +35,7 @@ const companies: CompanyInput[] = [
     tldr: "Blue Earth Diagnostics makes Posluma (18F-rhPSMA-7.3) and Axumin (fluciclovine) PET agents for prostate cancer.",
     summary: "Blue Earth Diagnostics is a Bracco subsidiary. Posluma approved 2023 (LIGHTHOUSE, SPOTLIGHT trials); rhPSMA therapeutic analogue in development.",
     drugs: ["flotufolastat"], cancers: ["prostate"] }),
-  co({ id: "essa-pharma", name: "ESSA Pharma", hq: "Vancouver", country: "CA", companyType: "biotech", website: "https://essapharma.com", ticker: "EPIX", sections: ["hormonal"],
+  co({ id: "essa-pharma", links: [{ label: "Official website", url: "https://essapharma.com" }], name: "ESSA Pharma", hq: "Vancouver", country: "CA", companyType: "biotech", website: "https://essapharma.com", ticker: "EPIX", sections: ["hormonal"],
     tldr: "ESSA Pharma developed masofaniten, an AR N-terminal-domain inhibitor whose phase 2 was stopped for futility in 2024-25.",
     summary: "Masofaniten (EPI-7386) + enzalutamide phase 2 in mCRPC terminated after a futility analysis (PSA90 endpoint); development discontinued and strategic options under review. An instructive failure for the AR-NTD concept.",
     drugs: ["masofaniten"], cancers: ["prostate"], tags: ["failed-so-far"] }),

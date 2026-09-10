@@ -2,6 +2,8 @@ import type { ReactNode } from "react";
 import { withTermHovers } from "@/lib/term-hover";
 
 const SURVIVAL = /survival|surviv|mortality|die\b|died|deaths?\b|median (OS|overall)|\b\d{1,2}-year\b|life expectancy|fatal|killer|prognosis/i;
+/** Reassuring lines stay visible even when they mention survival: cures, people alive at a landmark, improvements. */
+const POSITIVE = /\bcure[sd]?\b|curable|alive at|improv|halved|doubled|longer|better|record high/i;
 
 /**
  * Keeps averaged survival figures out of the first glance. Sentences or bullets that quote survival or
@@ -10,8 +12,9 @@ const SURVIVAL = /survival|surviv|mortality|die\b|died|deaths?\b|median (OS|over
  */
 export function SurvivalDisclosure({ text, items, skipId }: { text?: string; items?: string[]; skipId?: string }) {
   const parts = items ?? (text ? text.split(/(?<=[.!?])\s+(?=[A-Z~\d])/) : []);
-  const visible = parts.filter((p) => !SURVIVAL.test(p));
-  const hidden = parts.filter((p) => SURVIVAL.test(p));
+  const scary = (p: string) => SURVIVAL.test(p) && !POSITIVE.test(p);
+  const visible = parts.filter((p) => !scary(p));
+  const hidden = parts.filter(scary);
   const render = (p: string, i: number): ReactNode => <li key={i}>{withTermHovers(p, { skipId })}</li>;
   if (!parts.length) return null;
   return (

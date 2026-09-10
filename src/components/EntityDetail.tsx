@@ -68,7 +68,9 @@ import { SurvivalDisclosure } from "./SurvivalDisclosure";
 import { similarLinks } from "@/lib/similar";
 import { OrganSchematic } from "./OrganSchematic";
 import { SpreadMap } from "./SpreadMap";
-import { spreadFor } from "@/data/spread";
+import { spreadFor, SPREAD_LABELS } from "@/data/spread";
+import { GentleSection } from "./GentleSection";
+import { WhatIsBeingDone, WhatIsBeingDoneFor } from "./WhatIsBeingDone";
 import { journeysForCancer } from "@/data/journeys";
 import { organFor } from "@/data/organ-schematics";
 import { regimensFor, regimenRoute, cycleSummary } from "@/lib/regimens";
@@ -244,6 +246,7 @@ function kindTabs(e: Entity): Tab[] {
           {STRUCTURES[e.id] ? <div className="mt-8"><MoleculeViewer entries={STRUCTURES[e.id]} /></div> : <DrugSchematic technologies={e.technologies} modality={e.modality} />}
           <div className="mt-6"><ProcessSchematic entity={e} /></div>
           {e.mechanismSteps.length > 0 && <div className="mt-6"><MechanismCard steps={e.mechanismSteps} /></div>}
+          {/resist|escape|progress/i.test(e.summary) && <div className="mt-6"><WhatIsBeingDone topic="resistance" compact /></div>}
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Modality">{e.modality}</Field>
             <Field label="Mechanism">{e.mechanism}</Field>
@@ -551,22 +554,22 @@ function cancerTabs(c: Cancer): Tab[] {
       {organFor(c.id) && <Block title="Where it starts and where it drains"><OrganSchematic cancerId={c.id} /></Block>}
       {modelsFor(c.id) && <Block title="Preclinical models"><p className="text-sm text-muted">{modelsFor(c.id)!.cellLines.length} cell lines, {modelsFor(c.id)!.gemms.length} mouse models and {modelsFor(c.id)!.pdx.length + modelsFor(c.id)!.organoids.length} repositories are listed for this cancer. <Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(c.name.split(" (")[0])}`}>See them →</Link></p></Block>}
       <div className="grid gap-6 sm:grid-cols-2 mt-8">
-        <Field label="Who it affects"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>
+        <Field label="Who gets it, and what has changed"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>
         <Field label="Group"><Tip title={`${c.group[0].toUpperCase()}${c.group.slice(1)} cancers`} text={`All ${c.group} cancers in OnCo, filtered in the cancers table.`} href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}><Link className="capitalize underline decoration-dotted decoration-foreground/30 underline-offset-[3px]" href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}>{c.group}</Link></Tip></Field>
       </div>
+      <div className="mt-6"><WhatIsBeingDone topic="late-diagnosis" cancerId={c.id} compact /></div>
       <Block title="Where the cases are"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
       {spreadFor(c.id) && (
-        <details className="mt-10 group">
-          <summary className="cursor-pointer list-none inline-flex items-center gap-2 text-sm text-muted hover:text-foreground"><span aria-hidden className="transition-transform group-open:rotate-90">▸</span>Show where this cancer can spread if it advances (medical detail, opens on request)</summary>
-          <p className="text-xs text-muted mt-2 mb-3 max-w-3xl">Most people never reach this stage. The map shows the sites reported in the literature for advanced disease, so that clinicians and readers who want the detail can find it.</p>
-        <Block title="Sites reported in advanced disease">
+        <GentleSection className="mt-8" title={SPREAD_LABELS.fold} why={SPREAD_LABELS.why} reassurance={SPREAD_LABELS.reassurance} kicker="Advanced disease">
           <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
             <div className="card p-3"><SpreadMap spread={spreadFor(c.id)!} cancerName={c.name} /></div>
-            <ol className="space-y-2 text-sm">{spreadFor(c.id)!.sites.map((s) => <li key={s.region} className="card p-3"><div className="flex items-baseline justify-between gap-2"><span className="font-medium">{s.site}</span><span className="chip bg-foreground/5">{s.tier}</span></div>{(s.pct || s.note) && <p className="text-muted mt-1">{[s.pct, s.note].filter(Boolean).join(". ")}.</p>}</li>)}</ol>
+            <div className="space-y-4">
+              <WhatIsBeingDone topic="spread" cancerId={c.id} compact />
+              <ol className="space-y-2 text-sm">{spreadFor(c.id)!.sites.map((s) => <li key={s.region} className="card p-3"><div className="flex items-baseline justify-between gap-2"><span className="font-medium">{s.site}</span><span className="chip bg-foreground/5">{s.tier}</span></div>{(s.pct || s.note) && <p className="text-muted mt-1">{[s.pct, s.note].filter(Boolean).join(". ")}.</p>}</li>)}</ol>
+            </div>
           </div>
           <p className="text-xs text-muted mt-2"><Link href={`/atlas/spread/#${c.id}`} className="underline">All cancers side by side</Link></p>
-        </Block>
-        </details>
+        </GentleSection>
       )}
     </> },
     { id: "care", label: "Standard of care", count: c.standardOfCare.length, content: (
@@ -604,7 +607,7 @@ function cancerTabs(c: Cancer): Tab[] {
           </li>
         ))}
       </ol>) },
-    { id: "pipeline", label: "Pipeline", count: c.pipeline.length, content: <><RefsWithMolecules ids={c.pipeline} /><Block title="Open problems"><Bullets items={c.openProblems} linked={(t) => withTermHovers(t, { skipId: c.id })} /></Block></> },
+    { id: "pipeline", label: "Pipeline", count: c.pipeline.length, content: <><RefsWithMolecules ids={c.pipeline} /><Block title="Open problems, and what is being done about each"><ul className="space-y-4">{c.openProblems.map((p, i) => <li key={i}><p className="text-[15px] leading-relaxed">{withTermHovers(p, { skipId: c.id })}</p><div className="mt-2"><WhatIsBeingDoneFor text={p} cancerId={c.id} /></div></li>)}</ul></Block></> },
     { id: "trials", label: "Trials", content: <><Block title="Recruiting now (live from ClinicalTrials.gov)"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>{(forMe.get("trial") ?? []).length > 0 && <Block title="Landmark trials in OnCo"><ChipList items={forMe.get("trial") ?? []} /></Block>}</> },
     { id: "centres", label: "Expert centres", content: <ExpertCentres cancerId={c.id} /> },
     { id: "questions", label: "Questions to ask", content: <Questions cancer={c} /> },

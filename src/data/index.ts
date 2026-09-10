@@ -40,6 +40,7 @@ import { foundationRoadmaps } from "./foundation-roadmap";
 import { ideaWaves } from "./ideas-waves";
 import { mechanicsPathways } from "./mechanics-pathways";
 import { complementary } from "./complementary";
+import { tests } from "./tests";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -83,4 +84,5 @@ export const ALL_INPUTS: EntityInput[] = [
   ...foundationRoadmaps,
   ...mechanicsPathways,
   ...complementary,
+  ...tests,
 ];

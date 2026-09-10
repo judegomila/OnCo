@@ -795,7 +795,8 @@ const baseDrugs: DrugInput[] = [
     tldr: "A 21-gene test that tells most women with early hormone-positive breast cancer whether they can safely skip chemotherapy.",
     summary: "Oncotype DX is a gene-expression assay that measures 16 cancer-related and 5 reference genes by RT-PCR in tumour tissue to give a recurrence score estimating both the risk of distant recurrence and the likely benefit from chemotherapy in early hormone-positive, HER2-negative breast cancer. TAILORx (2018) showed that women with a score of 25 or below, if over 50, derive no benefit from adding chemotherapy to endocrine therapy, and RxPONDER extended that finding to postmenopausal women with 1 to 3 positive nodes. Younger women with mid-range scores did show some chemotherapy benefit in TAILORx, which may reflect ovarian suppression rather than cytotoxic effect, and this remains debated. Exact Sciences markets it; MammaPrint (Agendia) and Prosigna/PAM50 are alternatives. For a newcomer: a tumour test that lets most women with early hormone-positive breast cancer safely skip chemotherapy.",
     mechanism: "RT-PCR of 16 cancer and 5 reference genes into a recurrence score.",
-    technologies: ["rna-seq", "companion-diagnostic"], companies: ["exact-sciences"], cancers: ["breast-hr-positive"],
+    technologies: ["rna-seq", "companion-diagnostic"], companies: ["exact-sciences"], cancers: ["breast-hr-positive"], trials: ["tailorx", "rxponder"], related: ["mammaprint", "prosigna", "endopredict"],
+    links: [{ label: "TAILORx (NEJM 2018)", url: "https://doi.org/10.1056/NEJMoa1804710" }, { label: "NICE DG34: tumour profiling tests for breast cancer", url: "https://www.nice.org.uk/guidance/dg34" }],
   },
   {
     id: "artera-ai-prostate", kind: "drug", name: "ArteraAI Prostate", modality: "AI digital pathology prognostic/predictive test", asOf, status: "approved",

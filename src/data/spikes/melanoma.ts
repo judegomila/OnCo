@@ -239,7 +239,7 @@ const terms: TermInput[] = [
   term({ id: "ulceration-melanoma", name: "Ulceration (melanoma)", category: "Pathology",
     tldr: "Loss of the skin surface over a melanoma under the microscope; a sign of aggressive biology that raises the stage.",
     summary: "Present in roughly a quarter of primary melanomas; independently worsens prognosis and defines the 'b' substage at each T level. Historically predicted benefit from interferon; today it helps define stage IIB/IIC, where adjuvant PD-1 is approved.", cancers: ["melanoma"], terms: ["breslow-thickness"] }),
-  term({ id: "major-pathological-response", aka: ["major pathologic response", "≤10% viable tumour"], name: "Major pathological response (MPR)", category: "Endpoints",
+  term({ id: "major-pathological-response", links: [{ label: "INMC pathological assessment after neoadjuvant therapy for melanoma (Tetzlaff et al., Ann Oncol 2018)", url: "https://doi.org/10.1093/annonc/mdy226" }], aka: ["major pathologic response", "≤10% viable tumour"], name: "Major pathological response (MPR)", category: "Endpoints",
     tldr: "When, after pre-surgery treatment, the removed tumour contains little or no living cancer: 10% or less viable cells.",
     summary: "Defined by the International Neoadjuvant Melanoma Consortium as ≤10% viable tumour (pathological complete response is 0%). In NADINA and earlier OpCACI trials, MPR predicted very low relapse risk and was used to decide whether adjuvant therapy could be omitted. The melanoma analogue of pCR in breast cancer.", cancers: ["melanoma"], trials: ["nadina"], terms: ["pcr", "neoadjuvant-adjuvant"] }),
   term({ id: "hla-a02-restriction", name: "HLA-A*02:01 restriction", category: "Immunology", wikipedia: W("HLA-A*02"),

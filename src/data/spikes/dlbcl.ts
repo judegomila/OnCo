@@ -43,7 +43,7 @@ const terms: TermInput[] = [
     tldr: "A five-point score (age, stage, performance status, LDH, extranodal sites) that predicts how risky a lymphoma is before treatment.",
     summary: "IPI 0-1 low, 2 low-intermediate, 3 high-intermediate, 4-5 high. Defines trial eligibility (POLARIX and frontMIND enrolled IPI 2-5 / 3-5) and expected R-CHOP outcomes (5-year OS ~90% for IPI 0-1 vs ~50% for IPI 4-5 in the rituximab era).",
     cancers: ["dlbcl"], links: [{ label: "Wikipedia", url: W("International_Prognostic_Index") }] }),
-  term({ id: "cell-of-origin", name: "Cell of origin (GCB vs ABC)", category: "Biomarkers",
+  term({ id: "cell-of-origin", links: [{ label: "Distinct types of DLBCL by gene expression profiling (Alizadeh et al., Nature 2000)", url: "https://doi.org/10.1038/35000501" }], name: "Cell of origin (GCB vs ABC)", category: "Biomarkers",
     tldr: "Whether a large B-cell lymphoma resembles a germinal-centre B cell or an activated B cell; the activated type does worse and depends on different pathways.",
     summary: "Determined by gene expression (Lymph2Cx) or the Hans IHC algorithm. ABC/non-GCB depends on NF-κB and BCR signalling (BTK, IRAK4, MYD88 L265P), GCB on BCL2/EZH2. Newer genetic classifications (LymphGen: MCD, BN2, N1, EZB, ST2, A53) refine this but are not yet clinically routine.",
     cancers: ["dlbcl"], targets: ["bcl2", "ezh2"] }),

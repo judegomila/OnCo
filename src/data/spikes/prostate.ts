@@ -99,7 +99,7 @@ const terms: TermInput[] = [
     tldr: "PSA rising again after surgery or radiation, usually years before anything shows on a scan.",
     summary: "PSA ≥0.2 ng/mL after prostatectomy or nadir +2 after radiation. PSMA PET detects disease at PSA <0.5 in most men, enabling salvage radiation or metastasis-directed therapy. EMBARK (2023) showed enzalutamide ± ADT delays metastasis in high-risk BCR (PSA doubling time ≤9 months).",
     cancers: ["prostate"], technologies: ["psma-pet"], trials: ["embark"], links: [{ label: "Wikipedia", url: W("Biochemical_recurrence") }] }),
-  term({ id: "psa50", name: "PSA50 / PSA90 response", category: "Endpoints",
+  term({ id: "psa50", links: [{ label: "PCWG3 trial design recommendations incl. PSA response reporting (Scher et al., J Clin Oncol 2016)", url: "https://doi.org/10.1200/JCO.2015.64.2702" }], name: "PSA50 / PSA90 response", category: "Endpoints",
     tldr: "PSA50 is the share of patients whose PSA falls by at least half on treatment, and PSA90 the share whose PSA falls by 90%.",
     summary: "Standard early-efficacy read-out in mCRPC trials (VISION PSA50 46%; TheraP 66% vs 37%). Correlates with but does not replace rPFS/OS; PSA90 futility ended masofaniten's phase 2.",
     cancers: ["prostate"], terms: ["psa"] }),

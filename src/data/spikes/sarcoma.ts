@@ -46,7 +46,7 @@ const technologies: TechnologyInput[] = [
 ];
 
 const terms: TermInput[] = [
-  term({ id: "fnclcc-grade", name: "FNCLCC grade (soft-tissue sarcoma)", category: "Pathology",
+  term({ id: "fnclcc-grade", links: [{ label: "FNCLCC histopathological grading system (Trojani et al., Int J Cancer 1984)", url: "https://doi.org/10.1002/ijc.2910330108" }], name: "FNCLCC grade (soft-tissue sarcoma)", category: "Pathology",
     tldr: "The FNCLCC grade is a 1-to-3 score for soft-tissue sarcomas based on how abnormal, how fast-dividing, and how much dead tissue the tumour shows; grade drives whether chemotherapy is considered.",
     summary: "French Federation of Cancer Centres system: differentiation, mitotic count and necrosis summed to grade 1-3. Grade 3, size >5 cm and deep location define high-risk disease eligible for neoadjuvant chemotherapy (ISG-STS 1001) and for nomogram-based prediction (Sarculator).",
     cancers: ["sarcoma"] }),

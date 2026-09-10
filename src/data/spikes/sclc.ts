@@ -154,7 +154,7 @@ const technologies: TechnologyInput[] = [
 ];
 
 const terms: TermInput[] = [
-  { id: "limited-vs-extensive-stage", kind: "term", name: "Limited-stage vs extensive-stage (SCLC)", category: "Clinical", asOf,
+  { id: "limited-vs-extensive-stage", kind: "term", wikipedia: W("Limited-stage_small_cell_lung_carcinoma"), links: [{ label: "Wikipedia", url: W("Limited-stage_small_cell_lung_carcinoma") }], name: "Limited-stage vs extensive-stage (SCLC)", category: "Clinical", asOf,
     tldr: "Small-cell lung cancer is split into disease that fits in one radiation field (limited) and disease that has spread beyond it (extensive). The first is treated to cure, the second to control.",
     summary: "Limited-stage (about one third of patients; roughly TNM stage I-III) is confined to one hemithorax and regional nodes and treated with concurrent chemoradiotherapy followed by durvalumab (ADRIATIC); 5-year survival 25-35%. Extensive-stage is treated with chemo-immunotherapy and, since 2025, maintenance; median survival 12-15 months. The Veterans Administration two-stage system persists alongside TNM because it maps to treatment intent.",
     cancers: ["sclc"], trials: ["adriatic", "convert"] },

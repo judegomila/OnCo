@@ -192,7 +192,7 @@ const technologies: TechnologyInput[] = [
 ];
 
 const terms: TermInput[] = [
-  { id: "imdc-risk", kind: "term", name: "IMDC risk groups (favourable / intermediate / poor)", category: "Clinical", asOf,
+  { id: "imdc-risk", kind: "term", links: [{ label: "IMDC (Heng) prognostic model for metastatic RCC (Heng et al., J Clin Oncol 2009)", url: "https://doi.org/10.1200/JCO.2008.21.4809" }], name: "IMDC risk groups (favourable / intermediate / poor)", category: "Clinical", asOf,
     tldr: "The IMDC score uses six factors to sort metastatic kidney cancer into three risk groups. It decides whether dual immunotherapy or immunotherapy plus a targeted pill is offered first.",
     summary: "International Metastatic RCC Database Consortium (Heng) criteria: Karnofsky <80%, <1 year from diagnosis to treatment, anaemia, hypercalcaemia, neutrophilia, thrombocytosis. 0 factors favourable, 1-2 intermediate, ≥3 poor. Nivolumab-ipilimumab's OS benefit is confined to intermediate/poor risk; IO-TKI doublets benefit all groups on PFS, with less clear OS benefit in favourable risk.",
     cancers: ["rcc"], trials: ["checkmate-214", "keynote-426", "clear"] },

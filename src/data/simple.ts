@@ -4,5 +4,6 @@ import { simpleA } from "./simple/part-a";
 import { simpleB } from "./simple/part-b";
 import { simpleD } from "./simple/part-d";
 import { simpleE } from "./simple/part-e";
+import { simpleF } from "./simple/part-f";
 
-export const simple: Record<string, string> = { ...simpleA, ...simpleB, ...simpleD, ...simpleE };
+export const simple: Record<string, string> = { ...simpleA, ...simpleB, ...simpleD, ...simpleE, ...simpleF };

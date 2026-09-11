@@ -39,6 +39,8 @@ export const FEEDS: FeedDef[] = [
     describe: (j) => ({ fetched: str(j.fetched), count: keys(j.entities), note: "objects with paper counts" }) },
   { id: "openalex-institutions", label: "Institution research output", path: "openalex/institutions.json", script: "scripts/fetch-openalex.ts", cadenceDays: 90, source: "OpenAlex (CC0)",
     describe: (j) => ({ fetched: str(j.fetched), count: keys(j.institutions), note: str(j.note) }) },
+  { id: "openalex-research", label: "Institution research output, five years", path: "openalex/research-index.json", script: "scripts/fetch-institution-research.ts", workflow: "refresh-research.yml", cadenceDays: 7, source: "OpenAlex works by institution lineage (CC0)",
+    describe: (j) => ({ fetched: str(j.fetched), count: keys(j.institutions), note: `${keys(j.unresolved) ?? 0} institutions unresolved` }) },
   { id: "openalex-papers", label: "Key paper citations", path: "openalex/papers.json", script: "scripts/fetch-citations.ts", workflow: "refresh-pulse.yml", cadenceDays: 7, source: "OpenAlex works by DOI (CC0)",
     describe: (j) => ({ fetched: str(j.fetched), count: keys(j.papers), note: "key papers with citation counts" }) },
   { id: "globocan", label: "GLOBOCAN incidence and mortality", path: "globocan/countries.json", script: "scripts/fetch-globocan.ts", cadenceDays: 365, source: "IARC Global Cancer Observatory",

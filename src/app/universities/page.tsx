@@ -6,7 +6,7 @@ import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { Logo } from "@/components/Logo";
-import { OPENALEX, OutputTable, UniversityOutputTable, outputRows, universityOutputRows } from "@/components/OutputTable";
+import { OPENALEX, OutputTable, UniversityOutputTable, outputRows, readResearchIndex, universityOutputRows } from "@/components/OutputTable";
 
 export const metadata: Metadata = pageMeta({ title: "Research output ranking", description: "Universities and cancer centres ranked by oncology research output: OpenAlex counts, external bibliometric leaders, and the corpus-derived score.", path: "/universities/" });
 
@@ -17,6 +17,7 @@ export default function Universities() {
   const output = outputRows();
   const byUniversity = universityOutputRows();
   const corpus = rankUniversities();
+  const research = readResearchIndex();
   return (
     <>
       <PageHeader kicker={<GroupKicker id="who" />} title="University research output"
@@ -32,6 +33,7 @@ export default function Universities() {
         <h2 className="text-xl font-semibold mt-12 mb-3">2. Oncology output from OpenAlex</h2>
         <div className="card p-4 text-sm text-muted mb-4 space-y-2">
           <p><strong className="text-foreground">Query.</strong> For each institution, works in OpenAlex where the primary topic&apos;s subfield is <em>{OPENALEX.subfieldName}</em> (subfield {OPENALEX.subfield}), publication year 2024 or 2025, counted with <code>authorships.institutions.lineage</code> so that a university&apos;s hospitals and institutes are included. Citations are OpenAlex&apos;s summed citation counts to those works, counted on {OPENALEX.fetched}.</p>
+          {research && <p><strong className="text-foreground">Five-year columns.</strong> The works and citations for {research.years[0]} to {research.years[1]} use the same filter over the last five publication years (the current year is in progress), from <code>public/openalex/research-index.json</code>, counted on {research.fetched} for {Object.keys(research.institutions).length} institutions. Each institution page carries its per-year counts, most-cited works and most frequent authors under Research output. Click a column heading to sort.</p>}
           <p><strong className="text-foreground">Caveats.</strong> Universities (Johns Hopkins, Stanford, UCSF, Penn, Michigan, WashU, UCLA, Heidelberg) are matched at the university level and therefore include all their hospitals; dedicated cancer centres (MSK, MD Anderson, Dana-Farber, Gustave Roussy) are matched to the centre itself. Topic assignment is OpenAlex&apos;s machine classification and undercounts oncology work filed under haematology, radiology, surgery, or genetics. Societies and funders (ASCO, ESMO, AACR, IARC, CRUK) are excluded. Where two OnCo records share one OpenAlex id, the university table counts it once. Data licence CC0.{OPENALEX.note && <> <em>{OPENALEX.note}</em></>}</p>
         </div>
         <h3 className="font-semibold mb-2">By institution ({output.length})</h3>

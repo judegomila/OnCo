@@ -65,7 +65,7 @@ export default function About() {
         </section>
         <section>
           <h2 className="text-xl font-semibold mb-2">Licence</h2>
-          <div id="licence"><p>Code: MIT. Data (the contents of <code>src/data/</code>): copyright OnCo, licensed <a className="underline" href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC BY-NC 4.0</a>. Free for personal, educational, academic and non-profit use with the attribution “Data from OnCo (onco.cc)”.</p><p className="mt-1">Commercial use (inside a paid product or service, advertising-funded redistribution, or a company data pipeline) needs a paid commercial licence. Ask through a <a className="underline" href="https://github.com/judegomila/OnCo/issues/new?labels=licensing&title=Commercial+licence+request" rel="noopener">licensing request</a>.</p></div>
+          <div id="licence"><p>Code: MIT. Data (the contents of <code>src/data/</code>): copyright OnCo, licensed <a className="underline" href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC BY-NC 4.0</a>. Free for individual and educational use, including academic and non-profit use, with the attribution “Data from OnCo (onco.cc)”.</p><p className="mt-1">Commercial use (inside a paid product or service, advertising-funded redistribution, or a company data pipeline) must contact us to pay for the data. Ask through a <a className="underline" href="https://github.com/judegomila/OnCo/issues/new?labels=licensing&title=Commercial+licence+request" rel="noopener">licensing request</a>.</p></div>
         </section>
       </Container>
     </>

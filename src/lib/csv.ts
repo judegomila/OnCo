@@ -8,7 +8,7 @@ export type CsvCell = string | number | boolean | null | undefined;
 export type CsvRow = Record<string, CsvCell>;
 
 /** Attribution line written as the first line of every CSV (as a `#` comment) and into every JSON export. */
-export const EXPORT_LICENCE = "Data from OnCo (https://onco.cc), CC BY-NC 4.0. Free for non-commercial and educational use with attribution: name OnCo and link to https://onco.cc wherever the data or derived text appears. Commercial use needs a licence from OnCo (https://onco.cc/about/#licence).";
+export const EXPORT_LICENCE = "Data from OnCo (https://onco.cc), CC BY-NC 4.0. Free for individual and educational use with attribution: name OnCo and link to https://onco.cc wherever the data or derived text appears. Commercial use must contact OnCo to pay for the data (https://onco.cc/about/#licence).";
 
 /** RFC 4180 quoting: wrap when the value holds a comma, quote, newline or leading/trailing space; double inner quotes. */
 export function csvEscape(v: CsvCell): string {

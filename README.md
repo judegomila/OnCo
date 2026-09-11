@@ -78,7 +78,7 @@ GitHub Actions run the checks on every push and open weekly pull requests with r
 - **Plain English first.** Every object opens with a TL;DR a newcomer understands; the technical layer follows. Technical terms are glossary objects and get hover explanations wherever they appear.
 - **Cited, dated, honest about gaps.** Every record links a primary source, carries the date it was last checked, and says "no data" rather than guessing.
 - **Nothing stale by design.** Counts and dates are computed at build time from the corpus, never written into copy.
-- **Open for good.** Code is MIT. Data is copyright OnCo, free for non-commercial, educational and research use under CC BY-NC 4.0 with attribution; commercial use needs a paid licence (see `LICENSE-DATA`). Logos remain their owners' trademarks.
+- **Open for good.** Code is MIT. Data is copyright OnCo, free for individual and educational use under CC BY-NC 4.0 with attribution; commercial use must contact us to pay for the data (see `LICENSE-DATA`). Logos remain their owners' trademarks.
 
 ## Contributing and safety
 

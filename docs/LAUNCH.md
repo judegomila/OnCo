@@ -97,6 +97,11 @@ sources 6,297; backlinks 5,975 of 6,670; orphans 7 of 6,670 after the second lin
 - Heroes: ordinary people first. Celebrities (Jolie, Boseman, Radner, Goody, Betty Ford, Couric, Armstrong, Hoy, Jobs, Valvano, Ted Williams, Winchell, Lansing) keep their person pages but are tagged public-figure, not hero. Order: patients and families, pioneers, advocates and builders, donors last. Sid Sijbrandij (GitLab, osteosarcoma) added as the model of the people the section is for.
 - Section titles must be functional noun phrases: "Anatomy and lymph node drainage", "Cases by country", "At a glance", "Trials recruiting now", "Lab models that fail to predict what happens in patients". A site-wide title review agent is finishing the rest.
 - Homepage no longer links "Whole corpus as JSON"; the API stays under Open data.
+- Site-wide title review merged: 175 functional titles across pages, navigation and components; the organ section is "Anatomy and lymph node drainage".
+- Licence wording set to the owner's phrasing: "free for individual and educational use with attribution; commercial use must contact us to pay for the data", with © 2026 OnCo and a commercial-licence link in the footer in nine languages, and the same in LICENSE-DATA, About, README, exports and the CLI.
+- Footer credit "Made by Jude Gomila" linking to judegomila.com.
+- SEO: every page now carries an explicit Open Graph and Twitter image; drug page titles say Treatment, not Product. Still owner-only: Google Search Console verification.
+- Portraits: 180 people now have a Commons photo (from 77); 1,123 have no free image on Wikidata.
 - Drug coverage: NCI A to Z list fully matched (the 60 dashboard misses are regimen acronyms and co-packs, deliberately not separate records). Startups: complete only for Y Combinator (62 of 105 hits included); the rest is a curated 187 with no public denominator.
 
 ## State at hand-back (11 Sept, early)

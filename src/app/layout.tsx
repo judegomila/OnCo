@@ -108,7 +108,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <FooterNav />
             </div>
             <div className="mt-10 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-x-6 gap-y-2 text-xs text-muted">
-              <p><T k="footer.licence" /></p>
+              <p><T k="footer.licence" /> <Link href="/about/#licence" className="underline hover:text-foreground"><T k="footer.commercial" /></Link>. <T k="footer.madeBy" /> <a href="https://judegomila.com" rel="noopener author" className="underline hover:text-foreground">Jude Gomila</a>.</p>
               <p className="flex flex-wrap gap-x-4 gap-y-1">
                 <Link href="/about/" className="hover:text-foreground hover:underline"><T k="footer.aboutLink" /></Link>
                 <Link href="/corrections/" className="hover:text-foreground hover:underline"><T k="footer.corrections" /></Link>

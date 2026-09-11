@@ -9,7 +9,7 @@ import { KINDS } from "../src/lib/schema";
 describe("issue forms", () => {
   it("dropdowns for kind and language are in sync with the code", () => {
     expect(syncIssueForms(FORMS_DIR, false)).toEqual([]);
-    expect(KIND_OPTIONS).toContain("product");
+    expect(KIND_OPTIONS).toContain("treatment");
     expect(KIND_OPTIONS).toContain("key paper");
     expect(LANGUAGE_OPTIONS).toEqual(["Spanish", "Chinese", "Portuguese", "Hindi", "French", "German", "Japanese", "Arabic"]);
   });

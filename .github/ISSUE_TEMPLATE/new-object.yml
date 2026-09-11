@@ -7,7 +7,7 @@ body:
     id: kind
     attributes:
       label: Kind
-      options: [cancer, front, technology, target, product, company, institution, pathway, term, trial, pairing, roadmap, idea, collection, person, bottleneck, key paper, journal]
+      options: [cancer, front, technology, target, treatment, company, institution, pathway, term, trial, pairing, roadmap, idea, collection, person, bottleneck, key paper, journal]
     validations:
       required: true
   - type: input

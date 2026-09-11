@@ -27,7 +27,7 @@ import { REGIONS, type Region } from "../../../src/data/regional-approvals";
 export const SITE = "https://onco.cc";
 export const DEFAULT_API = "https://onco.cc/api/v1";
 /** Printed once at the end of every CLI output and included in every MCP response. */
-export const ATTRIBUTION = "Data from OnCo (onco.cc), CC BY-NC 4.0; commercial use needs a licence";
+export const ATTRIBUTION = "Data from OnCo (onco.cc), CC BY-NC 4.0; free for individual and educational use, commercial use must contact OnCo to pay";
 
 export { KINDS, KIND_META, REGIONS, routeFor };
 export type { Kind, Region, AskResult, SearchDoc };

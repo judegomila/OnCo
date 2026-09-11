@@ -97,7 +97,8 @@ sources 6,297; backlinks 5,975 of 6,670; orphans 7 of 6,670 after the second lin
 - [ ] Institution research from OpenAlex: five-year oncology works, most-cited papers and top authors per institution, "Research output" panel, /universities/ columns (agent running)
 - [ ] Coverage: ClinicalTrials.gov phase 2 and 3 oncology sponsors and pipeline products as company, drug and trial records (agent running)
 - [ ] Quality: factcheck against openFDA and ClinicalTrials.gov, audit fixes, dead-link repair, audit.json regenerated (agent running)
-- [ ] Distribution: docs/DISTRIBUTION.md plan by audience and channel, CITATION.cff, llms.txt refresh, press kit, launch copy, dataset release workflow, OpenAPI description (agent running)
+- [x] Distribution: docs/DISTRIBUTION.md (eight channels, ten organisations, 30-day calendar, metrics), docs/press-kit.md, docs/launch-copy.md, docs/dataset-card.md, CITATION.cff, .zenodo.json fixed to CC BY-NC, release-dataset.yml, public/api/v1/openapi.json generated in build:api, llms.txt and llms-full.txt, MCP registry manifest. Merged 11 Sept.
+- [ ] Owner's first week from the plan: (1) Search Console DNS TXT and sitemap, Bing Webmaster import; (2) resolve the onco-mcp npm name clash then publish onco and onco-mcp and the MCP registry entry; (3) link the repo on Zenodo, tag v0.5.0, paste the DOI into CITATION.cff and README; (4) set the newsletter signup endpoint; (5) Show HN, LinkedIn, press kit to five reporters, first notes to Macmillan and Cancer Research UK
 - [ ] TL;DR quality: every vague qualifier ("powerful", "important", "novel"...) replaced with the concrete fact, starting with the glossary (agent running)
 
 ## Owner decisions on 11 Sept

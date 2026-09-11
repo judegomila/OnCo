@@ -108,7 +108,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "phage-delivery", kind: "technology", name: "Bacteriophage-based tumour delivery", sections: ["drug-discovery", "immunotherapy"], status: "preclinical", asOf: RAD,
-    tldr: "Using viruses that infect bacteria, not human cells, as programmable delivery shells for cancer drugs and vaccines.",
+    tldr: "Bacteriophage delivery uses viruses that infect bacteria, not human cells, as engineered shells whose coat proteins display tumour-homing peptides or antigens and carry drugs or vaccines. They are cheap and cannot replicate in people, but the work is preclinical: no oncology phage trial had reported efficacy by 2026, and the body clears them quickly.",
     summary: "Phage particles are cheap, cannot replicate in human cells, and their coat proteins can be engineered to display tumour-homing peptides or antigens; phage display already underpins several approved antibodies. As a delivery vehicle in oncology the work is preclinical, with interest in phage-displayed neoantigen vaccines and in the tumour microbiome, where intratumoural bacteria could be targeted by phage. No oncology phage-therapy trial had reported efficacy by 2026.",
     principle: "Engineered phage capsids display homing peptides or antigens and carry payloads; they are cleared by the reticuloendothelial system rather than infecting human cells.",
     strengths: ["No human tropism, so no productive infection", "Cheap manufacturing", "Highly modular surface display"],
@@ -131,7 +131,7 @@ const frontierRadical: EntityInput[] = [
   {
     id: "tumour-microbiome-targeting", kind: "technology", name: "Targeting the tumour's own microbes", sections: ["targeted-therapy", "drug-discovery"], status: "preclinical", asOf: RAD,
     tldr: "Some tumours contain bacteria and fungi that shelter cancer cells and break down chemotherapy. Killing them may make treatment work.",
-    summary: "Intratumoural bacteria are present across many cancer types. Fusobacterium nucleatum is associated with colorectal cancer progression and chemoresistance, and gammaproteobacteria can metabolise gemcitabine inside pancreatic tumours. Antibiotic and targeted antimicrobial strategies remain preclinical, complicated by the fact that broad antibiotics also damage the gut microbiome that immunotherapy depends on.",
+    summary: "Intratumoural bacteria have been detected in colorectal, pancreatic and other tumours. Fusobacterium nucleatum is associated with colorectal cancer progression and chemoresistance, and gammaproteobacteria can metabolise gemcitabine inside pancreatic tumours. Antibiotic and targeted antimicrobial strategies remain preclinical, complicated by the fact that broad antibiotics also damage the gut microbiome that immunotherapy depends on.",
     principle: "Selectively eliminating tumour-resident microbes removes drug-degrading enzymes and immunosuppressive signalling from inside the tumour.",
     strengths: ["Explains otherwise puzzling chemoresistance", "Cheap intervention if a targeted agent exists", "Independent of tumour genotype"],
     limitations: ["Broad antibiotics harm immunotherapy response", "Causality versus association unsettled", "No clinical trials of targeted intratumoural antimicrobials"],
@@ -196,7 +196,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "vhee-radiotherapy", kind: "technology", name: "Very-high-energy electron therapy", sections: ["radiation"], status: "preclinical", asOf: RAD,
-    tldr: "Using very fast electrons instead of photons or protons: a possible way to deliver FLASH-speed radiation to deep tumours from a compact machine.",
+    tldr: "VHEE radiotherapy fires electrons at 100 to 250 MeV, energies that reach deep tumours and can be steered by magnets, aiming to deliver FLASH-speed radiation from a machine smaller and cheaper than a proton facility. It is still at the accelerator-development and preclinical stage: no patient had been treated by September 2026.",
     summary: "Electrons in the 100-250 MeV range penetrate deeply, are steerable by magnets, and can be delivered at the ultra-high dose rates associated with the FLASH effect, in principle for a fraction of the cost of a proton facility. Work is at the accelerator-development and preclinical stage at CHUV/CERN, SLAC and elsewhere; the FLASH studies that exist in humans use conventional-energy electrons for skin lesions (for example NCT06549439, completed) or protons. No VHEE patient treatment had been reported by September 2026.",
     principle: "Very-high-energy electrons deposit a relatively flat depth dose that can be shaped magnetically, enabling deep targets and millisecond delivery.",
     strengths: ["Potential FLASH sparing at depth", "Magnetic scanning is fast and precise", "Cheaper and smaller than proton or carbon facilities"],
@@ -208,7 +208,7 @@ const frontierRadical: EntityInput[] = [
   {
     id: "proton-arc-therapy", kind: "technology", name: "Proton arc therapy", sections: ["radiation"], status: "phase-1", asOf: RAD,
     tldr: "Rotating the proton beam continuously around the patient instead of firing from a few fixed angles, to spread the entrance dose and sharpen the target dose.",
-    summary: "Proton arc delivers many low-weight spots from a continuously rotating gantry, improving conformality and robustness to range uncertainty. Vendors have released treatment-planning implementations and first patients have been reported at a small number of centres; a September 2026 search of ClinicalTrials.gov found no randomised comparison against intensity-modulated proton therapy. Delivery time and quality assurance are the practical barriers.",
+    summary: "Proton arc spreads low-weight spots across a continuously rotating gantry, so each direction contributes only part of the dose, improving conformality and robustness to range uncertainty. Vendors have released treatment-planning implementations and first patients have been reported at a small number of centres; a September 2026 search of ClinicalTrials.gov found no randomised comparison against intensity-modulated proton therapy. Delivery time and quality assurance are the practical barriers.",
     principle: "Spot-scanned protons are delivered during continuous gantry rotation, with energy layers distributed across angles so each direction contributes only part of the dose.",
     strengths: ["Better normal-tissue sparing than fixed-field proton therapy in planning studies", "More robust to setup and range error", "Runs on existing proton hardware"],
     limitations: ["No comparative clinical outcome data", "Long delivery and QA times", "Adds planning complexity for uncertain benefit"],
@@ -218,7 +218,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "lattice-radiotherapy", kind: "technology", name: "Lattice and GRID radiotherapy", sections: ["radiation", "immunotherapy"], status: "phase-2", asOf: RAD,
-    tldr: "Deliberately treating a big tumour unevenly, with a lattice of very high dose peaks inside it, instead of a uniform dose.",
+    tldr: "Lattice radiotherapy deliberately treats a bulky tumour unevenly, placing peaks of tumour-destroying dose at spaced points inside it while the tissue between receives far less, relying on bystander and immune effects to extend the kill. It runs on standard linear accelerators, but evidence is mostly palliative and single-arm, and the mechanism is unsettled.",
     summary: "Spatially fractionated radiotherapy places vertices of ablative dose inside a bulky tumour while valleys receive far less, exploiting bystander and immune effects rather than uniform coverage. Studies active in 2026 include Memorial Sloan Kettering (NCT05837767, recruiting), a randomised comparison against conventional radiotherapy in China (NCT06980259, recruiting), and combinations with checkpoint blockade (NCT07428148, NYU; NCT07041788). Most published series are palliative and single-arm.",
     principle: "High-dose vertices spaced across the tumour create steep dose gradients; abscopal and bystander signalling plus vascular damage are proposed to extend the effect beyond the peaks.",
     strengths: ["Debulks large tumours that cannot tolerate uniform ablative dose", "Clear rationale for combining with immunotherapy", "Deliverable on standard linear accelerators"],
@@ -229,7 +229,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "auger-electron-therapy", kind: "technology", name: "Auger-electron therapy", sections: ["radiopharma"], status: "preclinical", asOf: RAD,
-    tldr: "Radioactive atoms that spray very short-range electrons, lethal only if the atom sits on or inside the cell's DNA.",
+    tldr: "Auger-electron therapy uses radioactive atoms such as iodine-125 or terbium-161 that release cascades of low-energy electrons travelling only nanometres to micrometres, so they kill a cell only if the atom sits on or inside its DNA and spare the neighbours. Terbium-161 can replace lutetium-177 in existing PSMA ligands; true nuclear delivery remains preclinical.",
     summary: "Auger emitters such as iodine-125, indium-111 and terbium-161 release cascades of low-energy electrons with nanometre to micrometre range. Delivered into the nucleus they are exquisitely cytotoxic and, unlike alpha emitters, spare neighbouring cells almost entirely. Terbium-161 is closest to clinical use because it can be substituted for lutetium-177 in existing PSMA and somatostatin ligands, with first-in-human work reported; strategies that require true nuclear delivery remain preclinical.",
     principle: "Electron-capture or internal-conversion decay releases multiple very low-energy electrons; energy deposition is confined to a few nanometres, so proximity to DNA determines lethality.",
     strengths: ["Single-cell selectivity, well suited to micrometastases", "Minimal crossfire into normal tissue", "Terbium-161 slots into existing ligand chemistry"],
@@ -273,7 +273,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "cachexia-therapy", kind: "technology", name: "Cachexia-directed therapy (GDF-15 blockade)", sections: ["supportive-care", "nutrition-lifestyle"], status: "phase-3", asOf: RAD,
-    tldr: "Treating the wasting that kills many cancer patients, by blocking the hormone that suppresses appetite.",
+    tldr: "Cachexia-directed therapy treats cancer wasting by blocking GDF-15, a hormone that rises in advanced cancer and acts on the brainstem to suppress appetite. Pfizer's antibody ponsegromab improved weight in a phase 2 trial and is in phase 2/3 in pancreatic cancer cachexia; whether weight gain translates into function is the open question.",
     summary: "GDF-15 rises in advanced cancer and acts on the brainstem to suppress appetite. Pfizer's ponsegromab, a GDF-15 antibody, improved weight in a phase 2 in patients with elevated GDF-15 (NCT05546476, completed) and has moved into a phase 2/3 programme in pancreatic cancer-associated cachexia (NCT06989437, recruiting since October 2025), with a further lung cancer study planned (NCT07663630). Cachexia has no approved disease-modifying therapy, so a positive phase 3 would be a first.",
     principle: "Neutralising circulating GDF-15 removes the anorexigenic signal at the GFRAL receptor in the hindbrain, restoring appetite and lean mass.",
     strengths: ["Addresses a cause of death and of treatment discontinuation, not the tumour", "Clear biomarker for patient selection", "Phase 2 met its weight endpoints"],
@@ -317,7 +317,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "il12-electroporation", kind: "technology", name: "Intratumoural gene electrotransfer (IL-12 plasmid)", sections: ["immunotherapy", "devices"], status: "phase-2", asOf: RAD,
-    tldr: "Injecting the gene for a powerful immune cytokine into a tumour and using an electric pulse to push it into the cells, so the cytokine is made locally rather than flooding the body.",
+    tldr: "Intratumoural gene electrotransfer injects a plasmid carrying the interleukin-12 gene into a tumour and pushes it into cells with electric pulses, so this T-cell-activating cytokine is made locally instead of at the toxic doses intravenous IL-12 needed. It produced responses with pembrolizumab in anti-PD-1-resistant melanoma, but the sponsor's programmes have stalled.",
     summary: "Tavokinogene telseplasmid with electroporation produced systemic responses when combined with pembrolizumab in anti-PD-1-refractory melanoma, and Moffitt ran a neoadjuvant study with nivolumab (NCT04526730, completed). The sponsor's TNBC study (NCT03567720) has unknown status, a head and neck study was terminated, and the company's programmes stalled. The concept, local cytokine expression without systemic toxicity, remains attractive and is being pursued with other constructs.",
     principle: "Short electric pulses transiently permeabilise cell membranes, letting plasmid DNA enter tumour cells that then secrete IL-12 locally, recruiting and activating T cells.",
     strengths: ["Avoids the systemic toxicity that killed intravenous IL-12", "Produces responses in uninjected lesions", "Cheap plasmid manufacturing"],
@@ -383,7 +383,7 @@ const frontierRadical: EntityInput[] = [
   },
   {
     id: "interception-vaccination", kind: "technology", name: "Cancer interception vaccines", sections: ["prevention", "immunotherapy"], status: "phase-2", asOf: RAD,
-    tldr: "Vaccinating people who do not have cancer yet but are very likely to get it, against the antigens their future tumour will carry.",
+    tldr: "Cancer interception vaccines immunise people who do not yet have cancer but carry a high inherited risk, such as Lynch syndrome carriers, against the antigens their future tumour is predicted to express, so memory T cells remove transformed cells early. Because healthy people accept risk for a probabilistic benefit, the safety bar is far higher and trials take years.",
     summary: "Lynch syndrome tumours share recurrent frameshift neoantigens, making a shared off-the-shelf vaccine possible; Nous-209 has been tested in Lynch carriers, and a preventive vaccine against alpha-lactalbumin is in early trials for triple-negative breast cancer at the Cleveland Clinic. The strategy asks a healthy person to accept risk for a probabilistic benefit, so the safety bar is far higher and trials need long follow-up with adenoma or lesion endpoints.",
     principle: "Immunising against antigens a future tumour is predicted to express creates memory T cells that eliminate transformed cells before a clinical cancer forms.",
     strengths: ["Intact immune system and zero tumour burden", "Shared antigens allow an off-the-shelf product", "Cost-effective even if only modestly effective"],
@@ -494,7 +494,7 @@ const frontierRadical: EntityInput[] = [
   {
     id: "total-body-pet-screening", kind: "technology", name: "Total-body PET for screening and ultra-low-dose imaging", sections: ["imaging", "early-detection"], status: "concept", asOf: RAD,
     tldr: "Scanners sensitive enough to image the whole body in seconds at a fraction of the radiation dose, which raises the question of whether healthy people should be scanned at all.",
-    summary: "Total-body PET systems capture the entire body in one field of view with roughly forty times the sensitivity of conventional scanners, enabling minute-long scans, very low tracer doses, and dynamic whole-body kinetics. That makes asymptomatic screening technically conceivable for the first time, but there is no evidence of mortality benefit, and incidentalomas, cost and radiation argue against it. The near-term value is in dosimetry, paediatrics and pharmacokinetic research.",
+    summary: "Total-body PET systems capture the entire body in one field of view with roughly forty times the sensitivity of conventional scanners, enabling minute-long scans, tracer doses a fraction of the usual, and dynamic whole-body kinetics. That makes asymptomatic screening technically conceivable for the first time, but there is no evidence of mortality benefit, and incidentalomas, cost and radiation argue against it. The near-term value is in dosimetry, paediatrics and pharmacokinetic research.",
     principle: "A long axial field-of-view detector ring captures far more of the emitted photons, letting sensitivity be traded for dose, time, or both.",
     strengths: ["Ultra-low-dose or ultra-fast scans", "Whole-body kinetic modelling for radioligand dosimetry", "Better paediatric and repeat imaging"],
     limitations: ["No screening evidence and likely overdiagnosis", "Scanner cost limits access", "Tracer supply and reimbursement"],

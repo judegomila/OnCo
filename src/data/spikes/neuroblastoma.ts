@@ -44,7 +44,7 @@ const targets: TargetInput[] = [
 // ======================= TECHNOLOGIES / TERMS =======================
 const technologies: TechnologyInput[] = [
   tech({ id: "tandem-transplant", name: "Tandem autologous transplant", sections: ["chemotherapy", "cell-therapy"], status: "standard-of-care", since: 2016,
-    tldr: "Two rounds of very high-dose chemotherapy with stem-cell rescue, back to back, used in high-risk neuroblastoma in North America.",
+    tldr: "Tandem transplant gives two back-to-back rounds of marrow-destroying chemotherapy, each rescued with the child's own stored stem cells, for high-risk neuroblastoma in North America. It kept more children relapse-free than one transplant in a randomised trial, but adds organ toxicity and hearing loss.",
     summary: "COG ANBL0532: tandem thiotepa-cyclophosphamide then carboplatin-etoposide-melphalan improved 3-year EFS versus single transplant (61.6% vs 48.4%), and the benefit held with anti-GD2 immunotherapy. In Europe (SIOPEN HR-NBL1), busulfan-melphalan single transplant is standard. Toxicity and cost are substantial.",
     principle: "Sequential myeloablative regimens exploit dose intensity against residual disease after induction and surgery, each rescued with cryopreserved autologous stem cells.",
     strengths: ["EFS benefit in a randomised trial", "Compatible with subsequent immunotherapy"],
@@ -148,7 +148,7 @@ const trials: TrialInput[] = [
     cancers: ["neuroblastoma"], targets: ["gd2"], technologies: ["car-t", "armored-car"], terms: ["crs"], links: [ct("NCT03373097"), { label: "Nature Medicine 2025 long-term", url: "https://www.nature.com/articles/s41591-025-03513-0" }], people: ["crystal-mackall"] }),
   t({ id: "naxitamab-201", name: "Naxitamab Study 201", nct: "NCT03363373", phase: "2", status: "positive", yearReported: 2020, sponsor: "Y-mAbs", enrolled: 74,
     setting: "Relapsed/refractory high-risk neuroblastoma in bone/bone marrow: naxitamab + GM-CSF",
-    tldr: "Study 201 was the pivotal single-arm study behind naxitamab's approval.",
+    tldr: "Study 201 was the single-arm phase 2 of 74 patients behind naxitamab's approval for relapsed or refractory high-risk neuroblastoma in bone or bone marrow: given with GM-CSF as an outpatient, the antibody produced responses in half of patients. Without a randomised comparison against dinutuximab, equal efficacy is unproven.",
     summary: "Naxitamab Study 201, trial NCT03363373 sponsored by Y-mAbs and reported in 2020 with the full cohort published in Nature Communications in 2025, was the pivotal single-arm study behind naxitamab's approval for relapsed or refractory high-risk neuroblastoma in bone or bone marrow. In 74 patients treated with naxitamab and GM-CSF the objective response rate was 50 percent, with complete responses in 38 percent at the interim analysis and durable responses, and the drug can be given as an outpatient. OnCo links it to paediatric neuroblastoma, naxitamab, Nai-Kong V. Cheung and the bottleneck of rare and paediatric cancers without markets. Without a randomised comparison against dinutuximab, whether naxitamab's outpatient convenience comes with equal efficacy is the open question.",
     result: "ORR 50%.",
     outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "Naxitamab + GM-CSF", n: 74, value: 50 }], source: "https://www.nature.com/articles/s41467-025-56619-x" }],

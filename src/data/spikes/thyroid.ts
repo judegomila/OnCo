@@ -152,7 +152,7 @@ const technologies: TechnologyInput[] = [
     limitations: ["Cost; positive predictive value is moderate", "Overdiagnosis of indolent microcarcinoma remains the systemic problem"],
     cancers: ["thyroid"], technologies: ["ultrasound", "cgp", "rna-seq"], companies: ["veracyte"], terms: ["bethesda-category", "tert-promoter"] }),
   tech({ id: "active-surveillance-thyroid", name: "Active surveillance of papillary microcarcinoma", sections: ["surgery", "supportive-care"], status: "established",
-    tldr: "Watching very small papillary thyroid cancers with ultrasound instead of operating, because most never grow and almost none cause harm.",
+    tldr: "Active surveillance watches papillary thyroid cancers of 1 cm or less with ultrasound every 6 to 12 months instead of operating, because about 90% stay stable over a decade and delayed surgery works as well when needed. It is not suitable for tumours next to the windpipe or the voice nerve, and uptake outside Japan and Korea is still low.",
     summary: "Pioneered at Kuma Hospital (Japan) and Memorial Sloan Kettering: for papillary microcarcinomas (≤1 cm) without nodal or extrathyroidal disease, ~90% remain stable over a decade and delayed surgery is equally effective when needed. Endorsed by ATA guidelines; uptake outside Japan and Korea is still low. Addresses the overdiagnosis epidemic caused by ultrasound screening (South Korea's incidence rose 15-fold with no change in mortality).",
     principle: "Serial ultrasound at 6-12-month intervals with surgery triggered by growth ≥3 mm or nodal metastasis.",
     strengths: ["Avoids lifelong thyroid hormone, voice and parathyroid injury for most", "Cost-saving"],

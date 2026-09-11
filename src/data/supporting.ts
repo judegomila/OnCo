@@ -61,7 +61,7 @@ const technologies: TechnologyInput[] = [
   // ---- ADC manufacturing ----
   t({
     id: "adc-cdmo-manufacturing", name: "ADC bioconjugation manufacturing (CDMOs)", sections: ["adcs"], status: "established",
-    tldr: "Joining a highly toxic payload to an antibody safely and at scale. Few contractors can do it, which shapes who can develop ADCs.",
+    tldr: "ADC bioconjugation manufacturing joins a payload so toxic it needs the top containment class (OEB 5) to an antibody, then checks drug-to-antibody ratio and free payload. Capacity sits with a handful of contractors such as Lonza, WuXi XDC and Samsung Biologics, so long queues and China-based exposure shape who can develop ADCs.",
     summary: "ADC manufacturing needs high-potency containment (OEB 5), conjugation chemistry, and analytics for drug-to-antibody ratio and free payload. Capacity is concentrated in a handful of CDMOs: Lonza (Visp, incl. Synaffix technology), WuXi XDC, Samsung Biologics (new ADC plant 2025), Piramal Pharma Solutions, Abzena, Sterling, and Merck KGaA's MilliporeSigma. Payload-linker supply (MedChemExpress, Levena, Kelun's in-house) and lyophilised fill-finish are the other choke points.",
     principle: "Antibody produced by CHO cell culture; payload-linker synthesised under containment; site-specific or stochastic conjugation, purification, and DAR analytics; aseptic fill.",
     strengths: ["Specialised containment and analytics", "Integrated antibody-to-vial programmes"],
@@ -92,7 +92,7 @@ const technologies: TechnologyInput[] = [
   // ---- Sequencing and omics platforms ----
   t({
     id: "long-read-sequencing", name: "Long-read sequencing (PacBio, Oxford Nanopore)", sections: ["diagnostics", "drug-discovery"], status: "established",
-    tldr: "Reading DNA in very long stretches, which reveals rearrangements and methylation that short-read machines miss.",
+    tldr: "Long-read sequencing (PacBio HiFi, Oxford Nanopore) reads single DNA molecules in stretches of thousands of bases, so rearrangements, repeat expansions, gene fusions and methylation appear in one run where short-read machines miss them. Nanopore can classify a brain tumour during surgery in under an hour; throughput per dollar still trails the largest short-read instruments.",
     summary: "PacBio HiFi and Oxford Nanopore reads span kilobases, resolving structural variants, phasing, repeat expansions, and base modifications in one run. In oncology: rapid intraoperative methylation classification of brain tumours (nanopore, under an hour), fusion detection, and complex rearrangement mapping. Cost per genome is approaching short-read levels; accuracy is now clinical-grade for HiFi.",
     principle: "Single-molecule real-time fluorescence (PacBio) or ionic current through a protein nanopore (ONT) reads native or circular-consensus molecules without amplification.",
     strengths: ["Structural variants and methylation natively", "Fast, portable (nanopore)"],
@@ -101,7 +101,7 @@ const technologies: TechnologyInput[] = [
   }),
   t({
     id: "next-gen-short-read-platforms", name: "New short-read sequencing platforms", sections: ["diagnostics"], status: "emerging",
-    tldr: "Challengers to Illumina promising cheaper genomes, which matters for making tumour sequencing routine.",
+    tldr: "New short-read sequencing platforms from Ultima Genomics, Element Biosciences, Roche and MGI compete with Illumina by cutting the cost per gigabase, with Ultima claiming a genome under 100 dollars. Cheaper reads make whole-genome tumour-normal sequencing and deep ctDNA testing affordable in principle, but clinical assays must be revalidated and Illumina's installed base still dominates.",
     summary: "Ultima Genomics (UG 100, sub-$100 genome claims), Element Biosciences (AVITI), Roche's sequencing-by-expansion (SBX, launched 2025-26), MGI/Complete Genomics, and Singular Genomics compete with Illumina's NovaSeq X. Lower cost per gigabase enables whole-genome tumour-normal sequencing, high-depth ctDNA, and single-cell studies at scale; clinical validation and installed base still favour Illumina.",
     principle: "Massively parallel sequencing-by-synthesis or expansion chemistry with optical or electronic readout on flow cells or open wafers.",
     strengths: ["Falling cost per genome", "Competition drives assay innovation"],
@@ -142,7 +142,7 @@ const technologies: TechnologyInput[] = [
   t({
     id: "auto-contouring-ai", name: "AI auto-contouring and adaptive planning", sections: ["radiation", "ai-computation"], status: "established",
     tldr: "Software that draws organs and tumours on scans automatically, saving hours per patient and making daily plan adaptation practical.",
-    summary: "Deep-learning segmentation of organs at risk and targets (Limbus AI, MIM Software, TheraPanacea, Siemens AI-Rad Companion Organs RT, Varian Ethos and Elekta's ADMIRE, MVision, Carina) is now routine in many centres and FDA-cleared for dozens of structures. Target-volume contouring remains physician-reviewed. Online adaptive radiotherapy (Ethos, Unity) depends on it to re-plan in minutes.",
+    summary: "Deep-learning segmentation of organs at risk and targets (Limbus AI, MIM Software, TheraPanacea, Siemens AI-Rad Companion Organs RT, Varian Ethos and Elekta's ADMIRE, MVision, Carina) is now routine in radiotherapy departments and FDA-cleared for dozens of structures. Target-volume contouring remains physician-reviewed. Online adaptive radiotherapy (Ethos, Unity) depends on it to re-plan in minutes.",
     principle: "Convolutional and transformer networks trained on expert contours segment CT/MR; outputs are edited and approved by clinicians.",
     strengths: ["Consistency across planners", "Enables adaptive workflows"],
     limitations: ["Target delineation still needs experts", "Domain shift across scanners and protocols", "Liability and QA frameworks evolving"],
@@ -304,7 +304,7 @@ const technologies: TechnologyInput[] = [
   }),
   t({
     id: "high-potency-payload-synthesis", name: "Payload-linker synthesis (high-potency API)", sections: ["adcs", "drug-discovery"], status: "established",
-    tldr: "Making the microgram-potent toxins inside ADCs, in facilities built so a speck of dust cannot harm a worker.",
+    tldr: "Payload-linker synthesis makes the cytotoxic small molecules inside ADCs (exatecan, MMAE, DM1, PBD dimers), whose occupational exposure limits sit in the nanogram range, in facilities built so a speck of dust cannot harm a worker. A handful of licensed sites such as Lonza and WuXi STA supply them, and their lead times gate hundreds of ADCs in development.",
     summary: "Camptothecin derivatives (exatecan, DXd), auristatins (MMAE/MMAF), maytansinoids (DM1/DM4), and PBD dimers are synthesised under OEB 5/6 containment by specialists (Lonza, MilliporeSigma, WuXi STA, Piramal, Sterling, Ajinomoto Bio-Pharma, Levena, Cerbios, Kelun in-house) and sold as ready-to-conjugate linker-payloads. Supply is a gating factor for the hundreds of ADCs in development.",
     principle: "Multi-step synthesis and purification of cytotoxic small molecules and linkers under engineered containment, with occupational exposure limits in the nanogram range.",
     strengths: ["Standardised, reusable linker-payload building blocks"],
@@ -486,7 +486,7 @@ const technologies: TechnologyInput[] = [
   }),
   t({
     id: "federated-learning-medical-ai", name: "Federated learning and privacy-preserving AI", sections: ["ai-computation"], status: "emerging",
-    tldr: "Training AI models across many hospitals without moving patient data, so the model learns from everyone while the data stay put.",
+    tldr: "Federated learning trains one AI model across hospitals by exchanging model updates, not patient data, so a pathology or radiology model learns from every site while records stay behind each firewall. Owkin, NVIDIA FLARE and the MELLODDY pharma consortium use it; governance overhead and differing data across sites are the practical obstacles.",
     summary: "Federated learning (NVIDIA FLARE, Owkin's Substra, Rhino Health, Intel OpenFL) trains a shared model on data held locally at each institution; used for pathology and radiology models (Owkin-led projects, the EXAM COVID model, Flywheel), and for pharma consortia (MELLODDY). Complementary tools include differential privacy, synthetic data (MDClone, Syntegra), and trusted execution environments. Governance and validation on heterogeneous data are the practical challenges.",
     principle: "Model updates, not data, are exchanged and aggregated centrally; privacy techniques limit what updates can reveal.",
     strengths: ["Access to diverse, multi-site data", "Regulatory and ethical acceptability"],

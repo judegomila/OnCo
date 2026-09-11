@@ -722,7 +722,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-positivity-rate-surveillance", name: "Monitor biomarker positivity rates across labs in real time to catch assay drift", maturity: "speculative", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-data-silos"],
-    tldr: "If one lab suddenly starts finding twice as many 'positive' results as others, something has gone wrong with its test. Pooling positivity rates across labs would catch this automatically.",
+    tldr: "If one lab suddenly reports twice the rate of 'positive' biomarker results that other labs report, its assay has probably drifted. Pooling anonymised positivity rates by laboratory, assay and version, with automated outlier detection and case-mix adjustment, would catch reagent lot problems and protocol drift within weeks rather than at occasional proficiency runs.",
     summary: "Statistical process control on population-level positivity rates is standard in clinical chemistry and screening programmes but not in predictive oncology biomarkers. A national feed of anonymised biomarker results by laboratory, assay and version, with automated outlier detection and case-mix adjustment, would detect reagent lot problems, protocol drift and algorithm changes within weeks rather than through occasional proficiency runs.",
     hypothesis: "Surveillance will identify at least two laboratory-level drift events per year in a national system, each confirmed on re-testing, that proficiency schemes had not detected.",
     rationale: "Screening programmes detect reader drift through recall-rate monitoring; the same logic applies to any test with a stable expected positivity rate.",
@@ -765,7 +765,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-replication-set-aside", name: "Funders set aside a fixed share of budget for independent replication", maturity: "early-clinical", actor: "philanthropy", cost: "large", horizonYears: 3,
     bottlenecks: ["b-reproducibility", "b-funding-allocation"],
-    tldr: "Almost no money is spent checking whether important cancer findings hold up. Setting aside a small fixed fraction of every research budget for replication would change that.",
+    tldr: "Almost no research money goes to checking whether published cancer findings hold up: one replication project could complete only 23 of 50 planned experiments. Requiring 3 to 5% of every funder's research budget to go to independent replication, published whatever the result, would build the missing feedback loop.",
     summary: "The Reproducibility Project: Cancer Biology attempted to replicate 50 high-impact papers and could complete only 23 experiments, with effect sizes on average 85% smaller than the originals. No funder has a standing replication budget. A rule that 3 to 5% of a funder's research budget goes to independent replication of findings selected by their translational importance, with results published regardless of direction, would create the missing feedback loop.",
     hypothesis: "Findings that pass funded replication will progress to clinical trials at a higher rate and fail in early clinical development less often than unreplicated findings, justifying the set-aside within five years.",
     rationale: "Replication is a public good that no individual lab is rewarded for producing; only funders can pay for it systematically.",
@@ -824,7 +824,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-replication-bounties", name: "Bounties for documented failed replications of high-impact findings", maturity: "speculative", actor: "philanthropy", cost: "small", horizonYears: 1,
     bottlenecks: ["b-reproducibility", "b-negative-results"],
-    tldr: "Pay a reward to any lab that carefully tries to repeat an important cancer finding and documents that it did not work. Today that work is unpaid and unpublished.",
+    tldr: "Pay a fixed reward to any lab that pre-registers and carefully repeats a heavily cited preclinical cancer finding, whatever the outcome, with a bonus for the first documented non-replication that passes methodological review. Today that work is unpaid and unpublished.",
     summary: "Security research uses bug bounties to reward finding flaws. A replication bounty programme would list high-impact preclinical oncology findings (selected by citations and translational stage), pay a fixed sum for a pre-registered, adequately powered replication attempt regardless of outcome, and a bonus for the first documented non-replication that passes methodological review. Results are published in a registry.",
     hypothesis: "The programme will produce at least 50 pre-registered replications per year at a cost per replication under a tenth of a standard grant, and at least a third of targeted findings will fail to replicate.",
     rationale: "Replication attempts already happen informally in labs and industry; the bounty converts private knowledge into public record at low cost.",
@@ -833,7 +833,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-antibody-validation-mandate", name: "Only use antibodies proven to hit their target with knockout controls", maturity: "early-clinical", actor: "policy", cost: "small", horizonYears: 2,
     bottlenecks: ["b-reproducibility"],
-    tldr: "Many research antibodies do not actually bind what the label says. Independent testing against cells lacking the target can prove it, and journals should require that evidence.",
+    tldr: "A large fraction of commercial research antibodies fail when tested against cells engineered to lack their target, so they do not bind what the label says. Journals and funders should require knockout-validated antibodies for the claims a paper rests on, and fund public validation of the most-used cancer targets.",
     summary: "Antibody non-specificity is a leading cause of irreproducible results. Initiatives such as YCharOS test commercial antibodies against knockout cell lines and publish the results, finding that a large fraction of antibodies for a given target fail. A requirement that papers cite knockout- or knockdown-validated antibodies (with the validation record) for key claims, and funder support for a public validation programme covering the most-used cancer targets, would remove a pervasive source of error.",
     hypothesis: "Papers using validated antibodies will show higher replication rates than those using unvalidated ones, and the requirement will shift the market towards validated reagents within three years.",
     rationale: "Independent knockout-based validation is decisive and increasingly cheap; the barrier is that journals do not require it and vendors do not publish it.",
@@ -843,7 +843,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-reference-compound-panels", name: "Every drug screen includes standard reference compounds whose performance is published", maturity: "speculative", actor: "research", cost: "small", horizonYears: 2,
     bottlenecks: ["b-reproducibility", "b-preclinical-models"],
-    tldr: "Labs testing new cancer compounds should always include a few well-known drugs as controls and report how those behaved, so results from different labs can be compared.",
+    tldr: "Drug sensitivity results for the same cell line and drug differ substantially between large screens. Every published cancer drug screen should include a defined panel of reference compounds with published expected activity ranges per reference cell line, reported in a standard format, so results from different labs can be calibrated against each other.",
     summary: "Drug sensitivity results for the same cell line and drug differ substantially between large screens (the CCLE versus GDSC discordance). A defined panel of reference compounds (with expected potency ranges per reference cell line) included in every published screen, and reported in a standard format, would allow cross-study calibration and reveal systematic differences in assay conditions.",
     hypothesis: "Including reference panels will let discordant screens be reconciled by calibration, reducing cross-study potency disagreement by at least half for the drugs and lines covered.",
     rationale: "Clinical laboratories use internal standards in every run; preclinical pharmacology mostly does not, and the resulting variance has been quantified.",
@@ -861,7 +861,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-animal-power-mandate", name: "Pre-specified sample sizes for animal studies; no more 'representative' experiments", maturity: "early-clinical", actor: "policy", cost: "small", horizonYears: 1,
     bottlenecks: ["b-reproducibility", "b-preclinical-models"],
-    tldr: "Many mouse experiments use so few animals that the results are unreliable, and papers show one 'representative' result out of several tries. Funders should require proper sample-size planning.",
+    tldr: "Underpowered mouse experiments give exaggerated positive results and uninformative negatives, and papers often show one 'representative' result out of several attempts. Funders and journals should require a pre-specified power calculation, the number of independent repeats performed, and reporting of every repeat rather than the best one.",
     summary: "Underpowered animal studies produce exaggerated effects when positive and are uninformative when negative. Sample-size justification is required by ARRIVE and by ethics committees in principle but is rarely checked. Funders and journals could require a pre-specified power calculation, the number of independent repeats performed, and reporting of all repeats rather than a representative one.",
     hypothesis: "Enforcement increases the median group size in published in vivo efficacy studies and reduces reported effect sizes towards those seen in adequately powered replications.",
     rationale: "Effect-size inflation from small samples is a mathematical certainty under publication bias; the fix is procedural and cheap.",
@@ -871,7 +871,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-tenure-replication-credit", name: "Count replications and open data in hiring and promotion", maturity: "speculative", actor: "policy", cost: "small", horizonYears: 5,
     bottlenecks: ["b-reproducibility", "b-incentive-misalignment"],
-    tldr: "Scientists are promoted for novel discoveries, not for checking others' work or sharing data. Changing what universities reward would change what scientists do.",
+    tldr: "Scientists are promoted for first-time discoveries and journal prestige, not for replicating others' work or sharing data. A structured section in tenure and promotion dossiers for replications conducted, data and code shared, and registered reports, weighted explicitly in decisions, would change what scientists spend their time on.",
     summary: "Career incentives drive the reproducibility problem: novelty and journal prestige are rewarded, replication and data sharing are not. Institutions signing DORA have pledged to reduce reliance on journal metrics. A concrete step is a structured section in tenure and promotion dossiers for replication studies conducted, data and code shared, registered reports and independent verification of one's own findings, weighted explicitly in decisions.",
     hypothesis: "Institutions adopting the credit will see a doubling of replication studies and data deposits by their faculty within five years relative to matched institutions.",
     rationale: "Behaviour follows incentives; the shift to open data in genomics followed funder and institutional requirements, not exhortation.",
@@ -965,7 +965,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-phd-replication-year", name: "Every cancer biology PhD begins with a funded replication of a published finding", maturity: "speculative", actor: "research", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-reproducibility", "b-workforce"],
-    tldr: "Make the first project of every doctoral student a careful, published attempt to repeat an important result. Students learn rigour, and the field gets thousands of replications a year.",
+    tldr: "Make the first project of every cancer biology doctoral student a funded, pre-registered attempt to repeat a published finding chosen from a curated list of translationally relevant results, with the outcome published in a replication registry. Students learn power analysis, blinding and reporting, and the field gets thousands of replications a year.",
     summary: "First-year doctoral students need training projects with clear methods and a defined endpoint; replications provide exactly that, while teaching pre-registration, power analysis, blinding and reporting. Programmes that have tried this (in psychology) report strong educational outcomes. A cancer biology version, with findings chosen from a curated list of translationally important results and outcomes published in a replication registry, would create a steady replication workforce at marginal cost.",
     hypothesis: "Participating programmes will publish at least one replication per student, and students will show measurably better methodological practice in subsequent thesis work than matched controls.",
     rationale: "Training and replication are complementary: the student gains skills, the field gains evidence, and the incentive problem is sidestepped because the student is not competing for novelty.",

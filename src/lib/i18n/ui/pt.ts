@@ -232,7 +232,7 @@ export const pt: UiDict = {
   "l.Everything relevant": "Tudo o que é relevante",
   "l.Trials recruiting now": "Ensaios a recrutar agora",
   "l.Landmark trials": "Ensaios de referência",
-  "l.Organ map: where the tumour sits and where it drains": "Mapa do órgão: onde o tumor se situa e para onde drena",
+  "l.Anatomy and lymph node drainage": "Anatomia e drenagem para os gânglios linfáticos",
   "l.Preclinical models": "Modelos pré-clínicos",
   "l.Who gets it, and what has changed": "Quem o tem e o que mudou",
   "l.Group": "Grupo",

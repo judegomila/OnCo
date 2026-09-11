@@ -232,7 +232,7 @@ export const ar: UiDict = {
   "l.Everything relevant": "كل ما له صلة",
   "l.Trials recruiting now": "تجارب تستقبل مشاركين الآن",
   "l.Landmark trials": "تجارب فارقة",
-  "l.Organ map: where the tumour sits and where it drains": "خريطة العضو: موضع الورم ومسار التصريف اللمفي",
+  "l.Anatomy and lymph node drainage": "التشريح وتصريف العقد اللمفاوية",
   "l.Preclinical models": "النماذج قبل السريرية",
   "l.Who gets it, and what has changed": "من يصاب به وما الذي تغير",
   "l.Group": "المجموعة",

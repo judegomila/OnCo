@@ -10,7 +10,6 @@ export const navDe: NavDict = {
 
   "/explore/": ["Erkunden", "Krebsart wählen, Objekttyp wechseln, eine gereihte und sortierbare Liste erhalten."],
   "/search/": ["Suche", "Wort- und Konzeptsuche nebeneinander; jedes Ergebnis erklärt, warum es passt."],
-  "/ask/": ["OnCo fragen", "Eine Frage in einfachen Worten, beantwortet nur mit belegten Sätzen aus OnCo-Einträgen."],
   "/path/": ["Pfadfinder", "Wie zwei beliebige Objekte zusammenhängen: kürzeste Wege mit jeder benannten Beziehung."],
   "/for-me/": ["Für mich", "Wählen Sie Ihre Krebsart(en) und sehen Sie, was wirkt und was wirken könnte."],
   "/navigator/": ["Navigator", "Therapiestandard für Ihr Stadium, was Sie versucht haben, Vorsicht, nächste Optionen, Studien in Ihrer Nähe."],

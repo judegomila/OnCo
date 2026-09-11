@@ -10,7 +10,6 @@ export const navPt: NavDict = {
 
   "/explore/": ["Explorar", "Escolha um cancro, mude o tipo de objeto e obtenha uma lista ordenada e classificável."],
   "/search/": ["Pesquisar", "Pesquisa por palavras e por conceitos lado a lado; cada resultado explica porque correspondeu."],
-  "/ask/": ["Perguntar ao OnCo", "Uma pergunta em palavras simples, respondida apenas com frases citadas dos registos do OnCo."],
   "/path/": ["Localizador de caminhos", "Como dois objetos quaisquer se relacionam: os caminhos mais curtos com cada relação nomeada."],
   "/for-me/": ["Para mim", "Escolha o(s) seu(s) tipo(s) de cancro e veja o que funciona e o que poderá funcionar."],
   "/navigator/": ["Navegador", "Tratamento padrão para o seu estádio, o que já tentou, precauções, próximas opções e ensaios perto de si."],

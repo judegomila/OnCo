@@ -587,7 +587,7 @@ function cancerTabs(c: Cancer): Tab[] {
       <Summary e={c} />
       <Block title="State of the art today"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
       {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1"><TL text="Treatment journeys" /></div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}
-      {organFor(c.id) && <Block title="Organ map: where the tumour sits and where it drains"><OrganSchematic cancerId={c.id} /></Block>}
+      {organFor(c.id) && <Block title="Anatomy and lymph node drainage"><OrganSchematic cancerId={c.id} /></Block>}
       {modelsFor(c.id) && <Block title="Preclinical models"><p className="text-sm text-muted">{modelsFor(c.id)!.cellLines.length} cell lines, {modelsFor(c.id)!.gemms.length} mouse models and {modelsFor(c.id)!.pdx.length + modelsFor(c.id)!.organoids.length} repositories are listed for this cancer. <Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(c.name.split(" (")[0])}`}>See them →</Link></p></Block>}
       <div className="grid gap-6 sm:grid-cols-2 mt-8">
         <Field label="Who gets it, and what has changed"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>

@@ -232,7 +232,7 @@ export const hi: UiDict = {
   "l.Everything relevant": "सब कुछ प्रासंगिक",
   "l.Trials recruiting now": "अभी भर्ती कर रहे परीक्षण",
   "l.Landmark trials": "मील के पत्थर परीक्षण",
-  "l.Organ map: where the tumour sits and where it drains": "अंग मानचित्र: ट्यूमर कहाँ स्थित है और कहाँ ड्रेन होता है",
+  "l.Anatomy and lymph node drainage": "शरीर-रचना और लसीका ग्रंथि ड्रेनेज",
   "l.Preclinical models": "प्रीक्लिनिकल मॉडल",
   "l.Who gets it, and what has changed": "किसे होता है, और क्या बदला है",
   "l.Group": "समूह",

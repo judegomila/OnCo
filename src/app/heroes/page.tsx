@@ -17,10 +17,10 @@ type Group = { id: string; title: string; lede: string; roles: Role[] };
 
 /** Each hero appears once, placed by their primary role: the first role tag on the record after "hero". */
 const GROUPS: Group[] = [
-  { id: "patients", title: "Patients and families", lede: "People whose own illness, or a child's or a partner's, became a turning point: the first to take a new drug, the first to say so in public, the ones who turned a diagnosis into a fund or a campaign.", roles: ["patient", "carer"] },
+  { id: "patients", title: "Patients and families", lede: "Ordinary people whose own illness, or a child's or a partner's, became a turning point: the first to take a new drug, the first to say so in public, the ones who turned a diagnosis into a fund or a campaign.", roles: ["patient", "carer"] },
+  { id: "pioneers", title: "Pioneers", lede: "Scientists and clinicians who saw something the field did not accept, and kept going until it did.", roles: ["pioneer"] },
   { id: "advocates", title: "Advocates and builders", lede: "People who built the institutions, coalitions and movements that moved money, changed rules and put patients in the room.", roles: ["advocate"] },
   { id: "donors", title: "Donors and philanthropists", lede: "People who paid for the work, or raised the money for it: the founding gifts behind institutes and cancer centres, the foundations that back early ideas no agency will yet fund, and the fundraisers who turned a diagnosis into a research fund. Gift figures come from the recipient's own announcements. Their names are on the buildings; the work inside them is what changed.", roles: ["donor"] },
-  { id: "pioneers", title: "Pioneers", lede: "Scientists and clinicians who saw something the field did not accept, and kept going until it did.", roles: ["pioneer"] },
 ];
 const ROLES: Role[] = ["patient", "carer", "advocate", "donor", "pioneer"];
 const ROLE_LABEL: Record<Role, string> = { patient: "Patient", carer: "Family", advocate: "Advocate", donor: "Donor", pioneer: "Pioneer" };

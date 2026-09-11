@@ -232,7 +232,7 @@ export const ja: UiDict = {
   "l.Everything relevant": "関連するすべて",
   "l.Trials recruiting now": "現在募集中の試験",
   "l.Landmark trials": "画期的な試験",
-  "l.Organ map: where the tumour sits and where it drains": "臓器マップ：腫瘍の位置とリンパの流れ",
+  "l.Anatomy and lymph node drainage": "解剖とリンパ節への流れ",
   "l.Preclinical models": "前臨床モデル",
   "l.Who gets it, and what has changed": "誰がなりやすいか、何が変わったか",
   "l.Group": "グループ",

@@ -269,7 +269,7 @@ export const EN = {
   "l.Everything relevant": "Everything relevant",
   "l.Trials recruiting now": "Trials recruiting now",
   "l.Landmark trials": "Landmark trials",
-  "l.Organ map: where the tumour sits and where it drains": "Organ map: where the tumour sits and where it drains",
+  "l.Anatomy and lymph node drainage": "Anatomy and lymph node drainage",
   "l.Preclinical models": "Preclinical models",
   "l.Who gets it, and what has changed": "Who gets it, and what has changed",
   "l.Group": "Group",

@@ -94,7 +94,7 @@ export const bottlenecks: BottleneckInput[] = [
   }),
   b({
     id: "b-preclinical-models",
-    name: "Preclinical models that do not predict people",
+    name: "Lab models that fail to predict what happens in patients",
     stage: "biology",
     severity: "critical",
     tldr: "Nine in ten cancer drugs that work in mice fail in humans. Our models are the reason.",

@@ -10,7 +10,6 @@ export const navEs: NavDict = {
 
   "/explore/": ["Explorar", "Elige un cáncer, cambia de tipo de objeto y obtén una lista ordenada y clasificable."],
   "/search/": ["Buscar", "Búsqueda por palabras y por conceptos, lado a lado; cada resultado explica por qué coincidió."],
-  "/ask/": ["Pregunta a OnCo", "Una pregunta en palabras sencillas, respondida solo con frases citadas de los registros de OnCo."],
   "/path/": ["Buscador de rutas", "Cómo se relacionan dos objetos cualesquiera: las rutas más cortas con cada relación nombrada."],
   "/for-me/": ["Para mí", "Elige tu(s) tipo(s) de cáncer y mira qué funciona y qué podría funcionar."],
   "/navigator/": ["Navegador", "Tratamiento estándar para tu estadio, lo que has probado, precauciones, siguientes opciones y ensayos cerca de ti."],

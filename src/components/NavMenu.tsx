@@ -102,7 +102,6 @@ export function NavMenu() {
               <div className="grid grid-cols-2 gap-2 mb-3">
                 <button type="button" onClick={() => { setDrawer(false); window.dispatchEvent(new Event("onco:open-palette")); }} className="card px-3 py-2.5 text-start text-sm font-medium hover:bg-surface flex items-center gap-2"><NavIcon id="search" className="h-4 w-4 text-accent" />{t("header.search")}</button>
                 <Link href="/for-me/" className="card px-3 py-2.5 text-sm font-medium hover:bg-surface flex items-center gap-2"><NavIcon id="live" className="h-4 w-4 text-accent" />{t("header.forMe")}</Link>
-                <Link href="/ask/" className="card px-3 py-2.5 text-sm font-medium hover:bg-surface flex items-center gap-2"><NavIcon id="find" className="h-4 w-4 text-accent" />{t("header.askOnco")}</Link>
                 <Link href="/cancers/" className="card px-3 py-2.5 text-sm font-medium hover:bg-surface flex items-center gap-2"><NavIcon id="map" className="h-4 w-4 text-accent" />{t("header.cancerTypes")}</Link>
               </div>
               {/* One group open at a time; the current section starts open */}

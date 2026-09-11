@@ -232,7 +232,7 @@ export const zh: UiDict = {
   "l.Everything relevant": "所有相关内容",
   "l.Trials recruiting now": "正在招募的试验",
   "l.Landmark trials": "里程碑试验",
-  "l.Organ map: where the tumour sits and where it drains": "器官图：肿瘤所在位置与淋巴引流路径",
+  "l.Anatomy and lymph node drainage": "解剖部位与淋巴结引流",
   "l.Preclinical models": "临床前模型",
   "l.Who gets it, and what has changed": "哪些人会患病，以及有何变化",
   "l.Group": "分组",

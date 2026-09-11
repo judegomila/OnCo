@@ -5,7 +5,7 @@ import { benchmark } from "@/data/benchmark";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { AskOnco, type AskExample } from "@/components/AskOnco";
 
-export const metadata: Metadata = pageMeta({ title: "Ask OnCo", description: "Ask a question in plain words. OnCo reads what you are asking and which records you named, then answers from those records' fields, every sentence cited and linked to its page. No language model, nothing invented.", path: "/ask/" });
+export const metadata: Metadata = { robots: { index: false, follow: true }, ...pageMeta({ title: "Ask OnCo", description: "Ask a question in plain words. OnCo reads what you are asking and which records you named, then answers from those records' fields, every sentence cited and linked to its page. No language model, nothing invented.", path: "/ask/" }) };
 
 export default function AskPage() {
   // A spread of benchmark questions as starting points: two per audience, easiest first.

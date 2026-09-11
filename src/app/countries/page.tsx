@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
-import Link from "next/link";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CountryRanking, type CountryRow } from "@/components/CountryRanking";
 import { countryExtras } from "@/data/country-extras";
@@ -26,14 +25,14 @@ export default function Countries() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="who" />} title="Countries: who is doing the most cancer research"
-        lede={`Oncology research output by country from OpenAlex (${raw.years[0]}–${y1}), with growth, highly cited share, open access, ClinicalTrials.gov sites, cancer burden, and the national funder. Ranked by a disclosed composite score. In ${y1} the leaders by volume were ${top.map((t) => t.name).join(", ")}.`} />
+        lede={`Oncology research output by country from OpenAlex (${raw.years[0]} to ${y1}), with growth, highly cited share, open access, ClinicalTrials.gov sites, cancer burden, and the national funder. Ranked by a disclosed composite score. In ${y1} the leaders by volume were ${top.map((t) => t.name).join(", ")}.`} />
       <Container className="pb-16">
         <CountryRanking rows={rows} years={raw.years} deepDives={deepDives} />
 
         <section className="mt-12 grid gap-6 lg:grid-cols-2 text-[15px] leading-relaxed max-w-6xl">
           <div>
             <h2 className="text-lg font-semibold mb-2">How the score works</h2>
-            <p>Research intensity (0–100) = 40% works in {y1} (log-scaled against the leader) + 20% highly cited share (works with more than 50 citations, {raw.years[0]}–{y1}, scaled to the best country with at least 500 works) + 15% five-year growth (capped at +150%) + 15% registered trials with a site in the country (log-scaled) + 10% open-access share. Per-capita mode divides works and trials by population in millions. The formula is deliberately simple; argue with it in the repository.</p>
+            <p>Research intensity (0 to 100) = 40% works in {y1} (log-scaled against the leader) + 20% highly cited share (works with more than 50 citations, {raw.years[0]} to {y1}, scaled to the best country with at least 500 works) + 15% five-year growth (capped at +150%) + 15% registered trials with a site in the country (log-scaled) + 10% open-access share. Per-capita mode divides works and trials by population in millions. The formula is deliberately simple; argue with it in the repository.</p>
           </div>
           <div>
             <h2 className="text-lg font-semibold mb-2">Counting rules and caveats</h2>

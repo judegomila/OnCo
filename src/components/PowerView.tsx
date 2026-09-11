@@ -104,7 +104,7 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
         {psig?.stage && <span className="chip bg-accent-soft text-[10px]" title={`Standard-of-care setting: ${psig.stage}`}>your stage +{PERSONAL_WEIGHTS.stage}</span>}
       </div>) },
     { key: "degree", label: "Links", sortable: true, hide: "hidden sm:table-cell", render: ({ r }) => <span className="tabular-nums text-muted">{r.degree}</span> },
-    { key: "year", label: "Year", sortable: true, hide: "hidden sm:table-cell", render: ({ r }) => <span className="tabular-nums text-muted">{r.year ?? "—"}</span> },
+    { key: "year", label: "Year", sortable: true, hide: "hidden sm:table-cell", render: ({ r }) => <span className="tabular-nums text-muted">{r.year ?? "-"}</span> },
     { key: "score", label: "Score", sortable: true, render: ({ score }) => <span className="tabular-nums font-semibold">{score}</span> },
   ];
 

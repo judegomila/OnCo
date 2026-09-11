@@ -47,7 +47,7 @@ function StageTable({ groups, cancer }: { groups: StageGroup[]; cancer: Cancer }
               <tr key={g.stage}>
                 <td className="font-medium whitespace-nowrap">{g.stage}</td>
                 <td className="text-sm text-foreground/85">{withTermHovers(g.definition, { skipId: cancer.id, max: 4 })}{g.note && <div className="text-xs text-muted mt-1">{g.note}</div>}</td>
-                <td className="hidden md:table-cell text-xs">{links.length ? links.map((l, i) => <span key={i}>{i > 0 && ", "}<Link href={l.href} className="underline">{l.label}</Link></span>) : <span className="text-muted">—</span>}</td>
+                <td className="hidden md:table-cell text-xs">{links.length ? links.map((l, i) => <span key={i}>{i > 0 && ", "}<Link href={l.href} className="underline">{l.label}</Link></span>) : <span className="text-muted">-</span>}</td>
               </tr>
             );
           })}

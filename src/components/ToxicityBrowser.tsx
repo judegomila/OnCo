@@ -8,7 +8,7 @@ import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/Re
 export type ToxRow = { id: string; drugId: string; drug: string; route: string; modality: string; event: string; anyGradePct?: number; grade3PlusPct?: number; source?: string; note?: string };
 
 function Bar({ pct, tone }: { pct?: number; tone: string }) {
-  if (pct === undefined) return <span className="text-muted">—</span>;
+  if (pct === undefined) return <span className="text-muted">-</span>;
   return <div className="flex items-center gap-2 min-w-[140px]"><div className="h-2 flex-1 rounded bg-foreground/5 overflow-hidden"><div className={`h-full ${tone}`} style={{ width: `${Math.min(100, pct)}%` }} /></div><span className="tabular-nums text-xs w-10 text-right">{pct}%</span></div>;
 }
 

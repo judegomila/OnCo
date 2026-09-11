@@ -19,7 +19,7 @@ import { pageMeta } from "@/lib/seo";
 
 const HOME_DESCRIPTION = "The open, cited map of oncology: every cancer, treatment, target, trial, company, institution and idea on one page each, in plain English first, with sources.";
 
-export const metadata: Metadata = pageMeta({ title: "OnCo", absoluteTitle: "OnCo — the open, cited map of cancer: treatments, targets, trials, and what is coming", description: HOME_DESCRIPTION, path: "/" });
+export const metadata: Metadata = pageMeta({ title: "OnCo", absoluteTitle: "OnCo: the open, cited map of cancer: treatments, targets, trials, and what is coming", description: HOME_DESCRIPTION, path: "/" });
 
 const AUDIENCES: Array<{ id: string; title: string; lede: string; links: Array<{ href: string; label: string; blurb: string }> }> = [
   {

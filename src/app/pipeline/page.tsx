@@ -33,7 +33,7 @@ addressable/year  = sum over cancers with a prevalence figure of
           <div className="card p-5 space-y-2">
             <h2 className="font-semibold text-base">What it does and does not say</h2>
             <p>A high index means many programmes per patient: TROP2, HER2 and PD-1 crowding is real and shows up here. It does not measure quality, differentiation or the odds any one asset wins, and it counts only what is in this corpus, so thinly covered targets look less crowded than they are. Registry study counts include combination trials under each product named, so they overstate distinct trials.</p>
-            <p>Statuses come from product records (checked on each product&rsquo;s <em>as of</em> date); registry counts were fetched {TRIALS_FETCHED}.</p>
+            <p>Statuses come from product records (checked on the date each product record was last reviewed); registry counts were fetched {TRIALS_FETCHED}.</p>
           </div>
         </section>
       </Container>

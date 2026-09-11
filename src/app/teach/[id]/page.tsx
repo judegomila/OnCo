@@ -63,7 +63,7 @@ function cancerSlides(c: Cancer): Slide[] {
     { id: "pipeline", kicker: "Pipeline", title: "What is coming", bullets: cut(c.pipeline, 12).map((id) => `${nameOf(id)} (${kindOf(id)})`), notes: cut(c.pipeline, 6).map((id) => `${nameOf(id)}: ${g.get(id)?.tldr ?? ""}`) },
     { id: "trials", kicker: "Evidence", title: "The trials that set the standard", bullets: trials.map(trialLine), notes: trials.map((t) => `${t.name}${t.nct ? ` (${t.nct})` : ""}: ${t.result ?? "no headline result recorded"}${t.replication ? ` Replication: ${t.replication}` : ""}`), sources: trials.flatMap((t) => t.links.slice(0, 1)) },
     { id: "problems", kicker: "Open problems", title: "What nobody has solved", bullets: cut(c.openProblems, 6), notes: c.openProblems.slice(6, 9) },
-    { id: "quiz", kicker: "Quiz", title: "Check understanding", quiz: quizFor(c.id, related), notes: ["Questions come from OnCo's open benchmark (src/data/benchmark.ts); the model answers reflect the corpus as of its asOf date."] },
+    { id: "quiz", kicker: "Quiz", title: "Check understanding", quiz: quizFor(c.id, related), notes: ["Questions come from OnCo's open benchmark (src/data/benchmark.ts); the model answers reflect the corpus on the date each record was last checked."] },
     { id: "sources", kicker: "Sources", title: "Read the primary sources", bullets: cut([...sources, ...guidelineUrls], 12).map((s) => `${s.label}: ${s.url}`), notes: [`Record last updated ${c.asOf}. Corrections: ${absoluteUrl("/suggest/")}.`] },
   ];
   return slides.filter((s) => s.paragraphs?.length || s.bullets?.length || s.table || s.timeline?.length || s.quiz?.length);

@@ -136,4 +136,4 @@ export function bsaDose(mgPerM2: number, bsa: number, capBsa?: number): { dose: 
 export const weightDose = (mgPerKg: number, weightKg: number) => mgPerKg * weightKg;
 
 /** Format a number with fixed decimals and en-GB grouping. */
-export const fmt = (x: number, dp = 1) => (Number.isFinite(x) ? x.toLocaleString("en-GB", { minimumFractionDigits: dp, maximumFractionDigits: dp }) : "—");
+export const fmt = (x: number, dp = 1) => (Number.isFinite(x) ? x.toLocaleString("en-GB", { minimumFractionDigits: dp, maximumFractionDigits: dp }) : "-");

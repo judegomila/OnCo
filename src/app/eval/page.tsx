@@ -43,7 +43,7 @@ export default function EvalPage() {
       <Container className="pb-16">
         <section className="grid gap-3 sm:grid-cols-3">
           <div className="card p-4"><div className="kicker mb-1">Questions</div><div className="text-2xl font-semibold tabular-nums">{benchmark.length}</div><div className="text-xs text-muted">{cats.map((c) => `${counts[c]} ${CAT_LABEL[c].toLowerCase()}`).join(" · ")}</div></div>
-          <div className="card p-4"><div className="kicker mb-1">OnCo latest score</div><div className="text-2xl font-semibold tabular-nums">{latestOnco ? pct(latestOnco.summary.meanScore) : "—"}</div><div className="text-xs text-muted">{latestOnco ? `${latestOnco.summary.date} · retrieval recall ${pct(latestOnco.summary.meanRetrievalRecall ?? 0)}` : "run npm run bench"}</div></div>
+          <div className="card p-4"><div className="kicker mb-1">OnCo latest score</div><div className="text-2xl font-semibold tabular-nums">{latestOnco ? pct(latestOnco.summary.meanScore) : "-"}</div><div className="text-xs text-muted">{latestOnco ? `${latestOnco.summary.date} · retrieval recall ${pct(latestOnco.summary.meanRetrievalRecall ?? 0)}` : "run npm run bench"}</div></div>
           <div className="card p-4"><div className="kicker mb-1">Systems scored</div><div className="text-2xl font-semibold tabular-nums">{new Set(runs.map((r) => r.system)).size}</div><div className="text-xs text-muted">{runs.length} run{runs.length === 1 ? "" : "s"} on file</div></div>
         </section>
 
@@ -58,7 +58,7 @@ export default function EvalPage() {
                   <td className="font-medium">{r.system}</td>
                   <td className="tabular-nums text-muted">{r.date}</td>
                   <td><span className={`chip ${tone(r.meanScore)}`}>{pct(r.meanScore)}</span></td>
-                  {cats.map((c) => <td key={c} className="tabular-nums">{r.byCategory[c] !== undefined ? pct(r.byCategory[c]) : "—"}</td>)}
+                  {cats.map((c) => <td key={c} className="tabular-nums">{r.byCategory[c] !== undefined ? pct(r.byCategory[c]) : "-"}</td>)}
                   <td className="text-xs text-muted max-w-md">{r.method}</td>
                 </tr>
               ))}
@@ -88,7 +88,7 @@ export default function EvalPage() {
                     <td className="text-muted">{CAT_LABEL[q.category]}</td>
                     <td className="tabular-nums text-muted">{q.difficulty}</td>
                     <td className="text-xs">{q.entities.map((id) => { const e = g.get(id); return e ? <Link key={id} href={routeFor(e)} className="underline mr-1.5">{e.name}</Link> : null; })}</td>
-                    <td>{r ? <span className={`chip ${tone(r.score)}`} title={r.missed.length ? `Missed: ${r.missed.join("; ")}` : "All rubric points met"}>{r.met}/{r.total}</span> : <span className="text-muted">—</span>}</td>
+                    <td>{r ? <span className={`chip ${tone(r.score)}`} title={r.missed.length ? `Missed: ${r.missed.join("; ")}` : "All rubric points met"}>{r.met}/{r.total}</span> : <span className="text-muted">-</span>}</td>
                   </tr>
                 );
               })}

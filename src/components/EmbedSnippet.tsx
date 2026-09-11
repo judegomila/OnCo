@@ -8,7 +8,7 @@ const SITE = "https://onco.cc";
 export function EmbedSnippet({ id, name }: { id: string; name: string }) {
   const [open, setOpen] = useState(false);
   const [copied, setCopied] = useState(false);
-  const code = `<iframe src="${SITE}/embed/${id}/" title="${name.replace(/"/g, "&quot;")} — OnCo" width="360" height="190" style="border:0;border-radius:12px" loading="lazy"></iframe>`;
+  const code = `<iframe src="${SITE}/embed/${id}/" title="${name.replace(/"/g, "&quot;")} · OnCo" width="360" height="190" style="border:0;border-radius:12px" loading="lazy"></iframe>`;
   return (
     <div>
       <button onClick={() => setOpen((o) => !o)} className="underline">Embed this card</button>

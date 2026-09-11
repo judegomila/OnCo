@@ -59,7 +59,7 @@ export function OutputTable({ rows }: { rows: OutputRow[] }) {
               <td className="text-xs text-muted min-w-[200px]"><a className="underline" href={`https://openalex.org/${r.oa.openalexId}`} rel="noopener">{r.oa.openalexName}</a></td>
               <td className="tabular-nums">{r.oa.works2024.toLocaleString()}</td>
               <td className="tabular-nums">{r.oa.works2025.toLocaleString()}</td>
-              {hasCited && <td className="tabular-nums text-muted">{r.cited === null ? "—" : r.cited.toLocaleString()}</td>}
+              {hasCited && <td className="tabular-nums text-muted">{r.cited === null ? "-" : r.cited.toLocaleString()}</td>}
             </tr>
           ))}
         </tbody>
@@ -81,7 +81,7 @@ export function UniversityOutputTable({ rows }: { rows: UniversityOutputRow[] })
               <td className="font-medium min-w-[200px]">{r.university}</td>
               <td className="text-sm min-w-[220px]">{r.institutions.map((i) => <Link key={i.id} href={routeFor(i)} className="underline mr-2">{i.name.replace(/ \/.*$/, "")}</Link>)}</td>
               <td className="tabular-nums font-semibold">{r.works.toLocaleString()}</td>
-              {hasCited && <td className="tabular-nums text-muted">{r.cited === null ? "—" : r.cited.toLocaleString()}</td>}
+              {hasCited && <td className="tabular-nums text-muted">{r.cited === null ? "-" : r.cited.toLocaleString()}</td>}
             </tr>
           ))}
         </tbody>

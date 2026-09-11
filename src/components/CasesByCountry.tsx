@@ -86,7 +86,7 @@ export function CasesByCountry({ cancers, initial, countryList, dataUrl, gaps, m
     { key: "rank", label: "#", render: (_, i) => <span className="tabular-nums text-muted">{i + 1}</span>, className: "w-10" },
     { key: "name", label: "Country", sortable: true, render: (r) => <button type="button" onClick={() => setCountry(r.iso3)} className="font-medium hover:underline text-left">{r.name}</button> },
     { key: "region", label: "Region", sortable: true, hide: "hidden md:table-cell", render: (r) => <span className="text-muted">{r.region}</span> },
-    { key: "hdi", label: "HDI", hide: "hidden lg:table-cell", render: (r) => <span className="text-muted">{r.hdi?.replace(" HDI", "") ?? "—"}</span> },
+    { key: "hdi", label: "HDI", hide: "hidden lg:table-cell", render: (r) => <span className="text-muted">{r.hdi?.replace(" HDI", "") ?? "-"}</span> },
     { key: "cases", label: "New cases", sortable: true, render: (r) => r.cases === null ? <NoData /> : <span className="tabular-nums">{fmt(r.cases)}</span> },
     { key: "incAsr", label: "Incidence ASR", sortable: true, render: (r) => r.incAsr === null ? <NoData /> : <span className="tabular-nums">{fmt(r.incAsr, 1)}</span> },
     { key: "trend", label: "Trend", hide: "hidden xl:table-cell", tip: "Incidence rate across the GLOBOCAN editions on file; one dot means only one edition is available.", render: (r) => <Sparkline cancerId={cancer} iso3={r.iso3} /> },

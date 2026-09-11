@@ -94,7 +94,7 @@ export function HotspotPlot({ map, compact = false }: { map: HotspotMap; compact
                   <td className="hidden md:table-cell text-muted max-w-[220px]">{h.frequency ?? <span className="text-muted/60">not sourced</span>}</td>
                   <td className="text-muted max-w-sm">{h.note}</td>
                   <td className="min-w-[160px]">{h.drugs.length ? <RefChips ids={h.drugs} /> : <span className="text-muted">none in corpus</span>}{h.refs && h.refs.length > 0 && <RefChips ids={h.refs} className="mt-1 opacity-80" />}</td>
-                  <td className="hidden lg:table-cell min-w-[140px]">{h.defeats?.length ? <RefChips ids={h.defeats} /> : <span className="text-muted">—</span>}</td>
+                  <td className="hidden lg:table-cell min-w-[140px]">{h.defeats?.length ? <RefChips ids={h.defeats} /> : <span className="text-muted">-</span>}</td>
                   <td className="hidden lg:table-cell">{h.source && <a className="underline text-xs text-muted" href={h.source.url} rel="noopener">{h.source.label}</a>}</td>
                 </tr>
               ))}

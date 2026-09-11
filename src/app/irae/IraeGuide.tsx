@@ -65,7 +65,7 @@ export function IraeGuide({ icis }: { icis: IciLite[] }) {
                   <td><div className="font-semibold">Grade {g.grade}</div><div className="text-xs text-muted mt-0.5 max-w-[160px]">{g.defines}</div></td>
                   <td><span className={`chip ${HOLD_CLASS[g.hold]}`}>{HOLD_LABEL[g.hold]}</span></td>
                   <td className="text-sm">{g.steroid}</td>
-                  <td className="text-sm text-foreground/85">{g.escalation ?? "—"}{g.note && <div className="text-xs text-muted mt-1">{g.note}</div>}</td>
+                  <td className="text-sm text-foreground/85">{g.escalation ?? "-"}{g.note && <div className="text-xs text-muted mt-1">{g.note}</div>}</td>
                   <td className="text-sm">{g.rechallenge}</td>
                 </tr>
               ))}

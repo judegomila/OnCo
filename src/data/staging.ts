@@ -51,7 +51,7 @@ export const stagingSystems: StagingSystem[] = [
       { stage: "IVA", definition: "M1a (pleural or pericardial spread, contralateral lung nodule) or M1b (single extrathoracic metastasis).", settingMatch: ["metastatic", "stage iv", "advanced"] },
       { stage: "IVB", definition: "M1c: multiple extrathoracic metastases.", settingMatch: ["metastatic", "stage iv", "advanced"] },
     ] },
-  { id: "sclc-valg", cancerIds: ["sclc"], name: "Small-cell lung cancer: limited versus extensive stage", terms: ["limited-vs-extensive-stage"], source: { label: "Kalemkerian et al., NCCN Small Cell Lung Cancer; VALG two-stage system", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1462" },
+  { id: "sclc-valg", cancerIds: ["sclc"], name: "Small-cell lung cancer: limited versus extensive stage", terms: ["limited-extensive-stage"], source: { label: "Kalemkerian et al., NCCN Small Cell Lung Cancer; VALG two-stage system", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1462" },
     groups: [
       { stage: "Limited stage", definition: "Confined to one hemithorax and regional nodes, encompassable in a tolerable radiotherapy field (roughly TNM I-III without malignant effusion); about a third of patients.", settingMatch: ["limited"] },
       { stage: "Extensive stage", definition: "Beyond one hemithorax, malignant pleural or pericardial effusion, or distant metastases (TNM IV); about two-thirds.", settingMatch: ["extensive", "metastatic"] },

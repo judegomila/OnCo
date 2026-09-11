@@ -166,7 +166,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
   { id: "prostate", name: "Prostate", cancers: ["prostate"],
     caption: "About three quarters of cancers arise in the peripheral zone at the back of the gland, the part a finger or a biopsy needle reaches; drainage is to the obturator and iliac nodes.",
     subsites: [
-      { id: "peripheral", label: "Peripheral zone (most cancers)", at: [0, -0.5, -0.75], match: ["acinar", "adenocarcinoma", "gleason", "grade group", "localised", "castration", "hormone-sensitive", "mcrpc", "mhspc"] },
+      { id: "peripheral", label: "Peripheral zone (most cancers)", at: [0, -0.5, -0.75], match: ["acinar", "adenocarcinoma", "gleason-grade-group", "grade group", "localised", "castration", "hormone-sensitive", "mcrpc", "mhspc"] },
       { id: "transition", label: "Transition zone (BPH)", at: [0.35, 0.25, 0.4] },
       { id: "ductal", label: "Ducts (ductal, intraductal, neuroendocrine)", at: [-0.2, 0.55, -0.2], match: ["ductal", "intraductal", "neuroendocrine", "small cell", "nepc"] },
       { id: "sv", label: "Seminal vesicle (T3b)", at: [0.75, 0.95, -0.65], match: ["t3", "locally advanced"] },
@@ -189,7 +189,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       { id: "cortex", label: "Renal cortex (RCC)", at: [-1.95, 1.75, 0.15], match: ["clear cell", "ccrcc", "papillary", "chromophobe", "vhl", "tfe3", "translocation", "collecting duct", "medullary", "sarcomatoid"] },
       { id: "pelvis", label: "Renal pelvis and ureter (upper tract urothelial)", at: [1.5, 1.6, 0.2], match: ["upper tract", "utuc", "renal pelvis", "ureter"] },
       { id: "urothelium", label: "Bladder lining (non-muscle-invasive)", at: [0, -1.35, 0.9], match: ["nmibc", "non-muscle", "papillary", "cis", "luminal", "basal", "fgfr3", "urothelial", "high-grade", "low-grade", "urethra", "penile", "pein"] },
-      { id: "muscle", label: "Bladder muscle wall (muscle-invasive)", at: [-1.0, -1.45, 0.25], match: ["mibc", "muscle-invasive", "squamous", "small cell", "variant"] },
+      { id: "muscle", label: "Bladder muscle wall (muscle-invasive)", at: [-1.0, -1.45, 0.25], match: ["mibc", "nmibc-vs-mibc", "squamous", "small cell", "variant"] },
       { id: "adrenal-cortex", label: "Adrenal cortex", at: [1.5, 2.75, 0], match: ["adrenocortical", "cortisol", "aldosterone", "functional", "non-functional", "adrenal"] },
       { id: "adrenal-medulla", label: "Adrenal medulla and sympathetic chain (neuroblastoma)", at: [-1.5, 2.75, 0], match: ["mycn", "neuroblast", "ganglio", "high-risk", "intermediate-risk", "low-risk", "alk", "stage ms", "stage 4s", "pheochromocytoma", "paraganglioma", "ppgl"] },
       { id: "nephroblastoma", label: "Developing kidney (Wilms tumour)", at: [-1.6, 1.1, 0.25], match: ["favourable histology", "anaplastic", "wilms", "blastemal", "wt1", "bilateral"] },

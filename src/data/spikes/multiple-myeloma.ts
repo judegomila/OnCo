@@ -44,7 +44,7 @@ const terms: TermInput[] = [
   term({ id: "smoldering-myeloma", name: "Smouldering myeloma / MGUS", category: "Clinical", wikipedia: W("Monoclonal_gammopathy_of_undetermined_significance"),
     tldr: "Early plasma-cell conditions with no organ damage; most never progress, but high-risk smouldering disease is now sometimes treated.",
     summary: "MGUS progresses at ~1% per year; smouldering myeloma at ~10% per year for five years, higher with the 20/2/20 criteria (M-protein >2 g/dL, >20% plasma cells, free light chain ratio >20). Lenalidomide (E3A06) and daratumumab (AQUILA, 2024: progression HR 0.49) delay progression in high-risk smouldering disease; whether to treat remains debated. iStopMM (Iceland) is screening a whole population.",
-    cancers: ["multiple-myeloma"], links: [{ label: "Wikipedia", url: W("Monoclonal_gammopathy_of_undetermined_significance") }] }),
+    cancers: ["multiple-myeloma"], links: [{ label: "Wikipedia", url: W("Monoclonal_gammopathy_of_undetermined_significance") }], aka: ["MGUS", "monoclonal gammopathy", "monoclonal gammopathy of undetermined significance", "smouldering", "smouldering myeloma", "smoldering myeloma", "smoldering", "M-protein", "paraprotein", "monoclonal protein", "free light chains", "light chain", "light chains", "serum free light chain", "plasma cell dyscrasia", "free light chain", "mgus-smouldering"], related: ["dysplasia", "active-surveillance", "tumour-markers"], drugs: ["lenalidomide", "daratumumab"], sections: ["early-detection"] }),
 ];
 
 // ======================= PRODUCTS =======================

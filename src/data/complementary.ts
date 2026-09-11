@@ -483,7 +483,7 @@ const hair: TechnologyInput[] = [
     principle: "Restoring appearance reduces the social visibility of illness, which trials of appearance programmes link to lower distress and better body image during treatment.",
     strengths: ["Immediate and universally available", "NHS provision in the UK, insurer reimbursement and charity wig banks in the US", "Fitting before hair loss allows matching"],
     limitations: ["Charges in England unless exempt; many US plans still exclude wigs", "Heat and itch with synthetic wigs", "Human-hair wigs are costly"],
-    technologies: ["scalp-cooling", "minoxidil-chemotherapy-alopecia", "bimatoprost-eyelash-regrowth", "psycho-oncology"], institutions: ["macmillan-cancer-support"], bottlenecks: ["b-toxicity-qol", "b-global-access"], related: ["idea-moon-hair-preservation-for-all", "american-cancer-society", "src-cancer-org-asco"],
+    technologies: ["scalp-cooling", "minoxidil-chemotherapy-alopecia", "bimatoprost-eyelash-regrowth", "psycho-oncology"], institutions: ["macmillan-cancer-support"], bottlenecks: ["b-toxicity-qol", "b-global-access"], related: ["idea-moon-hair-preservation-for-all", "american-cancer-society"],
     links: [{ label: "NHS: wigs and fabric supports on the NHS", url: "https://www.nhs.uk/nhs-services/help-with-health-costs/wigs-and-fabric-supports-on-the-nhs/" }, { label: "Macmillan Cancer Support: hair loss", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/hair-loss" }, { label: "American Cancer Society: hair loss", url: "https://www.cancer.org/cancer/managing-cancer/side-effects/hair-skin-nails/hair-loss.html" }, { label: "Look Good Feel Better", url: "https://lookgoodfeelbetter.org/" }] }),
 ];
 

@@ -286,7 +286,6 @@ export const simpleF: Record<string, string> = {
   "src-snmmi": "The SNMMI Annual Meeting, held each June, is the main theranostics meeting, and the Journal of Nuclear Medicine carries the field's papers.",
   "src-asco-daily-news": "ASCO Daily News is the society's own daily read, best during the Annual Meeting and published weekly otherwise.",
   "src-nature-briefing-cancer": "Nature Briefing: Cancer is one email a week that catches the cancer papers you missed.",
-  "src-cancer-org-asco": "The American Cancer Society's website offers plain-language patient information on every cancer, with ASCO's clinical review behind it since Cancer.Net merged in.",
   "src-cruk-about-cancer": "Cancer Research UK's About Cancer pages give clear UK patient information, including NHS treatment pathways, backed by a nurse helpline.",
   "src-macmillan": "Macmillan Cancer Support covers the practical side of cancer: money, work, coping and where to get help, continuously updated.",
   "src-lbbc": "Living Beyond Breast Cancer translates congress results for people with breast cancer fast and accurately, among the best patient-facing trial explainers.",

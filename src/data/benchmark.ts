@@ -160,7 +160,7 @@ export const benchmark: Question[] = [
   Q("bladder-28", "What was the first cancer drug approved on the basis of a blood test for leftover disease?", "factual", 2, "analyst",
     "Atezolizumab for ctDNA-positive muscle-invasive bladder cancer after cystectomy (IMvigor011, using Signatera), approved Q2 2026; DFS HR 0.64, OS HR 0.59.",
     ["atezolizumab", "imvigor011", "signatera", "mrd-testing"],
-    [["atezolizumab", "tecentriq"], ["ctdna", "signatera", "minimal residual", "mrd"], ["bladder", "muscle-invasive"], ["imvigor011", "imvigor 011"]]),
+    [["atezolizumab", "tecentriq"], ["ctdna", "signatera", "minimal residual", "mrd"], ["bladder", "nmibc-vs-mibc"], ["imvigor011", "imvigor 011"]]),
 
   // ---------------- GI ----------------
   Q("gi-29", "Which cancer gene was called undruggable for forty years and what changed?", "factual", 2, "patient",

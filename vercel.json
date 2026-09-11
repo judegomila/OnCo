@@ -185,6 +185,51 @@
       "source": "/terms/surrogate-endpoint-term/:path*",
       "destination": "/terms/surrogate-endpoint/:path*",
       "permanent": true
+    },
+    {
+      "source": "/terms/barretts-oesophagus/:path*",
+      "destination": "/terms/barretts-esophagus/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/mgus-smouldering/:path*",
+      "destination": "/terms/smoldering-myeloma/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/gleason/:path*",
+      "destination": "/terms/gleason-grade-group/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/limited-vs-extensive-stage/:path*",
+      "destination": "/terms/limited-extensive-stage/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/muscle-invasive/:path*",
+      "destination": "/terms/nmibc-vs-mibc/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/squamous-cell-carcinoma-term/:path*",
+      "destination": "/terms/squamous-cell-carcinoma/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/driver-mutation-term/:path*",
+      "destination": "/terms/driver-mutation/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/histological-subtype/:path*",
+      "destination": "/terms/histology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-cancer-org-asco/:path*",
+      "destination": "/collections/american-cancer-society/:path*",
+      "permanent": true
     }
   ]
 }

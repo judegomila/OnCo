@@ -1,0 +1,40 @@
+src/data/institutions/europe.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 34,77,91,174,310,340,359,371,391,433,452,502
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 41,43
+src/data/funding.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 23,26,29-30
+  s_0beac9cb5d78fd::t_e31c3c5f920a53 28
+src/data/institutions/bodies.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 104,139,373,380,575
+src/data/institutions/us.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 214,216,218,291,428,435
+src/data/institutions/centres-wave3.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 367
+src/data/institutions/world.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 550
+src/data/india.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 97
+src/data/investors.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 71
+src/data/institutions/india.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 102
+src/data/collections.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 61,63,65,67-68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c8ed1dfe69d109ef9afcec2d120ae0c6928a403d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

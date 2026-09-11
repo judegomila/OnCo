@@ -8,8 +8,49 @@
  */
 import { describe, expect, it } from "vitest";
 import { graph } from "./graph";
+import { companies } from "@/data/companies";
+import { companiesWave1 } from "@/data/companies-wave1";
+import { companiesYc } from "@/data/companies-yc";
+import { companiesStartups } from "@/data/companies-startups";
+import { journals } from "@/data/journals";
+import { journalsWave2 } from "@/data/journals-wave2";
+import { people } from "@/data/people";
+import { sources } from "@/data/sources";
+import { terms } from "@/data/terms";
+import { termsBasics } from "@/data/terms-basics";
+import { termsJargon } from "@/data/terms-jargon";
 
 const g = graph();
+
+/**
+ * House style for rendered copy: no em-dash or en-dash (write "to" for ranges, a comma, full stop or colon
+ * otherwise), no "as of <date>" stamps (dates belong in `asOf`, `checked` or `year`), and never the word
+ * "spike" (say "deep dive"). The internal `tags: ["spike"]` value is not rendered and is not checked.
+ */
+const HOUSE_STYLE_FIELDS = new Set(["tldr", "summary", "notes", "result", "setting", "indication", "note", "label"]);
+const HOUSE_STYLE_RULES: [string, RegExp][] = [["em-dash or en-dash", /[—–]/], ['"as of" date stamp', /\bas of\b/i], ['the word "spike"', /\bspikes?\b/i]];
+/**
+ * Entities from files being edited by other passes when the rule landed (companies, journals, people, terms,
+ * sources). Exempt so the rule can ship now; remove a module from this list once its copy is clean.
+ */
+const HOUSE_STYLE_EXEMPT_IDS = new Set(
+  [...companies, ...companiesWave1, ...companiesYc, ...companiesStartups, ...journals, ...journalsWave2, ...people, ...sources, ...terms, ...termsBasics, ...termsJargon].map((e) => e.id),
+);
+
+/** Walks a record and reports every string under a rendered field name that breaks a house-style rule. */
+function houseStyleViolations(value: unknown, key: string, path: string, out: string[]): void {
+  if (typeof value === "string") {
+    if (!HOUSE_STYLE_FIELDS.has(key)) return;
+    for (const [rule, re] of HOUSE_STYLE_RULES) {
+      const m = re.exec(value);
+      if (m) out.push(`${path}: ${rule} at "${value.slice(Math.max(0, m.index - 30), m.index + 30)}"`);
+    }
+  } else if (Array.isArray(value)) {
+    value.forEach((v, i) => houseStyleViolations(v, key, `${path}[${i}]`, out));
+  } else if (value && typeof value === "object") {
+    for (const [k, v] of Object.entries(value)) houseStyleViolations(v, k, `${path}.${k}`, out);
+  }
+}
 const TODAY = new Date().toISOString().slice(0, 10);
 
 /** Cytotoxic regimens are combinations of individually approved generics; they have no approval of their own. */
@@ -105,5 +146,14 @@ describe("corpus rules", () => {
     for (const e of g.entities) {
       expect(/[.!?)"”]$/.test(e.tldr.trim()), `${e.id}: "${e.tldr.slice(0, 60)}"`).toBe(true);
     }
+  });
+
+  it("rendered text follows house style: no em or en dashes, no 'as of' stamps, no 'spike'", () => {
+    const failures: string[] = [];
+    for (const e of g.entities) {
+      if (HOUSE_STYLE_EXEMPT_IDS.has(e.id)) continue;
+      houseStyleViolations(e, "", e.id, failures);
+    }
+    expect(failures).toEqual([]);
   });
 });

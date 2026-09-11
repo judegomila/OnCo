@@ -23,6 +23,7 @@ const EVENT = "onco:watchlist";
 
 export function loadWatchlist(): WatchItem[] {
   if (typeof window === "undefined") return [];
+  if (memory && storageBlocked) return memory;
   try {
     const raw = window.localStorage.getItem(KEY);
     const list = raw ? (JSON.parse(raw) as WatchItem[]) : [];
@@ -30,8 +31,14 @@ export function loadWatchlist(): WatchItem[] {
   } catch { return []; }
 }
 
+/** In-memory copy for browsers that block storage (private windows, strict tracking settings); the star still toggles for this visit. */
+let memory: WatchItem[] | null = null;
+export let storageBlocked = false;
+
 function persist(list: WatchItem[]) {
-  window.localStorage.setItem(KEY, JSON.stringify(list));
+  memory = list;
+  try { window.localStorage.setItem(KEY, JSON.stringify(list)); storageBlocked = false; }
+  catch { storageBlocked = true; }
   window.dispatchEvent(new CustomEvent(EVENT, { detail: list }));
 }
 

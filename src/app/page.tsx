@@ -109,7 +109,6 @@ export default function Home() {
           <div className="mt-14">
             <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 mb-3">
               <p className="text-sm text-muted"><span className="font-semibold text-foreground tabular-nums">{fmt(total)}</span> linked objects, one page each. Every count is a link.</p>
-              <Link href="/api/" className="text-sm text-muted hover:text-foreground underline decoration-foreground/20 underline-offset-[3px]">Whole corpus as JSON</Link>
             </div>
             <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-px rounded-xl border border-border bg-card overflow-hidden shadow-card [&>li]:border-border [&>li]:border-b [&>li]:border-r">
               {counts.map(({ k, n }) => (

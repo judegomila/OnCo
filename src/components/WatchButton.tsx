@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { fetchEntityDates, isWatched, markSeen, unwatch, watch } from "@/lib/watchlist";
+import { fetchEntityDates, isWatched, markSeen, storageBlocked, unwatch, watch } from "@/lib/watchlist";
 import { useT } from "@/lib/i18n/ui";
 
 /**
@@ -44,7 +44,9 @@ export function WatchButton({ id, kind, name, route, asOf, className = "" }: { i
         <span aria-hidden>{on ? "★" : "☆"}</span>
         <span>{on ? t("watch.watching") : t("watch.watch")}</span>
       </button>
-      {on && <Link href="/saved/" className="text-xs text-muted underline hover:text-foreground">{t("watch.saved")}</Link>}
+      {on && !storageBlocked && <Link href="/saved/" className="text-xs text-muted underline hover:text-foreground">{t("watch.saved")}</Link>}
+      {on && storageBlocked && <span className="text-xs text-muted">{t("watch.blocked")}</span>}
+      <a href="/feeds/changelog.xml" className="text-xs text-muted underline hover:text-foreground" title={t("watch.feedTitle")}>{t("watch.feed")}</a>
     </span>
   );
 }

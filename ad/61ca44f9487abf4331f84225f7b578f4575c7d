@@ -1,0 +1,60 @@
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 235
+src/data/bottlenecks.ts
+  s_0beac9cb5d78fd::t_955c52c5f91ae5 97
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 235
+src/app/ask/page.tsx
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 8
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 235
+src/data/ideas-waves/wave-biology-1.ts
+  s_0beac9cb5d78fd::t_955c52c5f91ae5 437,445,453,461,469,486,494,502,510,518,526,543,551,559,567,575,583,591,607,615,632
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_955c52c5f91ae5 116
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 235
+src/data/collections.ts
+  s_0beac9cb5d78fd::t_955c52c5f91ae5 20,56
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_c1c144a67f662c 95-101
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 235
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 272
+src/data/people/heroes.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 54,60,66,72,78,84,120,138,144,341-342
+  s_0beac9cb5d78fd::t_955c52c5f91ae5 340,343
+src/data/people/heroes-donors.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 214,220,266,278
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 235
+src/data/ideas.ts
+  s_0beac9cb5d78fd::t_955c52c5f91ae5 113
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 235
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 590
+src/data/ideas-waves/wave-people-moonshots.ts
+  s_0beac9cb5d78fd::t_955c52c5f91ae5 790
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 235
+src/app/heroes/page.tsx
+  s_0beac9cb5d78fd::t_fa463cd91a7c56 20-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ad61ca44f9487abf4331f84225f7b578f4575c7d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+src/data/people/asia-pacific.ts
+  s_0beac9cb5d78fd::t_7714e64ea2e85d 80,124,152,182,189,212,219,233,247,270,277,309,323,337,344,351,360,367,390,397,404,418,455,536,552,573,589,603,617,670
+  s_0beac9cb5d78fd::t_2ef5dbf82da019 36,50,94,101,131,145,161,175,198,316,330,374,425,462,469,501,515,522,529,545,559,633,640,656,663,677,684
+  s_0beac9cb5d78fd::t_11036b2e30f63a 381
+  s_0beac9cb5d78fd::t_46c495a6e3330c 29,43,57,66,73,87,108,117,138,168,205,226,240,254,263,284,300,411,441,448,478,485,492,508,566,582,596,610,624,647
+  s_0beac9cb5d78fd::t_8b124a7a94a147 293,434
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d5929847a7f51172bf8fdaf3286174bae52832cc",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

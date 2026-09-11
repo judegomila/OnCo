@@ -1,9 +1,9 @@
 {
   "title": "OnCo: a public, cited knowledge graph of oncology",
-  "description": "<p>OnCo maps the war on cancer as a linked corpus: cancers, technologies, targets, products, companies, institutions, people, pathways, trials, pairings, roadmaps, key papers, journals, bottlenecks and ideas, one record per object with a plain-English TL;DR, a technical summary, dated facts and sources. Each release archives the corpus as JSON (per entity and per kind), NDJSON, CSV and a JSON Schema, exactly as published under https://onco.cc/api/v1/. Code is MIT; data are CC BY 4.0 and require attribution to OnCo (onco.cc).</p>",
+  "description": "<p>OnCo maps the war on cancer as a linked corpus: cancers, technologies, targets, products, companies, institutions, people, pathways, trials, pairings, roadmaps, key papers, journals, bottlenecks and ideas, one record per object with a plain-English TL;DR, a technical summary, dated facts and sources. Each release archives the corpus as JSON (per entity and per kind), NDJSON, CSV, a JSON Schema and an OpenAPI description, exactly as published under https://onco.cc/api/v1/. Code is MIT. Data are CC BY-NC 4.0: free for individual and educational use with attribution (\"Data from OnCo (onco.cc)\"); commercial use must contact OnCo to pay for the data. Nothing in the dataset is medical advice.</p>",
   "upload_type": "dataset",
   "access_right": "open",
-  "license": "CC-BY-4.0",
+  "license": "CC-BY-NC-4.0",
   "creators": [
     { "name": "Gomila, Jude" }
   ],

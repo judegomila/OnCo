@@ -1,6 +1,7 @@
 {
   "name": "onco-mcp",
   "version": "0.1.0",
+  "mcpName": "io.github.judegomila/onco-mcp",
   "description": "Model Context Protocol server for OnCo, the public cited knowledge graph of oncology. Tools: search, get_entity, list_kind, ask (cited answers), context (Markdown), compare. Reads the static API at onco.cc; no checkout needed.",
   "license": "MIT",
   "homepage": "https://onco.cc/api/",

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.judegomila/onco-mcp",
+  "description": "Cited oncology knowledge graph (OnCo, onco.cc): search, records, lists, cited answers, Markdown context and comparison over 6,000+ linked records. Not medical advice.",
+  "repository": {
+    "url": "https://github.com/judegomila/OnCo",
+    "source": "github",
+    "subfolder": "packages/onco-mcp"
+  },
+  "websiteUrl": "https://onco.cc/api/",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "onco-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "ONCO_API",
+          "description": "Another copy of the OnCo static API to read from (URL or local out/api/v1 directory). Defaults to https://onco.cc/api/v1.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

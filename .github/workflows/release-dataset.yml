@@ -1,9 +1,14 @@
 name: Release corpus
 
-# On a version tag (v0.5.0), validate and build the corpus, attach it to a GitHub release, and, when a
-# ZENODO_TOKEN secret is present, deposit the same files on Zenodo for a DOI. Without the token the Zenodo
-# step is skipped; the GitHub-Zenodo integration (if enabled for the repository) archives the release on its own
-# using .zenodo.json.
+# On a version tag (v0.5.0), validate and build the corpus, attach the API bundle to a GitHub release, and, when
+# a ZENODO_TOKEN secret is present, deposit the same files on Zenodo for a DOI. Without the token the Zenodo step
+# is skipped; once the owner has linked the repository at https://zenodo.org/account/settings/github/ the
+# GitHub-Zenodo integration archives every release on its own, reading .zenodo.json and CITATION.cff, and
+# issues a DOI per release plus one concept DOI for all versions. See docs/DISTRIBUTION.md, "Zenodo".
+#
+# To cut a release: bump "version" in package.json and CITATION.cff, move the Unreleased notes in CHANGELOG.md
+# under the new heading, commit, then `git tag v0.5.0 && git push origin v0.5.0`. Manual runs (workflow_dispatch)
+# build a dated snapshot as a workflow artefact without creating a release.
 on:
   push:
     tags: ["v*"]
@@ -38,18 +43,25 @@ jobs:
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
           mkdir -p dist
           tar -C public/api -czf "dist/onco-corpus-$TAG.tar.gz" v1
-          (cd public/api/v1 && zip -q -r "../../../dist/onco-corpus-$TAG-csv.zip" ./*.csv schema.json meta.json)
+          (cd public/api/v1 && zip -q -r "../../../dist/onco-corpus-$TAG-csv.zip" ./*.csv schema.json meta.json openapi.json)
           cp public/api/v1/all.json "dist/onco-all-$TAG.json"
           cp public/api/v1/all.ndjson "dist/onco-all-$TAG.ndjson"
           cp public/api/v1/schema.json "dist/onco-schema-$TAG.json"
+          cp public/api/v1/openapi.json "dist/onco-openapi-$TAG.json"
+          cp public/api/v1/meta.json "dist/onco-meta-$TAG.json"
+          cp public/llms.txt "dist/onco-llms-$TAG.txt"
+          cp public/llms-full.txt "dist/onco-llms-full-$TAG.txt"
+          cp CITATION.cff LICENSE-DATA dist/
           (cd dist && sha256sum ./* > SHA256SUMS)
           TOTAL=$(node -e "console.log(require('./public/api/v1/meta.json').total)")
           COUNTS=$(node -e "const c=require('./public/api/v1/meta.json').counts; console.log(Object.entries(c).map(([k,v])=>k+': '+v).join(', '))")
           {
             echo "OnCo corpus $TAG: $TOTAL entities ($COUNTS)."
             echo
-            echo "Files: full JSON tree (tar.gz), CSV per kind plus schema (zip), all.json, all.ndjson, schema.json, SHA256SUMS."
-            echo "Data CC BY-NC 4.0, attribute \"Data from OnCo (onco.cc)\"; commercial use needs a licence. Code MIT. Facts may be incomplete or out of date; verify at the primary source."
+            echo "Files: full JSON tree with Markdown context files (tar.gz), CSV per kind plus schema and OpenAPI (zip), all.json, all.ndjson, schema.json, openapi.json, meta.json, llms.txt, llms-full.txt, CITATION.cff, LICENSE-DATA, SHA256SUMS."
+            echo "Data CC BY-NC 4.0, attribute \"Data from OnCo (onco.cc)\"; free for individual and educational use, commercial use must contact OnCo to pay for the data. Code MIT. Facts may be incomplete or out of date; verify at the primary source. Not medical advice."
+            echo
+            echo "Cite: https://github.com/${GITHUB_REPOSITORY}/blob/main/CITATION.cff"
             echo
             echo "Changelog: https://github.com/${GITHUB_REPOSITORY}/blob/main/CHANGELOG.md"
           } > dist-notes.md

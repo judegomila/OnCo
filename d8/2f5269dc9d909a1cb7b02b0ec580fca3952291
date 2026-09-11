@@ -1,0 +1,43 @@
+src/data/term-animations.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 192,358
+src/data/mechanisms.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 74,81,111,135,141,144,315,317-318,337,349-351,382-383,385,421,468,483,500,506,512,737
+src/data/resistance.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 17,19,21,77,79,92,120,133,146,150
+src/data/ideas-waves/wave-biology-2.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 19,52,60,68,76,101,127,133,167,199,207,271,279,281,328,400,432,558,615,640,648,673,681,706,714,739,755,819
+src/data/pulse.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 30
+src/data/pathways.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 67,90,108-109,125,269
+src/data/payloads.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 28,74
+src/data/drug-depth.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 31,328,417,454
+src/data/structures.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 103
+src/data/animated.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 244
+src/data/foundation-models.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 75-76
+src/data/mechanics-pathways.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 153-155,190,227,238,263-264,281,507,573
+src/data/failures.ts
+  s_0beac9cb5d78fd::t_13ad9f6dcdcd96 22-23,32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d82f5269dc9d909a1cb7b02b0ec580fca3952291",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

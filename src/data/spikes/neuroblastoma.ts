@@ -61,7 +61,7 @@ const technologies: TechnologyInput[] = [
 
 const terms: TermInput[] = [
   term({ id: "inrg-staging", name: "INRG staging and risk groups", category: "Clinical", wikipedia: W("Neuroblastoma#Staging"),
-    tldr: "INRG staging is the international system that sorts neuroblastoma into very-low, low, intermediate and high risk using age, spread, MYCN status and tumour biology.",
+    tldr: "INRG staging is the international system that sorts neuroblastoma into four risk groups, from the lowest (often observed, sometimes regressing on its own) to high risk (about half of patients), using age under 18 months, spread, MYCN amplification, 11q status, ploidy and histology.",
     summary: "International Neuroblastoma Risk Group (2009): stages L1/L2 (localised, by image-defined risk factors), M (metastatic), MS (infant metastatic to skin/liver/marrow). Risk groups combine stage, age (<18 months), MYCN amplification, 11q aberration, ploidy and histology. Roughly 50% of patients are high risk; very-low-risk L1/MS may be observed and regress spontaneously.",
     cancers: ["neuroblastoma"], links: [{ label: "Wikipedia", url: W("Neuroblastoma#Staging") }] }),
   term({ id: "mycn-amplification", name: "MYCN amplification", category: "Biomarkers", wikipedia: W("N-Myc"),

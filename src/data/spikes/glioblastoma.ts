@@ -159,7 +159,7 @@ const entities: EntityInput[] = [
   {
     id: "blood-brain-barrier", kind: "term", name: "Blood-brain barrier (BBB)", category: "Biology", asOf, wikipedia: W("Blood–brain_barrier"),
     tldr: "The tight seal around brain blood vessels that keeps most drugs out, one of the two main reasons brain cancer is so hard to treat.",
-    summary: "Endothelial tight junctions, efflux transporters (P-gp, BCRP), and pericytes exclude most antibodies and many small molecules. Glioblastoma disrupts the barrier heterogeneously (contrast enhancement) but infiltrating cells sit behind intact barrier. Strategies: lipophilic/small brain-penetrant drugs (temozolomide, lomustine, dordaviprone, vorasidenib), locoregional delivery (CAR-T, convection-enhanced), focused-ultrasound opening, LITT, and intra-arterial delivery.",
+    summary: "Endothelial tight junctions, efflux transporters (P-gp, BCRP), and pericytes exclude most antibodies and all but small, lipophilic small molecules. Glioblastoma disrupts the barrier heterogeneously (contrast enhancement) but infiltrating cells sit behind intact barrier. Strategies: lipophilic/small brain-penetrant drugs (temozolomide, lomustine, dordaviprone, vorasidenib), locoregional delivery (CAR-T, convection-enhanced), focused-ultrasound opening, LITT, and intra-arterial delivery.",
     cancers: ["glioblastoma"], technologies: ["bbb-focused-ultrasound", "litt", "glioma-car-t"], terms: ["efflux-pump"], links: [{ label: "Wikipedia", url: W("Blood–brain_barrier") }],
   },
 

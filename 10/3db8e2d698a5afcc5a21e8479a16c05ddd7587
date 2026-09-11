@@ -1,0 +1,46 @@
+src/data/animated.ts
+  s_0beac9cb5d78fd::t_9090741042616e 12
+  s_0beac9cb5d78fd::t_3a645811a85792 543
+src/data/animated-wave8.test.ts
+  s_0beac9cb5d78fd::t_e8e8f6ada2c0a9 1-64
+src/data/animated-wave8-kit.ts
+  s_0beac9cb5d78fd::t_fa2dc474feb5a2 8
+  s_0beac9cb5d78fd::t_a307cea3190941 109-110
+  s_0beac9cb5d78fd::t_5b32de6f2455e6 104-105
+  s_0beac9cb5d78fd::t_e9356b44b491cb 1-7,9-103,106-108,111-128
+src/data/animated-wave8.ts
+  s_0beac9cb5d78fd::t_2ac4814c3132a8 532
+  s_0beac9cb5d78fd::t_d2749ff923550c 363
+  s_0beac9cb5d78fd::t_d795d52c02b3ee 235,237
+  s_0beac9cb5d78fd::t_0d912c34ef3d16 714-1036
+  s_0beac9cb5d78fd::t_a49156f00fddfb 370
+  s_0beac9cb5d78fd::t_b583d264db2e8a 394-531,533-535,537-713
+  s_0beac9cb5d78fd::t_26870144479fd5 38-47
+  s_0beac9cb5d78fd::t_22cf28fedc29a9 13
+  s_0beac9cb5d78fd::t_b24a0f444079dd 48-57
+  s_0beac9cb5d78fd::t_e3d0fb18120932 12,15-27,58-59
+  s_0beac9cb5d78fd::t_b9734858904369 214-216
+  s_0beac9cb5d78fd::t_3353ff91fd3cc8 208,210
+  s_0beac9cb5d78fd::t_85abf7f369e9ad 28-37
+  s_0beac9cb5d78fd::t_a674c9e0e0e9ae 1037-1374
+  s_0beac9cb5d78fd::t_787dd7d7b03f48 536
+  s_0beac9cb5d78fd::t_60bf5c28003ea9 1-11,14,60-207,209,211-213,217-234,236,238-362,364-369,371-393
+src/data/animated-wave8b.ts
+  s_0beac9cb5d78fd::t_83a02509ce4620 1-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "103db8e2d698a5afcc5a21e8479a16c05ddd7587",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

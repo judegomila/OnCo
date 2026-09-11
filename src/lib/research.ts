@@ -142,24 +142,56 @@ export function matchAuthorToPerson<P extends PersonLike>(author: { name: string
   return hits.length === 1 ? hits[0] : undefined;
 }
 
-/** Tokens of an institution name for matching against OpenAlex display names. */
+const INSTITUTION_STOP = new Set(["of", "the", "for", "and", "at", "in", "de", "del", "della", "di", "da", "do", "dos", "das", "la", "le", "les", "du", "des", "der", "die", "und", "y", "e", "a", "an", "on", "to"]);
+/** Words that say what kind of place it is rather than which one; ignored when comparing the core of a name. */
+const INSTITUTION_GENERIC = new Set(["hospital", "hospitals", "university", "universitario", "universitaria", "universitat", "universite", "universidad", "universidade", "universitatsklinikum", "universitaire", "college", "school", "medicine", "medical", "center", "centre", "centro", "cancer", "oncology", "oncologia", "oncologie", "institute", "institut", "instituto", "istituto", "national", "nacional", "nazionale", "research", "foundation", "fondazione", "fundacion", "trust", "nhs", "clinic", "clinical", "clinica", "health", "healthcare", "sciences", "science", "comprehensive", "general", "regional", "memorial", "academic", "campus", "irccs", "hopital", "hospitalier", "chu", "ospedale", "krankenhaus", "klinikum", "hospitalario", "sistema", "group", "system", "care", "children", "childrens"]);
+
+/** Tokens of an institution name for matching against OpenAlex display names; dotted acronyms collapse (A.C. to ac). */
 export function institutionTokens(name: string): string[] {
-  const STOP = new Set(["of", "the", "for", "and", "at", "in", "de", "del", "della", "di", "da", "do", "dos", "das", "la", "le", "les", "du", "des", "der", "die", "das", "und", "y", "e", "a", "an"]);
   return name
+    .replace(/\b(?:[A-Za-z]\.){2,}/g, (m) => `${m.replace(/\./g, "")} `)
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, " ")
     .split(/\s+/)
-    .filter((t) => t && !STOP.has(t));
+    .filter((t) => t && !INSTITUTION_STOP.has(t));
 }
 
-/** Jaccard similarity of two institution names' token sets, 0 to 1. */
-export function nameSimilarity(a: string, b: string): number {
-  const ta = new Set(institutionTokens(a)), tb = new Set(institutionTokens(b));
+/** The distinguishing tokens of an institution name: everything that is not a generic word. */
+export const institutionCoreTokens = (name: string) => institutionTokens(name).filter((t) => !INSTITUTION_GENERIC.has(t));
+
+function jaccard(a: string[], b: string[]): number {
+  const ta = new Set(a), tb = new Set(b);
   if (!ta.size || !tb.size) return 0;
   let inter = 0;
   for (const t of ta) if (tb.has(t)) inter++;
   return inter / (ta.size + tb.size - inter);
+}
+
+/**
+ * Similarity of two institution names, 0 to 1: the better of the token Jaccard over all words and over
+ * the distinguishing words, lifted to at least 0.8 when every distinguishing word of the query (two or
+ * more of them, allowing one in four to be missing) appears in the candidate ("Spedali Civili di Brescia" inside the full Azienda name).
+ */
+export function nameSimilarity(query: string, candidate: string): number {
+  const all = jaccard(institutionTokens(query), institutionTokens(candidate));
+  const cq = institutionCoreTokens(query), cc = institutionCoreTokens(candidate);
+  const core = jaccard(cq, cc);
+  let sim = Math.max(all, core);
+  const shared = cq.filter((t) => cc.includes(t)).length;
+  if (shared >= 2 && shared / cq.length >= 0.75) sim = Math.max(sim, 0.8);
+  return sim;
+}
+
+/** Whether a bare acronym (AIIMS, WEHI, DKFZ) is the initials of the candidate name, with or without its stop words. */
+export function acronymMatches(acronym: string, candidate: string): boolean {
+  if (!/^[A-Za-z]{2,8}$/.test(acronym)) return false;
+  const a = acronym.toLowerCase();
+  const words = candidate.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z\s]/g, " ").split(/\s+/).filter(Boolean);
+  const initials = (ws: string[]) => ws.map((w) => w[0]).join("");
+  const full = initials(words), core = initials(words.filter((w) => !INSTITUTION_STOP.has(w)));
+  // Exact initials, or (three letters or more) the acronym is the start of them: WEHI for Walter and Eliza Hall Institute of Medical Research.
+  return full === a || core === a || (a.length >= 3 && (full.startsWith(a) || core.startsWith(a)));
 }
 
 /** Bare DOI from a doi.org URL or an already-bare DOI. */

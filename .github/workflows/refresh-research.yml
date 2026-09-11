@@ -1,0 +1,35 @@
+name: Refresh institution research output from OpenAlex
+
+on:
+  schedule:
+    - cron: "23 4 * * 4" # Thursdays 04:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run fetch:research -- --force
+      - run: npm run validate
+      - run: npm test -- src/lib/research.test.ts
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/refresh-research
+          title: "Weekly refresh: institution research output from OpenAlex"
+          commit-message: "chore: refresh institution research output from OpenAlex"
+          body: |
+            Automated weekly pull of oncology works per institution from the OpenAlex works API (CC0): works and citations for the last five publication years, counts per year, open-access, clinical-trial and review counts, the 15 most-cited works and the 10 authors with the most works.
+            Files under `public/openalex/research/` and `public/openalex/research-index.json` changed. Institution pages show the Research output panel from these files; /universities/ reads the five-year columns from the index.
+          labels: automated, pipeline
+          delete-branch: true

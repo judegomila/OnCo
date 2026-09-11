@@ -57,6 +57,7 @@ import { RegionStrip } from "./RegionMatrix";
 import { regionalApprovals } from "@/data/regional-approvals";
 import { CountryCasesMini } from "./CountryCasesMini";
 import { CancerIcon } from "./CancerIcon";
+import { ResearchOutput } from "./ResearchOutput";
 import { confidence } from "@/data/confidence";
 import { FrontIcon } from "./FrontIcon";
 import { ApprovalChip } from "./ApprovalChip";
@@ -326,6 +327,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Newsweek 2026 oncology rank">{e.newsweekOncology2026 ? `#${e.newsweekOncology2026}` : "Not in top 300 listing used"}</Field>
             {e.nci && <Field label="NCI designation"><span className="capitalize">{e.nci}</span></Field>}
             {row && <Field label="OnCo score">#{row.rank} · {row.score} points ({row.newsweekPoints} Newsweek + {row.nciPoints} NCI + {row.linkPoints} from {row.links} linked objects) · <Link className="underline" href="/institutions/">ranking</Link></Field>}
+            <ResearchOutput institutionId={e.id} />
           </div>
         </>),
         ...(e.programs.length ? [{ id: "programmes", label: "Programmes", count: e.programs.length, content: <Bullets items={e.programs} linked={(t) => withTermHovers(t, { skipId: e.id })} /> }] : []),

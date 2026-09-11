@@ -24,7 +24,7 @@ import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import type { Institution, Person } from "../src/lib/schema";
 import { publicPath, sleep, today, writeJson } from "./feed-utils";
-import { bareDoi, CLINICAL_TRIAL_CONCEPT, matchAuthorToPerson, nameSimilarity, ONCOLOGY_SUBFIELD, researchWindow, type InstitutionResearch, type MatchConfidence, type ResearchAuthor, type ResearchIndex, type ResearchIndexRow, type ResearchWork } from "../src/lib/research";
+import { acronymMatches, bareDoi, CLINICAL_TRIAL_CONCEPT, institutionCoreTokens, matchAuthorToPerson, nameSimilarity, ONCOLOGY_SUBFIELD, researchWindow, type InstitutionResearch, type MatchConfidence, type ResearchAuthor, type ResearchIndex, type ResearchIndexRow, type ResearchWork } from "../src/lib/research";
 
 const MAILTO = "onco@judegomila.com";
 const API = "https://api.openalex.org";
@@ -55,7 +55,7 @@ async function get(url: string): Promise<Json | null> {
     if (wait > 0) await sleep(wait);
     lastRequest = Date.now();
     let r: Response;
-    try { r = await fetch(full, { headers: { "User-Agent": `OnCo/1.0 (mailto:${MAILTO})`, Accept: "application/json" } }); }
+    try { r = await fetch(full, { headers: { "User-Agent": `OnCo/1.0 (mailto:${MAILTO})`, Accept: "application/json" }, signal: AbortSignal.timeout(30_000) }); }
     catch { await sleep(1500 * 2 ** attempt); continue; }
     if (r.ok) {
       const j = (await r.json()) as Json;
@@ -94,10 +94,14 @@ async function resolve(inst: Institution, previous: Record<string, { openalexId:
     if (hit) return { oid: short(hit.id), oname: hit.display_name, ror: hit.ror ?? null, confidence: "ror" };
   }
   let bestReason = "no search result";
-  for (const q of searchNames(inst)) {
+  // Each name, then its distinguishing words alone ("Wake Forest" for "Wake Forest Baptist Comprehensive Cancer Center").
+  const queries = [...new Set(searchNames(inst).flatMap((q) => { const core = institutionCoreTokens(q).join(" "); return core && core !== q.toLowerCase() && core.length >= 4 ? [q, core] : [q]; }))];
+  for (const q of queries) {
     const j = await get(`${API}/institutions?search=${encodeURIComponent(q)}&filter=country_code:${inst.country}&per_page=5&select=id,display_name,country_code,type,works_count,ror`);
     const results = ((j?.results as Candidate[] | undefined) ?? []).filter((r) => ALLOWED_TYPES.has(r.type) && r.works_count >= 200);
     if (!results.length) continue;
+    const acronym = results.find((r) => acronymMatches(q, r.display_name));
+    if (acronym) return { oid: short(acronym.id), oname: acronym.display_name, ror: acronym.ror ?? null, confidence: "high" };
     const scored = results.map((r) => ({ r, sim: nameSimilarity(q, r.display_name) })).sort((a, b) => b.sim - a.sim || b.r.works_count - a.r.works_count);
     const top = scored[0], second = scored[1];
     if (top.sim >= 0.6) return { oid: short(top.r.id), oname: top.r.display_name, ror: top.r.ror ?? null, confidence: "high" };
@@ -155,7 +159,7 @@ async function pull(inst: Institution, r: Resolved, years: [number, number]): Pr
 /** HEAD against doi.org; a DOI "resolves" when the registry answers with a redirect or a page. */
 async function doiResolves(doi: string): Promise<boolean> {
   try {
-    const r = await fetch(`https://doi.org/${bareDoi(doi)}`, { method: "HEAD", redirect: "manual", headers: { "User-Agent": `OnCo/1.0 (mailto:${MAILTO})` } });
+    const r = await fetch(`https://doi.org/${bareDoi(doi)}`, { method: "HEAD", redirect: "manual", headers: { "User-Agent": `OnCo/1.0 (mailto:${MAILTO})` }, signal: AbortSignal.timeout(20_000) });
     return r.status >= 200 && r.status < 400;
   } catch { return false; }
 }

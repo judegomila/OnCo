@@ -1,0 +1,30 @@
+docs/press-kit.md
+  s_0beac9cb5d78fd::t_2556e0d7486b51 1-113
+docs/dataset-card.md
+  s_0beac9cb5d78fd::t_26b979964c939e 1-85
+docs/launch-copy.md
+  s_0beac9cb5d78fd::t_45479d67c5c59a 1-97
+docs/DISTRIBUTION.md
+  s_0beac9cb5d78fd::t_40fefc1b41ebc5 127
+  s_0beac9cb5d78fd::t_272b0da9f95f27 1-126,128-248
+README.md
+  s_0beac9cb5d78fd::t_7b2bfa3f0a210f 83-88
+docs/ACCESS.md
+  s_0beac9cb5d78fd::t_b9e7a98f4235fa 26-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "cc84e405ad6fc82368b380159b91b50a3723205f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

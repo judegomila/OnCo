@@ -8,6 +8,7 @@ import { ApprovalChip } from "./ApprovalChip";
 import { flagFor, COUNTRY_FACETS } from "@/lib/flags";
 import { TargetThumb } from "./TargetThumb";
 import { TechThumb } from "./TechThumb";
+import { TermThumb } from "./TermThumb";
 import type { TargetSchematicTarget } from "./TargetSchematic";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
@@ -39,6 +40,8 @@ export type BrowserRow = {
   target?: TargetSchematicTarget;
   /** Technology: renders its small rotating schematic beside the name. */
   schematic?: { id: string; sections: string[] };
+  /** Glossary term: renders its category schematic beside the name. */
+  term?: { category: string };
   /** Facet values keyed by facet key; arrays for multi-valued facets. */
   facets: Record<string, string[]>;
   /** Extra columns keyed by column key: formatted strings, numbers, lists of links, glossary-marked text, or facet chips. */
@@ -279,6 +282,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
         {r.molecule && <MoleculeSlot drugId={r.molecule} modality={r.modality} name={r.name} className="h-10 w-10" />}
         {r.target && <TargetThumb target={r.target} route={r.route} />}
         {r.schematic && <TechThumb id={r.schematic.id} sections={r.schematic.sections} name={r.name} route={r.route} />}
+        {r.term && <TermThumb category={r.term.category} name={r.name} route={r.route} />}
         {r.logo && !r.molecule && (
           <span className={`inline-flex h-7 w-7 shrink-0 items-center justify-center border border-border bg-white overflow-hidden ${r.round ? "rounded-full" : "rounded-md"}`}>
             {/* eslint-disable-next-line @next/next/no-img-element -- self-hosted or hotlinked icon, never optimised */}

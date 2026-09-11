@@ -507,7 +507,7 @@ export const KIND_META: Record<Kind, { plural: string; label: string; route: str
   company: { plural: "companies", label: "Company", route: "companies", blurb: "Who is building what.", color: "amber" },
   institution: { plural: "institutions", label: "Institution", route: "institutions", blurb: "The centres and universities that matter, mapped and ranked.", color: "teal" },
   pathway: { plural: "pathways", label: "Pathway", route: "pathways", blurb: "The classic signalling circuits, drawn and explained.", color: "fuchsia" },
-  term: { plural: "terms", label: "Term", route: "terms", blurb: "Glossary with plain-English TL;DRs and Wikipedia links.", color: "zinc" },
+  term: { plural: "terms", label: "Term", route: "terms", title: "Glossary", blurb: "Glossary with plain-English TL;DRs and Wikipedia links.", color: "zinc" },
   trial: { plural: "trials", label: "Trial", route: "trials", blurb: "Landmark and current trials that define the standard of care.", color: "indigo" },
   pairing: { plural: "pairings", label: "Pairing", route: "pairings", blurb: "Things that work better together, and things that do not.", color: "orange" },
   roadmap: { plural: "roadmaps", label: "Roadmap", route: "roadmaps", blurb: "Where a technology has been and where it is heading.", color: "cyan" },

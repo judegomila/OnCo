@@ -171,7 +171,7 @@ function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; column
     };
     case "term": return {
       hideStatus: true,
-      rows: g.kind("term").map((t) => ({ ...base(t), facets: { category: [t.category] }, cols: { category: fl("category", t.category), links: count(g.degree(t.id), t, "connected", "linked object", "for") }, sortKeys: { links: g.degree(t.id) } })),
+      rows: g.kind("term").map((t) => ({ ...base(t), term: { category: t.category }, facets: { category: [t.category] }, cols: { category: fl("category", t.category), links: count(g.degree(t.id), t, "connected", "linked object", "for") }, sortKeys: { links: g.degree(t.id) } })),
       facets: [{ key: "category", label: "Category", searchable: false, width: "w-48" }],
       columns: [{ key: "category", label: "Category", sortable: true }, { key: "links", label: "Links", sortable: true, numeric: true, hide: "hidden sm:table-cell" }],
       defaultSort: { key: "category", dir: 1 },
@@ -277,6 +277,7 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
         {k === "term" && <TermCategoryGrid />}
         {k === "bottleneck" && <BottlenecksPipeline />}
         {k === "cancer" && <CancersGrid />}
+        {k === "term" && <GlossaryCategories />}
         <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} />
         {k === "institution" && (
           <p className="text-xs text-muted mt-3 max-w-3xl">Score = Newsweek points (60 − Newsweek/Statista 2026 Oncology rank, 0 if unranked) + NCI designation points (Comprehensive 15, Clinical or Basic 8) + 2 × distinct OnCo objects linked to the institution. The last term measures presence in this evidence base and grows with the corpus. A starting point for argument, not a verdict.</p>
@@ -307,6 +308,29 @@ function TermCategoryGrid() {
 }
 
 /** Every cancer as an icon tile, grouped, so a newcomer can find theirs by organ rather than by name. */
+/** One clickable card per glossary category, each with its animated schematic; clicking filters the table below. */
+function GlossaryCategories() {
+  const g = graph();
+  const counts = new Map<string, number>();
+  for (const t of g.kind("term")) counts.set(t.category, (counts.get(t.category) ?? 0) + 1);
+  const cats = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  return (
+    <div className="mb-8">
+      <div className="kicker mb-2">Browse by category</div>
+      <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+        {cats.map(([c, n]) => (
+          <li key={c}>
+            <Link href={`/terms/?category=${encodeURIComponent(c)}`} className="card block overflow-hidden hover:shadow-md transition">
+              <TermSchematic category={c} compact height="h-20" />
+              <div className="px-3 py-2 flex items-baseline justify-between gap-2"><span className="text-sm font-medium">{c}</span><span className="text-xs text-muted tabular-nums">{n}</span></div>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 function CancersGrid() {
   const g = graph();
   const items = g.kind("cancer");

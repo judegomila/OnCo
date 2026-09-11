@@ -92,6 +92,14 @@ Orphans 84 (from 2,185), records without a source 415 (from 2,974), backlink gap
 ## Gauges at the close of 10 Sept (corpus 6,689 entities)
 sources 6,297; backlinks 5,975 of 6,670; orphans 7 of 6,670 after the second linking pass (all seven are news-source collections nothing in the corpus cites); backlink gaps 539, mostly leaders whose only relation is their institution; summary gauge clear: every record has a summary of 300 characters or more; schematics gauge clear: 411 of 411 technologies have a specific animated schematic after eight waves; target prevalence 91 of 99 (the eight left carry notes explaining why no positivity rate exists); trial outcomes 418 of 451 (the 33 left are unreported); people with papers 1,045 of 1,309 (the 264 left are patients, advocates, donors, administrators and regulators, or names too common to match with certainty); term Wikipedia 525 of 605 (rest documented); translations complete (6,651 of 6,651); provenance 6,258 (weekly job); logos 882 of 1,347 (fetch rerunning); reviewed 0 (needs named humans); kind-size 17 of 18 (fronts kept at 19 on purpose).
 
+## Round of 11 Sept (afternoon): research, coverage, quality, distribution
+- [x] Glossary: /terms/ titled Glossary, clickable category cards with their animations, category schematic beside each term (chain running)
+- [ ] Institution research from OpenAlex: five-year oncology works, most-cited papers and top authors per institution, "Research output" panel, /universities/ columns (agent running)
+- [ ] Coverage: ClinicalTrials.gov phase 2 and 3 oncology sponsors and pipeline products as company, drug and trial records (agent running)
+- [ ] Quality: factcheck against openFDA and ClinicalTrials.gov, audit fixes, dead-link repair, audit.json regenerated (agent running)
+- [ ] Distribution: docs/DISTRIBUTION.md plan by audience and channel, CITATION.cff, llms.txt refresh, press kit, launch copy, dataset release workflow, OpenAPI description (agent running)
+- [ ] TL;DR quality: every vague qualifier ("powerful", "important", "novel"...) replaced with the concrete fact, starting with the glossary (agent running)
+
 ## Owner decisions on 11 Sept
 - Ask OnCo is hidden from the top bar, command palette and mobile quick actions and its page is noindex; it stays reachable by direct link and behind the API, CLI and MCP `ask` tool until it answers better than a general AI assistant.
 - Heroes: ordinary people first. Celebrities (Jolie, Boseman, Radner, Goody, Betty Ford, Couric, Armstrong, Hoy, Jobs, Valvano, Ted Williams, Winchell, Lansing) keep their person pages but are tagged public-figure, not hero. Order: patients and families, pioneers, advocates and builders, donors last. Sid Sijbrandij (GitLab, osteosarcoma) added as the model of the people the section is for.

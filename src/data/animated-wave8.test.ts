@@ -14,9 +14,11 @@ import { schematicFor } from "./schematics";
 describe("wave 8 animated technology schematics", () => {
   const keys = Object.keys(WAVE8);
 
-  it("covers the remaining technologies, every key a real technology id not already in waves 3 to 7, all registered in ANIMATED", () => {
-    expect(keys.length).toBeGreaterThanOrEqual(10);
-    expect(keys.length % 10, "whole batches of ten").toBe(0);
+  it("covers the remaining 107 technologies, every key a real technology id not already in waves 3 to 7, all registered in ANIMATED, leaving no technology on a generic schematic", () => {
+    expect(keys.length).toBe(107);
+    const g0 = graph();
+    const generic = (g0.kind("technology") as unknown as Array<{ id: string; sections: string[] }>).filter((t) => !schematicFor(t.id, t.sections).specific).map((t) => t.id);
+    expect(generic, "technologies still on a generic front schematic").toEqual([]);
     for (const k of Object.keys(WAVE8B)) expect(k in WAVE8, `${k} from part two merged into WAVE8`).toBe(true);
     for (const k of Object.keys(WAVE8C)) expect(k in WAVE8, `${k} from part three merged into WAVE8`).toBe(true);
     for (const k of Object.keys(WAVE8B)) expect(k in WAVE8C, `${k} not duplicated across parts`).toBe(false);

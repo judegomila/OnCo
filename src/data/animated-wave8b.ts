@@ -6,8 +6,8 @@
  * traditional systems). Same conventions as ./animated-wave8.ts, which merges this registry into WAVE8; helpers are shared
  * in ./animated-wave8-kit.ts.
  */
-import { add, arrow, box, cone, cylinder, disc, dots, ellipsoid, helix, line, movePart, octahedron, polyline, ring, setAlpha, sphere, syringe, torus, type Mesh, type Part, type Vec3 } from "@/lib/wireframe";
-import { L, Q, TAU, axes, bar, beam, blob, building, capsule, cascade, cell, clamp, clockFace, cloud, cross, doc, figure, frame, grow, hand, hide, house, leaf, model, mote, moveTo, organ, protein, pulse, put, quad, scene, screen, show, slide, small, stageOf, tick, ticks, tube, vial } from "./animated-wave8-kit";
+import { arrow, box, cone, cylinder, disc, ellipsoid, helix, line, movePart, octahedron, polyline, ring, setAlpha, sphere, torus, type Mesh, type Part, type Vec3 } from "@/lib/wireframe";
+import { L, Q, TAU, axes, bar, beam, blob, building, capsule, cascade, cell, clamp, clockFace, cloud, cross, doc, figure, frame, grow, hide, leaf, model, mote, moveTo, organ, protein, pulse, put, quad, scene, screen, show, slide, small, stageOf, tick, ticks, tube, vial } from "./animated-wave8-kit";
 
 /** Part two of the wave 8 registry (function declarations hoist). */
 export const WAVE8B: Record<string, () => Mesh> = {
@@ -88,7 +88,7 @@ export function cbtFatigue(): Mesh {
 export function dnaOrigami(): Mesh {
   const sc = scene();
   const V: Vec3 = [0, -0.9, 0];
-  const vessel = put(sc, "vessel", tube(0.45, 5.0, "soft"), { at: V });
+  put(sc, "vessel", tube(0.45, 5.0, "soft"), { at: V });
   const wallMark = put(sc, "mark", mote(0.08, "hot"), { at: [0.6, V[1] + 0.42, 0.2] });
   const B0: Vec3 = [-2.3, 0.9, 0];
   const bodyP = put(sc, "body", box(0.7, 0.35, 0.35, "accent", true), { at: B0 });
@@ -217,7 +217,7 @@ export function pleurectomyDecortication(): Mesh {
 // ---------------------------------------------------------------- 46. fenbendazole, ivermectin and internet repurposing claims
 export function repurposingClaims(): Mesh {
   const sc = scene();
-  const phone = put(sc, "phone", quad(1.1, 1.9, "soft"), { at: [-2.2, 0.5, 0] });
+  put(sc, "phone", quad(1.1, 1.9, "soft"), { at: [-2.2, 0.5, 0] });
   const post: Part[] = []; for (let i = 0; i < 4; i++) post.push(put(sc, `post${i}`, doc(0.8, 0.3, 1, "accent"), { at: [-2.2, 1.1 - 0.45 * i, 0.03] }));
   const shares: Part[] = []; for (let i = 0; i < 5; i++) shares.push(put(sc, `sh${i}`, mote(0.06, "hot"), { at: [-2.2, 1.1, 0.1] }));
   const DISH: Vec3 = [0.4, 1.1, 0];
@@ -320,7 +320,7 @@ export function merlinCt(): Mesh {
   const sc = scene();
   const CT: Vec3 = [-2.1, 0.7, 0];
   const slices: Part[] = []; for (let i = 0; i < 5; i++) slices.push(put(sc, `sl${i}`, quad(1.3, 1.0, "soft"), { at: [CT[0] + 0.1 * i, CT[1] - 0.12 * i, -0.15 * i] }));
-  const body = put(sc, "body", ellipsoid(0.45, 0.32, 0.03, 4, 10, "soft"), { at: [CT[0], CT[1], 0.02] });
+  put(sc, "body", ellipsoid(0.45, 0.32, 0.03, 4, 10, "soft"), { at: [CT[0], CT[1], 0.02] });
   const lesion = put(sc, "lesion", blob(0.1, "hot"), { at: [CT[0] + 0.15, CT[1] + 0.05, 0.05] });
   const report = put(sc, "report", doc(0.9, 1.0, 5, "accent"), { at: [0.2, 1.6, 0] });
   const codes: Part[] = []; for (let i = 0; i < 4; i++) codes.push(put(sc, `cd${i}`, quad(0.22, 0.14, "accent"), { at: [-0.2 + 0.3 * i, 0.55, 0] }));
@@ -333,7 +333,6 @@ export function merlinCt(): Mesh {
   const single = put(sc, "single", building(0.6, 0.5), { at: [-0.9, -1.9, 0] });
   const singleQ = put(sc, "singleQ", ring(0.42, 12, "hot", "z"), { at: [-0.9, -1.9, 0.05] });
   sc.mesh.labels = [L([CT[0], CT[1] + 0.9, 0], "15,000 abdominal CT scans: 6M images"), L([0.2, 2.3, 0], "Radiology reports and 6M EHR codes"), L([2.45, 2.0, 0], "Zero-shot classification of hundreds of findings"), L([-1.4, -2.45, 0], "Single institution; abdomen only")];
-  const base = sc.mesh.points;
   return frame(sc, 13, (t, pts, alpha) => {
     hide(alpha, ...codes, linkI, linkR, ...findings, ...fLines, abdomen, single, singleQ);
     setAlpha(alpha, enc, 0.5); setAlpha(alpha, report, 0.4);
@@ -447,7 +446,7 @@ export function quantumDotImaging(): Mesh {
 // ---------------------------------------------------------------- 53. senolytics and senescence-directed therapy
 export function senescenceTargeting(): Mesh {
   const sc = scene();
-  const chemo = put(sc, "chemo", vial(0.16, 0.55, "hot"), { at: [-2.7, 1.5, 0] });
+  put(sc, "chemo", vial(0.16, 0.55, "hot"), { at: [-2.7, 1.5, 0] });
   const drops: Part[] = []; for (let i = 0; i < 3; i++) drops.push(put(sc, `dr${i}`, mote(0.05, "hot"), { at: [-2.7, 1.2, 0] }));
   const tumCells: Part[] = []; const TC: Vec3[] = [[-1.5, 0.6, 0], [-0.7, 0.9, 0], [-1.1, 0.0, 0]];
   TC.forEach((p, i) => tumCells.push(put(sc, `tc${i}`, blob(0.22, "hot"), { at: p })));
@@ -604,7 +603,6 @@ export function americanGinseng(): Mesh {
   const warf = put(sc, "warf", capsule(0.9, "hot"), { at: [-2.6, -1.4, 0] });
   const warfQ = put(sc, "warfQ", ring(0.3, 10, "hot", "z"), { at: [-2.6, -1.4, 0.1] });
   sc.mesh.labels = [L([-2.6, 2.3, 0], "Panax quinquefolius: pure ground Wisconsin root"), L([-0.7, 1.15, 0], "2,000 mg a day for eight weeks"), L([2.5, -2.2, 0], "364 patients (JNCI 2013): fatigue improved vs placebo, mainly during treatment"), L([-1.5, -2.05, 0], "Not Asian ginseng in hormone-sensitive cancers; caution with warfarin and imatinib")];
-  const base = sc.mesh.points;
   return frame(sc, 13, (t, pts, alpha) => {
     hide(alpha, weeks, chemo, fat0, fat1, pbo, after, afterX, asian, asianX, warf, warfQ);
     setAlpha(alpha, person, 0.5);
@@ -707,7 +705,6 @@ export function ctFm(): Mesh {
   const regQ = put(sc, "regQ", ring(0.4, 12, "hot", "z"), { at: [0.6, -1.7, 0.05] });
   const regDoc = put(sc, "regDoc", doc(0.5, 0.6, 3, "soft"), { at: [0.6, -1.7, 0] });
   sc.mesh.labels = [L([ST[0], ST[1] + 1.95, 0], "148,000 unlabelled CT volumes"), L([0.2, 1.2, 0], "3D self-supervised pretraining"), L([2.3, 2.05, 0], "Organ and tumour segmentation, triage, retrieval"), L([0, -2.3, 0], "Research release: no prospective evaluation or regulatory review")];
-  const base = sc.mesh.points;
   return frame(sc, 13, (t, pts, alpha) => {
     hide(alpha, ...mask, ...segs, flag, retr, retrH, research, regQ, regDoc);
     setAlpha(alpha, mod, 0.5);
@@ -730,7 +727,7 @@ export function curcuminTurmeric(): Mesh {
   const dish = put(sc, "dish", cylinder(0.6, 0.12, 12, 2, "soft", true, true), { at: DISH });
   const dCells: Part[] = []; for (let i = 0; i < 4; i++) dCells.push(put(sc, `dc${i}`, blob(0.12, "hot"), { at: [DISH[0] - 0.35 + 0.23 * i, DISH[1] + 0.1, 0.1 * (i % 2)] }));
   const targets: Part[] = []; for (let i = 0; i < 3; i++) targets.push(put(sc, `tg${i}`, cross([DISH[0] - 0.4 + 0.4 * i, DISH[1] + 0.55, 0.1], 0.08, "accent")));
-  const gut = put(sc, "gut", tube(0.3, 3.4, "soft"), { at: [-0.4, -0.6, 0] });
+  put(sc, "gut", tube(0.3, 3.4, "soft"), { at: [-0.4, -0.6, 0] });
   const inGut: Part[] = []; for (let i = 0; i < 6; i++) inGut.push(put(sc, `ig${i}`, mote(0.05, "accent"), { at: [-1.9, -0.6, 0.15] }));
   const blood = put(sc, "blood", tube(0.15, 3.4, "hot"), { at: [-0.4, -1.5, 0] });
   const one = put(sc, "one", mote(0.05, "accent"), { at: [-1.4, -0.9, 0.2] });
@@ -761,7 +758,7 @@ export function engineeredBacteria(): Mesh {
   const TUM: Vec3 = [0.6, 0.2, 0];
   const tum = put(sc, "tum", blob(1.25, "hot"), { at: TUM });
   const core = put(sc, "core", sphere(0.55, 4, 8, "soft", true), { at: [TUM[0], TUM[1], 0.2] });
-  const vessel = put(sc, "vessel", tube(0.16, 3.0, "soft"), { at: [-1.8, 1.4, 0] });
+  put(sc, "vessel", tube(0.16, 3.0, "soft"), { at: [-1.8, 1.4, 0] });
   const drug: Part[] = []; for (let i = 0; i < 4; i++) drug.push(put(sc, `dg${i}`, mote(0.05, "accent"), { at: [-3.2, 1.4, 0.1] }));
   const bugs: Part[] = []; for (let i = 0; i < 6; i++) bugs.push(put(sc, `bug${i}`, ellipsoid(0.14, 0.07, 0.07, 3, 6, "accent", true), { at: [-3.2, 1.4, 0.15], rotZ: 0.4 * i }));
   const bugTo = (i: number): Vec3 => [TUM[0] - 0.3 + 0.2 * (i % 3) + 0.1 * Math.floor(i / 3), TUM[1] - 0.2 + 0.3 * Math.floor(i / 3), 0.35];
@@ -862,7 +859,7 @@ export function medicinalMushrooms(): Mesh {
   const caps: Part[] = []; MP.forEach((p, i) => { caps.push(put(sc, `cap${i}`, disc(0.32 + 0.06 * i, 10, "accent", "y"), { at: [p[0], p[1] + 0.3, 0] })); put(sc, `stem${i}`, cylinder(0.07, 0.5, 6, 2, "accent", false, true), { at: [p[0], p[1] + 0.05, 0] }); });
   const glucans: Part[] = []; for (let i = 0; i < 5; i++) glucans.push(put(sc, `gl${i}`, mote(0.05, "accent"), { at: [-1.8, 1.2, 0.2] }));
   const DISH: Vec3 = [0.8, 1.1, 0];
-  const dish = put(sc, "dish", cylinder(0.6, 0.12, 12, 2, "soft", true, true), { at: DISH });
+  put(sc, "dish", cylinder(0.6, 0.12, 12, 2, "soft", true, true), { at: DISH });
   const nk: Part[] = []; for (let i = 0; i < 3; i++) nk.push(put(sc, `nk${i}`, blob(0.14, "soft"), { at: [DISH[0] - 0.3 + 0.3 * i, DISH[1] + 0.1, 0.1] }));
   const act: Part[] = []; for (let i = 0; i < 3; i++) act.push(put(sc, `ac${i}`, ring(0.22, 8, "accent", "z"), { at: [DISH[0] - 0.3 + 0.3 * i, DISH[1] + 0.1, 0.15] }));
   const cyt = put(sc, "cyt", bar(2.4, 0.9, 0.22, "accent"), { at: [0, 0.6, 0] });
@@ -1362,7 +1359,6 @@ export function homeopathy(): Mesh {
   const chemoOk = put(sc, "chemoOk", tick([2.4, -0.6, 0.05], 0.18));
   const swap = put(sc, "swap", cross([2.4, -1.2, 0.15], 0.25, "soft"));
   sc.mesh.labels = [L([-0.2, 1.8, 0], "Serial dilution until no molecule of the starting substance remains"), L([-1.8, -1.85, 0], "Cochrane 2009, 8 trials: no convincing benefit for radiodermatitis, stomatitis or chemotherapy toxicity"), L([1.0, -1.8, 0], "NHS England stopped funding in 2017"), L([2.4, -1.85, 0], "Inert; the risk is replacing real treatment")];
-  const base = sc.mesh.points;
   return frame(sc, 13, (t, pts, alpha) => {
     hide(alpha, zero, cochrane, ...eight, cochX, nhs, nhsX, chemo, chemoOk, swap);
     const s = stageOf(t);

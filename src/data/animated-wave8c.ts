@@ -6,7 +6,7 @@
  * Nicheformer; BioEmu, MedSAM, RadFM, Foresight and Tempus). Same conventions as ./animated-wave8.ts, which merges this
  * registry into WAVE8; helpers are shared in ./animated-wave8-kit.ts.
  */
-import { add, arrow, box, cone, cylinder, disc, ellipsoid, helix, line, movePart, octahedron, polyline, ring, setAlpha, sphere, type Mesh, type Part, type Vec3 } from "@/lib/wireframe";
+import { arrow, box, cone, cylinder, disc, ellipsoid, helix, line, movePart, octahedron, polyline, ring, setAlpha, sphere, type Mesh, type Part, type Vec3 } from "@/lib/wireframe";
 import { L, Q, TAU, axes, bar, beam, blob, building, capsule, cascade, cell, clamp, clockFace, cloud, cross, doc, figure, frame, grow, hand, hide, model, mote, moveTo, organ, protein, pulse, put, quad, scene, screen, show, slide, stageOf, tick, ticks, tube, vial } from "./animated-wave8-kit";
 
 /** Part three of the wave 8 registry (function declarations hoist). */
@@ -31,6 +31,13 @@ export const WAVE8C: Record<string, () => Mesh> = {
   "phikon": phikon,
   "pluto": pluto,
   "radfm": radfm,
+  "transcriptformer": transcriptformer,
+  "alphagenome": alphagenome,
+  "enformer-borzoi": enformerBorzoi,
+  "genept": genept,
+  "cellfm": cellfm,
+  "nucleotide-transformer": nucleotideTransformer,
+  "scfoundation": scfoundation,
 };
 
 // ---------------------------------------------------------------- 81. relaxation training and guided imagery
@@ -39,8 +46,8 @@ export function relaxationImagery(): Mesh {
   const P: Vec3 = [-1.8, 0.0, 0];
   const chair = put(sc, "chair", box(1.1, 0.15, 0.8, "soft", true), { at: [P[0], P[1] - 0.95, 0] });
   const back = put(sc, "back", box(0.15, 1.6, 0.8, "soft", true), { at: [P[0] - 0.55, P[1] - 0.1, 0] });
-  const person = put(sc, "person", figure("soft"), { at: P, scale: 1.0 });
-  const pole = put(sc, "pole", line([P[0] + 1.0, P[1] - 0.9, 0], [P[0] + 1.0, P[1] + 1.3, 0], "soft"));
+  put(sc, "person", figure("soft"), { at: P, scale: 1.0 });
+  put(sc, "pole", line([P[0] + 1.0, P[1] - 0.9, 0], [P[0] + 1.0, P[1] + 1.3, 0], "soft"));
   const bag = put(sc, "bag", vial(0.14, 0.45, "hot"), { at: [P[0] + 1.0, P[1] + 1.1, 0] });
   const tense: Part[] = []; for (let i = 0; i < 4; i++) tense.push(put(sc, `tn${i}`, mote(0.06, "hot"), { at: [P[0] - 0.3 + 0.2 * i, P[1] + 0.4 - 0.2 * (i % 2), 0.2] }));
   const breath: Part[] = []; for (let i = 0; i < 3; i++) breath.push(put(sc, `br${i}`, ring(0.35 + 0.25 * i, 12, "accent", "z"), { at: [P[0], P[1] + 0.35, 0.2] }));
@@ -113,7 +120,7 @@ export function aromatherapy(): Mesh {
   const scent: Part[] = []; for (let i = 0; i < 4; i++) scent.push(put(sc, `sc${i}`, ring(0.1, 6, "accent", "y"), { at: [-1.5, 0.1, 0] }));
   const HEAD: Vec3 = [0.6, 0.7, 0];
   const head = put(sc, "head", organ(0.6, 0.72, 0.55), { at: HEAD });
-  const nose = put(sc, "nose", polyline([[HEAD[0] - 0.6, HEAD[1] - 0.1, 0], [HEAD[0] - 0.75, HEAD[1] - 0.3, 0], [HEAD[0] - 0.55, HEAD[1] - 0.32, 0]], "soft"));
+  put(sc, "nose", polyline([[HEAD[0] - 0.6, HEAD[1] - 0.1, 0], [HEAD[0] - 0.75, HEAD[1] - 0.3, 0], [HEAD[0] - 0.55, HEAD[1] - 0.32, 0]], "soft"));
   const limbic = put(sc, "limbic", blob(0.16, "accent"), { at: [HEAD[0] + 0.05, HEAD[1] + 0.05, 0.3] });
   const massage = put(sc, "massage", hand("accent"), { at: [2.3, 1.0, 0], scale: 0.7, rotX: -Math.PI / 2 });
   const bodyP = put(sc, "body", organ(0.9, 0.3, 0.35, "soft"), { at: [2.3, 0.4, 0] });
@@ -290,8 +297,8 @@ export function medsam(): Mesh {
   const sc = scene();
   const SCAN: Vec3 = [-1.4, 0.4, 0];
   const scan = put(sc, "scan", quad(2.4, 1.9, "soft"), { at: SCAN });
-  const bodyP = put(sc, "body", ellipsoid(0.9, 0.65, 0.03, 4, 12, "soft"), { at: [SCAN[0], SCAN[1], 0.02] });
-  const organP = put(sc, "organ", ellipsoid(0.4, 0.28, 0.03, 3, 10, "soft"), { at: [SCAN[0] - 0.35, SCAN[1] + 0.1, 0.03] });
+  put(sc, "body", ellipsoid(0.9, 0.65, 0.03, 4, 12, "soft"), { at: [SCAN[0], SCAN[1], 0.02] });
+  put(sc, "organ", ellipsoid(0.4, 0.28, 0.03, 3, 10, "soft"), { at: [SCAN[0] - 0.35, SCAN[1] + 0.1, 0.03] });
   const lesion = put(sc, "lesion", blob(0.2, "hot"), { at: [SCAN[0] + 0.3, SCAN[1] - 0.1, 0.05] });
   const cursor = put(sc, "cursor", polyline([[0, 0, 0], [0, -0.3, 0], [0.08, -0.22, 0], [0.2, -0.32, 0], [0.12, -0.16, 0], [0.22, -0.14, 0]], "accent", true), { at: [1.0, 1.6, 0.1] });
   const click = put(sc, "click", ring(0.12, 8, "accent", "z"), { at: [SCAN[0] + 0.3, SCAN[1] - 0.1, 0.1] });
@@ -702,5 +709,226 @@ export function radfm(): Mesh {
     const u = Q(t, 3); vol.forEach((v) => setAlpha(alpha, v, 1)); [ct, mri, xr].forEach((p, i) => movePart(pts, base, p, [1.0, (0.3 - [1.3, 0.3, -0.7][i]) * 0.5, 0.2], 0.7)); setAlpha(alpha, enc, 1); setAlpha(alpha, question, 1); moveTo(pts, base, question, [0.9, 1.6, 0], [0.9, 1.0, 0.3], 1, 0.7); setAlpha(alpha, llm, 1); setAlpha(alpha, answer, 1);
     grow(alpha, gen, clamp(u * 2)); grow(alpha, spec, clamp(u * 2 - 0.4)); setAlpha(alpha, research, clamp(u * 2 - 0.7)); setAlpha(alpha, oncoQ, clamp(u * 2 - 1) * (0.5 + 0.5 * pulse(t, 4)));
     return { caption: "4 · Its accuracy is below specialist models on individual tasks, the central trade-off of generalist medical models, and oncology-specific evaluation is limited; it is broad but not yet as good as dedicated tools" };
+  });
+}
+
+// ---------------------------------------------------------------- 101. TranscriptFormer and rBio (CZI)
+export function transcriptformer(): Mesh {
+  const sc = scene();
+  const species: Part[] = []; for (let i = 0; i < 4; i++) species.push(put(sc, `sp${i}`, ellipsoid(0.3 - 0.04 * i, 0.16, 0.14, 3, 8, "soft", true), { at: [-2.6, 1.5 - 0.7 * i, 0] }));
+  const cells: Part[] = []; for (let i = 0; i < 8; i++) cells.push(put(sc, `c${i}`, mote(0.07, ["accent", "hot", "soft", "accent"][i % 4]), { at: [-1.9, 1.5 - 0.7 * (i % 4) + 0.15 * Math.floor(i / 4), 0] }));
+  const tf = put(sc, "tf", model(1.3, 1.0, "accent"), { at: [-0.5, 0.3, 0] });
+  const AX: Vec3 = [0.6, -0.5, 0];
+  const map = put(sc, "map", axes(AX, 1.5, 1.6));
+  const mapTo = (i: number): Vec3 => [AX[0] + 0.4 + 0.3 * (i % 4) + 0.1 * Math.floor(i / 4), AX[1] + 0.5 + 0.25 * (i % 3) + 0.15 * Math.floor(i / 4), 0];
+  const teacher = put(sc, "teacher", arrow([0.1, 0.3, 0], [1.6, 1.2, 0], "soft", 0.12));
+  const rbio = put(sc, "rbio", model(1.1, 0.8, "hot"), { at: [2.3, 1.2, 0] });
+  const chat = put(sc, "chat", doc(0.8, 0.5, 2, "accent"), { at: [2.3, 0.1, 0] });
+  const koQ = put(sc, "koQ", cross([1.7, 0.2, 0.05], 0.12, "hot"));
+  const openLock = put(sc, "openLock", box(0.4, 0.3, 0.2, "accent", true), { at: [-2.3, -1.7, 0] });
+  const openArc = put(sc, "openArc", polyline([[-2.45, -1.55, 0], [-2.45, -1.3, 0], [-2.15, -1.3, 0], [-2.15, -1.55, 0]], "accent"), { at: [0.12, 0.05, 0], rotZ: 0.4 });
+  const early = put(sc, "early", ticks(-1.4, 0.2, -1.7, 4, "soft"));
+  const earlyMark = put(sc, "earlyMark", mote(0.07, "hot"), { at: [-1.4, -1.7, 0.05] });
+  const evalQ = put(sc, "evalQ", ring(0.4, 12, "hot", "z"), { at: [2.3, -1.7, 0.05] });
+  const evalDoc = put(sc, "evalDoc", doc(0.5, 0.6, 3, "soft"), { at: [2.3, -1.7, 0] });
+  sc.mesh.labels = [L([-2.2, 2.1, 0], "112M cells across 12 species"), L([-0.5, 1.05, 0], "TranscriptFormer: generative transformer over cells"), L([2.3, 1.85, 0], "rBio: a language model taught by the virtual cell model"), L([0.4, -2.2, 0], "Open on the CZI Virtual Cells Platform; early (2025); independent evaluation pending")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, map, teacher, rbio, chat, koQ, openLock, openArc, early, earlyMark, evalQ, evalDoc);
+    setAlpha(alpha, tf, 0.5);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); cascade(alpha, species, clamp(u * 1.5)); cascade(alpha, cells, clamp(u * 1.5 - 0.2)); return { caption: "1 · Single cells from 12 species, 112M in all, each a different organism's version of the same cell types" }; }
+    if (s === 1) { const u = Q(t, 1); species.forEach((p) => setAlpha(alpha, p, 1)); cells.forEach((c, i) => { setAlpha(alpha, c, 1); moveTo(pts, base, c, [-1.9, 1.5 - 0.7 * (i % 4) + 0.15 * Math.floor(i / 4), 0], mapTo(i), clamp(u * 1.5 - 0.08 * i)); }); setAlpha(alpha, tf, 0.5 + 0.5 * u * pulse(t, 5)); setAlpha(alpha, map, clamp(u * 2 - 0.5)); return { caption: "2 · TranscriptFormer, the Chan Zuckerberg Initiative's open generative transformer over cells, learns to compare cell states across organisms" }; }
+    if (s === 2) { const u = Q(t, 2); cells.forEach((c, i) => { setAlpha(alpha, c, 1); moveTo(pts, base, c, [-1.9, 1.5 - 0.7 * (i % 4) + 0.15 * Math.floor(i / 4), 0], mapTo(i), 1); }); setAlpha(alpha, tf, 1); setAlpha(alpha, map, 1); setAlpha(alpha, teacher, clamp(u * 2) * 0.7); setAlpha(alpha, rbio, clamp(u * 2 - 0.3) * (0.6 + 0.4 * pulse(t, 5))); setAlpha(alpha, chat, clamp(u * 2 - 0.8)); setAlpha(alpha, koQ, clamp(u * 2 - 1)); return { caption: "3 · Its companion rBio uses the outputs of virtual cell models as a teacher to train a language model, distilling a simulator into a chatbot that reasons about gene perturbations in plain language" }; }
+    const u = Q(t, 3); cells.forEach((c, i) => { setAlpha(alpha, c, 1); moveTo(pts, base, c, [-1.9, 1.5 - 0.7 * (i % 4) + 0.15 * Math.floor(i / 4), 0], mapTo(i), 1); }); setAlpha(alpha, tf, 1); setAlpha(alpha, map, 1); setAlpha(alpha, teacher, 0.7); setAlpha(alpha, rbio, 1); setAlpha(alpha, chat, 1); setAlpha(alpha, koQ, 1);
+    show(alpha, clamp(u * 2), openLock, openArc); grow(alpha, early, clamp(u * 2 - 0.3)); setAlpha(alpha, earlyMark, clamp(u * 2 - 0.5)); setAlpha(alpha, evalDoc, clamp(u * 2 - 0.7)); setAlpha(alpha, evalQ, clamp(u * 2 - 1) * (0.5 + 0.5 * pulse(t, 4)));
+    return { caption: "4 · Both are released through the CZI Virtual Cells Platform for biologists who want open, cross-species tools; the work is early, published in 2025, and independent evaluation of how well rBio's reasoning tracks experiment is still to come" };
+  });
+}
+
+// ---------------------------------------------------------------- 102. AlphaGenome
+export function alphagenome(): Mesh {
+  const sc = scene();
+  const strand = put(sc, "strand", helix(0.11, 5.6, 14, 84, "soft"), { at: [0, 1.4, 0], rotZ: Math.PI / 2 });
+  const ctx = put(sc, "ctx", polyline([[-2.8, 1.85, 0], [-2.8, 2.05, 0], [2.8, 2.05, 0], [2.8, 1.85, 0]], "accent"));
+  const gene = put(sc, "gene", quad(1.0, 0.3, "accent"), { at: [1.6, 1.4, 0.05] });
+  const enhancer = put(sc, "enhancer", quad(0.4, 0.3, "hot"), { at: [-1.8, 1.4, 0.05] });
+  const variant = put(sc, "variant", mote(0.09, "hot"), { at: [-1.8, 1.4, 0.2] });
+  const loop = put(sc, "loop", polyline([[-1.8, 1.6, 0.1], [-1.2, 2.3, 0.1], [0.4, 2.4, 0.1], [1.6, 1.6, 0.1]], "soft"));
+  const mod = put(sc, "model", model(1.6, 0.9, "accent"), { at: [0, 0.0, 0] });
+  const tracks: Part[] = []; const TY = [-1.0, -1.5, -2.0];
+  TY.forEach((y, k) => { const pts: Vec3[] = []; for (let i = 0; i < 9; i++) pts.push([-2.6 + 0.65 * i, y + 0.18 * Math.abs(Math.sin(i * 1.3 + k)), 0]); tracks.push(put(sc, `tr${k}`, polyline(pts, ["accent", "hot", "soft"][k]))); });
+  const refOnly = put(sc, "refOnly", line([-2.6, -1.0, 0.02], [2.6, -1.0, 0.02], "soft"));
+  const mutTrack = put(sc, "mut", polyline([[-2.6, -1.0, 0.03], [-1.3, -1.0, 0.03], [-0.65, -0.95, 0.03], [0, -0.85, 0.03], [0.65, -0.9, 0.03], [1.3, -0.95, 0.03], [1.95, -0.8, 0.03], [2.6, -1.0, 0.03]], "hot"));
+  const api = put(sc, "api", screen(0.7, 0.45, "soft"), { at: [2.6, -0.2, 0] });
+  const paper = put(sc, "paper", doc(0.45, 0.55, 3, "soft"), { at: [2.6, 0.7, 0] });
+  const valQ = put(sc, "valQ", ring(0.35, 10, "hot", "z"), { at: [-2.6, -0.2, 0.05] });
+  sc.mesh.labels = [L([0, 2.45, 0], "Up to a million bases at once; a variant in an enhancer far from its gene"), L([0, 0.65, 0], "Long-context model with multi-task regulatory heads"), L([0, -2.4, 0], "Expression, splicing, chromatin accessibility at single-base resolution"), L([2.6, 1.2, 0], "Preview API June 2025; Nature January 2026; research use")];
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, variant, loop, ...tracks, refOnly, mutTrack, api, paper, valQ);
+    setAlpha(alpha, mod, 0.5);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); grow(alpha, strand, clamp(u * 1.3)); grow(alpha, ctx, clamp(u * 2 - 0.6)); setAlpha(alpha, gene, clamp(u * 2 - 0.8)); setAlpha(alpha, enhancer, clamp(u * 2 - 1)); return { caption: "1 · Most cancer mutations fall outside genes; a change in an enhancer hundreds of thousands of bases away can still alter how a gene behaves" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, strand, 1); setAlpha(alpha, ctx, 1); setAlpha(alpha, gene, 1); setAlpha(alpha, enhancer, 1); setAlpha(alpha, variant, clamp(u * 2) * (0.6 + 0.4 * pulse(t, 4))); grow(alpha, loop, clamp(u * 2 - 0.4)); setAlpha(alpha, mod, 0.5 + 0.5 * clamp(u * 2 - 0.8) * pulse(t, 5)); return { caption: "2 · AlphaGenome (Google DeepMind) reads up to a million bases of DNA at once, so enhancer, promoter and splice site are all in view for a single prediction" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, strand, 1); setAlpha(alpha, ctx, 1); setAlpha(alpha, gene, 1); setAlpha(alpha, enhancer, 1); setAlpha(alpha, variant, 1); setAlpha(alpha, loop, 1); setAlpha(alpha, mod, 1); tracks.forEach((tr, k) => grow(alpha, tr, clamp(u * 1.6 - 0.2 * k))); setAlpha(alpha, refOnly, clamp(u * 2 - 0.5) * 0.5); grow(alpha, mutTrack, clamp(u * 2 - 1)); return { caption: "3 · Multi-task regulatory heads predict, at single-base resolution, how the variant changes gene expression, splicing, chromatin accessibility and other signals in one model, replacing tasks that needed separate models" }; }
+    const u = Q(t, 3); setAlpha(alpha, strand, 1); setAlpha(alpha, ctx, 1); setAlpha(alpha, gene, 1); setAlpha(alpha, enhancer, 1); setAlpha(alpha, variant, 1); setAlpha(alpha, loop, 1); setAlpha(alpha, mod, 1); tracks.forEach((tr) => setAlpha(alpha, tr, 1)); setAlpha(alpha, refOnly, 0.5); setAlpha(alpha, mutTrack, 1);
+    setAlpha(alpha, api, clamp(u * 2)); setAlpha(alpha, paper, clamp(u * 2 - 0.4)); setAlpha(alpha, valQ, clamp(u * 2 - 0.8) * (0.5 + 0.5 * pulse(t, 4)));
+    return { caption: "4 · It launched as a preview API in June 2025 with the Nature paper in January 2026; it is for research use, cancer-specific validation is ongoing, and its predictions are hypotheses to test rather than clinical evidence" };
+  });
+}
+
+// ---------------------------------------------------------------- 103. Enformer and Borzoi
+export function enformerBorzoi(): Mesh {
+  const sc = scene();
+  const strand = put(sc, "strand", helix(0.11, 5.4, 13, 80, "soft"), { at: [0, 1.5, 0], rotZ: Math.PI / 2 });
+  const win200 = put(sc, "win200", polyline([[-1.1, 1.9, 0], [-1.1, 2.1, 0], [1.1, 2.1, 0], [1.1, 1.9, 0]], "accent"));
+  const win500 = put(sc, "win500", polyline([[-2.7, 2.2, 0], [-2.7, 2.4, 0], [2.7, 2.4, 0], [2.7, 2.2, 0]], "hot"));
+  const convs: Part[] = []; for (let i = 0; i < 5; i++) convs.push(put(sc, `cv${i}`, box(0.35, 0.25, 0.25, "soft", true), { at: [-1.6 + 0.8 * i, 0.7, 0] }));
+  const trans = put(sc, "trans", model(1.6, 0.8, "accent"), { at: [0, -0.2, 0] });
+  const variant = put(sc, "variant", mote(0.09, "hot"), { at: [-0.9, 1.5, 0.2] });
+  const AX: Vec3 = [-2.6, -2.2, 0];
+  const ax = put(sc, "ax", axes(AX, 5.2, 1.3));
+  const ref = put(sc, "ref", polyline([[AX[0] + 0.1, AX[1] + 0.3, 0], [AX[0] + 1.0, AX[1] + 0.4, 0], [AX[0] + 1.9, AX[1] + 1.0, 0], [AX[0] + 2.6, AX[1] + 0.4, 0], [AX[0] + 3.5, AX[1] + 0.35, 0], [AX[0] + 4.4, AX[1] + 0.8, 0], [AX[0] + 5.0, AX[1] + 0.3, 0]], "soft"));
+  const mut = put(sc, "mut", polyline([[AX[0] + 0.1, AX[1] + 0.3, 0.02], [AX[0] + 1.0, AX[1] + 0.4, 0.02], [AX[0] + 1.9, AX[1] + 0.45, 0.02], [AX[0] + 2.6, AX[1] + 0.35, 0.02], [AX[0] + 3.5, AX[1] + 0.35, 0.02], [AX[0] + 4.4, AX[1] + 0.8, 0.02], [AX[0] + 5.0, AX[1] + 0.3, 0.02]], "hot"));
+  const diff = put(sc, "diff", ring(0.3, 10, "hot", "z"), { at: [AX[0] + 1.9, AX[1] + 0.7, 0.05] });
+  const cellTypes: Part[] = []; for (let i = 0; i < 4; i++) cellTypes.push(put(sc, `ct${i}`, blob(0.14, i === 3 ? "hot" : "accent"), { at: [1.4 + 0.4 * i, -1.0, 0] }));
+  const missing = put(sc, "missing", cross([2.6, -1.0, 0.15], 0.14));
+  sc.mesh.labels = [L([0, 2.75, 0], "Enformer: 200 kb (Nature Methods 2021); Borzoi: 500 kb (Nature Genetics 2025)"), L([0, 0.35, 0], "Convolution then transformer over the long window"), L([AX[0] + 2.6, AX[1] - 0.35, 0], "Reference versus mutant: predicted expression, chromatin, RNA-seq coverage, splicing"), L([2.0, -1.45, 0], "Cell types never profiled cannot be predicted")];
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, win500, variant, ax, ref, mut, diff, ...cellTypes, missing);
+    setAlpha(alpha, trans, 0.5);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); grow(alpha, strand, clamp(u * 1.3)); grow(alpha, win200, clamp(u * 2 - 0.5)); grow(alpha, win500, clamp(u * 2 - 0.9)); return { caption: "1 · Enformer (DeepMind, Nature Methods 2021) reads 200 kb of DNA sequence; Borzoi (Calico, Nature Genetics 2025) extends the window to 500 kb" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, strand, 1); setAlpha(alpha, win200, 1); setAlpha(alpha, win500, 1); cascade(alpha, convs, clamp(u * 1.5)); setAlpha(alpha, trans, 0.5 + 0.5 * clamp(u * 2 - 0.6) * pulse(t, 5)); return { caption: "2 · Convolutional layers summarise local sequence motifs and a transformer relates them across the long window, predicting gene expression and chromatin signals (Enformer) or RNA-seq coverage and splicing (Borzoi)" }; }
+    if (s === 2) { const u = Q(t, 2); convs.forEach((c) => setAlpha(alpha, c, 1)); setAlpha(alpha, trans, 1); setAlpha(alpha, variant, clamp(u * 2) * (0.6 + 0.4 * pulse(t, 4))); setAlpha(alpha, ax, clamp(u * 2 - 0.3)); grow(alpha, ref, clamp(u * 2 - 0.5)); grow(alpha, mut, clamp(u * 2 - 0.9)); setAlpha(alpha, diff, clamp(u * 2 - 1.3) * 0.7); return { caption: "3 · To interpret a non-coding variant, a candidate cancer driver in a promoter or enhancer, the model is run on reference and mutant sequence and the predicted tracks are compared" }; }
+    const u = Q(t, 3); convs.forEach((c) => setAlpha(alpha, c, 1)); setAlpha(alpha, trans, 1); setAlpha(alpha, variant, 1); setAlpha(alpha, ax, 1); setAlpha(alpha, ref, 1); setAlpha(alpha, mut, 1); setAlpha(alpha, diff, 0.7);
+    cascade(alpha, cellTypes, clamp(u * 1.5)); setAlpha(alpha, missing, clamp(u * 2 - 0.8) * (0.5 + 0.5 * pulse(t, 4)));
+    return { caption: "4 · Cell-type coverage is bounded by the assays in the training data, so effects in tissues or tumour states that were never profiled cannot be predicted reliably" };
+  });
+}
+
+// ---------------------------------------------------------------- 104. GenePT
+export function genept(): Mesh {
+  const sc = scene();
+  const descs: Part[] = []; for (let i = 0; i < 3; i++) descs.push(put(sc, `d${i}`, doc(0.9, 0.55, 3, "soft"), { at: [-2.4, 1.4 - 0.75 * i, 0] }));
+  const llm = put(sc, "llm", model(1.1, 0.9, "accent"), { at: [-0.7, 0.65, 0] });
+  const gvecs: Part[] = []; for (let i = 0; i < 3; i++) gvecs.push(put(sc, `gv${i}`, mote(0.08, ["accent", "hot", "soft"][i]), { at: [0.5, 1.4 - 0.75 * i, 0] }));
+  const weights: Part[] = []; [0.9, 0.4, 0.6].forEach((h, i) => weights.push(put(sc, `w${i}`, bar(1.1, h, 0.15, ["accent", "hot", "soft"][i]), { at: [0, 1.15 - 0.75 * i, 0] })));
+  const cellVec = put(sc, "cellVec", blob(0.28, "accent"), { at: [2.2, 0.65, 0] });
+  const AX: Vec3 = [-2.7, -2.3, 0];
+  const bench = put(sc, "bench", axes(AX, 3.2, 1.4));
+  const bGene = put(sc, "bGene", bar(AX[0] + 0.6, 1.05, 0.3, "accent"), { at: [0, AX[1], 0] });
+  const bSpec: Part[] = []; for (let i = 0; i < 3; i++) bSpec.push(put(sc, `bs${i}`, bar(AX[0] + 1.3 + 0.6 * i, 1.1 - 0.05 * i, 0.3, "soft"), { at: [0, AX[1], 0] }));
+  const cheap = put(sc, "cheap", disc(0.15, 8, "accent", "z"), { at: [1.4, -1.6, 0] });
+  const interp = put(sc, "interp", line([1.9, -1.6, 0], [2.6, -1.6, 0], "soft"));
+  const interpDoc = put(sc, "interpDoc", doc(0.35, 0.4, 2, "soft"), { at: [2.85, -1.6, 0] });
+  const pert = put(sc, "pert", capsule(1.0, "soft"), { at: [2.0, -2.3, 0] });
+  const pertX = put(sc, "pertX", cross([2.0, -2.3, 0.12], 0.2));
+  sc.mesh.labels = [L([-2.4, 2.0, 0], "Written gene descriptions"), L([-0.7, 1.4, 0], "General LLM (GPT-3.5) text embedding per gene"), L([2.2, 1.3, 0], "Cell = embeddings weighted by expression"), L([-1.1, -2.65, 0], "Rivals specialised single-cell models (2023); cheap, interpretable; no perturbation modelling")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ...gvecs, ...weights, cellVec, bench, bGene, ...bSpec, cheap, interp, interpDoc, pert, pertX);
+    setAlpha(alpha, llm, 0.5);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); cascade(alpha, descs, clamp(u * 1.5)); return { caption: "1 · A great deal is already written about every gene; GenePT (Stanford) starts from those text descriptions rather than from expression data" }; }
+    if (s === 1) { const u = Q(t, 1); descs.forEach((d) => setAlpha(alpha, d, 1)); setAlpha(alpha, llm, 0.5 + 0.5 * u * pulse(t, 5)); gvecs.forEach((g, i) => { setAlpha(alpha, g, clamp(u * 2 - 0.3 * i)); moveTo(pts, base, g, [-0.7, 0.65, 0.3], [0.5, 1.4 - 0.75 * i, 0], clamp(u * 2 - 0.3 * i)); }); return { caption: "2 · A general large language model turns each gene's summary into a text embedding, so every gene becomes a vector without any biology-specific training" }; }
+    if (s === 2) { const u = Q(t, 2); setAlpha(alpha, llm, 1); gvecs.forEach((g, i) => { setAlpha(alpha, g, 1); moveTo(pts, base, g, [-0.7, 0.65, 0.3], [0.5, 1.4 - 0.75 * i, 0], 1); }); weights.forEach((w, i) => grow(alpha, w, clamp(u * 2 - 0.2 * i))); gvecs.forEach((g, i) => moveTo(pts, base, g, [0.5, 1.4 - 0.75 * i, 0], [2.2, 0.65, 0.1], clamp(u * 2 - 0.8 - 0.1 * i))); setAlpha(alpha, cellVec, clamp(u * 2 - 1) * 0.8); return { caption: "3 · A cell is represented by aggregating its gene embeddings weighted by expression; the 2023 preprint found this rivals specialised single-cell foundation models on many tasks, raising the question of what single-cell pretraining really adds" }; }
+    const u = Q(t, 3); setAlpha(alpha, llm, 1); gvecs.forEach((g, i) => { setAlpha(alpha, g, 1); moveTo(pts, base, g, [0.5, 1.4 - 0.75 * i, 0], [2.2, 0.65, 0.1], 1); }); weights.forEach((w) => setAlpha(alpha, w, 1)); setAlpha(alpha, cellVec, 0.8);
+    setAlpha(alpha, bench, clamp(u * 2)); grow(alpha, bGene, clamp(u * 2 - 0.2)); bSpec.forEach((b, i) => grow(alpha, b, clamp(u * 2 - 0.4 - 0.15 * i))); setAlpha(alpha, cheap, clamp(u * 2 - 0.7)); setAlpha(alpha, interp, clamp(u * 2 - 0.8)); setAlpha(alpha, interpDoc, clamp(u * 2 - 0.8)); setAlpha(alpha, pert, clamp(u * 2 - 1)); setAlpha(alpha, pertX, clamp(u * 2 - 1.2) * (0.5 + 0.5 * pulse(t, 4)));
+    return { caption: "4 · It is cheap to compute and interpretable, since each dimension traces back to text, and serves as a strong baseline in benchmarks; it does not model perturbations, so it cannot predict how a cell responds to a drug or knockout" };
+  });
+}
+
+// ---------------------------------------------------------------- 105. CellFM
+export function cellfm(): Mesh {
+  const sc = scene();
+  const cells = put(sc, "cells", cloud(16, 0.9, "accent", 5), { at: [-2.0, 0.9, 0] });
+  const cellRing = put(sc, "cellRing", ring(1.05, 16, "soft", "z"), { at: [-2.0, 0.9, 0.02] });
+  const tokens: Part[] = []; for (let i = 0; i < 6; i++) tokens.push(put(sc, `tk${i}`, quad(0.18, 0.18, "accent"), { at: [-2.4 + 0.18 * i, -0.4, 0] }));
+  const mod = put(sc, "model", model(1.9, 1.5, "accent"), { at: [0.5, 0.5, 0] });
+  const attn: Part[] = []; for (let i = 0; i < 4; i++) attn.push(put(sc, `at${i}`, line([-0.3 + 0.5 * i, 0.9, 0.25], [-0.05 + 0.5 * i, 0.1, 0.25], "hot")));
+  const paramBar = put(sc, "paramBar", bar(2.4, 1.6, 0.3, "accent"), { at: [0, -0.6, 0] });
+  const peerBars: Part[] = []; [0.6, 0.9].forEach((h, i) => peerBars.push(put(sc, `pb${i}`, bar(1.7 + 0.35 * i, h, 0.22, "soft"), { at: [0, -0.6, 0] })));
+  const annot = put(sc, "annot", box(0.6, 0.3, 0.25, "accent", true), { at: [-2.2, -1.6, 0] });
+  const pert = put(sc, "pert", box(0.6, 0.3, 0.25, "hot", true), { at: [-1.3, -1.6, 0] });
+  const gains = put(sc, "gains", tick([-1.75, -1.15, 0.05], 0.14));
+  const indep = put(sc, "indep", doc(0.5, 0.6, 3, "soft"), { at: [0.3, -1.7, 0] });
+  const indepQ = put(sc, "indepQ", ring(0.4, 12, "hot", "z"), { at: [0.3, -1.7, 0.05] });
+  const baseLine = put(sc, "baseLine", line([1.4, -1.6, 0.05], [2.9, -1.6, 0.05], "hot"));
+  const modelBars: Part[] = []; [0.72, 0.68, 0.74].forEach((h, i) => modelBars.push(put(sc, `mb${i}`, bar(1.7 + 0.45 * i, h, 0.25, "soft"), { at: [0, -2.3, 0] })));
+  sc.mesh.labels = [L([-2.0, 2.15, 0], "100 million human cells"), L([0.5, 1.5, 0], "Transformer with efficient attention over gene tokens: 800 million parameters"), L([-1.75, -2.1, 0], "Reported gains: cell-type annotation, perturbation prediction (2024)"), L([2.15, -2.65, 0], "Peers barely beat simple baselines; external replication needed")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ...attn, paramBar, ...peerBars, annot, pert, gains, indep, indepQ, baseLine, ...modelBars);
+    setAlpha(alpha, mod, 0.5);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); setAlpha(alpha, cells, 0.5 + 0.5 * u); setAlpha(alpha, cellRing, clamp(u * 2 - 0.5) * 0.6); cascade(alpha, tokens, clamp(u * 2 - 0.6)); return { caption: "1 · CellFM, from a Chinese consortium, was trained on 100 million human cells, each turned into gene tokens" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, cells, 1); setAlpha(alpha, cellRing, 0.6); tokens.forEach((p, i) => { setAlpha(alpha, p, 1); moveTo(pts, base, p, [-2.4 + 0.18 * i, -0.4, 0], [0.5 - 0.6 + 0.24 * i, 0.5 - 0.4, 0.3], clamp(u * 1.5 - 0.1 * i)); }); setAlpha(alpha, mod, 0.5 + 0.5 * u * pulse(t, 5)); attn.forEach((a, i) => setAlpha(alpha, a, clamp(u * 2 - 0.5 - 0.15 * i) * (0.5 + 0.5 * pulse(t, 6)))); grow(alpha, paramBar, clamp(u * 2 - 0.5)); peerBars.forEach((b, i) => grow(alpha, b, clamp(u * 2 - 0.3 - 0.1 * i))); return { caption: "2 · A transformer with efficient attention scales to 800 million parameters, among the largest single-cell models by parameter count; the question it asks is whether scale alone improves prediction" }; }
+    if (s === 2) { const u = Q(t, 2); tokens.forEach((p, i) => { setAlpha(alpha, p, 0.7); moveTo(pts, base, p, [-2.4 + 0.18 * i, -0.4, 0], [0.5 - 0.6 + 0.24 * i, 0.5 - 0.4, 0.3], 1); }); setAlpha(alpha, mod, 1); attn.forEach((a) => setAlpha(alpha, a, 0.6)); setAlpha(alpha, paramBar, 1); peerBars.forEach((b) => setAlpha(alpha, b, 1)); setAlpha(alpha, annot, clamp(u * 2)); setAlpha(alpha, pert, clamp(u * 2 - 0.4)); setAlpha(alpha, gains, clamp(u * 2 - 0.8) * (0.6 + 0.4 * pulse(t, 4))); return { caption: "3 · The 2024 preprint reported gains on cell-type annotation and perturbation prediction tasks" }; }
+    const u = Q(t, 3); tokens.forEach((p, i) => { setAlpha(alpha, p, 0.7); moveTo(pts, base, p, [-2.4 + 0.18 * i, -0.4, 0], [0.5 - 0.6 + 0.24 * i, 0.5 - 0.4, 0.3], 1); }); setAlpha(alpha, mod, 1); attn.forEach((a) => setAlpha(alpha, a, 0.6)); setAlpha(alpha, paramBar, 1); peerBars.forEach((b) => setAlpha(alpha, b, 1)); setAlpha(alpha, annot, 1); setAlpha(alpha, pert, 1); setAlpha(alpha, gains, 0.8);
+    setAlpha(alpha, indep, clamp(u * 2)); setAlpha(alpha, indepQ, clamp(u * 2 - 0.3) * (0.5 + 0.5 * pulse(t, 4))); modelBars.forEach((b, i) => grow(alpha, b, clamp(u * 2 - 0.5 - 0.1 * i))); setAlpha(alpha, baseLine, clamp(u * 2 - 1));
+    return { caption: "4 · Independent evaluation is limited, and the wider field has found that many single-cell foundation models barely beat simple baselines on perturbation tasks, so the reported gains need external replication before the extra size is known to help" };
+  });
+}
+
+// ---------------------------------------------------------------- 106. Nucleotide Transformer (InstaDeep)
+export function nucleotideTransformer(): Mesh {
+  const sc = scene();
+  const strand = put(sc, "strand", helix(0.11, 4.6, 11, 66, "soft"), { at: [-0.4, 1.5, 0], rotZ: Math.PI / 2 });
+  const kmers: Part[] = []; for (let i = 0; i < 7; i++) kmers.push(put(sc, `km${i}`, quad(0.5, 0.22, i % 2 ? "accent" : "soft"), { at: [-2.5 + 0.62 * i, 0.8, 0] }));
+  const masked: Part[] = []; [2, 5].forEach((i, k) => masked.push(put(sc, `mk${k}`, quad(0.5, 0.22, "hot"), { at: [-2.5 + 0.62 * i, 0.8, 0.03] })));
+  const mod = put(sc, "model", model(1.6, 1.0, "accent"), { at: [-0.8, -0.5, 0] });
+  const genomes = put(sc, "genomes", cloud(14, 0.6, "soft", 6), { at: [1.9, 1.3, 0] });
+  const species: Part[] = []; for (let i = 0; i < 3; i++) species.push(put(sc, `sp${i}`, ellipsoid(0.25, 0.13, 0.12, 3, 8, "accent", true), { at: [1.4 + 0.5 * i, 0.4, 0] }));
+  const openLock = put(sc, "openLock", box(0.4, 0.3, 0.2, "accent", true), { at: [2.5, -0.5, 0] });
+  const openArc = put(sc, "openArc", polyline([[2.35, -0.35, 0], [2.35, -0.1, 0], [2.65, -0.1, 0], [2.65, -0.35, 0]], "accent"), { at: [0.12, 0.05, 0], rotZ: 0.4 });
+  const heads: Part[] = []; for (let i = 0; i < 2; i++) heads.push(put(sc, `h${i}`, box(0.6, 0.3, 0.25, i ? "hot" : "accent", true), { at: [0.6 + 0.8 * i, -1.4, 0] }));
+  const shortWin = put(sc, "shortWin", polyline([[-2.3, 1.85, 0], [-2.3, 2.05, 0], [-1.3, 2.05, 0], [-1.3, 1.85, 0]], "hot"));
+  const longWin = put(sc, "longWin", polyline([[-2.7, 2.15, 0], [-2.7, 2.35, 0], [1.9, 2.35, 0], [1.9, 2.15, 0]], "soft"));
+  const distant = put(sc, "distant", mote(0.08, "hot"), { at: [1.5, 1.5, 0.2] });
+  const distantX = put(sc, "distantX", cross([1.5, 1.5, 0.25], 0.14));
+  sc.mesh.labels = [L([-0.6, 1.25, 0], "DNA as 6-mer tokens, masked language modelling"), L([-0.8, 0.15, 0], "Models up to 2.5B parameters (Nature Methods 2024)"), L([1.9, 2.0, 0], "3,200 human genomes and 850 species; open weights"), L([-0.5, -2.05, 0], "Fine-tuned for regulatory elements and variant effect; short context misses distant interactions")];
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ...masked, genomes, ...species, openLock, openArc, ...heads, shortWin, longWin, distant, distantX);
+    setAlpha(alpha, mod, 0.5);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); grow(alpha, strand, clamp(u * 1.3)); cascade(alpha, kmers, clamp(u * 1.5 - 0.3)); return { caption: "1 · DNA is chopped into 6-mer tokens, six letters at a time, the vocabulary a language model can learn" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, strand, 1); kmers.forEach((k) => setAlpha(alpha, k, 1)); masked.forEach((m, i) => setAlpha(alpha, m, clamp(u * 2 - 0.3 * i) * (0.6 + 0.4 * pulse(t, 4)))); setAlpha(alpha, mod, 0.5 + 0.5 * u * pulse(t, 5)); setAlpha(alpha, genomes, clamp(u * 2 - 0.5)); species.forEach((sp, i) => setAlpha(alpha, sp, clamp(u * 2 - 0.8 - 0.15 * i))); return { caption: "2 · Masked language modelling hides tokens and learns to predict them, on 3,200 human genomes and 850 species, in models up to 2.5B parameters (Nature Methods 2024)" }; }
+    if (s === 2) { const u = Q(t, 2); kmers.forEach((k) => setAlpha(alpha, k, 1)); masked.forEach((m) => setAlpha(alpha, m, 0.6)); setAlpha(alpha, mod, 1); setAlpha(alpha, genomes, 1); species.forEach((sp) => setAlpha(alpha, sp, 1)); show(alpha, clamp(u * 2), openLock, openArc); cascade(alpha, heads, clamp(u * 2 - 0.5)); return { caption: "3 · The weights are open, which made the models a common baseline in genomic language modelling; fine-tuned heads predict regulatory elements and variant effects" }; }
+    const u = Q(t, 3); kmers.forEach((k) => setAlpha(alpha, k, 1)); masked.forEach((m) => setAlpha(alpha, m, 0.6)); setAlpha(alpha, mod, 1); setAlpha(alpha, genomes, 1); species.forEach((sp) => setAlpha(alpha, sp, 1)); show(alpha, 1, openLock, openArc, ...heads);
+    grow(alpha, shortWin, clamp(u * 2)); grow(alpha, longWin, clamp(u * 2 - 0.3)); setAlpha(alpha, longWin, clamp(u * 2 - 0.3) * 0.4); setAlpha(alpha, distant, clamp(u * 2 - 0.6)); setAlpha(alpha, distantX, clamp(u * 2 - 0.9) * (0.5 + 0.5 * pulse(t, 4)));
+    return { caption: "4 · The context window is short compared with newer long-context models, so distant regulatory interactions are out of view, and usefulness for non-coding cancer variants depends on downstream fine-tuning" };
+  });
+}
+
+// ---------------------------------------------------------------- 107. scFoundation (BioMap)
+export function scfoundation(): Mesh {
+  const sc = scene();
+  const vocab = put(sc, "vocab", ticks(-2.9, 2.9, 1.8, 20, "soft"));
+  const expressed: Part[] = []; [1, 4, 7, 11, 15, 18].forEach((i, k) => expressed.push(put(sc, `ex${k}`, mote(0.07, "accent"), { at: [-2.9 + (5.8 * i) / 19, 1.8, 0.05] })));
+  const enc = put(sc, "enc", model(1.0, 0.7, "accent"), { at: [-1.4, 0.4, 0] });
+  const dec = put(sc, "dec", box(2.6, 0.7, 0.4, "soft", true), { at: [0.8, 0.4, 0] });
+  const decRow = put(sc, "decRow", ticks(-0.4, 2.0, 0.4, 12, "soft"));
+  const maskedOut: Part[] = []; for (let i = 0; i < 4; i++) maskedOut.push(put(sc, `mo${i}`, mote(0.06, "hot"), { at: [-0.4 + (2.4 * (2 + 3 * i)) / 11, 0.4, 0.25] }));
+  const cells = put(sc, "cells", cloud(12, 0.55, "accent", 4), { at: [-2.3, -1.2, 0] });
+  const depth0 = put(sc, "depth0", bar(-0.7, 0.4, 0.22, "soft"), { at: [0, -1.9, 0] });
+  const depth1 = put(sc, "depth1", bar(-0.35, 1.0, 0.22, "accent"), { at: [0, -1.9, 0] });
+  const drug = put(sc, "drug", capsule(1.0, "hot"), { at: [1.0, -1.2, 0] });
+  const dish = put(sc, "dish", cylinder(0.4, 0.1, 10, 2, "soft", true, true), { at: [1.0, -1.7, 0] });
+  const resp = put(sc, "resp", bar(1.6, 0.7, 0.22, "hot"), { at: [0, -1.9, 0] });
+  const gpus: Part[] = []; for (let i = 0; i < 3; i++) gpus.push(put(sc, `gpu${i}`, box(0.8, 0.18, 0.4, "hot", true), { at: [2.5, -1.9 + 0.24 * i, 0] }));
+  const benchQ = put(sc, "benchQ", ring(0.35, 10, "hot", "z"), { at: [2.5, -0.8, 0.05] });
+  sc.mesh.labels = [L([0, 2.25, 0], "Full vocabulary: about 19k human genes"), L([-0.3, 1.05, 0], "Asymmetric encoder-decoder: the encoder sees only expressed genes"), L([-2.3, -2.05, 0], "50 million cells, 100 million parameters (Nature Methods 2024)"), L([1.7, -2.5, 0], "Read-depth enhancement, drug response; compute-heavy; benchmarking awaited")];
+  const base = sc.mesh.points;
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, ...maskedOut, depth0, depth1, drug, dish, resp, ...gpus, benchQ);
+    setAlpha(alpha, enc, 0.5); setAlpha(alpha, dec, 0.4); setAlpha(alpha, decRow, 0.4);
+    const s = stageOf(t);
+    if (s === 0) { const u = Q(t, 0); grow(alpha, vocab, clamp(u * 1.3)); cascade(alpha, expressed, clamp(u * 1.5 - 0.3)); setAlpha(alpha, cells, 0.4 + 0.6 * clamp(u * 2 - 1)); return { caption: "1 · Most single-cell models truncate to a few thousand genes; scFoundation (BioMap) keeps the full vocabulary of about 19k human genes, of which any one cell expresses only a subset" }; }
+    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, vocab, 1); expressed.forEach((e, i) => { setAlpha(alpha, e, 1); moveTo(pts, base, e, [-2.9 + (5.8 * [1, 4, 7, 11, 15, 18][i]) / 19, 1.8, 0.05], [-1.4 - 0.35 + 0.14 * i, 0.4 + 0.15, 0.25], clamp(u * 1.5 - 0.08 * i)); }); setAlpha(alpha, enc, 0.5 + 0.5 * u * pulse(t, 5)); setAlpha(alpha, dec, 0.4 + 0.6 * clamp(u * 2 - 1)); setAlpha(alpha, decRow, 0.4 + 0.6 * clamp(u * 2 - 1)); return { caption: "2 · An asymmetric design keeps it tractable: the expensive encoder sees only the expressed genes, and a lighter decoder reconstructs masked expression across the whole vocabulary" }; }
+    if (s === 2) { const u = Q(t, 2); expressed.forEach((e, i) => { setAlpha(alpha, e, 0.7); moveTo(pts, base, e, [-2.9 + (5.8 * [1, 4, 7, 11, 15, 18][i]) / 19, 1.8, 0.05], [-1.4 - 0.35 + 0.14 * i, 0.4 + 0.15, 0.25], 1); }); setAlpha(alpha, enc, 1); setAlpha(alpha, dec, 1); setAlpha(alpha, decRow, 1); maskedOut.forEach((m, i) => setAlpha(alpha, m, clamp(u * 2 - 0.2 * i) * (0.6 + 0.4 * pulse(t, 4)))); setAlpha(alpha, cells, 1); grow(alpha, depth0, clamp(u * 2 - 0.5)); grow(alpha, depth1, clamp(u * 2 - 0.8)); return { caption: "3 · The 100-million-parameter model was trained on 50 million cells (Nature Methods 2024) and applied to read-depth enhancement, filling in shallowly sequenced cells" }; }
+    const u = Q(t, 3); expressed.forEach((e, i) => { setAlpha(alpha, e, 0.7); moveTo(pts, base, e, [-2.9 + (5.8 * [1, 4, 7, 11, 15, 18][i]) / 19, 1.8, 0.05], [-1.4 - 0.35 + 0.14 * i, 0.4 + 0.15, 0.25], 1); }); setAlpha(alpha, enc, 1); setAlpha(alpha, dec, 1); setAlpha(alpha, decRow, 1); maskedOut.forEach((m) => setAlpha(alpha, m, 0.8)); setAlpha(alpha, cells, 1); show(alpha, 1, depth0, depth1);
+    setAlpha(alpha, drug, clamp(u * 2)); setAlpha(alpha, dish, clamp(u * 2 - 0.2)); moveTo(pts, base, drug, [1.0, -1.2, 0], [1.0, -1.6, 0.15], clamp(u * 2 - 0.3)); grow(alpha, resp, clamp(u * 2 - 0.6)); cascade(alpha, gpus, clamp(u * 2 - 0.5)); setAlpha(alpha, benchQ, clamp(u * 2 - 1) * (0.5 + 0.5 * pulse(t, 4)));
+    return { caption: "4 · It also predicts drug response in cancer cell lines and perturbation effects; the design is compute-heavy, limiting who can fine-tune or run it at scale, and like its peers its perturbation predictions await independent benchmarking" };
   });
 }

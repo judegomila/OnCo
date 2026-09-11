@@ -783,9 +783,9 @@ export function scgpt(): Mesh {
 export function cannabinoidsNausea(): Mesh {
   const sc = scene();
   const P: Vec3 = [-1.8, 0, 0];
-  const patient = put(sc, "patient", figure("soft"), { at: P, scale: 1.1 });
+  put(sc, "patient", figure("soft"), { at: P, scale: 1.1 });
   const brainstem = put(sc, "brainstem", blob(0.12, "hot"), { at: [P[0], P[1] + 0.72, 0.15] });
-  const stomach = put(sc, "stomach", organ(0.22, 0.28, 0.15, "hot"), { at: [P[0] - 0.05, P[1] + 0.15, 0.15] });
+  put(sc, "stomach", organ(0.22, 0.28, 0.15, "hot"), { at: [P[0] - 0.05, P[1] + 0.15, 0.15] });
   const chemo = put(sc, "chemo", vial(0.14, 0.5, "hot"), { at: [-3.0, 1.2, 0] });
   const waves: Part[] = []; for (let i = 0; i < 4; i++) waves.push(put(sc, `w${i}`, ring(0.2 + 0.15 * i, 10, "hot", "z"), { at: [P[0] - 0.05, P[1] + 0.15, 0.2] }));
   const std: Part[] = []; for (let i = 0; i < 3; i++) std.push(put(sc, `std${i}`, capsule(1.0, "accent"), { at: [0.3, 1.5 - 0.35 * i, 0] }));
@@ -898,7 +898,7 @@ export function massageTherapy(): Mesh {
     setAlpha(alpha, bed, 0.5);
     const s = stageOf(t);
     if (s === 0) { const u = Q(t, 0); setAlpha(alpha, bodyP, 0.6 + 0.4 * pulse(t, 3)); grow(alpha, pain0, clamp(u * 1.5)); hands.forEach((h) => setAlpha(alpha, h, clamp(u * 2 - 1))); return { caption: "1 · A person with advanced cancer and moderate to severe pain lies on the table; the trial that matters enrolled 380 such patients (Annals of Internal Medicine 2008)" }; }
-    if (s === 1) { const u = Q(t, 1); setAlpha(alpha, pain0, 1); hands.forEach((h, i) => { setAlpha(alpha, h, 1); movePart(pts, base, h, [0.5 * Math.sin(t * TAU * 3 + i * Math.PI), 0.04 * Math.sin(t * TAU * 6), 0], 1); }); setAlpha(alpha, bodyP, 1); return { caption: "2 · Six 30-minute sessions over two weeks: mechanical stimulation of skin and muscle reduces sympathetic tone, releases oxytocin and endorphins, and gives attentive human contact" }; }
+    if (s === 1) { setAlpha(alpha, pain0, 1); hands.forEach((h, i) => { setAlpha(alpha, h, 1); movePart(pts, base, h, [0.5 * Math.sin(t * TAU * 3 + i * Math.PI), 0.04 * Math.sin(t * TAU * 6), 0], 1); }); setAlpha(alpha, bodyP, 1); return { caption: "2 · Six 30-minute sessions over two weeks: mechanical stimulation of skin and muscle reduces sympathetic tone, releases oxytocin and endorphins, and gives attentive human contact" }; }
     if (s === 2) { const u = Q(t, 2); setAlpha(alpha, pain0, 0.6); hands.forEach((h, i) => { setAlpha(alpha, h, 1); movePart(pts, base, h, [0.5 * Math.sin(t * TAU * 3 + i * Math.PI), 0.04 * Math.sin(t * TAU * 6), 0], 1); }); grow(alpha, pain1, clamp(u * 2)); grow(alpha, touch, clamp(u * 2 - 0.6)); setAlpha(alpha, tl, clamp(u * 2 - 0.3)); return { caption: "3 · Pain and mood improved immediately by more than with simple touch, but sustained benefit over the two weeks did not differ between arms; smaller trials report less anxiety, nausea and fatigue" }; }
     const u = Q(t, 3); setAlpha(alpha, pain0, 0.6); hands.forEach((h, i) => { setAlpha(alpha, h, 1); movePart(pts, base, h, [0.5 * Math.sin(t * TAU * 3 + i * Math.PI), 0.04 * Math.sin(t * TAU * 6), 0], 1); }); show(alpha, 1, pain1, touch, tl);
     setAlpha(alpha, bone, clamp(u * 2)); setAlpha(alpha, port, clamp(u * 2 - 0.2)); setAlpha(alpha, plate, clamp(u * 2 - 0.4)); cascade(alpha, avoid, clamp(u * 2 - 0.5)); setAlpha(alpha, guide, clamp(u * 2 - 1));
@@ -910,7 +910,7 @@ export function massageTherapy(): Mesh {
 export function mindfulness(): Mesh {
   const sc = scene();
   const P: Vec3 = [-1.6, -0.3, 0];
-  const person = put(sc, "person", figure("soft"), { at: P, scale: 1.1 });
+  put(sc, "person", figure("soft"), { at: P, scale: 1.1 });
   const breath: Part[] = []; for (let i = 0; i < 3; i++) breath.push(put(sc, `br${i}`, ring(0.4 + 0.25 * i, 12, "accent", "z"), { at: [P[0], P[1] + 0.35, 0.2] }));
   const thoughts: Part[] = []; for (let i = 0; i < 5; i++) thoughts.push(put(sc, `th${i}`, mote(0.07, "hot"), { at: [P[0] + 0.6 * Math.cos(i * 1.3), P[1] + 1.1 + 0.4 * Math.sin(i * 1.3), 0.1] }));
   const weeks = put(sc, "weeks", ticks(0.4, 2.9, 1.5, 8, "soft"));
@@ -989,7 +989,6 @@ export function peerSupport(): Mesh {
   const warn = put(sc, "warn", polyline([[-2.65, 1.1, 0.05], [-2.4, 1.55, 0.05], [-2.15, 1.1, 0.05]], "hot", true));
   const mod = put(sc, "mod", tick([-1.7, 1.3, 0.05], 0.16));
   sc.mesh.labels = [L([0, 1.35, 0], "Supportive-expressive group or matched volunteer"), L([-2.5, -2.4, 0], "Distress and isolation fall; mood and pain coping improve"), L([2.4, -2.4, 0], "1989 claim of doubled survival; 2001 NEJM, 235 women: no survival difference"), L([-2.4, 1.95, 0], "Online groups reach further and can misinform; signpost moderated ones")];
-  const base = sc.mesh.points;
   return frame(sc, 13, (t, pts, alpha) => {
     hide(alpha, ...links, dis0, dis1, s89, s89b, s01, s01b, scr, warn, mod);
     setAlpha(alpha, circle, 0.4);
@@ -1009,7 +1008,7 @@ export function photothermalNanoparticles(): Mesh {
   const ORG: Vec3 = [0.3, -0.2, 0], TUM: Vec3 = [0.6, 0.0, 0.2];
   const prostate = put(sc, "prostate", organ(1.3, 1.0, 0.7, "soft"), { at: ORG });
   const tumour = put(sc, "tumour", blob(0.42, "hot"), { at: TUM });
-  const vessel = put(sc, "vessel", tube(0.1, 3.4, "soft"), { at: [-0.9, 1.0, 0.1] });
+  put(sc, "vessel", tube(0.1, 3.4, "soft"), { at: [-0.9, 1.0, 0.1] });
   const shells: Part[] = []; for (let i = 0; i < 7; i++) shells.push(put(sc, `sh${i}`, ring(0.07, 6, "accent", "z"), { at: [-2.6, 1.0, 0.15] }));
   const shellTo = (i: number): Vec3 => [TUM[0] - 0.25 + 0.14 * (i % 4), TUM[1] - 0.12 + 0.25 * Math.floor(i / 4), 0.35];
   const leak = put(sc, "leak", ring(0.2, 8, "hot", "z"), { at: [TUM[0] - 0.2, 0.75, 0.15] });
@@ -1246,7 +1245,7 @@ export function sharkCartilage(): Mesh {
 export function skinCancerScreening(): Mesh {
   const sc = scene();
   const P: Vec3 = [-1.8, 0.1, 0];
-  const person = put(sc, "person", figure("soft"), { at: P, scale: 1.3 });
+  put(sc, "person", figure("soft"), { at: P, scale: 1.3 });
   const moles: Part[] = []; const MP: Vec3[] = [[P[0] - 0.25, P[1] + 0.5, 0.15], [P[0] + 0.2, P[1] + 0.25, 0.15], [P[0] - 0.1, P[1] - 0.3, 0.15], [P[0] + 0.35, P[1] - 0.6, 0.15]];
   MP.forEach((m, i) => moles.push(put(sc, `mole${i}`, mote(i === 1 ? 0.09 : 0.05, i === 1 ? "hot" : "soft"), { at: m })));
   const scope = put(sc, "scope", ring(0.28, 12, "accent", "z"), { at: [P[0] - 0.25, P[1] + 0.5, 0.3] });
@@ -1280,8 +1279,8 @@ export function skinCancerScreening(): Mesh {
 export function biliaryStenting(): Mesh {
   const sc = scene();
   const LIV: Vec3 = [-0.6, 1.0, 0];
-  const liver = put(sc, "liver", organ(1.6, 0.8, 0.5), { at: LIV });
-  const duct = put(sc, "duct", cylinder(0.16, 1.9, 10, 3, "soft", false, true), { at: [-0.3, -0.35, 0] });
+  put(sc, "liver", organ(1.6, 0.8, 0.5), { at: LIV });
+  put(sc, "duct", cylinder(0.16, 1.9, 10, 3, "soft", false, true), { at: [-0.3, -0.35, 0] });
   const stricture = put(sc, "stricture", blob(0.32, "hot"), { at: [-0.3, -0.4, 0.15] });
   const bileUp: Part[] = []; for (let i = 0; i < 5; i++) bileUp.push(put(sc, `bu${i}`, mote(0.05, "accent"), { at: [LIV[0] - 0.8 + 0.4 * i, LIV[1] - 0.1, 0.3] }));
   const jaund = put(sc, "jaund", figure("accent"), { at: [-2.6, -0.6, 0], scale: 0.7 });
@@ -1312,7 +1311,7 @@ export function biliaryStenting(): Mesh {
 export function blackSalve(): Mesh {
   const sc = scene();
   const SK: Vec3 = [-0.4, 0.4, 0];
-  const skin = put(sc, "skin", quad(3.0, 1.8, "soft"), { at: SK });
+  put(sc, "skin", quad(3.0, 1.8, "soft"), { at: SK });
   const lesion = put(sc, "lesion", blob(0.22, "hot"), { at: [SK[0], SK[1] + 0.1, 0.05] });
   const jar = put(sc, "jar", cylinder(0.3, 0.45, 10, 2, "accent", true, true), { at: [-2.6, 1.4, 0] });
   const paste = put(sc, "paste", disc(0.3, 12, "accent", "z"), { at: [SK[0], SK[1] + 0.1, 0.08] });

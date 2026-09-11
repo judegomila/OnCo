@@ -15,7 +15,7 @@ export default function EvidencePage() {
   const withOutcomes = rows.filter((r) => r.t.outcomes.some((o) => o.arms.some((a) => a.value !== undefined)));
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="Evidence, trial by trial"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Evidence"
         lede="Every trial in OnCo ranked by a disclosed evidence-strength score, with its primary endpoint drawn as people out of 100 or as median months. The score measures how much and what kind of evidence exists, not how large the benefit is." />
       <Container className="pb-16">
         <details className="card p-4 text-sm mb-8">

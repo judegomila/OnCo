@@ -10,7 +10,7 @@ import { regionForCountry, type DealFlowItem } from "@/lib/deal-regions";
 import { deals, DEAL_TYPE_LABEL, type Party } from "@/data/deals";
 import { statusClass } from "@/lib/text";
 
-export const metadata: Metadata = pageMeta({ title: "Deal and licensing map", description: "Licences, acquisitions and co-development deals that moved oncology assets between companies: date, parties, asset, upfront and total value, territories, with a flow diagram by region and year.", path: "/deals/" });
+export const metadata: Metadata = pageMeta({ title: "Deals and licences", description: "Licences, acquisitions and co-development deals that moved oncology assets between companies: date, parties, asset, upfront and total value, territories, with a flow diagram by region and year.", path: "/deals/" });
 
 function PartyName({ p }: { p: Party }) {
   const e = p.id ? graph().get(p.id) : undefined;
@@ -28,7 +28,7 @@ export default function DealsPage() {
   for (const d of sorted) { const y = d.date.slice(0, 4); years.set(y, [...(years.get(y) ?? []), d]); }
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="Deal and licensing map"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Deals and licences"
         lede={`${deals.length} deals since ${sorted[sorted.length - 1].date.slice(0, 4)}: ${acquisitions} acquisitions and ${deals.length - acquisitions} licences or co-development agreements, ${chinaOut} of them China-out. Every row has the announcement, the parties, the asset, what was paid up front and the headline total, with territories. The chord shows where assets move between regions.`} />
       <Container className="pb-16">
         <DealFlow flows={flows} />

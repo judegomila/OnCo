@@ -9,7 +9,7 @@ import { logoSrc } from "@/lib/logos";
 import { investors, portfolioOf, STAGE_LABEL, stageOf } from "@/lib/startups";
 
 export const metadata: Metadata = pageMeta({
-  title: "Investors backing oncology",
+  title: "Oncology investors",
   description: "The venture funds, corporate venture arms, accelerators and disease foundations that finance companies attacking cancer, each with the portfolio companies in OnCo that name them.",
   path: "/investors/",
 });
@@ -54,7 +54,7 @@ export default function Investors() {
     <>
       <PageHeader
         kicker={<GroupKicker id="who" />}
-        title="Investors backing oncology"
+        title="Oncology investors"
         lede="Who finances the companies attacking cancer: venture funds that lead oncology rounds, the venture arms of large pharma, Y Combinator, and the disease foundations that invest rather than grant. Each record has a plain-English summary and a portfolio derived from the startups that name it, so the list grows as startup records do."
         right={<div className="flex gap-2"><Link href="/startups/" className="rounded-lg bg-accent text-white px-4 py-2 text-sm font-medium">Startups →</Link><Link href="/companies/?type=Investor" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">In the companies table</Link></div>}
       />

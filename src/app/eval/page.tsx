@@ -38,7 +38,7 @@ export default function EvalPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="learn" />} title="Open evaluation: can you get a good answer here?"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Open evaluation"
         lede="One hundred questions a patient, carer, clinician, or analyst might ask, each with a grounded expected answer and a rubric of must-mention points. The same rubric scores OnCo, a search engine, or an AI assistant. Scores are published here in public, every run." />
       <Container className="pb-16">
         <section className="grid gap-3 sm:grid-cols-3">

@@ -6,7 +6,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { AssistanceBrowser, type AccessRow, type PatientOrg } from "@/components/AssistanceBrowser";
 import { assistanceSchemes } from "@/data/assistance-schemes";
 
-export const metadata: Metadata = pageMeta({ title: "Financial help and assistance navigator", description: "Every manufacturer assistance programme, reimbursement decision and generic recorded for cancer products, by country and product, with national schemes and patient organisations that help pay. Print a one-page list.", path: "/assistance/" });
+export const metadata: Metadata = pageMeta({ title: "Financial help", description: "Every manufacturer assistance programme, reimbursement decision and generic recorded for cancer products, by country and product, with national schemes and patient organisations that help pay. Print a one-page list.", path: "/assistance/" });
 
 export default function AssistancePage() {
   const g = graph();
@@ -19,7 +19,7 @@ export default function AssistancePage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="live" />} title="Financial help and assistance navigator"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Financial help"
         lede={`Where the money can come from. OnCo records access and cost information on ${products} products: manufacturer assistance programmes, reimbursement decisions and whether a generic exists, country by country. This page gathers all of it in one place, adds the national schemes and charities that pay for care or living costs in each country, and the patient organisations that run copay and travel funds. Filter to your country and your treatments, then print the list.`} />
       <Container className="pb-16">
         <AssistanceBrowser rows={rows} schemes={assistanceSchemes} orgs={orgs} />

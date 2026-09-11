@@ -37,7 +37,7 @@ export default function Report2026() {
           <p>The failures matter as much. TIGIT blockade did not add to PD-1 inhibition; a CD47 antibody was abandoned; a second TOP1-payload ADC given straight after a first works poorly. Pancreatic cancer and glioblastoma remain the deadliest common cancers, though the first pan-RAS inhibitor is in a pivotal trial and tumour treating fields earned the first pancreatic approval in decades.</p>
         </div>
 
-        <Section title="The corpus at a glance">
+        <Section title="Corpus at a glance">
           <div className="grid gap-3 grid-cols-2 sm:grid-cols-4 lg:grid-cols-7">
             {KINDS.filter((k) => g.kind(k).length > 0).map((k) => <Link key={k} href={`/${KIND_META[k].route}/`} className="card p-3 hover:shadow-md transition"><div className="text-2xl font-semibold tabular-nums">{g.kind(k).length.toLocaleString("en-GB")}</div><div className="text-sm capitalize">{KIND_META[k].plural}</div></Link>)}
           </div>
@@ -68,7 +68,7 @@ export default function Report2026() {
           </div>
         </Section>
 
-        <Section title="Where the roadmaps stand">
+        <Section title="Roadmap progress">
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="card p-4"><div className="kicker mb-2">Current ({current.length} steps)</div><ul className="space-y-2 text-sm">{current.map(({ r, s }, i) => <li key={i}><Link href={routeFor(r)} className="font-medium hover:underline">{s.title}</Link><div className="text-xs text-muted">{r.name.split(":")[0]} · {s.era}</div></li>)}</ul></div>
             <div className="card p-4"><div className="kicker mb-2">Emerging ({emerging.length} steps)</div><ul className="space-y-2 text-sm">{emerging.map(({ r, s }, i) => <li key={i}><Link href={routeFor(r)} className="font-medium hover:underline">{s.title}</Link><div className="text-xs text-muted">{r.name.split(":")[0]} · {s.era}</div></li>)}</ul></div>
@@ -84,7 +84,7 @@ export default function Report2026() {
           <ChipList items={frontier} />
         </Section>
 
-        <Section title="Open problems, two per cancer">
+        <Section title="Open problems by cancer">
           <ul className="card divide-y divide-border text-sm">
             {problems.map(({ c, p }, i) => <li key={i} className="p-3"><Link href={routeFor(c)} className="font-medium hover:underline">{c.name.replace(/ \(.*\)$/, "")}</Link><span className="text-muted"> — {p}</span></li>)}
           </ul>

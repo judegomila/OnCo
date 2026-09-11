@@ -7,7 +7,7 @@ import { ICI_DRUGS, irae } from "@/data/irae";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { IraeGuide, type IciLite } from "./IraeGuide";
 
-export const metadata: Metadata = pageMeta({ title: "Immune-related adverse events: management by organ and grade", description: "Checkpoint inhibitor toxicity by organ system and CTCAE grade: hold or continue, steroid dose, escalation when refractory, and rechallenge, distilled from ASCO 2021, NCCN and ESMO 2022 with the differences flagged. Printable card per organ.", path: "/irae/" });
+export const metadata: Metadata = pageMeta({ title: "Immune-related adverse events", description: "Checkpoint inhibitor toxicity by organ system and CTCAE grade: hold or continue, steroid dose, escalation when refractory, and rechallenge, distilled from ASCO 2021, NCCN and ESMO 2022 with the differences flagged. Printable card per organ.", path: "/irae/" });
 
 function validate(): void {
   const g = graph();

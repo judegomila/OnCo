@@ -23,12 +23,12 @@ export default function About() {
           <p>The first fully built example is <Link href="/cancers/tnbc/">triple-negative breast cancer</Link>, chosen because it went from the subtype with no targeted therapy to one with immunotherapy, PARP inhibitors, three ADCs, and a positive bispecific ADC within six years. Other cancers have state-of-the-art, standard-of-care, history, and pipeline sections at varying depth.</p>
         </section>
         <section id="completeness" className="scroll-mt-24">
-          <h2 className="text-xl font-semibold mb-2">Completeness: how much of the world is here</h2>
+          <h2 className="text-xl font-semibold mb-2">Completeness</h2>
           <p>Counts alone say nothing about coverage. Each row below sets an OnCo count against a sourced count of what exists on the same scope: products against the NCI list of FDA-approved cancer drugs, institutions against the NCI-designated centres and OECI members, journals against the MEDLINE oncology set, key papers against the 100 most-cited oncology works. Across the {cov.filter((c) => c.listed).length} scopes with a public list OnCo holds {h.ours.toLocaleString("en-GB")} of {h.total.toLocaleString("en-GB")} listed items ({h.pct}%). The <Link href="/completeness/">completeness page</Link> names every missing item with an add-this link; the denominators, their sources and the date each was checked live in <code>src/data/universe.ts</code> and are refreshed weekly.</p>
           <div className="not-prose text-sm"><CompletenessTable rows={cov} compact /></div>
         </section>
         <section>
-          <h2 className="text-xl font-semibold mb-2">The rules for facts</h2>
+          <h2 className="text-xl font-semibold mb-2">Rules for facts</h2>
           <ol className="list-decimal pl-5 space-y-1.5">
             <li><strong>Keep it current.</strong> Oncology changes weekly. Each record carries an internal last-checked date used by maintainers; the public page shows the current state, not a timestamp.</li>
             <li><strong>Prefer a link to a remembered number.</strong> Trial results quote the headline figure only when it is sourced on the page or in the linked trial record. Where a figure is approximate it says so.</li>
@@ -51,7 +51,7 @@ export default function About() {
           <p>The repository is <a href="https://github.com/judegomila/OnCo" rel="noopener">github.com/judegomila/OnCo</a>. Each kind lives in one file under <code>src/data/</code>. Add or edit a record, include a source URL, run <code>npm test</code> (which validates the schema and every reference), and open a pull request. The <Link href="/roadmap/">Roadmap</Link> page lists what we want to build next; the failure-museum, readout calendar, and MCP server are the most requested.</p>
         </section>
         <section>
-          <h2 className="text-xl font-semibold mb-2">Sources we lean on</h2>
+          <h2 className="text-xl font-semibold mb-2">Sources</h2>
           <p>FDA Oncology Center of Excellence and the AACR quarterly approval digests; ClinicalTrials.gov; NCI PDQ; NCCN and ESMO guidelines; OncoKB and CIViC; conference coverage from ASCO, ESMO, AACR, SABCS, ASH; Newsweek/Statista hospital rankings; Nature Index. See <Link href="/collections/">Collections</Link> for the full list with licences.</p>
         </section>
         <section>

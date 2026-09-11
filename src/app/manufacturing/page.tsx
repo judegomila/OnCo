@@ -7,7 +7,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { ManufacturingMap, type SiteRow } from "@/components/ManufacturingMap";
 import { manufacturingSites, CAPABILITY_LABEL } from "@/data/manufacturing";
 
-export const metadata: Metadata = pageMeta({ title: "Manufacturing capacity map", description: "Where ADCs are conjugated, cell therapies and viral vectors are made, and medical isotopes are produced: contract manufacturers and in-house sites on a world map, with capabilities, customers and sources.", path: "/manufacturing/" });
+export const metadata: Metadata = pageMeta({ title: "Manufacturing map", description: "Where ADCs are conjugated, cell therapies and viral vectors are made, and medical isotopes are produced: contract manufacturers and in-house sites on a world map, with capabilities, customers and sources.", path: "/manufacturing/" });
 
 export default function ManufacturingPage() {
   const g = graph();
@@ -28,7 +28,7 @@ export default function ManufacturingPage() {
   const cdmo = manufacturingSites.filter((s) => s.ownership === "cdmo").length;
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="who" />} title="Manufacturing capacity map"
+      <PageHeader kicker={<GroupKicker id="who" />} title="Manufacturing map"
         lede={`${manufacturingSites.length} sites, ${cdmo} of them contract manufacturers: ${counts.get("adc-conjugation") ?? 0} conjugate ADCs, ${counts.get("cell-therapy") ?? 0} make cell therapies, ${counts.get("radioisotope") ?? 0} produce medical isotopes. Isotopes had a supply tracker; conjugation suites, vector plants and CAR-T factories did not. This is the start of one.`} />
       <Container className="pb-16">
         <ManufacturingMap sites={sites} />

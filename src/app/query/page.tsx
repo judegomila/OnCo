@@ -16,7 +16,7 @@ export default function QueryPage() {
   };
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="find" />} title="Query the graph" lede="Ask structured questions of the corpus: which targets have an approved ADC but no PET tracer, which cancers have no phase-3 product, which companies have products but no institutional link. Combine clauses, negate any of them, and get a linked table." />
+      <PageHeader kicker={<GroupKicker id="find" />} title="Query" lede="Ask structured questions of the corpus: which targets have an approved ADC but no PET tracer, which cancers have no phase-3 product, which companies have products but no institutional link. Combine clauses, negate any of them, and get a linked table." />
       <Container className="pb-16">
         <QueryBuilder data={data} />
       </Container>

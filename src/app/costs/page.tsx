@@ -8,7 +8,7 @@ import { COST_DRIVERS } from "@/data/cost-levers";
 import { ideasCosts } from "@/data/ideas-waves/wave-costs";
 
 export const metadata: Metadata = pageMeta({
-  title: "Getting the cost of cancer care down",
+  title: "Cutting cancer care costs",
   description: "Solution first: each cost driver (list prices, hospital markups and 340B, biosimilar uptake, oral parity gaps, prior authorisation, financial toxicity, travel, end-of-life intensity, trial access) paired with what is being done, with year and source, and the ideas that could do more, each with who acts, what it costs and how long to evidence.",
   path: "/costs/",
 });
@@ -34,8 +34,8 @@ export default function CostsPage() {
   return (
     <>
       <PageHeader
-        kicker={<GroupKicker id="live"><span className="kicker">·</span><Link href="/coverage/rankings/" className="kicker hover:underline">Which plans cover cancer care best</Link><span className="kicker">·</span><Link href="/assistance/" className="kicker hover:underline">Financial help</Link></GroupKicker>}
-        title="Getting the cost of cancer care down"
+        kicker={<GroupKicker id="live"><span className="kicker">·</span><Link href="/coverage/rankings/" className="kicker hover:underline">Coverage rankings</Link><span className="kicker">·</span><Link href="/assistance/" className="kicker hover:underline">Financial help</Link></GroupKicker>}
+        title="Cutting cancer care costs"
         lede={`Cancer care is expensive for reasons that can each be named, and most of them have a fix that is already working somewhere. This page pairs ${COST_DRIVERS.length} cost drivers with ${evidence} things already being done (each with its year and source) and ${ideasCosts.length} ideas that could do more, ${proven} of them already being tested at scale. Every idea says who would have to act, roughly what it costs to try and how long until the first evidence.`}
       />
       <Container className="pb-16">

@@ -7,7 +7,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef, type LinkItem } from "@/components/EntityBrowser";
 import { models, datasets } from "@/data/model-registry";
 
-export const metadata: Metadata = pageMeta({ title: "Model and dataset registry", description: "Foundation models for cancer and the cell, and the datasets they train on, in one comparable table: parameters, modality, training data, weights availability, licence, benchmarks and papers.", path: "/models/" });
+export const metadata: Metadata = pageMeta({ title: "Models and datasets", description: "Foundation models for cancer and the cell, and the datasets they train on, in one comparable table: parameters, modality, training data, weights availability, licence, benchmarks and papers.", path: "/models/" });
 
 const MODALITY_LABEL: Record<string, string> = { histology: "Histology", radiology: "Radiology", "single-cell": "Single cell", DNA: "DNA", protein: "Protein", multimodal: "Multimodal", "clinical-text": "Clinical text", phenomics: "Phenomics", EHR: "EHR", clinical: "Clinical", mixed: "Mixed" };
 const WEIGHTS_LABEL: Record<string, string> = { open: "Open weights", gated: "Gated download", request: "By request", api: "API only", proprietary: "Proprietary" };
@@ -69,7 +69,7 @@ export default function ModelsPage() {
   const open = models.filter((m) => m.weights === "open").length;
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="map" />} title="Model and dataset registry"
+      <PageHeader kicker={<GroupKicker id="map" />} title="Models and datasets"
         lede={`${models.length} foundation and risk models and ${datasets.length} datasets from the corpus, with the fields that let you compare them: parameters, modality, training data, whether the weights can be downloaded (${open} are open), licence, a reported benchmark and the paper. Figures are the developers' own; blanks are unverified, not zero.`} />
       <Container className="pb-16">
         <EntityBrowser rows={rows} facets={facets} columns={columns} noun="models and datasets" hideStatus defaultSort={{ key: "year", dir: -1 }} />

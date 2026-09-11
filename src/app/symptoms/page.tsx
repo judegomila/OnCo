@@ -6,7 +6,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { SymptomPath, type PathRef, type SymptomView } from "@/components/SymptomPath";
 import { SYMPTOM_PATHS } from "@/data/symptom-paths";
 
-export const metadata: Metadata = pageMeta({ title: "Symptom to test: what comes next", description: "Start from a worrying symptom. See what it usually means, which test a doctor would order first and what it rules out, the referral thresholds NICE and US guidelines actually state, and the cancers to read about.", path: "/symptoms/" });
+export const metadata: Metadata = pageMeta({ title: "Symptom to test", description: "Start from a worrying symptom. See what it usually means, which test a doctor would order first and what it rules out, the referral thresholds NICE and US guidelines actually state, and the cancers to read about.", path: "/symptoms/" });
 
 export default function SymptomsPage() {
   const g = graph();
@@ -18,7 +18,7 @@ export default function SymptomsPage() {
   }));
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="live" />} title="Symptom to test: what comes next"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Symptom to test"
         lede={`${symptoms.length} presenting symptoms, each walked through in four steps: what it can mean (most causes are not cancer), which test comes first and what it rules in or out, the exact referral thresholds from NICE NG12 and US guidance for your region, and the cancer pages to read. Nothing you choose leaves your browser. This is orientation, not a diagnosis.`} />
       <Container className="pb-16">
         <SymptomPath symptoms={symptoms} />

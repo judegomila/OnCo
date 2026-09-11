@@ -127,7 +127,7 @@ export function SecondOpinion({ cancers, routes, countries }: { cancers: SoCance
             <div className="card p-5">
               <div className="flex items-baseline justify-between gap-3">
                 <div>
-                  <div className="kicker">Centres linked to this cancer in OnCo</div>
+                  <div className="kicker">Expert centres</div>
                   <h2 className="text-xl font-semibold mt-0.5"><Link href={cancer.route} className="hover:underline">{cancer.name}</Link></h2>
                 </div>
                 <span className="text-sm text-muted tabular-nums">{cancer.centres.length} centres</span>
@@ -142,7 +142,7 @@ export function SecondOpinion({ cancers, routes, countries }: { cancers: SoCance
 
             <div className="card p-5">
               <div className="kicker">People who work on this cancer</div>
-              <h3 className="text-lg font-semibold mt-0.5">Clinicians and scientists in OnCo</h3>
+              <h3 className="text-lg font-semibold mt-0.5">Clinicians and scientists</h3>
               {cancer.people.length === 0 ? <p className="text-sm text-muted mt-2">No people are linked to this cancer yet.</p> : (
                 <ul className="divide-y divide-border mt-2">
                   {cancer.people.map((p) => (

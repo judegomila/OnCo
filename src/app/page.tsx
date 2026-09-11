@@ -26,8 +26,8 @@ const AUDIENCES: Array<{ id: string; title: string; lede: string; links: Array<{
     id: "patient", title: "Patient or family", lede: "Start from your diagnosis. Plain English first, the technical layer one click away.",
     links: [
       { href: "/for-me/", label: "Pick my cancer type", blurb: "What works today and what could work next" },
-      { href: "/body/", label: "Start from the body", blurb: "Find the cancer by where it is" },
-      { href: "/cancers/", label: "Every cancer, one page each", blurb: "Standard of care, history, pipeline" },
+      { href: "/body/", label: "Body map", blurb: "Find the cancer by where it is" },
+      { href: "/cancers/", label: "Cancers", blurb: "Standard of care, history, pipeline" },
       { href: "/trials/", label: "Trials", blurb: "Landmark and current, with results in plain terms" },
     ],
   },
@@ -36,7 +36,7 @@ const AUDIENCES: Array<{ id: string; title: string; lede: string; links: Array<{
     links: [
       { href: "/explore/", label: "Explore by cancer", blurb: "Pick a cancer, switch kind, sort the list" },
       { href: "/regulatory/regions/", label: "Approvals by region", blurb: "US, EU, UK, Japan, China, Australia" },
-      { href: "/papers/", label: "What the world is publishing", blurb: "Fastest-growing topics, weekly" },
+      { href: "/papers/", label: "Publishing trends", blurb: "Fastest-growing topics, weekly" },
       { href: "/pulse/", label: "Research pulse", blurb: "Journals, regulators and news this month" },
     ],
   },
@@ -191,7 +191,7 @@ export default function Home() {
       {/* What is new */}
       <Container className="mt-16"><GardenDivider /></Container>
       <Container className="mt-10">
-        <Heading title="What is new" sub="Generated from the corpus at each build: approvals by product, and the latest milestone recorded for each cancer." href="/changelog/" label="Site changelog" />
+        <Heading title="Latest updates" sub="Generated from the corpus at each build: approvals by product, and the latest milestone recorded for each cancer." href="/changelog/" label="Site changelog" />
         <div className="grid gap-4 lg:grid-cols-2">
           <section aria-labelledby="new-approvals" className="card">
             <div className="flex items-baseline justify-between gap-3 px-4 pt-4 pb-3 border-b border-border">
@@ -216,7 +216,7 @@ export default function Home() {
           </section>
           <section aria-labelledby="new-milestones" className="card">
             <div className="flex items-baseline justify-between gap-3 px-4 pt-4 pb-3 border-b border-border">
-              <h3 id="new-milestones" className="font-semibold">Latest milestone, by cancer</h3>
+              <h3 id="new-milestones" className="font-semibold">Latest milestone by cancer</h3>
               <span className="text-xs text-muted tabular-nums">{milestoneYear}</span>
             </div>
             <ul className="divide-y divide-border">
@@ -239,7 +239,7 @@ export default function Home() {
       {/* Spotlight */}
       <Container className="mt-16"><GardenDivider /></Container>
       <Container className="mt-10">
-        <Heading title="Spotlight: triple-negative breast cancer" sub="The deepest page on the site, and the template every cancer page is growing into." href={routeFor(tnbc)} label="Full page" />
+        <Heading title="Spotlight on triple-negative breast cancer" sub="The deepest page on the site, and the template every cancer page is growing into." href={routeFor(tnbc)} label="Full page" />
         <div className="card p-5 sm:p-6">
           <p className="text-[15px] sm:text-base leading-relaxed max-w-3xl">{tnbc.tldr}</p>
           <div className="mt-5 grid gap-5 sm:grid-cols-3 text-sm">

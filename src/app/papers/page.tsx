@@ -5,7 +5,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PulseTable, readPulse } from "@/components/PapersPulse";
 import { CitedPapers } from "@/components/CitedPapers";
 
-export const metadata: Metadata = pageMeta({ title: "What the world is publishing", description: "Fastest-growing topics in the cancer literature, computed weekly from Europe PMC for every product, target, cancer, and technology in OnCo.", path: "/papers/" });
+export const metadata: Metadata = pageMeta({ title: "Publishing trends", description: "Fastest-growing topics in the cancer literature, computed weekly from Europe PMC for every product, target, cancer, and technology in OnCo.", path: "/papers/" });
 
 const KINDS: Array<{ kind: string; label: string; minPrior: number }> = [
   { kind: "technology", label: "Technologies", minPrior: 30 },
@@ -19,7 +19,7 @@ export default function PapersPage() {
   const n = index ? Object.keys(index.entities).length : 0;
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="What the world is publishing"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Publishing trends"
         lede="Every object in OnCo has a literature query. Once a week we ask Europe PMC how many papers matched it in each year and in the last twelve months, then rank topics by how fast they are growing. This is the pulse of research effort, not of results: a surge in papers is a surge in attention." />
 
       <Container className="pb-16 space-y-10">

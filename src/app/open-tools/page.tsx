@@ -19,7 +19,7 @@ export default function OpenToolsPage() {
   const verified = openmedical.filter((e) => e.verified).length;
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="learn" />} title="Open tools you can use or build"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Open tools"
         lede={`${openmedical.length} open-source projects relevant to oncology, ${verified} of them with records verified by a person at the registry, grouped by the front they serve. Viewers and archives for imaging, slide and cytometry tools for diagnostics, somatic variant callers, treatment planning and QA code for radiotherapy, data standards, and patient tools. Catalogued by the Open Medical Registry, a third party; OnCo maps each record to its fronts, technologies and cancers.`} />
       <Container className="pb-16">
         <nav aria-label="Fronts with open tools" className="flex flex-wrap gap-1.5 mb-8">

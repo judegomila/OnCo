@@ -4,7 +4,7 @@ import { pageMeta } from "@/lib/seo";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { SavedViews } from "@/components/SavedViews";
 
-export const metadata: Metadata = pageMeta({ title: "Saved views and watchlist", description: "Your saved table views and watched pages, with what changed since you last looked. Stored in your browser only.", path: "/saved/", noindex: true });
+export const metadata: Metadata = pageMeta({ title: "Saved", description: "Your saved table views and watched pages, with what changed since you last looked. Stored in your browser only.", path: "/saved/", noindex: true });
 
 export default function SavedPage() {
   return (

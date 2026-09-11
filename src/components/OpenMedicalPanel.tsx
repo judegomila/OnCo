@@ -4,7 +4,7 @@ import { OPENMEDICAL_SITE } from "@/data/openmedical";
 import { openMedicalForSection, openMedicalForTechnology } from "@/lib/openmedical";
 
 /**
- * "Open tools you can use or build": open-source projects from the Open Medical Registry (openmedical.sh) mapped to
+ * "Open tools": open-source projects from the Open Medical Registry (openmedical.sh) mapped to
  * this front or technology. Each row names the project, quotes one line from the registry, shows its licence and
  * whether a person at the registry verified the record, and links to both the registry record and the project.
  * Renders nothing when no entry is mapped. Server component.
@@ -16,7 +16,7 @@ export function OpenMedicalPanel({ id, kind, limit }: { id: string; kind: "secti
   return (
     <section className="mt-10" aria-labelledby={`open-tools-${id}`}>
       <div className="flex items-baseline justify-between gap-4 mb-3">
-        <h2 id={`open-tools-${id}`} className="text-lg font-semibold tracking-tight">Open tools you can use or build</h2>
+        <h2 id={`open-tools-${id}`} className="text-lg font-semibold tracking-tight">Open tools</h2>
         <Link href="/open-tools/" className="text-xs text-muted hover:underline whitespace-nowrap">All open tools by front →</Link>
       </div>
       <p className="text-sm text-muted mb-3 max-w-3xl">Open-source software, hardware and data projects catalogued by a third party, the Open Medical Registry, that bear on this {kind === "section" ? "front" : "technology"}. Listing is not endorsement; check each project&apos;s own licence and validation before clinical use.</p>

@@ -7,7 +7,7 @@ import { ORGAN_SCHEMATICS } from "@/data/organ-schematics";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { OrganSchematic } from "@/components/OrganSchematic";
 
-export const metadata: Metadata = pageMeta({ title: "Atlas: organ schematics", description: "Wireframe schematics of each organ where cancer arises: the subsites, which subtypes start where, and the lymph node stations a cancer drains to.", path: "/atlas/organs/" });
+export const metadata: Metadata = pageMeta({ title: "Organ schematics", description: "Wireframe schematics of each organ where cancer arises: the subsites, which subtypes start where, and the lymph node stations a cancer drains to.", path: "/atlas/organs/" });
 
 export default function OrganAtlasPage() {
   const g = graph();

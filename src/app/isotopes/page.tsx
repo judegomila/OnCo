@@ -5,14 +5,14 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
 import { statusClass } from "@/lib/text";
 
-export const metadata: Metadata = pageMeta({ title: "Isotope supply tracker", description: "The radionuclides behind oncology imaging and radioligand therapy: half-lives, emissions, production routes, suppliers, and supply status.", path: "/isotopes/" });
+export const metadata: Metadata = pageMeta({ title: "Isotope supply", description: "The radionuclides behind oncology imaging and radioligand therapy: half-lives, emissions, production routes, suppliers, and supply status.", path: "/isotopes/" });
 
 const TONE: Record<string, string> = { adequate: "approved", tight: "phase-2", constrained: "negative", emerging: "phase-1" };
 
 export default function IsotopesPage() {
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="Isotope supply tracker"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Isotope supply"
         lede="Radiopharmaceuticals are only as available as their isotopes. Actinium-225 gates the entire alpha-therapy pipeline; lutetium-177 supply dictated Pluvicto's launch. This page tracks each medical radionuclide, how it is made, who makes it, and how tight supply is." />
       <Container className="pb-16">
         <div className="flex flex-wrap gap-2 text-xs mb-6">{Object.entries(TONE).map(([k, v]) => <span key={k} className={`chip ${statusClass(v)}`}>{k}</span>)}</div>

@@ -5,7 +5,7 @@ import { sequencingIndex } from "@/lib/sequencing";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CancerIcon } from "@/components/CancerIcon";
 
-export const metadata: Metadata = pageMeta({ title: "Line-of-therapy sequencing", description: "For every cancer, the standard of care laid out by treatment line and biomarker subgroup, with guideline categories, evidence scores and the sequence and caution pairings that apply.", path: "/sequencing/" });
+export const metadata: Metadata = pageMeta({ title: "Lines of therapy", description: "For every cancer, the standard of care laid out by treatment line and biomarker subgroup, with guideline categories, evidence scores and the sequence and caution pairings that apply.", path: "/sequencing/" });
 
 export default function SequencingIndexPage() {
   const idx = sequencingIndex().sort((a, b) => a.group.localeCompare(b.group) || a.name.localeCompare(b.name));
@@ -13,7 +13,7 @@ export default function SequencingIndexPage() {
   const rows = idx.reduce((n, c) => n + c.rows, 0);
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="map" />} title="Line-of-therapy sequencing"
+      <PageHeader kicker={<GroupKicker id="map" />} title="Lines of therapy"
         lede={`${idx.length} cancers, ${rows} standard-of-care settings, each placed on a grid of treatment line against biomarker subgroup. The Navigator personalises one path; these tables show the whole map for a disease, with the sequence and caution pairings that say what should come before what.`} />
       <Container className="pb-16 space-y-10">
         {groups.map((g) => (

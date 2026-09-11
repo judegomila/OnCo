@@ -10,7 +10,7 @@ import type { Drug } from "@/lib/schema";
 
 /**
  * Grouped links to everything connected to an entity, in a fixed kind order. When `similar` is given
- * (from similarLinks() in src/lib/similar.ts) a "Pages like this" strip leads: records that are not
+ * (from similarLinks() in src/lib/similar.ts) a "Similar pages" strip leads: records that are not
  * directly linked but share many of the same links, each with the shared links that explain the match.
  */
 export function Neighbours({ groups, exclude = [], similar }: { groups: Map<Kind, Entity[]>; exclude?: Kind[]; similar?: SimilarLink[] }) {
@@ -39,12 +39,12 @@ export function Neighbours({ groups, exclude = [], similar }: { groups: Map<Kind
   );
 }
 
-/** "Pages like this": not linked directly, but sharing links. Each card names what is shared. */
+/** "Similar pages": not linked directly, but sharing links. Each card names what is shared. */
 export function SimilarStrip({ items }: { items: SimilarLink[] }) {
   return (
-    <section aria-label="Pages like this" className="card p-4">
+    <section aria-label="Similar pages" className="card p-4">
       <div className="mb-2.5 flex items-baseline justify-between gap-3">
-        <h3 className="kicker">Pages like this</h3>
+        <h3 className="kicker">Similar pages</h3>
         <span className="text-xs text-muted">not linked directly; found by shared links</span>
       </div>
       <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">

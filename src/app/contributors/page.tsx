@@ -70,7 +70,7 @@ export default function ContributorsPage() {
         </div>
 
         <section>
-          <h2 className="text-2xl font-semibold tracking-tight mb-2">Who wrote the records</h2>
+          <h2 className="text-2xl font-semibold tracking-tight mb-2">Authors</h2>
           <p className="text-sm text-muted mb-4 max-w-3xl">
             {method === "blame-lines"
               ? "From git blame over every data file: a record counts for an author when any surviving line of it is theirs. Commits are distinct commits with surviving lines; first and last are the dates of those lines, so a contributor whose early lines were later rewritten shows a later first date."
@@ -106,7 +106,7 @@ export default function ContributorsPage() {
 
         {(roster.length > 0 || translators.size > 0) && (
           <section className="mt-12">
-            <h2 className="text-2xl font-semibold tracking-tight mb-2">Who reviewed</h2>
+            <h2 className="text-2xl font-semibold tracking-tight mb-2">Reviewers</h2>
             <ul className="card divide-y divide-border text-sm">
               {roster.map((r) => <li key={`r-${r.reviewer}`} className="p-3 flex flex-wrap items-baseline gap-x-3"><span className="chip bg-foreground/5">Review</span><span className="font-medium">{r.reviewer}</span><span className="text-muted">{r.role}</span><span className="ml-auto text-xs text-muted">{r.count} page{r.count === 1 ? "" : "s"}, {r.level.label.toLowerCase()}</span></li>)}
               {[...translators.values()].map((t) => <li key={`t-${t.name}`} className="p-3 flex flex-wrap items-baseline gap-x-3"><span className="chip bg-foreground/5">Translation</span><span className="font-medium">{t.name}</span><span className="ml-auto text-xs text-muted">{t.n} TL;DR{t.n === 1 ? "" : "s"} in {[...t.langs].join(", ")}</span></li>)}

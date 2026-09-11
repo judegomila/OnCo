@@ -9,7 +9,7 @@ import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { withTermHovers } from "@/lib/term-hover";
 
-export const metadata: Metadata = pageMeta({ title: "ADC payload & linker registry", description: "Every ADC payload and linker: mechanism, bystander capability, efflux susceptibility, typical DAR, toxicities, and the products that use them.", path: "/payloads/" });
+export const metadata: Metadata = pageMeta({ title: "Payloads and linkers", description: "Every ADC payload and linker: mechanism, bystander capability, efflux susceptibility, typical DAR, toxicities, and the products that use them.", path: "/payloads/" });
 
 /** Link a registry row to its glossary page with a hover explanation. */
 function Obj({ id, children, className = "" }: { id: string; children: React.ReactNode; className?: string }) {
@@ -23,7 +23,7 @@ export default function PayloadsPage() {
   const classId = (cls: string) => ({ "Topoisomerase-I inhibitor": "topoisomerase-i-payloads", "Tubulin inhibitor": "tubulin-inhibitor-payloads", "DNA crosslinker (PBD dimer)": "pbd-dimer-payloads", "DNA cleaver": "dna-cleaver-payloads", "DNA alkylator": "dna-alkylator-payloads" } as Record<string, string>)[cls] ?? "payload";
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="ADC payload & linker registry"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Payloads and linkers"
         lede="An ADC is three parts. The antibody gets most of the attention, but payload and linker decide bystander killing, cross-resistance, and the side-effect profile. This registry cross-references both to the products in the map." />
       <Container className="pb-16">
         <h2 className="text-xl font-semibold mb-3">Payloads</h2>

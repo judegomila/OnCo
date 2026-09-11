@@ -20,7 +20,7 @@ export default function RegionsPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel"><span className="kicker">·</span><Link href="/regulatory/" className="kicker hover:underline">Regulatory timeline</Link></GroupKicker>} title="Same drug, different countries"
+      <PageHeader kicker={<GroupKicker id="intel"><span className="kicker">·</span><Link href="/regulatory/" className="kicker hover:underline">Regulatory timeline</Link></GroupKicker>} title="Approval differences by country"
         lede={`${rows.length} approved and phase-3 products compared across ${REGIONS.length} regulators. ${everywhere} are approved in all ${REGIONS.length} regions, ${usNotEu} are approved in the US but not the EU, and ${cnOnly} are approved only in China. Filter by gap type to see where a pipeline exists in one region and is missing in another.`} />
       <Container className="pb-16 space-y-10">
         <RegionMatrix rows={rows} />

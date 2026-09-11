@@ -128,7 +128,7 @@ export function Navigator({ data }: { data: NavigatorData }) {
 
           {cautions.length > 0 && (
             <section>
-              <h2 className="text-lg font-semibold mb-2">Cautions given what has been tried</h2>
+              <h2 className="text-lg font-semibold mb-2">Cautions</h2>
               <div className="grid gap-3 md:grid-cols-2">
                 {cautions.map((c) => <Link key={c.id} href={c.route} className="card p-4 border-amber-300 dark:border-amber-900 hover:shadow-md transition"><div className="font-medium">⚠ {c.name}</div><p className="text-sm text-muted mt-1 line-clamp-3">{c.tldr}</p></Link>)}
               </div>
@@ -137,7 +137,7 @@ export function Navigator({ data }: { data: NavigatorData }) {
 
           <section>
             <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
-              <h2 className="text-lg font-semibold">Next options, ranked <span className="text-muted text-sm font-normal">({options.length}; excludes what has been tried and anything withdrawn or negative)</span></h2>
+              <h2 className="text-lg font-semibold">Next options, ranked <span className="text-muted text-sm font-normal">{options.length}</span></h2>
               <details className="text-xs text-muted"><summary className="cursor-pointer">How the rank works</summary><p className="mt-1 max-w-md">Evidence tier (approved 10 … concept 0) + 8 if it appears in the standard-of-care rows for this setting + 4 if it is in the cancer&apos;s pipeline + biomarker match points from the tumour-board matcher. It ranks documentation and evidence, not benefit for you.</p></details>
             </div>
             <div className="card overflow-x-auto">

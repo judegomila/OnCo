@@ -32,7 +32,7 @@ export function ExpertCentres({ cancerId }: { cancerId: string }) {
   return (
     <div className="card p-5">
       <div className="kicker">Where the expertise is</div>
-      <h3 className="text-lg font-semibold mt-0.5 mb-3">Centres linked to this cancer in OnCo</h3>
+      <h3 className="text-lg font-semibold mt-0.5 mb-3">Expert centres</h3>
       {rows.length === 0 ? (
         <p className="text-sm text-muted">No institutions are linked to this cancer yet. The general <Link className="underline" href="/institutions/">institution ranking</Link> is the place to start.</p>
       ) : (

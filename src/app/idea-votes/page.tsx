@@ -10,7 +10,7 @@ import { adoptions } from "@/data/adoptions";
 import { DISCUSSIONS_URL, DISCUSSION_CATEGORY, newDiscussionUrl, discussionSearchUrl, issueUrl } from "@/lib/issue-links";
 import { DiscussLink } from "@/components/DiscussLink";
 
-export const metadata: Metadata = pageMeta({ title: "Idea votes and adoptions", description: "Which of OnCo's ideas people want to see tested, from GitHub Discussions reactions, and which have been picked up by a trial, programme, funder or publication, with the source.", path: "/idea-votes/" });
+export const metadata: Metadata = pageMeta({ title: "Idea votes", description: "Which of OnCo's ideas people want to see tested, from GitHub Discussions reactions, and which have been picked up by a trial, programme, funder or publication, with the source.", path: "/idea-votes/" });
 
 type Vote = { up: number; reactions: number; comments: number; url: string; title: string };
 type VotesFile = { generated: string; total: number; votes: Record<string, Vote> };
@@ -37,7 +37,7 @@ export default function IdeaVotesPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="learn" />} title="Idea votes and adoptions"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Idea votes"
         lede={`${ideas.length.toLocaleString("en-GB")} ideas, each with a hypothesis and a test that could confirm or kill it. Two signals sit on top: interest (thumbs-up on the idea's discussion thread) and uptake (a trial, programme, funder or paper that picked it up, with a source). Neither is an endorsement; both tell funders and researchers where attention is.`} />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-x-4 gap-y-1 text-sm mb-8">

@@ -12,7 +12,7 @@ export default function Corrections() {
   const md = readFileSync(join(process.cwd(), "CORRECTIONS.md"), "utf8");
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="Corrections log"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Corrections"
         lede="A public record of every factual correction: what the record said, why it was wrong, how the error was found, and the commit that fixed it. Errors are expected in a corpus this size; hiding them would be the failure." />
       <Container className="pb-16 max-w-3xl">
         <MarkdownLite md={md} />

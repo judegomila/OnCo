@@ -308,7 +308,7 @@ function Panel({ data, adj, idx, focus, onFocus, kindCounts }: { data: GraphData
     return (
       <div className="card p-4 space-y-4">
         <div>
-          <h2 className="text-sm font-semibold">The whole graph</h2>
+          <h2 className="text-sm font-semibold">Whole graph</h2>
           <p className="mt-1 text-sm text-muted leading-snug">Every page on OnCo is a node and every reference between pages is a link. Hover a front or a cancer to light up its links, or start from one of the busiest objects.</p>
         </div>
         <div>
@@ -326,7 +326,7 @@ function Panel({ data, adj, idx, focus, onFocus, kindCounts }: { data: GraphData
           </ul>
         </div>
         <div>
-          <h3 className="kicker mb-2">What is in it</h3>
+          <h3 className="kicker mb-2">Contents</h3>
           <ul className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
             {ORDER.filter((k) => kindCounts.has(k)).map((k) => (
               <li key={k} className="flex items-center gap-1.5 text-muted">

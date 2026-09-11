@@ -45,10 +45,10 @@ export function CaregiverPanel({ treatments, support, questions, cancerName }: {
             <div key={t.id} className="card p-4">
               <div className="flex items-baseline justify-between gap-2"><Link href={t.route} className="font-medium hover:underline">{t.name}</Link>{t.modality && <span className="text-xs text-muted">{t.modality}</span>}</div>
               {t.toxicity.length > 0 ? (
-                <table className="onco mt-2">
+                <div className="overflow-x-auto"><table className="onco mt-2">
                   <thead><tr><th>Effect</th><th>Any grade</th><th>Severe (grade ≥3)</th></tr></thead>
                   <tbody>{t.toxicity.slice(0, 8).map((x, i) => <tr key={i}><td>{x.event}{x.note && <span className="text-muted">: {x.note}</span>}</td><td className="tabular-nums">{x.anyGradePct !== undefined ? `${x.anyGradePct}%` : "not sourced"}</td><td className="tabular-nums">{x.grade3PlusPct !== undefined ? `${x.grade3PlusPct}%` : "not sourced"}</td></tr>)}</tbody>
-                </table>
+                </table></div>
               ) : t.limitations.length > 0 ? (
                 <ul className="list-disc pl-5 text-sm mt-2 space-y-1">{t.limitations.map((l, i) => <li key={i}>{l}</li>)}</ul>
               ) : <p className="text-sm text-muted mt-2">No structured toxicity data yet; see the product page and the label.</p>}

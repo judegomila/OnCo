@@ -11,6 +11,7 @@ export function ToxicityTable({ toxicity, compact = false }: { toxicity: Tox[]; 
   return (
     <div className={compact ? "" : "card p-4"}>
       {!compact && <div className="kicker mb-2">Toxicity profile</div>}
+      <div className="overflow-x-auto">
       <table className="onco">
         <thead><tr><th>Adverse event</th>{hasNumbers && <><th className="w-40">Any grade</th><th className="w-40">Grade 3+</th></>}</tr></thead>
         <tbody>
@@ -25,6 +26,7 @@ export function ToxicityTable({ toxicity, compact = false }: { toxicity: Tox[]; 
           ))}
         </tbody>
       </table>
+      </div>
       <p className="text-xs text-muted mt-2">
         {notes.length === 1 && <>{notes[0]}. </>}
         {sources.length > 0 ? <>Rates read from {sources.map((s, i) => <a key={s} className="underline" href={s} rel="noopener">{sources.length > 1 ? `source ${i + 1}` : s.includes("dailymed") ? "the US prescribing information" : "the source"}</a>)}. </> : <>Events listed without rates were not read from a primary source; see the label. </>}
@@ -35,7 +37,7 @@ export function ToxicityTable({ toxicity, compact = false }: { toxicity: Tox[]; 
 }
 
 function Bar({ pct, tone }: { pct?: number; tone: string }) {
-  if (pct === undefined) return <span className="text-muted">—</span>;
+  if (pct === undefined) return <span className="text-muted">-</span>;
   return (
     <div className="flex items-center gap-2">
       <div className="h-2 flex-1 rounded bg-foreground/5 overflow-hidden"><div className={`h-full ${tone}`} style={{ width: `${Math.min(100, pct)}%` }} /></div>

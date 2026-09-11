@@ -137,7 +137,7 @@ ${sections.map((s) => `<section id="${s.id}"><h2>${esc(s.title)}</h2><p class="m
 <footer><p>Archive and subscription: <a href="${SITE}/newsletter/">${SITE}/newsletter/</a> · Feed: <a href="${SITE}/newsletter/feed.xml">Atom</a> · Something wrong? Fix it once at <a href="${SITE}/suggest/">${SITE}/suggest/</a>.</p><p class="muted">Code MIT. Data CC BY-NC 4.0, attribute "OnCo (github.com/judegomila/OnCo)". No tracking: this email contains no pixels, no click redirects and no scripts.</p></footer>`;
 
 const html = `<!doctype html>
-<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)}</title>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(`${summary}. OnCo weekly: what changed in the open, cited map of cancer.`)}">
 <style>
 body{font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2328;background:#fff;margin:0;padding:24px}
 main{max-width:680px;margin:0 auto}h1{font-size:28px;line-height:1.15;margin:4px 0 8px}h2{font-size:19px;margin:28px 0 4px}

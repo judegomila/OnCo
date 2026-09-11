@@ -12,7 +12,7 @@ const STATUS_STYLE: Record<RegionalStatus, { dot: string; chip: string; label: s
   approved: { dot: "bg-emerald-500", chip: "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200", label: "Approved", short: "✓" },
   conditional: { dot: "bg-teal-400", chip: "bg-teal-100 text-teal-800 dark:bg-teal-900/40 dark:text-teal-200", label: "Conditional / accelerated", short: "✓c" },
   "under-review": { dot: "bg-amber-400", chip: "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200", label: "Under review / pending", short: "…" },
-  "not-filed": { dot: "bg-zinc-300 dark:bg-zinc-600", chip: "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300", label: "Not filed", short: "—" },
+  "not-filed": { dot: "bg-zinc-300 dark:bg-zinc-600", chip: "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300", label: "Not filed", short: "-" },
   withdrawn: { dot: "bg-rose-500", chip: "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200", label: "Withdrawn", short: "✕" },
   rejected: { dot: "bg-rose-600", chip: "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200", label: "Rejected", short: "✕" },
 };
@@ -119,7 +119,7 @@ export function RegionMatrix({ rows }: { rows: MatrixRow[] }) {
     { key: "modality", label: "Modality", sortable: true, hide: "hidden lg:table-cell", className: "text-muted text-xs", render: (r) => r.modality },
     ...shown.map((rg): Column<MatrixRow> => ({ key: rg, label: `${REGION_META[rg].flag} ${rg}`, sortable: true, className: "text-center", render: (r) => <Cell e={r.regions[rg]} /> })),
     { key: "count", label: "Regions", sortable: true, className: "text-center tabular-nums", render: (r) => <span title={approvedRegions(r.regions).join(", ")}>{approvedRegions(r.regions).length}/{REGIONS.length}</span> },
-    { key: "first", label: "First", sortable: true, className: "tabular-nums text-xs", render: (r) => { const y = firstYear(r.regions); return isFinite(y) ? <span>{y} <span className="text-muted">{firstRegions(r.regions).join("/")}</span></span> : <span className="text-muted">—</span>; } },
+    { key: "first", label: "First", sortable: true, className: "tabular-nums text-xs", render: (r) => { const y = firstYear(r.regions); return isFinite(y) ? <span>{y} <span className="text-muted">{firstRegions(r.regions).join("/")}</span></span> : <span className="text-muted">-</span>; } },
   ];
 
   return (
@@ -130,7 +130,7 @@ export function RegionMatrix({ rows }: { rows: MatrixRow[] }) {
             <div className="flex items-center justify-between"><span className="text-lg" aria-hidden>{REGION_META[s.r].flag}</span><span className="text-xs text-muted">{REGION_META[s.r].regulator.split(" ")[0]}</span></div>
             <div className="mt-1 text-2xl font-semibold tabular-nums">{s.approved}<span className="text-sm text-muted font-normal"> / {rows.length}</span></div>
             <div className="text-xs text-muted leading-snug mt-1">
-              <div>median lag <span className="text-foreground tabular-nums">{s.median === null ? "—" : `${s.median} yr${s.median === 1 ? "" : "s"}`}</span></div>
+              <div>median lag <span className="text-foreground tabular-nums">{s.median === null ? "-" : `${s.median} yr${s.median === 1 ? "" : "s"}`}</span></div>
               <div>first-in-world <span className="text-foreground tabular-nums">{s.firsts}</span> · missing <span className="text-foreground tabular-nums">{s.missing}</span></div>
               <div>pending <span className="text-foreground tabular-nums">{s.pending}</span>{s.neg > 0 && <> · withdrawn/rejected <span className="text-foreground tabular-nums">{s.neg}</span></>}</div>
             </div>
@@ -155,7 +155,7 @@ export function RegionMatrix({ rows }: { rows: MatrixRow[] }) {
       <ResultsTable columns={columns} rows={sorted} rowKey={(r) => r.id} sort={sort} onSort={onSort} />
 
       <div className="card p-4">
-        <h3 className="font-semibold mb-2">Approval lag by region</h3>
+        <h2 className="font-semibold mb-2">Approval lag by region</h2>
         <p className="text-sm text-muted mb-3">Years between the first approval anywhere and approval in each region, across products approved in that region. Zero means the region was among the first to approve.</p>
         <div className="overflow-x-auto">
           <table className="onco">
@@ -166,8 +166,8 @@ export function RegionMatrix({ rows }: { rows: MatrixRow[] }) {
                   <td><span aria-hidden>{REGION_META[s.r].flag}</span> {REGION_META[s.r].label}</td>
                   <td><a href={REGION_META[s.r].url} target="_blank" rel="noopener noreferrer" className="hover:underline">{REGION_META[s.r].regulator}</a></td>
                   <td className="text-right tabular-nums">{s.approved}</td>
-                  <td className="text-right tabular-nums">{s.median === null ? "—" : `${s.median} yr`}</td>
-                  <td className="text-right tabular-nums">{s.mean === null ? "—" : `${s.mean.toFixed(1)} yr`}</td>
+                  <td className="text-right tabular-nums">{s.median === null ? "-" : `${s.median} yr`}</td>
+                  <td className="text-right tabular-nums">{s.mean === null ? "-" : `${s.mean.toFixed(1)} yr`}</td>
                   <td className="text-right tabular-nums">{s.firsts}</td>
                   <td className="text-right tabular-nums">{s.missing}</td>
                   <td className="text-right tabular-nums">{s.pending}</td>

@@ -76,8 +76,8 @@ export default function AuditPage() {
               {checks.map(([check, list]) => (
                 <details key={check} className="card" open={list.some((f) => f.severity === "high")}>
                   <summary className="cursor-pointer px-4 py-3 flex items-center gap-3"><span className={`chip ${SEV[list[0].severity]}`}>{list[0].severity}</span><span className="font-medium">{CHECK_LABEL[check] ?? check}</span><span className="text-sm text-muted">{list.length}</span></summary>
-                  <table className="onco"><thead><tr><th>Entity</th><th>Kind</th><th>Detail</th></tr></thead>
-                    <tbody>{list.slice(0, ROW_CAP).map((f, i) => <tr key={i}><td><Link href={f.route} className="font-medium hover:underline">{f.name}</Link></td><td className="text-muted">{f.kind}</td><td className="text-muted">{f.detail}</td></tr>)}</tbody></table>
+                  <div className="overflow-x-auto"><table className="onco"><thead><tr><th>Entity</th><th>Kind</th><th>Detail</th></tr></thead>
+                    <tbody>{list.slice(0, ROW_CAP).map((f, i) => <tr key={i}><td><Link href={f.route} className="font-medium hover:underline">{f.name}</Link></td><td className="text-muted">{f.kind}</td><td className="text-muted">{f.detail}</td></tr>)}</tbody></table></div>
                   {list.length > ROW_CAP && <div className="px-4 py-3 text-xs text-muted">Showing {ROW_CAP} of {list.length}; the rest are in <a className="underline" href="/audit.json">audit.json</a>.</div>}
                 </details>
               ))}
@@ -117,8 +117,8 @@ export default function AuditPage() {
             ) : <div className="card p-6 text-sm text-muted">Every checked link resolved.</div>}
             {moved.length > 0 && (
               <details className="card mt-4"><summary className="cursor-pointer px-4 py-3 text-sm font-medium">{moved.length} links redirect to a different domain</summary>
-                <table className="onco"><thead><tr><th>URL</th><th>Now at</th><th>Cited by</th></tr></thead>
-                  <tbody>{moved.slice(0, ROW_CAP).map((r, i) => <tr key={i}><td className="text-xs break-all text-muted">{r.url}</td><td className="text-xs break-all"><a className="underline" href={r.finalUrl} rel="noopener">{r.finalUrl}</a></td><td>{r.refs.slice(0, 2).map((x) => <div key={`${x.id}-${x.field}`}><Link href={x.route} className="hover:underline">{x.name}</Link></div>)}</td></tr>)}</tbody></table>
+                <div className="overflow-x-auto"><table className="onco"><thead><tr><th>URL</th><th>Now at</th><th>Cited by</th></tr></thead>
+                  <tbody>{moved.slice(0, ROW_CAP).map((r, i) => <tr key={i}><td className="text-xs break-all text-muted">{r.url}</td><td className="text-xs break-all"><a className="underline" href={r.finalUrl} rel="noopener">{r.finalUrl}</a></td><td>{r.refs.slice(0, 2).map((x) => <div key={`${x.id}-${x.field}`}><Link href={x.route} className="hover:underline">{x.name}</Link></div>)}</td></tr>)}</tbody></table></div>
               </details>
             )}
           </>

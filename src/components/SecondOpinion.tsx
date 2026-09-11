@@ -36,7 +36,7 @@ function RouteCard({ r }: { r: ReferralRoute }) {
   return (
     <div className="card p-5">
       <div className="kicker">How second opinions work</div>
-      <h3 className="text-lg font-semibold mt-0.5">{r.title}</h3>
+      <h2 className="text-lg font-semibold mt-0.5">{r.title}</h2>
       <ol className="list-decimal pl-5 mt-3 space-y-1.5 text-sm leading-relaxed">{r.howItWorks.map((s, i) => <li key={i}>{s}</li>)}</ol>
       <div className="grid gap-4 sm:grid-cols-2 mt-4 text-sm">
         <div><div className="kicker mb-1">Cost</div><p>{r.cost}</p></div>

@@ -45,7 +45,7 @@ export const institutionsDonorFoundations: InstitutionInput[] = [
     summary: "St. Baldrick's began as a head-shaving event among colleagues in 2000 and became a foundation whose thousands of volunteer-run shave events fund childhood cancer research. The foundation states that it funds more grants than any organisation besides the US government, that every grant it makes is for childhood cancer research, and that it keeps staff small and expenses low so that every possible dollar goes to research. Its grants support fellows, scholars, consortium research and infrastructure such as the Children's Oncology Group. Headquartered in Monrovia, California.",
     programs: ["Volunteer head-shaving events", "Fellowship and scholar grants", "Consortium and infrastructure grants", "Children's Oncology Group support"],
     links: [{ label: "About St. Baldrick's", url: "https://www.stbaldricks.org/about-us" }],
-    related: ["st-baldricks"], bottlenecks: ["b-rare-cancers", "b-funding-allocation"] }),
+    related: ["st-baldricks"], bottlenecks: ["b-rare-cancers", "b-funding-allocation"], people: ["kathleen-ruddy"] }),
 
   b({ id: "bowelbabe-fund", name: "Bowelbabe Fund for Cancer Research UK", aka: ["Bowelbabe Fund"], institutionType: "consortium", city: "London", country: "GB", lat: 51.505, lng: -0.12, website: "https://bowelbabe.org",
     tldr: "The fund Dame Deborah James launched in the last weeks of her life; a restricted fund within Cancer Research UK, it has raised £21 million and backed 16 research projects.",

@@ -53,11 +53,11 @@ export const cancers: CancerInput[] = [
     ],
     targets: ["trop2", "pdl1", "pd1", "brca", "parp", "her2", "her3", "egfr", "androgen-receptor", "tp53", "nectin4", "folr1", "liv1"],
     technologies: ["adc", "checkpoint-inhibitor", "parp-inhibitor", "platinum", "bispecific-adc", "trop2-pet", "mrd-testing", "germline-testing", "digital-pathology-ai", "mammography", "hypnosis-cancer-care", "lymphoedema-decongestive-therapy"],
-    pathways: ["ddr", "p53-cell-cycle", "pd1-checkpoint", "pi3k-akt-mtor", "emt"],
+    pathways: ["ddr", "p53-cell-cycle", "pd1-checkpoint", "pi3k-akt-mtor", "emt", "breast-cancer-signalling"],
     companies: ["gilead", "astrazeneca", "daiichi-sankyo", "merck", "bms", "systimmune", "kelun-biotech"],
     terms: ["pcr", "rcb", "her2-low", "tils", "cps", "hrd"],
-    related: ["adc-generations", "trop2-adc-roadmap", "tnbc-history", "platinum-plus-hrd", "germline-to-parp"],
-    tags: ["spike", "breast"], drugs: ["ventana-pd-l1-sp142", "lunit-insight-mmg", "epirubicin", "ixabepilone"], trials: ["tmist"], links: [{ label: "Wikipedia", url: W("Triple-negative_breast_cancer") }],
+    related: ["adc-generations", "trop2-adc-roadmap", "tnbc-history", "platinum-plus-hrd", "germline-to-parp", "src-tnbc-foundation"],
+    tags: ["spike", "breast"], drugs: ["ventana-pd-l1-sp142", "lunit-insight-mmg", "epirubicin", "ixabepilone"], trials: ["tmist"], links: [{ label: "Wikipedia", url: W("Triple-negative_breast_cancer") }], journals: ["breast-cancer-jbcs", "breast-cancer-research", "breast-cancer-research-and-treatment", "clinical-breast-cancer", "journal-of-mammary-gland-biology-and-neoplasia", "the-breast", "the-breast-journal"],
   }),
 
   // ======================= Other breast =======================
@@ -87,8 +87,8 @@ export const cancers: CancerInput[] = [
     openProblems: ["Late recurrence (up to 20+ years) with no predictive test.", "CDK4/6 resistance mechanisms and sequencing.", "Endocrine therapy adherence and toxicity."],
     targets: ["estrogen-receptor", "cdk4-6", "pik3ca", "akt", "her2", "trop2", "brca"],
     technologies: ["endocrine-therapy", "cdk46-inhibitor", "protac-degrader", "adc", "liquid-biopsy", "digital-pathology-ai", "mammography", "acupuncture-aromatase-inhibitor-arthralgia", "acupuncture-hot-flushes", "hypnosis-cancer-care", "dance-movement-therapy", "peer-support-groups", "lymphoedema-decongestive-therapy", "shark-cartilage"],
-    pathways: ["er-signaling", "pi3k-akt-mtor", "p53-cell-cycle"],
-    tags: ["breast"], people: ["murray-brunt"], drugs: ["guardant360-cdx", "therascreen-cdx", "her2-testing-assays", "caris-mi-cancer-seek", "lunit-insight-mmg", "epirubicin", "ixabepilone", "megestrol", "thiotepa", "toremifene", "raloxifene", "triptorelin", "dexrazoxane", "talc-sclerosant", "samarium-153-lexidronam", "ibandronic-acid"], trials: ["monaleesa-2", "monarch-3", "paloma-2", "solar-1", "capitello-291", "inavo120", "emerald", "ember-3", "serena-6", "evera", "persevera", "lidera", "postmonarch", "tailorx", "rxponder", "soft-text", "pallas-penelope-b", "tropics-02", "fourlight-1", "cambria", "tmist"], keyPapers: ["paper-predimed-breast-jama-im-2015", "paper-brca-risk-reducing-surgery-jama-2010"], related: ["adc-generations", "trop2-adc-roadmap", "oral-serd-plus-cdk46-after-esr1", "pi3k-pathway-plus-endocrine", "genomic-assay-to-chemo-omission", "cdk46-plus-endocrine"], links: [{ label: "Wikipedia", url: W("Breast_cancer") }],
+    pathways: ["er-signaling", "pi3k-akt-mtor", "p53-cell-cycle", "breast-cancer-signalling"],
+    tags: ["breast"], people: ["murray-brunt"], drugs: ["guardant360-cdx", "therascreen-cdx", "her2-testing-assays", "caris-mi-cancer-seek", "lunit-insight-mmg", "epirubicin", "ixabepilone", "megestrol", "thiotepa", "toremifene", "raloxifene", "triptorelin", "dexrazoxane", "talc-sclerosant", "samarium-153-lexidronam", "ibandronic-acid"], trials: ["monaleesa-2", "monarch-3", "paloma-2", "solar-1", "capitello-291", "inavo120", "emerald", "ember-3", "serena-6", "evera", "persevera", "lidera", "postmonarch", "tailorx", "rxponder", "soft-text", "pallas-penelope-b", "tropics-02", "fourlight-1", "cambria", "tmist"], keyPapers: ["paper-predimed-breast-jama-im-2015", "paper-brca-risk-reducing-surgery-jama-2010"], related: ["adc-generations", "trop2-adc-roadmap", "oral-serd-plus-cdk46-after-esr1", "pi3k-pathway-plus-endocrine", "genomic-assay-to-chemo-omission", "cdk46-plus-endocrine"], links: [{ label: "Wikipedia", url: W("Breast_cancer") }], journals: ["breast-cancer-jbcs", "breast-cancer-research", "breast-cancer-research-and-treatment", "clinical-breast-cancer", "journal-of-breast-imaging", "journal-of-mammary-gland-biology-and-neoplasia", "the-breast", "the-breast-journal"],
   }),
   c({
     id: "breast-her2-positive", name: "HER2-positive breast cancer", group: "breast", wikipedia: W("HER2-positive_breast_cancer"),
@@ -110,8 +110,8 @@ export const cancers: CancerInput[] = [
     ],
     pipeline: ["her2-pet", "zanidatamab", "disitamab-vedotin"],
     openProblems: ["Brain metastases in ~50% of metastatic patients.", "Which patients can skip chemotherapy entirely."],
-    targets: ["her2", "cdk4-6"], technologies: ["adc", "monoclonal-antibody", "kinase-inhibitors", "her2-pet"], pathways: ["pi3k-akt-mtor", "ras-mapk"],
-    tags: ["breast"], drugs: ["her2-testing-assays", "epirubicin"], trials: ["hera-b31-n9831", "cleopatra", "aphinity", "katherine", "destiny-breast05", "her2climb", "her2climb-02", "her2climb-05", "destiny-breast12", "phergain", "persephone", "apt-trial", "horizon-breast01", "ace-breast-02", "destiny-breast03", "destiny-breast09", "destiny-breast11", "tmist"], related: ["adc-generations", "tucatinib-triplet-brain-mets", "pet-adapted-her2-deescalation"], links: [{ label: "Wikipedia", url: W("HER2-positive_breast_cancer") }],
+    targets: ["her2", "cdk4-6"], technologies: ["adc", "monoclonal-antibody", "kinase-inhibitors", "her2-pet"], pathways: ["pi3k-akt-mtor", "ras-mapk", "breast-cancer-signalling"],
+    tags: ["breast"], drugs: ["her2-testing-assays", "epirubicin"], trials: ["hera-b31-n9831", "cleopatra", "aphinity", "katherine", "destiny-breast05", "her2climb", "her2climb-02", "her2climb-05", "destiny-breast12", "phergain", "persephone", "apt-trial", "horizon-breast01", "ace-breast-02", "destiny-breast03", "destiny-breast09", "destiny-breast11", "tmist"], related: ["adc-generations", "tucatinib-triplet-brain-mets", "pet-adapted-her2-deescalation"], links: [{ label: "Wikipedia", url: W("HER2-positive_breast_cancer") }], journals: ["breast-cancer-jbcs", "breast-cancer-research", "breast-cancer-research-and-treatment", "clinical-breast-cancer", "journal-of-mammary-gland-biology-and-neoplasia", "the-breast", "the-breast-journal"],
   }),
 
   // ======================= Lung =======================
@@ -142,8 +142,8 @@ export const cancers: CancerInput[] = [
     openProblems: ["Resistance to every TKI.", "Squamous histology has few targets.", "Screening uptake below 20% in the US."],
     targets: ["egfr", "alk", "kras", "met", "ret", "braf", "ntrk", "her2", "her3", "trop2", "pd1", "pdl1", "vegf"],
     technologies: ["kinase-inhibitors", "checkpoint-inhibitor", "adc", "bispecific-antibody", "sbrt", "ct", "liquid-biopsy", "cgp", "omega3-epa-cachexia", "shark-cartilage", "hydrazine-sulfate", "nhs-targeted-lung-health-check"],
-    pathways: ["ras-mapk", "pi3k-akt-mtor", "pd1-checkpoint"],
-    tags: ["lung"], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "ventana-pd-l1-sp142", "caris-mi-cancer-seek", "resolution-ctdx-first", "necitumumab", "talc-sclerosant", "samarium-153-lexidronam"], trials: ["gefitinib-chemo-tmh"], terms: ["tps", "egfr-exon19-l858r", "egfr-exon20-insertion", "c797s", "met-amplification", "histologic-transformation", "oligoprogression", "histological-subtype"], links: [{ label: "Wikipedia", url: W("Non-small-cell_lung_cancer") }],
+    pathways: ["ras-mapk", "pi3k-akt-mtor", "pd1-checkpoint", "nsclc-signalling"],
+    tags: ["lung"], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "ventana-pd-l1-sp142", "caris-mi-cancer-seek", "resolution-ctdx-first", "necitumumab", "talc-sclerosant", "samarium-153-lexidronam"], trials: ["gefitinib-chemo-tmh"], terms: ["tps", "egfr-exon19-l858r", "egfr-exon20-insertion", "c797s", "met-amplification", "histologic-transformation", "oligoprogression", "histological-subtype"], links: [{ label: "Wikipedia", url: W("Non-small-cell_lung_cancer") }], journals: ["clinical-lung-cancer", "lung-cancer-journal", "thoracic-cancer", "chinese-journal-of-lung-cancer"], companies: ["kanvas-biosciences"],
   }),
   c({
     id: "sclc", name: "Small-cell lung cancer", group: "lung", wikipedia: W("Small-cell_carcinoma"),
@@ -165,8 +165,8 @@ export const cancers: CancerInput[] = [
     ],
     pipeline: ["ifinatamab-deruxtecan", "ryz101", "tarlatamab"],
     openProblems: ["Rapid chemoresistance.", "Brain metastases.", "No screening beyond CT for smokers."],
-    targets: ["dll3", "b7h3", "pdl1", "sstr2", "tp53"], technologies: ["t-cell-engager", "adc", "checkpoint-inhibitor", "targeted-alpha-therapy", "nhs-targeted-lung-health-check"], pathways: ["p53-cell-cycle"],
-    tags: ["lung"], terms: ["limited-vs-extensive-stage", "crs", "os", "pfs", "pci-term"],
+    targets: ["dll3", "b7h3", "pdl1", "sstr2", "tp53"], technologies: ["t-cell-engager", "adc", "checkpoint-inhibitor", "targeted-alpha-therapy", "nhs-targeted-lung-health-check"], pathways: ["p53-cell-cycle", "sclc-signalling"],
+    tags: ["lung"], terms: ["limited-vs-extensive-stage", "crs", "os", "pfs", "pci-term"], journals: ["clinical-lung-cancer", "lung-cancer-journal", "thoracic-cancer", "chinese-journal-of-lung-cancer"],
   }),
 
   // ======================= GI =======================
@@ -192,8 +192,8 @@ export const cancers: CancerInput[] = [
     ],
     pipeline: ["daraxonrasib", "autogene-cevumeran", "signatera"],
     openProblems: ["MSS metastatic disease is immunotherapy-resistant.", "Early-onset CRC causes unknown.", "KRAS G12D (most common) undrugged."],
-    targets: ["kras", "braf", "egfr", "her2", "pd1", "vegf", "ntrk"], technologies: ["checkpoint-inhibitor", "kras-inhibitors", "mrd-testing", "mced", "hipec", "thermal-ablation", "probiotics-treatment-diarrhoea", "hydrazine-sulfate"], pathways: ["ras-mapk", "wnt"],
-    tags: ["gi"], people: ["chadwick-boseman", "angelita-habr-gama", "michael-bretthauer", "aimery-de-gramont"], drugs: ["therascreen-cdx", "tempus-xt-cdx", "caris-mi-cancer-seek", "oncodetect", "ziv-aflibercept", "catumaxomab", "tegafur-gimeracil-oteracil"], trials: ["nordicc"], keyPapers: ["paper-capp2-aspirin-lynch-lancet-2020", "paper-lynch-frameshift-vaccine-ccr-2020"], related: ["colorectal-cancer-alliance"],
+    targets: ["kras", "braf", "egfr", "her2", "pd1", "vegf", "ntrk"], technologies: ["checkpoint-inhibitor", "kras-inhibitors", "mrd-testing", "mced", "hipec", "thermal-ablation", "probiotics-treatment-diarrhoea", "hydrazine-sulfate"], pathways: ["ras-mapk", "wnt", "colorectal-cancer-signalling"],
+    tags: ["gi"], people: ["chadwick-boseman", "angelita-habr-gama", "michael-bretthauer", "aimery-de-gramont"], drugs: ["therascreen-cdx", "tempus-xt-cdx", "caris-mi-cancer-seek", "oncodetect", "ziv-aflibercept", "catumaxomab", "tegafur-gimeracil-oteracil"], trials: ["nordicc"], keyPapers: ["paper-capp2-aspirin-lynch-lancet-2020", "paper-lynch-frameshift-vaccine-ccr-2020"], related: ["colorectal-cancer-alliance"], journals: ["clinical-colorectal-cancer", "journal-of-gastrointestinal-cancer"], companies: ["ambagon-therapeutics"],
   }),
   c({
     id: "pancreatic", name: "Pancreatic ductal adenocarcinoma", group: "gastrointestinal", wikipedia: W("Pancreatic_cancer"),
@@ -216,8 +216,8 @@ export const cancers: CancerInput[] = [
     ],
     pipeline: ["daraxonrasib", "autogene-cevumeran", "cmg901", "fap-2286", "fapi-pet", "galleri", "satricabtagene-autoleucel"],
     openProblems: ["Late diagnosis; no screening.", "Dense stroma blocks drug delivery.", "Immunologically cold."],
-    targets: ["kras", "brca", "cldn18-2", "fap", "mesothelin", "her3"], technologies: ["kras-inhibitors", "neoantigen-mrna-vaccine", "ttfields", "fapi-pet", "mced", "car-t", "irreversible-electroporation", "omega3-epa-cachexia", "mistletoe-extracts", "gerson-therapy-detox-regimens"], pathways: ["ras-mapk", "ddr"],
-    tags: ["gi"], people: ["randy-pausch", "daniel-von-hoff"], drugs: ["catumaxomab", "tegafur-gimeracil-oteracil"], related: ["kras-roadmap", "early-detection-roadmap", "pancan", "idea-drugging-myc", "idea-nerve-tumour-blockade"], links: [{ label: "Wikipedia", url: W("Pancreatic_cancer") }],
+    targets: ["kras", "brca", "cldn18-2", "fap", "mesothelin", "her3"], technologies: ["kras-inhibitors", "neoantigen-mrna-vaccine", "ttfields", "fapi-pet", "mced", "car-t", "irreversible-electroporation", "omega3-epa-cachexia", "mistletoe-extracts", "gerson-therapy-detox-regimens"], pathways: ["ras-mapk", "ddr", "pancreatic-cancer-signalling"],
+    tags: ["gi"], people: ["randy-pausch", "daniel-von-hoff"], drugs: ["catumaxomab", "tegafur-gimeracil-oteracil"], related: ["kras-roadmap", "early-detection-roadmap", "pancan", "idea-drugging-myc", "idea-nerve-tumour-blockade"], links: [{ label: "Wikipedia", url: W("Pancreatic_cancer") }], journals: ["journal-of-gastrointestinal-cancer"], companies: ["marker-therapeutics"],
   }),
   c({
     id: "gastric", name: "Gastric & gastro-oesophageal junction cancer", group: "gastrointestinal", wikipedia: W("Stomach_cancer"),
@@ -239,8 +239,8 @@ export const cancers: CancerInput[] = [
     ],
     pipeline: ["cmg901", "satricabtagene-autoleucel", "disitamab-vedotin", "zanidatamab", "fapi-pet"],
     openProblems: ["Peritoneal metastasis.", "Heterogeneous CLDN18.2/HER2 expression.", "Screening only in Japan/Korea."],
-    targets: ["her2", "cldn18-2", "fgfr2", "pd1", "fap", "vegf"], technologies: ["adc", "car-t", "checkpoint-inhibitor", "hipec", "fapi-pet", "gastric-endoscopic-screening"], pathways: ["pi3k-akt-mtor"],
-    tags: ["gi"], people: ["mitsuru-sasako"], drugs: ["her2-testing-assays", "epirubicin", "catumaxomab", "tegafur-gimeracil-oteracil"], terms: ["cps", "siewert-classification", "lauren-classification", "peritoneal-metastasis", "msi", "neoadjuvant-adjuvant", "adcc", "ild", "flot-term"], keyPapers: ["paper-spotlight-lancet-2023"],
+    targets: ["her2", "cldn18-2", "fgfr2", "pd1", "fap", "vegf"], technologies: ["adc", "car-t", "checkpoint-inhibitor", "hipec", "fapi-pet", "gastric-endoscopic-screening"], pathways: ["pi3k-akt-mtor", "gastric-cancer-signalling"],
+    tags: ["gi"], people: ["mitsuru-sasako"], drugs: ["her2-testing-assays", "epirubicin", "catumaxomab", "tegafur-gimeracil-oteracil"], terms: ["cps", "siewert-classification", "lauren-classification", "peritoneal-metastasis", "msi", "neoadjuvant-adjuvant", "adcc", "ild", "flot-term"], keyPapers: ["paper-spotlight-lancet-2023"], journals: ["gastric-cancer", "journal-of-gastric-cancer", "journal-of-gastrointestinal-cancer"],
   }),
   c({
     id: "esophageal", name: "Oesophageal cancer", group: "gastrointestinal", wikipedia: W("Esophageal_cancer"),
@@ -257,7 +257,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["izalontamab-brengitecan"],
     openProblems: ["Late presentation.", "Squamous cell carcinoma lacks targets beyond EGFR/HER3."],
     targets: ["pd1", "egfr", "her3", "her2"], technologies: ["checkpoint-inhibitor", "bispecific-adc", "imrt-igrt", "gastric-endoscopic-screening"],
-    tags: ["gi"], trials: ["rationale-302"], terms: ["escc-vs-eac", "barretts-esophagus", "siewert-classification", "clinical-complete-response", "cps", "neoadjuvant-adjuvant", "pcr", "endoscopic-resection-term", "flot-term"], keyPapers: ["paper-spotlight-lancet-2023", "paper-alcohol-cancer-burden-lancet-oncol-2021"],
+    tags: ["gi"], trials: ["rationale-302"], terms: ["escc-vs-eac", "barretts-esophagus", "siewert-classification", "clinical-complete-response", "cps", "neoadjuvant-adjuvant", "pcr", "endoscopic-resection-term", "flot-term"], keyPapers: ["paper-spotlight-lancet-2023", "paper-alcohol-cancer-burden-lancet-oncol-2021"], journals: ["esophagus-journal"], institutions: ["jiangsu-cancer-hospital"],
   }),
   c({
     id: "hcc", name: "Hepatocellular carcinoma", group: "gastrointestinal", wikipedia: W("Hepatocellular_carcinoma"),
@@ -274,8 +274,8 @@ export const cancers: CancerInput[] = [
     history: [{ year: 2007, title: "Sorafenib: first systemic therapy" }, { year: 2020, title: "IMbrave150: atezolizumab-bevacizumab", refs: ["atezolizumab"] }],
     pipeline: ["fapi-pet"],
     openProblems: ["Liver function limits therapy.", "Surveillance uptake in cirrhosis is poor."],
-    targets: ["gpc3", "vegf", "pd1", "ctla4", "fap"], technologies: ["checkpoint-inhibitor", "antiangiogenic", "thermal-ablation", "hifu-histotripsy", "car-t", "hpv-vaccine"], pathways: ["vegf-angiogenesis", "wnt"],
-    tags: ["gi"], people: ["audre-lorde"], terms: ["afp", "child-pugh-albi", "bclc-staging", "hbv-hcv", "dosimetry", "tace-term"], keyPapers: ["paper-alcohol-cancer-burden-lancet-oncol-2021"], links: [{ label: "Wikipedia", url: W("Hepatocellular_carcinoma") }],
+    targets: ["gpc3", "vegf", "pd1", "ctla4", "fap"], technologies: ["checkpoint-inhibitor", "antiangiogenic", "thermal-ablation", "hifu-histotripsy", "car-t", "hpv-vaccine"], pathways: ["vegf-angiogenesis", "wnt", "hepatocellular-carcinoma-signalling"],
+    tags: ["gi"], people: ["audre-lorde"], terms: ["afp", "child-pugh-albi", "bclc-staging", "hbv-hcv", "dosimetry", "tace-term"], keyPapers: ["paper-alcohol-cancer-burden-lancet-oncol-2021"], links: [{ label: "Wikipedia", url: W("Hepatocellular_carcinoma") }], journals: ["journal-of-gastrointestinal-cancer"],
   }),
   c({
     id: "cholangiocarcinoma", name: "Biliary tract cancer (cholangiocarcinoma)", group: "gastrointestinal", wikipedia: W("Cholangiocarcinoma"),
@@ -318,8 +318,8 @@ export const cancers: CancerInput[] = [
     ],
     pipeline: ["ac225-psma", "ifinatamab-deruxtecan", "capivasertib", "tarlatamab"],
     openProblems: ["Overdiagnosis vs. underdiagnosis in screening.", "Neuroendocrine transformation.", "Ac-225 supply."],
-    targets: ["psma", "androgen-receptor", "parp", "brca", "akt", "b7h3", "dll3"], technologies: ["psma-pet", "radioligand-therapy", "targeted-alpha-therapy", "androgen-deprivation", "parp-inhibitor", "digital-pathology-ai", "robotic-surgery", "brachytherapy", "hifu-histotripsy", "hyperbaric-oxygen-radiation-injury"], pathways: ["ar-signaling", "pi3k-akt-mtor", "ddr"],
-    tags: ["gu"], people: ["chris-hoy"], drugs: ["paige-prostate", "mitoxantrone", "nilutamide", "triptorelin", "prednisone", "padeliporfin", "samarium-153-lexidronam"], terms: ["psa", "gleason-grade-group", "castration-resistance", "biochemical-recurrence", "psa50", "ar-v7", "theranostics", "oligometastatic", "crossover"], related: ["radiopharma-roadmap", "psma-pet-to-rlt", "beta-then-alpha", "parp-plus-arpi", "ai-pathology-to-adt"], links: [{ label: "Wikipedia", url: W("Prostate_cancer") }],
+    targets: ["psma", "androgen-receptor", "parp", "brca", "akt", "b7h3", "dll3"], technologies: ["psma-pet", "radioligand-therapy", "targeted-alpha-therapy", "androgen-deprivation", "parp-inhibitor", "digital-pathology-ai", "robotic-surgery", "brachytherapy", "hifu-histotripsy", "hyperbaric-oxygen-radiation-injury"], pathways: ["ar-signaling", "pi3k-akt-mtor", "ddr", "prostate-cancer-signalling"],
+    tags: ["gu"], people: ["chris-hoy"], drugs: ["paige-prostate", "mitoxantrone", "nilutamide", "triptorelin", "prednisone", "padeliporfin", "samarium-153-lexidronam"], terms: ["psa", "gleason-grade-group", "castration-resistance", "biochemical-recurrence", "psa50", "ar-v7", "theranostics", "oligometastatic", "crossover"], related: ["radiopharma-roadmap", "psma-pet-to-rlt", "beta-then-alpha", "parp-plus-arpi", "ai-pathology-to-adt", "src-urotoday"], links: [{ label: "Wikipedia", url: W("Prostate_cancer") }], journals: ["clinical-genitourinary-cancer", "prostate-cancer-and-prostatic-diseases", "urologic-oncology"], companies: ["halda-therapeutics"],
   }),
   c({
     id: "urothelial", name: "Bladder & urothelial cancer", group: "genitourinary", wikipedia: W("Bladder_cancer"),
@@ -336,8 +336,8 @@ export const cancers: CancerInput[] = [
     history: [{ year: 1976, title: "BCG immunotherapy for bladder cancer" }, { year: 2016, title: "Atezolizumab: first new bladder drug in 30 years" }, { year: 2023, title: "EV-302 doubles survival", refs: ["ev-302"] }, { year: 2026, title: "IMvigor011: ctDNA-guided atezolizumab approved", refs: ["imvigor011"] }],
     pipeline: ["izalontamab-brengitecan", "ak146d1", "disitamab-vedotin", "intismeran-autogene"],
     openProblems: ["BCG supply.", "Bladder preservation strategies.", "Nectin-4 ADC resistance."],
-    targets: ["nectin4", "pd1", "pdl1", "fgfr2", "her2", "trop2"], technologies: ["adc", "checkpoint-inhibitor", "mrd-testing", "bispecific-adc"], pathways: ["ras-mapk"],
-    tags: ["gu"], drugs: ["therascreen-cdx", "ventana-pd-l1-sp142", "thiotepa", "valrubicin", "vinflunine"], related: ["urethral"],
+    targets: ["nectin4", "pd1", "pdl1", "fgfr2", "her2", "trop2"], technologies: ["adc", "checkpoint-inhibitor", "mrd-testing", "bispecific-adc"], pathways: ["ras-mapk", "bladder-cancer-signalling"],
+    tags: ["gu"], drugs: ["therascreen-cdx", "ventana-pd-l1-sp142", "thiotepa", "valrubicin", "vinflunine"], related: ["urethral", "src-urotoday"], journals: ["clinical-genitourinary-cancer", "urologic-oncology"],
   }),
   c({
     id: "rcc", name: "Renal cell carcinoma", aka: ["RCC"], group: "genitourinary", wikipedia: W("Renal_cell_carcinoma"),
@@ -353,8 +353,8 @@ export const cancers: CancerInput[] = [
     history: [{ year: 1992, title: "High-dose IL-2 approved" }, { year: 2005, title: "Sorafenib/sunitinib: VEGF era" }, { year: 2018, title: "Nivolumab-ipilimumab first line" }, { year: 2021, title: "Belzutifan approved", refs: ["belzutifan"] }],
     pipeline: ["raludotatug-deruxtecan", "intismeran-autogene"],
     openProblems: ["Non-clear-cell histologies understudied.", "No validated predictive biomarker for IO."],
-    targets: ["hif2a", "vegf", "pd1", "ctla4", "cd70", "cdh6"], technologies: ["checkpoint-inhibitor", "antiangiogenic", "thermal-ablation", "sbrt", "allogeneic-cell-therapy"], pathways: ["hif-vhl", "vegf-angiogenesis"],
-    tags: ["gu"], people: ["arnaud-mejean"], terms: ["imdc-risk", "sarcomatoid-rcc", "neoadjuvant-adjuvant", "oligometastatic", "nephrectomy"],
+    targets: ["hif2a", "vegf", "pd1", "ctla4", "cd70", "cdh6"], technologies: ["checkpoint-inhibitor", "antiangiogenic", "thermal-ablation", "sbrt", "allogeneic-cell-therapy"], pathways: ["hif-vhl", "vegf-angiogenesis", "renal-cell-carcinoma-signalling"],
+    tags: ["gu"], people: ["arnaud-mejean"], terms: ["imdc-risk", "sarcomatoid-rcc", "neoadjuvant-adjuvant", "oligometastatic", "nephrectomy"], journals: ["clinical-genitourinary-cancer", "urologic-oncology"], related: ["src-urotoday"],
   }),
 
   // ======================= Gyn =======================
@@ -374,7 +374,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["raludotatug-deruxtecan", "puxitatug-samrotecan", "parp-pet", "galleri"],
     openProblems: ["No effective screening.", "PARP resistance via BRCA reversion.", "Platinum-resistant disease is the hardest setting; three drugs with survival benefit arrived in 2023-26 and each adds months, so combining and sequencing them is the next step."],
     targets: ["brca", "parp", "folr1", "cdh6", "wee1", "atr", "tp53", "mesothelin", "cldn6"], technologies: ["parp-inhibitor", "adc", "hipec", "hrd-testing", "synthetic-lethality-approaches", "mced"], pathways: ["ddr", "p53-cell-cycle"],
-    tags: ["gyn"], people: ["robert-coleman"], drugs: ["thiotepa", "amifostine", "talc-sclerosant", "catumaxomab"], keyPapers: ["paper-brca-risk-reducing-surgery-jama-2010"], related: ["parp-plus-bevacizumab", "hipec-at-interval-surgery", "caution-pd1-first-line-ovarian", "adc-generations", "ovarian-cancer-research-alliance", "paediatric-germ-cell-tumours", "idea-targeting-aneuploidy"], links: [{ label: "Wikipedia", url: W("Ovarian_cancer") }],
+    tags: ["gyn"], people: ["robert-coleman"], drugs: ["thiotepa", "amifostine", "talc-sclerosant", "catumaxomab"], keyPapers: ["paper-brca-risk-reducing-surgery-jama-2010"], related: ["parp-plus-bevacizumab", "hipec-at-interval-surgery", "caution-pd1-first-line-ovarian", "adc-generations", "ovarian-cancer-research-alliance", "paediatric-germ-cell-tumours", "idea-targeting-aneuploidy"], links: [{ label: "Wikipedia", url: W("Ovarian_cancer") }], journals: ["international-journal-of-gynecological-cancer", "journal-of-gynecologic-oncology"],
   }),
   c({
     id: "endometrial", name: "Endometrial cancer", group: "gynaecologic", wikipedia: W("Endometrial_cancer"),
@@ -390,8 +390,8 @@ export const cancers: CancerInput[] = [
     history: [{ year: 2013, title: "TCGA molecular classification" }, { year: 2023, title: "RUBY/NRG-GY018: IO first line", refs: ["dostarlimab"] }],
     pipeline: ["sacituzumab-tirumotecan", "puxitatug-samrotecan"],
     openProblems: ["p53-abnormal disease behaves like serous ovarian.", "Obesity-driven incidence rising."],
-    targets: ["pd1", "her2", "trop2", "pik3ca", "estrogen-receptor", "folr1", "wee1"], technologies: ["checkpoint-inhibitor", "adc", "antiangiogenic"], pathways: ["pi3k-akt-mtor", "pd1-checkpoint"],
-    tags: ["gyn"], drugs: ["megestrol"], keyPapers: ["paper-capp2-aspirin-lynch-lancet-2020", "paper-lynch-frameshift-vaccine-ccr-2020"], links: [{ label: "Wikipedia", url: W("Endometrial_cancer") }],
+    targets: ["pd1", "her2", "trop2", "pik3ca", "estrogen-receptor", "folr1", "wee1"], technologies: ["checkpoint-inhibitor", "adc", "antiangiogenic"], pathways: ["pi3k-akt-mtor", "pd1-checkpoint", "endometrial-cancer-signalling"],
+    tags: ["gyn"], drugs: ["megestrol"], keyPapers: ["paper-capp2-aspirin-lynch-lancet-2020", "paper-lynch-frameshift-vaccine-ccr-2020"], links: [{ label: "Wikipedia", url: W("Endometrial_cancer") }], journals: ["international-journal-of-gynecological-cancer", "journal-of-gynecologic-oncology"],
   }),
   c({
     id: "cervical", name: "Cervical cancer", group: "gynaecologic", wikipedia: W("Cervical_cancer"),
@@ -409,7 +409,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["sacituzumab-tirumotecan", "lifileucel"],
     openProblems: ["Vaccine and screening access in LMICs.", "Brachytherapy capacity."],
     targets: ["tissue-factor", "pd1", "trop2", "vegf"], technologies: ["hpv-vaccine", "brachytherapy", "adc", "checkpoint-inhibitor", "til-therapy", "probiotics-treatment-diarrhoea"],
-    tags: ["gyn"], people: ["jade-goody"], trials: ["mumbai-via-screening"], related: ["induction-chemo-then-crt", "io-plus-crt-cervical", "caution-mis-radical-hysterectomy", "radiation-plus-io", "early-detection-roadmap", "vaginal"], links: [{ label: "Wikipedia", url: W("Cervical_cancer") }],
+    tags: ["gyn"], people: ["jade-goody"], trials: ["mumbai-via-screening"], related: ["induction-chemo-then-crt", "io-plus-crt-cervical", "caution-mis-radical-hysterectomy", "radiation-plus-io", "early-detection-roadmap", "vaginal"], links: [{ label: "Wikipedia", url: W("Cervical_cancer") }], journals: ["international-journal-of-gynecological-cancer", "journal-of-gynecologic-oncology"], companies: ["color-health"], institutions: ["tikur-anbessa-hospital"],
   }),
 
   // ======================= Skin / CNS / H&N =======================
@@ -435,8 +435,8 @@ export const cancers: CancerInput[] = [
     ],
     pipeline: ["intismeran-autogene", "vusolimogene-oderparepvec", "lifileucel", "tebentafusp"],
     openProblems: ["Primary IO resistance in ~40%.", "Uveal and mucosal subtypes.", "Brain metastases."],
-    targets: ["pd1", "ctla4", "lag3", "braf", "kit", "gp100", "mage-a4"], technologies: ["checkpoint-inhibitor", "til-therapy", "oncolytic-virus", "neoantigen-mrna-vaccine", "kinase-inhibitors", "t-cell-engager", "tcr-t", "mistletoe-extracts", "gerson-therapy-detox-regimens"], pathways: ["pd1-checkpoint", "ras-mapk"],
-    tags: ["skin"], drugs: ["vemurafenib", "binimetinib", "cobimetinib", "brenetafusp", "fianlimab", "caris-mi-cancer-seek", "dacarbazine", "tasonermin"], links: [{ label: "Wikipedia", url: W("Melanoma") }],
+    targets: ["pd1", "ctla4", "lag3", "braf", "kit", "gp100", "mage-a4"], technologies: ["checkpoint-inhibitor", "til-therapy", "oncolytic-virus", "neoantigen-mrna-vaccine", "kinase-inhibitors", "t-cell-engager", "tcr-t", "mistletoe-extracts", "gerson-therapy-detox-regimens"], pathways: ["pd1-checkpoint", "ras-mapk", "melanoma-signalling"],
+    tags: ["skin"], drugs: ["vemurafenib", "binimetinib", "cobimetinib", "brenetafusp", "fianlimab", "caris-mi-cancer-seek", "dacarbazine", "tasonermin"], links: [{ label: "Wikipedia", url: W("Melanoma") }], journals: ["melanoma-research", "pigment-cell-and-melanoma-research"], companies: ["microbiotica"],
   }),
   c({
     id: "glioblastoma", name: "Glioma & glioblastoma", group: "central nervous system", wikipedia: W("Glioblastoma"),
@@ -453,7 +453,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["armored-car", "bnct", "hyperthermia"],
     openProblems: ["Blood-brain barrier.", "Immunologically cold, heterogeneous, infiltrative.", "Glioblastoma: no systemic drug has beaten the 2005 standard; getting drugs across the blood-brain barrier is the crux."],
     targets: ["idh", "egfr", "tp53"], technologies: ["ttfields", "epigenetic-drugs", "fluorescence-guided-surgery", "methylation-profiling", "car-t", "hifu-histotripsy", "mri", "bnct", "antineoplastons"],
-    tags: ["cns"], drugs: ["carmustine", "procarbazine"], terms: ["mgmt", "h3k27m", "egfrviii", "blood-brain-barrier", "cold-vs-hot", "accelerated-approval", "re-irradiation"], related: ["cell-therapy-roadmap", "immunotherapy-roadmap", "national-brain-tumor-society"], links: [{ label: "Wikipedia", url: W("Glioblastoma") }],
+    tags: ["cns"], drugs: ["carmustine", "procarbazine"], terms: ["mgmt", "h3k27m", "egfrviii", "blood-brain-barrier", "cold-vs-hot", "accelerated-approval", "re-irradiation"], related: ["cell-therapy-roadmap", "immunotherapy-roadmap", "national-brain-tumor-society"], links: [{ label: "Wikipedia", url: W("Glioblastoma") }], pathways: ["glioma-signalling"], journals: ["brain-tumor-pathology", "cns-oncology", "journal-of-neuro-oncology"],
   }),
   c({
     id: "head-and-neck", name: "Head and neck squamous cell carcinoma", group: "head and neck", wikipedia: W("Head_and_neck_cancer"),
@@ -470,7 +470,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["tilatamig-samrotecan", "lifileucel"],
     openProblems: ["Functional toxicity of chemoradiation.", "Few targets beyond EGFR/PD-1."],
     targets: ["pd1", "egfr", "pik3ca", "b7h3"], technologies: ["checkpoint-inhibitor", "photoimmunotherapy", "bnct", "proton-therapy", "hpv-vaccine", "robotic-surgery", "acupuncture-xerostomia", "glutamine-mucositis-neuropathy", "honey-radiation-mucositis", "hyperbaric-oxygen-radiation-injury"],
-    tags: ["head-neck"], drugs: ["toripalimab", "petosemtamab", "ficerafusp-alfa", "cetuximab-sarotalocan", "amifostine", "temoporfin"], links: [{ label: "Wikipedia", url: W("Head_and_neck_cancer") }],
+    tags: ["head-neck"], drugs: ["toripalimab", "petosemtamab", "ficerafusp-alfa", "cetuximab-sarotalocan", "amifostine", "temoporfin"], links: [{ label: "Wikipedia", url: W("Head_and_neck_cancer") }], journals: ["head-and-neck-journal", "head-and-neck-pathology", "oral-oncology"],
   }),
 
   // ======================= Rare solid =======================
@@ -505,8 +505,8 @@ export const cancers: CancerInput[] = [
     history: [{ year: 1946, title: "Radioactive iodine: first theranostic" }, { year: 2020, title: "Selpercatinib approved", refs: ["selpercatinib"] }],
     pipeline: ["selpercatinib"],
     openProblems: ["Overdiagnosis of microcarcinoma.", "Anaplastic thyroid cancer: BRAF V600E cases now respond to dabrafenib-trametinib, often enough to allow surgery; the 60% without the mutation still have few options."],
-    targets: ["ret", "braf", "ntrk"], technologies: ["kinase-inhibitors", "radioligand-therapy", "ultrasound"], pathways: ["ras-mapk"],
-    tags: ["endocrine"], drugs: ["radioactive-iodine", "vandetanib", "selpercatinib", "pralsetinib", "dabrafenib-trametinib", "afirma", "thyrotropin-alfa"], links: [{ label: "Wikipedia", url: W("Thyroid_cancer") }],
+    targets: ["ret", "braf", "ntrk"], technologies: ["kinase-inhibitors", "radioligand-therapy", "ultrasound"], pathways: ["ras-mapk", "thyroid-cancer-signalling"],
+    tags: ["endocrine"], drugs: ["radioactive-iodine", "vandetanib", "selpercatinib", "pralsetinib", "dabrafenib-trametinib", "afirma", "thyrotropin-alfa"], links: [{ label: "Wikipedia", url: W("Thyroid_cancer") }], journals: ["endocrine-related-cancer", "european-thyroid-journal"],
   }),
   c({
     id: "neuroendocrine", name: "Neuroendocrine tumours", group: "endocrine", wikipedia: W("Neuroendocrine_tumor"),
@@ -523,7 +523,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["ryz101"],
     openProblems: ["Neuroendocrine carcinoma (high grade) behaves like SCLC.", "Sequencing of PRRT vs targeted therapy."],
     targets: ["sstr2"], technologies: ["radioligand-therapy", "targeted-alpha-therapy", "pet"],
-    tags: ["endocrine"], people: ["steve-jobs"], drugs: ["iobenguane-i-131", "telotristat-ethyl"], links: [{ label: "Wikipedia", url: W("Neuroendocrine_tumor") }],
+    tags: ["endocrine"], people: ["steve-jobs"], drugs: ["iobenguane-i-131", "telotristat-ethyl"], links: [{ label: "Wikipedia", url: W("Neuroendocrine_tumor") }], journals: ["endocrine-related-cancer"],
   }),
   c({
     id: "mesothelioma", name: "Mesothelioma", group: "thoracic", wikipedia: W("Mesothelioma"),
@@ -551,7 +551,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["armored-car"],
     openProblems: ["Relapsed high-risk disease.", "Long-term toxicity of intensive therapy."],
     targets: ["alk"], technologies: ["car-t", "monoclonal-antibody", "radioligand-therapy", "proton-therapy"],
-    tags: ["paediatric"], trials: ["ccss"], links: [{ label: "Wikipedia", url: W("Neuroblastoma") }],
+    tags: ["paediatric"], trials: ["ccss"], links: [{ label: "Wikipedia", url: W("Neuroblastoma") }], journals: ["journal-of-pediatric-hematology-oncology", "pediatric-hematology-and-oncology"], related: ["paediatric-oncology-roadmap"],
   }),
 
   // ======================= Haematologic =======================
@@ -570,8 +570,8 @@ export const cancers: CancerInput[] = [
     history: [{ year: 1973, title: "7+3 regimen" }, { year: 2000, title: "Gemtuzumab: first ADC", refs: ["gemtuzumab-ozogamicin"] }, { year: 2017, title: "Midostaurin, enasidenib, gemtuzumab re-approval" }, { year: 2024, title: "Revumenib: first menin inhibitor", refs: ["revumenib"] }],
     pipeline: ["revumenib", "venetoclax"],
     openProblems: ["TP53-mutant AML: no drug class has yet improved survival, so it is the priority for new mechanisms.", "Older patients."],
-    targets: ["flt3", "idh", "menin", "bcl2", "cd33", "cd123", "cd47", "tp53", "cd70"], technologies: ["epigenetic-drugs", "adc", "kinase-inhibitors", "allogeneic-cell-therapy"], pathways: ["apoptosis-bcl2"],
-    tags: ["heme"], people: ["hartmut-dohner", "uwe-platzbecker", "pierre-fenaux"], drugs: ["decitabine", "idarubicin", "mitoxantrone", "rasburicase", "histamine-dihydrochloride", "dorocubicel"], trials: ["aaml0531"],
+    targets: ["flt3", "idh", "menin", "bcl2", "cd33", "cd123", "cd47", "tp53", "cd70"], technologies: ["epigenetic-drugs", "adc", "kinase-inhibitors", "allogeneic-cell-therapy"], pathways: ["apoptosis-bcl2", "aml-signalling"],
+    tags: ["heme"], people: ["hartmut-dohner", "uwe-platzbecker", "pierre-fenaux"], drugs: ["decitabine", "idarubicin", "mitoxantrone", "rasburicase", "histamine-dihydrochloride", "dorocubicel"], trials: ["aaml0531"], journals: ["blood-cancer-discovery", "blood-cancer-journal", "clinical-lymphoma-myeloma-and-leukemia", "current-hematologic-malignancy-reports", "haematologica", "hematology-oncology-and-stem-cell-therapy", "journal-of-hematology-and-oncology", "leukemia-and-lymphoma", "leukemia-research"],
   }),
   c({
     id: "all-leukemia", name: "Acute lymphoblastic leukaemia", group: "haematologic", wikipedia: W("Acute_lymphoblastic_leukemia"),
@@ -585,7 +585,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["revumenib"],
     openProblems: ["Adult ALL outcomes.", "CD19-negative relapse."],
     targets: ["cd19", "cd3", "menin", "cd7"], technologies: ["t-cell-engager", "car-t", "kinase-inhibitors"],
-    tags: ["heme"], people: ["gertrude-elion"], drugs: ["clonoseq", "clofarabine", "nelarabine", "prednisone", "dexrazoxane", "rasburicase", "dorocubicel"], trials: ["ccss"], terms: ["ph-positive-all", "mrd-negative-cr", "crs", "icans", "pci-term"],
+    tags: ["heme"], people: ["gertrude-elion"], drugs: ["clonoseq", "clofarabine", "nelarabine", "prednisone", "dexrazoxane", "rasburicase", "dorocubicel"], trials: ["ccss"], terms: ["ph-positive-all", "mrd-negative-cr", "crs", "icans", "pci-term"], journals: ["journal-of-pediatric-hematology-oncology", "journal-of-pediatric-hematology-oncology-nursing", "pediatric-hematology-and-oncology"], related: ["paediatric-oncology-roadmap"],
   }),
   c({
     id: "dlbcl", name: "Diffuse large B-cell lymphoma", group: "haematologic", wikipedia: W("Diffuse_large_B-cell_lymphoma"),
@@ -603,7 +603,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["zilovertamab-vedotin"],
     openProblems: ["Primary refractory disease.", "CAR-T access and cost."],
     targets: ["cd19", "cd20", "cd3", "ror1", "bcl2", "ezh2", "cd47"], technologies: ["car-t", "t-cell-engager", "adc", "monoclonal-antibody"], pathways: ["apoptosis-bcl2"],
-    tags: ["heme"], drugs: ["clonoseq", "carmustine", "prednisone", "palifermin", "rasburicase"], related: ["car-t-before-transplant-lbcl", "bispecific-plus-adc-lymphoma", "lymphoma-research-foundation"], links: [{ label: "Wikipedia", url: W("Diffuse_large_B-cell_lymphoma") }],
+    tags: ["heme"], drugs: ["clonoseq", "carmustine", "prednisone", "palifermin", "rasburicase"], related: ["car-t-before-transplant-lbcl", "bispecific-plus-adc-lymphoma", "lymphoma-research-foundation"], links: [{ label: "Wikipedia", url: W("Diffuse_large_B-cell_lymphoma") }], journals: ["blood-cancer-discovery", "blood-cancer-journal", "clinical-lymphoma-myeloma-and-leukemia", "current-hematologic-malignancy-reports", "haematologica", "hematological-oncology", "leukemia-and-lymphoma"], companies: ["marker-therapeutics"],
   }),
   c({
     id: "cll", name: "Chronic lymphocytic leukaemia", group: "haematologic", wikipedia: W("Chronic_lymphocytic_leukemia"),
@@ -617,7 +617,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["venetoclax"],
     openProblems: ["Double-refractory disease.", "Richter transformation."],
     targets: ["bcl2", "cd19", "cd20", "ror1"], technologies: ["kinase-inhibitors", "car-t", "protac-degrader"], pathways: ["apoptosis-bcl2"],
-    tags: ["heme"], drugs: ["clonoseq", "alemtuzumab", "chlorambucil", "fludarabine", "prednisone", "ofatumumab", "rasburicase"],
+    tags: ["heme"], drugs: ["clonoseq", "alemtuzumab", "chlorambucil", "fludarabine", "prednisone", "ofatumumab", "rasburicase"], journals: ["blood-cancer-discovery", "blood-cancer-journal", "clinical-lymphoma-myeloma-and-leukemia", "current-hematologic-malignancy-reports", "haematologica", "journal-of-hematology-and-oncology", "leukemia-and-lymphoma"],
   }),
   c({
     id: "multiple-myeloma", drugs: ["elotuzumab", "panobinostat", "sipuleucel-t", "fluciclovine-f18", "aminolevulinic-acid-gleolan", "pegulicianine", "clonoseq", "carmustine", "palifermin"], name: "Multiple myeloma", group: "haematologic", wikipedia: W("Multiple_myeloma"),
@@ -634,7 +634,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["teclistamab", "ciltacabtagene-autoleucel"],
     openProblems: ["High-risk cytogenetics.", "Infections with T-cell redirecting therapy.", "Cost and access."],
     targets: ["bcma", "gprc5d", "cd38", "cd3"], technologies: ["car-t", "t-cell-engager", "adc", "protac-degrader", "whole-body-mri", "mrd-testing"],
-    tags: ["heme"], people: ["maria-victoria-mateos", "meletios-dimopoulos"], related: ["cd38-plus-triplet", "bcma-then-gprc5d", "bispecific-infection-prophylaxis", "mmrf"], links: [{ label: "Wikipedia", url: W("Multiple_myeloma") }],
+    tags: ["heme"], people: ["maria-victoria-mateos", "meletios-dimopoulos"], related: ["cd38-plus-triplet", "bcma-then-gprc5d", "bispecific-infection-prophylaxis", "mmrf"], links: [{ label: "Wikipedia", url: W("Multiple_myeloma") }], journals: ["blood-cancer-discovery", "blood-cancer-journal", "clinical-lymphoma-myeloma-and-leukemia", "current-hematologic-malignancy-reports", "haematologica", "journal-of-hematology-and-oncology"],
   }),
   c({
     id: "hodgkin-lymphoma", name: "Hodgkin lymphoma", group: "haematologic", wikipedia: W("Hodgkin_lymphoma"),
@@ -648,6 +648,6 @@ export const cancers: CancerInput[] = [
     pipeline: [],
     openProblems: ["Late toxicity in survivors.", "Older patients."],
     targets: ["pd1"], technologies: ["adc", "checkpoint-inhibitor", "fdg-pet"],
-    tags: ["heme"], drugs: ["carmustine", "chlorambucil", "dacarbazine", "mechlorethamine", "procarbazine", "prednisone", "palifermin"], trials: ["ccss"], links: [{ label: "Wikipedia", url: W("Hodgkin_lymphoma") }],
+    tags: ["heme"], drugs: ["carmustine", "chlorambucil", "dacarbazine", "mechlorethamine", "procarbazine", "prednisone", "palifermin"], trials: ["ccss"], links: [{ label: "Wikipedia", url: W("Hodgkin_lymphoma") }], journals: ["hematological-oncology", "journal-of-adolescent-and-young-adult-oncology"],
   }),
 ];

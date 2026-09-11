@@ -48,14 +48,14 @@ const LINKER_TEXT: Record<string, { tldr: string; summary: string; aka?: string[
 const payloadTerms: TermInput[] = payloads.map((p) => {
   const x = PAYLOAD_TEXT[p.id];
   const cls = CLASS_TEXT.find((c) => c.matchClass === p.class);
-  return t({ id: p.id, name: p.name, aka: [...(x?.aka ?? []), ...(p.aka ? [p.aka] : [])].filter((a, i, arr) => arr.indexOf(a) === i), tldr: x?.tldr ?? `${p.name}: an ADC payload of the ${p.class.toLowerCase()} class.`, summary: x?.summary ?? p.mechanism, wikipedia: x?.wikipedia, drugs: p.adcs, technologies: ["adc"], terms: ["payload", ...(cls ? [cls.id] : [])], related: x?.related ?? [], ...(x?.links ? { links: x.links } : {}) });
+  return t({ id: p.id, name: p.name, aka: [...(x?.aka ?? []), ...(p.aka ? [p.aka] : [])].filter((a, i, arr) => arr.indexOf(a) === i), tldr: x?.tldr ?? `${p.name}: an ADC payload of the ${p.class.toLowerCase()} class.`, summary: x?.summary ?? p.mechanism, wikipedia: x?.wikipedia, drugs: p.adcs, technologies: ["adc"], terms: ["payload", ...(cls ? [cls.id] : [])], related: x?.related ?? [], ...(x?.links ? { links: x.links } : x?.wikipedia ? { links: [{ label: "Wikipedia", url: x.wikipedia }] } : {}) });
 });
 
-const classTerms: TermInput[] = CLASS_TEXT.map((c) => t({ id: c.id, name: c.name, aka: c.aka, wikipedia: c.wikipedia, tldr: c.tldr, summary: c.summary, technologies: ["adc"], terms: ["payload"], drugs: [...new Set(payloads.filter((p) => p.class === c.matchClass).flatMap((p) => p.adcs))], related: c.related }));
+const classTerms: TermInput[] = CLASS_TEXT.map((c) => t({ id: c.id, name: c.name, aka: c.aka, wikipedia: c.wikipedia, tldr: c.tldr, summary: c.summary, technologies: ["adc"], terms: ["payload"], drugs: [...new Set(payloads.filter((p) => p.class === c.matchClass).flatMap((p) => p.adcs))], related: c.related, ...(c.wikipedia ? { links: [{ label: "Wikipedia", url: c.wikipedia }] } : {}) }));
 
 const linkerTerms: TermInput[] = linkers.map((l) => {
   const x = LINKER_TEXT[l.id];
-  return t({ id: l.id, name: l.name, aka: x?.aka ?? [], wikipedia: x?.wikipedia, tldr: x?.tldr ?? `${l.name}: a ${l.type} ADC linker.`, summary: x?.summary ?? `${l.trigger} ${l.releases}`, drugs: l.adcs, technologies: ["adc"], terms: ["linker"], related: x?.related ?? [], ...(x?.links ? { links: x.links } : {}) });
+  return t({ id: l.id, name: l.name, aka: x?.aka ?? [], wikipedia: x?.wikipedia, tldr: x?.tldr ?? `${l.name}: a ${l.type} ADC linker.`, summary: x?.summary ?? `${l.trigger} ${l.releases}`, drugs: l.adcs, technologies: ["adc"], terms: ["linker"], related: x?.related ?? [], ...(x?.links ? { links: x.links } : x?.wikipedia ? { links: [{ label: "Wikipedia", url: x.wikipedia }] } : {}) });
 });
 
 /** Payloads, payload classes and linkers as glossary objects, so every cell in the registry links somewhere. */

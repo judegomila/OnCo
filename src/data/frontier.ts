@@ -159,7 +159,7 @@ const frontierRadical: EntityInput[] = [
     limitations: ["Requires direct injection and a specialised field applicator", "Uneven particle distribution gives uneven heating", "Very few centres; a troubled commercial history"],
     technologies: ["hyperthermia", "thermal-ablation", "imrt-igrt"], cancers: ["glioblastoma", "prostate"],
     tags: ["frontier"],
-    links: [{ label: "NanoTherm adjuvant GBM phase 2 (NCT06271421)", url: "https://clinicaltrials.gov/study/NCT06271421" }],
+    links: [{ label: "NanoTherm adjuvant GBM phase 2 (NCT06271421)", url: "https://clinicaltrials.gov/study/NCT06271421" }], journals: ["international-journal-of-hyperthermia"],
   },
   {
     id: "photothermal-nanoparticles", kind: "technology", name: "Photothermal (plasmonic) nanoparticle ablation", sections: ["devices", "surgery"], status: "phase-2", asOf: RAD,
@@ -280,7 +280,7 @@ const frontierRadical: EntityInput[] = [
     limitations: ["Weight gain must translate into function and survival", "Cachexia is multifactorial; GDF-15 is one pathway", "Phase 3 data pending"],
     technologies: ["geriatric-assessment", "exercise-oncology"], cancers: ["pancreatic", "nsclc"], companies: ["pfizer"],
     tags: ["frontier", "promising"],
-    links: [{ label: "Ponsegromab phase 2/3 in PDAC cachexia (NCT06989437)", url: "https://clinicaltrials.gov/study/NCT06989437" }, { label: "Phase 2 (NCT05546476)", url: "https://clinicaltrials.gov/study/NCT05546476" }],
+    links: [{ label: "Ponsegromab phase 2/3 in PDAC cachexia (NCT06989437)", url: "https://clinicaltrials.gov/study/NCT06989437" }, { label: "Phase 2 (NCT05546476)", url: "https://clinicaltrials.gov/study/NCT05546476" }], journals: ["journal-of-cachexia-sarcopenia-and-muscle"],
   },
   {
     id: "chronotherapy", kind: "technology", name: "Chronotherapy: timing treatment to the body clock", sections: ["chemotherapy", "immunotherapy", "supportive-care", "nutrition-lifestyle"], status: "phase-2", asOf: RAD,

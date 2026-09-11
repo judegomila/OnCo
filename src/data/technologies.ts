@@ -12,7 +12,7 @@ export const technologies: TechnologyInput[] = [
     principle: "A rotating X-ray source and detector measure attenuation, which is reconstructed into cross-sectional images. Iodinated contrast highlights vasculature.",
     strengths: ["Fast, ubiquitous", "Sub-millimetre resolution", "Standard for RECIST response"],
     limitations: ["Anatomic only; cannot distinguish scar from live tumour", "Radiation dose", "Poor for brain, marrow, and small peritoneal disease"],
-    terms: ["recist"], links: [{ label: "Wikipedia", url: W("CT_scan") }],
+    terms: ["recist"], links: [{ label: "Wikipedia", url: W("CT_scan") }], companies: ["nucleo-research", "onc-ai", "quantum-surgical", "xact-robotics"],
   },
   {
     id: "mri", kind: "technology", name: "MRI", sections: ["imaging"], status: "standard-of-care", asOf, since: 1977, wikipedia: W("Magnetic_resonance_imaging"),
@@ -20,7 +20,7 @@ export const technologies: TechnologyInput[] = [
     summary: "Superior soft-tissue contrast makes MRI the standard for brain tumours, prostate (multiparametric MRI with PI-RADS), rectal cancer staging, liver lesions, breast screening in high-risk women, and bone marrow. Diffusion-weighted imaging adds cellularity information. Whole-body MRI is used in myeloma and for radiation-free surveillance.",
     principle: "Proton spin alignment in a strong magnetic field; radiofrequency excitation and relaxation times (T1, T2) encode tissue properties. Gadolinium contrast shows perfusion.",
     strengths: ["No ionising radiation", "Best soft-tissue and brain imaging", "Functional sequences (diffusion, perfusion)"],
-    limitations: ["Slow and expensive", "Motion artefacts", "Gadolinium concerns in renal impairment"], links: [{ label: "Wikipedia", url: W("Magnetic_resonance_imaging") }],
+    limitations: ["Slow and expensive", "Motion artefacts", "Gadolinium concerns in renal impairment"], links: [{ label: "Wikipedia", url: W("Magnetic_resonance_imaging") }], journals: ["cancer-imaging", "radiology-imaging-cancer"], companies: ["adialante", "monteris-medical"],
   },
   {
     id: "ultrasound", kind: "technology", name: "Ultrasound", sections: ["imaging"], status: "standard-of-care", asOf, wikipedia: W("Medical_ultrasound"),
@@ -39,7 +39,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Proven mortality benefit", "Cheap and scalable"],
     limitations: ["Reduced sensitivity in dense breasts", "Overdiagnosis of indolent lesions"],
     cancers: ["tnbc", "breast-hr-positive", "breast-her2-positive"],
-    technologies: ["radiology-ai-screening"], people: ["kris-hallenga", "betty-ford", "nancy-brinker"], trials: ["tmist"], links: [{ label: "Wikipedia", url: W("Mammography") }],
+    technologies: ["radiology-ai-screening"], people: ["kris-hallenga", "betty-ford", "nancy-brinker"], trials: ["tmist"], links: [{ label: "Wikipedia", url: W("Mammography") }], journals: ["journal-of-breast-imaging"], companies: ["kheiron-medical-technologies", "therapixel", "vara", "volpara-health"],
   },
   {
     id: "pet", kind: "technology", name: "PET (positron emission tomography)", sections: ["imaging"], status: "standard-of-care", asOf, since: 1975, wikipedia: W("Positron_emission_tomography"),
@@ -48,7 +48,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Positron-emitting isotopes (18F, 68Ga, 89Zr, 64Cu) attached to a targeting molecule; coincidence detection of 511 keV photons; standardised uptake value (SUV) quantifies uptake.",
     strengths: ["Whole-body biology in one scan", "Quantitative", "Any target with a ligand can in principle be imaged"],
     limitations: ["Resolution ~4 mm", "Tracer supply and cost", "Inflammation confounds FDG"],
-    technologies: ["fdg-pet", "psma-pet", "fapi-pet", "trop2-pet", "her2-pet", "immuno-pet", "parp-pet"], related: ["molecular-imaging-roadmap"], links: [{ label: "Wikipedia", url: W("Positron_emission_tomography") }],
+    technologies: ["fdg-pet", "psma-pet", "fapi-pet", "trop2-pet", "her2-pet", "immuno-pet", "parp-pet"], related: ["molecular-imaging-roadmap"], links: [{ label: "Wikipedia", url: W("Positron_emission_tomography") }], companies: ["alpha-9-oncology", "evergreen-theragnostics"],
   },
   {
     id: "pet-ct", kind: "technology", name: "PET/CT", sections: ["imaging"], status: "standard-of-care", asOf, since: 2001, wikipedia: W("PET-CT"),
@@ -57,7 +57,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Sequential PET and CT acquisition on one gantry; CT provides attenuation correction and anatomic localisation.",
     strengths: ["Anatomy plus biology", "Standard for lymphoma, lung, melanoma, head and neck staging"],
     limitations: ["CT radiation added to PET dose"],
-    technologies: ["pet", "ct"], drugs: ["fludeoxyglucose-f18"], related: ["molecular-imaging-roadmap"], links: [{ label: "Wikipedia", url: W("PET-CT") }],
+    technologies: ["pet", "ct"], drugs: ["fludeoxyglucose-f18"], related: ["molecular-imaging-roadmap"], links: [{ label: "Wikipedia", url: W("PET-CT") }], journals: ["cancer-imaging", "radiology-imaging-cancer"],
   },
   {
     id: "pet-mri", kind: "technology", name: "PET/MRI", sections: ["imaging"], status: "established", asOf, since: 2010, wikipedia: W("PET-MRI"),
@@ -152,7 +152,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Gamma cameras detect single photons from 99mTc, 111In, 177Lu; rotating acquisition reconstructs 3D distribution.",
     strengths: ["Cheap, widespread", "Dosimetry for radioligand therapy"],
     limitations: ["Lower resolution and sensitivity than PET"],
-    technologies: ["radioligand-therapy"], links: [{ label: "Wikipedia", url: W("Single-photon_emission_computed_tomography") }],
+    technologies: ["radioligand-therapy"], links: [{ label: "Wikipedia", url: W("Single-photon_emission_computed_tomography") }], companies: ["atomic-alchemy"],
   },
   {
     id: "whole-body-mri", kind: "technology", name: "Whole-body MRI", sections: ["imaging", "early-detection"], status: "established", asOf,
@@ -162,7 +162,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["No radiation, so repeatable", "Bone marrow sensitivity"],
     limitations: ["Long scan", "Incidental findings in screening use"],
     technologies: ["mri"],
-    cancers: ["multiple-myeloma", "prostate"],
+    cancers: ["multiple-myeloma", "prostate"], companies: ["adialante"],
   },
   {
     id: "radiology-ai-screening", kind: "technology", name: "AI in radiology", sections: ["imaging", "ai-computation"], status: "established", asOf, wikipedia: W("Artificial_intelligence_in_healthcare"),
@@ -171,7 +171,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Deep convolutional and transformer networks trained on labelled imaging; increasingly self-supervised on large unlabelled corpora.",
     strengths: ["Scales expert reading", "Reduces workload and inter-reader variability"],
     limitations: ["Dataset shift across scanners and populations", "Regulatory lag for adaptive models"],
-    technologies: ["mammography", "ct", "mri"], related: ["ai-oncology-clinic"], links: [{ label: "Wikipedia", url: W("Artificial_intelligence_in_healthcare") }],
+    technologies: ["mammography", "ct", "mri"], related: ["ai-oncology-clinic"], links: [{ label: "Wikipedia", url: W("Artificial_intelligence_in_healthcare") }], companies: ["kheiron-medical-technologies", "nucleo-research", "therapixel", "vara", "volpara-health"],
   },
   {
     id: "optical-imaging", kind: "technology", name: "Optical & fluorescence imaging", sections: ["imaging", "surgery"], status: "established", asOf, wikipedia: W("Fluorescence_image-guided_surgery"),
@@ -179,7 +179,7 @@ export const technologies: TechnologyInput[] = [
     summary: "Indocyanine green for lymphatic mapping and perfusion; 5-ALA (Gleolan) for glioma resection; pafolacianine (Cytalux, folate-receptor targeted) for ovarian and lung cancer; pegulicianine (Lumisight) for breast lumpectomy margin assessment. Targeted near-infrared probes against EGFR, CEA, and PSMA are in trials.",
     principle: "Fluorophores excited by visible or near-infrared light; camera systems overlay fluorescence onto the surgical view.",
     strengths: ["Real-time intraoperative", "Reduces positive margins"],
-    limitations: ["Penetration depth of millimetres", "Needs dedicated camera systems"], links: [{ label: "Wikipedia", url: W("Fluorescence_image-guided_surgery") }],
+    limitations: ["Penetration depth of millimetres", "Needs dedicated camera systems"], links: [{ label: "Wikipedia", url: W("Fluorescence_image-guided_surgery") }], companies: ["bikanta", "nearwave", "perimeter-medical-imaging-ai", "vergent-bioscience"],
   },
 
   // ======================= DIAGNOSTICS =======================
@@ -190,7 +190,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Formalin-fixed paraffin-embedded tissue sectioned, stained, and interpreted by a pathologist; antibody-based chromogenic detection of proteins.",
     strengths: ["Cheap, fast, universal", "Companion diagnostic for most targeted drugs"],
     limitations: ["Subjective scoring", "Single-site sampling misses heterogeneity"],
-    terms: ["ihc", "her2-low", "tils"], links: [{ label: "Wikipedia", url: W("Immunohistochemistry") }],
+    terms: ["ihc", "her2-low", "tils"], links: [{ label: "Wikipedia", url: W("Immunohistochemistry") }], journals: ["analytical-cellular-pathology", "cancer-cytopathology", "head-and-neck-pathology", "pathology-and-oncology-research"], companies: ["cyted-health", "digistain", "histowiz", "ibex-medical-analytics"],
   },
   {
     id: "cgp", kind: "technology", name: "Comprehensive genomic profiling", sections: ["diagnostics"], status: "standard-of-care", asOf, wikipedia: W("Cancer_genome_sequencing"),
@@ -200,7 +200,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["One test, all actionable alterations", "Trial matching"],
     limitations: ["Tissue quantity", "VUS interpretation", "2-3 week turnaround"],
     terms: ["ngs", "tmb", "msi", "vus"],
-    companies: ["foundation-medicine", "tempus", "caris", "guardant-health"], people: ["razelle-kurzrock"], links: [{ label: "Wikipedia", url: W("Cancer_genome_sequencing") }],
+    companies: ["foundation-medicine", "tempus", "caris", "guardant-health", "billiontoone", "cambridge-cancer-genomics", "data-driven-bioscience", "fidocure", "inivata", "lucence", "omanta", "oncobox", "yemaachi-biotech"], people: ["razelle-kurzrock"], links: [{ label: "Wikipedia", url: W("Cancer_genome_sequencing") }], journals: ["cancer-genetics", "cancer-genomics-and-proteomics", "genes-chromosomes-and-cancer", "nar-cancer"],
   },
   {
     id: "wes-wgs", kind: "technology", name: "Whole-exome & whole-genome sequencing", sections: ["diagnostics", "drug-discovery"], status: "established", asOf, wikipedia: W("Whole_genome_sequencing"),
@@ -209,7 +209,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Shotgun sequencing of the whole genome (or exon-captured fraction) at 30-100x depth, tumour-normal paired.",
     strengths: ["Unbiased", "Signatures and structural variants"],
     limitations: ["Cost, data volume, interpretation", "Lower depth than panels for subclonal variants"],
-    terms: ["mutational-signature", "hrd"], companies: ["valius"], related: ["idea-ecdna-targeting"], links: [{ label: "Wikipedia", url: W("Whole_genome_sequencing") }],
+    terms: ["mutational-signature", "hrd"], companies: ["valius", "c2i-genomics", "haystack-oncology", "isabl"], related: ["idea-ecdna-targeting"], links: [{ label: "Wikipedia", url: W("Whole_genome_sequencing") }],
   },
   {
     id: "rna-seq", kind: "technology", name: "RNA sequencing & expression profiling", sections: ["diagnostics"], status: "established", asOf, wikipedia: W("RNA-Seq"),
@@ -218,7 +218,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Reverse transcription of RNA to cDNA and sequencing; counts per gene quantify expression.",
     strengths: ["Fusion detection", "Functional state, not just genotype"],
     limitations: ["RNA degrades in FFPE", "Bulk averages over cell types"],
-    terms: ["gene-fusion", "pam50"], links: [{ label: "Wikipedia", url: W("RNA-Seq") }],
+    terms: ["gene-fusion", "pam50"], links: [{ label: "Wikipedia", url: W("RNA-Seq") }], companies: ["blank-bio", "cofactor-genomics", "data-driven-bioscience", "exai-bio", "insight-molecular-diagnostics", "isabl", "lucence", "oncobox"],
   },
   {
     id: "single-cell-spatial", kind: "technology", name: "Single-cell & spatial profiling", sections: ["diagnostics", "drug-discovery"], status: "emerging", asOf, wikipedia: W("Spatial_transcriptomics"),
@@ -226,7 +226,7 @@ export const technologies: TechnologyInput[] = [
     summary: "scRNA-seq (10x Genomics) resolves tumour, immune, and stromal populations; spatial transcriptomics (Visium, Xenium, CosMx, MERFISH) and multiplex protein imaging (CODEX, IMC) keep tissue architecture. Revealing how ADC bystander killing, T-cell exclusion, and resistance niches work. Research-grade; entering trials as correlative science.",
     principle: "RNA is captured with barcodes per cell or per spatial location, or read by imaging-based in situ hybridisation for hundreds to thousands of genes.",
     strengths: ["Resolves heterogeneity and microenvironment", "Discovery engine for new targets"],
-    limitations: ["Cost, throughput, analysis burden", "Not yet clinically actionable"], companies: ["valius", "elucidate-bio"], related: ["idea-immune-exclusion-drivers"], links: [{ label: "Wikipedia", url: W("Spatial_transcriptomics") }],
+    limitations: ["Cost, throughput, analysis burden", "Not yet clinically actionable"], companies: ["valius", "elucidate-bio", "immunai", "mission-bio", "nucleai", "origin-bio"], related: ["idea-immune-exclusion-drivers"], links: [{ label: "Wikipedia", url: W("Spatial_transcriptomics") }],
   },
   {
     id: "liquid-biopsy", kind: "technology", name: "Liquid biopsy (ctDNA)", sections: ["diagnostics"], status: "standard-of-care", asOf, wikipedia: W("Liquid_biopsy"),
@@ -236,7 +236,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Minimally invasive, repeatable", "Whole-body clonal picture"],
     limitations: ["Low shedding in some tumours (brain, early-stage)", "Clonal haematopoiesis false positives"],
     terms: ["ctdna", "vaf"],
-    companies: ["guardant-health", "foundation-medicine", "natera"],
+    companies: ["guardant-health", "foundation-medicine", "natera", "adela", "aoa-dx", "billiontoone", "biodesix", "c2i-genomics", "cambridge-cancer-genomics", "clearnote-health", "delee", "elypta", "exai-bio", "haystack-oncology", "helio-genomics", "inivata", "insight-molecular-diagnostics", "lucence", "naveris", "nonagen-bioscience", "nucleix", "numen", "universal-dx", "volitionrx", "x-zell"],
     technologies: ["mrd-testing", "mced"], links: [{ label: "Wikipedia", url: W("Liquid_biopsy") }],
   },
   {
@@ -247,7 +247,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Months of lead time over imaging", "Enables escalation and de-escalation trials"],
     limitations: ["Sensitivity limited by cfDNA quantity", "Lead time without proven intervention causes anxiety"],
     terms: ["mrd", "ctdna"],
-    companies: ["natera", "exact-sciences", "guardant-health"],
+    companies: ["natera", "exact-sciences", "guardant-health", "adela", "billiontoone", "c2i-genomics", "haystack-oncology", "inivata", "isabl", "mission-bio", "naveris"],
     trials: ["imvigor011", "dynamic"],
     cancers: ["colorectal", "urothelial", "tnbc", "nsclc", "multiple-myeloma"], related: ["idea-dtc-colonisation-determinants", "idea-dormancy-maintenance-therapy"], links: [{ label: "Wikipedia", url: W("Minimal_residual_disease") }],
   },
@@ -259,7 +259,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Covers unscreened cancers (pancreatic, ovarian, liver)", "One draw"],
     limitations: ["Low sensitivity for stage I", "Mortality benefit unproven", "Diagnostic odyssey after positive result"],
     terms: ["ppv", "stage-shift"],
-    companies: ["grail", "exact-sciences", "guardant-health"],
+    companies: ["grail", "exact-sciences", "guardant-health", "carrum-health", "clearnote-health", "elypta", "exai-bio", "numen", "owlstone-medical", "volitionrx"],
     trials: ["nhs-galleri", "pathfinder-2"],
     drugs: ["galleri", "shield"], links: [{ label: "Wikipedia", url: W("Multi-cancer_early_detection") }],
   },
@@ -270,8 +270,8 @@ export const technologies: TechnologyInput[] = [
     principle: "Gigapixel whole-slide images; tile-level self-supervised encoders aggregated to slide-level predictions.",
     strengths: ["Cheap biomarker from routine slides", "Consistent scoring (Ki-67, TILs, HER2)"],
     limitations: ["Scanner and stain domain shift", "Explainability", "Regulatory pathways for updates"],
-    companies: ["artera", "paige", "pathai"],
-    drugs: ["artera-ai-prostate", "artera-ai-breast"], related: ["ai-pathology-to-adt", "ai-oncology-clinic"], links: [{ label: "Wikipedia", url: W("Digital_pathology") }],
+    companies: ["artera", "paige", "pathai", "ataraxis-ai", "digistain", "histowiz", "ibex-medical-analytics", "imagene-ai", "nucleai", "perimeter-medical-imaging-ai", "valar-labs", "x-zell"],
+    drugs: ["artera-ai-prostate", "artera-ai-breast"], related: ["ai-pathology-to-adt", "ai-oncology-clinic"], links: [{ label: "Wikipedia", url: W("Digital_pathology") }], journals: ["analytical-cellular-pathology"],
   },
   {
     id: "companion-diagnostic", kind: "technology", name: "Companion diagnostics", sections: ["diagnostics"], status: "standard-of-care", asOf, wikipedia: W("Companion_diagnostic"),
@@ -280,7 +280,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Analytically and clinically validated assay linked to a drug label.",
     strengths: ["Enriches responders", "Regulatory clarity"],
     limitations: ["Threshold effects", "Different assays for the same biomarker are not interchangeable"],
-    terms: ["cps", "her2-low"], links: [{ label: "Wikipedia", url: W("Companion_diagnostic") }],
+    terms: ["cps", "her2-low"], links: [{ label: "Wikipedia", url: W("Companion_diagnostic") }], companies: ["acrivon-therapeutics", "ataraxis-ai", "cofactor-genomics", "ibex-medical-analytics", "imagene-ai", "insight-molecular-diagnostics", "nonagen-bioscience", "oncohost", "signatur-biosciences", "valar-labs"],
   },
   {
     id: "hrd-testing", kind: "technology", name: "HRD & BRCA testing", sections: ["diagnostics"], status: "standard-of-care", asOf,
@@ -300,7 +300,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Actionable for patient and relatives", "Cheap"],
     limitations: ["VUS burden", "Uptake and counselling capacity"],
     targets: ["brca", "tp53"],
-    cancers: ["tnbc", "ovarian", "prostate", "pancreatic", "colorectal"], related: ["germline-to-parp"], links: [{ label: "Wikipedia", url: W("Genetic_testing") }],
+    cancers: ["tnbc", "ovarian", "prostate", "pancreatic", "colorectal"], related: ["germline-to-parp"], links: [{ label: "Wikipedia", url: W("Genetic_testing") }], journals: ["familial-cancer"], companies: ["outcomes4me", "yemaachi-biotech"],
   },
   {
     id: "functional-drug-testing", kind: "technology", name: "Functional (ex vivo) drug testing", sections: ["diagnostics", "drug-discovery"], status: "emerging", asOf, wikipedia: W("Precision_medicine"),
@@ -309,7 +309,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Fresh tumour tissue dissociated and cultured in matrix; viability read-outs per drug within 1-3 weeks.",
     strengths: ["Phenotype captures what genotype misses", "Tests combinations"],
     limitations: ["Take rate and timeline", "No stroma or immune component in most systems"],
-    technologies: ["organoids"], links: [{ label: "Wikipedia", url: W("Precision_medicine") }],
+    technologies: ["organoids"], links: [{ label: "Wikipedia", url: W("Precision_medicine") }], companies: ["certis-oncology-solutions", "known-medicine", "notable-labs", "origin-bio", "zpredicta"],
   },
   {
     id: "organoids", kind: "technology", name: "Patient-derived organoids", sections: ["drug-discovery"], status: "established", asOf, wikipedia: W("Organoid"),
@@ -317,7 +317,7 @@ export const technologies: TechnologyInput[] = [
     summary: "Patient-derived organoids are grown by stem-cell-driven 3D culture in an extracellular matrix with defined growth factors, so a piece of a patient's tumour becomes a self-renewing miniature that keeps its genotype and drug response. Living biobanks of organoids (HUB, Broad) preserve genotype and drug response across many cancer types. They are used for drug screening, CRISPR studies, and increasingly co-cultured with immune cells for immunotherapy testing. The main limitation is that organoids lack vasculature and the full microenvironment, so stromal and immune effects are only partly captured, and prospective evidence that organoid drug testing improves patient outcomes is still being gathered. For a newcomer, an organoid is a lab-grown copy of one person's tumour that can be tested against drugs before the patient is.",
     principle: "Stem-cell-driven 3D culture in extracellular matrix with defined growth factors.",
     strengths: ["Fidelity to patient tumour", "Scalable"],
-    limitations: ["Lacks vasculature and full microenvironment"], links: [{ label: "Wikipedia", url: W("Organoid") }],
+    limitations: ["Lacks vasculature and full microenvironment"], links: [{ label: "Wikipedia", url: W("Organoid") }], companies: ["known-medicine", "zpredicta"],
   },
   {
     id: "pdx-models", kind: "technology", name: "Patient-derived xenografts", sections: ["drug-discovery"], status: "established", asOf, wikipedia: W("Patient_derived_xenograft"),
@@ -325,7 +325,7 @@ export const technologies: TechnologyInput[] = [
     summary: "A patient-derived xenograft is made by implanting fresh tumour tissue into immunodeficient mice and passaging it, giving an in vivo model that retains histology and genomics better than cell lines. PDX models are used for ADC and combination testing (Champions Oncology, Crown Bioscience, Jackson Laboratory), where bystander and stromal effects can be observed in a way that culture cannot show. Humanised-mouse PDX, in which a human immune system is reconstituted, enables immunotherapy testing. The trade-offs are that mouse stroma progressively replaces human stroma, models take months to establish, and the cost limits how many patients can be modelled. The simple version is that a PDX lets researchers try a treatment on a copy of a real patient's tumour in a mouse before trying it in people.",
     principle: "Fresh tumour implanted into immunodeficient mice and passaged.",
     strengths: ["In vivo pharmacology", "Bystander and stromal effects observable"],
-    limitations: ["Mouse stroma replaces human", "Months to establish; cost"], links: [{ label: "Wikipedia", url: W("Patient_derived_xenograft") }],
+    limitations: ["Mouse stroma replaces human", "Months to establish; cost"], links: [{ label: "Wikipedia", url: W("Patient_derived_xenograft") }], companies: ["certis-oncology-solutions"],
   },
   {
     id: "proteomics", kind: "technology", name: "Proteomics & phosphoproteomics", sections: ["diagnostics", "drug-discovery"], status: "emerging", asOf, wikipedia: W("Proteomics"),
@@ -333,7 +333,7 @@ export const technologies: TechnologyInput[] = [
     summary: "Proteomics measures the proteins and phosphorylation sites in a tumour directly, using liquid chromatography tandem mass spectrometry with isobaric labelling to quantify thousands of proteins and phosphosites at once. Mass-spectrometry proteomics (CPTAC) reveals pathway activity and ADC target abundance that transcript levels do not predict, since RNA and protein levels often disagree. Quantitative IHC and mass-spec assays of HER2 and TROP2 aim to improve ADC patient selection by measuring the actual antigen the drug binds rather than a proxy. Throughput and standardisation remain the barriers to routine clinical use, and it is still open whether protein-level selection will outperform established IHC scoring in trials. For a newcomer, proteomics measures what drugs actually hit, the proteins, rather than the genes that encode them.",
     principle: "Liquid chromatography tandem mass spectrometry with isobaric labelling quantifies proteins and phosphosites.",
     strengths: ["Direct measurement of drug targets and signalling"],
-    limitations: ["Throughput and standardisation"], companies: ["elucidate-bio"], links: [{ label: "Wikipedia", url: W("Proteomics") }],
+    limitations: ["Throughput and standardisation"], companies: ["elucidate-bio", "acrivon-therapeutics", "biodesix", "helio-genomics", "nonagen-bioscience", "omanta", "oncohost"], links: [{ label: "Wikipedia", url: W("Proteomics") }],
   },
   {
     id: "methylation-profiling", kind: "technology", name: "DNA methylation profiling", sections: ["diagnostics", "early-detection"], status: "established", asOf, wikipedia: W("DNA_methylation"),
@@ -343,7 +343,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Cell-of-origin memory", "Stable analyte in blood"],
     limitations: ["Reference cohort dependence"],
     technologies: ["mced"],
-    cancers: ["glioblastoma"], links: [{ label: "Wikipedia", url: W("DNA_methylation") }],
+    cancers: ["glioblastoma"], links: [{ label: "Wikipedia", url: W("DNA_methylation") }], companies: ["adela", "clear-gene", "clearnote-health", "helio-genomics", "nucleix", "universal-dx"],
   },
 
   // ======================= SURGERY =======================
@@ -354,7 +354,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Tele-manipulated instruments move with wristed motion through laparoscopic ports.",
     strengths: ["Precision, shorter stay", "Enables complex minimally invasive resections"],
     limitations: ["Cost", "Loss of haptic feedback", "Not superior for every indication"],
-    companies: ["intuitive-surgical"], terms: ["colectomy"], links: [{ label: "Wikipedia", url: W("Robot-assisted_surgery") }],
+    companies: ["intuitive-surgical", "monteris-medical", "quantum-surgical", "xact-robotics"], terms: ["colectomy"], links: [{ label: "Wikipedia", url: W("Robot-assisted_surgery") }],
   },
   {
     id: "fluorescence-guided-surgery", kind: "technology", name: "Fluorescence-guided surgery", sections: ["surgery", "imaging"], status: "established", asOf, wikipedia: W("Fluorescence_image-guided_surgery"),
@@ -363,7 +363,7 @@ export const technologies: TechnologyInput[] = [
     principle: "A tumour-selective fluorophore accumulates in the tumour and is imaged with near-infrared camera systems.",
     strengths: ["Fewer positive margins and re-operations"],
     limitations: ["Millimetre depth penetration"],
-    technologies: ["optical-imaging"], links: [{ label: "Wikipedia", url: W("Fluorescence_image-guided_surgery") }],
+    technologies: ["optical-imaging"], links: [{ label: "Wikipedia", url: W("Fluorescence_image-guided_surgery") }], companies: ["vergent-bioscience"],
   },
   {
     id: "sentinel-node", kind: "technology", name: "Sentinel lymph node biopsy", sections: ["surgery"], status: "standard-of-care", asOf, wikipedia: W("Sentinel_lymph_node"),
@@ -381,7 +381,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Percutaneous probe delivers RF current, microwave energy, or argon-based freezing; coagulative necrosis or ice-ball cell death.",
     strengths: ["Outpatient, repeatable", "Preserves organ function"],
     limitations: ["Size limit ~3 cm", "Heat-sink near vessels"],
-    cancers: ["hcc", "rcc", "colorectal"], links: [{ label: "Wikipedia", url: W("Radiofrequency_ablation") }],
+    cancers: ["hcc", "rcc", "colorectal"], links: [{ label: "Wikipedia", url: W("Radiofrequency_ablation") }], companies: ["monteris-medical", "quantum-surgical", "xact-robotics"],
   },
   {
     id: "hifu-histotripsy", kind: "technology", name: "Focused ultrasound & histotripsy", sections: ["surgery", "devices"], status: "established", asOf, wikipedia: W("High-intensity_focused_ultrasound"),
@@ -410,7 +410,7 @@ export const technologies: TechnologyInput[] = [
     summary: "Intensity-modulated and volumetric arc therapy shape the radiation dose using multi-leaf collimators that modulate beam intensity from many angles, while image guidance with cone-beam CT verifies patient position before each fraction. Together they are the default for most curative radiotherapy, giving conformal dose to the tumour with fewer side effects. Hypofractionation, meaning fewer, larger doses, is now standard in breast and prostate cancer and saves patients many visits. The remaining drawbacks are the low-dose bath spread across normal tissue from many beam angles and the need for motion management in moving targets. Adaptive replanning and MR-guidance are the next step, adjusting the plan to daily anatomy. The simple version is radiation sculpted to the tumour and checked with imaging every day.",
     principle: "Multi-leaf collimators modulate beam intensity from many angles; cone-beam CT verifies position before each fraction.",
     strengths: ["Conformal dose, fewer side effects", "Hypofractionation saves visits"],
-    limitations: ["Low-dose bath to normal tissue", "Motion management"], links: [{ label: "Wikipedia", url: W("Intensity-modulated_radiation_therapy") }],
+    limitations: ["Low-dose bath to normal tissue", "Motion management"], links: [{ label: "Wikipedia", url: W("Intensity-modulated_radiation_therapy") }], journals: ["cancer-radiotherapie", "clinical-oncology-rcr", "practical-radiation-oncology", "radiation-oncology", "seminars-in-radiation-oncology", "strahlentherapie-und-onkologie"], companies: ["intraop-medical", "radformation"],
   },
   {
     id: "sbrt", kind: "technology", name: "SBRT / SABR (stereotactic radiotherapy)", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Stereotactic_radiosurgery"),
@@ -419,7 +419,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Multiple non-coplanar beams converge with sub-millimetre accuracy; steep dose gradients.",
     strengths: ["Ablative doses with minimal recovery", "Outpatient"],
     limitations: ["Size and location limits", "Late toxicity near central airways"],
-    terms: ["oligometastatic", "abscopal-effect"], people: ["david-palma"], related: ["idea-ferroptosis-persisters"], links: [{ label: "Wikipedia", url: W("Stereotactic_radiosurgery") }],
+    terms: ["oligometastatic", "abscopal-effect"], people: ["david-palma"], related: ["idea-ferroptosis-persisters"], links: [{ label: "Wikipedia", url: W("Stereotactic_radiosurgery") }], journals: ["cancer-radiotherapie", "clinical-oncology-rcr", "practical-radiation-oncology", "radiation-oncology", "seminars-in-radiation-oncology", "strahlentherapie-und-onkologie"], companies: ["xcision-medical-systems"],
   },
   {
     id: "proton-therapy", kind: "technology", name: "Proton therapy", sections: ["radiation"], status: "established", asOf, wikipedia: W("Proton_therapy"),
@@ -446,7 +446,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Sealed sources (192Ir, 125I, 103Pd) deliver steep dose fall-off from within.",
     strengths: ["Highest conformality", "Short treatment"],
     limitations: ["Invasive", "Declining expertise in some regions"],
-    cancers: ["cervical", "prostate", "melanoma"], links: [{ label: "Wikipedia", url: W("Brachytherapy") }],
+    cancers: ["cervical", "prostate", "melanoma"], links: [{ label: "Wikipedia", url: W("Brachytherapy") }], companies: ["empyrean-medical-systems", "gt-medical-technologies"],
   },
   {
     id: "mr-linac", kind: "technology", name: "MR-guided adaptive radiotherapy", sections: ["radiation"], status: "established", asOf, wikipedia: W("MRI-linac"),
@@ -465,7 +465,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Dose delivered in milliseconds rather than minutes; differential normal-tissue sparing.",
     strengths: ["Potential to widen therapeutic window dramatically"],
     limitations: ["Unproven in humans", "Hardware constraints for deep tumours"],
-    companies: ["varian"],
+    companies: ["varian", "empyrean-medical-systems", "intraop-medical"],
     tags: ["frontier"], links: [{ label: "Wikipedia", url: W("FLASH_radiotherapy") }],
   },
   {
@@ -478,7 +478,7 @@ export const technologies: TechnologyInput[] = [
     technologies: ["psma-pet", "spect", "targeted-alpha-therapy"],
     targets: ["psma", "sstr2", "fap"],
     drugs: ["pluvicto", "lutathera"],
-    cancers: ["prostate", "neuroendocrine"], companies: ["clarity-pharmaceuticals"], links: [{ label: "Wikipedia", url: W("Radioligand_therapy") }],
+    cancers: ["prostate", "neuroendocrine"], companies: ["clarity-pharmaceuticals", "abdera-therapeutics", "alpha-9-oncology", "ariceum-therapeutics", "artbio", "atomic-alchemy", "evergreen-theragnostics", "mariana-oncology", "nucleus-radiopharma", "point-biopharma", "precirix", "radionetics-oncology", "ratio-therapeutics"], links: [{ label: "Wikipedia", url: W("Radioligand_therapy") }], journals: ["cancer-biotherapy-and-radiopharmaceuticals"],
   },
   {
     id: "targeted-alpha-therapy", kind: "technology", name: "Targeted alpha therapy", sections: ["radiopharma"], status: "phase-3", asOf, wikipedia: W("Targeted_alpha-particle_therapy"),
@@ -489,7 +489,7 @@ export const technologies: TechnologyInput[] = [
     limitations: ["Ac-225 supply", "Daughter-nuclide redistribution (salivary, renal toxicity)", "Dosimetry difficult"],
     technologies: ["radioligand-therapy"],
     targets: ["psma", "sstr2", "fap"],
-    companies: ["terrapower-isotopes", "orano-med", "itm", "rayzebio", "fusion-pharma"],
+    companies: ["terrapower-isotopes", "orano-med", "itm", "rayzebio", "fusion-pharma", "abdera-therapeutics", "actinium-pharmaceuticals", "alpha-9-oncology", "ariceum-therapeutics", "artbio", "convergent-therapeutics", "ratio-therapeutics"],
     tags: ["frontier"], links: [{ label: "Wikipedia", url: W("Targeted_alpha-particle_therapy") }],
   },
   {
@@ -501,7 +501,7 @@ export const technologies: TechnologyInput[] = [
     limitations: ["Marrow dose from circulating antibody", "Manufacturing complexity"],
     technologies: ["adc", "targeted-alpha-therapy"],
     targets: ["psma", "cd33", "dll3", "her2"],
-    tags: ["frontier"], related: ["idea-alpha-after-adc"], links: [{ label: "Wikipedia", url: W("Radioimmunotherapy") }],
+    tags: ["frontier"], related: ["idea-alpha-after-adc"], links: [{ label: "Wikipedia", url: W("Radioimmunotherapy") }], journals: ["cancer-biotherapy-and-radiopharmaceuticals"], companies: ["abdera-therapeutics", "actinium-pharmaceuticals", "convergent-therapeutics"],
   },
   {
     id: "bnct", kind: "technology", name: "Boron neutron capture therapy", sections: ["radiation"], status: "approved", asOf, wikipedia: W("Neutron_capture_therapy_of_cancer"),
@@ -521,7 +521,7 @@ export const technologies: TechnologyInput[] = [
     principle: "DNA damage, antimetabolite incorporation, or mitotic spindle disruption in dividing cells.",
     strengths: ["Curative in several cancers", "Cheap, generic"],
     limitations: ["Narrow therapeutic index", "Resistance via efflux pumps and DNA repair"],
-    terms: ["efflux-pump"], companies: ["lupin", "intas"], trials: ["euramos-1", "gefitinib-chemo-tmh"], related: ["genomic-assay-to-chemo-omission"], links: [{ label: "Wikipedia", url: W("Chemotherapy") }],
+    terms: ["efflux-pump"], companies: ["lupin", "intas", "shasqi"], trials: ["euramos-1", "gefitinib-chemo-tmh"], related: ["genomic-assay-to-chemo-omission"], links: [{ label: "Wikipedia", url: W("Chemotherapy") }], journals: ["cancer-chemotherapy-and-pharmacology", "gan-to-kagaku-ryoho"],
   },
   {
     id: "platinum", kind: "technology", name: "Platinum agents", sections: ["chemotherapy"], status: "standard-of-care", asOf, wikipedia: W("Platinum-based_antineoplastic"),
@@ -541,7 +541,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Bystander effect", "Active after taxanes and anthracyclines"],
     limitations: ["Cross-resistance between TOP1-payload ADCs (SLFN11 loss, TOP1 mutations)", "ILD with DXd; neutropenia and diarrhoea with SN-38"],
     technologies: ["adc"],
-    terms: ["payload", "bystander-effect"], links: [{ label: "Wikipedia", url: W("Topoisomerase_inhibitor") }],
+    terms: ["payload", "bystander-effect"], links: [{ label: "Wikipedia", url: W("Topoisomerase_inhibitor") }], companies: ["dantari", "pheon-therapeutics", "profoundbio"],
   },
   {
     id: "hipec", kind: "technology", name: "HIPEC / PIPAC (intraperitoneal chemotherapy)", sections: ["chemotherapy", "surgery"], status: "established", asOf, wikipedia: W("Hyperthermic_intraperitoneal_chemotherapy"),
@@ -562,7 +562,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Oral, outpatient", "Dramatic responses in oncogene-addicted cancers"],
     limitations: ["Near-universal resistance in metastatic disease", "Off-target toxicities"],
     targets: ["egfr", "alk", "braf", "kras", "ret", "ntrk", "met", "fgfr2", "kit", "flt3", "cdk4-6", "pik3ca", "akt"],
-    terms: ["oncogene-addiction", "resistance"], trials: ["gefitinib-chemo-tmh"], links: [{ label: "Wikipedia", url: W("Tyrosine_kinase_inhibitor") }],
+    terms: ["oncogene-addiction", "resistance"], trials: ["gefitinib-chemo-tmh"], links: [{ label: "Wikipedia", url: W("Tyrosine_kinase_inhibitor") }], companies: ["acrivon-therapeutics", "alixia", "altay-therapeutics", "blueprint-medicines", "cogent-biosciences", "enliven-therapeutics", "erasca", "fidocure", "harmonic-discovery", "ideaya-biosciences", "nested-therapeutics", "oric-pharmaceuticals", "prelude-therapeutics", "relay-therapeutics", "reverie-labs", "scorpion-therapeutics", "tyra-biosciences", "velorum-therapeutics", "zentalis-pharmaceuticals"],
   },
   {
     id: "monoclonal-antibody", kind: "technology", name: "Monoclonal antibodies", sections: ["targeted-therapy", "immunotherapy"], status: "standard-of-care", asOf, since: 1997, wikipedia: W("Monoclonal_antibody_therapy"),
@@ -571,7 +571,7 @@ export const technologies: TechnologyInput[] = [
     principle: "A humanised or fully human IgG binds a surface or soluble antigen; Fc engineering tunes effector function and half-life.",
     strengths: ["High specificity", "Long half-life", "Platform for conjugates"],
     limitations: ["IV administration", "Cannot reach intracellular targets"],
-    terms: ["adcc", "fc-effector"], companies: ["morphosys"], links: [{ label: "Wikipedia", url: W("Monoclonal_antibody_therapy") }],
+    terms: ["adcc", "fc-effector"], companies: ["morphosys", "alentis-therapeutics", "bicara-therapeutics", "bighat-biosciences", "inhibrx", "ose-immunotherapeutics", "tradewind-bioscience"], links: [{ label: "Wikipedia", url: W("Monoclonal_antibody_therapy") }],
   },
   {
     id: "bispecific-antibody", kind: "technology", name: "Bispecific antibodies", sections: ["targeted-therapy", "immunotherapy"], status: "approved", asOf, since: 2014, wikipedia: W("Bispecific_monoclonal_antibody"),
@@ -581,7 +581,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Combination therapy in one molecule", "Avidity for co-expressing tumour cells"],
     limitations: ["Manufacturing complexity", "Dose finding for two arms"],
     technologies: ["t-cell-engager", "bispecific-adc"],
-    drugs: ["amivantamab", "zanidatamab", "zenocutuzumab", "ivonescimab"], companies: ["xencor"], links: [{ label: "Wikipedia", url: W("Bispecific_monoclonal_antibody") }],
+    drugs: ["amivantamab", "zanidatamab", "zenocutuzumab", "ivonescimab"], companies: ["xencor", "amunix-pharmaceuticals", "bicara-therapeutics", "compass-therapeutics", "cullinan-therapeutics", "igm-biosciences", "janux-therapeutics", "marengo-therapeutics", "xilio-therapeutics"], links: [{ label: "Wikipedia", url: W("Bispecific_monoclonal_antibody") }],
   },
   {
     id: "parp-inhibitor", kind: "technology", name: "PARP inhibitors", sections: ["targeted-therapy"], status: "approved", asOf, since: 2014, wikipedia: W("PARP_inhibitor"),
@@ -616,7 +616,7 @@ export const technologies: TechnologyInput[] = [
     targets: ["kras", "egfr"],
     drugs: ["sotorasib", "adagrasib", "daraxonrasib"],
     cancers: ["nsclc", "colorectal", "pancreatic"],
-    companies: ["amgen", "bms", "revolution-medicines"], links: [{ label: "Wikipedia", url: W("KRAS") }],
+    companies: ["amgen", "bms", "revolution-medicines", "bridgebio-oncology-therapeutics", "erasca", "kumquat-biosciences", "treeline-biosciences"], links: [{ label: "Wikipedia", url: W("KRAS") }],
   },
   {
     id: "protac-degrader", kind: "technology", name: "PROTACs & molecular glues (targeted protein degradation)", sections: ["targeted-therapy"], status: "approved", asOf, since: 2026, wikipedia: W("Proteolysis_targeting_chimera"),
@@ -627,8 +627,8 @@ export const technologies: TechnologyInput[] = [
     limitations: ["Large molecules with poor oral bioavailability (PROTACs)", "Hook effect", "E3 ligase expression varies"],
     targets: ["estrogen-receptor", "androgen-receptor", "kras"],
     drugs: ["vepdegestrant"],
-    companies: ["arvinas", "pfizer", "bms"],
-    technologies: ["degrader-antibody-conjugate"], related: ["idea-senolytics-after-chemo"], links: [{ label: "Wikipedia", url: W("Proteolysis_targeting_chimera") }],
+    companies: ["arvinas", "pfizer", "bms", "amphista-therapeutics", "boundless-bio", "captor-therapeutics", "cullgen", "firefly-bio", "foghorn-therapeutics", "neomorph", "orum-therapeutics", "photys-therapeutics", "plexium", "prelude-therapeutics", "proxygen", "treeline-biosciences", "triana-biomedicines"],
+    technologies: ["degrader-antibody-conjugate"], related: ["idea-senolytics-after-chemo", "stablix"], links: [{ label: "Wikipedia", url: W("Proteolysis_targeting_chimera") }],
   },
   {
     id: "antisense-sirna", kind: "technology", name: "Oligonucleotide therapeutics", sections: ["targeted-therapy"], status: "phase-2", asOf, wikipedia: W("Antisense_therapy"),
@@ -647,7 +647,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Targets tumour-suppressor loss, which conventional drugs cannot", "Large therapeutic window"],
     limitations: ["Context dependence; resistance via reversion"],
     targets: ["parp", "brca", "atr", "wee1", "tp53"],
-    terms: ["synthetic-lethality"], links: [{ label: "Wikipedia", url: W("Synthetic_lethality") }],
+    terms: ["synthetic-lethality"], links: [{ label: "Wikipedia", url: W("Synthetic_lethality") }], companies: ["amphista-therapeutics", "foghorn-therapeutics", "ideaya-biosciences", "nimbus-therapeutics", "plexium", "repare-therapeutics", "tango-therapeutics"],
   },
   {
     id: "antiangiogenic", kind: "technology", name: "Anti-angiogenic therapy", sections: ["targeted-therapy"], status: "standard-of-care", asOf, since: 2004, wikipedia: W("Angiogenesis_inhibitor"),
@@ -657,7 +657,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Broad, combinable"],
     limitations: ["Hypertension, bleeding, proteinuria", "Small single-agent benefit"],
     targets: ["vegf"],
-    cancers: ["rcc", "hcc", "colorectal", "endometrial"], links: [{ label: "Wikipedia", url: W("Angiogenesis_inhibitor") }],
+    cancers: ["rcc", "hcc", "colorectal", "endometrial"], links: [{ label: "Wikipedia", url: W("Angiogenesis_inhibitor") }], companies: ["compass-therapeutics"],
   },
 
   // ======================= ADC =======================
@@ -671,7 +671,7 @@ export const technologies: TechnologyInput[] = [
     generation: "3rd generation dominant; 4th emerging",
     technologies: ["topoisomerase-inhibitors", "bispecific-adc", "dual-payload-adc", "degrader-antibody-conjugate", "immune-stimulating-adc", "masked-adc", "site-specific-conjugation", "radioimmunotherapy"],
     targets: ["trop2", "her2", "her3", "nectin4", "b7h3", "cldn18-2", "folr1", "tissue-factor", "cdh6", "met", "cd19", "bcma", "cd33", "cd123", "ror1"],
-    terms: ["payload", "linker", "dar", "bystander-effect", "ild"], companies: ["celldex", "tubulis"], trials: ["aaml0531"], related: ["idea-efflux-agnostic", "idea-neoadjuvant-adc-io"], links: [{ label: "Wikipedia", url: W("Antibody-drug_conjugate") }],
+    terms: ["payload", "linker", "dar", "bystander-effect", "ild"], companies: ["celldex", "tubulis", "adcendo", "alentis-therapeutics", "bighat-biosciences", "callio-therapeutics", "cytomx-therapeutics", "dantari", "emergence-therapeutics", "enlaza-therapeutics", "firefly-bio", "ideaya-biosciences", "iksuda-therapeutics", "mablink-bioscience", "myricx-bio", "mythic-therapeutics", "nbe-therapeutics", "orum-therapeutics", "pheon-therapeutics", "profoundbio", "tallac-therapeutics", "valink-therapeutics"], trials: ["aaml0531"], related: ["idea-efflux-agnostic", "idea-neoadjuvant-adc-io"], links: [{ label: "Wikipedia", url: W("Antibody-drug_conjugate") }],
   },
   {
     id: "bispecific-adc", kind: "technology", name: "Bispecific ADC", sections: ["adcs"], status: "phase-3", asOf, since: 2023, generation: "4th (next-gen)",
@@ -683,7 +683,7 @@ export const technologies: TechnologyInput[] = [
     technologies: ["adc", "bispecific-antibody"],
     targets: ["egfr", "her3", "met", "nectin4", "trop2", "her2", "b7h3", "pdl1"],
     drugs: ["izalontamab-brengitecan", "tilatamig-samrotecan", "ak146d1"],
-    companies: ["systimmune", "bms", "astrazeneca", "akeso", "avenzo"],
+    companies: ["systimmune", "bms", "astrazeneca", "akeso", "avenzo", "valink-therapeutics"],
     cancers: ["tnbc", "nsclc", "esophageal", "urothelial"],
     tags: ["frontier"],
   },
@@ -695,7 +695,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Delays resistance", "Combination therapy without additive antibody dose"],
     limitations: ["Manufacturing", "Two toxicity profiles in one molecule"],
     technologies: ["adc", "site-specific-conjugation"],
-    tags: ["frontier"],
+    tags: ["frontier"], companies: ["callio-therapeutics"],
   },
   {
     id: "degrader-antibody-conjugate", kind: "technology", name: "Degrader-antibody conjugate (DAC)", sections: ["adcs", "targeted-therapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
@@ -705,7 +705,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Non-genotoxic payload", "Intracellular targets via antibody selectivity"],
     limitations: ["Potency per molecule lower than cytotoxics", "Early stage"],
     technologies: ["adc", "protac-degrader"],
-    tags: ["frontier"],
+    tags: ["frontier"], companies: ["cullgen", "firefly-bio", "orum-therapeutics", "prelude-therapeutics"],
   },
   {
     id: "immune-stimulating-adc", kind: "technology", name: "Immune-stimulating antibody conjugate (ISAC)", sections: ["adcs", "immunotherapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
@@ -715,7 +715,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Durable immune memory in principle", "Combinable with checkpoint inhibitors"],
     limitations: ["Weak single-agent activity so far"],
     technologies: ["adc", "sting-agonist"],
-    tags: ["frontier"],
+    tags: ["frontier"], companies: ["nbe-therapeutics", "tallac-therapeutics"],
   },
   {
     id: "masked-adc", kind: "technology", name: "Masked / conditionally active ADC", sections: ["adcs"], status: "phase-2", asOf, generation: "4th (next-gen)",
@@ -725,7 +725,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Unlocks targets previously too toxic", "Wider therapeutic index"],
     limitations: ["Incomplete masking; protease heterogeneity"],
     technologies: ["adc"],
-    tags: ["frontier"],
+    tags: ["frontier"], companies: ["cytomx-therapeutics", "synsorybio"],
   },
   {
     id: "site-specific-conjugation", kind: "technology", name: "Site-specific conjugation & linker chemistry", sections: ["adcs", "drug-discovery"], status: "established", asOf, wikipedia: W("Bioconjugation"),
@@ -735,7 +735,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Homogeneous product, better PK", "Enables high DAR and dual payloads"],
     limitations: ["Manufacturing complexity"],
     technologies: ["adc"],
-    terms: ["dar", "linker"], companies: ["tubulis"], links: [{ label: "Wikipedia", url: W("Bioconjugation") }],
+    terms: ["dar", "linker"], companies: ["tubulis", "enlaza-therapeutics"], links: [{ label: "Wikipedia", url: W("Bioconjugation") }],
   },
   {
     id: "peptide-drug-conjugate", kind: "technology", name: "Peptide-drug & small-molecule-drug conjugates", sections: ["adcs"], status: "approved", asOf, wikipedia: W("Peptide-drug_conjugate"),
@@ -758,7 +758,7 @@ export const technologies: TechnologyInput[] = [
     limitations: ["Most patients do not respond", "Autoimmune toxicity", "Biomarkers are imperfect"],
     targets: ["pd1", "pdl1", "ctla4", "lag3", "tigit"],
     drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "relatlimab-nivolumab", "dostarlimab", "cemiplimab"],
-    terms: ["cps", "tmb", "msi", "irae"], people: ["lieping-chen"], trials: ["rationale-302"], links: [{ label: "Wikipedia", url: W("Checkpoint_inhibitor") }],
+    terms: ["cps", "tmb", "msi", "irae"], people: ["lieping-chen"], trials: ["rationale-302"], links: [{ label: "Wikipedia", url: W("Checkpoint_inhibitor") }], journals: ["cancer-immunology-immunotherapy", "journal-of-immunotherapy", "oncoimmunology"], companies: ["compass-therapeutics", "eris-biotech", "onc-ai", "ose-immunotherapeutics", "persephone-biosciences", "xilio-therapeutics"],
   },
   {
     id: "t-cell-engager", kind: "technology", name: "T-cell engagers (bispecific)", sections: ["immunotherapy"], status: "approved", asOf, since: 2014, wikipedia: W("Bi-specific_T-cell_engager"),
@@ -770,7 +770,7 @@ export const technologies: TechnologyInput[] = [
     technologies: ["bispecific-antibody"],
     targets: ["cd3", "cd19", "cd20", "bcma", "gprc5d", "dll3", "gp100", "psma"],
     drugs: ["tarlatamab", "teclistamab", "glofitamab", "tebentafusp", "blinatumomab"],
-    terms: ["crs"], companies: ["xencor"], links: [{ label: "Wikipedia", url: W("Bi-specific_T-cell_engager") }],
+    terms: ["crs"], companies: ["xencor", "amunix-pharmaceuticals", "cullinan-therapeutics", "cytomx-therapeutics", "enlaza-therapeutics", "harpoon-therapeutics", "igm-biosciences", "janux-therapeutics", "marengo-therapeutics"], links: [{ label: "Wikipedia", url: W("Bi-specific_T-cell_engager") }],
   },
   {
     id: "neoantigen-mrna-vaccine", kind: "technology", name: "Personalised neoantigen (mRNA) vaccines", sections: ["immunotherapy"], status: "phase-3", asOf, since: 2017, wikipedia: W("Cancer_vaccine"),
@@ -780,7 +780,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Fully personalised, low toxicity", "Adjuvant setting where tumour burden is low"],
     limitations: ["6-8 week manufacturing", "Cost", "Neoantigen prediction is imperfect; low-TMB tumours have few targets"],
     drugs: ["intismeran-autogene", "autogene-cevumeran"],
-    companies: ["moderna", "merck", "biontech", "roche-genentech", "gritstone", "serova"],
+    companies: ["moderna", "merck", "biontech", "roche-genentech", "gritstone", "serova", "curevac", "evaxion", "gamgee", "geneos-therapeutics", "kernal-biologics", "nykode-therapeutics", "tarebio", "transgene"],
     trials: ["interpath-001"],
     cancers: ["melanoma", "pancreatic", "nsclc", "rcc"],
     terms: ["neoantigen"], related: ["idea-neoantigen-immunogenicity-rules"], links: [{ label: "Wikipedia", url: W("Cancer_vaccine") }],
@@ -793,7 +793,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Scalable, immediate"],
     limitations: ["Tolerance to self-antigens; weak historical results"],
     targets: ["kras"],
-    cancers: ["pancreatic", "colorectal", "prostate"], companies: ["gritstone"], related: ["idea-splice-neoantigens"],
+    cancers: ["pancreatic", "colorectal", "prostate"], companies: ["gritstone", "adventris-pharmaceuticals", "curevac", "evaxion", "guardian-bio", "io-biotech", "mendus", "nykode-therapeutics", "ose-immunotherapeutics", "tarebio"], related: ["idea-splice-neoantigens"],
   },
   {
     id: "oncolytic-virus", kind: "technology", name: "Oncolytic viruses", sections: ["immunotherapy"], status: "approved", asOf, since: 2015, wikipedia: W("Oncolytic_virus"),
@@ -803,8 +803,8 @@ export const technologies: TechnologyInput[] = [
     strengths: ["In situ vaccination", "Synergy with PD-1 blockade"],
     limitations: ["Intratumoural injection limits to accessible lesions", "Neutralising antibodies"],
     drugs: ["vusolimogene-oderparepvec", "talimogene-laherparepvec"],
-    companies: ["replimune", "amgen"],
-    cancers: ["melanoma", "urothelial"], links: [{ label: "Wikipedia", url: W("Oncolytic_virus") }],
+    companies: ["replimune", "amgen", "candel-therapeutics", "humane-genomics", "kopra-bio", "transgene"],
+    cancers: ["melanoma", "urothelial"], links: [{ label: "Wikipedia", url: W("Oncolytic_virus") }], journals: ["cancer-gene-therapy"],
   },
   {
     id: "cytokine-therapy", kind: "technology", name: "Cytokines & engineered cytokines", sections: ["immunotherapy"], status: "approved", asOf, wikipedia: W("Cytokine"),
@@ -813,7 +813,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Systemic or targeted delivery of T- and NK-cell growth factors.",
     strengths: ["Potent immune expansion"],
     limitations: ["Systemic toxicity; preferential Treg expansion (IL-2)"],
-    cancers: ["urothelial", "melanoma", "rcc"], links: [{ label: "Wikipedia", url: W("Cytokine") }],
+    cancers: ["urothelial", "melanoma", "rcc"], links: [{ label: "Wikipedia", url: W("Cytokine") }], companies: ["amunix-pharmaceuticals", "asher-bio", "geneos-therapeutics", "granza-bio", "strand-therapeutics", "synsorybio", "werewolf-therapeutics", "xilio-therapeutics"],
   },
   {
     id: "sting-agonist", kind: "technology", name: "STING & innate immune agonists", sections: ["immunotherapy"], status: "phase-2", asOf, wikipedia: W("Stimulator_of_interferon_genes"),
@@ -837,7 +837,7 @@ export const technologies: TechnologyInput[] = [
     targets: ["cd19", "bcma", "cldn18-2", "gpc3", "gprc5d", "cd70", "mesothelin"],
     drugs: ["ciltacabtagene-autoleucel", "axicabtagene-ciloleucel", "satricabtagene-autoleucel"],
     terms: ["crs", "icans"],
-    technologies: ["in-vivo-car-t", "allogeneic-cell-therapy", "armored-car"], companies: ["cellogen"], links: [{ label: "Wikipedia", url: W("Chimeric_antigen_receptor_T_cell") }],
+    technologies: ["in-vivo-car-t", "allogeneic-cell-therapy", "armored-car"], companies: ["cellogen", "adicet-bio", "allotera-therapeutics", "arcellx", "cargo-therapeutics", "century-therapeutics", "imugene", "leah-labs", "lyell-immunopharma", "modulari-t", "poseida-therapeutics", "tmunity-therapeutics"], links: [{ label: "Wikipedia", url: W("Chimeric_antigen_receptor_T_cell") }],
   },
   {
     id: "in-vivo-car-t", kind: "technology", name: "In vivo CAR-T", sections: ["cell-therapy"], status: "phase-1", asOf, since: 2024,
@@ -847,7 +847,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Off-the-shelf, redosable, no lymphodepletion", "Potentially 10x cheaper"],
     limitations: ["Transduction efficiency and durability", "Off-target transfection", "Very early"],
     technologies: ["car-t"],
-    companies: ["abbvie"],
+    companies: ["abbvie", "adicet-bio", "capstan-therapeutics", "kelonia-therapeutics", "kernal-biologics", "strand-therapeutics"],
     tags: ["frontier"],
   },
   {
@@ -858,7 +858,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Naturally polyclonal against the patient's own neoantigens", "Works in solid tumours"],
     limitations: ["Requires resectable tumour and 3-4 week manufacturing", "IL-2 toxicity", "Single-centre logistics"],
     drugs: ["lifileucel"],
-    companies: ["iovance"],
+    companies: ["iovance", "obsidian-therapeutics", "turnstone-biologics"],
     cancers: ["melanoma", "nsclc", "cervical"], links: [{ label: "Wikipedia", url: W("Tumor-infiltrating_lymphocytes") }],
   },
   {
@@ -870,7 +870,7 @@ export const technologies: TechnologyInput[] = [
     limitations: ["HLA restriction", "Cross-reactivity risk", "Antigen presentation loss as escape"],
     targets: ["mage-a4", "gp100", "kras", "tp53"],
     drugs: ["afamitresgene-autoleucel"],
-    cancers: ["sarcoma", "melanoma"],
+    cancers: ["sarcoma", "melanoma"], companies: ["affini-t-therapeutics", "neogene-therapeutics"],
   },
   {
     id: "car-nk-macrophage", kind: "technology", name: "CAR-NK & CAR-macrophage", sections: ["cell-therapy"], status: "phase-1", asOf,
@@ -880,7 +880,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Off-the-shelf potential", "Low CRS/ICANS"],
     limitations: ["Short persistence", "Manufacturing scale"],
     technologies: ["car-t", "allogeneic-cell-therapy"],
-    tags: ["frontier"],
+    tags: ["frontier"], companies: ["indapta-therapeutics", "onk-therapeutics"],
   },
   {
     id: "allogeneic-cell-therapy", kind: "technology", name: "Allogeneic (off-the-shelf) cell therapy", sections: ["cell-therapy"], status: "phase-2", asOf,
@@ -890,7 +890,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Immediate availability, industrial scale"],
     limitations: ["Host rejection limits persistence", "Deeper lymphodepletion"],
     technologies: ["car-t"],
-    targets: ["cd70", "cd19"],
+    targets: ["cd70", "cd19"], companies: ["adicet-bio", "allotera-therapeutics", "century-therapeutics", "guardian-bio", "imugene", "indapta-therapeutics", "mendus", "onk-therapeutics", "orca-bio", "poseida-therapeutics"],
   },
   {
     id: "armored-car", kind: "technology", name: "Armoured, logic-gated & next-gen CARs", sections: ["cell-therapy"], status: "phase-1", asOf,
@@ -900,7 +900,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Designed for hostile solid-tumour environments"],
     limitations: ["Complexity, safety of constitutive cytokines"],
     technologies: ["car-t"],
-    tags: ["frontier"],
+    tags: ["frontier"], companies: ["modulari-t", "tmunity-therapeutics"],
   },
 
   // ======================= HORMONAL =======================
@@ -936,7 +936,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Differentiation rather than cytotoxicity", "Defined genetic subsets respond"],
     limitations: ["Broad effects; modest solid tumour activity"],
     targets: ["idh", "menin", "ezh2"],
-    cancers: ["aml", "glioblastoma", "sarcoma"], companies: ["morphosys"], links: [{ label: "Wikipedia", url: W("Epigenetic_therapy") }],
+    cancers: ["aml", "glioblastoma", "sarcoma"], companies: ["morphosys", "amphista-therapeutics", "foghorn-therapeutics", "oric-pharmaceuticals", "proxygen", "treeline-biosciences"], links: [{ label: "Wikipedia", url: W("Epigenetic_therapy") }],
   },
 
   // ======================= SUPPORTIVE =======================
@@ -965,7 +965,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Aerobic and resistance training modulate insulin, inflammation, and immune function.",
     strengths: ["Cheap, safe, patient-controlled"],
     limitations: ["Delivery and adherence at scale"],
-    cancers: ["colorectal", "tnbc", "breast-hr-positive"],
+    cancers: ["colorectal", "tnbc", "breast-hr-positive"], companies: ["osara-health", "perci-health"],
   },
   {
     id: "geriatric-assessment", kind: "technology", name: "Geriatric assessment", sections: ["supportive-care"], status: "established", asOf,
@@ -973,7 +973,7 @@ export const technologies: TechnologyInput[] = [
     summary: "Geriatric assessment scores validated domains, including function, comorbidity, cognition, nutrition, and social support, to predict how an older patient will tolerate treatment and to guide dose and regimen choice, which age alone does poorly. The GAP70+ and GAIN trials showed that geriatric-assessment-guided management reduces severe chemotherapy toxicity by roughly 20% without compromising survival. ASCO recommends it for all patients aged 65 or over receiving chemotherapy. It reduces harm and improves shared decision-making, giving patients a clearer picture of what treatment will cost them. Time and uptake are the barriers, since the assessment adds clinic work that many services have not resourced. The simple version is a structured fitness check that tells the oncologist how much treatment an older person can safely take.",
     principle: "Validated domains (function, comorbidity, cognition, nutrition, social support) inform dose and regimen choice.",
     strengths: ["Reduces harm, improves shared decision-making"],
-    limitations: ["Time and uptake"],
+    limitations: ["Time and uptake"], journals: ["journal-of-geriatric-oncology"],
   },
 
   // ======================= AI & COMPUTATION =======================
@@ -985,7 +985,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Data-efficient adaptation", "Discover morphology-genotype links"],
     limitations: ["Validation across sites", "Regulatory treatment of general-purpose models"],
     technologies: ["digital-pathology-ai", "radiology-ai-screening"],
-    companies: ["paige", "artera", "owkin", "tempus"],
+    companies: ["paige", "artera", "owkin", "tempus", "ataraxis-ai", "imagene-ai"],
     tags: ["frontier"], related: ["pluto", "merlin-ct", "radfm"],
   },
   {
@@ -994,7 +994,7 @@ export const technologies: TechnologyInput[] = [
     summary: "AI trial matching software extracts structured data from the electronic health record, matches it against parsed eligibility criteria, and ranks trials or guideline options a patient may qualify for. The problem it targets is that only around 5-8% of adult cancer patients enter trials, partly because matching is manual. Tools include TrialGPT (NIH), Tempus TIME, Massive Bio, Deep 6 AI, and hospital-built LLM matchers, and molecular tumour boards use OncoKB and CIViC annotation for variant interpretation. The approach scales expert knowledge and could reduce disparities in trial access, but hallucination risk and the need for validation are live concerns, and eligibility criteria are often ambiguous even to humans. Evidence of increased enrolment is emerging but not yet definitive. The simple version is software that reads a patient's record and finds the trials they could join.",
     principle: "Structured data are extracted from the EHR, matched against parsed eligibility criteria, and ranked.",
     strengths: ["Scales expert knowledge", "Reduces disparities in trial access"],
-    limitations: ["Hallucination risk; validation", "Eligibility criteria are ambiguous"], people: ["razelle-kurzrock"], companies: ["navexio"],
+    limitations: ["Hallucination risk; validation", "Eligibility criteria are ambiguous"], people: ["razelle-kurzrock"], companies: ["navexio", "deep-6-ai", "outcomes4me", "triomics"],
   },
   {
     id: "ai-drug-design", kind: "technology", name: "AI-driven drug & target discovery", sections: ["ai-computation", "drug-discovery"], status: "phase-2", asOf, wikipedia: W("Drug_design"),
@@ -1003,7 +1003,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Deep learning over sequence, structure, and omics; active learning with wet-lab loops.",
     strengths: ["Speed of design cycles", "Novel target hypotheses"],
     limitations: ["Clinical validation lag", "Biology, not chemistry, is the usual failure point"],
-    tags: ["frontier"], companies: ["genesis-molecular-ai", "iambic-therapeutics"], links: [{ label: "Wikipedia", url: W("Drug_design") }],
+    tags: ["frontier"], companies: ["genesis-molecular-ai", "iambic-therapeutics", "algen-biotechnologies", "aqemia", "bighat-biosciences", "blank-bio", "certis-oncology-solutions", "cytoreason", "evaxion", "harmonic-discovery", "iktos", "immunai", "lila-sciences", "nested-therapeutics", "nimbus-therapeutics", "relay-therapeutics", "resistancebio", "reverie-labs", "serinus-biosciences", "turbine", "valo-health"], links: [{ label: "Wikipedia", url: W("Drug_design") }],
   },
   {
     id: "crispr-screens", kind: "technology", name: "CRISPR functional genomics", sections: ["drug-discovery"], status: "established", asOf, wikipedia: W("CRISPR_screen"),
@@ -1012,7 +1012,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Pooled sgRNA libraries; depletion or enrichment measured by sequencing.",
     strengths: ["Systematic, unbiased dependency maps"],
     limitations: ["Cell line artefacts; context specificity"],
-    technologies: ["synthetic-lethality-approaches"], links: [{ label: "Wikipedia", url: W("CRISPR_screen") }],
+    technologies: ["synthetic-lethality-approaches"], links: [{ label: "Wikipedia", url: W("CRISPR_screen") }], companies: ["algen-biotechnologies", "tango-therapeutics"],
   },
 
   // ======================= PREVENTION =======================
@@ -1023,7 +1023,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Virus-like particle vaccines induce neutralising antibodies preventing persistent oncogenic infection.",
     strengths: ["Prevents cancer outright", "Cheap at scale"],
     limitations: ["Coverage gaps, vaccine hesitancy"],
-    cancers: ["cervical", "head-and-neck", "hcc"], related: ["cure-paths"], links: [{ label: "Wikipedia", url: W("HPV_vaccine") }],
+    cancers: ["cervical", "head-and-neck", "hcc"], related: ["cure-paths"], links: [{ label: "Wikipedia", url: W("HPV_vaccine") }], journals: ["tumour-virus-research"],
   },
   {
     id: "chemoprevention", kind: "technology", name: "Chemoprevention & risk-reducing surgery", sections: ["prevention"], status: "standard-of-care", asOf, wikipedia: W("Chemoprophylaxis"),
@@ -1033,7 +1033,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Large absolute risk reduction in carriers"],
     limitations: ["Side effects deter uptake; surgery is irreversible"],
     targets: ["brca", "estrogen-receptor"],
-    cancers: ["tnbc", "breast-hr-positive", "ovarian", "colorectal", "gastric"], related: ["cure-paths"], links: [{ label: "Wikipedia", url: W("Chemoprophylaxis") }],
+    cancers: ["tnbc", "breast-hr-positive", "ovarian", "colorectal", "gastric"], related: ["cure-paths"], links: [{ label: "Wikipedia", url: W("Chemoprophylaxis") }], journals: ["cancer-prevention-research", "european-journal-of-cancer-prevention"],
   },
 
   // ======================= DEVICES =======================
@@ -1065,6 +1065,6 @@ export const technologies: TechnologyInput[] = [
     principle: "Heat impairs DNA repair and increases perfusion and drug delivery.",
     strengths: ["Radiosensitiser without added toxicity"],
     limitations: ["Equipment and expertise scarce"],
-    cancers: ["cervical", "sarcoma", "glioblastoma"], links: [{ label: "Wikipedia", url: W("Hyperthermia_therapy") }],
+    cancers: ["cervical", "sarcoma", "glioblastoma"], links: [{ label: "Wikipedia", url: W("Hyperthermia_therapy") }], journals: ["international-journal-of-hyperthermia"],
   },
 ];

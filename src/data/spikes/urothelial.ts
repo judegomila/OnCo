@@ -37,7 +37,7 @@ const trials: TrialInput[] = [
       { endpoint: "Pathologic complete response", unit: "%", arms: [{ name: "EV + pembrolizumab", value: 57.1 }, { name: "Cystectomy alone", value: 8.6 }] },
     ],
     replication: "EV-304 (cisplatin-eligible) reported positive EFS, OS, and pCR versus neoadjuvant chemotherapy in December 2025, confirming the perioperative EV + pembrolizumab effect in a second population.",
-    drugs: ["enfortumab-vedotin", "pembrolizumab"], cancers: ["urothelial"], targets: ["nectin4"], terms: ["pcr", "neoadjuvant-adjuvant"], links: [ct("NCT03924895"), { label: "FDA approval (Nov 2025)", url: "https://www.cancernetwork.com/view/fda-oks-pembrolizumab-enfortumab-vedotin-in-muscle-invasive-bladder-cancer" }] }),
+    drugs: ["enfortumab-vedotin", "pembrolizumab"], cancers: ["urothelial"], targets: ["nectin4"], terms: ["pcr", "neoadjuvant-adjuvant"], links: [ct("NCT03924895"), { label: "FDA approval (Nov 2025)", url: "https://www.cancernetwork.com/view/fda-oks-pembrolizumab-enfortumab-vedotin-in-muscle-invasive-bladder-cancer" }], related: ["src-cancer-network"] }),
   t({ id: "ev-304", name: "EV-304 / KEYNOTE-B15", nct: "NCT04700124", phase: "3", status: "positive", yearReported: 2025, sponsor: "Merck / Astellas / Pfizer",
     setting: "Cisplatin-eligible MIBC: perioperative enfortumab vedotin + pembrolizumab vs neoadjuvant gemcitabine-cisplatin, both with cystectomy",
     tldr: "The trial that could replace chemotherapy before bladder removal in fit patients with an ADC plus immunotherapy.",
@@ -230,7 +230,7 @@ const companies: CompanyInput[] = [
   { id: "bicycle-therapeutics", links: [{ label: "Official website", url: "https://www.bicycletherapeutics.com" }], name: "Bicycle Therapeutics", kind: "company", hq: "Cambridge", country: "GB", companyType: "biotech", website: "https://www.bicycletherapeutics.com", ticker: "BCYC", asOf, sections: ["adcs"],
     tldr: "Inventor of bicyclic peptide drug conjugates; its lead Nectin-4 conjugate was deprioritised in 2026 after regulatory feedback.",
     summary: "Bicycle Therapeutics, based in Cambridge in the United Kingdom and listed as BCYC, is the inventor of bicyclic peptide drug conjugates, a class of small, synthetic alternatives to antibody-drug conjugates. Its lead Nectin-4 conjugate, zelenectide pevedotin, or BT8009, was deprioritised in 2026 after regulatory feedback, BT5528 targets EphA2, and its Bicycle radio-conjugates are partnered with Bayer and Novartis in radiopharmaceuticals. OnCo links it to bladder and urothelial cancer, to the zelenectide pevedotin drug record, and to the peptide-drug and small-molecule-drug conjugate technology. Whether bicyclic peptides find their place as radiopharmaceutical carriers rather than as cytotoxic conjugates is the question the 2026 decision poses. Zelenectide pevedotin has its own page.",
-    drugs: ["zelenectide-pevedotin"], technologies: ["peptide-drug-conjugate"] },
+    drugs: ["zelenectide-pevedotin"], technologies: ["peptide-drug-conjugate"], investors: ["sv-health-investors", "novartis-venture-fund"] },
 ];
 
 const pairings: PairingInput[] = [

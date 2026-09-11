@@ -199,7 +199,7 @@ const trials: TrialInput[] = [
     summary: "MajesTEC-1, trial NCT04557098 sponsored by Janssen and published in the New England Journal of Medicine in 2022, was the pivotal single-arm study for teclistamab, the first bispecific antibody approved in myeloma, with responses in 63 percent of patients who had exhausted the main drug classes. In 165 patients after at least three prior lines the response rate was 63 percent with complete response or better in 39 percent, responses were durable at 30 months of follow-up, and infections were the leading cause of non-relapse death, prompting immunoglobulin prophylaxis. OnCo links it to multiple myeloma, teclistamab, Philippe Moreau, Saad Z. Usmani and the MajesTEC-1 paper. Whether infection risk can be managed well enough for use outside specialist centres is the open question.",
     result: "ORR 63%, ≥CR 39%.",
     outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "Teclistamab", n: 165, value: 63 }], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2203478" }],
-    drugs: ["teclistamab"], cancers: ["multiple-myeloma"], links: [ct("NCT04557098")], people: ["philippe-moreau"] }),
+    drugs: ["teclistamab"], cancers: ["multiple-myeloma"], links: [ct("NCT04557098")], people: ["philippe-moreau", "saad-usmani"] }),
   t({ id: "majestec-3", name: "MajesTEC-3", nct: "NCT05083169", phase: "3", status: "positive", yearReported: 2025, sponsor: "Janssen", enrolled: 587,
     setting: "Relapsed/refractory myeloma after 1-3 prior lines: teclistamab + daratumumab vs Dara-Pd or Dara-Vd",
     tldr: "A bispecific plus daratumumab cut the risk of progression by more than 80% versus standard doublets, bringing bispecifics to second line.",

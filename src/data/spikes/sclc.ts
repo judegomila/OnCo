@@ -87,7 +87,7 @@ const trials: TrialInput[] = [
     result: "OS 15.4 vs 10.9 months, HR 0.63.",
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Serplulimab + CE", n: 389, value: 15.4 }, { name: "Placebo + CE", n: 196, value: 10.9 }], hr: 0.63, ci: [0.49, 0.82], source: "https://jamanetwork.com/journals/jama/fullarticle/2796605" }],
     replication: "Consistent with IMpower133 and CASPIAN; cross-trial magnitude differences may reflect population and control-arm differences rather than drug differences.",
-    drugs: ["serplulimab", "platinum-etoposide"], cancers: ["sclc"], links: [ct("NCT04063163")] }),
+    drugs: ["serplulimab", "platinum-etoposide"], cancers: ["sclc"], links: [ct("NCT04063163")], people: ["cheng-ying"] }),
   t({ id: "convert", name: "CONVERT", nct: "NCT00433563", phase: "3", status: "mixed", yearReported: 2017, sponsor: "Cancer Research UK / EORTC", enrolled: 547,
     setting: "Limited-stage SCLC: twice-daily 45 Gy vs once-daily 66 Gy thoracic radiotherapy with concurrent cisplatin-etoposide",
     tldr: "Settled the radiotherapy schedule debate in limited-stage disease: neither schedule was superior, so twice-daily 45 Gy remains standard and once-daily is an acceptable alternative.",

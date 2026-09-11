@@ -19,7 +19,7 @@ export const roadmaps: RoadmapInput[] = [
       { era: "2026-2028", title: "Fourth generation, wave 1: bispecific ADCs", status: "emerging", description: "Izalontamab brengitecan (EGFR×HER3) posts the first positive phase 3 for a bispecific ADC (TNBC and ESCC, 2026). Eight bsADC phase 3 trials started in 2025; c-MET×EGFR (tilatamig samrotecan), Nectin-4×TROP2 (AK146D1, AVZO-103), HER2 biparatopic, PD-L1×B7-H3 follow. Bispecific ADCs offer better internalisation and tumour selectivity and address heterogeneity.", refs: ["izalontamab-brengitecan", "bl-b01d1-307", "tilatamig-samrotecan", "ak146d1", "bispecific-adc"] },
       { era: "2026-2030", title: "Fourth generation, wave 2: new payload logic", status: "emerging", description: "The second wave brings dual-payload ADCs (TOP1 + orthogonal mechanism) to pre-empt cross-resistance; degrader-antibody conjugates (non-genotoxic payloads reaching intracellular targets); immune-stimulating conjugates (TLR/STING); masked/conditionally active ADCs unlocking EGFR, EpCAM, CD71; peptide-drug conjugates; radio-ADCs with 225Ac/177Lu. Homogeneous site-specific conjugation and hydrophilic linkers are the enabling chemistry.", refs: ["dual-payload-adc", "degrader-antibody-conjugate", "immune-stimulating-adc", "masked-adc", "peptide-drug-conjugate", "radioimmunotherapy", "site-specific-conjugation"] },
       { era: "2028+", title: "Speculative: imaging-guided, adaptive ADC therapy", status: "speculative", description: "Antigen PET (TROP2, HER2, B7-H3) to select and sequence ADCs; ctDNA and payload-resistance biomarkers (SLFN11, TOP1) to switch payload class; AI-designed antibodies and linkers; personalised payload selection from ex vivo testing; ADCs as neoadjuvant chemotherapy replacements across common cancers.", refs: ["trop2-pet", "her2-pet", "immuno-pet", "ai-drug-design", "functional-drug-testing"] },
-    ],
+    ], related: ["drug-discovery-roadmap"],
   }),
   r({
     id: "trop2-adc-roadmap", name: "TROP2 ADC roadmap: sacituzumab govitecan → Dato-DXd → sac-TMT → bispecifics and PET",
@@ -130,6 +130,6 @@ export const roadmaps: RoadmapInput[] = [
       { era: "2023-2026", title: "Beyond G12C", status: "current", description: "Non-covalent G12D inhibitors (MRTX1133, zoldonrasib); pan-RAS(ON) tri-complex inhibitors (daraxonrasib) with ~14.5-month OS in second-line pancreatic cancer; phase 3 RASolute 302 enrolled; first-line and adjuvant trials start. Divarasib, olomorasib, and elironrasib improve on first-generation G12C drugs.", refs: ["daraxonrasib", "revolution-medicines"] },
       { era: "2026-2029", title: "Approval and combinations", status: "emerging", description: "Expected first pancreatic cancer approval for a RAS inhibitor; combinations with chemotherapy, EGFR/SHP2 inhibitors, and immunotherapy; KRAS vaccines (ELI-002) in adjuvant pancreatic cancer; mutant-KRAS TCR-T; RAS degraders.", refs: ["shared-antigen-vaccine", "tcr-t"] },
       { era: "2030+", title: "Speculative", status: "speculative", description: "Neoadjuvant RAS inhibition making pancreatic cancer resectable; MCED-detected early pancreatic cancer treated with RAS inhibitor + vaccine; interception in high-risk pancreatic cyst carriers.", refs: ["mced", "pancreatic"] },
-    ],
+    ], related: ["targeted-therapy-roadmap"],
   }),
 ];

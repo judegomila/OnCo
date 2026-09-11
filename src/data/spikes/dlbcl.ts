@@ -135,7 +135,7 @@ const trials: TrialInput[] = [
       { endpoint: "Overall survival at 4 years", unit: "%", arms: [{ name: "Axi-cel", value: 54.6 }, { name: "Standard care", value: 46.0 }], hr: 0.73, ci: [0.54, 0.98], p: "0.03", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2301665" },
     ],
     replication: "TRANSFORM (liso-cel) confirmed the second-line CAR-T EFS benefit; BELINDA (tisagenlecleucel) was negative, attributed to design and bridging differences.",
-    drugs: ["axicabtagene-ciloleucel"], cancers: ["dlbcl"], technologies: ["car-t", "autologous-stem-cell-transplant"], terms: ["efs", "os"], links: [ct("NCT03391466"), { label: "OS analysis NEJM 2023", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2301665" }], people: ["sattva-neelapu", "jason-westin"] }),
+    drugs: ["axicabtagene-ciloleucel"], cancers: ["dlbcl"], technologies: ["car-t", "autologous-stem-cell-transplant"], terms: ["efs", "os"], links: [ct("NCT03391466"), { label: "OS analysis NEJM 2023", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2301665" }], people: ["sattva-neelapu", "jason-westin", "frederick-locke"] }),
   t({ id: "transform", name: "TRANSFORM", nct: "NCT03575351", phase: "3", status: "positive", yearReported: 2022, sponsor: "BMS", enrolled: 184,
     setting: "Primary refractory or early-relapsed LBCL, transplant-eligible: liso-cel vs salvage + autologous transplant",
     tldr: "The second trial to show a CAR-T beats transplant in early-relapsing large B-cell lymphoma.",

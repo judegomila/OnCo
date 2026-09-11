@@ -25,7 +25,7 @@ const trials: TrialInput[] = [
       { endpoint: "5-year overall survival rate", unit: "%", arms: [{ name: "Nivolumab + ipilimumab", value: 14 }, { name: "Platinum + pemetrexed", value: 6 }], hr: 0.74, ci: [0.62, 0.88], source: "https://ascopubs.org/doi/10.1200/JCO-25-01328" },
     ],
     replication: "Single phase 3; consistent direction in the phase 2 MAPS2 and INITIATE studies of second-line nivolumab-ipilimumab.",
-    drugs: ["nivolumab", "ipilimumab", "pemetrexed"], cancers: ["mesothelioma"], terms: ["epithelioid-vs-sarcomatoid"], links: [ct("NCT02899299")], people: ["paul-baas"] }),
+    drugs: ["nivolumab", "ipilimumab", "pemetrexed"], cancers: ["mesothelioma"], terms: ["epithelioid-vs-sarcomatoid"], links: [ct("NCT02899299")], people: ["paul-baas", "solange-peters"] }),
   t({ id: "keynote-483", name: "IND.227 / KEYNOTE-483", nct: "NCT02784171", phase: "3", status: "positive", yearReported: 2023, sponsor: "Canadian Cancer Trials Group / Merck", enrolled: 440,
     setting: "Unresectable pleural mesothelioma, first line: pembrolizumab + platinum-pemetrexed vs platinum-pemetrexed",
     tldr: "Showed that adding a PD-1 blocker to standard chemotherapy helps in mesothelioma, giving a second immunotherapy-based first-line option.",

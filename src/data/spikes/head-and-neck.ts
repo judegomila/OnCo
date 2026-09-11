@@ -73,7 +73,7 @@ const trials: TrialInput[] = [
     outcomes: [{ endpoint: "Overall survival at 3 years by HPV status", unit: "%", arms: [{ name: "HPV-positive", value: 82.4 }, { name: "HPV-negative", value: 57.1 }], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa0912217" }],
     replication: "Replicated across TROG, DAHANCA, and De-ESCALaTE cohorts.",
     cancers: ["head-and-neck"], technologies: ["imrt-igrt", "hpv-vaccine"], terms: ["hpv-p16"],
-    links: [ct("NCT00047008"), { label: "NEJM 2010", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa0912217" }], people: ["maura-gillison"] }),
+    links: [ct("NCT00047008"), { label: "NEJM 2010", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa0912217" }], people: ["maura-gillison", "everett-vokes"] }),
   t({ id: "nrg-hn002-hn005", name: "NRG-HN002 & NRG-HN005 (HPV+ de-escalation)", nct: "NCT03952585", phase: "2/3", status: "mixed", yearReported: 2025, sponsor: "NRG Oncology / NCI",
     setting: "Low-risk HPV-positive oropharyngeal cancer: reduced-dose radiation (60 Gy) with or without cisplatin, or with nivolumab, vs standard 70 Gy chemoradiation",
     tldr: "Attempts to give HPV-positive throat cancer patients less radiation fell short: the standard dose remained better, so de-escalation is not yet routine.",

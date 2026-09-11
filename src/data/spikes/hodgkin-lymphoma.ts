@@ -76,7 +76,7 @@ const trials: TrialInput[] = [
       { endpoint: "Any-grade peripheral neuropathy", unit: "%", arms: [{ name: "Nivolumab-AVD", value: 28.1 }, { name: "BV-AVD", value: 54.2 }] },
     ],
     replication: "Consistent with phase 2 N-AVD data (CheckMate 205 cohort D) and with pembrolizumab-AVD single-arm studies; no second randomised trial yet.",
-    drugs: ["nivolumab", "brentuximab-vedotin", "doxorubicin"], cancers: ["hodgkin-lymphoma"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], institutions: ["swog", "childrens-oncology-group"], links: [ct("NCT03907488"), { label: "FDA approval (Mar 2026)", url: "https://www.targetedonc.com/view/fda-approves-nivolumab-plus-avd-for-classical-hodgkin-lymphoma" }], people: ["kara-kelly"] }),
+    drugs: ["nivolumab", "brentuximab-vedotin", "doxorubicin"], cancers: ["hodgkin-lymphoma"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], institutions: ["swog", "childrens-oncology-group"], links: [ct("NCT03907488"), { label: "FDA approval (Mar 2026)", url: "https://www.targetedonc.com/view/fda-approves-nivolumab-plus-avd-for-classical-hodgkin-lymphoma" }], people: ["kara-kelly", "alex-herrera"], related: ["src-targeted-oncology"] }),
   t({ id: "hd21", name: "GHSG HD21", nct: "NCT02661503", phase: "3", status: "positive", yearReported: 2024, sponsor: "German Hodgkin Study Group", enrolled: 1500,
     setting: "Untreated advanced-stage classical Hodgkin lymphoma, age 18-60: PET-guided BrECADD vs escalated BEACOPP",
     tldr: "A new brentuximab-based intensive regimen matched Europe's most effective (and most toxic) chemotherapy with far fewer side effects.",

@@ -210,7 +210,7 @@ const terms: TermInput[] = [
     cancers: ["urothelial"], drugs: ["tar-200", "cretostimogene", "nogapendekin-alfa", "nadofaragene-firadenovec"] },
   { id: "fgfr3", name: "FGFR3 alterations (bladder cancer)", kind: "term", category: "Biomarkers", asOf,
     tldr: "FGFR3 is a growth-receptor gene mutated or fused in about a fifth of advanced bladder cancers and most low-grade early ones. It is the only targetable biomarker in bladder cancer so far.",
-    summary: "FGFR3 point mutations (S249C, R248C, Y373C) and fusions (FGFR3-TACC3) define luminal-papillary tumours that are less immune-infiltrated. Erdafitinib is approved for FGFR3-altered disease after immunotherapy (THOR). Testing is by NGS on tissue or urine/ctDNA.",
+    summary: "FGFR3 is a growth-receptor gene altered by point mutation or fusion in a substantial share of advanced bladder cancers and in most low-grade early ones, and it is so far the only targetable biomarker in this disease. The alterations include the S249C, R248C and Y373C point mutations and the FGFR3-TACC3 fusion, and they define luminal-papillary tumours that tend to be less immune-infiltrated. Erdafitinib is approved for FGFR3-altered disease after immunotherapy on the strength of the THOR trial. Testing is by NGS on tissue or on urine and ctDNA. The term is referenced from the Bladder & urothelial cancer and Urethral cancer entries, from Erdafitinib and THOR, and it sits alongside the FGFR2 target record.",
     cancers: ["urothelial"], drugs: ["erdafitinib"], targets: ["fgfr2"], trials: ["thor"] },
 ];
 

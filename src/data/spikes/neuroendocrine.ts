@@ -80,7 +80,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Diarrhoea", anyGradePct: 59 }, { event: "Nausea", anyGradePct: 45 }, { event: "Hypertension", anyGradePct: 26, grade3PlusPct: 10 }, { event: "Hand-foot syndrome", anyGradePct: 23, grade3PlusPct: 6 }],
     approvals: [{ region: "US", year: 2006, indication: "Advanced RCC; GIST after imatinib" }, { region: "US", year: 2011, indication: "Progressive pancreatic NETs" }],
     targets: ["vegf", "kit"], technologies: ["kinase-inhibitors", "antiangiogenic"], companies: ["pfizer"], cancers: ["neuroendocrine", "rcc", "sarcoma"] }),
-  d({ id: "itm-11", name: "177Lu-edotreotide", code: "ITM-11, n.c.a. 177Lu-DOTATOC", modality: "Radioligand therapy (beta)", status: "phase-3",
+  d({ id: "itm-11", links: [{ label: "ClinicalTrials.gov NCT03049189 (COMPETE)", url: "https://clinicaltrials.gov/study/NCT03049189" }], name: "177Lu-edotreotide", code: "ITM-11, n.c.a. 177Lu-DOTATOC", modality: "Radioligand therapy (beta)", status: "phase-3",
     tldr: "A second lutetium radioligand for neuroendocrine tumours that beat the standard pill everolimus in a head-to-head trial and is awaiting an FDA decision.",
     summary: "COMPETE (Lancet 2025; 309 patients, grade 1-2 GEP-NETs): PFS 23.9 vs 14.1 months versus everolimus (HR 0.67); response rate higher; interim OS 63.4 vs 58.7 months, a difference that did not reach statistical significance (HR 0.78). Uses non-carrier-added 177Lu from ITM's own supply. NDA accepted with PDUFA 28 August 2026. COMPOSE (grade 2-3, versus CAPTEM/everolimus/FOLFOX) ongoing.",
     mechanism: "DOTATOC peptide (SSTR2 agonist) chelating 177Lu; four cycles of 7.5 GBq every 3 months.",

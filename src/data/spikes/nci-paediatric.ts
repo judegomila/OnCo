@@ -433,7 +433,7 @@ export const nciPaediatricCancers: CancerInput[] = [
   }),
   // ======================= NCI rare cancers of childhood umbrella =======================
   c({
-    id: "rare-childhood-cancers", name: "Rare cancers of childhood (NCI PDQ umbrella)", group: "paediatric", wikipedia: W("Childhood_cancer"),
+    id: "rare-childhood-cancers", companies: ["shanghai-fosun-pharmaceutical-industrial-development", "shanghai-kechow-pharma"], name: "Rare cancers of childhood (NCI PDQ umbrella)", group: "paediatric", wikipedia: W("Childhood_cancer"),
     aka: ["Childhood cardiac tumours", "Laryngeal papillomatosis", "Recurrent respiratory papillomatosis", "Childhood melanoma", "Childhood carcinomas", "Very rare tumours of childhood"],
     burden: "Individually vanishingly rare, but together the tumours grouped by the NCI as rare cancers of childhood account for roughly one in ten childhood cancers, and their share rises in adolescence (NCI PDQ).",
     tldr: "Some childhood cancers are so rare that no single hospital sees enough to learn from. The NCI groups them together: heart tumours, airway papillomas, cancers of the thyroid, adrenal, nose and throat, melanoma and carcinomas more typical of adults. The answer has been international registries and expert networks that pool every case, so treatment guidance exists even without trials.",
@@ -458,13 +458,13 @@ export const nciPaediatricCancers: CancerInput[] = [
       { year: 2017, title: "Pediatric MATCH opens", note: "Molecular assignment platform for any refractory childhood solid tumour.", refs: ["pediatric-match"] },
       { year: 2020, title: "Systemic bevacizumab for severe respiratory papillomatosis reported", refs: ["bevacizumab"] },
     ],
-    pipeline: ["pediatric-match", "everolimus", "gardasil-9"],
+    pipeline: ["pediatric-match", "everolimus", "gardasil-9", "tq-b3234"],
     openProblems: [
       "Evidence remains observational for almost every entity; international registries and adult-paediatric joint protocols are the response.",
       "Adolescents with adult-type carcinomas fall between paediatric and adult services; AYA programmes and the RACE for Children Act (which requires paediatric evaluation of adult cancer drugs) aim to close the gap.",
       "Access to molecular profiling and matched therapy for rare tumours outside major centres.",
     ],
-    drugs: ["everolimus", "bevacizumab", "gardasil-9"], technologies: ["hpv-vaccine", "germline-testing", "cancer-registries-surveillance"], trials: ["pediatric-match"],
+    drugs: ["everolimus", "bevacizumab", "gardasil-9"], technologies: ["hpv-vaccine", "germline-testing", "cancer-registries-surveillance"], trials: ["pediatric-match", "nct07407803"],
     institutions: ["childrens-oncology-group", "siop-europe", "cclg"], terms: ["hereditary-cancer-syndromes", "aya-oncology"], bottlenecks: ["b-rare-cancers", "b-trial-enrolment"],
     related: ["nasopharyngeal", "thyroid", "adrenocortical", "melanoma", "pleuropulmonary-blastoma", "nut-carcinoma", "sinonasal", "pheochromocytoma-paraganglioma", "multiple-endocrine-neoplasia", "race-for-children-act"],
     links: [

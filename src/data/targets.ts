@@ -6,7 +6,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 export const targets: TargetInput[] = [
   // ---- Surface antigens (ADC / bispecific / CAR / tracer targets) ----
   {
-    id: "trop2", kind: "target", name: "TROP2", symbol: "TACSTD2", targetClass: "surface-antigen", asOf, wikipedia: W("TROP2"),
+    id: "trop2", drugs: ["bio-106", "eb-nk-301", "lcb84"], kind: "target", name: "TROP2", symbol: "TACSTD2", targetClass: "surface-antigen", asOf, wikipedia: W("TROP2"),
     tldr: "TROP2 is a surface glycoprotein present at high levels on most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) and at low levels on normal tissue. It does not drive the cancer; it is a delivery address, used by the approved ADCs sacituzumab govitecan and datopotamab deruxtecan and by sacituzumab tirumotecan, with a TROP2 PET tracer in development to pick patients.",
     summary: "Trophoblast cell-surface antigen 2 is a transmembrane glycoprotein overexpressed in most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) with low normal-tissue expression. It is not an oncogenic driver; it is a delivery address. Three TROP2 ADCs are approved or in registration (sacituzumab govitecan, datopotamab deruxtecan, sacituzumab tirumotecan) and a TROP2 PET tracer is in development to select patients.",
     biology: "Regulates calcium signalling and cell adhesion; overexpression correlates with poor prognosis. Expression is heterogeneous within tumours, which limits the value of IHC selection. Internalises on antibody binding and traffics to lysosomes, which is what makes it a good ADC target.",
@@ -38,10 +38,10 @@ export const targets: TargetInput[] = [
       { cancerId: "nsclc", pct: "2-3", measure: "ERBB2 exon 20 mutation", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
       { cancerId: "colorectal", pct: "3-5", measure: "Amplification/IHC 3+", source: "https://en.wikipedia.org/wiki/HER2/neu", note: "RAS wild-type enriched" },
       { cancerId: "cholangiocarcinoma", pct: "10-20", measure: "IHC 3+ or amplification", source: "https://en.wikipedia.org/wiki/HER2/neu", note: "Higher in gallbladder/extrahepatic" },
-    ], drugs: ["her2-testing-assays"], companies: ["dualitybio", "amunix-pharmaceuticals", "callio-therapeutics", "cogent-biosciences", "dantari", "enliven-therapeutics", "ibex-medical-analytics", "iksuda-therapeutics", "imagene-ai", "myricx-bio", "orum-therapeutics", "precirix"], links: [{ label: "Wikipedia", url: W("HER2/neu") }],
+    ], drugs: ["her2-testing-assays", "tqb2102", "kn026", "ibi354", "a166", "hlx22", "glsi-100", "hlx11", "rph-051", "ro7771950", "ose2101", "gq1005", "iah0968", "tqb2930", "ssgj-705", "avzo-021", "cinrebafusp-alfa", "absk061", "ssgj-612"], companies: ["dualitybio", "amunix-pharmaceuticals", "callio-therapeutics", "cogent-biosciences", "dantari", "enliven-therapeutics", "ibex-medical-analytics", "iksuda-therapeutics", "imagene-ai", "myricx-bio", "orum-therapeutics", "precirix"], links: [{ label: "Wikipedia", url: W("HER2/neu") }],
   },
   {
-    id: "her3", kind: "target", name: "HER3", symbol: "ERBB3", targetClass: "surface-antigen", asOf, wikipedia: W("ERBB3"),
+    id: "her3", drugs: ["yl202", "hmbd-001", "env-501", "sys6023"], kind: "target", name: "HER3", symbol: "ERBB3", targetClass: "surface-antigen", asOf, wikipedia: W("ERBB3"),
     tldr: "HER3 is a cousin of HER2 that cancers use as an escape route when HER2 or EGFR are blocked.",
     summary: "HER3 (ERBB3) has weak kinase activity but is the preferred dimerisation partner of HER2 and a frequent driver of resistance to EGFR and HER2 inhibitors, which is why it matters more as an escape route than as a driver in its own right. Its ligand is neuregulin (NRG1), and rare NRG1 fusions are drivers targeted by zenocutuzumab. HER3 is broadly expressed across breast, lung, and colorectal cancers, including 80-90% of EGFR-mutant NSCLC and 50-70% of breast cancers by IHC. Patritumab deruxtecan (HER3-DXd) and the EGFR×HER3 bispecific ADC izalontamab brengitecan make it a delivery target rather than a signalling target, with HERTHENA-Lung01 testing HER3-DXd in EGFR-mutant NSCLC. The open question is whether expression level predicts benefit. The simple version is a HER2 cousin that cancers switch to when HER2 or EGFR is blocked.",
     biology: "Neuregulin (NRG1) ligand; NRG1 fusions are rare drivers targeted by zenocutuzumab. Broadly expressed across breast, lung, and colorectal cancers.",
@@ -55,7 +55,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("ERBB3") }],
   },
   {
-    id: "egfr", drugs: ["dacomitinib", "mobocertinib", "guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "tempus-xt-cdx", "necitumumab"], kind: "target", name: "EGFR", symbol: "EGFR", targetClass: "kinase", asOf, wikipedia: W("Epidermal_growth_factor_receptor"),
+    id: "egfr", drugs: ["dacomitinib", "mobocertinib", "guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "tempus-xt-cdx", "necitumumab", "hlx43", "zipalertinib", "jmt101", "hs-20117", "mcla-129", "tqb6411", "tqb2930", "tqb2922", "e-edv-d682", "hmbd-001", "silevertinib", "vrn110755", "js111"], kind: "target", name: "EGFR", symbol: "EGFR", targetClass: "kinase", asOf, wikipedia: W("Epidermal_growth_factor_receptor"),
     tldr: "A growth receptor that is mutated in some lung cancers and overproduced in others; the first great success of targeted pills.",
     summary: "EGFR activating mutations (exon 19 del, L858R) drive ~15% of Western and ~40-50% of East Asian NSCLC; osimertinib is standard first-line. EGFR is also an antibody target in colorectal and head-and-neck cancer (cetuximab, panitumumab) and a component of bispecifics (amivantamab, EGFR×MET; EGFR×HER3 ADCs). Resistance via C797S, MET amplification, and histologic transformation is the central problem.",
     biology: "EGFR is a receptor tyrosine kinase activating RAS-MAPK and PI3K-AKT. Exon 20 insertions need dedicated drugs.",
@@ -71,7 +71,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Epidermal_growth_factor_receptor") }], companies: ["bicara-therapeutics", "imagene-ai", "inivata", "lucence", "oric-pharmaceuticals"],
   },
   {
-    id: "nectin4", kind: "target", name: "Nectin-4", symbol: "NECTIN4", targetClass: "surface-antigen", asOf, wikipedia: W("Nectin-4"),
+    id: "nectin4", drugs: ["crb-701"], kind: "target", name: "Nectin-4", symbol: "NECTIN4", targetClass: "surface-antigen", asOf, wikipedia: W("Nectin-4"),
     tldr: "Nectin-4 is an adhesion protein plentiful on bladder cancer cells, used as the docking site for the ADC enfortumab vedotin.",
     summary: "Nectin-4 is expressed at high levels in urothelial carcinoma and also in breast, lung, and pancreatic cancers. Enfortumab vedotin plus pembrolizumab is first-line standard in advanced urothelial cancer (EV-302). Next-generation Nectin-4 ADCs with topoisomerase-I payloads (MK-3120) and Nectin-4×TROP2 bispecific ADCs (AK146D1, AVZO-103) are in development.",
     biology: "Nectin-4 is a cell adhesion molecule and also a receptor for measles virus. Skin expression explains the rash seen with enfortumab.",
@@ -84,7 +84,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Nectin-4") }], companies: ["emergence-therapeutics", "marengo-therapeutics"],
   },
   {
-    id: "b7h3", kind: "target", name: "B7-H3", symbol: "CD276", targetClass: "surface-antigen", asOf, wikipedia: W("CD276"),
+    id: "b7h3", drugs: ["yl201", "qlc5508", "bnt324", "bcb-276"], kind: "target", name: "B7-H3", symbol: "CD276", targetClass: "surface-antigen", asOf, wikipedia: W("CD276"),
     tldr: "B7-H3 is an immune checkpoint-like surface protein found on 60 to 70% of small-cell lung cancers and 80 to 90% of castration-resistant prostate cancers, with little on normal tissue. It is used as an ADC address, chiefly by ifinatamab deruxtecan, now in phase 3 in small-cell lung cancer; whether blocking its immune-dampening role adds anything beyond payload delivery is unresolved.",
     summary: "B7-H3 (CD276) is an immune checkpoint-like molecule broadly overexpressed in solid tumours with limited normal expression; its function is debated, inhibiting T-cell activation and promoting tumour cell migration. Expression is more homogeneous than many ADC targets, found in 60-70% of small-cell lung cancer and 80-90% of castration-resistant prostate cancer by IHC, as well as head and neck and paediatric solid tumours. Ifinatamab deruxtecan (I-DXd) has shown high response rates in small-cell lung cancer and is in phase 3. B7-H3 is also pursued with radioligands and CAR-T. Whether its immune-dampening role means antibodies against it add an immunological benefit beyond payload delivery is unresolved. The simple version is a widely present tumour surface protein now used mainly as an address for ADCs.",
     biology: "Function debated: inhibits T-cell activation, promotes tumour cell migration. Expression is more homogeneous than many ADC targets.",
@@ -97,7 +97,7 @@ export const targets: TargetInput[] = [
     ], companies: ["dualitybio", "myricx-bio"], links: [{ label: "Wikipedia", url: W("CD276") }],
   },
   {
-    id: "cldn18-2", kind: "target", name: "Claudin 18.2", symbol: "CLDN18", targetClass: "surface-antigen", asOf, wikipedia: W("CLDN18"),
+    id: "cldn18-2", drugs: ["lm-302", "asp2138", "m108", "ibi343", "xnw27011", "azd4360", "tac01-cldn18-2", "lcb02a", "rc118-adc", "bdc-4182", "lb4330", "spevatamig", "azd5863"], kind: "target", name: "Claudin 18.2", symbol: "CLDN18", targetClass: "surface-antigen", asOf, wikipedia: W("CLDN18"),
     tldr: "A tight-junction protein normally hidden in the stomach lining that becomes exposed in gastric and pancreatic cancers.",
     summary: "CLDN18.2 is normally buried in tight junctions of gastric mucosa; malignant transformation exposes it on the cell surface. Zolbetuximab (Vyloy) is approved with chemotherapy in CLDN18.2-positive gastric cancer. ADCs (CMG901/AZD0901, XNW27011), CAR-T (satricabtagene autoleucel, CT041), and bispecifics are in late-stage development.",
     biology: "Splice isoform 18.2; expressed in ~30-40% of gastric/GEJ adenocarcinomas and a subset of pancreatic ductal adenocarcinoma.",
@@ -110,7 +110,7 @@ export const targets: TargetInput[] = [
     ], related: ["cldn6"], links: [{ label: "Wikipedia", url: W("CLDN18") }], pathways: ["gastric-cancer-signalling"], companies: ["xilio-therapeutics"],
   },
   {
-    id: "psma", kind: "target", name: "PSMA", symbol: "FOLH1", targetClass: "surface-antigen", asOf, wikipedia: W("Glutamate_carboxypeptidase_II"),
+    id: "psma", drugs: ["aaa817", "jnj-87189401", "hrs-4357", "fpi-2265", "ino-5401"], kind: "target", name: "PSMA", symbol: "FOLH1", targetClass: "surface-antigen", asOf, wikipedia: W("Glutamate_carboxypeptidase_II"),
     tldr: "A protein on prostate cancer cells that lets doctors both see the cancer on a PET scan and hit it with a radioactive drug.",
     summary: "Prostate-specific membrane antigen is the archetypal theranostic target. PSMA PET (Pylarify, Illuccix, Locametz, Pylarify TruVu) is standard for staging; 177Lu-PSMA-617 (Pluvicto) is approved before and after chemotherapy in metastatic castration-resistant prostate cancer. Alpha-emitting 225Ac-PSMA agents and PSMA-targeted bispecifics and CAR-T are in trials.",
     biology: "PSMA is a type II transmembrane glutamate carboxypeptidase; expression increases with grade and castration resistance. Also expressed in tumour neovasculature of other cancers.",
@@ -123,7 +123,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Glutamate_carboxypeptidase_II") }], pathways: ["prostate-cancer-signalling"], companies: ["artbio", "convergent-therapeutics", "janux-therapeutics", "point-biopharma", "xilio-therapeutics"],
   },
   {
-    id: "fap", kind: "target", name: "FAP", symbol: "FAP", targetClass: "stroma", asOf, wikipedia: W("Fibroblast_activation_protein,_alpha"),
+    id: "fap", drugs: ["eb-mf-car-nk-01"], kind: "target", name: "FAP", symbol: "FAP", targetClass: "stroma", asOf, wikipedia: W("Fibroblast_activation_protein,_alpha"),
     tldr: "FAP (fibroblast activation protein) sits on the cancer-associated fibroblasts that scaffold more than 90% of epithelial cancers and is almost absent from normal adult tissue. FAPI PET tracers therefore light up tumours with high contrast, including pancreatic, gastric and low-grade cancers where FDG PET is weak, and FAP-targeted radioligands are in development.",
     summary: "Fibroblast activation protein is expressed on cancer-associated fibroblasts in >90% of epithelial cancers, with minimal expression in normal adult tissue. FAPI PET tracers (68Ga-FAPI-46, 18F-FAPI-74) offer high tumour-to-background contrast, including in cancers where FDG is weak (pancreatic, gastric, low-grade). FAP-targeted radioligands (177Lu/225Ac-FAP-2286) are in development.",
     biology: "Serine protease on activated fibroblasts; a stromal target rather than a tumour-cell target, so it is pan-cancer but does not report on the malignant cell itself.",
@@ -151,7 +151,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Somatostatin_receptor_2") }], companies: ["point-biopharma"],
   },
   {
-    id: "dll3", kind: "target", name: "DLL3", symbol: "DLL3", targetClass: "surface-antigen", asOf, wikipedia: W("DLL3"),
+    id: "dll3", drugs: ["zl-1310", "peluntamig", "dji136"], kind: "target", name: "DLL3", symbol: "DLL3", targetClass: "surface-antigen", asOf, wikipedia: W("DLL3"),
     tldr: "A protein that appears on the surface of small-cell lung cancer cells, now hit by a drug that pulls T cells onto them.",
     summary: "Delta-like ligand 3 is an inhibitory Notch ligand aberrantly surface-expressed in ~85% of small-cell lung cancer and neuroendocrine prostate cancer. The first DLL3 ADC (rovalpituzumab tesirine) failed; the T-cell engager tarlatamab (Imdelltra) succeeded, with a survival benefit in second-line SCLC (DeLLphi-304). Trispecifics and CAR-T follow.",
     biology: "Normally intracellular Golgi protein; ASCL1-driven neuroendocrine lineage exposes it on the membrane.",
@@ -164,7 +164,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("DLL3") }], companies: ["abdera-therapeutics", "harpoon-therapeutics", "ideaya-biosciences"],
   },
   {
-    id: "folr1", drugs: ["pafolacianine"], kind: "target", name: "Folate receptor alpha", symbol: "FOLR1", targetClass: "surface-antigen", asOf, wikipedia: W("Folate_receptor_1"),
+    id: "folr1", drugs: ["pafolacianine", "sofetabart-mipitecan", "chiauranib", "farletuzumab-exatecan"], kind: "target", name: "Folate receptor alpha", symbol: "FOLR1", targetClass: "surface-antigen", asOf, wikipedia: W("Folate_receptor_1"),
     tldr: "Folate receptor alpha is a vitamin receptor that ovarian cancer cells carry in large numbers, used as the docking site for the ADC mirvetuximab.",
     summary: "FRα is overexpressed in high-grade serous ovarian cancer, endometrial cancer, and lung adenocarcinoma. Mirvetuximab soravtansine (Elahere) is approved in FRα-high platinum-resistant ovarian cancer (MIRASOL). Next-generation FRα ADCs with topoisomerase-I payloads (ZW191, luveltamab tazevibulin, rinatabart sesutecan) target lower-expressing tumours.",
     biology: "GPI-anchored folate transporter; limited to apical surfaces in normal kidney, lung, and choroid plexus.",
@@ -204,7 +204,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("CDH6") }],
   },
   {
-    id: "ceacam5", kind: "target", name: "CEACAM5", symbol: "CEACAM5", targetClass: "surface-antigen", asOf, wikipedia: W("Carcinoembryonic_antigen"),
+    id: "ceacam5", drugs: ["sgm-101", "precemtabart-tocentecan", "ose2101"], kind: "target", name: "CEACAM5", symbol: "CEACAM5", targetClass: "surface-antigen", asOf, wikipedia: W("Carcinoembryonic_antigen"),
     tldr: "The classic 'CEA' tumour marker measured in blood, also present on the cell surface where ADCs can reach it.",
     summary: "CEACAM5 is carcinoembryonic antigen, a GPI-anchored adhesion molecule that is shed into circulation as the serum CEA marker and also sits on the cell surface where ADCs and T-cell engagers can reach it. It is overexpressed in colorectal (80-90% moderate-to-high by IHC), gastric (50-60%), lung adenocarcinoma, and pancreatic cancers; only 20-25% of non-squamous NSCLC met the high-expression threshold used in CARMEN. Tusamitamab ravtansine failed in phase 3 NSCLC (CARMEN-LC03), a setback that raised questions about payload choice and patient selection rather than the target itself. CEACAM5 remains pursued with T-cell engagers and next-generation ADCs. The simple version is the classic CEA blood marker, now also being used as a surface target for drug delivery.",
     biology: "GPI-anchored adhesion molecule; shed into circulation as the serum CEA marker.",
@@ -218,7 +218,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Carcinoembryonic_antigen") }],
   },
   {
-    id: "gpc3", kind: "target", name: "Glypican-3", symbol: "GPC3", targetClass: "surface-antigen", asOf, wikipedia: W("Glypican_3"),
+    id: "gpc3", drugs: ["azd9793"], kind: "target", name: "Glypican-3", symbol: "GPC3", targetClass: "surface-antigen", asOf, wikipedia: W("Glypican_3"),
     tldr: "Glypican-3 is a fetal liver protein that reappears in liver cancer, giving CAR-T and bispecifics a clean target.",
     summary: "Glypican-3 is a heparan sulfate proteoglycan that modulates Wnt and Hedgehog signalling; it is a fetal liver protein expressed in 70-80% of hepatocellular carcinoma and essentially absent from normal adult liver, which gives cell and bispecific therapies a clean target. It is also found in hepatoblastoma and yolk-sac tumours. Antibodies failed as monotherapy (codrituzumab), suggesting that simply binding GPC3 is not enough. GPC3 CAR-T, including armoured constructs from AstraZeneca/Neogene and Chinese groups, and GPC3×CD3 bispecifics are showing responses, though durability and the hostile liver microenvironment remain concerns. The simple version is a liver-development protein that reappears in liver cancer, letting engineered immune cells recognise the tumour.",
     biology: "Glypican-3 is a heparan sulfate proteoglycan modulating Wnt and Hedgehog signalling.",
@@ -230,7 +230,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Glypican_3") }],
   },
   {
-    id: "mesothelin", kind: "target", name: "Mesothelin", symbol: "MSLN", targetClass: "surface-antigen", asOf, wikipedia: W("Mesothelin"),
+    id: "mesothelin", drugs: ["eb-mf-car-nk-01"], kind: "target", name: "Mesothelin", symbol: "MSLN", targetClass: "surface-antigen", asOf, wikipedia: W("Mesothelin"),
     tldr: "Mesothelin is a surface protein on mesothelioma, ovarian, and pancreatic cancers, targeted by ADCs, CAR-T, and T-cell engagers.",
     summary: "Mesothelin (MSLN) is a GPI-anchored protein with restricted normal expression on mesothelial surfaces; it binds MUC16/CA-125 but its function is largely dispensable, so targeting it carries little on-target risk in healthy tissue. It is expressed in 85-100% of epithelioid mesothelioma (lower in sarcomatoid), 80-90% of pancreatic cancer, 60-70% of serous ovarian cancer, and lung adenocarcinoma. Anetumab ravtansine failed in mesothelioma, which set back the ADC route. Mesothelin remains a leading solid-tumour CAR-T target, including regionally delivered and mRNA-CAR approaches designed to overcome poor infiltration and short persistence, and T-cell engagers are also in development. The simple version is a surface protein shared by several hard-to-treat cancers that engineered immune cells can be aimed at.",
     biology: "Binds MUC16/CA-125; function largely dispensable.",
@@ -244,7 +244,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Mesothelin") }],
   },
   {
-    id: "cd70", kind: "target", name: "CD70", symbol: "CD70", targetClass: "surface-antigen", asOf, wikipedia: W("CD70"),
+    id: "cd70", drugs: ["cusatuzumab", "adi-270"], kind: "target", name: "CD70", symbol: "CD70", targetClass: "surface-antigen", asOf, wikipedia: W("CD70"),
     tldr: "CD70 is a protein normally only on activated immune cells, but permanently switched on in kidney cancer and some leukaemias.",
     summary: "CD70 is the TNF-family ligand for CD27, normally expressed only transiently on activated immune cells, but permanently switched on in clear-cell RCC and a range of haematologic malignancies with minimal normal expression. It is found in 80-90% of clear-cell RCC by IHC and on blasts and leukaemic stem cells in 30-50% of AML, as well as in lymphomas. Allogeneic CD70 CAR-T (ALLO-316) has shown responses in RCC, a notable result because solid tumours have resisted CAR-T. An advantage of the target is that CD70-directed cells may also deplete alloreactive host T cells, which helps off-the-shelf products persist. Durability of response and safety in AML are open. The simple version is an immune-cell protein that kidney cancer keeps switched on, offering a target for donor-derived CAR-T.",
     biology: "CD70 is the TNF-family ligand for CD27.",
@@ -271,7 +271,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("ROR1") }],
   },
   {
-    id: "cd19", kind: "target", name: "CD19", symbol: "CD19", targetClass: "surface-antigen", asOf, wikipedia: W("CD19"),
+    id: "cd19", drugs: ["mk-1045", "rondecabtagene-autoleucel", "azd0486", "zamtocabtagene-autoleucel", "tc011", "englumafusp-alfa", "crc01", "gc012f", "jnj-90014496", "ctx112", "at101", "cd19-t-hank", "tbi-1501"], kind: "target", name: "CD19", symbol: "CD19", targetClass: "surface-antigen", asOf, wikipedia: W("CD19"),
     tldr: "CD19 is a marker on B cells and B-cell cancers, and was the target of the first CAR-T therapies ever approved.",
     summary: "CD19 is expressed throughout B-cell development and on nearly all B-cell malignancies. Target of tisagenlecleucel, axicabtagene, lisocabtagene, brexucabtagene, obecabtagene (CAR-T), blinatumomab (BiTE), tafasitamab, and loncastuximab tesirine (ADC). CD19 CAR-T is now also used in autoimmune disease.",
     biology: "B-cell co-receptor; loss of CD19 is a common escape mechanism after CAR-T.",
@@ -295,10 +295,10 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "dlbcl", pct: ">95", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/CD20" },
       { cancerId: "cll", pct: ">90", measure: "Dim surface expression", source: "https://en.wikipedia.org/wiki/CD20" },
-    ], drugs: ["ibritumomab-tiuxetan", "ofatumumab"], links: [{ label: "Wikipedia", url: W("CD20") }], companies: ["leah-labs", "lyell-immunopharma", "poseida-therapeutics"],
+    ], drugs: ["ibritumomab-tiuxetan", "ofatumumab", "rondecabtagene-autoleucel", "tqb2825", "zamtocabtagene-autoleucel", "azd5492", "jnj-90014496"], links: [{ label: "Wikipedia", url: W("CD20") }], companies: ["leah-labs", "lyell-immunopharma", "poseida-therapeutics"],
   },
   {
-    id: "bcma", kind: "target", name: "BCMA", symbol: "TNFRSF17", targetClass: "surface-antigen", asOf, wikipedia: W("B-cell_maturation_antigen"),
+    id: "bcma", drugs: ["gc012f", "azd4045", "nxc-201-car-t"], kind: "target", name: "BCMA", symbol: "TNFRSF17", targetClass: "surface-antigen", asOf, wikipedia: W("B-cell_maturation_antigen"),
     tldr: "BCMA is a survival receptor on plasma cells, and the target that made CAR-T and bispecifics work in multiple myeloma.",
     summary: "B-cell maturation antigen (TNFRSF17) is a TNF receptor family member with APRIL and BAFF as ligands that sustains plasma cell survival, and it is present on over 95% of myeloma cells with little expression elsewhere. It is targeted by CAR-T (ciltacabtagene, idecabtagene), bispecifics (teclistamab, elranatamab, linvoseltamab), and the ADC belantamab mafodotin, re-approved in 2025 on the strength of DREAMM-7/8. Soluble BCMA shed into the blood can act as a decoy, and antigen loss or downregulation is one mechanism of relapse. The open questions are how to sequence these modalities and how to manage infections in patients with prolonged plasma cell depletion. The simple version is the plasma cell survival receptor that made CAR-T and bispecifics work in multiple myeloma.",
     biology: "BCMA is a TNF receptor family member with APRIL and BAFF as ligands. Soluble BCMA can act as a decoy.",
@@ -310,7 +310,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("B-cell_maturation_antigen") }], companies: ["arcellx", "cullinan-therapeutics", "kelonia-therapeutics", "poseida-therapeutics"],
   },
   {
-    id: "gprc5d", kind: "target", name: "GPRC5D", symbol: "GPRC5D", targetClass: "surface-antigen", asOf, wikipedia: W("GPRC5D"),
+    id: "gprc5d", drugs: ["arlocabtagene-autoleucel"], kind: "target", name: "GPRC5D", symbol: "GPRC5D", targetClass: "surface-antigen", asOf, wikipedia: W("GPRC5D"),
     tldr: "GPRC5D is a second myeloma target used when BCMA-directed drugs stop working.",
     summary: "GPRC5D is an orphan class C G-protein-coupled receptor expressed on myeloma cells and on hard keratinised tissue (skin, nails, tongue), which explains the characteristic skin, nail and taste toxicity of drugs directed against it. Expression is high in roughly 60 to 80 percent of myeloma cases and correlates with high-risk disease. Because it is independent of BCMA, it offers a second surface address for patients whose disease has escaped BCMA-directed therapy. Talquetamab, a GPRC5D×CD3 bispecific, is approved; a GPRC5D CAR-T (arlocabtagene autoleucel) is in phase 3. Open questions are how to sequence GPRC5D and BCMA agents and whether antigen loss limits durability. For a newcomer: it is the backup target used when BCMA-directed myeloma drugs stop working.",
     biology: "GPRC5D is an orphan class C GPCR.",
@@ -328,10 +328,10 @@ export const targets: TargetInput[] = [
     biology: "Invariant TCR co-receptor; engagement triggers activation and cytokine release independent of MHC.",
     whereFound: ["All T cells (effector arm, not a tumour target)"],
     tags: ["t-cell-engager-target"],
-    notes: ["Prevalence not applicable: CD3 is the T-cell effector arm of bispecific engagers, not a tumour antigen, so no expression rate by cancer is recorded. Surface CD3 is present on most mature T-cell lymphomas, but that is not what the drugs select for."], drugs: ["catumaxomab"], links: [{ label: "Wikipedia", url: W("CD3_(immunology)") }], companies: ["asher-bio", "cullinan-therapeutics", "cytomx-therapeutics", "harpoon-therapeutics", "janux-therapeutics"],
+    notes: ["Prevalence not applicable: CD3 is the T-cell effector arm of bispecific engagers, not a tumour antigen, so no expression rate by cancer is recorded. Surface CD3 is present on most mature T-cell lymphomas, but that is not what the drugs select for."], drugs: ["catumaxomab", "asp2138", "azd0486", "tqb2825", "azd6621", "cart84", "azd5863"], links: [{ label: "Wikipedia", url: W("CD3_(immunology)") }], companies: ["asher-bio", "cullinan-therapeutics", "cytomx-therapeutics", "harpoon-therapeutics", "janux-therapeutics"],
   },
   {
-    id: "cd38", kind: "target", name: "CD38", symbol: "CD38", targetClass: "surface-antigen", asOf, wikipedia: W("CD38"),
+    id: "cd38", drugs: ["sg301", "sti-6129"], kind: "target", name: "CD38", symbol: "CD38", targetClass: "surface-antigen", asOf, wikipedia: W("CD38"),
     tldr: "CD38 is a myeloma surface enzyme and the target of daratumumab, which is now given as a quick under-the-skin injection.",
     summary: "CD38 is an ectoenzyme (an NADase) present on the surface of more than 95 percent of myeloma plasma cells and on a variable 60 to 80 percent of AML blasts. Antibodies against it kill myeloma cells through complement, antibody-dependent cytotoxicity and phagocytosis, and add an immunomodulatory effect by depleting CD38-positive regulatory cells. The CD38 antibodies daratumumab and isatuximab are backbone myeloma therapy from first line onward, and subcutaneous formulations (Darzalex Faspro, Sarclisa Escena) dominate because they replace long infusions with a quick injection. Open issues include CD38 downregulation after exposure, interference with blood-typing and flow-cytometry assays, and the best way to sequence CD38 antibodies with T-cell-redirecting therapies. In short, CD38 is the surface enzyme that made antibody therapy a standard part of myeloma care.",
     biology: "CD38 is an ectoenzyme (NADase); immunomodulatory effects arise via depletion of CD38+ regulatory cells.",
@@ -395,7 +395,7 @@ export const targets: TargetInput[] = [
 
   // ---- Checkpoints ----
   {
-    id: "pd1", kind: "target", name: "PD-1", symbol: "PDCD1", targetClass: "checkpoint", asOf, wikipedia: W("Programmed_cell_death_protein_1"),
+    id: "pd1", drugs: ["tqb2450", "bcd-217", "tak-928", "sasanlimab", "ibi363", "t3011", "ssgj-705", "ssgj-706", "rilvegostomig", "lorigerlimab", "ai-081", "gc101-til", "azd7789", "lb1410"], kind: "target", name: "PD-1", symbol: "PDCD1", targetClass: "checkpoint", asOf, wikipedia: W("Programmed_cell_death_protein_1"),
     tldr: "PD-1 is a brake on T cells. Blocking it releases the immune system against the tumour and has cured some previously incurable cancers.",
     summary: "PD-1 blockade (pembrolizumab, nivolumab, cemiplimab, dostarlimab and a growing list of biosimilar-adjacent agents) is standard across melanoma, NSCLC, RCC, urothelial, head and neck, MSI-high tumours, TNBC (with chemotherapy), Hodgkin lymphoma, and more. PD-1×VEGF bispecifics (ivonescimab) and PD-1×CTLA-4 combinations are the next wave.",
     biology: "Inhibitory receptor on activated T cells; ligands PD-L1/PD-L2. Tumour PD-L1 expression, TMB, and MSI predict response imperfectly.",
@@ -423,10 +423,10 @@ export const targets: TargetInput[] = [
       { cancerId: "urothelial", pct: "25-30", measure: "CPS >=10", source: "https://en.wikipedia.org/wiki/PD-L1" },
       { cancerId: "sclc", pct: "15-20", measure: "Any tumour-cell expression", source: "https://en.wikipedia.org/wiki/PD-L1" },
       { cancerId: "head-and-neck", pct: "80-85", measure: "CPS >=1", source: "https://en.wikipedia.org/wiki/PD-L1", note: "KEYNOTE-048" },
-    ], drugs: ["ventana-pd-l1-sp142"], links: [{ label: "Wikipedia", url: W("PD-L1") }], companies: ["compass-therapeutics", "insight-molecular-diagnostics", "io-biotech", "onc-ai", "oncohost"],
+    ], drugs: ["ventana-pd-l1-sp142", "pm8002", "hlx43", "tqb2450", "io102-io103", "acasunlimab", "sasanlimab", "pf-08046054", "t3011", "ssgj-706", "hb0036"], links: [{ label: "Wikipedia", url: W("PD-L1") }], companies: ["compass-therapeutics", "insight-molecular-diagnostics", "io-biotech", "onc-ai", "oncohost"],
   },
   {
-    id: "ctla4", kind: "target", name: "CTLA-4", symbol: "CTLA4", targetClass: "checkpoint", asOf, wikipedia: W("CTLA-4"),
+    id: "ctla4", drugs: ["gotistobart", "bcd-217", "adg126", "botensilimab", "jk08", "lorigerlimab", "ba3071"], kind: "target", name: "CTLA-4", symbol: "CTLA4", targetClass: "checkpoint", asOf, wikipedia: W("CTLA-4"),
     tldr: "The first immune brake ever targeted for cancer; releasing it won a Nobel Prize and cures a fraction of melanomas.",
     summary: "CTLA-4 is a checkpoint on activated and regulatory T cells that competes with CD28 for B7 ligands during T-cell priming; antibodies against it broaden the T-cell response and, through Fc effector function, deplete regulatory T cells inside tumours. Ipilimumab (2011) was the first checkpoint inhibitor, and the concept later shared a Nobel Prize. Combined with nivolumab it yields 10-year survival near 50 percent in advanced melanoma (CheckMate 067), and the pair is used in RCC, MSI-high colorectal cancer, HCC and mesothelioma. The cost is frequent immune-related toxicity such as colitis and hypophysitis, and because it acts on immune cells there is no tumour biomarker to select patients. Fc-engineered and probody CTLA-4 antibodies aim to reduce toxicity. Releasing this brake was the first proof that the immune system can cure some cancers.",
     biology: "Competes with CD28 for B7 ligands during T-cell priming; also depletes regulatory T cells via Fc effector function.",
@@ -439,7 +439,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("CTLA-4") }], companies: ["xilio-therapeutics"],
   },
   {
-    id: "lag3", kind: "target", name: "LAG-3", symbol: "LAG3", targetClass: "checkpoint", asOf, wikipedia: W("LAG3"),
+    id: "lag3", drugs: ["hlx26"], kind: "target", name: "LAG-3", symbol: "LAG3", targetClass: "checkpoint", asOf, wikipedia: W("LAG3"),
     tldr: "LAG-3 is the third immune brake to reach approval, combined with PD-1 blockade in melanoma.",
     summary: "LAG-3 is an inhibitory receptor that binds MHC class II and FGL1 and is co-expressed with PD-1 on exhausted T cells, so blocking both releases two brakes on the same cell. Relatlimab plus nivolumab (Opdualag) improved progression-free survival over nivolumab alone in untreated advanced melanoma in RELATIVITY-047, with less toxicity than the ipilimumab combination, making LAG-3 the third immune checkpoint to reach approval. LAG-3 expression of at least 1 percent on immune cells was seen in roughly 75 to 80 percent of the RELATIVITY-047 population. Fianlimab and favezelimab are in phase 3 across tumour types, and whether the benefit extends beyond melanoma is the central open question. For a newcomer: LAG-3 is the immune brake that joined PD-1 blockade to make melanoma immunotherapy work better without much extra toxicity.",
     biology: "Binds MHC class II and FGL1; co-expressed with PD-1 on exhausted T cells.",
@@ -452,7 +452,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("LAG3") }],
   },
   {
-    id: "tigit", kind: "target", name: "TIGIT", symbol: "TIGIT", targetClass: "checkpoint", asOf, wikipedia: W("TIGIT"),
+    id: "tigit", drugs: ["rilvegostomig", "hb0036"], kind: "target", name: "TIGIT", symbol: "TIGIT", targetClass: "checkpoint", asOf, wikipedia: W("TIGIT"),
     tldr: "TIGIT is an inhibitory receptor on T and natural killer cells that binds PVR (CD155) on tumour cells, so blocking it was expected to amplify PD-1 and PD-L1 inhibitors. Tiragolumab, domvanalimab and others then failed to add benefit in phase 3 lung cancer trials despite encouraging phase 2 signals, and the lack of a TIGIT-specific biomarker remains a weakness.",
     summary: "TIGIT is an inhibitory receptor on T and NK cells that binds PVR (CD155) on tumour cells and competes with the activating receptor CD226, so blocking it was expected to amplify PD-1 and PD-L1 inhibitors. That expectation largely failed in phase 3: tiragolumab (SKYSCRAPER-01), domvanalimab and others did not add meaningful benefit to PD-1/PD-L1 blockade in NSCLC or SCLC, despite encouraging phase 2 signals. Because TIGIT sits on immune cells, patient selection relied on PD-L1 rather than a TIGIT-specific biomarker, and this remains a weakness. Fc-enabled versus Fc-silent antibody design, which changes whether regulatory T cells are depleted, is still debated, and some programmes continue. The newcomer's lesson: TIGIT is a cautionary tale about promising early data that did not survive large randomised trials.",
     biology: "Binds PVR (CD155) on tumour cells; competes with the activating receptor CD226.",
@@ -481,7 +481,7 @@ export const targets: TargetInput[] = [
       { cancerId: "nsclc", pct: "25-30", measure: "Adenocarcinoma, any KRAS mutation", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "G12C ~13% of adenocarcinoma" },
       { cancerId: "endometrial", pct: "15-20", measure: "Any KRAS mutation", source: "https://www.cbioportal.org/study/summary?id=ucec_tcga_pan_can_atlas_2018" },
       { cancerId: "ovarian", pct: "10-15", measure: "Low-grade serous and mucinous", source: "https://www.cbioportal.org/study/summary?id=ov_tcga_pan_can_atlas_2018" },
-    ], drugs: ["guardant360-cdx", "therascreen-cdx", "tempus-xt-cdx", "resolution-ctdx-first"], links: [{ label: "Wikipedia", url: W("KRAS") }], companies: ["adventris-pharmaceuticals", "bridgebio-oncology-therapeutics", "cogent-biosciences", "erasca", "imagene-ai", "inivata", "kumquat-biosciences", "lucence", "treeline-biosciences"],
+    ], drugs: ["guardant360-cdx", "therascreen-cdx", "tempus-xt-cdx", "resolution-ctdx-first", "calderasib", "jdq443", "gfh375", "setidegrasib", "incb161734", "vs-7375", "jyp0015"], links: [{ label: "Wikipedia", url: W("KRAS") }], companies: ["adventris-pharmaceuticals", "bridgebio-oncology-therapeutics", "cogent-biosciences", "erasca", "imagene-ai", "inivata", "kumquat-biosciences", "lucence", "treeline-biosciences"],
   },
   {
     id: "braf", kind: "target", name: "BRAF", symbol: "BRAF", targetClass: "kinase", asOf, wikipedia: W("BRAF_(gene)"),
@@ -497,10 +497,10 @@ export const targets: TargetInput[] = [
       { cancerId: "colorectal", pct: "8-12", measure: "V600E mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018" },
       { cancerId: "thyroid", pct: "40-60", measure: "Papillary V600E", source: "https://www.cbioportal.org/study/summary?id=thca_tcga_pan_can_atlas_2018", note: "Near-universal in some PTC variants" },
       { cancerId: "nsclc", pct: "2-4", measure: "V600E and non-V600", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
-    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx"], links: [{ label: "Wikipedia", url: W("BRAF_(gene)") }], companies: ["imagene-ai", "nested-therapeutics"],
+    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "gc101-til"], links: [{ label: "Wikipedia", url: W("BRAF_(gene)") }], companies: ["imagene-ai", "nested-therapeutics"],
   },
   {
-    id: "alk", drugs: ["ceritinib", "brigatinib", "ensartinib", "guardant360-cdx"], kind: "target", name: "ALK", symbol: "ALK", targetClass: "kinase", asOf, wikipedia: W("Anaplastic_lymphoma_kinase"),
+    id: "alk", drugs: ["ceritinib", "brigatinib", "ensartinib", "guardant360-cdx", "tri-611"], kind: "target", name: "ALK", symbol: "ALK", targetClass: "kinase", asOf, wikipedia: W("Anaplastic_lymphoma_kinase"),
     tldr: "ALK is a gene fusion driver in about 4 to 5% of non-small-cell lung cancers that responds to a succession of ALK inhibitor pills. Lorlatinib kept about 60% of patients progression-free at five years, alectinib is approved after surgery, and neladalkib targets compound resistance mutations.",
     summary: "ALK rearrangements occur in ~4-5% of NSCLC, typically in younger never-smokers. Lorlatinib achieved 5-year PFS of ~60% in CROWN, the longest of any targeted therapy in metastatic NSCLC. Alectinib is approved in the adjuvant setting (ALINA). Fourth-generation inhibitors (neladalkib) address compound resistance mutations.",
     biology: "ALK is a receptor tyrosine kinase; the EML4-ALK fusion is most common. It is also altered in anaplastic large-cell lymphoma and neuroblastoma.",
@@ -526,7 +526,7 @@ export const targets: TargetInput[] = [
       { cancerId: "nsclc", pct: "3-4", measure: "Exon 14 skipping", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "Amplification in 5-20% post-EGFR TKI; c-MET overexpression ~25% of non-squamous" },
       { cancerId: "gastric", pct: "2-5", measure: "Amplification", source: "https://www.cbioportal.org/study/summary?id=stad_tcga_pan_can_atlas_2018" },
       { cancerId: "rcc", pct: "10-15", measure: "Papillary RCC type 1 alterations", source: "https://www.cbioportal.org/study/summary?id=kirp_tcga_pan_can_atlas_2018" },
-    ], drugs: ["guardant360-cdx"], links: [{ label: "Wikipedia", url: W("C-Met") }], companies: ["imagene-ai", "lucence", "mythic-therapeutics"],
+    ], drugs: ["guardant360-cdx", "zanzalintinib", "lam561", "bezuclastinib", "al2846", "hs-20117", "mcla-129", "tqb6411", "tqb2922", "hdm2017", "js111"], links: [{ label: "Wikipedia", url: W("C-Met") }], companies: ["imagene-ai", "lucence", "mythic-therapeutics"],
   },
   {
     id: "ret", kind: "target", name: "RET", symbol: "RET", targetClass: "kinase", asOf, wikipedia: W("RET_proto-oncogene"),
@@ -540,10 +540,10 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "thyroid", pct: "60-70", measure: "RET mutation in medullary thyroid cancer", source: "https://en.wikipedia.org/wiki/RET_proto-oncogene", note: "~10-20% RET fusions in papillary" },
       { cancerId: "nsclc", pct: "1-2", measure: "Fusion", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
-    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test"], links: [{ label: "Wikipedia", url: W("RET_proto-oncogene") }], companies: ["imagene-ai", "lucence"],
+    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "al2846", "ep0031"], links: [{ label: "Wikipedia", url: W("RET_proto-oncogene") }], companies: ["imagene-ai", "lucence"],
   },
   {
-    id: "ntrk", kind: "target", name: "NTRK", symbol: "NTRK1/2/3", targetClass: "kinase", asOf, wikipedia: W("Trk_receptor"),
+    id: "ntrk", drugs: ["trk-950"], kind: "target", name: "NTRK", symbol: "NTRK1/2/3", targetClass: "kinase", asOf, wikipedia: W("Trk_receptor"),
     tldr: "Rare gene fusions found across dozens of cancer types; the first target where a drug was approved for any tumour carrying it.",
     summary: "NTRK1, NTRK2 and NTRK3 encode the neurotrophin receptor kinases TrkA, TrkB and TrkC, and gene fusions lock them permanently on. Fusions are rare, under 1 percent of common adult cancers, yet near-universal in infantile fibrosarcoma (ETV6-NTRK3) and secretory carcinoma of breast and salivary gland, with 2 to 3 percent of thyroid cancers and rare colorectal cases enriched in MSI-high disease. Larotrectinib and entrectinib were the first kinase inhibitors approved on a tumour-agnostic basis (2018 to 2019), meaning any tumour with the fusion qualifies. Repotrectinib addresses acquired resistance mutations in the kinase domain. The open challenge is detection, because fusions this rare are only found when RNA-based or broad DNA panels are used routinely. The plain version: NTRK was the first target where a drug was approved for any cancer carrying it.",
     biology: "NTRK1/2/3 encode the neurotrophin receptor kinases TrkA, TrkB and TrkC.",
@@ -570,10 +570,10 @@ export const targets: TargetInput[] = [
       { cancerId: "cholangiocarcinoma", pct: "10-15", measure: "Fusion (intrahepatic)", source: "https://www.cbioportal.org/study/summary?id=chol_tcga_pan_can_atlas_2018" },
       { cancerId: "gastric", pct: "3-8", measure: "FGFR2b overexpression/amplification", source: "https://www.cbioportal.org/study/summary?id=stad_tcga_pan_can_atlas_2018", note: "FORTITUDE-101 selected IHC 2+/3+" },
       { cancerId: "urothelial", pct: "15-20", measure: "FGFR3 alterations (related target)", source: "https://www.cbioportal.org/study/summary?id=blca_tcga_pan_can_atlas_2018", note: "FGFR3 mutations/fusions; erdafitinib" },
-    ], drugs: ["therascreen-cdx"], links: [{ label: "Wikipedia", url: W("Fibroblast_growth_factor_receptor_2") }], companies: ["cogent-biosciences", "relay-therapeutics", "tyra-biosciences"],
+    ], drugs: ["therascreen-cdx", "hmpl-453", "tar-210", "tyra-300", "absk061", "cgt4859", "lirafugratinib"], links: [{ label: "Wikipedia", url: W("Fibroblast_growth_factor_receptor_2") }], companies: ["cogent-biosciences", "relay-therapeutics", "tyra-biosciences"],
   },
   {
-    id: "kit", kind: "target", name: "KIT", symbol: "KIT", targetClass: "kinase", asOf, wikipedia: W("CD117"),
+    id: "kit", drugs: ["bezuclastinib", "al2846", "chiauranib"], kind: "target", name: "KIT", symbol: "KIT", targetClass: "kinase", asOf, wikipedia: W("CD117"),
     tldr: "KIT mutation is the driver behind most gastrointestinal stromal tumours, and the reason imatinib turned a sarcoma with a median survival of about a year into a chronic disease.",
     summary: "KIT is the receptor tyrosine kinase for stem-cell factor, and activating mutations in it drive roughly 75 to 80 percent of gastrointestinal stromal tumours (GIST), with PDGFRA mutations accounting for about 10 percent more. Imatinib turned a sarcoma with a median survival of about a year into a chronic disease, and sunitinib, regorafenib, ripretinib and avapritinib (for PDGFRA D842V) form the sequence used as resistance mutations accumulate. KIT is also a target in systemic mastocytosis and is mutated in 2 to 3 percent of melanomas, enriched in acral and mucosal subtypes. Resistance arises through secondary KIT mutations that differ between patients, so later-line choice increasingly depends on the specific mutation. The plain version: KIT mutation is the driver behind most GIST, and blocking it is one of the clearest success stories of targeted therapy.",
     biology: "Stem-cell factor receptor tyrosine kinase.",
@@ -587,7 +587,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("CD117") }], companies: ["blueprint-medicines", "cogent-biosciences"],
   },
   {
-    id: "flt3", kind: "target", name: "FLT3", symbol: "FLT3", targetClass: "kinase", asOf, wikipedia: W("CD135"),
+    id: "flt3", drugs: ["men1703"], kind: "target", name: "FLT3", symbol: "FLT3", targetClass: "kinase", asOf, wikipedia: W("CD135"),
     tldr: "FLT3 is a kinase mutated in about a third of acute myeloid leukaemias, where adding an inhibitor to chemotherapy improves survival.",
     summary: "FLT3 is a class III receptor tyrosine kinase, and internal tandem duplications (ITD) or tyrosine kinase domain (TKD) mutations activate it in roughly 25 to 30 percent of acute myeloid leukaemias, with ITD conferring a poor prognosis. Adding a FLT3 inhibitor to intensive chemotherapy improves survival: midostaurin, gilteritinib and quizartinib are approved, with quizartinib and midostaurin used in the front line and gilteritinib in relapsed disease. Combinations with venetoclax and with menin inhibitors are being tested to deepen and prolong responses. Resistance through emergent TKD mutations, clonal switching and the role of FLT3 inhibitors as maintenance after transplant remain open. For a newcomer: FLT3 is the AML kinase where a targeted pill added to chemotherapy has clearly extended lives.",
     biology: "Class III receptor tyrosine kinase; ITD confers poor prognosis.",
@@ -612,10 +612,10 @@ export const targets: TargetInput[] = [
       { cancerId: "endometrial", pct: "45-55", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=ucec_tcga_pan_can_atlas_2018" },
       { cancerId: "head-and-neck", pct: "15-20", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=hnsc_tcga_pan_can_atlas_2018", note: "HPV+ enriched" },
       { cancerId: "colorectal", pct: "15-20", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018" },
-    ], drugs: ["therascreen-cdx"], links: [{ label: "Wikipedia", url: W("P110α") }], companies: ["bridgebio-oncology-therapeutics", "cogent-biosciences", "relay-therapeutics", "scorpion-therapeutics"],
+    ], drugs: ["therascreen-cdx", "tersolisib", "zovegalisib", "serabelisib"], links: [{ label: "Wikipedia", url: W("P110α") }], companies: ["bridgebio-oncology-therapeutics", "cogent-biosciences", "relay-therapeutics", "scorpion-therapeutics"],
   },
   {
-    id: "akt", kind: "target", name: "AKT", symbol: "AKT1/2/3", targetClass: "kinase", asOf, wikipedia: W("Protein_kinase_B"),
+    id: "akt", drugs: ["ipatasertib"], kind: "target", name: "AKT", symbol: "AKT1/2/3", targetClass: "kinase", asOf, wikipedia: W("Protein_kinase_B"),
     tldr: "AKT is a central survival kinase downstream of PI3K, blocked by capivasertib in breast and now prostate cancer.",
     summary: "AKT1, AKT2 and AKT3 are serine/threonine kinases at the centre of the PI3K survival pathway, and the AKT1 E17K hotspot is an activating mutation found in about 3 to 5 percent of hormone-receptor-positive breast cancers. Capivasertib (Truqap), a pan-AKT inhibitor, is approved with fulvestrant in HR-positive breast cancer carrying PIK3CA, AKT1 or PTEN alterations (CAPItello-291), a group that makes up around half of such tumours, and from 2026 with abiraterone in PTEN-deficient metastatic prostate cancer (CAPItello-281). PTEN loss activates the pathway in roughly 15 to 20 percent of prostate cancers and around 40 percent of metastatic castration-resistant disease. Hyperglycaemia, diarrhoea and rash are the class toxicities, and whether unselected patients also benefit is contested. In plain terms, AKT is the survival kinase downstream of PI3K, now blocked in breast and prostate cancer.",
     biology: "Serine/threonine kinase; AKT1 E17K is an activating hotspot.",
@@ -629,7 +629,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Protein_kinase_B") }],
   },
   {
-    id: "cdk4-6", kind: "target", name: "CDK4/6", symbol: "CDK4, CDK6", targetClass: "kinase", asOf, wikipedia: W("Cyclin-dependent_kinase_4"),
+    id: "cdk4-6", drugs: ["tqb3616"], kind: "target", name: "CDK4/6", symbol: "CDK4, CDK6", targetClass: "kinase", asOf, wikipedia: W("Cyclin-dependent_kinase_4"),
     tldr: "CDK4/6 is the engine that pushes a cell to copy its DNA. Blocking it alongside hormone therapy roughly doubled the time hormone-driven breast cancer stays controlled.",
     summary: "CDK4 and CDK6 phosphorylate RB to release E2F and drive the G1 to S transition, so inhibiting them halts cell-cycle entry in tumours that still have functional RB. Palbociclib, ribociclib and abemaciclib with endocrine therapy are first-line standard in HR-positive HER2-negative advanced breast cancer, roughly doubling the time the disease stays controlled, and ribociclib (NATALEE) and abemaciclib (monarchE) are approved as adjuvant therapy. Cyclin D1 (CCND1) amplification occurs in 15 to 20 percent of HR-positive breast cancers but the drugs work regardless of it, and CDK4 amplification is near-universal in well- and dedifferentiated liposarcoma. Resistance through RB loss, CDK2 activation and cyclin E amplification is common, and CDK4-selective and CDK2 inhibitors are being developed to address it. CDK4/6 is the engine of cell division that hormone therapy alone could not stop.",
     biology: "Phosphorylate RB to release E2F and drive G1-S transition; cyclin D1 amplification and RB loss modulate sensitivity.",
@@ -643,7 +643,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Cyclin-dependent_kinase_4") }],
   },
   {
-    id: "parp", kind: "target", name: "PARP", symbol: "PARP1", targetClass: "enzyme", asOf, wikipedia: W("PARP_inhibitor"),
+    id: "parp", drugs: ["saruparib", "palacaparib"], kind: "target", name: "PARP", symbol: "PARP1", targetClass: "enzyme", asOf, wikipedia: W("PARP_inhibitor"),
     tldr: "PARP is a DNA repair enzyme. Cancers that have already lost one repair system (BRCA) die when this second one is blocked; healthy cells survive.",
     summary: "PARP inhibitors (olaparib, niraparib, rucaparib, talazoparib) exploit synthetic lethality with BRCA1/2 mutations and homologous recombination deficiency in ovarian, breast, prostate, and pancreatic cancer. Olaparib is approved in adjuvant germline-BRCA breast cancer (OlympiA). PARP1-selective inhibitors (saruparib) and PARP PET tracers are the next step.",
     biology: "Poly(ADP-ribose) polymerase 1 senses single-strand breaks; trapping on DNA is the key cytotoxic mechanism.",
@@ -659,7 +659,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("PARP_inhibitor") }],
   },
   {
-    id: "atr", kind: "target", name: "ATR", symbol: "ATR", targetClass: "kinase", asOf, wikipedia: W("Ataxia_telangiectasia_and_Rad3_related"),
+    id: "atr", drugs: ["ceralasertib"], kind: "target", name: "ATR", symbol: "ATR", targetClass: "kinase", asOf, wikipedia: W("Ataxia_telangiectasia_and_Rad3_related"),
     tldr: "ATR is a DNA-damage alarm kinase. Blocking it makes tumours with broken repair systems collapse under their own replication stress.",
     summary: "ATR is a PI3K-like kinase activated by single-stranded DNA at stalled replication forks; it signals through CHK1 to pause the cell cycle and stabilise forks. Tumours with ATM loss, high replication stress or PARP-inhibitor resistance depend on this alarm, so blocking ATR can make them collapse under their own replication stress. ATR inhibitors (ceralasertib, camonsertib, elimusertib) are in phase 2 and 3, notably ceralasertib with durvalumab in NSCLC after immunotherapy (LATIFY) and in ATM-deficient tumours; ATM loss or mutation is found in about 5 to 10 percent of lung adenocarcinomas. No approval has yet been granted, and myelosuppression limits how freely ATR inhibitors can be combined with chemotherapy or PARP inhibitors. Defining a predictive biomarker beyond ATM loss is the key open problem. For a newcomer: ATR is a DNA-damage alarm that broken-repair tumours cannot afford to lose.",
     biology: "PI3K-like kinase activated by single-stranded DNA at stalled forks; signals via CHK1.",
@@ -673,7 +673,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Ataxia_telangiectasia_and_Rad3_related") }], companies: ["callio-therapeutics", "repare-therapeutics"],
   },
   {
-    id: "wee1", kind: "target", name: "WEE1", symbol: "WEE1", targetClass: "kinase", asOf, wikipedia: W("Wee1-like_protein_kinase"),
+    id: "wee1", drugs: ["azenosertib"], kind: "target", name: "WEE1", symbol: "WEE1", targetClass: "kinase", asOf, wikipedia: W("Wee1-like_protein_kinase"),
     tldr: "A checkpoint kinase that gives cells time to fix DNA before dividing. Removing it forces damaged cancer cells into a fatal division.",
     summary: "WEE1 is a checkpoint kinase that inhibits CDK1 to enforce the G2/M checkpoint, giving cells time to repair DNA before dividing. TP53-mutant cells have lost their G1 checkpoint and depend on WEE1 to avoid entering mitosis with damaged DNA, so inhibiting it forces them into a lethal division. Adavosertib showed activity in uterine serous carcinoma and other TP53-mutant tumours, but its development was paused; azenosertib (ZN-c3) and Debio 0123 continue in ovarian and other cancers. The strongest rationale is in CCNE1-amplified disease, seen in 15 to 20 percent of ovarian cancers, where TP53 mutation is also near-universal. Haematological and gastrointestinal toxicity have limited dosing, and no WEE1 inhibitor is yet approved. In plain terms, removing this checkpoint pushes damaged cancer cells into a division they cannot survive.",
     biology: "Inhibits CDK1 to enforce the G2/M checkpoint; TP53-mutant cells depend on it.",
@@ -698,7 +698,7 @@ export const targets: TargetInput[] = [
       { cancerId: "glioblastoma", pct: "70-80", measure: "IDH1/2 mutation in grade 2-3 glioma", source: "https://www.cbioportal.org/study/summary?id=lgg_tcga_pan_can_atlas_2018", note: "<10% in primary glioblastoma" },
       { cancerId: "aml", pct: "15-20", measure: "IDH1 or IDH2 mutation", source: "https://www.cbioportal.org/study/summary?id=laml_tcga_pan_can_atlas_2018" },
       { cancerId: "cholangiocarcinoma", pct: "10-20", measure: "IDH1 mutation (intrahepatic)", source: "https://www.cbioportal.org/study/summary?id=chol_tcga_pan_can_atlas_2018" },
-    ], drugs: ["oncomine-dx-target-test"], links: [{ label: "Wikipedia", url: W("Isocitrate_dehydrogenase") }], pathways: ["glioma-signalling"],
+    ], drugs: ["oncomine-dx-target-test", "tqb3454", "hmpl-306", "safusidenib"], links: [{ label: "Wikipedia", url: W("Isocitrate_dehydrogenase") }], pathways: ["glioma-signalling"],
   },
   {
     id: "menin", kind: "target", name: "Menin", symbol: "MEN1", targetClass: "transcription", asOf, wikipedia: W("Menin"),
@@ -714,7 +714,7 @@ export const targets: TargetInput[] = [
     ], pathways: ["menin-kmt2a"], links: [{ label: "Wikipedia", url: W("Menin") }],
   },
   {
-    id: "ezh2", kind: "target", name: "EZH2", symbol: "EZH2", targetClass: "enzyme", asOf, wikipedia: W("EZH2"), links: [{ label: "FDA alert: Tazverik withdrawal (March 2026)", url: "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerts-health-care-providers-and-patients-about-increased-risk-new-blood-cancers-tazverik" }],
+    id: "ezh2", drugs: ["xnw5004"], kind: "target", name: "EZH2", symbol: "EZH2", targetClass: "enzyme", asOf, wikipedia: W("EZH2"), links: [{ label: "FDA alert: Tazverik withdrawal (March 2026)", url: "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerts-health-care-providers-and-patients-about-increased-risk-new-blood-cancers-tazverik" }],
     tldr: "EZH2 is an enzyme that silences genes. The first drug against it treated a rare sarcoma and some lymphomas until it was withdrawn in 2026 for causing second blood cancers.",
     summary: "Tazemetostat was approved in epithelioid sarcoma (2020) and EZH2-mutant follicular lymphoma, but Ipsen withdrew it from all markets and indications on 9 March 2026 after the SYMPHONY-1 trial showed excess secondary haematologic malignancies (FDA alert March 2026). EZH2 inhibition continues to be explored (mevrometostat in prostate cancer; SCLC re-sensitisation), now under a safety cloud.",
     biology: "Catalytic subunit of PRC2, writes H3K27me3.",
@@ -755,7 +755,7 @@ export const targets: TargetInput[] = [
       { cancerId: "rcc", pct: ">90", measure: "Clear-cell VHL loss drives VEGF (pathway prevalence)", source: "https://www.cbioportal.org/study/summary?id=kirc_tcga_pan_can_atlas_2018" },
       { cancerId: "hcc", pct: "n/a", measure: "Angiogenic dependency; no selection biomarker", source: "https://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor" },
       { cancerId: "colorectal", pct: "n/a", measure: "No selection biomarker for bevacizumab", source: "https://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor" },
-    ], drugs: ["ziv-aflibercept"], links: [{ label: "Wikipedia", url: W("Vascular_endothelial_growth_factor") }], companies: ["compass-therapeutics"],
+    ], drugs: ["ziv-aflibercept", "pm8002", "zanzalintinib", "tovecimig", "chiauranib", "ai-081"], links: [{ label: "Wikipedia", url: W("Vascular_endothelial_growth_factor") }], companies: ["compass-therapeutics"],
   },
   {
     id: "hif2a", kind: "target", name: "HIF-2α", symbol: "EPAS1", targetClass: "transcription", asOf, wikipedia: W("EPAS1"),
@@ -771,7 +771,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("EPAS1") }],
   },
   {
-    id: "estrogen-receptor", drugs: ["fluoroestradiol-f18", "guardant360-cdx", "toremifene", "raloxifene"], kind: "target", name: "Estrogen receptor (ERα)", symbol: "ESR1", targetClass: "nuclear-receptor", asOf, wikipedia: W("Estrogen_receptor_alpha"),
+    id: "estrogen-receptor", drugs: ["fluoroestradiol-f18", "guardant360-cdx", "toremifene", "raloxifene", "lns8801"], kind: "target", name: "Estrogen receptor (ERα)", symbol: "ESR1", targetClass: "nuclear-receptor", asOf, wikipedia: W("Estrogen_receptor_alpha"),
     tldr: "The hormone switch that drives most breast cancers. Blocking or destroying it is the oldest and most effective targeted therapy.",
     summary: "Tamoxifen (SERM), aromatase inhibitors, fulvestrant (SERD), oral SERDs (elacestrant, imlunestrant, camizestrant), and the PROTAC degrader vepdegestrant (approved 2026 for ESR1-mutant disease) form the endocrine armamentarium. ESR1 mutations arise under aromatase-inhibitor pressure and are detected by ctDNA.",
     biology: "Ligand-activated nuclear receptor; ESR1 Y537S/D538G mutations render it ligand-independent.",
@@ -796,10 +796,10 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "prostate", pct: ">95", measure: "AR-driven at diagnosis", source: "https://en.wikipedia.org/wiki/Androgen_receptor", note: "AR-V7 in ~20-40% of mCRPC" },
       { cancerId: "tnbc", pct: "10-15", measure: "Luminal androgen receptor subtype", source: "https://en.wikipedia.org/wiki/Androgen_receptor" },
-    ], drugs: ["nilutamide", "triptorelin"], links: [{ label: "Wikipedia", url: W("Androgen_receptor") }], companies: ["oric-pharmaceuticals"],
+    ], drugs: ["nilutamide", "triptorelin", "bms-986365", "azd9750", "ep0062", "qlh12016"], links: [{ label: "Wikipedia", url: W("Androgen_receptor") }], companies: ["oric-pharmaceuticals"],
   },
   {
-    id: "tp53", kind: "target", name: "TP53", symbol: "TP53", targetClass: "tumor-suppressor", asOf, wikipedia: W("P53"),
+    id: "tp53", drugs: ["ose2101", "krt-232"], kind: "target", name: "TP53", symbol: "TP53", targetClass: "tumor-suppressor", asOf, wikipedia: W("P53"),
     tldr: "TP53 is the 'guardian of the genome', broken in half of all cancers. Fixing it directly has so far defeated every attempt, so drugs exploit what its loss makes cancers depend on.",
     summary: "TP53 is the most commonly mutated gene in cancer (~50% overall, ~80% in TNBC and ovarian). Direct reactivators (eprenetapopt/APR-246) failed in phase 3; Y220C-specific correctors (rezatapopt) are in registrational trials. Indirect strategies exploit G2/M checkpoint dependence (WEE1, ATR, PLK1) and MDM2 inhibition in TP53-wild-type tumours.",
     biology: "Transcription factor coordinating cell-cycle arrest, apoptosis, and senescence after DNA damage.",
@@ -834,7 +834,7 @@ export const targets: TargetInput[] = [
     ], related: ["platinum-plus-hrd"], links: [{ label: "Wikipedia", url: W("BRCA_mutation") }],
   },
   {
-    id: "cd47", kind: "target", name: "CD47", symbol: "CD47", targetClass: "checkpoint", asOf, wikipedia: W("CD47"),
+    id: "cd47", drugs: ["peluntamig", "spevatamig"], kind: "target", name: "CD47", symbol: "CD47", targetClass: "checkpoint", asOf, wikipedia: W("CD47"),
     tldr: "CD47 is the 'don't eat me' signal: it binds SIRP-alpha on macrophages to stop them engulfing the cell, and over 90% of AML blasts and large B-cell lymphoma cells display it. Blocking it should let macrophages eat tumour cells, but red cells carry CD47 too, so anaemia is built in, and the lead antibody magrolimab was dropped after failed trials.",
     summary: "CD47 is the 'don't eat me' signal: it binds SIRPα on macrophages to inhibit phagocytosis, and tumour cells display it broadly, with more than 90 percent of AML blasts and DLBCL cells carrying it. Blocking CD47 should let macrophages engulf tumour cells, particularly when combined with an opsonising antibody such as rituximab or with azacitidine. Because CD47 is also ubiquitous on red cells, anaemia is the built-in on-target toxicity. Magrolimab, the lead antibody, was discontinued after failed trials in MDS and AML (ENHANCE), with excess deaths. The macrophage checkpoint concept persists through SIRPα-targeted agents and bispecifics designed to spare red cells and lower haematological toxicity. For a newcomer: it looked like a promising immune brake on macrophages, but the first drug against it failed.",
     biology: "Binds SIRPα on macrophages to inhibit phagocytosis; ubiquitous on red cells, causing anaemia.",

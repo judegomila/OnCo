@@ -214,7 +214,7 @@ const companies: CompanyInput[] = [
   { id: "aveo", links: [{ label: "Official website", url: "https://www.aveooncology.com" }], kind: "company", name: "AVEO Oncology (LG Chem)", hq: "Boston, MA", country: "US", companyType: "biotech", website: "https://www.aveooncology.com", asOf, sections: ["targeted-therapy"],
     tldr: "AVEO Oncology is a Boston company that developed tivozanib (Fotivda), a VEGF-receptor blocking pill used in relapsed kidney cancer, and was acquired by LG Chem in 2023. Its one marketed product now faces first-line immunotherapy combinations, and the TiNivo-2 rechallenge trial was negative.",
     summary: "AVEO Oncology, based in Boston, developed tivozanib and was acquired by LG Chem in 2023. Tivozanib, sold as Fotivda, is used in relapsed renal cell carcinoma, the TiNivo-2 trial of tivozanib as an immunotherapy rechallenge was negative, and ficlatuzumab, an HGF antibody, is in development for head and neck cancer. OnCo links it to renal cell carcinoma and to the tivozanib drug record. Whether a late-line VEGF inhibitor can keep a role as first-line immunotherapy combinations move the goalposts is the open question for its one marketed product. Tivozanib has its own page.",
-    drugs: ["tivozanib"], cancers: ["rcc"] },
+    drugs: ["tivozanib", "ficlatuzumab"], cancers: ["rcc"] },
 ];
 
 const pairings: PairingInput[] = [

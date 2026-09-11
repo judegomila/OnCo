@@ -380,7 +380,7 @@ export const nciRareOtherCancers: CancerInput[] = [
     tags: ["nci-coverage", "rare", "haematologic"],
   }),
   c({
-    id: "systemic-mastocytosis", name: "Systemic mastocytosis", group: "haematologic", wikipedia: W("Mastocytosis"),
+    id: "systemic-mastocytosis", trials: ["nct04910685"], name: "Systemic mastocytosis", group: "haematologic", wikipedia: W("Mastocytosis"),
     aka: ["SM", "Advanced systemic mastocytosis (AdvSM)", "Indolent systemic mastocytosis (ISM)", "Smouldering systemic mastocytosis", "Aggressive systemic mastocytosis", "Mast cell leukaemia", "SM with an associated haematological neoplasm (SM-AHN)"],
     burden: "Roughly one to two new cases per 100,000 per year, most of them indolent; advanced forms are rare, and many indolent cases go undiagnosed for years because symptoms mimic allergy (WHO; ECNM registry).",
     tldr: "Systemic mastocytosis is a clonal disease of mast cells, the immune cells that release histamine; almost every case is driven by a single mutation in the KIT gene. Precise KIT-blocking pills now shrink the mast cell burden, ease symptoms and, in the aggressive forms, prolong life. Most patients have the indolent form, where the goal is controlling symptoms and preventing anaphylaxis.",
@@ -408,7 +408,7 @@ export const nciRareOtherCancers: CancerInput[] = [
       { year: 2021, title: "Avapritinib approved for advanced SM", note: "EXPLORER and PATHFINDER; FDA approval June 2021.", refs: ["avapritinib"] },
       { year: 2023, title: "Avapritinib approved for indolent SM", note: "PIONEER; FDA approval May 2023, the first therapy for the indolent form.", refs: ["avapritinib"] },
     ],
-    pipeline: ["avapritinib", "allogeneic-hsct"],
+    pipeline: ["avapritinib", "allogeneic-hsct", "elenestinib"],
     openProblems: ["Avapritinib carries intracranial bleeding risk at low platelet counts and cognitive effects; bezuclastinib and elenestinib are designed to avoid them.", "The associated neoplasm in SM-AHN, not the mast cells, usually determines survival; combination strategies with hypomethylating agents and transplant are being studied.", "Diagnostic delay of years in indolent disease; blood KIT D816V testing and tryptase genotyping are shortening it.", "Long-term safety of chronic KIT inhibition in indolent patients with a normal life expectancy."],
     targets: ["kit", "flt3"], technologies: ["kinase-inhibitors", "allogeneic-hsct", "liquid-biopsy", "histopathology-ihc", "flow-cytometry-mrd"],
     drugs: ["avapritinib", "midostaurin", "cladribine", "interferon-alfa", "azacitidine", "imatinib"], pathways: ["rtk-activation", "clonal-haematopoiesis"],

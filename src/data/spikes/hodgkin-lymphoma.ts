@@ -28,7 +28,7 @@ const targets: TargetInput[] = [
       { cancerId: "hodgkin-lymphoma", pct: 100, measure: "IHC; CD30 is a defining feature of Hodgkin Reed-Sternberg cells", source: "https://doi.org/10.1182/blood-2012-10-461848", note: "Hu 2013 (Blood); classical Hodgkin lymphoma is CD30-positive by definition" },
       { cancerId: "dlbcl", pct: 14, measure: "IHC, CD30 in 903 de novo DLBCL", source: "https://doi.org/10.1182/blood-2012-10-461848", note: "Hu 2013; CD30-positive DLBCL had better outcome and a distinct gene-expression signature" },
     ],
-    cancers: ["hodgkin-lymphoma", "dlbcl"], drugs: ["brentuximab-vedotin"], tags: ["adc-target"], links: [{ label: "Wikipedia", url: W("CD30") }] }),
+    cancers: ["hodgkin-lymphoma", "dlbcl"], drugs: ["brentuximab-vedotin", "eb-car30-nk"], tags: ["adc-target"], links: [{ label: "Wikipedia", url: W("CD30") }] }),
 ];
 
 // ======================= TECHNOLOGIES / TERMS =======================

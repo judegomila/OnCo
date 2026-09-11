@@ -82,7 +82,7 @@ export default function CompletenessPage() {
   const ownKinds = rows.filter((r) => r.den.total === null);
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="learn" />} title="Completeness: how much of the world is in OnCo"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Completeness"
         lede="Coverage gauges say whether each record is complete. This page asks the other question: of everything that exists, how much is here? Each row sets an OnCo count against a sourced count of the world, on the same scope, and names what is missing." />
       <Container className="pb-16">
         <p className="text-sm text-muted mb-6 max-w-3xl">
@@ -92,11 +92,11 @@ export default function CompletenessPage() {
         </p>
         <CompletenessTable rows={rows} linkMissing />
 
-        <h2 className="text-2xl font-semibold tracking-tight mt-14 mb-2">Missing, scope by scope</h2>
+        <h2 className="text-2xl font-semibold tracking-tight mt-14 mb-2">Missing items by scope</h2>
         <p className="text-sm text-muted max-w-3xl">Each list is the source&apos;s items that match nothing in OnCo by name, alias, identifier or website. Matching is exact after normalisation, so a listed item can occasionally be present under a name the matcher does not know; if so, add the alias to the record instead.</p>
         {withDen.map((c) => <Scope key={c.den.id} c={c} />)}
 
-        <h2 className="text-2xl font-semibold tracking-tight mt-14 mb-2">Kinds OnCo defines itself</h2>
+        <h2 className="text-2xl font-semibold tracking-tight mt-14 mb-2">Kinds without an external count</h2>
         <p className="text-sm text-muted max-w-3xl mb-3">These are OnCo&apos;s own taxonomy. There is no external list of fronts, technologies, pairings, roadmaps, ideas, bottlenecks or collections to count against, so no completeness is claimed; the number is the corpus count.</p>
         <ul className="card divide-y divide-border text-sm">
           {ownKinds.map((c) => (

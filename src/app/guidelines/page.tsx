@@ -10,7 +10,7 @@ import { Container, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GuidelineConcordance, type ConcordanceRow } from "@/components/GuidelineConcordance";
 import { CancerIcon } from "@/components/CancerIcon";
 
-export const metadata: Metadata = pageMeta({ title: "Guidelines: concordance and version history", description: "Where NCCN, ESMO, NICE and ASCO agree and disagree on the same setting, and what changed between guideline versions for each cancer.", path: "/guidelines/" });
+export const metadata: Metadata = pageMeta({ title: "Guidelines", description: "Where NCCN, ESMO, NICE and ASCO agree and disagree on the same setting, and what changed between guideline versions for each cancer.", path: "/guidelines/" });
 
 export default function GuidelinesPage() {
   validateGuidelines();
@@ -25,7 +25,7 @@ export default function GuidelinesPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="Guidelines: who agrees with whom"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Guidelines"
         lede={`${guidelineMap.length} clinically important settings compared across NCCN, ESMO, NICE and ASCO: ${summary.concordant} where every body agrees, ${summary.discordant} where at least one restricts or rejects what another prefers. Below, ${guidelineVersions.length} dated guideline versions across ${cancers.length} cancers list ${changeCount} changes: what was added, removed or moved.`} />
       <Container className="pb-16">
         <Section title="Concordance" id="concordance">

@@ -10,7 +10,7 @@ import { regionalApprovals, REGION_META } from "@/data/regional-approvals";
 import { IN_ASOF, IN_COMPANIES, IN_DOING, IN_DRUGS, IN_INSTITUTIONS, IN_PAPERS, IN_PAYING, IN_PEOPLE, IN_PROFILE, IN_REGULATOR, IN_TRIALS, type CountryCard } from "@/data/country-in";
 
 export const metadata: Metadata = pageMeta({
-  title: "India: what India is up to in cancer",
+  title: "Cancer in India",
   description: "India deep dive: the cancer profile (oral, cervical, breast, gallbladder), how care is paid for (PM-JAY, Tata Memorial, pooled procurement), the regulator (CDSCO), research institutions, companies from Biocon to ImmunoACT, the low-cost trials that changed practice, and the people doing the work.",
   path: "/countries/in/",
 });
@@ -67,7 +67,7 @@ export default function IndiaPage() {
     <>
       <PageHeader
         kicker={<GroupKicker id="who"><span className="kicker">·</span><Link href="/countries/" className="kicker hover:underline">Countries</Link></GroupKicker>}
-        title={`${meta.flag} India: what India is up to in cancer`}
+        title={`${meta.flag} Cancer in India`}
         lede={`A country of about ${extra.population.toLocaleString("en-GB")} million people with roughly a third of the West's cancer rate per person, a very different mix of cancers, and a habit of answering questions rich countries do not ask: what is the cheapest way to get the same benefit? This page gathers ${institutions.length} institutions, ${companies.length} companies, ${trials.length} trials, ${papers.length} key papers and ${people.length} people from the corpus, with the health system, the regulator and the burden figures around them. Facts checked ${IN_ASOF}; every card links its sources.`}
       />
       <Container className="pb-16">
@@ -75,7 +75,7 @@ export default function IndiaPage() {
           {[["#profile", "Cancer profile"], ["#paying", "Paying for care"], ["#regulator", "Regulator"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#doing", "What is being done"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
-        <Section id="profile" title="Cancer profile: what is different about cancer in India" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year} estimates, rendered from the corpus data file</span>}>
+        <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year} estimates, rendered from the corpus data file</span>}>
           <Cards cards={IN_PROFILE} />
           {profile && all && (
             <div className="mt-6 card p-5 overflow-x-auto">
@@ -111,7 +111,7 @@ export default function IndiaPage() {
         <Section id="regulator" title={`Regulator: ${meta.regulator}`} aside={<a href={meta.url} className="text-sm underline" rel="noopener">CDSCO approved new drugs</a>}>
           <Cards cards={IN_REGULATOR} />
           <div className="mt-4 card p-5">
-            <h3 className="font-semibold">Indian approvals recorded in OnCo ({inApproved.length})</h3>
+            <h3 className="font-semibold">CDSCO approvals ({inApproved.length})</h3>
             <p className="mt-1 text-sm text-muted">Products with a sourced India row in the <Link href="/regulatory/regions/" className="underline">approvals by region</Link> matrix. Absent means not yet researched, not &ldquo;not approved&rdquo;.</p>
             <ul className="mt-3 grid gap-2 sm:grid-cols-2 text-sm">
               {inApproved.map((d) => { const r = regionalApprovals[d.id].IN!; return <li key={d.id} className="flex flex-col"><span><Link href={routeFor(d)} className="font-medium underline">{d.name}</Link>{d.brand ? <span className="text-muted"> ({d.brand})</span> : null}{r.year ? <span className="text-muted"> · {r.year}</span> : null}</span>{(r.indication || r.note) && <span className="text-xs text-muted">{[r.indication, r.note].filter(Boolean).join(". ")}</span>}</li>; })}
@@ -129,7 +129,7 @@ export default function IndiaPage() {
           <Grid items={institutions} />
         </Section>
 
-        <Section id="companies" title="Companies: generics, biosimilars, cell therapy and discovery" aside={<span className="text-sm text-muted">{allCompanies} Indian companies in the corpus · <Link href="/companies/" className="underline">all companies</Link></span>}>
+        <Section id="companies" title="Companies" aside={<span className="text-sm text-muted">{allCompanies} Indian companies in the corpus · <Link href="/companies/" className="underline">all companies</Link></span>}>
           <Grid items={companies} />
         </Section>
 
@@ -144,7 +144,7 @@ export default function IndiaPage() {
           <Grid items={people} />
         </Section>
 
-        <Section id="doing" title="What is being done: solution first">
+        <Section id="doing" title="What is being done">
           <Cards cards={IN_DOING} />
         </Section>
 

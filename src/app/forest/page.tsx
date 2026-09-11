@@ -8,7 +8,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { ForestPlot, type ForestRow } from "@/components/ForestPlot";
 import { FAMILY_LABEL, settingClass } from "@/lib/forest";
 
-export const metadata: Metadata = pageMeta({ title: "Forest plot: hazard ratios across trials", description: "Every hazard ratio with its confidence interval in the OnCo trial corpus, side by side on one log axis. Filter by cancer, setting and endpoint; download the rows as CSV.", path: "/forest/" });
+export const metadata: Metadata = pageMeta({ title: "Forest plot", description: "Every hazard ratio with its confidence interval in the OnCo trial corpus, side by side on one log axis. Filter by cancer, setting and endpoint; download the rows as CSV.", path: "/forest/" });
 
 export default function ForestPage() {
   const g = graph();

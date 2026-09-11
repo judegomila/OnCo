@@ -9,7 +9,7 @@ import { coverageUs } from "@/data/coverage-us";
 import { US_PLANS, US_METRICS, US_RULES, US_EXTRA_SOURCES, PAYMENT_MECHANICS, UK_PLANS, UK_ABI, INTL_ROWS, type Fact } from "@/data/coverage-rankings";
 
 export const metadata: Metadata = pageMeta({
-  title: "Which plans cover cancer care best",
+  title: "Coverage rankings",
   description: "US insurers and plan types ranked by one published metric at a time (prior authorisation denial and overturn rates, Star Ratings, enrolment), nationwide rules with year and source, published cancer drug prices, UK NHS entitlement against private medical insurance cancer cover, and how nine countries pay for cancer drugs.",
   path: "/coverage/rankings/",
 });
@@ -37,8 +37,8 @@ export default function CoverageRankingsPage() {
   return (
     <>
       <PageHeader
-        kicker={<GroupKicker id="live"><span className="kicker">·</span><Link href="/coverage/us/" className="kicker hover:underline">Paying for care (US)</Link><span className="kicker">·</span><Link href="/costs/" className="kicker hover:underline">Getting the cost down</Link></GroupKicker>}
-        title="Which plans cover cancer care best"
+        kicker={<GroupKicker id="live"><span className="kicker">·</span><Link href="/coverage/us/" className="kicker hover:underline">Paying for care in the US</Link><span className="kicker">·</span><Link href="/costs/" className="kicker hover:underline">Getting the cost down</Link></GroupKicker>}
+        title="Coverage rankings"
         lede={`No insurer publishes a cancer-specific scorecard, so this page does the next honest thing: ${US_PLANS.length} US insurers and plan types ranked by one published metric at a time, with the year and the document behind every number and a blank wherever nothing has been published (${withFigure} rows have at least one figure). Then the rules that protect everyone in a category, published prices for cancer drugs, how NHS entitlement compares with private medical insurance in the UK, and how nine countries pay for cancer drugs.`}
       />
       <Container className="pb-16">
@@ -47,7 +47,7 @@ export default function CoverageRankingsPage() {
           <p>Not medical or financial advice. The metrics below are published for whole insurers across every condition, not for cancer care alone; a plan that denies few requests overall may still be strict with a particular drug. No composite score is used anywhere on this page. Check the linked policy page and your own plan documents, and ask the oncology practice&apos;s financial navigator before making a decision.</p>
         </div>
 
-        <Section id="us" title="United States: insurers and plan types, ranked by the metric you choose" aside={<span className="text-sm text-muted">{US_METRICS.length} metrics · {US_PLANS.length} rows</span>}>
+        <Section id="us" title="US insurers and plan types" aside={<span className="text-sm text-muted">{US_METRICS.length} metrics · {US_PLANS.length} rows</span>}>
           <p className="text-sm text-muted mb-4 max-w-3xl">Prior authorisation figures come from CMS data on Medicare Advantage, analysed by KFF; Star Ratings from CMS; enrolment shares from KFF. Traditional Medicare has no prior authorisation for cancer drugs and no plan-level metrics, so its row carries facts rather than figures. Hover a number for its year, note and source; the last column links to each plan&apos;s published oncology or medical policies.</p>
           <PlanRankings rows={US_PLANS} />
           <div className="mt-6 grid gap-4 md:grid-cols-2">
@@ -62,13 +62,13 @@ export default function CoverageRankingsPage() {
           </div>
         </Section>
 
-        <Section id="rules" title="Rules that apply to everyone in a category">
+        <Section id="rules" title="Category-wide rules">
           <p className="text-sm text-muted mb-3 max-w-3xl">Whatever plan you hold, these limits and rights apply. Each carries the year it refers to; caps change every January.</p>
           <div className="card p-4"><FactList facts={US_RULES} /></div>
           <p className="mt-3 text-xs text-muted">Further reading: {US_EXTRA_SOURCES.map((s, i) => <span key={s.url}>{i > 0 && " · "}<a className="underline" href={s.url} rel="noopener">{s.label}</a></span>)}.</p>
         </Section>
 
-        <Section id="costs" title="What cancer drugs cost: published prices and how Medicare pays" aside={<span className="text-sm text-muted">{priced.length} published list prices</span>}>
+        <Section id="costs" title="Drug prices and Medicare payment" aside={<span className="text-sm text-muted">{priced.length} published list prices</span>}>
           <p className="text-sm text-muted mb-3 max-w-3xl">OnCo records a list price only where a manufacturer, CMS or a federal agency has published one with a year; there are {priced.length} such records, shown here from highest to lowest. Net prices after rebates are usually lower and what you pay depends on the plan. For everything else, the public price files are linked below.</p>
           <div className="card results-table overflow-x-auto">
             <table className="onco">
@@ -86,10 +86,10 @@ export default function CoverageRankingsPage() {
             </table>
           </div>
           <div className="mt-4 card p-4"><div className="kicker mb-2">How the price becomes a bill</div><FactList facts={PAYMENT_MECHANICS} /></div>
-          <p className="mt-3 text-sm text-muted">Manufacturer and charity programmes for each product are in the <Link className="underline" href="/assistance/">financial help browser</Link>; the per-product coverage record is on <Link className="underline" href="/coverage/us/">Paying for care (US)</Link>.</p>
+          <p className="mt-3 text-sm text-muted">Manufacturer and charity programmes for each product are in the <Link className="underline" href="/assistance/">financial help browser</Link>; the per-product coverage record is on <Link className="underline" href="/coverage/us/">Paying for care in the US</Link>.</p>
         </Section>
 
-        <Section id="uk" title="United Kingdom: NHS entitlement against private medical insurance" aside={<span className="text-sm text-muted">{UK_PLANS.length} rows</span>}>
+        <Section id="uk" title="NHS and private insurance in the UK" aside={<span className="text-sm text-muted">{UK_PLANS.length} rows</span>}>
           <p className="text-sm text-muted mb-3 max-w-3xl">In the UK the NHS is the baseline everyone has; private medical insurance buys speed, choice of consultant and hospital, and sometimes drugs NICE has not recommended. Insurers use the phrase &quot;full cancer cover&quot; differently, so each row quotes what the insurer&apos;s own documents say and links to them. The <a className="underline" href={UK_ABI.url} rel="noopener">Association of British Insurers</a> publishes consumer guidance on reading a private medical insurance policy.</p>
           <div className="card results-table overflow-x-auto">
             <table className="onco">
@@ -107,10 +107,10 @@ export default function CoverageRankingsPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-3 text-sm text-muted">The NICE, Cancer Drugs Fund and SMC position on every product is on <Link className="underline" href="/coverage/uk/">What the NHS offers</Link>.</p>
+          <p className="mt-3 text-sm text-muted">The NICE, Cancer Drugs Fund and SMC position on every product is on <Link className="underline" href="/coverage/uk/">NHS coverage</Link>.</p>
         </Section>
 
-        <Section id="international" title="How cancer drugs are paid for in nine countries" aside={<span className="text-sm text-muted">{INTL_ROWS.length} countries</span>}>
+        <Section id="international" title="Drug payment in nine countries" aside={<span className="text-sm text-muted">{INTL_ROWS.length} countries</span>}>
           <p className="text-sm text-muted mb-3 max-w-3xl">Funding model, what the patient typically pays as the source states it, and who decides whether a new drug is funded. Appraisal verdicts per product and country are on the <Link className="underline" href="/hta/">HTA decisions</Link> page.</p>
           <div className="card results-table overflow-x-auto">
             <table className="onco">

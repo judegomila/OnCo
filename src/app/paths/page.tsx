@@ -12,7 +12,7 @@ export default function PathsIndex() {
   for (const p of paths) for (const s of p.steps) g.must(s.entityId);
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="learn" />} title="Guided routes through the map"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Reading paths"
         lede="A curated order of pages for a purpose and an audience, each step with a sentence on why it is there. Follow one end to end or jump in anywhere." />
       <Container className="pb-16">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

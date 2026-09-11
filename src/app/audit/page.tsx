@@ -51,7 +51,7 @@ export default function AuditPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="Audit: staleness, contradictions, and registry checks"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Audit"
         lede="Automated checks run on every build (contradictions, sourcing and hygiene) and weekly against the outside world (openFDA labels, ClinicalTrials.gov, and every cited URL). Findings are candidates for review, not verdicts; confirmed errors go to the corrections log." />
       <Container className="pb-16">
         <div className="grid gap-3 grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 mb-8">

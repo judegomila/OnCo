@@ -309,7 +309,7 @@ function tDefine(c: Ctx, r: AskEntityRecord): boolean {
       if (e.impactFactor) c.b.add(s, `Its ${e.impactFactor.year} impact factor was ${e.impactFactor.value}${e.impactFactor.source ? ` (${e.impactFactor.source})` : ""}; OnCo lists no other metric.`, "impact factor");
       const papers = (r.neighbours.paper ?? []).slice(0, 4).map((p) => p.name);
       if (papers.length) c.b.add(s, `Key papers on OnCo it carried include ${list(papers)}.`, "linked papers");
-      c.readMore.push({ label: "Journals: where the evidence is published", href: "/journals/" });
+      c.readMore.push({ label: "Journals", href: "/journals/" });
       break;
     }
     case "roadmap": return tRoadmap(c, r);
@@ -457,10 +457,10 @@ function tSideEffects(c: Ctx, r: AskEntityRecord): boolean {
     if (e.dosing?.monitoring) c.b.add(s, `Monitoring: ${e.dosing.monitoring}.`, "dosing");
     if (e.dosing?.modifications) c.b.add(s, `Dose changes: ${e.dosing.modifications}.`, "dosing");
     const checkpoint = (e.technologies ?? []).includes("checkpoint-inhibitor") || (e.targets ?? []).some((t) => t === "pd1" || t === "pdl1" || t === "ctla4" || t === "lag3");
-    if (checkpoint) c.readMore.push({ label: "irAE guide: immune side effects by organ and grade", href: "/irae/" });
+    if (checkpoint) c.readMore.push({ label: "irAE guide", href: "/irae/" });
     const irae = c.related.find((x) => x.entity.id === "irae");
     if (checkpoint && irae) c.b.add(toSource(irae), irae.entity.tldr, "TL;DR");
-    c.readMore.push({ label: "Side effects by symptom: when to call", href: "/side-effects/" });
+    c.readMore.push({ label: "Side effects by symptom", href: "/side-effects/" });
     return true;
   }
   if (e.kind === "technology" || e.kind === "term" || e.kind === "cancer") {
@@ -469,8 +469,8 @@ function tSideEffects(c: Ctx, r: AskEntityRecord): boolean {
     const hits = pool.filter((x) => /toxic|adverse|side effect|safety|neutropenia|nausea|diarrhoea|pneumonitis|ILD|fatigue|rash|colitis|thyroid|cytokine|CRS|neurotox|hair|alopecia|immune-related|irAE|hospital/i.test(x));
     for (const x of hits.slice(0, 3)) c.b.add(s, x, e.limitations?.includes(x) ? "limitations" : "summary");
     const irae = c.related.find((x) => x.entity.id === "irae");
-    if (irae) { c.b.add(toSource(irae), irae.entity.tldr, "TL;DR"); for (const x of first(irae.entity.summary, 1)) c.b.add(toSource(irae), x, "summary"); c.readMore.push({ label: "irAE guide: immune side effects by organ and grade", href: "/irae/" }); }
-    c.readMore.push({ label: "Side effects by symptom: when to call", href: "/side-effects/" });
+    if (irae) { c.b.add(toSource(irae), irae.entity.tldr, "TL;DR"); for (const x of first(irae.entity.summary, 1)) c.b.add(toSource(irae), x, "summary"); c.readMore.push({ label: "irAE guide", href: "/irae/" }); }
+    c.readMore.push({ label: "Side effects by symptom", href: "/side-effects/" });
     return c.b.sentences.length > 1;
   }
   return false;
@@ -488,7 +488,7 @@ function tTrials(c: Ctx, r: AskEntityRecord): boolean {
     c.b.add(s, `OnCo lists no trial linked to ${short(r)} yet; the registry search below covers every registered study.`, "linked trials");
   }
   if (e.kind === "cancer") c.readMore.push({ label: `Lines of therapy for ${short(r)}`, href: `/sequencing/${e.id}/` });
-  c.readMore.push({ label: "ClinicalTrials.gov (registry)", href: "/collections/clinicaltrials-gov/" }, { label: "Trial explainers in plain words", href: "/explained/" });
+  c.readMore.push({ label: "ClinicalTrials.gov (registry)", href: "/collections/clinicaltrials-gov/" }, { label: "Trials in plain words", href: "/explained/" });
   return true;
 }
 
@@ -569,7 +569,7 @@ function tPrognosis(c: Ctx, r: AskEntityRecord): boolean {
   else c.b.add(s, `No population survival table is available for ${short(r)} in SEER; the survival page lists it as a gap and points to international registries.`, "survival disclosure");
   const prog = c.related.find((x) => x.entity.id === "prognosis");
   if (prog) c.b.add(toSource(prog), prog.entity.tldr, "TL;DR");
-  c.readMore.push({ label: "Survival statistics, with caveats", href: "/survival/" }, { label: `Treatment journeys for ${short(r)}`, href: "/journeys/" });
+  c.readMore.push({ label: "Survival statistics", href: "/survival/" }, { label: `Treatment journeys for ${short(r)}`, href: "/journeys/" });
   return true;
 }
 
@@ -591,7 +591,7 @@ function tWho(c: Ctx, r: AskEntityRecord): boolean {
       if (e.programs?.length) c.b.add(s, `Programmes: ${list(e.programs.slice(0, 5))}.`, "programs");
       const people = (r.neighbours.person ?? []).slice(0, 5).map((p) => p.name);
       if (people.length) c.b.add(s, `People on OnCo at ${short(r)}: ${list(people)}.`, "linked people");
-      c.readMore.push({ label: "Institutions, mapped and ranked", href: "/institutions/" }, { label: "Second opinion: expert centres by cancer", href: "/second-opinion/" });
+      c.readMore.push({ label: "Institutions, mapped and ranked", href: "/institutions/" }, { label: "Second opinion", href: "/second-opinion/" });
       return true;
     }
     case "person": {
@@ -669,7 +669,7 @@ function tEvidence(c: Ctx, r: AskEntityRecord): boolean {
   for (const x of (e.limitations ?? []).slice(0, positive ? 1 : 2)) c.b.add(s, `Limitation: ${x}`, "limitations");
   const drugs = (r.neighbours.drug ?? []).slice(0, 4).map((d) => d.name);
   if (grade === "harm" && drugs.length) c.b.add(s, `Treatments on OnCo it interacts with or has been used instead of: ${list(drugs)}.`, "linked products");
-  c.readMore.push({ label: "Complementary and supportive approaches, graded by evidence", href: "/live/complementary/" });
+  c.readMore.push({ label: "Complementary and supportive approaches", href: "/live/complementary/" });
   if (!positive) c.readMore.push({ label: "Questions to ask your oncologist", href: "/prep/" });
   return true;
 }
@@ -753,7 +753,7 @@ function tCompanies(c: Ctx, r: AskEntityRecord): boolean {
     } else {
       c.b.add(s, `No company on OnCo names ${short(r)} as an investor yet; portfolios are derived from sourced rounds only.`, "portfolio");
     }
-    c.readMore.push({ label: "Investors and their portfolios", href: "/investors/" }, { label: "Startups attacking cancer", href: "/startups/" });
+    c.readMore.push({ label: "Investors and their portfolios", href: "/investors/" }, { label: "Oncology startups", href: "/startups/" });
     return true;
   }
   c.b.add(s, e.tldr, "TL;DR");
@@ -766,7 +766,7 @@ function tCompanies(c: Ctx, r: AskEntityRecord): boolean {
   if (direct.length) c.b.add(s, `${viaProducts.size ? "Also working" : "Companies on OnCo working"} on ${short(r)}: ${list(direct.slice(0, 16).map((x) => x.name))}${direct.length > 16 ? `, and ${direct.length - 16} more on its page` : ""}.`, "linked companies");
   for (const co of c.related.filter((x) => x.entity.kind === "company").slice(0, 3)) c.b.add(toSource(co), co.entity.tldr, "TL;DR");
   if (!viaProducts.size && !direct.length) c.b.add(s, `OnCo links no company to ${short(r)} yet.`, "linked companies");
-  c.readMore.push({ label: "Startups attacking cancer", href: "/startups/" }, { label: "Company scorecards", href: "/scorecards/" });
+  c.readMore.push({ label: "Oncology startups", href: "/startups/" }, { label: "Company scorecards", href: "/scorecards/" });
   return true;
 }
 
@@ -801,7 +801,7 @@ function tInvestors(c: Ctx, r: AskEntityRecord): boolean {
   }
   const names = (r.neighbours.company ?? []).slice(0, 12).map((x) => x.name);
   if (names.length) c.b.add(s, `Companies on OnCo linked to ${short(r)}: ${list(names)}.`, "linked companies");
-  c.readMore.push({ label: "Investors and their portfolios", href: "/investors/" }, { label: "Startups attacking cancer", href: "/startups/" });
+  c.readMore.push({ label: "Investors and their portfolios", href: "/investors/" }, { label: "Oncology startups", href: "/startups/" });
   return true;
 }
 
@@ -844,7 +844,7 @@ function tJournals(c: Ctx, r: AskEntityRecord): boolean {
     const entries = c.topic.entries.length ? c.topic.entries : loaded.map((x) => c.lookup(x.entity.id)).filter((x): x is AskIndexEntry => !!x);
     c.b.add(s, `Journals on OnCo whose name or scope covers "${c.topic.words}": ${list(entries.slice(0, 12).map(one))}${entries.length > 12 ? `, and ${entries.length - 12} more` : ""}.`, "matched journals");
     for (const x of loaded.slice(0, 3)) c.b.add(toSource(x), x.entity.tldr, "TL;DR");
-    c.readMore.push({ label: "Journals: where the evidence is published", href: "/journals/" });
+    c.readMore.push({ label: "Journals", href: "/journals/" });
     return true;
   }
   c.b.add(s, e.tldr, "TL;DR");
@@ -853,7 +853,7 @@ function tJournals(c: Ctx, r: AskEntityRecord): boolean {
   if (linked.length) c.b.add(s, `Journal record${linked.length > 1 ? "s" : ""} on OnCo: ${list(linked.slice(0, 4).map((x) => x.name))}.`, "linked journals");
   for (const x of others.slice(0, 2)) c.b.add(toSource(x), x.entity.tldr, "TL;DR");
   if (!e.journal && !linked.length && !others.length) c.b.add(s, `OnCo has no journal linked to ${short(r)} yet.`, "linked journals");
-  c.readMore.push({ label: "Journals: where the evidence is published", href: "/journals/" });
+  c.readMore.push({ label: "Journals", href: "/journals/" });
   return true;
 }
 

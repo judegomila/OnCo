@@ -108,7 +108,7 @@ export function SymptomPath({ symptoms }: { symptoms: SymptomView[] }) {
             {(step === 0) && (
               <section className="card p-5 print:break-inside-avoid">
                 <div className="kicker">Step 1</div>
-                <h3 className="text-lg font-semibold mt-0.5 mb-2">What this symptom can mean</h3>
+                <h3 className="text-lg font-semibold mt-0.5 mb-2">Possible causes</h3>
                 <p className="text-[15px] leading-relaxed">{current.plain}</p>
                 <div className="mt-4">
                   <div className="font-medium text-sm mb-1">Features that raise concern</div>
@@ -120,7 +120,7 @@ export function SymptomPath({ symptoms }: { symptoms: SymptomView[] }) {
             {(step === 1) && (
               <section className="card p-5 print:break-inside-avoid">
                 <div className="kicker">Step 2</div>
-                <h3 className="text-lg font-semibold mt-0.5 mb-2">Which test comes first, and what it rules in or out</h3>
+                <h3 className="text-lg font-semibold mt-0.5 mb-2">First test and what it rules out</h3>
                 <p className="text-[15px] leading-relaxed">{current.firstTest}</p>
                 {current.tests.length > 0 && (
                   <div className="mt-4">
@@ -142,7 +142,7 @@ export function SymptomPath({ symptoms }: { symptoms: SymptomView[] }) {
             {(step === 2) && (
               <section className="card p-5 print:break-inside-avoid">
                 <div className="kicker">Step 3</div>
-                <h3 className="text-lg font-semibold mt-0.5 mb-2">When guidelines say you should be referred</h3>
+                <h3 className="text-lg font-semibold mt-0.5 mb-2">Referral thresholds</h3>
                 <div className="grid gap-4 md:grid-cols-2">
                   {showUk && (
                     <div className={`rounded-lg border border-border p-4 ${region === "UK" ? "bg-accent-soft/40" : ""}`}>
@@ -168,7 +168,7 @@ export function SymptomPath({ symptoms }: { symptoms: SymptomView[] }) {
             {(step === 3) && (
               <section className="card p-5 print:break-inside-avoid">
                 <div className="kicker">Step 4</div>
-                <h3 className="text-lg font-semibold mt-0.5 mb-3">Cancers this symptom can point to</h3>
+                <h3 className="text-lg font-semibold mt-0.5 mb-3">Cancers linked to this symptom</h3>
                 <p className="text-sm text-muted mb-3">Listed for reading, not for ranking: this symptom alone does not make any of them likely. Each page starts in plain English.</p>
                 <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                   {current.cancers.map((c) => (

@@ -10,7 +10,7 @@ import { logoSrc } from "@/lib/logos";
 import { COMPANY_TYPE_LABEL, fmtUsd, investors, latestRound, mostActiveInvestors, recentlyFunded, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf, startups, ycBatchLabel, ycBatchSortKey, ycCompanies } from "@/lib/startups";
 
 export const metadata: Metadata = pageMeta({
-  title: "Startups attacking cancer",
+  title: "Oncology startups",
   description: "Every Y Combinator and venture-backed company in OnCo that is attacking cancer: filter by stage, modality, cancer, YC batch, investor and country, with sourced funding rounds and the most active investors.",
   path: "/startups/",
 });
@@ -108,7 +108,7 @@ export default function Startups() {
     <>
       <PageHeader
         kicker={<GroupKicker id="who" />}
-        title="Startups attacking cancer"
+        title="Oncology startups"
         lede="Every young company in OnCo that is going after cancer: Y Combinator companies from the open YC directory, and venture-backed startups across therapeutics, diagnostics, AI drug discovery, digital care, radiotherapy hardware, surgery and imaging. Filter by stage, modality, cancer, YC batch, investor and country. Funding rounds are listed only where a press release, filing or trade report states them; investors are named on the startup, and each investor page derives its portfolio from those links."
         right={<div className="flex gap-2"><Link href="/investors/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Investors →</Link><Link href="/companies/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">All companies</Link></div>}
       />

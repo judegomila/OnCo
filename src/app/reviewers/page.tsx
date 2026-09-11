@@ -62,7 +62,7 @@ export default function ReviewersPage() {
 
         {queueTop.length > 0 && (
           <section className="mt-4">
-            <h2 className="text-xl font-semibold mb-2">Where a reviewer is needed most</h2>
+            <h2 className="text-xl font-semibold mb-2">Most in need of review</h2>
             <p className="text-sm text-muted mb-3 max-w-3xl">The top of the <Link className="underline" href="/review/">review queue</Link>: pages ranked by how many others link to them, what is at stake if they are wrong, and how long since they were last checked. Pick one you know, read it against its sources, and sign it off.</p>
             <ul className="card divide-y divide-border text-sm">
               {queueTop.map((q, i) => (

@@ -5,7 +5,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PipelineFunnel } from "@/components/PipelineFunnel";
 import { allFunnels, crowdingIndex, TRIALS_FETCHED } from "@/lib/pipeline-stats";
 
-export const metadata: Metadata = pageMeta({ title: "Pipeline funnel and crowding index", description: "How many assets chase each target, modality or cancer by phase, from corpus product statuses and ClinicalTrials.gov, and a crowding index of assets per addressable patient with the formula disclosed.", path: "/pipeline/" });
+export const metadata: Metadata = pageMeta({ title: "Pipeline funnel", description: "How many assets chase each target, modality or cancer by phase, from corpus product statuses and ClinicalTrials.gov, and a crowding index of assets per addressable patient with the formula disclosed.", path: "/pipeline/" });
 
 export default function PipelinePage() {
   const funnels = allFunnels();
@@ -14,7 +14,7 @@ export default function PipelinePage() {
   const top = crowding.filter((r) => r.index !== null).slice(0, 3);
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="Pipeline funnel and crowding index"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Pipeline funnel"
         lede={`Products by development stage for any of ${targets} targets, every modality class and every cancer, with the phase 2 and 3 studies registered for them. Below, a crowding index: active assets per 100,000 addressable patients a year${top.length ? `, currently led by ${top.map((r) => r.name).join(", ")}` : ""}.`} />
       <Container className="pb-16">
         <PipelineFunnel funnels={funnels} crowding={crowding} fetched={TRIALS_FETCHED} />

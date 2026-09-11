@@ -11,7 +11,7 @@ import { DEGREE_LABEL, DEGREE_ORDER, HAIR_LOSS_CAUSES, HAIR_PROBLEMS, REGROWTH_T
 import { COMPLEMENTARY_INDEX } from "@/data/complementary";
 
 export const metadata: Metadata = pageMeta({
-  title: "Hair loss: prevention and regrowth",
+  title: "Hair loss and regrowth",
   description: "Scalp cooling (DigniCap, Paxman) and which chemotherapy regimens it suits, minoxidil for persistent and endocrine-therapy thinning, eyebrows and lashes, wigs on the NHS and by prescription in the US, cold cap charities, which drugs cause hair loss and when hair returns.",
   path: "/live/hair/",
 });
@@ -44,7 +44,7 @@ export default function HairPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="live" />} title="Hair loss: prevention and regrowth"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Hair loss and regrowth"
         lede="Hair loss is among the most feared effects of cancer treatment, and it is one of the few with a device that prevents it in about half of the people who use it. This page starts with what works: scalp cooling and the regimens it suits best, minoxidil for hair that stays thin, a lash-growth drop with a randomised trial, and how wigs are paid for in the UK and the US. Then which drugs cause it and how much, when hair comes back, and what is being tried next. Each problem is paired with what is being done about it." />
       <Container className="pb-16">
         <section aria-labelledby="works">
@@ -71,7 +71,7 @@ export default function HairPage() {
         </section>
 
         <section className="mt-12" aria-labelledby="problems">
-          <h2 id="problems" className="text-lg font-semibold tracking-tight mb-1">Each problem, and what is being done about it</h2>
+          <h2 id="problems" className="text-lg font-semibold tracking-tight mb-1">Problems and what is being done</h2>
           <p className="text-sm text-muted max-w-3xl mb-4">Mechanism first, then what works today, then what is in progress. Only measures with a trial, a published series or a live programme are listed.</p>
           <div className="space-y-4">
             {HAIR_PROBLEMS.map((p) => {
@@ -105,7 +105,7 @@ export default function HairPage() {
         </section>
 
         <section className="mt-12" aria-labelledby="timeline">
-          <h2 id="timeline" className="text-lg font-semibold tracking-tight mb-1">When hair falls and when it returns</h2>
+          <h2 id="timeline" className="text-lg font-semibold tracking-tight mb-1">Timing of loss and regrowth</h2>
           <p className="text-sm text-muted max-w-3xl mb-4">Typical timings from patient guidance; your team can tell you what to expect with your regimen.</p>
           <ol className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {REGROWTH_TIMELINE.map((s, i) => (
@@ -119,7 +119,7 @@ export default function HairPage() {
         </section>
 
         <section className="mt-12" aria-labelledby="causes">
-          <h2 id="causes" className="text-lg font-semibold tracking-tight mb-1">Which drugs cause hair loss</h2>
+          <h2 id="causes" className="text-lg font-semibold tracking-tight mb-1">Drugs that cause hair loss</h2>
           <p className="text-sm text-muted max-w-3xl mb-4">By drug class, most to least. Percentages are the any-grade alopecia rates recorded on each drug&apos;s own record from its label or pivotal trial ({drugsWithRates} drugs carry one); hover a drug for its summary. Combination regimens take the risk of their most alopecia-inducing component.</p>
           <div className="overflow-x-auto">
             <table className="onco w-full text-sm">

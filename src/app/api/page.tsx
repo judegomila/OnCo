@@ -5,7 +5,7 @@ import { KIND_META, KINDS } from "@/lib/schema";
 import { graph } from "@/lib/graph";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = pageMeta({ title: "Open API, bulk downloads and feeds", description: "The OnCo corpus as static JSON, NDJSON and CSV with a JSON Schema, Atom feeds for what changes, and tagged releases for citation.", path: "/api/" });
+export const metadata: Metadata = pageMeta({ title: "Open API", description: "The OnCo corpus as static JSON, NDJSON and CSV with a JSON Schema, Atom feeds for what changes, and tagged releases for citation.", path: "/api/" });
 
 const FEEDS = [
   { file: "changelog.xml", label: "Changelog", what: "One entry per release of the site." },

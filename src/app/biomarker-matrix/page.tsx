@@ -9,7 +9,7 @@ import { regionalApprovals, REGIONS, type Region, type RegionalStatus } from "@/
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { BiomarkerMatrix, type MatrixBiomarker, type MatrixCancer, type MatrixCell, type MatrixDrug } from "@/components/BiomarkerMatrix";
 
-export const metadata: Metadata = pageMeta({ title: "Biomarker-to-therapy matrix", description: "Every biomarker against every cancer: how many matched products are approved in your region versus still in trials, computed from the tumour-board matcher. Click a cell to open the tumour board pre-selected.", path: "/biomarker-matrix/" });
+export const metadata: Metadata = pageMeta({ title: "Biomarker matrix", description: "Every biomarker against every cancer: how many matched products are approved in your region versus still in trials, computed from the tumour-board matcher. Click a cell to open the tumour board pre-selected.", path: "/biomarker-matrix/" });
 
 export default function BiomarkerMatrixPage() {
   const g = graph();
@@ -44,7 +44,7 @@ export default function BiomarkerMatrixPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="find" />} title="Biomarker-to-therapy matrix"
+      <PageHeader kicker={<GroupKicker id="find" />} title="Biomarker matrix"
         lede={`${biomarkers.length} biomarkers and alterations against ${cancers.length} cancers: ${totalCells} filled cells covering ${totalDrugs} products. Each cell counts matched products approved in your region against those still in trials; the tumour board answers one profile, this is the whole grid. Change region in the header.`} />
       <Container className="pb-16 space-y-8">
         <BiomarkerMatrix biomarkers={matrix} cancers={cancers} />

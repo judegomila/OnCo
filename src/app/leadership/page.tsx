@@ -5,13 +5,13 @@ import { trialLeadership } from "@/lib/trial-leadership";
 import { TrialLeadership } from "@/components/TrialLeadership";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 
-export const metadata: Metadata = pageMeta({ title: "Trial leadership index", description: "Which institutions and cooperative groups are attached to the pivotal trials, products, and technologies in OnCo.", path: "/leadership/" });
+export const metadata: Metadata = pageMeta({ title: "Trial leadership", description: "Which institutions and cooperative groups are attached to the pivotal trials, products, and technologies in OnCo.", path: "/leadership/" });
 
 export default function Leadership() {
   const rows = trialLeadership();
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="who" />} title="Trial leadership index"
+      <PageHeader kicker={<GroupKicker id="who" />} title="Trial leadership"
         lede="Publication counts reward volume. This index rewards presence in the evidence that changed practice: the trials, products, and technologies recorded in OnCo that an institution or cooperative group is linked to. It is disclosed, simple, and only as complete as the corpus."
         right={<div className="flex gap-2"><Link href="/institutions/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Map & ranking</Link><Link href="/universities/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Research output</Link></div>} />
       <Container className="pb-16">

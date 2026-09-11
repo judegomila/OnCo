@@ -69,7 +69,7 @@ export default async function GuidelineCancerPage({ params }: { params: Promise<
           </>
         )}
         {rows.length > 0 && (
-          <Section title="Where the bodies stand today">
+          <Section title="Current positions">
             <GuidelineConcordance rows={rows} />
           </Section>
         )}

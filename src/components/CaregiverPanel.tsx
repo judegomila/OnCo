@@ -38,7 +38,7 @@ export function CaregiverPanel({ treatments, support, questions, cancerName }: {
       </section>
 
       <section>
-        <h3 className="font-semibold mb-2">Side effects to watch, by treatment</h3>
+        <h3 className="font-semibold mb-2">Side effects by treatment</h3>
         {treatments.length === 0 && <p className="text-sm text-muted">Add the treatments already received or being considered to the profile above to see their characteristic side effects.</p>}
         <div className="grid gap-3 md:grid-cols-2">
           {treatments.map((t) => (
@@ -59,7 +59,7 @@ export function CaregiverPanel({ treatments, support, questions, cancerName }: {
       </section>
 
       <section>
-        <h3 className="font-semibold mb-2">Practical support that has evidence</h3>
+        <h3 className="font-semibold mb-2">Evidence-based practical support</h3>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {support.map((s) => <Link key={s.id} href={s.route} className="card p-3 hover:shadow-md transition"><div className="font-medium">{s.name}</div><p className="text-xs text-muted mt-1 line-clamp-3">{s.tldr}</p></Link>)}
         </div>

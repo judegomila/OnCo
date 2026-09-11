@@ -66,7 +66,7 @@ export function PulseBoard({ items, themes, sources, refs, asOf }: { items: Puls
   return (
     <div>
       <section className="mb-12">
-        <div className="flex items-baseline justify-between gap-4 mb-3"><h2 className="text-xl font-semibold tracking-tight">Themes of the moment</h2><span className="text-xs text-muted">read on {asOf}</span></div>
+        <div className="flex items-baseline justify-between gap-4 mb-3"><h2 className="text-xl font-semibold tracking-tight">Current themes</h2><span className="text-xs text-muted">read on {asOf}</span></div>
         <div className="grid gap-3 md:grid-cols-2">
           {themes.slice().sort((a, b) => b.heat - a.heat).map((t) => (
             <div key={t.id} className="card p-4">
@@ -79,7 +79,7 @@ export function PulseBoard({ items, themes, sources, refs, asOf }: { items: Puls
         </div>
       </section>
 
-      <h2 className="text-xl font-semibold tracking-tight mb-3">What each source is saying</h2>
+      <h2 className="text-xl font-semibold tracking-tight mb-3">By source</h2>
       <Toolbar count={filtered.length} total={items.length} noun="items"
         left={<>
           <FacetSelect label="Source type" options={typeOptions} value={types} onChange={(v) => setTypes(v as string[])} multi searchable={false} allLabel="Any" width="w-44" />

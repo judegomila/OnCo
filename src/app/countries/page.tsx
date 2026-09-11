@@ -7,7 +7,7 @@ import { countryExtras } from "@/data/country-extras";
 import { routeExists } from "@/lib/sitemap-urls";
 import data from "../../../public/openalex/countries.json";
 
-export const metadata: Metadata = pageMeta({ title: "Countries: who is doing the most cancer research", description: "Countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.", path: "/countries/" });
+export const metadata: Metadata = pageMeta({ title: "Country research rankings", description: "Countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.", path: "/countries/" });
 
 type Raw = { built: string; years: number[]; source: string; countries: Record<string, { name: string; works: Record<string, number>; total: number; citedHigh: number; oa: number; trials?: number }> };
 
@@ -24,7 +24,7 @@ export default function Countries() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="who" />} title="Countries: who is doing the most cancer research"
+      <PageHeader kicker={<GroupKicker id="who" />} title="Country research rankings"
         lede={`Oncology research output by country from OpenAlex (${raw.years[0]} to ${y1}), with growth, highly cited share, open access, ClinicalTrials.gov sites, cancer burden, and the national funder. Ranked by a disclosed composite score. In ${y1} the leaders by volume were ${top.map((t) => t.name).join(", ")}.`} />
       <Container className="pb-16">
         <CountryRanking rows={rows} years={raw.years} deepDives={deepDives} />

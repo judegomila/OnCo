@@ -81,7 +81,7 @@ export function PortfolioPanel({ id }: { id: string }) {
   if (!inv || inv.kind !== "company" || inv.companyType !== "investor") return null;
   const portfolio = portfolioOf(id);
   return (
-    <Section title={`Portfolio in OnCo (${portfolio.length})`} aside={<Link href={`/startups/?investor=${encodeURIComponent(inv.name)}`} className="text-sm underline text-muted">Filter the startups table</Link>}>
+    <Section title={`Portfolio (${portfolio.length})`} aside={<Link href={`/startups/?investor=${encodeURIComponent(inv.name)}`} className="text-sm underline text-muted">Filter the startups table</Link>}>
       {portfolio.length === 0 ? (
         <p className="text-sm text-muted">No OnCo company names this investor yet. Portfolio links are declared on the startup record (`investors`), so adding one there lists it here.</p>
       ) : (

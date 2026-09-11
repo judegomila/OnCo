@@ -183,17 +183,17 @@ export default function RoadmapPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="learn" />} title="Roadmap: how OnCo keeps expanding and stays current"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Roadmap"
         lede="Every upgrade idea we have, with a status the corpus can contradict. The gauges are computed from the data at build time; where a claim of &ldquo;shipped&rdquo; is not borne out, the idea is shown as needing work and the gauge says what to do." />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-x-4 gap-y-1 text-sm mb-8">
-          {[["#health", "A. How healthy is the corpus"], ["#completeness", "A2. How much of the world is here"], ["#ideas", "B. Every idea, by status"], ["#method", "C. The method"], ["#propose", "D. Propose an idea"]].map(([href, label]) => (
+          {[["#health", "A. Corpus health"], ["#completeness", "A2. Completeness"], ["#ideas", "B. Ideas by status"], ["#method", "C. Method"], ["#propose", "D. Propose an idea"]].map(([href, label]) => (
             <a key={href} href={href} className="underline decoration-foreground/25 underline-offset-[3px] hover:decoration-foreground">{label}</a>
           ))}
         </nav>
 
         <section id="health" className="scroll-mt-24">
-          <h2 className="text-2xl font-semibold tracking-tight mb-2">A. How healthy is the corpus</h2>
+          <h2 className="text-2xl font-semibold tracking-tight mb-2">A. Corpus health</h2>
           <p className="text-muted text-sm mb-5 max-w-3xl">
             {metrics.length} coverage checks over {metrics.find((m) => m.id === "sources")?.total.toLocaleString("en-GB")} records, recomputed on every build from <a className="underline" href={blob("src/lib/health.ts")} rel="noopener">src/lib/health.ts</a>.
             Each gauge is passing records over records checked; each names the worst offenders and the one edit that fixes them. Adding a check is one entry in an array.
@@ -202,7 +202,7 @@ export default function RoadmapPage() {
         </section>
 
         <section id="completeness" className="mt-16 scroll-mt-24">
-          <h2 className="text-2xl font-semibold tracking-tight mb-2">A2. How much of the world is here</h2>
+          <h2 className="text-2xl font-semibold tracking-tight mb-2">A2. Completeness</h2>
           <p className="text-muted text-sm mb-5 max-w-3xl">
             The gauges above measure whether each record is complete. This table measures the other axis: of everything that exists, how much OnCo holds. Each row is an OnCo count against a sourced count of the world on the same scope
             (products against the NCI list of FDA-approved cancer drugs, institutions against the NCI-designated centres and OECI members, journals against MEDLINE&apos;s oncology set), with the missing items named on <Link href="/completeness/" className="underline">/completeness/</Link>.
@@ -212,7 +212,7 @@ export default function RoadmapPage() {
         </section>
 
         <section id="ideas" className="mt-16 scroll-mt-24">
-          <h2 className="text-2xl font-semibold tracking-tight mb-2">B. Every idea, by status</h2>
+          <h2 className="text-2xl font-semibold tracking-tight mb-2">B. Ideas by status</h2>
           <p className="text-muted text-sm mb-4 max-w-3xl">
             All {rows.length} product, data, and community ideas from three waves, grouped by theme. The number is wave and position (W2·07). Editorial statuses are shipped, building, planned, proposed;
             {" "}<strong className="font-medium text-foreground">needs work</strong> is applied automatically when a gauge linked to the idea is below its target{contradicted.length ? `, which is currently the case for ${contradicted.length} idea${contradicted.length === 1 ? "" : "s"} previously marked shipped or building` : ""}.
@@ -249,7 +249,7 @@ export default function RoadmapPage() {
         </section>
 
         <section id="method" className="mt-16 scroll-mt-24">
-          <h2 className="text-2xl font-semibold tracking-tight mb-2">C. The method</h2>
+          <h2 className="text-2xl font-semibold tracking-tight mb-2">C. Method</h2>
           <p className="text-muted text-sm mb-6 max-w-3xl">Two loops. Expansion adds records and features in waves and gates them; currency refreshes what the world has changed and audits what we already say. Each card says what runs, how often, where the code is, and what would make it better.</p>
           <h3 className="text-lg font-semibold mb-3">How expansion works</h3>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{EXPANSION.map((c) => <Method key={c.title} c={c} />)}</div>

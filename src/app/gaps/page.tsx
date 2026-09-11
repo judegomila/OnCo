@@ -8,7 +8,7 @@ import { KIND_META, routeFor, type Entity, type Kind } from "@/lib/schema";
 import { Container, GroupKicker, KindChip, PageHeader } from "@/components/ui";
 import { issueUrl, suggestEditUrl } from "@/lib/issue-links";
 
-export const metadata: Metadata = pageMeta({ title: "Gaps & bounties", description: "Where OnCo is thin: unsourced objects, weakly linked objects, cancers without pipelines, targets without drugs, and good first records for newcomers. Claim one and fix it.", path: "/gaps/" });
+export const metadata: Metadata = pageMeta({ title: "Gaps to fill", description: "Where OnCo is thin: unsourced objects, weakly linked objects, cancers without pipelines, targets without drugs, and good first records for newcomers. Claim one and fix it.", path: "/gaps/" });
 
 type Size = "S" | "M" | "L";
 type Finding = { check: string; severity: "high" | "medium" | "low"; id: string; kind: string; name: string; route: string; detail: string };
@@ -95,7 +95,7 @@ export default function Gaps() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="learn" />} title="Gaps and bounties"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Gaps to fill"
         lede={`Where the map is thin, computed from the corpus at build time. ${total} open items across seven checks, plus ${firsts.length} good first records from the audit. Claim one through the issue form; the check disappears when the fix lands.`} />
       <Container className="pb-16">
         <div className="card p-4 text-sm text-muted max-w-3xl">

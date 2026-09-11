@@ -7,7 +7,7 @@ import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef, type FacetL
 import { DATA_SOURCES, EFFORT_LABEL, type DataSource } from "@/data/data-sources";
 
 export const metadata: Metadata = {
-  title: "Open data behind OnCo",
+  title: "Open data",
   description: "Every open database OnCo pulls from, with what we take, how often, and under which licence; and the databases we could extend to, grouped by what they would fuel.",
 };
 
@@ -84,7 +84,7 @@ export default function DataSourcesPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="learn" />} title="Open data behind OnCo"
+      <PageHeader kicker={<GroupKicker id="learn" />} title="Open data"
         lede={`${inUse.length} sources already feed the corpus (${scripted} by script or live query, the rest read by hand and cited); ${candidates.length} more are mapped as candidates across ${groups.length} themes. Every row says what it holds, under which licence, and what it would fuel.`} />
       <Container className="pb-16">
         <div className="grid gap-4 md:grid-cols-2 mb-8 max-w-5xl">

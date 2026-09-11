@@ -8,7 +8,7 @@ import { Container, GroupKicker, PageHeader, ChipList } from "@/components/ui";
 import { RefChips } from "@/components/RefChips";
 import { Tip } from "@/components/Tip";
 
-export const metadata: Metadata = pageMeta({ title: "Unaddressed resistance routes", description: "Every resistance mechanism in the atlas with no countermeasure, or only preclinical ones, grouped by drug class and linked to the ideas that target it: the drug-design opportunities.", path: "/resistance/gaps/" });
+export const metadata: Metadata = pageMeta({ title: "Unaddressed resistance", description: "Every resistance mechanism in the atlas with no countermeasure, or only preclinical ones, grouped by drug class and linked to the ideas that target it: the drug-design opportunities.", path: "/resistance/gaps/" });
 
 const shortLabel = (s: string) => s.split(" (")[0];
 
@@ -45,7 +45,7 @@ export default function ResistanceGapsPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel"><Link href="/resistance/" className="kicker hover:underline">· Resistance atlas</Link></GroupKicker>} title="Unaddressed resistance routes"
+      <PageHeader kicker={<GroupKicker id="intel"><Link href="/resistance/" className="kicker hover:underline">· Resistance atlas</Link></GroupKicker>} title="Unaddressed resistance"
         lede={`Of the ${gaps.length} escape routes in the atlas, ${clinical} have at least one countermeasure with clinical evidence, ${pre.length} have only preclinical or conceptual answers, and ${none.length} have none recorded. The last two groups, listed here by drug class and linked to the ideas that target them, are where a drug designer should look.`} />
       <Container className="pb-16">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 mb-8">

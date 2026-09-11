@@ -7,7 +7,7 @@ import { SideEffectLookup } from "@/components/SideEffectLookup";
 import { buildSideEffectIndex } from "@/lib/side-effects";
 import { sideEffectGuidance } from "@/data/side-effect-guidance";
 
-export const metadata: Metadata = pageMeta({ title: "Side effects, symptom first", description: "Start from the symptom: which cancer treatments cause it, how often, what helps at home, and the threshold at which to call the team or go to hospital, with the sources.", path: "/side-effects/" });
+export const metadata: Metadata = pageMeta({ title: "Side effects by symptom", description: "Start from the symptom: which cancer treatments cause it, how often, what helps at home, and the threshold at which to call the team or go to hospital, with the sources.", path: "/side-effects/" });
 
 export default function SideEffectsPage() {
   const g = graph();
@@ -17,7 +17,7 @@ export default function SideEffectsPage() {
   const groups = new Set(rows.map((r) => r.group)).size;
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="live" />} title="Side effects, symptom first"
+      <PageHeader kicker={<GroupKicker id="live" />} title="Side effects by symptom"
         lede={`People search by what they feel, not by drug name. Pick a symptom to see which of the ${products} products with structured safety data cause it and how often, then read what helps at home and the threshold at which to call. Thresholds are quoted from NCI CTCAE v5.0, NICE and UKONS triage rules, the ASCO immune-related toxicity guideline and the ASTCT consensus on CRS. ${groups} symptom groups, ${sideEffectGuidance.length} guidance cards. Your team's instructions and 24-hour number always take precedence.`} />
       <Container className="pb-16">
         <SideEffectLookup rows={rows} drugNames={drugNames} />

@@ -20,7 +20,7 @@ export default function FreshnessPage() {
   const shown = f.stale.slice(0, 120);
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="Freshness: how old is too old"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="Freshness"
         lede="Every record carries the date its facts were last checked. This page defines the maximum acceptable age for each kind of record, assigns it to a review track, and lists what is past due. Critical breaches fail the build once they exceed a limit, so the site cannot quietly go stale." />
       <Container className="pb-16">
         <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 mb-8">

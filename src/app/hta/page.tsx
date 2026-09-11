@@ -47,7 +47,7 @@ export default function HtaPage() {
 
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="intel" />} title="HTA decisions: who pays, where"
+      <PageHeader kicker={<GroupKicker id="intel" />} title="HTA decisions"
         lede={`${rows.length} appraisal verdicts for ${products.size} products across ${Object.keys(byBody).length} bodies: ${Object.entries(byBody).map(([b, n]) => `${b} ${n}`).join(", ")}. Regulatory approval says a medicine may be sold; a health technology assessment says whether a health system will pay for it, for whom, and at what price. Dates and links go to the appraisal itself.`}
         right={<div className="flex flex-wrap gap-2"><Link href="/coverage/uk/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">NHS coverage →</Link><Link href="/coverage/us/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">US coverage and assistance →</Link></div>} />
       <Container className="pb-16 space-y-10">

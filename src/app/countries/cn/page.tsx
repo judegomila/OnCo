@@ -11,7 +11,7 @@ import { regionalApprovals } from "@/data/regional-approvals";
 import data from "../../../../public/openalex/countries.json";
 
 export const metadata: Metadata = pageMeta({
-  title: "China: the second engine of cancer drug development",
+  title: "Cancer in China",
   description: "China in oncology: the cancer burden and what is being done about it, the NMPA and CDE reforms, NRDL price negotiation, Healthy China 2030, hepatitis B vaccination, the domestic PD-1s, ADCs, bispecifics, CAR-Ts and KRAS inhibitors approved by the NMPA, the companies and out-licensing deals, the institutions and the people, every fact with a primary source.",
   path: "/countries/cn/",
 });
@@ -75,11 +75,11 @@ export default function ChinaPage() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="who"><span className="text-muted"> · </span><Link href="/countries/" className="kicker hover:text-foreground">Countries</Link></GroupKicker>}
-        title="China: the second engine of cancer drug development"
+        title="Cancer in China"
         lede={`About ${F.cancerStats.newCases.replace("about ", "")} and ${F.cancerStats.deaths.replace("about ", "")}; ${fmt(cn.works[String(y1)])} oncology papers in ${y1} (up ${growth ?? "n/a"}% since ${y0}) and ${fmt(cn.trials ?? 0)} registered trials with a Chinese site. In one decade China went from importing every new cancer drug to approving its own PD-1 antibodies, ADCs, bispecifics, CAR-Ts and KRAS inhibitors and licensing them to Western pharma. This page pairs each problem with what is being done about it, and links every number to its source.`} />
       <Container className="pb-16">
         {/* ---------- Numbers ---------- */}
-        <Section title="The numbers" aside={<span className="text-xs text-muted">National Cancer Center report on 2022; OpenAlex and ClinicalTrials.gov via the countries table</span>}>
+        <Section title="Key figures" aside={<span className="text-xs text-muted">National Cancer Center report on 2022; OpenAlex and ClinicalTrials.gov via the countries table</span>}>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {[
               ["New cases, 2022", F.cancerStats.newCases.replace("about ", "≈ ").replace(" new cancer cases in 2022", ""), F.cancerStats.source],
@@ -102,7 +102,7 @@ export default function ChinaPage() {
         </Section>
 
         {/* ---------- Problems paired with responses ---------- */}
-        <Section title="Problems, and what is being done about them">
+        <Section title="Problems and what is being done">
           <div className="grid gap-4">
             <Pair
               problem={<>Digestive cancers dominate. Stomach, liver and oesophageal cancer sit in the top five by deaths, driven by chronic hepatitis B, Helicobacter pylori, salted and pickled food, hot beverages and alcohol, and concentrated in rural high-incidence belts (Taihang mountains, Huai river basin, Qidong). Most are diagnosed late, where five-year survival is low.</>}
@@ -132,12 +132,12 @@ export default function ChinaPage() {
         </Section>
 
         {/* ---------- Regulators, payers, societies ---------- */}
-        <Section title="Regulator, payer and the bodies that set practice">
+        <Section title="Regulator, payer and guideline bodies">
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">{regulators.map((e) => <EntityCard key={e.id} e={e} />)}</div>
         </Section>
 
         {/* ---------- Approved products ---------- */}
-        <Section title={`Products with an NMPA approval in the corpus (${drugs.length})`} aside={<Link href="/regulatory/regions/" className="text-sm underline">All regions</Link>}>
+        <Section title={`NMPA-approved products (${drugs.length})`} aside={<Link href="/regulatory/regions/" className="text-sm underline">All regions</Link>}>
           <p className="text-sm text-muted mb-3 max-w-4xl">Domestic innovative products and the imports China approved, grouped by modality. Each product page lists the indication and year; the regional approvals table has {cnApprovals.length} products with an NMPA approval or conditional approval on record.</p>
           <div className="grid gap-4 lg:grid-cols-2">
             {groups.filter(([, list]) => list.length).map(([label, list]) => (

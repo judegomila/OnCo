@@ -7,7 +7,7 @@ import { powerRows } from "@/lib/relevance";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PowerView, type PowerCancer } from "@/components/PowerView";
 
-export const metadata: Metadata = pageMeta({ title: "Explore: ranked power view", description: "Pick a cancer type, switch entity kind, and get a ranked, sortable, filterable list of products, technologies, targets, trials, and more, each linking to its page.", path: "/explore/" });
+export const metadata: Metadata = pageMeta({ title: "Explore", description: "Pick a cancer type, switch entity kind, and get a ranked, sortable, filterable list of products, technologies, targets, trials, and more, each linking to its page.", path: "/explore/" });
 
 export default function Explore() {
   const g = graph();
@@ -15,7 +15,7 @@ export default function Explore() {
   const rows = powerRows();
   return (
     <>
-      <PageHeader kicker={<GroupKicker id="find" />} title="Explore: one ranked list, any cancer, any kind"
+      <PageHeader kicker={<GroupKicker id="find" />} title="Explore"
         lede="Choose a cancer type (or all), switch between products, technologies, targets, trials, pairings, ideas, companies, and institutions, then sort and filter. Every row links to its page. The rank is a disclosed documentation-and-evidence score, not a measure of clinical benefit." />
       <Container className="pb-16">
         <Suspense><PowerView rows={rows} cancers={cancers} /></Suspense>

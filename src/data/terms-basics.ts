@@ -402,11 +402,12 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "adenocarcinoma", name: "Adenocarcinoma", category: BIO,
-    aka: ["adenocarcinomas", "glandular", "adenoma", "adenomas", "adeno"],
+    aka: ["adenocarcinomas", "glandular", "adenoma", "adenomas", "adeno", "ductal adenocarcinoma", "mucinous adenocarcinoma", "signet ring", "signet-ring", "invasive lobular carcinoma", "lobular", "ductal", "adenocarcinoma-term"],
     tldr: "A carcinoma arising from gland-forming cells, the kind that make mucus, milk, digestive juices or hormones. The most common type of breast, lung, colon, prostate, pancreas and stomach cancer.",
     summary: "Adenocarcinoma cells often still try to form gland-like structures or produce mucus, which is how pathologists recognise them; an adenoma is the benign glandular counterpart, and many adenocarcinomas, notably in the colon, begin as adenomas. In lung cancer, the adenocarcinoma versus squamous distinction matters directly for treatment, because the druggable drivers (EGFR, ALK, ROS1, KRAS G12C) are found mostly in adenocarcinomas and pemetrexed is used only in non-squamous disease. Molecular testing of lung adenocarcinoma is now routine at diagnosis.",
     wikipedia: W("Adenocarcinoma"),
-    related: ["carcinoma", "squamous-cell-carcinoma", "histology", "genomic-profiling"], cancers: ["nsclc", "colorectal", "pancreatic", "prostate", "gastric"],
+    related: ["carcinoma", "squamous-cell-carcinoma", "histology", "genomic-profiling", "squamous-cell-carcinoma-term", "tumour-differentiation"], cancers: ["nsclc", "colorectal", "pancreatic", "prostate", "gastric", "esophageal"],
+    sections: ["diagnostics"],
   }),
   t({
     id: "squamous-cell-carcinoma", name: "Squamous cell carcinoma", category: BIO,
@@ -654,11 +655,12 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "maintenance-therapy", name: "Maintenance therapy", category: CLINIC,
-    aka: ["maintenance", "maintenance treatment", "maintenance setting", "continuation therapy", "consolidation", "consolidation therapy"],
+    aka: ["maintenance", "maintenance treatment", "maintenance setting", "continuation therapy", "consolidation", "consolidation therapy", "switch maintenance", "continuation maintenance", "PARP maintenance", "lenalidomide maintenance", "until progression", "treat to progression", "indefinite therapy", "maintenance-therapy-term"],
     tldr: "Ongoing, gentler treatment given after the main course has shrunk the cancer, to hold it in check for as long as possible rather than to shrink it further.",
     summary: "Maintenance is standard in several settings: PARP inhibitors after platinum chemotherapy in ovarian cancer, pemetrexed or immunotherapy after induction chemotherapy in lung cancer, lenalidomide after transplant in myeloma, and rituximab in follicular lymphoma. The rationale is that the disease remaining after induction is small and slow-growing, so a tolerable long-term drug can delay progression by months or years, while the cost is cumulative side effects and expense during a period when the patient feels well. Trials of maintenance measure progression-free survival above all, and whether they extend overall survival is often debated.",
     wikipedia: W("Maintenance_therapy"),
-    related: ["first-line", "pfs", "remission", "progression", "neoadjuvant-adjuvant"], technologies: ["parp-inhibitor"], drugs: ["olaparib", "niraparib"], cancers: ["ovarian", "nsclc", "multiple-myeloma"],
+    related: ["first-line", "pfs", "remission", "progression", "neoadjuvant-adjuvant", "fixed-duration", "consolidation-therapy", "umrd"], technologies: ["parp-inhibitor"], drugs: ["olaparib", "niraparib", "lenalidomide"], cancers: ["ovarian", "nsclc", "multiple-myeloma", "urothelial"],
+    sections: ["chemotherapy", "targeted-therapy"],
   }),
   t({
     id: "palliative-treatment", name: "Palliative", category: CLINIC,
@@ -798,11 +800,12 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "surrogate-endpoint", name: "Surrogate endpoint", category: CLINIC,
-    aka: ["surrogate endpoints", "surrogate", "surrogates", "surrogate marker", "surrogate markers", "surrogate outcome", "intermediate endpoint", "intermediate endpoints"],
+    aka: ["surrogate endpoints", "surrogate", "surrogates", "surrogate marker", "surrogate markers", "surrogate outcome", "intermediate endpoint", "intermediate endpoints", "surrogate for survival", "validated surrogate", "intermediate clinical endpoint", "early endpoint", "reasonably likely to predict clinical benefit", "trial-level surrogacy", "patient-level surrogacy", "surrogacy", "surrogate-endpoint-term"],
     tldr: "A quicker, easier measurement used as a stand-in for what really matters. Tumour shrinkage or delayed growth stands in for living longer, on the assumption, not always true, that one leads to the other.",
     summary: "Progression-free survival, response rate, pathologic complete response, minimal residual disease and ctDNA clearance are the main surrogates in oncology; they are available months or years before overall survival and need fewer patients, so they drive most accelerated approvals and many full ones. A surrogate is valid for a given drug class and disease only if trials show that improving it reliably improves survival, and this correlation is strong in some settings (PFS in ovarian cancer maintenance) and weak in others (response rate in many solid tumours). When a surrogate-based approval is not confirmed by later survival data, the approval can be withdrawn, as has happened repeatedly since 2021.",
     wikipedia: W("Surrogate_endpoint"),
-    related: ["endpoint", "pfs", "orr", "pcr", "mrd", "os", "accelerated-approval", "stage-shift"],
+    related: ["endpoint", "pfs", "orr", "pcr", "mrd", "os", "accelerated-approval", "stage-shift", "primary-endpoint", "confirmatory-trial"],
+    sections: ["drug-discovery"],
   }),
   t({
     id: "hazard-ratio-basics", name: "Reading a hazard ratio", category: CLINIC,

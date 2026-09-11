@@ -170,6 +170,21 @@
       "source": "/people/william-g-nelson/:path*",
       "destination": "/people/william-nelson/:path*",
       "permanent": true
+    },
+    {
+      "source": "/terms/adenocarcinoma-term/:path*",
+      "destination": "/terms/adenocarcinoma/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/maintenance-therapy-term/:path*",
+      "destination": "/terms/maintenance-therapy/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/surrogate-endpoint-term/:path*",
+      "destination": "/terms/surrogate-endpoint/:path*",
+      "permanent": true
     }
   ]
 }

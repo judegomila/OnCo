@@ -1,0 +1,51 @@
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 51,221,227,236,243
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 239,245,261
+src/data/spikes/mesothelioma.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 125,134,141
+src/data/spikes/rcc.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 223,238,245
+src/data/spikes/all-leukemia.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 176,181,186,194
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 270,276,292,299
+src/data/spikes/gastric.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 153,178,185
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 262,264,278,288
+src/data/spikes/hodgkin-lymphoma.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 123,129,138,145
+src/data/spikes/esophageal.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 163
+src/data/spikes/cholangiocarcinoma.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 177,187
+src/data/spikes/endometrial.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 163,169,186
+src/data/spikes/neuroblastoma.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 66,167,173,182,189
+src/data/spikes/multiple-myeloma.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 269,275,281,290,297
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 178,187,198
+src/data/spikes/cervical.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 197,203,209,226
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_a02693133c4faf 177,183,192,199
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ef9ce5219896f5d744059df3c73529bb314b178d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -40,6 +40,196 @@
       ],
       "destination": "https://onco.cc/:path*",
       "permanent": true
+    },
+    {
+      "source": "/companies/cstone-pharmaceuticals/:path*",
+      "destination": "/companies/cstone/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/companies/jiangsu-hengrui/:path*",
+      "destination": "/companies/hengrui/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-nejm/:path*",
+      "destination": "/journals/nejm/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-lancet-oncology/:path*",
+      "destination": "/journals/lancet-oncology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-jco/:path*",
+      "destination": "/journals/jco/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-cancer-discovery/:path*",
+      "destination": "/journals/cancer-discovery/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-nature-medicine/:path*",
+      "destination": "/journals/nature-medicine/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-nature-cancer/:path*",
+      "destination": "/journals/nature-cancer/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-cancer-cell/:path*",
+      "destination": "/journals/cancer-cell/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-annals-oncology/:path*",
+      "destination": "/journals/annals-of-oncology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-jama-oncology/:path*",
+      "destination": "/journals/jama-oncology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-blood/:path*",
+      "destination": "/journals/blood/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-cancer-research/:path*",
+      "destination": "/journals/cancer-research/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-clinical-cancer-research/:path*",
+      "destination": "/journals/clinical-cancer-research/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-jnci/:path*",
+      "destination": "/journals/jnci/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-esmo-open/:path*",
+      "destination": "/journals/esmo-open/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-medrxiv/:path*",
+      "destination": "/journals/medrxiv/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-biorxiv/:path*",
+      "destination": "/journals/biorxiv/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-pancan/:path*",
+      "destination": "/collections/pancan/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/caicun-zhou/:path*",
+      "destination": "/people/zhou-caicun/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/pankaj-chaturvedi/:path*",
+      "destination": "/people/chaturvedi-pankaj/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/toshihiko-doi/:path*",
+      "destination": "/people/doi-toshihiko/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/jia-fan/:path*",
+      "destination": "/people/fan-jia/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/shun-lu/:path*",
+      "destination": "/people/lu-shun/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/takayuki-yoshino/:path*",
+      "destination": "/people/yoshino-takayuki/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/william-g-nelson/:path*",
+      "destination": "/people/william-nelson/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/adenocarcinoma-term/:path*",
+      "destination": "/terms/adenocarcinoma/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/maintenance-therapy-term/:path*",
+      "destination": "/terms/maintenance-therapy/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/surrogate-endpoint-term/:path*",
+      "destination": "/terms/surrogate-endpoint/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/barretts-oesophagus/:path*",
+      "destination": "/terms/barretts-esophagus/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/mgus-smouldering/:path*",
+      "destination": "/terms/smoldering-myeloma/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/gleason/:path*",
+      "destination": "/terms/gleason-grade-group/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/limited-vs-extensive-stage/:path*",
+      "destination": "/terms/limited-extensive-stage/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/muscle-invasive/:path*",
+      "destination": "/terms/nmibc-vs-mibc/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/squamous-cell-carcinoma-term/:path*",
+      "destination": "/terms/squamous-cell-carcinoma/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/driver-mutation-term/:path*",
+      "destination": "/terms/driver-mutation/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/histological-subtype/:path*",
+      "destination": "/terms/histology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-cancer-org-asco/:path*",
+      "destination": "/collections/american-cancer-society/:path*",
+      "permanent": true
     }
   ]
 }

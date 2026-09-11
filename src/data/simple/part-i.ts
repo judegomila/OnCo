@@ -7,7 +7,6 @@ export const simpleI: Record<string, string> = {
   eisai: "Eisai is the Japanese drug company that makes lenvatinib, a first-line option in liver cancer and a partner of pembrolizumab in kidney and womb cancer.",
   exelixis: "Exelixis is the US company that makes cabozantinib, used in kidney, liver, thyroid and, since 2025, neuroendocrine cancers, with a successor pill in late trials.",
   "elevar-therapeutics": "Elevar Therapeutics developed rivoceranib, whose pairing with camrelizumab beat sorafenib in liver cancer but has been refused by the FDA three times on manufacturing grounds.",
-  "jiangsu-hengrui": "Jiangsu Hengrui is China's largest innovative drug company, maker of the PD-1 antibody camrelizumab and a broad antibody-drug pipeline licensed to Western partners.",
   sirtex: "Sirtex Medical makes SIR-Spheres, the yttrium-90 resin microspheres used to deliver radiation into liver tumours through the hepatic artery.",
   "boston-scientific": "Boston Scientific is the medical device giant whose TheraSphere glass microspheres deliver yttrium-90 radiation to liver cancer from inside the tumour.",
   incyte: "Incyte is the US company that makes pemigatinib, the first targeted drug approved for bile duct cancer, and the JAK inhibitor ruxolitinib.",

@@ -17,11 +17,14 @@ const TYPE_OF = (tags: string[]) => tags.find((t) => ["journal", "news", "prepri
 
 export default function PulsePage() {
   const g = graph();
-  // Sources may live in the graph (once registered) or only in sources.ts; resolve both.
+  // Sources may live in the graph (once registered) or only in sources.ts; resolve both. Journals and preprint servers
+  // are their own records (kind "journal"), so items that cite one are resolved from the graph as well.
   const srcs: PulseSource[] = [];
   const seen = new Set<string>();
   for (const s of sources) { seen.add(s.id); const e = g.get(s.id); srcs.push({ id: s.id, name: s.name, url: s.url, type: TYPE_OF(s.tags ?? []), logo: logoSrc(s.id, s.url), route: e ? routeFor(e) : undefined }); }
   for (const c of g.kind("collection")) if (!seen.has(c.id)) srcs.push({ id: c.id, name: c.name, url: c.url, type: TYPE_OF(c.tags), logo: logoSrc(c.id, c.url), route: routeFor(c) });
+  const cited = new Set([...pulseItems.map((it) => it.sourceId), ...pulseThemes.flatMap((t) => t.sourceIds)]);
+  for (const j of g.kind("journal")) if (cited.has(j.id) && !seen.has(j.id)) { seen.add(j.id); srcs.push({ id: j.id, name: j.name, url: j.url, type: j.scope === "preprints" ? "preprint" : "journal", logo: logoSrc(j.id, j.url), route: routeFor(j) }); }
 
   const refs: Record<string, RefLite> = {};
   for (const it of pulseItems) for (const id of it.refs) { const e = g.get(id); if (e) refs[id] = { id, name: e.name, route: routeFor(e), kind: e.kind }; }

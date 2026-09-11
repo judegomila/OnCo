@@ -271,7 +271,7 @@ export const DATA_SOURCES: DataSource[] = [
     fuels: ["key papers (citation graph, influential citations)"], licence: "AI2 API licence: internal, non-commercial research and educational use only; public displays must credit Semantic Scholar with name and logo and link back with utm_source=api; commercial use needs a separate agreement", api: true, access: "REST API", effort: "M",
     notes: "Citation contexts, influential-citation counts and machine TL;DRs per paper. The licence is not an open one, so any derived table would be display-only with the mandated attribution.",
     risks: "Non-commercial licence conflicts with CC BY 4.0 redistribution; unauthenticated pool is shared; TL;DRs are machine-generated and must be labelled." },
-  { id: "biorxiv-medrxiv", name: "bioRxiv and medRxiv API", url: "https://api.biorxiv.org/", status: "candidate", group: T.literature, collection: "src-medrxiv",
+  { id: "biorxiv-medrxiv", name: "bioRxiv and medRxiv API", url: "https://api.biorxiv.org/", status: "candidate", group: T.literature, collection: "medrxiv",
     fuels: ["papers page (preprints)", "research pulse"], licence: "No licence statement on the API; each preprint carries its author-chosen licence recorded in the metadata (metadata licence unverified)", api: true, access: "REST API", effort: "S",
     notes: "Preprints by date range and category with published-DOI links, 100 records a call; Europe PMC already indexes them (SRC:PPR), so this is mainly for a faster daily pulse.",
     risks: "Unreviewed; must be labelled as preprints; full text reuse is per article." },

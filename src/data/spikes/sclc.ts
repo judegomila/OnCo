@@ -48,7 +48,7 @@ const trials: TrialInput[] = [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Durvalumab", value: 16.6 }, { name: "Placebo", value: 9.2 }], hr: 0.76, ci: [0.61, 0.95] },
     ],
     replication: "Single pivotal trial; consistent with PACIFIC in NSCLC. Real-world consolidation series are emerging.",
-    drugs: ["durvalumab"], cancers: ["sclc"], technologies: ["imrt-igrt", "prophylactic-cranial-irradiation"], terms: ["limited-vs-extensive-stage", "pci-term"],
+    drugs: ["durvalumab"], cancers: ["sclc"], technologies: ["imrt-igrt", "prophylactic-cranial-irradiation"], terms: ["limited-extensive-stage", "pci-term"],
     links: [ct("NCT03703297"), { label: "FDA approval (Dec 2024)", url: "https://www.onclive.com/view/fda-approves-durvalumab-for-limited-stage-small-cell-lung-cancer" }], people: ["corinne-faivre-finn"] }),
   t({ id: "imforte", name: "IMforte", nct: "NCT05091567", phase: "3", status: "positive", yearReported: 2025, sponsor: "Roche / Jazz / PharmaMar", enrolled: 483,
     setting: "First-line maintenance after induction chemo-immunotherapy in ES-SCLC: lurbinectedin + atezolizumab vs atezolizumab",
@@ -94,7 +94,7 @@ const trials: TrialInput[] = [
     summary: "CONVERT, trial NCT00433563 sponsored by Cancer Research UK and the EORTC and reported in 2017, settled the radiotherapy schedule debate in limited-stage small-cell lung cancer: neither schedule was superior, so twice-daily 45 Gy remains standard and once-daily 66 Gy is an acceptable alternative. It randomised 547 patients to twice-daily or once-daily thoracic radiotherapy with concurrent cisplatin and etoposide, was designed to show superiority of the once-daily schedule and did not, with similar toxicity and both arms outperforming historical controls. OnCo links it to small-cell lung cancer, modern external beam radiotherapy, the limited-stage term and Corinne Faivre-Finn. Because it was not a non-inferiority design, whether once-daily treatment is truly equivalent rather than merely not proven superior is the open question.",
     result: "No significant difference; twice-daily 45 Gy remains standard.",
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Twice-daily 45 Gy", n: 274, value: 30 }, { name: "Once-daily 66 Gy", n: 273, value: 25 }], hr: 1.18, ci: [0.95, 1.45], source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(17)30318-2/fulltext" }],
-    cancers: ["sclc"], technologies: ["imrt-igrt"], terms: ["limited-vs-extensive-stage"], links: [ct("NCT00433563")], people: ["corinne-faivre-finn"] }),
+    cancers: ["sclc"], technologies: ["imrt-igrt"], terms: ["limited-extensive-stage"], links: [ct("NCT00433563")], people: ["corinne-faivre-finn"] }),
 ];
 
 // ======================= DRUGS =======================
@@ -150,14 +150,10 @@ const technologies: TechnologyInput[] = [
     principle: "Whole-brain radiotherapy to sterilise micrometastases before they become symptomatic; MRI surveillance instead detects and treats them early with stereotactic radiosurgery.",
     strengths: ["Halves brain metastasis incidence", "Survival benefit in limited-stage disease with older staging"],
     limitations: ["Neurocognitive decline", "Benefit unclear when MRI surveillance is available", "Ongoing trial will settle the question"],
-    cancers: ["sclc"], technologies: ["mri", "sbrt", "imrt-igrt"], terms: ["limited-vs-extensive-stage"], links: [{ label: "Wikipedia", url: W("Prophylactic_cranial_irradiation") }] },
+    cancers: ["sclc"], technologies: ["mri", "sbrt", "imrt-igrt"], terms: ["limited-extensive-stage"], links: [{ label: "Wikipedia", url: W("Prophylactic_cranial_irradiation") }] },
 ];
 
 const terms: TermInput[] = [
-  { id: "limited-vs-extensive-stage", kind: "term", wikipedia: W("Limited-stage_small_cell_lung_carcinoma"), links: [{ label: "Wikipedia", url: W("Limited-stage_small_cell_lung_carcinoma") }], name: "Limited-stage vs extensive-stage (SCLC)", category: "Clinical", asOf,
-    tldr: "Small-cell lung cancer is split into disease that fits in one radiation field (limited) and disease that has spread beyond it (extensive). The first is treated to cure, the second to control.",
-    summary: "Limited-stage (about one third of patients; roughly TNM stage I-III) is confined to one hemithorax and regional nodes and treated with concurrent chemoradiotherapy followed by durvalumab (ADRIATIC); 5-year survival 25-35%. Extensive-stage is treated with chemo-immunotherapy and, since 2025, maintenance; median survival 12-15 months. The Veterans Administration two-stage system persists alongside TNM because it maps to treatment intent.",
-    cancers: ["sclc"], trials: ["adriatic", "convert"] },
 ];
 
 const companies: CompanyInput[] = [
@@ -233,7 +229,7 @@ const spike: Spike = {
       "Molecular subtypes (A/N/P/I) explain heterogeneity and are moving toward prospective use.",
     ],
     history: [
-      { year: 1973, title: "VA Lung Study Group defines limited vs extensive stage", refs: ["limited-vs-extensive-stage"] },
+      { year: 1973, title: "VA Lung Study Group defines limited vs extensive stage", refs: ["limited-extensive-stage"] },
       { year: 1985, title: "Platinum-etoposide becomes the standard regimen", refs: ["platinum-etoposide"] },
       { year: 1992, title: "Meta-analysis: thoracic radiotherapy improves survival in limited-stage disease", refs: ["imrt-igrt"] },
       { year: 1999, title: "Prophylactic cranial irradiation improves survival in complete responders", refs: ["prophylactic-cranial-irradiation"] },
@@ -265,7 +261,7 @@ const spike: Spike = {
     technologies: ["t-cell-engager", "adc", "checkpoint-inhibitor", "targeted-alpha-therapy", "cytotoxic-chemotherapy", "imrt-igrt", "sbrt", "prophylactic-cranial-irradiation", "mri"],
     pathways: ["p53-cell-cycle", "apoptosis-bcl2", "pd1-checkpoint"],
     companies: ["amgen", "roche-genentech", "astrazeneca", "daiichi-sankyo", "merck", "jazz", "pharmamar", "henlius", "bms"],
-    terms: ["limited-vs-extensive-stage", "crs", "os", "pfs"],
+    terms: ["limited-extensive-stage", "crs", "os", "pfs"],
     institutions: ["mskcc", "md-anderson", "dana-farber", "gustave-roussy"],
     links: [{ label: "NCI PDQ: small cell lung cancer treatment", url: "https://www.cancer.gov/types/lung/hp/small-cell-lung-treatment-pdq" }, { label: "IASLC: tarlatamab first-line maintenance data", url: "https://www.iaslc.org/iaslc-news/press-release/tarlatamab-anti-pd-l1-first-line-maintenance-after-chemo-immunotherapy-es" }],
   },

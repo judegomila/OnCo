@@ -143,7 +143,7 @@ export const cancers: CancerInput[] = [
     targets: ["egfr", "alk", "kras", "met", "ret", "braf", "ntrk", "her2", "her3", "trop2", "pd1", "pdl1", "vegf"],
     technologies: ["kinase-inhibitors", "checkpoint-inhibitor", "adc", "bispecific-antibody", "sbrt", "ct", "liquid-biopsy", "cgp", "omega3-epa-cachexia", "shark-cartilage", "hydrazine-sulfate", "nhs-targeted-lung-health-check"],
     pathways: ["ras-mapk", "pi3k-akt-mtor", "pd1-checkpoint", "nsclc-signalling"],
-    tags: ["lung"], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "ventana-pd-l1-sp142", "caris-mi-cancer-seek", "resolution-ctdx-first", "necitumumab", "talc-sclerosant", "samarium-153-lexidronam"], trials: ["gefitinib-chemo-tmh"], terms: ["tps", "egfr-exon19-l858r", "egfr-exon20-insertion", "c797s", "met-amplification", "histologic-transformation", "oligoprogression", "histological-subtype"], links: [{ label: "Wikipedia", url: W("Non-small-cell_lung_cancer") }], journals: ["clinical-lung-cancer", "lung-cancer-journal", "thoracic-cancer", "chinese-journal-of-lung-cancer"], companies: ["kanvas-biosciences"],
+    tags: ["lung"], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "ventana-pd-l1-sp142", "caris-mi-cancer-seek", "resolution-ctdx-first", "necitumumab", "talc-sclerosant", "samarium-153-lexidronam"], trials: ["gefitinib-chemo-tmh"], terms: ["tps", "egfr-exon19-l858r", "egfr-exon20-insertion", "c797s", "met-amplification", "histologic-transformation", "oligoprogression", "histology"], links: [{ label: "Wikipedia", url: W("Non-small-cell_lung_cancer") }], journals: ["clinical-lung-cancer", "lung-cancer-journal", "thoracic-cancer", "chinese-journal-of-lung-cancer"], companies: ["kanvas-biosciences"],
   }),
   c({
     id: "sclc", name: "Small-cell lung cancer", group: "lung", wikipedia: W("Small-cell_carcinoma"),
@@ -166,7 +166,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["ifinatamab-deruxtecan", "ryz101", "tarlatamab"],
     openProblems: ["Rapid chemoresistance.", "Brain metastases.", "No screening beyond CT for smokers."],
     targets: ["dll3", "b7h3", "pdl1", "sstr2", "tp53"], technologies: ["t-cell-engager", "adc", "checkpoint-inhibitor", "targeted-alpha-therapy", "nhs-targeted-lung-health-check"], pathways: ["p53-cell-cycle", "sclc-signalling"],
-    tags: ["lung"], terms: ["limited-vs-extensive-stage", "crs", "os", "pfs", "pci-term"], journals: ["clinical-lung-cancer", "lung-cancer-journal", "thoracic-cancer", "chinese-journal-of-lung-cancer"],
+    tags: ["lung"], terms: ["limited-extensive-stage", "crs", "os", "pfs", "pci-term"], journals: ["clinical-lung-cancer", "lung-cancer-journal", "thoracic-cancer", "chinese-journal-of-lung-cancer"],
   }),
 
   // ======================= GI =======================

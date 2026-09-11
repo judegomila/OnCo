@@ -134,7 +134,7 @@ const technologies: TechnologyInput[] = [
     limitations: ["Randomised trials with cancer endpoints are few and mostly null", "Residual confounding by wealth, smoking and activity", "Effect sizes per person are modest"],
     cancers: ["colorectal", "breast-hr-positive", "prostate", "gastric", "hcc"], technologies: ["exercise-oncology", "dietary-fibre-microbiome-io"], terms: ["dietary-pattern-scores", "energy-balance", "glycaemic-index"], trials: ["whel"], institutions: ["iarc"],
     bottlenecks: ["b-prevention-adoption"],
-    links: [{ label: "WCRF/AICR Continuous Update Project", url: "https://www.wcrf.org/research-policy/continuous-update-project/" }, doi("ACS nutrition and physical activity guideline 2020", "10.3322/caac.21591")], related: ["src-cancer-org-asco"] }),
+    links: [{ label: "WCRF/AICR Continuous Update Project", url: "https://www.wcrf.org/research-policy/continuous-update-project/" }, doi("ACS nutrition and physical activity guideline 2020", "10.3322/caac.21591")], related: ["american-cancer-society"] }),
 
   tech({ id: "dietary-fibre-microbiome-io", name: "Dietary fibre and the gut microbiome for immunotherapy response", sections: [SEC, "immunotherapy"], status: "emerging", wikipedia: W("Dietary_fiber"),
     tldr: "Patients who eat plenty of fibre and avoid probiotic pills seem to respond better to immunotherapy for melanoma, probably because fibre feeds the right gut bacteria. A proper trial is under way.",
@@ -294,7 +294,7 @@ const technologies: TechnologyInput[] = [
     limitations: ["Observational for recurrence", "Supplement doses untested for safety", "Effect may depend on lifelong exposure and gut metabolism (equol producers)"],
     cancers: ["breast-hr-positive", "prostate"], technologies: ["endocrine-therapy", "mediterranean-plant-forward-diet", "dietary-supplements-treatment-interactions"], drugs: ["tamoxifen"], terms: ["unproven-diet-claims", "dietary-pattern-scores"],
     bottlenecks: ["b-misinformation"],
-    links: [doi("Soy intake and breast cancer recurrence, pooled analysis (Am J Clin Nutr 2012)", "10.3945/ajcn.112.035972")], related: ["src-cancer-org-asco"] }),
+    links: [doi("Soy intake and breast cancer recurrence, pooled analysis (Am J Clin Nutr 2012)", "10.3945/ajcn.112.035972")], related: ["american-cancer-society"] }),
 
   tech({ id: "dietary-supplements-treatment-interactions", name: "Dietary supplements during cancer treatment: interactions and harms", sections: [SEC, "supportive-care"], status: "established", wikipedia: W("Dietary_supplement"),
     tldr: "Most people on cancer treatment take supplements, often without telling their team. Antioxidants, St John's wort, high-dose vitamins and some herbs can blunt chemotherapy or radiotherapy or interact with targeted drugs.",

@@ -18,14 +18,14 @@ const MAX_PER_FEED = 40;
 
 type FeedDef = { id: string; name: string; homepage: string; url: string; kind: "journal" | "regulator" | "news"; sourceId?: string; onlyOncology?: boolean };
 
-/** `sourceId` links to the collection entity in src/data/sources.ts where one exists. */
+/** `sourceId` links to the OnCo record for the source where one exists: a collection in src/data/sources.ts or a journal record. */
 const FEEDS: FeedDef[] = [
   { id: "fda-oce", name: "FDA Oncology Center of Excellence", homepage: FDA_OCE_URL, url: FDA_OCE_URL, kind: "regulator", sourceId: "fda-approvals" },
-  { id: "nejm", name: "New England Journal of Medicine", homepage: "https://www.nejm.org/", url: "https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm", kind: "journal", sourceId: "src-nejm", onlyOncology: true },
-  { id: "lancet-oncology", name: "The Lancet Oncology", homepage: "https://www.thelancet.com/journals/lanonc/home", url: "https://www.thelancet.com/rssfeed/lanonc_current.xml", kind: "journal", sourceId: "src-lancet-oncology" },
-  { id: "jco", name: "Journal of Clinical Oncology", homepage: "https://ascopubs.org/journal/jco", url: "https://ascopubs.org/action/showFeed?type=etoc&feed=rss&jc=jco", kind: "journal", sourceId: "src-jco" },
-  { id: "nature-medicine", name: "Nature Medicine", homepage: "https://www.nature.com/nm/", url: "https://www.nature.com/nm.rss", kind: "journal", sourceId: "src-nature-medicine", onlyOncology: true },
-  { id: "endpoints", name: "Endpoints News", homepage: "https://endpts.com/", url: "https://endpts.com/feed/", kind: "news", sourceId: "src-endpoints", onlyOncology: true },
+  { id: "nejm", name: "New England Journal of Medicine", homepage: "https://www.nejm.org/", url: "https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm", kind: "journal", sourceId: "nejm", onlyOncology: true },
+  { id: "lancet-oncology", name: "The Lancet Oncology", homepage: "https://www.thelancet.com/journals/lanonc/home", url: "https://www.thelancet.com/rssfeed/lanonc_current.xml", kind: "journal", sourceId: "lancet-oncology" },
+  { id: "jco", name: "Journal of Clinical Oncology", homepage: "https://ascopubs.org/journal/jco", url: "https://ascopubs.org/action/showFeed?type=etoc&feed=rss&jc=jco", kind: "journal", sourceId: "jco" },
+  { id: "nature-medicine", name: "Nature Medicine", homepage: "https://www.nature.com/nm/", url: "https://www.nature.com/nm.rss", kind: "journal", sourceId: "nature-medicine", onlyOncology: true },
+  { id: "endpoints", name: "Endpoints News", homepage: "https://endpts.com/", url: "https://endpts.com/feed/", kind: "news", sourceId: "src-endpoints-news", onlyOncology: true },
   { id: "stat", name: "STAT", homepage: "https://www.statnews.com/", url: "https://www.statnews.com/feed/", kind: "news", sourceId: "src-stat-news", onlyOncology: true },
 ];
 

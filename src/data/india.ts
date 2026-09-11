@@ -63,7 +63,7 @@ const companies: CompanyInput[] = [
     companies: ["immunoact"], drugs: ["talicabtagene-autoleucel"], technologies: ["car-t", "cytotoxic-chemotherapy"], bottlenecks: ["b-global-access", "b-drug-pricing"] }),
 
   c({ id: "zydus", name: "Zydus Lifesciences", hq: "Ahmedabad", country: "IN", companyType: "pharma", website: "https://www.zyduslife.com", ticker: "ZYDUSLIFE.NS", founded: 1952, links: [site("https://www.zyduslife.com")], sections: ["hormonal", "chemotherapy"],
-    tldr: "A large Ahmedabad drug maker with oncology generics and biosimilars for India and US approvals for cancer generics such as enzalutamide.",
+    tldr: "Zydus Lifesciences, a large Ahmedabad drug maker founded in 1952, sells oncology generics and biosimilars in India and won US approval in October 2024 for generic enzalutamide, a hormone-blocking pill for prostate cancer. Its US generics pipeline is the route by which Indian manufacturing pressure reaches cancer drug prices.",
     summary: "Zydus Lifesciences (formerly Cadila Healthcare) was founded in 1952 by Ramanbhai Patel and Indravadan Modi and is listed on the NSE and BSE. Its oncology business combines Indian biosimilars and generics with a US generics pipeline; in October 2024 it received FDA approval for enzalutamide tablets for prostate cancer. Zydus also runs one of India's larger in-house research organisations and a hospital group, and its vaccine arm developed a DNA COVID-19 vaccine, an indicator of the platform capacity that Indian companies can turn toward cancer.",
     drugs: ["enzalutamide"], technologies: ["endocrine-therapy"], bottlenecks: ["b-drug-pricing"] }),
 

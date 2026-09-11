@@ -16,7 +16,7 @@ export const technologies: TechnologyInput[] = [
   },
   {
     id: "mri", kind: "technology", name: "MRI", sections: ["imaging"], status: "standard-of-care", asOf, since: 1977, wikipedia: W("Magnetic_resonance_imaging"),
-    tldr: "Uses magnets and radio waves, no radiation, to give very detailed pictures of soft tissue such as brain, breast, liver, and prostate.",
+    tldr: "MRI uses a strong magnet and radio waves, with no ionising radiation, to picture soft tissue in finer contrast than CT, so it is the standard scan for brain tumours, prostate, rectal cancer staging, liver lesions and breast screening in high-risk women. It is slow, expensive and blurred by movement.",
     summary: "Superior soft-tissue contrast makes MRI the standard for brain tumours, prostate (multiparametric MRI with PI-RADS), rectal cancer staging, liver lesions, breast screening in high-risk women, and bone marrow. Diffusion-weighted imaging adds cellularity information. Whole-body MRI is used in myeloma and for radiation-free surveillance.",
     principle: "Proton spin alignment in a strong magnetic field; radiofrequency excitation and relaxation times (T1, T2) encode tissue properties. Gadolinium contrast shows perfusion.",
     strengths: ["No ionising radiation", "Best soft-tissue and brain imaging", "Functional sequences (diffusion, perfusion)"],
@@ -266,7 +266,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "digital-pathology-ai", kind: "technology", name: "Digital pathology & AI", sections: ["diagnostics", "ai-computation"], status: "established", asOf, wikipedia: W("Digital_pathology"),
     tldr: "Scanning microscope slides and letting software measure things a pathologist cannot see, including predictions of who will benefit from a treatment.",
-    summary: "Whole-slide imaging is now routine in many centres. FDA-cleared tools: Paige Prostate (detection), ArteraAI Prostate (2025, first prognostic and predictive AI) and ArteraAI Breast (May 2026, risk stratification in early HR+/HER2- breast cancer). Foundation models (Virchow, UNI, CONCH, Prov-GigaPath) predict molecular status (MSI, HRD, HER2) from H&E alone.",
+    summary: "Whole-slide imaging, scanning glass slides into gigapixel digital images, is now routine in large pathology laboratories. FDA-cleared tools: Paige Prostate (detection), ArteraAI Prostate (2025, first prognostic and predictive AI) and ArteraAI Breast (May 2026, risk stratification in early HR+/HER2- breast cancer). Foundation models (Virchow, UNI, CONCH, Prov-GigaPath) predict molecular status (MSI, HRD, HER2) from H&E alone.",
     principle: "Gigapixel whole-slide images; tile-level self-supervised encoders aggregated to slide-level predictions.",
     strengths: ["Cheap biomarker from routine slides", "Consistent scoring (Ki-67, TILs, HER2)"],
     limitations: ["Scanner and stain domain shift", "Explainability", "Regulatory pathways for updates"],
@@ -406,15 +406,15 @@ export const technologies: TechnologyInput[] = [
   // ======================= RADIATION =======================
   {
     id: "imrt-igrt", kind: "technology", name: "IMRT / IGRT (modern external beam)", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Intensity-modulated_radiation_therapy"),
-    tldr: "Radiation shaped precisely to the tumour and checked with daily imaging, sparing surrounding organs.",
-    summary: "Intensity-modulated and volumetric arc therapy shape the radiation dose using multi-leaf collimators that modulate beam intensity from many angles, while image guidance with cone-beam CT verifies patient position before each fraction. Together they are the default for most curative radiotherapy, giving conformal dose to the tumour with fewer side effects. Hypofractionation, meaning fewer, larger doses, is now standard in breast and prostate cancer and saves patients many visits. The remaining drawbacks are the low-dose bath spread across normal tissue from many beam angles and the need for motion management in moving targets. Adaptive replanning and MR-guidance are the next step, adjusting the plan to daily anatomy. The simple version is radiation sculpted to the tumour and checked with imaging every day.",
+    tldr: "IMRT and IGRT shape the radiation beam to the tumour's outline from multiple angles and check the patient's position with a scan before every session, so surrounding organs receive less dose. Fewer, larger doses are now standard in breast and prostate cancer, but a low-dose bath still spreads across normal tissue.",
+    summary: "Intensity-modulated and volumetric arc therapy shape the radiation dose using multi-leaf collimators that vary beam intensity from multiple angles around the patient, while image guidance with cone-beam CT verifies patient position before each fraction. Together they are the default for most curative radiotherapy, giving conformal dose to the tumour with fewer side effects. Hypofractionation, meaning fewer, larger doses, is now standard in breast and prostate cancer and saves patients many visits. The remaining drawbacks are the low-dose bath spread across normal tissue from many beam angles and the need for motion management in moving targets. Adaptive replanning and MR-guidance are the next step, adjusting the plan to daily anatomy. The simple version is radiation sculpted to the tumour and checked with imaging every day.",
     principle: "Multi-leaf collimators modulate beam intensity from many angles; cone-beam CT verifies position before each fraction.",
     strengths: ["Conformal dose, fewer side effects", "Hypofractionation saves visits"],
     limitations: ["Low-dose bath to normal tissue", "Motion management"], links: [{ label: "Wikipedia", url: W("Intensity-modulated_radiation_therapy") }], journals: ["cancer-radiotherapie", "clinical-oncology-rcr", "practical-radiation-oncology", "radiation-oncology", "seminars-in-radiation-oncology", "strahlentherapie-und-onkologie"], companies: ["intraop-medical", "radformation"],
   },
   {
     id: "sbrt", kind: "technology", name: "SBRT / SABR (stereotactic radiotherapy)", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Stereotactic_radiosurgery"),
-    tldr: "Very high, very precise radiation doses in 1-5 sessions that can ablate a tumour like surgery.",
+    tldr: "Stereotactic body radiotherapy converges multiple beams with sub-millimetre accuracy to deliver tumour-destroying doses in one to five outpatient sessions, doing the job of surgery for inoperable early lung cancer and for metastases in liver, spine and brain. Tumour size and location limit its use, and late toxicity is a concern near the central airways.",
     summary: "Stereotactic body radiotherapy delivers ablative doses in 1-5 sessions by converging multiple non-coplanar beams with sub-millimetre accuracy, producing steep dose gradients that spare surrounding tissue. It is standard for inoperable early lung cancer, oligometastatic disease, liver, spine, and brain metastases (radiosurgery). SABR-COMET showed an overall survival benefit in oligometastatic disease, which underpins the idea of metastasis-directed therapy. Treatment is outpatient with minimal recovery, and SBRT pairs with immunotherapy in the hope of abscopal effects, though that benefit remains unproven in randomised trials. Limits are tumour size and location, with late toxicity a concern near central airways. The simple version is a few very high, very precise doses that can ablate a tumour much as surgery would.",
     principle: "Multiple non-coplanar beams converge with sub-millimetre accuracy; steep dose gradients.",
     strengths: ["Ablative doses with minimal recovery", "Outpatient"],
@@ -450,7 +450,7 @@ export const technologies: TechnologyInput[] = [
   },
   {
     id: "mr-linac", kind: "technology", name: "MR-guided adaptive radiotherapy", sections: ["radiation"], status: "established", asOf, wikipedia: W("MRI-linac"),
-    tldr: "The MR-linac is a radiation machine with an MRI inside it, so the plan is adjusted to where the tumour is that very day.",
+    tldr: "An MR-linac is a radiation machine with an MRI scanner built in, so images taken during setup let the plan be re-optimised in minutes to that day's anatomy. It allows tighter margins and higher doses in pancreatic and prostate cancer, but treatment is slow and costly, and whether daily adaptation improves cure rates rather than only toxicity is unproven.",
     summary: "An MR-linac integrates an MRI scanner into the treatment machine, acquiring images during setup and delivery so the plan can be re-optimised in minutes to the anatomy of that day. Elekta Unity and ViewRay MRIdian enable daily online adaptation and gating on soft-tissue targets such as pancreas, prostate, and liver, allowing tighter margins and dose escalation in pancreas. The MIRAGE trial showed reduced toxicity in prostate SBRT with MR guidance. Biology-guided radiotherapy (RefleXion, PET-guided) is a parallel approach that tracks the tumour's metabolic signal instead. Slow throughput and cost are the practical limits, and whether daily adaptation improves cure rates rather than only toxicity is still being tested. The simple version is a radiation machine with an MRI inside it.",
     principle: "Integrated MRI acquires images during setup and delivery; plan re-optimised in minutes.",
     strengths: ["Tighter margins, dose escalation in pancreas"],
@@ -516,7 +516,7 @@ export const technologies: TechnologyInput[] = [
   // ======================= CHEMOTHERAPY =======================
   {
     id: "cytotoxic-chemotherapy", kind: "technology", name: "Cytotoxic chemotherapy", sections: ["chemotherapy"], status: "standard-of-care", asOf, since: 1946, wikipedia: W("Chemotherapy"),
-    tldr: "Cytotoxic chemotherapy drugs kill rapidly dividing cells. They are still curative in testicular cancer, lymphoma, leukaemia, and many early-stage cancers, and they are the warhead inside ADCs.",
+    tldr: "Cytotoxic chemotherapy drugs (platinums, antimetabolites, microtubule agents and topoisomerase inhibitors) kill rapidly dividing cells by damaging DNA or the mitotic spindle. They still cure testicular cancer, lymphoma and leukaemia, and they are the warhead inside antibody-drug conjugates, but a narrow margin between effective and toxic doses is their limitation.",
     summary: "Classes: alkylators and platinums (cisplatin, carboplatin, cyclophosphamide), antimetabolites (5-FU, capecitabine, gemcitabine, methotrexate), microtubule agents (paclitaxel, docetaxel, eribulin, vinca alkaloids), topoisomerase inhibitors (irinotecan, doxorubicin, etoposide). Progress is in scheduling (dose-dense), biomarker-guided omission, and packaging as ADC payloads.",
     principle: "DNA damage, antimetabolite incorporation, or mitotic spindle disruption in dividing cells.",
     strengths: ["Curative in several cancers", "Cheap, generic"],
@@ -535,7 +535,7 @@ export const technologies: TechnologyInput[] = [
   },
   {
     id: "topoisomerase-inhibitors", kind: "technology", name: "Topoisomerase-I inhibitors (and ADC payloads)", sections: ["chemotherapy", "adcs"], status: "standard-of-care", asOf, wikipedia: W("Topoisomerase_inhibitor"),
-    tldr: "Topoisomerase-I inhibitors work by jamming the enzyme that untangles DNA during copying. They are weak as free drugs in many cancers, but devastating when delivered by an ADC.",
+    tldr: "Topoisomerase-I inhibitors jam the enzyme that untangles DNA during copying, causing double-strand breaks. As free drugs (irinotecan, topotecan) they are modest, but their analogues SN-38 and deruxtecan are the dominant antibody-drug conjugate payload class of the 2020s, active after taxane failure; cross-resistance between these ADCs is a growing problem.",
     summary: "Irinotecan and topotecan are modest as systemic agents. Their analogues SN-38 (sacituzumab govitecan), DXd/exatecan derivatives (T-DXd, Dato-DXd, HER3-DXd, I-DXd, R-DXd), and belotecan derivatives (sac-TMT) are the dominant ADC payload class of the 2020s: membrane-permeable for bystander killing, short half-life limiting systemic toxicity, and effective in taxane-resistant tumours. Cross-resistance between TOP1 ADCs is a growing clinical problem.",
     principle: "Stabilise the TOP1-DNA cleavage complex, causing replication-associated double-strand breaks.",
     strengths: ["Bystander effect", "Active after taxanes and anthracyclines"],
@@ -663,7 +663,7 @@ export const technologies: TechnologyInput[] = [
   // ======================= ADC =======================
   {
     id: "adc", kind: "technology", name: "Antibody-drug conjugate (ADC)", sections: ["adcs"], status: "approved", asOf, since: 2000, wikipedia: W("Antibody-drug_conjugate"),
-    tldr: "An antibody-drug conjugate is a guided missile: an antibody homes to the tumour cell, is swallowed, and releases a chemotherapy so potent it could never be given on its own.",
+    tldr: "An antibody-drug conjugate is an antibody that homes to a protein on the tumour cell, is swallowed, and releases a chemotherapy payload inside it. That widens chemotherapy's safe dose window about a hundredfold, which is why payloads too toxic to give alone can be used, though lung inflammation, neutropenia and eye toxicity from the payload still occur.",
     summary: "Fifteen-plus ADCs are approved. Components: antibody (target, internalisation), linker (cleavable or not, stability), payload (tubulin inhibitors MMAE/DM1; TOP1 inhibitors DXd/SN-38; PBD dimers; calicheamicin), and drug-to-antibody ratio (DAR). Third-generation ADCs (T-DXd, sacituzumab govitecan, Dato-DXd, enfortumab vedotin) with high DAR and bystander-capable TOP1 payloads changed breast, lung, and bladder cancer. Key issues: target heterogeneity, payload cross-resistance, ILD and ocular toxicities, and sequencing multiple ADCs.",
     principle: "Antigen binding → receptor-mediated endocytosis → lysosomal degradation or linker cleavage → payload release → tumour cell death and, with permeable payloads, killing of neighbouring antigen-negative cells.",
     strengths: ["Widens the therapeutic index of chemotherapy 100-fold", "Works in 'low' antigen expressers via bystander effect", "Active after chemotherapy resistance"],
@@ -720,7 +720,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "masked-adc", kind: "technology", name: "Masked / conditionally active ADC", sections: ["adcs"], status: "phase-2", asOf, generation: "4th (next-gen)",
     tldr: "An ADC wearing a mask that only comes off inside the tumour, so it ignores the same protein on healthy tissue.",
-    summary: "Probody platform (CytomX; praluzatamab ravtansine CD166, CX-2051 EpCAM with TOP1 payload showing responses in colorectal cancer in 2025) and protease-activated designs allow targeting of antigens with significant normal expression (EGFR, EpCAM, CD71). Also 'tumour microenvironment-activated' linkers cleaved by extracellular proteases.",
+    summary: "Probody platform (CytomX; praluzatamab ravtansine CD166, CX-2051 EpCAM with TOP1 payload showing responses in colorectal cancer in 2025) and protease-activated designs allow targeting of antigens that are also expressed at high levels on normal tissue (EGFR, EpCAM, CD71). Also 'tumour microenvironment-activated' linkers cleaved by extracellular proteases.",
     principle: "Peptide mask blocks antigen binding until cleaved by tumour-enriched proteases (MMPs, uPA, legumain).",
     strengths: ["Unlocks targets previously too toxic", "Wider therapeutic index"],
     limitations: ["Incomplete masking; protease heterogeneity"],
@@ -751,7 +751,7 @@ export const technologies: TechnologyInput[] = [
   // ======================= IMMUNOTHERAPY =======================
   {
     id: "checkpoint-inhibitor", kind: "technology", name: "Immune checkpoint inhibitors", sections: ["immunotherapy"], status: "standard-of-care", asOf, since: 2011, wikipedia: W("Checkpoint_inhibitor"),
-    tldr: "Antibodies that release the brakes on immune cells so they can attack the cancer. They cure a minority of patients across many cancers, something chemotherapy rarely does.",
+    tldr: "Immune checkpoint inhibitors are antibodies against CTLA-4, PD-1 or PD-L1 that release the brakes on T cells so they attack the cancer. They are approved in more than 20 tumour types and produce lasting, sometimes curative responses that chemotherapy rarely does, but most patients do not respond and autoimmune side effects are the cost.",
     summary: "Anti-CTLA-4 (ipilimumab), anti-PD-1 (pembrolizumab, nivolumab, cemiplimab, dostarlimab, toripalimab, tislelizumab), anti-PD-L1 (atezolizumab, durvalumab, avelumab), anti-LAG-3 (relatlimab). Approved across >20 tumour types and tumour-agnostically for MSI-H/dMMR and TMB-high. Moving earlier: neoadjuvant/perioperative in melanoma, NSCLC, TNBC (KEYNOTE-522), bladder, and MSI-H colorectal (where dostarlimab produced 100% complete responses in rectal cancer without surgery). Immune-related adverse events are the cost.",
     principle: "Blocking inhibitory receptor-ligand interactions restores T-cell priming (CTLA-4) and effector function (PD-1).",
     strengths: ["Durable, sometimes curative responses", "Broad applicability"],
@@ -787,7 +787,7 @@ export const technologies: TechnologyInput[] = [
   },
   {
     id: "shared-antigen-vaccine", kind: "technology", name: "Off-the-shelf cancer vaccines", sections: ["immunotherapy"], status: "phase-3", asOf,
-    tldr: "Vaccines against mutations or proteins shared by many patients, so they can be made in advance.",
+    tldr: "Off-the-shelf cancer vaccines target antigens shared across patients, such as mutant KRAS or HER2 peptides, so they are made in advance rather than per person. Sipuleucel-T is still the only approved therapeutic cancer vaccine in the US; tolerance to self-antigens and weak past results hold them back.",
     summary: "KRAS-directed vaccines (ELI-002 7P, Elicio; mRNA-5671), shared neoantigen vaccines (Gritstone SLATE, discontinued), HER2 peptide vaccines, and tumour-lysate approaches. Sipuleucel-T (2010) remains the only approved therapeutic cancer vaccine in the US; BCG for bladder cancer is the oldest immunotherapy.",
     principle: "A pre-manufactured antigen (peptide, mRNA, viral vector, dendritic cell) is given with an adjuvant.",
     strengths: ["Scalable, immediate"],
@@ -952,7 +952,7 @@ export const technologies: TechnologyInput[] = [
   },
   {
     id: "cardio-oncology", kind: "technology", name: "Cardio-oncology", sections: ["supportive-care"], status: "established", asOf, wikipedia: W("Cardio-oncology"),
-    tldr: "Protecting the heart from cancer treatments, which is increasingly important as patients live longer.",
+    tldr: "Cardio-oncology builds heart risk assessment, monitoring and prevention into cancer care so patients can finish curative treatment without trading cancer for heart failure. It targets anthracycline and trastuzumab damage, checkpoint-inhibitor myocarditis and radiation heart disease using echocardiography, troponin tests and protective drugs; specialist clinics are concentrated in large centres.",
     summary: "Cardio-oncology integrates risk stratification, surveillance, and prevention of heart damage into cancer care, so that patients can complete curative therapy without trading cancer for heart failure. The problems it addresses include anthracycline and trastuzumab cardiotoxicity, checkpoint-inhibitor myocarditis, TKI hypertension and QT prolongation, and radiation heart disease. Tools are baseline and serial echocardiography with strain imaging, troponin and BNP monitoring, and cardioprotective drugs such as dexrazoxane, ACE inhibitors, and statins. As survivors live longer, cardiovascular disease becomes a leading competing cause of death, which is why the field has grown. Workforce and access are the limitations, since specialist clinics are concentrated in large centres. The simple version is protecting the heart while the cancer is being treated.",
     principle: "Risk stratification, surveillance, and prevention integrated into oncology care.",
     strengths: ["Enables completion of curative therapy"],
@@ -979,7 +979,7 @@ export const technologies: TechnologyInput[] = [
   // ======================= AI & COMPUTATION =======================
   {
     id: "pathology-foundation-model", kind: "technology", name: "Pathology & radiology foundation models", sections: ["ai-computation"], status: "emerging", asOf,
-    tldr: "Very large AI models trained on millions of slides or scans that can be adapted to almost any diagnostic question.",
+    tldr: "Pathology and radiology foundation models are AI networks pretrained without labels on over a million slides or scans (Virchow used 1.5 million), then adapted with small task heads to predict mutations, prognosis or treatment response from routine images. They power the FDA-cleared ArteraAI tools, but validation across hospitals and how regulators treat general-purpose models remain unsettled.",
     summary: "Virchow (Paige/MSK, 1.5M slides), UNI and CONCH (Harvard), Prov-GigaPath (Microsoft/Providence), PLUTO, and radiology models (Merlin, RadFM). They predict molecular alterations, prognosis, and treatment response from routine H&E and CT, and power the FDA-cleared ArteraAI tools. Multimodal patient-level models integrating genomics, imaging, and notes are in development (e.g., CanSim-style efforts, Tempus, Owkin).",
     principle: "Self-supervised pretraining (DINOv2, contrastive) on unlabelled images; frozen encoder plus small task heads.",
     strengths: ["Data-efficient adaptation", "Discover morphology-genotype links"],

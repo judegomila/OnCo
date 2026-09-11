@@ -7,7 +7,7 @@ export const targets: TargetInput[] = [
   // ---- Surface antigens (ADC / bispecific / CAR / tracer targets) ----
   {
     id: "trop2", kind: "target", name: "TROP2", symbol: "TACSTD2", targetClass: "surface-antigen", asOf, wikipedia: W("TROP2"),
-    tldr: "A protein that sits on the outside of many cancer cells far more than on normal cells, making it a good address for delivering drugs.",
+    tldr: "TROP2 is a surface glycoprotein present at high levels on most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) and at low levels on normal tissue. It does not drive the cancer; it is a delivery address, used by the approved ADCs sacituzumab govitecan and datopotamab deruxtecan and by sacituzumab tirumotecan, with a TROP2 PET tracer in development to pick patients.",
     summary: "Trophoblast cell-surface antigen 2 is a transmembrane glycoprotein overexpressed in most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) with low normal-tissue expression. It is not an oncogenic driver; it is a delivery address. Three TROP2 ADCs are approved or in registration (sacituzumab govitecan, datopotamab deruxtecan, sacituzumab tirumotecan) and a TROP2 PET tracer is in development to select patients.",
     biology: "Regulates calcium signalling and cell adhesion; overexpression correlates with poor prognosis. Expression is heterogeneous within tumours, which limits the value of IHC selection. Internalises on antibody binding and traffics to lysosomes, which is what makes it a good ADC target.",
     whereFound: ["Triple-negative breast cancer (~80-90% express)", "HR+ breast cancer", "NSCLC", "Urothelial carcinoma", "Gastric, pancreatic, endometrial cancers"],
@@ -43,7 +43,7 @@ export const targets: TargetInput[] = [
   {
     id: "her3", kind: "target", name: "HER3", symbol: "ERBB3", targetClass: "surface-antigen", asOf, wikipedia: W("ERBB3"),
     tldr: "HER3 is a cousin of HER2 that cancers use as an escape route when HER2 or EGFR are blocked.",
-    summary: "HER3 (ERBB3) has weak kinase activity but is the preferred dimerisation partner of HER2 and a major driver of resistance to EGFR and HER2 inhibitors, which is why it matters more as an escape route than as a driver in its own right. Its ligand is neuregulin (NRG1), and rare NRG1 fusions are drivers targeted by zenocutuzumab. HER3 is broadly expressed across breast, lung, and colorectal cancers, including 80-90% of EGFR-mutant NSCLC and 50-70% of breast cancers by IHC. Patritumab deruxtecan (HER3-DXd) and the EGFR×HER3 bispecific ADC izalontamab brengitecan make it a delivery target rather than a signalling target, with HERTHENA-Lung01 testing HER3-DXd in EGFR-mutant NSCLC. The open question is whether expression level predicts benefit. The simple version is a HER2 cousin that cancers switch to when HER2 or EGFR is blocked.",
+    summary: "HER3 (ERBB3) has weak kinase activity but is the preferred dimerisation partner of HER2 and a frequent driver of resistance to EGFR and HER2 inhibitors, which is why it matters more as an escape route than as a driver in its own right. Its ligand is neuregulin (NRG1), and rare NRG1 fusions are drivers targeted by zenocutuzumab. HER3 is broadly expressed across breast, lung, and colorectal cancers, including 80-90% of EGFR-mutant NSCLC and 50-70% of breast cancers by IHC. Patritumab deruxtecan (HER3-DXd) and the EGFR×HER3 bispecific ADC izalontamab brengitecan make it a delivery target rather than a signalling target, with HERTHENA-Lung01 testing HER3-DXd in EGFR-mutant NSCLC. The open question is whether expression level predicts benefit. The simple version is a HER2 cousin that cancers switch to when HER2 or EGFR is blocked.",
     biology: "Neuregulin (NRG1) ligand; NRG1 fusions are rare drivers targeted by zenocutuzumab. Broadly expressed across breast, lung, and colorectal cancers.",
     whereFound: ["Breast cancer (all subtypes)", "EGFR-mutant NSCLC", "Colorectal", "NRG1-fusion tumours"],
     cancers: ["tnbc", "nsclc", "breast-hr-positive"],
@@ -73,7 +73,7 @@ export const targets: TargetInput[] = [
   {
     id: "nectin4", kind: "target", name: "Nectin-4", symbol: "NECTIN4", targetClass: "surface-antigen", asOf, wikipedia: W("Nectin-4"),
     tldr: "Nectin-4 is an adhesion protein plentiful on bladder cancer cells, used as the docking site for the ADC enfortumab vedotin.",
-    summary: "Nectin-4 is highly expressed in urothelial carcinoma and also in breast, lung, and pancreatic cancers. Enfortumab vedotin plus pembrolizumab is first-line standard in advanced urothelial cancer (EV-302). Next-generation Nectin-4 ADCs with topoisomerase-I payloads (MK-3120) and Nectin-4×TROP2 bispecific ADCs (AK146D1, AVZO-103) are in development.",
+    summary: "Nectin-4 is expressed at high levels in urothelial carcinoma and also in breast, lung, and pancreatic cancers. Enfortumab vedotin plus pembrolizumab is first-line standard in advanced urothelial cancer (EV-302). Next-generation Nectin-4 ADCs with topoisomerase-I payloads (MK-3120) and Nectin-4×TROP2 bispecific ADCs (AK146D1, AVZO-103) are in development.",
     biology: "Nectin-4 is a cell adhesion molecule and also a receptor for measles virus. Skin expression explains the rash seen with enfortumab.",
     whereFound: ["Urothelial carcinoma (>80%)", "TNBC", "NSCLC", "Pancreatic"],
     cancers: ["urothelial", "tnbc"],
@@ -85,7 +85,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "b7h3", kind: "target", name: "B7-H3", symbol: "CD276", targetClass: "surface-antigen", asOf, wikipedia: W("CD276"),
-    tldr: "B7-H3 is an immune-dampening protein on many solid tumours, now used as an ADC address, especially in small-cell lung and prostate cancer.",
+    tldr: "B7-H3 is an immune checkpoint-like surface protein found on 60 to 70% of small-cell lung cancers and 80 to 90% of castration-resistant prostate cancers, with little on normal tissue. It is used as an ADC address, chiefly by ifinatamab deruxtecan, now in phase 3 in small-cell lung cancer; whether blocking its immune-dampening role adds anything beyond payload delivery is unresolved.",
     summary: "B7-H3 (CD276) is an immune checkpoint-like molecule broadly overexpressed in solid tumours with limited normal expression; its function is debated, inhibiting T-cell activation and promoting tumour cell migration. Expression is more homogeneous than many ADC targets, found in 60-70% of small-cell lung cancer and 80-90% of castration-resistant prostate cancer by IHC, as well as head and neck and paediatric solid tumours. Ifinatamab deruxtecan (I-DXd) has shown high response rates in small-cell lung cancer and is in phase 3. B7-H3 is also pursued with radioligands and CAR-T. Whether its immune-dampening role means antibodies against it add an immunological benefit beyond payload delivery is unresolved. The simple version is a widely present tumour surface protein now used mainly as an address for ADCs.",
     biology: "Function debated: inhibits T-cell activation, promotes tumour cell migration. Expression is more homogeneous than many ADC targets.",
     whereFound: ["Small-cell lung cancer", "Prostate", "Head and neck", "Paediatric solid tumours"],
@@ -124,7 +124,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "fap", kind: "target", name: "FAP", symbol: "FAP", targetClass: "stroma", asOf, wikipedia: W("Fibroblast_activation_protein,_alpha"),
-    tldr: "FAP is a protein on the scaffolding cells that surround many tumours, so it lights up almost any solid cancer on a PET scan.",
+    tldr: "FAP (fibroblast activation protein) sits on the cancer-associated fibroblasts that scaffold more than 90% of epithelial cancers and is almost absent from normal adult tissue. FAPI PET tracers therefore light up tumours with high contrast, including pancreatic, gastric and low-grade cancers where FDG PET is weak, and FAP-targeted radioligands are in development.",
     summary: "Fibroblast activation protein is expressed on cancer-associated fibroblasts in >90% of epithelial cancers, with minimal expression in normal adult tissue. FAPI PET tracers (68Ga-FAPI-46, 18F-FAPI-74) offer high tumour-to-background contrast, including in cancers where FDG is weak (pancreatic, gastric, low-grade). FAP-targeted radioligands (177Lu/225Ac-FAP-2286) are in development.",
     biology: "Serine protease on activated fibroblasts; a stromal target rather than a tumour-cell target, so it is pan-cancer but does not report on the malignant cell itself.",
     whereFound: ["Pancreatic", "Gastric", "Breast", "Sarcoma", "Almost all desmoplastic tumours"],
@@ -258,7 +258,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "ror1", kind: "target", name: "ROR1", symbol: "ROR1", targetClass: "surface-antigen", asOf, wikipedia: W("ROR1"),
-    tldr: "ROR1 is an embryonic receptor re-expressed by many cancers, used as an ADC address in lymphoma and breast cancer.",
+    tldr: "ROR1 is a fetal pseudo-kinase receptor re-expressed on over 90% of chronic lymphocytic leukaemias, 30 to 50% of diffuse large B-cell lymphomas and 40 to 60% of triple-negative breast cancers, and largely absent from healthy adult tissue. Zilovertamab vedotin uses it as an ADC address, in phase 3 in large B-cell lymphoma; whether expression level predicts benefit is unproven.",
     summary: "ROR1 is an oncofetal receptor tyrosine kinase-like protein, a Wnt5a pseudo-kinase receptor that drives survival signalling in CLL and mantle cell lymphoma and is largely absent from normal adult tissue. Surface expression is seen in over 90% of CLL, 30-50% of DLBCL, and 40-60% of TNBC by IHC, with NSCLC expression also reported. Zilovertamab vedotin (MK-2140), an ADC, is in phase 3 in DLBCL, and the TNBC and NSCLC expression supports solid-tumour programmes. Because the receptor is a pseudo-kinase, it is used as a delivery address rather than a signalling target, and whether expression level predicts ADC benefit remains to be shown. The simple version is an embryonic receptor that many cancers re-express, giving ADCs a target largely missing from healthy cells.",
     biology: "Wnt5a pseudo-kinase receptor; drives survival signalling in CLL and MCL.",
     whereFound: ["CLL", "Mantle cell lymphoma", "DLBCL", "TNBC", "NSCLC"],
@@ -345,7 +345,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "cd33", kind: "target", name: "CD33", symbol: "CD33", targetClass: "surface-antigen", asOf, wikipedia: W("CD33"),
-    tldr: "CD33 is a myeloid marker and the target of the very first ADC ever approved, in 2000.",
+    tldr: "CD33 is a myeloid surface marker on the blasts of 85 to 90% of acute myeloid leukaemias and on normal myeloid cells, so drugs against it also hit healthy marrow. It is the target of gemtuzumab ozogamicin, the first ADC ever approved (2000), withdrawn in 2010 and re-approved in 2017 at a lower fractionated dose.",
     summary: "CD33 (Siglec-3) is a myeloid lineage marker expressed on the blasts of roughly 85 to 90 percent of acute myeloid leukaemias and on normal myeloid cells, so drugs against it hit healthy marrow as well as leukaemia. It is the antigen behind gemtuzumab ozogamicin, the first antibody-drug conjugate ever approved: approved in 2000, withdrawn in 2010 after toxicity and lack of confirmed benefit, and re-approved in 2017 at a lower fractionated dose. That history is an object lesson in ADC development, showing that dose schedule and linker stability can decide whether a valid target succeeds. Newer CD33 approaches, including bispecifics and CAR-T, still have to solve the same on-target myelosuppression. For a newcomer, CD33 is the AML surface marker on which the ADC field first learnt its lessons.",
     biology: "Siglec-3; expressed on AML blasts and normal myeloid cells.",
     whereFound: ["Acute myeloid leukaemia"],
@@ -357,7 +357,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "cd123", kind: "target", name: "CD123", symbol: "IL3RA", targetClass: "surface-antigen", asOf, wikipedia: W("Interleukin-3_receptor"),
-    tldr: "An interleukin receptor over-abundant on a rare aggressive blood cancer and on leukaemia stem cells.",
+    tldr: "CD123 is the interleukin-3 receptor alpha chain, present on every blastic plasmacytoid dendritic cell neoplasm and on the blasts and leukaemia stem cells of 70 to 80% of acute myeloid leukaemias. Tagraxofusp and pivekimab sunirine target it in that rare neoplasm, and CAR-T cells against it in AML must spare the normal blood-forming progenitors that also carry it.",
     summary: "CD123 is the interleukin-3 receptor alpha chain (IL3RA), expressed on leukaemic stem cells and plasmacytoid dendritic cells. It is universally present in blastic plasmacytoid dendritic cell neoplasm (BPDCN) and found on blasts and leukaemic stem cells in roughly 70 to 80 percent of AML. Tagraxofusp, a CD123-directed cytotoxin, was the first approved therapy for BPDCN, and pivekimab sunirine (Decnupaz) followed with approval in 2026 for the same disease. CD123 is also a CAR-T target in AML, where the challenge is sparing normal haematopoietic progenitors that carry the antigen. Capillary leak syndrome with the fusion-toxin approach and durability of CAR-T responses remain open questions. The plain version: CD123 is an interleukin receptor over-abundant on a rare aggressive blood cancer and on leukaemia stem cells.",
     biology: "Expressed on leukaemic stem cells, plasmacytoid dendritic cells.",
     whereFound: ["BPDCN", "AML"],
@@ -453,7 +453,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "tigit", kind: "target", name: "TIGIT", symbol: "TIGIT", targetClass: "checkpoint", asOf, wikipedia: W("TIGIT"),
-    tldr: "TIGIT is an immune brake that looked promising, then failed in several big lung cancer trials. It is a cautionary tale.",
+    tldr: "TIGIT is an inhibitory receptor on T and natural killer cells that binds PVR (CD155) on tumour cells, so blocking it was expected to amplify PD-1 and PD-L1 inhibitors. Tiragolumab, domvanalimab and others then failed to add benefit in phase 3 lung cancer trials despite encouraging phase 2 signals, and the lack of a TIGIT-specific biomarker remains a weakness.",
     summary: "TIGIT is an inhibitory receptor on T and NK cells that binds PVR (CD155) on tumour cells and competes with the activating receptor CD226, so blocking it was expected to amplify PD-1 and PD-L1 inhibitors. That expectation largely failed in phase 3: tiragolumab (SKYSCRAPER-01), domvanalimab and others did not add meaningful benefit to PD-1/PD-L1 blockade in NSCLC or SCLC, despite encouraging phase 2 signals. Because TIGIT sits on immune cells, patient selection relied on PD-L1 rather than a TIGIT-specific biomarker, and this remains a weakness. Fc-enabled versus Fc-silent antibody design, which changes whether regulatory T cells are depleted, is still debated, and some programmes continue. The newcomer's lesson: TIGIT is a cautionary tale about promising early data that did not survive large randomised trials.",
     biology: "Binds PVR (CD155) on tumour cells; competes with the activating receptor CD226.",
     whereFound: ["T and NK cells"],
@@ -501,7 +501,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "alk", drugs: ["ceritinib", "brigatinib", "ensartinib", "guardant360-cdx"], kind: "target", name: "ALK", symbol: "ALK", targetClass: "kinase", asOf, wikipedia: W("Anaplastic_lymphoma_kinase"),
-    tldr: "A gene fusion found in about 5% of lung cancers that responds spectacularly to pills, now for many years.",
+    tldr: "ALK is a gene fusion driver in about 4 to 5% of non-small-cell lung cancers that responds to a succession of ALK inhibitor pills. Lorlatinib kept about 60% of patients progression-free at five years, alectinib is approved after surgery, and neladalkib targets compound resistance mutations.",
     summary: "ALK rearrangements occur in ~4-5% of NSCLC, typically in younger never-smokers. Lorlatinib achieved 5-year PFS of ~60% in CROWN, the longest of any targeted therapy in metastatic NSCLC. Alectinib is approved in the adjuvant setting (ALINA). Fourth-generation inhibitors (neladalkib) address compound resistance mutations.",
     biology: "ALK is a receptor tyrosine kinase; the EML4-ALK fusion is most common. It is also altered in anaplastic large-cell lymphoma and neuroblastoma.",
     whereFound: ["NSCLC (~5%)", "Anaplastic large-cell lymphoma", "Neuroblastoma"],
@@ -835,7 +835,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "cd47", kind: "target", name: "CD47", symbol: "CD47", targetClass: "checkpoint", asOf, wikipedia: W("CD47"),
-    tldr: "The 'don't eat me' signal cancer cells show to macrophages. Blocking it looked promising but the lead drug failed.",
+    tldr: "CD47 is the 'don't eat me' signal: it binds SIRP-alpha on macrophages to stop them engulfing the cell, and over 90% of AML blasts and large B-cell lymphoma cells display it. Blocking it should let macrophages eat tumour cells, but red cells carry CD47 too, so anaemia is built in, and the lead antibody magrolimab was dropped after failed trials.",
     summary: "CD47 is the 'don't eat me' signal: it binds SIRPα on macrophages to inhibit phagocytosis, and tumour cells display it broadly, with more than 90 percent of AML blasts and DLBCL cells carrying it. Blocking CD47 should let macrophages engulf tumour cells, particularly when combined with an opsonising antibody such as rituximab or with azacitidine. Because CD47 is also ubiquitous on red cells, anaemia is the built-in on-target toxicity. Magrolimab, the lead antibody, was discontinued after failed trials in MDS and AML (ENHANCE), with excess deaths. The macrophage checkpoint concept persists through SIRPα-targeted agents and bispecifics designed to spare red cells and lower haematological toxicity. For a newcomer: it looked like a promising immune brake on macrophages, but the first drug against it failed.",
     biology: "Binds SIRPα on macrophages to inhibit phagocytosis; ubiquitous on red cells, causing anaemia.",
     whereFound: ["Broadly on tumour cells"],

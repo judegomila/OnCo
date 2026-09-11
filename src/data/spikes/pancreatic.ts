@@ -93,7 +93,7 @@ const entities: EntityInput[] = [
     id: "preopanc", kind: "trial", name: "PREOPANC-1 / PREOPANC-2", nct: "NCT02172976", phase: "3", status: "mixed", yearReported: 2022, sponsor: "Dutch Pancreatic Cancer Group", asOf,
     setting: "Resectable and borderline-resectable PDAC: neoadjuvant chemoradiation (PREOPANC-1) or neoadjuvant FOLFIRINOX (PREOPANC-2) vs upfront surgery",
     tldr: "Dutch trials testing whether treating before surgery beats operating first. Chemoradiation first helped in the long run; FOLFIRINOX first did not clearly beat surgery-first with adjuvant chemotherapy.",
-    summary: "PREOPANC-1: gemcitabine-based chemoradiation before surgery improved 5-year OS (20.5% vs 6.5%) despite a non-significant primary analysis. PREOPANC-2 (2023): neoadjuvant FOLFIRINOX did not improve OS versus neoadjuvant gemcitabine-chemoradiation. Together with ALLIANCE A021806 and NORPACT-1, they leave the neoadjuvant question open for resectable disease while borderline-resectable disease is generally treated neoadjuvantly.",
+    summary: "PREOPANC-1: gemcitabine-based chemoradiation before surgery improved 5-year OS (20.5% vs 6.5%) in long-term follow-up, although the primary analysis had fallen short of statistical significance. PREOPANC-2 (2023): neoadjuvant FOLFIRINOX did not improve OS versus neoadjuvant gemcitabine-chemoradiation. Together with ALLIANCE A021806 and NORPACT-1, they leave the neoadjuvant question open for resectable disease while borderline-resectable disease is generally treated neoadjuvantly.",
     result: "PREOPANC-1 5-year OS 20.5% vs 6.5%; PREOPANC-2 no OS benefit.",
     drugs: ["folfirinox"], cancers: ["pancreatic"], technologies: ["imrt-igrt"], links: [ct("NCT02172976")], people: ["marc-besselink"],
   },

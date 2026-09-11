@@ -205,7 +205,7 @@ const trials: TrialInput[] = [
     drugs: ["mosunetuzumab", "polatuzumab-vedotin"], cancers: ["dlbcl"], links: [ct("NCT05171647")] }),
   t({ id: "golseek-1", name: "GOLSEEK-1", nct: "NCT06356129", phase: "3", status: "recruiting", sponsor: "BMS",
     setting: "Untreated high-risk LBCL (IPI 3-5): golcadomide + R-CHOP vs placebo + R-CHOP",
-    tldr: "Tests whether a potent oral degrader added to R-CHOP raises cure rates in high-risk disease.",
+    tldr: "GOLSEEK-1 is a recruiting phase 3 that tests whether adding golcadomide, an oral cereblon-modulating degrader, to R-CHOP raises cure rates in untreated high-risk large B-cell lymphoma. It builds on high complete response rates in phase 1b, and readout is expected in 2027 to 2028.",
     summary: "GOLSEEK-1, trial NCT06356129 sponsored by Bristol Myers Squibb, tests whether adding golcadomide, a potent oral cereblon-modulating degrader, to R-CHOP raises cure rates in untreated high-risk large B-cell lymphoma with IPI 3 to 5. It builds on phase 1b data with high complete response rates, and readout is expected in 2027 to 2028. OnCo links it to lymphoma and golcadomide. It is recruiting with no results, and whether an oral degrader can do in the frontline what lenalidomide failed to do in earlier trials is the question it will answer.",
     drugs: ["golcadomide"], cancers: ["dlbcl"], links: [ct("NCT06356129")] }),
   t({ id: "belinda", name: "BELINDA", nct: "NCT03570892", phase: "3", status: "negative", yearReported: 2021, sponsor: "Novartis", enrolled: 322,

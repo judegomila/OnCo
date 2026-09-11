@@ -60,7 +60,7 @@ const entities: EntityInput[] = [
   },
   {
     id: "rindopepimut", kind: "drug", name: "Rindopepimut", code: "CDX-110", modality: "Peptide vaccine (EGFRvIII)", asOf, status: "negative",
-    tldr: "A vaccine against a glioblastoma-specific mutant protein that looked promising for years and then failed its phase 3 trial in 2016. It is a landmark failure.",
+    tldr: "Rindopepimut is a peptide vaccine against EGFRvIII, a mutant protein found only on some glioblastomas. After a phase 2 that beat historical controls, the 745-patient double-blind phase 3 ACT IV found no benefit in 2016, and tumours in both arms had lost EGFRvIII at recurrence, a lesson in antigen escape.",
     summary: "EGFRvIII peptide conjugated to KLH with GM-CSF. Phase 2 (ACT III) suggested prolonged survival versus historical controls; the double-blind phase 3 ACT IV (n=745, EGFRvIII-positive newly diagnosed glioblastoma with minimal residual disease) showed no OS benefit (20.1 vs 20.0 months). Loss of EGFRvIII expression at recurrence in both arms illustrated antigen escape. Celldex discontinued the programme.",
     mechanism: "Induces humoral and cellular immunity against the EGFRvIII neoepitope.",
     targets: ["egfr"], technologies: ["shared-antigen-vaccine"], cancers: ["glioblastoma"], trials: ["act-iv"], terms: ["egfrviii"],
@@ -102,7 +102,7 @@ const entities: EntityInput[] = [
   {
     id: "act-iv", kind: "trial", name: "ACT IV", nct: "NCT01480479", phase: "3", status: "negative", yearReported: 2016, sponsor: "Celldex Therapeutics", asOf,
     setting: "Newly diagnosed EGFRvIII+ glioblastoma with minimal residual disease: rindopepimut + temozolomide vs control (KLH) + temozolomide",
-    tldr: "A double-blind test of a promising glioblastoma vaccine that showed no benefit, and taught the field how misleading historical-control comparisons can be.",
+    tldr: "ACT IV was a double-blind phase 3 test of rindopepimut, a vaccine against the EGFRvIII mutant protein, in 745 patients with newly diagnosed glioblastoma. It showed no benefit over a control vaccine, and because both arms beat historical expectations it taught the field how misleading historical-control comparisons can be.",
     summary: "ACT IV, trial NCT01480479 sponsored by Celldex Therapeutics and reported in 2016, was a double-blind test of the EGFRvIII vaccine rindopepimut in newly diagnosed glioblastoma with minimal residual disease that showed no benefit, and it taught the field how misleading historical-control comparisons can be. It randomised 745 patients to rindopepimut or a control vaccine with temozolomide and found no difference in overall survival, while both arms outperformed historical expectations and EGFRvIII was lost at recurrence in most patients whichever arm they were in. OnCo links it to EGFR as a target, the EGFRvIII term, rindopepimut and the brain as a bottleneck, and the trial failed to replicate the phase 2 ACT III signal. Whether a single-antigen vaccine can ever work against a target the tumour so readily discards is the question its failure answered in the negative.",
     result: "OS 20.1 vs 20.0 months; no benefit.",
     drugs: ["rindopepimut"], cancers: ["glioblastoma"], targets: ["egfr"], terms: ["egfrviii"], links: [ct("NCT01480479")],
@@ -159,7 +159,7 @@ const entities: EntityInput[] = [
   {
     id: "blood-brain-barrier", kind: "term", name: "Blood-brain barrier (BBB)", category: "Biology", asOf, wikipedia: W("Blood–brain_barrier"),
     tldr: "The tight seal around brain blood vessels that keeps most drugs out, one of the two main reasons brain cancer is so hard to treat.",
-    summary: "Endothelial tight junctions, efflux transporters (P-gp, BCRP), and pericytes exclude most antibodies and many small molecules. Glioblastoma disrupts the barrier heterogeneously (contrast enhancement) but infiltrating cells sit behind intact barrier. Strategies: lipophilic/small brain-penetrant drugs (temozolomide, lomustine, dordaviprone, vorasidenib), locoregional delivery (CAR-T, convection-enhanced), focused-ultrasound opening, LITT, and intra-arterial delivery.",
+    summary: "Endothelial tight junctions, efflux transporters (P-gp, BCRP), and pericytes exclude most antibodies and all but small, lipophilic small molecules. Glioblastoma disrupts the barrier heterogeneously (contrast enhancement) but infiltrating cells sit behind intact barrier. Strategies: lipophilic/small brain-penetrant drugs (temozolomide, lomustine, dordaviprone, vorasidenib), locoregional delivery (CAR-T, convection-enhanced), focused-ultrasound opening, LITT, and intra-arterial delivery.",
     cancers: ["glioblastoma"], technologies: ["bbb-focused-ultrasound", "litt", "glioma-car-t"], terms: ["efflux-pump"], links: [{ label: "Wikipedia", url: W("Blood–brain_barrier") }],
   },
 

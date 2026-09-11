@@ -20,7 +20,7 @@ export const ideasTrials2: IdeaInput[] = [
   i({ id: "idea-tr2-perpetual-platforms", name: "A perpetual platform trial in every major cancer, funded as infrastructure", maturity: "being-tested-at-scale", actor: "philanthropy", cost: "large", horizonYears: 5,
     bottlenecks: ["b-combination-space", "b-trial-design"],
     tldr: "Instead of starting a new trial for every drug pair, keep one always-open trial per cancer that new arms can join and leave, sharing the same control group.",
-    summary: "STAMPEDE (prostate) and I-SPY 2 (breast) showed that a standing master protocol with a shared control arm can test many treatments for a fraction of the cost and time of separate trials. Yet most common cancers still have no perpetual platform. The proposal is a ten-year, ring-fenced infrastructure grant per tumour type (lung, colorectal, pancreas, ovary, bladder, glioma, myeloma and others) so that the platform outlives any single sponsor or investigator.",
+    summary: "STAMPEDE (prostate) and I-SPY 2 (breast) showed that a standing master protocol with a shared control arm can test a succession of treatments for a fraction of the cost and time of separate trials. Yet most common cancers still have no perpetual platform. The proposal is a ten-year, ring-fenced infrastructure grant per tumour type (lung, colorectal, pancreas, ovary, bladder, glioma, myeloma and others) so that the platform outlives any single sponsor or investigator.",
     hypothesis: "Cancers with a funded perpetual platform will evaluate at least three times as many combination arms per year, at less than half the per-arm cost, compared with matched cancers relying on stand-alone trials, within five years of funding.",
     rationale: "STAMPEDE randomised over 10,000 men across ten arms with a single control population and changed standard of care three times. Shared controls, standing ethics approval and pre-built data pipelines remove the fixed costs that make combination trials slow.",
     test: "Fund platforms in two cancers without one (for example pancreas and glioma) and compare arms opened, accrual rate and cost per randomised patient against the two prior years of conventional trials in the same disease.",
@@ -107,7 +107,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-neoadjuvant-combo-platform", name: "Pre-surgery platform trials that test combinations on pathological response in months", maturity: "being-tested-at-scale", actor: "research", cost: "large", horizonYears: 3,
     bottlenecks: ["b-combination-space", "b-trial-design"],
-    tldr: "Give combinations before surgery and look at how much tumour is left when it is removed. That answer comes in months, so many pairs can be tested quickly.",
+    tldr: "Give drug combinations before surgery and measure how much tumour remains at resection; that answer arrives in months. A standing neoadjuvant platform with a shared control arm, as I-SPY 2 runs in breast cancer, would test combinations quickly in lung, bladder, melanoma, head and neck and oesophago-gastric cancer.",
     summary: "I-SPY 2 established graduation of arms by pathological complete response in breast cancer. The same model applies to lung, bladder, melanoma, head and neck and oesophago-gastric cancer where neoadjuvant therapy is now standard. Each cancer needs a standing neoadjuvant platform with a shared control arm and pre-agreed rules for graduating an arm to a confirmatory trial.",
     hypothesis: "Neoadjuvant platforms will screen at least five combination arms per year per cancer, with pathological response predicting event-free survival well enough that graduated arms confirm in phase 3 at least 60% of the time.",
     rationale: "Pathological complete response and major pathological response correlate with survival in breast, lung and melanoma, and the neoadjuvant window allows paired biopsies that explain why a combination did or did not work.",
@@ -135,7 +135,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-rwe-combination-emulation", name: "Emulate combination trials from real-world data to triage which ones to run", maturity: "early-clinical", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-combination-space", "b-real-world-evidence"],
-    tldr: "Many combinations are already used off-label. Careful analysis of what happened to those patients can rule out the pairs that clearly do not help before spending money on trials.",
+    tldr: "Combinations used off-label in over 200 patients in clinico-genomic databases can be analysed by target trial emulation. Emulations cannot replace trials, but they can rule out the pairs with no signal and flag those with large effects before money is spent on randomised studies.",
     summary: "Target trial emulation with clinico-genomic databases can estimate effects of combinations that are used in practice but never randomised. Emulations cannot replace trials but can deprioritise pairs with no signal and flag those with large effects. The proposal is a standing programme that emulates every combination used in over 200 patients in the database and publishes ranked results with pre-registered protocols.",
     hypothesis: "Combinations flagged as futile in pre-registered emulations will subsequently fail randomised testing in at least 80% of cases, allowing trialists to redirect resources.",
     rationale: "Target trial emulation reproduced the results of several oncology trials when confounding was addressable; its false negatives are rarer than its false positives, which suits a triage role.",
@@ -210,7 +210,7 @@ export const ideasTrials2: IdeaInput[] = [
   i({ id: "idea-tr2-bandit-allocation", name: "Let the trial learn: response-adaptive allocation across many combination arms", maturity: "early-clinical", actor: "research", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-combination-space", "b-trial-design"],
     tldr: "As results come in, the trial sends more new patients to the arms that are working and fewer to those that are not, so more people benefit and bad arms die faster.",
-    summary: "Multi-armed bandit and Bayesian response-adaptive randomisation, used in I-SPY 2 and in the REMAP-CAP platform during COVID-19, allocate patients towards promising arms while maintaining control of false positives. With ten or more combination arms, adaptive allocation shortens time to identify winners and reduces the number of patients on futile arms. Regulators accept these designs with pre-specified simulation of operating characteristics.",
+    summary: "Multi-armed bandit and Bayesian response-adaptive randomisation, used in I-SPY 2 and in the REMAP-CAP platform during COVID-19, allocate patients towards the arms that are performing best while maintaining control of false positives. With ten or more combination arms, adaptive allocation shortens time to identify winners and reduces the number of patients on futile arms. Regulators accept these designs with pre-specified simulation of operating characteristics.",
     hypothesis: "Adaptive allocation across ten combination arms identifies the best arm with 30% fewer patients than equal randomisation at the same error rates, in simulation and in a live platform.",
     rationale: "REMAP-CAP found effective COVID-19 treatments faster than fixed designs. Oncology platforms have been slower to adopt because of endpoint latency; ctDNA or pathological response as intermediate endpoints removes that obstacle.",
     test: "Implement in a neoadjuvant platform using pathological response as the adaptive endpoint; compare patients-to-decision with a fixed-randomisation shadow analysis.",
@@ -257,7 +257,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-payer-combo-cwe", name: "Payers cover off-label combinations only inside registry-randomised trials", maturity: "speculative", actor: "payer", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-combination-space", "b-drug-pricing"],
-    tldr: "Insurers already pay for many untested drug combinations. Paying only when the patient joins a simple randomised comparison would turn that spending into evidence.",
+    tldr: "Insurers already pay for off-label drug combinations that have never been randomised. Paying only when the patient joins a registry-based randomised comparison, as Medicare did for devices and the Cancer Drugs Fund did for cancer drugs, would turn that spending into evidence at no new drug cost.",
     summary: "Coverage with evidence development has been used by Medicare for devices and by NICE for cancer drugs through the Cancer Drugs Fund. Applying it to off-label combinations would fund a large pragmatic randomised programme with no new drug costs, since the drugs would be paid for anyway, and would end reimbursement of combinations that fail.",
     hypothesis: "A coverage-with-evidence programme for off-label combinations will randomise at least 5,000 patients per year in one large payer and produce a definitive result for at least two combinations within four years.",
     rationale: "The Cancer Drugs Fund's managed access showed payers can collect evidence as a condition of payment; randomisation is the missing step.",
@@ -352,7 +352,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-shelved-asset-commons", name: "A commons of shelved cancer drugs with their full data, open to new hypotheses", maturity: "early-clinical", actor: "industry", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-negative-results", "b-translational-valley"],
-    tldr: "Companies stop developing many drugs that were safe but did not work in the disease they tried. Sharing those drugs and their data lets others test them where they might work.",
+    tldr: "Companies shelve drugs that were safe but failed in the disease they tried. An oncology commons cataloguing discontinued assets with their mechanism, human pharmacokinetics, safety data and reasons for discontinuation, under template access terms, would let others test them where they might work, as NCATS and AstraZeneca schemes have shown.",
     summary: "The NCATS New Therapeutic Uses programme, the AstraZeneca Open Innovation portfolio and the Medical Research Council industry asset-sharing scheme have shown that shelved compounds can be repurposed when made available with their data. An oncology-focused commons with a searchable catalogue of discontinued assets (mechanism, human pharmacokinetics, safety database, reasons for discontinuation) and template access terms would systematise this.",
     hypothesis: "At least ten discontinued oncology assets will enter new investigator-initiated trials within three years of the commons opening, at least one reaching a positive randomised result within seven years.",
     rationale: "Many failures are indication failures, not molecule failures. Human safety data is the most expensive thing a shelved drug carries, and it is wasted when the drug sits on a shelf.",
@@ -418,7 +418,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-negative-plenaries", name: "Give negative trials plenary slots at the big cancer conferences", maturity: "speculative", actor: "research", cost: "small", horizonYears: 1,
     bottlenecks: ["b-negative-results", "b-knowledge-diffusion"],
-    tldr: "Conferences headline the trials that worked. A dedicated plenary for important trials that failed would make the lessons impossible to miss.",
+    tldr: "Conferences headline the trials that worked, while most negative trials end up as posters or are never submitted. A standing plenary at ASCO, ESMO and AACR for negative and practice-reversing trials, with a discussant drawing lessons for design and biology, would make the failures impossible to miss.",
     summary: "Practice-changing negative trials (for example those that stop an established practice) are sometimes presented, but most negative trials are relegated to posters or never submitted. A standing plenary session at ASCO, ESMO and AACR for high-importance negative and reversal trials, with a discussant focused on lessons for design and biology, would raise the status of reporting failure.",
     hypothesis: "Introduction of a negative-results plenary increases submission of negative phase 3 trials to the meeting by at least 50% and their subsequent full publication rate.",
     rationale: "Conference prestige drives what is submitted and written up. The ASCO 'Trials in Progress' session shows that a new session type can change behaviour.",
@@ -427,7 +427,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-failure-taxonomy", name: "A machine-readable taxonomy of why cancer drugs fail", maturity: "speculative", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-negative-results", "b-translational-valley"],
-    tldr: "Drugs fail for very different reasons: the target was wrong, the drug did not reach it, the side-effects were too bad, or the trial was badly designed. Recording which reason each time would show where the system is broken.",
+    tldr: "Drugs fail for distinct reasons: wrong target, drug never reached it, unacceptable toxicity, unselected population or poor trial design. A shared machine-readable taxonomy applied to every discontinued oncology programme in public pipeline databases would show where the system breaks, as AstraZeneca and Pfizer's own attrition analyses did.",
     summary: "Analyses of attrition (for example those published by AstraZeneca and Pfizer on their own pipelines) show that failure reasons are learnable but rarely recorded consistently. A shared taxonomy (target biology, exposure, safety, efficacy in unselected population, biomarker failure, design, commercial) applied to every discontinued oncology programme in public pipeline databases would enable system-level diagnosis and comparison across sponsors and decades.",
     hypothesis: "Applying the taxonomy to a decade of discontinuations will show that at least a third of efficacy failures were preceded by inadequate target-validation or exposure evidence, quantifying an avoidable loss.",
     rationale: "Aviation and surgery improved by classifying failure. Pharma's 'five Rs' framework (right target, tissue, safety, patient, commercial) is a start that has not been applied openly.",
@@ -497,7 +497,7 @@ export const ideasTrials2: IdeaInput[] = [
   // ---------------------------------------------------------------------------------------
   i({ id: "idea-tr2-her2-low-reference-materials", name: "Calibrated reference slides so every lab scores HER2-low the same way", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation"],
-    tldr: "Whether a breast cancer counts as 'HER2-low', and so qualifies for a powerful drug, depends on which lab reads the slide. Standard reference slides with known HER2 levels would make the answer consistent.",
+    tldr: "Whether a breast cancer counts as HER2-low, and so qualifies for trastuzumab deruxtecan, turns on the least reproducible step of the HER2 stain, score 1+ versus 0. Cell-line microarrays with a known quantity of HER2 protein per cell, run alongside clinical slides, would anchor every laboratory to a physical standard.",
     summary: "T-DXd approval for HER2-low created a treatment decision at IHC 1+ versus 0, the least reproducible part of the HER2 scale, with inter-pathologist agreement reported as poor. Cell-line microarrays with quantified HER2 protein per cell, distributed as reference materials and run alongside clinical slides (as NordiQC and CAP do for proficiency testing), would anchor staining intensity and scoring to a physical standard, complemented by digital image analysis calibrated to the same materials.",
     hypothesis: "Laboratories using calibrated reference materials will show inter-laboratory agreement on HER2 0 versus 1+ above 85%, compared with the 60 to 70% reported in current concordance studies.",
     rationale: "Reference materials transformed reproducibility in clinical chemistry. Pathology has proficiency schemes but few quantitative anchors for low-level protein expression.",
@@ -573,7 +573,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-biomarker-evidence-grading", name: "Label every biomarker claim with an evidence phase, like drugs", maturity: "speculative", actor: "research", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-knowledge-diffusion"],
-    tldr: "Drugs are described as phase 1, 2 or 3 so everyone knows how proven they are. Biomarkers should carry the same kind of label so a 'promising' marker is not mistaken for a validated one.",
+    tldr: "Drugs are labelled phase 1, 2 or 3 so everyone knows how proven they are. Biomarkers should carry a comparable grade, from B1 discovery to B5 utility shown in a randomised trial, so that a marker with only discovery-stage evidence is not mistaken for a validated one in guidelines and papers.",
     summary: "Biomarker development stages exist in the literature (discovery, analytical validation, clinical validation, clinical utility, as in the Early Detection Research Network's five phases) but are not applied to published claims or guideline statements. A simple grading (B1 discovery, B2 analytically validated, B3 clinically validated retrospectively, B4 prospectively validated, B5 utility shown in a randomised trial) attached to biomarker entries in guidelines, knowledge bases and papers would make the evidence gap visible.",
     hypothesis: "After adoption, the proportion of guideline-recommended biomarkers at B4 or above will be reported and will rise year on year, and clinicians will rate biomarker evidence more accurately in surveys.",
     rationale: "Evidence grading (GRADE, levels of evidence) improved clarity for treatments; biomarkers lack any equivalent that patients and clinicians see.",
@@ -686,7 +686,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-biomarker-cwe", name: "Pay for new biomarker tests only while evidence of clinical utility is being collected", maturity: "early-clinical", actor: "payer", cost: "medium", horizonYears: 3,
     bottlenecks: ["b-biomarker-validation", "b-drug-pricing"],
-    tldr: "Insurers pay for many cancer tests that have never been shown to improve outcomes. Paying only inside studies that measure whether the test helps would sort the useful from the useless.",
+    tldr: "Most genomic and liquid biopsy tests are reimbursed on analytical validity and association with outcome, not on proof that they improve care. Paying for new oncology biomarker tests only inside registries or randomised studies, as Medicare did for PET, would sort the useful from the useless.",
     summary: "Most genomic and liquid biopsy tests are reimbursed on analytical validity and association with outcome, not on demonstrated clinical utility. Coverage with evidence development, used by Medicare for PET and for some genomic tests, ties payment to enrolment in a registry or randomised study. Applying it systematically to new oncology biomarker tests would generate utility evidence at the scale of routine practice and remove payment for tests that fail.",
     hypothesis: "Tests entered into coverage-with-evidence programmes will reach a definitive utility answer within four years in at least half of cases, and at least a quarter will lose coverage on the evidence.",
     rationale: "The National Oncologic PET Registry produced evidence that changed coverage for FDG PET; the model has been under-used for molecular tests.",
@@ -713,7 +713,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-biomarker-negative-arms", name: "Randomised trials to test whether biomarker-negative patients really do not benefit", maturity: "early-clinical", actor: "research", cost: "large", horizonYears: 5,
     bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"],
-    tldr: "Many patients are denied a drug because a test says they will not benefit. For the most important tests, that assumption should itself be tested in a trial.",
+    tldr: "Patients are denied a drug when a test says they will not benefit, but that restriction is usually inferred from enrichment trials rather than tested. For high-stakes markers with weak evidence in the negative group, such as PD-L1 and HER2 0, randomised trials in biomarker-negative patients should test the assumption itself.",
     summary: "Label restrictions based on biomarkers are often inferred from enrichment trials or subgroup analyses rather than from tests of the biomarker-negative population. For high-stakes markers with weak evidence in the negative group (PD-L1 in several tumours, HER2-ultralow and HER2 0, HRD-negative for PARP inhibitors), academic randomised trials in the biomarker-negative population with pragmatic endpoints would either open access to a denied group or firmly justify the restriction.",
     hypothesis: "At least one of three trials in biomarker-negative populations will demonstrate clinically meaningful benefit, changing a label or guideline within five years.",
     rationale: "T-DXd showed activity in HER2-ultralow and possibly HER2 0 populations excluded by the original biomarker, and PD-1 blockade benefits some PD-L1-negative patients in several tumour types.",
@@ -722,7 +722,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-positivity-rate-surveillance", name: "Monitor biomarker positivity rates across labs in real time to catch assay drift", maturity: "speculative", actor: "data", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-data-silos"],
-    tldr: "If one lab suddenly starts finding twice as many 'positive' results as others, something has gone wrong with its test. Pooling positivity rates across labs would catch this automatically.",
+    tldr: "If one lab suddenly reports twice the rate of 'positive' biomarker results that other labs report, its assay has probably drifted. Pooling anonymised positivity rates by laboratory, assay and version, with automated outlier detection and case-mix adjustment, would catch reagent lot problems and protocol drift within weeks rather than at occasional proficiency runs.",
     summary: "Statistical process control on population-level positivity rates is standard in clinical chemistry and screening programmes but not in predictive oncology biomarkers. A national feed of anonymised biomarker results by laboratory, assay and version, with automated outlier detection and case-mix adjustment, would detect reagent lot problems, protocol drift and algorithm changes within weeks rather than through occasional proficiency runs.",
     hypothesis: "Surveillance will identify at least two laboratory-level drift events per year in a national system, each confirmed on re-testing, that proficiency schemes had not detected.",
     rationale: "Screening programmes detect reader drift through recall-rate monitoring; the same logic applies to any test with a stable expected positivity rate.",
@@ -765,7 +765,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-replication-set-aside", name: "Funders set aside a fixed share of budget for independent replication", maturity: "early-clinical", actor: "philanthropy", cost: "large", horizonYears: 3,
     bottlenecks: ["b-reproducibility", "b-funding-allocation"],
-    tldr: "Almost no money is spent checking whether important cancer findings hold up. Setting aside a small fixed fraction of every research budget for replication would change that.",
+    tldr: "Almost no research money goes to checking whether published cancer findings hold up: one replication project could complete only 23 of 50 planned experiments. Requiring 3 to 5% of every funder's research budget to go to independent replication, published whatever the result, would build the missing feedback loop.",
     summary: "The Reproducibility Project: Cancer Biology attempted to replicate 50 high-impact papers and could complete only 23 experiments, with effect sizes on average 85% smaller than the originals. No funder has a standing replication budget. A rule that 3 to 5% of a funder's research budget goes to independent replication of findings selected by their translational importance, with results published regardless of direction, would create the missing feedback loop.",
     hypothesis: "Findings that pass funded replication will progress to clinical trials at a higher rate and fail in early clinical development less often than unreplicated findings, justifying the set-aside within five years.",
     rationale: "Replication is a public good that no individual lab is rewarded for producing; only funders can pay for it systematically.",
@@ -824,7 +824,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-replication-bounties", name: "Bounties for documented failed replications of high-impact findings", maturity: "speculative", actor: "philanthropy", cost: "small", horizonYears: 1,
     bottlenecks: ["b-reproducibility", "b-negative-results"],
-    tldr: "Pay a reward to any lab that carefully tries to repeat an important cancer finding and documents that it did not work. Today that work is unpaid and unpublished.",
+    tldr: "Pay a fixed reward to any lab that pre-registers and carefully repeats a heavily cited preclinical cancer finding, whatever the outcome, with a bonus for the first documented non-replication that passes methodological review. Today that work is unpaid and unpublished.",
     summary: "Security research uses bug bounties to reward finding flaws. A replication bounty programme would list high-impact preclinical oncology findings (selected by citations and translational stage), pay a fixed sum for a pre-registered, adequately powered replication attempt regardless of outcome, and a bonus for the first documented non-replication that passes methodological review. Results are published in a registry.",
     hypothesis: "The programme will produce at least 50 pre-registered replications per year at a cost per replication under a tenth of a standard grant, and at least a third of targeted findings will fail to replicate.",
     rationale: "Replication attempts already happen informally in labs and industry; the bounty converts private knowledge into public record at low cost.",
@@ -833,7 +833,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-antibody-validation-mandate", name: "Only use antibodies proven to hit their target with knockout controls", maturity: "early-clinical", actor: "policy", cost: "small", horizonYears: 2,
     bottlenecks: ["b-reproducibility"],
-    tldr: "Many research antibodies do not actually bind what the label says. Independent testing against cells lacking the target can prove it, and journals should require that evidence.",
+    tldr: "A large fraction of commercial research antibodies fail when tested against cells engineered to lack their target, so they do not bind what the label says. Journals and funders should require knockout-validated antibodies for the claims a paper rests on, and fund public validation of the most-used cancer targets.",
     summary: "Antibody non-specificity is a leading cause of irreproducible results. Initiatives such as YCharOS test commercial antibodies against knockout cell lines and publish the results, finding that a large fraction of antibodies for a given target fail. A requirement that papers cite knockout- or knockdown-validated antibodies (with the validation record) for key claims, and funder support for a public validation programme covering the most-used cancer targets, would remove a pervasive source of error.",
     hypothesis: "Papers using validated antibodies will show higher replication rates than those using unvalidated ones, and the requirement will shift the market towards validated reagents within three years.",
     rationale: "Independent knockout-based validation is decisive and increasingly cheap; the barrier is that journals do not require it and vendors do not publish it.",
@@ -843,7 +843,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-reference-compound-panels", name: "Every drug screen includes standard reference compounds whose performance is published", maturity: "speculative", actor: "research", cost: "small", horizonYears: 2,
     bottlenecks: ["b-reproducibility", "b-preclinical-models"],
-    tldr: "Labs testing new cancer compounds should always include a few well-known drugs as controls and report how those behaved, so results from different labs can be compared.",
+    tldr: "Drug sensitivity results for the same cell line and drug differ substantially between large screens. Every published cancer drug screen should include a defined panel of reference compounds with published expected activity ranges per reference cell line, reported in a standard format, so results from different labs can be calibrated against each other.",
     summary: "Drug sensitivity results for the same cell line and drug differ substantially between large screens (the CCLE versus GDSC discordance). A defined panel of reference compounds (with expected potency ranges per reference cell line) included in every published screen, and reported in a standard format, would allow cross-study calibration and reveal systematic differences in assay conditions.",
     hypothesis: "Including reference panels will let discordant screens be reconciled by calibration, reducing cross-study potency disagreement by at least half for the drugs and lines covered.",
     rationale: "Clinical laboratories use internal standards in every run; preclinical pharmacology mostly does not, and the resulting variance has been quantified.",
@@ -861,7 +861,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-animal-power-mandate", name: "Pre-specified sample sizes for animal studies; no more 'representative' experiments", maturity: "early-clinical", actor: "policy", cost: "small", horizonYears: 1,
     bottlenecks: ["b-reproducibility", "b-preclinical-models"],
-    tldr: "Many mouse experiments use so few animals that the results are unreliable, and papers show one 'representative' result out of several tries. Funders should require proper sample-size planning.",
+    tldr: "Underpowered mouse experiments give exaggerated positive results and uninformative negatives, and papers often show one 'representative' result out of several attempts. Funders and journals should require a pre-specified power calculation, the number of independent repeats performed, and reporting of every repeat rather than the best one.",
     summary: "Underpowered animal studies produce exaggerated effects when positive and are uninformative when negative. Sample-size justification is required by ARRIVE and by ethics committees in principle but is rarely checked. Funders and journals could require a pre-specified power calculation, the number of independent repeats performed, and reporting of all repeats rather than a representative one.",
     hypothesis: "Enforcement increases the median group size in published in vivo efficacy studies and reduces reported effect sizes towards those seen in adequately powered replications.",
     rationale: "Effect-size inflation from small samples is a mathematical certainty under publication bias; the fix is procedural and cheap.",
@@ -871,7 +871,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-tenure-replication-credit", name: "Count replications and open data in hiring and promotion", maturity: "speculative", actor: "policy", cost: "small", horizonYears: 5,
     bottlenecks: ["b-reproducibility", "b-incentive-misalignment"],
-    tldr: "Scientists are promoted for novel discoveries, not for checking others' work or sharing data. Changing what universities reward would change what scientists do.",
+    tldr: "Scientists are promoted for first-time discoveries and journal prestige, not for replicating others' work or sharing data. A structured section in tenure and promotion dossiers for replications conducted, data and code shared, and registered reports, weighted explicitly in decisions, would change what scientists spend their time on.",
     summary: "Career incentives drive the reproducibility problem: novelty and journal prestige are rewarded, replication and data sharing are not. Institutions signing DORA have pledged to reduce reliance on journal metrics. A concrete step is a structured section in tenure and promotion dossiers for replication studies conducted, data and code shared, registered reports and independent verification of one's own findings, weighted explicitly in decisions.",
     hypothesis: "Institutions adopting the credit will see a doubling of replication studies and data deposits by their faculty within five years relative to matched institutions.",
     rationale: "Behaviour follows incentives; the shift to open data in genomics followed funder and institutional requirements, not exhortation.",
@@ -965,7 +965,7 @@ export const ideasTrials2: IdeaInput[] = [
 
   i({ id: "idea-tr2-phd-replication-year", name: "Every cancer biology PhD begins with a funded replication of a published finding", maturity: "speculative", actor: "research", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-reproducibility", "b-workforce"],
-    tldr: "Make the first project of every doctoral student a careful, published attempt to repeat an important result. Students learn rigour, and the field gets thousands of replications a year.",
+    tldr: "Make the first project of every cancer biology doctoral student a funded, pre-registered attempt to repeat a published finding chosen from a curated list of translationally relevant results, with the outcome published in a replication registry. Students learn power analysis, blinding and reporting, and the field gets thousands of replications a year.",
     summary: "First-year doctoral students need training projects with clear methods and a defined endpoint; replications provide exactly that, while teaching pre-registration, power analysis, blinding and reporting. Programmes that have tried this (in psychology) report strong educational outcomes. A cancer biology version, with findings chosen from a curated list of translationally important results and outcomes published in a replication registry, would create a steady replication workforce at marginal cost.",
     hypothesis: "Participating programmes will publish at least one replication per student, and students will show measurably better methodological practice in subsequent thesis work than matched controls.",
     rationale: "Training and replication are complementary: the student gains skills, the field gains evidence, and the incentive problem is sidestepped because the student is not competing for novelty.",

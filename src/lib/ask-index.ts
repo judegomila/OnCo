@@ -11,28 +11,67 @@
 import { KINDS, routeFor, type Kind } from "./schema";
 import { ASK_ALIASES, ASK_STOP } from "./ask-lexicon";
 
+/**
+ * Small facts the browser needs without fetching the record: the evidence grade of a complementary approach
+ * (`evidence:<grade>` tag or the complementary index), a company's Y Combinator batch, and the region codes a
+ * product is approved in (from its approvals and the regional table), so "what did India approve for CAR-T"
+ * can be answered from the index plus a handful of record fetches.
+ */
+export type AskIndexExtra = { grade?: string; batch?: string; regions?: string[] };
+
 /** `tldr` is present server-side (harness, scripts); the browser index omits it to stay small and fetches records for text. */
-export type AskIndexEntry = { id: string; kind: Kind; name: string; aliases: string[]; route: string; tldr?: string; status?: string };
+export type AskIndexEntry = AskIndexExtra & { id: string; kind: Kind; name: string; aliases: string[]; route: string; tldr?: string; status?: string };
 export type AskPair = { q: string; ids: string[]; source: "benchmark" | "questions" };
 export type AskIndex = { version: 1; built?: string; entries: AskIndexEntry[]; pairs: AskPair[] };
 
-/** Compact wire format: one row per entry, kinds by index, routes derived on load. */
-export type AskIndexWire = { version: 1; built?: string; kinds: readonly string[]; rows: Array<[string, number, string, string[], string?]>; pairs: AskPair[] };
+/** Compact wire format: one row per entry, kinds by index, routes derived on load; status and extras trail only when present. */
+export type AskIndexWireRow = [string, number, string, string[], string?, AskIndexExtra?];
+export type AskIndexWire = { version: 1; built?: string; kinds: readonly string[]; rows: AskIndexWireRow[]; pairs: AskPair[] };
+
+function extraOf(e: AskIndexEntry): AskIndexExtra | undefined {
+  const x: AskIndexExtra = {};
+  if (e.grade) x.grade = e.grade;
+  if (e.batch) x.batch = e.batch;
+  if (e.regions?.length) x.regions = e.regions;
+  return Object.keys(x).length ? x : undefined;
+}
 
 export function encodeAskIndex(index: AskIndex): AskIndexWire {
   return {
     version: 1, built: index.built, kinds: KINDS,
-    rows: index.entries.map((e) => { const row: [string, number, string, string[], string?] = [e.id, KINDS.indexOf(e.kind), e.name, e.aliases]; if (e.status) row.push(e.status); return row; }),
+    rows: index.entries.map((e) => {
+      const row: AskIndexWireRow = [e.id, KINDS.indexOf(e.kind), e.name, e.aliases];
+      const extra = extraOf(e);
+      if (e.status || extra) row.push(e.status ?? "");
+      if (extra) row.push(extra);
+      return row;
+    }),
     pairs: index.pairs,
   };
 }
 
 export function decodeAskIndex(w: AskIndexWire): AskIndex {
-  const entries: AskIndexEntry[] = w.rows.map(([id, k, name, aliases, status]) => {
+  const entries: AskIndexEntry[] = w.rows.map(([id, k, name, aliases, status, extra]) => {
     const kind = (w.kinds[k] ?? "term") as Kind;
-    return { id, kind, name, aliases, route: routeFor({ kind, id }), ...(status ? { status } : {}) };
+    return { id, kind, name, aliases, route: routeFor({ kind, id }), ...(status ? { status } : {}), ...(extra ?? {}) };
   });
   return { version: 1, built: w.built, entries, pairs: w.pairs };
+}
+
+/**
+ * Region code for an approval's `region` string as the corpus writes it ("US", "EU", "China", "Japan", "IN",
+ * "United Kingdom", "Australia (TGA)"); undefined for anything else.
+ */
+export function regionCode(region: string): string | undefined {
+  const s = region.trim().toLowerCase();
+  if (/^(?:us|usa|fda|united states|u\.s\.)\b/.test(s)) return "US";
+  if (/^(?:eu|ema|europe|european union|e\.u\.)\b/.test(s)) return "EU";
+  if (/^(?:uk|mhra|united kingdom|great britain|britain)\b/.test(s)) return "UK";
+  if (/^(?:jp|japan|pmda)\b/.test(s)) return "JP";
+  if (/^(?:cn|china|nmpa|prc)\b/.test(s)) return "CN";
+  if (/^(?:au|australia|tga)\b/.test(s)) return "AU";
+  if (/^(?:in|india|cdsco|dcgi)\b/.test(s)) return "IN";
+  return undefined;
 }
 
 /** "Triple-negative breast cancer (TNBC)" -> "Triple-negative breast cancer". */
@@ -45,6 +84,8 @@ export function abbreviation(name: string): string | undefined {
   const m = name.match(/\(([A-Za-z0-9\-/&.+ ]{2,14})\)\s*$/)?.[1]?.trim();
   if (!m) return undefined;
   if (/^[a-z ]+$/.test(m) && m.length > 6) return undefined; // a gloss, not an abbreviation
+  // Two or more words with lower-case letters ("Tata Memorial", "KEGG map", "PAM50 assay") gloss the name rather than abbreviate it.
+  if (/\s/.test(m) && /[a-z]/.test(m)) return undefined;
   if (/^(generic|and biosimilars|oral|SC|EU|US|UK|fibrosis|NSCLC, EU)$/i.test(m)) return undefined;
   return m;
 }
@@ -70,10 +111,12 @@ export function deriveAliases(e: AliasSource): string[] {
   const out: string[] = [];
   const base = baseName(e.name);
   const min = e.kind === "term" ? 3 : 4;
-  const push = (s?: string) => {
+  const push = (s?: string, curated = false) => {
     if (!s) return;
     const t = s.trim();
-    if (t.length < 3 || /^\d+$/.test(t) || ASK_STOP.has(t.toLowerCase())) return;
+    // Two capitals ("YC", "EV") count only as curated aliases; everything else needs three characters.
+    if (t.length < 3 && !(curated && /^[A-Z0-9]{2}$/.test(t))) return;
+    if (/^\d+$/.test(t) || ASK_STOP.has(t.toLowerCase())) return;
     if (t.length < min && !/[A-Z0-9]/.test(t)) return;
     out.push(t);
   };
@@ -85,12 +128,18 @@ export function deriveAliases(e: AliasSource): string[] {
   if (/\s\/\s/.test(base)) push(base.replace(/\s\/\s/g, "/"));
   // Glossary phrase aliases about approval itself ("approved in the UK", "EU approval") would swallow the region or
   // the verb of an approval question; the intent rules read those words instead.
-  for (const a of e.aka ?? []) if (!(e.kind === "term" && /\b(?:approved|approval|authori[sz]ation)\b/i.test(a))) push(a);
+  for (const a of e.aka ?? []) {
+    if (e.kind === "term" && /\b(?:approved|approval|authori[sz]ation)\b/i.test(a)) continue;
+    push(a);
+    // KEGG maps: "KEGG hsa05219" also resolves from the bare map code.
+    const kegg = /^KEGG\s+(hsa\d{5})$/i.exec(a);
+    if (kegg) push(kegg[1]);
+  }
   if (e.brand) for (const b of splitBrand(e.brand)) push(b);
   if (e.code) for (const c of e.code.split(/\s*[,;\/]\s*/)) push(c);
   push(e.symbol);
   push(e.nct);
-  for (const a of ASK_ALIASES[e.id] ?? []) push(a);
+  for (const a of ASK_ALIASES[e.id] ?? []) push(a, true);
   const seen = new Set<string>();
   return out.filter((a) => { const k = a.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
 }

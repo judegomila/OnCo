@@ -8,8 +8,29 @@ import { routeFor, type Entity } from "./schema";
 import { benchmark } from "@/data/benchmark";
 import { questions as patientQuestions } from "@/data/questions";
 import { buildMatcher, findMatches } from "./entity-matcher";
-import { deriveAliases, shortTldr, type AskIndex, type AskIndexEntry, type AskPair } from "./ask-index";
+import { deriveAliases, regionCode, shortTldr, type AskIndex, type AskIndexEntry, type AskIndexExtra, type AskPair } from "./ask-index";
 import { ASK_ALIASES } from "./ask-lexicon";
+import { gradeFromTags } from "./complementary";
+import { COMPLEMENTARY_INDEX } from "@/data/complementary";
+import { approvedRegions, regionalApprovals } from "@/data/regional-approvals";
+
+const gradeByIndex = new Map(COMPLEMENTARY_INDEX.map((c) => [c.id, c.grade]));
+
+/** Evidence grade, YC batch and approved regions: the facts the browser needs before it fetches the record. */
+export function extrasFor(e: Entity): AskIndexExtra {
+  const x: AskIndexExtra = {};
+  const grade = gradeFromTags(e.tags) ?? gradeByIndex.get(e.id);
+  if (grade) x.grade = grade;
+  if (e.kind === "company" && e.ycBatch) x.batch = e.ycBatch;
+  if (e.kind === "drug") {
+    const regions = new Set<string>();
+    for (const a of e.approvals) { const c = regionCode(a.region); if (c) regions.add(c); }
+    const row = regionalApprovals[e.id];
+    if (row) for (const r of approvedRegions(row)) regions.add(r);
+    if (regions.size) x.regions = [...regions];
+  }
+  return x;
+}
 
 export function entryFor(e: Entity): AskIndexEntry {
   const aliases = deriveAliases({
@@ -17,7 +38,7 @@ export function entryFor(e: Entity): AskIndexEntry {
     brand: e.kind === "drug" ? e.brand : undefined, code: e.kind === "drug" ? e.code : undefined,
     symbol: e.kind === "target" ? e.symbol : undefined, nct: e.kind === "trial" ? e.nct : undefined,
   });
-  return { id: e.id, kind: e.kind, name: e.name, aliases, route: routeFor(e), tldr: shortTldr(e.tldr), ...(e.status ? { status: e.status } : {}) };
+  return { id: e.id, kind: e.kind, name: e.name, aliases, route: routeFor(e), tldr: shortTldr(e.tldr), ...(e.status ? { status: e.status } : {}), ...extrasFor(e) };
 }
 
 /** Lexicon ids that do not name a record: the vitest fails on any. */

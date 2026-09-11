@@ -19,7 +19,7 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { benchmark, scoreAnswer, type Scored } from "../src/data/benchmark";
-import { askEval, scoreAskEval, type AskEvalScored } from "../src/data/ask-eval";
+import { askEval, askEvalNew, scoreAskEval, type AskEvalQuestion, type AskEvalScored } from "../src/data/ask-eval";
 import { answerText, composeAnswer, recordFromEntity, retrieveIds } from "../src/lib/ask";
 import { askHarness } from "../src/lib/ask-harness";
 
@@ -67,16 +67,21 @@ const pct = (x: number) => `${Math.round(x * 100)}%`;
   }
   const byCat = (rs: Scored[]) => { const m: Record<string, number[]> = {}; for (const r of rs) (m[r.category] ??= []).push(r.score); return Object.fromEntries(Object.entries(m).map(([k, v]) => [k, r3(mean(v))])); };
 
-  // ---- natural questions ----
-  const nBefore: AskEvalScored[] = [], nAfter: AskEvalScored[] = [];
-  for (const q of askEval) {
-    const b = before(q.question);
-    nBefore.push(scoreAskEval(q, b.text, b.ids));
-    const a = await after(q.question);
-    const s = scoreAskEval(q, a.text, a.ids);
-    nAfter.push(s);
-    if (show) console.log(`\n### ${q.id} [${a.intent}/${a.template}] ${q.question}\n${a.text}\nscore ${s.score.toFixed(2)} (missed: ${s.missed.join(" | ") || "none"}), recall ${s.retrievalRecall.toFixed(2)}`);
-  }
+  // ---- natural questions (the first set, and the September 2026 set on the new kinds) ----
+  const scoreSet = async (set: AskEvalQuestion[]) => {
+    const bs: AskEvalScored[] = [], as: AskEvalScored[] = [];
+    for (const q of set) {
+      const b = before(q.question);
+      bs.push(scoreAskEval(q, b.text, b.ids));
+      const a = await after(q.question);
+      const s = scoreAskEval(q, a.text, a.ids);
+      as.push(s);
+      if (show) console.log(`\n### ${q.id} [${a.intent}/${a.template}] ${q.question}\n${a.text}\nscore ${s.score.toFixed(2)} (missed: ${s.missed.join(" | ") || "none"}), recall ${s.retrievalRecall.toFixed(2)}`);
+    }
+    return { bs, as };
+  };
+  const { bs: nBefore, as: nAfter } = await scoreSet(askEval);
+  const { bs: n2Before, as: n2After } = await scoreSet(askEvalNew);
   const byAud = (rs: AskEvalScored[]) => { const m: Record<string, number[]> = {}; for (const r of rs) (m[r.audience] ??= []).push(r.score); return Object.fromEntries(Object.entries(m).map(([k, v]) => [k, r3(mean(v))])); };
 
   const date = new Date().toISOString().slice(0, 10);
@@ -100,6 +105,12 @@ const pct = (x: number) => `${Math.round(x * 100)}%`;
       before: { system: summary.before.system, meanScore: r3(mean(nBefore.map((r) => r.score))), meanRetrievalRecall: r3(mean(nBefore.map((r) => r.retrievalRecall))), byAudience: byAud(nBefore) },
     },
     results: nAfter,
+    second: {
+      set: "src/data/ask-eval.ts askEvalNew (60 questions on the September 2026 kinds: India and China, journals, KEGG maps, companies, investors, complementary approaches, roadmaps)",
+      questions: n2After.length, meanScore: r3(mean(n2After.map((r) => r.score))), meanRetrievalRecall: r3(mean(n2After.map((r) => r.retrievalRecall))), byAudience: byAud(n2After),
+      before: { meanScore: r3(mean(n2Before.map((r) => r.score))), meanRetrievalRecall: r3(mean(n2Before.map((r) => r.retrievalRecall))), byAudience: byAud(n2Before) },
+      results: n2After,
+    },
   };
   writeFileSync(join(out, "ask-natural", `${date}.json`), JSON.stringify(natural, null, 1));
 
@@ -109,6 +120,9 @@ const pct = (x: number) => `${Math.round(x * 100)}%`;
   console.log(`  after, curated pairs switched off: rubric ${pct(summary.withoutCuratedPairs.meanScore)}, recall ${pct(summary.withoutCuratedPairs.meanRetrievalRecall)} ${JSON.stringify(summary.withoutCuratedPairs.byCategory)}`);
   console.log(`natural set (${askEval.length})       before: rubric ${pct(natural.summary.before.meanScore)}, recall ${pct(natural.summary.before.meanRetrievalRecall)}   after: rubric ${pct(natural.summary.meanScore)}, recall ${pct(natural.summary.meanRetrievalRecall)}`);
   console.log(`  by audience before ${JSON.stringify(natural.summary.before.byAudience)} after ${JSON.stringify(natural.summary.byAudience)}`);
+  console.log(`second natural set (${askEvalNew.length})  before: rubric ${pct(natural.second.before.meanScore)}, recall ${pct(natural.second.before.meanRetrievalRecall)}   after: rubric ${pct(natural.second.meanScore)}, recall ${pct(natural.second.meanRetrievalRecall)}`);
+  const missedN2 = n2After.filter((r) => r.score < 1).map((r) => `${r.id}(${r.missed.join("|")})`);
+  if (missedN2.length) console.log(`second-set questions with missed rubric points: ${missedN2.join(", ")}`);
   console.log(`intents ${JSON.stringify(intents)}\ntemplates ${JSON.stringify(templates)}`);
   const worse = bAfter.filter((r, i) => r.score < bBefore[i].score).map((r) => r.id);
   if (worse.length) console.log(`benchmark questions scoring lower than before: ${worse.join(", ")}`);

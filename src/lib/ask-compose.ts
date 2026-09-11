@@ -11,8 +11,9 @@
  * bundle through the region switcher).
  */
 import { composeAnswer, recordFromEntity, sentences, type Answer, type AskRecord, type Cited, type EntityLike, type Source } from "./ask";
-import { shortName, type AskIndexEntry } from "./ask-index";
+import { regionCode, shortName, type AskIndexEntry } from "./ask-index";
 import { INTENT_LABEL, type Intent } from "./ask-intent";
+import { GRADE_META, gradeFromTags, type EvidenceGrade } from "./complementary";
 import { tokenize } from "./semantic";
 import type { Kind } from "./schema";
 import { REGION_META, REGIONS, regionalApprovals, type Region, type RegionalEntry } from "@/data/regional-approvals";
@@ -25,7 +26,11 @@ export type AskEntity = EntityLike & {
   aka?: string[]; status?: string; tags?: string[];
   brand?: string; code?: string; modality?: string; payload?: string; linker?: string; mechanismSteps?: string[];
   toxicity?: Array<{ event: string; anyGradePct?: number; grade3PlusPct?: number; note?: string }>;
-  access?: Array<{ country: string; listPrice?: string; reimbursement?: string; assistance?: string; generic?: boolean }>;
+  /** Drugs: cost and coverage rows by country. Journals: the access model ("subscription", "hybrid", "open-access", "diamond"). */
+  access?: Array<{ country: string; listPrice?: string; reimbursement?: string; assistance?: string; generic?: boolean }> | string;
+  ycBatch?: string; investors?: string[]; acquiredBy?: string; funding?: Array<{ round: string; year: number; amountUsd?: number; note?: string }>;
+  publisher?: string; scope?: string; society?: string; issn?: string; impactFactor?: { value: number; year: number; source?: string };
+  steps?: Array<{ era: string; title: string; description: string; refs?: string[]; status: string }>;
   regulatoryEvents?: Array<{ date: string; type: string; region: string; note: string }>;
   dosing?: { route: string; schedule: string; modifications?: string; monitoring?: string };
   standardOfCare?: Array<{ setting: string; approach: string; refs?: string[] }>;
@@ -38,7 +43,7 @@ export type AskEntity = EntityLike & {
   symbol?: string; targetClass?: string; prevalence?: Array<{ cancerId: string; pct: number | string; measure?: string }>;
   since?: number | string; generation?: string; holds?: string; url?: string; maturity?: string; actor?: string;
   stage?: string; severity?: string; metrics?: Array<{ label: string; value: string }>;
-  targets?: string[]; drugs?: string[]; cancers?: string[]; trials?: string[]; companies?: string[]; technologies?: string[]; terms?: string[]; institutions?: string[];
+  targets?: string[]; drugs?: string[]; cancers?: string[]; trials?: string[]; companies?: string[]; technologies?: string[]; terms?: string[]; institutions?: string[]; sections?: string[];
 };
 export type AskEntityRecord = { entity: AskEntity; route: string; neighbours: Record<string, Neighbour[]> };
 export type ReadMore = { label: string; href: string };
@@ -76,7 +81,28 @@ export type ComposeInput = {
   /** "'triple-negative' → Triple-negative breast cancer (TNBC)" lines for the method note. */
   resolvedNotes: string[];
   pair?: { question: string; source: string };
+  /** For "which journals cover X": the topic words the journals were matched on and every index entry that matched. */
+  topic?: { words: string; entries: AskIndexEntry[] };
 };
+
+/* ------------------------------------------------------------------ survival figures stay out */
+
+const SURVIVAL_WORDS = /\b(?:surviv\w*|mortality|deaths?|died|die|dying|fatal(?:ity|ities)?|life expectancy)\b/i;
+const SURVIVAL_ABBREVIATIONS = /\b(?:OS|DFS|EFS|RFS|PFS)\b/;
+const FIGURE = /\d+(?:\.\d+)?\s*(?:%|percent|per cent)|\bHR\s*(?:=|:|of|was|is)?\s*[0-9]|\bhazard ratio\b[^.]{0,20}\d|\d[\d,.]*(?:\s*(?:million|thousand|lakh|crore))?(?:\s+[a-z-]+){0,2}\s+(?:deaths|died|dead|die)\b|\bper\s+100,?000\b|\b(?:one|two|three|four|five|half|a third|a quarter)\b[^.]{0,20}\b(?:in|out of)\b[^.]{0,30}\b(?:die|died|dies|dead|survive)\b|\b(?:twice|times)\b[^.]{0,30}\b(?:die|dying|death|deaths|survive|survival)\b/i;
+
+/**
+ * True when a sentence quotes a survival or mortality figure: a percentage, hazard ratio, death count, rate per 100,000
+ * or "one in three die" next to a survival word. Templates keep such sentences out of answers; a trial's own result and
+ * outcome fields are the one place they are shown, because there the figure is the result being asked about. Median
+ * months from a trial ("OS 12.1 vs 6.7 months") are treatment effects, not population statistics, and are left alone.
+ */
+export function hasSurvivalFigure(text: string): boolean {
+  return (SURVIVAL_WORDS.test(text) || SURVIVAL_ABBREVIATIONS.test(text)) && FIGURE.test(text);
+}
+
+/** Fields whose sentences may carry a survival figure: a trial's own results, and the survival disclosure itself. */
+const FIGURE_FIELDS = new Set(["result", "outcome", "replication", "findings", "survival disclosure"]);
 
 const toSource = (r: { entity: { id: string; kind: Kind; name: string }; route: string }): Source => ({ id: r.entity.id, kind: r.entity.kind, name: r.entity.name, route: r.route });
 const entrySource = (e: AskIndexEntry): Source => ({ id: e.id, kind: e.kind, name: e.name, route: e.route });
@@ -103,6 +129,7 @@ class Builder {
     if (!text) return false;
     const t = text.replace(/\s+/g, " ").trim();
     if (!t || this.has(t)) return false;
+    if (!FIGURE_FIELDS.has(field) && hasSurvivalFigure(t)) return false;
     this.seen.add(t);
     this.tokens.push(new Set(tokenize(t)));
     this.sentences.push({ text: /[.!?]$/.test(t) ? t : `${t}.`, cite: this.citeOf(src), field, score });
@@ -128,6 +155,36 @@ const INSTITUTION_TYPE: Record<string, string> = { "cancer-center": "cancer cent
 const COUNTRY: Record<string, string> = { US: "the United States", GB: "the United Kingdom", UK: "the United Kingdom", FR: "France", DE: "Germany", JP: "Japan", CN: "China", KR: "South Korea", CA: "Canada", AU: "Australia", NL: "the Netherlands", IT: "Italy", ES: "Spain", CH: "Switzerland", SE: "Sweden", DK: "Denmark", BE: "Belgium", IN: "India", BR: "Brazil", IL: "Israel", SG: "Singapore", TW: "Taiwan", AT: "Austria", NO: "Norway", FI: "Finland", IE: "Ireland", PT: "Portugal", PL: "Poland", TR: "Türkiye", MX: "Mexico", AR: "Argentina", ZA: "South Africa", EG: "Egypt", NG: "Nigeria", KE: "Kenya", TZ: "Tanzania", RW: "Rwanda", GH: "Ghana", MA: "Morocco", TN: "Tunisia", SA: "Saudi Arabia", AE: "the United Arab Emirates", QA: "Qatar", JO: "Jordan", IR: "Iran", TH: "Thailand", VN: "Vietnam", ID: "Indonesia", PH: "the Philippines", NZ: "New Zealand", HK: "Hong Kong", CL: "Chile", CO: "Colombia", PE: "Peru", HU: "Hungary", CZ: "Czechia", SI: "Slovenia" };
 const country = (c?: string) => (c ? COUNTRY[c] ?? c : "");
 const regulator = (r: Region) => REGION_META[r].regulator.replace(/\s*\(.*\)$/, "");
+const ACCESS_LABEL: Record<string, string> = { subscription: "subscription (paywalled)", hybrid: "hybrid (subscription with an open-access option)", "open-access": "fully open access", diamond: "diamond open access (free to read and to publish)" };
+const BATCH_SEASON: Record<string, string> = { W: "Winter", S: "Summer", X: "Spring", F: "Fall" };
+
+/** "W24" -> "Winter 2024 (W24)". */
+export function batchLabel(batch: string): string {
+  const m = /^([WSXF])(\d{2})$/.exec(batch);
+  return m ? `${BATCH_SEASON[m[1]]} 20${m[2]} (${batch})` : batch;
+}
+
+/** A Y Combinator batch code the question names ("YC W24", "the S21 batch"); only read when YC or a batch is mentioned. */
+export function batchFromQuestion(q: string): string | undefined {
+  if (!/\b(?:yc|y combinator|ycombinator|batch)\b/i.test(q)) return undefined;
+  return /\b([WSXF]\d{2})\b/.exec(q)?.[1];
+}
+
+const fmtUsd = (n: number) => (n >= 1e9 ? `$${(n / 1e9).toFixed(n >= 1e10 ? 0 : 1)} billion` : n >= 1e6 ? `$${Math.round(n / 1e6)} million` : `$${n.toLocaleString()}`);
+
+/** The evidence grade of a complementary approach: the record's tag, else the Ask index (which also grades records tagged elsewhere). */
+export function gradeOf(r: AskEntityRecord, lookup: ComposeInput["lookup"]): EvidenceGrade | undefined {
+  return gradeFromTags(r.entity.tags ?? []) ?? (lookup(r.entity.id)?.grade as EvidenceGrade | undefined);
+}
+
+/** What each grade means for the reader, said once and plainly. Nothing below "moderate" is ever framed as an option. */
+const GRADE_VERDICT: Record<EvidenceGrade, (name: string) => string> = {
+  strong: (n) => `For ${n} the evidence is strong for the purpose described: consistent randomised trials or a systematic review, and at least one major guideline (ASCO, SIO, MASCC, NCCN or NICE) recommends it.`,
+  moderate: (n) => `For ${n} there is some evidence: randomised trials exist but are small, mixed or limited to one setting, so guidelines say it may be offered rather than recommending it outright.`,
+  insufficient: (n) => `For ${n} the evidence is insufficient: laboratory, animal or uncontrolled human data only, or trials too small and inconsistent to draw a conclusion. OnCo does not present it as a treatment option; it is not a reason to use it outside a trial, and it must never replace standard treatment.`,
+  "no-benefit": (n) => `${n} was tested and showed no benefit: adequately sized randomised trials found no effect on the outcome it was claimed to change. OnCo does not present it as an option.`,
+  harm: (n) => `For ${n} there is evidence of harm or interaction: direct toxicity, a clinically important interaction with cancer treatment, or use in place of standard treatment that is associated with worse outcomes. OnCo does not present it as an option; tell your treatment team before taking anything like it.`,
+};
 
 /** The regional-approvals row for a product, said in sentences: the reader's region first, then the rest in one line. */
 function regionalSentences(name: string, id: string, region: Region | undefined): string[] {
@@ -227,9 +284,35 @@ function tDefine(c: Ctx, r: AskEntityRecord): boolean {
     case "cancer": if (e.stateOfArt?.[0]) c.b.add(s, e.stateOfArt[0], "state of the art"); break;
     case "target": c.b.add(s, e.biology, "biology"); if (e.whereFound?.length) c.b.add(s, `Where it is found: ${list(e.whereFound.slice(0, 4))}.`, "where found"); break;
     case "technology": for (const x of first(e.principle, 1)) c.b.add(s, x, "principle"); break;
-    case "drug": c.b.add(s, e.mechanism, "mechanism"); if (e.approvals?.length) { const a = [...e.approvals].sort((x, y) => x.year - y.year)[0]; c.b.add(s, `First approved in ${a.region} in ${a.year} for ${a.indication}.`, "approvals"); } break;
+    case "drug": {
+      c.b.add(s, e.mechanism, "mechanism");
+      if (e.approvals?.length) { const a = [...e.approvals].sort((x, y) => x.year - y.year)[0]; c.b.add(s, `First approved in ${a.region} in ${a.year} for ${a.indication}.`, "approvals"); }
+      const brand = e.brand?.split(/\s*[\/;]\s*/)[0]?.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+      const cos = (e.companies ?? []).map((id) => c.lookup(id)?.name).filter((x): x is string => !!x).slice(0, 3);
+      if (brand && brand.toLowerCase() !== e.name.toLowerCase()) c.b.add(s, `Sold as ${brand}${cos.length ? `; developed or marketed by ${list(cos)}` : ""}.`, "brand and companies");
+      else if (cos.length) c.b.add(s, `${short(r)} is developed or marketed by ${list(cos)}.`, "brand and companies");
+      break;
+    }
     case "trial": c.b.add(s, e.result, "result"); if (e.setting) c.b.add(s, `Setting: ${e.setting}.`, "setting"); break;
-    case "pathway": c.b.add(s, e.analogy, "analogy"); if (e.interventions?.[0]) c.b.add(s, e.interventions[0], "interventions"); break;
+    case "pathway": {
+      const kegg = (e.aka ?? []).map((a) => /^KEGG\s+(hsa\d{5})$/i.exec(a)?.[1]).find((x): x is string => !!x);
+      if (kegg) c.b.add(s, `This is KEGG map ${kegg}${e.cancers?.length ? `, the pathway map for ${list(e.cancers.slice(0, 3).map((id) => c.lookup(id)?.name ?? id))}` : ""}.`, "kegg");
+      c.b.add(s, e.analogy, "analogy");
+      if (e.interventions?.[0]) c.b.add(s, e.interventions[0], "interventions");
+      break;
+    }
+    case "journal": {
+      const access = typeof e.access === "string" ? e.access : undefined;
+      c.b.add(s, e.publisher ? `${e.name} is published by ${e.publisher}${e.society && !e.publisher.includes(e.society) ? ` on behalf of the ${e.society}` : ""}${e.founded ? `, founded ${e.founded}` : ""}.` : undefined, "profile");
+      const facts = [e.scope ? `scope: ${e.scope}` : "", access ? `access model: ${ACCESS_LABEL[access] ?? access}` : "", e.issn ? `ISSN ${e.issn}` : ""].filter(Boolean);
+      if (facts.length) c.b.add(s, `${cap(facts.join("; "))}.`, "profile");
+      if (e.impactFactor) c.b.add(s, `Its ${e.impactFactor.year} impact factor was ${e.impactFactor.value}${e.impactFactor.source ? ` (${e.impactFactor.source})` : ""}; OnCo lists no other metric.`, "impact factor");
+      const papers = (r.neighbours.paper ?? []).slice(0, 4).map((p) => p.name);
+      if (papers.length) c.b.add(s, `Key papers on OnCo it carried include ${list(papers)}.`, "linked papers");
+      c.readMore.push({ label: "Journals: where the evidence is published", href: "/journals/" });
+      break;
+    }
+    case "roadmap": return tRoadmap(c, r);
     case "term": {
       const drugs = (r.neighbours.drug ?? []).slice(0, 4).map((d) => d.name);
       const cancers = (r.neighbours.cancer ?? []).slice(0, 4).map((d) => shortName(d));
@@ -256,7 +339,8 @@ function tDefine(c: Ctx, r: AskEntityRecord): boolean {
 
 function companyLine(e: AskEntity): string | undefined {
   if (!e.hq) return undefined;
-  return `${e.name} is a ${COMPANY_TYPE[e.companyType ?? ""] ?? e.companyType ?? ""} company headquartered in ${e.hq}${e.ticker ? ` (ticker ${e.ticker})` : ""}${e.founded ? `, founded ${e.founded}` : ""}.`;
+  const type = COMPANY_TYPE[e.companyType ?? ""] ?? e.companyType ?? "";
+  return `${e.name} is ${/^[aeiou]/i.test(type) ? "an" : "a"} ${type} company headquartered in ${e.hq}${e.ticker ? ` (ticker ${e.ticker})` : ""}${e.founded ? `, founded ${e.founded}` : ""}.`;
 }
 
 function institutionLine(e: AskEntity): string | undefined {
@@ -554,7 +638,7 @@ function tCost(c: Ctx, r: AskEntityRecord): boolean {
   const s = toSource(r), e = r.entity;
   if (e.kind !== "drug") return false;
   c.b.add(s, e.tldr, "TL;DR");
-  const rows = e.access ?? [];
+  const rows = Array.isArray(e.access) ? e.access : [];
   const pref: string = regionFromQuestion(c.question) ?? c.region ?? "US";
   const ordered = [...rows].sort((a, b) => (a.country === pref ? -1 : b.country === pref ? 1 : 0));
   for (const a of ordered.slice(0, 4)) {
@@ -564,6 +648,212 @@ function tCost(c: Ctx, r: AskEntityRecord): boolean {
   if (!rows.length) c.b.add(s, `OnCo has no cost or coverage record for ${short(r)} yet; the financial-help page lists manufacturer programmes and national schemes by country.`, "access");
   for (const x of regionalSentences(short(r), e.id, regionFromQuestion(c.question) ?? c.region).slice(0, 1)) c.b.add(s, x, "regional approvals");
   c.readMore.push({ label: "Financial help by country and product", href: "/assistance/" }, { label: "Cost and coverage by drug", href: "/coverage/" });
+  return true;
+}
+
+/* ------------------------------------------------------------------ templates for the September 2026 kinds */
+
+/**
+ * Complementary and supportive approaches: the evidence grade first, in plain words, then the record. An approach graded
+ * insufficient, no benefit or harm is never framed as an option, and its "strengths" are not quoted.
+ */
+function tEvidence(c: Ctx, r: AskEntityRecord): boolean {
+  const s = toSource(r), e = r.entity;
+  const grade = gradeOf(r, c.lookup);
+  if (!grade) return false;
+  const positive = grade === "strong" || grade === "moderate";
+  c.b.add(s, `Evidence grade on OnCo: ${GRADE_META[grade].label.toLowerCase()}. ${GRADE_VERDICT[grade](short(r))}`, "evidence grade");
+  c.b.add(s, e.tldr, "TL;DR");
+  for (const x of first(e.summary, 2)) c.b.add(s, x, "summary");
+  if (positive && e.strengths?.length) c.b.add(s, `What the evidence supports: ${e.strengths.slice(0, 2).join("; ")}.`, "strengths");
+  for (const x of (e.limitations ?? []).slice(0, positive ? 1 : 2)) c.b.add(s, `Limitation: ${x}`, "limitations");
+  const drugs = (r.neighbours.drug ?? []).slice(0, 4).map((d) => d.name);
+  if (grade === "harm" && drugs.length) c.b.add(s, `Treatments on OnCo it interacts with or has been used instead of: ${list(drugs)}.`, "linked products");
+  c.readMore.push({ label: "Complementary and supportive approaches, graded by evidence", href: "/live/complementary/" });
+  if (!positive) c.readMore.push({ label: "Questions to ask your oncologist", href: "/prep/" });
+  return true;
+}
+
+/**
+ * The products linked to a record that the index shows approved in a region. For the US and EU: standard-of-care
+ * products first, then the rest. For any other region: the regulator's own approvals first (products approved there
+ * but not in the US or EU, which is what "what did China approve" is after), then the standard of care, then the rest.
+ */
+export function regionDrugs(r: AskEntityRecord, lookup: ComposeInput["lookup"], region: Region): Neighbour[] {
+  const linked = (r.neighbours.drug ?? []).filter((d) => lookup(d.id)?.regions?.includes(region));
+  const byName = (a: Neighbour, b: Neighbour) => a.name.localeCompare(b.name);
+  const key = keyDrugs(r, lookup).filter((d) => linked.some((x) => x.id === d.id));
+  const keyIds = new Set(key.map((d) => d.id));
+  const rest = linked.filter((d) => !keyIds.has(d.id)).sort(byName);
+  if (region === "US" || region === "EU") return [...key, ...rest];
+  const isLocal = (d: Neighbour) => { const rs = lookup(d.id)?.regions ?? []; return !rs.includes("US") && !rs.includes("EU"); };
+  const local = linked.filter(isLocal).sort(byName);
+  const localIds = new Set(local.map((d) => d.id));
+  return [...local, ...key.filter((d) => !localIds.has(d.id)), ...rest.filter((d) => !localIds.has(d.id))];
+}
+
+/** Products a region's regulator has approved for a cancer, technology or target: from the index regions, with the loaded records for detail. */
+function tRegionalApprovals(c: Ctx, r: AskEntityRecord): boolean {
+  const s = toSource(r), e = r.entity;
+  if (e.kind === "drug") return tApproval(c, r);
+  const region = regionFromQuestion(c.question) ?? c.region;
+  if (!region) return tApproval(c, r);
+  c.b.add(s, e.tldr, "TL;DR");
+  const label = regionName(region), reg = regulator(region);
+  const all = regionDrugs(r, c.lookup, region);
+  const loaded = c.related.filter((x) => x.entity.kind === "drug" && all.some((d) => d.id === x.entity.id));
+  const describe = (id: string, name: string): string => {
+    const rec = loaded.find((x) => x.entity.id === id);
+    const brand = rec?.entity.brand?.split(/\s*[\/;]\s*/)[0]?.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+    const ap = [...(rec?.entity.approvals ?? [])].filter((a) => regionCode(a.region) === region).sort((a, b) => a.year - b.year)[0];
+    const bits = [brand && brand.toLowerCase() !== name.toLowerCase() ? brand : "", ap ? String(ap.year) : ""].filter(Boolean);
+    return bits.length ? `${name} (${bits.join(", ")})` : name;
+  };
+  if (all.length) {
+    const what = e.kind === "cancer" ? `Products for ${short(r)}` : e.kind === "target" ? `Products against ${short(r)}` : `${short(r)} products`;
+    c.b.add(s, `${what} approved in ${label} by the ${reg} on OnCo's record: ${list(all.slice(0, 20).map((d) => describe(d.id, d.name)))}${all.length > 20 ? `, and ${all.length - 20} more` : ""}.`, "regional approvals");
+    for (const d of loaded.slice(0, 3)) {
+      const ds = toSource(d);
+      c.b.add(ds, d.entity.tldr, "TL;DR");
+      const ap = [...(d.entity.approvals ?? [])].filter((a) => regionCode(a.region) === region).sort((a, b) => a.year - b.year)[0];
+      if (ap) c.b.add(ds, `${short(d)}: approved in ${label} in ${ap.year} for ${ap.indication}.`, "approvals");
+    }
+  } else {
+    c.b.add(s, `OnCo has no record of a ${short(r)} product approved in ${label}; absence means unknown, not "not approved".`, "regional approvals");
+  }
+  c.readMore.push({ label: "Regulatory status by region", href: "/regulatory/regions/" });
+  if (region === "CN" || region === "IN") c.readMore.push({ label: `${cap(label.replace(/^the /, ""))}: country page`, href: `/countries/${region.toLowerCase()}/` });
+  return true;
+}
+
+/** The companies working on a technology, target or cancer; or an investor's portfolio (optionally one YC batch). */
+function tCompanies(c: Ctx, r: AskEntityRecord): boolean {
+  const s = toSource(r), e = r.entity;
+  if (e.kind === "company") {
+    if (e.companyType !== "investor") return tWho(c, r);
+    c.b.add(s, companyLine(e), "profile");
+    c.b.add(s, e.tldr, "TL;DR");
+    const portfolio = r.neighbours.company ?? [];
+    const batch = batchFromQuestion(c.question);
+    if (batch) {
+      const chosen = c.related.filter((x) => x.entity.kind === "company" && x.entity.ycBatch === batch);
+      if (chosen.length) {
+        c.b.add(s, `Y Combinator companies from the ${batchLabel(batch)} batch working on cancer, on OnCo: ${list(chosen.map((x) => x.entity.name))}.`, "portfolio");
+        for (const x of chosen.slice(0, 4)) c.b.add(toSource(x), x.entity.tldr, "TL;DR");
+      } else {
+        c.b.add(s, `OnCo lists no cancer company from the ${batchLabel(batch)} batch; the Y Combinator page lists every batch it covers.`, "portfolio");
+      }
+    } else if (portfolio.length) {
+      const batchOf = (id: string) => c.lookup(id)?.batch;
+      const key = (b?: string) => (b ? Number(b.slice(1)) * 10 + ({ W: 1, X: 2, S: 3, F: 4 }[b[0]] ?? 0) : -1);
+      const sorted = [...portfolio].sort((a, b) => key(batchOf(b.id)) - key(batchOf(a.id)) || a.name.localeCompare(b.name));
+      const shown = sorted.slice(0, 30).map((n) => { const b = batchOf(n.id); return b ? `${n.name} (${b})` : n.name; });
+      c.b.add(s, `${portfolio.length} companies on OnCo name ${short(r)} as an investor${sorted.some((n) => batchOf(n.id)) ? ", most recent batch first" : ""}: ${list(shown)}${portfolio.length > 30 ? `, and ${portfolio.length - 30} more on its page` : ""}.`, "portfolio");
+      for (const x of c.related.filter((y) => y.entity.kind === "company").slice(0, 2)) c.b.add(toSource(x), x.entity.tldr, "TL;DR");
+    } else {
+      c.b.add(s, `No company on OnCo names ${short(r)} as an investor yet; portfolios are derived from sourced rounds only.`, "portfolio");
+    }
+    c.readMore.push({ label: "Investors and their portfolios", href: "/investors/" }, { label: "Startups attacking cancer", href: "/startups/" });
+    return true;
+  }
+  c.b.add(s, e.tldr, "TL;DR");
+  const region = regionFromQuestion(c.question);
+  const products = c.related.filter((x) => x.entity.kind === "drug");
+  const viaProducts = new Map<string, string[]>();
+  for (const d of products) for (const id of d.entity.companies ?? []) { const en = c.lookup(id); if (en) viaProducts.set(en.name, [...(viaProducts.get(en.name) ?? []), d.entity.brand?.split(/\s*[\/;]\s*/)[0] || short(d)]); }
+  const direct = (r.neighbours.company ?? []).filter((x) => !viaProducts.has(x.name));
+  if (viaProducts.size) c.b.add(s, `Companies behind the ${region ? `products approved in ${regionName(region)}` : "approved products"}: ${list([...viaProducts].slice(0, 8).map(([co, ds]) => `${co} (${list([...new Set(ds)].slice(0, 3))})`))}.`, "linked products");
+  if (direct.length) c.b.add(s, `${viaProducts.size ? "Also working" : "Companies on OnCo working"} on ${short(r)}: ${list(direct.slice(0, 16).map((x) => x.name))}${direct.length > 16 ? `, and ${direct.length - 16} more on its page` : ""}.`, "linked companies");
+  for (const co of c.related.filter((x) => x.entity.kind === "company").slice(0, 3)) c.b.add(toSource(co), co.entity.tldr, "TL;DR");
+  if (!viaProducts.size && !direct.length) c.b.add(s, `OnCo links no company to ${short(r)} yet.`, "linked companies");
+  c.readMore.push({ label: "Startups attacking cancer", href: "/startups/" }, { label: "Company scorecards", href: "/scorecards/" });
+  return true;
+}
+
+/** Who backs a company (investors, rounds, acquirer), an investor's portfolio, or the investors behind a field's companies. */
+function tInvestors(c: Ctx, r: AskEntityRecord): boolean {
+  const s = toSource(r), e = r.entity;
+  if (e.kind === "company") {
+    if (e.companyType === "investor") return tCompanies(c, r);
+    const inv = (e.investors ?? []).map((id) => nameOf(c.lookup, id));
+    const rounds = [...(e.funding ?? [])].sort((a, b) => a.year - b.year);
+    // "Gilead's oncology portfolio": a pharma group with no recorded backers is a who-and-where question.
+    if (!inv.length && !rounds.length && !e.acquiredBy && !e.ycBatch) return tWho(c, r);
+    c.b.add(s, companyLine(e), "profile");
+    c.b.add(s, e.tldr, "TL;DR");
+    if (inv.length) c.b.add(s, `Investors in ${short(r)} on OnCo's record: ${list(inv)}.`, "investors");
+    if (rounds.length) c.b.add(s, `Financing recorded (sourced rounds only): ${rounds.slice(-4).map((f) => `${f.round} ${f.year}${f.amountUsd ? ` (${fmtUsd(f.amountUsd)})` : ""}`).join("; ")}.`, "funding");
+    if (e.acquiredBy) c.b.add(s, `${short(r)} was acquired by ${nameOf(c.lookup, e.acquiredBy)}.`, "acquisition");
+    if (e.ycBatch) c.b.add(s, `${short(r)} went through Y Combinator in the ${batchLabel(e.ycBatch)} batch.`, "yc batch");
+    for (const x of c.related.filter((y) => y.entity.kind === "company").slice(0, 1)) c.b.add(toSource(x), x.entity.tldr, "TL;DR");
+    c.readMore.push({ label: "Investors and their portfolios", href: "/investors/" }, { label: "Deals and licences", href: "/deals/" });
+    return true;
+  }
+  c.b.add(s, e.tldr, "TL;DR");
+  const cos = c.related.filter((x) => x.entity.kind === "company");
+  const backed = new Map<string, string[]>();
+  for (const co of cos) for (const id of co.entity.investors ?? []) { const n = nameOf(c.lookup, id); backed.set(n, [...(backed.get(n) ?? []), co.entity.name]); }
+  if (backed.size) {
+    const ranked = [...backed].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+    c.b.add(s, `Investors backing ${short(r)} companies on OnCo, most companies first: ${list(ranked.slice(0, 10).map(([n, xs]) => `${n} (${list(xs.slice(0, 3))})`))}.`, "investors");
+  } else {
+    c.b.add(s, `OnCo records no investor for the ${short(r)} companies it lists; backers appear only when a source states a round.`, "investors");
+  }
+  const names = (r.neighbours.company ?? []).slice(0, 12).map((x) => x.name);
+  if (names.length) c.b.add(s, `Companies on OnCo linked to ${short(r)}: ${list(names)}.`, "linked companies");
+  c.readMore.push({ label: "Investors and their portfolios", href: "/investors/" }, { label: "Startups attacking cancer", href: "/startups/" });
+  return true;
+}
+
+/** A roadmap's steps in reading order: where it came from, today, coming next, further out, what sets the pace. */
+function tRoadmap(c: Ctx, r: AskEntityRecord): boolean {
+  const s = toSource(r), e = r.entity;
+  // Several roadmaps may link a front or technology; the one built around it (few fronts, this one among them) wins over a cross-cutting map.
+  const fit = (x: AskEntityRecord) => { const re = x.entity; const secs = re.sections ?? []; return (secs.includes(e.id) ? 3 : 0) + ([...(re.technologies ?? []), ...(re.cancers ?? []), ...(re.targets ?? []), ...(re.drugs ?? [])].includes(e.id) ? 2 : 0) - (secs.length > 3 ? 2 : 0); };
+  const rm = e.kind === "roadmap" ? r : [...c.related.filter((x) => x.entity.kind === "roadmap")].sort((a, b) => fit(b) - fit(a))[0];
+  if (!rm) return false;
+  const rs = toSource(rm), re = rm.entity;
+  if (rm !== r) c.b.add(s, e.tldr, "TL;DR");
+  c.b.add(rs, re.tldr, "TL;DR");
+  const steps = re.steps ?? [];
+  const pace = steps.filter((x) => /pace|bottleneck/i.test(`${x.era} ${x.title}`));
+  const rest = steps.filter((x) => !pace.includes(x));
+  const say = (lead: string, st: (typeof steps)[number]) => `${lead} (${st.era}, ${st.title}): ${first(st.description, 1)[0] ?? st.description}`;
+  const historic = rest.filter((x) => x.status === "historic");
+  if (historic.length) c.b.add(rs, say("Where it came from", historic[historic.length - 1]), "roadmap step");
+  for (const st of rest.filter((x) => x.status === "current").slice(0, 2)) c.b.add(rs, say("Today", st), "roadmap step");
+  for (const st of rest.filter((x) => x.status === "emerging").slice(0, 2)) c.b.add(rs, say("Coming next", st), "roadmap step");
+  for (const st of rest.filter((x) => x.status === "speculative").slice(0, 1)) c.b.add(rs, say("Further out", st), "roadmap step");
+  if (pace[0]) c.b.add(rs, `What sets the pace: ${first(pace[0].description, 1)[0] ?? pace[0].description}`, "roadmap step");
+  c.readMore.push({ label: "All roadmaps", href: "/roadmap/" });
+  return true;
+}
+
+/** Where a paper or trial was published, or the journals matched to a topic ("which journals publish oncology nursing research"). */
+function tJournals(c: Ctx, r: AskEntityRecord): boolean {
+  const s = toSource(r), e = r.entity;
+  const others = c.related.filter((x) => x.entity.kind === "journal");
+  if (e.kind === "journal") {
+    if (!c.topic) return tDefine(c, r);
+    const loaded = [r, ...others];
+    const one = (en: AskIndexEntry) => {
+      const x = loaded.find((y) => y.entity.id === en.id);
+      const a = typeof x?.entity.access === "string" ? x.entity.access : undefined;
+      return x?.entity.publisher ? `${en.name} (${x.entity.publisher}${a ? `, ${a.replace("-", " ")}` : ""})` : en.name;
+    };
+    const entries = c.topic.entries.length ? c.topic.entries : loaded.map((x) => c.lookup(x.entity.id)).filter((x): x is AskIndexEntry => !!x);
+    c.b.add(s, `Journals on OnCo whose name or scope covers "${c.topic.words}": ${list(entries.slice(0, 12).map(one))}${entries.length > 12 ? `, and ${entries.length - 12} more` : ""}.`, "matched journals");
+    for (const x of loaded.slice(0, 3)) c.b.add(toSource(x), x.entity.tldr, "TL;DR");
+    c.readMore.push({ label: "Journals: where the evidence is published", href: "/journals/" });
+    return true;
+  }
+  c.b.add(s, e.tldr, "TL;DR");
+  if (e.journal) c.b.add(s, `${short(r)} was published in ${e.journal}${e.year ? ` (${e.year})` : ""}.`, "journal");
+  const linked = r.neighbours.journal ?? [];
+  if (linked.length) c.b.add(s, `Journal record${linked.length > 1 ? "s" : ""} on OnCo: ${list(linked.slice(0, 4).map((x) => x.name))}.`, "linked journals");
+  for (const x of others.slice(0, 2)) c.b.add(toSource(x), x.entity.tldr, "TL;DR");
+  if (!e.journal && !linked.length && !others.length) c.b.add(s, `OnCo has no journal linked to ${short(r)} yet.`, "linked journals");
+  c.readMore.push({ label: "Journals: where the evidence is published", href: "/journals/" });
   return true;
 }
 
@@ -587,12 +877,15 @@ export function followUpsFor(e: { kind: Kind; name: string }, intent: Intent): s
     paper: [["results", `What did the paper ${n} find?`], ["define", `What is ${n}?`]],
     collection: [["define", `What is ${n}?`], ["who", `Who maintains ${n}?`]],
     bottleneck: [["define", `What is the bottleneck "${n}"?`]],
+    journal: [["define", `What is ${n}?`], ["who", `Who publishes ${n}?`], ["journals", `Which key papers appeared in ${n}?`]],
+    roadmap: [["roadmap", `Where is ${n} heading?`], ["define", `What is ${n}?`]],
   };
+  if (e.kind === "company" && "companyType" in e && (e as { companyType?: string }).companyType === "investor") return [["companies", `What is in ${n}'s portfolio?`], ["define", `What is ${n}?`]].filter(([i]) => i !== intent).map(([, q]) => q);
   return (by[e.kind] ?? [["define", `What is ${n}?`]]).filter(([i]) => i !== intent).slice(0, 3).map(([, q]) => q);
 }
 
 /** Kinds whose sentences may be added as detail without being named: the evidence-bearing records. */
-const DETAIL_KINDS = new Set<Kind>(["cancer", "drug", "target", "technology", "trial", "term", "paper", "pathway", "company", "institution", "person"]);
+const DETAIL_KINDS = new Set<Kind>(["cancer", "drug", "target", "technology", "trial", "term", "paper", "pathway", "company", "institution", "person", "journal", "roadmap"]);
 
 /**
  * Append the best question-matched sentences (extractive), skipping what the template already said. Only records the
@@ -628,8 +921,18 @@ export function composeTemplated(input: ComposeInput): AskAnswer {
   let applied = false;
   if (primary) {
     const pick = (fn: (c: Ctx, r: AskEntityRecord) => boolean, name: string) => { if (fn(c, primary)) { template = name; applied = true; } };
-    switch (intent) {
+    // A graded complementary approach answers with its evidence grade whatever the wording, unless the question is about
+    // something else (a comparison, who makes it, cost, trials, the companies or investors around it).
+    const GRADE_FIRST = new Set<Intent>(["define", "general", "treatments", "results", "side-effects", "approval", "mechanism", "biomarkers", "prognosis", "evidence", "regional-approvals"]);
+    if (GRADE_FIRST.has(intent) && gradeOf(primary, input.lookup)) pick(tEvidence, "evidence");
+    if (!applied) switch (intent) {
       case "define": pick(tDefine, "define"); break;
+      case "evidence": pick(tEvidence, "evidence"); break;
+      case "regional-approvals": pick(tRegionalApprovals, "regional-approvals"); break;
+      case "companies": pick(tCompanies, "companies"); break;
+      case "investors": pick(tInvestors, "investors"); break;
+      case "roadmap": pick(tRoadmap, "roadmap"); break;
+      case "journals": pick(tJournals, "journals"); break;
       case "treatments": pick(tTreatments, "treatments"); break;
       case "biomarkers": pick(tBiomarkers, "biomarkers"); break;
       case "approval": pick(tApproval, "approval"); break;
@@ -643,7 +946,8 @@ export function composeTemplated(input: ComposeInput): AskAnswer {
       case "compare": { const other = input.secondary[0]; if (other && tCompare(c, primary, other)) { template = "compare"; applied = true; } break; }
       case "general": break;
     }
-    if (!applied && intent !== "general") { b.sentences.length = 0; if (tDefine(c, primary)) { template = "define"; applied = true; } }
+    // No template fitted: fall back to who-and-where for companies (a portfolio question about a pharma group), else a definition.
+    if (!applied && intent !== "general") { b.sentences.length = 0; c.readMore.length = 0; if (primary.entity.kind === "company" && tWho(c, primary)) { template = "who"; applied = true; } else if (tDefine(c, primary)) { template = "define"; applied = true; } }
     if (!applied && intent === "general") { if (b.add(toSource(primary), primary.entity.tldr, "TL;DR")) { template = "orientation"; applied = true; } }
   }
 

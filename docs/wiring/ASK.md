@@ -42,3 +42,23 @@ the page shows a one-line message asking for the build rather than failing.
 | `src/components/AskOnco.tsx`, `src/app/ask/page.tsx` | The page: entity chips, cited answer, "How this answer was built", follow-ups, "Not what you meant?". |
 
 `src/data/questions.ts`, `src/data/benchmark.ts`, `src/lib/schema.ts` and `src/lib/entity-matcher.ts` are read, not changed.
+
+## September 2026: the new kinds
+
+The corpus grew to 6,689 records (India and China, 259 journals, 21 KEGG maps, YC and startup companies, 69 investors,
+approved supportive-care drugs, diagnostic tests, 53 graded complementary approaches, 16 roadmaps). Ask OnCo gained:
+
+| Intent | Wording | Template |
+|---|---|---|
+| `evidence` | "is X worth it", "is X proven", "does X help", "can I take X" | Evidence grade first (strong, some, insufficient, no benefit, harm), then the record. Anything below "some evidence" is never framed as an option and its strengths are not quoted. Applies only when a graded record is named; otherwise the wording falls through to results, side effects or definition. |
+| `regional-approvals` | "what did India approve for CAR-T", "which drugs did China approve for lung cancer" | Products approved in the named region from the index `regions` column, standard of care first, then the region's own approvals; loaded records add brand, year and indication. |
+| `companies` | "which companies work on X", "which YC W24 companies" | Companies linked to a technology, target or cancer (plus those behind approved products); an investor's portfolio, optionally one YC batch. |
+| `investors` | "who invests in X", "which investors back X startups", "what does Flagship invest in" | A company's backers, rounds and acquirer; an investor's portfolio; the investors behind a field's companies, ranked by count. |
+| `roadmap` | "roadmap for X", "where is X heading", "future of X" | The roadmap built around the front or technology named: where it came from, today, coming next, further out, what sets the pace. |
+| `journals` | "which journals cover X", "who publishes JCO", "where was X published" | A journal's profile (publisher, scope, access model, impact factor with its year); or every journal whose name matches the topic words. |
+
+The index rows carry three optional extras (`grade`, `batch`, `regions`) so the browser can answer these without
+fetching every record. A survival-figure guard (`hasSurvivalFigure`) keeps percentages, hazard ratios, death counts
+and rates per 100,000 next to survival words out of every composed sentence except a trial's own result and outcome
+fields. The second natural set (`askEvalNew`, 60 questions) is floored in `src/lib/ask.test.ts` and scored by
+`scripts/benchmark-ask.ts`.

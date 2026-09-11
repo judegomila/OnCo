@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import MiniSearch from "minisearch";
 import { answerText, composeAnswer, recordFromEntity, retrieveIds, sentences, type AskRecord } from "./ask";
 import { benchmark, scoreAnswer } from "@/data/benchmark";
-import { askEval, scoreAskEval } from "@/data/ask-eval";
+import { askEval, askEvalNew, scoreAskEval } from "@/data/ask-eval";
 import { graph } from "./graph";
 import { routeFor } from "./schema";
 import { searchDocs, type SearchDoc } from "./search-index";
@@ -11,8 +11,8 @@ import { semanticDocs } from "./semantic-docs";
 import { askHarness } from "./ask-harness";
 import { analyseQuestion, classifyIntent } from "./ask-intent";
 import { unknownLexiconIds } from "./ask-index-build";
-import { decodeAskIndex, deriveAliases, encodeAskIndex, shortName } from "./ask-index";
-import { followUpsFor, regionFromQuestion } from "./ask-compose";
+import { abbreviation, decodeAskIndex, deriveAliases, encodeAskIndex, regionCode, shortName } from "./ask-index";
+import { batchFromQuestion, followUpsFor, hasSurvivalFigure, regionFromQuestion } from "./ask-compose";
 
 describe("sentences", () => {
   it("splits on sentence ends and drops fragments", () => {
@@ -144,6 +144,145 @@ describe("intent and entity resolution", () => {
   });
 });
 
+describe("September 2026 kinds: intents, aliases, index extras, survival guard", () => {
+  it("classifies the new question shapes", () => {
+    expect(classifyIntent("Which investors back radioligand startups?")).toBe("investors");
+    expect(classifyIntent("Who invests in Arcellx?")).toBe("investors");
+    expect(classifyIntent("Which YC companies work on cancer?")).toBe("companies");
+    expect(classifyIntent("Which YC W24 companies are working on cancer?")).toBe("companies");
+    expect(classifyIntent("What did India approve for CAR-T?")).toBe("regional-approvals");
+    expect(classifyIntent("Which drugs did China approve for lung cancer?")).toBe("regional-approvals");
+    // No regulator named: an ordinary approval question, not a regional listing.
+    expect(classifyIntent("Which TROP2 ADCs are approved for first-line metastatic triple-negative breast cancer?")).toBe("approval");
+    expect(classifyIntent("What is the roadmap for radiation therapy?")).toBe("roadmap");
+    expect(classifyIntent("Where is cancer surgery heading over the next decade?")).toBe("roadmap");
+    expect(classifyIntent("Which journals publish oncology nursing research?")).toBe("journals");
+    expect(classifyIntent("Which journals cover radiation oncology?")).toBe("journals");
+    expect(classifyIntent("Is scalp cooling worth it for taxane chemo?")).toBe("evidence");
+    expect(classifyIntent("Is acupuncture proven for nausea?")).toBe("evidence");
+    expect(classifyIntent("Which KEGG pathway covers bladder cancer?")).toBe("define");
+  });
+
+  it("drops the evidence reading when nothing graded is named", () => {
+    const { index } = askHarness();
+    expect(analyseQuestion("Does Enhertu work in HER2-low breast cancer?", index).intent).not.toBe("evidence");
+    expect(analyseQuestion("Does ginger help with chemo nausea?", index).intent).toBe("evidence");
+  });
+
+  it("resolves the new aliases and kinds", () => {
+    const { index } = askHarness();
+    const ids = (q: string) => analyseQuestion(q, index).entities.filter((e) => e.strong).map((e) => e.entry.id);
+    expect(ids("Which YC companies work on cancer?")).toContain("y-combinator");
+    expect(ids("Is the ketogenic diet proven for glioblastoma?")[0]).toBe("ketogenic-diet-glioblastoma");
+    expect(ids("What is NexCAR19?")).toEqual(["talicabtagene-autoleucel"]);
+    expect(ids("Which KEGG pathway covers bladder cancer?")[0]).toBe("bladder-cancer-signalling");
+    expect(ids("What is hsa05214?")).toContain("glioma-signalling");
+    expect(ids("What is the Lancet Oncology?")[0]).toBe("lancet-oncology");
+    expect(ids("Does fenbendazole cure cancer?")).toContain("fenbendazole-ivermectin-repurposing-claims");
+    const tmh = ids("Did low-dose nivolumab work in the Tata Memorial trial?");
+    expect(tmh).toContain("low-dose-nivolumab-tmh");
+    expect(tmh).not.toContain("elective-neck-dissection-tmh");
+  });
+
+  it("carries grade, batch and approved regions in the index and its wire format", () => {
+    const { index } = askHarness();
+    const by = (id: string) => index.entries.find((e) => e.id === id)!;
+    expect(by("scalp-cooling").grade).toBe("strong");
+    expect(by("st-johns-wort-interaction").grade).toBe("harm");
+    expect(by("ketogenic-diet-glioblastoma").grade).toBe("insufficient");
+    expect(by("granza-bio").batch).toBe("W24");
+    expect(by("talicabtagene-autoleucel").regions).toContain("IN");
+    expect(by("sintilimab").regions).toContain("CN");
+    expect(by("tnbc").grade).toBeUndefined();
+    const back = decodeAskIndex(JSON.parse(JSON.stringify(encodeAskIndex(index))));
+    expect(back.entries.find((e) => e.id === "granza-bio")?.batch).toBe("W24");
+    expect(back.entries.find((e) => e.id === "scalp-cooling")?.grade).toBe("strong");
+    expect(back.entries.find((e) => e.id === "sintilimab")?.regions).toContain("CN");
+  });
+
+  it("treats a bracketed gloss as a gloss, not an abbreviation", () => {
+    expect(abbreviation("Low-dose nivolumab plus metronomic chemotherapy (Tata Memorial)")).toBeUndefined();
+    expect(abbreviation("Bladder cancer (KEGG map)")).toBeUndefined();
+    expect(abbreviation("Triple-negative breast cancer (TNBC)")).toBe("TNBC");
+    expect(abbreviation("Cognitive behavioural therapy for insomnia (CBT-I)")).toBe("CBT-I");
+  });
+
+  it("recognises survival and mortality figures but not trial medians or toxicity rates", () => {
+    expect(hasSurvivalFigure("Five-year survival is 12%.")).toBe(true);
+    expect(hasSurvivalFigure("About 2.6 million cancer deaths in 2022.")).toBe(true);
+    expect(hasSurvivalFigure("People who chose alternative medicine were two and a half times as likely to die.")).toBe(true);
+    expect(hasSurvivalFigure("Mortality was 96 per 100,000.")).toBe(true);
+    expect(hasSurvivalFigure("Approved 2020 for pretreated metastatic TNBC (ASCENT: OS 12.1 vs 6.7 months) and 2023 for HR+/HER2- breast cancer.")).toBe(false);
+    expect(hasSurvivalFigure("Neutropenia occurred in 49% of patients.")).toBe(false);
+  });
+
+  it("reads YC batches and region codes", () => {
+    expect(batchFromQuestion("Which YC W24 companies work on cancer?")).toBe("W24");
+    expect(batchFromQuestion("What did the S21 trial show?")).toBeUndefined();
+    expect(regionCode("China")).toBe("CN");
+    expect(regionCode("IN")).toBe("IN");
+    expect(regionCode("Japan")).toBe("JP");
+    expect(regionCode("Switzerland")).toBeUndefined();
+  });
+});
+
+describe("Ask OnCo end to end, September 2026 kinds", () => {
+  it("states the evidence grade first and never frames a harm-graded approach as an option", async () => {
+    const a = await askHarness().ask("Is it safe to use alternative medicine instead of chemotherapy?");
+    expect(a.template).toBe("evidence");
+    expect(a.sentences[0].field).toBe("evidence grade");
+    expect(a.sentences[0].text).toMatch(/evidence of harm or interaction/);
+    expect(answerText(a)).toMatch(/does not present it as an option/);
+    expect(a.sentences.some((s) => s.field === "strengths")).toBe(false);
+    for (const s of a.sentences) expect(hasSurvivalFigure(s.text)).toBe(false);
+  });
+
+  it("grades an insufficient approach and says it is not a reason to use it outside a trial", async () => {
+    const a = await askHarness().ask("Is the ketogenic diet proven for glioblastoma?");
+    expect(a.template).toBe("evidence");
+    expect(a.entities[0].id).toBe("ketogenic-diet-glioblastoma");
+    expect(answerText(a)).toMatch(/insufficient evidence/);
+    expect(answerText(a)).toMatch(/not a reason to use it outside a trial/);
+  });
+
+  it("lists what a regulator approved, with brand and year, and reads the drug records", async () => {
+    const a = await askHarness().ask("What did India approve for CAR-T?");
+    expect(a.template).toBe("regional-approvals");
+    const text = answerText(a);
+    expect(text).toMatch(/approved in India by the CDSCO/);
+    expect(text).toMatch(/NexCAR19, 2023/);
+    expect(text).toMatch(/Qartemi/);
+    expect(a.consulted.some((s) => s.id === "varnimcabtagene-autoleucel")).toBe(true);
+  });
+
+  it("lists one YC batch of an investor's portfolio", async () => {
+    const a = await askHarness().ask("Which YC W24 companies are working on cancer?");
+    expect(a.template).toBe("companies");
+    expect(answerText(a)).toMatch(/Winter 2024 \(W24\)/);
+    expect(answerText(a)).toMatch(/Granza Bio/);
+  });
+
+  it("aggregates the investors behind a field's companies", async () => {
+    const a = await askHarness().ask("Which investors back radioligand startups?");
+    expect(a.template).toBe("investors");
+    expect(answerText(a)).toMatch(/Investors backing Radioligand therapy companies/);
+  });
+
+  it("walks the roadmap built around a front", async () => {
+    const a = await askHarness().ask("What is the roadmap for radiation therapy?");
+    expect(a.template).toBe("roadmap");
+    expect(a.sources.some((s) => s.id === "radiation-roadmap")).toBe(true);
+    expect(answerText(a)).toMatch(/Coming next/);
+  });
+
+  it("matches journals on a topic and reads them", async () => {
+    const a = await askHarness().ask("Which journals publish oncology nursing research?");
+    expect(a.template).toBe("journals");
+    expect(answerText(a)).toMatch(/Oncology nursing forum/i);
+    expect(a.consulted.some((s) => s.id === "cancer-nursing")).toBe(true);
+  });
+});
+
 describe("Ask OnCo end to end", () => {
   it("answers the owner's example with the TNBC TL;DR and the definition, cited", async () => {
     const a = await askHarness().ask("What does 'triple-negative' mean in breast cancer?", "UK");
@@ -211,6 +350,19 @@ describe("Ask OnCo end to end", () => {
     }
     expect(nScore / askEval.length).toBeGreaterThanOrEqual(0.88);
     expect(nRecall / askEval.length).toBeGreaterThanOrEqual(0.85);
+  });
+
+  it("clears the floors on the second natural set (India and China, journals, KEGG, companies, investors, complementary, roadmaps; measured 2026-09-10)", { timeout: 120_000 }, async () => {
+    // Before the September 2026 work: rubric 0.74, recall 0.92. After: rubric 1.00, recall 1.00. Floors sit below.
+    const h = askHarness();
+    let score = 0, recall = 0;
+    for (const q of askEvalNew) {
+      const a = await h.ask(q.question, "US");
+      const s = scoreAskEval(q, answerText(a), a.consulted.map((x) => x.id));
+      score += s.score; recall += s.retrievalRecall;
+    }
+    expect(score / askEvalNew.length).toBeGreaterThanOrEqual(0.9);
+    expect(recall / askEvalNew.length).toBeGreaterThanOrEqual(0.9);
   });
 
   it("keeps the extractive path at or above its previous floors", { timeout: 120_000 }, () => {

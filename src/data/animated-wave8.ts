@@ -12,8 +12,9 @@
 import { add, arrow, box, cone, cylinder, disc, dots, ellipsoid, helix, lerp3, line, movePart, octahedron, polyline, ring, setAlpha, sphere, syringe, torus, type Mesh, type Part, type Vec3 } from "@/lib/wireframe";
 import { L, Q, TAU, axes, bar, beam, blob, building, capsule, cascade, cell, clamp, clockFace, cloud, cross, doc, figure, frame, grow, hand, hide, house, leaf, model, mote, moveTo, organ, protein, pulse, put, quad, scene, screen, show, slide, small, stageOf, tick, ticks, tube, vial } from "./animated-wave8-kit";
 import { WAVE8B } from "./animated-wave8b";
+import { WAVE8C } from "./animated-wave8c";
 
-/** Wave 8 registry: part one below (function declarations hoist), part two spread in from ./animated-wave8b.ts. */
+/** Wave 8 registry: part one below (function declarations hoist), parts two and three spread in from ./animated-wave8b.ts and ./animated-wave8c.ts. */
 export const WAVE8: Record<string, () => Mesh> = {
   "telemedicine-teleoncology": teleoncology,
   "multidisciplinary-tumour-board": tumourBoard,
@@ -56,6 +57,7 @@ export const WAVE8: Record<string, () => Mesh> = {
   "black-salve-escharotics": blackSalve,
   "chemistry42": chemistry42,
   ...WAVE8B,
+  ...WAVE8C,
 };
 
 // ---------------------------------------------------------------- 1. telemedicine, teleoncology and telepathology

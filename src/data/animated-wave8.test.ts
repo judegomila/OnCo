@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { graph } from "@/lib/graph";
 import { WAVE8 } from "./animated-wave8";
 import { WAVE8B } from "./animated-wave8b";
+import { WAVE8C } from "./animated-wave8c";
 import { WAVE3 } from "./animated-wave3";
 import { WAVE4 } from "./animated-wave4";
 import { WAVE5 } from "./animated-wave5";
@@ -17,6 +18,8 @@ describe("wave 8 animated technology schematics", () => {
     expect(keys.length).toBeGreaterThanOrEqual(10);
     expect(keys.length % 10, "whole batches of ten").toBe(0);
     for (const k of Object.keys(WAVE8B)) expect(k in WAVE8, `${k} from part two merged into WAVE8`).toBe(true);
+    for (const k of Object.keys(WAVE8C)) expect(k in WAVE8, `${k} from part three merged into WAVE8`).toBe(true);
+    for (const k of Object.keys(WAVE8B)) expect(k in WAVE8C, `${k} not duplicated across parts`).toBe(false);
     const g = graph();
     for (const k of keys) {
       const e = g.get(k);

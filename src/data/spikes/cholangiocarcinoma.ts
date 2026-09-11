@@ -174,7 +174,7 @@ const trials: TrialInput[] = [
 const pairings: PairingInput[] = [
   pair({ id: "gemcis-plus-io-btc", name: "Gemcitabine-cisplatin + PD-(L)1 blockade in biliary cancer", a: "gemcitabine-cisplatin", b: "checkpoint-inhibitor", pairingType: "combination",
     tldr: "Chemotherapy plus immunotherapy is now the first treatment for advanced bile duct cancer, with a small average gain and a minority of long survivors.",
-    summary: "TOPAZ-1 (durvalumab, OS HR 0.76) and KEYNOTE-966 (pembrolizumab, OS HR 0.83) both positive; 2-year survival roughly doubled. No predictive biomarker (PD-L1, TMB, MSI) reliably identifies the long-term survivors.",
+    summary: "Gemcitabine plus cisplatin combined with a PD-1 or PD-L1 checkpoint inhibitor is now the first-line standard for advanced biliary tract cancer, including gallbladder cancer. The pairing rests on chemotherapy-induced immunogenic cell death working together with checkpoint blockade in a group of cancers whose stroma is inflamed. Two phase 3 trials support it: TOPAZ-1 added durvalumab and KEYNOTE-966 added pembrolizumab to the chemotherapy backbone, and both were positive, with a modest average gain and a minority of patients who become long-term survivors. No predictive biomarker, whether PD-L1, tumour mutational burden or microsatellite instability, reliably identifies who those long survivors will be.",
     rationale: "Chemotherapy-induced immunogenic cell death plus checkpoint blockade; biliary cancers have an inflamed stroma.",
     evidence: "Two phase 3 trials.",
     trials: ["topaz-1", "keynote-966"], cancers: ["cholangiocarcinoma"] }),
@@ -184,7 +184,7 @@ const pairings: PairingInput[] = [
 const ideas: IdeaInput[] = [
   idea({ id: "idea-btc-ctdna-fgfr-resistance", name: "ctDNA-guided switching among FGFR inhibitors", maturity: "early-clinical",
     tldr: "Track FGFR2 resistance mutations in blood and switch to the next-generation inhibitor that still covers them, before the scan shows progression.",
-    summary: "Polyclonal FGFR2 kinase-domain mutations emerge on pemigatinib and futibatinib and are detectable in cfDNA weeks before radiographic progression; tinengotinib and lirafugratinib retain activity against several of them.",
+    summary: "In biliary tract cancer driven by FGFR2 fusions, resistance to pemigatinib and futibatinib arises through polyclonal FGFR2 kinase-domain mutations that appear in cell-free DNA weeks before scans show progression. The idea is to monitor plasma ctDNA serially and switch pre-emptively to a next-generation inhibitor such as tinengotinib or lirafugratinib that still covers the emerging mutation. The rationale is that these resistance mutations are drug-specific and predictable, and molecular progression precedes clinical progression. The proposed test is a randomised phase 2 of ctDNA-triggered versus imaging-triggered switching with time to chemotherapy as the endpoint, at an early clinical stage, bearing on the liquid biopsy and kinase inhibitor technologies and the FGFR2 target.",
     hypothesis: "Serial ctDNA monitoring with pre-emptive switching to a resistance-mutation-covering FGFR inhibitor extends time on FGFR-directed therapy compared with switching at radiographic progression.",
     rationale: "Resistance mutations are drug-specific and predictable; molecular progression precedes clinical progression.",
     test: "Randomised phase 2: ctDNA-triggered switch vs standard imaging-triggered switch; endpoint time to chemotherapy.",

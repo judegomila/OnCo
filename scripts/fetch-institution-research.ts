@@ -2,18 +2,30 @@
  * Oncology research output per institution from OpenAlex (CC0), five publication years.
  *
  * For every institution record: resolve an OpenAlex institution id (the id already recorded in
- * public/openalex/institutions.json first, then ROR when the record carries one, then
- * /institutions?search= restricted to the record's country, keeping only confident matches), then
- * pull works whose primary topic subfield is Oncology (2730) with authorships.institutions.lineage
- * so that a university's hospitals count: works and citations per year, open-access, clinical-trial
- * and review counts, the 15 most-cited works, and the 10 authors with the most works.
+ * public/openalex/institutions.json first; otherwise the free ROR affiliation matcher picks the ROR
+ * record for the name, checked against the record's country, and one OpenAlex lookup turns the ROR id
+ * into an OpenAlex id; a plain OpenAlex name search is only tried with --search because it costs ten
+ * times as much), then pull works whose primary topic subfield is Oncology (2730) with
+ * authorships.institutions.lineage so that a university's hospitals count: works and citations per
+ * year, open-access, clinical-trial and review counts, the 15 most-cited works, and the 10 authors with
+ * the most works.
  *
- * Writes public/openalex/research/<institutionId>.json (about 10 KB each) and the counts-only
- * public/openalex/research-index.json. Every number comes from the API response.
+ * Writes public/openalex/research/<institutionId>.json (about 6 KB each) and rebuilds the counts-only
+ * public/openalex/research-index.json from every file on disk. Every number comes from the API response.
  *
- *   npm run fetch:research                 refresh (per-URL cache in /tmp keeps re-runs cheap)
+ * Budget. OpenAlex meters requests: the free tier is 1,000 credits a day (a works query costs 1, an
+ * institution lookup by ROR 1, a name search 10), resetting at midnight UTC. One institution costs about
+ * 7 credits, so a run covers roughly 140 institutions and the corpus takes four daily runs. The script
+ * processes institutions without a file first, then the oldest snapshots, and stops cleanly when the
+ * budget is spent, keeping everything already written. Set OPENALEX_API_KEY for a paid budget.
+ *
+ *   npm run fetch:research                 refresh what the budget allows (per-URL cache in /tmp keeps re-runs cheap)
  *   npm run fetch:research -- --force      ignore the /tmp cache
  *   npm run fetch:research -- --only=id    one institution
+ *   npm run fetch:research -- --limit=N    at most N institutions this run
+ *   npm run fetch:research -- --budget=N   stop after spending N credits (default 900)
+ *   npm run fetch:research -- --search     allow OpenAlex name search (10 credits each) when ROR finds nothing
+ *   npm run fetch:research -- --retry-unresolved  retry institutions marked unresolved in the last 30 days
  *   npm run fetch:research -- --people     also add resolvable DOIs to matched people with fewer than 3 papers
  *
  * Polite pool: mailto on every request, about 5 requests per second.
@@ -41,15 +53,28 @@ const ALLOWED_TYPES = new Set(["education", "healthcare", "facility", "governmen
 const args = process.argv.slice(2);
 const FORCE = args.includes("--force");
 const ONLY = args.find((a) => a.startsWith("--only="))?.slice(7);
+const LIMIT = Number(args.find((a) => a.startsWith("--limit="))?.slice(8) ?? Infinity);
+const BUDGET = Number(args.find((a) => a.startsWith("--budget="))?.slice(9) ?? 900);
+const SEARCH = args.includes("--search");
+const RETRY_UNRESOLVED = args.includes("--retry-unresolved");
 const PEOPLE = args.includes("--people");
+const API_KEY = process.env.OPENALEX_API_KEY;
+const UNRESOLVED_RETRY_DAYS = 30;
 
 type Json = Record<string, unknown>;
 
+/** Thrown when OpenAlex reports the daily budget spent (or the run's own cap is reached); the run then writes what it has. */
+class BudgetExhausted extends Error {}
+
+const budget = { spent: 0, remaining: null as number | null };
+
 let lastRequest = 0;
+/** GET from OpenAlex through the /tmp cache, spacing requests and tracking the credit budget. */
 async function get(url: string): Promise<Json | null> {
-  const full = `${url}${url.includes("?") ? "&" : "?"}mailto=${MAILTO}`;
-  const key = join(CACHE_DIR, `${createHash("sha1").update(full).digest("hex")}.json`);
+  const full = `${url}${url.includes("?") ? "&" : "?"}mailto=${MAILTO}${API_KEY ? `&api_key=${API_KEY}` : ""}`;
+  const key = join(CACHE_DIR, `${createHash("sha1").update(full.replace(/&api_key=[^&]*/, "")).digest("hex")}.json`);
   if (!FORCE && existsSync(key)) return JSON.parse(readFileSync(key, "utf8")) as Json;
+  if (budget.spent >= BUDGET) throw new BudgetExhausted(`run cap of ${BUDGET} credits reached`);
   for (let attempt = 0; attempt < 6; attempt++) {
     const wait = lastRequest + MIN_INTERVAL_MS - Date.now();
     if (wait > 0) await sleep(wait);
@@ -57,12 +82,39 @@ async function get(url: string): Promise<Json | null> {
     let r: Response;
     try { r = await fetch(full, { headers: { "User-Agent": `OnCo/1.0 (mailto:${MAILTO})`, Accept: "application/json" }, signal: AbortSignal.timeout(30_000) }); }
     catch { await sleep(1500 * 2 ** attempt); continue; }
+    const remaining = Number(r.headers.get("x-ratelimit-remaining"));
+    if (Number.isFinite(remaining) && r.headers.has("x-ratelimit-remaining")) budget.remaining = remaining;
     if (r.ok) {
+      budget.spent += Number(r.headers.get("x-ratelimit-credits-used") ?? r.headers.get("x-ratelimit-credits-required") ?? 1) || 1;
       const j = (await r.json()) as Json;
       mkdirSync(CACHE_DIR, { recursive: true });
       writeFileSync(key, JSON.stringify(j));
       return j;
     }
+    if (r.status === 429) {
+      const retryAfter = Number(r.headers.get("retry-after") ?? 0);
+      if (retryAfter > 300 || budget.remaining === 0) throw new BudgetExhausted(`OpenAlex daily budget spent; resets in ${Math.round(retryAfter / 60)} min`);
+      await sleep(Math.max(1500 * 2 ** attempt, retryAfter * 1000));
+      continue;
+    }
+    if (r.status >= 500) { await sleep(1500 * 2 ** attempt); continue; }
+    return null;
+  }
+  return null;
+}
+
+/** GET from the ROR API (free, no budget) through the same /tmp cache. */
+async function getRor(url: string): Promise<Json | null> {
+  const key = join(CACHE_DIR, `${createHash("sha1").update(url).digest("hex")}.json`);
+  if (!FORCE && existsSync(key)) return JSON.parse(readFileSync(key, "utf8")) as Json;
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const wait = lastRequest + MIN_INTERVAL_MS - Date.now();
+    if (wait > 0) await sleep(wait);
+    lastRequest = Date.now();
+    let r: Response;
+    try { r = await fetch(url, { headers: { "User-Agent": `OnCo/1.0 (mailto:${MAILTO})`, Accept: "application/json" }, signal: AbortSignal.timeout(30_000) }); }
+    catch { await sleep(1500 * 2 ** attempt); continue; }
+    if (r.ok) { const j = (await r.json()) as Json; mkdirSync(CACHE_DIR, { recursive: true }); writeFileSync(key, JSON.stringify(j)); return j; }
     if (r.status === 429 || r.status >= 500) { await sleep(1500 * 2 ** attempt); continue; }
     return null;
   }
@@ -81,18 +133,39 @@ function searchNames(inst: Institution): string[] {
   return [...new Set([main, ...(inst.aka ?? []), ...rest].filter((s) => s && /[a-z]/i.test(s)))];
 }
 
+type RorItem = { chosen: boolean; score: number; organization: { id: string; names: Array<{ value: string; types: string[] }>; locations: Array<{ geonames_details?: { country_code?: string } }>; types: string[] } };
+const ROR_TYPES = new Set(["healthcare", "education", "facility", "government", "nonprofit", "other", "funder"]);
+
+/** ROR's affiliation matcher: the chosen organisation for a name string, when it is confident and in the right country. */
+async function rorFor(inst: Institution): Promise<{ ror: string; name: string } | { reason: string }> {
+  let reason = "ROR affiliation matcher found nothing";
+  for (const q of searchNames(inst)) {
+    const j = await getRor(`https://api.ror.org/v2/organizations?affiliation=${encodeURIComponent(q)}`);
+    const items = (j?.items as RorItem[] | undefined) ?? [];
+    const chosen = items.find((i) => i.chosen) ?? items.find((i) => i.score >= 0.95);
+    if (!chosen) continue;
+    const name = chosen.organization.names.find((n) => n.types.includes("ror_display"))?.value ?? chosen.organization.names[0]?.value ?? "";
+    const country = chosen.organization.locations[0]?.geonames_details?.country_code;
+    if (country && country !== inst.country) { reason = `ROR chose "${name}" in ${country}, record says ${inst.country}`; continue; }
+    if (!chosen.organization.types.some((t) => ROR_TYPES.has(t))) { reason = `ROR chose "${name}" of type ${chosen.organization.types.join("/")}`; continue; }
+    if (chosen.score < 0.9) { reason = `ROR best "${name}" scored ${chosen.score.toFixed(2)}`; continue; }
+    return { ror: chosen.organization.id, name };
+  }
+  return { reason };
+}
+
 async function resolve(inst: Institution, previous: Record<string, { openalexId: string; openalexName: string }>): Promise<Resolved | { reason: string }> {
   const prev = previous[inst.id];
-  if (prev) {
-    const j = await get(`${API}/institutions/${prev.openalexId}?select=id,display_name,ror`);
-    if (j && typeof j.display_name === "string") return { oid: prev.openalexId, oname: j.display_name, ror: (j.ror as string | null) ?? null, confidence: "override" };
-  }
-  const ror = (inst as unknown as { ror?: string }).ror;
-  if (ror) {
-    const j = await get(`${API}/institutions?filter=ror:${encodeURIComponent(ror)}&select=id,display_name,ror&per_page=1`);
+  if (prev) return { oid: prev.openalexId, oname: prev.openalexName, ror: null, confidence: "override" };
+  const declared = (inst as unknown as { ror?: string }).ror;
+  const viaRor = declared ? { ror: declared, name: inst.name } : await rorFor(inst);
+  if ("ror" in viaRor) {
+    const j = await get(`${API}/institutions?filter=ror:${encodeURIComponent(viaRor.ror)}&select=id,display_name,ror,works_count&per_page=1`);
     const hit = ((j?.results as Candidate[] | undefined) ?? [])[0];
-    if (hit) return { oid: short(hit.id), oname: hit.display_name, ror: hit.ror ?? null, confidence: "ror" };
+    if (hit) return { oid: short(hit.id), oname: hit.display_name, ror: hit.ror ?? viaRor.ror, confidence: "ror" };
+    if (!SEARCH) return { reason: `ROR ${viaRor.ror} (${viaRor.name}) has no OpenAlex institution` };
   }
+  if (!SEARCH) return { reason: "reason" in viaRor ? viaRor.reason : "no OpenAlex institution for the ROR id" };
   let bestReason = "no search result";
   // Each name, then its distinguishing words alone ("Wake Forest" for "Wake Forest Baptist Comprehensive Cancer Center").
   const queries = [...new Set(searchNames(inst).flatMap((q) => { const core = institutionCoreTokens(q).join(" "); return core && core !== q.toLowerCase() && core.length >= 4 ? [q, core] : [q]; }))];
@@ -250,45 +323,90 @@ function matchBracket(src: string, openAt: number): number {
   return -1;
 }
 
+const readResearchFile = (path: string): InstitutionResearch | null => { try { return JSON.parse(readFileSync(path, "utf8")) as InstitutionResearch; } catch { return null; } };
+
+const toIndexRow = (res: InstitutionResearch): ResearchIndexRow => ({ openalexId: res.openalexId, openalexName: res.openalexName, confidence: res.confidence, works: res.works, cited: res.cited, byYear: res.byYear, openAccess: res.openAccess, clinicalTrials: res.clinicalTrials, reviews: res.reviews });
+
 async function main() {
   const g = graph();
   const years = researchWindow();
   const dir = publicPath("openalex", "research");
   mkdirSync(dir, { recursive: true });
+  const indexFile = publicPath("openalex", "research-index.json");
+  const prevIndex: ResearchIndex | null = existsSync(indexFile) ? (JSON.parse(readFileSync(indexFile, "utf8")) as ResearchIndex) : null;
   const prevFile = publicPath("openalex", "institutions.json");
   const previous: Record<string, { openalexId: string; openalexName: string }> = existsSync(prevFile) ? JSON.parse(readFileSync(prevFile, "utf8")).institutions : {};
   const people = g.kind("person") as Person[];
   const fileOf = PEOPLE ? personFiles() : new Map<string, string>();
   const planned = new Map<string, number>();
   const additions: Addition[] = [];
+  const institutions = (g.kind("institution") as Institution[]).filter((i) => !SKIP.has(i.id));
+  const known = new Set(institutions.map((i) => i.id));
+
+  // Unresolved verdicts carry over ("reason (checked YYYY-MM-DD)") and are retried after 30 days.
+  const unresolved: Record<string, string> = {};
+  const recentlyUnresolved = new Set<string>();
+  const cutoff = new Date(Date.now() - UNRESOLVED_RETRY_DAYS * 86_400_000).toISOString().slice(0, 10);
+  for (const [id, reason] of Object.entries(prevIndex?.unresolved ?? {})) {
+    if (!known.has(id)) continue;
+    const checked = /\(checked (\d{4}-\d{2}-\d{2})\)$/.exec(reason)?.[1];
+    unresolved[id] = reason;
+    if (checked && checked > cutoff && !RETRY_UNRESOLVED) recentlyUnresolved.add(id);
+  }
+  // Existing snapshots: keep them, and refresh the oldest first once every institution has one.
+  const onDisk = new Map<string, InstitutionResearch>();
+  for (const f of readdirSync(dir)) {
+    const id = f.replace(/\.json$/, "");
+    if (!f.endsWith(".json")) continue;
+    if (!known.has(id)) { unlinkSync(join(dir, f)); continue; }
+    const r = readResearchFile(join(dir, f));
+    if (r) onDisk.set(id, r); else unlinkSync(join(dir, f));
+  }
+  const queue = institutions
+    .filter((i) => (!ONLY || i.id === ONLY) && (ONLY || !recentlyUnresolved.has(i.id)))
+    // Order: no snapshot yet (the curated institutions.json set first, since they need no lookup), then oldest snapshot first.
+    .sort((a, b) => (onDisk.get(a.id)?.fetched ?? "").localeCompare(onDisk.get(b.id)?.fetched ?? "") || Number(!previous[a.id]) - Number(!previous[b.id]) || a.id.localeCompare(b.id))
+    .slice(0, Number.isFinite(LIMIT) ? LIMIT : undefined);
+
+  let written = 0, stopped: string | null = null;
+  try {
+    for (const inst of queue) {
+      const r = await resolve(inst, previous);
+      if ("reason" in r) { unresolved[inst.id] = `${r.reason} (checked ${today()})`; console.log(`${inst.id.padEnd(30)} unresolved: ${r.reason}`); continue; }
+      const res = await pull(inst, r, years);
+      if (!res) { unresolved[inst.id] = `works query failed (checked ${today()})`; console.log(`${inst.id.padEnd(30)} works query failed`); continue; }
+      writeJson(join(dir, `${inst.id}.json`), res);
+      onDisk.set(inst.id, res);
+      delete unresolved[inst.id];
+      written++;
+      console.log(`${inst.id.padEnd(30)} ${res.openalexId.padEnd(12)} ${res.openalexName.slice(0, 38).padEnd(38)} works=${String(res.works).padStart(6)} cited=${String(res.cited).padStart(8)} [${res.confidence}]${budget.remaining !== null ? ` credits left ${budget.remaining}` : ""}`);
+      if (PEOPLE && res.works > 0) additions.push(...(await peopleAdditions(res, people, fileOf, planned)));
+    }
+  } catch (e) {
+    if (!(e instanceof BudgetExhausted)) throw e;
+    stopped = e.message;
+  }
+
   const index: ResearchIndex = { fetched: today(), source: "https://openalex.org", license: "CC0", subfield: ONCOLOGY_SUBFIELD, years, institutions: {}, unresolved: {} };
   const seenOpenalex = new Map<string, string>();
-  let written = 0;
-  const list = (g.kind("institution") as Institution[]).filter((i) => !SKIP.has(i.id) && (!ONLY || i.id === ONLY));
-  for (const inst of list) {
-    const r = await resolve(inst, previous);
-    if ("reason" in r) { index.unresolved[inst.id] = r.reason; console.log(`${inst.id.padEnd(30)} unresolved: ${r.reason}`); continue; }
-    const res = await pull(inst, r, years);
-    if (!res) { index.unresolved[inst.id] = "works query failed"; console.log(`${inst.id.padEnd(30)} works query failed`); continue; }
-    writeJson(join(dir, `${inst.id}.json`), res);
-    written++;
-    const row: ResearchIndexRow = { openalexId: res.openalexId, openalexName: res.openalexName, confidence: res.confidence, works: res.works, cited: res.cited, byYear: res.byYear, openAccess: res.openAccess, clinicalTrials: res.clinicalTrials, reviews: res.reviews };
-    index.institutions[inst.id] = row;
+  for (const id of [...onDisk.keys()].sort()) {
+    const res = onDisk.get(id)!;
+    index.institutions[id] = toIndexRow(res);
     const dupe = seenOpenalex.get(res.openalexId);
-    if (dupe) console.log(`  note: ${inst.id} shares OpenAlex id ${res.openalexId} with ${dupe}`);
-    seenOpenalex.set(res.openalexId, inst.id);
-    console.log(`${inst.id.padEnd(30)} ${res.openalexId.padEnd(12)} ${res.openalexName.slice(0, 38).padEnd(38)} works=${String(res.works).padStart(6)} cited=${String(res.cited).padStart(8)} [${res.confidence}]`);
-    if (PEOPLE && res.works > 0) additions.push(...(await peopleAdditions(res, people, fileOf, planned)));
+    if (dupe) console.log(`  note: ${id} shares OpenAlex id ${res.openalexId} with ${dupe}`);
+    seenOpenalex.set(res.openalexId, id);
   }
-  // Drop files for institutions no longer in the corpus or no longer resolved (keeps the folder honest).
-  if (!ONLY) for (const f of readdirSync(dir)) { const id = f.replace(/\.json$/, ""); if (!index.institutions[id]) unlinkSync(join(dir, f)); }
-  writeJson(publicPath("openalex", "research-index.json"), index);
-  const sizes = readdirSync(dir).map((f) => readFileSync(join(dir, f)).length);
+  for (const id of Object.keys(unresolved).sort()) if (!index.institutions[id]) index.unresolved[id] = unresolved[id];
+  writeJson(indexFile, index);
+  const sizes = [...onDisk.keys()].map((id) => readFileSync(join(dir, `${id}.json`)).length);
   const avg = sizes.length ? Math.round(sizes.reduce((a, b) => a + b, 0) / sizes.length / 1024) : 0;
-  console.log(`research: ${Object.keys(index.institutions).length} institutions resolved, ${written} files written (about ${avg} KB each), ${Object.keys(index.unresolved).length} unresolved`);
+  const pending = institutions.length - onDisk.size - Object.keys(index.unresolved).length;
+  console.log(`research: ${onDisk.size} institutions with a snapshot (${written} written this run, about ${avg} KB each), ${Object.keys(index.unresolved).length} unresolved, ${pending} not yet attempted; ${budget.spent} credits spent${budget.remaining !== null ? `, ${budget.remaining} left today` : ""}`);
+  if (stopped) console.log(`research: stopped early: ${stopped}. Run again after the reset to continue.`);
   if (PEOPLE) {
     const applied = applyAdditions(additions);
     const peopleGaining = new Set(additions.map((a) => a.personId)).size;
+    mkdirSync(CACHE_DIR, { recursive: true });
     writeJson(join(CACHE_DIR, "people-additions.json"), additions);
     console.log(`people: ${applied} papers added to ${peopleGaining} people (list in ${CACHE_DIR}/people-additions.json)`);
   }

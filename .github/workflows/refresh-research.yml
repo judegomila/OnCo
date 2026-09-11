@@ -20,7 +20,12 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run fetch:research -- --force
+      # OpenAlex meters requests (1,000 free credits a day; about 7 per institution), so each run refreshes the
+      # institutions without a snapshot first and then the oldest ones. OPENALEX_API_KEY is optional: set the
+      # secret to draw on a paid budget and cover the whole corpus in one run.
+      - run: npm run fetch:research
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
       - run: npm run validate
       - run: npm test -- src/lib/research.test.ts
       - uses: peter-evans/create-pull-request@v7
@@ -30,6 +35,7 @@ jobs:
           commit-message: "chore: refresh institution research output from OpenAlex"
           body: |
             Automated weekly pull of oncology works per institution from the OpenAlex works API (CC0): works and citations for the last five publication years, counts per year, open-access, clinical-trial and review counts, the 15 most-cited works and the 10 authors with the most works.
+            Each run covers what the free daily budget allows (about 140 institutions), newest gaps first, then the oldest snapshots; `unresolved` in the index lists institutions with no confident match.
             Files under `public/openalex/research/` and `public/openalex/research-index.json` changed. Institution pages show the Research output panel from these files; /universities/ reads the five-year columns from the index.
           labels: automated, pipeline
           delete-branch: true

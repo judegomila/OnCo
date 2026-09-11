@@ -80,8 +80,8 @@ export default function HistoryPage() {
                                       <a className="text-xs text-muted underline" href={`/history/${r.id}.json`}>all changes</a>
                                     </div>
                                     {r.type === "changed" && (
-                                      <table className="onco mt-2"><thead><tr><th>Field</th><th>Before</th><th>After</th></tr></thead>
-                                        <tbody>{r.fields.map((f) => <tr key={f.field}><td><code className="text-xs">{f.field}</code></td><td className="text-muted text-xs break-words max-w-md">{f.before === undefined ? <em>absent</em> : show(f.before)}</td><td className="text-xs break-words max-w-md">{f.after === undefined ? <em>removed</em> : show(f.after)}</td></tr>)}</tbody></table>
+                                      <div className="overflow-x-auto"><table className="onco mt-2"><thead><tr><th>Field</th><th>Before</th><th>After</th></tr></thead>
+                                        <tbody>{r.fields.map((f) => <tr key={f.field}><td><code className="text-xs">{f.field}</code></td><td className="text-muted text-xs break-words max-w-md">{f.before === undefined ? <em>absent</em> : show(f.before)}</td><td className="text-xs break-words max-w-md">{f.after === undefined ? <em>removed</em> : show(f.after)}</td></tr>)}</tbody></table></div>
                                     )}
                                     {r.type === "removed" && <div className="text-xs text-muted mt-1">Fields: {r.fields.map((f) => f.field).join(", ")}</div>}
                                   </li>

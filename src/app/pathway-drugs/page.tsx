@@ -80,7 +80,7 @@ export default function PathwayDrugsPage() {
                           <td className="min-w-[260px]">
                             {gap ? <span className="chip border border-dashed border-rose-400 text-rose-700 dark:text-rose-300 text-xs">Druggable node, no drug in corpus</span>
                               : ps.length ? <div className="flex flex-wrap gap-1.5">{ps.map((x) => <Tip key={x.id} title={x.name} text={`${x.modality} · ${STATUS_LABEL[x.status ?? ""] ?? x.status ?? "status unknown"}`} href={x.route}><Link href={x.route} className={`chip ${statusClass(x.status)}`}>{x.name}</Link></Tip>)}</div>
-                              : <span className="text-muted/50">—</span>}
+                              : <span className="text-muted/50">-</span>}
                           </td>
                           <td className="hidden lg:table-cell text-muted text-xs">{b !== undefined ? STATUS_LABEL[ORDER[b]] : gap ? "none" : ""}</td>
                         </tr>

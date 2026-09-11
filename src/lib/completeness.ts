@@ -110,6 +110,17 @@ export function host(url?: string): string | undefined {
   try { return new URL(url.startsWith("http") ? url : `https://${url}`).hostname.replace(/^www\./, "").toLowerCase(); } catch { return undefined; }
 }
 
+/**
+ * An absolute http(s) URL fit for an href, or undefined. Source lists write websites loosely ("www.x.fi",
+ * "a.lt, b.lt", "htttps://"), and a bare host in an href becomes a broken relative link on the page.
+ */
+export function webUrl(url?: string): string | undefined {
+  if (!url) return undefined;
+  const first = url.split(/[,\s]+/)[0].replace(/^h+t+p+s?:\/+/i, (m) => (/s:/i.test(m) ? "https://" : "http://"));
+  const abs = /^https?:\/\//i.test(first) ? first : `https://${first}`;
+  try { const u = new URL(abs); return u.hostname.includes(".") ? u.toString() : undefined; } catch { return undefined; }
+}
+
 const TITLES = /\b(prof|professor|dr|drs|mr|mrs|ms|md|phd|dsc|frcp|frcs|mba|msc|mph|jr|sr|dott|dottssa|univ|priv|doz|med|dipl|ing|hab|h c|em|emer|sir|dame|hon|pd|obe|cbe|mbe)\b\.?/g;
 /** "Prof. Dr Shahrokh Shariat" -> "shahrokh shariat". */
 export function personKey(s: string): string {
@@ -299,7 +310,7 @@ function institutionsAgainst(list: Array<{ names: string[]; website?: string; ur
       const cand = it.names.flatMap((n) => nameParts(n)).map((p) => norm(p.replace(/^the\s+/i, ""))).flatMap((n) => [n, n.replace(/\bcomprehensive\b/g, " ").replace(/\s+/g, " ").trim()]).filter((n) => n.length >= 4);
       const hit = (h && hosts.has(`host:${h}`)) || cand.some((c) => names.some((n) => institutionNamesAgree(c, n)));
       if (hit) ours++;
-      else missing.push({ name: it.names[0], url: it.url ?? it.website, detail: it.detail });
+      else missing.push({ name: it.names[0], url: webUrl(it.url ?? it.website), detail: it.detail });
     }
     return { ours, missing, listed: true };
   };
@@ -313,7 +324,7 @@ function peopleOeciLeaders(g: Graph): Result {
     if (!m.leaders.length) continue;
     const leader = m.leaders[0];
     if (keys.has(personKey(leader))) ours++;
-    else missing.push({ name: leader, url: m.website, detail: `${m.altName ?? m.name}, ${m.country}` });
+    else missing.push({ name: leader, url: webUrl(m.website), detail: `${m.altName ?? m.name}, ${m.country}` });
   }
   return { ours, missing, listed: true };
 }

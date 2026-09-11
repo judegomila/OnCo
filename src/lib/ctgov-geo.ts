@@ -60,7 +60,7 @@ export function parseGeoStudies(json: { studies?: Raw[] }, center?: { lat: numbe
     return {
       nctId: ps.identificationModule?.nctId ?? "",
       title: ps.identificationModule?.briefTitle ?? "",
-      phase: phases.length ? phases.map((p) => p.replace("EARLY_PHASE1", "Early 1").replace("PHASE", "").replace("NA", "N/A")).join("/") : "—",
+      phase: phases.length ? phases.map((p) => p.replace("EARLY_PHASE1", "Early 1").replace("PHASE", "").replace("NA", "N/A")).join("/") : "-",
       status: ps.statusModule?.overallStatus ?? "",
       sponsor: ps.sponsorCollaboratorsModule?.leadSponsor?.name ?? "",
       start: ps.statusModule?.startDateStruct?.date,

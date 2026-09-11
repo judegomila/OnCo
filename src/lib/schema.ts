@@ -251,7 +251,7 @@ export const InstitutionSchema = Base.extend({
   nci: z.enum(["comprehensive", "clinical", "basic"]).optional(),
   /** Newsweek / Statista World's Best Specialized Hospitals 2026, Oncology rank. */
   newsweekOncology2026: z.number().int().optional(),
-  /** Parent university, when the institution is a cancer center inside one. */
+  /** Parent university, when the institution is a cancer centre inside one. */
   university: z.string().optional(),
   programs: z.array(z.string()).default([]),
 });

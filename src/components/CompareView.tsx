@@ -53,7 +53,7 @@ export function CompareView({ items }: { items: CompareItem[] }) {
     const keys: string[] = [];
     for (const it of chosen) for (const [k] of it.fields) if (!keys.includes(k)) keys.push(k);
     return keys.map((k) => {
-      const vals = chosen.map((it) => it.fields.find((f) => f[0] === k)?.[1] ?? "—");
+      const vals = chosen.map((it) => it.fields.find((f) => f[0] === k)?.[1] ?? "-");
       const same = vals.every((v) => v === vals[0]);
       return { k, vals, same };
     });
@@ -96,14 +96,14 @@ export function CompareView({ items }: { items: CompareItem[] }) {
             {shown.map(({ k, vals, same }) => (
               <tr key={k} className={same ? "" : "bg-amber-50/40 dark:bg-amber-950/10"}>
                 <td className="font-medium text-muted">{k}{!same && <span className="ml-1 text-amber-600" title="differs">•</span>}</td>
-                {vals.map((v, i) => <td key={i} className={`text-sm ${!same && v !== "—" ? "text-foreground" : "text-foreground/80"}`}>{v}</td>)}
+                {vals.map((v, i) => <td key={i} className={`text-sm ${!same && v !== "-" ? "text-foreground" : "text-foreground/80"}`}>{v}</td>)}
               </tr>
             ))}
             {shown.length === 0 && <tr><td colSpan={chosen.length + 1} className="text-center text-muted py-8">No differing fields.</td></tr>}
           </tbody>
         </table>
       </div>
-      <p className="text-xs text-muted mt-3">Rows marked • differ between the selected items. Fields come from the OnCo records; empty fields render as —. Add more data to a record on GitHub to fill a gap.</p>
+      <p className="text-xs text-muted mt-3">Rows marked • differ between the selected items. Fields come from the OnCo records; an empty field shows a dash. To fill a gap, use the suggest-an-edit form on that record&apos;s page.</p>
     </div>
   );
 }

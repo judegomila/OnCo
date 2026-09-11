@@ -121,7 +121,7 @@ export function ResistanceMatrix({ rows }: { rows: MatrixRow[] }) {
                       {n > 0 && (
                         <div role="tooltip" className={`pointer-events-none invisible group-hover:visible group-focus-within:visible absolute z-20 top-full mt-1 w-56 card p-2.5 text-xs shadow-lg ${ci >= CATEGORIES.length - 2 ? "right-0" : "left-0"}`}>
                           <div className="flex items-center gap-1.5 font-semibold" style={{ color: c.color }}><CategoryDot category={c.id} size={7} /> {c.label} · {r.label}</div>
-                          <ul className="mt-1 space-y-0.5 text-foreground/90">{names.map((nm) => <li key={nm} className="leading-snug">– {nm}</li>)}</ul>
+                          <ul className="mt-1 space-y-0.5 text-foreground/90 list-disc ps-4">{names.map((nm) => <li key={nm} className="leading-snug">{nm}</li>)}</ul>
                         </div>
                       )}
                     </div>

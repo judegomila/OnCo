@@ -173,7 +173,7 @@ export function Dossier({ target: t }: { target: Target }) {
                     <td className="font-medium whitespace-nowrap">{f}<div className="text-xs text-muted font-normal">{d.drugs.filter((x) => modalityFamily(x.modality) === f).length}</div></td>
                     {usedPhases.map((p) => {
                       const cell = d.drugs.filter((x) => modalityFamily(x.modality) === f && phaseOf(x.status) === p.key).sort((a, b) => a.name.localeCompare(b.name));
-                      return <td key={p.key} className="min-w-[140px]">{cell.length ? <div className="flex flex-wrap gap-1.5">{cell.map((x) => <DrugChip key={x.id} id={x.id} name={x.name} route={routeFor(x)} tldr={x.tldr} className={statusClass(x.status)} />)}</div> : <span className="text-muted/50">—</span>}</td>;
+                      return <td key={p.key} className="min-w-[140px]">{cell.length ? <div className="flex flex-wrap gap-1.5">{cell.map((x) => <DrugChip key={x.id} id={x.id} name={x.name} route={routeFor(x)} tldr={x.tldr} className={statusClass(x.status)} />)}</div> : <span className="text-muted/50">-</span>}</td>;
                     })}
                   </tr>
                 ))}

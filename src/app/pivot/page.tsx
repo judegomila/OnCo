@@ -33,7 +33,7 @@ export default function PivotPage() {
   }
   for (const x of g.kind("technology")) {
     const dims = empty();
-    dims.cancer = names(x.cancers); dims.target = names(x.targets); dims.modality = [x.generation ?? "—"]; dims.company = names([...new Set([...x.companies, ...(g.incoming(x.id).get("company") ?? []).map((c) => c.id)])]); dims.front = x.sections.map((id) => g.must(id).name); dims.status = x.status ? [x.status] : []; dims.phase = x.status?.startsWith("phase") ? [x.status.replace("phase-", "Phase ")] : x.status === "approved" || x.status === "standard-of-care" ? ["Approved / standard"] : [];
+    dims.cancer = names(x.cancers); dims.target = names(x.targets); dims.modality = [x.generation ?? "-"]; dims.company = names([...new Set([...x.companies, ...(g.incoming(x.id).get("company") ?? []).map((c) => c.id)])]); dims.front = x.sections.map((id) => g.must(id).name); dims.status = x.status ? [x.status] : []; dims.phase = x.status?.startsWith("phase") ? [x.status.replace("phase-", "Phase ")] : x.status === "approved" || x.status === "standard-of-care" ? ["Approved / standard"] : [];
     facts.push({ id: x.id, kind: "technology", name: x.name, route: routeFor(x), status: x.status, rank: 0, dims });
   }
 

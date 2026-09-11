@@ -5,7 +5,7 @@ import { Logo } from "./Logo";
 
 /** A few linked names, then a count of the rest, so rows stay one or two lines tall. */
 function Few({ items, max = 3 }: { items: Entity[]; max?: number }) {
-  if (!items.length) return <span className="text-muted">—</span>;
+  if (!items.length) return <span className="text-muted">-</span>;
   const shown = items.slice(0, max), rest = items.length - shown.length;
   return (
     <span className="text-muted">
@@ -31,8 +31,8 @@ export function TrialLeadership({ rows, limit }: { rows: LeadershipRow[]; limit?
                   <div><Link href={routeFor(r.institution)} className="font-medium hover:underline">{r.institution.name}</Link><div className="text-xs text-muted font-normal">{r.institution.city}, {r.institution.country}</div></div>
                 </div>
               </td>
-              <td className="min-w-[220px] max-w-md">{r.trials.length > 0 ? <><span className="tabular-nums font-medium">{r.trials.length}</span><span className="text-xs"> · </span><Few items={r.trials} /></> : <span className="text-muted">—</span>}</td>
-              <td className="min-w-[220px] max-w-md">{r.drugs.length > 0 ? <><span className="tabular-nums font-medium">{r.drugs.length}</span><span className="text-xs"> · </span><Few items={r.drugs} /></> : <span className="text-muted">—</span>}</td>
+              <td className="min-w-[220px] max-w-md">{r.trials.length > 0 ? <><span className="tabular-nums font-medium">{r.trials.length}</span><span className="text-xs"> · </span><Few items={r.trials} /></> : <span className="text-muted">-</span>}</td>
+              <td className="min-w-[220px] max-w-md">{r.drugs.length > 0 ? <><span className="tabular-nums font-medium">{r.drugs.length}</span><span className="text-xs"> · </span><Few items={r.drugs} /></> : <span className="text-muted">-</span>}</td>
               <td className="tabular-nums text-right">{r.technologies.length}</td>
               <td className="tabular-nums text-right">{r.targets.length}</td>
               <td className="tabular-nums text-right font-semibold">{r.total}</td>

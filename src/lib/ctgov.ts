@@ -150,7 +150,7 @@ export function parseStudies(json: { studies?: RawStudy[] }): CtgovStudy[] {
     return {
       nctId: ps.identificationModule?.nctId ?? "",
       title: ps.identificationModule?.briefTitle ?? "",
-      phase: phases.length ? phases.map(prettyPhase).join("/") : "—",
+      phase: phases.length ? phases.map(prettyPhase).join("/") : "-",
       status: ps.statusModule?.overallStatus ?? "",
       sponsor: ps.sponsorCollaboratorsModule?.leadSponsor?.name ?? "",
       start: ps.statusModule?.startDateStruct?.date,

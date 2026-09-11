@@ -33,7 +33,7 @@ export function Sparkline({ counts, className = "" }: { counts: Record<string, n
 }
 
 function pct(g: number | null) {
-  if (g === null) return "—";
+  if (g === null) return "-";
   const v = Math.round(g * 100);
   return `${v > 0 ? "+" : ""}${v}%`;
 }

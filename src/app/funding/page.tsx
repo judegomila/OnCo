@@ -38,7 +38,7 @@ export default function Funding() {
                           <td className="font-semibold tabular-nums min-w-[140px]">{f.amount}</td>
                           <td className="text-muted min-w-[260px]">{f.what}{f.note && <div className="text-xs mt-1">{f.note}</div>}</td>
                           <td className="tabular-nums text-muted">{f.year}</td>
-                          <td className="min-w-[160px]">{refs.length ? <ChipList items={refs} /> : <span className="text-muted">—</span>}</td>
+                          <td className="min-w-[160px]">{refs.length ? <ChipList items={refs} /> : <span className="text-muted">-</span>}</td>
                           <td><a className="underline text-xs" href={f.source} rel="noopener">source</a></td>
                         </tr>
                       );

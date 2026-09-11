@@ -107,8 +107,8 @@ export function SavedViews() {
                           </div>
                         )}
                       </td>
-                      <td className="hidden md:table-cell text-muted tabular-nums">{n?.asOf ?? w.seen.asOf ?? <span aria-label="unknown">—</span>}</td>
-                      <td className="hidden md:table-cell text-muted tabular-nums">{n?.prov?.date ?? n?.edited ?? w.seen.edited ?? <span aria-label="unknown">—</span>}</td>
+                      <td className="hidden md:table-cell text-muted tabular-nums">{n?.asOf ?? w.seen.asOf ?? <span aria-label="unknown">-</span>}</td>
+                      <td className="hidden md:table-cell text-muted tabular-nums">{n?.prov?.date ?? n?.edited ?? w.seen.edited ?? <span aria-label="unknown">-</span>}</td>
                       <td className="whitespace-nowrap">
                         <span className="inline-flex gap-1">
                           {ch.length > 0 && <button type="button" onClick={() => seen(w)} className={btn} title="Record that you have seen the current version">Mark seen</button>}

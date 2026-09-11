@@ -53,6 +53,7 @@ export function FundingPanel({ id }: { id: string }) {
         {rounds.length > 0 && (
           <div className="card p-4 text-sm">
             <div className="kicker mb-2">Rounds on record</div>
+            <div className="overflow-x-auto">
             <table className="onco text-sm">
               <thead><tr><th>Round</th><th>Year</th><th className="text-right">Amount</th><th>Source</th></tr></thead>
               <tbody>{rounds.map((r, i) => (
@@ -64,6 +65,7 @@ export function FundingPanel({ id }: { id: string }) {
                 </tr>
               ))}</tbody>
             </table>
+            </div>
             <p className="text-xs text-muted mt-2">Amounts only where the cited source states them. Rounds without a public source are not listed.</p>
           </div>
         )}

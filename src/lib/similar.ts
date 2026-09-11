@@ -49,7 +49,7 @@ export function similarAll(): Map<string, Similar[]> {
       const shared: string[] = [];
       for (const n of A) { if (B.has(n)) { inter += w(n); shared.push(n); } union += w(n); }
       for (const n of B) if (!A.has(n)) union += w(n);
-      const sharedTags = [...tagsA].filter((t) => tagsB.has(t));
+      const sharedTags = [...tagsA].filter((t) => tagsB.has(t) && t !== "spike");
       const tagUnion = new Set([...tagsA, ...tagsB]).size;
       const score = (union ? inter / union : 0) + 0.5 * (tagUnion ? sharedTags.length / tagUnion : 0);
       if (score >= MIN_SCORE && (shared.length + sharedTags.length) >= 2) scored.push({ id: c, score: Math.round(score * 1000) / 1000, shared: shared.sort((x, y) => w(y) - w(x)), sharedTags });

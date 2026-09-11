@@ -469,7 +469,7 @@
    "name": "KYS Syövänhoitokeskus Kuopion Yliopistollinen Sairaala",
    "altName": "Kuopio University Hospital (KUH) Cancer Centre",
    "country": "Finland",
-   "website": "www.pshyvinvointialue.fi",
+   "website": "https://www.pshyvinvointialue.fi",
    "membership": "Full Member",
    "leaders": [
     "Arto Mannermaa",
@@ -494,7 +494,7 @@
    "name": "Kansallinen syöpäkeskus FICAN",
    "altName": "Finnish Cancer Center - FICAN",
    "country": "Finland",
-   "website": "www.fican.fi",
+   "website": "https://www.fican.fi",
    "membership": "Full Member",
    "leaders": [
     "Tomi P. Mäkelä",
@@ -1463,7 +1463,7 @@
    "name": "Hospital of Lithuanian University of Health Sciences Kauno Klinikos",
    "altName": "Lietuvos sveikatos mokslų universiteto ligoninė Kauno klinikos",
    "country": "Lithuania",
-   "website": "www.kaunoklinikos.lt, www.lsmu.lt",
+   "website": "https://www.kaunoklinikos.lt",
    "membership": "Full Member",
    "leaders": [
     "Renaldas Jurkevičius",
@@ -1474,7 +1474,7 @@
    "id": "211",
    "name": "Klaipėda University Hospital",
    "country": "Lithuania",
-   "website": "htttps://www.kul.lt",
+   "website": "https://www.kul.lt",
    "membership": "Full Member",
    "leaders": [
     "Audrius Šimaitis",

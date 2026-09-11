@@ -57,7 +57,7 @@ export function TrialFinder({ condition, intervention, title }: { condition?: st
                   <td className="max-w-md">{s.title}</td>
                   <td className="tabular-nums whitespace-nowrap">{s.phase}</td>
                   <td className="text-muted">{s.sponsor}</td>
-                  <td className="tabular-nums text-muted whitespace-nowrap">{s.start ?? "—"}</td>
+                  <td className="tabular-nums text-muted whitespace-nowrap">{s.start ?? "-"}</td>
                 </tr>
               ))}
             </tbody>

@@ -162,7 +162,7 @@ export function TrialFinderGeo({ condition, intervention, title, drugNames = {} 
                       <td><a className="underline font-mono text-xs" href={`https://clinicaltrials.gov/study/${s.nctId}`} rel="noopener">{s.nctId}</a></td>
                       <td className="max-w-md">{s.title}</td>
                       <td className="tabular-nums whitespace-nowrap">{s.phase}</td>
-                      {center && <td className="whitespace-nowrap">{s.nearest ? <><span className="tabular-nums font-medium">{Math.round(s.nearest.km)} km</span><div className="text-xs text-muted">{s.nearest.site.city}{s.nearest.site.country ? `, ${s.nearest.site.country}` : ""}</div></> : <span className="text-muted">—</span>}</td>}
+                      {center && <td className="whitespace-nowrap">{s.nearest ? <><span className="tabular-nums font-medium">{Math.round(s.nearest.km)} km</span><div className="text-xs text-muted">{s.nearest.site.city}{s.nearest.site.country ? `, ${s.nearest.site.country}` : ""}</div></> : <span className="text-muted">-</span>}</td>}
                       <td className="text-muted text-xs max-w-xs">{cities.length ? `${cities.slice(0, 6).join(", ")}${cities.length > 6 ? ` +${cities.length - 6}` : ""}` : `${s.sites.length} sites`}</td>
                       <td className="text-muted">{s.sponsor}</td>
                       <td className="whitespace-nowrap">

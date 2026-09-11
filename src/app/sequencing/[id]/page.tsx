@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 }
 
 function EvidenceMini({ score }: { score: number | null }) {
-  if (score === null) return <span className="text-muted text-xs">—</span>;
+  if (score === null) return <span className="text-muted text-xs">-</span>;
   const tone = score >= 75 ? "bg-emerald-500" : score >= 50 ? "bg-sky-500" : score >= 30 ? "bg-amber-500" : "bg-zinc-400";
   return (
     <Tip title={`Evidence ${score}/100 · ${evidenceLabel(score)}`} text="Best evidence-strength score among the products and trials linked to this row. How much and what kind of evidence, not how big the benefit." href="/evidence/" linkLabel="How it is scored →">

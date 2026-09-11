@@ -13,9 +13,9 @@ export function ConfidenceChip({ id, value, compact = false }: { id?: string; va
   const tone = mid >= 0.6 ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200" : mid >= 0.35 ? "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200" : "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200";
   const pct = (x: number) => `${Math.round(x * 100)}%`;
   return (
-    <span className={`inline-flex flex-wrap items-center gap-2 ${compact ? "" : "text-xs"}`} title={`${c.by}, ${c.on}${c.note ? ` — ${c.note}` : ""}`}>
+    <span className={`inline-flex flex-wrap items-center gap-2 ${compact ? "" : "text-xs"}`} title={`${c.by}, ${c.on}${c.note ? `: ${c.note}` : ""}`}>
       <span className={`chip ${tone}`}>
-        <span className="tabular-nums">{pct(lo)}–{pct(hi)}</span>
+        <span className="tabular-nums">{pct(lo)} to {pct(hi)}</span>
         <span className="opacity-70 font-normal">likely</span>
       </span>
       {!compact && <span className="text-muted">{c.by}, {c.on}{c.note && <> · {c.note}</>}</span>}

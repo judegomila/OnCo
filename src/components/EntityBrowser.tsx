@@ -294,7 +294,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
       key: c.key, label: c.label, sortable: c.sortable, hide: c.hide, className: c.className, tip: c.tip,
       render: (r) => {
         const v = r.cols[c.key];
-        if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted"><span aria-hidden>—</span><span className="sr-only">{t("none")}</span></span>;
+        if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted"><span aria-hidden>-</span><span className="sr-only">{t("none")}</span></span>;
         if (isRich(v)) {
           const parts: React.ReactNode[] = []; let pos = 0;
           v.marks.forEach((m, i) => { if (m.s > pos) parts.push(v.text.slice(pos, m.s)); parts.push(<Tip key={i} title={m.label} text={m.tip} href={m.href} linkLabel="Glossary page →"><Link href={m.href} className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] hover:text-foreground">{v.text.slice(m.s, m.e)}</Link></Tip>); pos = m.e; });

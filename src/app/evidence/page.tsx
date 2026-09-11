@@ -50,8 +50,8 @@ export default function EvidencePage() {
                   <td className="min-w-[220px]"><Link href={routeFor(t)} className="font-medium hover:underline">{t.name}</Link><div className="text-xs text-muted line-clamp-1">{t.setting}</div></td>
                   <td className="text-muted">Phase {t.phase}</td>
                   <td><StatusChip status={t.status} /></td>
-                  <td className="hidden md:table-cell text-xs text-muted max-w-md">{primaryOutcomeSummary(t) ?? "—"}</td>
-                  <td className="hidden sm:table-cell tabular-nums text-muted">{t.enrolled?.toLocaleString() ?? "—"}</td>
+                  <td className="hidden md:table-cell text-xs text-muted max-w-md">{primaryOutcomeSummary(t) ?? "-"}</td>
+                  <td className="hidden sm:table-cell tabular-nums text-muted">{t.enrolled?.toLocaleString() ?? "-"}</td>
                   <td className="tabular-nums"><span className="font-semibold">{ev.score}</span><span className="text-muted text-xs"> {evidenceLabel(ev.score)}</span></td>
                 </tr>
               ))}

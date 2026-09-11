@@ -6,7 +6,7 @@ import { KMChart, SERIES_PALETTE } from "./KMChart";
 type Outcome = Trial["outcomes"][number];
 const outcomeNote = (o: Outcome) => o.arms.map((a) => a.note).filter(Boolean).join(" · ");
 const PALETTE = SERIES_PALETTE;
-const hrText = (o: Outcome) => o.hr !== undefined ? `HR ${o.hr}${o.ci ? ` (${o.ci[0]}–${o.ci[1]})` : ""}` : "";
+const hrText = (o: Outcome) => o.hr !== undefined ? `HR ${o.hr}${o.ci ? ` (${o.ci[0]} to ${o.ci[1]})` : ""}` : "";
 
 /** "Out of 100 people" dot grid for one arm of a percent endpoint. */
 function DotGrid({ pct, color, label, n }: { pct: number; color: string; label: string; n?: number }) {
@@ -44,7 +44,7 @@ function MonthBars({ o }: { o: Outcome }) {
             <text x={LABEL - 8} y={y + ROW / 2} textAnchor="end" dominantBaseline="middle" fontSize={12} fill="currentColor" fillOpacity={0.9}>{a.name.length > 24 ? a.name.slice(0, 23).trimEnd() + "…" : a.name}</text>
             <rect x={LABEL} y={y + 6} width={barW} height={ROW - 12} rx={3} fill="currentColor" fillOpacity={0.08} />
             {w > 0 && <rect x={LABEL} y={y + 6} width={w} height={ROW - 12} rx={3} fill={PALETTE[i % PALETTE.length]} />}
-            <text x={LABEL + barW + 8} y={y + ROW / 2} dominantBaseline="middle" fontSize={12} fill="currentColor" fillOpacity={0.9} style={{ fontVariantNumeric: "tabular-nums" }}>{a.value !== undefined ? `${a.value} ${unit === "months" ? "mo" : unit}` : (a.note ?? "—")}</text>
+            <text x={LABEL + barW + 8} y={y + ROW / 2} dominantBaseline="middle" fontSize={12} fill="currentColor" fillOpacity={0.9} style={{ fontVariantNumeric: "tabular-nums" }}>{a.value !== undefined ? `${a.value} ${unit === "months" ? "mo" : unit}` : (a.note ?? "-")}</text>
           </g>
         );
       })}
@@ -59,7 +59,7 @@ export function Pictogram({ o, exportable = true }: { o: Outcome; exportable?: b
       {!hasValues && <p className="text-sm text-muted">{outcomeNote(o) || "Numbers not yet public."}</p>}
       {hasValues && o.unit === "%" && (
         <div className="grid gap-4 sm:grid-cols-2">
-          {o.arms.map((a, i) => a.value !== undefined ? <DotGrid key={i} pct={a.value} color={PALETTE[i % PALETTE.length]} label={a.name} n={a.n} /> : <div key={i} className="text-sm text-muted">{a.name}: {a.note ?? "—"}</div>)}
+          {o.arms.map((a, i) => a.value !== undefined ? <DotGrid key={i} pct={a.value} color={PALETTE[i % PALETTE.length]} label={a.name} n={a.n} /> : <div key={i} className="text-sm text-muted">{a.name}: {a.note ?? "-"}</div>)}
         </div>
       )}
       {hasValues && o.unit !== "%" && <MonthBars o={o} />}
@@ -133,11 +133,11 @@ export function OutcomeTable({ t }: { t: Trial }) {
             <tr key={`${oi}-${ai}`}>
               {ai === 0 ? <td rowSpan={o.arms.length} className="font-medium">{o.endpoint}{o.primary && <span className="chip ml-1 bg-foreground/5">primary</span>}</td> : null}
               <td>{a.name}</td>
-              <td className="tabular-nums text-muted">{a.n?.toLocaleString() ?? "—"}</td>
-              <td className="tabular-nums">{a.value !== undefined ? `${a.value}${o.unit === "%" ? "%" : o.unit ? ` ${o.unit}` : ""}` : (a.note ?? "—")}</td>
-              {ai === 0 ? <td rowSpan={o.arms.length} className="tabular-nums text-muted">{o.hr !== undefined ? `${o.hr}${o.ci ? ` (${o.ci[0]}–${o.ci[1]})` : ""}` : "—"}</td> : null}
-              {ai === 0 ? <td rowSpan={o.arms.length} className="tabular-nums text-muted">{o.p ?? "—"}</td> : null}
-              {ai === 0 ? <td rowSpan={o.arms.length}>{o.source ? <a className="underline text-xs" href={o.source} rel="noopener">link</a> : <span className="text-muted">—</span>}</td> : null}
+              <td className="tabular-nums text-muted">{a.n?.toLocaleString() ?? "-"}</td>
+              <td className="tabular-nums">{a.value !== undefined ? `${a.value}${o.unit === "%" ? "%" : o.unit ? ` ${o.unit}` : ""}` : (a.note ?? "-")}</td>
+              {ai === 0 ? <td rowSpan={o.arms.length} className="tabular-nums text-muted">{o.hr !== undefined ? `${o.hr}${o.ci ? ` (${o.ci[0]} to ${o.ci[1]})` : ""}` : "-"}</td> : null}
+              {ai === 0 ? <td rowSpan={o.arms.length} className="tabular-nums text-muted">{o.p ?? "-"}</td> : null}
+              {ai === 0 ? <td rowSpan={o.arms.length}>{o.source ? <a className="underline text-xs" href={o.source} rel="noopener">link</a> : <span className="text-muted">-</span>}</td> : null}
             </tr>
           )))}
         </tbody>

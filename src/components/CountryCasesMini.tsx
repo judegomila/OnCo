@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GLOBOCAN, rowsForCancer } from "@/lib/globocan";
 import { GentleSection } from "./GentleSection";
 
-const fmt = (n: number | null, d = 0) => n === null ? "—" : n.toLocaleString("en-GB", { maximumFractionDigits: d, minimumFractionDigits: d });
+const fmt = (n: number | null, d = 0) => n === null ? "-" : n.toLocaleString("en-GB", { maximumFractionDigits: d, minimumFractionDigits: d });
 
 /**
  * Server component: the top countries by new cases for one OnCo cancer, with the GLOBOCAN mapping
@@ -24,17 +24,21 @@ export function CountryCasesMini({ cancerId, limit = 10 }: { cancerId: string; l
       ) : (
         <>
           <p className="text-xs text-muted mb-2">Site: <span className="text-foreground">{mapping.label}</span>{mapping.shared ? " (shared total; subtype split not reported)" : ""}.{world ? ` World: ${fmt(world.cases)} new cases a year.` : ""}</p>
+          <div className="overflow-x-auto">
           <table className="onco">
             <thead><tr><th>#</th><th>Country</th><th>New cases</th><th className="hidden sm:table-cell">Incidence ASR</th></tr></thead>
             <tbody>{top.map((r, i) => <tr key={r.iso3}><td className="tabular-nums text-muted">{i + 1}</td><td><Link href={`/cases/?country=${r.iso3}`} className="hover:underline">{r.name}</Link></td><td className="tabular-nums">{fmt(r.cases)}</td><td className="tabular-nums hidden sm:table-cell">{fmt(r.incAsr, 1)}</td></tr>)}</tbody>
           </table>
+          </div>
           {mapping.note && <p className="text-xs text-muted mt-2">{mapping.note}</p>}
           <GentleSection className="mt-3 border-dashed" title="deaths by country" why="GLOBOCAN's estimated deaths for the same countries, for readers who want them."
             reassurance="Country-level death counts mix every stage, subtype and year of diagnosis, and reflect access to screening and treatment as much as the disease. Survival differs by stage, subtype and year; the cancer page above leads with what can be done.">
+            <div className="overflow-x-auto">
             <table className="onco">
               <thead><tr><th>#</th><th>Country</th><th>New cases</th><th>Deaths</th></tr></thead>
               <tbody>{top.map((r, i) => <tr key={r.iso3}><td className="tabular-nums text-muted">{i + 1}</td><td>{r.name}</td><td className="tabular-nums">{fmt(r.cases)}</td><td className="tabular-nums">{fmt(r.deaths)}</td></tr>)}</tbody>
             </table>
+            </div>
             {world && <p className="text-xs text-muted mt-2">World: {fmt(world.cases)} new cases and {fmt(world.deaths)} deaths a year (GLOBOCAN {GLOBOCAN.year}).</p>}
           </GentleSection>
         </>

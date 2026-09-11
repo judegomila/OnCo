@@ -121,7 +121,7 @@ export function ForestPlot({ rows }: { rows: ForestRow[] }) {
                     {r.lo !== undefined && r.lo < domain[0] && <text x={x0 - 6} y={y} textAnchor="end" dominantBaseline="middle" fontSize={9} fill={c}>◀</text>}
                     {r.hi !== undefined && r.hi > domain[1] && <text x={x1 + 6} y={y} dominantBaseline="middle" fontSize={9} fill={c}>▶</text>}
                     <rect x={xOf(r.hr) - s / 2} y={y - s / 2} width={s} height={s} fill={c} stroke="currentColor" strokeOpacity={0.35} strokeWidth={0.6} />
-                    <text x={W} y={y} textAnchor="end" dominantBaseline="middle" fontSize={11} fill="currentColor" style={{ fontVariantNumeric: "tabular-nums" }}>{fmt(r.hr)}{r.lo !== undefined && r.hi !== undefined ? ` (${fmt(r.lo)}–${fmt(r.hi)})` : ""}</text>
+                    <text x={W} y={y} textAnchor="end" dominantBaseline="middle" fontSize={11} fill="currentColor" style={{ fontVariantNumeric: "tabular-nums" }}>{fmt(r.hr)}{r.lo !== undefined && r.hi !== undefined ? ` (${fmt(r.lo)} to ${fmt(r.hi)})` : ""}</text>
                     {r.n !== undefined && <text x={W} y={y + 11} textAnchor="end" fontSize={8.5} fill="currentColor" fillOpacity={0.55}>n = {r.n.toLocaleString("en-GB")}</text>}
                   </g>
                 );

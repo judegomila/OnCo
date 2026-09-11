@@ -43,7 +43,7 @@ const EXPANSION: MethodCard[] = [
   },
   {
     title: "Per-kind agents in parallel with disjoint file ownership",
-    runs: "A wave is split into agents, each owning a set of data files nobody else touches (spikes, gap-fill, idea waves, people, key papers). They run in separate git worktrees, so merges are mechanical: no two agents edit the same file.",
+    runs: "A wave is split into agents, each owning a set of data files nobody else touches (cancer deep dives, gap-fill, idea waves, people, key papers). They run in separate git worktrees, so merges are mechanical: no two agents edit the same file.",
     cadence: "Per wave; seven agents in the last one.",
     code: [{ label: "src/data/spikes/", path: "src/data/spikes" }, { label: "src/data/gap-fill.ts", path: "src/data/gap-fill.ts" }, { label: "src/data/ideas-waves/", path: "src/data/ideas-waves" }],
     better: "An ownership manifest checked in CI, so a change to a file outside an agent's allotment fails the build instead of a merge.",

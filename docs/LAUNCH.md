@@ -92,6 +92,20 @@ Orphans 84 (from 2,185), records without a source 415 (from 2,974), backlink gap
 ## Gauges at the close of 10 Sept (corpus 6,689 entities)
 sources 6,297; backlinks 5,975 of 6,670; orphans 7 of 6,670 after the second linking pass (all seven are news-source collections nothing in the corpus cites); backlink gaps 539, mostly leaders whose only relation is their institution; summary gauge clear: every record has a summary of 300 characters or more; schematics gauge clear: 411 of 411 technologies have a specific animated schematic after eight waves; target prevalence 91 of 99 (the eight left carry notes explaining why no positivity rate exists); trial outcomes 418 of 451 (the 33 left are unreported); people with papers 1,045 of 1,309 (the 264 left are patients, advocates, donors, administrators and regulators, or names too common to match with certainty); term Wikipedia 525 of 605 (rest documented); translations complete (6,651 of 6,651); provenance 6,258 (weekly job); logos 882 of 1,347 (fetch rerunning); reviewed 0 (needs named humans); kind-size 17 of 18 (fronts kept at 19 on purpose).
 
+## State at hand-back (11 Sept, early)
+Corpus 6,651 entities. Health gauges: 16 of 25 met. Every record has a summary of 300+ characters, a TL;DR in eight languages, and (for technologies) its own animated schematic; every product has a structure or an explained placeholder; regional approvals, orphans and the NCI, MEDLINE and KEGG completeness lists are clear.
+The nine unmet gauges and why each stops where it does:
+- sources 6,275 of 6,651: the 376 left (ideas, pairings, some technologies and terms) have no website, Wikipedia or profile field and no certain primary link.
+- backlinks 6,111 of 6,632: 521 weakly linked records, mostly institution leaders whose only relation is their institution; nothing in their own data names a trial or cancer to link.
+- target prevalence 91 of 99: the eight left carry a note explaining why no positivity rate exists in the literature.
+- trial outcomes 418 of 451: the 33 left are recruiting or unreported, checked against ClinicalTrials.gov and sponsor releases.
+- people with papers 1,038 of 1,302: the rest are patients, advocates, donors, administrators, regulators, or names too common to match with certainty.
+- term Wikipedia 514 of 594: the 80 left have no English article (checked title by title); 22 carry NCI Dictionary or defining-paper links instead.
+- kind-size 17 of 18: fronts stay at 19 by design.
+- logos 1,153 of 1,327: 174 have no Wikidata image or favicon.
+- reviewed 0: needs named human reviewers.
+Waiting on the owner: Google Search Console TXT token, npm publish of the CLI and MCP packages, the stray Vercel project, the Discussions category, reviewers, the `spikes/` directory name and `spike` tag, the corrections page link, the ALSF/St Baldrick's/MRA/PCF/BCRF/Macmillan collection-versus-institution pairs.
+
 ## Review and polish phase (started 10 Sept, late)
 - [x] UK coverage: all 56 "NICE position not yet researched" rows resolved from NICE guidance pages and the MHRA register on 10 Sept (29 funded, 2 Cancer Drugs Fund, 5 in appraisal with dates, 13 refused or terminated, 6 not UK-licensed, 1 never appraised); five earlier notes corrected. Not checked: the Scottish Medicines Consortium (client-rendered site); relacorilant and cetuximab sarotalocan confirmed on no UK or EU register.
 - [x] Launch review agent: 13,976 pages crawled; 5 broken link targets fixed (new /coverage/ index); dashes, "as of" and "spike" removed from component copy; /hub/ canonical to /roadmap/; newsletter descriptions; 2 heading jumps; 9 tables wrapped for mobile. Merged 10 Sept.

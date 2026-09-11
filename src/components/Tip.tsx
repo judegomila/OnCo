@@ -84,7 +84,7 @@ export const COLUMN_TIPS: Record<string, string> = {
   Trials: "The clinical trials connected to this.",
   Approvals: "Regulatory approvals by region.",
   Group: "The broad family of cancer: solid tumour, blood cancer, brain, skin, and so on.",
-  "Who gets it, and what has changed": "How many people get this cancer and where, and what has improved for them.",
+  "Who gets it and what has changed": "How many people get this cancer and where, and what has improved for them.",
   Stage: "Where in the pipeline the bottleneck bites: biology, detection, trials, regulation, access, data, funding or culture.",
   Severity: "Our judgement of how much this bottleneck slows the whole effort: critical, major or moderate.",
   "Who acts": "Who would have to move for this idea to happen: researchers, clinics, industry, regulators, payers, policy makers, patients, data holders, philanthropy or engineers.",

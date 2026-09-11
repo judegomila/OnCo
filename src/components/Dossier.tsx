@@ -146,18 +146,18 @@ export function Dossier({ target: t }: { target: Target }) {
         </div>
       </Section>
 
-      <Section id="elsewhere" title="Elsewhere: identifiers and databases" aside={<span className="text-xs text-muted">Built from HGNC, Ensembl, UniProt and ChEMBL ids</span>}>
+      <Section id="elsewhere" title="External identifiers" aside={<span className="text-xs text-muted">Built from HGNC, Ensembl, UniProt and ChEMBL ids</span>}>
         <div className="card p-4"><XrefStrip targetId={t.id} /></div>
       </Section>
 
       {t.prevalence.length > 0 && (
-        <Section id="prevalence" title="How common it is, by cancer" aside={<Link href="/prevalence/" className="text-xs underline text-muted">Full matrix →</Link>}>
+        <Section id="prevalence" title="How common it is in each cancer" aside={<Link href="/prevalence/" className="text-xs underline text-muted">Full matrix →</Link>}>
           <PrevalenceTable target={t} />
         </Section>
       )}
 
       {d.hotspots && (
-        <Section id="hotspots" title="Mutation hotspots and which drugs address them">
+        <Section id="hotspots" title="Mutation hotspots">
           <HotspotPlot map={d.hotspots} />
         </Section>
       )}
@@ -205,7 +205,7 @@ export function Dossier({ target: t }: { target: Target }) {
         )}
       </Section>
 
-      <Section id="resistance" title="Resistance routes that involve this target" aside={<Link href="/resistance/gaps/" className="text-xs underline text-muted">Unaddressed routes →</Link>}>
+      <Section id="resistance" title="Resistance routes" aside={<Link href="/resistance/gaps/" className="text-xs underline text-muted">Unaddressed routes →</Link>}>
         {d.mechanisms.length === 0 ? <p className="text-sm text-muted">The resistance atlas has no route that names this target.</p> : (
           <div className="grid gap-3 md:grid-cols-2">
             {d.mechanisms.map(({ classId, drugClass, m }) => {
@@ -225,7 +225,7 @@ export function Dossier({ target: t }: { target: Target }) {
         )}
       </Section>
 
-      <Section id="pathways" title="Pathways where it is a node" aside={<Link href="/pathway-drugs/" className="text-xs underline text-muted">Pathway-to-drug matrix →</Link>}>
+      <Section id="pathways" title="Pathways" aside={<Link href="/pathway-drugs/" className="text-xs underline text-muted">Pathway-to-drug matrix →</Link>}>
         {d.pathways.length === 0 ? <p className="text-sm text-muted">No pathway diagram carries this target as a node.</p> : (
           <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {d.pathways.map((p) => (
@@ -240,7 +240,7 @@ export function Dossier({ target: t }: { target: Target }) {
         )}
       </Section>
 
-      <Section id="assays" title="Companion diagnostics and assays" aside={<Link href="/assays/" className="text-xs underline text-muted">Assay registry →</Link>}>
+      <Section id="assays" title="Companion diagnostics" aside={<Link href="/assays/" className="text-xs underline text-muted">Assay registry →</Link>}>
         {d.assays.length === 0 ? <p className="text-sm text-muted">No companion diagnostic in the registry measures this target.</p> : (
           <div className="card overflow-x-auto">
             <table className="onco">
@@ -301,13 +301,13 @@ export function Dossier({ target: t }: { target: Target }) {
       {(d.ideas.length > 0 || d.companies.length > 0) && (
         <Section title="Ideas and companies">
           <div className="grid gap-6 md:grid-cols-2">
-            <div><div className="kicker mb-1.5">Ideas that involve this target · {d.ideas.length}</div><ChipList items={d.ideas} /></div>
-            <div><div className="kicker mb-1.5">Companies with products against it · {d.companies.length}</div><ChipList items={d.companies} /></div>
+            <div><div className="kicker mb-1.5">Ideas · {d.ideas.length}</div><ChipList items={d.ideas} /></div>
+            <div><div className="kicker mb-1.5">Companies · {d.companies.length}</div><ChipList items={d.companies} /></div>
           </div>
         </Section>
       )}
 
-      <Section id="papers" title="Key papers and the live literature" aside={<Link href={`/preprints/#${t.id}`} className="text-xs underline text-muted">Preprints →</Link>}>
+      <Section id="papers" title="Literature" aside={<Link href={`/preprints/#${t.id}`} className="text-xs underline text-muted">Preprints →</Link>}>
         {d.papers.length > 0 && (
           <ul className="space-y-2 mb-4">
             {d.papers.map((p) => (

@@ -62,7 +62,7 @@ export function TrialExplainer({ trial, compact = false }: { trial: Trial; compa
       </div>
       {!compact && shared.length > 0 && (
         <div className="mt-4 border-t border-border pt-3">
-          <div className="kicker mb-1">Be careful</div>
+          <div className="kicker mb-1">Caveats</div>
           <ul className="space-y-1 text-sm text-muted list-disc pl-5">{shared.map((c, j) => <li key={j}>{c}</li>)}</ul>
         </div>
       )}

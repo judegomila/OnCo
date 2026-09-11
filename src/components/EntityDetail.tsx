@@ -250,7 +250,7 @@ function kindTabs(e: Entity): Tab[] {
           <div className="mt-6"><TargetExplainer target={e} /></div>
           <div className="mt-6"><CatalystsPanel id={e.id} /></div>
           <div className="mt-6 flex flex-wrap items-center justify-between gap-2"><Link href={`/dossiers/${e.id}/`} className="chip border bg-card border-border hover:bg-foreground/5 text-sm">Full dossier: hotspots, trials, resistance, assays, models, open questions →</Link></div>
-          <Block title="Elsewhere"><XrefStrip targetId={e.id} compact /></Block>
+          <Block title="External identifiers"><XrefStrip targetId={e.id} compact /></Block>
           {hotspotsFor(e.id) && <Block title="Mutation hotspots"><HotspotPlot map={hotspotsFor(e.id)!} compact /><p className="text-xs text-muted mt-1"><Link className="underline" href={`/dossiers/${e.id}/#hotspots`}>Residue-by-residue table on the dossier →</Link></p></Block>}
           {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc ps-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/dossiers/${e.id}/#q-${q.id}`}>{q.question}</Link></li>)}</ul></Block>}
           {assaysForTarget(e.id).length > 0 && <Block title="Companion diagnostics"><ul className="text-sm space-y-1">{assaysForTarget(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></Block>}
@@ -260,7 +260,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Where it is found"><Bullets items={e.whereFound} linked={(t) => withTermHovers(t, { skipId: e.id })} /></Field>
             <Field label="Class"><span className="capitalize">{e.targetClass.replace("-", " ")}</span>{e.symbol && <span className="text-muted"> · {e.symbol}</span>}</Field>
           </div>
-          {e.prevalence.length > 0 && <Block title="How common it is, by cancer"><PrevalenceTable target={e} /></Block>}
+          {e.prevalence.length > 0 && <Block title="How often this target appears"><PrevalenceTable target={e} /></Block>}
         </>),
         ...productsTab(g.incoming(e.id).get("drug") ?? []),
       ];
@@ -279,7 +279,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Linker">{e.linker}</Field>
           </div>
           {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
-          {assaysForDrug(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2"><TL text="Test required or used to select patients" /></div><ul className="text-sm space-y-1">{assaysForDrug(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></div>}
+          {assaysForDrug(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2"><TL text="Companion diagnostics" /></div><ul className="text-sm space-y-1">{assaysForDrug(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></div>}
           {(coverageUs[e.id] || coverageUk[e.id]) && <div className="mt-6 grid gap-4 md:grid-cols-2">{coverageUs[e.id] && <CoverageUsCard drugId={e.id} />}{coverageUk[e.id] && <CoverageUkCard drugId={e.id} />}</div>}
           <div className="mt-6 space-y-4"><ExclusivityPanel drugId={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /></div>
           {regionalApprovals[e.id] && <div className="mt-6"><div className="kicker mb-2"><TL text="Where it is approved" /></div><RegionStrip row={regionalApprovals[e.id]} /><p className="text-xs text-muted mt-1"><Link className="underline" href="/regulatory/regions/">Compare all products across the US, EU, UK, Japan, China and Australia →</Link></p></div>}
@@ -297,7 +297,7 @@ function kindTabs(e: Entity): Tab[] {
           {/anti-pd|anti-ctla|pd-1|pd-l1|ctla-4|checkpoint/i.test(e.modality + " " + e.mechanism) && <p className="text-sm mt-1"><Link href="/irae/" className="underline">Immune-related side effects: management guide →</Link></p>}
         </>) }] : []),
         ...(e.access.length ? [{ id: "access", label: "Cost & access", count: e.access.length, content: <AccessTable access={e.access} /> }] : []),
-        { id: "trials", label: "Trials", content: <><TrialCounts drugId={e.id} /><Block title="Recruiting now (live from ClinicalTrials.gov)"><TrialFinder intervention={interventionQuery(e.name)} title={e.name} /></Block>{e.trials.length > 0 && <Block title="Landmark trials in OnCo"><Refs ids={e.trials} /></Block>}</> },
+        { id: "trials", label: "Trials", content: <><TrialCounts drugId={e.id} /><Block title="Trials recruiting now"><TrialFinder intervention={interventionQuery(e.name)} title={e.name} /></Block>{e.trials.length > 0 && <Block title="Landmark trials"><Refs ids={e.trials} /></Block>}</> },
       ];
     case "company": {
       const stage = stageOf(e);
@@ -334,7 +334,7 @@ function kindTabs(e: Entity): Tab[] {
     }
     case "pathway":
       return [
-        overview(<Block title="In one picture"><p className="text-[15px] leading-relaxed max-w-3xl italic">{e.analogy}</p></Block>),
+        overview(<Block title="Analogy"><p className="text-[15px] leading-relaxed max-w-3xl italic">{e.analogy}</p></Block>),
         { id: "diagram", label: "Diagram", content: <PathwayDiagram p={e} /> },
         { id: "interventions", label: "How drugs attack it", count: e.interventions.length, content: <Bullets items={e.interventions} linked={(t) => withTermHovers(t, { skipId: e.id })} /> },
       ];
@@ -379,10 +379,10 @@ function kindTabs(e: Entity): Tab[] {
           {(confidence[e.id] || e.confidence) && <Field label="Confidence"><ConfidenceChip id={e.id} value={e.confidence ?? undefined} /></Field>}
           <Field label="Hypothesis">{e.hypothesis}</Field>
           <Field label="Rationale">{e.rationale}</Field>
-          <Field label="What would test it">{e.test}</Field>
+          <Field label="Proposed test">{e.test}</Field>
           <Field label="Maturity"><span className={`chip ${statusClass(e.maturity === "being-tested-at-scale" ? "phase-3" : e.maturity === "early-clinical" ? "phase-2" : e.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{e.maturity.replace(/-/g, " ")}</span></Field>
           {(e.actor || e.cost || e.horizonYears !== undefined) && <div className="grid gap-6 sm:grid-cols-3">
-            {e.actor && <Field label="Who has to act"><span className="capitalize">{e.actor}</span></Field>}
+            {e.actor && <Field label="Who acts"><span className="capitalize">{e.actor}</span></Field>}
             {e.cost && <Field label="Cost to try">{e.cost === "small" ? "Small (under $1M)" : e.cost === "medium" ? "Medium ($1M to $50M)" : "Large (over $50M)"}</Field>}
             {e.horizonYears !== undefined && <Field label="Years to first evidence">{e.horizonYears}</Field>}
           </div>}
@@ -401,11 +401,11 @@ function kindTabs(e: Entity): Tab[] {
           <div className="grid gap-6 sm:grid-cols-2">
             <Field label="Authors">{e.authors}</Field>
             <Field label="Published">{(() => { const j = g.kind("journal").find((x) => x.kind === "journal" && (x.name === e.journal || x.matchNames.includes(e.journal))); return j ? <Link className="underline" href={routeFor(j)}>{e.journal}</Link> : e.journal; })()}, {e.year}</Field>
-            {(e.doi || e.pmid) && <Field label="Read it">{e.doi && <a className="underline mr-3" href={`https://doi.org/${e.doi}`} rel="noopener">doi:{e.doi}</a>}{e.pmid && <a className="underline" href={`https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/`} rel="noopener">PubMed {e.pmid}</a>}</Field>}
+            {(e.doi || e.pmid) && <Field label="Full text">{e.doi && <a className="underline mr-3" href={`https://doi.org/${e.doi}`} rel="noopener">doi:{e.doi}</a>}{e.pmid && <a className="underline" href={`https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/`} rel="noopener">PubMed {e.pmid}</a>}</Field>}
           </div>
-          {e.findings.length > 0 && <Field label="What it found"><ul className="list-disc ps-5 space-y-1">{e.findings.map((f, i) => <li key={i}>{withTermHovers(f)}</li>)}</ul></Field>}
+          {e.findings.length > 0 && <Field label="Findings"><ul className="list-disc ps-5 space-y-1">{e.findings.map((f, i) => <li key={i}>{withTermHovers(f)}</li>)}</ul></Field>}
           <div className="card p-4 bg-accent-soft/60 border-accent/20"><div className="kicker mb-1"><TL text="What it means" /></div><p className="text-[15px] leading-relaxed">{withTermHovers(e.whatItMeans)}</p></div>
-          {e.caveats.length > 0 && <Field label="Be careful"><ul className="list-disc ps-5 space-y-1">{e.caveats.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
+          {e.caveats.length > 0 && <Field label="Caveats"><ul className="list-disc ps-5 space-y-1">{e.caveats.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
         </div>),
       ];
     }
@@ -424,7 +424,7 @@ function kindTabs(e: Entity): Tab[] {
             {e.impactFactor && <Field label={`Impact factor (${e.impactFactor.year})`}><span className="tabular-nums">{e.impactFactor.value}</span>{e.impactFactor.source && <span className="text-muted text-xs"> · {e.impactFactor.source}</span>}</Field>}
           </div>
         </div>),
-        ...(papers.length ? [{ id: "key-papers", label: "Key papers published here", count: papers.length, content: (
+        ...(papers.length ? [{ id: "key-papers", label: "Key papers", count: papers.length, content: (
           <div className="grid gap-3 md:grid-cols-2">{papers.map((p) => <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition"><div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}</div><div className="font-medium leading-snug">{p.name}</div><p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p></Link>)}</div>) }] : []),
         ...peopleTab(people),
       ];
@@ -436,14 +436,14 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<div className="grid gap-6 mt-8">
           <div className="flex flex-wrap gap-2"><span className={`chip ${statusClass(sevClass)}`}>{e.severity}</span><span className="chip bg-foreground/5">{e.stage.replace(/-/g, " ")}</span><span className="chip bg-foreground/5">{ideas.length} ideas to fix it</span></div>
-          {e.metrics.length > 0 && <div><div className="kicker mb-2"><TL text="How big the problem is" /></div><div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{e.metrics.map((m, i) => <div key={i} className="card p-3"><div className="text-2xl font-semibold tabular-nums">{m.value}</div><div className="text-sm">{m.label}</div>{(m.source || m.url) && <div className="text-xs text-muted mt-1">{m.url ? <a className="underline" href={m.url} rel="noopener">{m.source ?? "source"}</a> : m.source}</div>}</div>)}</div></div>}
+          {e.metrics.length > 0 && <div><div className="kicker mb-2"><TL text="Scale of the problem" /></div><div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{e.metrics.map((m, i) => <div key={i} className="card p-3"><div className="text-2xl font-semibold tabular-nums">{m.value}</div><div className="text-sm">{m.label}</div>{(m.source || m.url) && <div className="text-xs text-muted mt-1">{m.url ? <a className="underline" href={m.url} rel="noopener">{m.source ?? "source"}</a> : m.source}</div>}</div>)}</div></div>}
           {e.causes.length > 0 && <Field label="Root causes"><ul className="list-disc ps-5 space-y-1">{e.causes.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
-          {e.currentEfforts.length > 0 && <Field label="What is already being tried"><ul className="list-disc ps-5 space-y-1">{e.currentEfforts.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
-          {e.successLooksLike && <Field label="What breaking it looks like">{e.successLooksLike}</Field>}
+          {e.currentEfforts.length > 0 && <Field label="Current efforts"><ul className="list-disc ps-5 space-y-1">{e.currentEfforts.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
+          {e.successLooksLike && <Field label="Success criteria">{e.successLooksLike}</Field>}
         </div>),
         ...(ideas.length ? [{ id: "ideas", label: "Ideas to fix it", count: ideas.length, content: (
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{ideas.map((i) => i.kind === "idea" && <Link key={i.id} href={routeFor(i)} className="card p-3 hover:shadow-md transition"><div className="flex flex-wrap gap-1 mb-1"><span className={`chip ${statusClass(i.maturity === "being-tested-at-scale" ? "phase-3" : i.maturity === "early-clinical" ? "phase-2" : i.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{i.maturity.replace(/-/g, " ")}</span>{i.actor && <span className="chip bg-foreground/5">{i.actor}</span>}{i.cost && <span className="chip bg-foreground/5">{i.cost} cost</span>}</div><div className="font-medium">{i.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-3">{i.tldr}</p></Link>)}</div>) }] : []),
-        ...(relievers.length ? [{ id: "relievers", label: "What relieves it today", count: relievers.length, content: <RefsWithMolecules ids={relievers.map((r) => r.id)} /> }] : []),
+        ...(relievers.length ? [{ id: "relievers", label: "Relief available today", count: relievers.length, content: <RefsWithMolecules ids={relievers.map((r) => r.id)} /> }] : []),
       ];
     }
     case "collection":
@@ -585,16 +585,16 @@ function cancerTabs(c: Cancer): Tab[] {
   return [
     { id: "overview", label: "Overview", content: <>
       <Summary e={c} />
-      <Block title="State of the art today"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
+      <Block title="State of the art"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
       {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1"><TL text="Treatment journeys" /></div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}
-      {organFor(c.id) && <Block title="Where it starts and where it drains"><OrganSchematic cancerId={c.id} /></Block>}
+      {organFor(c.id) && <Block title="Organ map: where the tumour sits and where it drains"><OrganSchematic cancerId={c.id} /></Block>}
       {modelsFor(c.id) && <Block title="Preclinical models"><p className="text-sm text-muted">{modelsFor(c.id)!.cellLines.length} cell lines, {modelsFor(c.id)!.gemms.length} mouse models and {modelsFor(c.id)!.pdx.length + modelsFor(c.id)!.organoids.length} repositories are listed for this cancer. <Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(c.name.split(" (")[0])}`}>See them →</Link></p></Block>}
       <div className="grid gap-6 sm:grid-cols-2 mt-8">
-        <Field label="Who gets it, and what has changed"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>
+        <Field label="Who gets it and what has changed"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>
         <Field label="Group"><Tip title={`${c.group[0].toUpperCase()}${c.group.slice(1)} cancers`} text={`All ${c.group} cancers in OnCo, filtered in the cancers table.`} href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}><Link className="capitalize underline decoration-dotted decoration-foreground/30 underline-offset-[3px]" href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}>{c.group}</Link></Tip></Field>
       </div>
       <div className="mt-6"><WhatIsBeingDone topic="late-diagnosis" cancerId={c.id} compact /></div>
-      <Block title="Where the cases are"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
+      <Block title="Cases by country"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
       {spreadFor(c.id) && (
         <GentleSection className="mt-8" title={SPREAD_LABELS.fold} why={SPREAD_LABELS.why} reassurance={SPREAD_LABELS.reassurance} kicker={<TL text="Advanced disease" />}>
           <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
@@ -643,11 +643,11 @@ function cancerTabs(c: Cancer): Tab[] {
           </li>
         ))}
       </ol>) },
-    { id: "pipeline", label: "Pipeline", count: c.pipeline.length, content: <><RefsWithMolecules ids={c.pipeline} /><Block title="Open problems, and what is being done about each"><ul className="space-y-4">{c.openProblems.map((p, i) => <li key={i}><p className="text-[15px] leading-relaxed">{withTermHovers(p, { skipId: c.id })}</p><div className="mt-2"><WhatIsBeingDoneFor text={p} cancerId={c.id} /></div></li>)}</ul></Block></> },
-    { id: "trials", label: "Trials", content: <><Block title="Recruiting now (live from ClinicalTrials.gov)"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>{(forMe.get("trial") ?? []).length > 0 && <Block title="Landmark trials in OnCo"><ChipList items={forMe.get("trial") ?? []} /></Block>}</> },
+    { id: "pipeline", label: "Pipeline", count: c.pipeline.length, content: <><RefsWithMolecules ids={c.pipeline} /><Block title="Open problems and what is being done"><ul className="space-y-4">{c.openProblems.map((p, i) => <li key={i}><p className="text-[15px] leading-relaxed">{withTermHovers(p, { skipId: c.id })}</p><div className="mt-2"><WhatIsBeingDoneFor text={p} cancerId={c.id} /></div></li>)}</ul></Block></> },
+    { id: "trials", label: "Trials", content: <><Block title="Trials recruiting now"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>{(forMe.get("trial") ?? []).length > 0 && <Block title="Landmark trials"><ChipList items={forMe.get("trial") ?? []} /></Block>}</> },
     { id: "centres", label: "Expert centres", content: <ExpertCentres cancerId={c.id} /> },
     { id: "questions", label: "Questions to ask", content: <Questions cancer={c} /> },
-    { id: "relevant", label: "Everything relevant", count: nRel, content: <><p className="text-xs text-muted mb-3">Direct links plus the targets, companies, and technologies of this cancer&apos;s products.</p><Neighbours groups={forMe} exclude={["cancer"]} /></> },
+    { id: "relevant", label: "Related pages", count: nRel, content: <><p className="text-xs text-muted mb-3">Direct links plus the targets, companies, and technologies of this cancer&apos;s products.</p><Neighbours groups={forMe} exclude={["cancer"]} /></> },
   ];
 }
 

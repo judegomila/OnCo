@@ -135,6 +135,41 @@
       "source": "/collections/src-pancan/:path*",
       "destination": "/collections/pancan/:path*",
       "permanent": true
+    },
+    {
+      "source": "/people/caicun-zhou/:path*",
+      "destination": "/people/zhou-caicun/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/pankaj-chaturvedi/:path*",
+      "destination": "/people/chaturvedi-pankaj/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/toshihiko-doi/:path*",
+      "destination": "/people/doi-toshihiko/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/jia-fan/:path*",
+      "destination": "/people/fan-jia/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/shun-lu/:path*",
+      "destination": "/people/lu-shun/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/takayuki-yoshino/:path*",
+      "destination": "/people/yoshino-takayuki/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/william-g-nelson/:path*",
+      "destination": "/people/william-nelson/:path*",
+      "permanent": true
     }
   ]
 }

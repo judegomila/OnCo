@@ -151,7 +151,7 @@ const drugs: DrugInput[] = [
     dosing: { route: "Intravenous", schedule: "1500 mg every 2 weeks with pembrolizumab", source: "https://clinicaltrials.gov/study/NCT06788990" },
     targets: ["egfr"], technologies: ["bispecific-antibody"], cancers: ["head-and-neck"], trials: ["fortifi-hn01"], drugs: ["pembrolizumab"],
     links: [{ label: "JCO 2025 two-year results", url: "https://ascopubs.org/doi/10.1200/JCO-25-02027" }] }),
-  d({ id: "cetuximab-sarotalocan", name: "Cetuximab sarotalocan", brand: "Akalux", code: "ASP-1929, RM-1929", modality: "Photoimmunotherapy conjugate (anti-EGFR antibody–IR700 dye)", status: "approved",
+  d({ id: "cetuximab-sarotalocan", name: "Cetuximab sarotalocan", brand: "Akalux", code: "ASP-1929, RM-1929", modality: "Photoimmunotherapy conjugate (anti-EGFR antibody-IR700 dye)", status: "approved",
     tldr: "Cetuximab sarotalocan is an EGFR antibody carrying a light-activated dye: after infusion, a red laser is shone on the tumour and the cells burst. It has been approved in Japan since 2020.",
     summary: "Cetuximab sarotalocan is Rakuten Medical's photoimmunotherapy. It was approved in Japan (September 2020) for unresectable locally advanced or recurrent head and neck cancer with conditional approval; two global phase 3 trials in locally recurrent HNSCC continue without US approval to date. Also being studied in cutaneous squamous cell carcinoma.",
     mechanism: "Cetuximab conjugated to IRDye700DX; 690 nm light triggers photochemical membrane damage in EGFR-bound cells and immunogenic cell death.",

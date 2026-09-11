@@ -204,7 +204,7 @@ const drugs: DrugInput[] = [
   d({ id: "brenetafusp", name: "Brenetafusp", code: "IMC-F106C", modality: "ImmTAC (PRAME TCR × CD3 bispecific)", status: "phase-3",
     tldr: "Tebentafusp's successor: a soluble T-cell receptor that recognises a fragment of PRAME, a protein present in most melanomas and many other cancers, and drags T cells onto the tumour.",
     summary: "Phase 1/2 in heavily pretreated cutaneous melanoma: median OS 14.3 months on monotherapy (ASCO 2026 update). PRISM-MEL-301 phase 3 with nivolumab in first-line HLA-A*02:01-positive melanoma is enrolling; further trials in ovarian, lung, and endometrial cancer. Requires HLA-A*02:01 (roughly half of European-ancestry patients).",
-    mechanism: "Affinity-enhanced TCR binding PRAME peptide–HLA-A*02:01 fused to an anti-CD3 scFv; redirects polyclonal T cells.",
+    mechanism: "Affinity-enhanced TCR binding PRAME peptide-HLA-A*02:01 fused to an anti-CD3 scFv; redirects polyclonal T cells.",
     mechanismSteps: ["The TCR arm binds PRAME peptide displayed on HLA-A*02:01 on the tumour cell", "The CD3 arm engages any nearby T cell", "An artificial immune synapse forms and the T cell releases perforin and granzymes", "Interferon-gamma release upregulates PD-L1, the rationale for pairing with nivolumab"],
     dosing: { route: "Intravenous", schedule: "Weekly with step-up dosing to 160 µg", monitoring: "Cytokine release syndrome during the first doses; rash", source: "https://clinicaltrials.gov/study/NCT06112314" },
     regulatoryEvents: [{ date: "2024", type: "designation", region: "US", note: "Phase 3 PRISM-MEL-301 initiated after FDA alignment on design" }],
@@ -291,7 +291,7 @@ const ideas: IdeaInput[] = [
 const prame: EntityInput = {
   id: "prame", kind: "target", name: "PRAME", symbol: "PRAME", targetClass: "other", asOf, wikipedia: W("PRAME"),
   tldr: "A protein normally confined to testis that most melanomas and many other cancers switch on; T-cell receptor drugs can recognise fragments of it.",
-  summary: "Preferentially Expressed Antigen in Melanoma is a cancer-testis antigen expressed in ~90% of cutaneous melanomas and in substantial fractions of ovarian, lung, endometrial, and uveal cancers. Intracellular, so reachable only via peptide–HLA recognition: brenetafusp (ImmTAC), IMA203 (Immatics TCR-T, phase 3 in melanoma), and other TCR programmes. PRAME immunohistochemistry is also a diagnostic aid for distinguishing melanoma from naevi.",
+  summary: "Preferentially Expressed Antigen in Melanoma is a cancer-testis antigen expressed in ~90% of cutaneous melanomas and in substantial fractions of ovarian, lung, endometrial, and uveal cancers. Intracellular, so reachable only via peptide-HLA recognition: brenetafusp (ImmTAC), IMA203 (Immatics TCR-T, phase 3 in melanoma), and other TCR programmes. PRAME immunohistochemistry is also a diagnostic aid for distinguishing melanoma from naevi.",
   biology: "Represses retinoic acid receptor signalling; drives proliferation and blocks differentiation; presented on HLA class I as peptides such as PRAME 425-433 on A*02:01.",
   whereFound: ["Cutaneous melanoma (~90%)", "Uveal melanoma (subset, associated with metastasis)", "Ovarian, endometrial, NSCLC, breast (subsets)", "Synovial sarcoma"],
   prevalence: [{ cancerId: "melanoma", pct: "~90", measure: "IHC positivity in cutaneous melanoma", source: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6234029/" }],

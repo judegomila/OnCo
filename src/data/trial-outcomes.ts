@@ -191,9 +191,9 @@ const RAW: Record<string, TrialOutcomeIn> = {
   adaura: {
     enrolled: 682,
     outcomes: [
-      { endpoint: "Disease-free survival, stage II–IIIA", primary: true, unit: "months", arms: [{ name: "Osimertinib", n: 233 }, { name: "Placebo", n: 237, value: 19.6 }], hr: 0.17, ci: [0.11, 0.26], p: "<0.001", note: "Median DFS not reached with osimertinib at the primary analysis", source: nejm("NEJMoa2027071") },
-      { endpoint: "Overall survival at 5 years, stage II–IIIA", unit: "%", arms: [{ name: "Osimertinib", value: 85 }, { name: "Placebo", value: 73 }], hr: 0.49, ci: [0.33, 0.73], p: "<0.001", source: nejm("NEJMoa2304594") },
-      { endpoint: "Overall survival at 5 years, stage IB–IIIA", unit: "%", arms: [{ name: "Osimertinib", value: 88 }, { name: "Placebo", value: 78 }], hr: 0.49, ci: [0.34, 0.70], source: nejm("NEJMoa2304594") },
+      { endpoint: "Disease-free survival, stage II to IIIA", primary: true, unit: "months", arms: [{ name: "Osimertinib", n: 233 }, { name: "Placebo", n: 237, value: 19.6 }], hr: 0.17, ci: [0.11, 0.26], p: "<0.001", note: "Median DFS not reached with osimertinib at the primary analysis", source: nejm("NEJMoa2027071") },
+      { endpoint: "Overall survival at 5 years, stage II to IIIA", unit: "%", arms: [{ name: "Osimertinib", value: 85 }, { name: "Placebo", value: 73 }], hr: 0.49, ci: [0.33, 0.73], p: "<0.001", source: nejm("NEJMoa2304594") },
+      { endpoint: "Overall survival at 5 years, stage IB to IIIA", unit: "%", arms: [{ name: "Osimertinib", value: 88 }, { name: "Placebo", value: 78 }], hr: 0.49, ci: [0.34, 0.70], source: nejm("NEJMoa2304594") },
     ],
     replication: "Single pivotal adjuvant trial with an OS benefit; consistent with the adjuvant ALK result (ALINA) and with earlier-generation adjuvant EGFR TKI trials that improved DFS.",
   },
@@ -300,7 +300,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "nhs-galleri": {
     enrolled: 142000,
     outcomes: [
-      { endpoint: "Stage III–IV incidence, 12 prespecified cancers (primary)", primary: true, arms: [{ name: "Galleri + standard screening" }, { name: "Standard screening" }], note: "Not met: no statistically significant reduction within one year of the last screen; a fall in stage IV was offset by a rise in stage III.", source: "https://ascopost.com/news/june-2026/annual-galleri-screening-reduced-stage-iv-cancer-diagnoses-but-missed-primary-endpoint-in-first-randomized-mced-trial/" },
+      { endpoint: "Stage III to IV incidence, 12 prespecified cancers (primary)", primary: true, arms: [{ name: "Galleri + standard screening" }, { name: "Standard screening" }], note: "Not met: no statistically significant reduction within one year of the last screen; a fall in stage IV was offset by a rise in stage III.", source: "https://ascopost.com/news/june-2026/annual-galleri-screening-reduced-stage-iv-cancer-diagnoses-but-missed-primary-endpoint-in-first-randomized-mced-trial/" },
       { endpoint: "Relative reduction in stage IV diagnoses, rounds 2 and 3", unit: "%", arms: [{ name: "Round 2", value: 22 }, { name: "Round 3", value: 26 }], note: "Relative reduction versus control in the 12 prespecified cancers", source: "https://grail.com/press-releases/grail-reports-full-results-from-nhs-galleri-trial-demonstrating-substantial-reduction-in-stage-iv-cancer-diagnoses-at-2026-asco-annual-meeting/" },
       { endpoint: "Relative reduction in diagnosis through emergency presentation", unit: "%", arms: [{ name: "Galleri + standard screening", value: 25 }], source: "https://grail.com/press-releases/grail-reports-full-results-from-nhs-galleri-trial-demonstrating-substantial-reduction-in-stage-iv-cancer-diagnoses-at-2026-asco-annual-meeting/" },
     ],
@@ -340,7 +340,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   alina: {
     enrolled: 257,
-    outcomes: [{ endpoint: "Disease-free survival, stage II–IIIA", primary: true, unit: "months", arms: [{ name: "Alectinib", n: 116, note: "Median not reached" }, { name: "Platinum chemotherapy", n: 115, value: 44.4 }], hr: 0.24, ci: [0.13, 0.45], p: "<0.001", source: nejm("NEJMoa2310532") }],
+    outcomes: [{ endpoint: "Disease-free survival, stage II to IIIA", primary: true, unit: "months", arms: [{ name: "Alectinib", n: 116, note: "Median not reached" }, { name: "Platinum chemotherapy", n: 115, value: 44.4 }], hr: 0.24, ci: [0.13, 0.45], p: "<0.001", source: nejm("NEJMoa2310532") }],
     replication: "Mirrors ADAURA (adjuvant osimertinib) for a second oncogene; OS immature.",
   },
   pacific: {

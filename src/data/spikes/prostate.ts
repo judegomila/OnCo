@@ -172,7 +172,7 @@ const drugs: DrugInput[] = [
     links: [{ label: "SPLASH primary analysis (Lantheus, ESMO 2024)", url: "https://lantheusholdings.gcs-web.com/news-releases/news-release-details/lantheus-presents-results-primary-analysis-phase-3-pivotal" }, { label: "ECLIPSE meets rPFS (OncLive)", url: "https://www.onclive.com/view/177lu-psma-i-t-meets-rpfs-end-point-in-psma-mcrpc" }] }),
   d({ id: "xaluritamig", name: "Xaluritamig", code: "AMG 509", modality: "Bispecific T-cell engager (STEAP1×CD3, XmAb 2+1)", status: "phase-3",
     tldr: "Xaluritamig is Amgen's T-cell engager for prostate cancer, now in two phase 3 trials, aiming to do for prostate cancer what tarlatamab did for small-cell lung cancer.",
-    summary: "Phase 1 (ESMO 2024): PSA50 ~49% and confirmed responses in heavily pretreated mCRPC at high doses; CRS mostly grade 1-2 with step-up dosing. XALute (NCT06691984, n≈675, post-taxane, vs cabazitaxel or ARPI, OS primary; active, not recruiting as of mid-2026) and XALience (with abiraterone, chemo-naive mCRPC).",
+    summary: "Phase 1 (ESMO 2024): PSA50 ~49% and confirmed responses in heavily pretreated mCRPC at high doses; CRS mostly grade 1-2 with step-up dosing. XALute (NCT06691984, n≈675, post-taxane, vs cabazitaxel or ARPI, OS primary; active, not recruiting) and XALience (with abiraterone, chemo-naive mCRPC).",
     mechanism: "Two STEAP1-binding domains and one CD3 arm (avidity for high-STEAP1 cells) redirect T cells.",
     targets: ["steap1", "cd3"], technologies: ["t-cell-engager"], companies: ["amgen"], cancers: ["prostate"], trials: ["xalute"], terms: ["crs", "psa50"],
     links: [ct("NCT06691984"), { label: "XALience trial in progress (ASCO 2026)", url: "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.TPS5144" }] }),

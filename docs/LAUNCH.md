@@ -95,7 +95,7 @@ sources 6,297; backlinks 5,975 of 6,670; orphans 7 of 6,670 after the second lin
 ## Review and polish phase (started 10 Sept, late)
 - [x] Launch review agent: 13,976 pages crawled; 5 broken link targets fixed (new /coverage/ index); dashes, "as of" and "spike" removed from component copy; /hub/ canonical to /roadmap/; newsletter descriptions; 2 heading jumps; 9 tables wrapped for mobile. Merged 10 Sept.
 - [ ] Owner judgement items from the review: merge duplicate records (cstone/cstone-pharmaceuticals, hengrui/jiangsu-hengrui, pancan/src-pancan, seven reversed-name people ids, three "-term" twins, about 20 journals duplicated as src-* collections); dashes, "as of" and "spike" cleared from data text on 10 Sept (185 strings in 41 files) with a house-style test that exempts only companies, journals, people, terms and sources until the duplicate-merge agent lands; still yours: the hub idea titled "As of dates" (a feature name), the `spikes/` directory name and `spike` tag, the corrections page linking the repo root
-- [x] Ask OnCo quality pass: 60 new natural questions over today's new kinds, new intents (evidence grade, investors, regulator approvals, roadmaps, journals), rebuilt answer index (running)
+- [x] Ask OnCo quality pass: 60 new natural questions score 100% (from 74%); new intents for evidence grade, regulator approvals, companies, investors, roadmaps and journals; survival figures kept out of every answer sentence; old floors kept. Merged 10 Sept.
 - [ ] Owner's day of review on return: click through the eight-language switch and RTL, the 3D molecules on a phone, the graph explorer, the startups and completeness pages
 
 ## Deploy note (10 Sept, late)

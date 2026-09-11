@@ -50,6 +50,91 @@
       "source": "/companies/jiangsu-hengrui/:path*",
       "destination": "/companies/hengrui/:path*",
       "permanent": true
+    },
+    {
+      "source": "/collections/src-nejm/:path*",
+      "destination": "/journals/nejm/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-lancet-oncology/:path*",
+      "destination": "/journals/lancet-oncology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-jco/:path*",
+      "destination": "/journals/jco/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-cancer-discovery/:path*",
+      "destination": "/journals/cancer-discovery/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-nature-medicine/:path*",
+      "destination": "/journals/nature-medicine/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-nature-cancer/:path*",
+      "destination": "/journals/nature-cancer/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-cancer-cell/:path*",
+      "destination": "/journals/cancer-cell/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-annals-oncology/:path*",
+      "destination": "/journals/annals-of-oncology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-jama-oncology/:path*",
+      "destination": "/journals/jama-oncology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-blood/:path*",
+      "destination": "/journals/blood/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-cancer-research/:path*",
+      "destination": "/journals/cancer-research/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-clinical-cancer-research/:path*",
+      "destination": "/journals/clinical-cancer-research/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-jnci/:path*",
+      "destination": "/journals/jnci/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-esmo-open/:path*",
+      "destination": "/journals/esmo-open/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-medrxiv/:path*",
+      "destination": "/journals/medrxiv/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-biorxiv/:path*",
+      "destination": "/journals/biorxiv/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/src-pancan/:path*",
+      "destination": "/collections/pancan/:path*",
+      "permanent": true
     }
   ]
 }

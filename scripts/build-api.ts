@@ -17,6 +17,7 @@ import { rankInstitutions } from "../src/lib/ranking";
 import { benchmark } from "../src/data/benchmark";
 import { flattenForCsv, toCsv, toNdjson, EXPORT_LICENCE } from "../src/lib/csv";
 import { buildFeeds } from "./build-feeds";
+import { apiFiles, FEEDS } from "./api-layout";
 
 const out = join(process.cwd(), "public", "api", "v1");
 rmSync(out, { recursive: true, force: true });
@@ -35,14 +36,12 @@ for (const e of g.entities) {
 write("all.json", { entities: g.entities, incoming });
 writeText("all.ndjson", toNdjson(g.entities.map((e) => ({ ...e, route: routeFor(e) }))));
 write("search.json", searchDocs());
-const files: Array<{ path: string; contents: string }> = [];
 for (const k of KINDS) {
   const list = g.kind(k);
   write(`${KIND_META[k].plural}.json`, list);
   // CSV: one row per entity, scalars as-is, arrays of scalars joined with "; ", nested records as JSON; column order is the union of keys in first-seen order.
   const rows = list.map((e) => flattenForCsv({ ...(e as unknown as Record<string, unknown>), route: routeFor(e) }));
   writeText(`${KIND_META[k].plural}.csv`, toCsv(rows));
-  files.push({ path: `/api/v1/${KIND_META[k].plural}.csv`, contents: `${list.length} ${KIND_META[k].plural} as CSV` });
 }
 for (const e of g.entities) {
   const neighbours: Record<string, Array<{ id: string; kind: string; name: string; route: string }>> = {};
@@ -62,20 +61,16 @@ try {
 
 const feeds = buildFeeds();
 
+// The file list and feed list live in scripts/api-layout.ts, shared with the OpenAPI description (build-openapi.ts).
+const counts = Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])) as Record<(typeof KINDS)[number], number>;
 write("meta.json", {
   built: new Date().toISOString(), schema: 1, version: process.env.npm_package_version ?? null,
   attribution: EXPORT_LICENCE, licenseUrl: "https://creativecommons.org/licenses/by-nc/4.0/",
-  counts: Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])), total: g.entities.length, license: "CC BY-NC 4.0", source: "https://github.com/judegomila/OnCo",
-  files: [
-    { path: "/api/v1/all.json", contents: "All entities plus an incoming map of backlinks per id" },
-    { path: "/api/v1/all.ndjson", contents: "All entities, one JSON object per line" },
-    { path: "/api/v1/schema.json", contents: "JSON Schema (draft 2020-12) of one entity" },
-    { path: "/api/v1/search.json", contents: "Compact search documents" },
-    { path: "/api/v1/entities/<id>.json", contents: "One entity with its neighbours" },
-    { path: "/api/v1/ranking.json", contents: "Institution ranking rows with score components" },
-    ...files,
-  ],
-  feeds: ["/feeds/changelog.xml", "/feeds/regulatory.xml", "/feeds/calendar.xml", "/feeds/pulse.xml"],
+  counts, total: g.entities.length, license: "CC BY-NC 4.0", source: "https://github.com/judegomila/OnCo",
+  files: apiFiles(counts),
+  feeds: FEEDS,
+  openapi: "/api/v1/openapi.json",
+  citation: "https://github.com/judegomila/OnCo/blob/main/CITATION.cff",
   releases: "https://github.com/judegomila/OnCo/releases",
 });
 

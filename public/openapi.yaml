@@ -14,11 +14,15 @@ info:
     the source of truth and is enforced at build time. The schemas below describe the shared fields and the
     response envelopes; kind-specific fields are documented in that file.
 
-    Licence: data CC BY 4.0, code MIT. Attribution is required: name OnCo and link to https://onco.cc
-    wherever the data or text derived from it appears.
+    Licence: data CC BY-NC 4.0, code MIT. Free for individual and educational use with attribution: name OnCo
+    and link to https://onco.cc wherever the data or text derived from it appears. Commercial use must contact
+    OnCo to pay for the data (https://onco.cc/about/#licence).
+
+    This hand-written file is kept for existing imports. The generated description at /api/v1/openapi.json is
+    rebuilt on every deploy from the file layout and is the one to prefer.
   license:
-    name: CC BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
+    name: CC BY-NC 4.0 (data); MIT (code)
+    url: https://creativecommons.org/licenses/by-nc/4.0/
   contact:
     name: OnCo on GitHub
     url: https://github.com/judegomila/OnCo

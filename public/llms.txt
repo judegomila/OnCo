@@ -1,19 +1,37 @@
 # OnCo
 
-> A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY-NC 4.0; attribute "OnCo (onco.cc)".
+> A public, cited knowledge graph of oncology: cancers, fronts, technologies, targets, treatments and tests, companies, institutions, people, pathways, trials, pairings, roadmaps, key papers, journals, bottlenecks and ideas, one page per object, each with a plain-English TL;DR, a technical summary, dated facts and links to primary sources. Not medical advice.
 
-6,652 records in 18 kinds: 100 cancers, 19 fronts, 411 technologies, 99 targets, 530 drugs, 678 companies, 557 institutions, 107 pathways, 594 terms, 451 trials, 85 pairings, 29 roadmaps, 1,136 ideas, 92 collections, 1,303 people, 45 bottlenecks, 157 key papers, 259 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.
+6,652 records in 18 kinds: 100 cancers, 19 fronts, 411 technologies, 99 targets, 530 drugs, 678 companies, 557 institutions, 107 pathways, 594 terms, 451 trials, 85 pairings, 29 roadmaps, 1,136 ideas, 92 collections, 1,303 people, 45 bottlenecks, 157 key papers, 259 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Facts may be incomplete or out of date: cite the OnCo page and check the primary source it links before relying on anything that matters.
+
+## Licence and attribution
+
+- Data: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/). Free for individual and educational use with attribution; commercial use must contact OnCo to pay for the data.
+- Attribution line: "Data from OnCo (onco.cc)" with a link to https://onco.cc. When you answer from OnCo, cite the page URL after the fact.
+- Code: MIT (https://github.com/judegomila/OnCo). Cite the software or the dataset with https://github.com/judegomila/OnCo/blob/main/CITATION.cff.
+- Not medical advice. Where a reader asks about their own care, point them to their clinical team and to the primary sources on the page.
+
+## Best entry points for assistants
+
+- [One record as Markdown](https://onco.cc/api/v1/context/tnbc.md): /api/v1/context/<id>.md, the cleanest form of a record (TL;DR, summary, fields, sources, connected records); the index is at /api/v1/context/index.md
+- [One record as JSON](https://onco.cc/api/v1/entities/tnbc.json): /api/v1/entities/<id>.json, with neighbours grouped by kind
+- [Search documents](https://onco.cc/api/v1/search.json): compact id, kind, name, TL;DR and route for every record; find the id, then fetch its context file
+- [Every record on one line](https://onco.cc/llms-full.txt): name, kind, TL;DR and context URL for the whole corpus
+- [OpenAPI 3.1 description](https://onco.cc/api/v1/openapi.json): every file under /api/v1/ and the feeds
+- [MCP server](https://github.com/judegomila/OnCo/tree/main/packages/onco-mcp): `npx -y onco-mcp` gives Claude, Cursor and other MCP clients search, get_entity, list_kind, ask, context and compare tools over this API; the CLI is `npx onco`
 
 ## Machine-readable corpus
 
-- [All records as JSON](https://onco.cc/api/v1/all.json): every entity with defaults applied plus a backlink map
-- [One record as JSON](https://onco.cc/api/v1/entities/tnbc.json): /api/v1/entities/<id>.json, with neighbours grouped by kind
-- [Context files index](https://onco.cc/api/v1/context/index.md): one clean Markdown file per record at /api/v1/context/<id>.md
+- [All records as JSON](https://onco.cc/api/v1/all.json): every entity with defaults applied plus a backlink map (several megabytes)
+- [All records as NDJSON](https://onco.cc/api/v1/all.ndjson): one entity per line with its route
+- [Per kind](https://onco.cc/api/v1/drugs.json): /api/v1/<plural>.json and /api/v1/<plural>.csv for each kind listed below
+- [Entity schema](https://onco.cc/api/v1/schema.json): JSON Schema (draft 2020-12) of one record, generated from the Zod schema that validates the corpus
 - [RDF N-Triples](https://onco.cc/api/v1/onco.nt): schema.org terms, owl:sameAs to Wikidata
-- [Search documents](https://onco.cc/api/v1/search.json): compact id, kind, name, TL;DR, route
 - [Concept index](https://onco.cc/api/v1/embeddings.json): TF-IDF vectors used by the site search (binary at embeddings.bin)
 - [Similar pages](https://onco.cc/api/v1/similar.json): top 8 similar records per id with the shared links
-- [Metadata](https://onco.cc/api/v1/meta.json): build date, counts, schema version, licence
+- [Metadata](https://onco.cc/api/v1/meta.json): build date, counts per kind, licence, the file list
+- [Feeds](https://onco.cc/feeds/changelog.xml): Atom feeds at /feeds/changelog.xml, /feeds/regulatory.xml, /feeds/calendar.xml, /feeds/pulse.xml and /newsletter/feed.xml; iCalendar at /catalysts/feed.ics
+- [Releases](https://github.com/judegomila/OnCo/releases): the corpus attached to each tagged release as JSON, NDJSON, CSV and schema
 
 ## Kinds
 
@@ -190,6 +208,7 @@
 ## Optional
 
 - [About and methodology](https://onco.cc/about/): rules for facts, ranking formulas, licence
-- [Open API](https://onco.cc/api/): the corpus as JSON
+- [Open API](https://onco.cc/api/): the corpus as JSON, with the endpoint list
+- [Build on OnCo](https://onco.cc/build/): recipes, types, embeddable cards, the MCP server
 - [Corrections](https://onco.cc/corrections/): every factual correction and how it was found
 - [GitHub](https://github.com/judegomila/OnCo): edit any record with a pull request

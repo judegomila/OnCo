@@ -25,7 +25,7 @@
   "scripts": {
     "dev": "npm run build:api && next dev",
     "build": "npm run build:api && next build",
-    "build:api": "tsx scripts/build-redirect-stubs.ts && tsx scripts/build-api.ts && tsx scripts/embed.ts && tsx scripts/build-ask.ts && tsx scripts/build-similar.ts && tsx scripts/build-triples.ts && tsx scripts/build-context.ts && tsx scripts/freshness.ts && tsx scripts/newsletter.ts",
+    "build:api": "tsx scripts/build-redirect-stubs.ts && tsx scripts/build-api.ts && tsx scripts/build-openapi.ts && tsx scripts/embed.ts && tsx scripts/build-ask.ts && tsx scripts/build-similar.ts && tsx scripts/build-triples.ts && tsx scripts/build-context.ts && tsx scripts/freshness.ts && tsx scripts/newsletter.ts",
     "validate": "tsx scripts/validate.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",

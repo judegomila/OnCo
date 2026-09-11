@@ -184,7 +184,7 @@ Atom feeds for the <Link href="/api/#feeds">changelog, regulatory events, calend
 
 ## 10. Repository settings (item 56)
 
-- Releases: tag `vX.Y.Z` on `main` triggers `.github/workflows/release.yml`, which attaches the corpus files to a GitHub release.
+- Releases: tag `vX.Y.Z` on `main` triggers `.github/workflows/release-dataset.yml`, which attaches the corpus files to a GitHub release.
 - Zenodo: either enable the GitHub integration for `judegomila/OnCo` at zenodo.org (uses `.zenodo.json`) or add a
   `ZENODO_TOKEN` repository secret so the workflow deposits directly. Add the ORCID of the creator to
   `.zenodo.json` (`"orcid": "0000-..."`) when known; it was omitted rather than guessed.

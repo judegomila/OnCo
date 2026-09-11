@@ -20,7 +20,7 @@ export default function BuildPage() {
         <div className="card p-4 text-sm border-accent/30 bg-accent-soft/40">
           <div className="kicker mb-1">Start here</div>
           <ul className="list-disc pl-5 space-y-1">
-            <li><a className="underline" href="/openapi.yaml">OpenAPI 3.1 spec</a> for <code className="text-xs">/api/v1/</code>, importable into Postman, Stoplight or an SDK generator.</li>
+            <li><a className="underline" href="/api/v1/openapi.json">OpenAPI 3.1 description</a> for <code className="text-xs">/api/v1/</code>, generated at build time from the file layout, importable into Postman, Stoplight or an SDK generator (an older hand-written copy is at <a className="underline" href="/openapi.yaml">/openapi.yaml</a>).</li>
             <li><Link className="underline" href="/api/">Endpoint list</Link> with live links and counts.</li>
             <li><a className="underline" href="https://github.com/judegomila/OnCo/blob/main/src/lib/schema.ts" rel="noopener">src/lib/schema.ts</a>: the Zod schema that every object is validated against at build time. It is the source of truth for field names and enums.</li>
             <li><a className="underline" href="https://github.com/judegomila/OnCo/tree/main/mcp" rel="noopener">MCP server</a>: <code className="text-xs">npm run mcp</code> exposes search, get_entity, list_kind, for_cancer and rank tools over stdio.</li>

@@ -85,34 +85,71 @@ for (const k of KINDS) {
 }
 writeFileSync(join(dir, "index.md"), index.join("\n"));
 
-// llms.txt: deterministic (no timestamp) so the committed copy only changes when the corpus does.
+// llms.txt (https://llmstxt.org): deterministic (no timestamp) so the committed copy only changes when the corpus does.
+const liveKinds = KINDS.filter((k) => g.kind(k).length);
+const REPO = "https://github.com/judegomila/OnCo";
 const llms: string[] = [
   "# OnCo",
   "",
-  "> A public, cited knowledge graph of oncology: cancers, technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, ideas, key papers and people, one page per object, with a plain-English TL;DR and a technical summary on every page. Data CC BY-NC 4.0; attribute \"OnCo (onco.cc)\".",
+  "> A public, cited knowledge graph of oncology: cancers, fronts, technologies, targets, treatments and tests, companies, institutions, people, pathways, trials, pairings, roadmaps, key papers, journals, bottlenecks and ideas, one page per object, each with a plain-English TL;DR, a technical summary, dated facts and links to primary sources. Not medical advice.",
   "",
-  `${g.entities.length.toLocaleString("en-GB")} records in ${KINDS.filter((k) => g.kind(k).length).length} kinds: ${KINDS.filter((k) => g.kind(k).length).map((k) => `${g.kind(k).length.toLocaleString("en-GB")} ${KIND_META[k].plural}`).join(", ")}. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Not medical advice.`,
+  `${g.entities.length.toLocaleString("en-GB")} records in ${liveKinds.length} kinds: ${liveKinds.map((k) => `${g.kind(k).length.toLocaleString("en-GB")} ${KIND_META[k].plural}`).join(", ")}. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Facts may be incomplete or out of date: cite the OnCo page and check the primary source it links before relying on anything that matters.`,
+  "",
+  "## Licence and attribution",
+  "",
+  "- Data: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/). Free for individual and educational use with attribution; commercial use must contact OnCo to pay for the data.",
+  `- Attribution line: "Data from OnCo (onco.cc)" with a link to ${SITE}. When you answer from OnCo, cite the page URL after the fact.`,
+  `- Code: MIT (${REPO}). Cite the software or the dataset with ${REPO}/blob/main/CITATION.cff.`,
+  `- Not medical advice. Where a reader asks about their own care, point them to their clinical team and to the primary sources on the page.`,
+  "",
+  "## Best entry points for assistants",
+  "",
+  `- [One record as Markdown](${SITE}/api/v1/context/tnbc.md): /api/v1/context/<id>.md, the cleanest form of a record (TL;DR, summary, fields, sources, connected records); the index is at /api/v1/context/index.md`,
+  `- [One record as JSON](${SITE}/api/v1/entities/tnbc.json): /api/v1/entities/<id>.json, with neighbours grouped by kind`,
+  `- [Search documents](${SITE}/api/v1/search.json): compact id, kind, name, TL;DR and route for every record; find the id, then fetch its context file`,
+  `- [Every record on one line](${SITE}/llms-full.txt): name, kind, TL;DR and context URL for the whole corpus`,
+  `- [OpenAPI 3.1 description](${SITE}/api/v1/openapi.json): every file under /api/v1/ and the feeds`,
+  `- [MCP server](${REPO}/tree/main/packages/onco-mcp): \`npx -y onco-mcp\` gives Claude, Cursor and other MCP clients search, get_entity, list_kind, ask, context and compare tools over this API; the CLI is \`npx onco\``,
   "",
   "## Machine-readable corpus",
   "",
-  `- [All records as JSON](${SITE}/api/v1/all.json): every entity with defaults applied plus a backlink map`,
-  `- [One record as JSON](${SITE}/api/v1/entities/tnbc.json): /api/v1/entities/<id>.json, with neighbours grouped by kind`,
-  `- [Context files index](${SITE}/api/v1/context/index.md): one clean Markdown file per record at /api/v1/context/<id>.md`,
+  `- [All records as JSON](${SITE}/api/v1/all.json): every entity with defaults applied plus a backlink map (several megabytes)`,
+  `- [All records as NDJSON](${SITE}/api/v1/all.ndjson): one entity per line with its route`,
+  `- [Per kind](${SITE}/api/v1/drugs.json): /api/v1/<plural>.json and /api/v1/<plural>.csv for each kind listed below`,
+  `- [Entity schema](${SITE}/api/v1/schema.json): JSON Schema (draft 2020-12) of one record, generated from the Zod schema that validates the corpus`,
   `- [RDF N-Triples](${SITE}/api/v1/onco.nt): schema.org terms, owl:sameAs to Wikidata`,
-  `- [Search documents](${SITE}/api/v1/search.json): compact id, kind, name, TL;DR, route`,
   `- [Concept index](${SITE}/api/v1/embeddings.json): TF-IDF vectors used by the site search (binary at embeddings.bin)`,
   `- [Similar pages](${SITE}/api/v1/similar.json): top 8 similar records per id with the shared links`,
-  `- [Metadata](${SITE}/api/v1/meta.json): build date, counts, schema version, licence`,
+  `- [Metadata](${SITE}/api/v1/meta.json): build date, counts per kind, licence, the file list`,
+  `- [Feeds](${SITE}/feeds/changelog.xml): Atom feeds at /feeds/changelog.xml, /feeds/regulatory.xml, /feeds/calendar.xml, /feeds/pulse.xml and /newsletter/feed.xml; iCalendar at /catalysts/feed.ics`,
+  `- [Releases](${REPO}/releases): the corpus attached to each tagged release as JSON, NDJSON, CSV and schema`,
   "",
   "## Kinds",
   "",
-  ...KINDS.filter((k) => g.kind(k).length).map((k) => `- [${KIND_META[k].plural[0].toUpperCase()}${KIND_META[k].plural.slice(1)}](${SITE}/${KIND_META[k].route}/): ${KIND_META[k].blurb} JSON at /api/v1/${KIND_META[k].plural}.json`),
+  ...liveKinds.map((k) => `- [${KIND_META[k].plural[0].toUpperCase()}${KIND_META[k].plural.slice(1)}](${SITE}/${KIND_META[k].route}/): ${KIND_META[k].blurb} JSON at /api/v1/${KIND_META[k].plural}.json`),
   "",
 ];
 for (const grp of NAV_GROUPS) {
   llms.push(`## ${grp.label}`, "", ...grp.items.filter((it) => !it.href.startsWith("http")).map((it) => `- [${it.label}](${SITE}${it.href}): ${it.blurb}`), "");
 }
-llms.push("## Optional", "", `- [About and methodology](${SITE}/about/): rules for facts, ranking formulas, licence`, `- [Open API](${SITE}/api/): the corpus as JSON`, `- [Corrections](${SITE}/corrections/): every factual correction and how it was found`, `- [GitHub](https://github.com/judegomila/OnCo): edit any record with a pull request`, "");
+llms.push("## Optional", "", `- [About and methodology](${SITE}/about/): rules for facts, ranking formulas, licence`, `- [Open API](${SITE}/api/): the corpus as JSON, with the endpoint list`, `- [Build on OnCo](${SITE}/build/): recipes, types, embeddable cards, the MCP server`, `- [Corrections](${SITE}/corrections/): every factual correction and how it was found`, `- [GitHub](${REPO}): edit any record with a pull request`, "");
 writeFileSync(join(process.cwd(), "public", "llms.txt"), llms.join("\n"));
 
-console.log(`context: ${g.entities.length} Markdown files, index.md and llms.txt written`);
+// llms-full.txt: the whole corpus in one file, one line per record (kind, name, TL;DR, context URL). The full
+// per-record text would be tens of megabytes, so this is the digest an assistant can hold in one go; each line
+// points at the record's Markdown context file for the rest. Gitignored (about a megabyte, regenerated each build).
+const full: string[] = [
+  "# OnCo: every record",
+  "",
+  `> ${g.entities.length.toLocaleString("en-GB")} records in ${liveKinds.length} kinds, one line each: name (kind): TL;DR, then the URL of the record's Markdown context file, which holds the technical summary, structured fields, sources and connected records. The site overview and licence are at ${SITE}/llms.txt. Data CC BY-NC 4.0, attribute "Data from OnCo (onco.cc)"; commercial use must contact OnCo. Not medical advice.`,
+  "",
+];
+for (const k of liveKinds) {
+  const list = g.kind(k);
+  full.push(`## ${KIND_META[k].plural[0].toUpperCase()}${KIND_META[k].plural.slice(1)} (${list.length.toLocaleString("en-GB")})`, "", KIND_META[k].blurb, "");
+  for (const e of list) full.push(`- ${e.name} (${KIND_META[k].label.toLowerCase()}): ${e.tldr.replace(/\s+/g, " ").trim()} ${SITE}/api/v1/context/${e.id}.md`);
+  full.push("");
+}
+writeFileSync(join(process.cwd(), "public", "llms-full.txt"), full.join("\n"));
+
+console.log(`context: ${g.entities.length} Markdown files, index.md, llms.txt and llms-full.txt written`);

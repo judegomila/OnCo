@@ -1,0 +1,57 @@
+# Citation File Format 1.2.0 (https://citation-file-format.github.io). GitHub shows a "Cite this repository"
+# button from this file; Zenodo reads it when it archives a release. Two things to cite: the software
+# (this record) and the corpus it publishes (preferred-citation, type dataset). Once Zenodo has issued a
+# concept DOI, add it under identifiers and under preferred-citation.identifiers; do not invent one.
+cff-version: 1.2.0
+message: >-
+  If you use OnCo, please cite the dataset below and attribute it as "Data from OnCo (onco.cc)" with a
+  link to https://onco.cc. The data are CC BY-NC 4.0: free for individual and educational use with
+  attribution; commercial use must contact OnCo to pay for the data. The code is MIT.
+type: software
+title: "OnCo: a public, cited knowledge graph of oncology"
+abstract: >-
+  OnCo maps oncology as a linked corpus: cancers, fronts, technologies, targets, treatments and tests,
+  companies, institutions, people, pathways, trials, pairings, roadmaps, key papers, journals, bottlenecks
+  and ideas, one record per object, each with a plain-English TL;DR, a technical summary, dated facts and
+  links to primary sources. The same corpus is published as a website, a static JSON API with Markdown
+  context files, Atom feeds and RDF triples, a command-line tool and a Model Context Protocol server.
+  Nothing in it is medical advice.
+authors:
+  - family-names: Gomila
+    given-names: Jude
+    website: https://judegomila.com
+  - name: OnCo contributors
+    website: https://onco.cc/contributors/
+version: 0.4.0
+date-released: 2026-09-08
+license: MIT
+license-url: https://github.com/judegomila/OnCo/blob/main/LICENSE
+repository-code: https://github.com/judegomila/OnCo
+url: https://onco.cc
+keywords:
+  - oncology
+  - cancer
+  - knowledge graph
+  - open data
+  - clinical trials
+  - drug targets
+  - antibody-drug conjugates
+  - radiopharmaceuticals
+  - precision medicine
+preferred-citation:
+  type: dataset
+  title: "OnCo corpus: a public, cited knowledge graph of oncology"
+  authors:
+    - family-names: Gomila
+      given-names: Jude
+    - name: OnCo contributors
+  version: 0.4.0
+  date-released: 2026-09-08
+  url: https://onco.cc/api/
+  repository-code: https://github.com/judegomila/OnCo
+  license: CC-BY-NC-4.0
+  license-url: https://github.com/judegomila/OnCo/blob/main/LICENSE-DATA
+  notes: >-
+    Published as JSON, NDJSON, CSV, JSON Schema, Markdown context files and RDF N-Triples under
+    https://onco.cc/api/v1/ and attached to each tagged GitHub release. Attribution: "Data from OnCo
+    (onco.cc)". Facts may be incomplete or out of date; verify at the primary source each record links.

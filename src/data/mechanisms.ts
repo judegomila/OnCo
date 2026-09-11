@@ -71,14 +71,14 @@ const pathways: PathwayInput[] = [
     summary: "Proteasome-processed peptides are loaded on MHC class I (HLA-A/B/C, B2M) and presented to CD8 T cells; dendritic cells cross-present tumour antigens in lymph nodes. Immunoediting proceeds through elimination, equilibrium, and escape: loss of B2M or HLA, JAK1/2 or IFNGR mutations (blunting interferon-γ response), antigen loss, PD-L1 induction, and immunosuppressive niches. Neoantigen quality, not just quantity, predicts response; HLA genotype shapes which mutations are visible. Escape variants explain acquired resistance to checkpoint blockade and CAR-T (CD19 loss).",
     analogy: "Wanted posters: the cell pins fragments of everything it makes onto its surface. Immune police recognise criminals' faces. Cancers that survive have taken down the posters (lost MHC) or bribed the police (checkpoints).",
     nodes: [
-      { id: "prot", label: "Proteasome → peptides", x: 15, y: 30 }, { id: "tap", label: "TAP transport", x: 35, y: 30 }, { id: "mhc", label: "MHC-I / B2M loading", x: 55, y: 30 }, { id: "surf", label: "Peptide–MHC on surface", x: 75, y: 30 },
+      { id: "prot", label: "Proteasome → peptides", x: 15, y: 30 }, { id: "tap", label: "TAP transport", x: 35, y: 30 }, { id: "mhc", label: "MHC-I / B2M loading", x: 55, y: 30 }, { id: "surf", label: "Peptide-MHC on surface", x: 75, y: 30 },
       { id: "tcr", label: "CD8 T cell (TCR)", x: 75, y: 65, targetId: "cd3" }, { id: "ifn", label: "IFN-γ → JAK1/2 → STAT1", x: 45, y: 65 }, { id: "pdl1", label: "PD-L1 induction", x: 25, y: 85, targetId: "pdl1" },
       { id: "dc", label: "Dendritic cell cross-presentation", x: 92, y: 50 }, { id: "escape", label: "Escape: B2M/HLA loss, JAK mutation", x: 15, y: 60 },
     ],
     edges: [
       { from: "prot", to: "tap" }, { from: "tap", to: "mhc" }, { from: "mhc", to: "surf" }, { from: "surf", to: "tcr" }, { from: "dc", to: "tcr" }, { from: "tcr", to: "ifn" }, { from: "ifn", to: "mhc" }, { from: "ifn", to: "pdl1" }, { from: "pdl1", to: "tcr", type: "inhibits" }, { from: "escape", to: "mhc", type: "inhibits" }, { from: "escape", to: "ifn", type: "inhibits" },
     ],
-    interventions: ["Checkpoint inhibitors; personalised neoantigen vaccines (intismeran) supply antigen; T-cell engagers and CAR-T bypass MHC entirely", "TCR-T and ImmTACs (tebentafusp) target intracellular antigens via peptide–HLA", "Epigenetic drugs and interferon can re-express MHC; MHC-independent NK-cell therapies address MHC-loss escape"],
+    interventions: ["Checkpoint inhibitors; personalised neoantigen vaccines (intismeran) supply antigen; T-cell engagers and CAR-T bypass MHC entirely", "TCR-T and ImmTACs (tebentafusp) target intracellular antigens via peptide-HLA", "Epigenetic drugs and interferon can re-express MHC; MHC-independent NK-cell therapies address MHC-loss escape"],
     pathways: ["pd1-checkpoint", "cgas-sting", "jak-stat"], targets: ["pd1", "pdl1", "cd3", "gp100", "mage-a4", "prame"], technologies: ["neoantigen-mrna-vaccine", "tcr-t", "t-cell-engager", "car-t", "car-nk-macrophage", "checkpoint-inhibitor"], terms: ["neoantigen", "hla-a02-restriction", "tmb", "cold-vs-hot", "avoiding-immune-destruction"],
     institutions: ["wustl-siteman", "mskcc", "nci", "johns-hopkins"],
     notes: ["Leading programmes: Schreiber (WashU) coined immunoediting; Chan and Ribas on neoantigen quality and escape (MSK, UCLA); NCI Surgery Branch on neoantigen-reactive T cells; Balachandran (MSK) on long-term vaccine responders."],
@@ -108,7 +108,7 @@ const pathways: PathwayInput[] = [
   p({
     id: "replication-stress", name: "DNA replication stress", wikipedia: W("Replication_stress"),
     tldr: "Cancers copy their DNA too fast and with broken checkpoints, so replication forks stall and collapse. They survive only by leaning on emergency repair kinases such as ATR, CHK1, and WEE1, which is why blocking those kinases can be selectively lethal.",
-    summary: "Oncogene activation (MYC, cyclin E, RAS) shortens G1, increases origin firing, and causes fork stalling, ssDNA gaps, and transcription–replication conflicts. ATR senses stalled forks and signals via CHK1 to slow origin firing and stabilise forks; WEE1 restrains CDK1/2. TP53-mutant and CCNE1-amplified cells depend on this axis (G1 checkpoint gone, G2/M checkpoint essential), the rationale for ATR (ceralasertib, camonsertib), CHK1, WEE1 (azenosertib), and PKMYT1 (lunresertib) inhibitors, often with PARP inhibitors or chemotherapy. Toxicity is the recurring limitation because normal proliferating tissue also uses these checkpoints.",
+    summary: "Oncogene activation (MYC, cyclin E, RAS) shortens G1, increases origin firing, and causes fork stalling, ssDNA gaps, and transcription-replication conflicts. ATR senses stalled forks and signals via CHK1 to slow origin firing and stabilise forks; WEE1 restrains CDK1/2. TP53-mutant and CCNE1-amplified cells depend on this axis (G1 checkpoint gone, G2/M checkpoint essential), the rationale for ATR (ceralasertib, camonsertib), CHK1, WEE1 (azenosertib), and PKMYT1 (lunresertib) inhibitors, often with PARP inhibitors or chemotherapy. Toxicity is the recurring limitation because normal proliferating tissue also uses these checkpoints.",
     analogy: "A photocopier running at triple speed with the paper-jam sensor removed. It keeps working only because a technician (ATR/CHK1/WEE1) constantly clears jams. Remove the technician and it destroys itself.",
     nodes: [
       { id: "onc", label: "Oncogenes (MYC, cyclin E, RAS)", x: 15, y: 20, targetId: "kras" }, { id: "origin", label: "Excess origin firing, short G1", x: 45, y: 20 }, { id: "fork", label: "Stalled forks, ssDNA gaps", x: 75, y: 20 },
@@ -132,16 +132,16 @@ const pathways: PathwayInput[] = [
     analogy: "Chromosomal instability is a library that reshuffles and duplicates random shelves every night. Most rearrangements are useless, some ruin the building, but occasionally one yields a book the librarian needs to survive a new rule, and the mess itself keeps the fire alarms twitching.",
     nodes: [
       { id: "mitosis", label: "Mitotic errors, WGD", x: 15, y: 25 }, { id: "cin", label: "Chromosomal instability", x: 45, y: 25 }, { id: "aneu", label: "Aneuploidy / karyotype heterogeneity", x: 75, y: 25 },
-      { id: "micro", label: "Micronuclei → cytosolic DNA", x: 30, y: 60 }, { id: "sting", label: "cGAS–STING", x: 30, y: 90 }, { id: "ecdna", label: "ecDNA oncogene amplification", x: 75, y: 60, targetId: "egfr" },
+      { id: "micro", label: "Micronuclei → cytosolic DNA", x: 30, y: 60 }, { id: "sting", label: "cGAS-STING", x: 30, y: 90 }, { id: "ecdna", label: "ecDNA oncogene amplification", x: 75, y: 60, targetId: "egfr" },
       { id: "evol", label: "Clonal evolution, resistance", x: 92, y: 45 }, { id: "dep", label: "Dependencies: KIF18A, SAC, BCL-XL", x: 60, y: 90 }, { id: "p53", label: "TP53 loss permits", x: 15, y: 60, targetId: "tp53" },
     ],
     edges: [
       { from: "mitosis", to: "cin" }, { from: "cin", to: "aneu" }, { from: "aneu", to: "evol" }, { from: "cin", to: "micro" }, { from: "micro", to: "sting" }, { from: "cin", to: "ecdna" }, { from: "ecdna", to: "evol" }, { from: "aneu", to: "dep" }, { from: "p53", to: "cin" },
     ],
-    interventions: ["KIF18A inhibitors (sovilnesib) selectively kill CIN-high cells; phase 1/2 in ovarian and TNBC", "ecDNA-directed strategies (CHK1 inhibition, transcription–replication conflict) from the Cancer Grand Challenges eDyNAmiC team", "STING pathway modulation; radiation exploits CIN", "Aneuploidy scores (TRACERx) as prognostic biomarkers"],
+    interventions: ["KIF18A inhibitors (sovilnesib) selectively kill CIN-high cells; phase 1/2 in ovarian and TNBC", "ecDNA-directed strategies (CHK1 inhibition, transcription-replication conflict) from the Cancer Grand Challenges eDyNAmiC team", "STING pathway modulation; radiation exploits CIN", "Aneuploidy scores (TRACERx) as prognostic biomarkers"],
     pathways: ["cgas-sting", "p53-cell-cycle", "replication-stress", "clonal-evolution"], targets: ["tp53", "egfr"], technologies: ["wes-wgs", "single-cell-spatial"], terms: ["genome-instability-mutation", "whole-genome-doubling", "mutational-signature"],
     institutions: ["francis-crick", "mskcc", "stanford", "cruk"],
-    notes: ["Leading programmes: Swanton (Crick/UCL, TRACERx, CIN and immune evasion); Bakhoum (MSK, CIN–STING); Mischel (Stanford) and the eDyNAmiC Cancer Grand Challenge on ecDNA; Sheltzer (Yale) on aneuploidy dependencies."],
+    notes: ["Leading programmes: Swanton (Crick/UCL, TRACERx, CIN and immune evasion); Bakhoum (MSK, CIN-STING); Mischel (Stanford) and the eDyNAmiC Cancer Grand Challenge on ecDNA; Sheltzer (Yale) on aneuploidy dependencies."],
     links: [{ label: "Bakhoum et al., Chromosomal instability drives metastasis through a cytosolic DNA response (Nature 2018)", url: "https://doi.org/10.1038/nature25432" }, { label: "Cancer Grand Challenges eDyNAmiC team", url: "https://cancergrandchallenges.org/teams/edynamic" }],
     tags: ["mechanism"],
   }),
@@ -312,10 +312,10 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
-    id: "jak-stat", name: "JAK–STAT signalling", wikipedia: W("JAK-STAT_signaling_pathway"),
+    id: "jak-stat", name: "JAK-STAT signalling", wikipedia: W("JAK-STAT_signaling_pathway"),
     tldr: "The relay that turns cytokine signals into gene changes. Overactive in blood cancers (JAK2 in myelofibrosis), it is also the wire that carries interferon's cancer-killing message, so tumours cut it to escape immunotherapy.",
-    summary: "Cytokine receptors recruit JAK kinases that phosphorylate STAT transcription factors. JAK2 V617F drives myeloproliferative neoplasms (ruxolitinib, fedratinib, momelotinib approved); STAT3 is a hub for IL-6-driven survival, immunosuppression, and cachexia; STAT5 in leukaemias. Interferon-γ signalling via JAK1/2–STAT1 upregulates MHC and PD-L1; JAK1/2 loss-of-function mutations cause acquired resistance to PD-1 blockade. Direct STAT3 inhibitors (degraders, antisense) are in early trials.",
-    analogy: "JAK–STAT is a doorbell wired to the house lights. Cytokines ring, JAK flips the switch, STAT turns on the lights. Cancers either jam the switch on (JAK2 mutation) or cut the wire so interferon cannot turn on the 'I am infected' lights.",
+    summary: "Cytokine receptors recruit JAK kinases that phosphorylate STAT transcription factors. JAK2 V617F drives myeloproliferative neoplasms (ruxolitinib, fedratinib, momelotinib approved); STAT3 is a hub for IL-6-driven survival, immunosuppression, and cachexia; STAT5 in leukaemias. Interferon-γ signalling via JAK1/2-STAT1 upregulates MHC and PD-L1; JAK1/2 loss-of-function mutations cause acquired resistance to PD-1 blockade. Direct STAT3 inhibitors (degraders, antisense) are in early trials.",
+    analogy: "JAK-STAT is a doorbell wired to the house lights. Cytokines ring, JAK flips the switch, STAT turns on the lights. Cancers either jam the switch on (JAK2 mutation) or cut the wire so interferon cannot turn on the 'I am infected' lights.",
     nodes: [
       { id: "cyto", label: "Cytokine / IFN-γ", x: 15, y: 40 }, { id: "rec", label: "Receptor", x: 35, y: 40 }, { id: "jak", label: "JAK1/2", x: 55, y: 40 }, { id: "stat", label: "STAT1 / STAT3 / STAT5", x: 75, y: 40 },
       { id: "mhc", label: "MHC-I, PD-L1 (STAT1)", x: 92, y: 20, targetId: "pdl1" }, { id: "surv", label: "Survival, SASP, cachexia (STAT3)", x: 92, y: 65 }, { id: "socs", label: "SOCS feedback", x: 55, y: 80 },
@@ -334,7 +334,7 @@ const pathways: PathwayInput[] = [
     summary: "TGF-β binds TGFBR2/TGFBR1 (ALK5) to phosphorylate SMAD2/3, which with SMAD4 regulates transcription. Early tumour suppressor (cytostatic; SMAD4 and TGFBR2 loss in pancreatic and MSI colorectal cancer) and later promoter of EMT, CAF activation, immune exclusion (T-cell exclusion in bladder and CRC), and metastasis. Bintrafusp alfa (PD-L1/TGF-β trap) failed in phase 3 (NSCLC, biliary); galunisertib was discontinued; SRK-181 (latent TGF-β1) and dalutrafusp continue. Blocking TGF-β to re-sensitise cold tumours remains an active, unproven idea.",
     analogy: "A town planner who first refuses all new building (tumour suppressor) and then, corrupted, builds walls and moats around the tumour that keep the police out (immune exclusion).",
     nodes: [
-      { id: "lig", label: "Latent TGF-β (activated by integrins)", x: 12, y: 40 }, { id: "rec", label: "TGFBR2 / ALK5", x: 35, y: 40 }, { id: "smad", label: "SMAD2/3–SMAD4", x: 58, y: 40 },
+      { id: "lig", label: "Latent TGF-β (activated by integrins)", x: 12, y: 40 }, { id: "rec", label: "TGFBR2 / ALK5", x: 35, y: 40 }, { id: "smad", label: "SMAD2/3-SMAD4", x: 58, y: 40 },
       { id: "cyto", label: "Cytostasis (early)", x: 80, y: 15 }, { id: "emt", label: "EMT, CAF activation", x: 80, y: 45 }, { id: "excl", label: "T-cell exclusion", x: 80, y: 75 }, { id: "smad4", label: "SMAD4 loss (PDAC)", x: 35, y: 80 },
     ],
     edges: [{ from: "lig", to: "rec" }, { from: "rec", to: "smad" }, { from: "smad", to: "cyto" }, { from: "smad", to: "emt" }, { from: "smad", to: "excl" }, { from: "smad4", to: "smad", type: "inhibits" }],
@@ -346,9 +346,9 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
-    id: "hippo-yap", name: "Hippo–YAP/TAZ", wikipedia: W("Hippo_signaling_pathway"),
-    tldr: "The pathway that tells organs when to stop growing. Cancers disable it so YAP and TAZ stay in the nucleus driving growth; in mesothelioma, NF2 loss does exactly that, and the first drugs against the YAP–TEAD switch are in trials.",
-    summary: "Mechanical and contact cues activate the Hippo kinases MST1/2–LATS1/2, which phosphorylate and exclude YAP/TAZ from the nucleus. NF2 (Merlin) loss (mesothelioma, meningioma), LATS loss, and YAP/TAZ fusions (epithelioid haemangioendothelioma) unleash YAP/TAZ–TEAD transcription. TEAD palmitoylation-pocket inhibitors (IK-930, VT3989, IAG933) are in phase 1/2, notably in NF2-mutant mesothelioma and as combinations to overcome KRAS/EGFR-inhibitor resistance, where YAP is a bypass route. YAP also drives stiffness-induced signalling and CAF activation.",
+    id: "hippo-yap", name: "Hippo-YAP/TAZ", wikipedia: W("Hippo_signaling_pathway"),
+    tldr: "The pathway that tells organs when to stop growing. Cancers disable it so YAP and TAZ stay in the nucleus driving growth; in mesothelioma, NF2 loss does exactly that, and the first drugs against the YAP-TEAD switch are in trials.",
+    summary: "Mechanical and contact cues activate the Hippo kinases MST1/2-LATS1/2, which phosphorylate and exclude YAP/TAZ from the nucleus. NF2 (Merlin) loss (mesothelioma, meningioma), LATS loss, and YAP/TAZ fusions (epithelioid haemangioendothelioma) unleash YAP/TAZ-TEAD transcription. TEAD palmitoylation-pocket inhibitors (IK-930, VT3989, IAG933) are in phase 1/2, notably in NF2-mutant mesothelioma and as combinations to overcome KRAS/EGFR-inhibitor resistance, where YAP is a bypass route. YAP also drives stiffness-induced signalling and CAF activation.",
     analogy: "A building inspector (Hippo) who checks that the block is full and stops new floors. Cancers fire the inspector, and the architect (YAP/TAZ) keeps adding storeys.",
     nodes: [
       { id: "cue", label: "Contact, stiffness, GPCRs", x: 12, y: 40 }, { id: "nf2", label: "NF2 (Merlin)", x: 32, y: 20 }, { id: "mst", label: "MST1/2 → LATS1/2", x: 50, y: 40 }, { id: "yap", label: "YAP/TAZ", x: 70, y: 40 }, { id: "tead", label: "TEAD transcription", x: 88, y: 40 }, { id: "out", label: "Growth, EMT, drug tolerance", x: 88, y: 80 },
@@ -379,10 +379,10 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
-    id: "keap1-nrf2", name: "KEAP1–NRF2 antioxidant pathway", wikipedia: W("NFE2L2"),
-    tldr: "KEAP1–NRF2 is the cell's antioxidant defence switch. Lung cancers often break the off-switch (KEAP1), leaving NRF2 permanently on, which detoxifies chemotherapy and radiation and makes these tumours resistant to almost everything.",
+    id: "keap1-nrf2", name: "KEAP1-NRF2 antioxidant pathway", wikipedia: W("NFE2L2"),
+    tldr: "KEAP1-NRF2 is the cell's antioxidant defence switch. Lung cancers often break the off-switch (KEAP1), leaving NRF2 permanently on, which detoxifies chemotherapy and radiation and makes these tumours resistant to almost everything.",
     summary: "KEAP1 targets NRF2 (NFE2L2) for degradation; oxidative stress or KEAP1 mutation (~20% of lung adenocarcinoma, often with KRAS or STK11) stabilises NRF2, inducing glutathione synthesis, drug efflux, and NADPH production. KEAP1/STK11-mutant NSCLC responds poorly to chemotherapy and immunotherapy. Vulnerabilities: glutaminase dependence (telaglenastat, KEAPSAKE trial negative), NRF2-activated prodrugs (TRC102?), and CDK4/6 dependence; NRF2 also drives ferroptosis resistance.",
-    analogy: "KEAP1–NRF2 is a smoke detector wired to a sprinkler system. Cancers jam the detector on, so the sprinklers run constantly and wash away every poison you throw at them.",
+    analogy: "KEAP1-NRF2 is a smoke detector wired to a sprinkler system. Cancers jam the detector on, so the sprinklers run constantly and wash away every poison you throw at them.",
     nodes: [
       { id: "ros", label: "Oxidative stress", x: 12, y: 40 }, { id: "keap", label: "KEAP1 (mutated)", x: 38, y: 40 }, { id: "nrf2", label: "NRF2", x: 62, y: 40 }, { id: "are", label: "ARE genes: GSH, NQO1, efflux", x: 86, y: 40 }, { id: "res", label: "Chemo/RT/ferroptosis resistance", x: 86, y: 80 }, { id: "stk11", label: "STK11/LKB1 loss (co-mutation)", x: 38, y: 80 },
     ],
@@ -418,7 +418,7 @@ const pathways: PathwayInput[] = [
     analogy: "The genome is the book; epigenetics is the highlighting and the pages stapled shut. Cancer staples shut the safety chapters and highlights the growth chapters. Epigenetic drugs pull staples.",
     nodes: [
       { id: "dnmt", label: "DNA methylation (DNMT, TET2, IDH/2-HG)", x: 15, y: 25, targetId: "idh" }, { id: "hist", label: "Histone marks (EZH2, KMT2A, H3K27M)", x: 15, y: 55, targetId: "ezh2" }, { id: "reader", label: "Readers (BET) & remodellers (SWI/SNF)", x: 15, y: 85 },
-      { id: "chrom", label: "Chromatin state", x: 50, y: 55 }, { id: "sil", label: "Silenced tumour suppressors, antigens", x: 82, y: 30 }, { id: "act", label: "Active oncogenic programmes, persister states", x: 82, y: 75 }, { id: "menin", label: "Menin–KMT2A scaffold", x: 50, y: 20, targetId: "menin" },
+      { id: "chrom", label: "Chromatin state", x: 50, y: 55 }, { id: "sil", label: "Silenced tumour suppressors, antigens", x: 82, y: 30 }, { id: "act", label: "Active oncogenic programmes, persister states", x: 82, y: 75 }, { id: "menin", label: "Menin-KMT2A scaffold", x: 50, y: 20, targetId: "menin" },
     ],
     edges: [{ from: "dnmt", to: "chrom" }, { from: "hist", to: "chrom" }, { from: "reader", to: "chrom" }, { from: "chrom", to: "sil" }, { from: "chrom", to: "act" }, { from: "menin", to: "hist" }],
     interventions: ["Hypomethylating agents (azacitidine, decitabine) with venetoclax in AML", "Menin inhibitors (revumenib, ziftomenib) in KMT2A/NPM1 leukaemia", "IDH inhibitors reverse 2-HG hypermethylation", "HDAC, BET, LSD1 inhibitors mostly in trials; epigenetic priming for immunotherapy"],
@@ -465,7 +465,7 @@ const pathways: PathwayInput[] = [
   p({
     id: "circadian-control", name: "Circadian control", wikipedia: W("Chronotherapy_(treatment_scheduling)"),
     tldr: "Cells run on a 24-hour clock that gates cell division, DNA repair, and drug metabolism. Cancers often break their clocks, and the time of day a drug or immunotherapy is given can change how well it works.",
-    summary: "The CLOCK/BMAL1–PER/CRY loop times metabolism, cell-cycle checkpoints, and DNA repair; shift work is a probable carcinogen (IARC 2A) and clock-gene disruption accelerates tumorigenesis in mice. Chronomodulated chemotherapy (Lévi, oxaliplatin/5-FU) improved tolerability in colorectal cancer; retrospective and prospective data (MEMOIR, 2024-25) suggest checkpoint inhibitors given earlier in the day yield longer survival, likely through T-cell trafficking rhythms. Clock-targeting drugs (REV-ERB agonists, CRY stabilisers) are preclinical. Implementation is cheap but trial evidence is still limited.",
+    summary: "The CLOCK/BMAL1-PER/CRY loop times metabolism, cell-cycle checkpoints, and DNA repair; shift work is a probable carcinogen (IARC 2A) and clock-gene disruption accelerates tumorigenesis in mice. Chronomodulated chemotherapy (Lévi, oxaliplatin/5-FU) improved tolerability in colorectal cancer; retrospective and prospective data (MEMOIR, 2024-25) suggest checkpoint inhibitors given earlier in the day yield longer survival, likely through T-cell trafficking rhythms. Clock-targeting drugs (REV-ERB agonists, CRY stabilisers) are preclinical. Implementation is cheap but trial evidence is still limited.",
     analogy: "A city that lowers its bridges only at certain hours. Send the army (drug, T cells) when the bridges are down and it gets in; send it at midnight and it waits outside.",
     nodes: [
       { id: "clock", label: "CLOCK/BMAL1", x: 25, y: 35 }, { id: "per", label: "PER/CRY (repress)", x: 25, y: 70 }, { id: "cycle", label: "Cell-cycle gating (WEE1, MYC)", x: 60, y: 20, targetId: "wee1" }, { id: "repair", label: "DNA repair timing", x: 60, y: 50 },
@@ -480,7 +480,7 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
-    id: "microbiome-tumour", name: "Microbiome–tumour interactions", wikipedia: W("Microbiome"),
+    id: "microbiome-tumour", name: "Microbiome-tumour interactions", wikipedia: W("Microbiome"),
     tldr: "The bacteria in the gut, and even inside tumours, influence whether cancer starts and whether immunotherapy works. Transplanting stool from responders has made some non-responders respond.",
     summary: "Gut microbiota modulate systemic immunity (Bifidobacterium, Akkermansia, Faecalibacterium associated with PD-1 response; antibiotics associated with worse outcomes); faecal microbiota transplant from responders converted a fraction of refractory melanoma patients to responders (2021, and 2023-25 follow-ups). Intratumoural bacteria (Fusobacterium nucleatum in colorectal cancer, Gammaproteobacteria degrading gemcitabine in pancreatic cancer) affect chemoresistance and inflammation; colibactin-producing pks+ E. coli leaves a mutational signature in CRC. 'Polymorphic microbiomes' is a 2022 hallmark. Defined consortia (VE800, SER-155) and diet interventions are in trials; causality beyond melanoma is not settled.",
     analogy: "Soil bacteria decide whether a garden thrives. Some feed the plants' defenders, some produce poisons, and some even eat the pesticide before it reaches the weeds.",
@@ -497,19 +497,19 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
-    id: "cancer-neuroscience", name: "Cancer neuroscience (nerve–tumour signalling)", wikipedia: W("Neuro-oncology"),
+    id: "cancer-neuroscience", name: "Cancer neuroscience (nerve-tumour signalling)", wikipedia: W("Neuro-oncology"),
     tldr: "Cancer neuroscience is the study of how tumours talk to nerves. Nerves grow into tumours and feed them signals; brain tumours even wire themselves into neural circuits. Cutting the conversation with common drugs such as beta-blockers is now being tested.",
     summary: "Perineural invasion predicts poor outcome in pancreatic, prostate, and head and neck cancer; sympathetic (β-adrenergic) and parasympathetic (muscarinic) signalling promotes growth and metastasis; tumours secrete NGF and axon-guidance factors to recruit nerves. Gliomas form functional synapses with neurons (AMPA receptors) and hijack activity-regulated neuroligin-3; neuronal activity drives glioma growth. Interventions: β-blockers (propranolol trials in melanoma, breast, angiosarcoma), botulinum toxin denervation (gastric cancer trial), NGF/TrkA blockade, AMPA antagonists (perampanel) in glioma, and gabapentinoids. A young field with strong preclinical evidence and early clinical signals.",
     analogy: "A tumour that taps into the city's telephone lines: it receives growth orders from the nervous system, and brain tumours go further, plugging themselves into the switchboard so that ordinary brain chatter feeds them.",
     nodes: [
       { id: "tum", label: "Tumour", x: 50, y: 50 }, { id: "ngf", label: "NGF, axon guidance cues", x: 25, y: 25 }, { id: "nerve", label: "Nerve ingrowth (PNI)", x: 25, y: 75 }, { id: "adr", label: "β-adrenergic / cholinergic signals", x: 75, y: 75 },
-      { id: "syn", label: "Neuron–glioma synapses (AMPA)", x: 75, y: 25 }, { id: "growth", label: "Growth, invasion, immunosuppression", x: 92, y: 50 },
+      { id: "syn", label: "Neuron-glioma synapses (AMPA)", x: 75, y: 25 }, { id: "growth", label: "Growth, invasion, immunosuppression", x: 92, y: 50 },
     ],
     edges: [{ from: "tum", to: "ngf" }, { from: "ngf", to: "nerve" }, { from: "nerve", to: "adr" }, { from: "adr", to: "growth" }, { from: "syn", to: "growth" }, { from: "tum", to: "syn" }],
     interventions: ["Propranolol and other β-blockers in trials (melanoma, breast, angiosarcoma)", "Botulinum toxin denervation trials (gastric)", "NGF/TrkA and AMPA-receptor (perampanel) blockade; gabapentin in glioma trials", "Perineural invasion as a staging biomarker"],
     pathways: ["tumor-microenvironment", "metastatic-cascade"], cancers: ["pancreatic", "prostate", "glioblastoma", "head-and-neck", "melanoma"], targets: ["ntrk"],
     institutions: ["stanford", "mskcc", "md-anderson"],
-    notes: ["Leading programmes: Monje (Stanford) on neuron–glioma synapses; Winkler (Heidelberg/DKFZ) on tumour microtubes; Wong (MSK) and Amit (MD Anderson) on nerves in pancreatic and head and neck cancer; Cancer Grand Challenges NexTGen/ neuroscience teams."],
+    notes: ["Leading programmes: Monje (Stanford) on neuron-glioma synapses; Winkler (Heidelberg/DKFZ) on tumour microtubes; Wong (MSK) and Amit (MD Anderson) on nerves in pancreatic and head and neck cancer; Cancer Grand Challenges NexTGen/ neuroscience teams."],
     links: [{ label: "Venkatesh et al., Electrical and synaptic integration of glioma into neural circuits (Nature 2019)", url: "https://doi.org/10.1038/s41586-019-1563-y" }, { label: "Monje et al., Roadmap for the emerging field of cancer neuroscience (Cell 2020)", url: "https://doi.org/10.1016/j.cell.2020.03.034" }],
     tags: ["mechanism"],
   }),
@@ -734,7 +734,7 @@ const ideas: IdeaInput[] = [
     pathways: ["circadian-control", "pd1-checkpoint"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], cancers: ["nsclc", "melanoma"], institutions: ["mskcc", "gustave-roussy"], tags: ["mechanism", "open-question"] }),
   i({ id: "idea-ecdna-targeting", name: "Attack extrachromosomal DNA, the engine of oncogene amplification", maturity: "preclinical-evidence",
     tldr: "Many aggressive tumours keep their cancer genes on free-floating DNA circles that let them dial resistance up and down at will. Drugs that break the circles or the cell's tolerance of them are a new frontier.",
-    summary: "ecDNA carries EGFR, MYC, MDM2, and CDK4 amplicons in glioblastoma, sarcoma, and gastric cancer, associates with poor survival, and enables rapid drug resistance by copy-number fluctuation. The eDyNAmiC Cancer Grand Challenge team reported CHK1 dependence and transcription–replication conflicts in ecDNA+ cells (2024).",
+    summary: "ecDNA carries EGFR, MYC, MDM2, and CDK4 amplicons in glioblastoma, sarcoma, and gastric cancer, associates with poor survival, and enables rapid drug resistance by copy-number fluctuation. The eDyNAmiC Cancer Grand Challenge team reported CHK1 dependence and transcription-replication conflicts in ecDNA+ cells (2024).",
     hypothesis: "ecDNA-positive tumours are selectively sensitive to CHK1 inhibition combined with the amplified-oncogene inhibitor, and ecDNA status detectable by WGS or cfDNA identifies responders.",
     rationale: "Preclinical CHK1 sensitivity, an ecDNA detection assay (AmpliconArchitect) applicable to routine WGS, and the failure of oncogene inhibitors alone in ecDNA-driven tumours.",
     test: "Phase 1/2 of a CHK1 inhibitor plus targeted agent in ecDNA-positive EGFR-amplified glioblastoma and MDM2/CDK4-amplified sarcoma, with ecDNA burden in cfDNA as a pharmacodynamic marker.",

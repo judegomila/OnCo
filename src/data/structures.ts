@@ -100,7 +100,7 @@ export const structures: Record<string, StructureDef[]> = {
   pasritamig: [{ ...IGG, note: "No public structure of pasritamig; representative IgG shown." }],
   tarlatamab: [{ label: "BiTE-like format (IgG backbone shown for scale)", source: "pdb", query: "1IGT", note: "Tarlatamab is a half-life-extended BiTE; intact IgG shown as reference." }],
   blinatumomab: [{ label: "BiTE (IgG backbone shown for reference)", source: "pdb", query: "1IGT", note: "Blinatumomab is a tandem scFv (~55 kDa); intact IgG shown as reference." }],
-  tebentafusp: [{ label: "TCR–scFv fusion (IgG backbone for reference)", source: "pdb", query: "1IGT", note: "No public structure of tebentafusp; intact IgG shown as reference." }],
+  tebentafusp: [{ label: "TCR-scFv fusion (IgG backbone for reference)", source: "pdb", query: "1IGT", note: "No public structure of tebentafusp; intact IgG shown as reference." }],
   bempegaldesleukin: [IL2],
   bevacizumab: [BEVA],
   aldesleukin: [pdb("Interleukin-2 (aldesleukin is recombinant IL-2)", "1M47")],

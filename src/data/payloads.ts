@@ -25,7 +25,7 @@ export type Linker = {
 
 export const payloads: Payload[] = [
   { id: "sn-38", name: "SN-38", aka: "7-ethyl-10-hydroxycamptothecin", class: "Topoisomerase-I inhibitor",
-    mechanism: "Active metabolite of irinotecan; stabilises TOP1–DNA cleavage complexes, causing replication-associated double-strand breaks.",
+    mechanism: "Active metabolite of irinotecan; stabilises TOP1-DNA cleavage complexes, causing replication-associated double-strand breaks.",
     permeable: true, effluxSubstrate: "yes", typicalDar: "~7.6",
     toxicities: "Neutropenia, diarrhoea (UGT1A1*28 homozygotes at higher risk), alopecia.",
     adcs: ["sacituzumab-govitecan"], note: "Moderate potency (nM) compensated by very high DAR and a linker that releases payload in the tumour microenvironment." },
@@ -71,7 +71,7 @@ export const payloads: Payload[] = [
     adcs: ["zynlonta"] },
   { id: "calicheamicin", name: "Calicheamicin", aka: "ozogamicin (N-acetyl-γ-calicheamicin)", class: "DNA cleaver",
     mechanism: "Enediyne antibiotic that binds the DNA minor groove and generates diradicals causing double-strand breaks.",
-    permeable: true, effluxSubstrate: "yes", typicalDar: "2–3 (heterogeneous)",
+    permeable: true, effluxSubstrate: "yes", typicalDar: "2 to 3 (heterogeneous)",
     toxicities: "Hepatotoxicity including veno-occlusive disease, myelosuppression; first-generation linker instability.",
     adcs: ["gemtuzumab-ozogamicin"] },
   { id: "duocarmycin", name: "Duocarmycin (seco-DUBA)", aka: "duocarmazine", class: "DNA alkylator",

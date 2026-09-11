@@ -82,7 +82,7 @@ const notRec = (id: string, name: string, taNo: number, year: number, ind: strin
 const recNoTa = (id: string, name: string, ind: string, o: Opts = {}) => row(id, name, "recommended", undefined, undefined, ind, { ...o, note: `${o.note ? o.note + " " : ""}TA number not verified; follow the NICE search link.` });
 const unknown = (id: string, name: string, o: Opts = {}) => row(id, name, "unknown", undefined, undefined, undefined, o);
 const generic = (id: string, name: string, note?: string) => row(id, name, "not appraised", undefined, undefined, undefined, { note: note ?? "Long-established generic: never subject to a technology appraisal; funded routinely through hospital formularies and NHS England systemic anti-cancer therapy protocols.", commissioned: true });
-const notUk = (id: string, name: string, note?: string) => row(id, name, "not appraised", undefined, undefined, undefined, { note: note ?? "No UK marketing authorisation as of September 2026, so no NICE appraisal. Access only through a clinical trial or a company early access scheme.", commissioned: false });
+const notUk = (id: string, name: string, note?: string) => row(id, name, "not appraised", undefined, undefined, undefined, { note: note ?? "No UK marketing authorisation yet, so no NICE appraisal. Access only through a clinical trial or a company early access scheme.", commissioned: false });
 const inDev = (id: string, name: string, note?: string) => row(id, name, "in development", undefined, undefined, undefined, { note: note ?? "Recently licensed; a NICE appraisal is scheduled or in progress. Interim access may be possible via the CDF interim funding route once NICE issues positive draft guidance." });
 
 const list: UkCoverage[] = [
@@ -135,7 +135,7 @@ const list: UkCoverage[] = [
   unknown("talquetamab", "talquetamab", { note: "Licensed 2024; NICE appraisal 2024-25. Check NICE." }),
   unknown("linvoseltamab", "linvoseltamab", { note: "MHRA-licensed 2025; NICE appraisal in progress." }),
   unknown("odronextamab", "odronextamab", { note: "MHRA-licensed 2025 (Ordspono); NICE appraisal in progress." }),
-  notUk("tarlatamab", "tarlatamab", "No UK marketing authorisation as of September 2026 (EU MAA under review); accessible only via trials or early access."),
+  notUk("tarlatamab", "tarlatamab", "No UK marketing authorisation yet (EU MAA under review); accessible only via trials or early access."),
   recNoTa("tebentafusp", "tebentafusp", "HLA-A*02:01-positive unresectable or metastatic uveal melanoma", { note: "NICE recommended tebentafusp in 2023 with a commercial arrangement.", smc: "accepted" }),
   unknown("amivantamab", "amivantamab", { note: "Licensed 2022 for EGFR exon 20 insertion NSCLC after platinum; the first NICE appraisal did not recommend it. Later combinations (with lazertinib, MARIPOSA; with chemotherapy, PAPILLON) appraised 2025-26. Check NICE." }),
   unknown("zanidatamab", "zanidatamab", { note: "MHRA-licensed 2025 for HER2-positive biliary tract cancer; NICE appraisal in progress." }),

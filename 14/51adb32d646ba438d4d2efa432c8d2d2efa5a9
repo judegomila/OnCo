@@ -1,0 +1,21 @@
+src/data/animated-wave7.ts
+  s_0beac9cb5d78fd::t_d76cf7bef23c5e 1291,1323-1324
+  s_0beac9cb5d78fd::t_86991584571c0f 1114-1290,1292-1322,1325-1461
+  s_0beac9cb5d78fd::t_4c769392a2f61e 1493-1502
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1451adb32d646ba438d4d2efa432c8d2d2efa5a9",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

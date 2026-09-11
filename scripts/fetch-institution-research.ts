@@ -27,6 +27,7 @@
  *   npm run fetch:research -- --search     allow OpenAlex name search (10 credits each) when ROR finds nothing
  *   npm run fetch:research -- --retry-unresolved  retry institutions marked unresolved in the last 30 days
  *   npm run fetch:research -- --people     also add resolvable DOIs to matched people with fewer than 3 papers
+ *   npm run fetch:research -- --ror-only   only run the free ROR matcher for institutions without a snapshot and report; spends nothing
  *
  * Polite pool: mailto on every request, about 5 requests per second.
  */
@@ -58,6 +59,7 @@ const BUDGET = Number(args.find((a) => a.startsWith("--budget="))?.slice(9) ?? 9
 const SEARCH = args.includes("--search");
 const RETRY_UNRESOLVED = args.includes("--retry-unresolved");
 const PEOPLE = args.includes("--people");
+const ROR_ONLY = args.includes("--ror-only");
 const API_KEY = process.env.OPENALEX_API_KEY;
 const UNRESOLVED_RETRY_DAYS = 30;
 
@@ -367,6 +369,18 @@ async function main() {
     // Order: no snapshot yet (the curated institutions.json set first, since they need no lookup), then oldest snapshot first.
     .sort((a, b) => (onDisk.get(a.id)?.fetched ?? "").localeCompare(onDisk.get(b.id)?.fetched ?? "") || Number(!previous[a.id]) - Number(!previous[b.id]) || a.id.localeCompare(b.id))
     .slice(0, Number.isFinite(LIMIT) ? LIMIT : undefined);
+
+  if (ROR_ONLY) {
+    let hits = 0;
+    for (const inst of queue) {
+      if (onDisk.has(inst.id) || previous[inst.id]) continue;
+      const r = await rorFor(inst);
+      if ("ror" in r) { hits++; console.log(`${inst.id.padEnd(30)} ${r.ror.padEnd(28)} ${r.name}`); }
+      else console.log(`${inst.id.padEnd(30)} no ROR: ${r.reason}`);
+    }
+    console.log(`ror: ${hits} matched`);
+    return;
+  }
 
   let written = 0, stopped: string | null = null;
   try {

@@ -982,7 +982,7 @@ export const gapCancers: CancerInput[] = [
     openProblems: ["Radiation late effects in a disease cured young.", "Western access to PD-1 inhibitors studied in Asia; regulatory lag.", "EBV-targeted therapy (vaccines, EBV-specific T cells) still investigational.", "Distant metastasis is the main way treatment fails after chemoradiation; plasma EBV DNA now identifies who needs more."],
     targets: ["pd1", "pdl1", "egfr", "vegf"], technologies: ["imrt-igrt", "proton-therapy", "checkpoint-inhibitor", "platinum", "liquid-biopsy", "tors", "tcr-t", "acupuncture-xerostomia"],
     drugs: ["toripalimab", "camrelizumab", "tislelizumab", "penpulimab", "gemcitabine-cisplatin", "cisplatin", "nivolumab", "pembrolizumab"],
-    pathways: ["pd1-checkpoint"], companies: ["akeso", "hengrui", "beone", "jiangsu-hengrui"], institutions: ["sysucc"], terms: ["ctdna", "re-irradiation"],
+    pathways: ["pd1-checkpoint"], companies: ["akeso", "hengrui", "beone"], institutions: ["sysucc"], terms: ["ctdna", "re-irradiation"],
     links: [{ label: "CSCO/ASCO NPC guideline (JCO 2021)", url: "https://doi.org/10.1200/JCO.20.03237" }, { label: "EBV DNA screening (NEJM 2017)", url: "https://doi.org/10.1056/NEJMoa1701717" }, { label: "NCI PDQ: nasopharyngeal cancer", url: PDQ("head-and-neck/patient/adult/nasopharyngeal-treatment-pdq") }],
     tags: ["gap-fill", "head-and-neck", "viral"], journals: ["tumour-virus-research"],
   }),

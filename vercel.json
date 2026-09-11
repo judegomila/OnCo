@@ -40,6 +40,16 @@
       ],
       "destination": "https://onco.cc/:path*",
       "permanent": true
+    },
+    {
+      "source": "/companies/cstone-pharmaceuticals/:path*",
+      "destination": "/companies/cstone/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/companies/jiangsu-hengrui/:path*",
+      "destination": "/companies/hengrui/:path*",
+      "permanent": true
     }
   ]
 }

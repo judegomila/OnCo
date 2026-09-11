@@ -504,6 +504,13 @@ export const MODALITY_SCHEMATICS: Array<[RegExp, string]> = [
   [/hdac|ezh2|hypomethylating|menin|\bidh|bromodomain|epigenetic|differentiation agent|retinoid|arsenical|dot1l|lsd1/, "front:epigenetics"],
   [/cytotoxic|chemotherapy|alkylating|platinum|taxane|vinca|anthracycline|antifolate|antimetabolite|nucleoside|topoisomerase|camptothecin|podophyllotoxin|nitrosourea|nitrogen mustard|halichondrin|microtubule|liposomal|dna[- ](binder|cleav|alkylat|minor)|actinomycin|antibiotic|ribonucleotide reductase|fluoropyrimidine|purine|hydroxyurea|conditioning agent|transcription inhibitor|enzyme therapy|asparaginase/, "front:chemotherapy"],
   [/inhibitor|\btki\b|kinase|antagonist|agonist|clamp|inactivator|small[- ]molecule|reactivator|imipridone|proteasome|bcl-2|parp|modulator|oligonucleotide|antisense|sirna|telomerase/, "front:targeted-therapy"],
+  // Registry-ingested pipeline products (drugs-pipeline-wave1.ts) whose sponsor states only a broad class, or none.
+  [/cell therapy/, "front:cell-therapy"],
+  [/fusion protein|immunocytokine/, "front:immunotherapy"],
+  [/\bpeptide\b/, "front:targeted-therapy"],
+  [/costimulatory|co-stimulatory|immune agonist/, "front:immunotherapy"],
+  [/radioenhancer|radiosensiti|nanoparticle/, "front:radiation"],
+  [/form not stated|not stated \(registered/, "front:drug-discovery"],
 ];
 
 /** Key into ALL_ANIMATED (see schematics.ts) for a product: a technology with its own animation wins, then the modality text; null when nothing matches. */

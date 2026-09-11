@@ -56,6 +56,9 @@ import { investors } from "./investors";
 import { roadmapsWave2 } from "./roadmaps-wave2";
 import { pathwaysKegg } from "./pathways-kegg";
 import { journalsWave2 } from "./journals-wave2";
+import { companiesSponsors } from "./companies-sponsors";
+import { drugsPipelineWave1 } from "./drugs-pipeline-wave1";
+import { pipelineTrialsWave2 } from "./pipeline-trials-wave2";
 
 export const ALL_INPUTS: EntityInput[] = [
   ...mergeSpikes(cancers),
@@ -115,4 +118,7 @@ export const ALL_INPUTS: EntityInput[] = [
   ...roadmapsWave2,
   ...pathwaysKegg,
   ...journalsWave2,
+  ...companiesSponsors,
+  ...drugsPipelineWave1,
+  ...pipelineTrialsWave2,
 ];

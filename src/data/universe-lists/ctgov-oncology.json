@@ -1,16 +1,16 @@
 {
- "checked": "2026-09-10",
+ "checked": "2026-09-11",
  "source": {
   "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
   "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
  },
  "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
- "total": 97105,
- "phase3": 10992,
- "recruiting": 14315,
+ "total": 97128,
+ "phase3": 10997,
+ "recruiting": 14322,
  "industryPhase3": {
-  "studies": 4236,
-  "sponsors": 935
+  "studies": 4239,
+  "sponsors": 936
  },
  "items": [
   {
@@ -542,6 +542,10 @@
    "studies": 5
   },
   {
+   "name": "Summit Therapeutics",
+   "studies": 5
+  },
+  {
    "name": "Swedish Orphan Biovitrum",
    "studies": 5
   },
@@ -703,10 +707,6 @@
   },
   {
    "name": "Sol-Gel Technologies, Ltd.",
-   "studies": 4
-  },
-  {
-   "name": "Summit Therapeutics",
    "studies": 4
   },
   {
@@ -1295,6 +1295,10 @@
   },
   {
    "name": "Guangzhou Gloria Biosciences Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Guangzhou JOYO Pharma Co., Ltd",
    "studies": 2
   },
   {
@@ -2422,10 +2426,6 @@
    "studies": 1
   },
   {
-   "name": "Guangzhou JOYO Pharma Co., Ltd",
-   "studies": 1
-  },
-  {
    "name": "Guangzhou Lupeng Pharmaceutical Company LTD.",
    "studies": 1
   },
@@ -3347,6 +3347,10 @@
   },
   {
    "name": "SBI ALApharma Canada, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Scancell Ltd",
    "studies": 1
   },
   {

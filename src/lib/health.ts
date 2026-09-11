@@ -112,7 +112,7 @@ const endsWithStop = (s: string) => /[.!?]["')\]]?\s*$/.test(s);
  * components/MoleculeSlot.tsx, which cannot be imported here because that module is client-only).
  */
 /** Mirrors the modality groups in components/MoleculeSlot.tsx (placeholderKind); keep the two in step. */
-const EXPLAINED_PLACEHOLDER = /antibody-drug|adc|conjugate|bispecific|engager|antibody|mab\b|checkpoint|car-t|car t|tcr|til\b|cell therapy|cell-therapy|nk cell|lymphocyte|vaccine|mrna|oncolytic|virus|gene therapy|bacteri|oligonucleotide|nucleic acid|radioligand|radiopharm|isotope|lutetium|actinium|radium|iodine|alpha therapy|emitter|test|assay|diagnostic|sequencing|panel|classifier|device|software|imaging|cytokine|fusion|enzyme|protein|peptide|hormone analogue|recombinant|erythropoietin|interferon|growth factor|colony-stimulating|interleukin|il-\d|superagonist|toxin/i;
+const EXPLAINED_PLACEHOLDER = /antibody-drug|adc|conjugate|bispecific|engager|antibody|mab\b|checkpoint|car-t|car t|tcr|til\b|cell therapy|cell-therapy|nk cell|lymphocyte|vaccine|mrna|oncolytic|virus|gene therapy|bacteri|oligonucleotide|nucleic acid|radioligand|radiopharm|isotope|lutetium|actinium|radium|iodine|alpha therapy|emitter|test|assay|diagnostic|sequencing|panel|classifier|device|software|imaging|cytokine|fusion|enzyme|protein|peptide|hormone analogue|recombinant|erythropoietin|interferon|growth factor|colony-stimulating|interleukin|il-\d|superagonist|toxin|nanoparticle|not yet disclosed|undisclosed/i;
 
 const APPROVED = new Set(["approved", "standard-of-care"]);
 

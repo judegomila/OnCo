@@ -58,6 +58,8 @@ const isRegimen = (modality: string) => /regimen/i.test(modality);
 
 /** Phase 3 trials with no ClinicalTrials.gov id: pre-registration era, non-US academic groups, or pooled analyses. */
 const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulate-japan", "crystal-fire3", "first-308", "olanzapine-appetite-tmh", "nlst-nelson", "prehab-trial",
+  // Chinese phase 3 registered domestically only; NCT04829604, once recorded here, is the separate US study ACE-Breast-03.
+  "ace-breast-02",
   // Indian academic trials registered with the Clinical Trials Registry - India (CTRI) or run before registration was required.
   "low-dose-nivolumab-tmh", "metronomic-vs-cisplatin-tmh", "metro-plus-varanasi", "gefitinib-chemo-tmh", "progesterone-preop-tmh", "lidocaine-peritumoral-tmh", "osmanabad-hpv-screening", "kerala-oral-screening", "mumbai-via-screening"]);
 

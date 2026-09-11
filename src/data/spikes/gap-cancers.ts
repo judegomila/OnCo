@@ -85,7 +85,7 @@ export const gapCancers: CancerInput[] = [
       { year: 2023, title: "Higher-risk combinations fail", note: "Magrolimab (ENHANCE) and sabatolimab (STIMULUS-MDS2) add nothing to azacitidine; VERONA (venetoclax) negative in 2024.", refs: ["magrolimab", "venetoclax", "azacitidine"] },
       { year: 2024, title: "Imetelstat approved", note: "IMerge: telomerase inhibitor achieves durable transfusion independence after ESA failure.", refs: ["imetelstat"] },
     ],
-    pipeline: ["imetelstat", "luspatercept", "allogeneic-hsct", "magrolimab"],
+    pipeline: ["imetelstat", "luspatercept", "allogeneic-hsct"],
     openProblems: ["No drug has beaten azacitidine in higher-risk MDS.", "TP53-mutant and complex-karyotype disease: median survival about a year even after transplant.", "Clonal cytopenia of undetermined significance (CCUS): who to watch, who to treat.", "Post-HMA failure has no standard."],
     targets: ["tp53", "cd47", "tim3", "bcl2"], technologies: ["epigenetic-drugs", "allogeneic-hsct", "ngs-mrd-clonoseq", "flow-cytometry-mrd", "cytogenetics-fish", "transfusion-support"],
     drugs: ["azacitidine", "decitabine-cedazuridine", "lenalidomide", "luspatercept", "imetelstat", "venetoclax", "magrolimab", "decitabine", "dorocubicel"],
@@ -331,7 +331,7 @@ export const gapCancers: CancerInput[] = [
     standardOfCare: [
       { setting: "First line, symptomatic", approach: "Cladribine (5-7 days) or pentostatin, with rituximab concurrent or delayed (improves MRD-negative CR).", refs: ["cladribine", "rituximab"], guideline: { nccn: "Category 1 (cladribine ± rituximab)", version: "NCCN Guidelines: Hairy Cell Leukemia", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1481" } },
       { setting: "Relapse after >2 years", approach: "Repeat purine analogue + rituximab.", refs: ["cladribine", "rituximab"], guideline: { nccn: "Category 2A", version: "NCCN Guidelines: Hairy Cell Leukemia" } },
-      { setting: "Early relapse or refractory", approach: "Vemurafenib + rituximab (or dabrafenib-trametinib); ibrutinib; moxetumomab pasudotox where still available; clinical trial.", refs: ["vemurafenib", "rituximab", "dabrafenib-trametinib", "ibrutinib", "moxetumomab-pasudotox"], guideline: { nccn: "Category 2A", version: "NCCN Guidelines: Hairy Cell Leukemia" } },
+      { setting: "Early relapse or refractory", approach: "Vemurafenib + rituximab (or dabrafenib-trametinib); ibrutinib; clinical trial. Moxetumomab pasudotox produced durable remissions but was withdrawn from sale in 2023 and is no longer available.", refs: ["vemurafenib", "rituximab", "dabrafenib-trametinib", "ibrutinib", "moxetumomab-pasudotox"], guideline: { nccn: "Category 2A", version: "NCCN Guidelines: Hairy Cell Leukemia" } },
     ],
     stateOfArt: [
       "One week of cladribine remains one of the most effective single treatments in oncology.",

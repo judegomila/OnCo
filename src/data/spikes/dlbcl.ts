@@ -1,5 +1,6 @@
 import type { CompanyInput, DrugInput, EntityInput, IdeaInput, PairingInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
 import type { Spike } from "./index";
+import { supplement } from "../supplement";
 
 /**
  * DIFFUSE LARGE B-CELL LYMPHOMA SPIKE. Adds trials (with structured outcomes), products, technologies,
@@ -21,10 +22,9 @@ const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: 
 
 // ======================= COMPANIES =======================
 const companies: CompanyInput[] = [
-  co({ id: "incyte", name: "Incyte (incl. MorphoSys US rights)", hq: "Wilmington, DE", country: "US", companyType: "biotech", website: "https://www.incyte.com", ticker: "INCY", sections: ["immunotherapy", "targeted-therapy"],
-    tldr: "Maker of tafasitamab, whose frontMIND trial gave the first frontline win over R-CHOP in high-risk DLBCL in decades.",
-    summary: "Incyte holds US rights to tafasitamab (Monjuvi) and worldwide rights after the MorphoSys deal. frontMIND (Lancet 2026): tafasitamab + lenalidomide + R-CHOP improved PFS versus R-CHOP in high-risk newly diagnosed DLBCL (HR 0.75); sBLA planned for H1 2026. Also ruxolitinib (Jakafi) and pemigatinib.",
-    drugs: ["tafasitamab"], cancers: ["dlbcl"] }),
+  co(supplement<CompanyInput>({ id: "incyte", kind: "company", aka: ["Incyte (incl. MorphoSys US rights)"], sections: ["immunotherapy"],
+    notes: ["Incyte holds worldwide rights to tafasitamab (Monjuvi) after the MorphoSys deal. frontMIND (Lancet 2026) showed tafasitamab plus lenalidomide and R-CHOP improved progression-free survival against R-CHOP in high-risk newly diagnosed DLBCL (HR 0.75), the first frontline win over R-CHOP in decades, with a supplemental BLA planned for the first half of 2026."],
+    drugs: ["tafasitamab"], cancers: ["dlbcl"] })),
 ];
 
 // ======================= TECHNOLOGIES / TERMS =======================
@@ -152,7 +152,7 @@ const trials: TrialInput[] = [
     outcomes: [{ endpoint: "Overall survival (median)", primary: true, unit: "months", arms: [{ name: "Glofit-GemOx", n: 183, value: 25.5 }, { name: "R-GemOx", n: 91, value: 12.9 }], hr: 0.62, ci: [0.43, 0.88], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02565-4/fulltext" }],
     replication: "Not replicated; applicability to Western populations questioned by FDA ODAC (8-1 vote).",
     drugs: ["glofitamab"], cancers: ["dlbcl"], technologies: ["t-cell-engager"], links: [ct("NCT04408638"), { label: "FDA CRL coverage", url: "https://www.onclive.com/view/fda-issues-crl-for-glofitamab-plus-chemo-in-r-r-dlbcl" }], people: ["michael-dickinson"] }),
-  t({ id: "epcore-nhl-1", name: "EPCORE NHL-1", nct: "NCT03625037", phase: "2", status: "positive", yearReported: 2022, sponsor: "Genmab / AbbVie", enrolled: 157,
+  t({ id: "epcore-nhl-1", name: "EPCORE NHL-1", nct: "NCT03625037", phase: "1/2", status: "positive", yearReported: 2022, sponsor: "Genmab / AbbVie", enrolled: 157,
     setting: "R/R LBCL after ≥2 lines (single-arm expansion): epcoritamab monotherapy",
     tldr: "EPCORE NHL-1 was the pivotal single-arm study behind epcoritamab's approval; about half of complete responders are still in remission at three years.",
     summary: "EPCORE NHL-1, trial NCT03625037 sponsored by Genmab and AbbVie and reported in 2022, was the pivotal single-arm study behind epcoritamab's approval in relapsed or refractory large B-cell lymphoma after at least two lines, and about half of complete responders remain in remission at three years. In the 157-patient expansion cohort the objective response rate was 63 percent with complete responses in 39 percent, cytokine release syndrome occurred in about half but was rarely severe, and the three-year follow-up found many complete responders with undetectable circulating tumour DNA. Without a randomised comparison, and with the confirmatory EPCORE DLBCL-1 missing its US survival endpoint, whether the drug improves survival over chemotherapy is the open question.",
@@ -192,7 +192,7 @@ const trials: TrialInput[] = [
     result: "ORR 48%, CR 24%.",
     outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "Loncastuximab tesirine", n: 145, value: 48.3 }] }],
     drugs: ["zynlonta"], cancers: ["dlbcl"], links: [ct("NCT03589469")] }),
-  t({ id: "waveline-003", name: "waveLINE-003", nct: "NCT05139017", phase: "3", status: "recruiting", sponsor: "Merck",
+  t({ id: "waveline-003", name: "waveLINE-003", nct: "NCT05139017", phase: "2/3", status: "recruiting", sponsor: "Merck",
     setting: "R/R DLBCL after ≥1 line: zilovertamab vedotin + R-GemOx vs R-GemOx",
     tldr: "waveLINE-003 tests a ROR1-directed ADC added to standard salvage chemotherapy.",
     summary: "waveLINE-003, trial NCT05139017 sponsored by Merck, is a phase 2/3 trial testing the ROR1-directed antibody-drug conjugate zilovertamab vedotin, also known as MK-2140, added to rituximab, gemcitabine and oxaliplatin in relapsed or refractory diffuse large B-cell lymphoma after at least one line, in transplant-ineligible or post-transplant patients. A companion frontline trial, waveLINE-010, tests the drug with R-CHP. OnCo links it to lymphoma, ROR1 as a target and zilovertamab vedotin. It is recruiting with no results, and whether ROR1, a target without an approved drug, can be exploited safely with an ADC is the question it exists to answer.",
@@ -203,12 +203,12 @@ const trials: TrialInput[] = [
     summary: "SUNMO, trial NCT05171647 sponsored by Roche and reported in 2025, showed that a chemotherapy-free doublet of the CD20 bispecific mosunetuzumab and the CD79b antibody-drug conjugate polatuzumab vedotin beats rituximab-gemcitabine-oxaliplatin salvage chemotherapy in relapsed or refractory large B-cell lymphoma in transplant-ineligible patients. It randomised 208 patients and met its dual primary endpoints of progression-free survival and overall response, with a much higher complete response rate, in a fixed-duration outpatient regimen. OnCo links it to lymphoma, mosunetuzumab, polatuzumab vedotin and the pairing of a CD20 bispecific with a CD79b ADC. Overall survival is not yet mature, and whether the doublet is an alternative for patients not fit for CAR-T or a competitor to it is the open question.",
     result: "PFS improved (HR reported 2025).",
     drugs: ["mosunetuzumab", "polatuzumab-vedotin"], cancers: ["dlbcl"], links: [ct("NCT05171647")] }),
-  t({ id: "golseek-1", name: "GOLSEEK-1", nct: "NCT06356129", phase: "3", status: "recruiting", sponsor: "BMS",
+  t({ id: "golseek-1", name: "GOLSEEK-1", nct: "NCT06356129", phase: "3", status: "active", sponsor: "BMS",
     setting: "Untreated high-risk LBCL (IPI 3-5): golcadomide + R-CHOP vs placebo + R-CHOP",
     tldr: "Tests whether a potent oral degrader added to R-CHOP raises cure rates in high-risk disease.",
     summary: "GOLSEEK-1, trial NCT06356129 sponsored by Bristol Myers Squibb, tests whether adding golcadomide, a potent oral cereblon-modulating degrader, to R-CHOP raises cure rates in untreated high-risk large B-cell lymphoma with IPI 3 to 5. It builds on phase 1b data with high complete response rates, and readout is expected in 2027 to 2028. OnCo links it to lymphoma and golcadomide. It is recruiting with no results, and whether an oral degrader can do in the frontline what lenalidomide failed to do in earlier trials is the question it will answer.",
     drugs: ["golcadomide"], cancers: ["dlbcl"], links: [ct("NCT06356129")] }),
-  t({ id: "belinda", name: "BELINDA", nct: "NCT03570892", phase: "3", status: "negative", yearReported: 2021, sponsor: "Novartis", enrolled: 322,
+  t({ id: "belinda", name: "BELINDA", nct: "NCT03570892", phase: "3", status: "negative", yearReported: 2021, sponsor: "Novartis", enrolled: 330,
     setting: "Early-relapsed/refractory aggressive B-cell lymphoma: tisagenlecleucel vs salvage + transplant",
     tldr: "The one second-line CAR-T trial that failed, a reminder that manufacturing time and trial design can erase a real effect.",
     summary: "BELINDA, trial NCT03570892 sponsored by Novartis and reported in 2021, was the one second-line CAR-T trial that failed, a reminder that manufacturing time and trial design can erase a real effect. It randomised 322 patients with early-relapsed or refractory aggressive B-cell lymphoma to tisagenlecleucel or salvage chemotherapy and transplant and found no difference in event-free survival, which the record attributes to a long vein-to-vein time of 52 days, permitted crossover chemotherapy before CAR-T and a strict week-twelve event definition. OnCo links it to lymphoma, CAR-T, the pairing of CAR-T before transplant at early relapse and the JULIET, TRANSFORM and ZUMA-7 papers, and it is contradicted by ZUMA-7 and TRANSFORM, which used faster products and no crossover. Whether tisagenlecleucel would have matched them under the same design is the question the trial cannot answer.",

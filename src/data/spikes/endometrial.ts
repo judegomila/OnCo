@@ -1,5 +1,6 @@
 import type { CompanyInput, DrugInput, EntityInput, IdeaInput, PairingInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
 import type { Spike } from "./index";
+import { supplement } from "../supplement";
 
 /**
  * Endometrial cancer spike. Facts checked 2026-09-07. Depends on the ovarian spike for
@@ -99,16 +100,10 @@ const trials: TrialInput[] = [
 
 // ======================= DRUGS =======================
 const drugs: DrugInput[] = [
-  d({ id: "lenvatinib", name: "Lenvatinib", brand: "Lenvima", modality: "Small-molecule multikinase inhibitor (VEGFR, FGFR, RET, KIT, PDGFR)", status: "approved", wikipedia: W("Lenvatinib"),
-    tldr: "A blood-vessel-blocking pill used with pembrolizumab in endometrial and kidney cancer, and alone in thyroid and liver cancer.",
-    summary: "Approved for radioiodine-refractory thyroid cancer (2015), RCC with everolimus (2016) and with pembrolizumab (2021), HCC (2018), and pMMR endometrial cancer with pembrolizumab after platinum (2021; KEYNOTE-775, OS 18.3 vs 11.4 months). LEAP-001 (first-line endometrial vs chemotherapy) was negative. Hypertension, diarrhoea, fatigue, and hypothyroidism drive frequent dose reductions.",
-    mechanism: "ATP-competitive inhibitor of VEGFR1-3, FGFR1-4, PDGFRα, RET, and KIT; anti-angiogenic and immunomodulatory (reduces tumour-associated macrophages).",
-    mechanismSteps: ["Blocks VEGFR2 and FGFR on tumour endothelium", "Vessel sprouting stops; tumour perfusion normalises", "Immunosuppressive macrophages and Tregs decline", "Pembrolizumab-released T cells infiltrate more effectively"],
-    dosing: { route: "Oral", schedule: "20 mg daily with pembrolizumab 200 mg every 3 weeks (endometrial); 24 mg daily (thyroid); 12 or 8 mg by weight (HCC)", modifications: "Stepwise reductions to 14, 10, 8 mg; ~67% of KEYNOTE-775 patients needed a reduction", monitoring: "Blood pressure weekly for 2 cycles, TSH every 6 weeks, urine protein, ECG" },
-    toxicity: [{ event: "Hypertension", anyGradePct: 64, grade3PlusPct: 38, note: "KEYNOTE-775" }, { event: "Hypothyroidism", anyGradePct: 57, grade3PlusPct: 1 }, { event: "Diarrhoea", anyGradePct: 54, grade3PlusPct: 8 }, { event: "Weight loss", anyGradePct: 34, grade3PlusPct: 10 }],
-    approvals: [{ region: "US", year: 2015, indication: "Radioiodine-refractory differentiated thyroid cancer" }, { region: "US", year: 2018, indication: "Unresectable HCC" }, { region: "US", year: 2021, indication: "pMMR advanced endometrial cancer after platinum, with pembrolizumab; first-line RCC with pembrolizumab" }],
+  d(supplement<DrugInput>({ id: "lenvatinib", kind: "drug",
     regulatoryEvents: [{ date: "2019-09-17", type: "approval", region: "US", note: "Accelerated approval with pembrolizumab in endometrial cancer (KEYNOTE-146)" }, { date: "2021-07-21", type: "approval", region: "US", note: "Full approval, pMMR endometrial cancer (KEYNOTE-775)" }],
-    targets: ["vegf", "fgfr2", "ret", "kit"], technologies: ["kinase-inhibitors", "antiangiogenic"], companies: ["eisai", "merck"], cancers: ["endometrial", "rcc", "hcc", "thyroid"], trials: ["keynote-775"], pathways: ["vegf-angiogenesis"], terms: ["tace-term"] }),
+    notes: ["In endometrial cancer: approved with pembrolizumab for pMMR advanced disease after platinum (KEYNOTE-775, OS 18.3 versus 11.4 months), after accelerated approval on KEYNOTE-146 in 2019; LEAP-001 in first line against chemotherapy was negative. The dose is 20 mg daily with pembrolizumab 200 mg every 3 weeks; hypertension affected 64 percent (38 percent grade 3 or higher), hypothyroidism 57 percent, diarrhoea 54 percent, and about 67 percent of KEYNOTE-775 patients needed a dose reduction. Blood pressure is checked weekly for two cycles and TSH every 6 weeks."],
+    cancers: ["endometrial"], trials: ["keynote-775"], terms: ["tace-term"], pathways: ["vegf-angiogenesis"] })),
   d({ id: "selinexor", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Selinexor" }], name: "Selinexor", brand: "Xpovio", code: "KPT-330", modality: "Small-molecule XPO1 (nuclear export) inhibitor", status: "approved", wikipedia: W("Selinexor"),
     tldr: "Selinexor is a first-in-class pill that traps tumour-suppressor proteins inside the nucleus; approved in myeloma, it failed its endometrial cancer test in 2026.",
     summary: "Approved 2019 (penta-refractory myeloma with dexamethasone), 2020 (DLBCL; with bortezomib in myeloma, BOSTON). In endometrial cancer, SIENDO (2022) missed its primary endpoint but a TP53-wild-type subgroup showed a large PFS difference; the confirmatory XPORT-EC-042 missed its primary endpoint in July 2026. Nausea, fatigue, weight loss, and thrombocytopenia limit tolerability.",
@@ -131,10 +126,7 @@ const drugs: DrugInput[] = [
 
 // ======================= COMPANIES =======================
 const companies: CompanyInput[] = [
-  co({ id: "eisai", name: "Eisai", hq: "Tokyo", country: "JP", companyType: "pharma", website: "https://www.eisai.com", ticker: "4523.T", sections: ["targeted-therapy"],
-    tldr: "Japanese pharma that discovered lenvatinib and eribulin and co-develops lenvatinib-pembrolizumab with Merck.",
-    summary: "Eisai is the Tokyo-based pharmaceutical company, listed as 4523.T, that makes lenvatinib, sold as Lenvima, a first-line option in liver cancer and a partner of pembrolizumab in several tumours. Lenvatinib is approved in hepatocellular carcinoma on the REFLECT trial, in thyroid cancer, in renal cell carcinoma with everolimus or pembrolizumab, and in endometrial cancer with pembrolizumab, and Eisai co-develops the LEAP programme of lenvatinib plus pembrolizumab with Merck, in which LEAP-002 in first-line liver cancer and LEAP-012 with TACE both missed their overall survival endpoints. OnCo also links it to eribulin, palonosetron and denileukin diftitox, and to salivary gland cancers and thymic tumours. Whether the LEAP combination has further indications left after two negative liver trials is the open question. Lenvatinib has its own page.",
-    drugs: ["lenvatinib"], cancers: ["endometrial", "hcc", "thyroid", "rcc"] }),
+  co(supplement<CompanyInput>({ id: "eisai", kind: "company", cancers: ["endometrial"] })),
 ];
 
 // ======================= TERMS =======================

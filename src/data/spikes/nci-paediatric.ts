@@ -123,12 +123,12 @@ export const nciPaediatricCancers: CancerInput[] = [
     standardOfCare: [
       { setting: "Newly diagnosed, any age", approach: "Maximal safe resection followed by an intensive multimodal protocol: ACNS0333-style induction, high-dose chemotherapy with autologous stem-cell rescue, and age-adapted focal radiotherapy; or the EU-RHAB regimen with intraventricular methotrexate. Enrolment in SIOPE ATRT01 or a COG successor where available.", refs: ["autologous-stem-cell-transplant", "methotrexate", "cyclophosphamide", "cisplatin", "carboplatin", "vincristine", "proton-therapy"], guideline: { version: "COG ACNS0333 (JCO 2020); EU-RHAB", url: "https://doi.org/10.1200/JCO.19.01776" } },
       { setting: "Germline SMARCB1 or SMARCA4 alteration", approach: "Genetic counselling and testing of parents and siblings; surveillance imaging for synchronous or second rhabdoid tumours in the kidney and soft tissue.", refs: ["germline-testing"], guideline: { version: "NCI PDQ: childhood CNS atypical teratoid/rhabdoid tumour", url: PDQ("brain/hp/child-cns-atrt-treatment-pdq") } },
-      { setting: "Relapsed or refractory", approach: "No standard; tazemetostat (EZH2 inhibitor) in trials and compassionate use, aurora kinase A inhibition, re-irradiation where feasible; early palliative care.", refs: ["tazemetostat", "palliative-care"] },
+      { setting: "Relapsed or refractory", approach: "No standard; EZH2 inhibition with tazemetostat was explored in trials and compassionate use until the drug was withdrawn from all markets in March 2026; aurora kinase A inhibition, re-irradiation where feasible; early palliative care.", refs: ["tazemetostat", "palliative-care"] },
     ],
     stateOfArt: [
       "Intensive multimodal therapy (ACNS0333, EU-RHAB) turned ATRT from an almost uniformly fatal infant tumour into one that is cured in a meaningful share of children.",
       "Three methylation subgroups (TYR, SHH, MYC) explain much of the heterogeneity and are being built into trial stratification.",
-      "SMARCB1 loss creates an EZH2 dependency; tazemetostat has produced responses in paediatric rhabdoid tumours and is moving into combinations.",
+      "SMARCB1 loss creates an EZH2 dependency; tazemetostat produced responses in paediatric rhabdoid tumours before its 2026 withdrawal, so the dependency is validated but a next EZH2 inhibitor is needed.",
       "Germline testing is routine because a third of children carry a predisposition that affects the whole family.",
     ],
     history: [
@@ -138,7 +138,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       { year: 2020, title: "ACNS0333 reports improved survival with intensive therapy", note: "COG phase 3 with high-dose chemotherapy and autologous rescue (JCO 2020).", refs: ["autologous-stem-cell-transplant"] },
       { year: 2020, title: "Tazemetostat approved for SMARCB1-negative epithelioid sarcoma", note: "First EZH2 inhibitor approval; paediatric rhabdoid tumour responses in the phase 1 programme.", refs: ["tazemetostat", "ezh2"] },
     ],
-    pipeline: ["tazemetostat", "methylation-profiling", "proton-therapy", "pediatric-match"],
+    pipeline: ["methylation-profiling", "proton-therapy", "pediatric-match"],
     openProblems: [
       "Infants too young for radiotherapy and children with metastatic or ATRT-MYC disease still do poorly; SIOPE ATRT01 and COG successors are testing intensified and subgroup-directed therapy.",
       "Long-term neurocognitive and endocrine cost of intensive therapy in the first years of life; proton therapy and radiation-sparing arms aim to reduce it.",

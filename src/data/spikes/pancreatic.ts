@@ -90,12 +90,12 @@ const entities: EntityInput[] = [
     drugs: ["folfirinox"], cancers: ["pancreatic"], links: [ct("NCT01526135")], people: ["thierry-conroy"],
   },
   {
-    id: "preopanc", kind: "trial", name: "PREOPANC-1 / PREOPANC-2", nct: "NCT02172976", phase: "3", status: "mixed", yearReported: 2022, sponsor: "Dutch Pancreatic Cancer Group", asOf,
+    id: "preopanc", kind: "trial", name: "PREOPANC-1 / PREOPANC-2", nct: "NTR3709", phase: "3", status: "mixed", yearReported: 2022, sponsor: "Dutch Pancreatic Cancer Group", asOf,
     setting: "Resectable and borderline-resectable PDAC: neoadjuvant chemoradiation (PREOPANC-1) or neoadjuvant FOLFIRINOX (PREOPANC-2) vs upfront surgery",
     tldr: "Dutch trials testing whether treating before surgery beats operating first. Chemoradiation first helped in the long run; FOLFIRINOX first did not clearly beat surgery-first with adjuvant chemotherapy.",
     summary: "PREOPANC-1: gemcitabine-based chemoradiation before surgery improved 5-year OS (20.5% vs 6.5%) despite a non-significant primary analysis. PREOPANC-2 (2023): neoadjuvant FOLFIRINOX did not improve OS versus neoadjuvant gemcitabine-chemoradiation. Together with ALLIANCE A021806 and NORPACT-1, they leave the neoadjuvant question open for resectable disease while borderline-resectable disease is generally treated neoadjuvantly.",
     result: "PREOPANC-1 5-year OS 20.5% vs 6.5%; PREOPANC-2 no OS benefit.",
-    drugs: ["folfirinox"], cancers: ["pancreatic"], technologies: ["imrt-igrt"], links: [ct("NCT02172976")], people: ["marc-besselink"],
+    drugs: ["folfirinox"], cancers: ["pancreatic"], technologies: ["imrt-igrt"], links: [{ label: "PREOPANC-1 primary analysis, JCO 2020 (NTR3709)", url: "https://doi.org/10.1200/JCO.19.02274" }, { label: "PREOPANC-1 long-term results, JCO 2022", url: "https://doi.org/10.1200/JCO.21.02233" }], people: ["marc-besselink"],
   },
   {
     id: "polo", kind: "trial", name: "POLO", nct: "NCT02184195", phase: "3", status: "mixed", yearReported: 2019, sponsor: "AstraZeneca / Merck", asOf,
@@ -114,7 +114,7 @@ const entities: EntityInput[] = [
     drugs: ["optune", "gemcitabine-nab-paclitaxel"], cancers: ["pancreatic"], technologies: ["ttfields"], companies: ["novocure"], links: [ct("NCT03377491")],
   },
   {
-    id: "amplify-7p", kind: "trial", name: "AMPLIFY-7P", nct: "NCT05726864", phase: "2", status: "negative", yearReported: 2026, sponsor: "Elicio Therapeutics", asOf,
+    id: "amplify-7p", kind: "trial", name: "AMPLIFY-7P", nct: "NCT05726864", phase: "1/2", status: "negative", yearReported: 2026, sponsor: "Elicio Therapeutics", asOf,
     setting: "Adjuvant mKRAS PDAC after surgery and chemotherapy: ELI-002 7P vs observation",
     tldr: "The randomised test of an off-the-shelf KRAS vaccine after pancreatic surgery. It missed its primary goal in June 2026.",
     summary: "Did not meet the pre-specified primary DFS endpoint in the intent-to-treat population; post-hoc landmark analyses suggested ~14% absolute DFS benefit during active dosing. Company is exploring R0-resected subgroups for phase 3. A cautionary data point for shared-antigen vaccines versus personalised approaches.",

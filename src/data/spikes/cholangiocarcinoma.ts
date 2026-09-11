@@ -1,5 +1,6 @@
 import type { CompanyInput, DrugInput, EntityInput, IdeaInput, PairingInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
 import type { Spike } from "./index";
+import { supplement } from "../supplement";
 
 /**
  * BILIARY TRACT CANCER (CHOLANGIOCARCINOMA) SPIKE. Facts checked 2026-09-07.
@@ -82,14 +83,9 @@ const drugs: DrugInput[] = [
     approvals: [{ region: "US", year: 2022, indication: "Previously treated FGFR2-fusion/rearranged intrahepatic cholangiocarcinoma (accelerated)" }, { region: "EU", year: 2023, indication: "Same" }],
     targets: ["fgfr2"], technologies: ["kinase-inhibitors"], companies: ["taiho"], cancers: ["cholangiocarcinoma"], trials: ["foenix-cca2"], terms: ["fgfr2-fusion"],
     links: [{ label: "NEJM 2023", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2206834" }] }),
-  d({ id: "ivosidenib", name: "Ivosidenib", brand: "Tibsovo", modality: "Small-molecule IDH1 inhibitor", status: "approved", wikipedia: W("Ivosidenib"),
-    tldr: "Ivosidenib is a pill that blocks the mutant IDH1 enzyme, approved in bile duct cancer and in leukaemia.",
-    summary: "Ivosidenib is an allosteric inhibitor of mutant IDH1 that lowers the oncometabolite 2-hydroxyglutarate, lifting the block on cell differentiation the mutation causes. It is approved for previously treated IDH1-mutant cholangiocarcinoma, relapsed or refractory IDH1-mutant AML, newly diagnosed IDH1-mutant AML unfit for intensive chemotherapy (with azacitidine) and relapsed or refractory IDH1-mutant MDS. ClarIDHy showed PFS of 2.7 versus 1.4 months (HR 0.37) and a crossover-adjusted OS benefit in cholangiocarcinoma, approved August 2021; the response rate was modest (2%), so disease stabilisation is the benefit. In AML, AGILE showed median OS of 24.0 versus 7.9 months with azacitidine (HR 0.44). Differentiation syndrome and QT prolongation need monitoring; its place versus venetoclax in AML is debated. In short, it is a pill that switches off a mutant enzyme in two different cancers.",
-    mechanism: "Allosteric inhibitor of mutant IDH1, lowering the oncometabolite 2-hydroxyglutarate and restoring differentiation.",
-    dosing: { route: "Oral", schedule: "500 mg daily", monitoring: "QT interval, differentiation syndrome (AML)" },
-    toxicity: [{ event: "Nausea", anyGradePct: 41, note: "ClarIDHy" }, { event: "Diarrhoea", anyGradePct: 35 }, { event: "Fatigue", anyGradePct: 31 }, { event: "Ascites", grade3PlusPct: 9 }],
-    approvals: [{ region: "US", year: 2018, indication: "Relapsed/refractory IDH1-mutant AML" }, { region: "US", year: 2021, indication: "Previously treated IDH1-mutant cholangiocarcinoma" }],
-    targets: ["idh"], technologies: ["epigenetic-drugs", "kinase-inhibitors"], companies: ["servier"], cancers: ["cholangiocarcinoma", "aml"], trials: ["claridhy"] }),
+  d(supplement<DrugInput>({ id: "ivosidenib", kind: "drug",
+    notes: ["In cholangiocarcinoma: ClarIDHy showed PFS of 2.7 versus 1.4 months (HR 0.37) and a crossover-adjusted OS benefit in previously treated IDH1-mutant disease, approved in August 2021; the response rate was 2 percent, so disease stabilisation is the benefit. In ClarIDHy nausea affected 41 percent, diarrhoea 35 percent, fatigue 31 percent and grade 3 or higher ascites 9 percent."],
+    cancers: ["cholangiocarcinoma"], trials: ["claridhy"] })),
   d({ id: "tinengotinib", name: "Tinengotinib", code: "TT-00420", modality: "Small-molecule multi-kinase inhibitor (FGFR1-3, VEGFR, Aurora, JAK)", status: "phase-3",
     tldr: "A next-generation FGFR inhibitor designed to work after pemigatinib or futibatinib stop working, now in a global phase 3.",
     summary: "Tinengotinib is a type I multi-kinase inhibitor active against FGFR1-3, including the FGFR2 kinase-domain resistance mutations (N550, V565) that emerge after pemigatinib or futibatinib, plus VEGFR, Aurora and JAK kinases. It is aimed at FGFR-altered cholangiocarcinoma that has progressed on a prior FGFR inhibitor, a group with no approved targeted option. A phase 1/2 study in heavily pretreated patients, including after prior FGFR inhibitors, showed disease control with median PFS of about 5 to 6 months. The global phase 3 FIRST-308 trial randomises FGFR inhibitor-refractory patients to tinengotinib versus FOLFOX or FOLFIRI, primary endpoint PFS; the first US patient was dosed in 2025. Whether its broad kinase profile adds toxicity without benefit over selective FGFR2 inhibitors is open. For a newcomer, it is a drug for bile duct cancer that has outgrown the existing FGFR pills.",
@@ -137,7 +133,7 @@ const trials: TrialInput[] = [
     result: "ORR 37%; PFS 7.0 months; OS 17.5 months.",
     outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "Pemigatinib (FGFR2 fusion)", n: 107, value: 35.5 }] }, { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Pemigatinib", value: 7.0 }] }],
     drugs: ["pemigatinib"], cancers: ["cholangiocarcinoma"], targets: ["fgfr2"], links: [ct("NCT02924376")] }),
-  t({ id: "foenix-cca2", name: "FOENIX-CCA2", nct: "NCT02052778", phase: "2", status: "positive", yearReported: 2022, sponsor: "Taiho", enrolled: 103,
+  t({ id: "foenix-cca2", name: "FOENIX-CCA2", nct: "NCT02052778", phase: "1/2", status: "positive", yearReported: 2022, sponsor: "Taiho", enrolled: 103,
     setting: "Previously treated FGFR2-rearranged intrahepatic cholangiocarcinoma: futibatinib single arm",
     tldr: "Futibatinib produced responses in over 40% of patients whose bile duct cancer carried an FGFR2 fusion.",
     summary: "FOENIX-CCA2, trial NCT02052778 sponsored by Taiho and reported in 2022 with publication in the New England Journal of Medicine in 2023, showed that futibatinib produced responses in more than forty percent of patients whose previously treated intrahepatic cholangiocarcinoma carried an FGFR2 rearrangement. It was a single-arm phase 2 of 103 patients with an objective response rate of 42 percent and durable disease control, supporting approval. OnCo links it to biliary tract cancer, FGFR2 as a target, futibatinib and Lipika Goyal. As with pemigatinib, the absence of a randomised comparison leaves open whether an irreversible FGFR inhibitor improves survival over chemotherapy and how it should be sequenced with other FGFR drugs.",

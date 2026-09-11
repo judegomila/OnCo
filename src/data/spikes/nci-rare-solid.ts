@@ -26,7 +26,7 @@ export const nciRareSolidCancers: CancerInput[] = [
     standardOfCare: [
       { setting: "Resectable, any site", approach: "En bloc resection with negative margins by a spine or skull-base team, followed by high-dose proton or carbon-ion radiotherapy; intralesional surgery is associated with early recurrence.", refs: ["proton-therapy", "carbon-ion", "imrt-igrt"], guideline: { nccn: "Category 2A", version: "NCCN Guidelines: Bone Cancer; Chordoma Global Consensus Group (Lancet Oncol 2015)", url: "https://doi.org/10.1016/S1470-2045(14)71190-8" } },
       { setting: "Unresectable or medically inoperable", approach: "Definitive particle therapy (proton or carbon-ion) to 70 Gy-equivalent or higher; stereotactic photon radiosurgery where particles are unavailable.", refs: ["proton-therapy", "carbon-ion", "sbrt"] },
-      { setting: "Advanced or metastatic", approach: "Clinical trial preferred. Imatinib (PDGFRB-positive), afatinib or other EGFR inhibitors, or sorafenib give mainly disease stabilisation; tazemetostat for INI1-negative poorly differentiated chordoma.", refs: ["imatinib", "afatinib", "sorafenib", "tazemetostat", "kinase-inhibitors"] },
+      { setting: "Advanced or metastatic", approach: "Clinical trial preferred. Imatinib (PDGFRB-positive), afatinib or other EGFR inhibitors, or sorafenib give mainly disease stabilisation; tazemetostat was used for INI1-negative poorly differentiated chordoma until Ipsen withdrew it from all markets in March 2026.", refs: ["imatinib", "afatinib", "sorafenib", "tazemetostat", "kinase-inhibitors"] },
     ],
     stateOfArt: [
       "Particle therapy after maximal surgery has made long-term local control the expected outcome for skull-base chordoma, with less neurological injury than photon plans.",
@@ -43,7 +43,7 @@ export const nciRareSolidCancers: CancerInput[] = [
       { year: 2020, title: "Poorly differentiated chordoma recognised as SMARCB1-deficient entity", note: "WHO classification of soft tissue and bone tumours, fifth edition." },
       { year: 2021, title: "Brachyury vaccine plus radiotherapy tested", note: "Phase 2 of GI-6301 yeast-brachyury vaccine with radiation (NCT02383498).", refs: ["proton-therapy"] },
     ],
-    pipeline: ["tazemetostat", "carbon-ion", "proton-therapy", "afatinib"],
+    pipeline: ["carbon-ion", "proton-therapy", "afatinib"],
     openProblems: ["No approved systemic therapy: trials of brachyury-directed vaccines, degraders and EGFR inhibitors are the response.", "Recurrent skull-base disease after full-dose radiotherapy: re-irradiation with particles and salvage surgery are being studied.", "Paediatric poorly differentiated chordoma: tazemetostat and SWI/SNF-directed trials.", "Access to particle therapy, which remains concentrated in a few countries."],
     targets: ["ezh2", "egfr", "pdgfra"], technologies: ["proton-therapy", "carbon-ion", "imrt-igrt", "sbrt", "kinase-inhibitors", "epigenetic-drugs"], drugs: ["imatinib", "afatinib", "sorafenib", "tazemetostat"],
     pathways: ["swi-snf-chromatin", "transcription-addiction"], terms: ["rare-cancers"], bottlenecks: ["b-rare-cancers", "b-undruggable-targets"],
@@ -126,11 +126,11 @@ export const nciRareSolidCancers: CancerInput[] = [
     biomarkers: ["SMARCB1/INI1 loss by immunohistochemistry (diagnostic)", "CD34 and cytokeratin co-expression", "Regional lymph node status", "Tumour size and depth (proximal vs distal)"],
     standardOfCare: [
       { setting: "Localised", approach: "Wide resection with negative margins plus radiotherapy for large, deep or close-margin tumours; lymph node assessment considered because of nodal spread.", refs: ["limb-salvage-surgery", "imrt-igrt", "sentinel-node"], guideline: { nccn: "Category 2A", version: "NCCN Soft Tissue Sarcoma; ESMO-EURACAN-GENTURIS sarcoma guideline", url: "https://doi.org/10.1016/j.annonc.2021.07.006" } },
-      { setting: "Advanced or metastatic", approach: "Tazemetostat (accelerated approval 2020, EZH-202) or anthracycline-based chemotherapy; clinical trial enrolment encouraged, including EZH-301 (doxorubicin with or without tazemetostat).", refs: ["tazemetostat", "doxorubicin", "ifosfamide"], guideline: { nccn: "Category 2A", version: "NCCN Soft Tissue Sarcoma" } },
+      { setting: "Advanced or metastatic", approach: "Anthracycline-based chemotherapy; tazemetostat (accelerated approval 2020, EZH-202) was withdrawn from all markets in March 2026 after SYMPHONY-1 showed excess secondary blood cancers, so the EZH2 option is gone; clinical trial enrolment encouraged.", refs: ["tazemetostat", "doxorubicin", "ifosfamide"], guideline: { nccn: "Category 2A", version: "NCCN Soft Tissue Sarcoma" } },
     ],
     stateOfArt: [
-      "Tazemetostat is the first EZH2 inhibitor and the first epigenetic drug approved for a solid tumour, and epithelioid sarcoma is the disease that made the SWI/SNF-EZH2 synthetic lethality a clinical reality.",
-      "The approval rests on a single-arm cohort; the randomised EZH-301 confirmatory trial with doxorubicin is the test of whether the benefit holds in first line.",
+      "Tazemetostat was the first EZH2 inhibitor and the first epigenetic drug approved for a solid tumour, and epithelioid sarcoma is the disease that made the SWI/SNF-EZH2 synthetic lethality a clinical reality; its withdrawal in March 2026 for secondary haematologic malignancies leaves the target validated and the disease without a drug.",
+      "The 2020 approval rested on a single-arm cohort; the randomised EZH-301 confirmatory trial with doxorubicin never got to answer whether the benefit held in first line.",
       "Nodal spread and frequent misdiagnosis of distal lesions mean that expert pathology review and sarcoma-centre referral change outcomes.",
       "SMARCB1 loss links this tumour to ATRT, poorly differentiated chordoma and renal medullary carcinoma, allowing shared trials across rare SWI/SNF-deficient cancers.",
     ],
@@ -141,7 +141,7 @@ export const nciRareSolidCancers: CancerInput[] = [
       { year: 2020, title: "Tazemetostat accelerated approval", note: "FDA, 23 January 2020, based on EZH-202 (Gounder and colleagues, Lancet Oncol 2020).", refs: ["tazemetostat"] },
       { year: 2020, title: "EZH-301 confirmatory trial opens", note: "Doxorubicin with or without tazemetostat, first line (NCT04204941).", refs: ["tazemetostat", "doxorubicin"] },
     ],
-    pipeline: ["tazemetostat"],
+    pipeline: [],
     openProblems: ["Response rate to tazemetostat monotherapy is modest: combinations with doxorubicin (EZH-301) and immunotherapy are being tested.", "Confirmatory evidence for the accelerated approval is still pending.", "Late diagnosis of distal lesions mistaken for warts or granulomas.", "Proximal-type disease remains chemoresistant and rapidly progressive."],
     targets: ["ezh2"], technologies: ["epigenetic-drugs", "limb-salvage-surgery", "imrt-igrt", "sentinel-node", "cytotoxic-chemotherapy"], drugs: ["tazemetostat", "doxorubicin", "ifosfamide"],
     pathways: ["swi-snf-chromatin", "epigenetic-reprogramming"], companies: ["ipsen"], terms: ["accelerated-approval", "rare-cancers"], bottlenecks: ["b-rare-cancers"],

@@ -1,13 +1,24 @@
 /**
- * Automated fact checks against public registries. Network. Polite (sequential, backoff).
+ * Automated fact checks against public registries. Network. Polite (sequential, backoff), cached.
  *
  *  (a) Products with a US approval → openFDA drug label search by generic name. A product recorded
  *      as US-approved but with no openFDA label is flagged (possible error, or label not yet indexed).
  *      A product with a label but recorded status not approved is flagged the other way.
- *  (b) Trials with an NCT id → ClinicalTrials.gov v2: overallStatus, phases, primary completion date.
- *      Recorded "recruiting" vs registry completed/terminated, recorded positive/negative vs registry
- *      withdrawn, recorded phase vs registry phase, and a primary completion date that has passed while
- *      we still say recruiting.
+ *  (b) Products with a US approval → Drugs@FDA (openFDA drugsfda): the earliest original approval
+ *      (ORIG submission, status AP) gives the first US approval year. A recorded US year earlier than
+ *      that is impossible (high); a recorded first year later than it means an earlier approval is
+ *      missing from approvals[] (low).
+ *  (c) Trials with an NCT id → ClinicalTrials.gov v2: overallStatus, phases, primary completion date,
+ *      actual enrolment and the study titles. Recorded "recruiting" vs registry completed/terminated,
+ *      recorded positive/negative vs registry withdrawn, recorded phase vs registry phase, a primary
+ *      completion date that has passed while we still say recruiting, an `enrolled` figure that differs
+ *      from the registry's actual count, and a trial whose name appears nowhere in the registry's
+ *      acronym or titles (the NCT id probably points at the wrong study).
+ *
+ * Responses are cached under /tmp/onco-factcheck-cache (override with FACTCHECK_CACHE; pass
+ * --no-cache to refetch) so a re-run after edits costs no requests. openFDA allows 1,000 requests a day
+ * per IP without a key; one label lookup per product plus one Drugs@FDA lookup per US-approved product
+ * stays under that.
  *
  * Writes public/factcheck.json (mismatches, for /audit/) and public/factcheck-patches.json: concrete
  * patch proposals {id, field, current, proposed, source} where the registry value maps unambiguously
@@ -15,26 +26,48 @@
  * `npx tsx scripts/apply-factcheck.ts <id>[.<field>] ...` (or --all), which edits the data file and
  * appends a CORRECTIONS.md line.
  *
- * Run: npm run factcheck. Weekly via .github/workflows/factcheck.yml.
+ * Run: npm run factcheck [--trials-only | --drugs-only] [--only <id>] [--no-cache].
+ * Weekly via .github/workflows/factcheck.yml.
  */
-import { mkdirSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import { routeFor, type Trial } from "../src/lib/schema";
 
 type Mismatch = { check: string; id: string; name: string; route: string; recorded: string; registry: string; url: string; severity: "high" | "medium" | "low" };
 type Report = { generated: string; checked: { drugs: number; trials: number }; mismatches: Mismatch[]; errors: string[] };
-export type Patch = { id: string; kind: "trial" | "drug"; name: string; route: string; field: "status" | "phase"; current: string; proposed: string; reason: string; source: string; registryValue: string; proposedOn: string };
+export type Patch = { id: string; kind: "trial" | "drug"; name: string; route: string; field: "status" | "phase" | "enrolled"; current: string; proposed: string; reason: string; source: string; registryValue: string; proposedOn: string };
 export type PatchFile = { generated: string; patches: Patch[] };
 
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+const CACHE_DIR = process.env.FACTCHECK_CACHE ?? "/tmp/onco-factcheck-cache";
+const useCache = !process.argv.includes("--no-cache");
+/** Set by getJson: true when the last answer came from the on-disk cache, so the politeness delay can be skipped. */
+let lastFromCache = false;
+const sleep = (ms: number) => (lastFromCache ? Promise.resolve() : new Promise((r) => setTimeout(r, ms)));
+
+function cachePath(url: string): string {
+  return join(CACHE_DIR, `${createHash("sha1").update(url).digest("hex")}.json`);
+}
+
+/** GET JSON with retry and backoff; 404 is a result, not an error. Successful and 404 responses are cached on disk. */
 async function getJson(url: string, attempt = 1): Promise<unknown | null | "404"> {
+  const cp = cachePath(url);
+  if (useCache && existsSync(cp)) {
+    const c = JSON.parse(readFileSync(cp, "utf8")) as { notFound?: boolean; body?: unknown };
+    lastFromCache = true;
+    return c.notFound ? "404" : (c.body ?? null);
+  }
+  lastFromCache = false;
   try {
     const r = await fetch(url, { headers: { Accept: "application/json", "User-Agent": "OnCo/1.0 (github.com/judegomila/OnCo)" } });
-    if (r.status === 404) return "404";
+    if (r.status === 404) { mkdirSync(CACHE_DIR, { recursive: true }); writeFileSync(cp, JSON.stringify({ notFound: true })); return "404"; }
     if (r.status === 429 || r.status >= 500) throw new Error(`HTTP ${r.status}`);
     if (!r.ok) return null;
-    return await r.json();
+    const body: unknown = await r.json();
+    mkdirSync(CACHE_DIR, { recursive: true });
+    writeFileSync(cp, JSON.stringify({ body }));
+    return body;
   } catch (e) {
     if (attempt >= 4) { console.warn(`  giving up ${url}: ${String(e)}`); return null; }
     await sleep(1500 * 2 ** attempt);
@@ -42,8 +75,9 @@ async function getJson(url: string, attempt = 1): Promise<unknown | null | "404"
   }
 }
 
-function genericName(name: string, code?: string): string {
-  const cleaned = name.replace(/\(.*?\)/g, "").replace(/\/.*$/, "").replace(/ \+ .*$/, "").replace(/\bF-18\b|\bLu-177\b|\bLutetium-177\b|\bActinium-225\b/gi, "").trim();
+/** The single generic name to search openFDA for: parentheticals, isotopes and combination partners stripped. */
+export function genericName(name: string, code?: string): string {
+  const cleaned = name.replace(/\(.*?\)/g, "").replace(/\/.*$/, "").replace(/ (\+|&|and|plus) .*$/, "").replace(/\bF-18\b|\bLu-177\b|\bLutetium-177\b|\bActinium-225\b/gi, "").trim();
   return cleaned.split(" ").length <= 3 ? cleaned : (code?.split(",")[0].trim() || cleaned);
 }
 
@@ -89,21 +123,63 @@ export function phaseFromRegistry(phases: string[] | undefined): Trial["phase"] 
   return null;
 }
 
+const compact = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+/**
+ * Does the registry entry look like our trial? The whole name (without any parenthetical) is matched
+ * against the acronym and titles with punctuation and spaces removed, so "KEYNOTE-522" matches
+ * "KEYNOTE 522"; failing that, any word of five or more letters, or any token carrying a digit
+ * ("GU009", "9ER", "ASP2215"), from the name or from `extra` (the linked drugs' names, codes and
+ * brands, since registry titles often name the compound rather than the acronym) is enough. Records
+ * that bundle two trials ("PALLAS & PENELOPE-B") therefore pass when the registry entry is either of
+ * them. Returns false only when nothing matches at all.
+ */
+export function nameMatchesRegistry(name: string, titles: string[], extra: string[] = []): boolean {
+  const hay = compact(titles.join(" "));
+  if (!hay) return true;
+  const base = name.replace(/\(.*?\)/g, " ");
+  const whole = compact(base);
+  if (whole.length >= 4 && hay.includes(whole)) return true;
+  const STOP = new Set(["trial", "study", "phase", "versus", "cancer", "tumour", "tumor", "patients", "treatment", "therapy", "group", "cohort", "adjuvant", "neoadjuvant", "metastatic", "advanced", "first", "second", "line", "combination", "chemotherapy", "standard", "randomised", "randomized", "generic", "biosimilar", "placebo"]);
+  const tokens = [name, ...extra].join(" ").split(/[^A-Za-z0-9]+/).map(compact).filter((t) => (t.length >= 5 && !STOP.has(t)) || (/\d/.test(t) && /[a-z]/.test(t) && t.length >= 3));
+  return tokens.some((t) => hay.includes(t));
+}
+
+type DrugsFdaApp = { application_number?: string; sponsor_name?: string; openfda?: { generic_name?: string[]; brand_name?: string[] }; submissions?: Array<{ submission_type?: string; submission_status?: string; submission_status_date?: string }> };
+
+/** Earliest ORIG approval year across every Drugs@FDA application in a result set, or null. */
+export function firstApprovalYear(results: DrugsFdaApp[]): number | null {
+  let best: number | null = null;
+  for (const app of results) for (const s of app.submissions ?? []) {
+    if (s.submission_type !== "ORIG" || s.submission_status !== "AP" || !s.submission_status_date) continue;
+    const y = Number(s.submission_status_date.slice(0, 4));
+    if (Number.isFinite(y) && (best === null || y < best)) best = y;
+  }
+  return best;
+}
+
+/** Is an openFDA generic name ours, or ours with a four-letter biologic suffix? */
+const isOurName = (n: string, ql: string) => { const l = n.toLowerCase(); return l === ql || l.startsWith(`${ql}-`) || l.replace(/-[a-z]{4}$/, "") === ql; };
+
 async function main() {
   const g = graph();
   const report: Report = { generated: new Date().toISOString(), checked: { drugs: 0, trials: 0 }, mismatches: [], errors: [] };
   const patches: Patch[] = [];
   const today = new Date().toISOString().slice(0, 10);
+  const only = process.argv.includes("--only") ? process.argv[process.argv.indexOf("--only") + 1] : undefined;
+  const skipDrugs = process.argv.includes("--trials-only");
+  const skipTrials = process.argv.includes("--drugs-only");
 
-  // (a) openFDA labels.
-  const drugs = g.kind("drug").filter((d) => !/test|assay|imaging agent|device|regimen|classifier/i.test(d.modality));
+  // (a) openFDA labels and (b) Drugs@FDA original approval.
+  const drugs = skipDrugs ? [] : g.kind("drug").filter((d) => !/test|assay|imaging agent|device|regimen|classifier/i.test(d.modality)).filter((d) => !only || d.id === only);
   for (const d of drugs) {
-    const usApproved = d.approvals.some((a) => /^US/i.test(a.region));
+    const usRows = d.approvals.filter((a) => /^US/i.test(a.region));
+    const usApproved = usRows.length > 0;
     const q = genericName(d.name, d.code);
     const url = `https://api.fda.gov/drug/label.json?search=openfda.generic_name:"${encodeURIComponent(q)}"&limit=1`;
     const res = await getJson(url);
     report.checked.drugs++;
-    await sleep(400);
+    await sleep(300);
     if (res === null) { report.errors.push(`openFDA error for ${d.id}`); continue; }
     type LabelResult = { openfda?: { generic_name?: string[]; brand_name?: string[] } };
     const results = res !== "404" && Array.isArray((res as { results?: LabelResult[] }).results) ? (res as { results: LabelResult[] }).results : [];
@@ -112,28 +188,59 @@ async function main() {
     // name + suffix; "weak" = the name appears as a whole word (combination products).
     const ql = q.toLowerCase();
     const names = results.flatMap((r) => r.openfda?.generic_name ?? []).map((n) => n.toLowerCase());
-    const strong = names.some((n) => n === ql || n.startsWith(`${ql}-`) || n.replace(/-[a-z]{4}$/, "") === ql);
+    const strong = names.some((n) => isOurName(n, ql));
     const weak = strong || names.some((n) => new RegExp(`(^|[^a-z])${ql.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-z]|$)`).test(n));
     const hasLabel = strong;
     const publicUrl = `https://open.fda.gov/apis/drug/label/`;
-    if (usApproved && !weak) report.mismatches.push({ check: "us-approval-no-openfda-label", id: d.id, name: d.name, route: routeFor(d), recorded: `US approval ${Math.min(...d.approvals.filter((a) => /^US/i.test(a.region)).map((a) => a.year))}`, registry: `no openFDA label for "${q}"`, url: publicUrl, severity: "low" });
+    if (usApproved && !weak) report.mismatches.push({ check: "us-approval-no-openfda-label", id: d.id, name: d.name, route: routeFor(d), recorded: `US approval ${Math.min(...usRows.map((a) => a.year))}`, registry: `no openFDA label for "${q}"`, url: publicUrl, severity: "low" });
     if (!usApproved && hasLabel && !["approved", "standard-of-care", "withdrawn"].includes(d.status ?? "")) report.mismatches.push({ check: "openfda-label-but-not-approved", id: d.id, name: d.name, route: routeFor(d), recorded: `status ${d.status ?? "unset"}, no US approval recorded`, registry: `openFDA has a label for "${q}"`, url: publicUrl, severity: "medium" });
+
+    if (usApproved) {
+      const durl = `https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:"${encodeURIComponent(q)}"&limit=100`;
+      const dres = await getJson(durl);
+      await sleep(300);
+      if (dres === null) { report.errors.push(`Drugs@FDA error for ${d.id}`); continue; }
+      const apps = dres !== "404" && Array.isArray((dres as { results?: DrugsFdaApp[] }).results) ? (dres as { results: DrugsFdaApp[] }).results : [];
+      // Only applications whose generic name is exactly ours (or ours plus a biologic suffix), so a
+      // combination product's partner or a fuzzy match does not supply the year.
+      const mine = apps.filter((a) => (a.openfda?.generic_name ?? []).some((n) => isOurName(n, ql)));
+      // The openfda name block is attached mostly to generics, so the earliest date across everything
+      // only bounds the first approval from above: an approval recorded later than any matched
+      // application is missing an earlier row.
+      const fdaYear = firstApprovalYear(mine);
+      const ours = Math.min(...usRows.map((a) => a.year));
+      const durlPublic = `https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process&searchTerm=${encodeURIComponent(q)}`;
+      // The reverse claim (we say earlier than any NDA/BLA in the feed) was tried and produced no true positives:
+      // discontinued, withdrawn and re-formulated originals (Iressa 2003, Mylotarg 2000, Lynparza capsules 2014) are
+      // absent from the feed, so it stays out.
+      if (fdaYear !== null && ours > fdaYear) report.mismatches.push({ check: "us-first-approval-missing", id: d.id, name: d.name, route: routeFor(d), recorded: `first US approval ${ours} (${usRows.filter((a) => a.year === ours).map((a) => a.indication).join("; ").slice(0, 80)})`, registry: `Drugs@FDA earliest original approval ${fdaYear}`, url: durlPublic, severity: "low" });
+    }
   }
 
-  // (b) ClinicalTrials.gov: status, phase, primary completion.
-  const trials = g.kind("trial").filter((t) => t.nct && /^NCT\d{8}$/.test(t.nct));
+  // (c) ClinicalTrials.gov: status, phase, primary completion, enrolment, titles.
+  const trials = skipTrials ? [] : g.kind("trial").filter((t) => t.nct && /^NCT\d{8}$/.test(t.nct)).filter((t) => !only || t.id === only);
   for (const t of trials) {
-    const fields = ["protocolSection.statusModule.overallStatus", "protocolSection.statusModule.whyStopped", "protocolSection.statusModule.primaryCompletionDateStruct", "protocolSection.designModule.phases"].join(",");
+    const fields = ["protocolSection.identificationModule.briefTitle", "protocolSection.identificationModule.officialTitle", "protocolSection.identificationModule.acronym", "protocolSection.identificationModule.orgStudyIdInfo", "protocolSection.identificationModule.secondaryIdInfos", "protocolSection.statusModule.overallStatus", "protocolSection.statusModule.whyStopped", "protocolSection.statusModule.primaryCompletionDateStruct", "protocolSection.statusModule.completionDateStruct", "protocolSection.designModule.phases", "protocolSection.designModule.enrollmentInfo"].join(",");
     const url = `https://clinicaltrials.gov/api/v2/studies/${t.nct}?fields=${fields}`;
     const res = await getJson(url);
     report.checked.trials++;
-    await sleep(300);
+    await sleep(250);
     const registryUrl = `https://clinicaltrials.gov/study/${t.nct}`;
     if (res === null) { report.errors.push(`CT.gov error for ${t.id}`); continue; }
     if (res === "404") { report.mismatches.push({ check: "nct-not-found", id: t.id, name: t.name, route: routeFor(t), recorded: t.nct!, registry: "not found", url: registryUrl, severity: "high" }); continue; }
-    const ps = (res as { protocolSection?: { statusModule?: { overallStatus?: string; whyStopped?: string; primaryCompletionDateStruct?: { date?: string; type?: string } }; designModule?: { phases?: string[] } } }).protocolSection;
+    type PS = { identificationModule?: { briefTitle?: string; officialTitle?: string; acronym?: string; orgStudyIdInfo?: { id?: string }; secondaryIdInfos?: Array<{ id?: string }> }; statusModule?: { overallStatus?: string; whyStopped?: string; primaryCompletionDateStruct?: { date?: string; type?: string }; completionDateStruct?: { date?: string; type?: string } }; designModule?: { phases?: string[]; enrollmentInfo?: { count?: number; type?: string } } };
+    const ps = (res as { protocolSection?: PS }).protocolSection;
+
+    const im = ps?.identificationModule ?? {};
+    // Acronym, titles and the sponsor's own protocol ids (COG "ACNS0331", "RTOG 0129", "ISG-STS 1001"), which the titles often omit.
+    const titles = [im.acronym ?? "", im.briefTitle ?? "", im.officialTitle ?? "", im.orgStudyIdInfo?.id ?? "", ...(im.secondaryIdInfos ?? []).map((s) => s.id ?? "")];
+    const extra = [...t.aka, ...t.drugs.flatMap((id) => { const d = g.get(id); return d && d.kind === "drug" ? [d.name, d.code ?? "", d.brand ?? "", ...d.aka] : []; })];
+    if (!nameMatchesRegistry(t.name, titles, extra)) report.mismatches.push({ check: "nct-title-mismatch", id: t.id, name: t.name, route: routeFor(t), recorded: `${t.nct}: "${t.name}"`, registry: `${im.acronym ? `${im.acronym}: ` : ""}${(im.briefTitle ?? im.officialTitle ?? "").slice(0, 120)}`, url: registryUrl, severity: "medium" });
+
     const status = ps?.statusModule?.overallStatus ?? "UNKNOWN";
-    const ok = CT_TO_OURS[status] ?? [];
+    const ok = [...(CT_TO_OURS[status] ?? [])];
+    // A trial the registry calls TERMINATED because an interim analysis met its endpoint is a positive trial stopped early.
+    if (status === "TERMINATED" && /efficacy|benefit|superior|met its|primary endpoint|early for|positive/i.test(ps?.statusModule?.whyStopped ?? "")) ok.push("positive");
     if (t.status && ok.length && !ok.includes(t.status)) {
       report.mismatches.push({ check: "trial-status-vs-registry", id: t.id, name: t.name, route: routeFor(t), recorded: t.status, registry: status, url: registryUrl, severity: status === "WITHDRAWN" || status === "TERMINATED" ? "high" : "medium" });
     }
@@ -151,15 +258,30 @@ async function main() {
       report.mismatches.push({ check: "primary-completion-passed", id: t.id, name: t.name, route: routeFor(t), recorded: t.status, registry: `primary completion ${pc.date} (actual)`, url: registryUrl, severity: "medium" });
       if (!patches.some((p) => p.id === t.id && p.field === "status")) patches.push({ id: t.id, kind: "trial", name: t.name, route: routeFor(t), field: "status", current: t.status!, proposed: status === "COMPLETED" ? "completed" : "active", reason: `Primary completion date ${pc.date} has passed (actual) and the registry status is ${status}`, source: registryUrl, registryValue: `${status}; primary completion ${pc.date}`, proposedOn: today });
     }
+
+    // Enrolment: the registry's actual count is the primary source for `enrolled`. An estimate is only worth a note when far off.
+    const en = ps?.designModule?.enrollmentInfo;
+    if (en?.count && t.enrolled !== undefined && en.count !== t.enrolled) {
+      const rel = Math.abs(en.count - t.enrolled) / Math.max(en.count, t.enrolled);
+      if (en.type === "ACTUAL") {
+        report.mismatches.push({ check: "enrolled-vs-registry", id: t.id, name: t.name, route: routeFor(t), recorded: `enrolled ${t.enrolled}`, registry: `enrolment ${en.count} (actual)`, url: registryUrl, severity: rel > 0.1 ? "medium" : "low" });
+        patches.push({ id: t.id, kind: "trial", name: t.name, route: routeFor(t), field: "enrolled", current: String(t.enrolled), proposed: String(en.count), reason: `ClinicalTrials.gov actual enrolment is ${en.count}`, source: registryUrl, registryValue: `${en.count} (ACTUAL)`, proposedOn: today });
+      } else if (rel > 0.25) {
+        report.mismatches.push({ check: "enrolled-vs-registry", id: t.id, name: t.name, route: routeFor(t), recorded: `enrolled ${t.enrolled}`, registry: `enrolment ${en.count} (estimated)`, url: registryUrl, severity: "low" });
+      }
+    }
   }
 
   const out = join(process.cwd(), "public");
   mkdirSync(out, { recursive: true });
+  const sevOrder = { high: 0, medium: 1, low: 2 };
+  report.mismatches.sort((a, b) => sevOrder[a.severity] - sevOrder[b.severity] || a.check.localeCompare(b.check) || a.name.localeCompare(b.name));
   writeFileSync(join(out, "factcheck.json"), JSON.stringify(report, null, 0));
   const patchFile: PatchFile = { generated: report.generated, patches };
   writeFileSync(join(out, "factcheck-patches.json"), JSON.stringify(patchFile, null, 0));
   console.log(`factcheck: ${report.checked.drugs} drugs, ${report.checked.trials} trials; ${report.mismatches.length} mismatches; ${patches.length} patch proposals; ${report.errors.length} errors`);
-  for (const m of report.mismatches) console.log(`  [${m.severity}] ${m.check}: ${m.name} — recorded ${m.recorded}; registry ${m.registry}`);
+  for (const m of report.mismatches) console.log(`  [${m.severity}] ${m.check}: ${m.name} (${m.id}); recorded ${m.recorded}; registry ${m.registry}`);
+  for (const e of report.errors) console.log(`  error: ${e}`);
   if (patches.length) console.log(`  apply accepted patches with: npx tsx scripts/apply-factcheck.ts ${patches.slice(0, 3).map((p) => `${p.id}.${p.field}`).join(" ")} ...`);
 }
 

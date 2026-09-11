@@ -294,6 +294,7 @@ const baseDrugs: DrugInput[] = [
     summary: "PACIFIC (unresectable stage III NSCLC), ADRIATIC (limited-stage SCLC, 2024), TOPAZ-1 (biliary tract), HIMALAYA (HCC with tremelimumab), NIAGARA (perioperative muscle-invasive bladder cancer, 2025), MATTERHORN (perioperative gastric, 2025), and Q2 2026 high-risk non-muscle-invasive bladder cancer with BCG (POTOMAC). Partner of Dato-DXd in TROPION-Breast05.",
     mechanism: "Human IgG1 anti-PD-L1 with reduced Fc effector function.",
     approvals: [
+      { region: "US", year: 2017, indication: "Locally advanced or metastatic urothelial carcinoma after platinum (accelerated; indication withdrawn 2021)" },
       { region: "US", year: 2018, indication: "Unresectable stage III NSCLC after chemoradiation" },
       { region: "US", year: 2026, indication: "High-risk NMIBC with BCG" },
     ],

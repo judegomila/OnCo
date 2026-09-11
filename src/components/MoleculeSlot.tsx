@@ -14,6 +14,8 @@ export function placeholderKind(modality?: string): { id: string; label: string;
   if (/radioligand|radiopharm|isotope|lutetium|actinium|radium|iodine|alpha therapy|emitter/.test(m)) return { id: "radio", label: "Radiopharmaceutical", why: "A radioactive atom, alone or on a carrier; the carrier's structure is shown where known." };
   if (/test|assay|diagnostic|sequencing|panel|classifier|device|software|imaging/.test(m)) return { id: "test", label: "Test or device", why: "Not a drug, so there is no molecule." };
   if (/cytokine|fusion|enzyme|protein|peptide|hormone analogue|recombinant|erythropoietin|interferon|growth factor|colony-stimulating|interleukin|il-\d|superagonist|toxin/.test(m)) return { id: "protein", label: "Protein therapeutic", why: "A large protein; no small-molecule drawing." };
+  if (/nanoparticle/.test(m)) return { id: "particle", label: "Nanoparticle", why: "An inorganic or polymer particle of many thousands of atoms, not a single molecule." };
+  if (/not yet disclosed|undisclosed/.test(m)) return { id: "undisclosed", label: "Structure not yet disclosed", why: "An investigational small molecule or peptide whose chemical structure the sponsor has not published; PubChem has no record, so there is nothing to draw yet." };
   return { id: "none", label: "No structure yet", why: "We have not sourced a structure for this product yet." };
 }
 
@@ -27,6 +29,8 @@ function Glyph({ id }: { id: string }) {
     case "radio": return <svg viewBox="0 0 32 32" aria-hidden {...s}><circle cx="16" cy="16" r="2.2" fill="currentColor" stroke="none" /><ellipse cx="16" cy="16" rx="12" ry="5" /><ellipse cx="16" cy="16" rx="12" ry="5" transform="rotate(60 16 16)" /><ellipse cx="16" cy="16" rx="12" ry="5" transform="rotate(120 16 16)" /></svg>;
     case "test": return <svg viewBox="0 0 32 32" aria-hidden {...s}><rect x="6" y="6" width="20" height="20" rx="3" /><path d="M11 16h10M11 12h6M11 20h8" /></svg>;
     case "protein": return <svg viewBox="0 0 32 32" aria-hidden {...s}><path d="M6 20c3-8 6 8 9 0s6-8 9 0M8 12c2-3 4 3 6 0s4-3 6 0" /></svg>;
+    case "particle": return <svg viewBox="0 0 32 32" aria-hidden {...s}><circle cx="16" cy="16" r="10" /><circle cx="12" cy="13" r="1.4" fill="currentColor" stroke="none" /><circle cx="19" cy="11" r="1.4" fill="currentColor" stroke="none" /><circle cx="21" cy="18" r="1.4" fill="currentColor" stroke="none" /><circle cx="14" cy="20" r="1.4" fill="currentColor" stroke="none" /></svg>;
+    case "undisclosed": return <svg viewBox="0 0 32 32" aria-hidden {...s} strokeDasharray="3 3"><path d="M16 4l10 6v12l-10 6-10-6V10Z" /><path d="M13 14a3 3 0 1 1 3 3v2M16 22.5v.5" strokeDasharray="0" /></svg>;
     default: return <svg viewBox="0 0 32 32" aria-hidden {...s} strokeDasharray="3 3"><path d="M16 4l10 6v12l-10 6-10-6V10Z" /></svg>;
   }
 }

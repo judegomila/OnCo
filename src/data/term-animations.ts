@@ -189,7 +189,7 @@ export function immunologyTerm(): Mesh {
     hide(alpha, tcr, brake, ...cyt, ...mem);
     let caption = "";
     if (t < 0.25) { const u = phase(t, 0, 0.25); moveTo(pts, base, tcell, TC0, TC1, u); caption = "1 · Immune cells patrol; a T cell meets a tumour cell showing a foreign fragment (antigen)"; }
-    else if (t < 0.5) { moveTo(pts, base, tcell, TC0, TC1, 1); const u = phase(t, 0.25, 0.5); setAlpha(alpha, tcr, u); setAlpha(alpha, brake, u * pulse(t, 3)); caption = "2 · Recognition (TCR–MHC) plus a second signal; checkpoints like PD-1 can veto the attack"; }
+    else if (t < 0.5) { moveTo(pts, base, tcell, TC0, TC1, 1); const u = phase(t, 0.25, 0.5); setAlpha(alpha, tcr, u); setAlpha(alpha, brake, u * pulse(t, 3)); caption = "2 · Recognition (TCR-MHC) plus a second signal; checkpoints like PD-1 can veto the attack"; }
     else if (t < 0.78) { moveTo(pts, base, tcell, TC0, TC1, 1); setAlpha(alpha, tcr, 1); setAlpha(alpha, brake, 0.2); const u = phase(t, 0.5, 0.78); cyt.forEach((c, i) => { const a = (TAU * i) / 8; setAlpha(alpha, c, stepIn(u, i % 4, 4)); movePart(pts, base, c, [Math.cos(a) * 0.9 * u, Math.sin(a) * 0.9 * u, 0]); }); caption = "3 · Activated: cytokines recruit help, granzymes kill; the tumour may hide MHC or recruit suppressors"; }
     else { moveTo(pts, base, tcell, TC0, TC1, 1); setAlpha(alpha, tcr, 1); cyt.forEach((c, i) => { const a = (TAU * i) / 8; setAlpha(alpha, c, 0.5); movePart(pts, base, c, [Math.cos(a) * 0.9, Math.sin(a) * 0.9, 0]); }); const u = phase(t, 0.78, 1); mem.forEach((m, i) => setAlpha(alpha, m, stepIn(u, i, 3))); caption = "4 · Memory cells remain: why immune responses can last for years"; }
     return { caption, labels: [{ at: [TC1[0], 1.15, 0], text: "T cell" }, { at: [TUM[0], 1.15, 0], text: "Tumour cell" }, ...(t >= 0.25 && t < 0.78 ? [{ at: [0, 0.6, 0] as Vec3, text: "Checkpoint" }] : []), ...(t >= 0.78 ? [{ at: [-1.9, -1.95, 0] as Vec3, text: "Memory" }] : [])] };
@@ -355,7 +355,7 @@ export function pharmacologyTerm(): Mesh {
   return frame(sc, 12, (t, pts, alpha) => {
     hide(alpha, toxC, window, drug);
     let caption = "";
-    if (t < 0.3) { const u = phase(t, 0, 0.3); grow(alpha, curve, u); caption = "1 · Dose–response: more drug, more effect, until it saturates"; }
+    if (t < 0.3) { const u = phase(t, 0, 0.3); grow(alpha, curve, u); caption = "1 · Dose-response: more drug, more effect, until it saturates"; }
     else if (t < 0.55) { const u = phase(t, 0.3, 0.55); grow(alpha, toxC, u); setAlpha(alpha, window, u * 0.7); caption = "2 · A second curve for harm; the gap between them is the therapeutic window"; }
     else if (t < 0.8) { setAlpha(alpha, toxC, 1); setAlpha(alpha, window, 0.7); const u = phase(t, 0.55, 0.8); setAlpha(alpha, drug, 1); moveTo(pts, base, drug, D0, D1, u, 1, u * 5); setAlpha(alpha, cellP, 0.7 + 0.3 * u); caption = "3 · Pharmacokinetics: absorbed, distributed, metabolised (CYP3A4…), excreted; half-life sets the schedule"; }
     else { setAlpha(alpha, toxC, 1); setAlpha(alpha, window, 0.7); setAlpha(alpha, drug, pulse(t, 4)); movePart(pts, base, drug, [D1[0] - D0[0], D1[1] - D0[1], D1[2] - D0[2]], 1, 5); caption = "4 · Pharmacodynamics: what it does once there. Interactions and genetics (UGT1A1, DPYD) shift both curves"; }

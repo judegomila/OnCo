@@ -28,7 +28,7 @@ const UK_NICE = (note: string) => ({ country: "UK", reimbursement: `NICE: ${note
 // Mechanism step templates.
 const ADC_STEPS = (target: string, payload: string, bystander = true) => [
   `Antibody binds ${target} on the tumour cell surface`,
-  "Receptor–ADC complex is internalised by endocytosis",
+  "Receptor-ADC complex is internalised by endocytosis",
   "Trafficked to the lysosome; linker is cleaved or antibody degraded",
   `${payload} is released inside the cell`,
   payload.match(/DXd|SN-38|exatecan|belotecan|TOP1|camptothecin/i) ? "Topoisomerase-I is trapped on DNA; replication forks collapse into double-strand breaks" : payload.match(/MMAE|MMAF|DM1|DM4|maytans|auristatin/i) ? "Microtubule assembly is blocked; mitosis arrests" : "DNA is damaged (crosslinks or double-strand breaks)",
@@ -325,7 +325,7 @@ export const drugDepth: Record<string, DrugDepth> = {
 
   // ======================= CELL THERAPY =======================
   "ciltacabtagene-autoleucel": {
-    dosing: { route: "Single IV infusion after lymphodepletion", schedule: "0.5–1.0 × 10⁶ CAR+ viable T cells/kg (max 1 × 10⁸); cyclophosphamide 300 mg/m² + fludarabine 30 mg/m² days −5 to −3", modifications: "Delay infusion for active infection; tocilizumab and steroids for CRS; anakinra for refractory", monitoring: "Daily monitoring for 10 days for CRS/ICANS; delayed neurotoxicity (parkinsonism) for months; blood counts and IgG; secondary malignancy surveillance for 15 years", source: DM("7d040b91-3fb8-41db-ba7f-60a36f06e2c2") },
+    dosing: { route: "Single IV infusion after lymphodepletion", schedule: "0.5 to 1.0 × 10⁶ CAR+ viable T cells/kg (max 1 × 10⁸); cyclophosphamide 300 mg/m² + fludarabine 30 mg/m² days −5 to −3", modifications: "Delay infusion for active infection; tocilizumab and steroids for CRS; anakinra for refractory", monitoring: "Daily monitoring for 10 days for CRS/ICANS; delayed neurotoxicity (parkinsonism) for months; blood counts and IgG; secondary malignancy surveillance for 15 years", source: DM("7d040b91-3fb8-41db-ba7f-60a36f06e2c2") },
     toxicity: [tx("Cytokine release syndrome", 78, 3), tx("Neutropenia (grade 3+)", undefined, 95), tx("Hypogammaglobulinaemia", 94, 9), tx("Infections (grade 3+)", undefined, 24), tx("ICANS", 7, 0.5), tx("Parkinsonism / movement disorders", 1, 0), tx("Secondary haematological malignancies", 3)].map((t) => ({ ...t, source: DM("7d040b91-3fb8-41db-ba7f-60a36f06e2c2"), note: "CARTITUDE-4, n=188" })),
     access: [{ ...US_PARTB("https://www.janssencarepath.com"), listPrice: "$465,000 per infusion (list price at launch, 2022; 2026 list higher)" }, UK_NICE("recommended for relapsed myeloma after ≥1 line, lenalidomide-refractory (2025)")],
     regulatoryEvents: [ev("2019-12", "designation", "US", "Breakthrough Therapy designation"), ev("2022-02-28", "approval", "US", "Relapsed/refractory myeloma after ≥4 lines (CARTITUDE-1)"), ev("2024-04-05", "approval", "US", "Relapsed myeloma after ≥1 prior line, lenalidomide-refractory (CARTITUDE-4)"), ev("2024-01-19", "label-change", "US", "Class boxed warning for T-cell malignancies"), ev("2025-06", "label-change", "US", "REMS requirements removed for CAR-T class")],
@@ -414,7 +414,7 @@ export const drugDepth: Record<string, DrugDepth> = {
     toxicity: [tx("Rash", undefined, undefined, undefined, "Most common; mostly grade 1-2 per phase 1/2 reports"), tx("Stomatitis"), tx("Nausea"), tx("Diarrhoea"), tx("Fatigue")],
     access: [{ country: "US", reimbursement: "Investigational; NDA expected after RASolute 302", asOf: "2026-09-06" }],
     regulatoryEvents: [ev("2024-06", "designation", "US", "Breakthrough Therapy designation, previously treated metastatic PDAC"), ev("2025-12", "filing", "US", "RASolute 302 phase 3 fully enrolled; topline 2026")],
-    mechanismSteps: ["Drug binds cyclophilin A inside the cell", "The drug–cyclophilin complex binds the active (GTP-bound) RAS protein, forming a tri-complex", "RAS(ON) is sterically blocked from engaging RAF and other effectors, regardless of which mutation it carries", "MAPK signalling collapses in RAS-addicted cells", "Pancreatic and other RAS-driven tumour cells arrest and die"],
+    mechanismSteps: ["Drug binds cyclophilin A inside the cell", "The drug-cyclophilin complex binds the active (GTP-bound) RAS protein, forming a tri-complex", "RAS(ON) is sterically blocked from engaging RAF and other effectors, regardless of which mutation it carries", "MAPK signalling collapses in RAS-addicted cells", "Pancreatic and other RAS-driven tumour cells arrest and die"],
   },
   encorafenib: {
     dosing: { route: "Oral", schedule: "450 mg once daily with binimetinib (melanoma); 300 mg once daily with cetuximab ± FOLFOX (colorectal)", modifications: "Reduce for uveitis, QTc, hepatotoxicity", monitoring: "Dermatologic exams (new primary skin cancers), ECG, LFTs, eye exams", source: FDA_ONC },
@@ -451,7 +451,7 @@ export const drugDepth: Record<string, DrugDepth> = {
     toxicity: [tx("Anaemia", undefined, undefined, undefined, "EMBRACA: 53% any grade, 39% grade 3-4"), tx("Fatigue"), tx("Nausea"), tx("Neutropenia"), tx("Thrombocytopenia"), tx("Headache"), tx("Alopecia")],
     access: [US_PARTD("https://www.pfizeroncologytogether.com"), UK_NICE("recommended for gBRCA HER2-negative advanced breast cancer (TA952) and with enzalutamide in HRR-mutant mCRPC (2024)")],
     regulatoryEvents: [ev("2018-10-16", "approval", "US", "gBRCA HER2-negative locally advanced/metastatic breast cancer (EMBRACA)"), ev("2023-06-20", "approval", "US", "HRR-mutant mCRPC with enzalutamide (TALAPRO-2)")],
-    mechanismSteps: ["Talazoparib traps PARP1 on DNA about 100-fold more potently than olaparib", "Trapped PARP–DNA complexes block replication", "Double-strand breaks accumulate in HR-deficient tumour cells", "Synthetic lethality kills the tumour; anaemia is the dose-limiting toxicity"],
+    mechanismSteps: ["Talazoparib traps PARP1 on DNA about 100-fold more potently than olaparib", "Trapped PARP-DNA complexes block replication", "Double-strand breaks accumulate in HR-deficient tumour cells", "Synthetic lethality kills the tumour; anaemia is the dose-limiting toxicity"],
   },
   palbociclib: {
     dosing: { route: "Oral", schedule: "125 mg once daily for 21 days, then 7 days off (28-day cycle), with aromatase inhibitor or fulvestrant", modifications: "Reduce to 100 then 75 mg for grade 3 neutropenia with fever or grade 4", monitoring: "Complete blood count before each cycle and on day 15 of the first two cycles; ILD symptoms", source: DM("fecbdd7d-b729-41b5-9872-231b8fe104ce") },

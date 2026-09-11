@@ -35,6 +35,9 @@ const targets: TargetInput[] = [
     summary: "Disialoganglioside GD2 is expressed at high density on nearly all neuroblastomas, most osteosarcomas and melanomas, and diffuse midline gliomas, with normal expression restricted to peripheral nerves, melanocytes and CNS. Anti-GD2 antibodies (dinutuximab, dinutuximab beta, naxitamab) improved high-risk neuroblastoma survival; GD2 CAR-T (GD2-CART01, Italian phase 1/2) gives durable complete responses in relapsed disease and shows activity in diffuse midline glioma (Stanford). Neuropathic pain from nerve GD2 binding is the class toxicity.",
     biology: "Glycosphingolipid synthesised by GD2 synthase (B4GALNT1); not internalised efficiently, so antibodies act by ADCC/CDC rather than as ADC carriers.",
     whereFound: ["Neuroblastoma (~100%)", "Osteosarcoma", "Melanoma", "Diffuse midline glioma / DIPG", "Small-cell lung cancer (subset)", "Ewing sarcoma (subset)"],
+    prevalence: [
+      { cancerId: "sarcoma", pct: 100, measure: "IHC, GD2 in 44 of 44 osteosarcoma specimens", source: "https://doi.org/10.1002/cncr.28461", note: "Roth 2014 (Cancer); recurrent samples stained more intensely than primaries" },
+    ],
     cancers: ["neuroblastoma", "sarcoma", "melanoma", "glioblastoma"], drugs: ["dinutuximab", "naxitamab"], tags: ["antibody-target", "car-t-target"], links: [{ label: "Wikipedia", url: W("GD2") }] }),
 ];
 

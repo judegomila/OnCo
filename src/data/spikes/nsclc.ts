@@ -209,6 +209,9 @@ const targets: TargetInput[] = [
     summary: "ROS1 rearrangements (CD74-ROS1 most common) occur in ~1-2% of NSCLC, typically in younger never-smokers. Crizotinib (2016) and entrectinib (2019) were first; repotrectinib (2023) covers the G2032R solvent-front mutation; zidesamtinib (July 2026) adds TRK sparing to reduce neurologic toxicity. Also seen in cholangiocarcinoma and glioblastoma (rare).",
     biology: "Receptor tyrosine kinase with homology to ALK; fusions constitutively activate MAPK, PI3K, and JAK-STAT.",
     whereFound: ["NSCLC (~1-2%)", "Cholangiocarcinoma, glioblastoma, Spitz tumours (rare)"],
+    prevalence: [
+      { cancerId: "nsclc", pct: 1.7, measure: "FISH, ROS1 rearrangement (18 of 1,073 NSCLC)", source: "https://doi.org/10.1200/JCO.2011.35.6345", note: "Bergethon 2012; enriched in younger never-smokers with adenocarcinoma" },
+    ],
     cancers: ["nsclc"], pathways: ["ras-mapk", "pi3k-akt-mtor"], drugs: ["repotrectinib", "zidesamtinib", "taletrectinib", "oncomine-dx-target-test"], tags: ["driver", "kinase"], links: [{ label: "Wikipedia", url: W("ROS1") }] },
 ];
 

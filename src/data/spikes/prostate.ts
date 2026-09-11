@@ -45,21 +45,26 @@ const companies: CompanyInput[] = [
 const targets: TargetInput[] = [
   tg({ id: "steap1", name: "STEAP1", symbol: "STEAP1", targetClass: "surface-antigen", wikipedia: W("STEAP1"),
     tldr: "STEAP1 is a protein on the surface of most prostate cancer cells, now the address for a T-cell engager in phase 3.",
-    summary: "Six-transmembrane epithelial antigen of the prostate 1 is expressed in >80% of prostate cancers including PSMA-low and neuroendocrine-like disease, with limited normal expression. Xaluritamig (STEAP1×CD3 XmAb 2+1) produced PSA50 in ~half of heavily pretreated mCRPC patients at target doses in phase 1 and is in two phase 3 trials (XALute post-taxane; XALience with abiraterone chemo-naive). Also an ADC target historically (vandortuzumab vedotin, discontinued).",
+    summary: "Six-transmembrane epithelial antigen of the prostate 1 is expressed in most prostate cancers including PSMA-low and neuroendocrine-like disease, with limited normal expression. Xaluritamig (STEAP1×CD3 XmAb 2+1) produced PSA50 in ~half of heavily pretreated mCRPC patients at target doses in phase 1 and is in two phase 3 trials (XALute post-taxane; XALience with abiraterone chemo-naive). Also an ADC target historically (vandortuzumab vedotin, discontinued).",
     biology: "STEAP1 is a metalloreductase at cell junctions, upregulated by androgen receptor signalling; its expression is partly independent of PSMA, making it complementary.",
-    whereFound: ["Prostate cancer (>80%)", "Ewing sarcoma", "Bladder (subset)"],
+    whereFound: ["Prostate cancer (most cases)", "Ewing sarcoma", "Bladder (subset)"],
+    notes: ["Prevalence not recorded: no peer-reviewed STEAP1 expression series with a stated denominator was found for prostate cancer; the widely repeated '>80%' figure could not be traced to a series with an n, so it has been removed."],
     cancers: ["prostate"], drugs: ["xaluritamig"], tags: ["t-cell-engager-target"], links: [{ label: "Wikipedia", url: W("STEAP1") }] }),
   tg({ id: "klk2", name: "KLK2 (kallikrein-2)", symbol: "KLK2", targetClass: "surface-antigen", wikipedia: W("KLK2"),
     tldr: "A relative of PSA that stays attached to prostate cancer cells, used as a T-cell engager address by J&J.",
     summary: "Human kallikrein-2 (KLK2) is an androgen-regulated serine protease that activates PSA; unlike PSA it is retained on the prostate cell membrane, which makes it a usable address for cell-surface therapies. Expression is nearly universal in prostate cancer and prostate-restricted elsewhere, so a KLK2-directed drug can engage T cells against the tumour with little on-target damage to other tissues. The lead agent is Johnson & Johnson's pasritamig (JNJ-78278343, a KLK2 x CD3 bispecific), which showed low cytokine release and PSA responses in phase 1 and is in phase 3 (KLK2-P3-01) in metastatic castration-resistant prostate cancer. Open questions are whether KLK2 expression persists in neuroendocrine or AR-independent disease and how it compares with PSMA as an engager target. The plain version: KLK2 is a cousin of PSA that stays stuck to cancer cells, so drugs can grab it.",
     biology: "Serine protease activating PSA; androgen-regulated.",
     whereFound: ["Prostate cancer (nearly universal)"],
+    notes: ["Prevalence not recorded: no peer-reviewed KLK2 expression series with a stated denominator was found for prostate cancer; 'nearly universal' rests on KLK2 being an androgen-regulated, prostate-restricted gene rather than on a published positivity rate."],
     cancers: ["prostate"], drugs: ["pasritamig"], tags: ["t-cell-engager-target"], links: [{ label: "Wikipedia", url: W("KLK2") }] }),
   tg({ id: "grpr", name: "GRPR (gastrin-releasing peptide receptor)", symbol: "GRPR", targetClass: "surface-antigen", wikipedia: W("Gastrin-releasing_peptide_receptor"),
     tldr: "GRPR is a hormone receptor abundant in early and hormone-sensitive prostate cancer, imaged and treated with bombesin-like radioligands.",
     summary: "The gastrin-releasing peptide receptor (GRPR) is a G-protein-coupled receptor for bombesin and GRP whose expression is high in hormone-sensitive prostate cancer and falls with castration resistance. It is overexpressed in primary and hormone-naive prostate cancer, often in PSMA-negative tumours, as well as in ER-positive breast cancer and GIST, which makes it a complementary theranostic target to PSMA. Bombesin-like radioligands exploit it: 68Ga-RM2 PET for imaging and 177Lu-NeoB (Novartis) for therapy are in clinical trials. Because expression declines as disease becomes castration-resistant, GRPR agents may suit earlier disease or PSMA-negative patients rather than replacing PSMA therapy. A newcomer can think of GRPR as a second radioactive address on prostate cancer, useful where PSMA is dim.",
     biology: "G-protein-coupled receptor for bombesin/GRP; expression falls with castration resistance.",
     whereFound: ["Hormone-sensitive prostate cancer", "ER+ breast cancer", "GIST"],
+    prevalence: [
+      { cancerId: "prostate", pct: 100, measure: "Receptor autoradiography, GRPR in 30 of 30 invasive prostate carcinomas", source: "https://pubmed.ncbi.nlm.nih.gov/10070977/", note: "Markwalder and Reubi 1999 (Cancer Res); receptor density was high in carcinoma and PIN and low or absent in normal and hyperplastic prostate" },
+    ],
     cancers: ["prostate", "breast-hr-positive"], technologies: ["radioligand-therapy", "pet"], tags: ["theranostic"], links: [{ label: "Wikipedia", url: W("Gastrin-releasing_peptide_receptor") }] }),
 ];
 

@@ -185,7 +185,8 @@ export const METRIC_DEFS: MetricDef[] = [
     id: "trial-outcomes", label: "Trials with structured outcomes", kind: "trial",
     plain: "Every trial should carry arms, N, endpoints, and hazard ratios so pictograms and evidence scores can render.",
     action: "Add an entry in trial-outcomes.ts with the primary endpoint, arms, and the source publication.",
-    check: (g) => fails(g.kind("trial"), (t) => (t.outcomes.length === 0 ? (t.result ? "result text only" : "no outcomes") : null), (t) => (t.result ? 0 : 1)),
+    // Only trials that have reported can carry outcomes; recruiting, active and planned trials are not gaps.
+    check: (g) => fails(g.kind("trial").filter((t) => ["positive", "negative", "mixed", "completed", "approved", "standard-of-care", "withdrawn"].includes(t.status ?? "")), (t) => (t.outcomes.length === 0 ? (t.result ? "result text only" : "no outcomes") : null), (t) => (t.result ? 0 : 1)),
   },
   {
     id: "institution-people", label: "Institutions with people", kind: "institution",

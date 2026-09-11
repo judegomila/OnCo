@@ -47,6 +47,12 @@ const TOP_WORKS = 15;
 const TOP_AUTHORS = 10;
 const MAX_PAPERS_PER_PERSON = 3;
 
+/** OpenAlex ids fixed by hand where neither institutions.json nor ROR settles the match (same ids as fetch-openalex.ts). */
+const OVERRIDE_IDS: Record<string, string> = {
+  "ncc-japan": "I4210145079", // NCC Hospital East (Kashiwa); OpenAlex has no record for the Tokyo hospital
+  "einstein-sao-paulo": "I2800288331",
+};
+
 /** Societies, funders and regulators that publish little themselves; skipped, as in fetch-openalex.ts. */
 const SKIP = new Set(["asco", "esmo", "aacr", "iarc", "cruk", "curie-nki-eortc"]);
 const ALLOWED_TYPES = new Set(["education", "healthcare", "facility", "government", "nonprofit", "other"]);
@@ -159,6 +165,10 @@ async function rorFor(inst: Institution): Promise<{ ror: string; name: string } 
 async function resolve(inst: Institution, previous: Record<string, { openalexId: string; openalexName: string }>): Promise<Resolved | { reason: string }> {
   const prev = previous[inst.id];
   if (prev) return { oid: prev.openalexId, oname: prev.openalexName, ror: null, confidence: "override" };
+  if (OVERRIDE_IDS[inst.id]) {
+    const j = await get(`${API}/institutions/${OVERRIDE_IDS[inst.id]}?select=id,display_name,ror`);
+    if (j && typeof j.display_name === "string") return { oid: OVERRIDE_IDS[inst.id], oname: j.display_name, ror: (j.ror as string | null) ?? null, confidence: "override" };
+  }
   const declared = (inst as unknown as { ror?: string }).ror;
   const viaRor = declared ? { ror: declared, name: inst.name } : await rorFor(inst);
   if ("ror" in viaRor) {

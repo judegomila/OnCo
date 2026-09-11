@@ -1,0 +1,31 @@
+src/data/ideas-waves/wave-funding.ts
+  s_0beac9cb5d78fd::t_8307c492566b9c 67,77,182,201,222,233,347,406,475,512,551,559,607,635,717,744,772,824,900,947
+src/data/ideas-waves/wave-trials-2.ts
+  s_0beac9cb5d78fd::t_8307c492566b9c 725,768,827,836,846,864,874,968
+src/data/mechanisms.ts
+  s_0beac9cb5d78fd::t_8307c492566b9c 631-632,694-695,722-723,736
+src/data/ideas-waves/wave-data.ts
+  s_0beac9cb5d78fd::t_8307c492566b9c 56,253,282,290,298,341,520,553,577,634,723,763,795,812,852
+src/data/ideas-waves/wave-access.ts
+  s_0beac9cb5d78fd::t_8307c492566b9c 33,42,63,93,101,116,124,168-169,176,183-184,206,219,234,284,334,342,349,399,440,456,470-471,498,505,519,558,599,644,652,673,694,715
+src/data/ideas-waves/wave-costs.ts
+  s_0beac9cb5d78fd::t_8307c492566b9c 43,102,110,236
+src/data/ideas-waves/wave-regulation.ts
+  s_0beac9cb5d78fd::t_8307c492566b9c 43,59,124,261,326,336,368,383,408,470,502,518,540,611,668,677,809
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5717f3693b5940ecefd792b04095f4d54c052b23",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

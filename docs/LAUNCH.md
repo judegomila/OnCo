@@ -94,12 +94,12 @@ sources 6,297; backlinks 5,975 of 6,670; orphans 7 of 6,670 after the second lin
 
 ## Round of 11 Sept (afternoon): research, coverage, quality, distribution
 - [x] Glossary: /terms/ titled Glossary, clickable category cards with their animations, category schematic beside each term (chain running)
-- [x] Institution research from OpenAlex: fetcher, Research output panel, /universities/ five-year works and citation columns, weekly workflow. Interim: 29 institutions today; OpenAlex meters the free API at 1,000 credits a day, so the rest lands over about four daily runs, or in one run if the owner adds an OPENALEX_API_KEY repo secret (agent continues after the midnight UTC reset)
+- [x] Institution research from OpenAlex: fetcher, Research output panel, /universities/ five-year works and citation columns, weekly workflow. Live 11 Sept with 29 institutions; OpenAlex meters the free API at 1,000 credits a day, so the rest lands over about four daily runs, or in one run if the owner adds an OPENALEX_API_KEY repo secret (agent continues after the midnight UTC reset)
 - [ ] Coverage: ClinicalTrials.gov phase 2 and 3 oncology sponsors and pipeline products as company, drug and trial records (agent running)
 - [ ] Quality: factcheck against openFDA and ClinicalTrials.gov, audit fixes, dead-link repair, audit.json regenerated (agent running)
 - [x] Distribution: docs/DISTRIBUTION.md (eight channels, ten organisations, 30-day calendar, metrics), docs/press-kit.md, docs/launch-copy.md, docs/dataset-card.md, CITATION.cff, .zenodo.json fixed to CC BY-NC, release-dataset.yml, public/api/v1/openapi.json generated in build:api, llms.txt and llms-full.txt, MCP registry manifest. Merged 11 Sept.
 - [ ] Owner's first week from the plan: (1) Search Console DNS TXT and sitemap, Bing Webmaster import; (2) resolve the onco-mcp npm name clash then publish onco and onco-mcp and the MCP registry entry; (3) link the repo on Zenodo, tag v0.5.0, paste the DOI into CITATION.cff and README; (4) set the newsletter signup endpoint; (5) Show HN, LinkedIn, press kit to five reporters, first notes to Macmillan and Cancer Research UK
-- [x] TL;DR quality: 512 TL;DRs and 239 summary openings rewritten with the concrete fact (merged 11 Sept); the only remaining matches are proper nouns and official classifications
+- [x] TL;DR quality: 512 TL;DRs and 239 summary openings rewritten with the concrete fact (live 11 Sept); the only remaining matches are proper nouns and official classifications
 
 ## Owner decisions on 11 Sept
 - Ask OnCo is hidden from the top bar, command palette and mobile quick actions and its page is noindex; it stays reachable by direct link and behind the API, CLI and MCP `ask` tool until it answers better than a general AI assistant.

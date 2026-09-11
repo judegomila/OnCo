@@ -382,7 +382,7 @@ export const termsBasics: TermInput[] = [
     tldr: "Cancer that has spread from where it started to distant parts of the body, travelling through the blood or lymph. Metastasis is why staging scans look at the whole body, and the setting in which most new cancer drugs are approved first.",
     summary: "To metastasise, a cell must break away from the primary, invade through tissue into a blood or lymph vessel, survive the journey, exit at a distant organ, and grow there; each step is inefficient, yet enough cells succeed that around ninety percent of cancer deaths are due to metastases rather than the primary. Common destinations depend on the cancer (bone for prostate and breast, liver for colorectal, brain for lung and melanoma). Metastatic cancer is stage IV and is usually treated with systemic therapy rather than surgery, aiming at long control rather than cure, though a few sites (limited liver metastases in colorectal cancer, oligometastatic disease) can still be treated with curative intent.",
     wikipedia: W("Metastasis"),
-    related: ["primary-tumour", "metastatic-cascade", "activating-invasion-metastasis", "cancer-stage", "oligometastatic", "systemic-vs-local-therapy", "lymph-node", "disseminated-tumor-cells", "tumor-dormancy"],
+    related: ["primary-tumour", "metastatic-cascade", "activating-invasion-metastasis", "cancer-stage", "oligometastatic", "systemic-vs-local-therapy", "lymph-node", "disseminated-tumor-cells", "tumor-dormancy"], journals: ["cancer-metastasis-reviews", "clinical-and-experimental-metastasis"],
   }),
   t({
     id: "lesion", name: "Lesion", category: CLINIC,
@@ -514,7 +514,7 @@ export const termsBasics: TermInput[] = [
     tldr: "Anything measurable in the body or tumour that tells you something useful: what kind of cancer it is, how it is likely to behave, or which drug is likely to work.",
     summary: "Biomarkers come in three main flavours: diagnostic (what is this?), prognostic (how will it behave regardless of treatment?) and predictive (will this particular treatment work?); ER, PD-L1, HER2, EGFR mutations and MSI are predictive biomarkers with drugs attached to them, PSA and CA-125 are tumour markers used for monitoring, and Ki-67 is prognostic. Predictive biomarkers underpin precision oncology, letting trials enrol only patients likely to benefit and sparing others a useless drug, and a test validated for this purpose becomes a companion diagnostic. Many biomarkers remain imperfect, PD-L1 most famously, and validating and standardising them is one of the field's chronic bottlenecks.",
     wikipedia: W("Biomarker_(medicine)"),
-    related: ["tumour-marker", "ihc", "genomic-profiling", "companion-diagnostic-term", "overexpression", "prognosis", "ctdna", "tmb", "msi"], technologies: ["companion-diagnostic", "cgp", "histopathology-ihc"],
+    related: ["tumour-marker", "ihc", "genomic-profiling", "companion-diagnostic-term", "overexpression", "prognosis", "ctdna", "tmb", "msi"], technologies: ["companion-diagnostic", "cgp", "histopathology-ihc"], journals: ["cancer-biomarkers", "international-journal-of-biological-markers", "tumour-biology"],
   }),
   t({
     id: "tumour-marker", name: "Tumour marker", category: CLINIC,

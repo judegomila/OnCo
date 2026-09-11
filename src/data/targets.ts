@@ -28,7 +28,7 @@ export const targets: TargetInput[] = [
     biology: "Ligand-less receptor that heterodimerises with HER3/EGFR to drive PI3K and MAPK signalling. Amplification is a true oncogenic driver; low expression is merely a delivery address for ADCs.",
     whereFound: ["HER2+ breast cancer (~15-20%)", "HER2-low breast cancer (~50%)", "Gastric/GEJ (~15-20%)", "HER2-mutant NSCLC (~2-3%)", "Colorectal (~3-5%)", "Biliary tract"],
     cancers: ["breast-her2-positive", "breast-hr-positive", "gastric", "nsclc", "colorectal", "cholangiocarcinoma"],
-    pathways: ["pi3k-akt-mtor", "ras-mapk"],
+    pathways: ["pi3k-akt-mtor", "ras-mapk", "bladder-cancer-signalling", "breast-cancer-signalling", "endometrial-cancer-signalling", "gastric-cancer-signalling", "pancreatic-cancer-signalling"],
     tags: ["adc-target", "driver"],
     prevalence: [
       { cancerId: "breast-her2-positive", pct: 100, measure: "IHC 3+ or ISH-amplified (defining)", source: "https://www.nature.com/articles/s41591-025-03981-4" },
@@ -38,7 +38,7 @@ export const targets: TargetInput[] = [
       { cancerId: "nsclc", pct: "2-3", measure: "ERBB2 exon 20 mutation", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
       { cancerId: "colorectal", pct: "3-5", measure: "Amplification/IHC 3+", source: "https://en.wikipedia.org/wiki/HER2/neu", note: "RAS wild-type enriched" },
       { cancerId: "cholangiocarcinoma", pct: "10-20", measure: "IHC 3+ or amplification", source: "https://en.wikipedia.org/wiki/HER2/neu", note: "Higher in gallbladder/extrahepatic" },
-    ], drugs: ["her2-testing-assays"], companies: ["dualitybio"], links: [{ label: "Wikipedia", url: W("HER2/neu") }],
+    ], drugs: ["her2-testing-assays"], companies: ["dualitybio", "amunix-pharmaceuticals", "callio-therapeutics", "cogent-biosciences", "dantari", "enliven-therapeutics", "ibex-medical-analytics", "iksuda-therapeutics", "imagene-ai", "myricx-bio", "orum-therapeutics", "precirix"], links: [{ label: "Wikipedia", url: W("HER2/neu") }],
   },
   {
     id: "her3", kind: "target", name: "HER3", symbol: "ERBB3", targetClass: "surface-antigen", asOf, wikipedia: W("ERBB3"),
@@ -61,14 +61,14 @@ export const targets: TargetInput[] = [
     biology: "EGFR is a receptor tyrosine kinase activating RAS-MAPK and PI3K-AKT. Exon 20 insertions need dedicated drugs.",
     whereFound: ["NSCLC (mutations)", "Colorectal (wild-type, antibody target)", "Head and neck squamous", "Glioblastoma (amplification, EGFRvIII)"],
     cancers: ["nsclc", "colorectal", "head-and-neck", "glioblastoma"],
-    pathways: ["ras-mapk", "pi3k-akt-mtor"],
+    pathways: ["ras-mapk", "pi3k-akt-mtor", "breast-cancer-signalling", "choline-metabolism-in-cancer", "colorectal-cancer-signalling", "glioma-signalling", "nsclc-signalling", "prostate-cancer-signalling"],
     tags: ["driver", "kinase"],
     prevalence: [
       { cancerId: "nsclc", pct: "10-15", measure: "Activating mutation (US/Europe)", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "40-50% in East Asian adenocarcinoma" },
       { cancerId: "colorectal", pct: 100, measure: "Wild-type EGFR is the antibody target", source: "https://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor", note: "Benefit restricted to RAS/BRAF wild-type (~40%)" },
       { cancerId: "head-and-neck", pct: "80-90", measure: "Overexpression by IHC", source: "https://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor" },
       { cancerId: "glioblastoma", pct: "40-50", measure: "Amplification", source: "https://www.cbioportal.org/study/summary?id=gbm_tcga_pan_can_atlas_2018", note: "EGFRvIII in ~25-30%" },
-    ], links: [{ label: "Wikipedia", url: W("Epidermal_growth_factor_receptor") }],
+    ], links: [{ label: "Wikipedia", url: W("Epidermal_growth_factor_receptor") }], companies: ["bicara-therapeutics", "imagene-ai", "inivata", "lucence", "oric-pharmaceuticals"],
   },
   {
     id: "nectin4", kind: "target", name: "Nectin-4", symbol: "NECTIN4", targetClass: "surface-antigen", asOf, wikipedia: W("Nectin-4"),
@@ -81,7 +81,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "urothelial", pct: "80-90", measure: "IHC, moderate-strong", source: "https://en.wikipedia.org/wiki/Nectin-4" },
       { cancerId: "tnbc", pct: "50-60", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Nectin-4" },
-    ], links: [{ label: "Wikipedia", url: W("Nectin-4") }],
+    ], links: [{ label: "Wikipedia", url: W("Nectin-4") }], companies: ["emergence-therapeutics", "marengo-therapeutics"],
   },
   {
     id: "b7h3", kind: "target", name: "B7-H3", symbol: "CD276", targetClass: "surface-antigen", asOf, wikipedia: W("CD276"),
@@ -94,7 +94,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "sclc", pct: "60-70", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CD276" },
       { cancerId: "prostate", pct: "80-90", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CD276", note: "Castration-resistant disease" },
-    ], companies: ["dualitybio"], links: [{ label: "Wikipedia", url: W("CD276") }],
+    ], companies: ["dualitybio", "myricx-bio"], links: [{ label: "Wikipedia", url: W("CD276") }],
   },
   {
     id: "cldn18-2", kind: "target", name: "Claudin 18.2", symbol: "CLDN18", targetClass: "surface-antigen", asOf, wikipedia: W("CLDN18"),
@@ -107,7 +107,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "gastric", pct: "35-40", measure: "IHC 2+/3+ in >=75% of cells (zolbetuximab definition)", source: "https://en.wikipedia.org/wiki/Zolbetuximab", note: "SPOTLIGHT/GLOW screening" },
       { cancerId: "pancreatic", pct: "20-60", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CLDN18", note: "Wide range across series" },
-    ], related: ["cldn6"], links: [{ label: "Wikipedia", url: W("CLDN18") }],
+    ], related: ["cldn6"], links: [{ label: "Wikipedia", url: W("CLDN18") }], pathways: ["gastric-cancer-signalling"], companies: ["xilio-therapeutics"],
   },
   {
     id: "psma", kind: "target", name: "PSMA", symbol: "FOLH1", targetClass: "surface-antigen", asOf, wikipedia: W("Glutamate_carboxypeptidase_II"),
@@ -120,7 +120,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "prostate", pct: ">90", measure: "PSMA PET positivity, metastatic disease", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12796145/", note: "~10% PSMA-negative or low" },
       { cancerId: "rcc", pct: "60-80", measure: "Neovascular PSMA expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12796145/", note: "Clear-cell; imaging studies" },
-    ], links: [{ label: "Wikipedia", url: W("Glutamate_carboxypeptidase_II") }],
+    ], links: [{ label: "Wikipedia", url: W("Glutamate_carboxypeptidase_II") }], pathways: ["prostate-cancer-signalling"], companies: ["artbio", "convergent-therapeutics", "janux-therapeutics", "point-biopharma", "xilio-therapeutics"],
   },
   {
     id: "fap", kind: "target", name: "FAP", symbol: "FAP", targetClass: "stroma", asOf, wikipedia: W("Fibroblast_activation_protein,_alpha"),
@@ -135,7 +135,7 @@ export const targets: TargetInput[] = [
       { cancerId: "gastric", pct: ">85", measure: "Stromal FAP", source: "https://en.wikipedia.org/wiki/Fibroblast_activation_protein,_alpha" },
       { cancerId: "tnbc", pct: ">80", measure: "Stromal FAP", source: "https://en.wikipedia.org/wiki/Fibroblast_activation_protein,_alpha" },
       { cancerId: "sarcoma", pct: "60-90", measure: "Tumour and stromal FAP", source: "https://en.wikipedia.org/wiki/Fibroblast_activation_protein,_alpha" },
-    ], links: [{ label: "Wikipedia", url: W("Fibroblast_activation_protein,_alpha") }],
+    ], links: [{ label: "Wikipedia", url: W("Fibroblast_activation_protein,_alpha") }], companies: ["ratio-therapeutics"],
   },
   {
     id: "sstr2", kind: "target", name: "Somatostatin receptor 2", symbol: "SSTR2", targetClass: "surface-antigen", asOf, wikipedia: W("Somatostatin_receptor_2"),
@@ -148,7 +148,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "neuroendocrine", pct: "80-90", measure: "SSTR PET positivity (well-differentiated)", source: "https://en.wikipedia.org/wiki/Somatostatin_receptor_2", note: "Lower in grade 3" },
       { cancerId: "sclc", pct: "30-50", measure: "IHC/imaging", source: "https://en.wikipedia.org/wiki/Somatostatin_receptor_2" },
-    ], links: [{ label: "Wikipedia", url: W("Somatostatin_receptor_2") }],
+    ], links: [{ label: "Wikipedia", url: W("Somatostatin_receptor_2") }], companies: ["point-biopharma"],
   },
   {
     id: "dll3", kind: "target", name: "DLL3", symbol: "DLL3", targetClass: "surface-antigen", asOf, wikipedia: W("DLL3"),
@@ -161,7 +161,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "sclc", pct: "80-85", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/DLL3" },
       { cancerId: "prostate", pct: "70-80", measure: "Neuroendocrine prostate cancer only", source: "https://en.wikipedia.org/wiki/DLL3", note: "Rare in adenocarcinoma" },
-    ], links: [{ label: "Wikipedia", url: W("DLL3") }],
+    ], links: [{ label: "Wikipedia", url: W("DLL3") }], companies: ["abdera-therapeutics", "harpoon-therapeutics", "ideaya-biosciences"],
   },
   {
     id: "folr1", drugs: ["pafolacianine"], kind: "target", name: "Folate receptor alpha", symbol: "FOLR1", targetClass: "surface-antigen", asOf, wikipedia: W("Folate_receptor_1"),
@@ -175,7 +175,7 @@ export const targets: TargetInput[] = [
       { cancerId: "ovarian", pct: "35-40", measure: "FRα-high (PS2+ in >=75% of cells)", source: "https://en.wikipedia.org/wiki/Folate_receptor_1", note: "MIRASOL eligibility; ~80% any expression" },
       { cancerId: "endometrial", pct: "60-80", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Folate_receptor_1" },
       { cancerId: "nsclc", pct: "70-80", measure: "Adenocarcinoma, any expression", source: "https://en.wikipedia.org/wiki/Folate_receptor_1" },
-    ], links: [{ label: "Wikipedia", url: W("Folate_receptor_1") }],
+    ], links: [{ label: "Wikipedia", url: W("Folate_receptor_1") }], companies: ["profoundbio"],
   },
   {
     id: "tissue-factor", kind: "target", name: "Tissue factor", symbol: "F3", targetClass: "surface-antigen", asOf, wikipedia: W("Tissue_factor"),
@@ -188,7 +188,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "cervical", pct: "90-95", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Tissue_factor", note: "innovaTV did not select on TF" },
       { cancerId: "pancreatic", pct: "50-80", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Tissue_factor" },
-    ], links: [{ label: "Wikipedia", url: W("Tissue_factor") }],
+    ], links: [{ label: "Wikipedia", url: W("Tissue_factor") }], companies: ["adcendo"],
   },
   {
     id: "cdh6", kind: "target", name: "CDH6", symbol: "CDH6", targetClass: "surface-antigen", asOf, wikipedia: W("CDH6"),
@@ -282,7 +282,7 @@ export const targets: TargetInput[] = [
       { cancerId: "all-leukemia", pct: ">95", measure: "B-ALL surface expression", source: "https://en.wikipedia.org/wiki/CD19" },
       { cancerId: "dlbcl", pct: ">95", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/CD19", note: "Loss in ~30% of CAR-T relapses" },
       { cancerId: "cll", pct: ">95", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/CD19" },
-    ], links: [{ label: "Wikipedia", url: W("CD19") }],
+    ], links: [{ label: "Wikipedia", url: W("CD19") }], companies: ["capstan-therapeutics", "century-therapeutics", "cullinan-therapeutics", "iksuda-therapeutics", "imugene", "janux-therapeutics", "kelonia-therapeutics", "kernal-biologics", "lyell-immunopharma", "poseida-therapeutics"],
   },
   {
     id: "cd20", kind: "target", name: "CD20", symbol: "MS4A1", targetClass: "surface-antigen", asOf, wikipedia: W("CD20"),
@@ -295,7 +295,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "dlbcl", pct: ">95", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/CD20" },
       { cancerId: "cll", pct: ">90", measure: "Dim surface expression", source: "https://en.wikipedia.org/wiki/CD20" },
-    ], drugs: ["ibritumomab-tiuxetan", "ofatumumab"], links: [{ label: "Wikipedia", url: W("CD20") }],
+    ], drugs: ["ibritumomab-tiuxetan", "ofatumumab"], links: [{ label: "Wikipedia", url: W("CD20") }], companies: ["leah-labs", "lyell-immunopharma", "poseida-therapeutics"],
   },
   {
     id: "bcma", kind: "target", name: "BCMA", symbol: "TNFRSF17", targetClass: "surface-antigen", asOf, wikipedia: W("B-cell_maturation_antigen"),
@@ -307,7 +307,7 @@ export const targets: TargetInput[] = [
     tags: ["car-t-target", "t-cell-engager-target"],
     prevalence: [
       { cancerId: "multiple-myeloma", pct: ">95", measure: "Plasma-cell surface expression", source: "https://en.wikipedia.org/wiki/B-cell_maturation_antigen" },
-    ], links: [{ label: "Wikipedia", url: W("B-cell_maturation_antigen") }],
+    ], links: [{ label: "Wikipedia", url: W("B-cell_maturation_antigen") }], companies: ["arcellx", "cullinan-therapeutics", "kelonia-therapeutics", "poseida-therapeutics"],
   },
   {
     id: "gprc5d", kind: "target", name: "GPRC5D", symbol: "GPRC5D", targetClass: "surface-antigen", asOf, wikipedia: W("GPRC5D"),
@@ -328,7 +328,7 @@ export const targets: TargetInput[] = [
     biology: "Invariant TCR co-receptor; engagement triggers activation and cytokine release independent of MHC.",
     whereFound: ["All T cells (effector arm, not a tumour target)"],
     tags: ["t-cell-engager-target"],
-    notes: ["Prevalence not applicable: CD3 is the T-cell effector arm of bispecific engagers, not a tumour antigen, so no expression rate by cancer is recorded. Surface CD3 is present on most mature T-cell lymphomas, but that is not what the drugs select for."], drugs: ["catumaxomab"], links: [{ label: "Wikipedia", url: W("CD3_(immunology)") }],
+    notes: ["Prevalence not applicable: CD3 is the T-cell effector arm of bispecific engagers, not a tumour antigen, so no expression rate by cancer is recorded. Surface CD3 is present on most mature T-cell lymphomas, but that is not what the drugs select for."], drugs: ["catumaxomab"], links: [{ label: "Wikipedia", url: W("CD3_(immunology)") }], companies: ["asher-bio", "cullinan-therapeutics", "cytomx-therapeutics", "harpoon-therapeutics", "janux-therapeutics"],
   },
   {
     id: "cd38", kind: "target", name: "CD38", symbol: "CD38", targetClass: "surface-antigen", asOf, wikipedia: W("CD38"),
@@ -353,7 +353,7 @@ export const targets: TargetInput[] = [
     tags: ["adc-target"],
     prevalence: [
       { cancerId: "aml", pct: "85-90", measure: "Blast surface expression", source: "https://en.wikipedia.org/wiki/CD33" },
-    ], links: [{ label: "Wikipedia", url: W("CD33") }],
+    ], links: [{ label: "Wikipedia", url: W("CD33") }], companies: ["actinium-pharmaceuticals", "orum-therapeutics"],
   },
   {
     id: "cd123", kind: "target", name: "CD123", symbol: "IL3RA", targetClass: "surface-antigen", asOf, wikipedia: W("Interleukin-3_receptor"),
@@ -365,7 +365,7 @@ export const targets: TargetInput[] = [
     tags: ["adc-target"],
     prevalence: [
       { cancerId: "aml", pct: "70-80", measure: "Blasts and leukaemic stem cells", source: "https://en.wikipedia.org/wiki/Interleukin-3_receptor", note: "Universal in BPDCN" },
-    ], links: [{ label: "Wikipedia", url: W("Interleukin-3_receptor") }],
+    ], links: [{ label: "Wikipedia", url: W("Interleukin-3_receptor") }], companies: ["orum-therapeutics"],
   },
   {
     id: "mage-a4", kind: "target", name: "MAGE-A4", symbol: "MAGEA4", targetClass: "other", asOf, wikipedia: W("MAGEA4"),
@@ -406,7 +406,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "melanoma", pct: "30-40", measure: "Objective response to PD-1 monotherapy (proxy)", source: "https://en.wikipedia.org/wiki/Programmed_cell_death_protein_1", note: "Not an expression prevalence" },
       { cancerId: "nsclc", pct: "20-45", measure: "Response by PD-L1 stratum (proxy)", source: "https://en.wikipedia.org/wiki/Programmed_cell_death_protein_1" },
-    ], links: [{ label: "Wikipedia", url: W("Programmed_cell_death_protein_1") }],
+    ], links: [{ label: "Wikipedia", url: W("Programmed_cell_death_protein_1") }], companies: ["cofactor-genomics", "compass-therapeutics", "insight-molecular-diagnostics", "onc-ai", "oncohost", "ose-immunotherapeutics", "xilio-therapeutics"],
   },
   {
     id: "pdl1", kind: "target", name: "PD-L1", symbol: "CD274", targetClass: "checkpoint", asOf, wikipedia: W("PD-L1"),
@@ -414,7 +414,7 @@ export const targets: TargetInput[] = [
     summary: "PD-L1 (CD274) is the tumour-side ligand of the PD-1 brake, expressed on tumour and immune cells and induced by interferon-gamma, so its presence often marks an immune response already under way. Atezolizumab, durvalumab and avelumab block it directly. PD-L1 immunohistochemistry (22C3 CPS, SP142, 28-8) is the companion diagnostic for many indications, including CPS 10 or above for pembrolizumab in triple-negative breast cancer, with prevalence from 25 to 30 percent of NSCLC at TPS 50 percent or more to 80 to 85 percent of head and neck cancers at CPS 1 or more. Differing assays and cut-offs across drugs remain a practical source of confusion. It is now also an ADC and bispecific target (PD-L1×B7-H3 ADC BH4601, PD-L1×VEGF bispecifics). PD-L1 is both the target of immunotherapy and the test that decides who receives it.",
     biology: "Expressed on tumour and immune cells; induced by interferon-gamma.",
     whereFound: ["Tumour cells and immune cells across most cancers"],
-    pathways: ["pd1-checkpoint"],
+    pathways: ["pd1-checkpoint", "hepatocellular-carcinoma-signalling"],
     cancers: ["tnbc", "nsclc", "urothelial", "sclc"],
     tags: ["checkpoint", "biomarker"],
     prevalence: [
@@ -423,7 +423,7 @@ export const targets: TargetInput[] = [
       { cancerId: "urothelial", pct: "25-30", measure: "CPS >=10", source: "https://en.wikipedia.org/wiki/PD-L1" },
       { cancerId: "sclc", pct: "15-20", measure: "Any tumour-cell expression", source: "https://en.wikipedia.org/wiki/PD-L1" },
       { cancerId: "head-and-neck", pct: "80-85", measure: "CPS >=1", source: "https://en.wikipedia.org/wiki/PD-L1", note: "KEYNOTE-048" },
-    ], drugs: ["ventana-pd-l1-sp142"], links: [{ label: "Wikipedia", url: W("PD-L1") }],
+    ], drugs: ["ventana-pd-l1-sp142"], links: [{ label: "Wikipedia", url: W("PD-L1") }], companies: ["compass-therapeutics", "insight-molecular-diagnostics", "io-biotech", "onc-ai", "oncohost"],
   },
   {
     id: "ctla4", kind: "target", name: "CTLA-4", symbol: "CTLA4", targetClass: "checkpoint", asOf, wikipedia: W("CTLA-4"),
@@ -436,7 +436,7 @@ export const targets: TargetInput[] = [
     tags: ["checkpoint"],
     prevalence: [
       { cancerId: "melanoma", pct: "n/a", measure: "Immune-cell target; no tumour prevalence", source: "https://en.wikipedia.org/wiki/CTLA-4" },
-    ], links: [{ label: "Wikipedia", url: W("CTLA-4") }],
+    ], links: [{ label: "Wikipedia", url: W("CTLA-4") }], companies: ["xilio-therapeutics"],
   },
   {
     id: "lag3", kind: "target", name: "LAG-3", symbol: "LAG3", targetClass: "checkpoint", asOf, wikipedia: W("LAG3"),
@@ -472,7 +472,7 @@ export const targets: TargetInput[] = [
     summary: "KRAS mutations drive ~90% of pancreatic, ~40% of colorectal, and ~30% of lung adenocarcinomas. Sotorasib and adagrasib (G12C) were first; G12D inhibitors (MRTX1133, zoldonrasib) and pan-RAS(ON) inhibitors (daraxonrasib, RMC-6236, in phase 3 in pancreatic cancer) are the next wave. Combination with EGFR antibodies is needed in colorectal cancer.",
     biology: "Small GTPase switch; oncogenic mutations lock it in the GTP-bound ON state. Adaptive feedback and secondary mutations drive resistance.",
     whereFound: ["Pancreatic (~90%)", "Colorectal (~40-45%)", "Lung adenocarcinoma (~30%)", "Endometrial, ovarian (subsets)"],
-    pathways: ["ras-mapk", "pi3k-akt-mtor"],
+    pathways: ["ras-mapk", "pi3k-akt-mtor", "aml-signalling", "chemical-carcinogenesis-receptor-activation", "choline-metabolism-in-cancer", "cml-signalling", "colorectal-cancer-signalling", "endometrial-cancer-signalling", "gastric-cancer-signalling", "hepatocellular-carcinoma-signalling", "micrornas-in-cancer", "nsclc-signalling", "pancreatic-cancer-signalling", "renal-cell-carcinoma-signalling", "thyroid-cancer-signalling"],
     cancers: ["pancreatic", "colorectal", "nsclc"],
     tags: ["driver"],
     prevalence: [
@@ -481,7 +481,7 @@ export const targets: TargetInput[] = [
       { cancerId: "nsclc", pct: "25-30", measure: "Adenocarcinoma, any KRAS mutation", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "G12C ~13% of adenocarcinoma" },
       { cancerId: "endometrial", pct: "15-20", measure: "Any KRAS mutation", source: "https://www.cbioportal.org/study/summary?id=ucec_tcga_pan_can_atlas_2018" },
       { cancerId: "ovarian", pct: "10-15", measure: "Low-grade serous and mucinous", source: "https://www.cbioportal.org/study/summary?id=ov_tcga_pan_can_atlas_2018" },
-    ], drugs: ["guardant360-cdx", "therascreen-cdx", "tempus-xt-cdx", "resolution-ctdx-first"], links: [{ label: "Wikipedia", url: W("KRAS") }],
+    ], drugs: ["guardant360-cdx", "therascreen-cdx", "tempus-xt-cdx", "resolution-ctdx-first"], links: [{ label: "Wikipedia", url: W("KRAS") }], companies: ["adventris-pharmaceuticals", "bridgebio-oncology-therapeutics", "cogent-biosciences", "erasca", "imagene-ai", "inivata", "kumquat-biosciences", "lucence", "treeline-biosciences"],
   },
   {
     id: "braf", kind: "target", name: "BRAF", symbol: "BRAF", targetClass: "kinase", asOf, wikipedia: W("BRAF_(gene)"),
@@ -489,7 +489,7 @@ export const targets: TargetInput[] = [
     summary: "BRAF V600E/K mutations occur in ~50% of melanoma, ~10% of colorectal, ~2% of NSCLC, most papillary thyroid cancers, and hairy-cell leukaemia. BRAF+MEK inhibitor doublets (dabrafenib/trametinib, encorafenib/binimetinib) are standard; encorafenib+cetuximab (+chemotherapy, BREAKWATER) is first-line in BRAF V600E colorectal cancer since 2025-2026. Tumour-agnostic approval of dabrafenib/trametinib exists.",
     biology: "Serine/threonine kinase in the MAPK cascade; class I (V600) mutants are monomer-active and inhibitor-sensitive, class II/III are not.",
     whereFound: ["Melanoma", "Colorectal", "Thyroid", "NSCLC", "Glioma (paediatric)"],
-    pathways: ["ras-mapk"],
+    pathways: ["ras-mapk", "colorectal-cancer-signalling", "glioma-signalling", "melanoma-signalling", "pancreatic-cancer-signalling", "thyroid-cancer-signalling"],
     cancers: ["melanoma", "colorectal", "thyroid", "nsclc"],
     tags: ["driver", "kinase"],
     prevalence: [
@@ -497,7 +497,7 @@ export const targets: TargetInput[] = [
       { cancerId: "colorectal", pct: "8-12", measure: "V600E mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018" },
       { cancerId: "thyroid", pct: "40-60", measure: "Papillary V600E", source: "https://www.cbioportal.org/study/summary?id=thca_tcga_pan_can_atlas_2018", note: "Near-universal in some PTC variants" },
       { cancerId: "nsclc", pct: "2-4", measure: "V600E and non-V600", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
-    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx"], links: [{ label: "Wikipedia", url: W("BRAF_(gene)") }],
+    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx"], links: [{ label: "Wikipedia", url: W("BRAF_(gene)") }], companies: ["imagene-ai", "nested-therapeutics"],
   },
   {
     id: "alk", drugs: ["ceritinib", "brigatinib", "ensartinib", "guardant360-cdx"], kind: "target", name: "ALK", symbol: "ALK", targetClass: "kinase", asOf, wikipedia: W("Anaplastic_lymphoma_kinase"),
@@ -505,13 +505,13 @@ export const targets: TargetInput[] = [
     summary: "ALK rearrangements occur in ~4-5% of NSCLC, typically in younger never-smokers. Lorlatinib achieved 5-year PFS of ~60% in CROWN, the longest of any targeted therapy in metastatic NSCLC. Alectinib is approved in the adjuvant setting (ALINA). Fourth-generation inhibitors (neladalkib) address compound resistance mutations.",
     biology: "ALK is a receptor tyrosine kinase; the EML4-ALK fusion is most common. It is also altered in anaplastic large-cell lymphoma and neuroblastoma.",
     whereFound: ["NSCLC (~5%)", "Anaplastic large-cell lymphoma", "Neuroblastoma"],
-    pathways: ["ras-mapk", "pi3k-akt-mtor"],
+    pathways: ["ras-mapk", "pi3k-akt-mtor", "nsclc-signalling"],
     cancers: ["nsclc", "neuroblastoma"],
     tags: ["driver", "kinase"],
     prevalence: [
       { cancerId: "nsclc", pct: "3-5", measure: "Rearrangement", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "Younger never-smokers" },
       { cancerId: "neuroblastoma", pct: "8-14", measure: "Activating mutation/amplification", source: "https://en.wikipedia.org/wiki/Anaplastic_lymphoma_kinase", note: "Higher at relapse" },
-    ], links: [{ label: "Wikipedia", url: W("Anaplastic_lymphoma_kinase") }],
+    ], links: [{ label: "Wikipedia", url: W("Anaplastic_lymphoma_kinase") }], companies: ["imagene-ai", "inivata", "lucence", "triana-biomedicines"],
   },
   {
     id: "met", kind: "target", name: "MET", symbol: "MET", targetClass: "kinase", asOf, wikipedia: W("C-Met"),
@@ -519,14 +519,14 @@ export const targets: TargetInput[] = [
     summary: "MET exon 14 skipping (~3% NSCLC) responds to capmatinib and tepotinib. MET amplification drives resistance to EGFR inhibitors; amivantamab (EGFR×MET) and MET ADCs (telisotuzumab vedotin, Emrelis, approved 2025 in c-Met overexpressing NSCLC) address it. c-MET×EGFR bispecific ADCs (tilatamig samrotecan) lead the bsADC field.",
     biology: "HGF receptor; drives invasion and survival.",
     whereFound: ["NSCLC", "Gastric", "Papillary RCC", "HCC"],
-    pathways: ["ras-mapk", "pi3k-akt-mtor"],
+    pathways: ["ras-mapk", "pi3k-akt-mtor", "hepatocellular-carcinoma-signalling", "nsclc-signalling", "renal-cell-carcinoma-signalling"],
     cancers: ["nsclc", "gastric", "rcc"],
     tags: ["driver", "kinase", "adc-target"],
     prevalence: [
       { cancerId: "nsclc", pct: "3-4", measure: "Exon 14 skipping", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018", note: "Amplification in 5-20% post-EGFR TKI; c-MET overexpression ~25% of non-squamous" },
       { cancerId: "gastric", pct: "2-5", measure: "Amplification", source: "https://www.cbioportal.org/study/summary?id=stad_tcga_pan_can_atlas_2018" },
       { cancerId: "rcc", pct: "10-15", measure: "Papillary RCC type 1 alterations", source: "https://www.cbioportal.org/study/summary?id=kirp_tcga_pan_can_atlas_2018" },
-    ], drugs: ["guardant360-cdx"], links: [{ label: "Wikipedia", url: W("C-Met") }],
+    ], drugs: ["guardant360-cdx"], links: [{ label: "Wikipedia", url: W("C-Met") }], companies: ["imagene-ai", "lucence", "mythic-therapeutics"],
   },
   {
     id: "ret", kind: "target", name: "RET", symbol: "RET", targetClass: "kinase", asOf, wikipedia: W("RET_proto-oncogene"),
@@ -534,13 +534,13 @@ export const targets: TargetInput[] = [
     summary: "RET is the receptor tyrosine kinase for GDNF-family ligands, and cancers can switch it on either through gene fusions or point mutations. RET fusions occur in about 1 to 2 percent of NSCLC and in roughly 10 to 20 percent of papillary thyroid cancers, while RET mutations drive around 60 to 70 percent of medullary thyroid cancers. The selective inhibitors selpercatinib and pralsetinib produce responses in all of these settings, and selpercatinib holds a tumour-agnostic approval for RET-fusion solid tumours, with expanded labels in 2026. Selective inhibitors largely replaced older multikinase drugs such as vandetanib and cabozantinib because they are better tolerated. Acquired resistance through solvent-front mutations and the role of next-generation inhibitors are the open questions. For a newcomer: RET is a kinase treatable with one selective pill wherever the tumour is.",
     biology: "RET is the receptor tyrosine kinase for GDNF-family ligands.",
     whereFound: ["Medullary thyroid cancer", "Papillary thyroid cancer", "NSCLC"],
-    pathways: ["ras-mapk"],
+    pathways: ["ras-mapk", "nsclc-signalling", "thyroid-cancer-signalling"],
     cancers: ["thyroid", "nsclc"],
     tags: ["driver", "kinase"],
     prevalence: [
       { cancerId: "thyroid", pct: "60-70", measure: "RET mutation in medullary thyroid cancer", source: "https://en.wikipedia.org/wiki/RET_proto-oncogene", note: "~10-20% RET fusions in papillary" },
       { cancerId: "nsclc", pct: "1-2", measure: "Fusion", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
-    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test"], links: [{ label: "Wikipedia", url: W("RET_proto-oncogene") }],
+    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test"], links: [{ label: "Wikipedia", url: W("RET_proto-oncogene") }], companies: ["imagene-ai", "lucence"],
   },
   {
     id: "ntrk", kind: "target", name: "NTRK", symbol: "NTRK1/2/3", targetClass: "kinase", asOf, wikipedia: W("Trk_receptor"),
@@ -548,14 +548,14 @@ export const targets: TargetInput[] = [
     summary: "NTRK1, NTRK2 and NTRK3 encode the neurotrophin receptor kinases TrkA, TrkB and TrkC, and gene fusions lock them permanently on. Fusions are rare, under 1 percent of common adult cancers, yet near-universal in infantile fibrosarcoma (ETV6-NTRK3) and secretory carcinoma of breast and salivary gland, with 2 to 3 percent of thyroid cancers and rare colorectal cases enriched in MSI-high disease. Larotrectinib and entrectinib were the first kinase inhibitors approved on a tumour-agnostic basis (2018 to 2019), meaning any tumour with the fusion qualifies. Repotrectinib addresses acquired resistance mutations in the kinase domain. The open challenge is detection, because fusions this rare are only found when RNA-based or broad DNA panels are used routinely. The plain version: NTRK was the first target where a drug was approved for any cancer carrying it.",
     biology: "NTRK1/2/3 encode the neurotrophin receptor kinases TrkA, TrkB and TrkC.",
     whereFound: ["Infantile fibrosarcoma", "Secretory breast/salivary carcinoma", "Thyroid, colorectal, lung (rare)"],
-    pathways: ["ras-mapk"],
+    pathways: ["ras-mapk", "thyroid-cancer-signalling"],
     cancers: ["sarcoma", "thyroid", "colorectal"],
     tags: ["driver", "tumour-agnostic"],
     prevalence: [
       { cancerId: "sarcoma", pct: ">90", measure: "Infantile fibrosarcoma (ETV6-NTRK3)", source: "https://en.wikipedia.org/wiki/Trk_receptor", note: "<1% in adult common cancers" },
       { cancerId: "thyroid", pct: "2-3", measure: "Fusion", source: "https://en.wikipedia.org/wiki/Trk_receptor" },
       { cancerId: "colorectal", pct: "<1", measure: "Fusion", source: "https://en.wikipedia.org/wiki/Trk_receptor", note: "Enriched in MSI-high" },
-    ], links: [{ label: "Wikipedia", url: W("Trk_receptor") }],
+    ], links: [{ label: "Wikipedia", url: W("Trk_receptor") }], companies: ["lucence"],
   },
   {
     id: "fgfr2", kind: "target", name: "FGFR2", symbol: "FGFR2", targetClass: "kinase", asOf, wikipedia: W("Fibroblast_growth_factor_receptor_2"),
@@ -563,14 +563,14 @@ export const targets: TargetInput[] = [
     summary: "FGFR2 is a receptor tyrosine kinase that cancers activate in two different ways. Fusions, found in roughly 10 to 15 percent of intrahepatic cholangiocarcinoma, respond to the selective inhibitors pemigatinib and futibatinib; FGFR2b overexpression or amplification, found in about 3 to 8 percent of gastric cancers, is targeted by the antibody bemarituzumab (FORTITUDE-101 positive on overall survival in 2025) and by FGFR2b antibody-drug conjugates. FGFR3 alterations, present in 15 to 20 percent of urothelial cancers, are the related target of erdafitinib. Acquired kinase-domain mutations limit the durability of FGFR2 inhibitors, and hyperphosphataemia and eye toxicity are class effects. Endometrial cancer is a further setting under study. For a newcomer, FGFR2 is a growth receptor fused in bile-duct cancer and overproduced in gastric cancer, treatable in both.",
     biology: "Receptor tyrosine kinase; FGFR3 alterations are the urothelial counterpart (erdafitinib).",
     whereFound: ["Cholangiocarcinoma", "Gastric", "Endometrial"],
-    pathways: ["ras-mapk", "pi3k-akt-mtor", "fgfr-signalling"],
+    pathways: ["ras-mapk", "pi3k-akt-mtor", "fgfr-signalling", "gastric-cancer-signalling"],
     cancers: ["cholangiocarcinoma", "gastric", "urothelial"],
     tags: ["driver", "kinase"],
     prevalence: [
       { cancerId: "cholangiocarcinoma", pct: "10-15", measure: "Fusion (intrahepatic)", source: "https://www.cbioportal.org/study/summary?id=chol_tcga_pan_can_atlas_2018" },
       { cancerId: "gastric", pct: "3-8", measure: "FGFR2b overexpression/amplification", source: "https://www.cbioportal.org/study/summary?id=stad_tcga_pan_can_atlas_2018", note: "FORTITUDE-101 selected IHC 2+/3+" },
       { cancerId: "urothelial", pct: "15-20", measure: "FGFR3 alterations (related target)", source: "https://www.cbioportal.org/study/summary?id=blca_tcga_pan_can_atlas_2018", note: "FGFR3 mutations/fusions; erdafitinib" },
-    ], drugs: ["therascreen-cdx"], links: [{ label: "Wikipedia", url: W("Fibroblast_growth_factor_receptor_2") }],
+    ], drugs: ["therascreen-cdx"], links: [{ label: "Wikipedia", url: W("Fibroblast_growth_factor_receptor_2") }], companies: ["cogent-biosciences", "relay-therapeutics", "tyra-biosciences"],
   },
   {
     id: "kit", kind: "target", name: "KIT", symbol: "KIT", targetClass: "kinase", asOf, wikipedia: W("CD117"),
@@ -578,13 +578,13 @@ export const targets: TargetInput[] = [
     summary: "KIT is the receptor tyrosine kinase for stem-cell factor, and activating mutations in it drive roughly 75 to 80 percent of gastrointestinal stromal tumours (GIST), with PDGFRA mutations accounting for about 10 percent more. Imatinib turned a sarcoma with a median survival of about a year into a chronic disease, and sunitinib, regorafenib, ripretinib and avapritinib (for PDGFRA D842V) form the sequence used as resistance mutations accumulate. KIT is also a target in systemic mastocytosis and is mutated in 2 to 3 percent of melanomas, enriched in acral and mucosal subtypes. Resistance arises through secondary KIT mutations that differ between patients, so later-line choice increasingly depends on the specific mutation. The plain version: KIT mutation is the driver behind most GIST, and blocking it is one of the clearest success stories of targeted therapy.",
     biology: "Stem-cell factor receptor tyrosine kinase.",
     whereFound: ["GIST", "Mastocytosis", "Melanoma (mucosal/acral, rare)"],
-    pathways: ["ras-mapk", "pi3k-akt-mtor"],
+    pathways: ["ras-mapk", "pi3k-akt-mtor", "aml-signalling"],
     cancers: ["sarcoma", "melanoma"],
     tags: ["driver", "kinase"],
     prevalence: [
       { cancerId: "sarcoma", pct: "75-80", measure: "GIST KIT mutation", source: "https://en.wikipedia.org/wiki/CD117", note: "PDGFRA in ~10%" },
       { cancerId: "melanoma", pct: "2-3", measure: "KIT mutation (acral/mucosal enriched)", source: "https://www.cbioportal.org/study/summary?id=skcm_tcga_pan_can_atlas_2018" },
-    ], links: [{ label: "Wikipedia", url: W("CD117") }],
+    ], links: [{ label: "Wikipedia", url: W("CD117") }], companies: ["blueprint-medicines", "cogent-biosciences"],
   },
   {
     id: "flt3", kind: "target", name: "FLT3", symbol: "FLT3", targetClass: "kinase", asOf, wikipedia: W("CD135"),
@@ -596,7 +596,7 @@ export const targets: TargetInput[] = [
     tags: ["driver", "kinase"],
     prevalence: [
       { cancerId: "aml", pct: "25-30", measure: "FLT3-ITD or TKD", source: "https://www.cbioportal.org/study/summary?id=laml_tcga_pan_can_atlas_2018" },
-    ], links: [{ label: "Wikipedia", url: W("CD135") }],
+    ], links: [{ label: "Wikipedia", url: W("CD135") }], pathways: ["aml-signalling"], companies: ["cullinan-therapeutics"],
   },
   {
     id: "pik3ca", kind: "target", name: "PIK3CA / PI3K-alpha", symbol: "PIK3CA", targetClass: "kinase", asOf, wikipedia: W("P110α"),
@@ -604,7 +604,7 @@ export const targets: TargetInput[] = [
     summary: "PIK3CA mutations occur in ~40% of HR+ breast cancer. Alpelisib (SOLAR-1), inavolisib (INAVO120, mutant-selective, with palbociclib and fulvestrant), and capivasertib (AKT) are approved. Gedatolisib (pan-PI3K/mTOR, Revtorpyk) was approved in 2026. Mutant-selective and allosteric inhibitors (RLY-2608) aim to avoid hyperglycaemia.",
     biology: "PIK3CA encodes the catalytic subunit of PI3K; H1047R and E545K are the hotspots.",
     whereFound: ["HR+ breast cancer (~40%)", "Endometrial", "Head and neck", "Colorectal"],
-    pathways: ["pi3k-akt-mtor"],
+    pathways: ["pi3k-akt-mtor", "breast-cancer-signalling", "chemical-carcinogenesis-receptor-activation", "colorectal-cancer-signalling", "endometrial-cancer-signalling", "gastric-cancer-signalling", "glioma-signalling", "pancreatic-cancer-signalling"],
     cancers: ["breast-hr-positive", "endometrial", "head-and-neck"],
     tags: ["driver", "kinase"],
     prevalence: [
@@ -612,7 +612,7 @@ export const targets: TargetInput[] = [
       { cancerId: "endometrial", pct: "45-55", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=ucec_tcga_pan_can_atlas_2018" },
       { cancerId: "head-and-neck", pct: "15-20", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=hnsc_tcga_pan_can_atlas_2018", note: "HPV+ enriched" },
       { cancerId: "colorectal", pct: "15-20", measure: "Activating mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018" },
-    ], drugs: ["therascreen-cdx"], links: [{ label: "Wikipedia", url: W("P110α") }],
+    ], drugs: ["therascreen-cdx"], links: [{ label: "Wikipedia", url: W("P110α") }], companies: ["bridgebio-oncology-therapeutics", "cogent-biosciences", "relay-therapeutics", "scorpion-therapeutics"],
   },
   {
     id: "akt", kind: "target", name: "AKT", symbol: "AKT1/2/3", targetClass: "kinase", asOf, wikipedia: W("Protein_kinase_B"),
@@ -620,7 +620,7 @@ export const targets: TargetInput[] = [
     summary: "AKT1, AKT2 and AKT3 are serine/threonine kinases at the centre of the PI3K survival pathway, and the AKT1 E17K hotspot is an activating mutation found in about 3 to 5 percent of hormone-receptor-positive breast cancers. Capivasertib (Truqap), a pan-AKT inhibitor, is approved with fulvestrant in HR-positive breast cancer carrying PIK3CA, AKT1 or PTEN alterations (CAPItello-291), a group that makes up around half of such tumours, and from 2026 with abiraterone in PTEN-deficient metastatic prostate cancer (CAPItello-281). PTEN loss activates the pathway in roughly 15 to 20 percent of prostate cancers and around 40 percent of metastatic castration-resistant disease. Hyperglycaemia, diarrhoea and rash are the class toxicities, and whether unselected patients also benefit is contested. In plain terms, AKT is the survival kinase downstream of PI3K, now blocked in breast and prostate cancer.",
     biology: "Serine/threonine kinase; AKT1 E17K is an activating hotspot.",
     whereFound: ["Breast", "Prostate (PTEN loss)", "Endometrial"],
-    pathways: ["pi3k-akt-mtor"],
+    pathways: ["pi3k-akt-mtor", "aml-signalling", "cml-signalling", "melanoma-signalling", "nsclc-signalling", "prostate-cancer-signalling", "sclc-signalling"],
     cancers: ["breast-hr-positive", "prostate"],
     tags: ["kinase"],
     prevalence: [
@@ -634,7 +634,7 @@ export const targets: TargetInput[] = [
     summary: "CDK4 and CDK6 phosphorylate RB to release E2F and drive the G1 to S transition, so inhibiting them halts cell-cycle entry in tumours that still have functional RB. Palbociclib, ribociclib and abemaciclib with endocrine therapy are first-line standard in HR-positive HER2-negative advanced breast cancer, roughly doubling the time the disease stays controlled, and ribociclib (NATALEE) and abemaciclib (monarchE) are approved as adjuvant therapy. Cyclin D1 (CCND1) amplification occurs in 15 to 20 percent of HR-positive breast cancers but the drugs work regardless of it, and CDK4 amplification is near-universal in well- and dedifferentiated liposarcoma. Resistance through RB loss, CDK2 activation and cyclin E amplification is common, and CDK4-selective and CDK2 inhibitors are being developed to address it. CDK4/6 is the engine of cell division that hormone therapy alone could not stop.",
     biology: "Phosphorylate RB to release E2F and drive G1-S transition; cyclin D1 amplification and RB loss modulate sensitivity.",
     whereFound: ["HR+ breast cancer", "Liposarcoma (CDK4 amplification)", "Mantle cell lymphoma"],
-    pathways: ["p53-cell-cycle", "er-signaling"],
+    pathways: ["p53-cell-cycle", "er-signaling", "bladder-cancer-signalling", "breast-cancer-signalling", "glioma-signalling", "melanoma-signalling", "nsclc-signalling", "pancreatic-cancer-signalling", "sclc-signalling"],
     cancers: ["breast-hr-positive", "sarcoma"],
     tags: ["kinase"],
     prevalence: [
@@ -670,7 +670,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "nsclc", pct: "5-10", measure: "ATM loss/mutation (sensitising context)", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
       { cancerId: "ovarian", pct: "n/a", measure: "Replication-stress context; no expression threshold", source: "https://en.wikipedia.org/wiki/Ataxia_telangiectasia_and_Rad3_related" },
-    ], links: [{ label: "Wikipedia", url: W("Ataxia_telangiectasia_and_Rad3_related") }],
+    ], links: [{ label: "Wikipedia", url: W("Ataxia_telangiectasia_and_Rad3_related") }], companies: ["callio-therapeutics", "repare-therapeutics"],
   },
   {
     id: "wee1", kind: "target", name: "WEE1", symbol: "WEE1", targetClass: "kinase", asOf, wikipedia: W("Wee1-like_protein_kinase"),
@@ -684,7 +684,7 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "ovarian", pct: "15-20", measure: "CCNE1 amplification (dependency context)", source: "https://www.cbioportal.org/study/summary?id=ov_tcga_pan_can_atlas_2018", note: "TP53 mutation ~95%" },
       { cancerId: "endometrial", pct: "n/a", measure: "Uterine serous carcinoma context", source: "https://en.wikipedia.org/wiki/Wee1-like_protein_kinase" },
-    ], links: [{ label: "Wikipedia", url: W("Wee1-like_protein_kinase") }],
+    ], links: [{ label: "Wikipedia", url: W("Wee1-like_protein_kinase") }], companies: ["acrivon-therapeutics", "zentalis-pharmaceuticals"],
   },
   {
     id: "idh", kind: "target", name: "IDH1 / IDH2", symbol: "IDH1, IDH2", targetClass: "enzyme", asOf, wikipedia: W("Isocitrate_dehydrogenase"),
@@ -698,7 +698,7 @@ export const targets: TargetInput[] = [
       { cancerId: "glioblastoma", pct: "70-80", measure: "IDH1/2 mutation in grade 2-3 glioma", source: "https://www.cbioportal.org/study/summary?id=lgg_tcga_pan_can_atlas_2018", note: "<10% in primary glioblastoma" },
       { cancerId: "aml", pct: "15-20", measure: "IDH1 or IDH2 mutation", source: "https://www.cbioportal.org/study/summary?id=laml_tcga_pan_can_atlas_2018" },
       { cancerId: "cholangiocarcinoma", pct: "10-20", measure: "IDH1 mutation (intrahepatic)", source: "https://www.cbioportal.org/study/summary?id=chol_tcga_pan_can_atlas_2018" },
-    ], drugs: ["oncomine-dx-target-test"], links: [{ label: "Wikipedia", url: W("Isocitrate_dehydrogenase") }],
+    ], drugs: ["oncomine-dx-target-test"], links: [{ label: "Wikipedia", url: W("Isocitrate_dehydrogenase") }], pathways: ["glioma-signalling"],
   },
   {
     id: "menin", kind: "target", name: "Menin", symbol: "MEN1", targetClass: "transcription", asOf, wikipedia: W("Menin"),
@@ -725,7 +725,7 @@ export const targets: TargetInput[] = [
       { cancerId: "dlbcl", pct: "20-25", measure: "EZH2 Y641 mutation in follicular/GCB lymphoma", source: "https://en.wikipedia.org/wiki/EZH2", note: "Tazemetostat withdrawn March 2026" },
       { cancerId: "sarcoma", pct: ">90", measure: "INI1 (SMARCB1) loss in epithelioid sarcoma (EZH2 dependency)", source: "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerts-health-care-providers-and-patients-about-increased-risk-new-blood-cancers-tazverik", note: "Tazemetostat withdrawn March 2026" },
       { cancerId: "prostate", pct: "n/a", measure: "Overexpression in CRPC; no threshold", source: "https://en.wikipedia.org/wiki/EZH2" },
-    ],
+    ], pathways: ["micrornas-in-cancer"], companies: ["oric-pharmaceuticals", "treeline-biosciences"],
   },
   {
     id: "bcl2", kind: "target", name: "BCL-2", symbol: "BCL2", targetClass: "other", asOf, wikipedia: W("Bcl-2"),
@@ -733,7 +733,7 @@ export const targets: TargetInput[] = [
     summary: "BCL-2 is an anti-apoptotic BH3-domain protein that stops cells from self-destructing; it is overexpressed in more than 90 percent of CLL and, through the t(14;18) translocation, in about 90 percent of follicular lymphomas and 30 to 40 percent of DLBCL. Venetoclax is a BH3 mimetic that occupies the BCL-2 groove and releases the cell-death machinery. It is standard in CLL as fixed-duration therapy with obinutuzumab or ibrutinib and in AML with azacitidine in older patients, where the drug exploits a dependency rather than a measurable expression threshold. Tumour lysis syndrome, managed by ramp-up dosing, and acquired BCL2 mutations are the practical and biological limitations. Next-generation BCL-2 inhibitors (sonrotoclax, lisaftoclax) and MCL-1 inhibitors follow to address resistance. The plain version: venetoclax removes a survival shield and has transformed leukaemia treatment.",
     biology: "BCL-2 is an anti-apoptotic BH3-domain protein, overexpressed via t(14;18) in follicular lymphoma.",
     whereFound: ["CLL", "AML", "Follicular lymphoma", "Mantle cell lymphoma"],
-    pathways: ["apoptosis-bcl2"],
+    pathways: ["apoptosis-bcl2", "basal-cell-carcinoma-signalling", "micrornas-in-cancer", "sclc-signalling"],
     cancers: ["cll", "aml", "dlbcl"],
     tags: ["apoptosis"],
     prevalence: [
@@ -748,14 +748,14 @@ export const targets: TargetInput[] = [
     summary: "Bevacizumab (2004) was the first anti-angiogenic. VEGFR TKIs (cabozantinib, lenvatinib, axitinib) are standard in RCC, HCC, and thyroid cancer, usually with PD-1 blockade. PD-1×VEGF bispecific ivonescimab beat pembrolizumab on PFS in NSCLC (HARMONi-2) and is the most-watched bispecific in solid tumours.",
     biology: "VEGF is an endothelial growth factor that is also immunosuppressive in the tumour microenvironment.",
     whereFound: ["Tumour vasculature across solid tumours"],
-    pathways: ["vegf-angiogenesis"],
+    pathways: ["vegf-angiogenesis", "bladder-cancer-signalling", "hepatocellular-carcinoma-signalling", "renal-cell-carcinoma-signalling"],
     cancers: ["rcc", "hcc", "colorectal", "nsclc", "ovarian"],
     tags: ["angiogenesis"],
     prevalence: [
       { cancerId: "rcc", pct: ">90", measure: "Clear-cell VHL loss drives VEGF (pathway prevalence)", source: "https://www.cbioportal.org/study/summary?id=kirc_tcga_pan_can_atlas_2018" },
       { cancerId: "hcc", pct: "n/a", measure: "Angiogenic dependency; no selection biomarker", source: "https://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor" },
       { cancerId: "colorectal", pct: "n/a", measure: "No selection biomarker for bevacizumab", source: "https://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor" },
-    ], drugs: ["ziv-aflibercept"], links: [{ label: "Wikipedia", url: W("Vascular_endothelial_growth_factor") }],
+    ], drugs: ["ziv-aflibercept"], links: [{ label: "Wikipedia", url: W("Vascular_endothelial_growth_factor") }], companies: ["compass-therapeutics"],
   },
   {
     id: "hif2a", kind: "target", name: "HIF-2α", symbol: "EPAS1", targetClass: "transcription", asOf, wikipedia: W("EPAS1"),
@@ -763,7 +763,7 @@ export const targets: TargetInput[] = [
     summary: "HIF-2α (EPAS1) is a transcription factor normally degraded by VHL; when VHL is lost, as in roughly 85 to 90 percent of clear-cell renal cell carcinomas, HIF-2α is permanently stabilised and drives VEGF, glycolysis and proliferation genes. Belzutifan (Welireg) binds the HIF-2α PAS-B pocket and prevents its pairing with ARNT. It is approved in VHL disease-associated tumours, in advanced RCC after immunotherapy and a VEGF tyrosine kinase inhibitor (LITESPARK-005), and from 2026 as adjuvant therapy with pembrolizumab in clear-cell RCC; it is also approved in pheochromocytoma and paraganglioma. Anaemia and hypoxia, which follow directly from suppressing erythropoietin, are the expected on-target effects. Combinations with VEGF inhibitors and immunotherapy in earlier lines are under study. It is the master switch kidney cancer leaves on, and belzutifan turns it down.",
     biology: "Transcription factor stabilised by VHL loss; drives VEGF, glycolysis, and proliferation genes.",
     whereFound: ["Clear-cell RCC", "VHL disease", "Pheochromocytoma"],
-    pathways: ["hif-vhl"],
+    pathways: ["hif-vhl", "renal-cell-carcinoma-signalling"],
     cancers: ["rcc"],
     tags: ["transcription"],
     prevalence: [
@@ -776,7 +776,7 @@ export const targets: TargetInput[] = [
     summary: "Tamoxifen (SERM), aromatase inhibitors, fulvestrant (SERD), oral SERDs (elacestrant, imlunestrant, camizestrant), and the PROTAC degrader vepdegestrant (approved 2026 for ESR1-mutant disease) form the endocrine armamentarium. ESR1 mutations arise under aromatase-inhibitor pressure and are detected by ctDNA.",
     biology: "Ligand-activated nuclear receptor; ESR1 Y537S/D538G mutations render it ligand-independent.",
     whereFound: ["HR+ breast cancer (~70% of breast cancers)", "Endometrial", "Ovarian (low-grade serous)"],
-    pathways: ["er-signaling"],
+    pathways: ["er-signaling", "breast-cancer-signalling", "chemical-carcinogenesis-receptor-activation", "endometrial-cancer-signalling"],
     cancers: ["breast-hr-positive", "endometrial"],
     tags: ["hormonal"],
     prevalence: [
@@ -790,13 +790,13 @@ export const targets: TargetInput[] = [
     summary: "Androgen deprivation plus AR pathway inhibitors (abiraterone, enzalutamide, apalutamide, darolutamide) is standard in advanced prostate cancer. AR degraders, AR N-terminal domain inhibitors, and combinations with PARP or AKT inhibitors address castration resistance. AR is also a target in a subset of TNBC (luminal androgen receptor subtype).",
     biology: "Nuclear receptor; amplification, splice variants (AR-V7), and ligand-binding-domain mutations drive resistance.",
     whereFound: ["Prostate cancer", "LAR-subtype TNBC", "Salivary duct carcinoma"],
-    pathways: ["ar-signaling"],
+    pathways: ["ar-signaling", "prostate-cancer-signalling"],
     cancers: ["prostate", "tnbc"],
     tags: ["hormonal"],
     prevalence: [
       { cancerId: "prostate", pct: ">95", measure: "AR-driven at diagnosis", source: "https://en.wikipedia.org/wiki/Androgen_receptor", note: "AR-V7 in ~20-40% of mCRPC" },
       { cancerId: "tnbc", pct: "10-15", measure: "Luminal androgen receptor subtype", source: "https://en.wikipedia.org/wiki/Androgen_receptor" },
-    ], drugs: ["nilutamide", "triptorelin"], links: [{ label: "Wikipedia", url: W("Androgen_receptor") }],
+    ], drugs: ["nilutamide", "triptorelin"], links: [{ label: "Wikipedia", url: W("Androgen_receptor") }], companies: ["oric-pharmaceuticals"],
   },
   {
     id: "tp53", kind: "target", name: "TP53", symbol: "TP53", targetClass: "tumor-suppressor", asOf, wikipedia: W("P53"),
@@ -804,7 +804,7 @@ export const targets: TargetInput[] = [
     summary: "TP53 is the most commonly mutated gene in cancer (~50% overall, ~80% in TNBC and ovarian). Direct reactivators (eprenetapopt/APR-246) failed in phase 3; Y220C-specific correctors (rezatapopt) are in registrational trials. Indirect strategies exploit G2/M checkpoint dependence (WEE1, ATR, PLK1) and MDM2 inhibition in TP53-wild-type tumours.",
     biology: "Transcription factor coordinating cell-cycle arrest, apoptosis, and senescence after DNA damage.",
     whereFound: ["Nearly every cancer type; near-universal in TNBC, high-grade serous ovarian, SCLC"],
-    pathways: ["p53-cell-cycle", "ddr"],
+    pathways: ["p53-cell-cycle", "ddr", "basal-cell-carcinoma-signalling", "breast-cancer-signalling", "cml-signalling", "colorectal-cancer-signalling", "endometrial-cancer-signalling", "gastric-cancer-signalling", "hepatocellular-carcinoma-signalling", "micrornas-in-cancer", "nsclc-signalling", "pancreatic-cancer-signalling", "sclc-signalling", "thyroid-cancer-signalling"],
     cancers: ["tnbc", "ovarian", "sclc", "aml"],
     tags: ["tumour-suppressor", "undrugged"],
     prevalence: [
@@ -814,7 +814,7 @@ export const targets: TargetInput[] = [
       { cancerId: "aml", pct: "8-10", measure: "TP53 mutation", source: "https://www.cbioportal.org/study/summary?id=laml_tcga_pan_can_atlas_2018", note: "Higher in therapy-related AML" },
       { cancerId: "pancreatic", pct: "70-75", measure: "TP53 mutation", source: "https://www.cbioportal.org/study/summary?id=paad_tcga_pan_can_atlas_2018" },
       { cancerId: "colorectal", pct: "55-60", measure: "TP53 mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018" },
-    ], companies: ["bulsara-bioworks"], links: [{ label: "Wikipedia", url: W("P53") }],
+    ], companies: ["bulsara-bioworks", "nested-therapeutics", "photys-therapeutics"], links: [{ label: "Wikipedia", url: W("P53") }],
   },
   {
     id: "brca", kind: "target", name: "BRCA1 / BRCA2 (HRD)", symbol: "BRCA1, BRCA2", targetClass: "tumor-suppressor", asOf, wikipedia: W("BRCA_mutation"),
@@ -822,7 +822,7 @@ export const targets: TargetInput[] = [
     summary: "BRCA1 and BRCA2 are homologous recombination repair genes; a tumour that loses both copies must rely on error-prone repair, which makes it uniquely vulnerable to PARP inhibitors and platinum. Germline BRCA1/2 mutations account for roughly 5 to 10 percent of breast cancers and about 15 percent of ovarian cancers, with 10 to 20 percent of triple-negative breast cancers (mostly BRCA1) and 3 to 5 percent of HR-positive cases (mostly BRCA2); BRCA2 alterations occur in 8 to 12 percent of metastatic prostate cancers and germline BRCA1/2 in 5 to 8 percent of pancreatic cancers. Homologous recombination deficiency (HRD) extends the phenotype to BRCA-wild-type tumours and is measured by genomic scars (myChoice CDx). HRD predicts benefit from PARP inhibitors and platinum, though the best assay and cut-off remain debated. The same genes guide both prevention and treatment.",
     biology: "Homologous recombination repair; loss forces reliance on error-prone pathways.",
     whereFound: ["Breast (esp. TNBC)", "Ovarian", "Prostate", "Pancreatic"],
-    pathways: ["ddr"],
+    pathways: ["ddr", "breast-cancer-signalling", "pancreatic-cancer-signalling"],
     cancers: ["tnbc", "ovarian", "prostate", "pancreatic", "breast-hr-positive"],
     tags: ["germline", "biomarker"],
     prevalence: [

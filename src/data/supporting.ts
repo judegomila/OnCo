@@ -255,7 +255,7 @@ const technologies: TechnologyInput[] = [
     principle: "Validated PRO instruments (PRO-CTCAE) delivered on schedule, threshold alerts routed to clinical teams, and dashboards integrated with the EHR.",
     strengths: ["Level-1 evidence for benefit", "Low cost"],
     limitations: ["Alert fatigue and staffing", "Digital access gaps", "Reimbursement uneven"],
-    technologies: ["decentralised-clinical-trials", "exercise-oncology"], companies: ["kaiku-health", "elekta", "varian"],
+    technologies: ["decentralised-clinical-trials", "exercise-oncology"], companies: ["kaiku-health", "elekta", "varian", "canopy", "careology", "liyfe", "reimagine-care"],
   }),
   t({
     id: "pharmacy-automation", name: "Oncology pharmacy automation and compounding robots", sections: ["chemotherapy", "supportive-care"], status: "established",
@@ -264,7 +264,7 @@ const technologies: TechnologyInput[] = [
     principle: "Gravimetric dose verification, barcode reconciliation, and negative-pressure isolators or robots handle cytotoxics inside closed systems.",
     strengths: ["Worker safety", "Dose accuracy and traceability"],
     limitations: ["Capital and throughput", "Integration with EHR order sets"],
-    technologies: ["cytotoxic-chemotherapy"], companies: ["omnicell", "becton-dickinson"],
+    technologies: ["cytotoxic-chemotherapy"], companies: ["omnicell", "becton-dickinson"], journals: ["journal-of-oncology-pharmacy-practice"],
   }),
   t({
     id: "ai-compute-platforms", name: "AI compute and model platforms for oncology", sections: ["ai-computation", "drug-discovery"], status: "emerging",
@@ -422,7 +422,7 @@ const technologies: TechnologyInput[] = [
     principle: "Registries rest on mandatory reporting from pathology labs and hospitals, record linkage to death and census data, and standard coding (ICD-O-3, TNM) with quality indicators.",
     strengths: ["Unbiased population denominator", "Long time series"],
     limitations: ["2-3 year reporting lag", "Little treatment or biomarker detail in many registries", "Coverage gaps globally"],
-    technologies: ["oncology-real-world-data"], related: ["seer"], terms: ["real-world-evidence"], institutions: ["nci"],
+    technologies: ["oncology-real-world-data"], related: ["seer"], terms: ["real-world-evidence"], institutions: ["nci"], journals: ["journal-of-registry-management"],
   }),
 
   // ---- Discovery infrastructure ----
@@ -791,11 +791,11 @@ const companies: CompanyInput[] = [
   c({ id: "quest-diagnostics", links: [{ label: "Official website", url: "https://www.questdiagnostics.com" }], name: "Quest Diagnostics", hq: "Secaucus, NJ", country: "US", companyType: "diagnostics", website: "https://www.questdiagnostics.com", ticker: "DGX", sections: ["diagnostics"],
     tldr: "Quest Diagnostics is a national reference laboratory with oncology pathology and molecular testing, including Haystack Oncology MRD (acquired 2023).",
     summary: "Quest Diagnostics, based in Secaucus, New Jersey, and listed as DGX, is a national reference laboratory with oncology pathology and molecular testing, including the Haystack Oncology measurable residual disease test acquired in 2023. Its oncology work spans AmeriPath anatomic pathology, solid-tumour next-generation sequencing and circulating tumour DNA MRD testing through Haystack. OnCo links it to reference laboratories and companion diagnostic testing, MRD testing and Haystack Oncology. Whether a general reference laboratory can compete in MRD testing against specialist companies is the question the Haystack purchase poses. Haystack Oncology has its own page.",
-    technologies: ["reference-laboratories", "mrd-testing"] }),
+    technologies: ["reference-laboratories", "mrd-testing"], companies: ["haystack-oncology"] }),
   c({ id: "neogenomics", links: [{ label: "Official website", url: "https://neogenomics.com" }], name: "NeoGenomics", hq: "Fort Myers, FL", country: "US", companyType: "diagnostics", website: "https://neogenomics.com", ticker: "NEO", sections: ["diagnostics"],
     tldr: "Cancer-focused reference lab for IHC, FISH, flow cytometry, and NGS, serving community oncology and pharma.",
     summary: "NeoGenomics, based in Fort Myers, Florida, and listed as NEO, is a cancer-focused reference laboratory for immunohistochemistry, FISH, flow cytometry and next-generation sequencing, serving community oncology and pharmaceutical companies. It has the broadest oncology test menu among independent laboratories, offers the RaDaR measurable residual disease assay from its Inivata acquisition, and runs a pharma services division. OnCo links it to reference laboratories, MRD testing and comprehensive genomic profiling, and to RaDaR and Inivata. Whether a cancer-only laboratory can hold its ground against the national reference laboratories and specialist genomics companies is the open question. RaDaR has its own page.",
-    technologies: ["reference-laboratories", "mrd-testing", "cgp"] }),
+    technologies: ["reference-laboratories", "mrd-testing", "cgp"], companies: ["inivata"] }),
   c({ id: "agilent", links: [{ label: "Official website", url: "https://www.agilent.com" }], name: "Agilent Technologies (Dako)", hq: "Santa Clara, CA", country: "US", companyType: "diagnostics", website: "https://www.agilent.com", ticker: "A", sections: ["diagnostics"],
     tldr: "Agilent makes the Dako PD-L1 IHC 22C3 and 28-8 companion diagnostics and the Omnis staining platform.",
     summary: "Agilent Technologies, based in Santa Clara and listed as A, makes the Dako PD-L1 IHC 22C3 and 28-8 companion diagnostics and the Omnis staining platform. Its pathology reagents and instruments sit alongside mass spectrometry and genomics tools, and its PD-L1 assays are tied to the pembrolizumab and nivolumab labels; OnCo also links it to HER2 IHC and ISH companion assays and to Resolution ctDx FIRST. It connects to reference laboratories, companion diagnostics, histopathology and immunohistochemistry and IHC autostainers. Whether the multiplicity of PD-L1 assays can be harmonised, or whether each drug keeps its own test, is the open question its products embody. PD-L1 IHC 22C3 pharmDx has its own page.",

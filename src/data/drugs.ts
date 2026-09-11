@@ -164,7 +164,7 @@ const baseDrugs: DrugInput[] = [
     links: [{ label: "OncLive report", url: "https://www.onclive.com/view/iza-bren-yields-pfs-and-os-benefits-vs-chemo-in-previously-treated-advanced-tnbc" }], terms: ["hydrophilic-next-gen"],
   },
   {
-    id: "patritumab-deruxtecan", kind: "drug", name: "Patritumab deruxtecan", code: "HER3-DXd, U3-1402", modality: "ADC", asOf, status: "phase-3",
+    id: "patritumab-deruxtecan", links: [{ label: "ClinicalTrials.gov: trials of Patritumab deruxtecan", url: "https://clinicaltrials.gov/search?intr=HER3-DXd" }], kind: "drug", name: "Patritumab deruxtecan", code: "HER3-DXd, U3-1402", modality: "ADC", asOf, status: "phase-3",
     payload: "DXd", linker: "GGFG cleavable",
     tldr: "A HER3-directed ADC with Enhertu's payload, active in lung and all subtypes of breast cancer, but with a bumpy regulatory road.",
     summary: "HERTHENA-Lung01 in EGFR-mutant NSCLC after TKI (ORR ~30%) led to a BLA that received a complete response letter in 2024 over manufacturing; HERTHENA-Lung02 phase 3 was positive for PFS but not OS. In breast cancer, HERTHENA-BC dose-expansion data at ESMO Breast 2026 showed activity across HR+/HER2-, HER2+, and TNBC. Daiichi Sankyo and Merck partnership.",
@@ -172,7 +172,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["her3"], technologies: ["adc"], companies: ["daiichi-sankyo", "merck"], cancers: ["nsclc", "tnbc", "breast-hr-positive"], terms: ["ggfg"],
   },
   {
-    id: "ifinatamab-deruxtecan", kind: "drug", name: "Ifinatamab deruxtecan", code: "I-DXd, DS-7300", modality: "ADC", asOf, status: "phase-3",
+    id: "ifinatamab-deruxtecan", links: [{ label: "ClinicalTrials.gov: trials of Ifinatamab deruxtecan", url: "https://clinicaltrials.gov/search?intr=I-DXd" }], kind: "drug", name: "Ifinatamab deruxtecan", code: "I-DXd, DS-7300", modality: "ADC", asOf, status: "phase-3",
     payload: "DXd, DAR ~8", linker: "GGFG cleavable",
     tldr: "Ifinatamab deruxtecan is a B7-H3 ADC showing some of the best response rates ever seen in relapsed small-cell lung cancer.",
     summary: "Ifinatamab deruxtecan is an anti-B7-H3 IgG1 antibody carrying the topoisomerase I inhibitor DXd at a drug-to-antibody ratio of about 8 through a cleavable GGFG linker; B7-H3 is present on most small-cell lung cancers and the permeable payload kills neighbouring cells too. Daiichi Sankyo and Merck are developing it for extensive-stage SCLC after platinum, where the phase 2 IDeate-Lung01 trial reported an objective response rate around 55 percent at the selected 12 mg/kg every-3-weeks dose, among the best seen in relapsed SCLC. The phase 3 IDeate-Lung02 trial versus topotecan is ongoing, and the FDA granted Breakthrough Therapy designation in 2024. Nausea, anaemia, decreased appetite and neutropenia are common, and interstitial lung disease is monitored. It is also being studied in prostate and oesophageal cancer, and offers a lung cancer with few new options a genuinely new mechanism.",
@@ -180,7 +180,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["b7h3"], technologies: ["adc"], companies: ["daiichi-sankyo", "merck"], cancers: ["sclc", "prostate"], terms: ["ggfg"],
   },
   {
-    id: "raludotatug-deruxtecan", kind: "drug", name: "Raludotatug deruxtecan", code: "R-DXd, DS-6000", modality: "ADC", asOf, status: "phase-3",
+    id: "raludotatug-deruxtecan", links: [{ label: "ClinicalTrials.gov: trials of Raludotatug deruxtecan", url: "https://clinicaltrials.gov/search?intr=R-DXd" }], kind: "drug", name: "Raludotatug deruxtecan", code: "R-DXd, DS-6000", modality: "ADC", asOf, status: "phase-3",
     payload: "DXd", linker: "GGFG cleavable",
     tldr: "Raludotatug deruxtecan is a CDH6 ADC in phase 3 for platinum-resistant ovarian cancer.",
     summary: "Raludotatug deruxtecan is an anti-CDH6 IgG1 antibody linked through a cleavable GGFG linker to DXd, a topoisomerase I inhibitor that traps the enzyme on DNA and collapses replication forks; the payload crosses membranes, giving a bystander effect. CDH6 is a cadherin overexpressed in ovarian and renal cell carcinoma with little normal-tissue expression. Developed by Daiichi Sankyo with Merck, it produced an objective response rate around 46 percent in phase 1 in heavily pretreated ovarian cancer, and the REJOICE-Ovarian01 phase 2/3 trial is comparing it with chemotherapy in platinum-resistant disease at 5.6 mg/kg every 3 weeks. Nausea, fatigue, neutropenia and anaemia are the main toxicities, with interstitial lung disease monitored as for other DXd conjugates. Whether the response rate holds in a randomised trial is the open question for platinum-resistant ovarian cancer.",
@@ -188,7 +188,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cdh6"], technologies: ["adc"], companies: ["daiichi-sankyo", "merck"], cancers: ["ovarian", "rcc"], terms: ["ggfg"],
   },
   {
-    id: "tilatamig-samrotecan", kind: "drug", name: "Tilatamig samrotecan", code: "AZD9592", modality: "Bispecific ADC", asOf, status: "phase-2",
+    id: "tilatamig-samrotecan", links: [{ label: "ClinicalTrials.gov: trials of Tilatamig samrotecan", url: "https://clinicaltrials.gov/search?intr=AZD9592" }], kind: "drug", name: "Tilatamig samrotecan", code: "AZD9592", modality: "Bispecific ADC", asOf, status: "phase-2",
     payload: "AZ14170133 (TOP1 inhibitor)", linker: "Cleavable",
     tldr: "AstraZeneca's EGFR×c-MET bispecific ADC, the most advanced in the most crowded next-generation ADC target pair.",
     summary: "Tilatamig samrotecan is AstraZeneca's bispecific antibody-drug conjugate that binds both EGFR and c-MET and delivers the topoisomerase I inhibitor AZ14170133 through a cleavable linker. Its low-affinity EGFR arm and high-affinity c-MET arm mean avidity biases delivery toward tumour cells co-expressing both receptors and spares normal tissue that expresses EGFR alone. It is in phase 2 in EGFR-mutant NSCLC after osimertinib and in EGFR-wild-type NSCLC, per AstraZeneca's 2026 pipeline, and is also being explored in head and neck cancer. Stomatitis, nausea, fatigue and neutropenia are the reported toxicities, and dose optimisation on an every-3-weeks schedule is under way. It is the most advanced of roughly 24 c-MET×EGFR ADC candidates, so its results will shape a crowded field. It is a two-address ADC meant to hit lung cancers carrying both EGFR and c-MET while sparing normal cells.",
@@ -213,7 +213,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["her2"], technologies: ["adc"], companies: ["remegen", "pfizer"], cancers: ["gastric", "urothelial"], terms: ["mc-vc-pabc"],
   },
   {
-    id: "zilovertamab-vedotin", kind: "drug", name: "Zilovertamab vedotin", code: "MK-2140", modality: "ADC", asOf, status: "phase-3",
+    id: "zilovertamab-vedotin", links: [{ label: "ClinicalTrials.gov: trials of Zilovertamab vedotin", url: "https://clinicaltrials.gov/search?intr=MK-2140" }], kind: "drug", name: "Zilovertamab vedotin", code: "MK-2140", modality: "ADC", asOf, status: "phase-3",
     payload: "MMAE", linker: "Cleavable",
     tldr: "Zilovertamab vedotin is a ROR1-directed ADC in phase 3 for large B-cell lymphoma.",
     summary: "Zilovertamab vedotin is an anti-ROR1 antibody carrying the microtubule inhibitor MMAE through a cleavable linker; ROR1 is an oncofetal receptor re-expressed on B-cell cancers including large B-cell lymphoma and largely absent from normal adult tissue, which makes it an attractive ADC address. Merck acquired the programme through VelosBio and is developing it chiefly in large B-cell lymphoma. The waveLINE-003 phase 3 trial combines it at 1.75 mg/kg every 3 weeks with rituximab, gemcitabine and oxaliplatin (R-GemOx) in relapsed DLBCL, and it is also being tested in first line. Neutropenia, peripheral neuropathy and fatigue are the expected MMAE-class toxicities. Whether ROR1 targeting adds to existing CD19- and CD20-directed options, including CAR-T and bispecifics, is the question phase 3 must answer. It is an ADC against a fetal-type receptor that lymphoma cells switch back on.",
@@ -221,7 +221,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["ror1"], technologies: ["adc"], companies: ["merck"], cancers: ["dlbcl"],
   },
   {
-    id: "cmg901", kind: "drug", name: "Sonesitatug vedotin", code: "CMG901, AZD0901", modality: "ADC", asOf, status: "phase-3",
+    id: "cmg901", links: [{ label: "ClinicalTrials.gov: trials of Sonesitatug vedotin", url: "https://clinicaltrials.gov/search?intr=CMG901" }], kind: "drug", name: "Sonesitatug vedotin", code: "CMG901, AZD0901", modality: "ADC", asOf, status: "phase-3",
     payload: "MMAE", linker: "Cleavable",
     tldr: "Sonesitatug vedotin is a Claudin 18.2 ADC in phase 3 for gastric cancer, licensed by AstraZeneca from KYM Biosciences.",
     summary: "Sonesitatug vedotin (CMG901) is an anti-Claudin 18.2 antibody carrying the microtubule inhibitor MMAE through a cleavable linker; Claudin 18.2 is a tight-junction protein normally buried in gastric mucosa but exposed on gastric and some pancreatic cancer cells, giving the ADC a tumour-selective address. AstraZeneca licensed global rights from KYM Biosciences in 2023. Phase 1 produced an objective response rate around 33 percent in CLDN18.2-positive gastric cancer, and the CLARITY-Gastric01 phase 3 trial is testing it at 2.2 mg/kg every 3 weeks in second-line gastric cancer. Nausea, vomiting, neutropenia and decreased appetite are the main toxicities, the gut effects reflecting on-target binding to normal stomach lining. It competes with XNW27011 and other CLDN18.2 ADCs, so randomised data will decide the field. It delivers a cell poison to a protein hidden in healthy tissue.",
@@ -229,7 +229,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["cldn18-2"], technologies: ["adc"], companies: ["astrazeneca"], cancers: ["gastric", "pancreatic"],
   },
   {
-    id: "puxitatug-samrotecan", kind: "drug", name: "Puxitatug samrotecan", code: "AZD8205", modality: "ADC", asOf, status: "phase-2",
+    id: "puxitatug-samrotecan", links: [{ label: "ClinicalTrials.gov: trials of Puxitatug samrotecan", url: "https://clinicaltrials.gov/search?intr=AZD8205" }], kind: "drug", name: "Puxitatug samrotecan", code: "AZD8205", modality: "ADC", asOf, status: "phase-2",
     payload: "TOP1 inhibitor (AZ14170133), DAR ~8", linker: "Cleavable",
     tldr: "Puxitatug samrotecan is a B7-H4 ADC targeting a checkpoint-like protein enriched in breast, ovarian, and endometrial cancers.",
     summary: "Puxitatug samrotecan is AstraZeneca's anti-B7-H4 IgG1 antibody carrying the topoisomerase I inhibitor AZ14170133 at a drug-to-antibody ratio of about 8 through a cleavable linker; the released payload traps topoisomerase I on DNA and crosses membranes to kill neighbouring cells. B7-H4 is a checkpoint-like protein enriched in breast, ovarian and endometrial cancers with minimal normal expression, and it is inversely correlated with PD-L1, offering a route into 'cold' tumours that immunotherapy fails to reach. The drug is in phase 2 dose optimisation on an every-3-weeks schedule in endometrial, ovarian and triple-negative breast cancer. Nausea, neutropenia and fatigue are the reported toxicities. Whether B7-H4 expression predicts response remains open. It targets a protein common in gynaecological and breast cancers that immunotherapy tends to miss.",
@@ -391,7 +391,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["her2", "her3"], technologies: ["bispecific-antibody"], companies: ["merus"], cancers: ["nsclc", "pancreatic", "cholangiocarcinoma"],
   },
   {
-    id: "ivonescimab", kind: "drug", name: "Ivonescimab", code: "AK112, SMT112", modality: "Bispecific antibody (PD-1×VEGF)", asOf, status: "phase-3",
+    id: "ivonescimab", links: [{ label: "ClinicalTrials.gov: trials of Ivonescimab", url: "https://clinicaltrials.gov/search?intr=AK112" }], kind: "drug", name: "Ivonescimab", code: "AK112, SMT112", modality: "Bispecific antibody (PD-1×VEGF)", asOf, status: "phase-3",
     tldr: "A Chinese bispecific that beat Keytruda head-to-head on progression-free survival in lung cancer, the first drug ever to do so.",
     summary: "HARMONi-2 (China): PFS 11.1 vs 5.8 months versus pembrolizumab in PD-L1+ first-line NSCLC. Approved in China (2024) for EGFR-mutant NSCLC after TKI (HARMONi-A) and first-line PD-L1+ NSCLC. Summit Therapeutics holds Western rights; HARMONi (global, EGFR-mutant post-TKI) met PFS but OS was not statistically significant in 2025; HARMONi-3 (squamous and non-squamous first-line) ongoing. Spawned a wave of PD-(L)1×VEGF bispecifics (Pfizer/3SBio, BMS/BioNTech, Merck/LaNova).",
     mechanism: "Tetravalent PD-1×VEGF-A bispecific with cooperative binding: VEGF binding increases PD-1 affinity, concentrating activity in tumour.",
@@ -467,21 +467,21 @@ const baseDrugs: DrugInput[] = [
     targets: ["psma"], technologies: ["psma-pet"], companies: ["lantheus"], cancers: ["prostate"],
   },
   {
-    id: "ryz101", kind: "drug", name: "Actinium-225 DOTATATE", code: "RYZ101", modality: "Targeted alpha therapy", asOf, status: "phase-3",
+    id: "ryz101", links: [{ label: "ClinicalTrials.gov: trials of Actinium-225 DOTATATE", url: "https://clinicaltrials.gov/search?intr=RYZ101" }], kind: "drug", name: "Actinium-225 DOTATATE", code: "RYZ101", modality: "Targeted alpha therapy", asOf, status: "phase-3",
     tldr: "An alpha-particle version of Lutathera for neuroendocrine tumours that have stopped responding to the beta version.",
     summary: "RYZ101 is actinium-225 DOTATATE, a targeted alpha therapy: the same SSTR2-binding peptide as Lutathera but chelating 225Ac, whose alpha decay chain delivers dense, short-range double-strand DNA breaks that beta particles cannot match. Bristol Myers Squibb acquired it with RayzeBio in 2024 for $4.1B. The ACTION-1 phase 3 trial tests it in SSTR-positive GEP-NETs progressing after 177Lu-SSTR therapy, at 10.5 MBq/kg every 8 weeks for 4 cycles, and it is also being combined with chemo-immunotherapy in extensive-stage small-cell lung cancer. Nausea, fatigue and lymphopenia are expected, and renal function is monitored because the kidneys clear the peptide. Whether alpha emission overcomes resistance to beta therapy, and whether 225Ac supply can meet demand, are the open questions. For a newcomer: an alpha-particle upgrade of an approved neuroendocrine radioligand.",
     mechanism: "DOTATATE chelating 225Ac; alpha decay chain.",
     targets: ["sstr2"], technologies: ["targeted-alpha-therapy"], companies: ["bms", "rayzebio"], cancers: ["neuroendocrine", "sclc"],
   },
   {
-    id: "ac225-psma", kind: "drug", name: "Actinium-225 PSMA agents", code: "225Ac-PSMA-617, 225Ac-PSMA-I&T, BAY 3563254 (Trillium)", modality: "Targeted alpha therapy", asOf, status: "phase-3",
+    id: "ac225-psma", links: [{ label: "ClinicalTrials.gov: trials of Actinium-225 PSMA agents", url: "https://clinicaltrials.gov/search?intr=225Ac-PSMA-617" }], kind: "drug", name: "Actinium-225 PSMA agents", code: "225Ac-PSMA-617, 225Ac-PSMA-I&T, BAY 3563254 (Trillium)", modality: "Targeted alpha therapy", asOf, status: "phase-3",
     tldr: "Alpha-emitting PSMA drugs that produce responses even after Pluvicto fails, held back mainly by isotope supply.",
     summary: "Novartis (225Ac-PSMA-617, phase 3 AcTION), Bayer (225Ac-PSMA-Trillium with albumin binder, PAnTHA phase 1 at ASCO GU 2026), Fusion/AstraZeneca (FPI-2265, 225Ac-PSMA-I&T, phase 3 AlphaBreak), and academic 225Ac-PSMA data from South Africa and Germany. Xerostomia from salivary uptake is dose-limiting.",
     mechanism: "PSMA ligand with 225Ac; four alpha emissions per decay chain.",
     targets: ["psma"], technologies: ["targeted-alpha-therapy"], companies: ["novartis", "bayer", "fusion-pharma", "astrazeneca"], cancers: ["prostate"],
   },
   {
-    id: "fap-2286", kind: "drug", name: "FAP-2286 (177Lu / 68Ga)", code: "FAP-2286", modality: "Theranostic pair (peptide radioligand)", asOf, status: "phase-2",
+    id: "fap-2286", links: [{ label: "ClinicalTrials.gov: trials of FAP-2286 (177Lu / 68Ga)", url: "https://clinicaltrials.gov/search?intr=FAP-2286" }], kind: "drug", name: "FAP-2286 (177Lu / 68Ga)", code: "FAP-2286", modality: "Theranostic pair (peptide radioligand)", asOf, status: "phase-2",
     tldr: "A FAP-targeted theranostic pair: one version images almost any solid tumour, the other treats it with radiation.",
     summary: "FAP-2286 is a theranostic pair: a cyclic peptide that binds fibroblast activation protein (FAP), linked to a DOTA chelator carrying 68Ga for PET imaging or 177Lu for beta therapy. FAP sits on cancer-associated fibroblasts in the stroma of most solid tumours rather than on cancer cells, so one agent can image and irradiate many tumour types, and the cyclic peptide gives longer tumour retention than the FAPI small molecules used for imaging. Clovis Oncology developed it until its 2022 bankruptcy; Novartis then acquired it via 3B Pharmaceuticals. The 177Lu-FAP-2286 LuMIERE phase 1/2 trial is dose-escalating in cycles every 6 weeks with pancreatic, sarcoma and breast cohorts. For a newcomer: a radioligand aimed at the scaffolding around tumours rather than the tumour cells.",
     mechanism: "Cyclic peptide FAP binder with DOTA chelator for 68Ga (imaging) or 177Lu (therapy).",
@@ -725,7 +725,7 @@ const baseDrugs: DrugInput[] = [
     links: [{ label: "Merck/Moderna announcement", url: "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/" }],
   },
   {
-    id: "autogene-cevumeran", kind: "drug", name: "Autogene cevumeran", code: "BNT122, RO7198457", modality: "Personalised mRNA neoantigen vaccine", asOf, status: "phase-2",
+    id: "autogene-cevumeran", links: [{ label: "ClinicalTrials.gov: trials of Autogene cevumeran", url: "https://clinicaltrials.gov/search?intr=BNT122" }], kind: "drug", name: "Autogene cevumeran", code: "BNT122, RO7198457", modality: "Personalised mRNA neoantigen vaccine", asOf, status: "phase-2",
     tldr: "Autogene cevumeran is BioNTech and Genentech's personalised mRNA vaccine encoding each patient's own tumour neoantigens. In a small phase 1 in resected pancreatic cancer, half of patients mounted T-cell responses and stayed free of recurrence far longer; phase 2 IMCODE003 tests whether that holds.",
     summary: "Phase 1 (Rojas/Balachandran, Nature 2023; 3-year follow-up 2025): half of resected PDAC patients mounted T-cell responses and had markedly longer recurrence-free survival than non-responders. Phase 2 IMCODE003 in adjuvant PDAC and trials in colorectal (ctDNA+ after surgery) and melanoma. BioNTech/Genentech.",
     mechanism: "Up to 20 neoantigens in uridine mRNA-lipoplex, intravenous, with atezolizumab.",
@@ -776,7 +776,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["mced", "liquid-biopsy"], companies: ["guardant-health"], cancers: ["colorectal"],
   },
   {
-    id: "signatera", kind: "drug", name: "Signatera", modality: "Tumour-informed ctDNA MRD test", asOf, status: "established",
+    id: "signatera", links: [{ label: "ClinicalTrials.gov NCT04660344 (IMvigor011)", url: "https://clinicaltrials.gov/study/NCT04660344" }], kind: "drug", name: "Signatera", modality: "Tumour-informed ctDNA MRD test", asOf, status: "established",
     tldr: "Signatera is Natera's tumour-informed blood test that tracks 16 mutations from each patient's own tumour to detect residual or returning cancer after surgery. Medicare covers it in colorectal, breast, bladder, lung and ovarian cancer and for immunotherapy monitoring, and in 2026 it selected the bladder cancer patients for the first approval based on circulating tumour DNA.",
     summary: "Signatera is Natera's tumour-informed MRD test and tracks 16 patient-specific variants. Medicare-covered in colorectal, breast, bladder, lung, ovarian, and immunotherapy monitoring. Used in interventional trials (CIRCULATE-US, ZEST in TNBC with niraparib, negative for feasibility reasons; IMvigor011 used Signatera to select ctDNA+ bladder patients for atezolizumab, leading to the first ctDNA-based approval in 2026).",
     mechanism: "WES of tumour → bespoke 16-plex PCR/NGS assay on plasma at very high depth.",

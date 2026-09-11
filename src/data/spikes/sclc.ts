@@ -164,7 +164,7 @@ const companies: CompanyInput[] = [
   { id: "henlius", links: [{ label: "Official website", url: "https://www.henlius.com" }], kind: "company", name: "Shanghai Henlius Biotech", hq: "Shanghai", country: "CN", companyType: "biotech", website: "https://www.henlius.com", ticker: "2696.HK", asOf, sections: ["immunotherapy"],
     tldr: "Chinese biosimilar and biologics company whose PD-1 antibody serplulimab is approved in China and Europe for small-cell lung cancer.",
     summary: "Shanghai Henlius Biotech, listed in Hong Kong as 2696.HK, is a Chinese biosimilar and biologics company whose PD-1 antibody serplulimab is approved in China and Europe for small-cell lung cancer. Serplulimab was proved in the ASTRUM-005 trial and received EU approvals in 2025 for extensive-stage small-cell lung cancer, squamous non-small-cell lung cancer and other indications, a US bridging trial has completed enrolment, and the company also sells trastuzumab and bevacizumab biosimilars. OnCo links it to small-cell lung cancer, to serplulimab and the trastuzumab biosimilars records, and to the bottleneck of regulatory divergence between regions. Whether a Chinese PD-1 antibody can gain US approval on a bridging study, having already won Europe, is the open question. Serplulimab and ASTRUM-005 have their own pages.",
-    drugs: ["serplulimab", "trastuzumab-biosimilars"], cancers: ["sclc"], trials: ["astrum-005"], tags: ["china"] },
+    drugs: ["serplulimab", "trastuzumab-biosimilars", "hlx43", "hlx22", "hlx11", "hlx26"], cancers: ["sclc"], trials: ["astrum-005"], tags: ["china"] },
 ];
 
 const pairings: PairingInput[] = [

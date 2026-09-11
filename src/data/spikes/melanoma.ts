@@ -295,7 +295,7 @@ const prame: EntityInput = {
   biology: "Represses retinoic acid receptor signalling; drives proliferation and blocks differentiation; presented on HLA class I as peptides such as PRAME 425-433 on A*02:01.",
   whereFound: ["Cutaneous melanoma (~90%)", "Uveal melanoma (subset, associated with metastasis)", "Ovarian, endometrial, NSCLC, breast (subsets)", "Synovial sarcoma"],
   prevalence: [{ cancerId: "melanoma", pct: "~90", measure: "IHC positivity in cutaneous melanoma", source: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6234029/" }],
-  cancers: ["melanoma", "ovarian", "nsclc", "sarcoma"], drugs: ["brenetafusp"], technologies: ["t-cell-engager", "tcr-t"], companies: ["immunocore", "immatics"], terms: ["hla-a02-restriction"], tags: ["tcr-target"], links: [{ label: "Wikipedia", url: W("PRAME") }],
+  cancers: ["melanoma", "ovarian", "nsclc", "sarcoma"], drugs: ["brenetafusp", "ima203"], technologies: ["t-cell-engager", "tcr-t"], companies: ["immunocore", "immatics"], terms: ["hla-a02-restriction"], tags: ["tcr-target"], links: [{ label: "Wikipedia", url: W("PRAME") }],
 };
 
 // ======================= SPIKE =======================

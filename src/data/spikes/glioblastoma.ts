@@ -59,7 +59,7 @@ const entities: EntityInput[] = [
     notes: ["Listed at phase 3 rather than approved; the external-control design and endpoint change are the reasons this remains contested."],
   },
   {
-    id: "rindopepimut", kind: "drug", name: "Rindopepimut", code: "CDX-110", modality: "Peptide vaccine (EGFRvIII)", asOf, status: "negative",
+    id: "rindopepimut", links: [{ label: "ClinicalTrials.gov NCT01480479 (ACT IV)", url: "https://clinicaltrials.gov/study/NCT01480479" }], kind: "drug", name: "Rindopepimut", code: "CDX-110", modality: "Peptide vaccine (EGFRvIII)", asOf, status: "negative",
     tldr: "Rindopepimut is a peptide vaccine against EGFRvIII, a mutant protein found only on some glioblastomas. After a phase 2 that beat historical controls, the 745-patient double-blind phase 3 ACT IV found no benefit in 2016, and tumours in both arms had lost EGFRvIII at recurrence, a lesson in antigen escape.",
     summary: "EGFRvIII peptide conjugated to KLH with GM-CSF. Phase 2 (ACT III) suggested prolonged survival versus historical controls; the double-blind phase 3 ACT IV (n=745, EGFRvIII-positive newly diagnosed glioblastoma with minimal residual disease) showed no OS benefit (20.1 vs 20.0 months). Loss of EGFRvIII expression at recurrence in both arms illustrated antigen escape. Celldex discontinued the programme.",
     mechanism: "Induces humoral and cellular immunity against the EGFRvIII neoepitope.",

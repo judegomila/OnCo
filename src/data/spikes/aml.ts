@@ -72,7 +72,7 @@ const targets: TargetInput[] = [
     biology: "BCR-ABL is a constitutively active tyrosine kinase that switches on RAS, PI3K, and STAT5. Kinase-domain mutations (T315I gatekeeper) drive TKI resistance.",
     whereFound: ["CML (~100%)", "Adult B-ALL (~25%; >40% over age 60)", "Paediatric B-ALL (~3%)"],
     prevalence: [{ cancerId: "all-leukemia", pct: "~25 adults; ~3 children", measure: "t(9;22)" }],
-    cancers: ["all-leukemia"], drugs: ["imatinib", "ponatinib", "dasatinib", "asciminib", "omacetaxine"], pathways: ["ras-mapk", "pi3k-akt-mtor", "bcr-abl1-signalling"], tags: ["driver", "fusion", "kinase"], links: [{ label: "Wikipedia", url: W("Philadelphia_chromosome") }] }),
+    cancers: ["all-leukemia"], drugs: ["imatinib", "ponatinib", "dasatinib", "asciminib", "omacetaxine"], pathways: ["ras-mapk", "pi3k-akt-mtor", "bcr-abl1-signalling", "cml-signalling"], tags: ["driver", "fusion", "kinase"], links: [{ label: "Wikipedia", url: W("Philadelphia_chromosome") }] }),
 ];
 
 // ======================= TECHNOLOGIES =======================
@@ -83,7 +83,7 @@ const technologies: TechnologyInput[] = [
     principle: "Myeloablation eradicates host haematopoiesis; donor T cells recognise residual leukaemia via minor histocompatibility antigens.",
     strengths: ["Curative for otherwise incurable leukaemia", "Graft-versus-leukaemia is an antigen-agnostic immune therapy"],
     limitations: ["Treatment-related mortality 10-20%", "Chronic GVHD", "Relapse remains the main cause of failure"],
-    cancers: ["aml", "all-leukemia", "cll", "multiple-myeloma"], technologies: ["mrd-testing"], terms: ["mrd-negative-cr", "eln-risk"], drugs: ["defibrotide"], links: [{ label: "Wikipedia", url: W("Hematopoietic_stem_cell_transplantation") }] }),
+    cancers: ["aml", "all-leukemia", "cll", "multiple-myeloma"], technologies: ["mrd-testing"], terms: ["mrd-negative-cr", "eln-risk"], drugs: ["defibrotide"], links: [{ label: "Wikipedia", url: W("Hematopoietic_stem_cell_transplantation") }], journals: ["hematology-oncology-and-stem-cell-therapy"] }),
   tech({ id: "flow-cytometry-mrd", name: "Multiparameter flow cytometry MRD", sections: ["diagnostics"], status: "standard-of-care", wikipedia: W("Flow_cytometry"),
     tldr: "Flow cytometry MRD counts leukaemia cells in the bone marrow one at a time by their surface proteins, down to one in ten thousand.",
     summary: "Eight- to ten-colour flow detects leukaemia-associated immunophenotypes or 'different-from-normal' patterns at 10^-4 sensitivity. The most widely available MRD method in AML and ALL; ELN 2021 MRD guidelines define thresholds and timepoints. Next-generation flow (EuroFlow) reaches 10^-5 in myeloma and ALL. In CLL, undetectable MRD (<10^-4) after venetoclax combinations predicts long remission and is a regulatory endpoint.",
@@ -104,7 +104,7 @@ const technologies: TechnologyInput[] = [
     principle: "Metaphase banding for genome-wide structure; interphase FISH for specific loci at single-cell level.",
     strengths: ["Genome-wide, cheap, decades of prognostic validation"],
     limitations: ["Needs dividing cells; 7-14 days; misses cryptic rearrangements"],
-    cancers: ["aml", "all-leukemia", "cll"], terms: ["eln-risk", "del17p-tp53"], links: [{ label: "Wikipedia", url: W("Fluorescence_in_situ_hybridization") }] }),
+    cancers: ["aml", "all-leukemia", "cll"], terms: ["eln-risk", "del17p-tp53"], links: [{ label: "Wikipedia", url: W("Fluorescence_in_situ_hybridization") }], journals: ["cancer-genetics", "genes-chromosomes-and-cancer"] }),
   tech({ id: "bh3-profiling", name: "BH3 profiling (functional apoptosis testing)", sections: ["diagnostics", "drug-discovery"], status: "emerging", wikipedia: W("Bcl-2_family"),
     tldr: "A lab test that measures how close a leukaemia cell is to self-destructing, and which survival protein is holding it back, to predict response to venetoclax-type drugs.",
     summary: "Permeabilised cells are exposed to BH3 peptides; mitochondrial depolarisation reveals dependence on BCL-2, BCL-XL, or MCL-1. Predicted venetoclax response in AML and CLL in research cohorts and explains MCL-1-mediated resistance. Being commercialised as a companion tool for BH3-mimetic selection and combination design.",
@@ -341,7 +341,7 @@ const trials: TrialInput[] = [
     result: "CR 23%, ORR 33%, median OS 6.6 months.",
     outcomes: [{ endpoint: "Complete remission", primary: true, unit: "%", arms: [{ name: "Ziftomenib", n: 112, value: 23 }], source: "https://www.appliedclinicaltrialsonline.com/view/fda-approves-komzifti-npm1-mutated-aml-positive-komet-001-trial-data" }, { endpoint: "Overall response rate", unit: "%", arms: [{ name: "Ziftomenib", value: 33 }] }, { endpoint: "Overall survival (median)", unit: "months", arms: [{ name: "Ziftomenib", value: 6.6 }] }],
     replication: "AUGMENT-101 (revumenib) NPM1 cohort produced a comparable CR+CRh rate, replicating the menin-dependence of NPM1-mutant AML with an independent molecule.",
-    drugs: ["ziftomenib"], cancers: ["aml"], targets: ["menin", "npm1"], links: [ct("NCT04067336"), { label: "FDA approval coverage (ASCO Post)", url: "https://ascopost.com/news/november-2025/fda-approves-ziftomenib-for-npm1-positive-aml/" }] }),
+    drugs: ["ziftomenib"], cancers: ["aml"], targets: ["menin", "npm1"], links: [ct("NCT04067336"), { label: "FDA approval coverage (ASCO Post)", url: "https://ascopost.com/news/november-2025/fda-approves-ziftomenib-for-npm1-positive-aml/" }], related: ["src-asco-post"] }),
   t({ id: "cpx-351-301", name: "CPX-351 Study 301", nct: "NCT01696084", phase: "3", status: "positive", yearReported: 2018, sponsor: "Celator / Jazz", enrolled: 309,
     setting: "Newly diagnosed high-risk or secondary AML, age 60-75: CPX-351 vs conventional 7+3",
     tldr: "Repackaging two old chemotherapies into liposomes doubled five-year survival in older adults with the worst kinds of AML.",

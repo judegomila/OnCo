@@ -401,7 +401,7 @@ export const chinaInstitutions: InstitutionInput[] = [
     summary: "Founded in 1984 and based at Tianjin Medical University Cancer Institute and Hospital, CACA has more than a hundred professional committees and publishes the CACA Guidelines for Holistic Integrative Management of Cancer, released annually since 2022 with an emphasis on domestic evidence, traditional and integrative medicine and the whole care pathway. Alongside CSCO it is one of the two societies whose guidance shapes oncology practice in China.",
     programs: ["CACA guidelines", "Professional committees by cancer and modality", "Public education"],
     links: [{ label: "CACA", url: "https://www.caca.org.cn/" }],
-    institutions: ["tmucih", "csco"], tags: ["china"] }),
+    institutions: ["tmucih", "csco"], tags: ["china"], people: ["fan-daiming"], journals: ["cancer-biology-and-medicine", "cancer-communications", "chinese-journal-of-lung-cancer"] }),
   i({ id: "ctong", name: "Chinese Thoracic Oncology Group", aka: ["CTONG", "中国胸部肿瘤研究协作组"], institutionType: "consortium", city: "Guangzhou", country: "CN", lat: 23.128, lng: 113.264, website: "https://www.ctong.org.cn/",
     tldr: "CTONG is the cooperative group of Chinese lung cancer trialists, founded by Yi-Long Wu, whose trials on EGFR-targeted pills before and after surgery changed practice worldwide.",
     summary: "Founded in 2007 and based at the Guangdong Lung Cancer Institute, CTONG runs investigator-initiated and industry-partnered lung cancer trials across more than 40 Chinese centres: ADJUVANT-CTONG1104 (adjuvant gefitinib), CTONG1103 (neoadjuvant erlotinib), CTONG1509 (bevacizumab plus erlotinib) and contributions to ADAURA and many domestic PD-1 and TKI registration trials. It is the model for Chinese cooperative groups in other cancers.",
@@ -419,7 +419,7 @@ export const chinaInstitutions: InstitutionInput[] = [
     summary: "The national centre for haematology within CAMS, with the State Key Laboratory of Experimental Hematology; origin of the CNCT19 CAR-T (inaticabtagene autoleucel, approved 2023 for adult B-ALL with Juventas), large leukaemia and myelodysplastic syndrome registries and early-phase trials of domestic bispecifics and cell therapies.",
     programs: ["State Key Laboratory of Experimental Hematology", "CAR-T development", "Leukaemia registries and trials"],
     links: [{ label: "Official website", url: "https://www.chinablood.com.cn/" }],
-    institutions: ["cams-cancer-hospital"], drugs: ["inaticabtagene-autoleucel"], cancers: ["all-leukemia", "aml", "mds"], technologies: ["car-t"], tags: ["china"] }),
+    institutions: ["cams-cancer-hospital"], drugs: ["inaticabtagene-autoleucel"], cancers: ["all-leukemia", "aml", "mds"], technologies: ["car-t"], tags: ["china"], people: ["tao-cheng"] }),
   i({ id: "renji-hospital", name: "Renji Hospital, Shanghai Jiao Tong University", aka: ["Renji Hospital", "仁济医院", "Shanghai Cancer Institute"], institutionType: "hospital", city: "Shanghai", country: "CN", lat: 31.209, lng: 121.532, university: "Shanghai Jiao Tong University", website: "https://www.renji.com/",
     tldr: "Renji Hospital and the Shanghai Cancer Institute on its campus are where CARsgen's solid-tumour CAR-T work began, including the Claudin 18.2 CAR-T satri-cel for stomach cancer.",
     summary: "Home of the State Key Laboratory of Oncogenes and Related Genes (Shanghai Cancer Institute), where Li Zonghai developed GPC3 and Claudin 18.2 CAR-T cells before founding CARsgen; a large gastrointestinal oncology and liver programme and one of the first sites for CT041 (satricabtagene autoleucel) trials.",
@@ -442,13 +442,13 @@ export const chinaInstitutions: InstitutionInput[] = [
     tldr: "Chongqing University Cancer Hospital is the main cancer centre for south-west China's largest city and a growing site for domestic trials.",
     summary: "Chongqing University Cancer Hospital, formerly Chongqing Cancer Hospital, is the main cancer centre for south-west China's largest city and a growing site for domestic trials. It is a municipal cancer centre with more than a thousand beds, holds the regional cancer registry role for Chongqing, takes part in national screening programmes, and enrols patients in registration trials of Chinese PD-1 antibodies, antibody-drug conjugates and kinase inhibitors. Its place in OnCo is as one of the large provincial and municipal centres through which China's domestic drug pipeline reaches patients outside Beijing, Shanghai and Guangzhou. Whether its registry data become publicly usable for research is the question a reader should ask. Its regional centre and clinical trials programmes are listed below.",
     programs: ["Regional cancer centre for Chongqing", "Clinical trials"],
-    links: [{ label: "Official website", url: "https://www.cqch.cn/" }], tags: ["china"] }),
+    links: [{ label: "Official website", url: "https://www.cqch.cn/" }], tags: ["china"], people: ["wang-ying"] }),
   i({ id: "sichuan-cancer-hospital", name: "Sichuan Cancer Hospital", aka: ["Sichuan Cancer Hospital and Institute", "四川省肿瘤医院"], institutionType: "cancer-center", city: "Chengdu", country: "CN", lat: 30.640, lng: 104.083, website: "https://www.sichuancancer.org/",
     tldr: "Sichuan Cancer Hospital in Chengdu is a large provincial cancer centre known for oesophageal and head and neck cancer radiotherapy and a partner of the city's ADC companies.",
     summary: "Sichuan Cancer Hospital in Chengdu, also the Sichuan Cancer Hospital and Institute, is a large provincial cancer centre known for oesophageal and head and neck cancer radiotherapy and for partnering with the city's antibody-drug conjugate companies. Its radiotherapy programme is among the largest in China, it treats high oesophageal cancer volumes from Sichuan's high-incidence areas, and it takes part in trials with the Chengdu-based Sichuan Kelun-Biotech and SystImmune, part of Sichuan Biokin, on their ADCs. OnCo connects it to oesophageal cancer and head and neck squamous cell carcinoma and to both companies. Whether a provincial hospital can be both trial site and neighbour to the sponsors without conflicts is a fair question. Its radiation oncology and ADC trial programmes are listed below.",
     programs: ["Radiation oncology", "Oesophageal and head and neck cancer", "ADC trials"],
     links: [{ label: "Official website", url: "https://www.sichuancancer.org/" }],
-    companies: ["kelun-biotech", "systimmune"], cancers: ["esophageal", "head-and-neck"], tags: ["china"] }),
+    companies: ["kelun-biotech", "systimmune"], cancers: ["esophageal", "head-and-neck"], tags: ["china"], people: ["lin-tongyu"] }),
 ];
 
 // =====================================================================================

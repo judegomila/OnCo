@@ -51,9 +51,9 @@ export const gapCancers: CancerInput[] = [
     pipeline: ["asciminib", "allogeneic-hsct"],
     openProblems: ["Blast-phase CML: median survival still under a year.", "Predicting who can stop TKI safely; second TFR attempts.", "Cardiovascular toxicity of nilotinib and ponatinib.", "Access to any TKI and to PCR monitoring in LMICs."],
     targets: ["bcr-abl"], technologies: ["kinase-inhibitors", "allogeneic-hsct", "mrd-testing", "cytogenetics-fish"], drugs: ["imatinib", "dasatinib", "nilotinib", "bosutinib", "ponatinib", "asciminib", "busulfan", "omacetaxine"],
-    pathways: ["ras-mapk", "pi3k-akt-mtor"], companies: ["novartis", "bms", "pfizer", "takeda"], terms: ["oncogene-addiction", "mrd", "resistance"],
+    pathways: ["ras-mapk", "pi3k-akt-mtor", "cml-signalling"], companies: ["novartis", "bms", "pfizer", "takeda"], terms: ["oncogene-addiction", "mrd", "resistance"],
     links: [{ label: "ELN 2020 recommendations", url: "https://www.nature.com/articles/s41375-020-0776-2" }, { label: "NCI PDQ: CML", url: PDQ("leukemia/patient/cml-treatment-pdq") }, { label: "SEER: CML", url: SEER("cmyl") }],
-    tags: ["gap-fill", "haematologic"],
+    tags: ["gap-fill", "haematologic"], journals: ["leukemia-research"],
   }),
   c({
     id: "mds", name: "Myelodysplastic syndromes / neoplasms (MDS)", group: "haematologic", wikipedia: W("Myelodysplastic_syndrome"),
@@ -91,7 +91,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["azacitidine", "decitabine-cedazuridine", "lenalidomide", "luspatercept", "imetelstat", "venetoclax", "magrolimab", "decitabine", "dorocubicel"],
     pathways: ["p53-cell-cycle", "apoptosis-bcl2"], companies: ["bms", "gilead", "novartis", "taiho"], terms: ["eln-risk", "mrd", "differentiation-syndrome"],
     links: [{ label: "IPSS-M (NEJM Evidence 2022)", url: "https://evidence.nejm.org/doi/full/10.1056/EVIDoa2200008" }, { label: "NCI PDQ: MDS", url: PDQ("myeloproliferative/patient/myelodysplastic-treatment-pdq") }, { label: "SEER: MDS", url: "https://seer.cancer.gov/statfacts/html/mds.html" }],
-    tags: ["gap-fill", "haematologic"], people: ["uwe-platzbecker", "pierre-fenaux"], related: ["systemic-mastocytosis"],
+    tags: ["gap-fill", "haematologic"], people: ["uwe-platzbecker", "pierre-fenaux"], related: ["systemic-mastocytosis"], journals: ["leukemia-research"],
   }),
   c({
     id: "myeloproliferative-neoplasms", name: "Myeloproliferative neoplasms (PV, ET, myelofibrosis)", group: "haematologic", wikipedia: W("Myeloproliferative_neoplasm"),
@@ -170,7 +170,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["rituximab", "obinutuzumab", "bendamustine", "lenalidomide", "mosunetuzumab", "epcoritamab", "odronextamab", "axicabtagene-ciloleucel", "tisagenlecleucel", "lisocabtagene-maraleucel", "zanubrutinib", "tazemetostat", "chlorambucil", "ibritumomab-tiuxetan"],
     pathways: ["apoptosis-bcl2"], companies: ["roche-genentech", "genmab", "abbvie", "gilead", "beone", "regeneron"], terms: ["lugano-classification", "histologic-transformation", "deauville-score"],
     links: [{ label: "NCCN Guidelines: B-Cell Lymphomas", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1480" }, { label: "NCI PDQ: adult NHL", url: PDQ("lymphoma/patient/adult-nhl-treatment-pdq") }, { label: "Lymphoma Research Foundation: FL", url: "https://lymphoma.org/understanding-lymphoma/aboutlymphoma/nhl/fl/" }],
-    tags: ["gap-fill", "haematologic"], related: ["lymphoma-research-foundation"],
+    tags: ["gap-fill", "haematologic"], related: ["lymphoma-research-foundation"], journals: ["hematological-oncology"],
   }),
   c({
     id: "mantle-cell-lymphoma", name: "Mantle cell lymphoma", group: "haematologic", wikipedia: W("Mantle_cell_lymphoma"),
@@ -473,7 +473,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["vismodegib", "sonidegib", "cemiplimab", "fluorouracil", "imiquimod", "aminolevulinic-acid"],
     companies: ["roche-genentech", "sanofi", "regeneron"], terms: ["irae"],
     links: [{ label: "NCCN Guidelines: Basal Cell Skin Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1416" }, { label: "ERIVANCE (NEJM 2012)", url: "https://doi.org/10.1056/NEJMoa1113713" }, { label: "NCI PDQ: skin cancer", url: PDQ("skin/patient/skin-treatment-pdq") }],
-    tags: ["gap-fill", "skin"],
+    tags: ["gap-fill", "skin"], pathways: ["basal-cell-carcinoma-signalling"],
   }),
   c({
     id: "uveal-melanoma", name: "Uveal melanoma", group: "skin", wikipedia: W("Uveal_melanoma"),
@@ -505,7 +505,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["tebentafusp", "melphalan", "ipilimumab", "nivolumab", "brenetafusp"],
     pathways: ["ras-mapk"], companies: ["immunocore"], terms: ["hla-a02-restriction", "crs"],
     links: [{ label: "NCCN Guidelines: Uveal Melanoma", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1488" }, { label: "Tebentafusp IMCgp100-202 (NEJM 2021)", url: "https://doi.org/10.1056/NEJMoa2103485" }, { label: "Ocular Melanoma Foundation", url: "https://ocularmelanoma.org/" }],
-    tags: ["gap-fill", "skin", "eye", "rare"],
+    tags: ["gap-fill", "skin", "eye", "rare"], journals: ["pigment-cell-and-melanoma-research"],
   }),
   // ======================= Genitourinary =======================
   c({
@@ -540,7 +540,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["cisplatin", "carboplatin", "etoposide", "bleomycin", "ifosfamide", "paclitaxel", "vinblastine"],
     companies: [], terms: ["afp", "late-recurrence", "retroperitoneum"],
     links: [{ label: "NCCN Guidelines: Testicular Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1468" }, { label: "IGCCCG Update (JCO 2021)", url: "https://doi.org/10.1200/JCO.20.03296" }, { label: "NCI PDQ: testicular cancer", url: PDQ("testicular/patient/testicular-treatment-pdq") }],
-    tags: ["gap-fill", "genitourinary", "aya"], related: ["paediatric-germ-cell-tumours"],
+    tags: ["gap-fill", "genitourinary", "aya"], related: ["paediatric-germ-cell-tumours"], journals: ["journal-of-adolescent-and-young-adult-oncology"],
   }),
   // ======================= Gastrointestinal =======================
   c({
@@ -762,7 +762,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["methotrexate", "doxorubicin", "cisplatin", "ifosfamide", "etoposide", "mifamurtide", "regorafenib", "cabozantinib", "docetaxel", "radium-223"],
     pathways: ["p53-cell-cycle", "vegf-angiogenesis"], companies: ["bayer", "exelixis", "takeda"], institutions: ["childrens-oncology-group"], terms: ["fnclcc-grade", "limb-salvage-term"],
     links: [{ label: "NCCN Guidelines: Bone Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1418" }, { label: "EURAMOS-1 (Lancet Oncol 2016)", url: "https://doi.org/10.1016/S1470-2045(16)30214-5" }, { label: "NCI PDQ: osteosarcoma", url: PDQ("bone/patient/osteosarcoma-treatment-pdq") }],
-    tags: ["gap-fill", "paediatric", "sarcoma", "aya"], people: ["stefan-bielack"], trials: ["euramos-1", "ccss"],
+    tags: ["gap-fill", "paediatric", "sarcoma", "aya"], people: ["stefan-bielack"], trials: ["euramos-1", "ccss"], journals: ["journal-of-adolescent-and-young-adult-oncology"],
   }),
   c({
     id: "ewing-sarcoma", name: "Ewing sarcoma", group: "paediatric", wikipedia: W("Ewing_sarcoma"),
@@ -794,7 +794,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["vincristine", "doxorubicin", "cyclophosphamide", "ifosfamide", "etoposide", "irinotecan", "temozolomide", "topotecan", "lurbinectedin", "docetaxel"],
     pathways: ["p53-cell-cycle"], companies: ["pharmamar", "jazz"], institutions: ["childrens-oncology-group"], terms: ["gene-fusion"],
     links: [{ label: "NCCN Guidelines: Bone Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1418" }, { label: "rEECur (Lancet 2024)", url: "https://doi.org/10.1016/S0140-6736(24)00248-9" }, { label: "NCI PDQ: Ewing sarcoma", url: PDQ("bone/patient/ewing-treatment-pdq") }],
-    tags: ["gap-fill", "paediatric", "sarcoma", "aya"], trials: ["ccss"],
+    tags: ["gap-fill", "paediatric", "sarcoma", "aya"], trials: ["ccss"], journals: ["journal-of-adolescent-and-young-adult-oncology"],
   }),
   c({
     id: "wilms-tumor", name: "Wilms tumour (nephroblastoma)", group: "paediatric", wikipedia: W("Wilms%27_tumor"),
@@ -825,7 +825,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["vincristine", "dactinomycin", "doxorubicin", "cyclophosphamide", "carboplatin", "etoposide", "ifosfamide"],
     pathways: ["wnt", "p53-cell-cycle"], institutions: ["childrens-oncology-group"], terms: ["germline-vs-somatic", "nephrectomy"],
     links: [{ label: "NCI PDQ: Wilms tumour", url: PDQ("kidney/patient/wilms-treatment-pdq") }, { label: "SIOP-RTSG UMBRELLA protocol (Nat Rev Urol 2017)", url: "https://doi.org/10.1038/nrurol.2017.163" }, { label: "Children's Oncology Group", url: "https://childrensoncologygroup.org/" }],
-    tags: ["gap-fill", "paediatric"], people: ["jeffrey-dome"], trials: ["ccss"],
+    tags: ["gap-fill", "paediatric"], people: ["jeffrey-dome"], trials: ["ccss"], journals: ["journal-of-pediatric-hematology-oncology", "pediatric-hematology-and-oncology"], related: ["paediatric-oncology-roadmap"],
   }),
   c({
     id: "retinoblastoma", name: "Retinoblastoma", group: "paediatric", wikipedia: W("Retinoblastoma"),
@@ -984,7 +984,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["toripalimab", "camrelizumab", "tislelizumab", "penpulimab", "gemcitabine-cisplatin", "cisplatin", "nivolumab", "pembrolizumab"],
     pathways: ["pd1-checkpoint"], companies: ["akeso", "hengrui", "beone", "jiangsu-hengrui"], institutions: ["sysucc"], terms: ["ctdna", "re-irradiation"],
     links: [{ label: "CSCO/ASCO NPC guideline (JCO 2021)", url: "https://doi.org/10.1200/JCO.20.03237" }, { label: "EBV DNA screening (NEJM 2017)", url: "https://doi.org/10.1056/NEJMoa1701717" }, { label: "NCI PDQ: nasopharyngeal cancer", url: PDQ("head-and-neck/patient/adult/nasopharyngeal-treatment-pdq") }],
-    tags: ["gap-fill", "head-and-neck", "viral"],
+    tags: ["gap-fill", "head-and-neck", "viral"], journals: ["tumour-virus-research"],
   }),
   c({
     id: "thymic-epithelial", name: "Thymoma and thymic carcinoma", group: "thoracic", wikipedia: W("Thymoma"),
@@ -1118,6 +1118,6 @@ export const gapCancers: CancerInput[] = [
     drugs: ["pegylated-liposomal-doxorubicin", "paclitaxel", "pomalidomide", "vincristine", "bleomycin", "everolimus", "pembrolizumab", "nivolumab"],
     pathways: ["vegf-angiogenesis", "pi3k-akt-mtor"], companies: ["bms", "johnson-johnson"], terms: ["irae"],
     links: [{ label: "NCCN Guidelines: Kaposi Sarcoma", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1447" }, { label: "ACTG A5263 (Lancet 2020)", url: "https://doi.org/10.1016/S0140-6736(19)33222-2" }, { label: "NCI PDQ: Kaposi sarcoma", url: PDQ("soft-tissue-sarcoma/patient/kaposi-treatment-pdq") }],
-    tags: ["gap-fill", "skin", "viral", "global"],
+    tags: ["gap-fill", "skin", "viral", "global"], journals: ["tumour-virus-research"],
   }),
 ];

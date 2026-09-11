@@ -121,7 +121,7 @@ const trials: TrialInput[] = [
     result: "OS HR 0.76; 2-year OS 23.6% vs 11.5%.",
     outcomes: [{ endpoint: "Overall survival (updated)", primary: true, unit: "months", arms: [{ name: "Durvalumab + GemCis", n: 341, value: 12.9 }, { name: "Placebo + GemCis", n: 344, value: 11.3 }], hr: 0.76, ci: [0.64, 0.91] }, { endpoint: "24-month overall survival", unit: "%", arms: [{ name: "Durvalumab + GemCis", value: 23.6 }, { name: "Placebo + GemCis", value: 11.5 }] }],
     replication: "KEYNOTE-966 (pembrolizumab) reproduced the class effect.",
-    drugs: ["durvalumab", "gemcitabine-cisplatin"], cancers: ["cholangiocarcinoma"], links: [ct("NCT03875235"), { label: "Updated OS (PubMed)", url: "https://pubmed.ncbi.nlm.nih.gov/38823398/" }, { label: "3-year update", url: "https://www.journal-of-hepatology.eu/article/S0168-8278(25)02201-9/fulltext" }], people: ["juan-valle"] }),
+    drugs: ["durvalumab", "gemcitabine-cisplatin"], cancers: ["cholangiocarcinoma"], links: [ct("NCT03875235"), { label: "Updated OS (PubMed)", url: "https://pubmed.ncbi.nlm.nih.gov/38823398/" }, { label: "3-year update", url: "https://www.journal-of-hepatology.eu/article/S0168-8278(25)02201-9/fulltext" }], people: ["juan-valle", "oh-do-youn"] }),
   t({ id: "keynote-966", name: "KEYNOTE-966", nct: "NCT04003636", phase: "3", status: "positive", yearReported: 2023, sponsor: "Merck", enrolled: 1069,
     setting: "First-line advanced biliary tract cancer: gemcitabine-cisplatin + pembrolizumab vs + placebo",
     tldr: "A second immunotherapy trial confirmed the modest survival benefit of adding PD-1 blockade to chemotherapy in bile duct cancer.",

@@ -52,7 +52,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Preserving vision in optic pathway glioma, where imaging response and visual outcome do not always agree; visual endpoints are now built into trials.",
       "Access to molecular testing and to the new drugs outside high-income countries.",
     ],
-    targets: ["braf"], pathways: ["ras-mapk"], drugs: ["dabrafenib-trametinib", "tovorafenib", "carboplatin", "vincristine", "vinblastine"],
+    targets: ["braf"], pathways: ["ras-mapk", "glioma-signalling"], drugs: ["dabrafenib-trametinib", "tovorafenib", "carboplatin", "vincristine", "vinblastine"],
     technologies: ["kinase-inhibitors", "methylation-profiling", "proton-therapy", "mri", "survivorship-care-plan"], trials: ["tadpole", "firefly-1", "pediatric-match"],
     institutions: ["childrens-oncology-group", "siop-europe", "cclg"], companies: ["day-one-biopharmaceuticals", "novartis"], terms: ["late-effects", "germline-testing"], bottlenecks: ["b-rare-cancers", "b-survivorship"],
     related: ["dipg-dmg", "glioblastoma", "race-for-children-act", "ependymoma", "craniopharyngioma"],
@@ -472,6 +472,6 @@ export const nciPaediatricCancers: CancerInput[] = [
       { label: "NCI PDQ: childhood cardiac tumours", url: PDQ("cardiac/patient-child-cardiac-treatment-pdq") },
       { label: "EXPeRT: European Cooperative Study Group for Paediatric Rare Tumours", url: "https://www.raretumors-children.eu/" },
     ],
-    tags: ["nci-coverage", "paediatric", "umbrella"],
+    tags: ["nci-coverage", "paediatric", "umbrella"], journals: ["journal-of-pediatric-hematology-oncology", "journal-of-pediatric-hematology-oncology-nursing", "pediatric-hematology-and-oncology"],
   }),
 ];

@@ -73,7 +73,7 @@ const entities: EntityInput[] = [
     tldr: "The 2005 trial that set the treatment every glioblastoma patient still receives. Nothing has replaced it in twenty years.",
     summary: "EORTC 26981 with NCIC CE.3, the Stupp trial, NCT00006353, reported in 2005, set the treatment every glioblastoma patient still receives: radiotherapy with concurrent and adjuvant temozolomide, which nothing has replaced in twenty years. It randomised 573 patients with newly diagnosed glioblastoma to radiotherapy with or without temozolomide, met its primary overall survival endpoint, and its five-year update in 2009 showed a small but real minority of long-term survivors, while the companion analysis by Hegi showed that MGMT promoter methylation predicts benefit. OnCo links it to temozolomide, the MGMT promoter methylation term, Martin J. van den Bent, Monika E. Hegi, Michael Weller and Roger Stupp, and to the brain as a bottleneck. The Stupp regimen has been the control arm of every glioblastoma trial since, and whether anything can beat it remains the field's central question.",
     result: "OS 14.6 vs 12.1 months, HR 0.63.",
-    drugs: ["temozolomide"], cancers: ["glioblastoma"], technologies: ["imrt-igrt"], terms: ["mgmt"], links: [ct("NCT00006353")], people: ["martin-van-den-bent", "monika-hegi"],
+    drugs: ["temozolomide"], cancers: ["glioblastoma"], technologies: ["imrt-igrt"], terms: ["mgmt"], links: [ct("NCT00006353")], people: ["martin-van-den-bent", "monika-hegi", "michael-weller", "roger-stupp"],
   },
   {
     id: "ef-14", kind: "trial", name: "EF-14", nct: "NCT00916409", phase: "3", status: "positive", yearReported: 2015, sponsor: "Novocure", asOf,
@@ -81,7 +81,7 @@ const entities: EntityInput[] = [
     tldr: "The trial that made a wearable electric-field device part of glioblastoma care, extending median survival by about five months.",
     summary: "EF-14, trial NCT00916409 sponsored by Novocure and reported in 2015, made a wearable electric-field device part of glioblastoma care by extending median survival by about five months when added to maintenance temozolomide. It randomised 695 patients with newly diagnosed glioblastoma after chemoradiation, open-label, to tumour treating fields plus temozolomide or temozolomide alone, met its primary progression-free survival endpoint, improved overall survival and was stopped early for efficacy, with benefit correlating with hours of device use. OnCo links it to tumour treating fields, the Optune device record, temozolomide, Novocure, Roger Stupp and the brain as a bottleneck. The trial is debated for its lack of a sham control and has no independent randomised replication, so whether the effect is real or partly an artefact of design is the open question.",
     result: "OS 20.9 vs 16.0 months, HR 0.63.",
-    drugs: ["optune", "temozolomide"], cancers: ["glioblastoma"], technologies: ["ttfields"], companies: ["novocure"], links: [ct("NCT00916409")],
+    drugs: ["optune", "temozolomide"], cancers: ["glioblastoma"], technologies: ["ttfields"], companies: ["novocure"], links: [ct("NCT00916409")], people: ["roger-stupp"],
   },
   {
     id: "indigo", kind: "trial", name: "INDIGO", nct: "NCT04164901", phase: "3", status: "positive", yearReported: 2023, sponsor: "Servier", asOf,

@@ -30,7 +30,7 @@ export const mechanicsPathways: PathwayInput[] = [
     ],
     interventions: ["Screening and excision of in situ disease (colposcopy, DCIS surgery, endoscopic resection) before the breach", "HPV vaccination removes the commonest driver of cervical in situ lesions", "MMP inhibitors failed clinically in the 1990s; invasion is now approached via FAK, integrin and stromal targets", "Staging (Tis vs T1) and margins encode whether the barrier was crossed"],
     technologies: ["colposcopy-excision", "endoscopic-resection", "precancer-ablation", "hpv-vaccine", "histopathology-ihc"], terms: ["tnm-staging", "cin-hsil", "barretts-esophagus", "stage-shift"], pathways: ["emt", "invasion-ecm-degradation", "field-cancerisation"], cancers: ["cervical", "esophageal", "breast-hr-positive", "urothelial"],
-    links: [{ label: "Kelley et al., Traversing the basement membrane in vivo (J Cell Biol 2014)", url: "https://doi.org/10.1083/jcb.201408085" }],
+    links: [{ label: "Kelley et al., Traversing the basement membrane in vivo (J Cell Biol 2014)", url: "https://doi.org/10.1083/jcb.201311112" }],
   }),
   p({
     id: "cancer-immunity-cycle", name: "The cancer-immunity cycle", wikipedia: W("Cancer_immunology"),

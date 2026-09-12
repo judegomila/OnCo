@@ -265,7 +265,7 @@ export const peopleLeadersWave2: PersonInput[] = [
   p({ id: "alon-chen", name: "Alon Chen", role: "President", institutionId: "weizmann", specialisms: ["Neuroscience", "Stress biology", "Research leadership"],
     tldr: "Neuroscientist who has been President of the Weizmann Institute of Science since 2019, leading one of the world's foremost basic research institutes, including its cancer research programmes.",
     summary: "Alon Chen is President of the Weizmann Institute of Science in Rehovot, Israel, a position he has held since 2019. A neurobiologist, his own laboratory studies the neurobiology of stress and its links to psychiatric disorders. As President he oversees the institute's research across the life sciences, including its cancer research and immunotherapy programmes.",
-    profiles: [{ label: "Institution profile", url: "https://www.weizmann.ac.il/pages/leadership" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Chen+A%5BAuthor%5D+Weizmann+stress" }],
+    profiles: [ { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Chen+A%5BAuthor%5D+Weizmann+stress" }],
     tags: ["leadership", "basic science"] }),
   // =================== UMC Utrecht Cancer Center ===================
   p({ id: "wouter-de-laat", name: "Wouter de Laat", role: "Chair, Strategic Program Cancer", institutionId: "umc-utrecht", specialisms: ["Genome organisation", "Chromatin biology", "Cancer genomics"],
@@ -285,7 +285,7 @@ export const peopleLeadersWave2: PersonInput[] = [
   p({ id: "chong-jen-yu", name: "Chong-Jen Yu", role: "Superintendent", institutionId: "ntuh", specialisms: ["Pulmonology", "Critical care medicine", "Hospital leadership"],
     tldr: "Pulmonologist appointed Superintendent of National Taiwan University Hospital in August 2025, leading Taiwan's flagship academic medical centre.",
     summary: "Chong-Jen Yu (余忠仁) has served as Superintendent of National Taiwan University Hospital since August 2025, the 17th superintendent in the hospital's National Taiwan University era. A professor of internal medicine and specialist in pulmonary and critical care medicine, he previously led NTUH's Hsin-Chu branch. As Superintendent he oversees the hospital's clinical services, including its cancer centre.",
-    profiles: [{ label: "Institution profile", url: "https://www.ntuh.gov.tw/ntuh-en/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Yu+CJ%5BAuthor%5D+National+Taiwan+University+Hospital" }],
+    profiles: [ { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Yu+CJ%5BAuthor%5D+National+Taiwan+University+Hospital" }],
     tags: ["leadership", "pulmonology"] }),
   // =================== Medicines and Healthcare products Regulatory Agency ===================
   p({ id: "lawrence-tallon", name: "Lawrence Tallon", role: "Chief Executive", institutionId: "mhra", specialisms: ["Medicines regulation", "Health system leadership", "Patient safety"],

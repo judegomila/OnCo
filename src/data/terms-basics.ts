@@ -730,7 +730,6 @@ export const termsBasics: TermInput[] = [
     aka: ["treatment-refractory", "chemo-refractory", "chemorefractory", "platinum-refractory", "primary refractory", "refractory disease", "refractory to", "did not respond", "failed to respond", "unresponsive", "treatment-resistant", "heavily pretreated", "heavily pre-treated", "pretreated", "pre-treated"],
     tldr: "Cancer that does not respond to a treatment at all, or grows straight through it. Distinct from relapse, where the cancer responded first and came back later.",
     summary: "Refractory disease implies primary resistance: the tumour never depended on the drug's target, could not be reached by it, or had a resistant population from the outset. 'Relapsed or refractory' (R/R) is the standard label for the population in later-line trials, particularly in blood cancers, and 'platinum-refractory' ovarian cancer (progressing during or within a month of platinum chemotherapy) marks the group with the poorest prognosis. Because refractory patients have exhausted standard options, they are where new mechanisms are first tested and where the bar for approval is lowest.",
-    wikipedia: W("Refractory_(medicine)"),
     related: ["resistance", "relapse-recurrence", "progression", "first-line", "accelerated-approval"],
   }),
   t({

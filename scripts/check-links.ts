@@ -14,7 +14,9 @@
  * Writes public/links.json. The weekly workflow (.github/workflows/links.yml) opens a PR with the
  * result and /audit/ shows the broken-links section from it.
  *
- * Run: npx tsx scripts/check-links.ts [--limit N] [--no-archive] [--only <substring>]
+ * Run: npx tsx scripts/check-links.ts [--limit N] [--no-archive] [--only <substring>] [--recheck-broken] [--resume]
+ * A partial run (--only, --limit or --recheck-broken, which re-probes only the URLs the previous report
+ * marked broken) is merged into the previous public/links.json instead of replacing it.
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -26,8 +28,8 @@ export type LinkResult = { url: string; status: number; ok: boolean; finalUrl?: 
 export type LinksReport = { generated: string; total: number; checked: number; broken: number; moved: number; archived: number; results: LinkResult[] };
 
 const UA = "Mozilla/5.0 (compatible; OnCo link checker; +https://github.com/judegomila/OnCo)";
-const MAX_CONCURRENCY = 6;
-const PER_HOST_DELAY_MS = 1200;
+const MAX_CONCURRENCY = 8;
+const PER_HOST_DELAY_MS = 1000;
 
 /** Every external URL an entity cites, with the field it sits in. */
 export function collectUrls(entities: Entity[]): Map<string, LinkRef[]> {
@@ -123,18 +125,36 @@ async function main() {
   const only = arg("--only");
   const archive = !argv.includes("--no-archive");
 
-  const g = graph();
-  const all = collectUrls(g.entities);
-  let urls = [...all.keys()];
-  if (only) urls = urls.filter((u) => u.includes(only));
-  if (limit) urls = urls.slice(0, limit);
+  const recheckBroken = argv.includes("--recheck-broken");
 
   // Reuse earlier archive lookups so weekly runs do not re-query the Wayback API for every URL.
   const prevPath = join(process.cwd(), "public", "links.json");
   const prev: Record<string, LinkResult> = {};
   if (existsSync(prevPath)) for (const r of (JSON.parse(readFileSync(prevPath, "utf8")) as LinksReport).results) prev[r.url] = r;
 
+  const g = graph();
+  const all = collectUrls(g.entities);
+  let urls = [...all.keys()];
+  if (only) urls = urls.filter((u) => u.includes(only));
+  if (recheckBroken) urls = urls.filter((u) => prev[u] && !prev[u].ok);
+  if (limit) urls = urls.slice(0, limit);
+  // A partial run (--only, --limit, --recheck-broken) is merged into the previous report rather than
+  // replacing it: URLs no longer cited anywhere are dropped, re-probed URLs are replaced, the rest keep
+  // their earlier result with refreshed citations.
+  const partial = !!only || !!limit || recheckBroken;
+
+  // A full run takes an hour or more, so results are checkpointed every 100 URLs; --resume picks up
+  // from the checkpoint instead of probing everything again.
+  const checkpointPath = process.env.LINKS_CHECKPOINT ?? "/tmp/onco-links-checkpoint.json";
   const results: LinkResult[] = [];
+  if (argv.includes("--resume") && existsSync(checkpointPath)) {
+    const saved = JSON.parse(readFileSync(checkpointPath, "utf8")) as LinkResult[];
+    const wanted = new Set(urls);
+    for (const r of saved) if (wanted.has(r.url)) results.push({ ...r, refs: all.get(r.url) ?? r.refs });
+    const have = new Set(results.map((r) => r.url));
+    urls = urls.filter((u) => !have.has(u));
+    console.log(`resuming: ${results.length} results from the checkpoint, ${urls.length} URLs left to probe`);
+  }
   const checked = new Date().toISOString().slice(0, 10);
   let done = 0;
   await pooled(urls, probe, (url, p) => {
@@ -142,13 +162,16 @@ async function main() {
     const finalHost = p.finalUrl ? hostOf(p.finalUrl) : undefined;
     results.push({ url, status: p.status, ok, finalUrl: p.finalUrl, domainMoved: !!finalHost && finalHost !== hostOf(url) && !finalHost.endsWith(`.${hostOf(url)}`) && !hostOf(url).endsWith(`.${finalHost}`) ? true : undefined, error: p.error, checked, refs: all.get(url) ?? [], archive: prev[url]?.archive });
     done++;
-    if (done % 100 === 0) console.log(`  ${done}/${urls.length}`);
+    if (done % 100 === 0) { console.log(`  ${done}/${urls.length}`); writeFileSync(checkpointPath, JSON.stringify(results)); }
   });
+  writeFileSync(checkpointPath, JSON.stringify(results));
 
   if (archive) {
-    const broken = results.filter((r) => !r.ok);
-    console.log(`archiving: ${broken.length} broken links, looking up Wayback snapshots`);
-    for (const r of broken) {
+    // Only links that are actually gone need an archive copy. A 403, 429 or 5xx is almost always a site
+    // refusing a bot, and looking those up would triple the run time for nothing.
+    const dead = results.filter((r) => !r.ok && (r.status === 404 || r.status === 410 || r.status === 0));
+    console.log(`archiving: ${dead.length} dead links (404, 410 or no response), looking up Wayback snapshots`);
+    for (const r of dead) {
       if (!r.archive) r.archive = await waybackAvailable(r.url);
       if (!r.archive) { r.archiveRequested = await waybackSave(r.url); await sleep(3000); }
       await sleep(500);
@@ -158,6 +181,10 @@ async function main() {
     for (const r of fresh) { r.archive = await waybackAvailable(r.url); await sleep(400); }
   }
 
+  if (partial && Object.keys(prev).length) {
+    const probed = new Set(results.map((r) => r.url));
+    for (const r of Object.values(prev)) if (all.has(r.url) && !probed.has(r.url)) results.push({ ...r, refs: all.get(r.url) ?? r.refs });
+  }
   results.sort((a, b) => Number(a.ok) - Number(b.ok) || a.status - b.status || a.url.localeCompare(b.url));
   const report: LinksReport = { generated: new Date().toISOString(), total: all.size, checked: results.length, broken: results.filter((r) => !r.ok).length, moved: results.filter((r) => r.domainMoved).length, archived: results.filter((r) => r.archive).length, results };
   const out = join(process.cwd(), "public");

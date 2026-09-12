@@ -117,6 +117,18 @@ function outgoingIds(e: Entity): string[] {
   return out.filter((id) => id !== e.id);
 }
 
+/** Does a piece of prose name this entity? Its name (without a parenthetical), any aka, or the leading acronym of a trial name, compared with punctuation and case removed. */
+export function mentions(text: string, e: Entity): boolean {
+  const flat = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const hay = flat(text);
+  const base = e.name.replace(/\(.*?\)/g, " ");
+  // A name that lists several things ("Extended pleurectomy/decortication & radical mesothelioma surgery") counts when any one part is named.
+  const names = [base, ...base.split(/\s*(?:&|;|,|\band\b)\s*/).filter((p) => p.length >= 8), ...e.aka];
+  if (e.kind === "trial") names.push(e.name.split(/[\s(/&]/)[0]);
+  if (e.kind === "drug") names.push(e.name.split(/[\s(/&,]/)[0]);
+  return names.map(flat).filter((n) => n.length >= 4).some((n) => hay.includes(n));
+}
+
 const SCALAR_SKIP = new Set(["id", "kind", "asOf", "provenance"]);
 const short = (v: unknown) => { const s = typeof v === "string" ? v : JSON.stringify(v); return s.length > 60 ? s.slice(0, 57) + "..." : s; };
 
@@ -153,6 +165,9 @@ export function auditEntities(entities: Entity[], opts: AuditOptions = {}): Find
   const findings: Finding[] = [];
   const add = (check: string, severity: Finding["severity"], e: Entity, detail: string) => findings.push({ check, severity, id: e.id, kind: e.kind, name: e.name, route: routeFor(e), detail });
 
+  const trialsByDrug = new Map<string, Entity[]>();
+  for (const t of entities) if (t.kind === "trial") for (const d of t.drugs) trialsByDrug.set(d, [...(trialsByDrug.get(d) ?? []), t]);
+
   const incoming = new Map<string, number>();
   const outDegree = new Map<string, number>();
   for (const e of entities) {
@@ -164,11 +179,16 @@ export function auditEntities(entities: Entity[], opts: AuditOptions = {}): Find
   for (const e of entities) {
     if (e.kind === "drug") {
       const hasApprovals = e.approvals.length > 0;
-      if (APPROVED_LIKE.has(e.status ?? "") && !hasApprovals) add("status-vs-approvals", "high", e, `status "${e.status}" but no approvals recorded`);
+      // A regimen (FOLFOX, FLOT) has no marketing authorisation of its own; its standing comes from guidelines, not a licence.
+      const isRegimen = /\bregimen\b/i.test(e.modality);
+      // Tests, assays and software are cleared or CE-marked rather than approved, and "established" is their approved-like status.
+      const isTest = /\b(test|assay|classifier|software|device|imaging agent|panel|score)\b/i.test(e.modality);
+      if (APPROVED_LIKE.has(e.status ?? "") && !hasApprovals && !isRegimen) add("status-vs-approvals", "high", e, `status "${e.status}" but no approvals recorded`);
       const majorApprovals = e.approvals.filter((a) => /^(US|EU|FDA|EMA)/i.test(a.region));
-      if (majorApprovals.length && !APPROVED_LIKE.has(e.status ?? "") && e.status !== "withdrawn") add("status-vs-approvals", "medium", e, `US/EU approvals recorded (${majorApprovals.map((a) => `${a.region} ${a.year}`).join(", ")}) but status is "${e.status ?? "unset"}"`);
+      const approvedLikeStatus = APPROVED_LIKE.has(e.status ?? "") || e.status === "withdrawn" || e.status === "historic" || (isTest && e.status === "established");
+      if (majorApprovals.length && !approvedLikeStatus) add("status-vs-approvals", "medium", e, `US/EU approvals recorded (${majorApprovals.map((a) => `${a.region} ${a.year}`).join(", ")}) but status is "${e.status ?? "unset"}"`);
       else if (hasApprovals && !majorApprovals.length && !APPROVED_LIKE.has(e.status ?? "")) add("regional-approval-only", "low", e, `approved only outside US/EU (${e.approvals.map((a) => `${a.region} ${a.year}`).join(", ")}); status "${e.status ?? "unset"}" describes the global stage`);
-      if (!APPROVED_LIKE.has(e.status ?? "") && e.status !== "withdrawn" && /\b(was|is|were|been) approved\b|\bFDA approved\b|\bapproval (in|for) \d{4}/i.test(e.tldr + " " + e.summary) && !/\bChina\b|\bNMPA\b|\bJapan\b|\bEU\b|\bEMA\b/i.test(e.summary))
+      if (!APPROVED_LIKE.has(e.status ?? "") && e.status !== "withdrawn" && !isTest && /\b(was|is|were|been) approved\b|\bFDA approved\b|\bapproval (in|for) \d{4}/i.test(e.tldr + " " + e.summary) && !/\bChina\b|\bNMPA\b|\bJapan\b|\bEU\b|\bEMA\b/i.test(e.summary))
         add("text-says-approved", "low", e, `text mentions approval but status is "${e.status ?? "unset"}"`);
       const approvalYears = e.approvals.map((a) => a.year);
       if (approvalYears.some((y) => y > year)) add("future-approval", "high", e, `approval year in the future: ${approvalYears.filter((y) => y > year).join(", ")}`);
@@ -193,11 +213,41 @@ export function auditEntities(entities: Entity[], opts: AuditOptions = {}): Find
       if (latest && latest.d > e.asOf) add("asof-before-regulatory-event", "medium", e, `asOf ${e.asOf} predates the ${latest.ev.type} dated ${latest.ev.date} (${latest.ev.region}): ${latest.ev.note.slice(0, 80)}`);
     }
 
+    if (e.kind === "drug" && APPROVED_LIKE.has(e.status ?? "")) {
+      // An approved product whose every linked trial is still running has no pivotal evidence in the corpus.
+      const linked = [...new Set([...(trialsByDrug.get(e.id) ?? []), ...e.trials.map(get).filter((x): x is Entity => !!x && x.kind === "trial")])];
+      if (linked.length && linked.every((t) => ["recruiting", "active", "planned"].includes(t.status ?? "")))
+        add("approved-only-live-trials", "low", e, `status "${e.status}" but every linked trial is still running (${linked.map((t) => `${t.name}: ${t.status}`).join(", ")}); link the pivotal trial or note that the approval was accelerated on earlier data`);
+    }
+
+    // Numbers in the prose versus the record's own structured fields.
+    if (e.kind === "drug" && e.approvals.length) {
+      const prose = `${e.tldr} ${e.summary}`;
+      const eventYears = e.regulatoryEvents.filter((r) => r.type === "approval").map((r) => Number(r.date.slice(0, 4))).filter((y) => Number.isFinite(y));
+      const earliest = Math.min(...e.approvals.map((a) => a.year), ...eventYears);
+      // "approved in 2004", "approval (2004)"; a designation, filing or trial dated between the word and the year is not an approval year.
+      const early = [...prose.matchAll(/\bapprov(?:ed|al)s?\b([^.;:]{0,60}?)\b((?:19|20)\d{2})\b/gi)].filter((m) => !/designation|filed|filing|submitted|application|review|trial|study|since|until|withdrawn|withdrew|generic|biosimilar/i.test(m[1])).map((m) => Number(m[2])).filter((y) => y < earliest);
+      if (early.length) add("text-vs-structured", "low", e, `text mentions approval in ${[...new Set(early)].join(", ")} but the earliest recorded approval is ${earliest}; add the missing approvals[] row or correct the year`);
+    }
     if (e.kind === "trial") {
+      const prose = [e.tldr, e.summary, e.result ?? ""].join(" ");
+      const textHrs = [...prose.matchAll(/\b(?:HR|hazard ratio)\s*(?:of|=|:)?\s*(\d?\.\d+)\b/gi)].map((m) => Number(m[1]));
+      const withHr = e.outcomes.filter((o) => o.hr !== undefined);
+      if (textHrs.length === 1 && withHr.length === 1 && Math.abs(textHrs[0] - withHr[0].hr!) > 0.005)
+        add("text-vs-structured", "medium", e, `text says HR ${textHrs[0]} but the structured outcome "${withHr[0].endpoint}" has HR ${withHr[0].hr}`);
+      if (e.enrolled !== undefined) {
+        for (const m of prose.matchAll(/\b(enrolled|randomi[sz]ed)\s+(a total of\s+|some\s+|about\s+|around\s+|roughly\s+|nearly\s+|over\s+|more than\s+|almost\s+)?(\d{1,3}(?:,\d{3})+|\d{2,6})\b(?![-\d]|\s*(?:%|percent|per cent|sites|centres|centers|countries|hospitals|arms|to\s))/gi)) {
+          if (m[2]) continue; // hedged figures are rounded on purpose
+          const n = Number(m[3].replace(/,/g, ""));
+          if (n >= 1990 && n <= 2035 && !m[3].includes(",")) continue; // a year, not a count
+          if (m[1].toLowerCase().startsWith("enrol") ? n !== e.enrolled : n > e.enrolled)
+            add("text-vs-structured", "medium", e, `text says ${m[1]} ${m[3]} but enrolled is ${e.enrolled}`);
+        }
+      }
       if (e.status === "positive" && !e.result && e.outcomes.length === 0) add("positive-no-result", "medium", e, "status positive but neither result text nor structured outcomes");
       if (e.yearReported && e.yearReported > year) add("future-year", "high", e, `yearReported ${e.yearReported} is in the future`);
       const primaryHr = e.outcomes.filter((o) => o.primary && o.hr !== undefined && o.hr >= 1);
-      if (e.status === "positive" && primaryHr.length && !/non-inferior|noninferior|de-escalat|omit|shorter|equivalen/i.test(textOf(e)))
+      if (e.status === "positive" && primaryHr.length && !/non-inferior|noninferior|de-escalat|omit|skip|spar(e|ing)|shorter|equivalen/i.test(textOf(e)))
         add("positive-hr-ge-1", "medium", e, `status positive but primary endpoint hazard ratio ${primaryHr.map((o) => `${o.hr} (${o.endpoint})`).join(", ")}; not described as a non-inferiority or de-escalation trial`);
     }
 
@@ -210,9 +260,13 @@ export function auditEntities(entities: Entity[], opts: AuditOptions = {}): Find
     }
 
     if (e.kind === "cancer") {
+      // A negative trial or withdrawn product cited as the evidence against a practice ("not recommended after MARS 2")
+      // is a legitimate reference when the row's text names it; an unexplained citation is the contradiction.
       for (const row of e.standardOfCare) for (const id of row.refs) {
         const r = get(id);
-        if (r && (DEAD.has(r.status ?? "") || r.tags.includes("failure"))) add("soc-cites-dead", "high", e, `standard-of-care row "${row.setting}" cites ${r.name} (status ${r.status ?? "unset"})`);
+        if (!r || !(DEAD.has(r.status ?? "") || r.tags.includes("failure"))) continue;
+        if (mentions(row.approach, r)) continue;
+        add("soc-cites-dead", "high", e, `standard-of-care row "${row.setting}" cites ${r.name} (status ${r.status ?? "unset"}) without saying so in the text; explain the negative result or drop the reference`);
       }
       for (const id of e.pipeline) {
         const r = get(id);
@@ -226,7 +280,7 @@ export function auditEntities(entities: Entity[], opts: AuditOptions = {}): Find
         if (step.status === "historic") continue;
         for (const id of step.refs) {
           const r = get(id);
-          if (r && r.kind === "drug" && (r.status === "withdrawn" || r.status === "negative" || r.tags.includes("failure"))) add("roadmap-cites-withdrawn", "medium", e, `step "${step.title}" (${step.status}) cites ${r.name} (status ${r.status ?? "unset"}); mark the step historic or replace the reference`);
+          if (r && r.kind === "drug" && (r.status === "withdrawn" || r.status === "negative" || r.tags.includes("failure")) && !mentions(step.description, r)) add("roadmap-cites-withdrawn", "medium", e, `step "${step.title}" (${step.status}) cites ${r.name} (status ${r.status ?? "unset"}) without saying so; mark the step historic, explain the failure in the text or replace the reference`);
         }
       }
     }

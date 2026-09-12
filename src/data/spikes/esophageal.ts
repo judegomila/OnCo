@@ -10,7 +10,7 @@ const asOf = "2026-09-07";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 const NCCN_ESO = "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1433";
-const ESMO_ESO = "https://www.esmo.org/guidelines/guidelines-by-topic/esmo-clinical-practice-guidelines-gastrointestinal-cancers/oesophageal-cancer";
+const ESMO_ESO = "https://www.esmo.org/guidelines/esmo-clinical-practice-guidelines-gastrointestinal-cancers/";
 
 type T = Omit<TrialInput, "kind" | "asOf">;
 const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });

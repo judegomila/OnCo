@@ -161,7 +161,7 @@ export const ideasCosts: IdeaInput[] = [
     rationale: "The NHS national dose-banding tables and multiple US single-centre studies report six- and seven-figure annual savings per institution.",
     test: "Pharmacy-level before-and-after audits of JW-modifier billing and drug spend, with a registry of any stability or safety issues.",
     bottlenecks: ["b-drug-pricing", "b-dose-optimisation"], sections: ["chemotherapy", "immunotherapy"],
-    links: [{ label: "CMS: Discarded drug refunds (JW and JZ modifiers)", url: "https://www.cms.gov/medicare/payment/part-b-drugs/discarded-drug-units" }] }),
+    links: [{ label: "CMS: Discarded drug refunds (JW and JZ modifiers) (page moved; nearest live section)", url: "https://www.cms.gov/medicare/payment/part-b-drugs/" }] }),
 
   // ───────────────────────────── Prior authorisation and administrative cost ─────────────────────────────
   i({ id: "idea-cost-gold-card-oncology", name: "Exempt oncologists who follow the pathway from prior authorisation", maturity: "being-tested-at-scale", actor: "payer", cost: "small", horizonYears: 1,
@@ -255,5 +255,5 @@ export const ideasCosts: IdeaInput[] = [
     rationale: "The HIV precedent shows licensing plus generic competition, not charity, is what made treatment affordable at scale.",
     test: "Medicines Patent Pool reports licences signed, countries covered, generic launches and prices for oncology products.",
     bottlenecks: ["b-global-access", "b-drug-pricing", "b-ip-collaboration"], drugs: ["sorafenib", "imatinib"], institutions: ["who", "cdsco"], terms: ["who-essential-medicines"],
-    links: [{ label: "Medicines Patent Pool", url: "https://medicinespatentpool.org/" }, { label: "National Pharmaceutical Pricing Authority (India)", url: "https://www.nppaindia.nic.in/" }, { label: "Intellectual Property India", url: "https://ipindia.gov.in/" }] }),
+    links: [{ label: "Medicines Patent Pool", url: "https://medicinespatentpool.org/" }, { label: "National Pharmaceutical Pricing Authority (India) (archived copy)", url: "https://web.archive.org/web/20250708090325/http://www.nppaindia.nic.in/" }, { label: "Intellectual Property India", url: "https://ipindia.gov.in/" }] }),
 ];

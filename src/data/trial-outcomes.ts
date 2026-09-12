@@ -32,7 +32,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Single pivotal trial, but the EFS and OS benefits held through the 5- and 7-year analyses; consistent with IMpassion031 (atezolizumab, pCR only) and with real-world neoadjuvant pembrolizumab series.",
   },
   "keynote-355": {
-    enrolled: 847,
+    enrolled: 882,
     outcomes: [
       { endpoint: "Overall survival, PD-L1 CPS ≥10", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + chemotherapy", n: 220, value: 23.0 }, { name: "Placebo + chemotherapy", n: 103, value: 16.1 }], hr: 0.73, ci: [0.55, 0.95], p: "0.0185", source: nejm("NEJMoa2202809") },
       { endpoint: "Progression-free survival, PD-L1 CPS ≥10", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + chemotherapy", value: 9.7 }, { name: "Placebo + chemotherapy", value: 5.6 }], hr: 0.66, ci: [0.50, 0.88], source: nejm("NEJMoa2202809") },
@@ -107,7 +107,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "optimice-pcr": { enrolled: 1295, outcomes: [], replication: "Ongoing de-escalation trial; no results." },
   "scarlet-s2212": { enrolled: 2400, outcomes: [], replication: "Ongoing; no results." },
   olympia: {
-    enrolled: 1836,
+    enrolled: 1837,
     outcomes: [
       { endpoint: "Invasive disease-free survival at 3 years", primary: true, unit: "%", arms: [{ name: "Olaparib", n: 921, value: 85.9 }, { name: "Placebo", n: 915, value: 77.1 }], hr: 0.58, ci: [0.41, 0.82], p: "<0.001", source: nejm("NEJMoa2105215") },
       { endpoint: "Overall survival at 4 years", unit: "%", arms: [{ name: "Olaparib", value: 89.8 }, { name: "Placebo", value: 86.4 }], hr: 0.68, ci: [0.47, 0.97], p: "0.009", source: "https://www.annalsofoncology.org/article/S0923-7534(22)04165-7/fulltext" },
@@ -156,7 +156,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "destiny-breast11": {
     enrolled: 927,
     outcomes: [
-      { endpoint: "Pathologic complete response (ypT0/Tis ypN0)", primary: true, unit: "%", arms: [{ name: "T-DXd → THP", n: 321, value: 67.3 }, { name: "ddAC → THP", n: 320, value: 56.3 }], p: "0.003", source: "https://www.esmo.org/newsroom/press-releases" },
+      { endpoint: "Pathologic complete response (ypT0/Tis ypN0)", primary: true, unit: "%", arms: [{ name: "T-DXd → THP", n: 321, value: 67.3 }, { name: "ddAC → THP", n: 320, value: 56.3 }], p: "0.003", source: "https://web.archive.org/web/20231201043719/https://www.esmo.org/newsroom/press-releases" },
       { endpoint: "Event-free survival", unit: "months", arms: [{ name: "T-DXd → THP" }, { name: "ddAC → THP" }], note: "Immature; the T-DXd monotherapy arm was stopped early for lower efficacy." },
     ],
     replication: "Single pivotal neoadjuvant trial; pCR is a surrogate. The post-neoadjuvant DESTINY-Breast05 (T-DXd vs T-DM1) is the companion evidence in early HER2+ disease.",
@@ -198,7 +198,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Single pivotal adjuvant trial with an OS benefit; consistent with the adjuvant ALK result (ALINA) and with earlier-generation adjuvant EGFR TKI trials that improved DFS.",
   },
   flaura2: {
-    enrolled: 557,
+    enrolled: 587,
     outcomes: [
       { endpoint: "Progression-free survival (investigator)", primary: true, unit: "months", arms: [{ name: "Osimertinib + chemotherapy", n: 279, value: 25.5 }, { name: "Osimertinib", n: 278, value: 16.7 }], hr: 0.62, ci: [0.49, 0.79], p: "<0.001", source: nejm("NEJMoa2306434") },
       { endpoint: "Overall survival", unit: "months", arms: [{ name: "Osimertinib + chemotherapy", value: 47.5 }, { name: "Osimertinib", value: 37.6 }], hr: 0.77, ci: [0.61, 0.96], p: "0.02", source: ct("NCT04035486") },
@@ -214,7 +214,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Single pivotal trial versus osimertinib; MARIPOSA-2 (post-osimertinib) and PALOMA-3 (subcutaneous) support the regimen in adjacent settings.",
   },
   "tropion-lung01": {
-    enrolled: 604,
+    enrolled: 605,
     outcomes: [
       { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Datopotamab deruxtecan", n: 299, value: 4.4 }, { name: "Docetaxel", n: 305, value: 3.7 }], hr: 0.75, ci: [0.62, 0.91], p: "0.004", source: "https://ascopubs.org/doi/10.1200/JCO.24.01544" },
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Datopotamab deruxtecan", value: 12.9 }, { name: "Docetaxel", value: 11.8 }], hr: 0.94, ci: [0.78, 1.14], note: "Not significant", source: "https://ascopubs.org/doi/10.1200/JCO.24.01544" },
@@ -280,7 +280,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Contrasts with IMvigor010 (unselected adjuvant atezolizumab, negative), whose exploratory ctDNA analysis generated the hypothesis; IMvigor011 is the prospective confirmation.",
   },
   vision: {
-    enrolled: 831,
+    enrolled: 861,
     outcomes: [
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "177Lu-PSMA-617 + standard care", n: 551, value: 15.3 }, { name: "Standard care", n: 280, value: 11.3 }], hr: 0.62, ci: [0.52, 0.74], p: "<0.001", source: nejm("NEJMoa2107322") },
       { endpoint: "Radiographic progression-free survival", primary: true, unit: "months", arms: [{ name: "177Lu-PSMA-617 + standard care", value: 8.7 }, { name: "Standard care", value: 3.4 }], hr: 0.40, ci: [0.29, 0.57], p: "<0.001", source: nejm("NEJMoa2107322") },
@@ -288,7 +288,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Consistent with TheraP (phase 2, 177Lu-PSMA-617 vs cabazitaxel: higher PSA response, similar OS) and with PSMAfore in an earlier line.",
   },
   psmafore: {
-    enrolled: 468,
+    enrolled: 469,
     outcomes: [
       { endpoint: "Radiographic progression-free survival", primary: true, unit: "months", arms: [{ name: "177Lu-PSMA-617", n: 234, value: 12.0 }, { name: "ARPI switch", n: 234, value: 5.6 }], hr: 0.41, ci: [0.29, 0.56], p: "<0.0001", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01653-2/fulltext" },
       { endpoint: "Overall survival (crossover-adjusted)", unit: "months", arms: [{ name: "177Lu-PSMA-617" }, { name: "ARPI switch" }], hr: 0.59, note: "Unadjusted OS HR 0.98 with 84% crossover from control", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01653-2/fulltext" },
@@ -307,7 +307,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "The only randomised MCED trial; PATHFINDER 2 (single-arm) is consistent on detection rate and PPV. Mortality benefit remains untested.",
   },
   "pathfinder-2": {
-    enrolled: 35878,
+    enrolled: 35883,
     outcomes: [
       { endpoint: "Cancer signal detected", unit: "%", arms: [{ name: "Galleri, all participants", n: 25578, value: 0.93 }], source: ct("NCT05155605") },
       { endpoint: "Positive predictive value", unit: "%", arms: [{ name: "Galleri", value: 61.6 }], source: ct("NCT05155605") },
@@ -326,7 +326,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
 
   // ---------------- Pipeline (ongoing) ----------------
   "ascent-05": { enrolled: 1514, outcomes: [], replication: "Ongoing; no results." },
-  "tropion-breast03": { enrolled: 1075, outcomes: [], replication: "Ongoing; no results." },
+  "tropion-breast03": { enrolled: 1174, outcomes: [], replication: "Ongoing; no results." },
 
   // ---------------- Trials that live in cancer spike files ----------------
   // These entries are not applied until spikes/index.ts merges TRIAL_OUTCOMES into spike entities.
@@ -474,7 +474,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Replicated by STAMPEDE arm C; benefit concentrated in high-volume disease.",
   },
   latitude: {
-    enrolled: 1199,
+    enrolled: 1209,
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "ADT + abiraterone", n: 597, value: 53.3 }, { name: "ADT + placebo", n: 602, value: 36.5 }], hr: 0.66, ci: [0.56, 0.78], p: "<0.0001", source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(19)30082-8/fulltext" }],
     replication: "Replicated by STAMPEDE arm G.",
   },
@@ -546,7 +546,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Consistent with the OSPREY and CONDOR registrational studies for 18F-DCFPyL.",
   },
   therap: {
-    enrolled: 200,
+    enrolled: 201,
     outcomes: [
       { endpoint: "PSA response ≥50%", primary: true, unit: "%", arms: [{ name: "177Lu-PSMA-617", n: 99, value: 66 }, { name: "Cabazitaxel", n: 101, value: 37 }], p: "<0.0001", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00237-3/fulltext" },
       { endpoint: "Overall survival", unit: "months", arms: [{ name: "177Lu-PSMA-617", value: 19.1 }, { name: "Cabazitaxel", value: 19.6 }], hr: 0.97, note: "Not different", source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00529-6/fulltext" },
@@ -559,7 +559,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Extends VISION and PSMAfore into hormone-sensitive disease; supported the July 2026 label expansion.",
   },
   splash: {
-    enrolled: 412,
+    enrolled: 455,
     outcomes: [
       { endpoint: "Radiographic progression-free survival", primary: true, unit: "months", arms: [{ name: "177Lu-PNT2002 (PSMA-I&T)", n: 276, value: 9.5 }, { name: "ARPI switch", n: 136, value: 6.0 }], hr: 0.71, ci: [0.55, 0.92], p: "0.0088", source: ct("NCT04647526") },
       { endpoint: "Overall survival (interim)", unit: "months", arms: [{ name: "177Lu-PNT2002" }, { name: "ARPI switch" }], hr: 1.11, note: "Numerically unfavourable at interim with crossover", source: ct("NCT04647526") },
@@ -572,11 +572,11 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Consistent with PSMAfore for the pre-chemotherapy setting; OS pending.",
   },
   alphabreak: { enrolled: 600, outcomes: [], replication: "Ongoing phase 3 of 225Ac-PSMA-I&T after 177Lu-PSMA; no results." },
-  xalute: { enrolled: 675, outcomes: [], replication: "Ongoing phase 3 of xaluritamig vs cabazitaxel/ARPI; no results." },
+  xalute: { enrolled: 707, outcomes: [], replication: "Ongoing phase 3 of xaluritamig vs cabazitaxel/ARPI; no results." },
   "mevpro-1": { enrolled: 600, outcomes: [], replication: "Ongoing phase 3 of mevrometostat + enzalutamide; no results." },
   // Pancreatic
   "rasolute-302": {
-    enrolled: 460,
+    enrolled: 500,
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Daraxonrasib", value: 13.2 }, { name: "Chemotherapy (gemcitabine/nab-paclitaxel or mFOLFOX6)", value: 6.7 }], hr: 0.40, source: ct("NCT06625320") }],
     replication: "Single pivotal trial reported 2026; consistent with the phase 1/2 signal (median OS ~14.5 months in second line). First-line RASolute 303 ongoing.",
   },
@@ -609,7 +609,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Single pivotal trial; open-label design and modest effect size are debated.",
   },
   "amplify-7p": {
-    enrolled: 144,
+    enrolled: 158,
     outcomes: [
       { endpoint: "Disease-free survival (ITT)", primary: true, unit: "months", arms: [{ name: "ELI-002 7P" }, { name: "Observation" }], note: "Primary endpoint not met (sponsor release, 15 June 2026); ITT hazard ratio and medians not disclosed.", source: "https://elicio.com/press_releases/elicio-therapeutics-reports-results-from-phase-2-amplify-7p-study-and-outlines-refined-phase-3-development-strategy-for-eli-002-7p-in-adjuvant-pancreatic-cancer/" },
       { endpoint: "Disease-free survival at 3 months (landmark)", unit: "%", arms: [{ name: "ELI-002 7P", value: 90.3 }, { name: "Observation", value: 76.6 }], p: "0.022", source: "https://elicio.com/press_releases/elicio-therapeutics-reports-results-from-phase-2-amplify-7p-study-and-outlines-refined-phase-3-development-strategy-for-eli-002-7p-in-adjuvant-pancreatic-cancer/" },
@@ -619,7 +619,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   // Glioma
   "eortc-26981": {
-    enrolled: 573,
+    enrolled: 575,
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Radiotherapy + temozolomide", n: 287, value: 14.6 }, { name: "Radiotherapy alone", n: 286, value: 12.1 }], hr: 0.63, ci: [0.52, 0.75], p: "<0.001", source: nejm("NEJMoa043330") }, { endpoint: "Overall survival at 5 years", unit: "%", arms: [{ name: "Radiotherapy + temozolomide", value: 9.8 }, { name: "Radiotherapy alone", value: 1.9 }], source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(09)70025-7/fulltext" }],
     replication: "The Stupp regimen has been the control arm of every glioblastoma trial since; the MGMT-methylated benefit was confirmed repeatedly.",
   },
@@ -709,7 +709,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   // Renal
   "litespark-012": {
-    enrolled: 1688,
+    enrolled: 1854,
     outcomes: [{ endpoint: "Progression-free survival (BICR) and overall survival (dual primary)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + lenvatinib + belzutifan" }, { name: "Pembrolizumab/quavonlimab + lenvatinib" }, { name: "Pembrolizumab + lenvatinib" }], note: "Neither investigational regimen met the dual primary PFS and OS endpoints at the pre-specified interim analysis (sponsor release, 21 April 2026); hazard ratios not disclosed", source: "https://www.merck.com/news/merck-and-eisai-provide-update-on-phase-3-litespark-012-trial-evaluating-first-line-combination-treatments-for-certain-patients-with-advanced-renal-cell-carcinoma-rcc/" }],
     replication: "Consistent with COSMIC-313: adding a third agent to a first-line IO doublet has not improved outcomes in clear-cell RCC. The phase Ib/II KEYMAKER-U03 signal for the belzutifan triplet did not carry into phase 3.",
   },
@@ -793,7 +793,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
 
   // ---------------- Failures ----------------
   impassion131: {
-    enrolled: 651,
+    enrolled: 653,
     outcomes: [
       { endpoint: "Progression-free survival, PD-L1+ (investigator)", primary: true, unit: "months", arms: [{ name: "Atezolizumab + paclitaxel", n: 191, value: 6.0 }, { name: "Placebo + paclitaxel", n: 101, value: 5.7 }], hr: 0.82, ci: [0.60, 1.12], p: "0.20", note: "Not significant", source: "https://www.annalsofoncology.org/article/S0923-7534(21)02012-3/fulltext" },
       { endpoint: "Overall survival, PD-L1+", unit: "months", arms: [{ name: "Atezolizumab + paclitaxel", value: 22.1 }, { name: "Placebo + paclitaxel", value: 28.3 }], hr: 1.11, ci: [0.76, 1.64], note: "Numerically unfavourable", source: "https://www.annalsofoncology.org/article/S0923-7534(21)02012-3/fulltext" },

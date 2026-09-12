@@ -6,7 +6,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 export const targets: TargetInput[] = [
   // ---- Surface antigens (ADC / bispecific / CAR / tracer targets) ----
   {
-    id: "trop2", drugs: ["bio-106", "eb-nk-301", "lcb84"], kind: "target", name: "TROP2", symbol: "TACSTD2", targetClass: "surface-antigen", asOf, wikipedia: W("TROP2"),
+    id: "trop2", kind: "target", name: "TROP2", symbol: "TACSTD2", targetClass: "surface-antigen", asOf,
     tldr: "TROP2 is a surface glycoprotein present at high levels on most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) and at low levels on normal tissue. It does not drive the cancer; it is a delivery address, used by the approved ADCs sacituzumab govitecan and datopotamab deruxtecan and by sacituzumab tirumotecan, with a TROP2 PET tracer in development to pick patients.",
     summary: "Trophoblast cell-surface antigen 2 is a transmembrane glycoprotein overexpressed in most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) with low normal-tissue expression. It is not an oncogenic driver; it is a delivery address. Three TROP2 ADCs are approved or in registration (sacituzumab govitecan, datopotamab deruxtecan, sacituzumab tirumotecan) and a TROP2 PET tracer is in development to select patients.",
     biology: "Regulates calcium signalling and cell adhesion; overexpression correlates with poor prognosis. Expression is heterogeneous within tumours, which limits the value of IHC selection. Internalises on antibody binding and traffics to lysosomes, which is what makes it a good ADC target.",
@@ -19,7 +19,7 @@ export const targets: TargetInput[] = [
       { cancerId: "nsclc", pct: "60-70", measure: "IHC, moderate-high", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/", note: "Adenocarcinoma and squamous" },
       { cancerId: "urothelial", pct: "80-90", measure: "IHC, any expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/" },
       { cancerId: "pancreatic", pct: 50, measure: "IHC, any expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/", note: "Approximate; heterogeneous" },
-    ], links: [{ label: "Wikipedia", url: W("TROP2") }],
+    ], links: [],
   },
   {
     id: "her2", kind: "target", name: "HER2", symbol: "ERBB2", targetClass: "surface-antigen", asOf, wikipedia: W("HER2/neu"),
@@ -381,7 +381,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("MAGEA4") }],
   },
   {
-    id: "gp100", kind: "target", name: "gp100 (PMEL)", symbol: "PMEL", targetClass: "other", asOf, wikipedia: W("Premelanosome_protein"),
+    id: "gp100", kind: "target", name: "gp100 (PMEL)", symbol: "PMEL", targetClass: "other", asOf,
     tldr: "gp100 is a pigment-cell protein, and the target of the first bispecific drug to improve survival in a solid tumour, uveal melanoma.",
     summary: "gp100 (PMEL) is a melanosomal matrix protein of the pigment-cell lineage, present in more than 90 percent of melanomas including uveal melanoma. It sits inside the cell and is presented on the surface only as peptide in HLA, so it is reached through T-cell receptor recognition rather than antibodies. Tebentafusp (Kimmtrak), an ImmTAC that fuses a high-affinity TCR against gp100/HLA-A*02:01 to an anti-CD3 effector, improved overall survival in metastatic uveal melanoma in the IMCgp100-202 trial, making it the first bispecific to improve survival in a solid tumour. Because normal skin melanocytes also carry gp100, rash is an expected on-target effect, and the HLA-A*02:01 restriction limits eligibility. Extending the approach to cutaneous melanoma is under study. The newcomer's version: gp100 is a pigment-cell protein that gave uveal melanoma its first life-extending drug.",
     biology: "Melanosomal matrix protein; intracellular, presented on HLA.",
@@ -390,7 +390,7 @@ export const targets: TargetInput[] = [
     tags: ["tcr-target"],
     prevalence: [
       { cancerId: "melanoma", pct: ">90", measure: "Melanocytic lineage antigen", source: "https://en.wikipedia.org/wiki/Premelanosome_protein", note: "HLA-A*02:01 required for tebentafusp" },
-    ], links: [{ label: "Wikipedia", url: W("Premelanosome_protein") }],
+    ], links: [],
   },
 
   // ---- Checkpoints ----

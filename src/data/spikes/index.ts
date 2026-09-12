@@ -49,17 +49,23 @@ import sarcoma from "./sarcoma";
 import neuroblastoma from "./neuroblastoma";
 const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma];
 
-/** Spikes may overlap (two cancers adding the same drug). Duplicates are merged: first record's scalars win, array fields are appended and de-duplicated. */
+/**
+ * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's
+ * scalars win, array fields are appended and de-duplicated. A supplement (see ./supplement.ts) has no
+ * `name`; it never becomes the base, whichever spike is registered first.
+ */
 function mergeDuplicates(list: EntityInput[]): EntityInput[] {
   const byId = new Map<string, Record<string, unknown>>();
   for (const e of list) {
     const prev = byId.get(e.id);
     if (!prev) { byId.set(e.id, { ...e }); continue; }
     if (prev.kind !== e.kind) throw new Error(`Spike duplicate "${e.id}" has conflicting kinds ${String(prev.kind)} vs ${e.kind}`);
-    for (const [k, v] of Object.entries(e)) {
-      if (Array.isArray(v) && Array.isArray(prev[k])) prev[k] = dedupe([...(prev[k] as unknown[]), ...v]);
-      else if (prev[k] === undefined) prev[k] = v;
+    const [base, extra]: [Record<string, unknown>, Record<string, unknown>] = prev.name === undefined && "name" in e ? [{ ...e }, prev] : [prev, e];
+    for (const [k, v] of Object.entries(extra)) {
+      if (Array.isArray(v) && Array.isArray(base[k])) base[k] = dedupe([...(base[k] as unknown[]), ...v]);
+      else if (base[k] === undefined) base[k] = v;
     }
+    byId.set(e.id, base);
   }
   return [...byId.values()] as EntityInput[];
 }

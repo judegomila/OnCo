@@ -54,7 +54,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Adoption of a template agreement by at least ten large sponsors will halve the median time from combination hypothesis to first patient dosed in academic-led cross-company combination trials.",
     rationale: "Standard material transfer and clinical trial agreements (for example the Accelerated Clinical Trial Agreement in the US) have already cut academic site contracting times. The combination-specific clauses (who owns a method-of-use patent, who supplies free drug) are the ones that stall.",
     test: "Draft with a neutral convenor (for example a cancer charity plus a trade body), sign with a coalition of sponsors, and measure time-to-agreement and time-to-first-patient for the next twenty combination trials versus the twenty before.",
-    links: [{ label: "CRUK Combinations Alliance", url: "https://www.cancerresearchuk.org/funding-for-researchers/how-we-deliver-research/our-research-partnerships/combinations-alliance" }, { label: "NCI CTEP", url: "https://ctep.cancer.gov/" }],
+    links: [ { label: "NCI CTEP", url: "https://ctep.cancer.gov/" }],
     related: ["cruk", "nci"] }),
 
   i({ id: "idea-tr2-public-combination-formulary", name: "A publicly held library of investigational drugs available for academic combination trials", maturity: "early-clinical", actor: "policy", cost: "medium", horizonYears: 3,
@@ -242,7 +242,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "A radiotherapy-drug platform will complete dose-finding for at least four novel agent-radiotherapy pairs per year, compared with fewer than one per year in the preceding decade across the same tumour types.",
     rationale: "Radiotherapy quality assurance and dose-finding are the expensive fixed costs; a platform amortises them across agents.",
     test: "Fund a three-tumour platform (lung, head and neck, glioma) with four initial drug modules; measure agents through dose-finding per year.",
-    links: [{ label: "CONCORDE platform", url: "https://www.leedsth.nhs.uk/research/concorde" }],
+    links: [{ label: "CONCORDE platform (page moved; nearest live section)", url: "https://www.leedsth.nhs.uk/research/" }],
     sections: ["radiation"], cancers: ["nsclc", "head-and-neck", "glioblastoma"], related: ["nrg-oncology", "cruk"] }),
 
   i({ id: "idea-tr2-paediatric-combo-prea", name: "Make paediatric combination studies part of every relevant adult cancer drug approval", maturity: "speculative", actor: "regulator", cost: "medium", horizonYears: 5,
@@ -597,7 +597,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Assays that report performance on certified reference plasma will show a spread of sensitivity at 0.1% allele fraction wide enough to change clinical decisions, and the requirement will drive convergence within three years.",
     rationale: "Certified reference materials underpin every quantitative clinical assay; ctDNA is being used for treatment decisions without them.",
     test: "Produce reference plasma at four allele fraction levels; run a blinded round across ten commercial assays; publish results.",
-    links: [{ label: "FDA SEQC2 project", url: "https://www.fda.gov/science-research/bioinformatics-tools/sequencing-quality-control-phase-2-seqc2-project" }],
+    links: [{ label: "FDA SEQC2 project (page moved; nearest live section)", url: "https://www.fda.gov/science-research/bioinformatics-tools/" }],
     terms: ["ctdna", "vaf", "mrd"], technologies: ["liquid-biopsy", "mrd-testing"], related: ["guardant-health", "natera", "idea-tr2-liquid-biopsy-challenge"] }),
 
   i({ id: "idea-tr2-tmb-calibration-standard", name: "A single calibrated tumour mutational burden across all sequencing panels", maturity: "early-clinical", actor: "industry", cost: "small", horizonYears: 2,
@@ -662,7 +662,7 @@ export const ideasTrials2: IdeaInput[] = [
     hypothesis: "Annual publication will drive the median sensitivity at 0.5% allele fraction across participating assays up by at least ten percentage points over three rounds, and will identify at least one assay whose performance changed with a version update.",
     rationale: "Continuous, public benchmarking works in machine learning and in proficiency testing; a single published comparison quickly goes out of date.",
     test: "Run the first round with ten assays; publish; repeat annually and track performance trajectories.",
-    links: [{ label: "FDA SEQC2 project", url: "https://www.fda.gov/science-research/bioinformatics-tools/sequencing-quality-control-phase-2-seqc2-project" }],
+    links: [{ label: "FDA SEQC2 project (page moved; nearest live section)", url: "https://www.fda.gov/science-research/bioinformatics-tools/" }],
     technologies: ["liquid-biopsy"], terms: ["ctdna", "vaf"], related: ["guardant-health", "natera", "grail", "idea-tr2-ctdna-reference-plasma"] }),
 
   i({ id: "idea-tr2-radiomics-ibsi-mandate", name: "No clinical claims for imaging-derived biomarkers without phantom and standards compliance", maturity: "early-clinical", actor: "research", cost: "small", horizonYears: 2,

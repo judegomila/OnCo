@@ -69,12 +69,18 @@ export function applyPatchToSource(source: string, patch: Pick<Patch, "id" | "fi
   const range = findRecord(source, patch.id);
   if (!range) return { applied: false, source, reason: "record not found in this file" };
   let record = source.slice(range.start, range.end);
-  const fieldRe = new RegExp(`(\\b${patch.field}:\\s*)"${patch.current.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"`);
-  if (!fieldRe.test(record)) {
-    const anyValue = new RegExp(`\\b${patch.field}:\\s*"([^"]*)"`).exec(record);
-    return { applied: false, source, reason: anyValue ? `field is "${anyValue[1]}", not "${patch.current}"; re-run the fact check` : `field ${patch.field} is not written inline on this record (set by a helper or spread); edit by hand` };
+  // Most fields are quoted strings (phase "3" included); a bare number (enrolled: 405) is matched when no quoted form is present.
+  const esc = patch.current.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const quotedRe = new RegExp(`(\\b${patch.field}:\\s*)"${esc}"`);
+  const bareRe = new RegExp(`(\\b${patch.field}:\\s*)${esc}(?=[,\\s}])`);
+  const q = quotedRe.test(record) ? '"' : /^\d+$/.test(patch.current) && /^\d+$/.test(patch.proposed) && bareRe.test(record) ? "" : null;
+  const fieldRe = q === '"' ? quotedRe : bareRe;
+  if (q === null) {
+    const anyValue = new RegExp(`\\b${patch.field}:\\s*(?:"([^"]*)"|(\\d+))`).exec(record);
+    const found = anyValue?.[1] ?? anyValue?.[2];
+    return { applied: false, source, reason: found !== undefined ? `field is "${found}", not "${patch.current}"; re-run the fact check` : `field ${patch.field} is not written inline on this record (set by a helper or spread); edit by hand` };
   }
-  record = record.replace(fieldRe, `$1"${patch.proposed}"`);
+  record = record.replace(fieldRe, `$1${q}${patch.proposed}${q}`);
   record = record.replace(/(\basOf:\s*)"\d{4}-\d{2}-\d{2}"/, `$1"${today}"`);
   return { applied: true, source: source.slice(0, range.start) + record + source.slice(range.end) };
 }

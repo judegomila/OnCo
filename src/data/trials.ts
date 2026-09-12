@@ -69,7 +69,7 @@ const raw: TrialInput[] = [
     result: "PFS and OS significantly improved at interim analysis (numbers presented ASCO 2026).",
     drugs: ["izalontamab-brengitecan"], cancers: ["tnbc"], technologies: ["bispecific-adc"],
     links: [ct("NCT06382142"), { label: "Targeted Oncology report", url: "https://www.targetedonc.com/view/iza-bren-meets-pfs-and-os-end-points-in-phase-3-tnbc-trial" }], related: ["src-targeted-oncology"] }),
-  t({ id: "izabright-breast01", name: "IZABRIGHT-Breast01", nct: "NCT06926868", phase: "3", status: "recruiting", sponsor: "BMS",
+  t({ id: "izabright-breast01", name: "IZABRIGHT-Breast01", nct: "NCT06926868", phase: "2/3", status: "recruiting", sponsor: "BMS",
     setting: "First-line metastatic TNBC ineligible for PD-(L)1 inhibitors: iza-bren vs chemotherapy",
     tldr: "IZABRIGHT-Breast01 is the global first-line trial of the EGFR×HER3 bispecific ADC in triple-negative breast cancer.",
     summary: "IZABRIGHT-Breast01, trial NCT06926868 sponsored by Bristol Myers Squibb, is the global first-line trial of the EGFR by HER3 bispecific antibody-drug conjugate izalontamab brengitecan in metastatic triple-negative breast cancer patients ineligible for PD-1 or PD-L1 inhibitors, comparing it with chemotherapy. It plans to enrol 570 patients, directly competes for the populations studied in ASCENT-03 and TROPION-Breast02, and is ongoing with no results. OnCo links it to triple-negative breast cancer, izalontamab brengitecan and the TNBC roadmap. Whether a bispecific ADC that succeeded in a Chinese phase 3 can match or beat the approved TROP2 ADCs in a global first-line population is the question it exists to answer.",

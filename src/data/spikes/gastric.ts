@@ -1,5 +1,6 @@
 import type { DrugInput, EntityInput, IdeaInput, PairingInput, TermInput, TrialInput } from "@/lib/schema";
 import type { Spike } from "./index";
+import { supplement } from "../supplement";
 
 /**
  * Gastric / GEJ adenocarcinoma spike. Facts checked 2026-09-07.
@@ -10,7 +11,7 @@ const asOf = "2026-09-07";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 const NCCN_GASTRIC = "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1434";
-const ESMO_GASTRIC = "https://www.esmo.org/guidelines/guidelines-by-topic/esmo-clinical-practice-guidelines-gastrointestinal-cancers/gastric-cancer";
+const ESMO_GASTRIC = "https://www.esmo.org/guidelines/guidelines-by-topic/esmo-clinical-practice-guidelines-gastrointestinal-cancers/";
 
 type T = Omit<TrialInput, "kind" | "asOf">;
 const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
@@ -59,12 +60,12 @@ const trials: TrialInput[] = [
     ],
     replication: "Two independent phase 3 trials with different chemotherapy backbones agree.",
     drugs: ["zolbetuximab", "folfox", "capox"], cancers: ["gastric"], targets: ["cldn18-2"], links: [ct("NCT03504397"), { label: "GLOW NCT03653507", url: "https://clinicaltrials.gov/study/NCT03653507" }], people: ["ryu-min-hee", "shitara-kohei", "rha-sun-young", "kang-yoon-koo"] }),
-  t({ id: "matterhorn", name: "MATTERHORN", nct: "NCT04592913", phase: "3", status: "positive", yearReported: 2025, sponsor: "AstraZeneca", enrolled: 948,
+  t({ id: "matterhorn", name: "MATTERHORN", nct: "NCT04592913", phase: "3", status: "positive", yearReported: 2025, sponsor: "AstraZeneca", enrolled: 957,
     setting: "Resectable stage II-IVA gastric/GEJ adenocarcinoma: perioperative FLOT + durvalumab vs FLOT + placebo",
     tldr: "Adding immunotherapy before and after surgery cut deaths in early stomach cancer; nearly seven in ten patients were alive at three years.",
     summary: "MATTERHORN, trial NCT04592913 sponsored by AstraZeneca and reported in 2025, showed that adding durvalumab before and after surgery to perioperative FLOT chemotherapy cuts deaths in resectable stage II to IVA gastric and gastro-oesophageal junction adenocarcinoma. It randomised 948 patients, met its primary event-free survival endpoint, nearly tripled the pathologic complete response rate and showed an overall survival benefit at ESMO 2025, leading to FDA approval on 25 November 2025 as the first perioperative immunotherapy in gastric cancer, with benefit consistent across PD-L1 levels. OnCo links it to gastric cancer, PD-L1 as a target, durvalumab, FLOT, the perioperative, pCR and event-free survival terms and Florian Lordick. The trial had no chemotherapy-free arm, and whether FLOT can be de-escalated is the open question.",
     result: "EFS HR 0.71; OS HR 0.78; 3-year OS 68.6%.",
-    outcomes: [{ endpoint: "Event-free survival", primary: true, arms: [{ name: "FLOT + durvalumab", n: 474 }, { name: "FLOT + placebo", n: 474 }], hr: 0.71, source: "https://www.cancernetwork.com/view/fda-approves-durvalumab-plus-flot-in-early-stage-gastric-gej-cancers" }, { endpoint: "Overall survival", arms: [{ name: "FLOT + durvalumab", n: 474 }, { name: "FLOT + placebo", n: 474 }], hr: 0.78, ci: [0.63, 0.96], p: "0.021", source: "https://ascopost.com/issues/december-10-2025-supplement-conference-highlights-esmo-2025/final-overall-survival-confirms-benefit-of-durvalumab-plus-flot-in-resectable-gastric-and-gastroesophageal-junction-adenocarcinomas/" }, { endpoint: "Pathologic complete response", unit: "percent", arms: [{ name: "FLOT + durvalumab", value: 19.2 }, { name: "FLOT + placebo", value: 7.2 }], source: "https://www.cancernetwork.com/view/behind-the-matterhorn-trial-of-durvalumab-flot-in-gastric-gej-cancer" }],
+    outcomes: [{ endpoint: "Event-free survival", primary: true, arms: [{ name: "FLOT + durvalumab", n: 474 }, { name: "FLOT + placebo", n: 474 }], hr: 0.71, source: "https://clinicaltrials.gov/study/NCT04592913" }, { endpoint: "Overall survival", arms: [{ name: "FLOT + durvalumab", n: 474 }, { name: "FLOT + placebo", n: 474 }], hr: 0.78, ci: [0.63, 0.96], p: "0.021", source: "https://ascopost.com/issues/december-10-2025-supplement-conference-highlights-esmo-2025/final-overall-survival-confirms-benefit-of-durvalumab-plus-flot-in-resectable-gastric-and-gastroesophageal-junction-adenocarcinomas/" }, { endpoint: "Pathologic complete response", unit: "percent", arms: [{ name: "FLOT + durvalumab", value: 19.2 }, { name: "FLOT + placebo", value: 7.2 }], source: "https://www.cancernetwork.com/view/behind-the-matterhorn-trial-of-durvalumab-flot-in-gastric-gej-cancer" }],
     replication: "KEYNOTE-585 (pembrolizumab + chemotherapy) improved pCR but not EFS significantly; MATTERHORN is the only positive perioperative IO trial so far.",
     drugs: ["durvalumab", "flot"], cancers: ["gastric"], targets: ["pdl1"], terms: ["neoadjuvant-adjuvant", "pcr", "efs"], links: [ct("NCT04592913")], people: ["florian-lordick"] }),
   t({ id: "fortitude-101", name: "FORTITUDE-101", nct: "NCT05052801", phase: "3", status: "mixed", yearReported: 2025, sponsor: "Amgen", enrolled: 547,
@@ -75,7 +76,7 @@ const trials: TrialInput[] = [
     outcomes: [{ endpoint: "Overall survival (interim)", primary: true, unit: "months", arms: [{ name: "Bemarituzumab + mFOLFOX6", value: 17.9 }, { name: "Placebo + mFOLFOX6", value: 12.5 }], hr: 0.61, p: "0.005", source: "https://www.annalsofoncology.org/article/S0923-7534(25)04862-8/fulltext" }],
     replication: "Phase 2 FIGHT showed a similar early signal; no confirmatory trial yet.",
     drugs: ["bemarituzumab", "folfox"], cancers: ["gastric"], targets: ["fgfr2"], links: [ct("NCT05052801"), { label: "ESMO 2025 LBA10", url: "https://www.annalsofoncology.org/article/S0923-7534(25)04862-8/fulltext" }], people: ["zev-wainberg"] }),
-  t({ id: "herizon-gea-01", name: "HERIZON-GEA-01", nct: "NCT05152147", phase: "3", status: "positive", yearReported: 2026, sponsor: "Jazz / BeOne", enrolled: 914,
+  t({ id: "herizon-gea-01", name: "HERIZON-GEA-01", nct: "NCT05152147", phase: "3", status: "positive", yearReported: 2026, sponsor: "Jazz / BeOne", enrolled: 920,
     setting: "First-line HER2-positive advanced gastro-oesophageal adenocarcinoma: zanidatamab + chemotherapy ± tislelizumab vs trastuzumab + chemotherapy",
     tldr: "A two-armed HER2 antibody beat Herceptin head-to-head as first-line treatment for HER2-positive stomach cancer, the first such win since 2010.",
     summary: "HERIZON-GEA-01, trial NCT05152147 sponsored by Jazz and BeOne and reported in 2026, showed that the two-armed HER2 antibody zanidatamab beats trastuzumab head to head as first-line treatment for HER2-positive advanced gastro-oesophageal adenocarcinoma, the first such win since ToGA in 2010. It randomised 914 patients to zanidatamab plus chemotherapy, with or without tislelizumab, or trastuzumab plus chemotherapy, met its primary progression-free survival endpoint in both zanidatamab arms and significantly improved overall survival, as published in the New England Journal of Medicine in 2026, with a supplemental licence application planned for the first half of 2026. It sets up zanidatamab as the HER2 agent of choice, and how trastuzumab deruxtecan fits after it is the open question.",
@@ -120,17 +121,10 @@ const drugs: DrugInput[] = [
     regulatoryEvents: [{ date: "2024-03", type: "approval", region: "Japan", note: "World-first approval" }, { date: "2024-10-18", type: "approval", region: "US", note: "SPOTLIGHT/GLOW; companion diagnostic VENTANA CLDN18 (43-14A)" }],
     targets: ["cldn18-2"], technologies: ["monoclonal-antibody", "companion-diagnostic"], companies: ["astellas"], cancers: ["gastric"], trials: ["spotlight-glow"], terms: ["adcc"],
     links: [{ label: "FDA label", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761365s000lbl.pdf" }] }),
-  d({ id: "ramucirumab", name: "Ramucirumab", brand: "Cyramza", modality: "Monoclonal antibody (anti-VEGFR2)", status: "approved", wikipedia: W("Ramucirumab"),
-    tldr: "An antibody that blocks the blood-vessel receptor VEGFR2; with paclitaxel it has been the standard second-line stomach cancer treatment since 2014.",
-    summary: "Fully human IgG1 against VEGFR2. RAINBOW (with paclitaxel) and REGARD (alone) in second-line gastric/GEJ cancer; also approved in NSCLC (with docetaxel; with erlotinib in EGFR-mutant), mCRC (with FOLFIRI, RAISE), and HCC with AFP ≥400 (REACH-2). Now the comparator arm that T-DXd (DESTINY-Gastric04) and the CLDN18.2 ADC (CLARITY-Gastric01) have beaten.",
-    mechanism: "Blocks VEGF-A, -C, -D binding to VEGFR2 on endothelium.",
-    mechanismSteps: ["Ramucirumab binds VEGFR2 on blood-vessel cells", "VEGF signals cannot be received", "Angiogenesis and vascular permeability fall", "Tumour growth slows, especially with paclitaxel"],
-    dosing: { route: "Intravenous", schedule: "8 mg/kg days 1 and 15 with paclitaxel 80 mg/m² days 1, 8, 15 every 28 days (gastric)", modifications: "Hold for uncontrolled hypertension, proteinuria >2 g/24 h", monitoring: "Blood pressure, urine protein", source: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125477s040lbl.pdf" },
-    toxicity: [{ event: "Hypertension" }, { event: "Proteinuria" }, { event: "Bleeding/epistaxis" }, { event: "Neutropenia (with paclitaxel)" }],
-    approvals: [{ region: "US", year: 2014, indication: "Second-line advanced gastric/GEJ cancer alone or with paclitaxel" }, { region: "US", year: 2014, indication: "NSCLC with docetaxel; 2015 mCRC with FOLFIRI; 2019 HCC AFP ≥400; 2020 EGFR-mutant NSCLC with erlotinib" }],
-    targets: ["vegf"], technologies: ["monoclonal-antibody", "antiangiogenic"], companies: ["eli-lilly"], cancers: ["gastric", "nsclc", "colorectal", "hcc"], trials: ["rainbow", "destiny-gastric04"], pathways: ["vegf-angiogenesis"],
-    links: [{ label: "FDA label", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125477s040lbl.pdf" }] }),
-  d({ id: "bemarituzumab", name: "Bemarituzumab", code: "FPA144", modality: "Monoclonal antibody (anti-FGFR2b)", status: "phase-3", wikipedia: W("Bemarituzumab"),
+  d(supplement<DrugInput>({ id: "ramucirumab", kind: "drug", links: [{ label: "FDA label", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125477s040lbl.pdf" }],
+    notes: ["In stomach cancer: RAINBOW (with paclitaxel) and REGARD (alone) established ramucirumab as second-line treatment of gastric and gastro-oesophageal junction cancer in 2014, given at 8 mg/kg on days 1 and 15 with paclitaxel 80 mg/m2 on days 1, 8 and 15 of a 28-day cycle; it is held for uncontrolled hypertension or proteinuria above 2 g in 24 hours. It is now the comparator arm that trastuzumab deruxtecan (DESTINY-Gastric04) and the CLDN18.2 ADC (CLARITY-Gastric01) have beaten."],
+    cancers: ["gastric"], trials: ["rainbow", "destiny-gastric04"], pathways: ["vegf-angiogenesis"] })),
+  d({ id: "bemarituzumab", name: "Bemarituzumab", code: "FPA144", modality: "Monoclonal antibody (anti-FGFR2b)", status: "phase-3",
     tldr: "Bemarituzumab is an antibody against FGFR2b, a growth receptor overproduced in about a third of stomach cancers. It improved survival early in its phase 3 trial, but the gain faded with longer follow-up.",
     summary: "Afucosylated IgG1 blocking FGFR2b ligand binding and enhancing ADCC. FORTITUDE-101: interim OS 17.9 vs 12.5 months (HR 0.61) in FGFR2b ≥10% 2+/3+ tumours, attenuated at updated analysis (ESMO 2025). Corneal adverse events are frequent. FORTITUDE-102 adds nivolumab. The regulatory path was still uncertain in September 2026.",
     mechanism: "Blocks FGF ligand binding to FGFR2b and recruits NK-mediated ADCC.",

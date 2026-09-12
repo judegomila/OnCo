@@ -23,6 +23,8 @@ const CHECK_LABEL: Record<string, string> = {
   orphan: "Orphan: nothing links here", "name-collision-across-kinds": "Same name in two kinds", "near-duplicate-levenshtein": "Near-duplicate names (two characters apart)", "shared-code": "Two products share a development code",
   "us-approval-no-openfda-label": "US approval recorded, no openFDA label", "openfda-label-but-not-approved": "openFDA label exists, not recorded as approved", "trial-status-vs-registry": "Trial status disagrees with ClinicalTrials.gov", "nct-not-found": "NCT id not found",
   "trial-phase-vs-registry": "Trial phase disagrees with ClinicalTrials.gov", "primary-completion-passed": "Primary completion date has passed",
+  "nct-title-mismatch": "NCT id points at a differently named study", "enrolled-vs-registry": "Enrolment disagrees with ClinicalTrials.gov", "us-approval-before-fda-record": "US approval year earlier than Drugs@FDA", "us-first-approval-missing": "Earlier US approval missing from approvals",
+  "text-vs-structured": "Number in the text disagrees with the structured field", "approved-only-live-trials": "Approved product whose linked trials are all still running",
 };
 const FAMILY: Record<string, "contradiction" | "sourcing" | "hygiene"> = {
   unsourced: "sourcing", "unsourced-numbers": "sourcing", "outcome-no-source": "sourcing",

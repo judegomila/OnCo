@@ -1,5 +1,6 @@
 import type { DrugInput, EntityInput, IdeaInput, PairingInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
 import type { Spike } from "./index";
+import { supplement } from "../supplement";
 
 /**
  * Colorectal cancer spike: deepens the colorectal record and adds the trials, drugs, regimens,
@@ -12,7 +13,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 const NCCN_COLON = "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1428";
 const NCCN_RECTAL = "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1461";
-const ESMO_CRC = "https://www.esmo.org/guidelines/guidelines-by-topic/esmo-clinical-practice-guidelines-gastrointestinal-cancers/metastatic-colorectal-cancer";
+const ESMO_CRC = "https://www.esmo.org/guidelines/guidelines-by-topic/esmo-clinical-practice-guidelines-gastrointestinal-cancers/";
 
 type T = Omit<TrialInput, "kind" | "asOf">;
 const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
@@ -209,16 +210,9 @@ const drugs: DrugInput[] = [
     regulatoryEvents: [{ date: "2023-11-08", type: "approval", region: "US", note: "FRESCO-2" }],
     targets: ["vegf"], technologies: ["kinase-inhibitors", "antiangiogenic"], companies: ["takeda"], cancers: ["colorectal"], trials: ["fresco-2"],
     links: [{ label: "FDA approval summary, Clinical Cancer Research", url: "https://aacrjournals.org/clincancerres/article/30/15/3100/746597/FDA-Approval-Summary-Fruquintinib-for-the" }], people: ["su-weiguo"] }),
-  d({ id: "regorafenib", name: "Regorafenib", brand: "Stivarga", modality: "Small-molecule multi-kinase inhibitor", status: "approved", wikipedia: W("Regorafenib"),
-    tldr: "A multi-target pill for refractory bowel cancer, liver cancer, and GIST. Modest benefit, significant side effects, now usually placed after trifluridine/tipiracil.",
-    summary: "Inhibits VEGFR1-3, TIE2, KIT, RET, RAF, PDGFR. CORRECT (2013): OS 6.4 vs 5.0 months in refractory mCRC. Also approved in GIST after imatinib/sunitinib and HCC after sorafenib. Dose-escalation strategies (ReDOS: start 80 mg) improve tolerability. Hand-foot skin reaction, fatigue, hypertension, and liver toxicity.",
-    mechanism: "Multi-kinase inhibition of angiogenic, stromal, and oncogenic kinases.",
-    mechanismSteps: ["Regorafenib enters tumour and vessel cells", "It blocks several kinases at once: VEGFR (vessels), KIT/PDGFR (stroma), RAF (tumour)", "Angiogenesis and growth signalling slow together", "Broad targeting brings broad side effects"],
-    dosing: { route: "Oral", schedule: "160 mg once daily, days 1-21 of 28 (ReDOS: 80 mg escalating weekly)", modifications: "Interrupt for grade 2 hand-foot reaction; hepatotoxicity monitoring", monitoring: "Liver function every 2 weeks for 2 months; blood pressure", source: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/203085s013lbl.pdf" },
-    toxicity: [{ event: "Hand-foot skin reaction", note: "Common, dose-limiting" }, { event: "Fatigue" }, { event: "Hypertension" }, { event: "Hepatotoxicity", note: "Boxed warning" }],
-    approvals: [{ region: "US", year: 2012, indication: "Refractory metastatic colorectal cancer" }, { region: "US", year: 2013, indication: "GIST after imatinib and sunitinib" }, { region: "US", year: 2017, indication: "HCC after sorafenib" }],
-    targets: ["vegf", "kit"], technologies: ["kinase-inhibitors", "antiangiogenic"], companies: ["bayer"], cancers: ["colorectal", "hcc", "sarcoma"],
-    links: [{ label: "FDA label", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/203085s013lbl.pdf" }] }),
+  d(supplement<DrugInput>({ id: "regorafenib", kind: "drug", links: [{ label: "FDA label", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/203085s013lbl.pdf" }],
+    notes: ["In bowel cancer: CORRECT (2013) gave OS 6.4 versus 5.0 months in refractory metastatic disease, a modest benefit with significant side effects, so it is now usually placed after trifluridine/tipiracil. ReDOS (start at 80 mg and escalate weekly) improves tolerability; hepatotoxicity carries a boxed warning, with liver function checked every 2 weeks for the first 2 months."],
+    cancers: ["colorectal"] })),
   d({ id: "folfox", name: "FOLFOX (5-FU, leucovorin, oxaliplatin)", code: "mFOLFOX6", modality: "Cytotoxic regimen", status: "standard-of-care", wikipedia: W("FOLFOX"),
     tldr: "FOLFOX is the workhorse chemotherapy combination for bowel cancer, used after surgery to cure and in advanced disease as the backbone that targeted drugs are added to.",
     summary: "Infusional 5-fluorouracil with leucovorin plus oxaliplatin every 2 weeks. MOSAIC (2004) established it as adjuvant therapy for stage III colon cancer; IDEA (2018) showed 3 months suffices for low-risk stage III with CAPOX. In mCRC it pairs with bevacizumab, cetuximab/panitumumab, encorafenib + cetuximab (BREAKWATER), or tucatinib + trastuzumab (MOUNTAINEER-03). Cumulative oxaliplatin neuropathy is the limiting toxicity.",

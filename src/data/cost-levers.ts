@@ -38,7 +38,7 @@ const PARTD_CAP: Src = { label: "Medicare.gov: Costs for Medicare drug coverage"
 const RAMSEY_2013: Src = { label: "Ramsey et al., Health Affairs 2013: Washington State cancer patients found to be at greater risk for bankruptcy", url: "https://doi.org/10.1377/hlthaff.2012.1263" };
 const CDF: Src = { label: "NHS England: Cancer Drugs Fund", url: "https://www.england.nhs.uk/cancer/cdf/" };
 const PBS_FEE: Src = { label: "PBS: patient co-payment and safety net", url: "https://www.pbs.gov.au/info/healthpro/explanatory-notes/front/fee" };
-const NPPA: Src = { label: "National Pharmaceutical Pricing Authority (India)", url: "https://www.nppaindia.nic.in/" };
+const NPPA: Src = { label: "National Pharmaceutical Pricing Authority (India) (archived copy)", url: "https://web.archive.org/web/20250708090325/http://www.nppaindia.nic.in/" };
 const IPINDIA: Src = { label: "Intellectual Property India: compulsory licence order, Natco v Bayer (2012)", url: "https://ipindia.gov.in/" };
 const WHO_EML: Src = { label: "WHO Model Lists of Essential Medicines (24th list, September 2025)", url: "https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines/essential-medicines-lists" };
 const PAHO_SF: Src = { label: "PAHO Strategic Fund", url: "https://www.paho.org/en/paho-strategic-fund" };
@@ -53,7 +53,7 @@ const ICER: Src = { label: "Institute for Clinical and Economic Review", url: "h
 const COST_PLUS: Src = { label: "Mark Cuban Cost Plus Drug Company", url: "https://costplusdrugs.com/" };
 const CIVICA: Src = { label: "Civica Rx", url: "https://civicarx.org/" };
 const MEDICAID_TRIALS: Src = { label: "Medicaid.gov: coverage of routine patient costs in qualifying clinical trials (Clinical Treatment Act, effective January 2022)", url: "https://www.medicaid.gov/federal-policy-guidance/downloads/cib122921.pdf" };
-const JW_JZ: Src = { label: "CMS: discarded drug refunds (JW and JZ modifiers)", url: "https://www.cms.gov/medicare/payment/part-b-drugs/discarded-drug-units" };
+const JW_JZ: Src = { label: "CMS: discarded drug refunds (JW and JZ modifiers) (page moved; nearest live section)", url: "https://www.cms.gov/medicare/payment/part-b-drugs/" };
 const CHOOSING_WISELY: Src = { label: "ASCO: Choosing Wisely recommendations", url: "https://www.asco.org/news-initiatives/current-initiatives/cancer-care-initiatives/choosing-wisely" };
 const TELEHEALTH: Src = { label: "Medicare.gov: Telehealth", url: "https://www.medicare.gov/coverage/telehealth" };
 

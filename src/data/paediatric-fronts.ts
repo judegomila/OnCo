@@ -40,7 +40,7 @@ const trials: TrialInput[] = [
     ],
     replication: "Single-arm registrational study; confirmatory randomised phase 3 (LOGGIC/FIREFLY-2, NCT05566795) in newly diagnosed RAF-altered LGG is ongoing.",
     drugs: ["tovorafenib"], cancers: ["paediatric-low-grade-glioma"], companies: ["day-one-biopharmaceuticals"], targets: ["braf"], pathways: ["ras-mapk"], terms: ["race-for-children-act"],
-    links: [ct("NCT04775485"), doi("Kilburn et al., Nature Medicine 2024", "10.1038/s41591-023-02668-y"), { label: "FDA approval notice (April 2024)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-tovorafenib-patients-relapsed-or-refractory-braf-altered-pediatric-low-grade" }],
+    links: [ct("NCT04775485"), doi("Kilburn et al., Nature Medicine 2024", "10.1038/s41591-023-02668-y")],
     tags: [...PAEDIATRIC_TAGS, "cns"] }),
 
   t({ id: "tadpole", name: "TADPOLE (CDRB436G2201)", nct: "NCT02684058", phase: "2", status: "positive", yearReported: 2023, sponsor: "Novartis", enrolled: 110,
@@ -54,7 +54,7 @@ const trials: TrialInput[] = [
     ],
     replication: "Consistent with earlier single-arm paediatric dabrafenib and trametinib studies; the only randomised comparison so far. FIREFLY-1 addressed the BRAF-fusion population that this trial excluded.",
     drugs: ["dabrafenib-trametinib", "carboplatin", "vincristine"], cancers: ["paediatric-low-grade-glioma"], companies: ["novartis"], targets: ["braf"], pathways: ["ras-mapk"], terms: ["braf-v600-mutation", "race-for-children-act"],
-    links: [ct("NCT02684058"), doi("Bouffet et al., NEJM 2023", "10.1056/NEJMoa2303815"), { label: "FDA approval (March 2023)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-dabrafenib-trametinib-combination-pediatric-patients-low-grade-glioma-braf-v600e-mutation" }],
+    links: [ct("NCT02684058"), doi("Bouffet et al., NEJM 2023", "10.1056/NEJMoa2303815")],
     tags: [...PAEDIATRIC_TAGS, "cns"] }),
 
   t({ id: "action-dmg", name: "ACTION", nct: "NCT05580562", phase: "3", status: "recruiting", sponsor: "Jazz Pharmaceuticals (Chimerix until 2025)", enrolled: 510,
@@ -209,7 +209,7 @@ const terms: TermInput[] = [
   term({ id: "race-for-children-act", name: "RACE for Children Act", aka: ["Research to Accelerate Cures and Equity for Children Act", "FDARA Title V section 504", "PREA molecular target amendment"], category: "regulatory",
     tldr: "A US law that makes drug companies test new targeted cancer drugs in children whenever the drug's target matters in a childhood cancer, instead of letting them skip children because their cancers are rare.",
     summary: "The RACE for Children Act was enacted as Title V of the FDA Reauthorization Act (FDARA) of 2017 and took effect for applications submitted from 18 August 2020. It amended the Pediatric Research Equity Act (PREA) so that a new drug or biologic for an adult cancer must include a paediatric investigation if it is directed at a molecular target that the FDA judges 'substantially relevant to the growth or progression of a pediatric cancer', and it removed the orphan-drug exemption from PREA for such products. The FDA Oncology Center of Excellence maintains the relevant and non-relevant molecular target lists (updated after Pediatric Oncology Subcommittee of ODAC meetings) and issues written requests and waivers. The Act complements the EU Paediatric Regulation (EC 1901/2006), whose paediatric investigation plans (PIPs) had allowed class waivers for adult-only conditions; the EU is revising that regulation to adopt a mechanism-of-action test. In practice the two levers, together with the ACCELERATE Paediatric Strategy Forums, are why paediatric plans now accompany most new ALK, MEK, BRAF, NTRK, RET, BCL2, CDK4/6 and ADC programmes, and why tovorafenib, dabrafenib-trametinib and selpercatinib reached children within a few years of adult data.",
-    links: [{ label: "FDA Pediatric Oncology Program (RACE Act implementation)", url: "https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-program" }, { label: "FDA: relevant paediatric molecular target list", url: "https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology" }, { label: "FDARA 2017 (Public Law 115-52)", url: "https://www.congress.gov/bill/115th-congress/house-bill/2430" }, { label: "EU Paediatric Regulation (EC) No 1901/2006", url: "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/paediatric-medicines-research-development/paediatric-regulation" }],
+    links: [ { label: "FDA: relevant paediatric molecular target list", url: "https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology" }, { label: "FDARA 2017 (Public Law 115-52)", url: "https://www.congress.gov/bill/115th-congress/house-bill/2430" }],
     institutions: ["fda-oce", "ema", "accelerate-platform", "childrens-oncology-group", "itcc"], trials: ["firefly-1", "tadpole", "pediatric-match"], drugs: ["tovorafenib", "dabrafenib-trametinib", "selpercatinib", "larotrectinib"], cancers: ["paediatric-low-grade-glioma", "dipg-dmg", "neuroblastoma"], terms: ["orphan-drug", "accelerated-approval"], bottlenecks: ["b-rare-cancers", "b-incentive-misalignment"], tags: [...PAEDIATRIC_TAGS, "regulatory"] }),
 ];
 

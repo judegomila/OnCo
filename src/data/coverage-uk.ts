@@ -409,7 +409,7 @@ export const NHS_SYSTEM: Array<{ id: string; title: string; plain: string; detai
     detail: "NICE guideline NG12 sets the symptom thresholds at which a GP must refer on the urgent suspected cancer pathway (roughly a 3% risk of cancer). In England the old 'two-week wait' target was replaced in October 2023 by three standards: the 28-day Faster Diagnosis Standard (told you have or do not have cancer within 28 days of referral or screening; target 75%, rising to 80% by March 2026), the 31-day standard (treatment within a month of the decision to treat; 96%), and the 62-day standard (first treatment within 62 days of urgent referral, screening or consultant upgrade; 85%). Performance is published monthly and many trusts miss the 62-day target, so ask your cancer nurse specialist where you are on the pathway. Scotland, Wales and Northern Ireland publish their own 31- and 62-day figures. Emergency presentations (via A&E) account for roughly a fifth of diagnoses and have worse outcomes.",
     links: [
       { label: "NICE NG12: suspected cancer recognition and referral", url: "https://www.nice.org.uk/guidance/ng12" },
-      { label: "NHS England: Faster Diagnosis Standard", url: "https://www.england.nhs.uk/cancer/faster-diagnosis/" },
+      { label: "NHS England: Faster Diagnosis Standard (archived copy)", url: "https://web.archive.org/web/20251231165538/https://www.england.nhs.uk/cancer/faster-diagnosis/" },
       { label: "Cancer waiting times statistics", url: "https://www.england.nhs.uk/statistics/statistical-work-areas/cancer-waiting-times/" },
       { label: "NHS: cancer overview and referral", url: "https://www.nhs.uk/conditions/cancer/" },
     ],

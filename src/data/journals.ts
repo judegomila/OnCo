@@ -54,7 +54,7 @@ export const journals: JournalInput[] = [
     publisher: "Public Library of Science", url: "https://journals.plos.org/plosmedicine/", issn: "1549-1277", scope: "general medicine", access: "open-access", founded: 2004,
     tldr: "A fully open-access general medical journal that favours studies with global public-health impact, including cancer epidemiology, screening and health-policy work.",
     summary: "Publishes under CC BY with a mandatory data-availability policy, so cancer epidemiology, risk-prediction and health-system studies here come with the underlying data. Less clinical-trial-heavy than NEJM or Lancet; strong on low- and middle-income-country cancer burden, alcohol and obesity attributable fractions, and research-integrity commentary.",
-    links: [{ label: "PLOS Medicine cancer", url: "https://journals.plos.org/plosmedicine/browse/cancers_and_neoplasms" }] }),
+    links: [{ label: "PLOS Medicine cancer (page moved; nearest live section)", url: "https://journals.plos.org/plosmedicine/" }] }),
   j({ id: "lancet-global-health", name: "The Lancet Global Health", aka: ["Lancet Glob Health"], matchNames: ["The Lancet Global Health", "Lancet Global Health", "Lancet Glob Health"],
     publisher: "Elsevier", url: "https://www.thelancet.com/journals/langlo/home", issn: "2214-109X", scope: "global health", access: "open-access", founded: 2013,
     tldr: "The Lancet's open-access global-health journal: where the numbers on cancer burden, survival gaps and treatment access in low- and middle-income countries are published.",

@@ -80,7 +80,7 @@ const trials: TrialInput[] = [
     outcomes: [{ endpoint: "Complete response at any time", primary: true, unit: "%", arms: [{ name: "Cretostimogene", n: 110, value: 75.2 }], source: "https://pubmed.ncbi.nlm.nih.gov/42508433/" }, { endpoint: "Complete response at 24 months", unit: "%", arms: [{ name: "Cretostimogene", value: 41.8 }] }],
     replication: "Single-arm registrational; PIVOT-006 (intermediate-risk, randomised) and CORE-008 (BCG-naive) ongoing.",
     drugs: ["cretostimogene"], cancers: ["urothelial"], technologies: ["oncolytic-virus"], terms: ["bcg-unresponsive"], links: [ct("NCT04452591")] }),
-  t({ id: "quilt-3-032", name: "QUILT 3.032", nct: "NCT03022825", phase: "2", status: "positive", yearReported: 2022, sponsor: "ImmunityBio",
+  t({ id: "quilt-3-032", name: "QUILT 3.032", nct: "NCT03022825", phase: "2/3", status: "positive", yearReported: 2022, sponsor: "ImmunityBio",
     setting: "BCG-unresponsive NMIBC with CIS: nogapendekin alfa inbakicept (N-803) + BCG, single arm",
     tldr: "An IL-15 booster given with BCG produced complete responses in about 70% of patients with BCG-unresponsive carcinoma in situ and kept most bladders intact for years.",
     summary: "QUILT 3.032, trial NCT03022825 sponsored by ImmunityBio and reported in 2022, showed that the IL-15 superagonist nogapendekin alfa inbakicept, or N-803, given with BCG produced complete responses in about seventy percent of patients with BCG-unresponsive non-muscle-invasive bladder cancer with carcinoma in situ and kept most bladders intact for years. In the single-arm CIS cohort of 77 patients the complete response rate was 71 percent with a median duration around two years, and the company's five-year update reported bladder preservation in more than eighty percent of responders at three years, leading to FDA approval on 22 April 2024 after a 2023 complete response letter over manufacturing. Without a randomised comparison, how it ranks against cretostimogene and nadofaragene is the open question.",
@@ -183,13 +183,13 @@ const drugs: DrugInput[] = [
 ];
 
 const technologies: TechnologyInput[] = [
-  { id: "bcg-and-intravesical-therapy", kind: "technology", name: "Intravesical therapy (BCG, chemotherapy, devices, gene and viral therapy)", sections: ["immunotherapy", "devices"], status: "standard-of-care", asOf, wikipedia: W("Intravesical_therapy"),
+  { id: "bcg-and-intravesical-therapy", kind: "technology", name: "Intravesical therapy (BCG, chemotherapy, devices, gene and viral therapy)", sections: ["immunotherapy", "devices"], status: "standard-of-care", asOf,
     tldr: "Treating early bladder cancer by putting the drug straight into the bladder through a catheter, so the whole body is spared.",
     summary: "BCG remains the backbone for high-risk NMIBC; intravesical gemcitabine or mitomycin for intermediate risk. The BCG-unresponsive space now has four approved options: pembrolizumab (systemic), nadofaragene firadenovec (2022), N-803 + BCG (2024), and the gemcitabine-eluting TAR-200 device (2025), with cretostimogene filing in 2026. Durvalumab + BCG (2026) is the first systemic immunotherapy added to BCG-naive treatment.",
     principle: "Direct urothelial exposure to immunostimulants, cytotoxics, viruses, or gene vectors; dwell time and device release kinetics determine efficacy.",
     strengths: ["Minimal systemic toxicity", "Bladder preservation", "Repeatable in clinic"],
     limitations: ["BCG shortages", "Progression to muscle invasion still occurs", "Frequent cystoscopic surveillance"],
-    cancers: ["urothelial"], drugs: ["bcg-intravesical", "tar-200", "cretostimogene", "nogapendekin-alfa", "nadofaragene-firadenovec"], terms: ["nmibc-vs-mibc", "bcg-unresponsive"], links: [{ label: "Wikipedia", url: W("Intravesical_therapy") }] },
+    cancers: ["urothelial"], drugs: ["bcg-intravesical", "tar-200", "cretostimogene", "nogapendekin-alfa", "nadofaragene-firadenovec"], terms: ["nmibc-vs-mibc", "bcg-unresponsive"], links: [] },
   { id: "cystoscopy-turbt", kind: "technology", name: "Cystoscopy, blue-light imaging & TURBT", sections: ["surgery", "diagnostics"], status: "standard-of-care", asOf, wikipedia: W("Transurethral_resection_of_bladder_tumor"),
     tldr: "Cystoscopy and TURBT mean looking inside the bladder with a camera and shaving off tumours through the urethra. Blue-light dyes make flat tumours easier to see.",
     summary: "Transurethral resection of bladder tumour (TURBT) is both diagnosis and treatment for NMIBC; re-resection for T1 disease; en-bloc resection is emerging. Blue-light cystoscopy with hexaminolevulinate improves detection of CIS and reduces recurrence. Urine biomarkers (Cxbladder, UroVysion, Bladder EpiCheck) aim to reduce surveillance cystoscopy frequency.",

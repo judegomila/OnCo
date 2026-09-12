@@ -116,11 +116,11 @@ const technologies: TechnologyInput[] = [
 
 // ======================= TERMS =======================
 const terms: TermInput[] = [
-  term({ id: "eln-risk", name: "ELN 2022 risk classification", category: "Clinical",
+  term({ id: "eln-risk", wikipedia: W("Acute_myeloid_leukemia"), name: "ELN 2022 risk classification", category: "Clinical",
     tldr: "The three-tier system (favourable, intermediate, adverse) that decides how aggressively an adult with AML is treated and whether a transplant is recommended.",
     summary: "The European LeukemiaNet 2022 update classifies AML by genetics: favourable (t(8;21), inv(16), NPM1 without FLT3-ITD, bZIP in-frame CEBPA); intermediate (NPM1 with FLT3-ITD, FLT3-ITD without NPM1, t(9;11)); adverse (TP53, complex/monosomal karyotype, myelodysplasia-related mutations, KMT2A rearrangements other than t(9;11), inv(3), t(6;9)). FLT3-ITD allelic ratio was dropped in 2022 because FLT3 inhibitors changed the outlook. Companion ELN MRD recommendations define molecular and flow thresholds.",
     links: [{ label: "ELN 2022 (Döhner et al., Blood 2022)", url: "https://ashpublications.org/blood/article/140/12/1345/485817" }], cancers: ["aml"], technologies: ["cytogenetics-fish", "cgp"], targets: ["npm1", "flt3", "tp53", "kmt2a"] }),
-  term({ id: "flt3-itd-allelic-ratio", name: "FLT3-ITD allelic ratio", category: "Genomics",
+  term({ id: "flt3-itd-allelic-ratio", wikipedia: W("CD135"), name: "FLT3-ITD allelic ratio", category: "Genomics",
     tldr: "How much of the FLT3 gene in the leukaemia carries the internal duplication, measured as the ratio of mutant to normal copies. The 2017 European LeukemiaNet guidelines used it to grade risk; the 2022 update dropped it because midostaurin and quizartinib help regardless of the ratio.",
     summary: "Ratio of mutant to wild-type FLT3-ITD alleles by fragment analysis; ≥0.5 was 'high'. ELN 2017 used it for risk; ELN 2022 removed it, treating all FLT3-ITD as intermediate risk given midostaurin and quizartinib benefit across ratios. Still reported by many labs and relevant to interpreting older trials.",
     cancers: ["aml"], targets: ["flt3"], terms: ["eln-risk"] }),
@@ -128,7 +128,7 @@ const terms: TermInput[] = [
     tldr: "Whether the leukaemia's antibody gene has been 'edited' by the immune system. Unmutated means faster-growing CLL and a bigger benefit from targeted drugs over chemotherapy.",
     summary: "IGHV genes with <2% deviation from germline are 'unmutated' (~40-50% of CLL) and predict shorter time to treatment and poor response to chemoimmunotherapy (FCR). BTK inhibitors and venetoclax combinations largely erase the difference for progression, and IGHV status is a stratification factor in every modern CLL trial (CLL13, AMPLIFY). Mutated-IGHV patients still achieve the longest remissions after fixed-duration therapy.",
     wikipedia: W("Chronic_lymphocytic_leukemia"), cancers: ["cll"], technologies: ["cgp"], links: [{ label: "Wikipedia", url: W("Chronic_lymphocytic_leukemia") }] }),
-  term({ id: "del17p-tp53", name: "del(17p) / TP53 aberration in CLL", category: "Biomarkers",
+  term({ id: "del17p-tp53", wikipedia: W("Chronic_lymphocytic_leukemia"), name: "del(17p) / TP53 aberration in CLL", category: "Biomarkers",
     tldr: "A del(17p) deletion or TP53 mutation means loss or damage of the p53 safety gene in CLL. These patients should never get chemotherapy; they need BTK inhibitors or venetoclax, usually continuously.",
     summary: "Present in ~5-10% at diagnosis and up to 40% at relapse. Chemoimmunotherapy is ineffective; continuous BTK inhibition (SEQUOIA arm C, 5-year PFS 72% with zanubrutinib) or venetoclax-based therapy is standard; fixed-duration regimens have shorter remissions in this group. Excluded from AMPLIFY, so acalabrutinib-venetoclax is not labelled for del(17p)/TP53.",
     cancers: ["cll"], targets: ["tp53"], technologies: ["cytogenetics-fish"], trials: ["sequoia", "amplify"] }),

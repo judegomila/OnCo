@@ -33,7 +33,7 @@ const terms: TermInput[] = [
     tldr: "R-ISS is the myeloma staging system, combining blood markers with high-risk chromosome changes to predict outcome.",
     summary: "Revised International Staging System (2015): β2-microglobulin, albumin, LDH and high-risk FISH (del17p, t(4;14), t(14;16)). R2-ISS (2022) adds 1q gain/amplification and weights factors. Median OS is not reached for stage I and ~4-5 years for stage III in older cohorts; modern quadruplets shift all groups.",
     cancers: ["multiple-myeloma"], links: [{ label: "Wikipedia", url: W("Multiple_myeloma#Staging") }] }),
-  term({ id: "high-risk-myeloma", name: "High-risk cytogenetics (myeloma)", category: "Biomarkers",
+  term({ id: "high-risk-myeloma", wikipedia: W("Multiple_myeloma"), name: "High-risk cytogenetics (myeloma)", category: "Biomarkers",
     tldr: "Chromosome changes such as del(17p), t(4;14), t(14;16) and extra copies of 1q that mark myeloma likely to relapse early.",
     summary: "IMS 2024 consensus: high risk = del(17p) with TP53 mutation or ≥20% clonal fraction, t(4;14) or t(14;16) or t(14;20) with 1q gain or del(1p), biallelic del(1p32), or β2M ≥5.5 with normal creatinine. Ultra-high risk with two or more lesions. High-risk patients gain less from most regimens; CAR-T and bispecifics narrow but do not close the gap.",
     cancers: ["multiple-myeloma"], targets: ["tp53"] }),

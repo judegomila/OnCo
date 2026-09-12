@@ -50,7 +50,7 @@ const terms: TermInput[] = [
     tldr: "Bile duct cancers are named by where they start: inside the liver, at the hilum where the ducts join, in the lower duct near the pancreas, or in the gallbladder. Each behaves and mutates differently.",
     summary: "Intrahepatic cholangiocarcinoma (iCCA) carries FGFR2 fusions (~10-15%) and IDH1 mutations (~15%) and is rising in incidence; perihilar (Klatskin) and distal tumours are more often HER2-amplified or KRAS-mutant; gallbladder cancer has the highest HER2 prevalence (~15-20%) and is common in Chile, India and among Indigenous Americans. Molecular profiling is guideline-recommended for all advanced biliary cancers.",
     cancers: ["cholangiocarcinoma"], targets: ["fgfr2", "idh", "her2"], links: [{ label: "Wikipedia", url: W("Cholangiocarcinoma") }] }),
-  term({ id: "fgfr2-fusion", name: "FGFR2 fusions and rearrangements", category: "Genomics",
+  term({ id: "fgfr2-fusion", wikipedia: W("Fibroblast_growth_factor_receptor_2"), name: "FGFR2 fusions and rearrangements", category: "Genomics",
     tldr: "A broken-and-rejoined FGFR2 gene that drives about one in eight intrahepatic bile duct cancers and can be switched off with pills.",
     summary: "Detected by RNA or DNA sequencing; partners are diverse (BICC1 most common). Pemigatinib (ORR 37%) and futibatinib (ORR 42%) are approved; acquired resistance arises through FGFR2 kinase-domain mutations (N550, V565 gatekeeper) that next-generation inhibitors (tinengotinib, RLY-4008 lirafugratinib) target. Hyperphosphataemia is the class effect.",
     cancers: ["cholangiocarcinoma"], targets: ["fgfr2"], drugs: ["pemigatinib", "futibatinib", "tinengotinib"], terms: ["gene-fusion"] }),

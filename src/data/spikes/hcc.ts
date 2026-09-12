@@ -84,7 +84,7 @@ const terms: TermInput[] = [
     tldr: "Scores for how well the liver still works; in liver cancer they decide whether a patient can tolerate treatment at all.",
     summary: "Child-Pugh and ALBI are scores of how well the liver still works, and in hepatocellular carcinoma they decide whether a patient can tolerate treatment at all. Child-Pugh combines bilirubin, albumin, INR, ascites and encephalopathy into classes A to C, and almost every HCC trial restricts entry to class A. ALBI, built from albumin and bilirubin alone, is an objective alternative that stratifies further within Child-Pugh A. Liver function, not just tumour stage, drives prognosis in HCC, which is why these scores sit alongside BCLC staging and inform liver transplantation decisions under the Milan criteria and beyond.",
     cancers: ["hcc"], terms: ["bclc-staging"], links: [{ label: "Wikipedia", url: W("Child–Pugh_score") }] }),
-  term({ id: "bclc-staging", name: "BCLC staging", category: "Clinical",
+  term({ id: "bclc-staging", wikipedia: W("Hepatocellular_carcinoma"), name: "BCLC staging", category: "Clinical",
     tldr: "The liver-cancer staging system that combines tumour size, liver function and fitness to recommend treatment: ablation or surgery, transplant, TACE, or drugs.",
     summary: "Barcelona Clinic Liver Cancer stages 0/A (very early/early: ablation, resection, transplant), B (intermediate: TACE, or systemic therapy for high burden), C (advanced: systemic therapy) and D (terminal). The 2022 update introduced treatment-stage migration and systemic therapy for some BCLC-B patients. Used in guidelines worldwide and as a trial-eligibility framework.",
     cancers: ["hcc"], technologies: ["tace", "thermal-ablation", "liver-transplant-oncology"], links: [] }),

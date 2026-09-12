@@ -726,7 +726,7 @@ export const termsBasics: TermInput[] = [
     related: ["remission", "progression", "refractory", "mrd", "ctdna", "tumor-dormancy", "neoadjuvant-adjuvant", "efs", "disseminated-tumor-cells"],
   }),
   t({
-    id: "refractory", name: "Refractory", category: CLINIC,
+    id: "refractory", links: [{ label: "NCI Dictionary of Cancer Terms: refractory cancer", url: "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/refractory-cancer" }], name: "Refractory", category: CLINIC,
     aka: ["treatment-refractory", "chemo-refractory", "chemorefractory", "platinum-refractory", "primary refractory", "refractory disease", "refractory to", "did not respond", "failed to respond", "unresponsive", "treatment-resistant", "heavily pretreated", "heavily pre-treated", "pretreated", "pre-treated"],
     tldr: "Cancer that does not respond to a treatment at all, or grows straight through it. Distinct from relapse, where the cancer responded first and came back later.",
     summary: "Refractory disease implies primary resistance: the tumour never depended on the drug's target, could not be reached by it, or had a resistant population from the outset. 'Relapsed or refractory' (R/R) is the standard label for the population in later-line trials, particularly in blood cancers, and 'platinum-refractory' ovarian cancer (progressing during or within a month of platinum chemotherapy) marks the group with the poorest prognosis. Because refractory patients have exhausted standard options, they are where new mechanisms are first tested and where the bar for approval is lowest.",

@@ -1,0 +1,27 @@
+src/data/spikes/neuroendocrine.ts
+  s_0beac9cb5d78fd::t_51c6b9d8d1c303 93
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_51c6b9d8d1c303 199,772,787,803,811
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_51c6b9d8d1c303 51
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_51c6b9d8d1c303 208
+src/data/spikes/cholangiocarcinoma.ts
+  s_0beac9cb5d78fd::t_51c6b9d8d1c303 89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b7583712487afec44656514881bceab73ca6eea6",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

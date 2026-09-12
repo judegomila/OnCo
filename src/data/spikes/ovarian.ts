@@ -232,7 +232,7 @@ const terms: TermInput[] = [
     tldr: "A blood protein that rises in most ovarian cancers; useful for tracking treatment, useless for screening on its own.",
     summary: "MUC16 glycoprotein elevated in ~80% of advanced high-grade serous ovarian cancers but also in endometriosis, pregnancy, and other cancers. Used to monitor response (GCIG criteria) and relapse; UKCTOCS showed a CA-125 algorithm plus ultrasound detects cancer earlier without reducing deaths. HE4 and the ROMA index refine triage of pelvic masses.",
     cancers: ["ovarian"], trials: ["ukctocs"], links: [{ label: "Wikipedia", url: W("CA-125") }] }),
-  tm({ id: "lgsoc", wikipedia: W("Ovarian_cancer"), name: "Low-grade serous ovarian cancer (LGSOC)", category: "Cancer biology",
+  tm({ id: "lgsoc", links: [{ label: "GOG 281/LOGS: trametinib versus standard of care in recurrent low-grade serous ovarian cancer (Lancet 2022)", url: "https://doi.org/10.1016/S0140-6736(21)02175-9" }], wikipedia: W("Ovarian_cancer"), name: "Low-grade serous ovarian cancer (LGSOC)", category: "Cancer biology",
     tldr: "Low-grade serous ovarian cancer is a slow-growing, RAS-driven type of ovarian cancer that resists chemotherapy but responds to hormone blockers and MEK-pathway drugs.",
     summary: "About 5-10% of serous ovarian cancers; younger patients, KRAS/BRAF/NRAS mutations in ~30-50%, wild-type TP53, strong ER expression, low proliferation. Chemotherapy response rates are under 25%; endocrine therapy and MEK/RAF pathway inhibition (trametinib in GOG 281; avutometinib + defactinib, approved 2025) are the mainstays. Contrast with high-grade serous carcinoma.",
     cancers: ["ovarian"], drugs: ["avutometinib-defactinib", "letrozole"], targets: ["kras"], pathways: ["ras-mapk"] }),

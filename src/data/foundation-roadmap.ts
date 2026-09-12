@@ -5,7 +5,7 @@ const asOf = "2026-09-08";
 /** Roadmaps for AI foundation models in oncology: the virtual cell and the AI-assisted clinic. */
 export const foundationRoadmaps: RoadmapInput[] = [
   {
-    id: "virtual-cell", kind: "roadmap", asOf, sections: ["ai-computation", "drug-discovery"],
+    id: "virtual-cell", links: [{ label: "Defining a Cancer Dependency Map: which genes each cancer cell line cannot live without (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.06.010" }], kind: "roadmap", asOf, sections: ["ai-computation", "drug-discovery"],
     name: "Virtual cell roadmap: from bulk omics to a predictive model of a cancer cell",
     tldr: "The attempt to build a computer model of a cell good enough to predict what a drug or mutation will do before anyone runs the experiment.",
     summary: "A virtual cell would let researchers test thousands of drug ideas in silico and personalise treatment from a patient's own tumour profile. The field moved from static atlases to perturbation-trained models in five years; the honest status is that current models generalise poorly to unseen contexts and barely beat simple baselines on rigorous benchmarks, while data generation has begun to scale to the size the problem needs.",
@@ -22,7 +22,7 @@ export const foundationRoadmaps: RoadmapInput[] = [
     ],
   },
   {
-    id: "ai-oncology-clinic", kind: "roadmap", asOf, sections: ["ai-computation"],
+    id: "ai-oncology-clinic", links: [{ label: "MASAI: AI-supported mammography screening finds more cancers with half the radiologist workload (Lancet Oncology 2023)", url: "https://doi.org/10.1016/S1470-2045(23)00298-X" }], kind: "roadmap", asOf, sections: ["ai-computation"],
     name: "AI in the oncology clinic: from narrow cleared tools to multimodal decision support",
     tldr: "How AI is moving from single-task readers of scans and slides towards systems that weigh everything about a patient, and what regulators and evidence still require.",
     summary: "Hundreds of narrow AI devices are cleared, mostly in radiology triage and screening. The first predictive pathology tools (ArteraAI) prove that AI can change treatment decisions under regulation. Foundation models promise breadth, but the evidence base for deployment, the regulatory framework for updating models, and reimbursement are all unsettled.",

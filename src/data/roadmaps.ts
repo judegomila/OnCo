@@ -6,7 +6,7 @@ const r = (x: R): RoadmapInput => ({ kind: "roadmap", asOf, ...x });
 
 export const roadmaps: RoadmapInput[] = [
   r({
-    id: "adc-generations", name: "ADC roadmap: from Mylotarg to bispecific and dual-payload ADCs",
+    id: "adc-generations", links: [{ label: "ASCENT: sacituzumab govitecan doubles survival in heavily pretreated metastatic triple-negative breast cancer (New England Journal of Medicine 2021)", url: "https://doi.org/10.1056/NEJMoa2028485" }, { label: "DESTINY-Breast03: trastuzumab deruxtecan beats T-DM1 as second-line treatment of HER2-positive metastatic breast cancer (New England Journal of Medicine 2022)", url: "https://doi.org/10.1056/NEJMoa2115022" }], name: "ADC roadmap: from Mylotarg to bispecific and dual-payload ADCs",
     sections: ["adcs"],
     tldr: "Twenty-five years of trying to make chemotherapy hit only cancer cells, from the unstable first ADC to today's third-generation blockbusters and the fourth generation now in trials.",
     summary: "This roadmap traces antibody-drug conjugates from the first attempts with murine antibodies and the unstable first approved ADC, gemtuzumab ozogamicin, through the second generation that proved the class with brentuximab vedotin and T-DM1. The third generation brought TOP1 payloads and bystander killing with trastuzumab deruxtecan and sacituzumab govitecan, then moved into earlier lines, new targets and ADC plus PD-1 combinations. The emerging fourth generation arrives as bispecific ADCs led by izalontamab brengitecan, then dual-payload, degrader, immune-stimulating and masked ADCs, before a speculative era of imaging-guided therapy. Each generation fixed the previous one's weakness; the route is linked from TNBC, HR-positive and HER2-positive breast cancer, NSCLC and ovarian cancer.",
@@ -22,7 +22,7 @@ export const roadmaps: RoadmapInput[] = [
     ], related: ["drug-discovery-roadmap"],
   }),
   r({
-    id: "trop2-adc-roadmap", name: "TROP2 ADC roadmap: sacituzumab govitecan → Dato-DXd → sac-TMT → bispecifics and PET",
+    id: "trop2-adc-roadmap", links: [{ label: "ASCENT: sacituzumab govitecan doubles survival in heavily pretreated metastatic triple-negative breast cancer (New England Journal of Medicine 2021)", url: "https://doi.org/10.1056/NEJMoa2028485" }], name: "TROP2 ADC roadmap: sacituzumab govitecan → Dato-DXd → sac-TMT → bispecifics and PET",
     sections: ["adcs"],
     tldr: "One target, three approved-or-nearly-approved drugs, and a fourth wave. How TROP2 went from an obscure trophoblast antigen to the centre of breast and lung cancer treatment.",
     summary: "TROP2 is not a driver but an address, so this roadmap follows what is delivered to it. It starts with target discovery on trophoblasts and Immunomedics humanising the RS7 antibody, moves to sacituzumab govitecan proving the target in ASCENT, then to datopotamab deruxtecan and the first-line phase 3 trials ASCENT-03, ASCENT-04 and TROPION-Breast02. Sacituzumab tirumotecan and the Merck TroFuse programme form a third wave, while selection, sequencing and cross-resistance among TOP1 payloads remain unsolved, with TROP2 PET and ctDNA biomarkers entering trials. The speculative end is bispecific and next-payload TROP2 ADCs in early-stage disease. The route links TNBC, HR-positive breast cancer, NSCLC and urothelial cancer, the TROP2 target and the incentive-misalignment bottleneck.",
@@ -38,7 +38,7 @@ export const roadmaps: RoadmapInput[] = [
     ],
   }),
   r({
-    id: "tnbc-history", name: "TNBC roadmap: from 'nothing to target' to ADC + immunotherapy first line",
+    id: "tnbc-history", links: [{ label: "KEYNOTE-522: adding pembrolizumab before and after surgery in early triple-negative breast cancer (New England Journal of Medicine 2022)", url: "https://doi.org/10.1056/NEJMoa2112651" }, { label: "ASCENT: sacituzumab govitecan doubles survival in heavily pretreated metastatic triple-negative breast cancer (New England Journal of Medicine 2021)", url: "https://doi.org/10.1056/NEJMoa2028485" }], name: "TNBC roadmap: from 'nothing to target' to ADC + immunotherapy first line",
     sections: ["adcs", "immunotherapy"],
     tldr: "How triple-negative breast cancer went from the subtype with no targeted therapy to one with immunotherapy, PARP inhibitors, three ADCs, and a positive bispecific ADC in six years.",
     summary: "The TNBC roadmap begins in the chemotherapy-only years, when the basal-like subtype was defined, anthracycline-taxane regimens with carboplatin were all that existed and EGFR, VEGF and PARP inhibitor trials failed. Immunotherapy and PARP inhibitors arrived with IMpassion130, OlympiAD, EMBRACA, KEYNOTE-355 and ASCENT, then KEYNOTE-522 and OlympiA transformed the curative setting and DESTINY-Breast04 opened T-DXd to HER2-low disease. Now ADCs move to first line through ASCENT-03, ASCENT-04 and TROPION-Breast02, with OptimICE-pCR, SCARLET, ctDNA-guided escalation and post-neoadjuvant ADCs as the emerging steps. The turning point was recognising that TNBC could be targeted without an oncogenic driver; the route links the TNBC record and the ADC and immunotherapy sections.",
@@ -53,7 +53,7 @@ export const roadmaps: RoadmapInput[] = [
     ],
   }),
   r({
-    id: "radiopharma-roadmap", name: "Radiopharmaceutical roadmap: iodine → lutetium → actinium",
+    id: "radiopharma-roadmap", links: [{ label: "VISION: lutetium-177 PSMA-617 radioligand therapy extends survival in advanced prostate cancer (New England Journal of Medicine 2021)", url: "https://doi.org/10.1056/NEJMoa2107322" }], name: "Radiopharmaceutical roadmap: iodine → lutetium → actinium",
     tldr: "The radiopharmaceutical roadmap runs eighty years from radioactive iodine for thyroid cancer to alpha-emitting drugs for prostate and neuroendocrine cancers, with isotope supply as the limiting factor.",
     summary: "The radiopharmaceutical roadmap runs from radioiodine curing differentiated thyroid cancer, the first theranostic, through radium-223 and Lutathera with its matched 68Ga-DOTATATE PET, to PSMA PET and Pluvicto building the first radioligand franchise. The current steps move Pluvicto and Lutathera into earlier lines amid an M&A wave, while the emerging step brings 225Ac and 212Pb alpha emitters and new targets such as FAP, GRPR, CAIX and B7-H3 into trials, with isotope supply as the limiting factor. The speculative end imagines radioligands as a standard modality with pan-cancer FAP theranostics and personalised dosimetry. The route links radioligand therapy, targeted alpha therapy, PSMA PET and FAPI PET, prostate, thyroid and neuroendocrine cancers, and the manufacturing bottleneck.",
     technologies: ["radioligand-therapy", "targeted-alpha-therapy", "psma-pet", "fapi-pet", "radioimmunotherapy"], sections: ["radiopharma"],
@@ -67,7 +67,7 @@ export const roadmaps: RoadmapInput[] = [
     ],
   }),
   r({
-    id: "cell-therapy-roadmap", name: "Cell therapy roadmap: CD19 CAR-T → solid tumours → in vivo CAR",
+    id: "cell-therapy-roadmap", links: [{ label: "ELIANA: the global trial that made tisagenlecleucel the first approved CAR-T therapy for children and young adults with relapsed ALL (New England Journal of Medicine 2018)", url: "https://doi.org/10.1056/NEJMoa1709866" }, { label: "CARTITUDE-4: cilta-cel CAR-T versus standard combinations after one to three prior lines of myeloma therapy (New England Journal of Medicine 2023)", url: "https://doi.org/10.1056/NEJMoa2303379" }], name: "Cell therapy roadmap: CD19 CAR-T → solid tumours → in vivo CAR",
     tldr: "From a cure for some leukaemias in 2017 to the first solid-tumour CAR-T and the prospect of making CAR-T inside the body with an injection.",
     summary: "This roadmap starts with the foundations of cell therapy, Rosenberg's TIL therapy in melanoma and the first-generation CARs, then the approvals of CD19 and BCMA CAR-T alongside T-cell engagers as off-the-shelf competitors. Blood cancers were the easy case with a clean antigen and accessible cells; the current step brings solid tumours within reach through lifileucel, afamitresgene autoleucel and CLDN18.2, GD2 and GPC3 CAR-T. The emerging manufacturing revolution covers gene-edited allogeneic products and in vivo CAR-T made inside the body by targeted LNPs or lentivirus, ending speculatively with in vivo CAR as an outpatient injection. The route links CAR-T, TIL, TCR-T, in vivo CAR-T, allogeneic cell therapy and CAR-NK, and is pointed to by glioblastoma and the manufacturing bottleneck.",
     technologies: ["car-t", "til-therapy", "tcr-t", "in-vivo-car-t", "allogeneic-cell-therapy", "armored-car", "car-nk-macrophage"], sections: ["cell-therapy"],
@@ -80,7 +80,7 @@ export const roadmaps: RoadmapInput[] = [
     ],
   }),
   r({
-    id: "molecular-imaging-roadmap", name: "Molecular imaging roadmap: FDG → PSMA → FAP → antigen and immune PET",
+    id: "molecular-imaging-roadmap", links: [{ label: "VISION: lutetium-177 PSMA-617 radioligand therapy extends survival in advanced prostate cancer (New England Journal of Medicine 2021)", url: "https://doi.org/10.1056/NEJMoa2107322" }, { label: "DETECT-A: a blood test plus PET-CT found treatable cancers in 10,000 women with no symptoms (Science 2020)", url: "https://doi.org/10.1126/science.abb9601" }], name: "Molecular imaging roadmap: FDG → PSMA → FAP → antigen and immune PET",
     tldr: "From a sugar tracer that lights up most cancers to tracers that show a single protein, a stromal cell type, or the immune cells inside a tumour.",
     summary: "The molecular imaging roadmap moves from PET scanners and FDG, made routine by PET/CT, to receptor tracers such as 68Ga-DOTATATE and PSMA PET that outperform anatomic imaging and enable theranostics. The current step adds stromal FAPI PET and total-body scanners, and the emerging step brings drug-target and immune PET: TROP2, HER2, B7-H3 and Nectin-4 tracers to select and sequence ADCs, CD8 and granzyme PET to monitor immunotherapy, and PARP PET. The speculative end is multi-tracer same-day imaging, PET-guided adaptive radiotherapy and imaging-derived digital twins. Each new tracer converts a biopsy biomarker into a whole-body map; the route sits in the Imaging section and links PET, PET/CT, FDG PET, PSMA PET, FAPI PET, TROP2 PET, HER2 PET, immuno-PET, PARP PET and PET/MRI.",
     technologies: ["pet", "pet-ct", "fdg-pet", "psma-pet", "fapi-pet", "trop2-pet", "her2-pet", "immuno-pet", "parp-pet", "pet-mri"], sections: ["imaging"],
@@ -93,7 +93,7 @@ export const roadmaps: RoadmapInput[] = [
     ],
   }),
   r({
-    id: "early-detection-roadmap", name: "Early detection roadmap: organ screening → blood tests for many cancers",
+    id: "early-detection-roadmap", links: [{ label: "PATHFINDER: the first prospective test of a multi-cancer blood test in people without symptoms (The Lancet 2023)", url: "https://doi.org/10.1016/S0140-6736(23)01700-2" }, { label: "DETECT-A: a blood test plus PET-CT found treatable cancers in 10,000 women with no symptoms (Science 2020)", url: "https://doi.org/10.1126/science.abb9601" }], name: "Early detection roadmap: organ screening → blood tests for many cancers",
     tldr: "From mammograms and colonoscopies to a single blood draw that might screen for dozens of cancers, with the FDA's first decision imminent.",
     summary: "Starting from organ-specific screening proven over decades, the Pap smear, mammography, colonoscopy and FIT, PSA and low-dose CT after NLST, this roadmap follows the cfDNA and methylation science behind the CCGA study, Galleri, Cologuard and Epi proColon. The current step covers pivotal trials and first approvals, with NHS-Galleri, PATHFINDER 2, Shield as the first FDA-approved blood test for colorectal screening and GRAIL's PMA filing, leading to FDA and NHS decisions and Medicare coverage. The speculative end is annual multi-analyte blood screening with tissue-of-origin-directed imaging. The route links mammography, MCED, liquid biopsy, methylation profiling, AI in radiology and whole-body MRI, and is pointed to by pancreatic and cervical cancer and the late-detection bottleneck.",
     technologies: ["mammography", "mced", "liquid-biopsy", "methylation-profiling", "radiology-ai-screening", "whole-body-mri"], sections: ["early-detection"],
@@ -106,7 +106,7 @@ export const roadmaps: RoadmapInput[] = [
     ],
   }),
   r({
-    id: "immunotherapy-roadmap", name: "Immunotherapy roadmap: Coley's toxins → checkpoint inhibitors → engineered immunity",
+    id: "immunotherapy-roadmap", links: [{ label: "Leach, Krummel and Allison: releasing the CTLA-4 brake makes mice reject tumours (Science 1996)", url: "https://doi.org/10.1126/science.271.5256.1734" }, { label: "Hodi 2010: ipilimumab, the first checkpoint inhibitor, extends survival in metastatic melanoma (New England Journal of Medicine 2010)", url: "https://doi.org/10.1056/NEJMoa1003466" }], name: "Immunotherapy roadmap: Coley's toxins → checkpoint inhibitors → engineered immunity",
     tldr: "The immunotherapy roadmap is a 130-year arc from injecting bacteria into tumours to releasing immune brakes, and now to designing the immune response itself with vaccines, engagers, and cells.",
     summary: "The immunotherapy roadmap covers a 130-year arc that starts with Coley's toxins, BCG for bladder cancer, interferon and IL-2 and sipuleucel-T, an era of sporadic cures and scepticism. The checkpoint revolution followed with ipilimumab, nivolumab, pembrolizumab and atezolizumab and the Nobel Prize to Allison and Honjo, then immunotherapy moved into earlier lines, combinations, T-cell engagers and TIL. The emerging step is engineered immunity: personalised mRNA vaccines, PD-1 and VEGF bispecifics, ADC plus IO, oncolytic viruses, TCR-T and in vivo CAR, with interception vaccines as the speculative end. The route links checkpoint inhibitors, T-cell engagers, CAR-T, TIL and STING agonists, and the cold-tumour and response-prediction bottlenecks.",
     technologies: ["checkpoint-inhibitor", "t-cell-engager", "neoantigen-mrna-vaccine", "oncolytic-virus", "cytokine-therapy", "car-t", "til-therapy", "sting-agonist"], sections: ["immunotherapy"],
@@ -119,7 +119,7 @@ export const roadmaps: RoadmapInput[] = [
     ],
   }),
   r({
-    id: "kras-roadmap", name: "KRAS roadmap: undruggable → G12C → pan-RAS",
+    id: "kras-roadmap", links: [{ label: "Ostrem and Shokat: the hidden pocket that made KRAS G12C druggable (Nature 2013)", url: "https://doi.org/10.1038/nature12796" }, { label: "CodeBreaK 300: sotorasib plus panitumumab in chemotherapy-refractory KRAS G12C colorectal cancer (New England Journal of Medicine 2023)", url: "https://doi.org/10.1056/NEJMoa2308795" }], name: "KRAS roadmap: undruggable → G12C → pan-RAS",
     sections: ["targeted-therapy"],
     tldr: "The most important cancer gene was declared undruggable for 40 years. Then a pocket was found, and now a pan-RAS drug is in phase 3 for pancreatic cancer.",
     summary: "The KRAS roadmap begins with the gene's discovery as a human oncogene and decades of failure, when farnesyltransferase inhibitors did not work, until the Shokat lab found the switch-II pocket and sotorasib and adagrasib were approved in NSCLC. The current step goes beyond G12C with non-covalent G12D inhibitors and pan-RAS(ON) tri-complex inhibitors such as daraxonrasib in pancreatic cancer, and the emerging step anticipates a first pancreatic approval, combinations, KRAS vaccines, mutant-KRAS TCR-T and RAS degraders. The speculative end is neoadjuvant RAS inhibition and interception in high-risk cyst carriers. KRAS drives the three deadliest common cancers; the route links pancreatic, colorectal and NSCLC, the KRAS target, KRAS and RAS inhibitors and the undruggable-drivers bottleneck.",

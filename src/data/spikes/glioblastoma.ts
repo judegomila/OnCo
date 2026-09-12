@@ -116,7 +116,7 @@ const entities: EntityInput[] = [
     principle: "Stereotactically placed laser fibre delivers thermal energy; MR thermometry maps the ablation zone in real time.",
     strengths: ["Minimally invasive access to deep lesions", "Short hospital stay", "Possible BBB disruption for adjuvant drugs"],
     limitations: ["Lesion size limit (~3 cm)", "Oedema after ablation", "No randomised trials"],
-    technologies: ["mri", "thermal-ablation"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"], links: [],
+    technologies: ["mri", "thermal-ablation"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"], links: [{ label: "Kamath et al., Glioblastoma treated with MRI-guided laser interstitial thermal therapy: safety, efficacy and outcomes (Neurosurgery 2018)", url: "https://doi.org/10.1093/neuros/nyy375" }],
   },
   {
     id: "bbb-focused-ultrasound", links: [{ label: "Mainprize et al., Blood-brain barrier opening in primary brain tumours with non-invasive MR-guided focused ultrasound (Scientific Reports 2019)", url: "https://doi.org/10.1038/s41598-018-36340-0" }], kind: "technology", name: "Focused-ultrasound blood-brain barrier opening", sections: ["devices", "surgery"], status: "phase-2", asOf,

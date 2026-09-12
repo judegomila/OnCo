@@ -135,7 +135,7 @@ export const technologies: TechnologyInput[] = [
     targets: ["trop2", "her2", "pd1", "pdl1"], links: [{ label: "Bensch et al., 89Zr-atezolizumab imaging as a non-invasive approach to assess clinical response to PD-L1 blockade (Nature Medicine 2018)", url: "https://doi.org/10.1038/s41591-018-0255-8" }],
   },
   {
-    id: "parp-pet", kind: "technology", name: "PARP PET", sections: ["imaging"], status: "phase-2", asOf,
+    id: "parp-pet", links: [{ label: "Makvandi et al., A PET imaging agent for evaluating PARP-1 expression in ovarian cancer (Journal of Clinical Investigation 2018)", url: "https://doi.org/10.1172/JCI97992" }], kind: "technology", name: "PARP PET", sections: ["imaging"], status: "phase-2", asOf,
     tldr: "A PET tracer that measures how much of the DNA repair enzyme PARP a tumour has, to predict response to PARP inhibitors.",
     summary: "PARP PET uses radiolabelled analogues of the PARP inhibitors olaparib and rucaparib, such as 18F-FluorThanatrace (FTT, Penn) and 18F-PARPi (MSK), which bind PARP1 in the nucleus and so measure both expression of the enzyme and drug engagement at the target. The rationale is that genomic HRD tests read a permanent scar, whereas a PARP tracer reports the tumour's current state. Trials in ovarian, breast and head-and-neck cancer test whether uptake predicts benefit from PARP inhibitors beyond BRCA and HRD status, and whether a fall in uptake on treatment confirms target engagement. It offers a direct pharmacodynamic readout that complements genomic HRD, but remains at the research stage and is available at only a few academic sites. It is a scan that measures how much of the DNA repair enzyme a tumour has, to predict whether a PARP inhibitor will work.",
     principle: "Radiolabelled olaparib or rucaparib analogues bind PARP1 in the nucleus.",
@@ -708,7 +708,7 @@ export const technologies: TechnologyInput[] = [
     tags: ["frontier"], companies: ["cullgen", "firefly-bio", "orum-therapeutics", "prelude-therapeutics"],
   },
   {
-    id: "immune-stimulating-adc", kind: "technology", name: "Immune-stimulating antibody conjugate (ISAC)", sections: ["adcs", "immunotherapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
+    id: "immune-stimulating-adc", links: [{ label: "Ackerman et al., Immune-stimulating antibody conjugates elicit robust myeloid activation and durable antitumour immunity (Nature Cancer 2020)", url: "https://doi.org/10.1038/s43018-020-00136-x" }], kind: "technology", name: "Immune-stimulating antibody conjugate (ISAC)", sections: ["adcs", "immunotherapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
     tldr: "An immune-stimulating antibody conjugate (ISAC) is an ADC whose payload wakes up the immune system inside the tumour rather than poisoning the cell.",
     summary: "An immune-stimulating antibody conjugate delivers an innate immune agonist, rather than a cytotoxic, to tumour-resident myeloid cells, aiming to convert immunologically cold tumours into hot ones. TLR7/8 agonist conjugates (Bolt's BDC-1001 against HER2; Silverback) and STING agonist conjugates (Mersana XMT-2056, Takeda TAK-500) are the leading examples. In principle the approach could produce durable immune memory and combine naturally with checkpoint inhibitors. Early results have been modest, with weak single-agent activity so far; dose-limiting systemic cytokine release and the need for antigen-presenting-cell engagement are the challenges. The simple version is an ADC whose payload wakes up the immune system inside the tumour, an idea still waiting for convincing clinical proof.",
     principle: "Antibody-targeted delivery of innate immune agonists to tumour-resident myeloid cells.",
@@ -718,7 +718,7 @@ export const technologies: TechnologyInput[] = [
     tags: ["frontier"], companies: ["nbe-therapeutics", "tallac-therapeutics"],
   },
   {
-    id: "masked-adc", kind: "technology", name: "Masked / conditionally active ADC", sections: ["adcs"], status: "phase-2", asOf, generation: "4th (next-gen)",
+    id: "masked-adc", links: [{ label: "Autio et al., Probody therapeutics: an emerging class of therapies designed to enhance on-target effects with reduced off-tumour toxicity (Clinical Cancer Research 2020)", url: "https://doi.org/10.1158/1078-0432.CCR-19-1457" }], kind: "technology", name: "Masked / conditionally active ADC", sections: ["adcs"], status: "phase-2", asOf, generation: "4th (next-gen)",
     tldr: "An ADC wearing a mask that only comes off inside the tumour, so it ignores the same protein on healthy tissue.",
     summary: "Probody platform (CytomX; praluzatamab ravtansine CD166, CX-2051 EpCAM with TOP1 payload showing responses in colorectal cancer in 2025) and protease-activated designs allow targeting of antigens that are also expressed at high levels on normal tissue (EGFR, EpCAM, CD71). Also 'tumour microenvironment-activated' linkers cleaved by extracellular proteases.",
     principle: "Peptide mask blocks antigen binding until cleaved by tumour-enriched proteases (MMPs, uPA, legumain).",

@@ -109,7 +109,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["cgp", "wes-wgs", "liquid-biopsy"], companies: ["illumina", "ultima-genomics", "element-biosciences", "roche-genentech", "mgi-tech"],
   }),
   t({
-    id: "spatial-biology-instruments", name: "Spatial biology instruments", sections: ["diagnostics", "drug-discovery"], status: "emerging",
+    id: "spatial-biology-instruments", links: [{ label: "Method of the Year 2020: spatially resolved transcriptomics (Nature Methods 2021)", url: "https://doi.org/10.1038/s41592-020-01042-x" }], name: "Spatial biology instruments", sections: ["diagnostics", "drug-discovery"], status: "emerging",
     tldr: "Spatial biology instruments are machines that map which genes and proteins are active in each part of a tumour slice.",
     summary: "10x Genomics (Visium HD, Xenium), Bruker Spatial Biology (formerly NanoString GeoMx and CosMx), Vizgen (MERSCOPE), Akoya Biosciences (PhenoCycler) and Lunaphore/Bio-Techne (COMET) sell instruments and reagents for spatial transcriptomics and multiplexed protein imaging. Patent litigation reshaped the market (NanoString bankruptcy and acquisition by Bruker, 2024). Clinical use is nascent; the research impact on tumour microenvironment biology is large.",
     principle: "In situ hybridisation with barcoded probes imaged over many cycles, or capture arrays that record position, followed by sequencing.",
@@ -162,7 +162,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Clinical trial infrastructure ----
   t({
-    id: "clinical-trial-software", name: "Clinical trial software (EDC, eCOA, CTMS, RTSM)", sections: ["ai-computation"], status: "standard-of-care",
+    id: "clinical-trial-software", links: [{ label: "FDA guidance: electronic source data in clinical investigations", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-source-data-clinical-investigations" }], name: "Clinical trial software (EDC, eCOA, CTMS, RTSM)", sections: ["ai-computation"], status: "standard-of-care",
     tldr: "Clinical trial software is the set of systems that collect trial data, randomise patients, and keep every form auditable.",
     summary: "Electronic data capture and trial platforms from Medidata (Dassault Systèmes; Rave), Veeva (Vault CDMS), Oracle (Clinical One), IQVIA (Orchestrated Clinical Trials), Castor, and Medrio run most oncology trials; eCOA/ePRO vendors (Clario, Signant, YPrime) capture patient-reported outcomes; RTSM handles randomisation and drug supply. Risk-based monitoring, direct EHR-to-EDC data flow, and AI-assisted data cleaning are reducing site burden.",
     principle: "Validated 21 CFR Part 11 systems with audit trails, edit checks, role-based access, and standards (CDISC CDASH/SDTM) for regulatory submission.",
@@ -209,7 +209,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Biobanking and reference labs ----
   t({
-    id: "biobanking", name: "Biobanking and tissue procurement", sections: ["drug-discovery", "diagnostics"], status: "established",
+    id: "biobanking", links: [{ label: "NCI Best Practices for Biospecimen Resources", url: "https://biospecimens.cancer.gov/bestpractices/" }], name: "Biobanking and tissue procurement", sections: ["drug-discovery", "diagnostics"], status: "established",
     tldr: "Freezers full of consented tumour samples with matched clinical data, which every biomarker and drug programme depends on.",
     summary: "Academic biobanks (MD Anderson, Mayo, UK Biobank for germline, Karolinska, Hartwig for WGS), commercial procurement (Discovery Life Sciences, Indivumed, BioIVT, Precision for Medicine, iSpecimen marketplace), and living biobanks of organoids and PDX (Hubrecht Organoid Technology, Champions Oncology, HCMI) supply tissue, blood, and models for target validation and diagnostic development. Consent breadth, annotation depth, and pre-analytic standardisation determine value.",
     principle: "Consented collection at surgery or biopsy, controlled fixation or snap-freezing, LIMS tracking, and linked de-identified clinical follow-up.",
@@ -285,7 +285,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["adc", "cytotoxic-chemotherapy", "generic-drug-shortage-response"], companies: ["catalent", "lonza", "samsung-biologics", "thermo-fisher"],
   }),
   t({
-    id: "generic-drug-shortage-response", name: "Generic oncology drug supply and shortage mitigation", sections: ["chemotherapy", "supportive-care"], status: "established",
+    id: "generic-drug-shortage-response", links: [{ label: "FDA: drug shortages", url: "https://www.fda.gov/drugs/drug-safety-and-availability/drug-shortages" }], name: "Generic oncology drug supply and shortage mitigation", sections: ["chemotherapy", "supportive-care"], status: "established",
     tldr: "Keeping cheap, essential chemotherapy drugs like cisplatin available; shortages in 2023 forced rationing in US hospitals.",
     summary: "Sterile injectable generics (platinums, 5-FU, methotrexate) have thin margins and few manufacturers; the 2023 cisplatin/carboplatin shortage followed an FDA import alert on Intas. Responses: temporary imports (Qilu), Civica Rx and Phlow non-profit manufacturing, the White House/HHS supply-chain resilience programme, and FDA's Drug Shortage Task Force. Europe's Critical Medicines Act (2025) targets similar risks.",
     principle: "Redundant qualified sources, strategic reserves, and pricing floors to keep low-margin essential drugs in production.",
@@ -398,7 +398,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["cgp", "wes-wgs", "ai-trial-matching", "genomics-cloud-platforms"], companies: ["sophia-genetics", "qiagen", "velsera", "illumina"], related: ["oncokb", "civic", "cbioportal"],
   }),
   t({
-    id: "genomics-cloud-platforms", name: "Genomics cloud and secure research environments", sections: ["ai-computation", "drug-discovery"], status: "established",
+    id: "genomics-cloud-platforms", links: [{ label: "NCI Cancer Research Data Commons", url: "https://datacommons.cancer.gov/" }], name: "Genomics cloud and secure research environments", sections: ["ai-computation", "drug-discovery"], status: "established",
     tldr: "Cloud systems where hospitals and researchers store and analyse genomic data securely at petabyte scale.",
     summary: "DNAnexus (UK Biobank RAP, Genomics England), Velsera/Seven Bridges (NCI Cancer Genomics Cloud), Terra (Broad/Verily; AnVIL), Lifebit, and the hyperscalers' genomics services host data and workflows under controlled access; trusted research environments (Genomics England, UK Biobank, NIH dbGaP, EGA, GDC) implement 'data visiting' rather than download. Interoperability standards (GA4GH Passports, DRS, WES) enable federated analysis across national resources.",
     principle: "Object storage plus containerised workflow engines (WDL, Nextflow, CWL) in access-controlled cloud tenancies with audit and egress controls.",
@@ -407,7 +407,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["wes-wgs", "ngs-bioinformatics-software", "oncology-real-world-data"], companies: ["dnanexus", "velsera"], institutions: ["nci"], related: ["uk-biobank"],
   }),
   t({
-    id: "variant-knowledgebases", name: "Cancer variant knowledgebases and molecular tumour boards", sections: ["diagnostics", "ai-computation"], status: "established",
+    id: "variant-knowledgebases", links: [{ label: "Chakravarty et al., OncoKB: a precision oncology knowledge base (JCO Precision Oncology 2017)", url: "https://doi.org/10.1200/PO.17.00011" }, { label: "Griffith et al., CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer (Nature Genetics 2017)", url: "https://doi.org/10.1038/ng.3774" }], name: "Cancer variant knowledgebases and molecular tumour boards", sections: ["diagnostics", "ai-computation"], status: "established",
     tldr: "Curated databases that say what each mutation means for treatment, and the expert meetings that use them to decide on therapy.",
     summary: "OncoKB (MSK; FDA-recognised), CIViC (WashU; open, crowd-curated), My Cancer Genome (Vanderbilt), JAX-CKB, COSMIC (Sanger), ClinVar, and cBioPortal supply the evidence layer for precision oncology; molecular tumour boards (institutional, national such as the UK's Genomic MDTs, and virtual services from Roche NAVIFY, Syapse, and Tempus) apply it to patients. Studies show actionable findings in 30-50% of sequenced patients but treatment uptake of only 10-25%, pointing to access and evidence gaps.",
     principle: "Expert curation of gene-variant-disease-drug evidence into levels (e.g. OncoKB 1-4, R1-R2), exposed by API for lab reporting and decision support.",

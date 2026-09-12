@@ -132,7 +132,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Images target and immune infiltrate non-invasively", "Any antibody can be turned into a tracer"],
     limitations: ["Slow kinetics for full antibodies", "Cost of 89Zr"],
     technologies: ["pet"],
-    targets: ["trop2", "her2", "pd1", "pdl1"], links: [],
+    targets: ["trop2", "her2", "pd1", "pdl1"], links: [{ label: "Bensch et al., 89Zr-atezolizumab imaging as a non-invasive approach to assess clinical response to PD-L1 blockade (Nature Medicine 2018)", url: "https://doi.org/10.1038/s41591-018-0255-8" }],
   },
   {
     id: "parp-pet", kind: "technology", name: "PARP PET", sections: ["imaging"], status: "phase-2", asOf,
@@ -155,7 +155,7 @@ export const technologies: TechnologyInput[] = [
     technologies: ["radioligand-therapy"], links: [{ label: "Wikipedia", url: W("Single-photon_emission_computed_tomography") }], companies: ["atomic-alchemy"],
   },
   {
-    id: "whole-body-mri", kind: "technology", name: "Whole-body MRI", sections: ["imaging", "early-detection"], status: "established", asOf,
+    id: "whole-body-mri", links: [{ label: "NICE NG35: myeloma diagnosis and management (whole-body MRI as first-line imaging)", url: "https://www.nice.org.uk/guidance/ng35" }], kind: "technology", name: "Whole-body MRI", sections: ["imaging", "early-detection"], status: "established", asOf,
     tldr: "Whole-body MRI is an MRI of the entire body without radiation, used to find spread in myeloma and to screen people with high inherited cancer risk.",
     summary: "Whole-body MRI acquires multiple stations of MRI, including diffusion-weighted imaging, and stitches them into a single view of the entire body without radiation. It is standard in multiple myeloma under IMWG criteria because of its sensitivity to bone marrow disease, and for surveillance in Li-Fraumeni syndrome, where the absence of radiation matters for people scanned for life. It is being evaluated for response assessment in metastatic prostate and breast cancer through the MET-RADS framework, since bone metastases are hard to measure on CT. Strengths are repeatability and marrow sensitivity; the main limitations are long scan times and incidental findings in screening use. Commercial 'full-body scan' services for average-risk people are controversial for that reason. It is a radiation-free scan of the whole body, most valuable in myeloma and in people with high inherited cancer risk.",
     principle: "Multi-station MRI with diffusion-weighted imaging stitched into a whole-body view.",
@@ -437,7 +437,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Carbon nuclei deposit dense ionisation tracks causing clustered DNA damage with a sharp Bragg peak.",
     strengths: ["Effective in radioresistant tumours"],
     limitations: ["Very few facilities", "Cost"],
-    cancers: ["sarcoma", "pancreatic"], links: [],
+    cancers: ["sarcoma", "pancreatic"], links: [{ label: "Malouff et al., Carbon ion therapy: a modern review of an emerging technology (Frontiers in Oncology 2020)", url: "https://doi.org/10.3389/fonc.2020.00082" }],
   },
   {
     id: "brachytherapy", kind: "technology", name: "Brachytherapy", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Brachytherapy"),
@@ -456,7 +456,7 @@ export const technologies: TechnologyInput[] = [
     strengths: ["Tighter margins, dose escalation in pancreas"],
     limitations: ["Slow throughput", "Cost"],
     companies: ["elekta", "reflexion"],
-    cancers: ["pancreatic", "prostate"], links: [],
+    cancers: ["pancreatic", "prostate"], links: [{ label: "MIRAGE: MRI-guided versus CT-guided stereotactic body radiotherapy for prostate cancer (JAMA Oncology 2023)", url: "https://doi.org/10.1001/jamaoncol.2022.6558" }],
   },
   {
     id: "flash-rt", kind: "technology", name: "FLASH radiotherapy", sections: ["radiation"], status: "phase-1", asOf, wikipedia: W("FLASH_radiotherapy"),
@@ -873,7 +873,7 @@ export const technologies: TechnologyInput[] = [
     cancers: ["sarcoma", "melanoma"], companies: ["affini-t-therapeutics", "neogene-therapeutics"],
   },
   {
-    id: "car-nk-macrophage", kind: "technology", name: "CAR-NK & CAR-macrophage", sections: ["cell-therapy"], status: "phase-1", asOf,
+    id: "car-nk-macrophage", links: [{ label: "Liu et al., CAR-transduced natural killer cells in CD19-positive lymphoid tumours (NEJM 2020)", url: "https://doi.org/10.1056/NEJMoa1910607" }, { label: "Klichinsky et al., Human chimeric antigen receptor macrophages for cancer immunotherapy (Nature Biotechnology 2020)", url: "https://doi.org/10.1038/s41587-020-0462-y" }], kind: "technology", name: "CAR-NK & CAR-macrophage", sections: ["cell-therapy"], status: "phase-1", asOf,
     tldr: "Putting the cancer-seeking receptor on natural killer cells or macrophages instead of T cells, which could be safer and off-the-shelf.",
     summary: "CAR-NK and CAR-macrophage therapies put a chimeric antigen receptor on innate effector cells instead of T cells; NK cells lack graft-versus-host risk, enabling allogeneic, off-the-shelf use with low cytokine release syndrome and neurotoxicity. Cord-blood or iPSC-derived CAR-NK (Nkarta, Fate, Takeda/MD Anderson) show low CRS and allogeneic feasibility, but efficacy durability is the question because persistence is short. CAR-macrophages (Carisma CT-0508, HER2) aim at solid tumour infiltration and phagocytosis, with early and modest results. Manufacturing scale is a further hurdle. The simple version is that these therapies use other immune cells as the cancer-seeking vehicle, promising safety and availability but not yet matching the durable responses of CAR-T.",
     principle: "Innate effector cells engineered with a CAR; NK cells lack GVHD risk enabling allogeneic use.",
@@ -883,7 +883,7 @@ export const technologies: TechnologyInput[] = [
     tags: ["frontier"], companies: ["indapta-therapeutics", "onk-therapeutics"],
   },
   {
-    id: "allogeneic-cell-therapy", kind: "technology", name: "Allogeneic (off-the-shelf) cell therapy", sections: ["cell-therapy"], status: "phase-2", asOf,
+    id: "allogeneic-cell-therapy", links: [{ label: "Depil et al., 'Off-the-shelf' allogeneic CAR T cells: development and challenges (Nature Reviews Drug Discovery 2020)", url: "https://doi.org/10.1038/s41573-019-0051-2" }], kind: "technology", name: "Allogeneic (off-the-shelf) cell therapy", sections: ["cell-therapy"], status: "phase-2", asOf,
     tldr: "Cell therapies made from healthy donors in advance, so patients do not have to wait for their own cells to be engineered.",
     summary: "Allogeneic cell therapy manufactures engineered cells from healthy donors in advance: TRAC knockout prevents graft-versus-host disease, and B2M/HLA editing or CD52 knockout with alemtuzumab conditioning delays rejection by the patient's immune system. Gene-edited donor T cells (Allogene cema-cel, ALLO-316 against CD70; Caribou; CRISPR Therapeutics) and iPSC-derived platforms (Fate, Century) are the main approaches. The appeal is immediate availability and industrial scale, removing the manufacturing wait that patients with fast-moving disease cannot afford. Persistence is the main limitation, because host rejection eventually clears the donor cells, and deeper lymphodepletion is needed to hold it off. The simple version is a cell therapy taken off the shelf rather than made from each patient's own cells.",
     principle: "TRAC knockout prevents GVHD; B2M/HLA editing or CD52 knockout with alemtuzumab conditioning delays host rejection.",
@@ -978,7 +978,7 @@ export const technologies: TechnologyInput[] = [
 
   // ======================= AI & COMPUTATION =======================
   {
-    id: "pathology-foundation-model", kind: "technology", name: "Pathology & radiology foundation models", sections: ["ai-computation"], status: "emerging", asOf,
+    id: "pathology-foundation-model", links: [{ label: "Chen et al., Towards a general-purpose foundation model for computational pathology (Nature Medicine 2024)", url: "https://doi.org/10.1038/s41591-024-02857-3" }, { label: "Vorontsov et al., A foundation model for clinical-grade computational pathology (Nature Medicine 2024)", url: "https://doi.org/10.1038/s41591-024-03141-0" }], kind: "technology", name: "Pathology & radiology foundation models", sections: ["ai-computation"], status: "emerging", asOf,
     tldr: "Pathology and radiology foundation models are AI networks pretrained without labels on over a million slides or scans (Virchow used 1.5 million), then adapted with small task heads to predict mutations, prognosis or treatment response from routine images. They power the FDA-cleared ArteraAI tools, but validation across hospitals and how regulators treat general-purpose models remain unsettled.",
     summary: "Virchow (Paige/MSK, 1.5M slides), UNI and CONCH (Harvard), Prov-GigaPath (Microsoft/Providence), PLUTO, and radiology models (Merlin, RadFM). They predict molecular alterations, prognosis, and treatment response from routine H&E and CT, and power the FDA-cleared ArteraAI tools. Multimodal patient-level models integrating genomics, imaging, and notes are in development (e.g., CanSim-style efforts, Tempus, Owkin).",
     principle: "Self-supervised pretraining (DINOv2, contrastive) on unlabelled images; frozen encoder plus small task heads.",

@@ -182,7 +182,7 @@ const technologies: TechnologyInput[] = [
     strengths: ["Outpatient, definitive histology", "High cure rate"],
     limitations: ["Requires trained providers and equipment", "Obstetric risk after excision"],
     cancers: ["cervical"], terms: ["cin-hsil"], technologies: ["hpv-testing"], trials: ["mumbai-via-screening"], links: [{ label: "Wikipedia", url: W("Loop_electrical_excision_procedure") }] }),
-  te({ id: "precancer-ablation", name: "Thermal ablation and cryotherapy for cervical precancer", sections: ["surgery", "prevention"], status: "standard-of-care",
+  te({ id: "precancer-ablation", links: [{ label: "WHO guidelines for the use of thermal ablation for cervical pre-cancer lesions (2019)", url: "https://www.who.int/publications/i/item/9789241550598" }], name: "Thermal ablation and cryotherapy for cervical precancer", sections: ["surgery", "prevention"], status: "standard-of-care",
     tldr: "Destroying precancerous cervical cells with a heated or frozen probe in under a minute, the tool that makes screen-and-treat possible where there are no surgeons.",
     summary: "WHO (2019) recommends thermal ablation (100°C probe, 20-40 seconds) or cryotherapy for eligible CIN2+ lesions in screen-and-treat programmes, often after visual inspection with acetic acid (VIA) or HPV testing. Portable battery-powered devices cost a few hundred dollars; cure rates ~85-95% for eligible lesions. Central to the WHO cervical cancer elimination strategy's 90% treatment target.",
     principle: "Coagulative necrosis (thermal) or freeze-thaw injury (cryo) of the cervical transformation zone.",

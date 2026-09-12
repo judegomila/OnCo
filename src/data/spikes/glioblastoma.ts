@@ -119,7 +119,7 @@ const entities: EntityInput[] = [
     technologies: ["mri", "thermal-ablation"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"], links: [],
   },
   {
-    id: "bbb-focused-ultrasound", kind: "technology", name: "Focused-ultrasound blood-brain barrier opening", sections: ["devices", "surgery"], status: "phase-2", asOf,
+    id: "bbb-focused-ultrasound", links: [{ label: "Mainprize et al., Blood-brain barrier opening in primary brain tumours with non-invasive MR-guided focused ultrasound (Scientific Reports 2019)", url: "https://doi.org/10.1038/s41598-018-36340-0" }], kind: "technology", name: "Focused-ultrasound blood-brain barrier opening", sections: ["devices", "surgery"], status: "phase-2", asOf,
     tldr: "Sound waves plus microbubbles briefly open the brain's protective barrier so chemotherapy or antibodies can get to the tumour.",
     summary: "MR-guided (Insightec Exablate) or implantable (Carthera SonoCloud-9) ultrasound with intravenous microbubbles transiently and reversibly opens the BBB. Phase 1/2 trials show 4-6x higher brain concentrations of carboplatin, temozolomide, and albumin-bound paclitaxel, and enable liquid biopsy of glioma DNA released into blood. Efficacy trials (SonoCloud-9 with carboplatin, phase 3 SONOBIRD) are underway.",
     principle: "Acoustic cavitation of circulating microbubbles mechanically loosens endothelial tight junctions for several hours.",
@@ -128,7 +128,7 @@ const entities: EntityInput[] = [
     technologies: ["hifu-histotripsy", "mri", "liquid-biopsy"], companies: ["insightec"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"],
   },
   {
-    id: "glioma-car-t", kind: "technology", name: "CAR-T for glioma (IL13Rα2, GD2, EGFRvIII, multi-target)", sections: ["cell-therapy"], status: "phase-1", asOf,
+    id: "glioma-car-t", links: [{ label: "Majzner et al., GD2-CAR T cell therapy for H3K27M-mutated diffuse midline gliomas (Nature 2022)", url: "https://doi.org/10.1038/s41586-022-04489-4" }, { label: "Brown et al., Regression of glioblastoma after IL13Ralpha2 CAR T-cell therapy (NEJM 2016)", url: "https://doi.org/10.1056/NEJMoa1610497" }], kind: "technology", name: "CAR-T for glioma (IL13Rα2, GD2, EGFRvIII, multi-target)", sections: ["cell-therapy"], status: "phase-1", asOf,
     tldr: "Engineered immune cells delivered directly into the brain or spinal fluid. Some children with diffuse midline glioma, a brainstem tumour with no curative treatment, have had striking, if temporary, responses.",
     summary: "City of Hope IL13Rα2 CAR-T (intraventricular; one complete response 2016, phase 1 of 65 patients 2024 with 50% stable disease or better). Stanford GD2 CAR-T for H3K27M diffuse midline glioma (Majzner/Monje; Nature 2022 and 2024: radiographic and clinical improvement in most, one durable complete response). Penn EGFRvIII CAR-T showed antigen loss; dual-target CARv3-TEAM-E (MGH, 2024-26) and multi-antigen and locoregional approaches follow. Barriers: heterogeneity, antigen loss, exhaustion, neurotoxicity in a closed space.",
     principle: "Locoregional (intraventricular or intratumoural) delivery of CAR-T against glioma-restricted antigens, often repeated.",

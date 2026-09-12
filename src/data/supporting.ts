@@ -120,7 +120,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Digital pathology infrastructure ----
   t({
-    id: "whole-slide-scanners", name: "Whole-slide scanners and image management", sections: ["diagnostics", "ai-computation"], status: "established",
+    id: "whole-slide-scanners", links: [{ label: "FDA allows marketing of first whole slide imaging system for digital pathology (2017)", url: "https://www.fda.gov/news-events/press-announcements/fda-allows-marketing-first-whole-slide-imaging-system-digital-pathology" }], name: "Whole-slide scanners and image management", sections: ["diagnostics", "ai-computation"], status: "established",
     tldr: "The scanners that turn glass slides into gigapixel images, and the software that stores and serves them, without which pathology AI cannot run.",
     summary: "Leica Biosystems (Aperio GT 450), Hamamatsu (NanoZoomer), 3DHISTECH (Pannoramic), Philips (IntelliSite; FDA-cleared for primary diagnosis 2017), Roche (VENTANA DP 600), and Grundium supply scanners; Sectra, Philips, Proscia (Concentriq), PathAI (AISight), Indica Labs (HALO), and Paige provide image management and viewing. Interoperability (DICOM-WSI) and storage costs (1-4 GB per slide) are the practical constraints on going fully digital.",
     principle: "Automated microscopy tiles a slide at 20-40x, then stitches and compresses it into a pyramidal image; image management platforms index, stream, and integrate with LIS/EHR and AI.",
@@ -151,7 +151,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Real-world data ----
   t({
-    id: "oncology-real-world-data", name: "Oncology EHR and real-world data platforms", sections: ["ai-computation", "diagnostics"], status: "established",
+    id: "oncology-real-world-data", links: [{ label: "FDA: Real-World Evidence programme", url: "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence" }], name: "Oncology EHR and real-world data platforms", sections: ["ai-computation", "diagnostics"], status: "established",
     tldr: "Databases built from millions of real patient records, used to see how treatments work outside trials and to run studies without new trials.",
     summary: "Flatiron Health (Roche; oncology EHR OncoEMR plus the Flatiron-Foundation clinico-genomic database), Tempus (multimodal clinical-molecular data), ConcertAI, COTA, Syapse, TriNetX, Komodo Health, Optum, and Datavant (tokenised linkage) assemble and curate real-world oncology data. Used for external control arms, label expansions (FDA's RWE framework), health-economic models, and biomarker discovery; standardisation via OMOP/OHDSI and mCODE (HL7 FHIR) is the interoperability layer.",
     principle: "Structured and abstracted EHR data, claims, genomics, and mortality linked with privacy-preserving tokens; curated to common data models and analysed with target-trial emulation methods.",
@@ -218,7 +218,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["organoids", "pdx-models", "functional-drug-testing"], companies: ["discovery-life-sciences", "indivumed", "hub-organoids"], related: ["uk-biobank"],
   }),
   t({
-    id: "reference-laboratories", name: "Reference laboratories and companion-diagnostic testing", sections: ["diagnostics"], status: "standard-of-care",
+    id: "reference-laboratories", links: [{ label: "FDA: list of cleared or approved companion diagnostic devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools" }], name: "Reference laboratories and companion-diagnostic testing", sections: ["diagnostics"], status: "standard-of-care",
     tldr: "The big labs that run most biomarker tests, and the reagent makers whose stains decide who gets a drug.",
     summary: "National reference labs (Labcorp, Quest, NeoGenomics, Mayo Clinic Laboratories, ARUP) and academic pathology departments perform IHC, FISH, and NGS at scale; Roche Tissue Diagnostics (Ventana), Agilent (Dako), and Leica Biosystems make the FDA-approved companion-diagnostic IHC assays (PD-L1 22C3/SP142/SP263, HER2 4B5) and the platforms that run them. Assay-platform pairing is why PD-L1 scores are not interchangeable across drugs.",
     principle: "Validated antibody clones, staining platforms, and scoring algorithms tied to a drug label; CLIA/CAP or ISO 15189 accreditation; NGS panels under FDA or LDT oversight.",

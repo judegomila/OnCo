@@ -33,7 +33,7 @@ const targets: TargetInput[] = [
 
 // ======================= TECHNOLOGIES / TERMS =======================
 const technologies: TechnologyInput[] = [
-  tech({ id: "pet-adapted-therapy", name: "PET-adapted (response-adapted) therapy", sections: ["imaging", "chemotherapy"], status: "standard-of-care", since: 2016,
+  tech({ id: "pet-adapted-therapy", links: [{ label: "ClinicalTrials.gov NCT05675410: AHOD2131 (COG / NCTN)", url: "https://clinicaltrials.gov/study/NCT05675410" }, { label: "ClinicalTrials.gov NCT02661503: GHSG HD21", url: "https://clinicaltrials.gov/study/NCT02661503" }], name: "PET-adapted (response-adapted) therapy", sections: ["imaging", "chemotherapy"], status: "standard-of-care", since: 2016,
     tldr: "Scan after two cycles of chemotherapy; if the tumour has gone dark, give less treatment, and if not, give more. Hodgkin lymphoma pioneered this.",
     summary: "Interim FDG-PET after cycle 2 (PET2) scored on the Deauville scale steers escalation or de-escalation: RATHL (omit bleomycin if PET2-negative, no loss of efficacy), HD18 (shorten escalated BEACOPP), HD16/HD17 and RAPID (omit radiotherapy in early stage if PET-negative, at a small PFS cost), and HD21/S1826 (PET-guided consolidation). Being extended to DLBCL and to ctDNA-adapted designs.",
     principle: "FDG-PET measures metabolic response early; Deauville ≥4 at PET2 predicts failure, allowing therapy to be tailored before completion.",

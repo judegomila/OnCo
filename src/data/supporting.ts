@@ -171,7 +171,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["decentralised-clinical-trials", "ai-trial-matching"], companies: ["medidata", "veeva-systems", "iqvia", "oracle-health-sciences"],
   }),
   t({
-    id: "decentralised-clinical-trials", name: "Decentralised and hybrid clinical trials", sections: ["ai-computation", "supportive-care"], status: "established",
+    id: "decentralised-clinical-trials", links: [{ label: "Unger: most patients never get the chance to join a cancer trial, and when offered, half say yes (JNCI: Journal of the National Cancer Institute 2019)", url: "https://doi.org/10.1093/jnci/djy221" }], name: "Decentralised and hybrid clinical trials", sections: ["ai-computation", "supportive-care"], status: "established",
     tldr: "Running parts of a trial at home or locally, with telehealth, home nursing, and remote monitoring, so patients far from big centres can take part.",
     summary: "Accelerated by the pandemic and FDA guidance (2023-24), decentralised elements include telehealth visits, home infusion or blood draws, local imaging and labs, direct-to-patient drug shipping, and wearables. Vendors: Science 37 (acquired by eMed 2024), Medable, THREAD, Lightship, Walgreens/CVS trial services (partly wound down). Oncology adoption lags other areas because of IV drugs and imaging, but hybrid designs (local labs, remote consent) are common.",
     principle: "Decentralised trials combine remote consent and data capture, mobile nursing networks, and local investigator sites coordinated through a central protocol.",
@@ -180,7 +180,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["clinical-trial-software", "remote-patient-monitoring"], companies: ["medable", "science-37"],
   }),
   t({
-    id: "community-oncology-networks", name: "Community oncology and site networks", sections: ["supportive-care"], status: "standard-of-care",
+    id: "community-oncology-networks", links: [{ label: "Unger: most patients never get the chance to join a cancer trial, and when offered, half say yes (JNCI: Journal of the National Cancer Institute 2019)", url: "https://doi.org/10.1093/jnci/djy221" }], name: "Community oncology and site networks", sections: ["supportive-care"], status: "standard-of-care",
     tldr: "The clinics where most cancer patients are actually treated, increasingly organised into large networks that also run trials.",
     summary: "In the US, over half of patients are treated in community practices organised by The US Oncology Network (McKesson), OneOncology (TPG/AmerisourceBergen), Florida Cancer Specialists, American Oncology Network, and hospital systems; Sarah Cannon Research Institute (HCA/McKesson JV) and NCI's NCORP bring trials to them. Vertical integration with distributors and payer models (Enhancing Oncology Model) shape drug choice and trial access.",
     principle: "Networked practices share EHR, pathways, purchasing, and research infrastructure to deliver care close to home.",
@@ -249,7 +249,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Patient-facing infrastructure ----
   t({
-    id: "remote-patient-monitoring", name: "Electronic patient-reported outcomes and remote monitoring", sections: ["supportive-care", "ai-computation"], status: "established",
+    id: "remote-patient-monitoring", links: [{ label: "Basch: asking patients to report symptoms online during chemotherapy improved survival (JAMA 2017)", url: "https://doi.org/10.1001/jama.2017.7156" }], name: "Electronic patient-reported outcomes and remote monitoring", sections: ["supportive-care", "ai-computation"], status: "established",
     tldr: "Apps and sensors that let patients report symptoms between visits, which in trials improved survival and cut emergency visits.",
     summary: "Basch's randomised trials (JCO 2016; JAMA 2017; PRO-TECT 2022) showed weekly symptom reporting with nurse alerts improved quality of life, reduced ER visits, and in one trial extended survival by five months. Platforms: Kaiku Health (Elekta), Noona (Varian), Carevive, Memora Health, Navigating Cancer, Canopy, and EHR-native tools (Epic); several of the smaller vendors have merged or closed, so verify current availability. Wearables and passive monitoring (activity, heart rate) are being validated as endpoints.",
     principle: "Validated PRO instruments (PRO-CTCAE) delivered on schedule, threshold alerts routed to clinical teams, and dashboards integrated with the EHR.",
@@ -389,7 +389,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Genomics informatics ----
   t({
-    id: "ngs-bioinformatics-software", name: "Clinical NGS bioinformatics and variant interpretation", sections: ["diagnostics", "ai-computation"], status: "established",
+    id: "ngs-bioinformatics-software", links: [{ label: "ClinicalTrials.gov NCT03155620: NCI-COG Pediatric MATCH (APEC1621)", url: "https://clinicaltrials.gov/study/NCT03155620" }], name: "Clinical NGS bioinformatics and variant interpretation", sections: ["diagnostics", "ai-computation"], status: "established",
     tldr: "Software that turns raw sequencer output into a report of which mutations matter and which drugs they point to.",
     summary: "Secondary analysis (alignment, variant calling: Illumina DRAGEN, Sentieon, GATK) and tertiary interpretation (Sophia Genetics DDM, QIAGEN QCI Interpret, PierianDx, Velsera/Seven Bridges, Genoox, Congenica) automate clinical reporting against knowledgebases such as OncoKB, CIViC, ClinVar, and COSMIC. Consistency of variant classification (AMP/ASCO/CAP tiers) across labs and the maintenance of curated knowledge are the quality issues; FDA has recognised OncoKB as a source for level-of-evidence claims.",
     principle: "Pipelines call and annotate variants, apply tumour-normal or panel-of-normals filtering, and match variants to curated evidence tiers to draft clinician reports.",
@@ -416,7 +416,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["cgp", "ngs-bioinformatics-software", "ai-trial-matching"], institutions: ["mskcc"], related: ["oncokb", "civic", "cbioportal"],
   }),
   t({
-    id: "cancer-registries-surveillance", name: "Cancer registries and population surveillance", sections: ["prevention", "ai-computation"], status: "standard-of-care",
+    id: "cancer-registries-surveillance", links: [{ label: "Cancer Statistics, 2020: Report from National Cancer Registry Programme, India (JCO Global Oncology 2020)", url: "https://doi.org/10.1200/GO.20.00122" }], name: "Cancer registries and population surveillance", sections: ["prevention", "ai-computation"], status: "standard-of-care",
     tldr: "The public systems that count every cancer diagnosis and death in a country, which tell us whether incidence and survival are improving.",
     summary: "Population-based registries (US SEER and NPCR, England's NDRS, the Nordic registries, Canada, Australia, Japan, IARC's GLOBOCAN compilation) and hospital registries (NCDB) record incidence, stage, treatment, and survival; they underpin screening evaluation, disparities research, and the CONCORD global survival comparisons. Coverage and data completeness vary widely; many low- and middle-income countries lack population registries, so global burden estimates are modelled.",
     principle: "Registries rest on mandatory reporting from pathology labs and hospitals, record linkage to death and census data, and standard coding (ICD-O-3, TNM) with quality indicators.",
@@ -436,7 +436,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["proteomics", "liquid-biopsy"], companies: ["thermo-fisher", "bruker", "standard-biotools"], related: ["uk-biobank"],
   }),
   t({
-    id: "structural-biology-infrastructure", name: "Structural biology infrastructure (cryo-EM, synchrotrons, AlphaFold)", sections: ["drug-discovery"], status: "established",
+    id: "structural-biology-infrastructure", links: [{ label: "AlphaFold 2: predicting protein structures to near-experimental accuracy (Nature 2021)", url: "https://doi.org/10.1038/s41586-021-03819-2" }], name: "Structural biology infrastructure (cryo-EM, synchrotrons, AlphaFold)", sections: ["drug-discovery"], status: "established",
     tldr: "Structural biology infrastructure is the microscopes, X-ray sources, and prediction models that show what a cancer protein looks like so chemists can design a drug to fit it.",
     summary: "Cryo-electron microscopy (Thermo Fisher Krios G4, Glacios; JEOL CRYO ARM), synchrotron beamlines (Diamond, ESRF, APS, SPring-8), and AI structure prediction (AlphaFold 2/3, RoseTTAFold, ESMFold, Boltz) underpin structure-based design of KRAS inhibitors, molecular glues, and PROTACs. National facilities and CROs (Creoptix, Proteros, Charles River) provide access; the shift to cryo-EM has resolved previously intractable membrane proteins and large complexes.",
     principle: "Electron or X-ray scattering from ordered molecules yields atomic-resolution maps; deep learning trained on the Protein Data Bank predicts structures and complexes from sequence.",

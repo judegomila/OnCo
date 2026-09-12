@@ -87,7 +87,7 @@ export const technologies: TechnologyInput[] = [
     limitations: ["PSMA-negative disease in ~10%", "Uptake in ganglia, salivary glands"],
     technologies: ["pet", "radioligand-therapy"],
     targets: ["psma"],
-    cancers: ["prostate"], companies: ["clarity-pharmaceuticals"], links: [],
+    cancers: ["prostate"], companies: ["clarity-pharmaceuticals"], links: [{ label: "VISION: lutetium-177 PSMA-617 radioligand therapy extends survival in advanced prostate cancer (New England Journal of Medicine 2021)", url: "https://doi.org/10.1056/NEJMoa2107322" }, { label: "ClinicalTrials.gov NCT03392428: TheraP (ANZUP 1603)", url: "https://clinicaltrials.gov/study/NCT03392428" }],
   },
   {
     id: "fapi-pet", kind: "technology", name: "FAPI PET", sections: ["imaging"], status: "phase-3", asOf, since: 2018, wikipedia: W("Fibroblast_activation_protein,_alpha"),
@@ -261,7 +261,7 @@ export const technologies: TechnologyInput[] = [
     terms: ["ppv", "stage-shift"],
     companies: ["grail", "exact-sciences", "guardant-health", "carrum-health", "clearnote-health", "elypta", "exai-bio", "numen", "owlstone-medical", "volitionrx"],
     trials: ["nhs-galleri", "pathfinder-2"],
-    drugs: ["galleri", "shield"], links: [],
+    drugs: ["galleri", "shield"], links: [{ label: "DETECT-A: a blood test plus PET-CT found treatable cancers in 10,000 women with no symptoms (Science 2020)", url: "https://doi.org/10.1126/science.abb9601" }, { label: "NHS-Galleri: design of the largest randomised trial of a multi-cancer blood test (Cancers 2022)", url: "https://doi.org/10.3390/cancers14194818" }],
   },
   {
     id: "digital-pathology-ai", kind: "technology", name: "Digital pathology & AI", sections: ["diagnostics", "ai-computation"], status: "established", asOf, wikipedia: W("Digital_pathology"),
@@ -283,7 +283,7 @@ export const technologies: TechnologyInput[] = [
     terms: ["cps", "her2-low"], links: [{ label: "Wikipedia", url: W("Companion_diagnostic") }], companies: ["acrivon-therapeutics", "ataraxis-ai", "cofactor-genomics", "ibex-medical-analytics", "imagene-ai", "insight-molecular-diagnostics", "nonagen-bioscience", "oncohost", "signatur-biosciences", "valar-labs"],
   },
   {
-    id: "hrd-testing", kind: "technology", name: "HRD & BRCA testing", sections: ["diagnostics"], status: "standard-of-care", asOf,
+    id: "hrd-testing", links: [{ label: "PAOLA-1: olaparib added to bevacizumab maintenance in newly diagnosed ovarian cancer, with benefit confined to HRD-positive tumours (New England Journal of Medicine 2019)", url: "https://doi.org/10.1056/NEJMoa1911361" }], kind: "technology", name: "HRD & BRCA testing", sections: ["diagnostics"], status: "standard-of-care", asOf,
     tldr: "Tests that reveal whether a tumour has a broken DNA repair system, which predicts response to PARP inhibitors and platinum.",
     summary: "HRD and BRCA testing identifies tumours whose homologous recombination DNA repair is defective and therefore vulnerable to PARP inhibitors and platinum. It combines germline and somatic BRCA1/2 sequencing with genomic-scar scores such as the myChoice CDx genomic instability score and FoundationOne LOH, which sum loss of heterozygosity, telomeric allelic imbalance and large-scale transitions into one measure. This extends PARP-inhibitor benefit beyond BRCA carriers. The scar, however, is permanent: it persists even after reversion mutations restore repair and resistance emerges, and the thresholds defining HRD-positive are still debated. Functional assays such as RAD51 foci and mutational signature 3 are emerging alternatives that may capture current repair status. These tests reveal whether a tumour's DNA repair is broken, which predicts response to PARP inhibitors and platinum.",
     principle: "Loss of heterozygosity, telomeric allelic imbalance, and large-scale transitions summed into a genomic instability score.",
@@ -410,7 +410,7 @@ export const technologies: TechnologyInput[] = [
     summary: "Intensity-modulated and volumetric arc therapy shape the radiation dose using multi-leaf collimators that vary beam intensity from multiple angles around the patient, while image guidance with cone-beam CT verifies patient position before each fraction. Together they are the default for most curative radiotherapy, giving conformal dose to the tumour with fewer side effects. Hypofractionation, meaning fewer, larger doses, is now standard in breast and prostate cancer and saves patients many visits. The remaining drawbacks are the low-dose bath spread across normal tissue from many beam angles and the need for motion management in moving targets. Adaptive replanning and MR-guidance are the next step, adjusting the plan to daily anatomy. The simple version is radiation sculpted to the tumour and checked with imaging every day.",
     principle: "Multi-leaf collimators modulate beam intensity from many angles; cone-beam CT verifies position before each fraction.",
     strengths: ["Conformal dose, fewer side effects", "Hypofractionation saves visits"],
-    limitations: ["Low-dose bath to normal tissue", "Motion management"], links: [], journals: ["cancer-radiotherapie", "clinical-oncology-rcr", "practical-radiation-oncology", "radiation-oncology", "seminars-in-radiation-oncology", "strahlentherapie-und-onkologie"], companies: ["intraop-medical", "radformation"],
+    limitations: ["Low-dose bath to normal tissue", "Motion management"], links: [{ label: "ADRIATIC: durvalumab after chemoradiotherapy for limited-stage small-cell lung cancer (New England Journal of Medicine 2024)", url: "https://doi.org/10.1056/NEJMoa2404873" }, { label: "PACIFIC: a year of durvalumab after chemoradiotherapy for stage III lung cancer (New England Journal of Medicine 2017)", url: "https://doi.org/10.1056/NEJMoa1709937" }], journals: ["cancer-radiotherapie", "clinical-oncology-rcr", "practical-radiation-oncology", "radiation-oncology", "seminars-in-radiation-oncology", "strahlentherapie-und-onkologie"], companies: ["intraop-medical", "radformation"],
   },
   {
     id: "sbrt", kind: "technology", name: "SBRT / SABR (stereotactic radiotherapy)", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Stereotactic_radiosurgery"),
@@ -674,7 +674,7 @@ export const technologies: TechnologyInput[] = [
     terms: ["payload", "linker", "dar", "bystander-effect", "ild"], companies: ["celldex", "tubulis", "adcendo", "alentis-therapeutics", "bighat-biosciences", "callio-therapeutics", "cytomx-therapeutics", "dantari", "emergence-therapeutics", "enlaza-therapeutics", "firefly-bio", "ideaya-biosciences", "iksuda-therapeutics", "mablink-bioscience", "myricx-bio", "mythic-therapeutics", "nbe-therapeutics", "orum-therapeutics", "pheon-therapeutics", "profoundbio", "tallac-therapeutics", "valink-therapeutics"], trials: ["aaml0531"], related: ["idea-efflux-agnostic", "idea-neoadjuvant-adc-io"], links: [{ label: "Wikipedia", url: W("Antibody-drug_conjugate") }],
   },
   {
-    id: "bispecific-adc", kind: "technology", name: "Bispecific ADC", sections: ["adcs"], status: "phase-3", asOf, since: 2023, generation: "4th (next-gen)",
+    id: "bispecific-adc", links: [{ label: "ClinicalTrials.gov NCT06382142: BL-B01D1-307", url: "https://clinicaltrials.gov/study/NCT06382142" }, { label: "ClinicalTrials.gov NCT06304974: PANKU-Esophagus01 (BL-B01D1-305)", url: "https://clinicaltrials.gov/study/NCT06304974" }], kind: "technology", name: "Bispecific ADC", sections: ["adcs"], status: "phase-3", asOf, since: 2023, generation: "4th (next-gen)",
     tldr: "A bispecific ADC is an ADC whose antibody grabs two different proteins on the cancer cell, so it sticks better to tumour and less to healthy tissue.",
     summary: "Izalontamab brengitecan (iza-bren, EGFR×HER3, SystImmune/BMS) is the first bispecific ADC with positive phase 3 results, meeting PFS and OS in previously treated TNBC (BL-B01D1-307, February 2026) and in oesophageal cancer, with first-line trials (IZABRIGHT-Breast01) ongoing. Eight bsADC phase 3 trials started in 2025. c-MET×EGFR is the most crowded pair (tilatamig samrotecan, AZD9592, 24 candidates); Nectin-4×TROP2 (AK146D1, AVZO-103), HER2 biparatopic (zanidatamab zovodotin), and PD-L1×B7-H3 (BH4601) follow.",
     principle: "Dual antigen binding increases avidity and internalisation and can enable lysosomal trafficking (e.g., pairing with a rapidly internalising receptor). Biparatopic designs cross-link one receptor.",
@@ -698,7 +698,7 @@ export const technologies: TechnologyInput[] = [
     tags: ["frontier"], companies: ["callio-therapeutics"],
   },
   {
-    id: "degrader-antibody-conjugate", kind: "technology", name: "Degrader-antibody conjugate (DAC)", sections: ["adcs", "targeted-therapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
+    id: "degrader-antibody-conjugate", links: [{ label: "The first PROTAC: a chimeric molecule that tags a protein for destruction (PNAS 2001)", url: "https://doi.org/10.1073/pnas.141230798" }], kind: "technology", name: "Degrader-antibody conjugate (DAC)", sections: ["adcs", "targeted-therapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
     tldr: "An ADC that delivers a protein-destroying molecule instead of chemotherapy, hitting targets inside the cell that were previously unreachable.",
     summary: "A degrader-antibody conjugate is an ADC whose payload is a molecular glue or PROTAC rather than a cytotoxic: the antibody delivers it to the tumour cell and intracellular release triggers targeted protein degradation. Programmes include Orum Therapeutics (ORM-5029, a HER2-directed GSPT1 degrader; ORM-6151, CD33), Genentech (BRD4 degrader conjugates), and others. The design solves the delivery and bioavailability problems of PROTACs and lets a non-cytotoxic, non-genotoxic mechanism be targeted to the tumour, reaching intracellular targets via antibody selectivity. The trade-off is that potency per molecule is lower than for cytotoxics, and the field is early clinical, so it is not yet known whether degradation can match chemotherapy payloads in efficacy. The simple version is an ADC that destroys a specific protein inside the cancer cell instead of poisoning it.",
     principle: "Antibody delivers a molecular glue or PROTAC payload; intracellular release triggers targeted degradation.",
@@ -786,7 +786,7 @@ export const technologies: TechnologyInput[] = [
     terms: ["neoantigen"], related: ["idea-neoantigen-immunogenicity-rules"], links: [{ label: "Wikipedia", url: W("Cancer_vaccine") }],
   },
   {
-    id: "shared-antigen-vaccine", kind: "technology", name: "Off-the-shelf cancer vaccines", sections: ["immunotherapy"], status: "phase-3", asOf,
+    id: "shared-antigen-vaccine", links: [{ label: "First trial of a vaccine against the shared neoantigens of mismatch-repair-deficient cancers (Clinical Cancer Research 2020)", url: "https://doi.org/10.1158/1078-0432.CCR-19-3517" }, { label: "ClinicalTrials.gov NCT05726864: AMPLIFY-7P", url: "https://clinicaltrials.gov/study/NCT05726864" }], kind: "technology", name: "Off-the-shelf cancer vaccines", sections: ["immunotherapy"], status: "phase-3", asOf,
     tldr: "Off-the-shelf cancer vaccines target antigens shared across patients, such as mutant KRAS or HER2 peptides, so they are made in advance rather than per person. Sipuleucel-T is still the only approved therapeutic cancer vaccine in the US; tolerance to self-antigens and weak past results hold them back.",
     summary: "KRAS-directed vaccines (ELI-002 7P, Elicio; mRNA-5671), shared neoantigen vaccines (Gritstone SLATE, discontinued), HER2 peptide vaccines, and tumour-lysate approaches. Sipuleucel-T (2010) remains the only approved therapeutic cancer vaccine in the US; BCG for bladder cancer is the oldest immunotherapy.",
     principle: "A pre-manufactured antigen (peptide, mRNA, viral vector, dendritic cell) is given with an adjuvant.",
@@ -862,7 +862,7 @@ export const technologies: TechnologyInput[] = [
     cancers: ["melanoma", "nsclc", "cervical"], links: [{ label: "Wikipedia", url: W("Tumor-infiltrating_lymphocytes") }],
   },
   {
-    id: "tcr-t", kind: "technology", name: "TCR-T cell therapy", sections: ["cell-therapy"], status: "approved", asOf, since: 2024,
+    id: "tcr-t", links: [{ label: "ClinicalTrials.gov NCT03967223: IGNYTE-ESO", url: "https://clinicaltrials.gov/study/NCT03967223" }], kind: "technology", name: "TCR-T cell therapy", sections: ["cell-therapy"], status: "approved", asOf, since: 2024,
     tldr: "T cells engineered with a receptor that sees fragments of proteins inside the cancer cell, reaching targets CAR-T cannot.",
     summary: "Afamitresgene autoleucel (Tecelra) was the first approved TCR-T, for MAGE-A4+ HLA-A*02+ synovial sarcoma (2024, label expanded 2026). Letetresgene (NY-ESO-1) followed in trials. Neoantigen-specific TCR-T against KRAS G12D and TP53 hotspots (NCI Rosenberg) and PRAME-directed TCR-T (Immatics IMA203, phase 3 in melanoma) are the most watched.",
     principle: "Transgenic αβ TCR recognises a peptide-HLA complex; restricted to patients with the matching HLA allele.",
@@ -893,7 +893,7 @@ export const technologies: TechnologyInput[] = [
     targets: ["cd70", "cd19"], companies: ["adicet-bio", "allotera-therapeutics", "century-therapeutics", "guardian-bio", "imugene", "indapta-therapeutics", "mendus", "onk-therapeutics", "orca-bio", "poseida-therapeutics"],
   },
   {
-    id: "armored-car", kind: "technology", name: "Armoured, logic-gated & next-gen CARs", sections: ["cell-therapy"], status: "phase-1", asOf,
+    id: "armored-car", links: [{ label: "ClinicalTrials.gov NCT03373097: GD2-CART01 (Bambino Gesù phase 1/2)", url: "https://clinicaltrials.gov/study/NCT03373097" }], kind: "technology", name: "Armoured, logic-gated & next-gen CARs", sections: ["cell-therapy"], status: "phase-1", asOf,
     tldr: "Upgraded CAR-T cells that also secrete immune boosters, resist exhaustion, or only fire when two signals are present.",
     summary: "Armoured and logic-gated CARs add transgenes or synthetic circuits that change how CAR-T cells behave in the tumour microenvironment: IL-12 or IL-18 secretion, dominant-negative TGF-β receptors, PD-1 knockout, synNotch logic gates (AND/NOT gating for solid tumours, for example Arsenal Bio), and tunable CARs. Each design addresses one of the solid-tumour barriers of exhaustion, immune suppression, or on-target off-tumour toxicity, with logic gating meant to fire only when two antigens are present together. These constructs are designed for hostile solid-tumour environments where first-generation CARs failed. The cost is complexity, and the safety of constitutively secreted cytokines is unresolved, so most programmes are phase 1. The simple version is an upgraded CAR-T that carries its own boosters, armour, or a two-signal safety switch.",
     principle: "Additional transgenes or synthetic circuits modify CAR-T behaviour in the tumour microenvironment.",
@@ -956,10 +956,10 @@ export const technologies: TechnologyInput[] = [
     summary: "Cardio-oncology integrates risk stratification, surveillance, and prevention of heart damage into cancer care, so that patients can complete curative therapy without trading cancer for heart failure. The problems it addresses include anthracycline and trastuzumab cardiotoxicity, checkpoint-inhibitor myocarditis, TKI hypertension and QT prolongation, and radiation heart disease. Tools are baseline and serial echocardiography with strain imaging, troponin and BNP monitoring, and cardioprotective drugs such as dexrazoxane, ACE inhibitors, and statins. As survivors live longer, cardiovascular disease becomes a leading competing cause of death, which is why the field has grown. Workforce and access are the limitations, since specialist clinics are concentrated in large centres. The simple version is protecting the heart while the cancer is being treated.",
     principle: "Risk stratification, surveillance, and prevention integrated into oncology care.",
     strengths: ["Enables completion of curative therapy"],
-    limitations: ["Workforce and access"], trials: ["ccss"], links: [],
+    limitations: ["Workforce and access"], trials: ["ccss"], links: [{ label: "ClinicalTrials.gov NCT01120353: Childhood Cancer Survivor Study (CCSS)", url: "https://clinicaltrials.gov/study/NCT01120353" }],
   },
   {
-    id: "exercise-oncology", kind: "technology", name: "Exercise & lifestyle oncology", sections: ["supportive-care", "prevention", "nutrition-lifestyle"], status: "established", asOf,
+    id: "exercise-oncology", links: [{ label: "CHALLENGE: a structured exercise programme after chemotherapy improves survival in colon cancer (New England Journal of Medicine 2025)", url: "https://doi.org/10.1056/NEJMoa2502760" }, { label: "ClinicalTrials.gov NCT02750826: BWEL (Breast Cancer Weight Loss, Alliance A011401)", url: "https://clinicaltrials.gov/study/NCT02750826" }], kind: "technology", name: "Exercise & lifestyle oncology", sections: ["supportive-care", "prevention", "nutrition-lifestyle"], status: "established", asOf,
     tldr: "Structured exercise during and after treatment, which the CHALLENGE trial showed improves survival in colon cancer.",
     summary: "The CHALLENGE trial (NEJM 2025) randomised colon cancer survivors to a structured exercise programme and showed improved disease-free and overall survival, the first level-1 evidence that exercise changes cancer outcomes. Exercise also reduces fatigue, cardiotoxicity, and chemotherapy-induced neuropathy.",
     principle: "Aerobic and resistance training modulate insulin, inflammation, and immune function.",
@@ -968,7 +968,7 @@ export const technologies: TechnologyInput[] = [
     cancers: ["colorectal", "tnbc", "breast-hr-positive"], companies: ["osara-health", "perci-health"],
   },
   {
-    id: "geriatric-assessment", kind: "technology", name: "Geriatric assessment", sections: ["supportive-care"], status: "established", asOf,
+    id: "geriatric-assessment", links: [{ label: "GAP70+: a geriatric assessment before chemotherapy cut serious toxicity in older adults by a fifth (The Lancet 2021)", url: "https://doi.org/10.1016/S0140-6736(21)01789-X" }], kind: "technology", name: "Geriatric assessment", sections: ["supportive-care"], status: "established", asOf,
     tldr: "Geriatric assessment is a structured check of an older patient's fitness, memory, and support that predicts treatment tolerance better than age.",
     summary: "Geriatric assessment scores validated domains, including function, comorbidity, cognition, nutrition, and social support, to predict how an older patient will tolerate treatment and to guide dose and regimen choice, which age alone does poorly. The GAP70+ and GAIN trials showed that geriatric-assessment-guided management reduces severe chemotherapy toxicity by roughly 20% without compromising survival. ASCO recommends it for all patients aged 65 or over receiving chemotherapy. It reduces harm and improves shared decision-making, giving patients a clearer picture of what treatment will cost them. Time and uptake are the barriers, since the assessment adds clinic work that many services have not resourced. The simple version is a structured fitness check that tells the oncologist how much treatment an older person can safely take.",
     principle: "Validated domains (function, comorbidity, cognition, nutrition, social support) inform dose and regimen choice.",
@@ -989,7 +989,7 @@ export const technologies: TechnologyInput[] = [
     tags: ["frontier"], related: ["pluto", "merlin-ct", "radfm"],
   },
   {
-    id: "ai-trial-matching", kind: "technology", name: "AI trial matching & clinical decision support", sections: ["ai-computation"], status: "established", asOf,
+    id: "ai-trial-matching", links: [{ label: "Unger: most patients never get the chance to join a cancer trial, and when offered, half say yes (JNCI: Journal of the National Cancer Institute 2019)", url: "https://doi.org/10.1093/jnci/djy221" }], kind: "technology", name: "AI trial matching & clinical decision support", sections: ["ai-computation"], status: "established", asOf,
     tldr: "Software, increasingly LLM-based, that reads a patient's record and finds trials or guideline options they qualify for.",
     summary: "AI trial matching software extracts structured data from the electronic health record, matches it against parsed eligibility criteria, and ranks trials or guideline options a patient may qualify for. The problem it targets is that only around 5-8% of adult cancer patients enter trials, partly because matching is manual. Tools include TrialGPT (NIH), Tempus TIME, Massive Bio, Deep 6 AI, and hospital-built LLM matchers, and molecular tumour boards use OncoKB and CIViC annotation for variant interpretation. The approach scales expert knowledge and could reduce disparities in trial access, but hallucination risk and the need for validation are live concerns, and eligibility criteria are often ambiguous even to humans. Evidence of increased enrolment is emerging but not yet definitive. The simple version is software that reads a patient's record and finds the trials they could join.",
     principle: "Structured data are extracted from the EHR, matched against parsed eligibility criteria, and ranked.",
@@ -1012,7 +1012,7 @@ export const technologies: TechnologyInput[] = [
     principle: "Pooled sgRNA libraries; depletion or enrichment measured by sequencing.",
     strengths: ["Systematic, unbiased dependency maps"],
     limitations: ["Cell line artefacts; context specificity"],
-    technologies: ["synthetic-lethality-approaches"], links: [], companies: ["algen-biotechnologies", "tango-therapeutics"],
+    technologies: ["synthetic-lethality-approaches"], links: [{ label: "Defining a Cancer Dependency Map: which genes each cancer cell line cannot live without (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.06.010" }], companies: ["algen-biotechnologies", "tango-therapeutics"],
   },
 
   // ======================= PREVENTION =======================

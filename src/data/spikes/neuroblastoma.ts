@@ -43,7 +43,7 @@ const targets: TargetInput[] = [
 
 // ======================= TECHNOLOGIES / TERMS =======================
 const technologies: TechnologyInput[] = [
-  tech({ id: "tandem-transplant", name: "Tandem autologous transplant", sections: ["chemotherapy", "cell-therapy"], status: "standard-of-care", since: 2016,
+  tech({ id: "tandem-transplant", links: [{ label: "ClinicalTrials.gov NCT00567567: COG ANBL0532", url: "https://clinicaltrials.gov/study/NCT00567567" }], name: "Tandem autologous transplant", sections: ["chemotherapy", "cell-therapy"], status: "standard-of-care", since: 2016,
     tldr: "Tandem transplant gives two back-to-back rounds of marrow-destroying chemotherapy, each rescued with the child's own stored stem cells, for high-risk neuroblastoma in North America. It kept more children relapse-free than one transplant in a randomised trial, but adds organ toxicity and hearing loss.",
     summary: "COG ANBL0532: tandem thiotepa-cyclophosphamide then carboplatin-etoposide-melphalan improved 3-year EFS versus single transplant (61.6% vs 48.4%), and the benefit held with anti-GD2 immunotherapy. In Europe (SIOPEN HR-NBL1), busulfan-melphalan single transplant is standard. Toxicity and cost are substantial.",
     principle: "Sequential myeloablative regimens exploit dose intensity against residual disease after induction and surgery, each rescued with cryopreserved autologous stem cells.",

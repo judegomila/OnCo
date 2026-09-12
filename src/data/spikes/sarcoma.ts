@@ -213,7 +213,7 @@ const trials: TrialInput[] = [
 
 // ======================= PAIRINGS / IDEAS =======================
 const pairings: PairingInput[] = [
-  pair({ id: "ctdna-genotype-gist-tki", name: "ctDNA KIT genotyping → TKI selection in GIST", a: "liquid-biopsy", b: "ripretinib", pairingType: "diagnostic-therapeutic",
+  pair({ id: "ctdna-genotype-gist-tki", links: [{ label: "ClinicalTrials.gov NCT05734105: INSIGHT", url: "https://clinicaltrials.gov/study/NCT05734105" }], name: "ctDNA KIT genotyping → TKI selection in GIST", a: "liquid-biopsy", b: "ripretinib", pairingType: "diagnostic-therapeutic",
     tldr: "A blood test that reads which resistance mutation a GIST has acquired, so the second drug can be chosen to fit it.",
     summary: "In gastrointestinal stromal tumour, reading the acquired KIT resistance mutation from a plasma ctDNA liquid biopsy and choosing the next tyrosine kinase inhibitor to fit it is a diagnostic-therapeutic pairing. Secondary KIT mutations differ between metastases within the same patient, and plasma captures all of them, while drug sensitivity differs by exon. An exploratory analysis of INTRIGUE showed that ripretinib far outperformed sunitinib only in tumours with KIT exon 11 plus exon 17 or 18 mutations, whereas sunitinib was better for exon 13 or 14 mutations. The phase 3 INSIGHT trial tested this prospectively with ctDNA-based selection and was positive in 2026, making it the first genotype-directed sequencing paradigm in sarcoma.",
     rationale: "Secondary KIT mutations are heterogeneous across metastases; plasma captures them all, and drug sensitivity differs by exon.",

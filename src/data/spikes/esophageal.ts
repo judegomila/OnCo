@@ -141,7 +141,7 @@ const terms: TermInput[] = [
 
 // ======================= PAIRINGS =======================
 const pairings: PairingInput[] = [
-  { id: "cross-then-nivolumab", kind: "pairing", name: "CROSS chemoradiation → surgery → adjuvant nivolumab if residual disease", a: "cross", b: "nivolumab", pairingType: "sequence", asOf,
+  { id: "cross-then-nivolumab", links: [{ label: "ClinicalTrials.gov NCT02743494: CheckMate 577", url: "https://clinicaltrials.gov/study/NCT02743494" }], kind: "pairing", name: "CROSS chemoradiation → surgery → adjuvant nivolumab if residual disease", a: "cross", b: "nivolumab", pairingType: "sequence", asOf,
     tldr: "Chemotherapy and radiation, then surgery, then a year of immunotherapy if the operation shows cancer was still there. This is the current curative-intent pathway.",
     summary: "CROSS gives 10-year OS of 38%; CheckMate 577 adds DFS 22.4 vs 11.0 months in the ~70% with residual disease after resection (OS HR 0.85, not significant). Patients with pathologic complete response do not receive nivolumab. SANO offers surveillance instead of surgery for clinical complete responders.",
     rationale: "Residual disease after chemoradiation marks high relapse risk; radiation-induced immunogenic cell death primes T cells that PD-1 blockade sustains.",

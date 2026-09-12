@@ -151,13 +151,13 @@ const terms: TermInput[] = [
 
 // ======================= PAIRINGS =======================
 const pairings: PairingInput[] = [
-  { id: "her2-gastric-sequence", kind: "pairing", name: "HER2 sequence in gastric cancer: zanidatamab/trastuzumab + chemo ± PD-1 → T-DXd", a: "zanidatamab", b: "trastuzumab-deruxtecan", pairingType: "sequence", asOf,
+  { id: "her2-gastric-sequence", links: [{ label: "ClinicalTrials.gov NCT05152147: HERIZON-GEA-01", url: "https://clinicaltrials.gov/study/NCT05152147" }, { label: "ClinicalTrials.gov NCT04704934: DESTINY-Gastric04", url: "https://clinicaltrials.gov/study/NCT04704934" }], kind: "pairing", name: "HER2 sequence in gastric cancer: zanidatamab/trastuzumab + chemo ± PD-1 → T-DXd", a: "zanidatamab", b: "trastuzumab-deruxtecan", pairingType: "sequence", asOf,
     tldr: "For HER2-positive stomach cancer, an antibody-plus-chemotherapy first, then Enhertu when it progresses. Both steps now have phase 3 proof.",
     summary: "First line: trastuzumab + chemotherapy + pembrolizumab (KEYNOTE-811, PD-L1 CPS ≥1) or zanidatamab + chemotherapy ± tislelizumab (HERIZON-GEA-01, PFS 12.4 vs 8.1 months). Second line: T-DXd (DESTINY-Gastric04, OS 14.7 vs 11.4 months). HER2 loss after first-line therapy occurs in ~30%, so re-biopsy or ctDNA before T-DXd is advisable.",
     rationale: "Antibody blockade and ADC payload delivery are distinct mechanisms; HER2 expression usually persists at progression.",
     evidence: "Phase 3 for each step; the sequence itself is inferred, not randomised.",
     drugs: ["zanidatamab", "trastuzumab", "trastuzumab-deruxtecan", "pembrolizumab"], trials: ["herizon-gea-01", "destiny-gastric04", "toga"], cancers: ["gastric"], targets: ["her2"] },
-  { id: "cldn18-antibody-then-adc", kind: "pairing", name: "CLDN18.2 antibody first line → CLDN18.2 ADC or CAR-T on progression", a: "zolbetuximab", b: "cmg901", pairingType: "sequence", asOf,
+  { id: "cldn18-antibody-then-adc", links: [{ label: "ClinicalTrials.gov NCT03504397: SPOTLIGHT & GLOW", url: "https://clinicaltrials.gov/study/NCT03504397" }, { label: "ClinicalTrials.gov NCT06346392: CLARITY-Gastric 01", url: "https://clinicaltrials.gov/study/NCT06346392" }], kind: "pairing", name: "CLDN18.2 antibody first line → CLDN18.2 ADC or CAR-T on progression", a: "zolbetuximab", b: "cmg901", pairingType: "sequence", asOf,
     tldr: "Hit Claudin 18.2 twice: first with a plain antibody plus chemotherapy, then with an ADC or engineered cells when the cancer comes back.",
     summary: "Zolbetuximab + chemotherapy is approved first line; CLARITY-Gastric 01 showed an OS benefit for the CLDN18.2 ADC sonesitatug vedotin in later lines (July 2026); satri-cel CAR-T is approved in China. Whether prior zolbetuximab reduces ADC benefit (antigen persistence, ADCC-selected clones) is the key unknown.",
     rationale: "CLDN18.2 is a lineage antigen that tends to persist; the three modalities kill by different mechanisms (ADCC/CDC, payload, T cells).",

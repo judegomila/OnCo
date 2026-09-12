@@ -90,7 +90,7 @@ const drugs: DrugInput[] = [
     mechanism: "DOTAMTATE (SSTR2 agonist) chelating 212Pb, which decays via 212Bi to emit an alpha particle at the tumour cell.",
     targets: ["sstr2"], technologies: ["prrt", "targeted-alpha-therapy"], companies: ["orano-med", "radiomedix", "sanofi"], cancers: ["neuroendocrine"], trials: ["alphamedix-02"],
     links: [{ label: "Sanofi press release Oct 2025", url: "https://www.sanofi.com/en/media-room/press-releases/2025/2025-10-08-05-00-00-3163053" }] }),
-  d({ id: "capecitabine-temozolomide", name: "Capecitabine + temozolomide (CAPTEM)", modality: "Oral cytotoxic regimen", status: "established",
+  d({ id: "capecitabine-temozolomide", links: [{ label: "ClinicalTrials.gov NCT01824875: ECOG-ACRIN E2211, temozolomide with or without capecitabine in advanced pancreatic neuroendocrine tumours (phase 2)", url: "https://clinicaltrials.gov/study/NCT01824875" }], name: "Capecitabine + temozolomide (CAPTEM)", modality: "Oral cytotoxic regimen", status: "established",
     tldr: "CAPTEM (capecitabine plus temozolomide) is an all-oral chemotherapy pair that shrinks pancreatic neuroendocrine tumours in about a third of patients.",
     summary: "ECOG-ACRIN E2211 (2018-2023): PFS 22.7 vs 14.4 months and higher response rate for CAPTEM versus temozolomide alone in pancreatic NETs; OS did not differ at final analysis. Used when tumour shrinkage is needed (bulky or symptomatic disease) and in grade 3 NETs. MGMT deficiency may predict response.",
     mechanism: "Fluoropyrimidine plus alkylating agent; capecitabine depletes MGMT, sensitising to temozolomide.",

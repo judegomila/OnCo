@@ -19,7 +19,7 @@ export const targets: TargetInput[] = [
       { cancerId: "nsclc", pct: "60-70", measure: "IHC, moderate-high", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/", note: "Adenocarcinoma and squamous" },
       { cancerId: "urothelial", pct: "80-90", measure: "IHC, any expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/" },
       { cancerId: "pancreatic", pct: 50, measure: "IHC, any expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/", note: "Approximate; heterogeneous" },
-    ], links: [],
+    ], links: [{ label: "UniProt P09758: TACSTD2 (TROP2)", url: "https://www.uniprot.org/uniprotkb/P09758/entry" }],
   },
   {
     id: "her2", kind: "target", name: "HER2", symbol: "ERBB2", targetClass: "surface-antigen", asOf, wikipedia: W("HER2/neu"),
@@ -390,7 +390,7 @@ export const targets: TargetInput[] = [
     tags: ["tcr-target"],
     prevalence: [
       { cancerId: "melanoma", pct: ">90", measure: "Melanocytic lineage antigen", source: "https://en.wikipedia.org/wiki/Premelanosome_protein", note: "HLA-A*02:01 required for tebentafusp" },
-    ], links: [],
+    ], links: [{ label: "UniProt P40967: PMEL (gp100)", url: "https://www.uniprot.org/uniprotkb/P40967/entry" }],
   },
 
   // ---- Checkpoints ----

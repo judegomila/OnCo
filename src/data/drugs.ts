@@ -196,7 +196,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["egfr", "met"], technologies: ["bispecific-adc"], companies: ["astrazeneca"], cancers: ["nsclc", "head-and-neck"],
   },
   {
-    id: "ak146d1", kind: "drug", name: "AK146D1", modality: "Bispecific ADC", asOf, status: "phase-1",
+    id: "ak146d1", links: [{ label: "ClinicalTrials.gov NCT06929663: AK146D1 in advanced solid tumours (phase 1)", url: "https://clinicaltrials.gov/study/NCT06929663" }, { label: "Akeso", url: "https://www.akesobio.com/en/" }], kind: "drug", name: "AK146D1", modality: "Bispecific ADC", asOf, status: "phase-1",
     payload: "TOP1 inhibitor", linker: "Cleavable",
     tldr: "AK146D1 is Akeso's Nectin-4 × TROP2 bispecific ADC, combining the two most validated ADC addresses in one molecule.",
     summary: "AK146D1 is Akeso's bispecific antibody-drug conjugate that binds both Nectin-4 and TROP2, the two most clinically validated ADC targets, and delivers a topoisomerase I inhibitor through a cleavable linker. The rationale is complementary expression across urothelial, breast and lung cancers and potentially higher internalisation when two receptors are engaged on the same cell. It entered the clinic in 2025 in a first-in-human phase 1 dose-escalation study after IND clearance in China, alongside Avenzo's AVZO-103 in the same target pair. No efficacy or toxicity data have yet been reported, so the programme is very early. Whether dual targeting improves on single-target ADCs such as enfortumab vedotin and sacituzumab govitecan, or simply adds toxicity, is the central question. For a newcomer: it combines two proven ADC addresses in one molecule, and the clinic has yet to show if that helps.",
@@ -769,7 +769,7 @@ const baseDrugs: DrugInput[] = [
     links: [{ label: "GRAIL PMA announcement", url: "https://grail.com/press-releases/grail-submits-fda-premarket-approval-application-for-the-galleri-multi-cancer-early-detection-test/" }],
   },
   {
-    id: "shield", kind: "drug", name: "Shield", modality: "Blood-based colorectal cancer screening test", asOf, status: "approved",
+    id: "shield", links: [{ label: "FDA premarket approval P230009: Shield blood-based colorectal cancer screening test", url: "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230009" }], kind: "drug", name: "Shield", modality: "Blood-based colorectal cancer screening test", asOf, status: "approved",
     tldr: "The first FDA-approved blood test for colorectal cancer screening (2024), now optionally reporting other cancers too.",
     summary: "Shield is Guardant Health's blood-based colorectal cancer screening test: it reads cell-free DNA for methylation patterns, fragmentation signatures and mutations that indicate a tumour. It was the first FDA-approved blood test for colorectal cancer screening (2024), for average-risk adults aged 45 and over with Medicare coverage. In the ECLIPSE study it detected 83% of colorectal cancers with 90% specificity, but only 13% of advanced adenomas, the precancerous lesions that colonoscopy removes to prevent cancer. Its value therefore lies in reaching people who decline colonoscopy or stool tests, and any positive result must be followed by colonoscopy. In 2025 a Shield MCD option added multi-cancer detection with Breakthrough designation. For a newcomer: a convenient blood test for bowel cancer that catches cancers well but polyps poorly.",
     mechanism: "cfDNA methylation, fragmentomics, and mutations.",
@@ -784,7 +784,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["mrd-testing", "liquid-biopsy"], companies: ["natera"], cancers: ["colorectal", "urothelial", "tnbc", "nsclc"], trials: ["imvigor011"],
   },
   {
-    id: "foundationone-cdx", kind: "drug", name: "FoundationOne CDx / Liquid CDx", modality: "Comprehensive genomic profiling test", asOf, status: "approved",
+    id: "foundationone-cdx", links: [{ label: "FDA premarket approval P170019: FoundationOne CDx", url: "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P170019" }, { label: "Foundation Medicine: FoundationOne CDx", url: "https://www.foundationmedicine.com/test/foundationone-cdx" }], kind: "drug", name: "FoundationOne CDx / Liquid CDx", modality: "Comprehensive genomic profiling test", asOf, status: "approved",
     tldr: "The FDA-approved tissue (324 genes) and blood genomic tests that serve as companion diagnostics for dozens of drugs.",
     summary: "FoundationOne CDx is Foundation Medicine's (Roche) tissue-based comprehensive genomic profiling test, using hybrid-capture next-generation sequencing of 324 genes to report mutations, copy-number changes, fusions, tumour mutational burden, microsatellite instability and homologous recombination deficiency by loss of heterozygosity; FoundationOne Liquid CDx applies the approach to circulating tumour DNA in blood. The tissue test was FDA-approved in 2017 and the liquid test in 2020. They are companion diagnostics for more than 30 therapies, including olaparib, capivasertib, trastuzumab deruxtecan for HER2-mutant NSCLC and selpercatinib, so one report can open several treatment doors at once. Tissue-blood concordance and unequal access remain issues. For a newcomer: a single sequencing test that tells an oncologist which targeted drugs a tumour might respond to.",
     mechanism: "Hybrid-capture NGS of 324 genes.",
@@ -800,7 +800,7 @@ const baseDrugs: DrugInput[] = [
     links: [{ label: "TAILORx (NEJM 2018)", url: "https://doi.org/10.1056/NEJMoa1804710" }, { label: "NICE DG34: tumour profiling tests for breast cancer", url: "https://www.nice.org.uk/guidance/dg34" }],
   },
   {
-    id: "artera-ai-prostate", kind: "drug", name: "ArteraAI Prostate", modality: "AI digital pathology prognostic/predictive test", asOf, status: "approved",
+    id: "artera-ai-prostate", links: [{ label: "Artera: ArteraAI tests", url: "https://artera.ai/" }], kind: "drug", name: "ArteraAI Prostate", modality: "AI digital pathology prognostic/predictive test", asOf, status: "approved",
     tldr: "The first AI tool cleared by the FDA to predict both prognosis and treatment benefit from a routine biopsy slide, in prostate cancer.",
     summary: "ArteraAI Prostate is a multimodal artificial intelligence test that combines a deep-learning image encoder applied to routine H&E biopsy slides with clinical variables to predict the risk of distant metastasis and the benefit of short-term androgen deprivation therapy added to radiotherapy in localised prostate cancer. It was validated retrospectively on NRG/RTOG randomised trial cohorts, received FDA de novo authorisation in August 2025 as the first AI tool cleared to predict both prognosis and treatment benefit from a slide, and is listed in NCCN guidelines. Its practical use is helping men with intermediate-risk disease decide whether hormone therapy is worth its side effects. Prospective validation is the open question. For a newcomer: software that reads a biopsy slide to say how aggressive the cancer is and whether hormone therapy will help.",
     mechanism: "Deep-learning image encoder plus clinical data fusion.",
@@ -808,7 +808,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["digital-pathology-ai", "pathology-foundation-model"], companies: ["artera"], cancers: ["prostate"],
   },
   {
-    id: "artera-ai-breast", kind: "drug", name: "ArteraAI Breast", modality: "AI digital pathology risk test", asOf, status: "approved",
+    id: "artera-ai-breast", links: [{ label: "Artera: ArteraAI tests", url: "https://artera.ai/" }], kind: "drug", name: "ArteraAI Breast", modality: "AI digital pathology risk test", asOf, status: "approved",
     tldr: "An FDA-cleared AI test (May 2026) that reads breast cancer slides to estimate recurrence risk in early hormone-positive disease.",
     summary: "ArteraAI Breast is an AI digital pathology test that extracts foundation-model-derived features from H&E whole-slide images to estimate recurrence risk in early-stage HR-positive, HER2-negative invasive breast cancer. FDA-cleared in May 2026, it is the first digital-pathology-based risk stratification tool for this setting and is positioned as a faster and cheaper alternative to gene-expression assays such as Oncotype DX, because it needs only the slide already made for diagnosis rather than a separate laboratory send-out. It is cleared for prognosis; whether it also predicts chemotherapy benefit, as TAILORx established for the 21-gene score, has not been shown. Performance across scanners, laboratories and populations will decide how widely it is adopted. For a newcomer: software that reads the routine pathology slide to judge how likely a hormone-positive breast cancer is to return.",
     mechanism: "Foundation-model-derived features from H&E whole-slide images.",

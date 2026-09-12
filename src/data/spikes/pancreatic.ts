@@ -48,7 +48,7 @@ const entities: EntityInput[] = [
     targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["revolution-medicines"], cancers: ["nsclc", "colorectal", "pancreatic"], pathways: ["ras-mapk"],
   },
   {
-    id: "mrtx1133", kind: "drug", name: "MRTX1133", modality: "Small-molecule non-covalent KRAS G12D inhibitor", asOf, status: "phase-1",
+    id: "mrtx1133", links: [{ label: "ClinicalTrials.gov NCT05737706: MRTX1133 in KRAS G12D-mutant advanced solid tumours (phase 1)", url: "https://clinicaltrials.gov/study/NCT05737706" }], kind: "drug", name: "MRTX1133", modality: "Small-molecule non-covalent KRAS G12D inhibitor", asOf, status: "phase-1",
     tldr: "MRTX1133 was the first potent chemical tool against KRAS G12D, and proved the mutation could be drugged even though it lacks the reactive handle G12C has.",
     summary: "MRTX1133 is a non-covalent small molecule that binds the switch-II pocket of KRAS G12D and inhibits both the ON and OFF states; because G12D lacks the reactive cysteine that G12C drugs exploit, it needed a different, high-affinity chemistry. It was the first potent chemical tool against KRAS G12D, a common driver in pancreatic cancer, and it produced striking regressions in pancreatic patient-derived xenograft models (Nature 2023). Poor oral bioavailability forced intravenous dosing in the phase 1/2 trial, and development slowed after Bristol Myers Squibb acquired Mirati, while covalent RAS(ON) competitors advanced. Its lasting importance is as proof that G12D can be drugged, opening the door to oral and pan-RAS successors. For a newcomer, it showed that a KRAS mutation once thought undruggable can be hit.",
     mechanism: "Non-covalent binder to the switch-II pocket of KRAS G12D, inhibiting both ON and OFF states.",

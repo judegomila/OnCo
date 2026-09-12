@@ -22,7 +22,7 @@ const m = (x: M): TermInput => ({ kind: "term", asOf, ...x });
 const technologies: TechnologyInput[] = [
   // ---- Cell therapy manufacturing ----
   t({
-    id: "closed-automated-cell-manufacturing", name: "Closed automated cell-therapy manufacturing", sections: ["cell-therapy"], status: "established",
+    id: "closed-automated-cell-manufacturing", links: [{ label: "FDA guidance: considerations for the development of CAR T cell products", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products" }], name: "Closed automated cell-therapy manufacturing", sections: ["cell-therapy"], status: "established",
     tldr: "Sealed, robot-run machines that turn a patient's blood cells into a CAR-T product with far fewer hands, clean rooms, and mistakes.",
     summary: "Functionally closed, GMP-in-a-box platforms (Miltenyi CliniMACS Prodigy, Lonza Cocoon, Cellares Cell Shuttle, Cytiva Sefia) integrate cell selection, activation, transduction, expansion, and harvest in single-use cassettes. They cut labour and clean-room grade requirements, shorten vein-to-vein time, and are the prerequisite for point-of-care and decentralised manufacturing. Throughput per unit and comparability across sites remain the constraints.",
     principle: "Single-use fluid paths with integrated centrifugation, magnetic selection, incubation, and sensors; process recipes run automatically and log every step for batch release.",
@@ -31,7 +31,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["car-t", "point-of-care-cell-manufacturing", "in-vivo-car-t"], companies: ["miltenyi-biotec", "lonza", "cellares", "cytiva"],
   }),
   t({
-    id: "point-of-care-cell-manufacturing", name: "Point-of-care and decentralised cell manufacturing", sections: ["cell-therapy"], status: "emerging",
+    id: "point-of-care-cell-manufacturing", links: [{ label: "FDA guidance: considerations for the development of CAR T cell products", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products" }], name: "Point-of-care and decentralised cell manufacturing", sections: ["cell-therapy"], status: "emerging",
     tldr: "Making CAR-T cells at or near the hospital instead of shipping cells to a central factory and back.",
     summary: "Academic centres (Sheba, Hospital Clínic Barcelona's ARI-0001, several Chinese and Indian programmes) and companies (Cellares 'Smart Factories', Orgenesis, Galapagos' decentralised model) manufacture cell therapies close to the patient, cutting vein-to-vein time to about a week and cost substantially. Regulators are working out how to license many small sites against one product specification.",
     principle: "Standardised closed platforms plus centralised quality oversight and digital batch records allow the same process to run at many sites.",
@@ -40,7 +40,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["closed-automated-cell-manufacturing", "car-t"], companies: ["cellares", "galapagos"],
   }),
   t({
-    id: "viral-vector-manufacturing", name: "Viral vector manufacturing (lentiviral, retroviral, AAV)", sections: ["cell-therapy", "drug-discovery"], status: "established",
+    id: "viral-vector-manufacturing", links: [{ label: "FDA guidance: chemistry, manufacturing and control information for human gene therapy INDs", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug" }], name: "Viral vector manufacturing (lentiviral, retroviral, AAV)", sections: ["cell-therapy", "drug-discovery"], status: "established",
     tldr: "Producing the engineered viruses that carry a CAR gene into T cells. Viral vector manufacturing is a long-standing bottleneck for cell and gene therapy.",
     summary: "Lentiviral vectors for CAR-T are made by transient transfection of HEK293 cells with plasmid DNA, or increasingly by stable producer cell lines; AAV serves in vivo gene therapy. Capacity shortages in 2018-2022 delayed trials; large CDMOs (Lonza, Thermo Fisher, Charles River, Oxford Biomedica) and in-house plants (Kite, Novartis, BMS) have since expanded. Titre, empty-capsid ratio, and cost per dose are the quality and economic levers.",
     principle: "Packaging and transfer plasmids co-transfected into producer cells; harvested particles are purified by chromatography and tested for titre, potency, and replication competence.",
@@ -49,7 +49,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["car-t", "plasmid-dna-manufacturing"], companies: ["lonza", "oxford-biomedica", "thermo-fisher", "charles-river"],
   }),
   t({
-    id: "plasmid-dna-manufacturing", name: "Plasmid DNA and mRNA raw-material manufacturing", sections: ["cell-therapy", "immunotherapy"], status: "established",
+    id: "plasmid-dna-manufacturing", links: [{ label: "FDA guidance: chemistry, manufacturing and control information for human gene therapy INDs", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug" }], name: "Plasmid DNA and mRNA raw-material manufacturing", sections: ["cell-therapy", "immunotherapy"], status: "established",
     tldr: "Plasmid DNA and mRNA raw materials are the DNA templates and enzymes behind viral vectors and mRNA vaccines. They are invisible to patients but decisive for supply.",
     summary: "GMP plasmid DNA is the starting material for lentiviral vectors and for in vitro transcription of mRNA (personalised neoantigen vaccines, in vivo CAR). Supply tightened during the pandemic and again with the growth of individualised mRNA, prompting dedicated suppliers (Aldevron/Danaher, VGXI, Cobra) and cell-free synthetic DNA alternatives (Touchlight's doggybone DNA).",
     principle: "Bacterial fermentation and purification of high-copy plasmids, or enzymatic cell-free amplification; linearised template drives IVT with modified nucleosides.",
@@ -91,7 +91,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Sequencing and omics platforms ----
   t({
-    id: "long-read-sequencing", name: "Long-read sequencing (PacBio, Oxford Nanopore)", sections: ["diagnostics", "drug-discovery"], status: "established",
+    id: "long-read-sequencing", links: [{ label: "Logsdon et al., Long-read human genome sequencing and its applications (Nature Reviews Genetics 2020)", url: "https://doi.org/10.1038/s41576-020-0236-x" }], name: "Long-read sequencing (PacBio, Oxford Nanopore)", sections: ["diagnostics", "drug-discovery"], status: "established",
     tldr: "Long-read sequencing (PacBio HiFi, Oxford Nanopore) reads single DNA molecules in stretches of thousands of bases, so rearrangements, repeat expansions, gene fusions and methylation appear in one run where short-read machines miss them. Nanopore can classify a brain tumour during surgery in under an hour; throughput per dollar still trails the largest short-read instruments.",
     summary: "PacBio HiFi and Oxford Nanopore reads span kilobases, resolving structural variants, phasing, repeat expansions, and base modifications in one run. In oncology: rapid intraoperative methylation classification of brain tumours (nanopore, under an hour), fusion detection, and complex rearrangement mapping. Cost per genome is approaching short-read levels; accuracy is now clinical-grade for HiFi.",
     principle: "Single-molecule real-time fluorescence (PacBio) or ionic current through a protein nanopore (ONT) reads native or circular-consensus molecules without amplification.",
@@ -189,7 +189,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["ai-trial-matching", "oncology-real-world-data"], companies: ["mckesson-us-oncology", "oneoncology", "florida-cancer-specialists", "sarah-cannon-research-institute"], institutions: ["nci"],
   }),
   t({
-    id: "contract-research-organisations", name: "Contract research organisations (CROs)", sections: ["ai-computation"], status: "standard-of-care",
+    id: "contract-research-organisations", links: [{ label: "FDA guidance: ICH E6(R3) good clinical practice", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/e6r3-good-clinical-practice-gcp" }], name: "Contract research organisations (CROs)", sections: ["ai-computation"], status: "standard-of-care",
     tldr: "Companies that run clinical trials for sponsors: sites, monitoring, data, and regulatory filing.",
     summary: "IQVIA, ICON (including PRA), Parexel, Fortrea (ex-Labcorp), Syneos, Medpace, PPD (Thermo Fisher), and Charles River (preclinical) execute the majority of industry oncology trials. Oncology is the largest CRO therapeutic segment; capabilities in biomarker-driven enrolment, imaging core labs (e.g. ICON Medical Imaging, Calyx), and China/Asia site networks differentiate. Consolidation and AI-driven site selection are current trends.",
     principle: "Outsourced trial operations under sponsor oversight: feasibility, site management, monitoring, pharmacovigilance, biostatistics, and submission.",
@@ -198,7 +198,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["clinical-trial-software", "imaging-core-labs"], companies: ["iqvia", "icon-plc", "parexel", "fortrea", "medpace", "charles-river"],
   }),
   t({
-    id: "imaging-core-labs", name: "Imaging core labs and central review", sections: ["imaging"], status: "standard-of-care",
+    id: "imaging-core-labs", links: [{ label: "FDA guidance: clinical trial imaging endpoint process standards", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-imaging-endpoint-process-standards-guidance-industry" }], name: "Imaging core labs and central review", sections: ["imaging"], status: "standard-of-care",
     tldr: "Independent radiologists who re-read every scan in a trial the same way, so response rates mean the same thing across hospitals.",
     summary: "Blinded independent central review (BICR) applies RECIST, iRECIST, Lugano, or PCWG3 criteria consistently across sites and is expected by regulators for PFS and ORR endpoints. Vendors: Calyx (formerly Parexel Informatics), ICON Medical Imaging, Clario (Bioclinica + ERT), Median Technologies, WCG Imaging, and Radiology Partners' research arm. AI-assisted lesion tracking and quantitative imaging biomarkers are entering the workflow.",
     principle: "De-identified DICOM images uploaded to a central platform; two readers plus adjudicator score per protocol charter; discrepancy rates and read variability are tracked.",
@@ -238,7 +238,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["pet", "psma-pet", "radiopharmacy-network"], companies: ["petnet-solutions", "cardinal-health", "sofie-biosciences", "lantheus", "telix", "jubilant-radiopharma"],
   }),
   t({
-    id: "nuclear-medicine-hardware", name: "Nuclear medicine and total-body PET hardware", sections: ["imaging"], status: "established",
+    id: "nuclear-medicine-hardware", links: [{ label: "Badawi et al., First human imaging studies with the EXPLORER total-body PET scanner (Journal of Nuclear Medicine 2019)", url: "https://doi.org/10.2967/jnumed.119.226498" }], name: "Nuclear medicine and total-body PET hardware", sections: ["imaging"], status: "established",
     tldr: "Nuclear medicine hardware means the scanners themselves: PET/CT, SPECT/CT, and new total-body PET that images the whole body at once.",
     summary: "Siemens Healthineers (Biograph Vision Quadra), GE HealthCare (Omni Legend), United Imaging (uEXPLORER, uMI Panorama), Canon Medical (Cartesion Prime), and Positron/Mediso occupy the PET/CT market; SPECT/CT for dosimetry from Siemens, GE, and Spectrum Dynamics. Total-body and long-axial-field-of-view PET raise sensitivity roughly 40-fold, enabling low-dose, dynamic, and multi-tracer studies relevant to theranostics.",
     principle: "Silicon photomultiplier detector rings with time-of-flight, coupled to CT for attenuation correction; long axial coverage captures the whole body in one bed position.",
@@ -276,7 +276,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["pathology-foundation-model", "radiology-ai-screening", "ai-drug-design"], companies: ["nvidia", "microsoft", "google-health"],
   }),
   t({
-    id: "sterile-fill-finish", name: "Sterile fill-finish and lyophilisation", sections: ["adcs", "immunotherapy"], status: "standard-of-care",
+    id: "sterile-fill-finish", links: [{ label: "FDA guidance: sterile drug products produced by aseptic processing", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/sterile-drug-products-produced-aseptic-processing-current-good-manufacturing-practice" }], name: "Sterile fill-finish and lyophilisation", sections: ["adcs", "immunotherapy"], status: "standard-of-care",
     tldr: "Sterile fill-finish is putting the finished drug into vials under sterile conditions. It is a frequent cause of shortages when capacity is tight.",
     summary: "Fill-finish capacity for biologics, ADCs, and radiopharmaceutical kits is concentrated (Catalent, Vetter, Baxter BioPharma Solutions, Thermo Fisher, Lonza, Samsung Biologics); lyophilisation is common for ADCs and mRNA products. Shortages of cisplatin and carboplatin in 2023 traced to a single sterile injectables plant (Intas/Accord) failing inspection, exposing the fragility of generic oncology supply.",
     principle: "Fill-finish relies on aseptic filling in isolators, lyophilisation cycles tuned to product stability, and 100% container-closure integrity inspection.",
@@ -313,7 +313,7 @@ const technologies: TechnologyInput[] = [
   }),
   // ---- Cell-therapy logistics and QC ----
   t({
-    id: "apheresis-starting-material", name: "Apheresis and starting-material collection", sections: ["cell-therapy"], status: "standard-of-care",
+    id: "apheresis-starting-material", links: [{ label: "FDA guidance: considerations for the development of CAR T cell products", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products" }], name: "Apheresis and starting-material collection", sections: ["cell-therapy"], status: "standard-of-care",
     tldr: "Apheresis is collecting a patient's white blood cells through a machine over several hours. Every autologous CAR-T begins here, and the quality of these cells shapes the final product.",
     summary: "Leukapheresis on Terumo BCT Spectra Optia or Fresenius Kabi Amicus/LOVO devices collects mononuclear cells at qualified centres; T-cell fitness at collection (affected by prior chemotherapy, bendamustine, and disease burden) predicts CAR-T expansion and response. Slot availability at apheresis units is a hidden bottleneck for CAR-T access, and standardisation of collection protocols is part of every sponsor's site qualification.",
     principle: "Continuous-flow centrifugation separates mononuclear cells from returning blood; product is characterised (CD3 count, viability) and shipped fresh or cryopreserved to manufacturing.",
@@ -322,7 +322,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["car-t", "cell-therapy-cold-chain"], companies: ["terumo-bct", "fresenius-kabi"],
   }),
   t({
-    id: "cell-therapy-cold-chain", name: "Cryopreservation and cell-therapy cold chain", sections: ["cell-therapy"], status: "established",
+    id: "cell-therapy-cold-chain", links: [{ label: "FDA guidance: considerations for the development of CAR T cell products", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products" }], name: "Cryopreservation and cell-therapy cold chain", sections: ["cell-therapy"], status: "established",
     tldr: "Freezing cells at minus 150 degrees and shipping them in liquid-nitrogen 'dry shippers' with tracking, so a living drug arrives alive and matched to the right patient.",
     summary: "Cryoport, BioLife Solutions (CryoStor media, evo shippers), Cryoport's CRYOPDP, World Courier (Cencora), and Marken (UPS) provide validated cryogenic logistics with temperature and location telemetry; chain-of-identity and chain-of-custody software (Vineti, TrakCel, Ori, Kite's Konnect) links apheresis, manufacturing, and infusion. Failures here are rare but catastrophic for an individualised product.",
     principle: "Controlled-rate freezing in DMSO-based media, storage below -150°C in vapour-phase nitrogen, and GPS/temperature-logged dry shippers with digital identity verification at each hand-off.",
@@ -331,7 +331,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["car-t", "apheresis-starting-material", "cell-therapy-orchestration-software"], companies: ["cryoport", "biolife-solutions"],
   }),
   t({
-    id: "cell-therapy-orchestration-software", name: "Cell-therapy orchestration and chain-of-identity software", sections: ["cell-therapy", "ai-computation"], status: "established",
+    id: "cell-therapy-orchestration-software", links: [{ label: "FDA guidance: considerations for the development of CAR T cell products", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products" }], name: "Cell-therapy orchestration and chain-of-identity software", sections: ["cell-therapy", "ai-computation"], status: "established",
     tldr: "Scheduling and tracking software that makes sure each patient's cells come back to that patient, on time.",
     summary: "Platforms from Vineti (acquired by Ori Biotech 2023), TrakCel, Title21, and sponsors' own portals (Novartis CellChain, Kite Konnect, BMS Cell Therapy 360) coordinate slot booking, apheresis, courier pickup, manufacturing status, and infusion, with barcoded chain-of-identity. They are required by regulators for commercial autologous products and are a prerequisite for scaling to thousands of patients per year.",
     principle: "Orchestration software is a workflow engine with unique patient and product identifiers, integrations to hospital, courier, and manufacturing systems, and audit logs for regulators.",
@@ -340,7 +340,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["car-t", "cell-therapy-cold-chain"],
   }),
   t({
-    id: "cell-therapy-release-testing", name: "Cell-therapy release and potency testing", sections: ["cell-therapy"], status: "established",
+    id: "cell-therapy-release-testing", links: [{ label: "FDA guidance: potency assurance for cellular and gene therapy products", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/potency-assurance-cellular-and-gene-therapy-products" }], name: "Cell-therapy release and potency testing", sections: ["cell-therapy"], status: "established",
     tldr: "The quality checks a CAR-T batch must pass before it can be given: sterile, correct identity, enough live CAR-positive cells, and no replicating virus.",
     summary: "Release panels include sterility (rapid methods such as BacT/ALERT cut 14 days to about 7), mycoplasma PCR, endotoxin, identity (HLA), viability and CAR expression by flow cytometry, vector copy number by qPCR, replication-competent lentivirus, and potency (cytokine release or cytotoxicity). Testing time is a large share of vein-to-vein time; rapid and in-line methods and reduced-testing strategies for early-phase products are active regulatory topics.",
     principle: "Compendial and validated assays performed on samples of the final product, with defined acceptance criteria in the marketing authorisation.",
@@ -445,7 +445,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["ai-drug-design", "protac-degrader"], companies: ["thermo-fisher", "google-health"],
   }),
   t({
-    id: "high-throughput-screening-libraries", name: "High-throughput screening and DNA-encoded libraries", sections: ["drug-discovery"], status: "established",
+    id: "high-throughput-screening-libraries", links: [{ label: "Goodnow et al., DNA-encoded chemistry: enabling the deeper sampling of chemical space (Nature Reviews Drug Discovery 2016)", url: "https://doi.org/10.1038/nrd.2016.213" }], name: "High-throughput screening and DNA-encoded libraries", sections: ["drug-discovery"], status: "established",
     tldr: "Testing millions or billions of chemical compounds against a cancer target automatically to find starting points for new drugs.",
     summary: "Robotic HTS of 1-2 million compound libraries, fragment screening by NMR or crystallography, DNA-encoded libraries (X-Chem, HitGen, WuXi; billions of compounds per pool), affinity-selection mass spectrometry, and virtual screening of ultra-large make-on-demand spaces (Enamine REAL, tens of billions) supply hits; CRISPR pooled screens (Broad DepMap, Sanger) supply the targets. Automation vendors: Beckman, Hamilton, Tecan, Thermo Fisher; readouts increasingly imaging-based (cell painting).",
     principle: "Parallel assays in microtitre plates or barcoded pools identify binders or phenotypic modulators, followed by hit confirmation and medicinal chemistry.",
@@ -485,7 +485,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["cytotoxic-chemotherapy", "pharmacy-automation", "remote-patient-monitoring"], companies: ["becton-dickinson", "baxter", "b-braun"],
   }),
   t({
-    id: "federated-learning-medical-ai", name: "Federated learning and privacy-preserving AI", sections: ["ai-computation"], status: "emerging",
+    id: "federated-learning-medical-ai", links: [{ label: "Rieke et al., The future of digital health with federated learning (npj Digital Medicine 2020)", url: "https://doi.org/10.1038/s41746-020-00323-1" }], name: "Federated learning and privacy-preserving AI", sections: ["ai-computation"], status: "emerging",
     tldr: "Federated learning trains one AI model across hospitals by exchanging model updates, not patient data, so a pathology or radiology model learns from every site while records stay behind each firewall. Owkin, NVIDIA FLARE and the MELLODDY pharma consortium use it; governance overhead and differing data across sites are the practical obstacles.",
     summary: "Federated learning (NVIDIA FLARE, Owkin's Substra, Rhino Health, Intel OpenFL) trains a shared model on data held locally at each institution; used for pathology and radiology models (Owkin-led projects, the EXAM COVID model, Flywheel), and for pharma consortia (MELLODDY). Complementary tools include differential privacy, synthetic data (MDClone, Syntegra), and trusted execution environments. Governance and validation on heterogeneous data are the practical challenges.",
     principle: "Model updates, not data, are exchanged and aggregated centrally; privacy techniques limit what updates can reveal.",
@@ -494,7 +494,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["pathology-foundation-model", "radiology-ai-screening", "ai-compute-platforms", "oncology-real-world-data"], companies: ["nvidia", "owkin"],
   }),
   t({
-    id: "telemedicine-teleoncology", name: "Telemedicine, teleoncology, and telepathology", sections: ["supportive-care", "diagnostics"], status: "established",
+    id: "telemedicine-teleoncology", links: [{ label: "Zon et al., Telehealth in oncology: ASCO standards and practice recommendations (JCO Oncology Practice 2021)", url: "https://doi.org/10.1200/OP.21.00438" }], name: "Telemedicine, teleoncology, and telepathology", sections: ["supportive-care", "diagnostics"], status: "established",
     tldr: "Video visits, remote second opinions, and slides reviewed from afar, which let rural and low-resource patients reach specialists.",
     summary: "Teleoncology programmes (Australian and Canadian rural networks, NCI Telehealth Research Centers, MD Anderson and MSK remote consultations, Project ECHO for capacity building) and telepathology (static and whole-slide remote sign-out, cleared by regulators during and after the pandemic) extend specialist care; digital second-opinion platforms (Cleveland Clinic, Mass General Brigham, Included Health) are growing. Reimbursement parity and licensure across state or national borders remain constraints in many systems.",
     principle: "Secure video and image transfer with integrated records let specialists consult, review, and prescribe remotely.",

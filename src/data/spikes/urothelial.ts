@@ -200,7 +200,7 @@ const technologies: TechnologyInput[] = [
 ];
 
 const terms: TermInput[] = [
-  { id: "nmibc-vs-mibc", kind: "term", name: "Non-muscle-invasive vs muscle-invasive bladder cancer (NMIBC / MIBC)", category: "Clinical", asOf,
+  { id: "nmibc-vs-mibc", wikipedia: W("Bladder_cancer"), kind: "term", name: "Non-muscle-invasive vs muscle-invasive bladder cancer (NMIBC / MIBC)", category: "Clinical", asOf,
     tldr: "Bladder cancer is divided by whether it has grown into the bladder's muscle wall. Before that, it is treated inside the bladder; after, the bladder is usually removed or irradiated.",
     summary: "NMIBC (~75% at diagnosis: Ta, T1, CIS) is managed with TURBT and intravesical therapy, stratified as low, intermediate, or high risk. MIBC (T2-T4) needs radical cystectomy or trimodality bladder preservation, now with perioperative systemic therapy (NIAGARA, EV-303/304). Metastatic disease is treated systemically. Upper-tract urothelial carcinoma (renal pelvis, ureter) shares biology and most drugs.",
     cancers: ["urothelial"], technologies: ["cystoscopy-turbt", "bcg-and-intravesical-therapy"], aka: ["muscle invasive", "MIBC", "non-muscle-invasive", "non-muscle invasive", "NMIBC", "NMIBC risk group", "high-risk NMIBC", "T1 high-grade", "BCG-naive", "BCG-exposed", "muscle-invasive"], related: ["turbt", "cystectomy", "intravesical-therapy", "organ-preservation"], sections: ["surgery"], trials: ["niagara", "imvigor011"] },

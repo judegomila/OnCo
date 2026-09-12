@@ -47,7 +47,7 @@ const technologies: TechnologyInput[] = [
 ];
 
 const terms: TermInput[] = [
-  term({ id: "fnclcc-grade", links: [{ label: "FNCLCC histopathological grading system (Trojani et al., Int J Cancer 1984)", url: "https://doi.org/10.1002/ijc.2910330108" }], name: "FNCLCC grade (soft-tissue sarcoma)", category: "Pathology",
+  term({ id: "fnclcc-grade", wikipedia: W("Grading_(tumors)"), links: [{ label: "FNCLCC histopathological grading system (Trojani et al., Int J Cancer 1984)", url: "https://doi.org/10.1002/ijc.2910330108" }], name: "FNCLCC grade (soft-tissue sarcoma)", category: "Pathology",
     tldr: "The FNCLCC grade is a 1-to-3 score for soft-tissue sarcomas based on how abnormal, how fast-dividing, and how much dead tissue the tumour shows; grade drives whether chemotherapy is considered.",
     summary: "The FNCLCC grade is the French Federation of Cancer Centres system for grading soft-tissue sarcoma, described by Trojani and colleagues in 1984. A pathologist scores tumour differentiation, mitotic count and necrosis and sums them to a grade of 1 to 3, so the grade captures how abnormal the cells look, how fast they divide and how much dead tissue the tumour contains. It matters because grade 3, together with size above 5 cm and deep location, defines high-risk disease eligible for neoadjuvant chemotherapy, as in the ISG-STS 1001 trial, and feeds nomogram-based prediction tools such as Sarculator. Readers meet the term in the sarcoma record covering soft tissue, bone and GIST, in the osteosarcoma record, and in the bottleneck on rare and paediatric cancers without markets.",
     cancers: ["sarcoma"] }),

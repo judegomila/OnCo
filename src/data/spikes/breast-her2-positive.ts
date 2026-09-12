@@ -248,7 +248,7 @@ const terms: TermInput[] = [
     tldr: "Up to half of women with metastatic HER2-positive breast cancer develop brain metastases, because antibodies control the body but historically not the brain.",
     summary: "Incidence 30-50% in metastatic HER2+ disease. Local therapy (radiosurgery, surgery, whole-brain RT) was the mainstay; tucatinib (HER2CLIMB: CNS-PFS HR 0.32) and T-DXd (DESTINY-Breast12: intracranial ORR 71.7%) now provide systemic control, allowing deferral of radiation in selected patients. Neratinib and pyrotinib have modest CNS activity.",
     drugs: ["tucatinib", "trastuzumab-deruxtecan", "neratinib"], cancers: ["breast-her2-positive"], trials: ["her2climb", "destiny-breast12"], technologies: ["sbrt", "mri"] }),
-  term({ id: "trastuzumab-cardiotoxicity", name: "Trastuzumab cardiotoxicity", category: "Toxicity",
+  term({ id: "trastuzumab-cardiotoxicity", wikipedia: W("Trastuzumab"), name: "Trastuzumab cardiotoxicity", category: "Toxicity",
     tldr: "HER2 drugs can weaken the heart's pumping, usually reversibly, so heart function is checked every three months during treatment.",
     summary: "Asymptomatic LVEF decline in 10-15% and symptomatic heart failure in 1-4% with trastuzumab, higher with prior or concurrent anthracyclines (NSABP B-31: 4.1% vs 0.8%). Mechanism: HER2 signalling maintains cardiomyocyte survival under stress. Management: hold for LVEF drop ≥16 points or below normal, ACE inhibitors/beta-blockers, rechallenge after recovery; anthracycline-free regimens (TCHP, T-DXd neoadjuvant) reduce risk.",
     drugs: ["trastuzumab", "pertuzumab"], technologies: ["cardio-oncology"], cancers: ["breast-her2-positive"], trials: ["persephone"] }),

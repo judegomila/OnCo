@@ -1,0 +1,25 @@
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_7e4f97c3c349fc 174,183,252,392,419,439
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_7e4f97c3c349fc 90,264,286,413,677,701,789,865,896,959,962,971,992,1015
+src/data/spikes/hodgkin-lymphoma.ts
+  s_0beac9cb5d78fd::t_7e4f97c3c349fc 36
+src/data/spikes/neuroblastoma.ts
+  s_0beac9cb5d78fd::t_7e4f97c3c349fc 46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d81ab2365423ce8d6ce5d4960fd15ca0850d60b7",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -129,7 +129,7 @@ const pairings: PairingInput[] = [
 ];
 
 const ideas: IdeaInput[] = [
-  { id: "idea-mtap-prmt5-mesothelioma", kind: "idea", name: "PRMT5/MAT2A synthetic lethality for MTAP-deleted mesothelioma", maturity: "early-clinical", asOf,
+  { id: "idea-mtap-prmt5-mesothelioma", links: [{ label: "Defining a Cancer Dependency Map: which genes each cancer cell line cannot live without (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.06.010" }], kind: "idea", name: "PRMT5/MAT2A synthetic lethality for MTAP-deleted mesothelioma", maturity: "early-clinical", asOf,
     tldr: "About half of mesotheliomas have lost a gene called MTAP. That loss creates a weakness that new PRMT5 inhibitors are designed to exploit.",
     summary: "Roughly half of pleural mesotheliomas carry a co-deletion of CDKN2A and MTAP, and this idea proposes exploiting the weakness that MTAP loss creates. Loss of MTAP raises intracellular MTA, which partially inhibits PRMT5, so MTA-cooperative PRMT5 inhibitors such as AMG 193, MRTX1719 and BMS-986504, and MAT2A inhibitors, gain a therapeutic window that first-generation PRMT5 inhibitors lacked. The rationale is a strong genetic dependency in DepMap, an easy immunohistochemistry test for MTAP loss, and early responses in MTAP-deleted tumours including mesothelioma. At an early clinical stage, the test would be expansion cohorts then a randomised second-line trial, and it connects to the ideas on attacking the backup copy of a lost gene and grouping trials by broken mechanism.",
     hypothesis: "MTA-cooperative PRMT5 inhibitors will produce durable responses in MTAP-deleted mesothelioma after immunotherapy, with a therapeutic window absent for first-generation PRMT5 inhibitors.",

@@ -201,7 +201,7 @@ const pairings: PairingInput[] = [
     rationale: "Acquired resistance to PD-1 blockade is not overcome by adding a VEGF-TKI; the apparent activity of IO-TKI after IO in single-arm studies reflected the TKI.",
     evidence: "Two negative phase 3 trials.",
     drugs: ["atezolizumab", "cabozantinib", "tivozanib", "nivolumab"], cancers: ["rcc"], trials: ["contact-03", "tinivo-2"] },
-  { id: "risk-directed-first-line-rcc", kind: "pairing", name: "IMDC risk → first-line regimen choice (RCC)", a: "checkpoint-inhibitor", b: "kinase-inhibitors", pairingType: "diagnostic-therapeutic", asOf,
+  { id: "risk-directed-first-line-rcc", links: [{ label: "ClinicalTrials.gov NCT02231749: CheckMate 214", url: "https://clinicaltrials.gov/study/NCT02231749" }], kind: "pairing", name: "IMDC risk → first-line regimen choice (RCC)", a: "checkpoint-inhibitor", b: "kinase-inhibitors", pairingType: "diagnostic-therapeutic", asOf,
     tldr: "A simple clinical score decides between two immunotherapies together or one immunotherapy with a targeted pill.",
     summary: "Intermediate/poor risk: nivolumab-ipilimumab (durable remissions, treatment-free survival) or an IO-TKI doublet (higher response rate, less primary progression). Favourable risk: IO-TKI doublet or TKI alone, since IO-IO shows no OS gain there. Sarcomatoid features favour IO-based therapy regardless of risk.",
     rationale: "CheckMate 214 benefit is confined to intermediate/poor risk; IO-TKI trials show PFS benefit across groups.",

@@ -160,7 +160,7 @@ const trials: TrialInput[] = [
 
 // ======================= PAIRINGS =======================
 const pairings: PairingInput[] = [
-  pair({ id: "sstr-pet-to-prrt", name: "SSTR PET → PRRT", a: "sstr-pet", b: "prrt", pairingType: "diagnostic-therapeutic",
+  pair({ id: "sstr-pet-to-prrt", links: [{ label: "ClinicalTrials.gov NCT03049189: COMPETE", url: "https://clinicaltrials.gov/study/NCT03049189" }], name: "SSTR PET → PRRT", a: "sstr-pet", b: "prrt", pairingType: "diagnostic-therapeutic",
     tldr: "SSTR PET followed by PRRT is the original theranostic pair: the scan with the diagnostic isotope decides who gets the same molecule with the therapeutic isotope.",
     summary: "This diagnostic-therapeutic pairing links somatostatin receptor PET, using gallium-68 or copper-64 DOTATATE, to peptide receptor radionuclide therapy with lutetium-177 dotatate or 177Lu-edotreotide in neuroendocrine tumours. Because the imaging and therapeutic agents share identical peptide chemistry, the biodistribution seen on the scan predicts where the therapy will be delivered, which is the founding logic of theranostics. Every pivotal PRRT trial, including NETTER-1, NETTER-2 and COMPETE, required SSTR-avid disease on imaging, and both the intensity of uptake, graded on the Krenning scale, and the absence of FDG-avid lesions lacking SSTR predict benefit. The same template was later copied by PSMA theranostics in prostate cancer.",
     rationale: "Identical peptide chemistry means imaging biodistribution predicts therapy delivery.",
@@ -176,7 +176,7 @@ const pairings: PairingInput[] = [
 
 // ======================= IDEAS =======================
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-net-dosimetry-prrt", name: "Dosimetry-personalised PRRT instead of four fixed cycles", maturity: "early-clinical",
+  idea({ id: "idea-net-dosimetry-prrt", links: [{ label: "ClinicalTrials.gov NCT03049189: COMPETE", url: "https://clinicaltrials.gov/study/NCT03049189" }], name: "Dosimetry-personalised PRRT instead of four fixed cycles", maturity: "early-clinical",
     tldr: "Measure the radiation each patient's tumour and kidneys actually absorb and adjust the number and size of doses, instead of giving everyone four identical cycles.",
     summary: "The idea is to personalise peptide receptor radionuclide therapy with lutetium-177 dotatate or 177Lu-edotreotide by measuring the radiation each patient's tumour, kidneys and marrow actually absorb on SPECT/CT after each cycle, and adjusting the number and size of doses. The standard of 7.4 GBq for four cycles leaves many patients under-dosed relative to renal and marrow limits, uptake varies widely, and retrospective dosimetry shows tumour absorbed dose correlates with response. The hypothesis is that dosimetry-guided PRRT raises cumulative tumour dose and response rate without exceeding organ limits. The test is a randomised phase 2 of individualised versus fixed activity; P-PRRT in Canada is already testing this, and the idea addresses the wrong-doses bottleneck.",
     hypothesis: "Dosimetry-guided PRRT increases cumulative tumour dose and response rate without exceeding renal/marrow limits, versus fixed dosing.",

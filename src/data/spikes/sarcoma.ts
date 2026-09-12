@@ -228,7 +228,7 @@ const pairings: PairingInput[] = [
 ];
 
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-tcr-t-beyond-hla-a2", name: "Extending sarcoma TCR-T beyond HLA-A*02", maturity: "preclinical-evidence",
+  idea({ id: "idea-tcr-t-beyond-hla-a2", links: [{ label: "ClinicalTrials.gov NCT03967223: IGNYTE-ESO", url: "https://clinicaltrials.gov/study/NCT03967223" }], name: "Extending sarcoma TCR-T beyond HLA-A*02", maturity: "preclinical-evidence",
     tldr: "Today's engineered T-cell therapies for sarcoma only work in the ~40-50% of people with one particular HLA type; new receptors for other HLA types would open them to everyone.",
     summary: "Afamitresgene autoleucel and letetresgene autoleucel, the engineered T-cell receptor therapies for synovial sarcoma, work only in people whose HLA type is A*02:01, A*02:05 or A*02:06, which excludes around half of patients. This idea would open TCR-T to everyone by discovering receptors that recognise the same antigens, MAGE-A4 and NY-ESO-1, presented by other alleles such as HLA-A*24, HLA-B*35 and HLA-C*07. The rationale is that antigen expression is independent of HLA type, so the barrier is a receptor discovery problem, and platforms at Immatics, T-knife and Adaptimmune have already isolated candidate receptors. The proposed test is a basket phase 1/2 across HLA types; the evidence is preclinical, and the idea addresses the bottleneck of rare and paediatric cancers without markets.",
     hypothesis: "MAGE-A4- or NY-ESO-1-directed TCR-T restricted to HLA-A*24:02 or HLA-B*35 achieves response rates comparable to afami-cel in synovial sarcoma.",

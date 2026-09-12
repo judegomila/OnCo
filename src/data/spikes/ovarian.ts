@@ -277,7 +277,7 @@ const pairings: PairingInput[] = [
 
 // ======================= IDEAS =======================
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-fra-adc-sequencing-ovarian", name: "Sequence folate-receptor ADCs by payload class", maturity: "preclinical-evidence",
+  idea({ id: "idea-fra-adc-sequencing-ovarian", links: [{ label: "ClinicalTrials.gov NCT04209855: MIRASOL / GOG-3045", url: "https://clinicaltrials.gov/study/NCT04209855" }], name: "Sequence folate-receptor ADCs by payload class", maturity: "preclinical-evidence",
     tldr: "Three FRα ADCs carry different poisons (tubulin, hemiasterlin, topoisomerase). Use them in sequence rather than treating them as interchangeable.",
     summary: "Three folate receptor alpha antibody-drug conjugates in ovarian cancer share an antigen but not a payload: mirvetuximab soravtansine carries the tubulin agent DM4 and is used only in FRalpha-high tumours, luveltamab tazevibulin carries a hemiasterlin, and rinatabart sesutecan carries the topoisomerase 1 inhibitor exatecan. The idea is to sequence them by payload class rather than treating them as interchangeable. The rationale is that resistance to a tubulin payload, through tubulin mutations or efflux, is not expected to cross to a topoisomerase payload, and FRalpha is rarely lost at progression. The test would be a post-mirvetuximab cohort of RAINFOL-02 or a phase 2 with paired biopsies; the evidence is preclinical, and the idea connects to the general rule of payload-class switching.",
     hypothesis: "Patients progressing on mirvetuximab retain FRα and respond to a TOP1-payload FRα ADC at rates similar to ADC-naive patients.",

@@ -1,0 +1,35 @@
+src/data/nutrition.ts
+  s_0beac9cb5d78fd::t_7b01f2cb9d9d55 326,367,375
+src/data/terms.ts
+  s_0beac9cb5d78fd::t_7b01f2cb9d9d55 13,41,54,61
+src/data/terms-basics.ts
+  s_0beac9cb5d78fd::t_7b01f2cb9d9d55 729
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_7b01f2cb9d9d55 54
+src/data/spikes/hodgkin-lymphoma.ts
+  s_0beac9cb5d78fd::t_7b01f2cb9d9d55 49
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_7b01f2cb9d9d55 246
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_7b01f2cb9d9d55 117,161,186,212-213,215,245,254
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_7b01f2cb9d9d55 207
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_7b01f2cb9d9d55 335
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "aef83185b2577c33790400d15610d676aa696531",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

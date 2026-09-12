@@ -114,7 +114,7 @@ export const technologies: TechnologyInput[] = [
     tags: ["frontier"],
   },
   {
-    id: "her2-pet", kind: "technology", name: "HER2 PET", sections: ["imaging", "adcs"], status: "phase-2", asOf, since: 2010,
+    id: "her2-pet", links: [{ label: "Gebhart et al., ZEPHIR: molecular imaging of heterogeneity in advanced HER2-positive breast cancer with 89Zr-trastuzumab PET (Annals of Oncology 2016)", url: "https://doi.org/10.1093/annonc/mdv577" }], kind: "technology", name: "HER2 PET", sections: ["imaging", "adcs"], status: "phase-2", asOf, since: 2010,
     tldr: "HER2 PET is a PET scan using radiolabelled trastuzumab or smaller HER2 binders to map HER2 across all metastases at once.",
     summary: "HER2 PET images HER2 across every metastasis at once using a radiolabelled HER2 binder, either 89Zr-trastuzumab or smaller 68Ga- and 18F-labelled affibodies and nanobodies such as 68Ga-ABY-025 and 18F-GE-226. The result is a whole-body receptor map rather than a single biopsy, which matters because HER2 expression varies between lesions. The ZEPHIR and IMPACT trials studied these tracers, and uptake was predictive of response to T-DM1. It is most useful in heterogeneous HER2-low disease, where one biopsy may be unrepresentative and HER2-directed ADCs now have indications. Studied since 2010, it is not yet approved; trials have been small, and full-antibody tracers need days between injection and imaging, which smaller binders aim to shorten. It shows how much HER2 each tumour deposit carries without a needle.",
     principle: "Radiolabelled HER2 binder; whole-body receptor map.",
@@ -840,7 +840,7 @@ export const technologies: TechnologyInput[] = [
     technologies: ["in-vivo-car-t", "allogeneic-cell-therapy", "armored-car"], companies: ["cellogen", "adicet-bio", "allotera-therapeutics", "arcellx", "cargo-therapeutics", "century-therapeutics", "imugene", "leah-labs", "lyell-immunopharma", "modulari-t", "poseida-therapeutics", "tmunity-therapeutics"], links: [{ label: "Wikipedia", url: W("Chimeric_antigen_receptor_T_cell") }],
   },
   {
-    id: "in-vivo-car-t", kind: "technology", name: "In vivo CAR-T", sections: ["cell-therapy"], status: "phase-1", asOf, since: 2024,
+    id: "in-vivo-car-t", links: [{ label: "Pfeiffer et al., In vivo generation of human CD19-CAR T cells results in B-cell depletion and signs of cytokine release syndrome (EMBO Molecular Medicine 2018)", url: "https://doi.org/10.15252/emmm.201809158" }], kind: "technology", name: "In vivo CAR-T", sections: ["cell-therapy"], status: "phase-1", asOf, since: 2024,
     tldr: "Instead of engineering T cells in a factory, an injection reprograms them inside the patient's body.",
     summary: "Targeted lipid nanoparticles (Capstan/AbbVie CPTX2309, Orna) or lentiviral vectors (Umoja, Interius INT2104) deliver CAR-encoding mRNA or DNA to T cells in vivo. First-in-human data (2025-26) show B-cell depletion and responses without lymphodepletion or manufacturing wait. Transient mRNA expression may reduce long-term risk. Capstan was acquired by AbbVie for up to $2.1B in 2025, signalling the field's expectations.",
     principle: "CD8- or CD3-targeted LNP or viral vector transduces circulating T cells to express a CAR in situ.",

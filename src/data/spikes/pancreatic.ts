@@ -134,7 +134,7 @@ const entities: EntityInput[] = [
     links: [{ label: "PRECEDE consortium", url: "https://www.precedestudy.org" }],
   },
   {
-    id: "pdac-organoid-pharmacotyping", kind: "technology", name: "PDAC organoid pharmacotyping", sections: ["drug-discovery", "diagnostics"], status: "emerging", asOf,
+    id: "pdac-organoid-pharmacotyping", links: [{ label: "Tiriac et al., Organoid profiling identifies common responders to chemotherapy in pancreatic cancer (Cancer Discovery 2018)", url: "https://doi.org/10.1158/2159-8290.CD-18-0349" }], kind: "technology", name: "PDAC organoid pharmacotyping", sections: ["drug-discovery", "diagnostics"], status: "emerging", asOf,
     tldr: "Growing a patient's pancreatic tumour as mini-organs in a dish and testing chemotherapies on them to pick the regimen most likely to work.",
     summary: "Tuveson (CSHL) and others established PDAC organoids with transcriptomic signatures predicting FOLFIRINOX versus gemcitabine sensitivity (Tiriac 2018). Prospective trials (e.g., PASS-01, HOPE) test organoid- or signature-guided first-line choice. Turnaround (~4-6 weeks) and take rate (~70%) are the practical limits; the GATA6 classical/basal-like signature is a faster proxy.",
     principle: "Endoscopic biopsy or resection tissue grown in Matrigel with defined factors; dose-response to drugs read by viability assays.",

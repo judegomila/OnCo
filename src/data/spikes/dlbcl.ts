@@ -29,7 +29,7 @@ const companies: CompanyInput[] = [
 
 // ======================= TECHNOLOGIES / TERMS =======================
 const technologies: TechnologyInput[] = [
-  tech({ id: "ctdna-lymphoma-monitoring", name: "ctDNA monitoring in lymphoma (PhasED-seq, clonoSEQ)", sections: ["diagnostics"], status: "emerging", since: 2018,
+  tech({ id: "ctdna-lymphoma-monitoring", links: [{ label: "Kurtz et al., Circulating tumour DNA measurements as early outcome predictors in diffuse large B-cell lymphoma (Journal of Clinical Oncology 2018)", url: "https://doi.org/10.1200/JCO.2018.78.5246" }, { label: "Kurtz et al., Enhanced detection of minimal residual disease by targeted sequencing of phased variants (Nature Biotechnology 2021)", url: "https://doi.org/10.1038/s41587-021-00981-w" }], name: "ctDNA monitoring in lymphoma (PhasED-seq, clonoSEQ)", sections: ["diagnostics"], status: "emerging", since: 2018,
     tldr: "A blood test that tracks lymphoma DNA far below what a PET scan can see, so doctors can tell early who is cured and who will relapse.",
     summary: "Phased variant enrichment and detection sequencing (PhasED-seq, Foresight CLARITY) detects lymphoma ctDNA to parts-per-million by tracking multiple mutations on the same DNA fragment. End-of-treatment undetectable ctDNA predicts cure in DLBCL better than PET in several cohorts; ctDNA-guided escalation and de-escalation trials are opening. clonoSEQ tracks the clonal immunoglobulin rearrangement.",
     principle: "Deep sequencing of plasma cell-free DNA for tumour-specific mutations or the clonal IG rearrangement, with error suppression via phased variants.",

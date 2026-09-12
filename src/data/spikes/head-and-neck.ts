@@ -172,7 +172,7 @@ const technologies: TechnologyInput[] = [
     strengths: ["Avoids mandibulotomy and tracheostomy", "Pathology-based selection of adjuvant therapy"],
     limitations: ["Bleeding risk, swallowing morbidity", "Not superior to radiation in randomised comparison for function"],
     cancers: ["head-and-neck"], technologies: ["robotic-surgery"], companies: ["intuitive-surgical"], links: [{ label: "Wikipedia", url: W("Transoral_robotic_surgery") }] }),
-  tech({ id: "cthpv-dna", name: "Circulating tumour HPV DNA (ctHPV-DNA)", sections: ["diagnostics"], status: "established",
+  tech({ id: "cthpv-dna", links: [{ label: "Chera et al., Plasma circulating tumour HPV DNA for the surveillance of cancer recurrence in HPV-associated oropharyngeal cancer (Journal of Clinical Oncology 2020)", url: "https://doi.org/10.1200/JCO.19.02444" }], name: "Circulating tumour HPV DNA (ctHPV-DNA)", sections: ["diagnostics"], status: "established",
     tldr: "A blood test that detects fragments of the virus DNA shed by HPV-positive throat cancers, to confirm diagnosis, track response, and catch recurrence early.",
     summary: "Digital droplet PCR or NGS assays (NavDx, others) detect HPV16 DNA in plasma with high specificity; clearance during chemoradiation predicts cure and post-treatment surveillance detects recurrence months before imaging. Being used to select patients for response-adapted de-escalation after the failure of HPV-status-alone selection (NRG-HN005).",
     principle: "Tumour-tissue-modified viral DNA fragments quantified in cell-free plasma DNA.",

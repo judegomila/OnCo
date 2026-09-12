@@ -222,7 +222,7 @@ const drugs: DrugInput[] = [
 
 // ======================= TECHNOLOGIES =======================
 const technologies: TechnologyInput[] = [
-  tech({ id: "dermoscopy-ai", name: "Dermoscopy, total-body photography & AI skin analysis", sections: ["early-detection", "ai-computation"], status: "established",
+  tech({ id: "dermoscopy-ai", links: [{ label: "Esteva et al., Dermatologist-level classification of skin cancer with deep neural networks (Nature 2017)", url: "https://doi.org/10.1038/nature21056" }], name: "Dermoscopy, total-body photography & AI skin analysis", sections: ["early-detection", "ai-computation"], status: "established",
     tldr: "Magnified skin imaging and whole-body photo mapping, increasingly read by algorithms, to find melanoma early and avoid unnecessary biopsies.",
     summary: "Dermoscopy improves diagnostic accuracy over the naked eye; sequential total-body photography tracks change in high-risk patients. Deep-learning classifiers have matched dermatologists on benchmark images and DermaSensor (elastic scattering spectroscopy, FDA 2024) is cleared for primary care. Real-world impact depends on population, skin tone representation in training data, and workflow; no screening RCT has shown mortality benefit.",
     principle: "Polarised or immersion magnification of skin structures; convolutional networks trained on labelled lesion images; spectroscopy of tissue optical properties.",

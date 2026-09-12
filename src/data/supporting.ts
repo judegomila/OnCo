@@ -71,7 +71,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Radiopharmacy logistics ----
   t({
-    id: "radiopharmacy-network", name: "Radiopharmacy and cyclotron networks", sections: ["radiopharma", "imaging"], status: "standard-of-care",
+    id: "radiopharmacy-network", links: [{ label: "21 CFR Part 212: current good manufacturing practice for PET drugs", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-212" }], name: "Radiopharmacy and cyclotron networks", sections: ["radiopharma", "imaging"], status: "standard-of-care",
     tldr: "The factories and courier routes that make and deliver short-lived radioactive tracers to hospitals within hours.",
     summary: "PET tracers (18F, half-life 110 minutes) are produced in regional cyclotron pharmacies and driven or flown to scanners the same day; 68Ga comes from generators or cyclotrons on site; 177Lu and 225Ac therapies are made centrally and shipped globally against decay. Networks: PETNET (Siemens), Cardinal Health, SOFIE, Curium, Jubilant Radiopharma, Isologic/Isorad in Canada, with regional players in Europe and Asia. Capacity and licensing of nuclear pharmacies limits where radioligand therapy can be given.",
     principle: "Cyclotron proton bombardment or generator elution produces the isotope; automated synthesis modules label the ligand; QC release within an hour; timed logistics deliver a calibrated activity.",
@@ -80,7 +80,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["pet", "psma-pet", "radioligand-therapy", "therapy-isotope-supply-chain"], companies: ["petnet-solutions", "cardinal-health", "sofie-biosciences", "curium", "jubilant-radiopharma"],
   }),
   t({
-    id: "therapy-isotope-supply-chain", name: "Therapeutic isotope supply chain (Mo-99, Lu-177, Ac-225)", sections: ["radiopharma"], status: "established",
+    id: "therapy-isotope-supply-chain", links: [{ label: "US Department of Energy Isotope Program", url: "https://www.isotopes.gov/" }], name: "Therapeutic isotope supply chain (Mo-99, Lu-177, Ac-225)", sections: ["radiopharma"], status: "established",
     tldr: "Where the radioactive atoms for imaging and therapy actually come from: ageing reactors, new accelerators, and a scramble for actinium.",
     summary: "Mo-99/Tc-99m for SPECT still depends on a few research reactors (BR2, HFR Petten, OPAL, SAFARI) with accelerator alternatives from NorthStar and SHINE. Lu-177 (non-carrier-added) is supplied by ITM, SHINE, Eckert & Ziegler, Curium and NorthStar; Ac-225 supply is the binding constraint for alpha therapy, with US DOE, TerraPower Isotopes, Orano Med (Pb-212), NorthStar, Niowave, and ITM expanding. Supply agreements are now a competitive asset for radiopharma companies.",
     principle: "Reactor neutron capture (Lu-176→Lu-177), Th-229 decay chains and accelerator spallation (Ac-225), and electron-accelerator photonuclear routes (Mo-99) produce isotopes that are purified, calibrated, and shipped against decay.",
@@ -131,7 +131,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Radiotherapy software ----
   t({
-    id: "treatment-planning-systems", name: "Radiotherapy treatment planning and QA software", sections: ["radiation", "ai-computation"], status: "standard-of-care",
+    id: "treatment-planning-systems", links: [{ label: "AAPM Task Group 53: quality assurance for clinical radiotherapy treatment planning (Medical Physics 1998)", url: "https://doi.org/10.1118/1.598373" }], name: "Radiotherapy treatment planning and QA software", sections: ["radiation", "ai-computation"], status: "standard-of-care",
     tldr: "The software that calculates exactly how radiation beams should be shaped and checks the machine delivered it.",
     summary: "Treatment planning systems (Varian Eclipse, Elekta Monaco, RaySearch RayStation, Philips Pinnacle, Brainlab Elements) compute dose from CT/MR images, optimise beam arrangements for IMRT/VMAT/protons, and export plans; independent QA vendors (Sun Nuclear, IBA Dosimetry, PTW, RadCalc) verify delivered dose. RayStation's multi-vendor support and machine-learning planning are notable; cloud and automated planning are the direction.",
     principle: "Monte Carlo or convolution dose engines plus inverse optimisation of fluence subject to organ-at-risk constraints; deliverable plans checked by phantom measurement or log-file analysis.",
@@ -140,7 +140,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["imrt-igrt", "sbrt", "proton-therapy", "mr-linac", "auto-contouring-ai"], companies: ["varian", "elekta", "raysearch", "sun-nuclear", "brainlab"],
   }),
   t({
-    id: "auto-contouring-ai", name: "AI auto-contouring and adaptive planning", sections: ["radiation", "ai-computation"], status: "established",
+    id: "auto-contouring-ai", links: [{ label: "Cardenas et al., Advances in auto-segmentation (Seminars in Radiation Oncology 2019)", url: "https://doi.org/10.1016/j.semradonc.2019.02.001" }], name: "AI auto-contouring and adaptive planning", sections: ["radiation", "ai-computation"], status: "established",
     tldr: "Software that draws organs and tumours on scans automatically, saving hours per patient and making daily plan adaptation practical.",
     summary: "Deep-learning segmentation of organs at risk and targets (Limbus AI, MIM Software, TheraPanacea, Siemens AI-Rad Companion Organs RT, Varian Ethos and Elekta's ADMIRE, MVision, Carina) is now routine in radiotherapy departments and FDA-cleared for dozens of structures. Target-volume contouring remains physician-reviewed. Online adaptive radiotherapy (Ethos, Unity) depends on it to re-plan in minutes.",
     principle: "Convolutional and transformer networks trained on expert contours segment CT/MR; outputs are edited and approved by clinicians.",
@@ -229,7 +229,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Imaging hardware (additions) ----
   t({
-    id: "pet-tracer-manufacturing", name: "PET tracer manufacturing and distribution", sections: ["imaging", "radiopharma"], status: "standard-of-care",
+    id: "pet-tracer-manufacturing", links: [{ label: "21 CFR Part 212: current good manufacturing practice for PET drugs", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-212" }], name: "PET tracer manufacturing and distribution", sections: ["imaging", "radiopharma"], status: "standard-of-care",
     tldr: "Making PSMA, FDG, and new tracers under drug-manufacturing rules and delivering them daily.",
     summary: "FDA-approved PET drugs are made under cGMP at commercial radiopharmacies (PETNET, Cardinal Health, SOFIE, Jubilant, Curium) or academic sites under ANDA/NDA. New tracers (PSMA agents from Lantheus, Telix, Novartis; FES; FAPI in trials) rely on these networks for launch reach. Kits (Illuccix, Locametz) versus centrally produced doses (Pylarify) is a business-model divide.",
     principle: "Automated radiosynthesis modules, cassette-based chemistry, and rapid QC (radiochemical purity, endotoxin) before release.",
@@ -476,7 +476,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Devices and care infrastructure ----
   t({
-    id: "infusion-devices-vascular-access", name: "Infusion pumps, ports, and ambulatory chemotherapy devices", sections: ["chemotherapy", "supportive-care", "devices"], status: "standard-of-care",
+    id: "infusion-devices-vascular-access", links: [{ label: "FDA: infusion pumps", url: "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/infusion-pumps" }], name: "Infusion pumps, ports, and ambulatory chemotherapy devices", sections: ["chemotherapy", "supportive-care", "devices"], status: "standard-of-care",
     tldr: "Infusion devices are the implanted ports, smart pumps, and take-home pumps that deliver chemotherapy safely, including 46-hour infusions patients carry home.",
     summary: "Implanted central venous ports and PICC lines (BD Bard PowerPort, B. Braun Celsite, Smiths Medical), smart infusion pumps with drug libraries (BD Alaris, Baxter Spectrum, ICU Medical Plum), and elastomeric ambulatory pumps (Baxter Infusor, B. Braun Easypump) for regimens such as FOLFOX enable outpatient and home chemotherapy. Device recalls (Alaris, 2020-23), port infections and thrombosis, and pump programming errors are the safety issues; home-infusion services extend care beyond clinics.",
     principle: "Subcutaneous reservoir with catheter tip in the superior vena cava for repeated access; pumps meter drug by peristaltic mechanism or elastomeric pressure at a set rate.",

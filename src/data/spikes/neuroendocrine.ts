@@ -166,7 +166,7 @@ const pairings: PairingInput[] = [
     rationale: "Identical peptide chemistry means imaging biodistribution predicts therapy delivery.",
     evidence: "Embedded in all pivotal PRRT trials.",
     cancers: ["neuroendocrine"], targets: ["sstr2"], drugs: ["lutathera", "itm-11"], terms: ["theranostics"] }),
-  pair({ id: "prrt-then-alpha-net", name: "Beta PRRT → alpha PRRT", a: "lutathera", b: "alphamedix", pairingType: "sequence",
+  pair({ id: "prrt-then-alpha-net", links: [{ label: "ClinicalTrials.gov NCT05153772: ALPHAMEDIX-02", url: "https://clinicaltrials.gov/study/NCT05153772" }, { label: "ClinicalTrials.gov NCT05477576: ACTION-1", url: "https://clinicaltrials.gov/study/NCT05477576" }], name: "Beta PRRT → alpha PRRT", a: "lutathera", b: "alphamedix", pairingType: "sequence",
     tldr: "When lutetium radioligand therapy stops working, alpha-emitting versions can still control the disease.",
     summary: "This sequence moves from beta-emitting lutetium-177 dotatate to an alpha-emitting radioligand, 212Pb-DOTAMTATE, when beta PRRT stops controlling a neuroendocrine tumour. Alpha particles deliver oxygen-independent clustered DNA damage that beta-resistant clones cannot repair, so the same somatostatin receptor target can be attacked again with a more destructive payload. The phase 2 ALPHAMEDIX-02 trial included a PRRT-exposed cohort in which disease control was maintained in most patients, and ACTION-1 is the randomised phase 3 test of 225Ac-DOTATATE after 177Lu. The pairing belongs to the wider topic of alpha versus beta emitters and targeted alpha therapy.",
     rationale: "Alpha particles deliver oxygen-independent clustered DNA damage that beta-resistant clones cannot repair.",

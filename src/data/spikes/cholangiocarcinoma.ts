@@ -168,7 +168,7 @@ const trials: TrialInput[] = [
 
 // ======================= PAIRINGS =======================
 const pairings: PairingInput[] = [
-  pair({ id: "gemcis-plus-io-btc", name: "Gemcitabine-cisplatin + PD-(L)1 blockade in biliary cancer", a: "gemcitabine-cisplatin", b: "checkpoint-inhibitor", pairingType: "combination",
+  pair({ id: "gemcis-plus-io-btc", links: [{ label: "ClinicalTrials.gov NCT03875235: TOPAZ-1", url: "https://clinicaltrials.gov/study/NCT03875235" }, { label: "ClinicalTrials.gov NCT04003636: KEYNOTE-966", url: "https://clinicaltrials.gov/study/NCT04003636" }], name: "Gemcitabine-cisplatin + PD-(L)1 blockade in biliary cancer", a: "gemcitabine-cisplatin", b: "checkpoint-inhibitor", pairingType: "combination",
     tldr: "Chemotherapy plus immunotherapy is now the first treatment for advanced bile duct cancer, with a small average gain and a minority of long survivors.",
     summary: "Gemcitabine plus cisplatin combined with a PD-1 or PD-L1 checkpoint inhibitor is now the first-line standard for advanced biliary tract cancer, including gallbladder cancer. The pairing rests on chemotherapy-induced immunogenic cell death working together with checkpoint blockade in a group of cancers whose stroma is inflamed. Two phase 3 trials support it: TOPAZ-1 added durvalumab and KEYNOTE-966 added pembrolizumab to the chemotherapy backbone, and both were positive, with a modest average gain and a minority of patients who become long-term survivors. No predictive biomarker, whether PD-L1, tumour mutational burden or microsatellite instability, reliably identifies who those long survivors will be.",
     rationale: "Chemotherapy-induced immunogenic cell death plus checkpoint blockade; biliary cancers have an inflamed stroma.",

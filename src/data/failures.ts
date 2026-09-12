@@ -17,7 +17,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 
 const raw: EntityInput[] = [
   {
-    id: "tiragolumab", kind: "drug", name: "Tiragolumab", code: "RG6058, MTIG7192A", modality: "Monoclonal antibody (anti-TIGIT)", asOf, status: "negative", wikipedia: W("Tiragolumab"),
+    id: "tiragolumab", kind: "drug", name: "Tiragolumab", code: "RG6058, MTIG7192A", modality: "Monoclonal antibody (anti-TIGIT)", asOf, status: "negative",
     tldr: "An immune-brake blocker that looked excellent in a phase 2 lung cancer trial and then failed every phase 3.",
     summary: "CITYSCAPE (phase 2, 2020) showed tiragolumab plus atezolizumab roughly doubled response rate in PD-L1-high NSCLC. Phase 3 SKYSCRAPER-01 (PD-L1-high NSCLC) missed PFS and OS; SKYSCRAPER-02 (extensive-stage SCLC) was negative; SKYSCRAPER-06 (non-squamous NSCLC) was worse than control. Roche discontinued most of the programme in 2024 and 2025. Other anti-TIGIT antibodies (domvanalimab, ociperlimab) showed no clearer benefit.\n\nLesson: a small randomised phase 2 with a surrogate endpoint in a selected population can mislead; redundancy between checkpoints means blocking a second one does not necessarily add to PD-1/PD-L1 blockade.",
     mechanism: "IgG1 anti-TIGIT with intact Fc; blocks TIGIT-PVR interaction on T and NK cells.",
@@ -26,13 +26,13 @@ const raw: EntityInput[] = [
     links: [{ label: "Roche SKYSCRAPER-01 final analysis (2024)", url: "https://www.roche.com/media/releases/med-cor-2024-11-26" }],
   },
   {
-    id: "magrolimab", kind: "drug", name: "Magrolimab", code: "Hu5F9-G4, GS-4721", modality: "Monoclonal antibody (anti-CD47)", asOf, status: "withdrawn", wikipedia: W("Magrolimab"),
+    id: "magrolimab", kind: "drug", name: "Magrolimab", code: "Hu5F9-G4, GS-4721", modality: "Monoclonal antibody (anti-CD47)", asOf, status: "withdrawn",
     tldr: "The first 'don't eat me' signal blocker. Gilead paid $4.9B for it; it was stopped in 2024 after trials showed more deaths, not fewer.",
     summary: "Magrolimab blocks CD47 so macrophages can phagocytose tumour cells. Early single-arm data with azacitidine in TP53-mutant AML and MDS were striking. ENHANCE (higher-risk MDS) was stopped for futility in 2023; ENHANCE-2 (TP53-mutant AML) and ENHANCE-3 (unfit AML) were halted in 2024 after an increased risk of death in the magrolimab arms; the FDA placed a full clinical hold. Gilead had acquired Forty Seven for $4.9B in 2020.\n\nLesson: a ubiquitous target (CD47 is on every red cell) plus an immunosuppressed population is a narrow window; single-arm response rates in TP53-mutant disease were not predictive of survival.",
     mechanism: "Humanised IgG4 anti-CD47; blocks the CD47-SIRPα 'don't eat me' signal, enabling macrophage phagocytosis.",
     targets: ["cd47"], technologies: ["monoclonal-antibody"], companies: ["gilead"], cancers: ["aml"],
     tags: ["failure", "lesson:toxicity"],
-    links: [{ label: "Gilead discontinues magrolimab in AML (Feb 2024)", url: "https://www.gilead.com/news-and-press/press-room/press-releases/2024/2/gilead-statement-on-discontinuation-of-phase-3-enhance-3-study-in-aml" }], pathways: ["cd47-sirpa"],
+    links: [{ label: "Gilead discontinues magrolimab in AML (Feb 2024) (page moved; nearest live section)", url: "https://www.gilead.com/news-and-press/press-room/press-releases/" }], pathways: ["cd47-sirpa"],
   },
   {
     id: "rovalpituzumab-tesirine", kind: "drug", name: "Rovalpituzumab tesirine", code: "Rova-T, SC16LD6.5", modality: "ADC", asOf, status: "withdrawn", wikipedia: W("Rovalpituzumab_tesirine"),
@@ -88,7 +88,7 @@ const raw: EntityInput[] = [
     payload: "DM4 (ravtansine)", linker: "SPDB disulfide",
     targets: ["ceacam5"], technologies: ["adc"], companies: ["sanofi"], cancers: ["nsclc"],
     tags: ["failure", "lesson:wrong-drug"],
-    links: [{ label: "Sanofi press release, CARMEN-LC03 (Dec 2023)", url: "https://www.sanofi.com/en/media-room/press-releases/2023/2023-12-21-06-00-00-2799594" }],
+    links: [{ label: "Sanofi press release, CARMEN-LC03 (Dec 2023) (page moved; nearest live section)", url: "https://www.sanofi.com/en/media-room/press-releases/2023/" }],
   },
   {
     id: "impassion131", kind: "trial", name: "IMpassion131", nct: "NCT03125902", phase: "3", status: "negative", yearReported: 2020, sponsor: "Roche", asOf,
@@ -126,7 +126,7 @@ const raw: EntityInput[] = [
     mechanism: "Peptidase-activated alkylating prodrug of melphalan.",
     technologies: ["peptide-drug-conjugate"], cancers: ["multiple-myeloma"], terms: ["accelerated-approval"],
     tags: ["failure", "lesson:regulatory"],
-    links: [{ label: "FDA withdrawal of Pepaxto approval (Feb 2024)", url: "https://www.fda.gov/drugs/drug-safety-and-availability/fda-withdraws-approval-pepaxto" }],
+    links: [{ label: "FDA withdrawal of Pepaxto approval (Feb 2024) (page moved; nearest live section)", url: "https://www.fda.gov/drugs/drug-safety-and-availability/" }],
   },
 ];
 

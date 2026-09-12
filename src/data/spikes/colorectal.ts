@@ -13,7 +13,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 const NCCN_COLON = "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1428";
 const NCCN_RECTAL = "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1461";
-const ESMO_CRC = "https://www.esmo.org/guidelines/guidelines-by-topic/esmo-clinical-practice-guidelines-gastrointestinal-cancers/metastatic-colorectal-cancer";
+const ESMO_CRC = "https://www.esmo.org/guidelines/guidelines-by-topic/esmo-clinical-practice-guidelines-gastrointestinal-cancers/";
 
 type T = Omit<TrialInput, "kind" | "asOf">;
 const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });

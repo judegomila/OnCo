@@ -145,7 +145,7 @@ export const nciRareSolidCancers: CancerInput[] = [
     openProblems: ["Response rate to tazemetostat monotherapy is modest: combinations with doxorubicin (EZH-301) and immunotherapy are being tested.", "Confirmatory evidence for the accelerated approval is still pending.", "Late diagnosis of distal lesions mistaken for warts or granulomas.", "Proximal-type disease remains chemoresistant and rapidly progressive."],
     targets: ["ezh2"], technologies: ["epigenetic-drugs", "limb-salvage-surgery", "imrt-igrt", "sentinel-node", "cytotoxic-chemotherapy"], drugs: ["tazemetostat", "doxorubicin", "ifosfamide"],
     pathways: ["swi-snf-chromatin", "epigenetic-reprogramming"], companies: ["ipsen"], terms: ["accelerated-approval", "rare-cancers"], bottlenecks: ["b-rare-cancers"],
-    links: [{ label: "NCI PDQ: soft tissue sarcoma", url: PDQ("soft-tissue-sarcoma") }, { label: "FDA approval of tazemetostat for epithelioid sarcoma", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tazemetostat-advanced-epithelioid-sarcoma" }, { label: "EZH-202 (Lancet Oncol 2020)", url: "https://doi.org/10.1016/S1470-2045(20)30451-4" }, { label: "EZH-301 on ClinicalTrials.gov", url: "https://clinicaltrials.gov/study/NCT04204941" }],
+    links: [{ label: "NCI PDQ: soft tissue sarcoma", url: PDQ("soft-tissue-sarcoma") }, { label: "EZH-202 (Lancet Oncol 2020)", url: "https://doi.org/10.1016/S1470-2045(20)30451-4" }, { label: "EZH-301 on ClinicalTrials.gov", url: "https://clinicaltrials.gov/study/NCT04204941" }],
     tags: ["nci-coverage", "rare", "sarcoma"], related: ["atrt"],
   }),
   c({
@@ -177,7 +177,7 @@ export const nciRareSolidCancers: CancerInput[] = [
     openProblems: ["How long to continue ALK inhibition in children with complete response, and whether surgery after response can allow stopping.", "The fusion-negative minority: RNA sequencing to find drivers.", "Rare aggressive epithelioid variants that develop resistance mutations to sequential ALK inhibitors."],
     targets: ["alk", "ros1", "ntrk", "pdgfra", "ret"], technologies: ["kinase-inhibitors", "limb-salvage-surgery", "rna-seq"], drugs: ["crizotinib", "alectinib", "ceritinib", "lorlatinib", "entrectinib", "larotrectinib", "repotrectinib", "imatinib"],
     pathways: ["rtk-activation", "ras-mapk"], companies: ["pfizer"], institutions: ["childrens-oncology-group", "curie-nki-eortc"], terms: ["gene-fusion", "race-for-children-act", "rare-cancers"], bottlenecks: ["b-rare-cancers"],
-    links: [{ label: "NCI PDQ: childhood soft tissue sarcoma (includes IMT)", url: PDQ("soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq") }, { label: "FDA approval of crizotinib for ALK-positive IMT", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-crizotinib-alk-positive-inflammatory-myofibroblastic-tumor" }, { label: "EORTC 90101 CREATE (Lancet Respir Med 2018)", url: "https://doi.org/10.1016/S2213-2600(18)30116-4" }],
+    links: [{ label: "NCI PDQ: childhood soft tissue sarcoma (includes IMT)", url: PDQ("soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq") }, { label: "FDA approval of crizotinib for ALK-positive IMT (archived copy)", url: "https://web.archive.org/web/20260213082319/https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-crizotinib-alk-positive-inflammatory-myofibroblastic-tumor" }, { label: "EORTC 90101 CREATE (Lancet Respir Med 2018)", url: "https://doi.org/10.1016/S2213-2600(18)30116-4" }],
     tags: ["nci-coverage", "rare", "sarcoma", "paediatric"],
   }),
   c({
@@ -280,7 +280,7 @@ export const nciRareSolidCancers: CancerInput[] = [
     openProblems: ["Misdiagnosis and delay: NUT immunohistochemistry should be routine in poorly differentiated midline tumours.", "BET inhibitor responses are short: degraders, CDK9 and HDAC combinations, and chemotherapy combinations are in trials.", "Thrombocytopenia limits BET inhibitor dosing.", "No randomised trials exist; the registry is the evidence base."],
     technologies: ["epigenetic-drugs", "cytotoxic-chemotherapy", "imrt-igrt"], drugs: ["ifosfamide", "cisplatin", "etoposide"],
     pathways: ["transcription-addiction", "epigenetic-reprogramming", "myc"], institutions: ["dana-farber"], terms: ["gene-fusion", "rare-cancers"], bottlenecks: ["b-rare-cancers", "b-undruggable-targets"],
-    links: [{ label: "NCI PDQ: childhood midline tract carcinoma with NUT gene changes", url: PDQ("midline/patient-child-midline-tract-carcinoma-treatment-pdq") }, { label: "International NUT Carcinoma Registry (JCO 2021)", url: "https://doi.org/10.1200/JCO.20.02486" }, { label: "Filippakopoulos 2010: BET inhibition in NUT carcinoma (Nature)", url: "https://doi.org/10.1038/nature09504" }],
+    links: [{ label: "NCI PDQ: childhood midline tract carcinoma with NUT gene changes", url: PDQ("midline/patient-child-midline-tract-carcinoma-treatment-pdq") }, { label: "Filippakopoulos 2010: BET inhibition in NUT carcinoma (Nature)", url: "https://doi.org/10.1038/nature09504" }],
     tags: ["nci-coverage", "rare", "head-and-neck", "paediatric"],
   }),
   c({

@@ -456,7 +456,7 @@ const frontierRadical: EntityInput[] = [
     limitations: ["Extreme cost per patient for true N-of-1", "Interpretation without randomisation is fragile", "Regulatory and reimbursement paths unclear"],
     technologies: ["functional-drug-testing", "neoantigen-mrna-vaccine", "ai-trial-matching"], terms: ["basket-umbrella-platform"],
     tags: ["frontier", "promising"],
-    links: [{ label: "FDA: individualised antisense oligonucleotide guidance", url: "https://www.fda.gov/drugs/development-resources/individualized-antisense-oligonucleotide-drug-products-serious-and-life-threatening-diseases" }],
+    links: [{ label: "FDA: individualised antisense oligonucleotide guidance (page moved; nearest live section)", url: "https://www.fda.gov/drugs/" }],
   },
   {
     id: "continuous-ctdna-monitoring", kind: "technology", name: "Continuous and near-continuous ctDNA monitoring", sections: ["diagnostics"], status: "concept", asOf: RAD,

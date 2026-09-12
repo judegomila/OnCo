@@ -60,7 +60,6 @@ export const nciPaediatricCancers: CancerInput[] = [
       { label: "NCI PDQ: childhood astrocytomas, other gliomas and glioneuronal tumours", url: PDQ("brain/hp/child-astrocytoma-treament-pdq") },
       { label: "TADPOLE: dabrafenib plus trametinib in BRAF V600E pLGG (NEJM 2023)", url: "https://doi.org/10.1056/NEJMoa2303815" },
       { label: "FIREFLY-1: tovorafenib in relapsed BRAF-altered pLGG (Nature Medicine 2024)", url: "https://doi.org/10.1038/s41591-023-02668-y" },
-      { label: "FDA: tovorafenib accelerated approval (April 2024)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-tovorafenib-patients-relapsed-or-refractory-braf-altered-pediatric-low-grade-glioma" },
     ],
     tags: ["nci-coverage", "paediatric", "cns"],
   }),

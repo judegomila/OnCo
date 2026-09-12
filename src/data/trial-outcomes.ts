@@ -156,7 +156,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "destiny-breast11": {
     enrolled: 927,
     outcomes: [
-      { endpoint: "Pathologic complete response (ypT0/Tis ypN0)", primary: true, unit: "%", arms: [{ name: "T-DXd → THP", n: 321, value: 67.3 }, { name: "ddAC → THP", n: 320, value: 56.3 }], p: "0.003", source: "https://www.esmo.org/newsroom/press-releases" },
+      { endpoint: "Pathologic complete response (ypT0/Tis ypN0)", primary: true, unit: "%", arms: [{ name: "T-DXd → THP", n: 321, value: 67.3 }, { name: "ddAC → THP", n: 320, value: 56.3 }], p: "0.003", source: "https://web.archive.org/web/20231201043719/https://www.esmo.org/newsroom/press-releases" },
       { endpoint: "Event-free survival", unit: "months", arms: [{ name: "T-DXd → THP" }, { name: "ddAC → THP" }], note: "Immature; the T-DXd monotherapy arm was stopped early for lower efficacy." },
     ],
     replication: "Single pivotal neoadjuvant trial; pCR is a surrogate. The post-neoadjuvant DESTINY-Breast05 (T-DXd vs T-DM1) is the companion evidence in early HER2+ disease.",

@@ -398,7 +398,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "trastuzumab-biosimilars": global("Ogivri / Kanjinti / Herzuma", "ogivri", 2017, 2017, 2018, 2018, 2020, 2018),
   pertuzumab: global("Perjeta", "perjeta", 2012, 2013, 2013, 2013, 2018, 2013),
   margetuximab: { US: A(2020), CN: A(2024, NMPA, "Zai Lab"), EU: W(2022, undefined, "MAA withdrawn 2022") },
-  bevacizumab: { ...global("Avastin", "avastin", 2004, 2005, 2005, 2007, 2010, 2005), IN: IN(undefined, "https://www.heteroworld.com", "Colorectal and other Avastin indications", "Roche's Avastin; Indian biosimilars from Hetero (2016), Biocon (Krabeva), Enzene (2023) and others") },
+  bevacizumab: { ...global("Avastin", "avastin", 2004, 2005, 2005, 2007, 2010, 2005), IN: IN(undefined, "https://web.archive.org/web/20220505192107/https://www.heteroworld.com/", "Colorectal and other Avastin indications", "Roche's Avastin; Indian biosimilars from Hetero (2016), Biocon (Krabeva), Enzene (2023) and others") },
   "bevacizumab-glioma": { US: A(2009, undefined, "Recurrent GBM (accelerated 2009; full 2017)"), EU: NF("CHMP negative opinion for GBM 2009-10; not approved in EU for glioma"), JP: A(2013, PMDA), AU: A(2010, tga("Avastin")) },
   cetuximab: global("Erbitux", "erbitux", 2004, 2004, 2004, 2008, 2006, 2005),
   panitumumab: global("Vectibix", "vectibix", 2006, 2007, 2007, 2010, 2021, 2008),

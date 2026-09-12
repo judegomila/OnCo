@@ -207,7 +207,7 @@ const spike: Spike = {
     companies: ["bms", "merck", "novocure", "boehringer-ingelheim"],
     terms: ["epithelioid-vs-sarcomatoid", "synthetic-lethality", "irae"],
     institutions: ["mskcc", "royal-marsden", "the-christie", "nki"],
-    links: [{ label: "NCI PDQ: malignant mesothelioma treatment", url: "https://www.cancer.gov/types/mesothelioma/hp/mesothelioma-treatment-pdq" }, { label: "FDA: pembrolizumab approval in MPM (Sept 2024)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemotherapy-unresectable-advanced-or-metastatic-malignant-pleural-mesothelioma" }],
+    links: [{ label: "NCI PDQ: malignant mesothelioma treatment", url: "https://www.cancer.gov/types/mesothelioma/hp/mesothelioma-treatment-pdq" }],
   },
 };
 

@@ -110,13 +110,13 @@ const entities: EntityInput[] = [
 
   // ======================= TECHNOLOGIES =======================
   {
-    id: "litt", kind: "technology", name: "Laser interstitial thermal therapy (LITT)", sections: ["surgery"], status: "established", asOf, wikipedia: W("Laser_interstitial_thermal_therapy"),
+    id: "litt", kind: "technology", name: "Laser interstitial thermal therapy (LITT)", sections: ["surgery"], status: "established", asOf,
     tldr: "Laser interstitial thermal therapy guides a laser fibre through a small skull hole, monitored by real-time MRI, to heat and destroy deep brain tumours a surgeon could not safely reach.",
     summary: "MRI thermometry-guided ablation (NeuroBlate, Visualase) for deep-seated or recurrent gliomas, radiation necrosis, and brain metastases. Case series suggest survival comparable to resection for selected recurrent glioblastoma; may transiently open the blood-brain barrier, enabling drug delivery (LAANTERN registry, phase 2 combinations with immunotherapy). No randomised evidence yet.",
     principle: "Stereotactically placed laser fibre delivers thermal energy; MR thermometry maps the ablation zone in real time.",
     strengths: ["Minimally invasive access to deep lesions", "Short hospital stay", "Possible BBB disruption for adjuvant drugs"],
     limitations: ["Lesion size limit (~3 cm)", "Oedema after ablation", "No randomised trials"],
-    technologies: ["mri", "thermal-ablation"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"], links: [{ label: "Wikipedia", url: W("Laser_interstitial_thermal_therapy") }],
+    technologies: ["mri", "thermal-ablation"], cancers: ["glioblastoma"], terms: ["blood-brain-barrier"], links: [],
   },
   {
     id: "bbb-focused-ultrasound", kind: "technology", name: "Focused-ultrasound blood-brain barrier opening", sections: ["devices", "surgery"], status: "phase-2", asOf,

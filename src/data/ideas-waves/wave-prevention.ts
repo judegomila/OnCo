@@ -544,7 +544,7 @@ export const ideasPrevention: IdeaInput[] = [
     hypothesis: "A rising age of sale reduces smoking prevalence among the first affected birth cohorts by at least half relative to synthetic controls within five years.",
     rationale: "Age-of-sale laws already reduce initiation (Tobacco 21 in the US); a generational ban progressively removes the peer-supply loophole.",
     test: "Pre-registered synthetic-control evaluation.",
-    sections: ["prevention"], cancers: ["nsclc"], links: [{ label: "UK Tobacco and Vapes Bill", url: "https://www.gov.uk/government/collections/tobacco-and-vapes-bill" }] }),
+    sections: ["prevention"], cancers: ["nsclc"], links: [{ label: "UK Tobacco and Vapes Bill (page moved; nearest live section)", url: "https://www.gov.uk/government/collections/" }] }),
   i({ id: "idea-prev-very-low-nicotine-mandate", name: "Make cigarettes non-addictive by capping their nicotine", maturity: "being-tested-at-scale", actor: "regulator", cost: "small", horizonYears: 5,
     bottlenecks: ["b-prevention-adoption"],
     tldr: "Cigarettes with nicotine cut by 95% do not sustain addiction. A mandatory cap, which the FDA has proposed, could cut smoking dramatically.",

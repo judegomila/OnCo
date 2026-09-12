@@ -79,7 +79,7 @@ export const technologies: TechnologyInput[] = [
     terms: ["suv"], drugs: ["fludeoxyglucose-f18"], related: ["pet-adapted-her2-deescalation", "idea-metabolic-vulnerability-mapping"], links: [{ label: "Wikipedia", url: W("Fludeoxyglucose_(18F)") }],
   },
   {
-    id: "psma-pet", kind: "technology", name: "PSMA PET", sections: ["imaging", "radiopharma"], status: "standard-of-care", asOf, since: 2020, wikipedia: W("PSMA_PET"),
+    id: "psma-pet", kind: "technology", name: "PSMA PET", sections: ["imaging", "radiopharma"], status: "standard-of-care", asOf, since: 2020,
     tldr: "A prostate-cancer-specific PET scan that finds spread far earlier than CT or bone scan, and tells you whether a matched radioactive drug will work.",
     summary: "PSMA PET uses small-molecule urea-based ligands that bind the active site of prostate-specific membrane antigen and are internalised, labelled with 68Ga or 18F. Approved agents are 68Ga-PSMA-11 (Illuccix, Locametz), 18F-DCFPyL (Pylarify, with Pylarify TruVu approved in March 2026) and 18F-rhPSMA-7.3 (Posluma). In clinical use since 2020, it is standard for initial staging of high-risk disease and for biochemical recurrence, where it detects disease at PSA below 0.5 ng/mL, far earlier than CT or bone scan. It is also the theranostic gatekeeper: a PSMA-positive scan is required to select patients for 177Lu-PSMA-617, as in VISION and PSMAfore. Around 10% of patients have PSMA-negative disease, and uptake in ganglia and salivary glands can be mistaken for tumour. It finds spread early and predicts whether the matched radioactive drug will work.",
     principle: "Small-molecule urea-based ligands bind PSMA's active site and are internalised.",
@@ -87,7 +87,7 @@ export const technologies: TechnologyInput[] = [
     limitations: ["PSMA-negative disease in ~10%", "Uptake in ganglia, salivary glands"],
     technologies: ["pet", "radioligand-therapy"],
     targets: ["psma"],
-    cancers: ["prostate"], companies: ["clarity-pharmaceuticals"], links: [{ label: "Wikipedia", url: W("PSMA_PET") }],
+    cancers: ["prostate"], companies: ["clarity-pharmaceuticals"], links: [],
   },
   {
     id: "fapi-pet", kind: "technology", name: "FAPI PET", sections: ["imaging"], status: "phase-3", asOf, since: 2018, wikipedia: W("Fibroblast_activation_protein,_alpha"),
@@ -125,14 +125,14 @@ export const technologies: TechnologyInput[] = [
     cancers: ["breast-her2-positive", "breast-hr-positive", "gastric"],
   },
   {
-    id: "immuno-pet", kind: "technology", name: "Immuno-PET", sections: ["imaging", "immunotherapy"], status: "phase-2", asOf, wikipedia: W("Immuno-PET"),
+    id: "immuno-pet", kind: "technology", name: "Immuno-PET", sections: ["imaging", "immunotherapy"], status: "phase-2", asOf,
     tldr: "PET scans built from radiolabelled antibodies or their fragments, to see any protein an antibody can reach, including immune cells inside tumours.",
     summary: "Immuno-PET attaches long-lived positron emitters such as 89Zr or 64Cu to antibodies, minibodies or nanobodies, so that any protein an antibody can reach can be imaged across the whole body. It covers 89Zr-antibody imaging of ADC targets including TROP2 and HER2, and T-cell imaging with 89Zr-crefmirlimab berdoxam, a CD8 minibody, and 18F-AraG, which marks activated T cells. CD8 PET is in phase 2/3 as a pharmacodynamic and predictive biomarker for checkpoint inhibitors, aiming to show whether T cells are entering tumours early in treatment. The strengths are non-invasive imaging of target and immune infiltrate, and the fact that any antibody can be turned into a tracer. Full antibodies have slow kinetics, requiring days before imaging, and 89Zr is costly. Immuno-PET turns therapeutic antibodies into imaging agents that show where their targets and the immune cells are.",
     principle: "Long-lived positron emitters (89Zr, 64Cu) chelated to antibodies, minibodies, or nanobodies.",
     strengths: ["Images target and immune infiltrate non-invasively", "Any antibody can be turned into a tracer"],
     limitations: ["Slow kinetics for full antibodies", "Cost of 89Zr"],
     technologies: ["pet"],
-    targets: ["trop2", "her2", "pd1", "pdl1"], links: [{ label: "Wikipedia", url: W("Immuno-PET") }],
+    targets: ["trop2", "her2", "pd1", "pdl1"], links: [],
   },
   {
     id: "parp-pet", kind: "technology", name: "PARP PET", sections: ["imaging"], status: "phase-2", asOf,
@@ -252,7 +252,7 @@ export const technologies: TechnologyInput[] = [
     cancers: ["colorectal", "urothelial", "tnbc", "nsclc", "multiple-myeloma"], related: ["idea-dtc-colonisation-determinants", "idea-dormancy-maintenance-therapy"], links: [{ label: "Wikipedia", url: W("Minimal_residual_disease") }],
   },
   {
-    id: "mced", kind: "technology", name: "Multi-cancer early detection (MCED)", sections: ["early-detection", "diagnostics"], status: "phase-3", asOf, wikipedia: W("Multi-cancer_early_detection"),
+    id: "mced", kind: "technology", name: "Multi-cancer early detection (MCED)", sections: ["early-detection", "diagnostics"], status: "phase-3", asOf,
     tldr: "A single blood test intended to screen for dozens of cancers at once, including ones with no screening today.",
     summary: "Galleri (GRAIL) detects methylation patterns and predicts tissue of origin; PMA submitted to FDA in January 2026 with an advisory committee scheduled for 23 September 2026, based on PATHFINDER 2 and the 140,000-person NHS-Galleri trial. Exact Sciences' Cancerguard launched as an LDT; Guardant Shield adds multi-cancer results. Key open question: does earlier detection reduce mortality, and at what false-positive cost?",
     principle: "Machine learning classifies cfDNA methylation, fragmentation, and protein biomarkers.",
@@ -261,7 +261,7 @@ export const technologies: TechnologyInput[] = [
     terms: ["ppv", "stage-shift"],
     companies: ["grail", "exact-sciences", "guardant-health", "carrum-health", "clearnote-health", "elypta", "exai-bio", "numen", "owlstone-medical", "volitionrx"],
     trials: ["nhs-galleri", "pathfinder-2"],
-    drugs: ["galleri", "shield"], links: [{ label: "Wikipedia", url: W("Multi-cancer_early_detection") }],
+    drugs: ["galleri", "shield"], links: [],
   },
   {
     id: "digital-pathology-ai", kind: "technology", name: "Digital pathology & AI", sections: ["diagnostics", "ai-computation"], status: "established", asOf, wikipedia: W("Digital_pathology"),
@@ -405,12 +405,12 @@ export const technologies: TechnologyInput[] = [
 
   // ======================= RADIATION =======================
   {
-    id: "imrt-igrt", kind: "technology", name: "IMRT / IGRT (modern external beam)", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Intensity-modulated_radiation_therapy"),
+    id: "imrt-igrt", kind: "technology", name: "IMRT / IGRT (modern external beam)", sections: ["radiation"], status: "standard-of-care", asOf,
     tldr: "Radiation shaped precisely to the tumour and checked with daily imaging, sparing surrounding organs.",
     summary: "Intensity-modulated and volumetric arc therapy shape the radiation dose using multi-leaf collimators that modulate beam intensity from many angles, while image guidance with cone-beam CT verifies patient position before each fraction. Together they are the default for most curative radiotherapy, giving conformal dose to the tumour with fewer side effects. Hypofractionation, meaning fewer, larger doses, is now standard in breast and prostate cancer and saves patients many visits. The remaining drawbacks are the low-dose bath spread across normal tissue from many beam angles and the need for motion management in moving targets. Adaptive replanning and MR-guidance are the next step, adjusting the plan to daily anatomy. The simple version is radiation sculpted to the tumour and checked with imaging every day.",
     principle: "Multi-leaf collimators modulate beam intensity from many angles; cone-beam CT verifies position before each fraction.",
     strengths: ["Conformal dose, fewer side effects", "Hypofractionation saves visits"],
-    limitations: ["Low-dose bath to normal tissue", "Motion management"], links: [{ label: "Wikipedia", url: W("Intensity-modulated_radiation_therapy") }], journals: ["cancer-radiotherapie", "clinical-oncology-rcr", "practical-radiation-oncology", "radiation-oncology", "seminars-in-radiation-oncology", "strahlentherapie-und-onkologie"], companies: ["intraop-medical", "radformation"],
+    limitations: ["Low-dose bath to normal tissue", "Motion management"], links: [], journals: ["cancer-radiotherapie", "clinical-oncology-rcr", "practical-radiation-oncology", "radiation-oncology", "seminars-in-radiation-oncology", "strahlentherapie-und-onkologie"], companies: ["intraop-medical", "radformation"],
   },
   {
     id: "sbrt", kind: "technology", name: "SBRT / SABR (stereotactic radiotherapy)", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Stereotactic_radiosurgery"),
@@ -431,13 +431,13 @@ export const technologies: TechnologyInput[] = [
     companies: ["iba", "mevion"], links: [{ label: "Wikipedia", url: W("Proton_therapy") }],
   },
   {
-    id: "carbon-ion", kind: "technology", name: "Carbon-ion therapy", sections: ["radiation"], status: "established", asOf, wikipedia: W("Carbon-ion_radiotherapy"),
+    id: "carbon-ion", kind: "technology", name: "Carbon-ion therapy", sections: ["radiation"], status: "established", asOf,
     tldr: "Heavier charged particles that kill even radiation-resistant tumours, available at only a handful of centres worldwide.",
     summary: "Carbon-ion therapy uses carbon nuclei that deposit dense ionisation tracks, causing clustered DNA damage with a sharp Bragg peak, giving higher biological effectiveness than protons for hypoxic and slow-growing tumours. It is used for radioresistant tumours such as sarcoma, chordoma, adenoid cystic carcinoma, and pancreatic cancer, where conventional radiation struggles. About 15 centres operate worldwide (Japan, Germany, Italy, China, Austria), and the first US centre is under construction at Mayo Clinic Jacksonville. Access is the central problem: very few facilities exist and the cost is high, and randomised comparisons with protons or photons are scarce. The simple version is that heavier charged particles can kill tumours that ordinary radiation cannot, but only a handful of centres can deliver them.",
     principle: "Carbon nuclei deposit dense ionisation tracks causing clustered DNA damage with a sharp Bragg peak.",
     strengths: ["Effective in radioresistant tumours"],
     limitations: ["Very few facilities", "Cost"],
-    cancers: ["sarcoma", "pancreatic"], links: [{ label: "Wikipedia", url: W("Carbon-ion_radiotherapy") }],
+    cancers: ["sarcoma", "pancreatic"], links: [],
   },
   {
     id: "brachytherapy", kind: "technology", name: "Brachytherapy", sections: ["radiation"], status: "standard-of-care", asOf, wikipedia: W("Brachytherapy"),
@@ -449,14 +449,14 @@ export const technologies: TechnologyInput[] = [
     cancers: ["cervical", "prostate", "melanoma"], links: [{ label: "Wikipedia", url: W("Brachytherapy") }], companies: ["empyrean-medical-systems", "gt-medical-technologies"],
   },
   {
-    id: "mr-linac", kind: "technology", name: "MR-guided adaptive radiotherapy", sections: ["radiation"], status: "established", asOf, wikipedia: W("MRI-linac"),
+    id: "mr-linac", kind: "technology", name: "MR-guided adaptive radiotherapy", sections: ["radiation"], status: "established", asOf,
     tldr: "The MR-linac is a radiation machine with an MRI inside it, so the plan is adjusted to where the tumour is that very day.",
     summary: "An MR-linac integrates an MRI scanner into the treatment machine, acquiring images during setup and delivery so the plan can be re-optimised in minutes to the anatomy of that day. Elekta Unity and ViewRay MRIdian enable daily online adaptation and gating on soft-tissue targets such as pancreas, prostate, and liver, allowing tighter margins and dose escalation in pancreas. The MIRAGE trial showed reduced toxicity in prostate SBRT with MR guidance. Biology-guided radiotherapy (RefleXion, PET-guided) is a parallel approach that tracks the tumour's metabolic signal instead. Slow throughput and cost are the practical limits, and whether daily adaptation improves cure rates rather than only toxicity is still being tested. The simple version is a radiation machine with an MRI inside it.",
     principle: "Integrated MRI acquires images during setup and delivery; plan re-optimised in minutes.",
     strengths: ["Tighter margins, dose escalation in pancreas"],
     limitations: ["Slow throughput", "Cost"],
     companies: ["elekta", "reflexion"],
-    cancers: ["pancreatic", "prostate"], links: [{ label: "Wikipedia", url: W("MRI-linac") }],
+    cancers: ["pancreatic", "prostate"], links: [],
   },
   {
     id: "flash-rt", kind: "technology", name: "FLASH radiotherapy", sections: ["radiation"], status: "phase-1", asOf, wikipedia: W("FLASH_radiotherapy"),
@@ -738,14 +738,14 @@ export const technologies: TechnologyInput[] = [
     terms: ["dar", "linker"], companies: ["tubulis", "enlaza-therapeutics"], links: [{ label: "Wikipedia", url: W("Bioconjugation") }],
   },
   {
-    id: "peptide-drug-conjugate", kind: "technology", name: "Peptide-drug & small-molecule-drug conjugates", sections: ["adcs"], status: "approved", asOf, wikipedia: W("Peptide-drug_conjugate"),
+    id: "peptide-drug-conjugate", kind: "technology", name: "Peptide-drug & small-molecule-drug conjugates", sections: ["adcs"], status: "approved", asOf,
     tldr: "Like an ADC but with a small targeting peptide instead of an antibody, so it penetrates tumours faster and is cheaper to make.",
     summary: "Peptide-drug conjugates replace the antibody of an ADC with a short or bicyclic peptide that binds the target, giving rapid tumour penetration and renal clearance, with a short half-life that reduces systemic exposure and cheaper synthesis. Examples include melflufen (Pepaxto, withdrawn in the US), lutetium radioligands (technically peptide-radionuclide conjugates), and clinical-stage PDCs such as BT8009 zelenectide pevedotin, a Nectin-4 Bicycle toxin conjugate, and CBX-12, an exatecan-SMDC. Bicycle's zelenectide pevedotin is in phase 2/3 in urothelial cancer. The same short half-life that limits toxicity also limits tumour exposure, and renal toxicity is a class concern. The simple version is an ADC with a small peptide as the address label, faster to penetrate tumours and cheaper to make.",
     principle: "Short peptide or bicyclic peptide binds the target; short half-life reduces systemic exposure.",
     strengths: ["Rapid penetration, renal clearance", "Cheaper synthesis"],
     limitations: ["Short half-life limits tumour exposure", "Renal toxicity"],
     technologies: ["adc"],
-    targets: ["nectin4"], links: [{ label: "Wikipedia", url: W("Peptide-drug_conjugate") }],
+    targets: ["nectin4"], links: [],
   },
 
   // ======================= IMMUNOTHERAPY =======================
@@ -951,12 +951,12 @@ export const technologies: TechnologyInput[] = [
     links: [{ label: "SCALP randomised trial (JAMA 2017)", url: "https://doi.org/10.1001/jama.2016.20939" }, { label: "DigniCap cohort with concurrent controls (JAMA 2017)", url: "https://doi.org/10.1001/jama.2016.21038" }, { label: "Scalp cooling and scalp metastases: systematic review and meta-analysis (Breast Cancer Res Treat 2017)", url: "https://doi.org/10.1007/s10549-017-4185-9" }, { label: "Paxman Scalp Cooling", url: "https://paxmanscalpcooling.com/" }, { label: "DigniCap", url: "https://www.dignicap.com/" }, { label: "Macmillan: scalp cooling", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/hair-loss" }],
   },
   {
-    id: "cardio-oncology", kind: "technology", name: "Cardio-oncology", sections: ["supportive-care"], status: "established", asOf, wikipedia: W("Cardio-oncology"),
+    id: "cardio-oncology", kind: "technology", name: "Cardio-oncology", sections: ["supportive-care"], status: "established", asOf,
     tldr: "Protecting the heart from cancer treatments, which is increasingly important as patients live longer.",
     summary: "Cardio-oncology integrates risk stratification, surveillance, and prevention of heart damage into cancer care, so that patients can complete curative therapy without trading cancer for heart failure. The problems it addresses include anthracycline and trastuzumab cardiotoxicity, checkpoint-inhibitor myocarditis, TKI hypertension and QT prolongation, and radiation heart disease. Tools are baseline and serial echocardiography with strain imaging, troponin and BNP monitoring, and cardioprotective drugs such as dexrazoxane, ACE inhibitors, and statins. As survivors live longer, cardiovascular disease becomes a leading competing cause of death, which is why the field has grown. Workforce and access are the limitations, since specialist clinics are concentrated in large centres. The simple version is protecting the heart while the cancer is being treated.",
     principle: "Risk stratification, surveillance, and prevention integrated into oncology care.",
     strengths: ["Enables completion of curative therapy"],
-    limitations: ["Workforce and access"], trials: ["ccss"], links: [{ label: "Wikipedia", url: W("Cardio-oncology") }],
+    limitations: ["Workforce and access"], trials: ["ccss"], links: [],
   },
   {
     id: "exercise-oncology", kind: "technology", name: "Exercise & lifestyle oncology", sections: ["supportive-care", "prevention", "nutrition-lifestyle"], status: "established", asOf,
@@ -1006,13 +1006,13 @@ export const technologies: TechnologyInput[] = [
     tags: ["frontier"], companies: ["genesis-molecular-ai", "iambic-therapeutics", "algen-biotechnologies", "aqemia", "bighat-biosciences", "blank-bio", "certis-oncology-solutions", "cytoreason", "evaxion", "harmonic-discovery", "iktos", "immunai", "lila-sciences", "nested-therapeutics", "nimbus-therapeutics", "relay-therapeutics", "resistancebio", "reverie-labs", "serinus-biosciences", "turbine", "valo-health"], links: [{ label: "Wikipedia", url: W("Drug_design") }],
   },
   {
-    id: "crispr-screens", kind: "technology", name: "CRISPR functional genomics", sections: ["drug-discovery"], status: "established", asOf, wikipedia: W("CRISPR_screen"),
+    id: "crispr-screens", kind: "technology", name: "CRISPR functional genomics", sections: ["drug-discovery"], status: "established", asOf,
     tldr: "Knocking out every gene one at a time in cancer cells to find which ones they cannot live without.",
     summary: "CRISPR functional genomics uses pooled sgRNA libraries to knock out, activate, or base-edit every gene in cancer cells, then reads depletion or enrichment by sequencing to find which genes the cells cannot live without. Genome-wide screens across more than 1,000 cell lines (DepMap, Sanger Project Score) map cancer dependencies and synthetic-lethal pairs such as PRMT5/MTAP and WRN/MSI, several of which have become drug programmes. In vivo and immune co-culture screens find immunotherapy resistance genes. The output is a systematic, unbiased dependency map, though cell line artefacts and context specificity mean hits need validation in patient-relevant models. The simple version is a way to test every gene at once and ask which ones a cancer depends on.",
     principle: "Pooled sgRNA libraries; depletion or enrichment measured by sequencing.",
     strengths: ["Systematic, unbiased dependency maps"],
     limitations: ["Cell line artefacts; context specificity"],
-    technologies: ["synthetic-lethality-approaches"], links: [{ label: "Wikipedia", url: W("CRISPR_screen") }], companies: ["algen-biotechnologies", "tango-therapeutics"],
+    technologies: ["synthetic-lethality-approaches"], links: [], companies: ["algen-biotechnologies", "tango-therapeutics"],
   },
 
   // ======================= PREVENTION =======================

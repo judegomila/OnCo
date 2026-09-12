@@ -565,7 +565,7 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
-    id: "tumor-dormancy", name: "Tumour dormancy", wikipedia: W("Tumor_dormancy"),
+    id: "tumor-dormancy", name: "Tumour dormancy",
     tldr: "Cancer cells can hide in bone marrow, lung, or brain for years or decades, asleep and invisible to scans and chemotherapy, then wake up. Late relapse in breast and prostate cancer is dormancy ending.",
     summary: "Disseminated tumour cells enter quiescence (p38-high/ERK-low, NR2F1, DYRK1A), are held by niche signals (TGF-β2, BMP7, endothelial thrombospondin) and immune surveillance (NK cells, T cells), and evade cytotoxics by not dividing. Awakening triggers include inflammation (neutrophil extracellular traps), ageing, surgery-induced wound healing, and loss of immune control. Extended endocrine therapy in ER+ breast cancer is de facto dormancy maintenance. Strategies: keep cells asleep (NR2F1 agonists, 5-azacytidine + retinoic acid pilot in prostate), wake and kill (with cell-cycle-dependent drugs), or clear them immunologically. MRD assays make dormancy measurable for the first time.",
     analogy: "Seeds that stay in the soil for years waiting for the right spring. You can keep the ground cold (maintenance therapy), force them to sprout and mow them (wake-and-kill), or dig them out (immune clearance).",

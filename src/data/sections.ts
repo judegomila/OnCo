@@ -95,7 +95,7 @@ export const sections: SectionInput[] = [
     tldr: "What people eat, drink, weigh and do affects who gets cancer, how treatment goes, and who relapses. This front studies that with the rigour of a drug trial.",
     summary: "Obesity, alcohol and inactivity are established causes; diet quality, fibre and the gut microbiome shape immunotherapy response; structured exercise improved survival in a randomised colon cancer trial (CHALLENGE, 2025); fasting-mimicking and ketogenic diets, GLP-1 agonists, vitamin D and aspirin are under test. Cachexia and malnutrition during treatment are treatable and under-treated. The evidence ranges from strong to hype, and this front keeps the two apart.",
     tags: ["nutrition", "exercise", "microbiome", "obesity", "cachexia", "prevention"],
-    links: [{ label: "WCRF Continuous Update Project", url: "https://www.wcrf.org/research-policy/continuous-update-project/" }, { label: "CHALLENGE trial (NEJM 2025)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2502760" }], journals: ["nutrition-and-cancer"],
+    links: [ { label: "CHALLENGE trial (NEJM 2025)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2502760" }], journals: ["nutrition-and-cancer"],
   },
   {
     id: "devices", kind: "section", name: "Devices & Physical Therapies", order: 18, asOf, icon: "device",

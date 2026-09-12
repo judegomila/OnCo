@@ -43,10 +43,10 @@ const technologies: TechnologyInput[] = [
 ];
 
 const terms: TermInput[] = [
-  term({ id: "deauville-score", wikipedia: "https://en.wikipedia.org/wiki/Deauville_criteria", name: "Deauville five-point scale", category: "Imaging",
+  term({ id: "deauville-score", name: "Deauville five-point scale", category: "Imaging",
     tldr: "A 1-to-5 score for how bright a lymphoma looks on PET compared with the liver; 1-3 is considered a complete metabolic response.",
     summary: "1: no uptake; 2: ≤ mediastinum; 3: > mediastinum but ≤ liver; 4: moderately > liver; 5: markedly > liver or new lesions. Adopted in the Lugano classification (2014); the decision point in PET-adapted Hodgkin and DLBCL trials. Inter-reader agreement is good at the extremes and weaker for score 3 vs 4.",
-    cancers: ["hodgkin-lymphoma", "dlbcl"], technologies: ["fdg-pet", "pet-adapted-therapy"], links: [{ label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Deauville_criteria" }] }),
+    cancers: ["hodgkin-lymphoma", "dlbcl"], technologies: ["fdg-pet", "pet-adapted-therapy"], links: [] }),
   term({ id: "reed-sternberg-cell", aka: ["Reed-Sternberg cells"], name: "Reed-Sternberg cell", category: "Biology", wikipedia: W("Reed–Sternberg_cell"),
     tldr: "The Reed-Sternberg cell is the giant, often two-nucleus cancer cell of Hodgkin lymphoma; it makes up only about 1% of the tumour, and the rest is immune cells it has recruited.",
     summary: "Crippled germinal-centre B cells that have lost their B-cell programme, express CD30 and CD15, carry 9p24.1 (PD-L1/PD-L2) amplification in most cases, and are often EBV-positive. Their dependence on PD-L1 explains why Hodgkin lymphoma is the most checkpoint-inhibitor-responsive cancer (ORR ~70% for nivolumab or pembrolizumab in relapse).",

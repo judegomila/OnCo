@@ -183,13 +183,13 @@ const drugs: DrugInput[] = [
 ];
 
 const technologies: TechnologyInput[] = [
-  { id: "bcg-and-intravesical-therapy", kind: "technology", name: "Intravesical therapy (BCG, chemotherapy, devices, gene and viral therapy)", sections: ["immunotherapy", "devices"], status: "standard-of-care", asOf, wikipedia: W("Intravesical_therapy"),
+  { id: "bcg-and-intravesical-therapy", kind: "technology", name: "Intravesical therapy (BCG, chemotherapy, devices, gene and viral therapy)", sections: ["immunotherapy", "devices"], status: "standard-of-care", asOf,
     tldr: "Treating early bladder cancer by putting the drug straight into the bladder through a catheter, so the whole body is spared.",
     summary: "BCG remains the backbone for high-risk NMIBC; intravesical gemcitabine or mitomycin for intermediate risk. The BCG-unresponsive space now has four approved options: pembrolizumab (systemic), nadofaragene firadenovec (2022), N-803 + BCG (2024), and the gemcitabine-eluting TAR-200 device (2025), with cretostimogene filing in 2026. Durvalumab + BCG (2026) is the first systemic immunotherapy added to BCG-naive treatment.",
     principle: "Direct urothelial exposure to immunostimulants, cytotoxics, viruses, or gene vectors; dwell time and device release kinetics determine efficacy.",
     strengths: ["Minimal systemic toxicity", "Bladder preservation", "Repeatable in clinic"],
     limitations: ["BCG shortages", "Progression to muscle invasion still occurs", "Frequent cystoscopic surveillance"],
-    cancers: ["urothelial"], drugs: ["bcg-intravesical", "tar-200", "cretostimogene", "nogapendekin-alfa", "nadofaragene-firadenovec"], terms: ["nmibc-vs-mibc", "bcg-unresponsive"], links: [{ label: "Wikipedia", url: W("Intravesical_therapy") }] },
+    cancers: ["urothelial"], drugs: ["bcg-intravesical", "tar-200", "cretostimogene", "nogapendekin-alfa", "nadofaragene-firadenovec"], terms: ["nmibc-vs-mibc", "bcg-unresponsive"], links: [] },
   { id: "cystoscopy-turbt", kind: "technology", name: "Cystoscopy, blue-light imaging & TURBT", sections: ["surgery", "diagnostics"], status: "standard-of-care", asOf, wikipedia: W("Transurethral_resection_of_bladder_tumor"),
     tldr: "Cystoscopy and TURBT mean looking inside the bladder with a camera and shaving off tumours through the urethra. Blue-light dyes make flat tumours easier to see.",
     summary: "Transurethral resection of bladder tumour (TURBT) is both diagnosis and treatment for NMIBC; re-resection for T1 disease; en-bloc resection is emerging. Blue-light cystoscopy with hexaminolevulinate improves detection of CIS and reduces recurrence. Urine biomarkers (Cxbladder, UroVysion, Bladder EpiCheck) aim to reduce surveillance cystoscopy frequency.",

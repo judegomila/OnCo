@@ -748,7 +748,7 @@ export const bottlenecks: BottleneckInput[] = [
     successLooksLike: "Enrolment in pivotal trials matches the age, ancestry and geographic distribution of the disease within a few percentage points, and subgroup data are sufficient to detect clinically meaningful differences in efficacy or toxicity.",
     links: [
       { label: "Loree et al., Disparity of race reporting and representation in trials leading to cancer drug approvals (JAMA Oncology 2019)", url: "https://doi.org/10.1001/jamaoncol.2019.1870" },
-      { label: "FDA Oncology Center of Excellence, Project Equity", url: "https://www.fda.gov/about-fda/oncology-center-excellence/project-equity" },
+      { label: "FDA Oncology Center of Excellence, Project Equity (archived copy)", url: "https://web.archive.org/web/20240415200043/https://www.fda.gov/about-fda/oncology-center-excellence/project-equity" },
       { label: "Hutchins et al., Underrepresentation of patients 65 years of age or older in cancer-treatment trials (NEJM 1999)", url: "https://doi.org/10.1056/NEJM199912303412706" },
     ],
     cancers: ["prostate", "multiple-myeloma", "tnbc", "nsclc", "hcc", "gastric"],
@@ -806,7 +806,7 @@ export const bottlenecks: BottleneckInput[] = [
     tldr: "There are thousands of possible drug pairs and sequences. Trials can test a few dozen a year.",
     summary: "With well over a hundred approved oncology agents and hundreds in development, the space of pairwise combinations runs to tens of thousands, and sequences and schedules multiply it further, while the field can run only a few dozen adequately powered combination trials a year. The combinations that are tested are chosen by commercial ownership and precedent rather than biology: thousands of PD-1/PD-L1 combination trials have been launched, most adding an agent to a checkpoint inhibitor without a predictive biomarker. Analyses of historical combination trials suggest that many 'successes' reflect independent action in different patients rather than synergy, which means better patient selection would achieve the same benefit with fewer drugs. Platform trials, factorial and adaptive designs, ex vivo functional testing, and computational prioritisation from dependency maps and combination screens are the only ways to explore the space at a useful rate.",
     metrics: [
-      { label: "Clinical trials of PD-1/PD-L1 inhibitors registered by 2021, the large majority as combinations", value: "5,683 trials", source: "Upadhaya et al., Nature Reviews Drug Discovery 2022", url: "https://doi.org/10.1038/d41573-022-00030-2" },
+      { label: "Clinical trials of PD-1/PD-L1 inhibitors registered by 2021, the large majority as combinations", value: "5,683 trials", source: "Upadhaya et al., Nature Reviews Drug Discovery 2022", url: "https://doi.org/10.1038/d41573-022-00030-4" },
       { label: "Approved combination therapies whose clinical benefit is explained by independent drug action (patient-to-patient variability) without synergy", value: "Most of 15 combinations analysed", source: "Palmer & Sorger, Cell 2017", url: "https://doi.org/10.1016/j.cell.2017.11.009" },
     ],
     causes: [
@@ -827,7 +827,7 @@ export const bottlenecks: BottleneckInput[] = [
     successLooksLike: "Platform trials in each major cancer test dozens of combination arms a year against shared controls, and computational or ex vivo prioritisation has a demonstrated positive predictive value for which combinations succeed in the clinic.",
     links: [
       { label: "Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" },
-      { label: "Upadhaya et al., Challenges and opportunities in the PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" },
+      { label: "Upadhaya et al., Challenges and opportunities in the PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-4" },
       { label: "Menden et al., Community assessment to advance computational prediction of cancer drug combinations (Nature Communications 2019)", url: "https://doi.org/10.1038/s41467-019-09799-2" },
     ],
     cancers: ["prostate", "tnbc", "nsclc", "melanoma"],
@@ -1194,7 +1194,7 @@ export const bottlenecks: BottleneckInput[] = [
     links: [
       { label: "Hanna et al., Mortality due to cancer treatment delay: systematic review and meta-analysis (BMJ 2020)", url: "https://doi.org/10.1136/bmj.m4087" },
       { label: "NHS England Cancer Waiting Times statistics", url: "https://www.england.nhs.uk/statistics/statistical-work-areas/cancer-waiting-times/" },
-      { label: "ASCO Quality Oncology Practice Initiative", url: "https://practice.asco.org/quality-improvement/quality-programs/quality-oncology-practice-initiative" },
+      { label: "ASCO Quality Oncology Practice Initiative (archived copy)", url: "https://web.archive.org/web/20231029084627/https://practice.asco.org/quality-improvement/quality-programs/quality-oncology-practice-initiative" },
     ],
     cancers: ["nsclc", "colorectal", "pancreatic", "head-and-neck", "esophageal"],
     technologies: ["cgp", "liquid-biopsy", "companion-diagnostic", "ai-trial-matching"],
@@ -1572,7 +1572,7 @@ export const bottlenecks: BottleneckInput[] = [
     tldr: "The system pays the same for a drug that adds two months as for a cure, so companies race to copy rather than to cure.",
     summary: "The economics of oncology reward being the fifth entrant to a validated target more reliably than being the first to attempt an unsolved one. Thousands of trials have tested PD-1/PD-L1 antibodies, more than a dozen of which are approved with near-identical activity, and TROP2 and HER2 ADCs, KRAS G12C inhibitors and BCMA-directed therapies each have crowded fields, while first-in-class attempts on the hardest problems (pancreatic cancer, glioblastoma, metastasis prevention, cachexia) are few. Prices are set with no relation to benefit, so a drug adding two months of median survival can be priced like a cure, and regulatory precedent makes the follow-on path cheaper and more predictable. Patents reward molecules rather than outcomes; nothing pays for the trial that shows a drug can be stopped, given for less time, or replaced by a generic. Aligning reward with magnitude of benefit, through value-based pricing, benefit-graded exclusivity, prizes and public development of unattractive assets, is the structural fix.",
     metrics: [
-      { label: "Clinical trials of PD-1/PD-L1 inhibitors registered by 2021", value: "5,683 trials", source: "Upadhaya et al., Nature Reviews Drug Discovery 2022", url: "https://doi.org/10.1038/d41573-022-00030-2" },
+      { label: "Clinical trials of PD-1/PD-L1 inhibitors registered by 2021", value: "5,683 trials", source: "Upadhaya et al., Nature Reviews Drug Discovery 2022", url: "https://doi.org/10.1038/d41573-022-00030-4" },
       { label: "Median overall survival gain of cancer drugs approved by FDA 2002-2014", value: "2.1 months", source: "Fojo, Mailankody & Lo, JAMA Otolaryngology 2014", url: "https://doi.org/10.1001/jamaoto.2014.1570" },
       { label: "Correlation between cancer drug prices and clinical benefit (ESMO-MCBS, ASCO framework) in the US and Europe", value: "No significant association", source: "Vokinger et al., Lancet Oncology 2020", url: "https://doi.org/10.1016/S1470-2045(20)30139-X" },
       { label: "Relationship between price and novelty (first-in-class vs next-in-class) or benefit for cancer drugs approved by FDA 2009-2013", value: "No difference in price by novelty; no relation to benefit", source: "Mailankody & Prasad, JAMA Oncology 2015", url: "https://doi.org/10.1001/jamaoncol.2015.0373" },
@@ -1594,7 +1594,7 @@ export const bottlenecks: BottleneckInput[] = [
     ],
     successLooksLike: "Reward for a new cancer drug scales with its measured benefit, so that the expected return on a curative or first-in-class programme for an unsolved cancer exceeds that of a sixth entrant to a crowded class, and the share of new approvals that are first-in-class with substantial benefit rises measurably.",
     links: [
-      { label: "Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-2" },
+      { label: "Upadhaya et al., PD1/PDL1 inhibitor clinical trial landscape (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/d41573-022-00030-4" },
       { label: "Mailankody & Prasad, Five years of cancer drug approvals: innovation, efficacy, and costs (JAMA Oncology 2015)", url: "https://doi.org/10.1001/jamaoncol.2015.0373" },
       { label: "Vokinger et al., Prices and clinical benefit of cancer drugs (Lancet Oncology 2020)", url: "https://doi.org/10.1016/S1470-2045(20)30139-X" },
       { label: "ARPA-H", url: "https://arpa-h.gov/" },
@@ -1655,7 +1655,7 @@ export const bottlenecks: BottleneckInput[] = [
     summary: "Many of the most promising combinations in oncology pair agents owned by different companies, and the negotiation over supply, data rights, liability and eventual pricing is slow enough that most such combinations are never tested; where they are, it is usually because one party has a checkpoint inhibitor to defend. Individual patient data from completed trials, the raw material for meta-analysis, biomarker discovery and honest re-analysis, are shared rarely and slowly despite journal and funder policies: in one audit, data could actually be obtained for about 1% of trials with sharing statements. Academic competition adds its own secrecy, delaying publication of negative and confirmatory results. Pre-competitive consortia, trusted data-sharing platforms, standardised combination agreements and public sponsors of cross-company trials are the working models; they cover a small fraction of the field.",
     metrics: [
       { label: "Trials with ICMJE data-sharing statements whose individual participant data could be obtained by requesters", value: "6 of 487 (about 1%)", source: "Danchev et al., JAMA Network Open 2021", url: "https://doi.org/10.1001/jamanetworkopen.2020.33972" },
-      { label: "Clinical trials of PD-1/PD-L1 inhibitors registered by 2021, mostly combinations and mostly within single-sponsor portfolios", value: "5,683 trials", source: "Upadhaya et al., Nature Reviews Drug Discovery 2022", url: "https://doi.org/10.1038/d41573-022-00030-2" },
+      { label: "Clinical trials of PD-1/PD-L1 inhibitors registered by 2021, mostly combinations and mostly within single-sponsor portfolios", value: "5,683 trials", source: "Upadhaya et al., Nature Reviews Drug Discovery 2022", url: "https://doi.org/10.1038/d41573-022-00030-4" },
     ],
     causes: [
       "Cross-company combination trials require negotiation of supply, data ownership, liability and future pricing between competitors.",
@@ -1798,7 +1798,6 @@ export const bottlenecks: BottleneckInput[] = [
       { label: "Di Maio et al., Symptomatic toxicities experienced during anticancer treatment: agreement between patient and physician reporting (JCO 2015)", url: "https://doi.org/10.1200/JCO.2014.57.9334" },
       { label: "Davis et al., Availability of evidence of benefits on overall survival and quality of life of cancer drugs approved by EMA 2009-13 (BMJ 2017)", url: "https://doi.org/10.1136/bmj.j4530" },
       { label: "EORTC Quality of Life Group", url: "https://qol.eortc.org/" },
-      { label: "SISAQOL-IMI", url: "https://www.sisaqol-imi.eu/" },
     ],
     technologies: ["scalp-cooling", "cardio-oncology", "adc", "checkpoint-inhibitor", "car-t"],
     terms: ["irae", "crs", "icans", "ild", "orr", "pfs", "os", "hazard-ratio"],

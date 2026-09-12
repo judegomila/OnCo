@@ -90,7 +90,7 @@ export const gapCancers: CancerInput[] = [
     targets: ["tp53", "cd47", "tim3", "bcl2"], technologies: ["epigenetic-drugs", "allogeneic-hsct", "ngs-mrd-clonoseq", "flow-cytometry-mrd", "cytogenetics-fish", "transfusion-support"],
     drugs: ["azacitidine", "decitabine-cedazuridine", "lenalidomide", "luspatercept", "imetelstat", "venetoclax", "magrolimab", "decitabine", "dorocubicel"],
     pathways: ["p53-cell-cycle", "apoptosis-bcl2"], companies: ["bms", "gilead", "novartis", "taiho"], terms: ["eln-risk", "mrd", "differentiation-syndrome"],
-    links: [{ label: "IPSS-M (NEJM Evidence 2022)", url: "https://evidence.nejm.org/doi/full/10.1056/EVIDoa2200008" }, { label: "NCI PDQ: MDS", url: PDQ("myeloproliferative/patient/myelodysplastic-treatment-pdq") }, { label: "SEER: MDS", url: "https://seer.cancer.gov/statfacts/html/mds.html" }],
+    links: [{ label: "IPSS-M (NEJM Evidence 2022)", url: "https://evidence.nejm.org/doi/full/10.1056/EVIDoa2200008" }, { label: "NCI PDQ: MDS", url: PDQ("myeloproliferative/patient/myelodysplastic-treatment-pdq") }],
     tags: ["gap-fill", "haematologic"], people: ["uwe-platzbecker", "pierre-fenaux"], related: ["systemic-mastocytosis"], journals: ["leukemia-research"],
   }),
   c({
@@ -378,7 +378,7 @@ export const gapCancers: CancerInput[] = [
     openProblems: ["No randomised trials; sequencing of CD123 agents unknown.", "Capillary leak syndrome with tagraxofusp.", "Relapse after transplant."],
     targets: ["cd123", "bcl2"], technologies: ["adc", "allogeneic-hsct", "cytokine-therapy"], drugs: ["tagraxofusp", "pivekimab-sunirine", "venetoclax"],
     pathways: ["apoptosis-bcl2"], companies: ["abbvie", "menarini"],
-    links: [{ label: "Tagraxofusp pivotal (NEJM 2019)", url: "https://doi.org/10.1056/NEJMoa1815105" }, { label: "NCI: BPDCN", url: "https://www.cancer.gov/pediatric-adult-rare-tumor/rare-tumors/rare-blood-cancers/bpdcn" }],
+    links: [{ label: "Tagraxofusp pivotal (NEJM 2019)", url: "https://doi.org/10.1056/NEJMoa1815105" }],
     tags: ["gap-fill", "haematologic", "rare"],
   }),
   // ======================= Skin and eye =======================
@@ -635,7 +635,7 @@ export const gapCancers: CancerInput[] = [
     targets: ["kras", "tp53"], technologies: ["hipec", "cytotoxic-chemotherapy", "ct", "mri"],
     drugs: ["folfox", "capox", "bevacizumab", "mitomycin"],
     pathways: ["ras-mapk"], companies: [], terms: ["peritoneal-metastasis", "colectomy"],
-    links: [{ label: "PSOGI consensus (Am J Surg Pathol 2016)", url: "https://doi.org/10.1097/PAS.0000000000000535" }, { label: "Appendix Cancer / PMP Research Foundation", url: "https://www.acpmp.org/" }, { label: "NCI: appendix cancer", url: "https://www.cancer.gov/pediatric-adult-rare-tumor/rare-tumors/rare-digestive-system-tumors/appendix-cancer" }],
+    links: [{ label: "PSOGI consensus (Am J Surg Pathol 2016)", url: "https://doi.org/10.1097/PAS.0000000000000535" }, { label: "Appendix Cancer / PMP Research Foundation", url: "https://www.acpmp.org/" }],
     tags: ["gap-fill", "gastrointestinal", "rare"],
   }),
   // ======================= Gynaecologic =======================
@@ -697,7 +697,7 @@ export const gapCancers: CancerInput[] = [
     targets: ["pd1", "pdl1"], technologies: ["cytotoxic-chemotherapy", "checkpoint-inhibitor", "ultrasound", "fertility-preservation"],
     drugs: ["methotrexate", "dactinomycin", "etoposide", "cyclophosphamide", "vincristine", "cisplatin", "pembrolizumab", "avelumab"],
     pathways: ["pd1-checkpoint"], companies: ["merck", "pfizer"], terms: [],
-    links: [{ label: "NCCN Guidelines: GTN", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1489" }, { label: "Charing Cross GTD service", url: "https://www.hcgtrophoblastic.com/" }, { label: "NCI PDQ: GTD", url: PDQ("gestational-trophoblastic/patient/gtd-treatment-pdq") }],
+    links: [{ label: "NCCN Guidelines: GTN", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1489" }, { label: "NCI PDQ: GTD", url: PDQ("gestational-trophoblastic/patient/gtd-treatment-pdq") }],
     tags: ["gap-fill", "gynaecologic", "rare"],
   }),
   // ======================= Paediatric =======================
@@ -793,7 +793,7 @@ export const gapCancers: CancerInput[] = [
     targets: ["ewsr1-fli1", "tp53", "parp"], technologies: ["cytotoxic-chemotherapy", "imrt-igrt", "limb-salvage-surgery", "proton-therapy", "autologous-stem-cell-transplant", "protac-degrader", "car-t"],
     drugs: ["vincristine", "doxorubicin", "cyclophosphamide", "ifosfamide", "etoposide", "irinotecan", "temozolomide", "topotecan", "lurbinectedin", "docetaxel"],
     pathways: ["p53-cell-cycle"], companies: ["pharmamar", "jazz"], institutions: ["childrens-oncology-group"], terms: ["gene-fusion"],
-    links: [{ label: "NCCN Guidelines: Bone Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1418" }, { label: "rEECur (Lancet 2024)", url: "https://doi.org/10.1016/S0140-6736(24)00248-9" }, { label: "NCI PDQ: Ewing sarcoma", url: PDQ("bone/patient/ewing-treatment-pdq") }],
+    links: [{ label: "NCCN Guidelines: Bone Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1418" }, { label: "NCI PDQ: Ewing sarcoma", url: PDQ("bone/patient/ewing-treatment-pdq") }],
     tags: ["gap-fill", "paediatric", "sarcoma", "aya"], trials: ["ccss"], journals: ["journal-of-adolescent-and-young-adult-oncology"],
   }),
   c({

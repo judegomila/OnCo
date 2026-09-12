@@ -47,7 +47,7 @@ const drugs: DrugInput[] = [
     dosing: { route: "Oral", schedule: "160 mg twice daily or 320 mg once daily, continuously", monitoring: "Infections, cytopenias, bleeding, atrial fibrillation (lower than ibrutinib), hypertension", source: label("Brukinsa") },
     toxicity: [{ event: "Atrial fibrillation/flutter", anyGradePct: 5.2, note: "ALPINE vs 13.3% ibrutinib", source: label("Brukinsa") }, { event: "Neutropenia", grade3PlusPct: 16 }, { event: "Hypertension", anyGradePct: 23 }, { event: "Upper respiratory infection", anyGradePct: 27 }],
     approvals: [{ region: "US", year: 2019, indication: "Relapsed MCL (accelerated)" }, { region: "US", year: 2023, indication: "CLL/SLL, all lines (SEQUOIA, ALPINE)" }],
-    regulatoryEvents: [{ date: "2023-01-19", type: "approval", region: "US", note: "CLL/SLL", source: "https://www.fda.gov/drugs/resources-information-approved-drugs" }],
+    regulatoryEvents: [{ date: "2023-01-19", type: "approval", region: "US", note: "CLL/SLL", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications" }],
     targets: ["btk"], technologies: ["kinase-inhibitors"], companies: ["beone"], cancers: ["cll", "dlbcl"], trials: ["alpine", "sequoia", "celestial-tncll"] }),
   d({ id: "pirtobrutinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pirtobrutinib" }], name: "Pirtobrutinib", brand: "Jaypirca", modality: "Small-molecule non-covalent (reversible) BTK inhibitor", status: "approved", wikipedia: W("Pirtobrutinib"),
     tldr: "A BTK blocker that works after the older ones stop, because it grips a different part of the enzyme. Fully approved for CLL in December 2025.",

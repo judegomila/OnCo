@@ -171,7 +171,7 @@ export const deals: Deal[] = [
     assets: [], assetText: "LaNova Medicines (remaining equity), developer of LM-299 (PD-1 x VEGF, licensed to Merck & Co.) and ADCs", total: "up to about $951m",
     territories: "Company acquisition", refs: ["pd1", "vegf", "adc"],
     note: "A Chinese pharma buying a Chinese biotech whose lead asset had already been licensed West.",
-    source: "https://www.sinobiopharm.com/en/", status: "announced" },
+    source: "https://web.archive.org/web/20251122085435/https://www.sinobiopharm.com/en/", status: "announced" },
 
   // ---------------- Western licences ----------------
   { id: "d-2017-jnj-legend-cilta-cel", date: "2017-12-21", type: "co-development", from: c("legend-biotech", "Legend Biotech"), to: c("johnson-johnson", "Johnson & Johnson (Janssen)"),

@@ -792,7 +792,7 @@ const baseDrugs: DrugInput[] = [
     technologies: ["cgp", "companion-diagnostic", "liquid-biopsy"], companies: ["foundation-medicine"], related: ["tmb-testing"],
   },
   {
-    id: "oncotype-dx", kind: "drug", name: "Oncotype DX", modality: "Gene-expression prognostic/predictive assay", asOf, status: "established", wikipedia: W("Oncotype_DX"),
+    id: "oncotype-dx", kind: "drug", name: "Oncotype DX", modality: "Gene-expression prognostic/predictive assay", asOf, status: "established",
     tldr: "A 21-gene test that tells most women with early hormone-positive breast cancer whether they can safely skip chemotherapy.",
     summary: "Oncotype DX is a gene-expression assay that measures 16 cancer-related and 5 reference genes by RT-PCR in tumour tissue to give a recurrence score estimating both the risk of distant recurrence and the likely benefit from chemotherapy in early hormone-positive, HER2-negative breast cancer. TAILORx (2018) showed that women with a score of 25 or below, if over 50, derive no benefit from adding chemotherapy to endocrine therapy, and RxPONDER extended that finding to postmenopausal women with 1 to 3 positive nodes. Younger women with mid-range scores did show some chemotherapy benefit in TAILORx, which may reflect ovarian suppression rather than cytotoxic effect, and this remains debated. Exact Sciences markets it; MammaPrint (Agendia) and Prosigna/PAM50 are alternatives. For a newcomer: a tumour test that lets most women with early hormone-positive breast cancer safely skip chemotherapy.",
     mechanism: "RT-PCR of 16 cancer and 5 reference genes into a recurrence score.",

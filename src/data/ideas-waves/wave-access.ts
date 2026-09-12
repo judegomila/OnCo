@@ -322,7 +322,7 @@ export const ideasAccess: IdeaInput[] = [
     rationale: "Public reporting of waiting times has repeatedly changed hospital behaviour where the measure is simple and attributable; the diagnostic interval is both.",
     test: "Compare interval distributions before and after introduction in an adopting jurisdiction, and against a neighbouring system without the standard.",
     bottlenecks: ["b-care-fragmentation", "b-early-detection"],
-    links: [{ label: "NHS England Faster Diagnosis Standard", url: "https://www.england.nhs.uk/cancer/faster-diagnosis/" }] }),
+    links: [{ label: "NHS England Faster Diagnosis Standard (archived copy)", url: "https://web.archive.org/web/20251231165538/https://www.england.nhs.uk/cancer/faster-diagnosis/" }] }),
   i({ id: "idea-acc-funded-navigator-per-diagnosis", name: "A paid patient navigator for every new cancer diagnosis, reimbursed as a service", maturity: "being-tested-at-scale", actor: "payer", cost: "medium", horizonYears: 3,
     tldr: "Every newly diagnosed patient gets a named person whose job is to get them through appointments, tests, paperwork and money problems. Insurers should pay for it because it prevents delays and dropouts.",
     summary: "Patient navigation programmes improve time to treatment and completion, particularly for disadvantaged groups, and randomised evidence exists. In the US, Medicare began paying for principal illness navigation services in 2024, creating a reimbursement route. Elsewhere navigation depends on charity funding. The proposal is to make navigation a reimbursed service from diagnosis to end of treatment, with standard training, caseloads, and outcome reporting.",

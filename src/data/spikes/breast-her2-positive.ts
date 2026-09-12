@@ -240,15 +240,15 @@ const drugs: DrugInput[] = [
 
 // ======================= TERMS =======================
 const terms: TermInput[] = [
-  term({ id: "dual-her2-blockade", wikipedia: W("Pertuzumab"), name: "Dual HER2 blockade", category: "Pharmacology",
+  term({ id: "dual-her2-blockade", links: [{ label: "ClinicalTrials.gov NCT00567190: CLEOPATRA", url: "https://clinicaltrials.gov/study/NCT00567190" }, { label: "ClinicalTrials.gov NCT01358877: APHINITY", url: "https://clinicaltrials.gov/study/NCT01358877" }], wikipedia: W("Pertuzumab"), name: "Dual HER2 blockade", category: "Pharmacology",
     tldr: "Using two HER2 antibodies (trastuzumab and pertuzumab) at once, which works better than one.",
     summary: "Trastuzumab (domain IV) plus pertuzumab (domain II) block ligand-independent and ligand-dependent signalling and enhance ADCC. CLEOPATRA (OS +16 months), NeoSphere (pCR), and APHINITY (node-positive iDFS) established it; Phesgo delivers both subcutaneously. Now being paired with T-DXd (DESTINY-Breast09) and tucatinib (HER2CLIMB-05).",
     drugs: ["trastuzumab", "pertuzumab"], targets: ["her2", "her3"], cancers: ["breast-her2-positive"], trials: ["cleopatra", "aphinity"], related: ["pet-adapted-her2-deescalation"] }),
-  term({ id: "her2-brain-metastases", wikipedia: W("Brain_metastasis"), name: "HER2-positive brain metastases", category: "Clinical",
+  term({ id: "her2-brain-metastases", links: [{ label: "ClinicalTrials.gov NCT02614794: HER2CLIMB", url: "https://clinicaltrials.gov/study/NCT02614794" }, { label: "ClinicalTrials.gov NCT04739761: DESTINY-Breast12", url: "https://clinicaltrials.gov/study/NCT04739761" }], wikipedia: W("Brain_metastasis"), name: "HER2-positive brain metastases", category: "Clinical",
     tldr: "Up to half of women with metastatic HER2-positive breast cancer develop brain metastases, because antibodies control the body but historically not the brain.",
     summary: "Incidence 30-50% in metastatic HER2+ disease. Local therapy (radiosurgery, surgery, whole-brain RT) was the mainstay; tucatinib (HER2CLIMB: CNS-PFS HR 0.32) and T-DXd (DESTINY-Breast12: intracranial ORR 71.7%) now provide systemic control, allowing deferral of radiation in selected patients. Neratinib and pyrotinib have modest CNS activity.",
     drugs: ["tucatinib", "trastuzumab-deruxtecan", "neratinib"], cancers: ["breast-her2-positive"], trials: ["her2climb", "destiny-breast12"], technologies: ["sbrt", "mri"] }),
-  term({ id: "trastuzumab-cardiotoxicity", wikipedia: W("Trastuzumab"), name: "Trastuzumab cardiotoxicity", category: "Toxicity",
+  term({ id: "trastuzumab-cardiotoxicity", links: [{ label: "ClinicalTrials.gov NCT00712140: PERSEPHONE", url: "https://clinicaltrials.gov/study/NCT00712140" }], wikipedia: W("Trastuzumab"), name: "Trastuzumab cardiotoxicity", category: "Toxicity",
     tldr: "HER2 drugs can weaken the heart's pumping, usually reversibly, so heart function is checked every three months during treatment.",
     summary: "Asymptomatic LVEF decline in 10-15% and symptomatic heart failure in 1-4% with trastuzumab, higher with prior or concurrent anthracyclines (NSABP B-31: 4.1% vs 0.8%). Mechanism: HER2 signalling maintains cardiomyocyte survival under stress. Management: hold for LVEF drop ≥16 points or below normal, ACE inhibitors/beta-blockers, rechallenge after recovery; anthracycline-free regimens (TCHP, T-DXd neoadjuvant) reduce risk.",
     drugs: ["trastuzumab", "pertuzumab"], technologies: ["cardio-oncology"], cancers: ["breast-her2-positive"], trials: ["persephone"] }),

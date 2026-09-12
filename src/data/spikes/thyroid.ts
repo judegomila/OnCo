@@ -162,7 +162,7 @@ const technologies: TechnologyInput[] = [
 
 // ======================= TERMS =======================
 const terms: TermInput[] = [
-  term({ id: "rai-refractory", wikipedia: W("Thyroid_cancer"), name: "Radioiodine-refractory (RAI-R) thyroid cancer", category: "Clinical",
+  term({ id: "rai-refractory", links: [{ label: "ClinicalTrials.gov NCT01321554: SELECT", url: "https://clinicaltrials.gov/study/NCT01321554" }, { label: "ClinicalTrials.gov NCT00984282: DECISION", url: "https://clinicaltrials.gov/study/NCT00984282" }], wikipedia: W("Thyroid_cancer"), name: "Radioiodine-refractory (RAI-R) thyroid cancer", category: "Clinical",
     tldr: "Thyroid cancer that no longer takes up radioactive iodine, or keeps growing despite it. This is when kinase inhibitor pills come in.",
     summary: "Defined by absence of uptake on a diagnostic scan, progression within 12 months of treatment, or cumulative activity >22.2 GBq (600 mCi) without control. Affects ~5-15% of differentiated thyroid cancers, often with BRAF V600E or TERT promoter mutations. Median survival historically 3-5 years; lenvatinib, sorafenib, and genotype-directed drugs (RET, NTRK, BRAF) apply.", cancers: ["thyroid"], technologies: ["radioiodine-therapy"], trials: ["select-lenvatinib", "decision-sorafenib"] }),
   term({ id: "low-risk-dtc", wikipedia: W("Thyroid_cancer"), links: [{ label: "2015 ATA guidelines for thyroid nodules and differentiated thyroid cancer (Haugen et al., Thyroid 2016)", url: "https://doi.org/10.1089/thy.2015.0020" }], name: "Low-risk differentiated thyroid cancer (ATA risk)", category: "Clinical",

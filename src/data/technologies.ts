@@ -688,7 +688,7 @@ export const technologies: TechnologyInput[] = [
     tags: ["frontier"],
   },
   {
-    id: "dual-payload-adc", kind: "technology", name: "Dual-payload ADC", sections: ["adcs"], status: "phase-1", asOf, generation: "4th (next-gen)",
+    id: "dual-payload-adc", links: [{ label: "Yamazaki et al., Antibody-drug conjugates with dual payloads for combating breast tumour heterogeneity and drug resistance (Nature Communications 2021)", url: "https://doi.org/10.1038/s41467-021-23793-7" }], kind: "technology", name: "Dual-payload ADC", sections: ["adcs"], status: "phase-1", asOf, generation: "4th (next-gen)",
     tldr: "A dual-payload ADC is an ADC carrying two different poisons at once, so the tumour cannot escape by becoming resistant to one.",
     summary: "Programs from Sutro, Mersana, Tavotek/Adcoris (ACR335, TOP1 inhibitor + non-TOP1/non-tubulin, DAR 4+4, phase 1 in 2026), and others place two payloads with distinct mechanisms on one antibody. Rationale: TOP1-payload cross-resistance after T-DXd, sacituzumab, or Dato-DXd. Also 'dual-mechanism' ADCs pairing a cytotoxic with an immune agonist.",
     principle: "Orthogonal site-specific conjugation chemistries attach two payload classes at defined positions.",
@@ -738,14 +738,14 @@ export const technologies: TechnologyInput[] = [
     terms: ["dar", "linker"], companies: ["tubulis", "enlaza-therapeutics"], links: [{ label: "Wikipedia", url: W("Bioconjugation") }],
   },
   {
-    id: "peptide-drug-conjugate", kind: "technology", name: "Peptide-drug & small-molecule-drug conjugates", sections: ["adcs"], status: "approved", asOf,
+    id: "peptide-drug-conjugate", links: [{ label: "Cooper et al., Peptides as a platform for targeted therapeutics for cancer: peptide-drug conjugates (Chemical Society Reviews 2021)", url: "https://doi.org/10.1039/D0CS00556H" }], kind: "technology", name: "Peptide-drug & small-molecule-drug conjugates", sections: ["adcs"], status: "approved", asOf,
     tldr: "Like an ADC but with a small targeting peptide instead of an antibody, so it penetrates tumours faster and is cheaper to make.",
     summary: "Peptide-drug conjugates replace the antibody of an ADC with a short or bicyclic peptide that binds the target, giving rapid tumour penetration and renal clearance, with a short half-life that reduces systemic exposure and cheaper synthesis. Examples include melflufen (Pepaxto, withdrawn in the US), lutetium radioligands (technically peptide-radionuclide conjugates), and clinical-stage PDCs such as BT8009 zelenectide pevedotin, a Nectin-4 Bicycle toxin conjugate, and CBX-12, an exatecan-SMDC. Bicycle's zelenectide pevedotin is in phase 2/3 in urothelial cancer. The same short half-life that limits toxicity also limits tumour exposure, and renal toxicity is a class concern. The simple version is an ADC with a small peptide as the address label, faster to penetrate tumours and cheaper to make.",
     principle: "Short peptide or bicyclic peptide binds the target; short half-life reduces systemic exposure.",
     strengths: ["Rapid penetration, renal clearance", "Cheaper synthesis"],
     limitations: ["Short half-life limits tumour exposure", "Renal toxicity"],
     technologies: ["adc"],
-    targets: ["nectin4"], links: [],
+    targets: ["nectin4"],
   },
 
   // ======================= IMMUNOTHERAPY =======================

@@ -196,7 +196,7 @@ const ideas: IdeaInput[] = [
     rationale: "Transplant mortality (10-20%) may exceed the relapse risk it prevents in molecularly negative patients; blinatumomab and ponatinib rescue many relapses.",
     test: "A trial would randomise MRD-negative patients after induction/consolidation to transplant vs TKI maintenance with monthly BCR::ABL1 PCR and pre-emptive blinatumomab; primary endpoint OS at 3 years.",
     cancers: ["all-leukemia"], drugs: ["ponatinib", "blinatumomab", "dasatinib"], technologies: ["allogeneic-hsct", "ngs-mrd-clonoseq"], terms: ["ph-positive-all", "mrd-negative-cr"], trials: ["d-alba"] }),
-  idea({ id: "idea-menin-infant-all", name: "Menin inhibitors for infant KMT2A-rearranged ALL", maturity: "early-clinical",
+  idea({ id: "idea-menin-infant-all", links: [{ label: "Issa et al., The menin inhibitor revumenib in KMT2A-rearranged or NPM1-mutant leukaemia (Nature 2023)", url: "https://doi.org/10.1038/s41586-023-05812-3" }], name: "Menin inhibitors for infant KMT2A-rearranged ALL", maturity: "early-clinical",
     tldr: "Infant leukaemia is driven almost entirely by KMT2A fusions, which menin inhibitors were built to attack. Add them to the new blinatumomab-containing backbone.",
     summary: "Infant ALL EFS plateaued below 50% for two decades; blinatumomab (Interfant-21) is the first step forward. Revumenib is approved for KMT2Ar acute leukaemia including children ≥1 year and has paediatric formulation data; combining with chemotherapy and blinatumomab in the first year of life is the obvious next trial.",
     hypothesis: "Adding a menin inhibitor to Interfant-21-type therapy raises 2-year EFS above 80% in KMT2A-rearranged infants without excess differentiation syndrome or hepatotoxicity.",

@@ -137,7 +137,7 @@ const pairings: PairingInput[] = [
 ];
 
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-chemo-free-hodgkin", name: "Chemotherapy-free Hodgkin lymphoma: brentuximab + PD-1 in early stage", maturity: "early-clinical",
+  idea({ id: "idea-chemo-free-hodgkin", links: [{ label: "ClinicalTrials.gov NCT05675410: AHOD2131 (COG / NCTN)", url: "https://clinicaltrials.gov/study/NCT05675410" }], name: "Chemotherapy-free Hodgkin lymphoma: brentuximab + PD-1 in early stage", maturity: "early-clinical",
     tldr: "For a cancer already cured in 90% of young people, the goal is curing without the chemotherapy and radiation that cause heart disease and second cancers decades later.",
     summary: "Classical Hodgkin lymphoma is already cured in most young people, so the aim of this idea is to cure early-stage disease without the chemotherapy and radiotherapy that cause heart disease and second cancers decades later. Brentuximab vedotin plus nivolumab hits the Reed-Sternberg cell through CD30 and its immune shield through PD-1 and PD-L1, and the doublet has produced high complete response rates in relapsed disease and as frontline induction in older patients in the SGN35-015 cohort. The hypothesis is that PET- or ctDNA-adapted brentuximab-nivolumab with minimal or no chemotherapy achieves high progression-free survival in stage I to II disease with fewer late effects than ABVD-based therapy. AHOD2131, run by the Children's Oncology Group, is testing this at an early clinical stage.",
     hypothesis: "In early-stage classical Hodgkin lymphoma, PET/ctDNA-adapted brentuximab-nivolumab with minimal or no chemotherapy achieves 3-year PFS ≥90% with fewer late effects than ABVD-based therapy.",

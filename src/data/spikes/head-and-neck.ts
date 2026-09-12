@@ -217,7 +217,7 @@ const pairings: PairingInput[] = [
 
 // ======================= IDEAS =======================
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-cthpv-adapted-deescalation", name: "ctHPV-DNA-adapted de-escalation of chemoradiation", maturity: "early-clinical",
+  idea({ id: "idea-cthpv-adapted-deescalation", links: [{ label: "ClinicalTrials.gov NCT03952585: NRG-HN002 & NRG-HN005 (HPV+ de-escalation)", url: "https://clinicaltrials.gov/study/NCT03952585" }], name: "ctHPV-DNA-adapted de-escalation of chemoradiation", maturity: "early-clinical",
     tldr: "Instead of guessing from HPV status who can get less radiation, measure the virus DNA in blood during treatment and reduce dose only when it clears fast.",
     summary: "The idea is to reduce the radiation dose in HPV-positive head and neck cancer only for patients whose circulating tumour HPV DNA clears quickly during treatment, rather than for everyone who is HPV-positive. NRG-HN005 showed that static selection on HPV status fails, whereas ctHPV-DNA kinetics track tumour kill in real time and outperform baseline staging for predicting recurrence. The hypothesis is that patients whose ctHPV-DNA clears by week 2 to 3 of chemoradiation can receive 60 Gy without loss of progression-free survival, while non-clearers receive the full 70 Gy. The test is a phase 2/3 trial of ctHPV-DNA-guided dose versus uniform 70 Gy, with progression-free survival and quality of life as endpoints; the idea sits on the radiotherapy roadmap.",
     hypothesis: "Patients whose ctHPV-DNA clears by week 2-3 of chemoradiation can receive 60 Gy without loss of PFS, while non-clearers receive 70 Gy.",

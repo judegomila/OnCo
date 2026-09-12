@@ -173,7 +173,7 @@ const entities: EntityInput[] = [
 
   // ======================= IDEAS =======================
   {
-    id: "idea-ras-inhibitor-neoadjuvant-pdac", kind: "idea", name: "RAS(ON) inhibitors to convert unresectable pancreatic cancer to resectable", maturity: "early-clinical", asOf,
+    id: "idea-ras-inhibitor-neoadjuvant-pdac", links: [{ label: "ClinicalTrials.gov NCT06625320: RASolute 302", url: "https://clinicaltrials.gov/study/NCT06625320" }], kind: "idea", name: "RAS(ON) inhibitors to convert unresectable pancreatic cancer to resectable", maturity: "early-clinical", asOf,
     tldr: "If daraxonrasib shrinks metastatic tumours this well, use it before surgery to make more locally advanced tumours operable.",
     summary: "The proposal is to give the RAS(ON) inhibitor daraxonrasib, with or without chemotherapy, before surgery for borderline resectable and locally advanced pancreatic ductal adenocarcinoma, to see whether it raises the R0 resection rate compared with mFOLFIRINOX. Surgery remains the only route to cure, yet only a minority of patients present with resectable disease. The rationale is the deep and rapid responses seen with daraxonrasib and zoldonrasib, oral dosing, ctDNA clearance as an early surrogate, and the fact that RASolute 303 and 304 already move the drug earlier. The test would be a randomised phase 2 with R0 resection as the primary endpoint. At an early clinical stage, it addresses the bottleneck of the undruggable drivers.",
     hypothesis: "Neoadjuvant daraxonrasib (± chemotherapy) increases R0 resection rate and 2-year DFS in borderline/locally advanced PDAC compared with mFOLFIRINOX.",

@@ -189,7 +189,7 @@ const pairings: PairingInput[] = [
 ];
 
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-transplant-free-ph-all", name: "Transplant-free Ph-positive ALL for MRD-negative adults", maturity: "being-tested-at-scale",
+  idea({ id: "idea-transplant-free-ph-all", links: [{ label: "ClinicalTrials.gov NCT02744768: D-ALBA (GIMEMA LAL2116)", url: "https://clinicaltrials.gov/study/NCT02744768" }], name: "Transplant-free Ph-positive ALL for MRD-negative adults", maturity: "being-tested-at-scale",
     tldr: "If a pill plus immunotherapy makes the leukaemia undetectable, can most adults safely skip a bone-marrow transplant?",
     summary: "If a tyrosine kinase inhibitor plus blinatumomab renders Philadelphia chromosome-positive acute lymphoblastic leukaemia undetectable, this idea asks whether most adults can safely forgo allogeneic transplant in first remission. The hypothesis is that patients in complete molecular remission have equivalent overall survival with TKI maintenance and MRD surveillance as with transplant. The rationale is that deaths caused by the transplant itself may exceed the relapse risk it prevents, and that blinatumomab and ponatinib rescue many relapses; in D-ALBA (GIMEMA LAL2116) around half of patients were not transplanted and did well. A trial would randomise MRD-negative patients to transplant or to TKI maintenance with BCR::ABL1 PCR and pre-emptive blinatumomab; it is being tested at scale.",
     hypothesis: "Adults with Ph+ ALL who achieve complete molecular remission after TKI + blinatumomab have equivalent OS with TKI maintenance and MRD surveillance versus allogeneic transplant in CR1.",

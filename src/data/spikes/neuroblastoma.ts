@@ -180,7 +180,7 @@ const pairings: PairingInput[] = [
 ];
 
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-gd2-car-t-frontline-consolidation", name: "GD2 CAR-T as consolidation in high-risk neuroblastoma", maturity: "early-clinical",
+  idea({ id: "idea-gd2-car-t-frontline-consolidation", links: [{ label: "ClinicalTrials.gov NCT03373097: GD2-CART01 (Bambino Gesù phase 1/2)", url: "https://clinicaltrials.gov/study/NCT03373097" }], name: "GD2 CAR-T as consolidation in high-risk neuroblastoma", maturity: "early-clinical",
     tldr: "Give engineered GD2 T cells to children in remission after standard therapy, where the long-term data show the deepest and longest cures.",
     summary: "This idea would give GD2-directed CAR-T cells to children with high-risk neuroblastoma who are in remission after induction, surgery and transplant, replacing or following tandem transplant and anti-GD2 antibody therapy. Long-term follow-up of the GD2-CART01 phase 1/2 trial at Bambino Gesù showed that most children infused with no evidence of disease have remained disease-free for many years, far better than expected with standard therapy. The rationale is that minimal residual disease is the ideal setting for CAR-T, that GD2 is retained after chemotherapy, and that a safety switch mitigates risk. The proposed test is a randomised phase 2/3 within COG or SIOPEN; at an early clinical stage, it addresses the bottleneck of rare and paediatric cancers and sits in the paediatric roadmap.",
     hypothesis: "GD2 CAR-T consolidation after induction, surgery and transplant improves 3-year EFS from ~60% to ≥75% in high-risk neuroblastoma with acceptable CRS and no chronic neuropathy.",

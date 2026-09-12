@@ -151,7 +151,7 @@ const pairings: PairingInput[] = [
 
 // ======================= IDEAS =======================
 const ideas: IdeaInput[] = [
-  { id: "idea-organ-preservation-esophageal", kind: "idea", name: "Organ preservation as the default after complete response in oesophageal cancer", maturity: "being-tested-at-scale", asOf,
+  { id: "idea-organ-preservation-esophageal", links: [{ label: "ClinicalTrials.gov NCT05953181: SANO", url: "https://clinicaltrials.gov/study/NCT05953181" }], kind: "idea", name: "Organ preservation as the default after complete response in oesophageal cancer", maturity: "being-tested-at-scale", asOf,
     tldr: "Oesophagectomy is one of the hardest operations in surgery. If chemoradiation (with or without immunotherapy) has made the tumour disappear, skip it and watch.",
     summary: "SANO showed non-inferior 2-year survival for active surveillance in clinical complete responders after CROSS. Adding PD-1 blockade to chemoradiation (KEYNOTE-975, SKYSCRAPER-07, ESCORT-CRT) may raise complete response rates and make surveillance viable for more patients; ctDNA and PET could sharpen response assessment.",
     hypothesis: "Definitive chemoradiation + PD-1 blockade followed by ctDNA- and endoscopy-guided surveillance, with salvage surgery on regrowth, yields non-inferior 3-year OS to planned oesophagectomy in squamous cell carcinoma.",

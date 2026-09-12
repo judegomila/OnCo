@@ -385,7 +385,7 @@ const pairings: PairingInput[] = [
 ];
 
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-mrd-guided-transplant-aml", name: "MRD-guided transplant decisions in intermediate-risk AML", maturity: "being-tested-at-scale",
+  idea({ id: "idea-mrd-guided-transplant-aml", links: [{ label: "ClinicalTrials.gov NCT05564390: myeloMATCH", url: "https://clinicaltrials.gov/study/NCT05564390" }], name: "MRD-guided transplant decisions in intermediate-risk AML", maturity: "being-tested-at-scale",
     tldr: "Use ultra-sensitive residual-disease tests after induction to decide who really needs a transplant, sparing the rest its risks.",
     summary: "The idea is to use ultra-sensitive residual disease tests, NPM1 qPCR or error-corrected NGS, after two cycles of induction to decide which intermediate-risk acute myeloid leukaemia patients really need an allogeneic transplant. MRD status is the strongest predictor of relapse, transplant carries substantial risk, and its benefit concentrates in MRD-positive patients; ELN 2022 already recommends transplant for them, but randomised confirmation is lacking. The hypothesis is that MRD-negative patients can receive chemotherapy consolidation instead with equal overall survival and less toxicity. The test randomises MRD-negative patients to transplant or consolidation with MRD surveillance; myeloMATCH, HOVON and AMLSG trials already stratify by MRD, so it is being tested at scale.",
     hypothesis: "Intermediate-risk AML patients who are MRD-negative by NPM1 qPCR or error-corrected NGS after two cycles can safely receive chemotherapy consolidation instead of allogeneic transplant, with equal OS and less toxicity.",

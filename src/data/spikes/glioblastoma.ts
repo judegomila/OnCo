@@ -179,7 +179,7 @@ const entities: EntityInput[] = [
 
   // ======================= IDEAS =======================
   {
-    id: "idea-neoadjuvant-io-glioblastoma", kind: "idea", name: "Neoadjuvant immunotherapy with surgical window for glioblastoma", maturity: "early-clinical", asOf,
+    id: "idea-neoadjuvant-io-glioblastoma", links: [{ label: "ClinicalTrials.gov NCT02667587: CheckMate 548 & CheckMate 143 & CheckMate 498", url: "https://clinicaltrials.gov/study/NCT02667587" }], kind: "idea", name: "Neoadjuvant immunotherapy with surgical window for glioblastoma", maturity: "early-clinical", asOf,
     tldr: "Give immunotherapy before surgery rather than after, so the tumour is still present to teach the immune system, then look inside it to learn what happened.",
     summary: "A Nature Medicine 2019 study by Cloughesy and colleagues showed that neoadjuvant pembrolizumab in recurrent glioblastoma increased interferon signatures and T-cell clonal expansion and was associated with longer OS than adjuvant-only in a small randomised study, the only positive checkpoint signal in the disease. Window-of-opportunity designs (GESTALT, ASCO 2026) show feasibility.",
     hypothesis: "Neoadjuvant PD-1 blockade ± vaccine or CAR-T, with steroid minimisation, improves OS in recurrent glioblastoma compared with adjuvant-only administration.",

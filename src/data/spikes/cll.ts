@@ -247,7 +247,7 @@ const pairings: PairingInput[] = [
 ];
 
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-mrd-guided-stop-cll", name: "MRD-guided treatment duration in CLL", maturity: "being-tested-at-scale",
+  idea({ id: "idea-mrd-guided-stop-cll", links: [{ label: "ClinicalTrials.gov NCT02910583: CAPTIVATE", url: "https://clinicaltrials.gov/study/NCT02910583" }, { label: "ClinicalTrials.gov NCT06073821: CELESTIAL-TNCLL", url: "https://clinicaltrials.gov/study/NCT06073821" }], name: "MRD-guided treatment duration in CLL", maturity: "being-tested-at-scale",
     tldr: "Instead of a fixed 12 or 15 months, stop each patient's therapy when their blood shows no detectable leukaemia, and restart if it returns.",
     summary: "The idea is to stop each chronic lymphocytic leukaemia patient's fixed-duration therapy when an NGS-based MRD assay such as clonoSEQ shows no detectable leukaemia in blood, and to restart at relapse, rather than treating everyone for a fixed twelve or fifteen months. Undetectable MRD at the end of treatment is the strongest predictor of progression-free survival, and patients with mutated IGHV reach it earlier and stay in remission longer. The hypothesis is non-inferior progression-free survival with a third less drug exposure. CAPTIVATE's MRD-guided cohort and FLAIR's MRD-directed arm suggest this is feasible, SPRUCE-TN with sonrotoclax and zanubrutinib formalises it, and retreatment at relapse works in most patients; the idea is being tested at scale.",
     hypothesis: "MRD-guided duration (stop at confirmed uMRD ≤10^-4, or continue to a maximum) yields PFS non-inferior to fixed 12-15 months while reducing drug exposure by a third.",

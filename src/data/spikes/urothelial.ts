@@ -249,7 +249,7 @@ const pairings: PairingInput[] = [
 ];
 
 const ideas: IdeaInput[] = [
-  { id: "idea-bladder-preservation-mibc", kind: "idea", name: "Bladder preservation for MIBC after perioperative EV + pembrolizumab complete response", maturity: "early-clinical", asOf,
+  { id: "idea-bladder-preservation-mibc", links: [{ label: "ClinicalTrials.gov NCT03924895: EV-303 / KEYNOTE-905", url: "https://clinicaltrials.gov/study/NCT03924895" }, { label: "ClinicalTrials.gov NCT04700124: EV-304 / KEYNOTE-B15", url: "https://clinicaltrials.gov/study/NCT04700124" }], kind: "idea", name: "Bladder preservation for MIBC after perioperative EV + pembrolizumab complete response", maturity: "early-clinical", asOf,
     tldr: "If the ADC-immunotherapy combination erases the tumour in more than half of patients before surgery, some may not need their bladder removed at all.",
     summary: "pCR 57% in EV-303 and high pCR in EV-304 raise the question that dostarlimab answered in dMMR rectal cancer: can complete responders skip surgery? Trials (e.g., SunRISe-4 arms, MODERN, and investigator-led bladder-sparing studies) are beginning to test cystectomy omission with ctDNA and MRI-guided surveillance.",
     hypothesis: "Patients with clinical complete response (cystoscopy, MRI, ctDNA-negative) after EV + pembrolizumab can defer cystectomy with a 2-year bladder-intact event-free survival above 70%.",

@@ -354,7 +354,7 @@ const trials: TrialInput[] = [
 
 // ======================= IDEAS =======================
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-psma-pet-guided-mdt", name: "PSMA-PET-guided metastasis-directed therapy as a curative strategy in oligorecurrent prostate cancer", maturity: "being-tested-at-scale",
+  idea({ id: "idea-psma-pet-guided-mdt", links: [{ label: "ORIOLE: observation versus stereotactic ablative radiation for oligometastatic prostate cancer (JAMA Oncology 2020)", url: "https://doi.org/10.1001/jamaoncol.2020.0147" }], name: "PSMA-PET-guided metastasis-directed therapy as a curative strategy in oligorecurrent prostate cancer", maturity: "being-tested-at-scale",
     tldr: "When PSMA PET finds only a few spots after surgery, zap each spot with focused radiation and delay or avoid lifelong hormone therapy.",
     summary: "The idea is to use PSMA PET after prostate surgery to find the few sites of recurrence and treat each with stereotactic radiotherapy plus short-course androgen deprivation. The oligometastatic state is real in prostate cancer, the radiotherapy is ablative and cheap, and PSMA PET removes the staging blind spot that undermined older trials such as ORIOLE and STOMP. The hypothesis is better metastasis-free and ADT-free survival than systemic therapy alone, though whether it changes survival or merely postpones hormone therapy is unproven. The test is a randomised phase 3 with PSMA PET at baseline and progression and ctDNA as a stratifier; PEACE V/STORM and NRG GU011 are under way, so it is being tested at scale.",
     hypothesis: "PSMA-PET-directed SBRT to ≤5 metastases, with short-course ADT, improves metastasis-free and ADT-free survival versus systemic therapy alone in oligorecurrent disease.",

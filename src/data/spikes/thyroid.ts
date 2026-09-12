@@ -197,7 +197,7 @@ const pairings: PairingInput[] = [
 
 // ======================= IDEAS =======================
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-thyroid-overdiagnosis-reversal", name: "Ultrasound restraint and surveillance to reverse thyroid cancer overdiagnosis", maturity: "being-tested-at-scale",
+  idea({ id: "idea-thyroid-overdiagnosis-reversal", links: [{ label: "Ahn et al., Korea's thyroid cancer epidemic: screening and overdiagnosis (NEJM 2014)", url: "https://doi.org/10.1056/NEJMp1409841" }], name: "Ultrasound restraint and surveillance to reverse thyroid cancer overdiagnosis", maturity: "being-tested-at-scale",
     tldr: "Most thyroid cancers found today would never have hurt anyone. Screen less, watch small ones, and operate only when they grow.",
     summary: "The idea is that health systems can reverse thyroid cancer overdiagnosis by screening less with ultrasound, adopting TI-RADS thresholds for biopsy, and placing papillary cancers of 1 cm or less under active surveillance, operating only when they grow. Incidence has tripled in many countries since the 1990s while deaths stayed flat, autopsies find occult papillary cancer in many adults, and the Kuma Hospital and MSK cohorts show surveillance is safe. The hypothesis is that these policies can halve thyroidectomy rates without increasing thyroid cancer deaths; South Korea's screening-driven epidemic reversed once screening was discouraged. The test is registry comparison before and after policy change; the idea addresses the overdiagnosis bottleneck.",
     hypothesis: "Health systems adopting TI-RADS biopsy thresholds and active surveillance for ≤1 cm papillary cancers can halve thyroidectomy rates without increasing thyroid cancer mortality.",

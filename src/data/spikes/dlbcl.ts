@@ -235,7 +235,7 @@ const pairings: PairingInput[] = [
 ];
 
 const ideas: IdeaInput[] = [
-  idea({ id: "idea-ctdna-guided-dlbcl-frontline", name: "ctDNA-guided escalation and de-escalation in frontline DLBCL", maturity: "early-clinical",
+  idea({ id: "idea-ctdna-guided-dlbcl-frontline", links: [{ label: "Kurtz et al., Circulating tumour DNA measurements as early outcome predictors in diffuse large B-cell lymphoma (Journal of Clinical Oncology 2018)", url: "https://doi.org/10.1200/JCO.2018.78.5246" }], name: "ctDNA-guided escalation and de-escalation in frontline DLBCL", maturity: "early-clinical",
     tldr: "Use an ultra-sensitive blood test after two cycles to decide who needs more than R-CHOP and who can stop early.",
     summary: "The idea is to use an ultra-sensitive ctDNA assay such as PhasED-seq after two cycles of R-CHOP in frontline diffuse large B-cell lymphoma to decide who needs escalation and who can stop early. Interim PET has poor positive predictive value, whereas ctDNA clearance after cycle 2 or at end of treatment predicts cure better, and ctDNA kinetics track outcome across cohorts. The hypothesis is that patients with undetectable ctDNA after two cycles do as well with four cycles as six, while those with detectable ctDNA benefit from switching to a bispecific-containing regimen such as epcoritamab-R-CHOP. The test is a randomised response-adapted trial with ctDNA-defined arms, non-inferior for de-escalation and superior for escalation on event-free survival.",
     hypothesis: "Patients with undetectable ctDNA after two cycles of R-CHOP have equivalent EFS with 4 versus 6 cycles; patients with detectable ctDNA benefit from switching to a bispecific-containing regimen.",

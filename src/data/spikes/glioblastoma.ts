@@ -188,7 +188,7 @@ const entities: EntityInput[] = [
     drugs: ["pembrolizumab", "nivolumab"], cancers: ["glioblastoma"], technologies: ["checkpoint-inhibitor", "glioma-car-t"], trials: ["checkmate-548"], terms: ["neoadjuvant-adjuvant", "cold-vs-hot"],
   },
   {
-    id: "idea-fus-plus-adc-glioma", kind: "idea", name: "Focused-ultrasound BBB opening to deliver ADCs and radioligands to glioma", maturity: "preclinical-evidence", asOf,
+    id: "idea-fus-plus-adc-glioma", links: [{ label: "Sonabend et al., Repeated blood-brain barrier opening with an implantable ultrasound device for delivery of albumin-bound paclitaxel in glioblastoma (Lancet Oncology 2023)", url: "https://doi.org/10.1016/S1470-2045(23)00112-2" }], kind: "idea", name: "Focused-ultrasound BBB opening to deliver ADCs and radioligands to glioma", maturity: "preclinical-evidence", asOf,
     tldr: "Brain tumours have targets that ADCs could hit, but antibodies cannot cross the barrier. Open the barrier with ultrasound first.",
     summary: "Depatuxizumab mafodotin (EGFR ADC) failed in INTELLANCE-1 partly through poor CNS penetration. Focused ultrasound raises antibody delivery several-fold in humans (Insightec, Carthera trials). Combining BBB opening with EGFR/EGFRvIII or B7-H3 ADCs, or with 177Lu/225Ac radioconjugates, is untested clinically.",
     hypothesis: "Opening the blood-brain barrier with focused ultrasound immediately before ADC or radioconjugate infusion achieves therapeutic intratumoural concentrations and objective responses in recurrent glioblastoma.",

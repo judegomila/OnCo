@@ -284,7 +284,7 @@ const ideas: IdeaInput[] = [
     rationale: "Post-operative ctDNA has a hazard ratio for recurrence near 10 and outperforms every clinicopathologic feature.",
     test: "CIRCULATE-US / NRG-GI005 (COBRA) style randomised platform with pre-specified escalation arms; DFS primary endpoint.",
     technologies: ["mrd-testing"], drugs: ["signatera", "folfox"], cancers: ["colorectal"], trials: ["dynamic", "circulate-japan"], terms: ["mrd"] },
-  { id: "idea-immunotherapy-mss-crc", kind: "idea", name: "Making microsatellite-stable colorectal cancer immunotherapy-responsive", maturity: "early-clinical", asOf,
+  { id: "idea-immunotherapy-mss-crc", links: [{ label: "Bullock et al., Botensilimab plus balstilimab in relapsed or refractory microsatellite-stable colorectal cancer (Nature Medicine 2024)", url: "https://doi.org/10.1038/s41591-024-03083-7" }], kind: "idea", name: "Making microsatellite-stable colorectal cancer immunotherapy-responsive", maturity: "early-clinical", asOf,
     tldr: "Ninety-five percent of bowel cancers ignore immunotherapy. Combinations that heat the tumour up (targeted drugs, radiation, new checkpoints) are the main hope.",
     summary: "MSS CRC has few neoantigens, TGF-β-rich stroma, and liver metastases that induce systemic tolerance. Approaches: botensilimab + balstilimab (Fc-enhanced anti-CTLA-4; ~20% ORR in liver-metastasis-free MSS CRC), KRAS G12C inhibitor + PD-1, anti-EGFR + PD-1 in RAS wild-type (AVETUX), radiation to liver metastases, CEA-directed T-cell engagers.",
     hypothesis: "Fc-enhanced CTLA-4 blockade plus PD-1 blockade, restricted to MSS CRC without active liver metastases, will show an OS benefit over trifluridine/tipiracil-based therapy in third line.",

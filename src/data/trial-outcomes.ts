@@ -45,7 +45,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     outcomes: [
       { endpoint: "Progression-free survival, PD-L1+ (SP142 IC ≥1%)", primary: true, unit: "months", arms: [{ name: "Atezolizumab + nab-paclitaxel", n: 185, value: 7.5 }, { name: "Placebo + nab-paclitaxel", n: 184, value: 5.0 }], hr: 0.62, ci: [0.49, 0.78], p: "<0.001", source: nejm("NEJMoa1809615") },
       { endpoint: "Overall survival, PD-L1+", unit: "months", arms: [{ name: "Atezolizumab + nab-paclitaxel", value: 25.4 }, { name: "Placebo + nab-paclitaxel", value: 17.9 }], hr: 0.67, ci: [0.53, 0.86], note: "Not formally tested under the hierarchical design", source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(19)30689-8/fulltext" },
-      { endpoint: "Overall survival, ITT", unit: "months", arms: [{ name: "Atezolizumab + nab-paclitaxel", value: 21.0 }, { name: "Placebo + nab-paclitaxel", value: 18.7 }], hr: 0.87, ci: [0.75, 1.02], note: "Not significant" },
+      { endpoint: "Overall survival, ITT", unit: "months", arms: [{ name: "Atezolizumab + nab-paclitaxel", value: 21.0 }, { name: "Placebo + nab-paclitaxel", value: 18.7 }], hr: 0.87, ci: [0.75, 1.02], note: "Not significant", source: "https://doi.org/10.1056/NEJMoa1809615" },
     ],
     replication: "Not replicated: IMpassion131 with paclitaxel was negative, leading to US withdrawal in 2021. KEYNOTE-355 confirmed the broader concept of chemo-immunotherapy in PD-L1-high disease.",
   },
@@ -81,7 +81,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     outcomes: [
       { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Datopotamab deruxtecan", n: 365, value: 6.9 }, { name: "Chemotherapy (ICC)", n: 367, value: 4.9 }], hr: 0.63, ci: [0.52, 0.76], p: "<0.0001", source: "https://ascopubs.org/doi/10.1200/JCO.24.00920" },
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Datopotamab deruxtecan", value: 18.6 }, { name: "Chemotherapy (ICC)", value: 18.3 }], hr: 1.01, ci: [0.83, 1.22], note: "Not significant", source: ct("NCT05104866") },
-      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Datopotamab deruxtecan", value: 36.4 }, { name: "Chemotherapy (ICC)", value: 22.9 }] },
+      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Datopotamab deruxtecan", value: 36.4 }, { name: "Chemotherapy (ICC)", value: 22.9 }], source: "https://doi.org/10.1200/JCO.24.00920" },
     ],
     replication: "PFS-only benefit; the OS result did not replicate the PFS signal. The HR+ population is also served by TROPiCS-02 (sacituzumab), which did show an OS benefit.",
   },
@@ -235,7 +235,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     outcomes: [
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Tarlatamab", n: 254, value: 13.6 }, { name: "Chemotherapy (topotecan, lurbinectedin, or amrubicin)", n: 255, value: 8.3 }], hr: 0.60, ci: [0.47, 0.77], p: "<0.001", source: ct("NCT05740566") },
       { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Tarlatamab", value: 4.2 }, { name: "Chemotherapy", value: 3.7 }], hr: 0.71, ci: [0.59, 0.86], source: ct("NCT05740566") },
-      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Tarlatamab", value: 35 }, { name: "Chemotherapy", value: 20 }] },
+      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Tarlatamab", value: 35 }, { name: "Chemotherapy", value: 20 }], source: "https://doi.org/10.1056/NEJMoa2502099" },
     ],
     replication: "Confirms the single-arm DeLLphi-301 result (ORR 40%) that supported accelerated approval; first-line data (DeLLphi-305) pending.",
   },
@@ -413,7 +413,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     enrolled: 345,
     outcomes: [
       { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Sotorasib", n: 171, value: 5.6 }, { name: "Docetaxel", n: 174, value: 4.5 }], hr: 0.66, ci: [0.51, 0.86], p: "0.0017", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)00221-0/fulltext" },
-      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Sotorasib", value: 10.6 }, { name: "Docetaxel", value: 11.3 }], hr: 1.01, note: "Not significant; crossover permitted" },
+      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Sotorasib", value: 10.6 }, { name: "Docetaxel", value: 11.3 }], hr: 1.01, note: "Not significant; crossover permitted", source: "https://doi.org/10.1016/S0140-6736(23)00221-0" },
     ],
     replication: "Consistent with KRYSTAL-12 (adagrasib) on PFS; the FDA declined full approval at the 960 mg dose pending further data.",
   },

@@ -57,7 +57,7 @@ const trials: TrialInput[] = [
     result: "OS 13.2 vs 10.6 months (HR 0.73); PFS HR 0.54.",
     outcomes: [
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Lurbinectedin + atezolizumab", n: 242, value: 13.2 }, { name: "Atezolizumab", n: 241, value: 10.6 }], hr: 0.73, ci: [0.57, 0.95], source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)01011-6/abstract" },
-      { endpoint: "Progression-free survival (IRF)", primary: true, unit: "months", arms: [{ name: "Lurbinectedin + atezolizumab", value: 5.4 }, { name: "Atezolizumab", value: 2.1 }], hr: 0.54, ci: [0.43, 0.67] },
+      { endpoint: "Progression-free survival (IRF)", primary: true, unit: "months", arms: [{ name: "Lurbinectedin + atezolizumab", value: 5.4 }, { name: "Atezolizumab", value: 2.1 }], hr: 0.54, ci: [0.43, 0.67], source: "https://doi.org/10.1016/S0140-6736(25)01011-6" },
     ],
     replication: "Single phase 3; the maintenance concept is being tested with tarlatamab (DeLLphi-305) and I-DXd.",
     drugs: ["lurbinectedin", "atezolizumab"], cancers: ["sclc"], links: [ct("NCT05091567"), { label: "FDA approval (Oct 2025)", url: "https://www.roche.com/media/releases/med-cor-2025-10-03b" }] }),

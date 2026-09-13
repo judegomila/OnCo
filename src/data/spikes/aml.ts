@@ -331,7 +331,7 @@ const trials: TrialInput[] = [
     tldr: "The trial that turned menin inhibition from an idea into the first approved drug for KMT2A-rearranged leukaemia.",
     summary: "KMT2Ar cohort (n=57 efficacy population): CR+CRh 22.8%, ORR 63.2%, most CR/CRh MRD-negative; median OS ~8 months. JCO 2024. Led to November 2024 approval in KMT2Ar acute leukaemia (adults and children ≥1 year) and, with the NPM1 cohort, to the October 2025 NPM1 approval. Differentiation syndrome and QT prolongation were the key toxicities; MEN1 resistance mutations emerged in about a third of relapsing patients.",
     result: "CR+CRh 22.8%, ORR 63.2% in KMT2Ar cohort.",
-    outcomes: [{ endpoint: "CR + CRh (KMT2Ar cohort)", primary: true, unit: "%", arms: [{ name: "Revumenib", n: 57, value: 22.8 }], source: "https://ascopubs.org/doi/10.1200/JCO.24.00826" }, { endpoint: "Overall response rate", unit: "%", arms: [{ name: "Revumenib", value: 63.2 }] }],
+    outcomes: [{ endpoint: "CR + CRh (KMT2Ar cohort)", primary: true, unit: "%", arms: [{ name: "Revumenib", n: 57, value: 22.8 }], source: "https://ascopubs.org/doi/10.1200/JCO.24.00826" }, { endpoint: "Overall response rate", unit: "%", arms: [{ name: "Revumenib", value: 63.2 }], source: "https://doi.org/10.1200/JCO.24.00826" }],
     replication: "KOMET-001 (ziftomenib, a different menin inhibitor) produced a similar CR rate in NPM1-mutated AML, confirming the target.",
     drugs: ["revumenib"], cancers: ["aml", "all-leukemia"], targets: ["menin", "kmt2a", "npm1"], terms: ["differentiation-syndrome"], links: [ct("NCT04065399")], people: ["eytan-stein", "ghayas-issa"] }),
   t({ id: "komet-001", name: "KOMET-001", nct: "NCT04067336", phase: "1/2", status: "positive", yearReported: 2025, sponsor: "Kura Oncology", enrolled: 112,

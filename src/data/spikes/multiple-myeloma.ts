@@ -152,7 +152,7 @@ const trials: TrialInput[] = [
     result: "PFS HR 0.42; 48-month PFS 84.3% vs 67.7%.",
     outcomes: [
       { endpoint: "Progression-free survival at 48 months", primary: true, unit: "%", arms: [{ name: "Dara-VRd", n: 355, value: 84.3 }, { name: "VRd", n: 354, value: 67.7 }], hr: 0.42, ci: [0.30, 0.59], p: "<0.0001", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2312054" },
-      { endpoint: "MRD negativity (10⁻⁵)", unit: "%", arms: [{ name: "Dara-VRd", value: 75.2 }, { name: "VRd", value: 47.5 }] },
+      { endpoint: "MRD negativity (10⁻⁵)", unit: "%", arms: [{ name: "Dara-VRd", value: 75.2 }, { name: "VRd", value: 47.5 }], source: "https://doi.org/10.1056/NEJMoa2312054" },
     ],
     replication: "Consistent with GRIFFIN (phase 2) and with CASSIOPEIA (Dara-VTd); Isa-VRd in IsKia and IMROZ show the same class effect.",
     drugs: ["daratumumab", "bortezomib", "lenalidomide"], cancers: ["multiple-myeloma"], technologies: ["autologous-stem-cell-transplant"], terms: ["mrd-negativity-myeloma"], links: [ct("NCT03710603"), { label: "NEJM 2024", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2312054" }], people: ["pieter-sonneveld"] }),
@@ -184,7 +184,7 @@ const trials: TrialInput[] = [
     result: "PFS HR 0.26; OS HR 0.55.",
     outcomes: [
       { endpoint: "Progression-free survival", primary: true, arms: [{ name: "Cilta-cel", n: 208 }, { name: "Standard care", n: 211 }], hr: 0.26, ci: [0.18, 0.38], p: "<0.001", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2303379" },
-      { endpoint: "Overall survival", arms: [{ name: "Cilta-cel" }, { name: "Standard care" }], hr: 0.55, ci: [0.39, 0.79] },
+      { endpoint: "Overall survival", arms: [{ name: "Cilta-cel" }, { name: "Standard care" }], hr: 0.55, ci: [0.39, 0.79], source: "https://doi.org/10.1056/NEJMoa2303379" },
     ],
     replication: "KarMMa-3 (ide-cel) showed a PFS benefit of similar direction but smaller size (HR 0.49) without a clear OS benefit.",
     drugs: ["ciltacabtagene-autoleucel"], cancers: ["multiple-myeloma"], technologies: ["car-t"], links: [ct("NCT04181827")], people: ["jesus-san-miguel"] }),

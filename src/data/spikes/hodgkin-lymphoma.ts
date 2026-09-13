@@ -73,7 +73,7 @@ const trials: TrialInput[] = [
     result: "2-year PFS 92% vs 83%, HR 0.45.",
     outcomes: [
       { endpoint: "Progression-free survival at 2 years", primary: true, unit: "%", arms: [{ name: "Nivolumab-AVD", n: 489, value: 92 }, { name: "BV-AVD", n: 487, value: 83 }], hr: 0.45, ci: [0.30, 0.65], p: "<0.001", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2405888" },
-      { endpoint: "Any-grade peripheral neuropathy", unit: "%", arms: [{ name: "Nivolumab-AVD", value: 28.1 }, { name: "BV-AVD", value: 54.2 }] },
+      { endpoint: "Any-grade peripheral neuropathy", unit: "%", arms: [{ name: "Nivolumab-AVD", value: 28.1 }, { name: "BV-AVD", value: 54.2 }], source: "https://doi.org/10.1056/NEJMoa2405888" },
     ],
     replication: "Consistent with phase 2 N-AVD data (CheckMate 205 cohort D) and with pembrolizumab-AVD single-arm studies; no second randomised trial yet.",
     drugs: ["nivolumab", "brentuximab-vedotin", "doxorubicin"], cancers: ["hodgkin-lymphoma"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], institutions: ["swog", "childrens-oncology-group"], links: [ct("NCT03907488"), { label: "FDA approval (Mar 2026)", url: "https://www.targetedonc.com/view/fda-approves-nivolumab-plus-avd-for-classical-hodgkin-lymphoma" }], people: ["kara-kelly", "alex-herrera"], related: ["src-targeted-oncology"] }),

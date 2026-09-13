@@ -118,6 +118,7 @@ function Refs({ ids }: { ids: string[] }) {
 function websiteView(url: string): { label: string; text: string } {
   const m = url.match(/^https?:\/\/web\.archive\.org\/web\/\d+\/(https?:\/\/.+)$/);
   if (m) return { label: "Archived website", text: m[1].replace(/^https?:\/\//, "") };
+  if (/^https?:\/\/(www\.)?ycombinator\.com\/companies\//.test(url)) return { label: "Y Combinator profile", text: url.replace(/^https?:\/\//, "") };
   return { label: "Website", text: url.replace(/^https?:\/\//, "") };
 }
 

@@ -273,6 +273,7 @@ export const hi: UiDict = {
   "l.Type": "प्रकार",
   "l.Website": "वेबसाइट",
   "l.Archived website": "संग्रहीत वेबसाइट",
+  "l.Y Combinator profile": "Y Combinator प्रोफ़ाइल",
   "l.Founded": "स्थापना",
   "l.Location": "स्थान",
   "l.Newsweek 2026 oncology rank": "Newsweek 2026 ऑन्कोलॉजी रैंक",

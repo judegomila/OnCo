@@ -273,6 +273,7 @@ export const ar: UiDict = {
   "l.Type": "النوع",
   "l.Website": "الموقع الإلكتروني",
   "l.Archived website": "موقع إلكتروني مؤرشف",
+  "l.Y Combinator profile": "ملف Y Combinator",
   "l.Founded": "التأسيس",
   "l.Location": "الموقع",
   "l.Newsweek 2026 oncology rank": "ترتيب Newsweek 2026 في الأورام",

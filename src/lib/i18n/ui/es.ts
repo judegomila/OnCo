@@ -273,6 +273,7 @@ export const es: UiDict = {
   "l.Type": "Tipo",
   "l.Website": "Sitio web",
   "l.Archived website": "Sitio web archivado",
+  "l.Y Combinator profile": "Perfil en Y Combinator",
   "l.Founded": "Fundación",
   "l.Location": "Ubicación",
   "l.Newsweek 2026 oncology rank": "Puesto Newsweek 2026 en oncología",

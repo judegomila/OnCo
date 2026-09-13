@@ -103,7 +103,7 @@ const drugs: DrugInput[] = [
     mechanism: "Type I inhibitor binding the active conformation of KIT/PDGFRA, potent against D842V and exon 17 mutations.",
     dosing: { route: "Oral", schedule: "300 mg once daily (GIST); 200 mg (advanced SM); 25 mg (indolent SM)", monitoring: "Cognitive effects, intracranial haemorrhage risk (avoid with thrombocytopenia), oedema" },
     toxicity: [{ event: "Cognitive effects", anyGradePct: 40, note: "NAVIGATOR 300-400 mg" }, { event: "Intracranial haemorrhage", anyGradePct: 1, note: "in GIST cohorts" }, { event: "Periorbital oedema", anyGradePct: 45 }],
-    approvals: [{ region: "US", year: 2020, indication: "Unresectable/metastatic GIST with PDGFRA exon 18 mutation including D842V" }, { region: "US", year: 2021, indication: "Advanced systemic mastocytosis" }],
+    approvals: [{ region: "US", year: 2020, indication: "Unresectable/metastatic GIST with PDGFRA exon 18 mutation including D842V" }, { region: "US", year: 2021, indication: "Advanced systemic mastocytosis" }, { region: "EU", year: 2020, indication: "EU brand Ayvakyt" }],
     targets: ["kit"], technologies: ["kinase-inhibitors"], companies: ["sanofi"], cancers: ["sarcoma", "systemic-mastocytosis"], trials: ["voyager"] }),
   d({ id: "nirogacestat", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Nirogacestat" }], name: "Nirogacestat", brand: "Ogsiveo", modality: "Small-molecule gamma-secretase inhibitor", status: "approved", wikipedia: W("Nirogacestat"),
     tldr: "Nirogacestat is the first approved medicine for desmoid tumours, locally invasive growths that do not spread but can be crippling; it works by blocking Notch signalling.",

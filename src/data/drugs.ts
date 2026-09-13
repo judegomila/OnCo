@@ -45,11 +45,9 @@ const baseDrugs: DrugInput[] = [
     tldr: "Datopotamab deruxtecan (Datroway) is the second TROP2 ADC and shares Enhertu's payload. In 2026 it became a first-line option for triple-negative breast cancer patients who cannot receive immunotherapy.",
     summary: "Approved January 2025 for HR+/HER2- metastatic breast cancer after endocrine and chemotherapy (TROPION-Breast01) and June 2025 for EGFR-mutant NSCLC after TKI and chemotherapy (TROPION-Lung05). In Q2 2026 approved for first-line unresectable/metastatic TNBC in patients ineligible for PD-1/PD-L1 inhibitors based on TROPION-Breast02 (OS 23.7 vs 18.7 months per patient-facing summaries). Lower DAR than T-DXd; stomatitis and ocular surface events are characteristic; ILD occurs. TROPION-Breast05 tests it with durvalumab in PD-L1+ TNBC.",
     mechanism: "Humanised anti-TROP2 IgG1 with DXd; internalisation, lysosomal release, TOP1 inhibition, bystander effect.",
-    approvals: [
-      { region: "US", year: 2025, indication: "HR+/HER2- metastatic breast cancer after endocrine therapy and chemotherapy" },
+    approvals: [{ region: "US", year: 2025, indication: "HR+/HER2- metastatic breast cancer after endocrine therapy and chemotherapy" },
       { region: "US", year: 2025, indication: "EGFR-mutant NSCLC after EGFR TKI and platinum chemotherapy" },
-      { region: "US", year: 2026, indication: "First-line unresectable/metastatic TNBC, PD-1/PD-L1 inhibitor ineligible" },
-    ],
+      { region: "US", year: 2026, indication: "First-line unresectable/metastatic TNBC, PD-1/PD-L1 inhibitor ineligible" }, { region: "EU", year: 2025, indication: "HR+/HER2- mBC after endocrine + chemo; 4 Apr 2025" }],
     targets: ["trop2"], technologies: ["adc", "topoisomerase-inhibitors"], companies: ["daiichi-sankyo", "astrazeneca"],
     cancers: ["tnbc", "breast-hr-positive", "nsclc"], trials: ["tropion-breast01", "tropion-breast02", "tropion-breast05", "tropion-lung01"], terms: ["ggfg"],
   },
@@ -84,10 +82,8 @@ const baseDrugs: DrugInput[] = [
     tldr: "Enfortumab vedotin is an ADC against Nectin-4 that, combined with pembrolizumab, nearly doubled survival in advanced bladder cancer.",
     summary: "EV-302 (2023): enfortumab vedotin plus pembrolizumab versus platinum chemotherapy in first-line advanced urothelial cancer, OS 31.5 vs 16.1 months (HR 0.47). Now the global standard. Being tested in muscle-invasive bladder cancer (EV-303/304, positive in 2025). Rash, neuropathy, and hyperglycaemia are class effects.",
     mechanism: "Fully human anti-Nectin-4 IgG1; MMAE released by cathepsin B; bystander killing.",
-    approvals: [
-      { region: "US", year: 2019, indication: "Advanced urothelial cancer after platinum and PD-1/PD-L1 (accelerated)" },
-      { region: "US", year: 2023, indication: "First-line advanced urothelial cancer with pembrolizumab" },
-    ],
+    approvals: [{ region: "US", year: 2019, indication: "Advanced urothelial cancer after platinum and PD-1/PD-L1 (accelerated)" },
+      { region: "US", year: 2023, indication: "First-line advanced urothelial cancer with pembrolizumab" }, { region: "EU", year: 2022, indication: "mUC after platinum + PD-1; 1L with pembrolizumab 2024" }],
     targets: ["nectin4"], technologies: ["adc"], companies: ["astellas", "pfizer"], cancers: ["urothelial"], trials: ["ev-302"], terms: ["mc-vc-pabc"],
   },
   {
@@ -105,7 +101,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Mirvetuximab soravtansine (Elahere) is the first ADC for ovarian cancer, for tumours with high folate receptor alpha.",
     summary: "Mirvetuximab soravtansine (Elahere) is an anti-folate-receptor-alpha antibody carrying the maytansinoid DM4 (drug-to-antibody ratio about 3.5) through a cleavable sulfo-SPDB disulfide linker, and the released payload crosses membranes to kill neighbouring cells. It is the first ADC for ovarian cancer, given at 6 mg/kg every 3 weeks for FRα-high platinum-resistant disease. Accelerated approval in 2022 rested on SORAYA, and full approval in 2024 followed MIRASOL, which showed overall survival of 16.5 versus 12.7 months against chemotherapy; EMA approval came in late 2024. Ocular toxicity defines the side-effect profile, with blurred vision in 45 percent and keratopathy in 37 percent of MIRASOL patients, so eye examinations and steroid and lubricating drops are built into treatment. Combination and earlier-line trials are ongoing. It works in ovarian cancer at the price of careful eye care.",
     mechanism: "Anti-FRα antibody with DM4; bystander-capable after disulfide cleavage.",
-    approvals: [{ region: "US", year: 2022, indication: "FRα-high platinum-resistant ovarian cancer (full approval 2024)" }],
+    approvals: [{ region: "US", year: 2022, indication: "FRα-high platinum-resistant ovarian cancer (full approval 2024)" }, { region: "EU", year: 2024, indication: "FRα+ platinum-resistant ovarian; 14 Nov 2024" }],
     targets: ["folr1"], technologies: ["adc"], companies: ["abbvie"], cancers: ["ovarian"], terms: ["sulfo-spdb", "ocular-toxicity"],
   },
   {
@@ -132,7 +128,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Loncastuximab tesirine (Zynlonta) is a CD19 ADC with a DNA-crosslinking payload for relapsed large B-cell lymphoma.",
     summary: "Loncastuximab tesirine (Zynlonta) is a humanised anti-CD19 antibody carrying SG3199, a pyrrolobenzodiazepine (PBD) dimer that forms interstrand DNA crosslinks, through a cleavable valine-alanine linker at a drug-to-antibody ratio of about 2.3. It is given at 0.15 mg/kg every 3 weeks for two cycles, then 0.075 mg/kg, with dexamethasone premedication, for relapsed or refractory DLBCL after two or more lines. Accelerated approval in 2021 rested on LOTIS-2 (objective response rate 48 percent), and the EU granted conditional authorisation in 2022. PBD payloads are extremely potent but bring oedema and effusions, photosensitivity, thrombocytopenia and raised GGT, toxicities that have limited the class in solid tumours. Its place alongside CD19 CAR-T and CD20 bispecifics remains to be settled. It is a CD19-directed ADC with a DNA-crosslinking payload for lymphoma that has come back.",
     mechanism: "Humanised anti-CD19 with PBD dimer; interstrand DNA crosslinks.",
-    approvals: [{ region: "US", year: 2021, indication: "Relapsed/refractory DLBCL after ≥2 systemic therapies" }],
+    approvals: [{ region: "US", year: 2021, indication: "Relapsed/refractory DLBCL after ≥2 systemic therapies" }, { region: "EU", year: 2022, indication: "R/R DLBCL ≥2 lines (conditional)" }],
     targets: ["cd19"], technologies: ["adc"], companies: ["adc-therapeutics"], cancers: ["dlbcl"], terms: ["val-ala"],
   },
   {
@@ -150,7 +146,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "A myeloma ADC that was withdrawn in 2022 then came back in 2025 after strong trials in earlier lines.",
     summary: "Belantamab mafodotin is an afucosylated anti-BCMA IgG1 antibody linked through a non-cleavable linker to MMAF, a non-permeable tubulin inhibitor; it kills through the payload and through enhanced antibody-dependent cellular cytotoxicity. It received accelerated approval in 2020 for myeloma after four or more lines (DREAMM-2), was withdrawn in 2022 when DREAMM-3 failed to confirm benefit, and returned in 2025 in the US and EU for relapsed or refractory myeloma after at least one prior line, after DREAMM-7 (with bortezomib and dexamethasone) and DREAMM-8 (with pomalidomide and dexamethasone) showed progression-free and overall survival benefits. Dosing is 2.5 mg/kg every 3 weeks in DREAMM-7 or 2.5 then 1.9 mg/kg every 4 weeks in DREAMM-8. Keratopathy occurs in most patients and carries a boxed warning, so an ophthalmology-based REMS is required.",
     mechanism: "Afucosylated anti-BCMA IgG1 with MMAF; ADCC plus payload.",
-    approvals: [{ region: "US", year: 2020, indication: "Relapsed myeloma ≥4 lines (accelerated; withdrawn 2022)" }, { region: "US", year: 2025, indication: "Relapsed/refractory myeloma after ≥1 prior line, in combination" }],
+    approvals: [{ region: "US", year: 2020, indication: "Relapsed myeloma ≥4 lines (accelerated; withdrawn 2022)" }, { region: "US", year: 2025, indication: "Relapsed/refractory myeloma after ≥1 prior line, in combination" }, { region: "EU", year: 2025, indication: "R/R myeloma with BorDex or PomDex; 23 Jul 2025" }],
     targets: ["bcma"], technologies: ["adc"], companies: ["gsk"], cancers: ["multiple-myeloma"], terms: ["mc-non-cleavable"],
   },
   {
@@ -372,7 +368,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "A two-armed antibody that blocks EGFR and its escape partner MET, now first-line for EGFR-mutant lung cancer with lazertinib.",
     summary: "Amivantamab is a low-fucose bispecific IgG1 antibody that binds EGFR and MET at once, with enhanced ADCC and trogocytosis. It is approved for EGFR exon 20 insertion NSCLC (2021, with chemotherapy 2024, PAPILLON), first-line common EGFR mutations with lazertinib (MARIPOSA, 2024; OS benefit shown 2025), and post-osimertinib with chemotherapy (MARIPOSA-2). In MARIPOSA the combination extended progression-free survival to 23.7 versus 16.6 months against osimertinib (HR 0.70) and improved overall survival (HR 0.75). The cost is rash, nail toxicity and venous thromboembolism needing prophylactic anticoagulation; a subcutaneous formulation (2025) reduces infusion reactions. Whether the extra benefit justifies the extra burden is still debated. For a newcomer: the first regimen to beat the standard EGFR pill, at the price of more side effects.",
     mechanism: "Low-fucose bispecific IgG1 blocking EGFR and MET with enhanced ADCC/trogocytosis.",
-    approvals: [{ region: "US", year: 2021, indication: "EGFR exon 20 insertion NSCLC" }, { region: "US", year: 2024, indication: "First-line EGFR-mutant NSCLC with lazertinib" }],
+    approvals: [{ region: "US", year: 2021, indication: "EGFR exon 20 insertion NSCLC" }, { region: "US", year: 2024, indication: "First-line EGFR-mutant NSCLC with lazertinib" }, { region: "EU", year: 2021, indication: "Exon 20; 1L with lazertinib Jan 2025" }],
     targets: ["egfr", "met"], technologies: ["bispecific-antibody"], companies: ["johnson-johnson"], cancers: ["nsclc"], trials: ["mariposa"],
   },
   {
@@ -448,7 +444,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "A radioactive drug that seeks out PSMA on prostate cancer cells; the best-selling radiopharmaceutical ever.",
     summary: "VISION (2021): OS 15.3 vs 11.3 months in post-chemotherapy mCRPC. PSMAfore (2023) led to a 2025 label before chemotherapy. July 2026 FDA action further expanded the label (per AACR/FDA roundups). PSMAddition tests it in hormone-sensitive disease. Requires PSMA PET positivity. Six cycles every 6 weeks; xerostomia, cytopenias, renal monitoring.",
     mechanism: "Small-molecule PSMA ligand chelated to 177Lu; beta emission with 2 mm range.",
-    approvals: [{ region: "US", year: 2022, indication: "PSMA+ mCRPC after ARPI and taxane" }, { region: "US", year: 2025, indication: "PSMA+ mCRPC after ARPI, before chemotherapy" }, { region: "US", year: 2026, indication: "Label expansion (July 2026)" }],
+    approvals: [{ region: "US", year: 2022, indication: "PSMA+ mCRPC after ARPI and taxane" }, { region: "US", year: 2025, indication: "PSMA+ mCRPC after ARPI, before chemotherapy" }, { region: "US", year: 2026, indication: "Label expansion (July 2026)" }, { region: "EU", year: 2022, indication: "mCRPC post-ARPI and taxane; pre-chemo 2025" }],
     targets: ["psma"], technologies: ["radioligand-therapy", "psma-pet"], companies: ["novartis"], cancers: ["prostate"], trials: ["vision", "psmafore"], people: ["louise-emmett"],
   },
   {
@@ -456,7 +452,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Lutetium-177 dotatate was the first modern radioligand therapy (2018), for neuroendocrine tumours, and is now used in first line.",
     summary: "Lutetium-177 dotatate is a radioligand therapy: the somatostatin analogue DOTATATE binds SSTR2 on neuroendocrine tumour cells and carries the beta emitter 177Lu into them, irradiating over a few millimetres. NETTER-1 established it in midgut NETs progressing on octreotide, and NETTER-2 (2024) moved it into first line for higher grade-2 and grade-3 GEP-NETs with PFS 22.8 versus 8.5 months. It was approved in 2018 for SSTR-positive GEP-NETs, with paediatric use from age 12 added in 2024. Dosing is 7.4 GBq every 8 weeks for 4 doses with an amino acid infusion to protect the kidneys; lymphopenia is common, and myelodysplastic syndrome (2.3%) and acute leukaemia (0.5%) are rare late risks. Alpha-emitting successors RYZ101 and AlphaMedix are in phase 3. For a newcomer: the first modern radioligand therapy and the template for a whole class.",
     mechanism: "SSTR2 agonist peptide with 177Lu.",
-    approvals: [{ region: "US", year: 2018, indication: "SSTR+ GEP-NETs" }, { region: "US", year: 2024, indication: "Paediatric ≥12 years; first-line (NETTER-2 label)" }],
+    approvals: [{ region: "US", year: 2018, indication: "SSTR+ GEP-NETs" }, { region: "US", year: 2024, indication: "Paediatric ≥12 years; first-line (NETTER-2 label)" }, { region: "EU", year: 2017, indication: "First approval globally (Sep 2017)" }],
     targets: ["sstr2"], technologies: ["radioligand-therapy"], companies: ["novartis"], cancers: ["neuroendocrine"], terms: ["prrt-term"],
   },
   {
@@ -519,7 +515,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Adagrasib was the second KRAS G12C inhibitor, with a long half-life and brain penetration, and is approved in lung and colorectal cancer.",
     summary: "Adagrasib is a covalent KRAS G12C inhibitor with a 24-hour half-life and brain penetration, dosed at 600 mg twice daily to keep the target continuously occupied. It was approved in 2022 (accelerated) for previously treated KRAS G12C NSCLC on KRYSTAL-1, with KRYSTAL-12 as the randomised follow-on, and in 2024 with cetuximab for KRAS G12C colorectal cancer on the KRYSTAL-1 combination cohort. Mirati developed it and was acquired by Bristol Myers Squibb in 2024. Gastrointestinal toxicity is frequent (diarrhoea 70%, nausea 69%), with hepatotoxicity (37%) and QT prolongation (20%) also needing monitoring. Activity in brain metastases is the main argument for choosing it over sotorasib, but resistance still develops within months. For a newcomer: the second KRAS G12C pill, distinguished by its long action and brain reach.",
     mechanism: "Covalent KRAS G12C inhibitor, 24-hour half-life.",
-    approvals: [{ region: "US", year: 2022, indication: "KRAS G12C NSCLC (accelerated)" }, { region: "US", year: 2024, indication: "KRAS G12C colorectal cancer with cetuximab" }],
+    approvals: [{ region: "US", year: 2022, indication: "KRAS G12C NSCLC (accelerated)" }, { region: "US", year: 2024, indication: "KRAS G12C colorectal cancer with cetuximab" }, { region: "EU", year: 2024, indication: "KRAS G12C NSCLC after ≥1 line; 5 Jan 2024 (conditional)", note: "Conditional marketing authorisation" }],
     targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["bms"], cancers: ["nsclc", "colorectal"],
   },
   {
@@ -616,7 +612,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Capivasertib (Truqap) is the first AKT inhibitor, for breast cancer with PI3K-pathway mutations and, since 2026, for prostate cancer with PTEN loss.",
     summary: "Capivasertib is an ATP-competitive pan-AKT inhibitor given intermittently at 400 mg twice daily for 4 days on and 3 days off, a schedule chosen to limit hyperglycaemia and rash. It was approved in 2023 with fulvestrant for HR-positive, HER2-negative advanced breast cancer carrying PIK3CA, AKT1 or PTEN alterations after CAPItello-291, and in Q2 2026 with abiraterone for PTEN-deficient metastatic hormone-sensitive prostate cancer after CAPItello-281, the first AKT inhibitor in either disease. AstraZeneca markets it. Diarrhoea (77%, 12% grade 3 or higher) and cutaneous reactions (56%, 15%) are the main toxicities. The breast label is limited to tumours with a pathway alteration, and sequencing against PI3K-alpha inhibitors such as inavolisib is unresolved. For a newcomer: a pill that blocks the AKT node of the PI3K pathway in tumours that have switched it on.",
     mechanism: "ATP-competitive pan-AKT inhibitor, intermittent 4-days-on/3-off dosing.",
-    approvals: [{ region: "US", year: 2023, indication: "HR+/HER2- breast cancer with PIK3CA/AKT1/PTEN alteration, with fulvestrant" }, { region: "US", year: 2026, indication: "PTEN-deficient metastatic prostate cancer with abiraterone" }],
+    approvals: [{ region: "US", year: 2023, indication: "HR+/HER2- breast cancer with PIK3CA/AKT1/PTEN alteration, with fulvestrant" }, { region: "US", year: 2026, indication: "PTEN-deficient metastatic prostate cancer with abiraterone" }, { region: "EU", year: 2024, indication: "ER+/HER2- mBC with PIK3CA/AKT1/PTEN alteration; 17 Jun 2024" }],
     targets: ["akt", "pik3ca"], technologies: ["kinase-inhibitors"], companies: ["astrazeneca"], cancers: ["breast-hr-positive", "prostate"],
   },
   {
@@ -624,7 +620,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Inavolisib is a PI3K drug that also destroys the mutant protein, approved in 2024 with palbociclib and fulvestrant for PIK3CA-mutant breast cancer.",
     summary: "Inavolisib is a PI3K-alpha-selective inhibitor that also promotes degradation of the mutant p110-alpha protein, combining enzyme blockade with removal of the target. It is taken as 9 mg once daily with palbociclib and fulvestrant, and was approved in 2024 for PIK3CA-mutant HR-positive, HER2-negative advanced breast cancer on INAVO120, where the triplet improved progression-free survival to 15.0 versus 7.3 months in endocrine-resistant disease, with an overall survival benefit reported in 2025. Roche/Genentech developed it. Hyperglycaemia, stomatitis, neutropenia and rash are the main adverse events. INAVO120 enrolled patients relapsing during or soon after adjuvant endocrine therapy, so its value in other PIK3CA-mutant settings is still being defined. For a newcomer: a PI3K drug that both blocks and destroys the mutant protein.",
     mechanism: "PI3Kα-selective inhibitor that promotes degradation of mutant p110α.",
-    approvals: [{ region: "US", year: 2024, indication: "PIK3CA-mutant HR+/HER2- advanced breast cancer with palbociclib and fulvestrant" }],
+    approvals: [{ region: "US", year: 2024, indication: "PIK3CA-mutant HR+/HER2- advanced breast cancer with palbociclib and fulvestrant" }, { region: "EU", year: 2025, indication: "PIK3CA-mutant ER+/HER2- mBC with palbociclib + fulvestrant; 18 Jul 2025" }],
     targets: ["pik3ca"], technologies: ["kinase-inhibitors"], companies: ["roche-genentech"], cancers: ["breast-hr-positive"], terms: ["hyperglycaemia"], related: ["pi3k-pathway-plus-endocrine"],
   },
   {
@@ -656,7 +652,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Belzutifan is the first HIF-2α inhibitor, born from Nobel-winning biology, and is now approved after kidney cancer surgery with pembrolizumab.",
     summary: "Belzutifan is a small-molecule HIF-2-alpha inhibitor that blocks HIF-2-alpha from dimerising with ARNT, silencing the hypoxia programme that drives clear-cell kidney cancer when VHL is lost; it is taken as 120 mg once daily. It was approved in 2021 for VHL disease-associated renal cell carcinoma, CNS haemangioblastoma and pancreatic neuroendocrine tumours, in 2023 for advanced RCC after PD-1/PD-L1 and VEGF-TKI therapy (LITESPARK-005), in 2025 for pheochromocytoma and paraganglioma, and in Q2 2026 as adjuvant therapy for clear-cell RCC with pembrolizumab (LITESPARK-022). Merck markets it. Anaemia and hypoxia are on-mechanism effects because HIF-2-alpha regulates erythropoietin. Whether the adjuvant benefit translates into survival, and which patients respond, remain open. For a newcomer: the first drug from the Nobel-winning biology of how cells sense oxygen.",
     mechanism: "Blocks HIF-2α/ARNT dimerisation.",
-    approvals: [{ region: "US", year: 2021, indication: "VHL-associated RCC, CNS haemangioblastoma, pNET" }, { region: "US", year: 2023, indication: "Advanced RCC after PD-1/PD-L1 and VEGF-TKI" }, { region: "US", year: 2026, indication: "Adjuvant clear-cell RCC with pembrolizumab" }],
+    approvals: [{ region: "US", year: 2021, indication: "VHL-associated RCC, CNS haemangioblastoma, pNET" }, { region: "US", year: 2023, indication: "Advanced RCC after PD-1/PD-L1 and VEGF-TKI" }, { region: "US", year: 2026, indication: "Adjuvant clear-cell RCC with pembrolizumab" }, { region: "EU", year: 2025, indication: "ccRCC after ≥2 lines; VHL-associated tumours; 12 Feb 2025 (conditional)", note: "Conditional marketing authorisation" }],
     targets: ["hif2a"], technologies: ["kinase-inhibitors"], companies: ["merck"], cancers: ["rcc"],
   },
   {
@@ -788,7 +784,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "The FDA-approved tissue (324 genes) and blood genomic tests that serve as companion diagnostics for dozens of drugs.",
     summary: "FoundationOne CDx is Foundation Medicine's (Roche) tissue-based comprehensive genomic profiling test, using hybrid-capture next-generation sequencing of 324 genes to report mutations, copy-number changes, fusions, tumour mutational burden, microsatellite instability and homologous recombination deficiency by loss of heterozygosity; FoundationOne Liquid CDx applies the approach to circulating tumour DNA in blood. The tissue test was FDA-approved in 2017 and the liquid test in 2020. They are companion diagnostics for more than 30 therapies, including olaparib, capivasertib, trastuzumab deruxtecan for HER2-mutant NSCLC and selpercatinib, so one report can open several treatment doors at once. Tissue-blood concordance and unequal access remain issues. For a newcomer: a single sequencing test that tells an oncologist which targeted drugs a tumour might respond to.",
     mechanism: "Hybrid-capture NGS of 324 genes.",
-    approvals: [{ region: "US", year: 2017, indication: "Tissue CGP companion diagnostic (Liquid CDx 2020)" }],
+    approvals: [{ region: "US", year: 2017, indication: "Tissue CGP companion diagnostic (Liquid CDx 2020)" }, { region: "EU", year: 2019, indication: "CE-IVD" }],
     technologies: ["cgp", "companion-diagnostic", "liquid-biopsy"], companies: ["foundation-medicine"], related: ["tmb-testing"],
   },
   {

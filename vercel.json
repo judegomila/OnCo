@@ -230,6 +230,11 @@
       "source": "/collections/src-cancer-org-asco/:path*",
       "destination": "/collections/american-cancer-society/:path*",
       "permanent": true
+    },
+    {
+      "source": "/companies/kheiron/:path*",
+      "destination": "/companies/kheiron-medical-technologies/:path*",
+      "permanent": true
     }
   ]
 }

@@ -100,7 +100,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["wes-wgs", "methylation-profiling"], companies: ["pacbio", "oxford-nanopore"],
   }),
   t({
-    id: "next-gen-short-read-platforms", name: "New short-read sequencing platforms", sections: ["diagnostics"], status: "emerging",
+    id: "next-gen-short-read-platforms", links: [{ label: "Almogy et al., Cost-efficient whole-genome sequencing using mostly natural sequencing-by-synthesis chemistry (Ultima Genomics, bioRxiv 2022)", url: "https://doi.org/10.1101/2022.05.29.493900" }], name: "New short-read sequencing platforms", sections: ["diagnostics"], status: "emerging",
     tldr: "New short-read sequencing platforms from Ultima Genomics, Element Biosciences, Roche and MGI compete with Illumina by cutting the cost per gigabase, with Ultima claiming a genome under 100 dollars. Cheaper reads make whole-genome tumour-normal sequencing and deep ctDNA testing affordable in principle, but clinical assays must be revalidated and Illumina's installed base still dominates.",
     summary: "Ultima Genomics (UG 100, sub-$100 genome claims), Element Biosciences (AVITI), Roche's sequencing-by-expansion (SBX, launched 2025-26), MGI/Complete Genomics, and Singular Genomics compete with Illumina's NovaSeq X. Lower cost per gigabase enables whole-genome tumour-normal sequencing, high-depth ctDNA, and single-cell studies at scale; clinical validation and installed base still favour Illumina.",
     principle: "Massively parallel sequencing-by-synthesis or expansion chemistry with optical or electronic readout on flow cells or open wafers.",

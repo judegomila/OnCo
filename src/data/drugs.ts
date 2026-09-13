@@ -50,7 +50,7 @@ const baseDrugs: DrugInput[] = [
     cancers: ["tnbc", "breast-hr-positive", "nsclc"], trials: ["tropion-breast01", "tropion-breast02", "tropion-breast05", "tropion-lung01"], terms: ["ggfg"],
   },
   {
-    id: "sacituzumab-tirumotecan", kind: "drug", name: "Sacituzumab tirumotecan", code: "sac-TMT, MK-2870, SKB264", modality: "ADC", asOf, status: "phase-3",
+    id: "sacituzumab-tirumotecan", kind: "drug", name: "Sacituzumab tirumotecan", code: "sac-TMT, MK-2870, SKB264", modality: "ADC", asOf, status: "approved",
     payload: "T030 (belotecan-derived TOP1 inhibitor), DAR ~7.4", linker: "Sulfonyl pyrimidine (CL2A-like), pH-sensitive and enzyme-cleavable",
     tldr: "Sacituzumab tirumotecan is Kelun-Biotech's TROP2 ADC, approved in China in 2024 for pretreated triple-negative breast cancer and then EGFR-mutant lung cancer. Merck holds rights outside Greater China and runs the TroFuse programme of more than ten phase 3 trials across breast, lung, endometrial and cervical cancer; in the US it holds a priority voucher but no approval yet.",
     summary: "Kelun-Biotech's sac-TMT was approved by China's NMPA in 2024 for pretreated TNBC (the first TROP2 ADC approval in China) and later for EGFR-mutant NSCLC. Merck holds ex-Greater-China rights and runs the TroFuse programme of >10 phase 3 trials, including first-line TNBC (positive on primary endpoint per 2026 reports), HR+ breast, NSCLC, endometrial, and cervical cancer, many combined with pembrolizumab. FDA Breakthrough Therapy designation (EGFR-mutant NSCLC, 2024) and a Commissioner's National Priority Voucher (July 2026).",
@@ -386,7 +386,7 @@ const baseDrugs: DrugInput[] = [
     targets: ["her2", "her3"], technologies: ["bispecific-antibody"], companies: ["merus"], cancers: ["nsclc", "pancreatic", "cholangiocarcinoma"],
   },
   {
-    id: "ivonescimab", links: [{ label: "ClinicalTrials.gov: trials of Ivonescimab", url: "https://clinicaltrials.gov/search?intr=AK112" }], kind: "drug", name: "Ivonescimab", code: "AK112, SMT112", modality: "Bispecific antibody (PD-1×VEGF)", asOf, status: "phase-3",
+    id: "ivonescimab", links: [{ label: "ClinicalTrials.gov: trials of Ivonescimab", url: "https://clinicaltrials.gov/search?intr=AK112" }], kind: "drug", name: "Ivonescimab", code: "AK112, SMT112", modality: "Bispecific antibody (PD-1×VEGF)", asOf, status: "approved",
     tldr: "A Chinese bispecific that beat Keytruda head-to-head on progression-free survival in lung cancer, the first drug ever to do so.",
     summary: "HARMONi-2 (China): PFS 11.1 vs 5.8 months versus pembrolizumab in PD-L1+ first-line NSCLC. Approved in China (2024) for EGFR-mutant NSCLC after TKI (HARMONi-A) and first-line PD-L1+ NSCLC. Summit Therapeutics holds Western rights; HARMONi (global, EGFR-mutant post-TKI) met PFS but OS was not statistically significant in 2025; HARMONi-3 (squamous and non-squamous first-line) ongoing. Spawned a wave of PD-(L)1×VEGF bispecifics (Pfizer/3SBio, BMS/BioNTech, Merck/LaNova).",
     mechanism: "Tetravalent PD-1×VEGF-A bispecific with cooperative binding: VEGF binding increases PD-1 affinity, concentrating activity in tumour.",

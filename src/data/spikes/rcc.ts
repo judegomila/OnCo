@@ -151,7 +151,7 @@ const drugs: DrugInput[] = [
     mechanismSteps: ["Oral dosing 3 weeks on / 1 off", "Potent VEGFR blockade with minimal PDGFR/KIT inhibition", "Less hand-foot syndrome and diarrhoea than multi-targeted TKIs"],
     dosing: { route: "Oral", schedule: "1.34 mg daily, 21 days on / 7 days off", monitoring: "Blood pressure, thyroid, liver enzymes" },
     toxicity: [{ event: "Hypertension", anyGradePct: 44 }, { event: "Fatigue", anyGradePct: 43 }, { event: "Diarrhoea", anyGradePct: 33 }, { event: "Hand-foot syndrome", anyGradePct: 15 }],
-    approvals: [{ region: "US", year: 2021, indication: "Relapsed/refractory advanced RCC after ≥2 prior systemic therapies" }],
+    approvals: [{ region: "US", year: 2021, indication: "Relapsed/refractory advanced RCC after ≥2 prior systemic therapies" }, { region: "EU", year: 2017, indication: "EU first (Aug 2017)" }],
     targets: ["vegf"], technologies: ["kinase-inhibitors", "antiangiogenic"], companies: ["aveo"], cancers: ["rcc"], trials: ["tinivo-2"] }),
 ];
 

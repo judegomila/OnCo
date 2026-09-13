@@ -12,7 +12,7 @@ const entities: EntityInput[] = [
     tldr: "The only chemotherapy proven to extend life in glioblastoma, given during and after radiation. It works best when the tumour has switched off a repair gene called MGMT.",
     summary: "Stupp/EORTC 26981-NCIC (2005): adding concurrent and adjuvant temozolomide to radiotherapy raised median OS from 12.1 to 14.6 months and 2-year survival from 10% to 27%. Benefit concentrates in MGMT-promoter-methylated tumours (median OS ~23 months vs ~13 months unmethylated). Also standard with radiotherapy in grade 3 astrocytoma (CATNON) and, with PCV as an alternative, in oligodendroglioma. Oral, well tolerated; lymphopenia and hypermutation at recurrence are the costs.",
     mechanism: "Prodrug of MTIC; methylates O6-guanine; cytotoxicity depends on unrepaired lesions when MGMT is silenced.",
-    approvals: [{ region: "US", year: 1999, indication: "Refractory anaplastic astrocytoma" }, { region: "US", year: 2005, indication: "Newly diagnosed glioblastoma with radiotherapy" }],
+    approvals: [{ region: "US", year: 1999, indication: "Refractory anaplastic astrocytoma" }, { region: "US", year: 2005, indication: "Newly diagnosed glioblastoma with radiotherapy" }, { region: "EU", year: 1999, indication: "Temodal; malignant glioma (recurrent 1999; newly diagnosed glioblastoma with radiotherapy 2005); 26 Jan 1999" }],
     technologies: ["cytotoxic-chemotherapy", "imrt-igrt"], cancers: ["glioblastoma"], trials: ["eortc-26981"], terms: ["mgmt"], links: [{ label: "Wikipedia", url: W("Temozolomide") }],
   },
   {

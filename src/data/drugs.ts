@@ -12,11 +12,9 @@ const baseDrugs: DrugInput[] = [
     tldr: "The first TROP2-targeted ADC. It delivers a strong chemotherapy directly to breast and bladder cancer cells and is now a first-line option in triple-negative breast cancer.",
     summary: "Approved 2020 (accelerated) and 2021 (full) for pretreated metastatic TNBC (ASCENT: OS 12.1 vs 6.7 months), 2023 for HR+/HER2- breast cancer (TROPiCS-02), and urothelial cancer (later withdrawn in the US after TROPiCS-04). In 2026 the FDA approved it in first-line metastatic TNBC as monotherapy for patients not eligible for PD-1 inhibitors (ASCENT-03) and in combination with pembrolizumab for PD-L1-positive disease (ASCENT-04). Hydrolysable linker releases SN-38 in the tumour microenvironment, giving bystander killing. Neutropenia and diarrhoea are the key toxicities; UGT1A1*28 homozygotes are at higher risk.",
     mechanism: "Humanised anti-TROP2 IgG1 (hRS7) internalised; SN-38 released by linker hydrolysis inside and around tumour cells.",
-    approvals: [
-      { region: "US", year: 2020, indication: "Metastatic TNBC, ≥2 prior lines (accelerated; full 2021)" },
+    approvals: [{ region: "US", year: 2020, indication: "Metastatic TNBC, ≥2 prior lines (accelerated; full 2021)" },
       { region: "US", year: 2023, indication: "HR+/HER2- metastatic breast cancer after endocrine therapy and ≥2 chemotherapies" },
-      { region: "US", year: 2026, indication: "First-line metastatic TNBC: monotherapy (PD-1 ineligible) or with pembrolizumab (PD-L1 CPS ≥10)" },
-    ],
+      { region: "US", year: 2026, indication: "First-line metastatic TNBC: monotherapy (PD-1 ineligible) or with pembrolizumab (PD-L1 CPS ≥10)" }, { region: "EU", year: 2021, indication: "mTNBC ≥2 lines; HR+ 2023" }],
     targets: ["trop2"], technologies: ["adc", "topoisomerase-inhibitors"], companies: ["gilead"],
     cancers: ["tnbc", "breast-hr-positive", "urothelial"], trials: ["ascent", "ascent-03", "ascent-04"],
     terms: ["bystander-effect", "payload", "cl2a"],
@@ -110,7 +108,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Tisotumab vedotin is an ADC against tissue factor, the first to show a survival benefit in recurrent cervical cancer.",
     summary: "Tisotumab vedotin is a fully human anti-tissue-factor IgG1 antibody joined to the microtubule inhibitor MMAE through a cleavable mc-vc-PABC linker; tissue factor is abundant on cervical cancer cells, and the released payload kills the target cell and its neighbours. It is given at 2 mg/kg every 3 weeks for recurrent or metastatic cervical cancer after chemotherapy. Accelerated approval in 2021 followed innovaTV 204, and full approval in 2024 followed innovaTV 301, in which overall survival was 11.5 versus 9.5 months against chemotherapy in second- and third-line disease, the first survival benefit in this setting. Conjunctival disorders affected 37 percent, so eye exams, steroid and vasoconstrictor drops and cold packs during infusion are required; epistaxis (26 percent) and haemorrhage (21 percent) reflect the tissue-factor target.",
     mechanism: "Human anti-tissue-factor IgG1 with MMAE.",
-    approvals: [{ region: "US", year: 2021, indication: "Recurrent/metastatic cervical cancer after chemotherapy (full 2024)" }],
+    approvals: [{ region: "US", year: 2021, indication: "Recurrent/metastatic cervical cancer after chemotherapy (full 2024)" }, { region: "EU", year: 2025, indication: "Recurrent/metastatic cervical after systemic therapy; 28 Mar 2025" }],
     targets: ["tissue-factor"], technologies: ["adc"], companies: ["pfizer", "genmab"], cancers: ["cervical"], terms: ["mc-vc-pabc"],
   },
   {
@@ -302,7 +300,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Opdualag combines relatlimab, the first drug targeting the LAG-3 immune brake, with nivolumab for melanoma.",
     summary: "Opdualag is a fixed-dose combination of relatlimab, an antibody against the LAG-3 checkpoint, and nivolumab, an anti-PD-1 antibody, given as one infusion of nivolumab 480 mg with relatlimab 160 mg every 4 weeks. Because LAG-3 and PD-1 sit on the same exhausted T cells, releasing both brakes at once restores T-cell function more fully than PD-1 blockade alone. In RELATIVITY-047, in untreated advanced melanoma, progression-free survival was 10.1 versus 4.6 months compared with nivolumab alone, with less toxicity than ipilimumab-nivolumab. It was approved in 2022 in the US for unresectable or metastatic melanoma in patients aged 12 and over, the first LAG-3 therapy, and in the EU for PD-L1-negative melanoma. Fatigue, rash, thyroid dysfunction and adrenal insufficiency occur, and myocarditis is rare but monitored. Adjuvant and other tumour trials are ongoing.",
     mechanism: "Anti-LAG-3 plus anti-PD-1 in one infusion.",
-    approvals: [{ region: "US", year: 2022, indication: "Unresectable or metastatic melanoma, age ≥12" }],
+    approvals: [{ region: "US", year: 2022, indication: "Unresectable or metastatic melanoma, age ≥12" }, { region: "EU", year: 2022, indication: "Melanoma, PD-L1 <1% restriction" }],
     targets: ["lag3", "pd1"], technologies: ["checkpoint-inhibitor"], companies: ["bms"], cancers: ["melanoma"],
   },
   {
@@ -328,7 +326,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "The first T-cell engager to improve survival in a common solid tumour, small-cell lung cancer.",
     summary: "Accelerated approval May 2024 (DeLLphi-301, ORR 40%); DeLLphi-304 phase 3 (2025) showed OS 13.6 vs 8.3 months versus chemotherapy in second-line SCLC, converting to full approval. First-line combination with PD-L1 (DeLLphi-305) and limited-stage trials ongoing. CRS in ~50% (mostly grade 1-2); step-up dosing with monitoring.",
     mechanism: "Half-life-extended BiTE binding DLL3 on tumour and CD3 on T cells.",
-    approvals: [{ region: "US", year: 2024, indication: "Extensive-stage SCLC after platinum chemotherapy" }],
+    approvals: [{ region: "US", year: 2024, indication: "Extensive-stage SCLC after platinum chemotherapy" }, { region: "EU", year: 2026, indication: "ES-SCLC after platinum-based chemotherapy; 29 May 2026" }],
     targets: ["dll3", "cd3"], technologies: ["t-cell-engager"], companies: ["amgen"], cancers: ["sclc"], trials: ["dellphi-304"], terms: ["crs"],
   },
   {
@@ -336,7 +334,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Teclistamab was the first off-the-shelf bispecific for multiple myeloma, and is now approved after just one prior line of therapy.",
     summary: "Teclistamab is a humanised IgG4 DuoBody bispecific that binds BCMA on myeloma cells with one arm and CD3 on T cells with the other, forming an artificial immune synapse that kills the tumour cell independent of MHC. It was the first off-the-shelf bispecific for myeloma, given subcutaneously after step-up doses of 0.06 and 0.3 mg/kg, then 1.5 mg/kg weekly, with less frequent dosing in sustained responders. Accelerated approval in 2022 rested on MajesTEC-1 in heavily pretreated myeloma (objective response rate 63 percent), and in the first quarter of 2026 the label expanded to relapsed or refractory myeloma after at least one prior therapy, with daratumumab, based on MajesTEC-3. Cytokine release syndrome occurred in 72 percent of MajesTEC-1 patients but was severe in under 1 percent, and serious infections affected 30 to 54 percent across trials, so infection prophylaxis is essential.",
     mechanism: "Humanised IgG4 BCMA×CD3 DuoBody.",
-    approvals: [{ region: "US", year: 2022, indication: "Relapsed/refractory myeloma after ≥4 lines" }, { region: "US", year: 2026, indication: "Relapsed/refractory myeloma after ≥1 prior therapy" }],
+    approvals: [{ region: "US", year: 2022, indication: "Relapsed/refractory myeloma after ≥4 lines" }, { region: "US", year: 2026, indication: "Relapsed/refractory myeloma after ≥1 prior therapy" }, { region: "EU", year: 2022, indication: "R/R myeloma ≥3 lines (conditional, Aug 2022)", note: "Conditional marketing authorisation" }],
     targets: ["bcma", "cd3"], technologies: ["t-cell-engager"], companies: ["johnson-johnson"], cancers: ["multiple-myeloma"],
   },
   {
@@ -376,7 +374,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Zanidatamab (Ziihera) is an antibody that grabs HER2 at two different spots, approved for HER2+ bile duct cancer.",
     summary: "Accelerated approval November 2024 for HER2+ biliary tract cancer (HERIZON-BTC-01). HERIZON-GEA-01 phase 3 in first-line HER2+ gastro-oesophageal cancer with chemotherapy ± tislelizumab was positive (2025). Jazz (ex-Asia) and BeOne. Biparatopic binding drives receptor clustering and internalisation, the basis of the ADC zanidatamab zovodotin.",
     mechanism: "Binds ECD2 and ECD4 of HER2 simultaneously; clustering, internalisation, ADCC.",
-    approvals: [{ region: "US", year: 2024, indication: "HER2+ (IHC 3+) unresectable/metastatic biliary tract cancer, previously treated" }],
+    approvals: [{ region: "US", year: 2024, indication: "HER2+ (IHC 3+) unresectable/metastatic biliary tract cancer, previously treated" }, { region: "EU", year: 2025, indication: "HER2+ biliary tract after ≥1 line; 27 Jun 2025 (conditional)", note: "Conditional marketing authorisation" }],
     targets: ["her2"], technologies: ["bispecific-antibody"], companies: ["jazz", "zymeworks", "beone"], cancers: ["cholangiocarcinoma", "gastric"],
   },
   {
@@ -460,7 +458,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Piflufolastat F-18 (Pylarify) is the leading PSMA PET tracer for prostate cancer, with a new formulation approved in March 2026.",
     summary: "Piflufolastat F-18 is a PET tracer: an 18F-labelled urea that binds prostate-specific membrane antigen (PSMA), lighting up prostate cancer deposits that conventional CT and bone scan miss. It was approved in 2021 for PSMA PET in initial staging and biochemical recurrence, and Lantheus' Pylarify TruVu formulation, approved on 9 March 2026, offers an improved formulation and distribution profile. A single 333 MBq dose is injected and imaging follows 60 to 120 minutes later; adverse effects are minor. The 18F label allows central manufacture and shipping, unlike generator-produced 68Ga agents, and it competes with Illuccix/Gozellix (68Ga, Telix), Locametz (Novartis) and Posluma. The open question is whether the management changes PSMA PET triggers translate into longer survival. For a newcomer: the leading tracer for seeing where prostate cancer actually is.",
     mechanism: "18F-labelled PSMA-binding urea.",
-    approvals: [{ region: "US", year: 2021, indication: "PSMA PET imaging in prostate cancer" }, { region: "US", year: 2026, indication: "Pylarify TruVu formulation" }],
+    approvals: [{ region: "US", year: 2021, indication: "PSMA PET imaging in prostate cancer" }, { region: "US", year: 2026, indication: "Pylarify TruVu formulation" }, { region: "EU", year: 2023, indication: "EU brand Pylclari (Curium)" }],
     targets: ["psma"], technologies: ["psma-pet"], companies: ["lantheus"], cancers: ["prostate"],
   },
   {
@@ -507,7 +505,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Sotorasib (Lumakras) was the first drug to hit KRAS, approved in 2021 after four decades of failure.",
     summary: "Sotorasib is a covalent inhibitor that binds cysteine 12 in the switch-II pocket of mutant KRAS, locking KRAS G12C in its inactive GDP-bound state; it was the first drug to hit KRAS, approved in 2021 after four decades of failure. CodeBreaK 100 gave a 37% response rate in previously treated NSCLC, CodeBreaK 200 showed a progression-free survival advantage over docetaxel, and CodeBreaK 300 with panitumumab in colorectal cancer gave PFS 5.6 versus 2.2 months (HR 0.49), leading to approval in January 2025. The label dose is 960 mg daily, with 240 mg an optional lower dose in NSCLC; hepatotoxicity (25%, 12% grade 3 or higher) is the main concern. Full approval in NSCLC still awaits confirmatory data, and resistance emerges faster than with EGFR or ALK drugs. For a newcomer: proof that the 'undruggable' KRAS could be drugged, with modest but real benefit.",
     mechanism: "Covalent binder to cysteine-12 in the switch-II pocket, locking KRAS G12C in the inactive GDP state.",
-    approvals: [{ region: "US", year: 2021, indication: "KRAS G12C NSCLC, previously treated (accelerated)" }, { region: "US", year: 2025, indication: "KRAS G12C colorectal cancer with panitumumab" }],
+    approvals: [{ region: "US", year: 2021, indication: "KRAS G12C NSCLC, previously treated (accelerated)" }, { region: "US", year: 2025, indication: "KRAS G12C colorectal cancer with panitumumab" }, { region: "EU", year: 2022, indication: "EU brand Lumykras", note: "Conditional marketing authorisation" }],
     targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["amgen"], cancers: ["nsclc", "colorectal"], trials: ["codebreak-300"],
   },
   {
@@ -540,7 +538,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Selpercatinib is a selective RET inhibitor approved for any tumour with a RET fusion, with a further label update in July 2026.",
     summary: "Selpercatinib is a selective RET kinase inhibitor, designed to avoid the off-target VEGFR effects of older multikinase drugs, taken as 160 mg twice daily. LIBRETTO-001 showed a response rate of about 84% in treatment-naive RET-fusion NSCLC, LIBRETTO-431 beat chemo-immunotherapy first line, and LIBRETTO-531 beat cabozantinib or vandetanib in RET-mutant medullary thyroid cancer. It was approved in 2020 for RET-fusion NSCLC and thyroid cancer and RET-mutant MTC, gained a tumour-agnostic RET-fusion indication in 2022, and a July 2026 FDA action is listed among that month's oncology approvals. Hypertension, raised transaminases and QT prolongation are the main adverse events. Acquired resistance through RET solvent-front mutations and bypass pathways is the current limit. For a newcomer: a pill that works wherever a RET fusion drives the cancer, regardless of organ.",
     mechanism: "Highly selective RET TKI.",
-    approvals: [{ region: "US", year: 2020, indication: "RET-fusion NSCLC and thyroid; RET-mutant MTC" }, { region: "US", year: 2022, indication: "RET-fusion solid tumours (tumour-agnostic)" }, { region: "US", year: 2026, indication: "Label update (July 2026)" }],
+    approvals: [{ region: "US", year: 2020, indication: "RET-fusion NSCLC and thyroid; RET-mutant MTC" }, { region: "US", year: 2022, indication: "RET-fusion solid tumours (tumour-agnostic)" }, { region: "US", year: 2026, indication: "Label update (July 2026)" }, { region: "EU", year: 2021, indication: "EU brand Retsevmo" }],
     targets: ["ret"], technologies: ["kinase-inhibitors"], companies: ["eli-lilly"], cancers: ["thyroid", "nsclc"],
   },
   {
@@ -676,7 +674,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "The first targeted therapy for low-grade brain tumours, delaying the need for radiation and chemotherapy by years.",
     summary: "Vorasidenib is a brain-penetrant dual inhibitor of mutant IDH1 and IDH2 that lowers the oncometabolite 2-hydroxyglutarate (2-HG), which drives the epigenetic block behind IDH-mutant glioma. In INDIGO it extended progression-free survival to 27.7 versus 11.1 months in grade 2 IDH-mutant astrocytoma or oligodendroglioma after surgery, and it was approved in August 2024 for patients aged 12 and over, the first targeted therapy for low-grade brain tumours. Servier markets it; the dose is 40 mg once daily (20 mg below 40 kg), and raised ALT and AST are the main laboratory findings. Its purpose is to delay radiotherapy and chemotherapy and their long-term cognitive cost by years; whether it improves overall survival, and its role in higher-grade IDH-mutant tumours, are open. For a newcomer: a pill that holds slow-growing brain tumours in check and postpones harsher treatment.",
     mechanism: "Brain-penetrant dual IDH1/IDH2 inhibitor reducing 2-HG.",
-    approvals: [{ region: "US", year: 2024, indication: "Grade 2 IDH-mutant astrocytoma or oligodendroglioma after surgery, age ≥12" }],
+    approvals: [{ region: "US", year: 2024, indication: "Grade 2 IDH-mutant astrocytoma or oligodendroglioma after surgery, age ≥12" }, { region: "EU", year: 2025, indication: "Grade 2 IDH-mutant glioma ≥12 yrs; 17 Sep 2025" }],
     targets: ["idh"], technologies: ["epigenetic-drugs"], companies: ["servier"], cancers: ["glioblastoma"],
   },
   {
@@ -751,7 +749,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Optune is a wearable device delivering electric fields that disrupt cell division. It is approved for glioblastoma and, in 2026, pancreatic cancer.",
     summary: "Optune delivers tumour treating fields (TTFields): low-intensity alternating electric fields at 200 kHz for glioma or 150 kHz for pancreatic and lung cancer, applied through transducer arrays worn for at least 18 hours a day, which disrupt mitotic spindle assembly. Optune Gio is approved for recurrent (2011) and newly diagnosed (2015, EF-14) glioblastoma and for mesothelioma; Optune Lua for metastatic NSCLC after platinum (LUNAR, 2024); and Optune Pax, approved in Q1 2026, for unresectable locally advanced pancreatic cancer with gemcitabine and nab-paclitaxel after PANOVA-3 showed overall survival of 16.2 versus 14.2 months. Novocure makes the devices. The pivotal trials were open-label without a sham device, and the mechanism and effect size remain contested among neuro-oncologists. For a newcomer: a wearable that uses electric fields, not drugs, to slow cell division.",
     mechanism: "200 kHz (glioma) or 150 kHz (pancreas, lung) alternating fields via transducer arrays.",
-    approvals: [{ region: "US", year: 2011, indication: "Recurrent glioblastoma (newly diagnosed 2015)" }, { region: "US", year: 2024, indication: "Metastatic NSCLC after platinum with PD-1 or docetaxel" }, { region: "US", year: 2026, indication: "Locally advanced pancreatic cancer with chemotherapy" }],
+    approvals: [{ region: "US", year: 2011, indication: "Recurrent glioblastoma (newly diagnosed 2015)" }, { region: "US", year: 2024, indication: "Metastatic NSCLC after platinum with PD-1 or docetaxel" }, { region: "US", year: 2026, indication: "Locally advanced pancreatic cancer with chemotherapy" }, { region: "EU", year: 2015, indication: "CE mark (GBM); pancreatic and NSCLC CE marks 2024-26" }],
     technologies: ["ttfields"], companies: ["novocure"], cancers: ["glioblastoma", "pancreatic", "nsclc", "mesothelioma"], links: [{ label: "Wikipedia", url: W("Tumor_treating_fields") }],
   },
 

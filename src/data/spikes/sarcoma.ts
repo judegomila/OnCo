@@ -121,7 +121,7 @@ const drugs: DrugInput[] = [
     mechanism: "Switch-control inhibitor of CSF1R; TGCT is driven by CSF1 overexpression (COL6A3-CSF1 translocation) recruiting CSF1R+ macrophages.",
     dosing: { route: "Oral", schedule: "30 mg twice weekly", monitoring: "Liver enzymes, CPK, cholesterol, periorbital oedema" },
     toxicity: [{ event: "Periorbital oedema", anyGradePct: 45, note: "MOTION" }, { event: "Fatigue", anyGradePct: 33 }, { event: "Increased CPK", anyGradePct: 28 }, { event: "Pruritus", anyGradePct: 28 }],
-    approvals: [{ region: "US", year: 2025, indication: "Symptomatic tenosynovial giant cell tumour where surgery would worsen function or cause severe morbidity" }],
+    approvals: [{ region: "US", year: 2025, indication: "Symptomatic tenosynovial giant cell tumour where surgery would worsen function or cause severe morbidity" }, { region: "EU", year: 2025, indication: "Symptomatic TGCT where surgery has been exhausted or would cause unacceptable morbidity; 17 Sep 2025" }],
     regulatoryEvents: [{ date: "2025-02-14", type: "approval", region: "US", note: "MOTION", source: "https://www.cancernetwork.com/view/fda-approves-vimseltinib-in-tenosynovial-giant-cell-tumor" }],
     technologies: ["kinase-inhibitors"], companies: ["deciphera"], cancers: ["sarcoma", "tenosynovial-giant-cell-tumour"], trials: ["motion"] }),
   d({ id: "letetresgene-autoleucel", links: [{ label: "ClinicalTrials.gov NCT03967223 (IGNYTE-ESO)", url: "https://clinicaltrials.gov/study/NCT03967223" }], name: "Letetresgene autoleucel", code: "lete-cel, GSK3377794", modality: "TCR-T (NY-ESO-1)", status: "phase-2",

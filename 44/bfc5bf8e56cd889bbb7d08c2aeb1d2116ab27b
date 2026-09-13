@@ -1,0 +1,19 @@
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_c32690e32ec68e 28,124,142,184,292,298,328,388,406,412,418,448,466,490,496,514,544,592,664,736,742,760,778,784,796,868,880,898,916,1000,1006,1042,1054,1060,1090,1102,1174,1192,1216,1222,1246,1276,1300,1324,1330,1372,1396,1402,1414,1444,1450,1474,1534,1546,1594,1606,1612,1624,1636
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "44bfc5bf8e56cd889bbb7d08c2aeb1d2116ab27b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

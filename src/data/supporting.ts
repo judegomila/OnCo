@@ -60,7 +60,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- ADC manufacturing ----
   t({
-    id: "adc-cdmo-manufacturing", name: "ADC bioconjugation manufacturing (CDMOs)", sections: ["adcs"], status: "established",
+    id: "adc-cdmo-manufacturing", links: [{ label: "21 CFR Part 211: current good manufacturing practice for finished pharmaceuticals", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211" }], name: "ADC bioconjugation manufacturing (CDMOs)", sections: ["adcs"], status: "established",
     tldr: "ADC bioconjugation manufacturing joins a payload so toxic it needs the top containment class (OEB 5) to an antibody, then checks drug-to-antibody ratio and free payload. Capacity sits with a handful of contractors such as Lonza, WuXi XDC and Samsung Biologics, so long queues and China-based exposure shape who can develop ADCs.",
     summary: "ADC manufacturing needs high-potency containment (OEB 5), conjugation chemistry, and analytics for drug-to-antibody ratio and free payload. Capacity is concentrated in a handful of CDMOs: Lonza (Visp, incl. Synaffix technology), WuXi XDC, Samsung Biologics (new ADC plant 2025), Piramal Pharma Solutions, Abzena, Sterling, and Merck KGaA's MilliporeSigma. Payload-linker supply (MedChemExpress, Levena, Kelun's in-house) and lyophilised fill-finish are the other choke points.",
     principle: "Antibody produced by CHO cell culture; payload-linker synthesised under containment; site-specific or stochastic conjugation, purification, and DAR analytics; aseptic fill.",
@@ -294,7 +294,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["sterile-fill-finish", "platinum", "cytotoxic-chemotherapy"], companies: ["civica-rx"],
   }),
   t({
-    id: "hospital-information-systems-oncology", name: "Oncology EHR modules and treatment pathways", sections: ["supportive-care", "ai-computation"], status: "standard-of-care",
+    id: "hospital-information-systems-oncology", links: [{ label: "ONC Health IT Certification Program", url: "https://www.healthit.gov/topic/certification-ehrs/certification-health-it" }], name: "Oncology EHR modules and treatment pathways", sections: ["supportive-care", "ai-computation"], status: "standard-of-care",
     tldr: "The ordering and record systems oncologists use every day, including built-in treatment pathways that steer drug choice.",
     summary: "Epic Beacon, Oracle Health (Cerner) PowerChart Oncology, Varian ARIA, Elekta MOSAIQ, and Flatiron OncoEMR handle regimen ordering, dose calculation, and documentation; pathway programmes (NCCN-aligned Via Oncology/Elsevier ClinicalPath, US Oncology's Value Pathways, Dana-Farber pathways) embed evidence-based regimen choices and are tied to payer programmes. Structured data from these systems (mCODE) feeds real-world evidence.",
     principle: "Regimen libraries with dose banding and safety checks, integrated scheduling and pharmacy, and decision support at the point of ordering.",
@@ -303,7 +303,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["oncology-real-world-data", "pharmacy-automation"], companies: ["epic-systems", "oracle-health-sciences", "varian", "elekta", "flatiron-health"], terms: ["mcode", "nccn-compendium"],
   }),
   t({
-    id: "high-potency-payload-synthesis", name: "Payload-linker synthesis (high-potency API)", sections: ["adcs", "drug-discovery"], status: "established",
+    id: "high-potency-payload-synthesis", links: [{ label: "21 CFR Part 211: current good manufacturing practice for finished pharmaceuticals", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211" }], name: "Payload-linker synthesis (high-potency API)", sections: ["adcs", "drug-discovery"], status: "established",
     tldr: "Payload-linker synthesis makes the cytotoxic small molecules inside ADCs (exatecan, MMAE, DM1, PBD dimers), whose occupational exposure limits sit in the nanogram range, in facilities built so a speck of dust cannot harm a worker. A handful of licensed sites such as Lonza and WuXi STA supply them, and their lead times gate hundreds of ADCs in development.",
     summary: "Camptothecin derivatives (exatecan, DXd), auristatins (MMAE/MMAF), maytansinoids (DM1/DM4), and PBD dimers are synthesised under OEB 5/6 containment by specialists (Lonza, MilliporeSigma, WuXi STA, Piramal, Sterling, Ajinomoto Bio-Pharma, Levena, Cerbios, Kelun in-house) and sold as ready-to-conjugate linker-payloads. Supply is a gating factor for the hundreds of ADCs in development.",
     principle: "Multi-step synthesis and purification of cytotoxic small molecules and linkers under engineered containment, with occupational exposure limits in the nanogram range.",
@@ -349,7 +349,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["car-t", "closed-automated-cell-manufacturing", "flow-cytometry-mrd"], companies: ["charles-river", "becton-dickinson"],
   }),
   t({
-    id: "allogeneic-cell-banking", name: "Allogeneic donor and iPSC master cell banks", sections: ["cell-therapy"], status: "emerging",
+    id: "allogeneic-cell-banking", links: [{ label: "21 CFR Part 1271: human cells, tissues, and cellular and tissue-based products", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-L/part-1271" }], name: "Allogeneic donor and iPSC master cell banks", sections: ["cell-therapy"], status: "emerging",
     tldr: "Making cell therapies from a healthy donor or stem-cell line in advance, so patients get an off-the-shelf product instead of waiting weeks.",
     summary: "Off-the-shelf products use healthy-donor T or NK cells (Allogene, Caribou, Cellectis, Takeda/MD Anderson cord-blood NK) or induced pluripotent stem cell master banks (Fate Therapeutics, Century, Shoreline, Cellular Biomedicine) edited to avoid graft-versus-host disease and host rejection. Banking, donor eligibility, and comparability across thousands of doses from one bank are the manufacturing questions; durability of response is the clinical one.",
     principle: "A characterised master cell bank (donor or iPSC) is expanded, gene-edited to remove TCR and HLA class I, differentiated if needed, and cryopreserved in hundreds of doses per batch.",
@@ -358,7 +358,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["car-t", "car-nk-macrophage", "cell-therapy-cold-chain"], companies: ["caribou"],
   }),
   t({
-    id: "monoclonal-antibody-manufacturing", name: "Antibody manufacturing (CHO bioprocessing)", sections: ["immunotherapy", "adcs"], status: "standard-of-care",
+    id: "monoclonal-antibody-manufacturing", links: [{ label: "21 CFR Part 211: current good manufacturing practice for finished pharmaceuticals", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211" }], name: "Antibody manufacturing (CHO bioprocessing)", sections: ["immunotherapy", "adcs"], status: "standard-of-care",
     tldr: "Antibody manufacturing means growing antibody drugs like pembrolizumab or trastuzumab in vats of engineered hamster cells, then purifying them. It is the industrial base for most modern cancer drugs.",
     summary: "Chinese hamster ovary (CHO) cell lines in 2,000-20,000 L stainless or single-use bioreactors produce grams per litre of antibody, purified by Protein A chromatography and viral clearance steps. Capacity is held by pharma (Roche, Amgen, Lilly) and CDMOs (Samsung Biologics, Lonza, WuXi Biologics, Fujifilm Diosynth, Boehringer Ingelheim). Continuous processing, higher titres, and biosimilar competition are reducing cost of goods; ADC antibodies and bispecifics add engineering constraints.",
     principle: "Stable transfected CHO clones expressing the antibody are grown in fed-batch or perfusion culture; downstream capture, polishing, viral inactivation and filtration, formulation and fill.",
@@ -369,7 +369,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Radiopharmacy hardware ----
   t({
-    id: "medical-cyclotrons-synthesis-modules", name: "Medical cyclotrons, hot cells, and synthesis modules", sections: ["radiopharma", "imaging"], status: "standard-of-care",
+    id: "medical-cyclotrons-synthesis-modules", links: [{ label: "21 CFR Part 212: current good manufacturing practice for PET drugs", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-212" }], name: "Medical cyclotrons, hot cells, and synthesis modules", sections: ["radiopharma", "imaging"], status: "standard-of-care",
     tldr: "The particle accelerators and shielded robotic chemistry boxes that make PET tracers in hospital basements and commercial pharmacies.",
     summary: "Compact 11-30 MeV cyclotrons from IBA (Cyclone), GE HealthCare (PETtrace, MINItrace), Siemens (Eclipse), ACSI (TR-24), and Sumitomo produce 18F, 68Ga, 64Cu, and 89Zr; shielded hot cells (Comecer, Von Gahlen, Tema Sinergie) house automated synthesis modules (Trasis AllinOne, IBA Synthera, GE FASTlab, Eckert & Ziegler Modular-Lab, Siemens Explora) that run GMP radiochemistry from cassettes. Solid-target 68Ga production is displacing generators at high-volume sites.",
     principle: "Proton bombardment of enriched targets produces the isotope; cassette-based automated modules perform labelling, purification, and formulation behind lead shielding with QC before release.",
@@ -378,7 +378,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["pet", "radiopharmacy-network", "pet-tracer-manufacturing", "radionuclide-generators-kits"], companies: ["iba", "ge-healthcare", "siemens-healthineers", "trasis", "comecer"],
   }),
   t({
-    id: "radionuclide-generators-kits", name: "Radionuclide generators and cold kits", sections: ["radiopharma"], status: "standard-of-care",
+    id: "radionuclide-generators-kits", links: [{ label: "21 CFR Part 211: current good manufacturing practice for finished pharmaceuticals", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211" }], name: "Radionuclide generators and cold kits", sections: ["radiopharma"], status: "standard-of-care",
     tldr: "Bench-top devices that 'milk' a short-lived isotope from a long-lived parent, plus vials of ready-to-label ligand. How most hospitals make PSMA and somatostatin PET tracers without a cyclotron.",
     summary: "Ge-68/Ga-68 generators (Eckert & Ziegler GalliaPharm, IRE ELiT Galli Eo, ITG) elute Ga-68 for 6-12 months; Mo-99/Tc-99m generators (Curium, Lantheus, GE) underpin SPECT; kits such as Illuccix and Gozellix (Telix), Locametz (Novartis) and NETSPOT (Novartis/AAA) let a radiopharmacy label PSMA-11 or DOTATATE in minutes. Generator supply shortages (Ge-68 in 2018-19) and kit versus unit-dose economics shape tracer access.",
     principle: "Parent isotope adsorbed on a column decays to the daughter, which is eluted on demand; cold kits contain lyophilised chelator-ligand and buffer for one-step labelling.",
@@ -427,7 +427,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Discovery infrastructure ----
   t({
-    id: "proteomics-platforms", name: "Proteomics instruments and affinity platforms", sections: ["drug-discovery", "diagnostics"], status: "established",
+    id: "proteomics-platforms", links: [{ label: "Method of the Year 2012: targeted proteomics (Nature Methods 2013)", url: "https://doi.org/10.1038/nmeth.2329" }], name: "Proteomics instruments and affinity platforms", sections: ["drug-discovery", "diagnostics"], status: "established",
     tldr: "Machines that measure thousands of proteins at once from tissue or blood, used to find drug targets and early-detection markers.",
     summary: "Mass spectrometry (Thermo Fisher Orbitrap Astral, Bruker timsTOF, SCIEX ZenoTOF) and affinity-based platforms (Olink/Thermo Fisher Explore, SomaLogic/Standard BioTools SomaScan, Alamar NULISA, Nautilus and Quantum-Si single-molecule approaches) deliver deep proteomes; UK Biobank's 50,000-participant Olink dataset and CPTAC's tumour proteogenomics illustrate the discovery value. Clinical proteomic tests remain few.",
     principle: "Peptide fragmentation and mass measurement (bottom-up MS) or barcoded antibody/aptamer pairs read by sequencing or PCR quantify proteins across large dynamic ranges.",
@@ -456,7 +456,7 @@ const technologies: TechnologyInput[] = [
 
   // ---- Laboratory pre-analytics and automation ----
   t({
-    id: "preanalytics-sample-stabilisation", name: "Pre-analytics: blood-collection tubes and tissue fixation", sections: ["diagnostics"], status: "standard-of-care",
+    id: "preanalytics-sample-stabilisation", links: [{ label: "Wolff et al., HER2 testing in breast cancer: ASCO/CAP clinical practice guideline focused update, including fixation requirements (Journal of Clinical Oncology 2018)", url: "https://doi.org/10.1200/JCO.2018.77.8738" }], name: "Pre-analytics: blood-collection tubes and tissue fixation", sections: ["diagnostics"], status: "standard-of-care",
     tldr: "The tubes and fixatives that keep a sample stable between the patient and the lab. Unglamorous, but they decide whether a liquid biopsy or PD-L1 stain is trustworthy.",
     summary: "Cell-free DNA stabilising tubes (Streck Cell-Free DNA BCT, PAXgene ccfDNA, Roche Cell-Free DNA Collection Tube) allow ctDNA to be shipped at room temperature for days; formalin fixation time and ischaemia time affect IHC scoring and nucleic-acid quality (CAP/CLSI and ASCO/CAP HER2 guidelines set 6-72 hour fixation windows); RNAlater and vacuum-sealed transport are alternatives. Pre-analytic variability is a major source of discordant biomarker results.",
     principle: "Chemical stabilisers prevent leukocyte lysis and nuclease activity in blood; cross-linking fixation preserves morphology and antigens in tissue within validated time windows.",

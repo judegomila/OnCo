@@ -204,7 +204,7 @@ export const peopleLeadersWave3: PersonInput[] = [
     tags: ["leadership", "hospital-management", "malaysia"], cancers: [] }),
 
   // =================== UZ Leuven / Leuven Cancer Institute ===================
-  p({ id: "paul-herijgers", name: "Paul Herijgers", role: "Chief Executive Officer, UZ Leuven", institutionId: "uz-leuven", specialisms: ["Hospital leadership", "Academic medicine", "Health system governance"],
+  p({ id: "paul-herijgers", technologies: ["proton-therapy"], name: "Paul Herijgers", role: "Chief Executive Officer, UZ Leuven", institutionId: "uz-leuven", specialisms: ["Hospital leadership", "Academic medicine", "Health system governance"],
     tldr: "Chief executive of the Leuven university hospital, whose Leuven Cancer Institute brings clinicians and scientists together to treat and study cancer.",
     summary: "Professor Paul Herijgers is Chief Executive Officer of UZ Leuven, the university hospital of KU Leuven and one of the largest hospitals in Belgium. He took over from Wim Robberecht on 1 August 2024 and chairs a management committee that includes Medical Director Gert Van Assche and Dean of Medicine Chris Verslype. UZ Leuven's Leuven Cancer Institute (LKI) unites physicians, nurses, basic scientists and clinical researchers in cancer care and research and includes the hospital's proton therapy centre.",
     profiles: [{ label: "UZ Leuven management committee", url: "https://www.uzleuven.be/en/about-us/management-committee" }],
@@ -353,7 +353,7 @@ export const peopleLeadersWave3: PersonInput[] = [
     summary: "Professor Brandon Wainwright AM is Director and CEO of QIMR Berghofer Medical Research Institute in Brisbane, an Australian medical research institute with major cancer research programmes, a role he took up in 2026. He was previously Professor at The University of Queensland, led its Institute for Molecular Bioscience until 2019 and was Co-Director of the Children's Brain Cancer Centre. His research addresses genetic pathways in medulloblastoma and other cancers, including the role of Hedgehog signalling.",
     profiles: [{ label: "QIMR Berghofer directors page", url: "https://www.qimrb.edu.au/about/governance/directors" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Wainwright+BJ%5BAuthor%5D" }],
     links: [{ label: "Source: QIMR Berghofer directors page", url: "https://www.qimrb.edu.au/about/governance/directors" }],
-    tags: ["leadership", "clinician-scientist", "genetics", "paediatric-oncology"], cancers: [],
+    tags: ["leadership", "clinician-scientist", "genetics", "paediatric-oncology"], cancers: ["medulloblastoma"],
     papers: [{ title: "Familial melanoma and p16 — a hung jury", journal: "Nature Genetics", year: 1994, doi: "10.1038/ng0994-3" }, { title: "Efficient detection and monitoring of pediatric brain malignancies with liquid biopsy based on patient-specific somatic mutation screening", journal: "Neuro-Oncology", year: 2023, doi: "10.1093/neuonc/noad032" }, { title: "Hedgehog pathway inhibitor saridegib (IPI-926) increases lifespan in a mouse medulloblastoma model", journal: "Proceedings of the National Academy of Sciences", year: 2012, doi: "10.1073/pnas.1114718109" }] }),
   // =================== QST Hospital (National Institutes for Quantum Science and Technology) ===================
   p({ id: "hitoshi-ishikawa", name: "Hitoshi Ishikawa", role: "Director of QST Hospital", institutionId: "qst-hospital", specialisms: ["Radiation oncology", "Carbon ion radiotherapy", "Heavy ion therapy"],

@@ -211,9 +211,9 @@ async function main() {
     if (only && t.id !== only) continue;
     if (!force && index[t.id] && existsSync(join(OUT, index[t.id].file))) { counts.kept++; continue; }
     let entry: Entry | null = null;
-    try { entry = await wikidataLogo(t.id, t.name, t.website); } catch (e) { console.warn(`wikidata failed for ${t.id}: ${String(e).slice(0, 80)}`); }
-    if (!entry) entry = await clearbitLogo(t.id, t.website);
-    if (!entry) entry = await faviconLogo(t.id, t.website);
+    try { entry = await wikidataLogo(t.id, t.name, t.website ?? ""); } catch (e) { console.warn(`wikidata failed for ${t.id}: ${String(e).slice(0, 80)}`); }
+    if (!entry) entry = await clearbitLogo(t.id, t.website ?? "");
+    if (!entry) entry = await faviconLogo(t.id, t.website ?? "");
     if (entry) {
       // remove stale files with other extensions
       for (const ext of ["svg", "png", "jpg", "ico"]) { const f = join(OUT, `${t.id}.${ext}`); if (f !== join(OUT, entry.file) && existsSync(f)) unlinkSync(f); }

@@ -225,7 +225,7 @@ export const CompanySchema = Base.extend({
   hq: z.string(),
   country: z.string().length(2),
   companyType: z.enum(COMPANY_TYPES),
-  website: url,
+  website: url.optional(),
   ticker: z.string().optional(),
   founded: z.number().int().optional(),
   stage: z.enum(STAGES).optional(),
@@ -246,7 +246,7 @@ export const InstitutionSchema = Base.extend({
   lat: z.number(),
   lng: z.number(),
   institutionType: z.enum(["cancer-center", "university", "hospital", "research-institute", "government", "consortium"]),
-  website: url,
+  website: url.optional(),
   /** NCI designation, US only. */
   nci: z.enum(["comprehensive", "clinical", "basic"]).optional(),
   /** Newsweek / Statista World's Best Specialized Hospitals 2026, Oncology rank. */

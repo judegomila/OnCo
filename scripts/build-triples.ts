@@ -39,8 +39,8 @@ function scalars(e: Entity): Array<[string, string]> {
     case "drug": out.push([`${NS}modality`, lit(e.modality)]); if (e.brand) out.push([`${SCHEMA}alternateName`, lit(e.brand)]); for (const a of e.approvals) out.push([`${NS}approval`, lit(`${a.region} ${a.year}: ${a.indication}`)]); break;
     case "trial": out.push([`${NS}phase`, lit(e.phase)]); if (e.nct) out.push([`${SCHEMA}identifier`, lit(e.nct)]); break;
     case "target": if (e.symbol) out.push([`${SCHEMA}alternateName`, lit(e.symbol)]); out.push([`${NS}targetClass`, lit(e.targetClass)]); break;
-    case "company": out.push([`${SCHEMA}addressCountry`, lit(e.country)]); out.push([`${SCHEMA}url`, iri(e.website)]); break;
-    case "institution": out.push([`${SCHEMA}addressCountry`, lit(e.country)], [`${SCHEMA}addressLocality`, lit(e.city)], [`${SCHEMA}latitude`, typed(String(e.lat), "decimal")], [`${SCHEMA}longitude`, typed(String(e.lng), "decimal")], [`${SCHEMA}url`, iri(e.website)]); break;
+    case "company": out.push([`${SCHEMA}addressCountry`, lit(e.country)]); if (e.website) out.push([`${SCHEMA}url`, iri(e.website)]); break;
+    case "institution": out.push([`${SCHEMA}addressCountry`, lit(e.country)], [`${SCHEMA}addressLocality`, lit(e.city)], [`${SCHEMA}latitude`, typed(String(e.lat), "decimal")], [`${SCHEMA}longitude`, typed(String(e.lng), "decimal")]); if (e.website) out.push([`${SCHEMA}url`, iri(e.website)]); break;
     case "paper": if (e.doi) out.push([`${SCHEMA}sameAs`, iri(`https://doi.org/${e.doi}`)]); out.push([`${SCHEMA}datePublished`, typed(String(e.year), "gYear")], [`${SCHEMA}author`, lit(e.authors)]); break;
     case "journal": out.push([`${SCHEMA}publisher`, lit(e.publisher)], [`${SCHEMA}url`, iri(e.url)]); if (e.issn) out.push([`${SCHEMA}issn`, lit(e.issn)]); break;
     case "person": out.push([`${SCHEMA}jobTitle`, lit(e.role)]); if (e.orcid) out.push([`${SCHEMA}sameAs`, iri(`https://orcid.org/${e.orcid}`)]); break;

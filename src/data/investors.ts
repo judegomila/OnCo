@@ -13,7 +13,7 @@ const asOf = "2026-09-10";
 type I = Omit<CompanyInput, "kind" | "asOf" | "companyType" | "links"> & { kindTag: "vc" | "corporate-venture" | "accelerator" | "foundation" | "public-fund"; links?: CompanyInput["links"] };
 const inv = ({ kindTag, links = [], ...x }: I): CompanyInput => ({
   kind: "company", asOf, companyType: "investor", tags: [kindTag, ...(x.tags ?? [])],
-  links: [{ label: "Official website", url: x.website }, ...links],
+  links: [...(x.website ? [{ label: "Official website", url: x.website }] : []), ...links],
   ...x,
 });
 

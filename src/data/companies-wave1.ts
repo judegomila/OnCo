@@ -7,7 +7,7 @@ import type { CompanyInput } from "@/lib/schema";
 
 const asOf = "2026-09-10";
 type C = Omit<CompanyInput, "kind" | "asOf" | "links"> & { links?: CompanyInput["links"] };
-const c = (x: C): CompanyInput => ({ kind: "company", asOf, links: [{ label: "Official website", url: x.website }], ...x });
+const c = (x: C): CompanyInput => ({ kind: "company", asOf, links: x.website ? [{ label: "Official website", url: x.website }] : [], ...x });
 
 export const companiesWave1: CompanyInput[] = [
   c({ id: "bausch-health", name: "Bausch Health", hq: "Laval, Quebec", country: "CA", companyType: "pharma", website: "https://www.bauschhealth.com", ticker: "BHC",

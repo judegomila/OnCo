@@ -6,7 +6,7 @@ import { logoFor } from "@/lib/logos";
  * Trademarks belong to their owners; shown for identification. Commons licences and attribution
  * are recorded in public/logos/index.json and surfaced in the title attribute.
  */
-export function Logo({ id, website, name, size = 56, className = "" }: { id?: string; website: string; name: string; size?: number; className?: string }) {
+export function Logo({ id, website, name, size = 56, className = "" }: { id?: string; website?: string; name: string; size?: number; className?: string }) {
   const { src, source, entry } = logoFor(id, website);
   const initials = name.split(/[\s/–-]+/).filter(Boolean).slice(0, 2).map((w) => w[0]?.toUpperCase() ?? "").join("");
   const title = entry?.source === "wikidata" ? `${name} logo · Wikimedia Commons${entry.license ? ` · ${entry.license}` : ""}${entry.attribution ? ` · ${entry.attribution}` : ""}` : `${name} logo`;

@@ -18,7 +18,7 @@ const yc = (slug: string) => `https://www.ycombinator.com/companies/${slug}`;
 type Y = Omit<CompanyInput, "kind" | "asOf" | "companyType" | "investors" | "links"> & { slug: string; companyType?: CompanyInput["companyType"]; investors?: string[]; links?: CompanyInput["links"] };
 const y = ({ slug, companyType = "biotech", investors = [], links = [], ...x }: Y): CompanyInput => ({
   kind: "company", asOf, companyType, investors: ["y-combinator", ...investors],
-  links: [{ label: "Y Combinator profile", url: yc(slug) }, ...(x.website.startsWith("https://www.ycombinator.com") ? [] : [{ label: "Official website", url: x.website }]), ...links],
+  links: [{ label: "Y Combinator profile", url: yc(slug) }, ...(x.website && !x.website.startsWith("https://www.ycombinator.com") ? [{ label: "Official website", url: x.website }] : []), ...links],
   tags: ["yc", ...(x.tags ?? [])],
   ...x,
 });

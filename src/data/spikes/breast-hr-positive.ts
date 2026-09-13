@@ -37,7 +37,7 @@ const trials: TrialInput[] = [
     result: "PFS HR 0.54; OS 66.8 vs 53.7 months, HR 0.80 (NS).",
     outcomes: [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Abemaciclib + NSAI", n: 328, value: 28.2 }, { name: "Placebo + NSAI", n: 165, value: 14.8 }], hr: 0.54, ci: [0.42, 0.70], source: "https://ascopubs.org/doi/10.1200/JCO.2017.75.6155" },
-      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Abemaciclib + NSAI", value: 66.8 }, { name: "Placebo + NSAI", value: 53.7 }], hr: 0.80, ci: [0.62, 1.03], p: "0.066" },
+      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Abemaciclib + NSAI", value: 66.8 }, { name: "Placebo + NSAI", value: 53.7 }], hr: 0.80, ci: [0.62, 1.03], p: "0.066", source: "https://doi.org/10.1200/JCO.2017.75.6155" },
     ],
     replication: "MONARCH 2 (abemaciclib + fulvestrant after endocrine progression) did show a significant OS benefit (HR 0.76).",
     drugs: ["abemaciclib"], cancers: ["breast-hr-positive"], targets: ["cdk4-6"], links: [ct("NCT02246621")], people: ["matthew-goetz"] }),
@@ -48,7 +48,7 @@ const trials: TrialInput[] = [
     result: "PFS HR 0.56; OS HR 0.96 (NS).",
     outcomes: [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Palbociclib + letrozole", n: 444, value: 27.6 }, { name: "Placebo + letrozole", n: 222, value: 14.5 }], hr: 0.56, ci: [0.46, 0.69], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1607303" },
-      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Palbociclib + letrozole", value: 53.9 }, { name: "Placebo + letrozole", value: 51.2 }], hr: 0.96, ci: [0.78, 1.18] },
+      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Palbociclib + letrozole", value: 53.9 }, { name: "Placebo + letrozole", value: 51.2 }], hr: 0.96, ci: [0.78, 1.18], source: "https://doi.org/10.1056/NEJMoa1607303" },
     ],
     replication: "PFS effect replicated across all CDK4/6 trials; absence of OS benefit replicated in PALOMA-3 and the adjuvant PALLAS/PENELOPE-B trials.",
     drugs: ["palbociclib"], cancers: ["breast-hr-positive"], targets: ["cdk4-6"], links: [ct("NCT01740427")], people: ["richard-finn"] }),
@@ -67,7 +67,7 @@ const trials: TrialInput[] = [
     result: "PFS HR 0.60 overall; HR 0.50 in AKT-pathway-altered.",
     outcomes: [
       { endpoint: "Progression-free survival (overall)", primary: true, unit: "months", arms: [{ name: "Capivasertib + fulvestrant", n: 355, value: 7.2 }, { name: "Placebo + fulvestrant", n: 353, value: 3.6 }], hr: 0.60, ci: [0.51, 0.71], p: "<0.001", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2214131" },
-      { endpoint: "Progression-free survival (AKT-pathway-altered)", primary: true, unit: "months", arms: [{ name: "Capivasertib + fulvestrant", n: 155, value: 7.3 }, { name: "Placebo + fulvestrant", n: 134, value: 3.1 }], hr: 0.50, ci: [0.38, 0.65], p: "<0.001" },
+      { endpoint: "Progression-free survival (AKT-pathway-altered)", primary: true, unit: "months", arms: [{ name: "Capivasertib + fulvestrant", n: 155, value: 7.3 }, { name: "Placebo + fulvestrant", n: 134, value: 3.1 }], hr: 0.50, ci: [0.38, 0.65], p: "<0.001", source: "https://doi.org/10.1056/NEJMoa2214131" },
     ],
     replication: "Consistent with the phase 2 FAKTION trial (capivasertib + fulvestrant, PFS and OS benefit). Final OS from CAPItello-291 awaited.",
     drugs: ["capivasertib"], cancers: ["breast-hr-positive"], targets: ["akt", "pik3ca"], links: [ct("NCT04305496")], people: ["nicholas-turner"] }),
@@ -79,7 +79,7 @@ const trials: TrialInput[] = [
     outcomes: [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Inavolisib + palbociclib + fulvestrant", n: 161, value: 15.0 }, { name: "Placebo + palbociclib + fulvestrant", n: 164, value: 7.3 }], hr: 0.43, ci: [0.32, 0.59], p: "<0.001", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2404625" },
       { endpoint: "Overall survival", unit: "months", arms: [{ name: "Inavolisib arm", value: 34.0 }, { name: "Placebo arm", value: 27.0 }], hr: 0.67, ci: [0.48, 0.94], p: "0.02", source: "https://www.nejm.org/doi/abs/10.1056/NEJMoa2501796" },
-      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Inavolisib arm", value: 62.7 }, { name: "Placebo arm", value: 28.0 }] },
+      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Inavolisib arm", value: 62.7 }, { name: "Placebo arm", value: 28.0 }], source: "https://doi.org/10.1056/NEJMoa2404625" },
     ],
     replication: "Single pivotal trial; INAVO121 (vs alpelisib) and INAVO122 (HER2+) ongoing.",
     drugs: ["inavolisib", "palbociclib"], cancers: ["breast-hr-positive"], targets: ["pik3ca", "cdk4-6"], links: [ct("NCT04191499"), { label: "NEJM OS analysis", url: "https://www.nejm.org/doi/abs/10.1056/NEJMoa2501796" }], people: ["komal-jhaveri"] }),
@@ -193,7 +193,7 @@ const trials: TrialInput[] = [
     result: "OS 14.4 vs 11.2 months, HR 0.79.",
     outcomes: [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Sacituzumab govitecan", n: 272, value: 5.5 }, { name: "Chemotherapy", n: 271, value: 4.0 }], hr: 0.66, ci: [0.53, 0.83], p: "0.0003", source: "https://ascopubs.org/doi/10.1200/JCO.22.01002" },
-      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Sacituzumab govitecan", value: 14.4 }, { name: "Chemotherapy", value: 11.2 }], hr: 0.79, ci: [0.65, 0.96], p: "0.02" },
+      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Sacituzumab govitecan", value: 14.4 }, { name: "Chemotherapy", value: 11.2 }], hr: 0.79, ci: [0.65, 0.96], p: "0.02", source: "https://doi.org/10.1200/JCO.22.01002" },
     ],
     replication: "TROPION-Breast01 (Dato-DXd) replicated the PFS effect of a TROP2 ADC in this population but not OS.",
     drugs: ["sacituzumab-govitecan"], cancers: ["breast-hr-positive"], targets: ["trop2"], links: [ct("NCT03901339")], people: ["hope-rugo"] }),

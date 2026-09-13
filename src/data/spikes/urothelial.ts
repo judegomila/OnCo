@@ -22,7 +22,7 @@ const trials: TrialInput[] = [
     result: "EFS HR 0.68; OS HR 0.75.",
     outcomes: [
       { endpoint: "Event-free survival", primary: true, unit: "months", arms: [{ name: "Durvalumab + chemo, perioperative", n: 533, note: "median not reached" }, { name: "Chemo + cystectomy", n: 530, value: 46.1 }], hr: 0.68, ci: [0.56, 0.82], p: "<0.001", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2408154" },
-      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Durvalumab arm", note: "not reached" }, { name: "Control", note: "not reached" }], hr: 0.75, ci: [0.59, 0.93], p: "0.01" },
+      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Durvalumab arm", note: "not reached" }, { name: "Control", note: "not reached" }], hr: 0.75, ci: [0.59, 0.93], p: "0.01", source: "https://doi.org/10.1056/NEJMoa2408154" },
     ],
     replication: "Perioperative IO benefit replicated in principle by EV-303 and EV-304 (with an ADC partner) and by adjuvant CheckMate 274.",
     drugs: ["durvalumab"], cancers: ["urothelial"], terms: ["neoadjuvant-adjuvant", "nmibc-vs-mibc"], links: [ct("NCT03732677"), { label: "FDA approval (Mar 2025)", url: "https://www.urologytimes.com/view/fda-approves-durvalumab-chemo-for-muscle-invasive-bladder-cancer" }], people: ["thomas-powles"] }),
@@ -52,7 +52,7 @@ const trials: TrialInput[] = [
     result: "DFS HR 0.70; OS HR 0.83 (ITT), median 75 vs 50.1 months.",
     outcomes: [
       { endpoint: "Disease-free survival", primary: true, unit: "months", arms: [{ name: "Nivolumab", n: 353, value: 22.0 }, { name: "Placebo", n: 356, value: 10.9 }], hr: 0.70, ci: [0.57, 0.85], source: "https://ascopubs.org/doi/10.1200/JCO.24.00340" },
-      { endpoint: "Overall survival (ITT)", unit: "months", arms: [{ name: "Nivolumab", value: 75 }, { name: "Placebo", value: 50.1 }], hr: 0.83 },
+      { endpoint: "Overall survival (ITT)", unit: "months", arms: [{ name: "Nivolumab", value: 75 }, { name: "Placebo", value: 50.1 }], hr: 0.83, source: "https://doi.org/10.1056/NEJMoa2034442" },
     ],
     replication: "IMvigor010 (adjuvant atezolizumab, all-comers) was negative, but its ctDNA-positive subgroup led to IMvigor011, which was positive; AMBASSADOR (adjuvant pembrolizumab) improved DFS.",
     drugs: ["nivolumab"], cancers: ["urothelial"], links: [ct("NCT02632409"), { label: "5-year data", url: "https://www.urologytimes.com/view/checkmate-274-5-year-data-confirm-durable-benefit-with-nivolumab" }], people: ["dean-bajorin"] }),

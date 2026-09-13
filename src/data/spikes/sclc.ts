@@ -23,7 +23,7 @@ const trials: TrialInput[] = [
     result: "OS 12.3 vs 10.3 months, HR 0.70.",
     outcomes: [
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Atezolizumab + CE", n: 201, value: 12.3 }, { name: "Placebo + CE", n: 202, value: 10.3 }], hr: 0.70, ci: [0.54, 0.91], p: "0.007", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1809064" },
-      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Atezolizumab + CE", value: 5.2 }, { name: "Placebo + CE", value: 4.3 }], hr: 0.77, ci: [0.62, 0.96] },
+      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Atezolizumab + CE", value: 5.2 }, { name: "Placebo + CE", value: 4.3 }], hr: 0.77, ci: [0.62, 0.96], source: "https://doi.org/10.1056/NEJMoa1809064" },
     ],
     replication: "Replicated by CASPIAN (durvalumab, 2019) and by serplulimab (ASTRUM-005), tislelizumab (RATIONALE-312), adebrelimab and toripalimab trials in China; the class effect is one of the best-replicated in SCLC.",
     drugs: ["atezolizumab", "platinum-etoposide"], cancers: ["sclc"], technologies: ["checkpoint-inhibitor"], links: [ct("NCT02763579"), { label: "Five-year OS (IMbrella A)", url: "https://pubmed.ncbi.nlm.nih.gov/39306923/" }], people: ["anne-chiang"] }),
@@ -34,7 +34,7 @@ const trials: TrialInput[] = [
     result: "OS 13.0 vs 10.3 months, HR 0.73; 3-year OS 17.6% vs 5.8%.",
     outcomes: [
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Durvalumab + EP", n: 268, value: 13.0 }, { name: "EP alone", n: 269, value: 10.3 }], hr: 0.73, ci: [0.59, 0.91], p: "0.0047", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32222-6/fulltext" },
-      { endpoint: "3-year overall survival rate", unit: "%", arms: [{ name: "Durvalumab + EP", value: 17.6 }, { name: "EP alone", value: 5.8 }] },
+      { endpoint: "3-year overall survival rate", unit: "%", arms: [{ name: "Durvalumab + EP", value: 17.6 }, { name: "EP alone", value: 5.8 }], source: "https://doi.org/10.1016/S0140-6736(19)32222-6" },
     ],
     replication: "Consistent with IMpower133; the durvalumab-tremelimumab arm's failure was itself replicated by other CTLA-4 add-on attempts in SCLC.",
     drugs: ["durvalumab", "tremelimumab", "platinum-etoposide"], cancers: ["sclc"], links: [ct("NCT03043872")], people: ["luis-paz-ares"] }),
@@ -45,7 +45,7 @@ const trials: TrialInput[] = [
     result: "OS 55.9 vs 33.4 months, HR 0.73.",
     outcomes: [
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Durvalumab", n: 264, value: 55.9 }, { name: "Placebo", n: 266, value: 33.4 }], hr: 0.73, ci: [0.57, 0.93], p: "0.0104", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2404873" },
-      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Durvalumab", value: 16.6 }, { name: "Placebo", value: 9.2 }], hr: 0.76, ci: [0.61, 0.95] },
+      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Durvalumab", value: 16.6 }, { name: "Placebo", value: 9.2 }], hr: 0.76, ci: [0.61, 0.95], source: "https://doi.org/10.1056/NEJMoa2404873" },
     ],
     replication: "Single pivotal trial; consistent with PACIFIC in NSCLC. Real-world consolidation series are emerging.",
     drugs: ["durvalumab"], cancers: ["sclc"], technologies: ["imrt-igrt", "prophylactic-cranial-irradiation"], terms: ["limited-extensive-stage", "pci-term"],

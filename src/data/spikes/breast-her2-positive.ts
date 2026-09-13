@@ -93,7 +93,7 @@ const trials: TrialInput[] = [
     result: "OS 21.9 vs 17.4 months, HR 0.66; CNS-PFS HR 0.32.",
     outcomes: [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Tucatinib arm", n: 320, value: 7.8 }, { name: "Placebo arm", n: 160, value: 5.6 }], hr: 0.54, ci: [0.42, 0.71], p: "<0.001", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa1914609" },
-      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Tucatinib arm", value: 21.9 }, { name: "Placebo arm", value: 17.4 }], hr: 0.66, ci: [0.50, 0.88], p: "0.005" },
+      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Tucatinib arm", value: 21.9 }, { name: "Placebo arm", value: 17.4 }], hr: 0.66, ci: [0.50, 0.88], p: "0.005", source: "https://doi.org/10.1056/NEJMoa1914609" },
     ],
     replication: "Tucatinib's CNS activity replicated in HER2CLIMB-02 (with T-DM1) and its efficacy in HER2CLIMB-05 (first-line maintenance).",
     drugs: ["tucatinib", "trastuzumab"], cancers: ["breast-her2-positive"], targets: ["her2"], terms: ["her2-brain-metastases"], links: [ct("NCT02614794")], people: ["nancy-lin"] }),

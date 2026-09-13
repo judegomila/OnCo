@@ -23,7 +23,7 @@ const trials: TrialInput[] = [
     result: "8-year OS HR 0.72 (ITT), 0.69 (intermediate/poor risk).",
     outcomes: [
       { endpoint: "Overall survival, intermediate/poor risk (8-year follow-up)", primary: true, arms: [{ name: "Nivolumab + ipilimumab", n: 425 }, { name: "Sunitinib", n: 422 }], hr: 0.69, ci: [0.59, 0.81], source: "https://www.annalsofoncology.org/article/S0923-7534(24)01516-3/fulltext" },
-      { endpoint: "Overall survival, ITT (8-year follow-up)", arms: [{ name: "Nivolumab + ipilimumab", n: 550 }, { name: "Sunitinib", n: 546 }], hr: 0.72, ci: [0.62, 0.83] },
+      { endpoint: "Overall survival, ITT (8-year follow-up)", arms: [{ name: "Nivolumab + ipilimumab", n: 550 }, { name: "Sunitinib", n: 546 }], hr: 0.72, ci: [0.62, 0.83], source: "https://doi.org/10.1056/NEJMoa1712126" },
     ],
     replication: "IO-doublet benefit replicated by IO-TKI trials (KEYNOTE-426, CheckMate 9ER, CLEAR) with different partners; no head-to-head between IO-IO and IO-TKI exists.",
     drugs: ["nivolumab", "ipilimumab", "sunitinib"], cancers: ["rcc"], terms: ["imdc-risk"], links: [ct("NCT02231749")], people: ["robert-motzer", "laurence-albiges"] }),
@@ -34,7 +34,7 @@ const trials: TrialInput[] = [
     result: "OS HR 0.84 final (47.2 vs 40.8 months); PFS HR 0.69.",
     outcomes: [
       { endpoint: "Overall survival (final, 5-year)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + axitinib", n: 432, value: 47.2 }, { name: "Sunitinib", n: 429, value: 40.8 }], hr: 0.84, ci: [0.71, 0.99], source: "https://ascopubs.org/doi/10.1200/JCO.23.01000" },
-      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + axitinib", value: 15.7 }, { name: "Sunitinib", value: 11.1 }], hr: 0.69 },
+      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + axitinib", value: 15.7 }, { name: "Sunitinib", value: 11.1 }], hr: 0.69, source: "https://doi.org/10.1056/NEJMoa1816714" },
     ],
     replication: "Consistent with JAVELIN Renal 101 (avelumab + axitinib, PFS only), CheckMate 9ER, and CLEAR.",
     drugs: ["pembrolizumab", "axitinib", "sunitinib"], cancers: ["rcc"], links: [ct("NCT02853331")], people: ["thomas-powles", "brian-rini", "lee-jae-lyun"] }),
@@ -45,7 +45,7 @@ const trials: TrialInput[] = [
     result: "PFS HR 0.51; OS HR 0.77 at ~4 years (46.5 vs 36.0 months).",
     outcomes: [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Nivolumab + cabozantinib", n: 323, value: 16.6 }, { name: "Sunitinib", n: 328, value: 8.3 }], hr: 0.51, ci: [0.41, 0.64], source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2026982" },
-      { endpoint: "Overall survival (final)", unit: "months", arms: [{ name: "Nivolumab + cabozantinib", value: 46.5 }, { name: "Sunitinib", value: 36.0 }], hr: 0.77, ci: [0.63, 0.95] },
+      { endpoint: "Overall survival (final)", unit: "months", arms: [{ name: "Nivolumab + cabozantinib", value: 46.5 }, { name: "Sunitinib", value: 36.0 }], hr: 0.77, ci: [0.63, 0.95], source: "https://doi.org/10.1056/NEJMoa2026982" },
     ],
     replication: "Consistent with other IO-TKI doublets; COSMIC-313 (adding cabozantinib to nivolumab-ipilimumab) improved PFS but not OS.",
     drugs: ["nivolumab", "cabozantinib", "sunitinib"], cancers: ["rcc"], links: [ct("NCT03141177")], people: ["robert-motzer", "james-larkin", "toni-choueiri"] }),

@@ -71,8 +71,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
     enrolled: 443,
     outcomes: [
       { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Sacituzumab govitecan + pembrolizumab", n: 221, value: 11.2 }, { name: "Chemotherapy + pembrolizumab", n: 222, value: 7.8 }], hr: 0.65, ci: [0.51, 0.84], p: "0.0009", source: "https://dailyreporter.esmo.org/esmo-congress-2025/breast-cancer/survival-improvements-observed-with-first-line-antibody-drug-conjugates-in-triple-negative-breast-cancer" },
-      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Sacituzumab govitecan + pembrolizumab", value: 60 }, { name: "Chemotherapy + pembrolizumab", value: 53 }] },
-      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Sacituzumab govitecan + pembrolizumab" }, { name: "Chemotherapy + pembrolizumab" }], note: "Immature; PFS2 favoured the ADC arm in the ASCO 2026 update." },
+      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Sacituzumab govitecan + pembrolizumab", value: 60 }, { name: "Chemotherapy + pembrolizumab", value: 53 }], source: "https://doi.org/10.1056/NEJMoa2508959" },
+      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Sacituzumab govitecan + pembrolizumab" }, { name: "Chemotherapy + pembrolizumab" }], note: "Immature; PFS2 favoured the ADC arm in the ASCO 2026 update.", source: "https://doi.org/10.1056/NEJMoa2508959" },
     ],
     replication: "First trial of ADC + PD-1 in TNBC; the design mirrors EV-302 in urothelial cancer. TROPION-Breast05 (Dato-DXd + durvalumab) will be the confirmatory sibling.",
   },

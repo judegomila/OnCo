@@ -228,7 +228,7 @@ const trials: TrialInput[] = [
     tldr: "LINKER-MM1 is the pivotal study for linvoseltamab, with 45% complete responses.",
     summary: "LINKER-MM1, trial NCT03761108 sponsored by Regeneron and reported in 2024, is the pivotal single-arm study for linvoseltamab, a BCMA bispecific, in relapsed or refractory myeloma after at least three prior lines. In 117 patients at the 200 mg dose the response rate was 70 percent with complete response or better in 45 percent and median progression-free survival not reached at fourteen months, the basis for accelerated approval in July 2025. OnCo links it to multiple myeloma, linvoseltamab and the MagnetisMM-3 paper. As a third BCMA bispecific, whether its higher complete response rate holds in a randomised comparison is the open question.",
     result: "ORR 70%, ≥CR 45%.",
-    outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "Linvoseltamab 200 mg", n: 117, value: 70 }] }],
+    outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "%", arms: [{ name: "Linvoseltamab 200 mg", n: 117, value: 70 }], source: "https://doi.org/10.1200/JCO.24.01008" }],
     drugs: ["linvoseltamab"], cancers: ["multiple-myeloma"], links: [ct("NCT03761108")] }),
   t({ id: "dreamm-7", name: "DREAMM-7", nct: "NCT04246047", phase: "3", status: "positive", yearReported: 2024, sponsor: "GSK", enrolled: 494,
     setting: "Relapsed myeloma after ≥1 line: belantamab-Vd vs Dara-Vd",

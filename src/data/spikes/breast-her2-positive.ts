@@ -44,7 +44,7 @@ const trials: TrialInput[] = [
     result: "B-31/N9831 10-year OS 84% vs 75.2%, HR 0.63.",
     outcomes: [
       { endpoint: "10-year overall survival (B-31/N9831)", unit: "%", arms: [{ name: "Chemotherapy + trastuzumab", n: 2028, value: 84.0 }, { name: "Chemotherapy alone", n: 2018, value: 75.2 }], hr: 0.63, ci: [0.54, 0.73], source: "https://ascopubs.org/doi/10.1200/JCO.2014.55.5730" },
-      { endpoint: "Disease-free survival (B-31/N9831)", primary: true, arms: [{ name: "Chemotherapy + trastuzumab" }, { name: "Chemotherapy alone" }], hr: 0.60, ci: [0.53, 0.68] },
+      { endpoint: "Disease-free survival (B-31/N9831)", primary: true, arms: [{ name: "Chemotherapy + trastuzumab" }, { name: "Chemotherapy alone" }], hr: 0.60, ci: [0.53, 0.68], source: "https://doi.org/10.1056/NEJMoa052122" },
     ],
     replication: "Four independent adjuvant trials (HERA, B-31, N9831, BCIRG 006) all positive.",
     drugs: ["trastuzumab"], cancers: ["breast-her2-positive"], targets: ["her2"], links: [ct("NCT00045032")], people: ["barbara-bradfield", "norman-wolmark", "charles-geyer", "david-cameron", "martine-piccart"] }),

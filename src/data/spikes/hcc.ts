@@ -252,7 +252,7 @@ const trials: TrialInput[] = [
     tldr: "Two large trials found radioactive beads were gentler than sorafenib but did not help patients live longer.",
     summary: "SARAH and SIRveNIB, led by trial NCT01482442 and sponsored by AP-HP and the National Cancer Centre Singapore, were two large trials reported in 2017 that found yttrium-90 radioembolisation was gentler than sorafenib in locally advanced hepatocellular carcinoma but did not help patients live longer. SARAH randomised 459 patients and SIRveNIB 360, and neither improved overall survival, although the radioactive beads gave better quality of life and more responses. OnCo links them to hepatocellular carcinoma, radioembolisation and sorafenib. The results were interpreted as showing the need for personalised dosimetry and earlier-stage use rather than the failure of the modality, and whether dosimetry-guided radioembolisation can succeed where fixed dosing did not is the open question.",
     result: "OS not improved; fewer adverse events.",
-    outcomes: [{ endpoint: "Overall survival (SARAH)", primary: true, unit: "months", arms: [{ name: "Y-90 SIRT", n: 237, value: 8.0 }, { name: "Sorafenib", n: 222, value: 9.9 }], hr: 1.15 }],
+    outcomes: [{ endpoint: "Overall survival (SARAH)", primary: true, unit: "months", arms: [{ name: "Y-90 SIRT", n: 237, value: 8.0 }, { name: "Sorafenib", n: 222, value: 9.9 }], hr: 1.15, source: "https://doi.org/10.1016/S1470-2045(17)30683-6" }],
     technologies: ["radioembolisation-tare"], drugs: ["sorafenib"], cancers: ["hcc"], links: [ct("NCT01482442")], tags: ["failure", "lesson:patient-selection"] }),
 ];
 

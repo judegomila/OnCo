@@ -1,0 +1,35 @@
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_509aa22ea96740 228,249
+scripts/build-triples.ts
+  s_0beac9cb5d78fd::t_30323a89bbd244 42-43
+src/data/companies-startups.ts
+  s_0beac9cb5d78fd::t_5558fa19f43d78 325,333,356,367-368,377,405,413,460,469,504,513-514,522
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_5558fa19f43d78 312,326
+src/data/companies-yc.ts
+  s_0beac9cb5d78fd::t_7b3ceaaa89aa85 21
+scripts/fetch-logos.ts
+  s_0beac9cb5d78fd::t_30323a89bbd244 214-216
+src/data/companies-wave1.ts
+  s_0beac9cb5d78fd::t_7b3ceaaa89aa85 10
+src/data/investors.ts
+  s_0beac9cb5d78fd::t_c743839113dbce 16
+src/components/Logo.tsx
+  s_0beac9cb5d78fd::t_13c26688808684 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8cf9cd1cc199d921d5a0600bfc53757d404a08ef",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -272,6 +272,7 @@ export const de: UiDict = {
   "l.Headquarters": "Hauptsitz",
   "l.Type": "Typ",
   "l.Website": "Website",
+  "l.Archived website": "Archivierte Website",
   "l.Founded": "Gegründet",
   "l.Location": "Standort",
   "l.Newsweek 2026 oncology rank": "Newsweek-Rang 2026 in der Onkologie",

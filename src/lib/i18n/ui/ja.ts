@@ -272,6 +272,7 @@ export const ja: UiDict = {
   "l.Headquarters": "本社",
   "l.Type": "種類",
   "l.Website": "ウェブサイト",
+  "l.Archived website": "アーカイブされたウェブサイト",
   "l.Founded": "設立",
   "l.Location": "所在地",
   "l.Newsweek 2026 oncology rank": "Newsweek 2026 腫瘍学ランキング",

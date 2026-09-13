@@ -272,6 +272,7 @@ export const pt: UiDict = {
   "l.Headquarters": "Sede",
   "l.Type": "Tipo",
   "l.Website": "Sítio web",
+  "l.Archived website": "Site arquivado",
   "l.Founded": "Fundação",
   "l.Location": "Localização",
   "l.Newsweek 2026 oncology rank": "Posição Newsweek 2026 em oncologia",

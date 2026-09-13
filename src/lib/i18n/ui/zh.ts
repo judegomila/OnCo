@@ -272,6 +272,7 @@ export const zh: UiDict = {
   "l.Headquarters": "总部",
   "l.Type": "类型",
   "l.Website": "网站",
+  "l.Archived website": "已存档的网站",
   "l.Founded": "成立",
   "l.Location": "地点",
   "l.Newsweek 2026 oncology rank": "Newsweek 2026 肿瘤学排名",

@@ -309,6 +309,7 @@ export const EN = {
   "l.Headquarters": "Headquarters",
   "l.Type": "Type",
   "l.Website": "Website",
+  "l.Archived website": "Archived website",
   "l.Founded": "Founded",
   "l.Location": "Location",
   "l.Newsweek 2026 oncology rank": "Newsweek 2026 oncology rank",

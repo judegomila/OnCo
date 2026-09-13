@@ -90,7 +90,7 @@ const trials: TrialInput[] = [
     result: "PFS HR 0.55 in ESR1-mutant.",
     outcomes: [
       { endpoint: "Progression-free survival (ESR1-mutant)", primary: true, unit: "months", arms: [{ name: "Elacestrant", n: 115, value: 3.8 }, { name: "Standard endocrine therapy", n: 113, value: 1.9 }], hr: 0.55, ci: [0.39, 0.77], p: "0.0005", source: "https://ascopubs.org/doi/10.1200/JCO.22.00338" },
-      { endpoint: "Progression-free survival (all patients)", primary: true, unit: "months", arms: [{ name: "Elacestrant", n: 239, value: 2.8 }, { name: "Standard endocrine therapy", n: 239, value: 1.9 }], hr: 0.70, ci: [0.55, 0.88], p: "0.002" },
+      { endpoint: "Progression-free survival (all patients)", primary: true, unit: "months", arms: [{ name: "Elacestrant", n: 239, value: 2.8 }, { name: "Standard endocrine therapy", n: 239, value: 1.9 }], hr: 0.70, ci: [0.55, 0.88], p: "0.002", source: "https://doi.org/10.1200/JCO.22.00338" },
     ],
     replication: "The ESR1-mutant-restricted benefit was replicated by imlunestrant (EMBER-3) and vepdegestrant (VERITAC-2).",
     drugs: ["elacestrant"], cancers: ["breast-hr-positive"], targets: ["estrogen-receptor"], terms: ["esr1-mutation"], links: [ct("NCT03778931")], people: ["francois-clement-bidard", "aditya-bardia"] }),
@@ -166,7 +166,7 @@ const trials: TrialInput[] = [
     result: "No chemo benefit postmenopausal; iDFS HR 0.60 with chemo premenopausal.",
     outcomes: [
       { endpoint: "5-year iDFS, postmenopausal", primary: true, unit: "%", arms: [{ name: "Endocrine alone", value: 91.9 }, { name: "Chemo-endocrine", value: 91.3 }], hr: 1.02, source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2108873" },
-      { endpoint: "5-year iDFS, premenopausal", primary: true, unit: "%", arms: [{ name: "Endocrine alone", value: 89.0 }, { name: "Chemo-endocrine", value: 93.9 }], hr: 0.60, ci: [0.43, 0.83] },
+      { endpoint: "5-year iDFS, premenopausal", primary: true, unit: "%", arms: [{ name: "Endocrine alone", value: 89.0 }, { name: "Chemo-endocrine", value: 93.9 }], hr: 0.60, ci: [0.43, 0.83], source: "https://doi.org/10.1056/NEJMoa2108873" },
     ],
     replication: "Consistent with TAILORx age interaction; the OFS-vs-chemotherapy question is being tested prospectively (NRG-BR009 / OFSET).",
     drugs: ["oncotype-dx"], cancers: ["breast-hr-positive"], links: [ct("NCT01272037")], people: ["kathy-albain", "kevin-kalinsky"] }),

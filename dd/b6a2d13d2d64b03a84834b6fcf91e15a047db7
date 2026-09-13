@@ -1,0 +1,20 @@
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_b8f6f5717a048c 33
+  s_0beac9cb5d78fd::t_a05091d5e99139 10-32,34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ddb6a2d13d2d64b03a84834b6fcf91e15a047db7",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

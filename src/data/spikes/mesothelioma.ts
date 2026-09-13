@@ -33,7 +33,7 @@ const trials: TrialInput[] = [
     result: "OS 17.3 vs 16.1 months, HR 0.79; ORR 52% vs 29%.",
     outcomes: [
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + chemotherapy", n: 222, value: 17.3 }, { name: "Chemotherapy", n: 218, value: 16.1 }], hr: 0.79, ci: [0.64, 0.98], p: "0.0324", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01613-6/fulltext" },
-      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Pembrolizumab + chemotherapy", value: 52 }, { name: "Chemotherapy", value: 29 }] },
+      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Pembrolizumab + chemotherapy", value: 52 }, { name: "Chemotherapy", value: 29 }], source: "https://doi.org/10.1016/S0140-6736(23)01883-4" },
     ],
     replication: "Supported by DREAM (phase 2, durvalumab + chemotherapy) but DREAM3R phase 3 was stopped early; BEAT-meso (atezolizumab + bevacizumab + chemotherapy) missed OS.",
     drugs: ["pembrolizumab", "pemetrexed"], cancers: ["mesothelioma"], links: [ct("NCT02784171"), { label: "Merck OS announcement", url: "https://www.merck.com/news/keytruda-pembrolizumab-plus-chemotherapy-significantly-improved-overall-survival-versus-chemotherapy-alone-as-first-line-treatment-for-advanced-malignant-pleural-mesothelioma/" }] }),
@@ -78,7 +78,7 @@ const trials: TrialInput[] = [
     tldr: "STELLAR is the small single-arm study behind the device approval of tumour treating fields in mesothelioma.",
     summary: "STELLAR, trial NCT02397928 sponsored by Novocure and reported in 2019, is the small single-arm phase 2 behind the device approval of tumour treating fields in unresectable pleural mesothelioma. It gave 80 patients TTFields at 150 kHz with first-line platinum and pemetrexed and reported longer median survival than a historical chemotherapy control, leading to FDA approval under a Humanitarian Device Exemption in May 2019. OnCo links it to mesothelioma, tumour treating fields, the Optune device record and pemetrexed. There is no randomised confirmation, the exemption pathway carries limited evidence requirements for a rare disease, and whether the device adds anything beyond chemotherapy is the open question.",
     result: "Median OS 18.2 months (single arm) vs 12.1 historical.",
-    outcomes: [{ endpoint: "Overall survival (single arm vs historical)", unit: "months", arms: [{ name: "TTFields + chemotherapy", n: 80, value: 18.2 }, { name: "Historical chemotherapy control", value: 12.1 }] }],
+    outcomes: [{ endpoint: "Overall survival (single arm vs historical)", unit: "months", arms: [{ name: "TTFields + chemotherapy", n: 80, value: 18.2 }, { name: "Historical chemotherapy control", value: 12.1 }], source: "https://doi.org/10.1016/S1470-2045(19)30532-7" }],
     replication: "Not replicated in a randomised trial; HDE approval is for a rare disease with limited evidence requirements.",
     drugs: ["optune", "pemetrexed"], technologies: ["ttfields"], cancers: ["mesothelioma"], links: [ct("NCT02397928")] }),
 ];

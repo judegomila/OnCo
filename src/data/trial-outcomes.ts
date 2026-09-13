@@ -148,8 +148,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
     enrolled: 1157,
     outcomes: [
       { endpoint: "Progression-free survival (BICR), T-DXd + pertuzumab vs THP", primary: true, unit: "months", arms: [{ name: "Trastuzumab deruxtecan + pertuzumab", n: 383, value: 40.7 }, { name: "Taxane + trastuzumab + pertuzumab", n: 387, value: 26.9 }], hr: 0.56, ci: [0.44, 0.71], p: "<0.00001", source: "https://ascopubs.org/doi/10.1200/JCO.2025.43.17_suppl.LBA1008" },
-      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Trastuzumab deruxtecan + pertuzumab", value: 85.1 }, { name: "Taxane + trastuzumab + pertuzumab", value: 78.6 }] },
-      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Trastuzumab deruxtecan + pertuzumab" }, { name: "Taxane + trastuzumab + pertuzumab" }], note: "Immature at the interim analysis; early trend favoured T-DXd + pertuzumab." },
+      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Trastuzumab deruxtecan + pertuzumab", value: 85.1 }, { name: "Taxane + trastuzumab + pertuzumab", value: 78.6 }], source: "https://doi.org/10.1056/NEJMoa2508668" },
+      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Trastuzumab deruxtecan + pertuzumab" }, { name: "Taxane + trastuzumab + pertuzumab" }], note: "Immature at the interim analysis; early trend favoured T-DXd + pertuzumab.", source: "https://doi.org/10.1056/NEJMoa2508668" },
     ],
     replication: "Single pivotal trial versus the CLEOPATRA-era standard; the T-DXd monotherapy arm is still blinded. Consistent with the class's performance in DESTINY-Breast03.",
   },

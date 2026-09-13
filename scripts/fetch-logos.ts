@@ -105,7 +105,7 @@ async function getBytes(url: string): Promise<{ buf: Buffer; type: string } | nu
   } catch { return null; }
 }
 
-const domainOf = (u?: string) => { try { return u ? new URL(u).hostname.replace(/^www\./, "").toLowerCase() : "" } catch { return ""; } };
+const domainOf = (u?: string) => { try { if (!u) return ""; const h = new URL(u).hostname.replace(/^www\./, "").toLowerCase(); return /(^|\.)archive\.org$/.test(h) ? "" : h; } catch { return ""; } };
 const sameDomain = (a: string, b: string) => !!a && !!b && (a === b || a.endsWith("." + b) || b.endsWith("." + a));
 
 type Claims = Record<string, Array<{ mainsnak: { datavalue?: { value: unknown } } }>>;

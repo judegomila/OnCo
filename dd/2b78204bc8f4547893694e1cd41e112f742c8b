@@ -1,0 +1,25 @@
+src/data/people/leaders-wave2.ts
+  s_0beac9cb5d78fd::t_cb6b05ea2fce48 37,96,431,620,789,822,1290,1315
+src/data/people/leaders-wave3.ts
+  s_0beac9cb5d78fd::t_cb6b05ea2fce48 216,259,328,390,494,555,564,606
+src/data/people/leaders-wave4.ts
+  s_0beac9cb5d78fd::t_cb6b05ea2fce48 211,314,438,622,665,775,793,896,913,1179
+src/data/people/key-opinion-leaders.ts
+  s_0beac9cb5d78fd::t_cb6b05ea2fce48 217,263,342,888
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "dd2b78204bc8f4547893694e1cd41e112f742c8b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

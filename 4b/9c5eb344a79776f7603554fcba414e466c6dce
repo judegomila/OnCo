@@ -1,0 +1,21 @@
+src/data/journals.ts
+  s_0beac9cb5d78fd::t_857359436af6f8 53,120,340
+src/data/journals-wave2.ts
+  s_0beac9cb5d78fd::t_857359436af6f8 110,180,215,240,260,275,345,355,555,575,614,634,669,679,854,863,900,963,968,978,983,988,1185
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4b9c5eb344a79776f7603554fcba414e466c6dce",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

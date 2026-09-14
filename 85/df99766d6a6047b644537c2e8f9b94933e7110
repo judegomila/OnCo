@@ -1,0 +1,27 @@
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_e772b9bedb6060 11,98
+src/components/GroupLanding.tsx
+  s_0beac9cb5d78fd::t_e772b9bedb6060 1,26
+src/components/NavIcon.tsx
+  s_0beac9cb5d78fd::t_e772b9bedb6060 5,117
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_e772b9bedb6060 1-131
+src/components/SectionSiblings.tsx
+  s_0beac9cb5d78fd::t_e772b9bedb6060 1-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "85df99766d6a6047b644537c2e8f9b94933e7110",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+src/data/people/leaders-wave4.ts
+  s_0beac9cb5d78fd::t_d40f51b13e46b0 1597-1748
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1cbf6c62f248d8fb8a49e455ea5fe5ded8d0cb00",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_412025af2b6a8e 524
+  s_0beac9cb5d78fd::t_dac0821430eeb3 502,507,522
+  s_0beac9cb5d78fd::t_b2dfbb8cc0ec45 498-501,503-506,508-521,523,525-528
+  s_0beac9cb5d78fd::t_41f63206bff71e 1085
+public/llms.txt
+  ai_agent 5
+public/freshness.json
+  ai_agent 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a2807de12fa258abaf189a14c112c3de83a0f1a2",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

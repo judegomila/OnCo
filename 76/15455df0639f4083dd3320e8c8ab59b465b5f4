@@ -1,0 +1,23 @@
+public/freshness.json
+  ai_agent 1
+src/data/regimens.ts
+  s_0beac9cb5d78fd::t_4ffec272699b8b 495-497
+src/lib/completeness.ts
+  s_0beac9cb5d78fd::t_7dea78d0eb1bf2 246-247,251
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "7615455df0639f4083dd3320e8c8ab59b465b5f4",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

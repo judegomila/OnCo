@@ -1,0 +1,39 @@
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_7c6d786c462af2 382-387
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_7c6d786c462af2 382-387
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_7c6d786c462af2 382-387
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_7c6d786c462af2 419-424
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_7c6d786c462af2 382-387
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_7c6d786c462af2 88
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_7c6d786c462af2 382-387
+src/components/AccountMenu.tsx
+  s_0beac9cb5d78fd::t_7c6d786c462af2 8-10,12-18,50,74-89,117,119
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_7c6d786c462af2 382-387
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_7c6d786c462af2 382-387
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_7c6d786c462af2 382-387
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "cb444cdf1cf56366a9035b4e94693a9a0f95d70c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

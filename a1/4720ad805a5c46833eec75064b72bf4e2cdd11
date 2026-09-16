@@ -1,0 +1,27 @@
+public/logos/nejm.svg
+  s_0beac9cb5d78fd::t_b3ea79969ea6c7 1-277
+public/logos/science.svg
+  s_0beac9cb5d78fd::t_b3ea79969ea6c7 1-4
+public/logos/index.json
+  s_0beac9cb5d78fd::t_b4bf75f2b7a53e 1
+public/logos/nature.svg
+  s_0beac9cb5d78fd::t_b3ea79969ea6c7 1
+public/logos/lancet.svg
+  s_0beac9cb5d78fd::t_b3ea79969ea6c7 1-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a14720ad805a5c46833eec75064b72bf4e2cdd11",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+src/data/index.ts
+  s_0beac9cb5d78fd::t_aef22808ba7b06 63-64,127-128
+src/data/regional-approvals.ts
+  s_0beac9cb5d78fd::t_ae3d1677450028 459-469
+src/data/pipeline-trials-wave3.ts
+  s_0beac9cb5d78fd::t_aef22808ba7b06 1-204
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_c850b4bcb2fa38 237-248
+src/data/drugs-pipeline-wave2.ts
+  s_0beac9cb5d78fd::t_aef22808ba7b06 1-20,23-54,56-109,111-150
+  s_0beac9cb5d78fd::t_c850b4bcb2fa38 21-22,55,110
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "aa0baf2b464fdd9aed61a73af72fb98d27f61298",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -21,7 +21,7 @@ export function Breadcrumbs({ items, className = "" }: { items: Crumb[]; classNa
     return k ? <KindName kind={k} form={KIND_META[k].title === c.label ? "title" : c.label === KIND_META[k].label ? "label" : "plural"} fallback={c.label} /> : c.label;
   };
   return (
-    <nav aria-label="Breadcrumb" className={`mx-auto max-w-7xl px-4 sm:px-6 pt-5 -mb-4 text-xs text-muted ${className}`}>
+    <nav aria-label="Breadcrumb" className={`mx-auto max-w-7xl px-4 sm:px-6 pt-5 text-xs text-muted ${className}`}>
       <ol className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5">
         {items.map((c, i) => {
           const last = i === items.length - 1;
@@ -29,7 +29,7 @@ export function Breadcrumbs({ items, className = "" }: { items: Crumb[]; classNa
             <li key={c.href} className="flex items-center gap-x-1.5 min-w-0">
               {i > 0 && <span aria-hidden className="text-muted/70 rtl:-scale-x-100">›</span>}
               {last
-                ? <Link href={c.href} aria-current="page" className="truncate max-w-[60vw] text-foreground/80 hover:text-foreground hover:underline underline-offset-2">{text(c, i)}</Link>
+                ? <span aria-current="page" className="truncate max-w-[60vw] text-foreground/80">{text(c, i)}</span>
                 : <Link href={c.href} className="text-accent hover:underline underline-offset-2">{text(c, i)}</Link>}
             </li>
           );

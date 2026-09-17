@@ -1,0 +1,61 @@
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_a55734b2e0eeef 23
+  s_0beac9cb5d78fd::t_530f03bb9929b4 72
+src/lib/for-me-situation.ts
+  s_0beac9cb5d78fd::t_bb64d8126ef575 278
+  s_0beac9cb5d78fd::t_14ef876250d496 1-114,116-117,119-120,123-277,279-286,289-323
+  s_0beac9cb5d78fd::t_6f4331cd394515 287-288
+  s_0beac9cb5d78fd::t_ce6877029370d5 115,118,121-122
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_f75a5ad34e7f2e 21,26
+  s_0beac9cb5d78fd::t_e583c89b5008b2 53-54
+src/lib/for-me-situation-data.ts
+  s_0beac9cb5d78fd::t_7412eaa16ed4cf 9
+  s_0beac9cb5d78fd::t_35abf7541b48a3 110
+  s_0beac9cb5d78fd::t_33b6278b79b5e1 46
+  s_0beac9cb5d78fd::t_0fc40ae83fda09 32-36,41-45,47-49
+  s_0beac9cb5d78fd::t_123bf92fd5e446 82,84
+  s_0beac9cb5d78fd::t_c12eab9e2b7abd 78,81
+  s_0beac9cb5d78fd::t_f4faef8495cf6e 37,40
+  s_0beac9cb5d78fd::t_12c5058ab8e6c1 1-8,10-31,38-39,50-77,79-80,83,85-109,111-117
+src/components/CancerPicker.tsx
+  s_0beac9cb5d78fd::t_0763ef09f7e6b0 16
+  s_0beac9cb5d78fd::t_9ddbf7d63adb65 110-111
+src/lib/for-me-situation.test.ts
+  s_0beac9cb5d78fd::t_da293425bd0fb7 1-67,74-165
+  s_0beac9cb5d78fd::t_61f1cdc734e8ad 68-73
+src/lib/profile.ts
+  s_0beac9cb5d78fd::t_310e3b3a156bb3 15,22-29
+  s_0beac9cb5d78fd::t_baadfc5177bd01 47,55
+  s_0beac9cb5d78fd::t_2eabf8deda4bb4 99
+src/app/for-me/page.tsx
+  s_0beac9cb5d78fd::t_6e3bba92e9991b 25
+  s_0beac9cb5d78fd::t_217f857d5a28ad 9
+  s_0beac9cb5d78fd::t_403bbe17b028ea 21
+src/components/ForMeSituation.tsx
+  s_0beac9cb5d78fd::t_e7e8cf398d0339 102,104
+  s_0beac9cb5d78fd::t_856fa3002c0832 86
+  s_0beac9cb5d78fd::t_3df16d313bc261 87-91
+  s_0beac9cb5d78fd::t_81a550d4d3cb00 1-3,5-10,16,27-81,83-84,92-97,108-111,114-116,119-126,133-175,177-178,180-202
+  s_0beac9cb5d78fd::t_849a6618ceac23 4,11-15,17-26
+  s_0beac9cb5d78fd::t_18621480a52109 82,85,98-101,103,105-107,112-113,127-128,130-132
+  s_0beac9cb5d78fd::t_670634c495bbc5 129
+  s_0beac9cb5d78fd::t_81f10dd482e50a 176,179
+  s_0beac9cb5d78fd::t_ee8725e6b2a7e9 117-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "014ee613fef5acb5152ba9b9f55e8b2554a7764a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

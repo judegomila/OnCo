@@ -1,0 +1,92 @@
+src/components/Wireframe3D.tsx
+  s_0beac9cb5d78fd::t_7555f7d840ee95 118
+  s_0beac9cb5d78fd::t_8e42bf37329ccf 101-102
+  s_0beac9cb5d78fd::t_495a118105247d 70-72
+  s_0beac9cb5d78fd::t_44454cd0e2c300 248-250,255
+  s_0beac9cb5d78fd::t_3cf39b7ce466e5 6-7
+  s_0beac9cb5d78fd::t_d71481e80e865d 109
+  s_0beac9cb5d78fd::t_bdb8e001b723b4 154
+src/components/BodyMap.tsx
+  s_0beac9cb5d78fd::t_e3d32ba9fdad0d 40-42
+  s_0beac9cb5d78fd::t_845399580d964b 57
+  s_0beac9cb5d78fd::t_64629740f97e9f 99
+  s_0beac9cb5d78fd::t_832b429a1f2158 3,6
+  s_0beac9cb5d78fd::t_9b85d405c471f7 90
+src/components/StickyAside.tsx
+  s_0beac9cb5d78fd::t_b2a11492371f34 1-39
+src/components/DockingScene.tsx
+  s_0beac9cb5d78fd::t_afad932dac3479 49
+  s_0beac9cb5d78fd::t_14a9bf3082e147 114,121
+  s_0beac9cb5d78fd::t_80f6f4c534d9f8 128-130,134
+  s_0beac9cb5d78fd::t_daed3f2bec51e6 7-8
+  s_0beac9cb5d78fd::t_5a5c46f1f816b0 30-31,33,37
+  s_0beac9cb5d78fd::t_d23c96484ad81c 80,83-91
+src/components/TimelineScrubber.tsx
+  s_0beac9cb5d78fd::t_d53e14db7c8cc9 50
+  s_0beac9cb5d78fd::t_f07018d46c33cb 19-22,25,28
+  s_0beac9cb5d78fd::t_8656adc1a7256e 6
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_687568172f55bd 219
+  s_0beac9cb5d78fd::t_c5c369d903ee1a 25
+  s_0beac9cb5d78fd::t_d07bc7687c1a9a 196
+src/components/MotionHint.tsx
+  s_0beac9cb5d78fd::t_8f86a54fb6b986 1-18
+src/app/globals.css
+  s_0beac9cb5d78fd::t_fe7916ce56e031 363-370
+src/components/MotionGovernor.tsx
+  s_0beac9cb5d78fd::t_a777369fad1243 1-13
+src/lib/use-animation-budget.ts
+  s_0beac9cb5d78fd::t_9920e1f3524aef 1-284
+src/components/MechanismCard.tsx
+  s_0beac9cb5d78fd::t_00fecff8f13914 43-46,49,52,56
+  s_0beac9cb5d78fd::t_3b5e24645a83d4 3-4
+src/components/MotionScope.tsx
+  s_0beac9cb5d78fd::t_868878e732c799 1-17
+src/components/ResistanceMap.tsx
+  s_0beac9cb5d78fd::t_c6afa61d7af18e 45
+  s_0beac9cb5d78fd::t_5fbc397f51e912 3,5
+  s_0beac9cb5d78fd::t_d7c7fb76c9806e 34-38
+  s_0beac9cb5d78fd::t_496f8e8a2dbcea 176-177
+  s_0beac9cb5d78fd::t_4345b033a27441 149
+src/components/Molecule3D.tsx
+  s_0beac9cb5d78fd::t_2da3a3188e7b6b 48
+  s_0beac9cb5d78fd::t_43212fcf9f9971 36,41
+  s_0beac9cb5d78fd::t_46bc1a49b0697b 25-26
+  s_0beac9cb5d78fd::t_ef56b085b2397a 188
+  s_0beac9cb5d78fd::t_75db29a036b943 202
+  s_0beac9cb5d78fd::t_32b80299c5aafb 146,149-150,152-159
+  s_0beac9cb5d78fd::t_87d6cc08fb2543 8-9
+  s_0beac9cb5d78fd::t_e6537851c2bd76 174-175
+  s_0beac9cb5d78fd::t_b32a7656b0d9a9 207,209,211,214,216-218
+src/components/MoleculeGallery.tsx
+  s_0beac9cb5d78fd::t_b47f96ac198331 5,7-10
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_983e8405a1ffc4 102
+  s_0beac9cb5d78fd::t_0fb400330cb3fe 22
+src/components/Garden.tsx
+  s_0beac9cb5d78fd::t_c946b9460a5ff3 105-106
+  s_0beac9cb5d78fd::t_9fc4241e741a21 75
+  s_0beac9cb5d78fd::t_a37180d0c09820 115
+  s_0beac9cb5d78fd::t_034134b6d9bacf 2
+src/components/RoadmapStory.tsx
+  s_0beac9cb5d78fd::t_86c96999b01ff2 44-45,47,51
+  s_0beac9cb5d78fd::t_88d75bcdd5b369 6
+src/lib/use-animation-budget.test.ts
+  s_0beac9cb5d78fd::t_6d7adfa923a876 1-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e2174d400ce7a0148d35067909bf4b24f139570c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

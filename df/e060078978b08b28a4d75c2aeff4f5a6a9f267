@@ -1,0 +1,76 @@
+public/structures/index.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-86291103.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-86677874.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-68029831.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-16063245.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+src/data/structures.ts
+  s_0beac9cb5d78fd::t_46548c90524ef9 594
+  s_0beac9cb5d78fd::t_5ae49eff11a111 588-593,595-618
+public/structures/pubchem-54758501.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-49792852.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-91844733.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-4114.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-163659.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-656655.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-439693.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-5284592.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-134019.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-52920501.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-121371196.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-139549388.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-11296583.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-91754520.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-4842.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-51038269.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-86269224.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-135565554.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-9796440.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-89995232.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-44603533.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-29327.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+public/structures/pubchem-135400182.json
+  s_0beac9cb5d78fd::t_46548c90524ef9 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "dfe060078978b08b28a4d75c2aeff4f5a6a9f267",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

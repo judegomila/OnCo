@@ -1,0 +1,37 @@
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_789afc6b3c63a0 182-183
+src/components/WatchButton.tsx
+  s_0beac9cb5d78fd::t_789afc6b3c63a0 18,32-33,35,39,43,53
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_4c14c0af1d5708 149-150
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_4c14c0af1d5708 149-150
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_4c14c0af1d5708 149-150
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_4c14c0af1d5708 149-150
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_4c14c0af1d5708 149-150
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_4c14c0af1d5708 149-150
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_4c14c0af1d5708 149-150
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_4c14c0af1d5708 149-150
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "05efe1e45c7267eea261895c0fe29dc314535d0d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

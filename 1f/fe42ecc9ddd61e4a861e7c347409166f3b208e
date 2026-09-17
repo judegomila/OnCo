@@ -1,0 +1,36 @@
+src/lib/startup-score.test.ts
+  s_0beac9cb5d78fd::t_a0bb3a6cb16375 1-124
+src/components/StartupRequestBoard.tsx
+  s_0beac9cb5d78fd::t_1978f188ce4925 72-74
+  s_0beac9cb5d78fd::t_8d1cfa6111b039 1-44,46,48,61-63,65-71,75-130
+  s_0beac9cb5d78fd::t_b60fb8b15ddc6c 45,47,49-60,64
+src/lib/startup-score.ts
+  s_0beac9cb5d78fd::t_2cc3d117c2fb5a 220,232,241
+  s_0beac9cb5d78fd::t_cf8388f7fb0da4 97,100
+  s_0beac9cb5d78fd::t_66c39f1179b4cd 214
+  s_0beac9cb5d78fd::t_2a07402713d11a 116-117
+  s_0beac9cb5d78fd::t_7e723283c27710 136
+  s_0beac9cb5d78fd::t_d644b9e97bab38 1-28,31-69,72-96,98-99,101-115,118-135,137-213,215-219,221-231,233-240,242-300
+  s_0beac9cb5d78fd::t_a682c7f6d3cfc7 70-71
+  s_0beac9cb5d78fd::t_dc1510121317bd 29-30
+src/app/startup-requests/page.tsx
+  s_0beac9cb5d78fd::t_ec12e92510289a 61
+  s_0beac9cb5d78fd::t_785301895f457b 64-73,76-80
+  s_0beac9cb5d78fd::t_5e3a1bf7c04d71 9-10,14,20-21,23-37,42-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1ffe42ecc9ddd61e4a861e7c347409166f3b208e",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

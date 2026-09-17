@@ -1,0 +1,29 @@
+src/data/radiation-wave1.ts
+  s_0beac9cb5d78fd::t_4f7c81c9d0c4b9 1-212,214-219
+  s_0beac9cb5d78fd::t_7e29c4f59dd880 213
+src/data/index.ts
+  s_0beac9cb5d78fd::t_df65b99f190f95 136
+  s_0beac9cb5d78fd::t_4f7c81c9d0c4b9 69
+src/components/CommandPalette.tsx
+  s_0beac9cb5d78fd::t_828bc36b48aa9c 4,119-121,177
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_4f7c81c9d0c4b9 560-561,563
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_6fb68fe68ac123 292-296
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "98e0a848884228f9324c7cd2e1bc7c402fc1fd07",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

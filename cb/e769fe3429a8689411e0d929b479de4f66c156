@@ -1,0 +1,34 @@
+src/app/audit/page.tsx
+  s_0beac9cb5d78fd::t_4759bf793bb74c 8,51-54,69
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_4759bf793bb74c 28
+  s_0beac9cb5d78fd::t_bc8d6c57630376 7299-7355
+src/data/index.ts
+  s_0beac9cb5d78fd::t_c332acaf1af1aa 72
+  s_0beac9cb5d78fd::t_a20437e3504a5f 73,140,149
+src/data/cancer-parents-wave2.ts
+  s_0beac9cb5d78fd::t_a20437e3504a5f 1-107
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_95d2b716e9ee08 303-308
+src/data/radiation-wave3.ts
+  s_0beac9cb5d78fd::t_c332acaf1af1aa 1-45
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_a20437e3504a5f 39,58,123
+  s_0beac9cb5d78fd::t_3aae2285c71412 347
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "cbe769fe3429a8689411e0d929b479de4f66c156",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

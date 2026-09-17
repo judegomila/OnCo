@@ -1,0 +1,43 @@
+public/i18n/summaries/zh/randomised-trial.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+public/i18n/summaries/zh/chemoradiation.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+public/i18n/summaries/zh/mortality.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+public/i18n/summaries/zh/clinical-trial.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+public/i18n/summaries/zh/trial-phases.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+public/i18n/summaries/zh/incidence-vs-prevalence.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+public/i18n/summaries/zh/radiotherapy.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+public/i18n/summaries/zh/screening.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+public/i18n/summaries/zh/tnbc.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+public/i18n/summaries/es/tnbc.json
+  s_0beac9cb5d78fd::t_3ab5f26c0ab750 1-6
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_68c9d3065f4aab 10,13-14
+public/i18n/summaries/zh/merkel-cell-carcinoma.json
+  s_0beac9cb5d78fd::t_10bf9be3a03447 1-6
+src/lib/model-reviews.test.ts
+  s_0beac9cb5d78fd::t_384fe5abbc1362 84-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "cb3bace70815e39f5f12b2a311103ce7f7094c0d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+src/data/terms.ts
+  s_0beac9cb5d78fd::t_ae31637480104c 69
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_567468bc4560a5 222
+src/data/platform-trials-wave.ts
+  s_0beac9cb5d78fd::t_a235561f66db41 1-31,33-47,49-108,110-112,114-158,160-191,193-233,235-262
+  s_0beac9cb5d78fd::t_e6ce3872229d0f 32
+  s_0beac9cb5d78fd::t_ae31637480104c 48,109,113,159,192,234
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_c7df3a454db345 229-230,232-241
+src/data/ispy-wave.ts
+  s_0beac9cb5d78fd::t_567468bc4560a5 17,24,31
+  s_0beac9cb5d78fd::t_cdb093ca4300bf 1-16,18-23,25-30,32-47
+src/data/index.ts
+  s_0beac9cb5d78fd::t_ae31637480104c 78-79,155
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "410f657860ded39e65cab9525d25450a7a2f473f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

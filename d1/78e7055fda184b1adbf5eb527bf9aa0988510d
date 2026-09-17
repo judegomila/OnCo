@@ -1,0 +1,32 @@
+src/components/PivotTable.tsx
+  s_0beac9cb5d78fd::t_9491d5c7d5f4bc 15,85,94
+  s_0beac9cb5d78fd::t_740077e144039a 114
+src/app/signup/page.tsx
+  s_0beac9cb5d78fd::t_e35b15abdea8d5 16
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_e35b15abdea8d5 419-422,424
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_e35b15abdea8d5 612-614
+src/components/Navigator.tsx
+  s_0beac9cb5d78fd::t_e35b15abdea8d5 13-22,160
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_740077e144039a 345-351
+src/app/pivot/page.tsx
+  s_0beac9cb5d78fd::t_9491d5c7d5f4bc 41-42,44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d178e7055fda184b1adbf5eb527bf9aa0988510d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+docs/IMPROVEMENTS-100.md
+  s_0beac9cb5d78fd::t_8980b7a7caa103 150
+public/freshness.json
+  s_0beac9cb5d78fd::t_e00c121be61891 1
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_a018c2ce93da4b 65
+  s_0beac9cb5d78fd::t_324341ad5dae95 66
+src/data/cancer-subtypes.ts
+  s_0beac9cb5d78fd::t_90ec4831e87b23 1-25,27-74
+  s_0beac9cb5d78fd::t_d0ecfca1ba338b 26
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_8980b7a7caa103 297-302
+public/llms.txt
+  s_0beac9cb5d78fd::t_e00c121be61891 5
+src/lib/graph.ts
+  s_0beac9cb5d78fd::t_90ec4831e87b23 4,133
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_90ec4831e87b23 145-146
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_a018c2ce93da4b 605-618,625
+src/data/index.ts
+  s_0beac9cb5d78fd::t_a018c2ce93da4b 70-71,138,145-149
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_a018c2ce93da4b 58,80
+  s_0beac9cb5d78fd::t_8980b7a7caa103 88
+src/data/radiation-wave2.ts
+  s_0beac9cb5d78fd::t_a018c2ce93da4b 1-80,82-132,134-147
+  s_0beac9cb5d78fd::t_d0ecfca1ba338b 81
+  s_0beac9cb5d78fd::t_d5f048ab685407 133
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "34f7cddd674b2b1669275189e6cd9ce2d07fbb5f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

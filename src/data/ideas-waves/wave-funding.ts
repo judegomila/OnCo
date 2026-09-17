@@ -855,8 +855,8 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Coverage-with-evidence conditions triple accrual to randomised proton versus photon trials within three years and produce definitive comparative results in at least three common adult indications within six.",
     rationale: "The Netherlands' model-based indication protocol and coverage-with-evidence in several US insurers show payers can condition access; the proton field itself has called for randomised evidence for two decades and has produced little because the incentives run the other way.",
     test: "Implement the condition across a payer coalition for two adult indications and compare trial accrual rates and time to completion with the period before.",
-    links: [{ label: "PARTIQoL (NCT01617161)", url: "https://clinicaltrials.gov/study/NCT01617161" }],
-    technologies: ["proton-therapy", "carbon-ion", "imrt-igrt"], companies: ["iba", "mevion"], cancers: ["prostate", "breast-hr-positive", "esophageal"], people: ["juergen-debus"], related: ["idea-fund-flash-evidence-programme", "idea-fund-adaptive-radiotherapy-evidence"] }),
+    links: [{ label: "PARTIQoL (NCT01617161)", url: "https://clinicaltrials.gov/study/NCT01617161" }, { label: "RADCOMP (NCT02603341)", url: "https://clinicaltrials.gov/study/NCT02603341" }],
+    technologies: ["proton-therapy", "carbon-ion", "imrt-igrt"], companies: ["iba", "mevion"], cancers: ["prostate", "breast-hr-positive", "esophageal"], people: ["juergen-debus"], trials: ["partiqol", "radcomp"], terms: ["relative-biological-effectiveness", "linear-energy-transfer", "alpha-beta-ratio"], related: ["idea-fund-flash-evidence-programme", "idea-fund-adaptive-radiotherapy-evidence", "idea-bio2-let-rbe-ab-selects-protons", "proton-vs-imrt"] }),
 
   i({ id: "idea-fund-surgeon-scientist-pathway", name: "Funded research pathways for surgeon-scientists and radiation oncologist-scientists", maturity: "speculative",
     actor: "research", cost: "medium", horizonYears: 6, bottlenecks: ["b-surgery-radiation-innovation", "b-workforce"],

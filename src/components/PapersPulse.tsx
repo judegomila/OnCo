@@ -24,7 +24,7 @@ const CURRENT_YEAR = String(new Date().getFullYear());
 export function Sparkline({ counts, className = "" }: { counts: Record<string, number>; className?: string }) {
   const max = Math.max(1, ...YEARS.map((y) => counts[y] ?? 0));
   return (
-    <span className={`inline-flex items-end gap-px h-5 ${className}`} title={YEARS.map((y) => `${y}: ${counts[y] ?? 0}`).join("\n")} aria-label="papers per year">
+    <span role="img" className={`inline-flex items-end gap-px h-5 ${className}`} title={YEARS.map((y) => `${y}: ${counts[y] ?? 0}`).join("\n")} aria-label="papers per year">
       {YEARS.map((y) => (
         <span key={y} className="w-1.5 rounded-sm bg-foreground/70" style={{ height: `${Math.max(6, Math.round(((counts[y] ?? 0) / max) * 100))}%`, opacity: y === CURRENT_YEAR ? 0.55 : 1 }} />
       ))}

@@ -63,7 +63,7 @@ export function Molecule3D({ entry, compact = false, height = "h-64 sm:h-80", cl
         </span>
         {!isProtein && scene?.hasH && <button type="button" onClick={() => setShowH((h) => !h)} aria-pressed={showH} className={`chip border ${showH ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>Hydrogens</button>}
         {style === "solid" && <button type="button" onClick={() => setPlaying((p) => !p)} aria-pressed={!playing} className="chip border border-border bg-card hover:bg-foreground/5">{playing ? "Pause" : "Play"}</button>}
-        {mol && <button type="button" onClick={() => setChem((c) => !c)} aria-pressed={chem} aria-controls="chemistry-panel" className={`chip border ${chem ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>Chemistry</button>}
+        {mol && <button type="button" onClick={() => setChem((c) => !c)} aria-pressed={chem} aria-controls={chem ? "chemistry-panel" : undefined} className={`chip border ${chem ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>Chemistry</button>}
         {style === "solid" && <span className="text-muted hidden sm:inline">Drag to rotate, click for the chemistry</span>}
         {scene && <Legend scene={scene} showH={showH} />}
       </div>

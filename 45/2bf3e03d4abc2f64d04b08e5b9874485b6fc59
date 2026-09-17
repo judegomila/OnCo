@@ -1,0 +1,23 @@
+package.json
+  s_0beac9cb5d78fd::t_57a2ead96df073 85-86
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_57a2ead96df073 1-18
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_57a2ead96df073 10981-11049
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "452bf3e03d4abc2f64d04b08e5b9874485b6fc59",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

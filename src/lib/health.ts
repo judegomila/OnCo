@@ -75,7 +75,7 @@ const MIN_PER_KIND = 25;
 const MIN_IDEAS_PER_BOTTLENECK = 10;
 
 /** Build-time inputs that are not part of the graph: generated snapshots under public/. */
-type Ctx = { today: Date; provenance: Set<string>; papers: Set<string>; trials: Set<string>; logos: Set<string> };
+type Ctx = { today: Date; provenance: Set<string>; papers: Set<string>; trials: Set<string>; logos: Set<string>; citations: Set<string> };
 
 function keysOf(file: string, pick?: (j: unknown) => Record<string, unknown>): Set<string> {
   const p = join(process.cwd(), "public", file);
@@ -264,6 +264,12 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g, ctx) => fails(g.entities.filter((e) => ["drug", "target", "cancer", "technology"].includes(e.kind)), (e) => (ctx.papers.has(e.id) ? null : "no papers snapshot")),
   },
   {
+    id: "citations", label: "Key papers with a citation count", kind: "paper",
+    plain: "Each key paper should show how often it has been cited, from the Europe PMC index; a paper with no DOI or PMID cannot be looked up at all.",
+    action: "If the paper has no DOI or PMID, add one to its record; then run `npm run fetch:citations` (weekly workflow, budget-free) so the paper appears in public/citations/index.json.",
+    check: (g, ctx) => fails(g.kind("paper"), (p) => (ctx.citations.has(p.id) ? null : p.doi || p.pmid ? "not in the citations snapshot yet" : "no DOI or PMID"), (p) => (p.doi || p.pmid ? 0 : 1)),
+  },
+  {
     id: "trials-snapshot", label: "Products with a ClinicalTrials.gov snapshot", kind: "drug",
     plain: "The pipeline tracker should show live phase 2/3 counts for every product, not just the ones it was first run on.",
     action: "Run `npm run fetch:trials` (weekly workflow) for the missing products; check the query term if a product returns nothing.",
@@ -312,6 +318,7 @@ export function health(now = new Date()): HealthMetric[] {
     papers: keysOf("papers/index.json", (j) => ((j as { entities?: Record<string, unknown> }).entities ?? {})),
     trials: keysOf("trials/index.json"),
     logos: keysOf("logos/index.json"),
+    citations: keysOf("citations/index.json", (j) => ((j as { papers?: Record<string, unknown> }).papers ?? {})),
   };
   cached = METRIC_DEFS.map((d) => {
     const { total, failing } = d.check(g, ctx);

@@ -4,7 +4,7 @@ import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Sparkline } from "@/components/PapersPulse";
 
-/** Shape written by scripts/fetch-citations.ts (public/openalex/papers.json). */
+/** Shape written by scripts/fetch-openalex-papers.ts (public/openalex/papers.json). */
 export type PaperCitations = { doi: string; openalexId: string; cited: number; byYear: Record<string, number>; year?: number; title?: string };
 export type CitationsSnapshot = { fetched: string; source: string; license: string; papers: Record<string, PaperCitations>; missing: string[] };
 

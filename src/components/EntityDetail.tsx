@@ -59,6 +59,7 @@ import { LayerAware } from "./LayerAware";
 import { KindName, TL } from "./T";
 import { withTermHovers } from "@/lib/term-hover";
 import { paperQuery } from "@/lib/europepmc";
+import { CitationChip } from "@/components/CitationChip";
 import { LatestPapers } from "./LatestPapers";
 import { PaperTrend } from "./PapersPulse";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
@@ -439,6 +440,7 @@ function kindTabs(e: Entity): Tab[] {
             <span className="chip bg-foreground/5">{typeLabel[e.paperType] ?? e.paperType}</span>
             {e.changedPractice !== undefined && <span className={`chip ${statusClass(e.changedPractice ? "approved" : "mixed")}`}>{e.changedPractice ? "Changed practice" : "Has not changed practice yet"}</span>}
             {e.participants !== undefined && <span className="chip bg-foreground/5 tabular-nums">{e.participants.toLocaleString()} participants</span>}
+            <CitationChip id={e.id} />
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
             <Field label="Authors">{e.authors}</Field>
@@ -467,7 +469,7 @@ function kindTabs(e: Entity): Tab[] {
           </div>
         </div>),
         ...(papers.length ? [{ id: "key-papers", label: "Key papers", count: papers.length, content: (
-          <div className="grid gap-3 md:grid-cols-2">{papers.map((p) => <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition"><div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}</div><div className="font-medium leading-snug">{p.name}</div><p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p></Link>)}</div>) }] : []),
+          <div className="grid gap-3 md:grid-cols-2">{papers.map((p) => <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition"><div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} /></div><div className="font-medium leading-snug">{p.name}</div><p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p></Link>)}</div>) }] : []),
         ...peopleTab(people),
       ];
     }
@@ -532,7 +534,7 @@ function keyPapersTab(e: Entity): Tab[] {
   return [{ id: "key-papers", label: "Key papers", count: papers.length, content: (
     <div className="grid gap-3 md:grid-cols-2">{papers.map((p) => (
       <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition">
-        <div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.journal} {p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}</div>
+        <div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.journal} {p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} /></div>
         <div className="font-medium leading-snug">{p.name}</div>
         <p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p>
       </Link>))}</div>) }];

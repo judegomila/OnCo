@@ -70,6 +70,7 @@
     "fetch:hta": "tsx scripts/fetch-hta.ts",
     "fetch:pulse": "tsx scripts/fetch-pulse.ts",
     "fetch:citations": "tsx scripts/fetch-citations.ts",
+    "fetch:openalex-papers": "tsx scripts/fetch-openalex-papers.ts",
     "fetch:survival": "tsx scripts/fetch-survival.ts",
     "propose": "tsx scripts/propose-updates.ts",
     "build:feeds": "tsx scripts/build-feeds.ts",

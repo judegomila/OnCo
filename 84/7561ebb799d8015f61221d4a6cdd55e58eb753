@@ -1,0 +1,67 @@
+public/newsletter/2026-09-18.json
+  ai_agent 1-5
+src/data/companies.ts
+  ai_agent 34,42,58,116,144,180,192,198,250,254,278,310,318,326,342,384,461,471
+src/data/diagnostics-wave2.ts
+  ai_agent 333
+src/data/companies-makers-wave4.ts
+  ai_agent 24,40,188
+src/data/machines-wave.ts
+  ai_agent 276,311,341
+src/data/china.ts
+  ai_agent 281
+src/data/machines-wave2.ts
+  ai_agent 265,302,373
+public/newsletter/index.json
+  ai_agent 1-5
+src/data/spikes/cholangiocarcinoma.ts
+  s_0beac9cb5d78fd::t_661d74162d8433 22
+public/newsletter/2026-09-18/index.html
+  ai_agent 2,4-6,13,16-19
+public/freshness.json
+  ai_agent 1-5
+src/data/india.ts
+  ai_agent 40,55
+src/data/companies-sponsors.ts
+  s_0beac9cb5d78fd::t_661d74162d8433 896
+src/data/manufacturing-wave.ts
+  ai_agent 190
+src/data/pdac-wave.ts
+  ai_agent 94
+public/newsletter/feed.xml
+  ai_agent 14,18-22
+src/data/spikes/pancreatic.ts
+  ai_agent 162
+src/data/companies-startups.ts
+  ai_agent 442,1144
+src/data/spikes/hcc.ts
+  s_0beac9cb5d78fd::t_661d74162d8433 22,26
+src/data/spikes/glioblastoma.ts
+  ai_agent 219
+src/data/supporting.ts
+  ai_agent 511,515,631,719,751,763,787,795,811,847
+src/data/tests.ts
+  ai_agent 547,557
+src/data/companies-wave1.ts
+  ai_agent 37,64
+src/data/wikidata-ids.ts
+  s_0beac9cb5d78fd::t_661d74162d8433 328,331,336,343,358,373,379,384,389,410-411,417-418,422,431-432,436,453-454,458,460,468-470,487,493,507,509,519,524,527-528,534
+src/data/foundation-models.ts
+  ai_agent 31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "847561ebb799d8015f61221d4a6cdd55e58eb753",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

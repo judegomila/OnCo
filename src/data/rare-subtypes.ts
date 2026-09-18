@@ -117,7 +117,7 @@ export const rareSubtypes: CancerInput[] = [
     openProblems: ["Median survival remains under two years even with a PD-1 antibody added to chemotherapy.", "No second-line standard exists after chemo-immunotherapy.", "Whether local treatment of oligometastases improves survival has never been randomised.", "HPV-directed cell therapies and vaccines are promising but early."],
     keyPapers: ["paper-interaact-anal-cancer-carboplatin-paclitaxel-jco-2020", "paper-esmo-anal-cancer-guideline-ann-oncol-2021"],
     drugs: ["carboplatin", "paclitaxel", "retifanlimab", "nivolumab", "pembrolizumab", "fluorouracil"], trials: [], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy", "cthpv-dna", "sbrt"], terms: ["hpv-p16", "re-irradiation"], targets: ["pd1", "pdl1"],
-    links: [{ label: "InterAACT (JCO 2020)", url: "https://doi.org/10.1200/JCO.19.03266" }, { label: "POD1UM-303 (Lancet 2025)", url: "https://doi.org/10.1016/S0140-6736(24)02635-7" }, { label: "Wikipedia", url: W("Anal_cancer") }] },
+    links: [{ label: "InterAACT (JCO 2020)", url: "https://doi.org/10.1200/JCO.19.03266" }, { label: "POD1UM-303 (Lancet 2025)", url: "https://doi.org/10.1016/S0140-6736(25)00631-2" }, { label: "Wikipedia", url: W("Anal_cancer") }] },
 
   // ---------------------------------------------------------------------------------------------------------------------
   // Penile cancer: organ-confined and node-positive disease
@@ -640,7 +640,7 @@ export const rareSubtypes: CancerInput[] = [
     pipeline: ["cobimetinib", "vemurafenib", "dabrafenib-trametinib"],
     openProblems: ["Kinase inhibitors are usually needed for life and relapse follows their withdrawal.", "Long-term cardiac, skin and secondary-cancer effects of indefinite BRAF and MEK inhibition are unknown.", "Established fibrosis and neurological damage do not reverse.", "Diagnosis is still delayed by years because the disease is unfamiliar."],
     drugs: ["vemurafenib", "cobimetinib", "dabrafenib-trametinib", "interferon-alfa", "cladribine", "methotrexate"], trials: [], technologies: ["kinase-inhibitors", "fdg-pet", "liquid-biopsy", "cgp", "mri", "active-surveillance"], terms: ["braf-v600-mutation", "driver-mutation", "ctdna", "retroperitoneum"], targets: ["braf", "pik3ca"],
-    links: [{ label: "ECD consensus recommendations (Blood 2020)", url: ecdG.url }, { label: "Cobimetinib in histiocytosis (Nature Medicine 2019)", url: "https://doi.org/10.1038/s41591-019-0653-6" }, { label: "Wikipedia", url: W("Erdheim%E2%80%93Chester_disease") }] },
+    links: [{ label: "ECD consensus recommendations (Blood 2020)", url: ecdG.url }, { label: "Cobimetinib in histiocytosis (Nature 2019)", url: "https://doi.org/10.1038/s41586-019-1012-y" }, { label: "Wikipedia", url: W("Erdheim%E2%80%93Chester_disease") }] },
 
   { id: "rosai-dorfman-disease", related: ["erdheim-chester-disease", "histiocytoses", "lch-single-system"], kind: "cancer", name: "Rosai-Dorfman-Destombes disease", group: "haematologic", parent: "histiocytoses", asOf, tags: T("haematologic"), wikipedia: W("Rosai%E2%80%93Dorfman_disease"),
     aka: ["Rosai-Dorfman disease", "RDD", "Sinus histiocytosis with massive lymphadenopathy", "R-group histiocytosis", "Destombes-Rosai-Dorfman disease"],

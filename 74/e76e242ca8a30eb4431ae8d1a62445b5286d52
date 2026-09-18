@@ -1,0 +1,53 @@
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_e6000875985439 134-136
+LICENSE
+  s_0beac9cb5d78fd::t_6e661b2b5530fa 3
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_a594df34e903b1 134-136
+src/app/terms-of-use/page.tsx
+  s_0beac9cb5d78fd::t_45e4973aa3a223 1-110
+src/app/legal-pages.test.ts
+  s_0beac9cb5d78fd::t_335db56862c4f1 1-128
+src/lib/search-index.ts
+  s_0beac9cb5d78fd::t_844099b8c3d157 19-20
+  s_0beac9cb5d78fd::t_e9638242a98b75 7-13
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_a8a836c1b7d9f2 134-136
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_0a55f76a6bdf65 135-136
+  s_0beac9cb5d78fd::t_68e31bbc3ea577 122-125
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_0f4b6b58f9a86d 134-136
+src/app/privacy/page.tsx
+  s_0beac9cb5d78fd::t_8ac174ad90be2e 1-190
+src/components/LegalPage.tsx
+  s_0beac9cb5d78fd::t_4eb83b7ca77090 1-104
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_8204bd074df289 166-168
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_bcaae07469b600 134-136
+src/components/JsonLd.tsx
+  s_0beac9cb5d78fd::t_3ebb94a7ce12c1 252-272
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_568d6d89cbcb71 134-136
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_9118629dc33523 134-136
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_205843d210676a 134-136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "74e76e242ca8a30eb4431ae8d1a62445b5286d52",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

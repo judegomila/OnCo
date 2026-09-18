@@ -7,7 +7,6 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 18 September 2026
-- A further 121 researchers carry ORCID ids and 18 gain Wikipedia links, each checked against their ORCID employment record
 - Seventy-four drug makers added and 210 drug-to-company links filled, so pipeline drugs now show who is developing them
 - Key papers for 147 subtype pages: 364 pivotal trial, classification and guideline papers, each checked against Europe PMC
 - Thirty-nine drugs named by the new subtype pages now have their own records, from hormone therapies for pituitary tumours to antibody-drug conjugates in trials
@@ -29,6 +28,8 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - 969 more plain-English sentences for early-phase trials, key papers and collections, taking the simple layer to 9,930 records; one non-cancer registry record removed
 - Orphan trials given content: ten drug matches, 17 sponsor aliases, 36 sponsor companies and 130 trials tied to their makers, two non-cancer records removed; backlinks round: 303 weakly linked records gain true relations from their own text; orphans down to 214
 - 1,024 more plain-English sentences: 279 companies, 104 institutions and 640 phase 3 trials, taking the simple layer to 8,961 records
+- Add structured outcomes to 77 subtype-wave landmark trials from Europe PMC abstracts
+- A further 121 researchers carry ORCID ids and 18 gain Wikipedia links, each checked against their ORCID employment record
 - Add 121 ORCIDs and 18 Wikipedia links in a second identifier pass
 - Subtype cancer pages now link their sibling subtypes (667 links) and 188 researchers carry ORCID ids with 22 Wikipedia links
 - Add 188 ORCIDs and 22 Wikipedia links to people records

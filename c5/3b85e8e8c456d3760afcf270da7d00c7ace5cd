@@ -1,0 +1,11 @@
+src/data/key-papers/prevention-detection-biology.ts
+  ai_agent 364,370
+src/data/people/europe.ts
+  ai_agent 121
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c53b85e8e8c456d3760afcf270da7d00c7ace5cd",
+  "prompts": {}
+}

@@ -333,3 +333,7 @@ const spike: Spike = {
 };
 
 export default spike;
+
+// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
+// A later Wikipedia-linking pass can skip these ids.
+//   bcg-unresponsive

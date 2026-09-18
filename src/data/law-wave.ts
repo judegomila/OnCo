@@ -406,7 +406,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["ema"], bottlenecks: ["b-rare-cancers", "b-incentive-misalignment"], tags: ["eu"],
   }),
   t({
-    id: "eu-clinical-trials-regulation", name: "Clinical Trials Regulation (EU) No 536/2014 and CTIS",
+    id: "eu-clinical-trials-regulation", wikipedia: W("European_Union_Clinical_Trials_Regulation"), name: "Clinical Trials Regulation (EU) No 536/2014 and CTIS",
     aka: ["Clinical Trials Regulation", "Regulation 536/2014", "CTR", "CTIS", "Clinical Trials Information System", "Clinical Trials Directive", "Directive 2001/20/EC", "ACT EU"],
     links: [
       { label: "EUR-Lex: Regulation (EU) No 536/2014", url: "https://eur-lex.europa.eu/eli/reg/2014/536/oj" },
@@ -750,3 +750,23 @@ export const tldrZh: Record<string, string> = {
   "declaration-of-helsinki": "医学界自身的人体研究伦理准则，1964年通过，最近于2024年修订，每份癌症试验方案都会引用：知情同意、独立伦理审查、参与者福祉高于科学利益，以及对安慰剂对照的限制。",
   "ich-gcp": "关于临床试验应如何设计、实施、记录和报告的国际标准，使美国、欧洲、日本和现在的中国监管机构接受其数据；第三版于2025年通过，以适应使用电子记录并跨多国开展的试验。",
 };
+
+// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
+// A later Wikipedia-linking pass can skip these ids.
+//   china-hgr-rules
+//   eu-hta-regulation
+//   eu-orphan-regulation
+//   eu-paediatric-regulation
+//   eu-pharma-package
+//   eu-regulation-726-2004
+//   fdora-2022
+//   france-early-access
+//   ilap
+//   innovative-medicines-fund
+//   japan-conditional-early-approval
+//   medicare-ced
+//   medicines-medical-devices-act-2021
+//   nice-methods
+//   project-orbis
+//   race-for-children-act
+//   state-biomarker-testing-laws

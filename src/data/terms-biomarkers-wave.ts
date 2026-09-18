@@ -80,7 +80,7 @@ export const biomarkerTerms: TermInput[] = [
 
   // ---- Risk scores and staging systems ----
   t({
-    id: "ipss-m-ipss-r", name: "IPSS-R and IPSS-M (myelodysplastic syndrome risk scores)",
+    id: "ipss-m-ipss-r", wikipedia: W("International_Prognostic_Scoring_System"), name: "IPSS-R and IPSS-M (myelodysplastic syndrome risk scores)",
     aka: ["IPSS", "IPSS-R", "IPSS-M", "Revised International Prognostic Scoring System", "Molecular International Prognostic Scoring System", "IPSS-R score", "IPSS-M score", "lower-risk MDS", "higher-risk MDS", "very low risk MDS", "very high risk MDS", "MDS risk score", "MDS risk group"],
     tldr: "IPSS-R adds up marrow blasts, blood counts and chromosome findings, and IPSS-M adds the mutations in 31 genes, to place a person with myelodysplastic syndrome in a risk group that decides between watching, growth-factor and low-intensity drugs, or moving quickly to a transplant.",
     summary: "What is measured: the risk of progression to acute leukaemia and of death. How: IPSS-R (2012) scores marrow blast percentage, a five-tier cytogenetic category (very good to very poor), haemoglobin, platelets and neutrophils into five groups from very low to very high; IPSS-M (2022) keeps the clinical variables and adds mutations in 31 genes from a myeloid sequencing panel, including TP53 allelic state (multi-hit is far worse than single-hit), SF3B1 (favourable when isolated) and a count of residual mutated genes, giving six groups and moving about half of patients, most of them upwards. Inputs come from a marrow aspirate and trephine with blast count, karyotype and FISH (del(5q), monosomy 7 or del(7q), complex karyotype) and sequencing. What a result changes: lower-risk disease is managed for its cytopenias (erythropoiesis-stimulating agents, luspatercept, lenalidomide for del(5q), imetelstat, transfusion and iron chelation); higher-risk disease moves to hypomethylating agents and, when fit, allogeneic transplant, with the score deciding timing; both scores set trial eligibility. Where it matters: lower-risk and higher-risk MDS; DIPSS and MIPSS70 are the myelofibrosis equivalents and IPSSWM the Waldenström one.",
@@ -137,7 +137,7 @@ export const biomarkerTerms: TermInput[] = [
     related: ["mpn-driver-mutations", "jak2", "aspirin", "hydroxyurea", "anagrelide", "interferon-alfa"],
   }),
   t({
-    id: "li-rads", name: "LI-RADS (Liver Imaging Reporting and Data System)",
+    id: "li-rads", wikipedia: W("LI-RADS"), name: "LI-RADS (Liver Imaging Reporting and Data System)",
     aka: ["LI-RADS", "LI-RADS 5", "LR-5", "LR-4", "LR-3", "LR-M", "LR-TIV", "LR-TR", "LI-RADS category", "arterial phase hyperenhancement", "APHE", "washout appearance", "non-invasive diagnosis of hepatocellular carcinoma", "imaging diagnosis of liver cancer"],
     links: [{ label: "American College of Radiology: LI-RADS", url: "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/LI-RADS" }],
     tldr: "LI-RADS is the radiologist's grading of a liver nodule on contrast CT or MRI in a cirrhotic liver, from LR-1 (definitely benign) to LR-5 (definitely cancer); an LR-5 lesion is treated as hepatocellular carcinoma without a biopsy, which is why liver cancer is one of the few cancers diagnosed by imaging alone.",
@@ -497,3 +497,40 @@ export const tldrZh: Record<string, string> = {
   "psa-kinetics": "PSA 上升的速度比它的水平更重要：手术或放疗后倍增时间短于十个月，或去势抵抗期短于九个月，标志出癌症进展迅速、能从更早的激素治疗或 PSMA 扫描获益的男性；而 PSA 密度（PSA 除以前列腺体积）则帮助决定谁根本需要活检。",
   "m-protein-free-light-chains": "骨髓瘤细胞是一个抗体生成细胞的克隆，因此向血液中倾泻同一种抗体，即 M 蛋白；测量它（以及随之而来的游离轻链）是骨髓瘤诊断、疗效深度判断和在症状出现前发现复发的方法。",
 };
+
+// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
+// A later Wikipedia-linking pass can skip these ids.
+//   1p19q-codeletion
+//   abl1-kinase-domain-mutations
+//   aml-myelodysplasia-related
+//   b-all-cytogenetic-risk
+//   brca-reversion-mutations
+//   btki-bcl2i-resistance-mutations
+//   cll-ipi
+//   curie-siopen-score
+//   depth-of-invasion
+//   dipss-mipss70
+//   disease-volume-chaarted
+//   ependymoma-molecular-groups
+//   extranodal-extension
+//   foxo1-fusion-status
+//   gist-risk-stratification
+//   graded-prognostic-assessment
+//   histological-response-induction
+//   interferon-gamma-signature
+//   ipset-thrombosis
+//   met-exon-14-skipping
+//   mipi
+//   mlh1-promoter-methylation
+//   mpn-driver-mutations
+//   nsmp
+//   ph-like-all
+//   pretext-chic
+//   psa-kinetics
+//   sclc-molecular-subtypes
+//   sdh-deficiency
+//   segmental-chromosomal-aberrations
+//   sokal-elts-scores
+//   ss18-ssx-fusion
+//   uveal-melanoma-prognostic-markers
+//   wilms-risk-markers

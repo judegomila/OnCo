@@ -375,3 +375,9 @@ export const tldrZh: Record<string, string> = {
   "trial-lifecycle": "试验按固定顺序推进：书面方案、监管和伦理批准、公开注册、启动中心并纳入患者、运行期间的独立监查、事件足够时读出结果、报告与发表，若成功则更改药品说明书和指南。",
   "trial-failure-modes": "试验失败的原因反复出现且清单不长：患者数不足以检出真实效应、终点不能反映真正重要的结局、对照组表现好于设计者假设、获益只是亚组的错觉，以及对照组患者最终也用上了试验药物。",
 };
+
+// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
+// A later Wikipedia-linking pass can skip these ids.
+//   biomarker-stratified-design
+//   registry-based-trial
+//   umbrella-trial

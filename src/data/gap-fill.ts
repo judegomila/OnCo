@@ -1317,3 +1317,7 @@ export const gapCollections: CollectionInput[] = [
 ];
 
 export const gapFill: EntityInput[] = [...gapCancers, ...gapProducts, ...gapTargets, ...gapTechnologies, ...gapTerms, ...gapCollections];
+
+// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
+// A later Wikipedia-linking pass can skip these ids.
+//   cancer-in-pregnancy

@@ -544,7 +544,7 @@ const trials: TrialInput[] = [
 // Companies
 // =====================================================================================
 const companies: CompanyInput[] = [
-  co({ id: "myriad-genetics", trials: ["nct05642780"], name: "Myriad Genetics", hq: "Salt Lake City, UT", country: "US", companyType: "diagnostics", website: "https://myriad.com", ticker: "MYGN", founded: 1991, sections: ["diagnostics", "prevention"],
+  co({ id: "myriad-genetics", wikipedia: "https://en.wikipedia.org/wiki/Myriad_Genetics", trials: ["nct05642780"], name: "Myriad Genetics", hq: "Salt Lake City, UT", country: "US", companyType: "diagnostics", website: "https://myriad.com", ticker: "MYGN", founded: 1991, sections: ["diagnostics", "prevention"],
     tldr: "The company that made BRCA testing a business, now selling hereditary panels and the myChoice, EndoPredict and Prolaris tumour tests.",
     summary: "Myriad held the BRCA1/2 gene patents until the 2013 US Supreme Court ruling and launched BRACAnalysis CDx (2014) and myChoice CDx (2019), the two FDA-approved companion diagnostics for PARP inhibitors. MyRisk is its hereditary cancer panel; EndoPredict (breast) and Prolaris (prostate) are its prognostic tests. Its history is a case study in how gene patents, guidelines and reimbursement shape which tests patients receive.",
     drugs: ["bracanalysis-cdx", "mychoice-cdx", "endopredict", "prolaris"], technologies: ["germline-testing", "hrd-testing", "companion-diagnostic"], cancers: ["ovarian", "breast-hr-positive", "prostate"],
@@ -554,7 +554,7 @@ const companies: CompanyInput[] = [
     summary: "Spun out of the Netherlands Cancer Institute, Agendia developed MammaPrint (FDA-cleared 2007, the first cleared multigene prognostic test) and the BluePrint molecular subtyping assay, and sponsored MINDACT with the EORTC. It also runs the FLEX registry collecting whole-transcriptome data on MammaPrint patients.",
     drugs: ["mammaprint"], trials: ["mindact"], cancers: ["breast-hr-positive"], technologies: ["rna-seq"],
     links: [{ label: "Official website", url: "https://agendia.com" }] }),
-  co({ id: "hologic", name: "Hologic", hq: "Marlborough, MA", country: "US", companyType: "devices", website: "https://www.hologic.com", ticker: "HOLX", founded: 1985, sections: ["imaging", "early-detection", "diagnostics"],
+  co({ id: "hologic", wikipedia: "https://en.wikipedia.org/wiki/Hologic", name: "Hologic", hq: "Marlborough, MA", country: "US", companyType: "devices", website: "https://www.hologic.com", ticker: "HOLX", founded: 1985, sections: ["imaging", "early-detection", "diagnostics"],
     tldr: "The women's health company behind most 3D mammography machines, HPV and cytology testing, and the Breast Cancer Index.",
     summary: "Hologic's Selenia Dimensions was the first digital breast tomosynthesis system approved by the FDA (2011). Its diagnostics arm sells the Aptima HPV assay and ThinPrep cytology, and the Genius Digital Diagnostics AI cytology system; it acquired Biotheranostics (Breast Cancer Index) in 2021. In 2025 Hologic agreed to be taken private by Blackstone and TPG.",
     drugs: ["breast-cancer-index"], technologies: ["mammography", "hpv-testing"], cancers: ["breast-hr-positive", "cervical"],

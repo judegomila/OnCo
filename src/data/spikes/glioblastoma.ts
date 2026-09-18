@@ -216,7 +216,7 @@ const entities: EntityInput[] = [
     drugs: ["tovorafenib"], cancers: ["glioblastoma"],
   },
   {
-    id: "northwest-biotherapeutics", links: [{ label: "Official website", url: "https://nwbio.com" }], kind: "company", name: "Northwest Biotherapeutics", hq: "Bethesda, MD", country: "US", companyType: "cell-therapy", website: "https://nwbio.com", ticker: "NWBO", asOf,
+    id: "northwest-biotherapeutics", wikipedia: "https://en.wikipedia.org/wiki/Northwest_Biotherapeutics", links: [{ label: "Official website", url: "https://nwbio.com" }], kind: "company", name: "Northwest Biotherapeutics", hq: "Bethesda, MD", country: "US", companyType: "cell-therapy", website: "https://nwbio.com", ticker: "NWBO", asOf,
     tldr: "Northwest Biotherapeutics developed the DCVax-L dendritic cell vaccine for glioblastoma and is seeking UK approval on contested phase 3 data.",
     summary: "Northwest Biotherapeutics, based in Bethesda and listed as NWBO, developed DCVax-L, a dendritic cell vaccine for glioblastoma made from a patient's own tumour and immune cells, and is seeking UK approval on contested phase 3 data. Its application to the MHRA was filed in December 2023 and remains pending, manufacturing is based at Sawston in the United Kingdom, and the product is not approved by the FDA. OnCo links it to glioma and glioblastoma and to the DCVax-L drug record, where the trial design debate is covered. Whether a regulator will accept a phase 3 whose design and analysis are disputed is the open question, and the answer will matter beyond this one product. DCVax-L has its own page.",
     drugs: ["dcvax-l"], cancers: ["glioblastoma"],

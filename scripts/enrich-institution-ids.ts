@@ -3,14 +3,16 @@
  * then resolve their QIDs into src/data/wikidata-ids.ts (the Wikidata id is never stored on the record itself; the
  * generated map is what JSON-LD and the RDF exports read).
  *
- * Per institution: one wbsearchentities request for the record name (a second for its first alias when the name
- * finds nothing), 300 ms apart, at most BUDGET requests in total. Candidates are fetched in batches of 50 with
+ * Per institution: one wbsearchentities request for the record name, then (while nothing passes) one each for the
+ * name without its trailing ", ..." or " (...)" part and for each `aka`, 300 ms apart, at most BUDGET requests in
+ * total. Candidates are fetched in batches of 50 with
  * wbgetentities (claims, sitelinks, labels, aliases, descriptions); the classes behind their P31 values and the
  * countries behind their P17 values are fetched once each and cached.
  *
  * A candidate is accepted only when all of these hold:
- *   - its P31 chain (following P279 up to four steps) reaches hospital, university hospital, cancer centre, research
- *     institute, university or medical school;
+ *   - its P31 chain (following P279 up to four steps) reaches hospital, teaching hospital, university hospital, cancer
+ *     centre, comprehensive cancer center, research institute, medical or cancer research institute, university,
+ *     medical school or healthcare organization;
  *   - the ISO 3166-1 alpha-2 code (P297) of its country (P17) equals the record's `country` (Hong Kong records also
  *     accept China);
  *   - either the host of its official website (P856) equals the host of the record's `website`, or one of its
@@ -23,7 +25,7 @@
  * when present) are not tried again, so a later run continues where the budget ran out. Afterwards add the accepted
  * QIDs to src/data/wikidata-ids.ts (or run scripts/fetch-wikidata.ts, which resolves the same ids from the new links).
  * Usage:
- *   npx tsx scripts/enrich-institution-ids.ts [--dry-run] [--budget=600] [--skip=a.json,b.json] [--out=/tmp/enrich-institution-ids.json]
+ *   npx tsx scripts/enrich-institution-ids.ts [--dry-run] [--budget=600] [--skip=a.json,b.json] [--only=id1,id2] [--out=/tmp/enrich-institution-ids.json]
  */
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -39,6 +41,8 @@ const BUDGET = num("budget", 600);
 const OUT = str("out", "/tmp/enrich-institution-ids.json");
 /** Earlier decision logs; institutions already decided there (other than for lack of budget) are not tried again. */
 const SKIP_LOGS = str("skip", OUT).split(",").filter((f) => f && existsSync(f));
+/** Record ids to (re)try regardless of the skip logs, e.g. after a rule change; empty means every institution without a link. */
+const ONLY = new Set(str("only", "").split(",").filter(Boolean));
 const PACE_MS = 300;
 const UA = "OnCo corpus enrichment (https://onco.world; contact via site)";
 const API = "https://www.wikidata.org/w/api.php";
@@ -68,9 +72,16 @@ const ROOTS: Record<string, RegExp> = {
   Q3918: /university/i,
   Q31855: /research institute/i,
   Q494230: /medical school/i,
+  Q1813474: /teaching hospital/i,
+  Q66737615: /medical research/i,
+  /** "medical organization", alias "healthcare organization": the P31 of many hospital systems; the country and website-or-label checks still apply. */
+  Q4287745: /medical organi[sz]ation/i,
 };
-/** Classes whose own English label makes them acceptable even when the chain is incomplete (cancer centres are modelled several ways). */
-const CLASS_LABEL_OK = /\b(cancer|oncolog\w*)\b.*\b(cent(er|re)|hospital|institute)\b|\b(cent(er|re)|hospital|institute)\b.*\b(cancer|oncolog\w*)\b/i;
+/**
+ * Classes whose own English label makes them acceptable even when the chain is incomplete (cancer centres are modelled
+ * several ways): "cancer research institute", "comprehensive cancer center", "oncology hospital" and the like.
+ */
+const CLASS_LABEL_OK = /\b(cancer|oncolog\w*)\b.*\b(cent(er|re)|hospital|institute)\b|\b(cent(er|re)|hospital|institute)\b.*\b(cancer|oncolog\w*)\b|\bcomprehensive cancer cent(er|re)\b|\bcancer research institute\b|\bhealthcare organi[sz]ation\b/i;
 const MAX_DEPTH = 4;
 
 type Claim = { mainsnak?: { datavalue?: { value?: unknown } } };
@@ -204,7 +215,7 @@ async function main() {
   const order: Institution["institutionType"][] = ["cancer-center", "hospital", "university", "research-institute", "government", "consortium"];
   const skip = new Set<string>();
   for (const f of SKIP_LOGS) for (const d of (JSON.parse(readFileSync(f, "utf8")) as { decisions?: Decision[] }).decisions ?? []) if (d.status !== "budget") skip.add(d.id);
-  const todo = all.filter((e) => !e.wikipedia && !skip.has(e.id)).sort((a, b) => order.indexOf(a.institutionType) - order.indexOf(b.institutionType) || a.id.localeCompare(b.id));
+  const todo = all.filter((e) => !e.wikipedia && (ONLY.size ? ONLY.has(e.id) : !skip.has(e.id))).sort((a, b) => order.indexOf(a.institutionType) - order.indexOf(b.institutionType) || a.id.localeCompare(b.id));
   const decisions: Decision[] = [];
   const counts = { total: all.length, had, skipped: all.length - had - todo.length, added: 0, ambiguous: 0, noMatch: 0, noEnwiki: 0, budget: 0, file: 0 };
   const seen = new Map<string, Verdict[]>();
@@ -213,13 +224,14 @@ async function main() {
   /** One pass over `list`, searching `text(inst)`; institutions with no passing candidate are returned for the next pass. */
   async function pass(list: Institution[], text: (i: Institution) => string | undefined): Promise<Institution[]> {
     const left: Institution[] = [];
+    const texts = new Map(list.map((x) => [x.id, text(x)] as const)); // evaluated once: `text` may record what it hands out
     for (let i = 0; i < list.length; i += 7) {
-      const chunk = list.slice(i, i + 7).filter((x) => text(x));
-      for (const x of list.slice(i, i + 7)) if (!text(x)) left.push(x);
+      const chunk = list.slice(i, i + 7).filter((x) => texts.get(x.id));
+      for (const x of list.slice(i, i + 7)) if (!texts.get(x.id)) left.push(x);
       if (!chunk.length) continue;
       if (requests + chunk.length + 1 > BUDGET) { left.push(...chunk); continue; }
       const ids = new Map<string, string[]>();
-      for (const inst of chunk) ids.set(inst.id, await search(text(inst)!));
+      for (const inst of chunk) ids.set(inst.id, await search(texts.get(inst.id)!));
       try {
         const found = [...ids.values()].flat();
         await getEntities(found, "claims|sitelinks|labels|aliases|descriptions");
@@ -235,8 +247,11 @@ async function main() {
           for (const q of fresh) candidates.push(await judge(inst, q));
           seen.set(inst.id, candidates);
           let passing = passingOf(candidates);
-          // Several passing candidates: keep the one matching the website when exactly one does (the stronger signal).
+          // Several passing candidates: keep the one matching the website when exactly one does (the stronger signal); when
+          // several share the website, keep the one whose label also equals the name (campuses and departments of a hospital
+          // share its host but not its name), again only when exactly one does.
           if (passing.length > 1) { const bySite = passing.filter((c) => c.site); passing = bySite.length === 1 ? bySite : passing; }
+          if (passing.length > 1) { const both = passing.filter((c) => c.site && c.name); passing = both.length === 1 ? both : passing; }
           if (passing.length > 1 && new Set(passing.map((c) => c.q)).size === 1) passing = [passing[0]];
           const base = { id: inst.id, name: inst.name, country: inst.country };
           if (passing.length > 1) { decisions.push({ ...base, status: "ambiguous", candidates }); counts.ambiguous++; console.log(`  ? ${inst.id}: ambiguous ${passing.map((c) => `${c.q} ${c.label}`).join(" | ")}`); continue; }
@@ -257,13 +272,26 @@ async function main() {
     return left;
   }
 
-  // Pass 1: the record name. Pass 2: its first distinct alias. Pass 3: the name without a trailing ", ..." or " (...)" part,
-  // since wbsearchentities matches label prefixes and "Barts Cancer Institute, Queen Mary University of London" finds nothing.
-  let left = await pass(todo, (x) => x.name);
-  const tried = new Set(todo.filter((x) => seen.has(x.id)).map((x) => x.id));
-  left = await pass(left.filter((x) => tried.has(x.id)), (x) => x.aka.find((a) => norm(a) !== norm(x.name)));
+  // Pass 1: the record name. Pass 2: the name without a trailing ", ..." or " (...)" part, since wbsearchentities matches
+  // label prefixes and "Barts Cancer Institute, Queen Mary University of London" finds nothing while "Barts Cancer
+  // Institute" does. Later passes: each `aka` in turn (up to MAX_AKA), skipping texts already searched for that record.
   const simple = (n: string) => n.replace(/\s*\(.*\)$/, "").replace(/,.*$/, "").trim();
-  await pass(left.filter((x) => tried.has(x.id)), (x) => (simple(x.name) !== x.name ? simple(x.name) : undefined));
+  const searched = new Map<string, Set<string>>();
+  const unsearched = (x: Institution, text: string | undefined): string | undefined => {
+    if (!text || norm(text).length < 3) return undefined;
+    const done = searched.get(x.id) ?? new Set<string>();
+    if (done.has(norm(text))) return undefined;
+    done.add(norm(text));
+    searched.set(x.id, done);
+    return text;
+  };
+  const MAX_AKA = 4;
+  let left = await pass(todo, (x) => unsearched(x, x.name));
+  const tried = new Set(todo.filter((x) => seen.has(x.id)).map((x) => x.id));
+  left = await pass(left.filter((x) => tried.has(x.id)), (x) => unsearched(x, simple(x.name)));
+  for (let k = 0; k < MAX_AKA && left.length; k++) {
+    left = await pass(left.filter((x) => tried.has(x.id)), (x) => unsearched(x, x.aka.filter((a) => norm(a) !== norm(x.name))[k]));
+  }
   for (const inst of todo) {
     if (decisions.some((d) => d.id === inst.id)) continue;
     const base = { id: inst.id, name: inst.name, country: inst.country };

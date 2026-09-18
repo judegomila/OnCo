@@ -1,0 +1,45 @@
+src/data/cns-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 78,148
+src/data/head-neck-hpv-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 315
+src/data/sarcoma-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 103
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 1478
+src/data/skin-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 185
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 386,416
+src/data/thyroid-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 61
+src/data/upper-gi-liver-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 20,70,121
+src/data/papers-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 174,356,779,2909,3270,3542,3630,3641
+src/data/trials-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 477-587,665-681
+src/data/breast-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 118,184
+src/data/gynaecological-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 247
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 2857,3145
+src/data/blood-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae8c87962e741 177,203,231,336,363,441
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "180462a73c21516f649c5b4fb906f801e87fee97",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

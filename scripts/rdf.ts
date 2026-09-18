@@ -10,6 +10,7 @@
 import type { Graph } from "../src/lib/graph";
 import { REL_FIELDS, routeFor, type Entity, type Kind } from "../src/lib/schema";
 import { wikidataIds } from "../src/data/wikidata-ids";
+import { geneIdUrls } from "../src/lib/gene-ids";
 
 export const SITE = "https://onco.cc";
 export const NS = `${SITE}/ns#`;
@@ -43,7 +44,7 @@ function scalars(e: Entity): Triple[] {
   switch (e.kind) {
     case "drug": out.push([`${NS}modality`, lit(e.modality)]); if (e.brand) out.push([`${SCHEMA}alternateName`, lit(e.brand)]); for (const a of e.approvals) out.push([`${NS}approval`, lit(`${a.region} ${a.year}: ${a.indication}`)]); break;
     case "trial": out.push([`${NS}phase`, lit(e.phase)]); if (e.nct) out.push([`${SCHEMA}identifier`, lit(e.nct)]); break;
-    case "target": if (e.symbol) out.push([`${SCHEMA}alternateName`, lit(e.symbol)]); out.push([`${NS}targetClass`, lit(e.targetClass)]); break;
+    case "target": if (e.symbol) out.push([`${SCHEMA}alternateName`, lit(e.symbol)]); out.push([`${NS}targetClass`, lit(e.targetClass)]); for (const u of geneIdUrls(e)) out.push([`${SCHEMA}sameAs`, iri(u)]); break;
     case "company": out.push([`${SCHEMA}addressCountry`, lit(e.country)]); if (e.website) out.push([`${SCHEMA}url`, iri(e.website)]); break;
     case "institution": out.push([`${SCHEMA}addressCountry`, lit(e.country)], [`${SCHEMA}addressLocality`, lit(e.city)], [`${SCHEMA}latitude`, typed(String(e.lat), "decimal")], [`${SCHEMA}longitude`, typed(String(e.lng), "decimal")]); if (e.website) out.push([`${SCHEMA}url`, iri(e.website)]); break;
     case "paper": if (e.doi) out.push([`${SCHEMA}sameAs`, iri(`https://doi.org/${e.doi}`)]); out.push([`${SCHEMA}datePublished`, typed(String(e.year), "gYear")], [`${SCHEMA}author`, lit(e.authors)]); break;

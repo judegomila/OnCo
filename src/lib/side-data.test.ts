@@ -113,6 +113,20 @@ describe("scientist-tools side data", () => {
     }
   });
 
+  it("record-level gene ids agree with the generated cross-references", () => {
+    let withIds = 0;
+    for (const t of g.kind("target")) {
+      if (!t.hgnc) continue;
+      withIds++;
+      const gene = targetXrefs[t.id]?.genes.find((x) => x.hgnc === t.hgnc);
+      expect(gene, `${t.id}: record hgnc ${t.hgnc} not among its xref genes`).toBeDefined();
+      if (t.ensembl && gene!.ensembl) expect(gene!.ensembl, `${t.id} ensembl`).toBe(t.ensembl);
+      if (t.entrez && gene!.entrez) expect(gene!.entrez, `${t.id} entrez`).toBe(t.entrez);
+      if (t.uniprot && gene!.uniprot) expect(gene!.uniprot, `${t.id} uniprot`).toBe(t.uniprot);
+    }
+    expect(withIds).toBeGreaterThan(100);
+  });
+
   it("resistance gaps classify every mechanism", () => {
     const gaps = resistanceGaps();
     expect(gaps.length).toBeGreaterThan(30);

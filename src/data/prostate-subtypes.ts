@@ -14,7 +14,7 @@ const tags = ["subtype-page"];
 const NCCN = { version: "NCCN Guidelines: Prostate Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459" };
 
 export const prostateSubtypes: CancerInput[] = [
-  { id: "prostate-low-risk", kind: "cancer", name: "Localised prostate cancer, very low and low risk", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Active_surveillance_of_prostate_cancer"),
+  { id: "prostate-low-risk", related: ["prostate-intermediate-risk", "prostate-high-risk", "prostate-bcr"], kind: "cancer", name: "Localised prostate cancer, very low and low risk", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Active_surveillance_of_prostate_cancer"),
     keyPapers: ["paper-damico-risk-groups-jama-1998", "paper-protect-15-year-nejm-2023", "paper-klotz-active-surveillance-jco-2015", "paper-precision-mri-targeted-biopsy-nejm-2018"],
     aka: ["Low-risk prostate cancer", "Very low risk prostate cancer", "Grade Group 1 prostate cancer", "NCCN very low and low risk"],
     burden: "Roughly a third of prostate cancers diagnosed in screened populations; fewer than one in a hundred men with low-risk disease die of it within fifteen years whether monitored or treated.",
@@ -39,7 +39,7 @@ export const prostateSubtypes: CancerInput[] = [
     pipeline: ["artera-ai-prostate", "decipher-prostate", "mp-mri"], openProblems: ["Which Grade Group 1 cancers will upgrade, and whether Grade Group 1 should be called cancer at all.", "How often to repeat biopsy on surveillance and whether MRI alone can replace it.", "Overdiagnosis by PSA screening against the deaths screening prevents."],
     links: [{ label: "Wikipedia", url: W("Active_surveillance_of_prostate_cancer") }, { label: "NCCN Guidelines: Prostate Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459" }] },
 
-  { id: "prostate-intermediate-risk", kind: "cancer", name: "Localised prostate cancer, intermediate risk", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Prostate_cancer_staging"),
+  { id: "prostate-intermediate-risk", related: ["prostate-low-risk", "prostate-high-risk", "prostate-bcr"], kind: "cancer", name: "Localised prostate cancer, intermediate risk", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Prostate_cancer_staging"),
     keyPapers: ["paper-damico-risk-groups-jama-1998", "paper-protect-nejm-2016", "paper-chhip-lancet-oncol-2016", "paper-rtog-9408-short-term-adt-jones-nejm-2011"],
     aka: ["Intermediate-risk prostate cancer", "Favourable intermediate risk", "Unfavourable intermediate risk", "Grade Group 2 and 3 prostate cancer"],
     burden: "About four in ten newly diagnosed localised prostate cancers; ten-year cancer-specific survival is above 95 percent with treatment.",
@@ -63,7 +63,7 @@ export const prostateSubtypes: CancerInput[] = [
     pipeline: ["artera-ai-prostate", "decipher-prostate", "sbrt"], openProblems: ["Whether favourable intermediate risk can be safely watched in the long term.", "How to select men for hormone therapy without giving it to everyone in the unfavourable group.", "Cribriform and intraductal patterns are prognostic but not yet in the risk groups."],
     links: [{ label: "Wikipedia", url: W("Prostate_cancer_staging") }, { label: "NCCN Guidelines: Prostate Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459" }] },
 
-  { id: "prostate-high-risk", kind: "cancer", name: "Localised prostate cancer, high and very high risk", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Prostate_cancer_staging"),
+  { id: "prostate-high-risk", related: ["prostate-intermediate-risk", "prostate-low-risk", "prostate-bcr", "prostate-mhspc"], kind: "cancer", name: "Localised prostate cancer, high and very high risk", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Prostate_cancer_staging"),
     keyPapers: ["paper-stampede-abiraterone-nejm-2017", "paper-propsma-hofman-lancet-2020", "paper-stampede-abiraterone-high-risk-attard-lancet-2022", "paper-bolla-eortc-22863-nejm-1997"],
     aka: ["High-risk prostate cancer", "Very high risk prostate cancer", "Locally advanced prostate cancer", "Grade Group 4 and 5 prostate cancer", "Non-metastatic high-risk prostate cancer"],
     burden: "About one in five newly diagnosed localised cancers and most of the deaths from disease found before it spreads; ten-year cancer-specific survival is around 85 percent with combined treatment.",
@@ -86,11 +86,11 @@ export const prostateSubtypes: CancerInput[] = [
     pipeline: ["psma-pet", "artera-ai-prostate", "decipher-prostate", "abiraterone"], openProblems: ["How long hormone therapy should last when abiraterone is added.", "Whether PSMA PET-detected nodes should change treatment when the trials were staged conventionally.", "Which men with high-risk disease are better served by surgery than radiotherapy."],
     links: [{ label: "Wikipedia", url: W("Prostate_cancer_staging") }, { label: "NCCN Guidelines: Prostate Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459" }] },
 
-  { id: "prostate-bcr", kind: "cancer", name: "Biochemical recurrence of prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Biochemical_recurrence"),
+  { id: "prostate-bcr", related: ["prostate-high-risk", "prostate-intermediate-risk", "prostate-nmcrpc", "prostate-mhspc"], kind: "cancer", name: "Biochemical recurrence of prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Biochemical_recurrence"),
     keyPapers: ["paper-embark-nejm-2023", "paper-radicals-rt-lancet-2020", "paper-propsma-hofman-lancet-2020"],
     aka: ["Biochemically recurrent prostate cancer", "PSA recurrence", "Rising PSA after local therapy", "nmHSPC"],
     burden: "A rising PSA follows a quarter to a third of prostatectomies and radiotherapy courses; only a minority of these men develop metastases on scans within ten years, and the PSA doubling time tells the two apart.",
-    tldr: "Biochemical recurrence is a rising PSA after surgery or radiotherapy with nothing yet visible on scans. Salvage radiotherapy can still cure it after surgery, and for a fast-doubling PSA the EMBARK trial showed that enzalutamide with or without hormone therapy delays spread.",
+    tldr: "Biochemical recurrence of prostate cancer is a rising PSA after surgery or radiotherapy with nothing yet visible on scans. Salvage radiotherapy can still cure it after surgery, and for a fast-doubling PSA the EMBARK trial showed that enzalutamide with or without hormone therapy delays spread.",
     summary: "Biochemical recurrence is defined as a PSA of 0.2 ng/mL or more, confirmed, after radical prostatectomy, or a rise of 2 ng/mL above the nadir after radiotherapy (the Phoenix definition). It is found by routine PSA follow-up; PSMA PET now locates the recurrence in most men once PSA passes about 0.5 ng/mL, and often shows disease that conventional imaging misses. After prostatectomy, early salvage radiotherapy to the prostate bed, started before PSA reaches 0.5, cures many men, with short-term hormone therapy added for higher-risk features. After radiotherapy, local salvage by surgery, brachytherapy, cryotherapy or high-intensity focused ultrasound is possible for confirmed local recurrence. Men with a PSA doubling time under nine months are at high risk of metastasis: EMBARK randomised 1,068 such men and showed enzalutamide with leuprolide, or enzalutamide alone, cut metastasis or death by about half compared with leuprolide alone, and the FDA approved enzalutamide for this setting in 2023. Slowly rising PSA can be watched, and PSMA PET-directed stereotactic radiotherapy to a few metastases is under study.",
     subtypes: ["Biochemical recurrence after prostatectomy (PSA 0.2 or more)", "Biochemical recurrence after radiotherapy (nadir plus 2)", "High-risk biochemical recurrence (PSA doubling time under 9 months, non-metastatic hormone-sensitive)", "PSMA PET-detected oligorecurrence"],
     biomarkers: ["PSA and PSA doubling time", "PSMA PET (positive in most men above 0.5 ng/mL)", "Decipher on the prostatectomy specimen", "Interval from local therapy to recurrence"],
@@ -112,7 +112,7 @@ export const prostateSubtypes: CancerInput[] = [
     pipeline: ["psma-pet", "enzalutamide", "sbrt", "idea-psma-pet-guided-mdt"], openProblems: ["Whether treating PSMA PET-detected metastases early lengthens life or only lowers PSA.", "How to spare men with slow doubling times from years of hormone therapy.", "The trials that defined recurrence used conventional imaging; PSMA PET restages many of these men as metastatic."],
     links: [{ label: "Wikipedia", url: W("Biochemical_recurrence") }, { label: "NCCN Guidelines: Prostate Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459" }] },
 
-  { id: "prostate-mhspc", kind: "cancer", trials: ["aranote", "enzamet", "nct02489318"], name: "Metastatic hormone-sensitive prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Prostate_cancer#Metastatic_disease"),
+  { id: "prostate-mhspc", related: ["prostate-mcrpc", "prostate-nmcrpc", "prostate-bcr", "prostate-high-risk"], kind: "cancer", trials: ["aranote", "enzamet", "nct02489318"], name: "Metastatic hormone-sensitive prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Prostate_cancer#Metastatic_disease"),
     keyPapers: ["paper-stampede-abiraterone-nejm-2017", "paper-latitude-nejm-2017", "paper-arasens-nejm-2022", "paper-chaarted-nejm-2015"],
     aka: ["mHSPC", "Metastatic castration-sensitive prostate cancer", "mCSPC", "De novo metastatic prostate cancer", "Hormone-naive metastatic prostate cancer"],
     burden: "About one in twenty prostate cancers are metastatic at diagnosis in high-income countries and far more elsewhere; median survival has risen from under four years to more than five with combination therapy.",
@@ -141,7 +141,7 @@ export const prostateSubtypes: CancerInput[] = [
     pipeline: ["capivasertib", "pluvicto", "psmaddition", "relugolix", "psma-pet"], openProblems: ["Who needs triplet therapy and who is overtreated by it.", "Whether intermittent or de-escalated therapy is safe after a deep PSA response.", "PSMA PET restages many men the trials called non-metastatic, and the evidence has not caught up."],
     links: [{ label: "Wikipedia", url: W("Prostate_cancer") }, { label: "NCCN Guidelines: Prostate Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459" }] },
 
-  { id: "prostate-nmcrpc", kind: "cancer", trials: ["aramis", "nct01946204", "prosper"], name: "Non-metastatic castration-resistant prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Castration-resistant_prostate_cancer"),
+  { id: "prostate-nmcrpc", related: ["prostate-bcr", "prostate-mhspc", "prostate-mcrpc"], kind: "cancer", trials: ["aramis", "nct01946204", "prosper"], name: "Non-metastatic castration-resistant prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Castration-resistant_prostate_cancer"),
     keyPapers: ["paper-spartan-nejm-2018", "paper-prosper-nejm-2018", "paper-aramis-nejm-2019"],
     aka: ["nmCRPC", "M0 CRPC", "Non-metastatic CRPC", "Rising PSA on hormone therapy without metastases"],
     burden: "A shrinking group, because PSMA PET reveals metastases in most men once called non-metastatic; about a third with a PSA doubling time under ten months developed visible metastases within two years on hormone therapy alone.",
@@ -165,7 +165,7 @@ export const prostateSubtypes: CancerInput[] = [
     pipeline: ["darolutamide", "psma-pet", "ar-v7"], openProblems: ["Whether PSMA PET-detected metastases should be treated locally or the man treated as metastatic.", "Cost and side effects of years of androgen receptor inhibition in men without symptoms.", "No trial compares the three drugs head to head."],
     links: [{ label: "Wikipedia", url: W("Castration-resistant_prostate_cancer") }, { label: "NCCN Guidelines: Prostate Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459" }] },
 
-  { id: "prostate-mcrpc", kind: "cancer", name: "Metastatic castration-resistant prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Castration-resistant_prostate_cancer"),
+  { id: "prostate-mcrpc", related: ["prostate-mhspc", "prostate-nmcrpc", "prostate-nepc", "prostate-bcr"], kind: "cancer", name: "Metastatic castration-resistant prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Castration-resistant_prostate_cancer"),
     keyPapers: ["paper-vision-nejm-2021", "paper-profound-nejm-2020", "paper-cou-aa-301-abiraterone-de-bono-nejm-2011", "paper-alsympca-radium-223-nejm-2013"],
     aka: ["mCRPC", "Metastatic CRPC", "Castration-resistant metastatic prostate cancer", "Hormone-refractory prostate cancer (older term)"],
     burden: "The state in which nearly all prostate cancer deaths occur, about 400,000 a year worldwide; median survival from first treatment is now around three years, longer for men who have not had an androgen receptor inhibitor.",
@@ -197,7 +197,7 @@ export const prostateSubtypes: CancerInput[] = [
     pipeline: ["ac225-psma", "xaluritamig", "mevrometostat", "lu177-psma-it", "pasritamig", "opevesostat", "saruparib", "bms-986365", "fpi-2265", "ifinatamab-deruxtecan", "hs-20093"], openProblems: ["The best sequence of radioligand, PARP inhibitor and chemotherapy is untested.", "Actinium-225 supply and the lack of alpha-emitter dosimetry.", "Lineage plasticity to neuroendocrine disease under androgen receptor blockade.", "Resistance to 177Lu-PSMA-617 in PSMA-low or FDG-discordant disease."],
     links: [{ label: "Wikipedia", url: W("Castration-resistant_prostate_cancer") }, { label: "NCCN Guidelines: Prostate Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459" }] },
 
-  { id: "prostate-nepc", kind: "cancer", name: "Neuroendocrine and small-cell prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Prostate_cancer"),
+  { id: "prostate-nepc", related: ["prostate-mcrpc", "prostate-mhspc", "prostate-nmcrpc"], kind: "cancer", name: "Neuroendocrine and small-cell prostate cancer", group: "genitourinary", parent: "prostate", asOf, tags, wikipedia: W("Prostate_cancer"),
     keyPapers: ["paper-beltran-nepc-divergent-evolution-nat-med-2016", "paper-aggarwal-t-sccpc-jco-2018", "paper-aparicio-aggressive-variant-ccr-2013"],
     aka: ["NEPC", "Treatment-emergent neuroendocrine prostate cancer", "t-NEPC", "Small-cell carcinoma of the prostate", "Aggressive variant prostate cancer"],
     burden: "Pure small-cell prostate cancer is under 1 percent of new diagnoses, but neuroendocrine features emerge in 10 to 20 percent of men treated with potent androgen receptor inhibitors; median survival after diagnosis is about a year.",

@@ -20,7 +20,7 @@ export const neuroendocrineSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Small intestinal (midgut) NET
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "small-intestinal-net", kind: "cancer", name: "Small intestinal neuroendocrine tumours", group: "endocrine", parent: "neuroendocrine", asOf, tags, wikipedia: W("Neuroendocrine_tumor"),
+  { id: "small-intestinal-net", related: ["extrapulmonary-nec", "grade-3-net", "lung-net", "pancreatic-net"], kind: "cancer", name: "Small intestinal neuroendocrine tumours", group: "endocrine", parent: "neuroendocrine", asOf, tags, wikipedia: W("Neuroendocrine_tumor"),
     keyPapers: ["paper-netter-2-lancet-2024", "paper-clarinet-lanreotide-nejm-2014", "paper-netter-1-nejm-2017", "paper-promid-rinke-jco-2009"],
     aka: ["Midgut neuroendocrine tumour", "Small bowel NET", "Ileal carcinoid", "Jejunoileal neuroendocrine tumour", "SI-NET"],
     burden: "The commonest neuroendocrine tumour of the gut in Western series and now the commonest cancer of the small intestine; most are grade 1 or 2 and many are found only after they have reached the mesenteric nodes or the liver.",
@@ -57,7 +57,7 @@ export const neuroendocrineSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Pancreatic NET
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "pancreatic-net", kind: "cancer", name: "Pancreatic neuroendocrine tumours", group: "endocrine", parent: "neuroendocrine", asOf, tags, wikipedia: W("Pancreatic_neuroendocrine_tumor"),
+  { id: "pancreatic-net", related: ["extrapulmonary-nec", "grade-3-net", "lung-net", "small-intestinal-net"], kind: "cancer", name: "Pancreatic neuroendocrine tumours", group: "endocrine", parent: "neuroendocrine", asOf, tags, wikipedia: W("Pancreatic_neuroendocrine_tumor"),
     keyPapers: ["paper-netter-2-lancet-2024", "paper-cabinet-cabozantinib-nejm-2024", "paper-radiant-3-everolimus-pnet-yao-nejm-2011", "paper-raymond-sunitinib-pnet-nejm-2011"],
     aka: ["pNET", "Islet cell tumour", "Pancreatic NET", "Insulinoma", "Gastrinoma", "Non-functioning pancreatic neuroendocrine tumour"],
     burden: "A small minority of pancreatic cancers but the site with the most approved drugs of any neuroendocrine tumour; most are non-functioning and found on imaging, while insulinomas and gastrinomas announce themselves through their hormones.",
@@ -95,7 +95,7 @@ export const neuroendocrineSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Lung NET (typical and atypical carcinoid)
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "lung-net", kind: "cancer", name: "Lung neuroendocrine tumours (typical and atypical carcinoid)", group: "lung", parent: "neuroendocrine", asOf, tags: ["subtype-page", "endocrine", "lung"], wikipedia: W("Neuroendocrine_tumor"),
+  { id: "lung-net", related: ["extrapulmonary-nec", "grade-3-net", "pancreatic-net", "small-intestinal-net"], kind: "cancer", name: "Lung neuroendocrine tumours (typical and atypical carcinoid)", group: "lung", parent: "neuroendocrine", asOf, tags: ["subtype-page", "endocrine", "lung"], wikipedia: W("Neuroendocrine_tumor"),
     keyPapers: ["paper-radiant-4-everolimus-lancet-2016", "paper-cabinet-cabozantinib-nejm-2024", "paper-enets-lung-net-consensus-caplin-ann-oncol-2015"],
     aka: ["Bronchial carcinoid", "Pulmonary carcinoid", "Typical carcinoid", "Atypical carcinoid", "Lung NET", "Bronchopulmonary neuroendocrine tumour"],
     burden: "A small minority of lung cancers, occurring in younger patients and non-smokers more often than other lung cancers; typical carcinoids are usually cured by surgery, atypical carcinoids recur more often.",
@@ -127,7 +127,7 @@ export const neuroendocrineSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Extrapulmonary neuroendocrine carcinoma
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "extrapulmonary-nec", kind: "cancer", name: "Extrapulmonary neuroendocrine carcinoma", group: "endocrine", parent: "neuroendocrine", asOf, tags, wikipedia: W("Neuroendocrine_tumor"),
+  { id: "extrapulmonary-nec", related: ["grade-3-net", "lung-net", "pancreatic-net", "small-intestinal-net"], kind: "cancer", name: "Extrapulmonary neuroendocrine carcinoma", group: "endocrine", parent: "neuroendocrine", asOf, tags, wikipedia: W("Neuroendocrine_tumor"),
     keyPapers: ["paper-nordic-nec-sorbye-ann-oncol-2013", "paper-rindi-common-classification-framework-mod-pathol-2018", "paper-dart-nivolumab-ipilimumab-nec-patel-ccr-2020"],
     aka: ["Extrapulmonary NEC", "Gastroenteropancreatic neuroendocrine carcinoma", "GEP-NEC", "Extrapulmonary small-cell carcinoma", "Large-cell neuroendocrine carcinoma of the gut", "Poorly differentiated neuroendocrine carcinoma"],
     burden: "A minority of neuroendocrine neoplasms but the deadliest; the gastrointestinal tract (colon and rectum, oesophagus, stomach, pancreas) and unknown primary are the commonest sites, most patients present with metastases, and survival is measured in months rather than years.",
@@ -160,7 +160,7 @@ export const neuroendocrineSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Grade 3 well-differentiated NET
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "grade-3-net", kind: "cancer", name: "Grade 3 well-differentiated neuroendocrine tumour", group: "endocrine", parent: "neuroendocrine", asOf, tags, wikipedia: W("Neuroendocrine_tumor"),
+  { id: "grade-3-net", related: ["extrapulmonary-nec", "lung-net", "pancreatic-net", "small-intestinal-net"], kind: "cancer", name: "Grade 3 well-differentiated neuroendocrine tumour", group: "endocrine", parent: "neuroendocrine", asOf, tags, wikipedia: W("Neuroendocrine_tumor"),
     keyPapers: ["paper-netter-2-lancet-2024", "paper-rindi-common-classification-framework-mod-pathol-2018", "paper-heetfeld-grade-3-net-erc-2015"],
     aka: ["NET G3", "Grade 3 NET", "Well-differentiated grade 3 neuroendocrine tumour", "High-grade well-differentiated NET"],
     burden: "A small fraction of neuroendocrine neoplasms, most often pancreatic; recognised as a separate entity by the WHO in 2017 for the pancreas and 2019 for the whole digestive system after series showed it outlives neuroendocrine carcinoma and responds less to platinum.",

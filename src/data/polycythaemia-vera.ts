@@ -14,7 +14,7 @@ const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https:/
 const tags = ["polycythaemia-vera", "mpn"];
 
 export const pvCancer: CancerInput = {
-  id: "polycythaemia-vera", kind: "cancer", name: "Polycythaemia vera (PV)", group: "haematologic", asOf, tags, wikipedia: W("Polycythemia_vera"),
+  id: "polycythaemia-vera", related: ["essential-thrombocythaemia", "primary-myelofibrosis"], kind: "cancer", name: "Polycythaemia vera (PV)", group: "haematologic", asOf, tags, wikipedia: W("Polycythemia_vera"),
   aka: ["Polycythemia vera", "PV", "Primary polycythaemia", "Vaquez disease", "Vaquez-Osler disease"],
   burden: "Around one to two new cases per 100,000 people a year, most diagnosed in their sixties; with treatment most people live for decades, and the main dangers are clots, bleeding and, late on, scarring of the marrow or leukaemia.",
   tldr: "Polycythaemia vera is a slow blood cancer in which a single faulty gene, JAK2, makes the bone marrow produce too many red cells. Thick blood causes clots, so treatment thins it (blood removal, aspirin) and, for higher-risk patients, calms the marrow with hydroxyurea, interferon or ruxolitinib; a hepcidin mimic, rusfertide, now controls red cell counts without regular blood removal.",

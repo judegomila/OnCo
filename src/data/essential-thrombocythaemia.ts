@@ -11,7 +11,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const tags = ["essential-thrombocythaemia", "mpn"];
 
 export const etCancer: CancerInput = {
-  id: "essential-thrombocythaemia", kind: "cancer", name: "Essential thrombocythaemia (ET)", group: "haematologic", asOf, tags, wikipedia: W("Essential_thrombocythemia"),
+  id: "essential-thrombocythaemia", related: ["polycythaemia-vera", "primary-myelofibrosis"], kind: "cancer", name: "Essential thrombocythaemia (ET)", group: "haematologic", asOf, tags, wikipedia: W("Essential_thrombocythemia"),
   aka: ["Essential thrombocythemia", "ET", "Primary thrombocythaemia", "Essential thrombocytosis"],
   burden: "Around one to two new cases per 100,000 people a year, with a second peak in women in their thirties; life expectancy is close to normal for most, and the risks are clots, bleeding and slow progression to myelofibrosis.",
   tldr: "Essential thrombocythaemia is a slow blood cancer in which the marrow makes too many platelets. Most people need only aspirin and monitoring; those at higher risk of clots take a drug to lower the platelet count, usually hydroxyurea or interferon, with anagrelide in reserve.",

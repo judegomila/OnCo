@@ -55,7 +55,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     targets: ["braf"], pathways: ["ras-mapk", "glioma-signalling"], drugs: ["dabrafenib-trametinib", "tovorafenib", "carboplatin", "vincristine", "vinblastine"],
     technologies: ["kinase-inhibitors", "methylation-profiling", "proton-therapy", "mri", "survivorship-care-plan"], trials: ["tadpole", "firefly-1", "pediatric-match"],
     institutions: ["childrens-oncology-group", "siop-europe", "cclg"], companies: ["day-one-biopharmaceuticals", "novartis"], terms: ["late-effects", "germline-testing"], bottlenecks: ["b-rare-cancers", "b-survivorship"],
-    related: ["dipg-dmg", "glioblastoma", "race-for-children-act", "ependymoma", "craniopharyngioma"],
+    related: ["dipg-dmg", "glioblastoma", "race-for-children-act", "ependymoma", "craniopharyngioma", "idh-mutant-astrocytoma", "oligodendroglioma", "paediatric-high-grade-glioma"],
     links: [
       { label: "NCI PDQ: childhood astrocytomas, other gliomas and glioneuronal tumours", url: PDQ("brain/hp/child-astrocytoma-treament-pdq") },
       { label: "TADPOLE: dabrafenib plus trametinib in BRAF V600E pLGG (NEJM 2023)", url: "https://doi.org/10.1056/NEJMoa2303815" },
@@ -102,7 +102,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     targets: ["gd2", "ezh2"], pathways: ["epigenetic-reprogramming", "p53-cell-cycle"], drugs: ["dordaviprone", "temozolomide"],
     technologies: ["imrt-igrt", "glioma-car-t", "bbb-focused-ultrasound", "car-t", "methylation-profiling", "palliative-care"], trials: ["action-dmg", "pediatric-match"],
     institutions: ["childrens-oncology-group", "siop-europe", "stanford", "dkfz"], terms: ["h3k27m", "blood-brain-barrier", "late-effects"], bottlenecks: ["b-brain-delivery", "b-rare-cancers"],
-    related: ["paediatric-low-grade-glioma", "glioblastoma", "race-for-children-act", "accelerate-platform"],
+    related: ["paediatric-low-grade-glioma", "glioblastoma", "race-for-children-act", "accelerate-platform", "idh-mutant-astrocytoma", "oligodendroglioma", "paediatric-high-grade-glioma"],
     links: [
       { label: "NCI PDQ: childhood astrocytomas and other gliomas (includes diffuse midline glioma)", url: PDQ("brain/hp/child-astrocytoma-treament-pdq") },
       { label: "FDA: dordaviprone accelerated approval (6 August 2025)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dordaviprone-diffuse-midline-glioma" },
@@ -146,7 +146,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     ],
     targets: ["ezh2"], pathways: ["swi-snf-chromatin", "epigenetic-reprogramming", "hedgehog", "myc"], drugs: ["tazemetostat", "methotrexate", "cyclophosphamide", "cisplatin", "carboplatin", "vincristine"],
     technologies: ["autologous-stem-cell-transplant", "methylation-profiling", "proton-therapy", "cytotoxic-chemotherapy", "germline-testing"], institutions: ["childrens-oncology-group", "siop-europe", "dkfz", "st-jude"],
-    terms: ["hereditary-cancer-syndromes", "late-effects"], bottlenecks: ["b-rare-cancers", "b-survivorship"], related: ["epithelioid-sarcoma", "medulloblastoma", "wilms-tumor"],
+    terms: ["hereditary-cancer-syndromes", "late-effects"], bottlenecks: ["b-rare-cancers", "b-survivorship"], related: ["epithelioid-sarcoma", "medulloblastoma", "wilms-tumor", "ependymoma", "cns-germ-cell-tumours"],
     links: [
       { label: "NCI PDQ: childhood CNS atypical teratoid/rhabdoid tumour", url: PDQ("brain/hp/child-cns-atrt-treatment-pdq") },
       { label: "ACNS0333: intensive multimodal therapy for ATRT (JCO 2020)", url: "https://doi.org/10.1200/JCO.19.01776" },
@@ -190,7 +190,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     ],
     targets: ["cdk4-6"], pathways: ["epigenetic-reprogramming", "inflammation-nfkb", "hippo-yap"], drugs: ["vincristine", "carboplatin", "cyclophosphamide", "etoposide"],
     technologies: ["imrt-igrt", "proton-therapy", "methylation-profiling", "mri", "survivorship-care-plan"], trials: ["pediatric-match"], institutions: ["childrens-oncology-group", "siop-europe", "st-jude", "dkfz"],
-    terms: ["late-effects", "ependymoma-molecular-groups"], bottlenecks: ["b-rare-cancers", "b-survivorship"], related: ["medulloblastoma", "paediatric-low-grade-glioma"],
+    terms: ["late-effects", "ependymoma-molecular-groups"], bottlenecks: ["b-rare-cancers", "b-survivorship"], related: ["medulloblastoma", "paediatric-low-grade-glioma", "atrt", "glioblastoma", "spinal-cord-tumours"],
     links: [
       { label: "NCI PDQ: childhood ependymoma", url: PDQ("brain/hp/child-ependymoma-treatment-pdq") },
       { label: "Pajtler 2015: molecular classification of ependymal tumours (Cancer Cell)", url: "https://doi.org/10.1016/j.ccell.2015.04.002" },
@@ -202,7 +202,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     id: "craniopharyngioma", name: "Craniopharyngioma", group: "paediatric", wikipedia: W("Craniopharyngioma"),
     aka: ["Adamantinomatous craniopharyngioma", "Papillary craniopharyngioma", "Childhood craniopharyngioma"],
     burden: "Rare: a few percent of childhood brain tumours, with a second peak in adults in their fifties and sixties (NCI PDQ).",
-    tldr: "Craniopharyngioma is a benign but destructive tumour growing from embryonic remnants beside the pituitary gland and hypothalamus. Surgery, or limited surgery plus radiotherapy, cures most people, but the price can be lifelong hormone deficiency and severe obesity. The adult (papillary) form carries a BRAF mutation and shrinks dramatically with BRAF and MEK inhibitors, its first drug treatment.",
+    tldr: "Craniopharyngioma is a benign but destructive brain tumour growing from embryonic remnants beside the pituitary gland and hypothalamus. Surgery, or limited surgery plus radiotherapy, cures most people, but the price can be lifelong hormone deficiency and severe obesity. The adult (papillary) form carries a BRAF mutation and shrinks markedly with BRAF and MEK inhibitors, its first drug treatment.",
     summary: "Craniopharyngioma is a WHO grade 1 epithelial tumour of the sellar and suprasellar region with two distinct types. Adamantinomatous craniopharyngioma (ACP), the childhood form, carries activating CTNNB1 (beta-catenin) mutations, forms cysts filled with motor-oil fluid, and invades the hypothalamus; papillary craniopharyngioma (PCP), almost exclusively adult, carries BRAF V600E in nearly every case. Neither metastasises, but both damage vision, pituitary function and the hypothalamic centres that control appetite, sleep and temperature.\n\nManagement has shifted from radical resection at any cost to preserving the hypothalamus. Gross total resection cures if achieved, but attempts to strip tumour from the hypothalamus cause hypothalamic obesity, which is refractory to diet and exercise and is the dominant determinant of quality of life in survivors. Hypothalamus-sparing subtotal resection followed by conformal or proton radiotherapy gives equivalent tumour control with fewer devastating sequelae, and is now the favoured approach for tumours with hypothalamic involvement (KRANIOPHARYNGEOM 2007 and St Jude data). Cysts can be managed with catheter drainage, intracystic interferon or bleomycin, or stereotactic radiosurgery. Lifelong endocrine replacement is the norm.\n\nThe molecular findings created two therapeutic openings. In papillary tumours, BRAF plus MEK inhibition (vemurafenib-cobimetinib in the Alliance A071601 phase 2, Lancet Oncology 2024) produced marked shrinkage in almost all treated patients, allowing surgery and radiotherapy to be reduced; dabrafenib-trametinib case series show the same. In adamantinomatous tumours, the inflammatory cyst fluid is rich in IL-6, and the IL-6 receptor antibody tocilizumab has shrunk cysts in children in case series and an early trial. Treatments for hypothalamic obesity itself (GLP-1 agonists, setmelanotide, oxytocin) are being studied.",
     subtypes: ["Adamantinomatous (CTNNB1-mutant; children and adults)", "Papillary (BRAF V600E; adults)"],
     biomarkers: ["CTNNB1 exon 3 mutation and nuclear beta-catenin (adamantinomatous)", "BRAF V600E (papillary)", "Hypothalamic involvement grade on MRI (Puget or Muller grading)", "Pituitary hormone panel and visual fields at baseline", "Body-mass-index trajectory after treatment"],
@@ -235,7 +235,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     ],
     targets: ["braf"], pathways: ["wnt", "ras-mapk", "inflammation-nfkb"], drugs: ["dabrafenib-trametinib", "vemurafenib", "cobimetinib", "interferon-alfa", "bleomycin", "setmelanotide"],
     technologies: ["proton-therapy", "imrt-igrt", "mri", "survivorship-care-plan"], institutions: ["st-jude", "childrens-oncology-group", "alliance-oncology"], terms: ["late-effects"], bottlenecks: ["b-survivorship", "b-rare-cancers"],
-    related: ["pituitary-tumours", "paediatric-low-grade-glioma"],
+    related: ["pituitary-tumours", "paediatric-low-grade-glioma", "cns-germ-cell-tumours", "meningioma"],
     links: [
       { label: "NCI PDQ: childhood craniopharyngioma", url: PDQ("brain/hp/child-cranio-treatment-pdq") },
       { label: "Alliance A071601: BRAF/MEK inhibition in papillary craniopharyngioma (Lancet Oncology 2024)", url: "https://doi.org/10.1016/S1470-2045(23)00492-9" },
@@ -278,7 +278,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Diagnostic delay for childhood airway tumours misdiagnosed as asthma.",
     ],
     drugs: ["ifosfamide", "vincristine", "dactinomycin", "doxorubicin"], technologies: ["germline-testing", "ct", "cytotoxic-chemotherapy"], institutions: ["childrens-oncology-group", "siop-europe"],
-    terms: ["hereditary-cancer-syndromes", "bronchoscopy"], bottlenecks: ["b-rare-cancers", "b-hereditary-risk"], related: ["inflammatory-myofibroblastic-tumour", "rhabdomyosarcoma", "rare-childhood-cancers", "thyroid"],
+    terms: ["hereditary-cancer-syndromes", "bronchoscopy"], bottlenecks: ["b-rare-cancers", "b-hereditary-risk"], related: ["inflammatory-myofibroblastic-tumour", "rhabdomyosarcoma", "rare-childhood-cancers", "thyroid", "wilms-tumor", "hepatoblastoma"],
     links: [
       { label: "NCI PDQ: childhood pleuropulmonary blastoma (in rare cancers of childhood)", url: PDQ("childhood-cancers/patient/rare-childhood-cancers-pdq") },
       { label: "International PPB/DICER1 Registry", url: "https://www.ppbregistry.org/" },
@@ -325,7 +325,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     ],
     drugs: ["cisplatin", "carboplatin", "etoposide", "bleomycin", "ifosfamide", "sodium-thiosulfate"], technologies: ["cytotoxic-chemotherapy", "active-surveillance", "autologous-stem-cell-transplant", "imrt-igrt", "proton-therapy", "fertility-preservation", "survivorship-care-plan"],
     institutions: ["childrens-oncology-group", "cclg", "siop-europe"], terms: ["afp", "late-effects", "aya-oncology", "bleomycin-omission-caution", "retroperitoneum"], bottlenecks: ["b-survivorship", "b-rare-cancers"],
-    related: ["testicular", "ovarian", "rare-childhood-cancers"],
+    related: ["testicular", "ovarian", "rare-childhood-cancers", "neuroblastoma", "hepatoblastoma"],
     links: [
       { label: "NCI PDQ: childhood extracranial germ cell tumours", url: PDQ("extracranial-germ-cell/hp/germ-cell-treatment-pdq") },
       { label: "NCI PDQ: childhood CNS germ cell tumours", url: PDQ("brain/hp/child-cns-germ-cell-treatment-pdq") },
@@ -422,7 +422,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     ],
     targets: ["cd20", "cd19"], pathways: ["myc", "oncogenic-viruses", "bcr-signalling"], drugs: ["rituximab", "cyclophosphamide", "methotrexate", "doxorubicin", "vincristine", "etoposide"],
     technologies: ["monoclonal-antibody", "cytotoxic-chemotherapy", "car-t", "global-oncology-access", "cytogenetics-fish"], trials: ["inter-b-nhl-ritux-2010"], institutions: ["childrens-oncology-group", "siop-europe", "uganda-cancer-institute"],
-    terms: ["tumor-lysis-syndrome", "ebv-term", "lymphoma-type"], bottlenecks: ["b-global-access"], related: ["dlbcl", "hiv-associated-lymphoma", "all-leukemia"],
+    terms: ["tumor-lysis-syndrome", "ebv-term", "lymphoma-type"], bottlenecks: ["b-global-access"], related: ["dlbcl", "hiv-associated-lymphoma", "all-leukemia", "primary-mediastinal-b-cell-lymphoma", "primary-cns-lymphoma"],
     links: [
       { label: "NCI PDQ: childhood non-Hodgkin lymphoma (Burkitt)", url: PDQ("lymphoma/hp/child-nhl-treatment-pdq") },
       { label: "Inter-B-NHL Ritux 2010: rituximab in high-risk paediatric B-NHL (NEJM 2020)", url: "https://doi.org/10.1056/NEJMoa1915315" },
@@ -465,7 +465,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     ],
     drugs: ["everolimus", "bevacizumab", "gardasil-9"], technologies: ["hpv-vaccine", "germline-testing", "cancer-registries-surveillance"], trials: ["pediatric-match", "nct07407803"],
     institutions: ["childrens-oncology-group", "siop-europe", "cclg"], terms: ["hereditary-cancer-syndromes", "aya-oncology"], bottlenecks: ["b-rare-cancers", "b-trial-enrolment"],
-    related: ["nasopharyngeal", "thyroid", "adrenocortical", "melanoma", "pleuropulmonary-blastoma", "nut-carcinoma", "sinonasal", "pheochromocytoma-paraganglioma", "multiple-endocrine-neoplasia", "race-for-children-act"],
+    related: ["nasopharyngeal", "thyroid", "adrenocortical", "melanoma", "pleuropulmonary-blastoma", "nut-carcinoma", "sinonasal", "pheochromocytoma-paraganglioma", "multiple-endocrine-neoplasia", "race-for-children-act", "paediatric-germ-cell-tumours", "retinoblastoma", "hepatoblastoma"],
     links: [
       { label: "NCI PDQ: rare cancers of childhood", url: PDQ("childhood-cancers/patient/rare-childhood-cancers-pdq") },
       { label: "NCI PDQ: childhood cardiac tumours", url: PDQ("cardiac/patient-child-cardiac-treatment-pdq") },

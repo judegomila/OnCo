@@ -86,7 +86,7 @@ export const colorectalLymphomaTrials: TrialInput[] = [
 ];
 
 export const colorectalLymphomaSubtypes: CancerInput[] = [
-  { id: "rectal-cancer", kind: "cancer", name: "Rectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("Colorectal_cancer"),
+  { id: "rectal-cancer", related: ["braf-v600e-colorectal", "early-onset-colorectal", "her2-amplified-colorectal", "kras-g12c-colorectal", "msi-high-colorectal"], kind: "cancer", name: "Rectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("Colorectal_cancer"),
     keyPapers: ["paper-sauer-preoperative-chemoradiotherapy-rectal-nejm-2004", "paper-rapido-lancet-oncol-2021", "paper-prodige-23-lancet-oncol-2021", "paper-prospect-nejm-2023"],
     aka: ["Rectal adenocarcinoma", "Cancer of the rectum", "Locally advanced rectal cancer", "Rectum cancer"],
     burden: "About a third of colorectal cancers start in the rectum, the last 15 cm of the bowel; because the rectum sits in the narrow pelvis next to the bladder, sexual organs and sphincter, local recurrence, stomas and function matter more than for colon cancer.",
@@ -121,7 +121,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     people: ["angelita-habr-gama", "julio-garcia-aguilar", "andrea-cercek", "luis-diaz"], pathways: ["colorectal-cancer-signalling"],
     links: [{ label: "Wikipedia", url: W("Colorectal_cancer") }, { label: "NCCN Guidelines: Rectal Cancer", url: NCCN_RECTAL }] },
 
-  { id: "msi-high-colorectal", kind: "cancer", name: "Mismatch-repair deficient (MSI-high) colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("Microsatellite_instability"),
+  { id: "msi-high-colorectal", related: ["braf-v600e-colorectal", "early-onset-colorectal", "her2-amplified-colorectal", "kras-g12c-colorectal", "rectal-cancer"], kind: "cancer", name: "Mismatch-repair deficient (MSI-high) colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("Microsatellite_instability"),
     keyPapers: ["paper-keynote-177-nejm-2020", "paper-niche-2-nejm-2024", "paper-cercek-dostarlimab-rectal-nejm-2022", "paper-checkmate-8hw-lancet-2025"],
     aka: ["dMMR colorectal cancer", "MSI-H colorectal cancer", "Microsatellite unstable colorectal cancer", "Lynch-associated colorectal cancer", "Hypermutated colorectal cancer"],
     burden: "About 15 percent of localised and 5 percent of metastatic colorectal cancers have lost DNA mismatch repair, most often through methylation of the MLH1 gene in right-sided tumours of older women and, in about a fifth, through inherited Lynch syndrome.",
@@ -152,7 +152,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     people: ["thierry-andre", "luis-diaz", "andrea-cercek", "heinz-josef-lenz"], pathways: ["colorectal-cancer-signalling"],
     links: [{ label: "Wikipedia", url: W("Microsatellite_instability") }, { label: "NCCN Guidelines: Colon Cancer", url: NCCN_COLON }] },
 
-  { id: "braf-v600e-colorectal", kind: "cancer", name: "BRAF V600E-mutant colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("BRAF_(gene)"),
+  { id: "braf-v600e-colorectal", related: ["early-onset-colorectal", "her2-amplified-colorectal", "kras-g12c-colorectal", "msi-high-colorectal", "rectal-cancer"], kind: "cancer", name: "BRAF V600E-mutant colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("BRAF_(gene)"),
     keyPapers: ["paper-breakwater-nejm-2025", "paper-beacon-crc-kopetz-nejm-2019", "paper-cms-guinney-nat-med-2015"],
     aka: ["BRAF-mutant colorectal cancer", "BRAF V600E metastatic colorectal cancer", "BRAF-mutated bowel cancer"],
     burden: "About 8 to 10 percent of colorectal cancers carry BRAF V600E; they are commoner in older women and right-sided tumours, are often mismatch-repair deficient when localised, and when metastatic and microsatellite-stable have had among the shortest survival of any colorectal subtype.",
@@ -183,7 +183,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     people: ["scott-kopetz", "josep-tabernero", "elena-elez"],
     links: [{ label: "Wikipedia", url: W("BRAF_(gene)") }, { label: "NCCN Guidelines: Colon Cancer", url: NCCN_COLON }] },
 
-  { id: "her2-amplified-colorectal", kind: "cancer", name: "HER2-amplified colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("HER2/neu"),
+  { id: "her2-amplified-colorectal", related: ["braf-v600e-colorectal", "early-onset-colorectal", "kras-g12c-colorectal", "msi-high-colorectal", "rectal-cancer"], kind: "cancer", name: "HER2-amplified colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("HER2/neu"),
     keyPapers: ["paper-mountaineer-lancet-oncol-2023", "paper-heracles-lancet-oncol-2016", "paper-destiny-crc01-lancet-oncol-2021"],
     aka: ["HER2-positive colorectal cancer", "ERBB2-amplified colorectal cancer", "HER2-overexpressing bowel cancer"],
     burden: "About 3 to 5 percent of colorectal cancers, and about 5 to 8 percent of RAS and BRAF wild-type tumours, have HER2 amplification; they are mostly left-sided and rectal, and respond poorly to anti-EGFR antibodies.",
@@ -212,7 +212,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     people: ["tanios-bekaii-saab"],
     links: [{ label: "Wikipedia", url: W("HER2/neu") }, { label: "NCCN Guidelines: Colon Cancer", url: NCCN_COLON }] },
 
-  { id: "kras-g12c-colorectal", kind: "cancer", name: "KRAS G12C-mutant colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("KRAS"),
+  { id: "kras-g12c-colorectal", related: ["braf-v600e-colorectal", "early-onset-colorectal", "her2-amplified-colorectal", "msi-high-colorectal", "rectal-cancer"], kind: "cancer", name: "KRAS G12C-mutant colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("KRAS"),
     keyPapers: ["paper-codebreak-300-nejm-2023", "paper-krystal-1-crc-yaeger-nejm-2023", "paper-sunlight-nejm-2023"],
     aka: ["KRAS G12C colorectal cancer", "G12C-mutant bowel cancer", "RAS-mutant colorectal cancer (G12C subset)"],
     burden: "About 3 to 4 percent of colorectal cancers carry KRAS G12C, a small slice of the 45 percent that are RAS-mutant; they behave like other RAS-mutant tumours, resistant to anti-EGFR antibodies, with a somewhat worse outlook.",
@@ -241,7 +241,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     trials: ["codebreak-300", "nct03785249", "nct06252649", "nct04793958", "sunlight", "fresco-2", "nct05194995", "nct07259590"], drugs: ["sotorasib", "adagrasib", "panitumumab", "cetuximab", "divarasib", "olomorasib", "glecirasib", "daraxonrasib"],
     links: [{ label: "Wikipedia", url: W("KRAS") }, { label: "NCCN Guidelines: Colon Cancer", url: NCCN_COLON }] },
 
-  { id: "early-onset-colorectal", kind: "cancer", name: "Early-onset colorectal cancer (under 50)", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("Colorectal_cancer"),
+  { id: "early-onset-colorectal", related: ["braf-v600e-colorectal", "her2-amplified-colorectal", "kras-g12c-colorectal", "msi-high-colorectal", "rectal-cancer"], kind: "cancer", name: "Early-onset colorectal cancer (under 50)", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("Colorectal_cancer"),
     keyPapers: ["paper-cms-guinney-nat-med-2015", "paper-sinicrope-early-onset-crc-nejm-2022", "paper-uspstf-crc-screening-45-jama-2021", "paper-siegel-crc-incidence-1974-2013-jnci-2017"],
     aka: ["Young-onset colorectal cancer", "Colorectal cancer in adults under 50", "Early-age-onset colorectal cancer", "Bowel cancer in young adults"],
     burden: "Roughly one in ten colorectal cancers in high-income countries is now diagnosed before 50, and incidence in this age group has risen by about 2 percent a year in the United States since the mid-1990s while falling in older adults; most are left-sided or rectal and diagnosed at a later stage.",
@@ -271,7 +271,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     people: ["chadwick-boseman", "michael-bretthauer"],
     links: [{ label: "Wikipedia", url: W("Colorectal_cancer") }, { label: "NCCN Guidelines: Colon Cancer", url: NCCN_COLON }] },
 
-  { id: "primary-mediastinal-b-cell-lymphoma", kind: "cancer", name: "Primary mediastinal (thymic) large B-cell lymphoma", group: "haematologic", parent: "non-hodgkin-lymphoma", asOf, tags, wikipedia: W("Primary_mediastinal_B-cell_lymphoma"),
+  { id: "primary-mediastinal-b-cell-lymphoma", related: ["dlbcl", "burkitt-lymphoma", "primary-cns-lymphoma", "hiv-associated-lymphoma"], kind: "cancer", name: "Primary mediastinal (thymic) large B-cell lymphoma", group: "haematologic", parent: "non-hodgkin-lymphoma", asOf, tags, wikipedia: W("Primary_mediastinal_B-cell_lymphoma"),
     keyPapers: ["paper-who-2022-lymphoid-alaggio-leukemia-2022", "paper-dunleavy-da-epoch-r-pmbcl-nejm-2013", "paper-ielsg37-pmbcl-martelli-jco-2024", "paper-keynote-170-pembrolizumab-pmbcl-armand-jco-2019"],
     aka: ["PMBCL", "PMBL", "Primary mediastinal large B-cell lymphoma", "Thymic large B-cell lymphoma", "Mediastinal grey zone lymphoma (related)"],
     burden: "About 2 to 4 percent of non-Hodgkin lymphomas, arising from thymic B cells in young adults, mostly women in their thirties, who present with a bulky anterior chest mass, cough, superior vena cava obstruction or breathlessness; most are cured with first-line immunochemotherapy.",

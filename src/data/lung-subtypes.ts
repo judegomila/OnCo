@@ -149,7 +149,7 @@ export const lungSubtypeTrials: TrialInput[] = [
 ];
 
 export const lungSubtypes: CancerInput[] = [
-  { id: "egfr-mutant-nsclc", kind: "cancer", name: "EGFR-mutated non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Epidermal_growth_factor_receptor"),
+  { id: "egfr-mutant-nsclc", related: ["alk-positive-nsclc", "kras-g12c-nsclc", "ros1-positive-nsclc", "her2-mutant-nsclc", "met-altered-nsclc", "pdl1-high-nsclc"], kind: "cancer", name: "EGFR-mutated non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Epidermal_growth_factor_receptor"),
     aka: ["EGFR-mutant lung cancer", "EGFR-positive NSCLC", "EGFR exon 19 deletion lung cancer", "EGFR L858R lung cancer", "EGFR exon 20 insertion lung cancer"],
     burden: "About 15 percent of lung adenocarcinomas in Europe and North America and 40 to 50 percent in East Asia carry an activating EGFR mutation; it is the commonest driver in never-smokers and in women. Exon 19 deletions and L858R make up about 85 percent of cases, exon 20 insertions about 10 percent.",
     tldr: "EGFR-mutated lung cancer is driven by a single faulty growth receptor and is treated first with a pill rather than chemotherapy. Osimertinib keeps the disease under control for about a year and a half on average, adding chemotherapy or the antibody amivantamab extends that further, and three years of osimertinib after surgery roughly halves the risk of death in early-stage disease.",
@@ -184,7 +184,7 @@ export const lungSubtypes: CancerInput[] = [
     keyPapers: ["paper-flaura-nejm-2018", "paper-mariposa-nejm-2024", "paper-adaura-nejm-2020"],
     links: [{ label: "Wikipedia", url: W("Epidermal_growth_factor_receptor") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "alk-positive-nsclc", kind: "cancer", name: "ALK-positive non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Anaplastic_lymphoma_kinase"),
+  { id: "alk-positive-nsclc", related: ["egfr-mutant-nsclc", "ros1-positive-nsclc", "ret-fusion-nsclc", "ntrk-fusion-nsclc", "met-altered-nsclc", "kras-g12c-nsclc"], kind: "cancer", name: "ALK-positive non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Anaplastic_lymphoma_kinase"),
     aka: ["ALK-rearranged lung cancer", "ALK fusion NSCLC", "EML4-ALK lung cancer", "ALK+ NSCLC"],
     burden: "About 3 to 5 percent of non-small-cell lung cancers carry an ALK fusion, most often EML4-ALK; patients are on average a decade younger than other lung cancer patients and most have never smoked or smoked lightly. Brain metastases develop in over half over the course of the disease.",
     tldr: "ALK-positive lung cancer is driven by a fused ALK gene and is treated with a pill from the start. The newest inhibitors keep the disease under control for years, with lorlatinib holding six in ten patients progression-free at five years, and two years of alectinib after surgery cuts recurrence by three quarters.",
@@ -216,7 +216,7 @@ export const lungSubtypes: CancerInput[] = [
     keyPapers: ["paper-crown-nejm-2020"],
     links: [{ label: "Wikipedia", url: W("Anaplastic_lymphoma_kinase") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "kras-g12c-nsclc", kind: "cancer", name: "KRAS G12C-mutant non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("KRAS"),
+  { id: "kras-g12c-nsclc", related: ["egfr-mutant-nsclc", "alk-positive-nsclc", "braf-v600e-nsclc", "her2-mutant-nsclc", "pdl1-high-nsclc", "met-altered-nsclc"], kind: "cancer", name: "KRAS G12C-mutant non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("KRAS"),
     aka: ["KRAS G12C lung cancer", "KRAS-mutant NSCLC", "KRAS p.G12C non-small-cell lung cancer"],
     burden: "KRAS is mutated in about a quarter of lung adenocarcinomas in Europe and North America, and G12C, the smoking-associated variant, accounts for about 13 percent of adenocarcinomas, making it the single commonest targetable driver in Western patients. It is rarer in East Asia.",
     tldr: "KRAS G12C lung cancer carries a mutation that was thought impossible to drug for forty years. Sotorasib and adagrasib now shrink about four in ten tumours after chemotherapy and immunotherapy, though the benefit is measured in months, and newer inhibitors and first-line combinations with immunotherapy are in trials.",
@@ -245,7 +245,7 @@ export const lungSubtypes: CancerInput[] = [
     keyPapers: ["paper-ostrem-kras-g12c-nature-2013", "paper-codebreak-200-lancet-2023"],
     links: [{ label: "Wikipedia", url: W("KRAS") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "ros1-positive-nsclc", kind: "cancer", name: "ROS1-positive non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("ROS1"),
+  { id: "ros1-positive-nsclc", related: ["alk-positive-nsclc", "ret-fusion-nsclc", "ntrk-fusion-nsclc", "egfr-mutant-nsclc", "met-altered-nsclc", "braf-v600e-nsclc"], kind: "cancer", name: "ROS1-positive non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("ROS1"),
     keyPapers: ["paper-trident-1-repotrectinib-nejm-2024", "paper-shaw-crizotinib-ros1-nejm-2014", "paper-drilon-entrectinib-ros1-lancet-oncol-2020"],
     aka: ["ROS1-rearranged lung cancer", "ROS1 fusion NSCLC", "CD74-ROS1 lung cancer"],
     burden: "About 1 to 2 percent of non-small-cell lung cancers carry a ROS1 fusion, typically adenocarcinoma in younger patients who have never smoked; about a third have brain metastases at some point.",
@@ -274,7 +274,7 @@ export const lungSubtypes: CancerInput[] = [
     people: ["alexander-drilon", "ross-camidge", "cho-byoung-chul"], companies: ["bms", "nuvation-bio", "roche-genentech", "pfizer", "nuvalent"], pathways: ["nsclc-signalling", "rtk-activation"],
     links: [{ label: "Wikipedia", url: W("ROS1") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "met-altered-nsclc", kind: "cancer", name: "MET exon 14 and MET-amplified non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("C-Met"),
+  { id: "met-altered-nsclc", related: ["egfr-mutant-nsclc", "alk-positive-nsclc", "ret-fusion-nsclc", "ros1-positive-nsclc", "kras-g12c-nsclc", "her2-mutant-nsclc"], kind: "cancer", name: "MET exon 14 and MET-amplified non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("C-Met"),
     keyPapers: ["paper-geometry-mono-1-capmatinib-nejm-2020", "paper-vision-tepotinib-paik-nejm-2020", "paper-frampton-met-exon-14-cancer-discov-2015"],
     aka: ["MET exon 14 skipping lung cancer", "METex14 NSCLC", "MET-amplified lung cancer", "c-Met overexpressing NSCLC"],
     burden: "MET exon 14 skipping mutations occur in 3 to 4 percent of non-small-cell lung cancers, typically in older patients and enriched in sarcomatoid tumours; de novo high-level MET amplification in 1 to 2 percent; and MET amplification appears as a resistance mechanism in about 15 percent of EGFR-mutated cancers after osimertinib. About a quarter of non-squamous lung cancers overexpress the c-Met protein.",
@@ -302,7 +302,7 @@ export const lungSubtypes: CancerInput[] = [
     people: ["ross-camidge", "alexander-drilon"], companies: ["novartis", "merck-kgaa", "astrazeneca", "abbvie", "hengrui"], pathways: ["nsclc-signalling", "rtk-activation"],
     links: [{ label: "Wikipedia", url: W("C-Met") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "ret-fusion-nsclc", kind: "cancer", name: "RET fusion-positive non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("RET_proto-oncogene"),
+  { id: "ret-fusion-nsclc", related: ["alk-positive-nsclc", "ros1-positive-nsclc", "ntrk-fusion-nsclc", "met-altered-nsclc", "braf-v600e-nsclc", "egfr-mutant-nsclc"], kind: "cancer", name: "RET fusion-positive non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("RET_proto-oncogene"),
     keyPapers: ["paper-libretto-001-selpercatinib-nsclc-nejm-2020", "paper-libretto-431-nejm-2023", "paper-arrow-pralsetinib-gainor-lancet-oncol-2021"],
     aka: ["RET-rearranged lung cancer", "KIF5B-RET lung cancer", "RET+ NSCLC"],
     burden: "About 1 to 2 percent of non-small-cell lung cancers carry a RET fusion, most often KIF5B-RET, in adenocarcinomas of younger patients who have never smoked; brain metastases are common.",
@@ -327,7 +327,7 @@ export const lungSubtypes: CancerInput[] = [
     people: ["alexander-drilon", "justin-gainor", "zhou-caicun"], companies: ["eli-lilly", "roche-genentech", "blueprint-medicines"], pathways: ["nsclc-signalling", "rtk-activation", "ras-mapk"],
     links: [{ label: "Wikipedia", url: W("RET_proto-oncogene") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "braf-v600e-nsclc", kind: "cancer", name: "BRAF V600E-mutant non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("BRAF_(gene)"),
+  { id: "braf-v600e-nsclc", related: ["kras-g12c-nsclc", "egfr-mutant-nsclc", "her2-mutant-nsclc", "met-altered-nsclc", "ret-fusion-nsclc", "ros1-positive-nsclc"], kind: "cancer", name: "BRAF V600E-mutant non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("BRAF_(gene)"),
     keyPapers: ["paper-planchard-dabrafenib-trametinib-braf-nsclc-lancet-oncol-2016", "paper-planchard-dabrafenib-trametinib-first-line-lancet-oncol-2017", "paper-pharos-encorafenib-binimetinib-riely-jco-2023"],
     aka: ["BRAF-mutant lung cancer", "BRAF V600E NSCLC", "BRAF V600-mutated lung adenocarcinoma"],
     burden: "BRAF mutations occur in 2 to 4 percent of non-small-cell lung cancers, about half of them V600E; unlike most drivers they are found in current or former smokers as often as in never-smokers.",
@@ -353,7 +353,7 @@ export const lungSubtypes: CancerInput[] = [
     people: ["david-planchard"], companies: ["novartis", "pfizer"], pathways: ["ras-mapk", "nsclc-signalling"],
     links: [{ label: "Wikipedia", url: W("BRAF_(gene)") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "her2-mutant-nsclc", kind: "cancer", name: "HER2-mutant non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("HER2"),
+  { id: "her2-mutant-nsclc", related: ["egfr-mutant-nsclc", "kras-g12c-nsclc", "braf-v600e-nsclc", "met-altered-nsclc", "alk-positive-nsclc", "ntrk-fusion-nsclc"], kind: "cancer", name: "HER2-mutant non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("HER2"),
     keyPapers: ["paper-destiny-lung01-nejm-2022", "paper-destiny-lung02-goto-jco-2023", "paper-beamion-lung-1-zongertinib-nejm-2025"],
     aka: ["ERBB2-mutant lung cancer", "HER2 exon 20 insertion NSCLC", "HER2-positive lung adenocarcinoma"],
     burden: "HER2 (ERBB2) activating mutations, mostly exon 20 insertions such as A775_G776insYVMA, occur in 2 to 3 percent of lung adenocarcinomas, more often in women and never-smokers; brain metastases develop in about half. HER2 amplification and protein overexpression without mutation are separate and less well defined groups.",
@@ -380,7 +380,7 @@ export const lungSubtypes: CancerInput[] = [
     people: ["john-heymach", "pasi-janne"], companies: ["daiichi-sankyo", "astrazeneca", "boehringer-ingelheim", "bayer"], pathways: ["nsclc-signalling", "rtk-activation", "pi3k-akt-mtor"],
     links: [{ label: "Wikipedia", url: W("HER2") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "ntrk-fusion-nsclc", kind: "cancer", name: "NTRK fusion-positive non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Trk_receptor"),
+  { id: "ntrk-fusion-nsclc", related: ["ros1-positive-nsclc", "ret-fusion-nsclc", "alk-positive-nsclc", "met-altered-nsclc", "braf-v600e-nsclc", "her2-mutant-nsclc"], kind: "cancer", name: "NTRK fusion-positive non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Trk_receptor"),
     keyPapers: ["paper-drilon-larotrectinib-nejm-2018", "paper-doebele-entrectinib-ntrk-lancet-oncol-2020", "paper-trident-1-repotrectinib-nejm-2024"],
     aka: ["NTRK-rearranged lung cancer", "TRK fusion lung cancer", "NTRK1, NTRK2 or NTRK3 fusion NSCLC"],
     burden: "NTRK fusions occur in well under 1 percent of non-small-cell lung cancers, in adenocarcinoma regardless of smoking history; they are found mainly when broad RNA-based panels are used.",
@@ -404,7 +404,7 @@ export const lungSubtypes: CancerInput[] = [
     people: ["alexander-drilon"], companies: ["bayer", "roche-genentech", "bms"], pathways: ["nsclc-signalling", "rtk-activation"],
     links: [{ label: "Wikipedia", url: W("Trk_receptor") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "pdl1-high-nsclc", kind: "cancer", name: "PD-L1-high non-small-cell lung cancer without a driver mutation", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("PD-L1"),
+  { id: "pdl1-high-nsclc", related: ["kras-g12c-nsclc", "egfr-mutant-nsclc", "alk-positive-nsclc", "stage-iii-unresectable-nsclc", "resectable-nsclc", "braf-v600e-nsclc"], kind: "cancer", name: "PD-L1-high non-small-cell lung cancer without a driver mutation", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("PD-L1"),
     aka: ["PD-L1 50 percent or more NSCLC", "PD-L1-high lung cancer", "Driver-negative PD-L1-high non-small-cell lung cancer", "Immunotherapy-eligible lung cancer"],
     burden: "About a quarter to a third of advanced non-small-cell lung cancers express PD-L1 on 50 percent or more of tumour cells, and most of these lack an EGFR, ALK or other targetable driver; they occur mainly in current or former smokers with adenocarcinoma or squamous histology.",
     tldr: "Lung cancers that carry a lot of PD-L1 and no targetable mutation can be treated with an immunotherapy antibody alone instead of chemotherapy. Pembrolizumab keeps about a third of patients alive at five years, roughly double what chemotherapy achieved, and adding chemotherapy is reserved for those who need a fast response.",
@@ -434,7 +434,7 @@ export const lungSubtypes: CancerInput[] = [
     keyPapers: ["paper-keynote-024-nejm-2016", "paper-keynote-189-nejm-2018", "paper-keynote-001-pembrolizumab-nsclc-nejm-2015", "paper-harmoni-2-lancet-2025"],
     links: [{ label: "Wikipedia", url: W("PD-L1") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "resectable-nsclc", kind: "cancer", name: "Resectable stage I to III non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Lung_cancer_surgery"),
+  { id: "resectable-nsclc", related: ["stage-iii-unresectable-nsclc", "egfr-mutant-nsclc", "alk-positive-nsclc", "pdl1-high-nsclc"], kind: "cancer", name: "Resectable stage I to III non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Lung_cancer_surgery"),
     aka: ["Early-stage non-small-cell lung cancer", "Operable lung cancer", "Stage I, II and IIIA NSCLC", "Perioperative NSCLC"],
     burden: "About a quarter to a third of non-small-cell lung cancers are found while still resectable, a share rising with low-dose CT screening; five-year survival ranges from over 80 percent for screen-detected stage IA tumours to about 40 percent for stage IIIA.",
     tldr: "Lung cancer caught before it has spread is treated with surgery, now often keyhole or robotic and sometimes removing only part of a lobe. Immunotherapy given before and after the operation, or a targeted pill afterwards for EGFR or ALK tumours, cuts the chance of the cancer coming back by between a third and four fifths.",
@@ -468,7 +468,7 @@ export const lungSubtypes: CancerInput[] = [
     keyPapers: ["paper-checkmate-816-nejm-2022", "paper-adaura-nejm-2020", "paper-nlst-nejm-2011"],
     links: [{ label: "Wikipedia", url: W("Lung_cancer_surgery") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "stage-iii-unresectable-nsclc", kind: "cancer", name: "Unresectable stage III non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Chemoradiotherapy"),
+  { id: "stage-iii-unresectable-nsclc", related: ["resectable-nsclc", "pdl1-high-nsclc", "egfr-mutant-nsclc", "alk-positive-nsclc"], kind: "cancer", name: "Unresectable stage III non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("Chemoradiotherapy"),
     aka: ["Locally advanced non-small-cell lung cancer", "Inoperable stage III NSCLC", "Stage IIIB and IIIC NSCLC"],
     burden: "About a fifth of non-small-cell lung cancers present at stage III, spread to mediastinal nodes or invading adjacent structures but not metastatic; roughly two thirds of these are not resectable. Before immunotherapy fewer than one in five was alive at five years.",
     tldr: "Stage III lung cancer that cannot be removed is treated with chemotherapy and radiotherapy together, aiming at cure. A year of the immunotherapy antibody durvalumab afterwards raised five-year survival from a third to over 40 percent, and for EGFR-mutated tumours osimertinib after chemoradiation holds the disease for years.",
@@ -498,7 +498,7 @@ export const lungSubtypes: CancerInput[] = [
     keyPapers: ["paper-pacific-nejm-2017"],
     links: [{ label: "Wikipedia", url: W("Chemoradiotherapy") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
-  { id: "limited-stage-sclc", kind: "cancer", name: "Limited-stage small-cell lung cancer", group: "lung", parent: "sclc", asOf, tags, wikipedia: W("Small-cell_carcinoma"),
+  { id: "limited-stage-sclc", related: ["extensive-stage-sclc"], kind: "cancer", name: "Limited-stage small-cell lung cancer", group: "lung", parent: "sclc", asOf, tags, wikipedia: W("Small-cell_carcinoma"),
     aka: ["LS-SCLC", "Limited-disease small-cell lung cancer", "Stage I to III small-cell lung cancer"],
     burden: "About 30 percent of small-cell lung cancers are limited stage, confined to one side of the chest and its regional nodes so that they fit in a single radiotherapy field; almost all patients are current or former heavy smokers. Median survival was 25 to 30 months with chemoradiation and about a fifth to a quarter were cured.",
     tldr: "Small-cell lung cancer that is still confined to one side of the chest is treated to cure with chemotherapy and radiotherapy given together. Adding two years of the immunotherapy antibody durvalumab afterwards lengthened median survival from under three years to over four and a half, the first improvement in this disease in decades.",
@@ -527,7 +527,7 @@ export const lungSubtypes: CancerInput[] = [
     keyPapers: ["paper-adriatic-nejm-2024"],
     links: [{ label: "Wikipedia", url: W("Small-cell_carcinoma") }, { label: "NCCN Guidelines: Small Cell Lung Cancer", url: NCCN_SCLC }] },
 
-  { id: "extensive-stage-sclc", kind: "cancer", name: "Extensive-stage small-cell lung cancer", group: "lung", parent: "sclc", asOf, tags, wikipedia: W("Small-cell_carcinoma"),
+  { id: "extensive-stage-sclc", related: ["limited-stage-sclc"], kind: "cancer", name: "Extensive-stage small-cell lung cancer", group: "lung", parent: "sclc", asOf, tags, wikipedia: W("Small-cell_carcinoma"),
     aka: ["ES-SCLC", "Extensive-disease small-cell lung cancer", "Metastatic small-cell lung cancer", "Stage IV small-cell lung cancer"],
     burden: "About 70 percent of small-cell lung cancers are extensive stage at diagnosis, spread beyond one side of the chest, most often to liver, bone, brain and adrenal glands; median survival was about 10 months with chemotherapy alone and is now 12 to 15 months with chemoimmunotherapy, with about one in eight patients alive at three years.",
     tldr: "Small-cell lung cancer that has spread responds fast to chemotherapy but almost always returns within a year. Adding an immunotherapy antibody to first-line chemotherapy helps a minority live for years, and the T-cell engager tarlatamab, which points immune cells at the DLL3 protein on the cancer, has for the first time lengthened life after relapse.",

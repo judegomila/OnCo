@@ -153,7 +153,7 @@ async function lookupOrcid(p: PersonInput): Promise<Decision> {
 /** Words in an employment role or department that place the holder in medicine or the life sciences. */
 const MEDICAL = /oncolog|cancer|tumou?r|carcinom|sarcom|melanom|gliom|neoplas|ha?ematolog|leuka?em|lymphom|myelom|medic|physician|clinic|hospital|surg|radiat|radiolog|radiother|patholog|p(a)?ediatric|immunolog|genetic|genom|biolog|biomedic|pharmac|health|epidemiolog|nurs|bioinformat|biostatist|transplant|urolog|gyn(a)?ecolog|dermatolog|neurolog|gastroenterolog|pulmon|thoracic|breast|prostate|lung|hepat|endocrin|virolog|microbiolog|molecular|translational|therap|onkolog|krebs|cancerolog|tumor/i;
 /** Words that mark a different profession when no medical evidence accompanies them in the same employment. */
-const OTHER = /student|estudiante|etudiant|studierende|humanities|humanidades|engineer|econom|\blaw\b|legal|attorney|accountant|accounting|financ|marketing|business|architect|physic(s|ist)\b|chemist|mathemat|\bstatistic|computer|software|informatic|linguist|histor|philosoph|sociolog|psycholog|politic|literature|music|\barts?\b|geolog|geograph|agricultur|veterinar|dentist|dental|theolog|religio|anthropolog|arch(a)?eolog|astronom|ecolog|mechanical|electrical|civil|aerospace|material|nuclear|petroleum|mining|forestry|fisher|tourism|hospitality|sport|journalis|media|communication|education|teacher|librar/i;
+const OTHER = /student|estudiante|etudiant|studierende|humanities|humanidades|filolog|philolog|engineer|econom|\blaw\b|legal|attorney|accountant|accounting|financ|marketing|business|architect|physic(s|ist)\b|chemist|mathemat|\bstatistic|computer|software|informatic|linguist|histor|philosoph|sociolog|psycholog|politic|literature|music|\barts?\b|geolog|geograph|agricultur|veterinar|dentist|dental|theolog|religio|anthropolog|arch(a)?eolog|astronom|ecolog|mechanical|electrical|civil|aerospace|material|nuclear|petroleum|mining|forestry|fisher|tourism|hospitality|sport|journalis|media|communication|education|teacher|librar/i;
 
 type Employment = { org: string; dept: string; role: string };
 type EmploymentsJson = { "affiliation-group"?: { summaries?: { "employment-summary"?: { "department-name"?: string | null; "role-title"?: string | null; organization?: { name?: string | null } } }[] }[] };
@@ -170,9 +170,10 @@ async function vetOrcid(orcid: string, p: PersonInput): Promise<{ ok: boolean; n
   const describe = jobs.map((e) => [e.role, e.dept, e.org].filter(Boolean).join(", ")).join(" | ").slice(0, 200);
   if (!jobs.length) return { ok: false, note: "no employments to vet against" };
   // an employment whose role or department names another profession with no medical word beside it
-  const other = jobs.filter((e) => OTHER.test(`${e.role} ${e.dept}`) && !MEDICAL.test(`${e.role} ${e.dept} ${e.org}`));
+  // folded so that accented forms ("Lingüística", "Filología") still match the profession words
+  const other = jobs.filter((e) => OTHER.test(fold(`${e.role} ${e.dept}`)) && !MEDICAL.test(fold(`${e.role} ${e.dept} ${e.org}`)));
   // medical evidence: a medical word, or the linked institution record, or a centre named in the role or summary on two or more distinctive tokens
-  const medical = jobs.filter((e) => MEDICAL.test(`${e.role} ${e.dept} ${e.org}`) || strongInstitutionMatch(e.org, p) || (distinctive(e.org).length >= 2 && institutionMatches(e.org, p)));
+  const medical = jobs.filter((e) => MEDICAL.test(fold(`${e.role} ${e.dept} ${e.org}`)) || strongInstitutionMatch(e.org, p) || (distinctive(e.org).length >= 2 && institutionMatches(e.org, p)));
   // ORCID lists the current employment first: a different profession there, or in at least as many posts as medicine, is a different person
   if (other.length && (other.includes(jobs[0]) || other.length >= medical.length)) return { ok: false, note: `different profession: ${describe}` };
   return medical.length ? { ok: true, note: describe } : { ok: false, note: `no medical or institutional evidence: ${describe}` };

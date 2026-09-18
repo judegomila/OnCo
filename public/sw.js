@@ -9,7 +9,7 @@
  * Visited pages accumulate in the page cache, capped at PAGE_LIMIT entries (oldest evicted).
  * Bump VERSION to drop every old cache on the next activation. Registered by src/components/RegisterSW.tsx.
  */
-const VERSION = "onco-v3";
+const VERSION = "onco-v4";
 const SHELL_CACHE = `${VERSION}-shell`;
 const PAGE_CACHE = `${VERSION}-pages`;
 const ASSET_CACHE = `${VERSION}-assets`;

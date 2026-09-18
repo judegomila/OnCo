@@ -391,7 +391,7 @@ export const zh: UiDict = {
   "l.Tag": "标签",
   "l.Who acts": "行动方",
   "account.signIn": "登录",
-  "account.signInCta": "注册或登录",
+  "account.signInCta": "登录/注册",
   "account.signOut": "退出登录",
   "account.title": "登录以保存您的关注列表",
   "account.why": "您关注的页面保存在此浏览器中。通过邮件链接登录后，OnCo 会在您的所有设备上保持同一份列表。仅存储您的邮箱地址和关注列表。",

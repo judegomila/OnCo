@@ -429,7 +429,7 @@ export const EN = {
   "l.Tag": "Tag",
   "l.Who acts": "Who acts",
   "account.signIn": "Sign in",
-  "account.signInCta": "Sign up or log in",
+  "account.signInCta": "Sign in/up",
   "account.signOut": "Sign out",
   "account.title": "Sign in to keep your watchlist",
   "account.why": "Your watched pages live in this browser. Sign in with an email link and OnCo keeps the same list on every device you use. Only your email address and your watchlist are stored.",

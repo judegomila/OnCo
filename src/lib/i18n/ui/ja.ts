@@ -391,7 +391,7 @@ export const ja: UiDict = {
   "l.Tag": "タグ",
   "l.Who acts": "行動する主体",
   "account.signIn": "ログイン",
-  "account.signInCta": "登録またはログイン",
+  "account.signInCta": "ログイン/登録",
   "account.signOut": "ログアウト",
   "account.title": "ログインしてウォッチリストを保存",
   "account.why": "ウォッチ中のページはこのブラウザに保存されています。メールのリンクでログインすると、OnCo はすべての端末で同じリストを保持します。保存されるのはメールアドレスとリストだけです。",

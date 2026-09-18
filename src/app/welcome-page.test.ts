@@ -67,7 +67,7 @@ describe("/welcome/", () => {
   it("shows the sign-in control with a short note when no session is known", () => {
     expect(html).toContain('data-testid="welcome-signed-out"');
     expect(html).toContain(EN["account.welcome.signedOut"]);
-    expect(html).toMatch(/class="btn btn-primary[^"]*"[^>]*>Sign up or log in<\/button>/);
+    expect(html).toMatch(/class="btn btn-primary[^"]*"[^>]*>Sign in\/up<\/button>/);
     expect(html).not.toContain(">Continue</button>");
   });
 

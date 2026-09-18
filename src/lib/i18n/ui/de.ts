@@ -391,7 +391,7 @@ export const de: UiDict = {
   "l.Tag": "Schlagwort",
   "l.Who acts": "Wer handelt",
   "account.signIn": "Anmelden",
-  "account.signInCta": "Registrieren oder anmelden",
+  "account.signInCta": "Anmelden/registrieren",
   "account.signOut": "Abmelden",
   "account.title": "Anmelden, um die Beobachtungsliste zu behalten",
   "account.why": "Beobachtete Seiten liegen in diesem Browser. Melden Sie sich per E-Mail-Link an, und OnCo hält dieselbe Liste auf allen Ihren Geräten. Gespeichert werden nur Ihre E-Mail-Adresse und die Liste.",

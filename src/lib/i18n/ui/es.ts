@@ -391,7 +391,7 @@ export const es: UiDict = {
   "l.Tag": "Etiqueta",
   "l.Who acts": "Quién actúa",
   "account.signIn": "Iniciar sesión",
-  "account.signInCta": "Regístrate o inicia sesión",
+  "account.signInCta": "Entrar/registrarse",
   "account.signOut": "Cerrar sesión",
   "account.title": "Inicia sesión para conservar tu lista de seguimiento",
   "account.why": "Las páginas que sigues se guardan en este navegador. Inicia sesión con un enlace por correo y OnCo mantiene la misma lista en todos tus dispositivos. Solo se guardan tu correo y tu lista.",

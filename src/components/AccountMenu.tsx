@@ -21,7 +21,7 @@ import { THEME_ICON } from "./ThemeToggle";
  * through NEXT_PUBLIC_SIGNUP_ACTION (a Buttondown or Listmonk form endpoint). `inline` is the fuller card used on
  * /saved/; the default is the compact header control.
  *
- * Signed out: the primary pill "Sign up or log in". Signed in: a pill in the same 40px box with an initial circle
+ * Signed out: the primary pill "Sign in/up". Signed in: a pill in the same 40px box with an initial circle
  * and a green dot, the person's first name and, once a role is stored, the role as a quiet chip ("Jude · Patient");
  * below sm only the circle and dot remain. It opens a small menu: who you are (role chip and cancer), the four
  * preferences as chips that press the matching header toggle, "Change who you are" (/welcome/), "Clear my
@@ -31,7 +31,7 @@ import { THEME_ICON } from "./ThemeToggle";
 const SIGNUP_ACTION = process.env.NEXT_PUBLIC_SIGNUP_ACTION ?? "";
 const SIGNUP_LIST = process.env.NEXT_PUBLIC_SIGNUP_LIST ?? "";
 /** The signed-out header pill: the shared 40px control box in the accent with white text, a square on phones. */
-const CTA_CLASS = "ctl btn-primary w-10 px-0 sm:w-auto sm:px-3 gap-2 font-medium";
+const CTA_CLASS = "ctl btn-primary w-10 px-0 sm:w-auto sm:px-2.5 gap-1.5 text-sm font-medium";
 
 function ProfileIcon({ size = 18 }: { size?: number }) {
   return <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden><circle cx="12" cy="8" r="4" /><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5" /></svg>;
@@ -264,7 +264,7 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
           )}
         </>
       ) : (
-        /* Signed out: the primary pill, "Sign up or log in". Icon only below sm (a 40px square), icon and label from sm up.
+        /* Signed out: the primary pill, "Sign in/up". Icon only below sm (a 40px square), icon and label from sm up.
            With WorkOS it starts the PKCE flow from here so the reader comes back to this page; otherwise it opens /signup/. */
         provider === "workos"
           ? <button type="button" onClick={() => startSignIn()} className={CTA_CLASS} title={t("account.signInCta")} aria-label={t("account.signInCta")}><ProfileIcon /><span className="hidden sm:inline">{t("account.signInCta")}</span></button>

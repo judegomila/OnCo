@@ -9,7 +9,7 @@ import { UI_DICTS } from "@/lib/i18n/ui";
 
 /**
  * The header as a first-time visitor sees it (no session, English). Two things the owner asked for and one that
- * HTML forbids: a visible "Sign up or log in" control rather than a bare icon, every control on the same 40px box
+ * HTML forbids: a visible "Sign in/up" control rather than a bare icon, every control on the same 40px box
  * so they share a centre line, and no anchor nested inside another (the GitHub link and the sign-in link are
  * siblings of the other controls, never children of one).
  */
@@ -22,14 +22,14 @@ const tags = (s: string) => [...s.matchAll(/<(\/?)([a-zA-Z][\w-]*)[^>]*?(\/?)>/g
 describe("site header, signed out", () => {
   it("shows the sign-in call to action with the user glyph and a tooltip", () => {
     const label = UI_DICTS.en["account.signInCta"];
-    expect(label).toBe("Sign up or log in");
+    expect(label).toBe("Sign in/up");
     expect(html).toContain(`>${label}</span>`);
     expect(html).toContain(`title="${label}"`);
     // Primary pill in the accent, same 40px control box as its neighbours; the label steps out below sm.
     const start = html.indexOf('class="ctl btn-primary');
     expect(start).toBeGreaterThanOrEqual(0);
     const cta = html.slice(start, html.indexOf(`>${label}</span>`, start) + 1);
-    expect(cta).toContain("w-10 px-0 sm:w-auto sm:px-3");
+    expect(cta).toContain("w-10 px-0 sm:w-auto sm:px-2.5");
     expect(cta).toContain('<span class="hidden sm:inline">');
     expect(cta).toMatch(/<svg[^>]*><circle cx="12" cy="8" r="4">/);
   });

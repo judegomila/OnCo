@@ -391,7 +391,7 @@ export const fr: UiDict = {
   "l.Tag": "Étiquette",
   "l.Who acts": "Qui agit",
   "account.signIn": "Se connecter",
-  "account.signInCta": "S'inscrire ou se connecter",
+  "account.signInCta": "Connexion/inscription",
   "account.signOut": "Se déconnecter",
   "account.title": "Connectez-vous pour conserver votre liste de suivi",
   "account.why": "Les pages que vous suivez restent dans ce navigateur. Connectez-vous par un lien envoyé par courriel et OnCo garde la même liste sur tous vos appareils. Seuls votre adresse et votre liste sont enregistrés.",

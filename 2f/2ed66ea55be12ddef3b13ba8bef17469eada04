@@ -1,0 +1,25 @@
+src/app/nested-anchors.test.ts
+  s_0beac9cb5d78fd::t_7894644b0fc5d3 1-2,4,7-13,18,23-28,33,36-38,45-46,48,50-54,56-57,62,65-66,68,74-79
+  s_0beac9cb5d78fd::t_301dd316613146 3,6,19,32,34-35,39-44,55,61,63-64,67,71-72,80-81
+  s_0beac9cb5d78fd::t_8a04cca6186075 5,14-17,20-22,31,47,49,59-60,69-70,73
+  s_0beac9cb5d78fd::t_015562b6d52645 58
+  s_0beac9cb5d78fd::t_2d131125ab5a31 29-30
+src/components/DrugCard.tsx
+  s_0beac9cb5d78fd::t_65dee6d8b3e0c9 7-12,15,18-19,22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2f2ed66ea55be12ddef3b13ba8bef17469eada04",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

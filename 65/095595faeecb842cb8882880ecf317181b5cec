@@ -1,0 +1,13 @@
+.gitleaks.toml
+  ai_agent 1-21
+.github/workflows/secret-scan.yml
+  ai_agent 1-18
+.githooks/pre-commit
+  ai_agent 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "65095595faeecb842cb8882880ecf317181b5cec",
+  "prompts": {}
+}

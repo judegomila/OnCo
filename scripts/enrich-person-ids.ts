@@ -10,11 +10,16 @@
  * when the top result's title equals the person's name (initials and a parenthetical disambiguator ignored) and the
  * article summary mentions oncology, cancer, haematology or the person's institution.
  *
+ * Every accepted ORCID is then vetted against its `/employments` record (one more request, counted in the ORCID
+ * budget): a hit is rejected when any employment's role or department names a different profession without medical
+ * evidence in the same employment, or when no employment shows medical or institutional evidence at all.
+ *
  * Values are inserted into the source file right after the record's `id` field, `orcid` as the bare id and
- * `wikipedia` as the article URL. Decisions are written to /tmp/enrich-ids.json. Usage:
- *   npx tsx scripts/enrich-person-ids.ts [--dry-run] [--orcid=400] [--wiki=300]
+ * `wikipedia` as the article URL. Decisions are written to --out (default /tmp/enrich-ids.json); people already
+ * decided in the --skip logs (default the same file, when present) are not tried again. Usage:
+ *   npx tsx scripts/enrich-person-ids.ts [--dry-run] [--orcid=400] [--wiki=300] [--skip=a.json,b.json] [--out=c.json]
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { PersonInput } from "../src/lib/schema";
 import { ALL_INPUTS } from "../src/data";
@@ -38,6 +43,9 @@ const DRY = args.includes("--dry-run");
 const num = (flag: string, d: number) => { const a = args.find((x) => x.startsWith(`--${flag}=`)); return a ? Number(a.split("=")[1]) : d; };
 const ORCID_BUDGET = num("orcid", 400);
 const WIKI_BUDGET = num("wiki", 300);
+const str = (flag: string, d: string) => { const a = args.find((x) => x.startsWith(`--${flag}=`)); return a ? a.slice(flag.length + 3) : d; };
+const OUT = str("out", "/tmp/enrich-ids.json");
+const SKIP_LOGS = str("skip", OUT).split(",").filter((f) => f && existsSync(f));
 const PACE_MS = 300;
 const UA = "OnCo corpus enrichment (https://onco.world; contact via site)";
 
@@ -64,11 +72,13 @@ for (const e of ALL_INPUTS) if (e.kind === "institution") institutions.set(e.id,
 const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const tokens = (s: string) => fold(s).replace(/[^a-z0-9]+/g, " ").trim().split(/\s+/).filter(Boolean);
 /** Words too common in institution names to identify one on their own. */
-const GENERIC = new Set(["university", "universitat", "universite", "universita", "universidad", "universitaire", "medical", "medicine", "center", "centre", "hospital", "hospitals", "cancer", "institute", "institut", "institution", "school", "college", "health", "research", "national", "general", "clinic", "clinical", "oncology", "society", "association", "american", "european", "international", "foundation", "department", "division", "journal", "sciences", "science", "faculty", "campus", "system", "city", "state", "group", "trust", "nhs", "royal", "children", "childrens", "comprehensive", "memorial", "regional", "district", "public", "academy", "academic", "hosp", "univ", "med", "ctr", "inst", "dept", "sch", "coll", "and", "the", "for", "des", "der", "von", "van", "del", "della", "sur", "les", "north", "south", "east", "west", "central", "new", "saint", "sankt", "st", "san", "santa", "ospedale", "krankenhaus", "hopital", "klinikum", "klinik", "college", "polytechnic", "technology", "technical", "institutes", "board", "council", "agency", "ministry", "government", "federal", "united", "states", "kingdom", "republic", "people", "peoples", "first", "second", "third", "affiliated", "teaching", "military", "army", "veterans", "affairs", "administration", "cooperative", "network", "alliance", "consortium", "program", "programme", "office", "service", "services", "care", "healthcare", "life", "biomedical", "molecular", "cellular", "biology", "genetics", "genomics", "pathology", "radiology", "surgery", "haematology", "hematology", "pediatric", "paediatric", "women", "womens", "mens", "adult", "community", "county", "province", "provincial", "metropolitan", "chinese", "japanese", "korean", "indian", "french", "german", "italian", "spanish", "british", "australian", "canadian", "dutch", "swiss", "swedish", "danish", "norwegian", "belgian", "austrian", "polish", "medizinische", "hochschule", "fakultat", "universitatsklinikum", "universitatsmedizin", "asco", "esmo", "aacr", "ash", "asco", "iaslc", "nci", "nih"]);
+const GENERIC = new Set(["university", "universitat", "universite", "universita", "universidad", "universitaire", "medical", "medicine", "center", "centre", "hospital", "hospitals", "cancer", "institute", "institut", "institution", "school", "college", "health", "research", "national", "general", "clinic", "clinical", "oncology", "society", "association", "american", "european", "international", "foundation", "department", "division", "journal", "sciences", "science", "faculty", "campus", "system", "city", "state", "group", "trust", "nhs", "royal", "children", "childrens", "comprehensive", "memorial", "regional", "district", "public", "academy", "academic", "hosp", "univ", "med", "ctr", "inst", "dept", "sch", "coll", "and", "the", "for", "des", "der", "von", "van", "del", "della", "sur", "les", "north", "south", "east", "west", "central", "new", "saint", "sankt", "st", "san", "santa", "ospedale", "krankenhaus", "hopital", "klinikum", "klinik", "college", "polytechnic", "technology", "technical", "institutes", "board", "council", "agency", "ministry", "government", "federal", "united", "states", "kingdom", "republic", "people", "peoples", "first", "second", "third", "affiliated", "teaching", "military", "army", "veterans", "affairs", "administration", "cooperative", "network", "alliance", "consortium", "program", "programme", "office", "service", "services", "care", "healthcare", "life", "biomedical", "molecular", "cellular", "biology", "genetics", "genomics", "pathology", "radiology", "surgery", "haematology", "hematology", "pediatric", "paediatric", "women", "womens", "mens", "adult", "community", "county", "province", "provincial", "metropolitan", "chinese", "japanese", "korean", "indian", "french", "german", "italian", "spanish", "british", "australian", "canadian", "dutch", "swiss", "swedish", "danish", "norwegian", "belgian", "austrian", "polish", "medizinische", "hochschule", "fakultat", "universitatsklinikum", "universitatsmedizin", "nacional", "nazionale", "nationale", "centro", "instituto", "istituto", "universitario", "universitaria", "clinica", "medica", "medico", "ospedaliera", "ospedaliero", "azienda", "fondazione", "fundacion", "hopitaux", "assistance", "publique", "universitats", "universitaets", "asco", "esmo", "aacr", "ash", "asco", "iaslc", "nci", "nih"]);
 const distinctive = (s: string) => tokens(s).filter((t) => t.length >= 4 && !GENERIC.has(t) && !/^\d+$/.test(t));
 
-type Decision = { id: string; name: string; field: "orcid" | "wikipedia"; status: "added" | "ambiguous" | "none" | "error"; value?: string; note?: string };
+/** `rejected`: the search accepted the id but the employment record named another profession or showed no medical evidence. */
+type Decision = { id: string; name: string; field: "orcid" | "wikipedia"; status: "added" | "ambiguous" | "none" | "error" | "rejected"; value?: string; note?: string };
 const decisions: Decision[] = [];
+let orcidRequests = 0;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function getJson(url: string, headers: Record<string, string>): Promise<unknown> {
@@ -127,6 +137,7 @@ async function lookupOrcid(p: PersonInput): Promise<Decision> {
   const q = `family-name:"${fold(parts.surname)}" AND given-names:"${fold(parts.given)}"`;
   const url = `https://pub.orcid.org/v3.0/expanded-search/?q=${encodeURIComponent(q)}&rows=30`;
   try {
+    orcidRequests++;
     const j = (await getJson(url, { Accept: "application/json" })) as { "expanded-result": OrcidResult[] | null; "num-found": number };
     const results = (j["expanded-result"] ?? []).filter((r) => fold(r["family-names"] ?? "") === fold(parts.surname));
     if (!results.length) return { ...base, note: `no results (${j["num-found"]} found)` };
@@ -137,6 +148,34 @@ async function lookupOrcid(p: PersonInput): Promise<Decision> {
   } catch (e) {
     return { ...base, status: "error", note: String(e) };
   }
+}
+
+/** Words in an employment role or department that place the holder in medicine or the life sciences. */
+const MEDICAL = /oncolog|cancer|tumou?r|carcinom|sarcom|melanom|gliom|neoplas|ha?ematolog|leuka?em|lymphom|myelom|medic|physician|clinic|hospital|surg|radiat|radiolog|radiother|patholog|p(a)?ediatric|immunolog|genetic|genom|biolog|biomedic|pharmac|health|epidemiolog|nurs|bioinformat|biostatist|transplant|urolog|gyn(a)?ecolog|dermatolog|neurolog|gastroenterolog|pulmon|thoracic|breast|prostate|lung|hepat|endocrin|virolog|microbiolog|molecular|translational|therap|onkolog|krebs|cancerolog|tumor/i;
+/** Words that mark a different profession when no medical evidence accompanies them in the same employment. */
+const OTHER = /student|estudiante|etudiant|studierende|humanities|humanidades|engineer|econom|\blaw\b|legal|attorney|accountant|accounting|financ|marketing|business|architect|physic(s|ist)\b|chemist|mathemat|\bstatistic|computer|software|informatic|linguist|histor|philosoph|sociolog|psycholog|politic|literature|music|\barts?\b|geolog|geograph|agricultur|veterinar|dentist|dental|theolog|religio|anthropolog|arch(a)?eolog|astronom|ecolog|mechanical|electrical|civil|aerospace|material|nuclear|petroleum|mining|forestry|fisher|tourism|hospitality|sport|journalis|media|communication|education|teacher|librar/i;
+
+type Employment = { org: string; dept: string; role: string };
+type EmploymentsJson = { "affiliation-group"?: { summaries?: { "employment-summary"?: { "department-name"?: string | null; "role-title"?: string | null; organization?: { name?: string | null } } }[] }[] };
+
+/** Second look at an accepted ORCID: fetch its employments and reject a different profession or a record with no medical or institutional evidence. */
+async function vetOrcid(orcid: string, p: PersonInput): Promise<{ ok: boolean; note: string }> {
+  orcidRequests++;
+  const j = (await getJson(`https://pub.orcid.org/v3.0/${orcid}/employments`, { Accept: "application/json" })) as EmploymentsJson;
+  const jobs: Employment[] = [];
+  for (const g of j["affiliation-group"] ?? []) for (const s of g.summaries ?? []) {
+    const e = s["employment-summary"];
+    if (e) jobs.push({ org: e.organization?.name ?? "", dept: e["department-name"] ?? "", role: e["role-title"] ?? "" });
+  }
+  const describe = jobs.map((e) => [e.role, e.dept, e.org].filter(Boolean).join(", ")).join(" | ").slice(0, 200);
+  if (!jobs.length) return { ok: false, note: "no employments to vet against" };
+  // an employment whose role or department names another profession with no medical word beside it
+  const other = jobs.filter((e) => OTHER.test(`${e.role} ${e.dept}`) && !MEDICAL.test(`${e.role} ${e.dept} ${e.org}`));
+  // medical evidence: a medical word, or the linked institution record, or a centre named in the role or summary on two or more distinctive tokens
+  const medical = jobs.filter((e) => MEDICAL.test(`${e.role} ${e.dept} ${e.org}`) || strongInstitutionMatch(e.org, p) || (distinctive(e.org).length >= 2 && institutionMatches(e.org, p)));
+  // ORCID lists the current employment first: a different profession there, or in at least as many posts as medicine, is a different person
+  if (other.length && (other.includes(jobs[0]) || other.length >= medical.length)) return { ok: false, note: `different profession: ${describe}` };
+  return medical.length ? { ok: true, note: describe } : { ok: false, note: `no medical or institutional evidence: ${describe}` };
 }
 
 /** Person name without initials, folded, for title comparison. */
@@ -192,7 +231,7 @@ function strongInstitutionMatch(orcidInst: string, p: PersonInput): boolean {
 
 /** --review: list accepted ORCIDs from the last run whose only evidence was a centre named in the role or summary. */
 function review() {
-  const decisions = JSON.parse(readFileSync("/tmp/enrich-ids.json", "utf8")) as Decision[];
+  const decisions = JSON.parse(readFileSync(OUT, "utf8")) as Decision[];
   const byId = new Map(FILES.flatMap((f) => f.people.map((p) => [p.id, p] as const)));
   for (const d of decisions) {
     if (d.field !== "orcid" || d.status !== "added") continue;
@@ -204,14 +243,36 @@ function review() {
   }
 }
 
+/** --recheck[=id,id]: re-vet ORCIDs rejected in the last run under the current rules and insert those now accepted. */
+async function recheck(ids: string[]) {
+  const log = JSON.parse(readFileSync(OUT, "utf8")) as Decision[];
+  const byId = new Map(FILES.flatMap((f) => f.people.map((p) => [p.id, { p, file: f.file }] as const)));
+  for (const d of log) {
+    if (d.field !== "orcid" || d.status !== "rejected" || !d.value || (ids.length && !ids.includes(d.id))) continue;
+    const rec = byId.get(d.id);
+    if (!rec) continue;
+    const v = await vetOrcid(d.value, rec.p);
+    console.log(`recheck ${v.ok ? "added" : "rejected"} ${rec.p.name} ${d.value} (${v.note.slice(0, 120)})`);
+    if (v.ok) { d.status = "added"; d.note = `rechecked => ${v.note}`; if (!DRY) insertField(rec.file, rec.p.id, "orcid", d.value); }
+    await sleep(PACE_MS);
+  }
+  writeFileSync(OUT, JSON.stringify(log, null, 2));
+}
+
 async function main() {
   if (args.includes("--review")) return review();
+  const rc = args.find((a) => a.startsWith("--recheck"));
+  if (rc) return recheck(rc.includes("=") ? rc.split("=")[1].split(",") : []);
+  const prior: Decision[] = SKIP_LOGS.flatMap((f) => JSON.parse(readFileSync(f, "utf8")) as Decision[]);
+  const tried = { orcid: new Set<string>(), wikipedia: new Set<string>() };
+  for (const d of prior) tried[d.field].add(d.id);
   const orcidQueue: { file: string; p: PersonInput }[] = [];
   const wikiQueue: { file: string; p: PersonInput }[] = [];
   for (const f of FILES) for (const p of f.people) {
-    if (f.researchers && !p.orcid) orcidQueue.push({ file: f.file, p });
-    if (!p.wikipedia) wikiQueue.push({ file: f.file, p });
+    if (f.researchers && !p.orcid && !tried.orcid.has(p.id)) orcidQueue.push({ file: f.file, p });
+    if (!p.wikipedia && !tried.wikipedia.has(p.id)) wikiQueue.push({ file: f.file, p });
   }
+  if (prior.length) console.log(`skipping ${tried.orcid.size} people already tried for ORCID and ${tried.wikipedia.size} for Wikipedia (${SKIP_LOGS.join(", ")})`);
   // heroes lacking Wikipedia are the likeliest to have articles: place them right after the investigators
   const invCount = peopleInvestigatorsWave.filter((p) => !p.wikipedia).length;
   const heroesFirst = wikiQueue.filter((x) => x.file.includes("heroes"));
@@ -219,11 +280,23 @@ async function main() {
   const wikiOrdered = [...others.slice(0, invCount), ...heroesFirst, ...others.slice(invCount)];
   console.log(`people lacking orcid: ${orcidQueue.length}, lacking wikipedia: ${wikiQueue.length}; budgets ${ORCID_BUDGET}/${WIKI_BUDGET}${DRY ? " (dry run)" : ""}`);
 
+  let orcidTried = 0;
   const runOrcid = async () => {
-    for (const { file, p } of orcidQueue.slice(0, ORCID_BUDGET)) {
-      const d = await lookupOrcid(p);
+    for (const { file, p } of orcidQueue) {
+      if (orcidRequests + 2 > ORCID_BUDGET) break; // leave room for the search and its vetting request
+      orcidTried++;
+      let d = await lookupOrcid(p);
+      if (d.status === "added" && d.value) {
+        await sleep(PACE_MS);
+        try {
+          const v = await vetOrcid(d.value, p);
+          d = v.ok ? { ...d, note: `${d.note} => ${v.note}` } : { ...d, status: "rejected", note: v.note };
+        } catch (e) {
+          d = { ...d, status: "error", note: `vetting failed: ${String(e)}` };
+        }
+      }
       decisions.push(d);
-      console.log(`orcid ${d.status.padEnd(9)} ${p.name} ${d.value ?? ""} ${d.note ? `(${d.note.slice(0, 90)})` : ""}`);
+      console.log(`orcid ${d.status.padEnd(9)} ${p.name} ${d.value ?? ""} ${d.note ? `(${d.note.slice(0, 120)})` : ""}`);
       if (d.status === "added" && d.value && !DRY) insertField(file, p.id, "orcid", d.value);
       await sleep(PACE_MS);
     }
@@ -239,11 +312,12 @@ async function main() {
   };
   await Promise.all([runOrcid(), runWiki()]);
 
-  writeFileSync("/tmp/enrich-ids.json", JSON.stringify(decisions, null, 2));
+  writeFileSync(OUT, JSON.stringify(decisions, null, 2));
   const count = (field: string, status: string) => decisions.filter((d) => d.field === field && d.status === status).length;
-  console.log(`\nORCID: ${count("orcid", "added")} added, ${count("orcid", "ambiguous")} ambiguous, ${count("orcid", "none")} none, ${count("orcid", "error")} errors`);
-  console.log(`Wikipedia: ${count("wikipedia", "added")} added, ${count("wikipedia", "ambiguous")} ambiguous, ${count("wikipedia", "none")} none, ${count("wikipedia", "error")} errors`);
-  console.log("decisions: /tmp/enrich-ids.json");
+  console.log(`\nORCID: ${count("orcid", "added")} added, ${count("orcid", "rejected")} rejected after vetting, ${count("orcid", "ambiguous")} ambiguous, ${count("orcid", "none")} none, ${count("orcid", "error")} errors; ${orcidRequests} requests, ${orcidQueue.length - orcidTried} people still untried`);
+  const wikiTried = Math.min(WIKI_BUDGET, wikiOrdered.length);
+  console.log(`Wikipedia: ${count("wikipedia", "added")} added, ${count("wikipedia", "ambiguous")} ambiguous, ${count("wikipedia", "none")} none, ${count("wikipedia", "error")} errors; ${wikiOrdered.length - wikiTried} people still untried`);
+  console.log(`decisions: ${OUT}`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

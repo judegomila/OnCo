@@ -21,7 +21,16 @@ export const syncsWatchlist = provider === "supabase";
 export type Session = { access_token: string; refresh_token: string; expires_at: number; user: { id: string; email: string; name?: string } };
 const SKEY = "onco:session:v1";
 const PKCE_KEY = "onco:pkce";
+const RETURN_KEY = "onco:return-to";
 const EVENT = "onco:account";
+
+/**
+ * The path a fresh sign-in should return to, written by `captureSession` just before it stores the session and
+ * read once (then removed) by the signup page's welcome step. Null when no sign-in has just completed.
+ */
+export function takeReturnPath(): string | null {
+  try { const v = window.sessionStorage.getItem(RETURN_KEY); if (v !== null) window.sessionStorage.removeItem(RETURN_KEY); return v; } catch { return null; }
+}
 
 export function loadSession(): Session | null {
   if (typeof window === "undefined") return null;
@@ -97,8 +106,9 @@ export async function captureSession(): Promise<Session | null> {
     if (!saved || saved.state !== p.get("state")) return null;
     const s = await workosExchange({ grant_type: "authorization_code", code, code_verifier: saved.verifier });
     if (!s) return null;
-    saveSession(s);
     const back = saved.returnTo && saved.returnTo !== "/signup/" && !saved.returnTo.startsWith("/signup/?") ? saved.returnTo : "/signup/";
+    try { window.sessionStorage.setItem(RETURN_KEY, back); } catch { /* storage blocked */ }
+    saveSession(s);
     history.replaceState(null, "", back);
     return s;
   }

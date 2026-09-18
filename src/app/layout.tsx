@@ -16,6 +16,8 @@ import { RegionProvider } from "@/lib/region";
 import { RegionToggle } from "@/components/RegionToggle";
 import { GitHubStars } from "@/components/GitHubStars";
 import { AccountMenu } from "@/components/AccountMenu";
+import { SignedInMyCancerChip } from "@/components/MyCancer";
+import { myCancerList } from "@/lib/my-cancer-list";
 import { RegisterSW } from "@/components/RegisterSW";
 import { WebMCP } from "@/components/WebMCP";
 import { FEED_TYPES } from "@/lib/seo";
@@ -94,7 +96,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <LayerToggle />
             <ThemeToggle />
             <GitHubStars className="hidden sm:inline-flex" />
-            <AccountMenu className="inline-flex" />
+            <SignedInMyCancerChip cancers={myCancerList()} className="hidden sm:inline-flex" />
+            <AccountMenu className="inline-flex" cancers={myCancerList()} />
           </div>
         </header>
         <LangStrip />

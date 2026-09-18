@@ -100,7 +100,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-destiny-breast06-nejm-2024", name: "DESTINY-Breast06: trastuzumab deruxtecan before any chemotherapy in hormone-receptor-positive, HER2-low or ultralow breast cancer",
     tldr: "Given as the first chemotherapy-type treatment after hormone therapy stopped working, trastuzumab deruxtecan delayed progression by about five months compared with standard chemotherapy, including in tumours with barely detectable HER2.",
     summary: "Open-label phase 3 trial of 866 patients with hormone-receptor-positive metastatic breast cancer that was HER2-low (IHC 1+ or 2+/ISH-negative) or HER2-ultralow (IHC 0 with faint membrane staining), who had progressed on endocrine therapy but had not received chemotherapy for metastatic disease. Patients were randomised to trastuzumab deruxtecan or physician's choice chemotherapy (capecitabine, paclitaxel or nab-paclitaxel). Primary endpoint was PFS in the HER2-low group.\n\nMedian PFS was 13.2 vs 8.1 months (HR 0.62) in HER2-low patients, with a similar effect in the ultralow subgroup. It moved T-DXd one line earlier and pushed the HER2 threshold down to almost any detectable staining.",
-    journal: "New England Journal of Medicine", year: 2024,
+    journal: "New England Journal of Medicine", year: 2024, doi: "10.1056/NEJMoa2407086", pmid: "39282896",
     authors: "Bardia A, Hu X, Dent R, et al.", paperType: "rct", participants: 866, changedPractice: true,
     findings: [
       "HER2-low: median PFS 13.2 vs 8.1 months, HR 0.62 (95% CI 0.51-0.74).",
@@ -127,7 +127,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-monarche-jco-2020", name: "monarchE: two years of abemaciclib after surgery in high-risk, hormone-receptor-positive early breast cancer",
     tldr: "Adding two years of the CDK4/6 inhibitor abemaciclib to standard hormone therapy after surgery cut the risk of the cancer coming back by a quarter in women with node-positive, high-risk disease.",
     summary: "Open-label phase 3 trial of 5,637 patients with hormone-receptor-positive, HER2-negative early breast cancer at high risk of recurrence (four or more positive nodes, or one to three nodes with grade 3, tumour 5 cm or more, or high Ki-67), randomised to standard endocrine therapy with or without two years of abemaciclib. Primary endpoint was invasive disease-free survival (iDFS).\n\nAt the pre-planned interim analysis, iDFS was improved (HR 0.75; 2-year iDFS 92.2% vs 88.7%). The benefit widened with time: at five years iDFS was 83.6% vs 76.0%, a 7.6-point absolute difference (HR 0.68), well after abemaciclib had stopped. It was the first adjuvant CDK4/6 inhibitor to succeed after palbociclib failed in PALLAS and PENELOPE-B.",
-    journal: "Journal of Clinical Oncology", year: 2020,
+    journal: "Journal of Clinical Oncology", year: 2020, doi: "10.1200/JCO.20.02514", pmid: "32954927",
     authors: "Johnston SRD, Harbeck N, Hegg R, et al.", paperType: "rct", participants: 5637, changedPractice: true,
     findings: [
       "Invasive disease-free survival HR 0.75 (95% CI 0.60-0.93) at the interim analysis; 2-year iDFS 92.2% vs 88.7%.",
@@ -236,7 +236,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-tropion-breast01-jco-2024", name: "TROPION-Breast01: datopotamab deruxtecan versus chemotherapy in pretreated hormone-receptor-positive breast cancer, and why a PFS win did not translate to survival",
     tldr: "The TROP2-directed antibody-drug conjugate Dato-DXd delayed progression by about two months compared with chemotherapy, but patients did not live longer, which stalled its approval in breast cancer.",
     summary: "Open-label phase 3 trial of 732 patients with hormone-receptor-positive, HER2-negative metastatic breast cancer after one or two lines of chemotherapy, randomised to datopotamab deruxtecan (Dato-DXd, 6 mg/kg) or investigator's choice chemotherapy (eribulin, vinorelbine, capecitabine or gemcitabine). Dual primary endpoints were PFS by blinded review and overall survival.\n\nPFS was improved (6.9 vs 4.9 months, HR 0.63) with fewer high-grade adverse events, but the final overall survival analysis showed no difference. The trial is a cautionary example that a TROP2 ADC can beat chemotherapy on PFS in an unselected population without changing survival.",
-    journal: "Journal of Clinical Oncology", year: 2024,
+    journal: "Journal of Clinical Oncology", year: 2024, doi: "10.1200/JCO.24.00920", pmid: "39265124",
     authors: "Bardia A, Jhaveri K, Im SA, et al.", paperType: "rct", participants: 732, changedPractice: false,
     findings: [
       "Median PFS by blinded central review 6.9 vs 4.9 months; HR 0.63 (95% CI 0.52-0.76).",
@@ -536,7 +536,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-codebreak-200-lancet-2023", name: "CodeBreaK 200: sotorasib versus docetaxel in KRAS G12C-mutated lung cancer, a modest win for the first KRAS drug",
     tldr: "The first drug to directly block mutant KRAS beat docetaxel chemotherapy on delaying progression in KRAS G12C lung cancer, but only by about a month, and did not improve survival.",
     summary: "Open-label phase 3 trial of 345 patients with KRAS G12C-mutated advanced NSCLC previously treated with platinum chemotherapy and a PD-1 inhibitor, randomised to sotorasib 960 mg daily or docetaxel. Primary endpoint was PFS by blinded review.\n\nMedian PFS was 5.6 vs 4.5 months (HR 0.66) with a higher response rate (28.1% vs 13.2%) and less high-grade toxicity, but overall survival was not different (HR about 1.0), partly because a third of docetaxel patients crossed over. It confirmed that KRAS G12C is druggable, and also that first-generation inhibitors give short-lived benefit; the FDA's concerns about the trial's design and a later dose-comparison requirement shaped how KRAS inhibitors were subsequently developed.",
-    journal: "The Lancet", year: 2023,
+    journal: "The Lancet", year: 2023, doi: "10.1016/S0140-6736(23)00221-0", pmid: "36764316",
     authors: "de Langen AJ, Johnson ML, Mazieres J, et al.", paperType: "rct", participants: 345, changedPractice: true,
     findings: [
       "Median PFS 5.6 vs 4.5 months; HR 0.66 (95% CI 0.51-0.86); 12-month PFS 24.8% vs 10.1%.",
@@ -563,7 +563,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-harmoni-2-lancet-2025", name: "HARMONi-2: ivonescimab, a PD-1 x VEGF bispecific, beats pembrolizumab head-to-head in PD-L1-positive lung cancer",
     tldr: "In the first randomised trial to beat pembrolizumab directly, a single antibody that blocks both PD-1 and VEGF nearly doubled the time to progression in PD-L1-positive lung cancer, though survival data were still immature.",
     summary: "Double-blind phase 3 trial conducted in China of 398 patients with untreated, PD-L1-positive (TPS 1% or more) advanced NSCLC without EGFR or ALK alterations, randomised to ivonescimab or pembrolizumab monotherapy. Primary endpoint was PFS by blinded review.\n\nMedian PFS was 11.1 vs 5.8 months (HR 0.51), with benefit in squamous and non-squamous histology and in PD-L1 1-49% and 50% or more. Overall survival was immature at publication and a later interim analysis did not reach statistical significance. It is the first time any agent has beaten pembrolizumab head-to-head in lung cancer and it revived interest in PD-(L)1 x VEGF bispecifics, with several Western companies licensing similar molecules.",
-    journal: "The Lancet", year: 2025,
+    journal: "The Lancet", year: 2025, doi: "10.1016/S0140-6736(24)02722-3", pmid: "40057343",
     authors: "Zhou C, Chen J, Wu L, et al.", paperType: "rct", participants: 398, changedPractice: false,
     findings: [
       "Median PFS 11.1 vs 5.8 months; HR 0.51 (95% CI 0.38-0.69).",
@@ -591,7 +591,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-napoli-3-lancet-2023", name: "NAPOLI-3: NALIRIFOX versus gemcitabine plus nab-paclitaxel as first treatment for metastatic pancreatic cancer",
     tldr: "NAPOLI-3 randomised 770 patients with untreated metastatic pancreatic cancer to NALIRIFOX, a four-drug regimen built on liposomal irinotecan, or to gemcitabine plus nab-paclitaxel, the doublet most patients receive. NALIRIFOX lengthened life and delayed progression, the first positive first-line trial in a decade, though conventional FOLFIRINOX remains the usual choice where affordable.",
     summary: "Open-label phase 3 trial of 770 patients with untreated metastatic pancreatic adenocarcinoma randomised to NALIRIFOX (liposomal irinotecan, oxaliplatin, fluorouracil, leucovorin) or gemcitabine plus nab-paclitaxel. Primary endpoint was overall survival.\n\nMedian OS was 11.1 vs 9.2 months (HR 0.83) and median PFS 7.4 vs 5.6 months (HR 0.69). It was the first randomised evidence that a FOLFIRINOX-type regimen beats gemcitabine plus nab-paclitaxel, and led to FDA approval of NALIRIFOX in 2024, though conventional FOLFIRINOX remains the usual choice where it is affordable.",
-    journal: "The Lancet", year: 2023,
+    journal: "The Lancet", year: 2023, doi: "10.1016/S0140-6736(23)01366-1", pmid: "37708904",
     authors: "Wainberg ZA, Melisi D, Macarulla T, et al.", paperType: "rct", participants: 770, changedPractice: true,
     findings: [
       "Median overall survival 11.1 vs 9.2 months; HR 0.83 (95% CI 0.70-0.99).",
@@ -618,7 +618,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-spotlight-lancet-2023", name: "SPOTLIGHT: zolbetuximab, the first Claudin 18.2 antibody, added to chemotherapy in gastric cancer",
     tldr: "In stomach cancers that express the protein Claudin 18.2, adding the antibody zolbetuximab to chemotherapy extended survival by nearly three months, making Claudin 18.2 a new biomarker to test for.",
     summary: "Double-blind phase 3 trial of 565 patients with untreated, HER2-negative, Claudin 18.2-positive (moderate-to-strong staining in 75% or more of tumour cells) locally advanced or metastatic gastric or gastro-oesophageal junction adenocarcinoma, randomised to zolbetuximab or placebo plus mFOLFOX6. Primary endpoint was PFS.\n\nMedian PFS was 10.6 vs 8.7 months (HR 0.75) and median OS 18.2 vs 15.5 months (HR 0.75). Together with the GLOW trial (zolbetuximab plus CAPOX) it led to approvals in 2024 and made Claudin 18.2 testing routine for HER2-negative gastric cancer, while opening a target now pursued by ADCs and CAR-T cells.",
-    journal: "The Lancet", year: 2023,
+    journal: "The Lancet", year: 2023, doi: "10.1016/S0140-6736(23)00620-7", pmid: "37068504",
     authors: "Shitara K, Lordick F, Bang YJ, et al.", paperType: "rct", participants: 565, changedPractice: true,
     findings: [
       "Median PFS 10.61 vs 8.67 months; HR 0.751 (95% CI 0.598-0.942).",
@@ -645,7 +645,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-checkmate-649-lancet-2021", name: "CheckMate 649: nivolumab plus chemotherapy as first treatment for advanced gastric, gastro-oesophageal junction and oesophageal adenocarcinoma",
     tldr: "Adding the immunotherapy nivolumab to first-line chemotherapy helped patients with advanced stomach and oesophageal adenocarcinoma live longer, especially when the tumour showed PD-L1, making chemo-immunotherapy the new standard.",
     summary: "Open-label phase 3 trial of 1,581 patients with untreated, HER2-negative advanced gastric, gastro-oesophageal junction or oesophageal adenocarcinoma randomised to nivolumab plus chemotherapy (XELOX or FOLFOX) or chemotherapy alone (a third arm tested nivolumab plus ipilimumab). Primary endpoints were OS and PFS in patients with PD-L1 combined positive score (CPS) of 5 or more.\n\nIn CPS 5 or more, median OS was 14.4 vs 11.1 months (HR 0.71) and PFS 7.7 vs 6.0 months (HR 0.68); in all randomised patients OS was 13.8 vs 11.6 months (HR 0.80). It was the first immunotherapy to improve first-line survival in gastric cancer and it made PD-L1 CPS testing standard, though regulators disagreed about the CPS threshold for use.",
-    journal: "The Lancet", year: 2021,
+    journal: "The Lancet", year: 2021, doi: "10.1016/S0140-6736(21)00797-2", pmid: "34102137",
     authors: "Janjigian YY, Shitara K, Moehler M, et al.", paperType: "rct", participants: 1581, changedPractice: true,
     findings: [
       "CPS 5 or more: median OS 14.4 vs 11.1 months, HR 0.71 (98.4% CI 0.59-0.86); median PFS 7.7 vs 6.0 months, HR 0.68.",
@@ -727,7 +727,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-breakwater-nejm-2025", name: "BREAKWATER: encorafenib plus cetuximab with chemotherapy as first treatment for BRAF V600E-mutated colorectal cancer",
     tldr: "Adding a BRAF inhibitor and an EGFR antibody to first-line chemotherapy roughly doubled survival in BRAF V600E-mutated metastatic bowel cancer, one of the worst-prognosis subtypes.",
     summary: "Open-label phase 3 trial of patients with untreated BRAF V600E-mutated metastatic colorectal cancer randomised to encorafenib plus cetuximab plus mFOLFOX6, encorafenib plus cetuximab alone (arm later closed), or standard chemotherapy with or without bevacizumab. Primary endpoints were PFS and objective response rate.\n\nThe first report (Nature Medicine 2025) showed a response rate of about 61% vs 40%, supporting accelerated FDA approval in December 2024. The 2025 NEJM report showed median PFS 12.8 vs 7.1 months (HR 0.53) and median OS 30.3 vs 15.1 months (HR 0.49). It moved BRAF-targeted therapy from second line (BEACON) to first line and is the largest survival gain ever seen in this subgroup.",
-    journal: "New England Journal of Medicine", year: 2025,
+    journal: "New England Journal of Medicine", year: 2025, doi: "10.1056/NEJMoa2501912", pmid: "40444708",
     authors: "Elez E, Yoshino T, Shen L, et al.", paperType: "rct", changedPractice: true,
     findings: [
       "Objective response about 61% vs 40% in the first analysis (Nature Medicine 2025), with longer duration of response.",
@@ -999,7 +999,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-sunrise-1-jco-2025", name: "SunRISe-1: TAR-200, a gemcitabine-releasing device placed in the bladder, for BCG-unresponsive non-muscle-invasive bladder cancer",
     tldr: "A small pretzel-shaped device that slowly releases gemcitabine inside the bladder cleared carcinoma in situ in about four out of five patients whose cancer had stopped responding to BCG, offering an alternative to bladder removal.",
     summary: "Open-label phase 2b trial of patients with BCG-unresponsive high-risk non-muscle-invasive bladder cancer with carcinoma in situ, who declined or were unfit for radical cystectomy. Cohort 2 tested TAR-200 monotherapy, an intravesical drug-releasing system placed cystoscopically every three weeks then every twelve weeks for up to two years. Primary endpoint was complete response rate.\n\nThe complete response rate was about 84%, with most responses durable beyond a year and a low rate of serious adverse events, mostly urinary symptoms. It led to FDA approval in 2025, the first intravesical drug-releasing system and a rare new option for a group whose only curative alternative is cystectomy.",
-    journal: "Journal of Clinical Oncology", year: 2025,
+    journal: "Journal of Clinical Oncology", year: 2025, doi: "10.1200/JCO-25-01651", pmid: "40737582",
     authors: "Jacob JM, Daneshmand S, Necchi A, et al.", paperType: "rct", participants: 85, changedPractice: true,
     findings: [
       "Complete response in about 84% of patients with carcinoma in situ (cohort 2, TAR-200 alone).",
@@ -1217,7 +1217,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-keynote-942-lancet-2024", name: "KEYNOTE-942: a personalised mRNA cancer vaccine plus pembrolizumab after melanoma surgery",
     tldr: "A vaccine custom-made from each patient's own tumour mutations, given with pembrolizumab after surgery for high-risk melanoma, reduced recurrence by about 44% compared with pembrolizumab alone in a mid-sized randomised trial, the first sign that personalised cancer vaccines can work.",
     summary: "Open-label randomised phase 2b trial of 157 patients with completely resected stage IIIB-IV melanoma randomised 2:1 to mRNA-4157 (V940, intismeran autogene, encoding up to 34 patient-specific neoantigens) plus pembrolizumab or pembrolizumab alone for about a year. Primary endpoint was recurrence-free survival.\n\nRecurrence-free survival HR was 0.56 (18-month RFS 78.6% vs 62.2%) and distant metastasis-free survival HR 0.35, with benefit regardless of tumour mutational burden or PD-L1. Toxicity was mainly injection-site reactions and flu-like symptoms. It triggered the phase 3 INTerpath-001 trial and a wave of investment in individualised neoantigen vaccines.",
-    journal: "The Lancet", year: 2024,
+    journal: "The Lancet", year: 2024, doi: "10.1016/S0140-6736(23)02268-7", pmid: "38246194",
     authors: "Weber JS, Carlino MS, Khattak A, et al.", paperType: "rct", participants: 157, changedPractice: false,
     findings: [
       "Recurrence-free survival HR 0.561 (95% CI 0.309-1.017); 18-month RFS 78.6% vs 62.2%.",
@@ -1301,7 +1301,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-netter-2-lancet-2024", name: "NETTER-2: lutetium-177 dotatate as first treatment for higher-grade gastroenteropancreatic neuroendocrine tumours",
     tldr: "Using the radioactive drug lutetium dotatate as the first treatment for faster-growing neuroendocrine tumours, rather than saving it for later, nearly tripled the time without progression compared with high-dose octreotide.",
     summary: "Open-label phase 3 trial of 226 patients with newly diagnosed, somatostatin-receptor-positive grade 2-3 (Ki-67 10-55%) advanced gastroenteropancreatic neuroendocrine tumours randomised 2:1 to four cycles of 177Lu-dotatate plus octreotide LAR 30 mg or high-dose octreotide LAR (60 mg). Primary endpoint was PFS by blinded review.\n\nMedian PFS was 22.8 vs 8.5 months (HR 0.28) with an objective response rate of 43% vs 9%. Following NETTER-1 (which established lutetium dotatate in progressive midgut tumours), it moved radioligand therapy to the first line for higher-grade disease, where somatostatin analogues alone are weak.",
-    journal: "The Lancet", year: 2024,
+    journal: "The Lancet", year: 2024, doi: "10.1016/S0140-6736(24)00701-3", pmid: "38851203",
     authors: "Singh S, Halperin D, Myrehaug S, et al.", paperType: "rct", participants: 226, changedPractice: true,
     findings: [
       "Median PFS 22.8 vs 8.5 months; HR 0.28 (95% CI 0.18-0.42).",
@@ -1328,7 +1328,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-spearhead-1-lancet-2024", name: "SPEARHEAD-1: afamitresgene autoleucel, the first engineered T-cell receptor therapy approved for a solid tumour, in synovial sarcoma",
     tldr: "T cells taken from patients and engineered to recognise the MAGE-A4 protein shrank tumours in about four in ten patients with advanced synovial sarcoma, leading to the first approval of a TCR T-cell therapy for any solid cancer.",
     summary: "Single-arm phase 2 trial of 52 patients (44 with synovial sarcoma, 8 with myxoid/round cell liposarcoma) who were HLA-A*02 positive with MAGE-A4-expressing tumours, previously treated with anthracycline or ifosfamide, treated with a single infusion of afamitresgene autoleucel (afami-cel), autologous T cells expressing an affinity-enhanced MAGE-A4-specific T-cell receptor, after lymphodepleting chemotherapy. Primary endpoint was objective response rate.\n\nThe response rate was 37% overall and 39% in synovial sarcoma, with a median duration of response of about 12 months. Cytokine release syndrome occurred in about 70% but was mostly low grade. It led to FDA accelerated approval in 2024 (Tecelra), the first TCR-T and the first engineered cell therapy approved for a solid tumour.",
-    journal: "The Lancet", year: 2024,
+    journal: "The Lancet", year: 2024, doi: "10.1016/S0140-6736(24)00319-2", pmid: "38554725",
     authors: "D'Angelo SP, Araujo DM, Abdul Razak AR, et al.", paperType: "rct", participants: 52, changedPractice: true,
     findings: [
       "Objective response 37% overall (19 of 52); 39% in synovial sarcoma and 25% in myxoid/round cell liposarcoma.",
@@ -1356,7 +1356,7 @@ export const papersSolidTumours: PaperInput[] = [
   p({ id: "paper-keynote-048-lancet-2019", name: "KEYNOTE-048: pembrolizumab, alone or with chemotherapy, as first treatment for recurrent or metastatic head and neck cancer",
     tldr: "Pembrolizumab, either alone in PD-L1-positive tumours or combined with chemotherapy, helped patients with recurrent or metastatic head and neck squamous cell cancer live longer than the previous cetuximab-based standard.",
     summary: "Open-label phase 3 trial of 882 patients with untreated recurrent or metastatic head and neck squamous cell carcinoma randomised to pembrolizumab alone, pembrolizumab plus platinum and fluorouracil, or the EXTREME regimen (cetuximab plus platinum and fluorouracil). Primary endpoints were OS and PFS in PD-L1 CPS 20 or more, CPS 1 or more, and all patients.\n\nPembrolizumab alone improved OS in CPS 20 or more (14.9 vs 10.7 months, HR 0.61) and CPS 1 or more (12.3 vs 10.3 months, HR 0.78) and was non-inferior overall. Pembrolizumab plus chemotherapy improved OS in all patients (13.0 vs 10.7 months, HR 0.77). It replaced EXTREME as the first-line standard and made PD-L1 CPS testing routine in head and neck cancer.",
-    journal: "The Lancet", year: 2019,
+    journal: "The Lancet", year: 2019, doi: "10.1016/S0140-6736(19)32591-7", pmid: "31679945",
     authors: "Burtness B, Harrington KJ, Greil R, et al.", paperType: "rct", participants: 882, changedPractice: true,
     findings: [
       "Pembrolizumab alone vs EXTREME, CPS 20 or more: median OS 14.9 vs 10.7 months, HR 0.61 (95% CI 0.45-0.83).",

@@ -265,9 +265,9 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
         </>
       ) : (
         /* Signed out: the primary pill, "Sign in/up". Icon only below sm (a 40px square), icon and label from sm up.
-           With WorkOS it starts the PKCE flow from here so the reader comes back to this page; otherwise it opens /signup/. */
+           Rendered as a link to /signup/ so a click works before the script has attached (slow connections showed a seven second window); once hydrated the click starts the PKCE flow in place. */
         provider === "workos"
-          ? <button type="button" onClick={() => startSignIn()} className={CTA_CLASS} title={t("account.signInCta")} aria-label={t("account.signInCta")}><ProfileIcon /><span className="hidden sm:inline">{t("account.signInCta")}</span></button>
+          ? <Link href="/signup/" onClick={(e) => { e.preventDefault(); startSignIn(); }} className={CTA_CLASS} title={t("account.signInCta")} aria-label={t("account.signInCta")}><ProfileIcon /><span className="hidden sm:inline">{t("account.signInCta")}</span></Link>
           : <Link href="/signup/" className={CTA_CLASS} title={t("account.signInCta")} aria-label={t("account.signInCta")}><ProfileIcon /><span className="hidden sm:inline">{t("account.signInCta")}</span></Link>
       )}
       {accountEnabled ? dialogEl : captureEl}

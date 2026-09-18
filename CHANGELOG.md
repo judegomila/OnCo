@@ -28,6 +28,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - 969 more plain-English sentences for early-phase trials, key papers and collections, taking the simple layer to 9,930 records; one non-cancer registry record removed
 - Orphan trials given content: ten drug matches, 17 sponsor aliases, 36 sponsor companies and 130 trials tied to their makers, two non-cancer records removed; backlinks round: 303 weakly linked records gain true relations from their own text; orphans down to 214
 - 1,024 more plain-English sentences: 279 companies, 104 institutions and 640 phase 3 trials, taking the simple layer to 8,961 records
+- Two rare-cancer reference links corrected to the verified POD1UM-303 Lancet 2025 and MEK inhibition Nature 2019 papers
 - Key papers for the 39 rare-cancer subtype pages: 66 verified landmark trials, classifications and guidelines from ANCHOR and ACT II to FIRM-ACT, PATHFINDER, HD21 and FIRSTMAPPP, linked through keyPapers
 - Fifth Chinese quality pass over the new rare and pancreatic cancer pages: 14 corrections
 - Four pancreatic Chinese TL;DR fixes synced from the wave export into the dictionary

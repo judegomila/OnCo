@@ -880,7 +880,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["rituximab"],
     openProblems: ["No randomised trial has compared ABVD with rituximab-based chemotherapy.", "Variant growth patterns are hard to reproduce between pathologists.", "Late relapse and transformation over decades make lifelong follow-up necessary.", "The rarity of the disease limits every study to retrospective series."],
-    keyPapers: ["paper-who-2022-lymphoid-alaggio-leukemia-2022"],
+    keyPapers: ["paper-who-2022-lymphoid-alaggio-leukemia-2022", "paper-eichenauer-nlphl-ghsg-hd7-hd15-long-term-jco-2020"],
     drugs: ["rituximab", "doxorubicin", "vinblastine", "dacarbazine", "cyclophosphamide", "vincristine"], trials: [], technologies: ["imrt-igrt", "fdg-pet", "histopathology-ihc", "autologous-stem-cell-transplant", "active-surveillance"], terms: ["r-chop", "abvd-beacopp", "lymphoma-type", "lugano-classification"], targets: [],
     links: [{ label: "NCCN Hodgkin Lymphoma", url: hlG.url }, { label: "Wikipedia", url: W("Nodular_lymphocyte_predominant_Hodgkin_lymphoma") }] },
 
@@ -1180,7 +1180,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["enasidenib", "proton-therapy", "pembrolizumab"],
     openProblems: ["No randomised trial exists and the induction-response strategy rests on one centre's series.", "Enasidenib's activity in IDH2-mutant sinonasal carcinoma is unproven.", "Most patients still die of the disease within a few years.", "Orbital and skull base surgery and radiotherapy carry heavy functional costs."],
-    keyPapers: ["paper-amit-induction-chemotherapy-response-snuc-jco-2019"],
+    keyPapers: ["paper-amit-induction-chemotherapy-response-snuc-jco-2019", "paper-jo-idh2-r172-mutations-snuc-mod-pathol-2017"],
     drugs: ["cisplatin", "etoposide", "platinum-etoposide", "pembrolizumab", "nivolumab", "enasidenib"], trials: [], technologies: ["imrt-igrt", "proton-therapy", "robotic-surgery", "cytotoxic-chemotherapy", "checkpoint-inhibitor", "histopathology-ihc", "mri", "ct", "pet-ct"], terms: ["head-neck-subsites", "rare-cancers", "chemoradiation"], targets: ["idh", "pd1"],
     links: [{ label: "Induction chemotherapy in SNUC (JCO 2019)", url: "https://doi.org/10.1200/JCO.18.00353" }, { label: "NCCN Head and Neck Cancers (ethmoid and maxillary sinus)", url: sinonasalG.url }, { label: "Wikipedia", url: W("Sinonasal_undifferentiated_carcinoma") }] },
 ];

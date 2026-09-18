@@ -1,0 +1,99 @@
+src/data/sarcoma-bone-subtypes.ts
+  s_0beac9cb5d78fd::t_0ce0a1e121e3de 145
+  s_0beac9cb5d78fd::t_5acd7adcbdd5fa 261
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 42,48,93,115,139,162,211,234
+src/data/spikes/nci-rare-other.ts
+  s_0beac9cb5d78fd::t_0edd3cd803abd5 62
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 54,89,274,302,378,489
+src/data/thyroid-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 14,39,61,86
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_d9ed02ee5b7951 1
+src/data/neuroendocrine-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 23,60,98,130,163
+src/lib/cancer-families.test.ts
+  s_0beac9cb5d78fd::t_60804adaf27e2a 1-27,29-31,33-133
+  s_0beac9cb5d78fd::t_1cf1faa5c8c071 28,32
+src/data/testis-oesophagus-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 13,34,58,81
+src/data/bladder-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 14,38
+src/data/polycythaemia-vera.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 17
+src/data/skin-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 185,188,219,276,305,332,364,394,425
+src/data/breast-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 22,55,88,118,178,184,212,271,296,322
+src/data/cancer-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 14,41
+src/data/blood-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 26,51,75,100,124,151,177,203,231,257,285,309,336,363,390,415,441,468,495
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 21,173,176,214,253,289,325,359,386,416,449,452,479,579,734,737,768,828,831,863,865,893,895,1090
+  s_0beac9cb5d78fd::t_0fa901375f3903 361
+public/newsletter/2026-09-18/index.html
+  s_0beac9cb5d78fd::t_d9ed02ee5b7951 2,9-10
+public/newsletter/2026-09-18.json
+  s_0beac9cb5d78fd::t_d9ed02ee5b7951 1
+src/data/spikes/nci-paediatric.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 58,105,149,193,238,281,328,425,468
+  s_0beac9cb5d78fd::t_62ca826eee68bb 205
+public/freshness.json
+  s_0beac9cb5d78fd::t_d9ed02ee5b7951 1
+src/data/ovarian-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 14,41,62,83,104
+public/llms.txt
+  s_0beac9cb5d78fd::t_d9ed02ee5b7951 5
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 59,91,114,119,149,293,415,417,454,553,558,587,605,608
+src/data/cns-subtypes.ts
+  s_0beac9cb5d78fd::t_0edd3cd803abd5 210
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 48,79,109,145,175,203,234,263
+src/data/kidney-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 14,41,63
+src/data/head-neck-hpv-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 66,97,128,157,185,212,236,259,285,315
+src/data/spikes/nci-rare-solid.ts
+  s_0beac9cb5d78fd::t_0edd3cd803abd5 56,89
+  s_0beac9cb5d78fd::t_0ce0a1e121e3de 22
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 20,54,87,149,152,154,184,220,419
+src/data/colorectal-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 89,124,155,186,215,244,274
+src/data/sarcoma-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 14,36,59,80,103
+src/data/gynaecological-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 22,49,77,104,133,161,189,218,247,278,309
+src/data/lung-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 152,187,219,248,277,305,330,356,383,407,437,471,501,530
+src/data/prostate-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 17,42,66,89,93,115,144,168,200
+src/data/head-neck-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 14,39,43,63
+  s_0beac9cb5d78fd::t_0ce0a1e121e3de 18
+src/data/essential-thrombocythaemia.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 14
+src/data/paediatric-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 52,79,106,131,157,184,214
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_d9ed02ee5b7951 31-32
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_d9ed02ee5b7951 14-16
+src/data/upper-gi-liver-subtypes.ts
+  s_0beac9cb5d78fd::t_9ca8ce11fc802b 20,46,70,95,121,151,180,206,237,267,301,328,353
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5323aeec94ec747035ca9ee00e22c30d806f66a1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

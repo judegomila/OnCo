@@ -8,6 +8,7 @@ import { LayerToggle } from "./LayerToggle";
 import { RegionToggle } from "./RegionToggle";
 import { GitHubStars } from "./GitHubStars";
 import { AccountMenu } from "./AccountMenu";
+import { PreferenceSync } from "./PreferenceSync";
 import { SignedInMyCancerChip } from "./MyCancer";
 import { GardenBackdrop } from "./Garden";
 import { FooterNav } from "./FooterNav";
@@ -54,6 +55,8 @@ export function SiteHeader() {
         <GitHubStars className="hidden sm:inline-flex" />
         <SignedInMyCancerChip className="hidden sm:inline-flex" />
         <AccountMenu className="inline-flex" />
+        {/* Keeps a signed-in reader's country, view, language and theme with their account profile; renders nothing. */}
+        <PreferenceSync />
       </div>
     </header>
   );

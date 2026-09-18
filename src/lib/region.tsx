@@ -8,7 +8,23 @@ export { REGION_META };
 
 /** Order shown in the switcher: the three the owner asked for first, then the other regions we track. */
 export const REGION_ORDER: Region[] = ["US", "UK", "CN", "EU", "JP", "AU", "IN"];
-const KEY = "onco:region";
+export const REGION_KEY = "onco:region";
+export const REGION_EVENT = "onco:region";
+
+export function isRegion(v: unknown): v is Region { return typeof v === "string" && v in REGION_META; }
+
+/** The saved country, or null for Global (the default when nothing has been chosen). */
+export function readRegion(): Region | null {
+  if (typeof window === "undefined") return null;
+  try { const saved = window.localStorage.getItem(REGION_KEY); return isRegion(saved) ? saved : null; } catch { return null; }
+}
+
+/** Persist, reflect on <html> and announce a country; the provider, the menu chips and the preference sync follow the event. */
+export function writeRegion(r: Region | null) {
+  try { if (r) window.localStorage.setItem(REGION_KEY, r); else window.localStorage.removeItem(REGION_KEY); } catch { /* storage blocked */ }
+  document.documentElement.dataset.region = r ?? "global";
+  window.dispatchEvent(new CustomEvent(REGION_EVENT, { detail: r }));
+}
 
 /** Best guess from the browser locale; the reader can override it from the header. */
 function guess(): Region {
@@ -31,15 +47,16 @@ export function RegionProvider({ children }: { children: ReactNode }) {
   const [region, set] = useState<Region | null>(null);
   const [ready, setReady] = useState(false);
   useEffect(() => {
-    const id = requestAnimationFrame(() => {
-      const saved = window.localStorage.getItem(KEY) as Region | null;
-      // Readers start in Global view and choose a country themselves; a saved choice is honoured.
-      set(saved && saved in REGION_META ? saved : null);
-      setReady(true);
-    });
-    return () => cancelAnimationFrame(id);
+    // Readers start in Global view and choose a country themselves; a saved choice is honoured.
+    const id = requestAnimationFrame(() => { set(readRegion()); setReady(true); });
+    // Writes from elsewhere (the account menu's chip, the signed-in preference sync, another tab) reach this state through the event.
+    const onEvent = (e: Event) => { const d = (e as CustomEvent<Region | null>).detail; set(isRegion(d) ? d : null); };
+    const onStorage = (e: StorageEvent) => { if (e.key === REGION_KEY) set(readRegion()); };
+    window.addEventListener(REGION_EVENT, onEvent);
+    window.addEventListener("storage", onStorage);
+    return () => { cancelAnimationFrame(id); window.removeEventListener(REGION_EVENT, onEvent); window.removeEventListener("storage", onStorage); };
   }, []);
-  const setRegion = (r: Region | null) => { set(r); if (r) window.localStorage.setItem(KEY, r); else window.localStorage.removeItem(KEY); document.documentElement.dataset.region = r ?? "global"; };
+  const setRegion = (r: Region | null) => { set(r); writeRegion(r); };
   return <Ctx.Provider value={{ region, setRegion, ready }}>{children}</Ctx.Provider>;
 }
 

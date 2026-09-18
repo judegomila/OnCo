@@ -49,7 +49,7 @@ const STORAGE: ReadonlyArray<{ name: string; where: string; holds: string }> = [
   { name: "onco.layer", where: "Local storage", holds: "Reading level (technical, plain, simple) and site language." },
   { name: "onco:region", where: "Local storage", holds: "The region you chose for approvals and access." },
   { name: "onco:profile:v1", where: "Local storage", holds: "Your browser profile for For me and the hubs: cancer, stage, biomarkers, treatments had, country or postcode if you typed one, and reading mode." },
-  { name: "onco:account-profile:v1:<your user id>", where: "Local storage", holds: "The role you chose after signing in, your optional cancer choice and the time you agreed to the welcome step. One entry per signed-in user of this browser." },
+  { name: "onco:account-profile:v1:<your user id>", where: "Local storage", holds: "The role you chose after signing in, your optional cancer choice, the time you agreed to the welcome step, and a copy of your country, data view, language and theme so they follow your account. One entry per signed-in user of this browser." },
   { name: "onco:session:v1", where: "Local storage", holds: "Your sign-in session: access and refresh tokens, expiry, your user id, email address and name from WorkOS. Removed when you sign out." },
   { name: "onco:pkce, onco:return-to", where: "Session storage", holds: "A sign-in in progress (a one-time code verifier and the page to return to). Removed as soon as the sign-in completes; gone when the tab closes." },
   { name: "onco:watchlist:v1", where: "Local storage", holds: "Pages you pressed Watch on, with the dates you last saw them." },

@@ -2,21 +2,31 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { accountEnabled, captureSession, loadSession, onAccountChange, provider, pushWatchlist, sendMagicLink, signOut, startSignIn, syncWatchlist, type Session } from "@/lib/account";
-import { useT } from "@/lib/i18n/ui";
-import { clearAccountProfile, useAccountProfile, useProfile } from "@/lib/profile";
+import { accountEnabled, captureSession, displayName, loadSession, onAccountChange, provider, pushWatchlist, sendMagicLink, signOut, startSignIn, syncWatchlist, type Session } from "@/lib/account";
+import { welcomeHref } from "@/lib/after-sign-in";
+import { useT, type UiKey } from "@/lib/i18n/ui";
+import { clearAccountProfile, useAccountProfile, useProfile, type AccountRole } from "@/lib/profile";
 import { pickMyCancer, shortCancerName } from "@/lib/use-my-cancer";
 import { useMyCancerList } from "@/lib/use-my-cancer-list";
+import { REGION_META, useRegion } from "@/lib/region";
+import { LANGS, useLayer } from "@/lib/layer";
+import { useTheme } from "@/lib/theme";
 import { CancerIcon } from "./CancerIcon";
-import { RoleIcon } from "./WelcomeStep";
+import { LevelIcon, RoleIcon } from "./WelcomeStep";
+import { THEME_ICON } from "./ThemeToggle";
 
 /**
- * The profile icon in the header. With accounts configured (lib/account.ts) it signs in by magic link and keeps the
- * watchlist across devices; otherwise it captures an email for updates through NEXT_PUBLIC_SIGNUP_ACTION (a Buttondown
- * or Listmonk form endpoint). `inline` is the fuller card used on /saved/; the default is the compact header control.
- * Signed in, the avatar opens a small menu: who you are (role chip and cancer, both browser-only), "Change who you
- * are" (reopens the welcome step on /signup/), "Clear my choices" and "Sign out". The remembered cancer is named by
- * resolving its id against the list useMyCancerList fetches once a cancer is set (nothing is fetched otherwise).
+ * The profile control in the header. With accounts configured (lib/account.ts) it signs in through WorkOS (or by
+ * magic link with Supabase) and keeps the watchlist across devices; otherwise it captures an email for updates
+ * through NEXT_PUBLIC_SIGNUP_ACTION (a Buttondown or Listmonk form endpoint). `inline` is the fuller card used on
+ * /saved/; the default is the compact header control.
+ *
+ * Signed out: the primary pill "Sign up or log in". Signed in: a pill in the same 40px box with an initial circle
+ * and a green dot, the person's first name and, once a role is stored, the role as a quiet chip ("Jude · Patient");
+ * below sm only the circle and dot remain. It opens a small menu: who you are (role chip and cancer), the four
+ * preferences as chips that press the matching header toggle, "Change who you are" (/welcome/), "Clear my
+ * choices" and "Sign out". Everything shown here is browser-only. The remembered cancer is named by resolving its
+ * id against the list useMyCancerList fetches once a cancer is set (nothing is fetched otherwise).
  */
 const SIGNUP_ACTION = process.env.NEXT_PUBLIC_SIGNUP_ACTION ?? "";
 const SIGNUP_LIST = process.env.NEXT_PUBLIC_SIGNUP_LIST ?? "";
@@ -35,15 +45,46 @@ function EraseGlyph({ className = "h-4 w-4" }: { className?: string }) {
 function ExitGlyph({ className = "h-4 w-4" }: { className?: string }) {
   return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M10 4H5v16h5" /><path d="M14 8l4 4-4 4" /><path d="M9 12h9" /></svg>;
 }
-
-/** Where "Change who you are" sends the reader: the signup page with the welcome step open, coming back here after. */
-function changeHref(): string {
-  if (typeof window === "undefined") return "/signup/?welcome=1";
-  const here = window.location.pathname + window.location.search;
-  return here.startsWith("/signup/") ? "/signup/?welcome=1" : `/signup/?welcome=1&back=${encodeURIComponent(here)}`;
+function GlobeGlyph({ className = "h-3 w-3" }: { className?: string }) {
+  return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9c-2.6-2.6-3.9-5.6-3.9-9S9.4 5.6 12 3Z" /></svg>;
 }
 
-/** The signed-in reader's role and remembered cancer as chips: the role reopens the welcome step, the cancer opens its page. */
+/** Where "Change who you are" sends the reader: the welcome page, coming back here after. */
+function changeHref(): string {
+  if (typeof window === "undefined") return welcomeHref("/");
+  return welcomeHref(window.location.pathname + window.location.search);
+}
+
+/** Press one of the header toggles (data-onco-toggle) from a chip in the menu: the region list, the layer dialog or the theme cycle. */
+function pressToggle(name: "region" | "layer" | "theme") {
+  const el = document.querySelector<HTMLElement>(`[data-onco-toggle="${name}"]`);
+  if (!el) return;
+  el.focus();
+  el.click();
+}
+
+/**
+ * The signed-in header pill: initial circle with a green dot, first name and, when stored, the role as a quiet chip.
+ * Exported without state so the header test can render it with a session (a session never exists on the server).
+ */
+export function SignedInPill({ session, role, open, onToggle }: { session: Session; role?: AccountRole; open: boolean; onToggle: () => void }) {
+  const { t } = useT();
+  const first = displayName(session.user);
+  const roleLabel = role ? t(`account.welcome.role.${role}`) : undefined;
+  return (
+    <button type="button" onClick={onToggle} aria-haspopup="menu" aria-expanded={open} title={t("account.hello", { email: session.user.email })} aria-label={t("account.welcome.menu", { email: session.user.email })} className="ctl gap-2 px-1.5 sm:px-2.5" data-testid="signed-in-pill">
+      <span aria-hidden className="relative inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent text-white text-[11px] font-semibold">
+        {(first[0] ?? session.user.email[0] ?? "?").toUpperCase()}
+        <span className="absolute -bottom-0.5 -end-0.5 h-2 w-2 rounded-full bg-emerald-500 ring-2 ring-card" />
+      </span>
+      <span className="hidden sm:inline text-[13px] font-medium leading-none">{first}</span>
+      {roleLabel && <span aria-hidden className="hidden sm:inline text-muted">·</span>}
+      {roleLabel && role && <span className="chip hidden sm:inline-flex border border-accent/40 bg-accent-soft text-accent"><RoleIcon role={role} className="h-3 w-3" />{roleLabel}</span>}
+    </button>
+  );
+}
+
+/** The signed-in reader's role and remembered cancer as chips: the role opens the welcome page, the cancer opens its page. */
 function ProfileChips({ session, className = "" }: { session: Session; className?: string }) {
   const { t } = useT();
   const [account] = useAccountProfile(session.user.id);
@@ -60,6 +101,28 @@ function ProfileChips({ session, className = "" }: { session: Session; className
   );
 }
 
+/** Country, data view, language and theme as chips reading the toggles' own stores; each presses the matching header toggle. */
+function PreferenceChips({ onPress }: { onPress?: () => void }) {
+  const { t } = useT();
+  const { region } = useRegion();
+  const [layer] = useLayer();
+  const [theme] = useTheme();
+  const chip = "chip border border-border bg-card hover:bg-foreground/5";
+  const press = (name: "region" | "layer" | "theme") => { onPress?.(); pressToggle(name); };
+  const regionLabel = region ? t(`country.${region}` as UiKey) : t("region.global");
+  const langLabel = LANGS.find((l) => l.code === layer.lang)?.native ?? layer.lang;
+  const themeLabel = t(`theme.${theme}` as UiKey);
+  const levelLabel = t(`level.${layer.level}` as UiKey);
+  return (
+    <span className="flex flex-wrap items-center gap-1.5" data-testid="preference-chips">
+      <button type="button" onClick={() => press("region")} className={chip} title={t("account.welcome.prefChip", { name: t("account.welcome.pref.region"), value: regionLabel })}>{region ? <span aria-hidden className="text-[11px] leading-none">{REGION_META[region].flag}</span> : <GlobeGlyph />}{regionLabel}</button>
+      <button type="button" onClick={() => press("layer")} className={chip} title={t("account.welcome.prefChip", { name: t("account.welcome.pref.view"), value: levelLabel })}><LevelIcon level={layer.level} className="h-3 w-3" />{levelLabel}</button>
+      <button type="button" onClick={() => press("layer")} className={chip} lang={layer.lang} title={t("account.welcome.prefChip", { name: t("account.welcome.pref.language"), value: langLabel })}><span aria-hidden className="text-[10px] font-semibold leading-none">Aa</span>{langLabel}</button>
+      <button type="button" onClick={() => press("theme")} className={chip} title={t("account.welcome.prefChip", { name: t("account.welcome.pref.theme"), value: themeLabel })}><span className="inline-flex [&>svg]:h-3 [&>svg]:w-3">{THEME_ICON[theme]}</span>{themeLabel}</button>
+    </span>
+  );
+}
+
 export function AccountMenu({ inline = false, className = "" }: { inline?: boolean; className?: string }) {
   const { t } = useT();
   const [session, setSession] = useState<Session | null>(null);
@@ -71,6 +134,7 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
   const dialog = useRef<HTMLDialogElement>(null);
   const wrap = useRef<HTMLSpanElement>(null);
   const [, updateProfile] = useProfile();
+  const [account] = useAccountProfile(session?.user.id);
 
   useEffect(() => {
     if (!accountEnabled) return;
@@ -111,7 +175,7 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
     setState("sending");
     setState((await sendMagicLink(email.trim())) ? "sent" : "error");
   };
-  /** Forget the role (per-user store) and the remembered cancer and reading mode (browser profile). Nothing to undo server-side: none of it left the browser. */
+  /** Forget the role and preferences (per-user store) and the remembered cancer and reading mode (browser profile). Nothing to undo server-side: none of it left the browser. */
   const clearChoices = () => {
     if (session) clearAccountProfile(session.user.id);
     updateProfile({ cancerId: undefined, mode: "patient" });
@@ -161,6 +225,7 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
             </div>
             <div className="flex flex-wrap items-center gap-1.5">
               <ProfileChips session={session} />
+              <PreferenceChips />
               <Link href={changeHref()} className="chip border border-border bg-card hover:bg-foreground/5" title={t("account.welcome.change")}><SwapGlyph className="h-3 w-3" />{t("account.welcome.change")}</Link>
               <button type="button" onClick={clearChoices} className="chip border border-border bg-card hover:bg-foreground/5 text-muted" title={t("account.welcome.clearHint")}><EraseGlyph className="h-3 w-3" />{t("account.welcome.clear")}</button>
             </div>
@@ -181,16 +246,15 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
     <span ref={wrap} className={`relative ${className}`}>
       {session ? (
         <>
-          <button type="button" onClick={() => setMenu((m) => !m)} aria-haspopup="menu" aria-expanded={menu} title={t("account.welcome.menu", { email: session.user.email })} aria-label={t("account.welcome.menu", { email: session.user.email })} className="ctl ctl-icon">
-            <span aria-hidden className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-accent text-white text-[11px] font-semibold">{(session.user.email[0] ?? "?").toUpperCase()}</span>
-          </button>
+          <SignedInPill session={session} role={account.role} open={menu} onToggle={() => setMenu((m) => !m)} />
           {menu && (
-            <div role="menu" aria-label={t("account.welcome.menu", { email: session.user.email })} className="absolute end-0 top-full z-50 mt-2 w-72 max-w-[calc(100vw-1rem)] space-y-3 rounded-xl border border-border bg-card p-3 text-sm shadow-lg">
+            <div role="menu" aria-label={t("account.welcome.menu", { email: session.user.email })} className="absolute end-0 top-full z-50 mt-2 w-80 max-w-[calc(100vw-1rem)] space-y-3 rounded-xl border border-border bg-card p-3 text-sm shadow-lg">
               <div className="min-w-0">
                 <div className="truncate font-medium">{session.user.name ?? session.user.email}</div>
                 {session.user.name && <div className="truncate text-xs text-muted">{session.user.email}</div>}
               </div>
               <ProfileChips session={session} />
+              <PreferenceChips onPress={() => setMenu(false)} />
               <div className="flex flex-col border-t border-border pt-2">
                 <Link role="menuitem" href={changeHref()} onClick={() => setMenu(false)} className={item} title={t("account.welcome.change")}><SwapGlyph className="h-4 w-4 text-muted" />{t("account.welcome.change")}</Link>
                 <button role="menuitem" type="button" onClick={clearChoices} className={item} title={t("account.welcome.clearHint")}><EraseGlyph className="h-4 w-4 text-muted" />{t("account.welcome.clear")}</button>

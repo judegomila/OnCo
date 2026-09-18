@@ -33,7 +33,8 @@ export const LEVELS: Array<{ code: Level; label: string; blurb: string }> = [
 ];
 
 export const LAYER_KEY = "onco.layer";
-const EVENT = "onco:layer";
+export const LAYER_EVENT = "onco:layer";
+const EVENT = LAYER_EVENT;
 const DEFAULT: Layer = { level: "technical", lang: "en" };
 
 export function readLayer(): Layer {

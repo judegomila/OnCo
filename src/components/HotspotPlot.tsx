@@ -43,7 +43,7 @@ export function HotspotPlot({ map, compact = false }: { map: HotspotMap; compact
             return (
               <g key={d.name}>
                 <rect x={x0} y={TRACK_Y} width={Math.max(2, x1 - x0)} height={TRACK_H} rx={3} fill={DOMAIN_TONES[i % DOMAIN_TONES.length]} stroke="rgba(0,0,0,0.15)" strokeWidth={0.5}>
-                  <title>{d.name} ({d.start} to {d.end})</title>
+                  <title>{`${d.name} (${d.start} to ${d.end})`}</title>
                 </rect>
                 {x1 - x0 > 70 && <text x={(x0 + x1) / 2} y={TRACK_Y + TRACK_H / 2 + 4} textAnchor="middle" fontSize={10} fill="#1f2937" className="select-none">{d.name.length > (x1 - x0) / 6 ? d.name.slice(0, Math.max(3, Math.floor((x1 - x0) / 6) - 1)) + "…" : d.name}</text>}
               </g>
@@ -66,7 +66,7 @@ export function HotspotPlot({ map, compact = false }: { map: HotspotMap; compact
                 {h.end && <rect x={px} y={TRACK_Y - 3} width={spanW} height={TRACK_H + 6} fill={k.color} opacity={0.25} rx={2} />}
                 <line x1={h.end ? px + spanW / 2 : px} x2={h.end ? px + spanW / 2 : px} y1={hy + 9} y2={TRACK_Y} stroke={k.color} strokeWidth={1.5} />
                 <circle cx={h.end ? px + spanW / 2 : px} cy={hy} r={h.drugs.length ? 9 : 6} fill={k.color} stroke="white" strokeWidth={1.5}>
-                  <title>{h.label}{h.frequency ? ` · ${h.frequency}` : ""}</title>
+                  <title>{`${h.label}${h.frequency ? ` · ${h.frequency}` : ""}`}</title>
                 </circle>
                 <text x={h.end ? px + spanW / 2 : px} y={hy - 13} textAnchor="middle" fontSize={11} fontWeight={600} className="fill-foreground">{h.label.length > 22 ? h.label.slice(0, 20) + "…" : h.label}</text>
               </g>

@@ -106,7 +106,7 @@ export function Sparkline({ cancerId, iso3, width = 64, height = 18 }: { cancerI
   const label = pts.map((p) => `${p.year}: ${fmt(p.incAsr)}`).join(", ");
   return (
     <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} role="img" aria-label={`Incidence ASR by edition: ${label}`} className="inline-block align-middle">
-      <title>{label}{pts.length === 1 ? " (one edition on file)" : ""}</title>
+      <title>{`${label}${pts.length === 1 ? " (one edition on file)" : ""}`}</title>
       {pts.length > 1 && <polyline points={pts.map((p) => `${x(p.year)},${y(p.incAsr as number)}`).join(" ")} fill="none" stroke="#b91c1c" strokeWidth={1.5} />}
       {pts.map((p) => <circle key={p.year} cx={x(p.year)} cy={y(p.incAsr as number)} r={2.2} fill="#b91c1c" />)}
     </svg>

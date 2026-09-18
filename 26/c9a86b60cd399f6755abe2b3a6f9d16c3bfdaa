@@ -1,0 +1,19 @@
+src/data/sarcoma-bone-subtypes.ts
+  s_0beac9cb5d78fd::t_ca1fd51e9ca375 270-278
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "26c9a86b60cd399f6755abe2b3a6f9d16c3bfdaa",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

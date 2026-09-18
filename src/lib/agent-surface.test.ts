@@ -10,6 +10,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { describe, it, expect } from "vitest";
 import { graph } from "./graph";
 import { KINDS, KIND_META, routeFor, type Entity, type Kind } from "./schema";
+import { wikidataIds } from "@/data/wikidata-ids";
 import { MACHINE, TITLE_MAX, entityMeta, entityTitle, machineRoutes } from "./seo";
 import { JsonLd } from "@/components/JsonLd";
 import { MachineLinks } from "@/components/MachineLinks";
@@ -97,6 +98,14 @@ describe("record page agent surface", () => {
     expect(withQid).toBeDefined();
     const [node] = jsonLdBlocks(renderToStaticMarkup(createElement(JsonLd, { e: withQid! })));
     expect(node.sameAs).toContain("http://www.wikidata.org/entity/Q23901483");
+  });
+
+  it("an institution with a Wikipedia link carries both its article and its Wikidata item in sameAs", () => {
+    const inst = g.kind("institution").find((e) => e.wikipedia && wikidataIds[e.id]);
+    expect(inst).toBeDefined();
+    const [node] = jsonLdBlocks(renderToStaticMarkup(createElement(JsonLd, { e: inst! })));
+    expect(node.sameAs).toContain(inst!.wikipedia);
+    expect(node.sameAs).toContain(`http://www.wikidata.org/entity/${wikidataIds[inst!.id]}`);
   });
 });
 

@@ -29,6 +29,7 @@ import { supporting } from "./supporting";
 import { gapFill } from "./gap-fill";
 import { keyPapers } from "./key-papers";
 import { papersSubtypesWave } from "./papers-subtypes-wave";
+import { papersRareWave } from "./papers-rare-wave";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
@@ -152,6 +153,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...gapFill,
   ...keyPapers,
   ...papersSubtypesWave,
+  ...papersRareWave,
   ...nutrition,
   ...adcChemistry,
   ...journals,

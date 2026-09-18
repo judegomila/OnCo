@@ -61,6 +61,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["cthpv-dna", "hpv-vaccine", "hpv-testing"],
     openProblems: ["Most HSIL never progresses, and no marker yet says which lesions to treat and which to watch.", "High-resolution anoscopy is scarce outside specialist centres.", "Recurrence after ablation is common and the best retreatment strategy is untested.", "Whether screening helps people at high risk who do not have HIV is unproven."],
+    keyPapers: ["paper-anchor-anal-hsil-treatment-nejm-2022", "paper-ians-anal-cancer-screening-guidelines-ijc-2024"],
     drugs: ["fluorouracil", "gardasil-9"], trials: [], technologies: ["hpv-testing", "precancer-ablation", "hpv-vaccine", "cthpv-dna"], terms: ["hpv-p16", "cin-hsil", "hpv-status"], targets: [],
     links: [{ label: "ANCHOR (NEJM 2022)", url: "https://doi.org/10.1056/NEJMoa2201048" }, { label: "IANS screening guidelines 2024", url: "https://doi.org/10.1002/ijc.34850" }, { label: "Wikipedia", url: W("Anal_cancer") }] },
 
@@ -89,6 +90,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["cthpv-dna", "nivolumab", "imrt-igrt"],
     openProblems: ["Radiotherapy dose for early and for locally advanced tumours is still being settled in PLATO.", "About a quarter of patients with locally advanced disease relapse and need major surgery.", "Late bowel, sexual and bladder effects of pelvic chemoradiotherapy are common and under-measured.", "Whether adding a PD-1 antibody to chemoradiotherapy improves cure is untested outside EA2165."],
+    keyPapers: ["paper-act-ii-anal-cancer-chemoradiation-lancet-oncol-2013", "paper-esmo-anal-cancer-guideline-ann-oncol-2021"],
     drugs: ["fluorouracil", "mitomycin", "capecitabine", "nivolumab"], trials: ["act-ii"], technologies: ["imrt-igrt", "cytotoxic-chemotherapy", "cthpv-dna", "mri", "pet-ct"], terms: ["hpv-p16", "clinical-complete-response", "chemoradiation"], targets: [],
     links: [{ label: "ACT II (Lancet Oncology 2013)", url: "https://doi.org/10.1016/S1470-2045(13)70086-X" }, { label: "NCCN Anal Carcinoma", url: analG.url }, { label: "Wikipedia", url: W("Anal_cancer") }] },
 
@@ -113,6 +115,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["retifanlimab", "cthpv-dna", "nivolumab", "pembrolizumab"],
     openProblems: ["Median survival remains under two years even with a PD-1 antibody added to chemotherapy.", "No second-line standard exists after chemo-immunotherapy.", "Whether local treatment of oligometastases improves survival has never been randomised.", "HPV-directed cell therapies and vaccines are promising but early."],
+    keyPapers: ["paper-interaact-anal-cancer-carboplatin-paclitaxel-jco-2020", "paper-esmo-anal-cancer-guideline-ann-oncol-2021"],
     drugs: ["carboplatin", "paclitaxel", "retifanlimab", "nivolumab", "pembrolizumab", "fluorouracil"], trials: [], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy", "cthpv-dna", "sbrt"], terms: ["hpv-p16", "re-irradiation"], targets: ["pd1", "pdl1"],
     links: [{ label: "InterAACT (JCO 2020)", url: "https://doi.org/10.1200/JCO.19.03266" }, { label: "POD1UM-303 (Lancet 2025)", url: "https://doi.org/10.1016/S0140-6736(24)02635-7" }, { label: "Wikipedia", url: W("Anal_cancer") }] },
 
@@ -140,7 +143,7 @@ export const rareSubtypes: CancerInput[] = [
       { year: 2022, title: "WHO classification separates HPV-associated and HPV-independent penile squamous cell carcinoma", refs: ["hpv-p16"] },
       { year: 2023, title: "EAU-ASCO collaborative guideline sets organ preservation and sentinel node biopsy as standards", refs: ["sentinel-node", "mohs-surgery"] },
     ],
-    keyPapers: ["paper-who-2022-gu-moch-eur-urol-2022"],
+    keyPapers: ["paper-who-2022-gu-moch-eur-urol-2022", "paper-eau-asco-penile-cancer-guideline-eur-urol-2023"],
     pipeline: ["hpv-vaccine", "nct06465914"],
     openProblems: ["Local recurrence after organ-sparing surgery is common and needs long follow-up.", "Sentinel node biopsy misses some metastases, and the false-negative rate depends on centre experience.", "Whether HPV status should change treatment is unknown.", "Most of the world's patients present late in places without specialist centres."],
     drugs: ["fluorouracil", "gardasil-9"], trials: ["nct06465914"], technologies: ["sentinel-node", "brachytherapy", "hpv-vaccine", "precancer-ablation"], terms: ["hpv-p16", "hpv-status", "mohs-surgery", "lymphadenectomy"], targets: [],
@@ -169,6 +172,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["pembrolizumab", "cemiplimab", "nct03260023"],
     openProblems: ["No randomised trial has ever shown that chemotherapy improves survival in penile cancer.", "Lymphadenectomy causes lymphoedema and wound complications in a large share of patients.", "Distant metastatic disease is rarely controlled for long.", "HPV-positive and HPV-independent tumours may need different systemic strategies but are treated alike."],
+    keyPapers: ["paper-pagliaro-neoadjuvant-tip-penile-cancer-jco-2010", "paper-eau-asco-penile-cancer-guideline-eur-urol-2023"],
     drugs: ["cisplatin", "paclitaxel", "ifosfamide", "fluorouracil", "pembrolizumab", "cemiplimab"], trials: ["nct03260023"], technologies: ["sentinel-node", "robotic-surgery", "cytotoxic-chemotherapy", "checkpoint-inhibitor", "imrt-igrt"], terms: ["lymphadenectomy", "hpv-p16", "hpv-status"], targets: ["pd1"],
     links: [{ label: "Neoadjuvant TIP phase 2 (JCO 2010)", url: "https://doi.org/10.1200/JCO.2010.29.5477" }, { label: "InPACT (ISRCTN)", url: "https://www.isrctn.com/ISRCTN36516280" }, { label: "Wikipedia", url: W("Penile_cancer") }] },
 
@@ -198,6 +202,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["pembrolizumab", "nct05903833", "nct05932212", "nct06075264", "hpv-vaccine"],
     openProblems: ["No treatment yet differs by HPV status despite the difference in behaviour.", "Recurrence of usual-type VIN after treatment is common.", "Checkpoint inhibitors help only a minority in recurrent disease.", "Vulvar cancer is too rare for large randomised trials, so most evidence is borrowed from cervical cancer."],
+    keyPapers: ["paper-groinss-v-sentinel-node-vulvar-cancer-jco-2008", "paper-groinss-v-ii-radiotherapy-vulvar-micrometastases-jco-2021"],
     drugs: ["cisplatin", "carboplatin", "paclitaxel", "bevacizumab", "pembrolizumab", "gardasil-9"], trials: ["nct06075264", "nct04422366", "nct05903833", "nct05932212"], technologies: ["sentinel-node", "imrt-igrt", "checkpoint-inhibitor", "hpv-vaccine", "precancer-ablation"], terms: ["hpv-p16", "cps", "lymphadenectomy", "chemoradiation"], targets: ["pd1"],
     links: [{ label: "GROINSS-V II (JCO 2021)", url: "https://doi.org/10.1200/JCO.21.00006" }, { label: "NCCN Vulvar Cancer", url: vulvarG.url }, { label: "Wikipedia", url: W("Vulvar_cancer") }] },
 
@@ -224,6 +229,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["pembrolizumab", "cemiplimab", "nct05903833", "nct05932212"],
     openProblems: ["Differentiated VIN is hard to recognise and is often diagnosed only next to an invasive cancer.", "Whether wider margins or adjuvant radiotherapy prevent the frequent local recurrences has not been tested prospectively.", "p53-mutant tumours are relatively radioresistant and have no targeted therapy.", "Older patients are under-represented in the few trials that exist."],
+    keyPapers: ["paper-groinss-v-ii-radiotherapy-vulvar-micrometastases-jco-2021", "paper-groinss-v-sentinel-node-vulvar-cancer-jco-2008"],
     drugs: ["cisplatin", "carboplatin", "paclitaxel", "bevacizumab", "pembrolizumab", "cemiplimab"], trials: ["nct05903833", "nct05932212"], technologies: ["sentinel-node", "imrt-igrt", "checkpoint-inhibitor", "precancer-ablation"], terms: ["hpv-p16", "cps", "lymphadenectomy", "chemoradiation"], targets: ["tp53", "pd1"],
     links: [{ label: "NCCN Vulvar Cancer", url: vulvarG.url }, { label: "Wikipedia", url: W("Vulvar_cancer") }] },
 
@@ -252,6 +258,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["pembrolizumab", "hpv-vaccine", "nct07572396"],
     openProblems: ["No randomised trial has ever been conducted in vaginal cancer.", "Radiotherapy causes vaginal stenosis and sexual morbidity that are poorly addressed.", "The role of chemotherapy with radiotherapy is assumed, not proven.", "Tumours at the vault after hysterectomy are hard to distinguish from recurrent cervical cancer."],
+    keyPapers: ["paper-figo-cancer-report-cancer-of-the-vagina-ijgo-2018", "paper-figo-annual-report-carcinoma-of-the-vagina-ijgo-2006"],
     drugs: ["cisplatin", "carboplatin", "paclitaxel", "pembrolizumab", "fluorouracil", "gardasil-9"], trials: ["nct04422366", "nct05027776", "nct07572396", "keynote-826"], technologies: ["brachytherapy", "imrt-igrt", "checkpoint-inhibitor", "hpv-vaccine", "hpv-testing", "colposcopy-excision", "precancer-ablation"], terms: ["hpv-p16", "hpv-status", "chemoradiation", "cin-hsil", "lymphadenectomy"], targets: ["pd1", "pdl1"],
     links: [{ label: "NCCN Vaginal Cancer", url: vaginalG.url }, { label: "Wikipedia", url: W("Vaginal_cancer") }] },
 
@@ -277,6 +284,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["pembrolizumab"],
     openProblems: ["No trial-based treatment exists; everything is extrapolated from cervical and ovarian cancer.", "The natural history of late recurrence in clear cell tumours means decades of follow-up.", "DES-exposed women are now in their fifties to seventies and the shape of their late risk is uncertain.", "Sporadic adenocarcinomas are so rare that their biology is barely studied."],
+    keyPapers: ["paper-herbst-diethylstilbestrol-vaginal-adenocarcinoma-nejm-1971", "paper-figo-cancer-report-cancer-of-the-vagina-ijgo-2018"],
     drugs: ["cisplatin", "carboplatin", "paclitaxel", "pembrolizumab"], trials: [], technologies: ["brachytherapy", "imrt-igrt", "histopathology-ihc", "fertility-preservation", "colposcopy-excision", "mri", "pet-ct"], terms: ["hpv-status", "chemoradiation", "lymphadenectomy"], targets: [],
     links: [{ label: "Herbst 1971 (NEJM)", url: "https://doi.org/10.1056/NEJM197104222841604" }, { label: "Wikipedia", url: W("Vaginal_cancer") }] },
 
@@ -307,6 +315,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["everolimus", "sunitinib", "lenvatinib", "nct05683886", "nct07598955", "kc1036", "eb-car30-nk"],
     openProblems: ["Randomised trials are almost absent; postoperative radiotherapy for stage II disease rests on registry data.", "No systemic therapy is approved specifically for thymoma.", "Autoimmune toxicity keeps checkpoint inhibitors off the table for most patients.", "Late recurrence a decade or more after surgery makes trial endpoints slow."],
+    keyPapers: ["paper-esmo-thymic-epithelial-tumours-guideline-ann-oncol-2015", "paper-who-2021-thymus-mediastinum-classification-marx-jto-2022", "paper-masaoka-thymoma-clinical-staging-cancer-1981"],
     drugs: ["cisplatin", "doxorubicin", "cyclophosphamide", "carboplatin", "paclitaxel", "octreotide-lanreotide", "everolimus", "sunitinib", "lenvatinib"], trials: ["nct05683886", "nct07598955"], technologies: ["robotic-surgery", "imrt-igrt", "proton-therapy", "kinase-inhibitors", "ct", "mri"], terms: ["irae", "staging-systems"], targets: ["vegf"],
     links: [{ label: "NCCN Thymomas and Thymic Carcinomas", url: thymicG.url }, { label: "ESMO thymic epithelial tumours guideline 2015", url: "https://doi.org/10.1093/annonc/mdv277" }, { label: "Wikipedia", url: W("Thymoma") }] },
 
@@ -335,6 +344,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["lenvatinib", "sunitinib", "pembrolizumab", "kc1036", "eb-car30-nk", "nct07324629", "nct05683886"],
     openProblems: ["No randomised trial has compared any two regimens in thymic carcinoma.", "The sequence of kinase inhibitors and immunotherapy is unstudied.", "Predicting which patients will develop myocarditis on PD-1 antibodies is not yet possible.", "Long-term survival in metastatic disease remains poor."],
+    keyPapers: ["paper-remora-lenvatinib-thymic-carcinoma-lancet-oncol-2020", "paper-giaccone-pembrolizumab-thymic-carcinoma-lancet-oncol-2018", "paper-esmo-thymic-epithelial-tumours-guideline-ann-oncol-2015", "paper-who-2021-thymus-mediastinum-classification-marx-jto-2022"],
     drugs: ["carboplatin", "paclitaxel", "cisplatin", "doxorubicin", "cyclophosphamide", "sunitinib", "lenvatinib", "pembrolizumab", "everolimus", "imatinib"], trials: ["nct05683886", "nct07324629", "nct07598955"], technologies: ["robotic-surgery", "imrt-igrt", "proton-therapy", "kinase-inhibitors", "checkpoint-inhibitor", "cytotoxic-chemotherapy"], terms: ["irae", "tmb", "staging-systems"], targets: ["kit", "pd1", "vegf"],
     links: [{ label: "REMORA lenvatinib (Lancet Oncology 2020)", url: "https://doi.org/10.1016/S1470-2045(20)30162-5" }, { label: "Pembrolizumab in thymic carcinoma (Lancet Oncology 2018)", url: "https://doi.org/10.1016/S1470-2045(18)30062-7" }, { label: "Wikipedia", url: W("Thymic_carcinoma") }] },
 
@@ -366,6 +376,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["mitotane", "cisplatin", "etoposide"],
     openProblems: ["Whether adjuvant chemotherapy adds to mitotane in high-risk disease awaits ADIUVO-2.", "Mitotane is slow to reach therapeutic levels and causes neurological and gastrointestinal toxicity in many patients.", "Adrenal incidentalomas are common and distinguishing early carcinoma from adenoma on imaging is imperfect.", "Surgical expertise is concentrated in few centres."],
+    keyPapers: ["paper-adiuvo-adjuvant-mitotane-acc-lancet-diabetes-endocrinol-2023", "paper-ese-ensat-adrenocortical-carcinoma-guideline-eur-j-endocrinol-2018"],
     drugs: ["mitotane", "cisplatin", "etoposide"], trials: [], technologies: ["robotic-surgery", "imrt-igrt", "germline-testing", "thermal-ablation", "sbrt", "ct", "mri", "fdg-pet"], terms: ["adrenalectomy", "germline-vs-somatic", "lymphadenectomy", "staging-systems"], targets: ["tp53"],
     links: [{ label: "ADIUVO (Lancet Diabetes and Endocrinology 2023)", url: "https://doi.org/10.1016/S2213-8587(23)00193-6" }, { label: "ESE/ENSAT guideline 2018", url: accG.url }, { label: "Wikipedia", url: W("Adrenocortical_carcinoma") }] },
 
@@ -393,6 +404,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["cabozantinib", "pembrolizumab", "relacorilant", "mitotane"],
     openProblems: ["No second-line therapy has randomised evidence.", "Most tumours are immunologically cold and cortisol excess worsens that.", "Mitotane's narrow therapeutic window and slow onset limit it in fast disease.", "The rarity of the disease has meant only one completed phase 3 trial in fifty years."],
+    keyPapers: ["paper-firm-act-edp-mitotane-adrenocortical-carcinoma-nejm-2012", "paper-ese-ensat-adrenocortical-carcinoma-guideline-eur-j-endocrinol-2018"],
     drugs: ["mitotane", "etoposide", "doxorubicin", "cisplatin", "gemcitabine", "capecitabine", "cabozantinib", "pembrolizumab", "relacorilant"], trials: [], technologies: ["cytotoxic-chemotherapy", "checkpoint-inhibitor", "kinase-inhibitors", "thermal-ablation", "sbrt"], terms: ["adrenalectomy", "germline-vs-somatic", "msi", "tmb"], targets: ["tp53", "pd1", "vegf"],
     links: [{ label: "FIRM-ACT (NEJM 2012)", url: "https://doi.org/10.1056/NEJMoa1200966" }, { label: "ESE/ENSAT guideline 2018", url: accG.url }, { label: "Wikipedia", url: W("Adrenocortical_carcinoma") }] },
 
@@ -422,6 +434,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["hipec", "hipec-pipac-devices"],
     openProblems: ["Cytoreduction with HIPEC has never been compared with cytoreduction alone in this disease.", "Recurrence after complete cytoreduction is common and criteria for reoperation vary.", "No effective systemic therapy exists for low-grade disease.", "Patients are often diagnosed late after years of abdominal distension."],
+    keyPapers: ["paper-psogi-pseudomyxoma-appendiceal-classification-am-j-surg-pathol-2016", "paper-who-2019-digestive-system-tumours-nagtegaal-histopathology-2020"],
     drugs: ["mitomycin", "folfox", "capox"], trials: [], technologies: ["hipec", "hipec-pipac-devices", "ct", "mri"], terms: ["hipec-procedure", "peritoneal-metastasis", "debulking", "colectomy", "peritoneum"], targets: ["kras"],
     links: [{ label: "PMP registry (JCO 2012)", url: "https://doi.org/10.1200/JCO.2011.39.7166" }, { label: "PSOGI classification (Am J Surg Pathol 2016)", url: "https://doi.org/10.1097/PAS.0000000000000535" }, { label: "Wikipedia", url: W("Pseudomyxoma_peritonei") }] },
 
@@ -448,6 +461,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["folfox", "hipec", "pembrolizumab"],
     openProblems: ["No adjuvant chemotherapy trial has ever been run in appendiceal adenocarcinoma.", "Which patients with peritoneal disease benefit from HIPEC is defined only by retrospective series.", "Signet ring cell carcinoma has no effective therapy.", "Mucinous tumours respond poorly to standard chemotherapy and have no targeted option."],
+    keyPapers: ["paper-chicago-consensus-appendiceal-neoplasms-cancer-2020", "paper-who-2019-digestive-system-tumours-nagtegaal-histopathology-2020", "paper-psogi-pseudomyxoma-appendiceal-classification-am-j-surg-pathol-2016"],
     drugs: ["folfox", "capox", "folfiri", "bevacizumab", "mitomycin", "pembrolizumab"], trials: [], technologies: ["hipec", "cytotoxic-chemotherapy", "ct", "mri", "checkpoint-inhibitor"], terms: ["hipec-procedure", "peritoneal-metastasis", "colectomy", "lymphadenectomy", "msi"], targets: ["kras", "tp53"],
     links: [{ label: "NCCN Colon Cancer (appendiceal adenocarcinoma)", url: appendixG.url }, { label: "Wikipedia", url: W("Appendix_cancer") }] },
 
@@ -473,6 +487,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["folfox", "hipec"],
     openProblems: ["No prospective trial has ever been conducted; all treatment is extrapolated.", "The benefit of adjuvant chemotherapy in grade 1 node-negative disease is unknown.", "Whether HIPEC helps in goblet cell adenocarcinoma specifically is defined only by small series.", "Diagnosis is delayed by the absence of a mass and by old terminology."],
+    keyPapers: ["paper-who-2019-digestive-system-tumours-nagtegaal-histopathology-2020", "paper-chicago-consensus-appendiceal-neoplasms-cancer-2020"],
     drugs: ["folfox", "capox", "folfiri"], trials: [], technologies: ["hipec", "histopathology-ihc", "ct", "cytotoxic-chemotherapy"], terms: ["colectomy", "lymphadenectomy", "hipec-procedure", "peritoneal-metastasis", "endoscopy"], targets: [],
     links: [{ label: "WHO Classification of Tumours: Digestive System (2019)", url: "https://publications.iarc.who.int/579" }, { label: "Wikipedia", url: W("Goblet_cell_carcinoid") }] },
 
@@ -502,6 +517,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["capox", "folfox", "signatera"],
     openProblems: ["Whether adjuvant chemotherapy improves survival awaits the full BALLAD results.", "Diagnosis is often delayed by months because the small bowel is hard to image.", "The optimal extent of lymphadenectomy is undefined.", "Patients with Crohn's disease are hard to screen."],
+    keyPapers: ["paper-overman-capox-small-bowel-adenocarcinoma-jco-2009", "paper-who-2019-digestive-system-tumours-nagtegaal-histopathology-2020"],
     drugs: ["capox", "folfox"], trials: [], technologies: ["endoscopy", "ct", "germline-testing", "cytotoxic-chemotherapy", "mri"], terms: ["whipple", "lymphadenectomy", "msi", "lynch-syndrome", "hereditary-cancer-syndromes", "colectomy"], targets: ["kras", "her2"],
     links: [{ label: "NCCN Small Bowel Adenocarcinoma", url: sbaG.url }, { label: "BALLAD (NCT02502370)", url: "https://clinicaltrials.gov/study/NCT02502370" }, { label: "Wikipedia", url: W("Small_intestine_cancer") }] },
 
@@ -528,6 +544,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["pembrolizumab", "trastuzumab-deruxtecan", "signatera"],
     openProblems: ["No randomised phase 3 trial has ever been completed in advanced small bowel adenocarcinoma.", "Mismatch-repair-proficient tumours have no effective immunotherapy.", "Anti-EGFR and other colorectal targeted drugs do not translate.", "Rarity makes trials slow and most evidence is retrospective."],
+    keyPapers: ["paper-overman-capox-small-bowel-adenocarcinoma-jco-2009", "paper-zebra-pembrolizumab-small-bowel-adenocarcinoma-ccr-2021"],
     drugs: ["capox", "folfox", "folfiri", "bevacizumab", "paclitaxel", "pembrolizumab", "nivolumab", "trastuzumab-deruxtecan"], trials: [], technologies: ["cytotoxic-chemotherapy", "checkpoint-inhibitor", "cgp", "hipec"], terms: ["msi", "tumour-agnostic", "peritoneal-metastasis"], targets: ["her2", "kras", "pd1"],
     links: [{ label: "CAPOX phase 2 in small bowel adenocarcinoma (JCO 2009)", url: "https://doi.org/10.1200/JCO.2008.19.7145" }, { label: "NCCN Small Bowel Adenocarcinoma", url: sbaG.url }, { label: "Wikipedia", url: W("Small_intestine_cancer") }] },
 
@@ -560,6 +577,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["cgp", "methylation-profiling", "liquid-biopsy"],
     openProblems: ["Some favourable subsets rest on small series decades old.", "Whether a tissue-of-origin classifier should ever override the clinical picture is unsettled.", "Patients outside specialist centres are often given empirical chemotherapy without the subset review.", "Biopsy material is frequently too small for the full immunohistochemistry panel and sequencing."],
+    keyPapers: ["paper-esmo-cancer-of-unknown-primary-guideline-ann-oncol-2023", "paper-hayashi-site-specific-vs-empirical-chemotherapy-cup-jco-2019"],
     drugs: ["carboplatin", "paclitaxel", "cisplatin", "etoposide", "platinum-etoposide", "octreotide-lanreotide", "lutathera"], trials: [], technologies: ["histopathology-ihc", "cgp", "methylation-profiling", "pet-ct", "ct", "imrt-igrt", "sbrt", "germ-cell-tumour-markers"], terms: ["ihc", "tumour-markers", "primary-tumour", "hpv-p16", "chemoradiation", "lymphadenectomy", "debulking"], targets: [],
     links: [{ label: "ESMO CUP guideline 2023", url: cupG.url }, { label: "Wikipedia", url: W("Cancer_of_unknown_primary_origin") }] },
 
@@ -587,6 +605,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["cupisco", "nct07761429", "cgp", "liquid-biopsy", "methylation-profiling", "pembrolizumab"],
     openProblems: ["Median survival remains under a year for most patients.", "Only a third have an actionable alteration and the gain from targeting it is modest.", "Patients too unwell for CUPISCO-style induction have no evidence-based option.", "The disease is under-studied because it belongs to no organ-based specialty."],
+    keyPapers: ["paper-cupisco-molecularly-guided-therapy-cup-lancet-2024", "paper-esmo-cancer-of-unknown-primary-guideline-ann-oncol-2023", "paper-hayashi-site-specific-vs-empirical-chemotherapy-cup-jco-2019"],
     drugs: ["carboplatin", "paclitaxel", "gemcitabine-cisplatin", "pembrolizumab", "nivolumab"], trials: ["cupisco", "nct07761429"], technologies: ["cgp", "liquid-biopsy", "methylation-profiling", "histopathology-ihc", "pet-ct", "platinum", "checkpoint-inhibitor"], terms: ["tumour-agnostic", "tmb", "msi", "ihc", "primary-tumour"], targets: ["her2", "braf", "ntrk", "pd1"],
     links: [{ label: "CUPISCO (Lancet 2024)", url: "https://doi.org/10.1016/S0140-6736(24)00814-6" }, { label: "ESMO CUP guideline 2023", url: cupG.url }, { label: "Wikipedia", url: W("Cancer_of_unknown_primary_origin") }] },
 
@@ -617,7 +636,7 @@ export const rareSubtypes: CancerInput[] = [
       { year: 2019, title: "Cobimetinib phase 2 shows responses in most patients regardless of mutation", refs: ["cobimetinib"] },
       { year: 2022, title: "Cobimetinib approved for histiocytic neoplasms in the United States", refs: ["cobimetinib"] },
     ],
-    keyPapers: ["paper-who-2022-myeloid-khoury-leukemia-2022"],
+    keyPapers: ["paper-who-2022-myeloid-khoury-leukemia-2022", "paper-ve-basket-vemurafenib-erdheim-chester-lch-jama-oncol-2018", "paper-erdheim-chester-disease-consensus-recommendations-blood-2020", "paper-emile-revised-classification-of-histiocytoses-blood-2016"],
     pipeline: ["cobimetinib", "vemurafenib", "dabrafenib-trametinib"],
     openProblems: ["Kinase inhibitors are usually needed for life and relapse follows their withdrawal.", "Long-term cardiac, skin and secondary-cancer effects of indefinite BRAF and MEK inhibition are unknown.", "Established fibrosis and neurological damage do not reverse.", "Diagnosis is still delayed by years because the disease is unfamiliar."],
     drugs: ["vemurafenib", "cobimetinib", "dabrafenib-trametinib", "interferon-alfa", "cladribine", "methotrexate"], trials: [], technologies: ["kinase-inhibitors", "fdg-pet", "liquid-biopsy", "cgp", "mri", "active-surveillance"], terms: ["braf-v600-mutation", "driver-mutation", "ctdna", "retroperitoneum"], targets: ["braf", "pik3ca"],
@@ -646,7 +665,7 @@ export const rareSubtypes: CancerInput[] = [
       { year: 2018, title: "First consensus recommendations for diagnosis and treatment (Blood)" },
       { year: 2022, title: "Cobimetinib approved for histiocytic neoplasms; WHO lists Rosai-Dorfman disease among histiocytic neoplasms", refs: ["cobimetinib"] },
     ],
-    keyPapers: ["paper-who-2022-myeloid-khoury-leukemia-2022"],
+    keyPapers: ["paper-who-2022-myeloid-khoury-leukemia-2022", "paper-rosai-dorfman-destombes-consensus-recommendations-blood-2018", "paper-emile-revised-classification-of-histiocytoses-blood-2016"],
     pipeline: ["cobimetinib"],
     openProblems: ["Which patients will regress spontaneously cannot be predicted.", "Two thirds of cases have no identified driver mutation.", "All systemic treatments rest on case series; there has never been a randomised trial.", "Neurological disease can leave permanent deficits despite treatment."],
     drugs: ["cobimetinib", "cladribine", "methotrexate", "rituximab"], trials: [], technologies: ["fdg-pet", "cgp", "mri", "histopathology-ihc", "kinase-inhibitors", "active-surveillance", "imrt-igrt"], terms: ["driver-mutation", "retroperitoneum"], targets: ["braf"],
@@ -679,6 +698,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["dabrafenib-trametinib", "vemurafenib", "cobimetinib"],
     openProblems: ["Which infants with skin-only disease will progress cannot be predicted.", "Whether treating special-site lesions truly prevents neurodegeneration is inferred rather than proven.", "Adults have no trial-based standard.", "Reactivation rates remain high even after twelve months of therapy."],
+    keyPapers: ["paper-lch-iii-therapy-prolongation-multisystem-lch-blood-2013", "paper-badalian-very-braf-mutations-lch-blood-2010", "paper-emile-revised-classification-of-histiocytoses-blood-2016"],
     drugs: ["vinblastine", "cladribine", "vemurafenib", "dabrafenib-trametinib", "cobimetinib"], trials: ["lch-iii"], technologies: ["cytotoxic-chemotherapy", "kinase-inhibitors", "mri", "fdg-pet", "ultrasound", "histopathology-ihc", "active-surveillance"], terms: ["braf-v600-mutation", "late-effects"], targets: ["braf"],
     links: [{ label: "NCI PDQ Langerhans cell histiocytosis", url: lchG.url }, { label: "Wikipedia", url: W("Langerhans_cell_histiocytosis") }] },
 
@@ -707,6 +727,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["dabrafenib-trametinib", "vemurafenib", "lch-iii", "cobimetinib"],
     openProblems: ["Targeted therapy controls but does not cure; how to stop it safely is unknown.", "Neurodegenerative disease appears years later and has no proven treatment.", "Reactivation affects a third or more of children despite twelve months of therapy.", "Adults are treated by extrapolation from paediatric protocols."],
+    keyPapers: ["paper-lch-iii-therapy-prolongation-multisystem-lch-blood-2013", "paper-donadieu-vemurafenib-refractory-multisystem-lch-jco-2019", "paper-badalian-very-braf-mutations-lch-blood-2010"],
     drugs: ["vinblastine", "cladribine", "vemurafenib", "dabrafenib-trametinib", "cobimetinib"], trials: ["lch-iii"], technologies: ["cytotoxic-chemotherapy", "kinase-inhibitors", "allogeneic-hsct", "mri", "ultrasound", "liquid-biopsy", "survivorship-care-plan"], terms: ["late-effects", "braf-v600-mutation", "cytopenias"], targets: ["braf"],
     links: [{ label: "LCH-III (Blood 2013)", url: "https://doi.org/10.1182/blood-2012-09-455774" }, { label: "NCI PDQ Langerhans cell histiocytosis", url: lchG.url }, { label: "Wikipedia", url: W("Langerhans_cell_histiocytosis") }] },
 
@@ -735,7 +756,7 @@ export const rareSubtypes: CancerInput[] = [
       { year: 2022, title: "WHO and ICC classifications refine indolent, smouldering and bone marrow mastocytosis criteria" },
       { year: 2023, title: "PIONEER published; avapritinib approved for indolent systemic mastocytosis", refs: ["avapritinib", "nct03731260"] },
     ],
-    keyPapers: ["paper-who-2022-myeloid-khoury-leukemia-2022"],
+    keyPapers: ["paper-who-2022-myeloid-khoury-leukemia-2022", "paper-pioneer-avapritinib-indolent-systemic-mastocytosis-nejm-evid-2023"],
     pipeline: ["avapritinib", "elenestinib", "bezuclastinib", "nct04910685", "nct05186753"],
     openProblems: ["Whether avapritinib alters the long-term course or only symptoms is unknown.", "Anaphylaxis remains life-threatening and unpredictable.", "Symptoms correlate poorly with mast cell burden.", "Many patients wait years for a diagnosis."],
     drugs: ["avapritinib", "elenestinib", "bezuclastinib", "cladribine", "interferon-alfa"], trials: ["nct03731260", "nct04910685", "nct05186753"], technologies: ["kinase-inhibitors", "liquid-biopsy", "histopathology-ihc", "flow-cytometry-mrd"], terms: ["driver-mutation", "molecular-response"], targets: ["kit"],
@@ -764,7 +785,7 @@ export const rareSubtypes: CancerInput[] = [
       { year: 2021, title: "Avapritinib approved for advanced systemic mastocytosis after EXPLORER and PATHFINDER", refs: ["avapritinib"] },
       { year: 2022, title: "WHO and ICC classifications update advanced disease criteria", refs: ["kit"] },
     ],
-    keyPapers: ["paper-who-2022-myeloid-khoury-leukemia-2022"],
+    keyPapers: ["paper-who-2022-myeloid-khoury-leukemia-2022", "paper-gotlib-midostaurin-advanced-systemic-mastocytosis-nejm-2016", "paper-pathfinder-avapritinib-advanced-systemic-mastocytosis-nat-med-2021", "paper-explorer-avapritinib-advanced-systemic-mastocytosis-nat-med-2021"],
     pipeline: ["avapritinib", "bezuclastinib", "nct04996875", "allogeneic-hsct"],
     openProblems: ["The associated myeloid neoplasm, not the mast cells, now causes most deaths in SM-AHN.", "Whether KIT inhibitors improve survival has not been shown in a randomised trial.", "Thrombocytopenic patients cannot receive avapritinib safely.", "Transplant outcomes rest on small retrospective series."],
     drugs: ["avapritinib", "midostaurin", "cladribine", "interferon-alfa", "azacitidine", "bezuclastinib"], trials: ["nct04996875"], technologies: ["kinase-inhibitors", "allogeneic-hsct", "cgp", "histopathology-ihc", "liquid-biopsy"], terms: ["cytopenias", "molecular-response", "driver-mutation"], targets: ["kit", "flt3"],
@@ -797,7 +818,7 @@ export const rareSubtypes: CancerInput[] = [
       { year: 2021, title: "HD17: radiotherapy omitted in PET-negative early unfavourable disease", refs: ["pet-adapted-therapy"] },
       { year: 2022, title: "AHOD2131 opens: brentuximab vedotin and nivolumab in early-stage high-risk disease from age 5", refs: ["ahod2131", "brentuximab-vedotin", "nivolumab"] },
     ],
-    keyPapers: ["paper-echelon-1-brentuximab-avd-nejm-2018"],
+    keyPapers: ["paper-echelon-1-brentuximab-avd-nejm-2018", "paper-ghsg-hd10-reduced-intensity-early-hodgkin-nejm-2010", "paper-rapid-pet-directed-therapy-early-hodgkin-nejm-2015"],
     pipeline: ["ahod2131", "nct03407144", "pet-adapted-therapy", "brentuximab-vedotin", "nivolumab", "ctdna-lymphoma-monitoring"],
     openProblems: ["Radiotherapy omission trades a few percent more relapses against late harms that take decades to appear.", "Bleomycin lung toxicity and doxorubicin cardiotoxicity persist even in short regimens.", "Whether PD-1 antibodies can replace chemotherapy in early disease is untested.", "Older patients with early disease tolerate ABVD poorly and have no dedicated standard."],
     drugs: ["doxorubicin", "vinblastine", "dacarbazine", "brentuximab-vedotin", "nivolumab", "pembrolizumab"], trials: ["ahod2131", "nct03407144"], technologies: ["fdg-pet", "pet-adapted-therapy", "imrt-igrt", "proton-therapy", "cardio-oncology", "fertility-preservation", "ctdna-lymphoma-monitoring", "mammography"], terms: ["deauville-score", "reed-sternberg-cell", "lugano-classification", "abvd-beacopp", "late-effects"], targets: ["cd30", "pd1"],
@@ -828,7 +849,7 @@ export const rareSubtypes: CancerInput[] = [
       { year: 2022, title: "ECHELON-1 six-year update shows an overall survival advantage", refs: ["echelon-1"] },
       { year: 2024, title: "SWOG S1826 (nivolumab-AVD) and HD21 (BrECADD) published; nivolumab-AVD becomes the preferred regimen", refs: ["swog-s1826", "hd21", "nivolumab", "brentuximab-vedotin"] },
     ],
-    keyPapers: ["paper-swog-s1826-nivolumab-avd-nejm-2024", "paper-echelon-1-brentuximab-avd-nejm-2018"],
+    keyPapers: ["paper-swog-s1826-nivolumab-avd-nejm-2024", "paper-echelon-1-brentuximab-avd-nejm-2018", "paper-rathl-interim-pet-adapted-abvd-advanced-hodgkin-nejm-2016", "paper-ghsg-hd21-brecadd-vs-ebeacopp-advanced-hodgkin-lancet-2024"],
     pipeline: ["swog-s1826", "hd21", "nct02979522", "pd1-plus-avd-hodgkin", "ctdna-lymphoma-monitoring", "idea-chemo-free-hodgkin"],
     openProblems: ["Long-term outcomes of nivolumab-AVD beyond a few years are not yet known.", "Nivolumab-AVD and BrECADD have never been compared.", "Older patients still have worse survival and more toxicity.", "Whether chemotherapy can be reduced further with PD-1 antibodies is the next trial question."],
     drugs: ["nivolumab", "brentuximab-vedotin", "doxorubicin", "vinblastine", "dacarbazine", "pembrolizumab"], trials: ["echelon-1", "swog-s1826", "hd21", "rathl", "nct02979522"], technologies: ["adc", "checkpoint-inhibitor", "fdg-pet", "pet-adapted-therapy", "imrt-igrt", "cardio-oncology", "fertility-preservation", "ctdna-lymphoma-monitoring"], terms: ["deauville-score", "lugano-classification", "abvd-beacopp", "reed-sternberg-cell", "late-effects"], targets: ["cd30", "pd1", "pdl1"],
@@ -859,6 +880,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["rituximab"],
     openProblems: ["No randomised trial has compared ABVD with rituximab-based chemotherapy.", "Variant growth patterns are hard to reproduce between pathologists.", "Late relapse and transformation over decades make lifelong follow-up necessary.", "The rarity of the disease limits every study to retrospective series."],
+    keyPapers: ["paper-who-2022-lymphoid-alaggio-leukemia-2022"],
     drugs: ["rituximab", "doxorubicin", "vinblastine", "dacarbazine", "cyclophosphamide", "vincristine"], trials: [], technologies: ["imrt-igrt", "fdg-pet", "histopathology-ihc", "autologous-stem-cell-transplant", "active-surveillance"], terms: ["r-chop", "abvd-beacopp", "lymphoma-type", "lugano-classification"], targets: [],
     links: [{ label: "NCCN Hodgkin Lymphoma", url: hlG.url }, { label: "Wikipedia", url: W("Nodular_lymphocyte_predominant_Hodgkin_lymphoma") }] },
 
@@ -887,6 +909,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["nct04268706", "idea-cd30-car-t-hodgkin", "brentuximab-vedotin", "pembrolizumab", "nivolumab", "ctdna-lymphoma-monitoring"],
     openProblems: ["Which patients in complete remission after immunotherapy salvage can safely skip transplantation is unproven.", "Salvage for patients already exposed to brentuximab and PD-1 antibodies in first line is undefined.", "Allogeneic transplant after PD-1 blockade carries a risk of severe graft-versus-host disease.", "Cumulative cardiac and lung toxicity limits options in multiply treated patients."],
+    keyPapers: ["paper-keynote-204-pembrolizumab-vs-brentuximab-rr-hodgkin-lancet-oncol-2021", "paper-aethera-brentuximab-consolidation-after-asct-hodgkin-lancet-2015", "paper-checkmate-205-nivolumab-rr-hodgkin-extended-follow-up-jco-2018"],
     drugs: ["brentuximab-vedotin", "nivolumab", "pembrolizumab", "penpulimab", "gemcitabine", "everolimus"], trials: ["aethera", "keynote-204", "checkmate-205", "nct04268706"], technologies: ["autologous-stem-cell-transplant", "allogeneic-hsct", "adc", "checkpoint-inhibitor", "fdg-pet", "imrt-igrt", "ctdna-lymphoma-monitoring"], terms: ["deauville-score", "reed-sternberg-cell", "late-effects"], targets: ["cd30", "pd1", "pdl1"],
     links: [{ label: "AETHERA (Lancet 2015)", url: "https://doi.org/10.1016/S0140-6736(15)60165-9" }, { label: "KEYNOTE-204 (Lancet Oncology 2021)", url: "https://doi.org/10.1016/S1470-2045(21)00005-X" }, { label: "Wikipedia", url: W("Hodgkin_lymphoma") }] },
 
@@ -918,6 +941,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["avelumab", "pembrolizumab"],
     openProblems: ["Methotrexate and actinomycin D have never been compared head to head with the regimens most centres use.", "Which resistant patients should receive immunotherapy rather than EMA-CO is not settled.", "Overtreatment of quiescent disease with persistently low hCG is a risk.", "Care is centralised in only a few countries."],
+    keyPapers: ["paper-gog-174-methotrexate-vs-dactinomycin-low-risk-gtn-jco-2011", "paper-trophimmun-avelumab-chemoresistant-gtn-jco-2020", "paper-figo-2000-staging-gestational-trophoblastic-neoplasia-ijgo-2002"],
     drugs: ["methotrexate", "dactinomycin", "avelumab", "pembrolizumab", "etoposide", "cyclophosphamide", "vincristine"], trials: [], technologies: ["cytotoxic-chemotherapy", "checkpoint-inhibitor", "ultrasound", "fertility-preservation", "serum-tumour-markers"], terms: ["tumour-markers", "staging-systems"], targets: ["pdl1"],
     links: [{ label: "GOG 174 (JCO 2011)", url: "https://doi.org/10.1200/JCO.2010.30.4386" }, { label: "TROPHIMMUN (JCO 2020)", url: "https://doi.org/10.1200/JCO.20.00803" }, { label: "Wikipedia", url: W("Gestational_trophoblastic_disease") }] },
 
@@ -946,6 +970,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["pembrolizumab", "avelumab"],
     openProblems: ["EMA-CO has never been tested against any other regimen in a randomised trial.", "Late diagnosis of choriocarcinoma after term pregnancy still costs lives.", "Etoposide raises the long-term risk of leukaemia and its dose cannot easily be reduced.", "Where checkpoint inhibitors belong in the sequence is being worked out from small series."],
+    keyPapers: ["paper-bower-ema-co-high-risk-gtn-charing-cross-jco-1997", "paper-figo-cancer-report-gestational-trophoblastic-disease-ijgo-2021", "paper-figo-2000-staging-gestational-trophoblastic-neoplasia-ijgo-2002"],
     drugs: ["etoposide", "methotrexate", "dactinomycin", "cyclophosphamide", "vincristine", "cisplatin", "paclitaxel", "pembrolizumab", "avelumab"], trials: [], technologies: ["cytotoxic-chemotherapy", "checkpoint-inhibitor", "ultrasound", "mri", "ct", "pet-ct", "imrt-igrt", "sbrt", "autologous-stem-cell-transplant", "serum-tumour-markers"], terms: ["tumour-markers", "staging-systems"], targets: ["pdl1", "pd1"],
     links: [{ label: "FIGO cancer report: gestational trophoblastic disease (2021)", url: "https://doi.org/10.1002/ijgo.13877" }, { label: "NCCN Gestational Trophoblastic Neoplasia", url: gtnG.url }, { label: "Wikipedia", url: W("Choriocarcinoma") }] },
 
@@ -972,6 +997,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["pembrolizumab"],
     openProblems: ["Numbers are too small for any trial; all treatment rests on registry series.", "hCG is an unreliable marker, so recurrence can be missed.", "Chemotherapy has limited activity and no targeted therapy exists.", "Fertility-sparing surgery is rarely safe, which weighs heavily on young women."],
+    keyPapers: ["paper-schmid-placental-site-trophoblastic-tumour-outcomes-lancet-2009", "paper-froeling-pstt-ett-intensified-therapy-bjc-2019", "paper-figo-cancer-report-gestational-trophoblastic-disease-ijgo-2021"],
     drugs: ["etoposide", "cisplatin", "methotrexate", "dactinomycin", "paclitaxel", "pembrolizumab"], trials: [], technologies: ["histopathology-ihc", "mri", "ct", "pet-ct", "fertility-preservation", "cytotoxic-chemotherapy", "autologous-stem-cell-transplant"], terms: ["tumour-markers", "lymphadenectomy"], targets: [],
     links: [{ label: "NCCN Gestational Trophoblastic Neoplasia", url: gtnG.url }, { label: "Wikipedia", url: W("Placental_site_trophoblastic_tumor") }] },
 
@@ -1002,7 +1028,7 @@ export const rareSubtypes: CancerInput[] = [
       { year: 2021, title: "Belzutifan approved for VHL-associated tumours", refs: ["belzutifan"] },
       { year: 2025, title: "Belzutifan approved for advanced pheochromocytoma and paraganglioma", refs: ["belzutifan", "nct04924075"] },
     ],
-    keyPapers: ["paper-belzutifan-vhl-jonasch-nejm-2021"],
+    keyPapers: ["paper-belzutifan-vhl-jonasch-nejm-2021", "paper-neumann-germline-mutations-nonsyndromic-pheochromocytoma-nejm-2002", "paper-endocrine-society-pheochromocytoma-paraganglioma-guideline-jcem-2014"],
     pipeline: ["belzutifan", "nct04924075", "lutathera", "prrt", "germline-testing"],
     openProblems: ["Penetrance of SDHx mutations is incomplete and variable, so how intensively to screen carriers is debated.", "No treatment prevents new tumours in carriers.", "Whether belzutifan works in SDHx-related as well as VHL-related disease needs more data.", "Head and neck paragangliomas have no effective medical therapy."],
     drugs: ["belzutifan", "lutathera"], trials: ["nct04924075"], technologies: ["germline-testing", "sstr-pet", "radioligand-therapy", "prrt", "mri", "ct", "active-surveillance", "imrt-igrt", "sbrt"], terms: ["hereditary-cancer-syndromes", "adrenalectomy", "sdh-deficiency", "rare-cancers"], targets: ["hif2a", "sstr2", "ret"],
@@ -1033,6 +1059,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["belzutifan", "nct04924075", "nct07282587", "lutathera", "prrt", "sunitinib", "cabozantinib"],
     openProblems: ["No randomised trial has compared radionuclide therapy with drugs or defined their order.", "Azedra's withdrawal leaves MIBG-avid, somatostatin-receptor-negative patients without a radionuclide option in many countries.", "Catecholamine crises during treatment remain dangerous.", "The disease is too rare and too slow for conventional trial designs."],
+    keyPapers: ["paper-firstmappp-sunitinib-metastatic-ppgl-lancet-2024", "paper-pryma-high-specific-activity-i131-mibg-ppgl-jnm-2019", "paper-endocrine-society-pheochromocytoma-paraganglioma-guideline-jcem-2014"],
     drugs: ["belzutifan", "sunitinib", "cabozantinib", "lutathera", "i131-mibg", "temozolomide", "cyclophosphamide", "vincristine"], trials: ["nct04924075", "nct07282587"], technologies: ["radioligand-therapy", "prrt", "mibg-theranostics", "sstr-pet", "fdg-pet", "kinase-inhibitors", "cytotoxic-chemotherapy", "thermal-ablation", "sbrt", "active-surveillance"], terms: ["adrenalectomy", "rare-cancers", "sdh-deficiency"], targets: ["hif2a", "sstr2", "vegf"],
     links: [{ label: "FIRSTMAPPP (Lancet 2024)", url: "https://doi.org/10.1016/S0140-6736(23)02554-0" }, { label: "Endocrine Society PPGL guideline 2014", url: ppglG.url }, { label: "Wikipedia", url: W("Pheochromocytoma") }] },
 
@@ -1065,6 +1092,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["toripalimab", "camrelizumab", "proton-therapy", "nct07258979", "plasma-ebv-dna"],
     openProblems: ["Which patients can safely have less chemotherapy or radiotherapy is being defined trial by trial.", "Late toxicities of skull-base radiotherapy last for life.", "Non-endemic keratinising disease responds less well and is under-studied.", "PD-1 antibodies in the curative setting are approved and affordable mainly in China."],
+    keyPapers: ["paper-zhang-gemcitabine-cisplatin-induction-nasopharyngeal-nejm-2019", "paper-intergroup-0099-chemoradiotherapy-nasopharyngeal-jco-1998", "paper-csco-asco-nasopharyngeal-carcinoma-guideline-jco-2021"],
     drugs: ["gemcitabine-cisplatin", "cisplatin", "capecitabine", "toripalimab", "camrelizumab"], trials: ["nct07258979"], technologies: ["imrt-igrt", "proton-therapy", "checkpoint-inhibitor", "platinum", "liquid-biopsy", "mri", "pet-ct", "acupuncture-xerostomia"], terms: ["plasma-ebv-dna", "ebv-term", "chemoradiation", "head-neck-subsites"], targets: ["pd1"],
     links: [{ label: "Induction gemcitabine-cisplatin (NEJM 2019)", url: "https://doi.org/10.1056/NEJMoa1905287" }, { label: "CSCO-ASCO NPC guideline 2021", url: npcG.url }, { label: "Wikipedia", url: W("Nasopharyngeal_carcinoma") }] },
 
@@ -1092,6 +1120,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["taishan-301", "nct05294172", "nct06118333", "nct06976190", "nct05126719", "nct06839066", "yl201", "kl-a167", "mrg003", "hmbd-001", "tcr-t"],
     openProblems: ["Median survival in metastatic disease is still a few years.", "Which patients with local recurrence should have surgery rather than re-irradiation depends on surgical expertise concentrated in a few centres.", "Most trials are Chinese and endemic; applicability to non-endemic keratinising disease is uncertain.", "EBV-specific cell therapies have not yet reached a positive phase 3."],
+    keyPapers: ["paper-jupiter-02-toripalimab-chemotherapy-npc-nat-med-2021", "paper-zhang-gemcitabine-cisplatin-vs-fluorouracil-cisplatin-rm-npc-lancet-2016", "paper-captain-1st-camrelizumab-chemotherapy-npc-lancet-oncol-2021"],
     drugs: ["gemcitabine-cisplatin", "toripalimab", "camrelizumab", "tislelizumab", "penpulimab", "nivolumab", "pembrolizumab", "capecitabine", "cisplatin"], trials: ["jupiter-02", "captain-1st", "nct04974398", "taishan-301", "nct05294172", "nct06118333", "nct06976190", "nct05126719", "nct06839066"], technologies: ["checkpoint-inhibitor", "platinum", "imrt-igrt", "proton-therapy", "tors", "tcr-t", "liquid-biopsy", "sbrt", "adc"], terms: ["plasma-ebv-dna", "re-irradiation", "ebv-term", "ctdna"], targets: ["pd1", "pdl1", "egfr"],
     links: [{ label: "JUPITER-02 (JAMA 2023)", url: "https://doi.org/10.1001/jama.2023.20181" }, { label: "CSCO-ASCO NPC guideline 2021", url: npcG.url }, { label: "Wikipedia", url: W("Nasopharyngeal_carcinoma") }] },
 
@@ -1123,6 +1152,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["proton-therapy", "lutathera", "prrt"],
     openProblems: ["No prospective trial has ever been conducted; every recommendation rests on series.", "Late relapse after ten or more years makes cure hard to define.", "The role and timing of chemotherapy in intermediate-grade tumours is unclear.", "Elective neck treatment is debated."],
+    keyPapers: ["paper-dulguerov-esthesioneuroblastoma-meta-analysis-lancet-oncol-2001", "paper-kadish-olfactory-neuroblastoma-staging-cancer-1976"],
     drugs: ["cisplatin", "etoposide", "platinum-etoposide", "temozolomide", "lutathera"], trials: [], technologies: ["robotic-surgery", "imrt-igrt", "proton-therapy", "sstr-pet", "prrt", "radioligand-therapy", "mri", "ct", "histopathology-ihc"], terms: ["head-neck-subsites", "rare-cancers", "re-irradiation", "staging-systems", "chemoradiation"], targets: ["sstr2"],
     links: [{ label: "NCCN Head and Neck Cancers (ethmoid sinus)", url: sinonasalG.url }, { label: "Wikipedia", url: W("Esthesioneuroblastoma") }] },
 
@@ -1150,6 +1180,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["enasidenib", "proton-therapy", "pembrolizumab"],
     openProblems: ["No randomised trial exists and the induction-response strategy rests on one centre's series.", "Enasidenib's activity in IDH2-mutant sinonasal carcinoma is unproven.", "Most patients still die of the disease within a few years.", "Orbital and skull base surgery and radiotherapy carry heavy functional costs."],
+    keyPapers: ["paper-amit-induction-chemotherapy-response-snuc-jco-2019"],
     drugs: ["cisplatin", "etoposide", "platinum-etoposide", "pembrolizumab", "nivolumab", "enasidenib"], trials: [], technologies: ["imrt-igrt", "proton-therapy", "robotic-surgery", "cytotoxic-chemotherapy", "checkpoint-inhibitor", "histopathology-ihc", "mri", "ct", "pet-ct"], terms: ["head-neck-subsites", "rare-cancers", "chemoradiation"], targets: ["idh", "pd1"],
     links: [{ label: "Induction chemotherapy in SNUC (JCO 2019)", url: "https://doi.org/10.1200/JCO.18.00353" }, { label: "NCCN Head and Neck Cancers (ethmoid and maxillary sinus)", url: sinonasalG.url }, { label: "Wikipedia", url: W("Sinonasal_undifferentiated_carcinoma") }] },
 ];

@@ -1507,4 +1507,65 @@ export const targets: TargetInput[] = [
     prevalence: [{"cancerId":"prostate","pct":"host","measure":"Host enzyme in normal and malignant prostate; finasteride and dutasteride were tested for prevention, not as a tumour marker","source":"https://www.cancer.gov/types/prostate/hp/prostate-prevention-pdq"}], links: [{ label: "UniProt P12268: IMPDH2", url: "https://www.uniprot.org/uniprotkb/P12268/entry" }, { label: "HGNC:6053 IMPDH2", url: "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:6053" }, { label: "ChEMBL target CHEMBL2111369", url: "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2111369" }],
     tags: ["chembl-gap"],
   },
+
+  // ---- Tumour suppressor: BAF/SWI-SNF complex ----
+  {
+    id: "smarcb1",
+    kind: "target",
+    name: "SMARCB1",
+    symbol: "SMARCB1",
+    asOf,
+    wikipedia: W("SMARCB1"),
+    tldr:
+      "A gene that helps cells package DNA correctly. When it's lost — as in over 90% of epithelioid sarcomas and all rhabdoid tumours — the cancer becomes dependent on a backup system called PRC2, which can be drugged. The only drug that did this was withdrawn in 2026, leaving the door open for next-generation inhibitors.",
+    summary:
+      "SMARCB1 (also called INI1, BAF47, or SNF5) is a core subunit of the BAF/mSWI-SNF chromatin remodeling complex, which controls gene expression by repositioning nucleosomes. Loss of SMARCB1 — by deletion, mutation, or epigenetic silencing — is the defining event in >90% of epithelioid sarcoma, ~100% of malignant rhabdoid tumour, and all atypical teratoid/rhabdoid tumours (AT/RT). It also drives SMARCB1-deficient sinonasal carcinoma and subsets of other sarcomas.\n\nThe oncogenic mechanism is loss-of-function: without SMARCB1, the BAF complex cannot properly regulate differentiation and tumour suppressor genes. The cancer becomes oncogenically dependent on EZH2, the catalytic subunit of PRC2 (Polycomb Repressive Complex 2), which silences those same genes through H3K27 methylation. This creates a therapeutic rationale for EZH2 inhibition — tazemetostat exploited this and was the only FDA-approved drug for ES (2020-2026), withdrawn in March 2026 due to secondary malignancies. Next-generation PRC2 inhibitors target EED (rinzimetostat/ORIC-944 — retains activity in tazemetostat-resistant models), dual EZH1/EZH2 (valemetostat), and EZH2 alone (SHR2554), but none have ES trials.\n\nBeyond PRC2, SMARCB1 loss creates additional vulnerabilities: an MMEJ (microhomology-mediated end joining) DNA repair defect via impaired POLQ mRNA export, leading to FA/BRCA pathway hyper-dependence (Zhu et al., Science Advances 2026, PMID 42600026) — making RBM39 degraders (indisulam) a translational priority. DNMT3B is a separate druggable vulnerability (Chauvin et al., PMID 42574050). BAF function is also required in T cells for mitochondrial-ATP-driven effector differentiation (Cell 2026;189), linking SMARCB1 biology to anti-tumour immunity. This is a tumour suppressor that, when lost, creates a cascade of druggable dependencies — but the only approved drug targeting the main axis is now gone.",
+    biology:
+      "Core subunit of the BAF/mSWI-SNF chromatin remodeling complex. Loss (>90% of ES, ~100% of rhabdoid tumour) abolishes nucleosome repositioning at differentiation and tumour suppressor gene loci. The cancer compensates through EZH2/PRC2-mediated H3K27 methylation, creating oncogenic dependence on PRC2. Loss also impairs POLQ mRNA export → MMEJ defect → FA/BRCA hyper-dependence. BAF function in T cells is required for mitochondrial-ATP-driven effector fate (Cell 2026;189), meaning SMARCB1 biology intersects with anti-tumour immunity.",
+    whereFound: [
+      "Epithelioid sarcoma (>90% loss, defining)",
+      "Malignant rhabdoid tumour (~100%)",
+      "Atypical teratoid/rhabdoid tumour (AT/RT, ~100%)",
+      "SMARCB1-deficient sinonasal carcinoma",
+      "Subset of other soft tissue sarcomas",
+    ],
+    targetClass: "tumor-suppressor",
+    cancers: ["epithelioid-sarcoma"],
+    tags: ["epigenetic", "baf-complex", "prc2-dependence", "loss-of-function"],
+    prevalence: [
+      {
+        cancerId: "epithelioid-sarcoma",
+        pct: ">90",
+        measure: "Loss of nuclear expression by IHC (defining feature)",
+        source: "https://en.wikipedia.org/wiki/Epithelioid_sarcoma",
+        note: "Distal and proximal subtypes both show SMARCB1 loss; rare SMARCB1-retained variants exist (~5-10%)",
+      },
+      {
+        cancerId: "epithelioid-sarcoma",
+        pct: 100,
+        measure: "Genetic loss (deletion, mutation, or epigenetic silencing)",
+        source: "https://en.wikipedia.org/wiki/SMARCB1",
+        note: "Among SMARCB1-deficient tumours, ~100% of malignant rhabdoid tumours and AT/RT",
+      },
+    ],
+    drugs: ["tazemetostat", "rinzimetostat", "valemetostat", "shr2554", "indisulam", "decitabine", "azacitidine"],
+    companies: ["ipsen", "oric-pharmaceuticals", "daiichi-sankyo", "hengrui"],
+    openProblems: [
+      "Tazemetostat (the only approved drug targeting this axis) withdrawn March 2026 — no approved therapy remains for SMARCB1-deficient cancers.",
+      "Next-generation PRC2 inhibitors (rinzimetostat/EED, valemetostat/EZH1+EZH2, SHR2554/EZH2) are in trials for other cancers but have no ES or rhabdoid cohorts.",
+      "MMEJ DNA repair defect and FA/BRCA hyper-dependence demonstrated in rhabdoid models but not validated in ES cell lines — translational gap.",
+      "EZH0414 is a SETD2 inhibitor commonly misidentified as a PRC2 inhibitor — researchers must distinguish SETD2 (H3K36) from PRC2 (H3K27) targets.",
+      "SMARCB1 gene restoration is preclinical only — no delivery approach is clinical-ready.",
+      "BAF function in T-cell effector fate (Cell 2026) means SMARCB1 loss in the tumour microenvironment may suppress anti-tumour immunity, but this has not been studied in ES specifically.",
+    ],
+    related: ["epithelioid-sarcoma", "prc2-ezh2-axis", "baf-complex", "ddr", "mmej"],
+    links: [
+      { label: "Wikipedia", url: W("SMARCB1") },
+      { label: "UniProt Q12824: SMARCB1", url: "https://www.uniprot.org/uniprotkb/Q12824/entry" },
+      { label: "Zhu et al., Science Advances 2026 — MMEJ defect (PMID 42600026)", url: "https://pubmed.ncbi.nlm.nih.gov/42600026/" },
+      { label: "Chauvin et al., Clin Cancer Res 2026 — DNMT3B (PMID 42574050)", url: "https://pubmed.ncbi.nlm.nih.gov/42574050/" },
+      { label: "Cell 2026;189 — mitochondrial ATP → BAF → T-cell fate", url: "https://doi.org/10.1016/j.cell.2026.08.023" },
+    ],
+  },
+
 ];

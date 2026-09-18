@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { SignupForm } from "@/components/SignupForm";
+import { myCancerTiles } from "@/lib/my-cancer-list";
 
 export const metadata: Metadata = pageMeta({ title: "Stay in the loop", description: "Leave your email and OnCo will write when something big changes in cancer research: approvals, failed trials, guideline changes. No spam, one click to unsubscribe.", path: "/signup/" });
 
@@ -11,7 +12,8 @@ export default function SignupPage() {
     <>
       <PageHeader kicker={<GroupKicker id="learn" />} title="Stay in the loop" lede="Leave your email and OnCo will write when something big changes in cancer research: new approvals, trials that read out or fail, guideline changes. One message when it matters, no spam, one click to unsubscribe." />
       <Container className="pb-16 max-w-xl space-y-6">
-        <SignupForm />
+        {/* The welcome step's cancer chooser: id, name, route and hub group only, so the page stays light. */}
+        <SignupForm cancers={myCancerTiles().map(({ id, name, route, group }) => ({ id, name, route, group }))} />
         <div className="text-sm text-muted space-y-2">
           <p>What an account gives you: your <Link className="underline" href="/saved/">watchlist and saved views</Link> synced across devices, your cancer choice remembered, and alerts when a trial or treatment you follow changes. Sign-in is by emailed link, so there is no password to lose.</p>
           <p>What we store: your email address and the name you give, held by the sign-in provider (WorkOS), nothing else. The site itself sets no advertising trackers; Google Analytics counts visits, as the <Link className="underline" href="/about/">about page</Link> says.</p>

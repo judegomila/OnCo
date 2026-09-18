@@ -10,7 +10,9 @@ import { loadWatchlist, replaceWatchlist, type WatchItem } from "@/lib/watchlist
 
 const URL = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
 const KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
-const WORKOS = process.env.NEXT_PUBLIC_WORKOS_CLIENT_ID ?? "";
+// The WorkOS client id is a public identifier (PKCE flow, no secret); the production id is the default so local
+// and prebuilt builds inline it without needing the Vercel variable, which stays as an override.
+const WORKOS = process.env.NEXT_PUBLIC_WORKOS_CLIENT_ID || "client_01M2R9QXNGMK8909W2V1FG3DFG";
 const WORKOS_API = "https://api.workos.com/user_management";
 export type Provider = "workos" | "supabase" | "none";
 export const provider: Provider = WORKOS ? "workos" : URL && KEY ? "supabase" : "none";

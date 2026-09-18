@@ -13,7 +13,7 @@ const entities: EntityInput[] = [
     summary: "Oxaliplatin, irinotecan, leucovorin, and 5-fluorouracil. PRODIGE 4/ACCORD 11 (2011): OS 11.1 vs 6.8 months versus gemcitabine in fit metastatic patients. Modified FOLFIRINOX (PRODIGE 24, 2018) became the adjuvant standard after resection with median OS ~54 months, and is the most used neoadjuvant regimen for borderline-resectable disease. Toxicity (neutropenia, diarrhoea, neuropathy) restricts it to ECOG 0-1 patients. NALIRIFOX (liposomal irinotecan) is a 2024 variant for metastatic disease.",
     mechanism: "DNA crosslinking (oxaliplatin), topoisomerase-I inhibition (irinotecan), antimetabolite (5-FU with leucovorin modulation).",
     approvals: [{ region: "Global", year: 2011, indication: "Metastatic PDAC (PRODIGE 4 / ACCORD 11; component drugs generic)" }],
-    technologies: ["cytotoxic-chemotherapy", "platinum", "topoisomerase-inhibitors"], cancers: ["pancreatic"], trials: ["prodige-24", "napoli-3", "nct06922591", "nct07255404"], links: [{ label: "Wikipedia", url: W("FOLFIRINOX") }],
+    technologies: ["cytotoxic-chemotherapy", "platinum", "topoisomerase-inhibitors"], cancers: ["pancreatic", "resectable-pdac", "borderline-resectable-pdac", "metastatic-pdac"], trials: ["prodige-24", "napoli-3", "nct06922591", "nct07255404"], links: [{ label: "Wikipedia", url: W("FOLFIRINOX") }],
   },
   {
     id: "nalirifox", kind: "drug", name: "NALIRIFOX (liposomal irinotecan + oxaliplatin + 5-FU/LV)", brand: "Onivyde regimen", modality: "Cytotoxic regimen", asOf, status: "approved",
@@ -21,7 +21,7 @@ const entities: EntityInput[] = [
     summary: "NALIRIFOX combines liposomal irinotecan, which gives prolonged exposure to the active metabolite SN-38, with oxaliplatin and 5-FU/leucovorin; it is a version of FOLFIRINOX built around the liposome-wrapped drug. It is a first-line option for metastatic pancreatic adenocarcinoma in patients fit enough for a multi-drug regimen. NAPOLI 3 (n=770) showed overall survival of 11.1 versus 9.2 months (HR 0.84) and PFS of 7.4 versus 5.6 months against gemcitabine plus nab-paclitaxel, and the FDA approved it in February 2024 (Ipsen). It was the first phase 3 head-to-head win between the two chemotherapy backbones, though the absolute gain is modest and critics note the absence of a modified FOLFIRINOX arm, so whether it beats conventional FOLFIRINOX is unknown. For a newcomer, it is four-drug pancreatic chemotherapy with a longer-acting irinotecan.",
     mechanism: "Liposomal irinotecan (prolonged SN-38 exposure) with oxaliplatin and 5-FU/leucovorin.",
     approvals: [{ region: "US", year: 2024, indication: "First-line metastatic pancreatic adenocarcinoma" }, { region: "EU", year: 2016, indication: "Onivyde 2L after gemcitabine (2016); NALIRIFOX label 2025" }],
-    technologies: ["cytotoxic-chemotherapy", "topoisomerase-inhibitors", "platinum"], companies: ["ipsen"], cancers: ["pancreatic"], trials: ["napoli-3"],
+    technologies: ["cytotoxic-chemotherapy", "topoisomerase-inhibitors", "platinum"], companies: ["ipsen"], cancers: ["pancreatic", "metastatic-pdac"], trials: ["napoli-3"],
     links: [{ label: "OncLive: FDA approves NALIRIFOX", url: "https://www.onclive.com/view/fda-approves-frontline-nalirifox-for-metastatic-pancreatic-adenocarcinoma" }], terms: ["prodrug"],
   },
   {
@@ -30,14 +30,14 @@ const entities: EntityInput[] = [
     summary: "MPACT (2013): OS 8.5 vs 6.7 months versus gemcitabine alone. Preferred for less fit patients; the control or backbone arm in PANOVA-3 (TTFields), zoldonrasib first-line combinations, and CLDN18.2 and other add-on trials. Gemcitabine monotherapy (1997) was the standard for 14 years before FOLFIRINOX.",
     mechanism: "Nucleoside analogue (gemcitabine) plus albumin-bound taxane that may deplete stroma and increase gemcitabine delivery.",
     approvals: [{ region: "US", year: 2013, indication: "First-line metastatic pancreatic adenocarcinoma (nab-paclitaxel label)" }],
-    technologies: ["cytotoxic-chemotherapy"], cancers: ["pancreatic"], drugs: ["paclitaxel"], trials: ["panova-3", "nct05257993", "nct04589234"], links: [{ label: "Wikipedia", url: W("Gemcitabine") }],
+    technologies: ["cytotoxic-chemotherapy"], cancers: ["pancreatic", "locally-advanced-pdac", "metastatic-pdac"], drugs: ["paclitaxel"], trials: ["panova-3", "nct05257993", "nct04589234"], links: [{ label: "Wikipedia", url: W("Gemcitabine") }],
   },
   {
     id: "zoldonrasib", trials: ["nct07805954", "nct07621718", "nct07777822", "nct06445062", "nct07397338", "nct06922591"], kind: "drug", name: "Zoldonrasib", code: "RMC-9805", modality: "Small-molecule RAS(ON) G12D-selective inhibitor", asOf, status: "phase-2",
     tldr: "The first drug aimed specifically at KRAS G12D, the single most common mutation in pancreatic cancer. Early combination data in 2026 showed half of previously treated patients responding.",
     summary: "Revolution Medicines' covalent tri-complex inhibitor of KRAS G12D(ON). Breakthrough Therapy designation in G12D NSCLC (2025). At ESMO GI 2026, zoldonrasib plus daraxonrasib in previously treated RAS G12D metastatic PDAC (n=60, cutoff 9 Feb 2026): ORR 50% and DCR 97% in second line, median PFS 9.6 months; grade ≥3 treatment-related events 35% (rash, anaemia, stomatitis). First-line combination with gemcitabine/nab-paclitaxel showed high response rates and ctDNA clearance. Phase 3 planning underway.",
     mechanism: "Cyclophilin-A-mediated tri-complex that covalently engages the G12D mutant aspartate and blocks effector binding in the active state.",
-    targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["revolution-medicines"], cancers: ["pancreatic", "nsclc", "colorectal"], drugs: ["daraxonrasib"], pathways: ["ras-mapk"],
+    targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["revolution-medicines"], cancers: ["pancreatic", "metastatic-pdac", "nsclc", "colorectal"], drugs: ["daraxonrasib"], pathways: ["ras-mapk"],
     links: [{ label: "Revolution Medicines, ESMO GI 2026", url: "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-presents-phase-12-clinical-data-zoldonrasib" }, { label: "OncLive report", url: "https://www.onclive.com/view/zoldonrasib-combinations-show-compelling-antitumor-activity-in-ras-g12d-mutant-metastatic-pdac" }],
   },
   {
@@ -45,21 +45,21 @@ const entities: EntityInput[] = [
     tldr: "A next-generation KRAS G12C drug that hits the active form of the protein, from the same company as daraxonrasib.",
     summary: "Elironrasib is a covalent tri-complex inhibitor that binds KRAS G12C in its active, GTP-bound (ON) state, unlike the first-generation drugs sotorasib and adagrasib, which trap the inactive OFF state. Hitting the active protein is intended to produce deeper, more durable responses and to overcome the adaptive RAS reactivation that limits OFF-state inhibitors. It is being tested alone and with daraxonrasib, the pan-RAS(ON) inhibitor from the same company, in non-small-cell lung cancer, colorectal cancer and the roughly 1 to 2% of pancreatic cancers that carry G12C. It is in phase 2 with no approval yet, and whether ON-state inhibition delivers a clinically meaningful advantage over the approved G12C drugs is the open question. For a newcomer, it is a next-generation KRAS G12C drug that hits the switched-on form of the protein.",
     mechanism: "Covalent tri-complex inhibitor of KRAS G12C in the GTP-bound state.",
-    targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["revolution-medicines"], cancers: ["nsclc", "colorectal", "pancreatic"], pathways: ["ras-mapk"],
+    targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["revolution-medicines"], cancers: ["nsclc", "colorectal", "pancreatic", "kras-g12c-pdac"], pathways: ["ras-mapk"],
   },
   {
     id: "mrtx1133", links: [{ label: "ClinicalTrials.gov NCT05737706: MRTX1133 in KRAS G12D-mutant advanced solid tumours (phase 1)", url: "https://clinicaltrials.gov/study/NCT05737706" }], kind: "drug", name: "MRTX1133", modality: "Small-molecule non-covalent KRAS G12D inhibitor", asOf, status: "phase-1",
     tldr: "MRTX1133 was the first potent chemical tool against KRAS G12D, and proved the mutation could be drugged even though it lacks the reactive handle G12C has.",
     summary: "MRTX1133 is a non-covalent small molecule that binds the switch-II pocket of KRAS G12D and inhibits both the ON and OFF states; because G12D lacks the reactive cysteine that G12C drugs exploit, it needed a different, high-affinity chemistry. It was the first potent chemical tool against KRAS G12D, a common driver in pancreatic cancer, and it produced striking regressions in pancreatic patient-derived xenograft models (Nature 2023). Poor oral bioavailability forced intravenous dosing in the phase 1/2 trial, and development slowed after Bristol Myers Squibb acquired Mirati, while covalent RAS(ON) competitors advanced. Its lasting importance is as proof that G12D can be drugged, opening the door to oral and pan-RAS successors. For a newcomer, it showed that a KRAS mutation once thought undruggable can be hit.",
     mechanism: "Non-covalent binder to the switch-II pocket of KRAS G12D, inhibiting both ON and OFF states.",
-    targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["bms"], cancers: ["pancreatic", "colorectal"], pathways: ["ras-mapk"],
+    targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["bms"], cancers: ["pancreatic", "metastatic-pdac", "colorectal"], pathways: ["ras-mapk"],
   },
   {
     id: "eli-002-7p", kind: "drug", name: "ELI-002 7P", modality: "Off-the-shelf lymph-node-targeted KRAS peptide vaccine", asOf, status: "phase-2",
     tldr: "A ready-made vaccine against the seven commonest KRAS mutations, given after pancreatic cancer surgery. Its phase 2 missed the main goal in 2026 but showed signs of activity.",
     summary: "Elicio's amphiphile peptides (7 mKRAS antigens) plus CpG adjuvant, engineered to drain to lymph nodes. Phase 1 AMPLIFY-201 induced mKRAS-specific T cells in most patients with ctDNA reductions. Randomised phase 2 AMPLIFY-7P (adjuvant PDAC, results June 2026) did not meet its primary DFS endpoint in the intent-to-treat population; post-hoc landmark analyses reported ~14% absolute DFS benefit during active treatment. Elicio is refining a phase 3 strategy around R0-resected patients.",
     mechanism: "Albumin-binding lipid tails carry mutant-KRAS peptides to lymph nodes for dendritic cell presentation.",
-    targets: ["kras"], technologies: ["shared-antigen-vaccine", "mrd-testing"], companies: ["elicio-therapeutics"], cancers: ["pancreatic", "colorectal"], trials: ["amplify-7p"],
+    targets: ["kras"], technologies: ["shared-antigen-vaccine", "mrd-testing"], companies: ["elicio-therapeutics"], cancers: ["pancreatic", "resectable-pdac", "colorectal"], trials: ["amplify-7p"],
     links: [{ label: "Elicio AMPLIFY-7P results (June 2026)", url: "https://elicio.com/press_releases/elicio-therapeutics-reports-results-from-phase-2-amplify-7p-study-and-outlines-refined-phase-3-development-strategy-for-eli-002-7p-in-adjuvant-pancreatic-cancer/" }],
   },
 
@@ -70,7 +70,7 @@ const entities: EntityInput[] = [
     tldr: "The trial that nearly doubled survival in previously treated pancreatic cancer, presented in the ASCO 2026 plenary. The biggest result in the disease's history.",
     summary: "500 patients, 59 sites. Topline 13 April 2026; presented by Brian Wolpin (Dana-Farber) at the ASCO 2026 plenary (31 May) with simultaneous NEJM publication. Median OS 13.2 vs 6.7 months (HR 0.40, p<0.0001); PFS also significantly improved. NDA submission planned under a Commissioner's National Priority Voucher. First-line (RASolute 303) and adjuvant (RASolute 304) trials follow.",
     result: "OS 13.2 vs 6.7 months, HR 0.40.",
-    drugs: ["daraxonrasib"], cancers: ["pancreatic"], targets: ["kras"], technologies: ["kras-inhibitors"], institutions: ["dana-farber"],
+    drugs: ["daraxonrasib"], cancers: ["pancreatic", "metastatic-pdac"], targets: ["kras"], technologies: ["kras-inhibitors"], institutions: ["dana-farber"],
     links: [ct("NCT06625320"), { label: "Revolution Medicines announcement", url: "https://ir.revmed.com/news-releases/news-release-details/daraxonrasib-demonstrates-unprecedented-overall-survival-benefit" }, { label: "JCO abstract LBA5", url: "https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA5" }],
   },
   {
@@ -79,7 +79,7 @@ const entities: EntityInput[] = [
     tldr: "The first head-to-head trial of the two chemotherapy backbones, won narrowly by the four-drug regimen.",
     summary: "NAPOLI 3, trial NCT04083235 sponsored by Ipsen and reported in 2023, was the first head-to-head trial of the two chemotherapy backbones for first-line metastatic pancreatic cancer, comparing NALIRIFOX, the four-drug regimen built on liposomal irinotecan, with gemcitabine plus nab-paclitaxel. It randomised 770 patients and met its primary overall survival endpoint, with a narrow but statistically significant advantage and a clearer gain in progression-free survival, leading to FDA approval of NALIRIFOX in February 2024. OnCo links it to pancreatic ductal adenocarcinoma, to NALIRIFOX and gemcitabine plus nab-paclitaxel, to Zev A. Wainberg, and to the bottleneck of cold tumours; the result is consistent in direction with PRODIGE 4 for FOLFIRINOX. Critics note the absence of a modified FOLFIRINOX arm, so whether the new regimen beats the older four-drug standard is the open question.",
     result: "OS HR 0.84; PFS HR 0.69.",
-    drugs: ["nalirifox", "gemcitabine-nab-paclitaxel"], cancers: ["pancreatic"], links: [ct("NCT04083235")], people: ["zev-wainberg"],
+    drugs: ["nalirifox", "gemcitabine-nab-paclitaxel"], cancers: ["pancreatic", "metastatic-pdac"], links: [ct("NCT04083235")], people: ["zev-wainberg"],
   },
   {
     id: "prodige-24", kind: "trial", name: "PRODIGE 24 / CCTG PA6", nct: "NCT01526135", phase: "3", status: "positive", yearReported: 2018, sponsor: "UNICANCER / CCTG", asOf,
@@ -87,7 +87,7 @@ const entities: EntityInput[] = [
     tldr: "Showed that giving the strong four-drug chemotherapy after pancreatic surgery adds years of life for fit patients.",
     summary: "PRODIGE 24, run with the Canadian Cancer Trials Group as CCTG PA6, trial NCT01526135 and reported in 2018, showed that giving modified FOLFIRINOX after pancreatic cancer surgery adds years of life for fit patients compared with gemcitabine. It randomised 493 patients and met its primary disease-free survival endpoint, and the overall survival benefit held in a five-year update in 2022, establishing modified FOLFIRINOX as the adjuvant standard for patients fit enough to receive it. OnCo links it to pancreatic ductal adenocarcinoma, to the FOLFIRINOX drug record and to Thierry Conroy, and the result is consistent with APACT for gemcitabine and nab-paclitaxel, which showed a smaller effect, and with the neoadjuvant PREOPANC-2 comparison. Whether the same regimen should be given before surgery rather than after is the open question. FOLFIRINOX has its own page.",
     result: "OS 54.4 vs 35.0 months, HR 0.64.",
-    drugs: ["folfirinox"], cancers: ["pancreatic"], links: [ct("NCT01526135")], people: ["thierry-conroy"],
+    drugs: ["folfirinox"], cancers: ["pancreatic", "resectable-pdac"], links: [ct("NCT01526135")], people: ["thierry-conroy"],
   },
   {
     id: "preopanc", kind: "trial", name: "PREOPANC-1 / PREOPANC-2", nct: "NTR3709", phase: "3", status: "mixed", yearReported: 2022, sponsor: "Dutch Pancreatic Cancer Group", asOf,
@@ -95,7 +95,7 @@ const entities: EntityInput[] = [
     tldr: "Dutch trials testing whether treating before surgery beats operating first. Chemoradiation first helped in the long run; FOLFIRINOX first did not clearly beat surgery-first with adjuvant chemotherapy.",
     summary: "PREOPANC-1: gemcitabine-based chemoradiation before surgery improved 5-year OS (20.5% vs 6.5%) in long-term follow-up, although the primary analysis had fallen short of statistical significance. PREOPANC-2 (2023): neoadjuvant FOLFIRINOX did not improve OS versus neoadjuvant gemcitabine-chemoradiation. Together with ALLIANCE A021806 and NORPACT-1, they leave the neoadjuvant question open for resectable disease while borderline-resectable disease is generally treated neoadjuvantly.",
     result: "PREOPANC-1 5-year OS 20.5% vs 6.5%; PREOPANC-2 no OS benefit.",
-    drugs: ["folfirinox"], cancers: ["pancreatic"], technologies: ["imrt-igrt"], links: [{ label: "PREOPANC-1 primary analysis, JCO 2020 (NTR3709)", url: "https://doi.org/10.1200/JCO.19.02274" }, { label: "PREOPANC-1 long-term results, JCO 2022", url: "https://doi.org/10.1200/JCO.21.02233" }], people: ["marc-besselink"],
+    drugs: ["folfirinox"], cancers: ["pancreatic", "resectable-pdac", "borderline-resectable-pdac"], technologies: ["imrt-igrt"], links: [{ label: "PREOPANC-1 primary analysis, JCO 2020 (NTR3709)", url: "https://doi.org/10.1200/JCO.19.02274" }, { label: "PREOPANC-1 long-term results, JCO 2022", url: "https://doi.org/10.1200/JCO.21.02233" }], people: ["marc-besselink"],
   },
   {
     id: "polo", kind: "trial", name: "POLO", nct: "NCT02184195", phase: "3", status: "mixed", yearReported: 2019, sponsor: "AstraZeneca / Merck", asOf,
@@ -103,7 +103,7 @@ const entities: EntityInput[] = [
     tldr: "The first biomarker-directed drug approval in pancreatic cancer, for the roughly 5-7% with inherited BRCA mutations, though it did not extend overall survival.",
     summary: "POLO, trial NCT02184195 sponsored by AstraZeneca and Merck and reported in 2019, produced the first biomarker-directed drug approval in pancreatic cancer, for the roughly five to seven percent of patients with inherited BRCA mutations, though it did not extend overall survival. It randomised 154 patients with germline BRCA-mutated metastatic disease that had not progressed on at least sixteen weeks of platinum chemotherapy to olaparib maintenance or placebo, met its primary progression-free survival endpoint and led to FDA approval in December 2019, but overall survival was no different. OnCo links it to PARP inhibitors and germline testing, to BRCA1 and BRCA2 and PARP as targets. It is a single pivotal trial with no confirmatory study, and whether a progression benefit alone justifies maintenance is the open question.",
     result: "PFS HR 0.53; OS HR 0.83 (not significant).",
-    drugs: ["olaparib"], cancers: ["pancreatic"], targets: ["brca", "parp"], technologies: ["parp-inhibitor", "germline-testing"], links: [ct("NCT02184195")], people: ["talia-golan", "hedy-kindler"],
+    drugs: ["olaparib"], cancers: ["pancreatic", "brca-palb2-pdac"], targets: ["brca", "parp"], technologies: ["parp-inhibitor", "germline-testing"], links: [ct("NCT02184195")], people: ["talia-golan", "hedy-kindler"],
   },
   {
     id: "panova-3", kind: "trial", name: "PANOVA-3", nct: "NCT03377491", phase: "3", status: "positive", yearReported: 2025, sponsor: "Novocure", asOf,
@@ -111,7 +111,7 @@ const entities: EntityInput[] = [
     tldr: "PANOVA-3 is the trial behind the 2026 approval of a wearable electric-field device for pancreatic cancer, the first new approval in locally advanced disease in decades.",
     summary: "PANOVA-3, trial NCT03377491 sponsored by Novocure and reported in 2025, is the trial behind the 2026 approval of Optune Pax, a wearable electric-field device, for unresectable locally advanced pancreatic cancer, the first new approval in that setting in decades. It randomised 571 patients to tumour treating fields plus gemcitabine and nab-paclitaxel or chemotherapy alone, met its primary overall survival endpoint with a modest effect presented at the ASCO 2025 plenary, and also improved pain-free survival, leading to FDA approval in the first quarter of 2026. OnCo links it to pancreatic ductal adenocarcinoma, tumour treating fields, the Optune device record, gemcitabine plus nab-paclitaxel and Novocure. It is a single pivotal trial, and its open-label design and modest effect size are debated, so whether the device changes practice outside trial centres is the open question.",
     result: "OS 16.2 vs 14.2 months, HR 0.82.",
-    drugs: ["optune", "gemcitabine-nab-paclitaxel"], cancers: ["pancreatic"], technologies: ["ttfields"], companies: ["novocure"], links: [ct("NCT03377491")],
+    drugs: ["optune", "gemcitabine-nab-paclitaxel"], cancers: ["pancreatic", "locally-advanced-pdac"], technologies: ["ttfields"], companies: ["novocure"], links: [ct("NCT03377491")],
   },
   {
     id: "amplify-7p", kind: "trial", name: "AMPLIFY-7P", nct: "NCT05726864", phase: "1/2", status: "negative", yearReported: 2026, sponsor: "Elicio Therapeutics", asOf,
@@ -119,7 +119,7 @@ const entities: EntityInput[] = [
     tldr: "The randomised test of an off-the-shelf KRAS vaccine after pancreatic surgery. It missed its primary goal in June 2026.",
     summary: "Did not meet the pre-specified primary DFS endpoint in the intent-to-treat population; post-hoc landmark analyses suggested ~14% absolute DFS benefit during active dosing. Company is exploring R0-resected subgroups for phase 3. A cautionary data point for shared-antigen vaccines versus personalised approaches.",
     result: "Primary DFS endpoint not met.",
-    drugs: ["eli-002-7p"], cancers: ["pancreatic"], technologies: ["shared-antigen-vaccine"], links: [ct("NCT05726864")],
+    drugs: ["eli-002-7p"], cancers: ["pancreatic", "resectable-pdac"], technologies: ["shared-antigen-vaccine"], links: [ct("NCT05726864")],
   },
 
   // ======================= TECHNOLOGIES =======================
@@ -130,7 +130,7 @@ const entities: EntityInput[] = [
     principle: "Annual cross-sectional imaging of the pancreas in a population with 5-10x baseline risk; resection of high-grade precursor lesions and early cancers.",
     strengths: ["Stage shift to resectable disease in carriers", "Defines the population for blood-test validation"],
     limitations: ["Only ~10% of pancreatic cancers arise in identifiable high-risk groups", "Cyst overtreatment risk", "Cost and adherence"],
-    technologies: ["mri", "ultrasound", "germline-testing", "mced"], cancers: ["pancreatic"], targets: ["brca"], terms: ["stage-shift"],
+    technologies: ["mri", "ultrasound", "germline-testing", "mced"], cancers: ["pancreatic", "ipmn-cystic-precursors", "brca-palb2-pdac"], targets: ["brca"], terms: ["stage-shift"],
     links: [{ label: "PRECEDE consortium", url: "https://www.precedestudy.org" }],
   },
   {
@@ -148,7 +148,7 @@ const entities: EntityInput[] = [
     id: "ca19-9", kind: "term", name: "CA 19-9", category: "Biomarkers", asOf, wikipedia: W("CA19-9"),
     tldr: "A sugar molecule shed into the blood by most pancreatic cancers; useful to follow treatment, not to screen.",
     summary: "Sialyl-Lewis A carbohydrate antigen elevated in ~80% of PDAC; 5-10% of people (Lewis-negative) cannot make it. Prognostic at diagnosis, tracks response and recurrence, and defines eligibility in trials. Too non-specific for population screening (raised in biliary obstruction, pancreatitis), but glycan-engineered variants and combination with cfDNA are under study for high-risk surveillance.",
-    cancers: ["pancreatic", "cholangiocarcinoma"], technologies: ["pancreatic-surveillance"], links: [{ label: "Wikipedia", url: W("CA19-9") }],
+    cancers: ["pancreatic", "ipmn-cystic-precursors", "cholangiocarcinoma"], technologies: ["pancreatic-surveillance"], links: [{ label: "Wikipedia", url: W("CA19-9") }],
   },
   {
     id: "desmoplasia", kind: "term", name: "Desmoplasia (tumour stroma)", category: "Biology", asOf, wikipedia: W("Desmoplasia"),

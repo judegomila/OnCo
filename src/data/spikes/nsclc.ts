@@ -186,7 +186,7 @@ const drugs: DrugInput[] = [
     tldr: "Olomorasib is Lilly's KRAS G12C pill, designed to combine safely with immunotherapy in first-line lung cancer.",
     summary: "Second-generation covalent G12C inhibitor with a cleaner liver profile than sotorasib in combination with pembrolizumab (ORR 74% in first-line PD-L1 ≥50%, JTO 2025). Breakthrough Therapy designation with pembrolizumab in untreated KRAS G12C NSCLC and in KRAS G12C pancreatic cancer. Phase 3 SUNRAY-01 (first line ± chemotherapy) and SUNRAY-02 (early-stage) ongoing.",
     mechanism: "Covalent KRAS G12C inhibitor.",
-    targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["eli-lilly"], cancers: ["nsclc", "pancreatic", "kras-g12c-nsclc"], drugs: ["pembrolizumab"],
+    targets: ["kras"], technologies: ["kras-inhibitors"], companies: ["eli-lilly"], cancers: ["nsclc", "pancreatic", "kras-g12c-pdac", "kras-g12c-nsclc"], drugs: ["pembrolizumab"],
     links: [{ label: "OncLive: Breakthrough designation", url: "https://www.onclive.com/view/olomorasib-plus-pembrolizumab-earns-breakthrough-therapy-designation-in-untreated-kras-g12c-mutated-nsclc" }] }),
   d({ id: "neladalkib", name: "Neladalkib", code: "NVL-655", modality: "Small-molecule kinase inhibitor (ALK)", status: "phase-3",
     tldr: "A fourth-generation ALK pill that works after lorlatinib and avoids the TRK-related brain side effects; under FDA priority review with a decision due 27 November 2026.",

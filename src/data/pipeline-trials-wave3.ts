@@ -177,7 +177,7 @@ export const pipelineTrialsWave3: TrialInput[] = [
     summary: "Study of Iomab-B vs. Conventional Care in Older Subjects With Active, Relapsed or Refractory Acute Myeloid Leukemia is a phase 3 interventional study registered as NCT02665065 by Actinium Pharmaceuticals, with 153 participants enrolled, started 2016-06. Conditions listed: Acute Myeloid Leukemia, Leukemia, Acute Myeloid, Myeloid Leukemia, Acute, Leukemia, Myeloid, Acute. No results are recorded here; the registry entry is the source.",
     drugs: ["iomab-b"], cancers: ["aml", "aml-older-unfit"], companies: ["actinium-pharmaceuticals"],
     links: [{ label: "ClinicalTrials.gov NCT02665065", url: "https://clinicaltrials.gov/study/NCT02665065" }] },
-  { id: "nct07112196", kind: "trial", name: "Visugromab in Cachexia International Trial", nct: "NCT07112196", phase: "2/3", status: "recruiting", sponsor: "CatalYm GmbH", enrolled: 518, asOf, tags,
+  { id: "nct07112196", aka: ["VINCIT"], kind: "trial", name: "Visugromab in Cachexia International Trial", nct: "NCT07112196", phase: "2/3", status: "recruiting", sponsor: "CatalYm GmbH", enrolled: 518, asOf, tags,
     setting: "Adaptive, Phase 2/3, Randomized, Double-Blind Trial Investigating the Efficacy and Safety of Visugromab Versus Placebo in Patients With Cancer-associated Cachexia",
     tldr: "A phase 2/3 trial of Visugromab, run by CatalYm GmbH, now recruiting.",
     summary: "Visugromab in Cachexia International Trial is a phase 2/3 interventional study registered as NCT07112196 by CatalYm GmbH, with 518 participants planned, started 2026-04-16. Conditions listed: Cancer-associated Cachexia. No results are recorded here; the registry entry is the source.",

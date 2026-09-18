@@ -100,7 +100,7 @@ const GENERIC_WORDS = new Set([
 const NOT_TRIALS = new Set([
   "AA-P", "AB-BNCT", "TAL-D", "TAL-DP", "TAL-P", "TEC-DR", "MEZIKD", "MEZIVD", "B-PD", "B-VD", "R-CHP", "R-GDP", "R-GEMOX", "ODRO-CHOP", "GEMABRAXNE", "HYD-SULFATE", "R-DXD", "I-DXD", "RINA-S", "EMI-LE", "DELTEX", "OSTEODEX", "NANO2", "DECOY20", "MDNA11", "IGPRO20",
   "NECVAX-NEO1", "GEO-CM04S1", "ADAPT-001", "ATTR-01", "IMNN-001", "BOLD-100", "RIMO-301", "RAPA-201", "TORL-5", "SMART101", "SNIPR001", "ELCIN", "LIDU", "EGRF", "ICB", "WOO", "PD1-IL2M", "TRANSCON", "STEAP2", "PIWIL1", "LILRB2", "METTL3", "NCAM1", "ALPK1", "CLDN",
-  "EB-DTKN-401", "EB-DUALNK", "EB-HC01", "SONOCLOUD-9", "TAL-DR", "TAL-TEC", "TEC-D", "D-VD",
+  "EB-DTKN-401", "EB-DUALNK", "EB-HC01", "SONOCLOUD-9", "TAL-DR", "TAL-TEC", "TEC-D", "D-VD", "TUMORAD", "NBM-BMX",
 ]);
 
 /** Gene, target, virus and biomarker symbols; each word of a candidate is checked. Target records add to this list. */
@@ -230,7 +230,13 @@ export function reject(raw: string, v: Vocab, trial?: TrialEntity, strict = true
   if (/^NCT\d+/i.test(s)) return "registry id";
   if (v.orgs.has(U)) return "organisation";
   if (v.genes.has(U) || v.genes.has(N)) return "gene";
+  // a gene family member the target records do not list: PARP7, CDK9, IL15, HDAC6, KLK2
+  if (/^(PARP|CDK|FGFR|HER|IL|CD|HDAC|JAK|MEK|AKT|KLK|MMP|TLR|CCR|CXCR|CXCL|NOTCH|WNT|IGF|STAT|CASP|TNFRSF|SLC\d*A?)-?\d{1,3}[A-Z]?$/i.test(s)) return "gene";
   if (/^[A-Za-z]{1,3}$/.test(s)) return "abbreviation";
+  // a compound or product name followed by an indication or site suffix ("EB-DUALNK-OV", "NBM-BMX-UM")
+  for (const nt of NOT_TRIALS) if (U.startsWith(`${nt}-`)) return `compound (${nt})`;
+  // only short capital groups and no number ("NBM-BMX-UM", "DUAL-NK") is a string of abbreviations, not a name
+  if (!/\d/.test(s) && words.every((w) => w.length <= 3)) return "abbreviation";
   const lettersOnly = s.replace(/[^A-Za-z]/g, "");
   if (words.every((w) => w.length <= 3) && /^[A-Za-z]{3,6}$/.test(lettersOnly) && upper(lettersOnly) >= 2 && (/d$/.test(lettersOnly) || /dex$/i.test(lettersOnly))) return "regimen";
   if (/DXd$/.test(s) || /^(Ig|Anti|Non|Sub)[A-Z-]/.test(s)) return "compound";
@@ -263,6 +269,11 @@ export function reject(raw: string, v: Vocab, trial?: TrialEntity, strict = true
   if (strict && !/\d/.test(s) && words.length === 1 && /^[A-Z]{4}$/.test(s) && !hasVowel(s)) return "abbreviation";
   if (before && !/\d/.test(s) && abbreviates(s, before)) return "abbreviation of the preceding words";
   if (trial && N === norm(trial.name)) return "equals name";
+  // the acronym is the drug when the title carries it behind a radionuclide label ("177Lu-BetaBart", "[225Ac]Ac-Name")
+  if (trial) {
+    const label = new RegExp(`\\d{2,3}[A-Z][a-z]?\\]?(?:[A-Z][a-z]?)?-${s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![A-Za-z0-9])`);
+    if ([trial.name, trial.setting].some((t) => t && label.test(t))) return "radiolabelled compound";
+  }
   return undefined;
 }
 

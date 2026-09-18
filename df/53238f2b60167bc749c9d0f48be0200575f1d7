@@ -1,0 +1,134 @@
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 168
+src/data/institutions/india.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 42
+src/data/people/us-west.ts
+  s_0beac9cb5d78fd::t_a8b532f71dae1d 761
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 41,207,383
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_cd71735f061974 162
+src/data/people/key-opinion-leaders.ts
+  s_0beac9cb5d78fd::t_a8b532f71dae1d 1239
+src/data/institutions/us.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 355
+src/data/institutions/bodies.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 46,259
+src/data/journals-wave2.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 415,624,936
+src/data/collections.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 58
+src/data/spikes/neuroblastoma.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 33
+src/data/spikes/cervical.ts
+  s_0beac9cb5d78fd::t_cd71735f061974 138
+src/data/drugs-pipeline-wave7.ts
+  s_0beac9cb5d78fd::t_35353c5d73c710 23
+src/data/spikes/hcc.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 47
+src/data/spikes/all-leukemia.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 84
+src/data/spikes/glioblastoma.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 19,22
+src/data/people/leaders-wave2.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 1192
+  s_0beac9cb5d78fd::t_a8b532f71dae1d 23,31,226,271,532,557,642,939,1064,1083,1160,1199,1251,1301,1308,1343
+  s_0beac9cb5d78fd::t_a8fe3863438eb9 285,330,1069
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_cd71735f061974 35,197
+src/data/polycythaemia-vera.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 137
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 397,402,407,412,708,882,901,936
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 34,104
+  s_0beac9cb5d78fd::t_a8b532f71dae1d 129
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_4aaefd9421703d 799,876
+  s_0beac9cb5d78fd::t_a8b532f71dae1d 831,1283,1333
+  s_0beac9cb5d78fd::t_747f9238ee17db 26,45,54,232,397,507,674
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 250
+src/data/institutions/world.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 541,605,625
+src/data/machines-wave2.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 306,309,313
+src/data/companies-wave1.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 64,71
+scripts/backlink-fill.ts
+  s_0beac9cb5d78fd::t_c77ca39702acd9 43-50
+  s_0beac9cb5d78fd::t_0dc0f5c82d874e 156,160-161
+  s_0beac9cb5d78fd::t_8f32b459829345 151-152
+  s_0beac9cb5d78fd::t_e0eba969d78c3b 42
+  s_0beac9cb5d78fd::t_93b20e77aec7af 30-41,51
+  s_0beac9cb5d78fd::t_49a7d87fa6efa1 162-164
+  s_0beac9cb5d78fd::t_a2946606fcabc4 168-177
+  s_0beac9cb5d78fd::t_20677e4adbdf2c 96,100-102,108-117
+  s_0beac9cb5d78fd::t_eeae5e5a4d3585 62,66,70,73-82,84-91,105
+  s_0beac9cb5d78fd::t_96bcd2c8439035 1-29,52-59,61,63-65,67-69,71-72,83,92-95,97-99,106-107,118-140,143-150,153-155,157-159,165-167,178-187,197-200,202,208-209,211-212,227-236,238-239,241-252
+  s_0beac9cb5d78fd::t_16d3384d72ef3c 188-196,201,203-207,210,213-226
+  s_0beac9cb5d78fd::t_128a87a1d7abf6 103-104
+  s_0beac9cb5d78fd::t_1020e097b02fd1 237,240
+  s_0beac9cb5d78fd::t_38bf1083b9eea5 60
+  s_0beac9cb5d78fd::t_21b412a6a614bf 141-142
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_35353c5d73c710 5543
+  s_0beac9cb5d78fd::t_67b1e49ce91ed1 199,1123,1855,3109,3499,3901,3949,6733,8641,8809,8857,9235
+  s_0beac9cb5d78fd::t_a8b532f71dae1d 2989,6385,7891,7975,8365
+  s_0beac9cb5d78fd::t_747f9238ee17db 91,143,205,307,415,485,1033,1201,1495,1501,1577,1579,1597,1621,1693,1843,2023,2047,2203,2293,2525,2957,3067,3355,3613,3629,3709,3751,3865,3983,4195,4295,4429,4525,4543,4567,4601,4643,4879,4909,5185,5197,5251,5353,5359,5449,5549,5633,5761,5797,5909,5989,6025,6199,6253,6343,6595,6625,6889,6895,7103,7117,7255,7363,7441,7519,7831,7933,8003,8227,8251,8597,8843,9187,9245,9301,9403,9467
+  s_0beac9cb5d78fd::t_928733793d9574 505,721,955,1261,1543,2155,2383,3103,3181,3199,3931,5743,5767,6097,6313,7429,7717,8551,9493,9529
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 167,224,232,239
+src/data/journals.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 286,356
+src/data/investors.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 78,239,244,320
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_cd71735f061974 10
+  s_0beac9cb5d78fd::t_747f9238ee17db 13,45,57,250
+  s_0beac9cb5d78fd::t_aeca299fa1b4f3 14
+src/data/companies-sponsors.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 58,1387,1397,1427,1442,1452,1475,1487,1492,1497,1517,1532,1537,1552,1573,1586
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 734,1582
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 9,25,58,74,113,154,167,207,233,260,274,288,301,398,412,470,487,517,532,546,561,802,890,1211
+src/data/institutions/europe.ts
+  s_0beac9cb5d78fd::t_a8b532f71dae1d 451
+  s_0beac9cb5d78fd::t_747f9238ee17db 550-551
+src/data/people/leaders-wave3.ts
+  s_0beac9cb5d78fd::t_a8b532f71dae1d 83,182,250,294,303,367,405,503,538,598,641,734,793,870
+  s_0beac9cb5d78fd::t_747f9238ee17db 140,461,547,707,901
+src/data/people/leaders-wave4.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 103,225,401,755,845,955,978,991,1171,1176,1196,1297
+  s_0beac9cb5d78fd::t_a8b532f71dae1d 44,53,62,71,80,89,115,132,149,157,166,184,193,238,247,279,288,305,347,421,472,505,539,571,605,648,698,707,741,784,801,819,869,922,982,1008,1016,1122,1131,1203,1262,1271,1306,1315,1333
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 249,262,493,606,689
+src/data/radiation-wave1.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 47
+src/data/china.ts
+  s_0beac9cb5d78fd::t_cd71735f061974 112,341,361
+src/data/drugs-china-wave1.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 64
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 199
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 292
+src/data/sources.ts
+  s_0beac9cb5d78fd::t_747f9238ee17db 21,47,91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "df53238f2b60167bc749c9d0f48be0200575f1d7",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

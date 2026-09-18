@@ -1,0 +1,43 @@
+src/data/index.ts
+  s_0beac9cb5d78fd::t_c45404869b18cd 95
+  s_0beac9cb5d78fd::t_7bbacb915c5db1 174
+src/data/spikes/gastric.ts
+  s_0beac9cb5d78fd::t_5242304dcc17d1 32,43,51,62,94,122
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_963ac88c599218 102,123,148
+src/data/spikes/esophageal.ts
+  s_0beac9cb5d78fd::t_650ac67ec5dd86 133
+src/data/upper-gi-liver-subtypes.ts
+  ai_agent 1-379
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 36,248,261
+  s_0beac9cb5d78fd::t_99d551f1500c5e 283,296,694,702
+src/data/spikes/hcc.ts
+  s_0beac9cb5d78fd::t_02bc9df9e42f05 108,117,125,135,162,169,176,183,191,199,206,228,235,242,249
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_b25175ecd689b6 99,107,157,169
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_1129dc47b7cafe 202
+src/components/CancerIcon.tsx
+  s_0beac9cb5d78fd::t_64ad8582cbda33 261-262,264,266
+src/data/spikes/cholangiocarcinoma.ts
+  s_0beac9cb5d78fd::t_61e4869dd049ac 76,84,88,112,120,128,135,142,149
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_650ac67ec5dd86 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a8e1d7303edaf28230a57738d1a9d999f81ed277",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

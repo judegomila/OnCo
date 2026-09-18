@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 18 September 2026
-- Pages are far lighter: the shared header, footer and cancer list are no longer copied into every page's data, and the sign-in id ships with the code
+- Sign up or log in button in the top bar, a medical disclaimer in the footer, and new Terms of Use and Privacy Policy pages
 - Seventy-four drug makers added and 210 drug-to-company links filled, so pipeline drugs now show who is developing them
 - Key papers for 147 subtype pages: 364 pivotal trial, classification and guideline papers, each checked against Europe PMC
 - Thirty-nine drugs named by the new subtype pages now have their own records, from hormone therapies for pituitary tumours to antibody-drug conjugates in trials
@@ -29,6 +29,9 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - 969 more plain-English sentences for early-phase trials, key papers and collections, taking the simple layer to 9,930 records; one non-cancer registry record removed
 - Orphan trials given content: ten drug matches, 17 sponsor aliases, 36 sponsor companies and 130 trials tied to their makers, two non-cancer records removed; backlinks round: 303 weakly linked records gain true relations from their own text; orphans down to 214
 - 1,024 more plain-English sentences: 279 companies, 104 institutions and 640 phase 3 trials, taking the simple layer to 8,961 records
+- Pages are far lighter: the shared header, footer and cancer list are no longer copied into every page's data, and the sign-in id ships with the code
+- Terms of use and privacy policy pages, medical disclaimer in the footer, copyright to OnCo
+- Header: a Sign up or log in pill when signed out; region, language and search controls sit on the centre line
 - Stop serialising the cancer list and the shared chrome into every page's payload
 - Sign-in is live: first-time visitors choose whether they are a patient, caregiver, researcher or clinician and can set a cancer, kept only in their browser
 - Each ship now builds once: Git-triggered Vercel builds are skipped and only the verified deploy runs

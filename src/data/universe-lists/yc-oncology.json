@@ -4,10 +4,10 @@
   "sourceRepo": "https://github.com/yc-oss/api",
   "fetched": "2026-09-10",
   "checked": "2026-09-10",
-  "method": "Filtered the open YC directory dataset (6,209 companies) for oncology: pass 'keyword' matches cancer, oncology, tumour, chemo, radiotherapy, biopsy, leukaemia, lymphoma, melanoma, carcinoma, metastasis, malignancy, myeloma, glioma or sarcoma in the name, one-liner, description or tags; pass 'broad' matches wider terms (onco, carcinoma, precision medicine, liquid biopsy, CAR-T, radiopharmaceutical, immunotherapy, mammography, pathology, antibody, protein degradation, cell therapy, T cell) within the Healthcare industry. Every hit was then read on its YC profile and its website fetched on the checked date; a company is included when cancer is its stated primary work. Companies headquartered in mainland China or India are left to separate passes. matchedId is the OnCo company id.",
+  "method": "Filtered the open YC directory dataset (6,209 companies) for oncology: pass 'keyword' matches cancer, oncology, tumour, chemo, radiotherapy, biopsy, leukaemia, lymphoma, melanoma, carcinoma, metastasis, malignancy, myeloma, glioma or sarcoma in the name, one-liner, description or tags; pass 'broad' matches wider terms (onco, carcinoma, precision medicine, liquid biopsy, CAR-T, radiopharmaceutical, immunotherapy, mammography, pathology, antibody, protein degradation, cell therapy, T cell) within the Healthcare industry. Every hit was then read on its YC profile and its website fetched on the checked date; a company is included when cancer is its stated primary work. Companies headquartered in mainland China or India are left to separate passes. Entries marked pass 'manual' were found outside that filter, because the company's YC description uses no oncology keyword; they were read on the YC profile and the website fetched the same way, on the date in the entry's checked field. matchedId is the OnCo company id.",
   "counts": {
-    "hits": 105,
-    "included": 62,
+    "hits": 106,
+    "included": 63,
     "excluded": 43
   },
   "entries": [
@@ -990,6 +990,25 @@
       "pass": "keyword",
       "decision": "included",
       "matchedId": "oncobox"
+    },
+    {
+      "slug": "strand-ai",
+      "name": "Strand AI",
+      "batch": "Winter 2026",
+      "batchCode": "W26",
+      "ycStatus": "Active",
+      "ycUrl": "https://www.ycombinator.com/companies/strand-ai",
+      "website": "https://strandai.com",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [],
+      "location": "San Francisco, CA, USA",
+      "pass": "manual",
+      "checked": "2026-09-18",
+      "decision": "included",
+      "matchedId": "strand-ai"
     },
     {
       "slug": "origin-bio",

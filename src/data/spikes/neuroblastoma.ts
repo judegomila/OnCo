@@ -106,7 +106,7 @@ const drugs: DrugInput[] = [
     summary: "Response rate ~30-40% in relapsed/refractory MIBG-avid neuroblastoma (NANT, COG studies), with myelosuppression requiring stem-cell support at ≥12 mCi/kg. COG ANBL1531 randomised 131I-MIBG added to induction (primary results pending 2026). Commercial Azedra (for pheochromocytoma) was discontinued in 2024, leaving compounding and academic supply.",
     mechanism: "Norepinephrine transporter uptake of radio-iodinated benzylguanidine; 131I beta emission (2 mm range).",
     dosing: { route: "IV", schedule: "12-18 mCi/kg single or tandem doses with autologous stem-cell support; thyroid blockade with potassium iodide", monitoring: "Radiation isolation, counts, thyroid function, secondary malignancy" },
-    technologies: ["mibg-theranostics", "radioligand-therapy"], cancers: ["neuroblastoma", "neuroblastoma-high-risk"], trials: ["anbl1531"], links: [{ label: "Wikipedia", url: W("Iobenguane") }] }),
+    technologies: ["mibg-theranostics", "radioligand-therapy"], cancers: ["neuroblastoma", "neuroblastoma-high-risk", "metastatic-ppgl"], trials: ["anbl1531"], links: [{ label: "Wikipedia", url: W("Iobenguane") }] }),
 ];
 
 // ======================= TRIALS =======================

@@ -157,7 +157,7 @@ const trials: TrialInput[] = [
       { endpoint: "5-year reactivation rate, risk-organ-positive (both arms, 12 months)", unit: "%", arms: [{ name: "LCH-III", value: 27 }, { name: "LCH-I (historical, 6 months)", value: 55 }, { name: "LCH-II (historical, 6 months)", value: 44 }], source: "https://doi.org/10.1182/blood-2012-09-455774" },
     ],
     replication: "Historical comparison with LCH-I and LCH-II for the risk-organ-positive stratum; LCH-IV (NCT02205762) is testing 12 vs 24 months.",
-    cancers: ["langerhans-cell-histiocytosis"], drugs: ["vinblastine", "methotrexate"], institutions: ["histiocyte-society"], targets: ["braf"], pathways: ["ras-mapk"],
+    cancers: ["langerhans-cell-histiocytosis", "lch-multisystem", "lch-single-system"], drugs: ["vinblastine", "methotrexate"], institutions: ["histiocyte-society"], targets: ["braf"], pathways: ["ras-mapk"],
     links: [ct("NCT00276757"), doi("Gadner et al., Blood 2013", "10.1182/blood-2012-09-455774"), { label: "Histiocyte Society: LCH-IV", url: "https://histiocytesociety.org/LCH-IV" }],
     tags: [...PAEDIATRIC_TAGS, "histiocytosis"] }),
 

@@ -58,7 +58,7 @@ export const headNeckHpvTrials: TrialInput[] = [
       { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Camrelizumab + gemcitabine-cisplatin", value: 9.7 }, { name: "Placebo + gemcitabine-cisplatin", value: 6.9 }], hr: 0.54 },
     ],
     replication: "JUPITER-02 (toripalimab) and RATIONALE-309 (tislelizumab) reported the same effect with different PD-1 antibodies.",
-    drugs: ["camrelizumab", "gemcitabine-cisplatin", "gemcitabine", "cisplatin"], cancers: ["nasopharyngeal", "head-and-neck"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], companies: ["hengrui"], institutions: ["sysucc"], trials: ["jupiter-02"],
+    drugs: ["camrelizumab", "gemcitabine-cisplatin", "gemcitabine", "cisplatin"], cancers: ["nasopharyngeal", "head-and-neck", "recurrent-metastatic-nasopharyngeal-carcinoma"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], companies: ["hengrui"], institutions: ["sysucc"], trials: ["jupiter-02"],
     links: [ct("NCT03707509")] },
 ];
 

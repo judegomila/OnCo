@@ -60,6 +60,23 @@ const PARENT_PHRASES: Record<string, RegExp> = {
   "lung-cancer": /lung/i,
   esophageal: /oesophag|esophag|gullet/i,
   mesothelioma: /mesothelioma/i,
+  anal: /anal/i,
+  penile: /penile|penis/i,
+  vulvar: /vulva/i,
+  vaginal: /vagina/i,
+  "thymic-epithelial": /thym/i,
+  adrenocortical: /adrenocortical|adrenal/i,
+  appendiceal: /appendi/i,
+  "small-bowel": /small bowel|small intestin/i,
+  "cancer-of-unknown-primary": /unknown primary/i,
+  histiocytoses: /histiocyt/i,
+  "langerhans-cell-histiocytosis": /langerhans|histiocytosis/i,
+  "systemic-mastocytosis": /mastocytosis/i,
+  "hodgkin-lymphoma": /hodgkin/i,
+  "gestational-trophoblastic": /trophoblastic/i,
+  "pheochromocytoma-paraganglioma": /pheochromocytoma|paraganglioma/i,
+  nasopharyngeal: /nasopharyn/i,
+  sinonasal: /sinonasal|nasal cavity|nose|sinus/i,
 };
 
 /** At most this many same-parent siblings in `related`: a comparison set, not the whole family. */

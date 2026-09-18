@@ -9,6 +9,7 @@ export const SITE_PAGES: ReadonlyArray<{ href: string; label: string; blurb: str
   { href: "/about/", label: "About and methodology", blurb: "What OnCo is, how it is built, its rules for facts, licences and how to contribute." },
   { href: "/terms-of-use/", label: "Terms of use", blurb: "The rules for using OnCo: not medical advice, accuracy not guaranteed, accounts, licences, liability and contact." },
   { href: "/privacy/", label: "Privacy policy", blurb: "What OnCo collects and where it lives: hosting, analytics, accounts, browser storage, your rights and how to contact us." },
+  { href: "/welcome/", label: "Tell us two things", blurb: "Who you are (patient, caregiver, researcher or medical provider), your cancer, country and data view, kept in this browser with your signed-in account." },
 ];
 
 /** Compact documents for the client-side search index. */

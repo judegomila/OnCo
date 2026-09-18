@@ -36,25 +36,36 @@ const render = (props: Partial<Parameters<typeof WelcomeStep>[0]> = {}) =>
 describe("WelcomeStep", () => {
   it("offers the four roles as pressable pills with tooltips", () => {
     const html = render();
-    expect(html).toContain("Tell us who you are");
     for (const label of ["Patient", "Caregiver", "Researcher", "Medical provider"]) expect(html).toContain(`</svg>${label}</button>`);
-    expect(html.match(/aria-pressed="false"/g)).toHaveLength(4);
+    // Four role pills unpressed; Global and Technical are pressed as the toggles' defaults.
+    expect(html.match(/aria-pressed="false"/g)).toHaveLength(4 + 7 + 2);
     for (const r of ACCOUNT_ROLES) expect(html).toContain(`title="${EN[`account.welcome.hint.${r}`]}"`);
   });
 
   it("marks the initial role pressed and enables Continue for it", () => {
     const html = render({ initialRole: "caregiver" });
-    expect(html.match(/aria-pressed="true"/g)).toHaveLength(1);
+    expect(html).toMatch(/aria-pressed="true"[^>]*title="Logistics, side effects and when to call the team"/);
     expect(html).not.toMatch(/<button[^>]* disabled=""[^>]*>Continue</);
     expect(render()).toMatch(/<button[^>]* disabled=""[^>]*>Continue</);
   });
 
-  it("states the consent sentence and where Skip goes", () => {
+  it("states the consent sentence, covering preferences, and where Skip goes", () => {
     const html = render();
-    expect(html).toContain("Your role and cancer choice stay in this browser and are never sent to OnCo or anyone else. You can clear them at any time from your account menu.");
+    expect(html).toContain(EN["account.welcome.consent"]);
+    expect(EN["account.welcome.consent"]).toBe("Your role, cancer choice and preferences (country, data view, language, theme) stay in this browser and are never sent to OnCo or anyone else. You can clear them at any time from your account menu.");
     // Link drops the trailing slash here; the site's trailingSlash config restores it in the export.
     expect(html).toMatch(/<a[^>]*href="\/saved\/?"[^>]*>Skip for now<\/a>/);
     expect(html).toContain("Your cancer type (optional)");
+    expect(html).toContain("Your country or region (optional)");
+    expect(html).toContain("Data view (optional)");
+  });
+
+  it("shows the sign-in control and a note instead of Continue when there is no user", () => {
+    const html = render({ userId: undefined });
+    expect(html).toContain('data-testid="welcome-signed-out"');
+    expect(html).toContain(EN["account.welcome.signedOut"]);
+    expect(html).not.toContain(">Continue</button>");
+    expect(html).not.toContain("Skip for now");
   });
 
   it("nests no anchors and keeps the pink primary button", () => {
@@ -65,16 +76,16 @@ describe("WelcomeStep", () => {
 
   it("has every welcome key in every language", () => {
     const keys = Object.keys(EN).filter((k) => k.startsWith("account.welcome."));
-    expect(keys.length).toBeGreaterThanOrEqual(24);
+    expect(keys.length).toBeGreaterThanOrEqual(35);
     for (const l of LANGS) for (const k of keys) expect((UI_DICTS[l.code] as Record<string, string>)[k], `${l.code}: ${k}`).toBeTruthy();
   });
 
   it("only returns to same-origin absolute paths", () => {
     expect(safeReturnPath("/cancers/aml/")).toBe("/cancers/aml/");
     expect(safeReturnPath("/trials/?cancers=AML")).toBe("/trials/?cancers=AML");
-    expect(safeReturnPath("//evil.example/")).toBe("/signup/");
-    expect(safeReturnPath("https://evil.example/")).toBe("/signup/");
-    expect(safeReturnPath(null)).toBe("/signup/");
-    expect(safeReturnPath("")).toBe("/signup/");
+    expect(safeReturnPath("//evil.example/")).toBe("/");
+    expect(safeReturnPath("https://evil.example/")).toBe("/");
+    expect(safeReturnPath(null)).toBe("/");
+    expect(safeReturnPath("")).toBe("/");
   });
 });

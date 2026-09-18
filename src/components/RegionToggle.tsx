@@ -25,7 +25,7 @@ export function RegionToggle() {
   const meta = region ? { label: countryName(region), regulator: REGION_META[region].regulator, flag: REGION_META[region].flag } : { label: t("region.global"), regulator: t("region.allRegulators"), flag: null };
   return (
     <div ref={box} className="relative flex items-center">
-      <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="listbox" aria-expanded={open} aria-label={t("region.aria", { region: meta.label })} title={t("region.title", { region: meta.label, regulator: meta.regulator })}
+      <button type="button" data-onco-toggle="region" onClick={() => setOpen((o) => !o)} aria-haspopup="listbox" aria-expanded={open} aria-label={t("region.aria", { region: meta.label })} title={t("region.title", { region: meta.label, regulator: meta.regulator })}
         className="ctl px-2 gap-1.5">
         {/* A drawn globe rather than the emoji; flag and globe share one 20px glyph box, so the control keeps its width and centre whichever is showing. */}
         <span aria-hidden className="ctl-glyph">{meta.flag ?? <GlobeIcon />}</span>

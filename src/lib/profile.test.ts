@@ -53,6 +53,17 @@ describe("account profile store", () => {
     expect(getAccountProfile("user_1")).toEqual({});
   });
 
+  it("keeps the four preferences and drops values the toggles would not accept", () => {
+    saveAccountProfile("user_1", { role: "patient", region: "UK", view: "plain", language: "fr", theme: "dark" });
+    expect(getAccountProfile("user_1")).toEqual({ role: "patient", region: "UK", view: "plain", language: "fr", theme: "dark" });
+    saveAccountProfile("user_1", { region: "global", theme: "contrast" });
+    expect(getAccountProfile("user_1")).toMatchObject({ region: "global", theme: "contrast", view: "plain" });
+    win.store.set("onco:account-profile:v1:user_2", JSON.stringify({ role: "caregiver", region: "mars", view: "loud", language: "tlh", theme: "neon" }));
+    expect(getAccountProfile("user_2")).toEqual({ role: "caregiver" });
+    win.store.set("onco:account-profile:v1:user_3", JSON.stringify({ region: 12, view: null, theme: "light" }));
+    expect(getAccountProfile("user_3")).toEqual({ theme: "light" });
+  });
+
   it("clears one user without touching another", () => {
     saveAccountProfile("user_1", { role: "provider" });
     saveAccountProfile("user_2", { role: "patient" });

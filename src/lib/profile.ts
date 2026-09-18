@@ -1,6 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { LANGS, LEVELS, type Lang, type Level } from "./layer";
+import { isTheme, type Theme } from "./theme";
 
 /**
  * A browser-only profile that personalises OnCo. Stored in localStorage under one key.
@@ -110,25 +112,51 @@ export const ROLE_MODE: Record<AccountRole, ProfileMode> = { patient: "patient",
 /**
  * Stored in localStorage under `onco:account-profile:v1:<user id>`, one entry per signed-in user so two people
  * sharing a browser do not overwrite each other. `cancer` mirrors the cancer id also written to the browser profile
- * above (the preference For me and the hubs read). Nothing here is sent to any server; WorkOS only ever sees the
- * email address and name.
+ * above (the preference For me and the hubs read). The four preferences mirror the header toggles' own stores
+ * (region `onco:region`, view and language `onco.layer`, theme `onco:theme`) so a signed-in reader's choices are
+ * kept with their account entry and put back when they sign in (src/lib/preferences.ts). Nothing here is sent to
+ * any server; WorkOS only ever sees the email address and name.
  */
-export type AccountProfile = { role?: AccountRole; cancer?: string; consentAt?: string };
+export type AccountProfile = {
+  role?: AccountRole;
+  cancer?: string;
+  consentAt?: string;
+  /** Country whose regulator decides "approved" (a REGION_META code), or "global". */
+  region?: string;
+  /** Reading level of the layer toggle: technical, plain or simple. */
+  view?: Level;
+  /** Site language code. */
+  language?: Lang;
+  /** Colour theme of the header toggle. */
+  theme?: Theme;
+};
+/** The preference fields of the account profile, the ones mirrored from the header toggles. */
+export const PREFERENCE_FIELDS = ["region", "view", "language", "theme"] as const;
+export type PreferenceField = (typeof PREFERENCE_FIELDS)[number];
 
 const ACCOUNT_EVENT = "onco:account-profile";
 const accountKey = (userId: string) => `onco:account-profile:v1:${userId}`;
+
+/** Drop anything that is not a known value; a damaged or foreign entry reads as empty rather than throwing. */
+export function sanitiseAccountProfile(p: unknown): AccountProfile {
+  if (!p || typeof p !== "object") return {};
+  const r = p as Record<string, unknown>;
+  const out: AccountProfile = {};
+  if (typeof r.role === "string" && (ACCOUNT_ROLES as readonly string[]).includes(r.role)) out.role = r.role as AccountRole;
+  if (typeof r.cancer === "string" && r.cancer) out.cancer = r.cancer;
+  if (typeof r.consentAt === "string") out.consentAt = r.consentAt;
+  if (typeof r.region === "string" && (r.region === "global" || /^[A-Z]{2}$/.test(r.region))) out.region = r.region;
+  if (typeof r.view === "string" && LEVELS.some((l) => l.code === r.view)) out.view = r.view as Level;
+  if (typeof r.language === "string" && LANGS.some((l) => l.code === r.language)) out.language = r.language as Lang;
+  if (isTheme(r.theme)) out.theme = r.theme;
+  return out;
+}
 
 export function getAccountProfile(userId: string | undefined): AccountProfile {
   if (typeof window === "undefined" || !userId) return {};
   try {
     const raw = window.localStorage.getItem(accountKey(userId));
-    if (!raw) return {};
-    const p = JSON.parse(raw) as AccountProfile;
-    const out: AccountProfile = {};
-    if (p.role && (ACCOUNT_ROLES as readonly string[]).includes(p.role)) out.role = p.role;
-    if (typeof p.cancer === "string" && p.cancer) out.cancer = p.cancer;
-    if (typeof p.consentAt === "string") out.consentAt = p.consentAt;
-    return out;
+    return raw ? sanitiseAccountProfile(JSON.parse(raw)) : {};
   } catch { return {}; }
 }
 

@@ -20,7 +20,7 @@ export const accountEnabled = provider !== "none";
 /** True when the provider keeps the watchlist server-side (Supabase); WorkOS accounts keep it in the browser. */
 export const syncsWatchlist = provider === "supabase";
 
-export type Session = { access_token: string; refresh_token: string; expires_at: number; user: { id: string; email: string; name?: string } };
+export type Session = { access_token: string; refresh_token: string; expires_at: number; user: { id: string; email: string; name?: string; firstName?: string } };
 const SKEY = "onco:session:v1";
 const PKCE_KEY = "onco:pkce";
 const RETURN_KEY = "onco:return-to";
@@ -28,10 +28,23 @@ const EVENT = "onco:account";
 
 /**
  * The path a fresh sign-in should return to, written by `captureSession` just before it stores the session and
- * read once (then removed) by the signup page's welcome step. Null when no sign-in has just completed.
+ * read once (then removed) by the signup form, which then decides between the welcome step and that path
+ * (src/lib/after-sign-in.ts). Null when no sign-in has just completed.
  */
 export function takeReturnPath(): string | null {
   try { const v = window.sessionStorage.getItem(RETURN_KEY); if (v !== null) window.sessionStorage.removeItem(RETURN_KEY); return v; } catch { return null; }
+}
+
+/** True while the address bar still carries a WorkOS `?code=`, i.e. a sign-in is completing on this page. */
+export function signInPending(): boolean {
+  if (provider !== "workos" || typeof window === "undefined") return false;
+  try { return new URLSearchParams(window.location.search).has("code"); } catch { return false; }
+}
+
+/** The first name WorkOS gave, else the first word of the name, else the part of the email before the @. */
+export function displayName(user: Session["user"]): string {
+  const first = user.firstName?.trim() || user.name?.trim().split(/\s+/)[0] || user.email.split("@")[0] || user.email;
+  return first;
 }
 
 export function loadSession(): Session | null {
@@ -76,12 +89,13 @@ type WorkosAuth = { access_token: string; refresh_token: string; user: { id: str
 function fromWorkos(j: WorkosAuth): Session {
   const exp = Number(jwtClaims(j.access_token).exp ?? 0);
   const name = [j.user.first_name, j.user.last_name].filter(Boolean).join(" ") || undefined;
-  return { access_token: j.access_token, refresh_token: j.refresh_token, expires_at: exp ? exp * 1000 : Date.now() + 5 * 60 * 1000, user: { id: j.user.id, email: j.user.email, name } };
+  const firstName = j.user.first_name?.trim() || undefined;
+  return { access_token: j.access_token, refresh_token: j.refresh_token, expires_at: exp ? exp * 1000 : Date.now() + 5 * 60 * 1000, user: { id: j.user.id, email: j.user.email, name, firstName } };
 }
 async function workosExchange(body: Record<string, string>): Promise<Session | null> {
   const r = await fetch(`${WORKOS_API}/authenticate`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ client_id: WORKOS, ...body }) }).catch(() => null);
   if (!r || !r.ok) return null;
-  return fromWorkos(await r.json() as WorkosAuth);
+  try { return fromWorkos(await r.json() as WorkosAuth); } catch { return null; }
 }
 
 /* ---------- shared surface ---------- */
@@ -96,10 +110,22 @@ export async function sendMagicLink(email: string): Promise<boolean> {
 
 /**
  * Complete a sign-in that arrived in the address bar: the WorkOS `?code=` (checked against the PKCE state saved before
- * the redirect) or the Supabase tokens in the fragment. Stores the session, cleans the address bar, and for WorkOS
- * returns the reader to the page they started from.
+ * the redirect) or the Supabase tokens in the fragment. Stores the session and cleans the address bar. For WorkOS the
+ * page the reader started from is left in session storage for `takeReturnPath`; the signup form then navigates
+ * (welcome step or that page). The address bar is not rewritten to that page here: a `history.replaceState` to
+ * another path would show its address over the signup page's content without ever rendering it.
+ *
+ * The header's account control and the signup form both call this on mount; one code can be exchanged once, so
+ * the first call owns the exchange and every caller on the page receives the same promise.
  */
-export async function captureSession(): Promise<Session | null> {
+let inflight: Promise<Session | null> | null = null;
+export function captureSession(): Promise<Session | null> {
+  if (inflight) return inflight;
+  const p = captureOnce();
+  if (provider === "workos" && signInPending()) { inflight = p; p.finally(() => { inflight = null; }).catch(() => undefined); }
+  return p;
+}
+async function captureOnce(): Promise<Session | null> {
   if (provider === "workos") {
     const p = new URLSearchParams(window.location.search);
     const code = p.get("code"); if (!code) return null;
@@ -108,10 +134,10 @@ export async function captureSession(): Promise<Session | null> {
     if (!saved || saved.state !== p.get("state")) return null;
     const s = await workosExchange({ grant_type: "authorization_code", code, code_verifier: saved.verifier });
     if (!s) return null;
-    const back = saved.returnTo && saved.returnTo !== "/signup/" && !saved.returnTo.startsWith("/signup/?") ? saved.returnTo : "/signup/";
+    const back = saved.returnTo && saved.returnTo !== "/signup/" && !saved.returnTo.startsWith("/signup/?") ? saved.returnTo : "/";
     try { window.sessionStorage.setItem(RETURN_KEY, back); } catch { /* storage blocked */ }
     saveSession(s);
-    history.replaceState(null, "", back);
+    history.replaceState(null, "", window.location.pathname);
     return s;
   }
   const h = window.location.hash;

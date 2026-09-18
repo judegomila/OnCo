@@ -110,6 +110,7 @@ export const EN = {
   "country.JP": "Japan",
   "country.CN": "China",
   "country.AU": "Australia",
+  "country.IN": "India",
 
   // ---- theme ----
   "theme.system": "Auto",
@@ -447,8 +448,8 @@ export const EN = {
   "account.continue": "Create an account or sign in",
   "account.providerNote": "Sign-in is handled by WorkOS: a code sent to your email, a password, Google or a passkey. OnCo keeps your email address and the name you give, nothing else.",
   // ---- first sign-in welcome step and the account menu ----
-  "account.welcome.title": "Tell us who you are",
-  "account.welcome.lede": "OnCo reads differently for each. Pick the closest fit; you can change it any time from your account menu.",
+  "account.welcome.title": "Tell us two things",
+  "account.welcome.lede": "Who you are and, if you like, your cancer. OnCo reads differently for each; your country and data view are here too, and you can change any of it later from your account menu.",
   "account.welcome.role.patient": "Patient",
   "account.welcome.role.caregiver": "Caregiver",
   "account.welcome.role.researcher": "Researcher",
@@ -460,7 +461,7 @@ export const EN = {
   "account.welcome.cancer": "Your cancer type (optional)",
   "account.welcome.cancerHint": "Choose one and For me, the cancer hub, trials and search open on it.",
   "account.welcome.cancerNone": "Not chosen",
-  "account.welcome.consent": "Your role and cancer choice stay in this browser and are never sent to OnCo or anyone else. You can clear them at any time from your account menu.",
+  "account.welcome.consent": "Your role, cancer choice and preferences (country, data view, language, theme) stay in this browser and are never sent to OnCo or anyone else. You can clear them at any time from your account menu.",
   "account.welcome.continue": "Continue",
   "account.welcome.continueHint": "Save your choices in this browser and carry on",
   "account.welcome.pickFirst": "Pick one of the four to continue",
@@ -473,6 +474,17 @@ export const EN = {
   "account.welcome.noRole": "Who are you?",
   "account.welcome.noRoleHint": "Tell OnCo whether you are a patient, caregiver, researcher or medical provider",
   "account.welcome.menu": "Account menu for {email}",
+  "account.welcome.region": "Your country or region (optional)",
+  "account.welcome.regionHint": "Decides which regulator's approvals count as approved on every page.",
+  "account.welcome.view": "Data view (optional)",
+  "account.welcome.viewHint": "How much detail each page shows first.",
+  "account.welcome.signedOut": "Sign in first; OnCo brings you back here to choose.",
+  "account.welcome.completing": "Signing you in…",
+  "account.welcome.prefChip": "{name}: {value}. Click to change.",
+  "account.welcome.pref.region": "Country",
+  "account.welcome.pref.view": "Data view",
+  "account.welcome.pref.language": "Language",
+  "account.welcome.pref.theme": "Theme",
 } as const;
 
 export type UiKey = keyof typeof EN;

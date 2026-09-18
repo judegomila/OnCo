@@ -16,7 +16,7 @@ const WORKFLOWS: Array<{ file: string; title: string; cron: string; runs: string
   { file: "refresh-papers.yml", title: "Literature snapshot", cron: "Tuesdays 05:41 UTC", runs: "fetch-papers" },
   { file: "refresh-fda.yml", title: "FDA approvals", cron: "Wednesdays 06:07 UTC", runs: "fetch-fda" },
   { file: "refresh-regional.yml", title: "EMA register check", cron: "Wednesdays 06:37 UTC", runs: "fetch-ema" },
-  { file: "refresh-pulse.yml", title: "Pulse, abstracts, citations", cron: "Thursdays 05:17 UTC", runs: "fetch-pulse, fetch-abstracts, fetch-citations" },
+  { file: "refresh-pulse.yml", title: "Pulse, abstracts, citations", cron: "Thursdays 05:17 UTC", runs: "fetch-pulse, fetch-abstracts, fetch-citations, fetch-openalex-papers" },
   { file: "refresh-hta.yml", title: "HTA decisions and survival", cron: "1st of the month 05:47 UTC", runs: "fetch-hta, fetch-survival" },
   { file: "propose.yml", title: "Change proposals", cron: "daily 03:23 UTC", runs: "propose-updates (opens a bot-proposal PR)" },
 ];

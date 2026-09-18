@@ -4,15 +4,17 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { CancerIcon } from "./CancerIcon";
 import { pickMyCancer, shortCancerName, useMyCancer, type MyCancerLite } from "@/lib/use-my-cancer";
+import { useMyCancerList } from "@/lib/use-my-cancer-list";
 import { accountEnabled, loadSession, onAccountChange } from "@/lib/account";
 
 /**
  * The header chip, back only for signed-in readers with a cancer set (it left the header until accounts were on).
- * Signed out, or with no cancer chosen, it renders nothing; the account menu still offers the choice.
+ * Signed out, or with no cancer chosen, it renders nothing and fetches nothing; the account menu still offers the choice.
  */
-export function SignedInMyCancerChip({ cancers, className = "" }: { cancers: MyCancerLite[]; className?: string }) {
+export function SignedInMyCancerChip({ className = "" }: { className?: string }) {
   const [signedIn, setSignedIn] = useState(false);
   const { id } = useMyCancer();
+  const cancers = useMyCancerList(signedIn && !!id);
   useEffect(() => {
     if (!accountEnabled) return;
     const raf = requestAnimationFrame(() => setSignedIn(!!loadSession()));
@@ -20,14 +22,16 @@ export function SignedInMyCancerChip({ cancers, className = "" }: { cancers: MyC
     return () => { cancelAnimationFrame(raf); off(); };
   }, []);
   if (!signedIn || !pickMyCancer(cancers, id)) return null;
-  return <span className={className}><MyCancerChip cancers={cancers} /></span>;
+  return <span className={className}><MyCancerChip /></span>;
 }
 
 /**
  * The remembered cancer, wherever it helps: a header chip, the home hero button, a pinned tile on the cancer hub,
- * a one-tap trials filter. Each takes the small (id, name, route) list from a server component and resolves the
- * stored id against it, so none of these imports the graph. Until storage has been read they render their unset
- * state, which is also what the server rendered, so hydration is clean.
+ * a one-tap trials filter. Each resolves the stored id against the (id, name, route) list, which useMyCancerList
+ * fetches from /api/v1/my-cancers.json only once a cancer is remembered, so none of these imports the graph and no
+ * page carries the list in its payload. Until storage and the list have been read they render their unset state,
+ * which is also what the server rendered, so hydration is clean. MyCancerPin still takes the list as a prop because
+ * it needs the group and TL;DR and sits on one page only.
  */
 export type MyCancerTile = MyCancerLite & { group?: string; tldr?: string };
 
@@ -40,9 +44,9 @@ function PickGlyph({ className = "h-4 w-4" }: { className?: string }) {
 }
 
 /** Header chip next to the profile icon: the chosen cancer with its icon, or "My cancer" opening the picker. */
-export function MyCancerChip({ cancers, className = "" }: { cancers: MyCancerLite[]; className?: string }) {
+export function MyCancerChip({ className = "" }: { className?: string }) {
   const { id } = useMyCancer();
-  const mine = pickMyCancer(cancers, id);
+  const mine = pickMyCancer(useMyCancerList(!!id), id);
   const base = `inline-flex h-10 max-w-[11rem] items-center gap-1.5 rounded-[0.625rem] border px-2.5 text-sm font-medium transition ${className}`;
   if (!mine) {
     return (
@@ -59,9 +63,9 @@ export function MyCancerChip({ cancers, className = "" }: { cancers: MyCancerLit
 }
 
 /** Home hero: "Research my cancer type" until a cancer is remembered, then "Continue with <cancer>" straight to its page. */
-export function MyCancerContinue({ cancers }: { cancers: MyCancerLite[] }) {
+export function MyCancerContinue() {
   const { id } = useMyCancer();
-  const mine = pickMyCancer(cancers, id);
+  const mine = pickMyCancer(useMyCancerList(!!id), id);
   if (!mine) return <Link href="/for-me/" className="btn btn-primary">Research my cancer type <span aria-hidden>→</span></Link>;
   return (
     <Link href={mine.route} className="btn btn-primary inline-flex items-center gap-2" title={mine.name}>
@@ -94,9 +98,9 @@ export function MyCancerPin({ cancers }: { cancers: MyCancerTile[] }) {
 }
 
 /** Trials index: one tap to the table filtered to the chosen cancer (the browser reads `?cancers=` on mount). */
-export function MyCancerTrialsFilter({ cancers }: { cancers: MyCancerLite[] }) {
+export function MyCancerTrialsFilter() {
   const { id } = useMyCancer();
-  const mine = pickMyCancer(cancers, id);
+  const mine = pickMyCancer(useMyCancerList(!!id), id);
   if (!mine) return <Link href="/for-me/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium inline-flex items-center gap-1.5"><PickGlyph className="h-4 w-4 text-accent" />Trials for my cancer →</Link>;
   return (
     <Link href={`/trials/?cancers=${encodeURIComponent(mine.name)}`} className="rounded-lg border border-accent/40 bg-accent-soft text-accent px-4 py-2 text-sm font-medium inline-flex items-center gap-1.5" title={`Only trials linked to ${mine.name}`}>

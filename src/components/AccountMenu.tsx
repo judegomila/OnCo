@@ -5,7 +5,8 @@ import Link from "next/link";
 import { accountEnabled, captureSession, loadSession, onAccountChange, provider, pushWatchlist, sendMagicLink, signOut, startSignIn, syncWatchlist, type Session } from "@/lib/account";
 import { useT } from "@/lib/i18n/ui";
 import { clearAccountProfile, useAccountProfile, useProfile } from "@/lib/profile";
-import { pickMyCancer, shortCancerName, type MyCancerLite } from "@/lib/use-my-cancer";
+import { pickMyCancer, shortCancerName } from "@/lib/use-my-cancer";
+import { useMyCancerList } from "@/lib/use-my-cancer-list";
 import { CancerIcon } from "./CancerIcon";
 import { RoleIcon } from "./WelcomeStep";
 
@@ -14,8 +15,8 @@ import { RoleIcon } from "./WelcomeStep";
  * watchlist across devices; otherwise it captures an email for updates through NEXT_PUBLIC_SIGNUP_ACTION (a Buttondown
  * or Listmonk form endpoint). `inline` is the fuller card used on /saved/; the default is the compact header control.
  * Signed in, the avatar opens a small menu: who you are (role chip and cancer, both browser-only), "Change who you
- * are" (reopens the welcome step on /signup/), "Clear my choices" and "Sign out". `cancers` (id, name, route) lets the
- * menu name the remembered cancer; without it only the role is shown.
+ * are" (reopens the welcome step on /signup/), "Clear my choices" and "Sign out". The remembered cancer is named by
+ * resolving its id against the list useMyCancerList fetches once a cancer is set (nothing is fetched otherwise).
  */
 const SIGNUP_ACTION = process.env.NEXT_PUBLIC_SIGNUP_ACTION ?? "";
 const SIGNUP_LIST = process.env.NEXT_PUBLIC_SIGNUP_LIST ?? "";
@@ -41,11 +42,11 @@ function changeHref(): string {
 }
 
 /** The signed-in reader's role and remembered cancer as chips: the role reopens the welcome step, the cancer opens its page. */
-function ProfileChips({ session, cancers, className = "" }: { session: Session; cancers: MyCancerLite[]; className?: string }) {
+function ProfileChips({ session, className = "" }: { session: Session; className?: string }) {
   const { t } = useT();
   const [account] = useAccountProfile(session.user.id);
   const [profile] = useProfile();
-  const mine = pickMyCancer(cancers, profile.cancerId);
+  const mine = pickMyCancer(useMyCancerList(!!profile.cancerId), profile.cancerId);
   const roleLabel = account.role ? t(`account.welcome.role.${account.role}`) : undefined;
   return (
     <span className={`flex flex-wrap items-center gap-1.5 ${className}`}>
@@ -57,7 +58,7 @@ function ProfileChips({ session, cancers, className = "" }: { session: Session; 
   );
 }
 
-export function AccountMenu({ inline = false, className = "", cancers = [] }: { inline?: boolean; className?: string; cancers?: MyCancerLite[] }) {
+export function AccountMenu({ inline = false, className = "" }: { inline?: boolean; className?: string }) {
   const { t } = useT();
   const [session, setSession] = useState<Session | null>(null);
   const [open, setOpen] = useState(false);
@@ -157,7 +158,7 @@ export function AccountMenu({ inline = false, className = "", cancers = [] }: { 
               <button type="button" onClick={() => signOut()} className="chip border border-border bg-card hover:bg-foreground/5"><ExitGlyph className="h-3 w-3" />{t("account.signOut")}</button>
             </div>
             <div className="flex flex-wrap items-center gap-1.5">
-              <ProfileChips session={session} cancers={cancers} />
+              <ProfileChips session={session} />
               <Link href={changeHref()} className="chip border border-border bg-card hover:bg-foreground/5" title={t("account.welcome.change")}><SwapGlyph className="h-3 w-3" />{t("account.welcome.change")}</Link>
               <button type="button" onClick={clearChoices} className="chip border border-border bg-card hover:bg-foreground/5 text-muted" title={t("account.welcome.clearHint")}><EraseGlyph className="h-3 w-3" />{t("account.welcome.clear")}</button>
             </div>
@@ -187,7 +188,7 @@ export function AccountMenu({ inline = false, className = "", cancers = [] }: { 
                 <div className="truncate font-medium">{session.user.name ?? session.user.email}</div>
                 {session.user.name && <div className="truncate text-xs text-muted">{session.user.email}</div>}
               </div>
-              <ProfileChips session={session} cancers={cancers} />
+              <ProfileChips session={session} />
               <div className="flex flex-col border-t border-border pt-2">
                 <Link role="menuitem" href={changeHref()} onClick={() => setMenu(false)} className={item} title={t("account.welcome.change")}><SwapGlyph className="h-4 w-4 text-muted" />{t("account.welcome.change")}</Link>
                 <button role="menuitem" type="button" onClick={clearChoices} className={item} title={t("account.welcome.clearHint")}><EraseGlyph className="h-4 w-4 text-muted" />{t("account.welcome.clear")}</button>

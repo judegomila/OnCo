@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
@@ -13,6 +13,8 @@ const CANCERS = [
   { id: "aml", name: "Acute myeloid leukaemia", route: "/cancers/aml/", group: "blood" },
   { id: "nsclc", name: "Non-small cell lung cancer (NSCLC)", route: "/cancers/nsclc/", group: "lung" },
 ];
+// The chooser fetches /api/v1/my-cancers.json in the browser; here the list is handed straight to the hook.
+vi.mock("@/lib/use-my-cancer-list", () => ({ useMyCancerList: () => CANCERS }));
 
 /** `<a>` opening while another `<a>` is open (SVG subtrees skipped), the check src/app/nested-anchors.test.ts runs on every page. */
 function nestedAnchors(html: string): string[] {
@@ -29,7 +31,7 @@ function nestedAnchors(html: string): string[] {
 }
 
 const render = (props: Partial<Parameters<typeof WelcomeStep>[0]> = {}) =>
-  renderToStaticMarkup(createElement(AppRouterContext.Provider, { value: router }, createElement(WelcomeStep, { userId: "user_1", cancers: CANCERS, back: "/saved/", ...props })));
+  renderToStaticMarkup(createElement(AppRouterContext.Provider, { value: router }, createElement(WelcomeStep, { userId: "user_1", back: "/saved/", ...props })));
 
 describe("WelcomeStep", () => {
   it("offers the four roles as pressable pills with tooltips", () => {

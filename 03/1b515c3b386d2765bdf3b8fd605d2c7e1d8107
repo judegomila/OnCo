@@ -1,0 +1,49 @@
+src/components/ChipTitles.tsx
+  s_0beac9cb5d78fd::t_931e820c195d39 1-34
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_c17cff3f2ee039 20
+  s_0beac9cb5d78fd::t_42a6a96c11785d 73
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_a5d30f56ea2889 29
+  s_0beac9cb5d78fd::t_7db9bf89442705 41
+src/data/drug-depth.ts
+  s_0beac9cb5d78fd::t_f5a8cc6a444b33 415-421
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_932cde6cfd2118 71
+  s_0beac9cb5d78fd::t_5494be7d1a2e1c 74
+src/app/globals.css
+  s_0beac9cb5d78fd::t_8ba3be85ba1512 217-222,230-234
+src/components/Tip.tsx
+  s_0beac9cb5d78fd::t_3f339946db1be1 7-8,21-25,30-34,41,43,47-55,59,62,65
+src/components/TermHover.tsx
+  s_0beac9cb5d78fd::t_ac62179cbb83a4 5,9-13,17,22-30,34,37,40
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_5267cb1e959e46 323
+  s_0beac9cb5d78fd::t_01a07f2032f254 326-353,356-358,360
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_b7f180610c9e7f 520
+  s_0beac9cb5d78fd::t_4e7dd624b12b0c 523-529
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_4dbee83cedf58f 223
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_ee2ad4ff3b5d02 151-161
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_be2d721b3549e9 689
+  s_0beac9cb5d78fd::t_f3eddeb9a5e0cb 659-679
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "031b515c3b386d2765bdf3b8fd605d2c7e1d8107",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

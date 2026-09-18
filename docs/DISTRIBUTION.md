@@ -34,6 +34,7 @@ Each channel: asset, first action, measure, owner-only step. Owner-only steps ne
 
 What exists: `/sitemap.xml` (every page, with `lastModified` from each record's `asOf`), `/robots.txt` (everything crawlable except the raw JSON under `/api/v1/`, with the Markdown context files allowed), an explicit title, description, Open Graph and Twitter image on every page, and JSON-LD: `WebSite` with a `SearchAction` on the home page, `Drug`, `MedicalCondition`, `MedicalTrial`, `Organization` and `Thing` on entity pages, `BreadcrumbList` on pages with a trail. The IndexNow key file is live in `public/` (the file named after the key) and every deploy can ping `api.indexnow.org` with the changed URLs.
 
+- Changed pages: `npm run indexnow -- --since=YYYY-MM-DD` submits every record page touched since that date to IndexNow (batches of 10,000).
 - Asset: the sitemap, robots, structured data and IndexNow key above; a query list per kind (below).
 - First action: verify the property in Google Search Console and submit `https://onco.cc/sitemap.xml`. Then import the same property into Bing Webmaster Tools (it offers a one-click import from Search Console), which also confirms IndexNow submissions.
 - Measure: Search Console clicks and impressions per page group (set up URL filters for `/cancers/`, `/drugs/`, `/live/`, `/coverage/`); IndexNow acceptance (a 200 or 202 from `api.indexnow.org` per ping; a 4xx means the key file or host is wrong); coverage report errors.

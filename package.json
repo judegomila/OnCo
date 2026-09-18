@@ -86,7 +86,8 @@
     "fetch:universe": "tsx scripts/fetch-universe.ts",
     "changelog": "tsx scripts/changelog-sync.ts",
     "orphans": "tsx scripts/orphans.ts",
-    "fold:zh": "tsx scripts/fold-zh.ts"
+    "fold:zh": "tsx scripts/fold-zh.ts",
+    "indexnow": "tsx scripts/indexnow.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

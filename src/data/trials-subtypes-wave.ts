@@ -1062,7 +1062,7 @@ export const tldrZh: Record<string, string> = {
   "determination": "DETERMINATION 探讨在现代三药方案和长期维持治疗下，新诊断骨髓瘤患者是否仍需干细胞移植；移植使疾病缓解更久，但数年后两组生存时间并无差异，因此部分患者可以推迟移植。",
   "aquila": "AQUILA 显示，用达雷妥尤单抗 (daratumumab) 治疗高危冒烟型骨髓瘤而非等待其转为活动性疾病，可推迟这一进展，是首个在随机试验中证明能在骨髓瘤出现症状前将其遏制的药物。",
   "resonate-2": "RESONATE-2 显示，口服 BTK 抑制剂伊布替尼 (ibrutinib) 使老年初治慢性淋巴细胞白血病的控制时间远长于旧化疗药苯丁酸氮芥 (chlorambucil)，患者也活得更久，靶向药由此进入这一白血病的一线治疗。",
-  "mavoric": "MAVORIC 显示，清除携带 CCR4 蛋白的恶性 T 细胞的抗体莫格利珠单抗 (mogamulizumab) 使皮肤 T 细胞淋巴瘤的控制时间长于标准口服药伏立诺他 (vorinostat)，在累及血液的 Sezary 综合征中效果尤佳，由此获批。",
+  "mavoric": "MAVORIC 显示，清除携带 CCR4 蛋白的恶性 T 细胞的抗体莫格利珠单抗 (mogamulizumab) 使皮肤 T 细胞淋巴瘤的控制时间长于标准口服药伏立诺他 (vorinostat)，在累及血液的 Sézary 综合征中效果尤佳，由此获批。",
   "herby": "HERBY 探讨在放疗和替莫唑胺 (temozolomide) 基础上加用抗血管抗体贝伐珠单抗 (bevacizumab) 能否帮助患高级别脑肿瘤的儿童；结果并未推迟肿瘤复发，因此该药不属于这些儿童的标准治疗。",
   "avaglio": "AVAglio 检验在新诊断胶质母细胞瘤的标准放化疗中加入抗血管药贝伐珠单抗 (bevacizumab)；影像上肿瘤生长推迟了，但患者并未活得更久，因此该药不用于这一癌症的一线治疗。",
   "codel": "CODEL 是旨在确定少突胶质细胞瘤患者应在放疗基础上使用替莫唑胺 (temozolomide) 还是更早的三药 PCV 方案的协作组试验；其第一阶段已显示，仅用替莫唑胺而不放疗会使肿瘤更早复发。",

@@ -262,7 +262,7 @@ export const tldrZh: Record<string, string> = {
   "queens-university-kingston": "安大略省的大学和医院，是加拿大癌症试验组以及 Christopher Booth 关于癌症治疗真实价值研究项目的所在地。",
   "osaka-university": "日本国立大学，其医学院主持了食管癌 CheckMate 648 试验，其免疫学前沿研究中心是调节性 T 细胞发现者坂口志文的所在地。",
   "kindai-university-hospital": "大阪地区的大学医院，工藤正俊领导的消化和肝脏病科主持了包括仑伐替尼 REFLECT 在内的多项全球肝癌药物试验。",
-  "snu-bundang-hospital": "首尔国立大学在首尔以南的医院，是腹腔镜胃癌手术的领先中心，金享镐在此主持了 KLASS-01 试验。",
+  "snu-bundang-hospital": "首尔国立大学在首尔以南的医院，是腹腔镜胃癌手术的领先中心，Hyung-Ho Kim 在此主持了 KLASS-01 试验。",
   "melanoma-institute-australia": "悉尼研究所，治疗和研究的黑色素瘤患者数量居世界之首，其联合主任 Georgina Long 和 Richard Scolyer 主持了确立联合免疫治疗的试验。",
   "saigenci-adelaide": "2021 年在阿德莱德大学成立的癌症研究所，由主持 CHAARTED 试验、将多西他赛引入转移性前列腺癌一线治疗的 Christopher Sweeney 领导。",
   "alfred-health-monash": "墨尔本教学医院和大学，其血液科和淋巴瘤团队（包括 Constantine Tam）主持了确立 BTK 抑制剂和维奈克拉在淋巴瘤和白血病中地位的试验。",

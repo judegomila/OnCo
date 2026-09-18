@@ -55,7 +55,7 @@ function parseSdf(sdf: string): Omit<Mol, "source" | "id" | "name" | "dim"> & { 
   return { atoms, bonds, dim };
 }
 
-async function pubchem(def: StructureDef): Promise<{ file: string; cid: number; dim: 2 | 3 } | null> {
+export async function pubchem(def: StructureDef): Promise<{ file: string; cid: number; dim: 2 | 3 } | null> {
   let cid: number | null = null;
   if (def.query.startsWith("cid:")) cid = parseInt(def.query.slice(4), 10);
   else {
@@ -189,4 +189,5 @@ async function main() {
   if (failures.length) console.log(`unresolved:\n  ${failures.join("\n  ")}`);
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+// Only run when invoked directly; scripts/fill-structures.ts imports `pubchem` from here.
+if (/fetch-structures/.test(process.argv[1] ?? "")) main().catch((e) => { console.error(e); process.exit(1); });

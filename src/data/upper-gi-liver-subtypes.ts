@@ -17,7 +17,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Gastric cancer by biomarker state
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "gastric-her2-positive", kind: "cancer", trials: ["destiny-gastric01", "destiny-gastric02", "keynote-811", "gatsby"], name: "HER2-positive gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Stomach_cancer"),
+  { id: "gastric-her2-positive", related: ["gastric-cldn18-2-positive", "early-gastric-cancer", "gastric-msi-high", "gastric-pdl1-high"], kind: "cancer", trials: ["destiny-gastric01", "destiny-gastric02", "keynote-811", "gatsby"], name: "HER2-positive gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Stomach_cancer"),
     keyPapers: ["paper-toga-trastuzumab-gastric-lancet-2010", "paper-flot4-lancet-2019", "paper-keynote-811-janjigian-lancet-2023", "paper-destiny-gastric01-nejm-2020"],
     aka: ["HER2-positive gastro-oesophageal adenocarcinoma", "ERBB2-amplified gastric cancer", "HER2+ GEA"],
     burden: "About one in six advanced gastric and junctional adenocarcinomas, commoner in intestinal-type and junctional tumours than in diffuse-type disease; it was the first molecular subgroup of stomach cancer to get its own treatment.",
@@ -43,7 +43,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["HER2 heterogeneity and loss after treatment make a single biopsy unreliable.", "No HER2-directed therapy has yet improved cure rates in resectable disease.", "Interstitial lung disease with trastuzumab deruxtecan needs early recognition."],
     links: [{ label: "ToGA (Lancet 2010)", url: "https://pubmed.ncbi.nlm.nih.gov/20728210/" }, { label: "DESTINY-Gastric01 (NEJM 2020)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2004413" }, { label: "Wikipedia", url: W("Stomach_cancer") }] },
 
-  { id: "gastric-cldn18-2-positive", kind: "cancer", name: "Claudin 18.2-positive gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Zolbetuximab"),
+  { id: "gastric-cldn18-2-positive", related: ["early-gastric-cancer", "gastric-her2-positive", "gastric-msi-high", "gastric-pdl1-high"], kind: "cancer", name: "Claudin 18.2-positive gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Zolbetuximab"),
     keyPapers: ["paper-spotlight-lancet-2023", "paper-glow-zolbetuximab-nat-med-2023", "paper-rainbow-ramucirumab-paclitaxel-lancet-oncol-2014"],
     aka: ["CLDN18.2-positive gastric cancer", "Claudin 18.2-high gastro-oesophageal adenocarcinoma"],
     burden: "About four in ten HER2-negative advanced gastric and junctional adenocarcinomas show claudin 18.2 on at least 75 percent of tumour cells, the threshold used in the zolbetuximab trials, making it the most widely shared drug target in stomach cancer.",
@@ -67,7 +67,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["Whether zolbetuximab or PD-1 blockade should come first when both PD-L1 and claudin 18.2 are positive.", "Tumours below the 75 percent threshold have no approved claudin 18.2 therapy.", "Nausea and vomiting lead some patients to stop early."],
     links: [{ label: "SPOTLIGHT (Lancet 2023)", url: "https://pubmed.ncbi.nlm.nih.gov/37068504/" }, { label: "GLOW (Nature Medicine 2023)", url: "https://pubmed.ncbi.nlm.nih.gov/37524953/" }, { label: "Wikipedia", url: W("Zolbetuximab") }] },
 
-  { id: "gastric-pdl1-high", kind: "cancer", trials: ["keynote-062", "attraction-2"], name: "PD-L1-high gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Stomach_cancer"),
+  { id: "gastric-pdl1-high", related: ["gastric-cldn18-2-positive", "early-gastric-cancer", "gastric-her2-positive", "gastric-msi-high"], kind: "cancer", trials: ["keynote-062", "attraction-2"], name: "PD-L1-high gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Stomach_cancer"),
     keyPapers: ["paper-checkmate-649-lancet-2021", "paper-flot4-lancet-2019", "paper-keynote-859-lancet-oncol-2023", "paper-matterhorn-nejm-2025"],
     aka: ["PD-L1 CPS 5 or above gastric cancer", "PD-L1-positive gastro-oesophageal adenocarcinoma", "EBV-positive gastric cancer (PD-L1 high)"],
     burden: "Roughly six in ten advanced gastric adenocarcinomas have a PD-L1 combined positive score of 1 or above and about half score 5 or above; the higher the score, the larger the survival gain from adding a PD-1 antibody to chemotherapy.",
@@ -92,7 +92,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["Two assays with different thresholds leave patients near the cut-off in an uncertain position.", "Most patients still progress within a year on chemo-immunotherapy.", "How to combine PD-1 blockade with claudin 18.2 or HER2 therapy when targets overlap."],
     links: [{ label: "CheckMate 649 (Lancet 2021)", url: "https://pubmed.ncbi.nlm.nih.gov/34102137/" }, { label: "KEYNOTE-859 (Lancet Oncology 2023)", url: "https://pubmed.ncbi.nlm.nih.gov/37875143/" }, { label: "Wikipedia", url: W("Stomach_cancer") }] },
 
-  { id: "gastric-msi-high", kind: "cancer", trials: ["keynote-062"], name: "Microsatellite-unstable (MSI-high) gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Microsatellite_instability"),
+  { id: "gastric-msi-high", related: ["gastric-cldn18-2-positive", "early-gastric-cancer", "gastric-her2-positive", "gastric-pdl1-high"], kind: "cancer", trials: ["keynote-062"], name: "Microsatellite-unstable (MSI-high) gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Microsatellite_instability"),
     keyPapers: ["paper-le-mmr-deficiency-science-2017", "paper-keynote-062-shitara-jama-oncol-2020", "paper-pietrantonio-msi-gastric-meta-analysis-jco-2019", "paper-tcga-gastric-nature-2014"],
     aka: ["MSI-H gastric cancer", "Mismatch repair-deficient gastric cancer", "dMMR gastric cancer"],
     burden: "Around one in five localised gastric cancers in Western series but only about one in twenty at the metastatic stage, because these tumours spread less; they occur in older patients, in the distal stomach and in intestinal-type histology.",
@@ -118,7 +118,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["Whether surgery can be omitted after a complete response to neoadjuvant immunotherapy.", "Whether chemotherapy should be dropped altogether in metastatic disease.", "A minority of MSI-high tumours do not respond, and the reasons are unclear."],
     links: [{ label: "Pietrantonio meta-analysis (JCO 2019)", url: "https://pubmed.ncbi.nlm.nih.gov/31513484/" }, { label: "NEONIPIGA (JCO 2023)", url: "https://pubmed.ncbi.nlm.nih.gov/36179271/" }, { label: "Wikipedia", url: W("Microsatellite_instability") }] },
 
-  { id: "early-gastric-cancer", kind: "cancer", trials: ["klass-01"], name: "Early gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Stomach_cancer"),
+  { id: "early-gastric-cancer", related: ["gastric-cldn18-2-positive", "gastric-her2-positive", "gastric-msi-high", "gastric-pdl1-high"], kind: "cancer", trials: ["klass-01"], name: "Early gastric cancer", group: "gastrointestinal", parent: "gastric", asOf, tags, wikipedia: W("Stomach_cancer"),
     keyPapers: ["paper-gotoda-endoscopic-resection-criteria-gastric-cancer-2000", "paper-klass-01-kim-jama-oncol-2019", "paper-jcog0912-katai-lancet-gastroenterol-hepatol-2020", "paper-japanese-gastric-cancer-treatment-guidelines-2021-gastric-cancer-2023"],
     aka: ["T1 gastric cancer", "Intramucosal gastric cancer", "Submucosal gastric cancer", "Screen-detected gastric cancer"],
     burden: "More than half of gastric cancers diagnosed in Japan and Korea, where endoscopic screening finds them, but a small minority in Western countries; five-year survival above 90 percent when the tumour is confined to the mucosa or submucosa.",
@@ -148,7 +148,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Hepatocellular carcinoma by BCLC stage
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "hcc-early", kind: "cancer", name: "Early hepatocellular carcinoma (BCLC 0 and A)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Hepatocellular_carcinoma"),
+  { id: "hcc-early", related: ["hcc-advanced", "hcc-intermediate"], kind: "cancer", name: "Early hepatocellular carcinoma (BCLC 0 and A)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Hepatocellular_carcinoma"),
     keyPapers: ["paper-mazzaferro-milan-criteria-nejm-1996", "paper-bclc-2022-reig-j-hepatol-2022", "paper-imbrave050-lancet-2023", "paper-storm-adjuvant-sorafenib-bruix-lancet-oncol-2015"],
     aka: ["Very early HCC (BCLC 0)", "Early-stage HCC (BCLC A)", "Resectable hepatocellular carcinoma", "HCC within Milan criteria"],
     burden: "The stage at which liver cancer can be cured, reached by a minority of patients worldwide but by most of those found by surveillance in cirrhosis; the BCLC system expects five-year survival above 70 percent with resection, ablation or transplantation.",
@@ -177,7 +177,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["Recurrence in the remaining cirrhotic liver after resection or ablation.", "No adjuvant therapy has held up in a phase 3 trial.", "Donor shortage limits transplantation, and access to surveillance is poor in the highest-incidence countries."],
     links: [{ label: "BCLC 2022 update (J Hepatol)", url: "https://pubmed.ncbi.nlm.nih.gov/34801630/" }, { label: "Milan criteria (NEJM 1996)", url: "https://www.nejm.org/doi/full/10.1056/NEJM199603143341104" }, { label: "IMbrave050 (Lancet 2023)", url: "https://pubmed.ncbi.nlm.nih.gov/37871608/" }, { label: "Wikipedia", url: W("Hepatocellular_carcinoma") }] },
 
-  { id: "hcc-intermediate", kind: "cancer", name: "Intermediate hepatocellular carcinoma (BCLC B)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Transcatheter_arterial_chemoembolization"),
+  { id: "hcc-intermediate", related: ["hcc-advanced", "hcc-early"], kind: "cancer", name: "Intermediate hepatocellular carcinoma (BCLC B)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Transcatheter_arterial_chemoembolization"),
     keyPapers: ["paper-himalaya-nejm-evidence-2022", "paper-llovet-tace-lancet-2002", "paper-emerald-1-lancet-2025", "paper-leap-012-lancet-2025"],
     aka: ["Intermediate-stage HCC", "Multinodular HCC", "TACE-eligible hepatocellular carcinoma", "BCLC B"],
     burden: "Multiple tumours confined to a liver that still functions, without vein invasion or spread; the most heterogeneous BCLC stage, for which the 2022 update expects a median survival above two and a half years with chemoembolisation and now systemic therapy.",
@@ -203,7 +203,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["No overall survival gain yet shown for TACE combinations.", "Which patients should skip embolisation and go straight to systemic therapy.", "Liver damage from repeated embolisation limits later treatment options."],
     links: [{ label: "EMERALD-1 (Lancet 2025)", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02551-0/abstract" }, { label: "LEAP-012 (Lancet 2025)", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02575-3/abstract" }, { label: "BCLC 2022 update (J Hepatol)", url: "https://pubmed.ncbi.nlm.nih.gov/34801630/" }, { label: "Wikipedia", url: W("Transcatheter_arterial_chemoembolization") }] },
 
-  { id: "hcc-advanced", kind: "cancer", trials: ["reach-2"], name: "Advanced hepatocellular carcinoma (BCLC C)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Hepatocellular_carcinoma"),
+  { id: "hcc-advanced", related: ["hcc-early", "hcc-intermediate"], kind: "cancer", trials: ["reach-2"], name: "Advanced hepatocellular carcinoma (BCLC C)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Hepatocellular_carcinoma"),
     keyPapers: ["paper-imbrave150-nejm-2020", "paper-himalaya-nejm-evidence-2022", "paper-sharp-sorafenib-nejm-2008", "paper-reflect-lenvatinib-lancet-2018"],
     aka: ["Advanced-stage HCC", "Unresectable hepatocellular carcinoma", "Metastatic hepatocellular carcinoma", "HCC with portal vein invasion", "BCLC C"],
     burden: "Hepatocellular carcinoma that has invaded the portal or hepatic veins, spread outside the liver or caused symptoms, while liver function is still preserved; the stage most patients reach in countries without surveillance, and the one where drug therapy has changed most in the last decade.",
@@ -234,7 +234,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Cholangiocarcinoma by site
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "intrahepatic-cholangiocarcinoma", kind: "cancer", trials: ["abc-06", "fight-302"], name: "Intrahepatic cholangiocarcinoma", group: "gastrointestinal", parent: "cholangiocarcinoma", asOf, tags, wikipedia: W("Cholangiocarcinoma"),
+  { id: "intrahepatic-cholangiocarcinoma", related: ["extrahepatic-cholangiocarcinoma"], kind: "cancer", trials: ["abc-06", "fight-302"], name: "Intrahepatic cholangiocarcinoma", group: "gastrointestinal", parent: "cholangiocarcinoma", asOf, tags, wikipedia: W("Cholangiocarcinoma"),
     keyPapers: ["paper-bilcap-lancet-oncol-2019", "paper-topaz-1-nejm-evidence-2022", "paper-keynote-966-lancet-2023", "paper-fight-202-pemigatinib-lancet-oncol-2020"],
     aka: ["iCCA", "Intrahepatic bile duct cancer", "Peripheral cholangiocarcinoma", "Mass-forming cholangiocarcinoma"],
     burden: "Bile duct cancer arising within the liver, the second commonest primary liver cancer after hepatocellular carcinoma and rising in incidence worldwide; it carries most of the targetable mutations in biliary cancer, with FGFR2 fusions in about one in eight and IDH1 mutations in about one in seven.",
@@ -264,7 +264,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["Most patients present unresectable, and recurrence after resection is common.", "FGFR inhibitor resistance develops within a year through kinase domain mutations.", "Rising incidence in Western countries without a clear cause."],
     links: [{ label: "FIGHT-202 (Lancet Oncology 2020)", url: "https://pubmed.ncbi.nlm.nih.gov/32203698/" }, { label: "ClarIDHy (Lancet Oncology 2020)", url: "https://pubmed.ncbi.nlm.nih.gov/32416072/" }, { label: "FOENIX-CCA2 (NEJM 2023)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2206834" }, { label: "Wikipedia", url: W("Cholangiocarcinoma") }] },
 
-  { id: "extrahepatic-cholangiocarcinoma", kind: "cancer", trials: ["abc-06"], name: "Extrahepatic cholangiocarcinoma (perihilar and distal)", group: "gastrointestinal", parent: "cholangiocarcinoma", asOf, tags, wikipedia: W("Klatskin_tumor"),
+  { id: "extrahepatic-cholangiocarcinoma", related: ["intrahepatic-cholangiocarcinoma"], kind: "cancer", trials: ["abc-06"], name: "Extrahepatic cholangiocarcinoma (perihilar and distal)", group: "gastrointestinal", parent: "cholangiocarcinoma", asOf, tags, wikipedia: W("Klatskin_tumor"),
     keyPapers: ["paper-bilcap-lancet-oncol-2019", "paper-abc-02-gemcitabine-cisplatin-nejm-2010", "paper-topaz-1-nejm-evidence-2022"],
     aka: ["Perihilar cholangiocarcinoma", "Klatskin tumour", "Hilar cholangiocarcinoma", "Distal cholangiocarcinoma", "Common bile duct cancer", "eCCA"],
     burden: "Cancers of the bile ducts outside the liver, from the hilum where the ducts join to the lower duct near the pancreas; perihilar tumours are the commonest cholangiocarcinoma overall, and they present with jaundice, which brings both early symptoms and the risks of biliary obstruction.",
@@ -298,7 +298,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // GIST by mutation
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "gist-kit-exon-11", kind: "cancer", name: "KIT exon 11-mutant GIST", group: "gastrointestinal", parent: "gist", asOf, tags, wikipedia: W("Gastrointestinal_stromal_tumor"),
+  { id: "gist-kit-exon-11", related: ["gist-imatinib-resistant", "gist-pdgfra-d842v"], kind: "cancer", name: "KIT exon 11-mutant GIST", group: "gastrointestinal", parent: "gist", asOf, tags, wikipedia: W("Gastrointestinal_stromal_tumor"),
     keyPapers: ["paper-demetri-imatinib-gist-nejm-2002", "paper-hirota-kit-gist-science-1998", "paper-ssg-xviii-adjuvant-imatinib-joensuu-jama-2012", "paper-heinrich-kit-mutation-imatinib-response-jco-2003"],
     aka: ["Imatinib-sensitive GIST", "KIT-mutant gastrointestinal stromal tumour", "Classic GIST"],
     burden: "About two thirds of gastrointestinal stromal tumours carry a mutation in exon 11 of KIT, the juxtamembrane domain; this is the imatinib-sensitive majority in whom the drug turned a lethal sarcoma into a chronic disease.",
@@ -325,7 +325,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["Whether adjuvant imatinib should continue for five years or longer.", "Resistance through secondary KIT mutations in nearly every metastatic patient.", "Tumours that recur after stopping adjuvant therapy despite years of control."],
     links: [{ label: "SSG XVIII (JAMA 2012)", url: "https://pubmed.ncbi.nlm.nih.gov/22453568/" }, { label: "ACOSOG Z9001 (Lancet 2009)", url: "https://pubmed.ncbi.nlm.nih.gov/19303137/" }, { label: "Wikipedia", url: W("Gastrointestinal_stromal_tumor") }] },
 
-  { id: "gist-pdgfra-d842v", kind: "cancer", trials: ["navigator"], name: "PDGFRA D842V-mutant GIST", group: "gastrointestinal", parent: "gist", asOf, tags, wikipedia: W("Avapritinib"),
+  { id: "gist-pdgfra-d842v", related: ["gist-imatinib-resistant", "gist-kit-exon-11"], kind: "cancer", trials: ["navigator"], name: "PDGFRA D842V-mutant GIST", group: "gastrointestinal", parent: "gist", asOf, tags, wikipedia: W("Avapritinib"),
     keyPapers: ["paper-navigator-avapritinib-heinrich-lancet-oncol-2020", "paper-heinrich-pdgfra-gist-science-2003"],
     aka: ["PDGFRA exon 18-mutant GIST", "Imatinib-resistant PDGFRA GIST", "Epithelioid gastric GIST"],
     burden: "About one in twenty gastrointestinal stromal tumours, almost always in the stomach, with epithelioid histology and often indolent behaviour; the D842V substitution in the activation loop makes the receptor untouchable by imatinib but exquisitely sensitive to avapritinib.",
@@ -350,7 +350,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["No proven therapy after progression on avapritinib.", "Cognitive side effects limit dose and quality of life for some patients.", "Whether indolent D842V tumours can be watched rather than resected."],
     links: [{ label: "NAVIGATOR (Lancet Oncology 2020)", url: "https://pubmed.ncbi.nlm.nih.gov/32615108/" }, { label: "Wikipedia", url: W("Avapritinib") }] },
 
-  { id: "gist-imatinib-resistant", kind: "cancer", trials: ["grid", "nct03673501"], name: "Imatinib-resistant GIST", group: "gastrointestinal", parent: "gist", asOf, tags, wikipedia: W("Ripretinib"),
+  { id: "gist-imatinib-resistant", related: ["gist-kit-exon-11", "gist-pdgfra-d842v"], kind: "cancer", trials: ["grid", "nct03673501"], name: "Imatinib-resistant GIST", group: "gastrointestinal", parent: "gist", asOf, tags, wikipedia: W("Ripretinib"),
     keyPapers: ["paper-demetri-sunitinib-gist-lancet-2006", "paper-grid-regorafenib-gist-lancet-2013", "paper-invictus-ripretinib-lancet-oncol-2020", "paper-intrigue-ripretinib-vs-sunitinib-jco-2022"],
     aka: ["Imatinib-refractory GIST", "GIST with secondary KIT mutations", "Advanced GIST after imatinib", "Multidrug-resistant GIST"],
     burden: "Almost every patient with metastatic GIST eventually progresses on imatinib, most within two to three years, through secondary mutations in KIT; three further kinase inhibitors are approved for this stage, each adding months rather than years.",

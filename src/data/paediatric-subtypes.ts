@@ -49,7 +49,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2025, title: "AALL1731: blinatumomab added to chemotherapy lifts three-year disease-free survival to 96 percent", refs: ["aall1731", "paper-aall1731-blinatumomab-children-nejm-2025"] },
     ],
     pipeline: ["blinatumomab", "aall1731", "ngs-mrd-clonoseq", "blinatumomab-frontline-consolidation", "idea-tr2-paediatric-combo-prea"], openProblems: ["Whether blinatumomab allows chemotherapy to be shortened rather than only added to.", "Asparaginase hypersensitivity and silent inactivation, and osteonecrosis in older children.", "Delivering a two-year outpatient regimen in low- and middle-income countries, where most children with ALL live."],
-    targets: ["cd19"], terms: ["mrd", "efs", "b-all-cytogenetic-risk"], technologies: ["flow-cytometry-mrd", "t-cell-engager"], institutions: ["childrens-oncology-group", "st-jude"], keyPapers: ["paper-aall1731-blinatumomab-children-nejm-2025"], related: ["all-paediatric-high-risk", "all-paediatric-relapsed"],
+    targets: ["cd19"], terms: ["mrd", "efs", "b-all-cytogenetic-risk"], technologies: ["flow-cytometry-mrd", "t-cell-engager"], institutions: ["childrens-oncology-group", "st-jude"], keyPapers: ["paper-aall1731-blinatumomab-children-nejm-2025"], related: ["all-paediatric-high-risk", "all-paediatric-relapsed", "all-infant", "all-ph-like", "all-paediatric-ph-positive"],
     links: [{ label: "Wikipedia: Acute lymphoblastic leukaemia", url: W("Acute_lymphoblastic_leukemia") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   { id: "all-paediatric-high-risk", kind: "cancer", trials: ["aall0434"], name: "High-risk acute lymphoblastic leukaemia in children (high-risk B-ALL and T-ALL)", group: "paediatric", parent: "all-leukemia", asOf, tags, wikipedia: W("Acute_lymphoblastic_leukemia"),
@@ -76,7 +76,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2024, title: "Blinatumomab approved for consolidation of newly diagnosed CD19-positive B-ALL", refs: ["blinatumomab", "e1910"] },
     ],
     pipeline: ["inotuzumab-ozogamicin", "blinatumomab", "tisagenlecleucel", "venetoclax", "ngs-mrd-clonoseq", "allogeneic-hsct"], openProblems: ["No antibody or cell therapy target in routine use for T-ALL.", "Which high-risk children still need transplant once immunotherapy clears residual disease.", "Asparaginase toxicity and osteonecrosis in adolescents receiving the most intensive regimens."],
-    targets: ["cd19", "cd22", "cd38"], terms: ["mrd", "efs", "b-all-cytogenetic-risk", "ph-like-all"], technologies: ["flow-cytometry-mrd", "allogeneic-hsct", "cytotoxic-chemotherapy"], institutions: ["childrens-oncology-group"], related: ["all-paediatric-standard-risk", "all-paediatric-ph-positive", "all-ph-like", "all-paediatric-relapsed"],
+    targets: ["cd19", "cd22", "cd38"], terms: ["mrd", "efs", "b-all-cytogenetic-risk", "ph-like-all"], technologies: ["flow-cytometry-mrd", "allogeneic-hsct", "cytotoxic-chemotherapy"], institutions: ["childrens-oncology-group"], related: ["all-paediatric-standard-risk", "all-paediatric-ph-positive", "all-ph-like", "all-paediatric-relapsed", "all-infant"],
     links: [{ label: "Wikipedia: Acute lymphoblastic leukaemia", url: W("Acute_lymphoblastic_leukemia") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   { id: "all-paediatric-ph-positive", kind: "cancer", name: "Philadelphia chromosome-positive acute lymphoblastic leukaemia in children (Ph-positive ALL)", group: "paediatric", parent: "all-leukemia", asOf, tags, wikipedia: W("Philadelphia_chromosome"),
@@ -103,7 +103,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2024, title: "PhALLCON: ponatinib beats imatinib in adults with Ph-positive ALL", refs: ["phallcon", "ponatinib"] },
     ],
     pipeline: ["ponatinib", "blinatumomab", "tki-plus-blinatumomab-ph-all", "idea-transplant-free-ph-all", "d-alba", "phallcon", "asciminib", "ngs-mrd-clonoseq"], openProblems: ["Whether chemotherapy-free kinase inhibitor plus blinatumomab regimens can replace intensive chemotherapy in children.", "Kinase domain resistance mutations and the lack of paediatric approval for ponatinib.", "Long-term effects of kinase inhibitors on growth, bone and heart."],
-    targets: ["bcr-abl", "cd19"], pathways: ["bcr-abl1-signalling"], terms: ["philadelphia-chromosome", "ph-positive-all", "mrd", "abl1-kinase-domain-mutations"], technologies: ["kinase-inhibitors", "allogeneic-hsct"], institutions: ["childrens-oncology-group"], related: ["all-ph-like", "cml-chronic-phase", "all-paediatric-high-risk"],
+    targets: ["bcr-abl", "cd19"], pathways: ["bcr-abl1-signalling"], terms: ["philadelphia-chromosome", "ph-positive-all", "mrd", "abl1-kinase-domain-mutations"], technologies: ["kinase-inhibitors", "allogeneic-hsct"], institutions: ["childrens-oncology-group"], related: ["all-ph-like", "cml-chronic-phase", "all-paediatric-high-risk", "all-infant", "all-paediatric-relapsed", "all-paediatric-standard-risk"],
     links: [{ label: "Wikipedia: Philadelphia chromosome", url: W("Philadelphia_chromosome") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   { id: "all-ph-like", kind: "cancer", name: "Philadelphia chromosome-like acute lymphoblastic leukaemia (Ph-like or BCR::ABL1-like ALL)", group: "paediatric", parent: "all-leukemia", asOf, tags, wikipedia: W("Acute_lymphoblastic_leukemia"),
@@ -128,7 +128,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2022, title: "WHO classifies B-ALL with BCR::ABL1-like features as an entity" },
     ],
     pipeline: ["ruxolitinib", "dasatinib", "blinatumomab", "tisagenlecleucel", "ngs-mrd-clonoseq", "cgp"], openProblems: ["Whether kinase inhibitors improve cure rather than early response in Ph-like ALL.", "Screening is unavailable in most of the world, so most Ph-like patients are never identified.", "CRLF2-rearranged disease carries RAS and JAK mutations together and is less dependent on a single kinase."],
-    targets: ["jak2", "epor", "pdgfrb", "bcr-abl", "cd19"], terms: ["philadelphia-chromosome", "mrd", "ph-like-all", "b-all-cytogenetic-risk"], technologies: ["kinase-inhibitors", "flow-cytometry-mrd"], institutions: ["childrens-oncology-group", "st-jude"], related: ["all-paediatric-ph-positive", "all-paediatric-high-risk", "aya-cancers"],
+    targets: ["jak2", "epor", "pdgfrb", "bcr-abl", "cd19"], terms: ["philadelphia-chromosome", "mrd", "ph-like-all", "b-all-cytogenetic-risk"], technologies: ["kinase-inhibitors", "flow-cytometry-mrd"], institutions: ["childrens-oncology-group", "st-jude"], related: ["all-paediatric-ph-positive", "all-paediatric-high-risk", "aya-cancers", "all-infant", "all-paediatric-relapsed", "all-paediatric-standard-risk"],
     links: [{ label: "Wikipedia: Acute lymphoblastic leukaemia", url: W("Acute_lymphoblastic_leukemia") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   { id: "all-infant", kind: "cancer", name: "Infant acute lymphoblastic leukaemia (KMT2A-rearranged, under one year)", group: "paediatric", parent: "all-leukemia", asOf, tags, wikipedia: W("Acute_lymphoblastic_leukemia"),
@@ -154,7 +154,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2024, title: "Revumenib approved for relapsed KMT2A-rearranged acute leukaemia after AUGMENT-101", refs: ["revumenib", "augment-101"] },
     ],
     pipeline: ["blinatumomab", "revumenib", "ziftomenib", "menin-inhibitors", "idea-menin-infant-all", "augment-101"], openProblems: ["Infants who relapse within the first year despite blinatumomab.", "Lineage switch to myeloid leukaemia under CD19-directed therapy.", "Fitting a menin inhibitor into first-line therapy without adding toxicity to a developing brain and marrow."],
-    targets: ["kmt2a", "menin", "cd19"], pathways: ["menin-kmt2a"], terms: ["mrd", "efs"], technologies: ["t-cell-engager", "menin-inhibitors", "allogeneic-hsct"], related: ["aml-npm1-kmt2a", "all-paediatric-relapsed"],
+    targets: ["kmt2a", "menin", "cd19"], pathways: ["menin-kmt2a"], terms: ["mrd", "efs"], technologies: ["t-cell-engager", "menin-inhibitors", "allogeneic-hsct"], related: ["aml-npm1-kmt2a", "all-paediatric-relapsed", "all-paediatric-high-risk", "all-ph-like", "all-paediatric-ph-positive", "all-paediatric-standard-risk"],
     links: [{ label: "Wikipedia: Acute lymphoblastic leukaemia", url: W("Acute_lymphoblastic_leukemia") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   { id: "all-paediatric-relapsed", kind: "cancer", name: "Relapsed and refractory acute lymphoblastic leukaemia in children", group: "paediatric", parent: "all-leukemia", asOf, tags, wikipedia: W("Tisagenlecleucel"),
@@ -181,7 +181,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2024, title: "Inotuzumab ozogamicin approved for children with relapsed or refractory CD22-positive B-ALL", refs: ["inotuzumab-ozogamicin"] },
     ],
     pipeline: ["tisagenlecleucel", "blinatumomab", "inotuzumab-ozogamicin", "obecabtagene-autoleucel", "felix", "revumenib", "ngs-mrd-clonoseq", "car-t", "venetoclax"], openProblems: ["CD19-negative relapse and lineage switch after CD19-directed therapy.", "Which children need transplant after a CAR T-cell remission.", "Relapsed T-ALL has no approved immunotherapy, and CAR T-cell access is limited to a handful of countries."],
-    targets: ["cd19", "cd22", "cd3"], terms: ["crs", "icans", "mrd"], technologies: ["car-t", "t-cell-engager", "adc", "allogeneic-hsct"], keyPapers: ["paper-eliana-tisagenlecleucel-nejm-2018"], institutions: ["childrens-oncology-group"], related: ["all-paediatric-standard-risk", "all-paediatric-high-risk", "all-infant"],
+    targets: ["cd19", "cd22", "cd3"], terms: ["crs", "icans", "mrd"], technologies: ["car-t", "t-cell-engager", "adc", "allogeneic-hsct"], keyPapers: ["paper-eliana-tisagenlecleucel-nejm-2018"], institutions: ["childrens-oncology-group"], related: ["all-paediatric-standard-risk", "all-paediatric-high-risk", "all-infant", "all-ph-like", "all-paediatric-ph-positive"],
     links: [{ label: "Wikipedia: Tisagenlecleucel", url: W("Tisagenlecleucel") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   // ======================= ACUTE MYELOID LEUKAEMIA IN CHILDREN =======================
@@ -211,7 +211,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2024, title: "Revumenib approved for relapsed KMT2A-rearranged acute leukaemia from the age of one", refs: ["revumenib", "augment-101"] },
     ],
     pipeline: ["revumenib", "gilteritinib", "venetoclax", "ziftomenib", "menin-inhibitors", "dexrazoxane", "flow-cytometry-mrd", "cpx-351"], openProblems: ["A third of children relapse and only half of those are cured.", "Infant AML with NUP98 or CBFA2T3::GLIS2 fusions has no effective therapy.", "Anthracycline cardiotoxicity and infection deaths from the most intensive chemotherapy given to children."],
-    targets: ["cd33", "flt3", "kmt2a", "menin"], pathways: ["menin-kmt2a"], terms: ["late-effects", "mrd", "secondary-malignancy"], technologies: ["adc", "allogeneic-hsct", "flow-cytometry-mrd", "cardio-oncology"], institutions: ["childrens-oncology-group", "st-jude"], related: ["aml-npm1-kmt2a", "aml-flt3", "apl", "all-infant"],
+    targets: ["cd33", "flt3", "kmt2a", "menin"], pathways: ["menin-kmt2a"], terms: ["late-effects", "mrd", "secondary-malignancy"], technologies: ["adc", "allogeneic-hsct", "flow-cytometry-mrd", "cardio-oncology"], institutions: ["childrens-oncology-group", "st-jude"], related: ["aml-npm1-kmt2a", "aml-flt3", "apl", "all-infant", "aml-secondary"],
     links: [{ label: "Wikipedia: Acute myeloid leukaemia", url: W("Acute_myeloid_leukemia") }, { label: "NCI PDQ: Childhood AML Treatment", url: AML.url }] },
 
   // ======================= NEUROBLASTOMA BY RISK GROUP =======================

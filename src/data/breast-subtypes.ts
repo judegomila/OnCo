@@ -19,7 +19,7 @@ export const breastSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // HR-positive, HER2-negative disease by state
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "hr-positive-early-high-risk", kind: "cancer", trials: ["penelope-b"], name: "High-risk early HR-positive breast cancer", group: "breast", parent: "breast-hr-positive", asOf, tags, wikipedia: W("Breast_cancer"),
+  { id: "hr-positive-early-high-risk", related: ["hr-positive-metastatic-post-cdk46"], kind: "cancer", trials: ["penelope-b"], name: "High-risk early HR-positive breast cancer", group: "breast", parent: "breast-hr-positive", asOf, tags, wikipedia: W("Breast_cancer"),
     keyPapers: ["paper-monarche-jco-2020", "paper-natalee-nejm-2024", "paper-olympia-nejm-2021", "paper-tailorx-nejm-2018"],
     aka: ["High-risk early hormone receptor-positive, HER2-negative breast cancer", "Node-positive luminal breast cancer", "Stage II to III HR-positive breast cancer"],
     burden: "Hormone receptor-positive, HER2-negative tumours are about seven in ten breast cancers and most are cured; the high-risk minority with node involvement, large size or high grade account for most of the relapses, which in this subtype can arrive ten or twenty years after diagnosis.",
@@ -52,7 +52,7 @@ export const breastSubtypes: CancerInput[] = [
     openProblems: ["No test yet identifies the women whose relapse will come after ten years, when endocrine therapy has stopped.", "Two to three years of a CDK4/6 inhibitor is costly and its overall survival benefit is not yet proven.", "Adherence to endocrine therapy falls to about half by five years because of joint pain, hot flushes and sexual side effects.", "Premenopausal women with node-positive disease still gain from chemotherapy in RxPONDER, and whether ovarian suppression could replace it is unanswered."],
     links: [{ label: "TAILORx (NEJM 2018)", url: "https://doi.org/10.1056/NEJMoa1804710" }, { label: "monarchE (JCO 2020)", url: "https://doi.org/10.1200/JCO.20.02514" }, { label: "NATALEE (NEJM 2024)", url: "https://doi.org/10.1056/NEJMoa2305488" }, { label: "Wikipedia", url: W("Breast_cancer") }] },
 
-  { id: "hr-positive-metastatic-post-cdk46", kind: "cancer", trials: ["bolero-2"], name: "HR-positive metastatic breast cancer after CDK4/6 inhibitors", group: "breast", parent: "breast-hr-positive", asOf, tags, wikipedia: W("Breast_cancer"),
+  { id: "hr-positive-metastatic-post-cdk46", related: ["hr-positive-early-high-risk"], kind: "cancer", trials: ["bolero-2"], name: "HR-positive metastatic breast cancer after CDK4/6 inhibitors", group: "breast", parent: "breast-hr-positive", asOf, tags, wikipedia: W("Breast_cancer"),
     keyPapers: ["paper-destiny-breast06-nejm-2024", "paper-emerald-elacestrant-jco-2022", "paper-capitello-291-nejm-2023", "paper-solar-1-alpelisib-nejm-2019"],
     aka: ["Endocrine-resistant metastatic breast cancer", "ESR1-mutant breast cancer", "PIK3CA-mutant breast cancer", "AKT pathway-altered breast cancer", "Second-line HR-positive metastatic breast cancer"],
     burden: "Nearly every patient treated with a CDK4/6 inhibitor and endocrine therapy for metastatic hormone receptor-positive disease eventually progresses, typically after two to three years; about four in ten tumours carry a PIK3CA mutation and a third or more acquire an ESR1 mutation under aromatase inhibitor pressure.",
@@ -85,7 +85,7 @@ export const breastSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // HER2-low
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "her2-low-metastatic-breast-cancer", kind: "cancer", name: "HER2-low and HER2-ultralow metastatic breast cancer", group: "breast", parent: "breast-cancer", asOf, tags, wikipedia: W("Trastuzumab_deruxtecan"),
+  { id: "her2-low-metastatic-breast-cancer", related: ["breast-her2-positive", "tnbc", "breast-hr-positive"], kind: "cancer", name: "HER2-low and HER2-ultralow metastatic breast cancer", group: "breast", parent: "breast-cancer", asOf, tags, wikipedia: W("Trastuzumab_deruxtecan"),
     aka: ["HER2 IHC 1+ or 2+ ISH-negative breast cancer", "Metastatic breast cancer with low HER2 expression"],
     burden: "About half of all breast cancers, and around six in ten hormone receptor-positive tumours, show low HER2 expression (immunohistochemistry 1+, or 2+ without gene amplification) that was long classed as HER2-negative; ultralow adds tumours scored 0 with faint staining in a tenth of cells or fewer.",
     tldr: "HER2-low is not a new kind of breast cancer but a new way of reading an old test: tumours once called HER2-negative that carry a little HER2 protein. That trace is enough for the antibody-drug conjugate trastuzumab deruxtecan to deliver its chemotherapy payload, and since 2022 it has been the standard for these patients after endocrine therapy or a first chemotherapy.",
@@ -115,7 +115,7 @@ export const breastSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // HER2-positive disease by state
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "her2-positive-early-breast-cancer", kind: "cancer", trials: ["atempt", "neosphere"], name: "Early HER2-positive breast cancer", group: "breast", parent: "breast-her2-positive", asOf, tags, wikipedia: W("HER2-positive_breast_cancer"),
+  { id: "her2-positive-early-breast-cancer", related: ["her2-positive-breast-brain-metastases"], kind: "cancer", trials: ["atempt", "neosphere"], name: "Early HER2-positive breast cancer", group: "breast", parent: "breast-her2-positive", asOf, tags, wikipedia: W("HER2-positive_breast_cancer"),
     keyPapers: ["paper-katherine-nejm-2019", "paper-aphinity-nejm-2017", "paper-apt-tolaney-nejm-2015", "paper-train-2-lancet-oncol-2018"],
     aka: ["Stage I to III HER2-positive breast cancer", "Operable HER2-positive breast cancer", "HER2-positive breast cancer treated with curative intent"],
     burden: "Around 15 to 20 percent of breast cancers overexpress HER2 and most are diagnosed at an operable stage; once the subtype with the worst outlook, it now has some of the highest cure rates after a year of HER2-directed therapy.",
@@ -175,13 +175,13 @@ export const breastSubtypes: CancerInput[] = [
     ],
     pipeline: ["trastuzumab-deruxtecan", "tucatinib", "her2climb-05", "idea-cns-first-adc-strategy", "zanidatamab", "trastuzumab-rezetecan", "pyrotinib", "her2-pet"],
     openProblems: ["No randomised trial has compared systemic therapy first with radiosurgery first for asymptomatic lesions.", "Leptomeningeal disease still has no proven treatment.", "Radionecrosis after radiosurgery may be commoner with antibody-drug conjugates.", "Screening MRI might find lesions earlier but no trial shows it helps."],
-    related: ["secondary-brain-tumours", "her2-brain-metastases", "brain-metastases", "tucatinib-triplet-brain-mets", "leptomeningeal-disease"], bottlenecks: ["b-brain-delivery"],
+    related: ["secondary-brain-tumours", "her2-brain-metastases", "brain-metastases", "tucatinib-triplet-brain-mets", "leptomeningeal-disease", "her2-positive-early-breast-cancer"], bottlenecks: ["b-brain-delivery"],
     links: [{ label: "HER2CLIMB (NEJM 2020)", url: "https://doi.org/10.1056/NEJMoa1914609" }, { label: "HER2CLIMB brain metastasis analysis (JCO 2020)", url: "https://doi.org/10.1200/JCO.20.00775" }, { label: "DESTINY-Breast12 (Nature Medicine 2024)", url: "https://www.nature.com/articles/s41591-024-03261-7" }] },
 
   // ---------------------------------------------------------------------------------------------------------------------
   // Triple-negative disease by state
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "tnbc-early", kind: "cancer", trials: ["geparsixto", "brightness"], name: "Early triple-negative breast cancer", group: "breast", parent: "tnbc", asOf, tags, wikipedia: W("Triple-negative_breast_cancer"),
+  { id: "tnbc-early", related: ["tnbc-metastatic"], kind: "cancer", trials: ["geparsixto", "brightness"], name: "Early triple-negative breast cancer", group: "breast", parent: "tnbc", asOf, tags, wikipedia: W("Triple-negative_breast_cancer"),
     aka: ["Stage I to III triple-negative breast cancer", "Operable triple-negative breast cancer", "Curable TNBC"],
     burden: "Most of the roughly 200,000 triple-negative breast cancers diagnosed each year are found before they have spread; relapses cluster in the first three years, so what happens around surgery decides most outcomes.",
     tldr: "Early triple-negative breast cancer is treated to cure. For tumours over 2 cm or with node involvement, chemotherapy plus the immunotherapy pembrolizumab before and after surgery has raised cure rates; BRCA carriers with cancer left at surgery add a year of olaparib, and others with residual cancer are offered capecitabine. Whether the tumour has vanished by surgery guides what comes next.",
@@ -209,7 +209,7 @@ export const breastSubtypes: CancerInput[] = [
     keyPapers: ["paper-olympia-nejm-2021"], bottlenecks: ["b-trial-diversity"],
     links: [{ label: "KEYNOTE-522 (NEJM 2020)", url: "https://doi.org/10.1056/NEJMoa1910549" }, { label: "KEYNOTE-522 overall survival (NEJM 2024)", url: "https://doi.org/10.1056/NEJMoa2409932" }, { label: "OlympiA (NEJM 2021)", url: "https://doi.org/10.1056/NEJMoa2105215" }, { label: "CREATE-X (NEJM 2017)", url: "https://doi.org/10.1056/NEJMoa1612645" }] },
 
-  { id: "tnbc-metastatic", kind: "cancer", name: "Metastatic triple-negative breast cancer", group: "breast", parent: "tnbc", asOf, tags, wikipedia: W("Triple-negative_breast_cancer"),
+  { id: "tnbc-metastatic", related: ["tnbc-early"], kind: "cancer", name: "Metastatic triple-negative breast cancer", group: "breast", parent: "tnbc", asOf, tags, wikipedia: W("Triple-negative_breast_cancer"),
     keyPapers: ["paper-ascent-nejm-2021", "paper-destiny-breast04-nejm-2022", "paper-keynote-355-nejm-2022", "paper-olympiad-nejm-2017"],
     aka: ["Advanced triple-negative breast cancer", "Stage IV TNBC", "Recurrent triple-negative breast cancer"],
     burden: "Many women with early triple-negative disease relapse, most within three years, joining those diagnosed with spread from the outset; median survival was about a year to eighteen months on chemotherapy alone and now approaches two years in first-line trials.",
@@ -268,7 +268,7 @@ export const breastSubtypes: CancerInput[] = [
     ],
     pipeline: ["pembrolizumab", "trastuzumab-deruxtecan", "sacituzumab-govitecan", "mrd-testing", "liquid-biopsy"],
     openProblems: ["Diagnosis is delayed because the picture is mistaken for infection.", "No molecular driver of the inflammatory phenotype has been found.", "Trials restricted to inflammatory disease are rare, so treatment is extrapolated.", "Local recurrence on the chest wall remains common in poor responders despite radiotherapy."],
-    people: ["naoto-ueno", "massimo-cristofanilli", "gabriel-hortobagyi"], bottlenecks: ["b-rare-cancers", "b-trial-diversity"], related: ["tnbc", "breast-her2-positive", "breast-hr-positive"],
+    people: ["naoto-ueno", "massimo-cristofanilli", "gabriel-hortobagyi"], bottlenecks: ["b-rare-cancers", "b-trial-diversity"], related: ["tnbc", "breast-her2-positive", "breast-hr-positive", "paget-disease-of-the-nipple"],
     links: [{ label: "NCI: inflammatory breast cancer", url: "https://www.cancer.gov/types/breast/ibc-fact-sheet" }, { label: "International expert panel consensus (Annals of Oncology 2011)", url: "https://doi.org/10.1093/annonc/mdq345" }, { label: "Wikipedia", url: W("Inflammatory_breast_cancer") }] },
 
   { id: "paget-disease-of-the-nipple", kind: "cancer", name: "Paget disease of the nipple", group: "breast", parent: "breast-cancer", asOf, tags, wikipedia: W("Paget%27s_disease_of_the_breast"),
@@ -293,7 +293,7 @@ export const breastSubtypes: CancerInput[] = [
     ],
     pipeline: ["mri"],
     openProblems: ["Months of delay while the nipple is treated as eczema.", "No randomised evidence exists for any treatment choice.", "Whether Paget disease without an underlying carcinoma needs radiotherapy at all."],
-    related: ["ductal-carcinoma-in-situ"],
+    related: ["ductal-carcinoma-in-situ", "inflammatory-breast-cancer", "phyllodes-tumour"],
     links: [{ label: "NCI: Paget disease of the breast", url: "https://www.cancer.gov/types/breast/paget-breast-fact-sheet" }, { label: "Wikipedia", url: W("Paget%27s_disease_of_the_breast") }] },
 
   { id: "phyllodes-tumour", kind: "cancer", name: "Phyllodes tumour of the breast", group: "breast", parent: "breast-cancer", asOf, tags, wikipedia: W("Phyllodes_tumor"),
@@ -319,7 +319,7 @@ export const breastSubtypes: CancerInput[] = [
     ],
     pipeline: ["imrt-igrt"],
     openProblems: ["No randomised trial has tested margin width or radiotherapy.", "Core biopsy cannot reliably distinguish phyllodes tumour from fibroadenoma.", "Metastatic malignant phyllodes tumour has no effective systemic therapy.", "Grading is subjective at the benign-borderline and borderline-malignant boundaries."],
-    related: ["sarcoma"], bottlenecks: ["b-rare-cancers"],
+    related: ["sarcoma", "ductal-carcinoma-in-situ", "paget-disease-of-the-nipple", "male-breast-cancer"], bottlenecks: ["b-rare-cancers"],
     links: [{ label: "NCCN Guidelines: Breast Cancer (phyllodes tumour section)", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1419" }, { label: "Wikipedia", url: W("Phyllodes_tumor") }] },
 ];
 

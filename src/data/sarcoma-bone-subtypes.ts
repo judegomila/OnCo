@@ -39,13 +39,13 @@ export const sarcomaBoneSubtypes: CancerInput[] = [
       { year: 2023, title: "CHONQUER phase 3 trial of ivosidenib opens", refs: ["nct06127407"] },
     ],
     pipeline: ["ivosidenib", "nct06127407", "idh-inhibitors", "carbon-ion"], openProblems: ["No systemic therapy has ever been proven to help.", "Dedifferentiated chondrosarcoma kills most patients within two years.", "Distinguishing enchondroma from grade 1 chondrosarcoma remains unreliable."],
-    related: ["osteosarcoma", "chordoma"], links: [{ label: "Wikipedia", url: W("Chondrosarcoma") }] },
+    related: ["osteosarcoma", "chordoma", "ewing-sarcoma", "extremity-soft-tissue-sarcoma"], links: [{ label: "Wikipedia", url: W("Chondrosarcoma") }] },
 
   { id: "angiosarcoma", kind: "cancer", trials: ["tappas"], name: "Angiosarcoma", group: "sarcoma", parent: "vascular-tumours", asOf, tags, wikipedia: W("Angiosarcoma"),
     keyPapers: ["paper-angiotax-paclitaxel-angiosarcoma-penel-jco-2008", "paper-young-angiosarcoma-review-lancet-oncol-2010"], drugs: ["carotuximab"],
     aka: ["Haemangiosarcoma", "Lymphangiosarcoma", "Stewart-Treves syndrome (lymphoedema-associated angiosarcoma)", "Radiation-associated angiosarcoma"],
     burden: "About one to two percent of soft tissue sarcomas; arises in the sun-damaged scalp and face of older people, in the irradiated breast, in chronically swollen limbs and in the liver, heart and spleen. It spreads early and median survival with metastatic disease is under a year in most series.",
-    tldr: "Angiosarcoma is an aggressive cancer of the cells that line blood and lymph vessels. It grows as bruise-like patches on the scalp of older people, in breasts treated years earlier with radiotherapy, or inside organs. Surgery and radiotherapy are used where possible, weekly paclitaxel is the most active drug, and immunotherapy helps a minority with the sun-damaged scalp form.",
+    tldr: "Angiosarcoma is an aggressive vascular tumour, a cancer of the cells that line blood and lymph vessels. It grows as bruise-like patches on the scalp of older people, in breasts treated years earlier with radiotherapy, or inside organs. Surgery and radiotherapy are used where possible, weekly paclitaxel is the most active drug, and immunotherapy helps a minority with the sun-damaged scalp form.",
     summary: "Angiosarcoma is a high-grade endothelial malignancy with three main clinical settings: cutaneous angiosarcoma of the scalp and face in elderly patients, carrying an ultraviolet mutational signature and high tumour mutational burden; secondary angiosarcoma after breast radiotherapy or in chronic lymphoedema, typically driven by MYC amplification; and primary visceral angiosarcoma of the liver, heart, spleen and breast. Tumours are multifocal and infiltrative, margins are hard to secure, and local recurrence and lung metastasis are common even after apparently complete treatment.\n\nLocalised disease is treated with wide surgery and radiotherapy, often combined because neither alone controls the diffuse scalp form. For advanced disease, weekly paclitaxel established itself through the French ANGIOTAX phase 2 trial and is used first line or as neoadjuvant treatment for scalp disease; doxorubicin and liposomal doxorubicin are alternatives, and gemcitabine and pazopanib are used later. Adding bevacizumab to paclitaxel (ANGIOTAX-PLUS) and the endoglin antibody TRC105 to pazopanib (TAPPAS) did not improve outcomes.\n\nCheckpoint inhibitors produce durable responses in a subset of cutaneous scalp and face angiosarcomas, consistent with their ultraviolet-driven mutational load, in the DART ipilimumab-nivolumab basket and in case series, but the randomised Alliance A091902 trial did not show that adding nivolumab to paclitaxel improved progression-free survival across all angiosarcomas. Propranolol, targeted anti-angiogenic combinations and the international Angiosarcoma Project patient-partnered genomics effort are the main lines of research.",
     subtypes: ["Cutaneous angiosarcoma of the scalp and face (ultraviolet signature, high mutational burden)", "Radiation-associated angiosarcoma of the breast (MYC-amplified)", "Lymphoedema-associated angiosarcoma (Stewart-Treves)", "Primary breast angiosarcoma (younger women)", "Visceral angiosarcoma (liver, heart, spleen, bone)"],
     biomarkers: ["MYC amplification (secondary angiosarcoma)", "Tumour mutational burden and ultraviolet signature (scalp and face; immunotherapy response)", "CD31, ERG and FLI1 endothelial markers", "KDR and PLCG1 mutations", "PTPRB and PLCG1 in secondary breast tumours"],
@@ -90,7 +90,7 @@ export const sarcomaBoneSubtypes: CancerInput[] = [
       { year: 2024, title: "SU2C-SARC032: pembrolizumab plus preoperative radiotherapy improves disease-free survival", refs: ["pembrolizumab", "imrt-igrt"] },
     ],
     pipeline: ["pembrolizumab", "checkpoint-inhibitor", "isg-sts-1001"], openProblems: ["No molecular driver to target; the diagnosis is defined by what the tumour is not.", "A third of high-grade limb tumours still metastasise to the lungs.", "Which patients gain from neoadjuvant chemotherapy versus immunotherapy is not settled."],
-    related: ["extremity-soft-tissue-sarcoma", "liposarcoma", "myxofibrosarcoma"], links: [{ label: "Wikipedia", url: W("Undifferentiated_pleomorphic_sarcoma") }] },
+    related: ["extremity-soft-tissue-sarcoma", "liposarcoma", "myxofibrosarcoma", "leiomyosarcoma", "malignant-peripheral-nerve-sheath-tumour", "synovial-sarcoma"], links: [{ label: "Wikipedia", url: W("Undifferentiated_pleomorphic_sarcoma") }] },
 
   { id: "myxofibrosarcoma", kind: "cancer", name: "Myxofibrosarcoma", group: "sarcoma", parent: "sarcoma", asOf, tags, wikipedia: W("Myxofibrosarcoma"),
     keyPapers: ["paper-eortc-62012-doxorubicin-ifosfamide-judson-lancet-oncol-2014", "paper-esmo-sts-guideline-gronchi-ann-oncol-2021", "paper-myxofibrosarcoma-mentzel-ajsp-1996"],
@@ -112,7 +112,7 @@ export const sarcomaBoneSubtypes: CancerInput[] = [
       { year: 2014, title: "MRI tail sign linked to local recurrence and used to plan margins", refs: ["mri"] },
     ],
     pipeline: [], openProblems: ["Local recurrence remains the highest of any sarcoma.", "No targetable driver has been found.", "Elderly patients often cannot tolerate full-dose chemotherapy for metastatic disease."],
-    related: ["undifferentiated-pleomorphic-sarcoma", "extremity-soft-tissue-sarcoma"], links: [{ label: "Wikipedia", url: W("Myxofibrosarcoma") }] },
+    related: ["undifferentiated-pleomorphic-sarcoma", "extremity-soft-tissue-sarcoma", "leiomyosarcoma", "liposarcoma"], links: [{ label: "Wikipedia", url: W("Myxofibrosarcoma") }] },
 
   { id: "alveolar-soft-part-sarcoma", kind: "cancer", name: "Alveolar soft part sarcoma", group: "sarcoma", parent: "sarcoma", asOf, tags, wikipedia: W("Alveolar_soft_part_sarcoma"),
     keyPapers: ["paper-atezolizumab-alveolar-soft-part-sarcoma-chen-nejm-2023", "paper-ladanyi-aspl-tfe3-oncogene-2001"], drugs: ["cediranib"],
@@ -136,13 +136,13 @@ export const sarcomaBoneSubtypes: CancerInput[] = [
       { year: 2023, title: "Atezolizumab approved by the FDA, the first drug for the disease", refs: ["atezolizumab"] },
     ],
     pipeline: ["atezolizumab", "anlotinib", "nct07548177", "nct03016819", "checkpoint-inhibitor"], openProblems: ["Why a low-mutation fusion sarcoma responds to immunotherapy is not understood.", "Brain metastases are common and hard to treat.", "No cure for metastatic disease despite long survival."],
-    related: ["extremity-soft-tissue-sarcoma", "synovial-sarcoma"], links: [{ label: "Wikipedia", url: W("Alveolar_soft_part_sarcoma") }] },
+    related: ["extremity-soft-tissue-sarcoma", "synovial-sarcoma", "epithelioid-sarcoma", "pecoma", "rhabdomyosarcoma"], links: [{ label: "Wikipedia", url: W("Alveolar_soft_part_sarcoma") }] },
 
   { id: "pecoma", kind: "cancer", name: "Perivascular epithelioid cell tumour (PEComa)", group: "sarcoma", parent: "sarcoma", asOf, tags, wikipedia: W("Perivascular_epithelioid_cell_tumour"),
     keyPapers: ["paper-esmo-sts-guideline-gronchi-ann-oncol-2021", "paper-ampect-nab-sirolimus-pecoma-wagner-jco-2021", "paper-wagner-sirolimus-pecoma-jco-2010"],
     aka: ["PEComa", "Malignant PEComa", "Angiomyolipoma and lymphangioleiomyomatosis (PEComa family)"],
     burden: "A very rare family of tumours, a few hundred malignant cases reported worldwide, arising in the uterus, retroperitoneum, gut and soft tissue of adults, more often women; most are benign, and malignant PEComa was untreatable by chemotherapy until mTOR inhibitors.",
-    tldr: "PEComa is a rare tumour of cells that sit around blood vessels and share features of muscle and pigment cells. Most are benign, but malignant ones spread and resist chemotherapy. They usually have lost the TSC1 or TSC2 brake on the growth signal mTOR, and in 2021 the mTOR blocker nab-sirolimus became the first approved treatment.",
+    tldr: "PEComa is a rare tumour, grouped with the sarcomas, of cells that sit around blood vessels and share features of muscle and pigment cells. Most are benign, but malignant ones spread and resist chemotherapy. They usually have lost the TSC1 or TSC2 brake on the growth signal mTOR, and in 2021 the mTOR blocker nab-sirolimus became the first approved treatment.",
     summary: "Perivascular epithelioid cell tumours express both smooth muscle and melanocytic markers (HMB-45, Melan-A) and include renal angiomyolipoma, pulmonary lymphangioleiomyomatosis and clear cell sugar tumour of the lung as well as PEComa not otherwise specified of the uterus, retroperitoneum, gastrointestinal tract and soft tissue. Most carry biallelic loss of TSC1 or TSC2, with or without tuberous sclerosis complex, which unleashes mTOR signalling; a minority instead carry TFE3 fusions and do not respond to mTOR inhibition. Malignancy is predicted by size over five centimetres, infiltrative growth, high grade, necrosis, mitotic count and vascular invasion.\n\nComplete surgical resection is the treatment for localised tumours, with no established role for adjuvant therapy, and surveillance for those with high-risk features. Conventional chemotherapy has little activity in malignant PEComa. Case series of sirolimus, everolimus and temsirolimus showed responses in TSC-altered tumours, establishing mTOR inhibition as the rational systemic therapy.\n\nThe single-arm phase 2 AMPECT trial tested albumin-bound sirolimus (nab-sirolimus) in advanced malignant PEComa and reported objective responses in around four in ten patients, with responses lasting years in some and higher response rates in TSC2-mutant tumours, leading to FDA approval in November 2021, the first drug approved for PEComa. The PRECISION 1 basket trial extends nab-sirolimus to any solid tumour with inactivating TSC1 or TSC2 alterations.",
     subtypes: ["Uterine PEComa (commonest site of malignant PEComa)", "Retroperitoneal and abdominopelvic PEComa", "Gastrointestinal PEComa", "Soft tissue and cutaneous PEComa", "TFE3-rearranged PEComa (younger patients; not TSC-driven)", "Angiomyolipoma and lymphangioleiomyomatosis (related, mostly benign)"],
     biomarkers: ["TSC1 or TSC2 inactivation (mTOR inhibitor response)", "TFE3 fusion (excludes TSC pathway; poor mTOR response)", "HMB-45, Melan-A and smooth muscle actin co-expression", "Size over 5 cm, mitoses, necrosis and infiltration (malignancy criteria)"],
@@ -159,7 +159,7 @@ export const sarcomaBoneSubtypes: CancerInput[] = [
       { year: 2021, title: "AMPECT: nab-sirolimus approved for advanced malignant PEComa", refs: ["ampect", "sirolimus-albumin-bound"] },
     ],
     pipeline: ["sirolimus-albumin-bound", "nct05103358", "ampect"], openProblems: ["Malignancy cannot always be predicted from histology.", "Resistance to mTOR inhibition eventually develops.", "TFE3-rearranged PEComa lacks an effective drug."],
-    related: ["uterine-sarcoma", "retroperitoneal-sarcoma"], links: [{ label: "Wikipedia", url: W("Perivascular_epithelioid_cell_tumour") }] },
+    related: ["uterine-sarcoma", "retroperitoneal-sarcoma", "alveolar-soft-part-sarcoma", "epithelioid-sarcoma", "inflammatory-myofibroblastic-tumour", "tenosynovial-giant-cell-tumour"], links: [{ label: "Wikipedia", url: W("Perivascular_epithelioid_cell_tumour") }] },
 
   { id: "epithelioid-haemangioendothelioma", kind: "cancer", name: "Epithelioid haemangioendothelioma", group: "sarcoma", parent: "vascular-tumours", asOf, tags, wikipedia: W("Epithelioid_hemangioendothelioma"),
     keyPapers: ["paper-errani-wwtr1-camta1-ehe-gcc-2011", "paper-ehe-consensus-stacchiotti-esmo-open-2021", "paper-sirolimus-ehe-stacchiotti-cancer-2021"],
@@ -208,7 +208,7 @@ export const sarcomaBoneSubtypes: CancerInput[] = [
       { year: 2025, title: "Mirdametinib approved for NF1 plexiform neurofibromas in adults and children", refs: ["mirdametinib"] },
     ],
     pipeline: ["selumetinib", "mirdametinib", "mek", "ras-mapk"], openProblems: ["Metastasis is common even after complete local treatment.", "Chemotherapy works less well in the NF1-associated tumours that make up half of cases.", "No targeted drug has yet been proven in MPNST itself."],
-    related: ["extremity-soft-tissue-sarcoma", "desmoid-tumour"], links: [{ label: "Wikipedia", url: W("Malignant_peripheral_nerve_sheath_tumor") }] },
+    related: ["extremity-soft-tissue-sarcoma", "desmoid-tumour", "synovial-sarcoma", "undifferentiated-pleomorphic-sarcoma", "epithelioid-sarcoma"], links: [{ label: "Wikipedia", url: W("Malignant_peripheral_nerve_sheath_tumor") }] },
 
   { id: "retroperitoneal-sarcoma", kind: "cancer", name: "Retroperitoneal sarcoma", group: "sarcoma", parent: "sarcoma", asOf, tags, wikipedia: W("Sarcoma"),
     keyPapers: ["paper-esmo-sts-guideline-gronchi-ann-oncol-2021", "paper-strass-lancet-oncol-2020", "paper-tarpswg-retroperitoneal-sarcoma-gronchi-ann-surg-2016", "paper-bonvalot-retroperitoneal-sarcoma-compartmental-jco-2009"],
@@ -231,7 +231,7 @@ export const sarcomaBoneSubtypes: CancerInput[] = [
       { year: 2020, title: "STRASS: preoperative radiotherapy does not improve abdominal recurrence-free survival", refs: ["strass"] },
     ],
     pipeline: ["mdm2-inhibitors", "eribulin", "trabectedin"], openProblems: ["Liposarcoma recurs in the abdomen in most patients even after complete surgery.", "Neither radiotherapy nor chemotherapy has a proven adjuvant benefit.", "Outcomes still depend on referral to a specialist centre before the first operation."],
-    related: ["liposarcoma", "leiomyosarcoma", "sarcoma"], links: [{ label: "TARPSWG", url: "https://www.tarpswg.org" }] },
+    related: ["liposarcoma", "leiomyosarcoma", "sarcoma", "extremity-soft-tissue-sarcoma", "undifferentiated-pleomorphic-sarcoma"], links: [{ label: "TARPSWG", url: "https://www.tarpswg.org" }] },
 
   { id: "extremity-soft-tissue-sarcoma", kind: "cancer", name: "Soft tissue sarcoma of the extremity (localised and advanced)", group: "sarcoma", parent: "sarcoma", asOf, tags, wikipedia: W("Soft-tissue_sarcoma"),
     keyPapers: ["paper-eortc-62012-doxorubicin-ifosfamide-judson-lancet-oncol-2014", "paper-esmo-sts-guideline-gronchi-ann-oncol-2021", "paper-ncic-sr2-preoperative-vs-postoperative-radiotherapy-osullivan-lancet-2002", "paper-isg-sts-1001-gronchi-lancet-oncol-2017"],
@@ -258,7 +258,7 @@ export const sarcomaBoneSubtypes: CancerInput[] = [
       { year: 2022, title: "LMS-04: doxorubicin plus trabectedin doubles progression-free survival in leiomyosarcoma", refs: ["lms-04"] },
     ],
     pipeline: ["lms-04", "isg-sts-1001", "trabectedin", "pembrolizumab"], openProblems: ["A third to a half of high-risk limb sarcomas still metastasise to the lungs.", "Chemotherapy prolongs control but rarely survival in advanced disease.", "Trials pool dozens of histologies that behave differently."],
-    related: ["sarcoma", "leiomyosarcoma", "uterine-sarcoma", "liposarcoma", "synovial-sarcoma", "undifferentiated-pleomorphic-sarcoma"], links: [{ label: "Wikipedia", url: W("Soft-tissue_sarcoma") }] },
+    related: ["sarcoma", "leiomyosarcoma", "liposarcoma", "synovial-sarcoma", "undifferentiated-pleomorphic-sarcoma", "retroperitoneal-sarcoma", "myxofibrosarcoma"], links: [{ label: "Wikipedia", url: W("Soft-tissue_sarcoma") }] },
 ];
 
 export const sarcomaBoneTrials: TrialInput[] = [

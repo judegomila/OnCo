@@ -11,7 +11,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const tags = ["subtype-page"];
 
 export const bladderSubtypes: CancerInput[] = [
-  { id: "non-muscle-invasive-bladder-cancer", kind: "cancer", trials: ["keynote-057"], name: "Non-muscle-invasive bladder cancer", group: "genitourinary", parent: "urothelial", asOf, tags, wikipedia: W("Bladder_cancer"),
+  { id: "non-muscle-invasive-bladder-cancer", related: ["muscle-invasive-bladder-cancer"], kind: "cancer", trials: ["keynote-057"], name: "Non-muscle-invasive bladder cancer", group: "genitourinary", parent: "urothelial", asOf, tags, wikipedia: W("Bladder_cancer"),
     keyPapers: ["paper-keynote-057-lancet-oncol-2021", "paper-nadofaragene-firadenovec-lancet-oncol-2021", "paper-sylvester-eortc-risk-tables-eur-urol-2006", "paper-eau-nmibc-guideline-eur-urol-2022"],
     aka: ["NMIBC", "Superficial bladder cancer", "Ta, T1 and carcinoma in situ of the bladder"],
     burden: "About three quarters of new bladder cancers; rarely fatal at this stage but it recurs in half of patients and progresses to muscle invasion in a fifth of the high-risk group, so years of cystoscopic surveillance make it one of the most expensive cancers to manage.",
@@ -35,7 +35,7 @@ export const bladderSubtypes: CancerInput[] = [
     ],
     pipeline: ["tar-200", "cretostimogene"], openProblems: ["Recurrent BCG shortages.", "Predicting who will progress to muscle invasion.", "The burden and cost of lifelong cystoscopy.", "Comparing the new bladder-sparing options with each other and with cystectomy."],
     links: [{ label: "Wikipedia", url: W("Bladder_cancer") }] },
-  { id: "muscle-invasive-bladder-cancer", kind: "cancer", name: "Muscle-invasive and advanced bladder cancer", group: "genitourinary", parent: "urothelial", asOf, tags, wikipedia: W("Bladder_cancer"),
+  { id: "muscle-invasive-bladder-cancer", related: ["non-muscle-invasive-bladder-cancer"], kind: "cancer", name: "Muscle-invasive and advanced bladder cancer", group: "genitourinary", parent: "urothelial", asOf, tags, wikipedia: W("Bladder_cancer"),
     keyPapers: ["paper-niagara-nejm-2024", "paper-ev-302-nejm-2024", "paper-swog-8710-neoadjuvant-mvac-nejm-2003", "paper-javelin-bladder-100-nejm-2020"],
     aka: ["MIBC", "Invasive urothelial carcinoma", "Metastatic urothelial carcinoma"],
     burden: "About a quarter of bladder cancers at diagnosis plus those that progress from superficial disease; half of patients with muscle invasion die of it within five years despite surgery, and metastatic disease had a median survival near a year until antibody-drug conjugates and immunotherapy changed it.",

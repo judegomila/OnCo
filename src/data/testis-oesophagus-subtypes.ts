@@ -10,7 +10,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const tags = ["subtype-page"];
 
 export const testisOesophagusSubtypes: CancerInput[] = [
-  { id: "seminoma", kind: "cancer", name: "Seminoma", group: "genitourinary", parent: "testicular", asOf, tags, wikipedia: W("Seminoma"),
+  { id: "seminoma", related: ["non-seminoma"], kind: "cancer", name: "Seminoma", group: "genitourinary", parent: "testicular", asOf, tags, wikipedia: W("Seminoma"),
     keyPapers: ["paper-igcccg-classification-jco-1997", "paper-mrc-te19-carboplatin-seminoma-oliver-lancet-2005", "paper-sempet-de-santis-jco-2004"],
     aka: ["Classic seminoma", "Pure seminoma", "Germinoma (when in the brain)"],
     burden: "Just over half of testicular germ cell tumours, peaking in men in their thirties; almost every patient is cured, and the effort now goes into giving the least treatment that keeps it that way.",
@@ -31,7 +31,7 @@ export const testisOesophagusSubtypes: CancerInput[] = [
     ],
     pipeline: ["carboplatin","pet"], openProblems: ["Predicting which stage I patients will relapse.", "Late effects of platinum and radiotherapy decades on.", "Rare relapses more than five years out."],
     links: [{ label: "Wikipedia", url: W("Seminoma") }] },
-  { id: "non-seminoma", kind: "cancer", name: "Non-seminomatous germ cell tumour", group: "genitourinary", parent: "testicular", asOf, tags, wikipedia: W("Testicular_cancer"),
+  { id: "non-seminoma", related: ["seminoma"], kind: "cancer", name: "Non-seminomatous germ cell tumour", group: "genitourinary", parent: "testicular", asOf, tags, wikipedia: W("Testicular_cancer"),
     keyPapers: ["paper-igcccg-classification-jco-1997", "paper-igcccg-update-gillessen-jco-2021", "paper-getug-13-fizazi-lancet-oncol-2014", "paper-williams-bep-vs-pvb-nejm-1987"],
     aka: ["NSGCT", "Non-seminoma", "Embryonal carcinoma", "Yolk sac tumour", "Choriocarcinoma", "Teratoma", "Mixed germ cell tumour"],
     burden: "Just under half of testicular germ cell tumours, in men in their twenties and thirties; cure rates are above 95 percent for early disease and about half for the small poor-risk group, whose treatment is the hardest problem left in testicular cancer.",
@@ -55,7 +55,7 @@ export const testisOesophagusSubtypes: CancerInput[] = [
     ],
     pipeline: ["tiger-trial","autologous-stem-cell-transplant"], openProblems: ["Poor-risk disease still kills about half of those affected.", "Whether high-dose chemotherapy is better than conventional salvage (TIGER).", "Cardiovascular disease, hearing loss and neuropathy in long-term survivors."],
     links: [{ label: "Wikipedia", url: W("Testicular_cancer") }] },
-  { id: "oesophageal-squamous-cell-carcinoma", kind: "cancer", name: "Oesophageal squamous cell carcinoma", group: "gastrointestinal", parent: "esophageal", asOf, tags, wikipedia: W("Esophageal_cancer"),
+  { id: "oesophageal-squamous-cell-carcinoma", related: ["oesophageal-adenocarcinoma"], kind: "cancer", name: "Oesophageal squamous cell carcinoma", group: "gastrointestinal", parent: "esophageal", asOf, tags, wikipedia: W("Esophageal_cancer"),
     keyPapers: ["paper-cross-nejm-2012", "paper-checkmate-648-nejm-2022", "paper-keynote-590-lancet-2021", "paper-checkmate-577-nejm-2021"],
     aka: ["Esophageal squamous cell carcinoma", "ESCC", "Oesophageal SCC"],
     burden: "About 85 percent of oesophageal cancers worldwide and the dominant type across the Asian oesophageal cancer belt, East Africa and South America; in high-income countries it is now outnumbered by adenocarcinoma, and five-year survival is around 20 percent overall.",
@@ -78,7 +78,7 @@ export const testisOesophagusSubtypes: CancerInput[] = [
     ],
     pipeline: ["nivolumab","tislelizumab"], openProblems: ["Whether surgery can be omitted after a complete response to chemoradiation.", "Most cases worldwide present late without access to endoscopy.", "Nutrition, swallowing and quality of life during and after treatment."],
     links: [{ label: "Wikipedia", url: W("Esophageal_cancer") }] },
-  { id: "oesophageal-adenocarcinoma", kind: "cancer", trials: ["esopec", "flot4"], name: "Oesophageal and junctional adenocarcinoma", group: "gastrointestinal", parent: "esophageal", asOf, tags, wikipedia: W("Esophageal_cancer"),
+  { id: "oesophageal-adenocarcinoma", related: ["oesophageal-squamous-cell-carcinoma"], kind: "cancer", trials: ["esopec", "flot4"], name: "Oesophageal and junctional adenocarcinoma", group: "gastrointestinal", parent: "esophageal", asOf, tags, wikipedia: W("Esophageal_cancer"),
     keyPapers: ["paper-checkmate-649-lancet-2021", "paper-flot4-lancet-2019", "paper-cross-nejm-2012", "paper-keynote-590-lancet-2021"],
     aka: ["Esophageal adenocarcinoma", "EAC", "Gastro-oesophageal junction adenocarcinoma", "Barrett's cancer"],
     burden: "The dominant oesophageal cancer in Western countries, where its incidence has risen several-fold since the 1970s with reflux and obesity; it affects men six times more than women, and five-year survival is about 20 percent overall.",

@@ -10,7 +10,7 @@ type C = Omit<CompanyInput, "kind" | "asOf" | "links"> & { links?: CompanyInput[
 const c = (x: C): CompanyInput => ({ kind: "company", asOf, links: x.website ? [{ label: "Official website", url: x.website }] : [], ...x });
 
 export const companiesWave1: CompanyInput[] = [
-  c({ id: "bausch-health", name: "Bausch Health", hq: "Laval, Quebec", country: "CA", companyType: "pharma", website: "https://www.bauschhealth.com", ticker: "BHC",
+  c({ id: "bausch-health", wikipedia: "https://en.wikipedia.org/wiki/Bausch_Health", name: "Bausch Health", hq: "Laval, Quebec", country: "CA", companyType: "pharma", website: "https://www.bauschhealth.com", ticker: "BHC",
     tldr: "Bausch Health (formerly Valeant) is a diversified pharmaceutical company whose oncology-adjacent products include the retinoid bexarotene (Targretin) and imiquimod (Zyclara) for actinic keratosis.",
     summary: "Bausch Health sells dermatology, gastroenterology, eye health (Bausch + Lomb) and generic medicines. In oncology it holds the US applications for Targretin (bexarotene) in cutaneous T-cell lymphoma and Zyclara and Aldara (imiquimod), the latter approved for superficial basal cell carcinoma and actinic keratosis." }),
   c({ id: "otsuka", trials: ["nct07075328", "nct05883956", "nct04233346"], drugs: ["busulfan", "decitabine", "trifluridine-tipiracil"], cancers: ["mds", "aml"], companies: ["taiho", "johnson-johnson"], aka: ["Astex Pharmaceuticals", "Graceway Pharmaceuticals, LLC", "Graceway Pharmaceuticals"], name: "Otsuka Pharmaceutical", hq: "Tokyo", country: "JP", companyType: "pharma", website: "https://www.otsuka.co.jp/en/", ticker: "4578.T",

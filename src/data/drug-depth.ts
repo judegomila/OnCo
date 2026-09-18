@@ -412,8 +412,13 @@ export const drugDepth: Record<string, DrugDepth> = {
   daraxonrasib: {
     dosing: { route: "Oral", schedule: "300 mg once daily (phase 3 dose; 200 mg in some cohorts)", modifications: "Reduce for grade 3 rash or stomatitis", monitoring: "Skin, oral mucosa, LFTs", source: "https://clinicaltrials.gov/study/NCT06625320" },
     toxicity: [tx("Rash", undefined, undefined, undefined, "Most common; mostly grade 1-2 per phase 1/2 reports"), tx("Stomatitis"), tx("Nausea"), tx("Diarrhoea"), tx("Fatigue")],
-    access: [{ country: "US", reimbursement: "Investigational; NDA expected after RASolute 302", asOf: "2026-09-06" }],
-    regulatoryEvents: [ev("2024-06", "designation", "US", "Breakthrough Therapy designation, previously treated metastatic PDAC"), ev("2025-12", "filing", "US", "RASolute 302 phase 3 fully enrolled; topline 2026")],
+    // FDA approval: Drugs@FDA NDA 220910, action date 26 August 2026 (issue 39). Coverage and price are not recorded until a public source exists.
+    access: [{ country: "US", reimbursement: "FDA-approved 26 August 2026 (Rasonque, NDA 220910), oral tablets; coverage decisions and list price not yet recorded", source: "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220910", asOf: "2026-09-18" }],
+    regulatoryEvents: [
+      ev("2024-06", "designation", "US", "Breakthrough Therapy designation, previously treated metastatic PDAC"),
+      ev("2026-07-17", "filing", "US", "NDA 220910 received by the FDA on the RASolute 302 result", "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220910Orig1s000ltr.pdf"),
+      ev("2026-08-26", "approval", "US", "NDA 220910 approved as Rasonque: adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy", "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220910Orig1s000ltr.pdf"),
+    ],
     mechanismSteps: ["Drug binds cyclophilin A inside the cell", "The drug-cyclophilin complex binds the active (GTP-bound) RAS protein, forming a tri-complex", "RAS(ON) is sterically blocked from engaging RAF and other effectors, regardless of which mutation it carries", "MAPK signalling collapses in RAS-addicted cells", "Pancreatic and other RAS-driven tumour cells arrest and die"],
   },
   encorafenib: {

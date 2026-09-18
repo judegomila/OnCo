@@ -17,6 +17,7 @@ import { WebMCP } from "@/components/WebMCP";
 import { FEED_TYPES } from "@/lib/seo";
 import { GardenDefs } from "@/components/Garden";
 import { MotionGovernor } from "@/components/MotionGovernor";
+import { ChipTitles } from "@/components/ChipTitles";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -69,6 +70,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CommandPalette />
         <RegisterSW />
         <MotionGovernor />
+        <ChipTitles />
         <WebMCP />
         <ExternalLinks />
         {/* Record pages stamp data-onco-id / data-onco-kind on this element for agents (MachineLinks); the hydration warning is for those attributes. */}

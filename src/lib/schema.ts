@@ -148,6 +148,17 @@ export const CancerSchema = Base.extend({
   /** What is coming: ids of drugs/technologies/trials/ideas. */
   pipeline: z.array(id).default([]),
   openProblems: z.array(z.string()).default([]),
+  /**
+   * The basics a newcomer needs before the treatment sections make sense: how the cancer shows itself, how it is
+   * confirmed, and how it is staged. Short bulleted lines (glossary terms in them get hover explanations), with the
+   * sources they were read from. Shown on the overview before the standard of care.
+   */
+  basics: z.object({
+    symptoms: z.array(z.string()).default([]),
+    diagnosis: z.array(z.string()).default([]),
+    staging: z.array(z.string()).default([]),
+    sources: z.array(ExternalLinkSchema).default([]),
+  }).optional(),
   /** The broader cancer this record is a subtype of (pleural mesothelioma -> mesothelioma); the parent page lists its subtypes at the top. */
   parent: id.optional(),
 });

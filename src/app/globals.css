@@ -214,6 +214,12 @@
     overflow-wrap: normal;
     word-break: keep-all;
     max-width: 100%;
+    /* A label wider than the space is cut with an ellipsis instead of spilling out of the pill (issue 42).
+       `clip` rather than `hidden` so an inline-block chip keeps its text baseline in running text.
+       ChipTitles (src/components/ChipTitles.tsx) puts the full label in a title tooltip on truncated chips. */
+    min-width: 0;
+    overflow: clip;
+    text-overflow: ellipsis;
     font-size: 0.72rem;
     line-height: 1.35;
     font-weight: 600;
@@ -221,6 +227,11 @@
     font-variant-numeric: tabular-nums;
     border: 1px solid transparent;
   }
+  /* text-overflow only works on a block container's own text, not on the anonymous item a flex container wraps it
+     in, so a chip that is plain text becomes inline-block (same box, same baseline); chips with a glyph or spans stay
+     inline-flex and truncate inside their spans. */
+  .chip:not(:has(> *)) { display: inline-block; }
+  .chip > span { min-width: 0; overflow: clip; text-overflow: ellipsis; }
   /* A glyph inside a chip keeps its size and sits on the chip's centre line beside the label. */
   .chip > svg, .chip > img { display: block; flex-shrink: 0; }
 

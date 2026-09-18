@@ -656,6 +656,27 @@ function CancerFamily({ c }: { c: Cancer }) {
   );
 }
 
+/**
+ * Symptoms, diagnosis and staging, shown before any treatment so a lay reader is not dropped straight into regimens
+ * (issue 36). Each line goes through LinkedBullets, so glossary terms and abbreviations get their hover explanations.
+ */
+function CancerBasics({ c }: { c: Cancer }) {
+  const b = c.basics;
+  if (!b || (!b.symptoms.length && !b.diagnosis.length && !b.staging.length)) return null;
+  const sources = b.sources.length > 0 && (
+    <span className="text-xs text-muted">Sources: {b.sources.map((s, i) => <span key={s.url}>{i > 0 && ", "}<a href={s.url} className="underline" rel="noopener noreferrer">{s.label}</a></span>)}</span>
+  );
+  return (
+    <Block title="Symptoms, diagnosis and staging" aside={sources}>
+      <div className="grid gap-6 sm:grid-cols-3">
+        {b.symptoms.length > 0 && <Field label="How it shows"><LinkedBullets items={b.symptoms} skipId={c.id} /></Field>}
+        {b.diagnosis.length > 0 && <Field label="How it is confirmed"><LinkedBullets items={b.diagnosis} skipId={c.id} /></Field>}
+        {b.staging.length > 0 && <Field label="How it is staged"><LinkedBullets items={b.staging} skipId={c.id} /></Field>}
+      </div>
+    </Block>
+  );
+}
+
 function cancerTabs(c: Cancer): Tab[] {
   const g = graph();
   const forMe = g.forCancer(c.id);
@@ -665,6 +686,7 @@ function cancerTabs(c: Cancer): Tab[] {
     { id: "overview", label: "Overview", content: <>
       <CancerFamily c={c} />
       <Summary e={c} />
+      <CancerBasics c={c} />
       <Block title="State of the art"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
       <RedCardsStrip cancer={c} />
       {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1"><TL text="Treatment journeys" /></div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}

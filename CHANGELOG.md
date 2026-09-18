@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 18 September 2026
+- Final researcher identifiers pass: 64 ORCID ids and 60 Wikipedia links, taking 373 people to ORCID and 181 to Wikipedia, plus STRASS trial results
 - Seventy-four drug makers added and 210 drug-to-company links filled, so pipeline drugs now show who is developing them
 - Key papers for 147 subtype pages: 364 pivotal trial, classification and guideline papers, each checked against Europe PMC
 - Thirty-nine drugs named by the new subtype pages now have their own records, from hormone therapies for pituitary tumours to antibody-drug conjugates in trials
@@ -28,6 +29,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - 969 more plain-English sentences for early-phase trials, key papers and collections, taking the simple layer to 9,930 records; one non-cancer registry record removed
 - Orphan trials given content: ten drug matches, 17 sponsor aliases, 36 sponsor companies and 130 trials tied to their makers, two non-cancer records removed; backlinks round: 303 weakly linked records gain true relations from their own text; orphans down to 214
 - 1,024 more plain-English sentences: 279 companies, 104 institutions and 640 phase 3 trials, taking the simple layer to 8,961 records
+- Sixty-four more researchers carry ORCID ids and 60 gain Wikipedia links in the fourth identifier pass
 - Seventy-seven landmark trials now show their results as structured outcomes transcribed from the published abstracts, and 146 more researchers carry ORCID ids
 - Add structured outcomes to STRASS from its Lancet Oncology 2020 abstract
 - Add identifiers pass three: 146 ORCIDs and 7 Wikipedia links for people

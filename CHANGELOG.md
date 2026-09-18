@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 18 September 2026
-- Trial acronym aliases completed for every registry trial that has one (115 more), so searches by study name find them all
+- Health pass: 369 paper links for 270 researchers, PubChem structures for 43 drugs, six glossary Wikipedia links, refreshed literature snapshots for all 2,093 tracked records, provenance for every record, and 28 logos
 - Seventy-four drug makers added and 210 drug-to-company links filled, so pipeline drugs now show who is developing them
 - Key papers for 147 subtype pages: 364 pivotal trial, classification and guideline papers, each checked against Europe PMC
 - Thirty-nine drugs named by the new subtype pages now have their own records, from hormone therapies for pituitary tumours to antibody-drug conjugates in trials
@@ -29,6 +29,10 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - 969 more plain-English sentences for early-phase trials, key papers and collections, taking the simple layer to 9,930 records; one non-cancer registry record removed
 - Orphan trials given content: ten drug matches, 17 sponsor aliases, 36 sponsor companies and 130 trials tied to their makers, two non-cancer records removed; backlinks round: 303 weakly linked records gain true relations from their own text; orphans down to 214
 - 1,024 more plain-English sentences: 279 companies, 104 institutions and 640 phase 3 trials, taking the simple layer to 8,961 records
+- Six more glossary terms gain Wikipedia links; 74 recorded as having no article
+- Molecules for 43 more small-molecule and peptide drugs via PubChem name lookup
+- Link 369 key papers to 270 people from existing corpus links, people-papers gauge 73.8% to 79.4%
+- Trial acronym aliases completed for every registry trial that has one (115 more), so searches by study name find them all
 - Add 115 registry trial acronyms from the CT.gov acronym field
 - Eighty more drug companies gain Wikipedia and Wikidata links
 - Add Wikidata ids and Wikipedia links for 80 more companies

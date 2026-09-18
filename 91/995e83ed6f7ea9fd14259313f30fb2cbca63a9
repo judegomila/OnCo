@@ -1,0 +1,65 @@
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_2b5eac60103dee 88
+  s_0beac9cb5d78fd::t_83311221217f50 1846
+src/data/neuroendocrine-subtypes.ts
+  ai_agent 1-195
+src/data/pipeline-trials-wave2.ts
+  s_0beac9cb5d78fd::t_7be60c8ede4350 227
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_cc4a919cc0ffbf 17
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_f23585b75517fc 80
+  s_0beac9cb5d78fd::t_e08f1ad6b659e5 58
+  s_0beac9cb5d78fd::t_435fe38173c053 123
+src/data/platform-trials-wave.ts
+  s_0beac9cb5d78fd::t_972dc1769db5aa 132
+src/data/spikes/neuroendocrine.ts
+  s_0beac9cb5d78fd::t_94032cdec07619 50
+  s_0beac9cb5d78fd::t_f2a32a9ea9cf21 54
+  s_0beac9cb5d78fd::t_294a2cbc35297a 132
+  s_0beac9cb5d78fd::t_f7b0e3633bb920 42
+  s_0beac9cb5d78fd::t_e357d5c4185922 139
+  s_0beac9cb5d78fd::t_d2730c4c1a8473 86
+  s_0beac9cb5d78fd::t_1f0b89cf9387a4 111
+  s_0beac9cb5d78fd::t_7e41fd4fc241d2 125
+  s_0beac9cb5d78fd::t_de3b90d7b0e425 99
+  s_0beac9cb5d78fd::t_2e4557bbb40688 67
+  s_0beac9cb5d78fd::t_857924535e8fab 118
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_31cfce258f20b4 492
+  s_0beac9cb5d78fd::t_85767f88ed5051 641
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_6f12cf46b68d30 110
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_8e7b28bc341d52 1559
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_04df2920962931 5135
+  s_0beac9cb5d78fd::t_d1e73276efe6ae 5651
+  s_0beac9cb5d78fd::t_1d412704cd2bab 6401
+  s_0beac9cb5d78fd::t_9df882bec1b4c4 9581
+  s_0beac9cb5d78fd::t_0614be901f32ab 6611
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_6836bf025d0ebf 454
+  s_0beac9cb5d78fd::t_b5d74d74a93921 654
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_4643732f2f377e 435
+src/data/index.ts
+  s_0beac9cb5d78fd::t_1f584a5509eb65 182
+  s_0beac9cb5d78fd::t_b2cf20368821dc 97
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "91995e83ed6f7ea9fd14259313f30fb2cbca63a9",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

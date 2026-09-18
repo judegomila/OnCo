@@ -1,0 +1,102 @@
+src/data/orphans-floor.json
+  s_0beac9cb5d78fd::t_35a3d21c16bdd8 2-3
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 162
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 218,230
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_928733793d9574 672,1194,1440,1518,1608,1926,2304,2382,2700,3000,3348,3444,3522,3720,3768
+  s_0beac9cb5d78fd::t_67b1e49ce91ed1 402,942,1758,2076,2442,3102,3354,3708
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_67b1e49ce91ed1 1010,1100,1454,1850
+  s_0beac9cb5d78fd::t_928733793d9574 638,1346
+src/data/companies-startups.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 34
+src/data/sponsor-aliases.ts
+  s_0beac9cb5d78fd::t_a6251ea4c3b76f 62-65
+  s_0beac9cb5d78fd::t_cd1430ebb599f8 262
+  s_0beac9cb5d78fd::t_e8eabc79bc4d41 320
+  s_0beac9cb5d78fd::t_07c64cbc9ad5fd 48-60
+  s_0beac9cb5d78fd::t_fb02604ee1af35 38
+  s_0beac9cb5d78fd::t_4c8e931cff7f6b 61
+  s_0beac9cb5d78fd::t_6820a3ce37d562 66-102
+src/data/spikes/cholangiocarcinoma.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 30
+  s_0beac9cb5d78fd::t_cd45c4aeb308ed 22
+src/data/drugs-pipeline-wave7.ts
+  s_0beac9cb5d78fd::t_35353c5d73c710 23
+src/data/pipeline-trials-wave2.ts
+  s_0beac9cb5d78fd::t_928733793d9574 767,1469
+src/data/pipeline-trials-wave3.ts
+  s_0beac9cb5d78fd::t_928733793d9574 168
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_67b1e49ce91ed1 11,19
+src/data/index.ts
+  s_0beac9cb5d78fd::t_9da9afec6180e3 168
+  s_0beac9cb5d78fd::t_752e6574f7cbd0 64
+src/data/machines-wave.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 286
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_35353c5d73c710 35,197,1775
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_cd45c4aeb308ed 449
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 26,34,38,42,46,86,132,180,216,220,461,466,637
+  s_0beac9cb5d78fd::t_c2046407a3bf2c 10
+src/data/companies-sponsors.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 23,28,33,123,268,274,297,313,380,410,734,1572
+src/data/groups.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 17,22,27,38,53
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_b6d1304ff7d60f 288
+src/data/institutions/bodies.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 27
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 26
+  s_0beac9cb5d78fd::t_dcfc0b408d683d 124
+src/data/machines-wave2.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 256
+src/data/companies-sponsors-wave3.ts
+  s_0beac9cb5d78fd::t_02a5b4ddd9284e 1-15,17-30,32-35,37-50,52-60,62-70,72-85,87-115,117-125,127-130,132-135,137-155,157-160,162-165,167-180,182-185,187-190,192-234
+  s_0beac9cb5d78fd::t_6792aa3bf34e2b 16,31,36,51,61,71,86,116,126,131,136,156,161,166,181,186,191
+src/data/companies-wave1.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 16,64,71
+src/data/radiation-wave2.ts
+  s_0beac9cb5d78fd::t_67b1e49ce91ed1 19,82,89,102,108,115,127
+src/data/spikes/cervical.ts
+  s_0beac9cb5d78fd::t_dcfc0b408d683d 138
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_67b1e49ce91ed1 31,49,109,199,229,277,529,601,673,679,709,823,841,1021,1123,1309,1681,1855,1909,2161,2167,2317,2389,2545,2845,2881,3109,3115,3175,3367,3499,3523,3637,3661,3691,3697,3715,3835,3901,3949,4099,4111,4117,4255,4405,4627,4915,5059,5083,5149,5299,5431,5461,5497,5575,5623,5665,5953,5971,6019,6163,6235,6337,6355,6445,6475,6529,6685,6733,6847,6973,7225,7279,7333,7711,7873,7963,7969,8071,8155,8167,8299,8305,8341,8473,8641,8797,8809,8827,8857,8905,8917,9169,9205,9235,9391,9451,9553,9601
+  s_0beac9cb5d78fd::t_35353c5d73c710 311,419,1877,4529,4547,5543,5765,5993,6203,6623,7835,7937,8753
+  s_0beac9cb5d78fd::t_928733793d9574 79,157,319,337,505,607,613,661,721,955,967,1027,1045,1237,1261,1543,1645,1801,1885,1915,2065,2155,2179,2227,2383,2719,2935,2965,3025,3103,3181,3199,3247,3253,3481,3769,3931,4615,4645,4699,4801,4843,4981,5279,5311,5539,5743,5767,5875,6085,6097,6313,6487,6715,6883,7057,7183,7285,7303,7429,7531,7673,7717,7765,7903,7999,8023,8257,8359,8425,8551,8605,8845,9233,9325,9373,9439,9463,9493,9499,9529,9599,9623
+  s_0beac9cb5d78fd::t_c2046407a3bf2c 1591,4675
+src/data/radiation-wave4.ts
+  s_0beac9cb5d78fd::t_67b1e49ce91ed1 24,85,98,105,112,118,125,139,146,152
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_cd45c4aeb308ed 146,199,221,261,279,298,360,410,552
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 121,140,142
+src/data/china.ts
+  s_0beac9cb5d78fd::t_2377d8ab7137dc 281,341,361
+  s_0beac9cb5d78fd::t_b6d1304ff7d60f 112,145
+src/data/drugs-pipeline-wave2.ts
+  s_0beac9cb5d78fd::t_35353c5d73c710 28
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_c2046407a3bf2c 527
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "51485c66a96d5a7fb220ccf312652272488ee734",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

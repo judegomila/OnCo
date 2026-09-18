@@ -422,7 +422,7 @@ export const ideasPrevention: IdeaInput[] = [
     hypothesis: "Cessation after five years of stability results in pancreatic cancer incidence under 1% over five further years, non-inferior to continued surveillance.",
     rationale: "Lifelong surveillance carries cost and anxiety; event rates in stable cysts are low.",
     test: "2,000-patient multicentre RCT.",
-    sections: ["early-detection", "imaging"], cancers: ["pancreatic"], technologies: ["mri"], links: [{ label: "Bottleneck evidence (Overdiagnosis and false alarms): Welch & Black, Overdiagnosis in cancer (JNCI 2010)", url: "https://doi.org/10.1093/jnci/djq099" }] }),
+    sections: ["early-detection", "imaging"], cancers: ["pancreatic", "ipmn-cystic-precursors"], technologies: ["mri"], links: [{ label: "Bottleneck evidence (Overdiagnosis and false alarms): Welch & Black, Overdiagnosis in cancer (JNCI 2010)", url: "https://doi.org/10.1093/jnci/djq099" }] }),
   i({ id: "idea-prev-pathology-ai-borderline-anchor", name: "AI second reads to stop borderline lesions being upgraded to cancer", maturity: "early-clinical", actor: "clinic", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-overdiagnosis", "b-ai-validation"],
     tldr: "Whether a lesion is called precancer or cancer varies between pathologists, and over time the bar has drifted lower. AI reference reads could hold the line.",

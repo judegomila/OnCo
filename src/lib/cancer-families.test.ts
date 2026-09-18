@@ -77,6 +77,7 @@ const PARENT_PHRASES: Record<string, RegExp> = {
   "pheochromocytoma-paraganglioma": /pheochromocytoma|paraganglioma/i,
   nasopharyngeal: /nasopharyn/i,
   sinonasal: /sinonasal|nasal cavity|nose|sinus/i,
+  pancreatic: /pancrea/i,
 };
 
 /** At most this many same-parent siblings in `related`: a comparison set, not the whole family. */

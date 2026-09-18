@@ -7,10 +7,8 @@ import { FacetSelect } from "./filters/FacetSelect";
 import { CancerIcon } from "./CancerIcon";
 import { useT } from "@/lib/i18n/ui";
 import { ACCOUNT_ROLES, ROLE_MODE, saveAccountProfile, useProfile, type AccountRole } from "@/lib/profile";
-import { pickMyCancer, useMyCancer, type MyCancerLite } from "@/lib/use-my-cancer";
-
-/** The cancer list the signup page ships: id, name, route and the hub group for the chooser's headings. */
-export type WelcomeCancer = MyCancerLite & { group?: string };
+import { pickMyCancer, useMyCancer } from "@/lib/use-my-cancer";
+import { useMyCancerList } from "@/lib/use-my-cancer-list";
 
 /** Line icons for the four roles, drawn like the other header glyphs (24 grid, 1.6 stroke). */
 export function RoleIcon({ role, className = "h-4 w-4" }: { role: AccountRole; className?: string }) {
@@ -34,12 +32,14 @@ export function safeReturnPath(p: string | null | undefined): string {
  * or reopened from the account menu with `?welcome=1`). Four role pills, an optional cancer chooser that writes the
  * same browser preference For me and the hubs read, a consent sentence, Continue and a quiet Skip. Everything stays
  * in this browser: the role goes to the per-user account profile, the cancer to the browser profile, nothing to a server.
+ * The chooser's list (id, name, route, hub group) is fetched from /api/v1/my-cancers.json when this step mounts.
  */
-export function WelcomeStep({ userId, cancers, back, initialRole, onDone }: { userId: string; cancers: WelcomeCancer[]; back: string; initialRole?: AccountRole; onDone?: () => void }) {
+export function WelcomeStep({ userId, back, initialRole, onDone }: { userId: string; back: string; initialRole?: AccountRole; onDone?: () => void }) {
   const { t } = useT();
   const router = useRouter();
   const [role, setRole] = useState<AccountRole | undefined>(initialRole);
   const my = useMyCancer();
+  const cancers = useMyCancerList();
   const [, updateProfile] = useProfile();
   const mine = pickMyCancer(cancers, my.id);
   const options = useMemo(() => cancers.map((c) => ({ value: c.id, label: c.name, group: c.group ? c.group[0].toUpperCase() + c.group.slice(1) : undefined, icon: <CancerIcon cancerId={c.id} className="h-4 w-4" /> })), [cancers]);

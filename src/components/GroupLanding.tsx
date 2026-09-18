@@ -2,7 +2,8 @@ import { NavIcon, NavItemIcon } from "./NavIcon";
 import Link from "next/link";
 import { NAV_GROUPS } from "@/lib/nav";
 import { Container, PageHeader } from "./ui";
-import { GardenBackdrop, gardenSeed } from "./Garden";
+import { GardenBackdrop } from "./Garden";
+import { gardenSeed } from "@/lib/garden-seed";
 import { GroupText, ItemText } from "./NavText";
 
 /**

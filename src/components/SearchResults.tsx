@@ -16,7 +16,8 @@ import { loadAskIndex } from "@/lib/ask-index";
 import { answerQuestion, type AskResult } from "@/lib/ask-pipeline";
 import type { Neighbour } from "@/lib/ask-compose";
 import { loadEntityRecord } from "@/lib/entity-client";
-import { pickMyCancer, shortCancerName, useMyCancer, type MyCancerLite } from "@/lib/use-my-cancer";
+import { pickMyCancer, shortCancerName, useMyCancer } from "@/lib/use-my-cancer";
+import { useMyCancerList } from "@/lib/use-my-cancer-list";
 import { CancerIcon } from "./CancerIcon";
 import { askHref, FEW_HITS, looksLikeQuestion, normaliseQuery, parseSearchState, searchHref, searchQueryString, searchTerms, usefulSuggestions } from "@/lib/search-query";
 
@@ -97,10 +98,11 @@ function Skeleton() {
  * "Did you mean" from MiniSearch's fuzzy suggestions, an Ask OnCo answer when the query is a question,
  * and the top hit's related records. Every state lives in ?q= and ?kind=, so it is shareable.
  */
-export function SearchResults({ cancers = [] }: { cancers?: MyCancerLite[] }) {
+export function SearchResults() {
   const [q, setQ] = useState("");
   const [forMine, setForMine] = useState(false);
-  const mine = pickMyCancer(cancers, useMyCancer().id);
+  const myId = useMyCancer().id;
+  const mine = pickMyCancer(useMyCancerList(!!myId), myId);
   const [query, setQuery] = useState("");
   const [kind, setKind] = useState<string | null>(null);
   const [rows, setRows] = useState<Row[] | null>(null);

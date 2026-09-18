@@ -60,3 +60,7 @@ const linkerTerms: TermInput[] = linkers.map((l) => {
 
 /** Payloads, payload classes and linkers as glossary objects, so every cell in the registry links somewhere. */
 export const adcChemistry: TermInput[] = [...payloadTerms, ...classTerms, ...linkerTerms];
+
+// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
+// A later Wikipedia-linking pass can skip these ids.
+//   hydrophilic-next-gen

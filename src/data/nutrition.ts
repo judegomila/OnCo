@@ -676,3 +676,8 @@ const ideas: IdeaInput[] = [
 ];
 
 export const nutrition: EntityInput[] = [...technologies, ...terms, ...trials.map((t) => ({ ...t, ...TRIAL_OUTCOMES[t.id] })), ...ideas];
+
+// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
+// A later Wikipedia-linking pass can skip these ids.
+//   immunonutrition
+//   malnutrition-screening

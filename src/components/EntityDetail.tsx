@@ -94,7 +94,7 @@ import { organFor } from "@/data/organ-schematics";
 import { regimensFor, regimenRoute, cycleSummary } from "@/lib/regimens";
 import { guidelineCancerIds } from "@/lib/guidelines";
 import { agentById } from "@/lib/interactions";
-import { XrefStrip } from "./XrefStrip";
+import { IdentifierRow, XrefStrip } from "./XrefStrip";
 import { EN_TEXT, nameAttrs } from "@/lib/translate";
 import { HotspotPlot } from "./HotspotPlot";
 import { OpenMedicalPanel } from "./OpenMedicalPanel";
@@ -302,6 +302,7 @@ function kindTabs(e: Entity): Tab[] {
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
             <Field label="Where it is found"><Bullets items={e.whereFound} linked={(t) => withTermHovers(t, { skipId: e.id })} /></Field>
             <Field label="Class"><span className="capitalize">{e.targetClass.replace("-", " ")}</span>{e.symbol && <span className="text-muted"> · {e.symbol}</span>}</Field>
+            {e.hgnc && <Field label="Identifiers"><IdentifierRow target={e} /></Field>}
           </div>
           {e.prevalence.length > 0 && <Block title="How often this target appears"><PrevalenceTable target={e} /></Block>}
         </>),

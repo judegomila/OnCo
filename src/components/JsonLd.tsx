@@ -3,6 +3,7 @@ import { KIND_META, routeFor } from "@/lib/schema";
 import { graph } from "@/lib/graph";
 import { SITE, SITE_NAME, absoluteUrl, entityCrumbs, machineRoutes, type Crumb } from "@/lib/seo";
 import { wikidataIds } from "@/data/wikidata-ids";
+import { geneIdUrls } from "@/lib/gene-ids";
 
 type Node = Record<string, unknown>;
 const CTX = "https://schema.org";
@@ -23,8 +24,8 @@ const shortName = (s: string) => s.replace(/ \(.*\)$/, "");
 
 /** Wikidata item URI for a record, from the generated map (same form as the owl:sameAs triples in onco.nt). */
 const wikidata = (id: string): string | undefined => (wikidataIds[id] ? `http://www.wikidata.org/entity/${wikidataIds[id]}` : undefined);
-/** The record's external identities: Wikipedia article and Wikidata item, when we have them. */
-const identities = (e: Entity): Array<string | undefined> => [e.wikipedia, wikidata(e.id)];
+/** The record's external identities: Wikipedia article, Wikidata item and, for single-gene targets, HGNC, Ensembl, UniProt and NCBI Gene. */
+const identities = (e: Entity): Array<string | undefined> => [e.wikipedia, wikidata(e.id), ...(e.kind === "target" ? geneIdUrls(e) : [])];
 
 /** Reference to another OnCo record: name plus the page it lives on. */
 function ref(id: string, type: string): Node | undefined {

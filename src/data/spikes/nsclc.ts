@@ -204,7 +204,7 @@ const drugs: DrugInput[] = [
 
 // ======================= TARGETS =======================
 const targets: TargetInput[] = [
-  { id: "ros1", kind: "target", name: "ROS1", symbol: "ROS1", targetClass: "kinase", asOf, wikipedia: W("ROS1"),
+  { id: "ros1", kind: "target", name: "ROS1", symbol: "ROS1", hgnc: "HGNC:10261", ensembl: "ENSG00000047936", uniprot: "P08922", entrez: "6098", targetClass: "kinase", asOf, wikipedia: W("ROS1"),
     tldr: "A gene fusion in about 1-2% of lung cancers that responds for years to targeted pills, now in their third generation.",
     summary: "ROS1 rearrangements (CD74-ROS1 most common) occur in ~1-2% of NSCLC, typically in younger never-smokers. Crizotinib (2016) and entrectinib (2019) were first; repotrectinib (2023) covers the G2032R solvent-front mutation; zidesamtinib (July 2026) adds TRK sparing to reduce neurologic toxicity. Also seen in cholangiocarcinoma and glioblastoma (rare).",
     biology: "Receptor tyrosine kinase with homology to ALK; fusions constitutively activate MAPK, PI3K, and JAK-STAT.",

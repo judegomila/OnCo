@@ -174,6 +174,15 @@ export const TargetSchema = Base.extend({
   kind: z.literal("target"),
   /** Gene symbol / protein name. */
   symbol: z.string().optional(),
+  /**
+   * External gene identifiers for single-gene targets, filled by scripts/enrich-target-ids.ts from the HGNC REST API
+   * (UniProt REST as fallback). Composite targets (AKT1/2/3, BRCA1, BRCA2) carry none; their per-gene ids live in
+   * src/data/target-xrefs.ts. Rendered by IdentifierRow and emitted as schema:sameAs.
+   */
+  hgnc: z.string().regex(/^HGNC:\d+$/).optional(),
+  ensembl: z.string().regex(/^ENSG\d{11}$/).optional(),
+  uniprot: z.string().regex(/^[OPQ][0-9][A-Z0-9]{3}[0-9]$|^[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}$/).optional(),
+  entrez: z.string().regex(/^\d+$/).optional(),
   biology: z.string(),
   /** Expression or alteration by cancer, free text. */
   whereFound: z.array(z.string()).default([]),

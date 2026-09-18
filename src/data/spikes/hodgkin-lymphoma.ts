@@ -19,7 +19,7 @@ const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: 
 
 // ======================= TARGETS =======================
 const targets: TargetInput[] = [
-  tg({ id: "cd30", name: "CD30", symbol: "TNFRSF8", targetClass: "surface-antigen", wikipedia: W("CD30"),
+  tg({ id: "cd30", name: "CD30", symbol: "TNFRSF8", hgnc: "HGNC:11923", ensembl: "ENSG00000120949", uniprot: "P28908", entrez: "943", targetClass: "surface-antigen", wikipedia: W("CD30"),
     tldr: "CD30 is a protein on the malignant Reed-Sternberg cells of Hodgkin lymphoma and on some T-cell lymphomas, and the address for the ADC brentuximab vedotin.",
     summary: "TNF-receptor family member expressed on activated lymphocytes and near-universally on Hodgkin Reed-Sternberg cells, anaplastic large-cell lymphoma, and subsets of peripheral T-cell lymphoma and DLBCL. Brentuximab vedotin (2011) validated it; CD30 CAR-T (phase 1/2, ~60-70% ORR in relapsed Hodgkin) and CD30 bispecifics are in trials. Expression level does not predict brentuximab response well.",
     biology: "Signals via TRAF proteins to NF-κB; shed soluble CD30 is a serum marker. Sparse normal expression outside activated T and B cells.",

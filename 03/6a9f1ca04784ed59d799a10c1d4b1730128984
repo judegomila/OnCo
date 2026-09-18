@@ -1,0 +1,51 @@
+src/data/bladder-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 15,39
+src/data/prostate-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 18,43,67,90,116,145,169,201
+src/data/colorectal-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 90,125,156,187,216,245,275
+src/data/lung-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 249,278,306,331,357,384
+src/data/breast-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 23,56,119,151,213,246,275,300
+src/data/neuroendocrine-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 24,61,99,131,164
+src/data/index.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 30,149
+src/data/kidney-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 15,42,64
+src/data/testis-oesophagus-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 14,35,59,82
+src/data/ovarian-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 15,42,63,84,105
+src/data/papers-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 1-3981
+src/data/upper-gi-liver-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 21,47,71,96,122,152,181,207,238,268,302,329,354
+src/data/skin-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 158,189,220,246,280,309,339,368,401
+src/data/cns-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 19,52,83,113,149,179,207,238
+src/data/cancer-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 15,42
+src/data/thyroid-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 15,40,62,87
+src/data/gynaecological-subtypes.ts
+  s_0beac9cb5d78fd::t_2c7edc842baee3 23,50,78,105,134,162,190,219,248,279,310
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "036a9f1ca04784ed59d799a10c1d4b1730128984",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

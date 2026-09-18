@@ -1,0 +1,5 @@
+#!/bin/sh
+# Refuse a commit that contains a secret. Install once with: git config core.hooksPath .githooks
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks protect --staged --redact --no-banner --config .gitleaks.toml || { echo "pre-commit: gitleaks found a secret in the staged changes"; exit 1; }
+fi

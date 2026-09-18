@@ -1,0 +1,21 @@
+# Secret scanning rules for the OnCo repository (gitleaks). The data files and dictionaries hold trial names and prose
+# that trip the generic key rule (capivasertib, CAPItello-281, keynote-522, cytokine), so that rule is muted there.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Public identifiers that are meant to be in the repo"
+regexes = [
+  '''client_01[A-Z0-9]{26}''',
+  '''G-[A-Z0-9]{10}''',
+  '''ff8eebe5ab72b3ebf022310440ba0474''',
+]
+
+[[rules]]
+id = "generic-api-key"
+[rules.allowlist]
+paths = [
+  '''^src/data/''',
+  '''^src/lib/i18n/''',
+  '''^public/''',
+]

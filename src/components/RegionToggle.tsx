@@ -24,12 +24,12 @@ export function RegionToggle() {
   const countryName = (r: string) => t(`country.${r}` as UiKey);
   const meta = region ? { label: countryName(region), regulator: REGION_META[region].regulator, flag: REGION_META[region].flag } : { label: t("region.global"), regulator: t("region.allRegulators"), flag: null };
   return (
-    <div ref={box} className="relative">
+    <div ref={box} className="relative flex items-center">
       <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="listbox" aria-expanded={open} aria-label={t("region.aria", { region: meta.label })} title={t("region.title", { region: meta.label, regulator: meta.regulator })}
         className="ctl px-2 gap-1.5">
-        {/* A drawn globe rather than the emoji, so the icon is optically centred in the control like its neighbours. */}
-        {meta.flag ? <span aria-hidden className="ctl-glyph">{meta.flag}</span> : <GlobeIcon />}
-        <span className="ctl-label hidden sm:inline xl:hidden 2xl:inline">{region}</span>
+        {/* A drawn globe rather than the emoji; flag and globe share one 20px glyph box, so the control keeps its width and centre whichever is showing. */}
+        <span aria-hidden className="ctl-glyph">{meta.flag ?? <GlobeIcon />}</span>
+        {region && <span className="ctl-label hidden sm:inline xl:hidden 2xl:inline">{region}</span>}
       </button>
       {open && (
         <div role="listbox" aria-label={t("region.listbox")} className="absolute end-0 top-full mt-1.5 z-50 card shadow-pop w-72 p-1.5 max-sm:fixed max-sm:inset-x-3 max-sm:top-[calc(var(--header-h)+0.375rem)] max-sm:w-auto max-sm:max-h-[75vh] max-sm:overflow-y-auto">

@@ -20,6 +20,8 @@ import { RoleIcon } from "./WelcomeStep";
  */
 const SIGNUP_ACTION = process.env.NEXT_PUBLIC_SIGNUP_ACTION ?? "";
 const SIGNUP_LIST = process.env.NEXT_PUBLIC_SIGNUP_LIST ?? "";
+/** The signed-out header pill: the shared 40px control box in the accent with white text, a square on phones. */
+const CTA_CLASS = "ctl btn-primary w-10 px-0 sm:w-auto sm:px-3 gap-2 font-medium";
 
 function ProfileIcon({ size = 18 }: { size?: number }) {
   return <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden><circle cx="12" cy="8" r="4" /><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5" /></svg>;
@@ -198,7 +200,11 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
           )}
         </>
       ) : (
-        provider === "workos" ? <button type="button" onClick={() => startSignIn()} className="ctl ctl-icon" title={t("account.signIn")} aria-label={t("account.signIn")}><ProfileIcon /></button> : <Link href="/signup/" className="ctl ctl-icon" title={accountEnabled ? t("account.title") : t("signup.title")} aria-label={t("signup.icon")}><ProfileIcon /></Link>
+        /* Signed out: the primary pill, "Sign up or log in". Icon only below sm (a 40px square), icon and label from sm up.
+           With WorkOS it starts the PKCE flow from here so the reader comes back to this page; otherwise it opens /signup/. */
+        provider === "workos"
+          ? <button type="button" onClick={() => startSignIn()} className={CTA_CLASS} title={t("account.signInCta")} aria-label={t("account.signInCta")}><ProfileIcon /><span className="hidden sm:inline">{t("account.signInCta")}</span></button>
+          : <Link href="/signup/" className={CTA_CLASS} title={t("account.signInCta")} aria-label={t("account.signInCta")}><ProfileIcon /><span className="hidden sm:inline">{t("account.signInCta")}</span></Link>
       )}
       {accountEnabled ? dialogEl : captureEl}
     </span>

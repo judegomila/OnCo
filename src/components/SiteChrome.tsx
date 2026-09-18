@@ -42,8 +42,10 @@ export function SiteHeader() {
           <span className="hidden min-[1800px]:inline text-muted font-normal text-sm">total information dominance on cancer</span>
         </Link>
         <NavMenu />
-        {/* Shrinks to an icon at phone widths so the fixed-width controls and the menu button always fit on one row. */}
-        <div className="ms-auto flex-1 min-w-10 max-w-[17rem] sm:max-w-xs xl:ms-auto">
+        {/* Shrinks to an icon at phone widths so the fixed-width controls and the menu button always fit on one row.
+            Every wrapper round a control is a flex box: an inline-flex button on a block's line box sits on the text
+            baseline with a descender gap under it, so the control (region, language, search) rode above the centre line. */}
+        <div className="ms-auto flex flex-1 items-center min-w-10 max-w-[17rem] sm:max-w-xs xl:ms-auto">
           <PaletteTrigger className="w-full h-10 rounded-[0.625rem]" />
         </div>
         <RegionToggle />

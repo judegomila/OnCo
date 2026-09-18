@@ -24,7 +24,7 @@ export function LayerToggle({ className = "" }: { className?: string }) {
   const nonDefault = layer.level !== "technical" || layer.lang !== "en";
 
   return (
-    <div ref={box} className={`relative ${className}`}>
+    <div ref={box} className={`relative flex items-center ${className}`}>
       <button type="button" onClick={() => setOpen((o) => !o)} aria-haspopup="dialog" aria-expanded={open} aria-label={t("layer.aria")}
         className={`ctl px-2.5 ${nonDefault ? "border-accent bg-accent-soft" : ""}`} title={`${levelLabel(level.code)} · ${lang.native}`}>
         {/* Both runs of text share one baseline (see .ctl-text), whatever their sizes. */}

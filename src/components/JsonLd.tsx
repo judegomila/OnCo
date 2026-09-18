@@ -249,3 +249,24 @@ export function WebSiteJsonLd({ description }: { description: string }) {
     />
   );
 }
+
+/** WebPage node for a standalone page (the legal pages): name, description, canonical URL, the site it belongs to and the build date. */
+export function WebPageJsonLd({ path, name, description, dateModified }: { path: string; name: string; description: string; dateModified?: string }) {
+  const url = absoluteUrl(path);
+  return (
+    <Script
+      data={{
+        "@context": CTX,
+        "@type": "WebPage",
+        "@id": url,
+        url,
+        name,
+        description,
+        inLanguage: "en",
+        dateModified,
+        isPartOf: { "@type": "WebSite", "@id": `${SITE}/#website`, name: SITE_NAME, url: `${SITE}/` },
+        publisher: { "@type": "Organization", name: SITE_NAME, url: SITE },
+      }}
+    />
+  );
+}

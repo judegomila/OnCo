@@ -26,6 +26,7 @@ Merge finished worktree agents before the chain; never `cd` into a worktree; nev
 - [ ] Complete coverage: NCI-designated centres and 93 global centres (merged 10 Sept); paediatric and rare cancers (merged 10 Sept, NCI list 100%); screening and diagnostic tests (merged 10 Sept, 72 tests); EU and Japan approvals for every approved drug (merged 10 Sept, gauge clears)
 - [ ] Time estimate and speed-up plan written for the owner (docs/LAUNCH.md bottom)
 - [ ] Repo housekeeping the owner must do: GitHub Discussions "Objects" category; delete stray Vercel project agent-aa17c7ae82bcaf068
+- [ ] Decide whether to add technology sections: the kind-size gauge flags the section kind at 19 records (threshold 25). Candidates that follow the Prometheus map: cancer vaccines, gene therapy and oncolytic viruses, microbiome, manufacturing and supply, trial design and methods, palliative and end-of-life care. Each new section needs technologies re-homed and a SCHEMATIC_ALIAS entry; say which to add and the tick will build them.
 
 ## Standing rules (see memory)
 Plain English first, UK spelling, no em-dashes in copy, no "as of", no invented numbers, corrections via issue form only,

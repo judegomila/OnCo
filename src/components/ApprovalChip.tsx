@@ -28,7 +28,7 @@ export function ApprovalChip({ drugId, status, compact = false }: { drugId: stri
     const tip = approvedIn.length ? `Approved in ${approvedIn.map((r) => REGION_META[r].label).join(", ")}. Choose your country in the top bar to see the verdict that applies to you.` : "Recorded as approved; choose your country in the top bar to see which regulators have cleared it.";
     return (
       <Tip title="🌐 Global view" text={tip} href="/regulatory/regions/" linkLabel="Compare all regions →">
-        <span className={`chip cursor-help inline-flex items-center gap-1 whitespace-nowrap ${statusClass("approved")}`}>Approved{!compact && first && first !== 9999 ? <span className="opacity-70 tabular-nums">{first}</span> : null}{!compact && <span className="inline-flex gap-0.5 ml-0.5">{flags()}</span>}</span>
+        <span className={`chip cursor-help inline-flex items-center gap-1 whitespace-nowrap ${statusClass("approved")}`}>Approved{!compact && first && first !== 9999 ? <span className="tabular-nums">{first}</span> : null}{!compact && <span className="inline-flex gap-0.5 ml-0.5">{flags()}</span>}</span>
       </Tip>
     );
   }
@@ -39,7 +39,7 @@ export function ApprovalChip({ drugId, status, compact = false }: { drugId: stri
     return (
       <Tip title={`${meta.flag} ${meta.label}`} text={tip} href="/regulatory/regions/" linkLabel="Compare all regions →">
         <span className={`chip cursor-help inline-flex items-center gap-1 whitespace-nowrap ${statusClass(TONE[here.status])}`}>
-          <span aria-hidden>{meta.flag}</span>{LABEL[here.status]}{!compact && here.year && here.status === "approved" ? <span className="opacity-70 tabular-nums">{here.year}</span> : null}
+          <span aria-hidden>{meta.flag}</span>{LABEL[here.status]}{!compact && here.year && here.status === "approved" ? <span className="tabular-nums">{here.year}</span> : null}
           {!compact && <span className="inline-flex gap-0.5 ml-0.5">{flags(region)}</span>}
         </span>
       </Tip>

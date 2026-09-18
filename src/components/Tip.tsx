@@ -4,6 +4,8 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
 
 const W = 288, H_EST = 150, GAP = 14;
+/** Hide delay after the pointer leaves: plain tips go quickly; tips with a link wait long enough for the pointer to cross the gap into the popover. */
+export const HIDE_MS = 120, HIDE_LINKED_MS = 320;
 
 type Pos = { left: number; top: number };
 
@@ -16,34 +18,51 @@ export function placeNear(x: number, y: number): Pos {
   return { left, top };
 }
 
+/** True when `target` is inside `el`: the pointer or focus is on the popover (or trigger), not leaving it. */
+export function within(el: Element | null, target: EventTarget | null): boolean {
+  return !!el && target instanceof Node && el.contains(target);
+}
+
 /**
  * Quick-reference popover: hover or focus any technical name to see a one-line explanation and,
  * when the name is an object in the corpus, a link to its page. The popover follows the pointer so it
  * appears where the reader is looking, even when the name wraps across two lines.
+ *
+ * A popover with a link is clickable: it stays open while the pointer crosses into it (a short grace delay
+ * covers the gap), holds still while the pointer is over it, and stays open while focus is inside it, so the
+ * link can be reached by mouse or by Tab; Escape closes it (issue 37). Plain tips keep pointer-events off so
+ * they never get in the way of the text beneath.
  */
 export function Tip({ title, text, href, linkLabel = "Open page →", children, className = "", inline = true }: {
   title?: string; text: string; href?: string; linkLabel?: string; children: ReactNode; className?: string; inline?: boolean;
 }) {
   const [pos, setPos] = useState<Pos | null>(null);
   const ref = useRef<HTMLSpanElement>(null);
+  const pop = useRef<HTMLSpanElement>(null);
   const timer = useRef<number | null>(null);
-  const last = useRef<{ x: number; y: number } | null>(null);
+  const linked = !!href;
 
   const clear = () => { if (timer.current) window.clearTimeout(timer.current); timer.current = null; };
   const showAt = (x: number, y: number) => { clear(); timer.current = window.setTimeout(() => setPos(placeNear(x, y)), 140); };
-  const move = (e: React.MouseEvent) => { last.current = { x: e.clientX, y: e.clientY }; if (pos) setPos(placeNear(e.clientX, e.clientY)); else showAt(e.clientX, e.clientY); };
-  const focus = () => { const r = ref.current?.getBoundingClientRect(); if (r) showAt(r.left, r.bottom); };
-  const hide = () => { clear(); timer.current = window.setTimeout(() => setPos(null), 120); };
+  const move = (e: React.MouseEvent) => {
+    if (within(pop.current, e.target)) { clear(); return; }
+    if (pos) setPos(placeNear(e.clientX, e.clientY)); else showAt(e.clientX, e.clientY);
+  };
+  const hide = () => { clear(); timer.current = window.setTimeout(() => setPos(null), linked ? HIDE_LINKED_MS : HIDE_MS); };
+  const leave = (e: React.MouseEvent) => { if (within(pop.current, e.relatedTarget)) return; hide(); };
+  const focus = () => { if (pos) { clear(); return; } const r = ref.current?.getBoundingClientRect(); if (r) showAt(r.left, r.bottom); };
+  const blur = (e: React.FocusEvent) => { if (within(ref.current, e.relatedTarget)) return; hide(); };
+  const key = (e: React.KeyboardEvent) => { if (e.key === "Escape" && pos) { clear(); setPos(null); } };
   useEffect(() => () => clear(), []);
 
   return (
-    <span ref={ref} className={`${inline ? "inline" : "inline-block"} ${className}`} onMouseEnter={move} onMouseMove={move} onMouseLeave={hide} onFocus={focus} onBlur={hide}>
+    <span ref={ref} className={`${inline ? "inline" : "inline-block"} ${className}`} onMouseEnter={move} onMouseMove={move} onMouseLeave={leave} onFocus={focus} onBlur={blur} onKeyDown={key}>
       {children}
       {pos && (
-        <span role="tooltip" style={{ left: pos.left, top: pos.top, width: W }} className="fixed z-[80] max-w-[85vw] card shadow-xl p-3 text-sm text-left not-italic font-normal normal-case tracking-normal leading-snug pointer-events-none">
+        <span ref={pop} role="tooltip" style={{ left: pos.left, top: pos.top, width: W }} className={`fixed z-[80] max-w-[85vw] card shadow-xl p-3 text-sm text-left not-italic font-normal normal-case tracking-normal leading-snug ${linked ? "pointer-events-auto" : "pointer-events-none"}`}>
           {title && <span className="block font-semibold mb-0.5 text-foreground">{title}</span>}
           <span className="block text-muted">{text}</span>
-          {href && <Link href={href} className="mt-1.5 inline-block text-xs underline text-foreground pointer-events-auto">{linkLabel}</Link>}
+          {href && <Link href={href} className="mt-1.5 inline-block text-xs underline text-foreground">{linkLabel}</Link>}
         </span>
       )}
     </span>

@@ -220,7 +220,7 @@ const raw: TrialInput[] = [
     links: [ct("NCT05933577"), { label: "Merck press release", url: "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/" }], people: ["jeffrey-weber"] }),
 
   // ---- Urothelial / GU ----
-  t({ id: "ev-302", name: "EV-302 / KEYNOTE-A39", nct: "NCT04223856", phase: "3", status: "positive", yearReported: 2023, sponsor: "Astellas / Pfizer / Merck",
+  t({ id: "ev-302", name: "EV-302 / KEYNOTE-A39", aka: ["EV-302", "KEYNOTE-A39"], nct: "NCT04223856", phase: "3", status: "positive", yearReported: 2023, sponsor: "Astellas / Pfizer / Merck",
     setting: "First-line advanced urothelial cancer: enfortumab vedotin + pembrolizumab vs platinum chemotherapy",
     tldr: "Nearly doubled survival in advanced bladder cancer, ending 40 years of platinum chemotherapy as the standard.",
     summary: "EV-302, also KEYNOTE-A39, trial NCT04223856 sponsored by Astellas, Pfizer and Merck and published in the New England Journal of Medicine in 2023, nearly doubled survival in first-line advanced urothelial cancer, ending forty years of platinum chemotherapy as the standard. It randomised 886 patients to enfortumab vedotin plus pembrolizumab or platinum with gemcitabine, met both primary endpoints of progression-free and overall survival with very large effects and a much higher response rate, and the extended follow-up in 2025 maintained the survival advantage. It is the template for ADC plus immunotherapy combinations now copied in breast and lung cancer, and how far that template travels is the open question.",

@@ -1,0 +1,55 @@
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 173
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 862,1439
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 248,261,270,320,428,534,694,719
+  s_0beac9cb5d78fd::t_d21a4cdbdd513b 304,735,743
+src/data/skin-subtypes.ts
+  s_0beac9cb5d78fd::t_8bdf3ef09b7c45 306
+  s_0beac9cb5d78fd::t_b5aee8170f8f18 1-244,246-277,279-305,307-334,336-362,364-394,396-431
+  s_0beac9cb5d78fd::t_ba73064d972768 335
+  s_0beac9cb5d78fd::t_d298e3b1a0a3a7 395
+  s_0beac9cb5d78fd::t_01c3e12f5e7f9a 245
+  s_0beac9cb5d78fd::t_1f2f00564cfa21 278
+  s_0beac9cb5d78fd::t_3615cdbdc4584d 363
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 534,1302,1458,1482
+src/data/index.ts
+  s_0beac9cb5d78fd::t_2237d5adab9d00 96,175
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_d21a4cdbdd513b 37,49,60,71,79,91,102,113,124,146,159,185,203
+  s_0beac9cb5d78fd::t_bd20e98db58450 195
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_96a2cdf73bc599 253,259
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_d21a4cdbdd513b 213,219
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 70,166
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 965,3389,5021
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_7b8b8a11676978 20,22
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 253,263,268
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 868
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 171
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6e06422547ea0c34a1e10e132b40b9849e57958b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

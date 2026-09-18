@@ -510,7 +510,6 @@ export const simpleL: Record<string, string> = {
   "sohn-joohyuk": "Joohyuk Sohn is a Yonsei breast oncologist at Severance Hospital and an investigator on the DESTINY-Breast and TROPION antibody-drug trials with Korean patients.",
   "josep-llovet": "Josep Llovet, who directs the liver cancer programme at Mount Sinai, led SHARP, which made sorafenib the first drug treatment for liver cancer, and created the BCLC staging system.",
   "josep-maria-campistol": "Josep Maria Campistol is a nephrologist and chief executive of Hospital Clínic de Barcelona, one of Spain's leading academic hospitals and home to a major cancer programme.",
-  "josep-maria-llovet": "Josep Maria Llovet leads liver cancer research at IDIBAPS and Hospital Clínic de Barcelona and led the trials that established sorafenib for liver cancer.",
   "josep-tabernero": "Josep Tabernero directs the Vall d'Hebron Institute of Oncology and led BEACON and BREAKWATER, bringing targeted therapy to BRAF-mutant colorectal cancer, and was ESMO president.",
   "joseph-sparano": "Joseph Sparano, chief of haematology and medical oncology at Mount Sinai, led TAILORx, which showed most women with intermediate Oncotype scores can safely skip chemotherapy.",
   "joseph-connors": "Joseph Connors, a BC Cancer lymphoma specialist, led ECHELON-1, which replaced bleomycin with brentuximab vedotin in first-line treatment of advanced Hodgkin lymphoma.",

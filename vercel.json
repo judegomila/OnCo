@@ -195,6 +195,31 @@
       "permanent": true
     },
     {
+      "source": "/people/josep-maria-llovet/:path*",
+      "destination": "/people/josep-llovet/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/shahrokh-shariat/:path*",
+      "destination": "/people/shahrokh-f-shariat/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/quang-le-van/:path*",
+      "destination": "/people/le-van-quang/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/maria-margarida-torres-ornelas/:path*",
+      "destination": "/people/maria-margarida-torres-de-ornelas/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/people/javier-arcos-campillo/:path*",
+      "destination": "/people/javier-arcos/:path*",
+      "permanent": true
+    },
+    {
       "source": "/terms/adenocarcinoma-term/:path*",
       "destination": "/terms/adenocarcinoma/:path*",
       "permanent": true

@@ -191,7 +191,7 @@ export function RegionStrip({ row, className = "" }: { row?: RegionalRow; classN
         const s = e ? STATUS_STYLE[e.status] : null;
         const tip = e ? [REGION_META[r].label, s?.label, e.year ? String(e.year) : "", e.indication ?? "", e.note ?? ""].filter(Boolean).join(" · ") : `${REGION_META[r].label}: no sourced record`;
         const inner = (
-          <span className={`inline-flex items-center gap-1.5 rounded-full border border-border px-2 py-0.5 text-xs ${e ? "bg-card" : "opacity-50"}`} title={tip}>
+          <span className={`inline-flex items-center gap-1.5 rounded-full border border-border px-2 py-0.5 text-xs ${e ? "bg-card" : "text-muted"}`} title={tip}>
             <span className={`inline-block h-2 w-2 rounded-full ${s ? s.dot : "bg-zinc-300 dark:bg-zinc-600"}`} />
             <span className="font-medium">{r}</span>
             {e?.year && <span className="text-muted tabular-nums">{e.year}</span>}

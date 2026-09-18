@@ -44,7 +44,7 @@ export function MoleculeSlot({ drugId, modality, className = "h-10 w-10", name }
   const p = placeholderKind(modality);
   return (
     <Tip title={p.label} text={p.why}>
-      <span className={`inline-flex shrink-0 items-center justify-center rounded-md border border-dashed border-border bg-surface text-muted/70 overflow-hidden cursor-help ${className}`} aria-label={`${name ?? drugId}: ${p.label.toLowerCase()}, no molecule drawing`}>
+      <span role="img" className={`inline-flex shrink-0 items-center justify-center rounded-md border border-dashed border-border bg-surface text-muted/70 overflow-hidden cursor-help ${className}`} aria-label={`${name ?? drugId}: ${p.label.toLowerCase()}, no molecule drawing`}>
         <span className="h-[60%] w-[60%]"><Glyph id={p.id} /></span>
       </span>
     </Tip>

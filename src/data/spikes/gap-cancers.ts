@@ -1083,7 +1083,7 @@ export const gapCancers: CancerInput[] = [
     targets: ["her2", "androgen-receptor", "ntrk", "vegf", "met"], technologies: ["imrt-igrt", "carbon-ion", "proton-therapy", "adc", "kinase-inhibitors", "androgen-deprivation", "cgp"],
     drugs: ["trastuzumab", "docetaxel", "trastuzumab-deruxtecan", "enzalutamide", "larotrectinib", "entrectinib", "lenvatinib", "axitinib", "cisplatin", "carboplatin", "paclitaxel", "pembrolizumab"],
     pathways: ["ar-signaling", "vegf-angiogenesis"], companies: ["bayer", "roche-genentech", "daiichi-sankyo", "eisai"], terms: ["gene-fusion", "tumour-agnostic"],
-    links: [{ label: "NCCN Guidelines: Head and Neck Cancers", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1437" }, { label: "ESMO-EURACAN salivary gland guideline (2022)", url: "https://doi.org/10.1016/j.annonc.2022.04.073" }, { label: "Adenoid Cystic Carcinoma Research Foundation", url: "https://www.accrf.org/" }],
+    links: [{ label: "NCCN Guidelines: Head and Neck Cancers", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1437" }, { label: "ESMO-EURACAN salivary gland guideline (2022)", url: "https://doi.org/10.1016/j.esmoop.2022.100602" }, { label: "Adenoid Cystic Carcinoma Research Foundation", url: "https://www.accrf.org/" }],
     tags: ["gap-fill", "head-and-neck", "rare"],
   }),
   c({

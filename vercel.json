@@ -319,5 +319,6 @@
       "destination": "/trials/cross/:path*",
       "permanent": true
     }
-  ]
+  ],
+  "ignoreCommand": "exit 0"
 }

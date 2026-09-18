@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 18 September 2026
+- Sixty-three more institutes and 48 drug companies gain Wikipedia and Wikidata links for readers and machines alike
 - Seventy-four drug makers added and 210 drug-to-company links filled, so pipeline drugs now show who is developing them
 - Key papers for 147 subtype pages: 364 pivotal trial, classification and guideline papers, each checked against Europe PMC
 - Thirty-nine drugs named by the new subtype pages now have their own records, from hormone therapies for pituitary tumours to antibody-drug conjugates in trials

@@ -1,0 +1,47 @@
+scripts/enrich-person-ids.ts
+  s_0beac9cb5d78fd::t_e8d80a7c0e9aab 78-79,81
+  s_0beac9cb5d78fd::t_06a32f2d224026 75,172-178,246-261,264-265
+  s_0beac9cb5d78fd::t_37e5345d99a1da 266-268,272-273,275
+  s_0beac9cb5d78fd::t_937c9c80c28728 46-48
+  s_0beac9cb5d78fd::t_b56281adea66b9 140
+  s_0beac9cb5d78fd::t_2f3dcbec60e602 153-155,157-171,179-180
+  s_0beac9cb5d78fd::t_1fc5640f9e4762 283,285-297,299
+  s_0beac9cb5d78fd::t_a911cdb808f735 156
+  s_0beac9cb5d78fd::t_d30c617aef7536 13-16,18-20
+  s_0beac9cb5d78fd::t_c790fd037416fb 234
+  s_0beac9cb5d78fd::t_aeb8432bf5875b 22
+  s_0beac9cb5d78fd::t_9fdaca6af6f12a 315,317-320
+src/data/people/leaders-wave2.ts
+  s_0beac9cb5d78fd::t_fbd7ee815b33fc 37,44,50,63,76,89,121,128,134,141,147,173,193,232,246,252,259,265,271,279
+  s_0beac9cb5d78fd::t_a137ed881972cd 786
+public/newsletter/2026-09-18/index.html
+  s_0beac9cb5d78fd::t_e00a57df696eea 2,9-10
+src/data/people/key-opinion-leaders.ts
+  s_0beac9cb5d78fd::t_fbd7ee815b33fc 966,1175
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_e00a57df696eea 1
+public/freshness.json
+  s_0beac9cb5d78fd::t_e00a57df696eea 1
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_e00a57df696eea 31-33
+public/newsletter/2026-09-18.json
+  s_0beac9cb5d78fd::t_e00a57df696eea 1
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_e00a57df696eea 14-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5b2627e13a870b7ffef26f106957c6df05e34e40",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

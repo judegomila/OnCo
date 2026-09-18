@@ -20,6 +20,7 @@ import { pipelineTrials } from "./pipeline-trials";
 import { groups } from "./groups";
 import { frontier } from "./frontier";
 import { people } from "./people";
+import { peopleInvestigatorsWave } from "./people-investigators-wave";
 import { bottlenecks } from "./bottlenecks";
 import { sources } from "./sources";
 import { mechanisms } from "./mechanisms";
@@ -139,7 +140,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...pipelineTrials,
   ...groups,
   ...frontier,
-  ...people,
+  ...people, ...peopleInvestigatorsWave,
   ...bottlenecks,
   ...ideaWaves,
   ...sources,

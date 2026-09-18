@@ -54,7 +54,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Bladder-sparing gene therapy is a realistic option for BCG-unresponsive disease, given four times a year in clinic. Durability is limited and cystoscopic follow-up continues.",
     caveats: ["Single-arm design with no cystectomy or chemotherapy comparator.", "Approval in the United States came in 2022; access outside the United States remains limited."],
     links: [{ label: "Lancet Oncol 2021", url: "https://doi.org/10.1016/S1470-2045(20)30540-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33253641/" }],
-    cancers: ["non-muscle-invasive-bladder-cancer"], drugs: ["nadofaragene-firadenovec"], journals: ["lancet-oncology"] }),
+    cancers: ["non-muscle-invasive-bladder-cancer"], drugs: ["nadofaragene-firadenovec"], journals: ["lancet-oncology"], people: ["stephen-boorjian"] }),
 
   p({ id: "paper-sylvester-eortc-risk-tables-eur-urol-2006", name: "EORTC risk tables for recurrence and progression in Ta and T1 bladder cancer",
     tldr: "Pooling seven trials, this analysis produced the scoring tables that clinicians still use to estimate how likely a non-muscle-invasive bladder tumour is to come back or to progress into the muscle.",
@@ -86,7 +86,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Azacitidine became the standard low-intensity treatment for older or unfit patients with AML and the control arm for later trials; venetoclax plus azacitidine (VIALE-A) now supersedes azacitidine alone where available.",
     caveats: ["The primary endpoint was not formally met.", "The comparator was heterogeneous and chosen by the investigator before randomisation."],
     links: [{ label: "Blood 2015", url: "https://doi.org/10.1182/blood-2015-01-621664" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/25987659/" }],
-    cancers: ["aml-older-unfit"], drugs: ["azacitidine"], journals: ["blood"] }),
+    cancers: ["aml-older-unfit"], drugs: ["azacitidine"], journals: ["blood"], people: ["herve-dombret"] }),
 
   p({ id: "paper-eln-2022-aml-dohner-blood-2022", name: "ELN 2022: diagnosis and management of acute myeloid leukaemia in adults",
     tldr: "The European LeukemiaNet 2022 recommendations define how acute myeloid leukaemia is classified by its genetics into favourable, intermediate and adverse risk, and how those groups should be treated and monitored.",
@@ -107,7 +107,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Low- and intermediate-risk APL is now treated without cytotoxic chemotherapy. The regimen has become the standard worldwide and made APL the most curable adult acute leukaemia.",
     caveats: ["High-risk patients (white count over 10,000) were excluded and still receive added chemotherapy or gemtuzumab.", "Differentiation syndrome remains a risk with either regimen."],
     links: [{ label: "N Engl J Med 2013", url: "https://doi.org/10.1056/NEJMoa1300874" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/23841729/" }],
-    cancers: ["apl"], trials: ["apl0406"], drugs: ["arsenic-trioxide"], journals: ["nejm"] }),
+    cancers: ["apl"], trials: ["apl0406"], drugs: ["arsenic-trioxide"], journals: ["nejm"], people: ["francesco-lo-coco"] }),
 
   p({ id: "paper-tallman-atra-apl-nejm-1997", name: "North American Intergroup: all-trans retinoic acid in acute promyelocytic leukaemia",
     tldr: "This randomised trial showed that the vitamin A derivative retinoic acid, used in induction and as maintenance, sharply improved survival in acute promyelocytic leukaemia compared with chemotherapy alone.",
@@ -128,7 +128,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Starting retinoic acid on morphological suspicion, aggressive blood product support and arsenic-based induction for non-high-risk disease all follow from this document.",
     caveats: ["Oral arsenic and gemtuzumab-based regimens for high-risk disease have evolved since publication."],
     links: [{ label: "Blood 2019", url: "https://doi.org/10.1182/blood-2019-01-894980" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/30803991/" }],
-    cancers: ["apl"], journals: ["blood"] }),
+    cancers: ["apl"], journals: ["blood"], people: ["miguel-sanz"] }),
 
   p({ id: "paper-pace-ponatinib-nejm-2013", name: "PACE: ponatinib in Philadelphia chromosome-positive leukaemias resistant to earlier tyrosine kinase inhibitors",
     tldr: "Ponatinib produced deep responses in patients with chronic myeloid leukaemia or Philadelphia-positive acute lymphoblastic leukaemia whose disease had resisted other kinase inhibitors, including the T315I mutation that no other drug could reach.",
@@ -246,7 +246,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Upfront transplant remains standard for fit patients because it lengthens the first remission, but deferring it to first relapse is a reasonable choice for some, particularly with deeper modern induction.",
     caveats: ["Lenalidomide maintenance was limited to one year, shorter than current practice.", "Quadruplet induction with daratumumab was not used."],
     links: [{ label: "N Engl J Med 2017", url: "https://doi.org/10.1056/NEJMoa1611750" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/28379796/" }],
-    cancers: ["myeloma-transplant-eligible"], trials: ["ifm-2009"], drugs: ["bortezomib", "dexamethasone", "lenalidomide"], journals: ["nejm"] }),
+    cancers: ["myeloma-transplant-eligible"], trials: ["ifm-2009"], drugs: ["bortezomib", "dexamethasone", "lenalidomide"], journals: ["nejm"], people: ["michel-attal"] }),
 
   p({ id: "paper-r-iss-palumbo-jco-2015", name: "Revised International Staging System (R-ISS) for multiple myeloma",
     tldr: "The revised staging system for myeloma combines the older albumin and beta-2 microglobulin stage with high-risk chromosome changes and a raised lactate dehydrogenase, giving three groups with very different survival.",
@@ -342,7 +342,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "CPX-351 is the preferred intensive induction for fit older patients with secondary or therapy-related AML in many centres, mainly as a bridge to allogeneic transplant.",
     caveats: ["Open-label; longer neutropenia and thrombocytopenia with CPX-351.", "Benefit in patients under 60 and in de novo AML is not established."],
     links: [{ label: "J Clin Oncol 2018", url: "https://doi.org/10.1200/JCO.2017.77.6112" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/30024784/" }],
-    cancers: ["aml-secondary"], drugs: ["cytarabine", "daunorubicin"], journals: ["jco"] }),
+    cancers: ["aml-secondary"], drugs: ["cytarabine", "daunorubicin"], journals: ["jco"], people: ["jeffrey-lancet"] }),
 
   p({ id: "paper-aquila-daratumumab-smouldering-nejm-2025", name: "AQUILA: daratumumab versus active monitoring in high-risk smouldering multiple myeloma",
     tldr: "Giving daratumumab for up to three years to people with high-risk smouldering myeloma roughly halved the risk of progressing to active myeloma or death compared with watching and waiting.",
@@ -429,7 +429,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Tucatinib-based therapy is the standard for HER2-positive disease with active brain metastases and a standard later-line option overall; it was the first trial to enrol progressing brain metastases and show a systemic drug helps them.",
     caveats: ["Diarrhoea and liver enzyme rises were more frequent with tucatinib.", "Trial predates trastuzumab deruxtecan as second-line standard."],
     links: [{ label: "N Engl J Med 2020", url: "https://doi.org/10.1056/NEJMoa1914609" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31825569/" }],
-    cancers: ["her2-positive-breast-brain-metastases"], drugs: ["capecitabine", "trastuzumab", "tucatinib"], trials: ["her2climb"], journals: ["nejm"] }),
+    cancers: ["her2-positive-breast-brain-metastases"], drugs: ["capecitabine", "trastuzumab", "tucatinib"], trials: ["her2climb"], journals: ["nejm"], people: ["rashmi-murthy"] }),
 
   p({ id: "paper-her2climb-brain-lin-jco-2020", name: "HER2CLIMB brain metastases analysis: intracranial efficacy and survival with tucatinib",
     tldr: "Among the HER2CLIMB patients with brain metastases, tucatinib doubled the intracranial response rate, cut the risk of intracranial progression or death by about two thirds and lengthened survival.",
@@ -451,7 +451,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Trastuzumab deruxtecan is an option for active HER2-positive brain metastases, complementing tucatinib-based therapy, and challenges the assumption that antibody-drug conjugates cannot reach the brain.",
     caveats: ["Very small single-centre study.", "Patients with lesions needing urgent local treatment were excluded."],
     links: [{ label: "Nat Med 2022", url: "https://doi.org/10.1038/s41591-022-01935-8" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35941372/" }],
-    cancers: ["her2-positive-breast-brain-metastases"], trials: ["tuxedo-1"], drugs: ["trastuzumab", "trastuzumab-deruxtecan"], journals: ["nature-medicine"] }),
+    cancers: ["her2-positive-breast-brain-metastases"], trials: ["tuxedo-1"], drugs: ["trastuzumab", "trastuzumab-deruxtecan"], journals: ["nature-medicine"], people: ["rupert-bartsch"] }),
 
   p({ id: "paper-tailorx-nejm-2018", name: "TAILORx: adjuvant chemotherapy guided by the 21-gene recurrence score in hormone receptor-positive, node-negative breast cancer",
     tldr: "Women with hormone receptor-positive, HER2-negative, node-negative breast cancer and a mid-range 21-gene recurrence score did just as well with endocrine therapy alone as with chemotherapy added, sparing most of them chemotherapy.",
@@ -538,7 +538,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Germline BRCA testing became part of metastatic breast cancer work-up, and olaparib (with talazoparib after EMBRACA) is a standard option, especially for triple-negative disease.",
     caveats: ["No overall survival benefit in the whole population.", "Platinum chemotherapy was not in the comparator arm."],
     links: [{ label: "N Engl J Med 2017", url: "https://doi.org/10.1056/NEJMoa1706450" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/28578601/" }],
-    cancers: ["tnbc-metastatic"], drugs: ["olaparib"], trials: ["olympiad"], journals: ["nejm"] }),
+    cancers: ["tnbc-metastatic"], drugs: ["olaparib"], trials: ["olympiad"], journals: ["nejm"], people: ["mark-robson"] }),
 
   p({ id: "paper-kothari-paget-disease-nipple-multifocal-cancer-2002", name: "Paget disease of the nipple as a marker of multifocal, higher-risk underlying breast cancer",
     tldr: "This pathological study found that the cancer underlying Paget disease of the nipple is often multifocal and spread away from the nipple, which is why full imaging and careful surgical planning are needed rather than simple nipple excision.",
@@ -635,7 +635,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Pembrolizumab with chemotherapy is approved and offered first line, particularly in epithelioid disease where dual immunotherapy showed little benefit over chemotherapy.",
     caveats: ["Modest median gain; benefit concentrated in a minority of long-term responders.", "Open-label with academic sponsorship and relatively small size."],
     links: [{ label: "Lancet 2023", url: "https://doi.org/10.1016/S0140-6736(23)01613-6" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37931632/" }],
-    cancers: ["pleural-mesothelioma"], drugs: ["pembrolizumab"], trials: ["keynote-483"], journals: ["lancet"] }),
+    cancers: ["pleural-mesothelioma"], drugs: ["pembrolizumab"], trials: ["keynote-483"], journals: ["lancet"], people: ["quincy-chu"] }),
 
   p({ id: "paper-who-2021-cns-louis-neuro-oncology-2021", name: "The 2021 WHO classification of tumours of the central nervous system: a summary",
     tldr: "The fifth-edition brain tumour classification makes molecular markers such as IDH mutation, 1p/19q codeletion and methylation class central to diagnosis, renaming and regrading many tumours, including separating IDH-mutant astrocytoma from glioblastoma.",
@@ -656,7 +656,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Radiotherapy followed by PCV is the standard for high-risk grade 2 IDH-mutant glioma; whether temozolomide can replace PCV, and whether vorasidenib can defer both, are the current questions.",
     caveats: ["Small trial that took two decades to report.", "PCV toxicity limits completion of all six cycles."],
     links: [{ label: "N Engl J Med 2016", url: "https://doi.org/10.1056/NEJMoa1500925" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/27050206/" }],
-    cancers: ["idh-mutant-astrocytoma", "oligodendroglioma"], drugs: ["procarbazine", "vincristine"], journals: ["nejm"] }),
+    cancers: ["idh-mutant-astrocytoma", "oligodendroglioma"], drugs: ["procarbazine", "vincristine"], journals: ["nejm"], people: ["jan-buckner"] }),
 
   p({ id: "paper-catnon-lancet-2017", name: "CATNON: concurrent and adjuvant temozolomide in anaplastic glioma without 1p/19q codeletion",
     tldr: "Twelve cycles of temozolomide after radiotherapy lengthened survival in grade 3 glioma without 1p/19q codeletion, while giving temozolomide during radiotherapy added nothing in these tumours.",
@@ -678,7 +678,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Patients with a limited number of brain metastases are treated with radiosurgery alone and surveillance, accepting more new brain lesions in return for preserved cognition.",
     caveats: ["Cognitive testing only assessed to three months in the primary endpoint.", "Modern hippocampal-avoidance whole-brain radiotherapy was not used."],
     links: [{ label: "JAMA 2016", url: "https://doi.org/10.1001/jama.2016.9839" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/27458945/" }],
-    cancers: ["secondary-brain-tumours"], trials: ["alliance-n0574"], journals: ["jama"] }),
+    cancers: ["secondary-brain-tumours"], trials: ["alliance-n0574"], journals: ["jama"], people: ["paul-brown"] }),
 
   p({ id: "paper-n107c-brown-lancet-oncol-2017", name: "N107C/CEC.3: postoperative radiosurgery versus whole-brain radiotherapy after resection of a brain metastasis",
     tldr: "After surgery to remove a brain metastasis, focused radiosurgery to the cavity preserved thinking and memory far better than whole-brain radiotherapy and gave the same survival, so it became the standard.",
@@ -689,7 +689,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Surgical cavity radiosurgery, rather than whole-brain radiotherapy, follows resection of a brain metastasis in fit patients, part of the broader move away from whole-brain treatment.",
     caveats: ["Surgical bed control was lower with radiosurgery than with whole-brain radiotherapy (about 61 vs 81 percent at one year).", "Leptomeningeal relapse is a concern after cavity radiosurgery."],
     links: [{ label: "Lancet Oncol 2017", url: "https://doi.org/10.1016/S1470-2045(17)30441-2" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/28687377/" }],
-    cancers: ["secondary-brain-tumours"], journals: ["lancet-oncology"] }),
+    cancers: ["secondary-brain-tumours"], journals: ["lancet-oncology"], people: ["paul-brown"] }),
 
   p({ id: "paper-nrg-cc001-brown-jco-2020", name: "NRG CC001: hippocampal-avoidance whole-brain radiotherapy plus memantine for brain metastases",
     tldr: "When whole-brain radiotherapy is needed, shaping the beams to spare the hippocampus and adding memantine reduced the memory and thinking decline that the treatment causes, with no loss of tumour control.",
@@ -700,7 +700,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Where whole-brain radiotherapy is still chosen, for many metastases or leptomeningeal disease, hippocampal avoidance with memantine is the recommended technique.",
     caveats: ["Excluded patients with metastases within 5 mm of the hippocampus.", "Requires intensity-modulated planning capability."],
     links: [{ label: "J Clin Oncol 2020", url: "https://doi.org/10.1200/JCO.19.02767" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32058845/" }],
-    cancers: ["secondary-brain-tumours"], trials: ["nrg-cc001"], journals: ["jco"] }),
+    cancers: ["secondary-brain-tumours"], trials: ["nrg-cc001"], journals: ["jco"], people: ["paul-brown"] }),
 
   p({ id: "paper-quartz-lancet-2016", name: "QUARTZ: whole-brain radiotherapy versus supportive care alone for brain metastases from non-small-cell lung cancer",
     tldr: "For patients with lung cancer brain metastases unsuitable for surgery or radiosurgery, whole-brain radiotherapy added no meaningful survival or quality of life compared with steroids and supportive care alone.",
@@ -798,7 +798,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "BRAF V600E testing is mandatory in childhood high-grade glioma and the combination is a standard at relapse and, increasingly, alongside or before radiotherapy in newly diagnosed disease; it supported the tumour-agnostic approval in children.",
     caveats: ["Small single-arm cohort.", "Resistance eventually develops in most patients."],
     links: [{ label: "J Clin Oncol 2023", url: "https://doi.org/10.1200/JCO.23.00558" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37643378/" }],
-    cancers: ["paediatric-high-grade-glioma"], drugs: ["dabrafenib", "trametinib"], journals: ["jco"] }),
+    cancers: ["paediatric-high-grade-glioma"], drugs: ["dabrafenib", "trametinib"], journals: ["jco"], people: ["darren-hargrave"] }),
 
   p({ id: "paper-belzutifan-vhl-jonasch-nejm-2021", name: "Belzutifan for renal cell carcinoma and other tumours in von Hippel-Lindau disease",
     tldr: "The oral HIF-2 alpha inhibitor belzutifan shrank kidney cancers in about half of people with von Hippel-Lindau disease and also shrank their brain and spinal haemangioblastomas and pancreatic tumours, letting many avoid repeated operations.",
@@ -809,7 +809,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Belzutifan is the first systemic therapy for von Hippel-Lindau disease, approved for renal, central nervous system and pancreatic tumours not needing immediate surgery, changing a lifetime of surveillance and surgery for many patients.",
     caveats: ["Single-arm study; long-term durability and the effect on survival are unknown.", "Anaemia in most patients, hypoxia in a minority; teratogenic."],
     links: [{ label: "N Engl J Med 2021", url: "https://doi.org/10.1056/NEJMoa2103425" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/34818478/" }],
-    cancers: ["spinal-cord-tumours"], drugs: ["belzutifan"], journals: ["nejm"] }),
+    cancers: ["spinal-cord-tumours"], drugs: ["belzutifan"], journals: ["nejm"], people: ["eric-jonasch"] }),
 
   p({ id: "paper-plotkin-bevacizumab-nf2-nejm-2009", name: "Hearing improvement after bevacizumab in patients with neurofibromatosis type 2",
     tldr: "In a small series of people with NF2 and progressive vestibular schwannomas, the anti-VEGF antibody bevacizumab shrank the tumours in most and, remarkably, improved hearing in more than half, opening the first drug treatment for these tumours.",
@@ -820,7 +820,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Bevacizumab is used off label for NF2-related schwannomatosis with growing tumours or declining hearing, supported by later phase 2 trials, and the study opened the search for medical therapy of schwannoma.",
     caveats: ["Ten patients, retrospective, no control.", "Responses are not permanent and treatment must continue; hypertension and proteinuria limit long-term use."],
     links: [{ label: "N Engl J Med 2009", url: "https://doi.org/10.1056/NEJMoa0902579" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/19587327/" }],
-    cancers: ["vestibular-schwannoma"], drugs: ["bevacizumab"], journals: ["nejm"] }),
+    cancers: ["vestibular-schwannoma"], drugs: ["bevacizumab"], journals: ["nejm"], people: ["scott-plotkin"] }),
 
   p({ id: "paper-carlson-link-vestibular-schwannomas-nejm-2021", name: "Vestibular schwannomas (review)",
     tldr: "A clinical review of acoustic neuromas covering how they present, why observation is now the first choice for most small tumours, and how microsurgery and radiosurgery compare for tumours that grow.",
@@ -894,7 +894,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "HER2 amplification testing is now standard in RAS wild-type metastatic colorectal cancer, and tucatinib-trastuzumab is the approved chemotherapy-free option after first-line therapy.",
     caveats: ["Single-arm study in a RAS wild-type population; activity in RAS-mutant tumours is not expected.", "Confirmatory first-line trial (MOUNTAINEER-03) ongoing."],
     links: [{ label: "Lancet Oncol 2023", url: "https://doi.org/10.1016/S1470-2045(23)00150-X" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37142372/" }],
-    cancers: ["her2-amplified-colorectal"], drugs: ["trastuzumab", "tucatinib"], trials: ["mountaineer"], journals: ["lancet-oncology"] }),
+    cancers: ["her2-amplified-colorectal"], drugs: ["trastuzumab", "tucatinib"], trials: ["mountaineer"], journals: ["lancet-oncology"], people: ["john-strickler"] }),
 
   p({ id: "paper-heracles-lancet-oncol-2016", name: "HERACLES: trastuzumab and lapatinib in HER2-amplified, KRAS wild-type metastatic colorectal cancer",
     tldr: "This small Italian trial was the first to show that HER2-amplified colorectal cancer responds to dual HER2 blockade, establishing HER2 as a genuine drug target in a disease where it had been ignored.",
@@ -905,7 +905,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "HERACLES opened HER2 as a target in colorectal cancer and set the immunohistochemistry and in situ hybridisation criteria later studies used; tucatinib and trastuzumab deruxtecan built on this result.",
     caveats: ["Very small and non-randomised.", "Lapatinib-based regimens have been superseded."],
     links: [{ label: "Lancet Oncol 2016", url: "https://doi.org/10.1016/S1470-2045(16)00150-9" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/27108243/" }],
-    cancers: ["her2-amplified-colorectal"], trials: ["heracles"], drugs: ["lapatinib", "trastuzumab"], journals: ["lancet-oncology"] }),
+    cancers: ["her2-amplified-colorectal"], trials: ["heracles"], drugs: ["lapatinib", "trastuzumab"], journals: ["lancet-oncology"], people: ["andrea-sartore-bianchi"] }),
 
   p({ id: "paper-destiny-crc01-lancet-oncol-2021", name: "DESTINY-CRC01: trastuzumab deruxtecan in HER2-expressing metastatic colorectal cancer",
     tldr: "Trastuzumab deruxtecan shrank tumours in about 45 percent of patients with HER2-high colorectal cancer, including those who had already received other HER2 drugs, but did nothing for tumours with low HER2 expression and carried a risk of lung inflammation.",
@@ -916,7 +916,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Trastuzumab deruxtecan is an option for HER2-positive colorectal cancer after HER2 antibodies, and it contributed to the tumour-agnostic approval for HER2 3+ solid tumours; lung monitoring is essential.",
     caveats: ["Single-arm; interstitial lung disease including fatal cases.", "The 6.4 mg/kg dose is higher than that used in breast cancer."],
     links: [{ label: "Lancet Oncol 2021", url: "https://doi.org/10.1016/S1470-2045(21)00086-3" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33961795/" }],
-    cancers: ["her2-amplified-colorectal"], drugs: ["crc01", "trastuzumab", "trastuzumab-deruxtecan"], journals: ["lancet-oncology"] }),
+    cancers: ["her2-amplified-colorectal"], drugs: ["crc01", "trastuzumab", "trastuzumab-deruxtecan"], journals: ["lancet-oncology"], people: ["salvatore-siena"] }),
 
   p({ id: "paper-krystal-1-crc-yaeger-nejm-2023", name: "KRYSTAL-1: adagrasib with or without cetuximab in KRAS G12C-mutated colorectal cancer",
     tldr: "The KRAS G12C inhibitor adagrasib on its own shrank about one in five previously treated colorectal cancers, but combined with the EGFR antibody cetuximab the response rate rose to nearly half, showing the two drugs are needed together in this disease.",
@@ -927,7 +927,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Adagrasib plus cetuximab is an approved option for previously treated KRAS G12C colorectal cancer, alongside sotorasib plus panitumumab; monotherapy is not enough because EGFR signalling reactivates the pathway.",
     caveats: ["Small single-arm cohorts.", "Responses are shorter than in KRAS G12C lung cancer."],
     links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2212419" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/36546659/" }],
-    cancers: ["kras-g12c-colorectal"], drugs: ["adagrasib", "cetuximab"], journals: ["nejm"] }),
+    cancers: ["kras-g12c-colorectal"], drugs: ["adagrasib", "cetuximab"], journals: ["nejm"], people: ["rona-yaeger"] }),
 
   p({ id: "paper-sunlight-nejm-2023", name: "SUNLIGHT: trifluridine-tipiracil plus bevacizumab in refractory metastatic colorectal cancer",
     tldr: "Adding bevacizumab to the oral chemotherapy trifluridine-tipiracil lengthened survival by about three months in patients with colorectal cancer that had already been treated with two regimens, making the combination the standard third-line treatment.",
@@ -938,7 +938,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Trifluridine-tipiracil plus bevacizumab is now the preferred third-line option for most patients regardless of KRAS status, including KRAS G12C tumours once targeted therapy is exhausted.",
     caveats: ["Open-label; benefit was seen regardless of prior bevacizumab exposure but subgroup sizes were limited."],
     links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2214963" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37133585/" }],
-    cancers: ["kras-g12c-colorectal"], drugs: ["bevacizumab"], trials: ["sunlight"], journals: ["nejm"] }),
+    cancers: ["kras-g12c-colorectal"], drugs: ["bevacizumab"], trials: ["sunlight"], journals: ["nejm"], people: ["gerald-prager"] }),
 
   p({ id: "paper-checkmate-8hw-lancet-2025", name: "CheckMate 8HW: nivolumab plus ipilimumab versus nivolumab alone in MSI-high metastatic colorectal cancer",
     tldr: "Dual immunotherapy with nivolumab and ipilimumab delayed progression more than nivolumab alone across all lines of treatment in microsatellite-unstable colorectal cancer, with about seven in ten patients progression-free at three years.",
@@ -982,7 +982,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Pembrolizumab is approved for relapsed primary mediastinal B-cell lymphoma and is the usual bridge to CAR-T or transplant in chemotherapy-refractory patients.",
     caveats: ["Single-arm; small numbers.", "Most responders eventually need consolidative therapy."],
     links: [{ label: "J Clin Oncol 2019", url: "https://doi.org/10.1200/JCO.19.01389" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31609651/" }],
-    cancers: ["primary-mediastinal-b-cell-lymphoma"], drugs: ["pembrolizumab"], trials: ["keynote-170"], journals: ["jco"] }),
+    cancers: ["primary-mediastinal-b-cell-lymphoma"], drugs: ["pembrolizumab"], trials: ["keynote-170"], journals: ["jco"], people: ["philippe-armand"] }),
 
   p({ id: "paper-rapido-lancet-oncol-2021", name: "RAPIDO: short-course radiotherapy followed by chemotherapy before surgery for high-risk locally advanced rectal cancer",
     tldr: "Giving all treatment before surgery, with a week of radiotherapy followed by four to five months of chemotherapy, halved distant metastases and doubled the complete response rate compared with standard chemoradiation in high-risk rectal cancer.",
@@ -1037,7 +1037,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Lenvatinib-pembrolizumab is the standard second-line treatment for mismatch repair-proficient endometrial cancer after platinum, though its toxicity is considerable and its place after first-line immunotherapy is unclear.",
     caveats: ["Hypertension, hypothyroidism, diarrhoea and weight loss led to frequent dose reductions.", "Patients had not received prior immunotherapy, unlike many today."],
     links: [{ label: "N Engl J Med 2022", url: "https://doi.org/10.1056/NEJMoa2108330" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35045221/" }],
-    cancers: ["advanced-recurrent-endometrial-cancer"], drugs: ["lenvatinib", "pembrolizumab"], trials: ["keynote-775"], journals: ["nejm"] }),
+    cancers: ["advanced-recurrent-endometrial-cancer"], drugs: ["lenvatinib", "pembrolizumab"], trials: ["keynote-775"], journals: ["nejm"], people: ["vicky-makker"] }),
 
   p({ id: "paper-duo-e-jco-2023", name: "DUO-E: durvalumab with carboplatin-paclitaxel and maintenance durvalumab with or without olaparib in advanced endometrial cancer",
     tldr: "Adding durvalumab to first-line chemotherapy delayed progression in advanced endometrial cancer, and adding the PARP inhibitor olaparib to durvalumab maintenance helped further in mismatch repair-proficient tumours.",
@@ -1048,7 +1048,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Durvalumab-based chemo-immunotherapy is a third first-line option with RUBY and NRG-GY018, and durvalumab plus olaparib maintenance is approved for mismatch repair-proficient disease in some regions.",
     caveats: ["The contribution of olaparib in proficient disease may be concentrated in p53-abnormal tumours; overall survival immature.", "Anaemia and neutropenia increased with olaparib."],
     links: [{ label: "J Clin Oncol 2024", url: "https://doi.org/10.1200/JCO.23.02132" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37864337/" }],
-    cancers: ["advanced-recurrent-endometrial-cancer"], drugs: ["carboplatin", "durvalumab", "olaparib"], trials: ["duo-e"], journals: ["jco"] }),
+    cancers: ["advanced-recurrent-endometrial-cancer"], drugs: ["carboplatin", "durvalumab", "olaparib"], trials: ["duo-e"], journals: ["jco"], people: ["shannon-westin"] }),
 
   p({ id: "paper-lacc-nejm-2018", name: "LACC: minimally invasive versus open radical hysterectomy for early cervical cancer",
     tldr: "Against expectations, keyhole radical hysterectomy for early cervical cancer led to more recurrences and more deaths than open surgery, reversing a decade of practice towards laparoscopic and robotic operations.",
@@ -1070,7 +1070,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Women with low-risk early cervical cancer can be offered simple hysterectomy, sparing them the bladder and sexual morbidity of parametrectomy, provided strict eligibility criteria are applied.",
     caveats: ["Strict imaging and pathology criteria define low risk; misapplication to larger tumours would be unsafe.", "Longer follow-up is pending."],
     links: [{ label: "N Engl J Med 2024", url: "https://doi.org/10.1056/NEJMoa2308900" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/38416430/" }],
-    cancers: ["early-cervical-cancer"], trials: ["shape"], journals: ["nejm"] }),
+    cancers: ["early-cervical-cancer"], trials: ["shape"], journals: ["nejm"], people: ["marie-plante"] }),
 
   p({ id: "paper-promise-talhouk-cancer-2017", name: "Confirmation of ProMisE: a genomics-based clinical classifier for endometrial cancer",
     tldr: "The ProMisE classifier uses three tests, mismatch repair and p53 immunohistochemistry plus POLE sequencing, to sort endometrial cancers into four molecular groups that reproduce the Cancer Genome Atlas subtypes and predict outcome.",
@@ -1092,7 +1092,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Vaginal brachytherapy is the standard adjuvant treatment for high-intermediate-risk endometrial cancer, with pelvic radiotherapy reserved for higher-risk features such as substantial lymphovascular invasion or p53 abnormality.",
     caveats: ["Pelvic recurrences were slightly more frequent after brachytherapy alone.", "Molecular classification was not available; later analysis shows p53-abnormal tumours do poorly with either."],
     links: [{ label: "Lancet 2010", url: "https://doi.org/10.1016/S0140-6736(09)62163-2" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/20206777/" }],
-    cancers: ["endometrial-nsmp"], trials: ["portec-2"], journals: ["lancet"] }),
+    cancers: ["endometrial-nsmp"], trials: ["portec-2"], journals: ["lancet"], people: ["remi-nout"] }),
 
   p({ id: "paper-esgo-estro-esp-endometrial-concin-ijgc-2021", name: "ESGO/ESTRO/ESP guidelines for the management of endometrial carcinoma (2021)",
     tldr: "The European gynaecological oncology, radiotherapy and pathology societies' joint guideline integrates molecular classification into risk groups for endometrial cancer and sets adjuvant treatment for each, including no adjuvant therapy for early POLE-mutated tumours.",
@@ -1157,7 +1157,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Dostarlimab was approved for previously treated mismatch repair-deficient endometrial cancer on these data, before moving into first-line combination in RUBY.",
     caveats: ["Single-arm, interim data.", "Response in mismatch repair-proficient disease was much lower (about 13 percent) in a parallel cohort."],
     links: [{ label: "JAMA Oncol 2020", url: "https://doi.org/10.1001/jamaoncol.2020.4515" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33001143/" }],
-    cancers: ["endometrial-mmr-deficient"], trials: ["garnet"], drugs: ["dostarlimab"], journals: ["jama-oncology"] }),
+    cancers: ["endometrial-mmr-deficient"], trials: ["garnet"], drugs: ["dostarlimab"], journals: ["jama-oncology"], people: ["ana-oaknin"] }),
 
   p({ id: "paper-portec-3-molecular-leon-castillo-jco-2020", name: "Molecular classification of the PORTEC-3 trial: prognosis and benefit from adjuvant chemotherapy by molecular group",
     tldr: "Re-analysing the PORTEC-3 trial by molecular class showed that p53-abnormal endometrial cancers gained substantially from adding chemotherapy to radiotherapy, POLE-mutated tumours did well regardless, and the other groups gained little.",
@@ -1190,7 +1190,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "HER2 testing of every serous endometrial cancer and trastuzumab with first-line chemotherapy for HER2-positive advanced disease are now guideline recommendations; trastuzumab deruxtecan extends the option.",
     caveats: ["Small phase 2 trial.", "About 30 percent of uterine serous carcinomas are HER2-positive; benefit in lower expression is unknown."],
     links: [{ label: "J Clin Oncol 2018", url: "https://doi.org/10.1200/JCO.2017.76.5966" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/29584549/" }],
-    cancers: ["endometrial-p53-abnormal"], drugs: ["carboplatin", "trastuzumab"], journals: ["jco"] }),
+    cancers: ["endometrial-p53-abnormal"], drugs: ["carboplatin", "trastuzumab"], journals: ["jco"], people: ["amanda-fader"] }),
 
   p({ id: "paper-destiny-pantumor02-jco-2024", name: "DESTINY-PanTumor02: trastuzumab deruxtecan in HER2-expressing solid tumours",
     tldr: "Across seven tumour types including endometrial, cervical and ovarian cancers, trastuzumab deruxtecan shrank tumours in about 37 percent of patients overall and 61 percent of those with the highest HER2 expression, leading to a tumour-agnostic approval.",
@@ -1300,7 +1300,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Cemiplimab is an option for second-line cervical cancer in patients who have not had immunotherapy, though most now receive pembrolizumab first line, moving cemiplimab later or out of sequence.",
     caveats: ["Patients were immunotherapy-naive; applicability after first-line pembrolizumab is unclear."],
     links: [{ label: "N Engl J Med 2022", url: "https://doi.org/10.1056/NEJMoa2112187" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35139273/" }],
-    cancers: ["recurrent-metastatic-cervical-cancer"], drugs: ["cemiplimab"], trials: ["empower-cervical-1"], journals: ["nejm"] }),
+    cancers: ["recurrent-metastatic-cervical-cancer"], drugs: ["cemiplimab"], trials: ["empower-cervical-1"], journals: ["nejm"], people: ["krishnansu-tewari"] }),
 
   p({ id: "paper-gog-240-bevacizumab-cervical-nejm-2014", name: "GOG 240: bevacizumab added to chemotherapy for advanced cervical cancer",
     tldr: "Adding the anti-angiogenic antibody bevacizumab to chemotherapy lengthened survival by almost four months in recurrent or metastatic cervical cancer, the first targeted drug to improve survival in a gynaecological cancer.",
@@ -1311,7 +1311,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Platinum-paclitaxel with bevacizumab became the first-line standard for advanced cervical cancer and remains the backbone to which pembrolizumab is added.",
     caveats: ["Gastrointestinal and genitourinary fistulas in irradiated patients.", "Hypertension and thromboembolism increased."],
     links: [{ label: "N Engl J Med 2014", url: "https://doi.org/10.1056/NEJMoa1309748" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/24552320/" }],
-    cancers: ["recurrent-metastatic-cervical-cancer"], drugs: ["bevacizumab"], journals: ["nejm"] }),
+    cancers: ["recurrent-metastatic-cervical-cancer"], drugs: ["bevacizumab"], journals: ["nejm"], people: ["krishnansu-tewari"] }),
 
   p({ id: "paper-gog-0261-carcinosarcoma-powell-jco-2022", name: "GOG-0261: paclitaxel-carboplatin versus paclitaxel-ifosfamide in uterine carcinosarcoma",
     tldr: "For uterine carcinosarcoma, the standard breast and ovarian regimen carboplatin-paclitaxel was as effective as the older, more toxic paclitaxel-ifosfamide combination, simplifying treatment of this rare aggressive cancer.",
@@ -1432,7 +1432,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Transoral surgery with pathology-guided reduced-dose radiotherapy is a validated de-escalation pathway for HPV-positive oropharyngeal cancer in experienced centres.",
     caveats: ["Phase 2 with no non-surgical comparator.", "Requires surgical expertise with low positive-margin rates."],
     links: [{ label: "J Clin Oncol 2022", url: "https://doi.org/10.1200/JCO.21.01752" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/34699271/" }],
-    cancers: ["hpv-positive-oropharyngeal-cancer"], journals: ["jco"] }),
+    cancers: ["hpv-positive-oropharyngeal-cancer"], journals: ["jco"], people: ["robert-ferris"] }),
 
   p({ id: "paper-eortc-24891-larynx-preservation-lefebvre-jnci-1996", name: "EORTC 24891: larynx preservation with induction chemotherapy in pyriform sinus (hypopharyngeal) cancer",
     tldr: "In hypopharyngeal cancer that would otherwise require removal of the voice box, induction chemotherapy followed by radiotherapy in responders gave survival equal to immediate laryngectomy and let about half of survivors keep a functioning larynx.",
@@ -1454,7 +1454,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "PD-1 blockade is the first-line systemic treatment for advanced cutaneous squamous cell carcinoma, including on the lip, and cemiplimab has since moved into neoadjuvant and adjuvant use.",
     caveats: ["Single-arm; transplant recipients and immunosuppressed patients were excluded."],
     links: [{ label: "N Engl J Med 2018", url: "https://doi.org/10.1056/NEJMoa1805131" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/29863979/" }],
-    cancers: ["lip-cancer", "advanced-cutaneous-scc"], drugs: ["cemiplimab"], trials: ["empower-cscc-1"], journals: ["nejm"] }),
+    cancers: ["lip-cancer", "advanced-cutaneous-scc"], drugs: ["cemiplimab"], trials: ["empower-cscc-1"], journals: ["nejm"], people: ["michael-migden"] }),
 
   p({ id: "paper-tonon-crtc1-maml2-nat-genet-2003", name: "The t(11;19) translocation in mucoepidermoid carcinoma creates a CRTC1-MAML2 fusion",
     tldr: "This study identified the gene fusion (CRTC1-MAML2, originally called MECT1-MAML2) created by the characteristic chromosome translocation in mucoepidermoid carcinoma, giving the tumour a defining molecular marker.",
@@ -1497,7 +1497,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "PD-1 blockade after platinum became standard, and the trial opened the way for first-line pembrolizumab in KEYNOTE-048.",
     caveats: ["Response rate was low (13.3 percent); benefit accrues to a minority of durable responders."],
     links: [{ label: "N Engl J Med 2016", url: "https://doi.org/10.1056/NEJMoa1602252" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/27718784/" }],
-    cancers: ["recurrent-metastatic-hnscc", "oropharyngeal-cancer"], drugs: ["nivolumab"], trials: ["checkmate-141"], journals: ["nejm"] }),
+    cancers: ["recurrent-metastatic-hnscc", "oropharyngeal-cancer"], drugs: ["nivolumab"], trials: ["checkmate-141"], journals: ["nejm"], people: ["robert-ferris"] }),
 
   p({ id: "paper-tpextreme-lancet-oncol-2021", name: "TPExtreme (GORTEC 2014-01): docetaxel, cisplatin and cetuximab versus the EXTREME regimen in recurrent or metastatic head and neck cancer",
     tldr: "Replacing fluorouracil with docetaxel in the cetuximab-platinum regimen for advanced head and neck cancer did not lengthen survival but was less toxic and much easier to give, so TPEx is an accepted alternative.",
@@ -1508,7 +1508,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "TPEx is a less toxic, more convenient chemotherapy backbone for patients who need cetuximab-based first-line therapy, for instance when immunotherapy is unsuitable.",
     caveats: ["Did not meet its superiority endpoint.", "Both arms performed better than historical EXTREME data, reflecting later-line immunotherapy."],
     links: [{ label: "Lancet Oncol 2021", url: "https://doi.org/10.1016/S1470-2045(20)30755-5" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33684370/" }],
-    cancers: ["recurrent-metastatic-hnscc"], trials: ["tpextreme"], drugs: ["cetuximab", "cisplatin", "docetaxel"], journals: ["lancet-oncology"] }),
+    cancers: ["recurrent-metastatic-hnscc"], trials: ["tpextreme"], drugs: ["cetuximab", "cisplatin", "docetaxel"], journals: ["lancet-oncology"], people: ["joel-guigay"] }),
 
   p({ id: "paper-takahashi-trastuzumab-docetaxel-salivary-duct-jco-2019", name: "Phase 2 trial of trastuzumab and docetaxel in HER2-positive salivary duct carcinoma",
     tldr: "In HER2-positive salivary duct carcinoma, an aggressive salivary cancer resembling breast cancer, trastuzumab plus docetaxel shrank tumours in 70 percent of patients, establishing HER2 testing and targeting in the disease.",
@@ -1672,7 +1672,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Encorafenib-binimetinib is approved for BRAF V600E lung cancer and offers a second targeted option, particularly for patients troubled by fever on dabrafenib-trametinib.",
     caveats: ["Single-arm; no head-to-head comparison with dabrafenib-trametinib."],
     links: [{ label: "J Clin Oncol 2023", url: "https://doi.org/10.1200/JCO.23.00774" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37270692/" }],
-    cancers: ["braf-v600e-nsclc"], drugs: ["binimetinib", "encorafenib"], trials: ["pharos"], journals: ["jco"] }),
+    cancers: ["braf-v600e-nsclc"], drugs: ["binimetinib", "encorafenib"], trials: ["pharos"], journals: ["jco"], people: ["gregory-riely"] }),
 
   p({ id: "paper-destiny-lung01-nejm-2022", name: "DESTINY-Lung01: trastuzumab deruxtecan in HER2-mutant non-small-cell lung cancer",
     tldr: "Trastuzumab deruxtecan shrank tumours in more than half of patients with previously treated HER2-mutant lung cancer, a driver with no approved therapy until this study, though lung inflammation was a serious side effect.",
@@ -1727,7 +1727,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Tepotinib is an approved alternative to capmatinib for MET exon 14 lung cancer, and the trial validated circulating tumour DNA as a way to find the alteration.",
     caveats: ["Single-arm; grade 3 or higher peripheral oedema in 7 percent."],
     links: [{ label: "N Engl J Med 2020", url: "https://doi.org/10.1056/NEJMoa2004407" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32469185/" }],
-    cancers: ["met-altered-nsclc"], drugs: ["tepotinib"], journals: ["nejm"] }),
+    cancers: ["met-altered-nsclc"], drugs: ["tepotinib"], journals: ["nejm"], people: ["paul-paik"] }),
 
   p({ id: "paper-frampton-met-exon-14-cancer-discov-2015", name: "MET exon 14 splicing alterations across tumour types and their sensitivity to MET inhibitors",
     tldr: "This large sequencing study defined MET exon 14 skipping as a recurrent driver in about 3 percent of lung adenocarcinomas and other cancers, showed the mutations are diverse and easily missed, and reported patients responding to MET inhibitors.",
@@ -1760,7 +1760,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Entrectinib is an approved tumour-agnostic TRK inhibitor with an advantage in patients with brain metastases, and it is also approved for ROS1-positive lung cancer.",
     caveats: ["Small pooled population; median progression-free survival 11 months."],
     links: [{ label: "Lancet Oncol 2020", url: "https://doi.org/10.1016/S1470-2045(19)30691-6" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31838007/" }],
-    cancers: ["ntrk-fusion-nsclc"], drugs: ["entrectinib"], journals: ["lancet-oncology"] }),
+    cancers: ["ntrk-fusion-nsclc"], drugs: ["entrectinib"], journals: ["lancet-oncology"], people: ["robert-doebele"] }),
 
   p({ id: "paper-trident-1-repotrectinib-nejm-2024", name: "TRIDENT-1: repotrectinib in ROS1 fusion-positive non-small-cell lung cancer",
     tldr: "The next-generation ROS1 and TRK inhibitor repotrectinib shrank tumours in almost four in five untreated patients with ROS1-positive lung cancer, kept the disease under control for nearly three years, and worked in about four in ten patients after crizotinib including those with the resistant G2032R mutation.",
@@ -1815,7 +1815,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "ROS1 testing became standard in lung adenocarcinoma; crizotinib was the first approved ROS1 inhibitor and remains an option, though entrectinib, repotrectinib and taletrectinib now offer brain penetration and resistance coverage.",
     caveats: ["Single-arm study of 50 patients.", "Poor brain penetration and the G2032R resistance mutation limit crizotinib."],
     links: [{ label: "N Engl J Med 2014", url: "https://doi.org/10.1056/NEJMoa1406766" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/25264305/" }],
-    cancers: ["ros1-positive-nsclc"], drugs: ["crizotinib"], journals: ["nejm"] }),
+    cancers: ["ros1-positive-nsclc"], drugs: ["crizotinib"], journals: ["nejm"], people: ["alice-shaw"] }),
 
   p({ id: "paper-drilon-entrectinib-ros1-lancet-oncol-2020", name: "Entrectinib in ROS1 fusion-positive non-small-cell lung cancer: integrated analysis of three trials",
     tldr: "Entrectinib shrank tumours in more than three quarters of patients with ROS1-positive lung cancer and, unlike crizotinib, controlled brain metastases in most patients who had them, earning approval as a first-line option.",
@@ -1891,7 +1891,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Cabozantinib is approved for previously treated neuroendocrine tumours of any origin and is a standard later-line choice, including for lung carcinoids.",
     caveats: ["Trials stopped early at interim analysis; overall survival not powered.", "Dose reductions needed in most patients."],
     links: [{ label: "N Engl J Med 2025", url: "https://doi.org/10.1056/NEJMoa2403991" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/39282913/" }],
-    cancers: ["lung-net", "pancreatic-net", "small-intestinal-net"], drugs: ["cabozantinib"], trials: ["cabinet"], journals: ["nejm"] }),
+    cancers: ["lung-net", "pancreatic-net", "small-intestinal-net"], drugs: ["cabozantinib"], trials: ["cabinet"], journals: ["nejm"], people: ["jennifer-chan"] }),
 
   p({ id: "paper-enets-lung-net-consensus-caplin-ann-oncol-2015", name: "ENETS expert consensus on pulmonary neuroendocrine (carcinoid) tumours",
     tldr: "The European Neuroendocrine Tumor Society consensus on lung carcinoids covers diagnosis, grading into typical and atypical, surgery with node dissection, and the limited evidence for somatostatin analogues, everolimus and radioligand therapy in advanced disease.",
@@ -2021,7 +2021,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "MEK inhibition is a standard option for recurrent low-grade serous ovarian cancer, and the trial validated the MAPK pathway as the disease's therapeutic target, now extended by avutometinib-defactinib.",
     caveats: ["Open-label; overall survival not significantly different with crossover.", "Toxicity led to dose reductions in many patients."],
     links: [{ label: "Lancet 2022", url: "https://doi.org/10.1016/S0140-6736(21)02175-9" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35123694/" }],
-    cancers: ["low-grade-serous-ovarian-cancer"], drugs: ["trametinib"], journals: ["lancet"] }),
+    cancers: ["low-grade-serous-ovarian-cancer"], drugs: ["trametinib"], journals: ["lancet"], people: ["david-gershenson"] }),
 
   p({ id: "paper-gershenson-hormonal-maintenance-lgsoc-jco-2017", name: "Hormonal maintenance therapy for women with low-grade serous cancer of the ovary or peritoneum",
     tldr: "In this retrospective study, women who took an aromatase inhibitor or other hormonal therapy after first-line surgery and chemotherapy for low-grade serous ovarian cancer had a median progression-free survival of over five years compared with about two years with observation.",
@@ -2032,7 +2032,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Letrozole maintenance after first-line therapy is now common practice and guideline-supported for low-grade serous ovarian cancer, and the randomised NRG-GY019 trial is testing letrozole alone.",
     caveats: ["Retrospective single-institution study with selection bias.", "No overall survival difference."],
     links: [{ label: "J Clin Oncol 2017", url: "https://doi.org/10.1200/JCO.2016.71.0632" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/28221866/" }],
-    cancers: ["low-grade-serous-ovarian-cancer"], journals: ["jco"] }),
+    cancers: ["low-grade-serous-ovarian-cancer"], journals: ["jco"], people: ["david-gershenson"] }),
 
   p({ id: "paper-ramp-201-avutometinib-defactinib-lgsoc-jco-2025", name: "RAMP 201: avutometinib with or without defactinib in recurrent low-grade serous ovarian cancer",
     tldr: "The combination of the RAF/MEK clamp avutometinib and the FAK inhibitor defactinib shrank tumours in about a third of women with recurrent low-grade serous ovarian cancer and in 44 percent of those with KRAS mutations, leading to the first approval specific to this disease.",
@@ -2043,7 +2043,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Avutometinib plus defactinib is approved for KRAS-mutant recurrent low-grade serous ovarian cancer, making KRAS testing a routine part of managing the disease; RAMP 301 is comparing it with standard therapy.",
     caveats: ["Single-arm; approval was accelerated pending the randomised RAMP 301 trial."],
     links: [{ label: "J Clin Oncol 2025", url: "https://doi.org/10.1200/JCO-25-00112" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/40644648/" }],
-    cancers: ["low-grade-serous-ovarian-cancer"], trials: ["ramp-201"], journals: ["jco"] }),
+    cancers: ["low-grade-serous-ovarian-cancer"], trials: ["ramp-201"], journals: ["jco"], people: ["susana-banerjee"] }),
 
   p({ id: "paper-cheasley-mucinous-ovarian-genomics-nat-commun-2019", name: "The molecular origin and taxonomy of mucinous ovarian carcinoma",
     tldr: "Genomic analysis of over 200 mucinous ovarian tumours showed they arise in the ovary from benign and borderline precursors through KRAS, TP53 and CDKN2A changes, and are genuinely different from the gastrointestinal cancers they resemble.",
@@ -2141,7 +2141,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Carboplatin radiosensitisation is used for high-risk group 3 medulloblastoma, an example of subgroup-directed therapy.",
     caveats: ["Subgroup analysis; overall effect of carboplatin was not significant."],
     links: [{ label: "JAMA Oncol 2021", url: "https://doi.org/10.1001/jamaoncol.2021.2224" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/34292305/" }],
-    cancers: ["medulloblastoma-group-3-4"], trials: ["acns0332"], drugs: ["carboplatin"], journals: ["jama-oncology"] }),
+    cancers: ["medulloblastoma-group-3-4"], trials: ["acns0332"], drugs: ["carboplatin"], journals: ["jama-oncology"], people: ["sarah-leary"] }),
 
   p({ id: "paper-aall0232-larsen-jco-2016", name: "AALL0232: dexamethasone and high-dose methotrexate improve outcome in high-risk B-cell acute lymphoblastic leukaemia in children and young adults",
     tldr: "In high-risk childhood B-cell acute lymphoblastic leukaemia, high-dose methotrexate beat escalating-dose methotrexate, and dexamethasone beat prednisone in children under 10, defining the backbone still used in Children's Oncology Group trials.",
@@ -2163,7 +2163,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Nelarabine is part of standard therapy for intermediate- and high-risk childhood T-ALL, and Capizzi methotrexate is preferred in T-ALL.",
     caveats: ["Neurotoxicity of nelarabine requires monitoring.", "Cranial irradiation was still used for many patients; its omission was tested later."],
     links: [{ label: "J Clin Oncol 2020", url: "https://doi.org/10.1200/JCO.20.00256" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32813610/" }],
-    cancers: ["all-paediatric-high-risk"], trials: ["aall0434"], drugs: ["nelarabine"], journals: ["jco"] }),
+    cancers: ["all-paediatric-high-risk"], trials: ["aall0434"], drugs: ["nelarabine"], journals: ["jco"], people: ["kimberly-dunsmore"] }),
 
   p({ id: "paper-hunger-mullighan-all-children-nejm-2015", name: "Acute lymphoblastic leukaemia in children (review)",
     tldr: "This review summarises how childhood acute lymphoblastic leukaemia became curable in nine of ten children through risk-adapted chemotherapy, and how genomic subtypes such as Ph-like and infant leukaemia are shaping the next generation of targeted treatment.",
@@ -2228,7 +2228,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Interfant-06 is the backbone and control benchmark for infant ALL; the successor Interfant-21 adds blinatumomab after this trial showed chemotherapy intensification had reached its limit.",
     caveats: ["Toxicity-related deaths remained substantial in infants."],
     links: [{ label: "J Clin Oncol 2019", url: "https://doi.org/10.1200/JCO.19.00261" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31283407/" }],
-    cancers: ["all-infant"], trials: ["interfant-06"], journals: ["jco"] }),
+    cancers: ["all-infant"], trials: ["interfant-06"], journals: ["jco"], people: ["rob-pieters"] }),
 
   p({ id: "paper-blinatumomab-infant-all-van-der-sluis-nejm-2023", name: "Blinatumomab added to chemotherapy in infant KMT2A-rearranged acute lymphoblastic leukaemia",
     tldr: "Adding a single course of the bispecific antibody blinatumomab after induction chemotherapy in infants with KMT2A-rearranged leukaemia raised two-year disease-free survival from a historical 49 percent to 82 percent, the first major advance in infant leukaemia in decades.",
@@ -2239,7 +2239,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Blinatumomab after induction is now standard for KMT2A-rearranged infant ALL through the Interfant-21 protocol.",
     caveats: ["Thirty patients with historical comparison; longer follow-up needed."],
     links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2214171" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37099340/" }],
-    cancers: ["all-infant"], drugs: ["blinatumomab"], journals: ["nejm"] }),
+    cancers: ["all-infant"], drugs: ["blinatumomab"], journals: ["nejm"], people: ["inge-van-der-sluis"] }),
 
   p({ id: "paper-interfant-99-lancet-2007", name: "Interfant-99: a treatment protocol for infants under one year with acute lymphoblastic leukaemia",
     tldr: "The first international infant leukaemia trial established a hybrid chemotherapy backbone and showed that a late intensification course did not help, while identifying age under six months, KMT2A rearrangement and poor steroid response as the key risk factors.",
@@ -2250,7 +2250,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Interfant-99 defined the risk groups and backbone used in Interfant-06 and Interfant-21.",
     caveats: ["Outcomes remained poor for high-risk infants, motivating later immunotherapy."],
     links: [{ label: "Lancet 2007", url: "https://doi.org/10.1016/S0140-6736(07)61126-X" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/17658395/" }],
-    cancers: ["all-infant"], journals: ["lancet"] }),
+    cancers: ["all-infant"], journals: ["lancet"], people: ["rob-pieters"] }),
 
   p({ id: "paper-a3961-intermediate-risk-neuroblastoma-baker-nejm-2010", name: "A3961: outcome after reduced chemotherapy for intermediate-risk neuroblastoma",
     tldr: "Cutting chemotherapy to four or eight cycles based on tumour biology kept three-year survival above 96 percent in intermediate-risk neuroblastoma, showing these children could be safely treated with substantially less.",
@@ -2371,7 +2371,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Vismodegib or sonidegib is reserved for skeletally mature patients with relapsed SHH medulloblastoma and upstream pathway mutations, a niche defined by this trial.",
     caveats: ["Small numbers; responses were transient.", "Irreversible growth plate closure in growing children."],
     links: [{ label: "J Clin Oncol 2015", url: "https://doi.org/10.1200/JCO.2014.60.1591" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/26169613/" }],
-    cancers: ["medulloblastoma-shh"], drugs: ["vismodegib"], journals: ["jco"] }),
+    cancers: ["medulloblastoma-shh"], drugs: ["vismodegib"], journals: ["jco"], people: ["giles-robinson"] }),
 
   p({ id: "paper-zhukova-tp53-medulloblastoma-jco-2013", name: "Subgroup-specific prognostic implications of TP53 mutation in medulloblastoma",
     tldr: "TP53 mutations mark a very poor prognosis in SHH-subgroup medulloblastoma, with five-year survival around 40 percent, but have no effect in WNT tumours, so the mutation must be interpreted alongside the subgroup.",
@@ -2393,7 +2393,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Enzalutamide, with or without androgen deprivation, is now approved for high-risk biochemical recurrence, and intermittent therapy with treatment suspension is built into the regimen.",
     caveats: ["Conventional imaging defined the population; PSMA PET would reclassify many as metastatic.", "Hot flushes, fatigue and gynaecomastia (with monotherapy) are common."],
     links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2303974" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37851874/" }],
-    cancers: ["prostate-bcr"], drugs: ["enzalutamide"], trials: ["embark"], journals: ["nejm"] }),
+    cancers: ["prostate-bcr"], drugs: ["enzalutamide"], trials: ["embark"], journals: ["nejm"], people: ["stephen-freedland"] }),
 
   p({ id: "paper-radicals-rt-lancet-2020", name: "RADICALS-RT: timing of radiotherapy after radical prostatectomy",
     tldr: "Giving radiotherapy to every man with risk factors immediately after prostatectomy was no better than waiting and treating only those whose PSA rose, so early salvage radiotherapy became the standard and spared many men unnecessary treatment.",
@@ -2404,7 +2404,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Observation with early salvage radiotherapy at PSA recurrence is standard after prostatectomy, avoiding radiotherapy in most men who would never have needed it.",
     caveats: ["Men with the highest-risk features (multiple adverse factors) were under-represented.", "Longer follow-up for metastasis-free survival is pending."],
     links: [{ label: "Lancet 2020", url: "https://doi.org/10.1016/S0140-6736(20)31553-1" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33002429/" }],
-    cancers: ["prostate-bcr"], journals: ["lancet"] }),
+    cancers: ["prostate-bcr"], journals: ["lancet"], people: ["chris-parker"] }),
 
   p({ id: "paper-propsma-hofman-lancet-2020", name: "proPSMA: PSMA PET-CT versus conventional imaging for staging high-risk prostate cancer",
     tldr: "PSMA PET-CT was 27 percentage points more accurate than CT and bone scan for finding spread in men with high-risk prostate cancer before treatment, with less radiation and more influence on management, and it has replaced conventional imaging where available.",
@@ -2426,7 +2426,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Two years of abiraterone with androgen deprivation and radiotherapy is the standard for very high-risk and node-positive localised prostate cancer.",
     caveats: ["Most men received radiotherapy; benefit after prostatectomy is less certain.", "Staging was by conventional imaging."],
     links: [{ label: "Lancet 2022", url: "https://doi.org/10.1016/S0140-6736(21)02437-5" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/34953525/" }],
-    cancers: ["prostate-high-risk"], drugs: ["abiraterone", "enzalutamide"], trials: ["stampede"], journals: ["lancet"] }),
+    cancers: ["prostate-high-risk"], drugs: ["abiraterone", "enzalutamide"], trials: ["stampede"], journals: ["lancet"], people: ["gerhardt-attard"] }),
 
   p({ id: "paper-bolla-eortc-22863-nejm-1997", name: "EORTC 22863: improved survival with radiotherapy plus goserelin in locally advanced prostate cancer",
     tldr: "Adding three years of hormone therapy to radiotherapy for locally advanced prostate cancer improved five-year survival from 62 to 79 percent, establishing long-term androgen deprivation with radiotherapy as the standard for high-risk disease.",
@@ -2481,7 +2481,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Moderate hypofractionation (60 Gy in 20 fractions) is a standard of care for localised prostate cancer, halving the number of hospital visits.",
     caveats: ["Most men received short-course androgen deprivation.", "Ultra-hypofractionation (five fractions) was tested separately in PACE-B."],
     links: [{ label: "Lancet Oncol 2016", url: "https://doi.org/10.1016/S1470-2045(16)30102-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/27339115/" }],
-    cancers: ["prostate-intermediate-risk"], trials: ["chhip"], journals: ["lancet-oncology"] }),
+    cancers: ["prostate-intermediate-risk"], trials: ["chhip"], journals: ["lancet-oncology"], people: ["david-dearnaley"] }),
 
   p({ id: "paper-rtog-9408-short-term-adt-jones-nejm-2011", name: "RTOG 9408: radiotherapy with short-term androgen deprivation for localised prostate cancer",
     tldr: "Four months of hormone therapy around radiotherapy improved survival in men with early prostate cancer, with the benefit confined to intermediate-risk disease, so short-course androgen deprivation became standard for that group.",
@@ -2547,7 +2547,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Radium-223 is an option for symptomatic bone-predominant castration-resistant prostate cancer, now less used since lutetium-PSMA, and should not be combined with abiraterone after the ERA 223 fracture signal.",
     caveats: ["No effect on PSA or soft tissue disease.", "Combination with abiraterone increased fractures and deaths in ERA 223."],
     links: [{ label: "N Engl J Med 2013", url: "https://doi.org/10.1056/NEJMoa1213755" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/23863050/" }],
-    cancers: ["prostate-mcrpc"], trials: ["alsympca"], journals: ["nejm"] }),
+    cancers: ["prostate-mcrpc"], trials: ["alsympca"], journals: ["nejm"], people: ["chris-parker"] }),
 
   p({ id: "paper-latitude-nejm-2017", name: "LATITUDE: abiraterone plus prednisone in newly diagnosed high-risk metastatic castration-sensitive prostate cancer",
     tldr: "Adding abiraterone to hormone therapy at the time of diagnosis of high-risk metastatic prostate cancer cut deaths by more than a third, establishing early intensification instead of waiting for castration resistance.",
@@ -2657,7 +2657,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Atezolizumab is the first-line systemic treatment for advanced alveolar soft part sarcoma, a rare, slow-growing but ultimately metastatic sarcoma of young adults for which chemotherapy never worked.",
     caveats: ["Single-arm study in a rare disease; responses can take many months to appear."],
     links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2303383" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37672694/" }],
-    cancers: ["alveolar-soft-part-sarcoma"], drugs: ["atezolizumab"], journals: ["nejm"] }),
+    cancers: ["alveolar-soft-part-sarcoma"], drugs: ["atezolizumab"], journals: ["nejm"], people: ["alice-chen"] }),
 
   p({ id: "paper-ladanyi-aspl-tfe3-oncogene-2001", name: "The der(17)t(X;17) of alveolar soft part sarcoma fuses TFE3 to ASPL",
     tldr: "This study identified the ASPL-TFE3 gene fusion created by the characteristic chromosome translocation in alveolar soft part sarcoma, giving the disease a defining molecular marker and a diagnostic test.",
@@ -2807,7 +2807,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Nab-sirolimus is the approved first-line treatment for advanced malignant PEComa, and TSC1/TSC2 testing helps predict response.",
     caveats: ["Single-arm study in a rare tumour; comparison with oral mTOR inhibitors is indirect."],
     links: [{ label: "J Clin Oncol 2021", url: "https://doi.org/10.1200/JCO.21.01728" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/34637337/" }],
-    cancers: ["pecoma"], drugs: ["sirolimus-albumin-bound"], trials: ["ampect"], journals: ["jco"] }),
+    cancers: ["pecoma"], drugs: ["sirolimus-albumin-bound"], trials: ["ampect"], journals: ["jco"], people: ["andrew-wagner"] }),
 
   p({ id: "paper-wagner-sirolimus-pecoma-jco-2010", name: "Clinical activity of mTOR inhibition with sirolimus in malignant perivascular epithelioid cell tumours",
     tldr: "This report of three patients with malignant PEComa responding to oral sirolimus was the first evidence that these tumours, which share TSC1/TSC2 loss with tuberous sclerosis, depend on the mTOR pathway.",
@@ -2818,7 +2818,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "mTOR inhibition became the therapeutic strategy for PEComa, culminating in the AMPECT trial and approval of nab-sirolimus.",
     caveats: ["Three patients; hypothesis-generating."],
     links: [{ label: "J Clin Oncol 2010", url: "https://doi.org/10.1200/JCO.2009.25.2981" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/20048174/" }],
-    cancers: ["pecoma"], journals: ["jco"] }),
+    cancers: ["pecoma"], journals: ["jco"], people: ["andrew-wagner"] }),
 
   p({ id: "paper-strass-lancet-oncol-2020", name: "STRASS (EORTC 62092): preoperative radiotherapy plus surgery versus surgery alone for primary retroperitoneal sarcoma",
     tldr: "Adding radiotherapy before surgery for retroperitoneal sarcoma did not improve abdominal recurrence-free survival overall, so it is no longer routine, though a possible benefit in liposarcoma keeps it under discussion.",
@@ -2829,7 +2829,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Surgery alone in a reference centre is the standard for primary retroperitoneal sarcoma; preoperative radiotherapy is considered case by case in liposarcoma.",
     caveats: ["Trial did not meet its endpoint, but the liposarcoma subgroup signal remains debated.", "Surgery-alone arm had excellent outcomes at expert centres."],
     links: [{ label: "Lancet Oncol 2020", url: "https://doi.org/10.1016/S1470-2045(20)30446-0" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32941794/" }],
-    cancers: ["retroperitoneal-sarcoma", "liposarcoma"], trials: ["strass"], journals: ["lancet-oncology"] }),
+    cancers: ["retroperitoneal-sarcoma", "liposarcoma"], trials: ["strass"], journals: ["lancet-oncology"], people: ["sylvie-bonvalot"] }),
 
   p({ id: "paper-tarpswg-retroperitoneal-sarcoma-gronchi-ann-surg-2016", name: "Variability in patterns of recurrence after resection of primary retroperitoneal sarcoma (TARPSWG)",
     tldr: "Pooling over a thousand patients from eight expert centres showed that recurrence after retroperitoneal sarcoma surgery depends on histology: liposarcoma recurs locally, leiomyosarcoma spreads distantly, which shapes follow-up and the case for radiotherapy or chemotherapy by subtype.",
@@ -2851,7 +2851,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Extended en bloc resection in a sarcoma reference centre is the standard operation for retroperitoneal sarcoma.",
     caveats: ["Retrospective; extended resection carries morbidity and remains debated for low-grade liposarcoma."],
     links: [{ label: "J Clin Oncol 2009", url: "https://doi.org/10.1200/JCO.2008.18.0802" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/19047280/" }],
-    cancers: ["retroperitoneal-sarcoma"], journals: ["jco"] }),
+    cancers: ["retroperitoneal-sarcoma"], journals: ["jco"], people: ["sylvie-bonvalot"] }),
 
   p({ id: "paper-ncic-sr2-preoperative-vs-postoperative-radiotherapy-osullivan-lancet-2002", name: "NCIC SR2: preoperative versus postoperative radiotherapy in soft tissue sarcoma of the limbs",
     tldr: "Radiotherapy before surgery for limb sarcoma doubled the rate of wound complications compared with radiotherapy after surgery, but gave the same tumour control with lower doses and less late fibrosis, leaving the timing as a trade between early and late side effects.",
@@ -2884,7 +2884,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Doxorubicin-trabectedin is a first-line standard for fit patients with metastatic leiomyosarcoma, one of the few histology-specific first-line regimens in sarcoma.",
     caveats: ["Substantial haematological toxicity and treatment delays.", "Single-country (French) trial; confirmatory data awaited."],
     links: [{ label: "Lancet Oncol 2022", url: "https://doi.org/10.1016/S1470-2045(22)00380-1" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35835135/" }],
-    cancers: ["extremity-soft-tissue-sarcoma", "leiomyosarcoma", "retroperitoneal-sarcoma"], drugs: ["doxorubicin", "trabectedin"], trials: ["lms-04"], journals: ["lancet-oncology"] }),
+    cancers: ["extremity-soft-tissue-sarcoma", "leiomyosarcoma", "retroperitoneal-sarcoma"], drugs: ["doxorubicin", "trabectedin"], trials: ["lms-04"], journals: ["lancet-oncology"], people: ["patricia-pautier"] }),
 
   p({ id: "paper-sarc028-pembrolizumab-sarcoma-tawbi-lancet-oncol-2017", name: "SARC028: pembrolizumab in advanced soft tissue and bone sarcoma",
     tldr: "Pembrolizumab had little effect in most sarcomas, but it shrank tumours in about 40 percent of patients with undifferentiated pleomorphic sarcoma and some with dedifferentiated liposarcoma, singling out these subtypes for immunotherapy.",
@@ -2906,7 +2906,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Mogamulizumab is a standard for advanced-stage cutaneous T-cell lymphoma with blood involvement, particularly Sezary syndrome.",
     caveats: ["Open-label; vorinostat is a weak comparator.", "Mogamulizumab-associated rash can mimic disease progression."],
     links: [{ label: "Lancet Oncol 2018", url: "https://doi.org/10.1016/S1470-2045(18)30379-6" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/30100375/" }],
-    cancers: ["cutaneous-t-cell-lymphoma"], drugs: ["mogamulizumab", "vorinostat"], trials: ["mavoric"], journals: ["lancet-oncology"] }),
+    cancers: ["cutaneous-t-cell-lymphoma"], drugs: ["mogamulizumab", "vorinostat"], trials: ["mavoric"], journals: ["lancet-oncology"], people: ["youn-kim"] }),
 
   p({ id: "paper-alcanza-brentuximab-vedotin-lancet-2017", name: "ALCANZA: brentuximab vedotin versus physician's choice in CD30-positive cutaneous T-cell lymphoma",
     tldr: "In CD30-expressing mycosis fungoides and primary cutaneous anaplastic large cell lymphoma, the antibody-drug conjugate brentuximab vedotin produced lasting responses in more than half of patients, far more than methotrexate or bexarotene.",
@@ -2917,7 +2917,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Brentuximab vedotin is a standard for CD30-positive cutaneous T-cell lymphoma requiring systemic therapy, including large cell transformation.",
     caveats: ["Peripheral neuropathy in 67 percent, mostly reversible.", "CD30 expression threshold for benefit is low and variable."],
     links: [{ label: "Lancet 2017", url: "https://doi.org/10.1016/S0140-6736(17)31266-7" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/28600132/" }],
-    cancers: ["cutaneous-t-cell-lymphoma"], trials: ["alcanza"], drugs: ["brentuximab-vedotin"], journals: ["lancet"] }),
+    cancers: ["cutaneous-t-cell-lymphoma"], trials: ["alcanza"], drugs: ["brentuximab-vedotin"], journals: ["lancet"], people: ["miles-prince"] }),
 
   p({ id: "paper-olsen-mycosis-fungoides-staging-blood-2007", name: "Revisions to the staging and classification of mycosis fungoides and Sezary syndrome (ISCL/EORTC)",
     tldr: "The 2007 international revision of the TNMB staging system for mycosis fungoides and Sezary syndrome defined skin, node, visceral and blood classes that remain the basis for staging, treatment choice and trial eligibility.",
@@ -2949,7 +2949,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Eribulin is an approved later-line treatment for liposarcoma, one of the few sarcoma drugs with a demonstrated survival benefit.",
     caveats: ["No progression-free survival benefit, an unusual pattern.", "Dacarbazine is an active comparator in leiomyosarcoma."],
     links: [{ label: "Lancet 2016", url: "https://doi.org/10.1016/S0140-6736(15)01283-0" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/26874885/" }],
-    cancers: ["liposarcoma"], drugs: ["dacarbazine", "eribulin"], journals: ["lancet"] }),
+    cancers: ["liposarcoma"], drugs: ["dacarbazine", "eribulin"], journals: ["lancet"], people: ["patrick-schoffski"] }),
 
   p({ id: "paper-trabectedin-vs-dacarbazine-demetri-jco-2016", name: "Trabectedin versus dacarbazine for metastatic liposarcoma or leiomyosarcoma after anthracycline failure",
     tldr: "Trabectedin reduced the risk of progression by 45 percent compared with dacarbazine in previously treated liposarcoma and leiomyosarcoma, leading to its approval in the United States, though survival was not improved.",
@@ -3003,7 +3003,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Lenalidomide-rituximab is approved for relapsed follicular and marginal zone lymphoma and is a standard chemotherapy-free choice, though marginal zone-specific evidence is thinner.",
     caveats: ["Only 63 patients had marginal zone lymphoma, with no clear progression-free survival benefit in that subgroup."],
     links: [{ label: "J Clin Oncol 2019", url: "https://doi.org/10.1200/JCO.19.00010" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/30897038/" }],
-    cancers: ["marginal-zone-lymphoma"], trials: ["augment"], drugs: ["lenalidomide", "rituximab"], journals: ["jco"] }),
+    cancers: ["marginal-zone-lymphoma"], trials: ["augment"], drugs: ["lenalidomide", "rituximab"], journals: ["jco"], people: ["john-leonard"] }),
 
   p({ id: "paper-clark-syt-ssx-synovial-sarcoma-nat-genet-1994", name: "Identification of SYT and SSX, the genes fused by the t(X;18) translocation in synovial sarcoma",
     tldr: "This study cloned the SYT-SSX (SS18-SSX) gene fusion produced by the chromosome translocation found in essentially every synovial sarcoma, giving the tumour a defining molecular marker and the basis for later targeted and immune therapies.",
@@ -3069,7 +3069,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Pembrolizumab is an approved first-line option for advanced cutaneous squamous cell carcinoma alongside cemiplimab.",
     caveats: ["Single-arm; lower response rate than cemiplimab in cross-trial comparison, partly reflecting more prior treatment."],
     links: [{ label: "J Clin Oncol 2020", url: "https://doi.org/10.1200/JCO.19.03054" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32673170/" }],
-    cancers: ["advanced-cutaneous-scc"], drugs: ["pembrolizumab"], trials: ["keynote-629"], journals: ["jco"] }),
+    cancers: ["advanced-cutaneous-scc"], drugs: ["pembrolizumab"], trials: ["keynote-629"], journals: ["jco"], people: ["jean-jacques-grob"] }),
 
   p({ id: "paper-c-post-adjuvant-cemiplimab-nejm-2025", name: "C-POST: adjuvant cemiplimab versus placebo in high-risk cutaneous squamous cell carcinoma",
     tldr: "A year of cemiplimab after surgery and radiotherapy for high-risk cutaneous squamous cell carcinoma cut the risk of recurrence or death by more than two thirds, the first adjuvant therapy to work in this skin cancer.",
@@ -3080,7 +3080,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Adjuvant cemiplimab is a new standard for high-risk cutaneous squamous cell carcinoma after surgery and radiotherapy, particularly in patients with extracapsular nodal extension.",
     caveats: ["Overall survival data immature.", "Immunosuppressed and transplant patients, who bear much of the disease burden, were excluded."],
     links: [{ label: "N Engl J Med 2025", url: "https://doi.org/10.1056/NEJMoa2502449" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/40454639/" }],
-    cancers: ["advanced-cutaneous-scc"], drugs: ["cemiplimab"], journals: ["nejm"] }),
+    cancers: ["advanced-cutaneous-scc"], drugs: ["cemiplimab"], journals: ["nejm"], people: ["danny-rischin"] }),
 
   p({ id: "paper-gross-neoadjuvant-cemiplimab-cscc-nejm-2022", name: "Neoadjuvant cemiplimab for stage II to IV cutaneous squamous cell carcinoma",
     tldr: "Giving four doses of cemiplimab before surgery for resectable cutaneous squamous cell carcinoma eliminated all viable tumour in half of patients and left only minimal residual disease in another 13 percent, opening the way to smaller operations and less radiotherapy.",
@@ -3091,7 +3091,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Neoadjuvant cemiplimab is now used to shrink large or function-threatening cutaneous squamous cell carcinomas before surgery, and pathological response is being studied as a guide to omitting adjuvant radiotherapy.",
     caveats: ["Single-arm; long-term recurrence-free survival data are maturing.", "Surgical de-escalation after complete response is not yet standard."],
     links: [{ label: "N Engl J Med 2022", url: "https://doi.org/10.1056/NEJMoa2209813" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/36094839/" }],
-    cancers: ["advanced-cutaneous-scc"], drugs: ["cemiplimab"], journals: ["nejm"] }),
+    cancers: ["advanced-cutaneous-scc"], drugs: ["cemiplimab"], journals: ["nejm"], people: ["neil-gross"] }),
 
   p({ id: "paper-dreamseq-jco-2023", name: "DREAMseq (ECOG-ACRIN EA6134): sequencing dabrafenib-trametinib and nivolumab-ipilimumab in BRAF-mutant metastatic melanoma",
     tldr: "Starting with nivolumab plus ipilimumab and switching to BRAF-MEK inhibitors at progression gave 20 percentage points better two-year survival than the reverse order in BRAF-mutant advanced melanoma, settling the question of which to use first.",
@@ -3102,7 +3102,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Immunotherapy first is the standard for BRAF-mutant advanced melanoma in patients who can wait for a response; targeted therapy is reserved for rapid control or after immunotherapy.",
     caveats: ["Open-label and stopped early.", "Does not address newer first-line options such as nivolumab-relatlimab."],
     links: [{ label: "J Clin Oncol 2023", url: "https://doi.org/10.1200/JCO.22.01763" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/36166727/" }],
-    cancers: ["advanced-melanoma", "braf-v600-melanoma"], drugs: ["dabrafenib", "ipilimumab", "nivolumab", "trametinib"], trials: ["dreamseq"], journals: ["jco"] }),
+    cancers: ["advanced-melanoma", "braf-v600-melanoma"], drugs: ["dabrafenib", "ipilimumab", "nivolumab", "trametinib"], trials: ["dreamseq"], journals: ["jco"], people: ["michael-atkins"] }),
 
   p({ id: "paper-combi-d-long-lancet-2015", name: "COMBI-d: dabrafenib and trametinib versus dabrafenib alone for BRAF V600-mutant melanoma",
     tldr: "Adding the MEK inhibitor trametinib to the BRAF inhibitor dabrafenib lengthened survival and reduced the skin cancers caused by BRAF inhibition alone in metastatic BRAF-mutant melanoma, establishing dual blockade as the standard for targeted therapy.",
@@ -3146,7 +3146,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "BRAF testing became mandatory in advanced melanoma and vemurafenib the first approved BRAF inhibitor; combination with MEK inhibitors soon replaced monotherapy.",
     caveats: ["Early analysis; responses were often short because of acquired resistance.", "Keratoacanthomas and squamous cell carcinomas in about 18 percent."],
     links: [{ label: "N Engl J Med 2011", url: "https://doi.org/10.1056/NEJMoa1103782" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/21639808/" }],
-    cancers: ["braf-v600-melanoma"], drugs: ["vemurafenib"], journals: ["nejm"] }),
+    cancers: ["braf-v600-melanoma"], drugs: ["vemurafenib"], journals: ["nejm"], people: ["paul-chapman"] }),
 
   p({ id: "paper-imatinib-dfsp-eortc-swog-rutkowski-jco-2010", name: "Imatinib in advanced dermatofibrosarcoma protuberans: pooled analysis of two phase 2 trials (EORTC 62027 and SWOG S0345)",
     tldr: "Pooling two trials, imatinib shrank tumours in about half of patients with locally advanced or metastatic dermatofibrosarcoma protuberans, confirming that blocking the PDGF receptor works in this fusion-driven sarcoma.",
@@ -3157,7 +3157,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Imatinib is the standard systemic treatment for unresectable, recurrent or metastatic dermatofibrosarcoma protuberans and is used neoadjuvantly to shrink large tumours before surgery.",
     caveats: ["Small pooled cohort from two prematurely closed trials."],
     links: [{ label: "J Clin Oncol 2010", url: "https://doi.org/10.1200/JCO.2009.25.7899" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/20194851/" }],
-    cancers: ["dermatofibrosarcoma-protuberans"], drugs: ["imatinib"], journals: ["jco"] }),
+    cancers: ["dermatofibrosarcoma-protuberans"], drugs: ["imatinib"], journals: ["jco"], people: ["piotr-rutkowski"] }),
 
   p({ id: "paper-simon-col1a1-pdgfb-dfsp-nat-genet-1997", name: "Deregulation of the platelet-derived growth factor B-chain gene via fusion with COL1A1 in dermatofibrosarcoma protuberans",
     tldr: "This study discovered that dermatofibrosarcoma protuberans is driven by a fusion of the collagen gene COL1A1 to the growth factor gene PDGFB, which explains its response to imatinib and gives the tumour a diagnostic marker.",
@@ -3179,7 +3179,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Vismodegib (and sonidegib) is the first-line systemic treatment for locally advanced or metastatic basal cell carcinoma, often given intermittently to manage side effects.",
     caveats: ["Single-arm; toxicity-related discontinuation is common.", "Teratogenic; strict contraception required."],
     links: [{ label: "N Engl J Med 2012", url: "https://doi.org/10.1056/NEJMoa1113713" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/22670903/" }],
-    cancers: ["locally-advanced-bcc"], drugs: ["vismodegib"], trials: ["erivance"], journals: ["nejm"] }),
+    cancers: ["locally-advanced-bcc"], drugs: ["vismodegib"], trials: ["erivance"], journals: ["nejm"], people: ["aleksandar-sekulic"] }),
 
   p({ id: "paper-bolt-sonidegib-migden-lancet-oncol-2015", name: "BOLT: two doses of sonidegib in locally advanced or metastatic basal cell carcinoma",
     tldr: "Sonidegib, a second hedgehog inhibitor, shrank tumours in about 40 percent of patients with locally advanced basal cell carcinoma at the lower 200 mg dose with fewer side effects than the higher dose, and was approved as an alternative to vismodegib.",
@@ -3190,7 +3190,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Sonidegib 200 mg is an approved option for locally advanced basal cell carcinoma with a side-effect profile similar to vismodegib.",
     caveats: ["Randomised between doses only; no comparison with vismodegib or placebo."],
     links: [{ label: "Lancet Oncol 2015", url: "https://doi.org/10.1016/S1470-2045(15)70100-2" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/25981810/" }],
-    cancers: ["locally-advanced-bcc"], drugs: ["sonidegib"], trials: ["bolt"], journals: ["lancet-oncology"] }),
+    cancers: ["locally-advanced-bcc"], drugs: ["sonidegib"], trials: ["bolt"], journals: ["lancet-oncology"], people: ["michael-migden"] }),
 
   p({ id: "paper-cemiplimab-bcc-stratigos-lancet-oncol-2021", name: "Cemiplimab in locally advanced basal cell carcinoma after hedgehog inhibitor therapy",
     tldr: "In patients whose locally advanced basal cell carcinoma had progressed on or could not tolerate a hedgehog inhibitor, cemiplimab shrank tumours in about three in ten, giving a second-line option where none existed.",
@@ -3201,7 +3201,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Cemiplimab is approved for advanced basal cell carcinoma after hedgehog inhibitor therapy, adding immunotherapy to the pathway for this common but rarely advanced skin cancer.",
     caveats: ["Single-arm; responses can take many months to become apparent."],
     links: [{ label: "Lancet Oncol 2021", url: "https://doi.org/10.1016/S1470-2045(21)00126-1" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/34000246/" }],
-    cancers: ["locally-advanced-bcc"], drugs: ["cemiplimab"], journals: ["lancet-oncology"] }),
+    cancers: ["locally-advanced-bcc"], drugs: ["cemiplimab"], journals: ["lancet-oncology"], people: ["alexander-stratigos"] }),
 
   p({ id: "paper-dangelo-mucosal-melanoma-pooled-jco-2017", name: "Nivolumab alone or with ipilimumab in mucosal melanoma: pooled analysis",
     tldr: "Pooling several trials showed that mucosal melanoma responds to nivolumab less often than skin melanoma, but that adding ipilimumab raised the response rate from about a quarter to more than a third, supporting combination immunotherapy first.",
@@ -3267,7 +3267,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Nivolumab is a second approved adjuvant option for stage IIB and IIC melanoma with the same trade-offs as pembrolizumab.",
     caveats: ["Short follow-up at primary analysis; no survival data."],
     links: [{ label: "Nat Med 2023", url: "https://doi.org/10.1038/s41591-023-02583-2" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37845511/" }],
-    cancers: ["stage-ii-melanoma"], drugs: ["nivolumab"], trials: ["nct04099251"], journals: ["nature-medicine"] }),
+    cancers: ["stage-ii-melanoma"], drugs: ["nivolumab"], trials: ["nct04099251"], journals: ["nature-medicine"], people: ["john-kirkwood"] }),
 
   p({ id: "paper-ajcc-8-melanoma-gershenwald-ca-2017", name: "Melanoma staging: evidence-based changes in the AJCC eighth edition cancer staging manual",
     tldr: "The eighth-edition melanoma staging system, derived from over 46,000 patients, refined thickness cut-offs and node categories and created the stage IIIA to IIID subgroups whose very different outlooks now guide adjuvant therapy decisions.",
@@ -3278,7 +3278,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Stage IIB, IIC and III on this site's melanoma pages, and the recognition that stage IIIA has a better prognosis than stage IIB or IIC, come from this system.",
     caveats: ["Survival estimates predate modern adjuvant therapy."],
     links: [{ label: "CA Cancer J Clin 2017", url: "https://doi.org/10.3322/caac.21409" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/29028110/" }],
-    cancers: ["stage-ii-melanoma", "stage-iii-melanoma"], journals: ["ca-cancer-journal"] }),
+    cancers: ["stage-ii-melanoma", "stage-iii-melanoma"], journals: ["ca-cancer-journal"], people: ["jeffrey-gershenwald"] }),
 
   p({ id: "paper-mslt-ii-faries-nejm-2017", name: "MSLT-II: completion lymph node dissection or observation for sentinel-node metastasis in melanoma",
     tldr: "Removing all the remaining lymph nodes after a positive sentinel node did not improve melanoma survival compared with ultrasound surveillance and caused far more lymphoedema, ending routine completion dissection.",
@@ -3366,7 +3366,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "FLOT is the reference perioperative regimen for gastric and junctional adenocarcinoma, and the backbone onto which durvalumab was added in MATTERHORN.",
     caveats: ["Only about half of patients completed postoperative chemotherapy.", "Not compared with CROSS chemoradiotherapy for oesophageal adenocarcinoma until ESOPEC."],
     links: [{ label: "Lancet 2019", url: "https://doi.org/10.1016/S0140-6736(18)32557-1" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/30982686/" }],
-    cancers: ["oesophageal-adenocarcinoma", "gastric-pdl1-high", "gastric-her2-positive"], trials: ["flot4"], drugs: ["capecitabine", "cisplatin", "docetaxel", "epirubicin", "oxaliplatin"], journals: ["lancet"] }),
+    cancers: ["oesophageal-adenocarcinoma", "gastric-pdl1-high", "gastric-her2-positive"], trials: ["flot4"], drugs: ["capecitabine", "cisplatin", "docetaxel", "epirubicin", "oxaliplatin"], journals: ["lancet"], people: ["salah-eddin-al-batran"] }),
 
   p({ id: "paper-cross-nejm-2012", name: "CROSS: preoperative chemoradiotherapy for oesophageal or junctional cancer",
     tldr: "Five weeks of carboplatin-paclitaxel with radiotherapy before oesophagectomy lengthened median survival from 24 to 49 months in oesophageal cancer compared with surgery alone, with a complete pathological response in almost half of squamous cancers.",
@@ -3388,7 +3388,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Nivolumab plus chemotherapy or nivolumab plus ipilimumab are first-line standards for advanced oesophageal squamous cell carcinoma, joining pembrolizumab-chemotherapy from KEYNOTE-590.",
     caveats: ["Early progression was more frequent with chemotherapy-free nivolumab-ipilimumab.", "Benefit in PD-L1-negative tumours was uncertain."],
     links: [{ label: "N Engl J Med 2022", url: "https://doi.org/10.1056/NEJMoa2111380" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35108470/" }],
-    cancers: ["oesophageal-squamous-cell-carcinoma"], drugs: ["nivolumab"], trials: ["checkmate-648"], journals: ["nejm"] }),
+    cancers: ["oesophageal-squamous-cell-carcinoma"], drugs: ["nivolumab"], trials: ["checkmate-648"], journals: ["nejm"], people: ["yuichiro-doki"] }),
 
   p({ id: "paper-keynote-590-lancet-2021", name: "KEYNOTE-590: pembrolizumab plus chemotherapy for first-line treatment of advanced oesophageal cancer",
     tldr: "Adding pembrolizumab to cisplatin-fluorouracil lengthened survival in advanced oesophageal cancer of both histologies, most clearly in squamous cell carcinoma and in tumours with high PD-L1, establishing chemo-immunotherapy as the first-line standard.",
@@ -3399,7 +3399,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Pembrolizumab plus chemotherapy is a first-line standard for advanced oesophageal cancer, with the strongest recommendation for PD-L1-expressing tumours.",
     caveats: ["Benefit in adenocarcinoma and in low PD-L1 tumours was smaller.", "Cisplatin-fluorouracil backbone is less used in some regions."],
     links: [{ label: "Lancet 2021", url: "https://doi.org/10.1016/S0140-6736(21)01234-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/34454674/" }],
-    cancers: ["oesophageal-squamous-cell-carcinoma", "oesophageal-adenocarcinoma"], drugs: ["pembrolizumab"], trials: ["keynote-590"], journals: ["lancet"] }),
+    cancers: ["oesophageal-squamous-cell-carcinoma", "oesophageal-adenocarcinoma"], drugs: ["pembrolizumab"], trials: ["keynote-590"], journals: ["lancet"], people: ["jong-mu-sun"] }),
 
   p({ id: "paper-checkmate-577-nejm-2021", name: "CheckMate 577: adjuvant nivolumab in resected oesophageal or gastro-oesophageal junction cancer",
     tldr: "A year of nivolumab after chemoradiotherapy and surgery doubled disease-free survival in patients with oesophageal or junctional cancer who still had residual tumour at surgery, the first adjuvant therapy to work in this setting.",
@@ -3432,7 +3432,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "FDG-PET is standard for residual seminoma masses larger than 3 cm after chemotherapy, sparing most men surgery.",
     caveats: ["Small study; false positives occur when PET is done too soon after chemotherapy, so scans are delayed at least six weeks."],
     links: [{ label: "J Clin Oncol 2004", url: "https://doi.org/10.1200/JCO.2004.07.188" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/15020605/" }],
-    cancers: ["seminoma"], journals: ["jco"] }),
+    cancers: ["seminoma"], journals: ["jco"], people: ["maria-de-santis"] }),
 
   p({ id: "paper-subbiah-dabrafenib-trametinib-atc-jco-2018", name: "Dabrafenib and trametinib in BRAF V600E-mutant anaplastic thyroid cancer (ROAR)",
     tldr: "In one of the most lethal cancers known, dabrafenib plus trametinib shrank BRAF-mutant anaplastic thyroid cancer in about two thirds of patients, leading to the first ever drug approval for the disease.",
@@ -3443,7 +3443,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Rapid BRAF testing is mandatory at diagnosis of anaplastic thyroid cancer, and BRAF-MEK inhibition, increasingly with pembrolizumab and as neoadjuvant therapy, is the standard for BRAF-mutant disease.",
     caveats: ["Very small cohort; only about 40 percent of anaplastic thyroid cancers carry BRAF V600E."],
     links: [{ label: "J Clin Oncol 2018", url: "https://doi.org/10.1200/JCO.2017.73.6785" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/29072975/" }],
-    cancers: ["anaplastic-thyroid-cancer"], drugs: ["dabrafenib", "trametinib"], journals: ["jco"] }),
+    cancers: ["anaplastic-thyroid-cancer"], drugs: ["dabrafenib", "trametinib"], journals: ["jco"], people: ["vivek-subbiah"] }),
 
   p({ id: "paper-ata-anaplastic-thyroid-guideline-bible-thyroid-2021", name: "2021 American Thyroid Association guidelines for management of patients with anaplastic thyroid cancer",
     tldr: "The updated American guideline for anaplastic thyroid cancer stresses molecular testing within days of diagnosis, BRAF-MEK inhibitors for BRAF-mutant disease including before surgery, multimodal therapy for resectable disease, and early goals-of-care discussions.",
@@ -3453,7 +3453,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "The anaplastic thyroid cancer page's emphasis on speed, BRAF testing and neoadjuvant targeted therapy follows this guideline.",
     caveats: ["Evidence for most recommendations is from small series."],
     links: [{ label: "Thyroid 2021", url: "https://doi.org/10.1089/thy.2020.0944" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33728999/" }],
-    cancers: ["anaplastic-thyroid-cancer"] }),
+    cancers: ["anaplastic-thyroid-cancer"], people: ["keith-bible"] }),
 
   p({ id: "paper-maniakas-neoadjuvant-braf-atc-jama-oncol-2020", name: "Overall survival in anaplastic thyroid carcinoma 2000 to 2019: impact of targeted therapy and neoadjuvant BRAF-MEK inhibition",
     tldr: "At MD Anderson, survival in anaplastic thyroid cancer improved dramatically over two decades as BRAF testing, targeted therapy and neoadjuvant BRAF-MEK inhibition followed by surgery were introduced, with one-year survival rising from 35 to 59 percent.",
@@ -3474,7 +3474,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "The follicular and papillary thyroid cancer pages' recommendations for lobectomy, selective iodine and surveillance of microcarcinoma follow this guideline.",
     caveats: ["Under revision; ESTIMABL2 and IoN have since supported omitting iodine in low-risk disease."],
     links: [{ label: "Thyroid 2016", url: "https://doi.org/10.1089/thy.2015.0020" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/26462967/" }],
-    cancers: ["follicular-thyroid-cancer", "papillary-thyroid-cancer"] }),
+    cancers: ["follicular-thyroid-cancer", "papillary-thyroid-cancer"], people: ["bryan-haugen"] }),
 
   p({ id: "paper-select-lenvatinib-nejm-2015", name: "SELECT: lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer",
     tldr: "The multikinase inhibitor lenvatinib delayed progression by almost fifteen months compared with placebo in iodine-refractory differentiated thyroid cancer and shrank tumours in two thirds of patients, becoming the preferred drug for this disease.",
@@ -3507,7 +3507,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Selpercatinib is the first-line standard for advanced RET-mutant medullary thyroid cancer; RET testing at diagnosis is essential.",
     caveats: ["Overall survival data immature.", "Open-label design."],
     links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2309719" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37870969/" }],
-    cancers: ["medullary-thyroid-cancer"], drugs: ["selpercatinib"], trials: ["libretto-531"], journals: ["nejm"] }),
+    cancers: ["medullary-thyroid-cancer"], drugs: ["selpercatinib"], trials: ["libretto-531"], journals: ["nejm"], people: ["julien-hadoux"] }),
 
   p({ id: "paper-ata-medullary-thyroid-guideline-wells-thyroid-2015", name: "Revised American Thyroid Association guidelines for the management of medullary thyroid carcinoma",
     tldr: "The American Thyroid Association guideline for medullary thyroid cancer sets out RET germline testing for every patient, the timing of prophylactic thyroidectomy in hereditary carriers by mutation risk, surgical extent, and systemic therapy for advanced disease.",
@@ -3517,7 +3517,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "The medullary thyroid cancer page's approach to hereditary carriers and to surgery without radioactive iodine follows this guideline.",
     caveats: ["Predates selpercatinib and pralsetinib; systemic therapy recommendations are outdated."],
     links: [{ label: "Thyroid 2015", url: "https://doi.org/10.1089/thy.2014.0335" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/25810047/" }],
-    cancers: ["medullary-thyroid-cancer"] }),
+    cancers: ["medullary-thyroid-cancer"], people: ["samuel-wells"] }),
 
   p({ id: "paper-exam-cabozantinib-mtc-elisei-jco-2013", name: "EXAM: cabozantinib in progressive medullary thyroid cancer",
     tldr: "Cabozantinib, a kinase inhibitor blocking RET, MET and VEGF receptors, delayed progression by more than seven months compared with placebo in progressive medullary thyroid cancer, at the cost of considerable toxicity.",
@@ -3528,7 +3528,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Cabozantinib is an option for progressive medullary thyroid cancer, now mainly for RET-negative disease or after selpercatinib.",
     caveats: ["No overall survival benefit overall, though RET M918T carriers may have benefited.", "High dose with frequent reductions."],
     links: [{ label: "J Clin Oncol 2013", url: "https://doi.org/10.1200/JCO.2012.48.4659" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/24002501/" }],
-    cancers: ["medullary-thyroid-cancer"], trials: ["exam"], drugs: ["cabozantinib"], journals: ["jco"] }),
+    cancers: ["medullary-thyroid-cancer"], trials: ["exam"], drugs: ["cabozantinib"], journals: ["jco"], people: ["rossella-elisei"] }),
 
   p({ id: "paper-zeta-vandetanib-mtc-wells-jco-2012", name: "ZETA: vandetanib in locally advanced or metastatic medullary thyroid cancer",
     tldr: "Vandetanib was the first drug shown to delay progression in medullary thyroid cancer, roughly doubling progression-free survival compared with placebo, and became the first approved therapy for the disease.",
@@ -3539,7 +3539,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Vandetanib is an approved option for progressive medullary thyroid cancer, used less since selpercatinib for RET-mutant disease.",
     caveats: ["Enrolled patients with indolent disease, some not progressing; QT monitoring required."],
     links: [{ label: "J Clin Oncol 2012", url: "https://doi.org/10.1200/JCO.2011.35.5040" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/22025146/" }],
-    cancers: ["medullary-thyroid-cancer"], drugs: ["vandetanib"], trials: ["zeta"], journals: ["jco"] }),
+    cancers: ["medullary-thyroid-cancer"], drugs: ["vandetanib"], trials: ["zeta"], journals: ["jco"], people: ["samuel-wells"] }),
 
   p({ id: "paper-estimabl2-leboulleux-nejm-2022", name: "ESTIMABL2: thyroidectomy without radioiodine in patients with low-risk thyroid cancer",
     tldr: "Skipping radioactive iodine after thyroidectomy for low-risk differentiated thyroid cancer gave the same excellent three-year outcomes as giving it, so most low-risk patients can avoid the treatment.",
@@ -3605,7 +3605,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Zolbetuximab with either FOLFOX or CAPOX is a first-line standard for claudin 18.2-positive, HER2-negative gastric cancer, making claudin 18.2 testing routine.",
     caveats: ["About 38 percent of screened patients were claudin 18.2-positive.", "Nausea and vomiting in the first cycles lead to some discontinuation."],
     links: [{ label: "Nat Med 2023", url: "https://doi.org/10.1038/s41591-023-02465-7" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37524953/" }],
-    cancers: ["gastric-cldn18-2-positive"], drugs: ["zolbetuximab"], journals: ["nature-medicine"] }),
+    cancers: ["gastric-cldn18-2-positive"], drugs: ["zolbetuximab"], journals: ["nature-medicine"], people: ["manish-shah"] }),
 
   p({ id: "paper-gotoda-endoscopic-resection-criteria-gastric-cancer-2000", name: "Incidence of lymph node metastasis from early gastric cancer: estimation from 5,265 patients at two large centres",
     tldr: "By analysing over 5,000 surgical cases, this study identified early gastric cancers with essentially zero risk of lymph node spread, defining the expanded criteria that allow endoscopic removal instead of gastrectomy.",
@@ -3627,7 +3627,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Laparoscopic distal gastrectomy is the standard operation for stage I gastric cancer outside endoscopic criteria in East Asia and increasingly elsewhere.",
     caveats: ["High-volume Korean surgeons; results may not generalise to low-volume settings."],
     links: [{ label: "JAMA Oncol 2019", url: "https://doi.org/10.1001/jamaoncol.2018.6727" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/30730546/" }],
-    cancers: ["early-gastric-cancer"], trials: ["klass-01"], journals: ["jama-oncology"] }),
+    cancers: ["early-gastric-cancer"], trials: ["klass-01"], journals: ["jama-oncology"], people: ["hyung-ho-kim"] }),
 
   p({ id: "paper-jcog0912-katai-lancet-gastroenterol-hepatol-2020", name: "JCOG0912: laparoscopy-assisted versus open distal gastrectomy for clinical stage IA or IB gastric cancer",
     tldr: "Japan's randomised trial confirmed that laparoscopy-assisted distal gastrectomy is not inferior to open surgery for relapse-free survival in stage I gastric cancer, cementing the minimally invasive approach.",
@@ -3638,7 +3638,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Together with KLASS-01, this trial makes laparoscopic distal gastrectomy the standard for early gastric cancer needing surgery.",
     caveats: ["Applies to distal tumours; total gastrectomy and advanced disease were studied separately."],
     links: [{ label: "Lancet Gastroenterol Hepatol 2020", url: "https://doi.org/10.1016/S2468-1253(19)30332-2" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31757656/" }],
-    cancers: ["early-gastric-cancer"], trials: ["klass-01"] }),
+    cancers: ["early-gastric-cancer"], trials: ["klass-01"], people: ["hitoshi-katai"] }),
 
   p({ id: "paper-japanese-gastric-cancer-treatment-guidelines-2021-gastric-cancer-2023", name: "Japanese gastric cancer treatment guidelines 2021 (6th edition)",
     tldr: "The Japanese Gastric Cancer Association guideline sets the criteria for endoscopic resection, the extent of gastrectomy and lymph node dissection, adjuvant chemotherapy by stage and systemic therapy for advanced disease, and is the reference for early gastric cancer worldwide.",
@@ -3691,7 +3691,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "No adjuvant systemic therapy is recommended after curative treatment of hepatocellular carcinoma, a conclusion reinforced by the later failure of IMbrave050.",
     caveats: ["Population included patients with relatively low recurrence risk."],
     links: [{ label: "Lancet Oncol 2015", url: "https://doi.org/10.1016/S1470-2045(15)00198-9" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/26361969/" }],
-    cancers: ["hcc-early"], drugs: ["sorafenib"], journals: ["lancet-oncology"] }),
+    cancers: ["hcc-early"], drugs: ["sorafenib"], journals: ["lancet-oncology"], people: ["jordi-bruix"] }),
 
   p({ id: "paper-bilcap-lancet-oncol-2019", name: "BILCAP: capecitabine compared with observation in resected biliary tract cancer",
     tldr: "Six months of capecitabine tablets after surgery for bile duct or gallbladder cancer lengthened survival by about a year in the per-protocol analysis, and became the standard adjuvant treatment despite narrowly missing its primary endpoint.",
@@ -3702,7 +3702,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Adjuvant capecitabine is the standard after resection of intrahepatic and extrahepatic cholangiocarcinoma and gallbladder cancer, endorsed by ASCO and ESMO guidelines.",
     caveats: ["Primary endpoint not met in the intention-to-treat population.", "Whether gemcitabine-cisplatin or chemo-immunotherapy adjuvant regimens are better is under study."],
     links: [{ label: "Lancet Oncol 2019", url: "https://doi.org/10.1016/S1470-2045(18)30915-X" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/30922733/" }],
-    cancers: ["extrahepatic-cholangiocarcinoma", "intrahepatic-cholangiocarcinoma"], drugs: ["capecitabine"], trials: ["bilcap"], journals: ["lancet-oncology"] }),
+    cancers: ["extrahepatic-cholangiocarcinoma", "intrahepatic-cholangiocarcinoma"], drugs: ["capecitabine"], trials: ["bilcap"], journals: ["lancet-oncology"], people: ["john-primrose"] }),
 
   p({ id: "paper-abc-02-gemcitabine-cisplatin-nejm-2010", name: "ABC-02: cisplatin plus gemcitabine versus gemcitabine alone for biliary tract cancer",
     tldr: "Adding cisplatin to gemcitabine lengthened survival by more than three months in advanced bile duct and gallbladder cancer without extra serious toxicity, establishing the chemotherapy standard for the disease.",
@@ -3735,7 +3735,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Pembrolizumab with gemcitabine-cisplatin is an approved first-line option for advanced biliary tract cancer alongside durvalumab-based therapy.",
     caveats: ["Modest absolute gain; no biomarker enrichment."],
     links: [{ label: "Lancet 2023", url: "https://doi.org/10.1016/S0140-6736(23)00727-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37075781/" }],
-    cancers: ["intrahepatic-cholangiocarcinoma"], drugs: ["cisplatin", "gemcitabine", "pembrolizumab"], trials: ["keynote-966"], journals: ["lancet"] }),
+    cancers: ["intrahepatic-cholangiocarcinoma"], drugs: ["cisplatin", "gemcitabine", "pembrolizumab"], trials: ["keynote-966"], journals: ["lancet"], people: ["robin-kate-kelley"] }),
 
   p({ id: "paper-fight-202-pemigatinib-lancet-oncol-2020", name: "FIGHT-202: pemigatinib for previously treated cholangiocarcinoma with FGFR2 fusions or rearrangements",
     tldr: "The FGFR inhibitor pemigatinib shrank tumours in more than a third of patients with previously treated intrahepatic cholangiocarcinoma carrying FGFR2 fusions, the first targeted drug approved for the disease.",
@@ -3812,7 +3812,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Sunitinib remains the standard second-line treatment, with ripretinib as a better-tolerated alternative, and mutation-guided choice by circulating tumour DNA is being tested prospectively in INSIGHT.",
     caveats: ["Failed its primary superiority endpoint.", "Mutation subgroup analysis was exploratory."],
     links: [{ label: "J Clin Oncol 2022", url: "https://doi.org/10.1200/JCO.22.00294" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35947817/" }],
-    cancers: ["gist-imatinib-resistant"], drugs: ["imatinib", "ripretinib", "sunitinib"], journals: ["jco"] }),
+    cancers: ["gist-imatinib-resistant"], drugs: ["imatinib", "ripretinib", "sunitinib"], journals: ["jco"], people: ["sebastian-bauer"] }),
 
   p({ id: "paper-llovet-tace-lancet-2002", name: "Arterial embolisation or chemoembolisation versus symptomatic treatment in unresectable hepatocellular carcinoma",
     tldr: "This Barcelona trial was the first to show that transarterial chemoembolisation lengthens survival in intermediate-stage liver cancer, with two-year survival of 63 percent against 27 percent with supportive care, making it the standard for this stage.",
@@ -3878,7 +3878,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Three years of adjuvant imatinib is standard for high-risk resected GIST with imatinib-sensitive mutations; longer courses are being tested.",
     caveats: ["Patients with PDGFRA D842V mutations, which are imatinib-resistant, do not benefit.", "Recurrences resume after imatinib is stopped."],
     links: [{ label: "JAMA 2012", url: "https://doi.org/10.1001/jama.2012.347" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/22453568/" }],
-    cancers: ["gist-kit-exon-11"], drugs: ["imatinib"], journals: ["jama"] }),
+    cancers: ["gist-kit-exon-11"], drugs: ["imatinib"], journals: ["jama"], people: ["heikki-joensuu"] }),
 
   p({ id: "paper-heinrich-kit-mutation-imatinib-response-jco-2003", name: "Kinase mutations and imatinib response in patients with metastatic gastrointestinal stromal tumour",
     tldr: "This analysis showed that the type of KIT mutation predicts response to imatinib: tumours with exon 11 mutations responded in over 80 percent of cases, exon 9 mutations in under half, and tumours without a KIT or PDGFRA mutation rarely responded.",
@@ -3889,7 +3889,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Mutation testing is standard before imatinib in GIST: exon 11 tumours receive 400 mg, exon 9 tumours are dosed at 800 mg, and PDGFRA D842V tumours are given avapritinib instead.",
     caveats: ["Retrospective analysis of a trial cohort."],
     links: [{ label: "J Clin Oncol 2003", url: "https://doi.org/10.1200/JCO.2003.04.190" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/14645423/" }],
-    cancers: ["gist-kit-exon-11"], drugs: ["imatinib"], journals: ["jco"] }),
+    cancers: ["gist-kit-exon-11"], drugs: ["imatinib"], journals: ["jco"], people: ["michael-heinrich"] }),
 
   p({ id: "paper-keynote-062-shitara-jama-oncol-2020", name: "KEYNOTE-062: pembrolizumab or pembrolizumab plus chemotherapy versus chemotherapy in PD-L1-positive advanced gastric cancer",
     tldr: "In first-line PD-L1-positive gastric cancer, pembrolizumab alone was no worse than chemotherapy for survival but did not beat it, and adding it to chemotherapy did not help either; the exception was microsatellite-unstable tumours, which did dramatically better with pembrolizumab.",
@@ -3955,7 +3955,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Ramucirumab-paclitaxel is the second-line standard for HER2-negative gastric cancer after chemo-immunotherapy, and the comparator for newer agents.",
     caveats: ["Regional differences: benefit was smaller in Asian patients, partly because of more third-line therapy."],
     links: [{ label: "Lancet Oncol 2014", url: "https://doi.org/10.1016/S1470-2045(14)70420-6" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/25240821/" }],
-    cancers: ["gastric-pdl1-high", "gastric-cldn18-2-positive"], drugs: ["ramucirumab"], trials: ["rainbow"], journals: ["lancet-oncology"] }),
+    cancers: ["gastric-pdl1-high", "gastric-cldn18-2-positive"], drugs: ["ramucirumab"], trials: ["rainbow"], journals: ["lancet-oncology"], people: ["hansjochen-wilke"] }),
 
   p({ id: "paper-navigator-avapritinib-heinrich-lancet-oncol-2020", name: "NAVIGATOR: avapritinib in advanced PDGFRA D842V-mutant gastrointestinal stromal tumour",
     tldr: "Avapritinib shrank tumours in almost nine in ten patients with PDGFRA D842V-mutant gastrointestinal stromal tumour, a subtype completely resistant to imatinib and every other kinase inhibitor, and became its first effective treatment.",
@@ -3966,7 +3966,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Avapritinib 300 mg is the standard first-line treatment for advanced PDGFRA D842V GIST, and mutation testing before starting imatinib is essential to identify these patients.",
     caveats: ["Single-arm; cognitive side effects need monitoring and dose adjustment.", "In non-D842V GIST avapritinib was not superior to regorafenib (VOYAGER)."],
     links: [{ label: "Lancet Oncol 2020", url: "https://doi.org/10.1016/S1470-2045(20)30269-2" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32615108/" }],
-    cancers: ["gist-pdgfra-d842v"], trials: ["navigator"], drugs: ["avapritinib"], journals: ["lancet-oncology"] }),
+    cancers: ["gist-pdgfra-d842v"], trials: ["navigator"], drugs: ["avapritinib"], journals: ["lancet-oncology"], people: ["michael-heinrich"] }),
 
   p({ id: "paper-heinrich-pdgfra-gist-science-2003", name: "PDGFRA activating mutations in gastrointestinal stromal tumours",
     tldr: "This study found that most gastrointestinal stromal tumours without KIT mutations instead carry activating mutations in the related receptor PDGFRA, including the D842V mutation that resists imatinib, completing the genetic definition of the disease.",
@@ -3977,5 +3977,5 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "PDGFRA testing is part of standard GIST genotyping, and the imatinib resistance of D842V predicted here led to the development of avapritinib.",
     caveats: ["Discovery study; clinical resistance of D842V was confirmed in later trials."],
     links: [{ label: "Science 2003", url: "https://doi.org/10.1126/science.1079666" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/12522257/" }],
-    cancers: ["gist-pdgfra-d842v"], journals: ["science"] }),
+    cancers: ["gist-pdgfra-d842v"], journals: ["science"], people: ["michael-heinrich"] }),
 ];

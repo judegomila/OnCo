@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 18 September 2026
-- Sign up or log in button in the top bar, a medical disclaimer in the footer, and new Terms of Use and Privacy Policy pages
+- After sign-in a welcome page asks who you are and which cancer, the top bar shows you are signed in, four community pull requests and four issue fixes land, and secret scanning guards every commit
 - Seventy-four drug makers added and 210 drug-to-company links filled, so pipeline drugs now show who is developing them
 - Key papers for 147 subtype pages: 364 pivotal trial, classification and guideline papers, each checked against Europe PMC
 - Thirty-nine drugs named by the new subtype pages now have their own records, from hormone therapies for pituitary tumours to antibody-drug conjugates in trials
@@ -29,6 +29,11 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - 969 more plain-English sentences for early-phase trials, key papers and collections, taking the simple layer to 9,930 records; one non-cancer registry record removed
 - Orphan trials given content: ten drug matches, 17 sponsor aliases, 36 sponsor companies and 130 trials tied to their makers, two non-cancer records removed; backlinks round: 303 weakly linked records gain true relations from their own text; orphans down to 214
 - 1,024 more plain-English sentences: 279 companies, 104 institutions and 640 phase 3 trials, taking the simple layer to 8,961 records
+- Fix issues 42, 39, 37, 36: chip ellipsis and titles, daraxonrasib approval, clickable tooltips, urothelial basics
+- Welcome step as its own page: sign-in leaves /signup/ for /welcome/ or the return path, signed-in header pill, preferences kept with the account profile
+- Secret scanning: gitleaks on every push and pull request, a local pre-commit hook, and an allowlist for public ids and data prose
+- Sign up or log in button in the top bar, a medical disclaimer in the footer, and new Terms of Use and Privacy Policy pages
+- Trastuzumab carries the June 2026 FDA approval of palbociclib with trastuzumab as HER2-positive maintenance, the one bot proposal from PR 35 not already in the corpus
 - Pages are far lighter: the shared header, footer and cancer list are no longer copied into every page's data, and the sign-in id ships with the code
 - Terms of use and privacy policy pages, medical disclaimer in the footer, copyright to OnCo
 - Header: a Sign up or log in pill when signed out; region, language and search controls sit on the centre line
@@ -37,6 +42,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Each ship now builds once: Git-triggered Vercel builds are skipped and only the verified deploy runs
 - First sign-in welcome step: who you are, optional cancer, browser-only profile per WorkOS user
 - Vercel: skip Git-triggered builds so each ship builds once, from the verified CLI deploy
+- add: Strand AI (W26) to the YC oncology list
 - Owner list: proposal for six technology sections to lift the section kind past the size gauge
 - Every reference DOI on the site checked against Europe PMC: four wrong links corrected, and a checker script added for future waves
 - DOI checker for citation links: four wrong DOIs corrected and two rare-cancer key papers added
@@ -159,6 +165,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Add simple part-p: 1024 plain sentences for companies, institutions, the theories pathway and phase 3 trials
 - One papers block per person after the two paper waves met
 - People papers: 36 more research-trained people via OpenAlex and Europe PMC
+- docs(corrections): name the reporting clinician on the two glioblastoma rows
 - Company content and sources for 33 makers, 26 sponsor corrections and papers for twelve researchers; 7,065 reverse links take orphaned trials from 2,467 to 279; Wikipedia links for six terms; structured outcomes with sources for 26 trials; 153 new logos; the schematic gauge counts aliased drawings
 - Add structured outcomes to 26 reported trials flagged by the trial-outcomes gauge
 - Schematic gauge counts aliased drawings as specific
@@ -185,6 +192,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Decision pages per cancer and outcome-based centre tables (roadmap items 107 and 108)
 - Prostate risk-group and disease-state pages, update bot leftovers, Hansoh merge
 - Chinese quality pass: 82 TL;DRs corrected (standard NMPA drug names, basket trial term, methotrexate spelling, idioms), account strings in the formal register
+- Radiation wave 5: LET, RBE and when protons beat IMRT
 - Chinese quality pass on today's TL;DRs and interface strings: 篮式试验 for basket trial, 甲氨蝶呤 typo, 磁共振直线加速器, established drug names in 61 templated trial lines, natural wording in 30 machine-flavoured sentences, 您 throughout the account strings
 - First sixty days after diagnosis: a week-by-week guide for every cancer built from its records, and a printable appointment sheet per cancer with questions, words you may hear and treatments you may be offered
 - Model review panel: schema, batch script and page for AI model commentary on records, with two example panels; diagnostics wave two: 24 tests from RAD51 foci and CTC counts to pharmacogenomics, cardiac markers and low-resource screening, with five companies; institution networks: Parker Institute members and leaders, CRUK, NCI, UNICANCER and DKTK links, and ten weakly linked centres strengthened
@@ -253,6 +261,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Chinese TL;DRs for the remaining 131 people
 - Subtype pages: leiomyosarcoma, liposarcoma, synovial sarcoma, marginal zone lymphoma, cutaneous T-cell lymphoma
 - Subtype pages: kidney, testicular, oesophageal, bladder
+- Fix accessibility regressions in shared UI components
 - Subtype pages: thyroid, head and neck, ovarian
 - Chinese TL;DRs for every company, institution, term and idea
 - Radiation wave 4 (21 landmark trials) and Chinese TL;DRs for every cancer, target, technology and curated drug

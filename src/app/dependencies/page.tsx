@@ -73,18 +73,26 @@ export default function DependenciesPage() {
   };
 
   const name = (id: string) => g.get(id)?.name ?? id;
-  const tile = (id: string, extra?: ReactNode) => {
+  /**
+   * Card for one technology. When `extra` itself contains a link, the card is a <div> and only the name is the link:
+   * an <a> may not contain another <a>. The HTML parser closes the outer anchor early and lifts the inner one out
+   * as a sibling, so the DOM the browser builds differs from the tree React expects and hydration fails (React 418).
+   */
+  const tile = (id: string, extra?: ReactNode, linkInExtra = false) => {
     const t = g.get(id);
     if (!t) return null;
-    return (
-      <Link key={id} href={`/dependencies/?root=${id}`} className="card p-3 flex items-start gap-3 hover:shadow-md transition">
+    const href = `/dependencies/?root=${id}`;
+    const card = "card p-3 flex items-start gap-3 hover:shadow-md transition";
+    const body = (
+      <>
         <span className="inline-flex shrink-0 text-accent mt-0.5"><FrontIcon id={t.sections[0] ?? ""} className="h-5 w-5" /></span>
         <span className="min-w-0">
-          <span className="block font-medium leading-snug">{t.name}</span>
+          {linkInExtra ? <Link href={href} className="block font-medium leading-snug hover:underline">{t.name}</Link> : <span className="block font-medium leading-snug">{t.name}</span>}
           <span className="block text-xs text-muted mt-0.5">{extra}</span>
         </span>
-      </Link>
+      </>
     );
+    return linkInExtra ? <div key={id} className={card}>{body}</div> : <Link key={id} href={href} className={card}>{body}</Link>;
   };
   const roots = dag.nodes.filter((id) => (dag.up.get(id) ?? []).length === 0).length;
   const leaves = dag.nodes.filter((id) => (dag.down.get(id) ?? []).length === 0).length;
@@ -108,7 +116,7 @@ export default function DependenciesPage() {
           <p className="text-sm text-muted mb-3 max-w-3xl">Steps with exactly one vendor company in the corpus. Some are genuinely sole-source; others just need more companies recorded, so treat this as a list to check rather than a verdict.</p>
           {h.singleVendor.length ? (
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {h.singleVendor.map((id) => { const c = [...(g.get(id)?.companies ?? []), ...(g.incoming(id).get("company") ?? []).map((x) => x.id)][0]; const co = c ? g.get(c) : undefined; return tile(id, co ? <>Only vendor: <Link className="underline" href={routeFor(co)}>{co.name}</Link></> : "One vendor"); })}
+              {h.singleVendor.map((id) => { const c = [...(g.get(id)?.companies ?? []), ...(g.incoming(id).get("company") ?? []).map((x) => x.id)][0]; const co = c ? g.get(c) : undefined; return tile(id, co ? <>Only vendor: <Link className="underline" href={routeFor(co)}>{co.name}</Link></> : "One vendor", Boolean(co)); })}
             </div>
           ) : <p className="text-sm text-muted">Every step on the map has either several vendors or none recorded.</p>}
         </Section>

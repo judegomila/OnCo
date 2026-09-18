@@ -1,0 +1,32 @@
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_dade2a1ad6c218 14,18,26,50,62,66,74,100,170,184,282,370
+src/data/wikidata-ids.ts
+  s_0beac9cb5d78fd::t_dade2a1ad6c218 35,44,46,50,70,78-79,90,96-100,120-123,125,135,138,142,147,155,165,173,180,212,214,224,229,232,242,244,246,254,257-258,262-263,266,268,278,284
+scripts/enrich-company-ids.ts
+  s_0beac9cb5d78fd::t_de19574fce710e 330-331,333
+  s_0beac9cb5d78fd::t_b85444b740c142 1-59,62-266,274,276-292,302-329,332,334-388
+  s_0beac9cb5d78fd::t_914c9fda66bc8d 293-301
+  s_0beac9cb5d78fd::t_3541fd715d8765 60-61
+  s_0beac9cb5d78fd::t_f7f924fec5793e 275
+  s_0beac9cb5d78fd::t_6614c0187d5b58 267-273
+src/data/china.ts
+  s_0beac9cb5d78fd::t_dade2a1ad6c218 301
+src/data/companies-sponsors.ts
+  s_0beac9cb5d78fd::t_dade2a1ad6c218 108,138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2443adef87eb3da8088da70ec410a74d790d2acf",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

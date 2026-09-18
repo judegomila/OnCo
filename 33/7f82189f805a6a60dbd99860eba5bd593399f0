@@ -1,0 +1,46 @@
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_e8657411b8af64 4127,6233
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_45c494d6975167 2602
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_2f6e079aebf1ff 1224
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_fa193f16cd1384 261
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_0e369c5ec200ea 21,23
+src/data/index.ts
+  s_0beac9cb5d78fd::t_d9b33867131e4e 98,176
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_ae6904bfe851b1 46,70,78,90,143,150,183
+src/data/sarcoma-bone-subtypes.ts
+  s_0beac9cb5d78fd::t_57080f2dd1e0aa 267,277
+  s_0beac9cb5d78fd::t_74135e8da5a406 1-207,209-229,231-266,268-276,278-319
+  s_0beac9cb5d78fd::t_8f851bb80f5247 230
+  s_0beac9cb5d78fd::t_84ae8c0200573e 208
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_a9f2bab0eb6ee4 283,828
+src/data/china.ts
+  s_0beac9cb5d78fd::t_50c6417c4318da 221
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_f0ba0d914f9a27 1128
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_1fd9540622de8b 1068,1389,1409
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_80c038eac83a85 375,380
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "337f82189f805a6a60dbd99860eba5bd593399f0",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

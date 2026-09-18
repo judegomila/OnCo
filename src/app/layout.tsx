@@ -119,6 +119,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <p className="text-muted mt-3 max-w-md leading-relaxed">
                   <strong className="text-foreground/80"><T k="footer.wip" /></strong> <T k="footer.disclaimer" />
                 </p>
+                {/* Medical disclaimer: one line, linked to the Terms of use (/terms/ is the glossary, so the legal page lives at /terms-of-use/). */}
+                <p className="text-muted mt-3 max-w-md leading-relaxed" data-testid="footer-medical">
+                  <T k="footer.medical" /> <Link href="/terms-of-use/" className="underline hover:text-foreground"><T k="footer.terms" /></Link>
+                </p>
               </div>
               <FooterNav />
             </div>
@@ -128,6 +132,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/about/" className="hover:text-foreground hover:underline"><T k="footer.aboutLink" /></Link>
                 <Link href="/corrections/" className="hover:text-foreground hover:underline"><T k="footer.corrections" /></Link>
                 <Link href="/api/" className="hover:text-foreground hover:underline"><T k="footer.api" /></Link>
+                <Link href="/terms-of-use/" className="hover:text-foreground hover:underline"><T k="footer.terms" /></Link>
+                <Link href="/privacy/" className="hover:text-foreground hover:underline"><T k="footer.privacy" /></Link>
                 <a href="https://github.com/judegomila/OnCo" rel="noopener" className="hover:text-foreground hover:underline">GitHub</a>
               </p>
             </div>

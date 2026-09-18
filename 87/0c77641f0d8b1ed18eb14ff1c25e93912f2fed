@@ -1,0 +1,47 @@
+src/data/pipeline-trials-wave6.ts
+  ai_agent 683,1187,1439,3155,4457,5261,5507,5543,6581,6869,7391,8327,8489,8939
+src/data/spikes/cll.ts
+  ai_agent 41,51,61,70,89,127,135,143,151,159,167,175,183,191,199,207,212
+src/data/spikes/multiple-myeloma.ts
+  ai_agent 61,69,77,87,94,102,116,124,131,158,165,172,179,190,197,204,211,218,225,232,240,247,264
+src/data/organ-schematics.ts
+  ai_agent 351
+src/data/gap-fill.ts
+  ai_agent 37,42,47,52,57,62,67,72,92,97,102,187,217,441
+src/data/drugs-pipeline-wave7.ts
+  ai_agent 23,263
+src/data/index.ts
+  ai_agent 96,175
+src/data/spikes/all-leukemia.ts
+  ai_agent 75,84,93
+src/lib/ask.test.ts
+  ai_agent 380-382
+src/data/drugs-pipeline-wave2.ts
+  ai_agent 18
+src/data/drugs-approved-wave1.ts
+  ai_agent 55,85,368
+src/data/drugs-pipeline-wave1.ts
+  ai_agent 989,1043,1127
+src/data/drugs.ts
+  ai_agent 148,338,404,670,686,694
+src/data/pipeline-trials-wave3.ts
+  ai_agent 16,136
+src/data/blood-subtypes.ts
+  ai_agent 1-533
+src/data/pipeline-trials-wave4.ts
+  ai_agent 774,1686
+src/data/pipeline-trials-wave5.ts
+  ai_agent 3196
+src/data/pipeline-trials-wave2.ts
+  ai_agent 1343
+src/data/spikes/aml.ts
+  ai_agent 168,178,197,207,217,227,237,247,257,267,288,296,304,312,320,336,344,352
+src/data/spikes/endometrial.ts
+  ai_agent 116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "870c77641f0d8b1ed18eb14ff1c25e93912f2fed",
+  "prompts": {}
+}

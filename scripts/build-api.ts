@@ -19,6 +19,7 @@ import { flattenForCsv, toCsv, toNdjson, EXPORT_LICENCE } from "../src/lib/csv";
 import { buildFeeds } from "./build-feeds";
 import { apiFiles, FEEDS } from "./api-layout";
 import { buildSituationData } from "../src/lib/for-me-situation-data";
+import { myCancerList } from "../src/lib/my-cancer-list";
 
 const out = join(process.cwd(), "public", "api", "v1");
 // Clear the previous build, keeping rdf/: scripts/build-triples.ts rewrites only the Turtle files whose content changed
@@ -54,6 +55,9 @@ for (const e of g.entities) {
 }
 // For me situation view (roadmap item 101): one file per cancer, fetched by the browser when the reader opens the situation form.
 for (const c of g.kind("cancer")) write(`for-me/${c.id}.json`, buildSituationData(c, g));
+// The cancer chooser list (id, name, route, group), fetched by the header chip, account menu and welcome step through
+// src/lib/use-my-cancer-list.ts instead of being serialised into every page's payload.
+write("my-cancers.json", myCancerList());
 write("ranking.json", rankInstitutions().map((r) => ({ rank: r.rank, id: r.institution.id, name: r.institution.name, city: r.institution.city, country: r.institution.country, newsweekOncology2026: r.institution.newsweekOncology2026 ?? null, nci: r.institution.nci ?? null, links: r.links, newsweekPoints: r.newsweekPoints, nciPoints: r.nciPoints, linkPoints: r.linkPoints, score: r.score })));
 write("benchmark.json", benchmark);
 

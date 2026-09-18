@@ -2,29 +2,21 @@ import type { Metadata, Viewport } from "next";
 import { ExternalLinks } from "@/components/ExternalLinks";
 import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
 import "./globals.css";
-import { CommandPalette, PaletteTrigger } from "@/components/CommandPalette";
-import { NavMenu } from "@/components/NavMenu";
-import { ThemeToggle, ThemeScript } from "@/components/ThemeToggle";
+import { CommandPalette } from "@/components/CommandPalette";
+import { ThemeScript } from "@/components/ThemeToggle";
 import { SkipLink } from "@/components/SkipLink";
-import { LayerToggle, LayerScript } from "@/components/LayerToggle";
+import { LayerScript } from "@/components/LayerToggle";
 import { LangStrip } from "@/components/LangStrip";
 import { TranslateOffer } from "@/components/TranslateOffer";
 import { SectionSiblings } from "@/components/SectionSiblings";
 import { RegionProvider } from "@/lib/region";
-import { RegionToggle } from "@/components/RegionToggle";
-import { GitHubStars } from "@/components/GitHubStars";
-import { AccountMenu } from "@/components/AccountMenu";
-import { SignedInMyCancerChip } from "@/components/MyCancer";
-import { myCancerList } from "@/lib/my-cancer-list";
+import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { RegisterSW } from "@/components/RegisterSW";
 import { WebMCP } from "@/components/WebMCP";
 import { FEED_TYPES } from "@/lib/seo";
-import { GardenBackdrop, GardenDefs } from "@/components/Garden";
+import { GardenDefs } from "@/components/Garden";
 import { MotionGovernor } from "@/components/MotionGovernor";
-import { FooterNav } from "@/components/FooterNav";
-import { T } from "@/components/T";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -49,24 +41,16 @@ export const metadata: Metadata = {
   formatDetection: { telephone: false },
 };
 
-function Mark({ size = 28 }: { size?: number }) {
-  return (
-    <svg viewBox="0 0 64 64" width={size} height={size} aria-hidden className="shrink-0">
-      <rect width="64" height="64" rx="14" fill="#d6336c" />
-      <circle cx="32" cy="32" r="15" fill="none" stroke="#fff" strokeWidth="5" />
-      <circle cx="32" cy="12" r="4" fill="#fff" />
-      <circle cx="50" cy="42" r="4" fill="#fff" />
-      <circle cx="14" cy="42" r="4" fill="#fff" />
-    </svg>
-  );
-}
-
 export const viewport: Viewport = { themeColor: [{ media: "(prefers-color-scheme: light)", color: "#d6336c" }, { media: "(prefers-color-scheme: dark)", color: "#121816" }] };
 
 /**
  * The saved site language is applied to <html lang> and <html dir> before paint by LayerScript and kept in sync
  * by useLayer, so the static "en" here is only the server default. Chrome text in server components goes through
  * <T>, which renders English first and swaps after hydration.
+ *
+ * The header and footer live in src/components/SiteChrome.tsx, a client module, so their trees are not repeated in
+ * the RSC payload of every exported page; nothing page-specific is passed to them (src/app/chrome-size.test.ts
+ * guards the size of what this layout adds to each page).
  */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -80,26 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LayerScript />
         <GardenDefs />
         <SkipLink />
-        <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/75">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-1.5 sm:gap-3 xl:gap-2 2xl:gap-3">
-            <Link href="/" className="inline-flex h-10 shrink-0 items-center gap-2.5 rounded-lg sm:pe-2 font-semibold tracking-tight" aria-label="OnCo home">
-              <Mark />
-              <span className="text-[15px]">OnCo</span>
-              <span className="hidden min-[1800px]:inline text-muted font-normal text-sm">total information dominance on cancer</span>
-            </Link>
-            <NavMenu />
-            {/* Shrinks to an icon at phone widths so the fixed-width controls and the menu button always fit on one row. */}
-            <div className="ms-auto flex-1 min-w-10 max-w-[17rem] sm:max-w-xs xl:ms-auto">
-              <PaletteTrigger className="w-full h-10 rounded-[0.625rem]" />
-            </div>
-            <RegionToggle />
-            <LayerToggle />
-            <ThemeToggle />
-            <GitHubStars className="hidden sm:inline-flex" />
-            <SignedInMyCancerChip cancers={myCancerList()} className="hidden sm:inline-flex" />
-            <AccountMenu className="inline-flex" cancers={myCancerList()} />
-          </div>
-        </header>
+        <SiteHeader />
         <LangStrip />
         <CommandPalette />
         <RegisterSW />
@@ -108,31 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ExternalLinks />
         {/* Record pages stamp data-onco-id / data-onco-kind on this element for agents (MachineLinks); the hydration warning is for those attributes. */}
         <main id="main" className="flex-1" suppressHydrationWarning><TranslateOffer />{children}<SectionSiblings /></main>
-        <footer className="garden-footer relative border-t border-border mt-28">
-          {/* A low grass line grows up from the footer's top edge into the gap above it. */}
-          <GardenBackdrop variant="footer" />
-          <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-12">
-            <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 xl:grid-cols-[minmax(0,1.6fr)_repeat(6,minmax(0,1fr))] lg:gap-x-8 text-sm">
-              <div className="col-span-2 sm:col-span-3 xl:col-span-1">
-                <Link href="/" className="inline-flex items-center gap-2 font-semibold tracking-tight"><Mark size={24} /><span>OnCo</span></Link>
-                <p className="text-muted max-w-md mt-3 leading-relaxed"><T k="footer.about" /></p>
-                <p className="text-muted mt-3 max-w-md leading-relaxed">
-                  <strong className="text-foreground/80"><T k="footer.wip" /></strong> <T k="footer.disclaimer" />
-                </p>
-              </div>
-              <FooterNav />
-            </div>
-            <div className="mt-10 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-x-6 gap-y-2 text-xs text-muted">
-              <p><T k="footer.licence" /> <Link href="/about/#licence" className="underline hover:text-foreground"><T k="footer.commercial" /></Link>. <T k="footer.madeBy" /> <a href="https://judegomila.com" rel="noopener author" className="underline hover:text-foreground">Jude Gomila</a> <span className="inline-flex items-center gap-1.5 align-middle ms-1 text-muted" title="Marin and the Golden Gate"><svg viewBox="0 0 24 12" width="22" height="11" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-label="Mount Tamalpais" role="img"><path d="M1 11 L7 4 L10 7 L14 2 L18 6 L23 11" /><path d="M4 11h16" opacity="0.5" /></svg><svg viewBox="0 0 28 12" width="26" height="11" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-label="Golden Gate Bridge" role="img"><path d="M1 10h26" /><path d="M8 10V2M20 10V2" /><path d="M1 6c2.5-1.5 4.5-4 7-4s4.5 4 6 4 3.5-4 6-4 4.5 2.5 7 4" /><path d="M11 10V7M14 10V6M17 10V7" opacity="0.6" /></svg></span>.</p>
-              <p className="flex flex-wrap gap-x-4 gap-y-1">
-                <Link href="/about/" className="hover:text-foreground hover:underline"><T k="footer.aboutLink" /></Link>
-                <Link href="/corrections/" className="hover:text-foreground hover:underline"><T k="footer.corrections" /></Link>
-                <Link href="/api/" className="hover:text-foreground hover:underline"><T k="footer.api" /></Link>
-                <a href="https://github.com/judegomila/OnCo" rel="noopener" className="hover:text-foreground hover:underline">GitHub</a>
-              </p>
-            </div>
-          </div>
-        </footer>
+        <SiteFooter />
               </RegionProvider>
       </body>
     </html>

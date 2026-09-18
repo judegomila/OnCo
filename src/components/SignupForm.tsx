@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { accountEnabled, captureSession, loadSession, onAccountChange, provider, sendMagicLink, signOut, startSignIn, takeReturnPath, type Session } from "@/lib/account";
 import { useT } from "@/lib/i18n/ui";
 import { getAccountProfile, useAccountProfile } from "@/lib/profile";
-import { RoleIcon, safeReturnPath, WelcomeStep, type WelcomeCancer } from "./WelcomeStep";
+import { RoleIcon, safeReturnPath, WelcomeStep } from "./WelcomeStep";
 
 const ACTION = process.env.NEXT_PUBLIC_SIGNUP_ACTION ?? "";
 const LIST = process.env.NEXT_PUBLIC_SIGNUP_LIST ?? "";
@@ -17,7 +17,7 @@ const LIST = process.env.NEXT_PUBLIC_SIGNUP_LIST ?? "";
  * After a fresh sign-in (captureSession leaves the return path behind) a reader with no stored role sees the
  * WelcomeStep; the account menu reopens it with `/signup/?welcome=1&back=<path>`.
  */
-export function SignupForm({ cancers = [] }: { cancers?: WelcomeCancer[] }) {
+export function SignupForm() {
   const { t } = useT();
   const [email, setEmail] = useState("");
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
@@ -46,7 +46,7 @@ export function SignupForm({ cancers = [] }: { cancers?: WelcomeCancer[] }) {
     setState("sent");
   };
   // Client-only branch (a session never exists on the server), so the stored role can be read directly to preselect the pill.
-  if (session && welcome) return <WelcomeStep key={session.user.id} userId={session.user.id} cancers={cancers} back={welcome.back} initialRole={account.role ?? getAccountProfile(session.user.id).role} onDone={() => setWelcome(null)} />;
+  if (session && welcome) return <WelcomeStep key={session.user.id} userId={session.user.id} back={welcome.back} initialRole={account.role ?? getAccountProfile(session.user.id).role} onDone={() => setWelcome(null)} />;
   if (session) return (
     <div className="card p-5 flex flex-wrap items-center justify-between gap-3 text-sm">
       <span><span className="text-accent" aria-hidden>●</span> {t("account.hello", { email: session.user.name ? `${session.user.name} (${session.user.email})` : session.user.email })}</span>

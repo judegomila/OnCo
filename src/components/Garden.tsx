@@ -1,3 +1,5 @@
+"use client";
+
 import type { CSSProperties } from "react";
 import { MotionScope } from "./MotionScope";
 
@@ -12,6 +14,9 @@ import { MotionScope } from "./MotionScope";
  * the sway. All decoration is aria-hidden and ignores pointer events.
  *
  * Path data was drawn once with a small script and pasted here as literals; the numbers are the art.
+ * This is a client module so the 8 KB of path data ships once in the bundle rather than in the RSC
+ * payload of every page (the HTML is the same either way); `gardenSeed` lives in src/lib/garden-seed.ts
+ * so server components can still call it.
  */
 
 const FERN_RACHIS = "M118 414 C104 320 112 190 156 22";
@@ -25,13 +30,6 @@ const GRASS_HEADS = "M19.3 45L19.3 28.2M18 28a2 2.8 0 1 0 4 0a2 2.8 0 1 0 -4 0M1
 const FERN_BOX = "0 0 240 420";
 const SPRAY_BOX = "0 0 260 180";
 const GRASS_BOX = "0 -30 1200 120";
-
-/** Small, stable hash of a string: lets page headers vary their motif by title without any state. */
-export function gardenSeed(s: string): number {
-  let h = 2166136261;
-  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
-  return h >>> 0;
-}
 
 /** Symbol definitions. Render once per document (the root layout does). */
 export function GardenDefs() {

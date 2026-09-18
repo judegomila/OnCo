@@ -1,0 +1,109 @@
+public/structures/pubchem-936.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-5284513.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-16720766.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/index.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-168264922.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-44582816.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-9933475.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-145722613.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+scripts/fill-structures.ts
+  s_0beac9cb5d78fd::t_ee3c07d2ffc0c0 108-110
+  s_0beac9cb5d78fd::t_dd82f7a1542dc3 1-45,47,51-52,54-56,59-63,76-107,111-146
+  s_0beac9cb5d78fd::t_9f0785648a1908 46,48-50,53,57-58,64-75
+public/structures/pubchem-28417.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-129264140.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-16131215.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-54746.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-156464216.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-44139752.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+scripts/fetch-structures.ts
+  s_0beac9cb5d78fd::t_c2e3f11fa50d60 58,192-193
+public/structures/pubchem-134168328.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-25127713.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-25022340.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-169371.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-11993702.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-4054.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-46214930.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-72550012.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-9812534.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-25027363.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-149429863.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-2662.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-259331.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-5282379.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-55245.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-91865076.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-3663.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-121268274.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-166177210.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-31101.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-11256587.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-4174.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-3019.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-9941444.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+src/data/structures.ts
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 647-691
+public/structures/pubchem-452548.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-172321976.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-24770514.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+public/structures/pubchem-177920964.json
+  s_0beac9cb5d78fd::t_1cc9aded119f5e 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6cc95758a48253137ff67ec38a2f517ba0532a4d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

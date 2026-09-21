@@ -1,0 +1,29 @@
+{
+  "strictness": 2,
+  "commentTypes": ["logic", "syntax"],
+  "autoReview": ["open", "push"],
+  "triggerOnDrafts": false,
+  "excludeAuthors": ["github-actions[bot]", "dependabot[bot]"],
+  "includeBranches": ["main"],
+  "ignorePatterns": "public/**\nout/**\nCHANGELOG.md\npackage-lock.json\nsrc/data/i18n/**\n**/*.snap",
+  "instructions": "OnCo is a public cancer knowledge base read by patients. Review pull requests for: invented facts or numbers without a source link; medical or regulatory claims that lack a primary source (FDA, EMA, ClinicalTrials.gov, a journal DOI); survival figures outside the existing disclosure component; UK spelling; em-dashes or en-dashes in UI strings or data (write a hyphen or rephrase); links to record ids that do not exist in the corpus; duplicate record ids; new technologies without a SCHEMATIC_ALIAS entry; new cancers without an organ-schematics mapping; React anchors nested inside anchors; multi-child <title> elements in SVG; secrets or API keys; dependencies added to package.json. Be concise and cite the file and line. Do not comment on formatting the linter already enforces.",
+  "customContext": {
+    "files": [
+      { "path": "CONTRIBUTING.md", "description": "Contributor rules including the sourcing requirement" },
+      { "path": "docs/DATA-SOURCES.md", "description": "Which sources are acceptable for medical facts" },
+      { "path": "src/lib/schema.ts", "description": "Zod schemas every record must satisfy" }
+    ],
+    "rules": [
+      { "rule": "Every new drug approval, trial result or survival number must carry a source URL in the record", "scope": ["src/data/**/*.ts"] },
+      { "rule": "No em-dash or en-dash characters; use a hyphen or rephrase", "scope": ["src/**/*.ts", "src/**/*.tsx"] },
+      { "rule": "A Link or anchor must never contain another Link or anchor", "scope": ["src/components/**/*.tsx", "src/app/**/*.tsx"] },
+      { "rule": "Never add a dependency without discussing it in the pull request description", "scope": ["package.json"] }
+    ]
+  },
+  "statusCheck": true,
+  "statusCommentsEnabled": true,
+  "includeConfidenceScore": true,
+  "includeIssuesTable": true,
+  "includeSequenceDiagram": false,
+  "fixWithAI": false
+}

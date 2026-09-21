@@ -22,7 +22,7 @@ import { isTheme, readTheme, THEME_EVENT, writeTheme, type Theme } from "./theme
  *                        writes the stored values into the toggles' stores. Those writes fire the toggle events;
  *                        the `applying` flag makes the sync ignore them, and the pure `preferencePatch` writes
  *                        nothing when the values already agree, so even a missed flag converges in one step.
- * Everything stays in this browser; the profile is never sent anywhere.
+ * The profile itself is cached here and mirrored to the account's Supabase row by src/lib/cloud-sync.ts.
  */
 export type Preferences = { region: string; view: Level; language: Lang; theme: Theme };
 export const PREFERENCE_EVENTS: readonly string[] = [REGION_EVENT, LAYER_EVENT, THEME_EVENT];

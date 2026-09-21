@@ -8,8 +8,9 @@ import { buildDate, ISSUES_URL, LegalMeta, LegalSection, LegalToc, Placeholder, 
 /**
  * Privacy policy, written from the code. Sources for each claim:
  *  - hosting and analytics: src/app/layout.tsx (static export on Vercel; gtag.js with G-2TTJ25WSN8, plain config call)
- *  - accounts: src/lib/account.ts (WorkOS PKCE in the browser; Supabase fallback only when its keys are set)
- *  - choices on the device: src/lib/profile.ts, src/components/WelcomeStep.tsx, src/components/AccountMenu.tsx
+ *  - accounts: src/lib/account.ts (WorkOS PKCE in the browser; Supabase magic-link fallback only when WorkOS is off)
+ *  - account data in Supabase: src/lib/cloud-profile.ts, src/lib/cloud-sync.ts, supabase/migrations/0001_profiles.sql
+ *  - local copies of the choices: src/lib/profile.ts, src/components/WelcomeStep.tsx, src/components/AccountMenu.tsx
  *  - saved items: src/lib/watchlist.ts, src/lib/saved-views.ts, src/lib/prep.ts, src/lib/prep-sheet.ts
  *  - newsletter box: src/components/SignupForm.tsx (posts to NEXT_PUBLIC_SIGNUP_ACTION when set)
  *  - storage keys: the KEY constants in the files above plus ThemeToggle, layer.ts, region.tsx, CommandPalette,
@@ -17,7 +18,7 @@ import { buildDate, ISSUES_URL, LegalMeta, LegalSection, LegalToc, Placeholder, 
  *  - other hosts the browser contacts: ctgov.ts, ctgov-geo.ts, europepmc.ts, GitHubStars.tsx, WorldMap.tsx
  */
 const TITLE = "Privacy policy";
-const DESCRIPTION = "What OnCo collects and where it lives, from the code: static pages on Vercel, Google Analytics visit counts, sign-in through WorkOS, and every choice you make kept in your own browser. No advertising, no sale of data.";
+const DESCRIPTION = "What OnCo collects and where it lives, from the code: static pages on Vercel, Google Analytics visit counts, sign-in through WorkOS, your role, cancer choice, preferences and watched pages on your account in Supabase, and everything else kept in your own browser. No advertising, no sale of data.";
 export const metadata: Metadata = pageMeta({ title: TITLE, description: DESCRIPTION, path: "/privacy/" });
 
 const GA_ID = "G-2TTJ25WSN8";
@@ -49,10 +50,10 @@ const STORAGE: ReadonlyArray<{ name: string; where: string; holds: string }> = [
   { name: "onco.layer", where: "Local storage", holds: "Reading level (technical, plain, simple) and site language." },
   { name: "onco:region", where: "Local storage", holds: "The region you chose for approvals and access." },
   { name: "onco:profile:v1", where: "Local storage", holds: "Your browser profile for For me and the hubs: cancer, stage, biomarkers, treatments had, country or postcode if you typed one, and reading mode." },
-  { name: "onco:account-profile:v1:<your user id>", where: "Local storage", holds: "The role you chose after signing in, your optional cancer choice, the time you agreed to the welcome step, and a copy of your country, data view, language and theme so they follow your account. One entry per signed-in user of this browser." },
+  { name: "onco:account-profile:v1:<your user id>", where: "Local storage", holds: "The role you chose after signing in, your optional cancer choice, the time you agreed to the welcome step, and a copy of your country, data view, language and theme so they follow your account. One entry per signed-in user of this browser; the same fields are kept in the profiles table of OnCo's Supabase project under your user id." },
   { name: "onco:session:v1", where: "Local storage", holds: "Your sign-in session: access and refresh tokens, expiry, your user id, email address and name from WorkOS. Removed when you sign out." },
   { name: "onco:pkce, onco:return-to", where: "Session storage", holds: "A sign-in in progress (a one-time code verifier and the page to return to). Removed as soon as the sign-in completes; gone when the tab closes." },
-  { name: "onco:watchlist:v1", where: "Local storage", holds: "Pages you pressed Watch on, with the dates you last saw them." },
+  { name: "onco:watchlist:v1", where: "Local storage", holds: "Pages you pressed Watch on, with the dates you last saw them. Signed in, the kind and id of each page is also kept in the saved_items table of OnCo's Supabase project." },
   { name: "onco:saved-views:v1", where: "Local storage", holds: "Table views you saved: a name and the address that reproduces the filters." },
   { name: "onco:prep:v1, onco:prep-sheet:v1", where: "Local storage", holds: "Ticks, questions and notes on the appointment preparation pages." },
   { name: "onco:shortcuts:v1", where: "Local storage", holds: "Whether keyboard shortcuts are on or off." },
@@ -70,7 +71,7 @@ export default function PrivacyPage() {
       <PageHeader
         kicker={<GroupKicker id="learn"><span className="kicker">·</span><Link href="/terms-of-use/" className="kicker hover:underline">Terms of use</Link><span className="kicker">·</span><Link href="/about/" className="kicker hover:underline">About and methodology</Link></GroupKicker>}
         title={TITLE}
-        lede="What OnCo collects, where it lives and what never leaves your device, written from the code that runs the site. The site is open source, so every statement here can be checked against the file it describes."
+        lede="What OnCo collects, where it lives and what leaves your device and where it goes, written from the code that runs the site. The site is open source, so every statement here can be checked against the file it describes."
         right={<Link href="/terms-of-use/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium hover:border-accent/50 hover:text-accent">Terms of use →</Link>}
       />
       <Container className="pb-16 prose-onco text-[15px] leading-relaxed max-w-3xl space-y-10">
@@ -83,10 +84,11 @@ export default function PrivacyPage() {
 
         <LegalSection {...S.summary}>
           <ul className="list-disc pl-5 space-y-1.5">
-            <li>The site is a set of <Term tip="Pages built once, in advance, and served as plain files. There is no database or programme of ours running when you read them.">static pages</Term> served by Vercel. OnCo runs no server and no database of its own.</li>
+            <li>The site is a set of <Term tip="Pages built once, in advance, and served as plain files. There is no programme of ours running when you read them.">static pages</Term> served by Vercel. OnCo runs no server of its own; its one database is a Supabase project that holds account data for signed-in readers, described below.</li>
             <li>Google Analytics counts visits and page views. It is the only analytics on the site.</li>
-            <li>If you sign in, WorkOS handles it and holds your email address and the name you give. Nothing else about you is held by OnCo or WorkOS.</li>
-            <li>Everything you choose on the site (who you are, your cancer, watched pages, saved views, appointment notes, theme, language, region) stays in your own browser and is never sent to us.</li>
+            <li>If you sign in, WorkOS handles it and holds your email address and the name you give.</li>
+            <li>Signed in, your role, cancer choice, country, data view, language, theme and the pages you watch are stored on your OnCo account in Supabase, keyed to your user id, so they follow you between devices. You can delete them from the account menu at any time.</li>
+            <li>Everything else you choose on the site (saved views, appointment notes, For me details such as stage, biomarkers and treatments) stays in your own browser and is never sent to us. Signed out, all of it stays in your browser.</li>
             <li>No advertising, no advertising trackers, no sale or sharing of personal data for marketing.</li>
           </ul>
         </LegalSection>
@@ -103,13 +105,14 @@ export default function PrivacyPage() {
 
         <LegalSection {...S.accounts}>
           <p>Signing in is optional. When it is switched on, sign-in is handled by <a href="https://workos.com" rel="noopener">WorkOS</a> AuthKit as our <Term tip="A company that handles personal data on our behalf and on our instructions, rather than for its own purposes.">processor</Term>. Your browser talks to <code>api.workos.com</code> directly, using a one-time code that never passes through any server of ours. WorkOS stores your email address, the name you give, the sign-in method you use and a record of your sessions. Your browser keeps the resulting session (tokens, your user id, email and name) in local storage under <code>onco:session:v1</code>; signing out removes it and tells WorkOS to end the session. See <a href="https://workos.com/privacy" rel="noopener">WorkOS&apos;s privacy policy</a>.</p>
-          <p>The code also contains an alternative sign-in and watchlist sync through <a href="https://supabase.com" rel="noopener">Supabase</a> (an emailed link plus a watchlist table). It is used only if OnCo configures its keys; in that case Supabase would hold your email address and the pages you watch, and this policy will say so before it is switched on.</p>
+          <p><strong>Your account data.</strong> Once you are signed in, OnCo stores your profile on your account in a database run by <a href="https://supabase.com" rel="noopener">Supabase</a> as our processor: your role, your optional cancer choice, your country, data view, language and theme, the time you agreed to the welcome step, and the kind and id of each page you pressed Watch on. Your browser writes these rows directly to Supabase, sending your WorkOS sign-in token with each request; Supabase checks the token&apos;s signature against WorkOS and a row rule lets each request read or change only the rows carrying that user id. Supabase therefore sees your WorkOS user id and the fields above, not your email address or name. A copy stays in your browser so the site works offline and never waits on the network; the account menu says <em>Synced</em> when the two agree and <em>Saved on this device only</em> when the last write failed. See <a href="https://supabase.com/privacy" rel="noopener">Supabase&apos;s privacy policy</a>.</p>
+          <p>The code also carries an older sign-in by emailed link through Supabase, used only when WorkOS is switched off; it is not in use.</p>
         </LegalSection>
 
         <LegalSection {...S["on-your-device"]}>
-          <p><strong>Who you are.</strong> After your first sign-in, the welcome step asks whether you are a patient, a caregiver, a researcher or a medical provider, and offers an optional cancer choice. Your answer, the cancer and the time you agreed are written to <Term tip="A small store inside your browser that a website can write to. Only that website, on that device, can read it; nothing in it is sent anywhere unless the site's code sends it, and OnCo's does not.">local storage</Term> under <code>onco:account-profile:v1:&lt;your user id&gt;</code>. They are keyed to your WorkOS user id so two people sharing a browser do not overwrite each other, and they are never sent to OnCo, to WorkOS or to anyone else. The cancer is also written to the browser profile (<code>onco:profile:v1</code>) that <Link href="/for-me/">For me</Link>, the cancer hubs and the header chip read.</p>
-          <p><strong>Saved items.</strong> Watched pages, saved table views and appointment preparation notes are browser-only as well. The <Link href="/saved/">Saved</Link> page checks for changes by fetching OnCo&apos;s own static data files for the pages on your list; the list itself is not sent.</p>
-          <p><strong>Clearing.</strong> Open the account menu and choose <em>Clear my choices</em> to forget your role, your cancer and your reading mode, or <em>Change who you are</em> to pick again. Your browser&apos;s site data controls remove everything in the table below.</p>
+          <p><strong>Who you are.</strong> After your first sign-in, the welcome step asks whether you are a patient, a caregiver, a researcher or a medical provider, and offers an optional cancer choice. Your answer, the cancer, the time you agreed and a copy of your country, data view, language and theme are written to <Term tip="A small store inside your browser that a website can write to. Only that website, on that device, can read it.">local storage</Term> under <code>onco:account-profile:v1:&lt;your user id&gt;</code> and then to your account&apos;s row in Supabase (previous section). They are keyed to your WorkOS user id so two people sharing a browser do not overwrite each other. When you sign in on another device the account&apos;s copy is pulled down and takes precedence over anything chosen there before. The cancer is also written to the browser profile (<code>onco:profile:v1</code>) that <Link href="/for-me/">For me</Link>, the cancer hubs and the header chip read; the rest of that profile (stage, biomarkers, treatments, postcode) stays in the browser only.</p>
+          <p><strong>Saved items.</strong> Signed in, the kind and id of each page you press Watch on go to your account in Supabase as well as to your browser, so the list follows you. Saved table views and appointment preparation notes are browser-only. The <Link href="/saved/">Saved</Link> page checks for changes by fetching OnCo&apos;s own static data files for the pages on your list.</p>
+          <p><strong>Clearing and deleting.</strong> Open the account menu and choose <em>Clear my choices</em> to forget your role, your cancer and your reading mode (the account row is emptied too), <em>Change who you are</em> to pick again, or <em>Delete my account data</em> to delete your rows from Supabase and every copy in this browser, watched pages included. Your browser&apos;s site data controls remove everything in the table below from the device, but not from the account.</p>
         </LegalSection>
 
         <LegalSection {...S.newsletter}>
@@ -134,11 +137,11 @@ export default function PrivacyPage() {
               </tbody>
             </table>
           </div>
-          <p>To clear any of it, use your browser&apos;s site data or cookie controls for onco.cc, or the <em>Clear my choices</em> button in the account menu for your role and cancer.</p>
+          <p>To clear any of it, use your browser&apos;s site data or cookie controls for onco.cc, or the <em>Clear my choices</em> button in the account menu for your role and cancer. <em>Delete my account data</em> in the same menu removes the account&apos;s copy in Supabase as well.</p>
         </LegalSection>
 
         <LegalSection {...S.health}>
-          <p>Any cancer type, stage, biomarker, treatment or role you choose on OnCo is sensitive information about health. It is kept only on your device, in the storage listed above, and is never sent to OnCo, WorkOS or Google. You can clear it at any time from the account menu.</p>
+          <p>Any cancer type, stage, biomarker, treatment or role you choose on OnCo is sensitive information about health. Stage, biomarkers, treatments and anything else you enter in For me are kept only on your device, in the storage listed above, and are never sent to OnCo, WorkOS, Supabase or Google. Your role, your cancer choice and the pages you watch are, once you sign in, also stored on your account in Supabase under your WorkOS user id, with your agreement given on the welcome step; that is the only health-related information that leaves your device, and <em>Delete my account data</em> in the account menu removes it. We do not share it with WorkOS or Google.</p>
           <p>Two limits are outside our control and worth knowing. First, the address of a page you read (for example a page about one cancer) is part of an ordinary page view, so it is visible to Vercel in its request log and to Google Analytics as a page view. Second, if you type a condition, a drug or a place into a tool that queries ClinicalTrials.gov, Europe PMC or OpenStreetMap, that query goes to that service from your browser (next section).</p>
         </LegalSection>
 
@@ -160,9 +163,9 @@ export default function PrivacyPage() {
 
         <LegalSection {...S.rights}>
           <p>Under the EU General Data Protection Regulation and the UK GDPR you can ask to see the personal data an organisation holds about you, have it corrected or deleted, restrict or object to its use, receive a copy in a common format (<Term tip="The right to get your data in a machine-readable form so you can take it to another service.">portability</Term>), and complain to your <Term tip="The public body that enforces data protection law where you live, for example the ICO in the United Kingdom.">supervisory authority</Term>. Under the California Consumer Privacy Act you can ask what is collected, have it deleted or corrected, opt out of sale or sharing (we do neither), and not be treated differently for asking.</p>
-          <p>Because almost everything is on your device, most of these you can do yourself:</p>
+          <p>Most of these you can do yourself:</p>
           <ul className="list-disc pl-5 space-y-1.5">
-            <li><strong>Your choices and saved items:</strong> use <em>Clear my choices</em> in the account menu, or clear the site&apos;s data in your browser.</li>
+            <li><strong>Your choices and saved items:</strong> use <em>Delete my account data</em> in the account menu to delete the account&apos;s rows in Supabase and the copies in this browser, <em>Clear my choices</em> to forget your role and cancer, or clear the site&apos;s data in your browser.</li>
             <li><strong>Your account:</strong> to see or delete what WorkOS holds, <a href="#contact">contact us</a> and we will have it removed.</li>
             <li><strong>Analytics:</strong> use the opt-out routes in the <a href="#analytics">analytics section</a>; Google&apos;s controls are at <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">myaccount.google.com</a>.</li>
             <li><strong>Anything else:</strong> open an issue at <a href={ISSUES_URL} rel="noopener">GitHub</a> or email <Placeholder>[contact email]</Placeholder>. We answer within the time the law allows, normally one month.</li>
@@ -174,7 +177,7 @@ export default function PrivacyPage() {
         </LegalSection>
 
         <LegalSection {...S.transfers}>
-          <p>Vercel, WorkOS and Google are companies based in the United States, so request logs, account records and analytics data may be processed there. Each publishes the legal safeguards it relies on for data moved out of the EU, the UK and other places with transfer rules; we cannot verify those arrangements for you here, so please see <a href="https://vercel.com/legal/privacy-policy" rel="noopener">Vercel&apos;s</a>, <a href="https://workos.com/privacy" rel="noopener">WorkOS&apos;s</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google&apos;s</a> policies for the current terms.</p>
+          <p>Vercel, WorkOS, Supabase and Google are companies based in the United States, so request logs, account records, account data and analytics data may be processed there. Each publishes the legal safeguards it relies on for data moved out of the EU, the UK and other places with transfer rules; we cannot verify those arrangements for you here, so please see <a href="https://vercel.com/legal/privacy-policy" rel="noopener">Vercel&apos;s</a>, <a href="https://workos.com/privacy" rel="noopener">WorkOS&apos;s</a>, <a href="https://supabase.com/privacy" rel="noopener">Supabase&apos;s</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google&apos;s</a> policies for the current terms.</p>
         </LegalSection>
 
         <LegalSection {...S.changes}>

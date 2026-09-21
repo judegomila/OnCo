@@ -52,7 +52,7 @@ describe("WelcomeStep", () => {
   it("states the consent sentence, covering preferences, and where Skip goes", () => {
     const html = render();
     expect(html).toContain(EN["account.welcome.consent"]);
-    expect(EN["account.welcome.consent"]).toBe("Your role, cancer choice and preferences (country, data view, language, theme) stay in this browser and are never sent to OnCo or anyone else. You can clear them at any time from your account menu.");
+    expect(EN["account.welcome.consent"]).toBe("Your role, cancer choice and preferences (country, data view, language, theme) are stored on your OnCo account so they follow you between devices, with Supabase as the processor and a copy in this browser. You can delete them at any time with Delete my account data in your account menu.");
     // Link drops the trailing slash here; the site's trailingSlash config restores it in the export.
     expect(html).toMatch(/<a[^>]*href="\/saved\/?"[^>]*>Skip for now<\/a>/);
     expect(html).toContain("Your cancer type (optional)");

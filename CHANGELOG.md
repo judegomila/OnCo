@@ -6,29 +6,22 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 21 September 2026
+- Community fixes: alphagenome model corrected, epithelioid sarcoma record completed with verified facts, RMC-9805 pancreatic pairing and ubamatamab mechanism corrected, plain-English outlook for ten cancers behind the survival disclosure, and 15 hidden FDA events restored
+- PR round 2: alphagenome weights gated, FDA regulatory events surfaced, epithelioid sarcoma withdrawal history
+- Issues 43, 45, 46, 47: prognosis outlook on ten cancer pages, ubamatamab as MUC16xCD3 bispecific with corrected citation, g12d-plus-pan-ras phase and links from the registry and company release
+- Roadmap rows 141 and 142: GDPR compliance for accounts and HIPAA readiness
+- chore: render this week's issue to public/newsletter/ (#52)
+- chore: refresh public/votes.json from Discussions reactions (#51)
+- chore: weekly fact check, audit, and provenance refresh (#50)
+- chore: refresh trial counts from ClinicalTrials.gov (#49)
+
+### 20 September 2026
+- Fix duplicate entry for 'alphagenome' in model registry
+
 ### 18 September 2026
+- Health data compliance analysis: HIPAA does not apply today, GDPR and state health-data laws do; stay browser-only and prepare encrypted sync
 - Top bar sign-in works even before the page script loads: it is now a link that upgrades to the direct WorkOS start
-- Seventy-four drug makers added and 210 drug-to-company links filled, so pipeline drugs now show who is developing them
-- Key papers for 147 subtype pages: 364 pivotal trial, classification and guideline papers, each checked against Europe PMC
-- Thirty-nine drugs named by the new subtype pages now have their own records, from hormone therapies for pituitary tumours to antibody-drug conjugates in trials
-- Fifty biomarker glossary terms named by the new subtype pages (molecular groups, risk scores, resistance mutations), each linked from the pages that use it
-- Registry trials linked to 109 subtype pages by driver and stage (1,018 links), with a re-runnable matcher script
-- Plain-English sentences for the 170 new subtype pages and trials, so every record carries one again
-- Seven duplicate trial records folded into their named trials with redirects; second Chinese quality pass corrects 64 TL;DRs from tonight's new pages, including one inverted meaning, and adopts NMPA drug names
-- Head and neck cancers by HPV status and site: HPV-positive and HPV-negative disease, recurrent or metastatic squamous cell carcinoma, hypopharyngeal cancer, three salivary gland histologies and three oral cavity subsites, tied to KEYNOTE-048, RTOG 1016, De-ESCALaTE, ECOG 3311, PATHOS and NIVOPOSTOP
-- Neuroendocrine neoplasms by site and grade: small intestinal, pancreatic and lung neuroendocrine tumours, grade 3 NET and extrapulmonary neuroendocrine carcinoma, tied to NETTER-1 and 2, CLARINET, PROMID, RADIANT and CABINET; NETTER-2 refiled under neuroendocrine cancer
-- Childhood cancers by type and risk: acute lymphoblastic leukaemia by risk group, Philadelphia status, infancy and relapse, paediatric AML, neuroblastoma by risk group, medulloblastoma by molecular group, and a page for adolescents and young adults
-- Sarcomas and bone tumours by type: chondrosarcoma, angiosarcoma, undifferentiated pleomorphic sarcoma, myxofibrosarcoma, alveolar soft part sarcoma, PEComa, epithelioid haemangioendothelioma, nerve sheath tumours, retroperitoneal and extremity soft tissue sarcoma, with STRASS, EORTC 62012, AMPECT and ANGIOTAX
-- Cancer pages by state for the common cancers: gynaecological cancers by molecular class and stage, skin cancers by state, lung cancer by driver and stage, breast cancer by state, 44 pages tied to their landmark trials and drugs; the My cancer chip leaves the header until accounts are on
-- Blood cancers by state: acute myeloid leukaemia by driver and fitness, acute promyelocytic leukaemia, myeloma from smouldering to relapsed, MDS by risk, CLL by line and Richter transformation, CML by phase and primary myelofibrosis, nineteen pages tied to 111 drugs and trials
-- Upper gastrointestinal and liver cancers by state: gastric cancer by HER2, CLDN18.2, PD-L1 and MSI status and early gastric cancer, hepatocellular carcinoma by BCLC stage, intrahepatic and extrahepatic cholangiocarcinoma, and GIST by mutation, each tied to its landmark trials and drugs
-- Colorectal cancer by state: rectal, MSI-high, BRAF V600E, HER2-amplified, KRAS G12C and early-onset pages with OPRA, PROSPECT, BEACON and other landmark trials; primary mediastinal B-cell lymphoma
-- Brain tumour subtypes: IDH-mutant astrocytoma, oligodendroglioma, meningioma, brain metastases, paediatric high-grade glioma, spinal cord tumours, vestibular schwannoma and CNS germ cell tumours, each linked from the drugs and trials that treat them
-- Plain-English sentences for every remaining record: 1,167 early-phase trials, 138 people, 65 companies, 8 institutions and 3 ideas, so all 11,306 records now carry one
-- Websites for 15 organisations and nine more logos, with archived addresses replaced by live sites; roadmap row 139 records the open dependency map hydration mismatch
-- 969 more plain-English sentences for early-phase trials, key papers and collections, taking the simple layer to 9,930 records; one non-cancer registry record removed
-- Orphan trials given content: ten drug matches, 17 sponsor aliases, 36 sponsor companies and 130 trials tied to their makers, two non-cancer records removed; backlinks round: 303 weakly linked records gain true relations from their own text; orphans down to 214
-- 1,024 more plain-English sentences: 279 companies, 104 institutions and 640 phase 3 trials, taking the simple layer to 8,961 records
 - Top bar button shortened to Sign in/up in every language, and cached pages refreshed so everyone sees the new header
 - After sign-in a welcome page asks who you are and which cancer, the top bar shows you are signed in, four community pull requests and four issue fixes land, and secret scanning guards every commit
 - Fix issues 42, 39, 37, 36: chip ellipsis and titles, daraxonrasib approval, clickable tooltips, urothelial basics
@@ -102,6 +95,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Fill institutions for 78 trial investigators and add 41 institution records
 - Five duplicate person pages merged into one each with redirects, and a duplicate finder for people added
 - Merge five duplicate person records and add a duplicate-person finder
+- Update weights and URLs for alphagenome model
 - A hundred and eleven trial leads and first authors get person pages, linked from the landmark trials and key papers they led, plus 160 more trial acronyms
 - A further 160 trial acronyms added as aliases to registry trial records
 - Add 111 trial investigators and lead authors named by the subtype trials and key papers

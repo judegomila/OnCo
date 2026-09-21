@@ -4,7 +4,9 @@
  *    browser-only PKCE flow, no server and no client library. Every user is recorded in WorkOS User Management.
  *  - Supabase (NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY): magic link by email plus a watchlist table.
  * With neither set, everything here is off. The session lives in localStorage; only the email address (and, with
- * WorkOS, the name the user gave) is stored. See docs/LAUNCH.md for the dashboard steps.
+ * WorkOS, the name the user gave) is stored here. With WorkOS and both Supabase keys set, the signed-in profile and
+ * watched pages are also kept in Supabase tables under the WorkOS token (src/lib/cloud-profile.ts, supabase/README.md).
+ * See docs/LAUNCH.md for the dashboard steps.
  */
 import { loadWatchlist, replaceWatchlist, type WatchItem } from "@/lib/watchlist";
 
@@ -158,6 +160,15 @@ export async function currentSession(): Promise<Session | null> {
   const s = loadSession();
   if (!s) return null;
   if (s.expires_at - Date.now() > 5 * 60 * 1000) return s;
+  return refreshSession(s);
+}
+
+/**
+ * Exchange the refresh token for a new session whatever the expiry says (the cloud profile code calls this once
+ * when Supabase answers 401). Stores the result; a failed refresh signs the reader out and returns null.
+ */
+export async function refreshSession(s: Session | null = loadSession()): Promise<Session | null> {
+  if (!s) return null;
   if (provider === "workos") {
     const next = await workosExchange({ grant_type: "refresh_token", refresh_token: s.refresh_token });
     if (!next) { saveSession(null); return null; }

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { accountEnabled, captureSession, loadSession, onAccountChange, provider, sendMagicLink, signInPending, signOut, startSignIn, takeReturnPath, type Session } from "@/lib/account";
 import { afterSignInPath, welcomeHref } from "@/lib/after-sign-in";
+import { pullCloud } from "@/lib/cloud-sync";
 import { useT } from "@/lib/i18n/ui";
 import { getAccountProfile, useAccountProfile } from "@/lib/profile";
 import { RoleIcon } from "./WelcomeStep";
@@ -36,18 +37,21 @@ export function SignupForm() {
     let alive = true;
     // A `?code=` in the address bar means WorkOS has just returned: show "Signing you in" rather than the sign-in card while the code is exchanged.
     const raf = requestAnimationFrame(() => { if (alive && signInPending()) setCompleting(true); });
-    const arrive = (s: Session | null) => {
+    const arrive = async (s: Session | null) => {
       if (!alive) return;
       setSession(s);
       if (!s) { setCompleting(false); return; }
       const returned = takeReturnPath();
       if (returned === null) { setCompleting(false); return; }
-      // A sign-in has just completed: decide once, before any newsletter box, and leave this page.
+      // A sign-in has just completed: pull the account's cloud profile (so a role chosen on another device counts),
+      // decide once, before any newsletter box, and leave this page.
       setCompleting(true);
+      await pullCloud(s);
+      if (!alive) return;
       router.replace(afterSignInPath({ hasRole: !!getAccountProfile(s.user.id).role, back: returned }));
     };
-    captureSession().then((s) => arrive(s ?? loadSession()));
-    const off = onAccountChange(arrive);
+    captureSession().then((s) => { void arrive(s ?? loadSession()); });
+    const off = onAccountChange((s) => { void arrive(s); });
     return () => { alive = false; cancelAnimationFrame(raf); off(); };
   }, [router]);
   const configured = accountEnabled || !!ACTION;

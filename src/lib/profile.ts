@@ -114,8 +114,9 @@ export const ROLE_MODE: Record<AccountRole, ProfileMode> = { patient: "patient",
  * sharing a browser do not overwrite each other. `cancer` mirrors the cancer id also written to the browser profile
  * above (the preference For me and the hubs read). The four preferences mirror the header toggles' own stores
  * (region `onco:region`, view and language `onco.layer`, theme `onco:theme`) so a signed-in reader's choices are
- * kept with their account entry and put back when they sign in (src/lib/preferences.ts). Nothing here is sent to
- * any server; WorkOS only ever sees the email address and name.
+ * kept with their account entry and put back when they sign in (src/lib/preferences.ts). This entry is the local
+ * cache of the account's row in Supabase (src/lib/cloud-profile.ts, src/lib/cloud-sync.ts): the browser is written
+ * first, the cloud follows in the background. WorkOS only ever sees the email address and name.
  */
 export type AccountProfile = {
   role?: AccountRole;

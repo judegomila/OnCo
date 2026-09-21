@@ -47,9 +47,10 @@ const pillClass = (on: boolean) => `${PILL} ${on ? "border-accent bg-accent-soft
  * The welcome step, the whole content of /welcome/ (src/components/WelcomePage.tsx mounts it once the session
  * is known). Four role pills, an optional cancer chooser that writes the same browser preference For me and the
  * hubs read, two optional preference rows (country, data view) prefilled from the header toggles' stores, a consent
- * sentence, Continue and a quiet Skip. Everything stays in this browser: the role and a copy of the preferences go
- * to the per-user account profile, the cancer to the browser profile, nothing to a server. The chooser's list (id,
- * name, route, hub group) is fetched from /api/v1/my-cancers.json when this step mounts.
+ * sentence, Continue and a quiet Skip. The role and a copy of the preferences go to the per-user account profile
+ * (written here, then pushed to the account's Supabase row by src/lib/cloud-sync.ts when the cloud is configured),
+ * the cancer to the browser profile. The chooser's list (id, name, route, hub group) is fetched from
+ * /api/v1/my-cancers.json when this step mounts.
  *
  * Without a `userId` (signed out, or the session not yet read) the step shows a short note and the sign-in control
  * in place of Continue; the pills still work because the cancer, country and view are browser preferences.

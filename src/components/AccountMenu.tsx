@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { accountEnabled, captureSession, displayName, loadSession, onAccountChange, provider, pushWatchlist, sendMagicLink, signOut, startSignIn, syncWatchlist, type Session } from "@/lib/account";
 import { welcomeHref } from "@/lib/after-sign-in";
+import { deleteAccountData, useCloudSync } from "@/lib/cloud-sync";
 import { useT, type UiKey } from "@/lib/i18n/ui";
 import { clearAccountProfile, useAccountProfile, useProfile, type AccountRole } from "@/lib/profile";
 import { pickMyCancer, shortCancerName } from "@/lib/use-my-cancer";
@@ -25,7 +26,9 @@ import { THEME_ICON } from "./ThemeToggle";
  * and a green dot, the person's first name and, once a role is stored, the role as a quiet chip ("Jude · Patient");
  * below sm only the circle and dot remain. It opens a small menu: who you are (role chip and cancer), the four
  * preferences as chips that press the matching header toggle, "Change who you are" (/welcome/), "Clear my
- * choices" and "Sign out". Everything shown here is browser-only. The remembered cancer is named by resolving its
+ * choices", "Delete my account data" and "Sign out", plus a quiet status line: "Synced" when the cloud copy of the
+ * profile (src/lib/cloud-sync.ts, Supabase under the WorkOS token) is up to date, "Saved on this device only" when
+ * the last write failed, nothing when the cloud is not configured. The remembered cancer is named by resolving its
  * id against the list useMyCancerList fetches once a cancer is set (nothing is fetched otherwise).
  */
 const SIGNUP_ACTION = process.env.NEXT_PUBLIC_SIGNUP_ACTION ?? "";
@@ -44,6 +47,12 @@ function EraseGlyph({ className = "h-4 w-4" }: { className?: string }) {
 }
 function ExitGlyph({ className = "h-4 w-4" }: { className?: string }) {
   return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M10 4H5v16h5" /><path d="M14 8l4 4-4 4" /><path d="M9 12h9" /></svg>;
+}
+function CloudGlyph({ className = "h-3 w-3" }: { className?: string }) {
+  return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M7 18a4 4 0 0 1-.6-7.95A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9H7Z" /></svg>;
+}
+function DeviceGlyph({ className = "h-3 w-3" }: { className?: string }) {
+  return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden><rect x="4" y="3" width="16" height="18" rx="2" /><path d="M10 18h4" /></svg>;
 }
 function GlobeGlyph({ className = "h-3 w-3" }: { className?: string }) {
   return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9c-2.6-2.6-3.9-5.6-3.9-9S9.4 5.6 12 3Z" /></svg>;
@@ -123,9 +132,22 @@ function PreferenceChips({ onPress }: { onPress?: () => void }) {
   );
 }
 
+/** The quiet cloud status line: "Synced" or "Saved on this device only"; nothing while the cloud is off or has not answered yet. */
+function SyncNote({ className = "" }: { className?: string }) {
+  const { t } = useT();
+  const cloud = useCloudSync();
+  if (cloud !== "synced" && cloud !== "local") return null;
+  return (
+    <span role="status" data-testid="cloud-sync" data-state={cloud} className={`inline-flex items-center gap-1 text-xs text-muted ${className}`}>
+      {cloud === "synced" ? <CloudGlyph className="h-3 w-3 text-accent" /> : <DeviceGlyph />}{cloud === "synced" ? t("account.cloud.synced") : t("account.cloud.local")}
+    </span>
+  );
+}
+
 export function AccountMenu({ inline = false, className = "" }: { inline?: boolean; className?: string }) {
   const { t } = useT();
   const [session, setSession] = useState<Session | null>(null);
+  const [deleted, setDeleted] = useState<"idle" | "busy" | "done" | "failed">("idle");
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState(false);
   const [email, setEmail] = useState("");
@@ -175,12 +197,20 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
     setState("sending");
     setState((await sendMagicLink(email.trim())) ? "sent" : "error");
   };
-  /** Forget the role and preferences (per-user store) and the remembered cancer and reading mode (browser profile). Nothing to undo server-side: none of it left the browser. */
+  /** Forget the role and preferences (per-user store) and the remembered cancer and reading mode (browser profile). The emptied profile is pushed to the cloud by the sync listener, so the account row is cleared as well. */
   const clearChoices = () => {
     if (session) clearAccountProfile(session.user.id);
     updateProfile({ cancerId: undefined, mode: "patient" });
     setMenu(false);
   };
+  /** Delete the account's cloud rows (profile and saved items) and then every local copy; the sign-in itself stays with WorkOS. */
+  const deleteData = async () => {
+    if (!session || deleted === "busy") return;
+    if (!window.confirm(t("account.cloud.deleteConfirm"))) return;
+    setDeleted("busy");
+    setDeleted((await deleteAccountData(session)) ? "done" : "failed");
+  };
+  const deletedNote = deleted === "done" ? <p role="status" className="text-xs text-muted">{t("account.cloud.deleted")}</p> : deleted === "failed" ? <p role="status" className="text-xs text-muted">{t("account.cloud.deleteFailed")}</p> : null;
 
   const dialogEl = (
     <dialog ref={dialog} onClose={() => setOpen(false)} className="backdrop:bg-black/50 bg-card text-foreground rounded-xl border border-border p-0 w-[min(94vw,26rem)]">
@@ -220,7 +250,7 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
         {session ? (
           <div className="space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
-              <span><span className="text-accent" aria-hidden>●</span> {t("account.synced")}{synced !== null ? ` · ${synced}` : ""} <span className="text-muted">· {session.user.email}</span></span>
+              <span className="inline-flex flex-wrap items-center gap-2">{provider === "workos" ? <SyncNote /> : <span><span className="text-accent" aria-hidden>●</span> {t("account.synced")}{synced !== null ? ` · ${synced}` : ""}</span>} <span className="text-muted">· {session.user.email}</span></span>
               <button type="button" onClick={() => signOut()} className="chip border border-border bg-card hover:bg-foreground/5"><ExitGlyph className="h-3 w-3" />{t("account.signOut")}</button>
             </div>
             <div className="flex flex-wrap items-center gap-1.5">
@@ -228,7 +258,9 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
               <PreferenceChips />
               <Link href={changeHref()} className="chip border border-border bg-card hover:bg-foreground/5" title={t("account.welcome.change")}><SwapGlyph className="h-3 w-3" />{t("account.welcome.change")}</Link>
               <button type="button" onClick={clearChoices} className="chip border border-border bg-card hover:bg-foreground/5 text-muted" title={t("account.welcome.clearHint")}><EraseGlyph className="h-3 w-3" />{t("account.welcome.clear")}</button>
+              <button type="button" onClick={deleteData} disabled={deleted === "busy"} className="chip border border-border bg-card hover:bg-foreground/5 text-muted disabled:opacity-50" title={t("account.cloud.deleteHint")}><EraseGlyph className="h-3 w-3" />{t("account.cloud.delete")}</button>
             </div>
+            {deletedNote}
           </div>
         ) : (
           <div className="flex flex-wrap items-center justify-between gap-2">
@@ -255,9 +287,12 @@ export function AccountMenu({ inline = false, className = "" }: { inline?: boole
               </div>
               <ProfileChips session={session} />
               <PreferenceChips onPress={() => setMenu(false)} />
+              <SyncNote />
+              {deletedNote}
               <div className="flex flex-col border-t border-border pt-2">
                 <Link role="menuitem" href={changeHref()} onClick={() => setMenu(false)} className={item} title={t("account.welcome.change")}><SwapGlyph className="h-4 w-4 text-muted" />{t("account.welcome.change")}</Link>
                 <button role="menuitem" type="button" onClick={clearChoices} className={item} title={t("account.welcome.clearHint")}><EraseGlyph className="h-4 w-4 text-muted" />{t("account.welcome.clear")}</button>
+                <button role="menuitem" type="button" onClick={deleteData} disabled={deleted === "busy"} className={`${item} disabled:opacity-50`} title={t("account.cloud.deleteHint")}><EraseGlyph className="h-4 w-4 text-muted" />{t("account.cloud.delete")}</button>
                 <button role="menuitem" type="button" onClick={() => { setMenu(false); signOut(); }} className={item} title={t("account.signOut")}><ExitGlyph className="h-4 w-4 text-muted" />{t("account.signOut")}</button>
               </div>
             </div>

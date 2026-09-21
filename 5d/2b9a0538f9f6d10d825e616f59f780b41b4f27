@@ -1,0 +1,21 @@
+src/components/SiteChrome.test.ts
+  s_0beac9cb5d78fd::t_1d45823be309a6 44
+src/components/AccountMenu.tsx
+  s_0beac9cb5d78fd::t_1d45823be309a6 16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5d2b9a0538f9f6d10d825e616f59f780b41b4f27",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

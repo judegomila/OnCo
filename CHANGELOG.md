@@ -7,6 +7,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 21 September 2026
+- Visit counting now asks first: Google Analytics loads only after you allow it, the browser's privacy signal is honoured, and the choice can be changed in the footer
+- Roadmap row 141 marked done for onco.cc
+- Google Analytics now loads only after the visitor presses Allow: a consent bar at the foot of the viewport, the choice kept in the browser, Global Privacy Control read as No thanks, an Analytics choice control in the footer and on /privacy/, strings in nine languages
 - GitHub star count is baked in at build time, so the top-bar badge is full from the first paint and never flickers
 - Launch doc: two dated account notes marked as removed
 - Launch doc: old account instructions cut to one-line history notes pointing at me.onco.cc

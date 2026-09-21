@@ -7,7 +7,10 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 21 September 2026
+- Your role, cancer choice and preferences now save to your OnCo account so they follow you across devices, and the outlook block is held back pending a wording review
+- Merge cloud profile sync; outlook block held pending wording review
 - Community fixes: alphagenome model corrected, epithelioid sarcoma record completed with verified facts, RMC-9805 pancreatic pairing and ubamatamab mechanism corrected, plain-English outlook for ten cancers behind the survival disclosure, and 15 hidden FDA events restored
+- Cloud profiles stage one: Supabase tables under the WorkOS token, sync, delete, privacy text
 - PR round 2: alphagenome weights gated, FDA regulatory events surfaced, epithelioid sarcoma withdrawal history
 - Issues 43, 45, 46, 47: prognosis outlook on ten cancer pages, ubamatamab as MUC16xCD3 bispecific with corrected citation, g12d-plus-pan-ras phase and links from the registry and company release
 - Roadmap rows 141 and 142: GDPR compliance for accounts and HIPAA readiness

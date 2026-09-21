@@ -160,6 +160,16 @@ export const EN = {
   "offer.switch": "OnCo is also available in {language}.",
   "offer.switchButton": "Switch to {language}",
 
+  // ---- analytics consent (bar at the foot of the viewport, footer control, /privacy/ panel) ----
+  "consent.text": "OnCo uses Google Analytics to count visits. No advertising, nothing sold.",
+  "consent.allow": "Allow",
+  "consent.decline": "No thanks",
+  "consent.choice": "Analytics choice",
+  "consent.state.granted": "allowed",
+  "consent.state.denied": "off",
+  "consent.state.unset": "not chosen",
+  "consent.gpc": "Your browser sent a Global Privacy Control signal, so analytics stay off unless you allow them here.",
+
   // ---- footer ----
   "footer.about": "A public, cited, editable map of oncology: technologies, targets, products, companies, institutions, pathways, trials, pairings, roadmaps, and ideas. One page per object, with a plain-language TL;DR on every page.",
   "footer.wip": "Work in progress.",

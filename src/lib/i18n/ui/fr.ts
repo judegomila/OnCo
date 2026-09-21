@@ -129,6 +129,15 @@ export const fr: UiDict = {
   "offer.switch": "OnCo existe aussi en {language}.",
   "offer.switchButton": "Lire en {language}",
 
+  "consent.text": "OnCo utilise Google Analytics pour compter les visites. Pas de publicité, rien n'est vendu.",
+  "consent.allow": "Autoriser",
+  "consent.decline": "Non merci",
+  "consent.choice": "Choix pour les statistiques",
+  "consent.state.granted": "autorisées",
+  "consent.state.denied": "désactivées",
+  "consent.state.unset": "pas encore choisi",
+  "consent.gpc": "Votre navigateur a envoyé un signal Global Privacy Control : les statistiques restent désactivées sauf si vous les autorisez ici.",
+
   "footer.about": "Une carte publique, sourcée et modifiable de l'oncologie : technologies, cibles, produits, entreprises, institutions, voies, essais, associations, feuilles de route et idées. Une page par objet, avec un TL;DR en langage clair sur chacune.",
   "footer.wip": "Travail en cours.",
   "footer.disclaimer": "Chaque fait de ce site est construit et vérifié au grand jour et peut être incomplet, dépassé ou faux. Vous devez faire vos propres recherches et vérifier toute information à sa source primaire avant de vous y fier. Rien sur ce site n'est un avis médical ; les décisions vous appartiennent, à vous et à vos médecins.",

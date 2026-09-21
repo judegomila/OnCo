@@ -10,6 +10,7 @@ import { GitHubStars } from "./GitHubStars";
 import { AccountMenu } from "./AccountMenu";
 import { GardenBackdrop } from "./Garden";
 import { FooterNav } from "./FooterNav";
+import { AnalyticsChoice } from "./AnalyticsConsent";
 import { T } from "./T";
 
 /**
@@ -85,6 +86,7 @@ export function SiteFooter() {
             <Link href="/api/" className="hover:text-foreground hover:underline"><T k="footer.api" /></Link>
             <Link href="/terms-of-use/" className="hover:text-foreground hover:underline"><T k="footer.terms" /></Link>
             <Link href="/privacy/" className="hover:text-foreground hover:underline"><T k="footer.privacy" /></Link>
+            <AnalyticsChoice variant="footer" />
             <a href="https://github.com/judegomila/OnCo" rel="noopener" className="hover:text-foreground hover:underline">GitHub</a>
           </p>
         </div>

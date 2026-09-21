@@ -7,6 +7,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 21 September 2026
+- GitHub star count is baked in at build time, so the top-bar badge is full from the first paint and never flickers
+- Launch doc: two dated account notes marked as removed
+- Launch doc: old account instructions cut to one-line history notes pointing at me.onco.cc
 - Sign in/up opens in the same tab: links to me.onco.cc are treated as part of the site rather than external
 - Sign in/up in the top bar now opens the WorkOS sign-in directly, with no stop on a landing page
 - Sign in/up on onco.cc now hands you to me.onco.cc, the signed-in side; onco.cc itself keeps no account data, in the browser or the cloud

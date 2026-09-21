@@ -4,10 +4,13 @@ import { pageMeta } from "@/lib/seo";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { WebPageJsonLd } from "@/components/JsonLd";
 import { buildDate, ISSUES_URL, LegalMeta, LegalSection, LegalToc, Placeholder, REPO_URL, Term, type LegalSectionDef } from "@/components/LegalPage";
+import { AnalyticsChoice } from "@/components/AnalyticsConsent";
 
 /**
  * Privacy policy, written from the code. Sources for each claim:
- *  - hosting and analytics: src/app/layout.tsx (static export on Vercel; gtag.js with G-2TTJ25WSN8, plain config call)
+ *  - hosting: src/app/layout.tsx (static export on Vercel)
+ *  - analytics: src/lib/analytics-consent.ts and src/components/AnalyticsConsent.tsx (gtag.js with G-2TTJ25WSN8, plain
+ *    config call, inserted only after Allow; Global Privacy Control read as No thanks)
  *  - accounts: none on this site; the header's Sign in/up is a link to the separate signed-in site me.onco.cc
  *    (src/components/AccountMenu.tsx), which has its own privacy notice
  *  - the browser-only choices: src/lib/profile.ts, src/lib/use-my-cancer.ts
@@ -18,7 +21,7 @@ import { buildDate, ISSUES_URL, LegalMeta, LegalSection, LegalToc, Placeholder, 
  *  - other hosts the browser contacts: ctgov.ts, ctgov-geo.ts, europepmc.ts, GitHubStars.tsx, WorldMap.tsx
  */
 const TITLE = "Privacy policy";
-const DESCRIPTION = "What OnCo collects and where it lives, from the code: static pages on Vercel, Google Analytics visit counts, and every choice you make kept in your own browser. onco.cc holds no account data; accounts live on the separate signed-in site me.onco.cc under its own privacy notice. No advertising, no sale of data.";
+const DESCRIPTION = "What OnCo collects and where it lives, from the code: static pages on Vercel, Google Analytics visit counts only after you allow them, and every choice you make kept in your own browser. onco.cc holds no account data; accounts live on the separate signed-in site me.onco.cc under its own privacy notice. No advertising, no sale of data.";
 export const metadata: Metadata = pageMeta({ title: TITLE, description: DESCRIPTION, path: "/privacy/" });
 
 const GA_ID = "G-2TTJ25WSN8";
@@ -47,7 +50,8 @@ const S = Object.fromEntries(SECTIONS.map((s, i) => [s.id, { def: s, index: i + 
 
 /** Every key the site writes to the browser, from the KEY constants in the code, with the plain meaning of each. */
 const STORAGE: ReadonlyArray<{ name: string; where: string; holds: string }> = [
-  { name: "_ga, _ga_*", where: "Cookie (set by Google)", holds: "Google Analytics visitor and session identifiers, so repeat visits can be told apart." },
+  { name: "_ga, _ga_*", where: "Cookie (set by Google, only after you press Allow)", holds: "Google Analytics visitor and session identifiers, so repeat visits can be told apart. Not set while your analytics choice is No thanks or unmade." },
+  { name: "onco:analytics", where: "Local storage", holds: "Your analytics choice: granted or denied. Absent until you choose." },
   { name: "onco:theme", where: "Local storage", holds: "Light, dark, high-contrast or system theme." },
   { name: "onco.layer", where: "Local storage", holds: "Reading level (technical, plain, simple) and site language." },
   { name: "onco:region", where: "Local storage", holds: "The region you chose for approvals and access." },
@@ -84,7 +88,7 @@ export default function PrivacyPage() {
         <LegalSection {...S.summary}>
           <ul className="list-disc pl-5 space-y-1.5">
             <li>The site is a set of <Term tip="Pages built once, in advance, and served as plain files. There is no programme of ours running when you read them.">static pages</Term> served by Vercel. OnCo runs no server and no database for onco.cc.</li>
-            <li>Google Analytics counts visits and page views. It is the only analytics on the site.</li>
+            <li>Google Analytics counts visits and page views, but only after you press <em>Allow</em> on the bar at the foot of the page. Until then, and if you choose <em>No thanks</em>, it is not loaded at all. It is the only analytics on the site.</li>
             <li>onco.cc has no accounts and holds no account data. <em>Sign in/up</em> in the header takes you to the separate signed-in site, <a href={ME} rel="noopener">me.onco.cc</a>, which has its own <a href={`${ME}privacy/`} rel="noopener">privacy notice</a>.</li>
             <li>Everything you choose on this site (your cancer, For me details such as stage, biomarkers and treatments, watched pages, saved views, appointment notes) stays in your own browser and is never sent to us.</li>
             <li>No advertising, no advertising trackers, no sale or sharing of personal data for marketing.</li>
@@ -96,9 +100,12 @@ export default function PrivacyPage() {
         </LegalSection>
 
         <LegalSection {...S.analytics}>
-          <p>Every page loads <a href="https://marketingplatform.google.com/about/analytics/" rel="noopener">Google Analytics</a> (gtag.js, property <code>{GA_ID}</code>) once the page is interactive. We use it for one thing: to see which pages are read and how often, so we know what to build next.</p>
-          <p>What the code does, exactly: it is the standard Google loader followed by a plain <code>gtag(&apos;config&apos;)</code> call. No advertising features are switched on, no extra parameters are passed (the snippet sets no IP anonymisation option; how Google Analytics 4 handles IP addresses is described in <a href="https://support.google.com/analytics/answer/12017362" rel="noopener">Google&apos;s documentation</a>), and there is no consent banner or gate: the script runs for every visitor. Through it Google receives the pages you view, the time, the page you came from, your device, browser and language, and a rough location derived from your IP address, and it sets the <code>_ga</code> cookies listed below so that repeat visits can be told apart.</p>
-          <p>To opt out, block <code>googletagmanager.com</code> with a content or tracker blocker, use your browser&apos;s tracking protection, or install Google&apos;s own <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">opt-out add-on</a>. How Google uses data from sites that use its services is at <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>, and Google&apos;s privacy policy is at <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</p>
+          <p>The site can use <a href="https://marketingplatform.google.com/about/analytics/" rel="noopener">Google Analytics</a> (gtag.js, property <code>{GA_ID}</code>) for one thing: to see which pages are read and how often, so we know what to build next. It is gated behind your choice. The pages we publish contain no Google script at all; the first time you visit, a small bar at the foot of the page asks whether to count your visit, with two answers, <em>Allow</em> and <em>No thanks</em>. Until you answer, nothing is loaded and no cookie is set.</p>
+          <p>If you press <em>Allow</em>, the browser writes <code>onco:analytics</code> = <code>granted</code> to local storage and inserts the standard Google loader followed by a plain <code>gtag(&apos;config&apos;)</code> call, then and on every later visit while that choice stands. No advertising features are switched on and no extra parameters are passed (the snippet sets no IP anonymisation option; how Google Analytics 4 handles IP addresses is described in <a href="https://support.google.com/analytics/answer/12017362" rel="noopener">Google&apos;s documentation</a>). Through it Google receives the pages you view, the time, the page you came from, your device, browser and language, and a rough location derived from your IP address, and it sets the <code>_ga</code> cookies listed below so that repeat visits can be told apart.</p>
+          <p>If you press <em>No thanks</em>, the browser writes <code>denied</code>, the loader is never inserted and no cookie is set. If your browser sends the <a href="https://globalprivacycontrol.org" rel="noopener">Global Privacy Control</a> signal, we read it as <em>No thanks</em> and do not show the bar at all; a choice you make on the site afterwards takes precedence. Changing from <em>Allow</em> to <em>No thanks</em> stops further measurement on the spot (Google&apos;s <code>ga-disable</code> flag) and expires the <code>_ga</code> cookies the page can reach.</p>
+          <p>You can change your choice at any time here, or with the <em>Analytics choice</em> link in the footer of every page, which brings the bar back:</p>
+          <AnalyticsChoice variant="panel" />
+          <p>Beyond that, you can block <code>googletagmanager.com</code> with a content or tracker blocker, use your browser&apos;s tracking protection, or install Google&apos;s own <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">opt-out add-on</a>. How Google uses data from sites that use its services is at <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>, and Google&apos;s privacy policy is at <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</p>
         </LegalSection>
 
         <LegalSection {...S.accounts}>
@@ -117,7 +124,7 @@ export default function PrivacyPage() {
         </LegalSection>
 
         <LegalSection {...S.storage}>
-          <p>OnCo&apos;s own code sets no <Term tip="A small piece of text a website asks your browser to keep and send back on later visits.">cookies</Term>; the only cookies come from Google Analytics. Everything else is local storage, <Term tip="Like local storage, but emptied when the tab or window closes.">session storage</Term> or the <Term tip="A script your browser runs in the background for this site that keeps copies of pages so they open offline and load faster.">service worker</Term> cache, all of it on your device.</p>
+          <p>OnCo&apos;s own code sets no <Term tip="A small piece of text a website asks your browser to keep and send back on later visits.">cookies</Term>; the only cookies come from Google Analytics, and only once you have pressed <em>Allow</em>. Everything else is local storage, <Term tip="Like local storage, but emptied when the tab or window closes.">session storage</Term> or the <Term tip="A script your browser runs in the background for this site that keeps copies of pages so they open offline and load faster.">service worker</Term> cache, all of it on your device.</p>
           <div className="not-prose overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead className="bg-card text-start">
@@ -139,7 +146,7 @@ export default function PrivacyPage() {
 
         <LegalSection {...S.health}>
           <p>Any cancer type, stage, biomarker, treatment or reading mode you choose on OnCo is sensitive information about health. All of it is kept only on your device, in the storage listed above, and is never sent to OnCo or to Google. No health information leaves your device through onco.cc. Anything you choose to store on an account at <a href={ME} rel="noopener">me.onco.cc</a> is governed by that site&apos;s privacy notice.</p>
-          <p>Two limits are outside our control and worth knowing. First, the address of a page you read (for example a page about one cancer) is part of an ordinary page view, so it is visible to Vercel in its request log and to Google Analytics as a page view. Second, if you type a condition, a drug or a place into a tool that queries ClinicalTrials.gov, Europe PMC or OpenStreetMap, that query goes to that service from your browser (next section).</p>
+          <p>Two limits are outside our control and worth knowing. First, the address of a page you read (for example a page about one cancer) is part of an ordinary page view, so it is visible to Vercel in its request log and, if you have allowed analytics, to Google Analytics as a page view. Second, if you type a condition, a drug or a place into a tool that queries ClinicalTrials.gov, Europe PMC or OpenStreetMap, that query goes to that service from your browser (next section).</p>
         </LegalSection>
 
         <LegalSection {...S["third-parties"]}>
@@ -164,7 +171,7 @@ export default function PrivacyPage() {
           <ul className="list-disc pl-5 space-y-1.5">
             <li><strong>Your choices and saved items:</strong> they are only in your browser, so clearing the site&apos;s data there, or using the controls on <Link href="/for-me/">For me</Link> and <Link href="/saved/">Saved</Link>, deletes them completely; we hold no copy to delete or hand over.</li>
             <li><strong>Your account:</strong> onco.cc has none. For an account on <a href={ME} rel="noopener">me.onco.cc</a>, use that site&apos;s controls and the routes in its <a href={`${ME}privacy/`} rel="noopener">privacy notice</a>.</li>
-            <li><strong>Analytics:</strong> use the opt-out routes in the <a href="#analytics">analytics section</a>; Google&apos;s controls are at <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">myaccount.google.com</a>.</li>
+            <li><strong>Analytics:</strong> change your choice with the control in the <a href="#analytics">analytics section</a> or the <em>Analytics choice</em> link in the footer; Google&apos;s controls are at <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">myaccount.google.com</a>.</li>
             <li><strong>Anything else:</strong> open an issue at <a href={ISSUES_URL} rel="noopener">GitHub</a> or email <Placeholder>[contact email]</Placeholder>. We answer within the time the law allows, normally one month.</li>
           </ul>
         </LegalSection>

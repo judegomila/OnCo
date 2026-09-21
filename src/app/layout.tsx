@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { ExternalLinks } from "@/components/ExternalLinks";
-import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { CommandPalette } from "@/components/CommandPalette";
@@ -18,6 +17,7 @@ import { FEED_TYPES } from "@/lib/seo";
 import { GardenDefs } from "@/components/Garden";
 import { MotionGovernor } from "@/components/MotionGovernor";
 import { ChipTitles } from "@/components/ChipTitles";
+import { AnalyticsConsentBar } from "@/components/AnalyticsConsent";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -59,9 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-full flex flex-col">
         <RegionProvider>
         <ThemeScript />
-        {/* Google Analytics (gtag.js): visit counts only; the id is the owner's property. Disclosed on /about/. */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-2TTJ25WSN8" strategy="afterInteractive" />
-        <Script id="ga-init" strategy="afterInteractive">{`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-2TTJ25WSN8');`}</Script>
+        {/* Google Analytics (gtag.js, visit counts only) is not in this HTML: AnalyticsConsentBar inserts it after the visitor presses Allow (src/lib/analytics-consent.ts). Disclosed on /privacy/. */}
         <LayerScript />
         <GardenDefs />
         <SkipLink />
@@ -76,6 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Record pages stamp data-onco-id / data-onco-kind on this element for agents (MachineLinks); the hydration warning is for those attributes. */}
         <main id="main" className="flex-1" suppressHydrationWarning><TranslateOffer />{children}<SectionSiblings /></main>
         <SiteFooter />
+        <AnalyticsConsentBar />
               </RegionProvider>
       </body>
     </html>

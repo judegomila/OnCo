@@ -129,6 +129,15 @@ export const ja: UiDict = {
   "offer.switch": "OnCo は{language}でも読めます。",
   "offer.switchButton": "{language}に切り替える",
 
+  "consent.text": "OnCo は訪問数を数えるために Google Analytics を使っています。広告はなく、何も売りません。",
+  "consent.allow": "許可する",
+  "consent.decline": "許可しない",
+  "consent.choice": "アナリティクスの選択",
+  "consent.state.granted": "許可済み",
+  "consent.state.denied": "オフ",
+  "consent.state.unset": "未選択",
+  "consent.gpc": "ブラウザが Global Privacy Control 信号を送っているため、ここで許可しない限りアナリティクスはオフのままです。",
+
   "footer.about": "公開・出典付き・編集可能な腫瘍学の地図。技術、標的、製品、企業、機関、経路、試験、組み合わせ、ロードマップ、アイデアを、対象ごとに 1 ページで、やさしい言葉の TL;DR 付きでまとめています。",
   "footer.wip": "制作中です。",
   "footer.disclaimer": "本サイトの情報はすべて公開の場で作成・検証中であり、不完全、古い、または誤っている可能性があります。ご利用の前に必ずご自身で調べ、一次資料で確認してください。本サイトの内容は医療上の助言ではありません。判断はご本人と担当医の間で行ってください。",

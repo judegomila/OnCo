@@ -129,6 +129,15 @@ export const zh: UiDict = {
   "offer.switch": "OnCo 也提供{language}版本。",
   "offer.switchButton": "切换到{language}",
 
+  "consent.text": "OnCo 使用 Google Analytics 统计访问量。没有广告，不出售任何数据。",
+  "consent.allow": "允许",
+  "consent.decline": "不用了",
+  "consent.choice": "统计分析选择",
+  "consent.state.granted": "已允许",
+  "consent.state.denied": "已关闭",
+  "consent.state.unset": "尚未选择",
+  "consent.gpc": "你的浏览器发送了 Global Privacy Control 信号，因此统计分析保持关闭，除非你在此允许。",
+
   "footer.about": "一张公开、有引用、可编辑的肿瘤学地图：技术、靶点、产品、公司、机构、通路、试验、组合、路线图和想法。每个对象一页，每页都有通俗易懂的 TL;DR。",
   "footer.wip": "持续建设中。",
   "footer.disclaimer": "本站的每一条信息都在公开构建和核查之中，可能不完整、过时或有误。在依赖任何内容之前，您必须自行研究并在原始来源核实。本站内容均非医疗建议；决定权属于您和您的医生。",

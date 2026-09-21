@@ -13,7 +13,7 @@ import { useT } from "@/lib/i18n/ui";
  * The exported HTML carries the bare address (the page's own address is not known at build time); the `back`
  * parameter is filled in after mount, so a click before hydration still reaches the signed-in site.
  */
-export const ME_URL = "https://me.onco.cc/";
+export const ME_URL = "https://me.onco.cc/signin/";
 /** The header pill: the shared 40px control box in the accent with white text, a square on phones. */
 const CTA_CLASS = "ctl btn-primary w-10 px-0 sm:w-auto sm:px-2.5 gap-1.5 text-sm font-medium";
 

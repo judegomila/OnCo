@@ -41,7 +41,7 @@ describe("site header", () => {
     expect(a).toContain(`href="${ME_URL}"`);
     expect(a).not.toContain("target=");
     expect(a).not.toContain('href="/signup/"');
-    expect(meHref("https://onco.cc/cancers/aml/?tab=trials#phase-3")).toBe("https://me.onco.cc/?back=https%3A%2F%2Fonco.cc%2Fcancers%2Faml%2F%3Ftab%3Dtrials%23phase-3");
+    expect(meHref("https://onco.cc/cancers/aml/?tab=trials#phase-3")).toBe("https://me.onco.cc/signin/?back=https%3A%2F%2Fonco.cc%2Fcancers%2Faml%2F%3Ftab%3Dtrials%23phase-3");
     expect(meHref(null)).toBe(ME_URL);
     // Nothing signed-in is left in the header: no avatar pill, popover, sync line or delete control.
     for (const gone of ["signed-in-pill", "cloud-sync", "preference-chips", 'role="menu"', "Delete my account"]) expect(html).not.toContain(gone);

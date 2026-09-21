@@ -1,0 +1,67 @@
+src/lib/account.ts
+  s_0beac9cb5d78fd::t_92ff3ffdda57f8 7-9,163-171
+src/lib/cloud-sync.ts
+  s_0beac9cb5d78fd::t_e983a40fdbe908 1-209
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 425,427,433,449-455
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 425,427,433,449-455
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 425,427,433,449-455
+src/lib/preferences.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 25
+supabase/migrations/0001_profiles.sql
+  s_0beac9cb5d78fd::t_3a5846a815f3d7 1-76
+src/components/WelcomeStep.tsx
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 50-53
+src/lib/watchlist.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 9-10
+src/components/PreferenceSync.tsx
+  s_0beac9cb5d78fd::t_42df0f257dd5f0 5,13-16,18-20,27-28,32-33,43-45,47
+src/components/SignupForm.tsx
+  s_0beac9cb5d78fd::t_42df0f257dd5f0 8,40,46-47,49-50,53-54
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 425,427,433,449-455
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 425,427,433,449-455
+src/components/WelcomeStep.test.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 55
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 425,427,433,449-455
+src/lib/cloud-profile.ts
+  s_0beac9cb5d78fd::t_90051960d47226 1-150
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 425,427,433,449-455
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 425,427,433,449-455
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 464,466,472,488-494
+src/lib/cloud-profile.test.ts
+  s_0beac9cb5d78fd::t_e60c605254464f 1-185
+src/app/privacy/page.tsx
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 11-13,21,53,56,74,87,89-91,108-109,113-115,140,144,166,168,180
+supabase/README.md
+  s_0beac9cb5d78fd::t_3a5846a815f3d7 1-63
+src/components/AccountMenu.tsx
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 7,29-31,51-56,135-146,150,200,206-213,253,261,263,290-291,295
+src/lib/profile.ts
+  s_0beac9cb5d78fd::t_f2c4d1524590ed 117-119
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_6597a3535f2758 365-366
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "27eb8eb8a0d6b56bde3d0cc2ac4e228d26c6f3cf",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

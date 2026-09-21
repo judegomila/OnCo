@@ -7,8 +7,9 @@ import { buildDate, ISSUES_URL, LegalMeta, LegalSection, LegalToc, Placeholder, 
 
 /**
  * Terms of use. Lives at /terms-of-use/ because /terms/ is the glossary (kind "term"). Every statement about the
- * service is taken from the code: static export on Vercel, sign-in through WorkOS in the browser (src/lib/account.ts),
- * choices kept in localStorage (src/lib/profile.ts), licences as in LICENSE and LICENSE-DATA.
+ * service is taken from the code: static export on Vercel, no sign-in on this site (the header's Sign in/up links to the
+ * separate signed-in site me.onco.cc, src/components/AccountMenu.tsx), choices kept in localStorage (src/lib/profile.ts),
+ * licences as in LICENSE and LICENSE-DATA.
  */
 const TITLE = "Terms of use";
 const DESCRIPTION = "The rules for using OnCo in plain words: an information resource, not medical advice; accuracy not guaranteed; accounts, licences, external links, liability, changes and how to contact us.";
@@ -66,16 +67,15 @@ export default function TermsOfUsePage() {
             <li>use the site and its data lawfully and in line with the licences below;</li>
             <li>fetch data through the <Link href="/api/">open API and downloads</Link> rather than crawling the pages at a rate that harms the service for others;</li>
             <li>not present OnCo content as medical advice, or as endorsed by OnCo, and keep the attribution when you reuse the data;</li>
-            <li>not attempt to break the sign-in, to access another person&apos;s account, or to interfere with the site or the services it uses;</li>
+            <li>not attempt to interfere with the site or the services it uses, or to access anything another person keeps on their own device or account;</li>
             <li>not submit content you have no right to share, including any other person&apos;s health information, whether through GitHub or any other route;</li>
             <li>follow the repository&apos;s <a href={`${REPO_URL}/blob/main/CODE_OF_CONDUCT.md`} rel="noopener">code of conduct</a> and <a href={`${REPO_URL}/blob/main/CONTRIBUTING.md`} rel="noopener">contribution guide</a> when you propose changes. Contributions accepted into the corpus are licensed to OnCo on the same terms as the rest of the data.</li>
           </ul>
         </LegalSection>
 
         <LegalSection {...S.accounts}>
-          <p>Signing in is optional. When it is switched on, sign-in is handled by <a href="https://workos.com" rel="noopener">WorkOS</a> AuthKit: a code sent to your email, a password, Google or a <Term tip="A way to sign in built into your phone or computer, using its lock screen instead of a password.">passkey</Term>. Your browser talks to WorkOS directly; OnCo runs no server for it, and OnCo keeps your email address and the name you give, nothing else. What happens to that information is in the <Link href="/privacy/#accounts">privacy policy</Link>.</p>
-          <p>Keep your sign-in details and your device safe. You are responsible for what is done under your account. The role and the cancer you choose after signing in stay in your browser and can be changed or cleared from the account menu at any time.</p>
-          <p>We may suspend or remove an account that abuses the service or other people, that tries to break the site, or that we are required by law to remove. You can sign out at any time from the account menu. To have your account deleted, <a href="#contact">contact us</a>.</p>
+          <p>onco.cc has no accounts. Nothing here needs a sign-in, and the site keeps no session and no account data: the cancer, reading mode and saved items you choose stay in your own browser (see the <Link href="/privacy/#on-your-device">privacy policy</Link>). The <em>Sign in/up</em> control in the header is a link to the separate signed-in site, <a href="https://me.onco.cc/" rel="noopener">me.onco.cc</a>, which brings you back to the page you left.</p>
+          <p>me.onco.cc has its own terms and its own <a href="https://me.onco.cc/privacy/" rel="noopener">privacy notice</a>, which apply from the moment you arrive there. These terms cover onco.cc only.</p>
         </LegalSection>
 
         <LegalSection {...S.licences}>
@@ -102,7 +102,7 @@ export default function TermsOfUsePage() {
         </LegalSection>
 
         <LegalSection {...S.contact}>
-          <p>Questions, corrections, licensing and account requests: open an issue at <a href={ISSUES_URL} rel="noopener">{ISSUES_URL.replace("https://", "")}</a> or write to <Placeholder>[contact email]</Placeholder>. Security matters are covered in the repository&apos;s <a href={`${REPO_URL}/blob/main/SECURITY.md`} rel="noopener">security policy</a>.</p>
+          <p>Questions, corrections and licensing requests: open an issue at <a href={ISSUES_URL} rel="noopener">{ISSUES_URL.replace("https://", "")}</a> or write to <Placeholder>[contact email]</Placeholder>. Security matters are covered in the repository&apos;s <a href={`${REPO_URL}/blob/main/SECURITY.md`} rel="noopener">security policy</a>.</p>
         </LegalSection>
       </Container>
     </>

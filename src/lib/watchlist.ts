@@ -6,8 +6,7 @@ import { useEffect, useState } from "react";
  * Watchlist: entities the reader has starred, with the record dates they last saw. A static site cannot
  * push notifications, but it can compare what is published now against what you saw last time: the /saved/
  * page fetches `/api/v1/entities/<id>.json` (asOf, provenance) and `/provenance.json` (last commit per id)
- * and flags anything newer than `seen`. Stored in localStorage; signed in, the kind and id of each item are also
- * kept on the account (src/lib/cloud-sync.ts) so the list follows the reader between devices.
+ * and flags anything newer than `seen`. Stored in localStorage only.
  */
 export type WatchItem = {
   id: string;

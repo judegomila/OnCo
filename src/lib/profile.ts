@@ -1,8 +1,6 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { LANGS, LEVELS, type Lang, type Level } from "./layer";
-import { isTheme, type Theme } from "./theme";
 
 /**
  * A browser-only profile that personalises OnCo. Stored in localStorage under one key.
@@ -99,97 +97,4 @@ export function useProfile(): [Profile, (patch: Partial<Profile>) => void, boole
 
 export function isProfileEmpty(p: Profile): boolean {
   return !p.cancerId && p.stage === "unknown" && p.biomarkers.length === 0 && p.priorLines.length === 0 && !p.country && !p.postcode && !p.setting && p.hadTreatments.length === 0 && p.wantsTrials && !p.diagnosedRecently;
-}
-
-/* ---------- Account profile: who the signed-in reader is, kept per WorkOS user id ---------- */
-
-/** Who is reading: chosen once after the first sign-in (WelcomeStep) and changeable from the account menu. */
-export type AccountRole = "patient" | "caregiver" | "researcher" | "provider";
-export const ACCOUNT_ROLES: readonly AccountRole[] = ["patient", "caregiver", "researcher", "provider"];
-/** The browser-profile reading mode each role implies, so For me follows the choice. */
-export const ROLE_MODE: Record<AccountRole, ProfileMode> = { patient: "patient", caregiver: "caregiver", researcher: "clinician", provider: "clinician" };
-
-/**
- * Stored in localStorage under `onco:account-profile:v1:<user id>`, one entry per signed-in user so two people
- * sharing a browser do not overwrite each other. `cancer` mirrors the cancer id also written to the browser profile
- * above (the preference For me and the hubs read). The four preferences mirror the header toggles' own stores
- * (region `onco:region`, view and language `onco.layer`, theme `onco:theme`) so a signed-in reader's choices are
- * kept with their account entry and put back when they sign in (src/lib/preferences.ts). This entry is the local
- * cache of the account's row in Supabase (src/lib/cloud-profile.ts, src/lib/cloud-sync.ts): the browser is written
- * first, the cloud follows in the background. WorkOS only ever sees the email address and name.
- */
-export type AccountProfile = {
-  role?: AccountRole;
-  cancer?: string;
-  consentAt?: string;
-  /** Country whose regulator decides "approved" (a REGION_META code), or "global". */
-  region?: string;
-  /** Reading level of the layer toggle: technical, plain or simple. */
-  view?: Level;
-  /** Site language code. */
-  language?: Lang;
-  /** Colour theme of the header toggle. */
-  theme?: Theme;
-};
-/** The preference fields of the account profile, the ones mirrored from the header toggles. */
-export const PREFERENCE_FIELDS = ["region", "view", "language", "theme"] as const;
-export type PreferenceField = (typeof PREFERENCE_FIELDS)[number];
-
-const ACCOUNT_EVENT = "onco:account-profile";
-const accountKey = (userId: string) => `onco:account-profile:v1:${userId}`;
-
-/** Drop anything that is not a known value; a damaged or foreign entry reads as empty rather than throwing. */
-export function sanitiseAccountProfile(p: unknown): AccountProfile {
-  if (!p || typeof p !== "object") return {};
-  const r = p as Record<string, unknown>;
-  const out: AccountProfile = {};
-  if (typeof r.role === "string" && (ACCOUNT_ROLES as readonly string[]).includes(r.role)) out.role = r.role as AccountRole;
-  if (typeof r.cancer === "string" && r.cancer) out.cancer = r.cancer;
-  if (typeof r.consentAt === "string") out.consentAt = r.consentAt;
-  if (typeof r.region === "string" && (r.region === "global" || /^[A-Z]{2}$/.test(r.region))) out.region = r.region;
-  if (typeof r.view === "string" && LEVELS.some((l) => l.code === r.view)) out.view = r.view as Level;
-  if (typeof r.language === "string" && LANGS.some((l) => l.code === r.language)) out.language = r.language as Lang;
-  if (isTheme(r.theme)) out.theme = r.theme;
-  return out;
-}
-
-export function getAccountProfile(userId: string | undefined): AccountProfile {
-  if (typeof window === "undefined" || !userId) return {};
-  try {
-    const raw = window.localStorage.getItem(accountKey(userId));
-    return raw ? sanitiseAccountProfile(JSON.parse(raw)) : {};
-  } catch { return {}; }
-}
-
-/** Merge `patch` into the user's stored profile; fields set to `undefined` are dropped. Returns what was saved. */
-export function saveAccountProfile(userId: string, patch: Partial<AccountProfile>): AccountProfile {
-  const next: AccountProfile = { ...getAccountProfile(userId), ...patch };
-  for (const k of Object.keys(next) as Array<keyof AccountProfile>) if (next[k] === undefined) delete next[k];
-  if (typeof window === "undefined") return next;
-  try { window.localStorage.setItem(accountKey(userId), JSON.stringify(next)); } catch { /* storage blocked */ }
-  window.dispatchEvent(new CustomEvent(ACCOUNT_EVENT, { detail: { userId, profile: next } }));
-  return next;
-}
-
-export function clearAccountProfile(userId: string): void {
-  if (typeof window === "undefined") return;
-  try { window.localStorage.removeItem(accountKey(userId)); } catch { /* storage blocked */ }
-  window.dispatchEvent(new CustomEvent(ACCOUNT_EVENT, { detail: { userId, profile: {} } }));
-}
-
-/** React hook: the signed-in user's account profile and whether storage has been read. Empty while signed out. */
-export function useAccountProfile(userId: string | undefined): [AccountProfile, boolean] {
-  const [profile, setProfile] = useState<AccountProfile>({});
-  const [ready, setReady] = useState(false);
-  useEffect(() => {
-    // Deferred like useProfile so the first client render matches the server HTML; signed out reads as empty.
-    const id = requestAnimationFrame(() => { setProfile(getAccountProfile(userId)); setReady(!!userId); });
-    if (!userId) return () => cancelAnimationFrame(id);
-    const onChange = (e: Event) => { const d = (e as CustomEvent<{ userId: string; profile: AccountProfile }>).detail; if (d.userId === userId) setProfile(d.profile); };
-    const onStorage = (e: StorageEvent) => { if (e.key === accountKey(userId)) setProfile(getAccountProfile(userId)); };
-    window.addEventListener(ACCOUNT_EVENT, onChange);
-    window.addEventListener("storage", onStorage);
-    return () => { cancelAnimationFrame(id); window.removeEventListener(ACCOUNT_EVENT, onChange); window.removeEventListener("storage", onStorage); };
-  }, [userId]);
-  return [profile, ready];
 }

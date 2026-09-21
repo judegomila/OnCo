@@ -57,7 +57,8 @@ describe("terms of use", () => {
     expect(terms).toContain("not medical advice, diagnosis or treatment");
     expect(terms).toContain("CC BY-NC 4.0");
     expect(terms).toContain("MIT licence");
-    expect(terms).toContain("WorkOS");
+    expect(terms).toContain("me.onco.cc");
+    expect(terms).not.toMatch(/WorkOS|Supabase/);
     expect(terms).toContain("[jurisdiction]");
     expect(terms).toContain("[legal entity and address]");
     expect(terms).toContain("[contact email]");
@@ -85,9 +86,10 @@ describe("privacy policy", () => {
 
   it("describes only the data flows the code has", () => {
     expect(privacy).toContain("G-2TTJ25WSN8");
-    expect(privacy).toContain("api.workos.com");
-    expect(privacy).toContain("onco:account-profile:v1:");
-    expect(privacy).toContain("onco:session:v1");
+    // No account data on this site: the header's Sign in/up links to me.onco.cc, which has its own privacy notice.
+    expect(privacy).toContain('href="https://me.onco.cc/privacy/"');
+    expect(privacy).not.toMatch(/WorkOS|Supabase|api\.workos\.com|onco:session|onco:account-profile|onco:pkce/);
+    expect(privacy).toContain("onco:profile:v1");
     expect(privacy).toContain("onco:watchlist:v1");
     expect(privacy).toContain("service worker");
     expect(privacy).toContain("clinicaltrials.gov");
@@ -95,7 +97,6 @@ describe("privacy policy", () => {
     expect(privacy).toContain("[legal entity and address]");
     expect(privacy).toContain("[contact email]");
     expect(privacy).toContain("tools.google.com/dlpage/gaoptout");
-    expect(privacy).toContain("workos.com/privacy");
     expect(privacy).toContain("Last updated");
     expect(privacy).toContain(year);
     expect(privacy).toContain('<time dateTime="');

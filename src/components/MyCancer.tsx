@@ -1,29 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import { CancerIcon } from "./CancerIcon";
 import { pickMyCancer, shortCancerName, useMyCancer, type MyCancerLite } from "@/lib/use-my-cancer";
 import { useMyCancerList } from "@/lib/use-my-cancer-list";
-import { accountEnabled, loadSession, onAccountChange } from "@/lib/account";
-
-/**
- * The header chip, back only for signed-in readers with a cancer set (it left the header until accounts were on).
- * Signed out, or with no cancer chosen, it renders nothing and fetches nothing; the account menu still offers the choice.
- */
-export function SignedInMyCancerChip({ className = "" }: { className?: string }) {
-  const [signedIn, setSignedIn] = useState(false);
-  const { id } = useMyCancer();
-  const cancers = useMyCancerList(signedIn && !!id);
-  useEffect(() => {
-    if (!accountEnabled) return;
-    const raf = requestAnimationFrame(() => setSignedIn(!!loadSession()));
-    const off = onAccountChange((s) => setSignedIn(!!s));
-    return () => { cancelAnimationFrame(raf); off(); };
-  }, []);
-  if (!signedIn || !pickMyCancer(cancers, id)) return null;
-  return <span className={className}><MyCancerChip /></span>;
-}
 
 /**
  * The remembered cancer, wherever it helps: a header chip, the home hero button, a pinned tile on the cancer hub,

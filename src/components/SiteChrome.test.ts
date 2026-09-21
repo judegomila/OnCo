@@ -3,15 +3,16 @@ import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import { SiteHeader } from "./SiteChrome";
-import { SignedInPill } from "./AccountMenu";
-import { displayName, type Session } from "@/lib/account";
+import { ME_URL, meHref } from "./AccountMenu";
 import { UI_DICTS } from "@/lib/i18n/ui";
+import { LANGS } from "@/lib/layer";
 
 /**
- * The header as a first-time visitor sees it (no session, English). Two things the owner asked for and one that
- * HTML forbids: a visible "Sign in/up" control rather than a bare icon, every control on the same 40px box
- * so they share a centre line, and no anchor nested inside another (the GitHub link and the sign-in link are
- * siblings of the other controls, never children of one).
+ * The header as every visitor sees it (onco.cc has no sessions, so there is only one state). Two things the owner
+ * asked for and one that HTML forbids: a visible "Sign in/up" control rather than a bare icon, every control on the
+ * same 40px box so they share a centre line, and no anchor nested inside another (the GitHub link and the sign-in
+ * link are siblings of the other controls, never children of one). The sign-in control is a bridge: a plain anchor
+ * to the signed-in site me.onco.cc that reads no session and, once mounted, carries the current address as `back`.
  */
 const router: AppRouterInstance = { push() {}, replace() {}, prefetch() {}, back() {}, forward() {}, refresh() {}, bfcacheId: "static" };
 const html = renderToStaticMarkup(createElement(AppRouterContext.Provider, { value: router }, createElement(SiteHeader)));
@@ -19,7 +20,7 @@ const html = renderToStaticMarkup(createElement(AppRouterContext.Provider, { val
 /** Tags in document order, so nesting can be walked without a DOM. */
 const tags = (s: string) => [...s.matchAll(/<(\/?)([a-zA-Z][\w-]*)[^>]*?(\/?)>/g)].map((m) => ({ close: m[1] === "/", name: m[2].toLowerCase(), self: m[3] === "/" }));
 
-describe("site header, signed out", () => {
+describe("site header", () => {
   it("shows the sign-in call to action with the user glyph and a tooltip", () => {
     const label = UI_DICTS.en["account.signInCta"];
     expect(label).toBe("Sign in/up");
@@ -32,6 +33,22 @@ describe("site header, signed out", () => {
     expect(cta).toContain("w-10 px-0 sm:w-auto sm:px-2.5");
     expect(cta).toContain('<span class="hidden sm:inline">');
     expect(cta).toMatch(/<svg[^>]*><circle cx="12" cy="8" r="4">/);
+  });
+
+  it("links the sign-in pill to the signed-in site in the same tab, with no session code behind it", () => {
+    const a = html.match(/<a [^>]*data-testid="sign-in-bridge"[^>]*>/)?.[0] ?? "";
+    // The exported HTML carries the bare address; the page's own address is only known in the browser.
+    expect(a).toContain(`href="${ME_URL}"`);
+    expect(a).not.toContain("target=");
+    expect(a).not.toContain('href="/signup/"');
+    expect(meHref("https://onco.cc/cancers/aml/?tab=trials#phase-3")).toBe("https://me.onco.cc/?back=https%3A%2F%2Fonco.cc%2Fcancers%2Faml%2F%3Ftab%3Dtrials%23phase-3");
+    expect(meHref(null)).toBe(ME_URL);
+    // Nothing signed-in is left in the header: no avatar pill, popover, sync line or delete control.
+    for (const gone of ["signed-in-pill", "cloud-sync", "preference-chips", 'role="menu"', "Delete my account"]) expect(html).not.toContain(gone);
+  });
+
+  it("keeps the sign-in label in all nine languages", () => {
+    for (const l of LANGS) expect((UI_DICTS[l.code] as Record<string, string>)["account.signInCta"], l.code).toBeTruthy();
   });
 
   it("nests no anchor inside another anchor", () => {
@@ -53,38 +70,5 @@ describe("site header, signed out", () => {
     for (const c of wrappers) expect(c, c).toMatch(/\bflex\b/);
     // Every control shares the .ctl box (40px, items-center).
     expect((header.match(/class="ctl[ "]/g) ?? []).length).toBeGreaterThanOrEqual(5);
-  });
-});
-
-/**
- * The signed-in pill, rendered on its own with a session (one never exists on the server, so the header above
- * cannot show it): same 40px box, initial circle with the green dot, first name, the role as a quiet chip from sm
- * up, and the "Signed in as" tooltip. Clicking it opens the account popover (aria-haspopup="menu").
- */
-describe("site header, signed in", () => {
-  const session: Session = { access_token: "a", refresh_token: "r", expires_at: Date.now() + 3600_000, user: { id: "user_1", email: "jude@example.com", name: "Jude Gomila", firstName: "Jude" } };
-  const pill = (role?: "patient" | "caregiver" | "researcher" | "provider", s: Session = session) =>
-    renderToStaticMarkup(createElement(AppRouterContext.Provider, { value: router }, createElement(SignedInPill, { session: s, role, open: false, onToggle() {} })));
-
-  it("shows the initial circle, a green dot, the first name and the role chip, in the shared control box", () => {
-    const html = pill("patient");
-    expect(html).toContain('data-testid="signed-in-pill"');
-    expect(html).toMatch(/<button[^>]*class="ctl gap-2 px-1\.5 sm:px-2\.5"/);
-    expect(html).toContain('aria-haspopup="menu"');
-    expect(html).toContain('title="Signed in as jude@example.com"');
-    expect(html).toMatch(/rounded-full bg-accent text-white[^>]*>J<span class="[^"]*bg-emerald-500/);
-    expect(html).toContain('<span class="hidden sm:inline text-[13px] font-medium leading-none">Jude</span>');
-    expect(html).toMatch(/<span class="chip hidden sm:inline-flex[^"]*"><svg[\s\S]*?<\/svg>Patient<\/span>/);
-    expect(html).toContain(">·</span>");
-  });
-
-  it("leaves out the chip and separator when no role is stored, and falls back to the email's local part", () => {
-    const html = pill(undefined, { ...session, user: { id: "user_2", email: "ada.lovelace@example.com" } });
-    expect(html).not.toContain("chip");
-    expect(html).not.toContain(">·</span>");
-    expect(html).toContain(">ada.lovelace</span>");
-    expect(html).toMatch(/text-white[^>]*>A</);
-    expect(displayName({ id: "x", email: "x@example.com", name: "Grace Hopper" })).toBe("Grace");
-    expect(displayName({ id: "x", email: "x@example.com" })).toBe("x");
   });
 });

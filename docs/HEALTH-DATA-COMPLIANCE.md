@@ -1,5 +1,7 @@
 # Health data compliance for OnCo accounts
 
+**Superseded on 21 September 2026.** The owner decided that onco.cc is the public, signed-out site and stores nothing personal; sign-in, roles, cancer type and case data moved to the separate signed-in site me.onco.cc, whose private repository now carries this analysis forward. The code paths named below (`src/lib/account.ts`, the WorkOS and Supabase flows) no longer exist in this repository. Kept as the record of the reasoning.
+
 **Engineering analysis, not legal advice.** Written by an agent from the code and the public sources listed at the end, each read on 18 September 2026. A lawyer must check every conclusion before OnCo relies on it. The owner decisions in section 6 are not made here.
 
 ## Summary

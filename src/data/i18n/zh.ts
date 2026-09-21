@@ -1363,7 +1363,7 @@ export const tldr_zh: Record<string, string> = {
   "paper-keynote-189-nejm-2018": "在标准化疗基础上加用pembrolizumab，使新诊断的非鳞状肺癌患者的死亡风险大约减半，无论PD-L1水平如何，从而使化学免疫治疗成为默认的一线治疗。",
   "paper-keynote-564-nejm-2021": "高危肾癌手术后使用一年pembrolizumab，使复发减少约三分之一，并在后续随访中成为首个能让肾癌患者活得更久的辅助治疗。",
   "paper-keynote-942-lancet-2024": "一种根据每位患者自身肿瘤突变定制的疫苗，在高危黑色素瘤手术后与pembrolizumab联合使用，在一项中等规模的随机试验中，与单用pembrolizumab相比使复发减少了约44%，这是个体化癌症疫苗可能有效的首个迹象。",
-  "paper-keynote-a18-lancet-2024": "在高危局部晚期宫颈癌的标准放化疗基础上加用pembrolizumab，使疾病进展减少了30%，随后还改善了生存，这是自1999年将cisplatin加入放疗以来该领域首个全身治疗方面的进展。",
+  "paper-keynote-a18-pfs-lancet-2024": "在高危局部晚期宫颈癌的标准放化疗基础上加用pembrolizumab，使疾病进展减少了30%，随后还改善了生存，这是自1999年将cisplatin加入放疗以来该领域首个全身治疗方面的进展。",
   "paper-le-mmr-deficiency-pd1-nejm-2015": "Pembrolizumab使40%的DNA错配修复缺陷型结直肠癌和71%的其他此类癌症肿瘤缩小，而修复功能完好的肿瘤无一缩小，从而将免疫治疗的应答与突变负荷联系起来。",
   "paper-le-mmr-deficiency-science-2017": "在86名患有12种不同dMMR癌症的患者中，pembrolizumab使53%的患者出现缓解，21%达到完全缓解，由此促成了首个基于基因标志物而非肿瘤部位的抗癌药物批准。",
   "paper-leach-allison-ctla4-blockade-science-1996": "给小鼠注射一种阻断T细胞抑制性受体CTLA-4的抗体，使已形成的结肠癌和纤维肉瘤被排斥，并能抵御再次接种，这一实验奠定了免疫检查点疗法的基础。",

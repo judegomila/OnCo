@@ -34,7 +34,7 @@ const trials: TrialInput[] = [
       { endpoint: "Overall survival at 36 months", primary: true, unit: "%", arms: [{ name: "Pembrolizumab + CRT", value: 82.6 }, { name: "Placebo + CRT", value: 74.8 }], hr: 0.67, ci: [0.50, 0.90], source: "https://pubmed.ncbi.nlm.nih.gov/39288779/" },
     ],
     replication: "CALLA (durvalumab + chemoradiation) was negative, so the benefit is not yet reproduced with another agent; differences in risk population and drug are debated.",
-    drugs: ["pembrolizumab"], targets: ["pd1"], technologies: ["imrt-igrt", "brachytherapy", "checkpoint-inhibitor"], cancers: ["cervical", "locally-advanced-cervical-cancer"], links: [ct("NCT04221945"), { label: "OS, Lancet 2024", url: "https://pubmed.ncbi.nlm.nih.gov/39288779/" }], people: ["domenica-lorusso", "bradley-monk"] }),
+    drugs: ["pembrolizumab"], targets: ["pd1"], technologies: ["imrt-igrt", "brachytherapy", "checkpoint-inhibitor"], cancers: ["cervical", "locally-advanced-cervical-cancer"], keyPapers: ["paper-keynote-a18-pfs-lancet-2024", "paper-keynote-a18-os-lancet-2024"], links: [ct("NCT04221945"), { label: "PFS, Lancet 2024", url: "https://doi.org/10.1016/S0140-6736(24)00317-9" }, { label: "OS, Lancet 2024", url: "https://doi.org/10.1016/S0140-6736(24)01808-7" }], people: ["domenica-lorusso", "bradley-monk"] }),
   t({ id: "interlace", name: "INTERLACE", nct: "NCT01566240", phase: "3", status: "positive", yearReported: 2023, sponsor: "UCL Cancer Trials Centre / CRUK", enrolled: 500,
     setting: "Locally advanced cervical cancer: 6 weeks of induction carboplatin-paclitaxel before chemoradiation vs chemoradiation alone",
     tldr: "Six weeks of cheap, generic chemotherapy before standard chemoradiation cut deaths by 40%, an advance usable anywhere in the world.",

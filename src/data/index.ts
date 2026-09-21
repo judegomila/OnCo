@@ -83,7 +83,7 @@ import { radiationDrugs, radiationCompanies } from "./radiation-wave3";
 import { manufacturingTechnologies, manufacturingCompanies } from "./manufacturing-wave";
 import { cancerParentsWave2, cancerParentsWave2Map } from "./cancer-parents-wave2";
 import { radiationTrials4 } from "./radiation-wave4";
-import { radiationTermsWave5, radiationTrialsWave5 } from "./radiation-wave5";
+import { radiationPapersWave5, radiationTermsWave5, radiationTrialsWave5 } from "./radiation-wave5";
 import { pdacDrugs, pdacTrials, pdacCompanies } from "./pdac-wave";
 import { drugsSubtypesWave } from "./drugs-subtypes-wave";
 import { diagnosticsTechnologies1, diagnosticsCompanies1 } from "./diagnostics-wave1";
@@ -155,6 +155,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...gapFill,
   ...keyPapers,
   ...papersSubtypesWave,
+  ...radiationPapersWave5,
   ...papersRareWave,
   ...nutrition,
   ...adcChemistry,

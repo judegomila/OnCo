@@ -216,7 +216,7 @@ export const gynaecologicalSubtypes: CancerInput[] = [
     links: [{ label: "Wikipedia", url: W("Cervical_cancer") }] },
 
   { id: "locally-advanced-cervical-cancer", related: ["early-cervical-cancer", "recurrent-metastatic-cervical-cancer"], kind: "cancer", trials: ["calla"], name: "Locally advanced cervical cancer", group: "gynaecologic", parent: "cervical", asOf, tags, wikipedia: W("Cervical_cancer"),
-    keyPapers: ["paper-keynote-a18-lancet-2024", "paper-interlace-lancet-2024", "paper-outback-lancet-oncol-2023", "paper-rose-cisplatin-chemoradiation-cervical-nejm-1999"],
+    keyPapers: ["paper-keynote-a18-pfs-lancet-2024", "paper-keynote-a18-os-lancet-2024", "paper-interlace-lancet-2024", "paper-outback-lancet-oncol-2023", "paper-rose-cisplatin-chemoradiation-cervical-nejm-1999"],
     aka: ["Stage IB3 to IVA cervical cancer", "LACC (disease state, not the surgical trial)", "Node-positive cervical cancer", "Bulky cervical cancer"],
     burden: "Most cervical cancers worldwide present at this stage because screening is absent; even with chemoradiation about a third of women relapse, so it is the stage where the disease kills most of its victims and where the newest trials have made the largest gains.",
     tldr: "Locally advanced cervical cancer has grown beyond the cervix or into the pelvic lymph nodes but not to distant organs. It is treated with cisplatin chemotherapy given alongside external radiotherapy and brachytherapy, and two recent trials have improved on that: adding pembrolizumab, and giving six weeks of chemotherapy before the radiotherapy starts.",

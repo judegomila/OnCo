@@ -2,9 +2,10 @@
  * Radiation wave 5 (17 Sept 2026): linear energy transfer, relative biological effectiveness and the
  * Bragg peak, plus the two adult proton-versus-photon randomised trials that can test whether those
  * quantities, with tissue alpha/beta, pick when protons beat IMRT. No calculator, no literature dump.
- * Registered in src/data/index.ts as radiationTermsWave5 and radiationTrialsWave5.
+ * Registered in src/data/index.ts as radiationTermsWave5, radiationTrialsWave5 and radiationPapersWave5 (the PARTIQoL
+ * readout, added 21 Sept 2026 from the ASTRO 2024 late-breaking abstract in IJROBP).
  */
-import type { TermInput, TrialInput } from "@/lib/schema";
+import type { PaperInput, TermInput, TrialInput } from "@/lib/schema";
 
 const asOf = "2026-09-17";
 const tags = ["radiation-wave5"];
@@ -15,6 +16,8 @@ type Tm = Omit<TermInput, "kind" | "asOf">;
 const tm = (x: Tm): TermInput => ({ kind: "term", asOf, tags, ...x });
 type T = Omit<TrialInput, "kind" | "asOf">;
 const t = (x: T): TrialInput => ({ kind: "trial", asOf, tags, ...x });
+type P = Omit<PaperInput, "kind" | "asOf">;
+const p = (x: P): PaperInput => ({ kind: "paper", asOf: "2026-09-21", tags, ...x });
 
 export const radiationTermsWave5: TermInput[] = [
   tm({
@@ -72,16 +75,24 @@ export const radiationTrialsWave5: TrialInput[] = [
     name: "PARTIQoL",
     nct: "NCT01617161",
     phase: "3",
-    status: "active",
+    status: "completed",
+    yearReported: 2024,
+    enrolled: 450,
     sponsor: "Massachusetts General Hospital",
     setting: "Low- and intermediate-risk localised prostate cancer: proton beam therapy versus intensity-modulated photon radiotherapy",
-    tldr: "A randomised trial of protons versus IMRT for localised prostate cancer, built to see whether protons cause less bowel and bladder harm at the same cancer control.",
-    summary: "PARTIQoL (NCT01617161) randomises men with low- or intermediate-risk localised prostate cancer to proton beam therapy or intensity-modulated photon radiotherapy, with bowel quality of life among the leading endpoints. It is one of the few adult proton-versus-photon trials that can test whether a distal LET and RBE difference near rectum and bladder is clinically real. Accrual has been slow in a field where patients can obtain protons off-trial. ClinicalTrials.gov listed the study as active, not recruiting, with primary completion in December 2025; the primary readout is not yet in the corpus.",
+    tldr: "The first multicentre randomised trial of protons versus IMRT for localised prostate cancer found no difference in bowel, urinary or sexual quality of life and the same cancer control at five years.",
+    summary: "PARTIQoL (NCT01617161) randomised 450 men with low- or intermediate-risk localised prostate cancer at 29 centres between 2012 and 2021 to proton beam therapy or intensity-modulated photon radiotherapy, without hormone therapy, with the change in EPIC bowel quality of life at 24 months as the primary endpoint. It is one of the few adult proton-versus-photon trials able to test whether a distal LET and RBE difference near rectum and bladder is clinically real, and accrual was slow in a field where patients can obtain protons off-trial.\n\nReported as a late-breaking abstract at ASTRO 2024 with a median follow-up of 60.3 months: bowel scores fell only slightly in both arms (91.8 with protons and 91.9 with IMRT at 24 months, from 93.7 and 93.5 at baseline; p=0.836), with no differences in urinary incontinence, urinary irritation or sexual function at any time point and five-year progression-free survival of 93.4% with protons and 93.7% with IMRT (p=0.706). Neither technique beat the other, so the adult proton case in prostate cancer rests on other arguments than a wider therapeutic window.",
+    result: "No difference between protons and IMRT in EPIC bowel quality of life at 24 months (primary endpoint, p=0.836) or in urinary or sexual function; five-year progression-free survival 93.4% vs 93.7%.",
+    outcomes: [
+      { endpoint: "EPIC bowel quality of life at 24 months", primary: true, unit: "score (0-100)", arms: [{ name: "Proton beam therapy", value: 91.8, note: "Baseline 93.7" }, { name: "IMRT", value: 91.9, note: "Baseline 93.5" }], p: "0.836", source: "https://doi.org/10.1016/j.ijrobp.2024.08.012" },
+      { endpoint: "Progression-free survival at 5 years", unit: "%", arms: [{ name: "Proton beam therapy", value: 93.4 }, { name: "IMRT", value: 93.7 }], p: "0.706", source: "https://doi.org/10.1016/j.ijrobp.2024.08.012" },
+    ],
     cancers: ["prostate"],
     technologies: ["proton-therapy", "imrt-igrt"],
     terms: ["relative-biological-effectiveness", "linear-energy-transfer", "alpha-beta-ratio", "bragg-peak"],
     institutions: ["mgh"],
-    links: [ct("NCT01617161")],
+    keyPapers: ["paper-partiqol-astro-2024"],
+    links: [ct("NCT01617161"), { label: "ASTRO 2024 late-breaking abstract (IJROBP)", url: "https://doi.org/10.1016/j.ijrobp.2024.08.012" }],
   }),
   t({
     id: "radcomp",
@@ -97,5 +108,35 @@ export const radiationTrialsWave5: TrialInput[] = [
     technologies: ["proton-therapy", "imrt-igrt"],
     terms: ["relative-biological-effectiveness", "linear-energy-transfer", "bragg-peak"],
     links: [ct("NCT02603341")],
+  }),
+];
+
+export const radiationPapersWave5: PaperInput[] = [
+  p({
+    id: "paper-partiqol-astro-2024",
+    name: "PARTIQoL: phase 3 randomised trial of proton therapy versus IMRT for localised prostate cancer (ASTRO 2024 late-breaking abstract)",
+    tldr: "In the first multicentre randomised comparison of protons and IMRT for localised prostate cancer, bowel, urinary and sexual quality of life and five-year cancer control were the same with either technique.",
+    summary: "Late-breaking abstract LBA01 at the 2024 ASTRO Annual Meeting, published in the meeting supplement of the International Journal of Radiation Oncology, Biology, Physics. PARTIQoL (NCT01617161) randomised 450 men with low- or intermediate-risk localised prostate cancer at 29 centres between June 2012 and November 2021 to proton beam therapy or intensity-modulated radiotherapy, without hormone therapy, stratified by institution, age, rectal spacer use and fractionation. The primary endpoint was the change in EPIC bowel quality of life at 24 months.\n\nWith a median follow-up of 60.3 months, bowel scores declined only slightly in both arms: from 93.7 to 91.8 with protons and from 93.5 to 91.9 with IMRT at 24 months (p=0.836), a difference that was neither statistically significant nor clinically meaningful. Urinary incontinence, urinary irritation and sexual function did not differ at any time point, and there were no sustained differences in subgroups by risk group, age, rectal spacer or fractionation. Five-year progression-free survival was 93.4% with protons and 93.7% with IMRT (p=0.706). This record carries the abstract's figures only.",
+    journal: "International Journal of Radiation Oncology, Biology, Physics", year: 2024, doi: "10.1016/j.ijrobp.2024.08.012",
+    authors: "Efstathiou JA, Yeap BY, Michalski JM, et al.", paperType: "rct", participants: 450, changedPractice: false,
+    findings: [
+      "EPIC bowel quality of life at 24 months 91.8 with protons vs 91.9 with IMRT (baseline 93.7 and 93.5); p=0.836 for the primary endpoint.",
+      "No significant differences in urinary incontinence, urinary irritation or sexual function at any time point over 60 months.",
+      "Five-year progression-free survival 93.4% with protons vs 93.7% with IMRT (p=0.706).",
+      "Median follow-up 60.3 months; 450 men randomised at 29 centres, median age 68.",
+    ],
+    whatItMeans: "For men with low- or intermediate-risk prostate cancer, protons and modern IMRT give the same excellent quality of life and cancer control, so the choice can rest on access, cost and convenience rather than on an expected sparing of bowel or bladder. The result removes prostate cancer from the list of adult indications where a proton advantage was assumed but untested.",
+    caveats: [
+      "Abstract figures only; the peer-reviewed full paper carries the definitive numbers.",
+      "Patient-reported quality of life was the primary endpoint, not toxicity graded by clinicians or long-term second cancers.",
+      "Low- and intermediate-risk disease without hormone therapy; high-risk and node-positive disease were not studied.",
+      "Rectal spacers and hypofractionation were allowed in both arms, which may have narrowed any difference.",
+    ],
+    links: [
+      { label: "IJROBP 2024 supplement (LBA01)", url: "https://doi.org/10.1016/j.ijrobp.2024.08.012" },
+      { label: "ClinicalTrials.gov NCT01617161", url: "https://clinicaltrials.gov/study/NCT01617161" },
+    ],
+    cancers: ["prostate"], trials: ["partiqol"], technologies: ["proton-therapy", "imrt-igrt"],
+    terms: ["relative-biological-effectiveness", "linear-energy-transfer", "bragg-peak"], institutions: ["mgh"], people: ["anthony-zietman"], journals: ["ijrobp"],
   }),
 ];

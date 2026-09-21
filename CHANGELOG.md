@@ -7,6 +7,8 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 21 September 2026
+- Sign in/up now goes straight to the WorkOS sign-in page instead of stopping at the newsletter page
+- Greptile review config encoding the corpus rules for community pull requests
 - Your role, cancer choice and preferences now save to your OnCo account so they follow you across devices, and the outlook block is held back pending a wording review
 - Merge cloud profile sync; outlook block held pending wording review
 - Community fixes: alphagenome model corrected, epithelioid sarcoma record completed with verified facts, RMC-9805 pancreatic pairing and ubamatamab mechanism corrected, plain-English outlook for ten cancers behind the survival disclosure, and 15 hidden FDA events restored

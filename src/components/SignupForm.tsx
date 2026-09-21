@@ -40,7 +40,21 @@ export function SignupForm() {
     const arrive = async (s: Session | null) => {
       if (!alive) return;
       setSession(s);
-      if (!s) { setCompleting(false); return; }
+      if (!s) {
+        setCompleting(false);
+        // Signed out on the sign-in page: hand straight over to WorkOS, so a click on the header pill that landed here
+        // before the script attached still ends at the hosted sign-in. The sessionStorage mark stops a loop when someone
+        // backs out of WorkOS and returns here without a code; they then see the button instead.
+        if (provider === "workos" && !signInPending() && typeof window !== "undefined") {
+          const mark = window.sessionStorage.getItem("onco:signin-autostart");
+          if (!mark || Date.now() - Number(mark) > 5 * 60_000) {
+            window.sessionStorage.setItem("onco:signin-autostart", String(Date.now()));
+            setCompleting(true);
+            startSignIn("/saved/");
+          }
+        }
+        return;
+      }
       const returned = takeReturnPath();
       if (returned === null) { setCompleting(false); return; }
       // A sign-in has just completed: pull the account's cloud profile (so a role chosen on another device counts),

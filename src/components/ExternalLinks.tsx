@@ -16,6 +16,8 @@ export function ExternalLinks() {
       let url: URL;
       try { url = new URL(a.href, window.location.href); } catch { return; }
       if (!/^https?:$/.test(url.protocol) || url.host === window.location.host) return;
+      // me.onco.cc and other onco.cc subdomains are part of the site: the sign-in bridge must take over this tab.
+      if (url.hostname === "onco.cc" || url.hostname.endsWith(".onco.cc")) return;
       a.target = "_blank";
       a.rel = a.rel ? `${a.rel} noopener` : "noopener";
     };

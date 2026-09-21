@@ -681,9 +681,12 @@ function CancerBasics({ c }: { c: Cancer }) {
  * The outlook paragraph. Sentences quoting survival fold behind the same disclosure as the state-of-the-art figures;
  * what stays visible is the context (stage, subtype, treatment) and the link to the stage-by-stage table.
  */
+/** Held back on 21 Sept 2026 at the owner's request until the wording has been reviewed; flip SHOW_OUTLOOK to publish. */
+const SHOW_OUTLOOK = false;
 function CancerOutlook({ c }: { c: Cancer }) {
   const p = c.prognosis;
   if (!p) return null;
+  if (!SHOW_OUTLOOK) return null;
   const sources = p.sources.length > 0 && (
     <span className="text-xs text-muted">Sources: {p.sources.map((s, i) => <span key={s.url}>{i > 0 && ", "}<a href={s.url} className="underline" rel="noopener noreferrer">{s.label}</a></span>)}</span>
   );

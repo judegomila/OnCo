@@ -30,7 +30,7 @@ export const radiationTermsWave5: TermInput[] = [
     terms: ["relative-biological-effectiveness", "alpha-beta-ratio", "alpha-vs-beta", "oxygen-enhancement-ratio", "bragg-peak"],
     links: [
       { label: "Wikipedia", url: W("Linear_energy_transfer") },
-      { label: "Paganetti, RBE values for proton beam therapy (IJROBP 2014)", url: "https://doi.org/10.1016/j.ijrobp.2014.07.001" },
+      { label: "Paganetti, RBE values for proton beam therapy (Physics in Medicine and Biology 2014)", url: "https://doi.org/10.1088/0031-9155/59/22/R419" },
     ],
   }),
   tm({
@@ -48,7 +48,7 @@ export const radiationTermsWave5: TermInput[] = [
     keyPapers: ["paper-paganetti-proton-rbe-ijrobp-2014"],
     links: [
       { label: "Wikipedia", url: W("Relative_biological_effectiveness") },
-      { label: "Paganetti, RBE values for proton beam therapy (IJROBP 2014)", url: "https://doi.org/10.1016/j.ijrobp.2014.07.001" },
+      { label: "Paganetti, RBE values for proton beam therapy (Physics in Medicine and Biology 2014)", url: "https://doi.org/10.1088/0031-9155/59/22/R419" },
     ],
   }),
   tm({

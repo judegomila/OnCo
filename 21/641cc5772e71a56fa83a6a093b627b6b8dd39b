@@ -1,0 +1,9 @@
+src/data/radiation-wave5.ts
+  ai_agent 33,51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "21641cc5772e71a56fa83a6a093b627b6b8dd39b",
+  "prompts": {}
+}

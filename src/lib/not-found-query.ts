@@ -1,4 +1,4 @@
-import { KIND_META, KINDS, type Kind } from "./schema";
+import { KIND_META, KINDS, type Kind } from "./kinds";
 import { issueUrl } from "./issue-links";
 
 /**

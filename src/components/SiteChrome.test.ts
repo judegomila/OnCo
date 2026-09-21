@@ -4,7 +4,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import { SiteHeader } from "./SiteChrome";
 import { ME_URL, meHref } from "./AccountMenu";
-import { UI_DICTS } from "@/lib/i18n/ui";
+import { UI_DICTS } from "@/lib/i18n/all";
 import { LANGS } from "@/lib/layer";
 
 /**

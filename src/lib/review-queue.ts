@@ -1,7 +1,8 @@
 import type { Lang } from "./layer";
 import { graph } from "./graph";
 import { evidenceFor } from "./evidence";
-import { KIND_META, KINDS, routeFor, type Entity, type Kind } from "./schema";
+import { KIND_META, KINDS, routeFor, type Kind } from "./kinds";
+import { type Entity } from "./schema";
 import { reviews, type Review } from "@/data/reviews";
 import { reviewed, type TranslationReview } from "@/data/i18n/reviewed";
 import { tldr_es } from "@/data/i18n/es";

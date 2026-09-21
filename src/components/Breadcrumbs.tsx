@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Crumb } from "@/lib/seo";
-import { KIND_META, KINDS } from "@/lib/schema";
+import { KIND_META, KINDS } from "@/lib/kinds";
 import { KindName, T } from "./T";
 
 /** Kind whose route or public title matches a crumb label ("Treatments & tests", "cancers"), for translation. */

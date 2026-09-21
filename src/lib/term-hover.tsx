@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { graph } from "./graph";
-import { routeFor } from "./schema";
+import { routeFor } from "./kinds";
 import { buildMatcher, findMatches, type Matcher } from "./entity-matcher";
 import { TermHover, type TermRef } from "@/components/TermHover";
 

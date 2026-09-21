@@ -1,5 +1,5 @@
 import { graph } from "./graph";
-import { routeFor } from "./schema";
+import { routeFor } from "./kinds";
 import type { MyCancerLite } from "./use-my-cancer";
 
 /**

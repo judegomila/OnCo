@@ -1,5 +1,6 @@
 import { graph } from "./graph";
-import { routeFor, type Cancer, type Entity, type Institution } from "./schema";
+import { routeFor } from "./kinds";
+import { type Cancer, type Entity, type Institution } from "./schema";
 import { readPublicJson } from "./feed-meta";
 import type { ResearchIndex } from "./research";
 import { trialLeadership } from "./trial-leadership";

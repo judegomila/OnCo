@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { MoleculeSlot } from "./MoleculeSlot";
-import { KIND_META, type Kind } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/kinds";
 import { useT } from "@/lib/i18n/ui";
 import { KIND_COLOR, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";

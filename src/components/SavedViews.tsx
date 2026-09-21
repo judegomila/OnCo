@@ -5,7 +5,7 @@ import Link from "next/link";
 import { describeQuery, loadViews, removeView, renameView, saveView, useSavedViews } from "@/lib/saved-views";
 import { changedSince, fetchEntityDates, loadWatchlist, markSeen, unwatch, useWatchlist, watch, type WatchItem } from "@/lib/watchlist";
 import { download } from "@/lib/csv";
-import { KIND_META, type Kind } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/kinds";
 import { KIND_COLOR } from "@/lib/text";
 
 type Prov = Record<string, { date?: string; message?: string; commit?: string }>;

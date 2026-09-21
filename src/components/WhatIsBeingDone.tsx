@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Entity } from "@/lib/schema";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { statusClass } from "@/lib/text";
 import { StatusName, TL } from "./T";

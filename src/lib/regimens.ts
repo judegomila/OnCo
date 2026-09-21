@@ -1,5 +1,5 @@
 import { graph } from "./graph";
-import { routeFor } from "./schema";
+import { routeFor } from "./kinds";
 import { regimens, type Emetogenicity, type Gcsf, type Regimen, type RegimenComponent } from "@/data/regimens";
 
 /**

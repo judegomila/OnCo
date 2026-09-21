@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { biomarkers, type BiomarkerGroup } from "@/data/biomarkers";
 import { cautionsFor, scoreRows, type MatchRow } from "@/lib/biomarker-match";
-import { KIND_META, type Kind } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/kinds";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { CancerIcon } from "./CancerIcon";

@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { FacetSelect } from "./filters/FacetSelect";
 import { findPaths, hopLabel, type PathData } from "@/lib/paths";
-import { KIND_META } from "@/lib/schema";
+import { KIND_META } from "@/lib/kinds";
 import { KIND_COLOR } from "@/lib/text";
 
 export type PathExample = { from: string; to: string; label: string };

@@ -5,7 +5,8 @@ import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/a
 import RootLayout from "./layout";
 import TermsOfUsePage from "./terms-of-use/page";
 import PrivacyPage from "./privacy/page";
-import { EN, UI_DICTS } from "@/lib/i18n/ui";
+import { EN } from "@/lib/i18n/ui";
+import { UI_DICTS } from "@/lib/i18n/all";
 import { LANGS } from "@/lib/layer";
 import { SITE_PAGES } from "@/lib/search-index";
 import { staticRoutes } from "@/lib/sitemap-urls";

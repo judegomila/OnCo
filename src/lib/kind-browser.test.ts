@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { buildBrowser } from "./kind-browser";
 import { fallbackSlot, hasVisual, visualSource } from "./row-visual";
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 
 /**
  * Every row in the kind index tables must show something in its picture slot: a molecule, a drawing, an organ

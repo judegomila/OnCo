@@ -6,8 +6,9 @@
  *
  * TL;DR body translations are a separate concern: see scripts/i18n-coverage.ts.
  */
-import { EN, UI_DICTS, type UiKey } from "../src/lib/i18n/ui";
-import { NAV_DICTS, groupKey } from "../src/lib/i18n/nav";
+import { EN, type UiKey } from "../src/lib/i18n/ui";
+import { UI_DICTS, NAV_DICTS } from "../src/lib/i18n/all";
+import { groupKey } from "../src/lib/i18n/nav";
 import { NAV_GROUPS } from "../src/lib/nav";
 import { LANGS } from "../src/lib/layer";
 

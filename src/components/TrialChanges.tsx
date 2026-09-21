@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { readPublicJson } from "@/lib/feed-meta";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import { statusClass } from "@/lib/text";
 
 /** Shape written by scripts/fetch-trials.ts (public/trials/changes.json). */

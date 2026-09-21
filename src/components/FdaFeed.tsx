@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { readPublicJson } from "@/lib/feed-meta";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 
 /** Shape written by scripts/fetch-fda.ts (public/fda/recent.json). */
 export type FdaSnapshot = {

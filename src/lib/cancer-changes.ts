@@ -1,5 +1,6 @@
-import type { Cancer, Drug, Kind, Trial } from "./schema";
-import { routeFor } from "./schema";
+import type { Kind } from "./kinds";
+import type { Cancer, Drug, Trial } from "./schema";
+import { routeFor } from "./kinds";
 import type { Graph } from "./graph";
 
 /**

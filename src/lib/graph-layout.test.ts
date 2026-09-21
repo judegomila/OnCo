@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { blurbOf, graphData } from "./graph-export";
 import { adjacency, fitChars, HUE, LABEL_MAX_NODES, layoutFocus, layoutOverview, NODE_R, RING, shortName } from "./graph-layout";
-import { KINDS } from "./schema";
+import { KINDS } from "./kinds";
 
 describe("graph explorer layout", () => {
   const data = graphData();

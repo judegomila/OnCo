@@ -3,7 +3,7 @@ import { graph } from "./graph";
 import { approvedRegions, regionalApprovals } from "@/data/regional-approvals";
 import type { PowerRow, Signals } from "./relevance";
 import type { Entity } from "./schema";
-import { routeFor } from "./schema";
+import { routeFor } from "./kinds";
 
 const EVIDENCE: Record<string, number> = { approved: 10, "standard-of-care": 10, positive: 8, "phase-3": 6, established: 6, completed: 5, recruiting: 4, active: 4, "phase-2": 4, emerging: 3, "phase-1": 2, preclinical: 1, concept: 0, mixed: 3, historic: 1, negative: 0, withdrawn: 0, planned: 1 };
 

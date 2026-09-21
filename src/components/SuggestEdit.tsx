@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Kind } from "@/lib/schema";
+import type { Kind } from "@/lib/kinds";
 import type { SourceLocation } from "@/lib/source-location";
 import { issueUrl, suggestEditUrl, entityRef, pageUrl } from "@/lib/issue-links";
 import { DiscussLink } from "./DiscussLink";

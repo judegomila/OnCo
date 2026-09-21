@@ -16,7 +16,7 @@ import { RowVisualFallback } from "./RowVisualFallback";
 import { CancerIcon } from "./CancerIcon";
 import { FrontIcon } from "./FrontIcon";
 import type { TargetSchematicTarget } from "./TargetSchematic";
-import type { Kind } from "@/lib/schema";
+import type { Kind } from "@/lib/kinds";
 import { fallbackSlot, visualSource } from "@/lib/row-visual";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";

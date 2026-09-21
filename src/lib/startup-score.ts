@@ -1,5 +1,6 @@
 import { graph, type Graph } from "./graph";
-import { routeFor, type Bottleneck, type Cancer, type Entity, type Idea, type Target } from "./schema";
+import { routeFor } from "./kinds";
+import { type Bottleneck, type Cancer, type Entity, type Idea, type Target } from "./schema";
 import { SURVIVAL_SITES } from "@/data/survival-map";
 import { GLOBOCAN, rowsForCancer } from "./globocan";
 import { readPublicJson } from "./feed-meta";

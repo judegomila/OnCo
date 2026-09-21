@@ -1,5 +1,6 @@
 import { graph } from "@/lib/graph";
-import { routeFor, type Cancer, type Drug, type Entity, type Technology, type Trial } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
+import { type Cancer, type Drug, type Entity, type Technology, type Trial } from "@/lib/schema";
 import { DrugGrid } from "./DrugCard";
 import { ChipList } from "./ui";
 import Link from "next/link";

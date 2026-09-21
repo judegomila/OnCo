@@ -10,7 +10,7 @@
  */
 import { graph } from "./graph";
 import { publicTags } from "./tags";
-import { routeFor, type Kind } from "./schema";
+import { routeFor, type Kind } from "./kinds";
 
 export type Similar = { id: string; score: number; shared: string[]; sharedTags: string[] };
 export type SimilarLink = { id: string; kind: Kind; name: string; route: string; score: number; shared: Array<{ id: string; name: string; route: string }>; sharedTags: string[] };

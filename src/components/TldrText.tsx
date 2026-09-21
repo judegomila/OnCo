@@ -2,6 +2,7 @@
 
 import { useLayer, type Lang } from "@/lib/layer";
 import { t } from "@/lib/i18n/ui";
+import { useLangDicts } from "@/lib/i18n/dict-store";
 import { reviewed } from "@/data/i18n/reviewed";
 import { tableKeyFor, useTable, type TldrTable } from "@/lib/tldr-tables";
 
@@ -31,6 +32,8 @@ export function translationMark(id: string, lang: Lang, hasTranslation: boolean)
  */
 export function TldrText({ id, tldr, simple: simpleProp, className = "" }: { id: string; tldr: string; simple?: string; className?: string }) {
   const [layer] = useLayer();
+  // The marks ("Reviewed", "MT", "EN") come from the chrome dictionary, loaded per language on demand.
+  useLangDicts(layer.lang);
   const table = useTable(layer.level === "simple" && simpleProp ? null : tableKeyFor(layer.level, layer.lang));
   let text = tldr;
   let mark: Mark | null = null;

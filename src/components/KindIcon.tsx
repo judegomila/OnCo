@@ -1,4 +1,4 @@
-import type { Kind } from "@/lib/schema";
+import type { Kind } from "@/lib/kinds";
 
 type P = { className?: string };
 const S = { fill: "none", stroke: "currentColor", strokeWidth: 1.5, strokeLinecap: "round" as const, strokeLinejoin: "round" as const };

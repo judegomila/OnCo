@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import { Section } from "./ui";
 import { RefChips } from "./RefChips";
 import { statusClass } from "@/lib/text";

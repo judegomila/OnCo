@@ -1,5 +1,6 @@
 import { graph } from "./graph";
-import { routeFor, type Cancer, type Entity } from "./schema";
+import { routeFor } from "./kinds";
+import { type Cancer, type Entity } from "./schema";
 import { lineOf, LINE_LABEL, type Line } from "./sequencing";
 import { evidenceFor } from "./evidence";
 import { singleFlags, type SingleFlag } from "./interactions";

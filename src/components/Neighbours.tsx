@@ -1,6 +1,7 @@
 import Link from "next/link";
-import type { Entity, Kind } from "@/lib/schema";
-import { KIND_META, KINDS } from "@/lib/schema";
+import type { Kind } from "@/lib/kinds";
+import type { Entity } from "@/lib/schema";
+import { KIND_META, KINDS } from "@/lib/kinds";
 import { KindName } from "./T";
 import type { SimilarLink } from "@/lib/similar";
 import { KIND_COLOR } from "@/lib/text";

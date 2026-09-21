@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { graph } from "@/lib/graph";
-import { routeFor, type Target } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
+import { type Target } from "@/lib/schema";
 
 type Row = { cancerId: string; pct: number | string; measure?: string; source?: string; note?: string };
 

@@ -1,5 +1,6 @@
 import { graph } from "@/lib/graph";
-import { routeFor, type Institution } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
+import { type Institution } from "@/lib/schema";
 import { readPublicJson } from "@/lib/feed-meta";
 import type { ResearchIndex } from "@/lib/research";
 import openalex from "../../public/openalex/institutions.json";

@@ -4,10 +4,18 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { loadSearch } from "./SearchBox";
-import { MoleculeSlot } from "./MoleculeSlot";
+import dynamic from "next/dynamic";
+import { loadSearch } from "@/lib/search-client";
+
+// The palette is in the root layout, so its static imports ship with every page. The molecule slot brings the
+// structure index and the 3D drawing code, which only matter once a reader has typed and a drug is in the results;
+// it is fetched then. The dialog never renders on the server (closed), so there is nothing to prerender.
+const MoleculeSlot = dynamic(() => import("./MoleculeSlot").then((m) => m.MoleculeSlot), {
+  ssr: false,
+  loading: () => <span className="inline-flex h-9 w-9 shrink-0 rounded-md border border-border bg-card" aria-hidden />,
+});
 import type { SearchDoc } from "@/lib/search-index";
-import { KIND_META } from "@/lib/schema";
+import { KIND_META } from "@/lib/kinds";
 import { KIND_COLOR, statusClass } from "@/lib/text";
 import { useT } from "@/lib/i18n/ui";
 

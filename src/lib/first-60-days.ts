@@ -1,7 +1,8 @@
 import { graph } from "./graph";
 
 type Graph = ReturnType<typeof graph>;
-import { routeFor, type Cancer, type Entity, type Trial } from "./schema";
+import { routeFor } from "./kinds";
+import { type Cancer, type Entity, type Trial } from "./schema";
 import { questionsFor } from "./questions";
 import { guidelineCancerIds } from "./guidelines";
 import { sequencingIndex } from "./sequencing";

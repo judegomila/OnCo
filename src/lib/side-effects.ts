@@ -1,5 +1,5 @@
 import { graph } from "./graph";
-import { routeFor } from "./schema";
+import { routeFor } from "./kinds";
 
 /**
  * Symptom-first index of product toxicities.

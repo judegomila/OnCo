@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { loadSearch } from "./SearchBox";
+import { loadSearch } from "@/lib/search-client";
 import { loadSemantic } from "@/lib/semantic-client";
 import { semanticSearch } from "@/lib/semantic";
 import { loadAskIndex } from "@/lib/ask-index";
@@ -10,7 +10,7 @@ import { answerQuestion, type AskResult } from "@/lib/ask-pipeline";
 import { INTENT_LABEL } from "@/lib/ask-intent";
 import { loadEntityRecord } from "@/lib/entity-client";
 import { answerText } from "@/lib/ask";
-import { KIND_META, type Kind } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/kinds";
 import { KIND_COLOR } from "@/lib/text";
 import { useT } from "@/lib/i18n/ui";
 import { useRegion } from "@/lib/region";

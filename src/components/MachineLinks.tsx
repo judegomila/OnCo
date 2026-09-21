@@ -1,5 +1,5 @@
 import type { Entity } from "@/lib/schema";
-import { KIND_META, routeFor } from "@/lib/schema";
+import { KIND_META, routeFor } from "@/lib/kinds";
 import { MACHINE, absoluteUrl, machineRoutes } from "@/lib/seo";
 import { MainDataAttrs } from "./MainDataAttrs";
 

@@ -4,7 +4,7 @@ import { answerText, composeAnswer, recordFromEntity, retrieveIds, sentences, ty
 import { benchmark, scoreAnswer } from "@/data/benchmark";
 import { askEval, askEvalNew, scoreAskEval } from "@/data/ask-eval";
 import { graph } from "./graph";
-import { routeFor } from "./schema";
+import { routeFor } from "./kinds";
 import { searchDocs, type SearchDoc } from "./search-index";
 import { buildSemanticIndex, semanticSearch } from "./semantic";
 import { semanticDocs } from "./semantic-docs";

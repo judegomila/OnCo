@@ -12,7 +12,7 @@ import { graph, type Graph } from "./graph";
 import { UNIVERSE, UNIVERSE_LISTS, type Denominator } from "@/data/universe";
 import { GLOBOCAN_MAP } from "@/data/globocan-map";
 import { regimens } from "@/data/regimens";
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 
 export type MissingItem = { name: string; url?: string; detail?: string };
 

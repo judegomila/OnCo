@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { loadSearch } from "./SearchBox";
+import { loadSearch } from "@/lib/search-client";
 import { KindIcon } from "./KindIcon";
 import type { SearchDoc } from "@/lib/search-index";
-import { KIND_META, type Kind } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/kinds";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { brokenLinkIssueUrl, kindFromPath, MISSED_PATHS_KEY, parseMissed, pathToQuery, recordMiss } from "@/lib/not-found-query";
 

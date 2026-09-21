@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { graph } from "./graph";
-import { KINDS } from "./schema";
+import { KINDS } from "./kinds";
 import { rankInstitutions } from "./ranking";
 
 describe("corpus", () => {

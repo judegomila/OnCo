@@ -1,5 +1,5 @@
 import type { Cancer, Drug, Term } from "./schema";
-import { routeFor } from "./schema";
+import { routeFor } from "./kinds";
 import type { Graph } from "./graph";
 import { redFlagsFor, type RedFlagAction, type RedFlagSet } from "@/data/red-flags";
 import { checkPairs, singleFlags, type Flag, type SingleFlag } from "./interactions";

@@ -4,7 +4,8 @@
  * public/api/v1/ask-index.json.
  */
 import { graph } from "./graph";
-import { routeFor, type Entity } from "./schema";
+import { routeFor } from "./kinds";
+import { type Entity } from "./schema";
 import { benchmark } from "@/data/benchmark";
 import { questions as patientQuestions } from "@/data/questions";
 import { buildMatcher, findMatches } from "./entity-matcher";

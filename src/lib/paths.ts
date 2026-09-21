@@ -3,7 +3,7 @@
  * that created it. Pure functions over a compact labelled graph (built server-side by paths-data.ts) so the
  * same code runs at build time, in the browser (/path/) and in the MCP server.
  */
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 
 export type PathNode = { id: string; kind: Kind; name: string; route: string };
 /** [from, to, via] where `via` indexes `vias` and the edge was declared on `from`. */

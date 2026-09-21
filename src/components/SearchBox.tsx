@@ -4,32 +4,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { searchHref } from "@/lib/search-query";
-import MiniSearch from "minisearch";
 import type { SearchDoc } from "@/lib/search-index";
-import { KIND_META } from "@/lib/schema";
+import { KIND_META } from "@/lib/kinds";
 import { KIND_COLOR } from "@/lib/text";
-import { loadSemantic } from "@/lib/semantic-client";
-import { semanticSearch } from "@/lib/semantic";
-
-let cache: Promise<{ ms: MiniSearch<SearchDoc>; docs: SearchDoc[]; byId: Map<string, SearchDoc> }> | null = null;
-
-export function loadSearch() {
-  if (!cache) {
-    cache = fetch("/api/v1/search.json")
-      .then((r) => { if (!r.ok) throw new Error("Search index unavailable"); return r.json(); })
-      .then((docs: SearchDoc[]) => {
-        const ms = new MiniSearch<SearchDoc>({
-          fields: ["name", "aka", "tldr", "tags", "id"],
-          storeFields: ["id", "kind", "name", "tldr", "route", "status", "cancers"],
-          searchOptions: { boost: { name: 4, aka: 3, id: 2 }, prefix: true, fuzzy: 0.2, boostDocument: (_id, _term, fields) => (fields?.kind === "page" ? 1.6 : 1) },
-        });
-        ms.addAll(docs);
-        return { ms, docs, byId: new Map(docs.map((d) => [d.id, d])) };
-      })
-      .catch((error) => { cache = null; throw error; });
-  }
-  return cache;
-}
+import { loadSearch } from "@/lib/search-client";
 
 type Hit = SearchDoc & { concept?: string[] };
 
@@ -58,7 +36,9 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
       const lexical = ms.search(value).slice(0, 12) as unknown as SearchDoc[];
       setResults(lexical);
       if (lexical.length >= FALLBACK_BELOW) return;
-      // Too few exact matches: add concept matches (paraphrases, linked names), labelled as such.
+      // Too few exact matches: add concept matches (paraphrases, linked names), labelled as such. The concept index
+      // code loads with the first fallback rather than with the page.
+      const [{ loadSemantic }, { semanticSearch }] = await Promise.all([import("@/lib/semantic-client"), import("@/lib/semantic")]);
       const index = await loadSemantic();
       if (!index || latest.current !== value) return;
       const seen = new Set(lexical.map((h) => h.id));

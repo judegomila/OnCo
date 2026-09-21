@@ -1,8 +1,8 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useState } from "react";
 import type { Target } from "@/lib/schema";
-import { targetSchematicFor } from "@/data/target-animations";
+import type { Mesh } from "@/lib/wireframe";
 import { Wireframe3D } from "./Wireframe3D";
 
 /**
@@ -10,8 +10,15 @@ import { Wireframe3D } from "./Wireframe3D";
  * Client component: the scene is built here (animation frames are functions, so they cannot be sent
  * from a server component), which also means callers need not register anything in data/schematics.ts.
  * Pass the whole Target or just `{ id, name, targetClass, tldr }`.
+ *
+ * The scene builders (src/data/target-animations.ts, which brings the shared animated-wave set with it, about
+ * 1 MB of script) are fetched when the first schematic mounts rather than imported statically: EntityDetail
+ * references this component for every record page, so a static import shipped them with every entity page.
+ * Until they arrive the canvas is drawn empty at its final height.
  */
 export type TargetSchematicTarget = Pick<Target, "id" | "name" | "targetClass" | "tldr">;
+
+const EMPTY: Mesh = { points: [], segments: [] };
 
 const ROLES: Array<{ role: string; meaning: string; cls: string; color?: string }> = [
   { role: "Target", meaning: "the protein and the cell it sits on", cls: "text-foreground" },
@@ -20,7 +27,15 @@ const ROLES: Array<{ role: string; meaning: string; cls: string; color?: string 
 ];
 
 export function TargetSchematic({ target, compact = false, height }: { target: TargetSchematicTarget; compact?: boolean; height?: string }) {
-  const { mesh, specific } = useMemo(() => targetSchematicFor(target), [target]);
+  const [built, setBuilt] = useState<{ id: string; mesh: Mesh; specific: boolean } | null>(null);
+  const { id, targetClass } = target;
+  useEffect(() => {
+    let live = true;
+    import("@/data/target-animations").then((m) => { if (live) setBuilt({ id, ...m.targetSchematicFor({ id, targetClass }) }); });
+    return () => { live = false; };
+  }, [id, targetClass]);
+  const ready = built?.id === target.id ? built : null;
+  const mesh = ready?.mesh ?? EMPTY;
   if (compact) return <Wireframe3D mesh={mesh} compact height={height ?? "h-28"} speed={0.22} />;
   return (
     <div className="card overflow-hidden">
@@ -29,7 +44,7 @@ export function TargetSchematic({ target, compact = false, height }: { target: T
         <div className="flex flex-wrap items-baseline justify-between gap-2">
           <div>
             <span className="font-medium">{target.name}: what it is and how drugs act on it</span>
-            <span className="text-muted"> · animated {specific ? "" : "generic "}schematic, not to scale</span>
+            <span className="text-muted"> · animated {ready && !ready.specific ? "generic " : ""}schematic, not to scale</span>
           </div>
           <ul className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted" aria-label="Legend">
             {ROLES.map((r) => (

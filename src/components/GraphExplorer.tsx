@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { GraphData, GraphNode } from "@/lib/graph-export";
 import { adjacency, DEFAULT_PER_KIND, fitChars, HUE, layoutFocus, layoutOverview, NODE_R, ORDER, OVERVIEW_INNER, OVERVIEW_OUTER, RING, shortName, type Placed } from "@/lib/graph-layout";
-import { KIND_META, type Kind } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/kinds";
 import { KIND_COLOR } from "@/lib/text";
 import { CancerIcon } from "./CancerIcon";
 import { FrontIcon } from "./FrontIcon";

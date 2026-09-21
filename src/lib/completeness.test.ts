@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { UNIVERSE, UNIVERSE_LISTS } from "@/data/universe";
 import { cancerKeys, companyKey, companyKeys, completeness, drugKeys, headline, host, institutionKeys, KEGG_TO_ONCO, nameParts, norm, pctOf, personKey, targetKeys } from "./completeness";
 import { graph } from "./graph";
-import { KINDS } from "./schema";
+import { KINDS } from "./kinds";
 import { parseKeggCancer, parseNciDrugs, parseNciTypes, parseNhsAlliances, sponsorFromOceSummary } from "../../scripts/fetch-universe";
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;

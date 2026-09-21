@@ -1,6 +1,6 @@
 import type { Roadmap } from "@/lib/schema";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import type { StoryStep } from "@/components/RoadmapStory";
 
 /** Resolve a roadmap's steps and their refs into the plain data the story component needs. */

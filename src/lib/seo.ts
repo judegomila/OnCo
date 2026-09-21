@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { KIND_META, routeFor, type Entity, type Kind } from "./schema";
+import { KIND_META, routeFor, type Kind } from "./kinds";
+import type { Entity } from "./schema";
 
 /** Canonical origin. Every canonical URL, sitemap entry and JSON-LD `url` is built from this. */
 export const SITE = "https://onco.cc";

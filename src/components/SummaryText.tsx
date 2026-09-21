@@ -5,7 +5,7 @@ import { LANGS, useLayer } from "@/lib/layer";
 import { dirFor, useT } from "@/lib/i18n/ui";
 import { paragraphs } from "@/lib/text";
 import { translationFixUrl } from "@/lib/issue-links";
-import type { Kind } from "@/lib/schema";
+import type { Kind } from "@/lib/kinds";
 import type { SummaryLang, SummaryTranslations } from "@/lib/summary-translations";
 
 /**

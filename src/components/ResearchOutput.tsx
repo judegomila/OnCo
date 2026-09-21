@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { readPublicJson } from "@/lib/feed-meta";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import { matchAuthorToPerson, type InstitutionResearch } from "@/lib/research";
 
 /** Snapshot for one institution written by scripts/fetch-institution-research.ts, or null before the first fetch. */

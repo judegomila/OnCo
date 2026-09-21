@@ -240,6 +240,7 @@ export const zh: UiDict = {
   "l.Papers": "论文",
   "l.Cases by country": "各国病例",
   "l.State of the art": "最新进展",
+  "l.Outlook": "预后",
   "l.Standard of care": "标准治疗",
   "l.Subtypes & biomarkers": "亚型与生物标志物",
   "l.Subtypes": "亚型",

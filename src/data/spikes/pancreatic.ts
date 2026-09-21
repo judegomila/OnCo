@@ -193,12 +193,16 @@ const entities: EntityInput[] = [
 
   // ======================= PAIRINGS =======================
   {
-    id: "g12d-plus-pan-ras", kind: "pairing", name: "G12D-selective + pan-RAS(ON) inhibitor (zoldonrasib + daraxonrasib)", a: "zoldonrasib", b: "daraxonrasib", pairingType: "combination", asOf,
+    id: "g12d-plus-pan-ras", kind: "pairing", name: "G12D-selective + pan-RAS(ON) inhibitor (zoldonrasib + daraxonrasib)", a: "zoldonrasib", b: "daraxonrasib", pairingType: "combination", asOf: "2026-09-21",
     tldr: "A drug that hits the exact mutation plus a drug that hits every RAS protein, so the tumour cannot escape through a wild-type RAS cousin.",
-    summary: "This combination pairs zoldonrasib, a KRAS G12D-selective inhibitor, with daraxonrasib, a pan-RAS(ON) inhibitor, in pancreatic ductal adenocarcinoma carrying the G12D mutation. The mutant-selective drug spares normal tissue, while the pan-RAS drug blocks the wild-type RAS and secondary-mutation escape routes that limit single agents, giving vertical suppression of adaptive RAS reactivation along the RAS/RAF/MEK/ERK pathway. The evidence comes from a phase 1/2 study in second-line RAS G12D metastatic disease presented at ESMO GI 2026, which reported a high response rate and disease control with a manageable safety profile. It illustrates how a mutation-specific and a pathway-wide inhibitor can be layered so that the tumour cannot escape through a wild-type RAS relative.",
+    summary: "This combination pairs zoldonrasib, a KRAS G12D-selective inhibitor, with daraxonrasib, a pan-RAS(ON) inhibitor, in pancreatic ductal adenocarcinoma carrying the G12D mutation. The mutant-selective drug spares normal tissue, while the pan-RAS drug blocks the wild-type RAS and secondary-mutation escape routes that limit single agents, giving vertical suppression of adaptive RAS reactivation along the RAS/RAF/MEK/ERK pathway. The clinical evidence comes from RMC-9805-001 (NCT06040541), registered as a phase 1/1b study of zoldonrasib alone or with daraxonrasib in KRAS G12D-mutant solid tumours. At ESMO GI 2026 (abstract 341O) Revolution Medicines reported the combination in 60 patients with RAS G12D metastatic pancreatic cancer after one or more prior lines of therapy (30 second-line, 30 third-line or later; data cutoff 9 February 2026): objective response 50% in the second-line cohort and 47% in the later-line cohort, with disease control of 97% and 90%, per the company release. These are company-reported figures from a small, non-randomised cohort, not a registry result or a peer-reviewed publication. It illustrates how a mutation-specific and a pathway-wide inhibitor can be layered so that the tumour cannot escape through a wild-type RAS relative.",
     rationale: "Mutant-selective inhibition spares normal tissue, while pan-RAS coverage blocks the wild-type RAS and secondary-mutation escape routes seen with single agents.",
-    evidence: "Phase 1/2, n=60, 2026.",
-    drugs: ["zoldonrasib", "daraxonrasib"], cancers: ["pancreatic"], targets: ["kras"], pathways: ["ras-mapk"],
+    evidence: "Phase 1/1b (RMC-9805-001, NCT06040541); combination cohort n=60 in previously treated RAS G12D metastatic PDAC (30 second-line, 30 third-line or later), company report at ESMO GI 2026.",
+    drugs: ["zoldonrasib", "daraxonrasib"], cancers: ["pancreatic"], targets: ["kras"], pathways: ["ras-mapk"], trials: ["nct06040541"],
+    links: [
+      { label: "ClinicalTrials.gov NCT06040541 (RMC-9805-001)", url: "https://clinicaltrials.gov/study/NCT06040541" },
+      { label: "Revolution Medicines release, ESMO GI 2026 abstract 341O (GlobeNewswire, 2 July 2026)", url: "https://www.globenewswire.com/news-release/2026/07/02/3321282/0/en/revolution-medicines-presents-phase-1-2-clinical-data-for-zoldonrasib-combination-regimens-in-patients-with-ras-g12d-metastatic-pancreatic-cancer-at-esmo-gastrointestinal-cancers-c.html" },
+    ],
   },
 ];
 

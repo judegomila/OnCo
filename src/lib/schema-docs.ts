@@ -114,6 +114,7 @@ const KIND_FALLBACK: Record<string, string> = {
   pipeline: "Ids of products, technologies, trials and ideas that could change practice.",
   openProblems: "What is still unsolved, one paragraph each.",
   stateOfArt: "What the best care looks like today, one paragraph per point.",
+  prognosis: "Plain-English outlook: what moves survival and the headline population figures, with sources. Shown behind the survival disclosure.",
   order: "Position of the front in the navigation.",
   icon: "Icon id for the front.",
   principle: "How the technology works, for a technical reader.",

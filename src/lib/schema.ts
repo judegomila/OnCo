@@ -159,6 +159,12 @@ export const CancerSchema = Base.extend({
     staging: z.array(z.string()).default([]),
     sources: z.array(ExternalLinkSchema).default([]),
   }).optional(),
+  /**
+   * Outlook in plain English: what moves survival for this cancer (stage at diagnosis, subtype, treatment) and the
+   * headline population figures, with the statistics pages they were read from. Rendered behind the same survival
+   * disclosure as the other averaged figures, so nobody meets a number before the context that qualifies it.
+   */
+  prognosis: z.object({ text: z.string().min(1), sources: z.array(ExternalLinkSchema).default([]) }).optional(),
   /** The broader cancer this record is a subtype of (pleural mesothelioma -> mesothelioma); the parent page lists its subtypes at the top. */
   parent: id.optional(),
 });

@@ -240,6 +240,7 @@ export const ar: UiDict = {
   "l.Papers": "الأوراق",
   "l.Cases by country": "الحالات حسب البلد",
   "l.State of the art": "أحدث ما وصل إليه العلم",
+  "l.Outlook": "التوقعات",
   "l.Standard of care": "العلاج المعياري",
   "l.Subtypes & biomarkers": "الأنواع الفرعية والواسمات الحيوية",
   "l.Subtypes": "الأنواع الفرعية",

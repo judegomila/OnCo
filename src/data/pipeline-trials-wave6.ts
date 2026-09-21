@@ -9670,4 +9670,10 @@ export const pipelineTrialsWave6: TrialInput[] = [
     summary: "Investigation of a Therapeutic Vaccine (ACIT-1) in Cancer is a phase 1/2 interventional study registered as NCT03096093 by Cancer Vaccines Limited, with 34 participants enrolled, started 2017-04-25 and due to reach its primary completion in 2026-12. Interventions recorded: ACIT-1.",
     drugs: [], cancers: ["metastatic-cancer"],
     links: [{ label: "ClinicalTrials.gov NCT03096093", url: "https://clinicaltrials.gov/study/NCT03096093" }] },
+  { id: "nct06040541", aka: ["RMC-9805-001"], kind: "trial", name: "Study of RMC-9805 in Participants With KRAS G12D-Mutant Solid Tumors", nct: "NCT06040541", phase: "1", status: "recruiting", sponsor: "Revolution Medicines, Inc.", enrolled: 604, asOf: "2026-09-21", tags,
+    setting: "Phase 1/1b, Multicenter, Open-Label, Study of RMC 9805 in Participants With Advanced KRASG 12D-Mutant Solid Tumors",
+    tldr: "A phase 1 trial of zoldonrasib (RMC-9805) alone or with daraxonrasib (RMC-6236) in KRAS G12D-mutant solid tumours, including pancreatic, bowel and non-small-cell lung cancer, run by Revolution Medicines, now recruiting.",
+    summary: "Study of RMC-9805 in Participants With KRAS G12D-Mutant Solid Tumors is a phase 1/1b interventional study registered as NCT06040541 by Revolution Medicines, Inc., with an estimated 604 participants across the whole study. Two arms are recorded: RMC-9805 (zoldonrasib) monotherapy and RMC-9805 plus RMC-6236 (daraxonrasib). Conditions listed: non-small cell lung cancer, colorectal cancer, pancreatic ductal adenocarcinoma and advanced solid tumours. The registry carries no results; the combination cohort figures reported by the sponsor at ESMO GI 2026 sit on the pairing record g12d-plus-pan-ras.",
+    drugs: ["zoldonrasib", "daraxonrasib"], cancers: ["pancreatic", "colorectal", "nsclc"], companies: ["revolution-medicines"], targets: ["kras"],
+    links: [{ label: "ClinicalTrials.gov NCT06040541", url: "https://clinicaltrials.gov/study/NCT06040541" }] },
 ];

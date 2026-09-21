@@ -240,6 +240,7 @@ export const ja: UiDict = {
   "l.Papers": "論文",
   "l.Cases by country": "国別の患者数",
   "l.State of the art": "最先端",
+  "l.Outlook": "見通し",
   "l.Standard of care": "標準治療",
   "l.Subtypes & biomarkers": "サブタイプとバイオマーカー",
   "l.Subtypes": "サブタイプ",

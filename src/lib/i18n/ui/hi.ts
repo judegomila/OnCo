@@ -240,6 +240,7 @@ export const hi: UiDict = {
   "l.Papers": "शोधपत्र",
   "l.Cases by country": "देश के अनुसार मामले",
   "l.State of the art": "अत्याधुनिक स्थिति",
+  "l.Outlook": "पूर्वानुमान",
   "l.Standard of care": "मानक उपचार",
   "l.Subtypes & biomarkers": "उपप्रकार और बायोमार्कर",
   "l.Subtypes": "उपप्रकार",

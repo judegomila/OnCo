@@ -677,6 +677,24 @@ function CancerBasics({ c }: { c: Cancer }) {
   );
 }
 
+/**
+ * The outlook paragraph. Sentences quoting survival fold behind the same disclosure as the state-of-the-art figures;
+ * what stays visible is the context (stage, subtype, treatment) and the link to the stage-by-stage table.
+ */
+function CancerOutlook({ c }: { c: Cancer }) {
+  const p = c.prognosis;
+  if (!p) return null;
+  const sources = p.sources.length > 0 && (
+    <span className="text-xs text-muted">Sources: {p.sources.map((s, i) => <span key={s.url}>{i > 0 && ", "}<a href={s.url} className="underline" rel="noopener noreferrer">{s.label}</a></span>)}</span>
+  );
+  return (
+    <Block title="Outlook" aside={sources}>
+      <div className="text-[15px] leading-relaxed"><SurvivalDisclosure text={p.text} skipId={c.id} /></div>
+      <p className="text-xs text-muted mt-2"><Link href="/survival/" className="underline">Five-year survival by stage for every cancer →</Link></p>
+    </Block>
+  );
+}
+
 function cancerTabs(c: Cancer): Tab[] {
   const g = graph();
   const forMe = g.forCancer(c.id);
@@ -688,6 +706,7 @@ function cancerTabs(c: Cancer): Tab[] {
       <Summary e={c} />
       <CancerBasics c={c} />
       <Block title="State of the art"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
+      <CancerOutlook c={c} />
       <RedCardsStrip cancer={c} />
       {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1"><TL text="Treatment journeys" /></div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}
       {organFor(c.id) && <Block title="Anatomy and lymph node drainage"><OrganSchematic cancerId={c.id} /></Block>}

@@ -278,6 +278,7 @@ export const EN = {
   "l.Papers": "Papers",
   "l.Cases by country": "Cases by country",
   "l.State of the art": "State of the art",
+  "l.Outlook": "Outlook",
   "l.Standard of care": "Standard of care",
   "l.Subtypes & biomarkers": "Subtypes & biomarkers",
   "l.Subtypes": "Subtypes",

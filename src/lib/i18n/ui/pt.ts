@@ -240,6 +240,7 @@ export const pt: UiDict = {
   "l.Papers": "Artigos",
   "l.Cases by country": "Casos por país",
   "l.State of the art": "Estado da arte",
+  "l.Outlook": "Prognóstico",
   "l.Standard of care": "Tratamento padrão",
   "l.Subtypes & biomarkers": "Subtipos e biomarcadores",
   "l.Subtypes": "Subtipos",

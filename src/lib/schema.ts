@@ -323,7 +323,7 @@ export type RoadmapWatch = z.infer<typeof RoadmapWatchSchema>;
 export const RoadmapSchema = Base.extend({
   kind: z.literal("roadmap"),
   steps: z.array(RoadmapStepSchema).min(2),
-  /** What to watch next, with expected dates where a source states them. Rendered under the steps and read by scripts/ctdna-watch.ts. */
+  /** What to watch next, with expected dates where a source states them. Rendered under the steps and checked against the registries by scripts/roadmap-watch.ts. */
   watch: z.array(RoadmapWatchSchema).default([]),
 });
 

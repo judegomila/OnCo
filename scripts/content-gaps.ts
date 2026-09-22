@@ -13,6 +13,7 @@
 import { readFileSync } from "node:fs";
 import { graph } from "../src/lib/graph";
 import { GLOBOCAN_MAP } from "../src/data/globocan-map";
+import { regionalApprovals } from "../src/data/regional-approvals";
 import type { Cancer, Drug, Entity, Trial } from "../src/lib/schema";
 
 const LINK_RATE = 350; // links or mechanical records per agent-hour
@@ -82,12 +83,13 @@ for (const c of cancers) for (const s of c.subtypes) {
 }
 
 // Drugs: EMA oncology products the register lists and the corpus lacks; FDA notifications with no drug id.
-const ema = JSON.parse(readFileSync("public/regional/candidates.json", "utf8")) as { candidates: Array<{ region: string; product: string; inn: string; reason: string; indication: string; url: string }> };
+const ema = JSON.parse(readFileSync("public/regional/candidates.json", "utf8")) as { candidates: Array<{ region: string; drugId?: string; product: string; inn: string; reason: string; indication: string; url: string }> };
 const fda = JSON.parse(readFileSync("public/fda/recent.json", "utf8")) as { oce: Array<{ title: string; drugIds: string[] }> };
 const ONCOLOGY = /\b(cancer|carcinoma|sarcoma|lymphoma|leukaemia|leukemia|myeloma|tumou?rs?|melanoma|neoplasm|mycosis fungoides|s[ée]zary|glioma|blastoma|myelodysplastic|myelofibrosis|mastocytosis|oncolog|metasta|antineoplastic|malignan)\b/i;
 const emaSeen = new Set<string>();
 const emaMissingDrugs = ema.candidates.filter((c) => { if (c.reason !== "not-in-corpus" || !ONCOLOGY.test(c.indication)) return false; const k = norm(c.inn); if (emaSeen.has(k)) return false; emaSeen.add(k); return true; });
-const emaMissingRows = ema.candidates.filter((c) => c.reason === "missing-row");
+/** Register products whose drug still has no EU entry in regional-approvals.ts: the snapshot's "missing-row" list is checked against the live table, since rows are added between fetches. */
+const emaMissingRows = ema.candidates.filter((c) => c.reason === "missing-row" && !(c.drugId && regionalApprovals[c.drugId]?.EU));
 const fdaUnmatched = fda.oce.filter((x) => !x.drugIds?.length);
 
 // Targets named by drug records that have no target page.
@@ -272,7 +274,8 @@ const peopleNoPapersWithInstitution = peopleNoPapers.filter((p) => p.institution
 const targetsNoDrugs = targets.filter((t) => t.drugs.length === 0 && !drugs.some((d) => d.targets.includes(t.id)));
 /** Targets whose own `drugs` array is empty although drugs point at them: the reverse array can be filled from the corpus alone. */
 const targetsDrugsOneWay = targets.filter((t) => t.drugs.length === 0 && drugs.some((d) => d.targets.includes(t.id)));
-const targetsNoDrugsNamed = targetsNoDrugs.filter((t) => { const keys = [t.name, ...t.aka, t.symbol ?? ""].filter(Boolean).map(norm); return drugs.some((d) => { const txt = norm(d.mechanism + " " + d.name + " " + d.tldr); return keys.some((k) => k.length >= 3 && txt.includes(k)); }); });
+/** Whole-word only: CD7 inside "CD70" or "CD73" is not a mention (substring matching produced only false positives here). */
+const targetsNoDrugsNamed = targetsNoDrugs.filter((t) => { const keys = [t.name, ...t.aka, t.symbol ?? ""].filter((k) => k.length >= 3).map((k) => new RegExp(`(^|[^A-Za-z0-9])${k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?=$|[^A-Za-z0-9])`, "i")); return drugs.some((d) => { const txt = d.mechanism + " " + d.name + " " + d.tldr; return keys.some((re) => re.test(txt)); }); });
 const drugsNoTrials = drugs.filter((d) => d.trials.length === 0 && !trials.some((t) => t.drugs.includes(d.id)));
 const drugsNoTrialsNamedInTrials = drugsNoTrials.filter((d) => { const keys = [d.name, ...d.aka, d.brand ?? "", d.code ?? ""].filter((k) => k.length >= 4).map(norm); return trials.some((t) => { const txt = norm(t.name + " " + t.aka.join(" ") + " " + t.summary); return keys.some((k) => txt.includes(k)); }); });
 const techNoTrials = technologies.filter((t) => t.trials.length === 0 && !trials.some((tr) => tr.technologies.includes(t.id)));

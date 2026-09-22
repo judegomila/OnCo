@@ -1,0 +1,38 @@
+src/data/papers-people-wave6.ts
+  s_0beac9cb5d78fd::t_22cb18c1a2f4ea 18-63
+  s_0beac9cb5d78fd::t_a1690a6090a489 1-17,64
+scripts/fetch-people-papers.ts
+  s_0beac9cb5d78fd::t_22cb18c1a2f4ea 61,269
+  s_0beac9cb5d78fd::t_0327f9b9146a7a 100,105-106,171-172
+  s_0beac9cb5d78fd::t_dd73fad516d1aa 33-34,44,220,281,330-331
+  s_0beac9cb5d78fd::t_5a662bfef260c1 1-32,35-43,45-60,62,64-68,70-80,84,86,88-91,97-99,101-104,107-113,128-170,173-206,208-209,211-219,221-227,229-262,264-268,270-277,279-280,282-283,285-329,332-334
+  s_0beac9cb5d78fd::t_bab4d568fcb901 207,210,278,284
+  s_0beac9cb5d78fd::t_32f7792c16d4eb 63,69,81-83,85,87,92-96,114-127,228,263
+scripts/wave6-shared.ts
+  s_0beac9cb5d78fd::t_dd73fad516d1aa 189-212
+  s_0beac9cb5d78fd::t_498e718f6c0792 1-188,213
+public/citations/index.json
+  s_0beac9cb5d78fd::t_dd73fad516d1aa 1
+src/data/index.ts
+  s_0beac9cb5d78fd::t_d31753b7957f30 37-38,173,229-234
+src/data/person-papers-wave6.ts
+  s_0beac9cb5d78fd::t_bab4d568fcb901 13-16,18-25,27,29-30
+  s_0beac9cb5d78fd::t_0d3210730fdfb3 1-12,31-33,36
+  s_0beac9cb5d78fd::t_22cb18c1a2f4ea 17,26,28,34-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "18d17bb1bdca8818b5f90ea09583631ac8c3d18e",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

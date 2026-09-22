@@ -55,6 +55,15 @@ const MSS = [/\bMSS\b/i, /microsatellite[- ]stable/i, /\bpMMR\b/i, /mismatch[- ]
 /** Bispecific, CAR or ADC constructs that name a target the patients were not selected for. */
 const CONSTRUCT = /\bCAR[- ]?(T|NK)\b|mesothelin|\bMSLN\b/i;
 
+/** Family names for `near` on the subtype pages added 20 and 21 Sept 2026; HODGKIN rejects "Non-Hodgkin" because the ingestion maps NHL trials to the Hodgkin parent. */
+const HODGKIN = /(?<!non[- ])(?<!non)hodgkin|\bcHL\b|\bHL\b/i, PANC = /pancrea|\bPDAC\b|\bmPDAC\b/i, ACC = /adrenocortical|adrenal cortical|\bACC\b/i, SBA = /small (bowel|intestin)|duoden|jejun|ileal|\bSBA\b/i;
+const CUP = /unknown primary|\bCUP\b/i, GTN = /trophoblastic|\bGTN\b|choriocarcinoma|molar pregnancy|hydatidiform/i, PPGL = /ph(a)?eochromocytoma|paraganglioma|\bPPGLs?\b/i, NPC = /nasopharyn|\bNPC\b/i;
+const LCH = /Langerhans|\bLCH\b/i, MASTO = /mastocytosis|\bSM\b|\bAdvSM\b|\bISM\b/i, ANAL = /\banal\b|\banus\b|\bSCCA\b|\bSCAC\b/i, PENIS = /penile|\bpenis\b/i, VAGINA = /vagina/i, VULVA = /vulva/i;
+const LOCALISED = /locali[sz]ed|non-?metastatic|(?<!un)(?<!borderline )(?<!borderline-)resectable|resected|\badjuvant\b|early[- ]stage|stage (I|II|III|IA|IB|IIA|IIB|IIIA|IIIB)\b(?!I*V)/i;
+const METASTATIC = /metastatic|unresectable|inoperable|stage IV\b|recurrent|\badvanced\b/i;
+/** Neuroendocrine trials the ingestion mapped to the pancreatic parent: not ductal adenocarcinoma, so the PDAC state rules skip them. */
+const NET = /neuroendocrine|\bNETs?\b|GEP-?NETs?|\bpNETs?\b/i;
+
 /** Tokens from each subtype's name and aliases, with the exclusions the review needed. Keep alphabetical by parent. */
 export const RULES: Rule[] = [
   // acute lymphoblastic leukaemia
@@ -72,6 +81,17 @@ export const RULES: Rule[] = [
   { subtype: "aml-paediatric", parents: ["aml"], any: [PAED] },
   { subtype: "aml-secondary", parents: ["aml"], any: [/secondary AML|\bsAML\b/i, /therapy[- ]related/i, /\bt-AML\b/i, /myelodysplasia[- ]related/i, /AML.{0,20}(from|following|after|post).{0,20}(MDS|MPN|myelodysplastic)/i] },
   { subtype: "apl", parents: ["aml"], any: [/promyelocytic/i, /\bAPL\b/, /PML[-:]*RARA/i] },
+  // adrenocortical carcinoma
+  { subtype: "localised-adrenocortical-carcinoma", parents: ["adrenocortical"], any: [LOCALISED, /ENSAT (stage )?(I|II|III)\b(?!I*V)/i], none: [METASTATIC], near: ACC },
+  { subtype: "advanced-adrenocortical-carcinoma", parents: ["adrenocortical"], any: [METASTATIC, /ENSAT (stage )?IV\b/i], none: [/\badjuvant\b|resected/i], near: ACC },
+  // anal cancer
+  { subtype: "anal-hsil-precursor", parents: ["anal"], any: [/\bHSIL\b|high[- ]grade squamous intraepithelial|intraepithelial neoplasia|\bAIN\b|dysplasia|precancer/i], near: ANAL },
+  { subtype: "localised-anal-cancer", parents: ["anal"], any: [LOCALISED, /chemoradi|locally advanced/i], none: [/metastatic|recurrent|stage IV\b|unresectable|inoperable|\bHSIL\b|intraepithelial/i], near: ANAL },
+  { subtype: "metastatic-anal-cancer", parents: ["anal"], any: [METASTATIC], none: [/chemoradi|definitive|\bHSIL\b|intraepithelial/i], near: ANAL },
+  // appendiceal cancer
+  { subtype: "low-grade-appendiceal-mucinous-neoplasm", parents: ["appendiceal"], any: [/pseudomyxoma|\bPMP\b|\bLAMN\b|low[- ]grade (appendiceal )?mucinous|mucinous carcinoma peritonei|adenomucinosis/i] },
+  { subtype: "appendiceal-adenocarcinoma", parents: ["appendiceal"], any: [/appendi\w* (adeno)?carcinoma|(adeno)?carcinoma of the appendix|appendi\w* cancer|signet ring/i], none: [/goblet/i] },
+  { subtype: "goblet-cell-adenocarcinoma", parents: ["appendiceal"], any: [/goblet cell|crypt cell|adenoneuroendocrine carcinoma of the appendix/i] },
   // basal and squamous skin cancers
   { subtype: "locally-advanced-bcc", parents: ["basal-cell-carcinoma"], any: [/locally advanced|metastatic|\badvanced\b|unresectable/i], near: /basal[- ]cell|\bBCC\b/i },
   { subtype: "advanced-cutaneous-scc", parents: ["cutaneous-scc"], any: [/locally advanced|metastatic|\badvanced\b|unresectable/i], near: /cutaneous squamous|\bcSCC\b|squamous cell carcinoma of the skin/i },
@@ -112,6 +132,9 @@ export const RULES: Rule[] = [
   { subtype: "hr-positive-metastatic-post-cdk46", parents: ["breast-hr-positive"], any: [/(after|following|prior|progress\w*|previously treated|pre-?treated|resistan\w*|failure|exposed|received)[^.]{0,80}CDK ?4\/6/i, /CDK ?4\/6[^.]{0,80}(progress\w*|prior|previous\w*|pre-?treat\w*|failure|resistan\w*|exposed|after)/i, gene("ESR1"), gene("PIK3CA"), /\bAKT1?\b/, /\bPTEN\b/, /endocrine[- ]resistan/i, /post[- ]CDK/i], all: [ADVANCED_BREAST], none: [EARLY_BREAST, /first[- ]line|untreated|treatment[- ]na[iï]ve|endocrine[- ]sensitive|received no prior|no prior (systemic|therapy|treatment)/i], near: BREAST },
   { subtype: "tnbc-early", parents: ["tnbc"], any: [EARLY_BREAST], none: [ADVANCED_BREAST], near: BREAST },
   { subtype: "tnbc-metastatic", parents: ["tnbc"], any: [ADVANCED_BREAST], none: [EARLY_BREAST], near: BREAST },
+  // cancer of unknown primary
+  { subtype: "cup-favourable-subsets", parents: ["cancer-of-unknown-primary"], any: [/(?<!un)favou?rable|specific subset|treatable subset|presumed primary|squamous cell carcinoma of unknown primary|neuroendocrine carcinoma of unknown primary|cervical (lymph )?node|axillary/i], near: CUP },
+  { subtype: "cup-unfavourable", parents: ["cancer-of-unknown-primary"], any: [/unfavou?rable|poor[- ](prognosis|risk)|non-?specific|adenocarcinoma|poorly differentiated|empiric|platinum|paclitaxel|carboplatin|first[- ]line|chemotherapy/i], none: [/(?<!un)favou?rable/i], near: CUP },
   // cervical
   { subtype: "early-cervical-cancer", parents: ["cervical"], any: [/early[- ]stage|stage IA|stage IB1|stage IB2|radical hysterectomy|trachelectomy|fertility[- ]sparing/i], none: [/locally advanced|metastatic|recurrent|persistent/i], near: CERVIX },
   { subtype: "locally-advanced-cervical-cancer", parents: ["cervical"], any: [/locally advanced|stage IB3|stage II\b|stage III\b|stage IVA\b|chemoradi|\bLACC\b|node[- ]positive/i], none: [/metastatic|recurrent|persistent|stage IVB/i], near: CERVIX },
@@ -161,6 +184,10 @@ export const RULES: Rule[] = [
   { subtype: "gist-imatinib-resistant", parents: ["gist"], any: [/imatinib[- ](resistant|refractory|intolerant)/i, /(after|following|progress\w*( on)?|failure of|failed|prior|previously treated with|pre-?treated with|refractory to|resistant to)[^.]{0,30}imatinib/i, /(second|third|fourth)[- ]line/i, /prior (tyrosine kinase|TKI)/i], none: [/PDGFRA|D842V/i] },
   { subtype: "gist-kit-exon-11", parents: ["gist"], any: [/exon ?11/i] },
   { subtype: "gist-pdgfra-d842v", parents: ["gist"], any: [/PDGFRA|D842V/i] },
+  // gestational trophoblastic neoplasia
+  { subtype: "low-risk-gtn", parents: ["gestational-trophoblastic"], any: [/low[- ]risk|post-?molar|methotrexate|actinomycin|single[- ]agent|invasive mole|persistent trophoblastic/i], none: [/high[- ]risk/i], near: GTN },
+  { subtype: "high-risk-gtn", parents: ["gestational-trophoblastic"], any: [/high[- ]risk|\bEMA[- \/]?CO\b|multi-?agent|ultra[- ]high|EP-EMA/i], none: [/(?<!ultra[- ])low[- ]risk/i], near: GTN },
+  { subtype: "placental-site-trophoblastic-tumour", parents: ["gestational-trophoblastic"], any: [/placental[- ]site|epithelioid trophoblastic|\bPSTT\b|\bETT\b|intermediate trophoblastic/i] },
   // hepatocellular carcinoma
   { subtype: "hcc-advanced", parents: ["hcc"], any: [/\badvanced\b|unresectable|metastatic|BCLC[- ](stage )?C\b|portal vein/i], none: [/adjuvant|(?<!un)resectable|resected|intermediate|BCLC[- ](stage )?[AB]\b|\bTACE\b|transarterial|ablation|\bearly\b|transplant/i], near: LIVER },
   { subtype: "hcc-intermediate", parents: ["hcc"], any: [/intermediate/i, /BCLC[- ](stage )?B\b/i, /\bTACE\b|transarterial chemoemboli/i], none: [/adjuvant|resected|\bearly\b|BCLC[- ](stage )?A\b/i], near: LIVER },
@@ -179,6 +206,17 @@ export const RULES: Rule[] = [
   { subtype: "adenoid-cystic-carcinoma", parents: ["salivary-gland", "head-and-neck"], any: [/adenoid cystic/i] },
   { subtype: "mucoepidermoid-carcinoma", parents: ["salivary-gland", "head-and-neck"], any: [/mucoepidermoid/i] },
   { subtype: "salivary-duct-carcinoma", parents: ["salivary-gland", "head-and-neck"], any: [/salivary duct/i] },
+  // histiocytoses
+  { subtype: "erdheim-chester-disease", parents: ["histiocytoses", "langerhans-cell-histiocytosis"], any: [/Erdheim|\bECD\b/] },
+  { subtype: "rosai-dorfman-disease", parents: ["histiocytoses", "langerhans-cell-histiocytosis"], any: [/Rosai|Dorfman|\bRDD\b|sinus histiocytosis/i] },
+  // Hodgkin lymphoma (the ingestion also maps NHL trials to this parent, so every rule needs a genuine Hodgkin mention)
+  { subtype: "early-stage-classical-hodgkin-lymphoma", parents: ["hodgkin-lymphoma"], any: [/early[- ]stage|limited[- ]stage|stage (I|II|IA|IB|IIA|IIB)\b(?!I*V)|early favou?rable|early unfavou?rable|locali[sz]ed/i], none: [/advanced[- ]stage|stage (III|IV)\b|relapsed|refractory|\bR\/R\b/i], near: HODGKIN },
+  { subtype: "advanced-stage-classical-hodgkin-lymphoma", parents: ["hodgkin-lymphoma"], any: [/advanced[- ]stage|stage (III|IV)\b|\badvanced\b/i], none: [/early[- ]stage|limited[- ]stage|relapsed|refractory|\bR\/R\b/i], near: HODGKIN },
+  { subtype: "nodular-lymphocyte-predominant-hodgkin-lymphoma", parents: ["hodgkin-lymphoma"], any: [/nodular lymphocyte|lymphocyte[- ]predominant|\bNLPHL\b|\bNLPBL\b/i] },
+  { subtype: "relapsed-refractory-hodgkin-lymphoma", parents: ["hodgkin-lymphoma"], any: [RELAPSED], none: [NEWLY], near: HODGKIN },
+  // Langerhans cell histiocytosis
+  { subtype: "lch-single-system", parents: ["langerhans-cell-histiocytosis", "histiocytoses"], any: [/single[- ]system|\bSS-LCH\b|unifocal|eosinophilic granuloma|skin[- ]only|bone[- ]only|pulmonary Langerhans/i], none: [/multi-?system|\bMS-LCH\b/i], near: LCH },
+  { subtype: "lch-multisystem", parents: ["langerhans-cell-histiocytosis", "histiocytoses"], any: [/multi-?system|\bMS-LCH\b|risk[- ]organ|Letterer|Hand-Sch/i], none: [/single[- ]system|\bSS-LCH\b/i], near: LCH },
   // lung: non-small-cell
   { subtype: "alk-positive-nsclc", parents: ["nsclc"], any: [gene("ALK")], none: [neg("ALK")] },
   { subtype: "braf-v600e-nsclc", parents: ["nsclc"], any: [gene("BRAF")], none: [neg("BRAF")] },
@@ -195,6 +233,9 @@ export const RULES: Rule[] = [
   // lung: small-cell
   { subtype: "extensive-stage-sclc", parents: ["sclc"], any: [/extensive[- ](stage|disease)|\bES-SCLC\b|metastatic small[- ]cell|stage IV small/i], none: [/limited[- ](stage|disease)|\bLS-SCLC\b/i] },
   { subtype: "limited-stage-sclc", parents: ["sclc"], any: [/limited[- ](stage|disease)|\bLS-SCLC\b/i], none: [/extensive[- ](stage|disease)|\bES-SCLC\b/i] },
+  // mastocytosis
+  { subtype: "indolent-systemic-mastocytosis", parents: ["systemic-mastocytosis"], any: [/indolent|smou?ldering|\bISM\b|\bSSM\b|non-?advanced|bone marrow mastocytosis/i], none: [/(?<!non[- ])(?<!non)advanced|aggressive|\bAdvSM\b|\bASM\b|mast cell leuk|SM-AHN/i], near: MASTO },
+  { subtype: "advanced-systemic-mastocytosis", parents: ["systemic-mastocytosis"], any: [/(?<!non[- ])(?<!non)\badvanced\b|aggressive|\bAdvSM\b|\bASM\b|mast cell leuk|\bMCL\b|SM-AHN|associated h(a)?ematologic/i], none: [/indolent|smou?ldering|\bISM\b|\bSSM\b|non-?advanced/i], near: MASTO },
   // myelodysplastic syndromes
   { subtype: "mds-higher-risk", parents: ["mds"], any: [/higher[- ]risk|high(er)?[- ]risk|very high|intermediate-2|IPSS-R (intermediate|high)|excess blasts|\bHR-MDS\b/i], none: [/lower[- ]risk|low[- ]risk|\bLR-MDS\b/i], near: MDS },
   { subtype: "mds-lower-risk", parents: ["mds"], any: [/lower[- ]risk|low[- ]risk|\bLR-MDS\b|transfusion[- ]dependent|an(a)?emia/i], none: [/higher[- ]risk|high[- ]risk|\bHR-MDS\b/i], near: MDS },
@@ -219,6 +260,9 @@ export const RULES: Rule[] = [
   { subtype: "essential-thrombocythaemia", parents: ["myeloproliferative-neoplasms"], any: [/essential thrombocyth|\bET\b/], none: [/post[- ]?(essential thrombocyth|ET\b)/i] },
   { subtype: "polycythaemia-vera", parents: ["myeloproliferative-neoplasms"], any: [/polycyth(a)?emia|\bPV\b/], none: [/post[- ]?(polycyth(a)?emia|PV\b)/i] },
   { subtype: "primary-myelofibrosis", parents: ["myeloproliferative-neoplasms"], any: [/myelofibrosis|\bPMF\b/i] },
+  // nasopharyngeal carcinoma
+  { subtype: "locoregionally-advanced-nasopharyngeal-carcinoma", parents: ["nasopharyngeal", "head-and-neck"], any: [/locoregionally advanced|locally advanced|stage (III|IVA|IVa)\b|stage III[- ]?(to|-|\/)[- ]?IVA|chemoradi|induction chemotherapy|concurrent|non-?metastatic|\bLA-?NPC\b/i], none: [/metastatic|recurrent|\bR\/M\b|stage IVB|non-?nasopharyn/i], near: NPC },
+  { subtype: "recurrent-metastatic-nasopharyngeal-carcinoma", parents: ["nasopharyngeal", "head-and-neck"], any: [/recurrent|metastatic|\bR\/M\b|stage IVB|platinum[- ](refractory|resistant)|second[- ]line|later[- ]line/i], none: [/chemoradi|locoregionally advanced|induction|non-?nasopharyn/i], near: NPC },
   // neuroendocrine
   { subtype: "extrapulmonary-nec", parents: ["neuroendocrine"], any: [/neuroendocrine carcinoma|extrapulmonary|\bNEC\b|\bGEP-NEC\b/i], none: [/small[- ]cell lung/i] },
   { subtype: "grade-3-net", parents: ["neuroendocrine"], any: [/grade 3 (neuroendocrine|NET|well)|\bNET G3\b|\bG3 NET\b|high[- ]grade well[- ]differentiated/i] },
@@ -246,6 +290,24 @@ export const RULES: Rule[] = [
   { subtype: "mucinous-ovarian-cancer", parents: ["ovarian"], any: [/(?<!non)(?<!non-)mucinous/i] },
   { subtype: "platinum-resistant-ovarian-cancer", parents: ["ovarian"], any: [/platinum[- ](resistant|refractory)|\bPROC\b/i], none: [/platinum[- ]sensitive/i], near: OVARY },
   { subtype: "platinum-sensitive-ovarian-cancer", parents: ["ovarian"], any: [/platinum[- ]sensitive|\bPSOC\b|\bPSROC\b/i], none: [/platinum[- ](resistant|refractory)/i], near: OVARY },
+  // pancreatic ductal adenocarcinoma
+  { subtype: "resectable-pdac", parents: ["pancreatic"], any: [/(?<!un)(?<!borderline )(?<!borderline-)resectable|operable|early[- ]stage|\badjuvant\b|neoadjuvant|perioperative|stage (I|II|IA|IB|IIA|IIB)\b(?!I*V)|resected|curative/i], none: [NET, /unresectable|locally advanced|metastatic|stage (III|IV)\b|inoperable|\badvanced\b/i, /(?<!resectable (or|and) )(?<!resectable, )(?<!resectable\/)borderline(?! resectable (or|and) resectable)/i], near: PANC },
+  { subtype: "borderline-resectable-pdac", parents: ["pancreatic"], any: [/borderline|\bBRPC\b|marginally resectable/i], none: [NET], near: PANC },
+  { subtype: "locally-advanced-pdac", parents: ["pancreatic"], any: [/locally advanced|\bLAPC\b|unresectable|stage III\b/i], none: [NET, /metastatic|stage IV\b|(?<!un)(?<!borderline )resectable/i], near: PANC },
+  { subtype: "metastatic-pdac", parents: ["pancreatic"], any: [/metastatic|stage IV\b|\bmPDAC\b|\bmPC\b|\badvanced\b/i], none: [NET, /non-?metastatic|\badjuvant\b|neoadjuvant|(?<!un)(?<!borderline )(?<!borderline-)resectable|locally advanced(?![^.]{0,25}metastatic)/i], near: PANC },
+  { subtype: "kras-g12c-pdac", parents: ["pancreatic"], any: [/G12C/] },
+  { subtype: "kras-wild-type-pdac", parents: ["pancreatic"], any: [/KRAS[- ]?(wild[- ]?type|WT\b|negative)|wild[- ]?type KRAS|\bKRAS-?WT\b/i, gene("NRG1"), gene("NTRK"), /NTRK[123]|TRK fusion/i, gene("BRAF"), gene("ALK"), gene("ROS1"), /(?<![A-Za-z0-9])RET(?![A-Za-z0-9]) fusion/i, /FGFR2 fusion/i], none: [neg("NRG1"), neg("NTRK"), neg("BRAF"), neg("ALK"), neg("ROS1"), CONSTRUCT] },
+  { subtype: "brca-palb2-pdac", parents: ["pancreatic"], any: [gene("BRCA"), /BRCA[12]/, /\bgBRCA/i, gene("PALB2"), /homologous recombination[- ]deficien|\bHRD\b/i], none: [neg("BRCA"), neg("PALB2"), /HR[- ]proficient|BRCA[- ]?(negative|wild)/i] },
+  { subtype: "msi-high-pdac", parents: ["pancreatic"], any: MSI, none: MSS },
+  { subtype: "pancreatic-acinar-cell-carcinoma", parents: ["pancreatic"], any: [/acinar/i] },
+  { subtype: "ipmn-cystic-precursors", parents: ["pancreatic"], any: [/\bIPMN\b|intraductal papillary mucinous|pancreatic cyst|pancreatic cystic|cystic (neoplasm|lesion)s? of the pancreas|mucinous cystic neoplasm|\bMCN\b|serous cystadenoma|solid pseudopapillary/i] },
+  { subtype: "pancreatoblastoma", parents: ["pancreatic", "childhood-cancers"], any: [/pancreatoblastoma/i] },
+  // penile cancer
+  { subtype: "localised-penile-cancer", parents: ["penile"], any: [/locali[sz]ed|organ[- ]confined|early[- ]stage|\bcN0\b|node[- ]negative|organ[- ]sparing|penile intraepithelial|\bPeIN\b|\bT1\b|\bT2\b/i], none: [/metastatic|node[- ]positive|recurrent|\badvanced\b|inguinal/i], near: PENIS },
+  { subtype: "node-positive-penile-cancer", parents: ["penile"], any: [/node[- ]positive|inguinal|lymph node|metastatic|recurrent|locally advanced|\badvanced\b|\b[cp]N[1-3]\b/i], none: [/node[- ]negative|\bcN0\b/i], near: PENIS },
+  // pheochromocytoma and paraganglioma
+  { subtype: "hereditary-ppgl", parents: ["pheochromocytoma-paraganglioma"], any: [/hereditary|familial|germline|\bSDH[ABCDx]?\b|succinate dehydrogenase|\bVHL\b|von Hippel|\bMEN ?2[AB]?\b|\bNF1\b|TMEM127|Carney/i, /(?<![A-Za-z0-9])RET(?![A-Za-z0-9])/], none: [/sporadic/i] },
+  { subtype: "metastatic-ppgl", parents: ["pheochromocytoma-paraganglioma"], any: [/metastatic|malignant|\badvanced\b|unresectable|inoperable|progressive/i], none: [/locali[sz]ed|non-?metastatic/i], near: PPGL },
   // prostate
   { subtype: "prostate-bcr", parents: ["prostate"], any: [/biochemical(ly)?[- ]recurren|rising PSA|PSA (recurrence|relapse|progression after)|\bBCR\b/i], none: [/metastatic(?! ?castration)|\bmCRPC\b|\bmHSPC\b/i] },
   { subtype: "prostate-high-risk", parents: ["prostate"], any: [/(very )?high[- ]risk[^.]{0,40}(locali[sz]ed|prostate)|(locali[sz]ed|non-?metastatic)[^.]{0,40}(very )?high[- ]risk|unfavou?rable intermediate|locally advanced prostate|clinically node[- ]positive/i], none: [/(?<!non[- ])metastatic|castration[- ]resistant|\bCRPC\b|biochemical/i] },
@@ -285,9 +347,18 @@ export const RULES: Rule[] = [
   { subtype: "vascular-tumours", parents: ["sarcoma"], any: [/angiosarcoma|h(a)?emangioendothelioma/i] },
   { subtype: "angiosarcoma", parents: ["vascular-tumours", "sarcoma"], any: [/angiosarcoma/i] },
   { subtype: "epithelioid-haemangioendothelioma", parents: ["vascular-tumours", "sarcoma"], any: [/epithelioid h(a)?emangioendothelioma|\bEHE\b/i] },
+  // sinonasal
+  { subtype: "esthesioneuroblastoma", parents: ["sinonasal", "head-and-neck"], any: [/esthesioneuroblastoma|olfactory neuroblastoma|\bONB\b/i] },
+  { subtype: "sinonasal-undifferentiated-carcinoma", parents: ["sinonasal", "head-and-neck"], any: [/\bSNUC\b|sinonasal undifferentiated|(SMARCB1|SMARCA4|INI1|SWI\/SNF)[- ]deficient sinonasal|undifferentiated carcinoma of the (paranasal|nasal|sinonasal)/i] },
+  // small bowel adenocarcinoma
+  { subtype: "localised-small-bowel-adenocarcinoma", parents: ["small-bowel"], any: [LOCALISED], none: [METASTATIC], near: SBA },
+  { subtype: "advanced-small-bowel-adenocarcinoma", parents: ["small-bowel"], any: [METASTATIC], none: [/\badjuvant\b|resected/i], near: SBA },
   // testicular
   { subtype: "non-seminoma", parents: ["testicular"], any: [/non-?seminoma|\bNSGCT\b/i] },
   { subtype: "seminoma", parents: ["testicular"], any: [/(?<!non-)(?<!non )seminoma/i] },
+  // thymic epithelial tumours
+  { subtype: "thymoma", parents: ["thymic-epithelial"], any: [/thymoma/i] },
+  { subtype: "thymic-carcinoma", parents: ["thymic-epithelial"], any: [/thymic carcinoma|thymic (epithelial )?tumou?rs?|\bTETs?\b/i] },
   // thyroid
   { subtype: "anaplastic-thyroid-cancer", parents: ["thyroid"], any: [/anaplastic|\bATC\b/i] },
   { subtype: "follicular-thyroid-cancer", parents: ["thyroid"], any: [/follicular thyroid|H[üu]rthle|oncocytic/i] },
@@ -296,6 +367,12 @@ export const RULES: Rule[] = [
   // urothelial
   { subtype: "muscle-invasive-bladder-cancer", parents: ["urothelial"], any: [/(?<!non[- ])muscle[- ]invasive|\bMIBC\b|metastatic|unresectable|locally advanced|\badvanced\b|cystectomy/i], none: [/non[- ]?muscle[- ]invasive|\bNMIBC\b|superficial|\bBCG\b|intravesical/i], near: BLADDER },
   { subtype: "non-muscle-invasive-bladder-cancer", parents: ["urothelial"], any: [/non[- ]?muscle[- ]invasive|\bNMIBC\b|\bBCG\b|intravesical|superficial bladder|carcinoma in situ of the bladder/i], none: [/(?<!non[- ])muscle[- ]invasive|metastatic|\badvanced\b/i], near: BLADDER },
+  // vaginal cancer
+  { subtype: "vaginal-squamous-cell-carcinoma", parents: ["vaginal"], any: [/vaginal (cancer|carcinoma|squamous)|squamous cell carcinoma of the vagina|\bVAIN\b|vaginal intraepithelial/i], none: [/adenocarcinoma|clear[- ]cell/i] },
+  { subtype: "vaginal-adenocarcinoma", parents: ["vaginal"], any: [/adenocarcinoma|clear[- ]cell|\bDES\b|diethylstilb|mesonephric/i], near: VAGINA },
+  // vulvar cancer
+  { subtype: "hpv-associated-vulvar-cancer", parents: ["vulvar"], any: [/HPV[- ]?(positive|associated|related|driven|dependent)|p16[- ]?positive|HPV\+|basaloid|warty|usual[- ]type VIN|\buVIN\b|vulvar HSIL|high[- ]grade squamous intraepithelial/i], none: [/HPV[- ]?(negative|independent)/i], near: VULVA },
+  { subtype: "hpv-independent-vulvar-cancer", parents: ["vulvar"], any: [/HPV[- ]?(negative|independent|unrelated)|p53|keratini[sz]ing|lichen sclerosus|differentiated VIN|\bdVIN\b/i], near: VULVA },
 ];
 
 /** Reviewed false positives, `trial>subtype`, with the reason; a re-run keeps rejecting them. */

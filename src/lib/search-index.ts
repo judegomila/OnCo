@@ -7,6 +7,7 @@ export type SearchDoc = { id: string; kind: Kind | "page"; name: string; aka: st
 /** Pages outside the navigation groups that a search should still reach. */
 export const SITE_PAGES: ReadonlyArray<{ href: string; label: string; blurb: string }> = [
   { href: "/about/", label: "About and methodology", blurb: "What OnCo is, how it is built, its rules for facts, licences and how to contribute." },
+  { href: "/ideas/rankings/", label: "Idea rankings", blurb: "The ideas ordered six ways: best bang for buck, most important, hardest, closest to reality, cherry picked and most wanted, every score with its formula." },
   { href: "/terms-of-use/", label: "Terms of use", blurb: "The rules for using OnCo: not medical advice, accuracy not guaranteed, accounts, licences, liability and contact." },
   { href: "/privacy/", label: "Privacy policy", blurb: "What OnCo collects and where it lives: hosting, analytics, accounts, browser storage, your rights and how to contact us." },
 ];

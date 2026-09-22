@@ -24,6 +24,7 @@ import { forMeRelated } from "../src/lib/for-me-related";
 import { matchRows } from "../src/lib/biomarker-match-rows";
 import { navigatorCancerFile, navigatorLines } from "../src/lib/navigator-data";
 import { writeExploreFiles } from "./build-explore";
+import { explainedFileFor, explainedGroups } from "../src/lib/explained-data";
 
 const out = join(process.cwd(), "public", "api", "v1");
 // Clear the previous build, keeping rdf/: scripts/build-triples.ts rewrites only the Turtle files whose content changed
@@ -63,6 +64,9 @@ for (const c of g.kind("cancer")) write(`for-me/${c.id}.json`, buildSituationDat
 for (const c of g.kind("cancer")) write(`for-me/${c.id}.related.json`, forMeRelated(g, c));
 // Explore: every row of one kind per file; the page carries only the first rows of each kind (src/lib/explore-kinds.ts).
 const explore = writeExploreFiles(out);
+// Trials in plain words: the explainer bodies of one cancer section per file; the page keeps the headings and summaries.
+mkdirSync(join(out, "explained"), { recursive: true });
+for (const grp of explainedGroups(g)) write(`explained/${grp.key}.json`, explainedFileFor(grp));
 // Navigator: the "already tried" chooser list once, and one file per cancer with its rows, standard of care, caregiver details and questions.
 mkdirSync(join(out, "navigator"), { recursive: true });
 const navRows = matchRows();

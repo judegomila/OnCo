@@ -20,6 +20,7 @@ import type { TargetSchematicTarget } from "./TargetSchematic";
 import type { Kind } from "@/lib/kinds";
 import { fallbackSlot, visualSource } from "@/lib/row-visual";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
+import { baseSortFor, cellText, compareBrowserRows, isFacetLink, isRich, itemLabel, STATUS_ORDER } from "@/lib/browser-sort";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
 import { useRemoteRows } from "./filters/FilterableTable";
@@ -93,11 +94,8 @@ export type RichText = { text: string; marks: Array<{ s: number; e: number; labe
 /** Anything a table cell can hold. Lists may mix entity links and facet chips (e.g. a trial's sponsors). */
 export type CellValue = string | number | undefined | RichText | FacetLink | Array<LinkItem | FacetLink>;
 
-const isRich = (v: unknown): v is RichText => !!v && typeof v === "object" && !Array.isArray(v) && "text" in (v as object);
-const isFacetLink = (v: unknown): v is FacetLink => !!v && typeof v === "object" && !Array.isArray(v) && "facet" in (v as object);
-const itemLabel = (i: LinkItem | FacetLink): string => ("href" in i ? i.label : (i.label ?? i.value));
-/** The plain text of a cell: what search matches against and what text sorting compares. */
-export const cellText = (v: CellValue): string => (Array.isArray(v) ? v.map(itemLabel).join(", ") : isRich(v) ? v.text : isFacetLink(v) ? itemLabel(v) : String(v ?? ""));
+/** Re-exported for the pages and tests that read cell text; the definition lives in src/lib/browser-sort.ts beside the row comparator. */
+export { cellText };
 
 /** `normalise` names a client-side mapper of historical URL values to the current facet label, so old shared links keep filtering. A string key, not a function: facet definitions cross the server-to-client boundary. */
 const NORMALISERS: Record<"phase", (value: string) => string> = { phase: normalisePhaseLabel };
@@ -107,7 +105,6 @@ export type ColDef = { key: string; label: string; sortable?: boolean; hide?: st
   /** The facet this column filters from its header. Defaults to the facet with the column's key, or the facet its chips point at; `null` turns the header filter off. */
   facet?: string | null };
 
-const STATUS_ORDER = ["approved", "standard-of-care", "positive", "phase-3", "established", "completed", "recruiting", "active", "phase-2", "emerging", "phase-1", "preclinical", "concept", "planned", "mixed", "historic", "negative", "withdrawn"];
 const STATUS_FACET: FacetDef = { key: "status", label: "Phase / status", searchable: false, width: "w-48", order: STATUS_ORDER };
 const QUERY_KEY = "q";
 const SORT_KEY = "sort";
@@ -132,10 +129,15 @@ export function encodeView(state: { f: Record<string, string[]>; q: string; s: S
   return btoa(JSON.stringify({ f, q: state.q || undefined, s: state.s })).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
-export function EntityBrowser({ rows: first, more, facets, columns, noun, defaultSort, hideStatus = false, hideTldr = false, external = null, onExternalChange, nameKind }: {
+/** Per-facet value counts over a whole paged table, keyed by facet key (`status` included). */
+export type FacetCounts = Record<string, Array<[value: string, count: number]>>;
+
+export function EntityBrowser({ rows: first, more, counts, facets, columns, noun, defaultSort, hideStatus = false, hideTldr = false, external = null, onExternalChange, nameKind }: {
   rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[]; noun: string; defaultSort?: SortState; hideStatus?: boolean; hideTldr?: boolean;
   /** `rows` are only the first page (in the default order) and the rest is one static file, fetched when the reader scrolls, searches, filters or sorts (src/lib/static-tables.ts). */
   more?: MoreRows;
+  /** With `more`: the facet counts over every row, computed by the page, so the facet pickers are complete before the file is fetched. */
+  counts?: FacetCounts;
   /** Kind of the rows, so proper-noun names (drugs, genes, companies, trials, people) carry translate="no". Drug rows are recognised by `molecule` regardless. */
   nameKind?: Kind;
   /** Facet values set by a parent (e.g. a map legend); merged with the internal selection for that key and shown as selected. */
@@ -180,7 +182,7 @@ export function EntityBrowser({ rows: first, more, facets, columns, noun, defaul
     });
   };
   const clearAll = () => { setOwn({}); setQ(""); onExternalChange?.([]); };
-  const baseSort = useMemo<SortState>(() => defaultSort ?? { key: hideStatus ? "name" : "status", dir: 1 }, [defaultSort, hideStatus]);
+  const baseSort = useMemo<SortState>(() => baseSortFor(defaultSort, hideStatus), [defaultSort, hideStatus]);
   const [sort, setSort] = useState<SortState>(baseSort);
   // Anything the first page cannot answer needs every row: a search, a facet, or a sort other than the order the rows came in.
   const needAll = !remote.complete && (!!q.trim() || Object.values(sel).some((v) => v.length) || sort.key !== baseSort.key || sort.dir !== baseSort.dir);
@@ -208,7 +210,7 @@ export function EntityBrowser({ rows: first, more, facets, columns, noun, defaul
       for (const f of allFacets) {
         const raw = params.getAll(f.key);
         if (!raw.length) continue;
-        const known = new Set(rows.flatMap((r) => facetVals(r, f.key)));
+        const known = new Set([...rows.flatMap((r) => facetVals(r, f.key)), ...(counts?.[f.key] ?? []).map(([v]) => v)]);
         const norm = f.normalise ? NORMALISERS[f.normalise] : (v: string) => v;
         const vals = [...new Set(raw.flatMap((s) => (known.has(s) ? [s] : s.split(",").map((x) => norm(x.trim())).filter(Boolean))))];
         if (!vals.length) continue;
@@ -251,34 +253,32 @@ export function EntityBrowser({ rows: first, more, facets, columns, noun, defaul
   };
 
   const filtered = useMemo(() => {
-    const list = rows.filter((r) => matches(r));
-    const statusIdx = (s?: string) => { const i = STATUS_ORDER.indexOf(s ?? ""); return i < 0 ? 99 : i; };
-    list.sort((a, b) => {
-      let d = 0;
-      if (sort.key === "name") d = a.name.localeCompare(b.name);
-      else if (sort.key === "status") d = statusIdx(a.status) - statusIdx(b.status);
-      else if (a.sortKeys && b.sortKeys && sort.key in a.sortKeys) d = (a.sortKeys[sort.key] ?? 0) - (b.sortKeys[sort.key] ?? 0);
-      else d = cellText(a.cols[sort.key]).localeCompare(cellText(b.cols[sort.key]));
-      return sort.dir * d || (b.tie ?? 0) - (a.tie ?? 0) || a.name.localeCompare(b.name);
-    });
-    return list;
+    return rows.filter((r) => matches(r)).sort(compareBrowserRows(sort));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rows, q, sel, sort]);
 
-  /** Options per facet, counted over rows that pass every other filter (so counts answer "what happens if I pick this?"). */
+  /**
+   * Options per facet, counted over rows that pass every other filter (so counts answer "what happens if I pick this?").
+   * While a paged table still stands on its first page, the page's whole-table counts are shown instead: the first
+   * rows alone would make every facet look small, and any filter fetches the file, after which the live counts return.
+   */
   const options = useMemo(() => {
     const out: Record<string, { value: string; label: string; count: number; icon?: React.ReactNode }[]> = {};
     for (const f of allFacets) {
-      const counts = new Map<string, number>();
-      for (const r of rows) if (matches(r, f.key)) for (const v of facetVals(r, f.key)) counts.set(v, (counts.get(v) ?? 0) + 1);
-      let arr = [...counts.entries()];
+      let arr: Array<[string, number]>;
+      if (counts?.[f.key] && !remote.complete) arr = counts[f.key];
+      else {
+        const tally = new Map<string, number>();
+        for (const r of rows) if (matches(r, f.key)) for (const v of facetVals(r, f.key)) tally.set(v, (tally.get(v) ?? 0) + 1);
+        arr = [...tally.entries()];
+      }
       arr = f.order ? arr.sort((a, b) => (f.order!.indexOf(a[0]) + 1 || 999) - (f.order!.indexOf(b[0]) + 1 || 999)) : arr.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
       const dot = (v: string) => { let h = 0; for (const ch of v) h = (h * 31 + ch.charCodeAt(0)) % 360; return <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: `hsl(${h} 55% 55%)` }} />; };
       out[f.key] = arr.map(([v, n]) => ({ value: v, label: f.key === "status" ? statusText(v) : v, count: n, icon: COUNTRY_FACETS.has(f.key) ? flagFor(v) || undefined : f.key === "status" ? <span className={`inline-block h-2.5 w-2.5 rounded-full ${statusClass(v).split(" ").find((c) => c.startsWith("bg-")) ?? "bg-foreground/30"}`} /> : ["type","group","stage","severity","maturity","modality","access","scope","category","class","kind","actor","cost","front","specialism","license","nci","phase"].includes(f.key) ? dot(v) : undefined }));
     }
     return out;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [rows, q, sel, lang]);
+  }, [rows, q, sel, lang, counts, remote.complete]);
 
   const onSort = (key: string) => setSort((s) => (s.key === key ? { key, dir: s.dir === 1 ? -1 : 1 } : { key, dir: 1 }));
   const active = Object.values(sel).some((a) => a.length) || q;
@@ -409,7 +409,7 @@ export function EntityBrowser({ rows: first, more, facets, columns, noun, defaul
       />
       {needAll && remote.loading && <p className="text-xs text-muted mb-2" aria-live="polite">{t("table.loadingMore")}</p>}
       {needAll && remote.failed && <p className="text-xs text-muted mb-2">Only the first {first.length} of {more?.total} rows could be searched: the full list did not load. Check your connection and reload.</p>}
-      <ResultsTable columns={tableCols} rows={filtered} rowKey={(r) => r.id} sort={sort} onSort={onSort} pageSize={more ? TABLE_PAGE : 100}
+      <ResultsTable columns={tableCols} rows={filtered} rowKey={(r) => r.id} sort={sort} onSort={onSort} pageSize={more ? Math.max(TABLE_PAGE, first.length) : 100}
         more={more && !remote.complete && !remote.failed && !needAll ? { total: more.total, load: want, loading: remote.loading } : undefined} />
     </div>
   );

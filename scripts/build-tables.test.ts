@@ -2,8 +2,9 @@ import { describe, expect, it } from "vitest";
 import { mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { pageRows, TABLE_PAGE, tableFile } from "../src/lib/static-tables";
-import { allTables, pagedTables } from "../src/lib/tables";
+import { KIND_PAGE, pageRows, tableFile } from "../src/lib/static-tables";
+import { allTables, pagedTables, tablePage } from "../src/lib/tables";
+import { kindTableId, PAGED_KINDS } from "../src/lib/tables/kinds";
 import { EVIDENCE_TABLE } from "../src/lib/tables/evidence";
 import { CHINA_TRIALS_TABLE } from "../src/lib/tables/china";
 import { UNIVERSITY_GROUPED_TABLE, UNIVERSITY_OUTPUT_TABLE, UNIVERSITY_SCORE_TABLE } from "../src/lib/tables/universities";
@@ -27,6 +28,13 @@ describe("paged table files", () => {
 
   it("writes the heavy pages' tables at the paths the pages fetch", () => {
     for (const id of [EVIDENCE_TABLE, CHINA_TRIALS_TABLE, UNIVERSITY_OUTPUT_TABLE, UNIVERSITY_GROUPED_TABLE, UNIVERSITY_SCORE_TABLE, PATHWAY_MATRIX_TABLE, PATHWAY_NODES_TABLE, STARTUPS_TABLE, dossierTrialsTableId("pd1")]) expect(ids, id).toContain(id);
+    // Every paged kind browser has a file, each registered with the kind page size and longer than it.
+    for (const k of PAGED_KINDS) {
+      expect(ids, k).toContain(kindTableId(k));
+      const t = tables.find((x) => x.id === kindTableId(k))!;
+      expect(t.page, k).toBe(KIND_PAGE);
+      expect(t.rows.length, k).toBeGreaterThan(KIND_PAGE);
+    }
     for (const w of written) {
       expect(w.path).toBe(tableFile(w.id));
       expect(w.file.endsWith(w.path.replace("/api/v1/", "/"))).toBe(true);
@@ -36,7 +44,7 @@ describe("paged table files", () => {
   });
 
   it("writes only tables longer than a page, each holding every row with unique ids", () => {
-    for (const t of tables) expect(ids.has(t.id), t.id).toBe(t.rows.length > TABLE_PAGE);
+    for (const t of tables) expect(ids.has(t.id), t.id).toBe(t.rows.length > tablePage(t));
     for (const w of written) {
       const rows = read(w.file);
       const source = tables.find((t) => t.id === w.id)!;
@@ -52,10 +60,11 @@ describe("paged table files", () => {
     for (const w of written) {
       const rows = read(w.file);
       const source = tables.find((t) => t.id === w.id)!;
-      const page = pageRows(w.id, source.rows);
-      expect(page.rows.length, w.id).toBe(TABLE_PAGE);
+      const size = tablePage(source);
+      const page = pageRows(w.id, source.rows, size);
+      expect(page.rows.length, w.id).toBe(size);
       expect(page.more, w.id).toEqual({ total: rows.length, src: w.path });
-      expect(JSON.stringify(rows.slice(0, TABLE_PAGE)), w.id).toBe(JSON.stringify(page.rows));
+      expect(JSON.stringify(rows.slice(0, size)), w.id).toBe(JSON.stringify(page.rows));
     }
   });
 

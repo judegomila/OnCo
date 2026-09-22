@@ -8,15 +8,16 @@ import { rankInstitutions } from "@/lib/ranking";
 import { EntityBrowser } from "@/components/EntityBrowser";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { BottleneckMap } from "@/components/BottleneckMap";
-import { CancerIcon } from "@/components/CancerIcon";
+import { CancerIcon, CancerIconDefs } from "@/components/CancerIcon";
 import { FrontIcon } from "@/components/FrontIcon";
-import { termMarks } from "@/lib/term-hover";
 import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
 import { kindTitle, pageMeta } from "@/lib/seo";
 import { KindName, T } from "@/components/T";
 import { RankGlyph } from "@/components/RankGlyph";
-import { buildBrowser, cap } from "@/lib/kind-browser";
+import { cap } from "@/lib/kind-browser";
+import { isPagedKind, kindBrowser, pageKindRows } from "@/lib/tables/kinds";
+import { KIND_PAGE } from "@/lib/static-tables";
 import { MyCancerPin, MyCancerTrialsFilter } from "@/components/MyCancer";
 import { myCancerTiles } from "@/lib/my-cancer-list";
 
@@ -42,11 +43,12 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
   if (!k) notFound();
   const meta = KIND_META[k];
   const title = k === "section" ? "Fronts of the war on cancer" : k === "term" ? "Glossary" : k === "bottleneck" ? "Bottlenecks of the war on cancer" : (meta.title ?? cap(meta.plural));
-  const built = buildBrowser(k);
-  // Glossary tooltips inside free-text cells: any non-chip, non-numeric string column gets its technical terms marked.
-  const richKeys = new Set(built.columns.filter((c) => !c.chip && !c.numeric).map((c) => c.key));
-  const rows = built.rows.map((r) => { const cols = { ...r.cols }; for (const key of richKeys) { const v = cols[key]; if (typeof v === "string" && v.length > 3) { const marks = termMarks(v); if (marks.length) cols[key] = { text: v, marks }; } } return { ...r, cols }; });
+  // Rows with glossary marks, in the table's default order (src/lib/tables/kinds.ts). A paged kind carries its first
+  // KIND_PAGE rows and the whole-table facet counts; the rest is /api/v1/tables/kind-<route>.json, fetched on demand.
+  const built = kindBrowser(k);
   const { facets, columns, hideStatus, hideTldr, defaultSort } = built;
+  const paged = pageKindRows(k, built.rows);
+  const total = built.rows.length;
 
   const right = k === "cancer" ? <div className="flex flex-wrap gap-2 justify-end"><Link href="/cancers/map/" title="Every cancer type on one layered map: organ system, cancer, subtype" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Whole map →</Link><Link href="/for-me/" className="rounded-lg bg-accent text-white px-4 py-2 text-sm font-medium">Pick mine →</Link></div>
     : k === "drug" ? <Link href="/explore/?kind=drug" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Rank by cancer type →</Link>
@@ -64,7 +66,18 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
         {k === "bottleneck" && <BottlenecksPipeline />}
         {k === "cancer" && <CancersGrid />}
         {k === "term" && <GlossaryCategories />}
-        <EntityBrowser rows={rows} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} nameKind={k} />
+        <EntityBrowser rows={paged.rows} more={paged.more} counts={paged.more ? built.counts : undefined} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} nameKind={k} />
+        {isPagedKind(k) && (
+          // The whole set for crawlers and agents without the table's fetch: every record also has its own page, listed in the sitemap.
+          <p className="text-xs text-muted mt-3" data-kind-export>
+            The table above loads {Math.min(KIND_PAGE, total)} of {total.toLocaleString("en-GB")} {meta.plural} first and fetches the rest as you scroll, search or filter.{" "}
+            <a href={`/api/v1/${encodeURIComponent(meta.plural)}.json`} className="underline hover:text-foreground">All {total.toLocaleString("en-GB")} {meta.plural} as JSON</a>
+            {" · "}
+            <a href={`/api/v1/${encodeURIComponent(meta.plural)}.csv`} className="underline hover:text-foreground">as CSV</a>
+            {" · "}
+            <Link href="/api/" className="underline hover:text-foreground">API</Link>
+          </p>
+        )}
         {k === "institution" && (
           <p className="text-xs text-muted mt-3 max-w-3xl">Score = Newsweek points (60 − Newsweek/Statista 2026 Oncology rank, 0 if unranked) + NCI designation points (Comprehensive 15, Clinical or Basic 8) + 2 × distinct OnCo objects linked to the institution. The last term measures presence in this evidence base and grows with the corpus. A starting point for argument, not a verdict.</p>
         )}
@@ -97,13 +110,17 @@ function GlossaryCategories() {
   );
 }
 
-/** Every cancer as an icon tile, grouped, so a newcomer can find theirs by organ rather than by name. */
+/**
+ * Every cancer as an icon tile, grouped, so a newcomer can find theirs by organ rather than by name. The organ
+ * drawings are one hidden symbol sheet referenced by every tile: 328 inline drawings were 370 KB of the page.
+ */
 function CancersGrid() {
   const g = graph();
   const items = g.kind("cancer");
   const groups = [...new Set(items.map((c) => c.group))];
   return (
     <div className="mb-10 space-y-5">
+      <CancerIconDefs cancerIds={items.map((c) => c.id)} />
       <MyCancerPin cancers={myCancerTiles()} />
       {groups.map((grp) => (
         <div key={grp}>
@@ -111,7 +128,7 @@ function CancersGrid() {
           <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
             {items.filter((c) => c.group === grp).sort((a, b) => a.name.localeCompare(b.name)).map((c) => (
               <Link key={c.id} href={routeFor(c)} title={c.tldr} className="card p-3 flex flex-col items-center text-center gap-2 hover:shadow-md transition">
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={c.id} className="h-8 w-8" /></span>
+                <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={c.id} className="h-8 w-8" symbol /></span>
                 <span className="text-xs font-medium leading-snug">{c.name}</span>
               </Link>
             ))}

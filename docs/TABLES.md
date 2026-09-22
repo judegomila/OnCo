@@ -41,6 +41,36 @@ No page fell between 500 KB and 1 MB, so the "rows once" variant of StaticTable 
 
 Left alone on purpose: `src/app/tumour-testing/page.tsx` (being redesigned by another agent).
 
+## Kind browsers (measured 22 Sept 2026)
+
+Live HTML of every kind index, one `curl` each (User-Agent "OnCo maintenance"), bytes as served, before the conversion. `EntityBrowser` is a client component, so every row was in the page twice (rendered and as hydration props), and the corpus keeps growing (13,789 records that day).
+
+| Page | Rows | HTML | Now |
+| --- | ---: | ---: | --- |
+| /trials/ | 3,600 | 7,791,875 | paged: first 60, file `kind-trials` |
+| /key-papers/ | 1,984 | 3,700,955 | paged: first 60, file `kind-key-papers` |
+| /ideas/ | 1,140 | 2,888,140 | paged: first 60, file `kind-ideas` |
+| /drugs/ | 1,068 | 2,811,673 | paged: first 60, file `kind-drugs` |
+| /people/ | 1,547 | 2,566,843 | paged: first 60, file `kind-people` |
+| /cancers/ | 328 | 1,909,867 | paged: first 60, file `kind-cancers`; the tile grid's 328 organ drawings became one symbol sheet (`CancerIconDefs`) |
+| /companies/ | 1,186 | 1,699,683 | paged: first 60, file `kind-companies` |
+| /terms/ | 768 | 1,258,778 | paged: first 60, file `kind-terms` |
+| /institutions/ | 710 | 1,116,914 | paged: first 60, file `kind-institutions` |
+| /technologies/ | 590 | 1,040,395 | paged: first 60, file `kind-technologies` |
+| /targets/ | 188 | 724,402 | paged: first 60, file `kind-targets` |
+| /journals/ | 259 | 658,707 | left: under 700 KB (next candidate as the corpus grows) |
+| /pathways/ | 108 | 582,636 | left |
+| /pairings/ | 86 | 479,838 | left |
+| /collections/ | 133 | 464,557 | left |
+| /bottlenecks/ | 45 | 414,813 | left |
+| /roadmaps/ | 30 | 198,042 | left |
+
+How a paged kind browser works (`src/lib/tables/kinds.ts`, `PAGED_KINDS`): the page builds every row as before (`buildBrowser` plus glossary marks), sorts them with the client's own comparator (`src/lib/browser-sort.ts`, the default order of the table) and hands `EntityBrowser` the first `KIND_PAGE` (60) rows, `more` pointing at `/api/v1/tables/kind-<route>.json`, and `counts`: the per-facet value counts over the whole table, so the facet pickers read "Phase 3 (412)" before anything is fetched. The file holds every row in the same order (`scripts/build-tables.ts` through `allTables()`; `scripts/build-tables.test.ts` checks the first 60 match). Scrolling past the first rows, the "Show 60 more" pill, a search, a facet or a sort fetches the file, after which search, facets, sort, the download and the URL scheme (`?phase=Phase+3&q=her2&sort=-name`) run over the full set exactly as before. Under the table a plain line links the kind's whole set as `/api/v1/<plural>.json` and `.csv` for crawlers and agents; every record also has its own page and the sitemap lists them, so the index need not list every row. Small kinds ship every row as before.
+
+Why not `/api/v1/<plural>.json` for the rows themselves: those files hold the raw records, while a browser row carries what the graph derives for the table (linked names and routes with their TL;DR tips, counts of linked objects with deep links, facet chips, glossary marks, ranking scores), which would need the whole graph on the client to rebuild. The browser-row file is a table file like the others; the raw kind file is what the page links for the whole set.
+
+Markup of the paged kind pages when written, from `src/app/heavy-pages.test.ts` (the budget is 600 KB each; the payload adds the same 60 rows as compact JSON): trials 289 KB, key papers 276 KB, drugs 277 KB, ideas 361 KB, people 246 KB, companies 235 KB, targets 224 KB, institutions 215 KB, technologies 205 KB, terms 176 KB, cancers 524 KB (of which the tile grid with the 328 TL;DR tooltips is about 280 KB). Expected live HTML: roughly 350 to 500 KB for each, /cancers/ about 600 KB; against 0.7 to 7.8 MB before.
+
 ## On the shared header filter before this round
 
 - src/components/filters/ResultsTable.tsx: the shared results table; header cell exported as `ColumnHead`. Filters: yes.

@@ -13,6 +13,8 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
 
 ### 21 September 2026
+- Roadmap watch for every roadmap: scripts/roadmap-watch.ts compares each roadmap's referenced trials with ClinicalTrials.gov (status, phase, enrolment within 5 percent, moved completion dates), lists Europe PMC papers since asOf, flags watch items past their expected date, writes public/roadmap-watch.json for a weekly Thursday workflow and a "Registry check" line on roadmap pages
+- A roadmap and timeline for circulating tumour DNA tests, from the 1948 discovery of cell-free DNA to the residual-disease and multi-cancer detection trials reading out next, with a watch list and a script that checks it against the registries
 - PATHFINDER 2 status and ECLIPSE enrolment corrected against ClinicalTrials.gov, as flagged by the ctDNA watch script
 - ctDNA tests roadmap: ten eras from the 1948 sighting of DNA in plasma to the 2029 randomised readouts, a "What to watch" list with registry and meeting dates, six trials the corpus lacked (TRACC, MERMAID-1 and -2, BESPOKE, CIRCULATE-US, NCI Vanguard), a tumour-informed versus tumour-naive term, and npm run ctdna:watch to keep it current
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC

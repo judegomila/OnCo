@@ -21,7 +21,7 @@ describe("api layout", () => {
     expect(doc.openapi).toBe("3.1.0");
     const paths = doc.paths as Record<string, unknown>;
     for (const f of apiFiles(counts)) {
-      const templated = isKindFile(f.path) ? `/api/v1/{plural}.${f.path.endsWith(".csv") ? "csv" : "json"}` : f.path.replace("<id>", "{id}").replace("<plural>", "{plural}");
+      const templated = isKindFile(f.path) ? `/api/v1/{plural}.${f.path.endsWith(".csv") ? "csv" : "json"}` : f.path.replace("<id>", "{id}").replace("<plural>", "{plural}").replace("<view>", "{view}");
       expect(paths, f.path).toHaveProperty([templated]);
     }
     for (const feed of FEEDS) expect(paths).toHaveProperty([feed.startsWith("/feeds/") ? "/feeds/{feed}.xml" : feed]);

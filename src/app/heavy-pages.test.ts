@@ -7,7 +7,9 @@ import Explore from "./explore/page";
 import ForMe from "./for-me/page";
 import NavigatorPage from "./navigator/page";
 import ExplainedPage from "./explained/page";
+import IdeaRankingsPage from "./ideas/rankings/page";
 import { EXPLORE_PAGE } from "@/lib/explore-kinds";
+import { RANK_PAGE, rankAll } from "@/lib/idea-rankings";
 import { explainedGroups } from "@/lib/explained-data";
 import { graph } from "@/lib/graph";
 
@@ -73,6 +75,28 @@ describe("heavy pages page their sections", () => {
     // 14.2 MB of HTML before; 981 KB of markup when written. The rows are a client component's props, so the hydration
     // payload adds compact JSON rather than a second copy of this tree.
     expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(1100 * KB);
+  });
+
+  it("idea rankings renders the first page of every view plus the Show more sentinel", () => {
+    const html = render(createElement(IdeaRankingsPage));
+    const views = rankAll(RANK_PAGE).filter((v) => v.available);
+    const lists = (html.match(/<ol[^>]*data-rank-list[^>]*>[\s\S]*?<\/ol>/g) ?? []).map((l) => (l.match(/<li[\s>]/g) ?? []).length);
+    // One list per available view, each capped at the first page; the default view fills its page.
+    expect(lists).toHaveLength(views.length);
+    expect(lists).toEqual(views.map((v) => Math.min(RANK_PAGE, v.ranked)));
+    expect(lists[0]).toBe(RANK_PAGE);
+    for (const v of views) expect(html).toContain(`id="h-${v.view.id}"`);
+    // Every view but the default is hidden until picked; readers without JavaScript see them all through the noscript rule.
+    expect((html.match(/<section[^>]*data-rank-panel[^>]*hidden/g) ?? []).length).toBe(views.length - 1);
+    expect(html).toContain("[data-rank-panel][hidden]{display:block}");
+    expect(html).toContain("data-more");
+    expect(html).toContain("Show 30 more");
+    // Real rows for search engines: named ideas with their pages and cancers.
+    expect(html).toMatch(/href="\/ideas\/[a-z0-9-]+\/?"/);
+    expect(html).toMatch(/href="\/cancers\/[a-z0-9-]+\/?"/);
+    // 2.2 MB of HTML before (the top 50 of every view as rendered trees, twice over); 559 KB of markup when written, with the
+    // first 30 of each view as compact props (155 KB) and the chip glyphs as one sprite sheet.
+    expect(Buffer.byteLength(html, "utf8"), "idea rankings markup").toBeLessThan(700 * KB);
   });
 
   it("navigator renders the profile bar and nothing per cancer", () => {

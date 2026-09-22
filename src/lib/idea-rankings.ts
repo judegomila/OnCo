@@ -4,7 +4,7 @@ import { GLOBOCAN_MAP } from "@/data/globocan-map";
 import { IDEA_PICKS } from "@/data/idea-picks";
 import { graph } from "./graph";
 import { GLOBOCAN, cellFor } from "./globocan";
-import { VIEW_IDS, viewDef, type ViewDef, type ViewId } from "./idea-rankings-views";
+import { costRank, maturityRank, VIEW_IDS, viewDef, type BurdenSite, type RankedRow, type ScoreParts, type ViewDef, type ViewId } from "./idea-rankings-views";
 import type { Idea } from "./schema";
 
 /**
@@ -21,46 +21,18 @@ import type { Idea } from "./schema";
  *   horizon       horizonYears as recorded (undefined when missing)
  *   maturityRank  speculative 1, preclinical evidence 2, early clinical 3, being tested at scale 4
  *
- * The view formulas are in VIEWS below and repeated as one plain sentence on the page; `explain` writes the same
- * arithmetic with the idea's own numbers for the tooltip on each score.
+ * The view formulas are in VIEWS (idea-rankings-views.ts) and repeated as one plain sentence on the page; `explain`
+ * there writes the same arithmetic with the idea's own numbers for the tooltip on each score. The labels, the row
+ * types and the paging constants live in that pure module too, so the client list can render fetched rows; this
+ * module re-exports them for the server and the tests.
  */
 
-export const MATURITY_ORDER = ["speculative", "preclinical-evidence", "early-clinical", "being-tested-at-scale"] as const;
-export type Maturity = (typeof MATURITY_ORDER)[number];
-export const MATURITY_LABEL: Record<Maturity, string> = { speculative: "Speculative", "preclinical-evidence": "Preclinical evidence", "early-clinical": "Early clinical", "being-tested-at-scale": "Being tested at scale" };
-export const maturityRank = (m: Maturity): number => MATURITY_ORDER.indexOf(m) + 1;
-
-export const COST_ORDER = ["small", "medium", "large"] as const;
-export type Cost = (typeof COST_ORDER)[number];
-export const COST_LABEL: Record<Cost, string> = { small: "Small", medium: "Medium", large: "Large" };
-/** 1 to 3; 0 when the record has no cost band. */
-export const costRank = (c: Cost | undefined): number => (c ? COST_ORDER.indexOf(c) + 1 : 0);
-
-export type BurdenSite = { code: number; label: string; cases: number | null; /** OnCo cancer ids that reached this site, directly or through a parent. */ cancerIds: string[] };
-
-export type ScoreParts = {
-  id: string;
-  name: string;
-  tldr: string;
-  route: string;
-  cancers: Array<{ id: string; name: string; route: string; /** The site this cancer's burden was read from, when it reached one. */ site?: string; viaParent?: string }>;
-  burden: number;
-  sites: BurdenSite[];
-  breadth: number;
-  evidence: number;
-  trials: number;
-  phase3: number;
-  drugs: number;
-  papers: number;
-  cost?: Cost;
-  costRank: number;
-  horizon?: number;
-  maturity: Maturity;
-  maturityRank: number;
-};
-
-export { VIEW_IDS, VIEWS, viewDef, isViewId } from "./idea-rankings-views";
-export type { ViewId, ViewDef, ViewGlyph } from "./idea-rankings-views";
+export {
+  COST_LABEL, COST_ORDER, costRank, MATURITY_LABEL, MATURITY_ORDER, maturityRank,
+  explain, formatScore, RANK_PAGE, rankingsFile,
+  VIEW_IDS, VIEWS, viewDef, isViewId,
+} from "./idea-rankings-views";
+export type { BurdenSite, Cost, Maturity, RankedRow, ScoreParts, ViewId, ViewDef, ViewGlyph } from "./idea-rankings-views";
 
 const WORLD_KEY = "WORLD";
 
@@ -160,34 +132,6 @@ function tieBreak(view: ViewId, p: ScoreParts): number {
   return view === "bang-for-buck" || view === "most-important" ? p.evidence : p.burden;
 }
 
-const fmt = (n: number) => n.toLocaleString("en-GB", { maximumFractionDigits: 0 });
-const fmt1 = (n: number) => n.toLocaleString("en-GB", { maximumFractionDigits: 1 });
-
-/** The score written out for the display chip: whole numbers for case-based scores, one decimal for the small sums. */
-export function formatScore(view: ViewId, score: number): string {
-  return view === "hardest" || view === "closest-to-reality" ? fmt1(score) : fmt(score);
-}
-
-/** The formula with this idea's own numbers in it, for the tooltip on the score. */
-export function explain(view: ViewId, p: ScoreParts, score: number): string {
-  switch (view) {
-    case "bang-for-buck":
-      return `${fmt(p.burden)} cases ÷ cost ${p.costRank} ÷ (1 + ${p.horizon} years) = ${fmt(score)}`;
-    case "most-important":
-      return `${fmt(p.burden)} cases × ${p.breadth} cancer${p.breadth === 1 ? "" : "s"} = ${fmt(score)}`;
-    case "hardest":
-      return `cost ${p.costRank} + ${p.horizon} ÷ 5 years + ${4 - p.maturityRank} from tested at scale + ${Math.max(0, 3 - p.evidence)} missing evidence = ${fmt1(score)}`;
-    case "closest-to-reality":
-      return `maturity ${p.maturityRank} × 3 + ${p.evidence} evidence = ${fmt1(score)}`;
-    case "most-wanted":
-      return `${fmt(score)} thumbs-up on the discussion thread`;
-    case "cherry-picked":
-      return "Editorial pick";
-  }
-}
-
-export type RankedRow = { rank: number; parts: ScoreParts; score: number | null; /** Cherry picked: the editorial sentence. */ reason?: string };
-
 export type RankedView = {
   view: ViewDef;
   rows: RankedRow[];
@@ -215,7 +159,7 @@ const EXCLUDED_WHY: Partial<Record<ViewId, string>> = {
   hardest: "no cost band or horizon recorded",
 };
 
-/** One view ranked, top `limit` rows. */
+/** One view ranked, top `limit` rows (Infinity for every row, as the per-view JSON file wants). */
 export function rankView(view: ViewId, limit = 50, parts: ScoreParts[] = scoreParts(), votes: VotesFile | null = readVotes()): RankedView {
   const def = viewDef(view);
   const byId = new Map(parts.map((p) => [p.id, p]));
@@ -240,7 +184,7 @@ export function rankView(view: ViewId, limit = 50, parts: ScoreParts[] = scorePa
   return { view: def, rows, ranked: scored.length, excluded: { n: parts.length - scored.length, why: EXCLUDED_WHY[view] ?? "" }, available: true };
 }
 
-/** Every view at once, for the page. */
+/** Every view at once, for the page (`limit` rows each) or the JSON files (`Infinity`). */
 export function rankAll(limit = 50): RankedView[] {
   const parts = scoreParts();
   const votes = readVotes();

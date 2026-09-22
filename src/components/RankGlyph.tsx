@@ -19,10 +19,33 @@ const PATHS: Record<RankGlyphName, string> = {
   maturity: "M3 20h5v-4h4v-4h4V8h5M3 20V4",
 };
 
-export function RankGlyph({ name, className = "h-4 w-4" }: { name: RankGlyphName; className?: string }) {
+const symbolId = (name: RankGlyphName) => `rank-glyph-${name}`;
+
+/**
+ * One glyph. By default the path is inline; with `sprite` the svg only references a symbol from RankGlyphDefs,
+ * which the page renders once: a list of a hundred rows with seven chips each then carries each path one time
+ * instead of seven hundred. The stroke still follows the text colour (currentColor resolves where the symbol is used).
+ */
+export function RankGlyph({ name, className = "h-4 w-4", sprite = false }: { name: RankGlyphName; className?: string; sprite?: boolean }) {
+  if (sprite) {
+    return (
+      <svg className={className} aria-hidden focusable="false"><use href={`#${symbolId(name)}`} /></svg>
+    );
+  }
   return (
     <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth={1.75} strokeLinecap="round" strokeLinejoin="round" aria-hidden focusable="false">
       <path d={PATHS[name]} />
+    </svg>
+  );
+}
+
+/** The symbol sheet every `sprite` glyph on the page references; render it once, anywhere in the document. */
+export function RankGlyphDefs() {
+  return (
+    <svg className="absolute h-0 w-0 overflow-hidden" aria-hidden focusable="false">
+      {(Object.keys(PATHS) as RankGlyphName[]).map((name) => (
+        <symbol key={name} id={symbolId(name)} viewBox="0 0 24 24"><path d={PATHS[name]} fill="none" stroke="currentColor" strokeWidth={1.75} strokeLinecap="round" strokeLinejoin="round" /></symbol>
+      ))}
     </svg>
   );
 }

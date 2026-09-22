@@ -6,8 +6,13 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 22 September 2026
+- Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
+
 ### 21 September 2026
+- Bundle split follow-ups: stars JSON out of the guarded data folder, layout test reads dictionaries from the full set, row 140 done
 - Seven European approvals corrected to withdrawn against the EMA register, the PARTIQoL proton trial gains its reported result, and the KEYNOTE-A18 papers are split into their two Lancet reports
+- Client JavaScript on every page cut from 3.0 MB to 1.0 MB: the layout no longer pulls the animated schematics, the structure index, all eight chrome dictionaries, zod or MiniSearch
 - Paganetti 2014 RBE reference points at the real paper (Physics in Medicine and Biology)
 - Visit counting now asks first: Google Analytics loads only after you allow it, the browser's privacy signal is honoured, and the choice can be changed in the footer
 - Data follow-ups: seven withdrawn EU authorisations, PARTIQoL readout, KEYNOTE-A18 split into its two Lancet papers

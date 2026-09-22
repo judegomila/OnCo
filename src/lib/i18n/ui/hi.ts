@@ -33,6 +33,8 @@ export const hi: UiDict = {
   "table.nothingMatches": "कुछ भी मेल नहीं खाता। कोई फ़िल्टर हटाएँ।",
   "table.showAll": "सभी {n} पंक्तियाँ दिखाएँ",
   "table.showingFirst": "(पहली {n} दिखाई जा रही हैं)",
+  "table.showMore": "{n} और दिखाएँ",
+  "table.loadingMore": "और पंक्तियाँ लोड हो रही हैं…",
   "table.sortBy": "{col} के अनुसार क्रमबद्ध करें",
   "table.sortedAsc": "आरोही क्रम में। पलटने के लिए क्लिक करें।",
   "table.sortedDesc": "अवरोही क्रम में। पलटने के लिए क्लिक करें।",

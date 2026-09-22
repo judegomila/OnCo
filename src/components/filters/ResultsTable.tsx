@@ -25,12 +25,18 @@ export type SortState = { key: string; dir: 1 | -1 };
  * The header row sticks below the site header (see `--sticky-top` in globals.css); on small
  * screens the table scrolls sideways inside its card instead.
  */
-export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty, scroll = false, pageSize }: {
+export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty, scroll = false, pageSize, more }: {
   columns: Column<T>[]; rows: T[]; rowKey: (r: T) => string; sort?: SortState; onSort?: (key: string) => void; empty?: string;
   /** Keep the table scrolling sideways inside its card at every width (for tables wider than the page). */
   scroll?: boolean;
   /** When set, this many rows render at first and another page is added each time the reader nears the foot of the table; a Show all button remains for those who want everything at once. */
   pageSize?: number;
+  /**
+   * Rows beyond `rows` exist in a file the parent has not fetched yet (`total` is the whole section). The foot then
+   * carries a sentinel and a "Show more" pill that call `load`; once the parent passes the full set, `pageSize`
+   * windowing takes over. `data-more` marks the foot so the render tests can find it.
+   */
+  more?: { total: number; load: () => void; loading?: boolean };
 }) {
   const [limit, setLimit] = useState(pageSize ?? Infinity);
   // Reset the window when the rows change (a new filter or sort), the React pattern for state derived from props.
@@ -38,15 +44,20 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty, sc
   if (rows !== prevRows) { setPrevRows(rows); setLimit(pageSize ?? Infinity); }
   const { t, tl } = useT();
   const capped = pageSize !== undefined && rows.length > limit;
+  const remote = !!more && more.total > rows.length;
   const visible = capped ? rows.slice(0, limit) : rows;
   const foot = useRef<HTMLDivElement>(null);
+  const load = more?.load;
   useEffect(() => {
-    if (!capped || !foot.current || typeof IntersectionObserver === "undefined") return;
+    if ((!capped && !remote) || !foot.current || typeof IntersectionObserver === "undefined") return;
     const el = foot.current;
-    const io = new IntersectionObserver((entries) => { if (entries.some((e) => e.isIntersecting)) setLimit((n) => n + (pageSize ?? 0)); }, { rootMargin: "600px 0px" });
+    const io = new IntersectionObserver((entries) => {
+      if (!entries.some((e) => e.isIntersecting)) return;
+      if (capped) setLimit((n) => n + (pageSize ?? 0)); else load?.();
+    }, { rootMargin: "600px 0px" });
     io.observe(el);
     return () => io.disconnect();
-  }, [capped, pageSize, limit]);
+  }, [capped, remote, pageSize, limit, load]);
   return (
     <div className={`card results-table overflow-x-auto ${scroll ? "" : "lg:overflow-x-visible"}`}>
       <table className="onco">
@@ -83,6 +94,16 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty, sc
       </table>
       {rows.length === 0 && <div className="px-6 py-12 text-center text-muted text-sm">{empty ?? t("table.nothingMatches")}</div>}
       {capped && <div ref={foot} className="px-4 py-3 border-t border-border text-sm"><button type="button" onClick={() => setLimit(Infinity)} className="underline">{t("table.showAll", { n: rows.length.toLocaleString("en-GB") })}</button> <span className="text-muted">{t("table.showingFirst", { n: pageSize })}</span></div>}
+      {!capped && remote && (
+        <div ref={foot} data-more className="px-4 py-3 border-t border-border text-sm flex flex-wrap items-center gap-3">
+          <button type="button" onClick={() => load?.()} disabled={more.loading} aria-busy={more.loading || undefined}
+            className="chip border border-border bg-card hover:bg-accent-soft hover:text-accent hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 inline-flex items-center gap-1 disabled:opacity-60">
+            <svg aria-hidden viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M12 5v14M5 12h14" /></svg>
+            {t("table.showMore", { n: Math.min(pageSize ?? more.total - rows.length, more.total - rows.length).toLocaleString("en-GB") })}
+          </button>
+          <span className="text-muted tabular-nums" aria-live="polite">{more.loading ? t("table.loadingMore") : t("table.showingFirst", { n: rows.length.toLocaleString("en-GB") })}</span>
+        </div>
+      )}
     </div>
   );
 }

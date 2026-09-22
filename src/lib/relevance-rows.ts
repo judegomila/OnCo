@@ -1,9 +1,10 @@
 /** Server-only: builds the power view rows from the graph; relevance.ts keeps the pure scoring helpers for client components. */
 import { graph } from "./graph";
 import { approvedRegions, regionalApprovals } from "@/data/regional-approvals";
-import type { PowerRow, Signals } from "./relevance";
+import { scoreRow, type PowerRow, type Signals } from "./relevance";
 import type { Entity } from "./schema";
-import { phaseLabel, routeFor } from "./kinds";
+import { phaseLabel, routeFor, type Kind } from "./kinds";
+import { EXPLORE_KINDS, EXPLORE_PAGE, type ExploreCounts } from "./explore-kinds";
 
 const EVIDENCE: Record<string, number> = { approved: 10, "standard-of-care": 10, positive: 8, "phase-3": 6, established: 6, completed: 5, recruiting: 4, active: 4, "phase-2": 4, emerging: 3, "phase-1": 2, preclinical: 1, concept: 0, mixed: 3, historic: 1, negative: 0, withdrawn: 0, planned: 1 };
 
@@ -63,6 +64,36 @@ export function powerRows(): PowerRow[] {
     }
   }
   return [...rows.values()];
+}
+
+/** What the Explore page carries at first paint (see src/lib/explore-kinds.ts) and what the per-kind API files hold. */
+export type ExploreSections = {
+  /** Every row of each Explore kind, in the view's default order (score for all cancers, then name). */
+  full: Partial<Record<Kind, PowerRow[]>>;
+  /** The first EXPLORE_PAGE rows of every kind, in that order: what the page renders and serialises. */
+  first: PowerRow[];
+  /** Rows per kind for all cancers (key "") and for each cancer id: the numbers the kind chooser prints. */
+  counts: ExploreCounts;
+};
+
+/** Split the power rows into the Explore sections; kinds the view does not show (people, papers, journals, bottlenecks) are left out. */
+export function exploreSections(rows: PowerRow[] = powerRows()): ExploreSections {
+  const full: Partial<Record<Kind, PowerRow[]>> = {};
+  const counts: ExploreCounts = { "": {} };
+  for (const r of rows) {
+    if (!EXPLORE_KINDS.includes(r.kind)) continue;
+    (full[r.kind] ??= []).push(r);
+    counts[""][r.kind] = (counts[""][r.kind] ?? 0) + 1;
+    for (const c of Object.keys(r.rel)) { const m = (counts[c] ??= {}); m[r.kind] = (m[r.kind] ?? 0) + 1; }
+  }
+  const first: PowerRow[] = [];
+  for (const k of EXPLORE_KINDS) {
+    const list = full[k];
+    if (!list) continue;
+    list.sort((a, b) => scoreRow(b, null) - scoreRow(a, null) || a.name.localeCompare(b.name));
+    first.push(...list.slice(0, EXPLORE_PAGE));
+  }
+  return { full, first, counts };
 }
 
 /** Does a standard-of-care setting label ("Metastatic, first line", "Localised", "Relapsed") fit a profile stage? */

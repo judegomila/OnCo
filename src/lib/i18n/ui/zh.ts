@@ -33,6 +33,8 @@ export const zh: UiDict = {
   "table.nothingMatches": "没有匹配结果。请清除一个筛选条件。",
   "table.showAll": "显示全部 {n} 行",
   "table.showingFirst": "（仅显示前 {n} 行）",
+  "table.showMore": "再显示 {n} 行",
+  "table.loadingMore": "正在加载更多行…",
   "table.sortBy": "按{col}排序",
   "table.sortedAsc": "已升序排列。点击可反转。",
   "table.sortedDesc": "已降序排列。点击可反转。",

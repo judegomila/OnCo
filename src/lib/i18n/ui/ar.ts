@@ -33,6 +33,8 @@ export const ar: UiDict = {
   "table.nothingMatches": "لا شيء يطابق. أزل أحد المرشحات.",
   "table.showAll": "إظهار كل الصفوف ({n})",
   "table.showingFirst": "(تُعرض أول {n})",
+  "table.showMore": "إظهار {n} أخرى",
+  "table.loadingMore": "جارٍ تحميل صفوف أخرى…",
   "table.sortBy": "ترتيب حسب {col}",
   "table.sortedAsc": "مرتب تصاعديًا. انقر للعكس.",
   "table.sortedDesc": "مرتب تنازليًا. انقر للعكس.",

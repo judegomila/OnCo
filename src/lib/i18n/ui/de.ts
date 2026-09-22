@@ -33,6 +33,8 @@ export const de: UiDict = {
   "table.nothingMatches": "Nichts passt. Entfernen Sie einen Filter.",
   "table.showAll": "Alle {n} Zeilen anzeigen",
   "table.showingFirst": "(die ersten {n} werden angezeigt)",
+  "table.showMore": "{n} weitere anzeigen",
+  "table.loadingMore": "Weitere Zeilen werden geladen…",
   "table.sortBy": "Sortieren nach {col}",
   "table.sortedAsc": "Aufsteigend sortiert. Klicken zum Umkehren.",
   "table.sortedDesc": "Absteigend sortiert. Klicken zum Umkehren.",

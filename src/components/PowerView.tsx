@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { KIND_META, type Kind } from "@/lib/kinds";
 import { PERSONAL_WEIGHTS, personalSignals, scoreRow, WEIGHTS, type Personal, type PersonalSignals, type PowerRow, type Signals } from "@/lib/relevance";
+import { EXPLORE_KINDS, EXPLORE_PAGE, exploreFile, type ExploreCounts } from "@/lib/explore-kinds";
 import { isProfileEmpty, useProfile } from "@/lib/profile";
 import { REGION_META, useRegion } from "@/lib/region";
 import { biomarkers } from "@/data/biomarkers";
@@ -11,26 +12,53 @@ import { MoleculeSlot } from "./MoleculeSlot";
 import { ApprovalChip } from "./ApprovalChip";
 import { KindIcon } from "./KindIcon";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
+import { useT } from "@/lib/i18n/ui";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
 
 export type PowerCancer = { id: string; name: string; group: string; route: string };
-const KINDS_ORDER: Kind[] = ["drug", "technology", "target", "trial", "pairing", "idea", "company", "institution", "pathway", "term", "roadmap", "collection"];
+const KINDS_ORDER = EXPLORE_KINDS;
+const DEFAULT_SORT: SortState = { key: "score", dir: -1 };
 
 function scoreParts(sig: Signals | undefined): Array<[string, number]> {
   if (!sig) return [];
   return (Object.keys(WEIGHTS) as Array<keyof typeof WEIGHTS>).filter((k) => sig[k]).map((k) => [k, WEIGHTS[k]]);
 }
 
-export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows: PowerRow[]; cancers: PowerCancer[]; initialCancer?: string; initialKind?: Kind }) {
+/** One request per kind per page; the promise is shared by every caller. Null when the file cannot be fetched (the page then keeps its first rows). */
+const files = new Map<Kind, Promise<PowerRow[] | null>>();
+function loadKind(kind: Kind): Promise<PowerRow[] | null> {
+  let p = files.get(kind);
+  if (!p) {
+    p = fetch(exploreFile(kind)).then(async (r) => (r.ok ? ((await r.json()) as PowerRow[]) : null)).catch(() => null);
+    files.set(kind, p);
+  }
+  return p;
+}
+/** Test seam: forget the fetched files. */
+export function resetExploreFiles() { files.clear(); }
+
+/**
+ * The Explore table. `rows` are the first EXPLORE_PAGE rows of every kind (what the static page renders and serialises);
+ * `counts` are the per-cancer, per-kind totals. Everything else is fetched per kind from /api/v1/explore/<plural>.json
+ * when the reader scrolls past the first rows, presses Show more, or sets a cancer, filter, sort or personalisation
+ * that the first rows alone cannot answer. Filtering and sorting then run here over the whole loaded kind.
+ */
+export function PowerView({ rows, cancers, counts, initialCancer, initialKind }: { rows: PowerRow[]; cancers: PowerCancer[]; counts: ExploreCounts; initialCancer?: string; initialKind?: Kind }) {
   const [cancer, setCancer] = useState<string | null>(initialCancer ?? null);
   const [kind, setKind] = useState<Kind>(initialKind ?? "drug");
   const [q, setQ] = useState("");
   const [status, setStatus] = useState<string[]>([]);
-  const [sort, setSort] = useState<SortState>({ key: "score", dir: -1 });
+  const [sort, setSort] = useState<SortState>(DEFAULT_SORT);
   const [personalise, setPersonalise] = useState(false);
   const [profile, , profileReady] = useProfile();
   const { region } = useRegion();
+  const { t } = useT();
+  /** Whole kinds fetched so far, kinds whose file could not be fetched, and the kinds the reader has asked to see beyond the first page. */
+  const [full, setFull] = useState<Partial<Record<Kind, PowerRow[]>>>({});
+  const [failed, setFailed] = useState<Partial<Record<Kind, boolean>>>({});
+  const [wanted, setWanted] = useState<Partial<Record<Kind, boolean>>>({});
+  const inflight = useRef(new Set<Kind>());
 
   useEffect(() => {
     // Read shareable state from the URL after hydration (deferred to avoid a synchronous setState in the effect).
@@ -61,33 +89,50 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
     if (next && !cancer && profile.cancerId && cancers.some((c) => c.id === profile.cancerId)) setCancer(profile.cancerId);
   };
 
+  const want = useCallback((k: Kind) => setWanted((w) => (w[k] ? w : { ...w, [k]: true })), []);
+
+  // Anything the first rows cannot answer needs the whole kind: a cancer (relevance is per cancer), a search, a status
+  // filter, another sort, personal points, or the reader asking for more rows. The fetch starts here; state changes
+  // only when the file arrives (or fails), so nothing re-renders in the effect itself.
+  const filtersActive = !!cancer || !!q.trim() || status.length > 0 || sort.key !== DEFAULT_SORT.key || sort.dir !== DEFAULT_SORT.dir || !!personal;
+  const needFull = filtersActive || !!wanted[kind];
+  const complete = !!full[kind];
+  const loading = needFull && !complete && !failed[kind];
+  useEffect(() => {
+    if (!loading || inflight.current.has(kind)) return;
+    inflight.current.add(kind);
+    const k = kind;
+    void loadKind(k).then((list) => {
+      inflight.current.delete(k);
+      if (list) setFull((f) => (f[k] ? f : { ...f, [k]: list })); else setFailed((x) => ({ ...x, [k]: true }));
+    });
+  }, [loading, kind]);
+
   const cancerOptions = useMemo(() => cancers.map((c) => ({ value: c.id, label: c.name, group: c.group })), [cancers]);
   const cancerName = cancers.find((c) => c.id === cancer)?.name;
 
-  const kindCounts = useMemo(() => {
-    const m: Partial<Record<Kind, number>> = {};
-    for (const r of rows) if (!cancer || r.rel[cancer]) m[r.kind] = (m[r.kind] ?? 0) + 1;
-    return m;
-  }, [rows, cancer]);
+  const kindCounts = counts[cancer ?? ""] ?? {};
   const kindOptions = KINDS_ORDER.filter((k) => kindCounts[k]).map((k) => ({ value: k, label: (KIND_META[k].title ?? KIND_META[k].plural)[0].toUpperCase() + (KIND_META[k].title ?? KIND_META[k].plural).slice(1), count: kindCounts[k], icon: <KindIcon kind={k} className="h-4 w-4" /> }));
+  /** Every row of the current kind once fetched; until then the first page from the static HTML. */
+  const source = useMemo(() => full[kind] ?? rows.filter((r) => r.kind === kind), [full, rows, kind]);
+  const total = kindCounts[kind] ?? 0;
 
   const statusOptions = useMemo(() => {
     const m = new Map<string, number>();
-    for (const r of rows) if (r.kind === kind && (!cancer || r.rel[cancer]) && r.status) m.set(r.status, (m.get(r.status) ?? 0) + 1);
+    for (const r of source) if ((!cancer || r.rel[cancer]) && r.status) m.set(r.status, (m.get(r.status) ?? 0) + 1);
     return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([s, n]) => ({ value: s, label: STATUS_LABEL[s] ?? s, count: n }));
-  }, [rows, kind, cancer]);
+  }, [source, cancer]);
 
   type Row = { r: PowerRow; score: number; psig?: PersonalSignals };
   const scored = useMemo(() => {
     const needle = q.trim().toLowerCase();
-    const list: Row[] = rows
-      .filter((r) => r.kind === kind)
+    const list: Row[] = source
       .map((r) => { const psig = personal ? personalSignals(r, cancer, personal) : undefined; return { r, psig, score: scoreRow(r, cancer, psig) }; })
       .filter(({ r, score }) => score >= 0 && (!status.length || status.includes(r.status ?? "")) && (!needle || `${r.name} ${r.tldr} ${r.meta} ${r.tags.join(" ")}`.toLowerCase().includes(needle)));
     const val = (x: Row) => sort.key === "score" ? x.score : sort.key === "evidence" ? x.r.evidence : sort.key === "degree" ? x.r.degree : sort.key === "year" ? (x.r.year ?? 0) : 0;
     list.sort((a, b) => sort.key === "name" ? sort.dir * a.r.name.localeCompare(b.r.name) : sort.dir * (val(a) - val(b)) || a.r.name.localeCompare(b.r.name));
     return list;
-  }, [rows, kind, cancer, q, status, sort, personal]);
+  }, [source, cancer, q, status, sort, personal]);
 
   const onSort = (key: string) => setSort((s) => (s.key === key ? { key, dir: s.dir === 1 ? -1 : 1 } : { key, dir: key === "name" ? 1 : -1 }));
 
@@ -109,11 +154,13 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
   ];
 
   const personalSummary = personal ? [personal.biomarkers.length ? `${personal.biomarkers.length} biomarker${personal.biomarkers.length > 1 ? "s" : ""}` : "", personal.stage && personal.stage !== "unknown" ? `stage: ${personal.stage.replace(/-/g, " ")}` : "", personal.region ? `region: ${personal.region}` : ""].filter(Boolean).join(" · ") : "";
+  /** The whole section while its first page stands in for it; the filtered length once the kind is loaded or a filter narrows it. */
+  const shown = complete || filtersActive ? scored.length : Math.max(total, scored.length);
 
   return (
     <div>
       <Toolbar
-        count={scored.length}
+        count={shown}
         noun={`${KIND_META[kind].plural}${cancerName ? ` for ${cancerName.replace(/ \(.*\)$/, "")}` : ""}`}
         left={<>
           <FacetSelect label="Cancer" options={cancerOptions} value={cancer} onChange={(v) => setCancer(v as string | null)} allLabel="All cancers" width="w-72" />
@@ -128,7 +175,10 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
       />
       {profileReady && !hasProfile && <p className="text-xs text-muted mb-2">Personalise is off because no profile is set. <Link href="/for-me/" className="underline">Pick your cancer, stage and biomarkers</Link> to add matching points to the rank; it stays in your browser.</p>}
       {personal && <p className="text-xs text-muted mb-2">Personalised with {personalSummary || "your profile"}. Points added: biomarker match +{PERSONAL_WEIGHTS.biomarker}, approved in your region +{PERSONAL_WEIGHTS.region}, standard-of-care row for your stage +{PERSONAL_WEIGHTS.stage}. <Link href="/for-me/" className="underline">Edit profile</Link>.</p>}
-      <ResultsTable columns={columns} rows={scored} rowKey={(x) => x.r.id} sort={sort} onSort={onSort} empty="Nothing matches. Choose another kind or clear filters." />
+      {filtersActive && loading && <p className="text-xs text-muted mb-2" aria-live="polite">{t("table.loadingMore")}</p>}
+      {filtersActive && failed[kind] && <p className="text-xs text-muted mb-2">Only the first {EXPLORE_PAGE} {KIND_META[kind].plural} could be searched: the full list did not load. Check your connection and reload.</p>}
+      <ResultsTable columns={columns} rows={scored} rowKey={(x) => x.r.id} sort={sort} onSort={onSort} empty="Nothing matches. Choose another kind or clear filters." pageSize={EXPLORE_PAGE}
+        more={!complete && !filtersActive && !failed[kind] ? { total, load: () => want(kind), loading } : undefined} />
       <details className="mt-3 text-xs text-muted">
         <summary className="cursor-pointer">How the rank is computed</summary>
         <p className="mt-1 max-w-3xl">For a chosen cancer: standard-of-care mention +{WEIGHTS.soc}, in its pipeline +{WEIGHTS.pipeline}, in its history +{WEIGHTS.history}, directly linked +{WEIGHTS.direct}, linked through one of its drugs +{WEIGHTS.indirect}. Always: evidence tier (approved 10 … concept 0) plus half a point per connection in the graph, capped at 10. With Personalise on: a match to one of your biomarkers +{PERSONAL_WEIGHTS.biomarker}, approval in your region +{PERSONAL_WEIGHTS.region}, a standard-of-care setting matching your stage +{PERSONAL_WEIGHTS.stage}. It ranks documentation and evidence, not clinical benefit.</p>

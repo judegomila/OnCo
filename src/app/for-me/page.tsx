@@ -1,24 +1,18 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
-import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CancerPicker, type PickerCancer } from "@/components/CancerPicker";
-import { redCardsForCancer } from "@/lib/red-cards";
 
 export const metadata: Metadata = pageMeta({ title: "For me", description: "Select one or more cancer types and see the technologies, products, trials, pairings, and ideas relevant to you. Add your setting, biomarkers, treatments so far and country to see what the records say for your situation.", path: "/for-me/" });
 
 export default function ForMe() {
   const g = graph();
-  // "For me" shows what works and what could work: drop failures, withdrawals, historic items, and caution pairings.
-  const hopeful = (e: Entity) => !["negative", "withdrawn", "historic"].includes(e.status ?? "") && !e.tags.some((t) => t === "failure" || t === "failed-so-far" || t.startsWith("lesson:")) && !(e.kind === "pairing" && e.pairingType === "caution");
-  const data: PickerCancer[] = g.kind("cancer").map((c) => {
-    const rel = g.forCancer(c.id);
-    const groups: Partial<Record<Kind, Array<{ id: string; name: string; tldr: string; route: string; status?: string }>>> = {};
-    for (const [k, list] of rel) { const kept = list.filter(hopeful); if (kept.length) groups[k] = kept.map((e) => ({ id: e.id, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status })); }
-    return { id: c.id, name: c.name, group: c.group, tldr: c.tldr, route: routeFor(c), stateOfArt: c.stateOfArt, redCards: redCardsForCancer(g, c), pipeline: c.pipeline.map((id) => g.must(id)).filter(hopeful).map((e) => ({ id: e.id, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status })), groups };
-  });
-  // Situation view (item 101): the per-cancer file at /api/v1/for-me/<id>.json is fetched by the picker's ForMeSituation panel when the reader opens the form.
+  // The page carries the chooser list alone. What touches each cancer (state of the art, red cards, pipeline, records by
+  // kind) is one file per cancer, /api/v1/for-me/<id>.related.json (src/lib/for-me-related.ts), fetched when it is chosen;
+  // the situation view (item 101) fetches /api/v1/for-me/<id>.json the same way.
+  const data: PickerCancer[] = g.kind("cancer").map((c) => ({ id: c.id, name: c.name, group: c.group, tldr: c.tldr, route: routeFor(c) }));
   return (
     <>
       <PageHeader kicker={<GroupKicker id="find" />} title="For me"

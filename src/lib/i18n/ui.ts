@@ -51,6 +51,8 @@ export const EN = {
   "table.nothingMatches": "Nothing matches. Clear a filter.",
   "table.showAll": "Show all {n} rows",
   "table.showingFirst": "(showing the first {n})",
+  "table.showMore": "Show {n} more",
+  "table.loadingMore": "Loading more rows…",
   "table.sortBy": "Sort by {col}",
   "table.sortedAsc": "Sorted ascending. Click to flip.",
   "table.sortedDesc": "Sorted descending. Click to flip.",

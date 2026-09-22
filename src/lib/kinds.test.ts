@@ -53,6 +53,7 @@ describe("/trials/ phase facet", () => {
       expect(normalisePhaseLabel(v)).toBe(v);
     }
     const phase = facets.find((f) => f.key === "phase");
-    expect(phase?.normalise?.("Phase observational")).toBe("Observational study");
+    expect(phase?.normalise).toBe("phase");
+    expect(normalisePhaseLabel("Phase observational")).toBe("Observational study");
   });
 });

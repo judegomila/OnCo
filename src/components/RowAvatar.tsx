@@ -14,14 +14,14 @@ function tint(name: string): string {
  * or when a hotlinked favicon turns out to be the 16 px generic globe a favicon service returns for sites
  * without one, so no row is left blank or carrying a placeholder that is not the organisation's own.
  */
-export function RowAvatar({ src, name, round = false }: { src?: string; name: string; round?: boolean }) {
+export function RowAvatar({ src, name, round = false, size = "md" }: { src?: string; name: string; round?: boolean; /** "sm" is a 16 px tile for inside a pill. */ size?: "sm" | "md" }) {
   const [failed, setFailed] = useState(false);
   const initials = name.replace(/\(.*?\)/g, "").split(/[\s/–-]+/).filter((w) => /[A-Za-z0-9]/.test(w)).slice(0, 2).map((w) => w[0]!.toUpperCase()).join("");
   const shape = round ? "rounded-full" : "rounded-md";
   const show = src && !failed;
   return (
-    <span className={`relative inline-flex h-7 w-7 shrink-0 items-center justify-center border border-border overflow-hidden ${shape}`} style={show ? { background: "white" } : { background: tint(name) }} aria-hidden="true">
-      {!show && <span className="text-[10px] font-semibold text-foreground/70 leading-none">{initials}</span>}
+    <span className={`relative inline-flex ${size === "sm" ? "h-4 w-4" : "h-7 w-7"} shrink-0 items-center justify-center border border-border overflow-hidden ${shape}`} style={show ? { background: "white" } : { background: tint(name) }} aria-hidden="true">
+      {!show && <span className={`${size === "sm" ? "text-[7px]" : "text-[10px]"} font-semibold text-foreground/70 leading-none`}>{initials}</span>}
       {show && (
         // eslint-disable-next-line @next/next/no-img-element -- self-hosted or hotlinked icon, never optimised
         <img src={src} alt="" className={round ? "h-full w-full object-cover" : "h-[70%] w-[70%] object-contain"} loading="lazy" referrerPolicy="no-referrer"

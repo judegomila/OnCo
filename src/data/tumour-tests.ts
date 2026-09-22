@@ -27,6 +27,30 @@ export const SCOPE_PLAIN: Record<TestScope, string> = {
   screening: "Looks in blood for signs of a cancer in someone without symptoms.",
 };
 
+/** Regulatory statuses a row can be filtered by; each is read from the `regulatory` strings, never guessed. */
+export type RegStatus = "fda" | "ldt" | "ce" | "ruo";
+export const REG_LABEL: Record<RegStatus, string> = {
+  fda: "FDA approved",
+  ldt: "Laboratory-developed test",
+  ce: "CE marked",
+  ruo: "Research use only",
+};
+export const REG_ORDER: RegStatus[] = ["fda", "ce", "ldt", "ruo"];
+
+/**
+ * Which statuses a test's regulatory strings state. "FDA approved" must appear as the test's own status (a
+ * mention of another FDA-approved version, or a Breakthrough Device designation, does not count).
+ */
+export function regulatoryStatuses(reg: { us?: string; eu?: string }): RegStatus[] {
+  const out: RegStatus[] = [];
+  const us = reg.us ?? "", eu = reg.eu ?? "";
+  if (/\bFDA approved\b/.test(us)) out.push("fda");
+  if (/\bCE marked\b/.test(eu)) out.push("ce");
+  if (/laboratory-developed test/i.test(us)) out.push("ldt");
+  if (/research use only/i.test(us)) out.push("ruo");
+  return out;
+}
+
 export type TumourTest = {
   id: string;
   name: string;

@@ -48,6 +48,7 @@ import { institutionsCentresWave3 } from "./institutions/centres-wave3";
 import { institutionsDonorFoundations } from "./institutions/donor-foundations";
 import { foundationModels } from "./foundation-models";
 import { foundationRoadmaps } from "./foundation-roadmap";
+import { ctdnaRoadmaps, ctdnaTrials, ctdnaTerms } from "./ctdna-roadmap";
 import { ideaWaves } from "./ideas-waves";
 import { mechanicsPathways } from "./mechanics-pathways";
 import { complementary } from "./complementary";
@@ -176,6 +177,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...institutionsDonorFoundations,
   ...foundationModels,
   ...foundationRoadmaps,
+  ...ctdnaRoadmaps, ...ctdnaTrials, ...ctdnaTerms,
   ...mechanicsPathways,
   ...complementary,
   ...tests,

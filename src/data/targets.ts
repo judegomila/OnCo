@@ -6,7 +6,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 export const targets: TargetInput[] = [
   // ---- Surface antigens (ADC / bispecific / CAR / tracer targets) ----
   {
-    id: "trop2", trials: ["nct07299747"], kind: "target", name: "TROP2", symbol: "TACSTD2", hgnc: "HGNC:11530", ensembl: "ENSG00000184292", uniprot: "P09758", entrez: "4070", targetClass: "surface-antigen", asOf,
+    id: "trop2", drugs: ["ak146d1", "bio-106", "datopotamab-deruxtecan", "eb-nk-301", "lcb84", "sacituzumab-govitecan", "sacituzumab-tirumotecan"], trials: ["nct07299747"], kind: "target", name: "TROP2", symbol: "TACSTD2", hgnc: "HGNC:11530", ensembl: "ENSG00000184292", uniprot: "P09758", entrez: "4070", targetClass: "surface-antigen", asOf,
     tldr: "TROP2 is a surface glycoprotein present at high levels on most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) and at low levels on normal tissue. It does not drive the cancer; it is a delivery address, used by the approved ADCs sacituzumab govitecan and datopotamab deruxtecan and by sacituzumab tirumotecan, with a TROP2 PET tracer in development to pick patients.",
     summary: "Trophoblast cell-surface antigen 2 is a transmembrane glycoprotein overexpressed in most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) with low normal-tissue expression. It is not an oncogenic driver; it is a delivery address. Three TROP2 ADCs are approved or in registration (sacituzumab govitecan, datopotamab deruxtecan, sacituzumab tirumotecan) and a TROP2 PET tracer is in development to select patients.",
     biology: "Regulates calcium signalling and cell adhesion; overexpression correlates with poor prognosis. Expression is heterogeneous within tumours, which limits the value of IHC selection. Internalises on antibody binding and traffics to lysosomes, which is what makes it a good ADC target.",
@@ -138,7 +138,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Fibroblast_activation_protein,_alpha") }], companies: ["ratio-therapeutics"],
   },
   {
-    id: "sstr2", kind: "target", name: "Somatostatin receptor 2", symbol: "SSTR2", hgnc: "HGNC:11331", ensembl: "ENSG00000180616", uniprot: "P30874", entrez: "6752", targetClass: "surface-antigen", asOf, wikipedia: W("Somatostatin_receptor_2"),
+    id: "sstr2", drugs: ["alphamedix", "cam2029", "ga68-dotatate", "itm-11", "lutathera", "octreotide-lanreotide", "paltusotine", "pasireotide", "radioactive-iodine", "ryz101"], kind: "target", name: "Somatostatin receptor 2", symbol: "SSTR2", hgnc: "HGNC:11331", ensembl: "ENSG00000180616", uniprot: "P30874", entrez: "6752", targetClass: "surface-antigen", asOf, wikipedia: W("Somatostatin_receptor_2"),
     tldr: "Somatostatin receptor 2 is a hormone receptor densely present on neuroendocrine tumours, and was the first theranostic target to reach routine care.",
     summary: "Somatostatin receptor 2 is a G-protein-coupled receptor overexpressed on well-differentiated neuroendocrine tumours, which internalise bound somatostatin analogues and so can be both imaged and treated with the same peptide. 68Ga-DOTATATE PET (Netspot) and 177Lu-DOTATATE (Lutathera, NETTER-1 and NETTER-2) established the theranostic paradigm, in which a diagnostic scan selects patients for a matched radioligand. SSTR PET is positive in 80-90% of well-differentiated neuroendocrine tumours but lower in grade 3, and the receptor is also expressed in meningioma, 30-50% of small-cell lung cancer, and some breast cancers. Alpha-emitting 225Ac-DOTATATE (RYZ101) and 212Pb-DOTAMTATE are in phase 3, testing whether alpha particles outperform beta. The simple version is a hormone receptor that lets doctors see and treat neuroendocrine tumours with the same molecule.",
     biology: "G-protein-coupled receptor; also expressed in meningioma, small-cell lung cancer, and some breast cancers.",
@@ -178,7 +178,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Folate_receptor_1") }], companies: ["profoundbio"],
   },
   {
-    id: "tissue-factor", kind: "target", name: "Tissue factor", symbol: "F3", hgnc: "HGNC:3541", ensembl: "ENSG00000117525", uniprot: "P13726", entrez: "2152", targetClass: "surface-antigen", asOf, wikipedia: W("Tissue_factor"),
+    id: "tissue-factor", drugs: ["tisotumab-vedotin"], kind: "target", name: "Tissue factor", symbol: "F3", hgnc: "HGNC:3541", ensembl: "ENSG00000117525", uniprot: "P13726", entrez: "2152", targetClass: "surface-antigen", asOf, wikipedia: W("Tissue_factor"),
     tldr: "Tissue factor is a clotting protein that cancers abnormally display on their surface, used as an ADC target in cervical cancer.",
     summary: "Tissue factor (F3) initiates the extrinsic coagulation cascade; when cancers display it abnormally on their surface it drives thrombosis and angiogenesis, and it becomes an ADC target. It is overexpressed in cervical, pancreatic, head and neck, and ovarian tumours, with 90-95% of cervical and 50-80% of pancreatic cancers positive by IHC. Tisotumab vedotin (Tivdak) is approved in recurrent cervical cancer on the basis of innovaTV 301, and innovaTV did not select patients on tissue factor expression, so the drug is given without a companion test. Topoisomerase-I payload successors (XNW28012) are in phase 3. The open questions are ocular toxicity management and whether newer payloads widen the indication. The simple version is a clotting protein that cancers wear on their surface, letting an ADC find them.",
     biology: "Initiates the extrinsic coagulation cascade; tumour expression drives thrombosis and angiogenesis.",
@@ -191,7 +191,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Tissue_factor") }], companies: ["adcendo"],
   },
   {
-    id: "cdh6", kind: "target", name: "CDH6", symbol: "CDH6", hgnc: "HGNC:1765", ensembl: "ENSG00000113361", uniprot: "P55285", entrez: "1004", targetClass: "surface-antigen", asOf, wikipedia: W("CDH6"),
+    id: "cdh6", drugs: ["raludotatug-deruxtecan"], kind: "target", name: "CDH6", symbol: "CDH6", hgnc: "HGNC:1765", ensembl: "ENSG00000113361", uniprot: "P55285", entrez: "1004", targetClass: "surface-antigen", asOf, wikipedia: W("CDH6"),
     tldr: "CDH6 is an adhesion protein from kidney development that reappears on ovarian and kidney cancers.",
     summary: "Cadherin-6 (CDH6) is a type II cadherin and a fetal kidney marker that is overexpressed in ovarian cancer and renal cell carcinoma with low normal adult expression, the profile an ADC target needs. It is found in 65-85% of ovarian cancers, particularly high-grade serous, and 60-80% of renal cell carcinomas by IHC. Raludotatug deruxtecan (R-DXd), a CDH6 ADC with the DXd payload, is in phase 3 in platinum-resistant ovarian cancer (REJOICE-Ovarian01). The main open question is whether the DXd payload's interstitial lung disease signal and the expression threshold for benefit will hold up in a randomised setting. The simple version is an adhesion protein from kidney development that reappears on ovarian and kidney cancers, giving an ADC a clean address.",
     biology: "CDH6 is a type II cadherin and a fetal kidney marker.",
@@ -257,7 +257,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("CD70") }],
   },
   {
-    id: "ror1", trials: ["nct07510802"], kind: "target", name: "ROR1", symbol: "ROR1", hgnc: "HGNC:10256", ensembl: "ENSG00000185483", uniprot: "Q01973", entrez: "4919", targetClass: "surface-antigen", asOf, wikipedia: W("ROR1"),
+    id: "ror1", drugs: ["zilovertamab-vedotin"], trials: ["nct07510802"], kind: "target", name: "ROR1", symbol: "ROR1", hgnc: "HGNC:10256", ensembl: "ENSG00000185483", uniprot: "Q01973", entrez: "4919", targetClass: "surface-antigen", asOf, wikipedia: W("ROR1"),
     tldr: "ROR1 is a fetal pseudo-kinase receptor re-expressed on over 90% of chronic lymphocytic leukaemias, 30 to 50% of diffuse large B-cell lymphomas and 40 to 60% of triple-negative breast cancers, and largely absent from healthy adult tissue. Zilovertamab vedotin uses it as an ADC address, in phase 3 in large B-cell lymphoma; whether expression level predicts benefit is unproven.",
     summary: "ROR1 is an oncofetal receptor tyrosine kinase-like protein, a Wnt5a pseudo-kinase receptor that drives survival signalling in CLL and mantle cell lymphoma and is largely absent from normal adult tissue. Surface expression is seen in over 90% of CLL, 30-50% of DLBCL, and 40-60% of TNBC by IHC, with NSCLC expression also reported. Zilovertamab vedotin (MK-2140), an ADC, is in phase 3 in DLBCL, and the TNBC and NSCLC expression supports solid-tumour programmes. Because the receptor is a pseudo-kinase, it is used as a delivery address rather than a signalling target, and whether expression level predicts ADC benefit remains to be shown. The simple version is an embryonic receptor that many cancers re-express, giving ADCs a target largely missing from healthy cells.",
     biology: "Wnt5a pseudo-kinase receptor; drives survival signalling in CLL and MCL.",
@@ -344,7 +344,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("CD38") }],
   },
   {
-    id: "cd33", kind: "target", name: "CD33", symbol: "CD33", hgnc: "HGNC:1659", ensembl: "ENSG00000105383", uniprot: "P20138", entrez: "945", targetClass: "surface-antigen", asOf, wikipedia: W("CD33"),
+    id: "cd33", drugs: ["gemtuzumab-ozogamicin"], kind: "target", name: "CD33", symbol: "CD33", hgnc: "HGNC:1659", ensembl: "ENSG00000105383", uniprot: "P20138", entrez: "945", targetClass: "surface-antigen", asOf, wikipedia: W("CD33"),
     tldr: "CD33 is a myeloid surface marker on the blasts of 85 to 90% of acute myeloid leukaemias and on normal myeloid cells, so drugs against it also hit healthy marrow. It is the target of gemtuzumab ozogamicin, the first ADC ever approved (2000), withdrawn in 2010 and re-approved in 2017 at a lower fractionated dose.",
     summary: "CD33 (Siglec-3) is a myeloid lineage marker expressed on the blasts of roughly 85 to 90 percent of acute myeloid leukaemias and on normal myeloid cells, so drugs against it hit healthy marrow as well as leukaemia. It is the antigen behind gemtuzumab ozogamicin, the first antibody-drug conjugate ever approved: approved in 2000, withdrawn in 2010 after toxicity and lack of confirmed benefit, and re-approved in 2017 at a lower fractionated dose. That history is an object lesson in ADC development, showing that dose schedule and linker stability can decide whether a valid target succeeds. Newer CD33 approaches, including bispecifics and CAR-T, still have to solve the same on-target myelosuppression. For a newcomer, CD33 is the AML surface marker on which the ADC field first learnt its lessons.",
     biology: "Siglec-3; expressed on AML blasts and normal myeloid cells.",
@@ -356,7 +356,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("CD33") }], companies: ["actinium-pharmaceuticals", "orum-therapeutics"],
   },
   {
-    id: "cd123", kind: "target", name: "CD123", symbol: "IL3RA", hgnc: "HGNC:6012", ensembl: "ENSG00000185291", uniprot: "P26951", entrez: "3563", targetClass: "surface-antigen", asOf, wikipedia: W("Interleukin-3_receptor"),
+    id: "cd123", drugs: ["pivekimab-sunirine", "tagraxofusp"], kind: "target", name: "CD123", symbol: "IL3RA", hgnc: "HGNC:6012", ensembl: "ENSG00000185291", uniprot: "P26951", entrez: "3563", targetClass: "surface-antigen", asOf, wikipedia: W("Interleukin-3_receptor"),
     tldr: "CD123 is the interleukin-3 receptor alpha chain, present on every blastic plasmacytoid dendritic cell neoplasm and on the blasts and leukaemia stem cells of 70 to 80% of acute myeloid leukaemias. Tagraxofusp and pivekimab sunirine target it in that rare neoplasm, and CAR-T cells against it in AML must spare the normal blood-forming progenitors that also carry it.",
     summary: "CD123 is the interleukin-3 receptor alpha chain (IL3RA), expressed on leukaemic stem cells and plasmacytoid dendritic cells. It is universally present in blastic plasmacytoid dendritic cell neoplasm (BPDCN) and found on blasts and leukaemic stem cells in roughly 70 to 80 percent of AML. Tagraxofusp, a CD123-directed cytotoxin, was the first approved therapy for BPDCN, and pivekimab sunirine (Decnupaz) followed with approval in 2026 for the same disease. CD123 is also a CAR-T target in AML, where the challenge is sparing normal haematopoietic progenitors that carry the antigen. Capillary leak syndrome with the fusion-toxin approach and durability of CAR-T responses remain open questions. The plain version: CD123 is an interleukin receptor over-abundant on a rare aggressive blood cancer and on leukaemia stem cells.",
     biology: "Expressed on leukaemic stem cells, plasmacytoid dendritic cells.",
@@ -368,7 +368,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Interleukin-3_receptor") }], companies: ["orum-therapeutics"],
   },
   {
-    id: "mage-a4", kind: "target", name: "MAGE-A4", symbol: "MAGEA4", hgnc: "HGNC:6802", ensembl: "ENSG00000147381", uniprot: "P43358", entrez: "4103", targetClass: "other", asOf, wikipedia: W("MAGEA4"),
+    id: "mage-a4", drugs: ["afamitresgene-autoleucel"], kind: "target", name: "MAGE-A4", symbol: "MAGEA4", hgnc: "HGNC:6802", ensembl: "ENSG00000147381", uniprot: "P43358", entrez: "4103", targetClass: "other", asOf, wikipedia: W("MAGEA4"),
     tldr: "A protein normally only in testis that some sarcomas and other tumours switch on; T cells can be engineered to recognise fragments of it.",
     summary: "MAGE-A4 is a cancer-testis antigen: an intracellular protein normally confined to testis that some tumours switch back on. It is presented on the cell surface only as peptide fragments in HLA, chiefly HLA-A*02, so it cannot be reached by antibodies or conventional CAR-T and is targetable only through T-cell receptor based approaches. Afamitresgene autoleucel (Tecelra), the first TCR-T therapy approved for a solid tumour (synovial sarcoma, 2024), recognises a MAGE-A4 peptide. Expression is seen in roughly 60 to 80 percent of synovial sarcomas and in myxoid liposarcoma, with subsets of squamous lung, ovarian and gastric cancers, but patients must also carry HLA-A*02, which about 40 to 45 percent of the population do. Durability of responses and extension beyond sarcoma are the open questions. Think of it as a hidden protein that engineered T cells can be taught to spot in fragments.",
     biology: "Intracellular; presented as peptide-HLA complex.",
@@ -381,7 +381,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("MAGEA4") }],
   },
   {
-    id: "gp100", kind: "target", name: "gp100 (PMEL)", symbol: "PMEL", hgnc: "HGNC:10880", ensembl: "ENSG00000185664", uniprot: "P40967", entrez: "6490", targetClass: "other", asOf,
+    id: "gp100", drugs: ["tebentafusp"], kind: "target", name: "gp100 (PMEL)", symbol: "PMEL", hgnc: "HGNC:10880", ensembl: "ENSG00000185664", uniprot: "P40967", entrez: "6490", targetClass: "other", asOf,
     tldr: "gp100 is a pigment-cell protein, and the target of the first bispecific drug to improve survival in a solid tumour, uveal melanoma.",
     summary: "gp100 (PMEL) is a melanosomal matrix protein of the pigment-cell lineage, present in more than 90 percent of melanomas including uveal melanoma. It sits inside the cell and is presented on the surface only as peptide in HLA, so it is reached through T-cell receptor recognition rather than antibodies. Tebentafusp (Kimmtrak), an ImmTAC that fuses a high-affinity TCR against gp100/HLA-A*02:01 to an anti-CD3 effector, improved overall survival in metastatic uveal melanoma in the IMCgp100-202 trial, making it the first bispecific to improve survival in a solid tumour. Because normal skin melanocytes also carry gp100, rash is an expected on-target effect, and the HLA-A*02:01 restriction limits eligibility. Extending the approach to cutaneous melanoma is under study. The newcomer's version: gp100 is a pigment-cell protein that gave uveal melanoma its first life-extending drug.",
     biology: "Melanosomal matrix protein; intracellular, presented on HLA.",
@@ -701,7 +701,7 @@ export const targets: TargetInput[] = [
     ], drugs: ["oncomine-dx-target-test", "tqb3454", "hmpl-306", "safusidenib"], links: [{ label: "Wikipedia", url: W("Isocitrate_dehydrogenase") }], pathways: ["glioma-signalling"],
   },
   {
-    id: "menin", kind: "target", name: "Menin", symbol: "MEN1", hgnc: "HGNC:7010", ensembl: "ENSG00000133895", uniprot: "O00255", entrez: "4221", targetClass: "transcription", asOf, wikipedia: W("Menin"),
+    id: "menin", drugs: ["revumenib", "ziftomenib"], kind: "target", name: "Menin", symbol: "MEN1", hgnc: "HGNC:7010", ensembl: "ENSG00000133895", uniprot: "O00255", entrez: "4221", targetClass: "transcription", asOf, wikipedia: W("Menin"),
     tldr: "A scaffold protein that certain leukaemias need to keep their genes switched on; the first drug against it was approved in 2024.",
     summary: "Menin (encoded by MEN1) is a scaffold protein that links KMT2A fusion proteins to chromatin; small-molecule inhibitors displace the complex, switch off the leukaemia gene programme and let blasts differentiate. Revumenib (Revuforj) is approved for KMT2A-rearranged and NPM1-mutant acute leukaemia, and ziftomenib followed. NPM1 mutation is found in roughly 25 to 30 percent of AML and KMT2A rearrangement in about 5 to 10 percent, while KMT2A rearrangement drives around 70 percent of infant ALL. Menin inhibitors are the first transcription-complex disruptors in routine haematology, and combinations with venetoclax and azacitidine are in phase 3. Differentiation syndrome, QT prolongation and acquired MEN1 mutations that restore binding are the recognised open problems. It is a scaffold certain leukaemias need to keep their genes on, and the first drug against it was approved in 2024.",
     biology: "Menin is a scaffold linking KMT2A fusion proteins to chromatin; inhibitors displace the complex and differentiate blasts.",
@@ -728,7 +728,7 @@ export const targets: TargetInput[] = [
     ], pathways: ["micrornas-in-cancer"], companies: ["oric-pharmaceuticals", "treeline-biosciences"],
   },
   {
-    id: "bcl2", technologies: ["bcl2-inhibitors"], kind: "target", name: "BCL-2", symbol: "BCL2", hgnc: "HGNC:990", ensembl: "ENSG00000171791", uniprot: "P10415", entrez: "596", targetClass: "other", asOf, wikipedia: W("Bcl-2"),
+    id: "bcl2", drugs: ["sonrotoclax", "venetoclax"], technologies: ["bcl2-inhibitors"], kind: "target", name: "BCL-2", symbol: "BCL2", hgnc: "HGNC:990", ensembl: "ENSG00000171791", uniprot: "P10415", entrez: "596", targetClass: "other", asOf, wikipedia: W("Bcl-2"),
     tldr: "A protein that stops cells from self-destructing. Venetoclax removes that protection and has transformed leukaemia treatment.",
     summary: "BCL-2 is an anti-apoptotic BH3-domain protein that stops cells from self-destructing; it is overexpressed in more than 90 percent of CLL and, through the t(14;18) translocation, in about 90 percent of follicular lymphomas and 30 to 40 percent of DLBCL. Venetoclax is a BH3 mimetic that occupies the BCL-2 groove and releases the cell-death machinery. It is standard in CLL as fixed-duration therapy with obinutuzumab or ibrutinib and in AML with azacitidine in older patients, where the drug exploits a dependency rather than a measurable expression threshold. Tumour lysis syndrome, managed by ramp-up dosing, and acquired BCL2 mutations are the practical and biological limitations. Next-generation BCL-2 inhibitors (sonrotoclax, lisaftoclax) and MCL-1 inhibitors follow to address resistance. The plain version: venetoclax removes a survival shield and has transformed leukaemia treatment.",
     biology: "BCL-2 is an anti-apoptotic BH3-domain protein, overexpressed via t(14;18) in follicular lymphoma.",
@@ -758,7 +758,7 @@ export const targets: TargetInput[] = [
     ], drugs: ["ziv-aflibercept", "pm8002", "zanzalintinib", "tovecimig", "chiauranib", "ai-081"], links: [{ label: "Wikipedia", url: W("Vascular_endothelial_growth_factor") }], companies: ["compass-therapeutics"],
   },
   {
-    id: "hif2a", kind: "target", name: "HIF-2α", symbol: "EPAS1", hgnc: "HGNC:3374", ensembl: "ENSG00000116016", uniprot: "Q99814", entrez: "2034", targetClass: "transcription", asOf, wikipedia: W("EPAS1"),
+    id: "hif2a", drugs: ["belzutifan"], kind: "target", name: "HIF-2α", symbol: "EPAS1", hgnc: "HGNC:3374", ensembl: "ENSG00000116016", uniprot: "Q99814", entrez: "2034", targetClass: "transcription", asOf, wikipedia: W("EPAS1"),
     tldr: "A master switch that kidney cancer cells leave permanently on when they lose the VHL gene; belzutifan blocks it.",
     summary: "HIF-2α (EPAS1) is a transcription factor normally degraded by VHL; when VHL is lost, as in roughly 85 to 90 percent of clear-cell renal cell carcinomas, HIF-2α is permanently stabilised and drives VEGF, glycolysis and proliferation genes. Belzutifan (Welireg) binds the HIF-2α PAS-B pocket and prevents its pairing with ARNT. It is approved in VHL disease-associated tumours, in advanced RCC after immunotherapy and a VEGF tyrosine kinase inhibitor (LITESPARK-005), and from 2026 as adjuvant therapy with pembrolizumab in clear-cell RCC; it is also approved in pheochromocytoma and paraganglioma. Anaemia and hypoxia, which follow directly from suppressing erythropoietin, are the expected on-target effects. Combinations with VEGF inhibitors and immunotherapy in earlier lines are under study. It is the master switch kidney cancer leaves on, and belzutifan turns it down.",
     biology: "Transcription factor stabilised by VHL loss; drives VEGF, glycolysis, and proliferation genes.",
@@ -817,7 +817,7 @@ export const targets: TargetInput[] = [
     ], companies: ["bulsara-bioworks", "nested-therapeutics", "photys-therapeutics"], links: [{ label: "Wikipedia", url: W("P53") }],
   },
   {
-    id: "brca", kind: "target", name: "BRCA1 / BRCA2 (HRD)", symbol: "BRCA1, BRCA2", targetClass: "tumor-suppressor", asOf, wikipedia: W("BRCA_mutation"),
+    id: "brca", drugs: ["bracanalysis-cdx", "mychoice-cdx", "olaparib", "rucaparib", "talazoparib"], kind: "target", name: "BRCA1 / BRCA2 (HRD)", symbol: "BRCA1, BRCA2", targetClass: "tumor-suppressor", asOf, wikipedia: W("BRCA_mutation"),
     tldr: "DNA repair genes. Inheriting a broken copy raises breast and ovarian cancer risk, but tumours that lose them become uniquely vulnerable to PARP inhibitors and platinum.",
     summary: "BRCA1 and BRCA2 are homologous recombination repair genes; a tumour that loses both copies must rely on error-prone repair, which makes it uniquely vulnerable to PARP inhibitors and platinum. Germline BRCA1/2 mutations account for roughly 5 to 10 percent of breast cancers and about 15 percent of ovarian cancers, with 10 to 20 percent of triple-negative breast cancers (mostly BRCA1) and 3 to 5 percent of HR-positive cases (mostly BRCA2); BRCA2 alterations occur in 8 to 12 percent of metastatic prostate cancers and germline BRCA1/2 in 5 to 8 percent of pancreatic cancers. Homologous recombination deficiency (HRD) extends the phenotype to BRCA-wild-type tumours and is measured by genomic scars (myChoice CDx). HRD predicts benefit from PARP inhibitors and platinum, though the best assay and cut-off remain debated. The same genes guide both prevention and treatment.",
     biology: "Homologous recombination repair; loss forces reliance on error-prone pathways.",
@@ -1285,7 +1285,7 @@ export const targets: TargetInput[] = [
     summary: "Prostaglandin-endoperoxide synthase 2 (COX-2) is induced by inflammation and is overexpressed in colorectal adenomas and many carcinomas, where prostaglandin E2 drives proliferation, angiogenesis and immune suppression. Celecoxib was approved to reduce polyps in familial adenomatous polyposis (later withdrawn from that indication) and low-dose aspirin lowers colorectal cancer risk in long-term trials; COX-2 inhibition remains a live prevention and adjuvant question.",
     biology: "An inducible cyclooxygenase converting arachidonic acid to prostaglandin H2; PGE2 acts through EP receptors on tumour and immune cells.",
     whereFound: ["Colorectal adenomas and carcinomas (overexpressed)","Inflamed tissue, many solid tumours"],
-    drugs: [], cancers: ["colorectal"], terms: ["tumor-promoting-inflammation","inducing-angiogenesis"],
+    drugs: ["celecoxib"], cancers: ["colorectal"], terms: ["tumor-promoting-inflammation","inducing-angiogenesis"],
     prevalence: [{"cancerId":"colorectal","pct":"about 85","measure":"COX-2 overexpression by mRNA in colorectal carcinomas","source":"https://doi.org/10.1016/0016-5085(94)90246-1"}],
     links: [{"label":"UniProt P35354: PTGS2","url":"https://www.uniprot.org/uniprotkb/P35354/entry"},{"label":"HGNC:9605 PTGS2","url":"https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:9605"},{"label":"ChEMBL target CHEMBL230","url":"https://www.ebi.ac.uk/chembl/explore/target/CHEMBL230"}],
   },
@@ -1322,7 +1322,7 @@ export const targets: TargetInput[] = [
 
   // ======================= ChEMBL oncology drug targets, batch 3 (16 Sept 2026): supportive care, SRC family, steroid and nucleotide enzymes =======================
   {
-    id: "il11ra", kind: "target", name: "IL-11 receptor alpha", symbol: "IL11RA", hgnc: "HGNC:5967", ensembl: "ENSG00000137070", uniprot: "Q14626", entrez: "3590", targetClass: "surface-antigen", asOf, wikipedia: W("Interleukin_11_receptor_alpha_subunit"),
+    id: "il11ra", drugs: ["oprelvekin"], kind: "target", name: "IL-11 receptor alpha", symbol: "IL11RA", hgnc: "HGNC:5967", ensembl: "ENSG00000137070", uniprot: "Q14626", entrez: "3590", targetClass: "surface-antigen", asOf, wikipedia: W("Interleukin_11_receptor_alpha_subunit"),
     tldr: "The IL-11 receptor was the target of oprelvekin, the first drug approved to prevent the severe platelet falls that chemotherapy causes; the drug was withdrawn in 2011 and thrombopoietin agonists took over the problem.",
     summary: "Interleukin-11 receptor subunit alpha pairs with gp130 to carry the signal of interleukin-11, a cytokine that drives megakaryocytes to mature and release platelets. Recombinant IL-11 (oprelvekin, Neumega) was approved in the United States in 1997 to prevent severe thrombocytopenia after myelosuppressive chemotherapy, but fluid retention and cardiac side effects limited its use and it was withdrawn from the market in 2011. IL-11 signalling is now studied as a driver of fibrosis and of tumour-supporting inflammation in stomach and bowel cancers.",
     biology: "A cytokine receptor of the IL-6 family; ligand binding recruits gp130 and activates JAK-STAT3 signalling in megakaryocytes, epithelial cells and fibroblasts.",
@@ -1432,7 +1432,7 @@ export const targets: TargetInput[] = [
     tags: ["chembl-gap"],
   },
   {
-    id: "cyp11a1", kind: "target", name: "CYP11A1 (cholesterol side-chain cleavage enzyme)", symbol: "CYP11A1", hgnc: "HGNC:2590", ensembl: "ENSG00000140459", uniprot: "P05108", entrez: "1583", targetClass: "enzyme", asOf, wikipedia: W("Cholesterol_side-chain_cleavage_enzyme"),
+    id: "cyp11a1", drugs: ["aminoglutethimide"], kind: "target", name: "CYP11A1 (cholesterol side-chain cleavage enzyme)", symbol: "CYP11A1", hgnc: "HGNC:2590", ensembl: "ENSG00000140459", uniprot: "P05108", entrez: "1583", targetClass: "enzyme", asOf, wikipedia: W("Cholesterol_side-chain_cleavage_enzyme"),
     tldr: "CYP11A1 is the first enzyme in making every steroid hormone from cholesterol; the historic breast cancer drug aminoglutethimide blocked it, cutting oestrogen and adrenal steroids, before aromatase inhibitors made that approach precise.",
     summary: "CYP11A1 converts cholesterol to pregnenolone inside mitochondria, the rate-limiting first step for cortisol, aldosterone, androgens and oestrogens. Aminoglutethimide, introduced for advanced breast cancer and Cushing's syndrome in the 1960s and 1970s, inhibited CYP11A1 and aromatase, producing a medical adrenalectomy that required cortisol replacement; it was displaced by the selective aromatase inhibitors anastrozole, letrozole and exemestane. Blocking steroid synthesis further downstream at CYP17A1 with abiraterone is the modern equivalent in prostate cancer. The enzyme is also a marker of adrenocortical carcinoma.",
     biology: "A mitochondrial cytochrome P450 of adrenal cortex, gonads and placenta; it requires adrenodoxin and adrenodoxin reductase to receive electrons from NADPH.",

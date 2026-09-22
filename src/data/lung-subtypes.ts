@@ -118,7 +118,7 @@ export const lungSubtypeTrials: TrialInput[] = [
       { endpoint: "Confirmed objective response rate", primary: true, unit: "%", arms: [{ name: "Trastuzumab deruxtecan 5.4 mg/kg", n: 102, value: 49.0 }, { name: "Trastuzumab deruxtecan 6.4 mg/kg", n: 50, value: 56.0 }], source: "https://doi.org/10.1200/JCO.23.01361" },
     ],
     replication: "DESTINY-Lung01 (response rate 55 percent at 6.4 mg/kg) preceded it; Beamion LUNG-1 (zongertinib) later showed a 71 percent response with an oral inhibitor in the same population.",
-    drugs: ["trastuzumab-deruxtecan"], cancers: ["nsclc", "her2-mutant-nsclc"], targets: ["her2"], technologies: ["adc"], terms: ["ild"],
+    drugs: ["trastuzumab-deruxtecan"], cancers: ["nsclc", "her2-mutant-nsclc"], targets: ["her2"], technologies: ["adc", "topoisomerase-inhibitors"], terms: ["ild"],
     companies: ["daiichi-sankyo", "astrazeneca"],
     links: [ct("NCT04644237"), { label: "Journal of Clinical Oncology 2023", url: "https://doi.org/10.1200/JCO.23.01361" }] },
   { id: "beamion-lung-1", kind: "trial", name: "Beamion LUNG-1", nct: "NCT04886804", phase: "1/2", status: "positive", yearReported: 2025, sponsor: "Boehringer Ingelheim", asOf,

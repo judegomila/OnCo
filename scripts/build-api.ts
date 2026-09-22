@@ -20,6 +20,10 @@ import { buildFeeds } from "./build-feeds";
 import { apiFiles, FEEDS } from "./api-layout";
 import { buildSituationData } from "../src/lib/for-me-situation-data";
 import { myCancerList } from "../src/lib/my-cancer-list";
+import { forMeRelated } from "../src/lib/for-me-related";
+import { matchRows } from "../src/lib/biomarker-match-rows";
+import { navigatorCancerFile, navigatorLines } from "../src/lib/navigator-data";
+import { writeExploreFiles } from "./build-explore";
 
 const out = join(process.cwd(), "public", "api", "v1");
 // Clear the previous build, keeping rdf/: scripts/build-triples.ts rewrites only the Turtle files whose content changed
@@ -55,6 +59,15 @@ for (const e of g.entities) {
 }
 // For me situation view (roadmap item 101): one file per cancer, fetched by the browser when the reader opens the situation form.
 for (const c of g.kind("cancer")) write(`for-me/${c.id}.json`, buildSituationData(c, g));
+// For me picker: everything touching one cancer, fetched when the reader chooses it (the page used to carry all 328 cancers' lists, 9.7 MB).
+for (const c of g.kind("cancer")) write(`for-me/${c.id}.related.json`, forMeRelated(g, c));
+// Explore: every row of one kind per file; the page carries only the first rows of each kind (src/lib/explore-kinds.ts).
+const explore = writeExploreFiles(out);
+// Navigator: the "already tried" chooser list once, and one file per cancer with its rows, standard of care, caregiver details and questions.
+mkdirSync(join(out, "navigator"), { recursive: true });
+const navRows = matchRows();
+write("navigator/lines.json", navigatorLines(navRows));
+for (const c of g.kind("cancer")) write(`navigator/${c.id}.json`, navigatorCancerFile(g, c, navRows));
 // The cancer chooser list (id, name, route, group), fetched by the header chip, account menu and welcome step through
 // src/lib/use-my-cancer-list.ts instead of being serialised into every page's payload.
 write("my-cancers.json", myCancerList());
@@ -84,4 +97,4 @@ write("meta.json", {
   releases: "https://github.com/judegomila/OnCo/releases",
 });
 
-console.log(`api: wrote ${g.entities.length} entities to public/api/v1 (json, ndjson, ${KINDS.length} csv, schema); feeds: ${feeds.join(", ")}`);
+console.log(`api: wrote ${g.entities.length} entities to public/api/v1 (json, ndjson, ${KINDS.length} csv, schema); explore: ${explore.length} kind files, ${explore.reduce((n, f) => n + f.count, 0)} rows; feeds: ${feeds.join(", ")}`);

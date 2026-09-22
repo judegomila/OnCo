@@ -12,11 +12,12 @@ import { MoleculeSlot } from "./MoleculeSlot";
 import { RedCards } from "./RedCards";
 import { ChangesGlyph } from "./MyCancer";
 import { useMyCancer } from "@/lib/use-my-cancer";
-import type { RedCard } from "@/lib/red-cards";
+import type { ForMeRelated, RelatedLite } from "@/lib/for-me-related";
 import { ForMeSituation } from "./ForMeSituation";
 
-export type Lite = { id: string; name: string; tldr: string; route: string; status?: string };
-export type PickerCancer = { id: string; name: string; group: string; tldr: string; route: string; stateOfArt: string[]; redCards: RedCard[]; pipeline: Lite[]; groups: Partial<Record<Kind, Lite[]>> };
+export type Lite = RelatedLite;
+/** What the static page carries per cancer: the chooser list. The lists that touch a cancer arrive in its related file. */
+export type PickerCancer = { id: string; name: string; group: string; tldr: string; route: string };
 
 const ORDER: Kind[] = ["drug", "technology", "trial", "target", "pairing", "idea", "pathway", "company", "institution", "person", "roadmap", "term", "collection", "section"];
 
@@ -30,6 +31,21 @@ const KIND_HINT: Partial<Record<Kind, string>> = {
 const HOPEFUL = ["approved", "standard-of-care", "established", "positive"];
 
 /**
+ * One request per cancer per page, shared by every caller; null when the file cannot be fetched. The file is
+ * /api/v1/for-me/<id>.related.json (scripts/build-api.ts, src/lib/for-me-related.ts). Before this the page
+ * serialised the lists of all 328 cancers into its payload, 9.7 MB that no reader saw more than one or two of.
+ */
+const cache = new Map<string, Promise<ForMeRelated | null>>();
+function loadRelated(id: string): Promise<ForMeRelated | null> {
+  let p = cache.get(id);
+  if (!p) {
+    p = fetch(`/api/v1/for-me/${encodeURIComponent(id)}.related.json`).then(async (r) => (r.ok ? ((await r.json()) as ForMeRelated) : null)).catch(() => null);
+    cache.set(id, p);
+  }
+  return p;
+}
+
+/**
  * "For me": pick one or more cancers from a searchable dropdown, choose a type with large tiles,
  * search within the results. Everything shown is what works or could work; failures are left out.
  */
@@ -38,26 +54,34 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
   const [kind, setKind] = useState<Kind | "all">("all");
   const [q, setQ] = useState("");
   const [onlyApproved, setOnlyApproved] = useState(false);
+  /** Per cancer id: its related file (undefined while loading, null when it failed). */
+  const [related, setRelated] = useState<Record<string, ForMeRelated | null>>({});
   const { kind: kindName } = useT();
   // The remembered cancer (item 102): preselect it once storage has been read, and remember the first cancer chosen here.
   const my = useMyCancer();
   const touched = useRef(false);
   useEffect(() => { if (my.ready && !touched.current && my.id && cancers.some((c) => c.id === my.id)) setSelected([my.id]); }, [my.ready, my.id, cancers]);
+  useEffect(() => {
+    let live = true;
+    for (const id of selected) if (!(id in related)) void loadRelated(id).then((d) => { if (live) setRelated((r) => (id in r ? r : { ...r, [id]: d })); });
+    return () => { live = false; };
+  }, [selected, related]);
   const choose = (ids: string[]) => { touched.current = true; setSelected(ids); if (ids[0] && ids[0] !== my.id) my.set(ids[0]); if (!ids.length && my.id) my.clear(); };
   const plural = (k: Kind) => kindName(k, "plural") ?? KIND_META[k].plural;
   const chosen = cancers.filter((c) => selected.includes(c.id));
+  const loadingAny = chosen.some((c) => !(c.id in related));
 
   const cancerOptions = useMemo(() => cancers.map((c) => ({ value: c.id, label: c.name, group: c.group[0].toUpperCase() + c.group.slice(1) })), [cancers]);
 
   const merged = useMemo(() => {
     const out = new Map<Kind, Map<string, Lite & { n: number }>>();
-    for (const c of chosen) for (const [k, list] of Object.entries(c.groups) as Array<[Kind, Lite[]]>) {
+    for (const c of chosen) for (const [k, list] of Object.entries(related[c.id]?.groups ?? {}) as Array<[Kind, Lite[]]>) {
       const m = out.get(k) ?? new Map();
       for (const e of list) { const prev = m.get(e.id); m.set(e.id, { ...e, n: (prev?.n ?? 0) + 1 }); }
       out.set(k, m);
     }
     return out;
-  }, [chosen]);
+  }, [chosen, related]);
 
   const needle = q.trim().toLowerCase();
   const filterItems = (items: Array<Lite & { n: number }>) => {
@@ -80,7 +104,7 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
           className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-60 disabled:opacity-50" />
         <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={onlyApproved} onChange={(e) => setOnlyApproved(e.target.checked)} /> approved or standard of care only</label>
         {(selected.length > 0 || q || kind !== "all") && <button onClick={() => { choose([]); setQ(""); setKind("all"); }} className="text-sm underline text-muted">Clear</button>}
-        {chosen.length > 0 && <span className="ml-auto text-sm text-muted tabular-nums">{total} things for {chosen.length === 1 ? chosen[0].name : `${chosen.length} cancers`}</span>}
+        {chosen.length > 0 && <span className="ml-auto text-sm text-muted tabular-nums" aria-live="polite">{loadingAny ? "Loading…" : `${total} things for ${chosen.length === 1 ? chosen[0].name : `${chosen.length} cancers`}`}</span>}
       </div>
 
       {chosen.length === 0 && (
@@ -98,21 +122,28 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
         </div>
       )}
 
-      {chosen.map((c) => (
-        <div key={c.id} className="card p-5 mt-6">
-          <div className="flex items-center justify-between gap-3"><h2 className="text-xl font-semibold flex items-center gap-3"><span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={c.id} className="h-7 w-7" /></span><Link href={c.route} className="hover:underline">{c.name}</Link></h2><span className="flex flex-wrap items-center gap-3 shrink-0 text-sm"><Link href={`${c.route}changes/`} className="chip border border-border bg-card hover:bg-foreground/5"><ChangesGlyph className="h-3 w-3" />What changed</Link><Link href={c.route} className="underline">Full page →</Link></span></div>
-          <p className="text-[15px] mt-1">{c.tldr}</p>
-          <div className="grid gap-4 sm:grid-cols-2 mt-4 text-sm">
-            <div><div className="kicker mb-1">State of the art</div><ul className="list-disc pl-5 space-y-1">{c.stateOfArt.map((s, i) => <li key={i}>{s}</li>)}</ul></div>
-            <div><div className="kicker mb-1">Coming down the pipeline</div><div className="flex flex-wrap gap-1.5">{c.pipeline.map((p) => <Tip key={p.id} title={p.name} text={p.tldr} href={p.route}><Link href={p.route} className="chip border bg-card border-border hover:bg-foreground/5">{p.name}</Link></Tip>)}</div></div>
+      {chosen.map((c) => {
+        const rel = related[c.id];
+        return (
+          <div key={c.id} className="card p-5 mt-6">
+            <div className="flex items-center justify-between gap-3"><h2 className="text-xl font-semibold flex items-center gap-3"><span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={c.id} className="h-7 w-7" /></span><Link href={c.route} className="hover:underline">{c.name}</Link></h2><span className="flex flex-wrap items-center gap-3 shrink-0 text-sm"><Link href={`${c.route}changes/`} className="chip border border-border bg-card hover:bg-foreground/5"><ChangesGlyph className="h-3 w-3" />What changed</Link><Link href={c.route} className="underline">Full page →</Link></span></div>
+            <p className="text-[15px] mt-1">{c.tldr}</p>
+            {rel === undefined && <p className="text-sm text-muted mt-4" aria-live="polite">Loading what OnCo has for this cancer…</p>}
+            {rel === null && <p className="text-sm text-muted mt-4">The lists for this cancer could not be loaded; the <Link href={c.route} className="underline">full page</Link> has everything.</p>}
+            {rel && (
+              <div className="grid gap-4 sm:grid-cols-2 mt-4 text-sm">
+                <div><div className="kicker mb-1">State of the art</div><ul className="list-disc pl-5 space-y-1">{rel.stateOfArt.map((s, i) => <li key={i}>{s}</li>)}</ul></div>
+                <div><div className="kicker mb-1">Coming down the pipeline</div><div className="flex flex-wrap gap-1.5">{rel.pipeline.map((p) => <Tip key={p.id} title={p.name} text={p.tldr} href={p.route}><Link href={p.route} className="chip border bg-card border-border hover:bg-foreground/5">{p.name}</Link></Tip>)}</div></div>
+              </div>
+            )}
+            {rel && rel.redCards.length > 0 && <div className="mt-5"><RedCards cards={rel.redCards} cancerName={c.name} compact /></div>}
+            {/* The situation view (item 101) follows the remembered cancer (or the only one chosen); other selections keep the simple view. */}
+            {(c.id === my.id || chosen.length === 1) && <ForMeSituation cancerId={c.id} cancerName={c.name} />}
           </div>
-          {c.redCards.length > 0 && <div className="mt-5"><RedCards cards={c.redCards} cancerName={c.name} compact /></div>}
-          {/* The situation view (item 101) follows the remembered cancer (or the only one chosen); other selections keep the simple view. */}
-          {(c.id === my.id || chosen.length === 1) && <ForMeSituation cancerId={c.id} cancerName={c.name} />}
-        </div>
-      ))}
+        );
+      })}
 
-      {chosen.length > 0 && (
+      {chosen.length > 0 && !(loadingAny && total === 0) && (
         <>
           {/* Type tiles: large, labelled in plain words, with counts */}
           <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 mt-8" role="tablist" aria-label="Type of thing">
@@ -148,7 +179,7 @@ export function CancerPicker({ cancers }: { cancers: PickerCancer[] }) {
                 </section>
               );
             })}
-            {total === 0 && <div className="card p-8 text-center text-muted">Nothing matches. Clear the search or the approved-only filter.</div>}
+            {total === 0 && !loadingAny && <div className="card p-8 text-center text-muted">Nothing matches. Clear the search or the approved-only filter.</div>}
           </div>
         </>
       )}

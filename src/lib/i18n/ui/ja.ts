@@ -33,6 +33,8 @@ export const ja: UiDict = {
   "table.nothingMatches": "一致する項目がありません。絞り込みを一つ外してください。",
   "table.showAll": "全 {n} 行を表示",
   "table.showingFirst": "（先頭 {n} 行を表示中）",
+  "table.showMore": "さらに {n} 行を表示",
+  "table.loadingMore": "さらに行を読み込み中…",
   "table.sortBy": "{col}で並べ替え",
   "table.sortedAsc": "昇順で並べ替え中。クリックで反転します。",
   "table.sortedDesc": "降順で並べ替え中。クリックで反転します。",

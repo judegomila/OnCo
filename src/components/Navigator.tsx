@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { biomarkers } from "@/data/biomarkers";
 import { scoreRows, type MatchRow } from "@/lib/biomarker-match";
@@ -28,14 +28,42 @@ export type SocRef = { id: string; name: string; route: string; status?: string;
 export type SocRow = { setting: string; approach: string; refs: SocRef[] };
 export type NavCancer = ProfileCancer & { route: string; tldr: string; stateOfArt: string[]; soc: SocRow[]; pipeline: string[] };
 
+/** What the static page carries: the cancer chooser and the support links. The rest is fetched per cancer. */
 export type NavigatorData = {
-  cancers: NavCancer[];
-  rows: MatchRow[];
-  lines: ProfileLine[];
-  details: Record<string, CareDetail>;
+  cancers: ProfileCancer[];
   support: SupportItem[];
-  questions: Record<string, QuestionItem[]>;
 };
+
+/** One cancer's file, /api/v1/navigator/<id>.json, written by scripts/build-api.ts from src/lib/navigator-data.ts. */
+export type NavigatorCancerFile = {
+  cancer: NavCancer;
+  /** Rows relevant to the cancer plus every caution pairing. */
+  rows: MatchRow[];
+  details: Record<string, CareDetail>;
+  questions: QuestionItem[];
+};
+
+const EMPTY_ROWS: MatchRow[] = [];
+const EMPTY_LINES: ProfileLine[] = [];
+const EMPTY_DETAILS: Record<string, CareDetail> = {};
+const EMPTY_QUESTIONS: QuestionItem[] = [];
+
+let linesPromise: Promise<ProfileLine[]> | null = null;
+/** The "already tried" chooser list, once per page. */
+function loadLines(): Promise<ProfileLine[]> {
+  if (!linesPromise) linesPromise = fetch("/api/v1/navigator/lines.json").then(async (r) => (r.ok ? ((await r.json()) as ProfileLine[]) : EMPTY_LINES)).catch(() => EMPTY_LINES);
+  return linesPromise;
+}
+const files = new Map<string, Promise<NavigatorCancerFile | null>>();
+/** One cancer's file, once per page; null when it cannot be fetched. */
+function loadCancerFile(id: string): Promise<NavigatorCancerFile | null> {
+  let p = files.get(id);
+  if (!p) {
+    p = fetch(`/api/v1/navigator/${encodeURIComponent(id)}.json`).then(async (r) => (r.ok ? ((await r.json()) as NavigatorCancerFile) : null)).catch(() => null);
+    files.set(id, p);
+  }
+  return p;
+}
 
 const EVIDENCE: Record<string, number> = { approved: 10, "standard-of-care": 10, established: 6, "phase-3": 6, positive: 6, emerging: 3, "phase-2": 4, "phase-1": 2, preclinical: 1, concept: 0 };
 const HOPEFUL = (s?: string) => !["negative", "withdrawn", "historic"].includes(s ?? "");
@@ -57,16 +85,37 @@ function settingMatches(setting: string, stage: Stage): boolean {
 
 export function Navigator({ data }: { data: NavigatorData }) {
   const [profile, , ready] = useProfile();
-  const cancer = data.cancers.find((c) => c.id === profile.cancerId);
+  const [lines, setLines] = useState<ProfileLine[]>(EMPTY_LINES);
+  const [file, setFile] = useState<{ id: string; data: NavigatorCancerFile | null } | null>(null);
+  useEffect(() => {
+    if (!ready) return;
+    let live = true;
+    void loadLines().then((l) => { if (live) setLines(l); });
+    return () => { live = false; };
+  }, [ready]);
+  const cancerId = profile.cancerId;
+  useEffect(() => {
+    if (!cancerId) return;
+    let live = true;
+    void loadCancerFile(cancerId).then((d) => { if (live) setFile({ id: cancerId, data: d }); });
+    return () => { live = false; };
+  }, [cancerId]);
+  const current = file && file.id === cancerId ? file : null;
+  const cancer = current?.data?.cancer;
+  const rows = current?.data?.rows ?? EMPTY_ROWS;
+  const details = current?.data?.details ?? EMPTY_DETAILS;
+  const questions = current?.data?.questions ?? EMPTY_QUESTIONS;
+  const loadingCancer = !!cancerId && !current;
+  const failed = !!current && !current.data;
   const selectedBm = biomarkers.filter((b) => profile.biomarkers.includes(b.id));
   const tried = useMemo(() => new Set(profile.priorLines), [profile.priorLines]);
 
   // Expand "tried" to the technologies/classes and targets those products belong to, for caution matching.
   const triedClasses = useMemo(() => {
     const s = new Set<string>(tried);
-    for (const r of data.rows) if (tried.has(r.id)) { r.technologies.forEach((t) => s.add(t)); r.targets.forEach((t) => s.add(t)); }
+    for (const r of rows) if (tried.has(r.id)) { r.technologies.forEach((t) => s.add(t)); r.targets.forEach((t) => s.add(t)); }
     return s;
-  }, [data.rows, tried]);
+  }, [rows, tried]);
 
   const socRows = useMemo(() => cancer ? cancer.soc.filter((r) => settingMatches(r.setting, profile.stage)) : [], [cancer, profile.stage]);
   const socRefIds = useMemo(() => new Set(socRows.flatMap((r) => r.refs.map((x) => x.id))), [socRows]);
@@ -74,8 +123,8 @@ export function Navigator({ data }: { data: NavigatorData }) {
 
   const options = useMemo(() => {
     if (!cancer) return [];
-    const bmScores = new Map(scoreRows(data.rows, selectedBm, cancer.id).map((s) => [s.row.id, s]));
-    return data.rows
+    const bmScores = new Map(scoreRows(rows, selectedBm, cancer.id).map((s) => [s.row.id, s]));
+    return rows
       .filter((r) => (r.kind === "drug" || r.kind === "technology") && r.cancers.includes(cancer.id) && HOPEFUL(r.status) && !tried.has(r.id))
       .map((r) => {
         const bm = bmScores.get(r.id);
@@ -89,27 +138,29 @@ export function Navigator({ data }: { data: NavigatorData }) {
       })
       .filter((x) => x.score > 0)
       .sort((a, b) => b.score - a.score || a.r.name.localeCompare(b.r.name));
-  }, [cancer, data.rows, selectedBm, tried, socRefIds, pipelineIds]);
+  }, [cancer, rows, selectedBm, tried, socRefIds, pipelineIds]);
 
-  const cautions = useMemo(() => data.rows.filter((r) => r.pair?.caution && (triedClasses.has(r.pair.a) || triedClasses.has(r.pair.b) || r.technologies.some((t) => triedClasses.has(t)) || r.targets.some((t) => triedClasses.has(t)))), [data.rows, triedClasses]);
+  const cautions = useMemo(() => rows.filter((r) => r.pair?.caution && (triedClasses.has(r.pair.a) || triedClasses.has(r.pair.b) || r.technologies.some((t) => triedClasses.has(t)) || r.targets.some((t) => triedClasses.has(t)))), [rows, triedClasses]);
 
   const careTreatments: CareDetail[] = useMemo(() => {
     const ids = [...profile.priorLines, ...options.slice(0, 4).map((o) => o.r.id)];
-    return [...new Set(ids)].map((id) => data.details[id]).filter((x): x is CareDetail => !!x);
-  }, [profile.priorLines, options, data.details]);
+    return [...new Set(ids)].map((id) => details[id]).filter((x): x is CareDetail => !!x);
+  }, [profile.priorLines, options, details]);
 
   return (
     <div className="space-y-8">
-      <ProfileBar cancers={data.cancers} lines={data.lines} />
+      <ProfileBar cancers={data.cancers} lines={lines} />
 
       <div className="card p-4 border-rose-300 bg-rose-50/60 dark:bg-rose-950/20 dark:border-rose-900 text-sm">
         <span className="font-semibold">Not medical advice.</span> This navigator ranks what is documented in OnCo for a cancer, stage, and biomarker set. It does not know your case, your fitness, your prior responses, or local availability. Use it to prepare questions, then decide with your clinical team.
       </div>
 
       {!ready && <p className="text-sm text-muted">Loading your profile…</p>}
-      {ready && !cancer && (
+      {ready && !cancerId && (
         <div className="card p-8 text-center text-muted">Choose a cancer type in the profile bar to build the line-of-therapy view. Add stage, biomarkers, and treatments already received to sharpen it.</div>
       )}
+      {ready && loadingCancer && <p className="text-sm text-muted" aria-live="polite">Loading the records for this cancer…</p>}
+      {ready && failed && <div className="card p-6 text-center text-sm text-muted">The records for this cancer could not be loaded. Check your connection and choose the cancer again.</div>}
 
       {cancer && (
         <>
@@ -175,7 +226,7 @@ export function Navigator({ data }: { data: NavigatorData }) {
           {profile.mode === "caregiver" && (
             <section>
               <h2 className="text-lg font-semibold mb-2">For caregivers</h2>
-              <CaregiverPanel treatments={careTreatments} support={data.support} questions={data.questions[cancer.id] ?? []} cancerName={cancer.name.replace(/\s*\(.*?\)\s*$/, "")} />
+              <CaregiverPanel treatments={careTreatments} support={data.support} questions={questions} cancerName={cancer.name.replace(/\s*\(.*?\)\s*$/, "")} />
             </section>
           )}
 

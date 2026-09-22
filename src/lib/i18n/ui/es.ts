@@ -33,6 +33,8 @@ export const es: UiDict = {
   "table.nothingMatches": "Nada coincide. Quita un filtro.",
   "table.showAll": "Mostrar las {n} filas",
   "table.showingFirst": "(se muestran las primeras {n})",
+  "table.showMore": "Mostrar {n} más",
+  "table.loadingMore": "Cargando más filas…",
   "table.sortBy": "Ordenar por {col}",
   "table.sortedAsc": "Orden ascendente. Haz clic para invertir.",
   "table.sortedDesc": "Orden descendente. Haz clic para invertir.",

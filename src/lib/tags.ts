@@ -5,7 +5,7 @@
  * because both were gap-filled from the same list.
  */
 export const INTERNAL_TAGS: ReadonlySet<string> = new Set([
-  "gap-fill", "chembl-gap", "ctgov-ingest", "ctgov-sponsor", "nci-list", "nci-coverage", "ema-list", "spike",
+  "gap-fill", "chembl-gap", "ctgov-ingest", "europepmc-ingest", "ctgov-sponsor", "nci-list", "nci-coverage", "ema-list", "spike",
 ]);
 
 export function isInternalTag(tag: string): boolean {

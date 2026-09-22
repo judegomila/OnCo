@@ -107,6 +107,14 @@ Gauge ids are those in `src/lib/health.ts`, shown at /roadmap/.
 | Burden figures for 31 cancers | GLOBOCAN reports by site, so sarcomas, neuroendocrine tumours, most rare tumours and every molecular subtype have no estimate. RARECAREnet (European rare-cancer incidence) and SEER would fill some, but both need a mapping table written by hand and RARECAREnet was unreachable on 22 September 2026. | Owner to decide whether an honest "no estimate" is the final answer or whether a second source is worth the mapping work. |
 | Model review key | New pages ship without a review badge until the model-review key is set; this is a standing owner item from docs/LAUNCH.md and gates the `reviewed` gauge for every wave. | Owner. |
 
+## 5. Progress
+
+One row per wave run, measured with `npm run content:gaps` before and after. Add a row; do not rewrite another wave's.
+
+| Wave | Run | Before | After | Families | Notes |
+|---|---|---:|---:|---|---|
+| 1. Evidence behind every trial | 22 Sept 2026, `scripts/fetch-trial-papers.ts` | 3,470 trials without a key paper (lung 649, breast 252, colorectal 223, skin 160, prostate 191) | 3,163 (lung 524, breast 172, colorectal 183, skin 125, prostate 149); papers 705 to 1,024 | lung, breast, colorectal, skin, prostate | 1,433 trials looked up on Europe PMC by registry id; 307 linked (319 new paper records in `papers-trials-wave1.ts`, 63 links to existing records, 75 long-term follow-ups). 998 trials have no PubMed record citing their id (most are recruiting), 47 have only a protocol or design paper, 56 only secondary pieces (quality of life, subgroup, cost, pharmacokinetics, preclinical), 25 skipped as ambiguous with the reason in `TRIAL_PAPER_SKIP`. New records carry the abstract as summary and no findings: nothing was read by an editor. The `Drug to key paper` corpus-only fill rose from 53 to 196 for wave 2. |
+
 ## Running the measurement
 
 ```

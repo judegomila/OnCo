@@ -46,6 +46,6 @@ export function semanticDocs(): SemanticDoc[] {
   return g.entities.map((e) => {
     const names: string[] = [];
     for (const [k, list] of g.neighbours(e.id)) if (k !== "section") for (const n of list) names.push(n.name);
-    return { id: e.id, kind: e.kind, text: semanticText(e, names), ...(e.tags.includes("ctgov-ingest") ? { weight: 0.6 } : {}) };
+    return { id: e.id, kind: e.kind, text: semanticText(e, names), ...(e.tags.includes("ctgov-ingest") || e.tags.includes("europepmc-ingest") ? { weight: 0.6 } : {}) };
   });
 }

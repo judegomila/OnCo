@@ -776,6 +776,20 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Incidence rate ratio for colorectal cancer accounting for multiple primaries (intention to treat)", arms: [{ name: "Aspirin 600 mg daily", value: 0.58, note: "95% CI 0.39 to 0.87, p 0.0085" }, { name: "Placebo", value: 1 }], source: doi("10.1016/S0140-6736(20)30366-4") },
     ],
     drugs: ["aspirin"], cancers: ["msi-high-colorectal"], keyPapers: ["paper-capp2-aspirin-lynch-syndrome-10-year-burn-lancet-2020"], links: [{ label: "ISRCTN59521990", url: "https://www.isrctn.com/ISRCTN59521990" }] }),
+
+  // ---------------------------------------------------------------- Head and neck (nasopharyngeal)
+  t({ id: "continuum", name: "CONTINUUM", aka: ["2018-FXY-135-FLK"], nct: "NCT03700476", phase: "3", status: "positive", yearReported: 2024, sponsor: "Sun Yat-sen University Cancer Center", enrolled: 425,
+    technologies: ["checkpoint-inhibitor", "imrt-igrt", "cytotoxic-chemotherapy"],
+    setting: "High-risk locoregionally advanced nasopharyngeal carcinoma (stage III to IVa, excluding T3-4N0 and T3N1) in adults aged 18 to 65 at nine Chinese hospitals: gemcitabine-cisplatin induction and concurrent cisplatin radiotherapy with or without 12 cycles of the PD-1 antibody sintilimab, with event-free survival as the primary endpoint",
+    tldr: "CONTINUUM was the first trial to show that adding a PD-1 immunotherapy, sintilimab, to the chemotherapy and radiotherapy given for advanced but not yet metastatic nasopharyngeal cancer keeps more people free of relapse three years later, 86 against 76 percent, at the cost of more side effects.",
+    summary: "CONTINUUM was an open-label randomised phase 3 trial at nine hospitals in China that randomised 425 adults with high-risk locoregionally advanced nasopharyngeal carcinoma to standard gemcitabine-cisplatin induction followed by concurrent cisplatin radiotherapy, with or without sintilimab 200 mg every three weeks for 12 cycles spanning induction, concurrent and adjuvant phases. The primary endpoint was event-free survival.\n\nAt a median follow-up of 41.9 months, three-year event-free survival was 86 percent with sintilimab against 76 percent without (hazard ratio 0.59). Grade 3 to 4 adverse events were 74 against 65 percent, grade 3 to 4 immune-related events occurred in 10 percent of the sintilimab group and two immune-related deaths occurred. The corpus's locoregionally advanced nasopharyngeal carcinoma page cites CONTINUUM for adding a PD-1 antibody to chemoradiotherapy, with toripalimab and camrelizumab in parallel trials.",
+    result: "Three-year event-free survival 86 percent with sintilimab added to chemoradiotherapy against 76 percent without (hazard ratio 0.59, p 0.019); grade 3 to 4 adverse events 74 against 65 percent.",
+    outcomes: [
+      { endpoint: "Event-free survival at 3 years", primary: true, unit: "%", arms: [{ name: "Sintilimab + induction chemotherapy + concurrent chemoradiotherapy", n: 210, value: 86, note: "95% CI 81 to 90; median follow-up 41.9 months" }, { name: "Induction chemotherapy + concurrent chemoradiotherapy", n: 215, value: 76, note: "95% CI 70 to 81" }], hr: 0.59, ci: [0.38, 0.92], p: "0.019", source: doi("10.1016/S0140-6736(24)00594-4") },
+      { endpoint: "Grade 3 to 4 adverse events", unit: "%", arms: [{ name: "Sintilimab + chemoradiotherapy", n: 210, value: 74 }, { name: "Chemoradiotherapy", n: 215, value: 65 }], source: doi("10.1016/S0140-6736(24)00594-4") },
+      { endpoint: "Grade 3 to 4 immune-related adverse events", unit: "%", arms: [{ name: "Sintilimab + chemoradiotherapy", n: 210, value: 10, note: "20 patients; 2 immune-related deaths" }], source: doi("10.1016/S0140-6736(24)00594-4") },
+    ],
+    drugs: ["sintilimab", "gemcitabine", "cisplatin"], cancers: ["locoregionally-advanced-nasopharyngeal-carcinoma", "nasopharyngeal"], companies: ["innovent"], institutions: ["sysucc"], keyPapers: ["paper-continuum-sintilimab-nasopharyngeal-liu-lancet-2024"], links: [ct("NCT03700476")] }),
 ];
 
 /** Chinese TL;DRs, folded into src/data/i18n/zh.ts by scripts/fold-zh.ts. */
@@ -838,4 +852,5 @@ export const tldrZh: Record<string, string> = {
   interaact: "InterAACT 是晚期肛门癌有史以来首个随机试验；两种化疗组合缩小肿瘤的频率相同，但卡铂 (carboplatin) 加紫杉醇的严重副作用少得多，患者也活得更久，成为标准化疗骨架。",
   nci9673: "NCI9673 是肛门癌首个完成的免疫治疗试验：纳武利尤单抗 (nivolumab) 单药使四分之一经多线治疗的患者肿瘤缩小，使 PD-1 阻断成为后线标准选择，但后续随机部分显示加用伊匹木单抗无益且增加毒性。",
   capp2: "CAPP2 对林奇综合征（一种肠癌风险极高的遗传病）患者在服用两到四年阿司匹林或安慰剂后随访十年：服阿司匹林者肠癌减少约三分之一，因此如今向该综合征患者提供每日阿司匹林。",
+  continuum: "CONTINUUM 首次显示，在晚期但尚未转移的鼻咽癌放化疗中加入 PD-1 免疫治疗药信迪利单抗 (sintilimab)，三年后更多患者无复发，86% 对 76%，但副作用更多。",
 };

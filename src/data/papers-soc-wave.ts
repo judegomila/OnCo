@@ -547,4 +547,16 @@ export const papersSocWave: PaperInput[] = [
     caveats: ["Registered with ISRCTN only (ISRCTN59521990); the benefit appeared only after several years of follow-up and the 600 mg dose carries bleeding risk."],
     links: [{ label: "Lancet 2020", url: "https://doi.org/10.1016/S0140-6736(20)30366-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32534647/" }],
     cancers: ["msi-high-colorectal"], drugs: ["aspirin"], trials: ["capp2"], journals: ["lancet"] }),
+
+  // ---------------------------------------------------------------- Head and neck (nasopharyngeal)
+  p({ id: "paper-continuum-sintilimab-nasopharyngeal-liu-lancet-2024", name: "CONTINUUM: induction-concurrent chemoradiotherapy with or without sintilimab in locoregionally advanced nasopharyngeal carcinoma",
+    tldr: "Adding the PD-1 antibody sintilimab to chemotherapy and radiotherapy for advanced, non-metastatic nasopharyngeal cancer raised three-year event-free survival from 76 to 86 percent, with more but manageable side effects.",
+    summary: "Multicentre open-label randomised phase 3 trial at nine hospitals in China: 425 adults with high-risk stage III to IVa nasopharyngeal carcinoma were randomised to gemcitabine-cisplatin induction and concurrent cisplatin radiotherapy with (210) or without (215) 12 cycles of sintilimab.\n\nAt a median follow-up of 41.9 months, three-year event-free survival was 86 percent with sintilimab against 76 percent without (stratified hazard ratio 0.59, p 0.019). Grade 3 to 4 adverse events occurred in 74 against 65 percent; grade 3 to 4 immune-related adverse events in 10 percent of the sintilimab group, with two immune-related deaths.",
+    journal: "The Lancet", year: 2024, doi: "10.1016/S0140-6736(24)00594-4", pmid: "38824941",
+    authors: "Liu X, Zhang Y, Yang KY, et al.", paperType: "rct", participants: 425, changedPractice: true,
+    findings: ["Three-year event-free survival 86 percent (95% CI 81 to 90) versus 76 percent (70 to 81); hazard ratio 0.59 (0.38 to 0.92), p 0.019.", "Grade 3 to 4 adverse events 74 versus 65 percent; grade 3 to 4 immune-related events 10 percent with sintilimab."],
+    whatItMeans: "PD-1 blockade added to chemoradiotherapy is a new option for high-risk locoregionally advanced nasopharyngeal carcinoma; longer follow-up will show whether it lengthens survival.",
+    caveats: ["Chinese population with endemic EBV-related disease; open-label; overall survival immature."],
+    links: [{ label: "Lancet 2024", url: "https://doi.org/10.1016/S0140-6736(24)00594-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/38824941/" }],
+    cancers: ["locoregionally-advanced-nasopharyngeal-carcinoma", "nasopharyngeal"], drugs: ["sintilimab"], trials: ["continuum"], journals: ["lancet"] }),
 ];

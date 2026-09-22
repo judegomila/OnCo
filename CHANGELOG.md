@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
-- Wave 1 trial papers from Europe PMC, wave 3 standard-of-care trials, wave 5 targets and EMA products and sponsors, seven heavy table pages and idea rankings load rows on demand
+- Registry results for 144 trials, 24 more standard-of-care trials with outcomes, papers and standard-of-care rows linked
 - Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working
 - A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
 - Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
@@ -19,6 +19,30 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
+- heavy-pages test: explained budget follows the corpus after the trial waves, with the paging rule for the next rise
+- Content gaps: the trial-acronym measure treats the programme stem before a hyphen as a known trial name; roadmap notes the 33 remaining tokens are all in the wave SKIP list
+- Content wave 3, rare cancers: FIRSTMAPPP, InPACT, GETUG 13, ADIUVO, ADIUVO-2, TROPHIMMUN and BALLAD, 4 with structured outcomes, 4 primary papers, 13 standard-of-care rows linked
+- Content wave 3, myeloma: DRAMMATIC (SWOG S1803, MRD-guided maintenance after transplant) recorded from the registry and linked from the myeloma maintenance row; NCI sponsor-of-record institution links removed across the wave
+- Content wave 3, endometrial: RAINBO programme (four molecular-class trials including POLEmut-BLUE de-escalation) recorded from the registry; POLE-ultramutated standard-of-care row linked
+- Roadmap Progress: wave 7 registry outcomes row (144 of 2,845 ingested trials gain 272 outcome rows from 153 records with posted results; 114 requests)
+- Wave 7 data: registry outcomes for the first 2845 registry-ingested trials by family burden (144 trials with 272 outcome rows from 153 records with posted results)
+- Content wave 3, ovarian: AURELIA (bevacizumab with single-agent chemotherapy in platinum-resistant ovarian cancer) with structured outcomes and its JCO 2014 paper; two standard-of-care rows linked
+- Wave 7 data: registry outcomes for the first 2500 registry-ingested trials by family burden (144 trials with 272 outcome rows from 153 records with posted results)
+- Content wave 3, head and neck: CONTINUUM (sintilimab added to induction-concurrent chemoradiotherapy in locoregionally advanced nasopharyngeal carcinoma) with structured outcomes and its Lancet 2024 paper; standard-of-care row linked
+- Wave 7 data: registry outcomes for the first 2000 registry-ingested trials by family burden (111 trials with 209 outcome rows from 117 records with posted results)
+- Content wave 3, colorectal: CAPP2 (aspirin in Lynch syndrome, 10-year follow-up) with structured outcomes and its Lancet 2020 paper; Lynch syndrome standard-of-care row linked
+- Wave 7 data: registry outcomes for the first 1500 registry-ingested trials by family burden (85 trials with 171 outcome rows from 91 records with posted results)
+- Wave 7 data: registry outcomes for the first 1000 registry-ingested trials by family burden (61 trials with 126 outcome rows from 65 records with posted results)
+- Content wave 3, lung: IMpower010 is the existing registry record nct02486718, which gains the IMpower010 alias, its positive status and disease-free survival outcomes from the registry results section and the Lancet 2021 report; JCOG0802 skipped (UMIN only)
+- Content wave 3, anal family: ANCHOR, POD1UM-303/InterAACT-2, InterAACT and NCI9673 with structured outcomes, 5 primary papers, 6 standard-of-care rows linked
+- Explained page: the Open explanation pill carries only its label; glyph and Close state move to CSS; row classes and cross-reference titles shortened
+- Content wave 3, sarcoma family: ACTG A5263/AMC 066 (paclitaxel against etoposide or bleomycin-vincristine with antiretroviral therapy for AIDS-associated Kaposi sarcoma) with structured outcomes and its Lancet 2020 paper; Progress table rows for gastric, pancreatic and sarcoma
+- Content wave 3, pancreatic family: 7 standard-of-care trials (ESPAC-3, ESPAC-4, CONKO-001, NORPACT-1, LAP07, ESPAC-5, PRECEDE), 6 with structured outcomes, 6 primary papers, 7 standard-of-care rows linked
+- LAUNCH: chains 97 and 98 ticked
+- Wave 7 data: registry outcomes for the first 500 registry-ingested trials by family burden (39 trials with 78 outcome rows from 40 records with posted results)
+- Wave 7 script: fetch-registry-outcomes.ts copies structured outcomes from the ClinicalTrials.gov results section into a side file merged by index.ts
+- Content wave 3, gastric family: CLASSIC (adjuvant CAPOX after D2 gastrectomy) with structured outcomes and two primary papers; SKIP list extended for UMIN- and ISRCTN-only trials
+- Wave 1 trial papers from Europe PMC, wave 3 standard-of-care trials, wave 5 targets and EMA products and sponsors, seven heavy table pages and idea rankings load rows on demand
 - Paged tables: the heavy StaticTable pages carry 30 rows and fetch the rest from /api/v1/tables/
 - Content wave 3: structured outcomes for 8 hand-written trials from the ClinicalTrials.gov results section (ARANOTE, CheckMate 915, PACIFIC-2, INTELLANCE-1, ATEMPT, ASPEN, DESTINY-Gastric02, AREN0532); roadmap Progress notes the families not reached
 - Content wave 3, lymphoma family: 7 standard-of-care trials (FoRT, GALLIUM, RELEVANCE, TRIANGLE, SYMPATICO, BMT CTN 0803, PTLD-1), all with structured outcomes, 7 primary papers, 9 standard-of-care rows linked

@@ -1,0 +1,9 @@
+docs/CONTENT-ROADMAP.md
+  ai_agent 68-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "64070ba9b52d14c73efc97cbdf70b227770d8dcf",
+  "prompts": {}
+}

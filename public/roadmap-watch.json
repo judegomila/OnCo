@@ -1,7 +1,7 @@
 {
  "generatedAt": "2026-09-22",
- "offline": true,
- "requests": 0,
+ "offline": false,
+ "requests": 198,
  "roadmaps": [
   {
    "id": "adc-generations",
@@ -5788,7 +5788,7 @@
     "checked": 25,
     "contradictions": 0,
     "explained": 1,
-    "papers": 3,
+    "papers": 2,
     "watch": 0,
     "watchPassed": 0
    },
@@ -5819,15 +5819,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42732874",
-       "doi": "10.1016/j.jtho.2026.104179",
-       "title": "Adjuvant Osimertinib in Resected EGFR-Mutated Stage IB-IIIA Non-Small Cell Lung Cancer: Exploratory 8-year Overall Survival Landmark Update from the ADAURA Trial [161/175].",
-       "journal": "J Thorac Oncol",
-       "date": "2026-09-13"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "alina",
@@ -6485,7 +6477,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2028-12",
       "completion": "2029-02",
-      "lastUpdate": "2026-09-16"
+      "lastUpdate": "2026-09-22"
      },
      "contradictions": [],
      "explained": [],
@@ -7324,7 +7316,7 @@
     "checked": 7,
     "contradictions": 0,
     "explained": 1,
-    "papers": 1,
+    "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
@@ -7442,15 +7434,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42727418",
-       "doi": "10.1016/j.esmoop.2026.108538",
-       "title": "Datopotamab deruxtecan versus chemotherapy in previously treated inoperable/metastatic hormone receptor-positive, human epidermal growth factor receptor 2-negative breast cancer: results from the TROPION-Breast01 China cohort.",
-       "journal": "ESMO Open",
-       "date": "2026-09-11"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "tropion-breast02",

@@ -50,6 +50,7 @@ next-env.d.ts
 
 # generated feeds
 /public/feeds/
+/public/edge/
 
 # bundled CLI and MCP packages
 /packages/*/dist/

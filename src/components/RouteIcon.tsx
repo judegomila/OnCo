@@ -25,6 +25,8 @@ const P: Record<string, string> = {
   "/graph/": "M6 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm12 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM12 22a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM7.5 6.5 11 17M16.5 6.5 13 17M8 4h8",
   "/saved/": "M7 3h10v18l-5-4-5 4V3Z",
   "/body/": "M12 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm-5 4 5-2 5 2M12 8v6m0 0-3 7m3-7 3 7",
+  // Intel
+  "/edge/": "M3 17l6-6 4 4 8-8M15 7h6v6",
   // Map (non-kind routes)
   "/dossiers/": "M3 7h6l2 2h10v11H3V7Zm0 0V5h5",
   "/pathway-drugs/": "M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM15 15l4 4m-4 0 4-4",

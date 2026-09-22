@@ -56,6 +56,7 @@ export const navFr: NavDict = {
   "/terms/": ["Glossaire", "Termes avec TL;DR et liens Wikipédia."],
   "/collections/": ["Collections", "Les bases de données ouvertes dont vit le domaine."],
 
+  "/edge/": ["Edge", "Les signaux les plus frais en cancérologie : nouveaux articles, résultats d'essais, autorisations et lois en un seul flux, mis à jour à chaque build, avec RSS et JSON."],
   "/journals/": ["Revues", "Où les preuves sont publiées : périmètre, modèle d'accès et articles clés publiés par chaque revue."],
   "/key-papers/": ["Articles clés", "Les articles qui ont changé la pratique, chacun expliqué : ce qu'il a trouvé, ce que cela signifie, à quoi faire attention."],
   "/explained/": ["Essais en mots simples", "Chaque résultat d'essai en personnes sur 100, médianes expliquées, critères de substitution signalés."],

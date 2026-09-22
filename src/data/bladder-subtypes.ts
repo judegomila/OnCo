@@ -23,7 +23,7 @@ export const bladderSubtypes: CancerInput[] = [
       { setting: "Diagnosis and resection", approach: "Cystoscopy, transurethral resection with muscle in the specimen, blue-light or enhanced imaging for carcinoma in situ; re-resection of T1 tumours.", refs: ["urothelial"] },
       { setting: "Low risk", approach: "Single immediate instillation of mitomycin or gemcitabine after resection; surveillance cystoscopy.", refs: ["mitomycin", "gemcitabine"] },
       { setting: "Intermediate and high risk", approach: "Induction and one to three years of maintenance BCG; intravesical chemotherapy when BCG is unavailable; early cystectomy for the highest-risk T1 disease.", refs: ["bcg-and-intravesical-therapy"] },
-      { setting: "BCG-unresponsive", approach: "Radical cystectomy, or bladder-sparing treatment: pembrolizumab, nadofaragene firadenovec, nogapendekin alfa inbakicept with BCG, TAR-200, cretostimogene in trials and early approvals.", refs: ["cystectomy", "pembrolizumab", "nadofaragene-firadenovec", "nogapendekin-alfa-inbakicept", "tar-200", "cretostimogene"] },
+      { setting: "BCG-unresponsive", approach: "Radical cystectomy, or bladder-sparing treatment: pembrolizumab, nadofaragene firadenovec, nogapendekin alfa inbakicept with BCG, TAR-200, cretostimogene in trials and early approvals.", refs: ["cystectomy", "pembrolizumab", "nadofaragene-firadenovec", "nogapendekin-alfa", "tar-200", "cretostimogene"] },
     ],
     stateOfArt: ["BCG remains the standard forty years on, and shortages have shown how much depends on one biologic.", "Four bladder-sparing options for BCG-unresponsive disease have been approved or reached late trials since 2020, an unprecedented pace for this stage.", "Intravesical drug-releasing devices and gene therapies show that local delivery, not systemic drugs, is the frontier here."],
     history: [
@@ -31,7 +31,7 @@ export const bladderSubtypes: CancerInput[] = [
       { year: 1990, title: "BCG approved for carcinoma in situ of the bladder", refs: ["bcg-and-intravesical-therapy"] },
       { year: 2020, title: "Pembrolizumab approved for BCG-unresponsive carcinoma in situ", refs: ["pembrolizumab"] },
       { year: 2022, title: "Nadofaragene firadenovec: first gene therapy for bladder cancer", refs: ["nadofaragene-firadenovec"] },
-      { year: 2024, title: "Nogapendekin alfa inbakicept with BCG approved", refs: ["nogapendekin-alfa-inbakicept"] },
+      { year: 2024, title: "Nogapendekin alfa inbakicept with BCG approved", refs: ["nogapendekin-alfa"] },
     ],
     pipeline: ["tar-200", "cretostimogene"], openProblems: ["Recurrent BCG shortages.", "Predicting who will progress to muscle invasion.", "The burden and cost of lifelong cystoscopy.", "Comparing the new bladder-sparing options with each other and with cystectomy."],
     links: [{ label: "Wikipedia", url: W("Bladder_cancer") }] },

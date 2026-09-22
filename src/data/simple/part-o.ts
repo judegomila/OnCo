@@ -89,7 +89,6 @@ export const simpleO: Record<string, string> = {
   motixafortide: "Motixafortide is an injection given with G-CSF before stem cell collection in multiple myeloma, so enough cells for a transplant can be gathered in one or two sessions.",
   nabilone: "Nabilone is a synthetic cannabinoid capsule approved in 1985 for chemotherapy sickness that standard drugs cannot control.",
   nbtxr3: "NBTXR3 is a single injection of hafnium oxide nanoparticles that makes ordinary radiotherapy hit harder inside the tumour, with a European mark for soft-tissue sarcoma.",
-  "nogapendekin-alfa-inbakicept": "Anktiva is an immune booster put into the bladder with BCG for early bladder cancer that has stopped responding to BCG, helping many patients keep their bladder.",
   olaratumab: "Olaratumab was approved in 2016 with doxorubicin for soft tissue sarcoma after a small trial, but the large confirmatory trial found no benefit and it was withdrawn in 2019.",
   olverembatinib: "Olverembatinib is a Chinese third-generation BCR-ABL inhibitor approved in 2021 for chronic myeloid leukaemia with the T315I mutation.",
   omidubicel: "Omidubicel is an expanded umbilical cord blood graft that shortens the dangerous wait for white cells to return after a transplant for blood cancer.",

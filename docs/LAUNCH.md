@@ -20,6 +20,17 @@ Merge finished worktree agents before the chain; never `cd` into a worktree; nev
 - [x] China deep dive (/countries/cn/, 20 drugs, 20 companies, 18 trials, 17 people): merged 10 Sept
 - [ ] Glossary Wikipedia links and aliases; schematics wave 3; KOL people; research leaders batches; summaries chunks; portraits (wired and live 10 Sept, 77 photos)
 
+## Owner asks of 22 Sept 2026
+- [x] Column headers open each column's filter on every browser table (ColumnFilter, FilterableTable): chain 96
+- [x] Tumour testing: scope and sample card grids with laboratory logos, filterable tests table: chain 96
+- [x] Edge (/edge/, feed.xml, feed.json): chain 96
+- [x] Idea rankings (/ideas/rankings/) and corpus rankings (/rankings/): chain 96; Most wanted hidden until votes exist
+- [x] Pagination for /explore/, /for-me/, /navigator/: chain 96; /explained/ lazy explainer bodies in progress
+- [x] Content roadmap (docs/CONTENT-ROADMAP.md, `npm run content:gaps`): chain 96; waves 1 and 2 running
+- [x] Cancer map DAG (/cancers/map/, graph.json): merged, ships in chain 97
+- [ ] Every hand-written table on the shared filter (docs/TABLES.md): agent running
+- [ ] Owner: WHO Blue Books access, taxonomy call (entities versus settings, supportive care, cooperative groups), burden source for the 31 cancers GLOBOCAN does not map (see docs/CONTENT-ROADMAP.md section 4)
+
 ## Owner asks not yet started
 - [ ] Health data: see docs/HEALTH-DATA-COMPLIANCE.md; decisions listed there (HIPAA does not apply today; stay browser-only, fix explicit consent for cancer type and gate analytics, plan encrypted sync next)
 - [x] Weekly maintenance and monthly identifiers now run in .github/workflows/maintenance.yml (owner approved 22 Sept 2026); bot pushes deploy on their own through the ignoreCommand test in vercel.json.

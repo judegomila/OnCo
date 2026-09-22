@@ -10,6 +10,8 @@
 export const TABLE_PAGE = 30;
 /** First page and step for a list whose items are whole tables (the per-pathway node tables of /pathway-drugs/). */
 export const SECTION_PAGE = 10;
+/** First page of a kind browser (/trials/, /key-papers/, ...): two ordinary pages, so the index reads as a list before anything is fetched (src/lib/tables/kinds.ts). */
+export const KIND_PAGE = 60;
 
 /** Site-relative URL of the file holding every row of one paged table. */
 export const tableFile = (id: string): string => `/api/v1/tables/${id}.json`;
@@ -20,12 +22,13 @@ export type MoreRows = { total: number; src: string };
 /**
  * Split a table into what the page renders and where the rest is. Rows must already be in the table's default
  * order (the first page stands in for the whole until the file is fetched). Tables that fit in one page carry
- * every row and no file. The file (scripts/build-tables.ts) exists for every table longer than TABLE_PAGE rows,
- * so a smaller `size` may be shown on the page but never a larger one.
+ * every row and no file. The file (scripts/build-tables.ts) exists for every table longer than its page, so the
+ * `size` given here must be the one the table is registered with in src/lib/tables/index.ts (TABLE_PAGE unless
+ * the table says otherwise; the kind browsers use KIND_PAGE).
  */
 export function pageRows<T>(id: string, rows: T[], size: number = TABLE_PAGE): { rows: T[]; more?: MoreRows } {
-  if (rows.length <= TABLE_PAGE) return { rows };
-  return { rows: rows.slice(0, Math.min(size, TABLE_PAGE)), more: { total: rows.length, src: tableFile(id) } };
+  if (rows.length <= size) return { rows };
+  return { rows: rows.slice(0, size), more: { total: rows.length, src: tableFile(id) } };
 }
 
 /** One request per file per page; the promise is shared by every caller. Null when the file cannot be fetched. */

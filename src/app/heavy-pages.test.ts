@@ -17,7 +17,10 @@ import AuditPage from "./audit/page";
 import PathwayDrugsPage from "./pathway-drugs/page";
 import DossierPage from "./dossiers/[id]/page";
 import Startups from "./startups/page";
-import { SECTION_PAGE, TABLE_PAGE } from "@/lib/static-tables";
+import KindIndex from "./[kind]/page";
+import { KIND_PAGE, SECTION_PAGE, TABLE_PAGE } from "@/lib/static-tables";
+import { PAGED_KINDS } from "@/lib/tables/kinds";
+import { KIND_META, KINDS } from "@/lib/kinds";
 import { EXPLAINED_PAGE, explainedGroups } from "@/lib/explained-data";
 import { graph } from "@/lib/graph";
 
@@ -229,5 +232,44 @@ describe("paged tables carry one page of rows", () => {
     expect(html).toContain("data-more");
     // 377 KB when written (the products matrix and resistance routes are most of it), against 2.1 MB of HTML before.
     expect(Buffer.byteLength(html, "utf8"), "pd1 dossier markup").toBeLessThan(450 * KB);
+  });
+});
+
+/**
+ * The kind browsers shipped every row twice over: /trials/ 7.8 MB, /key-papers/ 3.7 MB, /ideas/ 2.9 MB, /drugs/ 2.8 MB,
+ * /people/ 2.6 MB, /cancers/ 1.9 MB, /companies/ 1.7 MB, /terms/ 1.3 MB, /institutions/ 1.1 MB, /technologies/ 1.0 MB,
+ * /targets/ 724 KB when measured on 22 Sept 2026 (docs/TABLES.md). Each now carries its first KIND_PAGE rows in the
+ * default order plus whole-table facet counts, and fetches the rest from /api/v1/tables/kind-<route>.json
+ * (src/lib/tables/kinds.ts). The budget is on the markup; the payload follows the same props.
+ */
+describe("kind browsers carry one page of rows", () => {
+  const kindPage = (kind: (typeof KINDS)[number]) => KindIndex({ params: Promise.resolve({ kind: KIND_META[kind].route }) });
+
+  for (const k of PAGED_KINDS) {
+    it(`${KIND_META[k].route} renders the first ${KIND_PAGE} rows, the Show more sentinel and the whole-set JSON link`, async () => {
+      const html = render(await kindPage(k));
+      const total = graph().kind(k).length;
+      expect(total).toBeGreaterThan(KIND_PAGE);
+      const rows = bodyRows(html);
+      expect(rows[0], "browser rows").toBe(KIND_PAGE);
+      for (const n of rows) expect(n).toBeLessThanOrEqual(KIND_PAGE);
+      expect(html).toContain("data-more");
+      expect(html).toContain(`Show ${KIND_PAGE} more`);
+      expect(html).toContain(total.toLocaleString("en-GB"));
+      // Real rows for search engines: named records with their pages.
+      expect(html).toMatch(new RegExp(`href="/${KIND_META[k].route}/[a-z0-9-]+/?"`));
+      // Crawlers and agents reach every record without the table's fetch: the kind's JSON and CSV under /api/v1/.
+      expect(html).toContain("data-kind-export");
+      expect(html).toContain(`href="/api/v1/${encodeURIComponent(KIND_META[k].plural)}.json"`);
+      expect(html).toContain(`href="/api/v1/${encodeURIComponent(KIND_META[k].plural)}.csv"`);
+      expect(Buffer.byteLength(html, "utf8"), `${KIND_META[k].route} markup`).toBeLessThan(600 * KB);
+    });
+  }
+
+  it("a small kind (roadmaps) still ships every row and no sentinel", async () => {
+    const html = render(await kindPage("roadmap"));
+    expect(bodyRows(html)[0]).toBe(graph().kind("roadmap").length);
+    expect(html).not.toContain("data-more");
+    expect(html).not.toContain("data-kind-export");
   });
 });

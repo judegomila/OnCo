@@ -1,0 +1,24 @@
+docs/TABLES.md
+  s_0beac9cb5d78fd::t_65d6e57bec3c63 73
+src/components/filters/useHeaderFilters.test.ts
+  s_0beac9cb5d78fd::t_65d6e57bec3c63 61-65
+src/components/GuidelineConcordance.tsx
+  s_0beac9cb5d78fd::t_3d475116fef128 74
+  s_0beac9cb5d78fd::t_7d1f89edebcc5c 68-73,75-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "813a65b3ed834bbef8bfe0481c150cd2ff0572c7",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

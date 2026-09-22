@@ -14,7 +14,8 @@ import { termMarks } from "@/lib/term-hover";
 import { TermSchematic } from "@/components/TermSchematic";
 import { logoSrc } from "@/lib/logos";
 import { kindTitle, pageMeta } from "@/lib/seo";
-import { KindName } from "@/components/T";
+import { KindName, T } from "@/components/T";
+import { RankGlyph } from "@/components/RankGlyph";
 import { buildBrowser, cap } from "@/lib/kind-browser";
 import { MyCancerPin, MyCancerTrialsFilter } from "@/components/MyCancer";
 import { myCancerTiles } from "@/lib/my-cancer-list";
@@ -51,6 +52,7 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
     : k === "drug" ? <Link href="/explore/?kind=drug" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">Rank by cancer type →</Link>
     : k === "institution" ? <Link href="/universities/" className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium">University output →</Link>
     : k === "bottleneck" ? <Link href="/ideas/" className="rounded-lg bg-accent text-white px-4 py-2 text-sm font-medium">All ideas →</Link>
+    : k === "idea" ? <Link href="/ideas/rankings/" title="Best bang for buck, most important, hardest, closest to reality, cherry picked" className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium hover:border-border-strong hover:shadow-sm"><RankGlyph name="rank" className="h-4 w-4 text-accent" /><T k="rank.pill" fallback="Rankings" /> →</Link>
     : k === "trial" ? <MyCancerTrialsFilter />
     : undefined;
 

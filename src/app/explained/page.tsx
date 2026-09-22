@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { Fragment } from "react";
 import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
-import { routeFor, type Trial } from "@/lib/schema";
-import { explainedGroups } from "@/lib/explained-data";
+import { routeFor } from "@/lib/schema";
+import { EXPLAINED_PAGE, explainedGroups, explainedRow, OTHER_NAME } from "@/lib/explained-data";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
-import { ExplainedSection, type ExplainedRow } from "@/components/ExplainedSection";
-import { CancerIcon } from "@/components/CancerIcon";
+import { ExplainedSection } from "@/components/ExplainedSection";
+import { CancerIcon, CancerIconDefs } from "@/components/CancerIcon";
 
 export const metadata: Metadata = pageMeta({
   title: "Trials in plain words",
@@ -14,26 +15,23 @@ export const metadata: Metadata = pageMeta({
   path: "/explained/",
 });
 
-/** One trial as the section component renders it: heading, status, phase and year, one-line summary and registry id. */
-const row = (t: Trial): ExplainedRow => ({ id: t.id, name: t.name, status: t.status, phase: t.phase, year: t.yearReported, tldr: t.tldr, nct: t.nct ?? undefined });
-
 export default function ExplainedPage() {
   const g = graph();
   // Sections and their trials come from src/lib/explained-data.ts, which also shapes the per-section files
-  // (/api/v1/explained/<id>.json) holding the explainer bodies that ExplainedSection fetches on demand.
+  // (/api/v1/explained/<id>.json) holding the rows beyond the first page and the explainer bodies that
+  // ExplainedSection fetches on demand. A trial that touches several cancers has its full row once, in the first
+  // section (alphabetical) it appears in (`own`); the later sections list it as a pill that opens that row (`refs`).
   const ordered = explainedGroups(g);
-  const trialCount = new Set(ordered.flatMap((grp) => grp.trials.map((t) => t.id))).size;
+  const trialCount = ordered.reduce((n, grp) => n + grp.own.length, 0);
   const cancerCount = ordered.filter((grp) => grp.cancer).length;
-  // A trial that touches several cancers has its full row once, in the first section (alphabetical) it appears in; the
-  // later sections list it as a pill that opens that row. Every trial name, summary and page link is in the HTML once.
-  const firstIn = new Map<string, string>();
-  for (const grp of ordered) for (const t of grp.trials) if (!firstIn.has(t.id)) firstIn.set(t.id, grp.cancer?.name ?? "Other trials");
 
   return (
     <>
       <PageHeader kicker={<GroupKicker id="intel" />} title="Trials in plain words"
         lede="Hazard ratios and medians mean little to most readers. This page takes every trial result recorded in OnCo and says what it means for people: how many more out of 100 were helped, roughly how many need to be treated for one extra person to benefit, what a median is and is not, whether the endpoint is a surrogate or actual survival, and who the trial enrolled. The numbers come from the trial records and their sources; the words are ours." />
       <Container className="pb-16">
+        {/* The organ drawings once each; the 256 section headings reference them (132 KB of HTML as inline drawings). */}
+        <CancerIconDefs cancerIds={ordered.flatMap((grp) => (grp.cancer ? [grp.cancer.id] : []))} />
         <div className="text-sm text-muted mb-6 flex flex-wrap items-baseline gap-x-4 gap-y-1">
           <span className="tabular-nums">{trialCount} trials with structured results</span>
           <span className="tabular-nums">{cancerCount} cancers</span>
@@ -41,26 +39,32 @@ export default function ExplainedPage() {
         </div>
         <div className="flex flex-wrap gap-1.5 mb-10">
           {ordered.map((grp) => (
-            <a key={grp.key} href={`#cancer-${grp.key}`} className="chip border border-border bg-card hover:bg-foreground/5">
-              {grp.cancer?.name ?? "Other trials"} <span className="text-muted tabular-nums ml-1">{grp.trials.length}</span>
-            </a>
+            <a key={grp.key} href={`#cancer-${grp.key}`} className="chip explained-jump">{grp.cancer?.name ?? OTHER_NAME}<span>{grp.trials.length}</span></a>
           ))}
         </div>
 
         <div className="space-y-14">
           {ordered.map((grp) => {
-            const here = grp.cancer?.name ?? "Other trials";
-            const own = grp.trials.filter((t) => firstIn.get(t.id) === here);
-            const elsewhere = grp.trials.filter((t) => firstIn.get(t.id) !== here);
+            // The HTML carries the first page of rows and pills; the section fetches the rest from its file as the reader
+            // scrolls past them. The rows beyond the first page are listed for readers and crawlers without JavaScript.
+            const first = grp.own.slice(0, EXPLAINED_PAGE);
+            const rest = grp.own.slice(EXPLAINED_PAGE);
             return (
               <section key={grp.key} id={`cancer-${grp.key}`}>
-                <div className="flex items-center gap-3 mb-4 pb-2 border-b border-border">
-                  {grp.cancer && <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={grp.cancer.id} className="h-6 w-6" /></span>}
-                  <h2 className="text-xl font-semibold">{grp.cancer ? <Link href={routeFor(grp.cancer)} className="hover:underline">{grp.cancer.name}</Link> : "Trials not yet linked to a cancer"}</h2>
-                  <span className="ml-auto text-sm text-muted tabular-nums">{grp.trials.length} trial{grp.trials.length === 1 ? "" : "s"}</span>
+                <div className="explained-head">
+                  {grp.cancer && <span className="explained-icon"><CancerIcon cancerId={grp.cancer.id} symbol /></span>}
+                  <h2>{grp.cancer ? <Link href={routeFor(grp.cancer)}>{grp.cancer.name}</Link> : "Trials not yet linked to a cancer"}</h2>
+                  <span className="count">{grp.trials.length} trial{grp.trials.length === 1 ? "" : "s"}</span>
                 </div>
-                {/* Rows are collapsed by default; the explainer is fetched when a row is opened (or prefetched as the section scrolls near). */}
-                <ExplainedSection section={grp.key} rows={own.map(row)} refs={elsewhere.map((t) => ({ id: t.id, name: t.name, under: firstIn.get(t.id)! }))} />
+                <ExplainedSection section={grp.key} rows={first.map(explainedRow)} total={grp.own.length} refs={grp.refs.slice(0, EXPLAINED_PAGE)} refTotal={grp.refs.length} />
+                {rest.length > 0 && (
+                  <noscript>
+                    <p className="explained-rest">
+                      The other {rest.length} trials explained in this section, each with its results on its own page:{" "}
+                      {rest.map((t, i) => <Fragment key={t.id}>{i > 0 && ", "}<a href={routeFor(t)}>{t.name}</a></Fragment>)}.
+                    </p>
+                  </noscript>
+                )}
               </section>
             );
           })}

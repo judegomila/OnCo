@@ -47,35 +47,52 @@ export const STATUS_TIPS: Record<string, string> = {
 };
 
 /** Tailwind classes per status; evidence tiers get a consistent visual language. */
-export function statusClass(status?: string): string {
+/**
+ * The colour a status chip takes: ok (green: approved, positive), set (blue: phase 3, established), live (amber:
+ * recruiting, active), early (violet: phase 1, concept), no (rose: negative, withdrawn), flat (grey: mixed, historic).
+ * `statusClass` gives the Tailwind utilities; `.tone-<tone>` in globals.css is the same look as one short class for
+ * pages that render hundreds of chips (/explained/).
+ */
+export type StatusTone = "ok" | "set" | "live" | "early" | "no" | "flat";
+export function statusTone(status?: string): StatusTone {
   switch (status) {
     case "approved":
     case "standard-of-care":
     case "positive":
-      return "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200";
+      return "ok";
     case "phase-3":
     case "established":
     case "completed":
-      return "bg-sky-100 text-sky-800 dark:bg-sky-900/40 dark:text-sky-200";
+      return "set";
     case "phase-2":
     case "recruiting":
     case "active":
     case "emerging":
-      return "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200";
+      return "live";
     case "phase-1":
     case "preclinical":
     case "concept":
     case "planned":
-      return "bg-violet-100 text-violet-800 dark:bg-violet-900/40 dark:text-violet-200";
+      return "early";
     case "negative":
     case "withdrawn":
-      return "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200";
-    case "mixed":
-    case "historic":
-      return "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300";
+      return "no";
     default:
-      return "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300";
+      return "flat";
   }
+}
+
+const TONE_CLASS: Record<StatusTone, string> = {
+  ok: "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200",
+  set: "bg-sky-100 text-sky-800 dark:bg-sky-900/40 dark:text-sky-200",
+  live: "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200",
+  early: "bg-violet-100 text-violet-800 dark:bg-violet-900/40 dark:text-violet-200",
+  no: "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200",
+  flat: "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300",
+};
+
+export function statusClass(status?: string): string {
+  return TONE_CLASS[statusTone(status)];
 }
 
 export const KIND_COLOR: Record<string, string> = {

@@ -368,8 +368,14 @@ export function iconIdFor(cancerId: string): string {
   return (MAP as Record<string, CancerIconId | undefined>)[cancerId] ?? FALLBACK;
 }
 
-export function CancerIcon({ cancerId, className = "h-6 w-6" }: { cancerId: string; className?: string }) {
-  const glyph: Glyph = GLYPHS[iconIdFor(cancerId) as CancerIconId] ?? GLYPHS[FALLBACK];
+/**
+ * The organ icon. With `symbol`, the drawing is a `<use>` of a `<symbol>` that <CancerIconDefs/> registered once on
+ * the page: /explained/ has 256 section headings, and 256 inline drawings were 132 KB of its HTML.
+ */
+export function CancerIcon({ cancerId, className = "h-6 w-6", symbol = false }: { cancerId: string; className?: string; symbol?: boolean }) {
+  const iconId = iconIdFor(cancerId);
+  if (symbol) return <svg viewBox="0 0 32 32" className={className} aria-hidden="true" focusable="false"><use href={`#ci-${iconId}`} /></svg>;
+  const glyph: Glyph = GLYPHS[iconId as CancerIconId] ?? GLYPHS[FALLBACK];
   return (
     <svg viewBox="0 0 32 32" className={className} aria-hidden="true" focusable="false" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
       {glyph.paths.map((d, i) => (
@@ -378,6 +384,24 @@ export function CancerIcon({ cancerId, className = "h-6 w-6" }: { cancerId: stri
       {glyph.dots?.map(([cx, cy, r], i) => (
         <circle key={`d${i}`} cx={cx} cy={cy} r={r} fill="currentColor" stroke="none" />
       ))}
+    </svg>
+  );
+}
+
+/** Hidden `<symbol>` per distinct drawing the given cancers use, for `<CancerIcon symbol/>`; render once, before the first use. */
+export function CancerIconDefs({ cancerIds }: { cancerIds: string[] }) {
+  const iconIds = [...new Set(cancerIds.map(iconIdFor))].sort();
+  return (
+    <svg aria-hidden="true" focusable="false" width="0" height="0" style={{ position: "absolute", width: 0, height: 0, overflow: "hidden" }}>
+      {iconIds.map((iconId) => {
+        const glyph: Glyph = GLYPHS[iconId as CancerIconId] ?? GLYPHS[FALLBACK];
+        return (
+          <symbol key={iconId} id={`ci-${iconId}`} viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+            {glyph.paths.map((d, i) => <path key={i} d={d} />)}
+            {glyph.dots?.map(([cx, cy, r], i) => <circle key={`d${i}`} cx={cx} cy={cy} r={r} fill="currentColor" stroke="none" />)}
+          </symbol>
+        );
+      })}
     </svg>
   );
 }

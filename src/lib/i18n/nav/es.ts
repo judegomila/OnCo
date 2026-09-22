@@ -28,6 +28,7 @@ export const navEs: NavDict = {
   "/body/": ["Mapa corporal", "Empieza por dónde está el cáncer."],
 
   "/cancers/": ["Cánceres", "Estado del arte, tratamiento estándar, historia, fármacos en desarrollo."],
+  "/cancers/map/": ["Mapa de cánceres", "Todos los tipos de cáncer en un mapa por capas: sistema orgánico, cáncer y subtipo; un cáncer aparece bajo más de un nodo cuando pertenece a ambos. Las insignias cuentan ensayos, productos, aprobaciones o ideas."],
   "/fronts/": ["Frentes", "Los frentes de la guerra: de la imagen a la terapia celular."],
   "/technologies/": ["Tecnologías", "Cada forma de ver, medir o atacar un tumor."],
   "/targets/": ["Dianas", "Las moléculas a las que apuntan fármacos y trazadores."],

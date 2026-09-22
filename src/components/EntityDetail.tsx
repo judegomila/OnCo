@@ -70,6 +70,7 @@ import { RegistryCheck } from "./RegistryCheck";
 import { regionalApprovals } from "@/data/regional-approvals";
 import { CountryCasesMini } from "./CountryCasesMini";
 import { CancerIcon } from "./CancerIcon";
+import { RouteIcon } from "./RouteIcon";
 import { ResearchOutput } from "./ResearchOutput";
 import { confidence } from "@/data/confidence";
 import { FrontIcon } from "./FrontIcon";
@@ -668,11 +669,13 @@ function CancerFamily({ c }: { c: Cancer }) {
   const g = graph();
   const children = g.kind("cancer").filter((x) => x.parent === c.id);
   const parent = c.parent ? g.get(c.parent) : undefined;
-  if (!children.length && !parent) return null;
+  const map = <Link href="/cancers/map/" title="Every cancer type on one layered map: organ system, cancer, subtype" className="inline-flex items-center gap-1.5 rounded-full border border-dashed border-border px-2.5 py-1 text-sm text-muted hover:border-accent hover:text-accent"><RouteIcon href="/cancers/map/" className="h-3.5 w-3.5 shrink-0" /><span>See the whole map</span></Link>;
+  if (!children.length && !parent) return <div className="mb-6 flex flex-wrap items-center gap-2 text-sm" aria-label="Related cancer types">{map}</div>;
   return (
     <div className="mb-6 flex flex-wrap items-center gap-2 text-sm" aria-label="Related cancer types">
       {parent && <><span className="text-muted">Part of</span><Link href={routeFor(parent)} className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-2.5 py-1 text-sm hover:border-accent hover:bg-accent-soft"><CancerIcon cancerId={parent.id} className="h-4 w-4 shrink-0" /><span>{parent.name}</span></Link></>}
       {children.length > 0 && <><span className="text-muted">{parent ? "Types" : `Types of ${c.name.replace(/\s*\(.*$/, "")}`}</span>{children.map((x) => <Link key={x.id} href={routeFor(x)} className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-2.5 py-1 text-sm hover:border-accent hover:bg-accent-soft"><CancerIcon cancerId={x.id} className="h-4 w-4 shrink-0" /><span>{x.name}</span></Link>)}</>}
+      {map}
     </div>
   );
 }

@@ -28,6 +28,7 @@ export const navFr: NavDict = {
   "/body/": ["Carte du corps", "Partez de l'endroit où se trouve le cancer."],
 
   "/cancers/": ["Cancers", "État de l'art, traitement de référence, histoire, produits en développement."],
+  "/cancers/map/": ["Carte des cancers", "Tous les types de cancer sur une carte en couches : système d'organes, cancer, sous-type ; un cancer figure sous plusieurs noeuds quand il appartient aux deux. Les badges comptent essais, produits, autorisations ou idées."],
   "/fronts/": ["Fronts", "Les fronts de la guerre : de l'imagerie à la thérapie cellulaire."],
   "/technologies/": ["Technologies", "Chaque façon de voir, mesurer ou attaquer une tumeur."],
   "/targets/": ["Cibles", "Les molécules que visent médicaments et traceurs."],

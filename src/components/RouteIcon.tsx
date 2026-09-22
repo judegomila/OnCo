@@ -8,6 +8,7 @@ import type { ReactNode } from "react";
  */
 const P: Record<string, string> = {
   // Find
+  "/cancers/map/": "M3 5h5v4H3zM3 15h5v4H3zM10 10h5v4h-5zM17 4h4v4h-4zM17 16h4v4h-4zM8 7l2 5M8 17l2-5M15 12l2-6M15 12l2 6",
   "/explore/": "M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm3.5 5.5-2 5-5 2 2-5 5-2Z",
   "/search/": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14Zm5 12 4 4",
   "/path/": "M4 19c3 0 3-4 6-4s3 4 6 4 3-4 4-4M6 5a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm12 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM8 7h8",

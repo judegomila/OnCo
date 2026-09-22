@@ -237,6 +237,8 @@
 
   /* Trials in plain words (src/app/explained/page.tsx): six hundred rows share these instead of each repeating the utilities,
      which keeps the page's HTML (and the hydration payload that mirrors it) small. */
+  .explained-row { scroll-margin-top: 5rem; }
+  .explained-row[open] { padding-bottom: 1rem; }
   .explained-summary { cursor: pointer; list-style: none; padding: 0.75rem 1rem; border-radius: 0.875rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
   .explained-summary::-webkit-details-marker { display: none; }
   .explained-summary::before { content: "▶"; font-size: 0.7rem; color: var(--muted); transition: transform 160ms ease; }
@@ -246,10 +248,14 @@
   .explained-summary .meta { font-size: 0.75rem; color: var(--muted); }
   .explained-tldr { flex-basis: 100%; margin: 0; font-size: 0.875rem; line-height: 1.25rem; color: var(--muted); max-width: 48rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   details[open] > .explained-summary .explained-tldr { display: block; }
-  .explained-pill { margin-inline-start: auto; color: var(--accent); background: var(--card); border-color: var(--border); }
+  /* The pill's markup is the bare label "Open explanation"; the speech-bubble glyph is a masked ::before and the
+     open-state label "Close" is ::after content, so the 700-plus rows of /explained/ do not each carry an inline SVG
+     and a second span (about 100 KB of HTML on that page). */
+  .explained-pill { margin-inline-start: auto; color: var(--accent); background: var(--card); border-color: var(--border); display: inline-flex; }
+  .explained-pill::before { content: ""; flex: none; width: 0.875rem; height: 0.875rem; background: currentColor; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 5h16v11H9l-5 4V5Z'/%3E%3Cpath d='M8 9h8M8 12h5'/%3E%3C/svg%3E") center / contain no-repeat; }
   .explained-summary:hover .explained-pill, details[open] > .explained-summary .explained-pill { background: var(--accent-soft); }
-  .explained-pill .close, details[open] > .explained-summary .explained-pill .open { display: none; }
-  details[open] > .explained-summary .explained-pill .close { display: inline; }
+  details[open] > .explained-summary .explained-pill { font-size: 0; }
+  details[open] > .explained-summary .explained-pill::after { content: "Close"; font-size: 0.72rem; }
   .explained-links { padding: 0 1rem; font-size: 0.75rem; color: var(--muted); }
   .explained-links a { text-decoration: underline; }
   .explained-links a:hover { color: var(--foreground); }

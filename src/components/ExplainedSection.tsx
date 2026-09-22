@@ -71,7 +71,7 @@ export function ExplainedSection({ section, rows, refs = [] }: { section: string
         <div className="text-sm pb-1">
           <span className="text-muted">Also studied in this cancer, explained above:</span>
           <div className="flex flex-wrap gap-1.5 mt-1.5">
-            {refs.map((x) => <a key={x.id} href={`#${x.id}`} title={`Explained under ${x.under}; opens there.`} className="chip border border-border bg-card hover:bg-accent-soft hover:text-accent">{x.name}</a>)}
+            {refs.map((x) => <a key={x.id} href={`#${x.id}`} title={`Explained under ${x.under}`} className="chip border border-border bg-card hover:bg-accent-soft hover:text-accent">{x.name}</a>)}
           </div>
         </div>
       )}
@@ -79,16 +79,17 @@ export function ExplainedSection({ section, rows, refs = [] }: { section: string
         const isOpen = !!open[r.id];
         const trial = file?.trials[r.id];
         return (
-          <details key={r.id} id={r.id} open={isOpen} onToggle={(e) => toggle(r.id, e.currentTarget.open)} className="card scroll-mt-20 open:pb-4">
+          <details key={r.id} id={r.id} open={isOpen} onToggle={(e) => toggle(r.id, e.currentTarget.open)} className="card explained-row">
             <summary className="explained-summary">
               <h3>{r.name}</h3>
               {r.status && <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span>}
               <span className="meta">{phaseLabel(r.phase)}{r.year ? ` · reported ${r.year}` : ""}</span>
-              <span className="chip explained-pill"><svg aria-hidden className="h-3.5 w-3.5"><use href="#explained-glyph" /></svg><span className="open">Open explanation</span><span className="close">Close</span></span>
+              {/* Glyph and the open-state "Close" label come from CSS (.explained-pill in globals.css): 700-plus rows share one page, so every byte of row markup is paid hundreds of times. */}
+              <span className="chip explained-pill">Open explanation</span>
               <p className="explained-tldr">{r.tldr}</p>
             </summary>
             <div className="explained-links">
-              <Link href={route(r.id)}>Trial page</Link>{r.nct ? <> · <a href={`https://clinicaltrials.gov/study/${r.nct}`} rel="noopener">{r.nct}</a></> : null}
+              <Link href={route(r.id)}>Trial page</Link>{r.nct ? <> · <a href={`https://clinicaltrials.gov/study/${r.nct}`}>{r.nct}</a></> : null}
               {isOpen && (
                 <div className="mt-3 text-base text-foreground">
                   {file === undefined && <p className="text-sm text-muted py-3" aria-live="polite">Loading the explanation…</p>}

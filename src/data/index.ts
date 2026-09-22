@@ -34,6 +34,7 @@ import { papersPancreaticWave } from "./papers-pancreatic-wave";
 import { papersWatch202609 } from "./papers-watch-2026-09";
 import { papersTrialsWave1 } from "./papers-trials-wave1";
 import { trialKeyPapersWave1 } from "./trial-key-papers-wave1";
+import { TRIAL_REGISTRY_OUTCOMES } from "./trial-registry-outcomes";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
@@ -223,8 +224,19 @@ const RAW_INPUTS: EntityInput[] = [
 export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((e) => {
   if (e.kind === "term") return { ...e, category: canonicalTermCategory(e.id, e.category) };
   if (e.kind === "cancer" && !e.parent && (cancerParents[e.id] ?? cancerParentsWave2Map[e.id])) return { ...e, parent: cancerParents[e.id] ?? cancerParentsWave2Map[e.id] };
-  // Key papers found for trials by scripts/fetch-trial-papers.ts (wave 1), kept in one file rather than edited into every trial file.
-  if (e.kind === "trial" && trialKeyPapersWave1[e.id]) return { ...e, keyPapers: [...(e.keyPapers ?? []), ...trialKeyPapersWave1[e.id].filter((id) => !(e.keyPapers ?? []).includes(id))] };
+  if (e.kind === "trial") {
+    let t = e;
+    // Key papers found for trials by scripts/fetch-trial-papers.ts (wave 1), kept in one file rather than edited into every trial file.
+    if (trialKeyPapersWave1[t.id]) t = { ...t, keyPapers: [...(t.keyPapers ?? []), ...trialKeyPapersWave1[t.id].filter((id) => !(t.keyPapers ?? []).includes(id))] };
+    // Outcomes copied from the ClinicalTrials.gov results section by scripts/fetch-registry-outcomes.ts (wave 7), for
+    // registry-ingested trials that carry none of their own; the ingested summary's "no results" sentence is replaced.
+    const reg = TRIAL_REGISTRY_OUTCOMES[t.id];
+    if (reg && !(t.outcomes?.length)) {
+      const posted = reg.yearReported ? ` in ${reg.yearReported}` : "";
+      t = { ...t, ...reg, summary: t.summary.replace(/No results (?:have been posted on ClinicalTrials\.gov|are recorded here; the registry entry is the source)\./, `Results were posted on ClinicalTrials.gov${posted}; the figures recorded here are the registry's, not a publication's.`) };
+    }
+    return t;
+  }
   return e;
 });
 

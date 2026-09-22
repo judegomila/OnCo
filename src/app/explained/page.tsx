@@ -34,8 +34,6 @@ export default function ExplainedPage() {
       <PageHeader kicker={<GroupKicker id="intel" />} title="Trials in plain words"
         lede="Hazard ratios and medians mean little to most readers. This page takes every trial result recorded in OnCo and says what it means for people: how many more out of 100 were helped, roughly how many need to be treated for one extra person to benefit, what a median is and is not, whether the endpoint is a surrogate or actual survival, and who the trial enrolled. The numbers come from the trial records and their sources; the words are ours." />
       <Container className="pb-16">
-        {/* The speech-bubble glyph every Open explanation pill reuses through <use>. */}
-        <svg className="hidden" aria-hidden><symbol id="explained-glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M4 5h16v11H9l-5 4V5Z" /><path d="M8 9h8M8 12h5" /></symbol></svg>
         <div className="text-sm text-muted mb-6 flex flex-wrap items-baseline gap-x-4 gap-y-1">
           <span className="tabular-nums">{trialCount} trials with structured results</span>
           <span className="tabular-nums">{cancerCount} cancers</span>

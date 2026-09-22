@@ -25,7 +25,7 @@ Merge finished worktree agents before the chain; never `cd` into a worktree; nev
 - [x] Tumour testing: scope and sample card grids with laboratory logos, filterable tests table: chain 96
 - [x] Edge (/edge/, feed.xml, feed.json): chain 96
 - [x] Idea rankings (/ideas/rankings/) and corpus rankings (/rankings/): chain 96; Most wanted hidden until votes exist
-- [x] Pagination for /explore/, /for-me/, /navigator/: chain 96; /explained/ lazy explainer bodies in progress
+- [x] Pagination for /explore/, /for-me/, /navigator/: chain 96; /explained/ lazy explainer bodies, then sections paged at 10 rows with a noscript list of the rest (1,135 KB to 561 KB of markup)
 - [x] Content roadmap (docs/CONTENT-ROADMAP.md, `npm run content:gaps`): chain 96; waves 1 and 2 running
 - [x] Cancer map DAG (/cancers/map/, graph.json): chain 97
 - [x] Every hand-written table with ten or more rows on the shared filter (docs/TABLES.md): chain 97; seven heavy pages page their rows from /api/v1/tables/ since chain 98

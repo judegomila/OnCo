@@ -18,7 +18,7 @@ import PathwayDrugsPage from "./pathway-drugs/page";
 import DossierPage from "./dossiers/[id]/page";
 import Startups from "./startups/page";
 import { SECTION_PAGE, TABLE_PAGE } from "@/lib/static-tables";
-import { explainedGroups } from "@/lib/explained-data";
+import { EXPLAINED_PAGE, explainedGroups } from "@/lib/explained-data";
 import { graph } from "@/lib/graph";
 
 /**
@@ -63,29 +63,52 @@ describe("heavy pages page their sections", () => {
     expect(Buffer.byteLength(html, "utf8"), "for me markup").toBeLessThan(600 * KB);
   });
 
-  it("explained renders every trial heading and summary but no explainer body", () => {
+  it("explained renders every cancer heading, the first ten rows of each section and the Show more sentinel", () => {
     const html = render(createElement(ExplainedPage));
     const groups = explainedGroups(graph());
     const placements = groups.reduce((n, grp) => n + grp.trials.length, 0);
     const unique = new Set(groups.flatMap((grp) => grp.trials.map((t) => t.id)));
     expect(placements).toBeGreaterThan(1000);
-    // Every trial has one full row (heading, summary, page link, Open explanation pill), in the first cancer section it
-    // appears in; its other cancer sections list it as a pill that opens that row.
-    expect((html.match(/<details[\s>]/g) ?? []).length).toBe(unique.size);
-    expect((html.match(/Open explanation/g) ?? []).length).toBe(unique.size);
-    expect((html.match(/class="chip border border-border bg-card hover:bg-accent-soft hover:text-accent"/g) ?? []).length).toBe(placements - unique.size);
-    for (const grp of groups) expect(html).toContain(`id="cancer-${grp.key}"`);
-    for (const id of unique) expect(html, id).toContain(`id="${id}"`);
-    expect(html).toMatch(/href="\/trials\/[a-z0-9-]+\/?"/);
+    // Listed once: every trial's full row is in the first cancer section it appears in (`own`); the later sections
+    // list it as a pill (`refs`) that opens that row.
+    expect(groups.reduce((n, grp) => n + grp.own.length, 0)).toBe(unique.size);
+    expect(groups.reduce((n, grp) => n + grp.refs.length, 0)).toBe(placements - unique.size);
+    // One section per cancer, in order, each with its heading, trial count and at most EXPLAINED_PAGE full rows
+    // (heading, summary, page link, Open explanation pill); the rest of the rows come from /api/v1/explained/<id>.json.
+    const sections = html.split('<section id="cancer-').slice(1);
+    expect(sections).toHaveLength(groups.length);
+    sections.forEach((s, i) => {
+      const grp = groups[i];
+      expect(s.startsWith(`${grp.key}"`), grp.key).toBe(true);
+      expect((s.match(/<details[\s>]/g) ?? []).length, grp.key).toBe(Math.min(EXPLAINED_PAGE, grp.own.length));
+      expect(s, grp.key).toContain(`>${grp.trials.length} trial`);
+    });
+    const firstPage = groups.reduce((n, grp) => n + Math.min(EXPLAINED_PAGE, grp.own.length), 0);
+    expect(firstPage).toBeLessThan(unique.size);
+    expect((html.match(/<details[\s>]/g) ?? []).length).toBe(firstPage);
+    // The row's markup is bare (one class; the card, arrow and "Open explanation" pill are CSS in globals.css).
+    expect((html.match(/class="explained-row"><summary><h3><a /g) ?? []).length).toBe(firstPage);
+    expect(html).not.toContain("Open explanation");
+    // Every section with more rows carries the IntersectionObserver sentinel and the Show more pill, and a noscript
+    // list of the rows beyond the first page so that crawlers and readers without JavaScript see every trial's name
+    // and page link. Pills beyond the first page also come from the file.
+    const paged = groups.filter((grp) => grp.own.length > EXPLAINED_PAGE);
+    expect(paged.length).toBeGreaterThan(0);
+    expect((html.match(/data-more/g) ?? []).length).toBe(paged.length);
+    expect(html).toContain(`Show ${EXPLAINED_PAGE} more`);
+    expect((html.match(/<noscript>/g) ?? []).length).toBe(paged.length);
+    expect((html.match(/<a href="#[a-z0-9-]+" class="chip explained-ref"/g) ?? []).length).toBe(groups.reduce((n, grp) => n + Math.min(EXPLAINED_PAGE, grp.refs.length), 0));
+    const linked = new Set([...html.matchAll(/href="\/trials\/([a-z0-9-]+)\/?"/g)].map((m) => m[1]));
+    for (const id of unique) expect(linked.has(id), id).toBe(true);
     // The explainer's own kicker and disclaimer only appear once a row is opened and its section file fetched.
     expect(html).not.toContain("In plain words</div>");
     expect(html).not.toContain("Numbers are from the trial as recorded here");
-    // 14.2 MB of HTML before; 981 KB of markup when written. The rows are a client component's props, so the hydration
-    // payload adds compact JSON rather than a second copy of this tree. Every trial heading appears once, so the page
-    // grows with the corpus: 981 KB at 3,527 trials, 1,135 KB after the standard-of-care and registry waves of
-    // 22 Sept 2026 (about 70 trials and 270 outcome rows more). The budget leaves room for one more such wave;
-    // beyond that the sections should page their rows like /explore/ rather than the budget rise again.
-    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(1300 * KB);
+    // 14.2 MB of HTML before; 981 KB of markup with every row as a client component's props (the hydration payload
+    // then adds compact JSON rather than a second copy of the tree); 1,135 KB after the standard-of-care and registry
+    // waves of 22 Sept 2026. Paging the sections at EXPLAINED_PAGE rows, one sprite for the organ drawings and CSS
+    // classes for the section furniture brought it under this budget, which now grows only with the number of
+    // cancers that have trials, not with the number of trials.
+    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(600 * KB);
   });
 
   it("idea rankings renders the first page of every view plus the Show more sentinel", () => {

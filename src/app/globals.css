@@ -235,30 +235,55 @@
   /* A glyph inside a chip keeps its size and sits on the chip's centre line beside the label. */
   .chip > svg, .chip > img { display: block; flex-shrink: 0; }
 
-  /* Trials in plain words (src/app/explained/page.tsx): six hundred rows share these instead of each repeating the utilities,
-     which keeps the page's HTML (and the hydration payload that mirrors it) small. */
-  .explained-row { scroll-margin-top: 5rem; }
+  /* Status chip tones (src/lib/text.ts statusTone): the same look as statusClass's utilities in one short class, for
+     pages that render hundreds of chips (/explained/ carries 600 rows in its HTML). */
+  .tone-ok { @apply bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200; }
+  .tone-set { @apply bg-sky-100 text-sky-800 dark:bg-sky-900/40 dark:text-sky-200; }
+  .tone-live { @apply bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200; }
+  .tone-early { @apply bg-violet-100 text-violet-800 dark:bg-violet-900/40 dark:text-violet-200; }
+  .tone-no { @apply bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200; }
+  .tone-flat { @apply bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300; }
+
+  /* Trials in plain words (src/app/explained/page.tsx, src/components/ExplainedSection.tsx). Six hundred rows, 256
+     section headings and 750 cross-reference pills share one page, so every byte of their markup is paid hundreds of
+     times and the page's HTML has a budget (src/app/heavy-pages.test.ts). A row is
+       <details class="explained-row"><summary><h3><a>name</a></h3><span class="chip tone-*">status</span><small>phase, year</small><p>summary</p></summary></details>
+     and everything else about its look lives here: the card, the disclosure arrow, the "Open explanation" pill (a
+     generated ::after with the speech-bubble glyph as its background, reading "Close" when open) and the clamped summary. */
+  .explained-row { scroll-margin-top: 5rem; background: var(--card); border: 1px solid var(--border); border-radius: 0.875rem; box-shadow: var(--shadow-1); }
   .explained-row[open] { padding-bottom: 1rem; }
-  .explained-summary { cursor: pointer; list-style: none; padding: 0.75rem 1rem; border-radius: 0.875rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
-  .explained-summary::-webkit-details-marker { display: none; }
-  .explained-summary::before { content: "▶"; font-size: 0.7rem; color: var(--muted); transition: transform 160ms ease; }
-  details[open] > .explained-summary::before { transform: rotate(90deg); }
-  .explained-summary:focus-visible { outline: none; box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 40%, transparent); }
-  .explained-summary h3 { font-size: 1.125rem; line-height: 1.75rem; font-weight: 600; }
-  .explained-summary .meta { font-size: 0.75rem; color: var(--muted); }
-  .explained-tldr { flex-basis: 100%; margin: 0; font-size: 0.875rem; line-height: 1.25rem; color: var(--muted); max-width: 48rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  details[open] > .explained-summary .explained-tldr { display: block; }
-  /* The pill's markup is the bare label "Open explanation"; the speech-bubble glyph is a masked ::before and the
-     open-state label "Close" is ::after content, so the 700-plus rows of /explained/ do not each carry an inline SVG
-     and a second span (about 100 KB of HTML on that page). */
-  .explained-pill { margin-inline-start: auto; color: var(--accent); background: var(--card); border-color: var(--border); display: inline-flex; }
-  .explained-pill::before { content: ""; flex: none; width: 0.875rem; height: 0.875rem; background: currentColor; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 5h16v11H9l-5 4V5Z'/%3E%3Cpath d='M8 9h8M8 12h5'/%3E%3C/svg%3E") center / contain no-repeat; }
-  .explained-summary:hover .explained-pill, details[open] > .explained-summary .explained-pill { background: var(--accent-soft); }
-  details[open] > .explained-summary .explained-pill { font-size: 0; }
-  details[open] > .explained-summary .explained-pill::after { content: "Close"; font-size: 0.72rem; }
-  .explained-links { padding: 0 1rem; font-size: 0.75rem; color: var(--muted); }
-  .explained-links a { text-decoration: underline; }
-  .explained-links a:hover { color: var(--foreground); }
+  .explained-row > summary { cursor: pointer; list-style: none; padding: 0.75rem 1rem; border-radius: 0.875rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+  .explained-row > summary::-webkit-details-marker { display: none; }
+  .explained-row > summary::before { content: "▶"; font-size: 0.7rem; color: var(--muted); transition: transform 160ms ease; }
+  .explained-row[open] > summary::before { transform: rotate(90deg); }
+  .explained-row > summary:focus-visible { outline: none; box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 40%, transparent); }
+  .explained-row h3 { font-size: 1.125rem; line-height: 1.75rem; font-weight: 600; }
+  .explained-row h3 a:hover { text-decoration: underline; }
+  .explained-row > summary > small { font-size: 0.75rem; color: var(--muted); }
+  .explained-row > summary > p { order: 2; flex-basis: 100%; margin: 0; font-size: 0.875rem; line-height: 1.25rem; color: var(--muted); max-width: 48rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .explained-row[open] > summary > p { display: block; }
+  .explained-row > summary::after { content: "Open explanation"; order: 1; margin-inline-start: auto; display: inline-flex; align-items: center; white-space: nowrap; border-radius: 9999px; border: 1px solid var(--border); padding: 0.125rem 0.6rem 0.125rem 1.7rem; font-size: 0.72rem; line-height: 1.35; font-weight: 600; letter-spacing: 0.01em; color: var(--accent); background: var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c2185b' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 5h16v11H9l-5 4V5Z'/%3E%3Cpath d='M8 9h8M8 12h5'/%3E%3C/svg%3E") 0.6rem center / 0.875rem 0.875rem no-repeat; }
+  .explained-row > summary:hover::after, .explained-row[open] > summary::after { background-color: var(--accent-soft); }
+  .explained-row[open] > summary::after { content: "Close"; }
+  .explained-body { padding: 0 1rem; font-size: 0.75rem; color: var(--muted); }
+  .explained-body > p:first-child a { text-decoration: underline; }
+  .explained-body > p:first-child a:hover { color: var(--foreground); }
+  /* Section heading (icon, cancer name, trial count), the jump chips above the sections, the cross-reference pills and
+     the noscript list of a section's remaining trials. */
+  .explained-head { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .explained-head h2 { font-size: 1.25rem; line-height: 1.75rem; font-weight: 600; }
+  .explained-head h2 a:hover { text-decoration: underline; }
+  .explained-head .count { margin-inline-start: auto; font-size: 0.875rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .explained-icon { display: inline-flex; flex: none; height: 2.25rem; width: 2.25rem; align-items: center; justify-content: center; border-radius: 0.75rem; background: var(--accent-soft); color: var(--accent); }
+  .explained-icon svg { height: 1.5rem; width: 1.5rem; }
+  .explained-jump, .explained-ref { border: 1px solid var(--border); background: var(--card); }
+  .explained-jump:hover { background: color-mix(in srgb, var(--foreground) 5%, transparent); }
+  .explained-jump span { margin-inline-start: 0.25rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .explained-ref:hover { background: var(--accent-soft); color: var(--accent); }
+  .explained-refs { display: flex; flex-wrap: wrap; align-items: center; gap: 0.375rem; padding-bottom: 0.25rem; font-size: 0.875rem; }
+  .explained-refs > small { flex-basis: 100%; font-size: 0.875rem; color: var(--muted); }
+  .explained-rest { margin-top: 0.75rem; font-size: 0.75rem; color: var(--muted); }
+  .explained-rest a { text-decoration: underline; }
 
   /* Header controls share one 40px height and one look. */
   .ctl {

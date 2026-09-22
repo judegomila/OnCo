@@ -30,12 +30,16 @@ export function RegulatoryBrowser({ rows, fdaActivity = {}, fdaFetched }: { rows
   }, [rows, types, regions, years, fdaOnly, fdaActivity, q, sort]);
 
   const opt = (f: (r: RegRow) => string, label?: (v: string) => string) => { const m = new Map<string, number>(); for (const r of rows) m.set(f(r), (m.get(f(r)) ?? 0) + 1); return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([v, n]) => ({ value: v, label: label ? label(v) : v, count: n })); };
+  // One option list per facet, shared by the toolbar control and the column header so the two never disagree.
+  const typeOptions = opt((r) => r.type, (v) => EVENT_LABEL[v as keyof typeof EVENT_LABEL]);
+  const regionOptions = opt((r) => r.region);
+  const yearOptions = opt((r) => r.key.slice(0, 4)).sort((a, b) => b.value.localeCompare(a.value));
 
   const columns: Column<RegRow>[] = [
-    { key: "date", label: "Date", sortable: true, render: (r) => <span className="font-mono text-sm whitespace-nowrap">{formatDate(r.date)}</span> },
+    { key: "date", label: "Date", sortable: true, filter: { options: yearOptions, value: years, onChange: setYears }, render: (r) => <span className="font-mono text-sm whitespace-nowrap">{formatDate(r.date)}</span> },
     { key: "drug", label: "Product", sortable: true, render: (r) => <div><Link href={`${r.route}#approvals`} className="font-medium hover:underline">{r.drug}</Link>{fdaActivity[r.drugId] && <span className="chip ml-1.5 bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200" title={`FDA activity ${fdaActivity[r.drugId]} in the weekly feed`}>FDA {fdaActivity[r.drugId]}</span>}<div className="text-xs text-muted">{r.modality}</div></div> },
-    { key: "type", label: "Event", render: (r) => <span className={`chip ${EVENT_TONE[r.type]}`}>{EVENT_LABEL[r.type]}</span> },
-    { key: "region", label: "Region", render: (r) => <span className="text-muted">{r.region}</span>, hide: "hidden sm:table-cell" },
+    { key: "type", label: "Event", filter: { options: typeOptions, value: types, onChange: setTypes }, render: (r) => <span className={`chip ${EVENT_TONE[r.type]}`}>{EVENT_LABEL[r.type]}</span> },
+    { key: "region", label: "Region", filter: { options: regionOptions, value: regions, onChange: setRegions }, render: (r) => <span className="text-muted">{r.region}</span>, hide: "hidden sm:table-cell" },
     { key: "note", label: "What happened", render: (r) => <span>{r.note}{r.source && <> <a className="text-xs underline text-muted" href={r.source} rel="noopener">source</a></>}</span> },
   ];
 
@@ -43,9 +47,9 @@ export function RegulatoryBrowser({ rows, fdaActivity = {}, fdaFetched }: { rows
     <div>
       <Toolbar count={filtered.length} total={rows.length} noun="events"
         left={<>
-          <FacetSelect label="Event" options={opt((r) => r.type, (v) => EVENT_LABEL[v as keyof typeof EVENT_LABEL])} value={types} onChange={(v) => setTypes(v as string[])} multi searchable={false} allLabel="Any" width="w-52" />
-          <FacetSelect label="Region" options={opt((r) => r.region)} value={regions} onChange={(v) => setRegions(v as string[])} multi searchable={false} allLabel="Any" width="w-40" />
-          <FacetSelect label="Year" options={opt((r) => r.key.slice(0, 4)).sort((a, b) => b.value.localeCompare(a.value))} value={years} onChange={(v) => setYears(v as string[])} multi searchable={false} allLabel="Any" width="w-36" />
+          <FacetSelect label="Event" options={typeOptions} value={types} onChange={(v) => setTypes(v as string[])} multi searchable={false} allLabel="Any" width="w-52" />
+          <FacetSelect label="Region" options={regionOptions} value={regions} onChange={(v) => setRegions(v as string[])} multi searchable={false} allLabel="Any" width="w-40" />
+          <FacetSelect label="Year" options={yearOptions} value={years} onChange={(v) => setYears(v as string[])} multi searchable={false} allLabel="Any" width="w-36" />
           {hasFeed && <label className="inline-flex items-center gap-1.5 text-sm" title={fdaFetched ? `FDA feed fetched ${fdaFetched}` : undefined}><input type="checkbox" checked={fdaOnly} onChange={(e) => setFdaOnly(e.target.checked)} /> Recent FDA activity only</label>}
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Product or note…" aria-label="Filter events" className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
           {(types.length || regions.length || years.length || fdaOnly || q) ? <button type="button" onClick={() => { setTypes([]); setRegions([]); setYears([]); setFdaOnly(false); setQ(""); }} className="text-sm underline text-muted">Clear</button> : null}

@@ -42,6 +42,8 @@ export const ja: UiDict = {
   "table.nSelected": "{n} 件選択中",
   "table.filterBy": "{facet}で絞り込み: {value}",
   "table.filteringBy": "{facet}で絞り込み中: {value}。クリックで解除します。",
+  "table.filterCol": "{col}で絞り込む",
+  "table.filteringCol": "{col}で絞り込み中: {value}",
   "table.saveView": "ビューを保存",
   "table.saveViewTitle": "現在の絞り込み・検索・並べ替えに名前を付けて保存します（このブラウザーのみ）",
   "table.saved": "保存済み",

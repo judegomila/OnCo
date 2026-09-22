@@ -116,7 +116,7 @@ export function RegionMatrix({ rows }: { rows: MatrixRow[] }) {
 
   const columns: Column<MatrixRow>[] = [
     { key: "name", label: "Product", sortable: true, render: (r) => <Link href={r.route} className="font-medium hover:underline">{r.name}{r.brand && <span className="text-muted font-normal"> · {r.brand}</span>}</Link> },
-    { key: "modality", label: "Modality", sortable: true, hide: "hidden lg:table-cell", className: "text-muted text-xs", render: (r) => r.modality },
+    { key: "modality", label: "Modality", sortable: true, hide: "hidden lg:table-cell", className: "text-muted text-xs", filter: { options: modalities, value: modality ? [modality] : [], onChange: (v) => setModality(v[0] ?? null), single: true }, render: (r) => r.modality },
     ...shown.map((rg): Column<MatrixRow> => ({ key: rg, label: `${REGION_META[rg].flag} ${rg}`, sortable: true, className: "text-center", render: (r) => <Cell e={r.regions[rg]} /> })),
     { key: "count", label: "Regions", sortable: true, className: "text-center tabular-nums", render: (r) => <span title={approvedRegions(r.regions).join(", ")}>{approvedRegions(r.regions).length}/{REGIONS.length}</span> },
     { key: "first", label: "First", sortable: true, className: "tabular-nums text-xs", render: (r) => { const y = firstYear(r.regions); return isFinite(y) ? <span>{y} <span className="text-muted">{firstRegions(r.regions).join("/")}</span></span> : <span className="text-muted">-</span>; } },

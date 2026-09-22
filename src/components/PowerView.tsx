@@ -95,7 +95,7 @@ export function PowerView({ rows, cancers, initialCancer, initialKind }: { rows:
     { key: "rank", label: "#", render: (_, i) => <span className="tabular-nums text-muted">{i + 1}</span>, className: "w-10" },
     { key: "name", label: "Name", sortable: true, render: ({ r }) => (
       <div className="min-w-[240px] flex items-start gap-2">{r.kind === "drug" && <MoleculeSlot drugId={r.id} modality={r.meta} name={r.name} className="h-10 w-10" />}<div><Link href={r.route} className="font-medium hover:underline">{r.name}</Link><div className="text-xs text-muted line-clamp-2 max-w-xl">{r.meta && <span className="text-foreground/70">{r.meta} · </span>}{r.tldr}</div></div></div>) },
-    { key: "evidence", label: "Phase / status", sortable: true, render: ({ r }) => r.kind === "drug" ? <ApprovalChip drugId={r.id} status={r.status} /> : r.status ? <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span> : null },
+    { key: "evidence", label: "Phase / status", sortable: true, filter: { options: statusOptions, value: status, onChange: setStatus }, render: ({ r }) => r.kind === "drug" ? <ApprovalChip drugId={r.id} status={r.status} /> : r.status ? <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span> : null },
     { key: "why", label: "Why it ranks", hide: "hidden md:table-cell", render: ({ r, psig }) => (
       <div className="flex flex-wrap gap-1">
         {cancer ? scoreParts(r.rel[cancer]).map(([k, w]) => <span key={k} className="chip bg-foreground/5 text-[10px]">{k === "soc" ? "standard of care" : k} +{w}</span>) : <span className="text-xs text-muted">evidence + links</span>}

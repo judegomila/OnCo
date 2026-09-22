@@ -50,6 +50,7 @@ const MAX_CANCERS = 6;
 const args = process.argv.slice(2);
 const KIND = (args.find((a) => a.startsWith("--kind="))?.slice(7) ?? "drug") as "drug" | "technology";
 if (KIND !== "drug" && KIND !== "technology") { console.error("--kind must be drug or technology"); process.exit(1); }
+const PLURAL = KIND === "drug" ? "drugs" : "technologies";
 const APPLY = args.includes("--apply");
 const DEBUG = args.includes("--debug");
 const FORCE = args.includes("--force");
@@ -64,7 +65,14 @@ const TECH_SKIP_TAGS: Record<string, string> = {
   supporting: "supporting infrastructure, not a trial intervention", infrastructure: "infrastructure, not a trial intervention", "virtual-cell": "a virtual-cell model, not a trial intervention", benchmark: "a benchmark, not a trial intervention", "risk-model": "a risk model, not a trial intervention",
 };
 /** Technology keys that are single generic words in registry text. */
-const GENERIC_TECH_KEYS = new Set(["software", "model", "models", "test", "tests", "testing", "screening", "therapy", "therapies", "imaging", "surgery", "exercise", "diet", "nutrition", "care", "platform", "platforms", "system", "systems", "device", "devices", "assay", "assays", "kit", "kits", "vaccine", "vaccines", "treatment", "treatments", "monitoring", "support", "education", "counselling", "counseling", "training", "programme", "program", "intervention", "standard", "usual care", "best supportive care", "observation", "surveillance", "biomarkers", "biomarker", "classifier", "sequencing", "genotyping", "profiling", "markers", "marker", "ultrasound", "mri", "ct", "pet", "spect", "pet ct", "x ray", "radiotherapy", "radiation", "chemotherapy", "immunotherapy", "cell therapy", "gene therapy", "hyperthermia", "ablation", "brachytherapy", "proton therapy", "organoids", "proteomics", "radiomics", "biobanking", "cytology", "fish", "flow cytometry", "acupuncture", "yoga", "massage", "music therapy", "mindfulness", "hypnosis", "reflexology", "aromatherapy", "homeopathy", "melatonin", "curcumin", "ginger", "honey", "probiotics", "glutamine", "vitamin c", "fish oil", "green tea"]);
+const GENERIC_TECH_KEYS = new Set(["software", "model", "models", "test", "tests", "testing", "screening", "therapy", "therapies", "imaging", "surgery", "exercise", "diet", "nutrition", "care", "platform", "platforms", "system", "systems", "device", "devices", "assay", "assays", "kit", "kits", "vaccine", "vaccines", "treatment", "treatments", "monitoring", "support", "education", "counselling", "counseling", "training", "programme", "program", "intervention", "standard", "usual care", "best supportive care", "observation", "surveillance", "biomarkers", "biomarker", "classifier", "sequencing", "genotyping", "profiling", "markers", "marker", "ultrasound", "mri", "ct", "pet", "spect", "pet ct", "x ray", "radiotherapy", "radiation", "chemotherapy", "immunotherapy", "cell therapy", "gene therapy", "hyperthermia", "ablation", "brachytherapy", "proton therapy", "organoids", "proteomics", "radiomics", "biobanking", "cytology", "fish", "flow cytometry", "acupuncture", "yoga", "massage", "music therapy", "mindfulness", "hypnosis", "reflexology", "aromatherapy", "homeopathy", "melatonin", "curcumin", "ginger", "honey", "probiotics", "glutamine", "vitamin c", "fish oil", "green tea", "ex vivo", "in vivo", "in vitro", "catalyst", "stride", "calcitonin", "thyroglobulin", "carcinoembryonic antigen", "cea monitoring", "cea follow up"]);
+/** Technology records whose names or aliases name something else in registry text; held with the reason rather than searched. */
+const ENTITY_HOLD: Record<string, string> = {
+  "cea-surveillance-colorectal": "its alias is the antigen itself, so registry hits are CEA-directed vaccines and antibodies, not surveillance",
+  "thyroid-cancer-markers": "its aliases are the hormone names (calcitonin, thyroglobulin), which registry text uses for the drugs, not the follow-up test",
+  "functional-precision-medicine-haematology": "the record is the blood-cancer programme (EXALT) and \"functional precision medicine\" in a registry title names the field, not it",
+  "stride-dna-break-detection": "STRIDE is also the registry name of the tremelimumab plus durvalumab regimen in liver cancer",
+};
 /** Registry condition phrases for cancers whose record carries no alias for them (the parent head and neck record has none). */
 const EXTRA_CANCER_PHRASES: Record<string, string[]> = { "head-and-neck": ["head and neck cancer", "head and neck carcinoma", "head and neck squamous cell carcinoma", "squamous cell carcinoma of the head and neck", "head and neck neoplasms", "hnscc", "scchn"] };
 /** Single words that are a cancer alias fragment but name no disease on their own. */
@@ -159,6 +167,7 @@ function drugEntity(d: Drug): Entity | { skip: string } {
   return { id: d.id, name: shortName(d.name), kind: "drug", record: d, queryKeys, matchKeys: [...own] };
 }
 function techEntity(t: Technology): Entity | { skip: string } {
+  if (ENTITY_HOLD[t.id]) return { skip: ENTITY_HOLD[t.id] };
   const skipTag = t.tags.find((x) => TECH_SKIP_TAGS[x]);
   if (skipTag) return { skip: TECH_SKIP_TAGS[skipTag] };
   const raw = [...nameParts(t.name), ...t.aka.flatMap(nameParts)].map((s) => s.replace(/^(the|a|an)\s+/i, "").trim());
@@ -181,7 +190,7 @@ for (const e of source) {
 }
 entities.sort((a, b) => a.id.localeCompare(b.id));
 entities = entities.slice(0, MAX);
-console.log(`${source.length} ${KIND}s without a trial; ${entities.length} to look up${Object.keys(ENTITY_TRIAL_SKIP).length ? `, ${held.alreadySkipped ?? 0} in ENTITY_TRIAL_SKIP from an earlier run` : ""}`);
+console.log(`${source.length} ${PLURAL} without a trial; ${entities.length} to look up${Object.keys(ENTITY_TRIAL_SKIP).length ? `, ${held.alreadySkipped ?? 0} in ENTITY_TRIAL_SKIP from an earlier run` : ""}`);
 for (const [why, n] of Object.entries(held)) if (why !== "alreadySkipped") console.log(`  held ${n}: ${why}`);
 
 // ---------------------------------------------------------------------------------------------------------------------
@@ -329,8 +338,8 @@ async function main(): Promise<void> {
   }
 
   for (const l of lines) console.log(l);
-  console.log(`\n${entities.length} ${KIND}s looked up, ${requestCount()} requests made (the rest from cache), ${tally.studiesSeen} studies checked.`);
-  console.log(`${KIND}s gaining a trial ${tally.linked} (${tally.trialsNew} registry records written, ${tally.trialsExisting} links to corpus trials${tally.fallback ? `, ${tally.fallback} through the phase 1 fallback` : ""}); ${tally.none} with no matching study; ${Object.keys(newSkips).length - tally.none} held before searching.`);
+  console.log(`\n${entities.length} ${PLURAL} looked up, ${requestCount()} requests made (the rest from cache), ${tally.studiesSeen} studies checked.`);
+  console.log(`${PLURAL} gaining a trial ${tally.linked} (${tally.trialsNew} registry records written, ${tally.trialsExisting} links to corpus trials${tally.fallback ? `, ${tally.fallback} through the phase 1 fallback` : ""}); ${tally.none} with no matching study; ${Object.keys(newSkips).length - tally.none} held before searching.`);
 
   if (!APPLY) { console.log(`\nDry run: pass --apply to write ${DATA_FILE}`); return; }
 

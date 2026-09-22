@@ -311,9 +311,20 @@ export const RoadmapStepSchema = z.object({
   status: z.enum(["historic", "current", "emerging", "speculative"]),
 });
 
+/** A dated thing to watch for on a roadmap: a readout, a decision, a completion date. `expected` is quoted from the source (a registry completion date, a meeting date), never inferred. */
+export const RoadmapWatchSchema = z.object({
+  item: z.string().min(1),
+  expected: z.string().optional(),
+  source: url.optional(),
+  refs: z.array(id).default([]),
+});
+export type RoadmapWatch = z.infer<typeof RoadmapWatchSchema>;
+
 export const RoadmapSchema = Base.extend({
   kind: z.literal("roadmap"),
   steps: z.array(RoadmapStepSchema).min(2),
+  /** What to watch next, with expected dates where a source states them. Rendered under the steps and read by scripts/ctdna-watch.ts. */
+  watch: z.array(RoadmapWatchSchema).default([]),
 });
 
 export const IdeaSchema = Base.extend({

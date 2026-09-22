@@ -45,6 +45,7 @@
     "audit": "tsx scripts/audit.ts",
     "provenance": "tsx scripts/provenance.ts",
     "factcheck": "tsx scripts/factcheck.ts",
+    "ctdna:watch": "tsx scripts/ctdna-watch.ts",
     "bench": "tsx scripts/benchmark-run.ts",
     "bench:score": "tsx scripts/benchmark-score.ts",
     "fetch:countries": "tsx scripts/fetch-countries.ts",

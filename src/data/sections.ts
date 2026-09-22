@@ -13,7 +13,7 @@ export const sections: SectionInput[] = [
     id: "diagnostics", links: [{ label: "NCI: Biomarker testing for cancer treatment", url: "https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment" }], kind: "section", name: "Diagnostics & Biomarkers", order: 2, asOf, icon: "dna",
     tldr: "Tests on tissue and blood that say what kind of cancer it is, what is driving it, and which drugs might work.",
     summary: "Pathology and immunohistochemistry remain the foundation. Layered on top: comprehensive genomic profiling (DNA and RNA), liquid biopsy for circulating tumour DNA, minimal residual disease monitoring, multi-cancer early detection, spatial and single-cell profiling, and AI read-outs of slides and scans.",
-    tags: ["genomics", "liquid-biopsy", "pathology"], journals: ["cancer-biomarkers", "international-journal-of-biological-markers"],
+    tags: ["genomics", "liquid-biopsy", "pathology"], related: ["ctdna-tests"], journals: ["cancer-biomarkers", "international-journal-of-biological-markers"],
   },
   {
     id: "early-detection", links: [{ label: "NCI: Cancer screening", url: "https://www.cancer.gov/about-cancer/screening" }], kind: "section", name: "Early Detection & Screening", order: 3, asOf, icon: "radar",

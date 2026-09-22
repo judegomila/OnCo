@@ -229,7 +229,7 @@ export const technologies: TechnologyInput[] = [
     limitations: ["Cost, throughput, analysis burden", "Not yet clinically actionable"], companies: ["valius", "elucidate-bio", "immunai", "mission-bio", "nucleai", "origin-bio"], related: ["idea-immune-exclusion-drivers"], links: [{ label: "Wikipedia", url: W("Spatial_transcriptomics") }],
   },
   {
-    id: "liquid-biopsy", trials: ["nct07510828"], related: ["cellsearch-ctc-count", "parsortix-ctc-harvest", "serum-tumour-markers", "cea-surveillance-colorectal", "multitarget-stool-rna-test"], dependsOn: ["cgp", "ngs-bioinformatics-software", "preanalytics-sample-stabilisation"], kind: "technology", name: "Liquid biopsy (ctDNA)", sections: ["diagnostics"], status: "standard-of-care", asOf, wikipedia: W("Liquid_biopsy"),
+    id: "liquid-biopsy", trials: ["nct07510828"], related: ["ctdna-tests", "cellsearch-ctc-count", "parsortix-ctc-harvest", "serum-tumour-markers", "cea-surveillance-colorectal", "multitarget-stool-rna-test"], dependsOn: ["cgp", "ngs-bioinformatics-software", "preanalytics-sample-stabilisation"], kind: "technology", name: "Liquid biopsy (ctDNA)", sections: ["diagnostics"], status: "standard-of-care", asOf, wikipedia: W("Liquid_biopsy"),
     tldr: "A blood test that reads fragments of DNA shed by the tumour, so you can genotype or monitor cancer without a needle in the tumour.",
     summary: "Circulating tumour DNA assays (Guardant360 CDx, FoundationOne Liquid CDx) are approved companion diagnostics for EGFR, PIK3CA, ESR1, and others. Used when tissue is insufficient, to track resistance mutations (EGFR T790M, ESR1), and to follow clonal dynamics. Fragmentomics and methylation extend it to tumour-agnostic detection.",
     principle: "Cell-free DNA extracted from plasma; deep NGS with error suppression detects variants at <0.1% allele fraction.",
@@ -249,10 +249,10 @@ export const technologies: TechnologyInput[] = [
     terms: ["mrd", "ctdna"],
     companies: ["natera", "exact-sciences", "guardant-health", "adela", "billiontoone", "c2i-genomics", "haystack-oncology", "inivata", "isabl", "mission-bio", "naveris"],
     trials: ["imvigor011", "dynamic"],
-    cancers: ["colorectal", "urothelial", "tnbc", "nsclc", "multiple-myeloma"], related: ["idea-dtc-colonisation-determinants", "idea-dormancy-maintenance-therapy"], links: [{ label: "Wikipedia", url: W("Minimal_residual_disease") }],
+    cancers: ["colorectal", "urothelial", "tnbc", "nsclc", "multiple-myeloma"], related: ["ctdna-tests", "idea-dtc-colonisation-determinants", "idea-dormancy-maintenance-therapy"], links: [{ label: "Wikipedia", url: W("Minimal_residual_disease") }],
   },
   {
-    id: "mced", dependsOn: ["liquid-biopsy"], kind: "technology", name: "Multi-cancer early detection (MCED)", sections: ["early-detection", "diagnostics"], status: "phase-3", asOf,
+    id: "mced", related: ["ctdna-tests"], dependsOn: ["liquid-biopsy"], kind: "technology", name: "Multi-cancer early detection (MCED)", sections: ["early-detection", "diagnostics"], status: "phase-3", asOf,
     tldr: "A single blood test intended to screen for dozens of cancers at once, including ones with no screening today.",
     summary: "Galleri (GRAIL) detects methylation patterns and predicts tissue of origin; PMA submitted to FDA in January 2026 with an advisory committee scheduled for 23 September 2026, based on PATHFINDER 2 and the 140,000-person NHS-Galleri trial. Exact Sciences' Cancerguard launched as an LDT; Guardant Shield adds multi-cancer results. Key open question: does earlier detection reduce mortality, and at what false-positive cost?",
     principle: "Machine learning classifies cfDNA methylation, fragmentation, and protein biomarkers.",

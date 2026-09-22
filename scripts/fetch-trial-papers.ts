@@ -104,7 +104,7 @@ const registryKind = (id: string) => (id.match(/^[A-Za-z]+/)?.[0] ?? "EU").toUpp
 const PRECLINICAL_ABSTRACT =/\b(mice|murine|xenografts?|in vitro|in vivo|cell lines?|preclinical|tumou?r-bearing|organoids?)\b/i;
 /** Remove markup only: a real tag starts with a letter or slash and holds no other angle bracket, so "p<0.05" survives. */
 const TAG_RE = /<\/?[a-zA-Z][^<>]*>/g;
-const clean = (s: string) => decodeEntities(s.replace(TAG_RE, " ")).replace(/\s+/g, " ").trim();
+const clean = (s: string) => decodeEntities(s).replace(TAG_RE, " ").replace(/\s+/g, " ").trim().replace(/\s+([,.;:)])/g, "$1"); // entities first: Europe PMC encodes <i> and <sup> as &lt;i&gt;
 /** House style forbids em and en dashes in rendered text: a dash between numbers reads "to", elsewhere a comma. */
 const houseDashes = (s: string) => s.replace(/(\d)\s*[–—]\s*(\d)/g, "$1 to $2").replace(/\s*[–—]\s*/g, ", ").replace(/\bas of\b/gi, "at");
 /** Structured abstracts arrive as <h4>Heading</h4>text; keep the headings as labels and the sections as paragraphs. */
@@ -123,10 +123,11 @@ const normDoi = (d?: string) => d?.trim().replace(/^https?:\/\/(dx\.)?doi\.org\/
 const acronymRe = (a: string) => new RegExp(`(^|[^A-Za-z0-9])${a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/[-\s]+/g, "[-\\s]?")}(?![A-Za-z0-9])`, "i");
 
 const NON_PRIMARY_TYPES = ["Clinical Trial Protocol", "methods-article", "protocol", "Letter", "Comment", "Editorial", "Published Erratum", "Review", "Systematic Review", "Meta-Analysis", "Case Reports", "case-report", "review-article", "Patient Education Handout", "Retracted Publication", "Retraction of Publication", "Expression of Concern", "News", "Historical Article", "Practice Guideline", "Guideline", "Consensus Development Conference"];
-const NON_PRIMARY_TITLE = /\b(protocol|study design|trial design|rationale and design|design and rationale|trial in progress|erratum|correction|corrigendum|plain language summary|summary of research|commentary|reply|response to|letter|editorial|case report|cost[- ]effectiveness|economic evaluation|budget impact|pharmacokinetic|exposure[- ]response|quality of life|patient[- ]reported|health[- ]related quality|systematic review|meta-analysis|pooled analysis|network meta|statistical analysis plan|accrual|recruitment|barriers to|feasibility of|healthcare systems data|efficiency of clinical trials|data linkage|routinely collected|trial conduct|site selection|consent|questionnaire|survey of|methodolog\w*|statistical (methods|considerations)|lessons (learned|learnt)|biomarker analys\w*|exploratory analys\w*|post[- ]hoc|subgroup analys\w*|secondary analys\w*|translational analys\w*|correlative|preclinical|in vitro|in vivo|mouse|murine|xenograft|cell lines?|structure[- ]based|discovery of|characteri[sz]ation of|mechanisms? of (acquired )?resistance|real[- ]world|pooled|safety analys\w*|expanded access|retrospective|case series|single[- ]cent(er|re) experience|dose selection|population pharmacokinetic\w*|health economic|budget|cost)\b/i;
+const NON_PRIMARY_TITLE = /\b(protocol|study design|trial design|rationale and design|design and rationale|trial in progress|erratum|correction|corrigendum|plain language summary|summary of research|commentary|reply|response to|letter|editorial|case report|cost[- ]effectiveness|economic evaluation|budget impact|pharmacokinetic|exposure[- ]response|quality of life|patient[- ]reported|health[- ]related quality|systematic review|meta-analysis|pooled analysis|network meta|statistical analysis plan|accrual|recruitment|barriers to|feasibility of|healthcare systems data|efficiency of clinical trials|data linkage|routinely collected|trial conduct|site selection|consent|questionnaire|survey of|methodolog\w*|statistical (methods|considerations)|lessons (learned|learnt)|biomarker analys\w*|exploratory analys\w*|post[- ]hoc|subgroup analys\w*|secondary analys\w*|translational analys\w*|correlative|preclinical|in vitro|in vivo|mouse|murine|xenograft|cell lines?|structure[- ]based|discovery of|characteri[sz]ation of|mechanisms? of (acquired )?resistance|real[- ]world|pooled|safety analys\w*|expanded access|retrospective|case series|single[- ]cent(er|re) experience|dose selection|population pharmacokinetic\w*|health economic|budget|cost|models? of|unveil\w*|landscape of|signatures?|transcriptom\w*|proteom\w*|genomic (profiling|landscape|analys\w*)|molecular (profiling|analys\w*|characteri\w*)|cardiac (outcomes|safety)|treatment discontinuation|by age|older patients|elderly|(japanese|chinese|asian|east asian|european|korean|north american|us|china|japan|korea|asia|taiwan) (subgroup|subpopulation|subset|cohort|extension)|subgroup|association of|genotype)\b/i;
 /** A design or protocol paper describes the study and has no results: it names the design and none of the result words. */
-const DESIGN_ABSTRACT = /\b(describes? the (design|rationale)|this (article|paper|report|manuscript) (describes|presents|outlines)|is (currently )?(ongoing|enrolling|recruiting)|enrol?lment (is|began|started|commenced)|will (be )?(randomi[sz]e|enrol|include|evaluate|assess|compare)|planned (sample|enrol)|primary (endpoint|end point|outcome) (is|will be))\b/i;
-const RESULTS_ABSTRACT = /\b(median|hazard ratio|HR\s*[=,:]|response rate|were (randomi[sz]ed|enrolled|assigned|treated)|was [0-9.]+ (months|weeks|years)|[0-9.]+%|[0-9.]+ percent|95% CI|p\s*[=<]\s*0?\.[0-9]+|confidence interval|results:)\b/i;
+const DESIGN_ABSTRACT = /\b(describes? the (design|rationale)|this (article|paper|report|manuscript) (describes|presents|outlines)|is (currently )?(ongoing|enrolling|recruiting)|enrol?lment (is ongoing|began|started|commenced)|planned (sample|enrol\w*|accrual)|estimated (enrol\w*|primary completion)|will (be )?(randomi[sz]ed?|randomly assigned|enrol\w*|recruit\w*|include|evaluate|assess|compare|receive|investigate|approximately)|primary (endpoint|end point|outcome) (is|will be)|(is|are) (designed|planned) to|trial in progress|aims? to (evaluate|assess|compare|determine|investigate|characteri[sz]e)|aiming to)/gi;
+/** Past-tense results: what a report of a finished analysis says and a protocol cannot. */
+const RESULTS_ABSTRACT = /\b(hazard ratio|HR\s*[=:,]?\s*[0-9]\.[0-9]|median [a-z ,()-]*?(was|were) [0-9]|(were|was) (randomi[sz]ed|randomly assigned|enrolled|treated|included|analy[sz]ed|assigned)|response rate (was|of) [0-9]|(occurred|reported|observed|seen) in [0-9]|95% CI|p\s*[=<]\s*0?\.[0-9]+|\bresults:|findings:|(months|weeks) \(95%|[0-9]+ of [0-9]+ patients)\b/i;
 const FOLLOW_UP_TITLE = /\b(long[- ]term|longer[- ]term|updated|update|final (overall survival|analysis|results|report)|extended follow[- ]up|follow[- ]up|(\d+|two|three|four|five|six|seven|eight|ten)[- ]year|overall survival|survival (results|analysis|outcomes|update)|mature)\b/i;
 const CLINICAL_TRIAL_TYPES = /^(Clinical Trial|Randomized Controlled Trial|Controlled Clinical Trial|Multicenter Study|Comparative Study|Pragmatic Clinical Trial|Equivalence Trial|Adaptive Clinical Trial|Observational Study|Validation Study|Evaluation Study)/;
 
@@ -143,8 +144,13 @@ function classify(r: EpmcResult, nct: string): Candidate | null {
   const trialTyped = pubTypes.some((t) => CLINICAL_TRIAL_TYPES.test(t));
   // A paper PubMed does not type as a trial report must at least read like one: patients enrolled or treated, not mice or cell lines.
   const notClinical = !trialTyped && (!CLINICAL_ABSTRACT.test(abstract) || (PRECLINICAL_ABSTRACT.test(abstract) && !/\b(patients|participants) (were|received)\b/i.test(abstract)));
-  const nonPrimary = pubTypes.some((t) => NON_PRIMARY_TYPES.includes(t)) || NON_PRIMARY_TITLE.test(title) || notClinical;
-  const design = DESIGN_ABSTRACT.test(abstract) && !RESULTS_ABSTRACT.test(abstract);
+  // "Final analysis results and patient-reported outcomes from X" is the trial's results paper; a bare quality-of-life paper is not.
+  const resultsTitle = /^(final|primary|updated) (analysis|results)|^(efficacy|results) (and|of|from)\b/i.test(title);
+  const nonPrimary = pubTypes.some((t) => NON_PRIMARY_TYPES.includes(t)) || (NON_PRIMARY_TITLE.test(title) && !resultsTitle) || notClinical;
+  // A protocol or design paper speaks in the future tense and reports nothing: two future markers (or one with no past results) and no past-tense result.
+  const futureMarkers = abstract.match(DESIGN_ABSTRACT)?.length ?? 0;
+  const design = futureMarkers > 0 && !RESULTS_ABSTRACT.test(abstract);
+  if (DEBUG && futureMarkers > 0) console.log(`  ${r.pmid}: ${futureMarkers} future markers; results marker: ${JSON.stringify(abstract.match(RESULTS_ABSTRACT)?.[0] ?? null)}`);
   const year = Number(r.pubYear ?? 0);
   return { r, title, ncts, cited: r.citedByCount ?? 0, year, pubTypes, trialTyped, nonPrimary, design, followUp: FOLLOW_UP_TITLE.test(title) };
 }
@@ -267,11 +273,17 @@ for (const t of trials) {
     continue;
   }
   eligible.sort((a, b) => b.cited - a.cited || a.year - b.year);
-  const primary = eligible[0];
-  // Ambiguity: the best candidate is not typed as a trial report, the trial has an acronym, and the paper never names it.
-  if (!primary.trialTyped && acrs.length && !acrs.some((a) => acronymRe(a).test(`${primary.title} ${clean(primary.r.abstractText ?? "")}`))) {
-    const reason = `best candidate ${primary.r.pmid} ("${primary.title.slice(0, 80)}") is not typed as a trial report and never names ${acrs.join(" or ")}`;
-    tally.skipped++; newSkips[t.id] = reason; outcomes.push({ trial: t.id, nct, status: t.status, skip: reason, note: "skipped" }); continue;
+  let primary = eligible[0];
+  const namesTrial = (c: Candidate) => acrs.some((a) => acronymRe(a).test(`${c.title} ${clean(c.r.abstractText ?? "")}`));
+  // The best candidate is not typed as a trial report, the trial has an acronym, and the paper never names it: fall back to
+  // the most cited paper PubMed types as a trial report that does name it; when there is none, the match is ambiguous.
+  if (!primary.trialTyped && acrs.length && !namesTrial(primary)) {
+    const typed = eligible.find((c) => c.trialTyped && namesTrial(c));
+    if (!typed) {
+      const reason = `best candidate ${primary.r.pmid} ("${primary.title.slice(0, 80)}") is not typed as a trial report and never names ${acrs.join(" or ")}`;
+      tally.skipped++; newSkips[t.id] = reason; outcomes.push({ trial: t.id, nct, status: t.status, skip: reason, note: "skipped" }); continue;
+    }
+    primary = typed;
   }
   // Ambiguity: two well-cited candidates from different years, neither clearly the trial's report.
   const runnerUp = eligible[1];

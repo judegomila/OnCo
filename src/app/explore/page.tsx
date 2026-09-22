@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { Suspense } from "react";
 import { graph } from "@/lib/graph";
@@ -18,7 +19,8 @@ export default function Explore() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="find" />} title="Explore"
-        lede="Choose a cancer type (or all), switch between products, technologies, targets, trials, pairings, ideas, companies, and institutions, then sort and filter. Every row links to its page. The rank is a disclosed documentation-and-evidence score, not a measure of clinical benefit." />
+        lede="Choose a cancer type (or all), switch between products, technologies, targets, trials, pairings, ideas, companies, and institutions, then sort and filter. Every row links to its page. The rank is a disclosed documentation-and-evidence score, not a measure of clinical benefit."
+        right={<Link href="/rankings/" className="chip border bg-card border-border hover:bg-foreground/5 text-sm" title="League tables computed from corpus counts alone, each stating its basis">Rankings →</Link>} />
       <Container className="pb-16">
         <Suspense><PowerView rows={first} cancers={cancers} counts={counts} /></Suspense>
       </Container>

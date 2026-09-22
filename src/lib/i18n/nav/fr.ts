@@ -20,6 +20,7 @@ export const navFr: NavDict = {
   "/tumor-board/": ["Réunion de concertation", "Cochez biomarqueurs et altérations, obtenez les options compatibles et les précautions."],
   "/compare/": ["Comparer", "Jusqu'à cinq produits, technologies, cibles, essais ou cancers côte à côte, différences surlignées."],
   "/pivot/": ["Grille du paysage", "Comptez produits, essais ou technologies par cancer, cible, type de traitement ou entreprise dans une grille."],
+  "/rankings/": ["Classements", "Classements calculés à partir du corpus : cancers par essais, cibles par produits, entreprises par approbations, essais par effectif, chacun avec sa base énoncée."],
   "/timeline/": ["Chronologie", "Parcourez les années : autorisations, essais et traitement de référence tel qu'il était."],
   "/query/": ["Requête", "Construisez une requête sur le graphe et obtenez un tableau."],
   "/graph/": ["Explorateur du graphe", "Naviguez visuellement dans le graphe de connaissances."],

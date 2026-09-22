@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
-- Papers for people and ideas, trials for ideas and drugs for companies from wave 6
+- Explained page pages its sections, four duplicate companies and one duplicate drug merged with redirects
 - Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working
 - A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
 - Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
@@ -19,6 +19,11 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
+- Page /explained/ sections at 10 rows: 1,135 KB to 561 KB of markup, budget lowered to 600 KB
+- LAUNCH: content waves through chain 100
+- Merge five duplicate records: Orca Biosystems into orca-bio, InxMed (Shanghai) into inxmed, Cellectis S.A. into cellectis, the second Valius Sciences into valius, and the gap-fill nogapendekin alfa inbakicept into nogapendekin-alfa; trials, cancers, drugs, investors, aliases, links and a logo move to the kept records, 30 references repointed, sponsor aliases updated, stale simple text and translations dropped, redirects and static stubs added; biocon/biocon-biologics, jw-pharmaceutical/jw-therapeutics, astrazeneca/fusion-pharma and gtx/oncternal-therapeutics reviewed and kept apart
+- Duplicate-record finder and merger for companies: scripts/dedupe-companies.ts flags pairs by normalised name (legal suffixes, descriptors and city words stripped), shared website domain, or shared Wikidata or Wikipedia identifier, prints hand-reviewed MERGE and SKIP verdicts, and with --apply moves the loser's fields onto the winner, removes the loser literal, rewrites every reference across src/data (dropping duplicates inside id arrays, renaming or dropping keyed simple, translation and wikidata entries), moves or deletes the logo and registers the redirect build-redirect-stubs.ts expects; institutions and drugs are report-only unless listed as obviously identical; the source-editing helpers in scripts/orphan-links.ts are exported for reuse
+- Papers for people and ideas, trials for ideas and drugs for companies from wave 6
 - Content roadmap: wave 6 progress row (people without a paper 318 to 300, ideas without a key paper 1,104 to 1,026, ideas without a trial 1,047 to 1,044, companies without a drug 720 to 718) with what was held back and why
 - Wave 6 company drugs: 2 companies gain a drug through the ClinicalTrials.gov lead-sponsor field (Impact Therapeutics IMP4927, R-Pharm RPH-051), each verified on the registry record; 75 other sponsors held back because their corpus trials name only comparators with a maker on record
 - Registry results for 144 trials, 24 more standard-of-care trials with outcomes, papers and standard-of-care rows linked

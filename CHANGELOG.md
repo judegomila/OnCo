@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
-- Paper pages for 736 cited DOIs, 1,381 bare references now link to them
+- Kind browser pages ship 60 rows and load the rest on demand, 402 registry trials for drugs and technologies, glossary terms without a Wikipedia article say so
 - Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working
 - A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
 - Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
@@ -19,6 +19,16 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
+- Kind browsers page their rows: first 60 in the HTML, the rest from /api/v1/tables/kind-<route>.json
+- Content roadmap: wave 5 trial run recorded, headline numbers refreshed from content:gaps
+- Wave 5 technologies: 32 technologies without a trial gain 65 registry trials and 7 corpus links from ClinicalTrials.gov
+- fetch-entity-trials: hold technologies whose aliases name something else, stop words for ex vivo, Catalyst, STRIDE and hormone names
+- Wave 5 drugs: 142 drugs without a trial gain 337 registry trials and 19 corpus links from ClinicalTrials.gov
+- 75 glossary terms marked wikipediaChecked 2026-09-22; NO_ARTICLE comment lists retired
+- fetch-entity-trials: ClinicalTrials.gov trials for drugs and technologies without one (wave 5, second half)
+- Terms record a checked-and-absent Wikipedia state: wikipediaChecked field, gauge counts it as explained, page says so
+- fetch-term-wikipedia: Wikipedia links for glossary terms, exact title or redirect match with a sense check
+- Paper pages for 736 cited DOIs, 1,381 bare references now link to them
 - Wave 7 batch 4: the last 155 paper pages for cited DOIs, 736 in all, 1,161 citing records linked; Progress row
 - fetch-cited-papers: a preprint is "posted on bioRxiv", not "published in bioRxiv (preprint)"
 - Trial statuses follow the registry with dated notes, iobenguane records merged

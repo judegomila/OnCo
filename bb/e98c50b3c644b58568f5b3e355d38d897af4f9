@@ -1,0 +1,41 @@
+package.json
+  s_0beac9cb5d78fd::t_f3dc278e54ad4d 48
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_d1cf64f1aceed0 624-641
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_d1cf64f1aceed0 314-322,326-327
+src/data/ctdna-roadmap.ts
+  s_0beac9cb5d78fd::t_1cca1e2d3738a7 1-206
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_f3dc278e54ad4d 30
+src/data/sections.ts
+  s_0beac9cb5d78fd::t_d1cf64f1aceed0 16
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_09719b874a0c88 11874-11881
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_d1cf64f1aceed0 37,39
+src/data/index.ts
+  s_0beac9cb5d78fd::t_d1cf64f1aceed0 50,178
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_d1cf64f1aceed0 232,255
+  s_0beac9cb5d78fd::t_39a89389f58aed 252
+scripts/ctdna-watch.ts
+  s_0beac9cb5d78fd::t_a019571ec5ed95 1-62,64-145
+  s_0beac9cb5d78fd::t_f1e6fae9fb6d1f 63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "bbe98c50b3c644b58568f5b3e355d38d897af4f9",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

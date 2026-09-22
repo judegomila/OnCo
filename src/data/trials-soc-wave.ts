@@ -806,6 +806,14 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Gastrointestinal perforation", unit: "%", arms: [{ name: "Bevacizumab + single-agent chemotherapy", value: 2.2 }], source: doi("10.1200/JCO.2013.51.4489") },
     ],
     drugs: ["bevacizumab", "paclitaxel", "pegylated-liposomal-doxorubicin", "topotecan"], cancers: ["platinum-resistant-ovarian-cancer", "ovarian"], companies: ["roche-genentech"], keyPapers: ["paper-aurelia-bevacizumab-platinum-resistant-ovarian-pujade-lauraine-jco-2014"], links: [ct("NCT00976911")] }),
+
+  // ---------------------------------------------------------------- Endometrial
+  t({ id: "rainbo", name: "RAINBO", aka: ["RAINBO programme", "POLEmut-BLUE", "p53abn-RED", "MMRd-GREEN", "NSMP-ORANGE"], nct: "NCT05255653", phase: "2/3", status: "recruiting", sponsor: "Leiden University Medical Center (RAINBO Research Consortium)", enrolled: 1615,
+    technologies: ["imrt-igrt"],
+    setting: "Endometrial cancer stratified by molecular class after surgery: four linked trials that test olaparib with chemoradiotherapy for p53-abnormal tumours (p53abn-RED), durvalumab with radiotherapy for mismatch-repair-deficient tumours (MMRd-GREEN), progestin with radiotherapy for tumours with no specific molecular profile (NSMP-ORANGE), and de-escalation to radiotherapy alone or observation for POLE-ultramutated tumours (POLEmut-BLUE)",
+    tldr: "RAINBO is a programme of four trials that tailors treatment after surgery for womb cancer to the tumour's molecular type; in its POLEmut-BLUE arm, women whose tumours carry a POLE mutation and almost never relapse have chemotherapy withheld and receive radiotherapy alone or no further treatment, and the results are awaited.",
+    summary: "RAINBO (Refining Adjuvant treatment IN endometrial cancer Based On molecular features) is an international programme registered by Leiden University Medical Center with ENGOT, the Canadian Cancer Trials Group and University College London as trial sponsors, planned for 1,615 patients. It assigns endometrial cancer after surgery to one of four trials by molecular class: p53abn-RED randomises chemoradiotherapy with or without olaparib; MMRd-GREEN randomises pelvic radiotherapy with or without durvalumab against chemoradiotherapy; NSMP-ORANGE tests progestin with radiotherapy against chemoradiotherapy; and POLEmut-BLUE, a single-arm de-escalation study, gives radiotherapy alone or observation to stage I to II and selected stage III POLE-mutated tumours. Each trial's primary endpoint is measured at three years.\n\nThe registry lists the programme as recruiting with completion in 2031 and no results. The corpus's POLE-ultramutated endometrial cancer page cites RAINBO POLEmut-BLUE for pelvic radiotherapy without chemotherapy.",
+    drugs: ["olaparib", "durvalumab", "megestrol"], cancers: ["endometrial-pole-ultramutated", "endometrial-mmr-deficient"], institutions: ["lumc-leiden"], links: [ct("NCT05255653")] }),
 ];
 
 /** Chinese TL;DRs, folded into src/data/i18n/zh.ts by scripts/fold-zh.ts. */
@@ -870,4 +878,5 @@ export const tldrZh: Record<string, string> = {
   capp2: "CAPP2 对林奇综合征（一种肠癌风险极高的遗传病）患者在服用两到四年阿司匹林或安慰剂后随访十年：服阿司匹林者肠癌减少约三分之一，因此如今向该综合征患者提供每日阿司匹林。",
   continuum: "CONTINUUM 首次显示，在晚期但尚未转移的鼻咽癌放化疗中加入 PD-1 免疫治疗药信迪利单抗 (sintilimab)，三年后更多患者无复发，86% 对 76%，但副作用更多。",
   aurelia: "AURELIA 显示，对铂类耐药的卵巢癌在单药化疗基础上加贝伐珠单抗 (bevacizumab)，肿瘤再次生长前的时间从 3.4 个月翻倍到 6.7 个月，缓解率也翻倍以上，但未明确延长生命。",
+  rainbo: "RAINBO 是四项试验组成的项目，按肿瘤分子类型定制子宫内膜癌术后治疗；其 POLEmut-BLUE 分支对几乎不复发的 POLE 突变肿瘤患者省去化疗，只做放疗或不再治疗，结果待公布。",
 };

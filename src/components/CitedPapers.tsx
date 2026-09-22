@@ -2,13 +2,15 @@ import Link from "next/link";
 import { readPublicJson } from "@/lib/feed-meta";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/kinds";
-import { Sparkline } from "@/components/PapersPulse";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 /** Shape written by scripts/fetch-openalex-papers.ts (public/openalex/papers.json). */
 export type PaperCitations = { doi: string; openalexId: string; cited: number; byYear: Record<string, number>; year?: number; title?: string };
 export type CitationsSnapshot = { fetched: string; source: string; license: string; papers: Record<string, PaperCitations>; missing: string[] };
 
 export const readCitations = () => readPublicJson<CitationsSnapshot>("openalex/papers.json");
+
+const YEARS = ["2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"];
 
 /** Most cited key papers, with total and recent-year citations from OpenAlex. */
 export function CitedPapers({ limit = 25 }: { limit?: number }) {
@@ -23,30 +25,35 @@ export function CitedPapers({ limit = 25 }: { limit?: number }) {
   const thisYear = String(new Date().getFullYear());
   const lastYear = String(new Date().getFullYear() - 1);
   const total = Object.keys(snap.papers).length;
+  const columns: StaticColumn[] = [
+    { key: "rank", label: "#", sortable: true, numeric: true, className: "text-muted" },
+    { key: "paper", label: "Paper" },
+    { key: "journal", label: "Journal", filterable: true, hide: "hidden sm:table-cell", className: "text-muted" },
+    { key: "year", label: "Year", filterable: true, sortable: true, numeric: true, hide: "hidden lg:table-cell", className: "text-muted" },
+    { key: "cited", label: "Citations", sortable: true, numeric: true, className: "text-right font-medium" },
+    { key: "last", label: lastYear, sortable: true, numeric: true, hide: "hidden md:table-cell", className: "text-right text-muted" },
+    { key: "this", label: thisYear, sortable: true, numeric: true, hide: "hidden md:table-cell", className: "text-right text-muted" },
+    { key: "byYear", label: "By year", hide: "hidden lg:table-cell" },
+  ];
+  const table: StaticRow[] = rows.map((r, i) => {
+    const e = r.e!;
+    const paper = e.kind === "paper" ? e : undefined;
+    return {
+      id: r.id,
+      rank: i + 1,
+      paper: { text: e.name, href: routeFor(e), strong: true, sub: paper ? `${paper.authors} · ${paper.year}` : undefined },
+      journal: paper?.journal,
+      year: paper ? String(paper.year) : undefined,
+      cited: r.c.cited,
+      last: r.c.byYear[lastYear] ?? 0,
+      this: r.c.byYear[thisYear] ?? 0,
+      byYear: { text: "", bars: YEARS.map((y) => r.c.byYear[y] ?? 0), title: YEARS.map((y) => `${y}: ${r.c.byYear[y] ?? 0}`).join(", ") },
+    };
+  });
   return (
     <div className="space-y-3">
       <p className="text-sm text-muted">Citations for {total} of {g.kind("paper").length} key papers, from <a className="underline" href="https://openalex.org/" rel="noopener">OpenAlex</a> (CC0) on {snap.fetched}. Total citations reward age; the last two years show whether a paper is still being built on.</p>
-      <div className="card overflow-x-auto">
-        <table className="onco">
-          <thead><tr><th>#</th><th>Paper</th><th className="hidden sm:table-cell">Journal</th><th className="text-right">Citations</th><th className="text-right hidden md:table-cell">{lastYear}</th><th className="text-right hidden md:table-cell">{thisYear}</th><th className="hidden lg:table-cell">By year</th></tr></thead>
-          <tbody>
-            {rows.map((r, i) => {
-              const e = r.e!;
-              return (
-                <tr key={r.id}>
-                  <td className="tabular-nums text-muted">{i + 1}</td>
-                  <td><Link href={routeFor(e)} className="font-medium hover:underline">{e.name}</Link>{e.kind === "paper" && <div className="text-xs text-muted">{e.authors} · {e.year}</div>}</td>
-                  <td className="hidden sm:table-cell text-muted">{e.kind === "paper" ? e.journal : ""}</td>
-                  <td className="text-right tabular-nums font-medium">{r.c.cited.toLocaleString()}</td>
-                  <td className="text-right tabular-nums text-muted hidden md:table-cell">{(r.c.byYear[lastYear] ?? 0).toLocaleString()}</td>
-                  <td className="text-right tabular-nums text-muted hidden md:table-cell">{(r.c.byYear[thisYear] ?? 0).toLocaleString()}</td>
-                  <td className="hidden lg:table-cell"><Sparkline counts={r.c.byYear} /></td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
+      <StaticTable rows={table} columns={columns} noun="papers" defaultSort={{ key: "rank", dir: 1 }} />
       {snap.missing.length > 0 && <p className="text-xs text-muted">Not found in OpenAlex by DOI: {snap.missing.map((id, i) => { const e = g.get(id); return <span key={id}>{i > 0 && ", "}{e ? <Link href={routeFor(e)} className="underline">{e.name}</Link> : id}</span>; })}.</p>}
     </div>
   );

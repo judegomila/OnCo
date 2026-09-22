@@ -2,6 +2,7 @@ import Link from "next/link";
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { KIND_META, type Kind } from "@/lib/kinds";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export type PulseEntry = { kind: string; name: string; counts: Record<string, number>; last12: number; prior12: number; growth: number | null; total: number };
 export type PulseIndex = { fetched: string; source: string; entities: Record<string, PulseEntry> };
@@ -50,28 +51,28 @@ export function PulseTable({ index, kind, limit = 25, minPrior = 20, sort = "gro
     .sort(([, a], [, b]) => sort === "growth" ? (b.growth ?? 0) - (a.growth ?? 0) : sort === "last12" ? b.last12 - a.last12 : b.total - a.total)
     .slice(0, limit);
   if (!rows.length) return <p className="text-muted text-sm">No topics meet the minimum volume yet.</p>;
-  return (
-    <div className="card overflow-x-auto">
-      <table className="w-full text-sm">
-        <thead className="text-left text-xs text-muted">
-          <tr><th className="py-1 pr-3 font-medium">#</th><th className="py-1 pr-3 font-medium">Topic</th><th className="py-1 pr-3 font-medium">Kind</th><th className="py-1 pr-3 font-medium text-right">Last 12 mo</th><th className="py-1 pr-3 font-medium text-right">Prior 12 mo</th><th className="py-1 pr-3 font-medium text-right">Change</th><th className="py-1 pr-3 font-medium">{YEARS[0]} → {YEARS[YEARS.length - 1]}</th></tr>
-        </thead>
-        <tbody className="divide-y divide-border">
-          {rows.map(([id, e], i) => (
-            <tr key={id}>
-              <td className="py-1.5 pr-3 text-muted tabular-nums">{i + 1}</td>
-              <td className="py-1.5 pr-3"><Link className="font-medium hover:underline" href={route(e.kind, id)}>{e.name}</Link></td>
-              <td className="py-1.5 pr-3 text-muted capitalize">{e.kind}</td>
-              <td className="py-1.5 pr-3 text-right tabular-nums">{e.last12.toLocaleString()}</td>
-              <td className="py-1.5 pr-3 text-right tabular-nums text-muted">{e.prior12.toLocaleString()}</td>
-              <td className={`py-1.5 pr-3 text-right tabular-nums font-medium ${(e.growth ?? 0) > 0 ? "text-emerald-700 dark:text-emerald-300" : (e.growth ?? 0) < 0 ? "text-rose-700 dark:text-rose-300" : ""}`}>{pct(e.growth)}</td>
-              <td className="py-1.5 pr-3"><Sparkline counts={e.counts} /></td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
+  const columns: StaticColumn[] = [
+    { key: "rank", label: "#", sortable: true, numeric: true, className: "text-muted" },
+    { key: "topic", label: "Topic" },
+    { key: "kind", label: "Kind", filterable: !kind, className: "text-muted capitalize" },
+    { key: "last12", label: "Last 12 mo", sortable: true, numeric: true, className: "text-right" },
+    { key: "prior12", label: "Prior 12 mo", sortable: true, numeric: true, className: "text-right text-muted" },
+    { key: "growth", label: "Change", sortable: true, numeric: true, className: "text-right font-medium" },
+    { key: "trend", label: "Trend", filterable: true, order: ["Growing", "Flat", "Shrinking"], hide: "hidden xl:table-cell", className: "text-xs text-muted" },
+    { key: "bars", label: `${YEARS[0]} to ${YEARS[YEARS.length - 1]}` },
+  ];
+  const table: StaticRow[] = rows.map(([id, e], i) => ({
+    id,
+    rank: i + 1,
+    topic: { text: e.name, href: route(e.kind, id), strong: true },
+    kind: e.kind,
+    last12: e.last12,
+    prior12: e.prior12,
+    growth: e.growth === null ? { text: "-", v: -999, muted: true } : { text: pct(e.growth), v: Math.round(e.growth * 100), className: e.growth > 0 ? "text-emerald-700 dark:text-emerald-300" : e.growth < 0 ? "text-rose-700 dark:text-rose-300" : undefined },
+    trend: e.growth === null ? undefined : e.growth > 0.05 ? "Growing" : e.growth < -0.05 ? "Shrinking" : "Flat",
+    bars: { text: "", bars: YEARS.map((y) => e.counts[y] ?? 0), title: YEARS.map((y) => `${y}: ${e.counts[y] ?? 0}`).join(", ") },
+  }));
+  return <StaticTable rows={table} columns={columns} noun="topics" defaultSort={{ key: "rank", dir: 1 }} />;
 }
 
 /** Compact strip for an entity page: yearly bars + 12-month change, from the weekly snapshot. Server component. */

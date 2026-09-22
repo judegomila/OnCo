@@ -5,14 +5,38 @@ import { graph } from "@/lib/graph";
 import { phaseLabel, routeFor } from "@/lib/schema";
 import { trialEvidence, evidenceLabel } from "@/lib/evidence";
 import { Pictogram, primaryOutcomeSummary } from "@/components/Pictogram";
-import { Container, GroupKicker, PageHeader, StatusChip } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
+import { STATUS_LABEL, statusClass } from "@/lib/text";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({ title: "Evidence", description: "Every trial ranked by evidence strength, with its primary endpoint drawn as people out of 100, and the scoring formula disclosed.", path: "/evidence/" });
+
+const COLUMNS: StaticColumn[] = [
+  { key: "rank", label: "#", sortable: true, numeric: true, className: "text-muted" },
+  { key: "trial", label: "Trial", className: "min-w-[220px]" },
+  { key: "phase", label: "Phase", filterable: true, sortable: true, numeric: false, className: "text-muted" },
+  { key: "result", label: "Result", filterable: true, order: ["positive", "negative", "mixed", "ongoing", "withdrawn"].map((s) => STATUS_LABEL[s] ?? s) },
+  { key: "endpoint", label: "Primary endpoint", hide: "hidden md:table-cell", className: "text-xs text-muted max-w-md" },
+  { key: "enrolled", label: "Enrolled", sortable: true, numeric: true, hide: "hidden sm:table-cell", className: "text-muted" },
+  { key: "score", label: "Score", sortable: true, numeric: true },
+  { key: "strength", label: "Strength", filterable: true, order: ["Strong", "Solid", "Emerging", "Preliminary"], className: "text-xs text-muted" },
+];
 
 export default function EvidencePage() {
   const g = graph();
   const rows = g.kind("trial").map((t) => ({ t, ev: trialEvidence(t) })).sort((a, b) => b.ev.score - a.ev.score || a.t.name.localeCompare(b.t.name));
   const withOutcomes = rows.filter((r) => r.t.outcomes.some((o) => o.arms.some((a) => a.value !== undefined)));
+  const table: StaticRow[] = rows.map(({ t, ev }, i) => ({
+    id: t.id,
+    rank: i + 1,
+    trial: { text: t.name, href: routeFor(t), strong: true, sub: t.setting },
+    phase: phaseLabel(t.phase),
+    result: t.status ? { text: STATUS_LABEL[t.status] ?? t.status, chip: statusClass(t.status) } : undefined,
+    endpoint: primaryOutcomeSummary(t),
+    enrolled: t.enrolled,
+    score: { text: String(ev.score), v: ev.score, strong: true },
+    strength: evidenceLabel(ev.score),
+  }));
   return (
     <>
       <PageHeader kicker={<GroupKicker id="intel" />} title="Evidence"
@@ -40,24 +64,7 @@ export default function EvidencePage() {
         </div>
 
         <h2 className="text-lg font-semibold mb-3">All trials by evidence strength</h2>
-        <div className="card overflow-x-auto">
-          <table className="onco">
-            <thead><tr><th>#</th><th>Trial</th><th>Phase</th><th>Result</th><th className="hidden md:table-cell">Primary endpoint</th><th className="hidden sm:table-cell">Enrolled</th><th>Score</th></tr></thead>
-            <tbody>
-              {rows.map(({ t, ev }, i) => (
-                <tr key={t.id}>
-                  <td className="tabular-nums text-muted">{i + 1}</td>
-                  <td className="min-w-[220px]"><Link href={routeFor(t)} className="font-medium hover:underline">{t.name}</Link><div className="text-xs text-muted line-clamp-1">{t.setting}</div></td>
-                  <td className="text-muted">{phaseLabel(t.phase)}</td>
-                  <td><StatusChip status={t.status} /></td>
-                  <td className="hidden md:table-cell text-xs text-muted max-w-md">{primaryOutcomeSummary(t) ?? "-"}</td>
-                  <td className="hidden sm:table-cell tabular-nums text-muted">{t.enrolled?.toLocaleString() ?? "-"}</td>
-                  <td className="tabular-nums"><span className="font-semibold">{ev.score}</span><span className="text-muted text-xs"> {evidenceLabel(ev.score)}</span></td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <StaticTable rows={table} columns={COLUMNS} noun="trials" url defaultSort={{ key: "rank", dir: 1 }} />
       </Container>
     </>
   );

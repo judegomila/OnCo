@@ -6,6 +6,7 @@ import { join } from "node:path";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { runAudit, type Audit } from "../../../scripts/audit";
 import { isBlocked, isGone, isUnreachable, type LinksReport } from "../../../scripts/check-links";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({ title: "Audit", description: "Automated staleness, contradiction, sourcing, hygiene, link and registry fact-check findings for the OnCo corpus.", path: "/audit/" });
 
@@ -32,6 +33,38 @@ const FAMILY: Record<string, "contradiction" | "sourcing" | "hygiene"> = {
 };
 const ROW_CAP = 150;
 
+const FINDING_COLUMNS: StaticColumn[] = [
+  { key: "entity", label: "Entity" },
+  { key: "kind", label: "Kind", filterable: true, className: "text-muted" },
+  { key: "detail", label: "Detail", className: "text-muted" },
+];
+const MISMATCH_COLUMNS: StaticColumn[] = [
+  { key: "severity", label: "Severity", filterable: true, order: ["high", "medium", "low"] },
+  { key: "check", label: "Check", filterable: true, className: "text-muted" },
+  { key: "entity", label: "Entity" },
+  { key: "recorded", label: "Recorded", className: "text-muted" },
+  { key: "registry", label: "Registry", className: "text-muted" },
+];
+const PATCH_COLUMNS: StaticColumn[] = [
+  { key: "entity", label: "Entity" },
+  { key: "field", label: "Field", filterable: true },
+  { key: "current", label: "Current", className: "text-muted" },
+  { key: "proposed", label: "Proposed" },
+  { key: "why", label: "Why", className: "text-muted" },
+];
+const BROKEN_COLUMNS: StaticColumn[] = [
+  { key: "status", label: "Status", filterable: true },
+  { key: "url", label: "URL", className: "text-muted break-all text-xs" },
+  { key: "cited", label: "Cited by" },
+  { key: "archive", label: "Archive", filterable: true, className: "text-xs" },
+];
+const STALE_COLUMNS: StaticColumn[] = [
+  { key: "entity", label: "Entity" },
+  { key: "kind", label: "Kind", filterable: true, className: "text-muted" },
+  { key: "asOf", label: "Last checked", sortable: true, numeric: false, className: "text-muted" },
+  { key: "days", label: "Days", sortable: true, numeric: true },
+];
+
 function readJson<T>(name: string): T | null {
   const p = join(process.cwd(), "public", name);
   return existsSync(p) ? (JSON.parse(readFileSync(p, "utf8")) as T) : null;
@@ -53,6 +86,31 @@ export default function AuditPage() {
   const blocked = links?.results.filter(isBlocked) ?? [];
   const broken = gone;
   const moved = links?.results.filter((r) => r.ok && r.domainMoved) ?? [];
+  const findingRows = (list: typeof audit.findings): StaticRow[] => list.slice(0, ROW_CAP).map((f, i) => ({ id: `${f.id}-${i}`, entity: { text: f.name, href: f.route, strong: true }, kind: f.kind, detail: f.detail }));
+  const mismatchRows: StaticRow[] = (fc?.mismatches ?? []).map((m, i) => ({
+    id: `${m.id}-${m.check}-${i}`,
+    severity: { text: m.severity, chip: SEV[m.severity] },
+    check: CHECK_LABEL[m.check] ?? m.check,
+    entity: { text: m.name, href: m.route, strong: true },
+    recorded: m.recorded,
+    registry: { text: m.registry, href: m.url, ext: true },
+  }));
+  const patchRows: StaticRow[] = (patches?.patches ?? []).map((p, i) => ({
+    id: `${p.id}-${p.field}-${i}`,
+    entity: { text: p.name, href: p.route, strong: true },
+    field: { text: p.field, mono: true },
+    current: p.current,
+    proposed: p.proposed,
+    why: { text: p.reason, href: p.source, ext: true },
+  }));
+  const brokenRows: StaticRow[] = broken.slice(0, ROW_CAP).map((r, i) => ({
+    id: `${r.url}-${i}`,
+    status: { text: r.status ? String(r.status) : "no response", chip: r.status === 0 || r.status === 404 || r.status === 410 ? SEV.high : SEV.medium },
+    url: { text: r.url, href: r.url, ext: true, sub: r.error },
+    cited: [...r.refs.slice(0, 3).map((x) => ({ text: x.name, href: x.route, title: x.field })), ...(r.refs.length > 3 ? [{ text: `and ${r.refs.length - 3} more`, muted: true }] : [])],
+    archive: r.archive ? { text: "Wayback copy", v: "Wayback copy", href: r.archive, ext: true } : r.archiveRequested ? { text: "save requested", muted: true } : { text: "none", muted: true },
+  }));
+  const staleRows: StaticRow[] = audit.staleness.slice(0, 80).map((s) => ({ id: s.id, entity: { text: s.name, href: s.route, strong: true }, kind: s.kind, asOf: s.asOf, days: s.days }));
 
   return (
     <>
@@ -81,8 +139,7 @@ export default function AuditPage() {
               {checks.map(([check, list]) => (
                 <details key={check} className="card" open={list.some((f) => f.severity === "high")}>
                   <summary className="cursor-pointer px-4 py-3 flex items-center gap-3"><span className={`chip ${SEV[list[0].severity]}`}>{list[0].severity}</span><span className="font-medium">{CHECK_LABEL[check] ?? check}</span><span className="text-sm text-muted">{list.length}</span></summary>
-                  <div className="overflow-x-auto"><table className="onco"><thead><tr><th>Entity</th><th>Kind</th><th>Detail</th></tr></thead>
-                    <tbody>{list.slice(0, ROW_CAP).map((f, i) => <tr key={i}><td><Link href={f.route} className="font-medium hover:underline">{f.name}</Link></td><td className="text-muted">{f.kind}</td><td className="text-muted">{f.detail}</td></tr>)}</tbody></table></div>
+                  <div className="px-3 pb-3 pt-1"><StaticTable rows={findingRows(list)} columns={FINDING_COLUMNS} noun="findings" /></div>
                   {list.length > ROW_CAP && <div className="px-4 py-3 text-xs text-muted">Showing {ROW_CAP} of {list.length}; the rest are in <a className="underline" href="/audit.json">audit.json</a>.</div>}
                 </details>
               ))}
@@ -96,15 +153,13 @@ export default function AuditPage() {
           <>
             <p className="text-sm text-muted mb-4 max-w-3xl">Generated {fc.generated.slice(0, 10)}: {fc.checked.drugs} products checked against openFDA labels, {fc.checked.trials} trials against ClinicalTrials.gov (status, phase, primary completion). {fc.errors.length > 0 && <>{fc.errors.length} lookups failed and were skipped.</>}</p>
             {fc.mismatches.length ? (
-              <div className="card overflow-x-auto"><table className="onco"><thead><tr><th>Severity</th><th>Check</th><th>Entity</th><th>Recorded</th><th>Registry</th></tr></thead>
-                <tbody>{fc.mismatches.map((m, i) => <tr key={i}><td><span className={`chip ${SEV[m.severity]}`}>{m.severity}</span></td><td className="text-muted">{CHECK_LABEL[m.check] ?? m.check}</td><td><Link href={m.route} className="font-medium hover:underline">{m.name}</Link></td><td className="text-muted">{m.recorded}</td><td className="text-muted"><a className="underline" href={m.url} rel="noopener">{m.registry}</a></td></tr>)}</tbody></table></div>
+              <StaticTable rows={mismatchRows} columns={MISMATCH_COLUMNS} noun="mismatches" url />
             ) : <div className="card p-6 text-sm text-muted">No mismatches.</div>}
             {patches && patches.patches.length > 0 && (
               <>
                 <h3 className="text-lg font-semibold mt-8 mb-2">Proposed patches</h3>
                 <p className="text-sm text-muted mb-3 max-w-3xl">Where the registry value maps unambiguously onto ours, the fact check proposes a concrete edit. Nothing is applied automatically: a maintainer applies each proposed edit by hand, which updates the record, refreshes its checked date and adds a row to the <Link className="underline" href="/corrections/">corrections log</Link>.</p>
-                <div className="card overflow-x-auto"><table className="onco"><thead><tr><th>Entity</th><th>Field</th><th>Current</th><th>Proposed</th><th>Why</th></tr></thead>
-                  <tbody>{patches.patches.map((p, i) => <tr key={i}><td><Link href={p.route} className="font-medium hover:underline">{p.name}</Link></td><td><code className="text-xs">{p.field}</code></td><td className="text-muted">{p.current}</td><td>{p.proposed}</td><td className="text-muted"><a className="underline" href={p.source} rel="noopener">{p.reason}</a></td></tr>)}</tbody></table></div>
+                <StaticTable rows={patchRows} columns={PATCH_COLUMNS} noun="patches" />
               </>
             )}
           </>
@@ -115,10 +170,10 @@ export default function AuditPage() {
           <>
             <p className="text-sm text-muted mb-4 max-w-3xl">Checked {links.generated.slice(0, 10)}: {links.checked.toLocaleString("en-GB")} of {links.total.toLocaleString("en-GB")} cited URLs probed; {links.broken} did not resolve, {links.moved} redirect to a different domain, {links.archived} have a Wayback Machine copy. Replace a dead URL with the archive copy or a current source; if the fact itself changes, log it in the corrections.</p>
             {broken.length ? (
-              <div className="card overflow-x-auto"><table className="onco"><thead><tr><th>Status</th><th>URL</th><th>Cited by</th><th>Archive</th></tr></thead>
-                <tbody>{broken.slice(0, ROW_CAP).map((r, i) => <tr key={i}><td><span className={`chip ${r.status === 0 || r.status === 404 || r.status === 410 ? SEV.high : SEV.medium}`}>{r.status || "no response"}</span></td><td className="text-muted break-all text-xs"><a className="underline" href={r.url} rel="noopener">{r.url}</a>{r.error && <div>{r.error}</div>}</td><td>{r.refs.slice(0, 3).map((x) => <div key={`${x.id}-${x.field}`}><Link href={x.route} className="font-medium hover:underline">{x.name}</Link> <span className="text-muted text-xs">{x.field}</span></div>)}{r.refs.length > 3 && <div className="text-xs text-muted">and {r.refs.length - 3} more</div>}</td><td className="text-xs">{r.archive ? <a className="underline" href={r.archive} rel="noopener">Wayback copy</a> : r.archiveRequested ? <span className="text-muted">save requested</span> : <span className="text-muted">none</span>}</td></tr>)}</tbody></table>
-                {broken.length > ROW_CAP && <div className="px-4 py-3 text-xs text-muted">Showing {ROW_CAP} of {broken.length}; the rest are in <a className="underline" href="/links.json">links.json</a>.</div>}
-              </div>
+              <>
+                <StaticTable rows={brokenRows} columns={BROKEN_COLUMNS} noun="links" />
+                {broken.length > ROW_CAP && <div className="px-1 py-3 text-xs text-muted">Showing {ROW_CAP} of {broken.length}; the rest are in <a className="underline" href="/links.json">links.json</a>.</div>}
+              </>
             ) : <div className="card p-6 text-sm text-muted">Every checked link resolved.</div>}
             {moved.length > 0 && (
               <details className="card mt-4"><summary className="cursor-pointer px-4 py-3 text-sm font-medium">{moved.length} links redirect to a different domain</summary>
@@ -131,8 +186,7 @@ export default function AuditPage() {
 
         <h2 className="text-xl font-semibold mt-12 mb-3">Staleness</h2>
         <p className="text-sm text-muted mb-4 max-w-3xl">Records by last-checked date. The site does not show dates to readers; maintainers use this list to schedule re-checks. What counts as too old for each kind, and which records are past due, is defined on the <Link className="underline" href="/freshness/">freshness page</Link>.</p>
-        <div className="card overflow-x-auto"><table className="onco"><thead><tr><th>Entity</th><th>Kind</th><th>Last checked</th><th>Days</th></tr></thead>
-          <tbody>{audit.staleness.slice(0, 80).map((s) => <tr key={s.id}><td><Link href={s.route} className="font-medium hover:underline">{s.name}</Link></td><td className="text-muted">{s.kind}</td><td className="tabular-nums text-muted">{s.asOf}</td><td className="tabular-nums">{s.days}</td></tr>)}</tbody></table></div>
+        <StaticTable rows={staleRows} columns={STALE_COLUMNS} noun="records" defaultSort={{ key: "days", dir: -1 }} />
         <p className="text-xs text-muted mt-3">Showing the 80 oldest of {audit.total}. Full data: <a className="underline" href="/audit.json">audit.json</a> · <a className="underline" href="/factcheck.json">factcheck.json</a> · {patches && <><a className="underline" href="/factcheck-patches.json">factcheck-patches.json</a> · </>}{links && <><a className="underline" href="/links.json">links.json</a> · </>}<Link className="underline" href="/freshness/">freshness</Link> · <Link className="underline" href="/history/">recent changes</Link> · <Link className="underline" href="/corrections/">corrections log</Link>.</p>
       </Container>
     </>

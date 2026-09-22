@@ -5,7 +5,7 @@ import { graph } from "@/lib/graph";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
 import { withTermHovers } from "@/lib/term-hover";
 import { paperQuery } from "@/lib/europepmc";
-import { Bullets, ChipList, Section, StatusChip } from "./ui";
+import { Bullets, ChipList, Section } from "./ui";
 import { PrevalenceTable } from "./PrevalenceTable";
 import { TargetSchematic } from "./TargetSchematic";
 import { RefChips } from "./RefChips";
@@ -20,6 +20,7 @@ import { modelsFor, cellLineIds } from "@/data/preclinical-models";
 import { resistance, type Mechanism } from "@/data/resistance";
 import { CATEGORY_BY_ID } from "@/lib/resistance-categories";
 import { Tip } from "./Tip";
+import { StaticTable, type StaticColumn, type StaticRow } from "./filters/StaticTable";
 
 /** Broad modality family for grouping products; mirrors the classes used on the toxicity page. */
 export function modalityFamily(m: string): string {
@@ -92,7 +93,17 @@ export function dossierData(t: Target) {
   };
 }
 
+const TRIAL_COLUMNS: StaticColumn[] = [
+  { key: "trial", label: "Trial" },
+  { key: "phase", label: "Phase", filterable: true, className: "whitespace-nowrap" },
+  { key: "status", label: "Status", filterable: true },
+  { key: "setting", label: "Setting", hide: "hidden md:table-cell", className: "text-muted max-w-xs" },
+  { key: "result", label: "Result", hide: "hidden lg:table-cell", className: "text-muted max-w-sm text-xs" },
+  { key: "products", label: "Products", hide: "hidden sm:table-cell", className: "min-w-[160px]" },
+];
+
 export function Dossier({ target: t }: { target: Target }) {
+  const g = graph();
   const d = dossierData(t);
   const families = [...new Set(d.drugs.map((x) => modalityFamily(x.modality)))].sort((a, b) => d.drugs.filter((x) => modalityFamily(x.modality) === b).length - d.drugs.filter((x) => modalityFamily(x.modality) === a).length || a.localeCompare(b));
   const usedPhases = PHASES.filter((p) => d.drugs.some((x) => phaseOf(x.status) === p.key));
@@ -184,23 +195,15 @@ export function Dossier({ target: t }: { target: Target }) {
 
       <Section id="trials" title="Trials" aside={<Link href={`/evidence/`} className="text-xs underline text-muted">Evidence ranking →</Link>}>
         {d.trials.length === 0 ? <p className="text-sm text-muted">No trial in the corpus names this target or one of its products.</p> : (
-          <div className="card overflow-x-auto">
-            <table className="onco">
-              <thead><tr><th>Trial</th><th>Phase</th><th>Status</th><th className="hidden md:table-cell">Setting</th><th className="hidden lg:table-cell">Result</th><th className="hidden sm:table-cell">Products</th></tr></thead>
-              <tbody>
-                {d.trials.map((x) => (
-                  <tr key={x.id}>
-                    <td><Link href={routeFor(x)} className="font-medium hover:underline">{x.name}</Link>{x.nct && <div className="text-xs text-muted font-normal font-mono">{x.nct}</div>}</td>
-                    <td className="whitespace-nowrap">{x.phase}</td>
-                    <td><StatusChip status={x.status} /></td>
-                    <td className="hidden md:table-cell text-muted max-w-xs">{x.setting}</td>
-                    <td className="hidden lg:table-cell text-muted max-w-sm text-xs">{x.result}</td>
-                    <td className="hidden sm:table-cell min-w-[160px]"><RefChips ids={x.drugs.slice(0, 4)} /></td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <StaticTable rows={d.trials.map((x): StaticRow => ({
+            id: x.id,
+            trial: { text: x.name, href: routeFor(x), strong: true, sub: x.nct },
+            phase: x.phase,
+            status: x.status ? { text: STATUS_LABEL[x.status] ?? x.status, chip: statusClass(x.status) } : undefined,
+            setting: x.setting,
+            result: x.result,
+            products: x.drugs.slice(0, 4).map((id) => g.get(id)).filter((e): e is NonNullable<typeof e> => !!e).map((e) => ({ text: e.name, href: routeFor(e), chip: "border border-border bg-card text-xs" })),
+          }))} columns={TRIAL_COLUMNS} noun="trials" />
         )}
       </Section>
 

@@ -6,6 +6,7 @@ import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { COST_DRIVERS } from "@/data/cost-levers";
 import { ideasCosts } from "@/data/ideas-waves/wave-costs";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({
   title: "Cutting cancer care costs",
@@ -23,8 +24,27 @@ const MATURITY_CLASS: Record<string, string> = {
   "being-tested-at-scale": "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200",
 };
 
+const IDEA_COLUMNS: StaticColumn[] = [
+  { key: "idea", label: "Idea" },
+  { key: "actor", label: "Who acts", filterable: true, className: "text-sm" },
+  { key: "cost", label: "Cost to try", filterable: true, order: Object.values(COST_LABEL), className: "text-sm" },
+  { key: "years", label: "Years", sortable: true, numeric: true, className: "text-right" },
+  { key: "maturity", label: "Evidence so far", filterable: true, order: Object.values(MATURITY_LABEL), hide: "hidden md:table-cell" },
+];
+
 export default function CostsPage() {
   const g = graph();
+  const ideaRows: StaticRow[] = [...ideasCosts].sort((a, b) => (a.horizonYears ?? 99) - (b.horizonYears ?? 99) || a.name.localeCompare(b.name)).map((x) => {
+    const e = g.get(x.id);
+    return {
+      id: x.id,
+      idea: { text: x.name, href: e ? routeFor(e) : undefined, strong: true },
+      actor: x.actor ? ACTOR_LABEL[x.actor] ?? x.actor : undefined,
+      cost: x.cost ? COST_LABEL[x.cost] : undefined,
+      years: x.horizonYears,
+      maturity: { text: MATURITY_LABEL[x.maturity], chip: MATURITY_CLASS[x.maturity] },
+    };
+  });
   const ideas = new Map(ideasCosts.map((x) => [x.id, x]));
   const ideaEntity = (id: string) => g.get(id);
   const bottleneck = (id: string) => g.get(id);
@@ -98,25 +118,7 @@ export default function CostsPage() {
         ))}
 
         <Section title="All ideas in this wave" aside={<span className="text-sm text-muted">{ideasCosts.length} ideas · sorted by years to evidence</span>}>
-          <div className="card results-table overflow-x-auto">
-            <table className="onco">
-              <thead><tr><th scope="col">Idea</th><th scope="col">Who acts</th><th scope="col">Cost to try</th><th scope="col" className="text-right">Years</th><th scope="col" className="hidden md:table-cell">Evidence so far</th></tr></thead>
-              <tbody>
-                {[...ideasCosts].sort((a, b) => (a.horizonYears ?? 99) - (b.horizonYears ?? 99) || a.name.localeCompare(b.name)).map((x) => {
-                  const e = ideaEntity(x.id);
-                  return (
-                    <tr key={x.id}>
-                      <td>{e ? <Link href={routeFor(e)} className="font-medium hover:underline">{x.name}</Link> : x.name}</td>
-                      <td className="text-sm">{x.actor ? ACTOR_LABEL[x.actor] ?? x.actor : ""}</td>
-                      <td className="text-sm">{x.cost ? COST_LABEL[x.cost] : ""}</td>
-                      <td className="text-right tabular-nums">{x.horizonYears ?? ""}</td>
-                      <td className="hidden md:table-cell"><span className={`chip ${MATURITY_CLASS[x.maturity]}`}>{MATURITY_LABEL[x.maturity]}</span></td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
+          <StaticTable rows={ideaRows} columns={IDEA_COLUMNS} noun="ideas" url defaultSort={{ key: "years", dir: 1 }} />
           <p className="mt-3 text-sm text-muted">Every idea has its own page with hypothesis, rationale, the test that would confirm or kill it, and the bottlenecks it attacks. Vote or argue on the idea page; suggest a new one through the <a className="underline" href="https://github.com/judegomila/OnCo/issues/new?template=suggest-edit.yml&title=idea%3A%20cost%20of%20care" rel="noopener">issue form</a>.</p>
         </Section>
       </Container>

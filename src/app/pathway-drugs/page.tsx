@@ -7,6 +7,7 @@ import { pathwayView, type PathwayProduct } from "@/lib/pathway-products";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { Tip } from "@/components/Tip";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({ title: "Pathway-to-drug matrix", description: "For every signalling pathway, which nodes have a drug in the corpus, at what phase, and which druggable nodes have none: the inverse of the pathway diagrams.", path: "/pathway-drugs/" });
 
@@ -17,6 +18,16 @@ const drugsFor = (targetNames: string[], status?: string) => {
   const q = new URLSearchParams(); for (const t of targetNames) q.append("targets", short(t)); if (status) q.set("status", status);
   return `/drugs/?${q.toString()}`;
 };
+const PATHWAY_COLUMNS: StaticColumn[] = [
+  { key: "pathway", label: "Pathway" },
+  { key: "nodes", label: "Nodes", sortable: true, numeric: true, className: "text-right" },
+  { key: "druggable", label: "With a target", sortable: true, numeric: true, className: "text-right" },
+  { key: "drugged", label: "With a drug", sortable: true, numeric: true, className: "text-right" },
+  { key: "approved", label: "Approved drug", sortable: true, numeric: true, className: "text-right" },
+  { key: "undrugged", label: "Undrugged", sortable: true, numeric: true, className: "text-right font-semibold" },
+  { key: "gap", label: "Gap", filterable: true, order: ["Undrugged nodes", "Fully drugged", "No druggable node"], hide: "hidden lg:table-cell", className: "text-xs text-muted" },
+  { key: "undruggedNodes", label: "Undrugged nodes", hide: "hidden md:table-cell", className: "text-xs text-muted" },
+];
 const best = (ps: PathwayProduct[]) => ps.map((p) => ORDER.indexOf(p.status ?? "")).filter((i) => i >= 0).sort((a, b) => a - b)[0];
 
 export default function PathwayDrugsPage() {
@@ -31,6 +42,17 @@ export default function PathwayDrugsPage() {
     return { p, v, byNode, druggable, drugged, undrugged: druggable.filter((n) => !(byNode.get(n.id) ?? []).length), approvedNodes, untargeted: v.nodes.filter((n) => !n.targetId) };
   }).sort((a, b) => b.undrugged.length - a.undrugged.length || b.druggable.length - a.druggable.length || a.p.name.localeCompare(b.p.name));
 
+  const pathwayRows: StaticRow[] = views.map(({ p, v, druggable, drugged, undrugged, approvedNodes }) => ({
+    id: p.id,
+    pathway: { text: p.name, href: routeFor(p), strong: true, sub: "node table below" },
+    nodes: { text: String(v.nodes.length), v: v.nodes.length, href: routeFor(p), title: "Pathway page with the diagram" },
+    druggable: { text: String(druggable.length), v: druggable.length, href: `#${p.id}`, ext: true, title: "Nodes with a target, in the table below", className: "no-underline hover:underline" },
+    drugged: drugged.length ? { text: String(drugged.length), v: drugged.length, href: drugsFor(druggable.map((n) => n.targetName ?? n.label)), className: "text-accent", title: "Open the treatments table filtered to this pathway's targets" } : { text: "0", v: 0, muted: true },
+    approved: approvedNodes.length ? { text: String(approvedNodes.length), v: approvedNodes.length, href: drugsFor(approvedNodes.map((n) => n.targetName ?? n.label), "approved"), className: "text-accent", title: "Approved treatments hitting this pathway" } : { text: "0", v: 0, muted: true },
+    undrugged: { text: String(undrugged.length), v: undrugged.length, href: `#${p.id}`, ext: true, className: undrugged.length ? "text-rose-700 dark:text-rose-300 no-underline hover:underline" : "text-muted no-underline hover:underline" },
+    gap: undrugged.length ? "Undrugged nodes" : druggable.length ? "Fully drugged" : "No druggable node",
+    undruggedNodes: undrugged.map((n) => (n.href ? { text: n.label, href: n.href } : { text: n.label })),
+  }));
   const totals = views.reduce((s, x) => ({ nodes: s.nodes + x.v.nodes.length, druggable: s.druggable + x.druggable.length, drugged: s.drugged + x.drugged.length, undrugged: s.undrugged + x.undrugged.length }), { nodes: 0, druggable: 0, drugged: 0, undrugged: 0 });
 
   return (
@@ -38,24 +60,7 @@ export default function PathwayDrugsPage() {
       <PageHeader kicker={<GroupKicker id="map" />} title="Pathway-to-drug matrix"
         lede={`The pathway diagrams light up per product; this table asks the inverse question. Across ${views.length} pathways and ${totals.nodes} nodes, ${totals.druggable} nodes name a target in the corpus, ${totals.drugged} of those have at least one product and ${totals.undrugged} have none. Pathways are sorted by how many druggable nodes still have no drug, which is where the design opportunities are.`} />
       <Container className="pb-16">
-        <div className="card overflow-x-auto mb-8">
-          <table className="onco">
-            <thead><tr><th>Pathway</th><th className="text-right">Nodes</th><th className="text-right">With a target</th><th className="text-right">With a drug</th><th className="text-right">Approved drug</th><th className="text-right">Undrugged</th><th className="hidden md:table-cell">Undrugged nodes</th></tr></thead>
-            <tbody>
-              {views.map(({ p, v, druggable, drugged, undrugged, approvedNodes }) => (
-                <tr key={p.id}>
-                  <td><Link href={routeFor(p)} className="font-medium hover:underline">{p.name}</Link> <a href={`#${p.id}`} className="text-xs text-muted hover:text-accent ml-1" title="Jump to this pathway's node table">table ↓</a></td>
-                  <td className="text-right tabular-nums"><Link href={routeFor(p)} className="hover:underline" title="Pathway page with the diagram">{v.nodes.length}</Link></td>
-                  <td className="text-right tabular-nums"><a href={`#${p.id}`} className="hover:underline" title="Nodes with a target, in the table below">{druggable.length}</a></td>
-                  <td className="text-right tabular-nums">{drugged.length ? <Link href={drugsFor(druggable.map((n) => n.targetName ?? n.label))} className="hover:underline text-accent" title="Open the treatments table filtered to this pathway's targets">{drugged.length}</Link> : <span className="text-muted">0</span>}</td>
-                  <td className="text-right tabular-nums">{approvedNodes.length ? <Link href={drugsFor(approvedNodes.map((n) => n.targetName ?? n.label), "approved")} className="hover:underline text-accent" title="Approved treatments hitting this pathway">{approvedNodes.length}</Link> : <span className="text-muted">0</span>}</td>
-                  <td className={`text-right tabular-nums font-semibold ${undrugged.length ? "text-rose-700 dark:text-rose-300" : "text-muted"}`}><a href={`#${p.id}`} className="hover:underline">{undrugged.length}</a></td>
-                  <td className="hidden md:table-cell text-xs text-muted">{undrugged.map((n, i) => <span key={n.id}>{i > 0 && ", "}{n.href ? <Link href={n.href} className="hover:underline hover:text-accent">{n.label}</Link> : n.label}</span>)}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <div className="mb-8"><StaticTable rows={pathwayRows} columns={PATHWAY_COLUMNS} noun="pathways" url defaultSort={{ key: "undrugged", dir: -1 }} /></div>
 
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted mb-6">
           <span className="kicker">Legend</span>

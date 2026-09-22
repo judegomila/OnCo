@@ -5,10 +5,21 @@ import { rankUniversities } from "@/lib/ranking";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
-import { Logo } from "@/components/Logo";
+import { logoSrc } from "@/lib/logos";
+import { StaticTable, type CellObj, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 import { OPENALEX, OutputTable, UniversityOutputTable, outputRows, readResearchIndex, universityOutputRows } from "@/components/OutputTable";
 
 export const metadata: Metadata = pageMeta({ title: "Research output ranking", description: "Universities and cancer centres ranked by oncology research output: OpenAlex counts, external bibliometric leaders, and the corpus-derived score.", path: "/universities/" });
+
+const CORPUS_COLUMNS: StaticColumn[] = [
+  { key: "rank", label: "#", sortable: true, numeric: true, className: "text-muted" },
+  { key: "university", label: "University", className: "min-w-[220px]" },
+  { key: "country", label: "Country", filterable: true, hide: "hidden md:table-cell", className: "text-muted" },
+  { key: "institutions", label: "Institutions in OnCo", className: "text-sm max-w-md" },
+  { key: "count", label: "Centres", sortable: true, numeric: true, hide: "hidden lg:table-cell" },
+  { key: "links", label: "Linked objects", sortable: true, numeric: true },
+  { key: "score", label: "Score", sortable: true, numeric: true },
+];
 
 export default function Universities() {
   const g = graph();
@@ -18,6 +29,16 @@ export default function Universities() {
   const byUniversity = universityOutputRows();
   const corpus = rankUniversities();
   const research = readResearchIndex();
+  const corpusRows: StaticRow[] = corpus.map((r) => ({
+    id: r.university,
+    rank: r.rank,
+    university: { text: r.university, strong: true, avatar: logoSrc(r.institutions[0]?.id, r.institutions[0]?.website ?? "") ?? "" },
+    country: r.institutions[0]?.country,
+    institutions: [...r.institutions.slice(0, 4).map((i): CellObj => ({ text: i.name, href: routeFor(i), muted: true })), ...(r.institutions.length > 4 ? [{ text: `+${r.institutions.length - 4} more`, muted: true } as CellObj] : [])],
+    count: r.institutions.length,
+    links: r.links,
+    score: { text: String(r.score), v: r.score, strong: true },
+  }));
   return (
     <>
       <PageHeader kicker={<GroupKicker id="who" />} title="University research output"
@@ -43,22 +64,7 @@ export default function Universities() {
 
         <h2 className="text-xl font-semibold mt-12 mb-3">3. Corpus-derived score</h2>
         <p className="text-sm text-muted mb-4 max-w-3xl">Sum of OnCo institution scores for the university&apos;s affiliated centres in this corpus (Newsweek points + NCI points + 2 × linked objects). Universities appear only if one of their institutions is documented here; this table measures how well OnCo covers an institution as much as the institution itself.</p>
-        <div className="overflow-x-auto card">
-          <table className="onco">
-            <thead><tr><th>#</th><th>University</th><th>Institutions in OnCo</th><th>Linked objects</th><th>Score</th></tr></thead>
-            <tbody>
-              {corpus.map((r) => (
-                <tr key={r.university}>
-                  <td className="tabular-nums text-muted">{r.rank}</td>
-                  <td className="font-medium min-w-[220px]"><div className="flex items-center gap-2"><Logo id={r.institutions[0]?.id} website={r.institutions[0]?.website ?? ""} name={r.university} size={28} className="shrink-0" /><span>{r.university}</span></div></td>
-                  <td className="text-sm max-w-md"><span className="text-muted">{r.institutions.slice(0, 4).map((i, k) => <span key={i.id}>{k > 0 && ", "}<Link href={routeFor(i)} className="hover:underline hover:text-foreground">{i.name}</Link></span>)}{r.institutions.length > 4 && <span className="text-xs"> +{r.institutions.length - 4} more</span>}</span></td>
-                  <td className="tabular-nums">{r.links}</td>
-                  <td className="tabular-nums font-semibold">{r.score}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <StaticTable rows={corpusRows} columns={CORPUS_COLUMNS} noun="universities" defaultSort={{ key: "rank", dir: 1 }} />
       </Container>
     </>
   );

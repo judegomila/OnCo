@@ -1,7 +1,7 @@
 {
  "generatedAt": "2026-09-22",
- "offline": false,
- "requests": 198,
+ "offline": true,
+ "requests": 0,
  "roadmaps": [
   {
    "id": "adc-generations",
@@ -12,6 +12,7 @@
     "trials": 5,
     "checked": 5,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -25,6 +26,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 443,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -41,6 +43,7 @@
       "lastUpdate": "2025-09-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -51,6 +54,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 418,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": {
@@ -67,6 +71,7 @@
       "lastUpdate": "2026-07-23"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -77,6 +82,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 524,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": {
@@ -93,6 +99,7 @@
       "lastUpdate": "2025-10-21"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -103,6 +110,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 557,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -119,6 +127,7 @@
       "lastUpdate": "2025-10-06"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -129,6 +138,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 886,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -145,11 +155,13 @@
       "lastUpdate": "2026-05-29"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "ai-oncology-roadmap",
@@ -159,7 +171,8 @@
    "counts": {
     "trials": 1,
     "checked": 1,
-    "contradictions": 1,
+    "contradictions": 0,
+    "explained": 1,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -173,6 +186,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 105934,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 100,000 participants (actual); the Lancet 2026 interval-cancer analysis reports 105,934 women randomly assigned between April 2021 and December 2022.",
       "yearReported": 2023
      },
      "registry": {
@@ -188,18 +203,20 @@
       "completion": "2025-08-12",
       "lastUpdate": "2026-04-02"
      },
-     "contradictions": [
-      "enrolment 105934 in the corpus, 100000 on the registry (actual; 6 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 105934 in the corpus (randomised), 100000 on the registry (actual; 6 percent apart): ClinicalTrials.gov lists 100,000 participants (actual); the Lancet 2026 interval-cancer analysis reports 105,934 women randomly assigned between April 2021 and December 2022."
      ],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "masai",
      "name": "MASAI (Mammography Screening with Artificial Intelligence)",
-     "text": "enrolment 105934 in the corpus, 100000 on the registry (actual; 6 percent apart)"
+     "text": "enrolment 105934 in the corpus (randomised), 100000 on the registry (actual; 6 percent apart): ClinicalTrials.gov lists 100,000 participants (actual); the Lancet 2026 interval-cancer analysis reports 105,934 women randomly assigned between April 2021 and December 2022."
     }
    ]
   },
@@ -212,13 +229,15 @@
     "trials": 0,
     "checked": 0,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
    "trials": [],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "prevention-roadmap",
@@ -228,7 +247,8 @@
    "counts": {
     "trials": 8,
     "checked": 5,
-    "contradictions": 1,
+    "contradictions": 0,
+    "explained": 1,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -241,7 +261,8 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 11000
+      "enrolled": 11000,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT02804815",
@@ -257,6 +278,7 @@
       "lastUpdate": "2025-06-10"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -267,6 +289,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 626,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -283,6 +306,7 @@
       "lastUpdate": "2026-03-13"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -293,6 +317,7 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 19114,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -306,6 +331,7 @@
       "lastUpdate": "2021-04-05"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -315,10 +341,12 @@
       "status": "positive",
       "phase": "observational",
       "enrolled": 17729,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -329,6 +357,7 @@
       "status": "positive",
       "phase": "4",
       "enrolled": 2275,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -345,6 +374,7 @@
       "lastUpdate": "2023-12-13"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -354,10 +384,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 53454,
+      "enrolledBasis": "registry",
       "yearReported": 2011
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -368,6 +400,8 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 84585,
+      "enrolledBasis": "analysed",
+      "enrolledNote": "ClinicalTrials.gov lists 95,000 participants (actual); the NEJM 2022 analysis covers the 84,585 participants in Poland, Norway and Sweden with follow-up data (28,220 invited, 56,365 usual care).",
       "yearReported": 2022
      },
      "registry": {
@@ -383,8 +417,9 @@
       "completion": "2036-07",
       "lastUpdate": "2017-06-19"
      },
-     "contradictions": [
-      "enrolment 84585 in the corpus, 95000 on the registry (actual; 11 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 84585 in the corpus (analysed), 95000 on the registry (actual; 11 percent apart): ClinicalTrials.gov lists 95,000 participants (actual); the NEJM 2022 analysis covers the 84,585 participants in Poland, Norway and Sweden with follow-up data (28,220 invited, 56,365 usual care)."
      ],
      "papers": []
     },
@@ -395,19 +430,22 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 131746,
+      "enrolledBasis": "registry",
       "yearReported": 2009
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "nordicc",
      "name": "NordICC (Nordic-European Initiative on Colorectal Cancer)",
-     "text": "enrolment 84585 in the corpus, 95000 on the registry (actual; 11 percent apart)"
+     "text": "enrolment 84585 in the corpus (analysed), 95000 on the registry (actual; 11 percent apart): ClinicalTrials.gov lists 95,000 participants (actual); the NEJM 2022 analysis covers the 84,585 participants in Poland, Norway and Sweden with follow-up data (28,220 invited, 56,365 usual care)."
     }
    ]
   },
@@ -420,13 +458,15 @@
     "trials": 0,
     "checked": 0,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
    "trials": [],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "chemotherapy-roadmap",
@@ -436,7 +476,8 @@
    "counts": {
     "trials": 21,
     "checked": 15,
-    "contradictions": 2,
+    "contradictions": 0,
+    "explained": 2,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -450,6 +491,7 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 406,
+      "enrolledBasis": "registry",
       "yearReported": 2015
      },
      "registry": {
@@ -466,6 +508,7 @@
       "lastUpdate": "2024-06-26"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -476,6 +519,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1581,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 2,031 participants (actual) across all three arms; the Lancet 2021 primary analysis concurrently randomised 1,581 patients to nivolumab plus chemotherapy or chemotherapy alone, leaving out the nivolumab plus ipilimumab arm.",
       "yearReported": 2020
      },
      "registry": {
@@ -491,8 +536,9 @@
       "completion": "2024-06-06",
       "lastUpdate": "2025-08-07"
      },
-     "contradictions": [
-      "enrolment 1581 in the corpus, 2031 on the registry (actual; 22 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 1581 in the corpus (randomised), 2031 on the registry (actual; 22 percent apart): ClinicalTrials.gov lists 2,031 participants (actual) across all three arms; the Lancet 2021 primary analysis concurrently randomised 1,581 patients to nivolumab plus chemotherapy or chemotherapy alone, leaving out the nivolumab plus ipilimumab arm."
      ],
      "papers": []
     },
@@ -504,10 +550,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 366,
+      "enrolledBasis": "registry",
       "yearReported": 2012
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -518,6 +566,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 866,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -534,6 +583,7 @@
       "lastUpdate": "2026-03-04"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -544,10 +594,12 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 455,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -558,6 +610,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1334,
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -574,6 +627,7 @@
       "lastUpdate": "2026-02-27"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -584,6 +638,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 575,
+      "enrolledBasis": "registry",
       "yearReported": 2005
      },
      "registry": {
@@ -599,6 +654,7 @@
       "lastUpdate": "2012-09-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -609,6 +665,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 886,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -625,6 +682,7 @@
       "lastUpdate": "2026-05-29"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -635,6 +693,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 500,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -651,6 +710,7 @@
       "lastUpdate": "2024-12-05"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -661,6 +721,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 921,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -677,6 +738,7 @@
       "lastUpdate": "2022-06-13"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -686,10 +748,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 151,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -699,10 +763,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 124,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -712,10 +778,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 238,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -726,6 +794,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 770,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -742,6 +811,7 @@
       "lastUpdate": "2026-04-20"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -751,10 +821,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 422,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -765,6 +837,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 879,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 1,000 participants (actual); the NEJM 2022 primary analysis randomised 879 patients (440 Pola-R-CHP, 439 R-CHOP).",
       "yearReported": 2021
      },
      "registry": {
@@ -780,8 +854,9 @@
       "completion": "2026-04-30",
       "lastUpdate": "2026-05-08"
      },
-     "contradictions": [
-      "enrolment 879 in the corpus, 1000 on the registry (actual; 12 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 879 in the corpus (randomised), 1000 on the registry (actual; 12 percent apart): ClinicalTrials.gov lists 1,000 participants (actual); the NEJM 2022 primary analysis randomised 879 patients (440 Pola-R-CHP, 439 R-CHOP)."
      ],
      "papers": []
     },
@@ -793,6 +868,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 493,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -809,6 +885,7 @@
       "lastUpdate": "2022-01-04"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -819,6 +896,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1214,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -835,6 +913,7 @@
       "lastUpdate": "2024-05-08"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -845,6 +924,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 5018,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -861,6 +941,7 @@
       "lastUpdate": "2026-08-28"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -870,7 +951,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "3",
-      "enrolled": 2400
+      "enrolled": 2400,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT05929768",
@@ -886,6 +968,7 @@
       "lastUpdate": "2025-11-05"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -896,6 +979,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 10273,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -912,20 +996,22 @@
       "lastUpdate": "2026-09-08"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "checkmate-649",
      "name": "CheckMate 649",
-     "text": "enrolment 1581 in the corpus, 2031 on the registry (actual; 22 percent apart)"
+     "text": "enrolment 1581 in the corpus (randomised), 2031 on the registry (actual; 22 percent apart): ClinicalTrials.gov lists 2,031 participants (actual) across all three arms; the Lancet 2021 primary analysis concurrently randomised 1,581 patients to nivolumab plus chemotherapy or chemotherapy alone, leaving out the nivolumab plus ipilimumab arm."
     },
     {
      "ref": "polarix",
      "name": "POLARIX",
-     "text": "enrolment 879 in the corpus, 1000 on the registry (actual; 12 percent apart)"
+     "text": "enrolment 879 in the corpus (randomised), 1000 on the registry (actual; 12 percent apart): ClinicalTrials.gov lists 1,000 participants (actual); the NEJM 2022 primary analysis randomised 879 patients (440 Pola-R-CHP, 439 R-CHOP)."
     }
    ]
   },
@@ -938,6 +1024,7 @@
     "trials": 12,
     "checked": 9,
     "contradictions": 1,
+    "explained": 0,
     "papers": 0,
     "watch": 10,
     "watchPassed": 1
@@ -950,7 +1037,8 @@
      "corpus": {
       "status": "active",
       "phase": "observational",
-      "enrolled": 1788
+      "enrolled": 1788,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT04264702",
@@ -963,6 +1051,7 @@
       "lastUpdate": "2023-12-12"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -971,10 +1060,12 @@
      "corpus": {
       "status": "active",
       "phase": "3",
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -984,7 +1075,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "2/3",
-      "enrolled": 1912
+      "enrolled": 1912,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT05174169",
@@ -1001,6 +1093,7 @@
       "lastUpdate": "2026-09-02"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1011,10 +1104,12 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 455,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1025,6 +1120,7 @@
       "status": "positive",
       "phase": "observational",
       "enrolled": 44467,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -1038,6 +1134,7 @@
       "lastUpdate": "2026-05-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1048,6 +1145,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 761,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -1064,6 +1162,7 @@
       "lastUpdate": "2026-03-27"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1073,7 +1172,8 @@
      "corpus": {
       "status": "completed",
       "phase": "3",
-      "enrolled": 89
+      "enrolled": 89,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT04385368",
@@ -1089,6 +1189,7 @@
       "lastUpdate": "2024-08-30"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1098,7 +1199,8 @@
      "corpus": {
       "status": "completed",
       "phase": "3",
-      "enrolled": 30
+      "enrolled": 30,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT04642469",
@@ -1114,6 +1216,7 @@
       "lastUpdate": "2024-06-25"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1123,10 +1226,12 @@
      "corpus": {
       "status": "completed",
       "phase": "3",
-      "enrolled": 142000
+      "enrolled": 142000,
+      "enrolledBasis": "registry"
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1137,6 +1242,7 @@
       "status": "active",
       "phase": "observational",
       "enrolled": 35883,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -1155,6 +1261,7 @@
      "contradictions": [
       "corpus says observational, registry lists an interventional study"
      ],
+     "explained": [],
      "papers": []
     },
     {
@@ -1164,7 +1271,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "observational",
-      "enrolled": 1000
+      "enrolled": 1000,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT04050345",
@@ -1177,6 +1285,7 @@
       "lastUpdate": "2024-06-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1186,7 +1295,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "platform",
-      "enrolled": 24000
+      "enrolled": 24000,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT06995898",
@@ -1202,6 +1312,7 @@
       "lastUpdate": "2026-09-02"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
@@ -1321,7 +1432,8 @@
      "name": "PATHFINDER 2",
      "text": "corpus says observational, registry lists an interventional study"
     }
-   ]
+   ],
+   "explained": []
   },
   {
    "id": "devices-roadmap",
@@ -1332,6 +1444,7 @@
     "trials": 4,
     "checked": 4,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -1345,6 +1458,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 695,
+      "enrolledBasis": "registry",
       "yearReported": 2015
      },
      "registry": {
@@ -1361,6 +1475,7 @@
       "lastUpdate": "2017-04-10"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1371,6 +1486,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 571,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -1387,6 +1503,7 @@
       "lastUpdate": "2026-01-21"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1397,6 +1514,7 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 82,
+      "enrolledBasis": "registry",
       "yearReported": 2019
      },
      "registry": {
@@ -1413,6 +1531,7 @@
       "lastUpdate": "2018-09-25"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1422,6 +1541,7 @@
      "corpus": {
       "status": "positive",
       "phase": "2",
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -1438,11 +1558,13 @@
       "lastUpdate": "2026-08-28"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "diagnostics-roadmap",
@@ -1452,7 +1574,8 @@
    "counts": {
     "trials": 8,
     "checked": 6,
-    "contradictions": 1,
+    "contradictions": 0,
+    "explained": 1,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -1464,10 +1587,12 @@
      "corpus": {
       "status": "active",
       "phase": "3",
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1478,10 +1603,12 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 455,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1492,6 +1619,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 761,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -1508,6 +1636,7 @@
       "lastUpdate": "2026-03-27"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1517,7 +1646,8 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 54
+      "enrolled": 54,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT05734105",
@@ -1533,6 +1663,7 @@
       "lastUpdate": "2025-12-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1543,6 +1674,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 105934,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 100,000 participants (actual); the Lancet 2026 interval-cancer analysis reports 105,934 women randomly assigned between April 2021 and December 2022.",
       "yearReported": 2023
      },
      "registry": {
@@ -1558,8 +1691,9 @@
       "completion": "2025-08-12",
       "lastUpdate": "2026-04-02"
      },
-     "contradictions": [
-      "enrolment 105934 in the corpus, 100000 on the registry (actual; 6 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 105934 in the corpus (randomised), 100000 on the registry (actual; 6 percent apart): ClinicalTrials.gov lists 100,000 participants (actual); the Lancet 2026 interval-cancer analysis reports 105,934 women randomly assigned between April 2021 and December 2022."
      ],
      "papers": []
     },
@@ -1571,6 +1705,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 5018,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -1587,6 +1722,7 @@
       "lastUpdate": "2026-08-28"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1597,6 +1733,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 315,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -1613,6 +1750,7 @@
       "lastUpdate": "2026-07-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1623,6 +1761,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 10273,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -1639,15 +1778,17 @@
       "lastUpdate": "2026-09-08"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "masai",
      "name": "MASAI (Mammography Screening with Artificial Intelligence)",
-     "text": "enrolment 105934 in the corpus, 100000 on the registry (actual; 6 percent apart)"
+     "text": "enrolment 105934 in the corpus (randomised), 100000 on the registry (actual; 6 percent apart): ClinicalTrials.gov lists 100,000 participants (actual); the Lancet 2026 interval-cancer analysis reports 105,934 women randomly assigned between April 2021 and December 2022."
     }
    ]
   },
@@ -1659,7 +1800,8 @@
    "counts": {
     "trials": 10,
     "checked": 8,
-    "contradictions": 2,
+    "contradictions": 1,
+    "explained": 1,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -1673,6 +1815,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 3181,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -1689,6 +1832,7 @@
       "lastUpdate": "2026-09-02"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1699,6 +1843,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 889,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -1715,6 +1860,7 @@
       "lastUpdate": "2026-04-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1725,6 +1871,7 @@
       "status": "negative",
       "phase": "2",
       "enrolled": 50,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -1741,6 +1888,7 @@
       "lastUpdate": "2021-06-02"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1751,6 +1899,8 @@
       "status": "completed",
       "phase": "2",
       "enrolled": 15,
+      "enrolledBasis": "treated",
+      "enrolledNote": "ClinicalTrials.gov lists 20 participants (actual); the Science 2021 paper reports outcomes for the 15 patients who received FMT plus pembrolizumab.",
       "yearReported": 2021
      },
      "registry": {
@@ -1766,8 +1916,9 @@
       "completion": "2024-09-30",
       "lastUpdate": "2024-10-30"
      },
-     "contradictions": [
-      "enrolment 15 in the corpus, 20 on the registry (actual; 25 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 15 in the corpus (treated), 20 on the registry (actual; 25 percent apart): ClinicalTrials.gov lists 20 participants (actual); the Science 2021 paper reports outcomes for the 15 patients who received FMT plus pembrolizumab."
      ],
      "papers": []
     },
@@ -1778,10 +1929,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 124,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1792,6 +1945,7 @@
       "status": "completed",
       "phase": "1",
       "enrolled": 20,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -1810,6 +1964,7 @@
      "contradictions": [
       "corpus says completed, registry says active not recruiting"
      ],
+     "explained": [],
      "papers": []
     },
     {
@@ -1820,6 +1975,7 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 187,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -1836,6 +1992,7 @@
       "lastUpdate": "2026-06-03"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1845,10 +2002,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 251,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1859,6 +2018,7 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 25871,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -1875,6 +2035,7 @@
       "lastUpdate": "2026-07-30"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1885,6 +2046,7 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 3088,
+      "enrolledBasis": "registry",
       "yearReported": 2007
      },
      "registry": {
@@ -1898,20 +2060,23 @@
       "lastUpdate": "2019-06-10"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
    "contradictions": [
     {
-     "ref": "fmt-pd1-refractory-melanoma-pitt",
-     "name": "FMT plus pembrolizumab in anti-PD-1-refractory melanoma (Pittsburgh)",
-     "text": "enrolment 15 in the corpus, 20 on the registry (actual; 25 percent apart)"
-    },
-    {
      "ref": "mimic-01",
      "name": "MIMic-01: healthy-donor FMT plus anti-PD-1, first-line melanoma",
      "text": "corpus says completed, registry says active not recruiting"
+    }
+   ],
+   "explained": [
+    {
+     "ref": "fmt-pd1-refractory-melanoma-pitt",
+     "name": "FMT plus pembrolizumab in anti-PD-1-refractory melanoma (Pittsburgh)",
+     "text": "enrolment 15 in the corpus (treated), 20 on the registry (actual; 25 percent apart): ClinicalTrials.gov lists 20 participants (actual); the Science 2021 paper reports outcomes for the 15 patients who received FMT plus pembrolizumab."
     }
    ]
   },
@@ -1924,13 +2089,15 @@
     "trials": 0,
     "checked": 0,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
    "trials": [],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "early-detection-roadmap",
@@ -1941,6 +2108,7 @@
     "trials": 2,
     "checked": 1,
     "contradictions": 1,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -1953,10 +2121,12 @@
      "corpus": {
       "status": "completed",
       "phase": "3",
-      "enrolled": 142000
+      "enrolled": 142000,
+      "enrolledBasis": "registry"
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -1967,6 +2137,7 @@
       "status": "active",
       "phase": "observational",
       "enrolled": 35883,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -1985,6 +2156,7 @@
      "contradictions": [
       "corpus says observational, registry lists an interventional study"
      ],
+     "explained": [],
      "papers": []
     }
    ],
@@ -1995,7 +2167,8 @@
      "name": "PATHFINDER 2",
      "text": "corpus says observational, registry lists an interventional study"
     }
-   ]
+   ],
+   "explained": []
   },
   {
    "id": "epigenetics-roadmap",
@@ -2005,7 +2178,8 @@
    "counts": {
     "trials": 7,
     "checked": 7,
-    "contradictions": 2,
+    "contradictions": 0,
+    "explained": 2,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -2019,6 +2193,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 146,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -2035,6 +2210,7 @@
       "lastUpdate": "2026-06-29"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2045,6 +2221,8 @@
       "status": "positive",
       "phase": "1/2",
       "enrolled": 94,
+      "enrolledBasis": "treated",
+      "enrolledNote": "ClinicalTrials.gov lists an estimated 447 participants for the whole phase 1/2 programme, which is still recruiting; the JCO 2024 KMT2A-rearranged analysis treated 94 patients between October 2021 and July 2023 (57 efficacy-evaluable).",
       "yearReported": 2024
      },
      "registry": {
@@ -2061,8 +2239,9 @@
       "completion": "2027-12-15",
       "lastUpdate": "2026-09-16"
      },
-     "contradictions": [
-      "enrolment 94 in the corpus, 447 on the registry (estimated; 79 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 94 in the corpus (treated), 447 on the registry (estimated; 79 percent apart): ClinicalTrials.gov lists an estimated 447 participants for the whole phase 1/2 programme, which is still recruiting; the JCO 2024 KMT2A-rearranged analysis treated 94 patients between October 2021 and July 2023 (57 efficacy-evaluable)."
      ],
      "papers": []
     },
@@ -2074,6 +2253,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 187,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -2090,6 +2270,7 @@
       "lastUpdate": "2024-08-20"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2098,7 +2279,8 @@
      "nct": "NCT06356129",
      "corpus": {
       "status": "active",
-      "phase": "3"
+      "phase": "3",
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT06356129",
@@ -2114,6 +2296,7 @@
       "lastUpdate": "2026-07-06"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2124,6 +2307,8 @@
       "status": "positive",
       "phase": "1/2",
       "enrolled": 112,
+      "enrolledBasis": "treated",
+      "enrolledNote": "ClinicalTrials.gov lists an estimated 263 participants for the phase 1/2 study; 112 is the FDA efficacy population at 600 mg quoted in the approval coverage, while the JCO 2025 phase 2 paper reports 92 patients treated between January 2023 and May 2024.",
       "yearReported": 2025
      },
      "registry": {
@@ -2140,8 +2325,9 @@
       "completion": "2028-10-16",
       "lastUpdate": "2026-05-13"
      },
-     "contradictions": [
-      "enrolment 112 in the corpus, 263 on the registry (estimated; 57 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 112 in the corpus (treated), 263 on the registry (estimated; 57 percent apart): ClinicalTrials.gov lists an estimated 263 participants for the phase 1/2 study; 112 is the FDA efficacy population at 600 mg quoted in the approval coverage, while the JCO 2025 phase 2 paper reports 92 patients treated between January 2023 and May 2024."
      ],
      "papers": []
     },
@@ -2152,7 +2338,8 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 600
+      "enrolled": 600,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT06551324",
@@ -2168,6 +2355,7 @@
       "lastUpdate": "2026-08-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2178,6 +2366,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 443,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -2194,20 +2383,22 @@
       "lastUpdate": "2026-06-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "augment-101",
      "name": "AUGMENT-101",
-     "text": "enrolment 94 in the corpus, 447 on the registry (estimated; 79 percent apart)"
+     "text": "enrolment 94 in the corpus (treated), 447 on the registry (estimated; 79 percent apart): ClinicalTrials.gov lists an estimated 447 participants for the whole phase 1/2 programme, which is still recruiting; the JCO 2024 KMT2A-rearranged analysis treated 94 patients between October 2021 and July 2023 (57 efficacy-evaluable)."
     },
     {
      "ref": "komet-001",
      "name": "KOMET-001",
-     "text": "enrolment 112 in the corpus, 263 on the registry (estimated; 57 percent apart)"
+     "text": "enrolment 112 in the corpus (treated), 263 on the registry (estimated; 57 percent apart): ClinicalTrials.gov lists an estimated 263 participants for the phase 1/2 study; 112 is the FDA efficacy population at 600 mg quoted in the approval coverage, while the JCO 2025 phase 2 paper reports 92 patients treated between January 2023 and May 2024."
     }
    ]
   },
@@ -2219,7 +2410,8 @@
    "counts": {
     "trials": 17,
     "checked": 6,
-    "contradictions": 1,
+    "contradictions": 0,
+    "explained": 1,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -2233,6 +2425,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 596,
+      "enrolledBasis": "registered",
+      "enrolledNote": "ClinicalTrials.gov lists an estimated 710 participants and the record's status is unknown, meaning the sponsor has not verified it recently; the NEJM 2015 paper reports 596 patients enrolled between 2004 and 2014, with the first 500 analysed.",
       "yearReported": 2015
      },
      "registry": {
@@ -2248,8 +2442,9 @@
       "completion": "2019-06",
       "lastUpdate": "2017-06-16"
      },
-     "contradictions": [
-      "enrolment 596 in the corpus, 710 on the registry (estimated; 16 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 596 in the corpus (registered), 710 on the registry (estimated; 16 percent apart): ClinicalTrials.gov lists an estimated 710 participants and the record's status is unknown, meaning the sponsor has not verified it recently; the NEJM 2015 paper reports 596 patients enrolled between 2004 and 2014, with the first 500 analysed."
      ],
      "papers": []
     },
@@ -2261,6 +2456,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 398,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -2277,6 +2473,7 @@
       "lastUpdate": "2026-03-09"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2286,10 +2483,12 @@
       "status": "positive",
       "phase": "observational",
       "enrolled": 17729,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2299,10 +2498,12 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 24,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2313,6 +2514,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 500,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -2329,6 +2531,7 @@
       "lastUpdate": "2024-12-05"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2339,6 +2542,7 @@
       "status": "positive",
       "phase": "4",
       "enrolled": 2275,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -2355,6 +2559,7 @@
       "lastUpdate": "2023-12-13"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2364,10 +2569,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 191873,
+      "enrolledBasis": "registry",
       "yearReported": 2005
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2377,10 +2584,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 151,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2390,10 +2599,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 238,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2403,10 +2614,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 151538,
+      "enrolledBasis": "registry",
       "yearReported": 2014
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2416,10 +2629,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 422,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2430,6 +2645,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 397,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -2446,6 +2662,7 @@
       "lastUpdate": "2026-05-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2455,10 +2672,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 131746,
+      "enrolledBasis": "registry",
       "yearReported": 2009
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2469,6 +2688,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 4088,
+      "enrolledBasis": "registry",
       "yearReported": 2019
      },
      "registry": {
@@ -2484,6 +2704,7 @@
       "lastUpdate": "2011-09-02"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2493,10 +2714,12 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 59,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2506,10 +2729,12 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 976,
+      "enrolledBasis": "registry",
       "yearReported": 2011
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2519,19 +2744,22 @@
       "status": "positive",
       "phase": "1/2",
       "enrolled": 64,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "elective-neck-dissection-tmh",
      "name": "Elective vs therapeutic neck dissection in node-negative oral cancer (Tata Memorial)",
-     "text": "enrolment 596 in the corpus, 710 on the registry (estimated; 16 percent apart)"
+     "text": "enrolment 596 in the corpus (registered), 710 on the registry (estimated; 16 percent apart): ClinicalTrials.gov lists an estimated 710 participants and the record's status is unknown, meaning the sponsor has not verified it recently; the NEJM 2015 paper reports 596 patients enrolled between 2004 and 2014, with the first 500 analysed."
     }
    ]
   },
@@ -2543,7 +2771,8 @@
    "counts": {
     "trials": 32,
     "checked": 32,
-    "contradictions": 6,
+    "contradictions": 0,
+    "explained": 5,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -2557,6 +2786,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1306,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -2573,6 +2803,7 @@
       "lastUpdate": "2025-12-04"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2583,6 +2814,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1150,
+      "enrolledBasis": "registry",
       "yearReported": 2019
      },
      "registry": {
@@ -2599,6 +2831,7 @@
       "lastUpdate": "2025-10-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2608,7 +2841,8 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 10000
+      "enrolled": 10000,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT05952557",
@@ -2624,6 +2858,7 @@
       "lastUpdate": "2026-08-10"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2634,6 +2869,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1012,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -2650,6 +2886,7 @@
       "lastUpdate": "2026-09-10"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2660,6 +2897,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 708,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 818 participants (actual); the NEJM 2023 primary analysis randomised 708 patients.",
       "yearReported": 2022
      },
      "registry": {
@@ -2675,8 +2914,9 @@
       "completion": "2026-06-22",
       "lastUpdate": "2026-04-30"
      },
-     "contradictions": [
-      "enrolment 708 in the corpus, 818 on the registry (actual; 13 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 708 in the corpus (randomised), 818 on the registry (actual; 13 percent apart): ClinicalTrials.gov lists 818 participants (actual); the NEJM 2023 primary analysis randomised 708 patients."
      ],
      "papers": []
     },
@@ -2688,6 +2928,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 790,
+      "enrolledBasis": "registry",
       "yearReported": 2015
      },
      "registry": {
@@ -2704,6 +2945,7 @@
       "lastUpdate": "2025-12-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2714,6 +2956,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1068,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -2730,6 +2973,7 @@
       "lastUpdate": "2026-07-09"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2740,6 +2984,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 874,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -2756,6 +3001,7 @@
       "lastUpdate": "2026-07-22"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2766,6 +3012,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 478,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": {
@@ -2782,6 +3029,7 @@
       "lastUpdate": "2025-09-15"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2792,6 +3040,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 320,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 373 participants (actual); 320 is the randomised population presented at ESMO 2025 and quoted in the summary. No journal paper is indexed on Europe PMC yet, so the figure has not been checked against a primary publication.",
       "yearReported": 2025
      },
      "registry": {
@@ -2807,8 +3057,9 @@
       "completion": "2026-10-15",
       "lastUpdate": "2026-06-17"
      },
-     "contradictions": [
-      "enrolment 320 in the corpus, 373 on the registry (actual; 14 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 320 in the corpus (randomised), 373 on the registry (actual; 14 percent apart): ClinicalTrials.gov lists 373 participants (actual); 320 is the randomised population presented at ESMO 2025 and quoted in the summary. No journal paper is indexed on Europe PMC yet, so the figure has not been checked against a primary publication."
      ],
      "papers": []
     },
@@ -2819,7 +3070,8 @@
      "corpus": {
       "status": "positive",
       "phase": "2",
-      "enrolled": 400,
+      "enrolled": 333,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": {
@@ -2835,9 +3087,8 @@
       "completion": "2028-01-21",
       "lastUpdate": "2026-08-20"
      },
-     "contradictions": [
-      "enrolment 400 in the corpus, 333 on the registry (actual; 20 percent apart)"
-     ],
+     "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2848,6 +3099,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1209,
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -2864,6 +3116,7 @@
       "lastUpdate": "2025-02-04"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2874,6 +3127,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 4170,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -2890,6 +3144,7 @@
       "lastUpdate": "2026-06-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2900,6 +3155,8 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 423,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 765 participants (actual) across all cohorts; the JCO 2023 primary analysis randomised 423 patients in the HRR-positive cohort, the population behind the headline result, and 247 in the HRR-negative cohort.",
       "yearReported": 2022
      },
      "registry": {
@@ -2915,8 +3172,9 @@
       "completion": "2027-12-31",
       "lastUpdate": "2026-09-21"
      },
-     "contradictions": [
-      "enrolment 423 in the corpus, 765 on the registry (actual; 45 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 423 in the corpus (randomised), 765 on the registry (actual; 45 percent apart): ClinicalTrials.gov lists 765 participants (actual) across all cohorts; the JCO 2023 primary analysis randomised 423 patients in the HRR-positive cohort, the population behind the headline result, and 247 in the HRR-negative cohort."
      ],
      "papers": []
     },
@@ -2927,7 +3185,8 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 600
+      "enrolled": 600,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT06551324",
@@ -2943,6 +3202,7 @@
       "lastUpdate": "2026-08-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2953,6 +3213,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 668,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -2969,6 +3230,7 @@
       "lastUpdate": "2025-03-07"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -2979,6 +3241,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 493,
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -2995,6 +3258,7 @@
       "lastUpdate": "2026-02-03"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3005,6 +3269,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 5637,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -3021,6 +3286,7 @@
       "lastUpdate": "2026-04-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3031,6 +3297,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 5101,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -3047,6 +3314,7 @@
       "lastUpdate": "2026-09-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3057,6 +3325,7 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 6862,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -3073,6 +3342,7 @@
       "lastUpdate": "2026-06-15"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3083,6 +3353,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 666,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -3099,6 +3370,7 @@
       "lastUpdate": "2024-11-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3109,6 +3381,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1173,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": {
@@ -3125,6 +3398,7 @@
       "lastUpdate": "2024-11-12"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3135,6 +3409,7 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 992,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": {
@@ -3151,6 +3426,7 @@
       "lastUpdate": "2026-08-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3161,6 +3437,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 368,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -3177,6 +3454,7 @@
       "lastUpdate": "2026-01-16"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3187,6 +3465,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 796,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 895 participants (actual); 1,103 patients were screened and 796 randomised (399 olaparib, 397 placebo) in the primary analysis.",
       "yearReported": 2022
      },
      "registry": {
@@ -3202,8 +3482,9 @@
       "completion": "2027-02-05",
       "lastUpdate": "2026-08-18"
      },
-     "contradictions": [
-      "enrolment 796 in the corpus, 895 on the registry (actual; 11 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 796 in the corpus (randomised), 895 on the registry (actual; 11 percent apart): ClinicalTrials.gov lists 895 participants (actual); 1,103 patients were screened and 796 randomised (399 olaparib, 397 placebo) in the primary analysis."
      ],
      "papers": []
     },
@@ -3215,6 +3496,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 469,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -3231,6 +3513,7 @@
       "lastUpdate": "2026-09-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3241,6 +3524,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 315,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -3257,6 +3541,7 @@
       "lastUpdate": "2026-07-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3267,6 +3552,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 5738,
+      "enrolledBasis": "registry",
       "yearReported": 2014
      },
      "registry": {
@@ -3283,6 +3569,7 @@
       "lastUpdate": "2026-08-26"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3293,6 +3580,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 572,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -3309,6 +3597,7 @@
       "lastUpdate": "2025-02-13"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3319,6 +3608,7 @@
       "status": "positive",
       "phase": "platform",
       "enrolled": 11992,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -3336,6 +3626,7 @@
       "lastUpdate": "2023-04-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3346,6 +3637,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 805,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 1,054 participants (actual) across both cohorts; the Lancet 2023 primary analysis randomised 805 patients in the all-comers cohort (402 talazoparib, 403 placebo).",
       "yearReported": 2023
      },
      "registry": {
@@ -3361,8 +3654,9 @@
       "completion": "2027-06-30",
       "lastUpdate": "2026-09-08"
      },
-     "contradictions": [
-      "enrolment 805 in the corpus, 1054 on the registry (actual; 24 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 805 in the corpus (randomised), 1054 on the registry (actual; 24 percent apart): ClinicalTrials.gov lists 1,054 participants (actual) across both cohorts; the Lancet 2023 primary analysis randomised 805 patients in the all-comers cohort (402 talazoparib, 403 placebo)."
      ],
      "papers": []
     },
@@ -3374,6 +3668,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 624,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -3390,40 +3685,37 @@
       "lastUpdate": "2026-03-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "capitello-291",
      "name": "CAPItello-291",
-     "text": "enrolment 708 in the corpus, 818 on the registry (actual; 13 percent apart)"
+     "text": "enrolment 708 in the corpus (randomised), 818 on the registry (actual; 13 percent apart): ClinicalTrials.gov lists 818 participants (actual); the NEJM 2023 primary analysis randomised 708 patients."
     },
     {
      "ref": "evera",
      "name": "evERA",
-     "text": "enrolment 320 in the corpus, 373 on the registry (actual; 14 percent apart)"
-    },
-    {
-     "ref": "fourlight-1",
-     "name": "FOURLIGHT-1",
-     "text": "enrolment 400 in the corpus, 333 on the registry (actual; 20 percent apart)"
+     "text": "enrolment 320 in the corpus (randomised), 373 on the registry (actual; 14 percent apart): ClinicalTrials.gov lists 373 participants (actual); 320 is the randomised population presented at ESMO 2025 and quoted in the summary. No journal paper is indexed on Europe PMC yet, so the figure has not been checked against a primary publication."
     },
     {
      "ref": "magnitude",
      "name": "MAGNITUDE",
-     "text": "enrolment 423 in the corpus, 765 on the registry (actual; 45 percent apart)"
+     "text": "enrolment 423 in the corpus (randomised), 765 on the registry (actual; 45 percent apart): ClinicalTrials.gov lists 765 participants (actual) across all cohorts; the JCO 2023 primary analysis randomised 423 patients in the HRR-positive cohort, the population behind the headline result, and 247 in the HRR-negative cohort."
     },
     {
      "ref": "propel",
      "name": "PROpel",
-     "text": "enrolment 796 in the corpus, 895 on the registry (actual; 11 percent apart)"
+     "text": "enrolment 796 in the corpus (randomised), 895 on the registry (actual; 11 percent apart): ClinicalTrials.gov lists 895 participants (actual); 1,103 patients were screened and 796 randomised (399 olaparib, 397 placebo) in the primary analysis."
     },
     {
      "ref": "talapro-2",
      "name": "TALAPRO-2",
-     "text": "enrolment 805 in the corpus, 1054 on the registry (actual; 24 percent apart)"
+     "text": "enrolment 805 in the corpus (randomised), 1054 on the registry (actual; 24 percent apart): ClinicalTrials.gov lists 1,054 participants (actual) across both cohorts; the Lancet 2023 primary analysis randomised 805 patients in the all-comers cohort (402 talazoparib, 403 placebo)."
     }
    ]
   },
@@ -3436,6 +3728,7 @@
     "trials": 4,
     "checked": 4,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -3449,6 +3742,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 443,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -3465,6 +3759,7 @@
       "lastUpdate": "2025-09-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3475,6 +3770,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 945,
+      "enrolledBasis": "registry",
       "yearReported": 2015
      },
      "registry": {
@@ -3491,6 +3787,7 @@
       "lastUpdate": "2025-05-21"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3501,6 +3798,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1137,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": {
@@ -3517,6 +3815,7 @@
       "lastUpdate": "2025-09-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3527,6 +3826,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1174,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -3543,11 +3843,13 @@
       "lastUpdate": "2025-10-29"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "kras-roadmap",
@@ -3558,13 +3860,15 @@
     "trials": 0,
     "checked": 0,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
    "trials": [],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "molecular-imaging-roadmap",
@@ -3575,13 +3879,15 @@
     "trials": 0,
     "checked": 0,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
    "trials": [],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "paediatric-oncology-roadmap",
@@ -3591,7 +3897,8 @@
    "counts": {
     "trials": 20,
     "checked": 20,
-    "contradictions": 8,
+    "contradictions": 0,
+    "explained": 6,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -3604,7 +3911,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "3",
-      "enrolled": 510
+      "enrolled": 510,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT05580562",
@@ -3620,6 +3928,7 @@
       "lastUpdate": "2026-04-16"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3630,6 +3939,7 @@
       "status": "active",
       "phase": "observational",
       "enrolled": 50000,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -3643,6 +3953,7 @@
       "lastUpdate": "2026-06-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3653,6 +3964,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1440,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists an estimated 6,720 participants for the whole trial, which enrols all standard-risk patients; the NEJM 2024 interim analysis covered the 1,440 patients randomised (722 chemotherapy, 718 blinatumomab) before randomisation was stopped.",
       "yearReported": 2024
      },
      "registry": {
@@ -3668,8 +3981,9 @@
       "completion": "2027-09-30",
       "lastUpdate": "2026-07-30"
      },
-     "contradictions": [
-      "enrolment 1440 in the corpus, 6720 on the registry (estimated; 79 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 1440 in the corpus (randomised), 6720 on the registry (estimated; 79 percent apart): ClinicalTrials.gov lists an estimated 6,720 participants for the whole trial, which enrols all standard-risk patients; the NEJM 2024 interim analysis covered the 1,440 patients randomised (722 chemotherapy, 718 blinatumomab) before randomisation was stopped."
      ],
      "papers": []
     },
@@ -3681,6 +3995,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1070,
+      "enrolledBasis": "registry",
       "yearReported": 2014
      },
      "registry": {
@@ -3697,6 +4012,7 @@
       "lastUpdate": "2021-03-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3707,6 +4023,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 549,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": {
@@ -3723,6 +4040,7 @@
       "lastUpdate": "2026-06-09"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3733,6 +4051,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 226,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 1,449 participants (actual) enrolled over the life of the study; the NEJM 2010 analysis randomised 226 eligible patients.",
       "yearReported": 2010
      },
      "registry": {
@@ -3748,8 +4068,9 @@
       "completion": "2025-12-31",
       "lastUpdate": "2026-03-05"
      },
-     "contradictions": [
-      "enrolment 226 in the corpus, 1449 on the registry (actual; 84 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 226 in the corpus (randomised), 1449 on the registry (actual; 84 percent apart): ClinicalTrials.gov lists 1,449 participants (actual) enrolled over the life of the study; the NEJM 2010 analysis randomised 226 eligible patients."
      ],
      "papers": []
     },
@@ -3761,6 +4082,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 665,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -3777,6 +4099,7 @@
       "lastUpdate": "2022-04-28"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3785,7 +4108,8 @@
      "nct": "NCT03126916",
      "corpus": {
       "status": "active",
-      "phase": "3"
+      "phase": "3",
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT03126916",
@@ -3801,6 +4125,7 @@
       "lastUpdate": "2026-08-25"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3811,6 +4136,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 395,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -3827,6 +4153,7 @@
       "lastUpdate": "2026-07-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3836,7 +4163,9 @@
      "corpus": {
       "status": "positive",
       "phase": "2",
-      "enrolled": 97,
+      "enrolled": 79,
+      "enrolledBasis": "treated",
+      "enrolledNote": "ClinicalTrials.gov lists 80 participants (actual); the JCO 2023 three-year update reports 79 infused patients and the NEJM 2018 primary analysis 75.",
       "yearReported": 2018
      },
      "registry": {
@@ -3852,9 +4181,8 @@
       "completion": "2022-11-17",
       "lastUpdate": "2024-02-13"
      },
-     "contradictions": [
-      "enrolment 97 in the corpus, 80 on the registry (actual; 21 percent apart)"
-     ],
+     "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3865,6 +4193,8 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 2260,
+      "enrolledBasis": "registered",
+      "enrolledNote": "ClinicalTrials.gov lists 1,334 participants (actual), the patients randomised (618 poor responders and 716 good responders); the Lancet Oncology 2016 paper reports 2,260 patients registered from 325 sites in 17 countries.",
       "yearReported": 2016
      },
      "registry": {
@@ -3880,8 +4210,9 @@
       "completion": "2022-09-30",
       "lastUpdate": "2023-06-07"
      },
-     "contradictions": [
-      "enrolment 2260 in the corpus, 1334 on the registry (actual; 69 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 2260 in the corpus (registered), 1334 on the registry (actual; 69 percent apart): ClinicalTrials.gov lists 1,334 participants (actual), the patients randomised (618 poor responders and 716 good responders); the Lancet Oncology 2016 paper reports 2,260 patients registered from 325 sites in 17 countries."
      ],
      "papers": []
     },
@@ -3893,6 +4224,7 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 141,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -3909,6 +4241,7 @@
       "lastUpdate": "2025-04-10"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3919,6 +4252,8 @@
       "status": "positive",
       "phase": "1/2",
       "enrolled": 27,
+      "enrolledBasis": "treated",
+      "enrolledNote": "ClinicalTrials.gov lists an estimated 42 participants for the phase 1/2 study, which is still active; the NEJM 2023 paper reports the 27 patients treated.",
       "yearReported": 2023
      },
      "registry": {
@@ -3935,8 +4270,9 @@
       "completion": "2027-12",
       "lastUpdate": "2025-02-05"
      },
-     "contradictions": [
-      "enrolment 27 in the corpus, 42 on the registry (estimated; 36 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 27 in the corpus (treated), 42 on the registry (estimated; 36 percent apart): ClinicalTrials.gov lists an estimated 42 participants for the phase 1/2 study, which is still active; the NEJM 2023 paper reports the 27 patients treated."
      ],
      "papers": []
     },
@@ -3948,6 +4284,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 518,
+      "enrolledBasis": "registry",
       "yearReported": 2003
      },
      "registry": {
@@ -3960,6 +4297,7 @@
       "lastUpdate": "2013-09-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3970,6 +4308,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 482,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -3986,6 +4325,7 @@
       "lastUpdate": "2026-02-09"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -3996,6 +4336,8 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 651,
+      "enrolledBasis": "registered",
+      "enrolledNote": "ClinicalTrials.gov lists an estimated 445 participants and the record's status is unknown, meaning the sponsor has not verified it recently; the JCO 2019 paper reports 651 infants included.",
       "yearReported": 2019
      },
      "registry": {
@@ -4010,8 +4352,9 @@
       "primaryCompletion": "2020-12",
       "lastUpdate": "2019-07-30"
      },
-     "contradictions": [
-      "enrolment 651 in the corpus, 445 on the registry (estimated; 46 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 651 in the corpus (registered), 445 on the registry (estimated; 46 percent apart): ClinicalTrials.gov lists an estimated 445 participants and the record's status is unknown, meaning the sponsor has not verified it recently; the JCO 2019 paper reports 651 infants included."
      ],
      "papers": []
     },
@@ -4023,6 +4366,7 @@
       "status": "active",
       "phase": "platform",
       "enrolled": 1377,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -4039,6 +4383,7 @@
       "lastUpdate": "2026-07-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4048,7 +4393,8 @@
      "corpus": {
       "status": "mixed",
       "phase": "3",
-      "enrolled": 3700,
+      "enrolled": 3300,
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -4064,9 +4410,8 @@
       "completion": "2026-09",
       "lastUpdate": "2020-10-23"
      },
-     "contradictions": [
-      "enrolment 3700 in the corpus, 3300 on the registry (estimated; 12 percent apart)"
-     ],
+     "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4077,6 +4422,8 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 110,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 151 participants (actual) across the study's cohorts; the NEJM 2023 low-grade glioma analysis randomised 110 patients (73 dabrafenib plus trametinib, 37 chemotherapy).",
       "yearReported": 2023
      },
      "registry": {
@@ -4092,8 +4439,9 @@
       "completion": "2023-04-28",
       "lastUpdate": "2023-12-13"
      },
-     "contradictions": [
-      "enrolment 110 in the corpus, 151 on the registry (actual; 27 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 110 in the corpus (randomised), 151 on the registry (actual; 27 percent apart): ClinicalTrials.gov lists 151 participants (actual) across the study's cohorts; the NEJM 2023 low-grade glioma analysis randomised 110 patients (73 dabrafenib plus trametinib, 37 chemotherapy)."
      ],
      "papers": []
     },
@@ -4105,6 +4453,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 405,
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -4121,50 +4470,42 @@
       "lastUpdate": "2024-03-05"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "aall1731",
      "name": "COG AALL1731",
-     "text": "enrolment 1440 in the corpus, 6720 on the registry (estimated; 79 percent apart)"
+     "text": "enrolment 1440 in the corpus (randomised), 6720 on the registry (estimated; 79 percent apart): ClinicalTrials.gov lists an estimated 6,720 participants for the whole trial, which enrols all standard-risk patients; the NEJM 2024 interim analysis covered the 1,440 patients randomised (722 chemotherapy, 718 blinatumomab) before randomisation was stopped."
     },
     {
      "ref": "anbl0032",
      "name": "COG ANBL0032",
-     "text": "enrolment 226 in the corpus, 1449 on the registry (actual; 84 percent apart)"
-    },
-    {
-     "ref": "eliana",
-     "name": "ELIANA",
-     "text": "enrolment 97 in the corpus, 80 on the registry (actual; 21 percent apart)"
+     "text": "enrolment 226 in the corpus (randomised), 1449 on the registry (actual; 84 percent apart): ClinicalTrials.gov lists 1,449 participants (actual) enrolled over the life of the study; the NEJM 2010 analysis randomised 226 eligible patients."
     },
     {
      "ref": "euramos-1",
      "name": "EURAMOS-1",
-     "text": "enrolment 2260 in the corpus, 1334 on the registry (actual; 69 percent apart)"
+     "text": "enrolment 2260 in the corpus (registered), 1334 on the registry (actual; 69 percent apart): ClinicalTrials.gov lists 1,334 participants (actual), the patients randomised (618 poor responders and 716 good responders); the Lancet Oncology 2016 paper reports 2,260 patients registered from 325 sites in 17 countries."
     },
     {
      "ref": "gd2-cart01",
      "name": "GD2-CART01 (Bambino Gesù phase 1/2)",
-     "text": "enrolment 27 in the corpus, 42 on the registry (estimated; 36 percent apart)"
+     "text": "enrolment 27 in the corpus (treated), 42 on the registry (estimated; 36 percent apart): ClinicalTrials.gov lists an estimated 42 participants for the phase 1/2 study, which is still active; the NEJM 2023 paper reports the 27 patients treated."
     },
     {
      "ref": "interfant-06",
      "name": "Interfant-06",
-     "text": "enrolment 651 in the corpus, 445 on the registry (estimated; 46 percent apart)"
-    },
-    {
-     "ref": "hr-nbl1",
-     "name": "SIOPEN HR-NBL1",
-     "text": "enrolment 3700 in the corpus, 3300 on the registry (estimated; 12 percent apart)"
+     "text": "enrolment 651 in the corpus (registered), 445 on the registry (estimated; 46 percent apart): ClinicalTrials.gov lists an estimated 445 participants and the record's status is unknown, meaning the sponsor has not verified it recently; the JCO 2019 paper reports 651 infants included."
     },
     {
      "ref": "tadpole",
      "name": "TADPOLE (CDRB436G2201)",
-     "text": "enrolment 110 in the corpus, 151 on the registry (actual; 27 percent apart)"
+     "text": "enrolment 110 in the corpus (randomised), 151 on the registry (actual; 27 percent apart): ClinicalTrials.gov lists 151 participants (actual) across the study's cohorts; the NEJM 2023 low-grade glioma analysis randomised 110 patients (73 dabrafenib plus trametinib, 37 chemotherapy)."
     }
    ]
   },
@@ -4177,13 +4518,15 @@
     "trials": 0,
     "checked": 0,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
    "trials": [],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "frontier-2035",
@@ -4194,13 +4537,15 @@
     "trials": 0,
     "checked": 0,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
    "trials": [],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "radiopharma-roadmap",
@@ -4211,6 +4556,7 @@
     "trials": 2,
     "checked": 2,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -4224,6 +4570,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 469,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -4240,6 +4587,7 @@
       "lastUpdate": "2026-09-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4250,6 +4598,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 861,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": {
@@ -4266,11 +4615,13 @@
       "lastUpdate": "2025-01-13"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "radiation-roadmap",
@@ -4281,6 +4632,7 @@
     "trials": 13,
     "checked": 12,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -4294,6 +4646,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 549,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": {
@@ -4310,6 +4663,7 @@
       "lastUpdate": "2026-06-09"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4320,6 +4674,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 547,
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -4336,6 +4691,7 @@
       "lastUpdate": "2022-09-08"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4346,10 +4702,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 366,
+      "enrolledBasis": "registry",
       "yearReported": 2012
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4360,6 +4718,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 575,
+      "enrolledBasis": "registry",
       "yearReported": 2005
      },
      "registry": {
@@ -4375,6 +4734,7 @@
       "lastUpdate": "2012-09-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4385,6 +4745,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 776,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -4401,6 +4762,7 @@
       "lastUpdate": "2023-05-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4411,6 +4773,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 500,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -4427,6 +4790,7 @@
       "lastUpdate": "2024-12-05"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4437,6 +4801,7 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 697,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -4453,6 +4818,7 @@
       "lastUpdate": "2021-09-22"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4463,6 +4829,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1060,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -4479,6 +4846,7 @@
       "lastUpdate": "2026-02-20"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4489,6 +4857,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 216,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -4505,6 +4874,7 @@
       "lastUpdate": "2026-08-04"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4514,6 +4884,7 @@
      "corpus": {
       "status": "mixed",
       "phase": "2/3",
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -4531,6 +4902,7 @@
       "lastUpdate": "2026-07-02"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4541,6 +4913,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 713,
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -4557,6 +4930,7 @@
       "lastUpdate": "2023-10-10"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4567,6 +4941,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 660,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -4583,6 +4958,7 @@
       "lastUpdate": "2023-10-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4593,6 +4969,7 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 730,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -4609,11 +4986,13 @@
       "lastUpdate": "2025-10-08"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "survivorship-roadmap",
@@ -4624,6 +5003,7 @@
     "trials": 6,
     "checked": 4,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -4637,6 +5017,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 889,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -4653,6 +5034,7 @@
       "lastUpdate": "2026-04-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4663,6 +5045,7 @@
       "status": "active",
       "phase": "observational",
       "enrolled": 50000,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -4676,6 +5059,7 @@
       "lastUpdate": "2026-06-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4685,10 +5069,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 124,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4699,6 +5085,7 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 187,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -4715,6 +5102,7 @@
       "lastUpdate": "2026-06-03"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4724,10 +5112,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 251,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4738,6 +5128,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 979,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -4754,11 +5145,13 @@
       "lastUpdate": "2017-10-27"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   },
   {
    "id": "surgery-roadmap",
@@ -4768,7 +5161,8 @@
    "counts": {
     "trials": 22,
     "checked": 20,
-    "contradictions": 5,
+    "contradictions": 0,
+    "explained": 5,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -4782,6 +5176,7 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 154,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": {
@@ -4798,6 +5193,7 @@
       "lastUpdate": "2026-05-26"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4808,6 +5204,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 358,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 505 participants (actual) across all arms, including nivolumab plus ipilimumab; the NEJM 2022 primary analysis compared 179 patients randomised to nivolumab plus chemotherapy with 179 randomised to chemotherapy.",
       "yearReported": 2022
      },
      "registry": {
@@ -4823,8 +5221,9 @@
       "completion": "2024-12-06",
       "lastUpdate": "2026-01-06"
      },
-     "contradictions": [
-      "enrolment 358 in the corpus, 505 on the registry (actual; 29 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 358 in the corpus (randomised), 505 on the registry (actual; 29 percent apart): ClinicalTrials.gov lists 505 participants (actual) across all arms, including nivolumab plus ipilimumab; the NEJM 2022 primary analysis compared 179 patients randomised to nivolumab plus chemotherapy with 179 randomised to chemotherapy."
      ],
      "papers": []
     },
@@ -4836,6 +5235,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 927,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -4852,6 +5252,7 @@
       "lastUpdate": "2026-08-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4862,6 +5263,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 596,
+      "enrolledBasis": "registered",
+      "enrolledNote": "ClinicalTrials.gov lists an estimated 710 participants and the record's status is unknown, meaning the sponsor has not verified it recently; the NEJM 2015 paper reports 596 patients enrolled between 2004 and 2014, with the first 500 analysed.",
       "yearReported": 2015
      },
      "registry": {
@@ -4877,8 +5280,9 @@
       "completion": "2019-06",
       "lastUpdate": "2017-06-16"
      },
-     "contradictions": [
-      "enrolment 596 in the corpus, 710 on the registry (estimated; 16 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 596 in the corpus (registered), 710 on the registry (estimated; 16 percent apart): ClinicalTrials.gov lists an estimated 710 participants and the record's status is unknown, meaning the sponsor has not verified it recently; the NEJM 2015 paper reports 596 patients enrolled between 2004 and 2014, with the first 500 analysed."
      ],
      "papers": []
     },
@@ -4890,6 +5294,8 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 616,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 724 participants (actual); the Lancet 2025 paper reports 887 patients screened and 616 randomised (204, 207 and 205 across the three arms).",
       "yearReported": 2024
      },
      "registry": {
@@ -4905,8 +5311,9 @@
       "completion": "2026-08-31",
       "lastUpdate": "2026-07-15"
      },
-     "contradictions": [
-      "enrolment 616 in the corpus, 724 on the registry (actual; 15 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 616 in the corpus (randomised), 724 on the registry (actual; 15 percent apart): ClinicalTrials.gov lists 724 participants (actual); the Lancet 2025 paper reports 887 patients screened and 616 randomised (204, 207 and 205 across the three arms)."
      ],
      "papers": []
     },
@@ -4918,6 +5325,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 776,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -4934,6 +5342,7 @@
       "lastUpdate": "2023-05-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4943,6 +5352,7 @@
      "corpus": {
       "status": "positive",
       "phase": "observational",
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -4959,6 +5369,7 @@
       "lastUpdate": "2018-07-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4969,6 +5380,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1174,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -4985,6 +5397,7 @@
       "lastUpdate": "2025-10-29"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -4995,6 +5408,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 797,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -5011,6 +5425,7 @@
       "lastUpdate": "2026-07-29"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5021,6 +5436,7 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 636,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -5037,6 +5453,7 @@
       "lastUpdate": "2023-04-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5047,6 +5464,7 @@
       "status": "negative",
       "phase": "3",
       "enrolled": 335,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -5063,6 +5481,7 @@
       "lastUpdate": "2019-10-30"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5073,6 +5492,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 957,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -5089,6 +5509,7 @@
       "lastUpdate": "2025-12-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5099,6 +5520,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1939,
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -5115,6 +5537,7 @@
       "lastUpdate": "2022-05-13"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5125,6 +5548,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 423,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -5141,6 +5565,7 @@
       "lastUpdate": "2024-03-08"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5151,6 +5576,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1063,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -5167,6 +5593,7 @@
       "lastUpdate": "2026-07-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5177,6 +5604,8 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 115,
+      "enrolledBasis": "registered",
+      "enrolledNote": "ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis.",
       "yearReported": 2022
      },
      "registry": {
@@ -5192,8 +5621,9 @@
       "completion": "2032-03-01",
       "lastUpdate": "2026-03-05"
      },
-     "contradictions": [
-      "enrolment 115 in the corpus, 353 on the registry (estimated; 67 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
      ],
      "papers": []
     },
@@ -5205,6 +5635,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 245,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -5221,6 +5652,7 @@
       "lastUpdate": "2018-08-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5230,10 +5662,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 251,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5244,10 +5678,12 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 246,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5257,7 +5693,9 @@
      "corpus": {
       "status": "positive",
       "phase": "3",
-      "enrolled": 274,
+      "enrolled": 309,
+      "enrolledBasis": "analysed",
+      "enrolledNote": "ClinicalTrials.gov lists 776 participants (actual); the Lancet Oncology 2025 paper reports 1,115 individuals screened and 309 included in the analysis (198 active surveillance, 111 standard surgery).",
       "yearReported": 2023
      },
      "registry": {
@@ -5273,8 +5711,9 @@
       "completion": "2026-06-01",
       "lastUpdate": "2024-09-19"
      },
-     "contradictions": [
-      "enrolment 274 in the corpus, 776 on the registry (actual; 65 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 309 in the corpus (analysed), 776 on the registry (actual; 60 percent apart): ClinicalTrials.gov lists 776 participants (actual); the Lancet Oncology 2025 paper reports 1,115 individuals screened and 309 included in the analysis (198 active surveillance, 111 standard surgery)."
      ],
      "papers": []
     },
@@ -5284,7 +5723,8 @@
      "nct": "NCT03386734",
      "corpus": {
       "status": "active",
-      "phase": "3"
+      "phase": "3",
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT03386734",
@@ -5300,6 +5740,7 @@
       "lastUpdate": "2024-07-08"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5310,6 +5751,7 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 313,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -5326,35 +5768,37 @@
       "lastUpdate": "2026-08-04"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "checkmate-816",
      "name": "CheckMate 816",
-     "text": "enrolment 358 in the corpus, 505 on the registry (actual; 29 percent apart)"
+     "text": "enrolment 358 in the corpus (randomised), 505 on the registry (actual; 29 percent apart): ClinicalTrials.gov lists 505 participants (actual) across all arms, including nivolumab plus ipilimumab; the NEJM 2022 primary analysis compared 179 patients randomised to nivolumab plus chemotherapy with 179 randomised to chemotherapy."
     },
     {
      "ref": "elective-neck-dissection-tmh",
      "name": "Elective vs therapeutic neck dissection in node-negative oral cancer (Tata Memorial)",
-     "text": "enrolment 596 in the corpus, 710 on the registry (estimated; 16 percent apart)"
+     "text": "enrolment 596 in the corpus (registered), 710 on the registry (estimated; 16 percent apart): ClinicalTrials.gov lists an estimated 710 participants and the record's status is unknown, meaning the sponsor has not verified it recently; the NEJM 2015 paper reports 596 patients enrolled between 2004 and 2014, with the first 500 analysed."
     },
     {
      "ref": "emerald-1",
      "name": "EMERALD-1",
-     "text": "enrolment 616 in the corpus, 724 on the registry (actual; 15 percent apart)"
+     "text": "enrolment 616 in the corpus (randomised), 724 on the registry (actual; 15 percent apart): ClinicalTrials.gov lists 724 participants (actual); the Lancet 2025 paper reports 887 patients screened and 616 randomised (204, 207 and 205 across the three arms)."
     },
     {
      "ref": "niche-2",
      "name": "NICHE-2",
-     "text": "enrolment 115 in the corpus, 353 on the registry (estimated; 67 percent apart)"
+     "text": "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
     },
     {
      "ref": "sano",
      "name": "SANO",
-     "text": "enrolment 274 in the corpus, 776 on the registry (actual; 65 percent apart)"
+     "text": "enrolment 309 in the corpus (analysed), 776 on the registry (actual; 60 percent apart): ClinicalTrials.gov lists 776 participants (actual); the Lancet Oncology 2025 paper reports 1,115 individuals screened and 309 included in the analysis (198 active surveillance, 111 standard surgery)."
     }
    ]
   },
@@ -5366,7 +5810,8 @@
    "counts": {
     "trials": 27,
     "checked": 25,
-    "contradictions": 3,
+    "contradictions": 0,
+    "explained": 1,
     "papers": 3,
     "watch": 0,
     "watchPassed": 0
@@ -5380,6 +5825,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 682,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -5396,6 +5842,7 @@
       "lastUpdate": "2026-09-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": [
       {
        "pmid": "42732874",
@@ -5414,6 +5861,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 257,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -5430,6 +5878,7 @@
       "lastUpdate": "2026-07-15"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5439,7 +5888,8 @@
      "corpus": {
       "status": "positive",
       "phase": "1/2",
-      "enrolled": 432,
+      "enrolled": 840,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -5456,9 +5906,8 @@
       "completion": "2028-01",
       "lastUpdate": "2026-05-27"
      },
-     "contradictions": [
-      "enrolment 432 in the corpus, 840 on the registry (estimated; 49 percent apart)"
-     ],
+     "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5469,6 +5918,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 238,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -5485,6 +5935,7 @@
       "lastUpdate": "2026-04-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5492,10 +5943,12 @@
      "name": "CaDAnCe-304",
      "corpus": {
       "status": "recruiting",
-      "phase": "3"
+      "phase": "3",
+      "enrolledBasis": "registry"
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5506,6 +5959,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 345,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -5522,6 +5976,7 @@
       "lastUpdate": "2026-07-22"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5532,6 +5987,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 160,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -5548,6 +6004,7 @@
       "lastUpdate": "2026-07-22"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5558,6 +6015,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 870,
+      "enrolledBasis": "registry",
       "yearReported": 2017
      },
      "registry": {
@@ -5574,6 +6032,7 @@
       "lastUpdate": "2026-04-21"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5584,6 +6043,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 267,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": {
@@ -5600,6 +6060,7 @@
       "lastUpdate": "2026-08-28"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5610,6 +6071,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 587,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -5626,6 +6088,7 @@
       "lastUpdate": "2026-09-03"
      },
      "contradictions": [],
+     "explained": [],
      "papers": [
       {
        "pmid": "42728193",
@@ -5643,10 +6106,12 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 350,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5657,6 +6122,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 9000,
+      "enrolledBasis": "registry",
       "yearReported": 2005
      },
      "registry": {
@@ -5673,6 +6139,7 @@
       "lastUpdate": "2017-04-27"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5682,7 +6149,8 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 54
+      "enrolled": 54,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT05734105",
@@ -5698,6 +6166,7 @@
       "lastUpdate": "2025-12-17"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5708,6 +6177,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 338,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": {
@@ -5724,6 +6194,7 @@
       "lastUpdate": "2026-09-16"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5734,6 +6205,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 453,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -5750,6 +6222,7 @@
       "lastUpdate": "2026-08-11"
      },
      "contradictions": [],
+     "explained": [],
      "papers": [
       {
        "pmid": "42745627",
@@ -5768,6 +6241,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 216,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -5784,6 +6258,7 @@
       "lastUpdate": "2026-08-04"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5794,6 +6269,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 261,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -5810,6 +6286,7 @@
       "lastUpdate": "2025-10-21"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5820,6 +6297,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 755,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -5836,6 +6314,7 @@
       "lastUpdate": "2026-05-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5846,6 +6325,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1074,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -5862,6 +6342,7 @@
       "lastUpdate": "2026-08-28"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5872,6 +6353,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1837,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": {
@@ -5888,6 +6370,7 @@
       "lastUpdate": "2026-07-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5898,6 +6381,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 387,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -5914,6 +6398,7 @@
       "lastUpdate": "2023-10-06"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5924,6 +6409,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 500,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": {
@@ -5940,6 +6426,7 @@
       "lastUpdate": "2026-06-02"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5950,6 +6437,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 315,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -5966,6 +6454,7 @@
       "lastUpdate": "2026-07-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -5976,6 +6465,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 391,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 450 participants (actual); the NEJM 2018 primary analysis randomised 391 patients (260 olaparib, 131 placebo).",
       "yearReported": 2018
      },
      "registry": {
@@ -5991,8 +6482,9 @@
       "completion": "2028-08-29",
       "lastUpdate": "2025-12-10"
      },
-     "contradictions": [
-      "enrolment 391 in the corpus, 450 on the registry (actual; 13 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 391 in the corpus (randomised), 450 on the registry (actual; 13 percent apart): ClinicalTrials.gov lists 450 participants (actual); the NEJM 2018 primary analysis randomised 391 patients (260 olaparib, 131 placebo)."
      ],
      "papers": []
     },
@@ -6003,7 +6495,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "3",
-      "enrolled": 698
+      "enrolled": 768,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT04928846",
@@ -6018,9 +6511,8 @@
       "completion": "2029-02",
       "lastUpdate": "2026-09-16"
      },
-     "contradictions": [
-      "enrolment 698 in the corpus, 768 on the registry (estimated; 9 percent apart)"
-     ],
+     "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6031,6 +6523,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 594,
+      "enrolledBasis": "registry",
       "yearReported": 2010
      },
      "registry": {
@@ -6047,6 +6540,7 @@
       "lastUpdate": "2014-11-05"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6057,6 +6551,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 624,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -6073,25 +6568,17 @@
       "lastUpdate": "2026-03-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
-    {
-     "ref": "alkove-1",
-     "name": "ALKOVE-1",
-     "text": "enrolment 432 in the corpus, 840 on the registry (estimated; 49 percent apart)"
-    },
+   "contradictions": [],
+   "explained": [
     {
      "ref": "solo-1",
      "name": "SOLO-1",
-     "text": "enrolment 391 in the corpus, 450 on the registry (actual; 13 percent apart)"
-    },
-    {
-     "ref": "telimet-nsclc-01",
-     "name": "TeliMET NSCLC-01",
-     "text": "enrolment 698 in the corpus, 768 on the registry (estimated; 9 percent apart)"
+     "text": "enrolment 391 in the corpus (randomised), 450 on the registry (actual; 13 percent apart): ClinicalTrials.gov lists 450 participants (actual); the NEJM 2018 primary analysis randomised 391 patients (260 olaparib, 131 placebo)."
     }
    ]
   },
@@ -6103,7 +6590,8 @@
    "counts": {
     "trials": 14,
     "checked": 14,
-    "contradictions": 1,
+    "contradictions": 0,
+    "explained": 1,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -6117,6 +6605,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 529,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -6133,6 +6622,7 @@
       "lastUpdate": "2022-06-15"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6143,6 +6633,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 558,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 623 participants (actual); the NEJM 2025 primary analysis covered 558 randomised patients.",
       "yearReported": 2025
      },
      "registry": {
@@ -6158,8 +6650,9 @@
       "completion": "2028-07",
       "lastUpdate": "2026-04-06"
      },
-     "contradictions": [
-      "enrolment 558 in the corpus, 623 on the registry (actual; 10 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 558 in the corpus (randomised), 623 on the registry (actual; 10 percent apart): ClinicalTrials.gov lists 623 participants (actual); the NEJM 2025 primary analysis covered 558 randomised patients."
      ],
      "papers": []
     },
@@ -6171,6 +6664,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 443,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -6187,6 +6681,7 @@
       "lastUpdate": "2025-09-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6197,6 +6692,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 418,
+      "enrolledBasis": "registry",
       "yearReported": 2026
      },
      "registry": {
@@ -6213,6 +6709,7 @@
       "lastUpdate": "2026-07-23"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6223,6 +6720,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 557,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -6239,6 +6737,7 @@
       "lastUpdate": "2025-10-06"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6249,6 +6748,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 902,
+      "enrolledBasis": "registry",
       "yearReported": 2018
      },
      "registry": {
@@ -6265,6 +6765,7 @@
       "lastUpdate": "2022-07-19"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6274,7 +6775,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "2/3",
-      "enrolled": 570
+      "enrolled": 570,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT06926868",
@@ -6291,6 +6793,7 @@
       "lastUpdate": "2026-08-10"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6301,6 +6804,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 882,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -6317,6 +6821,7 @@
       "lastUpdate": "2024-11-27"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6327,6 +6832,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1174,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -6343,6 +6849,7 @@
       "lastUpdate": "2025-10-29"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6353,6 +6860,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1837,
+      "enrolledBasis": "registry",
       "yearReported": 2021
      },
      "registry": {
@@ -6369,6 +6877,7 @@
       "lastUpdate": "2026-07-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6378,7 +6887,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "3",
-      "enrolled": 1295
+      "enrolled": 1295,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT05812807",
@@ -6394,6 +6904,7 @@
       "lastUpdate": "2026-08-05"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6403,7 +6914,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "3",
-      "enrolled": 2400
+      "enrolled": 2400,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT05929768",
@@ -6419,6 +6931,7 @@
       "lastUpdate": "2025-11-05"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6429,6 +6942,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 644,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -6445,6 +6959,7 @@
       "lastUpdate": "2026-05-15"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6454,7 +6969,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "3",
-      "enrolled": 625
+      "enrolled": 625,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT06103864",
@@ -6470,15 +6986,17 @@
       "lastUpdate": "2026-08-20"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "ascent-03",
      "name": "ASCENT-03",
-     "text": "enrolment 558 in the corpus, 623 on the registry (actual; 10 percent apart)"
+     "text": "enrolment 558 in the corpus (randomised), 623 on the registry (actual; 10 percent apart): ClinicalTrials.gov lists 623 participants (actual); the NEJM 2025 primary analysis covered 558 randomised patients."
     }
    ]
   },
@@ -6490,7 +7008,8 @@
    "counts": {
     "trials": 12,
     "checked": 10,
-    "contradictions": 1,
+    "contradictions": 0,
+    "explained": 1,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
@@ -6503,7 +7022,8 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 11000
+      "enrolled": 11000,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT02804815",
@@ -6519,6 +7039,7 @@
       "lastUpdate": "2025-06-10"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6529,6 +7050,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 889,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -6545,6 +7067,7 @@
       "lastUpdate": "2026-04-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6553,10 +7076,12 @@
      "corpus": {
       "status": "active",
       "phase": "3",
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6567,10 +7092,12 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 455,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": null,
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6581,6 +7108,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 761,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -6597,6 +7125,7 @@
       "lastUpdate": "2026-03-27"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6607,6 +7136,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1174,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -6623,6 +7153,7 @@
       "lastUpdate": "2025-10-29"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6633,6 +7164,7 @@
       "status": "active",
       "phase": "platform",
       "enrolled": 1377,
+      "enrolledBasis": "registry",
       "yearReported": 2022
      },
      "registry": {
@@ -6649,6 +7181,7 @@
       "lastUpdate": "2026-07-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6659,6 +7192,8 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 115,
+      "enrolledBasis": "registered",
+      "enrolledNote": "ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis.",
       "yearReported": 2022
      },
      "registry": {
@@ -6674,8 +7209,9 @@
       "completion": "2032-03-01",
       "lastUpdate": "2026-03-05"
      },
-     "contradictions": [
-      "enrolment 115 in the corpus, 353 on the registry (estimated; 67 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
      ],
      "papers": []
     },
@@ -6687,6 +7223,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 4088,
+      "enrolledBasis": "registry",
       "yearReported": 2019
      },
      "registry": {
@@ -6702,6 +7239,7 @@
       "lastUpdate": "2011-09-02"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6712,6 +7250,7 @@
       "status": "positive",
       "phase": "2",
       "enrolled": 377,
+      "enrolledBasis": "registry",
       "yearReported": 2024
      },
      "registry": {
@@ -6728,6 +7267,7 @@
       "lastUpdate": "2025-04-23"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6738,6 +7278,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 315,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -6754,6 +7295,7 @@
       "lastUpdate": "2026-07-14"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6764,6 +7306,7 @@
       "status": "positive",
       "phase": "platform",
       "enrolled": 11992,
+      "enrolledBasis": "registry",
       "yearReported": 2016
      },
      "registry": {
@@ -6781,15 +7324,17 @@
       "lastUpdate": "2023-04-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "niche-2",
      "name": "NICHE-2",
-     "text": "enrolment 115 in the corpus, 353 on the registry (estimated; 67 percent apart)"
+     "text": "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
     }
    ]
   },
@@ -6801,7 +7346,8 @@
    "counts": {
     "trials": 7,
     "checked": 7,
-    "contradictions": 1,
+    "contradictions": 0,
+    "explained": 1,
     "papers": 1,
     "watch": 0,
     "watchPassed": 0
@@ -6815,6 +7361,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 529,
+      "enrolledBasis": "registry",
       "yearReported": 2020
      },
      "registry": {
@@ -6831,6 +7378,7 @@
       "lastUpdate": "2022-06-15"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6841,6 +7389,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 558,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 623 participants (actual); the NEJM 2025 primary analysis covered 558 randomised patients.",
       "yearReported": 2025
      },
      "registry": {
@@ -6856,8 +7406,9 @@
       "completion": "2028-07",
       "lastUpdate": "2026-04-06"
      },
-     "contradictions": [
-      "enrolment 558 in the corpus, 623 on the registry (actual; 10 percent apart)"
+     "contradictions": [],
+     "explained": [
+      "enrolment 558 in the corpus (randomised), 623 on the registry (actual; 10 percent apart): ClinicalTrials.gov lists 623 participants (actual); the NEJM 2025 primary analysis covered 558 randomised patients."
      ],
      "papers": []
     },
@@ -6869,6 +7420,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 443,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -6885,6 +7437,7 @@
       "lastUpdate": "2025-09-18"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6895,6 +7448,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 732,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -6911,6 +7465,7 @@
       "lastUpdate": "2026-08-24"
      },
      "contradictions": [],
+     "explained": [],
      "papers": [
       {
        "pmid": "42727418",
@@ -6929,6 +7484,7 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 644,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -6945,6 +7501,7 @@
       "lastUpdate": "2026-05-15"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6954,7 +7511,8 @@
      "corpus": {
       "status": "recruiting",
       "phase": "3",
-      "enrolled": 625
+      "enrolled": 625,
+      "enrolledBasis": "registry"
      },
      "registry": {
       "nct": "NCT06103864",
@@ -6970,6 +7528,7 @@
       "lastUpdate": "2026-08-20"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     },
     {
@@ -6980,6 +7539,7 @@
       "status": "mixed",
       "phase": "3",
       "enrolled": 605,
+      "enrolledBasis": "registry",
       "yearReported": 2023
      },
      "registry": {
@@ -6996,15 +7556,17 @@
       "lastUpdate": "2026-08-26"
      },
      "contradictions": [],
+     "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
+   "contradictions": [],
+   "explained": [
     {
      "ref": "ascent-03",
      "name": "ASCENT-03",
-     "text": "enrolment 558 in the corpus, 623 on the registry (actual; 10 percent apart)"
+     "text": "enrolment 558 in the corpus (randomised), 623 on the registry (actual; 10 percent apart): ClinicalTrials.gov lists 623 participants (actual); the NEJM 2025 primary analysis covered 558 randomised patients."
     }
    ]
   },
@@ -7017,13 +7579,15 @@
     "trials": 0,
     "checked": 0,
     "contradictions": 0,
+    "explained": 0,
     "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
    "trials": [],
    "watch": [],
-   "contradictions": []
+   "contradictions": [],
+   "explained": []
   }
  ]
 }

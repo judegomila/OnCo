@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   dedupePapers, enrolmentContradiction, entryFor, expectedDeadline, expectedPassed, isPooledName, phaseContradiction, statusContradiction,
-  trialAcronyms, trialContradictions, watchDateContradiction, type RegistryRecord, type RoadmapWatchReport,
+  trialAcronyms, trialContradictions, trialFindings, watchDateContradiction, type RegistryRecord, type RoadmapWatchReport,
 } from "./roadmap-watch";
 
 const reg = (over: Partial<RegistryRecord>): RegistryRecord => ({ nct: "NCT00000000", status: "COMPLETED", phases: ["PHASE3"], studyType: "INTERVENTIONAL", enrolment: 1000, ...over });
@@ -153,6 +153,24 @@ describe("trialContradictions puts it together", () => {
     expect(trialContradictions(t, reg({ status: "WITHDRAWN", enrolment: 3066, phases: ["PHASE2"] }))).toEqual(["corpus records a positive result, registry says withdrawn"]);
     expect(trialContradictions(t, null)).toEqual([]);
   });
+  it("moves an enrolment gap to explained when the record says what its figure counts", () => {
+    const note = "ClinicalTrials.gov lists 2,031 participants (actual) across all three arms; the Lancet 2021 primary analysis concurrently randomised 1,581 patients.";
+    const t = { name: "CheckMate 649", status: "positive" as const, phase: "3" as const, enrolled: 1581, enrolledBasis: "randomised" as const, enrolledNote: note };
+    const r = reg({ status: "COMPLETED", enrolment: 2031, enrolmentType: "ACTUAL" });
+    expect(trialFindings(t, r)).toEqual({
+      contradictions: [],
+      explained: [`enrolment 1581 in the corpus (randomised), 2031 on the registry (actual; 22 percent apart): ${note}`],
+    });
+    expect(trialContradictions(t, r)).toEqual([]);
+    // The default basis is the registry, so the same gap on a plain record is still a contradiction.
+    expect(trialFindings({ ...t, enrolledBasis: undefined, enrolledNote: undefined }, r)).toEqual({
+      contradictions: ["enrolment 1581 in the corpus, 2031 on the registry (actual; 22 percent apart)"],
+      explained: [],
+    });
+    // Status and phase findings stay contradictions whatever the basis; a figure within tolerance explains nothing.
+    expect(trialFindings({ ...t, status: "recruiting" }, r).contradictions).toEqual(["corpus says recruiting, registry says completed"]);
+    expect(trialFindings({ ...t, enrolled: 2000 }, r)).toEqual({ contradictions: [], explained: [] });
+  });
 });
 
 describe("papers and report lookup", () => {
@@ -168,7 +186,7 @@ describe("papers and report lookup", () => {
     expect(out.map((p) => p.title)).toEqual(["C", "B", "A"]);
   });
   it("finds a roadmap's entry or nothing", () => {
-    const report = { generatedAt: "2026-09-21", offline: false, requests: 3, roadmaps: [{ id: "ctdna-tests", name: "ctDNA", asOf: "2026-09-21", since: "2026-09-21", counts: { trials: 1, checked: 1, contradictions: 0, papers: 0, watch: 0, watchPassed: 0 }, trials: [], watch: [], contradictions: [] }] } as RoadmapWatchReport;
+    const report = { generatedAt: "2026-09-21", offline: false, requests: 3, roadmaps: [{ id: "ctdna-tests", name: "ctDNA", asOf: "2026-09-21", since: "2026-09-21", counts: { trials: 1, checked: 1, contradictions: 0, explained: 0, papers: 0, watch: 0, watchPassed: 0 }, trials: [], watch: [], contradictions: [], explained: [] }] } as RoadmapWatchReport;
     expect(entryFor(report, "ctdna-tests")?.name).toBe("ctDNA");
     expect(entryFor(report, "kras-roadmap")).toBeUndefined();
     expect(entryFor(undefined, "ctdna-tests")).toBeUndefined();

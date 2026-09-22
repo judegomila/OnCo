@@ -1,0 +1,23 @@
+src/data/gynaecological-subtypes.ts
+  s_0beac9cb5d78fd::t_90e73ae16ac09e 34
+docs/CONTENT-ROADMAP.md
+  ai_agent 94
+src/data/trials-soc-wave.ts
+  s_0beac9cb5d78fd::t_90e73ae16ac09e 809-816,881
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9dec41c5fa425defa54cf270c887bba006ef6542",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -435,6 +435,13 @@ export const PersonSchema = Base.extend({
   papers: z.array(z.object({ title: z.string(), journal: z.string().optional(), year: z.number().int().optional(), url: url.optional(), doi: z.string().optional(), note: z.string().optional() })).default([]),
   orcid: z.string().optional(),
   hIndex: z.number().int().optional(),
+  /**
+   * Whether an empty `papers` list is a gap. Normally derived from `role` (src/lib/person-roles.ts): administrators,
+   * donors, patients, advocates and public figures are not expected to have papers. Set only where the role line
+   * misleads that rule, e.g. `true` for "Founder and Director of the Institute for Protein Design" (a scientist),
+   * `false` for "Chair, Board of Directors" (an administrator the rule misses).
+   */
+  papersExpected: z.boolean().optional(),
 });
 
 export const EntitySchema = z.discriminatedUnion("kind", [

@@ -17,6 +17,7 @@ import { completeness } from "./completeness";
 import { KINDS, KIND_META, routeFor, type Kind } from "./kinds";
 import { type Entity } from "./schema";
 import { hasMolecule } from "./structures";
+import { papersExpected, roleBucket } from "./person-roles";
 import { SCHEMATIC_ALIAS, SPECIFIC_IDS, hasAnimation } from "@/data/schematics";
 import { hasAnchorApproval, isDiagnostic, regionalApprovals, regionSpecific } from "@/data/regional-approvals";
 import { reviews } from "@/data/reviews";
@@ -75,6 +76,12 @@ const WORST_MAX = 25;
 const STALE_DAYS = 60;
 const MIN_PER_KIND = 25;
 const MIN_IDEAS_PER_BOTTLENECK = 10;
+/**
+ * Kinds that are a closed taxonomy OnCo defines itself rather than an open collection to be filled: the treatment fronts
+ * (data/universe.ts claims no external denominator for them). They are complete by construction, so the kind-size rule
+ * does not apply; the gauge names them in its note instead of counting them as short.
+ */
+const CLOSED_KINDS = new Set<Kind>(["section"]);
 
 /** Build-time inputs that are not part of the graph: generated snapshots under public/. */
 type Ctx = { today: Date; provenance: Set<string>; papers: Set<string>; trials: Set<string>; logos: Set<string>; citations: Set<string> };
@@ -198,10 +205,16 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g) => fails(g.kind("institution"), (i) => ((g.incoming(i.id).get("person") ?? []).length === 0 ? "no people" : null)),
   },
   {
-    id: "people-papers", label: "People with papers", kind: "person",
-    plain: "A person record should list selected publications so the claim of expertise can be checked.",
-    action: "Add `papers` entries (title, journal, year, url or doi) to the person record.",
-    check: (g) => fails(g.kind("person"), (p) => (p.papers.length === 0 ? "no papers" : null)),
+    id: "people-papers", label: "People with papers, or in a role that produces none", kind: "person",
+    plain: "A person record should list selected publications so the claim of expertise can be checked; administrators, donors, patients, advocates and public figures are not expected to have any, and count as explained.",
+    action: "Add `papers` entries (title, journal, year, url or doi) to the person record, or run scripts/fetch-people-papers.ts; if the role line misleads the rule in src/lib/person-roles.ts, set `papersExpected` on the record.",
+    check: (g) => {
+      const people = g.kind("person");
+      const r = fails(people, (p) => (p.papers.length || !papersExpected(p) ? null : roleBucket(p.role) === "institution head" ? "institution head, no papers matched" : "no papers"), (p) => (roleBucket(p.role) === "institution head" ? 0 : 1));
+      const withPapers = people.filter((p) => p.papers.length).length;
+      const notExpected = people.filter((p) => !p.papers.length && !papersExpected(p)).length;
+      return { ...r, note: `${withPapers.toLocaleString("en-GB")} with papers, ${notExpected.toLocaleString("en-GB")} not expected by role, ${r.failing.length.toLocaleString("en-GB")} researchers still without` };
+    },
   },
   {
     id: "bottleneck-ideas", label: "Bottlenecks with ten or more ideas", kind: "bottleneck",
@@ -229,13 +242,15 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g, ctx) => fails(g.entities, (e) => { const d = daysSince(e.asOf, ctx.today); return d > STALE_DAYS ? `${d} days (${e.asOf})` : null; }, (e) => daysSince(e.asOf, ctx.today)),
   },
   {
-    id: "kind-size", label: `Kinds with ${MIN_PER_KIND} or more records`,
-    plain: `A kind with fewer than ${MIN_PER_KIND} records is a placeholder, not a collection.`,
+    id: "kind-size", label: `Open kinds with ${MIN_PER_KIND} or more records`,
+    plain: `A kind with fewer than ${MIN_PER_KIND} records is a placeholder, not a collection. Closed taxonomies OnCo defines itself (the treatment fronts) are complete by construction and are not held to the rule.`,
     action: "Run a per-kind expansion wave: enumerate the universe, diff against the corpus, add records with sources.",
     check: (g) => {
-      const failing = KINDS.filter((k) => g.kind(k).length < MIN_PER_KIND).sort((a, b) => g.kind(a).length - g.kind(b).length)
+      const open = KINDS.filter((k) => !CLOSED_KINDS.has(k));
+      const failing = open.filter((k) => g.kind(k).length < MIN_PER_KIND).sort((a, b) => g.kind(a).length - g.kind(b).length)
         .map((k) => ({ id: k, name: KIND_META[k].title ?? KIND_META[k].plural, route: `/${KIND_META[k].route}/`, detail: `${g.kind(k).length} records` }));
-      return { total: KINDS.length, failing };
+      const closed = [...CLOSED_KINDS].map((k) => `${KIND_META[k].plural.toLowerCase()} are a closed list of ${g.kind(k).length}`).join("; ");
+      return { total: open.length, failing, note: closed };
     },
   },
   {

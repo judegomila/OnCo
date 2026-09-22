@@ -7,7 +7,10 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 21 September 2026
+- Seven European approvals corrected to withdrawn against the EMA register, the PARTIQoL proton trial gains its reported result, and the KEYNOTE-A18 papers are split into their two Lancet reports
+- Paganetti 2014 RBE reference points at the real paper (Physics in Medicine and Biology)
 - Visit counting now asks first: Google Analytics loads only after you allow it, the browser's privacy signal is honoured, and the choice can be changed in the footer
+- Data follow-ups: seven withdrawn EU authorisations, PARTIQoL readout, KEYNOTE-A18 split into its two Lancet papers
 - Roadmap row 141 marked done for onco.cc
 - Google Analytics now loads only after the visitor presses Allow: a consent bar at the foot of the viewport, the choice kept in the browser, Global Privacy Control read as No thanks, an Analytics choice control in the footer and on /privacy/, strings in nine languages
 - GitHub star count is baked in at build time, so the top-bar badge is full from the first paint and never flickers

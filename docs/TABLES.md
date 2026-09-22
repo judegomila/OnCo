@@ -8,8 +8,36 @@ How the shared pieces fit together:
 - `src/components/filters/ResultsTable.tsx`: the shared table; `ColumnHead` puts the filter on any column that carries a `filter` spec.
 - `src/components/filters/FilterableTable.tsx`: `useColumnFilters` (selection, sort, counts, optional URL sync through `src/lib/table-view.ts`) and `FilterableTable` (toolbar with the "N of M" count and a Clear pill, plus the table) for plain `columns` and `rows`. `initial` seeds a selection before the URL is read.
 - `src/components/filters/StaticTable.tsx`: the client wrapper for server-rendered pages. The page builds plain rows (strings, numbers, `{ text, href, chip, sub, v, bar, bars, avatar }` objects or lists of them) and column specs; the component draws links, chips, bars and avatars on the client side, so no function or React node crosses the server boundary and every row is still in the exported HTML (filtering only hides rows). One table per page carries `url` (its column keys become the query keys; a second URL-synced table would clash on `kind` or `sort`).
+- `src/lib/static-tables.ts`: paging for the long tables. A row handed to a client table is in the page twice (rendered HTML plus the hydration payload), so a table longer than `TABLE_PAGE` (30) rows carries only its first page and the rest lives in `/api/v1/tables/<id>.json` (`scripts/build-tables.ts`, listed in `scripts/api-layout.ts` and the OpenAPI description as `listTableRows`). `pageRows(id, rows)` splits the rows for the page; `StaticTable`, `EntityBrowser` and `ResearchRanking` take the result as `rows` and `more`, and fetch the file when the reader scrolls past the first page (IntersectionObserver sentinel), presses the "Show 30 more" pill, or sets a filter, search or sort that the first page cannot answer; header filters and URL state then run over the full set. Row builders live in `src/lib/tables/` so the page and the writer produce the same rows in the same order (the first page must be in the table's default sort order); `src/lib/tables/index.ts` lists every table, and `scripts/build-tables.test.ts` checks each file starts with the rows the page renders. Markup budgets for each paged page are in `src/app/heavy-pages.test.ts`.
 
 Rule applied: a table with fewer than ten rows on every page that renders it stays a plain `<table>`; the skip is recorded below.
+
+## Page weight after the conversion (measured 22 Sept 2026)
+
+Live HTML of every page in group 1, one `curl` each (User-Agent "OnCo maintenance"), bytes as served. "Main" is the `<main>` element, "payload" the `self.__next_f.push` scripts React hydrates from: the two halves of the doubling. The dossier row is the largest target (PD-1, 648 trials).
+
+| Page | HTML | Main | Payload | Rows in HTML | Now |
+| --- | ---: | ---: | ---: | ---: | --- |
+| /evidence/ | 6,207,276 | 3,574,409 | 2,583,839 | 3,528 | paged: first 30 of 3,527 trials, file 2.2 MB |
+| /pathway-drugs/ | 4,044,746 | 1,392,869 | 2,598,148 | 1,181 | paged: first 30 of 108 pathways in the matrix, first 10 of 108 node sections (`PathwaySections`) |
+| /dossiers/pd1/ | 2,142,659 | | | | paged: first 30 of 648 trials; 31 targets have more than a page and get a file |
+| /countries/cn/ | 1,876,515 | 930,313 | 897,976 | 899 | paged: first 30 of 870 key trials |
+| /audit/ | 1,627,262 | 792,662 | 786,747 | 1,798 | paged: every StaticTable longer than 30 rows (13 files) |
+| /universities/ | 1,546,778 | 698,944 | 798,643 | 824 | paged: OpenAlex by institution (473), grouped (452) and corpus score (269), `ResearchRanking` takes `more`; logos as URLs instead of React nodes |
+| /startups/ | 1,159,589 | 409,107 | 701,790 | 127 | paged: the EntityBrowser rows (first 30), `EntityBrowser` takes `more`; the investors table (64 rows, 25 shown) was not the weight |
+| /papers/ | 409,219 | 256,233 | 105,330 | 142 | left: under 500 KB |
+| /costs/ | 338,802 | 128,469 | 162,609 | 30 | left |
+| /review/ | 334,284 | 135,125 | 151,410 | 99 | left |
+| /eval/ | 322,711 | 140,624 | 134,497 | 105 | left |
+| /deals/ | 314,844 | 141,498 | 125,694 | 71 | left |
+| /survival/ | 305,048 | 118,325 | 139,144 | 37 | left |
+| /countries/in/ | 297,054 | | | | left |
+| /payloads/ | 178,906 | | | | left |
+| /status/ | 163,028 | | | | left |
+| /freshness/ | 120,104 | | | | left |
+| /funding/ | 114,458 | | | | left |
+
+No page fell between 500 KB and 1 MB, so the "rows once" variant of StaticTable (client render from props with a first-page fallback) was not needed; the payload does duplicate the rows on every page (payload is 45 to 65 percent of the HTML), which is why the paged pages carry only 30 rows in both halves. Markup of the paged pages when written, from `src/app/heavy-pages.test.ts` (the payload follows the same props): evidence 131 KB, China 209 KB, universities 140 KB, audit 323 KB, pathway-drugs 320 KB, PD-1 dossier 377 KB; expected live HTML roughly twice the markup, every page under 1 MB.
 
 Left alone on purpose: `src/app/tumour-testing/page.tsx` (being redesigned by another agent).
 
@@ -30,7 +58,7 @@ Left alone on purpose: `src/app/tumour-testing/page.tsx` (being redesigned by an
 ## Group 1: server-rendered tables now on StaticTable
 
 - src/app/deals/page.tsx (64 deals): one table replaces the per-year sections. Headers: Year, From region, To region, Type; Date, Upfront and Total sort (amounts parsed to a number, currencies treated alike). URL-synced.
-- src/app/evidence/page.tsx (3,527 trials): Phase, Result, Strength filter; rank, Enrolled and Score sort. URL-synced. Every row still in the HTML.
+- src/app/evidence/page.tsx (3,527 trials): Phase, Result, Strength filter; rank, Enrolled and Score sort. URL-synced. Paged: the first 30 rows in the HTML, the rest in /api/v1/tables/evidence.json (rows built in src/lib/tables/evidence.ts).
 - src/app/funding/page.tsx (11 funders): the four type sections became one table. Headers: Type, Country, Year; Year sorts. URL-synced.
 - src/app/universities/page.tsx, corpus score table (269 universities): Country filters; rank, Centres, Linked objects, Score sort. Logo drawn through `avatar`. (The OpenAlex output tables above it are ResearchRanking: see group 3.)
 - src/app/payloads/page.tsx, payloads (11): Class, Bystander, Efflux substrate filter; DAR sorts. URL-synced. Linkers (9 rows): plain table, skipped.

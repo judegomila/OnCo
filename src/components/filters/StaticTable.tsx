@@ -1,15 +1,17 @@
 "use client";
 
-import { Fragment, type ReactNode } from "react";
+import { Fragment, useMemo, type ReactNode } from "react";
 import Link from "next/link";
 import { FilterableTable, type FilterableColumn } from "./FilterableTable";
 import type { SortState } from "./ResultsTable";
+import type { MoreRows } from "@/lib/static-tables";
 import { RowAvatar } from "../RowAvatar";
 
 /**
  * A filterable, sortable table for pages rendered on the server. The page computes plain rows (strings, numbers,
  * links and chips as small objects, nothing else) and this client component draws them, so no function or React
- * node crosses the server boundary. Every row is still in the exported HTML; filtering only hides rows.
+ * node crosses the server boundary. Every row is in the exported HTML (filtering only hides rows) unless the table is
+ * paged with `more` (src/lib/static-tables.ts): then the HTML carries the first page and the rest is fetched on demand.
  *
  * A cell is a primitive, one `CellObj` or a list of them. `text` is what the reader sees; `v` is the value the
  * filter and the sort use when it differs (the number behind "1,234", the year behind a date). `href` makes the
@@ -115,17 +117,19 @@ export function renderCell(c: Cell, col?: StaticColumn): ReactNode {
 
 /**
  * The table. `url` keeps filters and sort in the query string (one table per page, since the keys are the column
- * keys); `noun` names the rows in the "N of M" count line.
+ * keys); `noun` names the rows in the "N of M" count line. `more` (from `pageRows` in src/lib/static-tables.ts)
+ * says `rows` are only the first page and names the file with every row.
  */
-export function StaticTable({ rows, columns, noun, url = false, defaultSort, pageSize, scroll, empty, toolbar, toolbarRight, initial }: {
+export function StaticTable({ rows, columns, noun, url = false, defaultSort, pageSize, scroll, empty, toolbar, toolbarRight, initial, more }: {
   rows: StaticRow[]; columns: StaticColumn[]; noun: string; url?: boolean; defaultSort?: SortState; pageSize?: number; scroll?: boolean; empty?: string;
-  toolbar?: ReactNode; toolbarRight?: ReactNode; initial?: Record<string, string[]>;
+  toolbar?: ReactNode; toolbarRight?: ReactNode; initial?: Record<string, string[]>; more?: MoreRows;
 }) {
-  const cols: FilterableColumn<StaticRow>[] = columns.map((c) => ({
+  // Memoised so the filtered rows (and the table's paging window) do not rebuild on every render of this component.
+  const cols = useMemo((): FilterableColumn<StaticRow>[] => columns.map((c) => ({
     key: c.key, label: c.label, filterable: c.filterable, sortable: c.sortable, numeric: c.numeric, hide: c.hide, className: c.className, tip: c.tip, order: c.order,
     optionLabel: c.optionLabels ? (v) => c.optionLabels![v] ?? v : undefined,
     value: (r) => cellValues(r[c.key]),
     render: (r) => renderCell(r[c.key], c),
-  }));
-  return <FilterableTable<StaticRow> rows={rows} columns={cols} rowKey={(r) => r.id} noun={noun} url={url} defaultSort={defaultSort} pageSize={pageSize} scroll={scroll} empty={empty} toolbar={toolbar} toolbarRight={toolbarRight} initial={initial} />;
+  })), [columns]);
+  return <FilterableTable<StaticRow> rows={rows} columns={cols} rowKey={(r) => r.id} noun={noun} url={url} defaultSort={defaultSort} pageSize={pageSize} scroll={scroll} empty={empty} toolbar={toolbar} toolbarRight={toolbarRight} initial={initial} more={more} />;
 }

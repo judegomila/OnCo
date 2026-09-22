@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./ResultsTable";
 import type { ColumnFilterSpec } from "./ColumnFilter";
 import type { FacetOption } from "./FacetSelect";
 import { readViewParams, viewParams } from "@/lib/table-view";
+import { loadTableFile, TABLE_PAGE, type MoreRows } from "@/lib/static-tables";
 import { useT } from "@/lib/i18n/ui";
 
 /**
@@ -131,21 +132,56 @@ export function useColumnFilters<T>(rows: T[], columns: FilterableColumn<T>[], o
 }
 
 /**
+ * The rows of a table whose first page came with the HTML and whose rest is one static file (src/lib/static-tables.ts).
+ * `want()` asks for the file (the reader scrolled past the first rows, pressed Show more, or set a filter or sort
+ * that needs every row); `rows` is the whole table once it has arrived and the first page until then.
+ */
+export function useRemoteRows<T>(first: T[], more?: MoreRows) {
+  const [full, setFull] = useState<T[] | null>(null);
+  const [failed, setFailed] = useState(false);
+  const [wanted, setWanted] = useState(false);
+  const src = more?.src;
+  const loading = !!src && wanted && !full && !failed;
+  useEffect(() => {
+    if (!loading || !src) return;
+    let stale = false;
+    void loadTableFile<T>(src).then((list) => { if (stale) return; if (list) setFull(list); else setFailed(true); });
+    return () => { stale = true; };
+  }, [loading, src]);
+  const want = useCallback(() => setWanted(true), []);
+  return { rows: full ?? first, complete: !more || !!full, loading, failed, want };
+}
+
+/**
  * A complete filterable, sortable table from plain data: column definitions and row objects, nothing else.
  * Every `filterable` column filters from its header; `url` keeps the state in the query string. Extra toolbar
  * content (a search box, a toggle) goes in `toolbar`; pass `query` when a search box outside drives the rows.
+ * With `more`, `rows` are only the first page of the table (in its default order) and the rest is fetched from
+ * `more.src` when needed; filters, sort and the URL state then run over the whole set.
  */
-export function FilterableTable<T>({ rows, columns, rowKey, noun, url = false, defaultSort, pageSize, scroll, empty, toolbar, toolbarRight, query, initial }: {
+export function FilterableTable<T>({ rows: first, columns, rowKey, noun, url = false, defaultSort, pageSize, scroll, empty, toolbar, toolbarRight, query, initial, more }: {
   rows: T[]; columns: FilterableColumn<T>[]; rowKey: (r: T) => string; noun: string; url?: boolean; defaultSort?: SortState; pageSize?: number; scroll?: boolean; empty?: string;
   toolbar?: ReactNode; toolbarRight?: ReactNode; query?: string;
   /** Selection to start from before the URL (if any) is read: the server can pre-filter a table. */
   initial?: Record<string, string[]>;
+  /** The rest of the table beyond `rows`: its size and the static file that holds every row. */
+  more?: MoreRows;
 }) {
+  const remote = useRemoteRows(first, more);
+  const rows = remote.rows;
   const cf = useColumnFilters(rows, columns, { url, defaultSort, query, initial });
   const { t } = useT();
+  // Anything the first page cannot answer needs every row: a filter, a search, or a sort other than the order the rows came in.
+  const sortChanged = !!cf.sort && (cf.sort.key !== defaultSort?.key || cf.sort.dir !== defaultSort?.dir);
+  const needAll = !remote.complete && (cf.active || !!query?.trim() || sortChanged);
+  const { want } = remote;
+  useEffect(() => { if (needAll) want(); }, [needAll, want]);
+  const total = more?.total ?? rows.length;
+  /** The whole table while its first page stands in for it; the filtered length once the file is here or a filter narrows it. */
+  const shown = remote.complete || needAll ? cf.filtered.length : total;
   return (
     <div>
-      <Toolbar count={cf.filtered.length} total={rows.length} noun={noun}
+      <Toolbar count={shown} total={total} noun={noun}
         left={<>{toolbar}{cf.active ? (
           <button type="button" onClick={cf.clear} data-clear-filters className="chip border border-border bg-card text-sm hover:bg-accent-soft hover:text-accent hover:border-accent inline-flex items-center gap-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">
             <svg aria-hidden viewBox="0 0 12 12" width="10" height="10" className="shrink-0"><path d="M3 3l6 6M9 3l-6 6" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" /></svg>
@@ -153,7 +189,10 @@ export function FilterableTable<T>({ rows, columns, rowKey, noun, url = false, d
           </button>
         ) : null}</>}
         right={toolbarRight} />
-      <ResultsTable columns={cf.columns} rows={cf.filtered} rowKey={rowKey} sort={cf.sort} onSort={cf.onSort} pageSize={pageSize} scroll={scroll} empty={empty} />
+      {needAll && remote.loading && <p className="text-xs text-muted mb-2" aria-live="polite">{t("table.loadingMore")}</p>}
+      {needAll && remote.failed && <p className="text-xs text-muted mb-2">Only the first {first.length.toLocaleString("en-GB")} of {total.toLocaleString("en-GB")} rows could be filtered: the full list did not load. Check your connection and reload.</p>}
+      <ResultsTable columns={cf.columns} rows={cf.filtered} rowKey={rowKey} sort={cf.sort} onSort={cf.onSort} pageSize={more ? pageSize ?? TABLE_PAGE : pageSize} scroll={scroll} empty={empty}
+        more={more && !remote.complete && !remote.failed && !needAll ? { total, load: want, loading: remote.loading } : undefined} />
     </div>
   );
 }

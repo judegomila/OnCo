@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode, type RefObject } from "react";
 import { Tip, COLUMN_TIPS } from "@/components/Tip";
 import { useT } from "@/lib/i18n/ui";
 import { fillNodes } from "@/components/T";
@@ -120,16 +120,27 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty, sc
       </table>
       {rows.length === 0 && <div className="px-6 py-12 text-center text-muted text-sm">{empty ?? t("table.nothingMatches")}</div>}
       {capped && <div ref={foot} className="px-4 py-3 border-t border-border text-sm"><button type="button" onClick={() => setLimit(Infinity)} className="underline">{t("table.showAll", { n: rows.length.toLocaleString("en-GB") })}</button> <span className="text-muted">{t("table.showingFirst", { n: pageSize })}</span></div>}
-      {!capped && remote && (
-        <div ref={foot} data-more className="px-4 py-3 border-t border-border text-sm flex flex-wrap items-center gap-3">
-          <button type="button" onClick={() => load?.()} disabled={more.loading} aria-busy={more.loading || undefined}
-            className="chip border border-border bg-card hover:bg-accent-soft hover:text-accent hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 inline-flex items-center gap-1 disabled:opacity-60">
-            <svg aria-hidden viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M12 5v14M5 12h14" /></svg>
-            {t("table.showMore", { n: Math.min(pageSize ?? more.total - rows.length, more.total - rows.length).toLocaleString("en-GB") })}
-          </button>
-          <span className="text-muted tabular-nums" aria-live="polite">{more.loading ? t("table.loadingMore") : t("table.showingFirst", { n: rows.length.toLocaleString("en-GB") })}</span>
-        </div>
-      )}
+      {!capped && remote && <MoreFoot ref={foot} total={more.total} shown={rows.length} step={pageSize} load={() => load?.()} loading={more.loading} />}
+    </div>
+  );
+}
+
+/**
+ * The foot of a paged list whose remaining rows live in a file not yet fetched: a "Show N more" pill and a live
+ * count, with `data-more` so the render tests can find it. The ref is the IntersectionObserver sentinel; the parent
+ * calls `load` when it comes into view or the pill is pressed.
+ */
+export function MoreFoot({ ref, total, shown, step, load, loading }: { ref?: RefObject<HTMLDivElement | null>; total: number; shown: number; step?: number; load: () => void; loading?: boolean }) {
+  const { t } = useT();
+  const remaining = total - shown;
+  return (
+    <div ref={ref} data-more className="px-4 py-3 border-t border-border text-sm flex flex-wrap items-center gap-3">
+      <button type="button" onClick={load} disabled={loading} aria-busy={loading || undefined}
+        className="chip border border-border bg-card hover:bg-accent-soft hover:text-accent hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 inline-flex items-center gap-1 disabled:opacity-60">
+        <svg aria-hidden viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M12 5v14M5 12h14" /></svg>
+        {t("table.showMore", { n: Math.min(step ?? remaining, remaining).toLocaleString("en-GB") })}
+      </button>
+      <span className="text-muted tabular-nums" aria-live="polite">{loading ? t("table.loadingMore") : t("table.showingFirst", { n: shown.toLocaleString("en-GB") })}</span>
     </div>
   );
 }

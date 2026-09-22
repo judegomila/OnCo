@@ -22,6 +22,8 @@ import { fallbackSlot, visualSource } from "@/lib/row-visual";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
+import { useRemoteRows } from "./filters/FilterableTable";
+import { TABLE_PAGE, type MoreRows } from "@/lib/static-tables";
 import { DownloadTable } from "./DownloadTable";
 import { SaveViewButton } from "./SaveViewButton";
 import { WatchButton } from "./WatchButton";
@@ -130,8 +132,10 @@ export function encodeView(state: { f: Record<string, string[]>; q: string; s: S
   return btoa(JSON.stringify({ f, q: state.q || undefined, s: state.s })).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
-export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideStatus = false, hideTldr = false, external = null, onExternalChange, nameKind }: {
+export function EntityBrowser({ rows: first, more, facets, columns, noun, defaultSort, hideStatus = false, hideTldr = false, external = null, onExternalChange, nameKind }: {
   rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[]; noun: string; defaultSort?: SortState; hideStatus?: boolean; hideTldr?: boolean;
+  /** `rows` are only the first page (in the default order) and the rest is one static file, fetched when the reader scrolls, searches, filters or sorts (src/lib/static-tables.ts). */
+  more?: MoreRows;
   /** Kind of the rows, so proper-noun names (drugs, genes, companies, trials, people) carry translate="no". Drug rows are recognised by `molecule` regardless. */
   nameKind?: Kind;
   /** Facet values set by a parent (e.g. a map legend); merged with the internal selection for that key and shown as selected. */
@@ -141,6 +145,9 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
 }) {
   const [q, setQ] = useState("");
   const [own, setOwn] = useState<Record<string, string[]>>({});
+  /** Every row once the file is fetched; the first page until then. */
+  const remote = useRemoteRows(first, more);
+  const rows = remote.rows;
   const { t, tl, status: statusText, noun: nounText, lang } = useT();
   const tldrTable = useTable(lang === "en" ? null : lang);
   /** True once the URL has been read, so the write-back effect never clobbers a shared link with the empty initial state. */
@@ -175,6 +182,10 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
   const clearAll = () => { setOwn({}); setQ(""); onExternalChange?.([]); };
   const baseSort = useMemo<SortState>(() => defaultSort ?? { key: hideStatus ? "name" : "status", dir: 1 }, [defaultSort, hideStatus]);
   const [sort, setSort] = useState<SortState>(baseSort);
+  // Anything the first page cannot answer needs every row: a search, a facet, or a sort other than the order the rows came in.
+  const needAll = !remote.complete && (!!q.trim() || Object.values(sel).some((v) => v.length) || sort.key !== baseSort.key || sort.dir !== baseSort.dir);
+  const { want } = remote;
+  useEffect(() => { if (needAll) want(); }, [needAll, want]);
 
   const allFacets = useMemo(() => (hideStatus ? facets : [STATUS_FACET, ...facets]), [facets, hideStatus]);
   /** Size of the picture slot for this table (null when no row has a picture); rows without one get the kind's symbol tile at this size. */
@@ -378,9 +389,10 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
   ];
 
   return (
-    <div ref={root}>
+    // A paged browser fetches its file as soon as the reader reaches for it (pointer or focus), so facet lists, search and the download are complete by the time they are used.
+    <div ref={root} onPointerEnter={more ? want : undefined} onFocusCapture={more ? want : undefined}>
       <Toolbar
-        count={filtered.length} total={rows.length} noun={noun}
+        count={remote.complete || needAll ? filtered.length : more!.total} total={more?.total ?? rows.length} noun={noun}
         left={<>
           {allFacets.map((f) => {
             const opts = options[f.key] ?? [];
@@ -395,7 +407,10 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
           <DownloadTable rows={exportRows} name={noun} />
         </>}
       />
-      <ResultsTable columns={tableCols} rows={filtered} rowKey={(r) => r.id} sort={sort} onSort={onSort} pageSize={100} />
+      {needAll && remote.loading && <p className="text-xs text-muted mb-2" aria-live="polite">{t("table.loadingMore")}</p>}
+      {needAll && remote.failed && <p className="text-xs text-muted mb-2">Only the first {first.length} of {more?.total} rows could be searched: the full list did not load. Check your connection and reload.</p>}
+      <ResultsTable columns={tableCols} rows={filtered} rowKey={(r) => r.id} sort={sort} onSort={onSort} pageSize={more ? TABLE_PAGE : 100}
+        more={more && !remote.complete && !remote.failed && !needAll ? { total: more.total, load: want, loading: remote.loading } : undefined} />
     </div>
   );
 }

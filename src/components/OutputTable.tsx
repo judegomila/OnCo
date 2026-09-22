@@ -1,11 +1,10 @@
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/kinds";
 import { type Institution } from "@/lib/schema";
 import { readPublicJson } from "@/lib/feed-meta";
 import type { ResearchIndex } from "@/lib/research";
 import openalex from "../../public/openalex/institutions.json";
-import { Logo } from "./Logo";
 import { ResearchRanking, type RankingRow } from "./ResearchRanking";
+import type { MoreRows } from "@/lib/static-tables";
 
 export type OpenAlexRow = { openalexId: string; openalexName: string; works2024: number; works2025: number; cited2024: number | null; cited2025: number | null; matchedBy: "override" | "search" };
 export type OpenAlexFile = { fetched: string; subfield: number; subfieldName: string; source: string; license: string; note?: string; institutions: Record<string, OpenAlexRow> };
@@ -76,22 +75,13 @@ export function universityOutputRows(): UniversityOutputRow[] {
   return out;
 }
 
-export function OutputTable({ rows }: { rows: OutputRow[] }) {
+/** The per-institution table. `rows` are flat RankingRows (src/lib/tables/universities.ts), the first page when `more` is set. */
+export function OutputTable({ rows, more }: { rows: RankingRow[]; more?: MoreRows }) {
   const years = readResearchIndex()?.years ?? null;
-  const flat: RankingRow[] = rows.map((r) => ({
-    key: r.institution.id, name: r.institution.name, sub: r.institution.university, href: routeFor(r.institution),
-    logo: <Logo id={r.institution.id} website={r.institution.website} name={r.institution.name} size={28} className="shrink-0" />,
-    openalexId: r.openalexId, openalexName: r.openalexName, works2024: r.works2024, works2025: r.works2025, cited2yr: r.cited2yr, works5: r.works5, cited5: r.cited5,
-  }));
-  return <ResearchRanking rows={flat} years={years} mode="institution" />;
+  return <ResearchRanking rows={rows} years={years} mode="institution" more={more} />;
 }
 
-export function UniversityOutputTable({ rows }: { rows: UniversityOutputRow[] }) {
+export function UniversityOutputTable({ rows, more }: { rows: RankingRow[]; more?: MoreRows }) {
   const years = readResearchIndex()?.years ?? null;
-  const flat: RankingRow[] = rows.map((r) => ({
-    key: r.university, name: r.university,
-    members: r.institutions.map((i) => ({ id: i.id, name: i.name.replace(/ \/.*$/, ""), href: routeFor(i) })),
-    works2024: r.works2024, works2025: r.works2025, cited2yr: r.cited, works5: r.works5, cited5: r.cited5,
-  }));
-  return <ResearchRanking rows={flat} years={years} mode="university" />;
+  return <ResearchRanking rows={rows} years={years} mode="university" more={more} />;
 }

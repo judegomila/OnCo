@@ -10,6 +10,14 @@ import ExplainedPage from "./explained/page";
 import IdeaRankingsPage from "./ideas/rankings/page";
 import { EXPLORE_PAGE } from "@/lib/explore-kinds";
 import { RANK_PAGE, rankAll } from "@/lib/idea-rankings";
+import EvidencePage from "./evidence/page";
+import ChinaPage from "./countries/cn/page";
+import Universities from "./universities/page";
+import AuditPage from "./audit/page";
+import PathwayDrugsPage from "./pathway-drugs/page";
+import DossierPage from "./dossiers/[id]/page";
+import Startups from "./startups/page";
+import { SECTION_PAGE, TABLE_PAGE } from "@/lib/static-tables";
 import { explainedGroups } from "@/lib/explained-data";
 import { graph } from "@/lib/graph";
 
@@ -103,5 +111,97 @@ describe("heavy pages page their sections", () => {
     const html = render(createElement(NavigatorPage));
     expect(html).toContain("Not medical advice.");
     expect(Buffer.byteLength(html, "utf8"), "navigator markup").toBeLessThan(200 * KB);
+  });
+});
+
+/**
+ * The hand-written tables moved onto a client StaticTable in chain 97, which put every row into the page twice
+ * (rendered HTML plus the hydration payload): /evidence/ 6.2 MB, /pathway-drugs/ 4.0 MB, /dossiers/pd1/ 2.1 MB,
+ * /countries/cn/ 1.9 MB, /audit/ 1.6 MB, /universities/ 1.5 MB when measured on 22 Sept 2026 (docs/TABLES.md).
+ * Each now carries the first TABLE_PAGE rows of every long table and fetches the rest from /api/v1/tables/
+ * (src/lib/static-tables.ts, scripts/build-tables.ts). The budgets here are on the markup; the payload follows it.
+ */
+describe("paged tables carry one page of rows", () => {
+  const pagedTable = (html: string, rows: number[], total: number) => {
+    expect(rows.length).toBeGreaterThan(0);
+    for (const n of rows) expect(n).toBeLessThanOrEqual(TABLE_PAGE);
+    expect(html).toContain("data-more");
+    expect(html).toContain(`Show ${TABLE_PAGE} more`);
+    expect(html).toContain(total.toLocaleString("en-GB"));
+  };
+
+  it("evidence renders the first 30 trials of 3,000+ and the Show more sentinel", () => {
+    const html = render(createElement(EvidencePage));
+    const total = graph().kind("trial").length;
+    expect(total).toBeGreaterThan(3000);
+    pagedTable(html, bodyRows(html), total);
+    expect(html).toMatch(/href="\/trials\/[a-z0-9-]+\/?"/);
+    // 131 KB when written (the twelve pictograms are most of it), against 6.2 MB of HTML before.
+    expect(Buffer.byteLength(html, "utf8"), "evidence markup").toBeLessThan(160 * KB);
+  });
+
+  it("china renders the first 30 key trials and every deal", () => {
+    const html = render(createElement(ChinaPage));
+    const rows = bodyRows(html);
+    expect(rows.some((n) => n === TABLE_PAGE)).toBe(true);
+    expect(html).toContain("data-more");
+    expect(html).toContain(`Show ${TABLE_PAGE} more`);
+    expect(Buffer.byteLength(html, "utf8"), "china markup").toBeLessThan(300 * KB);
+  });
+
+  it("universities renders one page of each of its three tables", () => {
+    const html = render(createElement(Universities));
+    const rows = bodyRows(html);
+    expect(rows.length).toBe(3);
+    for (const n of rows) expect(n).toBe(TABLE_PAGE);
+    expect((html.match(/data-more/g) ?? []).length).toBe(3);
+    expect(html).toMatch(/href="\/institutions\/[a-z0-9-]+\/?"/);
+    expect(Buffer.byteLength(html, "utf8"), "universities markup").toBeLessThan(200 * KB);
+  });
+
+  it("audit renders at most one page per findings table", () => {
+    const html = render(createElement(AuditPage));
+    const rows = bodyRows(html);
+    expect(rows.length).toBeGreaterThan(5);
+    // The "moved links" table is plain and capped at 150; every StaticTable is paged.
+    for (const n of rows) expect(n).toBeLessThanOrEqual(150);
+    expect(rows.filter((n) => n > TABLE_PAGE).length).toBeLessThanOrEqual(1);
+    expect(html).toContain("data-more");
+    expect(Buffer.byteLength(html, "utf8"), "audit markup").toBeLessThan(450 * KB);
+  });
+
+  it("pathway drugs renders the first 30 pathways in the matrix and the first 10 node sections", () => {
+    const html = render(createElement(PathwayDrugsPage));
+    const rows = bodyRows(html);
+    expect(rows[0]).toBe(TABLE_PAGE);
+    // The matrix plus one node table per section on the page (the largest sections come first, so fewer of them).
+    expect(rows.length).toBe(1 + SECTION_PAGE);
+    expect((html.match(/data-more/g) ?? []).length).toBe(2);
+    expect(html).toContain(`Show ${SECTION_PAGE} more`);
+    expect(html).toMatch(/href="\/pathways\/[a-z0-9-]+\/?"/);
+    // 320 KB when written (ten sections of the largest pathways), against 4.0 MB of HTML before.
+    expect(Buffer.byteLength(html, "utf8"), "pathway drugs markup").toBeLessThan(400 * KB);
+  });
+
+  it("startups renders the first 30 startups in the browser and the investors table", () => {
+    const html = render(createElement(Startups));
+    const rows = bodyRows(html);
+    expect(rows[0]).toBe(TABLE_PAGE);
+    for (const n of rows) expect(n).toBeLessThanOrEqual(TABLE_PAGE);
+    expect(html).toContain("data-more");
+    expect(html).toContain(`Show ${TABLE_PAGE} more`);
+    expect(html).toMatch(/href="\/companies\/[a-z0-9-]+\/?"/);
+    // 1.2 MB of HTML before, the browser's rows shipped twice; the budget is on the markup.
+    expect(Buffer.byteLength(html, "utf8"), "startups markup").toBeLessThan(250 * KB);
+  });
+
+  it("the PD-1 dossier renders the first 30 of its hundreds of trials", async () => {
+    const html = render(await DossierPage({ params: Promise.resolve({ id: "pd1" }) }));
+    expect(html).toContain('id="trials"');
+    const trials = bodyRows(html);
+    for (const n of trials) expect(n).toBeLessThanOrEqual(TABLE_PAGE);
+    expect(html).toContain("data-more");
+    // 377 KB when written (the products matrix and resistance routes are most of it), against 2.1 MB of HTML before.
+    expect(Buffer.byteLength(html, "utf8"), "pd1 dossier markup").toBeLessThan(450 * KB);
   });
 });

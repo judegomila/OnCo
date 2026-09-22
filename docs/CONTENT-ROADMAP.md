@@ -86,6 +86,7 @@ Wave 3 (the trials behind standard of care) started on 22 September 2026 in `src
 | Gastric | 1 | 1 | 2 | 1 | REGATTA and JCOG0912 are registered with UMIN only, outside the networks this wave may query |
 | Pancreatic (incl. ampullary) | 7 | 6 | 6 | 7 | none; ESPAC-4 and CONKO-001 are ISRCTN-only and written from their primary publications, ESPAC-5 prints no registry id, PRECEDE is an observational cohort with no results |
 | Sarcoma (Kaposi; AEWS0031 sits in the childhood row) | 1 | 1 | 1 | 1 | none |
+| Anal (incl. HSIL precursor) | 4 | 4 | 5 | 6 | PLATO ACT5 is ISRCTN-only with no results and no publication by registry id |
 
 Structured outcomes were also added in place to 8 of the 75 hand-written trials without them (ARANOTE, CheckMate 915, PACIFIC-2, INTELLANCE-1, ATEMPT, ASPEN, DESTINY-Gastric02, AREN0532), each quoting the ClinicalTrials.gov results section; the remaining 67 are recruiting or active trials with no results posted, platform or observational studies, or trials whose registry entry carries no results section (VERONA, TAM-01, CODEL, DART, IMPRESS, GBM AGILE).
 

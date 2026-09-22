@@ -1,4 +1,5 @@
 import type { Trial } from "@/lib/schema";
+import { enrolmentLabel } from "@/lib/enrolment";
 import { endpointTypeNote, explainPrimary, explainTrial, type EndpointType } from "@/lib/trial-explain";
 import { Tip } from "./Tip";
 
@@ -36,7 +37,7 @@ export function TrialExplainer({ trial, compact = false }: { trial: Trial; compa
           <div className="kicker">In plain words</div>
           <div className="font-semibold mt-0.5">What these results mean for people, not percentages</div>
         </div>
-        {trial.enrolled !== undefined && <span className="text-xs text-muted tabular-nums">{trial.enrolled.toLocaleString()} people took part</span>}
+        {trial.enrolled !== undefined && <span className="text-xs text-muted tabular-nums" title={trial.enrolledNote ?? undefined}>{enrolmentLabel(trial.enrolled, trial.enrolledBasis)}</span>}
       </div>
       <div className="space-y-4">
         {items.map(({ outcome, explanation }, i) => {

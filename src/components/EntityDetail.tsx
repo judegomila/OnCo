@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { enrolmentLabel } from "@/lib/enrolment";
 import { publicTags } from "@/lib/tags";
 import type { ReactNode } from "react";
 import type { Cancer, Entity, Roadmap, Term } from "@/lib/schema";
@@ -394,7 +395,7 @@ function kindTabs(e: Entity): Tab[] {
           <Field label="Registry">{e.nct && <a className="underline" href={`https://clinicaltrials.gov/study/${e.nct}`} rel="noopener">{e.nct}</a>}</Field>
           <Field label="Headline result">{e.result}</Field>
           <Field label="Reported">{e.yearReported}</Field>
-          <Field label="Enrolled">{e.enrolled}</Field>
+          <Field label="Enrolled">{e.enrolled !== undefined && <span title={e.enrolledNote ?? undefined}>{enrolmentLabel(e.enrolled, e.enrolledBasis)}{e.enrolledNote && <span className="block text-xs text-muted mt-0.5">{e.enrolledNote}</span>}</span>}</Field>
           <Field label="Replication">{e.replication}</Field>
         </div>),
         ...(e.outcomes.length ? [{ id: "outcomes", label: "Outcomes", count: e.outcomes.length, content: <div className="space-y-4"><TrialExplainer trial={e} /><TrialOutcomes t={e} /></div> }] : []),

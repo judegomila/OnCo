@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
+- Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
 - Four new publications found by the registry check are in, including the eight-year ADAURA survival update with its figures, and the check no longer flags screening studies
 - Trial enrolment figures now say what they count: 25 landmark trials explain why their randomised or analysed numbers differ from the registry, and five stale figures are corrected from their sources
 - MIMic-01 trial status corrected to active against ClinicalTrials.gov, the first fix from the new roadmap registry check
@@ -17,6 +18,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
 
 ### 21 September 2026
+- Four new publications found by the registry check are in, including the eight-year ADAURA survival update with its figures, and the check no longer flags screening studies
 - Registry check: a non-drug interventional study matches the corpus's observational phase, clearing the PATHFINDER 2 flag
 - Four publications flagged by the roadmap registry check recorded as key papers: the ADAURA eight-year overall survival update (J Thorac Oncol 2026) linked from the trial and the EGFR-mutant and resectable NSCLC pages with its stage II-IIIA and IB-IIIA survival figures added to the trial's outcomes, and the FLAURA2 long-term safety analysis (Lung Cancer 2026), the KRYSTAL-12 plain language summary (Future Oncol 2026) and the TROPION-Breast01 China cohort (ESMO Open 2026) linked from their trials only; citation counts fetched from Europe PMC
 - Trial enrolment figures now say what they count: 25 landmark trials explain why their randomised or analysed numbers differ from the registry, and five stale figures are corrected from their sources

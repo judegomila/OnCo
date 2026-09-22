@@ -1,4 +1,5 @@
 import type { Trial } from "@/lib/schema";
+import { enrolmentLabel } from "@/lib/enrolment";
 import { endpointFamily, kmCurvesFor } from "@/data/km-curves";
 import { ChartExport } from "./ChartExport";
 import { KMChart, SERIES_PALETTE } from "./KMChart";
@@ -113,7 +114,7 @@ export function TrialOutcomes({ t }: { t: Trial }) {
   const sorted = [...t.outcomes].sort((a, b) => Number(!!b.primary) - Number(!!a.primary));
   return (
     <div className="space-y-4">
-      {t.enrolled && <p className="text-sm text-muted">{t.enrolled.toLocaleString()} participants enrolled.</p>}
+      {t.enrolled && <p className="text-sm text-muted" title={t.enrolledNote ?? undefined}>{enrolmentLabel(t.enrolled, t.enrolledBasis)}.</p>}
       <div className="grid gap-3 lg:grid-cols-2">{sorted.map((o, i) => <Pictogram key={i} o={o} />)}</div>
       <SurvivalCurves t={t} />
       <OutcomeTable t={t} />

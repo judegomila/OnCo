@@ -467,4 +467,16 @@ export const papersSocWave: PaperInput[] = [
     caveats: ["Feasibility design with small arms and a survival difference that was a secondary outcome.", "Median follow-up only 12.2 months."],
     links: [{ label: "Lancet Gastroenterol Hepatol 2023", url: "https://doi.org/10.1016/S2468-1253(22)00348-X" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/36521500/" }],
     cancers: ["borderline-resectable-pdac", "pancreatic"], drugs: ["gemcitabine", "capecitabine", "folfirinox"], trials: ["espac-5"] }),
+
+  // ---------------------------------------------------------------- Sarcoma (Kaposi) and anal
+  p({ id: "paper-actg-a5263-kaposi-sarcoma-resource-limited-krown-lancet-2020", name: "ACTG A5263/AMC 066: three chemotherapy regimens with antiretroviral therapy for advanced AIDS-associated Kaposi sarcoma in resource-limited settings",
+    tldr: "For people with HIV and advanced Kaposi sarcoma in Africa and Brazil, paclitaxel with antiretroviral therapy kept far more patients free of progression at a year than either oral etoposide or bleomycin with vincristine, both of which were stopped early for being worse.",
+    summary: "Three-arm open-label randomised non-inferiority trial in 334 adults with advanced AIDS-associated Kaposi sarcoma at sites in Kenya, Malawi, South Africa, Uganda, Zimbabwe and Brazil, randomised to antiretroviral therapy with paclitaxel, oral etoposide, or bleomycin plus vincristine. The primary endpoint was progression-free survival at week 48.\n\nThe etoposide arm closed for inferiority in 2016 and the bleomycin-vincristine arm in 2018. Week-48 progression-free survival was 50 percent with paclitaxel against 20 percent with etoposide (difference -30 percentage points, 95% CI -52 to -8) and 64 percent against 44 percent with bleomycin-vincristine (difference -20, 95% CI -33 to -7). Adverse events were similar across arms.",
+    journal: "The Lancet", year: 2020, doi: "10.1016/S0140-6736(19)33222-2", pmid: "32145827",
+    authors: "Krown SE, Moser CB, MacPhail P, et al.", paperType: "rct", participants: 334, changedPractice: true,
+    findings: ["Week-48 progression-free survival 50 percent with paclitaxel versus 20 percent with etoposide (difference -30 percentage points, 95% CI -52 to -8).", "Week-48 progression-free survival 64 percent with paclitaxel versus 44 percent with bleomycin plus vincristine (difference -20, 95% CI -33 to -7).", "Both investigational arms closed early for inferiority; neutropenia, low albumin, weight loss and anaemia were the common adverse events."],
+    whatItMeans: "Paclitaxel with antiretroviral therapy is the treatment to supply for advanced AIDS-associated Kaposi sarcoma in resource-limited settings; cheaper regimens are inferior.",
+    caveats: ["Open-label; the non-inferiority margins were not met rather than superiority being the design."],
+    links: [{ label: "Lancet 2020", url: "https://doi.org/10.1016/S0140-6736(19)33222-2" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32145827/" }],
+    cancers: ["kaposi-sarcoma"], drugs: ["paclitaxel", "etoposide", "bleomycin", "vincristine"], trials: ["actg-a5263"], journals: ["lancet"] }),
 ];

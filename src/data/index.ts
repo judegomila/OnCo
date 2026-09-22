@@ -32,6 +32,8 @@ import { papersSubtypesWave } from "./papers-subtypes-wave";
 import { papersRareWave } from "./papers-rare-wave";
 import { papersPancreaticWave } from "./papers-pancreatic-wave";
 import { papersWatch202609 } from "./papers-watch-2026-09";
+import { papersTrialsWave1 } from "./papers-trials-wave1";
+import { trialKeyPapersWave1 } from "./trial-key-papers-wave1";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
@@ -162,6 +164,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...papersRareWave,
   ...papersPancreaticWave,
   ...papersWatch202609,
+  ...papersTrialsWave1,
   ...nutrition,
   ...adcChemistry,
   ...journals,
@@ -214,6 +217,8 @@ const RAW_INPUTS: EntityInput[] = [
 export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((e) => {
   if (e.kind === "term") return { ...e, category: canonicalTermCategory(e.id, e.category) };
   if (e.kind === "cancer" && !e.parent && (cancerParents[e.id] ?? cancerParentsWave2Map[e.id])) return { ...e, parent: cancerParents[e.id] ?? cancerParentsWave2Map[e.id] };
+  // Key papers found for trials by scripts/fetch-trial-papers.ts (wave 1), kept in one file rather than edited into every trial file.
+  if (e.kind === "trial" && trialKeyPapersWave1[e.id]) return { ...e, keyPapers: [...(e.keyPapers ?? []), ...trialKeyPapersWave1[e.id].filter((id) => !(e.keyPapers ?? []).includes(id))] };
   return e;
 });
 

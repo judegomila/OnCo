@@ -76,6 +76,12 @@ const WORST_MAX = 25;
 const STALE_DAYS = 60;
 const MIN_PER_KIND = 25;
 const MIN_IDEAS_PER_BOTTLENECK = 10;
+/**
+ * Kinds that are a closed taxonomy OnCo defines itself rather than an open collection to be filled: the treatment fronts
+ * (data/universe.ts claims no external denominator for them). They are complete by construction, so the kind-size rule
+ * does not apply; the gauge names them in its note instead of counting them as short.
+ */
+const CLOSED_KINDS = new Set<Kind>(["section"]);
 
 /** Build-time inputs that are not part of the graph: generated snapshots under public/. */
 type Ctx = { today: Date; provenance: Set<string>; papers: Set<string>; trials: Set<string>; logos: Set<string>; citations: Set<string> };
@@ -236,13 +242,15 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g, ctx) => fails(g.entities, (e) => { const d = daysSince(e.asOf, ctx.today); return d > STALE_DAYS ? `${d} days (${e.asOf})` : null; }, (e) => daysSince(e.asOf, ctx.today)),
   },
   {
-    id: "kind-size", label: `Kinds with ${MIN_PER_KIND} or more records`,
-    plain: `A kind with fewer than ${MIN_PER_KIND} records is a placeholder, not a collection.`,
+    id: "kind-size", label: `Open kinds with ${MIN_PER_KIND} or more records`,
+    plain: `A kind with fewer than ${MIN_PER_KIND} records is a placeholder, not a collection. Closed taxonomies OnCo defines itself (the treatment fronts) are complete by construction and are not held to the rule.`,
     action: "Run a per-kind expansion wave: enumerate the universe, diff against the corpus, add records with sources.",
     check: (g) => {
-      const failing = KINDS.filter((k) => g.kind(k).length < MIN_PER_KIND).sort((a, b) => g.kind(a).length - g.kind(b).length)
+      const open = KINDS.filter((k) => !CLOSED_KINDS.has(k));
+      const failing = open.filter((k) => g.kind(k).length < MIN_PER_KIND).sort((a, b) => g.kind(a).length - g.kind(b).length)
         .map((k) => ({ id: k, name: KIND_META[k].title ?? KIND_META[k].plural, route: `/${KIND_META[k].route}/`, detail: `${g.kind(k).length} records` }));
-      return { total: KINDS.length, failing };
+      const closed = [...CLOSED_KINDS].map((k) => `${KIND_META[k].plural.toLowerCase()} are a closed list of ${g.kind(k).length}`).join("; ");
+      return { total: open.length, failing, note: closed };
     },
   },
   {

@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
-- Upkeep runs on its own: weekly logos, structures, trial links and acronyms, monthly identifiers, and the bots' refreshes now deploy without a manual ship
+- Column headers filter every browser table, tumour testing redesign with laboratory logos, Edge feed, idea and corpus rankings, explore pagination, content roadmap, PR 54 and 55 rows, signed-in bridge
 - Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working
 - A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
 - Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
@@ -19,7 +19,20 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
+- Rankings hub: fourteen league tables computed from corpus counts and dates, one page each with basis, coverage and a JSON companion
+- Content roadmap: pages still to write and cross-connections still to make, measured by scripts/content-gaps.ts; waves 143 to 149 on the roadmap
+- Edge: one feed of the freshest signals in cancer, new papers, trial results, approvals, withdrawals, law, bot proposals and weekly issues, ranked by recency with a modest importance weight, with Atom and JSON feeds at /edge/feed.xml and /edge/feed.json
+- Tumour testing: By scope and By sample become card grids with company logos, and the table filters by sample, scope, laboratory and status from the URL query
+- Idea rankings: six views of the same ideas at /ideas/rankings/, every score from existing fields with its formula shown
+- Explore, For me and the navigator page their sections: the first 30 rows of each kind ship in the HTML and the rest load per section from static JSON as the reader scrolls or presses Show 30 more; For me and the navigator fetch one file per cancer instead of carrying all 328
+- Filter from the column header: every filterable column in the results tables is a button with a funnel glyph that opens a popover of value pills (counts, search past eight, Clear, Close; bottom sheet on phones), wired to the same setter and URL as the toolbar facets; sortable headers keep sort on the label and put the filter on a sibling glyph
+- Four EMA application withdrawals recorded as withdrawn rows, melflufen US withdrawal row restored, FDA Tazverik communication dated 11 May 2026
+- Bridge to the signed-in site: header greets a signed-in reader, Watch keeps pages on the account with a sign-up offer, a star on every list row, For me can be saved to the account; consent copy
+- chore: weekly roadmap registry check (public/roadmap-watch.json)
+- Upkeep runs on its own: weekly logos, structures, trial links and acronyms, monthly identifiers, and the bots' refreshes now deploy without a manual ship
 - Weekly maintenance and monthly identifier workflows; bot pushes now deploy through the Vercel ignore test
+- chore: refresh literature snapshot from Europe PMC (#56)
+- Add FDA safety communication link and SPM rate to epithelioid sarcoma record
 
 ### 21 September 2026
 - Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working

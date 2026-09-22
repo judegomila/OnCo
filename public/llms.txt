@@ -79,6 +79,7 @@
 - [Tumour board](https://onco.cc/tumor-board/): Tick biomarkers and alterations, get matched options and cautions.
 - [Compare](https://onco.cc/compare/): Up to five products, technologies, targets, trials, or cancers side by side, differences highlighted.
 - [Landscape grid](https://onco.cc/pivot/): Count products, trials, or technologies by cancer, target, treatment type, or company in one grid.
+- [Rankings](https://onco.cc/rankings/): League tables computed from the corpus: cancers by trials, targets by products, companies by approvals, trials by enrolment, each stating its basis.
 - [Timeline](https://onco.cc/timeline/): Scrub through the years: approvals, trials, and standard of care as it stood.
 - [Query](https://onco.cc/query/): Build a graph query and get a table.
 - [Graph explorer](https://onco.cc/graph/): Navigate the knowledge graph visually.

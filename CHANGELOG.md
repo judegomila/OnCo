@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
+- Trial enrolment figures now say what they count: 25 landmark trials explain why their randomised or analysed numbers differ from the registry, and five stale figures are corrected from their sources
 - MIMic-01 trial status corrected to active against ClinicalTrials.gov, the first fix from the new roadmap registry check
 - Every roadmap now carries a registry check: a weekly script compares each referenced trial with ClinicalTrials.gov and Europe PMC, flags contradictions and overdue readouts, and shows the check date under What to watch
 - A roadmap and timeline for circulating tumour DNA tests, from the 1948 discovery of cell-free DNA to the residual-disease and multi-cancer detection trials reading out next, with a watch list and a script that checks it against the registries
@@ -15,6 +16,8 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
 
 ### 21 September 2026
+- Enrolment gaps on 30 roadmap trials reviewed one by one against ClinicalTrials.gov and the primary papers: 25 keep the paper's randomised, analysed, treated or registered count and now say so in a new enrolledBasis and enrolledNote, 5 stale or unsourced figures corrected from the registry or the paper; the roadmap watch reports explained gaps separately and its offline mode re-compares against the committed registry records
+- MIMic-01 trial status corrected to active against ClinicalTrials.gov, the first fix from the new roadmap registry check
 - Every roadmap now carries a registry check: a weekly script compares each referenced trial with ClinicalTrials.gov and Europe PMC, flags contradictions and overdue readouts, and shows the check date under What to watch
 - MIMic-01 status and PATHFINDER 2 design corrected against ClinicalTrials.gov, as flagged by the roadmap watch
 - Roadmap watch for every roadmap: scripts/roadmap-watch.ts compares each roadmap's referenced trials with ClinicalTrials.gov (status, phase, enrolment within 5 percent, moved completion dates), lists Europe PMC papers since asOf, flags watch items past their expected date, writes public/roadmap-watch.json for a weekly Thursday workflow and a "Registry check" line on roadmap pages

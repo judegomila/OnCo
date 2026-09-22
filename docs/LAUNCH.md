@@ -22,6 +22,7 @@ Merge finished worktree agents before the chain; never `cd` into a worktree; nev
 
 ## Owner asks not yet started
 - [ ] Health data: see docs/HEALTH-DATA-COMPLIANCE.md; decisions listed there (HIPAA does not apply today; stay browser-only, fix explicit consent for cancer type and gate analytics, plan encrypted sync next)
+- [x] Weekly maintenance and monthly identifiers now run in .github/workflows/maintenance.yml (owner approved 22 Sept 2026); bot pushes deploy on their own through the ignoreCommand test in vercel.json.
 - [ ] Google Search Console verification (needs the owner's TXT token; IndexNow key is live but the host verification was still pending on 10 Sept, retry `api.indexnow.org` each tick)
 - [ ] www.onco.cc: confirm the domain is attached in Vercel so the redirect in vercel.json applies (curl returned 200 on 10 Sept, not 308)
 - [ ] Complete coverage: NCI-designated centres and 93 global centres (merged 10 Sept); paediatric and rare cancers (merged 10 Sept, NCI list 100%); screening and diagnostic tests (merged 10 Sept, 72 tests); EU and Japan approvals for every approved drug (merged 10 Sept, gauge clears)

@@ -320,5 +320,5 @@
       "permanent": true
     }
   ],
-  "ignoreCommand": "exit 0"
+  "ignoreCommand": "if [ \"$VERCEL_GIT_COMMIT_AUTHOR_LOGIN\" = \"github-actions[bot]\" ]; then exit 1; else exit 0; fi"
 }

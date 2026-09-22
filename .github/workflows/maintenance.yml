@@ -1,0 +1,93 @@
+name: Weekly maintenance (logos, structures, links, acronyms, search engines)
+
+# Runs the budget-free upkeep that used to need a person: fetch logos and molecule structures for new records, add
+# trial acronyms and subtype links for trials ingested on Monday, fill orphan back-links, then tell search engines
+# which pages changed. Identifier enrichment (HGNC, Wikidata) runs monthly because it is slow and rarely changes.
+
+on:
+  schedule:
+    - cron: "37 7 * * 2" # Tuesdays 07:37 UTC, after the Monday trial refresh
+    - cron: "17 8 1 * *" # first of the month 08:17 UTC: identifiers
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: maintenance
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    if: github.event.schedule != '17 8 1 * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run fetch:logos
+      - run: npx tsx scripts/fill-structures.ts --apply
+      - run: npx tsx scripts/trial-acronyms.ts --apply --quiet --max=600
+      - run: npx tsx scripts/subtype-trial-links.ts --apply
+      - run: npx tsx scripts/orphan-links.ts --apply
+      - run: npx tsx scripts/orphans.ts --write
+      - run: npm run validate
+      - run: npm run typecheck
+      - run: npx vitest run
+      - uses: peter-evans/create-pull-request@v7
+        id: cpr
+        with:
+          branch: bot/maintenance
+          title: "Weekly maintenance: logos, structures, trial links and acronyms"
+          commit-message: "chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links)"
+          body: |
+            Automated weekly upkeep: logos and molecule structures for new records, acronyms and subtype links for
+            newly ingested trials, orphan back-links, and the orphan floor. Validated and tested in this run.
+          labels: automated, pipeline
+          delete-branch: true
+      - name: Merge the maintenance (this run already validated and tested it)
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge --squash --delete-branch "${{ steps.cpr.outputs.pull-request-number }}" || echo "merge deferred, the pull request stays open for review"
+      - name: Tell search engines which pages changed this week
+        run: npm run provenance && npm run indexnow -- --since=$(date -u -d '8 days ago' +%F)
+
+  monthly-identifiers:
+    if: github.event.schedule == '17 8 1 * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/enrich-target-ids.ts --budget=400
+      - run: npx tsx scripts/enrich-institution-ids.ts --budget=600
+      - run: npx tsx scripts/enrich-company-ids.ts --budget=600
+      - run: npm run validate
+      - run: npm run typecheck
+      - run: npx vitest run
+      - uses: peter-evans/create-pull-request@v7
+        id: cpr
+        with:
+          branch: bot/identifiers
+          title: "Monthly maintenance: external identifiers"
+          commit-message: "chore: monthly identifier enrichment (HGNC, Wikidata)"
+          body: |
+            Automated monthly pass filling gene identifiers on targets and Wikipedia and Wikidata links on institutions
+            and companies, with the strict matching rules in the scripts. Validated and tested in this run.
+          labels: automated, pipeline
+          delete-branch: true
+      - name: Merge the identifiers (this run already validated and tested it)
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge --squash --delete-branch "${{ steps.cpr.outputs.pull-request-number }}" || echo "merge deferred, the pull request stays open for review"

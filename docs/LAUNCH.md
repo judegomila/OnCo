@@ -29,7 +29,7 @@ Merge finished worktree agents before the chain; never `cd` into a worktree; nev
 - [x] Content roadmap (docs/CONTENT-ROADMAP.md, `npm run content:gaps`): chain 96; waves 1 and 2 running
 - [x] Cancer map DAG (/cancers/map/, graph.json): chain 97
 - [x] Every hand-written table with ten or more rows on the shared filter (docs/TABLES.md): chain 97; seven heavy pages page their rows from /api/v1/tables/ since chain 98
-- [x] Content waves 1, 2, 3 (leukaemia, brain, childhood, lymphoma), 5: chains 97 and 98; waves 3 (remaining families), 6 and 7a running
+- [x] Content waves 1 to 3, 5, 6 and 7a (registry outcomes): chains 97 to 100; wave 4 (278 cancer pages) waits for the owner's taxonomy call; wave 7 long tail (683 cited DOIs) open
 - [ ] Owner: WHO Blue Books access, taxonomy call (entities versus settings, supportive care, cooperative groups), burden source for the 31 cancers GLOBOCAN does not map (see docs/CONTENT-ROADMAP.md section 4)
 
 ## Owner asks not yet started

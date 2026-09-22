@@ -31,6 +31,7 @@ export const NAV_GROUPS: NavGroup[] = [
     id: "map", label: "Cancers & treatments", href: "/map/", blurb: "Every cancer, every way to detect and treat it, every drug, target, trial, and term. One page each, in plain English first.",
     items: [
       { href: "/cancers/", label: "Cancers", blurb: "State of the art, standard of care, history, pipeline." },
+      { href: "/cancers/map/", label: "Cancer map", blurb: "Every cancer type on one layered map: organ system to cancer to subtype, with a cancer under more than one node where it belongs to both. Badges count trials, products, approvals or ideas." },
       { href: "/fronts/", label: "Fronts", blurb: "The fronts of the war: imaging to cell therapy." },
       { href: "/technologies/", label: "Technologies", blurb: "Every way we see, measure, or attack a tumour." },
       { href: "/targets/", label: "Targets", blurb: "The molecules drugs and tracers aim at." },

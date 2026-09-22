@@ -27,6 +27,7 @@ export const navDe: NavDict = {
   "/body/": ["Körperkarte", "Dort beginnen, wo der Krebs sitzt."],
 
   "/cancers/": ["Krebsarten", "Stand der Technik, Therapiestandard, Geschichte, Pipeline."],
+  "/cancers/map/": ["Krebskarte", "Jede Krebsart auf einer geschichteten Karte: Organsystem, Krebsart, Subtyp; eine Krebsart steht unter mehreren Knoten, wenn sie zu beiden gehört. Marken zählen Studien, Produkte, Zulassungen oder Ideen."],
   "/fronts/": ["Fronten", "Die Fronten des Krieges: von der Bildgebung bis zur Zelltherapie."],
   "/technologies/": ["Technologien", "Jeder Weg, einen Tumor zu sehen, zu messen oder anzugreifen."],
   "/targets/": ["Zielstrukturen", "Die Moleküle, auf die Medikamente und Tracer zielen."],

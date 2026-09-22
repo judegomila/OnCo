@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { normalisePhaseLabel } from "@/lib/kinds";
 import Link from "next/link";
 import { valueTone } from "@/lib/valueTone";
 import { ValueIcon } from "@/components/ValueIcon";
@@ -94,8 +95,10 @@ const itemLabel = (i: LinkItem | FacetLink): string => ("href" in i ? i.label : 
 /** The plain text of a cell: what search matches against and what text sorting compares. */
 export const cellText = (v: CellValue): string => (Array.isArray(v) ? v.map(itemLabel).join(", ") : isRich(v) ? v.text : isFacetLink(v) ? itemLabel(v) : String(v ?? ""));
 
-/** `normalise` maps historical URL values to the current facet label so old shared links keep filtering (see normalisePhaseLabel). */
-export type FacetDef = { key: string; label: string; searchable?: boolean; width?: string; order?: string[]; normalise?: (value: string) => string };
+/** `normalise` names a client-side mapper of historical URL values to the current facet label, so old shared links keep filtering. A string key, not a function: facet definitions cross the server-to-client boundary. */
+const NORMALISERS: Record<"phase", (value: string) => string> = { phase: normalisePhaseLabel };
+
+export type FacetDef = { key: string; label: string; searchable?: boolean; width?: string; order?: string[]; normalise?: "phase" };
 export type ColDef = { key: string; label: string; sortable?: boolean; hide?: string; className?: string; numeric?: boolean; chip?: boolean; tip?: string; /** Tips for chip/string values keyed by value, e.g. { "Phase 3": "..." }. */ valueTips?: Record<string, string> };
 
 const STATUS_ORDER = ["approved", "standard-of-care", "positive", "phase-3", "established", "completed", "recruiting", "active", "phase-2", "emerging", "phase-1", "preclinical", "concept", "planned", "mixed", "historic", "negative", "withdrawn"];
@@ -191,7 +194,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
         const raw = params.getAll(f.key);
         if (!raw.length) continue;
         const known = new Set(rows.flatMap((r) => facetVals(r, f.key)));
-        const norm = f.normalise ?? ((v: string) => v);
+        const norm = f.normalise ? NORMALISERS[f.normalise] : (v: string) => v;
         const vals = [...new Set(raw.flatMap((s) => (known.has(s) ? [s] : s.split(",").map((x) => norm(x.trim())).filter(Boolean))))];
         if (!vals.length) continue;
         if (external && f.key === external.key && onExternalChange) ext = vals; else next[f.key] = vals;

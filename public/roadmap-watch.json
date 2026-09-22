@@ -1023,7 +1023,7 @@
    "counts": {
     "trials": 12,
     "checked": 9,
-    "contradictions": 1,
+    "contradictions": 0,
     "explained": 0,
     "papers": 0,
     "watch": 10,
@@ -1258,9 +1258,7 @@
       "completion": "2028-04-30",
       "lastUpdate": "2026-05-14"
      },
-     "contradictions": [
-      "corpus says observational, registry lists an interventional study"
-     ],
+     "contradictions": [],
      "explained": [],
      "papers": []
     },
@@ -1426,13 +1424,7 @@
      "contradictions": []
     }
    ],
-   "contradictions": [
-    {
-     "ref": "pathfinder-2",
-     "name": "PATHFINDER 2",
-     "text": "corpus says observational, registry lists an interventional study"
-    }
-   ],
+   "contradictions": [],
    "explained": []
   },
   {
@@ -1800,7 +1792,7 @@
    "counts": {
     "trials": 10,
     "checked": 8,
-    "contradictions": 1,
+    "contradictions": 0,
     "explained": 1,
     "papers": 0,
     "watch": 0,
@@ -1942,7 +1934,7 @@
      "name": "MIMic-01: healthy-donor FMT plus anti-PD-1, first-line melanoma",
      "nct": "NCT03772899",
      "corpus": {
-      "status": "completed",
+      "status": "active",
       "phase": "1",
       "enrolled": 20,
       "enrolledBasis": "registry",
@@ -1961,9 +1953,7 @@
       "completion": "2026-08",
       "lastUpdate": "2025-03-28"
      },
-     "contradictions": [
-      "corpus says completed, registry says active not recruiting"
-     ],
+     "contradictions": [],
      "explained": [],
      "papers": []
     },
@@ -2065,13 +2055,7 @@
     }
    ],
    "watch": [],
-   "contradictions": [
-    {
-     "ref": "mimic-01",
-     "name": "MIMic-01: healthy-donor FMT plus anti-PD-1, first-line melanoma",
-     "text": "corpus says completed, registry says active not recruiting"
-    }
-   ],
+   "contradictions": [],
    "explained": [
     {
      "ref": "fmt-pd1-refractory-melanoma-pitt",
@@ -2107,7 +2091,7 @@
    "counts": {
     "trials": 2,
     "checked": 1,
-    "contradictions": 1,
+    "contradictions": 0,
     "explained": 0,
     "papers": 0,
     "watch": 0,
@@ -2153,21 +2137,13 @@
       "completion": "2028-04-30",
       "lastUpdate": "2026-05-14"
      },
-     "contradictions": [
-      "corpus says observational, registry lists an interventional study"
-     ],
+     "contradictions": [],
      "explained": [],
      "papers": []
     }
    ],
    "watch": [],
-   "contradictions": [
-    {
-     "ref": "pathfinder-2",
-     "name": "PATHFINDER 2",
-     "text": "corpus says observational, registry lists an interventional study"
-    }
-   ],
+   "contradictions": [],
    "explained": []
   },
   {

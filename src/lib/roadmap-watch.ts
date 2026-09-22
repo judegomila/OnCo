@@ -127,6 +127,9 @@ export function phaseContradiction(corpusPhase: string, reg: Pick<RegistryRecord
   const regPhases = (reg.phases ?? []).filter((p) => p !== "NA");
   if (corpusPhase === "platform") return null;
   if (corpusPhase === "observational") {
+    // The corpus uses "observational" for every non-drug study. A registry study that is interventional but carries no
+    // drug phase (a screening test, a device, a care pathway) is the same thing under another name, so it is not a contradiction.
+    if (reg.studyType === "INTERVENTIONAL" && !regPhases.length) return null;
     if (reg.studyType && reg.studyType !== "OBSERVATIONAL") return `corpus says observational, registry lists an ${plain(reg.studyType)} study${regPhases.length ? ` in ${regPhases.map(plain).join(" and ")}` : ""}`;
     return null;
   }

@@ -69,6 +69,7 @@ describe("phase comparison", () => {
   it("skips platform trials, observational registry records and NA phases", () => {
     expect(phaseContradiction("platform", reg({ phases: ["PHASE2"] }))).toBeNull();
     expect(phaseContradiction("observational", reg({ phases: ["NA"], studyType: "OBSERVATIONAL" }))).toBeNull();
+    expect(phaseContradiction("observational", reg({ phases: ["NA"], studyType: "INTERVENTIONAL" }))).toBeNull();
     expect(phaseContradiction("3", reg({ phases: ["NA"] }))).toBeNull();
     expect(phaseContradiction("3", reg({ phases: undefined }))).toBeNull();
   });

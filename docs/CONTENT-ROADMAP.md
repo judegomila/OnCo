@@ -65,6 +65,12 @@ Wave 2 (corpus-only joins) ran on 22 September 2026 through `scripts/link-joins.
 
 Links still to make fell from 12,295 to 10,335; trials with fewer than three inbound links from 1,733 to 1,718, drugs from 202 to 185, papers from 565 to 547, technologies from 168 to 165. The "fillable today" column above was measured with looser joins (a shared technology or cancer alone); wave 2 rejected those on review because a drug class shared by hundreds of trials says nothing about one idea.
 
+Wave 3 (the trials behind standard of care) started on 22 September 2026 in `src/data/trials-soc-wave.ts` and `src/data/papers-soc-wave.ts`, with `scripts/soc-trial-refs.ts` turning each row's prose citation into a `refs` link. Registry records from ClinicalTrials.gov v2 (acronym field, study id or official title must match), outcomes from the registry results section or the primary publication on Europe PMC by NCT id; acronyms that are not trials or already have a record are listed in the wave file's SKIP comment.
+
+| Family | Trials written | With structured outcomes | Papers added | Standard-of-care rows linked | Skipped |
+|---|---:|---:|---:|---:|---|
+| Leukaemia (incl. MDS, MPN, mastocytosis) | 18 | 15 | 12 | 21 | none; AALL1521, IntReALL SR 2010 and IMpactMF have no published result and carry no outcomes |
+
 ## 2. Waves, in order of patient value
 
 Ordering uses GLOBOCAN 2022 new cases worldwide per cancer family (a parent with all its subtypes): lung 2,480,675; breast 2,296,840; colorectal 1,926,425; skin 1,566,255; prostate 1,467,854; gastric 968,784; head and neck 947,211; liver 866,136; thyroid 821,214; cervical 662,301; bladder 614,298; non-Hodgkin lymphoma 553,389; oesophageal 511,054; pancreatic 510,992; leukaemia 487,294; kidney 434,840; endometrial 420,368; ovarian 324,603; brain 321,731; myeloma 187,952. The per-family gap table in the script output says where each wave should start.

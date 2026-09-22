@@ -31,12 +31,13 @@ import { tldrZh as headNeckHpv } from "../src/data/head-neck-hpv-subtypes";
 import { tldrZh as biomarkers } from "../src/data/terms-biomarkers-wave";
 import { tldrZh as subtypeDrugs } from "../src/data/drugs-subtypes-wave";
 import { tldrZh as subtypeTrials } from "../src/data/trials-subtypes-wave";
+import { tldrZh as socTrials } from "../src/data/trials-soc-wave";
 import { tldrZh as makers4 } from "../src/data/companies-makers-wave4";
 import { tldrZh as investigators } from "../src/data/people-investigators-wave";
 import { tldrZh as investigatorInstitutions } from "../src/data/institutions-wave-investigators";
 import { tldrZh as ctdnaRoadmap } from "../src/data/ctdna-roadmap";
 
-const WAVES: Record<string, string>[] = [manufacturing, theories, platform, trialDesign, law, diagnostics2, networks, prostate, machines2, sponsors3, cns, colorectalLymphoma, upperGiLiver, blood, gynaecological, skin, lung, breast, sarcomaBone, paediatric, neuroendocrine, rare, pancreatic, headNeckHpv, biomarkers, subtypeDrugs, subtypeTrials, makers4, investigators, investigatorInstitutions, ctdnaRoadmap];
+const WAVES: Record<string, string>[] = [manufacturing, theories, platform, trialDesign, law, diagnostics2, networks, prostate, machines2, sponsors3, cns, colorectalLymphoma, upperGiLiver, blood, gynaecological, skin, lung, breast, sarcomaBone, paediatric, neuroendocrine, rare, pancreatic, headNeckHpv, biomarkers, subtypeDrugs, subtypeTrials, socTrials, makers4, investigators, investigatorInstitutions, ctdnaRoadmap];
 const path = "src/data/i18n/zh.ts";
 let z = readFileSync(path, "utf8");
 const have = new Set([...z.matchAll(/^\s*(?:"([^"]+)"|([A-Za-z_$][\w$]*)):\s/mg)].map((m) => m[1] ?? m[2]));

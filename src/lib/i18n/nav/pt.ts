@@ -20,6 +20,7 @@ export const navPt: NavDict = {
   "/tumor-board/": ["Reunião de tumores", "Assinale biomarcadores e alterações e obtenha opções compatíveis e precauções."],
   "/compare/": ["Comparar", "Até cinco produtos, tecnologias, alvos, ensaios ou cancros lado a lado, com as diferenças realçadas."],
   "/pivot/": ["Grelha do panorama", "Conte produtos, ensaios ou tecnologias por cancro, alvo, tipo de tratamento ou empresa numa grelha."],
+  "/rankings/": ["Classificações", "Tabelas classificativas calculadas a partir do corpus: cancros por ensaios, alvos por produtos, empresas por aprovações, ensaios por participantes, cada uma com a sua base declarada."],
   "/timeline/": ["Linha do tempo", "Percorra os anos: aprovações, ensaios e o tratamento padrão tal como era."],
   "/query/": ["Consulta", "Construa uma consulta ao grafo e obtenha uma tabela."],
   "/graph/": ["Explorador do grafo", "Navegue visualmente pelo grafo de conhecimento."],

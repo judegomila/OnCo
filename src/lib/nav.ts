@@ -20,6 +20,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/tumor-board/", label: "Tumour board", blurb: "Tick biomarkers and alterations, get matched options and cautions." },
       { href: "/compare/", label: "Compare", blurb: "Up to five products, technologies, targets, trials, or cancers side by side, differences highlighted." },
       { href: "/pivot/", label: "Landscape grid", blurb: "Count products, trials, or technologies by cancer, target, treatment type, or company in one grid." },
+      { href: "/rankings/", label: "Rankings", blurb: "League tables computed from the corpus: cancers by trials, targets by products, companies by approvals, trials by enrolment, each stating its basis." },
       { href: "/timeline/", label: "Timeline", blurb: "Scrub through the years: approvals, trials, and standard of care as it stood." },
       { href: "/query/", label: "Query", blurb: "Build a graph query and get a table." },
       { href: "/graph/", label: "Graph explorer", blurb: "Navigate the knowledge graph visually." },

@@ -20,6 +20,7 @@ export const navDe: NavDict = {
   "/tumor-board/": ["Tumorboard", "Biomarker und Veränderungen ankreuzen, passende Optionen und Warnhinweise erhalten."],
   "/compare/": ["Vergleichen", "Bis zu fünf Produkte, Technologien, Zielstrukturen, Studien oder Krebsarten nebeneinander, Unterschiede hervorgehoben."],
   "/pivot/": ["Landschaftsraster", "Produkte, Studien oder Technologien nach Krebsart, Zielstruktur, Therapieart oder Unternehmen in einem Raster zählen."],
+  "/rankings/": ["Ranglisten", "Ranglisten aus dem Korpus berechnet: Krebsarten nach Studien, Zielstrukturen nach Produkten, Unternehmen nach Zulassungen, Studien nach Teilnehmerzahl, jede mit ihrer Grundlage."],
   "/timeline/": ["Zeitleiste", "Durch die Jahre scrollen: Zulassungen, Studien und der damalige Therapiestandard."],
   "/query/": ["Abfrage", "Eine Graphabfrage bauen und eine Tabelle erhalten."],
   "/graph/": ["Graph-Explorer", "Den Wissensgraphen visuell erkunden."],

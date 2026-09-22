@@ -20,6 +20,7 @@ export const navEs: NavDict = {
   "/tumor-board/": ["Comité de tumores", "Marca biomarcadores y alteraciones y obtén opciones compatibles y precauciones."],
   "/compare/": ["Comparar", "Hasta cinco productos, tecnologías, dianas, ensayos o cánceres lado a lado, con las diferencias resaltadas."],
   "/pivot/": ["Cuadrícula del panorama", "Cuenta productos, ensayos o tecnologías por cáncer, diana, tipo de tratamiento o empresa en una cuadrícula."],
+  "/rankings/": ["Clasificaciones", "Tablas clasificatorias calculadas a partir del corpus: cánceres por ensayos, dianas por productos, empresas por aprobaciones, ensayos por participantes, cada una con su base declarada."],
   "/timeline/": ["Línea de tiempo", "Recorre los años: aprobaciones, ensayos y el tratamiento estándar tal como era."],
   "/query/": ["Consulta", "Construye una consulta al grafo y obtén una tabla."],
   "/graph/": ["Explorador del grafo", "Navega visualmente por el grafo de conocimiento."],

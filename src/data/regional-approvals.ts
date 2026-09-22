@@ -436,7 +436,13 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "gardasil-9": global("Gardasil 9", "gardasil-9", 2014, 2015, 2015, 2020, 2018, 2015, "Gardasil (4-valent) 2006 US"),
   "intismeran-autogene": { US: UR("INTerpath-001 positive Aug 2026; filings to follow") },
 
-  // ================= Withdrawn products and EU-only authorisations (EMA register) ==========  melflufen: { US: W(2021, undefined, "Pepaxto accelerated approval Feb 2021; withdrawn from the US market by Oncopeptides Oct 2021"), EU: A(2022, epar("pepaxti"), "Pepaxti with dexamethasone; multiple myeloma after ≥3 prior lines, refractory to a PI, an IMiD and an anti-CD38 antibody; 17 Aug 2022") },
+  // ================= Withdrawn products and EU-only authorisations (EMA register) =================
+  melflufen: { US: W(2021, undefined, "Pepaxto accelerated approval Feb 2021; withdrawn from the US market by Oncopeptides Oct 2021"), EU: A(2022, epar("pepaxti"), "Pepaxti with dexamethasone; multiple myeloma after ≥3 prior lines, refractory to a PI, an IMiD and an anti-CD38 antibody; 17 Aug 2022") },
+  // EMA marketing authorisation applications withdrawn before a CHMP opinion (application withdrawn, not an approval)
+  sasanlimab: { EU: W(undefined, epar("zumrad"), "Zumrad with BCG for BCG-naive high-risk non-muscle-invasive bladder cancer: marketing authorisation application withdrawn by Pfizer 13 Feb 2026 before a CHMP opinion, after the CHMP questioned protocol and statistical changes made during the main study") },
+  omacetaxine: { EU: W(undefined, epar("tekinex"), "Tekinex for chronic myeloid leukaemia after imatinib failure, including T315I: marketing authorisation application withdrawn by ChemGenex 11 Jan 2011 at day 120; the CHMP's provisional view was that benefits did not outweigh risks") },
+  ixabepilone: { EU: W(undefined, epar("ixempra"), "Ixempra with capecitabine for advanced breast cancer after chemotherapy: marketing authorisation application withdrawn by Bristol-Myers Squibb 18 Mar 2009 after a negative CHMP opinion (neuropathy)") },
+  vorinostat: { EU: W(undefined, epar("vorinostat-msd"), "Vorinostat MSD for advanced cutaneous T-cell lymphoma after two systemic therapies: marketing authorisation application withdrawn by MSD 13 Feb 2009 at day 206; the CHMP found benefit not sufficiently demonstrated") },
   panobinostat: { US: W(2022, undefined, "Farydak accelerated approval Feb 2015; US approval withdrawn 2022 at Secura Bio's request"), EU: A(2015, epar("farydak"), "Farydak with bortezomib and dexamethasone; relapsed/refractory myeloma after ≥2 prior regimens; 28 Aug 2015") },
   nintedanib: { EU: A(2014, epar("vargatef"), "Vargatef with docetaxel; adenocarcinoma NSCLC after first-line chemotherapy; 21 Nov 2014", "US approval (Ofev) is for pulmonary fibrosis, not oncology"), UK: A(2014, mhra("Vargatef")) },
   "moxetumomab-pasudotox": { US: W(2023, undefined, "Lumoxiti accelerated approval Sep 2018; discontinued by AstraZeneca and withdrawn 2023"), EU: W(2021, epar("lumoxiti"), "Authorised 8 Feb 2021; marketing authorisation withdrawn at the holder's request 23 Jul 2021") },
@@ -487,7 +493,6 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   mirdametinib: { EU: C(2025, epar("ezmekly")) },
   catumaxomab: { EU: A(2025, epar("korjuny")) },
   "efbemalenograstim-alfa": { EU: A(2024, epar("ryzneuta")) },
-  melflufen: { EU: A(2022, epar("pepaxti")) },
   capmatinib: { EU: A(2022, epar("tabrecta")) },
   tepotinib: { EU: A(2022, epar("tepmetko")) },
   selumetinib: { EU: C(2021, epar("koselugo")) },

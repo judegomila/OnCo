@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { KINDS, STATUSES } from "./kinds";
 
-export { KINDS, STATUSES, REL_FIELDS, KIND_META, routeFor } from "./kinds";
+export { KINDS, STATUSES, REL_FIELDS, KIND_META, PHASE_ORDER, routeFor, phaseLabel, normalisePhaseLabel } from "./kinds";
 export type { Kind, Status, RelField } from "./kinds";
 
 /**

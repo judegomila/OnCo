@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Drug, Entity, Target, Trial } from "@/lib/schema";
-import { routeFor } from "@/lib/kinds";
+import { PHASE_ORDER, routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
 import { withTermHovers } from "@/lib/term-hover";
@@ -84,8 +84,7 @@ export function dossierData(t: Target) {
       if (hits) mechanisms.push({ classId: r.id, drugClass: r.drugClass, m });
     }
   }
-  const phaseOrder = ["3", "2/3", "platform", "2", "1/2", "1", "4", "observational"];
-  const trialList = [...trials.values()].sort((a, b) => phaseOrder.indexOf(a.phase) - phaseOrder.indexOf(b.phase) || (b.yearReported ?? 0) - (a.yearReported ?? 0) || a.name.localeCompare(b.name));
+  const trialList = [...trials.values()].sort((a, b) => PHASE_ORDER.indexOf(a.phase) - PHASE_ORDER.indexOf(b.phase) || (b.yearReported ?? 0) - (a.yearReported ?? 0) || a.name.localeCompare(b.name));
   return {
     drugs, trials: trialList, papers: [...papers.values()].sort((a, b) => ((b as { year?: number }).year ?? 0) - ((a as { year?: number }).year ?? 0)),
     companies: [...companies.values()].sort((a, b) => a.name.localeCompare(b.name)), pathways, ideas, technologies, cancers: [...cancers.values()].sort((a, b) => a.name.localeCompare(b.name)),

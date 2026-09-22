@@ -3,7 +3,7 @@ import { graph } from "@/lib/graph";
 import { logoSrc } from "@/lib/logos";
 import { portraitSrc } from "@/lib/portraits";
 import { rankInstitutions } from "@/lib/ranking";
-import { routeFor, type Kind } from "@/lib/kinds";
+import { normalisePhaseLabel, PHASE_ORDER, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
 import { type Entity } from "@/lib/schema";
 import { COMPANY_TYPE_LABEL, portfolioOf, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf } from "@/lib/startups";
 import { termVisual, type TermVisual } from "@/lib/term-visual";
@@ -172,8 +172,8 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
       defaultSort: { key: "category", dir: 1 },
     };
     case "trial": return {
-      rows: g.kind("trial").map((t) => ({ ...base(t), ...borrowed(t), sub: t.nct, facets: { phase: [`Phase ${t.phase}`], cancers: names(t.cancers), sponsor: sponsorParts(t.sponsor), drugs: names(t.drugs) }, cols: { phase: fl("phase", `Phase ${t.phase}`), cancers: links(t.cancers), drugs: links(t.drugs), sponsor: sponsorCell(t.sponsor), year: t.yearReported }, sortKeys: { year: t.yearReported ?? 0 }, tie: t.yearReported ?? 0 })),
-      facets: [{ key: "cancers", label: "Cancer", width: "w-56" }, { key: "phase", label: "Phase", searchable: false, width: "w-40" }, { key: "drugs", label: "Product", width: "w-48" }, { key: "sponsor", label: "Sponsor", width: "w-48" }],
+      rows: g.kind("trial").map((t) => ({ ...base(t), ...borrowed(t), sub: t.nct, facets: { phase: [phaseLabel(t.phase)], cancers: names(t.cancers), sponsor: sponsorParts(t.sponsor), drugs: names(t.drugs) }, cols: { phase: fl("phase", phaseLabel(t.phase)), cancers: links(t.cancers), drugs: links(t.drugs), sponsor: sponsorCell(t.sponsor), year: t.yearReported }, sortKeys: { year: t.yearReported ?? 0 }, tie: t.yearReported ?? 0 })),
+      facets: [{ key: "cancers", label: "Cancer", width: "w-56" }, { key: "phase", label: "Phase", searchable: false, width: "w-40", order: PHASE_ORDER.map(phaseLabel), normalise: normalisePhaseLabel }, { key: "drugs", label: "Product", width: "w-48" }, { key: "sponsor", label: "Sponsor", width: "w-48" }],
       columns: [{ key: "phase", label: "Phase", sortable: true, hide: "hidden sm:table-cell" }, { key: "drugs", label: "Products", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "sponsor", label: "Sponsor", hide: "hidden lg:table-cell" }, { key: "year", label: "Reported", sortable: true, numeric: true }],
       // What works first: positive and approved results at the top, negative and withdrawn last; newest first within a status.
       defaultSort: { key: "status", dir: 1 },

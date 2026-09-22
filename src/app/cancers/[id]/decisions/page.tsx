@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { phaseLabel, routeFor } from "@/lib/schema";
 import { decisionCancerIds, decisionsFor, type DecisionEvidence, type DecisionOption, type DecisionSection } from "@/lib/decisions";
 import { evidenceLabel } from "@/lib/evidence";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
@@ -97,7 +97,7 @@ function EvidenceRow({ e, options }: { e: DecisionEvidence; options: DecisionOpt
     <li className="card p-4">
       <div className="flex flex-wrap items-center gap-2">
         <Link href={e.route} className="font-medium hover:underline">{e.name}</Link>
-        <Link href={`/trials/?phase=${encodeURIComponent(`Phase ${e.phase}`)}`} className="chip bg-indigo-50 text-indigo-800 border border-indigo-200 dark:bg-indigo-950/40 dark:text-indigo-200 dark:border-indigo-900 text-[10px]">Phase {e.phase}</Link>
+        <Link href={`/trials/?phase=${encodeURIComponent(phaseLabel(e.phase))}`} className="chip bg-indigo-50 text-indigo-800 border border-indigo-200 dark:bg-indigo-950/40 dark:text-indigo-200 dark:border-indigo-900 text-[10px]">{phaseLabel(e.phase)}</Link>
         {e.nct && <a className="chip bg-foreground/5 text-[10px] font-mono hover:bg-foreground/10" href={`https://clinicaltrials.gov/study/${e.nct}`} rel="noopener">{e.nct}</a>}
         {e.yearReported && <Link href="/timeline/" className="chip bg-foreground/5 text-[10px] tabular-nums hover:bg-foreground/10">{e.yearReported}</Link>}
         {e.enrolled && <span className="chip bg-foreground/5 text-[10px] tabular-nums">{e.enrolled.toLocaleString("en-GB")} people</span>}

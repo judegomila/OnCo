@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
-import { routeFor, type Cancer, type Trial } from "@/lib/schema";
+import { phaseLabel, routeFor, type Cancer, type Trial } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader, StatusChip } from "@/components/ui";
 import { TrialExplainer } from "@/components/TrialExplainer";
 import { CancerIcon } from "@/components/CancerIcon";
@@ -71,7 +71,7 @@ export default function ExplainedPage() {
                         <span aria-hidden className="text-muted text-xs transition-transform group-open:rotate-90">▶</span>
                         <h3 className="text-lg font-semibold">{t.name}</h3>
                         <StatusChip status={t.status} />
-                        <span className="text-xs text-muted">Phase {t.phase}{t.yearReported ? ` · reported ${t.yearReported}` : ""}</span>
+                        <span className="text-xs text-muted">{phaseLabel(t.phase)}{t.yearReported ? ` · reported ${t.yearReported}` : ""}</span>
                       </div>
                       <p className="text-sm text-muted mt-1 max-w-3xl line-clamp-2 group-open:line-clamp-none">{t.tldr}</p>
                     </summary>

@@ -1,5 +1,6 @@
 import { graph } from "./graph";
 import type { Entity, Trial } from "./schema";
+import { phaseLabel } from "./kinds";
 
 /**
  * Evidence strength, 0–100, with the parts disclosed. It measures how much and what kind of
@@ -44,7 +45,7 @@ function endpointPoints(t: Trial): EvidencePart {
 export function trialEvidence(t: Trial): Evidence {
   const parts: EvidencePart[] = [];
   const phase: Record<string, number> = { "3": 30, "2/3": 22, "2": 15, "1/2": 8, "1": 4, "4": 20, observational: 10, platform: 10 };
-  parts.push({ label: `Phase ${t.phase}`, points: phase[t.phase] ?? 5 });
+  parts.push({ label: phaseLabel(t.phase), points: phase[t.phase] ?? 5 });
   if (t.enrolled) parts.push({ label: `${t.enrolled.toLocaleString()} enrolled`, points: Math.min(20, Math.round(5 * Math.log10(t.enrolled))) });
   parts.push(endpointPoints(t));
   const s = t.status ?? "";

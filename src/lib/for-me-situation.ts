@@ -1,6 +1,7 @@
 import type { Region } from "@/data/regional-approvals";
 import type { Question } from "@/data/questions";
 import type { RedCard } from "./red-cards";
+import { phaseLabel } from "./kinds";
 
 /**
  * "For me" from a real situation (roadmap item 101). The reader picks a cancer, then may add a treatment setting,
@@ -282,7 +283,7 @@ export function assembleSituation(data: SituationData, s: Situation): SituationS
       sections.push({ id: "trials", title: SECTION_TITLE.trials, lead: `${n(data.trials.length, "recruiting trial")} ${data.trials.length === 1 ? "is" : "are"} recorded for ${c.name}. Choose a setting or a biomarker to narrow them to ones that fit.`, empty: data.trials.length ? undefined : `No recruiting trial is recorded for ${c.name}.`, items: [], links });
     } else {
       const fits = trialsThatFit(data, row, chosen, bmDrugIds);
-      const items = fits.slice(0, TRIAL_CAP).map(({ trial, reasons }) => ({ id: trial.id, name: trial.name, route: trial.route, badge: `Phase ${trial.phase}${trial.nct ? ` · ${trial.nct}` : ""}`, tone: "match" as const, note: `Fits because of ${list(reasons)}.` }));
+      const items = fits.slice(0, TRIAL_CAP).map(({ trial, reasons }) => ({ id: trial.id, name: trial.name, route: trial.route, badge: `${phaseLabel(trial.phase)}${trial.nct ? ` · ${trial.nct}` : ""}`, tone: "match" as const, note: `Fits because of ${list(reasons)}.` }));
       const criteria = [row ? `your setting "${row.setting}"` : "", chosen.length ? `your biomarker${chosen.length === 1 ? "" : "s"} ${list(chosen.map((b) => b.label.replace(/\s*\(.*?\)\s*/g, "").trim()))}` : ""].filter(Boolean);
       const lead = fits.length ? `${fits.length} of the ${n(data.trials.length, "recruiting trial")} recorded for ${c.name} mention ${list(criteria)}${chosen.length ? " or test a drug aimed at your targets" : ""}.${fits.length > TRIAL_CAP ? ` The first ${TRIAL_CAP} are shown.` : ""}` : `None of the ${n(data.trials.length, "recruiting trial")} recorded for ${c.name} mention ${list(criteria)}.`;
       sections.push({ id: "trials", title: SECTION_TITLE.trials, lead, empty: fits.length ? undefined : "A trial may still fit you; the registry text OnCo holds simply does not say so. Ask your team, or search the registry from the navigator.", items, links });

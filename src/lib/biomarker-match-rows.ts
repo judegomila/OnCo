@@ -2,7 +2,7 @@
 import { graph } from "./graph";
 import type { Kind } from "./kinds";
 import type { MatchRow } from "./biomarker-match";
-import { routeFor } from "./kinds";
+import { phaseLabel, routeFor } from "./kinds";
 
 const KINDS: Kind[] = ["drug", "technology", "trial", "pairing", "idea", "target"];
 
@@ -14,7 +14,7 @@ export function matchRows(): MatchRow[] {
   return g.entities.filter((e) => KINDS.includes(e.kind)).map((e) => {
     // A drug's technologies count for matching; a technology's own id counts as a technology match.
     const technologies = e.kind === "technology" ? [e.id, ...e.technologies] : e.technologies;
-    const meta = e.kind === "drug" ? e.modality : e.kind === "trial" ? `Phase ${e.phase}` : e.kind === "pairing" ? e.pairingType.replace("-", " → ") : e.kind === "idea" ? e.maturity.replace(/-/g, " ") : e.kind === "target" ? e.targetClass.replace("-", " ") : "";
+    const meta = e.kind === "drug" ? e.modality : e.kind === "trial" ? phaseLabel(e.phase) : e.kind === "pairing" ? e.pairingType.replace("-", " → ") : e.kind === "idea" ? e.maturity.replace(/-/g, " ") : e.kind === "target" ? e.targetClass.replace("-", " ") : "";
     return {
       id: e.id, kind: e.kind, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status, meta,
       targets: e.kind === "target" ? [e.id, ...e.targets] : e.targets, terms: e.terms, technologies, tags: e.tags,

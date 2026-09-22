@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { phaseLabel, routeFor } from "@/lib/schema";
 import { modalityClass } from "@/lib/company-score";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { PivotTable, type Dim, type DimMeta, type Fact } from "@/components/PivotTable";
@@ -26,7 +26,7 @@ export default function PivotPage() {
   for (const t of g.kind("trial")) {
     const dims = empty();
     const drugs = t.drugs.map((id) => g.must(id));
-    dims.cancer = names(t.cancers); dims.target = names([...new Set([...t.targets, ...drugs.flatMap((d) => d.targets)])]); dims.modality = [...new Set(drugs.map((d) => (d.kind === "drug" ? modalityClass(d.modality) : "")).filter(Boolean))]; dims.company = names([...new Set([...t.companies, ...drugs.flatMap((d) => d.companies)])]); dims.front = frontsOf(t.sections, [...t.technologies, ...drugs.flatMap((d) => d.technologies)]); dims.status = t.status ? [t.status] : []; dims.phase = [`Phase ${t.phase}`];
+    dims.cancer = names(t.cancers); dims.target = names([...new Set([...t.targets, ...drugs.flatMap((d) => d.targets)])]); dims.modality = [...new Set(drugs.map((d) => (d.kind === "drug" ? modalityClass(d.modality) : "")).filter(Boolean))]; dims.company = names([...new Set([...t.companies, ...drugs.flatMap((d) => d.companies)])]); dims.front = frontsOf(t.sections, [...t.technologies, ...drugs.flatMap((d) => d.technologies)]); dims.status = t.status ? [t.status] : []; dims.phase = [phaseLabel(t.phase)];
     facts.push({ id: t.id, kind: "trial", name: t.name, route: routeFor(t), status: t.status, rank: 0, dims });
   }
   for (const x of g.kind("technology")) {
@@ -47,7 +47,7 @@ export default function PivotPage() {
     company: { label: "Company", routes: Object.fromEntries(g.kind("company").map((c) => [short(c.name), routeFor(c)])) },
     front: { label: "Front", routes: Object.fromEntries(g.kind("section").map((s) => [s.name, routeFor(s)])) },
     status: { label: "Status", routes: { approved: "/regulatory/", "phase-3": "/terms/trial-phases/", "phase-2": "/terms/trial-phases/", "phase-1": "/terms/trial-phases/", withdrawn: "/terms/approval-withdrawal/", "standard-of-care": "/terms/standard-of-care/", preclinical: "/terms/preclinical/" } },
-    phase: { label: "Phase", routes: { Approved: "/regulatory/", "Phase 1": "/terms/trial-phases/", "Phase 2": "/terms/trial-phases/", "Phase 3": "/terms/trial-phases/", "Phase 4": "/terms/trial-phases/", "Phase 1/2": "/terms/trial-phases/", "Phase 2/3": "/terms/trial-phases/" } },
+    phase: { label: "Phase", routes: { Approved: "/regulatory/", "Phase 1": "/terms/trial-phases/", "Phase 2": "/terms/trial-phases/", "Phase 3": "/terms/trial-phases/", "Phase 4": "/terms/trial-phases/", "Phase 1/2": "/terms/trial-phases/", "Phase 2/3": "/terms/trial-phases/", "Platform trial": "/terms/trial-phases/", "Observational study": "/terms/trial-phases/" } },
   };
 
   return (

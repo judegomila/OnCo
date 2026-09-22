@@ -1,0 +1,99 @@
+# Content roadmap: pages still to write and cross-connections still to make
+
+Measured on 22 September 2026 with `npm run content:gaps` (scripts/content-gaps.ts). Every number below comes from that script, which reads the graph, the FDA and EMA snapshots in `public/`, and the GLOBOCAN 2022 snapshot. Rerun it after each wave; the tables in it are the source of truth and this document is the reading of them.
+
+Rates used for effort: about 350 records or links an agent-hour for mechanical linking (a fetcher or a corpus join plus a review pass) and about 32 an agent-hour for written pages, which are this week's measured rates (300 to 400 and 25 to 40).
+
+## 1. Summary
+
+The corpus holds **12,402 records**: 3,527 trials, 1,547 people, 1,182 companies, 1,140 ideas, 1,063 drugs, 768 terms, 710 institutions, 705 papers, 590 technologies, 328 cancers, 259 journals, 162 targets, 133 collections, 108 pathways, 86 pairings, 45 bottlenecks, 30 roadmaps and 19 sections.
+
+### Pages still to write: about 590
+
+| Kind | To write | How the count was made | Budget-free source | Agent-hours |
+|---|---:|---|---|---:|
+| Cancers | 278 | 73 names on a public list of cancer types (Wikipedia, read 22 Sept 2026) that no cancer record carries as name or aka; 200 histological entities named in the corpus's own `subtypes` arrays with no record of their own (treatment settings and molecular subgroups excluded by rule); 7 parent-level cancers that name subtypes but have no subtype record (aya-cancers, extragonadal-germ-cell-tumour, metastatic-cancer, multiple-endocrine-neoplasia, nut-carcinoma, parathyroid-carcinoma, urethral); two names overlap. The WHO Blue Books name more entities than this, so 278 is a floor. | WHO Blue Books for the definition (owner: see section 4), Orphanet and Wikipedia for names, Europe PMC for the evidence | 8.7 |
+| Trials | 111 | Trial acronyms in cancer `standardOfCare` text (1,625 rows) with no trial record by name, aka or NCT id. Standard of care rests on phase 3 and cooperative-group trials, so these are the pivotal trials the site cites but cannot show (HERIZON-BTC-302, PREOPANC, GROINSS-V, AALL1331, ANCHOR, POD1UM-303, AURELIA, QUAZAR AML-001, GALLIUM, GOG-258 and 101 more). Only 5 of the 1,625 rows carry no reference at all. | ClinicalTrials.gov by acronym, Europe PMC for the primary paper | 3.5 |
+| Papers | 136 | DOIs cited in the `links` of two or more records with no paper page (819 distinct cited DOIs have no page in all). | Europe PMC by DOI | 4.3 |
+| Targets | 30 | Gene or receptor symbols named by two or more drug records (name, mechanism, TL;DR, summary, mechanism steps) that match no target name, aka or symbol: NRAS (8 drugs), CD28 (6), HLA-A, MPL, SHP2, STAT5, IKZF1, JAK1 (4 each), B7-1, ABL1, FAK, IKZF3, PTCH1 (3), then CD137, HIF-1, IDO1, BRD4, IRF4, B7-H4, TET2, PRC2, NF1, ACVR1, BET, HOXA9, MEIS1, BH3, BIM, BAX (2). | HGNC for identifiers, UniProt for biology, the corpus for the drugs | 0.9 |
+| Companies | 21 | Trial sponsors of two or more corpus trials with no company or institution record (Criterium, Novelwise, Teligene, USWM, AGO Research, Artios, Ambrx, French Sarcoma Group, German CLL Study Group, GORTEC, Medical Research Council and ten more). Persons listed as sponsor are excluded. | ClinicalTrials.gov sponsor field, Wikidata for identifiers and logos | 0.7 |
+| Drugs | 12 | EMA-authorised products with a cancer or cancer-care indication whose INN matches no drug record, from the EMA register snapshot already in `public/regional/candidates.json`: catequentinib, resminostat, crisantaspase, piflufolastat (18F), the Tacquell TIL product, and supportive-care products (fentanyl, epoetin theta, immunoglobulin; abiraterone is a matching fault in the fetcher, not a gap). The FDA oncology notifications of the last 16 weeks all match a drug record (0 missing). | EMA register (fetched), ClinicalTrials.gov, Europe PMC | 0.4 |
+| GLOBOCAN mappings | 31 | Top-level cancers with no entry in `globocan-map.ts`; not pages, but they decide the burden ordering below. | corpus; IARC site codes | 0.1 |
+
+Total: 621 items in the script's table (590 pages plus the 31 mappings), about 19 agent-hours of writing.
+
+### Cross-connections still possible: 12,295
+
+| Link | Records lacking it | Fillable today from the corpus alone | Budget-free source for the rest | Agent-hours |
+|---|---:|---:|---|---:|
+| Trial to key paper | 3,470 of 3,527 | 0 | Europe PMC search by NCT id (3,430 carry one; the primary publication cites the registry id) | 9.9 |
+| Trial to technology | 3,192 | 2,087 (the trial's drugs already name their technology) | corpus; the rest need a drug link first | 9.1 |
+| Idea to key paper | 1,136 of 1,140 | 339 (papers of the idea's drugs, targets, trials or cancers) | Europe PMC | 3.2 |
+| Idea to trial | 1,077 | 500 (share a drug, target or technology with a trial) | ClinicalTrials.gov | 3.1 |
+| Drug to key paper | 1,052 of 1,063 | 53 (inherit from the drug's trials once wave 1 has run, this rises to most of the 1,052) | Europe PMC | 3.0 |
+| Company to drug | 724 of 1,182 | 75 (sponsor a corpus trial that names a drug) | ClinicalTrials.gov lead sponsor, Wikidata | 2.1 |
+| Technology to trial | 460 of 590 | 34 (through their drugs) | ClinicalTrials.gov intervention type | 1.3 |
+| Paper to trial | 453 of 705 | 61 (name a trial or NCT id in their text) | Europe PMC | 1.3 |
+| Person to paper | 318 of 1,547 | 0 | Europe PMC AUTH plus AFF query (289 have an institution to anchor it); OpenAlex when credits allow | 0.9 |
+| Drug to trial | 239 | 42 (named in a trial record already) | ClinicalTrials.gov intervention search | 0.7 |
+| Curated trial to structured outcome | 75 of 682 hand-written trials | 0 | Europe PMC abstract, ClinicalTrials.gov results section | 0.2 (2.3 at the written rate) |
+| Approved drug to EU approval row | 60 | 60 (EMA register snapshot already fetched) | none needed | 0.2 |
+| Target drugs array mirroring drug.targets | 21 | 21 | none needed | 0.1 |
+| Trial to cancer | 11 | 0 | ClinicalTrials.gov conditions | 0.0 |
+| Target to drug | 7 of 162 | 2 (named in a drug's mechanism) | ChEMBL | 0.0 |
+
+About 35 agent-hours in all; 3,232 of the links need no network at all.
+
+Weak linking is concentrated in four kinds. Counting inbound links (the figure the roadmap gauges use): 1,733 trials, 1,259 people, 984 ideas, 640 companies, 565 papers, 344 institutions, 202 drugs, 168 technologies and 58 targets have fewer than three. Counting all relations, only 102 trials, 165 people, 99 companies and 7 papers are below three, so the problem is that things do not point back at them, and the links above are exactly the ones that fix that.
+
+## 2. Waves, in order of patient value
+
+Ordering uses GLOBOCAN 2022 new cases worldwide per cancer family (a parent with all its subtypes): lung 2,480,675; breast 2,296,840; colorectal 1,926,425; skin 1,566,255; prostate 1,467,854; gastric 968,784; head and neck 947,211; liver 866,136; thyroid 821,214; cervical 662,301; bladder 614,298; non-Hodgkin lymphoma 553,389; oesophageal 511,054; pancreatic 510,992; leukaemia 487,294; kidney 434,840; endometrial 420,368; ovarian 324,603; brain 321,731; myeloma 187,952. The per-family gap table in the script output says where each wave should start.
+
+| Wave | What it produces | Families first | Agent-hours |
+|---|---|---|---:|
+| 1. Evidence behind every trial | Key papers for the 3,470 trials without one (Europe PMC by NCT id; the fetcher writes a paper record where none exists and links it); the 136 paper pages for DOIs cited twice; 453 papers linked to their trials. Lung has 649 trials without a key paper, breast 252, colorectal 223, prostate 191, leukaemia 179, skin 160, pancreatic 155, ovarian 153, myeloma 136. | lung, breast, colorectal, skin, prostate | 15.5 |
+| 2. Corpus-only joins | 3,232 links that need no network: trial to technology (2,087), idea to trial (500), idea to paper (339), company to drug (75), EU approval rows (60), drug to key paper via trials (53), drug to trial (42), technology to trial (34), target drugs arrays (21), target to drug (2). One script, one review pass, one PR. | all | 9.2 |
+| 3. The trials behind standard of care | 111 trial pages for the acronyms the standard-of-care text cites without a record, with structured outcomes, ordered by family burden (leukaemia 13, brain 10, childhood 10, non-Hodgkin lymphoma 9, gastric 7, pancreatic 7, sarcoma 7, anal 5); structured outcomes for the 75 hand-written trials without them. | leukaemia, brain, gastric, pancreatic, lymphoma | 5.8 |
+| 4. Cancer pages the classification names | The 278 cancer pages: first the subtypes of the 7 parents without any; then the histologies under the largest families (lung: adenocarcinoma, squamous, large-cell, sarcomatoid; breast: invasive lobular, tubular, mucinous, papillary, secretory, cribriform; colon, kidney, testicular as entities; the lymphoma and leukaemia entities the WHO names: marginal zone, MALT, prolymphocytic, hepatosplenic, intravascular, LGL, Sezary); then rare tumours (adamantinoma, chordoma variants, pineal tumours, pleuropulmonary blastoma types). 31 GLOBOCAN mappings so the new pages carry burden figures or an honest gap. | lung, breast, colorectal, leukaemia, lymphoma | 8.8 |
+| 5. Products, targets, sponsors | 12 EMA products, 30 target pages (NRAS, CD28, SHP2, STAT5, JAK1, ABL1, FAK, IDO1, BRD4 and the rest, with HGNC ids), 21 sponsor companies; then ClinicalTrials.gov for the remaining 197 drugs without a trial and 426 technologies without a trial. | leukaemia (NRAS, STAT5, IKZF1, JAK1, ABL1, MPL), lung and colorectal (NRAS, SHP2) | 3.8 |
+| 6. People and ideas | Papers for the 318 people without any (Europe PMC AUTH plus AFF, administrators filtered first); the remaining 577 ideas without a trial and 797 without a key paper through ClinicalTrials.gov and Europe PMC; the remaining 649 companies without a drug through the lead-sponsor field. | ideas by family: breast 107, lung 85, colorectal 74, pancreatic 59, prostate 58 | 6.7 |
+| 7. Long tail | Paper pages for the other 683 cited DOIs; structured outcomes from the ClinicalTrials.gov results section for the 2,845 registry-ingested trials; the 11 trials with no cancer. | all | 29.4 |
+
+Waves 1 to 6: about 50 agent-hours. Wave 7 adds about 29. Waves 1 and 2 are the biggest movers per hour and depend on nothing; wave 3 should follow because it closes the gap between what the standard-of-care text claims and what the site can show. Wave 4 is the only one that needs a taxonomy decision first (section 4).
+
+## 3. Gauges each wave moves
+
+Gauge ids are those in `src/lib/health.ts`, shown at /roadmap/.
+
+| Wave | Gauges | Why |
+|---|---|---|
+| 1 | `backlinks` (1,733 trials and 565 papers with fewer than three inbound links), `orphans`, `papers-snapshot`, `citations`, `sources` | Every trial gains a paper and every new paper is linked from the trial; new paper records arrive with a DOI, so the citation-count and snapshot fetchers cover them. |
+| 2 | `backlinks` (984 ideas, 640 companies, 168 technologies), `regional-approvals` (60 EU rows), `orphans` | Pure inbound-link filling; the EU rows are the single cheapest gauge move in the corpus. |
+| 3 | `trial-outcomes` (75 hand-written trials), `cancer-depth`, `sources` | Standard-of-care rows gain refs that resolve to trials with numbers. |
+| 4 | `cancer-depth`, `kind-size`, `completeness`, `translations` (each new page needs eight TL;DRs), `orphans` (new pages must arrive linked from their parent) | The public-list comparison is one of the external denominators the completeness gauge reads. |
+| 5 | `target-prevalence` (new targets need sourced prevalence), `trials-snapshot` (drugs with a ClinicalTrials.gov snapshot), `logos` (new companies), `molecules` (new drugs need a structure or an explained placeholder) | New records of these kinds fail their kind gauges until filled, so ship each with the gauge's requirement met. |
+| 6 | `people-papers` (318), `backlinks` (1,259 people, 984 ideas), `bottleneck-ideas` | Ideas linked to trials and papers stop being dead ends; people pages gain their evidence. |
+| 7 | `trial-outcomes` (registry trials), `backlinks`, `stale` | The long tail; also refreshes `asOf` on every touched record. |
+
+## 4. What needs the owner
+
+| Item | Why it is blocked | Decision or spend |
+|---|---|---|
+| WHO Classification of Tumours (Blue Books) | The authoritative list of tumour entities for wave 4 is behind a subscription; the count above uses a public list and the corpus's own subtypes arrays, so it is a floor. | Subscribe (IARC, per volume or site licence) or accept the public-list floor; either way, the entity definitions must be written in our words. |
+| Taxonomy: what counts as a cancer record | The corpus mixes entities (invasive lobular carcinoma) with settings (AML in older unfit patients) and cross-cutting records (metastatic cancer, AYA cancers). Wave 4 needs a rule: entities are cancer records with a `parent`; settings stay as subtype strings or become terms; cross-cutting records keep no subtypes. | Owner decision; one paragraph in docs/CANCER-PAGES or the new-cancer-page checklist. |
+| Taxonomy: supportive care | Fentanyl, epoetin and immunoglobulin are EMA-authorised for cancer patients but are not oncology drugs. Include them as a "supportive care" modality or exclude by rule in the EMA fetcher. | Owner decision. |
+| Taxonomy: cooperative groups | GORTEC, SWOG, the German CLL Study Group and the French Sarcoma Group sponsor trials but are neither companies nor single institutions. A `cooperative-group` company type or an institution flag is needed before wave 5 writes them. | Owner decision. |
+| OpenAlex credits | Person-to-paper links are cheaper and cleaner through OpenAlex's institution-filtered author search (about 4 credits a person, 318 people), but the daily budget is shared with fetch:research. Europe PMC is the budget-free fallback and is what wave 6 assumes. | Spend, optional. |
+| Burden figures for 31 cancers | GLOBOCAN reports by site, so sarcomas, neuroendocrine tumours, most rare tumours and every molecular subtype have no estimate. RARECAREnet (European rare-cancer incidence) and SEER would fill some, but both need a mapping table written by hand and RARECAREnet was unreachable on 22 September 2026. | Owner to decide whether an honest "no estimate" is the final answer or whether a second source is worth the mapping work. |
+| Model review key | New pages ship without a review badge until the model-review key is set; this is a standing owner item from docs/LAUNCH.md and gates the `reviewed` gauge for every wave. | Owner. |
+
+## Running the measurement
+
+```
+npm run content:gaps              # markdown tables
+npm run content:gaps -- --lists   # plus the candidate lists (cancers, targets, trial acronyms, sponsors, DOIs)
+npm run content:gaps -- --json    # machine-readable, for a wave script to consume
+```
+
+The heuristics are stated in the script: a subtype string is an entity when it carries a histology word and no setting word; a target symbol must look like a gene symbol and be absent from every non-target record's names; a trial acronym must start in its first word and match no trial, drug or other record. The candidate lists are for hand curation, not bulk import.

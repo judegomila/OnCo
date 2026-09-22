@@ -56,6 +56,7 @@ export const navPt: NavDict = {
   "/terms/": ["Glossário", "Termos com TL;DR e ligações para a Wikipédia."],
   "/collections/": ["Coleções", "As bases de dados abertas de que a área depende."],
 
+  "/edge/": ["Edge", "Os sinais mais frescos em cancro: novos artigos, resultados de ensaios, aprovações e leis num único feed, atualizado em cada build, com RSS e JSON."],
   "/journals/": ["Revistas", "Onde a evidência é publicada: âmbito, modelo de acesso e os artigos-chave que cada revista publicou."],
   "/key-papers/": ["Artigos-chave", "Os artigos que mudaram a prática, cada um explicado: o que encontrou, o que significa, com o que ter cuidado."],
   "/explained/": ["Ensaios em palavras simples", "Cada resultado de ensaio como pessoas em 100, medianas explicadas, desfechos substitutos assinalados."],

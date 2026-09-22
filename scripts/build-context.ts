@@ -133,7 +133,7 @@ const llms: string[] = [
   `- [Concept index](${SITE}/api/v1/embeddings.json): TF-IDF vectors used by the site search (binary at embeddings.bin)`,
   `- [Similar pages](${SITE}/api/v1/similar.json): top 8 similar records per id with the shared links`,
   `- [Metadata](${SITE}/api/v1/meta.json): build date, counts per kind, licence, the file list`,
-  `- [Feeds](${SITE}/feeds/changelog.xml): Atom feeds at /feeds/changelog.xml, /feeds/regulatory.xml, /feeds/calendar.xml, /feeds/pulse.xml and /newsletter/feed.xml; iCalendar at /catalysts/feed.ics`,
+  `- [Feeds](${SITE}/edge/feed.xml): Edge, the freshest papers, results, approvals and law, as Atom at /edge/feed.xml and JSON Feed at /edge/feed.json; Atom feeds at /feeds/changelog.xml, /feeds/regulatory.xml, /feeds/calendar.xml, /feeds/pulse.xml and /newsletter/feed.xml; iCalendar at /catalysts/feed.ics`,
   `- [Releases](${REPO}/releases): the corpus attached to each tagged release as JSON, NDJSON, CSV and schema`,
   "",
   "## Kinds",

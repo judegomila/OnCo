@@ -250,6 +250,32 @@ export function WebSiteJsonLd({ description }: { description: string }) {
   );
 }
 
+/** ItemList for a feed page (/edge/): the page as a CollectionPage whose main entity lists the items in rank order, each with its source URL. */
+export function ItemListJsonLd({ path, name, description, items }: { path: string; name: string; description: string; items: Array<{ name: string; url: string }> }) {
+  const url = absoluteUrl(path);
+  return (
+    <Script
+      data={{
+        "@context": CTX,
+        "@type": "CollectionPage",
+        "@id": url,
+        url,
+        name,
+        description,
+        inLanguage: "en",
+        isPartOf: { "@type": "WebSite", "@id": `${SITE}/#website`, name: SITE_NAME, url: `${SITE}/` },
+        publisher: { "@type": "Organization", name: SITE_NAME, url: SITE },
+        mainEntity: {
+          "@type": "ItemList",
+          itemListOrder: "https://schema.org/ItemListOrderDescending",
+          numberOfItems: items.length,
+          itemListElement: items.map((it, i) => ({ "@type": "ListItem", position: i + 1, name: it.name, url: it.url })),
+        },
+      }}
+    />
+  );
+}
+
 /** WebPage node for a standalone page (the legal pages): name, description, canonical URL, the site it belongs to and the build date. */
 export function WebPageJsonLd({ path, name, description, dateModified }: { path: string; name: string; description: string; dateModified?: string }) {
   const url = absoluteUrl(path);

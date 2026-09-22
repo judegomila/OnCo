@@ -41,7 +41,7 @@
 - [Concept index](https://onco.cc/api/v1/embeddings.json): TF-IDF vectors used by the site search (binary at embeddings.bin)
 - [Similar pages](https://onco.cc/api/v1/similar.json): top 8 similar records per id with the shared links
 - [Metadata](https://onco.cc/api/v1/meta.json): build date, counts per kind, licence, the file list
-- [Feeds](https://onco.cc/feeds/changelog.xml): Atom feeds at /feeds/changelog.xml, /feeds/regulatory.xml, /feeds/calendar.xml, /feeds/pulse.xml and /newsletter/feed.xml; iCalendar at /catalysts/feed.ics
+- [Feeds](https://onco.cc/edge/feed.xml): Edge, the freshest papers, results, approvals and law, as Atom at /edge/feed.xml and JSON Feed at /edge/feed.json; Atom feeds at /feeds/changelog.xml, /feeds/regulatory.xml, /feeds/calendar.xml, /feeds/pulse.xml and /newsletter/feed.xml; iCalendar at /catalysts/feed.ics
 - [Releases](https://github.com/judegomila/OnCo/releases): the corpus attached to each tagged release as JSON, NDJSON, CSV and schema
 
 ## Kinds
@@ -119,6 +119,7 @@
 
 ## News & evidence
 
+- [Edge](https://onco.cc/edge/): The freshest signals in cancer: new papers, trial results, approvals and law, one feed updated with every build, with RSS and JSON.
 - [Journals](https://onco.cc/journals/): Where the evidence is published: scope, access model and the key papers each venue carried.
 - [Key papers](https://onco.cc/key-papers/): The papers that changed practice, each explained: what it found, what it means, what to be careful about.
 - [Trials in plain words](https://onco.cc/explained/): Every trial result as people out of 100, medians explained, surrogate endpoints flagged.

@@ -37,7 +37,7 @@ export function apiFiles(counts: Record<Kind, number>): ApiFile[] {
   ];
 }
 
-export const FEEDS = ["/feeds/changelog.xml", "/feeds/regulatory.xml", "/feeds/calendar.xml", "/feeds/pulse.xml", "/newsletter/feed.xml"];
+export const FEEDS = ["/edge/feed.xml", "/edge/feed.json", "/feeds/changelog.xml", "/feeds/regulatory.xml", "/feeds/calendar.xml", "/feeds/pulse.xml", "/newsletter/feed.xml"];
 
 type Json = Record<string, unknown>;
 const ok = (schema: Json, mediaType = "application/json", description = "OK"): Json => ({ "200": { description, content: { [mediaType]: { schema } } } });
@@ -80,6 +80,8 @@ export function openApiDocument(counts: Record<Kind, number>, opts: { version?: 
     "/llms-full.txt": get("getLlmsFullTxt", "llms-full.txt: every record on one line with its TL;DR and the URL of its context file", ok({ type: "string" }, "text/plain"), { tags: ["site"] }),
     "/sitemap.xml": get("getSitemap", "Sitemap of every page", ok({ type: "string" }, "application/xml"), { tags: ["site"] }),
     "/feeds/{feed}.xml": get("getFeed", "Atom feeds: changelog, regulatory events, readout calendar, research pulse", ok({ type: "string" }, "application/atom+xml"), { tags: ["feeds"], parameters: [{ name: "feed", in: "path", required: true, schema: { type: "string", enum: ["changelog", "regulatory", "calendar", "pulse"] } }] }),
+    "/edge/feed.xml": get("getEdgeFeed", "Atom feed of Edge: the freshest papers, trial results, approvals, withdrawals, law, proposals and issues, ranked newest first; 500 items", ok({ type: "string" }, "application/atom+xml"), { tags: ["feeds"] }),
+    "/edge/feed.json": get("getEdgeFeedJson", "JSON Feed 1.1 of Edge with an _onco extension per item (kind, date precision, venue, DOI, linked records); 500 items", ok({ type: "object" }, "application/feed+json"), { tags: ["feeds"] }),
     "/newsletter/feed.xml": get("getNewsletterFeed", "Atom feed of the weekly issue: what changed, regulatory events, upcoming readouts, what the journals said", ok({ type: "string" }, "application/atom+xml"), { tags: ["feeds"] }),
     "/catalysts/feed.ics": get("getCatalystFeed", "iCalendar feed of regulatory decisions, expected readouts and congresses", ok({ type: "string" }, "text/calendar"), { tags: ["feeds"] }),
   };

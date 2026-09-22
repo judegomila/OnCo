@@ -4,6 +4,8 @@
  *   regulatory.xml  the 100 most recent dated regulatory events across products
  *   calendar.xml    upcoming readouts, decisions and congresses from src/data/calendar.ts
  *   pulse.xml       the research pulse items, newest first
+ * and the Edge feed (src/lib/edge.ts) as Atom and JSON Feed 1.1, written to public/edge/feed.xml and feed.json,
+ * the 500 highest-ranked items (the page shows 200).
  * Called from scripts/build-api.ts during `npm run build`; also runnable alone: `npx tsx scripts/build-feeds.ts`.
  * Output is derived and should be gitignored like public/api/v1/.
  */
@@ -14,9 +16,10 @@ import { routeFor } from "../src/lib/schema";
 import { calendar } from "../src/data/calendar";
 import { pulseItems } from "../src/data/pulse";
 import { SITE, absoluteUrl } from "../src/lib/seo";
+import { EDGE_FEED_CAP, EDGE_KIND_META, edgeDateLabel, edgeFeed, type EdgeItem } from "../src/lib/edge";
 
-type Entry = { id: string; title: string; link: string; updated: string; summary?: string; html?: string; related?: string[] };
-type Feed = { file: string; title: string; subtitle: string; page: string; entries: Entry[] };
+type Entry = { id: string; title: string; link: string; updated: string; summary?: string; html?: string; related?: string[]; categories?: string[] };
+type Feed = { file: string; title: string; subtitle: string; page: string; entries: Entry[]; /** Site path of the file; defaults to /feeds/<file>. */ path?: string };
 
 /** Full ISO date for a day, month (15th), quarter (middle month) or year (30 June), so feed readers can sort. */
 export function dateKey(d: string): string {
@@ -62,13 +65,13 @@ export function changelogEntries(md: string): Entry[] {
   return entries;
 }
 
-function feedXml(f: Feed): string {
-  const self = absoluteUrl(`/feeds/${f.file}`);
+export function feedXml(f: Feed): string {
+  const self = absoluteUrl(f.path ?? `/feeds/${f.file}`);
   const updated = f.entries.map((e) => e.updated).sort().at(-1) ?? new Date().toISOString();
   const entry = (e: Entry) => `  <entry>
     <title>${esc(e.title)}</title>
     <link rel="alternate" href="${esc(e.link)}"/>
-${(e.related ?? []).map((r) => `    <link rel="related" href="${esc(r)}"/>`).join("\n")}${e.related?.length ? "\n" : ""}    <id>${esc(e.id)}</id>
+${(e.related ?? []).map((r) => `    <link rel="related" href="${esc(r)}"/>`).join("\n")}${e.related?.length ? "\n" : ""}${(e.categories ?? []).map((c) => `    <category term="${esc(c)}"/>`).join("\n")}${e.categories?.length ? "\n" : ""}    <id>${esc(e.id)}</id>
     <updated>${e.updated}</updated>
 ${e.summary ? `    <summary type="text">${esc(e.summary)}</summary>\n` : ""}${e.html ? `    <content type="html">${esc(e.html)}</content>\n` : ""}  </entry>`;
   return `<?xml version="1.0" encoding="utf-8"?>
@@ -85,6 +88,49 @@ ${e.summary ? `    <summary type="text">${esc(e.summary)}</summary>\n` : ""}${e.
 ${f.entries.map(entry).join("\n")}
 </feed>
 `;
+}
+
+const EDGE_TITLE = "OnCo Edge";
+const EDGE_SUBTITLE = "The freshest signals in cancer: new papers, trial results, approvals and law, ranked newest first with a modest weight for approvals, phase 3 results and the leading journals.";
+
+/** Atom entries for Edge items. `updated` is the first day of the item's dated period (a year-only law is dated 1 January). */
+export function edgeEntries(items: EdgeItem[]): Entry[] {
+  return items.map((it) => ({
+    id: `${it.url}#onco-edge-${it.kind}`,
+    title: `${EDGE_KIND_META[it.kind].label}: ${it.title}`,
+    link: it.url,
+    updated: iso(it.sortDate),
+    summary: it.sentence,
+    html: `<p>${esc(it.sentence)}</p><p>${esc(edgeDateLabel(it))}${it.venue ? `, ${esc(it.venue)}` : ""}.</p>${it.refs.length ? `<p>On OnCo: ${it.refs.map((r) => `<a href="${esc(absoluteUrl(r.route))}">${esc(r.name)}</a>`).join(", ")}</p>` : ""}`,
+    related: [absoluteUrl("/edge/"), ...it.refs.map((r) => absoluteUrl(r.route))],
+    categories: [it.kind],
+  }));
+}
+
+export function edgeFeedXml(items: EdgeItem[]): string {
+  return feedXml({ file: "feed.xml", path: "/edge/feed.xml", title: EDGE_TITLE, subtitle: EDGE_SUBTITLE, page: "/edge/", entries: edgeEntries(items) });
+}
+
+/** JSON Feed 1.1 (https://jsonfeed.org/version/1.1); the `_onco` extension carries the kind, venue, date precision and record links. */
+export function edgeFeedJson(items: EdgeItem[]): string {
+  return JSON.stringify({
+    version: "https://jsonfeed.org/version/1.1",
+    title: EDGE_TITLE,
+    home_page_url: absoluteUrl("/edge/"),
+    feed_url: absoluteUrl("/edge/feed.json"),
+    description: EDGE_SUBTITLE,
+    language: "en-GB",
+    authors: [{ name: "OnCo", url: `${SITE}/` }],
+    items: items.map((it) => ({
+      id: `${it.url}#onco-edge-${it.kind}`,
+      url: it.url,
+      title: it.title,
+      content_text: it.sentence,
+      date_published: iso(it.sortDate),
+      tags: [it.kind],
+      _onco: { kind: it.kind, date: it.date, precision: it.precision, venue: it.venue, doi: it.doi, records: it.refs.map((r) => ({ id: r.id, kind: r.kind, name: r.name, url: absoluteUrl(r.route) })) },
+    })),
+  }, null, 1);
 }
 
 export function buildFeeds(root = process.cwd()): string[] {
@@ -143,6 +189,13 @@ export function buildFeeds(root = process.cwd()): string[] {
   ];
   const written: string[] = [];
   for (const f of feeds) { writeFileSync(join(out, f.file), feedXml(f)); written.push(`${f.file} (${f.entries.length})`); }
+
+  const edge = edgeFeed(EDGE_FEED_CAP, root);
+  const edgeDir = join(root, "public", "edge");
+  mkdirSync(edgeDir, { recursive: true });
+  writeFileSync(join(edgeDir, "feed.xml"), edgeFeedXml(edge));
+  writeFileSync(join(edgeDir, "feed.json"), edgeFeedJson(edge));
+  written.push(`edge/feed.xml + feed.json (${edge.length})`);
   return written;
 }
 

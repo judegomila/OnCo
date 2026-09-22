@@ -1,0 +1,9 @@
+src/data/trial-registry-outcomes.ts
+  ai_agent 12-13,57-78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3dceb2a2655ae2cee38662a53d3100d24e1b79cd",
+  "prompts": {}
+}

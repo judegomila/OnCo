@@ -318,6 +318,31 @@
       "source": "/trials/cross-trial/:path*",
       "destination": "/trials/cross/:path*",
       "permanent": true
+    },
+    {
+      "source": "/companies/orca-biosystems/:path*",
+      "destination": "/companies/orca-bio/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/companies/inxmed-shanghai/:path*",
+      "destination": "/companies/inxmed/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/companies/cellectis-s-a/:path*",
+      "destination": "/companies/cellectis/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/companies/valius-sciences/:path*",
+      "destination": "/companies/valius/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/drugs/nogapendekin-alfa-inbakicept/:path*",
+      "destination": "/drugs/nogapendekin-alfa/:path*",
+      "permanent": true
     }
   ],
   "ignoreCommand": "if [ \"$VERCEL_GIT_COMMIT_AUTHOR_LOGIN\" = \"github-actions[bot]\" ]; then exit 1; else exit 0; fi"

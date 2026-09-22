@@ -160,7 +160,6 @@ export const simpleP: Record<string, string> = {
   "c-rad": "C-RAD is a Swedish company whose Catalyst and Sentinel cameras track the surface of a patient's body during radiotherapy for positioning and breath-hold.",
   "kernis-health": "Kernis Health helps cancer patients keep their own living tumour tissue after surgery, instead of it being thrown away, so it can be used later for drug testing and trials.",
   "palitra-bio": "Palitra Bio tests candidate treatments directly on a patient's own tumour cells, and a data team and a tumour board turn the results into a personalised treatment plan.",
-  "valius-sciences": "Valius Sciences runs exhaustive tumour profiling for rare and advanced cancers to find treatment options, and has raised 13 million dollars to build it.",
   "xcovery": "Xcovery is a Florida company that developed ensartinib, an ALK inhibitor approved by the FDA in December 2024 for ALK-positive non-small-cell lung cancer.",
   "argenx": "argenx is a Belgian antibody company best known for an autoimmune medicine, and its cancer antibody cusatuzumab for acute myeloid leukaemia was handed back by its partner in 2021.",
   "photocure": "Photocure is a Norwegian company whose blue-light agent makes bladder tumours glow during cystoscopy so surgeons can find and remove more of them.",

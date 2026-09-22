@@ -591,7 +591,7 @@ export const cancers: CancerInput[] = [
 
   // ======================= Haematologic =======================
   c({
-    id: "aml", related: ["all-leukemia", "bpdcn", "cmml", "cml"], companies: ["treadwell-therapeutics", "molecular-partners", "orca-biosystems"], name: "Acute myeloid leukaemia", group: "haematologic", wikipedia: W("Acute_myeloid_leukemia"),
+    id: "aml", related: ["all-leukemia", "bpdcn", "cmml", "cml"], companies: ["treadwell-therapeutics", "molecular-partners", "orca-bio"], name: "Acute myeloid leukaemia", group: "haematologic", wikipedia: W("Acute_myeloid_leukemia"),
     burden: "~20,000 US cases per year; median age 68.",
     tldr: "Acute myeloid leukaemia is an aggressive blood cancer where, after 40 years of the same chemotherapy, a wave of targeted drugs (FLT3, IDH, BCL-2, menin) arrived.",
     summary: "Fit patients: intensive '7+3' ± midostaurin/quizartinib (FLT3) or gemtuzumab (CD33), then transplant for adverse risk. Unfit: azacitidine + venetoclax. Relapsed: gilteritinib (FLT3), ivosidenib/enasidenib (IDH), revumenib/ziftomenib (KMT2A/NPM1). MRD by flow/NGS guides transplant. CD123 ADC pivekimab (2026) for BPDCN. Magrolimab (CD47) failed.",

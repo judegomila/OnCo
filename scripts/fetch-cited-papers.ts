@@ -62,10 +62,6 @@ type CitedResult = EpmcResult & {
   commentCorrectionList?: { commentCorrection?: Array<{ id?: string; source?: string; type?: string; reference?: string }> };
 };
 
-/** Acronyms a TL;DR may not carry unless the glossary defines them (src/lib/corpus-rules.test.ts); a citing record's name is dropped from the TL;DR when it would leak one. */
-const TLDR_ACRONYM_DENYLIST = ["PFS", "OS", "ORR", "DFS", "EFS", "iDFS", "DOR", "pCR", "CR", "PR", "CI", "ITT", "TEAE", "DLT", "MTD", "RP2D", "SoC", "SOC", "QoL", "RWE", "AE", "AEs", "TKI", "IHC", "NGS", "TMB", "MSI", "dMMR", "MRD", "HR", "RECIST", "ECOG", "IO", "mAb", "RCT", "SAE", "TRAE", "irAE", "BICR", "NNT"];
-const leaksAcronym = (s: string) => TLDR_ACRONYM_DENYLIST.some((acr) => new RegExp(`(^|[^A-Za-z0-9-])${acr}(?![A-Za-z0-9-])`).test(s));
-
 // ---------------------------------------------------------------------------------------------------------------------
 // Corpus: the cited DOIs without a paper record, who cites them, and the burden of the family they sit in
 // ---------------------------------------------------------------------------------------------------------------------
@@ -102,6 +98,9 @@ for (const p of g.kind("paper") as Paper[]) {
 const journalByName = journalIndex(g.kind("journal") as Journal[]);
 const usedIds = new Set<string>(g.entities.map((e) => e.id));
 
+/** Citing records in the order the prose should name them: the page kinds a reader recognises first, ideas last. */
+const CITING_ORDER = ["cancer", "trial", "drug", "technology", "target", "pathway", "term", "bottleneck", "institution", "company", "person", "roadmap", "collection", "pairing", "idea"];
+const citingRank = (e: Entity) => { const i = CITING_ORDER.indexOf(e.kind); return i < 0 ? CITING_ORDER.length : i; };
 type Cited = { doi: string; citing: Entity[]; burden: number };
 const citedMap = new Map<string, Entity[]>();
 for (const e of g.entities) {
@@ -155,11 +154,15 @@ const asOf = today();
 const uniqueId = (base: string) => { let id = base; let n = 2; while (usedIds.has(id)) id = `${base}-${n++}`; usedIds.add(id); return id; };
 const firstSurname = (s?: string) => slug((s ?? "").split(/,\s*/)[0]?.replace(/\s+[A-Z][A-Za-z-]*\.?$/, "") ?? "") || "authors";
 const kindLabel = (e: Entity) => KIND_META[e.kind]?.label.toLowerCase() ?? e.kind;
-/** Up to five names with their kinds, then a count: a DOI cited by thirty ideas should not list thirty names in every sentence. */
-const listNames = (es: Entity[], withKind = true) => { const shown = es.slice(0, 5).map((e) => (withKind ? `${e.name} (${kindLabel(e)})` : e.name)); return es.length > 5 ? `${shown.join(", ")} and ${es.length - 5} more` : shown.join(", "); };
-/** Citing records in the order the prose should name them: the page kinds a reader recognises first, ideas last. */
-const CITING_ORDER = ["cancer", "trial", "drug", "technology", "target", "pathway", "term", "bottleneck", "institution", "company", "person", "roadmap", "collection", "pairing", "idea"];
-const citingRank = (e: Entity) => { const i = CITING_ORDER.indexOf(e.kind); return i < 0 ? CITING_ORDER.length : i; };
+const COUNT_WORDS = ["", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+const countWord = (n: number) => COUNT_WORDS[n] ?? String(n);
+/** The citing pages by kind and count only ("two idea pages and one bottleneck page"); names stay out of fetched papers' prose. */
+const citingKinds = (es: Entity[]) => {
+  const counts = new Map<string, number>();
+  for (const e of es) counts.set(kindLabel(e), (counts.get(kindLabel(e)) ?? 0) + 1);
+  const parts = [...counts.entries()].map(([label, n]) => `${countWord(n)} ${label} page${n > 1 ? "s" : ""}`);
+  return parts.length > 1 ? `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}` : parts[0];
+};
 const recordName = (r: CitedResult) => (r.source === "PPR" ? `Europe PMC preprint record ${r.id}` : r.pmid ? `PubMed record ${r.pmid}` : `Europe PMC record ${r.pmcid ?? r.id}`);
 
 function buildPaper(c: Cited, r: CitedResult, viaPreprint?: CitedResult): PaperInput {
@@ -173,14 +176,17 @@ function buildPaper(c: Cited, r: CitedResult, viaPreprint?: CitedResult): PaperI
   const title = clean(r.title!).replace(/\.$/, "");
   const abstract = r.abstractText ? abstractParagraphs(r.abstractText) : "";
   const doi = r.doi!;
-  const [first, ...rest] = c.citing;
-  const others = rest.length === 1 ? " and one other page" : rest.length > 1 ? ` and ${rest.length} other pages` : "";
-  // The TL;DR names the citing page unless its name would leak an endpoint acronym the glossary does not define.
-  const citingPhrase = leaksAcronym(first.name) ? `a ${kindLabel(first)} page` : `the ${kindLabel(first)} page on ${first.name}`;
-  const tldr = houseDashes(`${preprint ? "Preprint" : "Paper"} cited by ${citingPhrase}${others}, indexed on Europe PMC as ${recordName(r)}, in ${journal} (${year}); the page links this DOI, which is how the record was matched.`);
-  const provenance = `Indexed on Europe PMC as ${recordName(r)} (DOI ${doi})${viaPreprint ? `, the journal version Europe PMC links from the preprint ${viaPreprint.doi ? `DOI ${viaPreprint.doi}` : viaPreprint.id} that the citing record links` : ""}. Matched by DOI alone: the OnCo record${c.citing.length > 1 ? "s" : ""} ${listNames(c.citing)} cite${c.citing.length > 1 ? "" : "s"} this DOI among ${c.citing.length > 1 ? "their" : "its"} external links, and this page was written so that the citation resolves inside OnCo. No figure has been checked by an editor.`;
+  // The prose names the citing pages by kind and count only, never by name: echoing a drug's or cancer's name in a fetched
+  // paper's TL;DR and summary pulls the paper into that page's search results and pushed the Ask OnCo benchmark below its
+  // floor (tazemetostat, first batch). The citing pages themselves are linked below and listed on the page as Related.
+  const citingPhrase = citingKinds(c.citing);
+  const plural = c.citing.length > 1;
+  // No year in the TL;DR or the id: the page shows `year`, and a bare year token fuzzy-matches neighbouring years in the
+  // site search ("2026" finds "2020"), which is what pulled a 2020 paper into a "what happened in 2026" answer.
+  const tldr = houseDashes(`${preprint ? "Preprint" : "Paper"} cited by ${citingPhrase}, indexed on Europe PMC as ${recordName(r)} and published in ${journal}; the citing page${plural ? "s link" : " links"} this DOI, which is how the record was matched.`);
+  const provenance = `Indexed on Europe PMC as ${recordName(r)} (DOI ${doi})${viaPreprint ? `, the journal version Europe PMC links from the preprint ${viaPreprint.doi ? `DOI ${viaPreprint.doi}` : viaPreprint.id} that the citing record links` : ""}. Matched by DOI alone: ${citingPhrase} cite${plural ? "" : "s"} this DOI among ${plural ? "their" : "its"} external links (the pages are listed under Related), and this page was written so that the citation resolves inside OnCo. No figure has been checked by an editor.`;
   const summary = houseDashes((abstract ? `${abstract}\n\n` : `Europe PMC indexes no abstract for this record; the title is the only text available.\n\n`) + provenance);
-  const whatItMeans = houseDashes(`${c.citing.length > 1 ? `${c.citing.length} OnCo pages (${listNames(c.citing, false)})` : `The ${kindLabel(first)} page on ${first.name}`} cite${c.citing.length > 1 ? "" : "s"} this ${preprint ? "preprint" : "paper"} by its DOI; this record gives the citation a page of its own so a reader can follow it without leaving OnCo. Read the abstract above alongside the citing page; the record was created automatically from the Europe PMC entry and its figures have not been checked by hand.`);
+  const whatItMeans = houseDashes(`${citingPhrase[0].toUpperCase()}${citingPhrase.slice(1)} on OnCo cite${plural ? "" : "s"} this ${preprint ? "preprint" : "paper"} by its DOI; this record gives the citation a page of its own so a reader can follow it without leaving OnCo. Read the abstract above alongside the citing page${plural ? "s" : ""} listed under Related; the record was created automatically from the Europe PMC entry and its figures have not been checked by hand.`);
   const pubTypes = r.pubTypeList?.pubType ?? [];
   const caveats = [
     "Matched to the citing OnCo records by DOI alone; the summary reproduces the Europe PMC abstract and no figure has been verified against the full paper.",
@@ -196,7 +202,8 @@ function buildPaper(c: Cited, r: CitedResult, viaPreprint?: CitedResult): PaperI
     { label: "Europe PMC", url: epmcUrl },
     ...(viaPreprint?.doi ? [{ label: `Preprint (${viaPreprint.bookOrReportDetails?.publisher ?? "preprint server"})`, url: `https://doi.org/${viaPreprint.doi}` }] : []),
   ];
-  const id = uniqueId(`paper-${firstSurname(r.authorString)}-${slug(abbrev).slice(0, 40) || "journal"}-${year}`);
+  const base = `paper-${firstSurname(r.authorString)}-${slug(abbrev).slice(0, 40) || "journal"}`;
+  const id = usedIds.has(base) ? uniqueId(`${base}-${year}`) : uniqueId(base);
   const trials = c.citing.filter((e) => e.kind === "trial").map((e) => e.id);
   const related = c.citing.filter((e) => e.kind !== "trial").map((e) => e.id);
   return {

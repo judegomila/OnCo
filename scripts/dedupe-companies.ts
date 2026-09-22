@@ -59,6 +59,7 @@ export const MERGES: Array<{ winner: string; loser: string; why: string }> = [
   { winner: "cellectis", loser: "cellectis-s-a", why: "Cellectis S.A. is the legal name of Cellectis (same Paris address, same cellectis.com, same CLLS ticker, same UCART allogeneic CAR-T pipeline); the sponsor-wave record duplicated the manufacturing-wave record" },
   { winner: "valius", loser: "valius-sciences", why: "both records are named Valius Sciences and describe the same US multi-omic and functional tumour-profiling service backed by Define Ventures and Even One; the second site is kept as a link" },
   { winner: "nogapendekin-alfa", loser: "nogapendekin-alfa-inbakicept", why: "same INN and same brand (Anktiva), same maker ImmunityBio, same BCG-unresponsive bladder cancer approval; the gap-fill record duplicated the urothelial spike drug" },
+  { winner: "i131-mibg", loser: "iobenguane-i-131", why: "same INN (iobenguane I-131), same Wikipedia article, same maker Lantheus and the same MIBG theranostics technology; Azedra was the high-specific-activity brand of the 131I-MIBG therapy the neuroblastoma spike already records, and the approved-wave record duplicated it three days later; the older, better-linked id keeps the page and carries Azedra's approval and 2024 discontinuation" },
 ];
 
 /** Reviewed pairs that are not duplicates, with the reason, so the next run does not raise them again. */

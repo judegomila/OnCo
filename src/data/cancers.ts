@@ -557,7 +557,7 @@ export const cancers: CancerInput[] = [
     pipeline: ["ryz101", "pm8002", "zg006", "zanzalintinib", "peluntamig"],
     openProblems: ["Neuroendocrine carcinoma (high grade) behaves like SCLC.", "Sequencing of PRRT vs targeted therapy."],
     targets: ["sstr2"], technologies: ["radioligand-therapy", "targeted-alpha-therapy", "pet"],
-    tags: ["endocrine"], people: ["steve-jobs"], drugs: ["iobenguane-i-131", "telotristat-ethyl"], links: [{ label: "Wikipedia", url: W("Neuroendocrine_tumor") }], journals: ["endocrine-related-cancer"],
+    tags: ["endocrine"], people: ["steve-jobs"], drugs: ["i131-mibg", "telotristat-ethyl"], links: [{ label: "Wikipedia", url: W("Neuroendocrine_tumor") }], journals: ["endocrine-related-cancer"],
   }),
   c({
     id: "mesothelioma", trials: ["nct06097728"], companies: ["orion-orion-pharma"], name: "Mesothelioma", group: "thoracic", wikipedia: W("Mesothelioma"),

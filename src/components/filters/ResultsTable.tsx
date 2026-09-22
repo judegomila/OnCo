@@ -51,6 +51,11 @@ export function ColumnHead<T>({ column: c, sort, onSort }: { column: Column<T>; 
   );
 }
 
+/** The contents of a header cell in a hand-written <table>: the label with its tip, and the shared filter when a spec is given. */
+export function FilterHead({ label, spec, tip }: { label: string; spec?: ColumnFilterSpec; tip?: string }) {
+  return <ColumnHead column={{ key: label, label, tip, render: () => null, filter: spec }} />;
+}
+
 /**
  * Full-width, sortable results table shared by the filterable views.
  * The header row sticks below the site header (see `--sticky-top` in globals.css); on small

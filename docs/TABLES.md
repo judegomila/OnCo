@@ -63,9 +63,23 @@ Left alone on purpose: `src/app/tumour-testing/page.tsx` (being redesigned by an
 - src/components/ResearchOutput.tsx, src/components/StartupPanels.tsx, src/components/TrialLeadership.tsx: per-record panels with few rows; not in this round's list.
 - src/components/CompletenessTable.tsx (one row per kind), src/components/CountryCasesMini.tsx (two side-by-side minis), src/components/Pictogram.tsx (per-trial figure).
 
-## Group 2: client tables with their own controls (header filter to be added)
+## Group 2: client tables with their own controls, now also filtering from the header
 
-- src/components/TrialFinder.tsx, src/components/TrialFinderGeo.tsx, src/components/AssistanceBrowser.tsx, src/components/GuidelineConcordance.tsx, src/components/ManufacturingMap.tsx, src/app/interactions/InteractionChecker.tsx, src/components/AutoPulse.tsx, src/components/CaregiverPanel.tsx, src/components/SurvivorshipPlan.tsx, src/components/MarketEstimator.tsx, src/components/TumorBoard.tsx, src/components/Navigator.tsx, src/components/PlanRankings.tsx: pending.
+The header shares state with the existing control where one exists (same setter, so both move together); new header-only filters use `useHeaderFilters` (`src/components/filters/useHeaderFilters.ts`) and `FilterHead` (`src/components/filters/ResultsTable.tsx`). Existing controls stay.
+
+- src/components/TrialFinder.tsx (live ClinicalTrials.gov list): Phase and Sponsor headers; a count and Clear line appears when a header filter is active.
+- src/components/TrialFinderGeo.tsx: Phase and Sponsor headers; the Sites header carries the Country filter (single) shared with the toolbar's FacetSelect and, until the next search, narrows the loaded studies to those with a site in that country.
+- src/components/AssistanceBrowser.tsx: Product and Country headers share the toolbar state; Manufacturer programme (recorded or not) and Generic (yes, no, not recorded) are header-only. Clear resets all.
+- src/components/GuidelineConcordance.tsx: the first column (now "Cancer and setting") filters by cancer, shared with the Cancer facet; each body column filters by that body's stance (including "No entry"); Verdict shares the Verdict facet. The body-website link left the header tip (a link inside a header button would nest interactive content); the body chips in the cells still link to their sources.
+- src/components/ManufacturingMap.tsx: Site filters by country (header-only); Operator filters by ownership and Capabilities by capability, both shared with the toolbar facets. Reset clears all.
+- src/app/interactions/InteractionChecker.tsx: Severity and Pair (either drug of the pair) headers on the flagged-pairs table; an empty-state line with Clear when nothing passes.
+- src/components/AutoPulse.tsx: Date filters by month, Names by the OnCo object named (header-only); Source shares the toolbar facet. Clear resets all.
+- src/components/SurvivorshipPlan.tsx: one "Watch for" header filter (the treatment class that raised the effect) shared by every organ-system table; systems with nothing left are hidden and the count line reads N of M.
+- src/components/MarketEstimator.tsx: "Prevalence as recorded" filters by measure (of tumours, IHC 3+, not stated).
+- src/components/TumorBoard.tsx: Status and "Matched on" (biomarker hit) headers shared by every kind's table; a kind whose rows are all hidden disappears; a Clear link sits by the match count.
+- src/components/Navigator.tsx: Option (products or technologies), Phase / status and "Why it ranks" (each scoring reason) headers on the ranked options; the heading count reads N of M when a filter is active.
+- src/components/PlanRankings.tsx: "Plan or insurer" filters by kind; the chosen metric's header filters by whether a figure is published. Rank numbers stay those of the full ranking.
+- src/components/CaregiverPanel.tsx: skipped. The per-treatment toxicity tables show at most eight rows and have no categorical column.
 
 ## Group 3: ResultsTable users without a header for their toolbar facet (pending)
 

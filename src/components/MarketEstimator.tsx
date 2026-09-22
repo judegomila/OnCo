@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { estimate, REGION_OPTIONS, type MarketCancer, type MarketTarget, type Range } from "@/lib/market-core";
+import { FilterHead } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 
 const fmt = (n: number) => (n >= 1_000_000 ? `${(n / 1_000_000).toFixed(2)}m` : n >= 10_000 ? `${Math.round(n / 1000)}k` : n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(Math.round(n)));
 const pct = (r: Range) => (r[0] === r[1] ? `${r[0]}%` : `${r[0]} to ${r[1]}%`);
@@ -35,6 +37,10 @@ export function MarketEstimator({ cancers, targets, globocan }: { cancers: Marke
     .map((t) => { const p = t.prevalence.find((x) => x.cancerId === cancer.id)!; const e = p.range ? estimate(cases, p.range, settingRange, sub?.share ?? null) : null; return { t, p, e }; })
     .filter((r) => r.e)
     .sort((a, b) => (b.e!.high + b.e!.low) - (a.e!.high + a.e!.low));
+
+  const hf = useHeaderFilters();
+  const measureOf = (p: { measure?: string }) => p.measure ?? "not stated";
+  const shownTable = table.filter((r) => hf.pass("measure", [measureOf(r.p)]));
 
   const onCancer = (id: string) => { setCancerId(id); const c = cancers.find((x) => x.id === id)!; const ts = targets.filter((t) => t.prevalence.some((p) => p.cancerId === id && p.range)); if (!ts.some((t) => t.id === targetId)) setTargetId(ts[0]?.id ?? ""); setSettingId(c.shares?.settings[0]?.id ?? "all"); };
 
@@ -107,9 +113,9 @@ export function MarketEstimator({ cancers, targets, globocan }: { cancers: Marke
           <h2 className="text-lg font-semibold mb-2">Every target with a prevalence figure in {cancer.name}, {regionLabel}{setting ? `, ${setting.label.toLowerCase()}` : ""}</h2>
           <div className="card overflow-x-auto">
             <table className="onco">
-              <thead><tr><th>Target</th><th>Prevalence as recorded</th><th>Parsed range</th><th>Addressable patients per year</th></tr></thead>
+              <thead><tr><th>Target</th><th><FilterHead label="Prevalence as recorded" spec={hf.spec("measure", countOptions(table.map((r) => measureOf(r.p))))} /></th><th>Parsed range</th><th>Addressable patients per year</th></tr></thead>
               <tbody>
-                {table.map(({ t, p, e }) => (
+                {shownTable.map(({ t, p, e }) => (
                   <tr key={t.id} className={t.id === target?.id ? "bg-accent-soft/40" : ""}>
                     <td><button type="button" onClick={() => setTargetId(t.id)} className="hover:underline text-left">{t.name}</button></td>
                     <td className="text-muted">{p.pct}{p.measure ? <span className="text-xs"> ({p.measure})</span> : ""}</td>
@@ -119,6 +125,7 @@ export function MarketEstimator({ cancers, targets, globocan }: { cancers: Marke
                 ))}
               </tbody>
             </table>
+            {shownTable.length === 0 && <div className="px-6 py-8 text-center text-muted text-sm">Nothing matches. <button type="button" onClick={hf.clear} className="underline">Clear the filter</button>.</div>}
           </div>
         </div>
       )}

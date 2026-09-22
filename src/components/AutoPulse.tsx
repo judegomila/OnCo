@@ -3,7 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { FacetSelect } from "./filters/FacetSelect";
-import { Toolbar } from "./filters/ResultsTable";
+import { FilterHead, Toolbar } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 import type { RefLite } from "./PulseBoard";
 
 /** Shape written by scripts/fetch-pulse.ts (public/pulse/auto.json). */
@@ -20,11 +21,15 @@ export function AutoPulse({ snap, refs }: { snap: AutoPulseSnapshot; refs: Recor
   const [matchedOnly, setMatchedOnly] = useState(false);
   const [q, setQ] = useState("");
   const byId = useMemo(() => new Map(snap.feeds.map((f) => [f.id, f])), [snap.feeds]);
+  const hf = useHeaderFilters();
+  const month = (it: AutoPulseItem) => (it.date ? [it.date.slice(0, 7)] : []);
+  const shortName = (id: string) => refs[id]?.name.replace(/ \(.*\)$/, "") ?? id;
 
   const filtered = useMemo(() => {
     const n = q.trim().toLowerCase();
-    return snap.items.filter((it) => (!feedIds.length || feedIds.includes(it.feedId)) && (!matchedOnly || it.refs.some((r) => refs[r])) && (!n || `${it.title} ${it.refs.map((r) => refs[r]?.name ?? r).join(" ")}`.toLowerCase().includes(n)));
-  }, [snap.items, feedIds, matchedOnly, q, refs]);
+    return snap.items.filter((it) => (!feedIds.length || feedIds.includes(it.feedId)) && (!matchedOnly || it.refs.some((r) => refs[r])) && (!n || `${it.title} ${it.refs.map((r) => refs[r]?.name ?? r).join(" ")}`.toLowerCase().includes(n)) && hf.pass("month", month(it)) && hf.pass("ref", it.refs));
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- hf.pass reads hf.sel
+  }, [snap.items, feedIds, matchedOnly, q, refs, hf.sel]);
 
   const feedOptions = snap.feeds.map((f) => ({ value: f.id, label: f.name, count: snap.items.filter((i) => i.feedId === f.id).length }));
   const chip = (id: string) => { const r = refs[id]; return r ? <Link key={id} href={r.route} className="chip border bg-card border-border hover:bg-foreground/5">{r.name.replace(/ \(.*\)$/, "")}</Link> : null; };
@@ -36,11 +41,16 @@ export function AutoPulse({ snap, refs }: { snap: AutoPulseSnapshot; refs: Recor
           <FacetSelect label="Source" options={feedOptions} value={feedIds} onChange={(v) => setFeedIds(v as string[])} multi searchable={false} allLabel="Any" width="w-56" />
           <label className="inline-flex items-center gap-1.5 text-sm"><input type="checkbox" checked={matchedOnly} onChange={(e) => setMatchedOnly(e.target.checked)} /> Only items naming an OnCo object</label>
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Filter titles…" aria-label="Filter automated items" className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
-          {(feedIds.length || matchedOnly || q) ? <button type="button" onClick={() => { setFeedIds([]); setMatchedOnly(false); setQ(""); }} className="text-sm underline text-muted">Clear</button> : null}
+          {(feedIds.length || matchedOnly || q || hf.active) ? <button type="button" onClick={() => { setFeedIds([]); setMatchedOnly(false); setQ(""); hf.clear(); }} className="text-sm underline text-muted">Clear</button> : null}
         </>} />
       <div className="card overflow-x-auto">
         <table className="onco">
-          <thead><tr><th>Date</th><th>Source</th><th>Title</th><th className="hidden md:table-cell">Names</th></tr></thead>
+          <thead><tr>
+            <th><FilterHead label="Date" spec={hf.spec("month", countOptions(snap.items.map((it) => month(it)), { order: [...new Set(snap.items.flatMap(month))].sort().reverse() }))} /></th>
+            <th><FilterHead label="Source" spec={{ options: feedOptions, value: feedIds, onChange: (v) => setFeedIds(v) }} /></th>
+            <th>Title</th>
+            <th className="hidden md:table-cell"><FilterHead label="Names" spec={hf.spec("ref", countOptions(snap.items.map((it) => it.refs.filter((r) => refs[r])), { labels: shortName }))} /></th>
+          </tr></thead>
           <tbody>
             {filtered.map((it) => {
               const f = byId.get(it.feedId);

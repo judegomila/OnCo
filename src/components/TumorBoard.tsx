@@ -10,6 +10,8 @@ import { FacetSelect } from "./filters/FacetSelect";
 import { CancerIcon } from "./CancerIcon";
 import { MoleculeSlot } from "./MoleculeSlot";
 import { ApprovalChip } from "./ApprovalChip";
+import { FilterHead } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 
 export type TbCancer = { id: string; name: string; group: string; route: string };
 const GROUPS: BiomarkerGroup[] = ["IHC", "genomic", "germline", "immune"];
@@ -38,6 +40,11 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
   const typicalHere = useMemo(() => (cancer ? biomarkers.filter((b) => b.typical?.includes(cancer) && !picked.includes(b.id)) : []), [cancer, picked]);
   const chosenCancer = cancers.find((c) => c.id === cancer);
   const toggle = (id: string) => setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : [...p, id]));
+  // Header filters shared by every kind's table: status and the biomarker a row matched on.
+  const hf = useHeaderFilters();
+  const statusOf = (s?: string) => (s ? STATUS_LABEL[s] ?? s : "No status");
+  const statusOptions = countOptions(scored.map((s) => statusOf(s.row.status)));
+  const hitOptions = countOptions(scored.map((s) => s.hits));
 
   const visibleBiomarkers = biomarkers.filter((b) => {
     if (q && !`${b.label} ${b.note}`.toLowerCase().includes(q.toLowerCase())) return false;
@@ -109,6 +116,7 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
               <span><span className="font-semibold tabular-nums">{scored.length}</span> <span className="text-muted">matches for</span></span>
               {selected.map((b) => <span key={b.id} className="chip bg-accent/10 text-accent border border-accent/30">{b.label}</span>)}
               {cancer && <span className="text-muted">in {cancers.find((c) => c.id === cancer)?.name}</span>}
+              {hf.active && <button type="button" onClick={hf.clear} className="underline text-muted">Clear header filters</button>}
               <button onClick={() => window.print()} className="ml-auto underline text-muted">Print</button>
             </div>
 
@@ -127,14 +135,14 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
             )}
 
             {KIND_ORDER.map((k) => {
-              const items = scored.filter((s) => s.row.kind === k && !(k === "pairing" && s.row.pair?.caution));
+              const items = scored.filter((s) => s.row.kind === k && !(k === "pairing" && s.row.pair?.caution) && hf.pass("status", [statusOf(s.row.status)]) && hf.pass("hit", s.hits));
               if (!items.length) return null;
               return (
                 <section key={k} className="mb-6">
                   <div className="flex items-baseline gap-2 mb-2"><h2 className="font-semibold capitalize">{KIND_META[k].plural}</h2><span className="text-xs text-muted">{items.length}</span></div>
                   <div className="overflow-x-auto card">
                     <table className="onco">
-                      <thead><tr><th>#</th><th>Name</th><th>Status</th><th className="hidden md:table-cell">Matched on</th><th>Score</th></tr></thead>
+                      <thead><tr><th>#</th><th>Name</th><th><FilterHead label="Status" spec={hf.spec("status", statusOptions)} /></th><th className="hidden md:table-cell"><FilterHead label="Matched on" spec={hf.spec("hit", hitOptions)} /></th><th>Score</th></tr></thead>
                       <tbody>
                         {items.map(({ row, score, hits }, i) => (
                           <tr key={row.id}>

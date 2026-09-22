@@ -6,6 +6,8 @@ import { useProfile } from "@/lib/profile";
 import { SYSTEM_ORDER, type LateEffect, type OrganSystem } from "@/data/survivorship";
 import { FacetSelect } from "./filters/FacetSelect";
 import { PrintButton } from "./PrintButton";
+import { FilterHead } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 
 export type TreatmentOption = { id: string; name: string; kind: "drug" | "technology"; modality?: string; route: string };
 export type PlanEntry = {
@@ -66,6 +68,11 @@ export function SurvivorshipPlan({ entries, options }: { entries: PlanEntry[]; o
   const fieldEntries = entries.filter((e) => e.manualPick);
   const otherClasses = entries.filter((e) => !e.manualPick);
   const totalRows = grouped.reduce((n, [, rows]) => n + rows.length, 0);
+  // One header filter (the treatment class that raised the effect) shared by every organ-system table.
+  const hf = useHeaderFilters();
+  const fromOptions = countOptions(grouped.flatMap(([, rows]) => rows.map((r) => r.from)));
+  const shownGroups = grouped.map(([system, rows]) => [system, rows.filter((r) => hf.pass("from", [r.from]))] as const).filter(([, rows]) => rows.length);
+  const shownRows = shownGroups.reduce((n, [, rows]) => n + rows.length, 0);
 
   return (
     <div className="space-y-6">
@@ -75,7 +82,7 @@ export function SurvivorshipPlan({ entries, options }: { entries: PlanEntry[]; o
           <FacetSelect label="Area irradiated" options={fieldEntries.map((e) => ({ value: e.id, label: e.label.replace(/^Radiotherapy to the /, "").replace(/\s*\(.*\)$/, "") }))} value={classes.filter((c) => fieldEntries.some((e) => e.id === c))} onChange={(v) => setClasses([...(v as string[]), ...classes.filter((c) => !fieldEntries.some((e) => e.id === c))])} multi searchable={false} allLabel="None" width="w-64" />
           <FacetSelect label="Add a treatment class" options={otherClasses.map((e) => ({ value: e.id, label: e.label }))} value={classes.filter((c) => otherClasses.some((e) => e.id === c))} onChange={(v) => setClasses([...(v as string[]), ...classes.filter((c) => !otherClasses.some((e) => e.id === c))])} multi allLabel="None" width="w-72" />
           {(picked.length > 0 || classes.length > 0) && <button type="button" onClick={() => { setPicked([]); setClasses([]); }} className="text-sm underline text-muted">Clear</button>}
-          <span className="ml-auto text-sm text-muted tabular-nums">{totalRows} thing{totalRows === 1 ? "" : "s"} to watch</span>
+          <span className="ml-auto text-sm text-muted tabular-nums">{hf.active ? `${shownRows} of ${totalRows}` : totalRows} thing{totalRows === 1 ? "" : "s"} to watch{hf.active && <> · <button type="button" onClick={hf.clear} className="underline">show all</button></>}</span>
         </div>
         {anyRadiotherapyPicked && !classes.some((c) => fieldEntries.some((e) => e.id === c)) && (
           <p className="text-sm text-amber-800 dark:text-amber-300">Radiotherapy is in your list. Its late effects depend on where the beam went: choose the area irradiated above.</p>
@@ -111,12 +118,12 @@ export function SurvivorshipPlan({ entries, options }: { entries: PlanEntry[]; o
               </ul>
             </div>
 
-            {grouped.map(([system, rows]) => (
+            {shownGroups.map(([system, rows]) => (
               <section key={system} className="mt-5">
                 <h3 className="font-semibold text-[15px] border-b border-border pb-1 mb-2">{system}</h3>
                 <div className="overflow-x-auto">
                   <table className="onco text-sm">
-                    <thead><tr><th>Watch for</th><th>Test or check</th><th>How often</th><th>Source</th></tr></thead>
+                    <thead><tr><th><FilterHead label="Watch for" spec={hf.spec("from", fromOptions)} /></th><th>Test or check</th><th>How often</th><th>Source</th></tr></thead>
                     <tbody>
                       {rows.map((r, i) => (
                         <tr key={`${r.effect}-${i}`}>

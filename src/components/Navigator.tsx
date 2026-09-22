@@ -13,6 +13,8 @@ import { CaregiverPanel, type CareDetail, type QuestionItem, type SupportItem } 
 import { MoleculeThumb, hasMolecule } from "./MoleculeThumb";
 import { TechThumb } from "./TechThumb";
 import { RowVisualFallback } from "./RowVisualFallback";
+import { FilterHead } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 
 /**
  * The visual the site already draws for this record: a technology schematic, a rotating molecule for the top
@@ -140,6 +142,11 @@ export function Navigator({ data }: { data: NavigatorData }) {
       .sort((a, b) => b.score - a.score || a.r.name.localeCompare(b.r.name));
   }, [cancer, rows, selectedBm, tried, socRefIds, pipelineIds]);
 
+  // Header filters on the ranked options: kind, status and the reasons a row ranks.
+  const hf = useHeaderFilters();
+  const statusOf = (s?: string) => (s ? STATUS_LABEL[s] ?? s : "No status");
+  const shownOptions = options.filter((o) => hf.pass("kind", [o.r.kind]) && hf.pass("status", [statusOf(o.r.status)]) && hf.pass("why", o.parts.map(([k]) => k)));
+
   const cautions = useMemo(() => rows.filter((r) => r.pair?.caution && (triedClasses.has(r.pair.a) || triedClasses.has(r.pair.b) || r.technologies.some((t) => triedClasses.has(t)) || r.targets.some((t) => triedClasses.has(t)))), [rows, triedClasses]);
 
   const careTreatments: CareDetail[] = useMemo(() => {
@@ -201,14 +208,20 @@ export function Navigator({ data }: { data: NavigatorData }) {
 
           <section>
             <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
-              <h2 className="text-lg font-semibold">Next options, ranked <span className="text-muted text-sm font-normal">{options.length}</span></h2>
+              <h2 className="text-lg font-semibold">Next options, ranked <span className="text-muted text-sm font-normal tabular-nums">{hf.active ? `${shownOptions.length} of ${options.length}` : options.length}</span>{hf.active && <> <button type="button" onClick={hf.clear} className="text-sm font-normal underline text-muted">clear filters</button></>}</h2>
               <details className="text-xs text-muted"><summary className="cursor-pointer">How the rank works</summary><p className="mt-1 max-w-md">Evidence tier (approved 10 … concept 0) + 8 if it appears in the standard-of-care rows for this setting + 4 if it is in the cancer&apos;s pipeline + biomarker match points from the tumour-board matcher. It ranks documentation and evidence, not benefit for you.</p></details>
             </div>
             <div className="card overflow-x-auto">
               <table className="onco">
-                <thead><tr><th>#</th><th>Option</th><th>Phase / status</th><th className="hidden md:table-cell">Why it ranks</th><th>Score</th></tr></thead>
+                <thead><tr>
+                  <th>#</th>
+                  <th><FilterHead label="Option" spec={hf.spec("kind", countOptions(options.map((o) => o.r.kind), { labels: { drug: "Products", technology: "Technologies" } }))} /></th>
+                  <th><FilterHead label="Phase / status" spec={hf.spec("status", countOptions(options.map((o) => statusOf(o.r.status))))} /></th>
+                  <th className="hidden md:table-cell"><FilterHead label="Why it ranks" spec={hf.spec("why", countOptions(options.map((o) => o.parts.map(([k]) => k))))} /></th>
+                  <th>Score</th>
+                </tr></thead>
                 <tbody>
-                  {options.slice(0, 40).map((o, i) => (
+                  {shownOptions.slice(0, 40).map((o, i) => (
                     <tr key={o.r.id}>
                       <td className="tabular-nums text-muted">{i + 1}</td>
                       <td className="min-w-[220px]"><div className="flex items-start gap-3"><RowVisual r={o.r} rank={i} /><div><Link href={o.r.route} className="font-medium hover:underline">{o.r.name}</Link><div className="text-xs text-muted line-clamp-2 max-w-lg">{o.r.meta && <span className="text-foreground/70">{o.r.meta} · </span>}{o.r.tldr}</div></div></div></td>
@@ -220,6 +233,7 @@ export function Navigator({ data }: { data: NavigatorData }) {
                 </tbody>
               </table>
               {options.length === 0 && <div className="p-6 text-center text-sm text-muted">Nothing left to rank for this combination.</div>}
+              {options.length > 0 && shownOptions.length === 0 && <div className="p-6 text-center text-sm text-muted">Nothing matches the header filters. <button type="button" onClick={hf.clear} className="underline">Clear them</button>.</div>}
             </div>
           </section>
 

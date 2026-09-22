@@ -1,0 +1,35 @@
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_d4a57e033e6d9d 14-16
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_d4a57e033e6d9d 1
+public/freshness.json
+  s_0beac9cb5d78fd::t_d4a57e033e6d9d 1
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_2098aed223d107 254
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_d4a57e033e6d9d 15-16
+public/newsletter/2026-09-22.json
+  s_0beac9cb5d78fd::t_d4a57e033e6d9d 1
+public/newsletter/2026-09-22/index.html
+  s_0beac9cb5d78fd::t_d4a57e033e6d9d 2,9-10
+src/data/tests.ts
+  s_0beac9cb5d78fd::t_2098aed223d107 527
+public/llms.txt
+  s_0beac9cb5d78fd::t_d4a57e033e6d9d 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c7b035affd0043a5f72689e2f2a164972bcbdaef",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

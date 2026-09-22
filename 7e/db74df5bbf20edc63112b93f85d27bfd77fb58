@@ -1,0 +1,33 @@
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_4a43dad9b244e0 775,900-901
+src/data/spikes/hodgkin-lymphoma.ts
+  s_0beac9cb5d78fd::t_5b812d437c954b 174
+src/data/paediatric-subtypes.ts
+  s_0beac9cb5d78fd::t_4a43dad9b244e0 252,280
+src/data/spikes/neuroblastoma.ts
+  s_0beac9cb5d78fd::t_5b812d437c954b 215,219
+src/data/papers-soc-wave.ts
+  s_0beac9cb5d78fd::t_4a43dad9b244e0 235-301
+src/data/spikes/nci-paediatric.ts
+  s_0beac9cb5d78fd::t_4a43dad9b244e0 300
+src/data/trials-soc-wave.ts
+  s_0beac9cb5d78fd::t_4a43dad9b244e0 378-486,519-527
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_5b812d437c954b 266
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "7edb74df5bbf20edc63112b93f85d27bfd77fb58",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

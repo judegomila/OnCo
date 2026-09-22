@@ -68,7 +68,7 @@ export const trialDesignTerms: TermInput[] = [
     bottlenecks: ["b-trial-design", "b-trial-enrolment"],
   }),
   t({
-    id: "umbrella-trial", name: "Umbrella trial", category: "Trials",
+    id: "umbrella-trial", wikipediaChecked: "2026-09-22", name: "Umbrella trial", category: "Trials",
     aka: ["umbrella trial", "umbrella trials", "umbrella study", "umbrella design", "umbrella protocol", "one cancer many drugs", "biomarker-matched sub-studies", "sub-study", "sub-studies", "substudy", "substudies", "screening protocol", "molecular screening protocol", "genomic screening protocol", "treatment arm assignment"],
     links: [{ label: "Woodcock and LaVange, Master protocols to study multiple therapies, multiple diseases, or both (NEJM 2017)", url: "https://doi.org/10.1056/NEJMra1510062" }],
     tldr: "An umbrella trial takes one cancer, tests every patient's tumour for a panel of markers, and routes each patient to the sub-study whose drug matches their marker, so several targeted drugs are tested at once under one roof.",
@@ -126,7 +126,7 @@ export const trialDesignTerms: TermInput[] = [
     bottlenecks: ["b-trial-design"],
   }),
   t({
-    id: "biomarker-stratified-design", name: "Enrichment and biomarker-stratified designs", category: "Trials",
+    id: "biomarker-stratified-design", wikipediaChecked: "2026-09-22", name: "Enrichment and biomarker-stratified designs", category: "Trials",
     aka: ["enrichment design", "enrichment designs", "enriched population", "biomarker-enrichment", "biomarker-positive only", "biomarker-stratified", "biomarker-stratified design", "biomarker-stratified trial", "marker-stratified", "marker-by-treatment interaction", "interaction test", "predictive biomarker", "prognostic versus predictive", "prognostic biomarker", "biomarker-negative", "biomarker negative", "marker-negative", "all-comers design", "all-comers trial", "co-development of drug and test", "companion diagnostic trial", "separate cohorts", "parallel cohorts"],
     links: [{ label: "FDA guidance: enrichment strategies for clinical trials to support determination of effectiveness", url: FDA_GUIDANCE + "enrichment-strategies-clinical-trials-support-approval-human-drugs-and-biological-products" }, ICH_E9],
     tldr: "An enrichment design enrols only patients whose tumours carry the marker the drug needs; a stratified design enrols everyone but tests marker-positive and marker-negative patients separately, to learn whether the marker predicts benefit.",
@@ -150,7 +150,7 @@ export const trialDesignTerms: TermInput[] = [
     bottlenecks: ["b-trial-diversity", "b-trial-enrolment", "b-real-world-evidence"],
   }),
   t({
-    id: "registry-based-trial", name: "Registry-based randomised trial", category: "Trials",
+    id: "registry-based-trial", wikipediaChecked: "2026-09-22", name: "Registry-based randomised trial", category: "Trials",
     aka: ["registry-based trial", "registry-based randomised trial", "registry-based randomized trial", "registry-based RCT", "registry trial", "registry trials", "trial within a cohort", "trials within cohorts", "TwiCs", "cohort multiple randomised controlled trial", "cmRCT", "randomised registry trial", "registry follow-up", "registry-linked", "linked to registry data", "routinely collected data", "routine data follow-up"],
     tldr: "A registry-based trial randomises patients who are already being tracked by a national or disease registry and uses the registry, not trial visits, to record what happens to them, making very large trials cheap enough to run.",
     summary: "Registries already record diagnosis, treatment, recurrence and death for whole populations. A registry-based randomised trial uses that machinery: patients are identified and randomised through the registry or at the point of care, and their outcomes are read from the registry and from linked death and hospital records instead of being collected at dedicated trial visits. The design was pioneered in Scandinavian cardiology, where registries are complete and linkable through personal identifiers, and it allows tens of thousands of patients to be randomised for a small fraction of the cost of a conventional trial. The trial-within-a-cohort variant consents a cohort once to future randomisation, then randomly offers an intervention to some members and compares them with the rest.\n\nThe design suits questions where the outcome is hard (death, recurrence recorded by pathology, a new cancer) and the intervention is already in use, so a lighter touch is acceptable: comparing two standard schedules, testing a repurposed generic, or evaluating a screening interval. It struggles where the outcome needs trial-specific measurement, such as scan-defined progression or quality of life, and where the registry does not capture the details needed for safety. Data quality is only as good as the registry, and the trial inherits its lag.\n\nThe corpus has no oncology trial run entirely through a registry, which is itself a finding: cancer registries in most countries record too little about treatment, and too late, to support one. The closest structure is CIRCULATE-Japan, where the GALAXY observational cohort of more than 2,000 resected colorectal cancer patients, tested for circulating tumour DNA after surgery, feeds the randomised sub-studies VEGA and ALTAIR. The gap is one of the reasons registries and real-world data are treated as a bottleneck on this site; a registry good enough to run trials through is a registry good enough to answer most of the questions patients ask about how care works outside trials.",
@@ -375,9 +375,3 @@ export const tldrZh: Record<string, string> = {
   "trial-lifecycle": "试验按固定顺序推进：书面方案、监管和伦理批准、公开注册、启动中心并纳入患者、运行期间的独立监查、事件足够时读出结果、报告与发表，若成功则更改药品说明书和指南。",
   "trial-failure-modes": "试验失败的原因反复出现且清单不长：患者数不足以检出真实效应、终点不能反映真正重要的结局、对照组表现好于设计者假设、获益只是亚组的错觉，以及对照组患者最终也用上了试验药物。",
 };
-
-// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
-// A later Wikipedia-linking pass can skip these ids.
-//   biomarker-stratified-design
-//   registry-based-trial
-//   umbrella-trial

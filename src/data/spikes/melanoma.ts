@@ -239,7 +239,7 @@ const terms: TermInput[] = [
   term({ id: "ulceration-melanoma", links: [{ label: "NCI Dictionary of Cancer Terms: ulceration", url: "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ulceration" }, { label: "Gershenwald et al., Melanoma staging: evidence-based changes in the AJCC eighth edition (CA: A Cancer Journal for Clinicians 2017)", url: "https://doi.org/10.3322/caac.21409" }], wikipedia: W("Melanoma"), name: "Ulceration (melanoma)", category: "Pathology",
     tldr: "Loss of the skin surface over a melanoma under the microscope; a sign of aggressive biology that raises the stage.",
     summary: "Ulceration in melanoma is loss of the intact skin surface over the primary tumour as seen under the microscope, and it is a marker of aggressive biology. It is present in roughly a quarter of primary melanomas, independently worsens prognosis, and defines the b substage at each T level, so a lesion of a given Breslow thickness is staged higher if it is ulcerated. Historically it was taken to predict benefit from interferon; today its main role is in defining stage IIB and IIC, the group for which adjuvant PD-1 therapy is approved. The term is read alongside Breslow thickness, the other pathological feature that drives staging of the primary.", cancers: ["melanoma"], terms: ["breslow-thickness"] }),
-  term({ id: "major-pathological-response", links: [{ label: "INMC pathological assessment after neoadjuvant therapy for melanoma (Tetzlaff et al., Ann Oncol 2018)", url: "https://doi.org/10.1093/annonc/mdy226" }], aka: ["major pathologic response", "≤10% viable tumour"], name: "Major pathological response (MPR)", category: "Endpoints",
+  term({ id: "major-pathological-response", wikipediaChecked: "2026-09-22", links: [{ label: "INMC pathological assessment after neoadjuvant therapy for melanoma (Tetzlaff et al., Ann Oncol 2018)", url: "https://doi.org/10.1093/annonc/mdy226" }], aka: ["major pathologic response", "≤10% viable tumour"], name: "Major pathological response (MPR)", category: "Endpoints",
     tldr: "When, after pre-surgery treatment, the removed tumour contains little or no living cancer: 10% or less viable cells.",
     summary: "Defined by the International Neoadjuvant Melanoma Consortium as ≤10% viable tumour (pathological complete response is 0%). In NADINA and earlier OpCACI trials, MPR predicted very low relapse risk and was used to decide whether adjuvant therapy could be omitted. The melanoma analogue of pCR in breast cancer.", cancers: ["melanoma"], trials: ["nadina"], terms: ["pcr", "neoadjuvant-adjuvant"] }),
   term({ id: "hla-a02-restriction", name: "HLA-A*02:01 restriction", category: "Immunology", wikipedia: W("HLA-A*02"),
@@ -365,7 +365,3 @@ const spike: Spike = {
 };
 
 export default spike;
-
-// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
-// A later Wikipedia-linking pass can skip these ids.
-//   major-pathological-response

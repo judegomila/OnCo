@@ -1170,7 +1170,7 @@ export const gapTerms: TermInput[] = [
     summary: "AYA cancers include lymphoma, thyroid, testicular, melanoma, breast, colorectal (rising sharply in under-50s), sarcomas, leukaemia and CNS tumours. Survival gains lagged for decades (the 'AYA gap') because of low trial enrolment, delayed diagnosis, biology (e.g. Ph-like ALL, worse-prognosis sarcoma subtypes) and care fragmented between paediatric and adult systems; paediatric-inspired ALL regimens in AYAs improved survival (CALGB 10403). Dedicated AYA programmes (Teenage Cancer Trust UK, NCI AYA Oncology Progress Review Group 2006, COG/NCTN AYA committee) address fertility preservation, psychosocial care, financial toxicity, survivorship and age-appropriate environments. Early-onset colorectal and breast cancer incidence increases are a current research priority.",
     related: ["aya-cancers", "testicular", "ewing-sarcoma", "osteosarcoma", "hodgkin-lymphoma", "all-leukemia", "colorectal", "fertility-preservation", "survivorship-care-plan"], terms: ["cancer-in-pregnancy"],
     links: [{ label: "NCI AYA cancers", url: "https://www.cancer.gov/types/aya" }, { label: "Teenage Cancer Trust", url: "https://www.teenagecancertrust.org/" }, { label: "CALGB 10403 (Blood 2019)", url: "https://doi.org/10.1182/blood-2018-10-881961" }], tags: ["gap-fill"] }),
-  term({ id: "cancer-in-pregnancy", name: "Cancer during pregnancy", category: "clinical",
+  term({ id: "cancer-in-pregnancy", wikipediaChecked: "2026-09-22", name: "Cancer during pregnancy", category: "clinical",
     tldr: "About 1 in 1,000 pregnancies is complicated by cancer, most often breast, cervical, lymphoma, melanoma or leukaemia. Most chemotherapy is safe after the first trimester, surgery is safe throughout, and ending the pregnancy does not improve the mother's outcome.",
     summary: "Incidence is rising with later childbearing. Principles (INCIP, ESMO 2013/2019 guidelines): staging with ultrasound and non-contrast MRI, avoid radiotherapy to the abdomen and most targeted/immune agents; surgery any trimester; anthracycline- and taxane-based chemotherapy from 14 weeks with delivery ≥3 weeks after the last cycle and not before 37 weeks where possible; no chemotherapy in the first trimester (malformation risk). The INCIP cohort showed children exposed in utero have normal cognitive and cardiac development at 3 and 6 years (Amant, NEJM 2015), with prematurity, not chemotherapy, driving outcomes. Trastuzumab (oligohydramnios), endocrine therapy, immunotherapy, TKIs and methotrexate are contraindicated or avoided. Pregnancy-associated breast cancer within a few years postpartum has worse biology. Placental metastasis is rare (melanoma most common).",
     related: ["breast-hr-positive", "cervical", "hodgkin-lymphoma", "melanoma", "gestational-trophoblastic", "fertility-preservation"], terms: ["aya-oncology"],
@@ -1315,7 +1315,3 @@ export const gapCollections: CollectionInput[] = [
 ];
 
 export const gapFill: EntityInput[] = [...gapCancers, ...gapProducts, ...gapTargets, ...gapTechnologies, ...gapTerms, ...gapCollections];
-
-// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
-// A later Wikipedia-linking pass can skip these ids.
-//   cancer-in-pregnancy

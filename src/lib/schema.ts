@@ -266,6 +266,13 @@ export const PathwaySchema = Base.extend({
 export const TermSchema = Base.extend({
   kind: z.literal("term"),
   category: z.string(),
+  /**
+   * Date English Wikipedia was last searched for this term and found to have no article about it (title or redirect
+   * matching the name or an alias, medical sense). Set by scripts/fetch-term-wikipedia.ts for its SKIP list; the
+   * term-wikipedia gauge counts a term with this date as explained, and the term page says "No Wikipedia article".
+   * Meaningless alongside `wikipedia`.
+   */
+  wikipediaChecked: isoDate.optional(),
 });
 
 export const TrialSchema = Base.extend({

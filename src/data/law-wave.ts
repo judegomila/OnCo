@@ -124,7 +124,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["fda-oce"], bottlenecks: ["b-trial-design", "b-regulatory-fragmentation"], tags: ["us"],
   }),
   t({
-    id: "fdora-2022", name: "FDORA 2022 accelerated approval reforms",
+    id: "fdora-2022", wikipediaChecked: "2026-09-22", name: "FDORA 2022 accelerated approval reforms",
     aka: ["FDORA", "Food and Drug Omnibus Reform Act", "Food and Drug Omnibus Reform Act of 2022", "Consolidated Appropriations Act 2023 FDA provisions", "accelerated approval reform"],
     links: [
       { label: "Congress.gov: H.R.2617, Consolidated Appropriations Act, 2023 (Public Law 117-328)", url: "https://www.congress.gov/bill/117th-congress/house-bill/2617" },
@@ -272,7 +272,7 @@ export const lawTerms: TermInput[] = [
     drugs: ["ibrutinib", "enzalutamide"], bottlenecks: ["b-drug-pricing", "b-incentive-misalignment"], tags: ["us"],
   }),
   t({
-    id: "medicare-ced", name: "Medicare coverage with evidence development",
+    id: "medicare-ced", wikipediaChecked: "2026-09-22", name: "Medicare coverage with evidence development",
     aka: ["coverage with evidence development", "CED", "national coverage determination", "national coverage determinations", "NCD 90.2", "Medicare NGS coverage", "Medicare coverage of cancer drugs", "protected classes"],
     links: [
       { label: "CMS: coverage with evidence development", url: "https://www.cms.gov/medicare/coverage/evidence" },
@@ -333,7 +333,7 @@ export const lawTerms: TermInput[] = [
     companies: ["myriad-genetics"], bottlenecks: ["b-hereditary-risk", "b-ip-collaboration", "b-data-silos"], tags: ["us"],
   }),
   t({
-    id: "state-biomarker-testing-laws", name: "State biomarker testing coverage laws",
+    id: "state-biomarker-testing-laws", wikipediaChecked: "2026-09-22", name: "State biomarker testing coverage laws",
     aka: ["biomarker testing coverage law", "biomarker testing coverage laws", "biomarker testing legislation", "comprehensive biomarker testing coverage"],
     links: [{ label: "American Cancer Society Cancer Action Network: improving access to biomarker testing", url: "https://www.fightcancer.org/policy-resources/improving-access-biomarker-testing" }],
     tldr: "A wave of US state laws, starting in 2021, that require insurers regulated by the state and often Medicaid to pay for the tumour and inherited gene tests that decide which targeted drug a patient should get.",
@@ -370,7 +370,7 @@ export const lawTerms: TermInput[] = [
 
   // ---------------------------------------------------------------- European Union
   t({
-    id: "eu-regulation-726-2004", name: "Regulation (EC) No 726/2004: the EU centralised procedure",
+    id: "eu-regulation-726-2004", wikipediaChecked: "2026-09-22", name: "Regulation (EC) No 726/2004: the EU centralised procedure",
     aka: ["Regulation 726/2004", "centralised procedure", "centralised marketing authorisation", "Community marketing authorisation", "EU marketing authorisation", "CHMP opinion", "Article 83 compassionate use", "PRIME scheme"],
     links: [
       { label: "EUR-Lex: Regulation (EC) No 726/2004", url: "https://eur-lex.europa.eu/eli/reg/2004/726/oj" },
@@ -382,7 +382,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["ema"], bottlenecks: ["b-regulatory-fragmentation"], tags: ["eu"],
   }),
   t({
-    id: "eu-orphan-regulation", name: "Regulation (EC) No 141/2000: EU orphan medicines",
+    id: "eu-orphan-regulation", wikipediaChecked: "2026-09-22", name: "Regulation (EC) No 141/2000: EU orphan medicines",
     aka: ["Regulation 141/2000", "EU Orphan Regulation", "Orphan Medicinal Products Regulation", "orphan medicinal product", "orphan medicinal products", "ten-year market exclusivity", "COMP", "Committee for Orphan Medicinal Products"],
     links: [
       { label: "EUR-Lex: Regulation (EC) No 141/2000", url: "https://eur-lex.europa.eu/eli/reg/2000/141/oj" },
@@ -394,7 +394,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["ema"], bottlenecks: ["b-rare-cancers", "b-incentive-misalignment"], tags: ["eu"],
   }),
   t({
-    id: "eu-paediatric-regulation", name: "Regulation (EC) No 1901/2006: EU paediatric medicines",
+    id: "eu-paediatric-regulation", wikipediaChecked: "2026-09-22", name: "Regulation (EC) No 1901/2006: EU paediatric medicines",
     aka: ["Regulation 1901/2006", "EU Paediatric Regulation", "Paediatric Regulation", "paediatric investigation plan", "paediatric investigation plans", "PIP", "PIPs", "PDCO", "Paediatric Committee", "class waiver", "class waivers", "PUMA"],
     links: [
       { label: "EUR-Lex: Regulation (EC) No 1901/2006", url: "https://eur-lex.europa.eu/eli/reg/2006/1901/oj" },
@@ -439,7 +439,7 @@ export const lawTerms: TermInput[] = [
     bottlenecks: ["b-data-silos", "b-real-world-evidence"], tags: ["eu"],
   }),
   t({
-    id: "eu-hta-regulation", name: "EU HTA Regulation (EU) 2021/2282: joint clinical assessments",
+    id: "eu-hta-regulation", wikipediaChecked: "2026-09-22", name: "EU HTA Regulation (EU) 2021/2282: joint clinical assessments",
     aka: ["HTA Regulation", "HTAR", "Regulation 2021/2282", "joint clinical assessment", "joint clinical assessments", "JCA", "JCAs", "joint scientific consultation", "Member State Coordination Group on HTA", "HTACG"],
     links: [
       { label: "EUR-Lex: Regulation (EU) 2021/2282", url: "https://eur-lex.europa.eu/eli/reg/2021/2282/oj" },
@@ -451,7 +451,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["ema", "g-ba-iqwig", "has-france"], bottlenecks: ["b-drug-pricing", "b-regulatory-fragmentation", "b-global-access"], tags: ["eu"],
   }),
   t({
-    id: "eu-pharma-package", name: "EU pharmaceutical package reform (2023 proposal)",
+    id: "eu-pharma-package", wikipediaChecked: "2026-09-22", name: "EU pharmaceutical package reform (2023 proposal)",
     aka: ["pharmaceutical package", "EU pharmaceutical legislation reform", "pharma package", "pharmaceutical strategy for Europe", "regulatory data protection reform", "transferable exclusivity voucher", "modulated exclusivity"],
     links: [{ label: "European Commission: reform of the EU pharmaceutical legislation", url: "https://health.ec.europa.eu/medicinal-products/reform-eu-pharmaceutical-legislation_en" }],
     tldr: "The biggest rewrite of EU medicines law in twenty years, proposed in 2023: shorter default protection from generic competition with extensions for launching everywhere in the EU and for meeting unmet needs, faster assessments, and tighter orphan and paediatric rules, argued over by Parliament and Council since.",
@@ -485,7 +485,7 @@ export const lawTerms: TermInput[] = [
 
   // ---------------------------------------------------------------- United Kingdom
   t({
-    id: "ilap", name: "ILAP (Innovative Licensing and Access Pathway)",
+    id: "ilap", wikipediaChecked: "2026-09-22", name: "ILAP (Innovative Licensing and Access Pathway)",
     aka: ["ILAP", "Innovative Licensing and Access Pathway", "Innovation Passport", "Target Development Profile", "Early Access to Medicines Scheme", "EAMS", "International Recognition Procedure"],
     links: [{ label: "GOV.UK: Innovative Licensing and Access Pathway (ILAP)", url: "https://www.gov.uk/government/publications/innovative-licensing-and-access-pathway-ilap" }],
     tldr: "The UK's post-Brexit scheme, launched in 2021 and refreshed in 2025, that brings the medicines regulator, NICE and the NHS together early in a drug's development so that licensing and the decision to pay for it can happen close together.",
@@ -504,7 +504,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["nice"], bottlenecks: ["b-drug-pricing", "b-real-world-evidence"], tags: ["uk"],
   }),
   t({
-    id: "nice-methods", name: "NICE technology appraisal methods (2022)",
+    id: "nice-methods", wikipediaChecked: "2026-09-22", name: "NICE technology appraisal methods (2022)",
     aka: ["NICE methods", "NICE methods review", "NICE manual", "PMG36", "severity modifier", "end-of-life criteria", "cost per QALY threshold", "NICE threshold", "technology appraisal process"],
     links: [{ label: "NICE: health technology evaluations, the manual (PMG36)", url: "https://www.nice.org.uk/process/pmg36" }],
     tldr: "The rulebook NICE uses to decide whether the NHS in England should pay for a medicine: a cost per quality-adjusted life year usually between 20,000 and 30,000 pounds, with extra weight since 2022 for severe diseases in place of the old bonus for end-of-life cancer drugs.",
@@ -513,7 +513,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["nice", "smc"], bottlenecks: ["b-drug-pricing"], tags: ["uk"],
   }),
   t({
-    id: "innovative-medicines-fund", name: "Innovative Medicines Fund (England)",
+    id: "innovative-medicines-fund", wikipediaChecked: "2026-09-22", name: "Innovative Medicines Fund (England)",
     aka: ["Innovative Medicines Fund", "IMF managed access"],
     links: [{ label: "NHS England: Innovative Medicines Fund", url: "https://www.england.nhs.uk/medicines-2/innovative-medicines-fund/" }],
     tldr: "A fund launched in 2022 that does for non-cancer medicines what the Cancer Drugs Fund does for cancer: pays for a promising but uncertain drug for a limited period while evidence is gathered, with the same budget of 340 million pounds.",
@@ -522,7 +522,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["nice"], bottlenecks: ["b-drug-pricing", "b-real-world-evidence"], tags: ["uk"],
   }),
   t({
-    id: "medicines-medical-devices-act-2021", name: "Medicines and Medical Devices Act 2021",
+    id: "medicines-medical-devices-act-2021", wikipediaChecked: "2026-09-22", name: "Medicines and Medical Devices Act 2021",
     aka: ["Medicines and Medical Devices Act", "MMD Act 2021", "Human Medicines Regulations 2012", "Medicines Act 1968", "Commissioner for Patient Safety"],
     links: [{ label: "legislation.gov.uk: Medicines and Medical Devices Act 2021", url: "https://www.legislation.gov.uk/ukpga/2021/3" }],
     tldr: "The 2021 UK law, passed after Brexit, that gives ministers power to rewrite the rules for licensing medicines, running trials and regulating devices without new primary legislation, and that created a patient safety commissioner.",
@@ -559,7 +559,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["g-ba-iqwig"], bottlenecks: ["b-drug-pricing"], tags: ["de"],
   }),
   t({
-    id: "france-early-access", name: "France: early access (accès précoce), formerly ATU",
+    id: "france-early-access", wikipediaChecked: "2026-09-22", name: "France: early access (accès précoce), formerly ATU",
     aka: ["accès précoce", "acces precoce", "ATU", "autorisation temporaire d'utilisation", "temporary authorisation for use", "accès compassionnel", "compassionate access France", "early access authorisation"],
     links: [{ label: "HAS: accès précoce (French)", url: "https://www.has-sante.fr/jcms/p_3277085/fr/acces-precoce" }],
     tldr: "France pays for promising medicines before they are approved or reimbursed: the ATU system did this from 1994, and since July 2021 the Haute Autorité de Santé grants early access for presumed innovative drugs in serious diseases, with the company setting the price and repaying the difference later.",
@@ -581,7 +581,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["pmda"], bottlenecks: ["b-regulatory-fragmentation"], tags: ["jp"],
   }),
   t({
-    id: "japan-conditional-early-approval", name: "Japan conditional early approval and time-limited approval",
+    id: "japan-conditional-early-approval", wikipediaChecked: "2026-09-22", name: "Japan conditional early approval and time-limited approval",
     aka: ["conditional early approval system", "conditional and time-limited approval", "PMD Act 2019 amendment", "Pharmaceuticals and Medical Devices Act", "regenerative medicine conditional approval", "Japan conditional approval"],
     links: [{ label: "PMDA (English)", url: "https://www.pmda.go.jp/english/" }],
     tldr: "Japan can approve a medicine for a serious disease on early data when a confirmatory trial would be hard to run, on condition that evidence is gathered after launch; for cell and tissue products a 2014 law allows a time-limited approval that must be confirmed within seven years.",
@@ -611,7 +611,7 @@ export const lawTerms: TermInput[] = [
     institutions: ["nmpa-cde"], bottlenecks: ["b-data-silos", "b-regulatory-fragmentation"], tags: ["cn"],
   }),
   t({
-    id: "china-hgr-rules", name: "China Human Genetic Resources rules (2019, 2023)",
+    id: "china-hgr-rules", wikipediaChecked: "2026-09-22", name: "China Human Genetic Resources rules (2019, 2023)",
     aka: ["Human Genetic Resources", "HGR", "HGR regulation", "Regulation on the Administration of Human Genetic Resources", "HGRAC", "Human Genetic Resources Administration of China", "Biosecurity Law"],
     tldr: "Chinese rules that treat blood, tissue and genetic data from Chinese people as a national resource: foreign organisations cannot collect them, international collaborations need approval or filing, and exporting samples or sequence data needs a permit, which affects every global cancer trial with Chinese sites.",
     summary: "China, administrative regulation. The Regulation on the Administration of Human Genetic Resources was adopted by the State Council on 20 March 2019 (Decree No. 717) and took effect on 1 July 2019, replacing interim measures from 1998; the Biosecurity Law (effective 15 April 2021) gave it a statutory footing, and the Ministry of Science and Technology's Implementing Rules took effect on 1 July 2023. Primary text: the Chinese texts are published by the State Council and the Ministry of Science and Technology; no official English consolidation is maintained, so this record gives no primary link.\n\nWhat it requires: human genetic resources means organs, tissues, cells and other materials containing the human genome, and the data generated from them. Foreign organisations, and Chinese entities they control, may not collect or preserve them in China and may use them only through collaboration with a Chinese partner. International collaborations need approval from the Human Genetic Resources Administration of China, except that clinical trials at Chinese sites for the purpose of marketing authorisation in China may proceed by filing, a simplification of 2019 extended in 2023; export of materials needs approval, and providing genetic data abroad needs filing or, where national security may be affected, a security review. The 2023 rules clarified that 'foreign' includes entities with foreign shareholders holding controlling stakes and narrowed the scope of data covered.\n\nWhy it matters for oncology and the arguments: multinational sponsors running trials in China must plan for approvals before biomarker samples or sequencing data can leave the country, and central laboratories abroad are often replaced by Chinese ones. Sponsors describe months of delay and uncertainty about which data count; China frames the rules as sovereignty over a resource that foreign companies once exported freely, citing episodes from the 1990s. The rules are one of the reasons the BIOSECURE Act debate in the United States and China's own data laws now shape where cancer genomics work is done.",
@@ -750,23 +750,3 @@ export const tldrZh: Record<string, string> = {
   "declaration-of-helsinki": "医学界自身的人体研究伦理准则，1964年通过，最近于2024年修订，每份癌症试验方案都会引用：知情同意、独立伦理审查、参与者福祉高于科学利益，以及对安慰剂对照的限制。",
   "ich-gcp": "关于临床试验应如何设计、实施、记录和报告的国际标准，使美国、欧洲、日本和现在的中国监管机构接受其数据；第三版于2025年通过，以适应使用电子记录并跨多国开展的试验。",
 };
-
-// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
-// A later Wikipedia-linking pass can skip these ids.
-//   china-hgr-rules
-//   eu-hta-regulation
-//   eu-orphan-regulation
-//   eu-paediatric-regulation
-//   eu-pharma-package
-//   eu-regulation-726-2004
-//   fdora-2022
-//   france-early-access
-//   ilap
-//   innovative-medicines-fund
-//   japan-conditional-early-approval
-//   medicare-ced
-//   medicines-medical-devices-act-2021
-//   nice-methods
-//   project-orbis
-//   race-for-children-act
-//   state-biomarker-testing-laws

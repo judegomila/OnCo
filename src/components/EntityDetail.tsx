@@ -221,6 +221,7 @@ export function EntityDetail({ e }: { e: Entity }) {
             <ProvenanceLine id={e.id} />
             <div className="card p-4 text-sm space-y-3">
               {e.wikipedia && <div><div className="kicker mb-1"><TL text="Wikipedia" /></div><a className="underline break-all" href={e.wikipedia} rel="noopener">{decodeURIComponent(e.wikipedia.replace("https://en.wikipedia.org/wiki/", "")).replace(/_/g, " ")}</a></div>}
+              {!e.wikipedia && e.kind === "term" && e.wikipediaChecked && <div><div className="kicker mb-1"><TL text="Wikipedia" /></div><p className="text-muted" title={`English Wikipedia searched on ${e.wikipediaChecked}: no article with this name or any of its aliases`}><TL text="No Wikipedia article" /></p></div>}
               {e.links.length > 0 && (
                 <div><div className="kicker mb-1"><TL text="Sources & links" /></div>
                   <ul className="space-y-1">{e.links.map((l) => <li key={l.url}><a className="underline break-words" href={l.url} rel="noopener">{l.label}</a></li>)}</ul>

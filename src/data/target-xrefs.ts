@@ -2244,4 +2244,83 @@ export const targetXrefs: Record<string, TargetXref> = {
   impdh2: {
     genes: [{"symbol":"IMPDH2","name":"inosine monophosphate dehydrogenase 2","hgnc":"HGNC:6053","ensembl":"ENSG00000178035","uniprot":"P12268","entrez":"3615","locus":"3p21.31"}],
   },
+  // Wave 5 targets (targets-wave-soc.ts): HGNC REST read 22 Sep 2026; ChEMBL ids to be filled by the next scripts/fetch-xrefs.ts run.
+  nras: {
+    genes: [{"symbol":"NRAS","name":"NRAS proto-oncogene, GTPase","hgnc":"HGNC:7989","ensembl":"ENSG00000213281","uniprot":"P01111","entrez":"4893","cosmic":"NRAS","omim":"164790","locus":"1p13.2"}],
+  },
+  cd28: {
+    genes: [{"symbol":"CD28","name":"CD28 molecule","hgnc":"HGNC:1653","ensembl":"ENSG00000178562","uniprot":"P10747","entrez":"940","omim":"186760","locus":"2q33.2"}],
+  },
+  "hla-a": {
+    genes: [{"symbol":"HLA-A","name":"major histocompatibility complex, class I, A","hgnc":"HGNC:4931","ensembl":"ENSG00000206503","uniprot":"P04439","entrez":"3105","cosmic":"HLA-A","omim":"142800","locus":"6p22.1"}],
+  },
+  mpl: {
+    genes: [{"symbol":"MPL","name":"MPL proto-oncogene, thrombopoietin receptor","hgnc":"HGNC:7217","ensembl":"ENSG00000117400","uniprot":"P40238","entrez":"4352","cosmic":"MPL","omim":"159530","locus":"1p34.2"}],
+  },
+  shp2: {
+    genes: [{"symbol":"PTPN11","name":"protein tyrosine phosphatase non-receptor type 11","hgnc":"HGNC:9644","ensembl":"ENSG00000179295","uniprot":"Q06124","entrez":"5781","cosmic":"PTPN11","omim":"176876","locus":"12q24.13"}],
+  },
+  stat5: {
+    genes: [{"symbol":"STAT5A","name":"signal transducer and activator of transcription 5A","hgnc":"HGNC:11366","ensembl":"ENSG00000126561","uniprot":"P42229","entrez":"6776","omim":"601511","locus":"17q21.2"}, {"symbol":"STAT5B","name":"signal transducer and activator of transcription 5B","hgnc":"HGNC:11367","ensembl":"ENSG00000173757","uniprot":"P51692","entrez":"6777","cosmic":"STAT5B","omim":"604260","locus":"17q21.2"}],
+  },
+  ikzf1: {
+    genes: [{"symbol":"IKZF1","name":"IKAROS family zinc finger 1","hgnc":"HGNC:13176","ensembl":"ENSG00000185811","uniprot":"Q13422","entrez":"10320","cosmic":"IKZF1","omim":"603023","locus":"7p12.2"}],
+  },
+  jak1: {
+    genes: [{"symbol":"JAK1","name":"Janus kinase 1","hgnc":"HGNC:6190","ensembl":"ENSG00000162434","uniprot":"P23458","entrez":"3716","cosmic":"JAK1","omim":"147795","locus":"1p31.3"}],
+  },
+  cd80: {
+    genes: [{"symbol":"CD80","name":"CD80 molecule","hgnc":"HGNC:1700","ensembl":"ENSG00000121594","uniprot":"P33681","entrez":"941","omim":"112203","locus":"3q13.33"}],
+  },
+  abl1: {
+    genes: [{"symbol":"ABL1","name":"ABL proto-oncogene 1, non-receptor tyrosine kinase","hgnc":"HGNC:76","ensembl":"ENSG00000097007","uniprot":"P00519","entrez":"25","cosmic":"ABL1","omim":"189980","locus":"9q34.12"}],
+  },
+  fak: {
+    genes: [{"symbol":"PTK2","name":"protein tyrosine kinase 2","hgnc":"HGNC:9611","ensembl":"ENSG00000169398","uniprot":"Q05397","entrez":"5747","omim":"600758","locus":"8q24.3"}],
+  },
+  ikzf3: {
+    genes: [{"symbol":"IKZF3","name":"IKAROS family zinc finger 3","hgnc":"HGNC:13178","ensembl":"ENSG00000161405","uniprot":"Q9UKT9","entrez":"22806","cosmic":"IKZF3","omim":"606221","locus":"17q12-q21.1"}],
+  },
+  ptch1: {
+    genes: [{"symbol":"PTCH1","name":"patched 1","hgnc":"HGNC:9585","ensembl":"ENSG00000185920","uniprot":"Q13635","entrez":"5727","cosmic":"PTCH1","omim":"601309","locus":"9q22.32"}],
+  },
+  cd137: {
+    genes: [{"symbol":"TNFRSF9","name":"TNF receptor superfamily member 9","hgnc":"HGNC:11924","ensembl":"ENSG00000049249","uniprot":"Q07011","entrez":"3604","omim":"602250","locus":"1p36.23"}],
+  },
+  hif1a: {
+    genes: [{"symbol":"HIF1A","name":"hypoxia inducible factor 1 subunit alpha","hgnc":"HGNC:4910","ensembl":"ENSG00000100644","uniprot":"Q16665","entrez":"3091","cosmic":"HIF1A","omim":"603348","locus":"14q23.2"}],
+  },
+  ido1: {
+    genes: [{"symbol":"IDO1","name":"indoleamine 2,3-dioxygenase 1","hgnc":"HGNC:6059","ensembl":"ENSG00000131203","uniprot":"P14902","entrez":"3620","omim":"147435","locus":"8p11.21"}],
+  },
+  brd4: {
+    genes: [{"symbol":"BRD4","name":"bromodomain containing 4","hgnc":"HGNC:13575","ensembl":"ENSG00000141867","uniprot":"O60885","entrez":"23476","cosmic":"BRD4","omim":"608749","locus":"19p13.12"}],
+  },
+  irf4: {
+    genes: [{"symbol":"IRF4","name":"interferon regulatory factor 4","hgnc":"HGNC:6119","ensembl":"ENSG00000137265","uniprot":"Q15306","entrez":"3662","cosmic":"IRF4","omim":"601900","locus":"6p25.3"}],
+  },
+  b7h4: {
+    genes: [{"symbol":"VTCN1","name":"V-set domain containing T cell activation inhibitor 1","hgnc":"HGNC:28873","ensembl":"ENSG00000134258","uniprot":"Q7Z7D3","entrez":"79679","omim":"608162","locus":"1p13.1-p12"}],
+  },
+  tet2: {
+    genes: [{"symbol":"TET2","name":"tet methylcytosine dioxygenase 2","hgnc":"HGNC:25941","ensembl":"ENSG00000168769","uniprot":"Q6N021","entrez":"54790","cosmic":"TET2","omim":"612839","locus":"4q24"}],
+  },
+  nf1: {
+    genes: [{"symbol":"NF1","name":"neurofibromin 1","hgnc":"HGNC:7765","ensembl":"ENSG00000196712","uniprot":"P21359","entrez":"4763","cosmic":"NF1","omim":"613113","locus":"17q11.2"}],
+  },
+  acvr1: {
+    genes: [{"symbol":"ACVR1","name":"activin A receptor type 1","hgnc":"HGNC:171","ensembl":"ENSG00000115170","uniprot":"Q04771","entrez":"90","cosmic":"ACVR1","omim":"102576","locus":"2q24.1"}],
+  },
+  hoxa9: {
+    genes: [{"symbol":"HOXA9","name":"homeobox A9","hgnc":"HGNC:5109","ensembl":"ENSG00000078399","uniprot":"P31269","entrez":"3205","cosmic":"HOXA9","omim":"142956","locus":"7p15.2"}],
+  },
+  meis1: {
+    genes: [{"symbol":"MEIS1","name":"Meis homeobox 1","hgnc":"HGNC:7000","ensembl":"ENSG00000143995","uniprot":"O00470","entrez":"4211","omim":"601739","locus":"2p14"}],
+  },
+  bim: {
+    genes: [{"symbol":"BCL2L11","name":"BCL2 like 11","hgnc":"HGNC:994","ensembl":"ENSG00000153094","uniprot":"O43521","entrez":"10018","omim":"603827","locus":"2q13"}],
+  },
+  bax: {
+    genes: [{"symbol":"BAX","name":"BCL2 associated X, apoptosis regulator","hgnc":"HGNC:959","ensembl":"ENSG00000087088","uniprot":"Q07812","entrez":"581","cosmic":"BAX","omim":"600040","locus":"19q13.33"}],
+  },
 };

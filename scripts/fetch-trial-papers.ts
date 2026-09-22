@@ -236,7 +236,9 @@ function buildPaper(t: Trial, c: Candidate, role: "primary" | "follow-up"): Pape
   return {
     kind: "paper", asOf, id, name, tldr, summary, journal, year: c.year, ...(r.doi ? { doi: r.doi } : {}), pmid: r.pmid!, authors: authorsOf(r.authorString), paperType,
     findings: [], whatItMeans, caveats, links, tags: ["europepmc-ingest"],
-    cancers: [...t.cancers], drugs: [...t.drugs], targets: [...t.targets], technologies: [...t.technologies], trials: [t.id], ...(journalId ? { journals: [journalId] } : {}),
+    // Only the trial and the journal: the trial already carries the drugs, cancers, targets and technologies, and copying
+    // them onto hundreds of fetched records dilutes those pages' search vectors (measured on the Ask OnCo benchmark).
+    trials: [t.id], ...(journalId ? { journals: [journalId] } : {}),
   };
 }
 

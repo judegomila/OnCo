@@ -18,6 +18,13 @@
  *   Already in the corpus, missed by the gap tokeniser: HERIZON and GEA-01 (herizon-btc-302, herizon-gea-01),
  *   CLARITY (clarity-gastric01), STS 1001 (isg-sts-1001), ESCALaTE (de-escalate), EMPOWER (empower-cscc-1),
  *   PREOPANC (preopanc), CONTINUATION (proud-pv), OptimICE (optimice-pcr; the token is also the ASCENT-05 programme name).
+ *   Registered only with UMIN (Japan), which is outside the networks this wave may query, so the acronym cannot be
+ *   checked against a registry record: REGATTA (UMIN000001012), JCOG0912 (UMIN000003319), JCOG0802 (UMIN000002317),
+ *   CREATE-X. GROINSS (the text cites GROINSS-V I, which has no ClinicalTrials.gov record; NCT01500512 is the separate
+ *   GROINSS-V II observational study). PLATO ACT5 (ISRCTN88455282 only, no results and no primary publication by NCT id).
+ *   REMORA (Japanese registry only). BEST4 (ISRCTN only, no publication yet). UK and German academic trials registered
+ *   with ISRCTN only (ESPAC-4, CONKO-001, CAPP2) are written from the primary publication, which names the acronym and
+ *   the ISRCTN id carried in `nct`.
  *   Not trials: AKT1, MLH1, KMT2A, FGFR2b, FGFR4, IGF-1R, INI1 (genes or biomarkers); NSAIDs, VeIP, COPDAC, EE-4A,
  *   DD-4A (regimens); PanNETs, NETs, VIPoma, CIN 3 (disease terms); CSI 23, CSI 36, ISRT 30, RFS 48 (doses and figures);
  *   MammaPrint, ThyroSeq (assays); NUV-868 (drug code); EpSSG (study group); EXPeRT (rare tumour registry).
@@ -584,6 +591,21 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Treatment-related mortality", unit: "%", arms: [{ name: "Rituximab induction then rituximab or R-CHOP consolidation by response", n: 126, value: 8, note: "95% CI 5 to 14; grade 3 or 4 infections 34 percent" }], source: doi("10.1200/JCO.2016.69.3564") },
     ],
     drugs: ["rituximab", "cyclophosphamide", "doxorubicin", "vincristine", "prednisone", "filgrastim"], cancers: ["post-transplant-lymphoproliferative-disorder", "non-hodgkin-lymphoma"], institutions: ["charite"], keyPapers: ["paper-ptld-1-risk-stratified-sequential-treatment-trappe-jco-2017"], links: [ct("NCT00590447")] }),
+
+  // ---------------------------------------------------------------- Gastric
+  t({ id: "classic", name: "CLASSIC", aka: ["CLASSIC trial", "L_9570"], nct: "NCT00411229", phase: "3", status: "positive", yearReported: 2012, sponsor: "Sanofi", enrolled: 1035,
+    technologies: ["cytotoxic-chemotherapy"],
+    setting: "Stage II to IIIB gastric adenocarcinoma after curative D2 gastrectomy in South Korea, China and Taiwan: eight cycles of adjuvant capecitabine and oxaliplatin (CAPOX) against surgery alone, with disease-free survival as the primary endpoint",
+    tldr: "CLASSIC showed that six months of capecitabine and oxaliplatin after a thorough stomach cancer operation stops the cancer returning in many more people, with 68 percent free of disease at five years against 53 percent with surgery alone, and more of them alive; it made CAPOX one of the two standard adjuvant treatments in East Asia.",
+    summary: "CLASSIC was an open-label phase 3 trial at 37 centres in South Korea, China and Taiwan that randomised 1,035 patients with stage II to IIIB gastric cancer after curative D2 gastrectomy to eight three-week cycles of capecitabine and oxaliplatin (520) or observation (515). The primary endpoint was three-year disease-free survival.\n\nThree-year disease-free survival was 74 percent with chemotherapy against 59 percent with surgery alone (hazard ratio 0.56), and at five years 68 against 53 percent with overall survival of 78 against 69 percent (hazard ratio 0.66). Grade 3 or 4 adverse events occurred in 56 percent of treated patients, mainly nausea, neutropenia and loss of appetite. With ACTS-GC (adjuvant S-1 in Japan) the trial defines adjuvant chemotherapy after D2 gastrectomy in East Asia, which is how the corpus's gastric cancer page cites it.",
+    result: "Three-year disease-free survival 74 percent with adjuvant CAPOX against 59 percent with surgery alone (hazard ratio 0.56, p < 0.0001); five-year overall survival 78 against 69 percent (hazard ratio 0.66).",
+    outcomes: [
+      { endpoint: "Disease-free survival at 3 years", primary: true, unit: "%", arms: [{ name: "Adjuvant capecitabine + oxaliplatin", n: 520, value: 74, note: "95% CI 69 to 79" }, { name: "Surgery alone (observation)", n: 515, value: 59, note: "95% CI 53 to 64" }], hr: 0.56, ci: [0.44, 0.72], p: "<0.0001", source: doi("10.1016/S0140-6736(11)61873-4") },
+      { endpoint: "Disease-free survival at 5 years", unit: "%", arms: [{ name: "Adjuvant capecitabine + oxaliplatin", n: 520, value: 68, note: "95% CI 63 to 73" }, { name: "Surgery alone (observation)", n: 515, value: 53, note: "95% CI 47 to 58" }], hr: 0.58, ci: [0.47, 0.72], p: "<0.0001", source: doi("10.1016/S1470-2045(14)70473-5") },
+      { endpoint: "Overall survival at 5 years", unit: "%", arms: [{ name: "Adjuvant capecitabine + oxaliplatin", n: 520, value: 78, note: "95% CI 74 to 82" }, { name: "Surgery alone (observation)", n: 515, value: 69, note: "95% CI 64 to 73" }], hr: 0.66, ci: [0.51, 0.85], p: "0.0015", source: doi("10.1016/S1470-2045(14)70473-5") },
+      { endpoint: "Grade 3 or 4 adverse events", unit: "%", arms: [{ name: "Adjuvant capecitabine + oxaliplatin", n: 496, value: 56 }, { name: "Surgery alone (observation)", n: 478, value: 6 }], source: doi("10.1016/S0140-6736(11)61873-4") },
+    ],
+    drugs: ["capecitabine", "oxaliplatin"], cancers: ["gastric"], companies: ["sanofi", "roche-genentech"], keyPapers: ["paper-classic-adjuvant-capox-gastric-bang-lancet-2012", "paper-classic-5-year-follow-up-noh-lancet-oncol-2014"], links: [ct("NCT00411229")] }),
 ];
 
 /** Chinese TL;DRs, folded into src/data/i18n/zh.ts by scripts/fold-zh.ts. */
@@ -632,4 +654,5 @@ export const tldrZh: Record<string, string> = {
   sympatico: "SYMPATICO 显示，复发套细胞淋巴瘤患者在伊布替尼 (ibrutinib) 基础上加 BCL2 抑制剂维奈克拉 (venetoclax)，疾病控制时间约延长十个月；该组合还使多数未治疗的 TP53 突变患者获得完全缓解。",
   "bmt-ctn-0803": "BMT CTN 0803 显示，HIV 感染者淋巴瘤复发后可以像其他人一样接受大剂量化疗和干细胞移植，一年生存率 87%，结局与匹配的 HIV 阴性患者无异，HIV 本身不应成为移植的障碍。",
   "ptld-1": "PTLD-1 确立了器官移植后淋巴瘤的治疗方法：先单用利妥昔单抗 (rituximab)，再按反应决定继续用抗体还是改用化疗；七成患者完全缓解，中位生存超过六年。",
+  classic: "CLASSIC 显示，彻底的胃癌 D2 手术后用卡培他滨 (capecitabine) 加奥沙利铂 (oxaliplatin) 治疗六个月，可使更多患者免于复发，五年无病生存 68% 对单纯手术 53%，存活者也更多；CAPOX 成为东亚两种标准辅助治疗之一。",
 };

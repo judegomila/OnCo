@@ -377,4 +377,27 @@ export const papersSocWave: PaperInput[] = [
     caveats: ["Single-arm phase 2; Burkitt, T-cell and CNS disease were excluded."],
     links: [{ label: "J Clin Oncol 2017", url: "https://doi.org/10.1200/JCO.2016.69.3564" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/27992268/" }],
     cancers: ["post-transplant-lymphoproliferative-disorder"], drugs: ["rituximab"], trials: ["ptld-1"], journals: ["jco"] }),
+
+  // ---------------------------------------------------------------- Gastric
+  p({ id: "paper-classic-adjuvant-capox-gastric-bang-lancet-2012", name: "CLASSIC: adjuvant capecitabine and oxaliplatin for gastric cancer after D2 gastrectomy",
+    tldr: "Six months of capecitabine and oxaliplatin after a D2 gastrectomy raised three-year disease-free survival from 59 to 74 percent in East Asian patients with stage II to III stomach cancer.",
+    summary: "Open-label phase 3 trial at 37 centres in South Korea, China and Taiwan: 1,035 patients with stage II to IIIB gastric cancer after curative D2 gastrectomy were randomised to eight cycles of capecitabine and oxaliplatin (520) or observation (515).\n\nThree-year disease-free survival was 74 percent with chemotherapy against 59 percent with surgery alone (hazard ratio 0.56). Grade 3 or 4 adverse events occurred in 56 percent of chemotherapy patients against 6 percent of surgery-only patients, most commonly nausea, neutropenia and decreased appetite.",
+    journal: "The Lancet", year: 2012, doi: "10.1016/S0140-6736(11)61873-4", pmid: "22226517",
+    authors: "Bang YJ, Kim YW, Yang HK, et al.", paperType: "rct", participants: 1035, changedPractice: true,
+    findings: ["Three-year disease-free survival 74 percent (95% CI 69 to 79) versus 59 percent (53 to 64); hazard ratio 0.56 (0.44 to 0.72), p < 0.0001.", "Grade 3 or 4 adverse events 56 percent versus 6 percent."],
+    whatItMeans: "Adjuvant CAPOX after D2 gastrectomy is a standard option for operable stage II to III gastric cancer, alongside S-1 in Japan.",
+    caveats: ["East Asian population with D2 surgery; Western practice relies on perioperative chemotherapy (FLOT) instead.", "Open-label design."],
+    links: [{ label: "Lancet 2012", url: "https://doi.org/10.1016/S0140-6736(11)61873-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/22226517/" }],
+    cancers: ["gastric"], drugs: ["capecitabine", "oxaliplatin"], trials: ["classic"], journals: ["lancet"] }),
+
+  p({ id: "paper-classic-5-year-follow-up-noh-lancet-oncol-2014", name: "CLASSIC 5-year follow-up: adjuvant capecitabine plus oxaliplatin for gastric cancer after D2 gastrectomy",
+    tldr: "Five years on, the benefit of adjuvant capecitabine and oxaliplatin held and translated into longer survival: 78 percent alive against 69 percent with surgery alone.",
+    summary: "Five-year follow-up of the CLASSIC trial (1,035 patients) at a median of 62.4 months: disease-free survival events in 27 percent of chemotherapy patients against 39 percent of observation patients (hazard ratio 0.58); estimated five-year disease-free survival 68 against 53 percent and overall survival 78 against 69 percent (hazard ratio 0.66).",
+    journal: "The Lancet Oncology", year: 2014, doi: "10.1016/S1470-2045(14)70473-5", pmid: "25439693",
+    authors: "Noh SH, Park SR, Yang HK, et al.", paperType: "rct", participants: 1035, changedPractice: true,
+    findings: ["Five-year disease-free survival 68 percent (95% CI 63 to 73) versus 53 percent (47 to 58); hazard ratio 0.58 (0.47 to 0.72).", "Five-year overall survival 78 percent (74 to 82) versus 69 percent (64 to 73); hazard ratio 0.66 (0.51 to 0.85), p 0.0015."],
+    whatItMeans: "Confirms a survival benefit for adjuvant CAPOX after D2 gastrectomy.",
+    caveats: ["Adverse event data were not collected after the primary analysis."],
+    links: [{ label: "Lancet Oncol 2014", url: "https://doi.org/10.1016/S1470-2045(14)70473-5" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/25439693/" }],
+    cancers: ["gastric"], drugs: ["capecitabine", "oxaliplatin"], trials: ["classic"], journals: ["lancet-oncology"] }),
 ];

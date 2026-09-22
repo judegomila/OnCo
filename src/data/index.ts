@@ -35,6 +35,12 @@ import { papersWatch202609 } from "./papers-watch-2026-09";
 import { papersTrialsWave1 } from "./papers-trials-wave1";
 import { trialKeyPapersWave1 } from "./trial-key-papers-wave1";
 import { TRIAL_REGISTRY_OUTCOMES } from "./trial-registry-outcomes";
+import { papersPeopleWave6 } from "./papers-people-wave6";
+import { personPapersWave6 } from "./person-papers-wave6";
+import { trialsIdeasWave6 } from "./trials-ideas-wave6";
+import { papersIdeasWave6 } from "./papers-ideas-wave6";
+import { ideaLinksWave6 } from "./idea-links-wave6";
+import { companyDrugsWave6, trialCompaniesWave6 } from "./company-drugs-wave6";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
@@ -171,6 +177,9 @@ const RAW_INPUTS: EntityInput[] = [
   ...papersPancreaticWave,
   ...papersWatch202609,
   ...papersTrialsWave1,
+  ...papersPeopleWave6,
+  ...papersIdeasWave6,
+  ...trialsIdeasWave6,
   ...nutrition,
   ...adcChemistry,
   ...journals,
@@ -228,6 +237,8 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((e) => {
     let t = e;
     // Key papers found for trials by scripts/fetch-trial-papers.ts (wave 1), kept in one file rather than edited into every trial file.
     if (trialKeyPapersWave1[t.id]) t = { ...t, keyPapers: [...(t.keyPapers ?? []), ...trialKeyPapersWave1[t.id].filter((id) => !(t.keyPapers ?? []).includes(id))] };
+    // Sponsors verified through the ClinicalTrials.gov lead-sponsor field by scripts/fetch-company-drugs.ts (wave 6).
+    if (trialCompaniesWave6[t.id]) t = { ...t, companies: [...(t.companies ?? []), ...trialCompaniesWave6[t.id].filter((id) => !(t.companies ?? []).includes(id))] };
     // Outcomes copied from the ClinicalTrials.gov results section by scripts/fetch-registry-outcomes.ts (wave 7), for
     // registry-ingested trials that carry none of their own; the ingested summary's "no results" sentence is replaced.
     const reg = TRIAL_REGISTRY_OUTCOMES[t.id];
@@ -236,6 +247,19 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((e) => {
       t = { ...t, ...reg, summary: t.summary.replace(/No results (?:have been posted on ClinicalTrials\.gov|are recorded here; the registry entry is the source)\./, `Results were posted on ClinicalTrials.gov${posted}; the figures recorded here are the registry's, not a publication's.`) };
     }
     return t;
+  }
+  // Drugs found for companies through the ClinicalTrials.gov lead-sponsor field by scripts/fetch-company-drugs.ts (wave 6).
+  if (e.kind === "company" && companyDrugsWave6[e.id]) return { ...e, drugs: [...(e.drugs ?? []), ...companyDrugsWave6[e.id].filter((id) => !(e.drugs ?? []).includes(id))] };
+  // Trials and key papers found for ideas by scripts/fetch-idea-evidence.ts (wave 6).
+  if (e.kind === "idea" && ideaLinksWave6[e.id]) {
+    const w = ideaLinksWave6[e.id];
+    return { ...e, trials: [...(e.trials ?? []), ...w.trials.filter((id) => !(e.trials ?? []).includes(id))], keyPapers: [...(e.keyPapers ?? []), ...w.keyPapers.filter((id) => !(e.keyPapers ?? []).includes(id))] };
+  }
+  // Papers found for people by scripts/fetch-people-papers.ts (wave 6): the person's own `papers` rows and the paper records behind them.
+  if (e.kind === "person" && personPapersWave6[e.id]) {
+    const w = personPapersWave6[e.id];
+    const have = new Set((e.papers ?? []).map((x) => x.title.toLowerCase()));
+    return { ...e, papers: [...(e.papers ?? []), ...w.papers.filter((x) => !have.has(x.title.toLowerCase()))], keyPapers: [...(e.keyPapers ?? []), ...w.keyPapers.filter((id) => !(e.keyPapers ?? []).includes(id))] };
   }
   return e;
 });

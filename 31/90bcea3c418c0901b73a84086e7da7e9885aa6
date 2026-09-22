@@ -1,0 +1,25 @@
+src/data/colorectal-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_565549b1865e0a 136
+src/data/papers-soc-wave.ts
+  s_0beac9cb5d78fd::t_565549b1865e0a 538-549
+src/data/trials-soc-wave.ts
+  s_0beac9cb5d78fd::t_565549b1865e0a 765-778,840
+docs/CONTENT-ROADMAP.md
+  ai_agent 91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3190bcea3c418c0901b73a84086e7da7e9885aa6",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

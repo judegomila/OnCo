@@ -153,6 +153,8 @@ for (const t of trials) {
     const bare = s.replace(/\([^)]*\)/g, " ").trim();
     knownTrial.add(norm(bare));
     for (const part of bare.split(/[\s,/;:]+/)) if (part.length >= 4) knownTrial.add(norm(part));
+    // "HERIZON-BTC-302", "PREOPANC-1 / PREOPANC-2", "De-ESCALaTE HPV": the programme stem before a hyphen is the name the text uses.
+    for (const part of bare.split(/[\s,/;:-]+/)) if (part.length >= 4 && /[A-Za-z]/.test(part)) knownTrial.add(norm(part));
     for (const m of s.matchAll(/\(([^)]+)\)/g)) { knownTrial.add(norm(m[1])); for (const part of m[1].split(/[\s,/]+/)) if (part.length >= 4) knownTrial.add(norm(part)); }
     const stem = bare.match(/^([A-Za-z][A-Za-z]+)[ -](?:\d+[A-Za-z]?|[A-Z]|[A-Z][a-z]+\d*)$/);
     if (stem) knownTrial.add(norm(stem[1]));

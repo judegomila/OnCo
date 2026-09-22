@@ -83,7 +83,19 @@ Wave 3 (the trials behind standard of care) started on 22 September 2026 in `src
 | Brain and CNS (incl. primary CNS lymphoma, NF2) | 10 | 8 | 8 | 12 | none; SJMB12 and ACNS1422 are still running and carry no outcomes |
 | Childhood (neuroblastoma, Ewing, hepatoblastoma, germ cell, Hodgkin) | 9 | 7 | 6 | 11 | none; AGCT1531 is recruiting and EuroNet-PHL-C2 has no published result, so both carry no outcomes |
 | Non-Hodgkin lymphoma (follicular, mantle cell, HIV-associated, PTLD) | 7 | 7 | 7 | 9 | none |
-| Gastric, pancreatic, sarcoma, anal | 0 | 0 | 0 | 0 | not reached in this run; acronyms resolved so far are in the SKIP comment of the wave file |
+| Gastric | 1 | 1 | 2 | 1 | REGATTA and JCOG0912 are registered with UMIN only, outside the networks this wave may query |
+| Pancreatic (incl. ampullary) | 7 | 6 | 6 | 7 | none; ESPAC-4 and CONKO-001 are ISRCTN-only and written from their primary publications, ESPAC-5 prints no registry id, PRECEDE is an observational cohort with no results |
+| Sarcoma (Kaposi; AEWS0031 sits in the childhood row) | 1 | 1 | 1 | 1 | none |
+| Anal (incl. HSIL precursor) | 4 | 4 | 5 | 6 | PLATO ACT5 is ISRCTN-only with no results and no publication by registry id |
+| Lung | 0 (IMpower010 already existed as nct02486718; gained its alias, status and registry outcomes) | 1 | 0 (paper existed) | 0 (row already linked) | JCOG0802 is registered with UMIN only |
+| Colorectal (Lynch syndrome) | 1 | 1 | 1 | 1 | CAPP2 is ISRCTN-only and written from its Lancet 2020 report |
+| Head and neck (nasopharyngeal) | 1 | 1 | 1 | 1 | none |
+| Ovarian | 1 | 1 | 1 | 2 | none |
+| Endometrial | 1 | 0 | 0 | 1 | RAINBO is recruiting and states its design only |
+| Myeloma | 1 | 0 | 0 | 1 | DRAMMATIC is active with no results and states its design only |
+| Rare cancers (PPGL, penile, testicular, adrenocortical, trophoblastic, small bowel) | 7 | 4 | 4 | 13 | InPACT, ADIUVO-2 and BALLAD have no results and state their design; GROINSS-V I, REMORA and BEST4 skipped (no ClinicalTrials.gov record, see the wave file header) |
+
+After this run the acronym measure reports 33 tokens, all in the wave file SKIP list: UMIN- or ISRCTN-only trials without results (REGATTA, JCOG0912, JCOG0802, CREATE-X, PLATO ACT5, BEST4, REMORA, GROINSS-V I), the ISG-STS 1001 and HERIZON-GEA-01 records that the tokeniser splits ("STS 1001", "GEA-01"), and genes, regimens, assays and doses that are not trials. `scripts/content-gaps.ts` now treats the programme stem before a hyphen (HERIZON, PREOPANC, CLARITY, OptimICE, CONTINUATION) as a known trial name.
 
 Structured outcomes were also added in place to 8 of the 75 hand-written trials without them (ARANOTE, CheckMate 915, PACIFIC-2, INTELLANCE-1, ATEMPT, ASPEN, DESTINY-Gastric02, AREN0532), each quoting the ClinicalTrials.gov results section; the remaining 67 are recruiting or active trials with no results posted, platform or observational studies, or trials whose registry entry carries no results section (VERONA, TAM-01, CODEL, DART, IMPRESS, GBM AGILE).
 

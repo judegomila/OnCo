@@ -195,7 +195,7 @@ const entities: EntityInput[] = [
   },
 
   {
-    id: "extent-of-resection", kind: "term", name: "Extent of resection (RANO resect classes)", category: "Clinical", asOf: asOfChecked,
+    id: "extent-of-resection", wikipediaChecked: "2026-09-22", kind: "term", name: "Extent of resection (RANO resect classes)", category: "Clinical", asOf: asOfChecked,
     tldr: "How much of a brain tumour the surgeon removes, measured on an MRI scan soon after the operation. In glioblastoma, the less tumour left behind, the longer patients tend to live, provided the surgery does not cause new disability.",
     summary: "Extent of resection is measured volumetrically on early postoperative MRI as the share of tumour removed or, better, as residual volume. In glioblastoma the evidence is observational but consistent: a survival advantage appears from about 78% resection of contrast-enhancing tumour and increases stepwise up to 95-100% (Sanai 2011, n=500); a meta-analysis of 37 studies and 41,117 patients found lower 1-year mortality with gross total than subtotal resection (RR 0.62) and with any resection than biopsy (RR 0.77), on moderate-to-low quality evidence (Brown 2016). The only randomised evidence is indirect: 5-ALA fluorescence raised complete resection of enhancing tumour from 36% to 65% and 6-month progression-free survival from 21.1% to 41.0% (Stummer 2006). Removing non-enhancing tumour as well is associated with longer survival: younger patients with IDH-wild-type glioblastoma whose enhancing and non-enhancing tumour were both aggressively resected had survival similar to patients with IDH-mutant tumours (median OS 37.3 months for that group), against 16.5 months when non-enhancing tumour was left (Molinaro 2020, n=761). The RANO resect group turned this into four prognostic classes for trials and reporting: class 1 supramaximal resection (no enhancing tumour and 5 cm3 or less of non-enhancing tumour left), class 2 maximal, class 3 submaximal resection of enhancing tumour, and class 4 biopsy (Karschnia 2023, n=1,008). Selection bias is inherent, since resectable tumours sit in safer locations in fitter patients, and no trial has randomised patients to more versus less resection; resection is pursued only as far as function allows, which is what awake mapping, intraoperative MRI and fluorescence guidance are for.",
     cancers: ["glioblastoma"], technologies: ["fluorescence-guided-surgery", "mri"],
@@ -305,7 +305,3 @@ const spike: Spike = {
 };
 
 export default spike;
-
-// NO_ARTICLE: terms checked against English Wikipedia on 2026-09-18 with no article about the same concept.
-// A later Wikipedia-linking pass can skip these ids.
-//   extent-of-resection

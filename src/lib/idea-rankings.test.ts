@@ -6,7 +6,7 @@ import { IDEA_PICKS } from "@/data/idea-picks";
 import { EN } from "@/lib/i18n/ui";
 import IdeaRankingsPage from "@/app/ideas/rankings/page";
 import { graph } from "./graph";
-import { combinedRank, rankAll, rankView, scoreParts, VIEW_IDS, VIEWS, viewScore, type ScoreParts } from "./idea-rankings";
+import { combinedRank, RANK_PAGE, rankAll, rankView, scoreParts, VIEW_IDS, VIEWS, viewScore, type ScoreParts } from "./idea-rankings";
 
 const base: Pick<ScoreParts, "burden" | "breadth" | "evidence" | "costRank" | "horizon" | "maturityRank"> = { burden: 1_000_000, breadth: 2, evidence: 1, costRank: 2, horizon: 5, maturityRank: 2 };
 
@@ -119,11 +119,14 @@ describe("/ideas/rankings/ page", () => {
   const router: AppRouterInstance = { push: vi.fn(), replace: vi.fn(), prefetch: vi.fn(), back: vi.fn(), forward: vi.fn(), refresh: vi.fn(), bfcacheId: "static" };
   const html = renderToStaticMarkup(createElement(AppRouterContext.Provider, { value: router }, createElement(IdeaRankingsPage)));
 
-  it("renders the default view with 50 ranked ideas and their links", () => {
+  it("renders the first page of the default view with its links, and the top of every other view", () => {
     expect(html).toContain("Best bang for buck");
     expect(html).toContain("Idea rankings");
-    const top = rankView("bang-for-buck", 50).rows;
-    expect(top).toHaveLength(50);
+    const top = rankView("bang-for-buck", RANK_PAGE).rows;
+    expect(top).toHaveLength(RANK_PAGE);
+    // The other views are on the page too (hidden until picked), so a deep link and a crawler both find them.
+    for (const v of ["most-important", "hardest", "closest-to-reality", "cherry-picked"]) expect(html).toContain(`id="h-${v}"`);
+    expect(html).toContain("Why it is picked");
     // next/link drops the trailing slash when rendered outside a Next build; the export adds it back.
     const href = (route: string) => new RegExp(`href="${route.replace(/\/$/, "")}/?"`);
     for (const r of top.slice(0, 5)) {

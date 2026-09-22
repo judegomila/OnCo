@@ -81,8 +81,11 @@ describe("heavy pages page their sections", () => {
     expect(html).not.toContain("In plain words</div>");
     expect(html).not.toContain("Numbers are from the trial as recorded here");
     // 14.2 MB of HTML before; 981 KB of markup when written. The rows are a client component's props, so the hydration
-    // payload adds compact JSON rather than a second copy of this tree.
-    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(1100 * KB);
+    // payload adds compact JSON rather than a second copy of this tree. Every trial heading appears once, so the page
+    // grows with the corpus: 981 KB at 3,527 trials, 1,135 KB after the standard-of-care and registry waves of
+    // 22 Sept 2026 (about 70 trials and 270 outcome rows more). The budget leaves room for one more such wave;
+    // beyond that the sections should page their rows like /explore/ rather than the budget rise again.
+    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(1300 * KB);
   });
 
   it("idea rankings renders the first page of every view plus the Show more sentinel", () => {

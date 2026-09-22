@@ -1,0 +1,60 @@
+src/data/coverage-uk.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 158
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 214,1006,1726,2038
+vercel.json
+  s_0beac9cb5d78fd::t_292b064d513cd8 321-345
+public/companies/cellectis-s-a/index.html
+  s_0beac9cb5d78fd::t_292b064d513cd8 1
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 203,312
+public/companies/inxmed-shanghai/index.html
+  s_0beac9cb5d78fd::t_292b064d513cd8 1
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 138,146
+src/data/sponsor-aliases.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 208,248,278
+src/data/companies-sponsors.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 486,489
+public/companies/valius-sciences/index.html
+  s_0beac9cb5d78fd::t_292b064d513cd8 1
+public/drugs/nogapendekin-alfa-inbakicept/index.html
+  s_0beac9cb5d78fd::t_292b064d513cd8 1
+src/data/companies-startups.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 486-487,494
+src/data/manufacturing-wave.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 202,205
+src/data/pipeline-trials-wave2.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 113
+public/companies/orca-biosystems/index.html
+  s_0beac9cb5d78fd::t_292b064d513cd8 1
+src/data/bladder-subtypes.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 26,34
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 403
+  s_0beac9cb5d78fd::t_725f3d8b903670 407
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 594
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 109,1775,3685,4937,5501,8273
+public/logos/index.json
+  s_0beac9cb5d78fd::t_292b064d513cd8 1
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_292b064d513cd8 59,1451
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "25c09a74943a1e6987518f49bbbac4320772b47a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

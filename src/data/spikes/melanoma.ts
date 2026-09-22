@@ -208,7 +208,7 @@ const drugs: DrugInput[] = [
     mechanismSteps: ["The TCR arm binds PRAME peptide displayed on HLA-A*02:01 on the tumour cell", "The CD3 arm engages any nearby T cell", "An artificial immune synapse forms and the T cell releases perforin and granzymes", "Interferon-gamma release upregulates PD-L1, the rationale for pairing with nivolumab"],
     dosing: { route: "Intravenous", schedule: "Weekly with step-up dosing to 160 µg", monitoring: "Cytokine release syndrome during the first doses; rash", source: "https://clinicaltrials.gov/study/NCT06112314" },
     regulatoryEvents: [{ date: "2024", type: "designation", region: "US", note: "Phase 3 PRISM-MEL-301 initiated after FDA alignment on design" }],
-    targets: ["prame", "cd3"], technologies: ["t-cell-engager"], companies: ["immunocore"], cancers: ["melanoma", "ovarian", "nsclc"], trials: ["prism-mel-301", "nct04262466"], drugs: ["tebentafusp"],
+    targets: ["prame", "cd3", "hla-a"], technologies: ["t-cell-engager"], companies: ["immunocore"], cancers: ["melanoma", "ovarian", "nsclc"], trials: ["prism-mel-301", "nct04262466"], drugs: ["tebentafusp"],
     links: [{ label: "Immunocore ASCO 2026 data", url: "https://www.globenewswire.com/news-release/2026/05/31/3303917/0/en/immunocore-presents-updated-phase-1-data-of-brenetafusp-in-patients-with-heavily-pretreated-advanced-melanoma.html" }] }),
   d({ id: "fianlimab", name: "Fianlimab", code: "REGN3767", modality: "Monoclonal antibody (anti-LAG-3)", status: "phase-3",
     tldr: "Fianlimab is Regeneron's LAG-3 blocking antibody, paired with the PD-1 blocker cemiplimab. A 60% phase 1 response rate in untreated melanoma prompted phase 3 trials, but the metastatic trial against pembrolizumab missed its progression endpoint in 2026.",

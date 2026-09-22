@@ -165,7 +165,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   pluvicto: { US: A(2022), EU: A(2022, epar("pluvicto"), "mCRPC post-ARPI and taxane; pre-chemo 2025"), UK: A(2023, mhra("Pluvicto")), JP: A(2025, PMDA, "PSMA+ mCRPC (Mar 2025)"), CN: UR("NMPA review; Novartis China"), AU: A(2023, tga("Pluvicto")) },
   lutathera: { US: A(2018), EU: A(2017, epar("lutathera"), "First approval globally (Sep 2017)"), UK: A(2018, mhra("Lutathera")), JP: A(2021, PMDA), CN: A(2024, NMPA), AU: A(2018, tga("Lutathera")) },
   "radium-223": global("Xofigo", "xofigo", 2013, 2013, 2013, 2016, 2020, 2014),
-  pylarify: { US: A(2021), EU: A(2023, epar("pylclari"), "EU brand Pylclari (Curium)"), UK: A(2023, mhra("Pylclari")) },
+  pylarify: { US: A(2021), EU: V(A(2023, epar("pylclari"), "EU brand Pylclari (Curium PET France); PSMA PET in prostate cancer; 27 Nov 2023")), UK: A(2023, mhra("Pylclari")) },
   "ga68-psma-11": { US: A(2020, undefined, "UCSF/UCLA Ga-68 PSMA-11 Dec 2020; Illuccix, Locametz 2021-22"), EU: A(2022, epar("locametz")), UK: A(2022, mhra("Locametz")), JP: A(2025, PMDA, "Locametz kit (gozetotide), PSMA PET to select patients for PSMA-targeted therapy; 19 Sep 2025"), AU: A(2021, tga("Illuccix"), "Illuccix (Telix), Nov 2021") },
   flotufolastat: { US: A(2023), EU: UR("MAA (Blue Earth Diagnostics)") },
   "radioactive-iodine": global("Sodium iodide I-131", "sodium-iodide-131", 1951, 1990, 1990, 1990, 1990, 1990, "Legacy product; national approvals predate modern registers"),
@@ -187,7 +187,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   aumolertinib: { US: NF("No NDA"), EU: A(2026, epar("aumseqa"), "Aumseqa: first-line EGFR exon 19 deletion or L858R advanced NSCLC, and T790M-positive NSCLC; February 2026"), CN: A(2020, NMPA, "T790M 2L Mar 2020; 1L EGFR-mutant Dec 2021") },
   icotinib: { US: NF(), CN: A(2011, NMPA, "First China-invented targeted cancer drug; 2L NSCLC 2011, 1L 2014, adjuvant 2021") },
   savolitinib: { US: NF("Global SAFFRON phase 3 with osimertinib ongoing"), EU: NF(), CN: A(2021, NMPA, "MET exon 14 NSCLC (conditional Jun 2021); with osimertinib 2025") },
-  anlotinib: { US: NF(), CN: A(2018, NMPA, "3L NSCLC May 2018; sarcoma and SCLC 2019; MTC 2020") },
+  anlotinib: { US: NF(), EU: R(2026, "CHMP negative opinion 23 Jul 2026 on Qezzaqar (catequentinib; applicant CATS Consultants) for synovial sarcoma and leiomyosarcoma"), CN: A(2018, NMPA, "3L NSCLC May 2018; sarcoma and SCLC 2019; MTC 2020") },
   rivoceranib: { US: UR("With camrelizumab, 1L HCC: three CRLs (2024, 2025, 2026)"), CN: A(2014, NMPA, "3L gastric Oct 2014 (as apatinib); HCC 2L 2020; 1L HCC with camrelizumab 2023") },
   donafenib: { US: NF(), CN: A(2021, NMPA, "1L HCC Jun 2021; RAI-refractory thyroid 2022") },
   dalpiciclib: { US: NF(), CN: A(2021, NMPA, "HR+/HER2- ABC with fulvestrant Dec 2021; 1L with AI 2023") },
@@ -542,6 +542,14 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "samarium-153-lexidronam": { EU: A(1998, epar("quadramet")) },
   "ibandronic-acid": { EU: A(1996, epar("bondronat")) },
   toremifene: { EU: A(1996, epar("fareston")) },
+  // EMA register wave 5 (drugs-ema-wave.ts), dates read from the EPAR pages on 22 Sep 2026.
+  crisantaspase: { EU: V(A(2023, epar("enrylaze"), "ALL and lymphoblastic lymphoma after hypersensitivity or silent inactivation to E. coli asparaginase; 15 Sep 2023 (Jazz)")) },
+  burosumab: { EU: V(A(2018, epar("crysvita"), "X-linked hypophosphataemia; FGF23-related hypophosphataemia in tumour-induced osteomalacia; 19 Feb 2018 (Kyowa Kirin)")) },
+  "epoetin-theta": { EU: V(A(2009, epar("biopoin"), "Symptomatic anaemia in adult cancer patients with non-myeloid malignancies on chemotherapy; Biopoin 23 Oct 2009 (Teva), Eporatio 29 Oct 2009 (Ratiopharm)")) },
+  "human-normal-immunoglobulin": { EU: V(A(2006, epar("kiovig"), "Replacement therapy in hypogammaglobulinaemia with recurrent infections in CLL and plateau-phase myeloma; Kiovig 19 Jan 2006 (Takeda), Privigen 24 Apr 2008 (CSL Behring)")) },
+  fentanyl: { EU: V(A(2008, epar("effentora"), "Breakthrough pain in adults on maintenance opioids for chronic cancer pain; Effentora 4 Apr 2008, Instanyl 20 Jul 2009, PecFent 31 Aug 2010")) },
+  resminostat: { EU: R(2025, "CHMP negative opinion 22 May 2025 on Kinselby (4SC) for advanced mycosis fungoides and Sézary syndrome") },
+  tacquell: { EU: R(2026, "CHMP negative opinion 25 Jun 2026 on Tacquell (autologous TIL; applicant Netherlands Cancer Institute) for melanoma") },
 };
 
 /** Convenience: which regions have an approval (approved or conditional). */

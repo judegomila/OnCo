@@ -101,7 +101,7 @@ const raw: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov NCT03125902", url: "https://clinicaltrials.gov/study/NCT03125902" }, { label: "Annals of Oncology 2021", url: "https://www.annalsofoncology.org/article/S0923-7534(21)02073-7/fulltext" }],
   },
   {
-    id: "epacadostat", kind: "drug", name: "Epacadostat", code: "INCB024360", modality: "Small molecule (IDO1 inhibitor)", asOf, status: "negative", wikipedia: W("Epacadostat"),
+    id: "epacadostat", targets: ["ido1"], kind: "drug", name: "Epacadostat", code: "INCB024360", modality: "Small molecule (IDO1 inhibitor)", asOf, status: "negative", wikipedia: W("Epacadostat"),
     tldr: "An enzyme blocker meant to stop tumours starving T cells of tryptophan. Its 2018 phase 3 failure ended an entire class overnight.",
     summary: "IDO1 degrades tryptophan to kynurenine, suppressing T cells. Epacadostat plus pembrolizumab produced ~55% response rates in a phase 1/2 melanoma cohort. ECHO-301/KEYNOTE-252 (n=706, first-line melanoma) showed no PFS or OS difference (2018). Incyte, Merck, BMS, and others halted more than a dozen IDO1 trials within weeks; the drug may never have achieved adequate pathway inhibition in tumours.\n\nLesson: pharmacodynamic proof of target engagement in the tumour should precede phase 3; a large uncontrolled response rate on a pembrolizumab backbone in melanoma is not evidence of added benefit.",
     mechanism: "Selective, reversible IDO1 enzyme inhibitor.",

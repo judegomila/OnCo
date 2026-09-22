@@ -73,6 +73,9 @@ import { journalsWave2 } from "./journals-wave2";
 import { companiesSponsors } from "./companies-sponsors";
 import { companiesSponsorsWave3 } from "./companies-sponsors-wave3";
 import { companiesMakersWave4 } from "./companies-makers-wave4";
+import { targetsWaveSoc } from "./targets-wave-soc";
+import { drugsEmaWave } from "./drugs-ema-wave";
+import { companiesSponsorsWave } from "./companies-sponsors-wave";
 import { drugsPipelineWave1 } from "./drugs-pipeline-wave1";
 import { pipelineTrialsWave2 } from "./pipeline-trials-wave2";
 import { drugsPipelineWave2 } from "./drugs-pipeline-wave2";
@@ -204,6 +207,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...companiesSponsors,
   ...companiesSponsorsWave3,
   ...companiesMakersWave4,
+  ...targetsWaveSoc, ...drugsEmaWave, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
   ...pipelineTrialsWave2,
   ...drugsPipelineWave2, ...drugsPipelineWave6, ...drugsPipelineWave7, ...drugsChinaWave1, pvCancer, ...pvTrials, ...pvTerms, ...pvIdeas, ...pdacDrugs, ...pdacTrials, ...pdacCompanies, ...drugsSubtypesWave, ...diagnosticsTechnologies1, ...diagnosticsCompanies1, ...diagnosticsTechnologies2, ...diagnosticsCompanies2, ...ispyTrials, ...ispyCompanies, etCancer, ...etTrials, aspirinDrug, ...radiationTechnologies, ...radiationTerms, ...radiationTrials, ...cancerSubtypes, ...radiationDrugs, ...radiationCompanies, ...cancerParentsWave2, ...radiationTrials4, ...radiationTermsWave5, ...radiationTrialsWave5, ...thyroidSubtypes, ...headNeckSubtypes, ...ovarianSubtypes, ...kidneySubtypes, ...testisOesophagusSubtypes, ...bladderSubtypes, ...sarcomaLymphomaSubtypes, ...modelTechnologies, ...machineTechnologies, ...machineCompanies, ...manufacturingTechnologies, ...manufacturingCompanies, theoryHub, ...theoryTerms, ...platformTerms, ...platformTrials, ...prostateSubtypes, ...cnsSubtypes, ...machineTechnologies2, ...machineCompanies2, ...colorectalLymphomaSubtypes, ...colorectalLymphomaTrials, ...upperGiLiverSubtypes, ...bloodSubtypes, ...gynaecologicalSubtypes, ...skinSubtypes, ...skinTrials, ...lungSubtypes, ...lungSubtypeTrials, ...breastSubtypes, ...breastSubtypeTrials, ...sarcomaBoneSubtypes, ...sarcomaBoneTrials, ...paediatricSubtypes, ...neuroendocrineSubtypes, ...rareSubtypes, ...pancreaticSubtypes, ...headNeckHpvSubtypes, ...headNeckHpvTrials, ...trialsSubtypesWave,

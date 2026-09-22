@@ -714,7 +714,7 @@ export const targets: TargetInput[] = [
     ], pathways: ["menin-kmt2a"], links: [{ label: "Wikipedia", url: W("Menin") }],
   },
   {
-    id: "ezh2", drugs: ["xnw5004"], kind: "target", name: "EZH2", symbol: "EZH2", hgnc: "HGNC:3527", ensembl: "ENSG00000106462", uniprot: "Q15910", entrez: "2146", targetClass: "enzyme", asOf, wikipedia: W("EZH2"), links: [{ label: "FDA alert: Tazverik withdrawal (March 2026)", url: "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerts-health-care-providers-and-patients-about-increased-risk-new-blood-cancers-tazverik" }],
+    id: "ezh2", drugs: ["xnw5004"], kind: "target", name: "EZH2", aka: ["PRC2"], symbol: "EZH2", hgnc: "HGNC:3527", ensembl: "ENSG00000106462", uniprot: "Q15910", entrez: "2146", targetClass: "enzyme", asOf, wikipedia: W("EZH2"), links: [{ label: "FDA alert: Tazverik withdrawal (March 2026)", url: "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerts-health-care-providers-and-patients-about-increased-risk-new-blood-cancers-tazverik" }],
     tldr: "EZH2 is an enzyme that silences genes. The first drug against it treated a rare sarcoma and some lymphomas until it was withdrawn in 2026 for causing second blood cancers.",
     summary: "Tazemetostat was approved in epithelioid sarcoma (2020) and EZH2-mutant follicular lymphoma, but Ipsen withdrew it from all markets and indications on 9 March 2026 after the SYMPHONY-1 trial showed excess secondary haematologic malignancies (FDA alert March 2026). EZH2 inhibition continues to be explored (mevrometostat in prostate cancer; SCLC re-sensitisation), now under a safety cloud.",
     biology: "Catalytic subunit of PRC2, writes H3K27me3.",

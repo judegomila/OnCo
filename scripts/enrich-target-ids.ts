@@ -40,6 +40,7 @@ const UA = "OnCo corpus enrichment (https://onco.world; contact via site)";
 const FILES = [
   "src/data/targets.ts",
   "src/data/targets-wave1.ts",
+  "src/data/targets-wave-soc.ts",
   "src/data/gap-fill.ts",
   "src/data/spikes/aml.ts",
   "src/data/spikes/hodgkin-lymphoma.ts",

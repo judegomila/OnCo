@@ -31,6 +31,7 @@ import { keyPapers } from "./key-papers";
 import { papersSubtypesWave } from "./papers-subtypes-wave";
 import { papersRareWave } from "./papers-rare-wave";
 import { papersPancreaticWave } from "./papers-pancreatic-wave";
+import { papersWatch202609 } from "./papers-watch-2026-09";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
@@ -160,6 +161,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...radiationPapersWave5,
   ...papersRareWave,
   ...papersPancreaticWave,
+  ...papersWatch202609,
   ...nutrition,
   ...adcChemistry,
   ...journals,

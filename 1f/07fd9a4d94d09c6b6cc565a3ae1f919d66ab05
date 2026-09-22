@@ -1,0 +1,31 @@
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_e4ce69888f8301 14-16
+src/lib/github-stars.json
+  s_0beac9cb5d78fd::t_e4ce69888f8301 1
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_e4ce69888f8301 1
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_e4ce69888f8301 16-17
+public/freshness.json
+  s_0beac9cb5d78fd::t_e4ce69888f8301 1
+public/newsletter/2026-09-22/index.html
+  s_0beac9cb5d78fd::t_e4ce69888f8301 2,9-10
+public/newsletter/2026-09-22.json
+  s_0beac9cb5d78fd::t_e4ce69888f8301 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1f07fd9a4d94d09c6b6cc565a3ae1f919d66ab05",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

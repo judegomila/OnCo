@@ -75,6 +75,18 @@ Wave 5 (products, targets, sponsors) ran on 22 September 2026 by hand from the `
 
 The orphan floor was lowered from 205 to 201. The 197 drugs and 426 technologies without a trial (the ClinicalTrials.gov half of wave 5) were not attempted.
 
+Wave 3 (the trials behind standard of care) started on 22 September 2026 in `src/data/trials-soc-wave.ts` and `src/data/papers-soc-wave.ts`, with `scripts/soc-trial-refs.ts` turning each row's prose citation into a `refs` link. Registry records from ClinicalTrials.gov v2 (acronym field, study id or official title must match), outcomes from the registry results section or the primary publication on Europe PMC by NCT id; acronyms that are not trials or already have a record are listed in the wave file's SKIP comment.
+
+| Family | Trials written | With structured outcomes | Papers added | Standard-of-care rows linked | Skipped |
+|---|---:|---:|---:|---:|---|
+| Leukaemia (incl. MDS, MPN, mastocytosis) | 18 | 15 | 12 | 21 | none; AALL1521, IntReALL SR 2010 and IMpactMF have no published result and carry no outcomes |
+| Brain and CNS (incl. primary CNS lymphoma, NF2) | 10 | 8 | 8 | 12 | none; SJMB12 and ACNS1422 are still running and carry no outcomes |
+| Childhood (neuroblastoma, Ewing, hepatoblastoma, germ cell, Hodgkin) | 9 | 7 | 6 | 11 | none; AGCT1531 is recruiting and EuroNet-PHL-C2 has no published result, so both carry no outcomes |
+| Non-Hodgkin lymphoma (follicular, mantle cell, HIV-associated, PTLD) | 7 | 7 | 7 | 9 | none |
+| Gastric, pancreatic, sarcoma, anal | 0 | 0 | 0 | 0 | not reached in this run; acronyms resolved so far are in the SKIP comment of the wave file |
+
+Structured outcomes were also added in place to 8 of the 75 hand-written trials without them (ARANOTE, CheckMate 915, PACIFIC-2, INTELLANCE-1, ATEMPT, ASPEN, DESTINY-Gastric02, AREN0532), each quoting the ClinicalTrials.gov results section; the remaining 67 are recruiting or active trials with no results posted, platform or observational studies, or trials whose registry entry carries no results section (VERONA, TAM-01, CODEL, DART, IMPRESS, GBM AGILE).
+
 ## 2. Waves, in order of patient value
 
 Ordering uses GLOBOCAN 2022 new cases worldwide per cancer family (a parent with all its subtypes): lung 2,480,675; breast 2,296,840; colorectal 1,926,425; skin 1,566,255; prostate 1,467,854; gastric 968,784; head and neck 947,211; liver 866,136; thyroid 821,214; cervical 662,301; bladder 614,298; non-Hodgkin lymphoma 553,389; oesophageal 511,054; pancreatic 510,992; leukaemia 487,294; kidney 434,840; endometrial 420,368; ovarian 324,603; brain 321,731; myeloma 187,952. The per-family gap table in the script output says where each wave should start.

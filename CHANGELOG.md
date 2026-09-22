@@ -7,11 +7,13 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
+- A roadmap and timeline for circulating tumour DNA tests, from the 1948 discovery of cell-free DNA to the residual-disease and multi-cancer detection trials reading out next, with a watch list and a script that checks it against the registries
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
 
 ### 21 September 2026
+- PATHFINDER 2 status and ECLIPSE enrolment corrected against ClinicalTrials.gov, as flagged by the ctDNA watch script
 - ctDNA tests roadmap: ten eras from the 1948 sighting of DNA in plasma to the 2029 randomised readouts, a "What to watch" list with registry and meeting dates, six trials the corpus lacked (TRACC, MERMAID-1 and -2, BESPOKE, CIRCULATE-US, NCI Vanguard), a tumour-informed versus tumour-naive term, and npm run ctdna:watch to keep it current
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Every pancreatic subtype page now rests on two to four landmark papers: 26 new records (PRODIGE 24, ESPAC-4, PREOPANC, ESPAC5, Alliance A021501, LAP07, CodeBreaK 100 and KRYSTAL-1 pancreatic cohorts, POLO and its survival analysis, the BRCA/PALB2 platinum trial, KEYNOTE-158, the NRG1 fusion discovery and zenocutuzumab papers, Fukuoka, Kyoto and European cyst guidelines, and the acinar cell carcinoma and pancreatoblastoma reference series), each DOI checked on Europe PMC and doi.org, with Le 2017 reused for the MSI-high page and citation counts fetched

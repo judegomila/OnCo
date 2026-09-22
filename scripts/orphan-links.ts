@@ -158,9 +158,9 @@ export function cancerTrialSizes(edits: Edit[], top = 8): { before: Array<[strin
 // ---------------------------------------------------------------- source scanning
 
 /** mask[i] is true for characters inside strings, template literals or comments; depth[i] is the number of brackets strictly enclosing i; match[i] is the partner of a bracket. */
-type Scan = { mask: Uint8Array; depth: Int32Array; match: Int32Array };
+export type Scan = { mask: Uint8Array; depth: Int32Array; match: Int32Array };
 
-function scan(src: string): Scan {
+export function scan(src: string): Scan {
   const n = src.length;
   const mask = new Uint8Array(n);
   const depth = new Int32Array(n);
@@ -185,10 +185,10 @@ function scan(src: string): Scan {
   return { mask, depth, match };
 }
 
-type Prop = { key: string; start: number; end: number; vStart: number; vEnd: number; spread: boolean };
+export type Prop = { key: string; start: number; end: number; vStart: number; vEnd: number; spread: boolean };
 
 /** Top-level elements of the bracketed span starting at `open`, trimmed, parsed as `key: value` when they look like it. */
-function elements(src: string, s: Scan, open: number): Prop[] {
+export function elements(src: string, s: Scan, open: number): Prop[] {
   const close = s.match[open];
   const inner = s.depth[open] + 1;
   const out: Prop[] = [];
@@ -211,7 +211,7 @@ function elements(src: string, s: Scan, open: number): Prop[] {
   return out;
 }
 
-function stringLiteral(src: string, p: Prop | undefined): string | undefined {
+export function stringLiteral(src: string, p: Prop | undefined): string | undefined {
   if (!p) return undefined;
   const v = src.slice(p.vStart, p.vEnd);
   if (/^"(?:[^"\\]|\\.)*"$/.test(v)) { try { return JSON.parse(v) as string; } catch { return undefined; } }
@@ -219,7 +219,7 @@ function stringLiteral(src: string, p: Prop | undefined): string | undefined {
   return undefined;
 }
 
-function dataFiles(dir = DATA_DIR): string[] {
+export function dataFiles(dir = DATA_DIR): string[] {
   const out: string[] = [];
   for (const name of readdirSync(dir)) {
     const p = join(dir, name);
@@ -229,10 +229,10 @@ function dataFiles(dir = DATA_DIR): string[] {
   return out;
 }
 
-type Located = { file: string; open: number; props: Prop[] };
+export type Located = { file: string; open: number; props: Prop[] };
 
 /** Every object literal in the corpus whose `id` and `name` literals match the record (and whose `kind`, when written, matches). */
-function locate(files: string[], texts: Map<string, string>, scans: Map<string, Scan>, id: string, kind: string, name: string): Located[] {
+export function locate(files: string[], texts: Map<string, string>, scans: Map<string, Scan>, id: string, kind: string, name: string): Located[] {
   const found: Located[] = [];
   const re = new RegExp(`\\bid:\\s*"${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"`, "g");
   for (const file of files) {
@@ -261,7 +261,7 @@ function locate(files: string[], texts: Map<string, string>, scans: Map<string, 
 }
 
 /** Insert `"add"` into the array literal spanning [vStart, vEnd). Returns the replacement text. */
-function appendToArray(src: string, vStart: number, vEnd: number, add: string): string | undefined {
+export function appendToArray(src: string, vStart: number, vEnd: number, add: string): string | undefined {
   if (src[vStart] !== "[" || src[vEnd - 1] !== "]") return undefined;
   const inner = src.slice(vStart + 1, vEnd - 1);
   if (inner.trim() === "") return `["${add}"]`;

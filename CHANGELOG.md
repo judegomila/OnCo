@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
-- Trial statuses follow the registry with dated notes, iobenguane records merged
+- Paper pages for 736 cited DOIs, 1,381 bare references now link to them
 - Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working
 - A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
 - Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
@@ -19,8 +19,16 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
+- Wave 7 batch 4: the last 155 paper pages for cited DOIs, 736 in all, 1,161 citing records linked; Progress row
+- fetch-cited-papers: a preprint is "posted on bioRxiv", not "published in bioRxiv (preprint)"
+- Trial statuses follow the registry with dated notes, iobenguane records merged
+- Wave 7 batch 3: 194 more paper pages for cited DOIs, 581 in all, 1,042 citing records linked; intismeran autogene gains its aliases
+- Wave 7 batch 2: 192 more paper pages for cited DOIs, 387 in all, 905 citing records linked
+- Wave 7 batch 1: 195 paper pages for the most-cited DOIs without one, 785 citing records linked
+- fetch-cited-papers: name citing pages by kind and count only, no year in TL;DR or id
 - Registry status data: 13 trial status changes from 3,542 ClinicalTrials.gov records (active -> completed 5, active -> recruiting 3, recruiting -> active 2, completed -> withdrawn 2, active -> withdrawn 1) with dated notes and why-stopped text; iobenguane-i-131 (Azedra) merged into i131-mibg with its approval, brand, aliases, links and a redirect stub
 - Registry status pass: scripts/fetch-registry-status.ts reads overallStatus, whyStopped and the registry dates for every trial with an NCT id and writes src/data/trial-registry-status.ts, applied in src/data/index.ts through applyRegistryStatus with a dated note; result statuses kept, hand-written statuses newer than the registry never downgraded; iobenguane-i-131 listed as a duplicate of i131-mibg in dedupe MERGES
+- Wave 7 fetcher for cited DOIs: scripts/fetch-cited-papers.ts writes a paper page per DOI a record cites without one
 - Explained page pages its sections, four duplicate companies and one duplicate drug merged with redirects
 - Page /explained/ sections at 10 rows: 1,135 KB to 561 KB of markup, budget lowered to 600 KB
 - LAUNCH: content waves through chain 100

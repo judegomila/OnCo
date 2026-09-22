@@ -22,9 +22,12 @@
  * rejected go into SKIP with the reason, and are never retried.
  *
  * The link is inserted into the term's source file right after its `id` field (the same helper the enrich scripts
- * use); records whose id text appears more than once fall back to the line that also carries `name:`. Decisions
- * go to --out (default /tmp/fetch-term-wikipedia.json). Usage:
- *   npx tsx scripts/fetch-term-wikipedia.ts [--dry-run] [--only=id,id] [--out=/tmp/fetch-term-wikipedia.json]
+ * use); records whose id text appears more than once fall back to the line that also carries `name:`, and linker
+ * terms, whose id line is a registry row in payloads.ts, get the field in their LINKER_TEXT entry in adc-chemistry.ts.
+ * Terms in SKIP that carry neither `wikipedia` nor `wikipediaChecked` get `wikipediaChecked: <--date, default today>`,
+ * the "looked up, no article exists" state the term-wikipedia gauge counts as explained and the term page shows as
+ * "No Wikipedia article". Decisions go to --out (default /tmp/fetch-term-wikipedia.json). Usage:
+ *   npx tsx scripts/fetch-term-wikipedia.ts [--dry-run] [--only=id,id] [--date=YYYY-MM-DD] [--out=/tmp/fetch-term-wikipedia.json]
  *   npx tsx scripts/fetch-term-wikipedia.ts --gauge      # print the term-wikipedia gauge and exit
  */
 import { createHash } from "node:crypto";
@@ -39,6 +42,9 @@ const DRY = args.includes("--dry-run");
 const str = (flag: string, d: string) => { const a = args.find((x) => x.startsWith(`--${flag}=`)); return a ? a.slice(flag.length + 3) : d; };
 const OUT = str("out", "/tmp/fetch-term-wikipedia.json");
 const ONLY = new Set(str("only", "").split(",").filter(Boolean));
+/** Date written to `wikipediaChecked` for SKIP terms; the day the absence was last confirmed. */
+const CHECKED = str("date", new Date().toISOString().slice(0, 10));
+if (!/^\d{4}-\d{2}-\d{2}$/.test(CHECKED)) throw new Error(`--date must be YYYY-MM-DD, got ${CHECKED}`);
 const CACHE = "/tmp/wikipedia-cache";
 const PACE_MS = 200;
 const UA = "OnCo glossary Wikipedia links (https://onco.world; contact via site)";
@@ -256,17 +262,31 @@ async function decide(t: Term): Promise<Decision> {
 // ---------- writing ----------
 const texts = new Map<string, string>();
 const fileText = (f: string) => { if (!texts.has(f)) texts.set(f, readFileSync(join(ROOT, f), "utf8")); return texts.get(f)!; };
-/** Insert a field right after the record's `id` in its source file; with several id lines, the one carrying `name:` wins. */
-function insertField(id: string, field: string, value: string): boolean {
+/**
+ * Insert a field right after the record's `id` in its source file. With several id lines (lookup tables repeat term
+ * ids), the one whose line carries the term's exact `name:` wins, then any line carrying `name:`.
+ */
+function insertField(id: string, field: string, value: string, name: string): boolean {
   const re = new RegExp(`\\bid: "${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}",`, "g");
   const hits: { file: string; index: number }[] = [];
   for (const f of FILES) for (const m of fileText(f).matchAll(re)) hits.push({ file: f, index: m.index! });
+  const line = (h: { file: string; index: number }) => { const src = fileText(h.file); const eol = src.indexOf("\n", h.index); return src.slice(h.index, eol < 0 ? undefined : eol); };
   let pick = hits;
-  if (pick.length > 1) pick = hits.filter((h) => { const src = fileText(h.file); const eol = src.indexOf("\n", h.index); return src.slice(h.index, eol < 0 ? undefined : eol).includes(" name: \""); });
+  if (pick.length > 1) pick = hits.filter((h) => line(h).includes(` name: ${JSON.stringify(name)},`));
+  if (pick.length !== 1 && hits.length > 1) pick = hits.filter((h) => line(h).includes(" name: \""));
   if (pick.length !== 1) { console.warn(`  ! ${id}: id text not unique (${hits.map((h) => h.file).join(", ") || "none"})`); return false; }
-  const { file, index } = pick[0];
+  let { file, index } = pick[0];
+  let re2 = re;
+  if (file === "src/data/payloads.ts") {
+    // A linker or payload registry row, not a term record: the term fields live in the text maps in adc-chemistry.ts.
+    file = "src/data/adc-chemistry.ts";
+    re2 = new RegExp(`^  "?${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"?: \\{`, "gm");
+    const m = [...fileText(file).matchAll(re2)];
+    if (m.length !== 1) { console.warn(`  ! ${id}: no single text entry in ${file}`); return false; }
+    index = m[0].index!;
+  }
   const src = fileText(file);
-  const end = index + src.slice(index).match(re)![0].length;
+  const end = index + src.slice(index).match(re2)![0].length;
   texts.set(file, `${src.slice(0, end)} ${field}: "${value}",${src.slice(end)}`);
   if (!DRY) writeFileSync(join(ROOT, file), texts.get(file)!);
   return true;
@@ -276,23 +296,31 @@ async function main() {
   const g = graph();
   const terms = g.kind("term") as Term[];
   if (args.includes("--gauge")) {
-    const withLink = terms.filter((t) => t.wikipedia).length;
-    console.log(`term-wikipedia: ${withLink} of ${terms.length} terms with a Wikipedia link`);
+    const linked = terms.filter((t) => t.wikipedia).length;
+    const absent = terms.filter((t) => !t.wikipedia && t.wikipediaChecked).length;
+    console.log(`term-wikipedia: ${linked + absent} of ${terms.length} explained (${linked} linked, ${absent} have no article, ${terms.length - linked - absent} not yet looked up)`);
     return;
   }
   const todo = terms.filter((t) => !t.wikipedia && (ONLY.size ? ONLY.has(t.id) : true));
   const decisions: Decision[] = [];
-  const counts = { added: 0, skip: 0, none: 0, rejected: 0, file: 0 };
+  const counts = { added: 0, skip: 0, checked: 0, none: 0, rejected: 0, file: 0 };
   for (const t of todo) {
-    if (SKIP[t.id] && !ONLY.size) { decisions.push({ id: t.id, name: t.name, status: "skip", note: SKIP[t.id] }); counts.skip++; continue; }
+    if (SKIP[t.id] && !ONLY.size) {
+      const d: Decision = { id: t.id, name: t.name, status: "skip", note: SKIP[t.id] };
+      if (!t.wikipediaChecked) {
+        if (insertField(t.id, "wikipediaChecked", CHECKED, t.name)) { counts.checked++; d.note = `wikipediaChecked: ${CHECKED}; ${d.note}`; console.log(`checked  ${t.id}: ${d.note}`); }
+        else { d.status = "file"; counts.file++; }
+      }
+      decisions.push(d); counts.skip++; continue;
+    }
     const d = await decide(t);
-    if (d.status === "added" && !insertField(t.id, "wikipedia", d.wikipedia!)) { d.status = "file"; }
+    if (d.status === "added" && !insertField(t.id, "wikipedia", d.wikipedia!, t.name)) { d.status = "file"; }
     counts[d.status]++;
     decisions.push(d);
     console.log(`${d.status.padEnd(8)} ${t.id}: ${d.note}`);
   }
   writeFileSync(OUT, JSON.stringify({ ranAt: new Date().toISOString(), counts, decisions }, null, 2));
-  console.log(`\nterm-wikipedia: ${counts.added} added${DRY ? " (dry run, nothing written)" : ""}, ${counts.skip} in SKIP, ${counts.none} with no article, ${counts.rejected} rejected on sense, ${counts.file} not writable; log at ${OUT}`);
+  console.log(`\nterm-wikipedia: ${counts.added} added${DRY ? " (dry run, nothing written)" : ""}, ${counts.skip} in SKIP (${counts.checked} newly marked wikipediaChecked ${CHECKED}), ${counts.none} with no article, ${counts.rejected} rejected on sense, ${counts.file} not writable; log at ${OUT}`);
   const open = decisions.filter((d) => d.status === "none" || d.status === "rejected");
   if (open.length) {
     console.log("\nUnresolved (review, then add to SKIP with the reason):");

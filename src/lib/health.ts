@@ -57,7 +57,8 @@ export type HealthMetric = {
   code: string;
 };
 
-type CheckResult = { total: number; failing: Offender[] };
+/** `note`, when set, is appended to the metric label in parentheses: the two-number breakdown a single ratio hides. */
+type CheckResult = { total: number; failing: Offender[]; note?: string };
 export type MetricDef = {
   id: string;
   label: string;
@@ -209,10 +210,16 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g) => fails(g.kind("bottleneck"), (b) => { const n = (g.incoming(b.id).get("idea") ?? []).length; return n < MIN_IDEAS_PER_BOTTLENECK ? `${n} idea${n === 1 ? "" : "s"}` : null; }, (b) => -(g.incoming(b.id).get("idea") ?? []).length),
   },
   {
-    id: "term-wikipedia", label: "Terms with a Wikipedia link", kind: "term",
-    plain: "Glossary terms promise a Wikipedia link for readers who want the long version.",
-    action: "Set `wikipedia` on the term record to the matching article URL.",
-    check: (g) => fails(g.kind("term"), (t) => (t.wikipedia ? null : "no Wikipedia link")),
+    id: "term-wikipedia", label: "Terms with a Wikipedia link, or checked and found to have none", kind: "term",
+    plain: "Glossary terms promise a Wikipedia link for readers who want the long version; where Wikipedia has no article, the term says so rather than staying silent.",
+    action: "Set `wikipedia` on the term record to the matching article URL, or run scripts/fetch-term-wikipedia.ts, which writes `wikipediaChecked` when no article exists.",
+    check: (g) => {
+      const terms = g.kind("term");
+      const r = fails(terms, (t) => (t.wikipedia || t.wikipediaChecked ? null : "not yet looked up on Wikipedia"));
+      const linked = terms.filter((t) => t.wikipedia).length;
+      const absent = terms.filter((t) => !t.wikipedia && t.wikipediaChecked).length;
+      return { ...r, note: `${linked.toLocaleString("en-GB")} linked, ${absent.toLocaleString("en-GB")} have no article` };
+    },
   },
   {
     id: "stale", label: `Records checked in the last ${STALE_DAYS} days`,
@@ -322,11 +329,11 @@ export function health(now = new Date()): HealthMetric[] {
     citations: keysOf("citations/index.json", (j) => ((j as { papers?: Record<string, unknown> }).papers ?? {})),
   };
   cached = METRIC_DEFS.map((d) => {
-    const { total, failing } = d.check(g, ctx);
+    const { total, failing, note } = d.check(g, ctx);
     const value = total - failing.length;
     const pct = total === 0 ? 100 : Math.round((value / total) * 1000) / 10;
     const target = d.target ?? 95;
-    const base = { id: d.id, label: d.label, plain: d.plain, value, total, pct, target, met: pct >= target, kind: d.kind, worst: failing.slice(0, WORST_MAX), action: d.action, code: `${REPO}/blob/main/src/lib/health.ts` };
+    const base = { id: d.id, label: note ? `${d.label} (${note})` : d.label, plain: d.plain, value, total, pct, target, met: pct >= target, kind: d.kind, worst: failing.slice(0, WORST_MAX), action: d.action, code: `${REPO}/blob/main/src/lib/health.ts` };
     return { ...base, issueUrl: issueUrl(base) };
   });
   return cached;

@@ -45,6 +45,7 @@ import { trialsIdeasWave6 } from "./trials-ideas-wave6";
 import { papersIdeasWave6 } from "./papers-ideas-wave6";
 import { ideaLinksWave6 } from "./idea-links-wave6";
 import { companyDrugsWave6, trialCompaniesWave6 } from "./company-drugs-wave6";
+import { entityTrialLinksWave5, entityTrialsWave5, trialsEntitiesWave5 } from "./trials-entities-wave5";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
@@ -185,6 +186,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...papersPeopleWave6,
   ...papersIdeasWave6,
   ...trialsIdeasWave6,
+  ...trialsEntitiesWave5,
   ...nutrition,
   ...adcChemistry,
   ...journals,
@@ -248,6 +250,10 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((raw) => {
     if (trialKeyPapersWave1[t.id]) t = { ...t, keyPapers: [...(t.keyPapers ?? []), ...trialKeyPapersWave1[t.id].filter((id) => !(t.keyPapers ?? []).includes(id))] };
     // Sponsors verified through the ClinicalTrials.gov lead-sponsor field by scripts/fetch-company-drugs.ts (wave 6).
     if (trialCompaniesWave6[t.id]) t = { ...t, companies: [...(t.companies ?? []), ...trialCompaniesWave6[t.id].filter((id) => !(t.companies ?? []).includes(id))] };
+    // Drugs and technologies the registry's intervention list names, found by scripts/fetch-entity-trials.ts (wave 5) for
+    // records that had no trial; the trial record itself stays as written.
+    const ent = entityTrialLinksWave5[t.id];
+    if (ent) t = { ...t, drugs: [...(t.drugs ?? []), ...(ent.drugs ?? []).filter((id) => !(t.drugs ?? []).includes(id))], technologies: [...(t.technologies ?? []), ...(ent.technologies ?? []).filter((id) => !(t.technologies ?? []).includes(id))] };
     // Outcomes copied from the ClinicalTrials.gov results section by scripts/fetch-registry-outcomes.ts (wave 7), for
     // registry-ingested trials that carry none of their own; the ingested summary's "no results" sentence is replaced.
     const reg = TRIAL_REGISTRY_OUTCOMES[t.id];
@@ -261,6 +267,8 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((raw) => {
     if (st) t = applyRegistryStatus(t, st);
     return t;
   }
+  // Trials found for drugs and technologies that had none by scripts/fetch-entity-trials.ts (wave 5): the record's own `trials` array.
+  if ((e.kind === "drug" || e.kind === "technology") && entityTrialsWave5[e.id]) return { ...e, trials: [...(e.trials ?? []), ...entityTrialsWave5[e.id].filter((id) => !(e.trials ?? []).includes(id))] };
   // Drugs found for companies through the ClinicalTrials.gov lead-sponsor field by scripts/fetch-company-drugs.ts (wave 6).
   if (e.kind === "company" && companyDrugsWave6[e.id]) return { ...e, drugs: [...(e.drugs ?? []), ...companyDrugsWave6[e.id].filter((id) => !(e.drugs ?? []).includes(id))] };
   // Trials and key papers found for ideas by scripts/fetch-idea-evidence.ts (wave 6).

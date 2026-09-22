@@ -70,6 +70,7 @@ Wave 3 (the trials behind standard of care) started on 22 September 2026 in `src
 | Family | Trials written | With structured outcomes | Papers added | Standard-of-care rows linked | Skipped |
 |---|---:|---:|---:|---:|---|
 | Leukaemia (incl. MDS, MPN, mastocytosis) | 18 | 15 | 12 | 21 | none; AALL1521, IntReALL SR 2010 and IMpactMF have no published result and carry no outcomes |
+| Brain and CNS (incl. primary CNS lymphoma, NF2) | 10 | 8 | 8 | 12 | none; SJMB12 and ACNS1422 are still running and carry no outcomes |
 
 ## 2. Waves, in order of patient value
 

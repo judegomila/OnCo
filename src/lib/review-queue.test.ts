@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "./graph";
-import { KINDS } from "./schema";
+import { KINDS } from "./kinds";
 import { missingTracks, reviewCoverage, reviewIssueUrl, reviewQueue, reviewerLevel, reviewerRoster, tracksFor, translationCoverage, TRANSLATED_LANGS } from "./review-queue";
 import { issueUrl, suggestEditUrl, newDiscussionUrl } from "./issue-links";
 import { reviews } from "@/data/reviews";

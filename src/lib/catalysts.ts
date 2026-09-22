@@ -1,5 +1,6 @@
 import { graph } from "./graph";
-import { routeFor, type Entity } from "./schema";
+import { routeFor } from "./kinds";
+import { type Entity } from "./schema";
 import { periodEnd } from "./ics";
 import { catalysts, type CatalystKind } from "@/data/catalysts";
 import { calendar, type CalendarKind } from "@/data/calendar";

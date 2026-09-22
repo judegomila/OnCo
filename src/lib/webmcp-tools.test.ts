@@ -2,7 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { createWebMCPTools } from "./webmcp-tools";
 
 const { loadSearch, search } = vi.hoisted(() => ({ loadSearch: vi.fn(), search: vi.fn() }));
-vi.mock("@/components/SearchBox", () => ({ loadSearch }));
+vi.mock("@/lib/search-client", () => ({ loadSearch }));
 const [searchTool, entityTool] = createWebMCPTools();
 const fetchMock = vi.fn();
 beforeEach(() => {

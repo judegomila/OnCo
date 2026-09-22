@@ -1,5 +1,5 @@
-import type { Kind } from "./schema";
-import { KIND_META, routeFor } from "./schema";
+import type { Kind } from "./kinds";
+import { KIND_META, routeFor } from "./kinds";
 import { absoluteUrl } from "./seo";
 
 /**

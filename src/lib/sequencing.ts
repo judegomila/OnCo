@@ -1,5 +1,6 @@
 import { graph } from "./graph";
-import { routeFor, type Cancer, type Entity, type Pairing } from "./schema";
+import { routeFor } from "./kinds";
+import { type Cancer, type Entity, type Pairing } from "./schema";
 import { evidenceFor } from "./evidence";
 
 /**

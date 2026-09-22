@@ -4,7 +4,7 @@ import { sequencingIndex } from "./sequencing";
 import { existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "./graph";
-import { KIND_META, KINDS, routeFor } from "./schema";
+import { KIND_META, KINDS, routeFor } from "./kinds";
 import { NAV_GROUPS } from "./nav";
 import { digests } from "../data/digests";
 import { paths } from "../data/paths";

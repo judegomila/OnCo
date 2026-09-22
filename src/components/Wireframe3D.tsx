@@ -1,10 +1,25 @@
 "use client";
 
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { faceSegments, facing, fitScale, hexToRgb, sceneExtents, type Mesh, type Vec3 } from "@/lib/wireframe";
-import { ALL_ANIMATED } from "@/data/schematics";
 import { runFrameLoop, useAnimationBudget } from "@/lib/use-animation-budget";
 import { MotionHint } from "./MotionHint";
+
+type Builders = Record<string, () => Mesh>;
+let builders: Builders | null = null;
+let buildersLoading: Promise<Builders> | null = null;
+
+/**
+ * The animated process schematics (src/data/schematics.ts and the animated-wave files behind it, about 2 MB of
+ * source) are fetched the first time a mesh carrying an `anim` marker is drawn, not imported statically: this
+ * component is reached from the root layout's palette through the molecule thumbnails, so a static import put the
+ * whole set into every page's JavaScript. Until they arrive, the marker's static geometry is drawn as a still.
+ */
+function loadBuilders(): Promise<Builders> {
+  if (builders) return Promise.resolve(builders);
+  buildersLoading ??= import("@/data/schematics").then((m) => { builders = m.ALL_ANIMATED; buildersLoading = null; return builders; });
+  return buildersLoading;
+}
 
 /**
  * Slowly turning wireframe schematic on a canvas, in the same visual language as MoleculeViewer:
@@ -70,8 +85,18 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
   // Animation budget: pauses off screen and in a hidden tab, still under reduced motion, thumbnails share six slots,
   // low-budget devices draw a still frame until a tap (full size) or a hover.
   const gate = useAnimationBudget(ref, compact ? { pool: "schematic" } : { tapToPlay: true });
-  // Server components send a marker (`anim`) instead of the animation function; build the animated mesh here.
-  const mesh = useMemo(() => (given.anim && ALL_ANIMATED[given.anim] ? ALL_ANIMATED[given.anim]() : given), [given]);
+  // Server components send a marker (`anim`, with the static geometry) instead of the animation function; the
+  // builders are fetched on demand and the animated mesh built here. Meanwhile, and for plain meshes, `given` is drawn.
+  // Always starts as the still, even when the builders are cached, so hydration matches the server's markup.
+  const [animated, setAnimated] = useState<{ key: string; mesh: Mesh } | null>(null);
+  useEffect(() => {
+    const key = given.anim;
+    if (!key) return;
+    let live = true;
+    loadBuilders().then((b) => { if (live && b[key]) setAnimated({ key, mesh: b[key]() }); });
+    return () => { live = false; };
+  }, [given.anim]);
+  const mesh = given.anim && animated?.key === given.anim ? animated.mesh : given;
 
   useEffect(() => {
     const canvas = ref.current;

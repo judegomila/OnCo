@@ -1,6 +1,6 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 
 /**
  * Where does an entity live in the repository? Used to point maintainers at the record's line in issue bodies with a

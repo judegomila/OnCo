@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { readPublicJson } from "@/lib/feed-meta";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import { Sparkline } from "@/components/PapersPulse";
 
 /** Shape written by scripts/fetch-openalex-papers.ts (public/openalex/papers.json). */

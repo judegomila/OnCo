@@ -9,7 +9,7 @@
  * Pure and browser-safe. The retrieval step lives in the client component (it needs the search
  * indexes); this module turns retrieved records into an answer.
  */
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 import { fuseRanks, tokenize } from "./semantic";
 
 export type Passage = { text: string; field: string };

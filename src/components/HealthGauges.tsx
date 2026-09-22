@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { HealthMetric } from "@/lib/health";
-import { KIND_META } from "@/lib/schema";
+import { KIND_META } from "@/lib/kinds";
 
 const n = (x: number) => x.toLocaleString("en-GB");
 

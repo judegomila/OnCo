@@ -3,7 +3,8 @@ import { graph } from "@/lib/graph";
 import { logoSrc } from "@/lib/logos";
 import { portraitSrc } from "@/lib/portraits";
 import { rankInstitutions } from "@/lib/ranking";
-import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { routeFor, type Kind } from "@/lib/kinds";
+import { type Entity } from "@/lib/schema";
 import { COMPANY_TYPE_LABEL, portfolioOf, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf } from "@/lib/startups";
 import { termVisual, type TermVisual } from "@/lib/term-visual";
 

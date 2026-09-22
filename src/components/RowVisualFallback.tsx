@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Kind } from "@/lib/schema";
+import type { Kind } from "@/lib/kinds";
 import { KIND_COLOR } from "@/lib/text";
 import { KindIcon } from "./KindIcon";
 import { Tip } from "./Tip";

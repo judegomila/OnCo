@@ -1,4 +1,4 @@
-import { type Kind } from "./schema";
+import { type Kind } from "./kinds";
 import { biomarkers, type Biomarker } from "@/data/biomarkers";
 
 /**

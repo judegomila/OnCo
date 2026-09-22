@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { KIND_META, KINDS, type Kind } from "@/lib/schema";
+import { KIND_META, KINDS, type Kind } from "@/lib/kinds";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { complete, describe as describeGql, GqlError, parse, run as runGql, type GqlData, type GqlNode, type Query } from "@/lib/gql";
 import { FacetSelect } from "./filters/FacetSelect";

@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { KIND_META, type Kind } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/kinds";
 import { PERSONAL_WEIGHTS, personalSignals, scoreRow, WEIGHTS, type Personal, type PersonalSignals, type PowerRow, type Signals } from "@/lib/relevance";
 import { isProfileEmpty, useProfile } from "@/lib/profile";
 import { REGION_META, useRegion } from "@/lib/region";

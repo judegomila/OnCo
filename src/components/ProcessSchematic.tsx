@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Entity } from "@/lib/schema";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import type { Mesh } from "@/lib/wireframe";
 import { graph } from "@/lib/graph";
 import { ALL_ANIMATED, animatedFor, hasAnimation } from "@/data/schematics";

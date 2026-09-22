@@ -20,7 +20,7 @@
  * Runs over the same compact graph the form builder uses: nodes with kind, status, tags, TL;DR,
  * degree; undirected edges. Pure and browser-safe.
  */
-import { KIND_META, KINDS, type Kind } from "./schema";
+import { KIND_META, KINDS, type Kind } from "./kinds";
 
 export type GqlNode = { id: string; kind: Kind; name: string; route: string; status?: string; tags: string[]; tldr: string; degree: number };
 export type GqlData = { nodes: GqlNode[]; edges: Array<[number, number]> };

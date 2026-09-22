@@ -1,5 +1,5 @@
 import type { GraphData, GraphNode } from "./graph-export";
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 
 /**
  * Deterministic radial layout for the graph explorer (src/components/GraphExplorer.tsx). Pure maths, no DOM:

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { LANGS, useLayer, type Lang } from "@/lib/layer";
 import { dirFor, langNative, t, type UiKey } from "@/lib/i18n/ui";
+import { useLangDicts } from "@/lib/i18n/dict-store";
 
 const KEY = "onco.translate-offer.dismissed";
 
@@ -60,13 +61,14 @@ export function TranslateOffer() {
     return () => cancelAnimationFrame(id);
   }, []);
 
-  if (!env || env.dismissed) return null;
-  const offer = decideOffer(env.preferred, layer.lang, env.ua);
-  if (!offer) return null;
+  const offer = env && !env.dismissed ? decideOffer(env.preferred, layer.lang, env.ua) : null;
+  // The switch offer speaks the visitor's language; the translate hint is in the site language (English).
+  const lang: Lang = offer?.kind === "switch" ? offer.to : layer.lang;
+  // That language's chrome strings load on demand; this re-renders when they arrive (English until then).
+  useLangDicts(lang);
+  if (!env || env.dismissed || !offer) return null;
 
   const dismiss = () => { setEnv({ ...env, dismissed: true }); try { localStorage.setItem(KEY, "1"); } catch { /* ignore */ } };
-  // The switch offer speaks the visitor's language; the translate hint is in the site language (English).
-  const lang: Lang = offer.kind === "switch" ? offer.to : layer.lang;
   const close = t("strip.dismiss", lang);
 
   return (

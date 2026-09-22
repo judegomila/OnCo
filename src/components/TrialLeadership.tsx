@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { routeFor, type Entity } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
+import { type Entity } from "@/lib/schema";
 import type { LeadershipRow } from "@/lib/trial-leadership";
 import { Logo } from "./Logo";
 

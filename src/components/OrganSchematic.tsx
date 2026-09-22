@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import { matchedSubtypes, organFor, organMesh, type OrganSchematic as Organ } from "@/data/organ-schematics";
 import { Wireframe3D } from "./Wireframe3D";
 

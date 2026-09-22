@@ -1,6 +1,6 @@
 import type { Pathway } from "@/lib/schema";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 
 export type PathwayProduct = { id: string; name: string; route: string; status?: string; modality: string; targets: string[]; nodeIds: string[] };
 export type PathwayNodeView = { id: string; label: string; x: number; y: number; targetId?: string; href?: string; targetName?: string };

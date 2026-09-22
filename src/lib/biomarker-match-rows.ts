@@ -1,8 +1,8 @@
 /** Server-only: builds the biomarker match rows from the graph. Kept apart from biomarker-match.ts so that client components importing the scoring helpers do not pull the whole corpus into their JavaScript. */
 import { graph } from "./graph";
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 import type { MatchRow } from "./biomarker-match";
-import { routeFor } from "./schema";
+import { routeFor } from "./kinds";
 
 const KINDS: Kind[] = ["drug", "technology", "trial", "pairing", "idea", "target"];
 

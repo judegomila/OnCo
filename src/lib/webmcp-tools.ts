@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { KINDS } from "./schema";
+import { KINDS } from "./kinds";
 import { EXPORT_LICENCE } from "./csv";
 import type { WebMCPTool } from "./webmcp";
 
@@ -33,7 +33,7 @@ function tool<T>(name: string, description: string, schema: z.ZodType<T>, run: (
 export function createWebMCPTools(): WebMCPTool[] {
   return [
     tool("onco_search", "Search OnCo's public oncology records by name, alias, or keywords (lexical search). Returns record IDs, summaries and page URLs; optionally filter by kind. Not personalised medical advice.", searchInput, async ({ query, kind, limit }) => {
-      const { loadSearch } = await import("@/components/SearchBox");
+      const { loadSearch } = await import("@/lib/search-client");
       const { ms, byId } = await loadSearch();
       const results = ms.search(query)
         .map((hit) => byId.get(String(hit.id)))

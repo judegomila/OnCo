@@ -3,12 +3,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { SearchResult } from "minisearch";
-import { loadSearch } from "./SearchBox";
+import { loadSearch } from "@/lib/search-client";
 import { MoleculeSlot } from "./MoleculeSlot";
 import { KindIcon } from "./KindIcon";
 import { NavIcon, NavItemIcon } from "./NavIcon";
 import type { SearchDoc } from "@/lib/search-index";
-import { KIND_META, KINDS, type Kind } from "@/lib/schema";
+import { KIND_META, KINDS, type Kind } from "@/lib/kinds";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { loadSemantic } from "@/lib/semantic-client";
 import { fuseRanks, semanticSearch, type SemanticIndex } from "@/lib/semantic";

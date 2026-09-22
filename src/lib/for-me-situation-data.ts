@@ -1,5 +1,6 @@
 import type { Graph } from "./graph";
-import { routeFor, type Cancer, type Entity } from "./schema";
+import { routeFor } from "./kinds";
+import { type Cancer, type Entity } from "./schema";
 import { buildDecisionSections, decisionsRoute, slugify } from "./decisions";
 import { redCardsForCancer, standardOfCareDrugs } from "./red-cards";
 import { questionsFor } from "./questions";

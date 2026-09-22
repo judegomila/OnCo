@@ -2,7 +2,7 @@ import Link from "next/link";
 import { publicTags } from "@/lib/tags";
 import type { ReactNode } from "react";
 import type { Cancer, Entity, Roadmap, Term } from "@/lib/schema";
-import { KIND_META, routeFor } from "@/lib/schema";
+import { KIND_META, routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { paragraphs, KIND_COLOR, statusClass } from "@/lib/text";
 import { Bullets, ChipList, Container, KindChip, PageHeader, StatusChip } from "./ui";

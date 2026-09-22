@@ -1,12 +1,5 @@
 import { useLayer, type Lang, LANGS } from "@/lib/layer";
-import { es } from "./ui/es";
-import { zh } from "./ui/zh";
-import { pt } from "./ui/pt";
-import { hi } from "./ui/hi";
-import { fr } from "./ui/fr";
-import { de } from "./ui/de";
-import { ja } from "./ui/ja";
-import { ar } from "./ui/ar";
+import { UI_CACHE, useLangDicts } from "./dict-store";
 
 /**
  * Site chrome dictionary: every user-facing string in menus, headers, table controls, entity page headings,
@@ -452,10 +445,12 @@ export const EN = {
 export type UiKey = keyof typeof EN;
 export type UiDict = Record<UiKey, string>;
 
-const DICTS: Record<Lang, UiDict> = { en: EN, es, zh, pt, hi, fr, de, ja, ar };
-
-/** Every dictionary keyed by language, for tests and the coverage script. */
-export const UI_DICTS = DICTS;
+/**
+ * The other eight dictionaries are not imported here: dict-store.ts fetches a language's files the first time a
+ * reader needs them and fills UI_CACHE, so `t` answers in English until then. Tests and scripts that want every
+ * language at once import src/lib/i18n/all.ts.
+ */
+const dictFor = (lang: Lang): UiDict => (lang === "en" ? EN : UI_CACHE[lang] ?? EN);
 
 export type Vars = Record<string, string | number>;
 
@@ -466,7 +461,7 @@ function fill(s: string, vars?: Vars): string {
 
 /** The chrome string for `key` in `lang`, with {placeholders} filled from `vars`. Falls back to English. */
 export function t(key: UiKey, lang: Lang, vars?: Vars): string {
-  const d = DICTS[lang] ?? EN;
+  const d = dictFor(lang);
   return fill(d[key] ?? EN[key], vars);
 }
 
@@ -521,6 +516,8 @@ export function langNative(lang: Lang): string {
 export function useT() {
   const [layer] = useLayer();
   const lang = layer.lang;
+  // Fetches the language's dictionaries on first use and re-renders this component when they arrive (English until then).
+  useLangDicts(lang);
   return {
     lang,
     dir: dirFor(lang),

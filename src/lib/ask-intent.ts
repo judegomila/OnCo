@@ -14,7 +14,7 @@ import { buildMatcher, scan, type Matcher } from "./entity-matcher";
 import { tokenize } from "./semantic";
 import { baseName, type AskIndex, type AskIndexEntry, type AskPair } from "./ask-index";
 import { ASK_CASE_SENSITIVE } from "./ask-lexicon";
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 
 export type Intent = "define" | "treatments" | "biomarkers" | "approval" | "regional-approvals" | "mechanism" | "side-effects" | "trials" | "results" | "evidence" | "compare" | "prognosis" | "who" | "investors" | "companies" | "roadmap" | "journals" | "cost" | "general";
 

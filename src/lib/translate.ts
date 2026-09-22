@@ -1,4 +1,4 @@
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 
 /**
  * Helpers for browser translation and screen readers.

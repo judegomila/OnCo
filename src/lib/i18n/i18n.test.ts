@@ -1,9 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { EN, UI_DICTS, t, tl, statusLabel, tNoun, kindName, type UiKey } from "./ui";
-import { NAV_DICTS, groupKey } from "./nav";
+import { EN, t, tl, statusLabel, tNoun, kindName, type UiKey } from "./ui";
+import { UI_DICTS, NAV_DICTS } from "./all";
+import { groupKey } from "./nav";
 import { NAV_GROUPS } from "@/lib/nav";
 import { LANGS } from "@/lib/layer";
-import { KIND_META, KINDS, STATUSES } from "@/lib/schema";
+import { KIND_META, KINDS, STATUSES } from "@/lib/kinds";
 import { STATUS_LABEL } from "@/lib/text";
 
 const OTHER = LANGS.map((l) => l.code).filter((c) => c !== "en");

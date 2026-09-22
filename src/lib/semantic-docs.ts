@@ -3,7 +3,8 @@
  * so this file is only used by scripts, tests and server components, never by client components.
  */
 import { graph } from "./graph";
-import { KIND_META, type Entity } from "./schema";
+import { KIND_META } from "./kinds";
+import { type Entity } from "./schema";
 import type { SemanticDoc } from "./semantic";
 
 const rep = (s: string, n: number) => Array(n).fill(s).join(" ");

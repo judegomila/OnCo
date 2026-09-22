@@ -1,6 +1,7 @@
 import Link from "next/link";
-import type { Entity, Kind } from "@/lib/schema";
-import { KIND_META, routeFor } from "@/lib/schema";
+import type { Kind } from "@/lib/kinds";
+import type { Entity } from "@/lib/schema";
+import { KIND_META, routeFor } from "@/lib/kinds";
 import { KIND_COLOR, statusClass } from "@/lib/text";
 import { NAV_GROUPS } from "@/lib/nav";
 import { DrugChip } from "./DrugChip";

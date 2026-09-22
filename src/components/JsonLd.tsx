@@ -1,5 +1,5 @@
 import type { Entity } from "@/lib/schema";
-import { KIND_META, routeFor } from "@/lib/schema";
+import { KIND_META, routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { SITE, SITE_NAME, absoluteUrl, entityCrumbs, machineRoutes, type Crumb } from "@/lib/seo";
 import { wikidataIds } from "@/data/wikidata-ids";

@@ -5,7 +5,7 @@ import { SearchBox } from "./SearchBox";
 import { KindIcon } from "./KindIcon";
 import { RouteIcon } from "./RouteIcon";
 import { NavIcon } from "./NavIcon";
-import { KIND_META, KINDS } from "@/lib/schema";
+import { KIND_META, KINDS } from "@/lib/kinds";
 
 /** Ways in that are not a kind hub: the anatomical map, the per-cancer view, the full search and home. */
 const WAYS_IN: { href: string; title: string; blurb: string }[] = [

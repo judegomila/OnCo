@@ -1,6 +1,6 @@
 import { graph } from "./graph";
 import { NAV_GROUPS } from "./nav";
-import { routeFor, type Kind } from "./schema";
+import { routeFor, type Kind } from "./kinds";
 
 export type SearchDoc = { id: string; kind: Kind | "page"; name: string; aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string };
 

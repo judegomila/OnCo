@@ -1,4 +1,4 @@
-import { KIND_META, KINDS, type Kind } from "@/lib/schema";
+import { KIND_META, KINDS, type Kind } from "@/lib/kinds";
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route.replace(/\//g, ""), k]));
 import { KindIcon } from "./KindIcon";
 import { FrontIcon } from "./FrontIcon";

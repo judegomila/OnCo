@@ -1,7 +1,7 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "./graph";
-import { routeFor } from "./schema";
+import { routeFor } from "./kinds";
 import { resolveSponsor, type SponsorKind } from "@/data/sponsor-aliases";
 
 /**

@@ -1,4 +1,4 @@
-import type { Kind } from "@/lib/schema";
+import type { Kind } from "@/lib/kinds";
 import { discussionSearchUrl, newDiscussionUrl } from "@/lib/issue-links";
 import { T } from "./T";
 

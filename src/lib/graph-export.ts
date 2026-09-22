@@ -1,5 +1,6 @@
 import { graph } from "./graph";
-import { REL_FIELDS, routeFor, type Entity, type Kind } from "./schema";
+import { REL_FIELDS, routeFor, type Kind } from "./kinds";
+import { type Entity } from "./schema";
 
 /** `blurb` is the first sentence of the TL;DR, clipped, so the explorer's side panel can describe a node without shipping the whole corpus. */
 export type GraphNode = { id: string; kind: Kind; name: string; route: string; degree: number; blurb: string };

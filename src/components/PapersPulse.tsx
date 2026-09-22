@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { KIND_META, type Kind } from "@/lib/schema";
+import { KIND_META, type Kind } from "@/lib/kinds";
 
 export type PulseEntry = { kind: string; name: string; counts: Record<string, number>; last12: number; prior12: number; growth: number | null; total: number };
 export type PulseIndex = { fetched: string; source: string; entities: Record<string, PulseEntry> };

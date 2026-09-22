@@ -8,7 +8,7 @@
  *
  * This module is pure and browser-safe.
  */
-import { KINDS, routeFor, type Kind } from "./schema";
+import { KINDS, routeFor, type Kind } from "./kinds";
 import { ASK_ALIASES, ASK_STOP } from "./ask-lexicon";
 
 /**

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Drug } from "@/lib/schema";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import { MoleculeSlot } from "./MoleculeSlot";
 import { ApprovalChip } from "./ApprovalChip";
 

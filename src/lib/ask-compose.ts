@@ -15,7 +15,7 @@ import { regionCode, shortName, type AskIndexEntry } from "./ask-index";
 import { INTENT_LABEL, type Intent } from "./ask-intent";
 import { GRADE_META, gradeFromTags, type EvidenceGrade } from "./complementary";
 import { tokenize } from "./semantic";
-import type { Kind } from "./schema";
+import type { Kind } from "./kinds";
 import { REGION_META, REGIONS, regionalApprovals, type Region, type RegionalEntry } from "@/data/regional-approvals";
 import { SURVIVAL_SITES } from "@/data/survival-map";
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { reviews, type Review } from "@/data/reviews";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import { reviewIssueUrl, reviewerCount, reviewerLevel, tracksFor, TRACK_META } from "@/lib/review-queue";
 import { loadModelReviews } from "@/lib/model-reviews";
 import { ModelPanel, PanelIcon } from "./ModelPanel";

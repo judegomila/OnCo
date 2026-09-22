@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Drug, Entity, Target, Trial } from "@/lib/schema";
-import { routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
 import { withTermHovers } from "@/lib/term-hover";

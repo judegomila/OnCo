@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { graph } from "@/lib/graph";
-import { routeFor, type Company } from "@/lib/schema";
+import { routeFor } from "@/lib/kinds";
+import { type Company } from "@/lib/schema";
 import { Section } from "./ui";
 import { StageIcon } from "./StageIcon";
 import { fmtUsd, portfolioOf, STAGE_LABEL, STAGE_TIP, stageOf, ycBatchLabel } from "@/lib/startups";

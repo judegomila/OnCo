@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { browserHint, decideOffer, primaryLang } from "./TranslateOffer";
 import { DOSE_RE, nameAttrs } from "@/lib/translate";
-import { EN, UI_DICTS } from "@/lib/i18n/ui";
+import { EN } from "@/lib/i18n/ui";
+import { UI_DICTS } from "@/lib/i18n/all";
 import { LANGS } from "@/lib/layer";
 
 const CHROME = "Mozilla/5.0 (Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36";

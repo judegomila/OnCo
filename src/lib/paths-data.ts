@@ -1,6 +1,7 @@
 /** Server-side builder of the labelled graph used by paths.ts. Never import from a client component. */
 import { graph } from "./graph";
-import { REL_FIELDS, routeFor, type Entity } from "./schema";
+import { REL_FIELDS, routeFor } from "./kinds";
+import { type Entity } from "./schema";
 import type { PathData, PathEdge } from "./paths";
 
 /** Every outgoing link of an entity with the field that declares it, mirroring graph.ts. */

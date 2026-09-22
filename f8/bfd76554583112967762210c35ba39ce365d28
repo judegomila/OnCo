@@ -1,0 +1,49 @@
+src/data/trial-key-papers-wave1.ts
+  s_0beac9cb5d78fd::t_8fa67ae881b54e 1-12
+scripts/fetch-trial-papers.ts
+  s_0beac9cb5d78fd::t_80d2f5568c6e6d 49
+  s_0beac9cb5d78fd::t_5fe5d6c34b364f 181
+  s_0beac9cb5d78fd::t_f0badda677ea41 1-48,50-52,54-97,108-124,127-130,132-138,142,147-148,150-175,177-180,182-240,242-253,256-354
+  s_0beac9cb5d78fd::t_389e7abec1d980 143-146
+  s_0beac9cb5d78fd::t_6822e91dd3ca48 241
+  s_0beac9cb5d78fd::t_160dd118262211 149
+  s_0beac9cb5d78fd::t_bc26a977b33124 102-104
+  s_0beac9cb5d78fd::t_ab814a95ec2b31 254
+  s_0beac9cb5d78fd::t_bc5e2d99f7d67d 98-101
+  s_0beac9cb5d78fd::t_01782d19632f24 126
+  s_0beac9cb5d78fd::t_c2ab8831255b10 139
+  s_0beac9cb5d78fd::t_3687e0b82e68f9 140-141
+  s_0beac9cb5d78fd::t_2aea957b14f321 255
+  s_0beac9cb5d78fd::t_57cb55fe219d17 53
+  s_0beac9cb5d78fd::t_b4202ddc7c94ef 125
+  s_0beac9cb5d78fd::t_a8519d81c2b249 176
+  s_0beac9cb5d78fd::t_f8981ba48241f4 105-107
+  s_0beac9cb5d78fd::t_3d670ed9da6f4d 131
+  s_0beac9cb5d78fd::t_e0aaea11cc6f32 355-357
+src/data/papers-trials-wave1.ts
+  s_0beac9cb5d78fd::t_ba754b4683bb2d 1-18
+src/data/index.ts
+  s_0beac9cb5d78fd::t_e9f9a794c97c06 220-221
+  s_0beac9cb5d78fd::t_66a5f270907546 35-36
+  s_0beac9cb5d78fd::t_2c4abfa1a15049 167
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_80faf16f0c254e 8
+src/lib/semantic-docs.ts
+  s_0beac9cb5d78fd::t_34e3a7db3c7bc2 49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f8bfd76554583112967762210c35ba39ce365d28",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

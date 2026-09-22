@@ -163,7 +163,7 @@ const citingKinds = (es: Entity[]) => {
   const parts = [...counts.entries()].map(([label, n]) => `${countWord(n)} ${label} page${n > 1 ? "s" : ""}`);
   return parts.length > 1 ? `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}` : parts[0];
 };
-const recordName = (r: CitedResult) => (r.source === "PPR" ? `Europe PMC preprint record ${r.id}` : r.pmid ? `PubMed record ${r.pmid}` : `Europe PMC record ${r.pmcid ?? r.id}`);
+const recordName = (r: CitedResult) => (r.source === "PPR" ? `preprint record ${r.id}` : r.pmid ? `PubMed record ${r.pmid}` : `record ${r.pmcid ?? r.id}`);
 
 function buildPaper(c: Cited, r: CitedResult, viaPreprint?: CitedResult): PaperInput {
   const preprint = r.source === "PPR";
@@ -183,7 +183,7 @@ function buildPaper(c: Cited, r: CitedResult, viaPreprint?: CitedResult): PaperI
   const plural = c.citing.length > 1;
   // No year in the TL;DR or the id: the page shows `year`, and a bare year token fuzzy-matches neighbouring years in the
   // site search ("2026" finds "2020"), which is what pulled a 2020 paper into a "what happened in 2026" answer.
-  const tldr = houseDashes(`${preprint ? "Preprint" : "Paper"} cited by ${citingPhrase}, indexed on Europe PMC as ${recordName(r)} and published in ${journal}; the citing page${plural ? "s link" : " links"} this DOI, which is how the record was matched.`);
+  const tldr = houseDashes(`${preprint ? "Preprint" : "Paper"} cited by ${citingPhrase}, indexed on Europe PMC as ${recordName(r)} and ${preprint ? `posted on ${publisher ?? "a preprint server"}` : `published in ${journal}`}; the citing page${plural ? "s link" : " links"} this DOI, which is how the record was matched.`);
   const provenance = `Indexed on Europe PMC as ${recordName(r)} (DOI ${doi})${viaPreprint ? `, the journal version Europe PMC links from the preprint ${viaPreprint.doi ? `DOI ${viaPreprint.doi}` : viaPreprint.id} that the citing record links` : ""}. Matched by DOI alone: ${citingPhrase} cite${plural ? "" : "s"} this DOI among ${plural ? "their" : "its"} external links (the pages are listed under Related), and this page was written so that the citation resolves inside OnCo. No figure has been checked by an editor.`;
   const summary = houseDashes((abstract ? `${abstract}\n\n` : `Europe PMC indexes no abstract for this record; the title is the only text available.\n\n`) + provenance);
   const whatItMeans = houseDashes(`${citingPhrase[0].toUpperCase()}${citingPhrase.slice(1)} on OnCo cite${plural ? "" : "s"} this ${preprint ? "preprint" : "paper"} by its DOI; this record gives the citation a page of its own so a reader can follow it without leaving OnCo. Read the abstract above alongside the citing page${plural ? "s" : ""} listed under Related; the record was created automatically from the Europe PMC entry and its figures have not been checked by hand.`);

@@ -1,0 +1,34 @@
+src/data/papers-pancreatic-wave.ts
+  s_0beac9cb5d78fd::t_830049895c93c8 1-334
+src/data/index.ts
+  s_0beac9cb5d78fd::t_ddd6fb3ce26701 33,161
+public/citations/index.json
+  s_0beac9cb5d78fd::t_ebdd782b05e125 1
+src/data/pancreatic-subtypes.ts
+  s_0beac9cb5d78fd::t_0a146ee384d02a 58
+  s_0beac9cb5d78fd::t_f103df031c69a0 185
+  s_0beac9cb5d78fd::t_74c8f1cef94ce8 340
+  s_0beac9cb5d78fd::t_b688a60f115977 309
+  s_0beac9cb5d78fd::t_b3eeea21538489 249
+  s_0beac9cb5d78fd::t_3f4483d29d162d 370
+  s_0beac9cb5d78fd::t_a407a4f5c99444 121
+  s_0beac9cb5d78fd::t_25d0189d447744 89
+  s_0beac9cb5d78fd::t_068e53eb749278 218
+  s_0beac9cb5d78fd::t_67305a5dfb660f 278
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "355fa8e95d75bea248dfdbafeedd9167db7f4016",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -19,3 +19,12 @@ paths = [
   '''^src/lib/i18n/''',
   '''^public/''',
 ]
+
+# Record ids of 32 letters and digits after the word "discordance" ("idea-tr2-bicr-discordance-public","idea-tr2-biomarker-negative-arms")
+# trip the Discord client-secret rule in the relation arrays of data files; mute it there the same way.
+[[rules]]
+id = "discord-client-secret"
+[rules.allowlist]
+paths = [
+  '''^src/data/''',
+]

@@ -35,6 +35,8 @@ import { papersWatch202609 } from "./papers-watch-2026-09";
 import { papersTrialsWave1 } from "./papers-trials-wave1";
 import { trialKeyPapersWave1 } from "./trial-key-papers-wave1";
 import { TRIAL_REGISTRY_OUTCOMES } from "./trial-registry-outcomes";
+import { TRIAL_REGISTRY_STATUS } from "./trial-registry-status";
+import { applyRegistryStatus } from "@/lib/registry-status";
 import { papersPeopleWave6 } from "./papers-people-wave6";
 import { personPapersWave6 } from "./person-papers-wave6";
 import { trialsIdeasWave6 } from "./trials-ideas-wave6";
@@ -246,6 +248,10 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((e) => {
       const posted = reg.yearReported ? ` in ${reg.yearReported}` : "";
       t = { ...t, ...reg, summary: t.summary.replace(/No results (?:have been posted on ClinicalTrials\.gov|are recorded here; the registry entry is the source)\./, `Results were posted on ClinicalTrials.gov${posted}; the figures recorded here are the registry's, not a publication's.`) };
     }
+    // Status read from the registry by scripts/fetch-registry-status.ts (wave 7a follow-up): applied only while the trial
+    // still carries the status the script saw, with a dated note and, on ingested trials, the matching TL;DR and summary phrase.
+    const st = TRIAL_REGISTRY_STATUS[t.id];
+    if (st) t = applyRegistryStatus(t, st);
     return t;
   }
   // Drugs found for companies through the ClinicalTrials.gov lead-sponsor field by scripts/fetch-company-drugs.ts (wave 6).

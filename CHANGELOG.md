@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
-- Kind browser pages ship 60 rows and load the rest on demand, 402 registry trials for drugs and technologies, glossary terms without a Wikipedia article say so
+- Health gauges explain people without papers by role and exempt the closed section list
 - Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working
 - A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
 - Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
@@ -19,6 +19,10 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
+- Kind-size gauge holds open kinds only: the 19 treatment fronts are a closed OnCo taxonomy and are named in the note
+- People-papers gauge counts roles that produce no papers as explained: 1,528 of 1,547 with a note on who is still without
+- LAUNCH: chains 101 to 104 ticked
+- Kind browser pages ship 60 rows and load the rest on demand, 402 registry trials for drugs and technologies, glossary terms without a Wikipedia article say so
 - Kind browsers page their rows: first 60 in the HTML, the rest from /api/v1/tables/kind-<route>.json
 - Content roadmap: wave 5 trial run recorded, headline numbers refreshed from content:gaps
 - Wave 5 technologies: 32 technologies without a trial gain 65 registry trials and 7 corpus links from ClinicalTrials.gov

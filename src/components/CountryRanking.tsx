@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
+import { countOptions } from "./filters/useHeaderFilters";
 
 export type CountryRow = {
   code: string; name: string;
@@ -80,7 +81,9 @@ export function CountryRanking({ rows, years, deepDives = [] }: { rows: CountryR
   }, [eligible, region, q, perCapita, sort, y0, y1]);
 
   const onSort = (key: string) => setSort((s) => (s.key === key ? { key, dir: s.dir === 1 ? -1 : 1 } : { key, dir: key === "name" ? 1 : -1 }));
-  const regions = [...new Set(rows.map((r) => REGION[r.code] ?? "Other"))].sort().map((v) => ({ value: v, label: v }));
+  const regionOf = (r: CountryRow) => REGION[r.code] ?? "Other";
+  const regions = countOptions(eligible.map(regionOf));
+  const regionSpec = { options: regions, value: region, onChange: (v: string[]) => setRegion(v) };
 
   type Row = { r: CountryRow; score: number; parts: Array<[string, number]> };
   const columns: Column<Row>[] = [
@@ -90,6 +93,7 @@ export function CountryRanking({ rows, years, deepDives = [] }: { rows: CountryR
         <div className="font-medium">{r.name} <span className="text-xs text-muted">{r.code}</span>{deepDives.includes(r.code) ? <Link href={`/countries/${r.code.toLowerCase()}/`} className="ml-2 text-xs underline decoration-dotted text-muted hover:text-foreground">Deep dive</Link> : null}</div>
         <div className="text-xs text-muted">{r.funder ?? ""}{r.budget ? ` · ${r.budget}` : ""}</div>
       </div>) },
+    { key: "region", label: "Region", hide: "hidden md:table-cell", filter: regionSpec, render: ({ r }) => <span className="text-xs text-muted whitespace-nowrap">{regionOf(r)}</span> },
     { key: "works", label: perCapita ? `Works ${y1} / M pop` : `Oncology works ${y1}`, sortable: true, render: ({ r }) => <span className="tabular-nums">{perCapita && r.population ? fmt((r.works[y1] ?? 0) / r.population) : fmt(r.works[y1])}</span> },
     { key: "growth", label: `Growth ${y0}→${y1}`, sortable: true, hide: "hidden sm:table-cell", render: ({ r }) => { const g = r.works[y0] ? ((r.works[y1] - r.works[y0]) / r.works[y0]) * 100 : undefined; return <span className={`tabular-nums ${g !== undefined && g < 0 ? "text-rose-600" : "text-muted"}`}>{g === undefined ? "-" : `${g > 0 ? "+" : ""}${Math.round(g)}%`}</span>; } },
     { key: "hi", label: "Highly cited", sortable: true, hide: "hidden md:table-cell", render: ({ r }) => <span className="tabular-nums text-muted" title={`${fmt(r.citedHigh)} works with >50 citations, ${y0}-${y1}`}>{pct(r.citedHigh, r.total)}</span> },

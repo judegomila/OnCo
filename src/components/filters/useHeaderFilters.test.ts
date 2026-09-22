@@ -7,6 +7,9 @@ import { GuidelineConcordance, type ConcordanceRow } from "../GuidelineConcordan
 import { ManufacturingMap, type SiteRow } from "../ManufacturingMap";
 import { AutoPulse } from "../AutoPulse";
 import { PlanRankings } from "../PlanRankings";
+import { CountryRanking, type CountryRow } from "../CountryRanking";
+import { ScorecardTable, type ScorecardRow } from "../ScorecardTable";
+import { ResearchRanking, type RankingRow } from "../ResearchRanking";
 import { US_PLANS } from "@/data/coverage-rankings";
 
 /**
@@ -88,6 +91,40 @@ describe("client tables with their own controls gain header filters", () => {
     expect(labels?.[0]).toBe("Plan or insurer");
     expect(labels).toHaveLength(2);
     expect(html).toContain("Medicare Advantage");
+    expect(nestedButtons(html)).toBe(0);
+  });
+});
+
+describe("ResultsTable users whose toolbar facet had no column", () => {
+  it("CountryRanking: a Region column carries the Region facet's filter", () => {
+    const row = (code: string, name: string, w: number): CountryRow => ({ code, name, works: { "2021": w / 2, "2025": w }, total: w * 3, citedHigh: w / 10, oa: w, trials: 10, institutions: 1 });
+    const rows = [row("US", "United States", 5000), row("DE", "Germany", 2000), row("CN", "China", 4000)];
+    const html = render(createElement(CountryRanking, { rows, years: [2021, 2025] }));
+    const head = heads(html).find((h) => h.includes("Region")) ?? "";
+    expect(head).toContain('data-column-filter="label"');
+    expect(head).toContain('aria-expanded="false"');
+    expect(html).toContain("North America");
+    expect(nestedButtons(html)).toBe(0);
+  });
+
+  it("ScorecardTable: Type and Country columns carry the facets, Regions filters from its header", () => {
+    const row = (id: string, companyType: string, country: string, regions: string[]): ScorecardRow => ({ id, name: id, route: `/companies/${id}/`, country, companyType, rank: 1, score: 10, approved: 1, phase3: 0, early: 0, targets: 1, modalities: 1, regions, recentEvents: 0, registryTrials: 0, failures: 0, points: { approved: 6, phase3: 0, early: 0, targets: 2, modalities: 2, regions: regions.length, momentum: 0, trials: 0, failures: 0 } });
+    const rows = [row("a", "pharma", "US", ["US", "EU"]), row("b", "biotech", "CH", [])];
+    const html = render(createElement(ScorecardTable, { rows }));
+    const labels = filterHeads(html).map((h) => h.match(/Filter by ([^"]+)"/)?.[1]);
+    expect(labels).toEqual(["Type", "Country", "Regions"]);
+    expect(html).toContain("Biotech");
+    expect(nestedButtons(html)).toBe(0);
+  });
+
+  it("ResearchRanking: institutions filter by parent university and by five-year coverage", () => {
+    const rows: RankingRow[] = [
+      { key: "a", name: "Centre A", sub: "University X", works2024: 10, works2025: 12, cited2yr: 5, works5: 40, cited5: 100 },
+      { key: "b", name: "Centre B", works2024: 3, works2025: 4, cited2yr: null, works5: null, cited5: null },
+    ];
+    const html = render(createElement(ResearchRanking, { rows, years: [2021, 2025], mode: "institution" }));
+    const labels = filterHeads(html).map((h) => h.match(/Filter by ([^"]+)"/)?.[1]);
+    expect(labels).toEqual(["Institution", "Works 2021 to 2025"]);
     expect(nestedButtons(html)).toBe(0);
   });
 });

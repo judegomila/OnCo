@@ -81,11 +81,12 @@ The header shares state with the existing control where one exists (same setter,
 - src/components/PlanRankings.tsx: "Plan or insurer" filters by kind; the chosen metric's header filters by whether a figure is published. Rank numbers stay those of the full ranking.
 - src/components/CaregiverPanel.tsx: skipped. The per-treatment toxicity tables show at most eight rows and have no categorical column.
 
-## Group 3: ResultsTable users without a header for their toolbar facet (pending)
+## Group 3: ResultsTable users whose toolbar facet had no column
 
-- src/components/CountryRanking.tsx (/research/countries/): Region facet, no region column.
-- src/components/ScorecardTable.tsx (/scorecard/): Type and Country facets, shown under the name.
-- src/components/PipelineFunnel.tsx, src/components/ResearchRanking.tsx: sortable, no facets.
+- src/components/CountryRanking.tsx (/research/countries/): a Region column (hidden under md) carries the Region facet's filter with counts; the toolbar facet stays and both share one state.
+- src/components/ScorecardTable.tsx (/scorecard/): Type and Country columns (hidden under lg; the same text stays under the company name on small screens) carry the Type and Country facets, and their cells are chips that select exactly that value; the Regions column filters from its header (header-only, "None" for companies with no approved region). A Clear link resets all three.
+- src/components/PipelineFunnel.tsx (/pipeline/ crowding index): Approved filters by whether the target has an approved product; Crowding index filters by population completeness (complete, partial, no estimate).
+- src/components/ResearchRanking.tsx (/universities/ OpenAlex tables): in institution mode the Institution header filters by parent university; the five-year works column filters by whether the institution is in the five-year index. The university-mode table has no categorical column.
 
 ## Left alone
 

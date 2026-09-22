@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
-- Registry results for 144 trials, 24 more standard-of-care trials with outcomes, papers and standard-of-care rows linked
+- Papers for people and ideas, trials for ideas and drugs for companies from wave 6
 - Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working
 - A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
 - Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
@@ -19,6 +19,10 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
+- Content roadmap: wave 6 progress row (people without a paper 318 to 300, ideas without a key paper 1,104 to 1,026, ideas without a trial 1,047 to 1,044, companies without a drug 720 to 718) with what was held back and why
+- Wave 6 company drugs: 2 companies gain a drug through the ClinicalTrials.gov lead-sponsor field (Impact Therapeutics IMP4927, R-Pharm RPH-051), each verified on the registry record; 75 other sponsors held back because their corpus trials name only comparators with a maker on record
+- Registry results for 144 trials, 24 more standard-of-care trials with outcomes, papers and standard-of-care rows linked
+- Wave 6 idea evidence: 78 ideas gain key papers (124 new Europe PMC records, 98 existing reused) and 3 gain trials (4 ClinicalTrials.gov phase 2 or 3 records written, 4 corpus trials linked), matched on the drug or target the idea's text names plus its cancer
 - heavy-pages test: explained budget follows the corpus after the trial waves, with the paging rule for the next rise
 - Content gaps: the trial-acronym measure treats the programme stem before a hyphen as a known trial name; roadmap notes the 33 remaining tokens are all in the wave SKIP list
 - Content wave 3, rare cancers: FIRSTMAPPP, InPACT, GETUG 13, ADIUVO, ADIUVO-2, TROPHIMMUN and BALLAD, 4 with structured outcomes, 4 primary papers, 13 standard-of-care rows linked
@@ -30,6 +34,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Wave 7 data: registry outcomes for the first 2500 registry-ingested trials by family burden (144 trials with 272 outcome rows from 153 records with posted results)
 - Content wave 3, head and neck: CONTINUUM (sintilimab added to induction-concurrent chemoradiotherapy in locoregionally advanced nasopharyngeal carcinoma) with structured outcomes and its Lancet 2024 paper; standard-of-care row linked
 - Wave 7 data: registry outcomes for the first 2000 registry-ingested trials by family burden (111 trials with 209 outcome rows from 117 records with posted results)
+- Wave 6 people papers: 18 people gain up to three most cited papers each from Europe PMC by author and affiliation (46 new paper records, 6 existing reused), administrators filtered by role before searching, 2 ambiguous names skipped with reasons
 - Content wave 3, colorectal: CAPP2 (aspirin in Lynch syndrome, 10-year follow-up) with structured outcomes and its Lancet 2020 paper; Lynch syndrome standard-of-care row linked
 - Wave 7 data: registry outcomes for the first 1500 registry-ingested trials by family burden (85 trials with 171 outcome rows from 91 records with posted results)
 - Wave 7 data: registry outcomes for the first 1000 registry-ingested trials by family burden (61 trials with 126 outcome rows from 65 records with posted results)

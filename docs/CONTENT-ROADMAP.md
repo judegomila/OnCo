@@ -93,6 +93,7 @@ Wave 3 (the trials behind standard of care) started on 22 September 2026 in `src
 | Ovarian | 1 | 1 | 1 | 2 | none |
 | Endometrial | 1 | 0 | 0 | 1 | RAINBO is recruiting and states its design only |
 | Myeloma | 1 | 0 | 0 | 1 | DRAMMATIC is active with no results and states its design only |
+| Rare cancers (PPGL, penile, testicular, adrenocortical, trophoblastic, small bowel) | 7 | 4 | 4 | 13 | InPACT, ADIUVO-2 and BALLAD have no results and state their design; GROINSS-V I, REMORA and BEST4 skipped (no ClinicalTrials.gov record, see the wave file header) |
 
 Structured outcomes were also added in place to 8 of the 75 hand-written trials without them (ARANOTE, CheckMate 915, PACIFIC-2, INTELLANCE-1, ATEMPT, ASPEN, DESTINY-Gastric02, AREN0532), each quoting the ClinicalTrials.gov results section; the remaining 67 are recruiting or active trials with no results posted, platform or observational studies, or trials whose registry entry carries no results section (VERONA, TAM-01, CODEL, DART, IMPRESS, GBM AGILE).
 

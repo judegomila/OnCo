@@ -42,7 +42,7 @@ export const testisOesophagusSubtypes: CancerInput[] = [
     standardOfCare: [
       { setting: "Stage I", approach: "Orchidectomy then surveillance; one cycle of adjuvant BEP for men with lymphovascular invasion who choose it; nerve-sparing retroperitoneal dissection in selected cases.", refs: ["bleomycin", "etoposide", "cisplatin", "active-surveillance"] },
       { setting: "Metastatic, good risk", approach: "Three cycles of BEP (or four of EP if bleomycin is contraindicated).", refs: ["bleomycin", "etoposide", "cisplatin"] },
-      { setting: "Metastatic, intermediate and poor risk", approach: "Four cycles of BEP, or VIP; poor-risk patients with slow marker decline are switched to intensified therapy (GETUG 13); treatment in high-volume centres.", refs: ["cisplatin", "etoposide"] },
+      { setting: "Metastatic, intermediate and poor risk", approach: "Four cycles of BEP, or VIP; poor-risk patients with slow marker decline are switched to intensified therapy (GETUG 13); treatment in high-volume centres.", refs: ["cisplatin", "etoposide", "getug-13"] },
       { setting: "Residual masses after chemotherapy", approach: "Retroperitoneal lymph node dissection and resection of other residual masses when markers have normalised.", refs: ["testicular"] },
       { setting: "Relapse", approach: "Conventional (TIP) or high-dose chemotherapy with stem cell support, as compared in the TIGER trial; late relapse treated surgically where possible.", refs: ["cisplatin", "autologous-stem-cell-transplant"] },
     ],

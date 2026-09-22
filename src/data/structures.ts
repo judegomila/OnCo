@@ -437,7 +437,6 @@ export const structures: Record<string, StructureDef[]> = {
   "fludeoxyglucose-f18": [pc("Fludeoxyglucose F-18", "fludeoxyglucose F-18")],
   illuccix: [pc("PSMA-11 (Ga-68 chelated in the kit)", "PSMA-11")],
   locametz: [pc("PSMA-11 (Ga-68 chelated in the kit)", "PSMA-11")],
-  "iobenguane-i-131": [pc("MIBG (iobenguane)", "iobenguane")],
   "samarium-153-lexidronam": [pc("EDTMP (lexidronam; Sm-153 chelated in the product)", "lexidronam")],
   // ADC payload (no public structure of the antibody)
   "pivekimab-sunirine": [pc("Payload: sunirine (indolinobenzodiazepine, DGN549)", "sunirine")],

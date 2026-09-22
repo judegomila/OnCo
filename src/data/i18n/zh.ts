@@ -4100,7 +4100,6 @@ export const tldr_zh: Record<string, string> = {
   "intraop-medical": "IntraOp生产Mobetron，一种可以推入手术室的移动式电子束设备，在癌症手术期间对瘤床进行单次靶向放射，它也正被用于超快速FLASH放疗的首批人体试验。",
   "io-plus-crt-cervical": "在根治性放化疗基础上加用pembrolizumab改善了高危局部晚期宫颈癌的生存（KEYNOTE-A18）；而durvalumab在更广泛的人群中则没有（CALLA）。",
   "io-varices-caution": "免疫治疗联合bevacizumab是肝癌的标准方案，但其中的抗VEGF成分可能导致食管曲张静脉致命性出血，除非事先进行检查。",
-  "iobenguane-i-131": "Azedra是一种放射性药物，能定向找到无法切除的肾上腺类肿瘤（嗜铬细胞瘤和副神经节瘤）并从内部释放放射线。它于2018年获批，2024年被制造商停产。",
   "isabel-rubio": "乳腺外科医生、ESSO前任主席，在马德里的Clínica Universidad de Navarra主持乳腺外科肿瘤学工作。",
   isabl: "Isabl读取肿瘤的全基因组和全转录组，而不是一小组基因面板，其软件将这些数据转化为临床医生可以使用的报告。",
   "isg-sts-1001": "术前标准的蒽环类联合ifosfamide方案优于按亚型定制的化疗，并间接表明新辅助化疗对高危肉瘤有帮助。",

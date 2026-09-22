@@ -46,6 +46,25 @@ About 35 agent-hours in all; 3,232 of the links need no network at all.
 
 Weak linking is concentrated in four kinds. Counting inbound links (the figure the roadmap gauges use): 1,733 trials, 1,259 people, 984 ideas, 640 companies, 565 papers, 344 institutions, 202 drugs, 168 technologies and 58 targets have fewer than three. Counting all relations, only 102 trials, 165 people, 99 companies and 7 papers are below three, so the problem is that things do not point back at them, and the links above are exactly the ones that fix that.
 
+### Progress
+
+Wave 2 (corpus-only joins) ran on 22 September 2026 through `scripts/link-joins.ts` (dry run by default, `--apply` writes; every rule is stated in the script header). 3,056 distinct edits, none removing a link. Counts are "records lacking the link" from `npm run content:gaps` before and after.
+
+| Link | Before | After | Added by wave 2 | Rule as applied (tighter than the estimate) |
+|---|---:|---:|---:|---|
+| Trial to technology | 3,192 | 1,453 | 2,743 links on 1,739 trials | Only technologies of the trial's studied agents (drug named in the title, sole drug, or first-listed in a curated record); context technologies (transplant conditioning, CAR-T lymphodepletion, intravesical use, MRD testing) only as a drug's sole technology; angiogenesis models never. The 354 still "derivable" are backbones and comparators. |
+| Idea to trial | 1,077 | 1,047 | 133 links on 30 ideas | Drug or target on a studied agent, in one of the idea's cancers, idea text names the drug or target, actor one that trials test, maturity early-clinical or being-tested-at-scale, cap 5 preferring phase 3. Technology alone never. |
+| Idea to key paper | 1,136 | 1,104 | 46 links on 32 ideas | Papers of the idea's trials; then papers whose own drugs or targets arrays name a drug or target the idea's text names, in the idea's cancers; cap 3. |
+| Drug to key paper | 1,052 | 1,027 | 34 links on 25 drugs | Papers of trials in which the drug is the studied agent, skipping papers whose drugs array names other drugs only; cap 3. |
+| Drug to trial | 239 | 216 | 35 links on 35 trials | Title names the drug with a token no other drug shares and that is not a class name ("GnRH agonist"). |
+| Technology to trial | 460 | 434 | 211 links on 208 trials | 26 technologies gain their first trial, through studied agents carrying them as a modality. |
+| Target drugs array mirroring drug.targets | 21 | 0 | 47 | Reverse of drug.targets. |
+| Company to drug | 724 | 719 | 6 links on 5 companies | Studied agent of a sponsored trial, no maker on record, not approved, no other sponsor. |
+| Approved drug to EU approval row | 60 | 1 | 0 | 59 of the 60 rows had been added by hand between the 16 September fetch and this run; the measure now checks the snapshot against the live table. The one left (Zefylti, a filgrastim biosimilar) is a withdrawn application with no date, not an authorisation. |
+| Target to drug named in a mechanism | 7 (2 named) | 7 (0 named) | 0 | Both "named" hits were substrings (CD7 inside CD70 and CD73); the measure now requires whole words, and the rule found nothing to add. |
+
+Links still to make fell from 12,295 to 10,335; trials with fewer than three inbound links from 1,733 to 1,718, drugs from 202 to 185, papers from 565 to 547, technologies from 168 to 165. The "fillable today" column above was measured with looser joins (a shared technology or cancer alone); wave 2 rejected those on review because a drug class shared by hundreds of trials says nothing about one idea.
+
 ## 2. Waves, in order of patient value
 
 Ordering uses GLOBOCAN 2022 new cases worldwide per cancer family (a parent with all its subtypes): lung 2,480,675; breast 2,296,840; colorectal 1,926,425; skin 1,566,255; prostate 1,467,854; gastric 968,784; head and neck 947,211; liver 866,136; thyroid 821,214; cervical 662,301; bladder 614,298; non-Hodgkin lymphoma 553,389; oesophageal 511,054; pancreatic 510,992; leukaemia 487,294; kidney 434,840; endometrial 420,368; ovarian 324,603; brain 321,731; myeloma 187,952. The per-family gap table in the script output says where each wave should start.

@@ -91,7 +91,7 @@ const raw: EntityInput[] = [
     links: [{ label: "Sanofi press release, CARMEN-LC03 (Dec 2023) (page moved; nearest live section)", url: "https://www.sanofi.com/en/media-room/press-releases/2023/" }],
   },
   {
-    id: "impassion131", kind: "trial", name: "IMpassion131", nct: "NCT03125902", phase: "3", status: "negative", yearReported: 2020, sponsor: "Roche", asOf,
+    id: "impassion131", technologies: ["checkpoint-inhibitor"], kind: "trial", name: "IMpassion131", nct: "NCT03125902", phase: "3", status: "negative", yearReported: 2020, sponsor: "Roche", asOf,
     setting: "First-line metastatic TNBC: atezolizumab + paclitaxel vs paclitaxel",
     tldr: "IMpassion131 was the sister trial to the first immunotherapy success in breast cancer. It failed, and the approval it was meant to confirm was withdrawn.",
     summary: "IMpassion130 (nab-paclitaxel partner) had shown a PFS benefit in PD-L1-positive metastatic TNBC and won accelerated approval in 2019. IMpassion131 used conventional paclitaxel (which requires steroid premedication) and showed no PFS or OS benefit; OS trended worse in the atezolizumab arm. Roche withdrew the US TNBC indication in 2021. Pembrolizumab with chemotherapy (KEYNOTE-355) became the standard instead.\n\nLesson: the chemotherapy partner (steroid premedication, immunogenic cell death profile) and the PD-L1 assay (SP142 vs 22C3) can decide an immunotherapy trial; confirmatory trials must replicate the winning design.",

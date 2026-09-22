@@ -124,7 +124,7 @@ export const ideasTrials2: IdeaInput[] = [
     test: "Pilot in one national health system for one sequencing question where equipoise is documented in guidelines; measure enrolment rate and data completeness.",
     terms: ["real-world-evidence", "adc-sequencing"], cancers: ["breast-hr-positive"], related: ["idea-tr2-smart-sequencing-adc"], links: [{ label: "Bottleneck evidence (Too many combinations to test): Palmer & Sorger, Combination cancer therapy can confer benefit via patient-to-patient variability without drug additivity or synergy (Cell 2017)", url: "https://doi.org/10.1016/j.cell.2017.11.009" }] }),
 
-  i({ id: "idea-tr2-alternating-vs-concurrent", name: "Test alternating drug schedules against giving both drugs at once", maturity: "preclinical-evidence", actor: "research", cost: "medium", horizonYears: 4,
+  i({ id: "idea-tr2-alternating-vs-concurrent", keyPapers: ["paper-flaura-nejm-2018", "paper-flaura2-long-term-safety-lung-cancer-2026", "paper-mariposa-nejm-2024"], name: "Test alternating drug schedules against giving both drugs at once", maturity: "preclinical-evidence", actor: "research", cost: "medium", horizonYears: 4,
     bottlenecks: ["b-combination-space", "b-resistance"],
     tldr: "Two drugs might work better given in turns rather than together, with less toxicity. Almost no trial has tested this.",
     summary: "Evolutionary models and mouse studies suggest that alternating two non-cross-resistant agents can delay resistance as well as concurrent dosing at lower cumulative toxicity, and that some pairs are antagonistic when concurrent (for example cytostatic agents that protect cells from cytotoxics). Randomised trials of schedule rather than of drug are rare.",
@@ -495,7 +495,7 @@ export const ideasTrials2: IdeaInput[] = [
   // Biomarker validation: assay standardisation, reference materials, prospective designs,
   // companion diagnostic harmonisation, qualification pathways, blinded review
   // ---------------------------------------------------------------------------------------
-  i({ id: "idea-tr2-her2-low-reference-materials", name: "Calibrated reference slides so every lab scores HER2-low the same way", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 2,
+  i({ id: "idea-tr2-her2-low-reference-materials", keyPapers: ["paper-destiny-breast06-nejm-2024"], name: "Calibrated reference slides so every lab scores HER2-low the same way", maturity: "early-clinical", actor: "regulator", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation"],
     tldr: "Whether a breast cancer counts as HER2-low, and so qualifies for trastuzumab deruxtecan, turns on the least reproducible step of the HER2 stain, score 1+ versus 0. Cell-line microarrays with a known quantity of HER2 protein per cell, run alongside clinical slides, would anchor every laboratory to a physical standard.",
     summary: "T-DXd approval for HER2-low created a treatment decision at IHC 1+ versus 0, the least reproducible part of the HER2 scale, with inter-pathologist agreement reported as poor. Cell-line microarrays with quantified HER2 protein per cell, distributed as reference materials and run alongside clinical slides (as NordiQC and CAP do for proficiency testing), would anchor staining intensity and scoring to a physical standard, complemented by digital image analysis calibrated to the same materials.",
@@ -600,7 +600,7 @@ export const ideasTrials2: IdeaInput[] = [
     links: [{ label: "FDA SEQC2 project (page moved; nearest live section)", url: "https://www.fda.gov/science-research/bioinformatics-tools/" }],
     terms: ["ctdna", "vaf", "mrd"], technologies: ["liquid-biopsy", "mrd-testing"], related: ["guardant-health", "natera", "idea-tr2-liquid-biopsy-challenge"] }),
 
-  i({ id: "idea-tr2-tmb-calibration-standard", name: "A single calibrated tumour mutational burden across all sequencing panels", maturity: "early-clinical", actor: "industry", cost: "small", horizonYears: 2,
+  i({ id: "idea-tr2-tmb-calibration-standard", keyPapers: ["paper-keynote-189-nejm-2018", "paper-keynote-564-nejm-2021"], name: "A single calibrated tumour mutational burden across all sequencing panels", maturity: "early-clinical", actor: "industry", cost: "small", horizonYears: 2,
     bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"],
     tldr: "Tumour mutational burden decides who gets immunotherapy in some settings, but every sequencing panel calculates it differently. A shared calibration would make the number mean the same thing everywhere.",
     summary: "The Friends of Cancer Research TMB Harmonization Project showed that panel-derived TMB values can be aligned to whole-exome TMB with panel-specific calibration and reference samples. Yet the pembrolizumab approval for TMB above 10 mutations per megabase was tied to a single assay. Requiring each panel to report a calibrated TMB traceable to a common reference set, with published calibration curves, would make the biomarker portable across assays.",
@@ -711,7 +711,7 @@ export const ideasTrials2: IdeaInput[] = [
     test: "Draft the section for five biomarker-restricted labels using existing concordance literature; survey clinicians and laboratories on utility; propose as a labelling requirement.",
     technologies: ["companion-diagnostic"], terms: ["companion-diagnostic-term"], related: ["fda-approvals", "idea-tr2-pdl1-digital-calibration"], links: [{ label: "Bottleneck evidence (Biomarkers are not validated or standardised): Fernandez et al., Examination of low ERBB2 protein expression in breast cancer tissue (JAMA Oncology 2022)", url: "https://doi.org/10.1001/jamaoncol.2021.7239" }] }),
 
-  i({ id: "idea-tr2-biomarker-negative-arms", name: "Randomised trials to test whether biomarker-negative patients really do not benefit", maturity: "early-clinical", actor: "research", cost: "large", horizonYears: 5,
+  i({ id: "idea-tr2-biomarker-negative-arms", keyPapers: ["paper-destiny-breast06-nejm-2024"], name: "Randomised trials to test whether biomarker-negative patients really do not benefit", maturity: "early-clinical", actor: "research", cost: "large", horizonYears: 5,
     bottlenecks: ["b-biomarker-validation", "b-immunotherapy-response"],
     tldr: "Patients are denied a drug when a test says they will not benefit, but that restriction is usually inferred from enrichment trials rather than tested. For high-stakes markers with weak evidence in the negative group, such as PD-L1 and HER2 0, randomised trials in biomarker-negative patients should test the assumption itself.",
     summary: "Label restrictions based on biomarkers are often inferred from enrichment trials or subgroup analyses rather than from tests of the biomarker-negative population. For high-stakes markers with weak evidence in the negative group (PD-L1 in several tumours, HER2-ultralow and HER2 0, HRD-negative for PARP inhibitors), academic randomised trials in the biomarker-negative population with pragmatic endpoints would either open access to a denied group or firmly justify the restriction.",

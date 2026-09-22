@@ -535,4 +535,16 @@ export const papersSocWave: PaperInput[] = [
     caveats: ["Phase 2 powered for progression-free survival with wide confidence intervals."],
     links: [{ label: "J Clin Oncol 2026", url: "https://doi.org/10.1200/JCO-25-00929" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/41499716/" }],
     cancers: ["metastatic-anal-cancer", "anal"], drugs: ["nivolumab", "ipilimumab"], trials: ["nci9673"], journals: ["jco"] }),
+
+  // ---------------------------------------------------------------- Colorectal (Lynch syndrome)
+  p({ id: "paper-capp2-aspirin-lynch-syndrome-10-year-burn-lancet-2020", name: "CAPP2: cancer prevention with aspirin in Lynch syndrome, 10-year follow-up and registry-based 20-year data",
+    tldr: "Ten years after two to four years of daily aspirin, people with Lynch syndrome had developed about a third fewer bowel cancers than those on placebo, confirming aspirin as a preventive treatment for the condition.",
+    summary: "Double-blind randomised placebo-controlled trial: 861 carriers of Lynch syndrome from 43 international centres were assigned to 600 mg aspirin daily or placebo (mean treatment 25 months) and followed for a mean of ten years, up to 20 years through registries.\n\nColorectal cancer developed in 40 of 427 (9 percent) on aspirin and 58 of 434 (13 percent) on placebo (hazard ratio 0.65, p 0.035; incidence rate ratio 0.58). Among 509 who completed two years of treatment the hazard ratio was 0.56. Non-colorectal Lynch cancers were not significantly reduced and adverse events did not differ during treatment.",
+    journal: "The Lancet", year: 2020, doi: "10.1016/S0140-6736(20)30366-4", pmid: "32534647",
+    authors: "Burn J, Sheth H, Elliott F, et al.", paperType: "rct", participants: 861, changedPractice: true,
+    findings: ["Colorectal cancer in 9 percent on aspirin versus 13 percent on placebo over 10 years; hazard ratio 0.65 (95% CI 0.43 to 0.97), p 0.035.", "Per-protocol hazard ratio 0.56 (0.34 to 0.91) among 509 who completed 2 years of treatment.", "Incidence rate ratio 0.58 (0.39 to 0.87) accounting for multiple primary cancers."],
+    whatItMeans: "Daily aspirin is recommended for people with Lynch syndrome; the optimal dose is being tested in CaPP3.",
+    caveats: ["Registered with ISRCTN only (ISRCTN59521990); the benefit appeared only after several years of follow-up and the 600 mg dose carries bleeding risk."],
+    links: [{ label: "Lancet 2020", url: "https://doi.org/10.1016/S0140-6736(20)30366-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32534647/" }],
+    cancers: ["msi-high-colorectal"], drugs: ["aspirin"], trials: ["capp2"], journals: ["lancet"] }),
 ];

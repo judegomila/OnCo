@@ -762,6 +762,20 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Grade 3 or worse treatment-related adverse events, part B", unit: "%", arms: [{ name: "Nivolumab + ipilimumab", value: 25, note: "12 patients" }, { name: "Nivolumab", value: 12, note: "6 patients" }], source: doi("10.1200/JCO-25-00929") },
     ],
     drugs: ["nivolumab", "ipilimumab"], cancers: ["metastatic-anal-cancer", "anal"], institutions: ["nci", "md-anderson"], keyPapers: ["paper-nci9673-nivolumab-metastatic-anal-cancer-morris-lancet-oncol-2017", "paper-nci9673-part-b-nivolumab-ipilimumab-anal-cancer-morris-jco-2026"], links: [ct("NCT02314169")] }),
+
+  // ---------------------------------------------------------------- Colorectal (Lynch syndrome)
+  t({ id: "capp2", name: "CAPP2", aka: ["CAPP 2", "Colorectal Adenoma/Carcinoma Prevention Programme 2"], nct: "ISRCTN59521990", phase: "3", status: "positive", yearReported: 2020, sponsor: "Newcastle University (CAPP2 Investigators)", enrolled: 861, enrolledBasis: "randomised", enrolledNote: "CAPP2 has no ClinicalTrials.gov record; the figure is the 861 participants randomised in the Lancet 2020 report (427 aspirin, 434 placebo) of 937 who started treatment; the trial is registered as ISRCTN59521990.",
+    technologies: ["aspirin-cancer-prevention"],
+    setting: "People with Lynch syndrome at 43 centres worldwide: 600 mg aspirin daily or placebo for up to four years (a resistant starch factorial arm was reported separately), with colorectal cancer as the primary endpoint over a planned ten years of follow-up",
+    tldr: "CAPP2 followed people with Lynch syndrome, an inherited condition that carries a very high risk of bowel cancer, for ten years after two to four years on aspirin or placebo: those who took aspirin developed about a third fewer bowel cancers, which is why daily aspirin is now offered to people with the syndrome.",
+    summary: "CAPP2 was a double-blind randomised placebo-controlled trial in which 861 carriers of Lynch syndrome from 43 international centres were assigned to 600 mg aspirin daily or placebo, with treatment lasting a mean of 25 months, and cancer outcomes followed for at least ten years (up to 20 years through registries in England, Finland and Wales). The primary endpoint was colorectal cancer.\n\nOver a mean of ten years, 40 of 427 aspirin participants (9 percent) developed colorectal cancer against 58 of 434 on placebo (13 percent), a hazard ratio of 0.65 by intention to treat and 0.56 among those who completed two years of treatment. Non-colorectal Lynch cancers were not significantly reduced and adverse events during treatment did not differ. The trial is the evidence for daily aspirin in Lynch syndrome on the corpus's mismatch-repair-deficient colorectal cancer page, and the CaPP3 dose-finding trial followed it.",
+    result: "Colorectal cancer in 9 percent of participants on aspirin against 13 percent on placebo over ten years (hazard ratio 0.65, p 0.035); hazard ratio 0.56 among those who completed two years of treatment.",
+    outcomes: [
+      { endpoint: "Colorectal cancer over a mean of 10 years of follow-up (intention to treat)", primary: true, unit: "%", arms: [{ name: "Aspirin 600 mg daily", n: 427, value: 9, note: "40 cases" }, { name: "Placebo", n: 434, value: 13, note: "58 cases" }], hr: 0.65, ci: [0.43, 0.97], p: "0.035", source: doi("10.1016/S0140-6736(20)30366-4") },
+      { endpoint: "Colorectal cancer, per protocol (at least 2 years of treatment)", unit: "%", arms: [{ name: "Aspirin 600 mg daily", note: "509 participants across both arms completed 2 years" }, { name: "Placebo" }], hr: 0.56, ci: [0.34, 0.91], p: "0.019", source: doi("10.1016/S0140-6736(20)30366-4") },
+      { endpoint: "Incidence rate ratio for colorectal cancer accounting for multiple primaries (intention to treat)", arms: [{ name: "Aspirin 600 mg daily", value: 0.58, note: "95% CI 0.39 to 0.87, p 0.0085" }, { name: "Placebo", value: 1 }], source: doi("10.1016/S0140-6736(20)30366-4") },
+    ],
+    drugs: ["aspirin"], cancers: ["msi-high-colorectal"], keyPapers: ["paper-capp2-aspirin-lynch-syndrome-10-year-burn-lancet-2020"], links: [{ label: "ISRCTN59521990", url: "https://www.isrctn.com/ISRCTN59521990" }] }),
 ];
 
 /** Chinese TL;DRs, folded into src/data/i18n/zh.ts by scripts/fold-zh.ts. */
@@ -823,4 +837,5 @@ export const tldrZh: Record<string, string> = {
   "pod1um-303": "POD1UM-303 显示，在晚期肛门癌标准卡铂 (carboplatin) 加紫杉醇化疗基础上加免疫治疗药瑞替凡利单抗 (retifanlimab)，中位进展时间延长约两个月，进展风险降低 37%，成为首个改善该癌症一线治疗的免疫疗法。",
   interaact: "InterAACT 是晚期肛门癌有史以来首个随机试验；两种化疗组合缩小肿瘤的频率相同，但卡铂 (carboplatin) 加紫杉醇的严重副作用少得多，患者也活得更久，成为标准化疗骨架。",
   nci9673: "NCI9673 是肛门癌首个完成的免疫治疗试验：纳武利尤单抗 (nivolumab) 单药使四分之一经多线治疗的患者肿瘤缩小，使 PD-1 阻断成为后线标准选择，但后续随机部分显示加用伊匹木单抗无益且增加毒性。",
+  capp2: "CAPP2 对林奇综合征（一种肠癌风险极高的遗传病）患者在服用两到四年阿司匹林或安慰剂后随访十年：服阿司匹林者肠癌减少约三分之一，因此如今向该综合征患者提供每日阿司匹林。",
 };

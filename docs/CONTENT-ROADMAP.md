@@ -88,6 +88,7 @@ Wave 3 (the trials behind standard of care) started on 22 September 2026 in `src
 | Sarcoma (Kaposi; AEWS0031 sits in the childhood row) | 1 | 1 | 1 | 1 | none |
 | Anal (incl. HSIL precursor) | 4 | 4 | 5 | 6 | PLATO ACT5 is ISRCTN-only with no results and no publication by registry id |
 | Lung | 0 (IMpower010 already existed as nct02486718; gained its alias, status and registry outcomes) | 1 | 0 (paper existed) | 0 (row already linked) | JCOG0802 is registered with UMIN only |
+| Colorectal (Lynch syndrome) | 1 | 1 | 1 | 1 | CAPP2 is ISRCTN-only and written from its Lancet 2020 report |
 
 Structured outcomes were also added in place to 8 of the 75 hand-written trials without them (ARANOTE, CheckMate 915, PACIFIC-2, INTELLANCE-1, ATEMPT, ASPEN, DESTINY-Gastric02, AREN0532), each quoting the ClinicalTrials.gov results section; the remaining 67 are recruiting or active trials with no results posted, platform or observational studies, or trials whose registry entry carries no results section (VERONA, TAM-01, CODEL, DART, IMPRESS, GBM AGILE).
 

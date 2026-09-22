@@ -4,14 +4,40 @@ import Link from "next/link";
 import { funding } from "@/data/funding";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity } from "@/lib/schema";
-import { ChipList, Container, GroupKicker, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({ title: "Funding flows", description: "Where the money in the war on cancer comes from: government, charity, EU, and industry, with sources.", path: "/funding/" });
 
+type FundingType = (typeof funding)[number]["type"];
+const TYPE_LABEL: Record<FundingType, string> = { government: "Government", eu: "European Union", charity: "Charities and foundations", industry: "Industry" };
+const COLUMNS: StaticColumn[] = [
+  { key: "funder", label: "Funder", className: "min-w-[200px]" },
+  { key: "type", label: "Type", filterable: true, order: Object.values(TYPE_LABEL) },
+  { key: "country", label: "Country", filterable: true, hide: "hidden lg:table-cell" },
+  { key: "amount", label: "Amount", className: "font-semibold tabular-nums min-w-[140px]" },
+  { key: "what", label: "What", className: "text-muted min-w-[260px]" },
+  { key: "year", label: "Year", filterable: true, sortable: true, numeric: true, className: "text-muted" },
+  { key: "linked", label: "Linked", className: "min-w-[160px]" },
+  { key: "source", label: "Source" },
+];
+
 export default function Funding() {
   const g = graph();
-  const types: Array<[FundingType, string]> = [["government", "Government"], ["eu", "European Union"], ["charity", "Charities and foundations"], ["industry", "Industry"]];
-  type FundingType = (typeof funding)[number]["type"];
+  const rows: StaticRow[] = funding.map((f) => {
+    const refs = f.refs.map((id) => g.get(id)).filter((x): x is Entity => !!x);
+    return {
+      id: f.id,
+      funder: { text: f.funder, strong: true },
+      type: TYPE_LABEL[f.type],
+      country: f.country,
+      amount: f.amount,
+      what: { text: f.what, sub: f.note },
+      year: String(f.year),
+      linked: refs.map((e) => ({ text: e.name, href: routeFor(e), chip: "border border-border bg-card text-xs" })),
+      source: { text: "source", href: f.source, ext: true, className: "text-xs" },
+    };
+  });
   return (
     <>
       <PageHeader kicker={<GroupKicker id="who" />} title="Funding flows"
@@ -20,35 +46,7 @@ export default function Funding() {
         <div className="prose-onco text-[15px] leading-relaxed max-w-3xl mb-8">
           <p>Two facts frame everything else. The US National Cancer Institute is the largest single funder of cancer research, at roughly seven billion dollars a year, and it pays for the infrastructure the rest of the field depends on: the designated centres, the cooperative groups, and the registries. Industry spending on cancer medicines is an order of magnitude larger and is what pays for late-stage trials; that is why the products on this site cluster where the market is, and why cooperative groups and charities matter for the questions industry will not fund, such as de-escalation, exercise, and comparisons between approved drugs.</p>
         </div>
-        {types.map(([t, label]) => {
-          const rows = funding.filter((f) => f.type === t);
-          if (!rows.length) return null;
-          return (
-            <section key={t} className="mt-8">
-              <h2 className="text-lg font-semibold mb-3">{label}</h2>
-              <div className="overflow-x-auto card">
-                <table className="onco">
-                  <thead><tr><th>Funder</th><th>Amount</th><th>What</th><th>Year</th><th>Linked</th><th>Source</th></tr></thead>
-                  <tbody>
-                    {rows.map((f) => {
-                      const refs = f.refs.map((id) => g.get(id)).filter((x): x is Entity => !!x);
-                      return (
-                        <tr key={f.id}>
-                          <td className="font-medium min-w-[200px]">{f.funder}<div className="text-xs text-muted">{f.country}</div></td>
-                          <td className="font-semibold tabular-nums min-w-[140px]">{f.amount}</td>
-                          <td className="text-muted min-w-[260px]">{f.what}{f.note && <div className="text-xs mt-1">{f.note}</div>}</td>
-                          <td className="tabular-nums text-muted">{f.year}</td>
-                          <td className="min-w-[160px]">{refs.length ? <ChipList items={refs} /> : <span className="text-muted">-</span>}</td>
-                          <td><a className="underline text-xs" href={f.source} rel="noopener">source</a></td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </div>
-            </section>
-          );
-        })}
+        <StaticTable rows={rows} columns={COLUMNS} noun="funders" url defaultSort={{ key: "year", dir: -1 }} />
         <p className="text-sm text-muted mt-8">Missing a funder? Add a sourced row to <code>src/data/funding.ts</code>. See <Link className="underline" href="/gaps/">gaps</Link> for other places to help, and <Link className="underline" href={routeFor(g.must("nci"))}>the NCI page</Link> for what its budget buys.</p>
       </Container>
     </>

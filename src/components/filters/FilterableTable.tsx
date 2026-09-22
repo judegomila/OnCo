@@ -40,9 +40,9 @@ const toStrings = (v: unknown): string[] => (Array.isArray(v) ? v.flatMap(toStri
  * that pass, and the selection so a toolbar can show the same facets. With `url` the state is read from and
  * written to the query string exactly as EntityBrowser does (`?key=value`, repeating), using the column keys.
  */
-export function useColumnFilters<T>(rows: T[], columns: FilterableColumn<T>[], opts: { url?: boolean; defaultSort?: SortState; query?: string } = {}) {
-  const { url = false, defaultSort, query = "" } = opts;
-  const [sel, setSel] = useState<Record<string, string[]>>({});
+export function useColumnFilters<T>(rows: T[], columns: FilterableColumn<T>[], opts: { url?: boolean; defaultSort?: SortState; query?: string; initial?: Record<string, string[]> } = {}) {
+  const { url = false, defaultSort, query = "", initial } = opts;
+  const [sel, setSel] = useState<Record<string, string[]>>(initial ?? {});
   const [sort, setSort] = useState<SortState | undefined>(defaultSort);
   const [synced, setSynced] = useState(!url);
   const valueOf = (c: FilterableColumn<T>, r: T): string[] => toStrings(c.value ? c.value(r) : (r as Record<string, unknown>)[c.key]);
@@ -135,16 +135,23 @@ export function useColumnFilters<T>(rows: T[], columns: FilterableColumn<T>[], o
  * Every `filterable` column filters from its header; `url` keeps the state in the query string. Extra toolbar
  * content (a search box, a toggle) goes in `toolbar`; pass `query` when a search box outside drives the rows.
  */
-export function FilterableTable<T>({ rows, columns, rowKey, noun, url = false, defaultSort, pageSize, scroll, empty, toolbar, toolbarRight, query }: {
+export function FilterableTable<T>({ rows, columns, rowKey, noun, url = false, defaultSort, pageSize, scroll, empty, toolbar, toolbarRight, query, initial }: {
   rows: T[]; columns: FilterableColumn<T>[]; rowKey: (r: T) => string; noun: string; url?: boolean; defaultSort?: SortState; pageSize?: number; scroll?: boolean; empty?: string;
   toolbar?: ReactNode; toolbarRight?: ReactNode; query?: string;
+  /** Selection to start from before the URL (if any) is read: the server can pre-filter a table. */
+  initial?: Record<string, string[]>;
 }) {
-  const cf = useColumnFilters(rows, columns, { url, defaultSort, query });
+  const cf = useColumnFilters(rows, columns, { url, defaultSort, query, initial });
   const { t } = useT();
   return (
     <div>
       <Toolbar count={cf.filtered.length} total={rows.length} noun={noun}
-        left={<>{toolbar}{cf.active ? <button type="button" onClick={cf.clear} className="text-sm underline text-muted">{t("clear")}</button> : null}</>}
+        left={<>{toolbar}{cf.active ? (
+          <button type="button" onClick={cf.clear} data-clear-filters className="chip border border-border bg-card text-sm hover:bg-accent-soft hover:text-accent hover:border-accent inline-flex items-center gap-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">
+            <svg aria-hidden viewBox="0 0 12 12" width="10" height="10" className="shrink-0"><path d="M3 3l6 6M9 3l-6 6" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" /></svg>
+            {t("clear")}
+          </button>
+        ) : null}</>}
         right={toolbarRight} />
       <ResultsTable columns={cf.columns} rows={cf.filtered} rowKey={rowKey} sort={cf.sort} onSort={cf.onSort} pageSize={pageSize} scroll={scroll} empty={empty} />
     </div>

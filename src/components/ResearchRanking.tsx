@@ -3,6 +3,7 @@
 import { useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { ResultsTable, type Column, type SortState } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 
 /** One row of the /universities/ OpenAlex tables, flattened so the server can hand it to this client component. */
 export type RankingRow = {
@@ -30,8 +31,11 @@ const n = (v: number | null | undefined) => (v === null || v === undefined ? "-"
 /** Sortable OpenAlex output table: two-year counts from institutions.json and five-year counts from research-index.json. */
 export function ResearchRanking({ rows, years, mode }: { rows: RankingRow[]; years: [number, number] | null; mode: "institution" | "university" }) {
   const [sort, setSort] = useState<SortState>({ key: "works2", dir: -1 });
+  const hf = useHeaderFilters();
   const hasCited2 = rows.some((r) => r.cited2yr !== null);
   const has5 = years !== null && rows.some((r) => r.works5 !== null);
+  const parentOf = (r: RankingRow) => r.sub ?? "No parent recorded";
+  const inIndex = (r: RankingRow) => (r.works5 === null ? "Not in the five-year index" : "In the five-year index");
   const sorted = useMemo(() => {
     const val = (r: RankingRow): number => {
       switch (sort.key) {
@@ -44,16 +48,17 @@ export function ResearchRanking({ rows, years, mode }: { rows: RankingRow[]; yea
         default: return 0;
       }
     };
-    const list = [...rows];
+    const list = rows.filter((r) => hf.pass("parent", [parentOf(r)]) && hf.pass("index5", [inIndex(r)]));
     list.sort((a, b) => (sort.key === "name" ? sort.dir * a.name.localeCompare(b.name) : sort.dir * (val(a) - val(b)) || a.name.localeCompare(b.name)));
     return list;
-  }, [rows, sort]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- hf.pass reads hf.sel
+  }, [rows, sort, hf.sel]);
   const onSort = (key: string) => setSort((s) => (s.key === key ? { key, dir: s.dir === 1 ? -1 : 1 } : { key, dir: key === "name" ? 1 : -1 }));
   const window = years ? `${years[0]} to ${years[1]}` : "";
 
   const columns: Column<RankingRow>[] = [
     { key: "rank", label: "#", render: (_, i) => <span className="tabular-nums text-muted">{i + 1}</span>, className: "w-10" },
-    { key: "name", label: mode === "institution" ? "Institution" : "University / parent", sortable: true, render: (r) => (
+    { key: "name", label: mode === "institution" ? "Institution" : "University / parent", sortable: true, filter: mode === "institution" ? hf.spec("parent", countOptions(rows.map(parentOf))) : undefined, render: (r) => (
       <div className="flex items-center gap-2 min-w-[220px]">{r.logo}<div>{r.href ? <Link href={r.href} className="font-medium hover:underline">{r.name}</Link> : <span className="font-medium">{r.name}</span>}{r.sub && <div className="text-xs text-muted">{r.sub}</div>}</div></div>) },
     ...(mode === "university" ? [{ key: "members", label: "Institutions counted", render: (r: RankingRow) => <span className="text-sm min-w-[220px] inline-block">{(r.members ?? []).map((m) => <Link key={m.id} href={m.href} className="underline mr-2">{m.name}</Link>)}</span> } satisfies Column<RankingRow>] : []),
     ...(mode === "institution" ? [{ key: "match", label: "OpenAlex match", hide: "hidden md:table-cell", render: (r: RankingRow) => r.openalexId ? <a className="underline text-xs text-muted" href={`https://openalex.org/${r.openalexId}`} rel="noopener">{r.openalexName}</a> : <span className="text-muted">-</span> } satisfies Column<RankingRow>] : []),
@@ -64,7 +69,7 @@ export function ResearchRanking({ rows, years, mode }: { rows: RankingRow[]; yea
     { key: "works2", label: "2024+2025", sortable: true, tip: "Oncology works published in 2024 and 2025 together.", render: (r) => <span className="tabular-nums font-semibold">{n(r.works2024 + r.works2025)}</span> },
     ...(hasCited2 ? [{ key: "cited2", label: "Citations 2024+2025", sortable: true, hide: "hidden xl:table-cell", tip: "OpenAlex citations to the 2024 and 2025 works.", render: (r: RankingRow) => <span className="tabular-nums text-muted">{n(r.cited2yr)}</span> } satisfies Column<RankingRow>] : []),
     ...(has5 ? [
-      { key: "works5", label: `Works ${window}`, sortable: true, tip: `Oncology works published ${window} (the last five years, current year in progress), from public/openalex/research-index.json.`, render: (r: RankingRow) => <span className="tabular-nums">{n(r.works5)}</span> } satisfies Column<RankingRow>,
+      { key: "works5", label: `Works ${window}`, sortable: true, tip: `Oncology works published ${window} (the last five years, current year in progress), from public/openalex/research-index.json.`, filter: hf.spec("index5", countOptions(rows.map(inIndex))), render: (r: RankingRow) => <span className="tabular-nums">{n(r.works5)}</span> } satisfies Column<RankingRow>,
       { key: "cited5", label: `Citations ${window}`, sortable: true, tip: "OpenAlex citations to the five-year works.", render: (r: RankingRow) => <span className="tabular-nums text-muted">{n(r.cited5)}</span> } satisfies Column<RankingRow>,
     ] : []),
   ];

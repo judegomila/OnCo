@@ -5,6 +5,7 @@ import { feedStatuses, readPublicJson, type FeedStatus } from "@/lib/feed-meta";
 import { incidents } from "@/data/incidents";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { runAudit } from "../../../scripts/audit";
+import { StaticTable, type CellObj, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({ title: "Data currency", description: "When each automated feed last ran, what it holds, which snapshots are stale, how many records are overdue for a re-check, and the incident log.", path: "/status/" });
 
@@ -38,12 +39,23 @@ function CiBadge() {
   );
 }
 
-function Age({ s }: { s: FeedStatus }) {
-  if (!s.present) return <span className="chip bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">not run</span>;
-  if (s.stale) return <span className="chip bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200">stale</span>;
-  if ((s.ageDays ?? 0) > s.cadenceDays) return <span className="chip bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200">due</span>;
-  return <span className="chip bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200">fresh</span>;
+function state(s: FeedStatus): CellObj {
+  if (!s.present) return { text: "not run", chip: "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300" };
+  if (s.stale) return { text: "stale", chip: "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200" };
+  if ((s.ageDays ?? 0) > s.cadenceDays) return { text: "due", chip: "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200" };
+  return { text: "fresh", chip: "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200" };
 }
+
+const FEED_COLUMNS: StaticColumn[] = [
+  { key: "feed", label: "Feed" },
+  { key: "state", label: "State", filterable: true, order: ["fresh", "due", "stale", "not run"] },
+  { key: "fetched", label: "Fetched", sortable: true, numeric: false },
+  { key: "age", label: "Age", sortable: true, numeric: true, className: "text-right text-muted" },
+  { key: "count", label: "Count", sortable: true, numeric: true, className: "text-right" },
+  { key: "snapshot", label: "Snapshot", hide: "hidden md:table-cell", className: "text-xs" },
+  { key: "schedule", label: "Source and schedule", hide: "hidden lg:table-cell", className: "text-xs text-muted" },
+  { key: "how", label: "Runs", filterable: true, hide: "hidden xl:table-cell", className: "text-xs text-muted" },
+];
 
 export default function StatusPage() {
   const now = new Date();
@@ -57,6 +69,17 @@ export default function StatusPage() {
   const stale = feeds.filter((f) => f.present && f.stale);
   const missing = feeds.filter((f) => !f.present);
   const open = incidents.filter((i) => i.status === "open");
+  const feedRows: StaticRow[] = feeds.map((f) => ({
+    id: f.id,
+    feed: { text: f.label, strong: true, sub: f.script },
+    state: state(f),
+    fetched: f.fetched ? { text: f.fetched, mono: true, className: "text-xs" } : undefined,
+    age: f.ageDays !== undefined ? { text: `${f.ageDays} d`, v: f.ageDays } : undefined,
+    count: f.count !== undefined ? { text: f.count.toLocaleString("en-GB"), v: f.count, sub: f.note } : f.note ? { text: "", v: -1, sub: f.note } : undefined,
+    snapshot: f.present ? { text: f.path, href: `/${f.path}`, ext: true } : { text: f.path, muted: true },
+    schedule: `${f.source}. Every ${f.cadenceDays} days${f.workflow ? ", automatically" : ", by hand"}.`,
+    how: f.workflow ? { text: "automatically", href: `${REPO}/actions/workflows/${f.workflow}`, ext: true } : "by hand",
+  }));
 
   return (
     <>
@@ -75,24 +98,7 @@ export default function StatusPage() {
 
         <section>
           <h2 className="text-xl font-semibold mb-3">Feeds</h2>
-          <div className="card overflow-x-auto">
-            <table className="onco">
-              <thead><tr><th>Feed</th><th>State</th><th>Fetched</th><th className="text-right">Age</th><th className="text-right">Count</th><th className="hidden md:table-cell">Snapshot</th><th className="hidden lg:table-cell">Source and schedule</th></tr></thead>
-              <tbody>
-                {feeds.map((f) => (
-                  <tr key={f.id}>
-                    <td><div className="font-medium">{f.label}</div><div className="text-xs text-muted"><code>{f.script}</code></div></td>
-                    <td><Age s={f} /></td>
-                    <td className="font-mono text-xs">{f.fetched ?? ""}</td>
-                    <td className="text-right tabular-nums text-muted">{f.ageDays !== undefined ? `${f.ageDays} d` : ""}</td>
-                    <td className="text-right tabular-nums">{f.count !== undefined ? f.count.toLocaleString() : ""}{f.note && <div className="text-[11px] text-muted font-normal">{f.note}</div>}</td>
-                    <td className="hidden md:table-cell text-xs">{f.present ? <a className="underline" href={`/${f.path}`}>{f.path}</a> : <span className="text-muted">{f.path}</span>}</td>
-                    <td className="hidden lg:table-cell text-xs text-muted">{f.source}. Every {f.cadenceDays} days{f.workflow ? <>, <a className="underline" href={`${REPO}/actions/workflows/${f.workflow}`} rel="noopener">automatically</a></> : ", by hand"}.</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <StaticTable rows={feedRows} columns={FEED_COLUMNS} noun="feeds" url />
           <p className="text-xs text-muted mt-2">A feed is <em>due</em> once it is older than its cadence and <em>stale</em> at twice the cadence. Counts are the headline number each snapshot carries; details on the pages that use the feed: <Link className="underline" href="/regulatory/">regulatory</Link>, <Link className="underline" href="/calendar/">calendar</Link>, <Link className="underline" href="/digests/">digests</Link>, <Link className="underline" href="/pulse/">pulse</Link>, <Link className="underline" href="/papers/">papers</Link>, <Link className="underline" href="/hta/">HTA</Link>, <Link className="underline" href="/survival/">survival</Link>, <Link className="underline" href="/audit/">audit</Link>.</p>
         </section>
 

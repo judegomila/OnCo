@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { runFreshness, TRACK_META, type Freshness } from "../../../scripts/freshness";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({ title: "Freshness", description: "How old is too old for each kind of OnCo record, by review track, and which records are past their re-check date.", path: "/freshness/" });
 
@@ -14,10 +15,45 @@ const TRACK_CLASS: Record<string, string> = {
   editorial: "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300",
 };
 
+const SLA_COLUMNS: StaticColumn[] = [
+  { key: "records", label: "Records" },
+  { key: "track", label: "Track", filterable: true },
+  { key: "days", label: "Max age (days)", sortable: true, numeric: true },
+  { key: "critical", label: "Critical", filterable: true },
+  { key: "checked", label: "Checked", sortable: true, numeric: true },
+  { key: "stale", label: "Past due", sortable: true, numeric: true },
+];
+const STALE_COLUMNS: StaticColumn[] = [
+  { key: "entity", label: "Entity" },
+  { key: "critical", label: "Critical", filterable: true, hide: "hidden md:table-cell" },
+  { key: "kind", label: "Kind", filterable: true, className: "text-muted" },
+  { key: "sla", label: "SLA", filterable: true, className: "text-muted" },
+  { key: "asOf", label: "Last checked", sortable: true, numeric: false, className: "text-muted" },
+  { key: "over", label: "Days over", sortable: true, numeric: true },
+];
+
 export default function FreshnessPage() {
   // Pure function of the corpus: compute at build so the page can never be stale relative to the data.
   const f: Freshness = runFreshness();
   const shown = f.stale.slice(0, 120);
+  const slaRows: StaticRow[] = f.slas.map((s) => ({
+    id: s.id,
+    records: s.label,
+    track: { text: TRACK_META[s.track].label, chip: TRACK_CLASS[s.track] },
+    days: s.days,
+    critical: s.critical,
+    checked: s.checked,
+    stale: { text: String(s.stale), v: s.stale, strong: s.stale > 0 },
+  }));
+  const staleRows: StaticRow[] = shown.map((s) => ({
+    id: s.id,
+    entity: { text: s.name, href: s.route, strong: true },
+    critical: s.critical ? { text: "critical", chip: "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200" } : { text: "no", v: "no", muted: true },
+    kind: s.kind,
+    sla: s.sla,
+    asOf: s.asOf,
+    over: s.over,
+  }));
   return (
     <>
       <PageHeader kicker={<GroupKicker id="intel" />} title="Freshness"
@@ -43,10 +79,7 @@ export default function FreshnessPage() {
 
         <h2 className="text-xl font-semibold mb-3">The SLAs</h2>
         <p className="text-sm text-muted mb-4 max-w-3xl">Days since a record was last checked before it is due for a re-check. Critical SLAs cover the records where a stale fact can mislead a reader today: approved products, open trials, cancer pages and the readout calendar.</p>
-        <div className="card overflow-x-auto mb-10">
-          <table className="onco"><thead><tr><th>Records</th><th>Track</th><th>Max age (days)</th><th>Critical</th><th>Checked</th><th>Past due</th></tr></thead>
-            <tbody>{f.slas.map((s) => <tr key={s.id}><td>{s.label}</td><td><span className={`chip ${TRACK_CLASS[s.track]}`}>{TRACK_META[s.track].label}</span></td><td className="tabular-nums">{s.days}</td><td>{s.critical ? "yes" : "no"}</td><td className="tabular-nums">{s.checked}</td><td className={`tabular-nums ${s.stale ? "font-semibold" : ""}`}>{s.stale}</td></tr>)}</tbody></table>
-        </div>
+        <div className="mb-10"><StaticTable rows={slaRows} columns={SLA_COLUMNS} noun="SLAs" url /></div>
 
         <h2 className="text-xl font-semibold mb-3">Past due</h2>
         {f.stale.length === 0 && f.calendarStale.length === 0 ? <div className="card p-6 text-sm text-muted">Nothing is past due: every record and calendar event was checked within its SLA when this page was built ({f.today}).</div> : (
@@ -55,10 +88,7 @@ export default function FreshnessPage() {
               <div className="card overflow-x-auto mb-6"><table className="onco"><thead><tr><th>Calendar event</th><th>Kind</th><th>Date</th><th>Days ago</th></tr></thead>
                 <tbody>{f.calendarStale.map((c, i) => <tr key={i}><td><Link href="/calendar/" className="font-medium hover:underline">{c.title}</Link></td><td className="text-muted">{c.kind}</td><td className="tabular-nums text-muted">{c.date}</td><td className="tabular-nums">{c.days}</td></tr>)}</tbody></table></div>
             )}
-            {shown.length > 0 && (
-              <div className="card overflow-x-auto"><table className="onco"><thead><tr><th>Entity</th><th>Kind</th><th>SLA</th><th>Last checked</th><th>Days over</th></tr></thead>
-                <tbody>{shown.map((s) => <tr key={s.id}><td><Link href={s.route} className="font-medium hover:underline">{s.name}</Link>{s.critical && <span className="chip ml-2 bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200">critical</span>}</td><td className="text-muted">{s.kind}</td><td className="text-muted">{s.sla}</td><td className="tabular-nums text-muted">{s.asOf}</td><td className="tabular-nums">{s.over}</td></tr>)}</tbody></table></div>
-            )}
+            {shown.length > 0 && <StaticTable rows={staleRows} columns={STALE_COLUMNS} noun="records" defaultSort={{ key: "over", dir: -1 }} />}
             {f.stale.length > shown.length && <p className="text-xs text-muted mt-3">Showing the {shown.length} most overdue of {f.stale.length}.</p>}
           </>
         )}

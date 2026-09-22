@@ -5,6 +5,8 @@ import { useMemo, useState } from "react";
 import { BODY_META, type GuidelineBodyId, type GuidelineMapEntry } from "@/data/guideline-map";
 import { concordanceOf, STANCE_CLASS, STANCE_LABEL, type Concordance } from "@/lib/guidelines-shared";
 import { FacetSelect } from "./filters/FacetSelect";
+import { FilterHead } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 import { Tip } from "./Tip";
 
 /**
@@ -24,7 +26,12 @@ export function GuidelineConcordance({ rows }: { rows: ConcordanceRow[] }) {
   const [onlyDisagree, setOnlyDisagree] = useState(false);
   const withVerdict = useMemo(() => rows.map((r) => ({ r, verdict: concordanceOf(r) })), [rows]);
   const cancerOptions = useMemo(() => [...new Map(rows.map((r) => [r.cancerId, r.cancerName])).entries()].map(([value, label]) => ({ value, label })).sort((a, b) => a.label.localeCompare(b.label)), [rows]);
-  const shown = withVerdict.filter(({ r, verdict }) => (!cancerSel.length || cancerSel.includes(r.cancerId)) && (!verdictSel || verdict === verdictSel) && (!onlyDisagree || verdict === "discordant"));
+  const hf = useHeaderFilters();
+  const stanceOf = (r: ConcordanceRow, b: GuidelineBodyId) => r.bodies.find((x) => x.body === b)?.stance ?? "none";
+  const stanceLabel = (v: string) => (v === "none" ? "No entry" : STANCE_LABEL[v as keyof typeof STANCE_LABEL] ?? v);
+  const shown = withVerdict.filter(({ r, verdict }) => (!cancerSel.length || cancerSel.includes(r.cancerId)) && (!verdictSel || verdict === verdictSel) && (!onlyDisagree || verdict === "discordant") && BODIES.every((b) => hf.pass(b, [stanceOf(r, b)])));
+  const cancerSpec = { options: countOptions(rows.map((r) => r.cancerId), { labels: Object.fromEntries(cancerOptions.map((o) => [o.value, o.label])) }), value: cancerSel, onChange: (v: string[]) => setCancerSel(v) };
+  const verdictSpec = { options: countOptions(withVerdict.map((x) => x.verdict), { labels: VERDICT_LABEL, order: Object.keys(VERDICT_LABEL) }), value: verdictSel ? [verdictSel] : [], onChange: (v: string[]) => setVerdictSel(v[0] ?? null), single: true };
 
   return (
     <div>
@@ -32,15 +39,16 @@ export function GuidelineConcordance({ rows }: { rows: ConcordanceRow[] }) {
         <FacetSelect label="Cancer" options={cancerOptions} value={cancerSel} onChange={(v) => setCancerSel(v as string[])} multi searchable allLabel="Any" width="w-56" />
         <FacetSelect label="Verdict" options={(Object.keys(VERDICT_LABEL) as Concordance[]).map((v) => ({ value: v, label: VERDICT_LABEL[v] }))} value={verdictSel} onChange={(v) => setVerdictSel(v as string | null)} searchable={false} allLabel="Any" width="w-48" />
         <label className="inline-flex items-center gap-2 text-sm"><input type="checkbox" checked={onlyDisagree} onChange={(e) => setOnlyDisagree(e.target.checked)} /> Only where bodies disagree</label>
+        {hf.active && <button type="button" onClick={hf.clear} className="text-sm underline text-muted">Clear stance filters</button>}
         <span className="ml-auto text-sm text-muted"><span className="font-semibold text-foreground tabular-nums">{shown.length}</span> of {rows.length} settings</span>
       </div>
       <div className="card overflow-x-auto">
         <table className="onco">
           <thead>
             <tr>
-              <th className="min-w-[260px]">Setting and intervention</th>
-              {BODIES.map((b) => <th key={b} className="text-center min-w-[150px]"><Tip title={`${BODY_META[b].label} · ${BODY_META[b].region}`} text={BODY_META[b].what} href={BODY_META[b].url} linkLabel="Body website →"><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{b}</span></Tip></th>)}
-              <th>Verdict</th>
+              <th className="min-w-[260px]"><FilterHead label="Cancer and setting" spec={cancerSpec} /></th>
+              {BODIES.map((b) => <th key={b} className="text-center min-w-[150px]"><FilterHead label={b} tip={`${BODY_META[b].label} (${BODY_META[b].region}). ${BODY_META[b].what}`} spec={hf.spec(b, countOptions(rows.map((r) => stanceOf(r, b)), { labels: stanceLabel, order: [...Object.keys(STANCE_LABEL), "none"] }))} /></th>)}
+              <th><FilterHead label="Verdict" spec={verdictSpec} /></th>
             </tr>
           </thead>
           <tbody>

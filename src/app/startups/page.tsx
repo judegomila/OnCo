@@ -7,6 +7,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef, type FacetLink, type LinkItem } from "@/components/EntityBrowser";
 import { StageIcon } from "@/components/StageIcon";
 import { logoSrc } from "@/lib/logos";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 import { COMPANY_TYPE_LABEL, fmtUsd, investors, latestRound, mostActiveInvestors, recentlyFunded, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf, startups, ycBatchLabel, ycBatchSortKey, ycCompanies } from "@/lib/startups";
 
 export const metadata: Metadata = pageMeta({
@@ -78,6 +79,14 @@ function rows(): { rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[] } {
   };
 }
 
+const INVESTOR_COLUMNS: StaticColumn[] = [
+  { key: "rank", label: "#", sortable: true, numeric: true, className: "text-muted" },
+  { key: "investor", label: "Investor" },
+  { key: "type", label: "Type", filterable: true, hide: "hidden sm:table-cell", className: "text-xs text-muted" },
+  { key: "country", label: "Country", filterable: true, hide: "hidden lg:table-cell", className: "text-xs text-muted" },
+  { key: "portfolio", label: "Portfolio", sortable: true, numeric: true, className: "text-right" },
+];
+
 function StageStrip({ list }: { list: Company[] }) {
   const counts = new Map<Stage, number>();
   for (const c of list) { const s = stageOf(c); if (s) counts.set(s, (counts.get(s) ?? 0) + 1); }
@@ -103,6 +112,14 @@ export default function Startups() {
   const built = rows();
   const nInvestors = investors().length;
   const yearsWithRounds = new Set(list.flatMap((c) => c.funding.map((f) => f.year)));
+  const investorRows: StaticRow[] = active.map((r, i) => ({
+    id: r.investor.id,
+    rank: i + 1,
+    investor: { text: r.investor.name, href: routeFor(r.investor), strong: true, sub: `${r.investor.hq}, ${r.investor.country}`, avatar: logoSrc(r.investor.id, r.investor.website) ?? "" },
+    type: r.investor.tags.includes("corporate-venture") ? "Corporate venture" : r.investor.tags.includes("foundation") ? "Foundation" : r.investor.tags.includes("accelerator") ? "Accelerator" : "Venture capital",
+    country: r.investor.country,
+    portfolio: { text: String(r.portfolio.length), v: r.portfolio.length, href: `/startups/?investor=${encodeURIComponent(r.investor.name)}`, className: "underline" },
+  }));
 
   return (
     <>
@@ -145,19 +162,7 @@ export default function Startups() {
               <Link href="/investors/" className="text-xs text-muted underline">All investors</Link>
             </div>
             <p className="text-sm text-muted mb-3">Counted from the graph: the number of OnCo companies that name the investor. This measures presence in this corpus, not fund size.</p>
-            <div className="overflow-x-auto card">
-              <table className="onco text-sm">
-                <thead><tr><th>#</th><th>Investor</th><th className="hidden sm:table-cell">Type</th><th className="text-right">Portfolio</th></tr></thead>
-                <tbody>{active.slice(0, 25).map((r, i) => (
-                  <tr key={r.investor.id}>
-                    <td className="tabular-nums text-muted">{i + 1}</td>
-                    <td><Link href={routeFor(r.investor)} className="font-medium hover:underline">{r.investor.name}</Link><div className="text-xs text-muted">{r.investor.hq}, {r.investor.country}</div></td>
-                    <td className="hidden sm:table-cell text-xs text-muted">{r.investor.tags.includes("corporate-venture") ? "Corporate venture" : r.investor.tags.includes("foundation") ? "Foundation" : r.investor.tags.includes("accelerator") ? "Accelerator" : "Venture capital"}</td>
-                    <td className="text-right tabular-nums"><Link href={`/startups/?investor=${encodeURIComponent(r.investor.name)}`} className="underline">{r.portfolio.length}</Link></td>
-                  </tr>
-                ))}</tbody>
-              </table>
-            </div>
+            <StaticTable rows={investorRows} columns={INVESTOR_COLUMNS} noun="investors" defaultSort={{ key: "rank", dir: 1 }} pageSize={25} />
           </section>
 
           <section id="recent">

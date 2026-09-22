@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
-import { Container, GroupKicker, KindChip, PageHeader } from "@/components/ui";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { issueUrl, REPO } from "@/lib/issue-links";
 import { reviewCoverage, reviewQueue, translationCoverage, TRACK_META, type Track } from "@/lib/review-queue";
 import { graph } from "@/lib/graph";
@@ -9,11 +9,44 @@ import { routeFor } from "@/lib/schema";
 import { panelOverview, STANCE_META } from "@/lib/model-reviews";
 import { DisagreeIcon, HumanIcon, MachineCommentaryNote, PanelIcon } from "@/components/ModelPanel";
 import { KindIcon } from "@/components/KindIcon";
+import { KIND_META } from "@/lib/kinds";
+import { KIND_COLOR } from "@/lib/text";
+import { StaticTable, type CellObj, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({ title: "Review: model panel and human queue", description: "A panel of named AI models comments on OnCo records (machine commentary, not clinical review) and a queue ranks which pages most need a named clinical, scientific, regulatory or patient-advocate reviewer.", path: "/review/" });
 
 const TRACKS: Track[] = ["clinical", "scientific", "regulatory", "advocate"];
 const pct = (a: number, b: number) => (b ? Math.round((a / b) * 100) : 0);
+
+const kindChip = (kind: string): CellObj => ({ text: KIND_META[kind as keyof typeof KIND_META]?.label ?? kind, v: kind, chip: `border ${KIND_COLOR[kind] ?? ""}` });
+const RECORD_COLUMNS: StaticColumn[] = [
+  { key: "kind", label: "Kind", filterable: true, optionLabels: Object.fromEntries(Object.entries(KIND_META).map(([k, m]) => [k, m.label])) },
+  { key: "record", label: "Record" },
+  { key: "models", label: "Models", sortable: true, numeric: true, className: "text-right" },
+  { key: "disagreements", label: "Disagreements", sortable: true, numeric: true, className: "text-right" },
+  { key: "split", label: "Panel", filterable: true, order: ["Split", "Agree"], hide: "hidden lg:table-cell", className: "text-xs text-muted" },
+  { key: "latest", label: "Latest", sortable: true, numeric: false, className: "text-muted" },
+  { key: "read", label: "", className: "text-right" },
+];
+const COVERAGE_COLUMNS: StaticColumn[] = [
+  { key: "kind", label: "Kind" },
+  { key: "total", label: "Pages", sortable: true, numeric: true, className: "text-right" },
+  { key: "expert", label: "Expert", sortable: true, numeric: true, className: "text-right" },
+  { key: "advocate", label: "Advocate", sortable: true, numeric: true, className: "text-right" },
+  { key: "any", label: "Any review", sortable: true, numeric: true, className: "text-right" },
+  { key: "needs", label: "Tracks needed", filterable: true, className: "text-xs text-muted" },
+];
+const QUEUE_COLUMNS: StaticColumn[] = [
+  { key: "rank", label: "#", sortable: true, numeric: true, className: "text-muted" },
+  { key: "kind", label: "Kind", filterable: true, optionLabels: Object.fromEntries(Object.entries(KIND_META).map(([k, m]) => [k, m.label])) },
+  { key: "page", label: "Page" },
+  { key: "score", label: "Score", sortable: true, numeric: true, className: "text-right" },
+  { key: "degree", label: "Links", sortable: true, numeric: true, className: "text-right" },
+  { key: "evidence", label: "Evidence", sortable: true, numeric: true, className: "text-right" },
+  { key: "age", label: "Age", sortable: true, numeric: true, className: "text-right" },
+  { key: "needs", label: "Needs", filterable: true, className: "text-xs text-muted" },
+  { key: "review", label: "", className: "text-right" },
+];
 
 const H2 = ({ id, icon, children }: { id?: string; icon: React.ReactNode; children: React.ReactNode }) => <h2 id={id} className="text-2xl font-semibold tracking-tight mb-3 inline-flex items-center gap-2"><span className="text-accent">{icon}</span>{children}</h2>;
 
@@ -26,6 +59,40 @@ export default function ReviewPage() {
   const panel = panelOverview();
   const g = graph();
   const splits = panel.records.filter((r) => r.disagreements > 0).length;
+  const recordRows: StaticRow[] = panel.records.map((r) => {
+    const e = g.get(r.recordId);
+    return {
+      id: r.recordId,
+      kind: e ? kindChip(e.kind) : undefined,
+      record: e ? { text: e.name, href: routeFor(e), strong: true, sub: r.example ? "Example" : undefined } : { text: r.recordId, mono: true },
+      models: r.models,
+      disagreements: r.disagreements ? { text: String(r.disagreements), v: r.disagreements, chip: STANCE_META.disputes.cls } : { text: "agree", v: 0, muted: true },
+      split: r.disagreements ? "Split" : "Agree",
+      latest: r.latest,
+      read: e ? { text: "Read the panel", href: routeFor(e), className: "text-xs underline whitespace-nowrap" } : undefined,
+    };
+  });
+  const coverageRows: StaticRow[] = cov.byKind.map((k) => ({
+    id: k.kind,
+    kind: kindChip(k.kind),
+    total: k.total,
+    expert: k.expert,
+    advocate: k.advocate,
+    any: { text: `${k.any} (${pct(k.any, k.total)}%)`, v: k.any },
+    needs: k.needs.map((t) => ({ text: TRACK_META[t].label })),
+  }));
+  const queueRows: StaticRow[] = top.map((q, i) => ({
+    id: q.id,
+    rank: i + 1,
+    kind: kindChip(q.kind),
+    page: { text: q.name, href: q.route, strong: true },
+    score: { text: String(q.score), v: q.score, title: `reach ${q.parts.reach} + stakes ${q.parts.stakes} + staleness ${q.parts.staleness}` },
+    degree: q.degree,
+    evidence: q.evidence ?? { text: "n/a", v: -1, muted: true },
+    age: { text: `${q.daysOld} d`, v: q.daysOld },
+    needs: q.missing.length ? q.missing.map((t) => ({ text: TRACK_META[t].label })) : { text: "reviewed", muted: true },
+    review: { text: "Review this page", href: q.issueUrl, ext: true, className: "text-xs whitespace-nowrap" },
+  }));
 
   return (
     <>
@@ -72,25 +139,7 @@ export default function ReviewPage() {
           <H2 icon={<DisagreeIcon className="h-6 w-6" />}>Where models disagree</H2>
           <p className="text-sm text-muted mb-4 max-w-3xl">Records with commentary, those that split the panel first. A split means two models gave the same claim different stances; the record page shows each position with its source.</p>
           {panel.records.length ? (
-            <div className="card overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead className="text-left text-xs text-muted"><tr><th className="p-3">Record</th><th className="p-3 text-right">Models</th><th className="p-3 text-right">Disagreements</th><th className="p-3">Latest</th><th className="p-3"></th></tr></thead>
-                <tbody className="divide-y divide-border">
-                  {panel.records.map((r) => {
-                    const e = g.get(r.recordId);
-                    return (
-                      <tr key={r.recordId}>
-                        <td className="p-3"><div className="flex items-center gap-2">{e && <KindChip kind={e.kind} />}{e ? <Link href={routeFor(e)} className="font-medium hover:underline">{e.name}</Link> : <code>{r.recordId}</code>}{r.example && <span className="chip border border-dashed border-foreground/30 text-muted">Example</span>}</div></td>
-                        <td className="p-3 text-right tabular-nums">{r.models}</td>
-                        <td className="p-3 text-right tabular-nums">{r.disagreements ? <span className={`chip ${STANCE_META.disputes.cls}`}>{r.disagreements}</span> : <span className="text-muted">agree</span>}</td>
-                        <td className="p-3 text-muted tabular-nums">{r.latest}</td>
-                        <td className="p-3 text-right">{e && <Link className="text-xs underline whitespace-nowrap" href={routeFor(e)}>Read the panel</Link>}</td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
+            <StaticTable rows={recordRows} columns={RECORD_COLUMNS} noun="records" defaultSort={{ key: "disagreements", dir: -1 }} />
           ) : <p className="text-sm text-muted">No record carries model commentary yet.</p>}
         </section>
 
@@ -102,48 +151,14 @@ export default function ReviewPage() {
             <div className="card p-4"><div className="kicker mb-1">Expert sign-offs</div><div className="text-2xl font-semibold tabular-nums">{cov.byTrack.expert}</div><div className="text-xs text-muted">clinical, scientific and regulatory tracks</div></div>
             <div className="card p-4"><div className="kicker mb-1">Patient-advocate sign-offs</div><div className="text-2xl font-semibold tabular-nums">{cov.byTrack.advocate}</div><div className="text-xs text-muted">TL;DRs, simple text and questions</div></div>
           </div>
-          <div className="card overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="text-left text-xs text-muted"><tr><th className="p-3">Kind</th><th className="p-3 text-right">Pages</th><th className="p-3 text-right">Expert</th><th className="p-3 text-right">Advocate</th><th className="p-3 text-right">Any review</th><th className="p-3">Tracks needed</th></tr></thead>
-              <tbody className="divide-y divide-border">
-                {cov.byKind.map((k) => (
-                  <tr key={k.kind}>
-                    <td className="p-3"><KindChip kind={k.kind} /></td>
-                    <td className="p-3 text-right tabular-nums">{k.total.toLocaleString("en-GB")}</td>
-                    <td className="p-3 text-right tabular-nums">{k.expert}</td>
-                    <td className="p-3 text-right tabular-nums">{k.advocate}</td>
-                    <td className="p-3 text-right tabular-nums">{k.any} <span className="text-muted">({pct(k.any, k.total)}%)</span></td>
-                    <td className="p-3 text-xs text-muted">{k.needs.map((t) => TRACK_META[t].label).join(", ")}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <StaticTable rows={coverageRows} columns={COVERAGE_COLUMNS} noun="kinds" defaultSort={{ key: "total", dir: -1 }} />
           <p className="text-xs text-muted mt-2 max-w-3xl">Companies, institutions, people, collections and journals are attributed (who wrote the record) rather than reviewed; organisations correct their own records through Suggest an edit.</p>
         </section>
 
         <section id="queue" className="scroll-mt-24 mt-12">
           <H2 icon={<KindIcon kind="person" className="h-6 w-6" />}>The human queue</H2>
           <p className="text-sm text-muted mb-4 max-w-3xl">Score out of 100: <strong>reach</strong> (graph connections, log-scaled, up to 40), <strong>stakes</strong> (evidence score or a kind default, up to 30), <strong>staleness</strong> (days since the record&apos;s <code>asOf</code>, a year is 30). Pages already reviewed on every track they need within a year sort to the bottom.</p>
-          <div className="card overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="text-left text-xs text-muted"><tr><th className="p-3">#</th><th className="p-3">Page</th><th className="p-3 text-right">Score</th><th className="p-3 text-right">Links</th><th className="p-3 text-right">Evidence</th><th className="p-3 text-right">Age</th><th className="p-3">Needs</th><th className="p-3"></th></tr></thead>
-              <tbody className="divide-y divide-border">
-                {top.map((q, i) => (
-                  <tr key={q.id}>
-                    <td className="p-3 text-muted tabular-nums">{i + 1}</td>
-                    <td className="p-3"><div className="flex items-center gap-2"><KindChip kind={q.kind} /><Link href={q.route} className="font-medium hover:underline">{q.name}</Link></div></td>
-                    <td className="p-3 text-right tabular-nums" title={`reach ${q.parts.reach} + stakes ${q.parts.stakes} + staleness ${q.parts.staleness}`}>{q.score}</td>
-                    <td className="p-3 text-right tabular-nums">{q.degree}</td>
-                    <td className="p-3 text-right tabular-nums">{q.evidence ?? <span className="text-muted">n/a</span>}</td>
-                    <td className="p-3 text-right tabular-nums">{q.daysOld} d</td>
-                    <td className="p-3 text-xs text-muted">{q.missing.length ? q.missing.map((t) => TRACK_META[t].label).join(", ") : "reviewed"}</td>
-                    <td className="p-3 text-right"><a className="text-xs underline whitespace-nowrap" href={q.issueUrl} rel="noopener">Review this page</a></td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <StaticTable rows={queueRows} columns={QUEUE_COLUMNS} noun="pages" url defaultSort={{ key: "rank", dir: 1 }} />
           <p className="text-xs text-muted mt-2">Showing the top {top.length} of {queue.length.toLocaleString("en-GB")} reviewable pages.</p>
         </section>
 

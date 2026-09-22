@@ -6,9 +6,9 @@ import { routeFor } from "@/lib/schema";
 import { readPublicJson } from "@/lib/feed-meta";
 import { INTERNATIONAL_SOURCES, SURVIVAL_SITES } from "@/data/survival-map";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
-import { Tip } from "@/components/Tip";
 import { GentleSection } from "@/components/GentleSection";
 import { WhatIsBeingDone } from "@/components/WhatIsBeingDone";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({ title: "Survival statistics", description: "What moves survival (stage at diagnosis, subtype and the treatments approved since the figures were collected), then five-year relative survival by cancer and stage from the NCI SEER programme, behind a click, with the period each figure covers and the caveats that matter.", path: "/survival/" });
 
@@ -21,15 +21,15 @@ const STAGES = ["Localized", "Regional", "Distant"];
 const stageValue = (s: Site, stage: string) => s.byStage.find((r) => r.stage.toLowerCase().startsWith(stage.toLowerCase()))?.survivalPct;
 const fmt = (n?: number) => (n === undefined ? "" : `${n.toFixed(1).replace(/\.0$/, "")}%`);
 
-function Bar({ pct }: { pct?: number }) {
-  if (pct === undefined) return <span className="text-muted">n/a</span>;
-  return (
-    <span className="inline-flex items-center gap-2 tabular-nums">
-      <span className="inline-block h-2 w-20 rounded bg-foreground/10 overflow-hidden" aria-hidden><span className="block h-full bg-accent" style={{ width: `${Math.min(100, pct)}%` }} /></span>
-      {fmt(pct)}
-    </span>
-  );
-}
+const STAGE_TIP: Record<string, string> = { Localized: "Confined to the organ where it started (SEER summary stage).", Regional: "Spread to nearby lymph nodes or tissues.", Distant: "Spread to distant organs (metastatic)." };
+const COLUMNS: StaticColumn[] = [
+  { key: "cancer", label: "Cancer" },
+  { key: "site", label: "SEER site", hide: "hidden md:table-cell", className: "text-muted" },
+  { key: "overall", label: "5-year relative survival", sortable: true, numeric: true, tip: "The share of people diagnosed who are alive five years later, divided by the share of the general population of the same age, sex and race alive over the same five years. 100% means no excess deaths from the cancer; it can exceed 100%." },
+  ...STAGES.map((st): StaticColumn => ({ key: st.toLowerCase(), label: st === "Localized" ? "Localised" : st, sortable: true, numeric: true, hide: "hidden sm:table-cell", tip: STAGE_TIP[st] })),
+  { key: "staged", label: "Staged", filterable: true, hide: "hidden xl:table-cell", className: "text-xs text-muted" },
+  { key: "period", label: "Period", filterable: true, hide: "hidden lg:table-cell", className: "text-xs text-muted" },
+];
 
 export default function SurvivalPage() {
   const g = graph();
@@ -41,6 +41,20 @@ export default function SurvivalPage() {
   const periodText = [...periods].join(", ");
   // Cancers where localised disease is at or near the general population's survival: the calm headline the table supports.
   const nearNormal = mapped.filter((c) => (stageValue(snap!.sites[SURVIVAL_SITES[c.id].slug], "Localized") ?? 0) >= 90).length;
+  const rows: StaticRow[] = mapped.map((c) => {
+    const m = SURVIVAL_SITES[c.id];
+    const s = snap!.sites[m.slug];
+    const stage = (st: string) => { if (!s.byStage.length) return { text: "no staging", v: -1, muted: true, title: "SEER does not stage this cancer" }; const v = stageValue(s, st); return v === undefined ? { text: "n/a", v: -1, muted: true } : { text: fmt(v), v }; };
+    return {
+      id: c.id,
+      cancer: { text: c.name, href: routeFor(c), strong: true, sub: m.shared },
+      site: { text: m.seerLabel, href: s.url, ext: true, muted: true },
+      overall: s.overall ? { text: fmt(s.overall.pct), v: s.overall.pct, bar: s.overall.pct } : { text: "n/a", v: -1, muted: true },
+      localized: stage("Localized"), regional: stage("Regional"), distant: stage("Distant"),
+      staged: s.byStage.length ? "Staged" : "Not staged",
+      period: s.overall?.period,
+    };
+  });
 
   return (
     <>
@@ -62,34 +76,7 @@ export default function SurvivalPage() {
 
             <GentleSection title="the survival table" kicker="SEER, United States" why="Five-year relative survival by cancer and by stage at diagnosis, for readers who want the numbers."
               reassurance={<>Averages across everyone diagnosed in {periodText}, before several of today&apos;s treatments existed. Your stage, subtype, age, fitness and the treatment you receive matter more than the average; ask your team how the figure for your stage and subtype has moved. Each row links to the cancer page, which leads with what can be done.</>}>
-              <div className="overflow-x-auto -mx-4 px-4">
-                <table className="onco">
-                  <thead>
-                    <tr>
-                      <th>Cancer</th>
-                      <th className="hidden md:table-cell">SEER site</th>
-                      <th><Tip title="5-year relative survival" text="The share of people diagnosed who are alive five years later, divided by the share of the general population of the same age, sex and race alive over the same five years. 100% means no excess deaths from the cancer; it can exceed 100%."><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">5-year relative survival</span></Tip></th>
-                      {STAGES.map((s) => <th key={s} className="hidden sm:table-cell"><Tip title={`${s} at diagnosis`} text={s === "Localized" ? "Confined to the organ where it started (SEER summary stage)." : s === "Regional" ? "Spread to nearby lymph nodes or tissues." : "Spread to distant organs (metastatic)."}><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{s === "Localized" ? "Localised" : s}</span></Tip></th>)}
-                      <th className="hidden lg:table-cell">Period</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {mapped.map((c) => {
-                      const m = SURVIVAL_SITES[c.id];
-                      const s = snap.sites[m.slug];
-                      return (
-                        <tr key={c.id}>
-                          <td><Link href={routeFor(c)} className="font-medium hover:underline">{c.name}</Link>{m.shared && <div className="text-xs text-muted max-w-xs">{m.shared}</div>}</td>
-                          <td className="hidden md:table-cell text-muted"><a href={s.url} rel="noopener" className="hover:underline">{m.seerLabel}</a></td>
-                          <td><Bar pct={s.overall?.pct} /></td>
-                          {STAGES.map((st) => <td key={st} className="hidden sm:table-cell tabular-nums">{s.byStage.length ? fmt(stageValue(s, st)) || <span className="text-muted">n/a</span> : <span className="text-muted" title="SEER does not stage this cancer">no staging</span>}</td>)}
-                          <td className="hidden lg:table-cell text-xs text-muted">{s.overall?.period}</td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </div>
+              <StaticTable rows={rows} columns={COLUMNS} noun="cancers" url defaultSort={{ key: "cancer", dir: 1 }} />
               <div className="mt-4 text-sm space-y-2">
                 <h2 className="font-semibold text-base">Read these numbers carefully</h2>
                 <ul className="list-disc pl-5 space-y-1">

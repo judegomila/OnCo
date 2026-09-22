@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import { Tip } from "./Tip";
 import { DownloadTable } from "./DownloadTable";
+import { FilterHead } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 import { US_METRICS, type UsMetricKey, type UsPlanRow } from "@/data/coverage-rankings";
 
 const fmt = (v: number, unit: string) => (unit === "%" ? `${v.toLocaleString("en-US", { maximumFractionDigits: 1 })}%` : unit === "per member" ? v.toLocaleString("en-US", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) : String(v));
@@ -29,6 +31,9 @@ export function PlanRankings({ rows }: { rows: UsPlanRow[] }) {
   });
 
   const others = US_METRICS.filter((m) => m.key !== key);
+  const hf = useHeaderFilters();
+  const rankOf = new Map(ranked.map((r, i) => [r.id, i + 1]));
+  const shown = [...ranked, ...blank].filter((r) => hf.pass("kind", [r.kind]) && hf.pass("figure", [r.metrics[key] ? "Published" : "No published figure"]));
 
   return (
     <div>
@@ -46,18 +51,18 @@ export function PlanRankings({ rows }: { rows: UsPlanRow[] }) {
           <thead>
             <tr>
               <th scope="col" className="w-10">#</th>
-              <th scope="col">Plan or insurer</th>
-              <th scope="col" className="text-right"><Tip text={metric.description} title={metric.label}><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{metric.label}</span></Tip></th>
+              <th scope="col"><FilterHead label="Plan or insurer" spec={hf.spec("kind", countOptions(rows.map((r) => r.kind)))} /></th>
+              <th scope="col" className="text-right"><FilterHead label={metric.label} tip={metric.description} spec={hf.spec("figure", countOptions(rows.map((r) => (r.metrics[key] ? "Published" : "No published figure")), { order: ["Published", "No published figure"] }))} /></th>
               <th scope="col" className="hidden lg:table-cell">Other published figures</th>
               <th scope="col" className="hidden md:table-cell">Oncology policy</th>
             </tr>
           </thead>
           <tbody>
-            {[...ranked, ...blank].map((r, i) => {
+            {shown.map((r) => {
               const m = r.metrics[key];
               return (
                 <tr key={r.id} className={m ? "" : "text-muted"}>
-                  <td className="tabular-nums">{m ? i + 1 : ""}</td>
+                  <td className="tabular-nums">{rankOf.get(r.id) ?? ""}</td>
                   <td>
                     <div className="font-medium text-foreground">{r.name}</div>
                     <div className="text-xs text-muted">{r.kind}</div>

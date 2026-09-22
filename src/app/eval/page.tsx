@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
-import Link from "next/link";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { benchmark, type Category } from "@/data/benchmark";
@@ -8,6 +7,7 @@ import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { statusClass } from "@/lib/text";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({ title: "Open evaluation", description: "A public benchmark of 100 questions a patient or clinician might ask, scored against OnCo and any other system with the same rubric.", path: "/eval/" });
 
@@ -29,11 +29,34 @@ const CAT_LABEL: Record<Category, string> = { factual: "Factual", procedural: "P
 const pct = (x: number) => `${Math.round(x * 100)}%`;
 const tone = (x: number) => statusClass(x >= 0.75 ? "approved" : x >= 0.5 ? "phase-2" : "negative");
 
+const QUESTION_COLUMNS: StaticColumn[] = [
+  { key: "n", label: "#", sortable: true, numeric: false, className: "text-muted text-xs" },
+  { key: "question", label: "Question", className: "min-w-[280px]" },
+  { key: "category", label: "Category", filterable: true, order: Object.values(CAT_LABEL), className: "text-muted" },
+  { key: "level", label: "Level", filterable: true, sortable: true, numeric: true, className: "text-muted" },
+  { key: "grounded", label: "Grounded in", className: "text-xs" },
+  { key: "onco", label: "OnCo", sortable: true, numeric: true },
+  { key: "outcome", label: "Outcome", filterable: true, order: ["All met", "Partly met", "Missed", "Not scored"], hide: "hidden lg:table-cell", className: "text-xs text-muted" },
+];
+
 export default function EvalPage() {
   const g = graph();
   const { runs, latestOnco } = loadRuns();
   const byId = new Map((latestOnco?.results ?? []).map((r) => [r.id, r]));
   const cats: Category[] = ["factual", "procedural", "reasoning"];
+  const questionRows: StaticRow[] = benchmark.map((q) => {
+    const r = byId.get(q.id);
+    return {
+      id: q.id,
+      n: q.id,
+      question: { text: q.question, strong: true, sub: `Expected: ${q.expected}`, title: `Rubric: ${q.rubric.map((x) => x.join(" / ")).join("; ")}` },
+      category: CAT_LABEL[q.category],
+      level: q.difficulty,
+      grounded: q.entities.map((id) => g.get(id)).filter((e): e is NonNullable<typeof e> => !!e).map((e) => ({ text: e.name, href: routeFor(e) })),
+      onco: r ? { text: `${r.met}/${r.total}`, v: r.score, chip: tone(r.score), title: r.missed.length ? `Missed: ${r.missed.join("; ")}` : "All rubric points met" } : undefined,
+      outcome: r ? (r.met === r.total ? "All met" : r.met > 0 ? "Partly met" : "Missed") : "Not scored",
+    };
+  });
   const counts = Object.fromEntries(cats.map((c) => [c, benchmark.filter((q) => q.category === c).length]));
 
   return (
@@ -75,26 +98,7 @@ export default function EvalPage() {
         </div>
 
         <h2 className="text-xl font-semibold mt-10 mb-3">The questions</h2>
-        <div className="card overflow-x-auto">
-          <table className="onco">
-            <thead><tr><th>#</th><th>Question</th><th>Category</th><th>Level</th><th>Grounded in</th><th>OnCo</th></tr></thead>
-            <tbody>
-              {benchmark.map((q) => {
-                const r = byId.get(q.id);
-                return (
-                  <tr key={q.id}>
-                    <td className="text-muted text-xs">{q.id}</td>
-                    <td className="min-w-[280px]"><div className="font-medium">{q.question}</div><details className="text-xs text-muted mt-1"><summary className="cursor-pointer">Expected answer and rubric</summary><p className="mt-1">{q.expected}</p><ul className="list-disc pl-4 mt-1">{q.rubric.map((r, i) => <li key={i}>{r.join(" / ")}</li>)}</ul></details></td>
-                    <td className="text-muted">{CAT_LABEL[q.category]}</td>
-                    <td className="tabular-nums text-muted">{q.difficulty}</td>
-                    <td className="text-xs">{q.entities.map((id) => { const e = g.get(id); return e ? <Link key={id} href={routeFor(e)} className="underline mr-1.5">{e.name}</Link> : null; })}</td>
-                    <td>{r ? <span className={`chip ${tone(r.score)}`} title={r.missed.length ? `Missed: ${r.missed.join("; ")}` : "All rubric points met"}>{r.met}/{r.total}</span> : <span className="text-muted">-</span>}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
+        <StaticTable rows={questionRows} columns={QUESTION_COLUMNS} noun="questions" url />
       </Container>
     </>
   );

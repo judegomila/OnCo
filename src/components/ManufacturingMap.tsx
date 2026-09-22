@@ -4,7 +4,8 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { WorldMap, type MapPoint } from "./WorldMap";
 import { FacetSelect } from "./filters/FacetSelect";
-import { Toolbar } from "./filters/ResultsTable";
+import { FilterHead, Toolbar } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 import { CAPABILITY_COLOR, CAPABILITY_LABEL, type Capability, type SiteOwnership } from "@/data/manufacturing";
 
 export type SiteRow = {
@@ -22,13 +23,17 @@ const OWNERSHIP_LABEL: Record<SiteOwnership, string> = { cdmo: "Contract manufac
 export function ManufacturingMap({ sites }: { sites: SiteRow[] }) {
   const [caps, setCaps] = useState<Capability[]>([]);
   const [own, setOwn] = useState<string[]>([]);
+  const hf = useHeaderFilters();
 
-  const filtered = useMemo(() => sites.filter((s) => (!caps.length || s.capabilities.some((c) => caps.includes(c))) && (!own.length || own.includes(s.ownership))), [sites, caps, own]);
+  const filtered = useMemo(() => sites.filter((s) => (!caps.length || s.capabilities.some((c) => caps.includes(c))) && (!own.length || own.includes(s.ownership)) && hf.pass("country", [s.country])),
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- hf.pass reads hf.sel
+    [sites, caps, own, hf.sel]);
   const points: MapPoint[] = useMemo(() => filtered.map((s) => {
     const primary = (caps.length ? s.capabilities.find((c) => caps.includes(c)) : s.capabilities[0]) ?? s.capabilities[0];
     return { id: s.id, name: s.name, city: `${s.city}, ${s.country}`, type: s.capabilities.map((c) => CAPABILITY_LABEL[c]).join(", "), lat: s.lat, lon: s.lng, weight: s.capabilities.length, color: CAPABILITY_COLOR[primary], route: `#${s.id}` };
   }), [filtered, caps]);
 
+  const ownOptions = (["cdmo", "in-house"] as SiteOwnership[]).map((o) => ({ value: o, label: OWNERSHIP_LABEL[o], count: sites.filter((s) => s.ownership === o).length }));
   const capOptions = useMemo(() => { const m = new Map<Capability, number>(); for (const s of sites) for (const c of s.capabilities) m.set(c, (m.get(c) ?? 0) + 1); return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, label: CAPABILITY_LABEL[value], count })); }, [sites]);
 
   return (
@@ -36,8 +41,8 @@ export function ManufacturingMap({ sites }: { sites: SiteRow[] }) {
       <Toolbar count={filtered.length} total={sites.length} noun="sites"
         left={<>
           <FacetSelect label="Capability" options={capOptions} value={caps} onChange={(v) => setCaps(v as Capability[])} multi searchable={false} allLabel="Any" width="w-60" />
-          <FacetSelect label="Ownership" options={(["cdmo", "in-house"] as SiteOwnership[]).map((o) => ({ value: o, label: OWNERSHIP_LABEL[o], count: sites.filter((s) => s.ownership === o).length }))} value={own} onChange={(v) => setOwn(v as string[])} multi searchable={false} allLabel="Any" width="w-52" />
-          {(caps.length || own.length) ? <button type="button" onClick={() => { setCaps([]); setOwn([]); }} className="text-sm underline text-muted">Reset</button> : null}
+          <FacetSelect label="Ownership" options={ownOptions} value={own} onChange={(v) => setOwn(v as string[])} multi searchable={false} allLabel="Any" width="w-52" />
+          {(caps.length || own.length || hf.active) ? <button type="button" onClick={() => { setCaps([]); setOwn([]); hf.clear(); }} className="text-sm underline text-muted">Reset</button> : null}
         </>} />
       <WorldMap points={points} maxWeight={4} ariaLabel="Manufacturing sites" note="Dot colour is the site's main capability; size is how many capabilities it has. Click a dot to jump to its row." emptyText="No sites match the current filter." />
       <div className="flex flex-wrap gap-3 text-xs text-muted mt-3">
@@ -46,7 +51,12 @@ export function ManufacturingMap({ sites }: { sites: SiteRow[] }) {
 
       <div className="card overflow-x-auto mt-6">
         <table className="onco">
-          <thead><tr><th>Site</th><th>Operator</th><th>Capabilities</th><th>What the operator says it does</th><th>Customers and products</th><th>Source</th></tr></thead>
+          <thead><tr>
+            <th><FilterHead label="Site" spec={hf.spec("country", countOptions(sites.map((s) => s.country)))} /></th>
+            <th><FilterHead label="Operator" spec={{ options: ownOptions, value: own, onChange: (v) => setOwn(v) }} /></th>
+            <th><FilterHead label="Capabilities" spec={{ options: capOptions, value: caps, onChange: (v) => setCaps(v as Capability[]) }} /></th>
+            <th>What the operator says it does</th><th>Customers and products</th><th>Source</th>
+          </tr></thead>
           <tbody>
             {filtered.map((s) => (
               <tr key={s.id} id={s.id}>

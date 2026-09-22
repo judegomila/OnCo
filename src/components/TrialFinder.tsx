@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { buildApiUrl, buildSearchUrl, parseStudies, type CtgovStudy } from "@/lib/ctgov";
+import { FilterHead } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 
 /**
  * Live list of recruiting trials from ClinicalTrials.gov API v2 (CORS is open, no key).
@@ -11,6 +13,8 @@ export function TrialFinder({ condition, intervention, title }: { condition?: st
   const [state, setState] = useState<"idle" | "loading" | "done" | "error">("idle");
   const [studies, setStudies] = useState<CtgovStudy[]>([]);
   const searchUrl = buildSearchUrl({ condition, intervention });
+  const hf = useHeaderFilters();
+  const shown = studies.filter((s) => hf.pass("phase", [s.phase]) && hf.pass("sponsor", [s.sponsor]));
 
   const load = async () => {
     setState("loading");
@@ -49,9 +53,9 @@ export function TrialFinder({ condition, intervention, title }: { condition?: st
       {state === "done" && studies.length > 0 && (
         <div className="overflow-x-auto mt-3">
           <table className="onco">
-            <thead><tr><th>NCT</th><th>Title</th><th>Phase</th><th>Sponsor</th><th>Start</th></tr></thead>
+            <thead><tr><th>NCT</th><th>Title</th><th><FilterHead label="Phase" spec={hf.spec("phase", countOptions(studies.map((s) => s.phase)))} /></th><th><FilterHead label="Sponsor" spec={hf.spec("sponsor", countOptions(studies.map((s) => s.sponsor)))} /></th><th>Start</th></tr></thead>
             <tbody>
-              {studies.map((s) => (
+              {shown.map((s) => (
                 <tr key={s.nctId}>
                   <td><a className="underline font-mono text-xs" href={`https://clinicaltrials.gov/study/${s.nctId}`} rel="noopener">{s.nctId}</a></td>
                   <td className="max-w-md">{s.title}</td>
@@ -62,6 +66,7 @@ export function TrialFinder({ condition, intervention, title }: { condition?: st
               ))}
             </tbody>
           </table>
+          {hf.active && <p className="text-xs text-muted mt-2"><span className="tabular-nums">{shown.length} of {studies.length}</span> trials shown. <button type="button" onClick={hf.clear} className="underline">Clear filters</button></p>}
           <p className="text-xs text-muted mt-2">Showing the most recently updated recruiting studies. Eligibility, sites, and status change often; confirm on the registry and with your clinical team.</p>
         </div>
       )}

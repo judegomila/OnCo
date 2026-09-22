@@ -7,6 +7,7 @@ import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/compo
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
 import { regionalApprovals, REGION_META } from "@/data/regional-approvals";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 import { IN_ASOF, IN_COMPANIES, IN_DOING, IN_DRUGS, IN_INSTITUTIONS, IN_PAPERS, IN_PAYING, IN_PEOPLE, IN_PROFILE, IN_REGULATOR, IN_TRIALS, type CountryCard } from "@/data/country-in";
 
 export const metadata: Metadata = pageMeta({
@@ -17,6 +18,16 @@ export const metadata: Metadata = pageMeta({
 
 const fmt = (n: number | null) => (n === null ? "n/a" : n.toLocaleString("en-GB"));
 const fmt1 = (n: number | null) => (n === null ? "n/a" : n.toFixed(1));
+
+const SITE_COLUMNS: StaticColumn[] = [
+  { key: "site", label: "Site" },
+  { key: "cases", label: "New cases", sortable: true, numeric: true, className: "text-right" },
+  { key: "deaths", label: "Deaths", sortable: true, numeric: true, className: "text-right" },
+  { key: "incAsr", label: "Incidence ASR", sortable: true, numeric: true, className: "text-right" },
+  { key: "mortAsr", label: "Mortality ASR", sortable: true, numeric: true, className: "text-right" },
+  { key: "pages", label: "OnCo cancer page" },
+];
+const num = (n: number | null, d = 0) => (n === null ? { text: "n/a", v: -1, muted: true } : { text: d ? n.toFixed(d) : n.toLocaleString("en-GB"), v: n });
 
 function Cards({ cards }: { cards: CountryCard[] }) {
   return (
@@ -62,6 +73,12 @@ export default function IndiaPage() {
   const topSites = profile ? profile.sites.filter((s) => s.cases !== null && s.label !== "Non-melanoma skin cancer").slice(0, 12) : [];
   const extra = countryExtras.IN;
   const meta = REGION_META.IN;
+  const siteRows: StaticRow[] = topSites.map((s) => ({
+    id: String(s.code),
+    site: s.label,
+    cases: num(s.cases), deaths: num(s.deaths), incAsr: num(s.incAsr, 1), mortAsr: num(s.mortAsr, 1),
+    pages: s.oncoIds.map((id) => g.get(id)).filter((e): e is Entity => !!e).map((e) => ({ text: e.name, href: routeFor(e), className: "underline" })),
+  }));
 
   return (
     <>
@@ -78,26 +95,12 @@ export default function IndiaPage() {
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year} estimates, rendered from the corpus data file</span>}>
           <Cards cards={IN_PROFILE} />
           {profile && all && (
-            <div className="mt-6 card p-5 overflow-x-auto">
+            <div className="mt-6 card p-5">
               <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
                 <h3 className="font-semibold">Leading cancers in India, {GLOBOCAN.year}</h3>
                 <span className="text-xs text-muted">All cancers excluding non-melanoma skin: {fmt(all[0])} new cases, {fmt(all[2])} deaths; age-standardised incidence {fmt1(all[1])} and mortality {fmt1(all[3])} per 100,000; cumulative risk to 74: {fmt1(all[4])}%.</span>
               </div>
-              <table className="w-full text-sm">
-                <thead><tr className="text-left text-xs text-muted"><th className="py-1 pr-3">Site</th><th className="py-1 pr-3 text-right">New cases</th><th className="py-1 pr-3 text-right">Deaths</th><th className="py-1 pr-3 text-right">Incidence ASR</th><th className="py-1 pr-3 text-right">Mortality ASR</th><th className="py-1">OnCo cancer page</th></tr></thead>
-                <tbody>
-                  {topSites.map((s) => (
-                    <tr key={s.code} className="border-t border-border">
-                      <td className="py-1.5 pr-3">{s.label}</td>
-                      <td className="py-1.5 pr-3 text-right tabular-nums">{fmt(s.cases)}</td>
-                      <td className="py-1.5 pr-3 text-right tabular-nums">{fmt(s.deaths)}</td>
-                      <td className="py-1.5 pr-3 text-right tabular-nums">{fmt1(s.incAsr)}</td>
-                      <td className="py-1.5 pr-3 text-right tabular-nums">{fmt1(s.mortAsr)}</td>
-                      <td className="py-1.5">{s.oncoIds.map((id) => g.get(id)).filter((e): e is Entity => !!e).map((e, i) => <span key={e.id}>{i > 0 && ", "}<Link href={routeFor(e)} className="underline">{e.name}</Link></span>)}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <StaticTable rows={siteRows} columns={SITE_COLUMNS} noun="sites" defaultSort={{ key: "cases", dir: -1 }} />
               <p className="mt-3 text-xs text-muted">Source: {GLOBOCAN.citation} <a href={GLOBOCAN.sourceUrl} className="underline" rel="noopener">{GLOBOCAN.sourceUrl}</a>. ASR = age-standardised rate per 100,000 (World standard). Estimates, not registry counts; see the registry card for how India counts cancer. Compare countries on the <Link href="/cases/" className="underline">cases by country</Link> page.</p>
             </div>
           )}

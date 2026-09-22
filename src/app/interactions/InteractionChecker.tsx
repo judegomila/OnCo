@@ -6,6 +6,8 @@ import { agents } from "@/data/interactions";
 import { agentById, checkPairs, SEVERITY_CLASS, SEVERITY_LABEL, singleFlags, worst } from "@/lib/interactions";
 import { FacetSelect } from "@/components/filters/FacetSelect";
 import { MoleculeSlot } from "@/components/MoleculeSlot";
+import { FilterHead } from "@/components/filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "@/components/filters/useHeaderFilters";
 
 /**
  * Pick two or more products and co-medications; see every flagged pair with mechanism and management, plus each
@@ -39,6 +41,8 @@ export function InteractionChecker({ drugs }: { drugs: Record<string, CheckerDru
   const singles = useMemo(() => singleFlags(sel), [sel]);
   const top = worst(flags);
   const name = (id: string) => agentById(id)?.name ?? id;
+  const hf = useHeaderFilters();
+  const shown = flags.filter((f) => hf.pass("severity", [f.severity]) && hf.pass("drug", [f.a, f.b]));
 
   return (
     <div>
@@ -70,9 +74,9 @@ export function InteractionChecker({ drugs }: { drugs: Record<string, CheckerDru
       ) : (
         <div className="card overflow-x-auto">
           <table className="onco">
-            <thead><tr><th>Severity</th><th className="min-w-[200px]">Pair</th><th className="min-w-[280px]">Mechanism</th><th className="min-w-[280px]">Management</th><th>Source</th></tr></thead>
+            <thead><tr><th><FilterHead label="Severity" spec={hf.spec("severity", countOptions(flags.map((f) => f.severity), { labels: SEVERITY_LABEL, order: Object.keys(SEVERITY_LABEL) }))} /></th><th className="min-w-[200px]"><FilterHead label="Pair" spec={hf.spec("drug", countOptions(flags.flatMap((f) => [f.a, f.b]), { labels: name }))} /></th><th className="min-w-[280px]">Mechanism</th><th className="min-w-[280px]">Management</th><th>Source</th></tr></thead>
             <tbody>
-              {flags.map((f, i) => (
+              {shown.map((f, i) => (
                 <tr key={i}>
                   <td><span className={`chip ${SEVERITY_CLASS[f.severity]}`}>{SEVERITY_LABEL[f.severity]}</span></td>
                   <td className="text-sm"><span className="font-medium">{name(f.a)}</span><span className="text-muted"> + </span><span className="font-medium">{name(f.b)}</span><div className="text-[11px] text-muted mt-0.5">{f.rule.replace(/-/g, " ")}</div></td>
@@ -83,6 +87,7 @@ export function InteractionChecker({ drugs }: { drugs: Record<string, CheckerDru
               ))}
             </tbody>
           </table>
+          {shown.length === 0 && <div className="px-6 py-8 text-center text-muted text-sm">No flagged pair matches the header filters. <button type="button" onClick={hf.clear} className="underline">Clear them</button>.</div>}
         </div>
       )}
 

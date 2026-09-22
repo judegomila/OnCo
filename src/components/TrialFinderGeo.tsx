@@ -7,6 +7,8 @@ import { parseCriteria, score, type Check, type Score, type Verdict } from "@/li
 import { biomarkers } from "@/data/biomarkers";
 import { useProfile, type Profile } from "@/lib/profile";
 import { FacetSelect } from "./filters/FacetSelect";
+import { FilterHead } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 
 const BIOMARKER_LABELS: Record<string, string> = Object.fromEntries(biomarkers.map((b) => [b.id, b.label]));
 
@@ -84,6 +86,10 @@ export function TrialFinderGeo({ condition, intervention, title, drugNames = {} 
   const [eligibility, setEligibility] = useState<Record<string, Eligibility>>({});
   const [open, setOpen] = useState<Set<string>>(new Set());
   const toggle = (id: string) => setOpen((prev) => { const next = new Set(prev); if (next.has(id)) next.delete(id); else next.add(id); return next; });
+  const hf = useHeaderFilters();
+  // The header's country filter shares the toolbar's state; until the next search it narrows the loaded studies to those with a site there.
+  const shown = studies.filter((s) => hf.pass("phase", [s.phase]) && hf.pass("sponsor", [s.sponsor]) && (!country || s.sites.some((x) => x.country === country)));
+  const countrySpec = { options: COUNTRIES.map((c) => ({ value: c, label: c })), value: country ? [country] : [], onChange: (v: string[]) => setCountry(v[0] ?? null), single: true };
 
   // Seed the filters from the saved profile once it has loaded.
   useEffect(() => {
@@ -150,9 +156,9 @@ export function TrialFinderGeo({ condition, intervention, title, drugNames = {} 
         <div className="overflow-x-auto mt-3">
           {center && <p className="text-xs text-muted mb-2">Distances from {center.label}. Nearest site shown; most trials have several.</p>}
           <table className="onco">
-            <thead><tr><th>NCT</th><th>Title</th><th>Phase</th>{center && <th>Nearest site</th>}<th>Sites{country ? ` in ${country}` : ""}</th><th>Sponsor</th><th>Could I join?</th></tr></thead>
+            <thead><tr><th>NCT</th><th>Title</th><th><FilterHead label="Phase" spec={hf.spec("phase", countOptions(studies.map((s) => s.phase)))} /></th>{center && <th>Nearest site</th>}<th><FilterHead label="Sites" spec={countrySpec} /></th><th><FilterHead label="Sponsor" spec={hf.spec("sponsor", countOptions(studies.map((s) => s.sponsor)))} /></th><th>Could I join?</th></tr></thead>
             <tbody>
-              {studies.map((s) => {
+              {shown.map((s) => {
                 const inCountry = country ? s.sites.filter((x) => x.country === country) : s.sites;
                 const cities = [...new Set(inCountry.map((x) => x.city).filter(Boolean))];
                 const isOpen = open.has(s.nctId);
@@ -181,6 +187,7 @@ export function TrialFinderGeo({ condition, intervention, title, drugNames = {} 
               })}
             </tbody>
           </table>
+          {(hf.active || shown.length !== studies.length) && <p className="text-xs text-muted mt-2"><span className="tabular-nums">{shown.length} of {studies.length}</span> trials shown.{hf.active && <> <button type="button" onClick={hf.clear} className="underline">Clear filters</button></>}</p>}
           <p className="text-xs text-muted mt-2">Recruiting status, sites, and eligibility change often; confirm on the registry and with your clinical team. &ldquo;Could I join?&rdquo; is a rough pre-screen scored against the profile saved in this browser; nothing is sent anywhere.</p>
         </div>
       )}

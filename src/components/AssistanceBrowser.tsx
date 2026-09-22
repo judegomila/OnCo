@@ -3,6 +3,8 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { FacetSelect } from "./filters/FacetSelect";
+import { FilterHead } from "./filters/ResultsTable";
+import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
 import { PrintButton } from "./PrintButton";
 import { Tip } from "./Tip";
 import { useProfile } from "@/lib/profile";
@@ -38,6 +40,8 @@ export function AssistanceBrowser({ rows, schemes, orgs }: { rows: AccessRow[]; 
   const [country, setCountry] = useState<string | null>(null);
   const [drugs, setDrugs] = useState<string[]>([]);
   const [onlyAssistance, setOnlyAssistance] = useState(false);
+  const hf = useHeaderFilters();
+  const genericOf = (r: AccessRow) => (r.generic === undefined ? "Not recorded" : r.generic ? "Yes" : "No");
 
   useEffect(() => {
     if (!regionReady) return;
@@ -70,8 +74,12 @@ export function AssistanceBrowser({ rows, schemes, orgs }: { rows: AccessRow[]; 
   }, [inCountry]);
 
   const filtered = useMemo(() => inCountry
-    .filter((r) => (!drugs.length || drugs.includes(r.drugId)) && (!onlyAssistance || r.assistance || r.generic))
-    .sort((a, b) => a.drug.localeCompare(b.drug) || a.country.localeCompare(b.country)), [inCountry, drugs, onlyAssistance]);
+    .filter((r) => (!drugs.length || drugs.includes(r.drugId)) && (!onlyAssistance || r.assistance || r.generic) && hf.pass("generic", [genericOf(r)]) && hf.pass("programme", [r.assistance ? "Recorded" : "Not recorded"]))
+    .sort((a, b) => a.drug.localeCompare(b.drug) || a.country.localeCompare(b.country)),
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- hf.pass reads hf.sel
+    [inCountry, drugs, onlyAssistance, hf.sel]);
+  const countrySpec = { options: countryOptions, value: country ? [country] : [], onChange: (v: string[]) => { setCountry(v[0] ?? null); setDrugs([]); }, single: true };
+  const productSpec = { options: drugOptions, value: drugs, onChange: (v: string[]) => setDrugs(v) };
 
   const countrySchemes = schemes.filter((s) => !schemeCodes || schemeCodes.includes(s.country));
   const countryLabel = country ? ASSISTANCE_COUNTRIES[country] ?? country : "all countries";
@@ -84,7 +92,7 @@ export function AssistanceBrowser({ rows, schemes, orgs }: { rows: AccessRow[]; 
           <FacetSelect label="Country" options={countryOptions} value={country} onChange={(v) => { setCountry(v as string | null); setDrugs([]); }} searchable={false} allLabel="All countries" width="w-56" />
           <FacetSelect label="Product" options={drugOptions} value={drugs} onChange={(v) => setDrugs(v as string[])} multi allLabel="Any product" placeholder="Search products…" width="w-64" />
           <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={onlyAssistance} onChange={(e) => setOnlyAssistance(e.target.checked)} /> only rows with a programme or a generic</label>
-          {(drugs.length > 0 || onlyAssistance) && <button type="button" onClick={() => { setDrugs([]); setOnlyAssistance(false); }} className="text-sm underline text-muted">Clear</button>}
+          {(drugs.length > 0 || onlyAssistance || hf.active) && <button type="button" onClick={() => { setDrugs([]); setOnlyAssistance(false); hf.clear(); }} className="text-sm underline text-muted">Clear</button>}
           <span className="ml-auto text-sm text-muted tabular-nums">{filtered.length} rows · {withAssistance} with a manufacturer programme</span>
           <PrintButton className="text-sm text-muted" />
         </div>
@@ -106,7 +114,7 @@ export function AssistanceBrowser({ rows, schemes, orgs }: { rows: AccessRow[]; 
         ) : (
           <div className="overflow-x-auto card">
             <table className="onco">
-              <thead><tr><th>Product</th><th>Country</th><th>Manufacturer programme</th><th>Reimbursement</th><th className="hidden md:table-cell">List price</th><th>Generic</th><th className="hidden lg:table-cell">Source</th></tr></thead>
+              <thead><tr><th><FilterHead label="Product" spec={productSpec} /></th><th><FilterHead label="Country" spec={countrySpec} /></th><th><FilterHead label="Manufacturer programme" spec={hf.spec("programme", countOptions(inCountry.map((r) => (r.assistance ? "Recorded" : "Not recorded"))))} /></th><th>Reimbursement</th><th className="hidden md:table-cell">List price</th><th><FilterHead label="Generic" spec={hf.spec("generic", countOptions(inCountry.map(genericOf), { order: ["Yes", "No", "Not recorded"] }))} /></th><th className="hidden lg:table-cell">Source</th></tr></thead>
               <tbody>
                 {filtered.map((r, i) => (
                   <tr key={`${r.drugId}-${r.country}-${i}`}>

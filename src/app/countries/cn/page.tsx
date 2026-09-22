@@ -9,6 +9,9 @@ import { countryExtras } from "@/data/country-extras";
 import { deals, DEAL_TYPE_LABEL } from "@/data/deals";
 import { regionalApprovals } from "@/data/regional-approvals";
 import data from "../../../../public/openalex/countries.json";
+import { phaseLabel, routeFor } from "@/lib/kinds";
+import { STATUS_LABEL, statusClass } from "@/lib/text";
+import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
 
 export const metadata: Metadata = pageMeta({
   title: "Cancer in China",
@@ -24,6 +27,25 @@ const CHINESE_ORIGIN_COMPANIES = new Set(["beone", "legend-biotech", "systimmune
 const CHINESE_SPONSOR = /akeso|beigene|beone|hengrui|innovent|junshi|henlius|legend|carsgen|kelun|remegen|hutchmed|hansoh|cstone|allist|sino biopharm|chia tai|zelgen|iaso|jw therapeutics|sun yat-sen|fudan|chinese academy/i;
 
 const fmt = (n: number) => n.toLocaleString("en-GB");
+
+const TRIAL_COLUMNS: StaticColumn[] = [
+  { key: "trial", label: "Trial", className: "whitespace-nowrap" },
+  { key: "phase", label: "Phase", filterable: true, className: "text-muted whitespace-nowrap" },
+  { key: "status", label: "Status", filterable: true },
+  { key: "setting", label: "Setting", hide: "hidden md:table-cell", className: "text-muted max-w-md" },
+  { key: "result", label: "Result", className: "max-w-lg" },
+  { key: "year", label: "Year", filterable: true, sortable: true, numeric: true, className: "text-muted" },
+];
+const DEAL_COLUMNS: StaticColumn[] = [
+  { key: "date", label: "Date", sortable: true, numeric: false, className: "whitespace-nowrap text-muted" },
+  { key: "year", label: "Year", filterable: true, hide: "hidden xl:table-cell" },
+  { key: "from", label: "From" },
+  { key: "to", label: "To" },
+  { key: "asset", label: "Asset", className: "max-w-sm" },
+  { key: "upfront", label: "Upfront", className: "whitespace-nowrap" },
+  { key: "total", label: "Total", className: "whitespace-nowrap" },
+  { key: "type", label: "Type", filterable: true, className: "text-muted" },
+];
 
 function Src({ s }: { s: { label: string; url: string } }) {
   return <a href={s.url} rel="noopener" className="underline decoration-dotted text-muted hover:text-foreground">{s.label}</a>;
@@ -69,6 +91,30 @@ export default function ChinaPage() {
   ];
   const grouped = new Set(groups.flatMap(([, list]) => list.map((d) => d.id)));
   groups.push(["Other products approved in China", drugs.filter((d) => !grouped.has(d.id)).sort((a, b) => a.name.localeCompare(b.name))]);
+
+  const trialRows: StaticRow[] = trials.map((t) => ({
+    id: t.id,
+    trial: { text: t.name, href: routeFor(t), strong: true },
+    phase: phaseLabel(t.phase),
+    status: t.status ? { text: STATUS_LABEL[t.status] ?? t.status, chip: statusClass(t.status) } : undefined,
+    setting: t.setting,
+    result: t.result ?? t.tldr,
+    year: t.yearReported ? String(t.yearReported) : undefined,
+  }));
+  const dealRows: StaticRow[] = chinaDeals.map((d) => {
+    const from = d.from.id ? g.get(d.from.id) : undefined, to = d.to.id ? g.get(d.to.id) : undefined;
+    return {
+      id: d.id,
+      date: d.date,
+      year: d.date.slice(0, 4),
+      from: from ? { text: from.name, href: routeFor(from) } : d.from.name,
+      to: to ? { text: to.name, href: routeFor(to) } : d.to.name,
+      asset: { text: d.assetText, href: d.source, ext: true, sub: d.status === "terminated" ? "terminated" : undefined },
+      upfront: d.upfront,
+      total: d.total,
+      type: DEAL_TYPE_LABEL[d.type],
+    };
+  });
 
   const growth = cn.works[String(y0)] ? Math.round(((cn.works[String(y1)] - cn.works[String(y0)]) / cn.works[String(y0)]) * 100) : undefined;
 
@@ -152,21 +198,7 @@ export default function ChinaPage() {
         {/* ---------- Trials ---------- */}
         <Section title={`Key trials (${trials.length})`}>
           <p className="text-sm text-muted mb-3 max-w-4xl">Registration trials of Chinese drugs, newest first. The ORIENT, RATIONALE, CameL, JUPITER, HARMONi, CAPSTONE and GEMSTONE programmes reproduced the Western PD-(L)1 results in Chinese populations; LEGEND-2 is where Carvykti began; FURLONG and AENEAS are the head-to-head EGFR trials.</p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead><tr className="text-left text-muted border-b"><th className="py-2 pr-3">Trial</th><th className="py-2 pr-3 hidden md:table-cell">Setting</th><th className="py-2 pr-3">Result</th><th className="py-2">Year</th></tr></thead>
-              <tbody>
-                {trials.map((t) => (
-                  <tr key={t.id} className="border-b border-foreground/10 align-top">
-                    <td className="py-2 pr-3 whitespace-nowrap"><EntityLink e={t} /></td>
-                    <td className="py-2 pr-3 hidden md:table-cell text-muted max-w-md">{t.setting}</td>
-                    <td className="py-2 pr-3">{t.result ?? t.tldr}</td>
-                    <td className="py-2 tabular-nums text-muted">{t.yearReported ?? ""}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <StaticTable rows={trialRows} columns={TRIAL_COLUMNS} noun="trials" url defaultSort={{ key: "year", dir: -1 }} />
         </Section>
 
         {/* ---------- Companies and deals ---------- */}
@@ -176,27 +208,7 @@ export default function ChinaPage() {
 
         <Section id="deals" title={`Out-licensing and acquisitions (${chinaDeals.length})`} aside={<Link href="/deals/" className="text-sm underline">Deal map</Link>}>
           <p className="text-sm text-muted mb-3 max-w-4xl">Terms as announced by the parties: upfront is cash at signing, total is the headline figure including milestones. Where a number is not public the cell is empty.</p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead><tr className="text-left text-muted border-b"><th className="py-2 pr-3">Date</th><th className="py-2 pr-3">From</th><th className="py-2 pr-3">To</th><th className="py-2 pr-3">Asset</th><th className="py-2 pr-3">Upfront</th><th className="py-2 pr-3">Total</th><th className="py-2">Type</th></tr></thead>
-              <tbody>
-                {chinaDeals.map((d) => {
-                  const from = d.from.id ? g.get(d.from.id) : undefined, to = d.to.id ? g.get(d.to.id) : undefined;
-                  return (
-                    <tr key={d.id} className="border-b border-foreground/10 align-top">
-                      <td className="py-2 pr-3 whitespace-nowrap tabular-nums text-muted">{d.date}</td>
-                      <td className="py-2 pr-3">{from ? <EntityLink e={from} /> : d.from.name}</td>
-                      <td className="py-2 pr-3">{to ? <EntityLink e={to} /> : d.to.name}</td>
-                      <td className="py-2 pr-3 max-w-sm"><a href={d.source} rel="noopener" className="underline decoration-dotted">{d.assetText}</a>{d.status === "terminated" ? <span className="ml-1 text-xs text-rose-600">terminated</span> : null}</td>
-                      <td className="py-2 pr-3 whitespace-nowrap">{d.upfront ?? ""}</td>
-                      <td className="py-2 pr-3 whitespace-nowrap">{d.total ?? ""}</td>
-                      <td className="py-2 text-muted">{DEAL_TYPE_LABEL[d.type]}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
+          <StaticTable rows={dealRows} columns={DEAL_COLUMNS} noun="deals" defaultSort={{ key: "date", dir: -1 }} />
         </Section>
 
         {/* ---------- Institutions and people ---------- */}

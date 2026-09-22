@@ -1,0 +1,52 @@
+src/data/terms-biomarkers-wave.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 41,49,57,65,73,91,108,124,132,149,157,165,173,181,191,199,207,215,259,267,275,283,291,326,334,342,372,380,388,396,404,421,429
+  s_0beac9cb5d78fd::t_bdfa0e6880966c 116
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 333
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 242
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 905,909,913,917,937
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 1173
+src/data/paediatric-fronts.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 211
+src/data/ctdna-roadmap.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 186
+src/data/terms.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 25-26,54,61
+src/data/spikes/glioblastoma.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 198
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 160,186,215
+src/data/trial-design-wave.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 71,129,153
+src/data/adc-chemistry.ts
+  s_0beac9cb5d78fd::t_c77518066f655a 58
+  s_0beac9cb5d78fd::t_b6a23dbc44856e 36
+  s_0beac9cb5d78fd::t_63f04164b24f41 45
+src/data/nutrition.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 323,372
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 207
+src/data/law-wave.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 127,275,336,373,385,397,442,454,488,507,516,525,562,584,614
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_63f04164b24f41 246
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "04e897632789e0176e6e3682624b61ee52974367",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

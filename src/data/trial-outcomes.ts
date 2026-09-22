@@ -196,6 +196,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
       { endpoint: "Disease-free survival, stage II to IIIA", primary: true, unit: "months", arms: [{ name: "Osimertinib", n: 233 }, { name: "Placebo", n: 237, value: 19.6 }], hr: 0.17, ci: [0.11, 0.26], p: "<0.001", note: "Median DFS not reached with osimertinib at the primary analysis", source: nejm("NEJMoa2027071") },
       { endpoint: "Overall survival at 5 years, stage II to IIIA", unit: "%", arms: [{ name: "Osimertinib", value: 85 }, { name: "Placebo", value: 73 }], hr: 0.49, ci: [0.33, 0.73], p: "<0.001", source: nejm("NEJMoa2304594") },
       { endpoint: "Overall survival at 5 years, stage IB to IIIA", unit: "%", arms: [{ name: "Osimertinib", value: 88 }, { name: "Placebo", value: 78 }], hr: 0.49, ci: [0.34, 0.70], source: nejm("NEJMoa2304594") },
+      { endpoint: "8-year overall survival, stage II to IIIA", unit: "%", arms: [{ name: "Osimertinib", value: 74 }, { name: "Placebo", value: 58 }], hr: 0.53, ci: [0.38, 0.75], note: "Post hoc exploratory update, data cut-off 4 May 2026", source: "https://doi.org/10.1016/j.jtho.2026.104179" },
+      { endpoint: "8-year overall survival, stage IB to IIIA", unit: "%", arms: [{ name: "Osimertinib", value: 79 }, { name: "Placebo", value: 64 }], hr: 0.52, ci: [0.39, 0.71], note: "Post hoc exploratory update, data cut-off 4 May 2026", source: "https://doi.org/10.1016/j.jtho.2026.104179" },
     ],
     replication: "Single pivotal adjuvant trial with an OS benefit; consistent with the adjuvant ALK result (ALINA) and with earlier-generation adjuvant EGFR TKI trials that improved DFS.",
   },

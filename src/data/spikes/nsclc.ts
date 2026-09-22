@@ -93,7 +93,7 @@ const trials: TrialInput[] = [
     tldr: "Confirmed that the KRAS pill adagrasib beats chemotherapy after first-line treatment, though the gain is modest.",
     summary: "KRYSTAL-12, trial NCT04685135 sponsored by Bristol Myers Squibb through Mirati and reported in 2024, confirmed that the KRAS G12C inhibitor adagrasib beats docetaxel after first-line treatment in KRAS G12C-mutant non-small-cell lung cancer, though the gain is modest. It randomised 453 patients, met its primary progression-free survival endpoint by blinded review and showed higher objective and intracranial response rates than chemotherapy, supporting full approval and the second-line role of G12C inhibitors, while overall survival was not yet significantly different. OnCo links it to KRAS as a target and to the bottleneck of undruggable drivers, and its result is consistent with CodeBreaK 200 for sotorasib, where neither trial showed a survival benefit. Whether G12C inhibitors help more in first-line combinations is the open question. Adagrasib has its own page.",
     result: "PFS HR 0.58.",
-    drugs: ["adagrasib"], targets: ["kras"], cancers: ["nsclc", "kras-g12c-nsclc"], links: [ct("NCT04685135")] }),
+    drugs: ["adagrasib"], targets: ["kras"], cancers: ["nsclc", "kras-g12c-nsclc"], links: [ct("NCT04685135")], keyPapers: ["paper-krystal-12-plain-language-summary-future-oncol-2026"] }),
   t({ id: "codebreak-200", name: "CodeBreaK 200", nct: "NCT04303780", phase: "3", status: "positive", yearReported: 2022, sponsor: "Amgen",
     setting: "Previously treated KRAS G12C NSCLC: sotorasib vs docetaxel",
     tldr: "The first randomised trial of a KRAS drug: better than chemotherapy on progression, not on survival.",

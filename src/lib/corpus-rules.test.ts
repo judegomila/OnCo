@@ -105,6 +105,18 @@ describe("corpus rules", () => {
     for (const t of g.kind("trial")) if (t.nct) expect(t.nct, t.id).toMatch(/^(NCT\d{8}|ISRCTN\d{8}|ACTRN\d{14}|ANZCTR\d{14}|NTR\d+)$/);
   });
 
+  it("a trial whose enrolment counts a paper population says so and states the registry figure", () => {
+    // `enrolledBasis` other than "registry" tells scripts/roadmap-watch.ts the gap is expected; the note is what a reader sees.
+    const failures: string[] = [];
+    for (const t of g.kind("trial")) {
+      if (t.enrolledBasis === "registry") { if (t.enrolledNote) failures.push(`${t.id}: enrolledNote without a non-registry enrolledBasis`); continue; }
+      if (!t.enrolled) failures.push(`${t.id}: enrolledBasis ${t.enrolledBasis} without an enrolled figure`);
+      if (!t.enrolledNote?.trim()) failures.push(`${t.id}: enrolledBasis ${t.enrolledBasis} without an enrolledNote`);
+      else if (!/\d/.test(t.enrolledNote)) failures.push(`${t.id}: enrolledNote does not quote the registry figure`);
+    }
+    expect(failures).toEqual([]);
+  });
+
   it("standard-of-care rows reference the products or technologies they describe", () => {
     const failures: string[] = [];
     for (const c of g.kind("cancer")) for (const row of c.standardOfCare) {

@@ -25,10 +25,16 @@ export type TrialCheck = {
   id: string;
   name: string;
   nct?: string;
-  corpus: { status?: string; phase: string; enrolled?: number; yearReported?: number };
+  corpus: { status?: string; phase: string; enrolled?: number; enrolledBasis?: string; enrolledNote?: string; yearReported?: number };
   /** Null when the registry was not asked (offline) or returned nothing for this id. */
   registry: RegistryRecord | null;
   contradictions: string[];
+  /**
+   * Enrolment gaps the corpus accounts for: the record's `enrolledBasis` says its figure counts the randomised,
+   * analysed, treated or registered population from the primary paper rather than the registry's count, and its
+   * `enrolledNote` says why the two differ. Reported so the difference stays visible without being a contradiction.
+   */
+  explained: string[];
   papers: WatchPaper[];
 };
 
@@ -47,11 +53,13 @@ export type RoadmapWatchEntry = {
   asOf: string;
   /** Publications searched from this date (the roadmap's asOf unless --since overrode it). */
   since: string;
-  counts: { trials: number; checked: number; contradictions: number; papers: number; watch: number; watchPassed: number };
+  counts: { trials: number; checked: number; contradictions: number; explained: number; papers: number; watch: number; watchPassed: number };
   trials: TrialCheck[];
   watch: WatchItemCheck[];
   /** Every contradiction on the roadmap, flattened for rendering: which record, in plain words. */
   contradictions: Array<{ ref: string; name: string; text: string }>;
+  /** Every explained enrolment gap on the roadmap, flattened the same way. */
+  explained: Array<{ ref: string; name: string; text: string }>;
 };
 
 export type RoadmapWatchReport = {
@@ -227,19 +235,38 @@ export function trialAcronyms(t: Pick<Trial, "name" | "aka">): string[] {
   return [...out];
 }
 
-/** All contradictions for one trial against its registry record, in plain words. */
-export function trialContradictions(t: Pick<Trial, "name" | "status" | "phase" | "enrolled">, reg: RegistryRecord | null | undefined): string[] {
-  if (!reg) return [];
-  const out: string[] = [];
+/** The trial fields the registry comparison reads. `enrolledBasis` and `enrolledNote` are optional so callers can pass bare corpus inputs. */
+export type TrialForCheck = Pick<Trial, "name" | "status" | "phase" | "enrolled"> & Partial<Pick<Trial, "enrolledBasis" | "enrolledNote">>;
+
+export type TrialFindings = { contradictions: string[]; explained: string[] };
+
+/**
+ * All findings for one trial against its registry record, in plain words. Status, phase and enrolment gaps are
+ * contradictions, except an enrolment gap on a record whose `enrolledBasis` is not "registry": that record's figure
+ * is the randomised, analysed, treated or registered population from the primary paper, so the gap is expected and
+ * goes under `explained`, quoting the record's `enrolledNote`.
+ */
+export function trialFindings(t: TrialForCheck, reg: RegistryRecord | null | undefined): TrialFindings {
+  const out: TrialFindings = { contradictions: [], explained: [] };
+  if (!reg) return out;
   const s = statusContradiction(t.status, reg.status);
-  if (s) out.push(s);
+  if (s) out.contradictions.push(s);
   if (!isPooledName(t.name)) {
     const p = phaseContradiction(t.phase, reg);
-    if (p) out.push(p);
+    if (p) out.contradictions.push(p);
     const e = enrolmentContradiction(t.enrolled, reg.enrolment, 0.05, reg.enrolmentType);
-    if (e) out.push(e);
+    if (e) {
+      const basis = t.enrolledBasis ?? "registry";
+      if (basis === "registry") out.contradictions.push(e);
+      else out.explained.push(`${e.replace(" in the corpus,", ` in the corpus (${basis}),`)}: ${t.enrolledNote ?? "no note on the record"}`);
+    }
   }
   return out;
+}
+
+/** All contradictions for one trial against its registry record, in plain words; explained enrolment gaps are left out. */
+export function trialContradictions(t: TrialForCheck, reg: RegistryRecord | null | undefined): string[] {
+  return trialFindings(t, reg).contradictions;
 }
 
 /** Deduplicate papers by DOI, then PMID, then title; newest first. */

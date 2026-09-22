@@ -15,7 +15,7 @@ const tech = (id: string): Entity => ({
 
 const trial = (id: string, drugs: string[]): Entity => ({
   id, kind: "trial", name: id.toUpperCase(), aka: [], tldr: "t", summary: "s", asOf: "2026-01-01", links: [], tags: [], related: [], cancers: [], sections: [], technologies: [], targets: [], drugs, companies: [], institutions: [], pathways: [], terms: [], trials: [], people: [], bottlenecks: [], keyPapers: [], journals: [], dependsOn: [], notes: [],
-  phase: "3", setting: "Metastatic, first line", nct: "NCT00000001", result: "Median OS 20 versus 15 months.", yearReported: 2024, enrolled: 500,
+  phase: "3", setting: "Metastatic, first line", nct: "NCT00000001", result: "Median OS 20 versus 15 months.", yearReported: 2024, enrolled: 500, enrolledBasis: "registry",
   outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "A", value: 20 }, { name: "B", value: 15 }], hr: 0.7, source: "https://example.org/os" }],
 } as Entity);
 

@@ -113,7 +113,8 @@ const drugs: DrugInput[] = [
 
 // ======================= TRIALS =======================
 const trials: TrialInput[] = [
-  t({ id: "polarix", name: "POLARIX", nct: "NCT03274492", phase: "3", status: "positive", yearReported: 2021, sponsor: "Roche", enrolled: 879,
+  t({ id: "polarix", name: "POLARIX", nct: "NCT03274492", phase: "3", status: "positive", yearReported: 2021, sponsor: "Roche", enrolled: 879, enrolledBasis: "randomised",
+    enrolledNote: "ClinicalTrials.gov lists 1,000 participants (actual); the NEJM 2022 primary analysis randomised 879 patients (440 Pola-R-CHP, 439 R-CHOP).",
     setting: "Untreated DLBCL, IPI 2-5, age 18-80: Pola-R-CHP vs R-CHOP",
     tldr: "The trial that improved on R-CHOP for the first time in twenty years, by swapping vincristine for an ADC.",
     summary: "POLARIX, trial NCT03274492 sponsored by Roche and published in the New England Journal of Medicine in 2022, was the trial that improved on R-CHOP in untreated diffuse large B-cell lymphoma for the first time in twenty years, by swapping vincristine for the CD79b antibody-drug conjugate polatuzumab vedotin. It randomised 879 patients aged 18 to 80 with IPI 2 to 5 to Pola-R-CHP or R-CHOP, met its primary progression-free survival endpoint at two years with the benefit holding at five years in the 2025 JCO update, while overall survival was not significantly different and safety was similar; benefit concentrated in ABC-type and higher IPI disease. Whether a progression benefit without a survival benefit justifies the regimen for every patient is the open question.",

@@ -278,6 +278,15 @@ export const TrialSchema = Base.extend({
   result: z.string().optional(),
   yearReported: z.number().int().optional(),
   enrolled: z.number().int().optional(),
+  /**
+   * What `enrolled` counts. "registry" (the default) means the ClinicalTrials.gov figure, so a gap against the
+   * registry is a contradiction for scripts/roadmap-watch.ts to flag. The other values mean the figure is taken from
+   * the primary paper and counts that population (patients randomised, analysed, treated, or registered on the
+   * study), so a gap against the registry is expected and is reported as explained. Say why in `enrolledNote`.
+   */
+  enrolledBasis: z.enum(["registry", "randomised", "analysed", "treated", "registered"]).default("registry"),
+  /** One sentence giving the registry figure and why it differs from `enrolled`; required when `enrolledBasis` is not "registry" (src/lib/corpus-rules.test.ts). */
+  enrolledNote: z.string().optional(),
   /** Structured outcomes; values in the arm's unit (months, percent). Enables pictograms and comparisons. */
   outcomes: z.array(z.object({
     endpoint: z.string(),

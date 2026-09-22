@@ -5,7 +5,9 @@
  * `trials` array) with the corpus view, then, unless --offline is passed:
  *   1. asks the ClinicalTrials.gov v2 API for each NCT id's status, phases, enrolment and completion dates and flags
  *      contradictions with the corpus in plain words (status mapping, phase overlap, enrolment beyond 5 percent,
- *      watch items quoting a registry completion date the registry has since moved);
+ *      watch items quoting a registry completion date the registry has since moved); an enrolment gap on a record
+ *      whose `enrolledBasis` is not "registry" (its figure is the randomised, analysed, treated or registered
+ *      population from the primary paper) is listed as explained, with the record's `enrolledNote`, not flagged;
  *   2. searches Europe PMC for cancer papers naming each trial acronym in the title, first published on or after the
  *      roadmap's asOf date, deduplicated by DOI, with journal and date;
  *   3. flags watch items whose expected date has passed.
@@ -13,9 +15,13 @@
  *
  *   npm run roadmap:watch                                  every roadmap, plain report
  *   npm run roadmap:watch -- --roadmap ctdna-tests         one roadmap (npm run ctdna:watch is this alias)
- *   npm run roadmap:watch -- --offline                     corpus-only listing, no network
+ *   npm run roadmap:watch -- --offline                     no network; corpus-only listing
  *   npm run roadmap:watch -- --since 2026-06-01            override the publication cut-off for every roadmap
  *   npm run roadmap:watch -- --json public/roadmap-watch.json   also write the machine-readable report
+ *   npm run roadmap:watch -- --offline --json public/roadmap-watch.json
+ *       no network; re-compares the corpus with the registry records and papers already in that report, so a
+ *       corpus edit can be reflected in the committed JSON without a fresh fetch (generatedAt is kept from the
+ *       report, since it dates the registry data)
  *
  * Network: ClinicalTrials.gov and Europe PMC only, 300 ms apart, at most --max-requests (default 400) in a run.
  * Nothing under src/data is written; edit records by hand from what it prints, then move the roadmap's asOf.
@@ -25,7 +31,7 @@ import { dirname } from "node:path";
 import { graph } from "../src/lib/graph";
 import type { Roadmap, Trial } from "../src/lib/schema";
 import {
-  dedupePapers, entryFor, expectedPassed, isNct, roadmapTrials, trialAcronyms, trialContradictions, watchDateContradiction,
+  dedupePapers, entryFor, expectedPassed, isNct, roadmapTrials, trialAcronyms, trialFindings, watchDateContradiction,
   type RegistryRecord, type RoadmapWatchEntry, type RoadmapWatchReport, type TrialCheck, type WatchItemCheck, type WatchPaper,
 } from "../src/lib/roadmap-watch";
 
@@ -135,23 +141,36 @@ async function main() {
   const registryErrors: string[] = [];
   const papersByAcronym = new Map<string, WatchPaper[]>();
   const searchErrors: string[] = [];
+  // Offline with an existing report: reuse its registry records and per-trial papers, so the comparison reflects
+  // corpus edits without a fetch. The report's generatedAt is kept because it dates that registry data.
+  const cachedPapers = new Map<string, WatchPaper[]>();
+  let cachedGeneratedAt: string | undefined;
   if (!offline) {
     try { reg = await registry(ncts); } catch (e) { registryErrors.push((e as Error).message); }
     for (const [a, since] of [...acronymSince.entries()].sort()) {
       try { papersByAcronym.set(a, await papersSince(a, since)); } catch (e) { searchErrors.push(`${a}: ${(e as Error).message}`); if (requests >= maxRequests) break; }
     }
+  } else if (jsonPath && existsSync(jsonPath)) {
+    const prev = JSON.parse(readFileSync(jsonPath, "utf8")) as RoadmapWatchReport;
+    cachedGeneratedAt = prev.generatedAt;
+    for (const entry of prev.roadmaps ?? []) for (const t of entry.trials) {
+      if (t.registry && isNct(t.registry.nct)) reg.set(t.registry.nct, t.registry);
+      if (t.papers.length) cachedPapers.set(`${entry.id}/${t.id}`, t.papers);
+    }
   }
 
-  const report: RoadmapWatchReport = { generatedAt: today, offline, requests, roadmaps: [] };
+  const report: RoadmapWatchReport = { generatedAt: cachedGeneratedAt ?? today, offline, requests, roadmaps: [] };
   for (const { rm, since, trials } of perRoadmap) {
     const checks: TrialCheck[] = trials.map((t) => {
       const r = isNct(t.nct) ? reg.get(t.nct) ?? null : null;
-      const papers = dedupePapers(trialAcronyms(t).flatMap((a) => papersByAcronym.get(a) ?? []).filter((p) => !p.date || p.date >= since));
+      const papers = cachedPapers.get(`${rm.id}/${t.id}`) ?? dedupePapers(trialAcronyms(t).flatMap((a) => papersByAcronym.get(a) ?? []).filter((p) => !p.date || p.date >= since));
+      const findings = trialFindings(t, r);
       return {
         id: t.id, name: t.name, nct: t.nct,
-        corpus: { status: t.status, phase: t.phase, enrolled: t.enrolled, yearReported: t.yearReported },
+        corpus: { status: t.status, phase: t.phase, enrolled: t.enrolled, enrolledBasis: t.enrolledBasis, enrolledNote: t.enrolledNote, yearReported: t.yearReported },
         registry: r,
-        contradictions: trialContradictions(t, r),
+        contradictions: findings.contradictions,
+        explained: findings.explained,
         papers,
       };
     });
@@ -168,36 +187,42 @@ async function main() {
     const flat: RoadmapWatchEntry["contradictions"] = [];
     for (const c of checks) for (const text of c.contradictions) flat.push({ ref: c.id, name: c.name, text });
     for (const w of watch) for (const text of w.contradictions) flat.push({ ref: w.refs[0] ?? rm.id, name: w.item, text });
+    const explained: RoadmapWatchEntry["explained"] = [];
+    for (const c of checks) for (const text of c.explained) explained.push({ ref: c.id, name: c.name, text });
     report.roadmaps.push({
       id: rm.id, name: rm.name, asOf: rm.asOf, since,
       counts: {
         trials: checks.length,
         checked: checks.filter((c) => c.registry).length,
         contradictions: flat.length,
+        explained: explained.length,
         papers: checks.reduce((n, c) => n + c.papers.length, 0),
         watch: watch.length,
         watchPassed: watch.filter((w) => w.passed).length,
       },
-      trials: checks, watch, contradictions: flat,
+      trials: checks, watch, contradictions: flat, explained,
     });
   }
   report.requests = requests;
 
   // Plain report, grouped by roadmap.
-  console.log(`Roadmap watch, ${today}: ${roadmaps.length} roadmap${roadmaps.length === 1 ? "" : "s"}, ${allTrials.size} distinct trials, ${ncts.length} with NCT ids${offline ? " (offline: registry and literature checks skipped)" : `; ${requests} requests`}.`);
+  const mode = offline ? (cachedGeneratedAt ? ` (offline: compared with the registry records fetched ${cachedGeneratedAt} in ${jsonPath})` : " (offline: registry and literature checks skipped)") : `; ${requests} requests`;
+  console.log(`Roadmap watch, ${today}: ${roadmaps.length} roadmap${roadmaps.length === 1 ? "" : "s"}, ${allTrials.size} distinct trials, ${ncts.length} with NCT ids${mode}.`);
   for (const err of registryErrors) console.log(`  registry lookup failed: ${err}`);
   for (const entry of report.roadmaps) {
     const c = entry.counts;
     console.log(`\n== ${entry.name} [${entry.id}] ==`);
-    console.log(`asOf ${entry.asOf}; publications from ${entry.since}; ${c.trials} trials, ${c.checked} checked on the registry, ${c.contradictions} contradiction${c.contradictions === 1 ? "" : "s"}, ${c.papers} new paper${c.papers === 1 ? "" : "s"}, ${c.watch} watch item${c.watch === 1 ? "" : "s"} (${c.watchPassed} past their expected date).`);
+    console.log(`asOf ${entry.asOf}; publications from ${entry.since}; ${c.trials} trials, ${c.checked} checked on the registry, ${c.contradictions} contradiction${c.contradictions === 1 ? "" : "s"}, ${c.explained} explained enrolment gap${c.explained === 1 ? "" : "s"}, ${c.papers} new paper${c.papers === 1 ? "" : "s"}, ${c.watch} watch item${c.watch === 1 ? "" : "s"} (${c.watchPassed} past their expected date).`);
     for (const t of entry.trials) {
-      const bits = [t.nct ?? "no registry id", `phase ${t.corpus.phase}`, t.corpus.status ?? "no status", t.corpus.enrolled ? `enrolled ${t.corpus.enrolled}` : "enrolment not stated"];
+      const basis = t.corpus.enrolledBasis && t.corpus.enrolledBasis !== "registry" ? ` (${t.corpus.enrolledBasis})` : "";
+      const bits = [t.nct ?? "no registry id", `phase ${t.corpus.phase}`, t.corpus.status ?? "no status", t.corpus.enrolled ? `enrolled ${t.corpus.enrolled}${basis}` : "enrolment not stated"];
       console.log(`- ${t.name} [${t.id}]: ${bits.join("; ")}`);
       if (t.registry) {
         const r = t.registry;
         console.log(`    registry: ${r.status ?? "?"}; ${r.phases?.length ? r.phases.join("/") : r.studyType ?? "?"}; enrolment ${r.enrolment ?? "?"}${r.enrolmentType ? ` (${r.enrolmentType.toLowerCase()})` : ""}; primary completion ${r.primaryCompletion ?? "?"}; completion ${r.completion ?? "?"}; last update ${r.lastUpdate ?? "?"}`);
       } else if (!offline && isNct(t.nct)) console.log("    registry: not returned");
       for (const x of t.contradictions) console.log(`    <-- ${x}`);
+      for (const x of t.explained) console.log(`    ~~ explained: ${x}`);
       for (const p of t.papers) console.log(`    paper ${p.date ?? "????-??-??"}  ${p.title}${p.journal ? ` (${p.journal})` : ""}${p.doi ? `  https://doi.org/${p.doi}` : p.pmid ? `  https://europepmc.org/article/MED/${p.pmid}` : ""}`);
     }
     if (entry.watch.length) {
@@ -211,8 +236,9 @@ async function main() {
   if (searchErrors.length) console.log(`\nLiterature searches that failed (${searchErrors.length}): ${searchErrors.slice(0, 10).join("; ")}${searchErrors.length > 10 ? "; ..." : ""}`);
 
   const total = report.roadmaps.reduce((n, r) => n + r.counts.contradictions, 0);
+  const explainedTotal = report.roadmaps.reduce((n, r) => n + r.counts.explained, 0);
   const passed = report.roadmaps.reduce((n, r) => n + r.counts.watchPassed, 0);
-  console.log(`\nTotals: ${total} contradiction${total === 1 ? "" : "s"}, ${passed} watch item${passed === 1 ? "" : "s"} past due, ${report.roadmaps.reduce((n, r) => n + r.counts.papers, 0)} new papers.`);
+  console.log(`\nTotals: ${total} contradiction${total === 1 ? "" : "s"}, ${explainedTotal} explained enrolment gap${explainedTotal === 1 ? "" : "s"}, ${passed} watch item${passed === 1 ? "" : "s"} past due, ${report.roadmaps.reduce((n, r) => n + r.counts.papers, 0)} new papers.`);
   if (total) {
     console.log("Contradictions:");
     for (const r of report.roadmaps) for (const x of r.contradictions) console.log(`- [${r.id}] ${x.name}: ${x.text}`);

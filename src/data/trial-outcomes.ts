@@ -9,7 +9,7 @@ import type { TrialInput } from "@/lib/schema";
  * unit "months". Where an arm value is not public the arm is listed without a value and
  * the note says so.
  */
-export type TrialOutcomeData = Pick<TrialInput, "enrolled" | "outcomes" | "replication">;
+export type TrialOutcomeData = Pick<TrialInput, "enrolled" | "enrolledBasis" | "enrolledNote" | "outcomes" | "replication">;
 
 /** Authoring type: allows a note on the outcome itself; normalised into the first arm's note below. */
 type OutcomeIn = NonNullable<TrialInput["outcomes"]>[number] & { note?: string };
@@ -60,6 +60,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   "ascent-03": {
     enrolled: 558,
+    enrolledBasis: "randomised",
+    enrolledNote: "ClinicalTrials.gov lists 623 participants (actual); the NEJM 2025 primary analysis covered 558 randomised patients.",
     outcomes: [
       { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Sacituzumab govitecan", n: 279, value: 9.7 }, { name: "Chemotherapy (TPC)", n: 279, value: 6.9 }], hr: 0.62, ci: [0.50, 0.77], p: "<0.0001", source: "https://dailyreporter.esmo.org/esmo-congress-2025/breast-cancer/survival-improvements-observed-with-first-line-antibody-drug-conjugates-in-triple-negative-breast-cancer" },
       { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Sacituzumab govitecan", value: 48 }, { name: "Chemotherapy (TPC)", value: 44 }] },
@@ -358,6 +360,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   "checkmate-816": {
     enrolled: 358,
+    enrolledBasis: "randomised",
+    enrolledNote: "ClinicalTrials.gov lists 505 participants (actual) across all arms, including nivolumab plus ipilimumab; the NEJM 2022 primary analysis compared 179 patients randomised to nivolumab plus chemotherapy with 179 randomised to chemotherapy.",
     outcomes: [
       { endpoint: "Pathologic complete response", primary: true, unit: "%", arms: [{ name: "Nivolumab + chemotherapy", n: 179, value: 24.0 }, { name: "Chemotherapy", n: 179, value: 2.2 }], p: "<0.001", source: nejm("NEJMoa2202170") },
       { endpoint: "Event-free survival", primary: true, unit: "months", arms: [{ name: "Nivolumab + chemotherapy", value: 31.6 }, { name: "Chemotherapy", value: 20.8 }], hr: 0.63, ci: [0.43, 0.91], p: "0.005", source: nejm("NEJMoa2202170") },
@@ -430,9 +434,9 @@ const RAW: Record<string, TrialOutcomeIn> = {
     outcomes: [{ endpoint: "Progression-free survival (BICR), ITT-pembrolizumab population", primary: true, unit: "months", arms: [{ name: "Selpercatinib", n: 129, value: 24.8 }, { name: "Platinum-pemetrexed ± pembrolizumab", n: 83, value: 11.2 }], hr: 0.46, ci: [0.31, 0.70], p: "<0.001", source: nejm("NEJMoa2309457") }],
     replication: "Consistent with the single-arm LIBRETTO-001 (ORR 84% treatment-naive); pralsetinib (ARROW) supports the RET class.",
   },
-  "telimet-nsclc-01": { enrolled: 698, outcomes: [], replication: "Ongoing confirmatory trial for the LUMINOSITY-based accelerated approval." },
+  "telimet-nsclc-01": { enrolled: 768, outcomes: [], replication: "Ongoing confirmatory trial for the LUMINOSITY-based accelerated approval." },
   "alkove-1": {
-    enrolled: 432,
+    enrolled: 840,
     outcomes: [{ endpoint: "Objective response rate, TKI-pretreated ALK+ NSCLC (pivotal cohort)", primary: true, unit: "%", arms: [{ name: "Neladalkib, lorlatinib-pretreated", value: 51 }], source: ct("NCT05384626") }],
     replication: "Single-arm pivotal; ALKAZAR (randomised vs alectinib, first line) is ongoing.",
   },
@@ -511,6 +515,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   propel: {
     enrolled: 796,
+    enrolledBasis: "randomised",
+    enrolledNote: "ClinicalTrials.gov lists 895 participants (actual); 1,103 patients were screened and 796 randomised (399 olaparib, 397 placebo) in the primary analysis.",
     outcomes: [
       { endpoint: "Radiographic progression-free survival (investigator), all comers", primary: true, unit: "months", arms: [{ name: "Olaparib + abiraterone", n: 399, value: 24.8 }, { name: "Placebo + abiraterone", n: 397, value: 16.6 }], hr: 0.66, ci: [0.54, 0.81], p: "<0.001", source: "https://evidence.nejm.org/doi/full/10.1056/EVIDoa2200043" },
       { endpoint: "Overall survival, all comers", unit: "months", arms: [{ name: "Olaparib + abiraterone", value: 42.1 }, { name: "Placebo + abiraterone", value: 34.7 }], hr: 0.81, ci: [0.67, 1.00], note: "Not significant; larger effect in BRCA-mutant", source: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00382-9/fulltext" },
@@ -519,6 +525,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   "talapro-2": {
     enrolled: 805,
+    enrolledBasis: "randomised",
+    enrolledNote: "ClinicalTrials.gov lists 1,054 participants (actual) across both cohorts; the Lancet 2023 primary analysis randomised 805 patients in the all-comers cohort (402 talazoparib, 403 placebo).",
     outcomes: [
       { endpoint: "Radiographic progression-free survival, all comers", primary: true, unit: "months", arms: [{ name: "Talazoparib + enzalutamide", n: 402, note: "Median not reached" }, { name: "Placebo + enzalutamide", n: 403, value: 21.9 }], hr: 0.63, ci: [0.51, 0.78], p: "<0.0001", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01055-3/fulltext" },
       { endpoint: "Overall survival, all comers (final)", unit: "months", arms: [{ name: "Talazoparib + enzalutamide", value: 45.8 }, { name: "Placebo + enzalutamide", value: 37.0 }], hr: 0.80, ci: [0.66, 0.96], p: "0.016", source: ct("NCT03395197") },
@@ -527,6 +535,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   magnitude: {
     enrolled: 423,
+    enrolledBasis: "randomised",
+    enrolledNote: "ClinicalTrials.gov lists 765 participants (actual) across all cohorts; the JCO 2023 primary analysis randomised 423 patients in the HRR-positive cohort, the population behind the headline result, and 247 in the HRR-negative cohort.",
     outcomes: [{ endpoint: "Radiographic progression-free survival, BRCA1/2 subgroup", primary: true, unit: "months", arms: [{ name: "Niraparib + abiraterone", n: 113, value: 16.6 }, { name: "Placebo + abiraterone", n: 112, value: 10.9 }], hr: 0.53, ci: [0.36, 0.79], p: "0.001", source: "https://ascopubs.org/doi/10.1200/JCO.22.01649" }],
     replication: "Consistent with PROpel and TALAPRO-2 in BRCA-mutant disease; the HRR-negative cohort showed no benefit and was stopped for futility.",
   },

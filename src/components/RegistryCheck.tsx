@@ -15,6 +15,7 @@ export function RegistryCheck({ roadmapId }: { roadmapId: string }) {
   if (!entry || (entry.counts.checked === 0 && entry.counts.watch === 0)) return null;
   const g = graph();
   const { counts } = entry;
+  const explained = entry.explained ?? [];
   const date = (report as unknown as RoadmapWatchReport).generatedAt;
   const n = (k: number, one: string, many = `${one}s`) => `${k} ${k === 1 ? one : many}`;
   return (
@@ -24,6 +25,7 @@ export function RegistryCheck({ roadmapId }: { roadmapId: string }) {
         <span className="font-mono text-xs tabular-nums">{date}</span>: {n(counts.checked, "trial")} of {counts.trials} checked against ClinicalTrials.gov
         {counts.watch > 0 && <>, {n(counts.watchPassed, "watch item")} past {counts.watchPassed === 1 ? "its" : "their"} expected date</>}
         {counts.papers > 0 && <>, {n(counts.papers, "new paper")} since {entry.since}</>}
+        {explained.length > 0 && <>, {n(explained.length, "explained enrolment gap")}</>}
         {counts.contradictions === 0 ? <>, no contradictions.</> : <>, {n(counts.contradictions, "contradiction")}:</>}
         {" "}<a href="/roadmap-watch.json" className="underline decoration-foreground/25 underline-offset-[3px] hover:decoration-foreground text-xs">full report</a>
       </p>
@@ -38,6 +40,21 @@ export function RegistryCheck({ roadmapId }: { roadmapId: string }) {
             );
           })}
         </ul>
+      )}
+      {explained.length > 0 && (
+        <details className="mt-1.5">
+          <summary className="cursor-pointer text-xs">Explained enrolment gaps: the corpus counts the population in the primary paper, the registry counts everyone enrolled</summary>
+          <ul className="mt-1.5 space-y-1 list-disc ps-5 text-xs">
+            {explained.map((c, i) => {
+              const e = g.get(c.ref);
+              return (
+                <li key={i}>
+                  {e ? <Link href={routeFor(e)} className="text-foreground underline decoration-foreground/25 underline-offset-[3px] hover:decoration-foreground">{c.name}</Link> : <span className="text-foreground">{c.name}</span>}: {c.text}
+                </li>
+              );
+            })}
+          </ul>
+        </details>
       )}
     </aside>
   );

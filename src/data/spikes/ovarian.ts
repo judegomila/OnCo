@@ -27,7 +27,8 @@ const te = (x: Te): TechnologyInput => ({ kind: "technology", asOf, ...x });
 
 // ======================= TRIALS =======================
 const trials: TrialInput[] = [
-  t({ id: "solo-1", name: "SOLO-1", nct: "NCT01844986", phase: "3", status: "positive", yearReported: 2018, sponsor: "AstraZeneca / Merck", enrolled: 391,
+  t({ id: "solo-1", name: "SOLO-1", nct: "NCT01844986", phase: "3", status: "positive", yearReported: 2018, sponsor: "AstraZeneca / Merck", enrolled: 391, enrolledBasis: "randomised",
+    enrolledNote: "ClinicalTrials.gov lists 450 participants (actual); the NEJM 2018 primary analysis randomised 391 patients (260 olaparib, 131 placebo).",
     setting: "Newly diagnosed advanced BRCA-mutated ovarian cancer in response to platinum chemotherapy: olaparib maintenance for 2 years vs placebo",
     tldr: "Two years of an olaparib pill after chemotherapy made a large share of women with BRCA-mutated ovarian cancer long-term survivors.",
     summary: "PFS HR 0.30 at the primary analysis (NEJM 2018). At 7 years, 67.0% of olaparib patients were alive versus 46.5% on placebo (HR 0.55; JCO 2023), the first PARP inhibitor trial with a clinically meaningful overall survival gain in the first-line setting and the basis for the 2018 maintenance approval. Roughly half of olaparib patients remained progression-free at 5 years.",

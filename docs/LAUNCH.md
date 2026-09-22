@@ -27,8 +27,9 @@ Merge finished worktree agents before the chain; never `cd` into a worktree; nev
 - [x] Idea rankings (/ideas/rankings/) and corpus rankings (/rankings/): chain 96; Most wanted hidden until votes exist
 - [x] Pagination for /explore/, /for-me/, /navigator/: chain 96; /explained/ lazy explainer bodies in progress
 - [x] Content roadmap (docs/CONTENT-ROADMAP.md, `npm run content:gaps`): chain 96; waves 1 and 2 running
-- [x] Cancer map DAG (/cancers/map/, graph.json): merged, ships in chain 97
-- [ ] Every hand-written table on the shared filter (docs/TABLES.md): agent running
+- [x] Cancer map DAG (/cancers/map/, graph.json): chain 97
+- [x] Every hand-written table with ten or more rows on the shared filter (docs/TABLES.md): chain 97; seven heavy pages page their rows from /api/v1/tables/ since chain 98
+- [x] Content waves 1, 2, 3 (leukaemia, brain, childhood, lymphoma), 5: chains 97 and 98; waves 3 (remaining families), 6 and 7a running
 - [ ] Owner: WHO Blue Books access, taxonomy call (entities versus settings, supportive care, cooperative groups), burden source for the 31 cancers GLOBOCAN does not map (see docs/CONTENT-ROADMAP.md section 4)
 
 ## Owner asks not yet started

@@ -39,6 +39,7 @@ import { personPapersWave6 } from "./person-papers-wave6";
 import { trialsIdeasWave6 } from "./trials-ideas-wave6";
 import { papersIdeasWave6 } from "./papers-ideas-wave6";
 import { ideaLinksWave6 } from "./idea-links-wave6";
+import { companyDrugsWave6, trialCompaniesWave6 } from "./company-drugs-wave6";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
@@ -229,8 +230,14 @@ const RAW_INPUTS: EntityInput[] = [
 export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((e) => {
   if (e.kind === "term") return { ...e, category: canonicalTermCategory(e.id, e.category) };
   if (e.kind === "cancer" && !e.parent && (cancerParents[e.id] ?? cancerParentsWave2Map[e.id])) return { ...e, parent: cancerParents[e.id] ?? cancerParentsWave2Map[e.id] };
-  // Key papers found for trials by scripts/fetch-trial-papers.ts (wave 1), kept in one file rather than edited into every trial file.
-  if (e.kind === "trial" && trialKeyPapersWave1[e.id]) return { ...e, keyPapers: [...(e.keyPapers ?? []), ...trialKeyPapersWave1[e.id].filter((id) => !(e.keyPapers ?? []).includes(id))] };
+  // Trials: key papers found by scripts/fetch-trial-papers.ts (wave 1) and sponsors verified by scripts/fetch-company-drugs.ts (wave 6), kept in one file each rather than edited into every trial file.
+  if (e.kind === "trial" && (trialKeyPapersWave1[e.id] || trialCompaniesWave6[e.id])) {
+    const keyPapers = [...(e.keyPapers ?? []), ...(trialKeyPapersWave1[e.id] ?? []).filter((id) => !(e.keyPapers ?? []).includes(id))];
+    const companies = [...(e.companies ?? []), ...(trialCompaniesWave6[e.id] ?? []).filter((id) => !(e.companies ?? []).includes(id))];
+    return { ...e, keyPapers, companies };
+  }
+  // Drugs found for companies through the ClinicalTrials.gov lead-sponsor field by scripts/fetch-company-drugs.ts (wave 6).
+  if (e.kind === "company" && companyDrugsWave6[e.id]) return { ...e, drugs: [...(e.drugs ?? []), ...companyDrugsWave6[e.id].filter((id) => !(e.drugs ?? []).includes(id))] };
   // Trials and key papers found for ideas by scripts/fetch-idea-evidence.ts (wave 6).
   if (e.kind === "idea" && ideaLinksWave6[e.id]) {
     const w = ideaLinksWave6[e.id];

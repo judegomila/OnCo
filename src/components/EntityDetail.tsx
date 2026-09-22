@@ -3,7 +3,7 @@ import { enrolmentLabel } from "@/lib/enrolment";
 import { publicTags } from "@/lib/tags";
 import type { ReactNode } from "react";
 import type { Cancer, Entity, Roadmap, Term } from "@/lib/schema";
-import { KIND_META, routeFor } from "@/lib/kinds";
+import { KIND_META, phaseLabel, routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { paragraphs, KIND_COLOR, statusClass } from "@/lib/text";
 import { Bullets, ChipList, Container, KindChip, PageHeader, StatusChip } from "./ui";
@@ -390,7 +390,7 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
           <Field label="Setting">{e.setting}</Field>
-          <Field label="Phase">Phase {e.phase}</Field>
+          <Field label="Phase">{phaseLabel(e.phase)}</Field>
           <Field label="Sponsor">{e.sponsor}</Field>
           <Field label="Registry">{e.nct && <a className="underline" href={`https://clinicaltrials.gov/study/${e.nct}`} rel="noopener">{e.nct}</a>}</Field>
           <Field label="Headline result">{e.result}</Field>

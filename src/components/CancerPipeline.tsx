@@ -1,5 +1,5 @@
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/kinds";
+import { phaseLabel, routeFor } from "@/lib/kinds";
 import { type Cancer, type Drug, type Entity, type Technology, type Trial } from "@/lib/schema";
 import { DrugGrid } from "./DrugCard";
 import { ChipList } from "./ui";
@@ -36,8 +36,8 @@ export function CancerPipeline({ c }: { c: Cancer }) {
       {byStatus.map((s) => <section key={s.key}><h3 className="font-semibold mb-2">Drugs in {s.label.toLowerCase()} <span className="text-muted font-normal">· {s.list.length}</span></h3><DrugGrid drugs={s.list} compact /></section>)}
       {unstaged.length > 0 && <section><h3 className="font-semibold mb-2">Drugs at an unstated stage <span className="text-muted font-normal">· {unstaged.length}</span></h3><DrugGrid drugs={unstaged} compact /></section>}
       {techs.length > 0 && <section><h3 className="font-semibold mb-2">Technologies being tested <span className="text-muted font-normal">· {techs.length}</span></h3><ChipList items={techs} /></section>}
-      {live.length > 0 && <section><h3 className="font-semibold mb-2">Trials under way <span className="text-muted font-normal">· {live.length}</span></h3><ul className="space-y-1 text-sm">{live.map((t) => <li key={t.id}><Link className="underline" href={routeFor(t)}>{t.name}</Link> <span className="text-muted">· phase {t.phase}{t.sponsor ? ` · ${t.sponsor}` : ""}</span></li>)}</ul></section>}
-      {reported.length > 0 && <section><h3 className="font-semibold mb-2">Trials reported <span className="text-muted font-normal">· {reported.length}</span></h3><ul className="space-y-1 text-sm">{reported.map((t) => <li key={t.id}><Link className="underline" href={routeFor(t)}>{t.name}</Link> <span className="text-muted">· phase {t.phase}{t.yearReported ? ` · ${t.yearReported}` : ""}{t.status ? ` · ${t.status}` : ""}</span></li>)}</ul></section>}
+      {live.length > 0 && <section><h3 className="font-semibold mb-2">Trials under way <span className="text-muted font-normal">· {live.length}</span></h3><ul className="space-y-1 text-sm">{live.map((t) => <li key={t.id}><Link className="underline" href={routeFor(t)}>{t.name}</Link> <span className="text-muted">· {phaseLabel(t.phase).toLowerCase()}{t.sponsor ? ` · ${t.sponsor}` : ""}</span></li>)}</ul></section>}
+      {reported.length > 0 && <section><h3 className="font-semibold mb-2">Trials reported <span className="text-muted font-normal">· {reported.length}</span></h3><ul className="space-y-1 text-sm">{reported.map((t) => <li key={t.id}><Link className="underline" href={routeFor(t)}>{t.name}</Link> <span className="text-muted">· {phaseLabel(t.phase).toLowerCase()}{t.yearReported ? ` · ${t.yearReported}` : ""}{t.status ? ` · ${t.status}` : ""}</span></li>)}</ul></section>}
       {targets.length > 0 && <section><h3 className="font-semibold mb-2">Targets under investigation <span className="text-muted font-normal">· {targets.length}</span></h3><ChipList items={targets} /></section>}
       {pairings.length > 0 && <section><h3 className="font-semibold mb-2">Combinations being explored <span className="text-muted font-normal">· {pairings.length}</span></h3><ChipList items={pairings} /></section>}
       {ideas.length > 0 && <section><h3 className="font-semibold mb-2">Ideas not yet in a trial <span className="text-muted font-normal">· {ideas.length}</span></h3><ChipList items={ideas} /></section>}

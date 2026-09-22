@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { phaseLabel, routeFor } from "@/lib/schema";
 import { trialEvidence, evidenceLabel } from "@/lib/evidence";
 import { Pictogram, primaryOutcomeSummary } from "@/components/Pictogram";
 import { Container, GroupKicker, PageHeader, StatusChip } from "@/components/ui";
@@ -48,7 +48,7 @@ export default function EvidencePage() {
                 <tr key={t.id}>
                   <td className="tabular-nums text-muted">{i + 1}</td>
                   <td className="min-w-[220px]"><Link href={routeFor(t)} className="font-medium hover:underline">{t.name}</Link><div className="text-xs text-muted line-clamp-1">{t.setting}</div></td>
-                  <td className="text-muted">Phase {t.phase}</td>
+                  <td className="text-muted">{phaseLabel(t.phase)}</td>
                   <td><StatusChip status={t.status} /></td>
                   <td className="hidden md:table-cell text-xs text-muted max-w-md">{primaryOutcomeSummary(t) ?? "-"}</td>
                   <td className="hidden sm:table-cell tabular-nums text-muted">{t.enrolled?.toLocaleString() ?? "-"}</td>

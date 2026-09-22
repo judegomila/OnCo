@@ -93,3 +93,25 @@ export const KIND_META: Record<Kind, { plural: string; label: string; route: str
 export function routeFor(e: { kind: Kind; id: string }): string {
   return `/${KIND_META[e.kind].route}/${e.id}/`;
 }
+
+/** Trial phase values (the `phase` enum in schema.ts) in display order: late-stage first, then platform and observational designs. */
+export const PHASE_ORDER = ["3", "2/3", "platform", "2", "1/2", "1", "4", "observational"] as const;
+
+const PHASE_LABEL: Record<string, string> = { "3": "Phase 3", "2/3": "Phase 2/3", "2": "Phase 2", "1/2": "Phase 1/2", "1": "Phase 1", "4": "Phase 4", platform: "Platform trial", observational: "Observational study" };
+
+/** Human label for a trial phase value: "Phase 3", "Platform trial", "Observational study"; unknown values come back unchanged. */
+export function phaseLabel(phase: string): string {
+  return PHASE_LABEL[phase] ?? phase;
+}
+
+/**
+ * Maps any historical phase facet value to the current label so shared links keep filtering: accepts the label itself
+ * ("Observational study"), the raw enum value ("observational") and the old template form ("Phase observational").
+ */
+export function normalisePhaseLabel(value: string): string {
+  const v = value.trim();
+  if (Object.values(PHASE_LABEL).includes(v)) return v;
+  if (v in PHASE_LABEL) return PHASE_LABEL[v];
+  const m = /^Phase (.+)$/i.exec(v);
+  return m && m[1] in PHASE_LABEL ? PHASE_LABEL[m[1]] : v;
+}

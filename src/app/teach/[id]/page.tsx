@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { pageMeta, absoluteUrl } from "@/lib/seo";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { graph } from "@/lib/graph";
-import { KIND_META, routeFor, type Cancer, type Drug, type Entity, type Section, type Technology, type Trial } from "@/lib/schema";
+import { KIND_META, phaseLabel, routeFor, type Cancer, type Drug, type Entity, type Section, type Technology, type Trial } from "@/lib/schema";
 import { paragraphs } from "@/lib/text";
 import { trialEvidence } from "@/lib/evidence";
 import { primaryOutcomeSummary } from "@/components/Pictogram";
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 const nameOf = (id: string) => graph().get(id)?.name ?? id;
 const kindOf = (id: string) => { const e = graph().get(id); return e ? KIND_META[e.kind].label.toLowerCase() : ""; };
 const cut = <T,>(xs: T[], n: number) => xs.slice(0, n);
-const trialLine = (t: Trial) => `${t.name} (phase ${t.phase}${t.enrolled ? `, n=${t.enrolled.toLocaleString("en-GB")}` : ""}): ${primaryOutcomeSummary(t) ?? t.result ?? "result not yet recorded"}`;
+const trialLine = (t: Trial) => `${t.name} (${phaseLabel(t.phase).toLowerCase()}${t.enrolled ? `, n=${t.enrolled.toLocaleString("en-GB")}` : ""}): ${primaryOutcomeSummary(t) ?? t.result ?? "result not yet recorded"}`;
 const sourcesOf = (e: Entity) => [...e.links, ...(e.wikipedia ? [{ label: "Wikipedia", url: e.wikipedia }] : [])];
 
 function quizFor(id: string, related: Set<string>): Slide["quiz"] {

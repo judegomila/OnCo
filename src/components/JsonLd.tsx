@@ -1,5 +1,5 @@
 import type { Entity } from "@/lib/schema";
-import { KIND_META, routeFor } from "@/lib/kinds";
+import { KIND_META, phaseLabel, routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { SITE, SITE_NAME, absoluteUrl, entityCrumbs, machineRoutes, type Crumb } from "@/lib/seo";
 import { wikidataIds } from "@/data/wikidata-ids";
@@ -100,7 +100,7 @@ function entityNode(e: Entity): Node {
         ...base,
         "@type": "MedicalTrial",
         identifier: e.nct,
-        phase: e.phase && /^\d/.test(e.phase) ? `Phase ${e.phase}` : undefined,
+        phase: e.phase && /^\d/.test(e.phase) ? phaseLabel(e.phase) : undefined,
         status: e.status ? TRIAL_STATUS[e.status] : undefined,
         sponsor: e.sponsor ? { "@type": "Organization", name: e.sponsor } : undefined,
         studySubject: e.drugs.length ? e.drugs.map((id) => ref(id, "Drug")).filter(Boolean) : undefined,

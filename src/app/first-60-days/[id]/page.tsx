@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
+import { phaseLabel } from "@/lib/kinds";
 import { buildGuide, WEEKS, type Guide, type GuideLink, type GuideSectionId, type GuideSocRow } from "@/lib/first-60-days";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CancerIcon } from "@/components/CancerIcon";
@@ -162,7 +163,7 @@ export default async function FirstSixtyDaysPage({ params }: { params: Promise<{
                   <li key={t.id}>
                     <Link href={t.route} className="card p-3 flex flex-wrap items-baseline gap-x-3 gap-y-1 hover:shadow-md transition">
                       <span className="font-medium">{t.name}</span>
-                      <span className="text-xs text-muted">Phase {t.phase}{t.status ? ` · ${t.status}` : ""}{t.nct ? ` · ${t.nct}` : ""}</span>
+                      <span className="text-xs text-muted">{phaseLabel(t.phase)}{t.status ? ` · ${t.status}` : ""}{t.nct ? ` · ${t.nct}` : ""}</span>
                       <span className="block w-full text-sm text-muted">{t.setting}</span>
                     </Link>
                   </li>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { Suspense } from "react";
 import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/schema";
+import { phaseLabel, routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CompareView, type CompareItem } from "@/components/CompareView";
 
@@ -66,7 +66,7 @@ export default function ComparePage() {
       id: t.id, kind: "trial", name: t.name, route: routeFor(t), status: t.status, tldr: t.tldr,
       fields: [
         ["Registry", t.nct ?? "-"],
-        ["Phase", `Phase ${t.phase}`],
+        ["Phase", phaseLabel(t.phase)],
         ["Setting", t.setting],
         ["Sponsor", t.sponsor ?? "-"],
         ["Enrolled", t.enrolled !== undefined ? String(t.enrolled) : "-"],

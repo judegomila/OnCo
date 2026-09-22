@@ -24,6 +24,7 @@ import { forMeRelated } from "../src/lib/for-me-related";
 import { matchRows } from "../src/lib/biomarker-match-rows";
 import { navigatorCancerFile, navigatorLines } from "../src/lib/navigator-data";
 import { writeExploreFiles } from "./build-explore";
+import { writeTableFiles } from "./build-tables";
 import { explainedFileFor, explainedGroups } from "../src/lib/explained-data";
 
 const out = join(process.cwd(), "public", "api", "v1");
@@ -64,6 +65,9 @@ for (const c of g.kind("cancer")) write(`for-me/${c.id}.json`, buildSituationDat
 for (const c of g.kind("cancer")) write(`for-me/${c.id}.related.json`, forMeRelated(g, c));
 // Explore: every row of one kind per file; the page carries only the first rows of each kind (src/lib/explore-kinds.ts).
 const explore = writeExploreFiles(out);
+// Paged hand-written tables (evidence, China trials, university output, audit, pathway nodes, dossier trials): every row
+// of one table per file; the page carries only the first rows (src/lib/static-tables.ts).
+const tables = writeTableFiles(out);
 // Trials in plain words: the explainer bodies of one cancer section per file; the page keeps the headings and summaries.
 mkdirSync(join(out, "explained"), { recursive: true });
 for (const grp of explainedGroups(g)) write(`explained/${grp.key}.json`, explainedFileFor(grp));
@@ -101,4 +105,4 @@ write("meta.json", {
   releases: "https://github.com/judegomila/OnCo/releases",
 });
 
-console.log(`api: wrote ${g.entities.length} entities to public/api/v1 (json, ndjson, ${KINDS.length} csv, schema); explore: ${explore.length} kind files, ${explore.reduce((n, f) => n + f.count, 0)} rows; feeds: ${feeds.join(", ")}`);
+console.log(`api: wrote ${g.entities.length} entities to public/api/v1 (json, ndjson, ${KINDS.length} csv, schema); explore: ${explore.length} kind files, ${explore.reduce((n, f) => n + f.count, 0)} rows; tables: ${tables.length} files, ${tables.reduce((n, f) => n + f.count, 0)} rows; feeds: ${feeds.join(", ")}`);

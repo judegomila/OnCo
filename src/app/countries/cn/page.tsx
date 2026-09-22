@@ -9,9 +9,10 @@ import { countryExtras } from "@/data/country-extras";
 import { deals, DEAL_TYPE_LABEL } from "@/data/deals";
 import { regionalApprovals } from "@/data/regional-approvals";
 import data from "../../../../public/openalex/countries.json";
-import { phaseLabel, routeFor } from "@/lib/kinds";
-import { STATUS_LABEL, statusClass } from "@/lib/text";
+import { routeFor } from "@/lib/kinds";
 import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
+import { pageRows } from "@/lib/static-tables";
+import { CHINA_TRIAL_COLUMNS, CHINA_TRIALS_TABLE, chinaCompanies, chinaTrialRows, chinaTrials } from "@/lib/tables/china";
 
 export const metadata: Metadata = pageMeta({
   title: "Cancer in China",
@@ -21,21 +22,8 @@ export const metadata: Metadata = pageMeta({
 
 type Raw = { years: number[]; countries: Record<string, { name: string; works: Record<string, number>; total: number; trials?: number }> };
 
-/** Chinese-origin companies headquartered elsewhere (BeOne in Basel, Legend in Somerset NJ) belong on this page too. */
-const CHINESE_ORIGIN_COMPANIES = new Set(["beone", "legend-biotech", "systimmune"]);
-/** Sponsor names that identify a Chinese registration trial when the record is not tagged. */
-const CHINESE_SPONSOR = /akeso|beigene|beone|hengrui|innovent|junshi|henlius|legend|carsgen|kelun|remegen|hutchmed|hansoh|cstone|allist|sino biopharm|chia tai|zelgen|iaso|jw therapeutics|sun yat-sen|fudan|chinese academy/i;
-
 const fmt = (n: number) => n.toLocaleString("en-GB");
 
-const TRIAL_COLUMNS: StaticColumn[] = [
-  { key: "trial", label: "Trial", className: "whitespace-nowrap" },
-  { key: "phase", label: "Phase", filterable: true, className: "text-muted whitespace-nowrap" },
-  { key: "status", label: "Status", filterable: true },
-  { key: "setting", label: "Setting", hide: "hidden md:table-cell", className: "text-muted max-w-md" },
-  { key: "result", label: "Result", className: "max-w-lg" },
-  { key: "year", label: "Year", filterable: true, sortable: true, numeric: true, className: "text-muted" },
-];
 const DEAL_COLUMNS: StaticColumn[] = [
   { key: "date", label: "Date", sortable: true, numeric: false, className: "whitespace-nowrap text-muted" },
   { key: "year", label: "Year", filterable: true, hide: "hidden xl:table-cell" },
@@ -71,12 +59,11 @@ export default function ChinaPage() {
 
   const institutions = g.kind("institution").filter((e) => e.country === "CN");
   const institutionIds = new Set(institutions.map((e) => e.id));
-  const companies = g.kind("company").filter((e) => e.country === "CN" || CHINESE_ORIGIN_COMPANIES.has(e.id));
+  const companies = chinaCompanies();
   const companyIds = new Set(companies.map((e) => e.id));
   const people = g.kind("person").filter((e) => (e.institutionId && institutionIds.has(e.institutionId)) || e.tags.includes("china") || e.companies.some((c) => companyIds.has(c)));
   const drugs = g.kind("drug").filter((e) => e.approvals.some((a) => /^(China|CN)$/i.test(a.region)) || (e.companies.some((c) => companyIds.has(c)) && e.tags.includes("china")));
-  const trials = g.kind("trial").filter((e) => e.tags.includes("china") || (e.sponsor && CHINESE_SPONSOR.test(e.sponsor)) || e.companies.some((c) => companyIds.has(c)))
-    .sort((a, b) => (b.yearReported ?? 0) - (a.yearReported ?? 0));
+  const trials = chinaTrials(companyIds);
   const regulators = ["nmpa-cde", "nhsa", "ncc-china", "csco", "caca", "ctong"].map((id) => g.get(id)).filter((e): e is Entity => !!e);
   const cnApprovals = Object.entries(regionalApprovals).filter(([, row]) => row.CN?.status === "approved" || row.CN?.status === "conditional");
   const chinaDeals = deals.filter((d) => d.from.country === "CN" || (d.from.id && companyIds.has(d.from.id)) || (d.to.id && companyIds.has(d.to.id))).sort((a, b) => b.date.localeCompare(a.date));
@@ -92,15 +79,8 @@ export default function ChinaPage() {
   const grouped = new Set(groups.flatMap(([, list]) => list.map((d) => d.id)));
   groups.push(["Other products approved in China", drugs.filter((d) => !grouped.has(d.id)).sort((a, b) => a.name.localeCompare(b.name))]);
 
-  const trialRows: StaticRow[] = trials.map((t) => ({
-    id: t.id,
-    trial: { text: t.name, href: routeFor(t), strong: true },
-    phase: phaseLabel(t.phase),
-    status: t.status ? { text: STATUS_LABEL[t.status] ?? t.status, chip: statusClass(t.status) } : undefined,
-    setting: t.setting,
-    result: t.result ?? t.tldr,
-    year: t.yearReported ? String(t.yearReported) : undefined,
-  }));
+  // The page carries the first trial rows; the rest is /api/v1/tables/china-trials.json, fetched on demand.
+  const trialTable = pageRows(CHINA_TRIALS_TABLE, chinaTrialRows(trials));
   const dealRows: StaticRow[] = chinaDeals.map((d) => {
     const from = d.from.id ? g.get(d.from.id) : undefined, to = d.to.id ? g.get(d.to.id) : undefined;
     return {
@@ -198,7 +178,7 @@ export default function ChinaPage() {
         {/* ---------- Trials ---------- */}
         <Section title={`Key trials (${trials.length})`}>
           <p className="text-sm text-muted mb-3 max-w-4xl">Registration trials of Chinese drugs, newest first. The ORIENT, RATIONALE, CameL, JUPITER, HARMONi, CAPSTONE and GEMSTONE programmes reproduced the Western PD-(L)1 results in Chinese populations; LEGEND-2 is where Carvykti began; FURLONG and AENEAS are the head-to-head EGFR trials.</p>
-          <StaticTable rows={trialRows} columns={TRIAL_COLUMNS} noun="trials" url defaultSort={{ key: "year", dir: -1 }} />
+          <StaticTable rows={trialTable.rows} more={trialTable.more} columns={CHINA_TRIAL_COLUMNS} noun="trials" url defaultSort={{ key: "year", dir: -1 }} />
         </Section>
 
         {/* ---------- Companies and deals ---------- */}

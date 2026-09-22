@@ -1,116 +1,25 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
-import { existsSync, readFileSync } from "node:fs";
-import { join } from "node:path";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
-import { runAudit, type Audit } from "../../../scripts/audit";
-import { isBlocked, isGone, isUnreachable, type LinksReport } from "../../../scripts/check-links";
-import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
+import { StaticTable } from "@/components/filters/StaticTable";
+import { pageRows } from "@/lib/static-tables";
+import { AUDIT_BROKEN_TABLE, AUDIT_MISMATCHES_TABLE, AUDIT_PATCHES_TABLE, AUDIT_STALE_TABLE, auditTables, BROKEN_COLUMNS, CHECK_LABEL, familyOf, FINDING_COLUMNS, findingsTableId, MISMATCH_COLUMNS, PATCH_COLUMNS, ROW_CAP, SEV, STALE_COLUMNS } from "@/lib/tables/audit";
 
 export const metadata: Metadata = pageMeta({ title: "Audit", description: "Automated staleness, contradiction, sourcing, hygiene, link and registry fact-check findings for the OnCo corpus.", path: "/audit/" });
 
-type FactcheckReport = { generated: string; checked: { drugs: number; trials: number }; mismatches: Array<{ check: string; id: string; name: string; route: string; recorded: string; registry: string; url: string; severity: string }>; errors: string[] };
-type PatchFile = { generated: string; patches: Array<{ id: string; name: string; route: string; field: string; current: string; proposed: string; reason: string; source: string }> };
-
-const SEV: Record<string, string> = { high: "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200", medium: "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200", low: "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300" };
-const CHECK_LABEL: Record<string, string> = {
-  "status-vs-approvals": "Status disagrees with approvals", "text-says-approved": "Text says approved, status does not", "future-approval": "Approval year in the future", "positive-no-result": "Positive trial without a result",
-  "future-year": "Year in the future", "future-year-in-text": "Mentions a future year", "soc-cites-dead": "Standard of care cites a withdrawn or negative item", "pipeline-cites-dead": "Pipeline lists a withdrawn or negative item",
-  unsourced: "No external source", "regional-approval-only": "Approved only outside the US and EU", "duplicate-name": "Duplicate name", "near-duplicate-name": "Overlapping names",
-  "approvals-vs-regional": "Approvals disagree with the regional table", "positive-hr-ge-1": "Positive trial with a primary hazard ratio at or above 1", "asof-before-regulatory-event": "Last checked before the latest regulatory event",
-  "spike-scalar-divergence": "Spike duplicates with different values", "roadmap-cites-withdrawn": "Roadmap step cites a withdrawn product",
-  "unsourced-numbers": "Numbers in the text without a source", "outcome-no-source": "Structured outcomes without a source",
-  orphan: "Orphan: nothing links here", "name-collision-across-kinds": "Same name in two kinds", "near-duplicate-levenshtein": "Near-duplicate names (two characters apart)", "shared-code": "Two products share a development code",
-  "us-approval-no-openfda-label": "US approval recorded, no openFDA label", "openfda-label-but-not-approved": "openFDA label exists, not recorded as approved", "trial-status-vs-registry": "Trial status disagrees with ClinicalTrials.gov", "nct-not-found": "NCT id not found",
-  "trial-phase-vs-registry": "Trial phase disagrees with ClinicalTrials.gov", "primary-completion-passed": "Primary completion date has passed",
-  "nct-title-mismatch": "NCT id points at a differently named study", "enrolled-vs-registry": "Enrolment disagrees with ClinicalTrials.gov", "us-approval-before-fda-record": "US approval year earlier than Drugs@FDA", "us-first-approval-missing": "Earlier US approval missing from approvals",
-  "text-vs-structured": "Number in the text disagrees with the structured field", "approved-only-live-trials": "Approved product whose linked trials are all still running",
-};
-const FAMILY: Record<string, "contradiction" | "sourcing" | "hygiene"> = {
-  unsourced: "sourcing", "unsourced-numbers": "sourcing", "outcome-no-source": "sourcing",
-  orphan: "hygiene", "duplicate-name": "hygiene", "near-duplicate-name": "hygiene", "near-duplicate-levenshtein": "hygiene", "name-collision-across-kinds": "hygiene", "shared-code": "hygiene", "spike-scalar-divergence": "hygiene",
-};
-const ROW_CAP = 150;
-
-const FINDING_COLUMNS: StaticColumn[] = [
-  { key: "entity", label: "Entity" },
-  { key: "kind", label: "Kind", filterable: true, className: "text-muted" },
-  { key: "detail", label: "Detail", className: "text-muted" },
-];
-const MISMATCH_COLUMNS: StaticColumn[] = [
-  { key: "severity", label: "Severity", filterable: true, order: ["high", "medium", "low"] },
-  { key: "check", label: "Check", filterable: true, className: "text-muted" },
-  { key: "entity", label: "Entity" },
-  { key: "recorded", label: "Recorded", className: "text-muted" },
-  { key: "registry", label: "Registry", className: "text-muted" },
-];
-const PATCH_COLUMNS: StaticColumn[] = [
-  { key: "entity", label: "Entity" },
-  { key: "field", label: "Field", filterable: true },
-  { key: "current", label: "Current", className: "text-muted" },
-  { key: "proposed", label: "Proposed" },
-  { key: "why", label: "Why", className: "text-muted" },
-];
-const BROKEN_COLUMNS: StaticColumn[] = [
-  { key: "status", label: "Status", filterable: true },
-  { key: "url", label: "URL", className: "text-muted break-all text-xs" },
-  { key: "cited", label: "Cited by" },
-  { key: "archive", label: "Archive", filterable: true, className: "text-xs" },
-];
-const STALE_COLUMNS: StaticColumn[] = [
-  { key: "entity", label: "Entity" },
-  { key: "kind", label: "Kind", filterable: true, className: "text-muted" },
-  { key: "asOf", label: "Last checked", sortable: true, numeric: false, className: "text-muted" },
-  { key: "days", label: "Days", sortable: true, numeric: true },
-];
-
-function readJson<T>(name: string): T | null {
-  const p = join(process.cwd(), "public", name);
-  return existsSync(p) ? (JSON.parse(readFileSync(p, "utf8")) as T) : null;
-}
-
 export default function AuditPage() {
-  // The audit is a pure function of the corpus; compute at build so the page is never stale relative to the data.
-  const audit: Audit = runAudit();
-  const fc = readJson<FactcheckReport>("factcheck.json");
-  const patches = readJson<PatchFile>("factcheck-patches.json");
-  const links = readJson<LinksReport>("links.json");
-  const byCheck = new Map<string, typeof audit.findings>();
-  for (const f of audit.findings) byCheck.set(f.check, [...(byCheck.get(f.check) ?? []), f]);
-  const family = (check: string) => FAMILY[check] ?? "contradiction";
-  const groups = (["contradiction", "sourcing", "hygiene"] as const).map((fam) => ({ fam, checks: [...byCheck.entries()].filter(([c]) => family(c) === fam) }));
+  // Rows are built in src/lib/tables/audit.ts, shared with scripts/build-tables.ts: each table longer than a page carries
+  // its first page here and the rest in /api/v1/tables/<id>.json, fetched when the reader scrolls, filters or sorts.
+  const t = auditTables();
+  const { audit, fc, patches, links, byCheck, gone, blocked, moved } = t;
+  const groups = (["contradiction", "sourcing", "hygiene"] as const).map((fam) => ({ fam, checks: [...byCheck.entries()].filter(([c]) => familyOf(c) === fam) }));
   const stale = audit.staleness.filter((s) => s.days > 60);
-  // Only links the server says are gone count as broken; sites that refuse a bot (403, 429, 5xx) are live to a reader.
-  const gone = links?.results.filter((r) => isGone(r) || isUnreachable(r)) ?? [];
-  const blocked = links?.results.filter(isBlocked) ?? [];
   const broken = gone;
-  const moved = links?.results.filter((r) => r.ok && r.domainMoved) ?? [];
-  const findingRows = (list: typeof audit.findings): StaticRow[] => list.slice(0, ROW_CAP).map((f, i) => ({ id: `${f.id}-${i}`, entity: { text: f.name, href: f.route, strong: true }, kind: f.kind, detail: f.detail }));
-  const mismatchRows: StaticRow[] = (fc?.mismatches ?? []).map((m, i) => ({
-    id: `${m.id}-${m.check}-${i}`,
-    severity: { text: m.severity, chip: SEV[m.severity] },
-    check: CHECK_LABEL[m.check] ?? m.check,
-    entity: { text: m.name, href: m.route, strong: true },
-    recorded: m.recorded,
-    registry: { text: m.registry, href: m.url, ext: true },
-  }));
-  const patchRows: StaticRow[] = (patches?.patches ?? []).map((p, i) => ({
-    id: `${p.id}-${p.field}-${i}`,
-    entity: { text: p.name, href: p.route, strong: true },
-    field: { text: p.field, mono: true },
-    current: p.current,
-    proposed: p.proposed,
-    why: { text: p.reason, href: p.source, ext: true },
-  }));
-  const brokenRows: StaticRow[] = broken.slice(0, ROW_CAP).map((r, i) => ({
-    id: `${r.url}-${i}`,
-    status: { text: r.status ? String(r.status) : "no response", chip: r.status === 0 || r.status === 404 || r.status === 410 ? SEV.high : SEV.medium },
-    url: { text: r.url, href: r.url, ext: true, sub: r.error },
-    cited: [...r.refs.slice(0, 3).map((x) => ({ text: x.name, href: x.route, title: x.field })), ...(r.refs.length > 3 ? [{ text: `and ${r.refs.length - 3} more`, muted: true }] : [])],
-    archive: r.archive ? { text: "Wayback copy", v: "Wayback copy", href: r.archive, ext: true } : r.archiveRequested ? { text: "save requested", muted: true } : { text: "none", muted: true },
-  }));
-  const staleRows: StaticRow[] = audit.staleness.slice(0, 80).map((s) => ({ id: s.id, entity: { text: s.name, href: s.route, strong: true }, kind: s.kind, asOf: s.asOf, days: s.days }));
+  const mismatches = pageRows(AUDIT_MISMATCHES_TABLE, t.mismatchRows);
+  const patchTable = pageRows(AUDIT_PATCHES_TABLE, t.patchRows);
+  const brokenTable = pageRows(AUDIT_BROKEN_TABLE, t.brokenRows);
+  const staleTable = pageRows(AUDIT_STALE_TABLE, t.staleRows);
 
   return (
     <>
@@ -136,13 +45,16 @@ export default function AuditPage() {
               {fam === "hygiene" && "Parallel editing leaves seams: records nothing links to, the same name in two kinds, names two characters apart inside a kind, two products with one development code, and spike duplicates whose values diverge (the first copy wins silently). Each row says what a merge would look like."}
             </p>
             <div className="space-y-6">
-              {checks.map(([check, list]) => (
-                <details key={check} className="card" open={list.some((f) => f.severity === "high")}>
-                  <summary className="cursor-pointer px-4 py-3 flex items-center gap-3"><span className={`chip ${SEV[list[0].severity]}`}>{list[0].severity}</span><span className="font-medium">{CHECK_LABEL[check] ?? check}</span><span className="text-sm text-muted">{list.length}</span></summary>
-                  <div className="px-3 pb-3 pt-1"><StaticTable rows={findingRows(list)} columns={FINDING_COLUMNS} noun="findings" /></div>
-                  {list.length > ROW_CAP && <div className="px-4 py-3 text-xs text-muted">Showing {ROW_CAP} of {list.length}; the rest are in <a className="underline" href="/audit.json">audit.json</a>.</div>}
-                </details>
-              ))}
+              {checks.map(([check, list]) => {
+                const table = pageRows(findingsTableId(check), t.findingRows(check));
+                return (
+                  <details key={check} className="card" open={list.some((f) => f.severity === "high")}>
+                    <summary className="cursor-pointer px-4 py-3 flex items-center gap-3"><span className={`chip ${SEV[list[0].severity]}`}>{list[0].severity}</span><span className="font-medium">{CHECK_LABEL[check] ?? check}</span><span className="text-sm text-muted">{list.length}</span></summary>
+                    <div className="px-3 pb-3 pt-1"><StaticTable rows={table.rows} more={table.more} columns={FINDING_COLUMNS} noun="findings" /></div>
+                    {list.length > ROW_CAP && <div className="px-4 py-3 text-xs text-muted">Showing {ROW_CAP} of {list.length}; the rest are in <a className="underline" href="/audit.json">audit.json</a>.</div>}
+                  </details>
+                );
+              })}
               {checks.length === 0 && <div className="card p-6 text-sm text-muted">No findings.</div>}
             </div>
           </section>
@@ -153,13 +65,13 @@ export default function AuditPage() {
           <>
             <p className="text-sm text-muted mb-4 max-w-3xl">Generated {fc.generated.slice(0, 10)}: {fc.checked.drugs} products checked against openFDA labels, {fc.checked.trials} trials against ClinicalTrials.gov (status, phase, primary completion). {fc.errors.length > 0 && <>{fc.errors.length} lookups failed and were skipped.</>}</p>
             {fc.mismatches.length ? (
-              <StaticTable rows={mismatchRows} columns={MISMATCH_COLUMNS} noun="mismatches" url />
+              <StaticTable rows={mismatches.rows} more={mismatches.more} columns={MISMATCH_COLUMNS} noun="mismatches" url />
             ) : <div className="card p-6 text-sm text-muted">No mismatches.</div>}
             {patches && patches.patches.length > 0 && (
               <>
                 <h3 className="text-lg font-semibold mt-8 mb-2">Proposed patches</h3>
                 <p className="text-sm text-muted mb-3 max-w-3xl">Where the registry value maps unambiguously onto ours, the fact check proposes a concrete edit. Nothing is applied automatically: a maintainer applies each proposed edit by hand, which updates the record, refreshes its checked date and adds a row to the <Link className="underline" href="/corrections/">corrections log</Link>.</p>
-                <StaticTable rows={patchRows} columns={PATCH_COLUMNS} noun="patches" />
+                <StaticTable rows={patchTable.rows} more={patchTable.more} columns={PATCH_COLUMNS} noun="patches" />
               </>
             )}
           </>
@@ -171,7 +83,7 @@ export default function AuditPage() {
             <p className="text-sm text-muted mb-4 max-w-3xl">Checked {links.generated.slice(0, 10)}: {links.checked.toLocaleString("en-GB")} of {links.total.toLocaleString("en-GB")} cited URLs probed; {links.broken} did not resolve, {links.moved} redirect to a different domain, {links.archived} have a Wayback Machine copy. Replace a dead URL with the archive copy or a current source; if the fact itself changes, log it in the corrections.</p>
             {broken.length ? (
               <>
-                <StaticTable rows={brokenRows} columns={BROKEN_COLUMNS} noun="links" />
+                <StaticTable rows={brokenTable.rows} more={brokenTable.more} columns={BROKEN_COLUMNS} noun="links" />
                 {broken.length > ROW_CAP && <div className="px-1 py-3 text-xs text-muted">Showing {ROW_CAP} of {broken.length}; the rest are in <a className="underline" href="/links.json">links.json</a>.</div>}
               </>
             ) : <div className="card p-6 text-sm text-muted">Every checked link resolved.</div>}
@@ -186,7 +98,7 @@ export default function AuditPage() {
 
         <h2 className="text-xl font-semibold mt-12 mb-3">Staleness</h2>
         <p className="text-sm text-muted mb-4 max-w-3xl">Records by last-checked date. The site does not show dates to readers; maintainers use this list to schedule re-checks. What counts as too old for each kind, and which records are past due, is defined on the <Link className="underline" href="/freshness/">freshness page</Link>.</p>
-        <StaticTable rows={staleRows} columns={STALE_COLUMNS} noun="records" defaultSort={{ key: "days", dir: -1 }} />
+        <StaticTable rows={staleTable.rows} more={staleTable.more} columns={STALE_COLUMNS} noun="records" defaultSort={{ key: "days", dir: -1 }} />
         <p className="text-xs text-muted mt-3">Showing the 80 oldest of {audit.total}. Full data: <a className="underline" href="/audit.json">audit.json</a> · <a className="underline" href="/factcheck.json">factcheck.json</a> · {patches && <><a className="underline" href="/factcheck-patches.json">factcheck-patches.json</a> · </>}{links && <><a className="underline" href="/links.json">links.json</a> · </>}<Link className="underline" href="/freshness/">freshness</Link> · <Link className="underline" href="/history/">recent changes</Link> · <Link className="underline" href="/corrections/">corrections log</Link>.</p>
       </Container>
     </>

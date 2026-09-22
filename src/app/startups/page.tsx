@@ -4,80 +4,19 @@ import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Company, type Stage } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
-import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef, type FacetLink, type LinkItem } from "@/components/EntityBrowser";
+import { EntityBrowser } from "@/components/EntityBrowser";
 import { StageIcon } from "@/components/StageIcon";
 import { logoSrc } from "@/lib/logos";
 import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
-import { COMPANY_TYPE_LABEL, fmtUsd, investors, latestRound, mostActiveInvestors, recentlyFunded, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf, startups, ycBatchLabel, ycBatchSortKey, ycCompanies } from "@/lib/startups";
+import { COMPANY_TYPE_LABEL, fmtUsd, investors, mostActiveInvestors, recentlyFunded, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf, startups, ycBatchLabel, ycBatchSortKey, ycCompanies } from "@/lib/startups";
+import { pageRows } from "@/lib/static-tables";
+import { startupBrowser, STARTUPS_SORT, STARTUPS_TABLE } from "@/lib/tables/startups";
 
 export const metadata: Metadata = pageMeta({
   title: "Oncology startups",
   description: "Every Y Combinator and venture-backed company in OnCo that is attacking cancer: filter by stage, modality, cancer, YC batch, investor and country, with sourced funding rounds and the most active investors.",
   path: "/startups/",
 });
-
-const short = (s: string) => s.replace(/ \(.*\)$/, "");
-
-function rows(): { rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[] } {
-  const g = graph();
-  const fl = (facet: string, value: string | undefined, extra?: Pick<FacetLink, "label" | "tip">): FacetLink | undefined => (value ? { facet, value, ...extra } : undefined);
-  const link = (id: string): LinkItem => { const e = g.must(id); return { label: short(e.name), href: routeFor(e), tip: e.tldr }; };
-  const list = startups();
-  const out: BrowserRow[] = list.map((c) => {
-    const stage = stageOf(c);
-    const stageLabel = stage ? STAGE_LABEL[stage] : undefined;
-    const techNames = [...new Set(c.technologies.map((id) => short(g.must(id).name)))];
-    const fronts = [...new Set([...c.sections, ...c.technologies.flatMap((t) => g.must(t).sections)])].map((id) => g.must(id).name);
-    const latest = latestRound(c);
-    const products = new Set([...c.drugs, ...(g.incoming(c.id).get("drug") ?? []).map((d) => d.id)]).size;
-    return {
-      id: c.id, name: c.name, tldr: c.tldr, route: routeFor(c), logo: logoSrc(c.id, c.website), avatar: "org",
-      sub: `${c.hq}, ${c.country}${c.founded ? ` · founded ${c.founded}` : ""}`,
-      facets: {
-        stage: stageLabel ? [stageLabel] : [],
-        type: [COMPANY_TYPE_LABEL[c.companyType]],
-        modality: [...techNames, ...fronts],
-        cancers: c.cancers.map((id) => short(g.must(id).name)),
-        yc: c.ycBatch ? [c.ycBatch] : [],
-        investor: c.investors.map((id) => g.must(id).name),
-        country: [c.country],
-      },
-      cols: {
-        stage: fl("stage", stageLabel, stage ? { tip: STAGE_TIP[stage] } : undefined),
-        type: fl("type", COMPANY_TYPE_LABEL[c.companyType]),
-        yc: fl("yc", c.ycBatch, c.ycBatch ? { tip: `Y Combinator, ${ycBatchLabel(c.ycBatch)} batch. Click to see the whole batch.` } : undefined),
-        investors: c.investors.map(link),
-        round: latest ? `${latest.round} ${latest.year}${fmtUsd(latest.amountUsd) ? ` · ${fmtUsd(latest.amountUsd)}` : ""}` : undefined,
-        cancers: c.cancers.map(link),
-        country: fl("country", c.country),
-        products: products || undefined,
-      },
-      sortKeys: { round: latest?.year ?? 0, products, yc: c.ycBatch ? ycBatchSortKey(c.ycBatch) : 0, investors: c.investors.length },
-      tie: c.founded ?? 0,
-    };
-  });
-  return {
-    rows: out,
-    facets: [
-      { key: "stage", label: "Stage", searchable: false, width: "w-44", order: STAGE_ORDER.map((s) => STAGE_LABEL[s]) },
-      { key: "modality", label: "Modality / technology", width: "w-56" },
-      { key: "cancers", label: "Cancer", width: "w-48" },
-      { key: "yc", label: "YC batch", searchable: false, width: "w-36" },
-      { key: "investor", label: "Investor", width: "w-56" },
-      { key: "country", label: "Country", searchable: false, width: "w-36" },
-      { key: "type", label: "Type", searchable: false, width: "w-44" },
-    ],
-    columns: [
-      { key: "stage", label: "Stage", sortable: true, tip: "Startup, growth stage, public, large private, acquired or wound down. Click a chip to filter." },
-      { key: "type", label: "Type", sortable: true, hide: "hidden lg:table-cell" },
-      { key: "yc", label: "YC", sortable: true, hide: "hidden sm:table-cell", tip: "Y Combinator batch, from the open YC directory." },
-      { key: "round", label: "Latest round", sortable: true, hide: "hidden md:table-cell", tip: "Most recent financing round on record, with the amount only where the cited source states it." },
-      { key: "investors", label: "Investors", hide: "hidden lg:table-cell" },
-      { key: "cancers", label: "Cancers", hide: "hidden xl:table-cell" },
-      { key: "products", label: "Products", sortable: true, numeric: true, hide: "hidden md:table-cell" },
-    ],
-  };
-}
 
 const INVESTOR_COLUMNS: StaticColumn[] = [
   { key: "rank", label: "#", sortable: true, numeric: true, className: "text-muted" },
@@ -109,7 +48,9 @@ export default function Startups() {
   const batches = [...new Set(yc.map((c) => c.ycBatch!))].sort((a, b) => ycBatchSortKey(b) - ycBatchSortKey(a));
   const active = mostActiveInvestors();
   const recent = recentlyFunded(24);
-  const built = rows();
+  // The browser carries the first page of startups; the rest is /api/v1/tables/startups.json (scripts/build-tables.ts), fetched on demand.
+  const built = startupBrowser();
+  const browser = pageRows(STARTUPS_TABLE, built.rows);
   const nInvestors = investors().length;
   const yearsWithRounds = new Set(list.flatMap((c) => c.funding.map((f) => f.year)));
   const investorRows: StaticRow[] = active.map((r, i) => ({
@@ -153,7 +94,7 @@ export default function Startups() {
           </div>
         </section>
 
-        <EntityBrowser rows={built.rows} facets={built.facets} columns={built.columns} noun="startups" hideStatus defaultSort={{ key: "round", dir: -1 }} />
+        <EntityBrowser rows={browser.rows} more={browser.more} facets={built.facets} columns={built.columns} noun="startups" hideStatus defaultSort={STARTUPS_SORT} />
 
         <div className="grid gap-6 lg:grid-cols-2 mt-12">
           <section id="investors">

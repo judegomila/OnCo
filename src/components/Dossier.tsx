@@ -20,7 +20,9 @@ import { modelsFor, cellLineIds } from "@/data/preclinical-models";
 import { resistance, type Mechanism } from "@/data/resistance";
 import { CATEGORY_BY_ID } from "@/lib/resistance-categories";
 import { Tip } from "./Tip";
-import { StaticTable, type StaticColumn, type StaticRow } from "./filters/StaticTable";
+import { StaticTable } from "./filters/StaticTable";
+import { pageRows } from "@/lib/static-tables";
+import { DOSSIER_TRIAL_COLUMNS, dossierTrialRows, dossierTrialsTableId } from "@/lib/tables/dossier-trials";
 
 /** Broad modality family for grouping products; mirrors the classes used on the toxicity page. */
 export function modalityFamily(m: string): string {
@@ -93,18 +95,10 @@ export function dossierData(t: Target) {
   };
 }
 
-const TRIAL_COLUMNS: StaticColumn[] = [
-  { key: "trial", label: "Trial" },
-  { key: "phase", label: "Phase", filterable: true, className: "whitespace-nowrap" },
-  { key: "status", label: "Status", filterable: true },
-  { key: "setting", label: "Setting", hide: "hidden md:table-cell", className: "text-muted max-w-xs" },
-  { key: "result", label: "Result", hide: "hidden lg:table-cell", className: "text-muted max-w-sm text-xs" },
-  { key: "products", label: "Products", hide: "hidden sm:table-cell", className: "min-w-[160px]" },
-];
-
 export function Dossier({ target: t }: { target: Target }) {
-  const g = graph();
   const d = dossierData(t);
+  // Dossiers with more than a page of trials carry the first page; the rest is /api/v1/tables/dossier-trials-<id>.json.
+  const trialTable = pageRows(dossierTrialsTableId(t.id), dossierTrialRows(d.trials));
   const families = [...new Set(d.drugs.map((x) => modalityFamily(x.modality)))].sort((a, b) => d.drugs.filter((x) => modalityFamily(x.modality) === b).length - d.drugs.filter((x) => modalityFamily(x.modality) === a).length || a.localeCompare(b));
   const usedPhases = PHASES.filter((p) => d.drugs.some((x) => phaseOf(x.status) === p.key));
   const query = paperQuery(t);
@@ -195,15 +189,7 @@ export function Dossier({ target: t }: { target: Target }) {
 
       <Section id="trials" title="Trials" aside={<Link href={`/evidence/`} className="text-xs underline text-muted">Evidence ranking →</Link>}>
         {d.trials.length === 0 ? <p className="text-sm text-muted">No trial in the corpus names this target or one of its products.</p> : (
-          <StaticTable rows={d.trials.map((x): StaticRow => ({
-            id: x.id,
-            trial: { text: x.name, href: routeFor(x), strong: true, sub: x.nct },
-            phase: x.phase,
-            status: x.status ? { text: STATUS_LABEL[x.status] ?? x.status, chip: statusClass(x.status) } : undefined,
-            setting: x.setting,
-            result: x.result,
-            products: x.drugs.slice(0, 4).map((id) => g.get(id)).filter((e): e is NonNullable<typeof e> => !!e).map((e) => ({ text: e.name, href: routeFor(e), chip: "border border-border bg-card text-xs" })),
-          }))} columns={TRIAL_COLUMNS} noun="trials" />
+          <StaticTable rows={trialTable.rows} more={trialTable.more} columns={DOSSIER_TRIAL_COLUMNS} noun="trials" />
         )}
       </Section>
 

@@ -1,42 +1,20 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
-import { graph } from "@/lib/graph";
-import { phaseLabel, routeFor } from "@/lib/schema";
-import { trialEvidence, evidenceLabel } from "@/lib/evidence";
-import { Pictogram, primaryOutcomeSummary } from "@/components/Pictogram";
+import { routeFor } from "@/lib/schema";
+import { Pictogram } from "@/components/Pictogram";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
-import { STATUS_LABEL, statusClass } from "@/lib/text";
-import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
+import { StaticTable } from "@/components/filters/StaticTable";
+import { pageRows } from "@/lib/static-tables";
+import { EVIDENCE_COLUMNS, EVIDENCE_TABLE, evidenceRanked, evidenceRows } from "@/lib/tables/evidence";
 
 export const metadata: Metadata = pageMeta({ title: "Evidence", description: "Every trial ranked by evidence strength, with its primary endpoint drawn as people out of 100, and the scoring formula disclosed.", path: "/evidence/" });
 
-const COLUMNS: StaticColumn[] = [
-  { key: "rank", label: "#", sortable: true, numeric: true, className: "text-muted" },
-  { key: "trial", label: "Trial", className: "min-w-[220px]" },
-  { key: "phase", label: "Phase", filterable: true, sortable: true, numeric: false, className: "text-muted" },
-  { key: "result", label: "Result", filterable: true, order: ["positive", "negative", "mixed", "ongoing", "withdrawn"].map((s) => STATUS_LABEL[s] ?? s) },
-  { key: "endpoint", label: "Primary endpoint", hide: "hidden md:table-cell", className: "text-xs text-muted max-w-md" },
-  { key: "enrolled", label: "Enrolled", sortable: true, numeric: true, hide: "hidden sm:table-cell", className: "text-muted" },
-  { key: "score", label: "Score", sortable: true, numeric: true },
-  { key: "strength", label: "Strength", filterable: true, order: ["Strong", "Solid", "Emerging", "Preliminary"], className: "text-xs text-muted" },
-];
-
 export default function EvidencePage() {
-  const g = graph();
-  const rows = g.kind("trial").map((t) => ({ t, ev: trialEvidence(t) })).sort((a, b) => b.ev.score - a.ev.score || a.t.name.localeCompare(b.t.name));
-  const withOutcomes = rows.filter((r) => r.t.outcomes.some((o) => o.arms.some((a) => a.value !== undefined)));
-  const table: StaticRow[] = rows.map(({ t, ev }, i) => ({
-    id: t.id,
-    rank: i + 1,
-    trial: { text: t.name, href: routeFor(t), strong: true, sub: t.setting },
-    phase: phaseLabel(t.phase),
-    result: t.status ? { text: STATUS_LABEL[t.status] ?? t.status, chip: statusClass(t.status) } : undefined,
-    endpoint: primaryOutcomeSummary(t),
-    enrolled: t.enrolled,
-    score: { text: String(ev.score), v: ev.score, strong: true },
-    strength: evidenceLabel(ev.score),
-  }));
+  const ranked = evidenceRanked();
+  const withOutcomes = ranked.filter((r) => r.t.outcomes.some((o) => o.arms.some((a) => a.value !== undefined)));
+  // The page carries the first rows; the rest is /api/v1/tables/evidence.json (scripts/build-tables.ts), fetched on demand.
+  const table = pageRows(EVIDENCE_TABLE, evidenceRows(ranked));
   return (
     <>
       <PageHeader kicker={<GroupKicker id="intel" />} title="Evidence"
@@ -64,7 +42,7 @@ export default function EvidencePage() {
         </div>
 
         <h2 className="text-lg font-semibold mb-3">All trials by evidence strength</h2>
-        <StaticTable rows={table} columns={COLUMNS} noun="trials" url defaultSort={{ key: "rank", dir: 1 }} />
+        <StaticTable rows={table.rows} more={table.more} columns={EVIDENCE_COLUMNS} noun="trials" url defaultSort={{ key: "rank", dir: 1 }} />
       </Container>
     </>
   );

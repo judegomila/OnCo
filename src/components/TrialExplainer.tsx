@@ -1,4 +1,5 @@
 import type { Trial } from "@/lib/schema";
+import type { ExplainedTrial } from "@/lib/explained-data";
 import { enrolmentLabel } from "@/lib/enrolment";
 import { endpointTypeNote, explainPrimary, explainTrial, type EndpointType } from "@/lib/trial-explain";
 import { Tip } from "./Tip";
@@ -25,7 +26,7 @@ export function EndpointTypeChip({ type }: { type: EndpointType }) {
  * Absolute differences per 100 people, rough numbers needed to treat, medians as midpoints, and the
  * caveats (surrogate endpoints, who was enrolled, biomarker selection). Server-safe; sits above the pictograms.
  */
-export function TrialExplainer({ trial, compact = false }: { trial: Trial; compact?: boolean }) {
+export function TrialExplainer({ trial, compact = false }: { trial: ExplainedTrial; compact?: boolean }) {
   if (!trial.outcomes.length) return null;
   const items = explainTrial(trial);
   // Caveats repeated across every outcome (endpoint-agnostic ones) are shown once at the bottom.

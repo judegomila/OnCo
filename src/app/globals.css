@@ -235,6 +235,25 @@
   /* A glyph inside a chip keeps its size and sits on the chip's centre line beside the label. */
   .chip > svg, .chip > img { display: block; flex-shrink: 0; }
 
+  /* Trials in plain words (src/app/explained/page.tsx): six hundred rows share these instead of each repeating the utilities,
+     which keeps the page's HTML (and the hydration payload that mirrors it) small. */
+  .explained-summary { cursor: pointer; list-style: none; padding: 0.75rem 1rem; border-radius: 0.875rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+  .explained-summary::-webkit-details-marker { display: none; }
+  .explained-summary::before { content: "▶"; font-size: 0.7rem; color: var(--muted); transition: transform 160ms ease; }
+  details[open] > .explained-summary::before { transform: rotate(90deg); }
+  .explained-summary:focus-visible { outline: none; box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 40%, transparent); }
+  .explained-summary h3 { font-size: 1.125rem; line-height: 1.75rem; font-weight: 600; }
+  .explained-summary .meta { font-size: 0.75rem; color: var(--muted); }
+  .explained-tldr { flex-basis: 100%; margin: 0; font-size: 0.875rem; line-height: 1.25rem; color: var(--muted); max-width: 48rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  details[open] > .explained-summary .explained-tldr { display: block; }
+  .explained-pill { margin-inline-start: auto; color: var(--accent); background: var(--card); border-color: var(--border); }
+  .explained-summary:hover .explained-pill, details[open] > .explained-summary .explained-pill { background: var(--accent-soft); }
+  .explained-pill .close, details[open] > .explained-summary .explained-pill .open { display: none; }
+  details[open] > .explained-summary .explained-pill .close { display: inline; }
+  .explained-links { padding: 0 1rem; font-size: 0.75rem; color: var(--muted); }
+  .explained-links a { text-decoration: underline; }
+  .explained-links a:hover { color: var(--foreground); }
+
   /* Header controls share one 40px height and one look. */
   .ctl {
     display: inline-flex;

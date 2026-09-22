@@ -9,7 +9,7 @@ import type { TrialInput } from "@/lib/schema";
  * for trials that carry no outcomes of their own. Do not edit by hand; re-run the script (the cache under
  * /tmp/ctgov-cache/results makes a re-run free).
  *
- * Generated 2026-09-22: 144 trials, 272 outcome rows, from 2500 registry records checked
+ * Generated 2026-09-22: 144 trials, 272 outcome rows, from 2845 registry records checked
  * (153 with posted results).
  */
 export type RegistryOutcomeData = Pick<TrialInput, "enrolled" | "enrolledBasis" | "outcomes" | "yearReported" | "asOf">;

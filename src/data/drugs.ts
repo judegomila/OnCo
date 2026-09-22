@@ -717,7 +717,7 @@ const baseDrugs: DrugInput[] = [
 
   // ======================= VACCINES / VIRUSES =======================
   {
-    id: "intismeran-autogene", kind: "drug", name: "Intismeran autogene", code: "V940, mRNA-4157", modality: "Personalised mRNA neoantigen vaccine", asOf, status: "phase-3",
+    id: "intismeran-autogene", kind: "drug", name: "Intismeran autogene", code: "V940, mRNA-4157", aka: ["mRNA-4157", "V940", "personalised cancer vaccine (PCV)", "individualised neoantigen therapy (INT)"], modality: "Personalised mRNA neoantigen vaccine", asOf, status: "phase-3",
     tldr: "A custom mRNA vaccine encoding up to 34 of a patient's own tumour mutations. In August 2026 it became the first personalised cancer vaccine to win a phase 3 trial.",
     summary: "Intismeran is developed by Moderna and Merck. Phase 2b KEYNOTE-942 showed 49% reduction in recurrence or death with pembrolizumab in resected melanoma. Phase 3 INTerpath-001 (1,137 patients, stage IIB-IV resected melanoma) met RFS and DMFS endpoints (19 August 2026); regulatory filings expected. Phase 3 trials in adjuvant NSCLC (INTerpath-002), RCC, bladder, and cutaneous SCC ongoing. Manufacturing ~6 weeks per patient.",
     mechanism: "Tumour/normal WES → neoantigen prediction → single mRNA encoding up to 34 neoepitopes in LNP → intramuscular dosing with pembrolizumab.",

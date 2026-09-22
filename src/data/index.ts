@@ -34,6 +34,8 @@ import { papersPancreaticWave } from "./papers-pancreatic-wave";
 import { papersWatch202609 } from "./papers-watch-2026-09";
 import { papersTrialsWave1 } from "./papers-trials-wave1";
 import { trialKeyPapersWave1 } from "./trial-key-papers-wave1";
+import { papersCitedWave7 } from "./papers-cited-wave7";
+import { citedPaperLinksWave7 } from "./cited-paper-links-wave7";
 import { TRIAL_REGISTRY_OUTCOMES } from "./trial-registry-outcomes";
 import { TRIAL_REGISTRY_STATUS } from "./trial-registry-status";
 import { applyRegistryStatus } from "@/lib/registry-status";
@@ -179,6 +181,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...papersPancreaticWave,
   ...papersWatch202609,
   ...papersTrialsWave1,
+  ...papersCitedWave7,
   ...papersPeopleWave6,
   ...papersIdeasWave6,
   ...trialsIdeasWave6,
@@ -232,7 +235,11 @@ const RAW_INPUTS: EntityInput[] = [
 ];
 
 /** Every input, with glossary terms mapped to their canonical category (see ./term-categories.ts). */
-export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((e) => {
+export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((raw) => {
+  // Paper pages written for DOIs a record cites in its external links by scripts/fetch-cited-papers.ts (wave 7): the
+  // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
+  const cited = citedPaperLinksWave7[raw.id];
+  const e: EntityInput = cited ? { ...raw, keyPapers: [...(raw.keyPapers ?? []), ...cited.filter((id) => !(raw.keyPapers ?? []).includes(id))] } : raw;
   if (e.kind === "term") return { ...e, category: canonicalTermCategory(e.id, e.category) };
   if (e.kind === "cancer" && !e.parent && (cancerParents[e.id] ?? cancerParentsWave2Map[e.id])) return { ...e, parent: cancerParents[e.id] ?? cancerParentsWave2Map[e.id] };
   if (e.kind === "trial") {

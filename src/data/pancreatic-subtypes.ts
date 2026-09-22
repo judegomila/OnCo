@@ -55,7 +55,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["kras", "brca"], technologies: ["robotic-surgery", "cytotoxic-chemotherapy", "ct", "endoscopic-ultrasound-systems", "biliary-stenting-drainage", "germline-testing", "neoantigen-mrna-vaccine", "kras-inhibitors", "eras-perioperative-nutrition", "liquid-biopsy"], terms: ["resectability", "whipple", "ca19-9", "resection-margins", "neoadjuvant-adjuvant", "obstructive-jaundice", "lymphadenectomy", "ctdna", "mrd", "gbrca-mutation"],
     trials: ["prodige-24", "preopanc", "nct05968326", "nct07252232", "nct06538857", "nct04969731", "amplify-7p"], drugs: ["folfirinox", "gemcitabine", "capecitabine", "gemcitabine-nab-paclitaxel", "autogene-cevumeran", "daraxonrasib", "eli-002-7p"],
     people: ["thierry-conroy", "marc-besselink", "vinod-balachandran", "jurgen-weitz", "richard-schulick", "eileen-oreilly"], companies: ["biontech", "roche-genentech", "revolution-medicines", "elicio-therapeutics"], pathways: ["pancreatic-cancer-signalling", "ras-mapk"],
-    keyPapers: ["paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023", "paper-burris-gemcitabine-pancreatic-jco-1997"],
+    keyPapers: ["paper-prodige-24-adjuvant-mfolfirinox-pancreatic-nejm-2018", "paper-espac-4-gemcitabine-capecitabine-adjuvant-pancreatic-lancet-2017", "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023", "paper-burris-gemcitabine-pancreatic-jco-1997"],
     links: [{ label: "Wikipedia", url: W("Pancreatic_cancer") }, nccnLink] },
 
   { id: "borderline-resectable-pdac", related: ["resectable-pdac", "locally-advanced-pdac", "metastatic-pdac", "brca-palb2-pdac", "kras-g12c-pdac"], kind: "cancer", name: "Borderline resectable pancreatic ductal adenocarcinoma", group: "gastrointestinal", parent: "pancreatic", asOf, tags, wikipedia: W("Pancreatic_cancer"),
@@ -86,7 +86,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["kras", "brca"], technologies: ["cytotoxic-chemotherapy", "sbrt", "mr-linac", "robotic-surgery", "ct", "biliary-stenting-drainage", "kras-inhibitors", "pdac-organoid-pharmacotyping", "liquid-biopsy"], terms: ["resectability", "whipple", "ca19-9", "chemoradiation", "sbrt-term", "resection-margins", "neoadjuvant-adjuvant", "locally-advanced", "ctdna"],
     trials: ["preopanc", "prodige-24", "nct07252232", "nct02843945"], drugs: ["folfirinox", "gemcitabine-nab-paclitaxel", "gemcitabine", "capecitabine", "daraxonrasib", "autogene-cevumeran"],
     people: ["marc-besselink", "theodore-hong", "albert-koong", "richard-schulick", "jurgen-weitz", "eileen-oreilly"], companies: ["revolution-medicines", "biontech"], pathways: ["pancreatic-cancer-signalling", "caf-activation-desmoplasia"],
-    keyPapers: ["paper-conroy-folfirinox-pancreatic-nejm-2011"],
+    keyPapers: ["paper-preopanc-neoadjuvant-chemoradiotherapy-long-term-jco-2022", "paper-espac-5-neoadjuvant-borderline-resectable-pancreatic-lancet-gastro-hep-2023", "paper-alliance-a021501-mfolfirinox-radiotherapy-borderline-resectable-jama-oncol-2022", "paper-conroy-folfirinox-pancreatic-nejm-2011"],
     links: [{ label: "Wikipedia", url: W("Pancreatic_cancer") }, nccnLink] },
 
   { id: "locally-advanced-pdac", related: ["borderline-resectable-pdac", "resectable-pdac", "metastatic-pdac", "kras-g12c-pdac", "kras-wild-type-pdac", "msi-high-pdac"], kind: "cancer", name: "Locally advanced unresectable pancreatic ductal adenocarcinoma", group: "gastrointestinal", parent: "pancreatic", asOf, tags, wikipedia: W("Pancreatic_cancer"),
@@ -118,7 +118,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["kras", "fap"], technologies: ["cytotoxic-chemotherapy", "ttfields", "sbrt", "mr-linac", "hypofractionated-radiotherapy", "irreversible-electroporation", "biliary-stenting-drainage", "kras-inhibitors", "fapi-pet", "pet-ct"], terms: ["locally-advanced", "resectability", "chemoradiation", "sbrt-term", "ca19-9", "obstructive-jaundice", "biliary-stent", "cachexia", "desmoplasia"],
     trials: ["panova-3", "nct05653453", "nct05466799", "nct06850623", "nct07157033", "nct04390399"], drugs: ["folfirinox", "gemcitabine-nab-paclitaxel", "gemcitabine", "capecitabine", "optune", "daraxonrasib", "zoldonrasib"],
     people: ["theodore-hong", "albert-koong", "theodore-lawrence", "eileen-oreilly", "tobias-janowitz", "hedy-kindler"], companies: ["novocure", "revolution-medicines"], pathways: ["pancreatic-cancer-signalling", "caf-activation-desmoplasia", "cachexia-biology"],
-    keyPapers: ["paper-conroy-folfirinox-pancreatic-nejm-2011", "paper-mpact-nab-paclitaxel-gemcitabine-nejm-2013"],
+    keyPapers: ["paper-conroy-folfirinox-pancreatic-nejm-2011", "paper-mpact-nab-paclitaxel-gemcitabine-nejm-2013", "paper-lap07-chemoradiotherapy-locally-advanced-pancreatic-jama-2016"],
     links: [{ label: "Wikipedia", url: W("Pancreatic_cancer") }, nccnLink] },
 
   { id: "metastatic-pdac", related: ["locally-advanced-pdac", "kras-g12c-pdac", "kras-wild-type-pdac", "brca-palb2-pdac", "msi-high-pdac", "resectable-pdac", "kras-roadmap"], kind: "cancer", name: "Metastatic pancreatic ductal adenocarcinoma", group: "gastrointestinal", parent: "pancreatic", asOf, tags, wikipedia: W("Pancreatic_cancer"),
@@ -182,7 +182,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["kras", "egfr"], technologies: ["kras-inhibitors", "cgp", "liquid-biopsy", "cytotoxic-chemotherapy"], terms: ["kras-mutation-subtypes", "driver-mutation", "oncogene", "resistance", "ca19-9"],
     trials: ["rasolute-302", "nct06128551", "nct04956640", "nct06008288", "nct06244771", "nct07491445"], drugs: ["sotorasib", "adagrasib", "daraxonrasib", "elironrasib", "olomorasib", "glecirasib", "divarasib", "garsorasib", "folfirinox", "gemcitabine-nab-paclitaxel"],
     people: ["kevan-shokat", "frank-mccormick", "tanios-bekaii-saab", "eileen-oreilly", "andrew-aguirre"], companies: ["amgen", "bms", "revolution-medicines", "eli-lilly", "jacobio-pharmaceuticals", "roche-genentech"], pathways: ["ras-mapk", "pancreatic-cancer-signalling", "rtk-activation"],
-    keyPapers: ["paper-ostrem-kras-g12c-nature-2013", "paper-codebreak-200-lancet-2023"],
+    keyPapers: ["paper-codebreak-100-sotorasib-kras-g12c-pancreatic-nejm-2023", "paper-krystal-1-adagrasib-kras-g12c-solid-tumours-jco-2023", "paper-ostrem-kras-g12c-nature-2013", "paper-codebreak-200-lancet-2023"],
     links: [{ label: "Wikipedia", url: W("KRAS") }, nccnLink] },
 
   { id: "kras-wild-type-pdac", related: ["kras-g12c-pdac", "metastatic-pdac", "msi-high-pdac", "brca-palb2-pdac", "pancreatic-acinar-cell-carcinoma", "ampullary", "cholangiocarcinoma"], kind: "cancer", name: "KRAS wild-type pancreatic ductal adenocarcinoma", group: "gastrointestinal", parent: "pancreatic", asOf, tags, wikipedia: W("Pancreatic_cancer"),
@@ -215,6 +215,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["her3", "her2", "ntrk", "braf", "alk", "ros1", "fgfr2", "egfr", "kras"], technologies: ["cgp", "liquid-biopsy", "bispecific-antibody", "cytotoxic-chemotherapy", "checkpoint-inhibitor"], terms: ["gene-fusion", "driver-mutation", "kras-mutation-subtypes", "braf-v600-mutation", "msi", "resistance"],
     trials: ["notable-trial"], drugs: ["zenocutuzumab", "larotrectinib", "entrectinib", "repotrectinib", "dabrafenib-trametinib", "nimotuzumab", "pembrolizumab", "gemcitabine", "folfirinox"],
     people: ["eileen-oreilly", "anirban-maitra", "shen-lin", "eric-van-cutsem"], companies: ["merck", "pfizer", "roche-genentech", "bms"], pathways: ["rtk-activation", "ras-mapk", "pancreatic-cancer-signalling"],
+    keyPapers: ["paper-heining-nrg1-fusions-kras-wild-type-pancreatic-cancer-discov-2018", "paper-jones-nrg1-fusions-recurrent-actionable-kras-wild-type-pdac-ccr-2019", "paper-enrgy-zenocutuzumab-nrg1-fusion-positive-cancer-nejm-2025"],
     links: [{ label: "Wikipedia", url: W("Pancreatic_cancer") }, nccnLink] },
 
   { id: "brca-palb2-pdac", related: ["metastatic-pdac", "resectable-pdac", "kras-g12c-pdac", "kras-wild-type-pdac", "msi-high-pdac", "borderline-resectable-pdac", "platinum-sensitive-ovarian-cancer"], kind: "cancer", name: "BRCA or PALB2-mutant pancreatic ductal adenocarcinoma", group: "gastrointestinal", parent: "pancreatic", asOf, tags, wikipedia: W("BRCA_mutation"),
@@ -245,6 +246,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["brca", "kras"], technologies: ["parp-inhibitor", "germline-testing", "cytotoxic-chemotherapy", "pancreatic-surveillance", "liquid-biopsy", "checkpoint-inhibitor"], terms: ["gbrca-mutation", "hrd", "platinum-sensitivity", "brca-reversion-mutations", "germline-vs-somatic", "resistance"],
     trials: ["polo", "prodige-24", "preopanc", "nct07491445"], drugs: ["olaparib", "rucaparib", "niraparib", "talazoparib", "folfirinox", "nalirifox", "gemcitabine-cisplatin", "cisplatin", "gemcitabine-nab-paclitaxel", "ipilimumab", "daraxonrasib"],
     people: ["talia-golan", "susan-domchek", "eileen-oreilly", "diane-simeone", "bert-vogelstein"], companies: ["astrazeneca", "merck", "pfizer"], pathways: ["ddr", "homologous-recombination-repair", "synthetic-lethality-map", "pancreatic-cancer-signalling"],
+    keyPapers: ["paper-polo-olaparib-maintenance-gbrca-pancreatic-nejm-2019", "paper-polo-overall-survival-olaparib-gbrca-pancreatic-jco-2022", "paper-oreilly-gemcitabine-cisplatin-veliparib-gbrca-palb2-pancreatic-jco-2020"],
     links: [{ label: "Wikipedia", url: W("BRCA_mutation") }, nccnLink] },
 
   { id: "msi-high-pdac", related: ["metastatic-pdac", "kras-wild-type-pdac", "brca-palb2-pdac", "locally-advanced-pdac", "kras-g12c-pdac", "msi-high-colorectal"], kind: "cancer", name: "Mismatch repair deficient (MSI-high) pancreatic ductal adenocarcinoma", group: "gastrointestinal", parent: "pancreatic", asOf, tags, wikipedia: W("Microsatellite_instability"),
@@ -273,7 +275,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["pd1", "pdl1", "ctla4", "kras"], technologies: ["checkpoint-inhibitor", "cgp", "germline-testing", "cytotoxic-chemotherapy"], terms: ["msi", "mss-pmmr", "lynch-syndrome", "tmb", "neoantigen", "germline-vs-somatic"],
     trials: ["keynote-177"], drugs: ["pembrolizumab", "dostarlimab", "nivolumab", "ipilimumab", "folfirinox", "gemcitabine-nab-paclitaxel"],
     people: ["dung-le", "bert-vogelstein", "elizabeth-jaffee", "eileen-oreilly"], companies: ["merck", "bms"], pathways: ["mismatch-repair-msi", "pd1-checkpoint", "cancer-immunity-cycle", "immune-desert-exclusion"],
-    keyPapers: ["paper-lynch-frameshift-vaccine-ccr-2020"],
+    keyPapers: ["paper-keynote-158-pembrolizumab-msi-high-noncolorectal-jco-2020", "paper-le-mmr-deficiency-science-2017", "paper-hu-mismatch-repair-deficiency-pancreatic-adenocarcinoma-ccr-2018", "paper-lynch-frameshift-vaccine-ccr-2020"],
     links: [{ label: "Wikipedia", url: W("Microsatellite_instability") }, nccnLink] },
 
   // ---------------------------------------------------------------------------------------------------------------------
@@ -304,6 +306,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["braf", "brca", "kras"], technologies: ["cytotoxic-chemotherapy", "cgp", "germline-testing", "robotic-surgery", "parp-inhibitor", "checkpoint-inhibitor"], terms: ["gene-fusion", "hrd", "gbrca-mutation", "whipple", "msi", "tumour-grade", "oligometastatic"],
     trials: [], drugs: ["folfox", "folfirinox", "oxaliplatin", "fluorouracil", "gemcitabine", "olaparib", "dabrafenib-trametinib", "pembrolizumab"],
     people: ["eileen-oreilly", "anirban-maitra", "richard-schulick"], companies: [], pathways: ["ras-mapk", "homologous-recombination-repair", "wnt", "pancreatic-cancer-signalling"],
+    keyPapers: ["paper-klimstra-acinar-cell-carcinoma-pancreas-28-cases-ajsp-1992", "paper-la-rosa-acinar-cell-carcinoma-62-cases-ajsp-2012", "paper-chmielecki-acinar-cell-carcinoma-raf-fusions-dna-repair-cancer-discov-2014", "paper-wisnoski-acinar-cell-carcinoma-672-patients-seer-surgery-2008"],
     links: [{ label: "Wikipedia", url: W("Acinar_cell_carcinoma_of_the_pancreas") }, nccnLink] },
 
   { id: "ipmn-cystic-precursors", related: ["resectable-pdac", "msi-high-pdac", "kras-wild-type-pdac", "pancreatic-acinar-cell-carcinoma", "pancreatic-net", "early-detection-roadmap", "pancreatic-surveillance"], kind: "cancer", name: "Intraductal papillary mucinous neoplasm and other pancreatic cystic precursors", group: "gastrointestinal", parent: "pancreatic", asOf, tags, wikipedia: W("Intraductal_papillary_mucinous_neoplasm"),
@@ -334,6 +337,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["kras", "tp53"], technologies: ["mri", "ct", "endoscopic-ultrasound-systems", "pancreatic-surveillance", "robotic-surgery", "mced", "liquid-biopsy"], terms: ["ca19-9", "obstructive-jaundice", "whipple", "resectability", "tumour-grade", "endoscopy"],
     trials: [], drugs: ["galleri", "folfirinox"],
     people: ["anirban-maitra", "marc-besselink", "diane-simeone", "bert-vogelstein", "richard-schulick"], companies: [], pathways: ["pancreatic-cancer-signalling", "wnt", "p53-cell-cycle"],
+    keyPapers: ["paper-fukuoka-2017-consensus-guidelines-ipmn-pancreatology-2017", "paper-kyoto-2024-evidence-based-guidelines-ipmn-pancreatology-2024", "paper-european-evidence-based-guidelines-pancreatic-cystic-neoplasms-gut-2018"],
     links: [{ label: "Wikipedia", url: W("Intraductal_papillary_mucinous_neoplasm") }, { label: "Kyoto guidelines for IPMN (Pancreatology 2024)", url: "https://doi.org/10.1016/j.pan.2023.12.009" }] },
 
   { id: "pancreatoblastoma", related: ["pancreatic-acinar-cell-carcinoma", "resectable-pdac", "pancreatic-net", "hepatoblastoma", "rare-childhood-cancers", "childhood-cancers"], kind: "cancer", name: "Pancreatoblastoma", group: "gastrointestinal", parent: "pancreatic", asOf, tags, wikipedia: W("Pancreatoblastoma"),
@@ -363,6 +367,7 @@ export const pancreaticSubtypes: CancerInput[] = [
     targets: ["kras"], technologies: ["cytotoxic-chemotherapy", "ct", "mri", "germline-testing", "fertility-preservation"], terms: ["whipple", "resection-margins", "neoadjuvant-adjuvant", "metastasis", "tumour-grade"],
     trials: [], drugs: ["cisplatin", "doxorubicin", "vincristine"],
     people: [], companies: [], pathways: ["wnt", "pancreatic-cancer-signalling"],
+    keyPapers: ["paper-klimstra-pancreatoblastoma-clinicopathologic-study-ajsp-1995", "paper-bien-pancreatoblastoma-expert-european-cooperative-ejc-2011", "paper-dhebri-pancreatoblastoma-diagnosis-treatment-outcome-pancreatology-2004"],
     links: [{ label: "Wikipedia", url: W("Pancreatoblastoma") }, { label: "EXPeRT consensus on pancreatoblastoma (2021)", url: "https://doi.org/10.1002/pbc.29112" }] },
 ];
 

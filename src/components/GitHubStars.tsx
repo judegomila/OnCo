@@ -1,5 +1,5 @@
 import { useT } from "@/lib/i18n/ui";
-import baked from "@/data/github-stars.json";
+import baked from "@/lib/github-stars.json";
 
 const REPO = "judegomila/OnCo";
 

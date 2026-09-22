@@ -3,7 +3,8 @@ import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import RootLayout from "./layout";
-import { EN, UI_DICTS } from "@/lib/i18n/ui";
+import { EN } from "@/lib/i18n/ui";
+import { UI_DICTS } from "@/lib/i18n/all";
 import { LANGS } from "@/lib/layer";
 
 /**

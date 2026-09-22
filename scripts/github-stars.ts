@@ -1,12 +1,12 @@
 /**
  * Bake the GitHub star count into the site at build time, so the header badge is never empty and never flickers.
- * Writes src/data/github-stars.json. When GitHub cannot be reached the previous value is kept.
+ * Writes src/lib/github-stars.json. When GitHub cannot be reached the previous value is kept.
  * Runs at the front of `npm run build:api`.
  */
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 const REPO = "judegomila/OnCo";
-const OUT = "src/data/github-stars.json";
+const OUT = "src/lib/github-stars.json";
 
 async function main() {
   const previous = existsSync(OUT) ? (JSON.parse(readFileSync(OUT, "utf8")) as { stars: number; fetched: string }) : { stars: 0, fetched: "" };

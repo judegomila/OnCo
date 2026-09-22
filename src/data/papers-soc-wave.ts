@@ -559,4 +559,16 @@ export const papersSocWave: PaperInput[] = [
     caveats: ["Chinese population with endemic EBV-related disease; open-label; overall survival immature."],
     links: [{ label: "Lancet 2024", url: "https://doi.org/10.1016/S0140-6736(24)00594-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/38824941/" }],
     cancers: ["locoregionally-advanced-nasopharyngeal-carcinoma", "nasopharyngeal"], drugs: ["sintilimab"], trials: ["continuum"], journals: ["lancet"] }),
+
+  // ---------------------------------------------------------------- Ovarian
+  p({ id: "paper-aurelia-bevacizumab-platinum-resistant-ovarian-pujade-lauraine-jco-2014", name: "AURELIA: bevacizumab combined with chemotherapy for platinum-resistant recurrent ovarian cancer",
+    tldr: "Adding bevacizumab to single-agent chemotherapy for platinum-resistant ovarian cancer doubled the time to progression and more than doubled the response rate, without a significant gain in survival.",
+    summary: "Open-label randomised phase 3 trial: 361 women with platinum-resistant recurrent ovarian cancer received the investigator's choice of weekly paclitaxel, pegylated liposomal doxorubicin or topotecan, alone or with bevacizumab.\n\nMedian progression-free survival was 6.7 months with bevacizumab against 3.4 months (hazard ratio 0.48, p < 0.001); response rate 27.3 against 11.8 percent; median overall survival 16.6 against 13.3 months (hazard ratio 0.85, p 0.174). Grade 2 or higher hypertension and proteinuria were more common with bevacizumab; gastrointestinal perforation occurred in 2.2 percent.",
+    journal: "Journal of Clinical Oncology", year: 2014, doi: "10.1200/JCO.2013.51.4489", pmid: "24637997",
+    authors: "Pujade-Lauraine E, Hilpert F, Weber B, et al.", paperType: "rct", participants: 361, changedPractice: true,
+    findings: ["Median progression-free survival 6.7 versus 3.4 months; hazard ratio 0.48 (95% CI 0.38 to 0.60), p < 0.001.", "Objective response 27.3 versus 11.8 percent (p 0.001).", "Median overall survival 16.6 versus 13.3 months; hazard ratio 0.85 (0.66 to 1.08), not significant."],
+    whatItMeans: "Bevacizumab with weekly paclitaxel, liposomal doxorubicin or topotecan is a standard option in platinum-resistant ovarian cancer; approved in the United States in 2014.",
+    caveats: ["Open-label; patients with more than two prior regimens or bowel involvement at risk of perforation were excluded.", "Crossover to bevacizumab at progression diluted the survival comparison."],
+    links: [{ label: "J Clin Oncol 2014", url: "https://doi.org/10.1200/JCO.2013.51.4489" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/24637997/" }],
+    cancers: ["platinum-resistant-ovarian-cancer", "ovarian"], drugs: ["bevacizumab"], trials: ["aurelia"], journals: ["jco"] }),
 ];

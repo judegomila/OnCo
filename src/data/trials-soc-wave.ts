@@ -790,6 +790,22 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Grade 3 to 4 immune-related adverse events", unit: "%", arms: [{ name: "Sintilimab + chemoradiotherapy", n: 210, value: 10, note: "20 patients; 2 immune-related deaths" }], source: doi("10.1016/S0140-6736(24)00594-4") },
     ],
     drugs: ["sintilimab", "gemcitabine", "cisplatin"], cancers: ["locoregionally-advanced-nasopharyngeal-carcinoma", "nasopharyngeal"], companies: ["innovent"], institutions: ["sysucc"], keyPapers: ["paper-continuum-sintilimab-nasopharyngeal-liu-lancet-2024"], links: [ct("NCT03700476")] }),
+
+  // ---------------------------------------------------------------- Ovarian
+  t({ id: "aurelia", name: "AURELIA", aka: ["MO22224"], nct: "NCT00976911", phase: "3", status: "positive", yearReported: 2014, sponsor: "Hoffmann-La Roche", enrolled: 361,
+    technologies: ["cytotoxic-chemotherapy"],
+    setting: "Platinum-resistant recurrent epithelial ovarian, fallopian tube or primary peritoneal cancer after no more than two prior regimens: the investigator's single-agent chemotherapy (weekly paclitaxel, pegylated liposomal doxorubicin or topotecan) with or without bevacizumab, with progression-free survival as the primary endpoint",
+    tldr: "AURELIA showed that adding bevacizumab to single-drug chemotherapy for ovarian cancer that has stopped responding to platinum doubled the time before the cancer grew again, from 3.4 to 6.7 months, and more than doubled the response rate, though it did not clearly lengthen life.",
+    summary: "AURELIA was an open-label phase 3 trial in 361 women with platinum-resistant ovarian cancer randomised to the investigator's choice of weekly paclitaxel, pegylated liposomal doxorubicin or topotecan, alone or with bevacizumab. The primary endpoint was progression-free survival.\n\nMedian progression-free survival was 6.7 months with bevacizumab against 3.4 months with chemotherapy alone (hazard ratio 0.48), the response rate 27.3 against 11.8 percent and median overall survival 16.6 against 13.3 months (hazard ratio 0.85, not significant). Hypertension and proteinuria were more common with bevacizumab and gastrointestinal perforation occurred in 2.2 percent. The trial led to approval of bevacizumab with chemotherapy for platinum-resistant disease in the United States in November 2014, which is how the corpus's platinum-resistant ovarian cancer page cites it.",
+    result: "Median progression-free survival 6.7 months with bevacizumab plus chemotherapy against 3.4 months with chemotherapy alone (hazard ratio 0.48, p < 0.001); response rate 27.3 against 11.8 percent; overall survival not significantly different (16.6 against 13.3 months).",
+    outcomes: [
+      { endpoint: "Progression-free survival", primary: true, unit: "months", arms: [{ name: "Bevacizumab + single-agent chemotherapy", value: 6.7 }, { name: "Single-agent chemotherapy", value: 3.4 }], hr: 0.48, ci: [0.38, 0.60], p: "<0.001", source: doi("10.1200/JCO.2013.51.4489") },
+      { endpoint: "Progression-free survival (registry results, November 2011 cut-off)", unit: "months", arms: [{ name: "Bevacizumab + single-agent chemotherapy", value: 6.8, note: "95% CI 5.62 to 7.79" }, { name: "Single-agent chemotherapy", value: 3.4, note: "95% CI 2.10 to 3.75" }], hr: 0.46, ci: [0.366, 0.577], p: "<0.0001", source: results("NCT00976911") },
+      { endpoint: "Objective response rate (RECIST)", unit: "%", arms: [{ name: "Bevacizumab + single-agent chemotherapy", value: 27.3 }, { name: "Single-agent chemotherapy", value: 11.8 }], p: "0.001", source: doi("10.1200/JCO.2013.51.4489") },
+      { endpoint: "Overall survival", unit: "months", arms: [{ name: "Bevacizumab + single-agent chemotherapy", value: 16.6 }, { name: "Single-agent chemotherapy", value: 13.3 }], hr: 0.85, ci: [0.66, 1.08], p: "0.174", source: doi("10.1200/JCO.2013.51.4489") },
+      { endpoint: "Gastrointestinal perforation", unit: "%", arms: [{ name: "Bevacizumab + single-agent chemotherapy", value: 2.2 }], source: doi("10.1200/JCO.2013.51.4489") },
+    ],
+    drugs: ["bevacizumab", "paclitaxel", "pegylated-liposomal-doxorubicin", "topotecan"], cancers: ["platinum-resistant-ovarian-cancer", "ovarian"], companies: ["roche-genentech"], keyPapers: ["paper-aurelia-bevacizumab-platinum-resistant-ovarian-pujade-lauraine-jco-2014"], links: [ct("NCT00976911")] }),
 ];
 
 /** Chinese TL;DRs, folded into src/data/i18n/zh.ts by scripts/fold-zh.ts. */
@@ -853,4 +869,5 @@ export const tldrZh: Record<string, string> = {
   nci9673: "NCI9673 是肛门癌首个完成的免疫治疗试验：纳武利尤单抗 (nivolumab) 单药使四分之一经多线治疗的患者肿瘤缩小，使 PD-1 阻断成为后线标准选择，但后续随机部分显示加用伊匹木单抗无益且增加毒性。",
   capp2: "CAPP2 对林奇综合征（一种肠癌风险极高的遗传病）患者在服用两到四年阿司匹林或安慰剂后随访十年：服阿司匹林者肠癌减少约三分之一，因此如今向该综合征患者提供每日阿司匹林。",
   continuum: "CONTINUUM 首次显示，在晚期但尚未转移的鼻咽癌放化疗中加入 PD-1 免疫治疗药信迪利单抗 (sintilimab)，三年后更多患者无复发，86% 对 76%，但副作用更多。",
+  aurelia: "AURELIA 显示，对铂类耐药的卵巢癌在单药化疗基础上加贝伐珠单抗 (bevacizumab)，肿瘤再次生长前的时间从 3.4 个月翻倍到 6.7 个月，缓解率也翻倍以上，但未明确延长生命。",
 };

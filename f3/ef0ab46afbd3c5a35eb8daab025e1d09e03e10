@@ -1,0 +1,27 @@
+src/data/papers-soc-wave.ts
+  s_0beac9cb5d78fd::t_7edf60335f3307 562-573
+src/data/trials-soc-wave.ts
+  s_0beac9cb5d78fd::t_7edf60335f3307 793-808,872
+src/data/gynaecological-subtypes.ts
+  s_0beac9cb5d78fd::t_7edf60335f3307 321
+docs/CONTENT-ROADMAP.md
+  ai_agent 93
+src/data/spikes/ovarian.ts
+  ai_agent 319
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f3ef0ab46afbd3c5a35eb8daab025e1d09e03e10",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

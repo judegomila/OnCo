@@ -42,6 +42,8 @@ export const zh: UiDict = {
   "table.nSelected": "已选 {n} 项",
   "table.filterBy": "按{facet}筛选：{value}",
   "table.filteringBy": "正按{facet}筛选：{value}。点击可清除。",
+  "table.filterCol": "按{col}筛选",
+  "table.filteringCol": "正按{col}筛选：{value}",
   "table.saveView": "保存视图",
   "table.saveViewTitle": "以名称保存当前筛选、搜索和排序（仅保存在此浏览器中）",
   "table.saved": "已保存",

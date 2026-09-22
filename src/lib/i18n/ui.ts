@@ -60,6 +60,8 @@ export const EN = {
   "table.nSelected": "{n} selected",
   "table.filterBy": "Filter by {facet}: {value}",
   "table.filteringBy": "Filtering by {facet}: {value}. Click to clear.",
+  "table.filterCol": "Filter by {col}",
+  "table.filteringCol": "Filtering by {col}: {value}",
   "table.saveView": "Save view",
   "table.saveViewTitle": "Save these filters, search and sort under a name (stored in this browser only)",
   "table.saved": "Saved",

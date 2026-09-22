@@ -5,6 +5,13 @@ import { useT } from "@/lib/i18n/ui";
 
 export type FacetOption = { value: string; label: string; count?: number; group?: string; className?: string; /** Small glyph shown before the label: an emoji flag or a React node. */ icon?: React.ReactNode };
 
+/** The multi-select rule shared by the facet dropdown and the column-header filter: choosing a value adds it, choosing it again removes it. */
+export function toggleValue(current: Iterable<string>, v: string): string[] {
+  const next = new Set(current);
+  if (next.has(v)) next.delete(v); else next.add(v);
+  return [...next];
+}
+
 type Props = {
   /** English label; translated through the chrome dictionary where a translation exists. */
   label: string;
@@ -56,7 +63,7 @@ export function FacetSelect({ label: labelEn, options, value, onChange, multi = 
   const summary = selected.size === 0 ? (placeholder ?? all) : selected.size === 1 ? (options.find((o) => selected.has(o.value))?.label ?? [...selected][0]) : t("table.nSelected", { n: selected.size });
 
   const pick = (v: string) => {
-    if (multi) { const next = new Set(selected); if (next.has(v)) next.delete(v); else next.add(v); onChange([...next]); }
+    if (multi) onChange(toggleValue(selected, v));
     else { onChange(selected.has(v) ? null : v); setOpen(false); }
   };
 

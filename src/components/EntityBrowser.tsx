@@ -27,6 +27,7 @@ import { SaveViewButton } from "./SaveViewButton";
 import { WatchButton } from "./WatchButton";
 import type { CsvRow } from "@/lib/csv";
 import { useT } from "@/lib/i18n/ui";
+import { viewParams } from "@/lib/table-view";
 import { tldrFor } from "./TldrText";
 import { useTable } from "@/lib/tldr-tables";
 import { nameAttrs } from "@/lib/translate";
@@ -100,7 +101,9 @@ export const cellText = (v: CellValue): string => (Array.isArray(v) ? v.map(item
 const NORMALISERS: Record<"phase", (value: string) => string> = { phase: normalisePhaseLabel };
 
 export type FacetDef = { key: string; label: string; searchable?: boolean; width?: string; order?: string[]; normalise?: "phase" };
-export type ColDef = { key: string; label: string; sortable?: boolean; hide?: string; className?: string; numeric?: boolean; chip?: boolean; tip?: string; /** Tips for chip/string values keyed by value, e.g. { "Phase 3": "..." }. */ valueTips?: Record<string, string> };
+export type ColDef = { key: string; label: string; sortable?: boolean; hide?: string; className?: string; numeric?: boolean; chip?: boolean; tip?: string; /** Tips for chip/string values keyed by value, e.g. { "Phase 3": "..." }. */ valueTips?: Record<string, string>;
+  /** The facet this column filters from its header. Defaults to the facet with the column's key, or the facet its chips point at; `null` turns the header filter off. */
+  facet?: string | null };
 
 const STATUS_ORDER = ["approved", "standard-of-care", "positive", "phase-3", "established", "completed", "recruiting", "active", "phase-2", "emerging", "phase-1", "preclinical", "concept", "planned", "mixed", "historic", "negative", "withdrawn"];
 const STATUS_FACET: FacetDef = { key: "status", label: "Phase / status", searchable: false, width: "w-48", order: STATUS_ORDER };
@@ -220,11 +223,7 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
   useEffect(() => {
     if (!synced) return;
     const url = new URL(window.location.href);
-    for (const f of allFacets) url.searchParams.delete(f.key);
-    url.searchParams.delete(QUERY_KEY); url.searchParams.delete(SORT_KEY); url.searchParams.delete(VIEW_KEY);
-    for (const f of allFacets) for (const v of sel[f.key] ?? []) url.searchParams.append(f.key, v);
-    if (q.trim()) url.searchParams.set(QUERY_KEY, q.trim());
-    if (sort.key !== baseSort.key || sort.dir !== baseSort.dir) url.searchParams.set(SORT_KEY, `${sort.dir === -1 ? "-" : ""}${sort.key}`);
+    url.search = viewParams(allFacets.map((f) => f.key), sel, q, sort, baseSort, url.searchParams).toString();
     const next = url.pathname + url.search + url.hash;
     if (next !== window.location.pathname + window.location.search + window.location.hash) window.history.replaceState(window.history.state, "", next);
   }, [synced, sel, q, sort, baseSort, allFacets]);
@@ -272,6 +271,31 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
 
   const onSort = (key: string) => setSort((s) => (s.key === key ? { key, dir: s.dir === 1 ? -1 : 1 } : { key, dir: 1 }));
   const active = Object.values(sel).some((a) => a.length) || q;
+
+  /** Which facet each extra column filters from its header: its own key when that is a facet, else the facet its chips point at. */
+  const columnFacet = useMemo(() => {
+    const keys = new Set(allFacets.map((f) => f.key));
+    const out: Record<string, string | undefined> = {};
+    for (const c of columns) {
+      if (c.facet === null) continue;
+      if (c.facet) { if (keys.has(c.facet)) out[c.key] = c.facet; continue; }
+      if (keys.has(c.key)) { out[c.key] = c.key; continue; }
+      for (const r of rows) {
+        const v = r.cols[c.key];
+        const f = isFacetLink(v) ? v : Array.isArray(v) ? v.find(isFacetLink) : undefined;
+        if (f) { if (keys.has(f.facet)) out[c.key] = f.facet; break; }
+      }
+    }
+    return out;
+  }, [allFacets, columns, rows]);
+  /** The header filter for a facet: the same options and the same setter as its toolbar control, so the two stay in step. */
+  const headerFilter = (facetKey: string | undefined) => {
+    if (!facetKey) return undefined;
+    const opts = options[facetKey] ?? [];
+    const cur = sel[facetKey] ?? [];
+    if (!opts.length && !cur.length) return undefined;
+    return { options: opts, value: cur, onChange: (v: string[]) => setFacet(facetKey, v) };
+  };
   /** Changes whenever the URL-backed state changes; SaveViewButton re-checks the saved list on it. */
   const stateKey = JSON.stringify([sel, q, sort]);
   /** The filtered rows as flat records for CSV/JSON: identity, status, every facet, every column as text. */
@@ -323,11 +347,11 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
         {/* Watch from the list: the star lives in this browser and, when signed in on me.onco.cc, on the account too. */}
         <WatchButton compact id={r.id} kind={r.kind ?? (r.molecule ? "drug" : nameKind ?? "page")} name={r.name} route={r.route} className="ms-auto mt-0.5" />
       </div>) },
-    ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, render: (r: BrowserRow) => r.molecule
+    ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, filter: headerFilter("status"), render: (r: BrowserRow) => r.molecule
       ? <ApprovalChip drugId={r.molecule} status={r.status} />
       : r.status ? <span lang={lang}>{facetChip({ facet: "status", value: r.status, label: statusText(r.status) }, STATUS_TIPS[r.status], statusClass(r.status))}</span> : null } as Column<BrowserRow>]),
     ...columns.map((c): Column<BrowserRow> => ({
-      key: c.key, label: c.label, sortable: c.sortable, hide: c.hide, className: c.className, tip: c.tip,
+      key: c.key, label: c.label, sortable: c.sortable, hide: c.hide, className: c.className, tip: c.tip, filter: headerFilter(columnFacet[c.key]),
       render: (r) => {
         const v = r.cols[c.key];
         if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) return <span className="text-muted"><span aria-hidden>-</span><span className="sr-only">{t("none")}</span></span>;

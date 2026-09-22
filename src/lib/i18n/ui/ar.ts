@@ -42,6 +42,8 @@ export const ar: UiDict = {
   "table.nSelected": "{n} محددة",
   "table.filterBy": "تصفية حسب {facet}: {value}",
   "table.filteringBy": "تصفية حسب {facet}: {value}. انقر للإزالة.",
+  "table.filterCol": "تصفية حسب {col}",
+  "table.filteringCol": "تصفية حسب {col}: {value}",
   "table.saveView": "حفظ العرض",
   "table.saveViewTitle": "احفظ هذه المرشحات والبحث والترتيب باسم (في هذا المتصفح فقط)",
   "table.saved": "تم الحفظ",

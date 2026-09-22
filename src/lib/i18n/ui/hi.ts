@@ -42,6 +42,8 @@ export const hi: UiDict = {
   "table.nSelected": "{n} चयनित",
   "table.filterBy": "{facet} से फ़िल्टर: {value}",
   "table.filteringBy": "{facet} से फ़िल्टर हो रहा है: {value}। हटाने के लिए क्लिक करें।",
+  "table.filterCol": "{col} से फ़िल्टर करें",
+  "table.filteringCol": "{col} से फ़िल्टर हो रहा है: {value}",
   "table.saveView": "व्यू सहेजें",
   "table.saveViewTitle": "इन फ़िल्टर, खोज और क्रम को एक नाम से सहेजें (केवल इस ब्राउज़र में)",
   "table.saved": "सहेजा गया",

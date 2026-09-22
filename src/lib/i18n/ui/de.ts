@@ -42,6 +42,8 @@ export const de: UiDict = {
   "table.nSelected": "{n} ausgewählt",
   "table.filterBy": "Filtern nach {facet}: {value}",
   "table.filteringBy": "Gefiltert nach {facet}: {value}. Klicken zum Entfernen.",
+  "table.filterCol": "Filtern nach {col}",
+  "table.filteringCol": "Gefiltert nach {col}: {value}",
   "table.saveView": "Ansicht speichern",
   "table.saveViewTitle": "Diese Filter, Suche und Sortierung unter einem Namen speichern (nur in diesem Browser)",
   "table.saved": "Gespeichert",

@@ -42,6 +42,8 @@ export const pt: UiDict = {
   "table.nSelected": "{n} selecionados",
   "table.filterBy": "Filtrar por {facet}: {value}",
   "table.filteringBy": "A filtrar por {facet}: {value}. Clique para remover.",
+  "table.filterCol": "Filtrar por {col}",
+  "table.filteringCol": "A filtrar por {col}: {value}",
   "table.saveView": "Guardar vista",
   "table.saveViewTitle": "Guarde estes filtros, pesquisa e ordenação com um nome (apenas neste navegador)",
   "table.saved": "Guardada",

@@ -83,7 +83,7 @@ export function SideEffectLookup({ rows, drugNames }: { rows: SideEffectRow[]; /
   const guidance = group ? sideEffectGuidance.find((g) => g.group === group) : undefined;
 
   const columns: Column<SideEffectRow>[] = [
-    { key: "drug", label: "Treatment", sortable: true, render: (r) => <div><Link href={`${r.route}#safety`} className="font-medium hover:underline">{r.drug}</Link><div className="text-xs text-muted">{r.modality}</div></div> },
+    { key: "drug", label: "Treatment", sortable: true, filter: { options: opt((r) => [r.drugId, r.drug], inGroup), value: drugs, onChange: setDrugs }, render: (r) => <div><Link href={`${r.route}#safety`} className="font-medium hover:underline">{r.drug}</Link><div className="text-xs text-muted">{r.modality}</div></div> },
     { key: "event", label: "As reported", sortable: true, tip: "The event name as the label or trial reports it; the symptom group above is the plain-language version.", render: (r) => <span className="text-sm">{r.event}{!group && <div className="text-xs text-muted">{r.group}</div>}</span> },
     { key: "any", label: "Any grade", sortable: true, tip: "Share of people in the source trial who had this at any severity.", render: (r) => <Bar pct={r.anyGradePct} tone="bg-amber-400/70" /> },
     { key: "g3", label: "Severe (grade 3+)", sortable: true, tip: "Share who had it at grade 3 or higher: severe, often needing hospital treatment.", render: (r) => <Bar pct={r.grade3PlusPct} tone="bg-rose-500/80" /> },

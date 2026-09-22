@@ -71,7 +71,7 @@ export function CentreTable({ rows, cancerName, countryNames, compact = false }:
         {r.programmes.length > 0 && <div className="text-xs mt-0.5"><Tip title="Programme on record" text={`The institution record lists a programme that names ${cancerName}.`}><span className="chip bg-foreground/5 text-[10px] cursor-help">Programme: {r.programmes.slice(0, 2).join(", ")}</span></Tip></div>}
       </div>
     ) },
-    { key: "country", label: "Country", sortable: true, hide: "hidden sm:table-cell", render: (r) => <Link href={`/institutions/?country=${encodeURIComponent(r.country)}`} className="hover:underline whitespace-nowrap">{countryNames[r.country] ?? r.country}</Link> },
+    { key: "country", label: "Country", sortable: true, hide: "hidden sm:table-cell", filter: { options: countryOptions, value: country ? [country] : [], onChange: (v) => setCountry(v[0] ?? null), single: true }, render: (r) => <Link href={`/institutions/?country=${encodeURIComponent(r.country)}`} className="hover:underline whitespace-nowrap">{countryNames[r.country] ?? r.country}</Link> },
     { key: "designations", label: "Designations", sortable: true, hide: "hidden md:table-cell", tip: "Designations and memberships recorded on the institution: NCI designation, OECI accreditation, CRUK centre, NHS alliance, Unicancer, IRCCS and similar. From the record's fields and tags.", render: (r) => r.designations.length ? (
       <div className="flex flex-wrap gap-1">{r.designations.map((d) => d.href ? <Link key={d.key} href={d.href} className="chip bg-foreground/5 text-[10px] hover:bg-foreground/10">{d.label}</Link> : <span key={d.key} className="chip bg-foreground/5 text-[10px]">{d.label}</span>)}</div>
     ) : <span className="text-muted text-xs">none recorded</span> },

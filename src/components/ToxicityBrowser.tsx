@@ -64,8 +64,8 @@ export function ToxicityBrowser({ rows }: { rows: ToxRow[] }) {
   const inModality = enriched.filter((r) => !modality.length || modality.includes(r.modality));
 
   const columns: Column<typeof enriched[number]>[] = [
-    { key: "event", label: "Adverse event", sortable: true, render: (r) => <div><span className="font-medium">{r.fam}</span>{r.fam !== r.event && <div className="text-xs text-muted">{r.event}</div>}</div> },
-    { key: "drug", label: "Product", sortable: true, render: (r) => <div><Link href={`${r.route}#safety`} className="hover:underline">{r.drug}</Link><div className="text-xs text-muted">{r.modality}</div></div> },
+    { key: "event", label: "Adverse event", sortable: true, filter: { options: opt((r) => r.fam, inModality), value: events, onChange: setEvents }, render: (r) => <div><span className="font-medium">{r.fam}</span>{r.fam !== r.event && <div className="text-xs text-muted">{r.event}</div>}</div> },
+    { key: "drug", label: "Product", sortable: true, filter: { options: opt((r) => r.drug, inModality), value: drugs, onChange: setDrugs }, render: (r) => <div><Link href={`${r.route}#safety`} className="hover:underline">{r.drug}</Link><div className="text-xs text-muted">{r.modality}</div></div> },
     { key: "any", label: "Any grade", sortable: true, render: (r) => <Bar pct={r.anyGradePct} tone="bg-amber-400/70" /> },
     { key: "g3", label: "Grade 3+", sortable: true, render: (r) => <Bar pct={r.grade3PlusPct} tone="bg-rose-500/80" /> },
     { key: "note", label: "Trial / note", hide: "hidden lg:table-cell", render: (r) => <span className="text-xs text-muted">{r.note}{r.source && <> · <a className="underline" href={r.source} rel="noopener">source</a></>}</span> },

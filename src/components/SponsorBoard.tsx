@@ -39,7 +39,7 @@ export function SponsorBoard({ rows, cancers }: { rows: SponsorRow[]; cancers: A
     { key: "p3", label: "Phase 3", sortable: true, hide: "hidden md:table-cell", render: (r) => <span className="tabular-nums">{r.registryPhase3 + r.corpusTrials.filter((t) => t.phase === "3").length}</span> },
     { key: "p2", label: "Phase 2", sortable: true, hide: "hidden md:table-cell", render: (r) => <span className="tabular-nums">{r.registryPhase2}</span> },
     { key: "rec", label: "Recruiting", sortable: true, hide: "hidden lg:table-cell", render: (r) => <span className="tabular-nums">{r.registryRecruiting}</span> },
-    { key: "cancers", label: "Top cancers", hide: "hidden lg:table-cell", render: (r) => <div className="flex flex-wrap gap-1">{Object.entries(r.cancers).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([c, n]) => <button key={c} type="button" onClick={() => setCancer(c)} className={`chip border ${KIND_COLOR.cancer}`}>{cancerName.get(c) ?? c} {n}</button>)}</div> },
+    { key: "cancers", label: "Top cancers", hide: "hidden lg:table-cell", filter: { options: cancerOptions, value: cancer ? [cancer] : [], onChange: (v) => setCancer(v[0] ?? null), single: true }, render: (r) => <div className="flex flex-wrap gap-1">{Object.entries(r.cancers).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([c, n]) => <button key={c} type="button" onClick={() => setCancer(c)} className={`chip border ${KIND_COLOR.cancer}`}>{cancerName.get(c) ?? c} {n}</button>)}</div> },
   ];
 
   return (

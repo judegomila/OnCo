@@ -37,8 +37,8 @@ export function HtaTable({ rows }: { rows: HtaRow[] }) {
   const columns: Column<HtaRow>[] = [
     { key: "date", label: "Date", sortable: true, render: (r) => <span className="font-mono text-sm whitespace-nowrap">{r.date ?? ""}{r.updated && r.updated !== r.date ? <span className="block text-[11px] text-muted">updated {r.updated}</span> : null}</span> },
     { key: "product", label: "Product", sortable: true, render: (r) => <div>{r.route ? <Link href={r.route} className="font-medium hover:underline">{r.product}</Link> : <span className="font-medium">{r.product}</span>}{(r.brand || r.modality) && <div className="text-xs text-muted">{[r.brand, r.modality].filter(Boolean).join(" · ")}</div>}</div> },
-    { key: "body", label: "Body", sortable: true, render: (r) => <span className="whitespace-nowrap">{r.body}<span className="block text-xs text-muted">{r.country}</span></span> },
-    { key: "verdict", label: "Verdict", render: (r) => <span className={`chip ${TONE[r.tone] ?? TONE.neutral}`}>{r.verdictLabel}</span> },
+    { key: "body", label: "Body", sortable: true, filter: { options: opt((r) => r.body), value: bodies, onChange: setBodies }, render: (r) => <span className="whitespace-nowrap">{r.body}<span className="block text-xs text-muted">{r.country}</span></span> },
+    { key: "verdict", label: "Verdict", filter: { options: opt((r) => r.verdictLabel), value: verdicts, onChange: setVerdicts }, render: (r) => <span className={`chip ${TONE[r.tone] ?? TONE.neutral}`}>{r.verdictLabel}</span> },
     { key: "title", label: "Appraisal", render: (r) => <span><a href={r.url} rel="noopener" className="hover:underline">{r.title}</a>{r.documentUrl && <> <a href={r.documentUrl} rel="noopener" className="text-xs underline text-muted">document</a></>}{r.note && <span className="block text-xs text-muted">{r.note}</span>}</span> },
   ];
 

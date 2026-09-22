@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Tip, COLUMN_TIPS } from "@/components/Tip";
 import { useT } from "@/lib/i18n/ui";
 import { fillNodes } from "@/components/T";
+import { ColumnFilter, type ColumnFilterSpec } from "./ColumnFilter";
 
 export type Column<T> = {
   key: string;
@@ -16,9 +17,39 @@ export type Column<T> = {
   hide?: string;
   /** Plain-English explanation shown on hover of the header; falls back to COLUMN_TIPS by label. */
   tip?: string;
+  /** Present when the column can be filtered from its header: the values, the selection and the same setter the toolbar facet uses. */
+  filter?: ColumnFilterSpec;
 };
 
 export type SortState = { key: string; dir: 1 | -1 };
+
+/**
+ * The contents of one header cell, shared by ResultsTable and any hand-written <table> that wants the same
+ * controls. The label sorts when the column is sortable (as before); the filter lives on a funnel beside it.
+ * A column that filters but does not sort makes its whole label the filter trigger. Two sibling buttons, never
+ * one inside the other, so both are reachable with Tab and the markup hydrates.
+ */
+export function ColumnHead<T>({ column: c, sort, onSort }: { column: Column<T>; sort?: SortState; onSort?: (key: string) => void }) {
+  const { t, tl } = useT();
+  const tip = c.tip ?? COLUMN_TIPS[c.label];
+  const sorted = sort?.key === c.key;
+  const text = tl(c.label);
+  const label = tip ? <Tip text={tip} title={text}><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{text}</span></Tip> : text;
+  const sortable = !!(c.sortable && onSort);
+  if (!sortable && !c.filter) return <>{label}</>;
+  if (!sortable && c.filter) return <ColumnFilter label={c.label} labelNode={label} spec={c.filter} variant="label" />;
+  return (
+    <span className="inline-flex items-center gap-1 max-w-full">
+      <button type="button" onClick={() => onSort!(c.key)} className={`group inline-flex items-center gap-1 rounded-sm py-1.5 -my-1.5 ${sorted ? "text-foreground" : ""}`} title={sorted ? (sort!.dir === -1 ? t("table.sortedDesc") : t("table.sortedAsc")) : t("table.sortBy", { col: text })}>
+        {label}
+        <span aria-hidden className={`inline-block w-3 text-center text-[11px] leading-none ${sorted ? "text-accent" : "text-muted/40 group-hover:text-muted"}`}>
+          {sorted ? (sort!.dir === -1 ? "↓" : "↑") : "↕"}
+        </span>
+      </button>
+      {c.filter && <ColumnFilter label={c.label} spec={c.filter} variant="glyph" />}
+    </span>
+  );
+}
 
 /**
  * Full-width, sortable results table shared by the filterable views.
@@ -36,7 +67,7 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty, sc
   // Reset the window when the rows change (a new filter or sort), the React pattern for state derived from props.
   const [prevRows, setPrevRows] = useState(rows);
   if (rows !== prevRows) { setPrevRows(rows); setLimit(pageSize ?? Infinity); }
-  const { t, tl } = useT();
+  const { t } = useT();
   const capped = pageSize !== undefined && rows.length > limit;
   const visible = capped ? rows.slice(0, limit) : rows;
   const foot = useRef<HTMLDivElement>(null);
@@ -53,20 +84,10 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty, sc
         <thead>
           <tr>
             {columns.map((c) => {
-              const tip = c.tip ?? COLUMN_TIPS[c.label];
               const sorted = sort?.key === c.key;
-              const text = tl(c.label);
-              const label = tip ? <Tip text={tip} title={text}><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{text}</span></Tip> : text;
               return (
                 <th key={c.key} scope="col" className={`${c.hide ?? ""} ${c.className ?? ""}`} aria-sort={sorted ? (sort!.dir === -1 ? "descending" : "ascending") : undefined}>
-                  {c.sortable && onSort ? (
-                    <button type="button" onClick={() => onSort(c.key)} className={`group inline-flex items-center gap-1 rounded-sm py-1.5 -my-1.5 ${sorted ? "text-foreground" : ""}`} title={sorted ? (sort!.dir === -1 ? t("table.sortedDesc") : t("table.sortedAsc")) : t("table.sortBy", { col: text })}>
-                      {label}
-                      <span aria-hidden className={`inline-block w-3 text-center text-[11px] leading-none ${sorted ? "text-accent" : "text-muted/40 group-hover:text-muted"}`}>
-                        {sorted ? (sort!.dir === -1 ? "↓" : "↑") : "↕"}
-                      </span>
-                    </button>
-                  ) : label}
+                  <ColumnHead column={c} sort={sort} onSort={onSort} />
                 </th>
               );
             })}

@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useT } from "@/lib/i18n/ui";
+import { fetchMe, ME_CONTEXT_URL } from "@/lib/me";
 
 /**
  * The "Sign in/up" control in the header: a bridge to the signed-in site. onco.cc is the public, signed-out site
@@ -12,6 +13,10 @@ import { useT } from "@/lib/i18n/ui";
  *
  * The exported HTML carries the bare address (the page's own address is not known at build time); the `back`
  * parameter is filled in after mount, so a click before hydration still reaches the signed-in site.
+ *
+ * After mount it also asks me.onco.cc whether this browser is signed in there (src/lib/me.ts: a credentialed
+ * fetch answered from that site's own cookie, first name only). Signed in, the pill shows the first name and
+ * leads to My context; nothing is stored here and the exported HTML is unchanged.
  */
 export const ME_URL = "https://me.onco.cc/signin/";
 /** The header pill: the shared 40px control box in the accent with white text, a square on phones. */
@@ -31,8 +36,24 @@ export function AccountMenu({ className = "" }: { className?: string }) {
   const link = useRef<HTMLAnchorElement>(null);
   // The `back` address is written straight onto the anchor after mount (the exported HTML and the hydrated tree stay
   // identical); the click handler refreshes it, since Next navigates between pages without remounting the header.
-  useEffect(() => { if (link.current) link.current.href = meHref(window.location.href); }, []);
+  const [firstName, setFirstName] = useState<string | null>(null);
+  useEffect(() => {
+    if (link.current) link.current.href = meHref(window.location.href);
+    let alive = true;
+    void fetchMe().then((me) => { if (alive && me.signedIn) setFirstName(me.firstName || "My context"); });
+    return () => { alive = false; };
+  }, []);
   const label = t("account.signInCta");
+  if (firstName) {
+    const title = `Signed in to me.onco.cc as ${firstName}. Open My context.`;
+    return (
+      <span className={`relative ${className}`}>
+        <a href={ME_CONTEXT_URL} className={CTA_CLASS} title={title} aria-label={title} data-testid="sign-in-bridge" data-signed-in="true">
+          <ProfileIcon /><span className="hidden sm:inline max-w-[9rem] truncate">{firstName}</span>
+        </a>
+      </span>
+    );
+  }
   return (
     <span className={`relative ${className}`}>
       <a ref={link} href={ME_URL} onClick={(e) => { e.currentTarget.href = meHref(window.location.href); }} className={CTA_CLASS} title={label} aria-label={label} data-testid="sign-in-bridge">

@@ -41,6 +41,6 @@ describe("root layout and the analytics gate", () => {
   it("has the consent strings in all nine languages", () => {
     const keys = ["consent.text", "consent.allow", "consent.decline", "consent.choice", "consent.state.granted", "consent.state.denied", "consent.state.unset", "consent.gpc"] as const;
     for (const l of LANGS) for (const k of keys) expect((UI_DICTS[l.code] as Record<string, string>)[k], `${l.code}: ${k}`).toBeTruthy();
-    expect(EN["consent.text"]).toBe("OnCo uses Google Analytics to count visits. No advertising, nothing sold.");
+    expect(EN["consent.text"]).toBe("OnCo uses Google Analytics to help improve the site.");
   });
 });

@@ -24,6 +24,7 @@ import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
 import { DownloadTable } from "./DownloadTable";
 import { SaveViewButton } from "./SaveViewButton";
+import { WatchButton } from "./WatchButton";
 import type { CsvRow } from "@/lib/csv";
 import { useT } from "@/lib/i18n/ui";
 import { tldrFor } from "./TldrText";
@@ -319,6 +320,8 @@ export function EntityBrowser({ rows, facets, columns, noun, defaultSort, hideSt
         {(r.logo || r.avatar) && !r.molecule && <RowAvatar src={r.logo} name={r.name} round={r.round || r.avatar === "person"} />}
         {slot && r.kind && visualSource(r) === "kind" && <RowVisualFallback kind={r.kind} name={r.name} route={r.route} className={slot.className} round={slot.round} />}
         <div><Link href={r.route} data-row {...nameAttrs(r.molecule ? "drug" : nameKind, "font-medium hover:underline")}>{r.name}</Link>{r.sub && <div className="text-xs text-muted">{r.sub}</div>}{!hideTldr && <div lang={tldrTable?.[r.id] ? lang : "en"} className="text-xs text-muted line-clamp-2 max-w-lg">{tldrFor(r.id, r.tldr, lang, tldrTable)}</div>}</div>
+        {/* Watch from the list: the star lives in this browser and, when signed in on me.onco.cc, on the account too. */}
+        <WatchButton compact id={r.id} kind={r.kind ?? (r.molecule ? "drug" : nameKind ?? "page")} name={r.name} route={r.route} className="ms-auto mt-0.5" />
       </div>) },
     ...(hideStatus ? [] : [{ key: "status", label: "Phase / status", sortable: true, render: (r: BrowserRow) => r.molecule
       ? <ApprovalChip drugId={r.molecule} status={r.status} />

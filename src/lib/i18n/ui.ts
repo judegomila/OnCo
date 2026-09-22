@@ -154,7 +154,7 @@ export const EN = {
   "offer.switchButton": "Switch to {language}",
 
   // ---- analytics consent (bar at the foot of the viewport, footer control, /privacy/ panel) ----
-  "consent.text": "OnCo uses Google Analytics to count visits. No advertising, nothing sold.",
+  "consent.text": "OnCo uses Google Analytics to help improve the site.",
   "consent.allow": "Allow",
   "consent.decline": "No thanks",
   "consent.choice": "Analytics choice",

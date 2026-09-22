@@ -37,6 +37,7 @@ import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import { nameParts, norm } from "../src/lib/completeness";
+import { roleBucket } from "../src/lib/person-roles";
 import type { Cancer, Institution, Paper, PaperInput, Person } from "../src/lib/schema";
 import { papersPeopleWave6 } from "../src/data/papers-people-wave6";
 import { personPapersWave6, PERSON_PAPER_SKIP, type PersonPaperEntry, type PersonPaperLinks } from "../src/data/person-papers-wave6";
@@ -57,20 +58,16 @@ const ONLY = args.find((a) => a.startsWith("--only="))?.slice(7).split(",").filt
 // ---------------------------------------------------------------------------------------------------------------------
 // Roles: who is searched at all
 // ---------------------------------------------------------------------------------------------------------------------
-/** Administrative, donor, patient, advocate and public-figure roles: a wrong paper on such a page is worse than none. */
-const ADMIN_ROLE = /\b(chief executive|ceo|chief operating|chief financial|chief medical officer|chief strategy|chairman|chairwoman|chairperson|chair of the board|board chair|executive chair|executive director|managing director|director[- ]general|general director|director of operations|dean|provost|vice[- ]chancellor|rector|president|vice[- ]president|representative|secretary|minister|commissioner|administrator|trustee|board member|governor|senator|mayor|politician|first lady|philanthropist|donor|benefactor|patient|survivor|advocate|campaigner|activist|founder|co-founder|entrepreneur|investor|venture|journalist|broadcaster|actor|actress|singer|musician|athlete|footballer|cyclist|advertising|industrialist|businessman|businesswoman|magnate|heir|heiress|child|whose|diretor|directeur|presidente|geschäftsführer|superintendent|party secretary|secretary-general|acting secretary|general manager|gerente|direttore|direktur|directora|director nacional|executive board|raad van bestuur|centrumchef|müdür|namesake|founders|founded|co-founded|champion|star|the boy|the girl|behind the|film executive|giving)\b/i;
-/** Research or clinical posts; these outrank an administrative word in the same role line ("Professor and Dean"). */
-const RESEARCH_ROLE = /\b(professor|oncologist|ha?ematologist|scientist|researcher|investigator|surgeon|radiologist|pathologist|physician|geneticist|immunologist|biologist|epidemiologist|pharmacologist|statistician|biostatistician|clinician|laboratory head|lab head|group leader|programme leader|program leader|principal investigator|clinical director|scientific director|research director|director of research|chief scientific officer|chief scientist|trial lead|trialist|(chief|head|director|lead|leader) of (the )?(neuro-oncology|early[- ]phase trials|clinical trials|[a-z-]+ (oncology|medicine|surgery|pathology|radiology|ha?ematology|trials|unit|service|department|division|section|program|programme|laboratory|lab)))\b/i;
-/** A director or chief with no research post named: an institution head, who may publish but cannot be matched safely by role alone. */
-const INSTITUTION_HEAD = /\b(director|chief|head)\b/i;
-
+// The role regexes live in src/lib/person-roles.ts, shared with the people-papers health gauge so the two agree on who
+// is expected to have papers. A `papersExpected` override on the record wins over the role line in both places.
 type Bucket = "administrator" | "institution head" | "no institution" | "search";
 function bucket(p: Person): Bucket {
-  const r = p.role; // the role line only: tags such as "clinician-scientist" describe the record, not the post
-  if (RESEARCH_ROLE.test(r)) return p.institutionId || p.institutions.length ? "search" : "no institution";
-  if (ADMIN_ROLE.test(r)) return "administrator";
-  if (INSTITUTION_HEAD.test(r)) return "institution head";
-  return p.institutionId || p.institutions.length ? "search" : "no institution";
+  const hasInst = p.institutionId || p.institutions.length;
+  if (p.papersExpected === false) return "administrator";
+  if (p.papersExpected === true) return hasInst ? "search" : "no institution";
+  const b = roleBucket(p.role); // the role line only: tags such as "clinician-scientist" describe the record, not the post
+  if (b === "researcher") return hasInst ? "search" : "no institution";
+  return b;
 }
 
 // ---------------------------------------------------------------------------------------------------------------------

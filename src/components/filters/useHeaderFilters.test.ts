@@ -58,6 +58,11 @@ describe("client tables with their own controls gain header filters", () => {
     expect(labels).toEqual(["Cancer and setting", "NCCN", "ESMO", "NICE", "ASCO", "Verdict"]);
     expect(html).toContain('aria-expanded="false"');
     expect(html).toContain("Bodies disagree");
+    // Each body cell keeps a keyboard-reachable link to the body's own website, as a sibling of the stance link.
+    expect((html.match(/data-body-site=/g) ?? []).length).toBe(3);
+    expect(html).toContain('aria-label="Open the NCCN website"');
+    expect(html).toContain("Open the body&#x27;s website");
+    expect(html).not.toMatch(/<a[^>]*>(?:(?!<\/a>)[\s\S])*<a[\s>]/);
     expect(nestedButtons(html)).toBe(0);
   });
 

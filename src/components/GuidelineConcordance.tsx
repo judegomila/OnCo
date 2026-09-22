@@ -65,9 +65,18 @@ export function GuidelineConcordance({ rows }: { rows: ConcordanceRow[] }) {
                   const tip = `${e.recommendation}${e.grade ? ` Grade: ${e.grade}.` : ""}${e.note ? ` ${e.note}` : ""} (${e.date})`;
                   return (
                     <td key={b} className="text-center align-top">
-                      <Tip title={`${b}: ${STANCE_LABEL[e.stance]}`} text={tip} href={e.url} linkLabel="Source →">
-                        <a href={e.url} target="_blank" rel="noopener noreferrer" className={`chip cursor-help ${STANCE_CLASS[e.stance]}`}>{STANCE_LABEL[e.stance]}</a>
-                      </Tip>
+                      <span className="inline-flex items-center gap-1">
+                        <Tip title={`${b}: ${STANCE_LABEL[e.stance]}`} text={tip} href={e.url} linkLabel="Source →">
+                          <a href={e.url} target="_blank" rel="noopener noreferrer" className={`chip cursor-help ${STANCE_CLASS[e.stance]}`}>{STANCE_LABEL[e.stance]}</a>
+                        </Tip>
+                        {/* The body's own website: a sibling anchor, never inside the stance link, so it hydrates and is reachable with Tab. */}
+                        <Tip title={BODY_META[b].label} text="Open the body's website">
+                          <a href={BODY_META[b].url} target="_blank" rel="noopener noreferrer" aria-label={`Open the ${BODY_META[b].label} website`} title="Open the body's website" data-body-site={b}
+                            className="inline-flex h-4 w-4 items-center justify-center rounded-sm text-muted/60 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">
+                            <svg aria-hidden viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 3h4v4M13 3 7 9M11 9v3.5a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7" /></svg>
+                          </a>
+                        </Tip>
+                      </span>
                       {e.grade && <div className="text-[11px] text-muted mt-1 max-w-[160px] mx-auto leading-tight">{e.grade}</div>}
                       <div className="text-[10px] text-muted/70 mt-0.5 tabular-nums">{e.date}</div>
                     </td>

@@ -65,6 +65,7 @@ import { PaperTrend } from "./PapersPulse";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 import { RegionStrip } from "./RegionMatrix";
+import { RegistryCheck } from "./RegistryCheck";
 import { regionalApprovals } from "@/data/regional-approvals";
 import { CountryCasesMini } from "./CountryCasesMini";
 import { CancerIcon } from "./CancerIcon";
@@ -639,6 +640,7 @@ function RoadmapSteps({ r }: { r: Roadmap }) {
         </ol>
       </section>
     )}
+    <RegistryCheck roadmapId={r.id} />
   </>);
 }
 

@@ -7,12 +7,14 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
+- Every roadmap now carries a registry check: a weekly script compares each referenced trial with ClinicalTrials.gov and Europe PMC, flags contradictions and overdue readouts, and shows the check date under What to watch
 - A roadmap and timeline for circulating tumour DNA tests, from the 1948 discovery of cell-free DNA to the residual-disease and multi-cancer detection trials reading out next, with a watch list and a script that checks it against the registries
 - Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
 - Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
 
 ### 21 September 2026
+- MIMic-01 status and PATHFINDER 2 design corrected against ClinicalTrials.gov, as flagged by the roadmap watch
 - Roadmap watch for every roadmap: scripts/roadmap-watch.ts compares each roadmap's referenced trials with ClinicalTrials.gov (status, phase, enrolment within 5 percent, moved completion dates), lists Europe PMC papers since asOf, flags watch items past their expected date, writes public/roadmap-watch.json for a weekly Thursday workflow and a "Registry check" line on roadmap pages
 - A roadmap and timeline for circulating tumour DNA tests, from the 1948 discovery of cell-free DNA to the residual-disease and multi-cancer detection trials reading out next, with a watch list and a script that checks it against the registries
 - PATHFINDER 2 status and ECLIPSE enrolment corrected against ClinicalTrials.gov, as flagged by the ctDNA watch script

@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 22 September 2026
+- Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working
 - A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
 - Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
 - Four new publications found by the registry check are in, including the eight-year ADAURA survival update with its figures, and the check no longer flags screening studies
@@ -19,6 +20,10 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
 
 ### 21 September 2026
+- Phase facet test asserts the string key and the shared normaliser
+- Facet normaliser is a string key resolved in the client, not a function crossing the server boundary
+- Trial phases read "Observational study" and "Platform trial" instead of "Phase observational", from one phaseLabel helper
+- A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
 - c-TRAK TN tissue-free residual-disease assay paper added and linked from the tumour-informed assay term
 - Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
 - Four new publications found by the registry check are in, including the eight-year ADAURA survival update with its figures, and the check no longer flags screening studies

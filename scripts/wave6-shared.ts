@@ -189,8 +189,16 @@ ${papers.map(paperLine).join("\n")}
 /** Both spellings of the words Europe PMC and ClinicalTrials.gov index in US English. */
 const US_SPELLINGS: Array<[RegExp, string]> = [[/tumour/g, "tumor"], [/leukaemia/g, "leukemia"], [/haemat/g, "hemat"], [/oesophag/g, "esophag"], [/paediatric/g, "pediatric"], [/gynaecolog/g, "gynecolog"], [/anaemia/g, "anemia"]];
 export const withUsSpelling = (s: string): string[] => { const us = US_SPELLINGS.reduce((acc, [re, to]) => acc.replace(re, to), s); return us === s ? [s] : [s, us]; };
-/** A cancer name split into the diseases it lists ("Glioma & glioblastoma", "Brain and spinal cord tumours"), each with both spellings. */
-export const cancerParts = (name: string): string[] => name.replace(/\s*\(.*$/, "").split(/\s*(?:&|\/|,|\band\b|\bor\b)\s*/).map((s) => s.trim()).filter((s) => s.length >= 4 && !/^(other|cancers?|tumou?rs?)$/i.test(s)).flatMap(withUsSpelling);
+/**
+ * A cancer name, then the diseases it lists ("Glioma & glioblastoma", "Brain and spinal cord tumours"), each with both
+ * spellings. The full name always comes first (it is the registry query); fragments under five characters are dropped so
+ * "Head and neck cancer" never yields "Head".
+ */
+export const cancerParts = (name: string): string[] => {
+  const full = name.replace(/\s*\(.*$/, "").trim();
+  const parts = full.split(/\s*(?:&|\/|,|\band\b|\bor\b)\s*/).map((s) => s.trim()).filter((s) => s.length >= 5 && s !== full && !/^(other|cancers?|tumou?rs?)$/i.test(s));
+  return [...new Set([full, ...parts].flatMap(withUsSpelling))].filter((s) => s.length >= 4);
+};
 
 /**
  * Citation counts for new paper records, written into public/citations/index.json in the shape scripts/fetch-citations.ts

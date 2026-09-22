@@ -36,6 +36,9 @@ import { papersTrialsWave1 } from "./papers-trials-wave1";
 import { trialKeyPapersWave1 } from "./trial-key-papers-wave1";
 import { papersPeopleWave6 } from "./papers-people-wave6";
 import { personPapersWave6 } from "./person-papers-wave6";
+import { trialsIdeasWave6 } from "./trials-ideas-wave6";
+import { papersIdeasWave6 } from "./papers-ideas-wave6";
+import { ideaLinksWave6 } from "./idea-links-wave6";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
@@ -171,6 +174,8 @@ const RAW_INPUTS: EntityInput[] = [
   ...papersWatch202609,
   ...papersTrialsWave1,
   ...papersPeopleWave6,
+  ...papersIdeasWave6,
+  ...trialsIdeasWave6,
   ...nutrition,
   ...adcChemistry,
   ...journals,
@@ -226,6 +231,11 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((e) => {
   if (e.kind === "cancer" && !e.parent && (cancerParents[e.id] ?? cancerParentsWave2Map[e.id])) return { ...e, parent: cancerParents[e.id] ?? cancerParentsWave2Map[e.id] };
   // Key papers found for trials by scripts/fetch-trial-papers.ts (wave 1), kept in one file rather than edited into every trial file.
   if (e.kind === "trial" && trialKeyPapersWave1[e.id]) return { ...e, keyPapers: [...(e.keyPapers ?? []), ...trialKeyPapersWave1[e.id].filter((id) => !(e.keyPapers ?? []).includes(id))] };
+  // Trials and key papers found for ideas by scripts/fetch-idea-evidence.ts (wave 6).
+  if (e.kind === "idea" && ideaLinksWave6[e.id]) {
+    const w = ideaLinksWave6[e.id];
+    return { ...e, trials: [...(e.trials ?? []), ...w.trials.filter((id) => !(e.trials ?? []).includes(id))], keyPapers: [...(e.keyPapers ?? []), ...w.keyPapers.filter((id) => !(e.keyPapers ?? []).includes(id))] };
+  }
   // Papers found for people by scripts/fetch-people-papers.ts (wave 6): the person's own `papers` rows and the paper records behind them.
   if (e.kind === "person" && personPapersWave6[e.id]) {
     const w = personPapersWave6[e.id];

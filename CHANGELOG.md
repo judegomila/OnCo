@@ -7,6 +7,8 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 23 September 2026
+- Search ranks cancers and treatments first and groups results by kind
+- Search ranks cancers and treatments above journals and papers, with kind-grouped dropdowns
 - Top bar without the tagline, with the weekly bot refreshes merged
 - Top bar without the tagline
 - Top bar: drop the tagline beside the wordmark; it took space the navigation needs

@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, fronts, technologies, targets, treatments and tests, companies, institutions, people, pathways, trials, pairings, roadmaps, key papers, journals, bottlenecks and ideas, one page per object, each with a plain-English TL;DR, a technical summary, dated facts and links to primary sources. Not medical advice.
 
-15,639 records in 18 kinds: 328 cancers, 19 fronts, 590 technologies, 1,635 targets, 1,068 drugs, 1,186 companies, 710 institutions, 108 pathways, 768 terms, 4,002 trials, 86 pairings, 30 roadmaps, 1,140 ideas, 134 collections, 1,547 people, 45 bottlenecks, 1,984 key papers, 259 journals. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Facts may be incomplete or out of date: cite the OnCo page and check the primary source it links before relying on anything that matters.
+15,721 records in 19 kinds: 328 cancers, 19 fronts, 590 technologies, 1,637 targets, 1,068 drugs, 1,186 companies, 710 institutions, 108 pathways, 768 terms, 4,002 trials, 86 pairings, 30 roadmaps, 1,140 ideas, 134 collections, 1,547 people, 45 bottlenecks, 1,984 key papers, 259 journals, 80 biomarkers. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Facts may be incomplete or out of date: cite the OnCo page and check the primary source it links before relying on anything that matters.
 
 ## Licence and attribution
 
@@ -64,6 +64,7 @@
 - [Bottlenecks](https://onco.cc/bottlenecks/): The systemic constraints slowing the whole war on cancer, with the ideas that could break each one. JSON at /api/v1/bottlenecks.json
 - [Key papers](https://onco.cc/key-papers/): The papers that changed practice or thinking, each explained: what it found, what it means, and what to be careful about. JSON at /api/v1/key papers.json
 - [Journals](https://onco.cc/journals/): Where the evidence is published: the journals, their scope and access model, and the key papers each one carried. JSON at /api/v1/journals.json
+- [Biomarkers](https://onco.cc/biomarkers/): The readouts a pathology report gives (PD-L1 CPS, HER2 IHC 3+, MSI-high), each under its gene or protein, with the thresholds approvals use and the tests that measure them. JSON at /api/v1/biomarkers.json
 
 ## Start here
 
@@ -94,6 +95,7 @@
 - [Fronts](https://onco.cc/fronts/): The fronts of the war: imaging to cell therapy.
 - [Technologies](https://onco.cc/technologies/): Every way we see, measure, or attack a tumour.
 - [Targets](https://onco.cc/targets/): The molecules drugs and tracers aim at.
+- [Biomarkers](https://onco.cc/biomarkers/): PD-L1 CPS, HER2 IHC 3+, MSI-high: each readout under its gene, with the thresholds approvals use and the tests that measure it.
 - [Treatments & tests](https://onco.cc/drugs/): Approved and pipeline products, with rotating molecules.
 - [Pathways](https://onco.cc/pathways/): Signalling circuits, drawn and explained.
 - [Target dossiers](https://onco.cc/dossiers/): Everything about a target on one page: biology, prevalence, hotspots, products by phase, trials, resistance, assays, models, open questions, external ids.

@@ -7,8 +7,14 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 23 September 2026
+- Biomarker readouts under their parent genes at /biomarkers/, genome hub pages its genes
+- Gene hub pages its role sections: first 30 genes per role in the HTML, the rest from one tables file, role and evidence deep links over the full set
 - Proposals bot merges register-verified rows itself, mechanics of cancer rebuilt with 56 stage pages, mobile patterns for views where a control drives a visual
+- Regenerate target cross-references for the seven new parent targets (HGNC and ChEMBL, 23 Sept 2026)
 - Dependency map gets a touch path, and wide matrices scroll inside their own box
+- Biomarker pages: /biomarkers/ browser with gene, measurement, cancer and approval facets; readout pages with a Part of strip; target, drug, term and tumour-test pages link their readouts
+- Biomarker readouts: 80 records under 40 parent genes, thresholds quoted from FDA labels and the companion diagnostic list
+- Add the biomarker kind: schema, KIND_META, glyph, colours, nav and kind labels in nine languages
 - Mechanics atlas: a page per stage and a light journey hub
 - Cancer gene layer of 1,447 genes, open-source oncology map, evidence-backed combination proposals on the engine, daily spotlight, iodine target correction
 - LAUNCH: proposals bot, what merges itself and what waits

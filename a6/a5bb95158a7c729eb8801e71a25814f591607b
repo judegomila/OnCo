@@ -1,0 +1,58 @@
+src/app/resistance/page.tsx
+  s_0beac9cb5d78fd::t_f728e611a468e5 86-87
+src/components/ResistanceMap.tsx
+  s_0beac9cb5d78fd::t_a06c8a990f2806 77
+  s_0beac9cb5d78fd::t_2954ba35f5c8f6 65
+  s_0beac9cb5d78fd::t_cd6b26a535f4ba 53
+scripts/mobile-audit.ts
+  s_0beac9cb5d78fd::t_1a79db056eab66 7-8
+  s_0beac9cb5d78fd::t_691949678ba9ac 45-46,48-49
+  s_0beac9cb5d78fd::t_14cfd47fb1ccd1 96-97,103,108
+  s_0beac9cb5d78fd::t_a6bf43a80cb5d6 56-57
+src/components/ChooseView.tsx
+  s_0beac9cb5d78fd::t_ff86b88db1af30 73,75-76
+src/components/DealFlow.tsx
+  s_0beac9cb5d78fd::t_d01294336b15e1 116
+  s_0beac9cb5d78fd::t_1fdf4faea31d0b 5
+  s_0beac9cb5d78fd::t_fa462810ef987b 104
+  s_0beac9cb5d78fd::t_e015c643ae3f7e 85
+src/components/DagViewer.tsx
+  s_0beac9cb5d78fd::t_d502cfffa45e7b 204
+  s_0beac9cb5d78fd::t_4281a88a92d57a 175
+  s_0beac9cb5d78fd::t_ecbc13dc0c9b52 174
+  s_0beac9cb5d78fd::t_7250d999199749 123
+  s_0beac9cb5d78fd::t_954d08acbc25b1 170
+  s_0beac9cb5d78fd::t_64258fa96d660c 160,162-163
+  s_0beac9cb5d78fd::t_a6b0a4aaa7a367 87-102
+  s_0beac9cb5d78fd::t_831eec4bae08ab 217-218,222-224
+  s_0beac9cb5d78fd::t_a79fa8d6ff07f7 261
+  s_0beac9cb5d78fd::t_27e4ef4535dbc7 6-11
+docs/MOBILE.md
+  s_0beac9cb5d78fd::t_dc9fff0d526091 11
+  s_0beac9cb5d78fd::t_707699d861232c 36-39
+  s_0beac9cb5d78fd::t_7ed48c9142cdc1 29-30
+  s_0beac9cb5d78fd::t_d81c532503e98a 28
+src/components/ScrollRow.tsx
+  s_0beac9cb5d78fd::t_b7a13e9d8237b5 1-44
+src/components/mobile-patterns.test.ts
+  s_0beac9cb5d78fd::t_6bf73025f1b6cb 144
+  s_0beac9cb5d78fd::t_569fce1304c0b1 162
+  s_0beac9cb5d78fd::t_baa3f1efe6b531 14-15
+  s_0beac9cb5d78fd::t_d2279d4fb5067c 142-143,145-161
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a6a5bb95158a7c729eb8801e71a25814f591607b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

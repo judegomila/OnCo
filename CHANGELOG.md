@@ -7,7 +7,22 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 23 September 2026
+- Cancer gene layer of 1,447 genes, open-source oncology map, evidence-backed combination proposals on the engine, daily spotlight, iodine target correction
+- Cancer genes, tier 4: 389 genes associated with cancer without a proven role
+- Cancer genes, tier 3: 332 drivers called by cohort mutation analysis
+- Cancer genes, tier 2: 507 genes with clinical evidence on their variants
+- Cancer genes, tier 1: 219 genes with an approved or late-stage drug recorded against them
+- Cancer gene layer: target roles, evidence tiers and sources, fetch-cancer-genes script, genome hub and browser facets
+- Home spotlight rotates by kind each day: one hero record per kind (most connected), build day's set in the HTML, reader's day swapped in from /api/v1/spotlight.json without layout shift
+- ADC payload fields and setidegrasib note: record only what the records say
 - Open pipeline engine, tag power search pages and full-width tabs, Edge type and For you filters, API licence wording, For me browser-only notice
+- Open-source catalogue tests: unique ids, https URLs, SPDX or placeholder licences with notes, every corpus id exists, 200 sources on the generation date, curated entries generated or explained
+- Open source in oncology page: paged browser with category, licence, language, openness and activity facets, intro on how oncology is done in the open, and cross-links from technology, collection, organisation and data-source pages
+- Open-source oncology catalogue: schema, curated list of 379 projects and the fetcher that reads licence, stars and dates from the GitHub API
+- Radioactive iodine no longer linked to SSTR2: I-131 enters thyroid cells through the sodium-iodide symporter, which has no target page yet
+- Document the open pipeline: how proposals are scored, searched and contributed
+- Sixty combination proposals, each searched against trials, papers and patents
+- Schema for combination proposals: a scored, evidence-backed cell of the modular-drug grid
 - api layout: drop the entries duplicated by the engine merge
 - Record pages: full-width tab strip above both columns; tag chips open /tagged/ power-search pages
 - API page licence wording matches the footer and about page; For me says it is browser-only with a signed-in version coming

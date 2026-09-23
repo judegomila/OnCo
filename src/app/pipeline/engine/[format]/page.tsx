@@ -9,7 +9,8 @@ import { formatIndex } from "@/lib/modular";
 import { COMPONENT_LABEL, engineFile, engineRoute, engineTableId, FORMATS, formatById, STATE_META, type FormatId } from "@/lib/modular-formats";
 import { engineColumns, engineRows } from "@/lib/tables/engine";
 import { pageRows } from "@/lib/static-tables";
-import { combinationIdeas } from "@/data/combination-ideas";
+import { proposedCells, PROPOSAL_STATUS, scoreParts } from "@/lib/combination-ideas-adapter";
+import { Tip } from "@/components/Tip";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/schema";
 
@@ -40,8 +41,9 @@ export default async function EngineFormatPage({ params }: { params: Promise<{ f
   const cells: GridCell[] = f.cells.map((c) => ({ r: rowIx.get(c.a.id)!, c: colIx.get(c.b.id)!, s: c.state, n: c.drugs.length, d: c.drugs.slice(0, 3).map((d) => d.name) }));
   const table = pageRows(engineTableId(def.id), engineRows(f));
   const columns = engineColumns(f);
-  const ideas = combinationIdeas.filter((i) => i.format === def.id);
+  const { cells: ideas, unmatched: unplaced } = proposedCells(f);
   const tried = new Set(f.cells.map((c) => `${c.a.id}|${c.b.id}`));
+  const isTried = (a: string, b: string) => tried.has(`${a}|${b}`) || tried.has(`${b}|${a}`);
   const g = graph();
   const realCols = f.cols.filter((c) => c.id !== "not-recorded").length;
   const stoppedDrugs = f.drugs.filter((d) => d.state === "stopped").length;
@@ -111,21 +113,29 @@ export default async function EngineFormatPage({ params }: { params: Promise<{ f
           <section id="proposed" className="mt-12 scroll-mt-20">
             <div className="flex items-baseline justify-between gap-4 mb-3">
               <h2 className="text-lg font-semibold tracking-tight">Proposed, not yet tried</h2>
-              <span className="text-xs text-muted">{n(ideas.length)} proposal{ideas.length === 1 ? "" : "s"} from src/data/combination-ideas.ts; each with its source</span>
+              <span className="text-xs text-muted">{n(ideas.length)} proposal{ideas.length === 1 ? "" : "s"} from the <Link href="/pipeline/engine/#open-pipeline" className="underline">open pipeline</Link>, scored and searched (docs/OPEN-PIPELINE.md); hypotheses, not records of a medicine</span>
+            </div>
+            <div className="flex flex-wrap gap-1.5 mb-3 text-xs">
+              {Object.entries(PROPOSAL_STATUS).map(([k, s]) => { const count = ideas.filter((i) => i.status === k).length; return count ? <Tip key={k} title={s.label} text={s.tip}><span className={`chip ${s.chip} cursor-help`}>{s.label} <span className="tabular-nums opacity-80">{count}</span></span></Tip> : null; })}
+              {unplaced.length > 0 && <span className="chip border border-border bg-card text-muted" title={unplaced.map((u) => `${u.id}: ${u.axis} "${u.value}" ${u.why}`).join("; ")}>{unplaced.length} value{unplaced.length === 1 ? "" : "s"} not matched to the grid</span>}
             </div>
             <div className="overflow-x-auto card">
               <table className="onco text-sm">
-                <thead><tr><th>{COMPONENT_LABEL[ka]}</th><th>{COMPONENT_LABEL[kb]}</th><th>Rationale</th><th>Evidence</th><th>Now in the corpus</th></tr></thead>
+                <thead><tr><th>Score</th><th>{COMPONENT_LABEL[ka]}</th><th>{COMPONENT_LABEL[kb]}</th><th>Status</th><th>Rationale</th><th>Evidence</th><th>Now in the corpus</th></tr></thead>
                 <tbody>
                   {ideas.map((i) => {
                     const a = f.rows.find((r) => r.id === i.a), b = f.cols.find((c) => c.id === i.b);
+                    const ta = !a && g.get(i.a), tb = !b && g.get(i.b);
+                    const st = PROPOSAL_STATUS[i.status];
                     return (
-                      <tr key={i.id}>
-                        <td className="font-medium">{a?.href ? <Link href={a.href} className="hover:underline">{a.name}</Link> : a?.name ?? i.a}</td>
-                        <td>{b?.href ? <Link href={b.href} className="hover:underline">{b.name}</Link> : b?.name ?? i.b}</td>
-                        <td className="text-muted max-w-md">{i.rationale}{i.proposedBy && <span className="block text-xs mt-1">Proposed by {i.proposedBy}{i.on ? ` on ${i.on}` : ""}</span>}</td>
-                        <td><div className="flex flex-wrap gap-1.5">{i.evidence.map((ev) => <a key={ev.url} href={ev.url} rel="noopener" className="chip border border-border bg-card text-xs hover:ring-2 hover:ring-accent/30">{ev.label}</a>)}{(i.refs ?? []).map((id) => { const e = g.get(id); return e ? <Link key={id} href={routeFor(e)} className="chip border border-border bg-card text-xs hover:ring-2 hover:ring-accent/30">{e.name}</Link> : null; })}</div></td>
-                        <td>{tried.has(`${i.a}|${i.b}`) ? <Link href={`${engineRoute(def.id)}?${ka}=${encodeURIComponent(i.a)}&${kb}=${encodeURIComponent(i.b)}#table`} className="chip tone-live text-xs">Now tried: see the cell</Link> : <span className="chip border border-dashed border-border text-muted text-xs">Untried</span>}</td>
+                      <tr key={i.id} id={`proposal-${i.id}`}>
+                        <td className="tabular-nums font-semibold"><Tip title={i.name} text={scoreParts(i.score)}><span className="underline decoration-dotted decoration-foreground/30 underline-offset-[3px] cursor-help">{i.score.total}</span></Tip></td>
+                        <td className="font-medium">{a?.href ? <Link href={a.href} className="hover:underline">{a.name}</Link> : ta ? <Link href={routeFor(ta)} className="hover:underline" title="A target no medicine of this format has used yet: a new row">{ta.name}</Link> : <span title={i.unmatched.includes(i.raw.a) ? "Not matched to a grid row" : undefined} className={i.unmatched.includes(i.raw.a) ? "text-muted italic" : ""}>{a?.name ?? i.raw.a}</span>}</td>
+                        <td>{b?.href ? <Link href={b.href} className="hover:underline">{b.name}</Link> : tb ? <Link href={routeFor(tb)} className="hover:underline">{tb.name}</Link> : <span title={i.unmatched.includes(i.raw.b) ? "Not matched to a grid column" : undefined} className={i.unmatched.includes(i.raw.b) ? "text-muted italic" : ""}>{b?.name ?? i.raw.b}</span>}</td>
+                        <td>{st ? <span className={`chip ${st.chip} text-xs`} title={st.tip}>{st.label}</span> : <span className="chip border border-border text-xs">{i.statusLabel}</span>}</td>
+                        <td className="text-muted max-w-md"><span className="font-medium text-foreground">{i.name}.</span> {i.rationale}<span className="block text-xs mt-1">Caveat: {i.caveat}</span><span className="block text-xs mt-1">Proposed by {i.proposedBy}, searched {i.on}.</span></td>
+                        <td><div className="flex flex-wrap gap-1.5">{i.evidence.map((ev, k) => <a key={`${ev.url}-${k}`} href={ev.url} rel="noopener" title={ev.quote} className={`chip border border-border bg-card text-xs hover:ring-2 hover:ring-accent/30 ${ev.adjacent ? "text-muted" : ""}`}>{ev.label}</a>)}{i.refs.map((id) => { const e = g.get(id); return e ? <Link key={id} href={routeFor(e)} className="chip border border-border bg-card text-xs hover:ring-2 hover:ring-accent/30">{e.name}</Link> : null; })}{!i.evidence.length && !i.refs.length && <span className="text-xs text-muted">None found</span>}</div></td>
+                        <td>{i.matched && isTried(i.a, i.b) ? <Link href={`${engineRoute(def.id)}?${ka}=${encodeURIComponent(i.a)}&${kb}=${encodeURIComponent(i.b)}#table`} className="chip tone-live text-xs">Now tried: see the cell</Link> : <span className="chip border border-dashed border-border text-muted text-xs">Untried</span>}</td>
                       </tr>
                     );
                   })}

@@ -3,7 +3,7 @@ import { engine, evidenceRecordExists, formatFile, type FormatIndex } from "./mo
 import { CELL_STATES, COMPONENT_LABEL, FORMATS, NOT_RECORDED, type FormatId } from "./modular-formats";
 import { graph } from "./graph";
 import { engineRows, engineColumns } from "./tables/engine";
-import { combinationIdeas } from "@/data/combination-ideas";
+import { proposedByFormat } from "./combination-ideas-adapter";
 
 /**
  * The open drug engine (src/lib/modular.ts): every medicine taken apart into parts read from records, and a grid whose
@@ -198,13 +198,18 @@ describe("table, JSON and the proposals slot", () => {
     }
   });
 
-  it("keeps the combination-ideas slot typed against the engine's format and component ids", () => {
-    expect(Array.isArray(combinationIdeas)).toBe(true);
-    for (const i of combinationIdeas) {
-      const f = by(i.format);
-      expect(f, i.format).toBeDefined();
-      expect(i.evidence.length, `${i.id} needs a source`).toBeGreaterThan(0);
-      expect(i.rationale).not.toMatch(/—/);
+  it("renders the open pipeline's proposals as cells of the engine's grids, apart from the recorded cells", () => {
+    const all = proposedByFormat(e);
+    for (const [id, { cells }] of Object.entries(all)) {
+      const f = by(id as FormatId);
+      for (const c of cells) {
+        expect(c.format).toBe(f.format.id);
+        expect(c.rationale).not.toMatch(/—/);
+        expect(c.proposedBy).toBe("OnCo open pipeline");
+        expect(c.on).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+        // A proposal is a hypothesis: it never adds a drug or a cell to the recorded grid.
+        expect(f.drugs.some((d) => d.id === c.id)).toBe(false);
+      }
     }
   });
 });

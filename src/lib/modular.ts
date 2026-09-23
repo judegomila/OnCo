@@ -78,12 +78,24 @@ export type FormatIndex = {
 export type Engine = { formats: FormatIndex[]; outside: OutsideDrug[]; outsideByReason: Array<{ reason: string; count: number }>; fetched: string; drugs: number };
 
 /**
- * A combination proposed but not yet tried: the slot a sibling data file (src/data/combination-ideas.ts) fills.
- * `a` and `b` are component ids as the engine names them (a target id, a payload class id, an isotope id), so a
- * proposal lands in the grid it belongs to; `evidence` links the preclinical paper, patent or abstract that
- * makes the case, and `refs` names corpus records (an idea, a paper, a trial) that carry it.
+ * A combination proposed but not yet tried, as the format page renders it: one cell of the grid named by the ids
+ * the engine uses for its two axes. The source records live in src/data/combination-ideas.ts (validated by
+ * CombinationIdeaSchema in src/lib/schema.ts) and are mapped to this shape by src/lib/combination-ideas-adapter.ts,
+ * which also normalises their component values to the grid's row and column ids and flags those it cannot place.
  */
-export type CombinationIdea = { id: string; format: FormatId; a: string; b: string; rationale: string; evidence: Array<{ label: string; url: string }>; refs?: string[]; proposedBy?: string; on?: string };
+export type ProposedCell = {
+  id: string; format: FormatId; name: string;
+  /** Grid ids after normalisation; `raw` keeps the record's own values. */
+  a: string; b: string; raw: { a: string; b: string };
+  /** Both components resolve to a grid row or column, or to a corpus target; otherwise the unresolved value is named. */
+  matched: boolean; unmatched: string[];
+  rationale: string; caveat: string;
+  status: string; statusLabel: string;
+  score: { total: number; burden: number; worldDeaths: number; validationA: number; validationB: number; plausibility: number };
+  evidence: Array<{ label: string; url: string; quote: string; kind: string; adjacent?: boolean }>;
+  refs: string[]; cancers: string[];
+  proposedBy: string; on: string;
+};
 
 // ---------------------------------------------------------------------------------------------------------------
 // Vocabulary the decomposer reads with: regex tables, never free interpretation.
@@ -745,8 +757,8 @@ export function evidenceRecordExists(record: string, g: Graph = graph()): boolea
   return !!g.get(record);
 }
 
-/** The plain JSON an agent reads for one format: the same index without the React-only bits (there are none), with the counts first. */
-export function formatFile(f: FormatIndex): unknown {
+/** The plain JSON an agent reads for one format: the same index without the React-only bits (there are none), with the counts first; `proposed` are the open-pipeline proposals for this format (src/lib/combination-ideas-adapter.ts), hypotheses kept apart from the recorded grid. */
+export function formatFile(f: FormatIndex, proposed: ProposedCell[] = []): unknown {
   return {
     format: { id: f.format.id, name: f.format.name, blurb: f.format.blurb, axes: f.format.axes, axisLabels: f.format.axes.map((k) => COMPONENT_LABEL[k]), components: f.format.components.map((k) => ({ key: k, label: COMPONENT_LABEL[k] })) },
     counts: f.counts, coverage: f.coverage,
@@ -754,6 +766,7 @@ export function formatFile(f: FormatIndex): unknown {
     cells: f.cells, components: f.components,
     drugs: f.drugs.map((d) => ({ id: d.id, name: d.name, route: d.route, status: d.status ?? null, modality: d.modality, state: d.state, confidence: d.confidence, fields: d.fields, components: Object.fromEntries(Object.entries(d.components).map(([k, r]) => [k, { id: r!.id, name: r!.name, href: r!.href ?? null, confidence: r!.confidence, from: r!.from, detail: r!.detail ?? null }])), evidence: d.evidence, reasons: d.reasons })),
     unresolved: f.unresolved, stopped: f.stopped,
-    note: "Every state is derived from the records named in evidence; untried means no medicine in this corpus combines the two parts. CC BY-NC 4.0, attribute Data from OnCo (onco.cc). Not medical advice.",
+    proposed,
+    note: "Every state is derived from the records named in evidence; untried means no medicine in this corpus combines the two parts. Proposed cells are hypotheses from the open pipeline (docs/OPEN-PIPELINE.md), not records of a medicine. CC BY-NC 4.0, attribute Data from OnCo (onco.cc). Not medical advice.",
   };
 }

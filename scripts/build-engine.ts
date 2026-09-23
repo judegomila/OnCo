@@ -9,6 +9,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { engine, formatFile, type Engine } from "../src/lib/modular";
 import { engineFile, engineRoute } from "../src/lib/modular-formats";
+import { proposedByFormat } from "../src/lib/combination-ideas-adapter";
 
 export type EngineFile = { id: string; path: string; file: string; cells: number };
 
@@ -17,9 +18,10 @@ export function writeEngineFiles(apiDir: string, e: Engine = engine()): EngineFi
   const dir = join(apiDir, "pipeline", "engine");
   mkdirSync(dir, { recursive: true });
   const out: EngineFile[] = [];
+  const proposed = proposedByFormat(e);
   for (const f of e.formats) {
     const file = join(dir, `${f.format.id}.json`);
-    writeFileSync(file, JSON.stringify(formatFile(f)));
+    writeFileSync(file, JSON.stringify(formatFile(f, proposed[f.format.id]?.cells ?? [])));
     out.push({ id: f.format.id, path: engineFile(f.format.id), file, cells: f.cells.length });
   }
   const index = {

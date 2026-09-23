@@ -550,6 +550,9 @@ html[dir="rtl"] code, html[dir="rtl"] kbd, html[dir="rtl"] .tabular-nums { unico
   a { text-decoration: underline; }
 }
 
+/* ChooseView (src/components/ChooseView.tsx) hides one pane below lg; paper is narrower than lg, so print both. */
+@media print { [data-choose-view-pane] { display: block !important; } }
+
 /* ---- Print: strip chrome, keep content, add a running header with the date, the URL, a QR code and the disclaimer ---- */
 .print-header { display: none; }
 @media print {

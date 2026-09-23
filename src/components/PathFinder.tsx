@@ -37,9 +37,9 @@ export function PathFinder({ data, examples }: { data: PathData; examples: PathE
   const fromNode = from ? data.nodes[byId.get(from)!] : null, toNode = to ? data.nodes[byId.get(to)!] : null;
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[1fr_300px] [&>*]:min-w-0">
+    <div className="grid gap-8 lg:grid-cols-[1fr_300px] [&>*]:min-w-0" data-mobile-pattern="inline" data-mobile-view="path-finder">
       <div>
-        <div className="card p-4 flex flex-wrap items-center gap-2">
+        <div className="card p-4 flex flex-wrap items-center gap-2" data-mobile-driven>
           <span className="text-sm font-medium">From</span>
           <FacetSelect label="From" options={options} value={from} onChange={(v) => setFrom(v as string | null)} allLabel="Choose" width="w-72" />
           <span className="text-sm font-medium">to</span>
@@ -56,15 +56,15 @@ export function PathFinder({ data, examples }: { data: PathData; examples: PathE
               let prev = data.nodes[p.start];
               return (
                 <ol key={pi} className="card p-3 flex flex-wrap items-center gap-y-2 text-sm">
-                  <li><Link href={prev.route} className={`chip border ${KIND_COLOR[prev.kind]} hover:brightness-95`}>{prev.name}</Link></li>
+                  <li className="min-w-0 max-w-full"><Link href={prev.route} className={`chip border ${KIND_COLOR[prev.kind]} hover:brightness-95`}><span>{prev.name}</span></Link></li>
                   {p.hops.map((h, hi) => {
                     const n = data.nodes[h.node];
                     const label = hopLabel(h.via, h.forward, prev.kind, n.kind);
                     prev = n;
                     return (
-                      <li key={hi} className="flex items-center">
+                      <li key={hi} className="flex items-center min-w-0 max-w-full">
                         <span className="mx-1.5 text-[11px] text-muted whitespace-nowrap" aria-label={`relationship: ${label}`}>{"→"} <span className="italic">{label}</span> {"→"}</span>
-                        <Link href={n.route} className={`chip border ${KIND_COLOR[n.kind]} hover:brightness-95`}>{n.name}</Link>
+                        <Link href={n.route} className={`chip border ${KIND_COLOR[n.kind]} hover:brightness-95 min-w-0`}><span>{n.name}</span></Link>
                       </li>
                     );
                   })}
@@ -75,10 +75,12 @@ export function PathFinder({ data, examples }: { data: PathData; examples: PathE
           </div>
         )}
       </div>
-      <aside className="space-y-4">
+      {/* Below lg the examples go first, so a tap fills the From and To pickers directly beneath and the routes
+          follow inline (docs/MOBILE.md). */}
+      <aside className="space-y-4 max-lg:order-first">
         <div className="card p-3">
           <div className="kicker mb-2">Examples</div>
-          <ul className="space-y-1.5 text-sm">{examples.map((e) => <li key={`${e.from}-${e.to}`}><button type="button" onClick={() => { setFrom(e.from); setTo(e.to); }} className="text-left hover:underline">{e.label}</button></li>)}</ul>
+          <ul className="space-y-1.5 text-sm">{examples.map((e) => <li key={`${e.from}-${e.to}`}><button type="button" onClick={() => { setFrom(e.from); setTo(e.to); }} data-mobile-control className="text-left hover:underline">{e.label}</button></li>)}</ul>
         </div>
         <div className="card p-3 text-xs text-muted">Breadth-first search over every declared relationship in both directions. Fronts and the {"“"}related{"”"} field count as hops like any other, so a route through a front is shown when nothing more specific is shorter. Ties prefer routes through less-connected objects.</div>
       </aside>

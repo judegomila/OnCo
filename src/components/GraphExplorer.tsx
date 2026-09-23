@@ -21,6 +21,8 @@ const LABEL_R = 300;
 const CHIP_R = 316;
 const CENTER_R = 24;
 const PANEL_ITEMS = 6;
+/** The scene card's id: the panel's focus buttons point at it with aria-controls. */
+const SCENE_ID = "gx-scene";
 
 const COMPACT_Q = "(max-width: 639px)";
 const subscribeCompact = (cb: () => void) => { const m = window.matchMedia(COMPACT_Q); m.addEventListener("change", cb); return () => m.removeEventListener("change", cb); };
@@ -163,9 +165,11 @@ export function GraphExplorer({ data, initialFocus }: { data: GraphData; /** Nod
         </div>
       )}
 
-      <div className="flex flex-col lg:flex-row gap-4 lg:items-start">
-        {/* Scene */}
-        <div className="card relative flex-1 min-w-0 overflow-hidden" style={{ aspectRatio: `${box.W} / ${box.H}` }}>
+      <div className="flex flex-col lg:flex-row gap-4 lg:items-start" data-mobile-pattern="sticky-preview" data-mobile-view="graph-explorer">
+        {/* Scene. Below lg the panel stacks under it and its neighbour lists refocus the scene, so the scene sticks
+            under the header at no more than 40 percent of the viewport (the SVG letterboxes) while the panel
+            scrolls beneath (docs/MOBILE.md, sticky preview). */}
+        <div id={SCENE_ID} data-mobile-driven className="card relative flex-1 min-w-0 overflow-hidden max-lg:sticky max-lg:top-14 max-lg:z-20 max-lg:max-h-[40vh] max-lg:shrink-0" style={{ aspectRatio: `${box.W} / ${box.H}` }}>
           <svg viewBox={`0 0 ${box.W} ${box.H}`} className="absolute inset-0 h-full w-full select-none" role="group" aria-label={focusNode && focus !== null ? `${focusNode.name} and its ${adj[focus].length} links` : "OnCo knowledge graph: fronts and cancers"} onMouseLeave={() => { setHover(null); setTip(null); }}>
             <defs>
               {gradientKinds.map((k) => (
@@ -316,7 +320,7 @@ function Panel({ data, adj, idx, focus, onFocus, kindCounts }: { data: GraphData
           <ul className="space-y-1">
             {starts.map(({ n, i }) => (
               <li key={n.id}>
-                <button type="button" onClick={() => onFocus(i)} className="group flex w-full items-center gap-2 rounded-lg px-1.5 py-1 text-left text-sm hover:bg-surface">
+                <button type="button" onClick={() => onFocus(i)} aria-controls={SCENE_ID} data-mobile-control className="group flex w-full items-center gap-2 rounded-lg px-1.5 py-1 text-left text-sm hover:bg-surface">
                   <span className="gx-avatar inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full" style={kindStyle(n.kind)}>{glyphFor(n, "h-3.5 w-3.5")}</span>
                   <span className="min-w-0 flex-1 truncate group-hover:underline underline-offset-2">{n.name}</span>
                   <span className="text-xs text-muted tabular-nums">{num(n.degree)}</span>
@@ -356,7 +360,7 @@ function Panel({ data, adj, idx, focus, onFocus, kindCounts }: { data: GraphData
       <p className="mt-3 text-sm text-muted leading-snug">{node.blurb}</p>
       <div className="mt-3 flex flex-wrap gap-2">
         <Link href={node.route} className="btn btn-primary !h-9 text-sm">Open page →</Link>
-        {!isFocus && <button type="button" onClick={() => onFocus(idx)} className="btn !h-9 text-sm">Put in focus</button>}
+        {!isFocus && <button type="button" onClick={() => onFocus(idx)} aria-controls={SCENE_ID} className="btn !h-9 text-sm">Put in focus</button>}
       </div>
       {kinds.length > 0 && (
         <div className="mt-4 space-y-3 border-t border-border pt-3">
@@ -376,7 +380,7 @@ function Panel({ data, adj, idx, focus, onFocus, kindCounts }: { data: GraphData
                     const m = data.nodes[j];
                     return (
                       <li key={m.id} className="group flex items-center gap-1.5 text-sm">
-                        <button type="button" onClick={() => onFocus(j)} title="Put in focus" className="min-w-0 flex-1 truncate text-left rounded px-1 py-0.5 hover:bg-surface hover:underline underline-offset-2">{m.name}</button>
+                        <button type="button" onClick={() => onFocus(j)} title="Put in focus" aria-controls={SCENE_ID} data-mobile-control className="min-w-0 flex-1 truncate text-left rounded px-1 py-0.5 hover:bg-surface hover:underline underline-offset-2">{m.name}</button>
                         <Link href={m.route} aria-label={`Open ${m.name}`} className="shrink-0 rounded px-1 text-muted opacity-60 group-hover:opacity-100 hover:text-accent">↗</Link>
                       </li>
                     );

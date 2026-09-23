@@ -7,6 +7,7 @@ import { clearSheet, EMPTY_SHEET, loadSheet, saveSheet, type SheetState } from "
 import type { SheetData } from "@/lib/first-60-days";
 import { GuideIcon, type GuideIconId } from "./GuideIcon";
 import { CancerIcon } from "./CancerIcon";
+import { ChooseView, useChooseView } from "./ChooseView";
 
 const today = () => new Date().toISOString().slice(0, 10);
 
@@ -68,17 +69,17 @@ export function PrepSheet({ data }: { data: SheetData }) {
   const reset = () => { clearSheet(data.cancer.id); setSheet(EMPTY_SHEET); };
 
   const settings = [...new Set(chosen.map((q) => q.setting))];
+  // Phone layout: ticks and sheet are one pane at a time; the Sheet pill carries the running count (docs/MOBILE.md).
+  const cv = useChooseView();
 
-  return (
-    <div className="grid gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)]">
-      {/* Controls: hidden when printing */}
+  const controls = (
       <div className="no-print space-y-4">
         <div className="card p-4">
           <h2 className="font-semibold mb-1">Tick the questions to print</h2>
           <p className="text-xs text-muted mb-2">All of this cancer&apos;s questions start ticked. Untick what does not apply; ticks are kept in this browser. <button type="button" onClick={() => setShowWhy((v) => !v)} className="underline">{showWhy ? "Hide" : "Show"} why each matters</button>.</p>
-          <ul className="space-y-1.5 max-h-[28rem] overflow-y-auto pr-1">
+          <ul className="space-y-1.5 lg:max-h-[28rem] lg:overflow-y-auto pr-1">
             {data.questions.map((q) => { const k = questionKey(q); return (
-              <li key={k}><label className="flex gap-2 cursor-pointer text-sm leading-snug"><input type="checkbox" className="mt-1 shrink-0" checked={picked.has(k)} onChange={() => toggle(k)} /><span><span className="text-xs text-muted">{q.setting}: </span>{q.question}{showWhy && <span className="block text-xs text-muted">{q.why}</span>}</span></label></li>
+              <li key={k}><label className="flex gap-2 cursor-pointer text-sm leading-snug"><input type="checkbox" data-mobile-control className="mt-1 shrink-0" checked={picked.has(k)} onChange={() => toggle(k)} /><span><span className="text-xs text-muted">{q.setting}: </span>{q.question}{showWhy && <span className="block text-xs text-muted">{q.why}</span>}</span></label></li>
             ); })}
           </ul>
         </div>
@@ -97,8 +98,8 @@ export function PrepSheet({ data }: { data: SheetData }) {
           {ready && (sheet.savedAt || custom.length > 0) ? <p className="text-xs text-muted mt-2">Saved in this browser. <button type="button" onClick={reset} className="underline">Clear this sheet</button>.</p> : null}
         </div>
       </div>
-
-      {/* The sheet: what prints */}
+  );
+  const article = (
       <article className="prep-sheet card p-5 sm:p-6 print:border-0 print:p-0 print:shadow-none space-y-5" aria-label="Appointment sheet">
         <header className="flex items-start gap-3 border-b border-border pb-3">
           <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent print:hidden"><CancerIcon cancerId={data.cancer.id} className="h-6 w-6" /></span>
@@ -181,6 +182,10 @@ export function PrepSheet({ data }: { data: SheetData }) {
           <span className="no-print"> More: <Link href={`/first-60-days/${data.cancer.id}/`} className="underline">the first 60 days with {data.cancer.name}</Link>, the <Link href="/prep/" className="underline">prep pack</Link>, the <Link href="/navigator/" className="underline">navigator</Link>.</span>
         </footer>
       </article>
-    </div>
+  );
+  const onSheet = chosen.length + custom.length;
+  return (
+    <ChooseView name="prep-sheet" pane={cv.pane} onPane={cv.setPane} className="grid gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)]" choose={controls} view={article}
+      chooseLabel="Tick" viewLabel="Sheet" viewHint={`${onSheet} question${onSheet === 1 ? "" : "s"}`} />
   );
 }

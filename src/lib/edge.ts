@@ -31,11 +31,10 @@ import type { Kind } from "./schema";
 import { absoluteUrl } from "./seo";
 import { regionalApprovals } from "@/data/regional-approvals";
 import { LAW_INDEX, LAW_JURISDICTIONS } from "@/data/law-wave";
-import { EDGE_KIND_META, type EdgeKind } from "./edge-kinds";
+import { EDGE_KIND_META, edgeGroupKey, edgeGroupLabel, plainDate, type EdgeKind, type EdgePrecision } from "./edge-kinds";
 
-export { EDGE_KINDS, EDGE_KIND_META, EDGE_FILTERS, type EdgeKind } from "./edge-kinds";
+export { EDGE_KINDS, EDGE_KIND_META, edgeDateLabel, edgeGroupKey, edgeGroupLabel, plainDate, type EdgeKind, type EdgePrecision } from "./edge-kinds";
 
-export type EdgePrecision = "day" | "month" | "quarter" | "year";
 export type EdgeRef = { id: string; kind: Kind; name: string; route: string };
 export type EdgeItem = {
   /** Stable id: the source URL. */
@@ -75,24 +74,6 @@ const TOP_JOURNALS = /^(n engl j med|new england journal of medicine|nejm|lancet
 export const isTopJournal = (j?: string) => !!j && TOP_JOURNALS.test(j.trim());
 
 export const todayIso = () => new Date().toISOString().slice(0, 10);
-
-/** "2026-09-13" -> "13 September 2026". */
-export function plainDate(iso: string): string {
-  const [y, m, d] = iso.split("-").map(Number);
-  if (!y || !m || !d) return iso;
-  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
-}
-
-/** Label for an item's date at its own precision. */
-export function edgeDateLabel(it: Pick<EdgeItem, "date" | "precision">): string {
-  if (it.precision === "day") return plainDate(it.date);
-  if (it.precision === "month") { const [y, m] = it.date.split("-").map(Number); return new Date(Date.UTC(y, m - 1, 1)).toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" }); }
-  if (it.precision === "quarter") { const q = /^(\d{4})-Q([1-4])$/.exec(it.date); return q ? `Q${q[2]} ${q[1]}` : it.date; }
-  return it.date;
-}
-
-/** Group key for the day-grouped feed: the day, the month, or the year for year- and quarter-dated items. */
-export const edgeGroupKey = (it: Pick<EdgeItem, "date" | "precision">) => (it.precision === "day" || it.precision === "month" ? it.date : it.date.slice(0, 4));
 
 /** Parse the date forms the corpus uses; anything else (or a date after `today`) is rejected. */
 export function normaliseEdgeDate(raw: string | number | undefined, today = todayIso()): { date: string; precision: EdgePrecision; sortDate: string } | null {
@@ -335,11 +316,7 @@ export function edgeFeed(cap = EDGE_FEED_CAP, root = process.cwd(), today = toda
 export function groupEdge(items: EdgeItem[]): Array<{ key: string; label: string; items: EdgeItem[] }> {
   const groups = new Map<string, EdgeItem[]>();
   for (const it of items) { const k = edgeGroupKey(it); if (!groups.has(k)) groups.set(k, []); groups.get(k)!.push(it); }
-  return [...groups.entries()].sort((a, b) => b[0].localeCompare(a[0])).map(([key, xs]) => ({
-    key,
-    label: /^\d{4}-\d{2}-\d{2}$/.test(key) ? new Date(`${key}T00:00:00Z`).toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : /^\d{4}-\d{2}$/.test(key) ? `${edgeDateLabel({ date: key, precision: "month" })}, day not recorded` : `${key}, day not recorded`,
-    items: xs.sort(byScore),
-  }));
+  return [...groups.entries()].sort((a, b) => b[0].localeCompare(a[0])).map(([key, xs]) => ({ key, label: edgeGroupLabel(key), items: xs.sort(byScore) }));
 }
 
 /** Items dated to a day within the last seven days (today included), counted by kind. Coarser dates are not counted. */

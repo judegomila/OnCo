@@ -8,7 +8,7 @@ import { entityCrumbs, pageMeta } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Container, PageHeader } from "@/components/ui";
 import { CancerIcon } from "@/components/CancerIcon";
-import { ChangeKindChip, ChangesGroups, FollowLine } from "@/components/CancerChanges";
+import { ChangeKindChip, ChangesGroups, EdgeForCancerLink, FollowLine } from "@/components/CancerChanges";
 
 const CANCERS = KIND_META.cancer.route;
 
@@ -50,6 +50,7 @@ export default async function CancerChangesPage({ params }: { params: Promise<{ 
       <Container className="pb-16">
         <div className="flex flex-wrap items-center gap-1.5 mb-4" aria-label="Changes by kind">
           {(Object.keys(CHANGE_KIND_LABEL) as ChangeKind[]).filter((k) => counts.get(k)).map((k) => <span key={k} className="inline-flex items-center gap-1"><ChangeKindChip kind={k} /><span className="text-xs text-muted tabular-nums">{counts.get(k)}</span></span>)}
+          <EdgeForCancerLink cancerId={c.id} className="ml-1" />
         </div>
         <div className="mb-8"><FollowLine cancer={{ id: c.id, name: c.name, route, asOf: c.asOf }} /></div>
         {upcoming.length > 0 && <div className="mb-8"><ChangesGroups groups={[{ key: "upcoming", label: "Coming up", items: upcoming }]} /></div>}

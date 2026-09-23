@@ -794,7 +794,7 @@ function cancerTabs(c: Cancer): Tab[] {
           </li>
         ))}
       </ol>) },
-    { id: "changes", label: "What changed", count: changes.length, content: <><ChangesPreview items={changes.slice(0, 6)} total={changes.length} href={`${routeFor(c)}changes/`} /><div className="mt-4"><FollowLine cancer={{ id: c.id, name: c.name, route: routeFor(c), asOf: c.asOf }} /></div></> },
+    { id: "changes", label: "What changed", count: changes.length, content: <><ChangesPreview items={changes.slice(0, 6)} total={changes.length} href={`${routeFor(c)}changes/`} cancerId={c.id} /><div className="mt-4"><FollowLine cancer={{ id: c.id, name: c.name, route: routeFor(c), asOf: c.asOf }} /></div></> },
     { id: "pipeline", label: "In development", count: c.pipeline.length, content: <><CancerPipeline c={c} /><Block title="Open problems and what is being done"><ul className="space-y-4">{c.openProblems.map((p, i) => <li key={i}><p className="text-[15px] leading-relaxed">{withTermHovers(p, { skipId: c.id })}</p><div className="mt-2"><WhatIsBeingDoneFor text={p} cancerId={c.id} /></div></li>)}</ul></Block></> },
     { id: "trials", label: "Trials", content: <><Block title="Trials recruiting now"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>{(forMe.get("trial") ?? []).length > 0 && <Block title="Landmark trials"><ChipList items={forMe.get("trial") ?? []} /></Block>}</> },
     { id: "centres", label: "Expert centres", content: <ExpertCentres cancerId={c.id} /> },

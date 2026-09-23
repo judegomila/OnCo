@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { SearchResult } from "minisearch";
-import { loadSearch } from "@/lib/search-client";
+import { loadSearch, searchRanked } from "@/lib/search-client";
 import { MoleculeSlot } from "./MoleculeSlot";
 import { KindIcon } from "./KindIcon";
 import { NavIcon, NavItemIcon } from "./NavIcon";
@@ -126,7 +126,7 @@ export function SearchResults() {
     const { ms, byId } = await loadSearch();
     searchReady.current = true;
     if (latest.current !== value) return;
-    const lexical = ms.search(terms).slice(0, TOP) as SearchResult[];
+    const lexical: SearchResult[] = searchRanked(ms, terms, TOP);
     const lexTerms = new Map(lexical.map((h) => [String(h.id), Object.keys(h.match ?? {})]));
     const build = (index: SemanticIndex | null): Row[] => {
       const concept = index ? semanticSearch(index, terms, TOP) : [];
@@ -352,7 +352,7 @@ export function SearchResults() {
 
       <details className="mt-6 text-xs text-muted">
         <summary className="cursor-pointer">How results are ranked</summary>
-        <p className="mt-1 max-w-3xl">Two searches run in your browser. The word search matches names, aliases, TL;DRs and tags, with prefixes and small typos allowed. The concept search scores each record&apos;s full text plus the names of every object it links to, so a product can match a cancer or biomarker it treats even when its own text never uses that word. The two rankings are merged by reciprocal rank; a record found by both rises. The site&apos;s own pages are boosted so a search for a tool reaches the tool. Nothing is sent to a server.</p>
+        <p className="mt-1 max-w-3xl">Two searches run in your browser. The word search matches names, aliases, TL;DRs and tags, with prefixes and small typos allowed; its scores are then weighted by kind, cancers first, then treatments, tests, trials and the site&apos;s own pages, then targets, pathways and terms, then companies, institutions and people, then papers and journals, and a record whose name is the query rises above records that only mention it. The concept search scores each record&apos;s full text plus the names of every object it links to, so a product can match a cancer or biomarker it treats even when its own text never uses that word. The two rankings are merged by reciprocal rank; a record found by both rises. Nothing is sent to a server.</p>
       </details>
     </div>
   );

@@ -5,14 +5,17 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { searchHref } from "@/lib/search-query";
 import type { SearchDoc } from "@/lib/search-index";
-import { KIND_META } from "@/lib/kinds";
-import { KIND_COLOR } from "@/lib/text";
-import { loadSearch } from "@/lib/search-client";
+import { STATUS_LABEL, statusClass } from "@/lib/text";
+import { loadSearch, searchRanked } from "@/lib/search-client";
+import { groupByKind } from "@/lib/search-rank";
+import { KindGroupHeader } from "./KindGroupHeader";
 
 type Hit = SearchDoc & { concept?: string[] };
 
 /** Fewer than this many lexical hits triggers the concept-search fallback. */
 const FALLBACK_BELOW = 3;
+/** Rows the dropdown shows in all, across every kind group. */
+const VISIBLE = 12;
 
 export function SearchBox({ large = false, autoFocus = false }: { large?: boolean; autoFocus?: boolean }) {
   const [q, setQ] = useState("");
@@ -33,7 +36,8 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
     if (!value.trim()) { setResults([]); return; }
     loadSearch().then(async ({ ms, byId }) => {
       if (latest.current !== value) return;
-      const lexical = ms.search(value).slice(0, 12) as unknown as SearchDoc[];
+      // Every hit comes back so the grouping can pick the top rows per kind; the dropdown itself shows VISIBLE rows.
+      const lexical = searchRanked(ms, value) as SearchDoc[];
       setResults(lexical);
       if (lexical.length >= FALLBACK_BELOW) return;
       // Too few exact matches: add concept matches (paraphrases, linked names), labelled as such. The concept index
@@ -42,7 +46,7 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
       const index = await loadSemantic();
       if (!index || latest.current !== value) return;
       const seen = new Set(lexical.map((h) => h.id));
-      const extra: Hit[] = semanticSearch(index, value, 10).filter((h) => !seen.has(h.id)).map((h) => ({ ...byId.get(h.id)!, concept: h.matched.slice(0, 3) })).filter((h) => h.id).slice(0, 12 - lexical.length);
+      const extra: Hit[] = semanticSearch(index, value, 10).filter((h) => !seen.has(h.id)).map((h) => ({ ...byId.get(h.id)!, concept: h.matched.slice(0, 3) })).filter((h) => h.id).slice(0, VISIBLE - lexical.length);
       setResults([...lexical, ...extra]);
     });
   };
@@ -54,6 +58,8 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
   }, []);
 
   const placeholder = useMemo(() => "Search TROP2, Enhertu, PSMA PET, TNBC, Gustave Roussy…", []);
+  // Grouped by kind in tier order (cancers, then treatments and trials, and so on), a few rows per kind.
+  const groups = useMemo(() => groupByKind(results, VISIBLE), [results]);
   const close = () => { setOpen(false); setQ(""); setResults([]); };
 
   return (
@@ -74,18 +80,21 @@ export function SearchBox({ large = false, autoFocus = false }: { large?: boolea
           {!ready && <div className="p-3 text-sm text-muted">Loading index…</div>}
           {ready && results.length === 0 && <div className="p-3 text-sm text-muted">No matches.</div>}
           <ul>
-            {results.map((r) => (
-              <li key={r.id}>
-                <Link href={r.route} onClick={close} className="flex items-start gap-3 px-3 py-2 hover:bg-foreground/5">
-                  <span className={`chip mt-0.5 border ${(r.kind === "page" ? "border-border text-muted" : KIND_COLOR[r.kind])}`}>{(r.kind === "page" ? "Page" : KIND_META[r.kind].label)}</span>
-                  <span className="min-w-0 flex-1">
-                    <span className="block text-sm font-medium truncate">{r.name}</span>
-                    <span className="block text-xs text-muted line-clamp-2">{r.tldr}</span>
-                  </span>
-                  {r.concept && <span className="chip bg-foreground/5 text-[10px] shrink-0 mt-0.5" title={`Concept match on: ${r.concept.join(", ")}`}>concept</span>}
-                </Link>
-              </li>
-            ))}
+            {groups.map((g) => [
+              <KindGroupHeader key={`h-${g.kind}`} kind={g.kind} />,
+              ...g.items.map((r) => (
+                <li key={r.id}>
+                  <Link href={r.route} onClick={close} className="flex items-start gap-3 px-3 py-1.5 hover:bg-foreground/5">
+                    <span className="min-w-0 flex-1">
+                      <span className="block text-sm font-medium truncate">{r.name}</span>
+                      <span className="block text-xs text-muted line-clamp-2">{r.tldr}</span>
+                    </span>
+                    {r.status && <span className={`chip shrink-0 mt-0.5 ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span>}
+                    {r.concept && <span className="chip bg-foreground/5 text-[10px] shrink-0 mt-0.5" title={`Concept match on: ${r.concept.join(", ")}`}>concept</span>}
+                  </Link>
+                </li>
+              )),
+            ])}
           </ul>
           <div className="flex flex-wrap gap-x-4 gap-y-1 border-t border-border px-3 py-2 text-xs">
             <Link href={`/search/?q=${encodeURIComponent(q.trim())}`} onClick={close} className="underline">All results and why they match</Link>

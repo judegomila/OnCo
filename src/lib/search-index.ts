@@ -2,7 +2,7 @@ import { graph } from "./graph";
 import { NAV_GROUPS } from "./nav";
 import { routeFor, type Kind } from "./kinds";
 
-export type SearchDoc = { id: string; kind: Kind | "page"; name: string; aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string };
+export type SearchDoc = { id: string; kind: Kind | "page"; name: string; /** Aliases, one per line: MiniSearch tokenises on the newline as it does on a space, and the ranking can still tell "Breast cancer in men" from a lone "Breast". */ aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string };
 
 /** Pages outside the navigation groups that a search should still reach. */
 export const SITE_PAGES: ReadonlyArray<{ href: string; label: string; blurb: string }> = [
@@ -30,7 +30,7 @@ export function searchDocs(): SearchDoc[] {
     id: e.id,
     kind: e.kind,
     name: e.name,
-    aka: e.aka.join(" "),
+    aka: e.aka.join("\n"),
     tldr: e.tldr,
     tags: e.tags.join(" "),
     route: routeFor(e),

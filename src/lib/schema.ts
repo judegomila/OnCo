@@ -505,3 +505,98 @@ export type BottleneckInput = z.input<typeof BottleneckSchema>;
 export type PaperInput = z.input<typeof PaperSchema>;
 export type JournalInput = z.input<typeof JournalSchema>;
 export type EntityInput = z.input<typeof EntitySchema>;
+
+/* ------------------------------------------------------------------------------------------------
+ * Combination proposals (the open pipeline, /pipeline/engine/).
+ *
+ * A CombinationIdea is a hypothesis, not a corpus entity: a cell of the modular-drug permutation
+ * space (ADC target x payload class, radioligand target x isotope, CAR-T target x costimulatory
+ * domain, bispecific target A x target B, degrader target x E3 ligase) where both components are
+ * validated but no corpus drug combines them. Each row carries the score that ranked it, the
+ * corpus records its rationale rests on, and every piece of public evidence found that a company
+ * or group may already be testing it. Evidence rows quote a fetched source; a row with none says so.
+ * See docs/OPEN-PIPELINE.md for the scoring formula and the search method.
+ * ---------------------------------------------------------------------------------------------- */
+
+export const COMBINATION_FORMATS = ["adc", "radioligand", "car-t", "bispecific", "degrader"] as const;
+export type CombinationFormat = (typeof COMBINATION_FORMATS)[number];
+
+export const COMBINATION_EVIDENCE_KINDS = ["trial", "paper", "patent", "company-page"] as const;
+export type CombinationEvidenceKind = (typeof COMBINATION_EVIDENCE_KINDS)[number];
+
+export const COMBINATION_STATUSES = ["no public evidence", "preclinical evidence", "clinical evidence", "already in development (missed by decomposer)"] as const;
+export type CombinationStatus = (typeof COMBINATION_STATUSES)[number];
+
+/** How strongly a component is validated: by an approved drug, by a phase-3, phase-2 or phase-1/2 programme, or not at all. */
+export const COMPONENT_VALIDATION_LEVELS = ["approved", "phase-3", "phase-2", "phase-1-2", "none"] as const;
+export type ComponentValidationLevel = (typeof COMPONENT_VALIDATION_LEVELS)[number];
+
+/** One fetched source. `source` is the identifier (NCT number, PMID or DOI, patent publication number, page title); `quote` is a verbatim sentence from it. */
+export const CombinationEvidenceSchema = z.object({
+  kind: z.enum(COMBINATION_EVIDENCE_KINDS),
+  source: z.string().min(1),
+  url: z.string().url().regex(/^https:\/\//, "evidence urls must be https"),
+  date: isoDate,
+  quote: z.string().min(1),
+  /** Sponsor, assignee or author group named in the source. */
+  sponsor: z.string().min(1).optional(),
+  /** Reviewer's note: what this source does and does not show (e.g. "programme discontinued 2019"). */
+  note: z.string().optional(),
+  /** True when the source tests a neighbouring cell (same target, different partner component): kept for context, it does not set `status`. */
+  adjacent: z.boolean().optional(),
+});
+export type CombinationEvidence = z.infer<typeof CombinationEvidenceSchema>;
+
+const ComponentValidationSchema = z.object({
+  level: z.enum(COMPONENT_VALIDATION_LEVELS),
+  /**
+   * Corpus drug ids that establish the level. Empty when the level rests on a fetched source instead of a
+   * corpus record (a component the corpus does not yet cover, such as the VHL E3 ligase); the `evidence`
+   * array must then carry the row that establishes it, which a test enforces.
+   */
+  via: z.array(id).default([]),
+});
+
+export const CombinationIdeaSchema = z.object({
+  id,
+  format: z.enum(COMBINATION_FORMATS),
+  /** Human name of the construct, e.g. "PSMA ADC with a topoisomerase-I payload". */
+  name: z.string().min(1),
+  /**
+   * Components keyed by axis. Keys per format: adc -> target, payloadClass; radioligand -> target, isotope;
+   * car-t -> target, costimulatoryDomain; bispecific -> targetA, targetB; degrader -> target, e3Ligase.
+   * Values are corpus ids where one exists (targets, payload-class terms, cereblon, cd28) and stable kebab-case
+   * keys otherwise (lutetium-177, actinium-225, yttrium-90, iodine-131, lead-212, 4-1bb, vhl).
+   */
+  components: z.record(z.string(), z.string().min(1)),
+  targets: z.array(id).min(1),
+  cancers: z.array(id).min(1),
+  /** Two plain-English sentences; every claim names the corpus record it rests on in parentheses. */
+  rationale: z.string().min(1),
+  /** Why the pairing is or is not plausible on first principles (internalisation, tumour restriction, antigen homogeneity, ligase expression). */
+  plausibilityNote: z.string().min(1),
+  validation: z.object({ a: ComponentValidationSchema, b: ComponentValidationSchema }),
+  /** Score out of 100 = burden (0-40) + validationA (0-15) + validationB (0-15) + plausibility (0-30). docs/OPEN-PIPELINE.md gives the formula. */
+  score: z.object({
+    total: z.number().int().min(0).max(100),
+    burden: z.number().int().min(0).max(40),
+    /** World deaths in 2022 (GLOBOCAN) summed over the distinct sites of `cancers`; the input to `burden`. */
+    worldDeaths: z.number().int().min(0),
+    validationA: z.number().int().min(0).max(15),
+    validationB: z.number().int().min(0).max(15),
+    plausibility: z.number().int().min(0).max(30),
+  }),
+  evidence: z.array(CombinationEvidenceSchema).default([]),
+  status: z.enum(COMBINATION_STATUSES),
+  /** What would need to be true for this to work: the caveat a reader should carry away. */
+  caveat: z.string().min(1),
+  /** Corpus drug ids that already occupy this cell but whose record lacks the field the decomposer needs (payload, ligase). */
+  decomposerMissed: z.array(id).default([]),
+  /** Every corpus id the rationale and plausibility note cite, so a test can check they resolve. */
+  refs: z.array(id).default([]),
+  /** The search that produced `evidence`: when it ran and the query strings, so anyone can repeat it. */
+  searched: z.object({ on: isoDate, ctgov: z.array(z.string()), europepmc: z.array(z.string()), patents: z.array(z.string()) }),
+  asOf: isoDate,
+});
+export type CombinationIdea = z.infer<typeof CombinationIdeaSchema>;
+export type CombinationIdeaInput = z.input<typeof CombinationIdeaSchema>;

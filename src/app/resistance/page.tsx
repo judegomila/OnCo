@@ -83,7 +83,8 @@ export default function ResistancePage() {
                         <h3 className="flex items-center gap-2 font-semibold"><CategoryDot category={cat.id} size={10} /> {cat.label} <span className="text-muted font-normal text-sm">× {items.length}</span></h3>
                         <span className="text-xs text-muted">{cat.oneLiner}</span>
                       </div>
-                      <div className="grid gap-3 md:grid-cols-2">
+                      {/* min-w-0 on the cards: a long reference chip must not widen the track (and the page) at 390 px; the chip clips instead. */}
+                      <div className="grid gap-3 md:grid-cols-2 [&>*]:min-w-0">
                         {items.map(([m, i]) => <MechanismCard key={ids[i]} m={m} id={ids[i]} />)}
                       </div>
                     </CategoryScope>

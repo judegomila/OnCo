@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { HOLD_CLASS, HOLD_LABEL, irae, IRAE_SOURCES, type Grade } from "@/data/irae";
 import { PrintButton } from "@/components/PrintButton";
+import { ChooseView, useChooseView } from "@/components/ChooseView";
 
 /**
  * Organ selector with a printable management card per organ system. The chosen organ lives in the URL hash so a
@@ -18,20 +19,21 @@ export function IraeGuide({ icis }: { icis: IciLite[] }) {
     const raf = requestAnimationFrame(() => { const h = window.location.hash.replace(/^#/, ""); if (irae.some((e) => e.id === h)) setOrgan(h); });
     return () => cancelAnimationFrame(raf);
   }, []);
-  const pick = (id: string) => { setOrgan(id); window.history.replaceState(window.history.state, "", `#${id}`); };
+  // Phone layout: organ list and card are one pane at a time; picking an organ shows the card (docs/MOBILE.md).
+  const cv = useChooseView();
+  const pick = (id: string) => { setOrgan(id); cv.showView(); window.history.replaceState(window.history.state, "", `#${id}`); };
   const e = useMemo(() => irae.find((x) => x.id === organ) ?? irae[0], [organ]);
   const systems = useMemo(() => [...new Set(irae.map((x) => x.organ))], []);
   const shown = grade ? e.grades.filter((g) => g.grade === grade) : e.grades;
 
-  return (
-    <div className="grid gap-6 lg:grid-cols-[280px_1fr]">
-      <aside className="no-print lg:sticky lg:top-20 self-start max-h-[85vh] overflow-auto pr-1">
+  const chooser = (
+      <aside className="no-print lg:sticky lg:top-20 self-start lg:max-h-[85vh] lg:overflow-auto pr-1">
         {systems.map((s) => (
           <div key={s} className="mb-3">
             <div className="kicker mb-1">{s}</div>
             <ul className="space-y-0.5">
               {irae.filter((x) => x.organ === s).map((x) => (
-                <li key={x.id}><button type="button" onClick={() => pick(x.id)} aria-pressed={x.id === organ} className={`w-full text-left rounded-md px-2 py-1.5 text-sm ${x.id === organ ? "bg-accent/10 text-accent font-medium" : "hover:bg-foreground/5"}`}>{x.event}</button></li>
+                <li key={x.id}><button type="button" onClick={() => pick(x.id)} aria-pressed={x.id === organ} data-mobile-control className={`w-full text-left rounded-md px-2 py-1.5 text-sm ${x.id === organ ? "bg-accent/10 text-accent font-medium" : "hover:bg-foreground/5"}`}>{x.event}</button></li>
               ))}
             </ul>
           </div>
@@ -39,11 +41,12 @@ export function IraeGuide({ icis }: { icis: IciLite[] }) {
         <div className="mt-4">
           <div className="kicker mb-1">Grade filter</div>
           <div role="radiogroup" aria-label="Grade" className="inline-flex rounded-lg border border-border bg-card p-0.5 text-sm">
-            {([0, 1, 2, 3, 4] as const).map((g) => <button key={g} type="button" role="radio" aria-checked={grade === g} onClick={() => setGrade(g)} className={`rounded-md px-2.5 py-1 ${grade === g ? "bg-foreground text-background" : "hover:bg-foreground/5"}`}>{g === 0 ? "All" : `G${g}`}</button>)}
+            {([0, 1, 2, 3, 4] as const).map((g) => <button key={g} type="button" role="radio" aria-checked={grade === g} onClick={() => { setGrade(g); cv.showView(); }} className={`rounded-md px-2.5 py-1 ${grade === g ? "bg-foreground text-background" : "hover:bg-foreground/5"}`}>{g === 0 ? "All" : `G${g}`}</button>)}
           </div>
         </div>
       </aside>
-
+  );
+  const card = (
       <article className="card p-5 sm:p-6" id={e.id}>
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
@@ -81,6 +84,9 @@ export function IraeGuide({ icis }: { icis: IciLite[] }) {
         </div>
         <p className="mt-3 text-[11px] text-muted">Steroid tapers are over at least 4-6 weeks; give PJP prophylaxis above 20 mg prednisone-equivalent for over 4 weeks, gastric protection and bone protection; screen for HBV and TB before infliximab. General rule across guidelines: grade 2 hold and resume at grade 1 on 10 mg/day or less; grade 4 permanently discontinue except endocrinopathies controlled by replacement. Not medical advice. Sources: {Object.values(IRAE_SOURCES).map((s) => s.label.split(" (")[0]).join(", ")}.</p>
       </article>
-    </div>
+  );
+  return (
+    <ChooseView name="irae-guide" pane={cv.pane} onPane={cv.setPane} className="grid gap-6 lg:grid-cols-[280px_1fr]" choose={chooser} view={card}
+      chooseLabel="Choose" viewLabel="Card" viewHint={e.organ} />
   );
 }

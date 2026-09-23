@@ -79,6 +79,7 @@
     "propose": "tsx scripts/propose-updates.ts",
     "build:feeds": "tsx scripts/build-feeds.ts",
     "a11y": "tsx scripts/a11y.ts",
+    "audit:mobile": "tsx scripts/mobile-audit.ts",
     "i18n:coverage": "tsx scripts/i18n-coverage.ts",
     "translation:coverage": "tsx scripts/translation-coverage.ts",
     "translate:summaries": "tsx scripts/translate-summaries.ts",

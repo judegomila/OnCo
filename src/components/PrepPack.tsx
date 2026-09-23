@@ -7,6 +7,7 @@ import { clearPrep, EMPTY_PREP, groupBySetting, loadPrep, prepFileName, question
 import { FacetSelect } from "./filters/FacetSelect";
 import { PrintButton } from "./PrintButton";
 import { CancerIcon } from "./CancerIcon";
+import { ChooseView, useChooseView } from "./ChooseView";
 
 export type PrepCancer = { id: string; name: string; group: string; route: string; source: "handwritten" | "generated"; questions: PrepQuestion[] };
 export type PrepData = { cancers: PrepCancer[]; lines: Record<string, { name: string; route: string }> };
@@ -75,12 +76,13 @@ export function PrepPack({ data }: { data: PrepData }) {
   const reset = () => { clearPrep(); setState(EMPTY_PREP); };
 
   const cancerOptions = data.cancers.map((c) => ({ value: c.id, label: c.name, group: c.group[0].toUpperCase() + c.group.slice(1) }));
+  // Phone layout: builder and pack are one pane at a time behind "Build" and "Pack" pills; each tick updates the
+  // count on the Pack pill (docs/MOBILE.md). The builder's own toolbar only sticks on desktop, where there is one bar.
+  const cv = useChooseView();
 
-  return (
-    <div className="grid gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
-      {/* Builder: hidden when printing */}
+  const builder = (
       <div className="no-print">
-        <div className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 bg-background/95 backdrop-blur border-b border-border flex flex-wrap items-center gap-2">
+        <div className="lg:sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 bg-background/95 backdrop-blur border-b border-border flex flex-wrap items-center gap-2">
           <FacetSelect label="Cancer type" options={cancerOptions} value={cancerId ?? null} onChange={(v) => commit({ cancerId: (v as string | null) ?? undefined, picked: [] })} allLabel="Choose" placeholder="Search cancers…" width="w-72" />
           {cancer && <button type="button" onClick={() => setGroup(cancer.questions, picked.size < cancer.questions.length)} className="text-sm underline text-muted">{picked.size < cancer.questions.length ? "Tick all" : "Untick all"}</button>}
           {ready && (state.cancerId || state.picked.length || state.custom.length || state.notes) ? <button type="button" onClick={reset} className="text-sm underline text-muted">Start again</button> : null}
@@ -93,7 +95,7 @@ export function PrepPack({ data }: { data: PrepData }) {
             <div className="kicker mt-8 mb-2">Or tap one</div>
             <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
               {data.cancers.map((c) => (
-                <button key={c.id} type="button" onClick={() => commit({ cancerId: c.id, picked: [] })} className="card p-3 text-left hover:shadow-md transition flex gap-3">
+                <button key={c.id} type="button" onClick={() => commit({ cancerId: c.id, picked: [] })} data-mobile-control className="card p-3 text-left hover:shadow-md transition flex gap-3">
                   <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={c.id} className="h-6 w-6" /></span>
                   <span className="min-w-0"><span className="block text-xs text-muted capitalize">{c.group}</span><span className="block font-medium leading-snug">{c.name}</span><span className="block text-xs text-muted mt-0.5">{c.questions.length} questions{c.source === "handwritten" ? ", hand-written" : ""}</span></span>
                 </button>
@@ -119,7 +121,7 @@ export function PrepPack({ data }: { data: PrepData }) {
                       return (
                         <li key={k}>
                           <label className="flex gap-3 cursor-pointer">
-                            <input type="checkbox" className="mt-1 shrink-0" checked={picked.has(k)} onChange={() => toggle(q)} />
+                            <input type="checkbox" className="mt-1 shrink-0" checked={picked.has(k)} onChange={() => toggle(q)} data-mobile-control />
                             <span className="text-[15px] leading-snug">{q.question}<span className="block text-xs text-muted mt-0.5">{q.why}</span></span>
                           </label>
                         </li>
@@ -161,8 +163,8 @@ export function PrepPack({ data }: { data: PrepData }) {
           </div>
         )}
       </div>
-
-      {/* The pack itself: what prints */}
+  );
+  const pack = (
       <div>
         <div className="lg:sticky lg:top-20">
           <div className="no-print flex flex-wrap items-center gap-3 mb-3 text-sm">
@@ -205,6 +207,9 @@ export function PrepPack({ data }: { data: PrepData }) {
           </article>
         </div>
       </div>
-    </div>
+  );
+  return (
+    <ChooseView name="prep-pack" pane={cv.pane} onPane={cv.setPane} className="grid gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]" choose={builder} view={pack}
+      chooseLabel="Build" viewLabel="Pack" viewHint={`${total} question${total === 1 ? "" : "s"}`} />
   );
 }

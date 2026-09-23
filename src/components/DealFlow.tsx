@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { DEAL_REGIONS, DEAL_REGION_COLOR as REGION_COLOR, type DealFlowItem } from "@/lib/deal-regions";
+import { ScrollRow } from "./ScrollRow";
 
 const TAU = Math.PI * 2;
 const R = 150, INNER = 132, C = 190;
@@ -25,6 +26,9 @@ function ribbonPath(a0: number, a1: number, b0: number, b1: number): string {
  * Chord diagram of deal flow between regions (seller or licensor region to buyer or licensee region), with a
  * year range filter. Each ribbon is one or more deals; hover for the list. Pure SVG, no dependencies.
  */
+/** The deal list's id: the drawing points at it with aria-controls. */
+const DETAIL_ID = "deal-flow-detail";
+
 export function DealFlow({ flows }: { flows: DealFlowItem[] }) {
   const years = useMemo(() => [...new Set(flows.map((f) => f.year))].sort(), [flows]);
   const [from, setFrom] = useState<number>(years[0] ?? 2015);
@@ -78,11 +82,11 @@ export function DealFlow({ flows }: { flows: DealFlowItem[] }) {
         <select value={to} onChange={(e) => { const v = Number(e.target.value); setTo(v); if (v < from) setFrom(v); }} className="rounded-lg border border-border bg-card px-2 py-1 text-sm" aria-label="To year">{years.map((y) => <option key={y} value={y}>{y}</option>)}</select>
         <span className="ml-auto text-muted">{active.length} {active.length === 1 ? "deal" : "deals"}</span>
       </div>
-      <div className="grid gap-4 md:grid-cols-[380px_1fr] items-start">
-        <svg viewBox={`-52 0 ${C * 2 + 104} ${C * 2}`} role="img" aria-label="Deal flow between regions" className="w-full max-w-[380px] mx-auto">
+      <div className="grid gap-4 md:grid-cols-[380px_1fr] items-start [&>*]:min-w-0" data-mobile-pattern="inline" data-mobile-view="deal-flow">
+        <svg viewBox={`-52 0 ${C * 2 + 104} ${C * 2}`} role="img" aria-label="Deal flow between regions" aria-controls={DETAIL_ID} className="w-full max-w-[380px] mx-auto">
           {geometry.ribbons.map((r) => (
             <path key={r.key} d={r.d} fill={REGION_COLOR[DEAL_REGIONS[r.i]]} fillOpacity={hover && hover !== r.key ? 0.12 : 0.55} stroke={REGION_COLOR[DEAL_REGIONS[r.i]]} strokeOpacity={0.6} strokeWidth={0.5}
-              onMouseEnter={() => setHover(r.key)} onMouseLeave={() => setHover(null)} onFocus={() => setHover(r.key)} onBlur={() => setHover(null)} tabIndex={0} className="cursor-pointer outline-none">
+              onMouseEnter={() => setHover(r.key)} onMouseLeave={() => setHover(null)} onFocus={() => setHover(r.key)} onBlur={() => setHover(null)} tabIndex={0} data-mobile-control className="cursor-pointer outline-none">
               <title>{`${DEAL_REGIONS[r.i]} to ${DEAL_REGIONS[r.j]}: ${r.n} ${r.n === 1 ? "deal" : "deals"}`}</title>
             </path>
           ))}
@@ -94,8 +98,10 @@ export function DealFlow({ flows }: { flows: DealFlowItem[] }) {
           ))}
           {!geometry.sum && <text x={C} y={C} textAnchor="middle" style={{ fontSize: 13, fill: "var(--muted)" }}>No deals in this range</text>}
         </svg>
-        <div className="text-sm">
-          <div className="overflow-x-auto">
+        {/* Below md the deal list for the tapped ribbon comes first, directly under the drawing, and the matrix
+            follows (docs/MOBILE.md, inline). */}
+        <div className="text-sm flex flex-col">
+          <ScrollRow label="Region matrix">
             <table className="onco">
               <thead><tr><th>From \ To</th>{DEAL_REGIONS.map((r) => <th key={r}>{r}</th>)}</tr></thead>
               <tbody>
@@ -107,8 +113,8 @@ export function DealFlow({ flows }: { flows: DealFlowItem[] }) {
                 ))}
               </tbody>
             </table>
-          </div>
-          <div className="mt-3 min-h-[5rem] text-xs text-muted">
+          </ScrollRow>
+          <div id={DETAIL_ID} aria-live="polite" data-mobile-driven className="mt-3 min-h-[5rem] text-xs text-muted max-md:order-first max-md:mt-0 max-md:mb-3">
             {hovered ? (
               <div><div className="font-medium text-foreground mb-1">{DEAL_REGIONS[hovered.i]} to {DEAL_REGIONS[hovered.j]}</div><ul className="space-y-0.5">{hovered.list.map((d) => <li key={d.id}><a href={`#${d.id}`} className="hover:underline">{d.year}: {d.label}</a> <span className="text-muted/70">({d.type})</span></li>)}</ul></div>
             ) : <p>Rows are the seller or licensor region, columns the buyer or licensee region. Hover a ribbon or a cell to list the deals. Ribbons are counts of deals, not values, because headline values mix upfront cash with contingent milestones.</p>}

@@ -50,7 +50,7 @@ export function ResistanceMap({ drugLabel, exemplarCount, routes, details }: { d
         .res-spin-${uid} { animation: res-spin-${uid} 90s linear infinite; }
         .res-spin-rev-${uid} { animation: res-spin-${uid} 140s linear infinite reverse; }
       `}</style>
-      <div className="grid lg:grid-cols-[minmax(0,1fr)_280px]">
+      <div className="grid lg:grid-cols-[minmax(0,1fr)_280px]" data-mobile-pattern="inline" data-mobile-view="resistance-map">
         <div className="p-2 sm:p-3">
           <div className="hidden sm:block">
             <Diagram uid={uid} compact={false} drugLabel={drugLabel} exemplarCount={exemplarCount} routes={routes} focus={focus} open={open} highlight={highlight} reduced={reduced}
@@ -62,7 +62,7 @@ export function ResistanceMap({ drugLabel, exemplarCount, routes, details }: { d
             <ol className="mt-2 space-y-1 text-xs">
               {routes.map((r, i) => (
                 <li key={i}>
-                  <button type="button" onClick={() => setOpen((cur) => (cur === i ? null : i))} aria-expanded={open === i} className={`w-full text-left flex items-baseline gap-2 rounded px-1 py-0.5 ${open === i ? "bg-foreground/5" : ""}`}>
+                  <button type="button" onClick={() => setOpen((cur) => (cur === i ? null : i))} aria-expanded={open === i} data-mobile-control className={`w-full text-left flex items-baseline gap-2 rounded px-1 py-0.5 ${open === i ? "bg-foreground/5" : ""}`}>
                     <span className="inline-flex shrink-0 items-center justify-center w-4 h-4 rounded-full text-[10px] font-bold text-white" style={{ background: CATEGORY_BY_ID[r.category].color }}>{i + 1}</span>
                     <span className="font-medium leading-snug">{r.name}</span>
                     {r.frequency && <span className="text-muted">· {r.frequency}</span>}
@@ -74,7 +74,7 @@ export function ResistanceMap({ drugLabel, exemplarCount, routes, details }: { d
         </div>
 
         {/* Side caption */}
-        <aside className="border-t lg:border-t-0 lg:border-l border-border p-4 text-sm min-h-[7rem]" aria-live="polite">
+        <aside className="border-t lg:border-t-0 lg:border-l border-border p-4 text-sm min-h-[7rem]" aria-live="polite" data-mobile-driven>
           {current ? (
             <>
               <div className="flex items-center gap-2 text-xs font-semibold" style={{ color: CATEGORY_BY_ID[current.category].color }}>

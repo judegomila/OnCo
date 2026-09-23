@@ -7,6 +7,7 @@ import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { complete, describe as describeGql, GqlError, parse, run as runGql, type GqlData, type GqlNode, type Query } from "@/lib/gql";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column } from "./filters/ResultsTable";
+import { ChooseView, useChooseView } from "./ChooseView";
 
 export type QNode = GqlNode;
 export type QueryData = GqlData;
@@ -125,7 +126,9 @@ export function QueryBuilder({ data }: { data: QueryData }) {
   const update = (i: number, patch: Partial<Clause>) => setClauses((cs) => cs.map((c, k) => (k === i ? ({ ...c, ...patch } as Clause) : c)));
   const remove = (i: number) => setClauses((cs) => cs.filter((_, k) => k !== i));
   const add = (type: Clause["type"]) => setClauses((cs) => [...cs, type === "linked-kind" ? { type, not: false, kind: "drug" } : type === "linked-id" ? { type, not: false, id: "tnbc" } : type === "status" ? { type, not: false, values: [] } : type === "tag" ? { type, not: false, tag: tags[0] ?? "" } : { type, not: false, text: "" }]);
-  const load = (q: SavedQuery) => { setKind(q.kind); setClauses(q.clauses); setTitle(q.title); setMode("form"); };
+  // Phone layout: saved queries and the query with its results are one pane at a time; loading one shows the results.
+  const cv = useChooseView();
+  const load = (q: SavedQuery) => { setKind(q.kind); setClauses(q.clauses); setTitle(q.title); setMode("form"); cv.showView(); };
 
   const describe = (c: Clause) => c.type === "linked-kind" ? `${c.not ? "no" : "has"} linked ${KIND_META[c.kind].label.toLowerCase()}${c.status ? ` with status ${STATUS_LABEL[c.status] ?? c.status}` : ""}` : c.type === "linked-id" ? `${c.not ? "not" : ""} linked to ${data.nodes[index.get(c.id) ?? -1]?.name ?? c.id}` : c.type === "status" ? `status ${c.not ? "not " : ""}in {${c.values.map((v) => STATUS_LABEL[v] ?? v).join(", ") || "any"}}` : c.type === "tag" ? `${c.not ? "no" : "has"} tag ${c.tag}` : `text ${c.not ? "does not contain" : "contains"} "${c.text}"`;
 
@@ -143,19 +146,20 @@ export function QueryBuilder({ data }: { data: QueryData }) {
   const noun = resultKinds.length === 1 ? KIND_META[resultKinds[0]].plural : "objects";
   const shareUrl = mode === "text" && text.trim() ? `/query/?q=${encodeURIComponent(text.trim())}` : null;
 
-  return (
-    <div className="grid gap-8 lg:grid-cols-[300px_1fr] [&>*]:min-w-0">
+  const chooser = (
       <aside className="space-y-4">
         <div className="card p-3">
           <div className="kicker mb-2">Saved queries</div>
-          <ul className="space-y-1 text-sm">{EXAMPLES.map((q) => <li key={q.title}><button type="button" onClick={() => load(q)} className={`text-left hover:underline ${mode === "form" && title === q.title ? "font-medium" : ""}`}>{q.title}</button></li>)}</ul>
+          <ul className="space-y-1 text-sm">{EXAMPLES.map((q) => <li key={q.title}><button type="button" onClick={() => load(q)} data-mobile-control className={`text-left hover:underline ${mode === "form" && title === q.title ? "font-medium" : ""}`}>{q.title}</button></li>)}</ul>
         </div>
         <div className="card p-3">
           <div className="kicker mb-2">Multi-hop (text mode)</div>
-          <ul className="space-y-1 text-sm">{TEXT_EXAMPLES.map((q) => <li key={q.q}><button type="button" onClick={() => { setText(q.q); setMode("text"); }} className={`text-left hover:underline ${mode === "text" && text === q.q ? "font-medium" : ""}`}>{q.title}</button></li>)}</ul>
+          <ul className="space-y-1 text-sm">{TEXT_EXAMPLES.map((q) => <li key={q.q}><button type="button" onClick={() => { setText(q.q); setMode("text"); cv.showView(); }} className={`text-left hover:underline ${mode === "text" && text === q.q ? "font-medium" : ""}`}>{q.title}</button></li>)}</ul>
         </div>
         <div className="card p-3 text-xs text-muted">Queries run in the browser over the compact graph (nodes, undirected links, status, tags). &quot;Linked&quot; means any relationship in either direction.</div>
       </aside>
+  );
+  const result = (
       <div>
         <div className="flex items-center gap-2 mb-3 text-sm">
           <span className="text-muted">Mode</span>
@@ -222,6 +226,9 @@ export function QueryBuilder({ data }: { data: QueryData }) {
         <Toolbar count={rows.length} noun={noun} left={<span className={`chip border ${resultKinds.length === 1 ? KIND_COLOR[resultKinds[0]] : "bg-foreground/5 border-border"}`}>{mode === "form" ? title : "Text query"}</span>} right={shareUrl ? <Link href={shareUrl} className="underline">share link</Link> : undefined} />
         <ResultsTable columns={columns} rows={rows} rowKey={(r) => r.id} empty={mode === "text" && parsed.error ? "Fix the query to see results." : "No objects match all clauses."} />
       </div>
-    </div>
+  );
+  return (
+    <ChooseView name="query-builder" pane={cv.pane} onPane={cv.setPane} className="grid gap-8 lg:grid-cols-[300px_1fr] [&>*]:min-w-0" choose={chooser} view={result}
+      chooseLabel="Saved queries" viewLabel="Results" viewHint={`${rows.length} ${noun}`} />
   );
 }

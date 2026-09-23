@@ -13,6 +13,8 @@ type Mode = "cancers" | "technologies";
 type Sex = "female" | "male";
 
 const W = 400, H = 980;
+/** The detail panel's id: every organ and system-wide chip points at it with aria-controls. */
+const DETAIL_ID = "body-detail";
 
 const CSS = `
 .bm-figure { color: var(--foreground); }
@@ -52,7 +54,7 @@ export function BodyMap({ regions, cancers, technologies }: Props) {
   const elbowX = (side: "L" | "R") => (side === "L" ? 92 : W - 92);
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[440px_1fr]">
+    <div className="grid gap-6 lg:grid-cols-[440px_1fr]" data-mobile-pattern="sticky-preview" data-mobile-view="body-map">
       <style>{CSS}</style>
       <div ref={figure} data-motion-paused={motion.active ? undefined : ""} className="card p-3">
         <div className="flex flex-wrap items-center gap-1 mb-2 text-sm">
@@ -98,8 +100,8 @@ export function BodyMap({ regions, cancers, technologies }: Props) {
             const stroke = on ? "var(--accent)" : r.systemWide ? "currentColor" : tint;
             const wrapperClass = r.id === "lung" ? "bm-lungs motion-css" : undefined;
             return (
-              <g key={r.id} tabIndex={0} role="button" aria-pressed={on} aria-label={`${r.label}: ${n} ${mode}`}
-                className="bm-region"
+              <g key={r.id} tabIndex={0} role="button" aria-pressed={on} aria-label={`${r.label}: ${n} ${mode}`} aria-controls={DETAIL_ID}
+                className="bm-region" data-mobile-control
                 onMouseEnter={() => setActive(r.id)} onMouseLeave={() => setActive(null)} onFocus={() => setActive(r.id)} onBlur={() => setActive(null)}
                 onClick={() => setPinned((p) => (p === r.id ? null : r.id))} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setPinned((p) => (p === r.id ? null : r.id)); } }}>
                 <g className={wrapperClass} filter={on ? "url(#bm-glow)" : undefined}>
@@ -130,21 +132,26 @@ export function BodyMap({ regions, cancers, technologies }: Props) {
           <span className="kicker">System-wide</span>
           {visible.filter((r) => r.systemWide).map((r) => {
             const on = r.id === shown;
-            return <button key={r.id} type="button" onMouseEnter={() => setActive(r.id)} onMouseLeave={() => setActive(null)} onFocus={() => setActive(r.id)} onBlur={() => setActive(null)} onClick={() => setPinned((p) => (p === r.id ? null : r.id))} aria-pressed={on} className={`chip border ${on ? "bg-accent text-white border-accent" : "bg-card border-border hover:bg-foreground/5"}`}>{r.label.replace(/ \(.*\)$/, "")} <span className={on ? "text-white/80" : "text-muted"}>{counts[r.id]}</span></button>;
+            return <button key={r.id} type="button" onMouseEnter={() => setActive(r.id)} onMouseLeave={() => setActive(null)} onFocus={() => setActive(r.id)} onBlur={() => setActive(null)} onClick={() => setPinned((p) => (p === r.id ? null : r.id))} aria-pressed={on} aria-controls={DETAIL_ID} className={`chip border ${on ? "bg-accent text-white border-accent" : "bg-card border-border hover:bg-foreground/5"}`}>{r.label.replace(/ \(.*\)$/, "")} <span className={on ? "text-white/80" : "text-muted"}>{counts[r.id]}</span></button>;
           })}
           <span className="ml-auto text-muted">shade = how many {mode === "cancers" ? "cancer types" : "technologies"} · click to pin</span>
         </div>
       </div>
 
-      <div className="lg:sticky lg:top-28 self-start">
+      {/* The detail panel is what a tap on the figure drives. Below lg the figure alone is two screens tall, so the
+          panel moves above it and sticks under the header as a strip of at most 40 percent of the viewport,
+          scrolling inside itself, while the figure scrolls beneath (docs/MOBILE.md, sticky preview). */}
+      <div id={DETAIL_ID} aria-live="polite" data-mobile-driven
+        className="self-start lg:sticky lg:top-28 max-lg:order-first max-lg:sticky max-lg:top-14 max-lg:z-20 max-lg:max-h-[40vh] max-lg:overflow-y-auto max-lg:rounded-xl max-lg:bg-background">
         {!region && (
-          <div className="card p-6 text-sm text-muted">
-            <p>Hover or tap an organ. The figure is drawn to the eight-head canon with organs in their anatomical positions; the viewer&apos;s left is the patient&apos;s right, so the liver sits on the left of the drawing.</p>
-            <p className="mt-2">Switch to <button type="button" className="underline" onClick={() => setMode(mode === "cancers" ? "technologies" : "cancers")}>{mode === "cancers" ? "where technologies apply" : "where cancers arise"}</button>, or pick female or male to change the pelvis.</p>
+          <div className="card p-3 lg:p-6 text-sm text-muted">
+            <p className="lg:hidden">Tap an organ to see what arises or applies there. The viewer&apos;s left is the patient&apos;s right.</p>
+            <p className="hidden lg:block">Hover or tap an organ. The figure is drawn to the eight-head canon with organs in their anatomical positions; the viewer&apos;s left is the patient&apos;s right, so the liver sits on the left of the drawing.</p>
+            <p className="hidden lg:block mt-2">Switch to <button type="button" className="underline" onClick={() => setMode(mode === "cancers" ? "technologies" : "cancers")}>{mode === "cancers" ? "where technologies apply" : "where cancers arise"}</button>, or pick female or male to change the pelvis.</p>
           </div>
         )}
         {region && (
-          <div className="card p-5">
+          <div className="card p-4 lg:p-5">
             <div className="flex items-baseline justify-between gap-3">
               <div>
                 <div className="kicker mb-1">{mode === "cancers" ? "Cancers arising in" : "Technologies applied to"}</div>
@@ -152,7 +159,7 @@ export function BodyMap({ regions, cancers, technologies }: Props) {
               </div>
               {pinned === region.id && <button type="button" className="text-xs underline text-muted" onClick={() => setPinned(null)}>Unpin</button>}
             </div>
-            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <div className="mt-3 lg:mt-4 grid gap-2 lg:gap-3 sm:grid-cols-2">
               {mode === "cancers"
                 ? region.cancers.map((id) => { const c = cancers[id]; if (!c) return null; return (
                   <Link key={id} href={c.route} className="card p-3 hover:shadow-md transition">

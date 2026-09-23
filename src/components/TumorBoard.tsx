@@ -12,6 +12,7 @@ import { MoleculeSlot } from "./MoleculeSlot";
 import { ApprovalChip } from "./ApprovalChip";
 import { FilterHead } from "./filters/ResultsTable";
 import { countOptions, useHeaderFilters } from "./filters/useHeaderFilters";
+import { ChooseView, useChooseView } from "./ChooseView";
 
 export type TbCancer = { id: string; name: string; group: string; route: string };
 const GROUPS: BiomarkerGroup[] = ["IHC", "genomic", "germline", "immune"];
@@ -39,7 +40,13 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
   const cancerOptions = useMemo(() => cancers.map((c) => ({ value: c.id, label: c.name, group: c.group[0].toUpperCase() + c.group.slice(1) })), [cancers]);
   const typicalHere = useMemo(() => (cancer ? biomarkers.filter((b) => b.typical?.includes(cancer) && !picked.includes(b.id)) : []), [cancer, picked]);
   const chosenCancer = cancers.find((c) => c.id === cancer);
-  const toggle = (id: string) => setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : [...p, id]));
+  // Phone layout: the ticks and the matches are one pane at a time (docs/MOBILE.md). The first tick shows the
+  // matches; later ticks update the count on the View pill so the effect is seen without leaving the list.
+  const cv = useChooseView();
+  const toggle = (id: string) => {
+    if (!picked.length && !picked.includes(id)) cv.showView();
+    setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : [...p, id]));
+  };
   // Header filters shared by every kind's table: status and the biomarker a row matched on.
   const hf = useHeaderFilters();
   const statusOf = (s?: string) => (s ? STATUS_LABEL[s] ?? s : "No status");
@@ -54,9 +61,8 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
     return ta - tb;
   });
 
-  return (
-    <div className="grid gap-8 lg:grid-cols-[340px_1fr]">
-      <aside className="space-y-5 lg:sticky lg:top-20 self-start max-h-[85vh] overflow-auto pr-1">
+  const chooser = (
+      <aside className="space-y-5 lg:sticky lg:top-20 self-start lg:max-h-[85vh] lg:overflow-auto pr-1">
         <div>
           <div className="kicker mb-1.5">1 · Cancer type (optional)</div>
           <div className="flex items-center gap-2">
@@ -86,7 +92,7 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
                     return (
                       <li key={b.id}>
                         <label className={`flex items-start gap-2 rounded-md px-2 py-1 cursor-pointer text-sm ${on ? "bg-accent/10" : "hover:bg-foreground/5"}`}>
-                          <input type="checkbox" checked={on} onChange={() => toggle(b.id)} className="mt-1" />
+                          <input type="checkbox" checked={on} onChange={() => toggle(b.id)} className="mt-1" data-mobile-control />
                           <span className="min-w-0"><span className="font-medium">{b.label}</span>{typical && <span className="ml-1 text-[10px] text-accent">typical</span>}<span className="block text-xs text-muted line-clamp-2">{b.note}</span></span>
                         </label>
                       </li>
@@ -99,7 +105,8 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
           {picked.length > 0 && <button onClick={() => setPicked([])} className="text-sm underline text-muted">Clear biomarkers</button>}
         </div>
       </aside>
-
+  );
+  const result = (
       <div>
         <div className="rounded-lg border border-amber-300 bg-amber-50 text-amber-900 dark:bg-amber-950/40 dark:text-amber-100 dark:border-amber-800 px-4 py-3 text-sm mb-5">
           <strong>Not medical advice.</strong> This view matches biomarkers to objects documented in OnCo. It does not know your history, stage, fitness, prior treatments, or local availability. Bring it to a real tumour board or oncologist.
@@ -162,6 +169,9 @@ export function TumorBoard({ rows, cancers }: { rows: MatchRow[]; cancers: TbCan
           </>
         )}
       </div>
-    </div>
+  );
+  return (
+    <ChooseView name="tumour-board" pane={cv.pane} onPane={cv.setPane} className="grid gap-8 lg:grid-cols-[340px_1fr]" choose={chooser} view={result}
+      chooseLabel="Choose" viewLabel="Matches" chooseHint={picked.length ? `${picked.length} picked` : undefined} viewHint={selected.length ? `${scored.length}` : "none yet"} />
   );
 }

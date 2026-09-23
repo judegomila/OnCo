@@ -1,0 +1,148 @@
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 36
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 228
+scripts/new-record.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 19,28,34
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 36
+src/app/tumour-testing/TestsTable.tsx
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 174
+src/lib/kinds.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 26,109
+README.md
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 7
+docs/press-kit.md
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 31,33
+src/lib/graph.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 136-137
+docs/DATA-SOURCES.md
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 41
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 228
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_4f2f177c16aece 45
+src/lib/kind-browser.test.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 50
+src/data/target-xrefs-genes.ts
+  ai_agent 8
+src/app/tumour-testing/page.tsx
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 13,36
+src/lib/health.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 113
+src/lib/agent-surface.test.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 24
+src/lib/biomarkers.test.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 1-111
+src/data/targets-biomarker-wave.ts
+  s_0beac9cb5d78fd::t_330627e81fc575 17,29,35,47
+  s_0beac9cb5d78fd::t_a6d63479121c33 23
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 1-16,18-22,24-28,30-34,36-46,48-60
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 228
+src/lib/completeness.test.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 31
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 40
+docs/TABLES.md
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 66
+src/data/biomarker-readouts.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 1-434
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 259
+src/data/biomarker-readouts-3.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 1-276
+src/lib/search-rank.ts
+  s_0beac9cb5d78fd::t_4f2f177c16aece 25
+src/data/targets-genes-wave.ts
+  s_0beac9cb5d78fd::t_a6d63479121c33 2905
+docs/launch-copy.md
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 13,60
+src/lib/biomarkers.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 1-108
+src/data/index.ts
+  s_0beac9cb5d78fd::t_4fa28e2d40bf30 16
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 78-82,225,246-254,285,287-291
+  s_0beac9cb5d78fd::t_108ff1f2e655b9 256-281
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 36
+src/lib/schema-docs.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 13,18,93
+src/components/JsonLd.tsx
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 164-165
+src/lib/source-location.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 14
+src/data/targets-genes-wave.test.ts
+  s_0beac9cb5d78fd::t_a6d63479121c33 49-50,58
+src/lib/kind-browser.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 11,213-228
+src/data/biomarker-readouts-4.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 1-264
+src/data/biomarker-readouts-2.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 1-230
+src/lib/graph-layout.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 29,33
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 423-495,544,567,588
+.github/ISSUE_TEMPLATE/new-object.yml
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 10
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 228
+src/components/KindIcon.tsx
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 27
+src/data/universe.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 188
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 228
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 36
+src/lib/semantic-docs.ts
+  s_0beac9cb5d78fd::t_d8fac7f952b6e4 50-52
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 29
+src/data/target-xrefs.ts
+  ai_agent 2,13,17-93,165-179,196-210,226-255,316-330,374-389,406-420,451-465,526-540,691-705,763-777,807-837,884-944,960-1020,1037-1051,1067-1096,1141-1156,1173-1187,1203,1206-1214,1218-1281,1312-1372,1387-1416,1433-1462,1508-1522,1555-1586,1651-1696,1725-1831,1858-1889,1906-1920,2015-2029,2061-2075,2151-2232,2249-2264,2279-2294,2310-2339,2356-2371,2474-2504,2561-2620,2636-2683,2715-2730,2768-2797,2829-2859,2891-2933,2949-3009,3055-3100,3132,3135-3148,3150-3197,3213-3246,3307,3310-3318,3321
+src/lib/text.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 117
+scripts/rdf.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 26
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 36
+src/components/BiomarkerDetail.tsx
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 1-189
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 65
+src/app/tumour-testing/filter.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 24-25
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 36
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 36
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 228
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 115,328,354,416,524-525
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 36
+packages/onco-mcp/src/server.test.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 81
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 228
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_6fd0d19d7881e1 228
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d66c1e83ddc018edc245391c0cfd027da588cc91",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -75,6 +75,7 @@ import { ResearchOutput } from "./ResearchOutput";
 import { confidence } from "@/data/confidence";
 import { FrontIcon } from "./FrontIcon";
 import { ApprovalChip } from "./ApprovalChip";
+import { MechanicsPills } from "./MechanicsPills";
 import { RedCardsStrip } from "./RedCardsStrip";
 import { ChangesPreview, FollowLine } from "./CancerChanges";
 import { changesForCancer, splitUpcoming } from "@/lib/cancer-changes";
@@ -212,6 +213,7 @@ export function EntityDetail({ e }: { e: Entity }) {
         right={e.aka.length > 0 ? <div {...EN_TEXT} className="text-xs text-muted text-end max-w-xs">aka <span {...nameAttrs(e.kind)}>{e.aka.join(", ")}</span></div> : undefined}
       />
       <Container className="pb-16">
+        {(e.kind === "target" || e.kind === "pathway") && <MechanicsPills id={e.id} className="mb-6" />}
         {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
         {tabs.length > 1
           ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={afterTabs} aside={aside} />

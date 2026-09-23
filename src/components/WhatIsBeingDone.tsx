@@ -45,7 +45,7 @@ export const TOPICS: Record<ProblemTopic, TopicMeta> = {
     bottlenecks: ["b-metastasis-biology", "b-brain-delivery"],
     seeds: ["sbrt", "radioligand-therapy", "targeted-alpha-therapy", "psma-pet", "whole-body-mri", "pet-ct", "liquid-biopsy", "hipec", "bone-modifying-agents", "radioembolisation-tare", "bbb-focused-ultrasound", "thermal-ablation", "radium-223", "pluvicto", "tucatinib", "trastuzumab-deruxtecan", "mslt-ii", "oligometastatic", "oligoprogression", "metastasis", "peritoneal-metastasis", "emt", "organ-tropism-seed-soil", "blood-brain-barrier-metastasis", "activating-invasion-metastasis"],
     keywords: /\b(metasta\w*|spread\w*|advanced disease|stage iv|stage 4|distant|secondary (cancer|tumour)|disseminat\w*|brain (lesion|involvement)|leptomening\w*|peritoneal)/i,
-    pages: [{ label: "Atlas of advanced disease", href: "/atlas/spread/" }, { label: "Invasion and metastasis", href: "/mechanics/#metastasis" }],
+    pages: [{ label: "Atlas of advanced disease", href: "/atlas/spread/" }, { label: "How cancer spreads: the metastasis stages", href: "/mechanics/intravasation-ctc/" }],
   },
   resistance: {
     label: "Resistance to treatment",

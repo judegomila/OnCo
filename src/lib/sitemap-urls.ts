@@ -7,6 +7,7 @@ import { graph } from "./graph";
 import { KIND_META, KINDS, routeFor } from "./kinds";
 import { NAV_GROUPS } from "./nav";
 import { digests } from "../data/digests";
+import { MECHANICS } from "../data/mechanics-atlas";
 import { paths } from "../data/paths";
 import { absoluteUrl } from "./seo";
 import { RANKING_SLUGS } from "./rankings";
@@ -92,6 +93,8 @@ export function sitemapUrls(): SitemapUrl[] {
   for (const r of GUARDED_ROUTES) if (routeExists(r)) add(r);
   for (const d of digests) add(`/digests/${d.id}/`);
   for (const p of paths) add(`/paths/${p.id}/`);
+  // Mechanics atlas: one page per stage under /mechanics/<stage>/ (src/app/mechanics/[stage]/page.tsx).
+  for (const c of MECHANICS) for (const st of c.stages) add(`/mechanics/${st.id}/`);
   for (const e of g.entities) add(routeFor(e), e.asOf);
   for (const c of g.kind("cancer")) add(`${routeFor(c)}changes/`, c.asOf);
   for (const t of graph().kind("target")) out.push({ url: absoluteUrl(`/dossiers/${t.id}/`), lastModified: t.asOf });

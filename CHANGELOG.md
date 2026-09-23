@@ -6,19 +6,12 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 23 September 2026
+- Top bar without the tagline
+- Top bar: drop the tagline beside the wordmark; it took space the navigation needs
+
 ### 22 September 2026
 - Health gauges explain people without papers by role and exempt the closed section list
-- Trial phases read as plain labels everywhere: Platform trial and Observational study instead of Phase platform, with old filter links still working
-- A JAMA Oncology 2026 comparison of tissue-free and tumour-informed residual-disease blood tests joins the ctDNA roadmap's sources
-- Trial pages say what their enrolment number counts, randomised, analysed or enrolled, with the registry figure explained on hover
-- Four new publications found by the registry check are in, including the eight-year ADAURA survival update with its figures, and the check no longer flags screening studies
-- Trial enrolment figures now say what they count: 25 landmark trials explain why their randomised or analysed numbers differ from the registry, and five stale figures are corrected from their sources
-- MIMic-01 trial status corrected to active against ClinicalTrials.gov, the first fix from the new roadmap registry check
-- Every roadmap now carries a registry check: a weekly script compares each referenced trial with ClinicalTrials.gov and Europe PMC, flags contradictions and overdue readouts, and shows the check date under What to watch
-- A roadmap and timeline for circulating tumour DNA tests, from the 1948 discovery of cell-free DNA to the residual-disease and multi-cancer detection trials reading out next, with a watch list and a script that checks it against the registries
-- Twenty-six landmark papers for the pancreatic cancer pages, from PRODIGE 24 and PREOPANC to the KRAS inhibitor cohorts and the IPMN guidelines, each checked against Europe PMC
-- Seventy-four registry trials linked to the newest pancreatic and nasopharyngeal cancer pages, with a guard that keeps neuroendocrine trials off the pancreatic adenocarcinoma pages
-- Pages load about three times less script: the header no longer drags in the molecule viewer, every language dictionary and the search engine, so slow connections reach a working page far sooner
 - Kind-size gauge holds open kinds only: the 19 treatment fronts are a closed OnCo taxonomy and are named in the note
 - People-papers gauge counts roles that produce no papers as explained: 1,528 of 1,547 with a note on who is still without
 - LAUNCH: chains 101 to 104 ticked

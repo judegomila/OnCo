@@ -7,8 +7,14 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 23 September 2026
+- Top bar without the tagline, with the weekly bot refreshes merged
 - Top bar without the tagline
 - Top bar: drop the tagline beside the wordmark; it took space the navigation needs
+- chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE) (#61)
+- chore: check regional approvals against the EMA register (#60)
+- chore: refresh preprint tracker from Europe PMC (#59)
+- chore: refresh FDA approvals feed (OCE notifications, openFDA drugsfda) (#58)
+- chore: weekly citation link check (#57)
 
 ### 22 September 2026
 - Health gauges explain people without papers by role and exempt the closed section list

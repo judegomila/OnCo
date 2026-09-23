@@ -225,6 +225,7 @@ export const zh: UiDict = {
   "kind.journal.label": "期刊", "kind.journal.plural": "期刊",
   "kind.paper.label": "关键论文", "kind.paper.plural": "关键论文",
   "kind.bottleneck.label": "瓶颈", "kind.bottleneck.plural": "瓶颈", "kind.bottleneck.title": "抗癌战争的瓶颈",
+  "kind.biomarker.label": "生物标志物", "kind.biomarker.plural": "生物标志物", "kind.biomarker.title": "生物标志物与判读",
 
   "l.Summary": "摘要",
   "l.Overview": "概览",

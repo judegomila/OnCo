@@ -33,6 +33,7 @@ export const navPt: NavDict = {
   "/fronts/": ["Frentes", "As frentes da guerra: da imagiologia à terapia celular."],
   "/technologies/": ["Tecnologias", "Cada forma de ver, medir ou atacar um tumor."],
   "/targets/": ["Alvos", "As moléculas visadas por fármacos e traçadores."],
+  "/biomarkers/": ["Biomarcadores", "PD-L1 CPS, HER2 IHC 3+, MSI-alto: cada leitura sob o seu gene, com os limiares que as aprovações usam e os testes que a medem."],
   "/drugs/": ["Tratamentos e testes", "Produtos aprovados e em desenvolvimento, com moléculas em rotação."],
   "/pathways/": ["Vias", "Circuitos de sinalização, desenhados e explicados."],
   "/dossiers/": ["Dossiês de alvos", "Tudo sobre um alvo numa página: biologia, prevalência, pontos quentes, produtos por fase, ensaios, resistência, testes, modelos, questões em aberto, identificadores externos."],

@@ -10,12 +10,12 @@ import { join } from "node:path";
 import { z } from "zod";
 import { graph } from "./graph";
 import {
-  BottleneckSchema, CancerSchema, CollectionSchema, CompanySchema, DrugSchema, IdeaSchema, InstitutionSchema, JournalSchema, KIND_META, KINDS, PairingSchema, PaperSchema, PathwaySchema, PersonSchema, RoadmapSchema, SectionSchema, STATUSES, TargetSchema, TechnologySchema, TermSchema, TrialSchema,
+  BiomarkerSchema, BottleneckSchema, CancerSchema, CollectionSchema, CompanySchema, DrugSchema, IdeaSchema, InstitutionSchema, JournalSchema, KIND_META, KINDS, PairingSchema, PaperSchema, PathwaySchema, PersonSchema, RoadmapSchema, SectionSchema, STATUSES, TargetSchema, TechnologySchema, TermSchema, TrialSchema,
   type Entity, type Kind,
 } from "./schema";
 
 const SCHEMAS: Record<Kind, z.ZodType> = {
-  cancer: CancerSchema, section: SectionSchema, technology: TechnologySchema, target: TargetSchema, drug: DrugSchema, company: CompanySchema, institution: InstitutionSchema, pathway: PathwaySchema, term: TermSchema, trial: TrialSchema, pairing: PairingSchema, roadmap: RoadmapSchema, idea: IdeaSchema, collection: CollectionSchema, person: PersonSchema, bottleneck: BottleneckSchema, paper: PaperSchema, journal: JournalSchema,
+  cancer: CancerSchema, section: SectionSchema, technology: TechnologySchema, target: TargetSchema, drug: DrugSchema, company: CompanySchema, institution: InstitutionSchema, pathway: PathwaySchema, term: TermSchema, trial: TrialSchema, pairing: PairingSchema, roadmap: RoadmapSchema, idea: IdeaSchema, collection: CollectionSchema, person: PersonSchema, bottleneck: BottleneckSchema, paper: PaperSchema, journal: JournalSchema, biomarker: BiomarkerSchema,
 };
 
 export type FieldDoc = { name: string; type: string; required: boolean; default?: string; description?: string; /** Nested fields for object or array-of-object types. */ children?: FieldDoc[] };
@@ -90,7 +90,7 @@ export function readDescriptions(source: string): { base: Record<string, string>
 /** Fixed descriptions for base fields whose comment in schema.ts sits in the file header rather than on the field. */
 const BASE_FALLBACK: Record<string, string> = {
   id: "Stable kebab-case identifier; also the URL slug.",
-  kind: "Which of the 18 kinds this record is.",
+  kind: "Which of the 19 kinds this record is.",
   name: "Display name.",
   aka: "Other names, brands and abbreviations; used by search and hover-linking.",
   tldr: "One or two plain sentences for a non-technical reader. No jargon.",

@@ -8,6 +8,7 @@ import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_ROLE_LABEL, TARGET_ROLES, t
 import { COMPANY_TYPE_LABEL, portfolioOf, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf } from "@/lib/startups";
 import { publicTags } from "@/lib/tags";
 import { termVisual, type TermVisual } from "@/lib/term-visual";
+import { hasApproval, MEASUREMENT_META, parentTarget } from "@/lib/biomarkers";
 
 /**
  * Row, facet and column builders for the templated kind index tables (/ideas/, /drugs/, /people/ ...).
@@ -209,6 +210,22 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
       defaultSort: { key: "maturity", dir: 1 },
       };
     }
+    case "biomarker": return {
+      hideStatus: true,
+      rows: g.kind("biomarker").map((bm) => {
+        const parent = parentTarget(bm);
+        const m = MEASUREMENT_META[bm.measurement];
+        const approval = hasApproval(bm) ? "Has approval threshold" : "No approval threshold";
+        const nTh = bm.thresholds.filter((t) => t.status === "current").length;
+        return { ...base(bm), sub: parent ? parent.symbol ?? parent.name : "Genome-wide readout", ...(parent ? { target: { id: parent.id, name: parent.name, targetClass: parent.targetClass, tldr: parent.tldr } } : { kind: "biomarker" as const }),
+          facets: { gene: [parent ? short(parent.name) : "Genome-wide"], measurement: [m.label], cancers: names(bm.cancers), approval: [approval] },
+          cols: { gene: parent ? [link(parent, parent.symbol ?? short(parent.name))] : { facet: "gene", value: "Genome-wide" }, measurement: fl("measurement", m.label, { label: `${m.glyph} ${m.label}`, tip: m.tip }), thresholds: count(nTh, bm, "thresholds", "threshold", "used by approvals of"), cancers: links(bm.cancers.slice(0, 4)), drugs: links(bm.drugs.filter((id) => g.get(id)?.kind === "drug").slice(0, 3)) },
+          sortKeys: { thresholds: nTh } };
+      }),
+      facets: [{ key: "gene", label: "Gene or protein", width: "w-56" }, { key: "measurement", label: "Measurement", searchable: false, width: "w-48" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "approval", label: "Approval", searchable: false, width: "w-52", order: ["Has approval threshold", "No approval threshold"] }],
+      columns: [{ key: "gene", label: "Gene", sortable: true }, { key: "measurement", label: "Measurement", chip: true, sortable: true }, { key: "thresholds", label: "Thresholds", sortable: true, numeric: true, tip: "Approval thresholds currently on a label that use this readout." }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "drugs", label: "Products", hide: "hidden xl:table-cell" }],
+      defaultSort: { key: "thresholds", dir: -1 },
+    };
     case "journal": return {
       hideStatus: true,
       rows: g.kind("journal").map((j) => { const papers = g.kind("paper").filter((p) => p.journal === j.name || j.matchNames.includes(p.journal)); return { ...base(j), logo: logoFor(j.id, j.url), avatar: "org", sub: j.publisher, facets: { scope: [j.scope], access: j.access ? [cap(j.access.replace(/-/g, " "))] : [], publisher: [j.publisher] }, cols: { scope: fl("scope", j.scope), access: fl("access", j.access ? cap(j.access.replace(/-/g, " ")) : undefined), publisher: fl("publisher", j.publisher), papers: count(papers.length, j, "key-papers", "key paper", "published in"), impact: j.impactFactor ? j.impactFactor.value : undefined }, sortKeys: { papers: papers.length, impact: j.impactFactor?.value ?? 0 } }; }),

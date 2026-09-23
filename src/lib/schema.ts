@@ -420,6 +420,79 @@ export const BottleneckSchema = Base.extend({
   successLooksLike: z.string().optional(),
 });
 
+/**
+ * How a biomarker readout is measured. Drives the measurement pill on /biomarkers/ and the parent target's
+ * "Readouts and scores" strip. "Genome-wide" readouts (tumour mutational burden, ctDNA residual disease, the HRD
+ * genomic scar) have no single gene; see `BiomarkerSchema.target`.
+ */
+export const MEASUREMENTS = ["ihc-score", "combined-positive-score", "tumour-proportion-score", "immune-cell-score", "tumour-cell-score", "fish-ratio", "sequencing-variant", "msi-status", "tmb-threshold", "methylation", "pet-tracer-expression", "copy-number", "hla-typing", "ctdna-detection", "genomic-instability-score"] as const;
+export type Measurement = (typeof MEASUREMENTS)[number];
+/** Readouts that measure the genome rather than one gene or protein; the only ones allowed no parent target. */
+export const GENOME_WIDE_MEASUREMENTS: readonly Measurement[] = ["tmb-threshold", "ctdna-detection", "genomic-instability-score"];
+
+/** A threshold an approval uses, quoted from the label with its URL. `drugId` and `cancerId` are corpus ids. */
+export const BiomarkerThresholdSchema = z.object({
+  /** The value as the label states it: "CPS >= 10", "IHC 3+", "TMB >= 10 mutations per megabase". */
+  value: z.string().min(1),
+  drugId: id,
+  cancerId: id,
+  /** FDA, EMA, MHRA, PMDA, NMPA, TGA. */
+  regulator: z.string().min(1),
+  /** Label or approval page the threshold was read from. */
+  source: url,
+  /** The label sentence carrying the threshold, verbatim (US spelling kept as printed). */
+  quote: z.string().optional(),
+  /** "historic" when the label has since dropped the requirement; "withdrawn" when the indication itself was withdrawn. */
+  status: z.enum(["current", "historic", "withdrawn"]).default("current"),
+  note: z.string().optional(),
+});
+export type BiomarkerThreshold = z.infer<typeof BiomarkerThresholdSchema>;
+
+/** One row of the FDA list of cleared or approved companion diagnostic devices, for this readout. */
+export const CompanionDiagnosticSchema = z.object({
+  device: z.string().min(1),
+  maker: z.string().min(1),
+  /** Company record id, when the maker has a page. */
+  companyId: id.optional(),
+  /** The drug or drugs the device selects patients for, as the FDA lists them (corpus ids). */
+  drugs: z.array(id).default([]),
+  /** The FDA row's indication and sample column, as printed. */
+  indication: z.string().min(1),
+  /** PMA or 510(k) number with the approval date, as printed. */
+  pma: z.string().optional(),
+  source: url,
+});
+export type CompanionDiagnostic = z.infer<typeof CompanionDiagnosticSchema>;
+
+/**
+ * A biomarker readout: what a pathology or genomic report says about one gene or protein (PD-L1 CPS, HER2 IHC 3+,
+ * EGFR exon 19 deletion), as distinct from the target itself. Every readout sits under its parent `target` (CD274
+ * for the PD-L1 scores, ERBB2 for the HER2 readouts); sibling readouts of one target are listed on each other's page
+ * and on the target page. Thresholds are quoted from labels; a readout with no approval says so and cites the
+ * guideline or trial that defines it. Everything comes from public labels, the FDA companion diagnostic list,
+ * guidelines and registries; nothing is inferred.
+ */
+export const BiomarkerSchema = Base.extend({
+  kind: z.literal("biomarker"),
+  /** Parent target id. Required unless `measurement` is genome-wide (GENOME_WIDE_MEASUREMENTS) or `noParentReason` says why there is none; checked in src/lib/biomarkers.test.ts. */
+  target: id.optional(),
+  /** For the rare readout with no single gene or protein that is not genome-wide either (an arm-level codeletion): why it has no parent. */
+  noParentReason: z.string().min(1).optional(),
+  measurement: z.enum(MEASUREMENTS),
+  /** The scoring rule in plain English, with the sentence it was read from and its URL. */
+  scoringRule: z.object({ text: z.string().min(1), quote: z.string().min(1), source: url, sourceLabel: z.string().min(1) }),
+  thresholds: z.array(BiomarkerThresholdSchema).default([]),
+  /** Where a readout has no approval threshold: the guideline or trial that defines it. */
+  definedBy: z.object({ label: z.string().min(1), url }).optional(),
+  /** Tumour test ids (src/data/tumour-tests.ts) that report this readout. */
+  tests: z.array(z.string()).default([]),
+  /** Assay registry ids (src/data/assays.ts) for this readout. */
+  assays: z.array(z.string()).default([]),
+  companionDiagnostics: z.array(CompanionDiagnosticSchema).default([]),
+  /** What the result means for a patient, written only from the label or guideline text. */
+  forPatient: z.string().min(1),
+});
+
 export const CollectionSchema = Base.extend({
   kind: z.literal("collection"),
   url,
@@ -468,6 +541,7 @@ export const EntitySchema = z.discriminatedUnion("kind", [
   PersonSchema,
   BottleneckSchema,
   PaperSchema,
+  BiomarkerSchema,
   JournalSchema,
 ]);
 
@@ -490,6 +564,7 @@ export type Person = z.infer<typeof PersonSchema>;
 export type Bottleneck = z.infer<typeof BottleneckSchema>;
 export type Paper = z.infer<typeof PaperSchema>;
 export type Journal = z.infer<typeof JournalSchema>;
+export type Biomarker = z.infer<typeof BiomarkerSchema>;
 
 /** Input types (before defaults are applied) — what authors write in data files. */
 export type CancerInput = z.input<typeof CancerSchema>;
@@ -510,6 +585,7 @@ export type PersonInput = z.input<typeof PersonSchema>;
 export type BottleneckInput = z.input<typeof BottleneckSchema>;
 export type PaperInput = z.input<typeof PaperSchema>;
 export type JournalInput = z.input<typeof JournalSchema>;
+export type BiomarkerInput = z.input<typeof BiomarkerSchema>;
 export type EntityInput = z.input<typeof EntitySchema>;
 
 /**

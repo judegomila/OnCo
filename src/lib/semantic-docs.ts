@@ -26,6 +26,7 @@ export function fieldText(e: Entity): string {
     case "idea": return [e.hypothesis, e.rationale, e.test, e.maturity, e.actor ?? ""].join(" ");
     case "paper": return [e.journal, e.authors, e.paperType, ...e.findings, e.whatItMeans, ...e.caveats].join(" ");
     case "journal": return [e.publisher, e.scope, e.society ?? ""].join(" ");
+    case "biomarker": return [e.measurement, e.scoringRule.text, ...e.thresholds.map((t) => t.value), e.forPatient].join(" ");
     case "bottleneck": return [e.stage, e.severity, ...e.causes, ...e.currentEfforts, e.successLooksLike ?? ""].join(" ");
     case "collection": return [e.holds, e.maintainer ?? ""].join(" ");
     case "person": return [e.role, ...e.specialisms].join(" ");
@@ -46,6 +47,8 @@ export function semanticDocs(): SemanticDoc[] {
   return g.entities.map((e) => {
     const names: string[] = [];
     for (const [k, list] of g.neighbours(e.id)) if (k !== "section") for (const n of list) names.push(n.name);
-    return { id: e.id, kind: e.kind, text: semanticText(e, names), ...(e.tags.includes("ctgov-ingest") || e.tags.includes("europepmc-ingest") ? { weight: 0.6 } : {}) };
+    return { id: e.id, kind: e.kind, text: semanticText(e, names), // Biomarker readouts and generated gene records share names with the drugs and targets they describe, so they sit at 0.7 to keep
+    // the Ask OnCo extractive floor honest (measured 0.3476 with them at 1 on 23 Sept 2026).
+    ...(e.tags.includes("ctgov-ingest") || e.tags.includes("europepmc-ingest") ? { weight: 0.6 } : e.kind === "biomarker" || e.tags.includes("cancer-genes-wave") ? { weight: 0.7 } : {}) };
   });
 }

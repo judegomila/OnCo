@@ -26,10 +26,11 @@ export const HUE: Record<Kind, string> = {
   bottleneck: "#c25b5b",
   paper: "#5a86a8",
   journal: "#7a8494",
+  biomarker: "#9a6fb8",
 };
 
 /** Kind order around the ring: what a reader most wants to see first sits at the top and runs clockwise. */
-export const ORDER: Kind[] = ["cancer", "section", "technology", "target", "drug", "trial", "pairing", "pathway", "company", "institution", "person", "bottleneck", "paper", "journal", "idea", "roadmap", "term", "collection"];
+export const ORDER: Kind[] = ["cancer", "section", "technology", "target", "drug", "trial", "pairing", "pathway", "company", "institution", "person", "bottleneck", "paper", "journal", "biomarker", "idea", "roadmap", "term", "collection"];
 
 export const RING = 185;
 export const RING_STEP = 27;

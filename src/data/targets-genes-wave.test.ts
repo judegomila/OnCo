@@ -46,6 +46,8 @@ describe("cancer gene targets", () => {
     }
   });
 
+  // A catalogue may list a gene whose record is hand-written (MYCN, PTEN, Ki-67, H3-3A, MGMT came in with the biomarker readouts), so
+  // membership is checked against every target record, not only the generated ones.
   it("records are ordered by evidence tier, strongest first, and every source collection lists them back", () => {
     const order = targetsGenesWave.map((t) => EVIDENCE_TIERS.indexOf(t.evidenceTier!));
     for (let i = 1; i < order.length; i++) expect(order[i], `${targetsGenesWave[i].id} out of tier order`).toBeGreaterThanOrEqual(order[i - 1]);
@@ -53,7 +55,7 @@ describe("cancer gene targets", () => {
       const c = g.get(collection);
       expect(c?.kind, collection).toBe("collection");
       const listed = new Set(c!.targets);
-      for (const id of ids) { expect(wave.has(id), `${collection} lists ${id}`).toBe(true); expect(listed.has(id), `${collection} record links ${id}`).toBe(true); }
+      for (const id of ids) { expect(g.get(id)?.kind, `${collection} lists ${id}`).toBe("target"); expect(listed.has(id), `${collection} record links ${id}`).toBe(true); }
     }
     // The catalogue link is what keeps a gene with no drug, trial or pathway yet out of the orphan count.
     for (const t of targetsGenesWave) expect(g.incoming(t.id).size, `${t.id} has an inbound link`).toBeGreaterThan(0);

@@ -10,7 +10,7 @@ Show HN: OnCo, a cited open knowledge graph of oncology with a JSON API and MCP 
 
 **Post body:**
 
-I have been building OnCo (https://onco.cc), a public, cited knowledge graph of oncology. Every cancer, treatment and test, target, technology, trial, key paper, company, institution and person has its own page: a plain-English summary first, the technical detail after, every fact dated and linked to a primary source. Where a number is not sourced it is left out. There are more than 6,000 records in 18 kinds, and the links go in every direction, so you can start from a target and walk to the drugs that hit it, the trials that tested them, the resistance mechanisms, the companies, the approvals by region and when exclusivity ends.
+I have been building OnCo (https://onco.cc), a public, cited knowledge graph of oncology. Every cancer, treatment and test, target, technology, trial, key paper, company, institution and person has its own page: a plain-English summary first, the technical detail after, every fact dated and linked to a primary source. Where a number is not sourced it is left out. There are more than 6,000 records in 19 kinds, and the links go in every direction, so you can start from a target and walk to the drugs that hit it, the trials that tested them, the resistance mechanisms, the companies, the approvals by region and when exclusivity ends.
 
 The same corpus ships as:
 
@@ -57,7 +57,7 @@ Hello Product Hunt. Two things to say plainly before anything else. First, OnCo 
 
 OnCo is live at onco.cc.
 
-It is a public, cited knowledge graph of oncology: more than 6,000 records in 18 kinds, one page each, plain English first, every fact dated and linked to its source. The same pages serve a patient asking what a drug does and an analyst asking when it loses exclusivity.
+It is a public, cited knowledge graph of oncology: more than 6,000 records in 19 kinds, one page each, plain English first, every fact dated and linked to its source. The same pages serve a patient asking what a drug does and an analyst asking when it loses exclusivity.
 
 For people who follow the business of oncology, the pages I would start with:
 

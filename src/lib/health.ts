@@ -110,7 +110,7 @@ function fails<E extends Entity>(list: E[], test: (e: E) => string | null | fals
 }
 
 /** Which kinds matter most when the same gap appears everywhere: a cancer without a source outranks an idea without one. */
-const KIND_PRIORITY: Kind[] = ["cancer", "drug", "target", "trial", "technology", "pathway", "company", "institution", "person", "paper", "journal", "collection", "bottleneck", "roadmap", "pairing", "term", "idea", "section"];
+const KIND_PRIORITY: Kind[] = ["cancer", "drug", "target", "biomarker", "trial", "technology", "pathway", "company", "institution", "person", "paper", "journal", "collection", "bottleneck", "roadmap", "pairing", "term", "idea", "section"];
 const prio = (e: Entity) => KIND_PRIORITY.length - KIND_PRIORITY.indexOf(e.kind);
 
 const daysSince = (iso: string, now: Date) => Math.floor((now.getTime() - new Date(iso).getTime()) / 86400000);

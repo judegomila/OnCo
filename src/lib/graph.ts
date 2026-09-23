@@ -133,6 +133,8 @@ function outgoing(e: Entity): Array<[string, Backlink["via"]]> {
     if (e.parent) out.push([e.parent, "parent"]);
   }
   if (e.kind === "pathway") for (const n of e.nodes) if (n.targetId) out.push([n.targetId, "pathway-node"]);
+  // A biomarker readout hangs off its parent gene or protein; the target page lists its readouts by this backlink.
+  if (e.kind === "biomarker" && e.target) out.push([e.target, "parent"]);
   if (e.kind === "company") {
     // Startup graph: a company names its investors and its acquirer; investors get their portfolio by backlink.
     for (const inv of e.investors) out.push([inv, "investors"]);

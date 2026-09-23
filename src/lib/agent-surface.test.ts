@@ -21,7 +21,7 @@ import { OWL_SAME_AS, TURTLE_PREFIXES, pageIri, recordTriples, toNTriples, toTur
 /** schema.org type expected per kind; kinds not listed fall back to Thing. */
 const EXPECTED_TYPE: Partial<Record<Kind, string>> = {
   cancer: "MedicalCondition", drug: "Drug", trial: "MedicalTrial", company: "Organization", person: "Person",
-  paper: "MedicalScholarlyArticle", term: "DefinedTerm", collection: "DataCatalog", journal: "Periodical",
+  paper: "MedicalScholarlyArticle", term: "DefinedTerm", collection: "DataCatalog", journal: "Periodical", biomarker: "MedicalTest",
 };
 
 const g = graph();

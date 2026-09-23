@@ -42,6 +42,7 @@ export const NO_DESCRIPTION = "No description yet";
  * records have in common), not from any outside meaning. Tags absent here read "No description yet" on their page.
  */
 export const TAG_DESCRIPTIONS: Readonly<Record<string, string>> = {
+  biomarker: "Records that measure or score a biomarker: readouts, thresholds and the tests that report them.",
   pipeline: "Trials and products still moving through development for a cancer: recruiting, active or recently completed studies and the drugs they test.",
   leadership: "People who lead a cancer centre, department, programme or society, as recorded on their record.",
   "clinician-scientist": "People who both treat patients and run research programmes.",

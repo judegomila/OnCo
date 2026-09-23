@@ -22,6 +22,7 @@ export type Tier = 1 | 2 | 3 | 4 | 5;
 export const KIND_TIER: Record<SearchKind, Tier> = {
   cancer: 1,
   drug: 2,
+  biomarker: 3,
   trial: 2,
   technology: 2,
   pairing: 2,

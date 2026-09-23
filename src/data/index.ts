@@ -13,7 +13,7 @@ import { pairings } from "./pairings";
 import { roadmaps } from "./roadmaps";
 import { ideas } from "./ideas";
 import { collections } from "./collections";
-import type { EntityInput } from "@/lib/schema";
+import type { EntityInput, TargetInput } from "@/lib/schema";
 import { mergeSpikes, spikeEntities } from "./spikes";
 import { failures } from "./failures";
 import { pipelineTrials } from "./pipeline-trials";
@@ -75,6 +75,11 @@ import { india } from "./india";
 import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
 import { targetsWave1 } from "./targets-wave1";
+import { targetsBiomarkerWave } from "./targets-biomarker-wave";
+import { biomarkerReadouts } from "./biomarker-readouts";
+import { biomarkerReadouts2 } from "./biomarker-readouts-2";
+import { biomarkerReadouts3 } from "./biomarker-readouts-3";
+import { biomarkerReadouts4 } from "./biomarker-readouts-4";
 import { companiesWave1 } from "./companies-wave1";
 import { companiesYc } from "./companies-yc";
 import { companiesStartups } from "./companies-startups";
@@ -217,6 +222,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...china,
   ...approvedWave1,
   ...targetsWave1,
+  ...targetsBiomarkerWave, ...biomarkerReadouts, ...biomarkerReadouts2, ...biomarkerReadouts3, ...biomarkerReadouts4,
   ...companiesWave1,
   ...companiesYc,
   ...companiesStartups,
@@ -237,13 +243,52 @@ const RAW_INPUTS: EntityInput[] = [
   ...freeCollections, ...tumourTestCompanies,
 ];
 
+/** Readout ids by parent target id and by the drugs their current thresholds name (see the biomarker branch in ALL_INPUTS). */
+const ALL_READOUTS = [...biomarkerReadouts, ...biomarkerReadouts2, ...biomarkerReadouts3, ...biomarkerReadouts4];
+const READOUTS_BY_TARGET: Record<string, string[]> = {};
+const READOUTS_BY_DRUG: Record<string, string[]> = {};
+for (const bm of ALL_READOUTS) {
+  if (bm.target) (READOUTS_BY_TARGET[bm.target] ??= []).push(bm.id);
+  for (const t of bm.thresholds ?? []) if ((t.status ?? "current") === "current") { const list = (READOUTS_BY_DRUG[t.drugId] ??= []); if (!list.includes(bm.id)) list.push(bm.id); }
+}
+
 /** Every input, with glossary terms mapped to their canonical category (see ./term-categories.ts). */
-export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((raw) => {
+/**
+ * Generated gene records (scripts/fetch-cancer-genes.ts) yield to a hand-written target with the same id: the hand-written
+ * record stays, and the generated role, evidence tier and sources are folded onto it where it has none. Any other duplicate
+ * id is left in place for validate to report.
+ */
+const GENERATED_GENE_IDS = new Set(targetsGenesWave.map((t) => t.id));
+const RAW_INPUTS_DEDUPED: EntityInput[] = (() => {
+  const firstTarget = new Map<string, number>();
+  const out: EntityInput[] = [];
+  for (const e of RAW_INPUTS) {
+    if (e.kind === "target") {
+      const at = firstTarget.get(e.id);
+      if (at !== undefined && GENERATED_GENE_IDS.has(e.id)) {
+        const hand = out[at] as TargetInput;
+        const gen = e as TargetInput;
+        out[at] = { ...hand, role: hand.role?.length ? hand.role : gen.role, evidenceTier: hand.evidenceTier ?? gen.evidenceTier, sources: hand.sources?.length ? hand.sources : gen.sources } as EntityInput;
+        continue;
+      }
+      if (at === undefined) firstTarget.set(e.id, out.length);
+    }
+    out.push(e);
+  }
+  return out;
+})();
+
+export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((raw) => {
   // Paper pages written for DOIs a record cites in its external links by scripts/fetch-cited-papers.ts (wave 7): the
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];
-  const e: EntityInput = cited ? { ...raw, keyPapers: [...(raw.keyPapers ?? []), ...cited.filter((id) => !(raw.keyPapers ?? []).includes(id))] } : raw;
+  let e: EntityInput = cited ? { ...raw, keyPapers: [...(raw.keyPapers ?? []), ...cited.filter((id) => !(raw.keyPapers ?? []).includes(id))] } : raw;
   if (e.kind === "term") return { ...e, category: canonicalTermCategory(e.id, e.category) };
+  // Biomarker readouts hang off a parent target and off the drugs whose current label thresholds name them; the
+  // reverse links are written here so a target page lists its readouts and a drug page its required readouts in
+  // `related`, and no readout is an orphan reachable only by search.
+  if (e.kind === "target" && READOUTS_BY_TARGET[e.id]) return { ...e, related: [...(e.related ?? []), ...READOUTS_BY_TARGET[e.id].filter((id) => !(e.related ?? []).includes(id))] };
+  if (e.kind === "drug" && READOUTS_BY_DRUG[e.id]) e = { ...e, related: [...(e.related ?? []), ...READOUTS_BY_DRUG[e.id].filter((id) => !(e.related ?? []).includes(id))] };
   if (e.kind === "cancer" && !e.parent && (cancerParents[e.id] ?? cancerParentsWave2Map[e.id])) return { ...e, parent: cancerParents[e.id] ?? cancerParentsWave2Map[e.id] };
   if (e.kind === "trial") {
     let t = e;

@@ -28,9 +28,9 @@ Never quote a count from memory. The metadata file is rewritten on every deploy:
 curl -s https://onco.cc/api/v1/meta.json | jq '{built, total, counts}'
 ```
 
-Template sentence, filled from that output: "OnCo holds `total` records in 18 kinds, including `counts.cancer` cancers, `counts.drug` treatments and tests, `counts.trial` trials, `counts.company` companies, `counts.institution` institutions and `counts.person` people (build of `built`)." The `/about/` page prints the same numbers, and `/completeness/` shows how much of each named external list they cover.
+Template sentence, filled from that output: "OnCo holds `total` records in 19 kinds, including `counts.cancer` cancers, `counts.drug` treatments and tests, `counts.trial` trials, `counts.company` companies, `counts.institution` institutions and `counts.person` people (build of `built`)." The `/about/` page prints the same numbers, and `/completeness/` shows how much of each named external list they cover.
 
-Safe floor for copy that will not be refreshed: "more than 6,000 records in 18 kinds".
+Safe floor for copy that will not be refreshed: "more than 6,000 records in 19 kinds".
 
 ## Attribution line
 

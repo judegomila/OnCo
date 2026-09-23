@@ -41,7 +41,7 @@ export function NavMenu() {
 
   return (
     <div ref={wrap} className="flex items-center order-last xl:order-none min-w-0 xl:shrink-0">
-      <nav className="hidden xl:flex items-center text-sm" aria-label={t("primaryNav")}>
+      <nav className="hidden xl:flex items-center text-[13px] 2xl:text-sm" aria-label={t("primaryNav")}>
         {NAV_GROUPS.map((g) => {
           const on = open === g.id;
           const active = activeGroup?.id === g.id;
@@ -49,7 +49,7 @@ export function NavMenu() {
           return (
             <div key={g.id} className="relative flex items-center shrink-0" onMouseEnter={() => setOpen(g.id)} onMouseLeave={() => setOpen((o) => (o === g.id ? null : o))}>
               <Link href={g.href} aria-current={active ? "page" : undefined} onFocus={() => setOpen(g.id)} title={t("header.openGroup", { group: gt.label })}
-                className={`relative inline-flex h-10 items-center gap-1 rounded-lg px-1.5 2xl:px-2 whitespace-nowrap transition-colors hover:bg-surface hover:text-foreground ${on ? "bg-surface" : ""} ${active ? "text-foreground font-medium after:absolute after:start-2 after:end-2 after:-bottom-2 after:h-0.5 after:rounded-full after:bg-accent" : "text-foreground/75"}`}>
+                className={`relative inline-flex h-10 items-center gap-1 rounded-lg px-1 2xl:px-2 whitespace-nowrap transition-colors hover:bg-surface hover:text-foreground ${on ? "bg-surface" : ""} ${active ? "text-foreground font-medium after:absolute after:start-2 after:end-2 after:-bottom-2 after:h-0.5 after:rounded-full after:bg-accent" : "text-foreground/75"}`}>
                 {gt.short}
                 </Link>
               <button type="button" aria-haspopup="menu" aria-expanded={on} aria-label={t(on ? "header.closeGroupMenu" : "header.openGroupMenu", { group: gt.label })} onClick={() => setOpen(on ? null : g.id)} className="inline-flex h-10 w-5 -ms-1 items-center justify-center rounded-md text-muted hover:text-foreground"><svg aria-hidden viewBox="0 0 12 12" width="10" height="10" className={`text-muted transition-transform ${on ? "rotate-180" : ""}`}><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>

@@ -35,7 +35,8 @@ export function Mark({ size = 28 }: { size?: number }) {
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/75">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-1.5 sm:gap-3 xl:gap-2 2xl:gap-3">
+      {/* From xl (where the full navigation appears) to 2xl the row is tight: gap 1.5, nav labels at 13 px with px-1, the star count and the region and language labels folded into their icons, so a 1280 px window with a classic 17 px scrollbar (1263 px) still holds every control on one line. */}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-1.5 sm:gap-3 xl:gap-1.5 2xl:gap-3">
         <Link href="/" className="inline-flex h-10 shrink-0 items-center gap-2.5 rounded-lg sm:pe-2 font-semibold tracking-tight" aria-label="OnCo home">
           <Mark />
           <span className="text-[15px]">OnCo</span>

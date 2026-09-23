@@ -8,6 +8,21 @@ validate → typecheck → lint → test → `rm -rf out && npm run build` (gate
 `out/coverage/us/index.html`) → commit → `git push origin HEAD` → `vercel deploy --prod --yes --archive=tgz`.
 Merge finished worktree agents before the chain; never `cd` into a worktree; never `vercel link`.
 
+### Proposals bot: what merges itself and what waits (23 Sept 2026)
+The nightly bot (`.github/workflows/propose.yml`) now has two outputs from one decision. EU rows for
+`src/data/regional-approvals.ts` merge themselves when every check passes: `scripts/apply-proposals.ts` reads each EMA
+medicine page (the page's status field and its dates, not the snapshot diff), matches the product by exact INN, brand or
+alias only, maps Authorised, Withdrawn, Application withdrawn and Refused to the file's helpers (A/C, W, R), drops what
+is already on main, writes through `scripts/lib/regional-approvals-io.ts` (round trip tested to be a no-op, so no
+neighbouring row can be swallowed), and the run validates, typechecks and tests (every written row's page re-read)
+before squash-merging the `bot/proposals-auto` pull request, as the weekly maintenance does. Everything else lands on
+the `needs-review` pull request (`bot/proposals`) with the reason on each line: no exact match or several, biosimilar
+or generic (an additional product, never a missing approval), Revoked, Expired, Lapsed, a pending CHMP opinion, a page
+that could not be read, or a hand-written row that disagrees. FDA notices, trial status changes and HTA verdicts stay
+review-only because their sources have no status field to quote. Re-decide any past bot PR with
+`npx tsx scripts/apply-proposals.ts --from=<its public/proposals/latest.json>`; PR 55's 60 rows gave 0 auto, 53 already
+on main, 7 residue.
+
 ## Owner asks in flight (agents)
 - [x] Accurate 3D molecules (ball and stick) and protein ribbons (Molecule3D): merged 10 Sept, deploying
 - [x] Complementary approaches with evidence grades; hair-loss page under Living with cancer: merged 10 Sept

@@ -1,6 +1,7 @@
 import { graph } from "./graph";
 import { NAV_GROUPS } from "./nav";
 import { routeFor, type Kind } from "./kinds";
+import { engineRoute, FORMATS } from "./modular-formats";
 
 export type SearchDoc = { id: string; kind: Kind | "page"; name: string; aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string };
 
@@ -17,7 +18,9 @@ export const SITE_PAGES: ReadonlyArray<{ href: string; label: string; blurb: str
 function pageDocs(): SearchDoc[] {
   const seen = new Set<string>();
   const out: SearchDoc[] = [];
-  const pages = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES];
+  // The open drug engine's format pages are generated from FORMATS, so a search for "radioligand" or "ADC" reaches the grid.
+  const enginePages = FORMATS.map((f) => ({ href: engineRoute(f.id), label: `${f.name}: open drug engine`, blurb: f.blurb }));
+  const pages = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES, ...enginePages];
   for (const it of pages) {
     if (seen.has(it.href)) continue; seen.add(it.href);
     out.push({ id: "page:" + it.href, kind: "page", name: it.label, aka: "", tldr: it.blurb, tags: "page", route: it.href, status: "" });

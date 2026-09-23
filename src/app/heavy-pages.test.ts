@@ -18,6 +18,10 @@ import PathwayDrugsPage from "./pathway-drugs/page";
 import DossierPage from "./dossiers/[id]/page";
 import Startups from "./startups/page";
 import KindIndex from "./[kind]/page";
+import EngineHub from "./pipeline/engine/page";
+import EngineFormat from "./pipeline/engine/[format]/page";
+import { FORMATS } from "@/lib/modular-formats";
+import { formatIndex } from "@/lib/modular";
 import { KIND_PAGE, SECTION_PAGE, TABLE_PAGE } from "@/lib/static-tables";
 import { PAGED_KINDS } from "@/lib/tables/kinds";
 import { KIND_META, KINDS } from "@/lib/kinds";
@@ -222,6 +226,29 @@ describe("paged tables carry one page of rows", () => {
     expect(html).toMatch(/href="\/companies\/[a-z0-9-]+\/?"/);
     // 1.2 MB of HTML before, the browser's rows shipped twice; the budget is on the markup.
     expect(Buffer.byteLength(html, "utf8"), "startups markup").toBeLessThan(250 * KB);
+  });
+
+  it("the open drug engine hub carries counts only, and every format page one page of grid rows", async () => {
+    const hub = render(createElement(EngineHub));
+    expect(hub).toContain("What open drug development means here");
+    for (const f of FORMATS) expect(hub).toMatch(new RegExp(`href="/pipeline/engine/${f.id}/?"`));
+    expect(Buffer.byteLength(hub, "utf8"), "engine hub markup").toBeLessThan(150 * KB);
+    for (const f of FORMATS) {
+      const html = render(await EngineFormat({ params: Promise.resolve({ format: f.id }) }));
+      const idx = formatIndex(f.id)!;
+      const rows = bodyRows(html);
+      // The first tbody is the grid table (the proposals table only renders when proposals exist).
+      expect(rows[0], f.id).toBe(Math.min(TABLE_PAGE, idx.cells.length));
+      if (idx.cells.length > TABLE_PAGE) { expect(html, f.id).toContain("data-more"); expect(html, f.id).toContain(`Show ${Math.min(TABLE_PAGE, idx.cells.length - TABLE_PAGE)} more`); }
+      // The heat grid renders every column and at most its first GRID_FIRST_ROWS rows (data-col and data-row mark the headers).
+      expect((html.match(/data-col="/g) ?? []).length, f.id).toBe(idx.cols.length + 1);
+      expect((html.match(/data-row="/g) ?? []).length, f.id).toBe(Math.min(40, idx.rows.length));
+      expect(html, f.id).toContain('id="stopped"');
+      expect(html, f.id).toContain('id="unresolved"');
+      expect(html, f.id).toContain(`href="/api/v1/pipeline/engine/${f.id}.json"`);
+      // Small molecules: 100 targets by 17 classes; the props for the grid and the first page of rows must stay light.
+      expect(Buffer.byteLength(html, "utf8"), `engine ${f.id} markup`).toBeLessThan(450 * KB);
+    }
   });
 
   it("the PD-1 dossier renders the first 30 of its hundreds of trials", async () => {

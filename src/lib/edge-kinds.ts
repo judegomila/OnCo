@@ -1,7 +1,8 @@
 /**
  * The kinds of signal on /edge/, shared by the server-side aggregator (src/lib/edge.ts), the page and the
  * client-side filter pills (src/components/EdgeFilter.tsx). No file-system imports here so the client bundle
- * stays small: glyph paths, labels, the filter groups and the page each kind deep-links to.
+ * stays small: glyph paths, labels, the page each kind deep-links to, the date labels, and the pure functions
+ * behind the filter (URL state in `?type=` and `?for=`, and the match of an item against a chosen set of records).
  */
 export const EDGE_KINDS = ["approval", "withdrawal", "result", "paper", "preprint", "law", "proposal", "issue"] as const;
 export type EdgeKind = (typeof EDGE_KINDS)[number];
@@ -34,13 +35,93 @@ export const EDGE_KIND_META: Record<EdgeKind, { label: string; plural: string; p
     cadence: "Mondays 07:31 UTC (newsletter.yml); the archive is rebuilt with every deploy." },
 };
 
-/** Filter pills in display order. "all" first; withdrawals and issues have no pill of their own and show under "all" and "approvals". */
-export const EDGE_FILTERS: ReadonlyArray<{ id: "all" | EdgeKind; label: string; kinds: readonly EdgeKind[] }> = [
-  { id: "all", label: "All", kinds: EDGE_KINDS },
-  { id: "paper", label: "Papers", kinds: ["paper"] },
-  { id: "result", label: "Results", kinds: ["result"] },
-  { id: "approval", label: "Approvals", kinds: ["approval", "withdrawal"] },
-  { id: "law", label: "Law", kinds: ["law"] },
-  { id: "preprint", label: "Preprints", kinds: ["preprint"] },
-  { id: "proposal", label: "Proposals", kinds: ["proposal"] },
-];
+export type EdgePrecision = "day" | "month" | "quarter" | "year";
+
+/** "2026-09-13" -> "13 September 2026". */
+export function plainDate(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  if (!y || !m || !d) return iso;
+  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+}
+
+/** Label for an item's date at its own precision. */
+export function edgeDateLabel(it: { date: string; precision: EdgePrecision }): string {
+  if (it.precision === "day") return plainDate(it.date);
+  if (it.precision === "month") { const [y, m] = it.date.split("-").map(Number); return new Date(Date.UTC(y, m - 1, 1)).toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" }); }
+  if (it.precision === "quarter") { const q = /^(\d{4})-Q([1-4])$/.exec(it.date); return q ? `Q${q[2]} ${q[1]}` : it.date; }
+  return it.date;
+}
+
+/** Group key for the day-grouped feed: the day, the month, or the year for year- and quarter-dated items. */
+export const edgeGroupKey = (it: { date: string; precision: EdgePrecision }) => (it.precision === "day" || it.precision === "month" ? it.date : it.date.slice(0, 4));
+
+/** Heading for a group key: the weekday and date, the month, or the year, with a note when the day is not recorded. */
+export const edgeGroupLabel = (key: string): string =>
+  /^\d{4}-\d{2}-\d{2}$/.test(key) ? new Date(`${key}T00:00:00Z`).toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })
+  : /^\d{4}-\d{2}$/.test(key) ? `${edgeDateLabel({ date: key, precision: "month" })}, day not recorded`
+  : `${key}, day not recorded`;
+
+/**
+ * The filter's URL form: `?type=approvals,results` (kinds by their plural slug, comma separated, any order) and
+ * `?for=<cancer id>` for one cancer's view, or `?for=me` for the browser's For me cancer (the id itself stays in
+ * the browser). Unknown values are dropped, so a stale link degrades to the unfiltered page.
+ */
+export const EDGE_TYPE_PARAM = "type";
+export const EDGE_FOR_PARAM = "for";
+export const EDGE_FOR_ME = "me";
+export type EdgeFilterState = { types: EdgeKind[]; for?: string };
+
+/** The `?type=` slug of a kind: its plural in kebab case ("Weekly issues" -> "weekly-issues"; "Law & policy" -> "law"). */
+export const edgeTypeSlug = (k: EdgeKind): string => (k === "law" ? "law" : EDGE_KIND_META[k].plural.toLowerCase().replace(/[^a-z]+/g, "-").replace(/^-|-$/g, ""));
+const SLUG_TO_KIND = new Map<string, EdgeKind>(EDGE_KINDS.flatMap((k) => [[edgeTypeSlug(k), k], [k, k]] as Array<[string, EdgeKind]>));
+export const edgeKindFromSlug = (s: string): EdgeKind | undefined => SLUG_TO_KIND.get(s.trim().toLowerCase());
+
+export function parseEdgeQuery(search: string | URLSearchParams): EdgeFilterState {
+  const p = typeof search === "string" ? new URLSearchParams(search) : search;
+  const seen = new Set<EdgeKind>();
+  for (const raw of p.getAll(EDGE_TYPE_PARAM)) for (const s of raw.split(",")) { const k = edgeKindFromSlug(s); if (k) seen.add(k); }
+  const types = EDGE_KINDS.filter((k) => seen.has(k));
+  const f = p.get(EDGE_FOR_PARAM)?.trim();
+  return { types, for: f && /^[a-z0-9-]+$/i.test(f) ? f : undefined };
+}
+
+/** The query string for a state (with its leading `?`, or "" when nothing is chosen), leaving other keys of `from` alone. Every kind chosen is no filter. */
+export function edgeQuery(state: EdgeFilterState, from?: string | URLSearchParams): string {
+  const p = new URLSearchParams(from);
+  p.delete(EDGE_TYPE_PARAM); p.delete(EDGE_FOR_PARAM);
+  if (state.types.length && state.types.length < EDGE_KINDS.length) p.set(EDGE_TYPE_PARAM, EDGE_KINDS.filter((k) => state.types.includes(k)).map(edgeTypeSlug).join(","));
+  if (state.for) p.set(EDGE_FOR_PARAM, state.for);
+  const s = p.toString();
+  return s ? `?${s.replace(/%2C/g, ",")}` : "";
+}
+
+/** The path of a filtered Edge view, for links from cards, the week strip and cancer pages. */
+export const edgeHref = (state: EdgeFilterState) => `/edge/${edgeQuery(state)}`;
+
+export type EdgeFilterable = { kind: EdgeKind; refIds: readonly string[] };
+
+/**
+ * Does an item pass the filter? Types are a union (any chosen kind; none chosen means every kind); `ids` is the
+ * record set of one cancer (src/lib/for-me-related.ts `edgeIds`) and an item passes when one of its linked records
+ * is in it; the two combine as an intersection. `ids` undefined means no cancer filter.
+ */
+export function edgeMatches(it: EdgeFilterable, types: readonly EdgeKind[], ids?: ReadonlySet<string>): boolean {
+  if (types.length && !types.includes(it.kind)) return false;
+  if (ids && !it.refIds.some((id) => ids.has(id))) return false;
+  return true;
+}
+
+export const filterEdge = <T extends EdgeFilterable>(items: readonly T[], types: readonly EdgeKind[], ids?: ReadonlySet<string>): T[] => items.filter((it) => edgeMatches(it, types, ids));
+
+/** Items of each kind in a list, for the pill counts. */
+export function countEdgeKinds(items: readonly EdgeFilterable[]): Record<EdgeKind, number> {
+  const out = Object.fromEntries(EDGE_KINDS.map((k) => [k, 0])) as Record<EdgeKind, number>;
+  for (const it of items) out[it.kind]++;
+  return out;
+}
+
+/**
+ * The shape of one item in /edge/feed.json (JSON Feed 1.1 with the `_onco` extension, scripts/build-feeds.ts),
+ * as the filter reads it when the page's 200 items are fewer than the feed's 500.
+ */
+export type EdgeFeedJsonItem = { id: string; url: string; title: string; content_text: string; date_published: string; tags: string[]; _onco: { kind: EdgeKind; date: string; precision: EdgePrecision; venue?: string; doi?: string; records: Array<{ id: string; kind: string; name: string; url: string }> } };

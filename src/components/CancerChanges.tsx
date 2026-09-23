@@ -83,13 +83,26 @@ export function FollowLine({ cancer }: { cancer: { id: string; name: string; rou
   );
 }
 
-/** A short preview for the cancer page tab: the newest items and the link to the full list. */
-export function ChangesPreview({ items, total, href }: { items: ChangeItem[]; total: number; href: string }) {
+/** The Edge page filtered to one cancer (`?for=<id>`, src/components/EdgeFilter.tsx): the freshest papers, results and approvals linked to it. */
+export function EdgeForCancerLink({ cancerId, className = "" }: { cancerId: string; className?: string }) {
+  return (
+    <Link href={`/edge/?for=${encodeURIComponent(cancerId)}`} className={`chip border border-border bg-card hover:border-accent hover:bg-accent-soft ${className}`} title="The freshest papers, trial results, approvals and law linked to this cancer, its family and its medicines, on Edge">
+      <svg viewBox="0 0 24 24" aria-hidden focusable="false" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8M15 7h6v6" /></svg>
+      <span>On Edge</span>
+    </Link>
+  );
+}
+
+/** A short preview for the cancer page tab: the newest items, the link to the full list and the Edge view for this cancer. */
+export function ChangesPreview({ items, total, href, cancerId }: { items: ChangeItem[]; total: number; href: string; cancerId?: string }) {
   return (
     <div>
       <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
         <p className="text-sm text-muted">Dated changes read from the records linked to this cancer: approvals, regulatory steps, reported trials, guideline versions and milestones. Newest first; no date is inferred.</p>
-        <Link href={href} className="text-sm underline shrink-0">All {total} changes by month →</Link>
+        <span className="flex flex-wrap items-center gap-2 shrink-0">
+          {cancerId && <EdgeForCancerLink cancerId={cancerId} />}
+          <Link href={href} className="text-sm underline">All {total} changes by month →</Link>
+        </span>
       </div>
       <ul className="grid gap-2 sm:grid-cols-2">{items.map((it, i) => <ChangeRow key={`${it.href}-${it.date}-${i}`} it={it} />)}</ul>
     </div>

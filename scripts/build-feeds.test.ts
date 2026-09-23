@@ -61,4 +61,15 @@ describe("edge feeds", () => {
     expect(xmlProblems(xml)).toEqual([]);
     expect(JSON.parse(edgeFeedJson(edgeFeed(120))).items.length).toBeGreaterThan(0);
   });
+  it("writes a per-type feed under /edge/<type>/ that names the kind and points back at the filtered page", () => {
+    const xml = edgeFeedXml(items.filter((it) => it.kind === "law"), "law");
+    expect(xmlProblems(xml)).toEqual([]);
+    expect(xml).toContain('href="https://onco.cc/edge/law/feed.xml"');
+    expect(xml).toContain('href="https://onco.cc/edge/?type=law"');
+    expect(xml).toContain("<title>OnCo Edge: Law &amp; policy</title>");
+    const j = JSON.parse(edgeFeedJson(items.filter((it) => it.kind === "paper"), "paper")) as { feed_url: string; home_page_url: string; items: unknown[] };
+    expect(j.feed_url).toBe("https://onco.cc/edge/papers/feed.json");
+    expect(j.home_page_url).toBe("https://onco.cc/edge/?type=papers");
+    expect(j.items).toHaveLength(1);
+  });
 });

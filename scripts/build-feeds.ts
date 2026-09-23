@@ -5,7 +5,8 @@
  *   calendar.xml    upcoming readouts, decisions and congresses from src/data/calendar.ts
  *   pulse.xml       the research pulse items, newest first
  * and the Edge feed (src/lib/edge.ts) as Atom and JSON Feed 1.1, written to public/edge/feed.xml and feed.json,
- * the 500 highest-ranked items (the page shows 200).
+ * the 500 highest-ranked items (the page shows 200), plus one feed per kind under public/edge/<type>/ (the 100
+ * highest-ranked of that kind; the page's single-type filter links to it).
  * Called from scripts/build-api.ts during `npm run build`; also runnable alone: `npx tsx scripts/build-feeds.ts`.
  * Output is derived and should be gitignored like public/api/v1/.
  */
@@ -16,7 +17,8 @@ import { routeFor } from "../src/lib/schema";
 import { calendar } from "../src/data/calendar";
 import { pulseItems } from "../src/data/pulse";
 import { SITE, absoluteUrl } from "../src/lib/seo";
-import { EDGE_FEED_CAP, EDGE_KIND_META, edgeDateLabel, edgeFeed, type EdgeItem } from "../src/lib/edge";
+import { EDGE_FEED_CAP, EDGE_KIND_META, EDGE_KINDS, edgeAll, edgeDateLabel, edgeFeed, rankEdge, type EdgeItem, type EdgeKind } from "../src/lib/edge";
+import { edgeTypeSlug } from "../src/lib/edge-kinds";
 
 type Entry = { id: string; title: string; link: string; updated: string; summary?: string; html?: string; related?: string[]; categories?: string[] };
 type Feed = { file: string; title: string; subtitle: string; page: string; entries: Entry[]; /** Site path of the file; defaults to /feeds/<file>. */ path?: string };
@@ -107,18 +109,30 @@ export function edgeEntries(items: EdgeItem[]): Entry[] {
   }));
 }
 
-export function edgeFeedXml(items: EdgeItem[]): string {
-  return feedXml({ file: "feed.xml", path: "/edge/feed.xml", title: EDGE_TITLE, subtitle: EDGE_SUBTITLE, page: "/edge/", entries: edgeEntries(items) });
+/** Items of one kind a per-type feed carries (/edge/<type>/feed.xml); the ranking is the same, restricted to the kind. */
+export const EDGE_TYPE_FEED_CAP = 100;
+
+/** Where a per-type feed lives and what it is called: /edge/<plural slug>/feed.xml, "OnCo Edge: Approvals". */
+export function edgeTypeFeedMeta(kind?: EdgeKind): { dir: string; title: string; subtitle: string; page: string } {
+  if (!kind) return { dir: "/edge/", title: EDGE_TITLE, subtitle: EDGE_SUBTITLE, page: "/edge/" };
+  const meta = EDGE_KIND_META[kind];
+  return { dir: `/edge/${edgeTypeSlug(kind)}/`, title: `${EDGE_TITLE}: ${meta.plural}`, subtitle: `${meta.plural} only, from OnCo Edge, ranked newest first. ${meta.source}`, page: `/edge/?type=${edgeTypeSlug(kind)}` };
+}
+
+export function edgeFeedXml(items: EdgeItem[], kind?: EdgeKind): string {
+  const m = edgeTypeFeedMeta(kind);
+  return feedXml({ file: "feed.xml", path: `${m.dir}feed.xml`, title: m.title, subtitle: m.subtitle, page: m.page, entries: edgeEntries(items) });
 }
 
 /** JSON Feed 1.1 (https://jsonfeed.org/version/1.1); the `_onco` extension carries the kind, venue, date precision and record links. */
-export function edgeFeedJson(items: EdgeItem[]): string {
+export function edgeFeedJson(items: EdgeItem[], kind?: EdgeKind): string {
+  const m = edgeTypeFeedMeta(kind);
   return JSON.stringify({
     version: "https://jsonfeed.org/version/1.1",
-    title: EDGE_TITLE,
-    home_page_url: absoluteUrl("/edge/"),
-    feed_url: absoluteUrl("/edge/feed.json"),
-    description: EDGE_SUBTITLE,
+    title: m.title,
+    home_page_url: absoluteUrl(m.page),
+    feed_url: absoluteUrl(`${m.dir}feed.json`),
+    description: m.subtitle,
     language: "en-GB",
     authors: [{ name: "OnCo", url: `${SITE}/` }],
     items: items.map((it) => ({
@@ -196,6 +210,16 @@ export function buildFeeds(root = process.cwd()): string[] {
   writeFileSync(join(edgeDir, "feed.xml"), edgeFeedXml(edge));
   writeFileSync(join(edgeDir, "feed.json"), edgeFeedJson(edge));
   written.push(`edge/feed.xml + feed.json (${edge.length})`);
+  // One feed per kind, the same ranking restricted to that kind: /edge/<type>/feed.xml and feed.json.
+  const all = edgeAll(root);
+  for (const kind of EDGE_KINDS) {
+    const items = rankEdge(all.filter((it) => it.kind === kind), { cap: EDGE_TYPE_FEED_CAP });
+    const dir = join(edgeDir, edgeTypeSlug(kind));
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(join(dir, "feed.xml"), edgeFeedXml(items, kind));
+    writeFileSync(join(dir, "feed.json"), edgeFeedJson(items, kind));
+    written.push(`edge/${edgeTypeSlug(kind)}/feed.xml + feed.json (${items.length})`);
+  }
   return written;
 }
 

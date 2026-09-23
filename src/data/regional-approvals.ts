@@ -50,7 +50,7 @@ const V = (e: RegionalEntry): RegionalEntry => ({ ...e, verified: true, verified
 const NF = (note?: string): RegionalEntry => ({ status: "not-filed", note });
 const W = (year?: number, source?: string, note?: string): RegionalEntry => ({ status: "withdrawn", year, source, note });
 const UR = (note?: string, source?: string): RegionalEntry => ({ status: "under-review", note, source });
-const R = (year?: number, note?: string): RegionalEntry => ({ status: "rejected", year, note });
+const R = (year?: number, note?: string, source?: string): RegionalEntry => ({ status: "rejected", year, note, source });
 /** EU entry for a legacy product authorised nationally by member states (no centralised EPAR exists). Year only where the first national approval is known. */
 const EU_NATIONAL = (year?: number, note = "National authorisations; no centralised EPAR"): RegionalEntry => A(year, undefined, undefined, note);
 /** Row for a combination regimen: each component holds its own authorisations and there is no single marketing authorisation for the regimen, so the row carries the note rather than a year. */

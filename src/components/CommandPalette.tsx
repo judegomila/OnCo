@@ -1,11 +1,13 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
-import { loadSearch } from "@/lib/search-client";
+import { loadSearch, searchRanked } from "@/lib/search-client";
+import { flattenGroups, groupByKind, type KindGroup } from "@/lib/search-rank";
+import { KindGroupHeader } from "./KindGroupHeader";
 
 // The palette is in the root layout, so its static imports ship with every page. The molecule slot brings the
 // structure index and the 3D drawing code, which only matter once a reader has typed and a drug is in the results;
@@ -15,13 +17,17 @@ const MoleculeSlot = dynamic(() => import("./MoleculeSlot").then((m) => m.Molecu
   loading: () => <span className="inline-flex h-9 w-9 shrink-0 rounded-md border border-border bg-card" aria-hidden />,
 });
 import type { SearchDoc } from "@/lib/search-index";
-import { KIND_META } from "@/lib/kinds";
-import { KIND_COLOR, statusClass } from "@/lib/text";
+import { statusClass } from "@/lib/text";
 import { useT } from "@/lib/i18n/ui";
 
-type Item = { id: string; kind?: SearchDoc["kind"]; name: string; tldr: string; route: string; status?: string; action?: true };
+type Item = { id: string; kind: SearchDoc["kind"]; name: string; tldr: string; route: string; status?: string; action?: true };
 
-const PAGES: Item[] = [
+/** Rows the palette shows in all for a query, across every kind group. */
+const VISIBLE = 14;
+/** Tool pages matched by their own text, before the index is consulted. */
+const PAGE_MATCHES = 3;
+
+const PAGES: Item[] = ([
   { id: "p-search", name: "Search: words and concepts", tldr: "Full results with the reason each matched", route: "/search/", action: true },
   { id: "p-path", name: "Path finder", tldr: "Shortest routes between any two objects", route: "/path/", action: true },
   { id: "p-explore", name: "Explore", tldr: "Pick a cancer, switch kind, sort and filter", route: "/explore/", action: true },
@@ -40,7 +46,10 @@ const PAGES: Item[] = [
   { id: "p-hub", name: "Roadmap", tldr: "What OnCo is building next, in waves, with status", route: "/roadmap/", action: true },
   { id: "p-api", name: "Open API", tldr: "The corpus as JSON, CSV and feeds", route: "/api/", action: true },
   { id: "p-about", name: "About and methodology", tldr: "Rules for facts, ranking formula, licence", route: "/about/", action: true },
-];
+] as Array<Omit<Item, "kind">>).map((p) => ({ ...p, kind: "page" as const }));
+
+/** The empty palette: every tool page under one "Pages" header. */
+const PAGE_GROUPS: KindGroup<Item>[] = groupByKind(PAGES, PAGES.length, PAGES.length);
 
 /** `g` then one of these keys jumps to the page. */
 const GOTO: Array<{ key: string; route: string; label: string }> = [
@@ -85,7 +94,10 @@ export function CommandPalette() {
   const [open, setOpen] = useState(false);
   const [sheet, setSheet] = useState(false);
   const [q, setQ] = useState("");
-  const [items, setItems] = useState<Item[]>(PAGES);
+  // Results grouped by kind in tier order (cancers first, then treatments and trials, and so on); `items` is the
+  // flattened keyboard order and `active` indexes it. Group headers are presentation rows the arrows skip.
+  const [groups, setGroups] = useState<KindGroup<Item>[]>(PAGE_GROUPS);
+  const items = useMemo(() => flattenGroups(groups), [groups]);
   const [active, setActive] = useState(0);
   const [ready, setReady] = useState(false);
   const [indexed, setIndexed] = useState(0);
@@ -145,15 +157,18 @@ export function CommandPalette() {
   const run = useCallback((value: string) => {
     setActive(0);
     const needle = value.trim().toLowerCase();
-    if (!needle) { setItems(PAGES); return; }
-    const pages = PAGES.filter((p) => `${p.name} ${p.tldr}`.toLowerCase().includes(needle)).slice(0, 3);
+    if (!needle) { setGroups(PAGE_GROUPS); return; }
+    const pages = PAGES.filter((p) => `${p.name} ${p.tldr}`.toLowerCase().includes(needle)).slice(0, PAGE_MATCHES);
     loadSearch().then(({ ms }) => {
-      const hits = (ms.search(value).slice(0, 14) as unknown as SearchDoc[]).map((h) => ({ id: h.id, kind: h.kind, name: h.name, tldr: h.tldr, route: h.route, status: h.status }));
-      setItems([...pages, ...hits]);
+      // The whole ranked list comes back so the grouping can take the top rows of each kind; a page the tool list
+      // already matched is not repeated from the index.
+      const seen = new Set(pages.map((p) => p.route));
+      const hits: Item[] = searchRanked(ms, value).filter((h) => !seen.has(h.route)).map((h) => ({ id: h.id, kind: h.kind, name: h.name, tldr: h.tldr, route: h.route, status: h.status }));
+      setGroups(groupByKind([...pages, ...hits], VISIBLE));
     });
   }, []);
 
-  const go = (item: Item) => { setOpen(false); setQ(""); setItems(PAGES); router.push(item.route); };
+  const go = (item: Item) => { setOpen(false); setQ(""); setGroups(PAGE_GROUPS); router.push(item.route); };
 
   /** Focus trap: Tab cycles through the dialog's own controls (the input and the footer button) and never leaves. */
   const trap = (e: React.KeyboardEvent) => {
@@ -173,7 +188,13 @@ export function CommandPalette() {
     else if (e.key === "End") { e.preventDefault(); setActive(items.length - 1); }
     else if (e.key === "Enter" && items[active]) { e.preventDefault(); go(items[active]); }
   };
-  useEffect(() => { list.current?.children[active]?.scrollIntoView({ block: "nearest" }); }, [active]);
+  useEffect(() => { list.current?.querySelector(`#palette-opt-${active}`)?.scrollIntoView({ block: "nearest" }); }, [active]);
+
+  // Render order: each group's header, then its rows numbered on through the flat list so ids and `active` agree.
+  const rows = useMemo(() => {
+    let i = 0;
+    return groups.map((g) => ({ kind: g.kind, rows: g.items.map((it) => ({ it, i: i++ })) }));
+  }, [groups]);
 
   if (sheet && !open) return <ShortcutsSheet onClose={() => setSheet(false)} />;
   if (!open) return null;
@@ -190,19 +211,21 @@ export function CommandPalette() {
         <ul id="palette-list" ref={list} className="max-h-[60vh] overflow-auto py-1" role="listbox" aria-label="Results">
           {!ready && q && <li className="px-4 py-3 text-sm text-muted" role="presentation">Loading index…</li>}
           {items.length === 0 && ready && <li className="px-4 py-3 text-sm text-muted" role="presentation">No matches.</li>}
-          {items.map((it, i) => (
-            <li key={it.id} id={`palette-opt-${i}`} role="option" aria-selected={i === active} onMouseEnter={() => setActive(i)} onMouseDown={(e) => { e.preventDefault(); go(it); }}
-              className={`flex items-start gap-3 px-4 py-2 cursor-pointer ${i === active ? "bg-foreground/5" : ""}`}>
-              {it.kind === "drug" && <MoleculeSlot drugId={it.id} name={it.name} className="h-9 w-9" />}
-              <span className={`chip mt-0.5 border shrink-0 ${it.kind ? KIND_COLOR[it.kind] : "bg-foreground/5 border-border"}`}>{it.kind && it.kind !== "page" ? kindName(it.kind, "label") ?? KIND_META[it.kind].label : "Page"}</span>
-              <span className="min-w-0 flex-1">
-                <span className="block text-sm font-medium truncate">{it.name}</span>
-                <span className="block text-xs text-muted line-clamp-1">{it.tldr}</span>
-              </span>
-              {it.status && <span className={`chip shrink-0 ${statusClass(it.status)}`}>{statusName(it.status)}</span>}
-              {i === active && <kbd className="hidden sm:inline text-[10px] text-muted border border-border rounded px-1.5 py-0.5 self-center" aria-hidden>↵</kbd>}
-            </li>
-          ))}
+          {rows.map((g) => [
+            <KindGroupHeader key={`h-${g.kind}`} kind={g.kind} label={g.kind === "page" ? undefined : kindName(g.kind, "title")} />,
+            ...g.rows.map(({ it, i }) => (
+              <li key={it.id} id={`palette-opt-${i}`} role="option" aria-selected={i === active} onMouseEnter={() => setActive(i)} onMouseDown={(e) => { e.preventDefault(); go(it); }}
+                className={`flex items-start gap-3 px-4 py-1.5 cursor-pointer ${i === active ? "bg-foreground/5" : ""}`}>
+                {it.kind === "drug" && <MoleculeSlot drugId={it.id} name={it.name} className="h-9 w-9" />}
+                <span className="min-w-0 flex-1">
+                  <span className="block text-sm font-medium truncate">{it.name}</span>
+                  <span className="block text-xs text-muted line-clamp-1">{it.tldr}</span>
+                </span>
+                {it.status && <span className={`chip shrink-0 ${statusClass(it.status)}`}>{statusName(it.status)}</span>}
+                {i === active && <kbd className="hidden sm:inline text-[10px] text-muted border border-border rounded px-1.5 py-0.5 self-center" aria-hidden>↵</kbd>}
+              </li>
+            )),
+          ])}
         </ul>
         <div className="flex items-center gap-4 px-4 py-2 border-t border-border text-[11px] text-muted">
           <span><kbd className="border border-border rounded px-1">↑</kbd> <kbd className="border border-border rounded px-1">↓</kbd> navigate</span>

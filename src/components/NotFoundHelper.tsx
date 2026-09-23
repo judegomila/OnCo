@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { loadSearch } from "@/lib/search-client";
+import { loadSearch, searchRanked } from "@/lib/search-client";
 import { KindIcon } from "./KindIcon";
 import type { SearchDoc } from "@/lib/search-index";
 import { KIND_META, type Kind } from "@/lib/kinds";
@@ -34,7 +34,7 @@ export function NotFoundHelper() {
       setS({ path, query, kind, referrer, rows: query ? null : [] });
       if (!query) return;
       loadSearch()
-        .then(({ ms }) => { if (live) setS((prev) => (prev ? { ...prev, rows: ms.search(query).slice(0, TOP) as unknown as SearchDoc[] } : prev)); })
+        .then(({ ms }) => { if (live) setS((prev) => (prev ? { ...prev, rows: searchRanked(ms, query, TOP) as SearchDoc[] } : prev)); })
         .catch(() => { if (live) setS((prev) => (prev ? { ...prev, rows: [] } : prev)); });
     });
     return () => { live = false; cancelAnimationFrame(id); };

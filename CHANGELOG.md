@@ -7,6 +7,12 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 23 September 2026
+- Open pipeline engine, tag power search pages and full-width tabs, Edge type and For you filters, API licence wording, For me browser-only notice
+- api layout: drop the entries duplicated by the engine merge
+- Record pages: full-width tab strip above both columns; tag chips open /tagged/ power-search pages
+- API page licence wording matches the footer and about page; For me says it is browser-only with a signed-in version coming
+- Open drug engine: every medicine taken apart into its modules, and the permutation grid per format with each cell classified from records
+- Edge: filter by type or For you, with URL state, per-cancer deep links and per-type feeds
 - Search ranks cancers and treatments first and groups results by kind
 - Search ranks cancers and treatments above journals and papers, with kind-grouped dropdowns
 - Top bar without the tagline, with the weekly bot refreshes merged

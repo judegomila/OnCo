@@ -68,6 +68,7 @@
 ## Start here
 
 - [Explore](https://onco.cc/explore/): Pick a cancer, switch kind, get a ranked and sortable list.
+- [Tags](https://onco.cc/tagged/): Every tag with its count; each opens a filterable table of the records carrying it, whatever their kind.
 - [Search](https://onco.cc/search/): Word and concept search side by side, each result explaining why it matched.
 - [Path finder](https://onco.cc/path/): How any two objects are related: shortest routes with every relationship named.
 - [For me](https://onco.cc/for-me/): Choose your cancer type(s) and see what works and what could work.
@@ -133,6 +134,7 @@
 - [Deals and licences](https://onco.cc/deals/): Who bought or licensed what, for how much, and where assets flow between regions.
 - [Exclusivity expiry](https://onco.cc/exclusivity/): When each product loses patent or regulatory exclusivity, and the biosimilars and generics coming.
 - [Pipeline funnel](https://onco.cc/pipeline/): Assets by phase for any target, modality or cancer, and how crowded each target is.
+- [Open drug engine](https://onco.cc/pipeline/engine/): Every medicine taken apart into its modules, and the grid of every combination: approved, in development, tried and stopped with the reason, or never tried.
 - [Addressable population](https://onco.cc/market/): Incidence times prevalence times setting share, every input linked, as a range.
 - [Readout calendar](https://onco.cc/calendar/): Decisions, readouts, advisory committees, congresses.
 - [Congress digests](https://onco.cc/digests/): ASCO, ESMO, AACR, ASCO GU, sourced item by item.

@@ -17,6 +17,11 @@ import AuditPage from "./audit/page";
 import PathwayDrugsPage from "./pathway-drugs/page";
 import DossierPage from "./dossiers/[id]/page";
 import Startups from "./startups/page";
+import Genome from "./targets/genome/page";
+import { genomeHub } from "@/lib/tables/genome";
+import { GENOME_TABLE } from "@/lib/genome-hub";
+import { kindBrowser } from "@/lib/tables/kinds";
+import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL } from "@/lib/kinds";
 import KindIndex from "./[kind]/page";
 import EngineHub from "./pipeline/engine/page";
 import EngineFormat from "./pipeline/engine/[format]/page";
@@ -251,6 +256,42 @@ describe("paged tables carry one page of rows", () => {
       // Small molecules: 100 targets by 17 classes; the props for the grid and the first page of rows must stay light.
       expect(Buffer.byteLength(html, "utf8"), `engine ${f.id} markup`).toBeLessThan(450 * KB);
     }
+  });
+
+  it("the gene hub renders the first 30 genes of every role, the whole counts, the Show more sentinel and the JSON link", () => {
+    const html = render(createElement(Genome));
+    const hub = genomeHub();
+    expect(hub.genes.length).toBeGreaterThan(1000);
+    expect(hub.more).toEqual({ total: hub.genes.length, src: `/api/v1/tables/${GENOME_TABLE}.json` });
+    // One section per role that has genes, in role order, each with its whole count and at most TABLE_PAGE chips.
+    const sections = html.split('<section class="mt-10 scroll-mt-28" id="').slice(1);
+    expect(sections).toHaveLength(hub.sections.length);
+    sections.forEach((s, i) => {
+      const sec = hub.sections[i];
+      expect(s.startsWith(`${sec.role}"`), sec.role).toBe(true);
+      expect((s.match(/class="chip border bg-card/g) ?? []).length, sec.role).toBe(Math.min(TABLE_PAGE, sec.total));
+      expect(s, sec.role).toContain(`${sec.total.toLocaleString("en-GB")}</span>`);
+      // The role's split by evidence tier, each a deep link into this hub.
+      for (const tier of Object.keys(sec.tiers)) expect(s, `${sec.role} ${tier}`).toContain(`href="/targets/genome/?role=${sec.role}&amp;evidence=${tier}"`);
+    });
+    const paged = hub.sections.filter((s) => s.total > TABLE_PAGE);
+    expect(paged.length).toBeGreaterThan(0);
+    expect((html.match(/data-more/g) ?? []).length).toBe(paged.length);
+    expect(html).toContain(`Show ${TABLE_PAGE} more`);
+    expect(html).toContain(hub.genes.length.toLocaleString("en-GB"));
+    // Real chips for search engines: gene symbols linking to their pages, and the role and evidence pills with counts.
+    expect(html).toMatch(/href="\/targets\/[a-z0-9-]+\/?"/);
+    for (const s of hub.sections) expect(html).toContain(`href="/targets/genome/?role=${s.role}"`);
+    for (const tier of Object.keys(hub.tiers)) expect(html).toContain(`href="/targets/genome/?evidence=${tier}"`);
+    // Crawlers and agents reach every gene without the sections' fetch.
+    expect(html).toContain("data-genome-export");
+    expect(html).toContain(`href="/api/v1/tables/${GENOME_TABLE}.json"`);
+    // The target browser's role and evidence facets page the same set: every label the hub uses is a counted facet value in kind-targets.
+    const counts = kindBrowser("target").counts;
+    for (const s of hub.sections) expect(counts.role.find(([v]) => v === TARGET_ROLE_LABEL[s.role])?.[1], s.role).toBe(s.total);
+    for (const [tier, n] of Object.entries(hub.tiers)) expect(counts.evidence.find(([v]) => v === EVIDENCE_TIER_LABEL[tier as keyof typeof EVIDENCE_TIER_LABEL])?.[1], tier).toBe(n);
+    // 940 KB of markup (2,083 chips: 1,447 genes under every role each holds) and 2.1 MB of HTML before; the budget is on the markup.
+    expect(Buffer.byteLength(html, "utf8"), "genome hub markup").toBeLessThan(600 * KB);
   });
 
   it("the PD-1 dossier renders the first 30 of its hundreds of trials", async () => {

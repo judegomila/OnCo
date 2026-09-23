@@ -20,7 +20,7 @@ import type { TargetSchematicTarget } from "./TargetSchematic";
 import type { Kind } from "@/lib/kinds";
 import { fallbackSlot, visualSource } from "@/lib/row-visual";
 import { STATUS_LABEL, STATUS_TIPS, statusClass } from "@/lib/text";
-import { baseSortFor, cellText, compareBrowserRows, isFacetLink, isRich, itemLabel, STATUS_ORDER } from "@/lib/browser-sort";
+import { baseSortFor, cellText, compareBrowserRows, isFacetLink, isRich, isYearRange, itemLabel, STATUS_ORDER } from "@/lib/browser-sort";
 import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
 import { useRemoteRows } from "./filters/FilterableTable";
@@ -91,8 +91,14 @@ export type LinkList = LinkItem[];
 export type FacetLink = { facet: string; value: string; label?: string; tip?: string };
 /** Free text with glossary marks: each mark is a span with a one-line explanation and a link to the term page. */
 export type RichText = { text: string; marks: Array<{ s: number; e: number; label: string; tip: string; href: string }> };
+/**
+ * A span of years such as a product's approvals: `first` prints in the foreground weight, "to `last`" muted after it
+ * when the two differ, and `regions` (the row's own region strings, "US", "EU", "China") become small flags with a
+ * tooltip. Sorting uses the row's `sortKeys` (the first year), never the text.
+ */
+export type YearRange = { first: number; last?: number; regions?: string[] };
 /** Anything a table cell can hold. Lists may mix entity links and facet chips (e.g. a trial's sponsors). */
-export type CellValue = string | number | undefined | RichText | FacetLink | Array<LinkItem | FacetLink>;
+export type CellValue = string | number | undefined | RichText | FacetLink | YearRange | Array<LinkItem | FacetLink>;
 
 /** Re-exported for the pages and tests that read cell text; the definition lives in src/lib/browser-sort.ts beside the row comparator. */
 export { cellText };
@@ -103,7 +109,62 @@ const NORMALISERS: Record<"phase", (value: string) => string> = { phase: normali
 export type FacetDef = { key: string; label: string; searchable?: boolean; width?: string; order?: string[]; normalise?: "phase" };
 export type ColDef = { key: string; label: string; sortable?: boolean; hide?: string; className?: string; numeric?: boolean; chip?: boolean; tip?: string; /** Tips for chip/string values keyed by value, e.g. { "Phase 3": "..." }. */ valueTips?: Record<string, string>;
   /** The facet this column filters from its header. Defaults to the facet with the column's key, or the facet its chips point at; `null` turns the header filter off. */
-  facet?: string | null };
+  facet?: string | null;
+  /** Most linked objects a list cell shows before a "+N more" pill that expands the rest inline (default LIST_CAP). */
+  cap?: number };
+
+/** Default cap on the linked objects a list cell shows before its "+N more" pill. */
+export const LIST_CAP = 3;
+
+/**
+ * A list cell capped at `cap` items: the rest sit behind a "+N more" pill (a button, so no anchor nests in an
+ * anchor) whose tooltip names them; pressing it shows every item inline. The record's own page always has the
+ * full list, so the pill is a shortcut, not the only way to the rest.
+ */
+function CappedList({ items, cap, render, allChips, muted }: { items: Array<LinkItem | FacetLink>; cap: number; render: (item: LinkItem | FacetLink, i: number) => React.ReactNode; allChips: boolean; muted: string }) {
+  const [open, setOpen] = useState(false);
+  const { t } = useT();
+  const shown = open ? items : items.slice(0, cap);
+  const hidden = items.length - shown.length;
+  const body = shown.map((l, i) => <span key={"href" in l ? `l:${l.href}` : `f:${l.facet}:${l.value}`}>{i > 0 && !allChips && ", "}{render(l, i)}</span>);
+  if (!hidden) return <span className={allChips ? "inline-flex flex-wrap gap-1" : muted}>{body}</span>;
+  const rest = items.slice(cap).map(itemLabel);
+  const tip = t("table.moreItemsTip", { list: rest.slice(0, 6).join(", ") + (rest.length > 6 ? "…" : ""), total: items.length });
+  return (
+    <span className={allChips ? "inline-flex flex-wrap items-center gap-1" : muted} data-capped-list>
+      {body}{!allChips && " "}
+      <Tip title={t("table.moreItems", { n: hidden })} text={tip}>
+        <button type="button" onClick={() => setOpen(true)} aria-expanded={false} data-pill="more"
+          className="chip align-baseline cursor-pointer bg-foreground/5 text-muted hover:bg-accent-soft hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 inline-flex items-center gap-1">
+          <svg aria-hidden viewBox="0 0 24 24" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><path d="M12 5v14M5 12h14" /></svg>
+          {t("table.moreItems", { n: hidden }).replace(/^\+/, "")}
+        </button>
+      </Tip>
+    </span>
+  );
+}
+
+/**
+ * A year range cell: the first year in the foreground weight, a muted "to <latest>" only when the two differ, a
+ * tooltip "First approval 2007, latest 2017", and one small flag per region the row records (unknown regions are
+ * named in the tooltip instead).
+ */
+function YearRangeCell({ value, tipTitle }: { value: YearRange; tipTitle: string }) {
+  const { t } = useT();
+  const last = value.last && value.last !== value.first ? value.last : undefined;
+  const regions = [...new Set((value.regions ?? []).map((r) => r.trim()).filter(Boolean))];
+  const flagged = regions.map((r) => ({ r, flag: flagFor(r) })).filter((x) => x.flag);
+  const tip = `${t("table.firstApproval", { first: value.first, last: last ?? value.first })}${regions.length ? `. ${regions.length === 1 ? regions[0] : `${regions.length} regions: ${regions.join(", ")}`}` : ""}.`;
+  return (
+    <Tip title={tipTitle} text={tip}>
+      {/* The years are one unbreakable unit; the flags may drop to a second line, so the column is never wider than "2007 to 2017". */}
+      <span className="inline-flex flex-wrap items-baseline gap-x-1.5 gap-y-0.5 tabular-nums cursor-help" data-year-range>
+        <span className="whitespace-nowrap"><span className="text-foreground" data-year-first>{value.first}</span>{last && <> <span className="text-muted text-xs" data-year-last>to {last}</span></>}</span>
+        {flagged.length > 0 && <span className="inline-flex gap-0.5 text-[11px] leading-none" aria-label={`${flagged.length} ${flagged.length === 1 ? "region" : "regions"}`}>{flagged.map((x) => <span key={x.r} aria-hidden>{x.flag}</span>)}</span>}
+      </span>
+    </Tip>
+  );
+}
 
 const STATUS_FACET: FacetDef = { key: "status", label: "Phase / status", searchable: false, width: "w-48", order: STATUS_ORDER };
 const QUERY_KEY = "q";
@@ -333,7 +394,7 @@ export function EntityBrowser({ rows: first, more, counts, facets, columns, noun
     return (
       <Tip title={label} text={tip}>
         <button type="button" onClick={() => clickFacet(f)} aria-label={t("table.filterBy", { facet: fl, value: label })} aria-pressed={on}
-          className={`chip cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 inline-flex items-center gap-1 ${look}`}>
+          className={`chip max-w-44 cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 inline-flex items-center gap-1 ${look}`}>
           <ValueIcon facet={f.facet} value={label} />{label}
         </button>
       </Tip>
@@ -344,8 +405,9 @@ export function EntityBrowser({ rows: first, more, counts, facets, columns, noun
     : <Link href={l.href} className="hover:underline hover:text-foreground">{l.label}</Link>);
 
   const tableCols: Column<BrowserRow>[] = [
+    // The name cell is bounded: its TL;DR would otherwise pull the whole column as wide as the longest summary and push the last columns off the page.
     { key: "name", label: t("name"), sortable: true, render: (r) => (
-      <div className="min-w-[220px] flex items-start gap-2">
+      <div className="min-w-[220px] max-w-[24rem] flex items-start gap-2">
         {r.molecule && <MoleculeSlot drugId={r.molecule} modality={r.modality} name={r.name} className={moleculeClass} />}
         {r.target && <TargetThumb target={r.target} route={r.route} />}
         {r.schematic && <TechThumb id={r.schematic.id} sections={r.schematic.sections} name={r.name} route={r.route} />}
@@ -373,11 +435,11 @@ export function EntityBrowser({ rows: first, more, counts, facets, columns, noun
           return <span className="text-muted">{parts}</span>;
         }
         if (isFacetLink(v)) return facetChip(v, c.valueTips?.[itemLabel(v)]);
+        if (isYearRange(v)) return <YearRangeCell value={v} tipTitle={tl(c.label)} />;
         if (Array.isArray(v)) {
           const allChips = v.every((i) => !("href" in i));
-          return <span className={allChips ? "inline-flex flex-wrap gap-1" : `text-muted ${c.numeric ? "tabular-nums" : ""}`}>{v.map((l, i) => "href" in l
-            ? <span key={`l:${l.href}`}>{i > 0 && ", "}{entityLink(l)}</span>
-            : <span key={`f:${l.facet}:${l.value}`}>{i > 0 && !allChips && ", "}{facetChip(l, c.valueTips?.[itemLabel(l)])}</span>)}</span>;
+          return <CappedList items={v} cap={c.cap ?? LIST_CAP} allChips={allChips} muted={`text-muted ${c.numeric ? "tabular-nums" : ""}`}
+            render={(l) => ("href" in l ? entityLink(l) : facetChip(l, c.valueTips?.[itemLabel(l)]))} />;
         }
         const vt = c.valueTips?.[String(v)];
         // Short categorical values (Phase 3, Public, 2024) stay on one line, so a narrow column never splits them.

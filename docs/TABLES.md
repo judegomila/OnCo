@@ -1,4 +1,4 @@
-# Tables: filter state (22 Sept 2026)
+# Tables: filter state and width (22 and 23 Sept 2026)
 
 Every file under src/app and src/components containing `<table` (75 files, `src/app/nested-anchors.test.ts` and `src/components/MarkdownLite.tsx` excluded: a test scanner and a markdown renderer, not tables). One line each: file, what it lists, and how it filters today.
 
@@ -73,6 +73,42 @@ The gene hub (/targets/genome/, `src/lib/tables/genome.ts`, `src/components/Geno
 Why not `/api/v1/<plural>.json` for the rows themselves: those files hold the raw records, while a browser row carries what the graph derives for the table (linked names and routes with their TL;DR tips, counts of linked objects with deep links, facet chips, glossary marks, ranking scores), which would need the whole graph on the client to rebuild. The browser-row file is a table file like the others; the raw kind file is what the page links for the whole set.
 
 Markup of the paged kind pages when written, from `src/app/heavy-pages.test.ts` (the budget is 600 KB each; the payload adds the same 60 rows as compact JSON): trials 289 KB, key papers 276 KB, drugs 277 KB, ideas 361 KB, people 246 KB, companies 235 KB, targets 224 KB, institutions 215 KB, technologies 205 KB, terms 176 KB, cancers 524 KB (of which the tile grid with the 328 TL;DR tooltips is about 280 KB). Expected live HTML: roughly 350 to 500 KB for each, /cancers/ about 600 KB; against 0.7 to 7.8 MB before.
+
+## Kind browsers: width at 1280 and 1440 px (measured 23 Sept 2026)
+
+Owner report: "table last column grey broken here https://onco.cc/drugs/". At 1440 px the drugs table was 1,334 px wide in a 1,230 px card: the Approved header was clipped, the page scrolled sideways, the Approved cells read as grey ranges ("2007 to 2017") and Cancers wrapped six lines deep. Column minimum widths were the cause, in order of size: a facet chip for a long modality string such as "Fluorescence-guided surgery agent (protoporphyrin IX precursor)" (322 px, chips never wrap), the Phase / status chip with seven flags (249 px), the name cell (248 px) and the nowrap year range (116 px).
+
+What changed, for every EntityBrowser table:
+
+- `src/components/filters/ResultsTable.tsx`: the table sits in a `ScrollRow` (`fitClass="overflow-x-auto lg:overflow-x-visible"`): while it fits, the box is visible from lg so the header can stick to the viewport as before; measured wider than its card, the box becomes a sideways scroller with the edge fade and arrows, and the page never widens. `scroll` keeps the box scrolling at every width.
+- `src/components/EntityBrowser.tsx`: list cells show `cap` linked names (column `cap`, default `LIST_CAP` = 3) and a "+N more" pill (a button with a plus glyph; its tooltip names the rest; pressing it shows every name inline). The name cell is bounded at 24 rem; facet chips in cells are capped at 11 rem with an ellipsis (the full label is in the tooltip). A `YearRange` cell value (`{ first, last?, regions? }`) prints the first year in the foreground weight, a muted "to <latest>" only when the years differ, a tooltip "First approval 2007, latest 2017" with the regions, and one small flag per region the row records (flags may drop to a second line, so the column is never wider than the years). Sorting stays numeric on `sortKeys` (the first year); `cellText` gives "2007 to 2017" for search and export.
+- `src/components/ApprovalChip.tsx`: at most four flags inside the chip, then "+N"; the tooltip still names every region.
+- `src/lib/kind-browser.ts`: drugs' Targets, Cancers and Companies columns take `cap: 2`; Approved is a `YearRange` with the regions from `approvals[]`. No other kind browser has a year range column (trials and papers show a single year; technologies show `since`).
+
+Every kind index on the dev server at 1280 and 1440 px, headless Chrome with a classic 15 px scrollbar (`/tmp/drafts/onco-overflow/audit.mjs`, `WIDTHS=1280,1440`): table width against its card, and the deepest cell in lines of text, after the change. Before it only /drugs/ overflowed (1,334 px at both widths).
+
+| Page | 1280: table / card | 1440: table / card | Deepest cell (lines) |
+| --- | ---: | ---: | ---: |
+| /cancers/ | 1,215 / 1,215 | 1,230 / 1,230 | 5 |
+| /fronts/ | 1,215 / 1,215 | 1,230 / 1,230 | 4 |
+| /technologies/ | 1,215 / 1,215 | 1,230 / 1,230 | 6 |
+| /targets/ | 1,215 / 1,215 | 1,230 / 1,230 | 6 |
+| /drugs/ | 1,215 / 1,215 (was 1,334) | 1,230 / 1,230 (was 1,334) | 9 (was 26) |
+| /companies/ | 1,215 / 1,215 | 1,230 / 1,230 | 6 |
+| /institutions/ | 1,215 / 1,215 | 1,230 / 1,230 | 5 |
+| /pathways/ | 1,215 / 1,215 | 1,230 / 1,230 | 5 |
+| /terms/ | 1,215 / 1,215 | 1,230 / 1,230 | 6 |
+| /trials/ | 1,215 / 1,215 | 1,230 / 1,230 | 7 |
+| /pairings/ | 1,215 / 1,215 | 1,230 / 1,230 | 7 |
+| /roadmaps/ | 1,215 / 1,215 | 1,230 / 1,230 | 8 |
+| /ideas/ | 1,215 / 1,215 | 1,230 / 1,230 | 10 |
+| /collections/ | 1,215 / 1,215 | 1,230 / 1,230 | 7 |
+| /people/ | 1,215 / 1,215 | 1,230 / 1,230 | 9 |
+| /journals/ | 1,215 / 1,215 | 1,230 / 1,230 | 6 |
+| /key-papers/ | 1,215 / 1,215 | 1,230 / 1,230 | 13 |
+| /bottlenecks/ | 1,215 / 1,215 | 1,230 / 1,230 | 6 |
+
+The deepest cells are the name column (a long name, its sub-line and the two-line TL;DR) and, on /key-papers/ and /ideas/, a long title; no list cell now runs past its cap. Not a table finding, recorded for the owner: at exactly 1280 px with a classic scrollbar (Windows, Linux, headless Chrome) the site header itself is 37 px wider than the viewport on every page, from the full navigation plus the search, region, language, theme, GitHub and "Sign in/up" controls; the `xl` navigation appears at 1280 px and the label of the sign-in control is a deliberate, tested choice (`src/components/SiteChrome.test.ts`), so nothing was changed here. Options if wanted: hide the star count below 2xl, or the sign-in label between xl and 2xl.
 
 ## On the shared header filter before this round
 

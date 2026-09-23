@@ -21,6 +21,8 @@ export type TestRow = {
   eu: string;
   statuses: RegStatus[];
   technologies: { id: string; name: string; route: string; kind: string }[];
+  /** Biomarker readouts (kind "biomarker") this test reports, as links. */
+  readouts?: { id: string; name: string; route: string; glyph: string }[];
   note?: string;
 };
 

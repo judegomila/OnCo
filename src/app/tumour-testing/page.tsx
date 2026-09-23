@@ -10,6 +10,7 @@ import { KindIcon } from "@/components/KindIcon";
 import { Logo } from "@/components/Logo";
 import { REG_LABEL, REG_ORDER, SCOPE_LABEL, SCOPE_PLAIN, TUMOUR_TESTS, regulatoryStatuses, type RegStatus, type SampleType, type TestScope, type TumourTest } from "@/data/tumour-tests";
 import { REG_CLASS, SAMPLE_CLASS, SAMPLE_LABEL, SAMPLE_ORDER, SAMPLE_PLAIN, SCOPE_CLASS, SCOPE_ORDER, SampleIcon, ScopeIcon, StatusIcon } from "./glyphs";
+import { MEASUREMENT_META, readoutsForTest } from "@/lib/biomarkers";
 import { filterHref, type TestRow } from "./filter";
 import { TestsTable } from "./TestsTable";
 
@@ -32,6 +33,7 @@ function toRow(t: TumourTest, company: Company | undefined): TestRow {
     recordRoute: record ? routeFor(record) : undefined, recordKind: record?.kind,
     sample: t.sample, scope: t.scope, returns: t.returns, us: t.regulatory.us ?? "", eu: t.regulatory.eu ?? "",
     statuses: regulatoryStatuses(t.regulatory), technologies, note: t.note,
+    readouts: readoutsForTest(t.id).map((bm) => ({ id: bm.id, name: bm.name.replace(/\s*\(.*$/, ""), route: routeFor(bm), glyph: MEASUREMENT_META[bm.measurement].glyph })),
   };
 }
 

@@ -171,7 +171,7 @@ export function TestsTable({ rows, initialFilter = {} }: { rows: TestRow[]; init
                   <td className="py-3 pr-3">
                     <button type="button" onClick={() => toggle("scope", r.scope)} aria-pressed={filter.scope === r.scope} title={SCOPE_PLAIN[r.scope]} className={`chip text-xs border ${filter.scope === r.scope ? "border-accent" : "border-transparent"} ${SCOPE_CLASS[r.scope]}`}><ScopeIcon scope={r.scope} /><span>{SCOPE_LABEL[r.scope]}</span></button>
                   </td>
-                  <td className="py-3 pr-3 text-sm leading-relaxed min-w-[16rem]">{r.returns}</td>
+                  <td className="py-3 pr-3 text-sm leading-relaxed min-w-[16rem]">{r.returns}{r.readouts && r.readouts.length > 0 && <div className="mt-1.5 flex flex-wrap gap-1">{r.readouts.map((b) => <Link key={b.id} href={b.route} className="chip text-xs border border-border bg-card hover:border-accent" title={`Readout page: ${b.name}`}><span aria-hidden className="text-accent me-1">{b.glyph}</span>{b.name}</Link>)}</div>}</td>
                   <td className="py-3 pr-3 text-sm hidden lg:table-cell">
                     {r.statuses.length > 0 && <div className="flex flex-wrap gap-1 mb-1">{r.statuses.map((s) => <button key={s} type="button" onClick={() => toggle("status", s)} aria-pressed={filter.status === s} title={filter.status === s ? "Show every status" : `Only ${REG_LABEL[s]} tests`} className={`chip text-[11px] border ${filter.status === s ? "border-accent" : "border-transparent"} ${REG_CLASS[s]}`}><StatusIcon status={s} /><span>{REG_LABEL[s]}</span></button>)}</div>}
                     {r.us}

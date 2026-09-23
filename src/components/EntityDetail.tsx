@@ -110,6 +110,7 @@ import { CatalystsPanel, CompanyScorePanel, DealsPanel, ExclusivityPanel, Manufa
 import { FundingPanel, PortfolioPanel } from "@/components/StartupPanels";
 import { StageIcon } from "@/components/StageIcon";
 import { portfolioOf, STAGE_LABEL, stageOf, ycBatchLabel } from "@/lib/startups";
+import { BiomarkerDetail, ReadoutStrip, ReadoutsForDrug, ReadoutsForTerm } from "./BiomarkerDetail";
 
 const STRUCTURES = structureIndex as Record<string, StructureEntry[]>;
 
@@ -301,6 +302,7 @@ function kindTabs(e: Entity): Tab[] {
           {hotspotsFor(e.id) && <Block title="Mutation hotspots"><HotspotPlot map={hotspotsFor(e.id)!} compact /><p className="text-xs text-muted mt-1"><Link className="underline" href={`/dossiers/${e.id}/#hotspots`}>Residue-by-residue table on the dossier →</Link></p></Block>}
           {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc ps-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/dossiers/${e.id}/#q-${q.id}`}>{q.question}</Link></li>)}</ul></Block>}
           {assaysForTarget(e.id).length > 0 && <Block title="Companion diagnostics"><ul className="text-sm space-y-1">{assaysForTarget(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></Block>}
+          <ReadoutStrip targetId={e.id} />
           {modelsFor(e.id) && <p className="text-sm text-muted mt-4"><Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(e.name.split(" (")[0])}`}>Cell lines and mouse models for this target →</Link></p>}
           <Block title="Biology"><p className="text-[15px] leading-relaxed max-w-3xl">{withTermHovers(e.biology, { skipId: e.id })}</p></Block>
           <div className="grid gap-6 sm:grid-cols-2 mt-8">
@@ -326,6 +328,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Linker">{e.linker}</Field>
           </div>
           {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
+          <ReadoutsForDrug drugId={e.id} />
           {assaysForDrug(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2"><TL text="Companion diagnostics" /></div><ul className="text-sm space-y-1">{assaysForDrug(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></div>}
           {(coverageUs[e.id] || coverageUk[e.id]) && <div className="mt-6 grid gap-4 md:grid-cols-2">{coverageUs[e.id] && <CoverageUsCard drugId={e.id} />}{coverageUk[e.id] && <CoverageUkCard drugId={e.id} />}</div>}
           <div className="mt-6 space-y-4"><ExclusivityPanel drugId={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /></div>
@@ -387,7 +390,7 @@ function kindTabs(e: Entity): Tab[] {
         { id: "interventions", label: "How drugs attack it", count: e.interventions.length, content: <Bullets items={e.interventions} linked={(t) => withTermHovers(t, { skipId: e.id })} /> },
       ];
     case "term":
-      return [overview(<><div className="mt-8"><TermVisualPanel term={e} /></div><div className="mt-6"><Field label="Category"><Link className="underline" href={`/terms/?category=${encodeURIComponent(e.category)}`}>{e.category}</Link></Field></div></>)];
+      return [overview(<><div className="mt-8"><TermVisualPanel term={e} /></div><ReadoutsForTerm termId={e.id} /><div className="mt-6"><Field label="Category"><Link className="underline" href={`/terms/?category=${encodeURIComponent(e.category)}`}>{e.category}</Link></Field></div></>)];
     case "trial":
       return [
         overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
@@ -495,6 +498,8 @@ function kindTabs(e: Entity): Tab[] {
         ...(relievers.length ? [{ id: "relievers", label: "Relief available today", count: relievers.length, content: <RefsWithMolecules ids={relievers.map((r) => r.id)} /> }] : []),
       ];
     }
+    case "biomarker":
+      return [overview(<BiomarkerDetail bm={e} />)];
     case "collection":
       return [
         overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">

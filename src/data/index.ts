@@ -242,13 +242,27 @@ const RAW_INPUTS: EntityInput[] = [
   ...freeCollections, ...tumourTestCompanies,
 ];
 
+/** Readout ids by parent target id and by the drugs their current thresholds name (see the biomarker branch in ALL_INPUTS). */
+const ALL_READOUTS = [...biomarkerReadouts, ...biomarkerReadouts2, ...biomarkerReadouts3, ...biomarkerReadouts4];
+const READOUTS_BY_TARGET: Record<string, string[]> = {};
+const READOUTS_BY_DRUG: Record<string, string[]> = {};
+for (const bm of ALL_READOUTS) {
+  if (bm.target) (READOUTS_BY_TARGET[bm.target] ??= []).push(bm.id);
+  for (const t of bm.thresholds ?? []) if ((t.status ?? "current") === "current") { const list = (READOUTS_BY_DRUG[t.drugId] ??= []); if (!list.includes(bm.id)) list.push(bm.id); }
+}
+
 /** Every input, with glossary terms mapped to their canonical category (see ./term-categories.ts). */
 export const ALL_INPUTS: EntityInput[] = RAW_INPUTS.map((raw) => {
   // Paper pages written for DOIs a record cites in its external links by scripts/fetch-cited-papers.ts (wave 7): the
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];
-  const e: EntityInput = cited ? { ...raw, keyPapers: [...(raw.keyPapers ?? []), ...cited.filter((id) => !(raw.keyPapers ?? []).includes(id))] } : raw;
+  let e: EntityInput = cited ? { ...raw, keyPapers: [...(raw.keyPapers ?? []), ...cited.filter((id) => !(raw.keyPapers ?? []).includes(id))] } : raw;
   if (e.kind === "term") return { ...e, category: canonicalTermCategory(e.id, e.category) };
+  // Biomarker readouts hang off a parent target and off the drugs whose current label thresholds name them; the
+  // reverse links are written here so a target page lists its readouts and a drug page its required readouts in
+  // `related`, and no readout is an orphan reachable only by search.
+  if (e.kind === "target" && READOUTS_BY_TARGET[e.id]) return { ...e, related: [...(e.related ?? []), ...READOUTS_BY_TARGET[e.id].filter((id) => !(e.related ?? []).includes(id))] };
+  if (e.kind === "drug" && READOUTS_BY_DRUG[e.id]) e = { ...e, related: [...(e.related ?? []), ...READOUTS_BY_DRUG[e.id].filter((id) => !(e.related ?? []).includes(id))] };
   if (e.kind === "cancer" && !e.parent && (cancerParents[e.id] ?? cancerParentsWave2Map[e.id])) return { ...e, parent: cancerParents[e.id] ?? cancerParentsWave2Map[e.id] };
   if (e.kind === "trial") {
     let t = e;

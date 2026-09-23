@@ -161,6 +161,8 @@ function entityNode(e: Entity): Node {
       };
     case "term":
       return { ...base, "@type": "DefinedTerm", inDefinedTermSet: { "@type": "DefinedTermSet", name: `${SITE_NAME} glossary`, url: `${SITE}/terms/` } };
+    case "biomarker":
+      return { ...base, "@type": "MedicalTest", usedToDiagnose: e.cancers.length ? e.cancers.slice(0, 10).map((id) => ref(id, "MedicalCondition")).filter(Boolean) : undefined, usesDevice: e.companionDiagnostics.length ? [...new Set(e.companionDiagnostics.map((c) => c.device))].map((name) => ({ "@type": "MedicalDevice", name })) : undefined };
     case "collection":
       return { ...base, "@type": "DataCatalog", url: e.url, mainEntityOfPage: url, sameAs: uniq([...identities(e), url]), license: e.license, provider: e.maintainer ? { "@type": "Organization", name: e.maintainer } : undefined };
     default:

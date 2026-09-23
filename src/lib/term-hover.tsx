@@ -7,7 +7,7 @@ import { TermHover, type TermRef } from "@/components/TermHover";
 let cached: Matcher<TermRef> | null = null;
 
 /** Kinds whose names are linked in prose. Glossary terms first so they win ties with equal-length names. */
-const KINDS_LINKED = ["term", "drug", "target", "technology", "cancer", "pathway", "trial", "company", "institution", "bottleneck", "journal", "person", "biomarker"] as const;
+const KINDS_LINKED = ["term", "drug", "target", "technology", "cancer", "pathway", "trial", "company", "institution", "bottleneck", "journal", "person"] as const;
 /** Ordinary words that are also record names or aliases; never auto-linked. */
 const STOP = new Set(["cancer", "cell", "cells", "blood", "brain", "skin", "bone", "liver", "lung", "breast", "colon", "the", "and", "for", "with", "science", "nature", "cell press", "target", "trial", "study", "group", "center", "centre", "institute", "hospital", "university", "foundation", "society", "china", "japan", "europe", "united states", "other", "vision", "destiny", "ascent", "monarch", "paradigm", "checkmate", "keynote", "impassion", "javelin", "pacific", "aurora", "orbit", "spotlight", "minimal"]);
 

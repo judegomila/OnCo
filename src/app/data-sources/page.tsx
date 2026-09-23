@@ -5,6 +5,7 @@ import { routeFor } from "@/lib/schema";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef, type FacetLink, type LinkItem } from "@/components/EntityBrowser";
 import { DATA_SOURCES, EFFORT_LABEL, type DataSource } from "@/data/data-sources";
+import { openSourceForDataSource, openSourceLink } from "@/lib/open-source";
 
 export const metadata: Metadata = {
   title: "Open data",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 
 const fl = (facet: string, value: string | undefined, tip?: string): FacetLink | undefined => (value ? { facet, value, tip } : undefined);
 const domain = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; } };
+
+/** The open-source projects that read, serve or are the code behind this source (src/data/open-source.ts): up to four named, then a count linking to the filtered browser. */
+function openProjects(s: DataSource): LinkItem[] | undefined {
+  const list = openSourceForDataSource(s.id);
+  if (!list.length) return undefined;
+  const shown = list.slice(0, 4).map((p) => ({ label: p.name.replace(/ \(.*\)$/, ""), href: p.repo ?? p.homepage ?? p.source.url, tip: `${p.summary} Licence: ${p.licence}.` }));
+  return list.length > 4 ? [...shown, { label: `+${list.length - 4} more`, href: openSourceLink("source", s.name), tip: "Every open-source project on record for this source, in the open-source browser." }] : shown;
+}
 
 /** One row per source. The name links to the OnCo collection page when the source is also a collection object, otherwise to the source itself. */
 function rowFor(s: DataSource, prefix: string): BrowserRow {
@@ -42,6 +51,7 @@ function rowFor(s: DataSource, prefix: string): BrowserRow {
       effort: fl(`${prefix}effort`, EFFORT_LABEL[s.effort]),
       risks: s.risks,
       site,
+      open: openProjects(s),
     },
     sortKeys: { effort: s.effort === "S" ? 0 : s.effort === "M" ? 1 : 2 },
   };
@@ -61,6 +71,7 @@ const IN_USE_COLS: ColDef[] = [
   { key: "cadence", label: "Cadence", sortable: true, hide: "hidden lg:table-cell" },
   { key: "access", label: "Access", hide: "hidden sm:table-cell" },
   { key: "licence", label: "Licence", hide: "hidden lg:table-cell" },
+  { key: "open", label: "Open projects", hide: "hidden xl:table-cell", tip: "Open-source projects that read, serve or are the code behind this source; the whole list is on the open source page." },
   { key: "site", label: "Site", hide: "hidden xl:table-cell" },
 ];
 
@@ -71,6 +82,7 @@ const CANDIDATE_COLS: ColDef[] = [
   { key: "licence", label: "Licence", hide: "hidden lg:table-cell" },
   { key: "effort", label: "Effort", sortable: true, tip: "S: a day, one script. M: a week, new fields or a new page. L: new kinds, licences to negotiate, or heavy parsing." },
   { key: "risks", label: "Risks", hide: "hidden xl:table-cell", tip: "Rate limits, licence restrictions, personal data." },
+  { key: "open", label: "Open projects", hide: "hidden xl:table-cell", tip: "Open-source projects that already read, serve or are the code behind this source; a candidate with open tooling is easier to add." },
   { key: "site", label: "Site", hide: "hidden xl:table-cell" },
 ];
 

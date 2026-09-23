@@ -6,6 +6,7 @@ import { auditTableFiles } from "./audit";
 import { PATHWAY_MATRIX_TABLE, PATHWAY_NODES_TABLE, pathwayDrugViews, pathwayMatrixRows, pathwaySections } from "./pathway-drugs";
 import { dossierTrialTables } from "./dossier-trials";
 import { STARTUPS_TABLE, startupBrowser } from "./startups";
+import { OPEN_SOURCE_TABLE, openSourceBrowser } from "./open-source";
 import { kindTables } from "./kinds";
 import { dossierData } from "@/components/Dossier";
 import { SECTION_PAGE } from "@/lib/static-tables";
@@ -34,6 +35,7 @@ export function allTables(): TableFile[] {
     { id: PATHWAY_MATRIX_TABLE, rows: pathwayMatrixRows(views) },
     { id: PATHWAY_NODES_TABLE, rows: pathwaySections(views), page: SECTION_PAGE },
     { id: STARTUPS_TABLE, rows: startupBrowser().rows },
+    { id: OPEN_SOURCE_TABLE, rows: openSourceBrowser().rows },
     ...dossierTrialTables(dossierData),
   ];
 }

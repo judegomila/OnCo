@@ -148,6 +148,7 @@ export const navPt: NavDict = {
   "/live/hair/": ["Queda e recuperação do cabelo", "Arrefecimento do couro cabeludo e os regimes a que se adequa, minoxidil para o desbaste persistente, sobrancelhas e pestanas, perucas no NHS e por receita nos EUA, que fármacos a causam e quando o cabelo volta."],
   "/completeness/": ["Completude", "Quanto do que existe está no OnCo: cada tipo face a uma contagem do mundo com fonte, com os itens em falta nomeados."],
   "/open-tools/": ["Ferramentas abertas", "Visualizadores, planeadores, pipelines e hardware de código aberto que pode usar ou sobre os quais construir, por frente, do Open Medical Registry."],
+  "/open-source/": ["Código aberto em oncologia", "Cada projeto de código aberto de que a área depende, de detetores de variantes a sistemas de planeamento e modelos de base, com licença, abertura e responsável."],
   "/startups/": ["Startups", "Empresas da Y Combinator e apoiadas por capital de risco que atacam o cancro, por fase, modalidade, cancro, turma, investidor e país."],
   "/startup-requests/": ["Pedidos de startups", "Problemas sem nenhuma empresa a trabalhar neles: ideias que precisam de quem as construa, alvos farmacológicos sem produto e gargalos sem entrante no mercado."],
   "/investors/": ["Investidores", "Os fundos de capital de risco, braços de investimento empresarial e fundações de doentes que apoiam empresas oncológicas, cada um com a sua carteira."],

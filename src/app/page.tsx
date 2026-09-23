@@ -17,6 +17,9 @@ import { GardenDivider } from "@/components/GardenDivider";
 import { WebSiteJsonLd } from "@/components/JsonLd";
 import { pageMeta } from "@/lib/seo";
 import { MyCancerContinue } from "@/components/MyCancer";
+import { Spotlight } from "@/components/Spotlight";
+import { spotlightSets } from "@/lib/spotlight";
+import { SPOTLIGHT_URL, spotlightKindFor } from "@/lib/spotlight-schedule";
 
 const HOME_DESCRIPTION = "The open, cited map of oncology: every cancer, treatment, target, trial, company, institution and idea on one page each, in plain English first, with sources.";
 
@@ -85,6 +88,9 @@ export default function Home() {
     .sort((a, b) => a.c.name.localeCompare(b.c.name));
 
   const fmt = (n: number) => n.toLocaleString("en-GB");
+
+  // Spotlight: the build day's kind is rendered into the HTML; the client swaps in the reader's day (src/components/Spotlight.tsx).
+  const spotlight = spotlightSets(g)[spotlightKindFor(new Date())];
 
   return (
     <>
@@ -239,21 +245,9 @@ export default function Home() {
       {/* Spotlight */}
       <Container className="mt-16"><GardenDivider /></Container>
       <Container className="mt-10">
-        <Heading title="Spotlight on triple-negative breast cancer" sub="The deepest page on the site, and the template every cancer page is growing into." href={routeFor(tnbc)} label="Full page" />
-        <div className="card p-5 sm:p-6">
-          <p className="text-[15px] sm:text-base leading-relaxed max-w-3xl">{tnbc.tldr}</p>
-          <div className="mt-5 grid gap-5 sm:grid-cols-3 text-sm">
-            <div><div className="kicker mb-1.5">State of the art</div><p className="text-muted leading-relaxed">{tnbc.stateOfArt[0]}</p></div>
-            <div><div className="kicker mb-1.5">Newest</div><p className="text-muted leading-relaxed">{tnbc.history[tnbc.history.length - 1].title}: {tnbc.history[tnbc.history.length - 1].note}</p></div>
-            <div><div className="kicker mb-1.5">Open problem</div><p className="text-muted leading-relaxed">{tnbc.openProblems[1]}</p></div>
-          </div>
-          <div className="mt-5 pt-4 border-t border-border">
-            <div className="kicker mb-2">Pipeline</div>
-            <div className="flex flex-wrap gap-1.5">
-              {tnbc.pipeline.slice(0, 8).map((id) => { const e = g.must(id); return <Link key={id} href={routeFor(e)} className={`chip border ${KIND_COLOR[e.kind]}`}>{e.name}</Link>; })}
-            </div>
-          </div>
-        </div>
+        {/* React hoists this into <head>: crawlers and agents find every kind's set, not only the build day's. */}
+        <link rel="alternate" type="application/json" href={SPOTLIGHT_URL} title="OnCo spotlight sets, one per kind" />
+        <Spotlight embedded={spotlight} />
       </Container>
 
       {/* Roadmaps */}

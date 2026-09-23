@@ -30,6 +30,7 @@ import { writeTableFiles } from "./build-tables";
 import { writeEngineFiles } from "./build-engine";
 import { explainedFileFor, explainedGroups } from "../src/lib/explained-data";
 import { allTags, relatedTags } from "../src/lib/tags";
+import { spotlightFile } from "../src/lib/spotlight";
 
 const out = join(process.cwd(), "public", "api", "v1");
 // Clear the previous build, keeping rdf/: scripts/build-triples.ts rewrites only the Turtle files whose content changed
@@ -96,6 +97,8 @@ for (const c of g.kind("cancer")) write(`navigator/${c.id}.json`, navigatorCance
 // The cancer chooser list (id, name, route, group), fetched by the header chip, account menu and welcome step through
 // src/lib/use-my-cancer-list.ts instead of being serialised into every page's payload.
 write("my-cancers.json", myCancerList());
+// Home page spotlight: one hero set per kind in rotation; the page embeds the build day's and the browser swaps in the reader's day.
+write("spotlight.json", spotlightFile(g));
 write("ranking.json", rankInstitutions().map((r) => ({ rank: r.rank, id: r.institution.id, name: r.institution.name, city: r.institution.city, country: r.institution.country, newsweekOncology2026: r.institution.newsweekOncology2026 ?? null, nci: r.institution.nci ?? null, links: r.links, newsweekPoints: r.newsweekPoints, nciPoints: r.nciPoints, linkPoints: r.linkPoints, score: r.score })));
 write("benchmark.json", benchmark);
 // Open-source oncology projects (/open-source/): the generated records, the date, and what was looked for and not recorded.

@@ -128,6 +128,7 @@ const { built, counts } = await fetch("${SITE}/api/v1/meta.json").then((r) => r.
                 <tr><td className="font-mono text-xs">/api/v1/&lt;plural&gt;.json</td><td>{KINDS.map((k) => KIND_META[k].plural).join(", ")}</td></tr>
                 <tr><td className="font-mono text-xs">/api/v1/entities/&lt;id&gt;.json</td><td>One entity with route and neighbours by kind</td></tr>
                 <tr><td className="font-mono text-xs">/api/v1/my-cancers.json</td><td>Every cancer as id, name, route and hub group (the chooser list)</td></tr>
+                <tr><td className="font-mono text-xs">/api/v1/spotlight.json</td><td>Home page spotlight: one hero record per kind in the daily rotation</td></tr>
                 <tr><td className="font-mono text-xs">/api/v1/ranking.json</td><td>Institution ranking with score components</td></tr>
                 <tr><td className="font-mono text-xs">/api/v1/benchmark.json</td><td>The open evaluation question set</td></tr>
                 <tr><td className="font-mono text-xs">/api/v1/meta.json</td><td>Build time, counts, licence, attribution text</td></tr>

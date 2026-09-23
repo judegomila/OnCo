@@ -7,6 +7,7 @@ import { PATHWAY_MATRIX_TABLE, PATHWAY_NODES_TABLE, pathwayDrugViews, pathwayMat
 import { dossierTrialTables } from "./dossier-trials";
 import { STARTUPS_TABLE, startupBrowser } from "./startups";
 import { kindTables } from "./kinds";
+import { tagTables } from "./tagged";
 import { dossierData } from "@/components/Dossier";
 import { SECTION_PAGE } from "@/lib/static-tables";
 
@@ -35,6 +36,7 @@ export function allTables(): TableFile[] {
     { id: PATHWAY_NODES_TABLE, rows: pathwaySections(views), page: SECTION_PAGE },
     { id: STARTUPS_TABLE, rows: startupBrowser().rows },
     ...dossierTrialTables(dossierData),
+    ...tagTables(),
   ];
 }
 

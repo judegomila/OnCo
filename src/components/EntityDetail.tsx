@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { enrolmentLabel } from "@/lib/enrolment";
-import { publicTags } from "@/lib/tags";
+import { publicTags, tagRoute } from "@/lib/tags";
 import type { ReactNode } from "react";
 import type { Cancer, Entity, Roadmap, Term } from "@/lib/schema";
 import { KIND_META, phaseLabel, routeFor } from "@/lib/kinds";
@@ -194,6 +194,8 @@ export function EntityDetail({ e }: { e: Entity }) {
     ...papersTab(e),
     { id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} similar={similarLinks(e.id)} /> },
   ];
+  const aside = <RecordAside e={e} />;
+  const openMedical = (e.kind === "section" || e.kind === "technology") ? <OpenMedicalPanel id={e.id} kind={e.kind} limit={e.kind === "section" ? 12 : undefined} /> : null;
 
   return (
     <>
@@ -207,12 +209,19 @@ export function EntityDetail({ e }: { e: Entity }) {
         right={e.aka.length > 0 ? <div {...EN_TEXT} className="text-xs text-muted text-end max-w-xs">aka <span {...nameAttrs(e.kind)}>{e.aka.join(", ")}</span></div> : undefined}
       />
       <Container className="pb-16">
-        <div className="grid gap-10 lg:grid-cols-[1fr_300px]">
-          <div className="min-w-0">
-            {tabs.length > 1 ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} /> : <div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>}
-            {(e.kind === "section" || e.kind === "technology") && <OpenMedicalPanel id={e.id} kind={e.kind} limit={e.kind === "section" ? 12 : undefined} />}
-          </div>
+        {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
+        {tabs.length > 1
+          ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={openMedical} aside={aside} />
+          : <div className="grid gap-10 lg:grid-cols-[1fr_300px]"><div className="min-w-0"><div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>{openMedical}</div>{aside}</div>}
+      </Container>
+      <MachineLinks e={e} />
+    </>
+  );
+}
 
+/** The right-hand column of a record page: evidence, review and provenance, links and tags, data, suggest an edit, quick links. */
+function RecordAside({ e }: { e: Entity }) {
+  return (
           <StickyAside>
             {e.kind === "person" && <PortraitCredit id={e.id} />}
             {e.kind === "technology" && e.tags.some((t) => t.startsWith("evidence:")) && <div className="card p-4 text-sm"><div className="kicker mb-1.5">Evidence grade</div><EvidenceGradeChip tags={e.tags} /><p className="text-[11px] text-muted mt-2">How much and what kind of evidence, for the stated purpose. Grades are explained on the <Link className="underline" href="/live/complementary/">complementary approaches page</Link>.</p></div>}
@@ -227,7 +236,7 @@ export function EntityDetail({ e }: { e: Entity }) {
                   <ul className="space-y-1">{e.links.map((l) => <li key={l.url}><a className="underline break-words" href={l.url} rel="noopener">{l.label}</a></li>)}</ul>
                 </div>
               )}
-              {publicTags(e.tags).length > 0 && <div><div className="kicker mb-1"><TL text="Tags" /></div><div className="flex flex-wrap gap-1">{publicTags(e.tags).map((t) => <span key={t} className="chip bg-foreground/5">{t}</span>)}</div></div>}
+              {publicTags(e.tags).length > 0 && <div><div className="kicker mb-1"><Link href="/tagged/" className="hover:underline"><TL text="Tags" /></Link></div><div className="flex flex-wrap gap-1" data-tag-chips>{publicTags(e.tags).map((t) => <Link key={t} href={tagRoute(t)} className="chip bg-foreground/5 hover:bg-accent-soft hover:text-accent" title={`Every record tagged ${t}`}>{t}</Link>)}</div></div>}
               <div><div className="kicker mb-1"><TL text="Data" /></div>
                 <a className="underline" href={`/api/v1/entities/${e.id}.json`}>JSON</a>
                 <span className="text-muted"> · </span>
@@ -238,10 +247,6 @@ export function EntityDetail({ e }: { e: Entity }) {
             <SuggestEdit id={e.id} kind={e.kind} name={e.name} fields={Object.keys(e)} source={sourceLocation(e.id, e.kind)} route={routeFor(e)} asOf={e.asOf} />
             <QuickLinks e={e} />
           </StickyAside>
-        </div>
-      </Container>
-      <MachineLinks e={e} />
-    </>
   );
 }
 

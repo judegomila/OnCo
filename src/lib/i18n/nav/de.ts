@@ -9,6 +9,7 @@ export const navDe: NavDict = {
   "group:learn": ["Lernen und mitwirken", "Kuratierte Pfade durch das Material, wie die Website funktioniert und wie man sie verbessert."],
 
   "/explore/": ["Erkunden", "Krebsart wählen, Objekttyp wechseln, eine gereihte und sortierbare Liste erhalten."],
+  "/tagged/": ["Schlagwörter", "Jedes Schlagwort mit seiner Anzahl; jedes öffnet eine filterbare Tabelle der Datensätze, die es tragen, gleich welcher Art."],
   "/search/": ["Suche", "Wort- und Konzeptsuche nebeneinander; jedes Ergebnis erklärt, warum es passt."],
   "/path/": ["Pfadfinder", "Wie zwei beliebige Objekte zusammenhängen: kürzeste Wege mit jeder benannten Beziehung."],
   "/for-me/": ["Für mich", "Informieren Sie sich über Ihre Krebsart(en) und sehen Sie, was wirkt und was wirken könnte."],

@@ -10,6 +10,7 @@ import { digests } from "../data/digests";
 import { paths } from "../data/paths";
 import { absoluteUrl } from "./seo";
 import { RANKING_SLUGS } from "./rankings";
+import { allTags } from "./tags";
 
 export type SitemapUrl = { url: string; lastModified?: string };
 
@@ -98,6 +99,7 @@ export function sitemapUrls(): SitemapUrl[] {
   for (const c of g.kind("cancer")) { add(`/first-60-days/${c.id}/`, c.asOf); add(`/prep/${c.id}/`, c.asOf); }
   for (const id of guidelineCancerIds()) out.push({ url: absoluteUrl(`/guidelines/${id}/`) });
   for (const slug of RANKING_SLUGS) add(`/rankings/${slug}/`);
+  for (const t of allTags()) add(`/tagged/${t.slug}/`);
   return out;
 }
 

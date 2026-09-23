@@ -18,6 +18,8 @@ import PathwayDrugsPage from "./pathway-drugs/page";
 import DossierPage from "./dossiers/[id]/page";
 import Startups from "./startups/page";
 import KindIndex from "./[kind]/page";
+import TaggedPage from "./tagged/[tag]/page";
+import { allTags } from "@/lib/tags";
 import { KIND_PAGE, SECTION_PAGE, TABLE_PAGE } from "@/lib/static-tables";
 import { PAGED_KINDS } from "@/lib/tables/kinds";
 import { KIND_META, KINDS } from "@/lib/kinds";
@@ -272,4 +274,27 @@ describe("kind browsers carry one page of rows", () => {
     expect(html).not.toContain("data-more");
     expect(html).not.toContain("data-kind-export");
   });
+});
+
+/**
+ * The tag pages (/tagged/<slug>/, src/lib/tables/tagged.ts) are mixed-kind browsers; the largest ("pipeline") covers
+ * some 2,400 trials and products. Each carries its first KIND_PAGE rows plus whole-table facet counts and fetches
+ * the rest from /api/v1/tables/tag-<slug>.json. The budget is on the markup of the three largest.
+ */
+describe("tag pages carry one page of rows", () => {
+  for (const t of allTags().slice(0, 3)) {
+    it(`/tagged/${t.slug}/ renders the first ${KIND_PAGE} of ${t.count} rows, the Show more sentinel and the JSON links`, async () => {
+      const html = render(await TaggedPage({ params: Promise.resolve({ tag: t.slug }) }));
+      expect(t.count).toBeGreaterThan(KIND_PAGE);
+      const rows = bodyRows(html);
+      expect(rows[0], "browser rows").toBe(KIND_PAGE);
+      for (const n of rows) expect(n).toBeLessThanOrEqual(KIND_PAGE);
+      expect(html).toContain("data-more");
+      expect(html).toContain(`Show ${KIND_PAGE} more`);
+      expect(html).toContain(t.count.toLocaleString("en-GB"));
+      expect(html).toContain("data-tag-export");
+      expect(html).toContain(`href="/api/v1/tagged/${t.slug}.json"`);
+      expect(Buffer.byteLength(html, "utf8"), `/tagged/${t.slug}/ markup`).toBeLessThan(600 * KB);
+    });
+  }
 });

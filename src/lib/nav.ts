@@ -9,6 +9,7 @@ export const NAV_GROUPS: NavGroup[] = [
     id: "find", label: "Start here", href: "/find/", blurb: "Begin from your situation or your question: your cancer, your biomarkers, what to compare, where the cancer is in the body.",
     items: [
       { href: "/explore/", label: "Explore", blurb: "Pick a cancer, switch kind, get a ranked and sortable list." },
+      { href: "/tagged/", label: "Tags", blurb: "Every tag with its count; each opens a filterable table of the records carrying it, whatever their kind." },
       { href: "/search/", label: "Search", blurb: "Word and concept search side by side, each result explaining why it matched." },
       { href: "/path/", label: "Path finder", blurb: "How any two objects are related: shortest routes with every relationship named." },
       { href: "/for-me/", label: "For me", blurb: "Choose your cancer type(s) and see what works and what could work." },

@@ -11,6 +11,7 @@ import { UNIVERSITY_GROUPED_TABLE, UNIVERSITY_OUTPUT_TABLE, UNIVERSITY_SCORE_TAB
 import { PATHWAY_MATRIX_TABLE, PATHWAY_NODES_TABLE } from "../src/lib/tables/pathway-drugs";
 import { dossierTrialsTableId } from "../src/lib/tables/dossier-trials";
 import { STARTUPS_TABLE } from "../src/lib/tables/startups";
+import { GENOME_TABLE } from "../src/lib/genome-hub";
 import { writeTableFiles } from "./build-tables";
 
 /**
@@ -27,7 +28,7 @@ describe("paged table files", () => {
   const ids = new Set(written.map((w) => w.id));
 
   it("writes the heavy pages' tables at the paths the pages fetch", () => {
-    for (const id of [EVIDENCE_TABLE, CHINA_TRIALS_TABLE, UNIVERSITY_OUTPUT_TABLE, UNIVERSITY_GROUPED_TABLE, UNIVERSITY_SCORE_TABLE, PATHWAY_MATRIX_TABLE, PATHWAY_NODES_TABLE, STARTUPS_TABLE, dossierTrialsTableId("pd1")]) expect(ids, id).toContain(id);
+    for (const id of [EVIDENCE_TABLE, CHINA_TRIALS_TABLE, UNIVERSITY_OUTPUT_TABLE, UNIVERSITY_GROUPED_TABLE, UNIVERSITY_SCORE_TABLE, PATHWAY_MATRIX_TABLE, PATHWAY_NODES_TABLE, STARTUPS_TABLE, GENOME_TABLE, dossierTrialsTableId("pd1")]) expect(ids, id).toContain(id);
     // Every paged kind browser has a file, each registered with the kind page size and longer than it.
     for (const k of PAGED_KINDS) {
       expect(ids, k).toContain(kindTableId(k));

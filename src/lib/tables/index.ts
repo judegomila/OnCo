@@ -10,6 +10,8 @@ import { OPEN_SOURCE_TABLE, openSourceBrowser } from "./open-source";
 import { kindTables } from "./kinds";
 import { engineTables } from "./engine";
 import { tagTables } from "./tagged";
+import { genomeGenes } from "./genome";
+import { GENOME_TABLE } from "@/lib/genome-hub";
 import { dossierData } from "@/components/Dossier";
 import { SECTION_PAGE } from "@/lib/static-tables";
 
@@ -41,6 +43,7 @@ export function allTables(): TableFile[] {
     ...dossierTrialTables(dossierData),
     ...engineTables(),
     ...tagTables(),
+    { id: GENOME_TABLE, rows: genomeGenes() },
   ];
 }
 

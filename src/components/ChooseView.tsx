@@ -70,10 +70,10 @@ export function ChooseView({ pane, onPane, choose, view, chooseLabel = "Choose",
     const on = pane === p;
     return (
       <button type="button" role="tab" aria-selected={on} aria-controls={controls} onClick={() => onPane(p)} title={p === "choose" ? "Show the choices" : "Show the result"}
-        className={`chip border ${on ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>
+        className={`chip border min-w-0 ${on ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>
         {p === "choose" ? <ListGlyph /> : <EyeGlyph />}
-        <span>{label}</span>
-        {hint && <span className={`tabular-nums ${on ? "text-background/70" : "text-muted"}`}>· {hint}</span>}
+        <span className="shrink-0">{label}</span>
+        {hint && <span className={`truncate tabular-nums ${on ? "text-background/70" : "text-muted"}`}>· {hint}</span>}
       </button>
     );
   };

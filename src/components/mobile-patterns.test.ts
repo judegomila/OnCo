@@ -11,6 +11,8 @@ import DealsPage from "@/app/deals/page";
 import IraePage from "@/app/irae/page";
 import PrepPage from "@/app/prep/page";
 import PrepSheetPage, { generateStaticParams as prepSheetParams } from "@/app/prep/[id]/page";
+import DependenciesPage from "@/app/dependencies/page";
+import ResistancePage from "@/app/resistance/page";
 
 /**
  * Two-column tools on a phone (docs/MOBILE.md). Below the lg breakpoint the columns stack, so a tap in the controls
@@ -137,5 +139,26 @@ describe("two-column tools have a small-screen structure", () => {
     expectInline(html, "deal-flow", "max-md:order-first");
     expect(html).toContain('aria-controls="deal-flow-detail"');
     expect(html).toContain('id="deal-flow-detail"');
+    // The region matrix scrolls inside its own box (ScrollRow), and the grid children may shrink below the table.
+    expect(viewOf(html, "deal-flow")).toContain("data-scroll-row");
+    expect(openingTag(viewOf(html, "deal-flow"))).toContain("[&amp;&gt;*]:min-w-0"); // React escapes the class text
+  });
+
+  it("dependency map: tiles open the side panel behind Map and Panel pills, with a close pill", () => {
+    const html = render(createElement(DependenciesPage));
+    expectChooseView(html, "dependency-map");
+    const view = viewOf(html, "dependency-map");
+    expect(view).toContain('aria-controls="dag-panel"');
+    expect(view).toContain('id="dag-panel"');
+    expect((view.match(/data-node-id="/g) ?? []).length).toBeGreaterThan(20);
+  });
+
+  it("resistance: route taps drive the caption inline, and mechanism cards cannot widen the page", () => {
+    const html = render(createElement(ResistancePage));
+    const view = viewOf(html, "resistance-map");
+    expect(openingTag(view)).toContain('data-mobile-pattern="inline"');
+    expect(view).toContain("data-mobile-control");
+    expect(view).toContain("data-mobile-driven");
+    expect(html).toContain("md:grid-cols-2 [&amp;&gt;*]:min-w-0");
   });
 });

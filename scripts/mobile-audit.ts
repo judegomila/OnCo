@@ -4,7 +4,8 @@
  * At 390 x 844 the views below stack their columns, so a tap in the controls used to change something a screen or
  * more away. Each check scrolls a control into view, activates it the way a finger would, and then requires the
  * driven element (`[data-mobile-driven]`) to be inside the viewport, or, for the tools whose result is a running
- * count on the sticky pills, requires the live region (`[data-mobile-live]`) to be on screen and changed.
+ * count on the sticky pills, requires the live region (`[data-mobile-live]`) to be on screen and changed. Every
+ * check also fails if the page itself has grown wider than the viewport.
  *
  *   npx tsx scripts/mobile-audit.ts                      # against http://localhost:3000
  *   npx tsx scripts/mobile-audit.ts http://localhost:4123
@@ -41,14 +42,19 @@ export const CHECKS: Check[] = [
   { route: "/irae/", view: "irae-guide", steps: [{ act: "click", sel: `${v("irae-guide")} [data-mobile-control]`, nth: 3 }], expect: "driven" },
   { route: "/prep/", view: "prep-pack", steps: [{ act: "click", sel: `${v("prep-pack")} button.card`, nth: 0 }, { act: "click", sel: `${v("prep-pack")} [data-mobile-control]`, nth: 0 }], expect: "live" },
   { route: "/prep/colorectal/", view: "prep-sheet", steps: [{ act: "click", sel: `${v("prep-sheet")} [data-mobile-control]`, nth: 0 }], expect: "live" },
+  { route: "/dependencies/", view: "dependency-map", label: "tap a tile", steps: [{ act: "click", sel: `${v("dependency-map")} [data-mobile-control]`, nth: 3 }], expect: "driven" },
+  { route: "/resistance/", view: "resistance-map", label: "first route", steps: [{ act: "click", sel: `${v("resistance-map")} [data-mobile-control]`, nth: 0 }], expect: "driven" },
 ];
+/** The page itself must never scroll sideways at 390 px; wide elements scroll inside their own box (ScrollRow). */
+const MAX_PAGE_WIDTH = 392;
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 type Msg = { id?: number; result?: { result?: { value?: unknown }; targetId?: string; sessionId?: string }; error?: { message: string } };
 
 async function main() {
-  const chrome = spawn(CHROME, ["--headless=new", "--disable-gpu", `--remote-debugging-port=${PORT}`, "--user-data-dir=/tmp/cdp-profile-mobile-audit", "about:blank"], { stdio: "ignore" });
+  // A fresh profile each run: the prep tools remember choices in localStorage, and the checks start from empty.
+  const chrome = spawn(CHROME, ["--headless=new", "--disable-gpu", `--remote-debugging-port=${PORT}`, `--user-data-dir=/tmp/cdp-profile-mobile-audit-${process.pid}`, "about:blank"], { stdio: "ignore" });
   let ver: { webSocketDebuggerUrl: string } | undefined;
   for (let i = 0; i < 40 && !ver; i++) { try { ver = await (await fetch(`http://127.0.0.1:${PORT}/json/version`)).json(); } catch { await sleep(250); } }
   if (!ver) { chrome.kill(); throw new Error("Chrome did not start"); }
@@ -87,17 +93,19 @@ async function main() {
         await sleep(700);
       }
       const inView = (el) => { const r = el.getBoundingClientRect(); return r.top >= HEADER - 4 && r.top < H - 80 && r.bottom > HEADER; };
+      const sw = document.documentElement.scrollWidth, narrow = sw <= ${MAX_PAGE_WIDTH};
+      const width = ", page width " + sw + (narrow ? "" : " (SIDEWAYS SCROLL)");
       if (${JSON.stringify(c.expect)} === "live") {
         const bar = view.querySelector("[role=tablist]");
         if (!bar || !live) return { ok: false, why: "pills or live region missing" };
         const rb = bar.getBoundingClientRect();
         const onScreen = rb.top >= 0 && rb.bottom <= H;
-        return { ok: onScreen && live.textContent !== before, why: "pills " + Math.round(rb.top) + ".." + Math.round(rb.bottom) + ", live '" + before + "' -> '" + live.textContent + "'" };
+        return { ok: onScreen && live.textContent !== before && narrow, why: "pills " + Math.round(rb.top) + ".." + Math.round(rb.bottom) + ", live '" + before + "' -> '" + live.textContent + "'" + width };
       }
       const d = view.querySelector("[data-mobile-driven]");
       if (!d) return { ok: false, why: "driven element missing" };
       const r = d.getBoundingClientRect();
-      return { ok: inView(d), why: "driven " + Math.round(r.top) + ".." + Math.round(r.bottom) + " of " + H + ", scrollWidth " + document.documentElement.scrollWidth };
+      return { ok: inView(d) && narrow, why: "driven " + Math.round(r.top) + ".." + Math.round(r.bottom) + " of " + H + width };
     })()` });
     const out = (r.result?.result?.value ?? { ok: false, why: r.error?.message ?? "no result" }) as { ok: boolean; why: string };
     if (!out.ok) failed++;

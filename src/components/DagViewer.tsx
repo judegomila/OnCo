@@ -3,6 +3,12 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { FrontIcon } from "./FrontIcon";
+import { ChooseView, useChooseView } from "./ChooseView";
+
+/** The side panel's id: tiles point at it with aria-controls. */
+const PANEL_ID = "dag-panel";
+/** Below Tailwind's lg the map and panel stack, and a tap has to do what hover does on desktop. */
+const isSmall = () => typeof window !== "undefined" && window.matchMedia("(max-width: 63.99rem)").matches;
 
 /** One technology in the dependency map; plain data prepared server-side (no graph imports here). */
 export type DagNodeData = {
@@ -78,6 +84,22 @@ export function DagViewer({ data }: { data: DagViewData }) {
 
   const [root, setRoot] = useState<string | null>(null);
   const [hovered, setHovered] = useState<string | null>(null);
+  // Touch path (docs/MOBILE.md): on a phone a tap on a tile selects it and opens the panel instead of following the
+  // link; the panel's Open page link follows it, and Close returns focus to the tile.
+  const [selected, setSelected] = useState<string | null>(null);
+  const cv = useChooseView();
+  const pickTile = (ev: React.MouseEvent, id: string) => {
+    if (!isSmall()) return;
+    ev.preventDefault();
+    setSelected(id);
+    cv.showView();
+  };
+  const closePanel = () => {
+    const id = selected;
+    setSelected(null);
+    cv.showChoose();
+    if (id) requestAnimationFrame(() => (document.querySelector<SVGAElement>(`a[data-node-id="${id}"]`))?.focus());
+  };
 
   // Initial root from ?root=, deferred so the first render matches the static HTML.
   useEffect(() => {
@@ -98,7 +120,7 @@ export function DagViewer({ data }: { data: DagViewData }) {
   const visible = useMemo(() => new Set(layers.flat()), [layers]);
   const edges = useMemo(() => data.edges.filter(([a, b]) => visible.has(a) && visible.has(b)), [data.edges, visible]);
 
-  const focus = hovered && visible.has(hovered) ? hovered : root;
+  const focus = hovered && visible.has(hovered) ? hovered : selected && visible.has(selected) ? selected : root;
   const upSet = useMemo(() => (focus ? closure(focus, upMap) : new Set<string>()), [focus, upMap]);
   const downSet = useMemo(() => (focus ? closure(focus, downMap) : new Set<string>()), [focus, downMap]);
 
@@ -135,20 +157,22 @@ export function DagViewer({ data }: { data: DagViewData }) {
   return (
     <div className="dag">
       <div className="flex flex-wrap items-end gap-3 mb-3">
-        <label className="text-sm">
+        <label className="text-sm min-w-0 max-w-full">
           <span className="kicker block mb-1">Root technology</span>
-          <select className="ctl h-9 text-sm min-w-[16rem]" value={root ?? ""} onChange={(ev) => { setRoot(ev.target.value || null); setHovered(null); }} aria-label="Choose the technology to centre the map on">
+          {/* max-w-full: a select is as wide as its longest option, which would widen the page at 390 px. */}
+          <select className="ctl h-9 text-sm min-w-[16rem] max-w-full" value={root ?? ""} onChange={(ev) => { setRoot(ev.target.value || null); setHovered(null); setSelected(null); }} aria-label="Choose the technology to centre the map on">
             <option value="">Whole map ({num(data.nodes.length)} technologies)</option>
             {sorted.map((n) => <option key={n.id} value={n.id}>{n.name}</option>)}
           </select>
         </label>
         <p className="text-xs text-muted self-center">
           {root ? <>{num(visible.size)} technologies in this neighbourhood, {num(layers.length)} layers. </> : <>{num(data.nodes.length)} technologies, {num(data.edges.length)} dependencies, {num(layers.length)} layers. </>}
-          Scroll to pan; hover a tile to trace what it needs and what needs it; click to open its page.
+          Scroll to pan; hover or tap a tile to trace what it needs and what needs it, and open its page from there.
         </p>
       </div>
 
-      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_18rem]">
+      <ChooseView name="dependency-map" pane={cv.pane} onPane={(p) => { if (p === "choose") closePanel(); else cv.setPane(p); }} className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_18rem]"
+        chooseLabel="Map" viewLabel="Panel" viewHint={panel ? shorten(panel.name) : undefined} choose={
         <div className="card overflow-auto max-h-[72vh] relative" style={{ scrollbarGutter: "stable" }}>
           <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} role="img" aria-label={`Dependency map, ${layers.length} layers`} className="block font-sans" style={{ minWidth: width }}>
             <defs>
@@ -177,7 +201,7 @@ export function DagViewer({ data }: { data: DagViewData }) {
               const isRoot = id === root;
               const stroke = tone === "focus" ? UP : tone === "up" ? UP : tone === "down" ? DOWN : "var(--border-strong)";
               return (
-                <a key={id} href={n.route} onMouseEnter={() => setHovered(id)} onMouseLeave={() => setHovered(null)} onFocus={() => setHovered(id)} onBlur={() => setHovered(null)} aria-label={`${n.name}: open technology page`} style={{ opacity: tone === "dim" ? 0.35 : 1 }}>
+                <a key={id} href={n.route} data-node-id={id} data-mobile-control aria-controls={PANEL_ID} onClick={(ev) => pickTile(ev, id)} onMouseEnter={() => setHovered(id)} onMouseLeave={() => setHovered(null)} onFocus={() => setHovered(id)} onBlur={() => setHovered(null)} aria-label={`${n.name}: open technology page`} style={{ opacity: tone === "dim" ? 0.35 : 1 }}>
                   <title>{`${n.name}\nDepends on ${n.up.length} · needed by ${n.down.length}${n.vendors ? ` · ${n.vendors} vendor${n.vendors === 1 ? "" : "s"}` : ""}\n${n.tldr}`}</title>
                   <rect x={p.x} y={p.y} width={NODE_W} height={NODE_H} rx={10} fill={tone === "focus" ? "var(--accent-soft)" : "var(--card)"} stroke={stroke} strokeWidth={tone === "focus" || isRoot ? 2 : 1.2} />
                   <svg x={p.x + 10} y={p.y + (NODE_H - ICON) / 2} width={ICON} height={ICON} aria-hidden focusable="false" style={{ color: tone === "focus" || tone === "up" ? UP : tone === "down" ? DOWN : "var(--muted)" }}>
@@ -190,13 +214,14 @@ export function DagViewer({ data }: { data: DagViewData }) {
               );
             })}
           </svg>
-        </div>
-
-        <aside className="card p-4 text-sm min-h-[12rem] flex flex-col gap-3">
+        </div>} view={
+        <aside id={PANEL_ID} className="card p-4 text-sm min-h-[12rem] flex flex-col gap-3" aria-live="polite">
           {panel ? (
             <>
               <div>
-                <div className="kicker mb-1 flex items-center gap-1.5"><span className="inline-flex text-accent"><FrontIcon id={panel.section} className="h-3.5 w-3.5" /></span>{panel.id === root ? "Root" : "Hovering"}</div>
+                <div className="kicker mb-1 flex items-center gap-1.5"><span className="inline-flex text-accent"><FrontIcon id={panel.section} className="h-3.5 w-3.5" /></span>{panel.id === root ? "Root" : hovered ? "Hovering" : "Selected"}
+                  <button type="button" onClick={closePanel} className="lg:hidden ml-auto chip border bg-card border-border hover:bg-foreground/5 normal-case tracking-normal text-foreground">× Close</button>
+                </div>
                 <div className="font-semibold text-base leading-snug">{panel.name}</div>
                 <p className="text-muted mt-1 line-clamp-4">{panel.tldr}</p>
               </div>
@@ -233,8 +258,7 @@ export function DagViewer({ data }: { data: DagViewData }) {
             <li className="flex items-center gap-1.5"><span aria-hidden className="inline-block h-2 w-2 rotate-45 bg-amber-600" />Chokepoint</li>
             <li className="flex items-center gap-1.5"><span aria-hidden className="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border border-slate-500 text-[8px] font-bold text-slate-600">1</span>Single vendor</li>
           </ul>
-        </aside>
-      </div>
+        </aside>} />
     </div>
   );
 }

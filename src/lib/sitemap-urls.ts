@@ -11,6 +11,7 @@ import { paths } from "../data/paths";
 import { absoluteUrl } from "./seo";
 import { RANKING_SLUGS } from "./rankings";
 import { engineRoute, FORMATS } from "./modular-formats";
+import { allTags } from "./tags";
 
 export type SitemapUrl = { url: string; lastModified?: string };
 
@@ -100,6 +101,7 @@ export function sitemapUrls(): SitemapUrl[] {
   for (const id of guidelineCancerIds()) out.push({ url: absoluteUrl(`/guidelines/${id}/`) });
   for (const slug of RANKING_SLUGS) add(`/rankings/${slug}/`);
   for (const f of FORMATS) add(engineRoute(f.id), newest.drug);
+  for (const t of allTags()) add(`/tagged/${t.slug}/`);
   return out;
 }
 

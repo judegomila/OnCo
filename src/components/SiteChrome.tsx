@@ -11,7 +11,7 @@ import { AccountMenu } from "./AccountMenu";
 import { GardenBackdrop } from "./Garden";
 import { FooterNav } from "./FooterNav";
 import { AnalyticsChoice } from "./AnalyticsConsent";
-import { T } from "./T";
+import { T, TL } from "./T";
 
 /**
  * The site header and footer as one client module. The root layout used to build these trees in a server
@@ -83,6 +83,7 @@ export function SiteFooter() {
             <Link href="/about/" className="hover:text-foreground hover:underline"><T k="footer.aboutLink" /></Link>
             <Link href="/corrections/" className="hover:text-foreground hover:underline"><T k="footer.corrections" /></Link>
             <Link href="/api/" className="hover:text-foreground hover:underline"><T k="footer.api" /></Link>
+            <Link href="/tagged/" className="hover:text-foreground hover:underline"><TL text="Tags" /></Link>
             <Link href="/terms-of-use/" className="hover:text-foreground hover:underline"><T k="footer.terms" /></Link>
             <Link href="/privacy/" className="hover:text-foreground hover:underline"><T k="footer.privacy" /></Link>
             <AnalyticsChoice variant="footer" />

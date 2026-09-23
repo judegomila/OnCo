@@ -9,6 +9,7 @@ export const navPt: NavDict = {
   "group:learn": ["Aprender e contribuir", "Percursos guiados pelo material, como o site funciona e como o melhorar."],
 
   "/explore/": ["Explorar", "Escolha um cancro, mude o tipo de objeto e obtenha uma lista ordenada e classificável."],
+  "/tagged/": ["Etiquetas", "Cada etiqueta com a sua contagem; cada uma abre uma tabela filtrável dos registos que a têm, seja qual for o tipo."],
   "/search/": ["Pesquisar", "Pesquisa por palavras e por conceitos lado a lado; cada resultado explica porque correspondeu."],
   "/path/": ["Localizador de caminhos", "Como dois objetos quaisquer se relacionam: os caminhos mais curtos com cada relação nomeada."],
   "/for-me/": ["Para mim", "Pesquise o(s) seu(s) tipo(s) de cancro e veja o que funciona e o que poderá funcionar."],

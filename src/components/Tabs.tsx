@@ -9,19 +9,32 @@ export type Tab = { id: string; label: string; content: ReactNode; count?: numbe
 /** Below the site header (3.5rem) plus this bar (3rem): where sticky table headers should stop. */
 const CONTENT_STYLE = { "--sticky-top": "calc(var(--header-h) + 3rem)" } as CSSProperties;
 
+/** Room kept at each end of the bar when the active tab is scrolled into view, so the neighbour peeks out. */
+const EDGE = 40;
+
 /**
  * Section navigator for long object pages. All sections are rendered one after another so the
  * page reads top to bottom (and so print gets every section, see PrintButton); a sticky, high-contrast
  * bar lists the sections, highlights the one in view (scroll-spy), and scrolls to a section on click.
  * The section id is kept in the URL hash and on the bar as `data-active` for other components.
  *
+ * Layout: the bar spans the full content width. When `aside` is given the sections and the aside form the
+ * two-column grid *below* the bar (main and right column), so the tabs never share a row with the sidebar and
+ * are never cut off by it; `after` renders under the sections in the main column.
+ *
+ * Overflow: when the tabs are wider than the bar it scrolls sideways; the overflowing edge fades and an arrow
+ * at that end scrolls a step (`data-fade` carries the state for the CSS). The active tab is scrolled into view
+ * whenever it changes, including on load for a `#hash`, by moving the bar's own scroll position only, so the
+ * page is not scrolled vertically as a side effect.
+ *
  * Accessibility: the bar is navigation (a list of same-page links), not a tablist, because no panel is ever
  * hidden; `aria-current` marks the section in view and Left/Right/Home/End move focus between the tabs.
  * The tabs form one compact strip (shared hairline, rounded ends, active tab filled); the count on each tab
  * is hidden while it is active, since the reader is looking at the objects themselves.
  */
-export function Tabs({ tabs, ariaLabel }: { tabs: Tab[]; ariaLabel?: string }) {
+export function Tabs({ tabs, ariaLabel, aside, after }: { tabs: Tab[]; ariaLabel?: string; aside?: ReactNode; after?: ReactNode }) {
   const [active, setActive] = useState(tabs[0]?.id);
+  const [fade, setFade] = useState<"" | "left" | "right" | "both">("");
   const { t: tT, tl } = useT();
   const bar = useRef<HTMLDivElement>(null);
   const suppress = useRef(false);
@@ -71,44 +84,84 @@ export function Tabs({ tabs, ariaLabel }: { tabs: Tab[]; ariaLabel?: string }) {
     pills[next].focus();
   };
 
-  // Keep the active tab in view inside the bar.
+  /** Which edges hide tabs: drives the fade and the arrows. */
+  const measure = () => {
+    const nav = bar.current;
+    if (!nav) return;
+    const overflow = nav.scrollWidth - nav.clientWidth > 1;
+    if (!overflow) { setFade(""); return; }
+    const left = nav.scrollLeft > 1;
+    const right = nav.scrollLeft + nav.clientWidth < nav.scrollWidth - 1;
+    setFade(left && right ? "both" : left ? "left" : right ? "right" : "");
+  };
   useEffect(() => {
-    const el = bar.current?.querySelector<HTMLElement>(`[data-id="${active}"]`);
-    el?.scrollIntoView({ block: "nearest", inline: "nearest" });
+    const nav = bar.current;
+    if (!nav) return;
+    const ro = new ResizeObserver(measure);
+    ro.observe(nav);
+    nav.addEventListener("scroll", measure, { passive: true });
+    return () => { ro.disconnect(); nav.removeEventListener("scroll", measure); };
+  }, [tabs]);
+
+  // Keep the active tab in view inside the bar, scrolling the bar alone (never the page).
+  useEffect(() => {
+    const nav = bar.current;
+    const el = nav?.querySelector<HTMLElement>(`[data-id="${active}"]`);
+    if (!nav || !el) return;
+    const r = el.getBoundingClientRect(), n = nav.getBoundingClientRect();
+    if (r.left < n.left + EDGE) nav.scrollLeft += r.left - n.left - EDGE;
+    else if (r.right > n.right - EDGE) nav.scrollLeft += r.right - n.right + EDGE;
+    measure();
   }, [active]);
+
+  const step = (dir: 1 | -1) => bar.current?.scrollBy({ left: dir * Math.max(120, (bar.current.clientWidth || 0) * 0.6), behavior: "smooth" });
+
+  const sections = (
+    <div className="pt-6 space-y-14" style={CONTENT_STYLE}>
+      {tabs.map((t) => (
+        <section key={t.id} id={`sec-${t.id}`} aria-labelledby={`h-${t.id}`} data-section={t.id} className="scroll-mt-28 print-section">
+          {t.id === "overview" && <h2 id={`h-${t.id}`} className="sr-only print:not-sr-only print:text-xl print:font-semibold print:mb-3">{tl(t.label)}</h2>}
+          {t.id !== "overview" && (
+            <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-border">
+              <h2 id={`h-${t.id}`} className="text-xl font-semibold tracking-tight">{tl(t.label)}</h2>
+              {t.count !== undefined && <span className="text-sm text-muted tabular-nums">{t.count}</span>}
+              <a href="#top" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }} className="ms-auto text-xs text-muted hover:text-foreground hover:underline">{tT("top")} <span aria-hidden>↑</span></a>
+            </div>
+          )}
+          {t.content}
+        </section>
+      ))}
+    </div>
+  );
 
   return (
     <div>
-      <nav ref={bar} aria-label={ariaLabel ?? tT("sections")} data-tabbar data-active={active} onKeyDown={onBarKey}
-        className="tabbar sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 h-12 bg-background/90 backdrop-blur border-b border-border flex items-center overflow-x-auto no-scrollbar">
-        {/* One strip of adjoining tabs (see .tabstrip in globals.css); on phones the bar scrolls sideways and the active tab is kept in view. */}
-        <div className="tabstrip">
-          {tabs.map((t) => {
-            const on = t.id === active;
-            return (
-              <a key={t.id} href={`#${t.id}`} data-id={t.id} onClick={(e) => { e.preventDefault(); jump(t.id); }} aria-current={on ? "true" : undefined} className="tab">
-                <span>{tl(t.label)}</span>
-                {t.count !== undefined && <span className="tab-count">{t.count}</span>}
-              </a>
-            );
-          })}
-        </div>
-      </nav>
-      <div className="pt-6 space-y-14" style={CONTENT_STYLE}>
-        {tabs.map((t) => (
-          <section key={t.id} id={`sec-${t.id}`} aria-labelledby={`h-${t.id}`} data-section={t.id} className="scroll-mt-28 print-section">
-            {t.id === "overview" && <h2 id={`h-${t.id}`} className="sr-only print:not-sr-only print:text-xl print:font-semibold print:mb-3">{tl(t.label)}</h2>}
-            {t.id !== "overview" && (
-              <div className="flex items-baseline gap-3 mb-4 pb-2 border-b border-border">
-                <h2 id={`h-${t.id}`} className="text-xl font-semibold tracking-tight">{tl(t.label)}</h2>
-                {t.count !== undefined && <span className="text-sm text-muted tabular-nums">{t.count}</span>}
-                <a href="#top" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }} className="ms-auto text-xs text-muted hover:text-foreground hover:underline">{tT("top")} <span aria-hidden>↑</span></a>
-              </div>
-            )}
-            {t.content}
-          </section>
-        ))}
+      {/* The sticky wrapper spans the full content width (bleeding into the container padding); the arrows sit on it, outside the scrolling nav. */}
+      <div className="tabbar-wrap sticky top-14 z-30 -mx-4 sm:-mx-6 bg-background/90 backdrop-blur border-b border-border" data-fade={fade || undefined}>
+        <nav ref={bar} aria-label={ariaLabel ?? tT("sections")} data-tabbar data-active={active} onKeyDown={onBarKey}
+          className="tabbar px-4 sm:px-6 h-12 flex items-center overflow-x-auto no-scrollbar">
+          {/* One strip of adjoining tabs (see .tabstrip in globals.css); when wider than the bar it scrolls sideways and the active tab is kept in view. */}
+          <div className="tabstrip">
+            {tabs.map((t) => {
+              const on = t.id === active;
+              return (
+                <a key={t.id} href={`#${t.id}`} data-id={t.id} onClick={(e) => { e.preventDefault(); jump(t.id); }} aria-current={on ? "true" : undefined} className="tab">
+                  <span>{tl(t.label)}</span>
+                  {t.count !== undefined && <span className="tab-count">{t.count}</span>}
+                </a>
+              );
+            })}
+          </div>
+        </nav>
+        {(fade === "left" || fade === "both") && <button type="button" onClick={() => step(-1)} aria-label="Earlier sections" title="Earlier sections" className="tabbar-arrow start-0"><span aria-hidden>‹</span></button>}
+        {(fade === "right" || fade === "both") && <button type="button" onClick={() => step(1)} aria-label="Later sections" title="Later sections" className="tabbar-arrow end-0"><span aria-hidden>›</span></button>}
       </div>
+      {aside ? (
+        <div className="grid gap-10 lg:grid-cols-[1fr_300px]" data-tab-grid>
+          <div className="min-w-0">{sections}{after}</div>
+          {aside}
+        </div>
+      ) : <>{sections}{after}</>}
     </div>
   );
 }

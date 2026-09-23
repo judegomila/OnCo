@@ -9,6 +9,7 @@ export const navFr: NavDict = {
   "group:learn": ["Apprendre et contribuer", "Des parcours guidés dans le contenu, le fonctionnement du site et comment l'améliorer."],
 
   "/explore/": ["Explorer", "Choisissez un cancer, changez de type d'objet, obtenez une liste classée et triable."],
+  "/tagged/": ["Étiquettes", "Chaque étiquette avec son nombre ; chacune ouvre un tableau filtrable des fiches qui la portent, quel que soit leur type."],
   "/search/": ["Rechercher", "Recherche par mots et par concepts côte à côte, chaque résultat expliquant pourquoi il correspond."],
   "/path/": ["Chercheur de chemins", "Comment deux objets sont reliés : les chemins les plus courts, chaque relation nommée."],
   "/for-me/": ["Pour moi", "Renseignez-vous sur votre ou vos types de cancer et voyez ce qui marche et ce qui pourrait marcher."],

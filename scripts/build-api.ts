@@ -28,6 +28,7 @@ import { writeIdeaRankingFiles } from "./build-idea-rankings";
 import { writeTableFiles } from "./build-tables";
 import { writeEngineFiles } from "./build-engine";
 import { explainedFileFor, explainedGroups } from "../src/lib/explained-data";
+import { allTags, relatedTags } from "../src/lib/tags";
 
 const out = join(process.cwd(), "public", "api", "v1");
 // Clear the previous build, keeping rdf/: scripts/build-triples.ts rewrites only the Turtle files whose content changed
@@ -74,6 +75,15 @@ const rankings = writeIdeaRankingFiles(out);
 const tables = writeTableFiles(out);
 // Open drug engine: one file per format (medicines taken apart, grid cells with states and evidence) plus an index (src/lib/modular.ts).
 const engineFiles = writeEngineFiles(out);
+// Tags: one file per public tag (the companion of /tagged/<slug>/) and an index of every tag (src/lib/tags.ts).
+mkdirSync(join(out, "tagged"), { recursive: true });
+const tagList = allTags();
+write("tagged/index.json", tagList.map((t) => ({ slug: t.slug, tag: t.tag, variants: t.variants, description: t.description, count: t.count, kinds: t.kinds })));
+for (const t of tagList) write(`tagged/${t.slug}.json`, {
+  slug: t.slug, tag: t.tag, variants: t.variants, description: t.description, count: t.count, kinds: t.kinds,
+  related: relatedTags(t.slug).map((r) => ({ slug: r.entry.slug, tag: r.entry.tag, shared: r.shared })),
+  records: t.ids.map((id) => g.get(id)).filter((e) => !!e).map((e) => ({ id: e.id, kind: e.kind, name: e.name, route: routeFor(e), status: e.status, tldr: e.tldr })),
+});
 // Trials in plain words: the explainer bodies of one cancer section per file; the page keeps the headings and summaries.
 mkdirSync(join(out, "explained"), { recursive: true });
 for (const grp of explainedGroups(g)) write(`explained/${grp.key}.json`, explainedFileFor(grp));

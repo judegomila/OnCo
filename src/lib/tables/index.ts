@@ -8,6 +8,7 @@ import { dossierTrialTables } from "./dossier-trials";
 import { STARTUPS_TABLE, startupBrowser } from "./startups";
 import { kindTables } from "./kinds";
 import { engineTables } from "./engine";
+import { tagTables } from "./tagged";
 import { dossierData } from "@/components/Dossier";
 import { SECTION_PAGE } from "@/lib/static-tables";
 
@@ -37,6 +38,7 @@ export function allTables(): TableFile[] {
     { id: STARTUPS_TABLE, rows: startupBrowser().rows },
     ...dossierTrialTables(dossierData),
     ...engineTables(),
+    ...tagTables(),
   ];
 }
 

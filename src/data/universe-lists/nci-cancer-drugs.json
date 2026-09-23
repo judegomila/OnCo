@@ -1,12 +1,12 @@
 {
- "checked": "2026-09-16",
+ "checked": "2026-09-23",
  "source": {
   "label": "NCI: A to Z List of Cancer Drugs",
   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/cancer-drugs"
  },
  "method": "Every link in the A to Z list that points to a drug page; brand-name entries that point to the same page as the generic are folded into one item, so the total is distinct drug pages (single agents and named combinations).",
- "total": 382,
- "entries": 734,
+ "total": 387,
+ "entries": 744,
  "items": [
   {
    "slug": "abemaciclib",
@@ -1233,6 +1233,14 @@
    ]
   },
   {
+   "slug": "gemcitabine-intravesical-system",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/gemcitabine-intravesical-system",
+   "names": [
+    "Gemcitabine Intravesical System",
+    "Inlexzo (Gemcitabine Intravesical System)"
+   ]
+  },
+  {
    "slug": "gemcitabine-cisplatin",
    "url": "https://www.cancer.gov/about-cancer/treatment/drugs/gemcitabine-cisplatin",
    "names": [
@@ -2143,6 +2151,14 @@
    ]
   },
   {
+   "slug": "pembrolizumab-and-berahyaluronidase-alfa-pmph",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pembrolizumab-and-berahyaluronidase-alfa-pmph",
+   "names": [
+    "Pembrolizumab and Berahyaluronidase alfa-pmph",
+    "Keytruda QLEX (Pembrolizumab and Berahyaluronidase alfa-pmph )"
+   ]
+  },
+  {
    "slug": "pemetrexeddisodium",
    "url": "https://www.cancer.gov/about-cancer/treatment/drugs/pemetrexeddisodium",
    "names": [
@@ -2604,6 +2620,14 @@
    ]
   },
   {
+   "slug": "taletrectinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/taletrectinib",
+   "names": [
+    "Taletrectinib",
+    "Ibtrozi (Taletrectinib)"
+   ]
+  },
+  {
    "slug": "talimogenelaherparepvec",
    "url": "https://www.cancer.gov/about-cancer/treatment/drugs/talimogenelaherparepvec",
    "names": [
@@ -3010,6 +3034,14 @@
    ]
   },
   {
+   "slug": "ziftomenib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ziftomenib",
+   "names": [
+    "Ziftomenib",
+    "Komzifti (Ziftomenib)"
+   ]
+  },
+  {
    "slug": "ziv-aflibercept",
    "url": "https://www.cancer.gov/about-cancer/treatment/drugs/ziv-aflibercept",
    "names": [
@@ -3031,6 +3063,14 @@
    "names": [
     "Zoledronic Acid",
     "Zometa (Zoledronic Acid)"
+   ]
+  },
+  {
+   "slug": "zongertinib",
+   "url": "https://www.cancer.gov/about-cancer/treatment/drugs/zongertinib",
+   "names": [
+    "Zongertinib",
+    "Hernexeos (Zongertinib)"
    ]
   }
  ]

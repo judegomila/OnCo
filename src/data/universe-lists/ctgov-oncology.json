@@ -1,25 +1,25 @@
 {
- "checked": "2026-09-16",
+ "checked": "2026-09-23",
  "source": {
   "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
   "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
  },
  "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
- "total": 97177,
- "phase3": 11002,
- "recruiting": 14331,
+ "total": 97326,
+ "phase3": 11020,
+ "recruiting": 14383,
  "industryPhase3": {
-  "studies": 4241,
-  "sponsors": 936
+  "studies": 4254,
+  "sponsors": 939
  },
  "items": [
   {
    "name": "Hoffmann-La Roche",
-   "studies": 230
+   "studies": 231
   },
   {
    "name": "Merck Sharp & Dohme LLC",
-   "studies": 218
+   "studies": 219
   },
   {
    "name": "AstraZeneca",
@@ -71,7 +71,7 @@
   },
   {
    "name": "AbbVie",
-   "studies": 48
+   "studies": 49
   },
   {
    "name": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
@@ -198,6 +198,10 @@
    "studies": 14
   },
   {
+   "name": "RemeGen Co., Ltd.",
+   "studies": 14
+  },
+  {
    "name": "Taiho Pharmaceutical Co., Ltd.",
    "studies": 14
   },
@@ -223,10 +227,6 @@
   },
   {
    "name": "Millennium Pharmaceuticals, Inc.",
-   "studies": 13
-  },
-  {
-   "name": "RemeGen Co., Ltd.",
    "studies": 13
   },
   {
@@ -294,7 +294,15 @@
    "studies": 9
   },
   {
+   "name": "Hansoh BioMedical R&D Company",
+   "studies": 8
+  },
+  {
    "name": "Helsinn Healthcare SA",
+   "studies": 8
+  },
+  {
+   "name": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
    "studies": 8
   },
   {
@@ -303,6 +311,10 @@
   },
   {
    "name": "Sandoz",
+   "studies": 8
+  },
+  {
+   "name": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
    "studies": 8
   },
   {
@@ -342,15 +354,11 @@
    "studies": 7
   },
   {
-   "name": "Hansoh BioMedical R&D Company",
-   "studies": 7
-  },
-  {
-   "name": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
-   "studies": 7
-  },
-  {
    "name": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+   "studies": 7
+  },
+  {
+   "name": "Mabwell (Shanghai) Bioscience Co., Ltd.",
    "studies": 7
   },
   {
@@ -375,10 +383,6 @@
   },
   {
    "name": "Shanghai Bovax Biotechnology Co., Ltd.",
-   "studies": 7
-  },
-  {
-   "name": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
    "studies": 7
   },
   {
@@ -439,10 +443,6 @@
   },
   {
    "name": "Luye Pharma Group Ltd.",
-   "studies": 6
-  },
-  {
-   "name": "Mabwell (Shanghai) Bioscience Co., Ltd.",
    "studies": 6
   },
   {
@@ -1230,7 +1230,7 @@
    "studies": 2
   },
   {
-   "name": "Egetis Therapeutics",
+   "name": "Egetis Therapeutics AB (publ)",
    "studies": 2
   },
   {
@@ -1259,6 +1259,10 @@
   },
   {
    "name": "EQRx International, Inc.",
+   "studies": 2
+  },
+  {
+   "name": "Evopoint Biosciences Inc.",
    "studies": 2
   },
   {
@@ -1383,6 +1387,10 @@
   },
   {
    "name": "Laboratorio Elea Phoenix S.A.",
+   "studies": 2
+  },
+  {
+   "name": "Lantheus Medical Imaging",
    "studies": 2
   },
   {
@@ -2318,10 +2326,6 @@
    "studies": 1
   },
   {
-   "name": "Evopoint Biosciences Inc.",
-   "studies": 1
-  },
-  {
    "name": "Eximias Pharmaceutical",
    "studies": 1
   },
@@ -2790,10 +2794,6 @@
    "studies": 1
   },
   {
-   "name": "Lantheus Medical Imaging",
-   "studies": 1
-  },
-  {
    "name": "Lavilabor Natural Products Ltd",
    "studies": 1
   },
@@ -3250,6 +3250,10 @@
    "studies": 1
   },
   {
+   "name": "PT Bio Farma",
+   "studies": 1
+  },
+  {
    "name": "PTC Therapeutics",
    "studies": 1
   },
@@ -3399,6 +3403,10 @@
   },
   {
    "name": "Shanghai Gebaide Biotechnology Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Shanghai Jeyou Pharmaceutical Co., Ltd.",
    "studies": 1
   },
   {
@@ -3675,6 +3683,10 @@
   },
   {
    "name": "Vital Therapies, Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Vivace Therapeutics, Inc",
    "studies": 1
   },
   {

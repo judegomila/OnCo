@@ -75,6 +75,7 @@ import { ResearchOutput } from "./ResearchOutput";
 import { confidence } from "@/data/confidence";
 import { FrontIcon } from "./FrontIcon";
 import { ApprovalChip } from "./ApprovalChip";
+import { MechanicsPills } from "./MechanicsPills";
 import { RedCardsStrip } from "./RedCardsStrip";
 import { ChangesPreview, FollowLine } from "./CancerChanges";
 import { changesForCancer, splitUpcoming } from "@/lib/cancer-changes";
@@ -207,6 +208,7 @@ export function EntityDetail({ e }: { e: Entity }) {
         right={e.aka.length > 0 ? <div {...EN_TEXT} className="text-xs text-muted text-end max-w-xs">aka <span {...nameAttrs(e.kind)}>{e.aka.join(", ")}</span></div> : undefined}
       />
       <Container className="pb-16">
+        {(e.kind === "target" || e.kind === "pathway") && <MechanicsPills id={e.id} className="mb-6" />}
         <div className="grid gap-10 lg:grid-cols-[1fr_300px]">
           <div className="min-w-0">
             {tabs.length > 1 ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} /> : <div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>}

@@ -456,6 +456,21 @@
 }
 .garden-sway { animation: garden-sway var(--sway, 16s) ease-in-out infinite alternate; }
 
+/* Mechanics atlas journey (src/components/MechanicsJourney.tsx): a spine through the stage glyphs with a slow pulse
+   that travels its length. CSS only; `motion-css` pauses it off screen and reduced motion stops it below. */
+.mech-spine { height: 1px; background: linear-gradient(to right, transparent, var(--border-strong) 3%, var(--border-strong) 97%, transparent); }
+.mech-pulse { left: 0; height: 5px; width: 5px; margin-top: -2px; border-radius: 9999px; background: var(--accent-solid); box-shadow: 0 0 0 3px var(--accent-soft); animation: mech-travel 28s linear infinite; }
+@keyframes mech-travel { from { left: 1.5rem; } to { left: calc(100% - 1.5rem); } }
+/* The strip scrolls sideways when the 56 stages are wider than the screen; the right edge fades to say so. */
+.mech-journey { mask-image: linear-gradient(to right, #000 calc(100% - 3rem), transparent); }
+/* Stage pages: a pill never widens its column; a long name truncates with an ellipsis (the chip carries the full text as its title or tooltip). */
+.mech-content .chip, .mech-content .chip + span, .mech-content li, .mech-content span.inline-block { min-width: 0; max-width: 100%; }
+.mech-node:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+/* The vertical rail on small screens: stage cards hang off a line with their glyph on it. */
+.mech-rail { position: relative; }
+.mech-rail::before { content: ""; position: absolute; left: 1.25rem; top: 1.5rem; bottom: 1.5rem; width: 1px; background: var(--border-strong); }
+@media (min-width: 640px) { .mech-rail::before { display: none; } }
+
 /* Animation budget (src/lib/use-animation-budget.ts). Elements with `motion-css` carry a CSS keyframe animation; it
    pauses while the tab is hidden, on low-budget devices (Save-Data, four or fewer cores: <html data-motion~="low">),
    and inside any box marked data-motion-paused (MotionScope, the body map, the resistance map) while that box is off
@@ -515,6 +530,7 @@ html[data-motion~="low"] .gx-node, html[data-motion~="low"] .gx-bubble, html[dat
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
   a.card:hover, .card-link:hover { transform: none; }
   .garden-sway { animation: none !important; }
+  .mech-pulse { display: none; }
 }
 
 /* ------------------------------------------------------------------------------------------------

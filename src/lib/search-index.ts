@@ -1,3 +1,4 @@
+import { MECHANICS } from "@/data/mechanics-atlas";
 import { graph } from "./graph";
 import { NAV_GROUPS } from "./nav";
 import { routeFor, type Kind } from "./kinds";
@@ -21,6 +22,12 @@ function pageDocs(): SearchDoc[] {
   for (const it of pages) {
     if (seen.has(it.href)) continue; seen.add(it.href);
     out.push({ id: "page:" + it.href, kind: "page", name: it.label, aka: "", tldr: it.blurb, tags: "page", route: it.href, status: "" });
+  }
+  // Mechanics atlas stages: one page each, found by title and first sentence.
+  for (const c of MECHANICS) for (const st of c.stages) {
+    const href = `/mechanics/${st.id}/`;
+    if (seen.has(href)) continue; seen.add(href);
+    out.push({ id: "page:" + href, kind: "page", name: st.title, aka: `mechanics ${c.title}`, tldr: st.plain, tags: "page mechanics", route: href, status: "" });
   }
   return out;
 }

@@ -1,163 +1,163 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
-import { routeFor, type Entity, type Kind, type Pathway } from "@/lib/schema";
-import { KIND_COLOR } from "@/lib/text";
-import { pathwayView } from "@/lib/pathway-products";
-import { MECHANICS, MECHANICS_STAGE_COUNT, type MechanicsStage } from "@/data/mechanics-atlas";
-import { PathwayDiagramInteractive } from "@/components/PathwayDiagramInteractive";
-import { ChipList, Container, GroupKicker, PageHeader } from "@/components/ui";
+import { routeFor } from "@/lib/schema";
+import { MECHANICS, MECHANICS_STAGE_COUNT } from "@/data/mechanics-atlas";
+import { firstSentence, mechanicsStages, stageCounts, STAGE_SECTIONS } from "@/lib/mechanics";
+import { MechanicsGlyph, MechanicsGlyphDefs, MechanicsSectionIcon } from "@/components/MechanicsGlyph";
+import { MechanicsJourney } from "@/components/MechanicsJourney";
+import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { Tip } from "@/components/Tip";
 import { FrontIcon } from "@/components/FrontIcon";
 import { THEORY_HUB_ID, THEORY_ICONS, THEORY_IDS, theoryStatus } from "@/data/theories-wave";
 
 export const metadata: Metadata = {
   title: "Mechanics of cancer",
-  description: "How cancer works, drawn stage by stage: the body's defences, how a cell turns malignant, the replication machinery, death and repair, feeding, immune escape, metastasis, the tumour ecosystem, and why treatments fail. Every mechanism linked to the drugs and technologies that act on it.",
+  description: "How cancer works, drawn stage by stage: the body's defences, how a cell turns malignant, the replication machinery, death and repair, feeding, immune escape, metastasis, the tumour ecosystem, and why treatments fail. Every stage has its own page with the diagram, the molecular players, the medicines that act there, the escape routes and the open questions.",
 };
 
-/** Resolve ids of one kind through the graph; anything missing is silently skipped. */
-function pick<K extends Kind>(ids: string[] | undefined, kind: K): Extract<Entity, { kind: K }>[] {
-  const g = graph();
-  const out: Extract<Entity, { kind: K }>[] = [];
-  for (const id of ids ?? []) {
-    const e = g.get(id);
-    if (e && e.kind === kind) out.push(e as Extract<Entity, { kind: K }>);
-  }
-  return out;
-}
+const num = (n: number) => n.toLocaleString("en-GB");
+const plural = (n: number, one: string, many = `${one}s`) => `${num(n)} ${n === 1 ? one : many}`;
 
-/** A linked chip with a hover explanation, for technologies, targets, terms and bottlenecks. */
-function TipChip({ e }: { e: Entity }) {
+/** Count pill on a stage card: a section glyph, a number and a word, deep-linking into that section of the stage page. */
+function CountPill({ stageId, section, n, one, many, tip }: { stageId: string; section: (typeof STAGE_SECTIONS)[number]["id"]; n: number; one: string; many?: string; tip: string }) {
+  const label = plural(n, one, many);
   return (
-    <Tip title={e.name} text={e.tldr} href={routeFor(e)} inline={false}>
-      <Link href={routeFor(e)} className={`chip border transition-[filter] hover:brightness-95 dark:hover:brightness-125 ${KIND_COLOR[e.kind]}`}>{e.name}</Link>
+    <Tip title={label} text={tip} href={`/mechanics/${stageId}/#${section}`} linkLabel="Open the section →" inline={false}>
+      <Link href={`/mechanics/${stageId}/#${section}`} className={`chip border inline-flex items-center gap-1.5 ${n ? "bg-card border-border hover:bg-foreground/5 hover:border-accent/50" : "bg-transparent border-border/60 text-muted"}`}>
+        <MechanicsSectionIcon id={section} className="h-3.5 w-3.5 text-accent" /><span>{label}</span>
+      </Link>
     </Tip>
   );
 }
 
-function Row({ label, children }: { label: string; children: React.ReactNode }) {
-  return (
-    <div className="grid gap-1.5 sm:grid-cols-[7.5rem_1fr] sm:gap-4 items-start">
-      <div className="kicker pt-1">{label}</div>
-      <div className="flex flex-wrap gap-1.5">{children}</div>
-    </div>
-  );
-}
-
-const DIAGRAMS_PER_STAGE = 2;
-
 export default function MechanicsPage() {
   const g = graph();
-  // Each pathway diagram is drawn once, at the first stage that lists it; later stages link back to it.
-  const drawnAt = new Map<string, { anchor: string; stageTitle: string }>();
-  const plan = MECHANICS.map((c) => ({
-    ...c,
-    stages: c.stages.map((s) => {
-      const anchor = `s-${s.id}`;
-      const pathways = pick(s.pathways, "pathway");
-      const draw: Pathway[] = [];
-      const linked: Array<{ p: Pathway; back?: { anchor: string; stageTitle: string } }> = [];
-      for (const p of pathways) {
-        const prior = drawnAt.get(p.id);
-        if (!prior && draw.length < DIAGRAMS_PER_STAGE) { draw.push(p); drawnAt.set(p.id, { anchor, stageTitle: s.title }); }
-        else linked.push({ p, back: prior });
-      }
-      return { stage: s, anchor, draw, linked };
-    }),
-  }));
-
-  const diagramCount = drawnAt.size;
-  const drugIds = new Set(MECHANICS.flatMap((c) => c.stages.flatMap((s) => s.drugs)).filter((id) => g.get(id)?.kind === "drug"));
-  const targetIds = new Set(MECHANICS.flatMap((c) => c.stages.flatMap((s) => s.targets)).filter((id) => g.get(id)?.kind === "target"));
+  const stages = mechanicsStages();
+  const counts = new Map(stages.map((s) => [s.stage.id, stageCounts(s.stage)]));
+  const diagramIds = new Set(stages.flatMap((s) => s.stage.pathways).filter((id) => g.get(id)?.kind === "pathway"));
+  const playerIds = new Set<string>();
+  const medicineIds = new Set<string>();
+  for (const s of stages) {
+    for (const id of s.stage.targets) if (g.get(id)?.kind === "target") playerIds.add(id);
+    for (const pid of s.stage.pathways) { const p = g.get(pid); if (p?.kind === "pathway") for (const n of p.nodes) if (n.targetId) playerIds.add(n.targetId); }
+    for (const id of s.stage.drugs) if (g.get(id)?.kind === "drug") medicineIds.add(id);
+  }
+  for (const t of playerIds) for (const d of g.incoming(t).get("drug") ?? []) medicineIds.add(d.id);
+  const questionTotal = stages.reduce((n, s) => n + s.stage.openQuestions.length, 0);
   const theoryHub = g.get(THEORY_HUB_ID);
-  const theories = pick([...THEORY_IDS], "term");
+  const theories = THEORY_IDS.map((id) => g.get(id)).filter((e) => e?.kind === "term");
 
   return (
     <>
+      <MechanicsGlyphDefs />
       <PageHeader
+        tone="band"
         kicker={<GroupKicker id="map" />}
         title="Mechanics of cancer"
-        lede="How cancer works, drawn stage by stage: from the defences a tumour has to breach, through the machinery it hijacks to copy itself, to the ways it feeds, hides, spreads and outlasts treatment. Every stage is a diagram, and every diagram is tied to the drugs, technologies and targets that act on it."
+        lede="How cancer works, drawn as one journey in nine chapters and 56 stages: from the defences a tumour has to breach, through the machinery it hijacks to copy itself, to the ways it feeds, hides, spreads and outlasts treatment. Every stage has its own page with the diagram, the molecular players, the medicines that act there, the escape routes, the tests, the open questions and the evidence."
       />
       <Container className="pb-20">
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+        <section aria-labelledby="journey-h">
+          <h2 id="journey-h" className="sr-only">The journey</h2>
+          <MechanicsJourney />
+          <p className="mt-2 text-xs text-muted">Each glyph is a stage. Hover for a sentence, tap to open it; the chapter names jump to the chapter below.</p>
+        </section>
+
+        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           {[
-            [MECHANICS.length, "chapters"], [MECHANICS_STAGE_COUNT, "stages"], [diagramCount, "pathway diagrams"], [drugIds.size + targetIds.size, "products and targets placed"],
-          ].map(([n, label]) => (
-            <div key={label} className="card px-4 py-3">
-              <div className="text-2xl font-semibold tabular-nums leading-none">{n}</div>
+            [MECHANICS.length, "chapters", "#c-defences"], [MECHANICS_STAGE_COUNT, "stages", "#c-defences"], [diagramIds.size, "pathway diagrams", "/pathways/"],
+            [playerIds.size, "molecular players", "/targets/"], [medicineIds.size, "medicines placed", "/drugs/"], [questionTotal, "open questions", "/ideas/"],
+          ].map(([n, label, href]) => (
+            <Link key={String(label)} href={String(href)} className="card px-4 py-3 hover:border-accent/50">
+              <div className="text-2xl font-semibold tabular-nums leading-none">{num(Number(n))}</div>
               <div className="kicker mt-1.5">{label}</div>
-            </div>
+            </Link>
           ))}
         </div>
 
-        <p className="text-[15px] text-muted max-w-3xl leading-relaxed">
-          Read it top to bottom as a story, or jump to a chapter. In each diagram, violet boxes are druggable targets; pick a product above a diagram to see which
-          nodes it hits and where the escape routes are. The <Link href="/resistance/" className="underline">resistance atlas</Link> continues chapter nine class by class, and
+        <p className="mt-8 text-[15px] text-muted max-w-3xl leading-relaxed">
+          Read it top to bottom as a story, or open any stage. On each stage page the diagram lights up when you pick a product, and every node opens the target, term or
+          pathway behind it. The <Link href="/resistance/" className="underline">resistance atlas</Link> continues chapter nine class by class, and
           the <Link href="/pathways/" className="underline">pathway index</Link> lists every diagram alone.
         </p>
 
-        <nav aria-label="Chapters" className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 mt-8 mb-6 bg-background/95 backdrop-blur border-y border-border flex flex-nowrap overflow-x-auto sm:flex-wrap sm:overflow-visible items-center gap-1.5 text-sm">
+        <nav aria-label="Chapters" className="sticky top-14 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 mt-8 mb-6 bg-background/95 backdrop-blur border-y border-border flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap sm:overflow-visible items-center gap-1.5 text-sm">
           <span className="kicker mr-1 hidden sm:inline">Chapters</span>
           {MECHANICS.map((c, i) => (
-            <a key={c.id} href={`#c-${c.id}`} className="chip border bg-card border-border hover:bg-foreground/5 whitespace-nowrap">
-              <span className="text-muted tabular-nums mr-1">{i + 1}</span>{c.title}
+            <a key={c.id} href={`#c-${c.id}`} className="chip border bg-card border-border hover:bg-foreground/5 whitespace-nowrap shrink-0 inline-flex items-center gap-1.5">
+              <MechanicsGlyph id={c.id} className="h-3.5 w-3.5 text-accent" sprite /><span><span className="text-muted tabular-nums mr-1">{i + 1}</span>{c.title}</span>
             </a>
           ))}
           {theories.length > 0 && (
-            <a href="#c-theories" className="chip border bg-card border-border hover:bg-foreground/5 whitespace-nowrap">
-              <span className="text-muted tabular-nums mr-1">{MECHANICS.length + 1}</span>Theories
+            <a href="#c-theories" className="chip border bg-card border-border hover:bg-foreground/5 whitespace-nowrap shrink-0 inline-flex items-center gap-1.5">
+              <FrontIcon id="drug-discovery" className="h-3.5 w-3.5 text-accent" /><span><span className="text-muted tabular-nums mr-1">{MECHANICS.length + 1}</span>Theories</span>
             </a>
           )}
         </nav>
 
-        <div className="space-y-16">
-          {plan.map((c, ci) => (
+        <div className="space-y-20">
+          {MECHANICS.map((c, ci) => (
             <section key={c.id} id={`c-${c.id}`} className="scroll-mt-28">
-              <header className="max-w-3xl">
-                <div className="kicker">Chapter {ci + 1} · {c.stages.length} stages</div>
-                <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mt-1 text-balance">{c.title}</h2>
-                <p className="mt-3 text-[15px] sm:text-base text-foreground/85 leading-relaxed">{c.plain}</p>
-                <ol className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-sm">
-                  {c.stages.map(({ stage, anchor }, si) => (
-                    <li key={anchor}><a href={`#${anchor}`} className="text-muted hover:text-foreground"><span className="tabular-nums">{ci + 1}.{si + 1}</span> {stage.title}</a></li>
-                  ))}
-                </ol>
+              <header className="max-w-3xl flex gap-4">
+                <span className="hidden sm:inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-accent-soft text-accent"><MechanicsGlyph id={c.id} className="h-6 w-6" sprite /></span>
+                <div>
+                  <a href={`#c-${c.id}`} className="kicker hover:text-foreground">Chapter {ci + 1} · {plural(c.stages.length, "stage")}</a>
+                  <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mt-1 text-balance">{c.title}</h2>
+                  <p className="mt-3 text-[15px] sm:text-base text-foreground/85 leading-relaxed">{c.plain}</p>
+                </div>
               </header>
 
-              <div className="mt-8 space-y-12">
-                {c.stages.map(({ stage, anchor, draw, linked }, si) => (
-                  <StageBlock key={anchor} stage={stage} anchor={anchor} number={`${ci + 1}.${si + 1}`} draw={draw} linked={linked} />
-                ))}
-              </div>
+              <ol className="mech-rail mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {c.stages.map((s, si) => {
+                  const k = counts.get(s.id)!;
+                  return (
+                    <li key={s.id} id={`s-${s.id}`} className="relative pl-14 sm:pl-0 scroll-mt-28">
+                      <Link href={`/mechanics/${s.id}/`} aria-label={`${s.title}, open the stage`} className="absolute left-0 top-3 sm:static sm:hidden inline-flex h-10 w-10 items-center justify-center rounded-full bg-card border border-border text-foreground/80 ring-4 ring-background hover:text-accent hover:border-accent/60">
+                        <MechanicsGlyph id={s.id} className="h-5 w-5" sprite />
+                      </Link>
+                      <article className="card h-full p-4 sm:p-5 flex flex-col gap-3 transition-[border-color] hover:border-accent/40">
+                        <div className="flex items-start gap-3">
+                          <span className="hidden sm:inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><MechanicsGlyph id={s.id} className="h-5 w-5" sprite /></span>
+                          <div className="min-w-0">
+                            <div className="kicker">Stage {ci + 1}.{si + 1}</div>
+                            <h3 className="text-[17px] sm:text-lg font-semibold tracking-tight leading-snug mt-0.5 text-balance">
+                              <Link href={`/mechanics/${s.id}/`} className="hover:text-accent">{s.title}</Link>
+                            </h3>
+                          </div>
+                        </div>
+                        <p className="text-[15px] text-foreground/85 leading-relaxed">{firstSentence(s.plain)}</p>
+                        <div className="mt-auto flex flex-wrap gap-1.5 pt-1">
+                          <CountPill stageId={s.id} section="players" n={k.players} one="player" tip="Targets listed at this stage or drawn as nodes in its diagrams." />
+                          <CountPill stageId={s.id} section="medicines" n={k.medicines} one="medicine" tip="Products that act on one of the stage's targets, grouped by the node they hit." />
+                          <CountPill stageId={s.id} section="questions" n={k.questions} one="open question" tip="Open questions, bottlenecks and ideas linked to the stage's pathways, targets and terms." />
+                        </div>
+                      </article>
+                    </li>
+                  );
+                })}
+              </ol>
             </section>
           ))}
         </div>
 
         {theories.length > 0 && (
-          <section id="c-theories" className="mt-16 scroll-mt-28">
-            <header className="max-w-3xl">
-              <div className="kicker">Chapter {MECHANICS.length + 1} · {theories.length} schools of thought</div>
-              <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mt-1 text-balance">Theories of cancer</h2>
-              <p className="mt-3 text-[15px] sm:text-base text-foreground/85 leading-relaxed">
-                The chapters above describe what cancer does. This chapter is about what cancer is: the schools of thought that have tried to explain it, from Boveri&apos;s
-                chromosomes and the somatic mutation theory to bioelectric patterning, with what each got right, what it got wrong, and the treatments that came from it.
-                Solid arrows in the map mean one theory feeds another; blocked arrows mean it was proposed against another.
-              </p>
+          <section id="c-theories" className="mt-20 scroll-mt-28">
+            <header className="max-w-3xl flex gap-4">
+              <span className="hidden sm:inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-accent-soft text-accent"><FrontIcon id="drug-discovery" className="h-6 w-6" /></span>
+              <div>
+                <a href="#c-theories" className="kicker hover:text-foreground">Chapter {MECHANICS.length + 1} · {theories.length} schools of thought</a>
+                <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mt-1 text-balance">Theories of cancer</h2>
+                <p className="mt-3 text-[15px] sm:text-base text-foreground/85 leading-relaxed">
+                  The chapters above describe what cancer does. This chapter is about what cancer is: the schools of thought that have tried to explain it, from Boveri&apos;s
+                  chromosomes and the somatic mutation theory to bioelectric patterning, with what each got right, what it got wrong, and the treatments that came from it.
+                  {theoryHub && <> The <Link href={routeFor(theoryHub)} className="underline">map of how the theories connect</Link> draws them as one diagram.</>}
+                </p>
+              </div>
             </header>
-            {theoryHub?.kind === "pathway" && (
-              <figure className="mt-6">
-                <PathwayDiagramInteractive view={pathwayView(theoryHub)} />
-                <figcaption className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm">
-                  <Link href={routeFor(theoryHub)} className="font-medium underline decoration-foreground/20 underline-offset-[3px] hover:decoration-foreground">{theoryHub.name}</Link>
-                  <span className="text-muted leading-snug">Open the hub for the full comparison and the scorecard of what has panned out.</span>
-                </figcaption>
-                {theoryHub.analogy && <p className="mt-1.5 text-sm text-muted italic max-w-3xl leading-relaxed">{theoryHub.analogy}</p>}
-              </figure>
-            )}
             <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {theories.map((e) => {
+                if (!e) return null;
                 const status = theoryStatus(e.summary);
                 return (
                   <li key={e.id}>
@@ -178,77 +178,10 @@ export default function MechanicsPage() {
 
         <div className="mt-16 text-xs text-muted max-w-3xl leading-relaxed">
           How this page is built: the chapters and stages are a curated atlas (<code>src/data/mechanics-atlas.ts</code>); every diagram, drug, target, technology and term is an
-          object in the knowledge graph with its own page and sources. Each diagram is drawn once, at the first stage that needs it, and later stages link back to it.
-          Nothing here is medical advice; see <Link href="/about/" className="underline">about and methodology</Link>.
+          object in the knowledge graph with its own page and sources. The stage pages resolve their players, medicines, escape routes, tests, questions and papers from the graph
+          at build time. Nothing here is medical advice; see <Link href="/about/" className="underline">about and methodology</Link>.
         </div>
       </Container>
     </>
-  );
-}
-
-function StageBlock({ stage, anchor, number, draw, linked }: {
-  stage: MechanicsStage; anchor: string; number: string; draw: Pathway[]; linked: Array<{ p: Pathway; back?: { anchor: string; stageTitle: string } }>;
-}) {
-  const drugs = pick(stage.drugs, "drug");
-  const technologies = pick(stage.technologies, "technology");
-  const targets = pick(stage.targets, "target");
-  const terms = pick(stage.terms, "term");
-  const bottlenecks = pick(stage.bottlenecks, "bottleneck");
-  const actsHere = drugs.length + technologies.length + targets.length > 0;
-
-  return (
-    <article id={anchor} className="scroll-mt-28">
-      <div className="max-w-3xl">
-        <div className="kicker">Stage {number}</div>
-        <h3 className="text-xl font-semibold tracking-tight mt-0.5 text-balance">{stage.title}</h3>
-        <p className="mt-2 text-[15px] text-foreground/85 leading-relaxed">{stage.plain}</p>
-      </div>
-
-      {draw.length > 0 && (
-        <div className="mt-5 space-y-5">
-          {draw.map((p) => (
-            <figure key={p.id}>
-              <PathwayDiagramInteractive view={pathwayView(p)} />
-              <figcaption className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm">
-                <Link href={routeFor(p)} className="font-medium underline decoration-foreground/20 underline-offset-[3px] hover:decoration-foreground">{p.name}</Link>
-                <span className="text-muted leading-snug">{p.tldr}</span>
-              </figcaption>
-              {p.analogy && <p className="mt-1.5 text-sm text-muted italic max-w-3xl leading-relaxed">{p.analogy}</p>}
-            </figure>
-          ))}
-        </div>
-      )}
-
-      {linked.length > 0 && (
-        <div className="mt-3 flex flex-wrap items-center gap-1.5 text-sm">
-          <span className="kicker mr-1">Also drawn</span>
-          {linked.map(({ p, back }) => back ? (
-            <a key={p.id} href={`#${back.anchor}`} className={`chip border ${KIND_COLOR.pathway}`} title={`Drawn at ${back.stageTitle}`}>{p.name} <span aria-hidden className="opacity-60">↑</span></a>
-          ) : (
-            <Link key={p.id} href={routeFor(p)} className={`chip border ${KIND_COLOR.pathway}`}>{p.name}</Link>
-          ))}
-        </div>
-      )}
-
-      <div className="card mt-5 p-4 sm:p-5 space-y-3.5">
-        {actsHere && (
-          <Row label="Acts here">
-            {drugs.length > 0 && <ChipList items={drugs} />}
-            {technologies.map((e) => <TipChip key={e.id} e={e} />)}
-            {targets.map((e) => <TipChip key={e.id} e={e} />)}
-          </Row>
-        )}
-        {terms.length > 0 && <Row label="Words">{terms.map((e) => <TipChip key={e.id} e={e} />)}</Row>}
-        {bottlenecks.length > 0 && <Row label="Bottleneck">{bottlenecks.map((e) => <TipChip key={e.id} e={e} />)}</Row>}
-        {stage.openQuestions.length > 0 && (
-          <div className="grid gap-1.5 sm:grid-cols-[7.5rem_1fr] sm:gap-4 items-start">
-            <div className="kicker pt-1">Open questions</div>
-            <ul className="space-y-1 text-sm leading-relaxed">
-              {stage.openQuestions.map((q) => <li key={q} className="pl-3 border-l-2 border-accent/50">{q}</li>)}
-            </ul>
-          </div>
-        )}
-      </div>
-    </article>
   );
 }

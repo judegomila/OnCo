@@ -1,0 +1,48 @@
+scripts/lib/ema-page.ts
+  s_0beac9cb5d78fd::t_d9200cc6c555af 1-96
+scripts/apply-proposals.ts
+  s_0beac9cb5d78fd::t_ff3e96fe7eae8f 1-28,31-32,34-36,39,41-45,64,66-67,69,71-72,81,88-95,98-105,108-110
+  s_0beac9cb5d78fd::t_fa5093f9297d2a 29-30,33,37-38,46-63,65,68,70,96-97
+  s_0beac9cb5d78fd::t_d0488ec2c4bc76 106-107
+  s_0beac9cb5d78fd::t_350e39d1cd3a9e 40
+  s_0beac9cb5d78fd::t_7ffb6f142bc843 73-80,82-87
+scripts/lib/proposals-ema.test.ts
+  s_0beac9cb5d78fd::t_d34b1d5c959497 138
+  s_0beac9cb5d78fd::t_fa5093f9297d2a 73-74
+  s_0beac9cb5d78fd::t_44401c32fd803f 113
+  s_0beac9cb5d78fd::t_5ccabd37c5b03f 128-132
+  s_0beac9cb5d78fd::t_722e209c830ce3 1-72,75-112,114-127,133-137,139-140
+scripts/apply-proposals.test.ts
+  s_0beac9cb5d78fd::t_b977d9386df7fb 1-33
+scripts/lib/ema-page.test.ts
+  s_0beac9cb5d78fd::t_ec6ff5fd31cbf9 1-71
+scripts/lib/proposals-ema.ts
+  s_0beac9cb5d78fd::t_ef32618bfe3f3b 113
+  s_0beac9cb5d78fd::t_95bead4e07624d 40,85
+  s_0beac9cb5d78fd::t_1d4d1151117dcc 66-68
+  s_0beac9cb5d78fd::t_67e9a44d7a4f05 102
+  s_0beac9cb5d78fd::t_8871394987edd2 70-84
+  s_0beac9cb5d78fd::t_3d6d98f7a15114 149,151-157,160-161
+  s_0beac9cb5d78fd::t_5abf6c9958f532 107
+  s_0beac9cb5d78fd::t_d99df2595f6cb2 123
+  s_0beac9cb5d78fd::t_e5cffea984806c 1-27,30-39,41-65,69,86-91,96-101,103-106,108-110,114-122,124-148,150,158-159,162-163,165-183
+  s_0beac9cb5d78fd::t_40079cee14aa33 28-29
+  s_0beac9cb5d78fd::t_fa5093f9297d2a 92-95,111-112
+  s_0beac9cb5d78fd::t_f97882525f4965 164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "458dbab6df5152193410303a4c26fad08d68191b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

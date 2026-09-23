@@ -15,6 +15,7 @@ import { EntitySchema, KIND_META, KINDS, routeFor } from "../src/lib/schema";
 import { siteSearchDocs } from "../src/lib/search-index";
 import { rankInstitutions } from "../src/lib/ranking";
 import { benchmark } from "../src/data/benchmark";
+import { OPEN_SOURCE_GENERATED, OPEN_SOURCE_SKIPPED, openSourceProjects } from "../src/data/open-source";
 import { flattenForCsv, toCsv, toNdjson, EXPORT_LICENCE } from "../src/lib/csv";
 import { buildFeeds } from "./build-feeds";
 import { apiFiles, FEEDS } from "./api-layout";
@@ -97,6 +98,8 @@ for (const c of g.kind("cancer")) write(`navigator/${c.id}.json`, navigatorCance
 write("my-cancers.json", myCancerList());
 write("ranking.json", rankInstitutions().map((r) => ({ rank: r.rank, id: r.institution.id, name: r.institution.name, city: r.institution.city, country: r.institution.country, newsweekOncology2026: r.institution.newsweekOncology2026 ?? null, nci: r.institution.nci ?? null, links: r.links, newsweekPoints: r.newsweekPoints, nciPoints: r.nciPoints, linkPoints: r.linkPoints, score: r.score })));
 write("benchmark.json", benchmark);
+// Open-source oncology projects (/open-source/): the generated records, the date, and what was looked for and not recorded.
+write("open-source.json", { generated: OPEN_SOURCE_GENERATED, licence: EXPORT_LICENCE, projects: openSourceProjects, skipped: OPEN_SOURCE_SKIPPED });
 
 // JSON Schema of one entity (the discriminated union over kinds), generated from the Zod schema that validates the corpus.
 try {

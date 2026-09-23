@@ -101,6 +101,7 @@ import { IdentifierRow, XrefStrip } from "./XrefStrip";
 import { EN_TEXT, nameAttrs } from "@/lib/translate";
 import { HotspotPlot } from "./HotspotPlot";
 import { OpenMedicalPanel } from "./OpenMedicalPanel";
+import { OpenSourcePanel } from "./OpenSourcePanel";
 import { hotspotsFor } from "@/data/hotspots";
 import { questionsFor } from "@/data/open-questions";
 import { assaysForTarget, assaysForDrug } from "@/data/assays";
@@ -196,6 +197,8 @@ export function EntityDetail({ e }: { e: Entity }) {
   ];
   const aside = <RecordAside e={e} />;
   const openMedical = (e.kind === "section" || e.kind === "technology") ? <OpenMedicalPanel id={e.id} kind={e.kind} limit={e.kind === "section" ? 12 : undefined} /> : null;
+  const openSource = (e.kind === "technology" || e.kind === "collection" || e.kind === "institution" || e.kind === "company") ? <OpenSourcePanel id={e.id} name={e.name} kind={e.kind} /> : null;
+  const afterTabs = (openSource || openMedical) ? <>{openSource}{openMedical}</> : null;
 
   return (
     <>
@@ -211,8 +214,8 @@ export function EntityDetail({ e }: { e: Entity }) {
       <Container className="pb-16">
         {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
         {tabs.length > 1
-          ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={openMedical} aside={aside} />
-          : <div className="grid gap-10 lg:grid-cols-[1fr_300px]"><div className="min-w-0"><div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>{openMedical}</div>{aside}</div>}
+          ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={afterTabs} aside={aside} />
+          : <div className="grid gap-10 lg:grid-cols-[1fr_300px]"><div className="min-w-0"><div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>{afterTabs}</div>{aside}</div>}
       </Container>
       <MachineLinks e={e} />
     </>

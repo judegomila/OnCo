@@ -45,6 +45,7 @@ export default function OpenToolsPage() {
         </div>
         <div className="mt-12 max-w-3xl text-sm text-muted space-y-2">
           <OpenMedicalFooter />
+          <p className="text-xs">OnCo also keeps its own, wider catalogue of <Link className="underline" href="/open-source/">open source in oncology</Link>: pipelines, knowledge bases, imaging, planning, pathology, single-cell, chemistry, trials, data commons, standards and hardware, with licence, openness, stars and last activity read from each repository.</p>
           <p className="text-xs">Snapshot taken {OPENMEDICAL_GENERATED}; refresh with <code>npm run fetch:openmedical</code>. The mapping to fronts is OnCo&apos;s and lives in <code>scripts/fetch-openmedical.ts</code>; a project appears only after its record was read and judged relevant. Several well-known oncology tools are not yet in the registry (for example MONAI core, TotalSegmentator, matRad, OpenTPS, cBioPortal core, CanReg5 and mCODE); add them at <a className="underline" href={`${OPENMEDICAL_SITE}contribute/`} rel="noopener">openmedical.sh/contribute</a> and they will be picked up on the next refresh. Missing a mapping? <Link className="underline" href="/suggest/">Suggest an edit</Link>.</p>
         </div>
       </Container>

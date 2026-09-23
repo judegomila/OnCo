@@ -150,6 +150,7 @@ export const navDe: NavDict = {
   "/live/hair/": ["Haarausfall und Nachwachsen", "Kopfhautkühlung und passende Schemata, Minoxidil bei anhaltender Ausdünnung, Brauen und Wimpern, Perücken über den NHS und auf Rezept in den USA, welche Medikamente ihn auslösen und wann das Haar zurückkommt."],
   "/completeness/": ["Vollständigkeit", "Wie viel von dem, was es gibt, in OnCo steht: jede Art gegen eine belegte Weltzahl, mit den fehlenden Einträgen beim Namen genannt."],
   "/open-tools/": ["Offene Werkzeuge", "Open-Source-Viewer, Planungssoftware, Pipelines und Hardware zum Nutzen oder Weiterbauen, nach Front, aus dem Open Medical Registry."],
+  "/open-source/": ["Open Source in der Onkologie", "Jedes Open-Source-Projekt, auf dem das Fach aufbaut, von Variantencallern bis zu Planungssystemen und Basismodellen, mit Lizenz, Offenheit und Betreuern."],
   "/startups/": ["Start-ups", "Y-Combinator- und wagniskapitalfinanzierte Unternehmen gegen Krebs, nach Phase, Modalität, Krebsart, Jahrgang, Investor und Land."],
   "/startup-requests/": ["Gesuchte Start-ups", "Probleme, an denen kein Unternehmen arbeitet: Ideen, die jemand bauen muss, behandelbare Zielstrukturen ohne Produkt, Engpässe ohne Markteintritt."],
   "/investors/": ["Investoren", "Die Wagniskapitalfonds, Corporate-Venture-Einheiten und Patientenstiftungen, die Onkologie-Unternehmen finanzieren, jeweils mit ihrem Portfolio."],

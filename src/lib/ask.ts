@@ -25,7 +25,7 @@ export type EntityLike = {
   principle?: string; strengths?: string[]; limitations?: string[]; biology?: string; whereFound?: string[]; mechanism?: string;
   result?: string; replication?: string; rationale?: string; evidence?: string; hypothesis?: string; test?: string;
   findings?: string[]; whatItMeans?: string; caveats?: string[]; causes?: string[]; currentEfforts?: string[]; successLooksLike?: string;
-  analogy?: string; interventions?: string[]; holds?: string; role?: string;
+  analogy?: string; interventions?: string[]; holds?: string; /** A person's role line, or a target's roles in cancer. */ role?: string | readonly string[];
   outcomes?: Array<{ endpoint: string; unit?: string; arms: Array<{ name: string; value?: number; n?: number }>; hr?: number; p?: string }>;
   approvals?: Array<{ region: string; year: number; indication: string }>;
   dosing?: { route: string; schedule: string };

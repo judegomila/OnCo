@@ -108,6 +108,8 @@ async function main() {
  * from the HGNC REST API (ids, Ensembl, UniProt, Entrez, COSMIC, OMIM, locus) and the ChEMBL REST API (target id).
  * Do not edit by hand; re-run the script. Link builders live in src/components/XrefStrip.tsx.
  */
+import { targetXrefsGenes } from "./target-xrefs-genes";
+
 export type GeneXref = {
   symbol: string; name: string; hgnc: string; ensembl?: string; uniprot?: string; entrez?: string; chembl?: string; cosmic?: string; omim?: string; locus?: string;
 };
@@ -115,7 +117,8 @@ export type TargetXref = { genes: GeneXref[] };
 
 export const TARGET_XREFS_GENERATED = "${today}";
 
-export const targetXrefs: Record<string, TargetXref> = ${JSON.stringify(out, null, 2).replace(/"([a-zA-Z_]+)":/g, "$1:")};
+// Gene records written by scripts/fetch-cancer-genes.ts carry their own HGNC-derived cross-references; a hand-fetched entry below wins.
+export const targetXrefs: Record<string, TargetXref> = { ...targetXrefsGenes,${JSON.stringify(out, null, 2).replace(/"([a-zA-Z_]+)":/g, "$1:").slice(1)};
 `;
   writeFileSync(join(process.cwd(), "src", "data", "target-xrefs.ts"), body);
   console.log(`xrefs: ${Object.keys(out).length} targets, ${n} genes → src/data/target-xrefs.ts`);

@@ -595,7 +595,7 @@ function tWho(c: Ctx, r: AskEntityRecord): boolean {
       return true;
     }
     case "person": {
-      c.b.add(s, e.role ? `${e.name}: ${e.role}.` : undefined, "role");
+      c.b.add(s, typeof e.role === "string" && e.role ? `${e.name}: ${e.role}.` : undefined, "role");
       c.b.add(s, e.tldr, "TL;DR");
       const inst = (r.neighbours.institution ?? []).slice(0, 2).map((i) => i.name);
       if (inst.length) c.b.add(s, `Institutions: ${list(inst)}.`, "linked institutions");

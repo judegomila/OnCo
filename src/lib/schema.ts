@@ -1,8 +1,8 @@
 import { z } from "zod";
-import { KINDS, STATUSES } from "./kinds";
+import { EVIDENCE_TIERS, KINDS, STATUSES, TARGET_ROLES } from "./kinds";
 
-export { KINDS, STATUSES, REL_FIELDS, KIND_META, PHASE_ORDER, routeFor, phaseLabel, normalisePhaseLabel } from "./kinds";
-export type { Kind, Status, RelField } from "./kinds";
+export { KINDS, STATUSES, REL_FIELDS, KIND_META, PHASE_ORDER, routeFor, phaseLabel, normalisePhaseLabel, TARGET_ROLES, TARGET_ROLE_LABEL, EVIDENCE_TIERS, EVIDENCE_TIER_LABEL } from "./kinds";
+export type { Kind, Status, RelField, TargetRole, EvidenceTier } from "./kinds";
 
 /**
  * OnCo data model.
@@ -151,6 +151,12 @@ export const TargetSchema = Base.extend({
   kind: z.literal("target"),
   /** Gene symbol / protein name. */
   symbol: z.string().optional(),
+  /** Roles in cancer as the public catalogues state them (drug target, oncogene driver, tumour suppressor, biomarker or prognostic gene, fusion partner, DNA repair, immune checkpoint, antigen); several allowed. */
+  role: z.array(z.enum(TARGET_ROLES)).default([]),
+  /** Strongest public evidence tying the gene to cancer: approved drug, clinical evidence, driver by cohort analysis, or association only. */
+  evidenceTier: z.enum(EVIDENCE_TIERS).optional(),
+  /** The public sources each fact on the record was read from, with the page consulted and what it contributed. */
+  sources: z.array(ExternalLinkSchema.extend({ note: z.string().optional() })).default([]),
   /**
    * External gene identifiers for single-gene targets, filled by scripts/enrich-target-ids.ts from the HGNC REST API
    * (UniProt REST as fallback). Composite targets (AKT1/2/3, BRCA1, BRCA2) carry none; their per-gene ids live in

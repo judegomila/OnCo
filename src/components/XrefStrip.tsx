@@ -26,8 +26,8 @@ export function xrefLinks(g: GeneXref): Array<{ label: string; url: string; tip:
  * "Elsewhere" strip: external identifiers for a target, one row per gene when a target covers several (BRCA1 and
  * BRCA2, AKT1/2/3). Links are built from HGNC, Ensembl, UniProt, Entrez and ChEMBL ids fetched by scripts/fetch-xrefs.ts.
  */
-export function XrefStrip({ targetId, compact = false }: { targetId: string; compact?: boolean }) {
-  const x = targetXrefs[targetId];
+export function XrefStrip({ targetId, compact = false, fallback }: { targetId: string; compact?: boolean; /** The record's own ids, used when target-xrefs.ts has no entry yet (generated gene records). */ fallback?: GeneIds & { symbol: string; name: string } }) {
+  const x = targetXrefs[targetId] ?? (fallback?.hgnc ? { genes: [{ symbol: fallback.symbol, name: fallback.name, hgnc: fallback.hgnc, ensembl: fallback.ensembl, uniprot: fallback.uniprot, entrez: fallback.entrez }] } : undefined);
   if (!x) return null;
   return (
     <div className="space-y-2">

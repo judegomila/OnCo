@@ -2,7 +2,7 @@ import Link from "next/link";
 import { enrolmentLabel } from "@/lib/enrolment";
 import { publicTags, tagRoute } from "@/lib/tags";
 import type { ReactNode } from "react";
-import type { Cancer, Entity, Roadmap, Term } from "@/lib/schema";
+import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL, type Cancer, type Entity, type Roadmap, type Term } from "@/lib/schema";
 import { KIND_META, phaseLabel, routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { paragraphs, KIND_COLOR, statusClass } from "@/lib/text";
@@ -305,7 +305,20 @@ function kindTabs(e: Entity): Tab[] {
           <div className="mt-6"><TargetExplainer target={e} /></div>
           <div className="mt-6"><CatalystsPanel id={e.id} /></div>
           <div className="mt-6 flex flex-wrap items-center justify-between gap-2"><Link href={`/dossiers/${e.id}/`} className="chip border bg-card border-border hover:bg-foreground/5 text-sm">Full dossier: hotspots, trials, resistance, assays, models, open questions →</Link></div>
-          <Block title="External identifiers"><XrefStrip targetId={e.id} compact /></Block>
+          {(e.role.length > 0 || e.evidenceTier) && (
+            <div className="mt-6 flex flex-wrap items-center gap-1.5" data-target-roles>
+              {e.role.map((r) => <Link key={r} href={`/targets/?role=${encodeURIComponent(TARGET_ROLE_LABEL[r])}`} className="chip border bg-card border-border hover:bg-foreground/5 text-xs" title={`All targets listed as ${TARGET_ROLE_LABEL[r].toLowerCase()}`}>{TARGET_ROLE_LABEL[r]}</Link>)}
+              {e.evidenceTier && <Link href={`/targets/?evidence=${encodeURIComponent(EVIDENCE_TIER_LABEL[e.evidenceTier])}`} className="chip bg-foreground/5 text-xs" title="Strongest public evidence tying the gene to cancer; click for every target at this tier">Evidence: {EVIDENCE_TIER_LABEL[e.evidenceTier]}</Link>}
+              <Link href="/targets/genome/" className="text-xs text-muted underline ms-1">All cancer genes by role →</Link>
+            </div>
+          )}
+          <Block title="External identifiers"><XrefStrip targetId={e.id} compact fallback={e.hgnc ? { symbol: e.symbol ?? e.name, name: e.aka[0] ?? e.name, hgnc: e.hgnc, ensembl: e.ensembl, uniprot: e.uniprot, entrez: e.entrez } : undefined} /></Block>
+          {e.sources.length > 0 && (
+            <p className="text-sm text-muted mt-3" data-target-sources>
+              <span className="font-medium text-foreground">Sources:</span>{" "}
+              {e.sources.map((s, i) => <span key={s.url}>{i > 0 && "; "}<a className="underline hover:text-foreground" href={s.url} rel="noopener" title={s.note}>{s.label}</a>{s.note && <span className="text-xs"> ({s.note})</span>}</span>)}
+            </p>
+          )}
           {hotspotsFor(e.id) && <Block title="Mutation hotspots"><HotspotPlot map={hotspotsFor(e.id)!} compact /><p className="text-xs text-muted mt-1"><Link className="underline" href={`/dossiers/${e.id}/#hotspots`}>Residue-by-residue table on the dossier →</Link></p></Block>}
           {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc ps-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/dossiers/${e.id}/#q-${q.id}`}>{q.question}</Link></li>)}</ul></Block>}
           {assaysForTarget(e.id).length > 0 && <Block title="Companion diagnostics"><ul className="text-sm space-y-1">{assaysForTarget(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></Block>}

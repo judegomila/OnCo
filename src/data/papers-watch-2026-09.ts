@@ -1,7 +1,7 @@
 import type { PaperInput } from "@/lib/schema";
 
 const asOf = "2026-09-21";
-type P = Omit<PaperInput, "kind" | "asOf">;
+type P = Omit<PaperInput, "kind" | "asOf"> & { asOf?: string };
 const p = (x: P): PaperInput => ({ kind: "paper", asOf, ...x });
 
 /**
@@ -11,6 +11,11 @@ const p = (x: P): PaperInput => ({ kind: "paper", asOf, ...x });
  * PMC indexes no abstract (the KRYSTAL-12 plain language summary) the record carries no numbers. Landmark updates
  * (the ADAURA eight-year survival analysis) are linked from the cancer pages' `keyPapers`; secondary safety, subgroup
  * and plain-language papers are linked from the trial only.
+ *
+ * Added 23 September 2026 (owner ask): the NHS-Galleri test-performance paper in Nature Medicine, checked against the
+ * Europe PMC record for PMID 42773209 on the day. Its abstract says the primary endpoint was "reported elsewhere"; a
+ * Europe PMC search for "NHS-Galleri" in 2026 found no peer-reviewed primary-endpoint paper (only this paper, commentaries,
+ * news items and preprints), so the corpus records the primary endpoint as not met on this paper's word.
  */
 export const papersWatch202609: PaperInput[] = [
   p({ id: "paper-adaura-8-year-os-jto-2026", name: "ADAURA: exploratory eight-year overall survival update for adjuvant osimertinib in resected EGFR-mutated stage IB to IIIA lung cancer",
@@ -70,4 +75,17 @@ export const papersWatch202609: PaperInput[] = [
     caveats: ["Exploratory analysis of a phase 2 study, not a randomised comparison of assays.", "Single cancer type and a moderate to high-risk population; performance in other settings is untested.", "Follow-up through January 2023 with analysis in 2025 to 2026."],
     links: [{ label: "JAMA Oncology 2026", url: "https://doi.org/10.1001/jamaoncol.2026.2833" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/42593771/" }],
     cancers: ["tnbc"], technologies: ["liquid-biopsy", "mrd-testing"], terms: ["tumour-informed-assay", "mrd", "ctdna"], journals: ["jama-oncology"] }),
+
+  p({ id: "paper-nhs-galleri-performance-nat-med-2026", asOf: "2026-09-23", name: "Performance of a multi-cancer early detection test in the randomized controlled NHS-Galleri trial",
+    tldr: "In the NHS-Galleri trial about one person in a hundred had a positive blood test in each of three yearly rounds, roughly half of those positives were cancer, and the test missed most cancers diagnosed during the trial. The paper says the main endpoint, fewer late-stage diagnoses, was not met and is reported elsewhere.",
+    summary: "Prespecified secondary test-performance analysis of NHS-Galleri, the randomised controlled trial of GRAIL's Galleri multi-cancer early detection (MCED) test added to usual NHS care. Participants aged 50 to 77 (N = 142,250) were randomised 1:1 to the MCED test or control; intervention-arm participants with a positive result were referred to NHS standard-of-care diagnostic pathways, with referrals informed by the predicted cancer signal origin. The analyses were descriptive, with no hypothesis testing. The abstract states that the primary endpoint, a reduction in the incidence of stage III/IV cancer diagnoses in the intervention arm versus the control arm, was not met and was reported elsewhere.\n\nPositive results were returned for 722 of 70,325 (1.03 percent), 518 of 64,498 (0.80 percent) and 561 of 62,323 (0.90 percent) participants in rounds 1 to 3. In aggregate 937 participants had MCED-detected primary cancers. By-round cancer detection rates were 0.60, 0.40 and 0.41 percent; positive predictive values 58.0 percent (419/722), 50.4 percent (261/518) and 45.8 percent (257/561); negative predictive values 98.98 percent (68,895/69,603), 98.90 percent (63,278/63,980) and 98.86 percent (61,058/61,762). Across rounds, specificity ranged from 99.50 to 99.60 percent, episode sensitivity from 26.7 to 37.2 percent for all cancers and from 47.6 to 63.4 percent for 12 prespecified cancer types, and cancer signal origin accuracy from 91.1 to 93.6 percent. The 12 prespecified types are named on the ClinicalTrials.gov record (NCT05611632): lung, head and neck, colorectal, pancreas, myeloma or plasma cell neoplasm, liver or bile duct, stomach, oesophagus, anus, lymphoma, ovary and bladder.",
+    journal: "Nature Medicine", year: 2026, doi: "10.1038/s41591-026-04652-8", pmid: "42773209",
+    authors: "Neal RD, Dolly S, Johnson P, et al.", paperType: "rct", participants: 142250, changedPractice: false,
+    findings: ["Positive test results in 722 of 70,325 (1.03 percent), 518 of 64,498 (0.80 percent) and 561 of 62,323 (0.90 percent) intervention-arm participants in rounds 1 to 3; 937 participants had MCED-detected primary cancers in aggregate.", "Cancer detection rates 0.60, 0.40 and 0.41 percent by round; positive predictive values 58.0 percent (419/722), 50.4 percent (261/518) and 45.8 percent (257/561).", "Negative predictive values 98.98, 98.90 and 98.86 percent; specificity 99.50 to 99.60 percent across rounds.", "Episode sensitivity 26.7 to 37.2 percent for all cancers and 47.6 to 63.4 percent for the 12 prespecified cancer types; cancer signal origin accuracy 91.1 to 93.6 percent.", "The primary endpoint, a reduction in stage III/IV cancer incidence in the intervention arm versus control, was not met and is reported elsewhere (the abstract's words; no figures are given in this paper)."],
+    whatItMeans: "For someone offered the test, these are the numbers that describe what a result means in an NHS population: about 1 in 100 tests came back positive each year, between 46 and 58 in 100 positives were cancer, and a negative result left about 1 in 100 with an undetected cancer within the year. The test found between a quarter and a third of all cancers diagnosed in a screening round, and about half to two thirds of the 12 cancer types it was designed to find. Whether finding them this way reduces late-stage diagnoses is the primary question, and this paper says only that the answer was no; the primary-endpoint paper had not appeared on Europe PMC by 23 September 2026.",
+    caveats: ["Descriptive secondary endpoints in the intervention arm only; the abstract states there was no hypothesis testing.", "The primary endpoint was not met and is reported elsewhere; this paper gives no stage III/IV, stage IV or mortality figures.", "Performance is for one commercial assay in one health system over three annual rounds; the denominators fall from 70,325 to 62,323 across rounds as participants left the screened population.", "Episode sensitivity and specificity are quoted as ranges across rounds in the abstract; per-round values are not transcribed here."],
+    links: [{ label: "Nature Medicine 2026", url: "https://doi.org/10.1038/s41591-026-04652-8" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/42773209/" }, { label: "ClinicalTrials.gov NCT05611632", url: "https://clinicaltrials.gov/study/NCT05611632" }, { label: "ISRCTN91431511", url: "https://www.isrctn.com/ISRCTN91431511" }],
+    cancers: ["lung-cancer", "head-and-neck", "colorectal", "pancreatic", "multiple-myeloma", "hcc", "cholangiocarcinoma", "gastric", "esophageal", "anal", "hodgkin-lymphoma", "non-hodgkin-lymphoma", "ovarian", "urothelial"],
+    drugs: ["galleri"], technologies: ["mced", "cfdna-methylation-testing", "methylation-profiling", "liquid-biopsy"], trials: ["nhs-galleri"], terms: ["ppv", "stage-shift", "screening", "sensitivity-specificity"],
+    companies: ["grail"], people: ["peter-sasieni", "charles-swanton", "peter-johnson"], journals: ["nature-medicine"], sections: ["early-detection"], related: ["paper-nhs-galleri-design-cancers-2022", "paper-pathfinder-lancet-2023", "ctdna-tests"], bottlenecks: ["b-early-detection", "b-overdiagnosis"] }),
 ];

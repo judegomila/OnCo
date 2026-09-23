@@ -49,6 +49,18 @@ on main, 7 residue.
 - [x] Glossary: 75 terms recorded as having no Wikipedia article; gauge explained: chain 104
 - [ ] Owner: WHO Blue Books access, taxonomy call (entities versus settings, supportive care, cooperative groups), burden source for the 31 cancers GLOBOCAN does not map (see docs/CONTENT-ROADMAP.md section 4)
 
+## Owner asks of 23 Sept 2026
+- [x] Open drug development engine (/pipeline/engine/, modules, permutation grids, stopped with reasons, 60 evidence-backed proposals; docs/OPEN-PIPELINE.md): chains 109 and 110
+- [x] Open-source oncology map (/open-source/, 379 verified projects, checked against the Open Medical Registry): chain 110
+- [x] Top bar without the tagline (106 to 107); search ranks cancers and treatments first (108); tabs full width and /tagged/<tag>/ power search (109); Edge type and For you pills (109)
+- [x] Biomarker readouts under their parent genes (/biomarkers/, 80 readouts, label-quoted thresholds) and the cancer gene layer (1,447 genes, /targets/genome/): chains 110 and 112; no private source touched
+- [x] Mobile: controls that drive a visual keep it in view (docs/MOBILE.md, `npm run audit:mobile`): chain 111
+- [x] Proposals bot merges register-verified rows itself; residue opens a needs-review PR; PR 55 closed with its analysis: chain 111
+- [x] Mechanics of cancer: 56 stage pages, journey hub: chain 111
+- [x] /api/ licence wording matches the footer; For me says browser-only with a signed-in version coming; daily spotlight rotation: chains 109 and 110
+- [x] Drugs browser fits its card; NHS-Galleri paper, trial outcomes and Galleri test page: chain 113; header fits at 1280 px: chain 114
+- [ ] Front navigation counts grid: four options offered (linked-kinds graph, body as entry point, what changed today, search-first chips); owner to pick
+
 ## Owner asks not yet started
 - [ ] Health data: see docs/HEALTH-DATA-COMPLIANCE.md; decisions listed there (HIPAA does not apply today; stay browser-only, fix explicit consent for cancer type and gate analytics, plan encrypted sync next)
 - [x] Weekly maintenance and monthly identifiers now run in .github/workflows/maintenance.yml (owner approved 22 Sept 2026); bot pushes deploy on their own through the ignoreCommand test in vercel.json.

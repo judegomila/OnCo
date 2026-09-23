@@ -7,7 +7,15 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 23 September 2026
+- Proposals bot merges register-verified rows itself, mechanics of cancer rebuilt with 56 stage pages, mobile patterns for views where a control drives a visual
+- Dependency map gets a touch path, and wide matrices scroll inside their own box
+- Mechanics atlas: a page per stage and a light journey hub
 - Cancer gene layer of 1,447 genes, open-source oncology map, evidence-backed combination proposals on the engine, daily spotlight, iodine target correction
+- LAUNCH: proposals bot, what merges itself and what waits
+- Nightly proposals: auto branch squash-merged after the gates, review PR labelled needs-review with a reason on every EMA row
+- Proposals bot decides EU rows from the EMA medicine pages: page status, exact attribution, biosimilar rule, drift check, apply script
+- Regional approvals io helper: parse and write the hand-written file with a round-trip test, and R() takes a source
+- Two-column tools get a phone layout: sticky preview, Choose and View pills, inline results
 - Cancer genes, tier 4: 389 genes associated with cancer without a proven role
 - Cancer genes, tier 3: 332 drivers called by cohort mutation analysis
 - Cancer genes, tier 2: 507 genes with clinical evidence on their variants

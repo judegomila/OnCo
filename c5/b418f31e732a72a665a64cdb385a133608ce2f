@@ -1,0 +1,69 @@
+src/app/pipeline/engine/page.tsx
+  s_0beac9cb5d78fd::t_22f96f2fe33474 1-86
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_22f96f2fe33474 57
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 73
+src/lib/modular.test.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 1-210
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 81
+src/app/heavy-pages.test.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 21-24,231-251
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 73
+src/data/combination-ideas.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 1-18
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 73
+src/lib/modular.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 1-759
+src/lib/search-index.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 4,21-23
+src/lib/sitemap-urls.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 13,102
+src/lib/tables/engine.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 1-80
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 29,75-76,114
+scripts/build-engine.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 1-35
+src/components/EngineView.tsx
+  s_0beac9cb5d78fd::t_22f96f2fe33474 1-127
+src/lib/tables/index.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 10,39
+scripts/api-layout.ts
+  ai_agent 10,33-36,95-97
+scripts/api-layout.test.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 24
+src/app/pipeline/engine/[format]/page.tsx
+  s_0beac9cb5d78fd::t_22f96f2fe33474 1-167
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 73
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 73
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 73
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 73
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 73
+src/lib/modular-formats.ts
+  s_0beac9cb5d78fd::t_22f96f2fe33474 1-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c5b418f31e732a72a665a64cdb385a133608ce2f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

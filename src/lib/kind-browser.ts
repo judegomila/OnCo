@@ -4,8 +4,9 @@ import { logoSrc } from "@/lib/logos";
 import { portraitSrc } from "@/lib/portraits";
 import { rankInstitutions } from "@/lib/ranking";
 import { PHASE_ORDER, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
-import { type Entity } from "@/lib/schema";
+import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_ROLE_LABEL, TARGET_ROLES, type Entity } from "@/lib/schema";
 import { COMPANY_TYPE_LABEL, portfolioOf, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf } from "@/lib/startups";
+import { publicTags } from "@/lib/tags";
 import { termVisual, type TermVisual } from "@/lib/term-visual";
 
 /**
@@ -108,9 +109,9 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
     };
     case "target": return {
       hideStatus: true,
-      rows: g.kind("target").map((t) => ({ ...base(t), sub: t.symbol, target: { id: t.id, name: t.name, targetClass: t.targetClass, tldr: t.tldr }, facets: { class: [cap(t.targetClass.replace("-", " "))], cancers: names(t.cancers), tags: t.tags }, cols: { class: fl("class", cap(t.targetClass.replace("-", " "))), drugs: count(inc(t.id, "drug").length, t, "products", "product", "aimed at"), techs: count(inc(t.id, "technology").length, t, "connected", "technology", "aimed at"), cancers: links(t.cancers) }, sortKeys: { drugs: inc(t.id, "drug").length, techs: inc(t.id, "technology").length } })),
-      facets: [{ key: "class", label: "Class", searchable: false }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "tags", label: "Tag", searchable: false, width: "w-40" }],
-      columns: [{ key: "class", label: "Class", hide: "hidden sm:table-cell" }, { key: "drugs", label: "Products", sortable: true, numeric: true }, { key: "techs", label: "Technologies", sortable: true, numeric: true, hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }],
+      rows: g.kind("target").map((t) => ({ ...base(t), sub: t.symbol, target: { id: t.id, name: t.name, targetClass: t.targetClass, tldr: t.tldr }, facets: { class: [cap(t.targetClass.replace("-", " "))], role: t.role.map((r) => TARGET_ROLE_LABEL[r]), evidence: t.evidenceTier ? [EVIDENCE_TIER_LABEL[t.evidenceTier]] : [], cancers: names(t.cancers), tags: publicTags(t.tags) }, cols: { class: fl("class", cap(t.targetClass.replace("-", " "))), role: t.role.map((r) => ({ facet: "role", value: TARGET_ROLE_LABEL[r] })), evidence: fl("evidence", t.evidenceTier ? EVIDENCE_TIER_LABEL[t.evidenceTier] : undefined), drugs: count(inc(t.id, "drug").length, t, "products", "product", "aimed at"), techs: count(inc(t.id, "technology").length, t, "connected", "technology", "aimed at"), cancers: links(t.cancers) }, sortKeys: { drugs: inc(t.id, "drug").length, techs: inc(t.id, "technology").length, evidence: t.evidenceTier ? rank(EVIDENCE_TIERS, t.evidenceTier) : EVIDENCE_TIERS.length } })),
+      facets: [{ key: "class", label: "Class", searchable: false }, { key: "role", label: "Role in cancer", searchable: false, width: "w-56", order: TARGET_ROLES.map((r) => TARGET_ROLE_LABEL[r]) }, { key: "evidence", label: "Evidence", searchable: false, width: "w-56", order: EVIDENCE_TIERS.map((t) => EVIDENCE_TIER_LABEL[t]) }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "tags", label: "Tag", searchable: false, width: "w-40" }],
+      columns: [{ key: "class", label: "Class", hide: "hidden sm:table-cell" }, { key: "role", label: "Role", hide: "hidden md:table-cell" }, { key: "evidence", label: "Evidence", sortable: true, hide: "hidden lg:table-cell", tip: "Strongest public evidence tying the gene to cancer, from the catalogues the record cites." }, { key: "drugs", label: "Products", sortable: true, numeric: true }, { key: "techs", label: "Technologies", sortable: true, numeric: true, hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }],
       defaultSort: { key: "drugs", dir: -1 },
     };
     case "drug": {

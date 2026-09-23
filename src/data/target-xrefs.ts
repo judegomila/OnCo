@@ -3,6 +3,8 @@
  * from the HGNC REST API (ids, Ensembl, UniProt, Entrez, COSMIC, OMIM, locus) and the ChEMBL REST API (target id).
  * Do not edit by hand; re-run the script. Link builders live in src/components/XrefStrip.tsx.
  */
+import { targetXrefsGenes } from "./target-xrefs-genes";
+
 export type GeneXref = {
   symbol: string; name: string; hgnc: string; ensembl?: string; uniprot?: string; entrez?: string; chembl?: string; cosmic?: string; omim?: string; locus?: string;
 };
@@ -10,7 +12,8 @@ export type TargetXref = { genes: GeneXref[] };
 
 export const TARGET_XREFS_GENERATED = "2026-09-10";
 
-export const targetXrefs: Record<string, TargetXref> = {
+// Gene records written by scripts/fetch-cancer-genes.ts carry their own HGNC-derived cross-references; a hand-fetched entry below wins.
+export const targetXrefs: Record<string, TargetXref> = { ...targetXrefsGenes,
   akt: {
     genes: [
       {

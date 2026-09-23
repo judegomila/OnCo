@@ -48,6 +48,23 @@ export const STATUSES = [
 ] as const;
 export type Status = (typeof STATUSES)[number];
 
+/**
+ * What a gene or protein does in cancer, as the public catalogues describe it. A target may carry several: a kinase
+ * can be a drug target, an oncogene driver and a fusion partner at once. Labels in TARGET_ROLE_LABEL.
+ */
+export const TARGET_ROLES = ["drug-target", "oncogene-driver", "tumour-suppressor", "biomarker", "fusion-partner", "dna-repair", "immune-checkpoint", "antigen"] as const;
+export type TargetRole = (typeof TARGET_ROLES)[number];
+export const TARGET_ROLE_LABEL: Record<TargetRole, string> = {
+  "drug-target": "Drug target", "oncogene-driver": "Oncogene driver", "tumour-suppressor": "Tumour suppressor", biomarker: "Biomarker or prognostic gene",
+  "fusion-partner": "Fusion partner", "dna-repair": "DNA repair", "immune-checkpoint": "Immune checkpoint", antigen: "Antigen",
+};
+/** Strongest public evidence that ties a target to cancer, strongest first. Labels in EVIDENCE_TIER_LABEL. */
+export const EVIDENCE_TIERS = ["approved-drug", "clinical-evidence", "cohort-driver", "association-only"] as const;
+export type EvidenceTier = (typeof EVIDENCE_TIERS)[number];
+export const EVIDENCE_TIER_LABEL: Record<EvidenceTier, string> = {
+  "approved-drug": "Approved drug", "clinical-evidence": "Clinical evidence", "cohort-driver": "Driver by cohort analysis", "association-only": "Association only",
+};
+
 /** The relationship array fields shared by every entity. */
 export const REL_FIELDS = [
   "related",

@@ -7,7 +7,10 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 23 September 2026
+- Top bar fits at 1280 px with a classic scrollbar
+- LAUNCH: owner asks of 23 Sept 2026
 - Drugs browser fits its card with capped cells and clearer approval years; NHS-Galleri performance paper, trial outcomes and Galleri test page
+- Header fits a 1280 px window with a classic scrollbar: star count folds into its icon, tighter nav gaps and 13 px labels between xl and 2xl
 - NHS-Galleri test-performance paper (Nature Medicine, 22 Sept 2026) as a paper record, trial rebuilt on the registry and the abstract, result on Galleri, MCED and the ctDNA roadmap
 - Drugs browser fits at 1280 and 1440: capped list cells with a "+N more" pill, Approved as first year plus muted latest with region flags, results tables scroll inside their card only when measured too wide
 - Biomarker readouts under their parent genes at /biomarkers/, genome hub pages its genes

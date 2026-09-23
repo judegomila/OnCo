@@ -7,6 +7,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 23 September 2026
+- Drugs browser fits its card with capped cells and clearer approval years; NHS-Galleri performance paper, trial outcomes and Galleri test page
+- NHS-Galleri test-performance paper (Nature Medicine, 22 Sept 2026) as a paper record, trial rebuilt on the registry and the abstract, result on Galleri, MCED and the ctDNA roadmap
+- Drugs browser fits at 1280 and 1440: capped list cells with a "+N more" pill, Approved as first year plus muted latest with region flags, results tables scroll inside their card only when measured too wide
 - Biomarker readouts under their parent genes at /biomarkers/, genome hub pages its genes
 - Gene hub pages its role sections: first 30 genes per role in the HTML, the rest from one tables file, role and evidence deep links over the full set
 - Proposals bot merges register-verified rows itself, mechanics of cancer rebuilt with 56 stage pages, mobile patterns for views where a control drives a visual

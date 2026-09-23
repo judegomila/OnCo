@@ -5,6 +5,7 @@ import { Tip, COLUMN_TIPS } from "@/components/Tip";
 import { useT } from "@/lib/i18n/ui";
 import { fillNodes } from "@/components/T";
 import { ColumnFilter, type ColumnFilterSpec } from "./ColumnFilter";
+import { ScrollRow } from "@/components/ScrollRow";
 
 export type Column<T> = {
   key: string;
@@ -95,7 +96,9 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty, sc
     return () => io.disconnect();
   }, [capped, remote, pageSize, limit, load]);
   return (
-    <div className={`card results-table overflow-x-auto ${scroll ? "" : "lg:overflow-x-visible"}`}>
+    <div className="card results-table">
+      {/* A table wider than its card scrolls inside the card with an edge fade and arrows (ScrollRow), never widening the page; while it fits at lg and above the box stays visible so the header can stick to the viewport. */}
+      <ScrollRow label={t("table.scroll")} fitClass={scroll ? "overflow-x-auto" : "overflow-x-auto lg:overflow-x-visible"}>
       <table className="onco">
         <thead>
           <tr>
@@ -118,6 +121,7 @@ export function ResultsTable<T>({ columns, rows, rowKey, sort, onSort, empty, sc
           ))}
         </tbody>
       </table>
+      </ScrollRow>
       {rows.length === 0 && <div className="px-6 py-12 text-center text-muted text-sm">{empty ?? t("table.nothingMatches")}</div>}
       {capped && <div ref={foot} className="px-4 py-3 border-t border-border text-sm"><button type="button" onClick={() => setLimit(Infinity)} className="underline">{t("table.showAll", { n: rows.length.toLocaleString("en-GB") })}</button> <span className="text-muted">{t("table.showingFirst", { n: pageSize })}</span></div>}
       {!capped && remote && <MoreFoot ref={foot} total={more.total} shown={rows.length} step={pageSize} load={() => load?.()} loading={more.loading} />}

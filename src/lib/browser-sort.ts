@@ -4,7 +4,7 @@
  * the rest agrees with the page by construction. EntityBrowser imports the comparator from here; nothing here
  * touches React or the graph.
  */
-import type { BrowserRow, CellValue, FacetLink, LinkItem, RichText } from "@/components/EntityBrowser";
+import type { BrowserRow, CellValue, FacetLink, LinkItem, RichText, YearRange } from "@/components/EntityBrowser";
 import type { SortState } from "@/components/filters/ResultsTable";
 
 /** Phase and status values in "what works first" order; unknown values sort last. */
@@ -12,9 +12,12 @@ export const STATUS_ORDER = ["approved", "standard-of-care", "positive", "phase-
 
 export const isRich = (v: unknown): v is RichText => !!v && typeof v === "object" && !Array.isArray(v) && "text" in (v as object);
 export const isFacetLink = (v: unknown): v is FacetLink => !!v && typeof v === "object" && !Array.isArray(v) && "facet" in (v as object);
+export const isYearRange = (v: unknown): v is YearRange => !!v && typeof v === "object" && !Array.isArray(v) && "first" in (v as object);
 export const itemLabel = (i: LinkItem | FacetLink): string => ("href" in i ? i.label : (i.label ?? i.value));
+/** "2007 to 2017", or the one year when the range has no later end. */
+export const yearRangeText = (v: YearRange): string => (v.last && v.last !== v.first ? `${v.first} to ${v.last}` : String(v.first));
 /** The plain text of a cell: what search matches against and what text sorting compares. */
-export const cellText = (v: CellValue): string => (Array.isArray(v) ? v.map(itemLabel).join(", ") : isRich(v) ? v.text : isFacetLink(v) ? itemLabel(v) : String(v ?? ""));
+export const cellText = (v: CellValue): string => (Array.isArray(v) ? v.map(itemLabel).join(", ") : isRich(v) ? v.text : isFacetLink(v) ? itemLabel(v) : isYearRange(v) ? yearRangeText(v) : String(v ?? ""));
 
 const statusIdx = (s?: string) => { const i = STATUS_ORDER.indexOf(s ?? ""); return i < 0 ? 99 : i; };
 

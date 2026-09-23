@@ -7,6 +7,8 @@ import { Tip } from "./Tip";
 
 const LABEL: Record<RegionalStatus, string> = { approved: "Approved", conditional: "Conditional approval", "under-review": "Under review", "not-filed": "Not filed", withdrawn: "Withdrawn", rejected: "Rejected" };
 const TONE: Record<RegionalStatus, string> = { approved: "approved", conditional: "phase-3", "under-review": "phase-2", "not-filed": "mixed", withdrawn: "withdrawn", rejected: "negative" };
+/** Flags shown inside the chip before a "+N" count. */
+const MAX_FLAGS = 4;
 
 /**
  * Status for a product as seen from the reader's country. Approved products show the regulator's verdict for the
@@ -17,7 +19,14 @@ export function ApprovalChip({ drugId, status, compact = false }: { drugId: stri
   const { region } = useRegion();
   const row = regionalApprovals[drugId];
   const approvedIn = row ? (Object.keys(row) as Region[]).filter((r) => row[r]?.status === "approved" || row[r]?.status === "conditional") : [];
-  const flags = (skip?: Region) => approvedIn.filter((r) => r !== skip).map((r) => <span key={r} aria-label={`approved in ${REGION_META[r].label}`} title={`${REGION_META[r].label}${row?.[r]?.year ? ` · ${row[r]!.year}` : ""}`} className="text-[11px] leading-none">{REGION_META[r].flag}</span>);
+  /** At most MAX_FLAGS flags, then "+N": the tooltip names every region, and a row of seven flags set the width of a whole table column (drugs browser, 23 Sept 2026). */
+  const flags = (skip?: Region) => {
+    const all = approvedIn.filter((r) => r !== skip);
+    const shown = all.length > MAX_FLAGS ? all.slice(0, MAX_FLAGS) : all;
+    const out = shown.map((r) => <span key={r} aria-label={`approved in ${REGION_META[r].label}`} title={`${REGION_META[r].label}${row?.[r]?.year ? ` · ${row[r]!.year}` : ""}`} className="text-[11px] leading-none">{REGION_META[r].flag}</span>);
+    if (all.length > shown.length) out.push(<span key="more" className="text-[10px] leading-none opacity-80" aria-label={`and ${all.length - shown.length} more regions`}>+{all.length - shown.length}</span>);
+    return out;
+  };
 
   // Not an approved product anywhere we know of: plain global status.
   const globallyApproved = status === "approved" || status === "standard-of-care" || approvedIn.length > 0;

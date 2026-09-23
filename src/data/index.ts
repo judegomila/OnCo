@@ -75,6 +75,11 @@ import { india } from "./india";
 import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
 import { targetsWave1 } from "./targets-wave1";
+import { targetsBiomarkerWave } from "./targets-biomarker-wave";
+import { biomarkerReadouts } from "./biomarker-readouts";
+import { biomarkerReadouts2 } from "./biomarker-readouts-2";
+import { biomarkerReadouts3 } from "./biomarker-readouts-3";
+import { biomarkerReadouts4 } from "./biomarker-readouts-4";
 import { companiesWave1 } from "./companies-wave1";
 import { companiesYc } from "./companies-yc";
 import { companiesStartups } from "./companies-startups";
@@ -216,6 +221,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...china,
   ...approvedWave1,
   ...targetsWave1,
+  ...targetsBiomarkerWave, ...biomarkerReadouts, ...biomarkerReadouts2, ...biomarkerReadouts3, ...biomarkerReadouts4,
   ...companiesWave1,
   ...companiesYc,
   ...companiesStartups,

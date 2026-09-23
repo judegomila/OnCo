@@ -16,7 +16,7 @@ import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
 import type { ZodType } from "zod";
 import {
-  BottleneckSchema, CancerSchema, CollectionSchema, CompanySchema, DrugSchema, EntitySchema, InstitutionSchema, IdeaSchema, JournalSchema,
+  BiomarkerSchema, BottleneckSchema, CancerSchema, CollectionSchema, CompanySchema, DrugSchema, EntitySchema, InstitutionSchema, IdeaSchema, JournalSchema,
   KINDS, PairingSchema, PaperSchema, PathwaySchema, PersonSchema, RoadmapSchema, SectionSchema, TargetSchema, TechnologySchema, TermSchema, TrialSchema,
   type Kind,
 } from "../src/lib/schema";
@@ -25,13 +25,13 @@ import { ALL_INPUTS } from "../src/data";
 const SCHEMAS: Record<Kind, ZodType> = {
   cancer: CancerSchema, section: SectionSchema, technology: TechnologySchema, target: TargetSchema, drug: DrugSchema, company: CompanySchema, institution: InstitutionSchema,
   pathway: PathwaySchema, term: TermSchema, trial: TrialSchema, pairing: PairingSchema, roadmap: RoadmapSchema, idea: IdeaSchema, collection: CollectionSchema,
-  person: PersonSchema, bottleneck: BottleneckSchema, paper: PaperSchema, journal: JournalSchema,
+  person: PersonSchema, bottleneck: BottleneckSchema, paper: PaperSchema, journal: JournalSchema, biomarker: BiomarkerSchema,
 };
 
 const FILE_HINT: Record<Kind, string> = {
   cancer: "src/data/cancers.ts (and a spike under src/data/spikes/)", section: "src/data/sections.ts", technology: "src/data/technologies.ts", target: "src/data/targets.ts", drug: "src/data/drugs.ts",
   company: "src/data/companies.ts", institution: "src/data/institutions/*.ts", pathway: "src/data/pathways.ts", term: "src/data/terms.ts", trial: "src/data/trials.ts", pairing: "src/data/pairings.ts",
-  roadmap: "src/data/roadmaps.ts", idea: "src/data/ideas.ts", collection: "src/data/collections.ts", person: "src/data/people/*.ts", bottleneck: "src/data/bottlenecks.ts", paper: "src/data/key-papers/*.ts", journal: "src/data/journals.ts",
+  roadmap: "src/data/roadmaps.ts", idea: "src/data/ideas.ts", collection: "src/data/collections.ts", person: "src/data/people/*.ts", bottleneck: "src/data/bottlenecks.ts", paper: "src/data/key-papers/*.ts", journal: "src/data/journals.ts", biomarker: "src/data/biomarker-readouts.ts",
 };
 
 function arg(name: string): string | undefined {

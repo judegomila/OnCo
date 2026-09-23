@@ -225,6 +225,7 @@ export const de: UiDict = {
   "kind.journal.label": "Zeitschrift", "kind.journal.plural": "Zeitschriften",
   "kind.paper.label": "Schlüsselpublikation", "kind.paper.plural": "Schlüsselpublikationen",
   "kind.bottleneck.label": "Engpass", "kind.bottleneck.plural": "Engpässe", "kind.bottleneck.title": "Die Engpässe im Krieg gegen den Krebs",
+  "kind.biomarker.label": "Biomarker", "kind.biomarker.plural": "Biomarker", "kind.biomarker.title": "Biomarker & Messwerte",
 
   "l.Summary": "Zusammenfassung",
   "l.Overview": "Überblick",

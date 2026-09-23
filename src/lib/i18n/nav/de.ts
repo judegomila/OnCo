@@ -32,6 +32,7 @@ export const navDe: NavDict = {
   "/fronts/": ["Fronten", "Die Fronten des Krieges: von der Bildgebung bis zur Zelltherapie."],
   "/technologies/": ["Technologien", "Jeder Weg, einen Tumor zu sehen, zu messen oder anzugreifen."],
   "/targets/": ["Zielstrukturen", "Die Moleküle, auf die Medikamente und Tracer zielen."],
+  "/biomarkers/": ["Biomarker", "PD-L1 CPS, HER2 IHC 3+, MSI-hoch: jeder Messwert unter seinem Gen, mit den Schwellenwerten der Zulassungen und den Tests, die ihn messen."],
   "/drugs/": ["Therapien und Tests", "Zugelassene und in Entwicklung befindliche Produkte, mit rotierenden Molekülen."],
   "/pathways/": ["Signalwege", "Signalkreise, gezeichnet und erklärt."],
   "/dossiers/": ["Zielstruktur-Dossiers", "Alles zu einer Zielstruktur auf einer Seite: Biologie, Häufigkeit, Hotspots, Produkte nach Phase, Studien, Resistenz, Tests, Modelle, offene Fragen, externe IDs."],

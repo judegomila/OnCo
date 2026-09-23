@@ -47,7 +47,7 @@ describe("kind index rows always have a visual", () => {
   });
 
   it("trials, roadmaps, pairings, journals and key papers have no gaps either", () => {
-    for (const k of ["trial", "roadmap", "pairing", "journal", "paper", "pathway", "bottleneck"] as const) {
+    for (const k of ["trial", "roadmap", "pairing", "journal", "paper", "pathway", "bottleneck", "biomarker"] as const) {
       const gaps = buildBrowser(k).rows.filter((r) => !hasVisual(r)).map((r) => r.id);
       expect(gaps, k).toEqual([]);
     }

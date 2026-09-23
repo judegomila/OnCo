@@ -36,6 +36,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/fronts/", label: "Fronts", blurb: "The fronts of the war: imaging to cell therapy." },
       { href: "/technologies/", label: "Technologies", blurb: "Every way we see, measure, or attack a tumour." },
       { href: "/targets/", label: "Targets", blurb: "The molecules drugs and tracers aim at." },
+      { href: "/biomarkers/", label: "Biomarkers", blurb: "PD-L1 CPS, HER2 IHC 3+, MSI-high: each readout under its gene, with the thresholds approvals use and the tests that measure it." },
       { href: "/drugs/", label: "Treatments & tests", blurb: "Approved and pipeline products, with rotating molecules." },
       { href: "/pathways/", label: "Pathways", blurb: "Signalling circuits, drawn and explained." },
       { href: "/dossiers/", label: "Target dossiers", blurb: "Everything about a target on one page: biology, prevalence, hotspots, products by phase, trials, resistance, assays, models, open questions, external ids." },

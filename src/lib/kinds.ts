@@ -23,6 +23,7 @@ export const KINDS = [
   "bottleneck",
   "paper",
   "journal",
+  "biomarker",
 ] as const;
 export type Kind = (typeof KINDS)[number];
 
@@ -88,6 +89,7 @@ export const KIND_META: Record<Kind, { plural: string; label: string; route: str
   journal: { plural: "journals", label: "Journal", route: "journals", blurb: "Where the evidence is published: the journals, their scope and access model, and the key papers each one carried.", color: "slate" },
   paper: { plural: "key papers", label: "Key paper", route: "key-papers", blurb: "The papers that changed practice or thinking, each explained: what it found, what it means, and what to be careful about.", color: "sky" },
   bottleneck: { plural: "bottlenecks", label: "Bottleneck", route: "bottlenecks", blurb: "The systemic constraints slowing the whole war on cancer, with the ideas that could break each one.", color: "red" },
+  biomarker: { plural: "biomarkers", label: "Biomarker", route: "biomarkers", title: "Biomarkers & readouts", blurb: "The readouts a pathology report gives (PD-L1 CPS, HER2 IHC 3+, MSI-high), each under its gene or protein, with the thresholds approvals use and the tests that measure them.", color: "violet" },
 };
 
 export function routeFor(e: { kind: Kind; id: string }): string {

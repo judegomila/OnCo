@@ -256,6 +256,7 @@ export const EN = {
   "kind.journal.label": "Journal", "kind.journal.plural": "journals",
   "kind.paper.label": "Key paper", "kind.paper.plural": "key papers",
   "kind.bottleneck.label": "Bottleneck", "kind.bottleneck.plural": "bottlenecks", "kind.bottleneck.title": "Bottlenecks of the war on cancer",
+  "kind.biomarker.label": "Biomarker", "kind.biomarker.plural": "biomarkers", "kind.biomarker.title": "Biomarkers & readouts",
 
   // ---- headings, field labels, facet and column labels (looked up by English text) ----
   "l.Summary": "Summary",

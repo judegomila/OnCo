@@ -225,6 +225,7 @@ export const ar: UiDict = {
   "kind.journal.label": "مجلة", "kind.journal.plural": "مجلات",
   "kind.paper.label": "ورقة رئيسية", "kind.paper.plural": "أوراق رئيسية",
   "kind.bottleneck.label": "عائق", "kind.bottleneck.plural": "عوائق", "kind.bottleneck.title": "عوائق الحرب على السرطان",
+  "kind.biomarker.label": "واسم حيوي", "kind.biomarker.plural": "الواسمات الحيوية", "kind.biomarker.title": "الواسمات الحيوية والقراءات",
 
   "l.Summary": "الملخص",
   "l.Overview": "نظرة عامة",

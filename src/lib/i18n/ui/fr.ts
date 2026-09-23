@@ -225,6 +225,7 @@ export const fr: UiDict = {
   "kind.journal.label": "Revue", "kind.journal.plural": "revues",
   "kind.paper.label": "Article clé", "kind.paper.plural": "articles clés",
   "kind.bottleneck.label": "Goulet d'étranglement", "kind.bottleneck.plural": "goulets d'étranglement", "kind.bottleneck.title": "Les goulets d'étranglement de la guerre contre le cancer",
+  "kind.biomarker.label": "Biomarqueur", "kind.biomarker.plural": "biomarqueurs", "kind.biomarker.title": "Biomarqueurs et scores",
 
   "l.Summary": "Résumé",
   "l.Overview": "Vue d'ensemble",

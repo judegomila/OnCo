@@ -61,6 +61,7 @@ const P: Record<string, string> = {
   "/resistance/": "M12 3l8 3v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3ZM5 19 19 5",
   "/resistance/gaps/": "M12 3l8 3v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3Zm0 6v4m0 3v1",
   "/assays/": "M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.7 3h10.6a2 2 0 0 0 1.7-3l-5-9V3M8 15h8",
+  "/biomarkers/": "M4 18h16M6 18V11M10 18V7M14 18v-5M18 18V9M4 8.5h2.5M9 8.5h1.5",
   "/preprints/": "M6 3h8l4 4v14H6V3Zm8 0v4h4M9 12h6M9 16h6M4 8 3 9",
   "/payloads/": "M3.5 9a4 4 0 0 1 4-4h9a4 4 0 0 1 0 8h-9a4 4 0 0 1-4-4Zm8.5-4v8M4 17h16",
   "/regulatory/": "M8 3h8v5H8zM6 8h12l-1 5H7L6 8Zm1 5v8h10v-8",

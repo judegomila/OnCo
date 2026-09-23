@@ -26,6 +26,7 @@ export function fieldText(e: Entity): string {
     case "idea": return [e.hypothesis, e.rationale, e.test, e.maturity, e.actor ?? ""].join(" ");
     case "paper": return [e.journal, e.authors, e.paperType, ...e.findings, e.whatItMeans, ...e.caveats].join(" ");
     case "journal": return [e.publisher, e.scope, e.society ?? ""].join(" ");
+    case "biomarker": return [e.measurement, e.scoringRule.text, ...e.thresholds.map((t) => t.value), e.forPatient].join(" ");
     case "bottleneck": return [e.stage, e.severity, ...e.causes, ...e.currentEfforts, e.successLooksLike ?? ""].join(" ");
     case "collection": return [e.holds, e.maintainer ?? ""].join(" ");
     case "person": return [e.role, ...e.specialisms].join(" ");

@@ -26,6 +26,7 @@ import { navigatorCancerFile, navigatorLines } from "../src/lib/navigator-data";
 import { writeExploreFiles } from "./build-explore";
 import { writeIdeaRankingFiles } from "./build-idea-rankings";
 import { writeTableFiles } from "./build-tables";
+import { writeEngineFiles } from "./build-engine";
 import { explainedFileFor, explainedGroups } from "../src/lib/explained-data";
 
 const out = join(process.cwd(), "public", "api", "v1");
@@ -71,6 +72,8 @@ const rankings = writeIdeaRankingFiles(out);
 // Paged hand-written tables (evidence, China trials, university output, audit, pathway nodes, dossier trials): every row
 // of one table per file; the page carries only the first rows (src/lib/static-tables.ts).
 const tables = writeTableFiles(out);
+// Open drug engine: one file per format (medicines taken apart, grid cells with states and evidence) plus an index (src/lib/modular.ts).
+const engineFiles = writeEngineFiles(out);
 // Trials in plain words: the explainer bodies of one cancer section per file; the page keeps the headings and summaries.
 mkdirSync(join(out, "explained"), { recursive: true });
 for (const grp of explainedGroups(g)) write(`explained/${grp.key}.json`, explainedFileFor(grp));
@@ -108,4 +111,4 @@ write("meta.json", {
   releases: "https://github.com/judegomila/OnCo/releases",
 });
 
-console.log(`api: wrote ${g.entities.length} entities to public/api/v1 (json, ndjson, ${KINDS.length} csv, schema); explore: ${explore.length} kind files, ${explore.reduce((n, f) => n + f.count, 0)} rows; idea rankings: ${rankings.length} view files, ${rankings.reduce((n, f) => n + f.count, 0)} rows; tables: ${tables.length} files, ${tables.reduce((n, f) => n + f.count, 0)} rows; feeds: ${feeds.join(", ")}`);
+console.log(`api: wrote ${g.entities.length} entities to public/api/v1 (json, ndjson, ${KINDS.length} csv, schema); explore: ${explore.length} kind files, ${explore.reduce((n, f) => n + f.count, 0)} rows; idea rankings: ${rankings.length} view files, ${rankings.reduce((n, f) => n + f.count, 0)} rows; tables: ${tables.length} files, ${tables.reduce((n, f) => n + f.count, 0)} rows; engine: ${engineFiles.length} files, ${engineFiles.reduce((n, f) => n + f.cells, 0)} cells; feeds: ${feeds.join(", ")}`);

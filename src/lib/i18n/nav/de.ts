@@ -70,6 +70,7 @@ export const navDe: NavDict = {
   "/deals/": ["Deals und Lizenzen", "Wer was gekauft oder lizenziert hat, für wie viel, und wie Assets zwischen Regionen wandern."],
   "/exclusivity/": ["Exklusivitätsende", "Wann jedes Produkt Patent- oder Regulierungsexklusivität verliert, und die kommenden Biosimilars und Generika."],
   "/pipeline/": ["Pipeline-Trichter", "Assets nach Phase für jede Zielstruktur, Modalität oder Krebsart, und wie umkämpft jede Zielstruktur ist."],
+  "/pipeline/engine/": ["Offener Wirkstoff-Baukasten", "Jedes Medikament in seine Module zerlegt, und das Raster aller Kombinationen: zugelassen, in Entwicklung, versucht und gestoppt mit Begründung, oder nie versucht."],
   "/market/": ["Adressierbare Population", "Inzidenz mal Häufigkeit mal Setting-Anteil, jede Eingabe verlinkt, als Spanne."],
   "/calendar/": ["Ergebniskalender", "Entscheidungen, Ergebnisse, Beratungsausschüsse, Kongresse."],
   "/digests/": ["Kongress-Digests", "ASCO, ESMO, AACR, ASCO GU, Punkt für Punkt belegt."],

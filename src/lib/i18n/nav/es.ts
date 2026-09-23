@@ -70,6 +70,7 @@ export const navEs: NavDict = {
   "/deals/": ["Acuerdos y licencias", "Quién compró o licenció qué, por cuánto, y cómo fluyen los activos entre regiones."],
   "/exclusivity/": ["Fin de la exclusividad", "Cuándo pierde cada producto la exclusividad de patente o regulatoria, y los biosimilares y genéricos que llegan."],
   "/pipeline/": ["Embudo de desarrollo", "Activos por fase para cualquier diana, modalidad o cáncer, y qué tan saturada está cada diana."],
+  "/pipeline/engine/": ["Motor abierto de fármacos", "Cada medicamento desmontado en sus módulos, y la cuadrícula de todas las combinaciones: aprobadas, en desarrollo, probadas y detenidas con el motivo, o nunca probadas."],
   "/market/": ["Población abordable", "Incidencia por prevalencia por cuota del contexto, cada dato enlazado, como rango."],
   "/calendar/": ["Calendario de resultados", "Decisiones, resultados, comités asesores, congresos."],
   "/digests/": ["Resúmenes de congresos", "ASCO, ESMO, AACR, ASCO GU, con fuente en cada punto."],

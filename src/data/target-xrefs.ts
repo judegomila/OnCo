@@ -3318,5 +3318,385 @@ export const targetXrefs: Record<string, TargetXref> = { ...targetXrefsGenes,
         locus: "2p23.1"
       }
     ]
-  }
+  },
+  // Checkpoint map targets (src/data/checkpoint-map.ts): HGNC REST and ChEMBL REST, read 24 September 2026.
+  "btla": {
+    genes: [
+      {
+        symbol: "BTLA",
+        name: "B and T lymphocyte associated",
+        hgnc: "HGNC:21087",
+        ensembl: "ENSG00000186265",
+        uniprot: "Q7Z6A9",
+        entrez: "151888",
+        omim: "607925",
+        locus: "3q13.2"
+      }
+    ]
+  },
+  "klrc1": {
+    genes: [
+      {
+        symbol: "KLRC1",
+        name: "killer cell lectin like receptor C1",
+        hgnc: "HGNC:6374",
+        ensembl: "ENSG00000134545",
+        uniprot: "P26715",
+        entrez: "3821",
+        chembl: "CHEMBL4630892",
+        omim: "161555",
+        locus: "12p13"
+      }
+    ]
+  },
+  "kir2dl1": {
+    genes: [
+      {
+        symbol: "KIR2DL1",
+        name: "killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 1",
+        hgnc: "HGNC:6329",
+        ensembl: "ENSG00000125498",
+        uniprot: "P43626",
+        entrez: "3802",
+        chembl: "CHEMBL3712912",
+        omim: "604936",
+        locus: "19q13.42"
+      }
+    ]
+  },
+  "cd96": {
+    genes: [
+      {
+        symbol: "CD96",
+        name: "CD96 molecule",
+        hgnc: "HGNC:16892",
+        ensembl: "ENSG00000153283",
+        uniprot: "P40200",
+        entrez: "10225",
+        omim: "606037",
+        locus: "3q13.13-q13.2"
+      }
+    ]
+  },
+  "pvrig": {
+    genes: [
+      {
+        symbol: "PVRIG",
+        name: "PVR related immunoglobulin domain containing",
+        hgnc: "HGNC:32190",
+        ensembl: "ENSG00000213413",
+        uniprot: "Q6DKI7",
+        entrez: "79037",
+        omim: "617012",
+        locus: "7q22.1"
+      }
+    ]
+  },
+  "cd86": {
+    genes: [
+      {
+        symbol: "CD86",
+        name: "CD86 molecule",
+        hgnc: "HGNC:1705",
+        ensembl: "ENSG00000114013",
+        uniprot: "P42081",
+        entrez: "942",
+        chembl: "CHEMBL2364156",
+        omim: "601020",
+        locus: "3q13.33"
+      }
+    ]
+  },
+  "fgl1": {
+    genes: [
+      {
+        symbol: "FGL1",
+        name: "fibrinogen like 1",
+        hgnc: "HGNC:3695",
+        ensembl: "ENSG00000104760",
+        uniprot: "Q08830",
+        entrez: "2267",
+        omim: "605776",
+        locus: "8p22"
+      }
+    ]
+  },
+  "lgals9": {
+    genes: [
+      {
+        symbol: "LGALS9",
+        name: "galectin 9",
+        hgnc: "HGNC:6570",
+        ensembl: "ENSG00000168961",
+        uniprot: "O00182",
+        entrez: "3965",
+        chembl: "CHEMBL5474",
+        omim: "601879",
+        locus: "17q11.2"
+      }
+    ]
+  },
+  "pvr": {
+    genes: [
+      {
+        symbol: "PVR",
+        name: "PVR cell adhesion molecule",
+        hgnc: "HGNC:9705",
+        ensembl: "ENSG00000073008",
+        uniprot: "P15151",
+        entrez: "5817",
+        omim: "173850",
+        locus: "19q13.31"
+      }
+    ]
+  },
+  "nectin2": {
+    genes: [
+      {
+        symbol: "NECTIN2",
+        name: "nectin cell adhesion molecule 2",
+        hgnc: "HGNC:9707",
+        ensembl: "ENSG00000130202",
+        uniprot: "Q92692",
+        entrez: "5819",
+        omim: "600798",
+        locus: "19q13.32"
+      }
+    ]
+  },
+  "hla-e": {
+    genes: [
+      {
+        symbol: "HLA-E",
+        name: "major histocompatibility complex, class I, E",
+        hgnc: "HGNC:4962",
+        ensembl: "ENSG00000204592",
+        uniprot: "P13747",
+        entrez: "3133",
+        omim: "143010",
+        locus: "6p22.1"
+      }
+    ]
+  },
+  "cd24": {
+    genes: [
+      {
+        symbol: "CD24",
+        name: "CD24 molecule",
+        hgnc: "HGNC:1645",
+        ensembl: "ENSG00000272398",
+        uniprot: "P25063",
+        entrez: "100133941",
+        omim: "600074",
+        locus: "6q21"
+      }
+    ]
+  },
+  "siglec10": {
+    genes: [
+      {
+        symbol: "SIGLEC10",
+        name: "sialic acid binding Ig like lectin 10",
+        hgnc: "HGNC:15620",
+        ensembl: "ENSG00000142512",
+        uniprot: "Q96LC7",
+        entrez: "89790",
+        chembl: "CHEMBL4303061",
+        omim: "606091",
+        locus: "19q13.41"
+      }
+    ]
+  },
+  "lilrb1": {
+    genes: [
+      {
+        symbol: "LILRB1",
+        name: "leukocyte immunoglobulin like receptor B1",
+        hgnc: "HGNC:6605",
+        ensembl: "ENSG00000104972",
+        uniprot: "Q8NHL6",
+        entrez: "10859",
+        omim: "604811",
+        locus: "19q13.42"
+      }
+    ]
+  },
+  "lilrb2": {
+    genes: [
+      {
+        symbol: "LILRB2",
+        name: "leukocyte immunoglobulin like receptor B2",
+        hgnc: "HGNC:6606",
+        ensembl: "ENSG00000131042",
+        uniprot: "Q8N423",
+        entrez: "10288",
+        omim: "604815",
+        locus: "19q13.4"
+      }
+    ]
+  },
+  "tnfrsf4": {
+    genes: [
+      {
+        symbol: "TNFRSF4",
+        name: "TNF receptor superfamily member 4",
+        hgnc: "HGNC:11918",
+        ensembl: "ENSG00000186827",
+        uniprot: "P43489",
+        entrez: "7293",
+        chembl: "CHEMBL3989383",
+        omim: "600315",
+        locus: "1p36.33"
+      }
+    ]
+  },
+  "tnfrsf18": {
+    genes: [
+      {
+        symbol: "TNFRSF18",
+        name: "TNF receptor superfamily member 18",
+        hgnc: "HGNC:11914",
+        ensembl: "ENSG00000186891",
+        uniprot: "Q9Y5U5",
+        entrez: "8784",
+        chembl: "CHEMBL3712995",
+        omim: "603905",
+        locus: "1p36.33"
+      }
+    ]
+  },
+  "cd27": {
+    genes: [
+      {
+        symbol: "CD27",
+        name: "CD27 molecule",
+        hgnc: "HGNC:11922",
+        ensembl: "ENSG00000139193",
+        uniprot: "P26842",
+        entrez: "939",
+        chembl: "CHEMBL3713333",
+        omim: "186711",
+        locus: "12p13.31"
+      }
+    ]
+  },
+  "cd40": {
+    genes: [
+      {
+        symbol: "CD40",
+        name: "CD40 molecule",
+        hgnc: "HGNC:11919",
+        ensembl: "ENSG00000101017",
+        uniprot: "P25942",
+        entrez: "958",
+        chembl: "CHEMBL1250358",
+        omim: "109535",
+        locus: "20q13.12"
+      }
+    ]
+  },
+  "tdo2": {
+    genes: [
+      {
+        symbol: "TDO2",
+        name: "tryptophan 2,3-dioxygenase",
+        hgnc: "HGNC:11708",
+        ensembl: "ENSG00000151790",
+        uniprot: "P48775",
+        entrez: "6999",
+        chembl: "CHEMBL2140",
+        omim: "191070",
+        locus: "4q32.1"
+      }
+    ]
+  },
+  "entpd1": {
+    genes: [
+      {
+        symbol: "ENTPD1",
+        name: "ectonucleoside triphosphate diphosphohydrolase 1",
+        hgnc: "HGNC:3363",
+        ensembl: "ENSG00000138185",
+        uniprot: "P49961",
+        entrez: "953",
+        chembl: "CHEMBL5722",
+        omim: "601752",
+        locus: "10q24.1"
+      }
+    ]
+  },
+  "adora2a": {
+    genes: [
+      {
+        symbol: "ADORA2A",
+        name: "adenosine A2a receptor",
+        hgnc: "HGNC:263",
+        ensembl: "ENSG00000128271",
+        uniprot: "P29274",
+        entrez: "135",
+        chembl: "CHEMBL251",
+        omim: "102776",
+        locus: "22q11.23"
+      }
+    ]
+  },
+  "hhla2": {
+    genes: [
+      {
+        symbol: "HHLA2",
+        name: "HHLA2 member of B7 family",
+        hgnc: "HGNC:4905",
+        ensembl: "ENSG00000114455",
+        uniprot: "Q9UM44",
+        entrez: "11148",
+        omim: "604371",
+        locus: "3q13.13"
+      }
+    ]
+  },
+  "il10": {
+    genes: [
+      {
+        symbol: "IL10",
+        name: "interleukin 10",
+        hgnc: "HGNC:5962",
+        ensembl: "ENSG00000136634",
+        uniprot: "P22301",
+        entrez: "3586",
+        chembl: "CHEMBL3712920",
+        omim: "124092",
+        locus: "1q32.1"
+      }
+    ]
+  },
+  "bub1": {
+    genes: [
+      {
+        symbol: "BUB1",
+        name: "BUB1 mitotic checkpoint serine/threonine kinase",
+        hgnc: "HGNC:1148",
+        ensembl: "ENSG00000169679",
+        uniprot: "O43683",
+        entrez: "699",
+        chembl: "CHEMBL1772932",
+        omim: "602452",
+        locus: "2q13"
+      }
+    ]
+  },
+  "ttk": {
+    genes: [
+      {
+        symbol: "TTK",
+        name: "TTK protein kinase",
+        hgnc: "HGNC:12401",
+        ensembl: "ENSG00000112742",
+        uniprot: "P33981",
+        entrez: "7272",
+        chembl: "CHEMBL3983",
+        omim: "604092",
+        locus: "6q14.1"
+      }
+    ]
+  },
 };

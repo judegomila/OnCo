@@ -152,6 +152,7 @@ import { pipelineTrialsWave3 } from "./pipeline-trials-wave3";
 import { pipelineTrialsWave4 } from "./pipeline-trials-wave4";
 import { pipelineTrialsWave5 } from "./pipeline-trials-wave5";
 import { pipelineTrialsWave6 } from "./pipeline-trials-wave6";
+import { checkpointTargets, checkpointTerms, IMMUNE_CHECKPOINT_TARGET_IDS } from "./checkpoint-map";
 
 const RAW_INPUTS: EntityInput[] = [
   ...cancers,
@@ -241,6 +242,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...pipelineTrialsWave4,
   ...pipelineTrialsWave5, ...pipelineTrialsWave6,
   ...freeCollections, ...tumourTestCompanies,
+  ...checkpointTargets, ...checkpointTerms,
 ];
 
 /** Readout ids by parent target id and by the drugs their current thresholds name (see the biomarker branch in ALL_INPUTS). */
@@ -289,6 +291,8 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];
   let e: EntityInput = cited ? { ...raw, keyPapers: [...(raw.keyPapers ?? []), ...cited.filter((id) => !(raw.keyPapers ?? []).includes(id))] } : raw;
+  // Immune members of the checkpoint map (src/data/checkpoint-map.ts) carry the immune-checkpoint role, whichever file owns the record.
+  if (e.kind === "target" && IMMUNE_CHECKPOINT_TARGET_IDS.has(e.id) && !(e.role ?? []).includes("immune-checkpoint")) e = { ...e, role: [...(e.role ?? []), "immune-checkpoint"] };
   if (e.kind === "term") return { ...e, category: canonicalTermCategory(e.id, e.category) };
   // Biomarker readouts hang off a parent target and off the drugs whose current label thresholds name them; the
   // reverse links are written here so a target page lists its readouts and a drug page its required readouts in

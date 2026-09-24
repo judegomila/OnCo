@@ -12,7 +12,8 @@ export function GuidelineChip({ g }: { g?: Guideline }) {
       {!g.nccn && !g.esmoMcbs && g.version && <span className="chip bg-foreground/5 text-muted">{g.version}</span>}
     </>
   );
-  const cls = "inline-flex flex-wrap gap-1.5 items-center";
+  // max-w-full: the chips are one pill each (nowrap), so a long grade truncates inside the row instead of widening the page.
+  const cls = "inline-flex flex-wrap gap-1.5 items-center max-w-full min-w-0";
   return g.url
     ? <a href={g.url} rel="noopener" className={`${cls} hover:opacity-90`} title={g.version}>{chips}</a>
     : <span className={cls} title={g.version}>{chips}</span>;

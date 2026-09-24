@@ -26,8 +26,8 @@ type Check = {
   view: string;
   label?: string;
   steps: Step[];
-  /** "driven": the driven element is in the viewport after the steps; "live": the pills' live region changed and is on screen. */
-  expect: "driven" | "live";
+  /** "driven": the driven element is in the viewport after the steps; "live": the pills' live region changed and is on screen; "width": the page alone, once hydrated, is no wider than the viewport. */
+  expect: "driven" | "live" | "width";
 };
 
 const v = (name: string) => `[data-mobile-view="${name}"]`;
@@ -44,6 +44,13 @@ export const CHECKS: Check[] = [
   { route: "/prep/colorectal/", view: "prep-sheet", steps: [{ act: "click", sel: `${v("prep-sheet")} [data-mobile-control]`, nth: 0 }], expect: "live" },
   { route: "/dependencies/", view: "dependency-map", label: "tap a tile", steps: [{ act: "click", sel: `${v("dependency-map")} [data-mobile-control]`, nth: 3 }], expect: "driven" },
   { route: "/resistance/", view: "resistance-map", label: "first route", steps: [{ act: "click", sel: `${v("resistance-map")} [data-mobile-control]`, nth: 0 }], expect: "driven" },
+  // Record pages, one of each kind (EntityDetail and its tabs, tables and pill rows): width only. Long nowrap pills in a
+  // grid card, tables and the year bars used to widen the layout viewport past the device (docs/GALLBLADDER-QA.md).
+  ...([
+    ["cancer", "/cancers/gallbladder/"], ["cancer", "/cancers/pancreatic/"], ["cancer", "/cancers/nsclc/"], ["drug", "/drugs/pembrolizumab/"], ["trial", "/trials/tapur/"],
+    ["target", "/targets/her2/"], ["biomarker", "/biomarkers/her2-ihc-3-plus/"], ["company", "/companies/astrazeneca/"], ["institution", "/institutions/nci/"],
+    ["person", "/people/thomas-powles/"], ["paper", "/key-papers/paper-haslam-jama-netw-open/"], ["idea", "/ideas/idea-bio2-let-rbe-ab-selects-protons/"], ["roadmap", "/roadmaps/global-access-roadmap/"],
+  ] as const).map(([kind, route]): Check => ({ route, view: "record", label: kind, steps: [], expect: "width" })),
 ];
 /** The page itself must never scroll sideways at 390 px; wide elements scroll inside their own box (ScrollRow). */
 const MAX_PAGE_WIDTH = 392;
@@ -79,6 +86,12 @@ async function main() {
     const r = await s("Runtime.evaluate", { awaitPromise: true, returnByValue: true, expression: `(async () => {
       const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       const H = window.innerHeight, HEADER = ${HEADER};
+      if (${JSON.stringify(c.expect)} === "width") {
+        // The record page has hydrated when its section bar is up; then only the page width is judged.
+        const bar = document.querySelector("[data-tabbar]");
+        const sw = document.documentElement.scrollWidth;
+        return { ok: !!bar && sw <= ${MAX_PAGE_WIDTH}, why: (bar ? "" : "section bar missing, ") + "page width " + sw + (sw <= ${MAX_PAGE_WIDTH} ? "" : " (SIDEWAYS SCROLL)") };
+      }
       const view = document.querySelector(${JSON.stringify(v(c.view))});
       if (!view) return { ok: false, why: "view wrapper missing" };
       const live = view.querySelector("[data-mobile-live]");

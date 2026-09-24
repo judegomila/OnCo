@@ -32,6 +32,7 @@ One line per view: route, what drives what, what changed.
 | `/cancers/map/` (CancerMapBy) | Badge pills above the map switch the count shown | Pills are directly above the map (visible) | None |
 | `/timeline/`, `/for-me/`, `/navigator/`, `/pipeline/`, `/manufacturing/`, `/universities/`, `/market/`, `/second-opinion/`, `/report-reader/`, `/biomarker-matrix/`, `/compare/`, `/pivot/`, `/interactions/`, `/molecules/` | Controls sit in a row or sticky bar above what they drive | Effect directly beneath the controls | None |
 | Roadmap records (RoadmapStory) | Timeline steps in the aside scroll the story | `go()` already scrolls the step into view | None |
+| Record pages (EntityDetail, every kind) | Section bar, tabs, tables and pill rows | The layout viewport grew to 943 to 2487 px: a long nowrap pill in a Related pages or Connected card set the grid track's width (Neighbours), the What changed cards did the same, a guideline or product pill sat in a shrink-to-fit wrapper so its `max-width` had nothing to bite on, and on company and institution pages a deals table and the year bars pushed the overview grid | Grid children can shrink (`min-w-0` on Neighbours and ChangeRow items, `*:min-w-0` on every EntityDetail grid, Field roots); GuidelineChip and DrugChip wrappers get `max-w-full`; tables in EntityDetail, InvestorPanels, StartupPanels, BiomarkerDetail, PrevalenceTable, ToxicityTable, AccessTable and ResearchOutput scroll inside `ScrollRow`, as do the year bars. One record of each kind is a width-only check in the audit |
 
 ## Sideways scroll
 

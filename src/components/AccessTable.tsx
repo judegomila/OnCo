@@ -1,4 +1,5 @@
 import type { Drug } from "@/lib/schema";
+import { ScrollRow } from "./ScrollRow";
 
 const FLAG: Record<string, string> = { US: "United States", UK: "United Kingdom", EU: "European Union", JP: "Japan", CN: "China", DE: "Germany", FR: "France", CA: "Canada", AU: "Australia", KR: "South Korea" };
 
@@ -8,7 +9,7 @@ export function AccessTable({ access }: { access: Drug["access"] }) {
   return (
     <div className="card p-4">
       <div className="kicker mb-2">Cost & access</div>
-      <div className="overflow-x-auto -mx-4 px-4">
+      <ScrollRow className="-mx-4 px-4">
       <table className="onco">
         <thead><tr><th>Country</th><th>Reimbursement</th><th className="hidden sm:table-cell">List price</th><th className="hidden md:table-cell">Assistance</th></tr></thead>
         <tbody>
@@ -22,7 +23,7 @@ export function AccessTable({ access }: { access: Drug["access"] }) {
           ))}
         </tbody>
       </table>
-      </div>
+      </ScrollRow>
       <p className="text-xs text-muted mt-2">List prices are manufacturer or Medicare figures where publicly disclosed; net prices after rebates are usually lower. Reimbursement changes; check the payer.</p>
     </div>
   );

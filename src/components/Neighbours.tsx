@@ -23,11 +23,11 @@ export function Neighbours({ groups, exclude = [], similar, max, moreHref }: { g
     <div className="space-y-4">
       {similar && similar.length > 0 && <SimilarStrip items={similar} />}
       {order.length > 0 && (
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2 min-w-0">
           {order.map((k) => {
             const items = groups.get(k)!;
             return (
-              <section key={k} aria-label={KIND_META[k].plural} className={`card p-4 ${k === "drug" ? "sm:col-span-2" : ""}`}>
+              <section key={k} aria-label={KIND_META[k].plural} className={`card p-4 min-w-0 ${k === "drug" ? "sm:col-span-2" : ""}`}>
                 <div className="mb-2.5 flex items-baseline justify-between gap-3">
                   <h3 className="kicker"><KindName kind={k} form="plural" fallback={KIND_META[k].plural} /></h3>
                   <span className="text-xs text-muted tabular-nums">{items.length}</span>
@@ -45,14 +45,14 @@ export function Neighbours({ groups, exclude = [], similar, max, moreHref }: { g
 /** "Similar pages": not linked directly, but sharing links. Each card names what is shared. */
 export function SimilarStrip({ items }: { items: SimilarLink[] }) {
   return (
-    <section aria-label="Similar pages" className="card p-4">
+    <section aria-label="Similar pages" className="card p-4 min-w-0">
       <div className="mb-2.5 flex items-baseline justify-between gap-3">
         <h3 className="kicker">Similar pages</h3>
         <span className="text-xs text-muted">not linked directly; found by shared links</span>
       </div>
       <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((s) => (
-          <li key={s.id} className="rounded-lg border border-border p-2.5 text-sm">
+          <li key={s.id} className="min-w-0 rounded-lg border border-border p-2.5 text-sm">
             <div className="flex items-center gap-1.5 mb-1">
               <span className={`chip border ${KIND_COLOR[s.kind]}`}><KindName kind={s.kind} form="label" fallback={KIND_META[s.kind].label} /></span>
             </div>

@@ -3,6 +3,7 @@ import { readPublicJson } from "@/lib/feed-meta";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/kinds";
 import { matchAuthorToPerson, type InstitutionResearch } from "@/lib/research";
+import { ScrollRow } from "./ScrollRow";
 
 /** Snapshot for one institution written by scripts/fetch-institution-research.ts, or null before the first fetch. */
 export const readResearch = (institutionId: string) => readPublicJson<InstitutionResearch>(`openalex/research/${institutionId}.json`);
@@ -49,10 +50,11 @@ export function ResearchOutput({ institutionId }: { institutionId: string }) {
         Matched to <a className="underline" href={`https://openalex.org/${r.openalexId}`} rel="noopener">{r.openalexName}</a>{r.confidence === "override" || r.confidence === "ror" ? "" : ` (${r.confidence} confidence name match)`}, including child institutions.
         <span className="text-foreground"> {n(r.works)} works</span> · {n(r.cited)} citations · {pct(r.openAccess, r.works)} open access · {pct(r.clinicalTrials, r.works)} clinical trials · {pct(r.reviews, r.works)} reviews.
       </p>
-      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
+      <div className="grid *:min-w-0 gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
         <div>
           <div className="kicker mb-2">Oncology works per year</div>
-          <YearBars byYear={r.byYear} />
+          {/* Each year keeps its 2.5rem column; on a phone the row scrolls inside its box rather than widening the page. */}
+          <ScrollRow label="Years"><YearBars byYear={r.byYear} /></ScrollRow>
           {r.topAuthors.length > 0 && (
             <div className="mt-6">
               <div className="kicker mb-2">Most works</div>
@@ -73,7 +75,7 @@ export function ResearchOutput({ institutionId }: { institutionId: string }) {
         {r.topWorks.length > 0 && (
           <div>
             <div className="kicker mb-2">Most cited</div>
-            <div className="overflow-x-auto">
+            <ScrollRow>
               <table className="onco">
                 <thead><tr><th>Work</th><th className="hidden sm:table-cell">Journal</th><th className="text-right">Year</th><th className="text-right">Citations</th></tr></thead>
                 <tbody>
@@ -90,7 +92,7 @@ export function ResearchOutput({ institutionId }: { institutionId: string }) {
                   ))}
                 </tbody>
               </table>
-            </div>
+            </ScrollRow>
           </div>
         )}
       </div>

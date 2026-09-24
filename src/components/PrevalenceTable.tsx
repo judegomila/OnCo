@@ -2,6 +2,7 @@ import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/kinds";
 import { type Target } from "@/lib/schema";
+import { ScrollRow } from "./ScrollRow";
 
 type Row = { cancerId: string; pct: number | string; measure?: string; source?: string; note?: string };
 
@@ -38,7 +39,8 @@ export function PrevalenceTable({ target }: { target: Target }) {
   if (!target.prevalence.length) return null;
   const rows = [...target.prevalence].sort((a, b) => (pctValue(b.pct) ?? -1) - (pctValue(a.pct) ?? -1));
   return (
-    <div className="card overflow-x-auto">
+    <div className="card">
+      <ScrollRow>
       <table className="onco">
         <thead><tr><th>Cancer</th><th>Prevalence</th><th className="hidden md:table-cell">Measure</th><th className="hidden lg:table-cell">Note</th><th>Source</th></tr></thead>
         <tbody>
@@ -52,6 +54,7 @@ export function PrevalenceTable({ target }: { target: Target }) {
             </tr>); })}
         </tbody>
       </table>
+      </ScrollRow>
       <p className="px-3 py-2 text-xs text-muted">Approximate, population-level figures; the measure column says what was counted. Ranges show the midpoint as a bar.</p>
     </div>
   );
@@ -65,7 +68,8 @@ export function CancerPrevalence({ cancerId }: { cancerId: string }) {
   if (!rows.length) return null;
   rows.sort((a, b) => (pctValue(b.row.pct) ?? -1) - (pctValue(a.row.pct) ?? -1));
   return (
-    <div className="card overflow-x-auto">
+    <div className="card">
+      <ScrollRow>
       <table className="onco">
         <thead><tr><th>Target / alteration</th><th>Prevalence</th><th className="hidden md:table-cell">Measure</th><th>Source</th></tr></thead>
         <tbody>
@@ -79,6 +83,7 @@ export function CancerPrevalence({ cancerId }: { cancerId: string }) {
           ))}
         </tbody>
       </table>
+      </ScrollRow>
       <p className="px-3 py-2 text-xs text-muted">How common each drug target or alteration is in this cancer. Population-level and approximate; see the target page for detail. <Link className="underline" href="/prevalence/">Full matrix</Link>.</p>
     </div>
   );

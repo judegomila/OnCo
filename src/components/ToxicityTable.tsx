@@ -1,4 +1,5 @@
 import type { Drug } from "@/lib/schema";
+import { ScrollRow } from "./ScrollRow";
 
 type Tox = Drug["toxicity"][number];
 
@@ -11,7 +12,7 @@ export function ToxicityTable({ toxicity, compact = false }: { toxicity: Tox[]; 
   return (
     <div className={compact ? "" : "card p-4"}>
       {!compact && <div className="kicker mb-2">Toxicity profile</div>}
-      <div className="overflow-x-auto">
+      <ScrollRow>
       <table className="onco">
         <thead><tr><th>Adverse event</th>{hasNumbers && <><th className="w-40">Any grade</th><th className="w-40">Grade 3+</th></>}</tr></thead>
         <tbody>
@@ -26,7 +27,7 @@ export function ToxicityTable({ toxicity, compact = false }: { toxicity: Tox[]; 
           ))}
         </tbody>
       </table>
-      </div>
+      </ScrollRow>
       <p className="text-xs text-muted mt-2">
         {notes.length === 1 && <>{notes[0]}. </>}
         {sources.length > 0 ? <>Rates read from {sources.map((s, i) => <a key={s} className="underline" href={s} rel="noopener">{sources.length > 1 ? `source ${i + 1}` : s.includes("dailymed") ? "the US prescribing information" : "the source"}</a>)}. </> : <>Events listed without rates were not read from a primary source; see the label. </>}

@@ -56,6 +56,7 @@ export const TAG_DESCRIPTIONS: Readonly<Record<string, string>> = {
   "hospital management": "People in hospital or health-system management roles.",
   "registry-only": "Products and companies known so far only from a trial registry entry, with little else published.",
   "subtype-trials": "Landmark trials recorded while writing a cancer subtype page.",
+  "gallbladder-deep-dive": "Registry-only phase 2 and 3 trials that name gallbladder cancer in their conditions or eligibility, recorded from ClinicalTrials.gov during the gallbladder cancer deep dive.",
   mechanism: "Pathways and ideas that explain how a cancer process works rather than a single product.",
   paediatric: "Cancers, trials, people and institutions concerned with cancer in children and young people.",
   hero: "People shown on the heroes page: patients, pioneers, advocates and donors whose stories shaped the field.",

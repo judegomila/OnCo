@@ -60,6 +60,8 @@ const isRegimen = (modality: string) => /regimen/i.test(modality);
 const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulate-japan", "crystal-fire3", "first-308", "olanzapine-appetite-tmh", "nlst-nelson", "prehab-trial",
   // Chinese phase 3 registered domestically only; NCT04829604, once recorded here, is the separate US study ACE-Breast-03.
   "ace-breast-02",
+  // Japanese JCOG phase 3 registered with UMIN only (UMIN000011688).
+  "ascot-jcog1202",
   // UK MRC trial run before ClinicalTrials.gov registration was required; registered as ISRCTN72251782.
   "pt-1",
   // Radiotherapy trials from the pre-registration era: CALGB 9343 (opened 1994), DAHANCA 5 (1986 to 1994), START-B, CHHiP, HYPO-RT-PC, PRIME II, IMPORT LOW and QUARTZ (UK and Nordic trials registered with ISRCTN only).

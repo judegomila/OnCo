@@ -242,6 +242,7 @@ const baseDrugs: DrugInput[] = [
       { region: "US", year: 2017, indication: "MSI-H/dMMR solid tumours (tumour-agnostic)" },
       { region: "US", year: 2020, indication: "Metastatic TNBC, PD-L1 CPS ≥10, with chemotherapy" },
       { region: "US", year: 2021, indication: "High-risk early TNBC, neoadjuvant + adjuvant (KEYNOTE-522)" },
+      { region: "US", year: 2023, indication: "Locally advanced unresectable or metastatic biliary tract cancer (gallbladder cancer included) with gemcitabine and cisplatin (KEYNOTE-966)", note: "Keytruda label (openFDA), KEYNOTE-966 section: https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22KEYTRUDA%22; no NICE appraisal for biliary tract cancer found in September 2026" },
       { region: "US", year: 2026, indication: "Platinum-resistant PD-L1+ ovarian cancer; adjuvant RCC with belzutifan; with sacituzumab govitecan in 1L TNBC" },
     ],
     targets: ["pd1"], technologies: ["checkpoint-inhibitor"], companies: ["merck"],
@@ -290,6 +291,8 @@ const baseDrugs: DrugInput[] = [
     approvals: [
       { region: "US", year: 2017, indication: "Locally advanced or metastatic urothelial carcinoma after platinum (accelerated; indication withdrawn 2021)" },
       { region: "US", year: 2018, indication: "Unresectable stage III NSCLC after chemoradiation" },
+      { region: "US", year: 2022, indication: "Locally advanced or metastatic biliary tract cancer (gallbladder cancer included) with gemcitabine and cisplatin (TOPAZ-1)", note: "Imfinzi label section 1.3 (openFDA): https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22IMFINZI%22" },
+      { region: "UK", year: 2024, indication: "Locally advanced, unresectable or metastatic biliary tract cancer with gemcitabine and cisplatin; NICE TA944 recommended 10 January 2024 with a commercial arrangement", note: "https://www.nice.org.uk/guidance/ta944" },
       { region: "US", year: 2026, indication: "High-risk NMIBC with BCG" },
     ],
     targets: ["pdl1"], technologies: ["checkpoint-inhibitor"], companies: ["astrazeneca"],
@@ -374,7 +377,7 @@ const baseDrugs: DrugInput[] = [
     tldr: "Zanidatamab (Ziihera) is an antibody that grabs HER2 at two different spots, approved for HER2+ bile duct cancer.",
     summary: "Accelerated approval November 2024 for HER2+ biliary tract cancer (HERIZON-BTC-01). HERIZON-GEA-01 phase 3 in first-line HER2+ gastro-oesophageal cancer with chemotherapy ± tislelizumab was positive (2025). Jazz (ex-Asia) and BeOne. Biparatopic binding drives receptor clustering and internalisation, the basis of the ADC zanidatamab zovodotin.",
     mechanism: "Binds ECD2 and ECD4 of HER2 simultaneously; clustering, internalisation, ADCC.",
-    approvals: [{ region: "US", year: 2024, indication: "HER2+ (IHC 3+) unresectable/metastatic biliary tract cancer, previously treated" }, { region: "EU", year: 2025, indication: "HER2+ biliary tract after ≥1 line; 27 Jun 2025 (conditional)", note: "Conditional marketing authorisation" }],
+    approvals: [{ region: "US", year: 2024, indication: "HER2+ (IHC 3+) unresectable/metastatic biliary tract cancer, previously treated", note: "Ziihera label (openFDA); 53% of HERIZON-BTC-01 patients had gallbladder cancer: https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22ZIIHERA%22" }, { region: "EU", year: 2025, indication: "HER2+ biliary tract after ≥1 line; 27 Jun 2025 (conditional)", note: "Conditional marketing authorisation" }, { region: "UK", year: 2026, indication: "HER2-positive (IHC 3+) unresectable locally advanced or metastatic biliary tract cancer after at least one line of systemic treatment; MHRA 19 February 2026, NICE TA1153 published 7 May 2026 with a commercial arrangement", note: "https://www.nice.org.uk/guidance/ta1153" }],
     targets: ["her2"], technologies: ["bispecific-antibody"], companies: ["jazz", "zymeworks", "beone"], cancers: ["cholangiocarcinoma", "gastric"],
   },
   {

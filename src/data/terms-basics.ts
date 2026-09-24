@@ -598,11 +598,11 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "immune-checkpoint", name: "Immune checkpoint", category: BIO,
-    aka: ["checkpoint", "checkpoints", "immune checkpoints", "checkpoint protein", "checkpoint proteins", "checkpoint blockade", "immune checkpoint blockade", "checkpoint inhibition", "checkpoint inhibitor", "checkpoint inhibitors", "immune checkpoint inhibitor", "immune checkpoint inhibitors", "ICI", "ICIs", "PD-1 blockade", "PD-1/PD-L1", "anti-PD-1", "anti-PD-L1", "anti-CTLA-4", "PD-(L)1"],
+    aka: ["immune checkpoints", "checkpoint protein", "checkpoint proteins", "checkpoint blockade", "immune checkpoint blockade", "checkpoint inhibition", "checkpoint inhibitor", "checkpoint inhibitors", "immune checkpoint inhibitor", "immune checkpoint inhibitors", "ICI", "ICIs", "PD-1 blockade", "PD-1/PD-L1", "anti-PD-1", "anti-PD-L1", "anti-CTLA-4", "PD-(L)1"],
     tldr: "Brakes on the immune system that stop T cells attacking healthy tissue. Tumours pull these brakes to protect themselves; checkpoint inhibitor drugs release them so T cells can attack the cancer.",
     summary: "PD-1 on a T cell, when it meets PD-L1 on another cell, tells the T cell to stand down; CTLA-4 acts earlier, when T cells are first activated. Tumours coat themselves in PD-L1 and exploit this, and antibodies that block PD-1 (pembrolizumab, nivolumab), PD-L1 (atezolizumab, durvalumab) or CTLA-4 (ipilimumab) restore the attack, producing durable remissions in melanoma, lung, kidney, bladder and many other cancers since 2011. The price is autoimmune side effects when the brakes come off everywhere, and only a minority of patients respond, which drives the search for newer checkpoints (LAG-3, TIGIT) and combinations. The 'checkpoint' in 'cell-cycle checkpoint' is an unrelated concept.",
     wikipedia: W("Immune_checkpoint"),
-    related: ["t-cell", "immune-system", "immunotherapy-term", "irae", "cold-vs-hot", "cps", "avoiding-immune-destruction"], targets: ["pd1", "pdl1", "ctla4", "lag3", "tigit"], technologies: ["checkpoint-inhibitor"], drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab"], pathways: ["pd1-checkpoint"],
+    related: ["checkpoint", "t-cell", "immune-system", "immunotherapy-term", "irae", "cold-vs-hot", "cps", "avoiding-immune-destruction"], targets: ["pd1", "pdl1", "ctla4", "lag3", "tigit"], technologies: ["checkpoint-inhibitor"], drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab"], pathways: ["pd1-checkpoint"],
   }),
 
   // =====================================================================================

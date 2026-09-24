@@ -15,6 +15,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Container, GroupKicker, PageHeader, StatusChip } from "@/components/ui";
 import { KindIcon } from "@/components/KindIcon";
 import { Tip } from "@/components/Tip";
+import { CheckpointPills } from "@/components/CheckpointPills";
 
 export function generateStaticParams() {
   return MECHANICS.flatMap((c) => c.stages.map((s) => ({ stage: s.id })));
@@ -166,6 +167,7 @@ export default async function StagePage({ params }: { params: Promise<{ stage: s
           </a>
         </nav>
 
+        <CheckpointPills id={id} className="mb-8" />
         <div className="mech-content space-y-14">
           {has(c, "diagram") && (
             <Section id="diagram" title="Diagram" count={c.pathways.length}

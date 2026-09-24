@@ -61,6 +61,10 @@ on main, 7 residue.
 - [x] Drugs browser fits its card; NHS-Galleri paper, trial outcomes and Galleri test page: chain 113; header fits at 1280 px: chain 114
 - [ ] Front navigation counts grid: four options offered (linked-kinds graph, body as entry point, what changed today, search-first chips); owner to pick
 
+## Owner asks of 24 Sept 2026
+- [x] Gallbladder cancer deep spike with a UK and NHS focus (record rewritten, eight subtypes, molecular landscape, treatments and 131 registry trials, /cancers/gallbladder/uk/ on the reusable UK pathway page, roadmap, 40 papers, decisions, first 60 days, red cards; reviewed against sources, docs/GALLBLADDER-QA.md): chains 115 to 118
+- [ ] Gallbladder gaps only the owner or time can close: NDRS pages block automated reading (England stage split, 2023 counts); Public Health Scotland publishes no C23 site; five GLHs publish no turnaround; KEYNOTE-966 gallbladder subgroup, ACTICCA-1, GAIN and POLCAGB results not yet published
+
 ## Owner asks not yet started
 - [ ] Health data: see docs/HEALTH-DATA-COMPLIANCE.md; decisions listed there (HIPAA does not apply today; stay browser-only, fix explicit consent for cancer type and gate analytics, plan encrypted sync next)
 - [x] Weekly maintenance and monthly identifiers now run in .github/workflows/maintenance.yml (owner approved 22 Sept 2026); bot pushes deploy on their own through the ignoreCommand test in vercel.json.

@@ -16,6 +16,8 @@ const ALLOWED_DOMAINS = [
   "scottishmedicines.org.uk", "awmsg.nhs.wales", "isrctn.com", "bepartofresearch.nihr.ac.uk", "natcan.org.uk",
   "ammf.org.uk", "macmillan.org.uk", "maggies.org", "pancreaticcancer.org.uk",
   "europepmc.org", "doi.org", "ucl.ac.uk", "manchester.ac.uk", "imperial.ac.uk",
+  // Second UK pass: the Northern Ireland Cancer Registry (Queen's), NHS inform, and the two public pages Hassan Malik has.
+  "qub.ac.uk", "nhsinform.scot", "liverpool.ac.uk", "hcahealthcare.co.uk",
 ];
 
 const hostOk = (url: string) => {

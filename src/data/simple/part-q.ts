@@ -55,7 +55,7 @@ export const simpleQ: Record<string, string> = {
   "nct02747004": "Eli Lilly ran this randomised phase 2 trial of abemaciclib and tamoxifen in previously treated metastatic breast cancer, and its results have been posted.",
   "nct02768363": "Candel Therapeutics runs this randomised phase 2 trial of aglatimagene besadenovec in newly diagnosed prostate cancer, and it is no longer recruiting.",
   "nct02781883": "Bio-Path Holdings runs this phase 2 trial of BP1001 with decitabine in acute myeloid leukaemia, and it is now recruiting.",
-  "nct02864992": "EMD Serono Research & Development Institute runs this phase 2 trial of tepotinib in advanced lung cancer, and it is no longer recruiting.",
+  "nct02864992": "In the VISION trial, the daily tablet tepotinib shrank about half of advanced lung cancers with a MET exon 14 skipping mutation, which led to its approval.",
   "nct02899052": "AbbVie runs this phase 2 trial of carfilzomib, venetoclax and dexamethasone in relapsed or refractory multiple myeloma, and it is no longer recruiting.",
   "nct02912949": "Partner Therapeutics runs this phase 2 trial of zenocutuzumab in solid tumours, and it is no longer recruiting.",
   "nct02934568": "Novartis Pharmaceuticals runs this phase 2 extension study that lets people from its earlier trials keep taking LEE011, and it is no longer recruiting.",

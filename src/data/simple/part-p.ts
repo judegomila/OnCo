@@ -548,7 +548,7 @@ export const simpleP: Record<string, string> = {
   "nct06662786": "Janssen is comparing amivantamab with cetuximab, each added to chemotherapy, as first treatment for left-sided bowel cancer without KRAS, NRAS or BRAF faults, and is recruiting.",
   "nct05112965": "Roche's IMbrella C lets people from earlier atezolizumab trials keep receiving their study drugs, and this extension study is no longer recruiting.",
   "nct06545955": "Ferring is testing nadofaragene firadenovec alone or with chemotherapy or pembrolizumab in bladder cancer that no longer responds to BCG, and the trial is recruiting.",
-  "nct04586231": "Merck is comparing belzutifan plus lenvatinib with cabozantinib in people with kidney cancer, and the phase 3 trial is no longer recruiting.",
+  "nct04586231": "In LITESPARK-011, belzutifan plus lenvatinib kept advanced kidney cancer in check about four months longer than cabozantinib after immunotherapy, but has not yet shown people live longer.",
   "nct05899049": "This Merck extension study in China compares pembrolizumab with belzutifan and lenvatinib, or with quavonlimab and lenvatinib, against pembrolizumab and lenvatinib in clear cell kidney cancer.",
   "nct06592326": "Mabwell is comparing 9MW2821 plus toripalimab with standard chemotherapy in advanced or spreading bladder and urinary tract cancer, and the trial is recruiting.",
   "nct06750094": "Janssen is comparing amivantamab with cetuximab or bevacizumab, each given with FOLFIRI, in bowel cancer without KRAS, NRAS or BRAF faults after earlier chemotherapy, and is recruiting.",

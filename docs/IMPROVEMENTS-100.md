@@ -210,3 +210,110 @@ Ranked by reach multiplied by how often the need recurs, weighted toward things 
 18. **#71 Review queue and coverage dashboard**: `reviews.ts` is empty; this is how it fills.
 19. **#17 Clinical calculators**: small, daily, and drives clinician return visits.
 20. **#51 Saved views** with **#52 watchlist**: the first step from reference site to daily tool.
+
+## Rows 150 to 249: the 100 upgrade ideas of 24 September 2026
+
+Drafted at the owner's request ("what are 100 ideas to upgrade this site?"); grouped by who they serve. Status Open until picked.
+
+| # | Item | Group | How | Status |
+|---|---|---|---|---|
+| 150 | Real-case For me | For patients and carers | Real-case For me: enter cancer, stage, biomarkers, line of treatment and country and get one ranked page of what applies now, with the evidence per row | Open |
+| 151 | Trial matching that reads the eligibility criteria | For patients and carers | Trial matching that reads the eligibility criteria: paste a pathology report's structured fields, get trials whose criteria you plausibly meet, with the failing criterion named for the rest | Open |
+| 152 | Appointment mode | For patients and carers | Appointment mode: a phone-first view of the three questions to ask today, the words to expect, and a notes field kept in the browser | Open |
+| 153 | "What changed for my cancer" weekly digest per cancer, generated from  | For patients and carers | "What changed for my cancer" weekly digest per cancer, generated from the changelog, as a page and an Atom feed | Open |
+| 154 | Treatment calendar templates per regimen (cycle days, bloods, scans) e | For patients and carers | Treatment calendar templates per regimen (cycle days, bloods, scans) exportable to a calendar file | Open |
+| 155 | Side-effect timeline per drug | For patients and carers | Side-effect timeline per drug: when each effect tends to start and end, from labels and trials | Open |
+| 156 | Plain-English label reader | For patients and carers | Plain-English label reader: every FDA and EMA label section rewritten to one paragraph with the source line quoted beneath | Open |
+| 157 | Second-opinion helper | For patients and carers | Second-opinion helper: a checklist of what to bring, what to ask, and which centres see many cases of this cancer | Open |
+| 158 | Decision aids for every cancer at the level gallbladder now has, gener | For patients and carers | Decision aids for every cancer at the level gallbladder now has, generated from the same data structure | Open |
+| 159 | Red cards for every cancer | For patients and carers | Red cards for every cancer: the urgent situations and the 111 or 999 wording, cancer by cancer | Open |
+| 160 | Carer pages per cancer | For patients and carers | Carer pages per cancer: what to watch for, what to do at each stage, respite and benefits | Open |
+| 161 | Survivorship plans generated per cancer and treatment | For patients and carers | Survivorship plans generated per cancer and treatment: follow-up scans, late effects, who to call | Open |
+| 162 | Fertility, pregnancy and heredity sections where they apply, with the  | For patients and carers | Fertility, pregnancy and heredity sections where they apply, with the guideline quoted | Open |
+| 163 | A "first 60 days" checklist for every cancer, not only gallbladder | For patients and carers | A "first 60 days" checklist for every cancer, not only gallbladder | Open |
+| 164 | Cost and access per country | For patients and carers | Cost and access per country: what is funded, what is not, what a patient can ask for | Open |
+| 165 | Symptom diary that stays in the browser and prints for the clinic | For patients and carers | Symptom diary that stays in the browser and prints for the clinic | Open |
+| 166 | Reading level switch | For patients and carers | Reading level switch: the same page at three levels of detail | Open |
+| 167 | Audio | For patients and carers | Audio: read-aloud on every page with the site's own voice, offline capable | Open |
+| 168 | Print layouts for the record pages, decision aids and checklists | For patients and carers | Print layouts for the record pages, decision aids and checklists | Open |
+| 169 | A glossary popover on every clinical word, everywhere, not only on rec | For patients and carers | A glossary popover on every clinical word, everywhere, not only on record pages | Open |
+| 170 | Deep spikes at the gallbladder standard for the twenty highest-burden  | Clinical depth | Deep spikes at the gallbladder standard for the twenty highest-burden cancers, one a week, with the QA checklist run each time | Open |
+| 171 | Staging pages for every cancer with the TNM 8th edition explained stag | Clinical depth | Staging pages for every cancer with the TNM 8th edition explained stage by stage and what each stage means for treatment | Open |
+| 172 | Pathology report explainers per cancer | Clinical depth | Pathology report explainers per cancer: what each line of the report means | Open |
+| 173 | Imaging explainers | Clinical depth | Imaging explainers: what a CT, MRI, PET or ultrasound shows for this cancer and what the report words mean | Open |
+| 174 | Regimen pages with dose, schedule, premedication, monitoring and the t | Clinical depth | Regimen pages with dose, schedule, premedication, monitoring and the trial that established each | Open |
+| 175 | Line-of-therapy maps per cancer | Clinical depth | Line-of-therapy maps per cancer: first line, second line and beyond, by biomarker, as a tree | Open |
+| 176 | Resistance maps per drug | Clinical depth | Resistance maps per drug: the mechanisms, the tests that detect them and the next options | Open |
+| 177 | Comparison tables for related cancers (as gallbladder versus bile duct | Clinical depth | Comparison tables for related cancers (as gallbladder versus bile duct versus ampullary) for every family | Open |
+| 178 | Paediatric and adolescent variants for every cancer that has them | Clinical depth | Paediatric and adolescent variants for every cancer that has them | Open |
+| 179 | Rare cancer pages for the 278 entities the classification names, once  | Clinical depth | Rare cancer pages for the 278 entities the classification names, once the taxonomy call is made | Open |
+| 180 | Supportive care as a first-class layer | Clinical depth | Supportive care as a first-class layer: pain, nausea, nutrition, mental health, with the evidence | Open |
+| 181 | Radiotherapy pages per technique and per cancer, with dose, fractions  | Clinical depth | Radiotherapy pages per technique and per cancer, with dose, fractions and the trials | Open |
+| 182 | Surgery pages per operation with what is removed, recovery, risks and  | Clinical depth | Surgery pages per operation with what is removed, recovery, risks and the surgeon volume evidence | Open |
+| 183 | Guideline concordance per cancer | Clinical depth | Guideline concordance per cancer: where ESMO, NCCN, NICE and ASCO agree and disagree, updated on each revision | Open |
+| 184 | Recurrence pages | Clinical depth | Recurrence pages: what happens if it comes back, per cancer and site of recurrence | Open |
+| 185 | Structured outcomes for every trial with a publication, extracted from | Data and evidence | Structured outcomes for every trial with a publication, extracted from the abstract with the figure quoted | Open |
+| 186 | Forest plots for every drug across its trials, drawn from the outcome  | Data and evidence | Forest plots for every drug across its trials, drawn from the outcome rows | Open |
+| 187 | Evidence grades on every standard-of-care row | Data and evidence | Evidence grades on every standard-of-care row | Open |
+| 188 | Retraction and correction watch for every cited paper, via Crossref an | Data and evidence | Retraction and correction watch for every cited paper, via Crossref and Europe PMC | Open |
+| 189 | Living meta-analyses for the questions with three or more trials, reco | Data and evidence | Living meta-analyses for the questions with three or more trials, recomputed on each new result | Open |
+| 190 | Real-world evidence layer | Data and evidence | Real-world evidence layer: registry and SACT outcomes beside trial outcomes where published | Open |
+| 191 | Approval timelines per drug with the review clock at each regulator | Data and evidence | Approval timelines per drug with the review clock at each regulator | Open |
+| 192 | Label change history per drug | Data and evidence | Label change history per drug | Open |
+| 193 | Enrolment progress for recruiting trials from the registry, with an es | Data and evidence | Enrolment progress for recruiting trials from the registry, with an estimated completion date | Open |
+| 194 | Conference abstract ingestion from ASCO, ESMO, AACR and ASH with the a | Data and evidence | Conference abstract ingestion from ASCO, ESMO, AACR and ASH with the abstract linked and the paper awaited | Open |
+| 195 | Preprint to publication tracking for every preprint cited | Data and evidence | Preprint to publication tracking for every preprint cited | Open |
+| 196 | Data provenance on every number | Data and evidence | Data provenance on every number: click a figure to see the source sentence | Open |
+| 197 | Contradiction finder across the corpus | Data and evidence | Contradiction finder across the corpus: two records giving different figures for the same thing, flagged for review | Open |
+| 198 | Freshness gauges per cancer page | Data and evidence | Freshness gauges per cancer page: how old each section's sources are | Open |
+| 199 | Coverage gauges per cancer | Data and evidence | Coverage gauges per cancer: which sections exist and which are empty, as the content roadmap does globally | Open |
+| 200 | Biomarker lens | Science lenses | Biomarker lens: one page per alteration across all cancers, with prevalence per cancer and every drug and trial | Open |
+| 201 | Modality lens | Science lenses | Modality lens: ADCs, bispecifics, radioligands, cell therapies and degraders each as a hub with their engine grid | Open |
+| 202 | Line-of-therapy lens across cancers | Science lenses | Line-of-therapy lens across cancers | Open |
+| 203 | Decade lens | Science lenses | Decade lens: what changed each ten years since 1950, with the trials that changed it | Open |
+| 204 | Hallmarks of cancer as a navigation layer mapped to targets, drugs and | Science lenses | Hallmarks of cancer as a navigation layer mapped to targets, drugs and mechanics stages | Open |
+| 205 | Resistance mechanism lens across drugs | Science lenses | Resistance mechanism lens across drugs | Open |
+| 206 | Age lens | Science lenses | Age lens: paediatric, adolescent and young adult, older adults | Open |
+| 207 | Patient journey stage lens | Science lenses | Patient journey stage lens: screening, diagnosis, treatment, survivorship, end of life | Open |
+| 208 | Evidence strength lens | Science lenses | Evidence strength lens: phase 3 with overall survival versus surrogate endpoints | Open |
+| 209 | Sex differences lens where the evidence exists | Science lenses | Sex differences lens where the evidence exists | Open |
+| 210 | UK pathway pages for every cancer, on the gallbladder template | Country and access | UK pathway pages for every cancer, on the gallbladder template | Open |
+| 211 | India, China, Japan, Chile, Brazil, Nigeria and the EU as country lens | Country and access | India, China, Japan, Chile, Brazil, Nigeria and the EU as country lenses with pathways, approvals and trials | Open |
+| 212 | Approval map per drug | Country and access | Approval map per drug: where it is approved, reimbursed and available, as a world map | Open |
+| 213 | Price transparency where public | Country and access | Price transparency where public: list prices and HTA thresholds per drug and country | Open |
+| 214 | Centre finder by cancer and country with volumes where published | Country and access | Centre finder by cancer and country with volumes where published | Open |
+| 215 | Trial sites map with travel distances from a postcode kept in the brow | Country and access | Trial sites map with travel distances from a postcode kept in the browser | Open |
+| 216 | Clinical guideline finder by country | Country and access | Clinical guideline finder by country | Open |
+| 217 | Charity and support finder by country and cancer | Country and access | Charity and support finder by country and cancer | Open |
+| 218 | Fill every untried engine cell with a "why not" note where the literat | The open pipeline and engine | Fill every untried engine cell with a "why not" note where the literature explains it | Open |
+| 219 | Failure atlas | The open pipeline and engine | Failure atlas: every stopped programme with the stated reason, grouped by reason | Open |
+| 220 | Component pages | The open pipeline and engine | Component pages: one page per payload class, linker, isotope, costimulatory domain and E3 ligase with every medicine using it | Open |
+| 221 | Company pipelines rebuilt from the engine | The open pipeline and engine | Company pipelines rebuilt from the engine: what each company is combining | Open |
+| 222 | Proposal voting and comments on the combination ideas, moderated, with | The open pipeline and engine | Proposal voting and comments on the combination ideas, moderated, with the evidence requirement kept | Open |
+| 223 | Preclinical layer | The open pipeline and engine | Preclinical layer: cell line and PDX evidence for combinations, from public datasets | Open |
+| 224 | Patent layer when a reliable open source is found | The open pipeline and engine | Patent layer when a reliable open source is found | Open |
+| 225 | Manufacturing and supply pages per modality | The open pipeline and engine | Manufacturing and supply pages per modality: how it is made, where, and the bottlenecks | Open |
+| 226 | Contributor pathway | Open science and community | Contributor pathway: propose a record edit from any page, reviewed through the proposals path | Open |
+| 227 | Expert review programme | Open science and community | Expert review programme: named clinicians review pages, with their name and date on the page | Open |
+| 228 | Patient reviewers for the plain-English sections | Open science and community | Patient reviewers for the plain-English sections | Open |
+| 229 | Open dataset releases on a schedule with a DOI each | Open science and community | Open dataset releases on a schedule with a DOI each | Open |
+| 230 | A public roadmap board with votes | Open science and community | A public roadmap board with votes | Open |
+| 231 | Discussion threads per record, kept off the site's content until a fac | Open science and community | Discussion threads per record, kept off the site's content until a fact is sourced | Open |
+| 232 | Reproducible notebooks for every ranking and gauge | Open science and community | Reproducible notebooks for every ranking and gauge | Open |
+| 233 | Natural-language question answering over the corpus with every sentenc | Search, agents and API | Natural-language question answering over the corpus with every sentence cited, on the extractive floor already measured | Open |
+| 234 | Search that understands synonyms and misspellings of drug names and ca | Search, agents and API | Search that understands synonyms and misspellings of drug names and cancers in nine languages | Open |
+| 235 | Saved searches and alerts, browser-side now, account-side when account | Search, agents and API | Saved searches and alerts, browser-side now, account-side when accounts arrive | Open |
+| 236 | GraphQL endpoint beside the JSON files | Search, agents and API | GraphQL endpoint beside the JSON files | Open |
+| 237 | Agent playbooks | Search, agents and API | Agent playbooks: the MCP tools documented with worked examples for common clinical questions | Open |
+| 238 | Embeddable widgets | Search, agents and API | Embeddable widgets: a cancer's standard of care or a trial's outcome as an embed for other sites | Open |
+| 239 | Structured data on every page for search engines and assistants, check | Search, agents and API | Structured data on every page for search engines and assistants, checked by a test | Open |
+| 240 | The front navigation as a living graph of linked kinds, with the body  | Design, speed and reach | The front navigation as a living graph of linked kinds, with the body map as the phone entry point | Open |
+| 241 | A consistent illustration style pass across schematics, organ drawings | Design, speed and reach | A consistent illustration style pass across schematics, organ drawings and glyphs | Open |
+| 242 | Dark mode parity check on every new component | Design, speed and reach | Dark mode parity check on every new component | Open |
+| 243 | Accessibility audit to WCAG 2 | Design, speed and reach | Accessibility audit to WCAG 2.2 AA with the fixes as tests | Open |
+| 244 | Translations of the new records into the eight languages, once the mod | Design, speed and reach | Translations of the new records into the eight languages, once the model key is set, with the source hash test | Open |
+| 245 | Time to interactive under one second on the top 100 pages at 1 | Design, speed and reach | Time to interactive under one second on the top 100 pages at 1.6 Mbps | Open |
+| 246 | Offline mode for the record pages a reader has visited | Design, speed and reach | Offline mode for the record pages a reader has visited | Open |
+| 247 | Newsletter per cancer, opt in, from the weekly digest | Design, speed and reach | Newsletter per cancer, opt in, from the weekly digest | Open |
+| 248 | School and university teaching packs built from the mechanics and road | Design, speed and reach | School and university teaching packs built from the mechanics and roadmap pages | Open |
+| 249 | A yearly state-of-oncology report generated from the corpus, with the  | Design, speed and reach | A yearly state-of-oncology report generated from the corpus, with the changes counted | Open |

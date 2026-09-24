@@ -13,6 +13,7 @@ import PrepPage from "@/app/prep/page";
 import PrepSheetPage, { generateStaticParams as prepSheetParams } from "@/app/prep/[id]/page";
 import DependenciesPage from "@/app/dependencies/page";
 import ResistancePage from "@/app/resistance/page";
+import ToolPage, { generateStaticParams as toolParams } from "@/app/tools/[id]/page";
 
 /**
  * Two-column tools on a phone (docs/MOBILE.md). Below the lg breakpoint the columns stack, so a tap in the controls
@@ -128,6 +129,19 @@ describe("two-column tools have a small-screen structure", () => {
     const html = render(await PrepSheetPage({ params: Promise.resolve({ id }) }));
     expectChooseView(html, "prep-sheet");
     expect(html).toContain("lg:max-h-[28rem] lg:overflow-y-auto");
+  });
+
+  it("decision aids: the result is a sticky preview above the question pills", async () => {
+    const params = toolParams();
+    expect(params.length).toBeGreaterThan(0);
+    for (const { id } of params) {
+      const html = render(await ToolPage({ params: Promise.resolve({ id }) }));
+      expectStickyPreview(html, "decision-tool");
+      // Every option pill drives the result.
+      const pills = html.match(/role="radio"/g) ?? [];
+      expect(pills.length).toBeGreaterThan(5);
+      expect((html.match(/aria-controls="tool-result"/g) ?? []).length).toBe(pills.length);
+    }
   });
 
   it("path finder: examples go first on small screens, pickers and routes follow inline", () => {

@@ -17,6 +17,7 @@ export const navFr: NavDict = {
   "/biomarker-matrix/": ["Matrice des biomarqueurs", "Chaque biomarqueur face à chaque cancer : produits autorisés dans votre région contre essais, en une grille."],
   "/calculators/": ["Calculateurs", "Surface corporelle, Calvert, clairance de la créatinine, PNN, calcium corrigé, RECIST 1.1, dose d'anthracyclines, doses par paliers."],
   "/interactions/": ["Interactions", "Choisissez deux médicaments ou plus et voyez les paires signalées : CYP3A4, QT, IPP, P-gp, saignement, plus alertes alimentaires et d'organes."],
+  "/tools/": ["Aides à la décision", "Répondez à quelques questions sur votre compte rendu et lisez la recommandation applicable, citée avec sa source : polypes vésiculaires, cancer vésiculaire de découverte fortuite, cancers comparés."],
   "/irae/": ["Guide des irAE", "Toxicité des inhibiteurs de points de contrôle par organe et par grade : arrêt, corticoïdes, escalade, reprise. Imprimable."],
   "/tumor-board/": ["Réunion de concertation", "Cochez biomarqueurs et altérations, obtenez les options compatibles et les précautions."],
   "/compare/": ["Comparer", "Jusqu'à cinq produits, technologies, cibles, essais ou cancers côte à côte, différences surlignées."],

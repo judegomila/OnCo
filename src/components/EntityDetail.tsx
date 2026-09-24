@@ -21,6 +21,9 @@ import { Questions } from "./Questions";
 import { ExpertCentres } from "./ExpertCentres";
 import { decisionsFor, decisionsRoute } from "@/lib/decisions";
 import { ukPathwayFor, ukPathwayRoute } from "@/lib/uk-pathway";
+import { toolsFor, toolRoute } from "@/lib/decision-tools";
+import { compareRoute, compareSetFor } from "@/lib/cancer-compare";
+import { ToolGlyph } from "./ToolGlyph";
 import { conditionQuery, interventionQuery } from "@/lib/ctgov";
 import { TrialCounts } from "./TrialCounts";
 import { ReviewBadge } from "./ReviewBadge";
@@ -222,6 +225,7 @@ export function EntityDetail({ e }: { e: Entity }) {
       />
       <Container className="pb-16">
         {(e.kind === "target" || e.kind === "pathway") && <MechanicsPills id={e.id} className="mb-6" />}
+        {e.kind !== "cancer" && <ToolsStrip e={e} />}
         {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
         {tabs.length > 1
           ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={afterTabs} aside={aside} />
@@ -717,6 +721,26 @@ function DecisionsStrip({ c }: { c: Cancer }) {
   );
 }
 
+/** Decision aids and side-by-side comparisons keyed to this record (src/lib/decision-tools.ts, src/lib/cancer-compare.ts): one pill each, with a glyph. */
+function ToolsStrip({ e }: { e: Entity }) {
+  const tools = toolsFor(e.id);
+  const compare = compareSetFor(e.id);
+  if (!tools.length && !compare) return null;
+  return (
+    <div className="card p-4 mb-4">
+      <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
+        <div className="kicker inline-flex items-center gap-1.5"><ToolGlyph name="compass" className="h-3.5 w-3.5" /><TL text="Decision aids" /></div>
+        <Link href="/tools/" className="text-sm text-accent hover:underline">All decision aids →</Link>
+      </div>
+      <p className="text-sm text-muted mb-2">Answer a few questions from a report and read the guideline statement that applies, quoted word for word with its source. Educational aids to prepare for an appointment, not advice.</p>
+      <div className="flex flex-wrap gap-1.5">
+        {tools.map((t) => <Link key={t.id} href={toolRoute(t.id)} className="chip border bg-accent-soft border-accent/40 text-accent text-sm hover:bg-foreground/5 inline-flex items-center gap-1.5" title={t.title}><ToolGlyph name={t.icon} className="h-3.5 w-3.5" />{t.short}</Link>)}
+        {compare && <Link href={compareRoute(compare.anchorId)} className="chip border border-border bg-card text-sm hover:bg-foreground/5 inline-flex items-center gap-1.5" title={compare.title}><ToolGlyph name="layers" className="h-3.5 w-3.5" />Compared with {compare.ids.length - 1} neighbouring cancers</Link>}
+      </div>
+    </div>
+  );
+}
+
 /** The UK and NHS layer: pathway standards, HPB centres, NICE and SMC decisions, Test Directory codes, UK trials; one pill row linking into /cancers/<id>/uk/. */
 function UkPathwayStrip({ c }: { c: Cancer }) {
   const p = ukPathwayFor(c.id);
@@ -838,6 +862,7 @@ function cancerTabs(c: Cancer): Tab[] {
           <Link href={`/staging/#${c.id}`} className="underline">Staging and risk scores →</Link>
         </div>
         <DecisionsStrip c={c} />
+        <ToolsStrip e={c} />
         <UkPathwayStrip c={c} />
         {c.standardOfCare.map((s, i) => (
           <div key={i} className="card p-4">

@@ -15,6 +15,9 @@ import { GuidelineChip } from "@/components/GuidelineChip";
 import { PrintButton } from "@/components/PrintButton";
 import { SurvivalDisclosure } from "@/components/SurvivalDisclosure";
 import { Tip } from "@/components/Tip";
+import { toolsFor, toolRoute } from "@/lib/decision-tools";
+import { compareRoute, compareSetFor } from "@/lib/cancer-compare";
+import { ToolGlyph } from "@/components/ToolGlyph";
 
 export function generateStaticParams() {
   return decisionCancerIds().map((id) => ({ id }));
@@ -172,6 +175,8 @@ export default async function DecisionsPage({ params }: { params: Promise<{ id: 
   if (!d) notFound();
   const c = graph().must(id);
   const short = d.cancer.name.replace(/\s*\(.*?\)\s*$/, "");
+  const tools = toolsFor(id);
+  const compare = compareSetFor(id);
   return (
     <>
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Cancers", href: "/cancers/" }, { label: d.cancer.name, href: routeFor(c) }, { label: "Decisions", href: `/cancers/${id}/decisions/` }]} />
@@ -190,6 +195,16 @@ export default async function DecisionsPage({ params }: { params: Promise<{ id: 
             ))}
           </ol>
         </nav>
+        {(tools.length > 0 || compare) && (
+          <div className="card p-4 mb-8">
+            <div className="kicker mb-2 inline-flex items-center gap-1.5"><ToolGlyph name="compass" className="h-3.5 w-3.5" />Interactive aids for this cancer</div>
+            <p className="text-sm text-muted mb-2">Answer a few questions from a report and read the guideline statement that applies, quoted word for word with its source. Educational aids, not advice.</p>
+            <div className="flex flex-wrap gap-1.5">
+              {tools.map((t) => <Link key={t.id} href={toolRoute(t.id)} className="chip border bg-accent-soft border-accent/40 text-accent text-sm hover:bg-foreground/5 inline-flex items-center gap-1.5"><ToolGlyph name={t.icon} className="h-3.5 w-3.5" />{t.short}</Link>)}
+              {compare && <Link href={compareRoute(compare.anchorId)} className="chip border border-border bg-card text-sm hover:bg-foreground/5 inline-flex items-center gap-1.5"><ToolGlyph name="layers" className="h-3.5 w-3.5" />Compared with its neighbours</Link>}
+            </div>
+          </div>
+        )}
         <div className="space-y-8">{d.sections.map((s) => <SectionCard key={s.id} s={s} cancerId={d.cancer.id} />)}</div>
         <div className="card p-4 mt-8 text-sm text-muted">
           <span className="font-medium text-foreground">How to read this page.</span> Options and results come from OnCo records with their sources; the settings are the standard-of-care rows on the <Link className="underline" href={`${d.cancer.route}#care`}>cancer page</Link>, and the lines of therapy are on the <Link className="underline" href={`/sequencing/${d.cancer.id}/`}>sequencing grid</Link>. Where a setting names one path, the choice is usually about timing, trials and where to be treated: see <Link className="underline" href={`${d.cancer.route}#centres`}>expert centres</Link>. OnCo is orientation, not medical advice.

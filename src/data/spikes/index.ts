@@ -58,8 +58,9 @@ import neuroblastoma from "./neuroblastoma";
 import gallbladderLiving from "./gallbladder-living";
 import gallbladderMolecular from "./gallbladder-molecular";
 import gallbladderCore from "./gallbladder-core";
-const spikes: Spike[] = [] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk];
+const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderEvidence];
 import gallbladderUk from "./gallbladder-uk";
+import gallbladderEvidence from "./gallbladder-evidence";
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's

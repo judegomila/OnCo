@@ -7,6 +7,10 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 24 September 2026
+- Record pages stay inside a phone screen at 390 px; 130 more trials carry posted registry results
+- Record pages fit a 390 px phone and lose the Tabs key warning: grid children shrink (min-w-0 on Neighbours and What changed cards, *:min-w-0 on EntityDetail grids), GuidelineChip and DrugChip wrappers cap at max-w-full, tables in EntityDetail, InvestorPanels, StartupPanels, BiomarkerDetail, PrevalenceTable, ToxicityTable, AccessTable and ResearchOutput scroll inside ScrollRow with the year bars; each tab's content is a fragment keyed on the tab id so Flight no longer hands Tabs a keyless array; one record of every kind is a width-only check in scripts/mobile-audit.ts
+- Registry passes over the gallbladder spike: outcomes for every NCT trial without its own, status re-read for all 4,102 NCT trials, key papers for 10 gallbladder trials
+- LAUNCH: gallbladder deep spike of 24 Sept 2026
 - Gallbladder cancer deep spike, final round: review reconciled the six facets to their sources, Wales and Northern Ireland figures, Cancer Drugs Fund status, prescription and benefit rules, lighter cancer pages
 - Gallbladder deep spike review: duplicate terms, trials and history entries become supplements, HER2 and NICE figures reconciled, dead and redirected links fixed, backlinks for the ctDNA roadmap and the chemo-immunotherapy pairing, long relation lists capped with deep links so the cancer page drops from 997 KB to 652 KB, QA checklist in docs/GALLBLADDER-QA.md
 - Gallbladder UK layer, second pass: Wales and Northern Ireland registry figures with stage, Scotland checked and found not to publish C23, CDF list v1.365 status on every biliary drug, four-nation prescription and special-rules benefit pages, GLH turnaround statements, CAPBIL tied to BILCAP, Hassan Malik record

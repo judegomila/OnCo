@@ -2,8 +2,9 @@
  * Structured outcomes for registry-ingested trials, from the ClinicalTrials.gov results section (wave 7 of
  * docs/CONTENT-ROADMAP.md).
  *
- * The 2,845 trials tagged `ctgov-ingest` (src/data/pipeline-trials-wave*.ts) were written from the registry with no
- * outcomes. For each one this script fetches the v2 record with
+ * The trials tagged `ctgov-ingest` (src/data/pipeline-trials-wave*.ts and the spike registry files) were written from
+ * the registry with no outcomes, and a few hand-written trials carry an NCT id and no outcomes either. For every trial
+ * with an NCT id and no outcomes of its own this script fetches the v2 record with
  *   fields=protocolSection.identificationModule,protocolSection.statusModule,protocolSection.designModule,resultsSection,hasResults
  * and, where `hasResults` is true, copies from `resultsSection.outcomeMeasuresModule`:
  *   - the primary outcome measures (efficacy measures first; at most PRIMARY_CAP), and
@@ -27,6 +28,8 @@
  *   npx tsx scripts/fetch-registry-outcomes.ts --apply --max=500   fetch up to 500 uncached trials, then write the side file
  *   npx tsx scripts/fetch-registry-outcomes.ts --apply --no-fetch  regenerate the side file from the cache alone
  *   npx tsx scripts/fetch-registry-outcomes.ts --apply --no-fetch --first=1000   ... from the first 1,000 trials in scope order
+ *   npx tsx scripts/fetch-registry-outcomes.ts --apply --tag=gallbladder-deep-dive   fetch only trials carrying that tag (the
+ *                                                          side file is still rebuilt from every cached trial in scope)
  *
  * Network: ClinicalTrials.gov API v2 only, one request at a time, PAUSE_MS apart, PAGE ids a request, User-Agent naming
  * OnCo. Raw study records are cached under /tmp/ctgov-cache/results/<NCT>.json (studies the API did not return are
@@ -45,6 +48,8 @@ const noFetch = args.includes("--no-fetch");
 const max = Number(args.find((a) => a.startsWith("--max="))?.slice(6) ?? 500);
 /** Build the side file from the first N trials in scope order only, so data can be gated and committed in 500-trial batches. */
 const first = Number(args.find((a) => a.startsWith("--first="))?.slice(8) ?? Infinity);
+/** Fetch only trials carrying this tag (e.g. a spike's tag); the side file is still built from the whole cached scope. */
+const tag = args.find((a) => a.startsWith("--tag="))?.slice(6);
 const CACHE_DIR = args.find((a) => a.startsWith("--cache="))?.slice(8) ?? "/tmp/ctgov-cache/results";
 const OUT = join(process.cwd(), "src", "data", "trial-registry-outcomes.ts");
 
@@ -302,15 +307,21 @@ for (const root of cancers.filter((c) => !c.parent)) {
 const burden = (t: Trial) => Math.max(0, ...t.cancers.map((id) => familyCases.get(id) ?? 0));
 const phaseRank = (t: Trial) => ({ "3": 0, "2/3": 1, "2": 2, "1/2": 3, "1": 4 } as Record<string, number>)[t.phase] ?? 5;
 
-/** Registry-ingested trials with an NCT id whose outcomes, if any, come from this side file. */
+/**
+ * Trials with an NCT id whose outcomes, if any, come from this side file: every registry-ingested trial (tag
+ * `ctgov-ingest`) and every hand-written trial that records no outcomes of its own. src/data/index.ts merges an
+ * entry only while the trial still has no outcomes, so a hand-written outcome table added later always wins.
+ */
 const scope = g.kind("trial")
-  .filter((t) => t.tags.includes("ctgov-ingest") && t.nct && /^NCT\d{8}$/.test(t.nct) && (t.outcomes.length === 0 || TRIAL_REGISTRY_OUTCOMES[t.id]))
+  .filter((t) => t.nct && /^NCT\d{8}$/.test(t.nct) && (t.outcomes.length === 0 || TRIAL_REGISTRY_OUTCOMES[t.id]))
   .sort((a, b) => burden(b) - burden(a) || phaseRank(a) - phaseRank(b) || a.id.localeCompare(b.id));
 
 async function main() {
   mkdirSync(CACHE_DIR, { recursive: true });
-  const uncached = scope.filter((t) => !readCache(t.nct!));
-  console.log(`${scope.length} registry-ingested trials in scope; ${scope.length - uncached.length} cached, ${uncached.length} to fetch${noFetch ? " (skipped: --no-fetch)" : `, capped at ${max}`}`);
+  const fetchScope = tag ? scope.filter((t) => t.tags.includes(tag)) : scope;
+  const uncached = fetchScope.filter((t) => !readCache(t.nct!));
+  const handWritten = scope.filter((t) => !t.tags.includes("ctgov-ingest")).length;
+  console.log(`${scope.length} trials in scope (${scope.length - handWritten} registry-ingested, ${handWritten} hand-written without outcomes)${tag ? `; ${fetchScope.length} tagged ${tag}` : ""}; ${fetchScope.length - uncached.length} cached, ${uncached.length} to fetch${noFetch ? " (skipped: --no-fetch)" : `, capped at ${max}`}`);
   if (!noFetch) {
     const todo = uncached.slice(0, max);
     for (let i = 0; i < todo.length; i += PAGE) {
@@ -356,8 +367,9 @@ async function main() {
   const header = `import type { TrialInput } from "@/lib/schema";
 
 /**
- * Structured outcomes for registry-ingested trials, copied from the ClinicalTrials.gov results section by
- * scripts/fetch-registry-outcomes.ts (wave 7 of docs/CONTENT-ROADMAP.md). Endpoint titles, arm titles, units, values,
+ * Structured outcomes for trials that record none of their own (registry-ingested trials and hand-written trials with
+ * an NCT id), copied from the ClinicalTrials.gov results section by scripts/fetch-registry-outcomes.ts (wave 7 of
+ * docs/CONTENT-ROADMAP.md). Endpoint titles, arm titles, units, values,
  * dispersion, hazard ratios and p-values are the registry's own; enrolment is the registry's ACTUAL count;
  * \`yearReported\` is the year the results were first posted; \`asOf\` is the fetch date. Every outcome's first arm says
  * the figures come from the registry rather than a publication. Merged into the trial records by src/data/index.ts

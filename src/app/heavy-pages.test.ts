@@ -120,9 +120,10 @@ describe("heavy pages page their sections", () => {
     // 14.2 MB of HTML before; 981 KB of markup with every row as a client component's props (the hydration payload
     // then adds compact JSON rather than a second copy of the tree); 1,135 KB after the standard-of-care and registry
     // waves of 22 Sept 2026. Paging the sections at EXPLAINED_PAGE rows, one sprite for the organ drawings and CSS
-    // classes for the section furniture brought it under this budget, which now grows only with the number of
-    // cancers that have trials, not with the number of trials.
-    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(600 * KB);
+    // classes for the section furniture brought it under 600 KB; the markup now grows with the number of cancers
+    // that have explained trials (one section each) and, through the noscript lists, slowly with the trials' names.
+    // 603 KB after the registry outcomes pass of 24 Sept 2026 (130 more trials with posted results, six new sections).
+    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(640 * KB);
   });
 
   it("idea rankings renders the first page of every view plus the Show more sentinel", () => {

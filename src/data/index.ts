@@ -307,11 +307,14 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
     const ent = entityTrialLinksWave5[t.id];
     if (ent) t = { ...t, drugs: [...(t.drugs ?? []), ...(ent.drugs ?? []).filter((id) => !(t.drugs ?? []).includes(id))], technologies: [...(t.technologies ?? []), ...(ent.technologies ?? []).filter((id) => !(t.technologies ?? []).includes(id))] };
     // Outcomes copied from the ClinicalTrials.gov results section by scripts/fetch-registry-outcomes.ts (wave 7), for
-    // registry-ingested trials that carry none of their own; the ingested summary's "no results" sentence is replaced.
+    // trials that carry none of their own; the ingested summary's "no results" sentence is replaced. On a hand-written
+    // trial the editor's enrolment, year reported and asOf stand; only the outcomes (and any of those fields it lacks) are added.
     const reg = TRIAL_REGISTRY_OUTCOMES[t.id];
     if (reg && !(t.outcomes?.length)) {
       const posted = reg.yearReported ? ` in ${reg.yearReported}` : "";
-      t = { ...t, ...reg, summary: t.summary.replace(/No results (?:have been posted on ClinicalTrials\.gov|are recorded here; the registry entry is the source)\./, `Results were posted on ClinicalTrials.gov${posted}; the figures recorded here are the registry's, not a publication's.`) };
+      const ingested = t.tags?.includes("ctgov-ingest");
+      const merged = ingested ? { ...t, ...reg } : { ...reg, ...t, outcomes: reg.outcomes, asOf: t.asOf > (reg.asOf ?? "") ? t.asOf : reg.asOf ?? t.asOf };
+      t = { ...merged, summary: t.summary.replace(/No results (?:have been posted on ClinicalTrials\.gov|are recorded here; the registry entry is the source)\./, `Results were posted on ClinicalTrials.gov${posted}; the figures recorded here are the registry's, not a publication's.`) };
     }
     // Status read from the registry by scripts/fetch-registry-status.ts (wave 7a follow-up): applied only while the trial
     // still carries the status the script saw, with a dated note and, on ingested trials, the matching TL;DR and summary phrase.

@@ -12,6 +12,8 @@
  *   npx tsx scripts/fetch-trial-papers.ts --family=lung                 dry run: report what would be linked
  *   npx tsx scripts/fetch-trial-papers.ts --family=lung --max=200 --apply   write the data files
  *   npx tsx scripts/fetch-trial-papers.ts --family=lung,breast --status=results   trials with a result status only
+ *   npx tsx scripts/fetch-trial-papers.ts --family=gallbladder --apply        any cancer id names a family: it and its subtypes
+ *   npx tsx scripts/fetch-trial-papers.ts --only=abc-02,abc-06                 named trials only
  *
  * Rules (no invented facts):
  *   - a paper is a candidate only when the Europe PMC record's own title or abstract contains the trial's NCT id;
@@ -160,13 +162,14 @@ function classify(r: EpmcResult, nct: string): Candidate | null {
 // ---------------------------------------------------------------------------------------------------------------------
 const g = graph();
 const cancers = g.kind("cancer") as Cancer[];
-const rootOf = (c: Cancer): Cancer => { let cur = c; const seen = new Set<string>(); while (cur.parent && !seen.has(cur.id)) { seen.add(cur.id); const p = g.get(cur.parent) as Cancer | undefined; if (!p) break; cur = p; } return cur; };
+/** The cancer and every ancestor up the `parent` chain, so a family can be named by any cancer, not only a root (e.g. gallbladder under biliary-tract-cancer). */
+const lineage = (c: Cancer): string[] => { const out = [c.id]; let cur = c; const seen = new Set<string>([c.id]); while (cur.parent && !seen.has(cur.parent)) { seen.add(cur.parent); const p = g.get(cur.parent) as Cancer | undefined; if (!p) break; out.push(p.id); cur = p; } return out; };
 const familyIds = new Set<string>();
 for (const f of FAMILIES) {
   const root = FAMILY_ROOTS[f] ?? f;
   if (!g.get(root)) { console.error(`no root cancer "${root}" for family "${f}"`); process.exit(2); }
   familyIds.add(root);
-  for (const c of cancers) if (rootOf(c).id === root) familyIds.add(c.id);
+  for (const c of cancers) if (lineage(c).includes(root)) familyIds.add(c.id);
 }
 
 const papersByDoi = new Map<string, Paper>();

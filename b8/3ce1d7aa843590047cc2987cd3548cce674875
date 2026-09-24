@@ -1,0 +1,30 @@
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_37d78674765e20 46
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_8b1e386f5b6ceb 50-51
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_31261f1ea2835d 39,45,49-50
+src/data/spikes/gallbladder-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_59afe5f2e7f6b5 1-218
+src/data/spikes/gallbladder-evidence.ts
+  s_0beac9cb5d78fd::t_9e6871b42a49b2 1,6
+  s_0beac9cb5d78fd::t_24cdd4e102df5d 3-5
+  s_0beac9cb5d78fd::t_4344e38be3891a 2,7-235
+  s_0beac9cb5d78fd::t_e2693602865503 236-278
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b83ce1d7aa843590047cc2987cd3548cce674875",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

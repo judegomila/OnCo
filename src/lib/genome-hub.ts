@@ -1,4 +1,4 @@
-import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_ROLE_LABEL, TARGET_ROLES, type EvidenceTier, type TargetRole } from "@/lib/kinds";
+import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_ROLE_LABEL, TARGET_ROLES, TARGET_SPECIFICITY_LABEL, type EvidenceTier, type TargetRole, type TargetSpecificity } from "@/lib/kinds";
 
 /**
  * The gene hub (/targets/genome/) as data. Pure module shared by the server page, the row builder
@@ -18,6 +18,8 @@ export type GenomeGene = {
   tldr: string;
   roles: TargetRole[];
   tier?: EvidenceTier;
+  /** Specificity class (src/data/target-specificity.ts), for the hub's specificity pills; absent for unclassified genes. */
+  specificity?: TargetSpecificity;
 };
 
 /** One role's section: its first TABLE_PAGE genes, the whole count, and how many of the role's genes sit in each evidence tier. */
@@ -62,24 +64,26 @@ export function parseTier(v: string | null | undefined): EvidenceTier | null {
 }
 
 /** The hub's own deep link for a role and tier choice (empty string for no filter). */
-export function genomeHref(role: TargetRole | null, tier: EvidenceTier | null): string {
+export function genomeHref(role: TargetRole | null, tier: EvidenceTier | null, spec: TargetSpecificity | null = null): string {
   const p = new URLSearchParams();
   if (role) p.set("role", role);
   if (tier) p.set("evidence", tier);
+  if (spec) p.set("specificity", spec);
   const s = p.toString();
   return `/targets/genome/${s ? `?${s}` : ""}`;
 }
 
 /** The full target table filtered the same way (the browser's facets take labels). */
-export function tableHref(role: TargetRole | null, tier: EvidenceTier | null): string {
+export function tableHref(role: TargetRole | null, tier: EvidenceTier | null, spec: TargetSpecificity | null = null): string {
   const p = new URLSearchParams();
   if (role) p.set("role", TARGET_ROLE_LABEL[role]);
   if (tier) p.set("evidence", EVIDENCE_TIER_LABEL[tier]);
+  if (spec) p.set("specificity", TARGET_SPECIFICITY_LABEL[spec]);
   const s = p.toString();
   return `/targets/${s ? `?${s}` : ""}`;
 }
 
-/** The genes of one role, in the hub's order, narrowed to one tier when asked. */
-export function genesFor(all: GenomeGene[], role: TargetRole, tier: EvidenceTier | null): GenomeGene[] {
-  return all.filter((g) => g.roles.includes(role) && (!tier || g.tier === tier));
+/** The genes of one role, in the hub's order, narrowed to one tier and one specificity class when asked. */
+export function genesFor(all: GenomeGene[], role: TargetRole, tier: EvidenceTier | null, spec: TargetSpecificity | null = null): GenomeGene[] {
+  return all.filter((g) => g.roles.includes(role) && (!tier || g.tier === tier) && (!spec || g.specificity === spec));
 }

@@ -62,6 +62,8 @@ import { termVisual } from "@/lib/term-visual";
 import { DrugGrid } from "./DrugCard";
 import type { Drug, Paper } from "@/lib/schema";
 import { LayerAware } from "./LayerAware";
+import { TargetSpecificityPills } from "./TargetSpecificityPills";
+import { TargetWhereFound, hpaFor } from "./TargetWhereFound";
 import { KindName, TL } from "./T";
 import { withTermHovers } from "@/lib/term-hover";
 import { paperQuery } from "@/lib/europepmc";
@@ -331,6 +333,7 @@ function kindTabs(e: Entity): Tab[] {
               <Link href="/targets/genome/" className="text-xs text-muted underline ms-1">All cancer genes by role →</Link>
             </div>
           )}
+          <TargetSpecificityPills target={e} className="mt-4" />
           <Block title="External identifiers"><XrefStrip targetId={e.id} compact fallback={e.hgnc ? { symbol: e.symbol ?? e.name, name: e.aka[0] ?? e.name, hgnc: e.hgnc, ensembl: e.ensembl, uniprot: e.uniprot, entrez: e.entrez } : undefined} /></Block>
           {e.sources.length > 0 && (
             <p className="text-sm text-muted mt-3" data-target-sources>
@@ -349,6 +352,7 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Class"><span className="capitalize">{e.targetClass.replace("-", " ")}</span>{e.symbol && <span className="text-muted"> · {e.symbol}</span>}</Field>
             {e.hgnc && <Field label="Identifiers"><IdentifierRow target={e} /></Field>}
           </div>
+          {hpaFor(e.id) && <Block title="Where it is found: normal tissues and cancers"><TargetWhereFound targetId={e.id} /></Block>}
           {e.prevalence.length > 0 && <Block title="How often this target appears"><PrevalenceTable target={e} /></Block>}
         </>),
         ...productsTab(g.incoming(e.id).get("drug") ?? []),

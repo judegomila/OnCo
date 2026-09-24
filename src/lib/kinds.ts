@@ -66,6 +66,29 @@ export const EVIDENCE_TIER_LABEL: Record<EvidenceTier, string> = {
   "approved-drug": "Approved drug", "clinical-evidence": "Clinical evidence", "cohort-driver": "Driver by cohort analysis", "association-only": "Association only",
 };
 
+/**
+ * How specific a target is to cancer cells: is the thing the medicine aims at unique to the tumour, more abundant on
+ * the tumour than on normal tissue, shared with one normal cell lineage, present nearly everywhere, an inherited
+ * variant, or a target on immune or stromal cells rather than the tumour. Filled by scripts/fetch-target-specificity.ts
+ * from label readouts, drug mechanisms, the Human Protein Atlas and UniProt; labels in TARGET_SPECIFICITY_LABEL.
+ */
+export const TARGET_SPECIFICITIES = ["tumour-specific", "tumour-associated", "lineage-antigen", "broadly-expressed", "germline-variant", "immune-microenvironment"] as const;
+export type TargetSpecificity = (typeof TARGET_SPECIFICITIES)[number];
+export const TARGET_SPECIFICITY_LABEL: Record<TargetSpecificity, string> = {
+  "tumour-specific": "Tumour-specific alteration",
+  "tumour-associated": "Tumour-associated overexpression",
+  "lineage-antigen": "Lineage antigen",
+  "broadly-expressed": "Broadly expressed or essential",
+  "germline-variant": "Germline variant",
+  "immune-microenvironment": "Immune or microenvironment target",
+};
+/** How many cancer types the target matters in, from prevalence rows, approvals and Open Targets; labels in TARGET_DISTRIBUTION_LABEL. */
+export const TARGET_DISTRIBUTIONS = ["one-type", "few-types", "many-types", "not-established"] as const;
+export type TargetDistribution = (typeof TARGET_DISTRIBUTIONS)[number];
+export const TARGET_DISTRIBUTION_LABEL: Record<TargetDistribution, string> = {
+  "one-type": "One cancer type", "few-types": "A few cancer types", "many-types": "Many cancer types", "not-established": "Distribution not established",
+};
+
 /** The relationship array fields shared by every entity. */
 export const REL_FIELDS = [
   "related",

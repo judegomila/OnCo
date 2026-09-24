@@ -1,8 +1,8 @@
 import { z } from "zod";
-import { EVIDENCE_TIERS, KINDS, STATUSES, TARGET_ROLES } from "./kinds";
+import { EVIDENCE_TIERS, KINDS, STATUSES, TARGET_DISTRIBUTIONS, TARGET_ROLES, TARGET_SPECIFICITIES } from "./kinds";
 
-export { KINDS, STATUSES, REL_FIELDS, KIND_META, PHASE_ORDER, routeFor, phaseLabel, normalisePhaseLabel, TARGET_ROLES, TARGET_ROLE_LABEL, EVIDENCE_TIERS, EVIDENCE_TIER_LABEL } from "./kinds";
-export type { Kind, Status, RelField, TargetRole, EvidenceTier } from "./kinds";
+export { KINDS, STATUSES, REL_FIELDS, KIND_META, PHASE_ORDER, routeFor, phaseLabel, normalisePhaseLabel, TARGET_ROLES, TARGET_ROLE_LABEL, EVIDENCE_TIERS, EVIDENCE_TIER_LABEL, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, TARGET_DISTRIBUTIONS, TARGET_DISTRIBUTION_LABEL } from "./kinds";
+export type { Kind, Status, RelField, TargetRole, EvidenceTier, TargetSpecificity, TargetDistribution } from "./kinds";
 
 /**
  * OnCo data model.
@@ -157,6 +157,21 @@ export const TargetSchema = Base.extend({
   evidenceTier: z.enum(EVIDENCE_TIERS).optional(),
   /** The public sources each fact on the record was read from, with the page consulted and what it contributed. */
   sources: z.array(ExternalLinkSchema.extend({ note: z.string().optional() })).default([]),
+  /**
+   * Is the target unique to cancer cells, more abundant on them than on normal tissue, shared with one normal lineage,
+   * present nearly everywhere, an inherited variant, or on immune or stromal cells? Set with `distribution` by
+   * scripts/fetch-target-specificity.ts (src/data/target-specificity.ts) for every target with an approved or
+   * clinical-stage drug; `specificityNote` says which data decided it and `specificitySources` cite them.
+   */
+  specificity: z.enum(TARGET_SPECIFICITIES).optional(),
+  /** One cancer type, a few, or many (tumour-agnostic evidence), counted over cancer families with a prevalence row, an approval or an Open Targets association. */
+  distribution: z.enum(TARGET_DISTRIBUTIONS).optional(),
+  /** True when a label approval or threshold for a drug aimed at the target is tissue-agnostic (NTRK fusions, MSI-H, BRAF V600E, RET fusions, HER2 IHC 3+). */
+  tumourAgnostic: z.boolean().optional(),
+  /** Why the specificity and distribution read as they do, naming the data (readouts, drug mechanisms, HPA rows, UniProt disease text). Required when `specificity` or `distribution` is set. */
+  specificityNote: z.string().optional(),
+  /** The pages the specificity and distribution were read from. */
+  specificitySources: z.array(ExternalLinkSchema.extend({ note: z.string().optional() })).default([]),
   /**
    * External gene identifiers for single-gene targets, filled by scripts/enrich-target-ids.ts from the HGNC REST API
    * (UniProt REST as fallback). Composite targets (AKT1/2/3, BRCA1, BRCA2) carry none; their per-gene ids live in

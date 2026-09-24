@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
-import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, type Target } from "@/lib/schema";
+import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, type Target } from "@/lib/schema";
+import { SPECIFICITY_BLURB, SPECIFICITY_GLYPH } from "@/lib/target-specificity";
+import { SpecificityGlyph } from "@/components/TargetSpecificityPills";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { pageMeta } from "@/lib/seo";
 import { TARGETS_GENES_WAVE_GENERATED } from "@/data/targets-genes-wave";
@@ -57,8 +59,24 @@ export default function Genome() {
         </section>
 
         <section className="mt-10">
+          <div className="flex flex-wrap items-baseline justify-between gap-3 mb-3">
+            <h2 className="text-lg font-semibold tracking-tight">By specificity</h2>
+            <Link href="/targets/specificity/" className="text-sm underline text-muted hover:text-foreground">What the classes mean, with examples →</Link>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {TARGET_SPECIFICITIES.filter((s) => hub.specificities[s]).map((s) => (
+              <Link key={s} href={`/targets/genome/?specificity=${s}`} className="card p-4 hover:border-border-strong hover:shadow-sm block">
+                <div className="flex items-center gap-2"><SpecificityGlyph d={SPECIFICITY_GLYPH[s]} className="h-5 w-5 text-accent" /><span className="text-2xl font-semibold tabular-nums">{n(hub.specificities[s] ?? 0)}</span></div>
+                <div className="font-medium">{TARGET_SPECIFICITY_LABEL[s]}</div>
+                <p className="text-xs text-muted mt-1">{SPECIFICITY_BLURB[s]}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="mt-10">
           <h2 className="text-lg font-semibold tracking-tight mb-3">By role</h2>
-          <GenomeRoles sections={hub.sections} tiers={hub.tiers} total={total} more={hub.more} />
+          <GenomeRoles sections={hub.sections} tiers={hub.tiers} specificities={hub.specificities} total={total} more={hub.more} />
         </section>
 
         {hub.more && (

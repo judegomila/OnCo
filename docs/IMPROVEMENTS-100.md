@@ -317,3 +317,4 @@ Drafted at the owner's request ("what are 100 ideas to upgrade this site?"); gro
 | 247 | Newsletter per cancer, opt in, from the weekly digest | Design, speed and reach | Newsletter per cancer, opt in, from the weekly digest | Open |
 | 248 | School and university teaching packs built from the mechanics and road | Design, speed and reach | School and university teaching packs built from the mechanics and roadmap pages | Open |
 | 249 | A yearly state-of-oncology report generated from the corpus, with the  | Design, speed and reach | A yearly state-of-oncology report generated from the corpus, with the changes counted | Open |
+| 250 | Cancersim terms not yet mapped | Glossary and layers | 378 of the 504 terms in the CanSim terms map have no OnCo record by name or alias (docs/CANCERSIM-TERMS-GAP.md, docs/cancersim-terms-gap.json): add the oncology terms with sources; owner to decide whether the methods terms get a Methods glossary category or a cross-link | Open |

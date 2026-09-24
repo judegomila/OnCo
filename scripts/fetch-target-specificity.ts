@@ -265,7 +265,8 @@ function familyOf(id: string): string {
   return coarseFamily(c?.id ?? id);
 }
 /** Blood cancers share a family whatever the corpus parent chain says: CML and Ph+ ALL are both leukaemias. */
-const BLOOD_FAMILY: [RegExp, string][] = [[/leuk|\baml\b|\bcml\b|\bcll\b|\ball\b/i, "leukaemia"], [/lymphoma|hodgkin|dlbcl|follicular|mantle|waldenstr|burkitt/i, "lymphoma"], [/myeloma|plasmacytoma/i, "multiple-myeloma"], [/myelodysplastic|\bmds\b|myeloproliferative|polycythaemia|myelofibrosis|mastocytosis/i, "myeloid-neoplasm"]];
+const BLOOD_FAMILY: [RegExp, string][] = [[/leuk|\baml\b|\bcml\b|\bcll\b/i, "leukaemia"], [/lymphoma|hodgkin|dlbcl|follicular|mantle|waldenstr|burkitt/i, "lymphoma"], [/myeloma|plasmacytoma/i, "multiple-myeloma"], [/myelodysplastic|\bmds\b|myeloproliferative|polycythaemia|myelofibrosis|mastocytosis/i, "myeloid-neoplasm"]];
+const FAMILY_NAME: Record<string, string> = { leukaemia: "Leukaemia", lymphoma: "Lymphoma", "multiple-myeloma": "Multiple myeloma", "myeloid-neoplasm": "Myeloid neoplasms" };
 function coarseFamily(rootId: string): string {
   const name = `${rootId} ${cancersById.get(rootId)?.name ?? ""}`;
   for (const [re, fam] of BLOOD_FAMILY) if (re.test(name)) return fam;
@@ -448,11 +449,11 @@ function distribution(t: Target, drugs: Drug[], ot: OtAssoc | null, ensembls: st
   for (const d of drugs) if (d.targets.length === 1 && (d.status === "approved" || d.status === "standard-of-care" || d.status === "established" || d.approvals.length)) for (const c of d.cancers) { if (!cancersById.has(c) || AGNOSTIC_CANCER_IDS.has(c)) continue; const fam = familyOf(c); (approvals.get(fam) ?? approvals.set(fam, new Set()).get(fam)!).add(`approval of ${d.name}`); }
   // A single-target medicine's approvals count only where the target itself has no prevalence row, threshold or catalogue link: imatinib's GIST label says nothing about BCR::ABL1.
   if (!evidence.size) for (const [fam, why] of approvals) evidence.set(fam, why);
-  const approvalOnly = [...approvals.keys()].filter((f) => !evidence.has(f)).map((f) => cancersById.get(f)?.name ?? f);
+  const approvalOnly = [...approvals.keys()].filter((f) => !evidence.has(f)).map((f) => FAMILY_NAME[f] ?? cancersById.get(f)?.name ?? f);
   const agn = agnosticEvidence(t, drugs);
   const weight = (why: Set<string>) => (why.has("prevalence row") ? 4 : 0) + (why.has("label threshold") ? 3 : 0) + ([...why].some((w) => w.startsWith("approval")) ? 2 : 0) + (why.has("linked cancer") ? 1 : 0);
   const families = [...evidence.keys()].sort((a, b) => weight(evidence.get(b)!) - weight(evidence.get(a)!));
-  const famNames = families.map((f) => cancersById.get(f)?.name ?? f);
+  const famNames = families.map((f) => FAMILY_NAME[f] ?? cancersById.get(f)?.name ?? f);
   const otN = ot?.cancers.length ?? 0;
   const otNames = (ot?.cancers ?? []).slice(0, 6).map((c) => c.name);
   let distribution: TargetDistribution;

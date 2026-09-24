@@ -1,0 +1,11 @@
+src/data/issues-2026-09-wave-a.ts
+  ai_agent 149-164
+src/data/gap-fill.ts
+  ai_agent 309,313
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "11173f5c518c21dfc8a39f8183c5b83c528865ab",
+  "prompts": {}
+}

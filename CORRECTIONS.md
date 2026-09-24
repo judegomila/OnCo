@@ -2,6 +2,12 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-09-24
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-09-24 | [setmelanotide](/drugs/setmelanotide/) | The record said hypothalamic obesity after craniopharyngioma was "being tested" and listed only the 2020 genetic-obesity approval; the FDA approved the acquired hypothalamic obesity indication on 19 March 2026. | Contributor report (GitHub issue 89); confirmed against Drugs@FDA (supplement 9, approved 2026-03-19) and the Imcivree label indications via openFDA. | Added the 2026 approval row, rewrote the TL;DR and summary, and linked the TRANSCEND trial (`transcend`) and its NEJM 2026 paper. |
+
 ## 2026-09-17
 
 | Date | Entity | What was wrong | How found | Fix |

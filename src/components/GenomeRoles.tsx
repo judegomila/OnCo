@@ -2,7 +2,8 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_ROLE_LABEL, type EvidenceTier, type TargetRole } from "@/lib/kinds";
+import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_ROLE_LABEL, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, type EvidenceTier, type TargetRole, type TargetSpecificity } from "@/lib/kinds";
+import { parseSpecificity, SPECIFICITY_BLURB, SPECIFICITY_GLYPH, SPECIFICITY_MEDICINE } from "@/lib/target-specificity";
 import { loadTableFile, TABLE_PAGE, type MoreRows } from "@/lib/static-tables";
 import { genesFor, genomeHref, parseRole, parseTier, ROLE_BLURB, tableHref, TIER_BLURB, type GenomeGene, type GenomeRoleSection } from "@/lib/genome-hub";
 import { MoreFoot } from "./filters/ResultsTable";
@@ -10,7 +11,8 @@ import { MoreFoot } from "./filters/ResultsTable";
 const n = (x: number) => x.toLocaleString("en-GB");
 
 /** Pill glyphs, one path each, drawn at 24 by 24 with a 2 px stroke. */
-const GLYPH: Record<TargetRole | EvidenceTier | "all", string> = {
+const GLYPH: Record<TargetRole | EvidenceTier | TargetSpecificity | "all", string> = {
+  ...SPECIFICITY_GLYPH,
   all: "M4 6h16M4 12h16M4 18h16",
   "drug-target": "M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM12 12h.01",
   "oncogene-driver": "M12 20V4M6 10l6-6 6 6",
@@ -61,10 +63,12 @@ function Foot({ total, shown, load, loading }: { total: number; shown: number; l
  * `?evidence=` deep links run over the full set. Deep links are read once after mount, the way the other
  * URL-backed views do it, and a pill writes the choice back into the URL without a navigation.
  */
-export function GenomeRoles({ sections, tiers, total, more }: {
+export function GenomeRoles({ sections, tiers, specificities = {}, total, more }: {
   sections: GenomeRoleSection[];
   /** Genes in each evidence tier over the whole hub, for the evidence pills. */
   tiers: Partial<Record<EvidenceTier, number>>;
+  /** Genes in each specificity class over the whole hub (src/data/target-specificity.ts), for the specificity pills. */
+  specificities?: Partial<Record<TargetSpecificity, number>>;
   /** Every graded gene. */
   total: number;
   more?: MoreRows;
@@ -76,6 +80,7 @@ export function GenomeRoles({ sections, tiers, total, more }: {
   const [shown, setShown] = useState<Partial<Record<TargetRole, number>>>({});
   const [role, setRole] = useState<TargetRole | null>(null);
   const [tier, setTier] = useState<EvidenceTier | null>(null);
+  const [spec, setSpec] = useState<TargetSpecificity | null>(null);
   const src = more?.src;
   const loading = !!src && wanted && !full && !failed;
 
@@ -92,40 +97,51 @@ export function GenomeRoles({ sections, tiers, total, more }: {
       const p = new URLSearchParams(window.location.search);
       const r = parseRole(p.get("role"));
       const t = parseTier(p.get("evidence"));
+      const sp = parseSpecificity(p.get("specificity"));
       if (r) setRole(r);
       if (t) setTier(t);
-      if (r || t) setWanted(true);
+      if (sp) setSpec(sp);
+      if (r || t || sp) setWanted(true);
     });
     return () => cancelAnimationFrame(raf);
   }, []);
 
-  const pick = useCallback((r: TargetRole | null, t: EvidenceTier | null) => {
-    setRole(r); setTier(t);
+  const pick = useCallback((r: TargetRole | null, t: EvidenceTier | null, sp: TargetSpecificity | null = spec) => {
+    setRole(r); setTier(t); setSpec(sp);
     setShown({});
-    if (r || t) setWanted(true);
+    if (r || t || sp) setWanted(true);
     const url = new URL(window.location.href);
     if (r) url.searchParams.set("role", r); else url.searchParams.delete("role");
     if (t) url.searchParams.set("evidence", t); else url.searchParams.delete("evidence");
+    if (sp) url.searchParams.set("specificity", sp); else url.searchParams.delete("specificity");
     window.history.replaceState(window.history.state, "", url.pathname + url.search + url.hash);
-  }, []);
+  }, [spec]);
 
   const load = (r: TargetRole) => { setWanted(true); setShown((s) => ({ ...s, [r]: (s[r] ?? TABLE_PAGE) + TABLE_PAGE })); };
 
   return (
     <div>
       <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Role">
-        <Pill href={genomeHref(null, tier)} on={!role} glyph="all" label="All roles" count={total} pick={() => pick(null, tier)} />
-        {sections.map((s) => <Pill key={s.role} href={genomeHref(s.role, tier)} on={role === s.role} glyph={s.role} label={TARGET_ROLE_LABEL[s.role]} count={full ? genesFor(full, s.role, null).length : s.total} pick={() => pick(role === s.role ? null : s.role, tier)} />)}
+        <Pill href={genomeHref(null, tier, spec)} on={!role} glyph="all" label="All roles" count={total} pick={() => pick(null, tier)} />
+        {sections.map((s) => <Pill key={s.role} href={genomeHref(s.role, tier, spec)} on={role === s.role} glyph={s.role} label={TARGET_ROLE_LABEL[s.role]} count={full ? genesFor(full, s.role, null, spec).length : s.total} pick={() => pick(role === s.role ? null : s.role, tier)} />)}
       </div>
       <div className="mt-2 flex flex-wrap items-center gap-2" role="group" aria-label="Evidence">
-        <Pill href={genomeHref(role, null)} on={!tier} glyph="all" label="All evidence" count={total} pick={() => pick(role, null)} />
-        {EVIDENCE_TIERS.filter((t) => tiers[t]).map((t) => <Pill key={t} href={genomeHref(role, t)} on={tier === t} glyph={t} label={EVIDENCE_TIER_LABEL[t]} count={tiers[t] ?? 0} pick={() => pick(role, tier === t ? null : t)} />)}
+        <Pill href={genomeHref(role, null, spec)} on={!tier} glyph="all" label="All evidence" count={total} pick={() => pick(role, null)} />
+        {EVIDENCE_TIERS.filter((t) => tiers[t]).map((t) => <Pill key={t} href={genomeHref(role, t, spec)} on={tier === t} glyph={t} label={EVIDENCE_TIER_LABEL[t]} count={tiers[t] ?? 0} pick={() => pick(role, tier === t ? null : t)} />)}
       </div>
+      {Object.keys(specificities).length > 0 && (
+        <div className="mt-2 flex flex-wrap items-center gap-2" role="group" aria-label="Specificity">
+          <Pill href={genomeHref(role, tier, null)} on={!spec} glyph="all" label="Any specificity" count={total} pick={() => pick(role, tier, null)} />
+          {TARGET_SPECIFICITIES.filter((sp) => specificities[sp]).map((sp) => <Pill key={sp} href={genomeHref(role, tier, sp)} on={spec === sp} glyph={sp} label={TARGET_SPECIFICITY_LABEL[sp]} count={specificities[sp] ?? 0} pick={() => pick(role, tier, spec === sp ? null : sp)} />)}
+          <Link href="/targets/specificity/" className="text-xs text-muted underline hover:text-foreground">What the classes mean →</Link>
+        </div>
+      )}
       {tier && <p className="mt-2 text-sm text-muted max-w-3xl">{EVIDENCE_TIER_LABEL[tier]}: {TIER_BLURB[tier]}</p>}
+      {spec && <p className="mt-2 text-sm text-muted max-w-3xl">{TARGET_SPECIFICITY_LABEL[spec]}: {SPECIFICITY_BLURB[spec]} {SPECIFICITY_MEDICINE[spec]}</p>}
       {sections.filter((s) => !role || s.role === role).map((s) => {
         // The first page alone answers "no filter"; a tier filter over the first page is a stopgap until the file is here.
-        const list = full ? genesFor(full, s.role, tier) : tier ? s.genes.filter((g) => g.tier === tier) : s.genes;
-        const known = full ? list.length : tier ? (s.tiers[tier] ?? 0) : s.total;
+        const list = full ? genesFor(full, s.role, tier, spec) : s.genes.filter((g) => (!tier || g.tier === tier) && (!spec || g.specificity === spec));
+        const known = full ? list.length : spec ? list.length : tier ? (s.tiers[tier] ?? 0) : s.total;
         const visible = list.slice(0, shown[s.role] ?? TABLE_PAGE);
         const remaining = known - visible.length;
         return (
@@ -135,7 +151,7 @@ export function GenomeRoles({ sections, tiers, total, more }: {
                 <Glyph name={s.role} className="h-5 w-5 text-accent" />
                 {TARGET_ROLE_LABEL[s.role]} <span className="text-muted font-normal tabular-nums">{n(known)}{tier ? <span className="text-sm"> of {n(s.total)}</span> : null}</span>
               </h2>
-              <Link href={tableHref(s.role, tier)} className="text-sm underline text-muted hover:text-foreground">Open in the table →</Link>
+              <Link href={tableHref(s.role, tier, spec)} className="text-sm underline text-muted hover:text-foreground">Open in the table →</Link>
             </div>
             <p className="text-sm text-muted mb-2 max-w-3xl">{ROLE_BLURB[s.role]}</p>
             {!tier && (
@@ -147,7 +163,7 @@ export function GenomeRoles({ sections, tiers, total, more }: {
               <ul className="flex flex-wrap gap-1.5 notranslate" translate="no">
                 {visible.map((g) => <li key={g.id}><Link href={g.href} prefetch={false} title={g.tldr} className="chip border bg-card border-border hover:bg-foreground/5 text-xs font-mono">{g.symbol}</Link></li>)}
               </ul>
-            ) : known === 0 ? <p className="text-sm text-muted">No {TARGET_ROLE_LABEL[s.role].toLowerCase()} gene sits in this tier.</p> : null}
+            ) : known === 0 ? <p className="text-sm text-muted">No {TARGET_ROLE_LABEL[s.role].toLowerCase()} gene sits in this {spec ? "class" : "tier"}.</p> : null}
             {remaining > 0 && !failed && <Foot total={known} shown={visible.length} load={() => load(s.role)} loading={loading} />}
             {failed && remaining > 0 && <p className="text-xs text-muted mt-2">Only the first {n(visible.length)} of {n(known)} genes could be shown: the full list did not load. Check your connection and reload.</p>}
           </section>

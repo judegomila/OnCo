@@ -1,5 +1,5 @@
 import { graph } from "@/lib/graph";
-import { EVIDENCE_TIERS, routeFor, TARGET_ROLES, type EvidenceTier, type Target } from "@/lib/schema";
+import { EVIDENCE_TIERS, routeFor, TARGET_ROLES, TARGET_SPECIFICITIES, type EvidenceTier, type Target, type TargetSpecificity } from "@/lib/schema";
 import { pageRows, TABLE_PAGE, type MoreRows } from "@/lib/static-tables";
 import { GENOME_TABLE, genesFor, type GenomeGene, type GenomeRoleSection } from "@/lib/genome-hub";
 
@@ -17,7 +17,7 @@ export function genomeGenes(g = graph()): GenomeGene[] {
   const targets = g.kind("target") as Target[];
   return targets
     .filter((t) => t.role.length || t.evidenceTier)
-    .map((t): GenomeGene => ({ id: t.id, symbol: t.symbol ?? t.name, href: routeFor(t), tldr: t.tldr, roles: [...t.role], ...(t.evidenceTier ? { tier: t.evidenceTier } : {}) }))
+    .map((t): GenomeGene => ({ id: t.id, symbol: t.symbol ?? t.name, href: routeFor(t), tldr: t.tldr, roles: [...t.role], ...(t.evidenceTier ? { tier: t.evidenceTier } : {}), ...(t.specificity ? { specificity: t.specificity } : {}) }))
     .sort((a, b) => a.symbol.localeCompare(b.symbol, "en", { sensitivity: "base" }) || a.id.localeCompare(b.id));
 }
 
@@ -28,12 +28,19 @@ export function tierCounts(genes: GenomeGene[]): Partial<Record<EvidenceTier, nu
   return out;
 }
 
+/** Count the graded genes in each specificity class (classes with none are absent). */
+export function specificityCounts(genes: GenomeGene[]): Partial<Record<TargetSpecificity, number>> {
+  const out: Partial<Record<TargetSpecificity, number>> = {};
+  for (const s of TARGET_SPECIFICITIES) { const n = genes.filter((g) => g.specificity === s).length; if (n) out[s] = n; }
+  return out;
+}
+
 /** What the page hands to the client: one section per role that has genes, each with its first TABLE_PAGE genes; the file for the rest. */
-export function genomeHub(genes = genomeGenes()): { genes: GenomeGene[]; sections: GenomeRoleSection[]; tiers: Partial<Record<EvidenceTier, number>>; more?: MoreRows } {
+export function genomeHub(genes = genomeGenes()): { genes: GenomeGene[]; sections: GenomeRoleSection[]; tiers: Partial<Record<EvidenceTier, number>>; specificities: Partial<Record<TargetSpecificity, number>>; more?: MoreRows } {
   const sections = TARGET_ROLES.map((role): GenomeRoleSection => {
     const own = genesFor(genes, role, null);
     return { role, total: own.length, genes: own.slice(0, TABLE_PAGE), tiers: tierCounts(own) };
   }).filter((s) => s.total);
   const paged = pageRows(GENOME_TABLE, genes);
-  return { genes, sections, tiers: tierCounts(genes), more: paged.more };
+  return { genes, sections, tiers: tierCounts(genes), specificities: specificityCounts(genes), more: paged.more };
 }

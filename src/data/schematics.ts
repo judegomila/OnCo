@@ -566,6 +566,7 @@ import { diagnosticsSchematicAliases2 } from "./diagnostics-wave2";
 
 export const SCHEMATIC_ALIAS: Record<string, string> = {
   "stride-dna-break-detection": "wes-wgs",
+  "gallbladder-cancer-surgery": "robotic-surgery",
   ...radiationSchematicAliases,
   ...modelSchematicAliases,
   ...machineSchematicAliases,

@@ -10559,7 +10559,7 @@ export const tldr_zh: Record<string, string> = {
   nct05636618: "一项在神经内分泌肿瘤、胰腺癌、嗜铬细胞瘤和副神经节瘤中评估一种在研治疗的1/2期试验，由Perspective Therapeutics开展，正在招募。",
   nct04701476: "一项在结直肠癌中评估Pembrolizumab、Trifluridine/tipiracil、Regorafenib的2期试验，由Teclison Ltd.开展，正在招募。",
   nct05549297: "一项在黑色素瘤中评估Tebentafusp、Pembrolizumab的3期试验，由Immunocore Ltd开展，正在招募。",
-  nct02864992: "一项在非小细胞肺癌、小细胞肺癌中评估Tepotinib的2期试验，由EMD Serono Research & Development Institute, Inc.开展，进行中、不再招募。",
+  nct02864992: "VISION试验显示，每日一次的MET抑制剂特泊替尼使约半数携带MET外显子14跳跃突变的晚期肺癌缩小，无论突变是在血液还是肿瘤组织中检出，由此促成了该药在日本、美国和欧洲的获批。",
   nct06084806: "一项在非小细胞肺癌中评估Test-retest Evaluation of [18F]F-AraG PET的2期试验，由CellSight Technologies, Inc.开展，正在招募。",
   nct05955391: "一项在非小细胞肺癌、小细胞肺癌中评估TGRX-326的2期试验，由Shenzhen TargetRx Co., Ltd.开展，进行中、不再招募。",
   nct06453902: "一项在慢性髓性白血病中评估一种在研治疗的2期试验，由Shenzhen TargetRx Co., Ltd.开展，正在招募。",

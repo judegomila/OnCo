@@ -7,7 +7,7 @@
  *   entities: EntityInput[]              new drugs, trials, technologies, targets, ideas, institutions…
  *   patch:    CancerPatch                fields merged into the existing cancer record
  *
- * Merge rules (see mergeSpikes): scalar fields override; array fields are appended and
+ * Merge rules (see mergeSpikes, applied to cancers.ts and the NCI coverage lists): scalar fields override; array fields are appended and
  * de-duplicated (history is sorted by year after merge).
  */
 import type { CancerInput, EntityInput } from "@/lib/schema";

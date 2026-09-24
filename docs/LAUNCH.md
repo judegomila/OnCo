@@ -21,7 +21,10 @@ or generic (an additional product, never a missing approval), Revoked, Expired, 
 that could not be read, or a hand-written row that disagrees. FDA notices, trial status changes and HTA verdicts stay
 review-only because their sources have no status field to quote. Re-decide any past bot PR with
 `npx tsx scripts/apply-proposals.ts --from=<its public/proposals/latest.json>`; PR 55's 60 rows gave 0 auto, 53 already
-on main, 7 residue.
+on main, 7 residue. PR 74 (24 Sept) carried 21 EMA residue rows: 6 applied by hand under a dated comment in
+regional-approvals.ts (Revoked and Expired became W() with the register wording in the note; two positive CHMP opinions
+became UR(); no new helper, two rows do not justify one), 15 were non-cancer medicines or pending and stay closed as no
+change.
 
 ## Owner asks in flight (agents)
 - [x] Accurate 3D molecules (ball and stick) and protein ribbons (Molecule3D): merged 10 Sept, deploying

@@ -2,6 +2,13 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-09-24
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-09-24 | [pixantrone](/drugs/pixantrone/) | Status "approved" and the text said the EU authorisation "remains conditional pending further confirmatory data"; the EMA register shows Pixuvri's authorisation expired on 12 June 2024 after Les Laboratoires Servier did not apply for renewal, and it was never approved elsewhere. | Proposals bot residue (PR 74) read by hand against the [register page](https://www.ema.europa.eu/en/medicines/human/EPAR/pixuvri) | status "withdrawn", TL;DR and summary state the expiry, EU row W(2024) added |
+| 2026-09-24 | [imp4927](/drugs/imp4927/) | The record said IMP4927's target and mechanism were "not stated"; the EMA register page for Sepalna names the substance senaparib, a PARP inhibitor (ATC L01XK07), with a positive CHMP opinion on 17 September 2026 for maintenance in advanced ovarian cancer. | Proposals bot residue (PR 74): the register named a product no corpus name matched exactly | record renamed Senaparib (IMP4297) with aliases, PARP target, EMA link and an EU under-review row |
+
 ## 2026-09-17
 
 | Date | Entity | What was wrong | How found | Fix |
@@ -124,6 +131,7 @@ Every factual correction to the OnCo corpus, newest first. Format: date · entit
 ## Proposed by the update bot (pending review)
 
 - 2026-09-16: 44 proposals drafted from the feeds (32 high confidence); review in [docs/proposals/latest.md](docs/proposals/latest.md). Nothing here is a confirmed correction until a human moves it above.
+- 2026-09-24: PR 74 carried 21 EMA rows a person had to read; 6 were applied by hand (olaratumab, pixantrone, alitretinoin, cediranib, ensartinib, imp4927) and 15 left as no change (non-cancer medicines, a withdrawn biosimilar application, a pending re-examination); the table is in the PR comment.
 
 ## How corrections are logged
 

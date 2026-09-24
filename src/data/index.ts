@@ -14,7 +14,7 @@ import { roadmaps } from "./roadmaps";
 import { ideas } from "./ideas";
 import { collections } from "./collections";
 import type { EntityInput, TargetInput } from "@/lib/schema";
-import { mergeSpikes, spikeEntities } from "./spikes";
+import { applySpikeSupplements, mergeSpikes, spikeEntities, unappliedSpikeSupplements } from "./spikes";
 import { failures } from "./failures";
 import { pipelineTrials } from "./pipeline-trials";
 import { groups } from "./groups";
@@ -278,7 +278,10 @@ const RAW_INPUTS_DEDUPED: EntityInput[] = (() => {
   return out;
 })();
 
-export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((raw) => {
+export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
+  // Spike supplements (src/data/spikes/index.ts): partial records a cancer deep dive attaches to targets, readouts,
+  // drugs and papers other files own; arrays append, scalars fill gaps. Applied before everything else.
+  const raw = applySpikeSupplements(base);
   // Paper pages written for DOIs a record cites in its external links by scripts/fetch-cited-papers.ts (wave 7): the
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];
@@ -330,4 +333,9 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((raw) => {
   }
   return e;
 });
+
+{
+  const missing = unappliedSpikeSupplements();
+  if (missing.length) throw new Error(`Spike supplements name records that do not exist: ${missing.join(", ")}`);
+}
 

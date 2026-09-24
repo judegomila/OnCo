@@ -14,7 +14,15 @@ import type { CancerInput, EntityInput } from "@/lib/schema";
 import { TRIAL_OUTCOMES } from "../trial-outcomes";
 
 export type CancerPatch = Partial<Omit<CancerInput, "id" | "kind">>;
-export type Spike = { cancerId: string; entities: EntityInput[]; patch: CancerPatch };
+/**
+ * A partial record merged onto an entity another file owns (a target in targets.ts, a biomarker readout, a drug):
+ * relation arrays, notes, links and prevalence rows are appended and de-duplicated; a scalar is taken only where the
+ * owner left it empty. Applied to every input by applySpikeSupplements (src/data/index.ts), which fails the build if a
+ * supplement names an id that does not exist. Use it to attach a cancer to records written elsewhere without
+ * duplicating them (a duplicate id is an error; see graph.ts).
+ */
+export type SpikeSupplement = { id: string } & Record<string, unknown>;
+export type Spike = { cancerId: string; entities: EntityInput[]; patch: CancerPatch; supplements?: SpikeSupplement[] };
 
 // Register spikes here. Each file default-exports a Spike.
 import nsclc from "./nsclc";
@@ -47,7 +55,8 @@ import multipleMyeloma from "./multiple-myeloma";
 import hodgkin from "./hodgkin-lymphoma";
 import sarcoma from "./sarcoma";
 import neuroblastoma from "./neuroblastoma";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma];
+import gallbladderMolecular from "./gallbladder-molecular";
+const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, gallbladderMolecular];
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's
@@ -72,7 +81,7 @@ function mergeDuplicates(list: EntityInput[]): EntityInput[] {
 
 export const spikeEntities: EntityInput[] = mergeDuplicates(spikes.flatMap((s) => s.entities.map((e) => (e.kind === "trial" && TRIAL_OUTCOMES[e.id] ? { ...e, ...TRIAL_OUTCOMES[e.id] } : e))));
 
-const ARRAY_FIELDS = ["aka", "links", "tags", "related", "cancers", "sections", "technologies", "targets", "drugs", "companies", "institutions", "pathways", "terms", "trials", "notes", "subtypes", "biomarkers", "standardOfCare", "stateOfArt", "history", "pipeline", "openProblems"] as const;
+const ARRAY_FIELDS = ["aka", "links", "tags", "related", "cancers", "sections", "technologies", "targets", "drugs", "companies", "institutions", "pathways", "terms", "trials", "people", "bottlenecks", "keyPapers", "journals", "notes", "subtypes", "biomarkers", "standardOfCare", "stateOfArt", "history", "pipeline", "openProblems"] as const;
 
 function dedupe<T>(arr: T[]): T[] {
   const seen = new Set<string>();
@@ -94,4 +103,30 @@ export function mergeSpikes(cancers: CancerInput[]): CancerInput[] {
     if (Array.isArray(out.history)) (out.history as Array<{ year: number | string }>).sort((a, b) => Number(a.year) - Number(b.year));
     return out as CancerInput;
   });
+}
+
+// ---- Supplements onto records other files own ----
+const supplementsById = new Map<string, SpikeSupplement[]>();
+for (const s of spikes) for (const sup of s.supplements ?? []) supplementsById.set(sup.id, [...(supplementsById.get(sup.id) ?? []), sup]);
+const supplementsApplied = new Set<string>();
+
+/** Merge every spike supplement for this entity: arrays append and de-duplicate, scalars fill gaps only. */
+export function applySpikeSupplements(e: EntityInput): EntityInput {
+  const list = supplementsById.get(e.id);
+  if (!list) return e;
+  supplementsApplied.add(e.id);
+  const out: Record<string, unknown> = { ...e };
+  for (const sup of list) {
+    for (const [k, v] of Object.entries(sup)) {
+      if (k === "id" || v === undefined) continue;
+      if (Array.isArray(v)) out[k] = dedupe([...((out[k] as unknown[] | undefined) ?? []), ...v]);
+      else if (out[k] === undefined) out[k] = v;
+    }
+  }
+  return out as EntityInput;
+}
+
+/** Supplement ids that matched no input record; the build fails on them (src/data/index.ts). */
+export function unappliedSpikeSupplements(): string[] {
+  return [...supplementsById.keys()].filter((id) => !supplementsApplied.has(id));
 }

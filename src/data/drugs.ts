@@ -856,13 +856,13 @@ const baseDrugs: DrugInput[] = [
     links: [{ label: "FDA approval notice (30 June 2026)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-allogeneic-regulatory-t-cell-based-immunotherapy-hspc-and-t-cells-vldq-use-matched" }, { label: "ClinicalTrials.gov NCT05316701 (Precision-T)", url: "https://clinicaltrials.gov/study/NCT05316701" }],
   },
   {
-    id: "remestemcel-l", kind: "drug", name: "Remestemcel-L", brand: "Ryoncil", modality: "Allogeneic bone marrow-derived mesenchymal stromal cell therapy", asOf, status: "approved",
+    id: "remestemcel-l", kind: "drug", name: "Remestemcel-L", brand: "Ryoncil", modality: "Allogeneic bone marrow-derived mesenchymal stromal cell therapy", asOf: "2026-09-24", status: "approved",
     tldr: "Donor bone marrow stromal cells given to children whose acute graft-versus-host disease no longer responds to steroids, the first mesenchymal stromal cell therapy approved in the United States.",
     summary: "Remestemcel-L is a suspension of culture-expanded mesenchymal stromal cells from the bone marrow of healthy adult donors. The cells dampen the T-cell attack on skin, gut and liver that defines acute graft-versus-host disease after an allogeneic stem cell transplant. The FDA approved it in December 2024 for steroid-refractory acute graft-versus-host disease in children aged two months and older, on a single-arm trial in which most children responded within a month. It is given intravenously twice a week for four weeks and is the first mesenchymal stromal cell product approved in the United States.",
     mechanism: "Mesenchymal stromal cells secrete anti-inflammatory factors and suppress activated T cells, reducing tissue damage in acute graft-versus-host disease.",
     approvals: [{ region: "US", year: 2024, indication: "Steroid-refractory acute graft-versus-host disease in children aged two months and older" }],
-    cancers: [], companies: ["mesoblast"], sections: ["cell-therapy", "supportive-care"], terms: ["gvhd"],
-    links: [{ label: "FDA approval announcement (December 2024)", url: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-mesenchymal-stromal-cell-therapy-treat-steroid-refractory-acute-graft-versus-host" }],
+    cancers: [], companies: ["mesoblast"], sections: ["cell-therapy", "supportive-care"], terms: ["gvhd"], trials: ["msb-gvhd001"],
+    links: [{ label: "MSB-GVHD001 (Biol Blood Marrow Transplant 2020)", url: "https://doi.org/10.1016/j.bbmt.2020.01.018" }, { label: "Ryoncil label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4e0918f-7444-4694-adeb-d38d98345659" }, { label: "FDA approval announcement (December 2024)", url: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-mesenchymal-stromal-cell-therapy-treat-steroid-refractory-acute-graft-versus-host" }],
   },
   {
     id: "hepzato", kind: "drug", name: "Melphalan hepatic delivery system", brand: "Hepzato Kit", modality: "Liver-directed chemotherapy with percutaneous hepatic perfusion", asOf: "2026-09-24", status: "approved",

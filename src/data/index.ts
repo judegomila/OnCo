@@ -92,6 +92,7 @@ import { companiesSponsorsWave3 } from "./companies-sponsors-wave3";
 import { companiesMakersWave4 } from "./companies-makers-wave4";
 import { targetsWaveSoc } from "./targets-wave-soc";
 import { targetsGenesWave } from "./targets-genes-wave";
+import { targetSpecificity } from "./target-specificity";
 import { drugsEmaWave } from "./drugs-ema-wave";
 import { companiesSponsorsWave } from "./companies-sponsors-wave";
 import { drugsPipelineWave1 } from "./drugs-pipeline-wave1";
@@ -293,7 +294,13 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // Biomarker readouts hang off a parent target and off the drugs whose current label thresholds name them; the
   // reverse links are written here so a target page lists its readouts and a drug page its required readouts in
   // `related`, and no readout is an orphan reachable only by search.
-  if (e.kind === "target" && READOUTS_BY_TARGET[e.id]) return { ...e, related: [...(e.related ?? []), ...READOUTS_BY_TARGET[e.id].filter((id) => !(e.related ?? []).includes(id))] };
+  if (e.kind === "target") {
+    // Specificity and distribution (scripts/fetch-target-specificity.ts, src/data/target-specificity.ts): filled where the record carries none of its own.
+    const sp = targetSpecificity[e.id];
+    if (sp && !e.specificity && !e.distribution) e = { ...e, ...(sp.specificity ? { specificity: sp.specificity } : {}), distribution: sp.distribution, ...(sp.tumourAgnostic ? { tumourAgnostic: true } : {}), specificityNote: sp.specificityNote, specificitySources: sp.specificitySources };
+    if (READOUTS_BY_TARGET[e.id]) return { ...e, related: [...(e.related ?? []), ...READOUTS_BY_TARGET[e.id].filter((id) => !(e.related ?? []).includes(id))] };
+    return e;
+  }
   if (e.kind === "drug" && READOUTS_BY_DRUG[e.id]) e = { ...e, related: [...(e.related ?? []), ...READOUTS_BY_DRUG[e.id].filter((id) => !(e.related ?? []).includes(id))] };
   if (e.kind === "cancer" && !e.parent && (cancerParents[e.id] ?? cancerParentsWave2Map[e.id])) return { ...e, parent: cancerParents[e.id] ?? cancerParentsWave2Map[e.id] };
   if (e.kind === "trial") {

@@ -1,0 +1,13 @@
+src/data/drugs.ts
+  ai_agent 418,420
+src/data/china.ts
+  ai_agent 232
+src/data/issues-2026-09-wave-a.ts
+  ai_agent 200-213,296-305
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "08d855871c1c3b8bf9ff05dc2eb76e33ed645604",
+  "prompts": {}
+}

@@ -34,7 +34,7 @@ describe("first 60 days guide", () => {
       expect(guide.read.pages[0].route).toBe(`/cancers/${id}/`);
       for (const t of guide.read.terms) expect(t.route).toMatch(/^\/terms\//);
       // Page order is fixed.
-      const order = ["now", "team", "decisions", "questions", "trials", "free", "read"];
+      const order = ["now", "checklist", "team", "decisions", "questions", "trials", "free", "read"];
       expect([...sectionsOf(guide)].sort((a, b) => order.indexOf(a) - order.indexOf(b))).toEqual(sectionsOf(guide));
     }
   });
@@ -49,6 +49,17 @@ describe("first 60 days guide", () => {
     expect(ranks).toEqual([...ranks].sort((a, b) => a - b));
     expect(guide.trials).toBeDefined();
     expect(guide.questions!.groups.length).toBeGreaterThan(0);
+  });
+
+  it("adds the dated checklist only for cancers that have one, with a source on every item", () => {
+    const gb = buildGuide(must("gallbladder"), g);
+    expect(gb.checklist).toBeDefined();
+    expect(sectionsOf(gb).indexOf("checklist")).toBe(sectionsOf(gb).indexOf("now") + 1);
+    for (const item of gb.checklist!.items) {
+      expect(item.source.url).toMatch(/^https:\/\//);
+      expect(`${item.item} ${item.why} ${item.when}`).not.toMatch(/[—–]/);
+    }
+    expect(buildGuide(must("tnbc"), g).checklist).toBeUndefined();
   });
 
   it("omits every data-driven section for a record with no optional fields", () => {

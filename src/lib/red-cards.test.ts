@@ -50,6 +50,19 @@ describe("buildRedCards", () => {
     expect(cards).toEqual([]);
   });
 
+  it("adds one card per cancer-scoped set, linked to the records given, even with no drugs", () => {
+    const stent = { id: "biliary-stenting-drainage", name: "Biliary stenting", route: "/technologies/biliary-stenting-drainage/" };
+    const set: RedFlagSet = { id: "biliary-cholangitis", label: "Cholangitis", cancerIds: ["gallbladder"], flags: [
+      { symptom: "Fever with a stent", threshold: "Call the team now.", action: "call-now", source: src },
+      { symptom: "Signs of sepsis", threshold: "Call 999.", action: "emergency", source: src },
+    ] };
+    const cards = buildRedCards({ ...base, drugs: [], cancerSets: [{ set, concerns: [stent] }] });
+    expect(cards.map((c) => c.id)).toEqual(["flag:biliary-cholangitis"]);
+    expect(cards[0].tone).toBe("emergency");
+    expect(cards[0].title).toBe("Signs of sepsis");
+    expect(cards[0].concerns).toEqual([stent]);
+  });
+
   it("caps the strip at six", () => {
     const terms = Array.from({ length: 10 }, (_, i) => ({ id: `t${i}`, name: `Term ${i}`, tldr: "t", route: `/terms/t${i}/`, drugs: ["carboplatin"] }));
     expect(buildRedCards({ ...base, sideEffectTerms: terms })).toHaveLength(RED_CARD_MAX);

@@ -5,7 +5,10 @@
  */
 export type Question = { setting: string; question: string; why: string };
 
+import { GALLBLADDER_CANCER_ID, gallbladderQuestions } from "./spikes/gallbladder-living";
+
 export const questions: Record<string, Question[]> = {
+  [GALLBLADDER_CANCER_ID]: gallbladderQuestions,
   tnbc: [
     // Newly diagnosed
     { setting: "Newly diagnosed", question: "What exactly makes my cancer 'triple-negative', and was HER2 scored as 0, 1+, or 2+?", why: "HER2-low (1+ or 2+ without amplification) tumours qualify for trastuzumab deruxtecan later; the difference between 0 and 1+ matters." },

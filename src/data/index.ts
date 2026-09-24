@@ -214,7 +214,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...mechanicsPathways,
   ...complementary,
   ...tests,
-  ...nciCoverage,
+  ...nciCoverage.map((e) => (e.kind === "cancer" ? mergeSpikes([e])[0] : e)),
   ...networkInstitutions, ...networkPeople,
   ...institutionsIndia,
   ...institutionsWaveInvestigators,

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { GENERAL_RED_FLAGS, redFlagsFor } from "@/data/red-flags";
+import { GENERAL_RED_FLAGS, redFlagsFor, redFlagsForCancerId } from "@/data/red-flags";
 import { RedFlagCard } from "./RedFlagCard";
 
 export type ToxRow = { event: string; anyGradePct?: number; grade3PlusPct?: number; note?: string };
@@ -14,9 +14,11 @@ export type QuestionItem = { setting: string; question: string; why: string };
  * Logistics-first block for caregivers: what to watch for with the treatments in play, when to call,
  * practical supportive-care items, and the questions list. Shown when the profile mode is "caregiver".
  */
-export function CaregiverPanel({ treatments, support, questions, cancerName }: { treatments: CareDetail[]; support: SupportItem[]; questions: QuestionItem[]; cancerName?: string }) {
+export function CaregiverPanel({ treatments, support, questions, cancerName, cancerId }: { treatments: CareDetail[]; support: SupportItem[]; questions: QuestionItem[]; cancerName?: string; cancerId?: string }) {
   const settings = [...new Set(questions.map((q) => q.setting))];
   const [phone, setPhone] = useState("");
+  // The disease's own emergencies (a blocked bile duct, a stent), shown whatever the treatment.
+  const cancerSets = cancerId ? redFlagsForCancerId(cancerId) : [];
   return (
     <div className="space-y-6">
       <section>
@@ -29,12 +31,13 @@ export function CaregiverPanel({ treatments, support, questions, cancerName }: {
         <p className="text-sm text-muted mb-3">One general card for anyone on treatment, then a card per treatment in play, each quoting the thresholds from the label or guideline. Print them and keep them with the treatment card and the list of current drugs by the phone. The team will have given specific thresholds; those win.</p>
         <div className="grid gap-3 md:grid-cols-2">
           <RedFlagCard name={GENERAL_RED_FLAGS.label} sets={[GENERAL_RED_FLAGS]} phone={phone || undefined} />
+          {cancerSets.length > 0 && <RedFlagCard name={cancerName ? `${cancerName}: the disease itself` : "This cancer"} sets={cancerSets} phone={phone || undefined} />}
           {treatments.map((t) => {
             const sets = redFlagsFor(t.id, t.modality);
             return sets.length ? <RedFlagCard key={t.id} name={t.name} route={t.route} sets={sets} phone={phone || undefined} /> : null;
           })}
         </div>
-        {treatments.length > 0 && treatments.every((t) => !redFlagsFor(t.id, t.modality).length) && <p className="text-xs text-muted mt-2">No class-specific card exists yet for these treatments; the general card and the product pages apply.</p>}
+        {treatments.length > 0 && !cancerSets.length && treatments.every((t) => !redFlagsFor(t.id, t.modality).length) && <p className="text-xs text-muted mt-2">No class-specific card exists yet for these treatments; the general card and the product pages apply.</p>}
       </section>
 
       <section>

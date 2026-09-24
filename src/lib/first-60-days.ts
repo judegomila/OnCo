@@ -8,6 +8,7 @@ import { guidelineCancerIds } from "./guidelines";
 import { sequencingIndex } from "./sequencing";
 import { stagingSystems } from "@/data/staging";
 import { JOURNEYS } from "@/data/journeys";
+import { FIRST_60_DAYS_CHECKLISTS, type ChecklistItem } from "@/data/first-60-days-checklists";
 import type { Question } from "@/data/questions";
 
 /**
@@ -22,12 +23,14 @@ export type GuideSocRow = { setting: string; approach: string; refs: GuideLink[]
 export type GuideRole = { role: string; because: string; href: string };
 export type GuideTrial = GuideLink & { phase: string; status?: string; setting: string; nct?: string };
 export type GuideJourney = { id: string; title: string; stage: string; route: string; diagnosis: string[]; decisions: string[] };
-export type GuideSectionId = "now" | "team" | "decisions" | "questions" | "trials" | "free" | "read";
+export type GuideSectionId = "now" | "checklist" | "team" | "decisions" | "questions" | "trials" | "free" | "read";
 
 export type Guide = {
   cancer: GuideLink & { group: string };
   /** Staging tests: "Diagnosis" rows of the standard of care, the diagnostic technologies linked to the cancer, staging systems, biomarkers. */
   now?: { rows: GuideSocRow[]; technologies: GuideLink[]; staging: GuideLink[]; biomarkers: string[]; journeyDiagnosis: string[] };
+  /** A hand-written, dated checklist for this cancer (src/data/first-60-days-checklists.ts), where one exists. */
+  checklist?: { items: ChecklistItem[] };
   /** Specialties, derived from the sections of the technologies and drugs named in the standard of care. */
   team?: { roles: GuideRole[] };
   /** Standard-of-care settings in the order they occur, plus the decision points of any recorded journey. */
@@ -41,7 +44,7 @@ export type Guide = {
 };
 
 export const WEEKS: Record<GuideSectionId, string> = {
-  now: "Weeks 1 to 2", team: "Weeks 1 to 3", decisions: "Weeks 2 to 6", questions: "Every visit", trials: "Weeks 3 to 8", free: "From day one", read: "Any time",
+  now: "Weeks 1 to 2", checklist: "Day 1 to 60", team: "Weeks 1 to 3", decisions: "Weeks 2 to 6", questions: "Every visit", trials: "Weeks 3 to 8", free: "From day one", read: "Any time",
 };
 
 const DIAGNOSIS = /diagnos|staging|work-?up/i;
@@ -159,6 +162,9 @@ export function buildGuide(c: Cancer, g: Graph = graph()): Guide {
     guide.now = { rows: diagRows, technologies: techs, staging, biomarkers: c.biomarkers, journeyDiagnosis: [...new Set(journeyDiagnosis)] };
     guide.sections.push("now");
   }
+
+  const items = FIRST_60_DAYS_CHECKLISTS[c.id] ?? [];
+  if (items.length) { guide.checklist = { items }; guide.sections.push("checklist"); }
 
   const roles = teamRoles(c, g);
   if (roles.length) { guide.team = { roles }; guide.sections.push("team"); }

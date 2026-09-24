@@ -7,7 +7,7 @@
  *   entities: EntityInput[]              new drugs, trials, technologies, targets, ideas, institutions…
  *   patch:    CancerPatch                fields merged into the existing cancer record
  *
- * Merge rules (see mergeSpikes): scalar fields override; array fields are appended and
+ * Merge rules (see mergeSpikes, applied to cancers.ts and the NCI coverage lists): scalar fields override; array fields are appended and
  * de-duplicated (history is sorted by year after merge).
  */
 import type { CancerInput, EntityInput } from "@/lib/schema";
@@ -47,7 +47,8 @@ import multipleMyeloma from "./multiple-myeloma";
 import hodgkin from "./hodgkin-lymphoma";
 import sarcoma from "./sarcoma";
 import neuroblastoma from "./neuroblastoma";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma];
+import gallbladderLiving from "./gallbladder-living";
+const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, gallbladderLiving];
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's

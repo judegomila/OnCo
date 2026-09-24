@@ -7,6 +7,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 24 September 2026
+- Gallbladder cancer deep spike, final round: review reconciled the six facets to their sources, Wales and Northern Ireland figures, Cancer Drugs Fund status, prescription and benefit rules, lighter cancer pages
+- Gallbladder deep spike review: duplicate terms, trials and history entries become supplements, HER2 and NICE figures reconciled, dead and redirected links fixed, backlinks for the ctDNA roadmap and the chemo-immunotherapy pairing, long relation lists capped with deep links so the cancer page drops from 997 KB to 652 KB, QA checklist in docs/GALLBLADDER-QA.md
+- Gallbladder UK layer, second pass: Wales and Northern Ireland registry figures with stage, Scotland checked and found not to publish C23, CDF list v1.365 status on every biliary drug, four-nation prescription and special-rules benefit pages, GLH turnaround statements, CAPBIL tied to BILCAP, Hassan Malik record
 - Gallbladder cancer deep spike, round three: treatments and trials, 131 registry trials, approval rows with NICE numbers, standard-of-care rows
 - Gallbladder evidence: ARTEMIDE-Biliary01 points at its existing registry record instead of a second trial record
 - Gallbladder cancer deep spike: the record rewritten with UK and world figures, eight subtypes, molecular landscape, UK and NHS pathway page, 40 papers, roadmap and ideas, decisions, first 60 days and red cards; weekly bot refreshes merged

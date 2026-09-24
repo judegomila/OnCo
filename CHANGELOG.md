@@ -7,6 +7,8 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 24 September 2026
+- Ivermectin: the trial evidence so far, with the label toxicity table and the papers under expressions of concern stated
+- Ivermectin evidence page: drug record with label toxicity table, four registry trials, 22 papers with expressions of concern and retraction stated, compact fenbendazole and mebendazole records, per-file citation test
 - Checkpoint families mapped with immune and cell-cycle hubs, 26 new targets; 31 reader proposals applied as 23 trial records and 27 papers; Cancersim terms gap filed
 - Cancersim terms gap: 378 of 504 terms not yet in OnCo, listed by bucket with the decision the methods terms need; IMPROVEMENTS row 250
 - Target specificity and distribution on 904 targets with where each is found, gallbladder decision aids and comparison, world map of gallbladder cancer rates, six EU register rows decided by hand, PALD1 rewritten

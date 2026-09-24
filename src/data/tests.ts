@@ -319,7 +319,7 @@ const prognosticTests: DrugInput[] = [
 // Imaging agents not yet in the corpus as separate products
 // =====================================================================================
 const imagingAgents: DrugInput[] = [
-  d({ id: "illuccix", name: "Illuccix (kit for Ga-68 gozetotide)", brand: "Illuccix / Gozellix", modality: "PET imaging agent kit (PSMA, gallium-68)", status: "approved",
+  { ...d({ id: "illuccix", trials: ["psma-prerp"], keyPapers: ["paper-psma-prerp-hope-jama-oncol-2021"], name: "Illuccix (kit for Ga-68 gozetotide)", brand: "Illuccix / Gozellix", modality: "PET imaging agent kit (PSMA, gallium-68)", status: "approved",
     mechanism: "Kit for on-site labelling of PSMA-11 (gozetotide) with gallium-68 from a generator or cyclotron; the tracer binds PSMA on prostate cancer cells for PET imaging.",
     tldr: "Telix's ready-to-label kit that lets any nuclear medicine department make the gallium PSMA scan for prostate cancer.",
     summary: "Illuccix was approved by the FDA in December 2021 for PET imaging of PSMA-positive lesions in men with suspected metastasis who are candidates for definitive therapy and in men with suspected recurrence based on rising PSA, and in 2025 the label was extended to selecting patients for PSMA radioligand therapy. Gozellix, a second-generation kit with longer post-labelling shelf life, was approved in 2025. Illuccix is also registered in Australia and several other markets. The kit format made PSMA PET available to centres without access to the cyclotron-produced 18F tracers.",
@@ -327,7 +327,7 @@ const imagingAgents: DrugInput[] = [
     notes: ["What a result means: PSMA-avid spots on the scan indicate prostate cancer deposits and decide between local treatment, systemic therapy or radioligand therapy."],
     targets: ["psma"], cancers: ["prostate"], companies: ["telix"], drugs: ["pluvicto"],
     technologies: ["psma-pet", "pet-ct"], terms: ["biochemical-recurrence", "theranostics"], related: ["ga68-psma-11", "locametz", "pylarify"],
-    links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Illuccix" }] }),
+    links: [DOI("PSMA-PreRP (JAMA Oncology 2021)", "10.1001/jamaoncol.2021.3771"), { label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d4643b31-9b4f-673f-e053-2a95a90a559d" }] }), asOf: "2026-09-24" },
   d({ id: "locametz", name: "Locametz (kit for Ga-68 gozetotide)", brand: "Locametz", modality: "PET imaging agent kit (PSMA, gallium-68)", status: "approved",
     mechanism: "Kit for on-site labelling of gozetotide (PSMA-11) with gallium-68; the resulting tracer images PSMA-expressing prostate cancer and identifies candidates for lutetium-177 PSMA therapy.",
     tldr: "Novartis' gallium PSMA scan kit, approved the same day as Pluvicto as the test that qualifies men for that radioactive drug.",

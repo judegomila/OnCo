@@ -37,12 +37,13 @@ import hodgkin from "../src/data/spikes/hodgkin-lymphoma";
 import sarcoma from "../src/data/spikes/sarcoma";
 import neuroblastoma from "../src/data/spikes/neuroblastoma";
 import gallbladderLiving from "../src/data/spikes/gallbladder-living";
+import gallbladderMolecular from "../src/data/spikes/gallbladder-molecular";
 
 /** File stem -> spike, so the test can compare against `readdirSync("src/data/spikes")`. */
 export const SPIKE_FILES: Record<string, Spike> = {
   nsclc, prostate, pancreatic, glioblastoma, "breast-hr-positive": breastHr, "breast-her2-positive": breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma,
   "head-and-neck": headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, "all-leukemia": allLeukemia,
-  cll, dlbcl, "multiple-myeloma": multipleMyeloma, "hodgkin-lymphoma": hodgkin, sarcoma, neuroblastoma, "gallbladder-living": gallbladderLiving,
+  cll, dlbcl, "multiple-myeloma": multipleMyeloma, "hodgkin-lymphoma": hodgkin, sarcoma, neuroblastoma, "gallbladder-living": gallbladderLiving, "gallbladder-molecular": gallbladderMolecular,
 };
 
 /** Spike files that are not spikes (the registry itself, and gap-cancers which exports plain entities). */

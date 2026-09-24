@@ -144,6 +144,7 @@ const PAYLOAD_WORDS: Array<[RegExp, { id: string; name: string } | undefined, { 
   [/hemiasterlin|tazevibulin|SC209/i, { id: "hemiasterlin", name: "Hemiasterlin (SC209)" }, TUB],
   [/AS269/i, { id: "as269", name: "AS269" }, TUB],
   [/duostatin/i, { id: "duostatin", name: "Duostatin" }, TUB],
+  [/zovodotin/i, { id: "zovodotin", name: "Zovodotin (auristatin)" }, TUB],
   [/auristatin|maytansin|tubulin|microtubule|-dotin\b|zovodotin|rilsodotin|pevedotin|dolaflexin|eribulin|ecteribulin/i, undefined, TUB],
   [/\bPBD\b|pyrrolobenzodiazepine|tesirine|talirine|SG3199|SC-DR002/i, { id: "pbd-sg3199", name: "PBD dimer" }, PBD],
   [/calicheamicin|ozogamicin|enediyne/i, { id: "calicheamicin", name: "Calicheamicin" }, CLEAVER],
@@ -475,7 +476,8 @@ class Decomposer {
         const from = own.length && prose.some((p) => !own.includes(p)) ? ["targets", "modality", "mechanism"] : own.length ? ["targets"] : ["modality", "mechanism"];
         const effector = ids.find((t) => EFFECTOR_ARMS.includes(t));
         const tumour = ids.filter((t) => t !== effector);
-        const conf: Confidence = own.length >= 2 ? "high" : ids.length >= 2 ? "medium" : ids.length ? "medium" : "low";
+        // A record that names both arms is high; so is a biparatopic whose one declared target is, by definition, both arms.
+        const conf: Confidence = own.length >= 2 || (own.length === 1 && ids.length === 2 && ids[0] === ids[1]) ? "high" : ids.length >= 2 ? "medium" : ids.length ? "medium" : "low";
         if (ids.length === 2 && ids[0] === ids[1]) { set(this.targetComponent("target", ids[0], conf, from)); set({ ...this.targetComponent("targetB", ids[0], conf, [...from, "modality"]), detail: "biparatopic: two epitopes of one target" }); }
         else if (effector && tumour.length) { set(this.joinTargets("target", tumour, [], conf, from)); set(this.targetComponent("targetB", effector, conf, from)); }
         else if (tumour.length >= 2) {

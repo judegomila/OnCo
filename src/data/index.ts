@@ -14,7 +14,7 @@ import { roadmaps } from "./roadmaps";
 import { ideas } from "./ideas";
 import { collections } from "./collections";
 import type { EntityInput, TargetInput } from "@/lib/schema";
-import { mergeSpikes, spikeEntities } from "./spikes";
+import { applySpikeSupplements, mergeSpikeInto, spikeEntities, unappliedSpikeSupplements, unpatchedSpikeCancers } from "./spikes";
 import { failures } from "./failures";
 import { pipelineTrials } from "./pipeline-trials";
 import { groups } from "./groups";
@@ -154,7 +154,7 @@ import { pipelineTrialsWave5 } from "./pipeline-trials-wave5";
 import { pipelineTrialsWave6 } from "./pipeline-trials-wave6";
 
 const RAW_INPUTS: EntityInput[] = [
-  ...mergeSpikes(cancers),
+  ...cancers,
   ...spikeEntities,
   ...sections,
   ...technologies,
@@ -214,7 +214,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...mechanicsPathways,
   ...complementary,
   ...tests,
-  ...nciCoverage.map((e) => (e.kind === "cancer" ? mergeSpikes([e])[0] : e)),
+  ...nciCoverage,
   ...networkInstitutions, ...networkPeople,
   ...institutionsIndia,
   ...institutionsWaveInvestigators,
@@ -278,7 +278,13 @@ const RAW_INPUTS_DEDUPED: EntityInput[] = (() => {
   return out;
 })();
 
-export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((raw) => {
+export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
+  // Spike supplements (src/data/spikes/index.ts): partial records a cancer deep dive attaches to targets, readouts,
+  // drugs and papers other files own; arrays append, scalars fill gaps. Applied before everything else.
+  // Cancer deep-dive patches (mergeSpikeInto) reach every cancer record, whichever file holds it: cancers.ts, the NCI rare
+  // and paediatric lists in src/data/spikes/, the subtype waves. Supplements (partial records onto targets, readouts,
+  // drugs and papers other files own) come next; arrays append, scalars fill gaps.
+  const raw = applySpikeSupplements(base.kind === "cancer" ? mergeSpikeInto(base) : base);
   // Paper pages written for DOIs a record cites in its external links by scripts/fetch-cited-papers.ts (wave 7): the
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];
@@ -330,4 +336,11 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((raw) => {
   }
   return e;
 });
+
+{
+  const missing = unappliedSpikeSupplements();
+  if (missing.length) throw new Error(`Spike supplements name records that do not exist: ${missing.join(", ")}`);
+  const unpatched = unpatchedSpikeCancers();
+  if (unpatched.length) throw new Error(`Spike patches name cancers that do not exist: ${unpatched.join(", ")}`);
+}
 

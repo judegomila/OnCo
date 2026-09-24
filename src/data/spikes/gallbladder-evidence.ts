@@ -104,12 +104,7 @@ const trials: TrialInput[] = [
     summary: "ACTICCA-1 opened in April 2014 comparing adjuvant gemcitabine and cisplatin with observation, and after BILCAP reported its control arm became capecitabine. The registry lists 789 actual participants, a status of active but not recruiting, and an estimated primary completion date of December 2025 (last updated 30 March 2025). Its readout is the next thing that could change adjuvant care for gallbladder cancer, where BILCAP's evidence is borrowed from a mixed biliary population.",
     drugs: ["gemcitabine-cisplatin", "capecitabine"], terms: ["neoadjuvant-adjuvant"], cancers: [GB, "cholangiocarcinoma", "biliary-tract-cancer"], related: ["bilcap"],
     links: [ct("NCT02170090")] }),
-  t({ id: "artemide-biliary01", name: "ARTEMIDE-Biliary01", nct: "NCT06109779", phase: "3", status: "active", sponsor: "AstraZeneca", enrolled: 760,
-    setting: "Resected biliary tract cancer: adjuvant rilvegostomig plus chemotherapy vs placebo plus chemotherapy",
-    tldr: "A global trial testing whether a two-target immunotherapy added to chemotherapy after surgery stops bile duct and gallbladder cancer coming back.",
-    summary: "ARTEMIDE-Biliary01 is a double-blind phase 3 of the PD-1 and TIGIT bispecific antibody rilvegostomig with chemotherapy, against placebo with chemotherapy, after curative-intent resection of biliary tract cancer. The registry lists 760 actual participants, a start of 4 December 2023, a status of active but not recruiting, an estimated primary completion date of 2 January 2029 and study completion of 3 May 2030. It is the first adjuvant immunotherapy phase 3 to include gallbladder cancer.",
-    drugs: ["rilvegostomig"], technologies: ["checkpoint-inhibitor", "bispecific-antibody"], terms: ["neoadjuvant-adjuvant"], cancers: [GB, "cholangiocarcinoma", "biliary-tract-cancer"], companies: ["astrazeneca"], related: ["bilcap", "acticca-1"],
-    links: [ct("NCT06109779")] }),
+  // ARTEMIDE-Biliary01 is the existing registry record nct06109779 (pipeline-trials-wave6.ts); references point there.
 ];
 
 
@@ -254,7 +249,7 @@ const spike: Spike = {
       { year: 2025, title: "TOPAZ-1 three-year update; ctDNA residual disease shown prognostic after biliary resection", note: "36-month survival 14.6 vs 6.9 percent with durvalumab. Residual disease hazard ratios of 26 (2025) and 15.86 (2026) in two cohorts.", refs: ["paper-topaz-1-three-year-survival-j-hepatol-2025", "paper-yu-ctdna-early-recurrence-biliary-tract-cancer-jco-po-2025", "paper-malla-ctdna-resected-biliary-tract-cancer-esmo-gi-onc-2026"] },
       { year: 2026, title: "CAPBIL: first UK nationwide gallbladder cancer cohorts", note: "285 incidental cancers and 516 operated patients across 24 centres, 2014 to 2022; 67.7 percent of incidental cancers had liver resection.", refs: ["paper-mcclements-capbil-incidental-gallbladder-cancer-bjs-2026", "paper-mcclements-capbil-surgical-outcomes-gallbladder-cancer-hpb-2026"] },
     ],
-    pipeline: ["opt-in", "gain-igbc", "polcagb", "acticca-1", "artemide-biliary01", ...gallbladderIdeas.map((i) => i.id)],
+    pipeline: ["opt-in", "gain-igbc", "polcagb", "acticca-1", "nct06109779", ...gallbladderIdeas.map((i) => i.id)],
     openProblems: [
       "Whether T1b tumours need re-resection at all (five-year disease-specific survival 93.7 vs 95.5 percent with simple vs extended cholecystectomy in 237 patients) and whether peritoneal-side T2a tumours need the liver resection.",
       "Adjuvant capecitabine's benefit is borrowed from BILCAP's mixed population; the UK CAPBIL cohort saw none in matched analysis. ACTICCA-1 and ARTEMIDE-Biliary01 are the tests.",
@@ -262,7 +257,7 @@ const spike: Spike = {
       "Prevention in high-incidence regions: Chile's prophylactic cholecystectomy programme has run since 2006 without an evaluable design; typhoid carriers have never been offered a trial.",
     ],
     terms: ["incidental-gallbladder-cancer", "radical-cholecystectomy", "t2a-t2b-gallbladder", "gallbladder-polyp", "prophylactic-cholecystectomy"],
-    trials: ["herizon-btc-01", "nifty", "swog-s0809", "opt-in", "gain-igbc", "polcagb", "acticca-1", "artemide-biliary01"],
+    trials: ["herizon-btc-01", "nifty", "swog-s0809", "opt-in", "gain-igbc", "polcagb", "acticca-1", "nct06109779"],
     related: [ROADMAP, "cholangiocarcinoma", "ampullary"],
     links: [
       { label: "ESMO Clinical Practice Guideline: biliary tract cancer (Ann Oncol 2023)", url: "https://doi.org/10.1016/j.annonc.2022.10.506" },

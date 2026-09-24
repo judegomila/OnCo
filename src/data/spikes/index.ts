@@ -47,7 +47,8 @@ import multipleMyeloma from "./multiple-myeloma";
 import hodgkin from "./hodgkin-lymphoma";
 import sarcoma from "./sarcoma";
 import neuroblastoma from "./neuroblastoma";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma];
+import gallbladderEvidence from "./gallbladder-evidence";
+const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, gallbladderEvidence];
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's

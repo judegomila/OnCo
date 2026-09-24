@@ -36,15 +36,17 @@ import multipleMyeloma from "../src/data/spikes/multiple-myeloma";
 import hodgkin from "../src/data/spikes/hodgkin-lymphoma";
 import sarcoma from "../src/data/spikes/sarcoma";
 import neuroblastoma from "../src/data/spikes/neuroblastoma";
+import gallbladderEvidence from "../src/data/spikes/gallbladder-evidence";
 
 /** File stem -> spike, so the test can compare against `readdirSync("src/data/spikes")`. */
 export const SPIKE_FILES: Record<string, Spike> = {
   nsclc, prostate, pancreatic, glioblastoma, "breast-hr-positive": breastHr, "breast-her2-positive": breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma,
   "head-and-neck": headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, "all-leukemia": allLeukemia,
-  cll, dlbcl, "multiple-myeloma": multipleMyeloma, "hodgkin-lymphoma": hodgkin, sarcoma, neuroblastoma,
+  cll, dlbcl, "multiple-myeloma": multipleMyeloma, "hodgkin-lymphoma": hodgkin, sarcoma, neuroblastoma, "gallbladder-evidence": gallbladderEvidence,
 };
 
 /** Spike files that are not spikes (the registry itself, and gap-cancers which exports plain entities). */
-export const NON_SPIKE_FILES = ["index", "gap-cancers", "nci-paediatric", "nci-rare-solid", "nci-rare-other"];
+// The gallbladder-evidence-* files are helpers of the gallbladder-evidence spike (shared constants, paper lists, roadmap and ideas), not spikes.
+export const NON_SPIKE_FILES = ["index", "gap-cancers", "nci-paediatric", "nci-rare-solid", "nci-rare-other", "gallbladder-evidence-shared", "gallbladder-evidence-papers-surgery", "gallbladder-evidence-papers-epidemiology", "gallbladder-evidence-roadmap"];
 
 export const spikeSources: Spike[] = Object.values(SPIKE_FILES);

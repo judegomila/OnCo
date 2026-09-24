@@ -17,8 +17,8 @@ import type { Spike, SpikeSupplement } from "./index";
  * was used. Abstract text was read from Europe PMC.
  *
  * Cancer id. The corpus cancer record for gallbladder cancer is `gallbladder` (src/data/spikes/nci-rare-other.ts,
- * parent biliary-tract-cancer). If the record is re-keyed as `gallbladder-cancer`, change GALLBLADDER_CANCER_ID and
- * nothing else; every reference in this file goes through it.
+ * parent biliary-tract-cancer); the clinical deep dive extends that record and this file patches it. Every reference
+ * goes through GALLBLADDER_CANCER_ID so a rename would be one edit.
  */
 export const GALLBLADDER_CANCER_ID = "gallbladder";
 const GBC = GALLBLADDER_CANCER_ID;

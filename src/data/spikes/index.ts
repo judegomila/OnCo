@@ -88,21 +88,32 @@ function dedupe<T>(arr: T[]): T[] {
   return arr.filter((x) => { const k = typeof x === "string" ? x : JSON.stringify(x); if (seen.has(k)) return false; seen.add(k); return true; });
 }
 
-export function mergeSpikes(cancers: CancerInput[]): CancerInput[] {
-  return cancers.map((c) => {
-    const patches = spikes.filter((s) => s.cancerId === c.id).map((s) => s.patch);
-    if (!patches.length) return c;
-    const out: Record<string, unknown> = { ...c };
-    for (const p of patches) {
-      for (const [k, v] of Object.entries(p)) {
-        if (v === undefined) continue;
-        if ((ARRAY_FIELDS as readonly string[]).includes(k) && Array.isArray(v)) out[k] = dedupe([...((out[k] as unknown[]) ?? []), ...v]);
-        else out[k] = v;
-      }
+const patchedCancerIds = new Set<string>();
+
+/** Merge every spike patch for one cancer record, whichever file it lives in (cancers.ts, the NCI lists, subtype waves). */
+export function mergeSpikeInto(c: CancerInput): CancerInput {
+  const patches = spikes.filter((s) => s.cancerId === c.id).map((s) => s.patch);
+  if (!patches.length) return c;
+  patchedCancerIds.add(c.id);
+  const out: Record<string, unknown> = { ...c };
+  for (const p of patches) {
+    for (const [k, v] of Object.entries(p)) {
+      if (v === undefined) continue;
+      if ((ARRAY_FIELDS as readonly string[]).includes(k) && Array.isArray(v)) out[k] = dedupe([...((out[k] as unknown[]) ?? []), ...v]);
+      else out[k] = v;
     }
-    if (Array.isArray(out.history)) (out.history as Array<{ year: number | string }>).sort((a, b) => Number(a.year) - Number(b.year));
-    return out as CancerInput;
-  });
+  }
+  if (Array.isArray(out.history)) (out.history as Array<{ year: number | string }>).sort((a, b) => Number(a.year) - Number(b.year));
+  return out as CancerInput;
+}
+
+export function mergeSpikes(cancers: CancerInput[]): CancerInput[] {
+  return cancers.map(mergeSpikeInto);
+}
+
+/** Spike cancer ids no cancer record matched; the build fails on them (src/data/index.ts). A patch that lands nowhere is a silent loss. */
+export function unpatchedSpikeCancers(): string[] {
+  return [...new Set(spikes.map((s) => s.cancerId))].filter((id) => !patchedCancerIds.has(id));
 }
 
 // ---- Supplements onto records other files own ----

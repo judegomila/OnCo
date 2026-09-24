@@ -7,9 +7,44 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 24 September 2026
+- Checkpoint families mapped with immune and cell-cycle hubs, 26 new targets; 31 reader proposals applied as 23 trial records and 27 papers; Cancersim terms gap filed
+- Cancersim terms gap: 378 of 504 terms not yet in OnCo, listed by bucket with the decision the methods terms need; IMPROVEMENTS row 250
 - Target specificity and distribution on 904 targets with where each is found, gallbladder decision aids and comparison, world map of gallbladder cancer rates, six EU register rows decided by hand, PALD1 rewritten
+- Issue 98: LITESPARK-011 (NCT04586231) readout written onto the record: Lancet 2026 dual primary progression-free and overall survival rows and toxicity as stated in the abstract, ASCO GU 2026 response, duration and treatment-related toxicity rows marked as conference data, Motzer 2026 paper record linked, plain-English summary, simple sentence and Chinese TL;DR
+- Issue 97: INSITE (NCT03686215) trial record for pegulicianine with the NEJM Evidence 2023 coprimary endpoints and the existing Smith paper linked, pegulicianine.trials wired; status mixed because the sensitivity threshold was not met
+- Issue 96: HBI0101 / NXC-201 multiple myeloma phase 1 (NCT04720313) trial record with the Haematologica 2023 response, survival and cytokine release endpoints, Asherie 2023 paper record, nxc-201-car-t wired to the trial and to multiple myeloma
+- Issue 95: ScreenTrustCAD (NCT04778670) trial record for Lunit INSIGHT MMG with the Lancet Digital Health 2023 paired-reader detection endpoints, Dembrower 2023 paper record, lunit-insight-mmg.trials wired
+- Issue 94: PSMA-PreRP (NCT03368547) trial record for Illuccix and 68Ga-PSMA-11 with the JAMA Oncology 2021 nodal accuracy endpoints, Hope 2021 paper record, illuccix.trials and ga68-psma-11.trials wired
+- Issue 80: Vistogard Studies 1 and 2 (NCT01432301) trial record and Cancer 2017 paper; uridine-triacetate.trials wired with label link
+- Issue 79: Study 0201 (NCT00003991) trial record and Blood 2006 paper; histamine-dihydrochloride.trials wired
+- Issue 78: Study 201 (NCT00168064) trial record and JAMA Dermatology 2013 paper; mechlorethamine wired to the trial and to cutaneous-t-cell-lymphoma
+- Issue 77: Study 2005-01 (NCT00358501) trial record and Blood 2016 paper; defibrotide.trials wired with label link
+- Issue 76: CT041-ST-01 (NCT04581473) enriched in place with Lancet 2025 outcome and paper; satricabtagene-autoleucel.trials wired, false rivoceranib link and stale skip dropped
+- Issue 75: MSB-GVHD001 (NCT02336230) trial record and BBMT 2020 paper; remestemcel-l.trials wired
+- Issue 93: ROMAN (NCT03689712) trial record for avasopasem manganese with the eClinicalMedicine 2025 severe oral mucositis endpoints, Anderson 2025 paper record, avasopasem-manganese.trials wired; status mixed because the paper records the FDA complete response
+- Issue 72: FOCUS (NCT02678572) enriched in place with Ann Surg Oncol 2024 outcomes; hepzato.trials wired with paper and label links
+- Issue 71: eXalt3 (NCT02767804) enriched in place with JAMA Oncology 2021 outcomes; ensartinib cites the paper and label; stale zh TL;DR dropped
+- Issue 70: Act.In.Sarc (NCT02379845) trial record and Lancet Oncology 2019 paper; nbtxr3.trials wired
+- Issue 69: ROCKstar (NCT03640481) trial record and Blood 2021 paper; belumosudil.trials wired
+- Issue 92: VISION (NCT02864992) enriched in place for tepotinib with the Paik NEJM 2020 response, duration and toxicity outcomes and the existing paper linked; capmatinib-tepotinib.trials wired to GEOMETRY mono-1 and VISION; geometry-mono-1 leads capmatinib.trials; simple sentence and Chinese TL;DR follow the record
+- Issue 68: ARCHER 1050 (NCT01774721) enriched in place with separate Wu 2017 and Mok 2018 rows and papers; dacomitinib cites both
+- Issue 67: ASCEND-4 (NCT01828099) enriched in place with Lancet 2017 outcomes and paper; ceritinib cites the paper
+- Issue 66: CK-301-101 (NCT03212404) trial record and JITC 2023 paper; cosibelimab.trials wired, label and paper links replace the generic FDA listing
+- Issue 65: ALTA (NCT02094573) trial record and JCO 2017 paper; brigatinib.trials wired to ALTA and ALTA-1L
+- Glossary and record pages: checkpoint disambiguation term owns the bare word, Checkpoint families pills on target, term, pathway, technology and mechanics stage pages
+- Checkpoint hubs: /checkpoints/ with a pill switch, /checkpoints/immune/ with the interactive synapse, /checkpoints/cell-cycle/ with the cell-cycle ring, class tables, JSON companions, nav entry in nine languages
+- Checkpoint map: typed taxonomy of immune and cell-intrinsic checkpoints, 26 new targets from HGNC and UniProt, derived rows and tests
+- Issue 91: Alliance A071401 (NCT02523014) trial record for GSK2256098 with the JCO 2023 six-month progression-free survival endpoints, Brastianos 2023 paper record, gsk2256098.trials wired
+- Issue 90: PREEMPT CRC (NCT04369053) trial record for SimpleScreen CRC with the JAMA 2025 accuracy endpoints, Shaukat 2025 paper record, simplescreen-crc.trials wired
+- Issue 89: TRANSCEND (NCT05774756) trial record for setmelanotide with the NEJM 2026 body-mass index and hunger endpoints, Miller 2026 paper record, setmelanotide refreshed with the 19 March 2026 US approval for acquired hypothalamic obesity and a CORRECTIONS row
+- Issue 88: UX023T-CL201 (NCT02304367) trial record for burosumab with the JBMR 2021 serum phosphorus and fracture-healing endpoints, Jan de Beur 2021 paper record, burosumab.trials wired
+- Issue 87: PATRICIA (NCT00122681, HPV-008) trial record for the bivalent HPV vaccine with the Lancet 2009 vaccine-efficacy endpoints, Paavonen 2009 paper record, hpv-bivalent-vaccine.trials wired
+- Issue 85: XM01-22 (ISRCTN08063129) trial record for epoetin theta with the Archives of Drug Information 2011 haemoglobin response and transfusion endpoints, Tjulandin 2011 paper record, epoetin-theta.trials wired
+- Issue 84: rolapitant Study 3 (NCT01500226, TS-P04834) trial record with the Lancet Oncology 2015 delayed-phase complete response endpoint, Schwartzberg 2015 paper record, rolapitant.trials wired and label links made explicit
 - Issue 64: PALD1 (paladin) rewritten from the primary papers instead of the proposed GeneCards text; hand-written target records from reader proposals live in src/data/targets-reader-edits.ts and replace the generated gene record of the same id
 - PR 74 residue decided by hand: six EU rows from the EMA register pages (olaratumab revoked 2019, pixantrone expired 2024, alitretinoin withdrawn 2021, cediranib application withdrawn 2016, ensartinib and senaparib positive CHMP opinions as under review); pixantrone status corrected to withdrawn, IMP4927 identified as senaparib (Sepalna) with PARP target and aliases, cediranib aliases; 15 rows closed as non-cancer medicines or pending
+- Issue 83: XM22-03 (EudraCT 2009-015999-10) trial record for lipegfilgrastim with the BMC Cancer 2013 cycle 1 neutropenia endpoint, Bondarenko 2013 paper record, lipegfilgrastim.trials wired, id allowlisted as a phase 3 without an NCT
+- Issue 82: MNTX 302 (NCT00402038) trial record for methylnaltrexone with the NEJM 2008 coprimary laxation endpoints, Thomas 2008 paper record, methylnaltrexone.trials wired and label links made explicit
 - Gallbladder cancer geography: GLOBOCAN 2022 rates by country and sex for 185 countries, a reusable CancerGeography choropleth with incidence, mortality and sex pills, the high-burden regions with their papers, Chile's GES prophylactic cholecystectomy programme, India's NCRP registry rates and Japan's registry and guideline practice, prevention evidence, India and Chile spotlights, a geography.json companion and a gallbladder section on /countries/in/
 - Target specificity explainer links the Human Protein Atlas collection record, whose licence now reads CC BY-SA 3.0
 - Target specificity tests: enums cover every populated value, every row has a note and an https source, the graph carries the fields, HER2 reads tumour-associated and many types with a tumour-agnostic mark, BCR::ABL1 tumour-specific and one type, CD19 lineage antigen, PD-1 immune; browser facet counts match the data; the explainer and the pills render

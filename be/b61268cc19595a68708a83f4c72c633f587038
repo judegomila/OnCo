@@ -1,0 +1,34 @@
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_ff2cee76d90a7e 39,45
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_24c6ec43a6fbff 50-51
+src/data/spikes/gallbladder-uk.ts
+  s_0beac9cb5d78fd::t_959970ba458889 14-15,68,139,146,153,159,343
+  s_0beac9cb5d78fd::t_8da187a8b6e757 326-338,340
+  s_0beac9cb5d78fd::t_a0ede1215d93e0 74-75,134,148
+  s_0beac9cb5d78fd::t_73f8c32b58e73b 1
+  s_0beac9cb5d78fd::t_6d4ad68cd781f2 2-13,16-67,69-73,76-133,135-138,140-145,147,149-152,154-158,160-325,339,341-342,344-355
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_7f8ed01ac1afd5 14,62
+  s_0beac9cb5d78fd::t_037c9262c8aa1e 1-13,15-61,63-129
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_7f258523703c17 1-187
+src/data/coverage-uk.ts
+  s_0beac9cb5d78fd::t_b94c8ba1e18b0b 248
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "beb61268cc19595a68708a83f4c72c633f587038",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

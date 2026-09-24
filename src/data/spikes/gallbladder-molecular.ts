@@ -16,9 +16,9 @@ import type { Spike, SpikeSupplement } from "./index";
  * abstract gives a figure, the abstract's figure is listed first. Nothing is invented and no OncoKB or COSMIC data
  * was used. Abstract text was read from Europe PMC.
  *
- * Cancer id. The corpus cancer record for gallbladder cancer is `gallbladder` (src/data/spikes/nci-rare-other.ts,
- * parent biliary-tract-cancer); the clinical deep dive extends that record and this file patches it. Every reference
- * goes through GALLBLADDER_CANCER_ID so a rename would be one edit.
+ * Cancer id. The corpus cancer record for gallbladder cancer is `gallbladder` (./gallbladder-core.ts, parent
+ * biliary-tract-cancer); this file patches it. Every reference goes through GALLBLADDER_CANCER_ID so a rename would
+ * be one edit.
  */
 export const GALLBLADDER_CANCER_ID = "gallbladder";
 const GBC = GALLBLADDER_CANCER_ID;
@@ -81,7 +81,7 @@ const CBIO_SH2014 = { study: "gbc_shanghai_2014", label: "cBioPortal study gbc_s
 // ======================= THE LANDSCAPE TABLE =======================
 /**
  * One row per gene and alteration type. `pct` is the headline figure for the prevalence matrix (a number, or a range
- * string like "8-15"); `frequency` spells out every cohort behind it. Agent A's cancer record can import this table.
+ * string like "8-15"); `frequency` spells out every cohort behind it. The cancer record can import this table.
  */
 export type MolecularLandscapeRow = {
   gene: string;

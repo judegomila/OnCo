@@ -14,7 +14,9 @@ import type { Drug } from "@/lib/schema";
  * (from similarLinks() in src/lib/similar.ts) a "Similar pages" strip leads: records that are not
  * directly linked but share many of the same links, each with the shared links that explain the match.
  */
-export function Neighbours({ groups, exclude = [], similar }: { groups: Map<Kind, Entity[]>; exclude?: Kind[]; similar?: SimilarLink[] }) {
+export function Neighbours({ groups, exclude = [], similar, max, moreHref }: { groups: Map<Kind, Entity[]>; exclude?: Kind[]; similar?: SimilarLink[];
+  /** Cap per group; the rest becomes an "and N more" chip linking to `moreHref(kind)` or the kind's index (see ChipList). */
+  max?: number; moreHref?: (k: Kind) => string | undefined }) {
   const order = KINDS.filter((k) => !exclude.includes(k) && (groups.get(k)?.length ?? 0) > 0);
   if (!order.length && !similar?.length) return <p className="text-sm text-muted">Nothing links here yet.</p>;
   return (
@@ -30,7 +32,7 @@ export function Neighbours({ groups, exclude = [], similar }: { groups: Map<Kind
                   <h3 className="kicker"><KindName kind={k} form="plural" fallback={KIND_META[k].plural} /></h3>
                   <span className="text-xs text-muted tabular-nums">{items.length}</span>
                 </div>
-                {k === "drug" ? <DrugGrid drugs={items as Drug[]} compact /> : <ChipList items={items} kind={k} />}
+                {k === "drug" ? <><DrugGrid drugs={(max && items.length > max ? items.slice(0, max) : items) as Drug[]} compact />{max && items.length > max && <p className="mt-2 text-sm"><Link href={moreHref?.(k) ?? `/${KIND_META[k].route}/`} className="underline" data-more>and {items.length - max} more →</Link></p>}</> : <ChipList items={items} kind={k} max={max} moreHref={moreHref?.(k)} />}
               </section>
             );
           })}

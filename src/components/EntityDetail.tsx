@@ -3,7 +3,7 @@ import { enrolmentLabel } from "@/lib/enrolment";
 import { publicTags, tagRoute } from "@/lib/tags";
 import type { ReactNode } from "react";
 import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL, type Cancer, type Entity, type Roadmap, type Term } from "@/lib/schema";
-import { KIND_META, phaseLabel, routeFor } from "@/lib/kinds";
+import { KIND_META, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { paragraphs, KIND_COLOR, statusClass } from "@/lib/text";
 import { Bullets, ChipList, Container, KindChip, PageHeader, StatusChip } from "./ui";
@@ -196,7 +196,9 @@ export function EntityDetail({ e }: { e: Entity }) {
     ...(e.notes.length ? [{ id: "notes", label: "Notes", content: <Bullets items={e.notes} linked={(t) => withTermHovers(t, { skipId: e.id })} /> }] : []),
     ...keyPapersTab(e),
     ...papersTab(e),
-    { id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} similar={similarLinks(e.id)} /> },
+    // Cancer pages carry "Related pages" (every direct link plus the products' targets, companies and technologies, with
+    // the Similar strip) instead: the generic Connected tab repeated the same lists and doubled the markup of the page.
+    ...(e.kind === "cancer" ? [] : [{ id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} similar={similarLinks(e.id)} max={NEIGHBOUR_CAP} /> }]),
   ];
   const aside = <RecordAside e={e} />;
   const openMedical = (e.kind === "section" || e.kind === "technology") ? <OpenMedicalPanel id={e.id} kind={e.kind} limit={e.kind === "section" ? 12 : undefined} /> : null;
@@ -560,13 +562,25 @@ function kindTabs(e: Entity): Tab[] {
   }
 }
 
+/**
+ * Long relation lists show this many records and an "and N more" link to the filtered table (ChipList, Neighbours,
+ * the key-paper cards): a cancer with 150 trials otherwise ships every one three or four times over in its markup.
+ */
+const NEIGHBOUR_CAP = 48;
+/** Deep link to a kind's table filtered to one cancer, where that table has a cancer facet; else the kind's index. */
+function cancerTableHref(k: Kind, cancerName: string): string {
+  const facet = k === "trial" || k === "paper" ? "cancers" : undefined;
+  return facet ? `/${KIND_META[k].route}/?${facet}=${encodeURIComponent(cancerName)}` : `/${KIND_META[k].route}/`;
+}
+
 /** Key papers in the corpus that cite this object, with what they mean in plain English. */
 function keyPapersTab(e: Entity): Tab[] {
   const g = graph();
-  const papers = [...new Map([...(g.incoming(e.id).get("paper") ?? []), ...e.keyPapers.map((id) => g.get(id)).filter((x): x is Entity => !!x)].map((p) => [p.id, p])).values()].filter((p): p is Paper => p.kind === "paper").sort((a, b) => b.year - a.year);
-  if (!papers.length) return [];
-  return [{ id: "key-papers", label: "Key papers", count: papers.length, content: (
-    <div className="grid gap-3 md:grid-cols-2">{papers.map((p) => (
+  const all = [...new Map([...(g.incoming(e.id).get("paper") ?? []), ...e.keyPapers.map((id) => g.get(id)).filter((x): x is Entity => !!x)].map((p) => [p.id, p])).values()].filter((p): p is Paper => p.kind === "paper").sort((a, b) => b.year - a.year);
+  if (!all.length) return [];
+  const papers = all.length > NEIGHBOUR_CAP ? all.slice(0, NEIGHBOUR_CAP) : all;
+  return [{ id: "key-papers", label: "Key papers", count: all.length, content: (
+    <div className="grid gap-3 md:grid-cols-2">{papers.length < all.length && <p className="md:col-span-2 text-sm text-muted">The {papers.length} most recent of {all.length} papers; <Link href={e.kind === "cancer" ? cancerTableHref("paper", e.name) : "/papers/"} className="underline" data-more>see them all →</Link></p>}{papers.map((p) => (
       <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition">
         <div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.journal} {p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} /></div>
         <div className="font-medium leading-snug">{p.name}</div>
@@ -845,10 +859,10 @@ function cancerTabs(c: Cancer): Tab[] {
       </ol>) },
     { id: "changes", label: "What changed", count: changes.length, content: <><ChangesPreview items={changes.slice(0, 6)} total={changes.length} href={`${routeFor(c)}changes/`} cancerId={c.id} /><div className="mt-4"><FollowLine cancer={{ id: c.id, name: c.name, route: routeFor(c), asOf: c.asOf }} /></div></> },
     { id: "pipeline", label: "In development", count: c.pipeline.length, content: <><CancerPipeline c={c} /><Block title="Open problems and what is being done"><ul className="space-y-4">{c.openProblems.map((p, i) => <li key={i}><p className="text-[15px] leading-relaxed">{withTermHovers(p, { skipId: c.id })}</p><div className="mt-2"><WhatIsBeingDoneFor text={p} cancerId={c.id} /></div></li>)}</ul></Block></> },
-    { id: "trials", label: "Trials", content: <><Block title="Trials recruiting now"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>{(forMe.get("trial") ?? []).length > 0 && <Block title="Landmark trials"><ChipList items={forMe.get("trial") ?? []} /></Block>}</> },
+    { id: "trials", label: "Trials", content: <><Block title="Trials recruiting now"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>{(forMe.get("trial") ?? []).length > 0 && <Block title="Landmark trials"><ChipList items={forMe.get("trial") ?? []} max={NEIGHBOUR_CAP} moreHref={cancerTableHref("trial", c.name)} /></Block>}</> },
     { id: "centres", label: "Expert centres", content: <ExpertCentres cancerId={c.id} /> },
     { id: "questions", label: "Questions to ask", content: <Questions cancer={c} /> },
-    { id: "relevant", label: "Related pages", count: nRel, content: <><p className="text-xs text-muted mb-3">Direct links plus the targets, companies, and technologies of this cancer&apos;s products.</p><Neighbours groups={forMe} exclude={["cancer"]} /></> },
+    { id: "relevant", label: "Related pages", count: nRel, content: <><p className="text-xs text-muted mb-3">Direct links plus the targets, companies, and technologies of this cancer&apos;s products.</p><Neighbours groups={forMe} exclude={["cancer"]} similar={similarLinks(c.id)} max={NEIGHBOUR_CAP} moreHref={(k) => cancerTableHref(k, c.name)} /></> },
   ];
 }
 

@@ -44,17 +44,25 @@ export function EntityCard({ e, compact = false }: { e: Entity; compact?: boolea
   );
 }
 
-export function ChipList({ items, kind }: { items: Entity[]; kind?: Kind }) {
+/**
+ * Chips for a list of records. Long lists (`max`) show the first chips and a "and N more" chip that deep-links to
+ * the filtered table (`moreHref`, defaulting to the kind's index), so a cancer with 150 trials does not ship every
+ * one in the markup of every list it appears in (the heavy-pages pattern, docs/GALLBLADDER-QA.md).
+ */
+export function ChipList({ items, kind, max, moreHref }: { items: Entity[]; kind?: Kind; max?: number; moreHref?: string }) {
   if (!items.length) return null;
+  const shown = max && items.length > max ? items.slice(0, max) : items;
+  const rest = items.length - shown.length;
   return (
     <div className="flex flex-wrap gap-1.5">
-      {items.map((e) => e.kind === "drug" ? (
+      {shown.map((e) => e.kind === "drug" ? (
         <DrugChip key={e.id} id={e.id} name={e.name} route={routeFor(e)} tldr={e.tldr} className={KIND_COLOR[kind ?? e.kind]} />
       ) : (
         <Link key={e.id} href={routeFor(e)} {...nameAttrs(e.kind, `chip border transition-[filter] hover:brightness-95 dark:hover:brightness-125 ${KIND_COLOR[kind ?? e.kind]}`)}>
           {e.name}
         </Link>
       ))}
+      {rest > 0 && <Link href={moreHref ?? `/${KIND_META[kind ?? items[0].kind].route}/`} className="chip border border-border bg-card hover:bg-foreground/5" data-more>and {rest} more →</Link>}
     </div>
   );
 }

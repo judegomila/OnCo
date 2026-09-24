@@ -1019,7 +1019,6 @@ export const ENTITY_TRIAL_SKIP: Record<string, string> = {
   "robotic-bronchoscopy": "no interventional phase 2 or 3 study on ClinicalTrials.gov names it with a corpus cancer as condition (0 studies checked, searched by Robotic and navigational bronchoscopy)",
   "rolapitant": "no interventional phase 2 or 3 study on ClinicalTrials.gov names it with a corpus cancer as condition (9 studies checked, searched by Rolapitant, Varubi, Varuby)",
   "sarcoma-methylation-classifier": "no interventional phase 2 or 3 study on ClinicalTrials.gov names it with a corpus cancer as condition (0 studies checked, searched by Methylation classifier for sarcomas, sarcoma classifier, DNA methylation-based sarcoma classification)",
-  "satricabtagene-autoleucel": "no interventional phase 2 or 3 study on ClinicalTrials.gov names it (nor phase 1) with a corpus cancer as condition (5 studies checked, searched by Satricabtagene autoleucel, satri-cel, CT041)",
   "scfoundation": "a foundation model, not a trial intervention",
   "scgpt": "a foundation model, not a trial intervention",
   "self-amplifying-rna": "no interventional phase 2 or 3 study on ClinicalTrials.gov names it with a corpus cancer as condition (0 studies checked, searched by Self-amplifying and circular RNA therapeutics)",

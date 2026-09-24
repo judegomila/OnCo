@@ -10503,7 +10503,6 @@ export const tldr_zh: Record<string, string> = {
   nct06784752: "一项在胰腺癌中评估一种在研治疗的3期试验，由Novartis Pharmaceuticals开展，正在招募。",
   nct04342910: "一项在胃癌中评估Camrelizumab、Rivoceranib (apatinib)的3期试验，由Jiangsu HengRui Medicine Co., Ltd.开展，正在招募。",
   nct03972488: "一项在胰腺癌中评估Lutetium-177 dotatate的3期试验，由Advanced Accelerator Applications开展，进行中、不再招募。",
-  nct04581473: "一项在胃癌、胰腺癌中评估Rivoceranib (apatinib)的1/2期试验，由CARsgen Therapeutics Co., Ltd.开展，进行中、不再招募。",
   nct06033586: "一项在骨髓增殖性肿瘤中评估Rusfertide的3期试验，由Protagonist Therapeutics, Inc.开展，进行中、不再招募。",
   nct07341100: "一项在卵巢癌中评估一种在研治疗的2期试验，由Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.开展，进行中、不再招募。",
   nct05283226: "一项在头颈癌中评估Paclitaxel / nab-paclitaxel的2期试验，由NATCO Pharma Ltd.开展，正在招募。",

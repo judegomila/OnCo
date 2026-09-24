@@ -9655,7 +9655,6 @@ export const tldr_zh: Record<string, string> = {
   nct05455619: "一项在晚期实体瘤中评估一种在研治疗的1/2期试验，由SynDevRx, Inc.开展，正在招募。",
   nct04675333: "一项在头颈癌中评估Evorpacept、Pembrolizumab、Cisplatin的2期试验，由ALX Oncology Inc.开展，进行中、不再招募。",
   nct04675294: "一项在头颈癌中评估Evorpacept、Pembrolizumab的2期试验，由ALX Oncology Inc.开展，进行中、不再招募。",
-  nct02767804: "一项在非小细胞肺癌、小细胞肺癌中评估Ensartinib、Crizotinib的3期试验，由Xcovery Holdings, Inc.开展，进行中、不再招募。",
   nct07146672: "一项在晚期实体瘤中评估一种在研治疗的1/2期试验，由Shanghai Cell Therapy Group Co.,Ltd开展，正在招募。",
   nct03441113: "一项在骨髓增殖性肿瘤中评估Extended Access of Momelotinib in Adults With Myelofibrosis的2期试验，由GlaxoSmithKline开展，进行中、不再招募。",
   nct07405164: "一项在晚期实体瘤中评估Belzutifan、Nivolumab、Lenvatinib的3期试验，由Merck Sharp & Dohme LLC开展，正在招募。",

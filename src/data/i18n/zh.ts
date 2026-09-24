@@ -8589,7 +8589,7 @@ export const tldr_zh: Record<string, string> = {
   nct06434610: "一项在卵巢癌中评估Paclitaxel / nab-paclitaxel的2期试验，由Shanghai Jiaolian Drug Research and Development Co., Ltd开展，正在招募。",
   nct06679101: "一项在多发性骨髓瘤中评估Belantamab mafodotin、Lenalidomide、Dexamethasone的3期试验，由GlaxoSmithKline开展，正在招募。",
   nct06472076: "一项在非小细胞肺癌中评估Dostarlimab、Pembrolizumab的3期试验，由GlaxoSmithKline开展，进行中、不再招募。",
-  nct04586231: "一项在肾细胞癌中评估Belzutifan、Lenvatinib、Cabozantinib的3期试验，由Merck Sharp & Dohme LLC开展，进行中、不再招募。",
+  nct04586231: "LITESPARK-011试验显示，在免疫治疗后进展的晚期透明细胞肾癌患者中，belzutifan联合仑伐替尼控制病情的时间比卡博替尼长约四个月，但在期中分析时尚未证实能延长生存期；最终生存分析仍在等待中。",
   nct05468697: "一项在肾细胞癌中评估Belzutifan、Palbociclib的1/2期试验，由Merck Sharp & Dohme LLC开展，进行中、不再招募。",
   nct04489771: "一项在肾细胞癌中评估Belzutifan的2期试验，由Merck Sharp & Dohme LLC开展，进行中、不再招募。",
   nct04762069: "一项在胶质瘤和胶质母细胞瘤中评估一种在研治疗的2期试验，由CNS Pharmaceuticals, Inc.开展，进行中、不再招募。",

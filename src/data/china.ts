@@ -229,7 +229,7 @@ export const chinaDrugs: DrugInput[] = [
       { region: "China", year: 2020, indication: "Advanced hepatocellular carcinoma after prior systemic therapy" },
       { region: "China", year: 2023, indication: "First-line unresectable hepatocellular carcinoma with camrelizumab (CARES-310)" },
     ],
-    targets: ["vegf"], technologies: ["kinase-inhibitors", "antiangiogenic"], pathways: ["vegf-angiogenesis"], companies: ["hengrui"], cancers: ["gastric", "hcc"], related: ["camrelizumab-rivoceranib", "camrelizumab"], trials: ["cares-310", "nct04639180", "nct05320692", "nct05934331", "nct04581473", "nct04342910"],
+    targets: ["vegf"], technologies: ["kinase-inhibitors", "antiangiogenic"], pathways: ["vegf-angiogenesis"], companies: ["hengrui"], cancers: ["gastric", "hcc"], related: ["camrelizumab-rivoceranib", "camrelizumab"], trials: ["cares-310", "nct04639180", "nct05320692", "nct05934331", "nct04342910"],
     links: [{ label: "Jiangsu Hengrui Pharmaceuticals", url: "https://www.hengrui.com/en/" }, doi("CARES-310 (Lancet 2023)", "10.1016/S0140-6736(23)00961-3"), NMPA], tags: ["china"] }),
   d({ id: "donafenib", name: "Donafenib", brand: "Zepsun", code: "CM4307", modality: "Small-molecule multi-kinase inhibitor (deuterated sorafenib)", status: "approved", wikipedia: W("Donafenib"),
     mechanism: "Deuterium-substituted analogue of sorafenib inhibiting RAF kinases and VEGFR/PDGFR; deuteration slows metabolism and raises exposure.",

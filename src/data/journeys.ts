@@ -175,6 +175,21 @@ export const JOURNEYS: Journey[] = [
     ],
     decisions: [{ after: "ind", question: "Transplant now or keep the cells for later?", options: ["Standard: transplant after induction (deeper responses, longer remission)", "Delayed transplant with continued therapy is an option after a deep MRD-negative response (DETERMINATION showed no survival difference)"] }],
     sources: [nejm("NEJMoa2312054"), nejm("NEJMoa2204925"), NCCN] },
+
+  { id: "gallbladder-incidental", cancer: "gallbladder", stage: "Found by chance after gallbladder removal (T1b or deeper)", title: "Gallbladder cancer found after gallbladder removal", asOf: "2026-09-24",
+    tldr: "Pathology review and staging scans over a few weeks, a second operation at a liver centre about four to eight weeks after the first, two to three months to recover, six months of capecitabine tablets, then five years of check-ups.",
+    phases: [
+      { id: "dx", label: "Pathology review and staging", type: "diagnosis", weeks: [2, 4], detail: "The gallbladder removed for stones is examined; a tumour staged T1b or deeper leads to a CT scan of the chest, abdomen and pelvis (often MRI) and review at a hepatobiliary multidisciplinary team meeting. The NHS says results can take several weeks.", technologies: ["ct", "mri", "histopathology-ihc", "multidisciplinary-tumour-board"], source: "https://www.nhs.uk/conditions/gallbladder-cancer/tests-and-next-steps/" },
+      { id: "surg", label: "Re-resection (radical cholecystectomy)", type: "surgery", weeks: [1, 2], detail: "Removal of the gallbladder bed (liver segments IVb and V) and the portal lymph nodes, with the bile duct if the cystic duct margin was positive; Macmillan expects 1 to 2 days in intensive care and about 7 to 10 days in hospital. A US multicentre study found survival was best when this happened about four to eight weeks after the first operation.", source: doi("10.1001/jamasurg.2016.3642") },
+      { id: "rec", label: "Recovery", type: "surgery", weeks: [6, 12], detail: "Eating and weight need to be stable before chemotherapy; bloating, wind and diarrhoea after the operation usually improve within a few weeks (Macmillan).", source: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/surgery-for-gallbladder-cancer" },
+      { id: "adj", label: "Adjuvant capecitabine", type: "adjuvant", weeks: [24, 24], detail: "Six months of capecitabine tablets, the standard after biliary cancer surgery since BILCAP.", drugs: ["capecitabine"], technologies: ["cytotoxic-chemotherapy"], source: doi("10.1016/S1470-2045(18)30915-X") },
+      { id: "fu", label: "Surveillance", type: "surveillance", weeks: [104, 260], ongoing: true, detail: "Cancer Research UK: follow-up typically every 3 months for 2 years, then every 6 months for 3 years, with blood tests at most visits and scans when needed; contact the team about any new symptom between visits.", technologies: ["ct"], source: "https://www.cancerresearchuk.org/about-cancer/gallbladder-cancer/treatment/follow-up" },
+    ],
+    decisions: [
+      { after: "dx", question: "T1a, or T1b and deeper, and has it spread?", options: ["T1a (inner lining only): the removal already done is usually enough; follow-up", "T1b or deeper with no spread on scans: radical re-resection at a hepatobiliary centre", "Spread on scans: no second operation; gemcitabine and cisplatin with immunotherapy, a stent if jaundiced, HER2 and gene testing, trials"] },
+      { after: "surg", question: "Chemotherapy after surgery?", options: ["Fit for treatment: six months of capecitabine (BILCAP)", "Positive margins or involved nodes: chemoradiotherapy considered as well", "Not fit, or declines: surveillance"] },
+    ],
+    sources: ["https://www.nhs.uk/conditions/gallbladder-cancer/tests-and-next-steps/", doi("10.1002/bjs.11035"), doi("10.1001/jamasurg.2016.3642"), doi("10.1016/S1470-2045(18)30915-X"), "https://www.cancerresearchuk.org/about-cancer/gallbladder-cancer/treatment/follow-up", NCCN] },
 ];
 
 export function journeyFor(id: string): Journey | undefined { return JOURNEYS.find((j) => j.id === id); }

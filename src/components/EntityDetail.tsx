@@ -20,6 +20,7 @@ import { TrialFinderGeo as TrialFinder } from "./TrialFinderGeo";
 import { Questions } from "./Questions";
 import { ExpertCentres } from "./ExpertCentres";
 import { decisionsFor, decisionsRoute } from "@/lib/decisions";
+import { ukPathwayFor, ukPathwayRoute } from "@/lib/uk-pathway";
 import { conditionQuery, interventionQuery } from "@/lib/ctgov";
 import { TrialCounts } from "./TrialCounts";
 import { ReviewBadge } from "./ReviewBadge";
@@ -693,6 +694,25 @@ function DecisionsStrip({ c }: { c: Cancer }) {
   );
 }
 
+/** The UK and NHS layer: pathway standards, HPB centres, NICE and SMC decisions, Test Directory codes, UK trials; one pill row linking into /cancers/<id>/uk/. */
+function UkPathwayStrip({ c }: { c: Cancer }) {
+  const p = ukPathwayFor(c.id);
+  if (!p) return null;
+  const sections: Array<[string, string]> = [["pathway", "Your NHS pathway"], ["centres", `${p.centres.length} specialist centres`], ["funding", `${p.funding.length} lines of treatment`], ["tests", `${p.tests.length} tests to ask for`], ["trials", `${p.trials.length} UK trials`], ["nations", "Four nations"]];
+  return (
+    <div className="card p-4 mb-4">
+      <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
+        <div className="kicker inline-flex items-center gap-1.5"><svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden><rect x="3" y="3" width="18" height="18" rx="3" /><path d="M12 7v10M7 12h10" /></svg><TL text="UK and NHS" /></div>
+        <Link href={ukPathwayRoute(c.id)} className="text-sm text-accent hover:underline">Checked {p.asOf} · full UK and NHS page →</Link>
+      </div>
+      <p className="text-sm text-muted mb-2">Waiting-time standards, the specialist HPB centres, what NICE and the SMC fund by line of treatment, the National Genomic Test Directory codes, the trials open in the UK and the differences across the four nations.</p>
+      <div className="flex flex-wrap gap-1.5">
+        {sections.map(([id, label]) => <Link key={id} href={ukPathwayRoute(c.id, id)} className="chip border border-border bg-card text-sm hover:bg-foreground/5">{label}</Link>)}
+      </div>
+    </div>
+  );
+}
+
 /** Subtypes with pages of their own, and the broader type this one belongs to, shown before anything else on a cancer page. */
 function CancerFamily({ c }: { c: Cancer }) {
   const g = graph();
@@ -795,6 +815,7 @@ function cancerTabs(c: Cancer): Tab[] {
           <Link href={`/staging/#${c.id}`} className="underline">Staging and risk scores →</Link>
         </div>
         <DecisionsStrip c={c} />
+        <UkPathwayStrip c={c} />
         {c.standardOfCare.map((s, i) => (
           <div key={i} className="card p-4">
             <div className="font-medium">{s.setting}</div>

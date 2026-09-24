@@ -1,7 +1,7 @@
 import type { Cancer, Drug, Term } from "./schema";
 import { routeFor } from "./kinds";
 import type { Graph } from "./graph";
-import { redFlagsFor, type RedFlagAction, type RedFlagSet } from "@/data/red-flags";
+import { redFlagsFor, redFlagsForCancerId, type RedFlagAction, type RedFlagSet } from "@/data/red-flags";
 import { checkPairs, singleFlags, type Flag, type SingleFlag } from "./interactions";
 
 /**
@@ -9,7 +9,8 @@ import { checkPairs, singleFlags, type Flag, type SingleFlag } from "./interacti
  * Three sources, in order of urgency: the "when to call" red-flag sets that apply to the drugs in the cancer's
  * standard of care (src/data/red-flags.ts, each line quoting its label or guideline), interaction flags among
  * those drugs and their single-agent cautions (src/lib/interactions.ts), and glossary terms in the "Side effects"
- * category linked to those drugs. No thresholds are written here; every card points at its source.
+ * category linked to those drugs. Cancer-scoped red-flag sets (the disease's own emergencies: a blocked bile duct,
+ * a stent) join the first group whatever the treatment. No thresholds are written here; every card points at its source.
  */
 export type RedCardTone = "emergency" | "call-now" | "call-today" | "caution" | "info";
 export type RedCardKind = "red-flag" | "interaction" | "side-effect";
@@ -40,6 +41,8 @@ export type RedCardInput = {
   singles: SingleFlag[];
   /** Glossary terms in the "Side effects" category, with the drug ids they link to. */
   sideEffectTerms: Array<{ id: string; name: string; tldr: string; route: string; drugs: string[] }>;
+  /** Red-flag sets scoped to the cancer itself, each with the records its card links to. */
+  cancerSets?: Array<{ set: RedFlagSet; concerns: RedCardDrug[] }>;
 };
 
 export const RED_CARD_MAX = 6;
@@ -70,6 +73,13 @@ export function buildRedCards(input: RedCardInput, max = RED_CARD_MAX): RedCard[
     const top = [...set.flags].sort((a, b) => TONE_ORDER.indexOf(ACTION_TONE[a.action]) - TONE_ORDER.indexOf(ACTION_TONE[b.action]))[0];
     if (!top) continue;
     cards.push({ id: `flag:${set.id}`, kind: "red-flag", tone: ACTION_TONE[top.action], title: top.symptom, body: top.threshold, concerns: drugs.sort(byName), source: top.source });
+  }
+
+  // Cancer-scoped sets: the disease's own emergencies, one card each, headed by the most urgent line.
+  for (const { set, concerns } of input.cancerSets ?? []) {
+    const top = [...set.flags].sort((a, b) => TONE_ORDER.indexOf(ACTION_TONE[a.action]) - TONE_ORDER.indexOf(ACTION_TONE[b.action]))[0];
+    if (!top) continue;
+    cards.push({ id: `flag:${set.id}`, kind: "red-flag", tone: ACTION_TONE[top.action], title: top.symptom, body: top.threshold, concerns: [...concerns].sort(byName), source: top.source });
   }
 
   // Interactions among the standard-of-care drugs themselves: only the two severities a patient must not miss.
@@ -108,10 +118,17 @@ export function standardOfCareDrugs(g: Graph, c: Cancer): Drug[] {
   return out;
 }
 
-/** The red cards for a cancer, or an empty list when its standard of care names no drug that carries a warning. */
+/** What a cancer-scoped set's card links to: its `concernIds` that resolve, else the cancer itself. */
+function cancerSetConcerns(g: Graph, c: Cancer, set: RedFlagSet): RedCardDrug[] {
+  const out = (set.concernIds ?? []).map((id) => g.get(id)).filter((e): e is NonNullable<typeof e> => !!e).map((e) => ({ id: e.id, name: e.name, route: routeFor(e) }));
+  return out.length ? out : [{ id: c.id, name: c.name, route: routeFor(c) }];
+}
+
+/** The red cards for a cancer, or an empty list when neither its standard of care nor the cancer itself carries a warning. */
 export function redCardsForCancer(g: Graph, c: Cancer, max = RED_CARD_MAX): RedCard[] {
   const drugs = standardOfCareDrugs(g, c);
-  if (!drugs.length) return [];
+  const cancerSets = redFlagsForCancerId(c.id).map((set) => ({ set, concerns: cancerSetConcerns(g, c, set) }));
+  if (!drugs.length && !cancerSets.length) return [];
   const ids = drugs.map((d) => d.id);
   const idSet = new Set(ids);
   const sideEffectTerms = (g.kind("term") as Term[])
@@ -124,5 +141,6 @@ export function redCardsForCancer(g: Graph, c: Cancer, max = RED_CARD_MAX): RedC
     pairs: checkPairs(ids),
     singles: singleFlags(ids),
     sideEffectTerms,
+    cancerSets,
   }, max);
 }

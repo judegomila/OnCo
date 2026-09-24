@@ -7,6 +7,8 @@ import type { GuideSectionId } from "@/lib/first-60-days";
 const P: Record<GuideSectionId | "details" | "bring" | "answers" | "words" | "print", string> = {
   // Clipboard with a tick: what happens now
   now: "M9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1ZM6 6h2m8 0h2a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1M9 13l2 2 4-4",
+  // Calendar with a tick: a dated checklist
+  checklist: "M4 6.5A1.5 1.5 0 0 1 5.5 5h13A1.5 1.5 0 0 1 20 6.5v12a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 18.5v-12ZM4 10h16M8 3v4M16 3v4M9.5 14.5l2 2 3.5-3.5",
   // Three people: who is on your team
   team: "M12 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-6 2a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Zm12 0a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM7 20a5 5 0 0 1 10 0M2.5 19a3.5 3.5 0 0 1 4-3.4M21.5 19a3.5 3.5 0 0 0-4-3.4",
   // Signpost fork: decisions coming up

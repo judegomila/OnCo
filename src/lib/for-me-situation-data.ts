@@ -22,7 +22,7 @@ type DrugRecord = Extract<Entity, { kind: "drug" }>;
 type TrialRecord = Extract<Entity, { kind: "trial" }>;
 
 const GUIDE_TITLES: Record<GuideSectionId, string> = {
-  now: "What happens now", team: "Who is on your team", decisions: "Decisions coming up", questions: "Questions to ask at each visit",
+  now: "What happens now", checklist: "A dated checklist for this cancer", team: "Who is on your team", decisions: "Decisions coming up", questions: "Questions to ask at each visit",
   trials: "Trials to ask about", free: "Help that costs nothing", read: "What to read next",
 };
 const HOPEFUL = (e: Entity) => !["negative", "withdrawn", "historic"].includes(e.status ?? "");

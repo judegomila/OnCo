@@ -293,9 +293,9 @@ export const SYMPTOM_PATHS: SymptomPath[] = [
     id: "jaundice", label: "Yellowing of the skin or eyes", aka: ["jaundice"], group: "digestive",
     plain: "Yellow skin and eyes, often with dark urine, pale stools and itching. Gallstones, hepatitis and medicines are common causes. Painless jaundice in an adult over 40 raises the possibility of a tumour blocking the bile duct, from the pancreas or bile duct, and is referred urgently.",
     redFlags: ["Painless", "Aged 40 or over", "Weight loss", "New-onset diabetes", "Pale stools and dark urine"],
-    cancers: ["pancreatic", "cholangiocarcinoma", "hcc"],
+    cancers: ["pancreatic", "cholangiocarcinoma", "gallbladder", "hcc"],
     tests: ["ultrasound", "ct", "mri"],
-    terms: ["ca19-9", "biliary-anatomy-subtypes", "biopsy"],
+    terms: ["ca19-9", "biliary-anatomy-subtypes", "biopsy", "obstructive-jaundice"],
     firstTest: "Liver blood tests, then an urgent ultrasound of the liver and bile ducts to show whether the ducts are dilated (a blockage) or not (a liver cause). A blockage leads to CT of the pancreas and MRI or endoscopic ultrasound with biopsy.",
     referral: {
       uk: "NICE NG12 says: refer people using a suspected cancer pathway referral (appointment within 2 weeks) for pancreatic cancer if they are aged 40 and over and have jaundice.",

@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 }
 
 const TITLES: Record<GuideSectionId, string> = {
-  now: "What happens now", team: "Who is on your team", decisions: "Decisions coming up", questions: "Questions to ask at each visit",
+  now: "What happens now", checklist: "A dated checklist for this cancer", team: "Who is on your team", decisions: "Decisions coming up", questions: "Questions to ask at each visit",
   trials: "Trials to ask about", free: "Help that costs nothing", read: "What to read next",
 };
 
@@ -73,7 +73,8 @@ export default async function FirstSixtyDaysPage({ params }: { params: Promise<{
   const c = g.get(id);
   if (!c || c.kind !== "cancer") notFound();
   const guide = buildGuide(c, g);
-  const { now, team, decisions, questions, trials, free, read } = guide;
+  const { now, checklist, team, decisions, questions, trials, free, read } = guide;
+  const checklistGroups = checklist ? [...new Set(checklist.items.map((i) => i.when))].map((when) => [when, checklist.items.filter((i) => i.when === when)] as const) : [];
   return (
     <>
       <PageHeader
@@ -113,6 +114,30 @@ export default async function FirstSixtyDaysPage({ params }: { params: Promise<{
                   <div className="flex flex-wrap gap-1.5">{now.staging.map((s) => <Link key={s.id} href={s.route} title={s.meta} className="chip border border-border bg-card hover:bg-surface">{s.name}</Link>)}</div>
                 </div>
               )}
+            </Step>
+          )}
+
+          {checklist && (
+            <Step id="checklist" count={checklist.items.length}>
+              <p className="text-sm text-muted mb-3">Written by hand for this cancer from NHS, Macmillan, Cancer Research UK and charity pages, each item naming the page it came from. The days and weeks are the typical order those pages describe, not a schedule; tick what applies to you.</p>
+              <ol className="space-y-4">
+                {checklistGroups.map(([when, items]) => (
+                  <li key={when} className="card p-4">
+                    <div className="kicker mb-2">{when}</div>
+                    <ul className="space-y-2.5">
+                      {items.map((it, i) => (
+                        <li key={i} className="flex gap-3 text-[15px] leading-relaxed">
+                          <span aria-hidden className="mt-1.5 h-4 w-4 shrink-0 rounded border border-border print:border-black" />
+                          <span>
+                            {it.item}
+                            <span className="block text-xs text-muted mt-0.5">{it.why} <a href={it.source.url} target="_blank" rel="noopener noreferrer" className="underline">{it.source.label}</a>{it.also && <>; <a href={it.also.url} target="_blank" rel="noopener noreferrer" className="underline">{it.also.label}</a></>}</span>
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+                ))}
+              </ol>
             </Step>
           )}
 

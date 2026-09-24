@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-22",
+ "generatedAt": "2026-09-24",
  "offline": false,
  "requests": 198,
  "roadmaps": [
@@ -1022,12 +1022,12 @@
    "since": "2026-09-21",
    "counts": {
     "trials": 12,
-    "checked": 9,
+    "checked": 10,
     "contradictions": 0,
     "explained": 0,
-    "papers": 0,
-    "watch": 10,
-    "watchPassed": 1
+    "papers": 1,
+    "watch": 11,
+    "watchPassed": 3
    },
    "trials": [
     {
@@ -1222,14 +1222,28 @@
     {
      "id": "nhs-galleri",
      "name": "NHS-Galleri",
-     "nct": "ISRCTN91431511",
+     "nct": "NCT05611632",
      "corpus": {
-      "status": "completed",
+      "status": "active",
       "phase": "3",
-      "enrolled": 142000,
-      "enrolledBasis": "registry"
+      "enrolled": 142250,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov NCT05611632 and ISRCTN91431511 list 142,318 participants (actual); the Nature Medicine test-performance paper reports 142,250 participants randomised 1:1.",
+      "yearReported": 2026
      },
-     "registry": null,
+     "registry": {
+      "nct": "NCT05611632",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+       "NA"
+      ],
+      "studyType": "INTERVENTIONAL",
+      "enrolment": 142318,
+      "enrolmentType": "ACTUAL",
+      "primaryCompletion": "2026-06-12",
+      "completion": "2031-01",
+      "lastUpdate": "2026-07-10"
+     },
      "contradictions": [],
      "explained": [],
      "papers": []
@@ -1260,7 +1274,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42773207",
+       "doi": "10.1038/s41591-026-04618-w",
+       "title": "Performance and safety of a multi-cancer early detection test: the PATHFINDER 2 study. ",
+       "journal": "Nat Med",
+       "date": "2026-09-22"
+      }
+     ]
     },
     {
      "id": "tracc",
@@ -1324,7 +1346,7 @@
       "grail",
       "mced"
      ],
-     "passed": false,
+     "passed": true,
      "contradictions": []
     },
     {
@@ -1339,8 +1361,22 @@
      "contradictions": []
     },
     {
-     "item": "NHS-Galleri: peer-reviewed publication and continued follow-up; the release gives no mortality data",
-     "source": "https://grail.com/press-releases/grail-reports-full-results-from-nhs-galleri-trial-demonstrating-substantial-reduction-in-stage-iv-cancer-diagnoses-at-2026-asco-annual-meeting/",
+     "item": "NHS-Galleri: peer-reviewed test-performance paper (reported: Nature Medicine, 22 September 2026, states the primary endpoint was not met and is reported elsewhere)",
+     "expected": "2026-09-22",
+     "source": "https://doi.org/10.1038/s41591-026-04652-8",
+     "refs": [
+      "nhs-galleri",
+      "galleri",
+      "stage-shift",
+      "paper-nhs-galleri-performance-nat-med-2026"
+     ],
+     "passed": true,
+     "contradictions": []
+    },
+    {
+     "item": "NHS-Galleri: primary-endpoint paper (stage III/IV incidence) not yet on Europe PMC; registry study completion, with cancer-specific mortality follow-up, listed as January 2031",
+     "expected": "2031-01",
+     "source": "https://clinicaltrials.gov/study/NCT05611632",
      "refs": [
       "nhs-galleri",
       "galleri",
@@ -1739,7 +1775,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-06-30",
       "completion": "2028-09-01",
-      "lastUpdate": "2026-07-14"
+      "lastUpdate": "2026-09-23"
      },
      "contradictions": [],
      "explained": [],
@@ -2090,10 +2126,10 @@
    "since": "2026-09-04",
    "counts": {
     "trials": 2,
-    "checked": 1,
+    "checked": 2,
     "contradictions": 0,
     "explained": 0,
-    "papers": 0,
+    "papers": 1,
     "watch": 0,
     "watchPassed": 0
    },
@@ -2101,14 +2137,28 @@
     {
      "id": "nhs-galleri",
      "name": "NHS-Galleri",
-     "nct": "ISRCTN91431511",
+     "nct": "NCT05611632",
      "corpus": {
-      "status": "completed",
+      "status": "active",
       "phase": "3",
-      "enrolled": 142000,
-      "enrolledBasis": "registry"
+      "enrolled": 142250,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov NCT05611632 and ISRCTN91431511 list 142,318 participants (actual); the Nature Medicine test-performance paper reports 142,250 participants randomised 1:1.",
+      "yearReported": 2026
      },
-     "registry": null,
+     "registry": {
+      "nct": "NCT05611632",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+       "NA"
+      ],
+      "studyType": "INTERVENTIONAL",
+      "enrolment": 142318,
+      "enrolmentType": "ACTUAL",
+      "primaryCompletion": "2026-06-12",
+      "completion": "2031-01",
+      "lastUpdate": "2026-07-10"
+     },
      "contradictions": [],
      "explained": [],
      "papers": []
@@ -2139,7 +2189,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42773207",
+       "doi": "10.1038/s41591-026-04618-w",
+       "title": "Performance and safety of a multi-cancer early detection test: the PATHFINDER 2 study. ",
+       "journal": "Nat Med",
+       "date": "2026-09-22"
+      }
+     ]
     }
    ],
    "watch": [],
@@ -3514,7 +3572,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-06-30",
       "completion": "2028-09-01",
-      "lastUpdate": "2026-07-14"
+      "lastUpdate": "2026-09-23"
      },
      "contradictions": [],
      "explained": [],
@@ -5788,7 +5846,7 @@
     "checked": 25,
     "contradictions": 0,
     "explained": 1,
-    "papers": 2,
+    "papers": 3,
     "watch": 0,
     "watchPassed": 0
    },
@@ -5819,7 +5877,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42732874",
+       "doi": "10.1016/j.jtho.2026.104179",
+       "title": "Adjuvant Osimertinib in Resected EGFR-Mutated Stage IB-IIIA Non-Small Cell Lung Cancer: Exploratory 8-year Overall Survival Landmark Update from the ADAURA Trial [161/175].",
+       "journal": "J Thorac Oncol",
+       "date": "2026-09-13"
+      }
+     ]
     },
     {
      "id": "alina",
@@ -6419,7 +6485,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-06-30",
       "completion": "2028-09-01",
-      "lastUpdate": "2026-07-14"
+      "lastUpdate": "2026-09-23"
      },
      "contradictions": [],
      "explained": [],
@@ -7260,7 +7326,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-06-30",
       "completion": "2028-09-01",
-      "lastUpdate": "2026-07-14"
+      "lastUpdate": "2026-09-23"
      },
      "contradictions": [],
      "explained": [],
@@ -7316,7 +7382,7 @@
     "checked": 7,
     "contradictions": 0,
     "explained": 1,
-    "papers": 0,
+    "papers": 1,
     "watch": 0,
     "watchPassed": 0
    },
@@ -7434,7 +7500,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42727418",
+       "doi": "10.1016/j.esmoop.2026.108538",
+       "title": "Datopotamab deruxtecan versus chemotherapy in previously treated inoperable/metastatic hormone receptor-positive, human epidermal growth factor receptor 2-negative breast cancer: results from the TROPION-Breast01 China cohort.",
+       "journal": "ESMO Open",
+       "date": "2026-09-11"
+      }
+     ]
     },
     {
      "id": "tropion-breast02",

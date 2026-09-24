@@ -483,7 +483,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   utidelone: { CN: A(2021, NMPA, "Recurrent or metastatic breast cancer after anthracycline and taxane, with capecitabine (Mar 2021)") },
   inetetamab: { CN: A(2020, NMPA, "HER2-positive metastatic breast cancer after chemotherapy, with vinorelbine (June 2020)") },
   linperlisib: { CN: A(2022, NMPA, "Relapsed or refractory follicular lymphoma after two or more lines, conditional (Nov 2022)") },
-  surufatinib: { CN: A(2020, NMPA, "Advanced non-pancreatic neuroendocrine tumours (Dec 2020); pancreatic neuroendocrine tumours (June 2021)") },
+  surufatinib: { EU: W(undefined, epar("sevsury"), "Sevsury (Hutchmed Europe B.V.): marketing authorisation application withdrawn before a Commission decision. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-09-24"), CN: A(2020, NMPA, "Advanced non-pancreatic neuroendocrine tumours (Dec 2020); pancreatic neuroendocrine tumours (June 2021)") },
   "recombinant-human-endostatin": { CN: A(2005, NMPA, "Advanced NSCLC with vinorelbine and cisplatin (Sept 2005)") },
   "h101-oncolytic-adenovirus": { CN: A(2005, NMPA, "Late-stage nasopharyngeal carcinoma with chemotherapy (Nov 2005)") },
   "iparomlimab-tuvonralimab": { CN: A(2024, NMPA, "Recurrent or metastatic cervical cancer after platinum chemotherapy (Sept 2024)") },
@@ -550,6 +550,17 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   fentanyl: { EU: V(A(2008, epar("effentora"), "Breakthrough pain in adults on maintenance opioids for chronic cancer pain; Effentora 4 Apr 2008, Instanyl 20 Jul 2009, PecFent 31 Aug 2010")) },
   resminostat: { EU: R(2025, "CHMP negative opinion 22 May 2025 on Kinselby (4SC) for advanced mycosis fungoides and Sézary syndrome") },
   tacquell: { EU: R(2026, "CHMP negative opinion 25 Jun 2026 on Tacquell (autologous TIL; applicant Netherlands Cancer Institute) for melanoma") },
+  // Proposals bot: EU rows read from the EMA register pages on 2026-09-24 (scripts/apply-proposals.ts); each note quotes the page's status line.
+  cinacalcet: { EU: W(2025, epar("mimpara"), "Mimpara: authorised 22 Oct 2004; marketing authorisation withdrawn 18 Dec 2025. EMA register: 'Withdrawn: This medicine's authorisation has been withdrawn'; checked 2026-09-24") },
+  "porfimer-sodium": { EU: W(2012, epar("photobarr"), "PhotoBarr: authorised 25 Mar 2004; marketing authorisation withdrawn 20 Apr 2012. EMA register: 'Withdrawn: This medicine's authorisation has been withdrawn'; checked 2026-09-24") },
+  celecoxib: { EU: W(2008, epar("onsenal"), "Onsenal: authorised 17 Oct 2003; marketing authorisation withdrawn 28 Nov 2008. EMA register: 'Withdrawn: This medicine's authorisation has been withdrawn'; checked 2026-09-24") },
+  trilaciclib: { EU: W(undefined, epar("zinmyleo"), "Zinmyleo (Pharmacosmos A/S): marketing authorisation application withdrawn before a Commission decision. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-09-24") },
+  plitidepsin: { EU: W(undefined, epar("aplidin"), "Aplidin (Pharma Mar S.A.): marketing authorisation application withdrawn after a CHMP opinion. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-09-24") },
+  infigratinib: { EU: W(undefined, epar("febseltiq"), "Febseltiq (Helsinn Birex Pharmaceuticals Ltd): marketing authorisation application withdrawn before a Commission decision. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-09-24") },
+  parsaclisib: { EU: W(undefined, epar("parsaclisib-incyte-biosciences-distribution-bv"), "Parsaclisib Incyte Biosciences Distribution B.V. (Incyte Biosciences Distribution B.V.): marketing authorisation application withdrawn before a Commission decision. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-09-24") },
+  eryaspase: { EU: W(undefined, epar("graspa"), "Graspa (ERYTECH Pharma S.A.): marketing authorisation application withdrawn before a Commission decision. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-09-24") },
+  "peginterferon-alfa-2b": { EU: W(undefined, epar("cylatron"), "Cylatron (SP Europe): marketing authorisation application withdrawn before a Commission decision. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-09-24") },
+  nimotuzumab: { EU: W(undefined, epar("theraloc"), "Theraloc (Oncoscience AG): marketing authorisation application withdrawn before a Commission decision. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-09-24") },
 };
 
 /** Convenience: which regions have an approval (approved or conditional). */

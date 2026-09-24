@@ -23,6 +23,8 @@
  *   npx tsx scripts/fetch-registry-status.ts --no-fetch        plan from the caches, fetching nothing
  *   npx tsx scripts/fetch-registry-status.ts --max=200         fetch up to 200 uncached records, report, write nothing
  *   npx tsx scripts/fetch-registry-status.ts --apply           fetch what is missing (up to --max), write the side file
+ *   npx tsx scripts/fetch-registry-status.ts --apply --tag=gallbladder-deep-dive   fetch only the uncached trials carrying
+ *                                                       that tag; the side file is still rebuilt from every cached trial
  *
  * Network: ClinicalTrials.gov API v2 only, one request at a time, PAUSE_MS apart, PAGE ids a request, User-Agent
  * naming OnCo. Records fetched by scripts/fetch-registry-outcomes.ts under /tmp/ctgov-cache/results are reused
@@ -40,6 +42,8 @@ const args = process.argv.slice(2);
 const apply = args.includes("--apply");
 const noFetch = args.includes("--no-fetch");
 const max = Number(args.find((a) => a.startsWith("--max="))?.slice(6) ?? 1000);
+/** Fetch only trials carrying this tag (e.g. a spike's tag); the side file is still built from every cached trial. */
+const tag = args.find((a) => a.startsWith("--tag="))?.slice(6);
 const RESULTS_CACHE = "/tmp/ctgov-cache/results";
 const STATUS_CACHE = args.find((a) => a.startsWith("--cache="))?.slice(8) ?? "/tmp/ctgov-cache/status";
 const OUT = join(process.cwd(), "src", "data", "trial-registry-status.ts");
@@ -139,8 +143,9 @@ const scope = graph().kind("trial").filter((t) => t.nct && /^NCT\d{8}$/.test(t.n
 
 async function main() {
   mkdirSync(STATUS_CACHE, { recursive: true });
-  const uncached = [...new Set(scope.filter((t) => !readCache(t.nct!)).map((t) => t.nct!))];
-  console.log(`${scope.length} trials with an NCT id; ${scope.length - uncached.length} cached, ${uncached.length} to fetch${noFetch ? " (skipped: --no-fetch)" : `, capped at ${max}`}`);
+  const fetchScope = tag ? scope.filter((t) => t.tags.includes(tag)) : scope;
+  const uncached = [...new Set(fetchScope.filter((t) => !readCache(t.nct!)).map((t) => t.nct!))];
+  console.log(`${scope.length} trials with an NCT id${tag ? ` (${fetchScope.length} tagged ${tag})` : ""}; ${fetchScope.length - uncached.length} cached, ${uncached.length} to fetch${noFetch ? " (skipped: --no-fetch)" : `, capped at ${max}`}`);
   if (!noFetch) {
     const todo = uncached.slice(0, max);
     for (let i = 0; i < todo.length; i += PAGE) {

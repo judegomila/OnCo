@@ -25,6 +25,10 @@ export type RedFlagSet = {
   drugIds?: string[];
   /** Regular expression source tested (case-insensitive) against `drug.modality`. */
   modalityRe?: string;
+  /** Cancer ids this set applies to whatever the treatment: emergencies of the disease itself (a blocked bile duct, a stent). */
+  cancerIds?: string[];
+  /** Entity ids the cards of a cancer-scoped set link to (a technology such as biliary stenting); the cancer itself when empty. */
+  concernIds?: string[];
   /** When the risk is highest, if the label states a window. */
   window?: string;
   flags: RedFlag[];
@@ -42,6 +46,12 @@ const UKONS = { label: "UKONS 24-hour triage tool", url: "https://www.ukons.org/
 const ASCO_IRAE = { label: "ASCO guideline on immune-related adverse events (2021)", url: "https://ascopubs.org/doi/10.1200/JCO.21.01440" };
 const ASTCT = { label: "ASTCT consensus grading for CRS and ICANS (2019)", url: "https://doi.org/10.1016/j.bbmt.2018.12.758" };
 const AVASTIN = { label: "Avastin (bevacizumab) US prescribing information", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125085s340lbl.pdf" };
+const NHS_SEPSIS = { label: "NHS: sepsis", url: "https://www.nhs.uk/conditions/sepsis/" };
+const NHS_VOMITING_BLOOD = { label: "NHS: vomiting blood", url: "https://www.nhs.uk/conditions/vomiting-blood/" };
+const NHS_JAUNDICE = { label: "NHS: jaundice", url: "https://www.nhs.uk/conditions/jaundice/" };
+const NHS_GB_SYMPTOMS = { label: "NHS: gallbladder cancer, symptoms", url: "https://www.nhs.uk/conditions/gallbladder-cancer/symptoms/" };
+const CRUK_STENTS = { label: "Cancer Research UK: biliary stents", url: "https://www.cancerresearchuk.org/about-cancer/bile-duct-cancer/treatment/stents" };
+const MAC_PAIN = { label: "Macmillan: pain", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/pain" };
 
 export const GENERAL_RED_FLAGS: RedFlagSet = {
   id: "general",
@@ -272,9 +282,52 @@ export const redFlagSets: RedFlagSet[] = [
       { symptom: "Rash that blisters", threshold: "Blistering or peeling skin; severe cutaneous reactions including Stevens-Johnson syndrome are labelled warnings for lenalidomide and pomalidomide.", action: "emergency", source: label("Revlimid") },
     ],
   },
+  // ---- Cancer-scoped sets: the disease's own emergencies, shown whatever the treatment (NHS 111 and 999 wording).
+  {
+    id: "biliary-cholangitis",
+    label: "Gallbladder and bile duct cancer: infection of a blocked duct or stent (cholangitis)",
+    cancerIds: ["gallbladder"],
+    concernIds: ["biliary-stenting-drainage"],
+    window: "Stents can block after a few months (Cancer Research UK); infection behind a blocked duct can become sepsis within hours, and the NHS says people having chemotherapy are at higher risk.",
+    flags: [
+      { symptom: "Signs of sepsis", threshold: "Breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed: the NHS says call 999 or go to A&E.", action: "emergency", source: NHS_SEPSIS },
+      { symptom: "High temperature or shivering with a stent or jaundice", threshold: "Cancer Research UK says to contact your doctor straight away if you have signs of infection such as a high temperature or shivering; you may need to go into hospital for antibiotics through a drip.", action: "call-now", source: CRUK_STENTS },
+    ],
+  },
+  {
+    id: "biliary-obstruction",
+    label: "Gallbladder and bile duct cancer: jaundice from a new or returning blockage",
+    cancerIds: ["gallbladder"],
+    concernIds: ["biliary-stenting-drainage"],
+    flags: [
+      { symptom: "Yellow skin or eyes, dark urine, pale stools or itching", threshold: "The NHS says ask for an urgent GP appointment or get help from NHS 111 if your skin or the white part of your eyes look yellow. With a stent in place, returning jaundice usually means the stent has blocked; it can be unblocked or replaced the way it went in.", action: "call-now", source: NHS_JAUNDICE },
+      { symptom: "Being sick for more than 2 days", threshold: "The NHS gallbladder cancer page says ask for an urgent GP appointment or get help from NHS 111 if you're being sick for more than 2 days.", action: "call-today", source: NHS_GB_SYMPTOMS },
+    ],
+  },
+  {
+    id: "biliary-bleeding",
+    label: "Gallbladder and bile duct cancer: bleeding from the gut",
+    cancerIds: ["gallbladder"],
+    flags: [
+      { symptom: "Vomiting blood or black stools", threshold: "Vomiting blood (bright red, brown, black or like coffee granules) together with feeling unwell, confused, faint or dizzy, rapid or shallow breathing, cold clammy pale skin, tummy pain or black poo: the NHS says call 999 or go to A&E. If the vomiting of blood has stopped and there are no other symptoms, ask for an urgent GP appointment or call 111.", action: "emergency", source: NHS_VOMITING_BLOOD },
+    ],
+  },
+  {
+    id: "biliary-pain",
+    label: "Gallbladder and bile duct cancer: pain that is not controlled",
+    cancerIds: ["gallbladder"],
+    flags: [
+      { symptom: "Pain the painkillers do not control", threshold: "Pain that does not settle with the medicines you have been given, or pain that is new or getting worse: Macmillan says your cancer team may ask you to contact them if you have pain or if it gets worse, and to follow their advice. New severe pain with a temperature or jaundice can mean a blocked or infected bile duct.", action: "call-now", source: MAC_PAIN },
+    ],
+  },
 ];
 
-/** Every red-flag set that applies to a product: matched by id, then by modality. `general` is not included. */
+/** Cancer-scoped sets: the emergencies of the disease itself, independent of any product. */
+export function redFlagsForCancerId(cancerId: string): RedFlagSet[] {
+  return redFlagSets.filter((s) => s.cancerIds?.includes(cancerId));
+}
+
+/** Every red-flag set that applies to a product: matched by id, then by modality. `general` and cancer-scoped sets are not included. */
 export function redFlagsFor(drugId: string, modality?: string): RedFlagSet[] {
   const m = (modality ?? "").toLowerCase();
   return redFlagSets.filter((s) => s.drugIds?.includes(drugId) || (s.modalityRe && m && new RegExp(s.modalityRe, "i").test(m)));

@@ -240,7 +240,7 @@ export function Navigator({ data }: { data: NavigatorData }) {
           {profile.mode === "caregiver" && (
             <section>
               <h2 className="text-lg font-semibold mb-2">For caregivers</h2>
-              <CaregiverPanel treatments={careTreatments} support={data.support} questions={questions} cancerName={cancer.name.replace(/\s*\(.*?\)\s*$/, "")} />
+              <CaregiverPanel treatments={careTreatments} support={data.support} questions={questions} cancerName={cancer.name.replace(/\s*\(.*?\)\s*$/, "")} cancerId={cancer.id} />
             </section>
           )}
 

@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { graph } from "./graph";
-import { GENERAL_RED_FLAGS, redFlagSets, redFlagsFor } from "@/data/red-flags";
+import { GENERAL_RED_FLAGS, redFlagSets, redFlagsFor, redFlagsForCancerId } from "@/data/red-flags";
 
 describe("red flags", () => {
   it("every set has a match rule, every flag has a source URL, and copy has no em-dashes", () => {
     for (const s of redFlagSets) {
-      expect(!!(s.drugIds?.length || s.modalityRe), s.id).toBe(true);
+      expect(!!(s.drugIds?.length || s.modalityRe || s.cancerIds?.length), s.id).toBe(true);
       expect(s.flags.length, s.id).toBeGreaterThan(0);
       if (s.modalityRe) expect(() => new RegExp(s.modalityRe as string, "i")).not.toThrow();
       for (const f of [...s.flags, ...GENERAL_RED_FLAGS.flags]) {
@@ -22,6 +22,16 @@ describe("red flags", () => {
       const e = g.get(id);
       expect(e?.kind, `${s.id}: ${id}`).toBe("drug");
     }
+  });
+
+  it("cancer-scoped sets name real cancers and link to real records", () => {
+    const g = graph();
+    for (const s of redFlagSets) {
+      for (const id of s.cancerIds ?? []) expect(g.get(id)?.kind, `${s.id}: ${id}`).toBe("cancer");
+      for (const id of s.concernIds ?? []) expect(g.get(id), `${s.id}: ${id}`).toBeDefined();
+    }
+    expect(redFlagsForCancerId("gallbladder").map((s) => s.id)).toEqual(["biliary-cholangitis", "biliary-obstruction", "biliary-bleeding", "biliary-pain"]);
+    expect(redFlagsForCancerId("tnbc")).toEqual([]);
   });
 
   it("matches the main classes by id or modality", () => {

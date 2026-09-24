@@ -41,6 +41,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/biomarkers/", label: "Biomarkers", blurb: "PD-L1 CPS, HER2 IHC 3+, MSI-high: each readout under its gene, with the thresholds approvals use and the tests that measure it." },
       { href: "/drugs/", label: "Treatments & tests", blurb: "Approved and pipeline products, with rotating molecules." },
       { href: "/pathways/", label: "Pathways", blurb: "Signalling circuits, drawn and explained." },
+      { href: "/checkpoints/", label: "Checkpoint families", blurb: "One word, two biologies: immune checkpoints on the synapse and cell-cycle gates on the ring, each member with its partner, expression, drugs and approvals." },
       { href: "/dossiers/", label: "Target dossiers", blurb: "Everything about a target on one page: biology, prevalence, hotspots, products by phase, trials, resistance, assays, models, open questions, external ids." },
       { href: "/pathway-drugs/", label: "Pathway-to-drug matrix", blurb: "Which pathway nodes have a drug, at what phase, and which druggable nodes have none." },
       { href: "/tumour-testing/", label: "Tumour sequencing tests", blurb: "BostonGene, Tempus, Foundation Medicine, Caris, Guardant and the rest side by side: tissue or blood, panel or exome, what the report returns, and regulatory status where certain." },

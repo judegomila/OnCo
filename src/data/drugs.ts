@@ -865,13 +865,13 @@ const baseDrugs: DrugInput[] = [
     links: [{ label: "FDA approval announcement (December 2024)", url: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-mesenchymal-stromal-cell-therapy-treat-steroid-refractory-acute-graft-versus-host" }],
   },
   {
-    id: "hepzato", kind: "drug", name: "Melphalan hepatic delivery system", brand: "Hepzato Kit", modality: "Liver-directed chemotherapy with percutaneous hepatic perfusion", asOf, status: "approved",
+    id: "hepzato", kind: "drug", name: "Melphalan hepatic delivery system", brand: "Hepzato Kit", modality: "Liver-directed chemotherapy with percutaneous hepatic perfusion", asOf: "2026-09-24", status: "approved",
     tldr: "High-dose melphalan pumped through the liver's own blood supply while the blood leaving the liver is filtered, the first approved treatment for uveal melanoma that has spread to the liver.",
     summary: "The Hepzato Kit combines melphalan with a percutaneous hepatic perfusion system: catheters isolate the liver's circulation, deliver a high dose of melphalan into the hepatic artery, and filter the drug out of the blood leaving the liver before it returns to the body. In the FOCUS trial in uveal melanoma with liver metastases, a cancer with few effective options, about a third of patients responded. The FDA approved it in August 2023 for adults with uveal melanoma whose unresectable liver metastases affect less than half the liver and who have no disease outside the liver, or only limited disease amenable to surgery or radiation. Bone marrow suppression, bleeding and the risks of a major procedure under general anaesthesia are the main hazards.",
     mechanism: "Regional perfusion exposes liver metastases to melphalan concentrations far above what systemic dosing allows, while extracorporeal filtration limits marrow toxicity.",
     approvals: [{ region: "US", year: 2023, indication: "Uveal melanoma with unresectable hepatic metastases affecting less than half the liver and no or limited extrahepatic disease" }],
-    cancers: ["uveal-melanoma"], companies: ["delcath"], sections: ["surgery", "chemotherapy"],
-    links: [{ label: "FDA approval (August 2023): melphalan as a liver-directed treatment for uveal melanoma", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-melphalan-liver-directed-treatment-uveal-melanoma" }],
+    cancers: ["uveal-melanoma"], companies: ["delcath"], sections: ["surgery", "chemotherapy"], trials: ["nct02678572"], keyPapers: ["paper-zager-ann-surg-oncol"],
+    links: [{ label: "FOCUS (Ann Surg Oncol 2024)", url: "https://doi.org/10.1245/s10434-024-15293-x" }, { label: "Hepzato Kit label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4f83c8f7-4cc0-4219-88d5-7cfddce91198" }, { label: "FDA approval (August 2023): melphalan as a liver-directed treatment for uveal melanoma", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-melphalan-liver-directed-treatment-uveal-melanoma" }],
   },
 ];
 

@@ -2,9 +2,10 @@ import type { CancerInput, TermInput } from "@/lib/schema";
 import type { Spike } from "./index";
 
 /**
- * GALLBLADDER CANCER: the cancer record, its subtype pages and the glossary terms they lean on (agent A of the
- * six-agent gallbladder deep dive, 24 Sept 2026). Treatment, UK pathway, molecular, evidence and living-with
- * material is written by the other files of the deep dive, which patch or link to the ids created here:
+ * GALLBLADDER CANCER: the cancer record, its subtype pages and the glossary terms they lean on (the first of the
+ * six files of the gallbladder deep dive, 24 Sept 2026; reviewed and reconciled the same day, docs/GALLBLADDER-QA.md).
+ * Treatment, UK pathway, molecular, evidence and living-with material is written by the other files of the deep
+ * dive, which patch or link to the ids created here:
  *
  *   cancer   gallbladder (parent biliary-tract-cancer; the id every other file of the deep dive keys to)
  *   subtypes gallbladder-adenocarcinoma, gallbladder-papillary-carcinoma, gallbladder-mucinous-carcinoma,
@@ -41,7 +42,7 @@ const SRC = {
   crukSurv: cruk("CRUK: gallbladder cancer survival statistics", "health-professional/cancer-statistics/statistics-by-cancer-type/gallbladder-cancer/survival"),
   crukRisk: cruk("CRUK: gallbladder cancer risk factors (professional)", "health-professional/cancer-statistics/statistics-by-cancer-type/gallbladder-cancer/risk-factors"),
   crukMain: cruk("CRUK: gallbladder cancer statistics (diagnosis routes, stage, treatment)", "health-professional/cancer-statistics/statistics-by-cancer-type/gallbladder-cancer"),
-  crukAbout: cruk("CRUK: what is gallbladder cancer", "about-cancer/gallbladder-cancer/about"),
+  crukAbout: cruk("CRUK: what is gallbladder cancer", "about-cancer/gallbladder-cancer"),
   crukTypes: cruk("CRUK: types of gallbladder cancer", "about-cancer/gallbladder-cancer/types"),
   crukStages: cruk("CRUK: stages and grades of gallbladder cancer", "about-cancer/gallbladder-cancer/stages-and-grades"),
   crukRisksPatient: cruk("CRUK: risks and causes of gallbladder cancer", "about-cancer/gallbladder-cancer/risks-causes"),
@@ -163,7 +164,7 @@ export const gallbladderCancer: CancerInput = {
     "Lymph node count and number involved (N1 one to three, N2 four or more; six or more nodes examined for a reliable N stage)",
     "Grade 1 to 3 and histological type (adenosquamous and neuroendocrine carcinomas behave worse)",
     "Lymphovascular and perineural invasion; Rokitansky-Aschoff sinus involvement in early cancers",
-    "HER2 amplification or over-expression (more frequent than in cholangiocarcinoma; the molecular page carries the figures)",
+    "HER2 amplification or over-expression (more frequent than in cholangiocarcinoma; the molecular rows below carry the figures by cohort)",
     "Mismatch repair deficiency, BRAF V600E, NTRK fusions (tumour-agnostic treatments)",
     "CA 19-9 and CEA (often raised, neither diagnostic nor reliably prognostic)",
   ],
@@ -203,8 +204,8 @@ export const gallbladderCancer: CancerInput = {
     { setting: "Diagnosis and staging", approach: "Ultrasound, contrast CT, MRI with MRCP, FDG PET-CT before radical surgery, staging laparoscopy; frozen section rather than needle biopsy when the mass is resectable.", refs: ["ultrasound", "ct", "mri", "pet-ct", "staging-laparoscopy", "tnm-staging"] },
     { setting: "Tis or T1a found in the cholecystectomy specimen", approach: "No further surgery when the cystic duct margin is clear; the simple cholecystectomy is curative in almost all cases.", refs: ["simple-cholecystectomy", "cystic-duct-margin", "gallbladder-carcinoma-in-situ-and-dysplasia"] },
     { setting: "T1b, T2 or T3 (incidental or suspected before surgery)", approach: "Radical (extended) cholecystectomy: resection of the liver bed (wedge or segments IVb and V) with portal lymphadenectomy, bile duct resection only when the cystic duct margin is positive; re-resection 4 to 8 weeks after an incidental diagnosis; port sites not routinely excised.", refs: ["radical-cholecystectomy", "segment-ivb-v-resection", "hepatectomy", "lymphadenectomy", "cystic-duct-margin", "port-site-metastasis", "incidental-gallbladder-cancer"], guideline: { version: "AHPBA consensus statement (HPB 2015)", url: "https://doi.org/10.1111/hpb.12444" } },
-    { setting: "After resection", approach: "Adjuvant capecitabine for six months (BILCAP, a mixed biliary trial that included gallbladder cancer); the treatment page carries the evidence.", refs: ["capecitabine", "bilcap"], guideline: { version: "BILCAP (Lancet Oncol 2019)", url: "https://doi.org/10.1016/S1470-2045(18)30915-X" } },
-    { setting: "Unresectable or metastatic disease", approach: "Gemcitabine and cisplatin with durvalumab (TOPAZ-1) or pembrolizumab (KEYNOTE-966); FOLFOX second line (ABC-06); zanidatamab for HER2-positive disease; molecular profiling at diagnosis. The treatment and molecular pages carry the detail.", refs: ["gemcitabine-cisplatin", "durvalumab", "pembrolizumab", "topaz-1", "keynote-966", "folfox", "abc-06", "zanidatamab", "her2"] },
+    { setting: "After resection", approach: "Adjuvant capecitabine for six months (BILCAP, a UK trial in a mixed biliary population that required muscle-invasive gallbladder cancer for entry); the BILCAP record carries the figures, and the UK CAPBIL cohort saw no matched benefit, so ACTICCA-1 is awaited.", refs: ["capecitabine", "bilcap", "acticca-1"], guideline: { version: "BILCAP (Lancet Oncol 2019)", url: "https://doi.org/10.1016/S1470-2045(18)30915-X" } },
+    { setting: "Unresectable or metastatic disease, first line", approach: "Gemcitabine and cisplatin with durvalumab (TOPAZ-1, in which 25 percent of patients had gallbladder cancer; NICE TA944) or with pembrolizumab (KEYNOTE-966; not appraised by NICE), with molecular profiling including HER2 at diagnosis and biliary drainage first if jaundiced. Second-line, HER2-directed and other targeted options follow in the rows below.", refs: ["gemcitabine-cisplatin", "durvalumab", "pembrolizumab", "topaz-1", "keynote-966", "her2"], guideline: { version: "NICE TA944 (2024)", url: "https://www.nice.org.uk/guidance/ta944" } },
     { setting: "Polyps and precursors (prevention)", approach: "Cholecystectomy for polyps of 10 mm or more, or 6 to 9 mm with a risk factor; ultrasound surveillance at 6, 12 and 24 months otherwise; no follow-up for polyps of 5 mm or less without risk factors (ESGAR, EAES, EFISDS and ESGE 2022).", refs: ["gallbladder-polyp", "porcelain-gallbladder", "anomalous-pancreaticobiliary-junction", "simple-cholecystectomy"], guideline: { version: "Joint European polyp guideline (Eur Radiol 2022)", url: "https://doi.org/10.1007/s00330-021-08384-w" } },
   ],
   stateOfArt: [
@@ -212,7 +213,7 @@ export const gallbladderCancer: CancerInput = {
     "The 8th edition split of T2 into peritoneal-side T2a and hepatic-side T2b, built on the 437-patient international series of Shindoh and colleagues, is the main staging advance of the decade and steers how much liver is removed.",
     "Incidental cancers are rising with the volume of cholecystectomies; the evidence now favours re-resection 4 to 8 weeks after the first operation, PET-CT beforehand, and no routine port-site excision.",
     "The joint European polyp guideline (2022) gives ultrasound-based rules by polyp size and risk factor, replacing ad hoc surveillance.",
-    "Immunotherapy added to gemcitabine and cisplatin is the first-line standard for advanced disease and HER2 is the most useful gallbladder-specific target; the treatment and molecular pages of this deep dive carry the trials.",
+    "Immunotherapy added to gemcitabine and cisplatin is the first-line standard for advanced disease and HER2 is the most useful gallbladder-specific target; the standard-of-care rows and the trial records linked from this page carry the evidence.",
     "The disease is under-studied on its own: most trial evidence comes from mixed biliary populations and UK statistics do not report it by stage.",
   ],
   history: [
@@ -221,12 +222,12 @@ export const gallbladderCancer: CancerInput = {
     { year: 1983, title: "Large gallstones linked to cancer", note: "Diehl's case-control study finds an odds ratio of 10.1 for stones of 3 cm or more." },
     { year: 2010, title: "Gemcitabine and cisplatin become the biliary standard", note: "ABC-02 (NEJM 2010) in a mixed biliary population including gallbladder cancer.", refs: ["abc-02", "gemcitabine-cisplatin"] },
     { year: 2010, title: "Cystic duct cancer joins gallbladder staging", note: "The AJCC 7th edition stages carcinoma of the cystic duct with gallbladder cancer.", refs: ["cystic-duct-carcinoma"] },
-    { year: 2015, title: "Hepatic-side T2 tumours shown to behave worse", note: "Shindoh and colleagues' international series (437 patients) separates peritoneal-side from hepatic-side T2 disease.", refs: ["t2a-versus-t2b"] },
-    { year: 2017, title: "AJCC and UICC 8th edition", note: "T2 is split into T2a and T2b and N stage is defined by the number of involved nodes (N1 one to three, N2 four or more).", refs: ["tnm-staging", "t2a-versus-t2b"] },
+    { year: 2015, title: "Hepatic-side T2 tumours shown to behave worse", note: "Shindoh and colleagues' international series (437 patients) separates peritoneal-side from hepatic-side T2 disease: five-year survival 42.6 versus 64.7 percent.", refs: ["t2a-versus-t2b", "paper-shindoh-t2-gallbladder-cancer-tumour-location-ann-surg-2015"] },
+    { year: 2017, title: "AJCC and UICC 8th edition", note: "T2 is split into T2a and T2b and N stage is defined by the number of involved nodes (N1 one to three, N2 four or more).", refs: ["tnm-staging", "t2a-versus-t2b", "paper-chun-ajcc-8th-edition-hepatobiliary-aso-2018"] },
     { year: 2017, title: "First genome-wide risk variants", note: "The Indian genome-wide association study finds common variants at ABCB1 and ABCB4 that raise gallbladder cancer risk." },
     { year: 2019, title: "BILCAP: adjuvant capecitabine", note: "Six months of capecitabine after resection of biliary tract cancer becomes the adjuvant standard.", refs: ["bilcap"] },
     { year: 2019, title: "WHO classification, 5th edition", note: "The digestive system volume standardises the nomenclature of gallbladder carcinoma and its precursors (biliary intraepithelial neoplasia, intracholecystic papillary neoplasm).", refs: ["gallbladder-carcinoma-in-situ-and-dysplasia"] },
-    { year: 2022, title: "Joint European polyp guideline updated", note: "ESGAR, EAES, EFISDS and ESGE set size and risk-factor rules for cholecystectomy and ultrasound follow-up.", refs: ["gallbladder-polyp"] },
+    { year: 2022, title: "Joint European polyp guideline updated", note: "ESGAR, EAES, EFISDS and ESGE set size and risk-factor rules for cholecystectomy and ultrasound follow-up.", refs: ["gallbladder-polyp", "paper-gallbladder-polyp-joint-guideline-eur-radiol-2022"] },
     { year: 2022, title: "TOPAZ-1: durvalumab added to chemotherapy", note: "First immunotherapy survival benefit in biliary tract cancer; FDA approval September 2022.", refs: ["topaz-1", "durvalumab"] },
     { year: 2023, title: "KEYNOTE-966: pembrolizumab confirms the class effect", refs: ["keynote-966", "pembrolizumab"] },
     { year: 2024, title: "Zanidatamab for HER2-positive biliary cancer", note: "FDA accelerated approval (November 2024) on HERIZON-BTC-01, in which gallbladder cancer was the largest subgroup.", refs: ["zanidatamab", "her2"] },
@@ -234,10 +235,10 @@ export const gallbladderCancer: CancerInput = {
   pipeline: ["zanidatamab", "herizon-btc-302", "trastuzumab-deruxtecan", "gemcis-plus-io-btc"],
   openProblems: [
     "No screening test and no surveillance programme even in the highest-incidence regions; ultrasound-based surveillance and cholecystectomy policies are unproven.",
-    "Whether T1b tumours need radical re-resection: meta-analyses of retrospective cohorts disagree on disease-specific benefit and no randomised trial exists.",
-    "Wedge resection versus anatomical segment IVb and V resection for T2 disease: a 2023 meta-analysis found better one-year disease-free survival but worse three-year overall survival and more complications with the anatomical resection.",
-    "Only about half of patients eligible for re-resection reach a specialist centre in the one national study that measured it; UK referral completeness is not published.",
-    "UK survival is not reported by stage and gallbladder cancer is rarely analysed separately in biliary trials.",
+    "Whether T1b tumours need radical re-resection: no randomised trial exists, meta-analyses of retrospective cohorts disagree on disease-specific benefit, and the largest international series found five-year disease-specific survival of 93.7 versus 95.5 percent after simple versus extended cholecystectomy in 237 patients (Kim 2018); bile duct excision and port-site policy rest on the same kind of series.",
+    "How much liver to remove for T2 disease: a 2023 meta-analysis found better one-year disease-free survival but worse three-year overall survival and more complications with anatomical segment IVb and V resection than with a wedge, and two meta-analyses suggest peritoneal-side (T2a) tumours may not need the liver resection at all.",
+    "Only about half of patients eligible for re-resection reached a specialist centre in the Dutch study that measured it, and two thirds had liver resection in the UK CAPBIL cohort; why the rest did not is not recorded.",
+    "UK survival and stage at diagnosis are not reported for gallbladder cancer outside Northern Ireland.",
     "Why incidence is rising in the UK while falling in the United States is not explained.",
   ],
   targets: ["her2", "pd1", "pdl1", "braf", "ntrk"], technologies: ["cytotoxic-chemotherapy", "checkpoint-inhibitor", "monoclonal-antibody", "cgp", "robotic-surgery", "biliary-stenting-drainage"],
@@ -284,7 +285,7 @@ export const gallbladderSubtypes: CancerInput[] = [
     tldr: "Adenocarcinoma is the usual form of gallbladder cancer, about nine in ten cases, starting in the mucus-making gland cells of the lining. Everything on the main gallbladder cancer page (causes, staging, surgery, chemotherapy with immunotherapy) is written about this type unless it says otherwise.",
     summary: "Adenocarcinoma of the gallbladder arises from the glandular epithelium of the mucosa, usually on a background of chronic cholecystitis and gallstones, and in the WHO classification (5th edition, 2019) is subdivided by pattern: the common biliary (pancreatobiliary) type, intestinal type, gastric foveolar, mucinous, signet-ring, clear cell, hepatoid and other rare patterns (Nagtegaal 2020; Roa 2022). Cancer Research UK uses a simpler split into non-papillary, papillary and mucinous adenocarcinoma. In the largest pathology series conventional pancreatobiliary-type adenocarcinomas had a female to male ratio of 3.9 and a mean size of 2.9 cm (Dursun 2012, in which they were the comparator for mucinous carcinoma). Grade (1 well, 2 moderate, 3 poorly differentiated), depth of invasion (T category), the T2a or T2b side, lymphovascular and perineural invasion, node number and the cystic duct margin are the pathological findings that drive treatment (CRUK stages and grades; Shindoh 2015; Aloia 2015).\n\nBecause adenocarcinoma is the type every guideline and trial assumes, its management is the main page's: simple cholecystectomy suffices for Tis and T1a, radical cholecystectomy from T1b, adjuvant capecitabine after resection (BILCAP), and gemcitabine and cisplatin with durvalumab or pembrolizumab for advanced disease (TOPAZ-1, KEYNOTE-966), with HER2-directed therapy for the HER2-positive subset. The mucinous, papillary, adenosquamous and neuroendocrine pages describe how the rarer types differ.",
     subtypes: ["Biliary (pancreatobiliary) type gallbladder adenocarcinoma, the commonest", "Intestinal-type gallbladder adenocarcinoma", "Mucinous gallbladder adenocarcinoma (own page)", "Papillary gallbladder carcinoma (own page)", "Signet-ring, clear cell and hepatoid variants (rare)"],
-    biomarkers: ["Grade 1 to 3", "T category and T2a or T2b side", "Node number (N1 one to three, N2 four or more)", "Cystic duct margin", "HER2, mismatch repair, BRAF V600E and NTRK on the molecular page"],
+    biomarkers: ["Grade 1 to 3", "T category and T2a or T2b side", "Node number (N1 one to three, N2 four or more)", "Cystic duct margin", "HER2, mismatch repair, BRAF V600E and NTRK (frequencies on the main gallbladder cancer page)"],
     standardOfCare: [
       { setting: "Resectable disease", approach: "Simple cholecystectomy for Tis and T1a; radical cholecystectomy with liver bed and portal lymphadenectomy from T1b; adjuvant capecitabine (BILCAP).", refs: ["simple-cholecystectomy", "radical-cholecystectomy", "capecitabine", "bilcap"] },
       { setting: "Advanced disease", approach: "Gemcitabine and cisplatin with durvalumab or pembrolizumab; zanidatamab for HER2-positive disease after chemotherapy.", refs: ["gemcitabine-cisplatin", "durvalumab", "pembrolizumab", "zanidatamab"] },

@@ -1,12 +1,13 @@
-import type { EntityInput, PaperInput, TermInput, TrialInput } from "@/lib/schema";
+import type { EntityInput, PairingInput, PaperInput, RoadmapInput, TermInput, TrialInput } from "@/lib/schema";
 import type { Spike } from "./index";
+import { supplement } from "../supplement";
 import { GB, asOf, ct, doi, pubmed } from "./gallbladder-evidence-shared";
 import { gallbladderSurgeryPapers } from "./gallbladder-evidence-papers-surgery";
 import { gallbladderEpidemiologyPapers } from "./gallbladder-evidence-papers-epidemiology";
 import { gallbladderIdeas, gallbladderRoadmap } from "./gallbladder-evidence-roadmap";
 
 /**
- * GALLBLADDER CANCER: EVIDENCE, HISTORY, ROADMAP AND IDEAS (agent E of the September 2026 deep dive).
+ * GALLBLADDER CANCER: EVIDENCE, HISTORY, ROADMAP AND IDEAS (the evidence file of the September 2026 deep dive).
  *
  * Every paper record carries verbatim metadata from the Europe PMC record read on 2026-09-24 (title, authors,
  * journal, year, DOI, PMID); summaries paraphrase the indexed abstract and findings quote only its figures. Where
@@ -15,18 +16,19 @@ import { gallbladderIdeas, gallbladderRoadmap } from "./gallbladder-evidence-roa
  * in the roadmap's watch list are quoted from ClinicalTrials.gov v2 records read the same day. Historical dates
  * come from indexed papers (Hardy 1993 for Langenbuch's 1882 cholecystectomy; Glenn and Hays 1954; Nevin 1976).
  *
- * The cancer this file patches is the existing `gallbladder` record (src/data/spikes/nci-rare-other.ts). If the
- * deep dive renames it or adds a `gallbladder-cancer` record, change GB below and nothing else.
+ * The cancer this file patches is the `gallbladder` record (./gallbladder-core.ts). If the record is renamed,
+ * change GB in ./gallbladder-evidence-shared.ts and nothing else.
  *
  * Papers the corpus already held are linked by id, not repeated: ABC-02, BILCAP, TOPAZ-1, KEYNOTE-966 and
  * DESTINY-PanTumor02 primaries, the HERIZON-BTC-01 primary (paper-harding-lancet-oncol) and the WHO 2019
  * digestive tumours classification (paper-who-2019-digestive-system-tumours-nagtegaal-histopathology-2020).
+ * Terms and trials that ./gallbladder-core.ts and ./gallbladder-treatment.ts define in full (radical
+ * cholecystectomy, gallbladder polyp, T2a versus T2b, HERIZON-BTC-01, NIFTY, S0809, OPT-IN, GAIN, POLCAGB,
+ * ACTICCA-1) are supplemented here, not written twice (the 24 Sept 2026 review found both versions rendering).
  */
 
 type P = Omit<PaperInput, "kind" | "asOf">;
 const p = (x: P): PaperInput => ({ kind: "paper", asOf, tags: ["gallbladder-evidence"], ...x });
-type T = Omit<TrialInput, "kind" | "asOf">;
-const t = (x: T): TrialInput => ({ kind: "trial", asOf, tags: ["gallbladder-evidence"], ...x });
 type Tm = Omit<TermInput, "kind" | "asOf">;
 const term = (x: Tm): TermInput => ({ kind: "term", asOf, ...x });
 
@@ -35,76 +37,48 @@ const HERIZON_01_PAPER = "paper-harding-lancet-oncol";
 // ======================= TERMS =======================
 const terms: TermInput[] = [
   // incidental-gallbladder-cancer is a cancer subtype record in ./gallbladder-core; references resolve to it.
-  term({ id: "radical-cholecystectomy", name: "Radical (extended) cholecystectomy", aka: ["Extended cholecystectomy", "Re-resection for gallbladder cancer", "Revision surgery", "Liver bed resection with lymphadenectomy"], category: "Procedures",
-    tldr: "The cancer operation for the gallbladder: removing the gallbladder together with a rim of liver beneath it (segments 4b and 5) and the nearby lymph nodes, and the bile duct if its margin is involved.",
-    summary: "Described by Glenn and Hays in 1954, radical cholecystectomy removes the gallbladder bed (a wedge or the anatomical segments IVb and V), clears the portal lymph nodes and, when the cystic duct margin is positive, excises the extrahepatic bile duct. For incidental cancers it is done as a second operation; observational series and the Dutch registry associate it with much longer survival (median 52.6 versus 13.7 months in unmatched comparison), and the UK CAPBIL study found 97.9 percent of liver resections were segment 4b/5 resections. Whether T1b and peritoneal-side T2a tumours need the liver resection is contested (Kim 2018; Kang 2021).",
-    cancers: [GB], terms: ["incidental-gallbladder-cancer", "hepatectomy", "lymphadenectomy", "t2a-t2b-gallbladder"], keyPapers: ["paper-de-savornin-lohman-re-resection-incidental-gallbladder-cancer-aso-2020", "paper-kim-t1b-gallbladder-cancer-international-jhbps-2018"] }),
-  term({ id: "t2a-t2b-gallbladder", name: "T2a and T2b gallbladder cancer (peritoneal side versus hepatic side)", aka: ["T2 tumour location", "Hepatic-side gallbladder cancer", "Peritoneal-side gallbladder cancer"], category: "Pathology",
-    tldr: "Since 2017 a gallbladder tumour that has reached the muscle layer is split by which side of the gallbladder it sits on: the free side facing the abdomen (T2a) does better than the side stuck to the liver (T2b).",
-    summary: "Shindoh and colleagues showed in 437 resected patients that hepatic-side T2 tumours carried more vascular, neural and nodal invasion and worse survival (five-year survival 42.6 versus 64.7 percent; hazard ratio 2.7). The eighth edition of the AJCC staging manual (2017) adopted the split as T2a (peritoneal side) and T2b (hepatic side). Meta-analyses confirm the prognostic gap (hazard ratio about 2.1 to 3.2) and suggest liver resection helps T2b but may be unnecessary for T2a, a question no randomised trial has yet answered.",
-    cancers: [GB], terms: ["tnm-staging", "radical-cholecystectomy"], keyPapers: ["paper-shindoh-t2-gallbladder-cancer-tumour-location-ann-surg-2015", "paper-kang-t2-gallbladder-cancer-location-meta-analysis-jcm-2021"] }),
-  term({ id: "gallbladder-polyp", name: "Gallbladder polyp", aka: ["Polypoid lesion of the gallbladder", "Gallbladder polypoid lesion"], category: "Clinical",
-    tldr: "A small growth on the inside wall of the gallbladder, seen on ultrasound in about one adult in twenty; nearly all are harmless, and size is the main clue to the rare ones that are not.",
-    summary: "Polypoid lesions are found on 4 to 6 percent of adult abdominal ultrasound scans. Most are cholesterol deposits or adenomyomatosis rather than true neoplasms; in a 20-year Kaiser Permanente cohort of 35,856 people with polyps the cancer rate was 11.3 per 100,000 person-years and did not differ from people without polyps, though it rose steeply above 10 mm. The 2022 joint European guideline advises cholecystectomy at 10 mm or more, at 6 to 9 mm with risk factors (age over 60, primary sclerosing cholangitis, Asian ethnicity, sessile shape), and two years of ultrasound follow-up for the rest.",
-    cancers: [GB], technologies: ["ultrasound"], terms: ["screening", "overdiagnosis"], keyPapers: ["paper-gallbladder-polyp-joint-guideline-eur-radiol-2022", "paper-szpakowski-gallbladder-polyps-20-year-cohort-jama-netw-open-2020"] }),
+  // radical-cholecystectomy, t2a-versus-t2b and gallbladder-polyp are defined in ./gallbladder-core.ts; the evidence
+  // papers behind them are attached below as supplements (see `termSupplements`).
   term({ id: "prophylactic-cholecystectomy", name: "Prophylactic (preventive) cholecystectomy", aka: ["Preventive cholecystectomy", "Chilean GES cholecystectomy programme"], category: "Epidemiology & prevention",
     tldr: "Removing a gallbladder that contains stones before it causes trouble, in the hope of preventing a cancer that almost always arises in a gallbladder with stones. Chile has run a national programme since 2006.",
     summary: "Because nearly all gallbladder cancers arise in gallbladders with stones and chronic inflammation, high-incidence countries have considered removing stone-bearing gallbladders preventively. In 2006 Chile's Explicit Health Guarantees (GES) programme guaranteed cholecystectomy for symptomatic gallstones at ages 35 to 49; by 2024 it had issued 284,139 notifications. Evaluations find national mortality falling before and after the programme and a faster fall in the targeted age group, but no clear break in the trend, and areas of high incidence are not always the areas of high uptake. Whether the operation should be targeted by region, ancestry or risk score rather than by age is the live question.",
     cancers: [GB], terms: ["screening", "overdiagnosis", "gallbladder-polyp"], institutions: ["falp-chile"], keyPapers: ["paper-samaniego-chile-ges-programme-evaluation-rev-med-chile-2024", "paper-mardones-frenz-chile-ges-mortality-rev-med-chile-2019"] }),
 ];
 
-// ======================= TRIALS (the ones the corpus lacked) =======================
-const trials: TrialInput[] = [
-  t({ id: "herizon-btc-01", name: "HERIZON-BTC-01", nct: "NCT04466891", phase: "2", status: "positive", yearReported: 2023, sponsor: "Jazz Pharmaceuticals", enrolled: 87,
-    setting: "HER2-amplified unresectable or metastatic biliary tract cancer after gemcitabine-based therapy: single-arm zanidatamab",
-    tldr: "The single-arm trial that won zanidatamab its approval: about four in ten patients with HER2-positive bile duct or gallbladder cancer responded after chemotherapy had failed.",
-    summary: "HERIZON-BTC-01 enrolled 87 patients at 32 sites in nine countries between September 2020 and March 2022; 80 were HER2 immunohistochemistry 2+ or 3+ (cohort 1). Zanidatamab 20 mg/kg every two weeks produced confirmed objective responses in 33 of 80 (41.3 percent, 95 percent CI 30.4 to 52.8) by independent central review; 18 percent had grade 3 treatment-related adverse events and there were no treatment-related deaths. It supported the FDA accelerated approval of November 2024 and is being confirmed in first line by HERIZON-BTC-302.",
-    result: "Confirmed objective response rate 41.3 percent (95 percent CI 30.4 to 52.8) in HER2-positive cohort 1.",
-    outcomes: [{ endpoint: "Confirmed objective response rate (cohort 1, central review)", primary: true, unit: "%", arms: [{ name: "Zanidatamab", n: 80, value: 41.3 }], ci: [30.4, 52.8], source: "https://doi.org/10.1016/S1470-2045(23)00242-5" }],
-    drugs: ["zanidatamab"], targets: ["her2"], technologies: ["bispecific-antibody"], cancers: [GB, "cholangiocarcinoma", "biliary-tract-cancer"], companies: ["jazz", "zymeworks", "beone"], related: ["herizon-btc-302"], keyPapers: [HERIZON_01_PAPER],
-    links: [ct("NCT04466891"), doi("10.1016/S1470-2045(23)00242-5", "Lancet Oncol 2023")] }),
-  t({ id: "nifty", name: "NIFTY", nct: "NCT03524508", phase: "2", status: "positive", yearReported: 2021, sponsor: "Asan Medical Center (Changhoon Yoo)", enrolled: 178,
-    setting: "Metastatic biliary tract cancer after gemcitabine-cisplatin: liposomal irinotecan plus fluorouracil and leucovorin vs fluorouracil and leucovorin",
-    tldr: "A Korean randomised trial in which adding liposomal irinotecan to fluorouracil lengthened the time before second-line bile duct and gallbladder cancer grew; a later German trial did not reproduce the gain.",
-    summary: "NIFTY randomised 174 analysed patients at five Korean centres (88 to liposomal irinotecan plus fluorouracil and leucovorin, 86 to fluorouracil and leucovorin) after progression on gemcitabine plus cisplatin. Median progression-free survival by blinded central review was 7.1 versus 1.4 months (hazard ratio 0.56, 95 percent CI 0.39 to 0.81). Grade 3 to 4 neutropenia was 24 versus 1 percent and serious adverse events 42 versus 24 percent. The German NALIRICC trial later found no benefit, so the regimen sits beside FOLFOX as an option rather than a standard.",
-    result: "Median progression-free survival 7.1 vs 1.4 months; hazard ratio 0.56 (95 percent CI 0.39 to 0.81).",
-    outcomes: [{ endpoint: "Progression-free survival (blinded central review)", primary: true, unit: "months", arms: [{ name: "Liposomal irinotecan + 5-FU/LV", n: 88, value: 7.1 }, { name: "5-FU/LV", n: 86, value: 1.4 }], hr: 0.56, ci: [0.39, 0.81], p: "0.0019", source: "https://doi.org/10.1016/S1470-2045(21)00486-1" }],
-    replication: "Not reproduced by NALIRICC (AIO, 2024).",
-    drugs: ["irinotecan", "fluorouracil", "leucovorin"], technologies: ["cytotoxic-chemotherapy"], cancers: [GB, "cholangiocarcinoma", "biliary-tract-cancer"], institutions: ["asan-medical-center"], people: ["ghassan-abou-alfa"], related: ["naliricc", "abc-06"],
-    links: [ct("NCT03524508"), doi("10.1016/S1470-2045(21)00486-1", "Lancet Oncol 2021")] }),
-  t({ id: "swog-s0809", name: "SWOG S0809", nct: "NCT00789958", phase: "2", status: "completed", yearReported: 2015, sponsor: "SWOG Cancer Research Network", enrolled: 105,
-    setting: "Resected extrahepatic cholangiocarcinoma or gallbladder cancer (pT2 to 4, node-positive or margin-positive): adjuvant gemcitabine-capecitabine then capecitabine with radiotherapy",
-    tldr: "The only prospective trial of chemotherapy followed by radiotherapy after gallbladder or bile duct surgery: two in three patients were alive at two years, even when the margin had been involved, but with no comparison group the benefit is unproven.",
-    summary: "S0809 treated 79 eligible patients (68 percent extrahepatic cholangiocarcinoma, 32 percent gallbladder cancer; 54 R0, 25 R1) with four cycles of gemcitabine and capecitabine followed by 45 Gy to the regional nodes and 54 to 59.4 Gy to the tumour bed with concurrent capecitabine. Two-year survival was 65 percent (95 percent CI 53 to 74), 67 percent after R0 and 60 percent after R1 resection; median overall survival was 35 months. Grade 3 and 4 adverse effects occurred in 52 and 11 percent. It is the evidence behind guideline options for chemoradiation after R1 or node-positive resection, and no phase 3 has followed it.",
-    result: "Two-year overall survival 65 percent (95 percent CI 53 to 74); median overall survival 35 months.",
-    outcomes: [{ endpoint: "Two-year overall survival", primary: true, unit: "%", arms: [{ name: "Gemcitabine-capecitabine then chemoradiation (all)", n: 79, value: 65 }, { name: "R0 subgroup", n: 54, value: 67 }, { name: "R1 subgroup", n: 25, value: 60 }], ci: [53, 74], source: "https://doi.org/10.1200/JCO.2014.60.2219" }],
-    drugs: ["gemcitabine", "capecitabine"], technologies: ["cytotoxic-chemotherapy"], terms: ["chemoradiation", "radiotherapy"], cancers: [GB, "extrahepatic-cholangiocarcinoma"], institutions: ["swog"], related: ["bilcap", "polcagb"],
-    links: [ct("NCT00789958"), doi("10.1200/JCO.2014.60.2219", "J Clin Oncol 2015")] }),
-  t({ id: "opt-in", name: "OPT-IN (EA2197)", nct: "NCT04559139", phase: "2/3", status: "active", sponsor: "ECOG-ACRIN Cancer Research Group", enrolled: 186,
-    setting: "Incidental gallbladder cancer after cholecystectomy (T2 to T3): gemcitabine-cisplatin before and after re-resection vs re-resection then adjuvant chemotherapy",
-    tldr: "A US trial asking whether people whose gallbladder cancer was found by chance should have chemotherapy before their second operation rather than only after it.",
-    summary: "OPT-IN randomises patients with incidentally found T2 to T3 gallbladder cancer to perioperative gemcitabine and cisplatin (before and after radical re-resection) or to re-resection followed by adjuvant chemotherapy. The registry lists an estimated 186 participants, a start date of 24 February 2021, a status of active but not recruiting and an estimated primary completion date of 1 July 2028. It is the first randomised test of the neoadjuvant idea for incidental cancer in a Western population.",
-    drugs: ["gemcitabine-cisplatin"], terms: ["incidental-gallbladder-cancer", "neoadjuvant-adjuvant", "radical-cholecystectomy"], cancers: [GB], institutions: ["ecog-acrin"], related: ["gain-igbc"],
-    links: [ct("NCT04559139"), doi("10.1245/s10434-021-10277-7", "Trial in progress, Ann Surg Oncol 2022")] }),
-  t({ id: "gain-igbc", name: "GAIN (AIO/CALGP/ACO)", nct: "NCT03673072", phase: "3", status: "completed", sponsor: "Krankenhaus Nordwest", enrolled: 68,
-    setting: "Incidental gallbladder cancer before re-resection, and resectable cholangiocarcinoma: three cycles of gemcitabine-cisplatin before and after surgery vs surgery first",
-    tldr: "A German phase 3 of chemotherapy before the second operation for incidental gallbladder cancer that closed in October 2024 with 68 of a planned 333 participants; its report will show how much a small trial can say.",
-    summary: "GAIN, built on the German Registry of Incidental Gallbladder Carcinoma, planned 333 patients randomised to three cycles of gemcitabine and cisplatin before and after radical surgery or to surgery alone with therapy of the investigator's choice; the primary endpoint was overall survival. Recruitment began in August 2019. ClinicalTrials.gov records an actual enrolment of 68 and completion on 10 October 2024, so the trial closed well short of its target and its result will be underpowered.",
-    drugs: ["gemcitabine-cisplatin"], terms: ["incidental-gallbladder-cancer", "neoadjuvant-adjuvant"], cancers: [GB, "cholangiocarcinoma"], institutions: ["krankenhaus-nordwest"], related: ["opt-in"], keyPapers: ["paper-gain-trial-protocol-bmc-cancer-2020"],
-    links: [ct("NCT03673072"), doi("10.1186/s12885-020-6610-4", "Protocol, BMC Cancer 2020")] }),
-  t({ id: "polcagb", name: "POLCAGB", nct: "NCT02867865", phase: "2/3", status: "active", sponsor: "Tata Memorial Hospital", enrolled: 124,
-    setting: "Locally advanced (T3 to T4) gallbladder cancer: neoadjuvant chemoradiotherapy vs neoadjuvant gemcitabine-based chemotherapy before attempted resection",
-    tldr: "An Indian randomised trial asking whether adding radiotherapy to chemotherapy before surgery shrinks locally advanced gallbladder cancer enough to help people live longer.",
-    summary: "POLCAGB, run at Tata Memorial Hospital in Mumbai, randomises biopsy-proven locally advanced (T3 to T4) gallbladder cancer without metastases to gemcitabine-based chemotherapy alone or to chemoradiation, with overall survival as the primary endpoint. The protocol planned 314 patients to detect a 5.5-month gain in median survival (11 months in the control arm, hazard ratio 0.7). The registry lists 124 actual participants, a status of active but not recruiting, an estimated primary completion date of 10 September 2025 and study completion of 10 September 2027. It is registered with the Clinical Trials Registry India as CTRI/2016/08/007199.",
-    drugs: ["gemcitabine"], terms: ["chemoradiation", "neoadjuvant-adjuvant", "radiotherapy"], cancers: [GB], institutions: ["tata-memorial"], keyPapers: ["paper-polcagb-protocol-bmj-open-2019"],
-    links: [ct("NCT02867865"), doi("10.1136/bmjopen-2018-028147", "Protocol, BMJ Open 2019")] }),
-  t({ id: "acticca-1", name: "ACTICCA-1", nct: "NCT02170090", phase: "3", status: "active", sponsor: "Universitaetsklinikum Hamburg-Eppendorf", enrolled: 789,
-    setting: "Resected cholangiocarcinoma and muscle-invasive gallbladder cancer: adjuvant gemcitabine-cisplatin vs standard of care (capecitabine after the BILCAP amendment)",
-    tldr: "The large European trial that will say whether the two-drug chemotherapy used for advanced disease beats capecitabine tablets as the treatment after surgery for bile duct and gallbladder cancer.",
-    summary: "ACTICCA-1 opened in April 2014 comparing adjuvant gemcitabine and cisplatin with observation, and after BILCAP reported its control arm became capecitabine. The registry lists 789 actual participants, a status of active but not recruiting, and an estimated primary completion date of December 2025 (last updated 30 March 2025). Its readout is the next thing that could change adjuvant care for gallbladder cancer, where BILCAP's evidence is borrowed from a mixed biliary population.",
-    drugs: ["gemcitabine-cisplatin", "capecitabine"], terms: ["neoadjuvant-adjuvant"], cancers: [GB, "cholangiocarcinoma", "biliary-tract-cancer"], related: ["bilcap"],
-    links: [ct("NCT02170090")] }),
+// ======================= SUPPLEMENTS: evidence attached to terms and trials other files define in full =======================
+// Arrays append and de-duplicate on merge; scalars (tldr, summary, setting) stay with the full record (./gallbladder-core.ts,
+// ./gallbladder-treatment.ts). Figures unique to this file's reading travel as notes.
+const termSupplements: TermInput[] = [
+  supplement<TermInput>({ id: "radical-cholecystectomy", kind: "term", aka: ["Revision surgery", "Liver bed resection with lymphadenectomy"],
+    notes: ["Evidence: the Dutch registry associates re-resection with far longer survival in an unmatched comparison (median 52.6 versus 13.7 months; de Savornin Lohman 2020), and in the UK CAPBIL study 97.9 percent of liver resections for incidental cancer were segment 4b/5 resections (McClements 2026). Whether T1b and peritoneal-side T2a tumours need the liver resection is contested (Kim 2018; Kang 2021)."],
+    terms: ["t2a-versus-t2b"], keyPapers: ["paper-de-savornin-lohman-re-resection-incidental-gallbladder-cancer-aso-2020", "paper-kim-t1b-gallbladder-cancer-international-jhbps-2018", "paper-mcclements-capbil-incidental-gallbladder-cancer-bjs-2026", "paper-pawlik-incidental-gallbladder-cancer-residual-disease-jgs-2007", "paper-ethun-re-resection-timing-incidental-gallbladder-cancer-jama-surg-2017", "paper-selvakumar-revision-surgery-timing-ipd-meta-analysis-hpb-2026"] }),
+  supplement<TermInput>({ id: "t2a-versus-t2b", kind: "term", aka: ["T2 tumour location", "Hepatic-side gallbladder cancer", "Peritoneal-side gallbladder cancer"],
+    notes: ["Evidence: five-year survival 42.6 versus 64.7 percent for hepatic-side versus peritoneal-side T2 tumours in Shindoh's 437 patients (hazard ratio 2.7); meta-analyses put the prognostic gap at a hazard ratio of about 2.1 to 3.2 and suggest liver resection helps T2b but may be unnecessary for T2a (Kang 2021; Khan 2021), a question no randomised trial has yet answered."],
+    keyPapers: ["paper-shindoh-t2-gallbladder-cancer-tumour-location-ann-surg-2015", "paper-kang-t2-gallbladder-cancer-location-meta-analysis-jcm-2021", "paper-khan-t2-gallbladder-cancer-liver-resection-meta-analysis-updates-surg-2021", "paper-lee-t2-gallbladder-cancer-surgical-strategy-aso-2015", "paper-chun-ajcc-8th-edition-hepatobiliary-aso-2018"] }),
+  supplement<TermInput>({ id: "gallbladder-polyp", kind: "term", aka: ["Gallbladder polypoid lesion"], technologies: ["ultrasound"], terms: ["screening", "overdiagnosis"],
+    notes: ["Natural history: polypoid lesions are found on 4 to 6 percent of adult abdominal ultrasound scans, and in a 20-year Kaiser Permanente cohort of 35,856 people with polyps the cancer rate was 11.3 per 100,000 person-years and did not differ from people without polyps, though it rose steeply above 10 mm (Szpakowski 2020); in the Dutch pathology archive the 1 cm threshold sorted neoplastic from non-neoplastic polyps only moderately well (Wennmacker 2019)."],
+    keyPapers: ["paper-gallbladder-polyp-joint-guideline-eur-radiol-2022", "paper-szpakowski-gallbladder-polyps-20-year-cohort-jama-netw-open-2020", "paper-wennmacker-gallbladder-polyp-size-threshold-surg-endosc-2019", "paper-elmasry-gallbladder-polyp-malignancy-systematic-review-int-j-surg-2016"] }),
+];
+
+// The trial records themselves live in ./gallbladder-treatment.ts (with UK sites, outcomes and NICE positions); this
+// file attaches the paper records, institutions and cross-references its reading produced.
+const trialSupplements: TrialInput[] = [
+  supplement<TrialInput>({ id: "herizon-btc-01", kind: "trial", keyPapers: [HERIZON_01_PAPER, "paper-angerilli-her2-gallbladder-extrahepatic-concordance-hum-pathol-2026"] }),
+  supplement<TrialInput>({ id: "nifty", kind: "trial", people: ["ghassan-abou-alfa"], related: ["abc-06"], keyPapers: ["paper-nifty-liposomal-irinotecan-lancet-oncol-2021"] }),
+  supplement<TrialInput>({ id: "swog-s0809", kind: "trial", institutions: ["swog"], related: ["bilcap", "polcagb"], keyPapers: ["paper-swog-s0809-adjuvant-chemoradiation-jco-2015", "paper-wang-adjuvant-chemoradiotherapy-nomogram-gallbladder-cancer-jco-2011"] }),
+  supplement<TrialInput>({ id: "opt-in", kind: "trial", terms: ["neoadjuvant-adjuvant"], institutions: ["ecog-acrin"], related: ["gain-igbc"], keyPapers: ["paper-varshney-neoadjuvant-incidental-gallbladder-cancer-systematic-review-ahbps-2025"],
+    links: [doi("10.1245/s10434-021-10277-7", "Trial in progress, Ann Surg Oncol 2022")] }),
+  supplement<TrialInput>({ id: "gain-igbc", kind: "trial", terms: ["neoadjuvant-adjuvant"], institutions: ["krankenhaus-nordwest"], related: ["opt-in"], keyPapers: ["paper-gain-trial-protocol-bmc-cancer-2020", "paper-varshney-neoadjuvant-incidental-gallbladder-cancer-systematic-review-ahbps-2025"] }),
+  supplement<TrialInput>({ id: "polcagb", kind: "trial", terms: ["neoadjuvant-adjuvant"], keyPapers: ["paper-polcagb-protocol-bmj-open-2019"],
+    notes: ["Registered with the Clinical Trials Registry India as CTRI/2016/08/007199; study completion is listed for 10 September 2027."] }),
+  supplement<TrialInput>({ id: "acticca-1", kind: "trial", terms: ["neoadjuvant-adjuvant"], related: ["bilcap"], keyPapers: ["paper-mcclements-capbil-surgical-outcomes-gallbladder-cancer-hpb-2026"] }),
   // ARTEMIDE-Biliary01 is the existing registry record nct06109779 (pipeline-trials-wave6.ts); references point there.
+];
+
+/** Records owned by other files that mention gallbladder cancer without linking to it (backlinks found in the 24 Sept 2026 review). */
+const backlinkSupplements: Spike["supplements"] = [
+  { id: "gemcis-plus-io-btc", cancers: [GB] } satisfies { id: string } & Partial<PairingInput>,
+  { id: "ctdna-tests", cancers: [GB] } satisfies { id: string } & Partial<RoadmapInput>,
 ];
 
 
@@ -118,7 +92,7 @@ const guidelines: PaperInput[] = [
     findings: ["No abstract is indexed on Europe PMC; recommendations are read from the guideline itself."],
     whatItMeans: "This is the reference European standard against which UK and NHS practice for gallbladder cancer is compared; it treats gallbladder cancer within biliary tract cancer rather than as its own disease.",
     caveats: ["Gallbladder cancer recommendations are largely extrapolated from mixed biliary trials.", "Published before the zanidatamab approvals of 2024 and 2025."],
-    links: [doi("10.1016/j.annonc.2022.10.506", "Ann Oncol 2023"), pubmed("36372281"), { label: "ESMO guidelines: gastrointestinal cancers", url: "https://www.esmo.org/guidelines/guidelines-by-topic/gastrointestinal-cancers" }],
+    links: [doi("10.1016/j.annonc.2022.10.506", "Ann Oncol 2023"), pubmed("36372281"), { label: "ESMO guidelines: gastrointestinal cancers", url: "https://www.esmo.org/guidelines/esmo-clinical-practice-guidelines-gastrointestinal-cancers" }],
     cancers: [GB, "cholangiocarcinoma", "biliary-tract-cancer"], institutions: ["esmo"], people: ["john-primrose", "juan-valle"], journals: ["annals-of-oncology"], related: ["esmo-guidelines"] }),
   p({ id: "paper-nccn-biliary-tract-cancers-v2-2025-jnccn-2025", name: "Biliary Tract Cancers, Version 2.2025, NCCN Clinical Practice Guidelines In Oncology",
     tldr: "The 2025 summary of the US NCCN guideline for gallbladder and bile duct cancers, focused on what to give after surgery.",
@@ -136,7 +110,7 @@ const guidelines: PaperInput[] = [
     journal: "Gut", year: 2023, doi: "10.1136/gutjnl-2023-330029", pmid: "37770126",
     authors: "Rushbrook SM, Kendall TJ, Zen Y, et al.", paperType: "guideline", changedPractice: true,
     findings: ["Multidisciplinary UK guideline for cholangiocarcinoma with patient representation and AGREE II grading; gallbladder cancer is outside its stated scope."],
-    whatItMeans: "For a UK patient with gallbladder cancer the nearest national guideline is about a neighbouring disease; the gap is one the UK layer of this deep dive should name.",
+    whatItMeans: "For a UK patient with gallbladder cancer the nearest national guideline is about a neighbouring disease; the UK and NHS page for gallbladder cancer names the gap.",
     caveats: ["Scope is cholangiocarcinoma, not gallbladder cancer.", "Guidance rather than protocol, by the authors' own framing."],
     links: [doi("10.1136/gutjnl-2023-330029", "Gut 2023"), pubmed("37770126")],
     cancers: ["cholangiocarcinoma", GB], people: ["juan-valle"], related: ["paper-esmo-biliary-tract-cancer-guideline-ann-oncol-2023"] }),
@@ -231,37 +205,35 @@ const ROADMAP = "gallbladder-cancer-roadmap";
 // ======================= SPIKE =======================
 const spike: Spike = {
   cancerId: GB,
-  entities: [...terms, ...trials, ...gallbladderEvidencePapers, gallbladderRoadmap, ...gallbladderIdeas] as EntityInput[],
+  entities: [...terms, ...termSupplements, ...trialSupplements, ...gallbladderEvidencePapers, gallbladderRoadmap, ...gallbladderIdeas] as EntityInput[],
+  supplements: backlinkSupplements,
   patch: {
-    // History entries are dated from the indexed papers linked in the roadmap; the existing 1777 and 1954 entries stay.
+    // History entries are dated from the indexed papers linked in the roadmap. The 2015 Shindoh, 2017 AJCC and 2022 polyp
+    // guideline entries live in ./gallbladder-core.ts (with these papers as refs), so they are not repeated here.
     history: [
       { year: 1882, title: "Carl Langenbuch performs the first cholecystectomy", note: "Lazarus Hospital, Berlin, July 1882 (Hardy 1993; Traverso 1976). The operation for gallstones through which most gallbladder cancers are still discovered.", refs: ["radical-cholecystectomy", "incidental-gallbladder-cancer"] },
       { year: 1976, title: "Nevin stages gallbladder cancer by depth of invasion", note: "Sixty-six cases and 399 from the literature; essentially all found incidentally at gallstone surgery.", refs: ["paper-nevin-gallbladder-carcinoma-staging-cancer-1976", "tnm-staging"] },
       { year: 2006, title: "Chile guarantees preventive cholecystectomy for gallstones at ages 35 to 49", note: "The GES programme, the world's only national prophylactic cholecystectomy policy against gallbladder cancer; 284,139 notifications by 2024.", refs: ["prophylactic-cholecystectomy", "paper-samaniego-chile-ges-programme-evaluation-rev-med-chile-2024"] },
       { year: 2007, title: "Residual disease found in 46 percent of re-resections for incidental cancer", note: "Pawlik and colleagues, six centres, 115 patients: the observational basis for re-resecting T1b or deeper tumours.", refs: ["paper-pawlik-incidental-gallbladder-cancer-residual-disease-jgs-2007", "radical-cholecystectomy"] },
-      { year: 2015, title: "Hepatic-side T2 tumours shown to do worse than peritoneal-side", note: "Shindoh and colleagues, 437 patients: five-year survival 42.6 vs 64.7 percent.", refs: ["paper-shindoh-t2-gallbladder-cancer-tumour-location-ann-surg-2015", "t2a-t2b-gallbladder"] },
       { year: 2015, title: "SWOG S0809: the only prospective adjuvant chemoradiation trial", note: "79 patients, two-year survival 65 percent; no randomised trial has followed.", refs: ["swog-s0809", "paper-swog-s0809-adjuvant-chemoradiation-jco-2015"] },
-      { year: 2017, title: "AJCC eighth edition splits T2 into T2a and T2b", refs: ["paper-chun-ajcc-8th-edition-hepatobiliary-aso-2018", "t2a-t2b-gallbladder"] },
       { year: 2017, title: "Re-resection at four to eight weeks associated with longest survival", note: "Ethun and colleagues, ten US centres, 207 patients; a 2026 individual patient data meta-analysis found no difference by timing.", refs: ["paper-ethun-re-resection-timing-incidental-gallbladder-cancer-jama-surg-2017", "paper-selvakumar-revision-surgery-timing-ipd-meta-analysis-hpb-2026"] },
       { year: 2021, title: "ABC-06 published: second-line FOLFOX", note: "Median overall survival 6.2 vs 5.3 months; one-year survival 25.9 vs 11.4 percent. NIFTY (liposomal irinotecan) published the same year.", refs: ["abc-06", "paper-abc-06-folfox-second-line-lancet-oncol-2021", "nifty"] },
-      { year: 2022, title: "European gallbladder polyp guideline updated", note: "Cholecystectomy at 10 mm, or 6 to 9 mm with risk factors; two years of ultrasound follow-up otherwise.", refs: ["paper-gallbladder-polyp-joint-guideline-eur-radiol-2022", "gallbladder-polyp"] },
       { year: 2023, title: "HERIZON-BTC-01 published; ESMO biliary tract cancer guideline", note: "Zanidatamab response rate 41.3 percent in HER2-positive disease after chemotherapy.", refs: ["herizon-btc-01", "paper-harding-lancet-oncol", "paper-esmo-biliary-tract-cancer-guideline-ann-oncol-2023"] },
       { year: 2025, title: "TOPAZ-1 three-year update; ctDNA residual disease shown prognostic after biliary resection", note: "36-month survival 14.6 vs 6.9 percent with durvalumab. Residual disease hazard ratios of 26 (2025) and 15.86 (2026) in two cohorts.", refs: ["paper-topaz-1-three-year-survival-j-hepatol-2025", "paper-yu-ctdna-early-recurrence-biliary-tract-cancer-jco-po-2025", "paper-malla-ctdna-resected-biliary-tract-cancer-esmo-gi-onc-2026"] },
       { year: 2026, title: "CAPBIL: first UK nationwide gallbladder cancer cohorts", note: "285 incidental cancers and 516 operated patients across 24 centres, 2014 to 2022; 67.7 percent of incidental cancers had liver resection.", refs: ["paper-mcclements-capbil-incidental-gallbladder-cancer-bjs-2026", "paper-mcclements-capbil-surgical-outcomes-gallbladder-cancer-hpb-2026"] },
     ],
     pipeline: ["opt-in", "gain-igbc", "polcagb", "acticca-1", "nct06109779", ...gallbladderIdeas.map((i) => i.id)],
     openProblems: [
-      "Whether T1b tumours need re-resection at all (five-year disease-specific survival 93.7 vs 95.5 percent with simple vs extended cholecystectomy in 237 patients) and whether peritoneal-side T2a tumours need the liver resection.",
       "Adjuvant capecitabine's benefit is borrowed from BILCAP's mixed population; the UK CAPBIL cohort saw none in matched analysis. ACTICCA-1 and ARTEMIDE-Biliary01 are the tests.",
       "Residual disease blood tests are strongly prognostic after biliary resection but no trial acts on them.",
       "Prevention in high-incidence regions: Chile's prophylactic cholecystectomy programme has run since 2006 without an evaluable design; typhoid carriers have never been offered a trial.",
     ],
-    terms: ["incidental-gallbladder-cancer", "radical-cholecystectomy", "t2a-t2b-gallbladder", "gallbladder-polyp", "prophylactic-cholecystectomy"],
+    terms: ["incidental-gallbladder-cancer", "radical-cholecystectomy", "t2a-versus-t2b", "gallbladder-polyp", "prophylactic-cholecystectomy"],
     trials: ["herizon-btc-01", "nifty", "swog-s0809", "opt-in", "gain-igbc", "polcagb", "acticca-1", "nct06109779"],
     related: [ROADMAP, "cholangiocarcinoma", "ampullary"],
     links: [
       { label: "ESMO Clinical Practice Guideline: biliary tract cancer (Ann Oncol 2023)", url: "https://doi.org/10.1016/j.annonc.2022.10.506" },
-      { label: "Joint European guideline on gallbladder polyps (Eur Radiol 2022)", url: "https://doi.org/10.1007/s00330-021-08384-w" },
+      // The polyp guideline (Foley 2022) is already among the core record's links.
       { label: "CAPBIL: incidental gallbladder cancer in the UK (Br J Surg 2026)", url: "https://doi.org/10.1093/bjs/znag050" },
     ],
   },

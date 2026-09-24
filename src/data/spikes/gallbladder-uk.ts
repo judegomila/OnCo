@@ -11,8 +11,8 @@ import type { Spike } from "./index";
  * now, the UK trial legacy, the charities and the benefits, and where the four nations differ. No figure is
  * remembered: each carries the page it was read from. Where a page could not be read, the gap is named.
  *
- * The cancer record is `gallbladder` (src/data/spikes/nci-rare-other.ts, parent `biliary-tract-cancer`), extended by
- * another spike; this one adds the UK institutions and people and the `ukPathway` keyed to that id.
+ * The cancer record is `gallbladder` (./gallbladder-core.ts, parent `biliary-tract-cancer`); this file adds the UK
+ * institutions and people and the `ukPathway` keyed to that id.
  */
 const asOf = "2026-09-24";
 
@@ -31,8 +31,8 @@ const S = {
   spec2260: { label: "NHS England service specification 2260: HPB, primary liver, secondary liver, perihilar biliary tract and gallbladder cancers (September 2024)", url: "https://www.england.nhs.uk/wp-content/uploads/2024/09/2260-hpb-liver-service-specification.pdf", date: "2024-09" },
   spec2260Page: { label: "NHS England: service specification, HPB liver, biliary tract and gallbladder cancers", url: "https://www.england.nhs.uk/publication/service-specification-hpb-primary-liver-secondary-liver-perihilar-biliary-tract-and-gallbladder-cancers/", date: "2024-09" },
   npaca: { label: "National Pancreatic Cancer Audit 2025, methodology supplement, Table 7: trust codes for HPB specialist centres", url: "https://www.natcan.org.uk/wp-content/uploads/2025/11/NPaCA-SotN-2025-Methodology-Supplement.pdf", date: "2025-11" },
-  pcuk: { label: "Pancreatic Cancer UK: your local specialist centre (covers pancreatic, liver, gallbladder and bile duct cancers)", url: "https://www.pancreaticcancer.org.uk/support-for-you/your-care/your-local-pancreatic-cancer-specialist-centre/", date: "2025-11" },
-  ammfCentres: { label: "AMMF: UK centres with cholangiocarcinoma expertise", url: "https://ammf.org.uk/centres-with-cca-expertise/", date: "2023-03" },
+  pcuk: { label: "Pancreatic Cancer UK: your local specialist centre (covers pancreatic, liver, gallbladder and bile duct cancers)", url: "https://www.pancreaticcancer.org.uk/information-and-support/your-care/your-local-pancreatic-cancer-specialist-centre/", date: "2025-11" },
+  ammfCentres: { label: "AMMF: UK centres with cholangiocarcinoma expertise", url: "https://ammf.org.uk/second-opinions-and-liver-disease-centres/", date: "2023-03" },
   niceBtc: { label: "NICE: all guidance on biliary tract cancers", url: "https://www.nice.org.uk/guidance/conditions-and-diseases/cancer/biliary-tract-cancers/products", date: "2026-09-24" },
   girft: { label: "GIRFT: pancreatic cancer national specialty report (November 2025); no gallbladder report exists", url: "https://gettingitrightfirsttime.co.uk/medical_specialties/pancreatic-cancer/", date: "2025-11" },
   genotes: { label: "NHS Genomics Education Programme, GeNotes: patient with biliary tract cancer (reviewed 24 February 2025)", url: "https://www.genomicseducation.hee.nhs.uk/genotes/in-the-clinic/presentation-patient-with-biliary-tract-cancer/", date: "2025-02-24" },
@@ -41,7 +41,7 @@ const S = {
   bsg: { label: "British Society of Gastroenterology guidelines for the diagnosis and management of cholangiocarcinoma (Gut 2023;73:16-46)", url: "https://europepmc.org/article/MED/37770126", date: "2023-12-07" },
   phsCwt: { label: "Public Health Scotland: cancer waiting times, 1 January to 31 March 2026", url: "https://publichealthscotland.scot/publications/cancer-waiting-times/cancer-waiting-times-1-january-to-31-march-2026/", date: "2026" },
   walesScp: { label: "Welsh Government: suspected cancer pathway quality report", url: "https://www.gov.wales/suspected-cancer-pathway-quality-report-html" },
-  walesScpNetwork: { label: "NHS Wales Performance and Improvement: Suspected Cancer Pathway", url: "https://performanceandimprovement.nhs.wales/functions/networks-and-planning/cancer/workstreams/suspected-cancer-pathway/" },
+  walesScpNetwork: { label: "NHS Wales Performance and Improvement: Suspected Cancer Pathway", url: "https://performanceandimprovement.nhs.wales/our-work/cancer/workstreams/suspected-cancer-pathway/" },
   niCwt: { label: "Department of Health (Northern Ireland): cancer waiting times", url: "https://www.health-ni.gov.uk/articles/cancer-waiting-times" },
   niCwtQ1: { label: "Department of Health (Northern Ireland): cancer waiting time statistics, January to March 2026", url: "https://www.health-ni.gov.uk/news/publication-northern-ireland-cancer-waiting-time-statistics-january-march-2026", date: "2026" },
   smcSearch: { label: "Scottish Medicines Consortium: medicines advice, cholangiocarcinoma", url: "https://scottishmedicines.org.uk/medicines-advice/?keywords=cholangiocarcinoma", date: "2026-09-24" },
@@ -52,11 +52,11 @@ const S = {
   abc06: { label: "Lamarca et al, second-line FOLFOX chemotherapy versus active symptom control for advanced biliary tract cancer (ABC-06), Lancet Oncology 2021", url: "https://doi.org/10.1016/S1470-2045(21)00027-9", date: "2021-05" },
   bilcap: { label: "Primrose et al, Capecitabine compared with observation in resected biliary tract cancer (BILCAP), Lancet Oncology 2019", url: "https://doi.org/10.1016/S1470-2045(18)30915-X", date: "2019-05" },
   bilcapIsrctn: { label: "ISRCTN72785446: BILCAP", url: "https://www.isrctn.com/ISRCTN72785446" },
-  medex: { label: "NHS Business Services Authority: medical exemption certificates", url: "https://www.nhsbsa.nhs.uk/exemption-certificates/medical-exemption-certificates" },
+  medex: { label: "NHS Business Services Authority: medical exemption certificates", url: "https://www.nhsbsa.nhs.uk/help-nhs-prescription-costs/medical-exemption-certificates" },
   htcs: { label: "NHS: Healthcare Travel Costs Scheme", url: "https://www.nhs.uk/nhs-services/help-with-health-costs/healthcare-travel-costs-scheme-htcs/" },
   pip: { label: "GOV.UK: Personal Independence Payment", url: "https://www.gov.uk/pip" },
   aa: { label: "GOV.UK: Attendance Allowance", url: "https://www.gov.uk/attendance-allowance" },
-  macGrants: { label: "Macmillan Grants", url: "https://www.macmillan.org.uk/cancer-information-and-support/get-help/financial-help/macmillan-grants" },
+  macGrants: { label: "Macmillan Grants", url: "https://www.macmillan.org.uk/cancer-information-and-support/get-help/financial-and-work/macmillan-grants" },
 } satisfies Record<string, UkSource>;
 
 const nice = (ta: number) => `https://www.nice.org.uk/guidance/ta${ta}`;
@@ -188,7 +188,7 @@ export const gallbladderUkPathway: UkPathway = {
     { institutionId: "southampton-cancer", name: "University Hospital Southampton", trust: "University Hospital Southampton NHS Foundation Trust", city: "Southampton", nation: "England", offers: ["HPB surgery", "BILCAP lead centre"], url: "https://www.uhs.nhs.uk/", sources: [S.npaca, S.ammfCentres, S.bilcapIsrctn] },
     { institutionId: "oxford-cancer", name: "Churchill Hospital", trust: "Oxford University Hospitals NHS Foundation Trust", city: "Oxford", nation: "England", offers: ["HPB surgery", "ATTR-01 and biliary microbiome study site"], url: "https://www.ouh.nhs.uk/", sources: [S.npaca] },
     { institutionId: "nottingham-cancer-centre", name: "Queen's Medical Centre", trust: "Nottingham University Hospitals NHS Trust", city: "Nottingham", nation: "England", offers: ["HPB surgery for Nottingham, Mansfield, Lincolnshire and Derby"], url: "https://www.nuh.nhs.uk/", sources: [S.npaca, S.pcuk] },
-    { institutionId: "leicester-cancer-research-centre", name: "Leicester General Hospital", trust: "University Hospitals of Leicester NHS Trust", city: "Leicester", nation: "England", offers: ["HPB surgery", "BILCAP site"], url: "https://www.leicestershospitals.nhs.uk/", sources: [S.npaca] },
+    { institutionId: "leicester-cancer-research-centre", name: "Leicester General Hospital", trust: "University Hospitals of Leicester NHS Trust", city: "Leicester", nation: "England", offers: ["HPB surgery", "BILCAP site"], url: "https://www.uhleicester.nhs.uk/", sources: [S.npaca] },
     { institutionId: "weston-park-sheffield", name: "Sheffield Teaching Hospitals", trust: "Sheffield Teaching Hospitals NHS Foundation Trust", city: "Sheffield", nation: "England", offers: ["HPB surgery (Northern General and Royal Hallamshire)", "Oncology at Weston Park"], url: "https://www.sth.nhs.uk/", sources: [S.npaca, S.pcuk] },
     { institutionId: "bristol-haematology-oncology-centre", name: "Bristol Royal Infirmary", trust: "University Hospitals Bristol and Weston NHS Foundation Trust", city: "Bristol", nation: "England", offers: ["HPB surgery", "Oncology at the Bristol Haematology and Oncology Centre"], url: "https://www.uhbw.nhs.uk/", sources: [S.npaca, S.pcuk] },
     { institutionId: "derriford-plymouth", name: "Derriford Hospital", trust: "University Hospitals Plymouth NHS Trust", city: "Plymouth", nation: "England", offers: ["HPB surgery for Devon, Cornwall and the Isles of Scilly"], url: "https://www.plymouthhospitals.nhs.uk/", sources: [S.npaca, S.pcuk] },
@@ -214,7 +214,7 @@ export const gallbladderUkPathway: UkPathway = {
       scotland: { body: "SMC", decision: "Accepted for use within NHSScotland (end of life and orphan equivalent process)", ref: "SMC2582", date: "2023-11-13", url: smc("durvalumab-imfinzi-full-smc2582") },
       wales: "Follows NICE TA944.", northernIreland: "Follows NICE TA944." },
     { line: "Advanced, first line (alternative)", treatment: "Gemcitabine and cisplatin with pembrolizumab (KEYNOTE-966)", refs: ["gemcitabine-cisplatin", "pembrolizumab", "keynote-966"],
-      england: { body: "NICE", decision: "Not available: appraisal terminated because Merck Sharp and Dohme made no evidence submission", ref: "TA966", date: "2024-04-24", url: nice(966) },
+      england: { body: "NICE", decision: "Not available: appraisal terminated because Merck Sharp and Dohme made no evidence submission", ref: "TA966", date: "2024-04-24", url: "https://www.nice.org.uk/guidance/terminated/ta966" },
       scotland: { body: "SMC", decision: "Not recommended: non-submission by the company", ref: "SMC2683", date: "2024-06-10", url: smc("pembrolizumab-keytruda-non-sub-smc2683") },
       wales: "Not available (no NICE recommendation).", northernIreland: "Not available.", note: "Durvalumab is the funded immunotherapy partner across the UK." },
     { line: "Advanced, second line (no target)", treatment: "FOLFOX (oxaliplatin, fluorouracil, folinic acid) after gemcitabine-cisplatin (ABC-06)", refs: ["folfox", "oxaliplatin", "abc-06"],
@@ -305,7 +305,7 @@ export const gallbladderUkPathway: UkPathway = {
   ],
   nations: [
     { topic: "Waiting-time standards", england: "28-day Faster Diagnosis Standard (75%, 80% by March 2026); 31 days from decision to treat (96%); 62 days from referral to first treatment (85%, planning target 75% by March 2026).", scotland: "62 days from urgent suspicion of cancer referral to first treatment and 31 days from decision to treat, both set at 95%; 72.2% met the 62-day standard in January to March 2026.", wales: "Single Suspected Cancer Pathway: 62 days from the point of suspicion to first definitive treatment, target 75% (the clock starts at suspicion, not referral).", northernIreland: "31 days from decision to treat (98%) and 62 days from urgent GP referral (95%); performance is published quarterly by the Department of Health.", sources: [S.cwt2023, S.planning2526, S.phsCwt, S.walesScp, S.walesScpNetwork, S.niCwt, S.niCwtQ1] },
-    { topic: "Who decides drug funding", england: "NICE technology appraisals; the Cancer Drugs Fund for managed access; NHS England commissions.", scotland: "Scottish Medicines Consortium; all five biliary medicines it has assessed are accepted (pemigatinib, durvalumab, ivosidenib, futibatinib, pembrolizumab for MSI-high); zanidatamab pending.", wales: "Follows NICE appraisals; the All Wales Medicines Strategy Group appraises medicines NICE has not.", northernIreland: "The Department of Health endorses NICE appraisals for the HSC.", sources: [S.niceBtc, S.smcSearch] },
+    { topic: "Who decides drug funding", england: "NICE technology appraisals; the Cancer Drugs Fund for managed access; NHS England commissions.", scotland: "Scottish Medicines Consortium; five biliary medicines are accepted (pemigatinib, durvalumab, ivosidenib, futibatinib, pembrolizumab for MSI-high), pembrolizumab with chemotherapy was not recommended after a non-submission (SMC2683), and zanidatamab is pending.", wales: "Follows NICE appraisals; the All Wales Medicines Strategy Group appraises medicines NICE has not.", northernIreland: "The Department of Health endorses NICE appraisals for the HSC.", sources: [S.niceBtc, S.smcSearch] },
     { topic: "Genomic testing route", england: "National Genomic Test Directory, seven Genomic Laboratory Hubs (codes M220.1, M220.5, M220.6, M232).", scotland: "Scottish Genomic Test Directory; four regional laboratories in Aberdeen, Dundee, Edinburgh and Glasgow.", wales: "All Wales Medical Genomics Service.", northernIreland: "Northern Ireland Regional Molecular Diagnostics Service, Belfast.", sources: [S.testDirectory, S.genotesDevolved] },
     { topic: "Where surgery happens", england: "Specialised HPB cancer centres commissioned by NHS England under specification 2260 (catchment of at least two million; 150 liver operations a year).", scotland: "Regional networks: Glasgow Royal Infirmary (West), Royal Infirmary of Edinburgh (South East), Aberdeen, Dundee and Inverness (North).", wales: "Morriston Hospital, Swansea for South Wales; North Wales patients go to Liverpool; some mid-Wales patients to Stoke-on-Trent.", northernIreland: "One HPB service in the Belfast Trust.", sources: [S.spec2260, S.pcuk] },
     { topic: "Cancer statistics", england: "National Disease Registration Service (NDRS): Cancer Registration Statistics, England.", scotland: "Public Health Scotland cancer incidence publications.", wales: "Welsh Cancer Intelligence and Surveillance Unit; stage for gallbladder cancer is not reported because numbers are small.", northernIreland: "Northern Ireland Cancer Registry (Queen's University Belfast); reports stage for gallbladder cancer.", sources: [S.ndrs2023, S.crukStats] },
@@ -345,7 +345,7 @@ const spike: Spike = {
   patch: {
     institutions: ["ammf", "kings-college-hospital-london", "liverpool-hpb-centre", "royal-free-hospital", "birmingham-cancer-centre", "leeds-cancer-centre", "newcastle-cancer-centre", "southampton-cancer"],
     links: [
-      { label: "Cancer Research UK: gallbladder cancer statistics", url: CRUK },
+      // The Cancer Research UK statistics page is already among the core record's links under its own label.
       { label: "NICE: guidance on biliary tract cancers", url: S.niceBtc.url },
       { label: "AMMF, the UK cholangiocarcinoma charity", url: "https://ammf.org.uk/" },
     ],

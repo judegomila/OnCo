@@ -8,7 +8,8 @@ import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
 import { regionalApprovals, REGION_META } from "@/data/regional-approvals";
 import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
-import { IN_ASOF, IN_COMPANIES, IN_DOING, IN_DRUGS, IN_INSTITUTIONS, IN_PAPERS, IN_PAYING, IN_PEOPLE, IN_PROFILE, IN_REGULATOR, IN_TRIALS, type CountryCard } from "@/data/country-in";
+import { IN_ASOF, IN_COMPANIES, IN_DOING, IN_DRUGS, IN_GALLBLADDER, IN_INSTITUTIONS, IN_PAPERS, IN_PAYING, IN_PEOPLE, IN_PROFILE, IN_REGULATOR, IN_TRIALS, type CountryCard } from "@/data/country-in";
+import { siteRatesFor, geographyRoute, topCountries } from "@/lib/cancer-geography";
 
 export const metadata: Metadata = pageMeta({
   title: "Cancer in India",
@@ -69,6 +70,10 @@ export default function IndiaPage() {
   const inApproved = g.kind("drug").filter((d) => { const r = regionalApprovals[d.id]?.IN; return r && (r.status === "approved" || r.status === "conditional"); });
 
   const profile = sitesForCountry(GLOBOCAN, "IND");
+  // Gallbladder cancer by sex: the per-site GLOBOCAN file behind /cancers/gallbladder/#geography (src/lib/cancer-geography.ts).
+  const gbRates = siteRatesFor("gallbladder");
+  const gbTopWomen = gbRates ? topCountries(gbRates, 10, "women") : [];
+  const gbIndiaRank = gbRates ? topCountries(gbRates, 200, "women").findIndex((r) => r.iso3 === "IND") + 1 : 0;
   const all = profile ? GLOBOCAN.countries.IND?.data?.["39"] : undefined;
   const topSites = profile ? profile.sites.filter((s) => s.cases !== null && s.label !== "Non-melanoma skin cancer").slice(0, 12) : [];
   const extra = countryExtras.IN;
@@ -89,7 +94,7 @@ export default function IndiaPage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#paying", "Paying for care"], ["#regulator", "Regulator"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#doing", "What is being done"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#gallbladder", "Gallbladder cancer"], ["#paying", "Paying for care"], ["#regulator", "Regulator"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#doing", "What is being done"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year} estimates, rendered from the corpus data file</span>}>
@@ -102,6 +107,27 @@ export default function IndiaPage() {
               </div>
               <StaticTable rows={siteRows} columns={SITE_COLUMNS} noun="sites" defaultSort={{ key: "cases", dir: -1 }} />
               <p className="mt-3 text-xs text-muted">Source: {GLOBOCAN.citation} <a href={GLOBOCAN.sourceUrl} className="underline" rel="noopener">{GLOBOCAN.sourceUrl}</a>. ASR = age-standardised rate per 100,000 (World standard). Estimates, not registry counts; see the registry card for how India counts cancer. Compare countries on the <Link href="/cases/" className="underline">cases by country</Link> page.</p>
+            </div>
+          )}
+        </Section>
+
+        <Section id="gallbladder" title="Gallbladder cancer: India's most uneven map" aside={<Link href={geographyRoute("gallbladder")} className="text-sm underline">World map by country and sex →</Link>}>
+          <Cards cards={IN_GALLBLADDER} />
+          {gbRates && (
+            <div className="mt-6 card p-5">
+              <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
+                <h3 className="font-semibold">Where India sits, GLOBOCAN {gbRates.year}</h3>
+                <span className="text-xs text-muted">Age-standardised incidence per 100,000, women; fetched {gbRates.fetched}</span>
+              </div>
+              <ol className="grid gap-1 sm:grid-cols-2 text-sm">
+                {gbTopWomen.map((r, i) => (
+                  <li key={r.iso3} className={`flex items-baseline justify-between gap-2 rounded px-2 py-1 ${r.iso3 === "IND" ? "bg-accent-soft font-medium" : ""}`}>
+                    <span><span className="tabular-nums text-muted text-xs me-2">{i + 1}</span><Link href={`/cases/?country=${r.iso3}`} className="hover:underline">{r.name}</Link></span>
+                    <span className="tabular-nums">{r.asr.toFixed(2)}</span>
+                  </li>
+                ))}
+              </ol>
+              <p className="mt-3 text-xs text-muted">India&apos;s national estimate ({gbRates.countries.IND?.women[1]} in women, {gbRates.countries.IND?.both[1]} in both sexes) ranks {gbIndiaRank} of {Object.keys(gbRates.countries).length} countries; the registries above show why a national average hides the Gangetic belt. Source: {gbRates.citation} <a href={gbRates.sourceUrl} className="underline" rel="noopener">{gbRates.sourceUrl}</a>; the full table by sex, with the regions, programmes and sources, is on the <Link href={geographyRoute("gallbladder")} className="underline">cancer page</Link> and in its <a href="/api/v1/cancers/gallbladder/geography.json" className="underline" type="application/json">JSON companion</a>.</p>
             </div>
           )}
         </Section>

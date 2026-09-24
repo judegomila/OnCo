@@ -51,6 +51,7 @@
     "bench:score": "tsx scripts/benchmark-score.ts",
     "fetch:countries": "tsx scripts/fetch-countries.ts",
     "fetch:globocan": "tsx scripts/fetch-globocan.ts",
+    "fetch:globocan:site": "tsx scripts/fetch-globocan-site.ts",
     "fetch:papers": "tsx scripts/fetch-papers.ts",
     "freshness": "tsx scripts/freshness.ts",
     "freshness:check": "tsx scripts/freshness.ts --check",

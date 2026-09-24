@@ -76,6 +76,8 @@ import { RegionStrip } from "./RegionMatrix";
 import { RegistryCheck } from "./RegistryCheck";
 import { regionalApprovals } from "@/data/regional-approvals";
 import { CountryCasesMini } from "./CountryCasesMini";
+import { CancerGeographySection } from "./CancerGeographySection";
+import { geographyFor } from "@/lib/cancer-geography";
 import { CancerIcon } from "./CancerIcon";
 import { RouteIcon } from "./RouteIcon";
 import { ResearchOutput } from "./ResearchOutput";
@@ -843,7 +845,7 @@ function cancerTabs(c: Cancer): Tab[] {
         <Field label="Group"><Tip title={`${c.group[0].toUpperCase()}${c.group.slice(1)} cancers`} text={`All ${c.group} cancers in OnCo, filtered in the cancers table.`} href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}><Link className="capitalize underline decoration-dotted decoration-foreground/30 underline-offset-[3px]" href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}>{c.group}</Link></Tip></Field>
       </div>
       <div className="mt-6"><WhatIsBeingDone topic="late-diagnosis" cancerId={c.id} compact /></div>
-      <Block title="Cases by country"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
+      {geographyFor(c.id) ? <CancerGeographySection c={c} /> : <Block title="Cases by country"><CountryCasesMini cancerId={c.id} limit={10} /></Block>}
       {spreadFor(c.id) && (
         <GentleSection className="mt-8" title={SPREAD_LABELS.fold} why={SPREAD_LABELS.why} reassurance={SPREAD_LABELS.reassurance} kicker={<TL text="Advanced disease" />}>
           <div className="grid *:min-w-0 gap-6 lg:grid-cols-[300px_1fr]">

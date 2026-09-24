@@ -139,10 +139,55 @@ export const IN_DOING: CountryCard[] = [
   },
 ];
 
+/**
+ * Gallbladder cancer: India's most striking cancer geography, added 2026-09-24 with the gallbladder deep spike. Registry
+ * rates are read from the NCRP 2020 report chapters (gall bladder is published with the bile ducts, C23-C24); the
+ * GLOBOCAN national figures render live on /cancers/gallbladder/#geography, whose map and sources this section links.
+ */
+export const IN_GALLBLADDER: CountryCard[] = [
+  {
+    id: "gallbladder-burden",
+    title: "One gallbladder cancer in six worldwide is Indian, and most of them are on the Ganges",
+    plain: "Gallbladder cancer is rare in the West and in the south of India, but common across the north, the north-east, the centre and the east. GLOBOCAN 2022 estimates 21,780 cases and 16,407 deaths a year in India, about a sixth of the world's 122,491 cases; the national rate looks modest (1.51 per 100,000, nineteenth in the world) only because the south and west dilute it. Patients are younger than in the West, mostly in their fifties and sixties, and two thirds are women.",
+    detail: "The National Cancer Registry Programme's report for 2012-2016 ranks Kamrup urban (Guwahati, Assam) first of 28 population-based registries for gallbladder and biliary tract cancer, with age-adjusted rates of 16.2 per 100,000 in women and 7.9 in men, then Cachar district (11.9 and 5.6), Delhi (11.6 and 5.4) and, in women, Papumpare (10.7). Delhi registered 12,410 gallbladder cancers between 1988 and 2012 (8,400 in women), 6 percent of all its cancers in 2012, with rates rising in both sexes after 2004; the NCRP trend chapter gives Delhi men a 4.2 percent annual rise and Dibrugarh men 10.8 percent. Being born in a high-risk region carries an odds ratio of 4.82 that persists after moving south (1.36), pointing at an early environmental exposure. Dutta and colleagues put India's share of the global burden at about 10 percent; GLOBOCAN's count-based share is higher.",
+    links: [
+      { label: "NCRP 2020 report, Chapter 5, Fig. 5.12: gall bladder (C23-C24) by registry", url: "https://ncdirindia.org/All_Reports/Report_2020/resources/Chapter5ComparisonofcancerincidenceandpatternsofallPopulationBasedCancerRegistries.pdf" },
+      { label: "NCRP 2020 report, Chapter 13: trends in cancer incidence", url: "https://ncdirindia.org/All_Reports/Report_2020/resources/Chapter13TrendsinCancerIncidence.pdf" },
+      { label: "Malhotra et al, Gallbladder cancer incidence in Delhi urban: a 25-year trend analysis (Indian J Cancer 2017)", url: "https://europepmc.org/article/MED/30082556" },
+      { label: "Mhatre et al, Place of birth and risk of gallbladder cancer in India (Indian J Cancer 2016)", url: "https://europepmc.org/article/MED/28071634" },
+      { label: "Dutta et al, Epidemiology of gallbladder cancer in India (Chin Clin Oncol 2019)", url: "https://europepmc.org/article/MED/31484488" },
+      { label: "GLOBOCAN 2022 (IARC Cancer Today), gallbladder by country and sex", url: "https://gco.iarc.who.int/today" },
+    ],
+  },
+  {
+    id: "gallbladder-why",
+    title: "Why here: gallstones, typhoid, mustard oil, water and poverty acting together",
+    plain: "Gallstones are found in about eight in ten Indian patients, but the cancer is far commoner than the stones alone explain. Chronic Salmonella Typhi infection, Helicobacter, adulterated mustard oil, unsafe drinking water, heavy metals and low income each add to the risk of a gallbladder already inflamed by stones, and they cluster in the same poor river-plain districts.",
+    detail: "In north-east India a population attributable fraction of 65.2 percent was calculated for gallstone disease among 391 patients, with heavy alcohol adding 20.9 percent; smokeless tobacco (50 percent), betel nut (57 percent), tubewell water (66 percent) and mustard oil (96 percent) were near-universal exposures for which no global risk estimate exists. The Tata Memorial case-control programme of 1,170 cases found high mustard oil consumption associated with the cancer in both the high-risk (odds ratio 1.33) and low-risk (3.01) regions, with leafy vegetables, fruit, onion and garlic protective. A gallstones-matched study from northern India found illiteracy, poverty, infrequent bowel movements, tap or hand-pump water and multiparity as risk factors. The Indian genome-wide association study found common variants at the bile transporter genes ABCB1 and ABCB4.",
+    links: [
+      { label: "Thomas et al, Gallbladder cancer risk factors in Northeast India: population attributable fractions (J Clin Exp Hepatol 2026)", url: "https://europepmc.org/article/MED/41684861" },
+      { label: "Mhatre et al, Mustard oil consumption, cooking method, diet and gallbladder cancer risk (Int J Cancer 2020)", url: "https://europepmc.org/article/MED/32142159" },
+      { label: "Mishra et al, Risk factors for gallbladder cancer development in northern India (Indian J Med Res 2021)", url: "https://europepmc.org/article/MED/35532588" },
+      { label: "Mhatre et al, Common genetic variation and risk of gallbladder cancer in India (Lancet Oncol 2017)", url: "https://doi.org/10.1016/s1470-2045(17)30167-5" },
+    ],
+  },
+  {
+    id: "gallbladder-doing",
+    title: "What India is doing: the only randomised trials of pre-operative treatment, and the registries that count",
+    plain: "India runs the world's only randomised trials asking whether treatment before surgery helps gallbladder cancer: POLCAGB at Tata Memorial (chemoradiation versus chemotherapy before surgery), NEOGB at the Rajiv Gandhi Cancer Institute (chemotherapy before surgery, 114 patients) and RUGB (chemoradiation for cancers that cannot be removed, 249 patients). Tata Memorial keeps a hospital-based gallbladder cancer registry, and the ICMR's registry network is what makes the Kamrup and Delhi rates visible at all.",
+    detail: "The trials, the centres (Tata Memorial and its Varanasi hospital on the Ganges, AIIMS Delhi, PGIMER Chandigarh, the Rajiv Gandhi Cancer Institute) and the papers are pulled from the corpus by id in the sections below and on the cancer page. There is no screening programme for gallbladder cancer in India, as nowhere else; the prevention levers the geography points at (removing gallbladders with large stones, treating typhoid carriers, cutting aflatoxin and mustard oil adulteration) have case-control support and no trial. The cancer page's geography section holds the world map by sex, the Chilean prevention programme for comparison and the named gaps.",
+    links: [
+      { label: "Gallbladder cancer: where it happens (OnCo map by country and sex)", url: "/cancers/gallbladder/#geography" },
+      { label: "Patkar et al, Hospital-based gallbladder cancer registry, Tata Memorial (Cancer Epidemiol 2025)", url: "https://doi.org/10.1016/j.canep.2025.102958" },
+      { label: "ICMR-NCDIR, National Cancer Registry Programme report 2020", url: "https://ncdirindia.org/All_Reports/Report_2020/default.aspx" },
+    ],
+  },
+];
+
 /** Entity ids to render from the graph, in display order. Missing ids are skipped at render time. */
 export const IN_INSTITUTIONS = ["tata-memorial", "actrec", "national-cancer-grid", "homi-bhabha-cancer-hospital-varanasi", "aiims-delhi", "aiims-network", "cancer-institute-adyar", "kidwai-memorial-institute-of-oncology", "rgci", "tata-medical-center-kolkata", "cmc-vellore", "pgimer-chandigarh", "apollo-hospitals", "hcg", "max-healthcare", "narayana-health", "iit-bombay", "iisc", "ncbs", "instem", "icmr", "icmr-ncrp", "icmr-nicpr", "dbt-india", "cdsco", "nha-pmjay"];
 export const IN_COMPANIES = ["biocon", "biocon-biologics", "dr-reddys", "sun-pharma", "natco", "cipla", "zydus", "lupin", "intas", "glenmark", "hetero", "aurigene", "immunoact", "immuneel", "cellogen", "serum-institute-of-india", "syngene", "jubilant-radiopharma"];
 export const IN_DRUGS = ["talicabtagene-autoleucel", "varnimcabtagene-autoleucel", "cervavac", "isb-2001", "trastuzumab-biosimilars"];
-export const IN_TRIALS = ["low-dose-nivolumab-tmh", "metronomic-vs-cisplatin-tmh", "metro-plus-varanasi", "lidocaine-peritumoral-tmh", "progesterone-preop-tmh", "gefitinib-chemo-tmh", "elective-neck-dissection-tmh", "olanzapine-appetite-tmh", "osmanabad-hpv-screening", "mumbai-via-screening", "kerala-oral-screening", "iarc-india-hpv-dose-study", "talicel-phase-1-2", "imagine-varnimcabtagene"];
-export const IN_PAPERS = ["paper-patil-low-dose-nivolumab-jco-2023", "paper-sankaranarayanan-hpv-screening-nejm-2009", "paper-basu-single-dose-hpv-lancet-oncol-2021", "paper-sankaranarayanan-oral-screening-lancet-2005", "paper-dcruz-elective-neck-dissection-nejm-2015", "paper-jain-talicabtagene-lancet-haem-2025", "paper-badwe-progesterone-jco-2011", "paper-mathur-ncrp-cancer-statistics-2020", "paper-pramesh-ncg-pooled-procurement-2023"];
+export const IN_TRIALS = ["polcagb", "neogb", "rugb", "low-dose-nivolumab-tmh", "metronomic-vs-cisplatin-tmh", "metro-plus-varanasi", "lidocaine-peritumoral-tmh", "progesterone-preop-tmh", "gefitinib-chemo-tmh", "elective-neck-dissection-tmh", "olanzapine-appetite-tmh", "osmanabad-hpv-screening", "mumbai-via-screening", "kerala-oral-screening", "iarc-india-hpv-dose-study", "talicel-phase-1-2", "imagine-varnimcabtagene"];
+export const IN_PAPERS = ["paper-dutta-gallbladder-cancer-epidemiology-india-chin-clin-oncol-2019", "paper-patkar-tata-memorial-gallbladder-cancer-registry-cancer-epidemiol-2025", "paper-patil-low-dose-nivolumab-jco-2023", "paper-sankaranarayanan-hpv-screening-nejm-2009", "paper-basu-single-dose-hpv-lancet-oncol-2021", "paper-sankaranarayanan-oral-screening-lancet-2005", "paper-dcruz-elective-neck-dissection-nejm-2015", "paper-jain-talicabtagene-lancet-haem-2025", "paper-badwe-progesterone-jco-2011", "paper-mathur-ncrp-cancer-statistics-2020", "paper-pramesh-ncg-pooled-procurement-2023"];
 export const IN_PEOPLE = ["gupta-sudeep", "pramesh-c-s", "badwe-rajendra", "prabhash-kumar", "patil-vijay", "noronha-vanita", "chaturvedi-pankaj", "shastri-surendra", "dcruz-anil", "raina-vinod", "shanta-v", "sankaranarayanan-rengaswamy", "basu-partha", "mazumdar-shaw-kiran", "purwar-rahul", "jain-hasmukh", "narula-gaurav", "kapoor-akhil", "mathur-prashant", "shetty-devi", "ajaikumar-b-s"];

@@ -1,0 +1,44 @@
+src/components/CancerIcon.tsx
+  s_0beac9cb5d78fd::t_fff22f8f9d5aa0 270-271
+  s_0beac9cb5d78fd::t_d13e7f7506b9bd 269
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_c52a0def4ed0a9 39,45
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_3c891715320d3a 81-90,92-105
+  s_0beac9cb5d78fd::t_fb882042eba9c5 50-51
+src/data/spikes/gallbladder-core.ts
+  s_0beac9cb5d78fd::t_b342ac465c4815 123,278,294,309,323,337,352,371,387,402,415,421,427,433,439,445,451,457,463,469,477
+  s_0beac9cb5d78fd::t_5da020167681b1 459
+  s_0beac9cb5d78fd::t_2ba00111450ad2 462
+  s_0beac9cb5d78fd::t_683d73b522b657 252
+  s_0beac9cb5d78fd::t_07ca87854eb997 441
+  s_0beac9cb5d78fd::t_1a612e0617a4d7 124
+  s_0beac9cb5d78fd::t_bb0320b4670a82 340
+  s_0beac9cb5d78fd::t_492d4911ca2f8a 468
+  s_0beac9cb5d78fd::t_16190eaad7ff55 19-20
+  s_0beac9cb5d78fd::t_d2a8d363dfd1b3 1-8,10-18,21-122,125-144,146-220,222-225,227-251,253-277,279-293,295-308,310-322,324-336,338-339,341-351,353-370,372-386,388-401,403-414,416-420,422-426,428-432,434-438,440,442-444,446-450,452-456,458,460-461,464-467,470-476,478-479
+  s_0beac9cb5d78fd::t_ebc5ab453abd5f 145
+  s_0beac9cb5d78fd::t_b53f7eb10e5918 221
+  s_0beac9cb5d78fd::t_d04273618af6a6 9
+  s_0beac9cb5d78fd::t_447928da679c4f 226
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_8c12cc3b6a5592 123
+src/lib/cancer-families.test.ts
+  s_0beac9cb5d78fd::t_8b9fb3aab05a6e 24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a347840168aaea75a4226e21bdb39858ce9d252b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

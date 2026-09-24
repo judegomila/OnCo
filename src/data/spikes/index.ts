@@ -47,7 +47,8 @@ import multipleMyeloma from "./multiple-myeloma";
 import hodgkin from "./hodgkin-lymphoma";
 import sarcoma from "./sarcoma";
 import neuroblastoma from "./neuroblastoma";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma];
+import gallbladderCore from "./gallbladder-core";
+const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, gallbladderCore];
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's
@@ -70,8 +71,6 @@ function mergeDuplicates(list: EntityInput[]): EntityInput[] {
   return [...byId.values()] as EntityInput[];
 }
 
-export const spikeEntities: EntityInput[] = mergeDuplicates(spikes.flatMap((s) => s.entities.map((e) => (e.kind === "trial" && TRIAL_OUTCOMES[e.id] ? { ...e, ...TRIAL_OUTCOMES[e.id] } : e))));
-
 const ARRAY_FIELDS = ["aka", "links", "tags", "related", "cancers", "sections", "technologies", "targets", "drugs", "companies", "institutions", "pathways", "terms", "trials", "notes", "subtypes", "biomarkers", "standardOfCare", "stateOfArt", "history", "pipeline", "openProblems"] as const;
 
 function dedupe<T>(arr: T[]): T[] {
@@ -79,19 +78,29 @@ function dedupe<T>(arr: T[]): T[] {
   return arr.filter((x) => { const k = typeof x === "string" ? x : JSON.stringify(x); if (seen.has(k)) return false; seen.add(k); return true; });
 }
 
-export function mergeSpikes(cancers: CancerInput[]): CancerInput[] {
-  return cancers.map((c) => {
-    const patches = spikes.filter((s) => s.cancerId === c.id).map((s) => s.patch);
-    if (!patches.length) return c;
-    const out: Record<string, unknown> = { ...c };
-    for (const p of patches) {
-      for (const [k, v] of Object.entries(p)) {
-        if (v === undefined) continue;
-        if ((ARRAY_FIELDS as readonly string[]).includes(k) && Array.isArray(v)) out[k] = dedupe([...((out[k] as unknown[]) ?? []), ...v]);
-        else out[k] = v;
-      }
+/** Folds every registered patch for `c.id` into the record: scalars override, array fields append and de-duplicate. */
+function applyPatches(c: CancerInput): CancerInput {
+  const patches = spikes.filter((s) => s.cancerId === c.id).map((s) => s.patch);
+  if (!patches.length) return c;
+  const out: Record<string, unknown> = { ...c };
+  for (const p of patches) {
+    for (const [k, v] of Object.entries(p)) {
+      if (v === undefined) continue;
+      if ((ARRAY_FIELDS as readonly string[]).includes(k) && Array.isArray(v)) out[k] = dedupe([...((out[k] as unknown[]) ?? []), ...v]);
+      else out[k] = v;
     }
-    if (Array.isArray(out.history)) (out.history as Array<{ year: number | string }>).sort((a, b) => Number(a.year) - Number(b.year));
-    return out as CancerInput;
-  });
+  }
+  if (Array.isArray(out.history)) (out.history as Array<{ year: number | string }>).sort((a, b) => Number(a.year) - Number(b.year));
+  return out as CancerInput;
+}
+
+/**
+ * Cancer records created by a deep dive (gallbladder cancer lives in ./gallbladder-core, not in cancers.ts) receive
+ * the patches other deep dives register for them, the same way the shared cancers.ts records do.
+ */
+export const spikeEntities: EntityInput[] = mergeDuplicates(spikes.flatMap((s) => s.entities.map((e) => (e.kind === "trial" && TRIAL_OUTCOMES[e.id] ? { ...e, ...TRIAL_OUTCOMES[e.id] } : e))))
+  .map((e) => (e.kind === "cancer" ? applyPatches(e) : e));
+
+export function mergeSpikes(cancers: CancerInput[]): CancerInput[] {
+  return cancers.map(applyPatches);
 }

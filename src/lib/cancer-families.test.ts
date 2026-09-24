@@ -21,6 +21,7 @@ const PARENT_PHRASES: Record<string, RegExp> = {
   nsclc: /lung cancer|non-small-cell/i,
   sarcoma: /sarcoma/i,
   "biliary-tract-cancer": /biliary|bile duct/i,
+  gallbladder: /gallbladder/i,
   thyroid: /thyroid/i,
   "vascular-tumours": /vascular|blood vessel/i,
   glioblastoma: /glioma|glioblastoma|brain tumour/i,

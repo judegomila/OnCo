@@ -1,0 +1,11 @@
+src/data/radiation-wave3.ts
+  ai_agent 18,21-22
+src/data/issues-2026-09-wave-a.ts
+  ai_agent 137-148,211-220
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2d243217f96cc36c740958195646751eb5b9b9f7",
+  "prompts": {}
+}

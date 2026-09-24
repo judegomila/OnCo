@@ -17,6 +17,7 @@ export const navPt: NavDict = {
   "/biomarker-matrix/": ["Matriz de biomarcadores", "Cada biomarcador contra cada cancro: produtos aprovados na sua região versus ensaios, numa só grelha."],
   "/calculators/": ["Calculadoras", "Superfície corporal, Calvert, clearance de creatinina, CAN, cálcio corrigido, RECIST 1.1, dose de antraciclinas, doses por bandas."],
   "/interactions/": ["Interações", "Escolha dois ou mais fármacos e veja os pares assinalados: CYP3A4, QT, IBP, P-gp, hemorragia, mais alertas de alimentos e órgãos."],
+  "/tools/": ["Auxílios de decisão", "Responda a algumas perguntas sobre o seu relatório e leia a recomendação da diretriz que se aplica, citada com a fonte: pólipos da vesícula, cancro da vesícula incidental, cancros comparados."],
   "/irae/": ["Guia de irAE", "Toxicidade dos inibidores de checkpoint por órgão e grau: suspensão, corticoides, escalada, reintrodução. Imprimível."],
   "/tumor-board/": ["Reunião de tumores", "Assinale biomarcadores e alterações e obtenha opções compatíveis e precauções."],
   "/compare/": ["Comparar", "Até cinco produtos, tecnologias, alvos, ensaios ou cancros lado a lado, com as diferenças realçadas."],

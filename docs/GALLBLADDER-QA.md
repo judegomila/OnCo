@@ -126,6 +126,31 @@ For calibration the same measure gives NSCLC 2,292 KB before and 813 KB after, c
 - Registry-only trial records (`gallbladder-registry-trials.ts`) carry generated one-line summaries; a hand pass
   over the 131 could add the gallbladder eligibility wording from each protocol.
 
+## Decision aids and the comparison page (24 September 2026, later round)
+
+Three pages built on the spike, each data-driven so another cancer can reuse the components:
+
+- `/tools/gallbladder-polyp/`: the 2022 ESGAR, EAES, EFISDS and ESGE polyp guideline (Foley 2022, read in full
+  from Europe PMC PMC9038818) as seven questions and nine cards; every card quotes one of the eight recommendations
+  word for word with its grade. Data in `src/data/decision-tools/gallbladder-polyp.ts`.
+- `/tools/incidental-gallbladder-cancer/`: T category, cystic duct margin, lymphovascular or perineural invasion and
+  perforation or retrieval bag, mapped to eighteen cards quoting the AHPBA consensus, the Søreide review, Ethun 2017,
+  the two CAPBIL papers and the corpus's own paper and standard-of-care records. The ESMO 2023 text is behind the
+  journal's subscription and is cited, not quoted; the page says so. Data in
+  `src/data/decision-tools/incidental-gallbladder-cancer.ts`.
+- `/cancers/gallbladder/compared/`: gallbladder beside intrahepatic and extrahepatic cholangiocarcinoma and ampullary
+  cancer, eleven rows, every cell a record field (burden, standard-of-care row, history, target prevalence rows) or a
+  hand cell that is a substring of the record's own text or cites Javle 2016 or Hiraoka 2020. Set in
+  `src/data/cancer-compare/biliary.ts`.
+
+Registry and wiring: `src/lib/decision-tools.ts` and `src/lib/cancer-compare.ts`; pills on the cancer page's care
+tab, the decisions page and the polyp, incidental, margin and cholecystectomy pages (`ToolsStrip` in
+`EntityDetail.tsx`); `/tools/` in the "Start here" nav group with nine-language entries; sitemap and search index
+entries; two mobile-audit routes (sticky-preview pattern). Tests: `src/lib/decision-tools.test.ts` walks every
+combination of answers (every card reachable, every quote https, OnCo row quotes equal to the data, internal links
+resolve, pages render without JavaScript to their questions, a note and every statement);
+`src/lib/cancer-compare.test.ts` checks the substring and source rules and renders the page.
+
 ## Repeating this review for the next deep spike
 
 1. Grep the spike files for internal jargon (`deep dive`, `layer`, `agent [A-F]`, `see below`, `page carries`),

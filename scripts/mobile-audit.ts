@@ -44,6 +44,11 @@ export const CHECKS: Check[] = [
   { route: "/prep/colorectal/", view: "prep-sheet", steps: [{ act: "click", sel: `${v("prep-sheet")} [data-mobile-control]`, nth: 0 }], expect: "live" },
   { route: "/dependencies/", view: "dependency-map", label: "tap a tile", steps: [{ act: "click", sel: `${v("dependency-map")} [data-mobile-control]`, nth: 3 }], expect: "driven" },
   { route: "/resistance/", view: "resistance-map", label: "first route", steps: [{ act: "click", sel: `${v("resistance-map")} [data-mobile-control]`, nth: 0 }], expect: "driven" },
+  // Decision aids (src/components/DecisionToolView.tsx): the result is a sticky preview above the question pills.
+  { route: "/tools/gallbladder-polyp/", view: "decision-tool", label: "first pill", steps: [{ act: "click", sel: `${v("decision-tool")} [data-mobile-control]`, nth: 0 }], expect: "driven" },
+  { route: "/tools/gallbladder-polyp/", view: "decision-tool", label: "last pill", steps: [{ act: "click", sel: `${v("decision-tool")} [data-mobile-control]`, nth: 17 }], expect: "driven" },
+  { route: "/tools/incidental-gallbladder-cancer/", view: "decision-tool", label: "T category", steps: [{ act: "click", sel: `${v("decision-tool")} [data-mobile-control]`, nth: 2 }], expect: "driven" },
+  { route: "/tools/incidental-gallbladder-cancer/", view: "decision-tool", label: "last pill", steps: [{ act: "click", sel: `${v("decision-tool")} [data-mobile-control]`, nth: 14 }], expect: "driven" },
 ];
 /** The page itself must never scroll sideways at 390 px; wide elements scroll inside their own box (ScrollRow). */
 const MAX_PAGE_WIDTH = 392;

@@ -17,6 +17,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/biomarker-matrix/", label: "Biomarker matrix", blurb: "Every biomarker against every cancer: approved products in your region versus trials, one grid." },
       { href: "/calculators/", label: "Calculators", blurb: "BSA, Calvert, creatinine clearance, ANC, corrected calcium, RECIST 1.1, anthracycline dose, dose banding." },
       { href: "/interactions/", label: "Interactions", blurb: "Pick two or more drugs and see flagged pairs: CYP3A4, QT, PPIs, P-gp, bleeding, plus food and organ flags." },
+      { href: "/tools/", label: "Decision aids", blurb: "Answer a few questions from a report and read the guideline statement that applies, quoted with its source: gallbladder polyps, incidental gallbladder cancer, cancers compared." },
       { href: "/irae/", label: "irAE guide", blurb: "Checkpoint-inhibitor toxicity by organ and grade: hold, steroids, escalation, rechallenge. Printable." },
       { href: "/tumor-board/", label: "Tumour board", blurb: "Tick biomarkers and alterations, get matched options and cautions." },
       { href: "/compare/", label: "Compare", blurb: "Up to five products, technologies, targets, trials, or cancers side by side, differences highlighted." },

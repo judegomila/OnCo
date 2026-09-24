@@ -3,6 +3,8 @@ import { graph } from "./graph";
 import { NAV_GROUPS } from "./nav";
 import { routeFor, type Kind } from "./kinds";
 import { engineRoute, FORMATS } from "./modular-formats";
+import { DECISION_TOOLS, toolRoute } from "./decision-tools";
+import { COMPARE_SETS, compareRoute } from "./cancer-compare";
 
 export type SearchDoc = { id: string; kind: Kind | "page"; name: string; /** Aliases, one per line: MiniSearch tokenises on the newline as it does on a space, and the ranking can still tell "Breast cancer in men" from a lone "Breast". */ aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string };
 
@@ -21,7 +23,12 @@ function pageDocs(): SearchDoc[] {
   const out: SearchDoc[] = [];
   // The open drug engine's format pages are generated from FORMATS, so a search for "radioligand" or "ADC" reaches the grid.
   const enginePages = FORMATS.map((f) => ({ href: engineRoute(f.id), label: `${f.name}: open drug engine`, blurb: f.blurb }));
-  const pages = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES, ...enginePages];
+  // Decision aids and side-by-side comparisons, so "gallbladder polyp" reaches the aid and not only the glossary term.
+  const toolPages = [
+    ...DECISION_TOOLS.map((t) => ({ href: toolRoute(t.id), label: `${t.short}: ${t.title}`, blurb: t.lede })),
+    ...COMPARE_SETS.map((s) => ({ href: compareRoute(s.anchorId), label: `${graph().must(s.anchorId).name} compared with its neighbours`, blurb: s.title })),
+  ];
+  const pages = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES, ...enginePages, ...toolPages];
   for (const it of pages) {
     if (seen.has(it.href)) continue; seen.add(it.href);
     out.push({ id: "page:" + it.href, kind: "page", name: it.label, aka: "", tldr: it.blurb, tags: "page", route: it.href, status: "" });

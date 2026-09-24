@@ -17,6 +17,7 @@ export const navDe: NavDict = {
   "/biomarker-matrix/": ["Biomarker-Matrix", "Jeder Biomarker gegen jede Krebsart: zugelassene Produkte in Ihrer Region gegenüber Studien, in einem Raster."],
   "/calculators/": ["Rechner", "Körperoberfläche, Calvert, Kreatinin-Clearance, ANC, korrigiertes Kalzium, RECIST 1.1, Anthrazyklin-Dosis, Dosisbänder."],
   "/interactions/": ["Wechselwirkungen", "Zwei oder mehr Medikamente wählen und markierte Paare sehen: CYP3A4, QT, PPI, P-gp, Blutung, plus Hinweise zu Nahrung und Organen."],
+  "/tools/": ["Entscheidungshilfen", "Beantworten Sie einige Fragen zu Ihrem Befund und lesen Sie die zutreffende Leitlinienaussage mit Quelle: Gallenblasenpolypen, zufällig entdecktes Gallenblasenkarzinom, Krebsarten im Vergleich."],
   "/irae/": ["irAE-Leitfaden", "Toxizität von Checkpoint-Inhibitoren nach Organ und Grad: Pause, Steroide, Eskalation, Wiederaufnahme. Druckbar."],
   "/tumor-board/": ["Tumorboard", "Biomarker und Veränderungen ankreuzen, passende Optionen und Warnhinweise erhalten."],
   "/compare/": ["Vergleichen", "Bis zu fünf Produkte, Technologien, Zielstrukturen, Studien oder Krebsarten nebeneinander, Unterschiede hervorgehoben."],

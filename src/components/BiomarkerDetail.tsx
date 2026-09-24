@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ScrollRow } from "./ScrollRow";
 import type { Biomarker } from "@/lib/schema";
 import { routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
@@ -94,11 +95,11 @@ export function BiomarkerDetail({ bm }: { bm: Biomarker }) {
       {bm.companionDiagnostics.length > 0 && (
         <section id="companion-diagnostics">
           <Kicker text="Companion diagnostics (FDA list)" />
-          <div className="card overflow-x-auto"><table className="onco text-sm"><thead><tr><th>Device</th><th>Maker</th><th>Indication and sample</th><th>Drug</th><th>PMA / 510(k)</th></tr></thead>
+          <ScrollRow className="card"><table className="onco text-sm"><thead><tr><th>Device</th><th>Maker</th><th>Indication and sample</th><th>Drug</th><th>PMA / 510(k)</th></tr></thead>
             <tbody>{bm.companionDiagnostics.map((c, i) => {
               const co = c.companyId ? ent(c.companyId) : undefined;
               return <tr key={i}><td className="font-medium">{c.device}</td><td>{co ? <Link className="underline" href={routeFor(co)}>{c.maker}</Link> : c.maker}</td><td className="text-muted">{c.indication}</td><td>{c.drugs.map((id) => { const d = ent(id); return d ? <Link key={id} className="underline me-2" href={routeFor(d)}>{d.name}</Link> : null; })}</td><td className="text-muted tabular-nums"><a className="underline" href={c.source} rel="noopener">{c.pma ?? "FDA list"}</a></td></tr>;
-            })}</tbody></table></div>
+            })}</tbody></table></ScrollRow>
         </section>
       )}
 
@@ -126,7 +127,7 @@ export function BiomarkerDetail({ bm }: { bm: Biomarker }) {
 function ThresholdTable({ rows }: { rows: Biomarker["thresholds"] }) {
   const g = graph();
   return (
-    <div className="card overflow-x-auto"><table className="onco text-sm"><thead><tr><th>Threshold</th><th>Drug</th><th>Cancer</th><th>Regulator</th><th>Source</th></tr></thead>
+    <ScrollRow className="card"><table className="onco text-sm"><thead><tr><th>Threshold</th><th>Drug</th><th>Cancer</th><th>Regulator</th><th>Source</th></tr></thead>
       <tbody>{rows.map((t, i) => {
         const d = g.get(t.drugId); const c = g.get(t.cancerId);
         return (
@@ -138,7 +139,7 @@ function ThresholdTable({ rows }: { rows: Biomarker["thresholds"] }) {
             <td><a className="underline" href={t.source} rel="noopener" title={t.quote ?? undefined}>label</a></td>
           </tr>
         );
-      })}</tbody></table></div>
+      })}</tbody></table></ScrollRow>
   );
 }
 

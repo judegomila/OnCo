@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ScrollRow } from "./ScrollRow";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/kinds";
 import { Section } from "./ui";
@@ -59,7 +60,7 @@ export function DealsPanel({ id }: { id: string }) {
   const g = graph();
   return (
     <Section title="Deals" aside={<Link href="/deals/" className="text-sm underline text-muted">Deal map</Link>}>
-      <div className="card overflow-x-auto">
+      <ScrollRow className="card">
         <table className="onco">
           <thead><tr><th>Date</th><th>Deal</th><th>Type</th><th>Upfront</th><th>Total</th><th>Source</th></tr></thead>
           <tbody>
@@ -78,7 +79,7 @@ export function DealsPanel({ id }: { id: string }) {
             })}
           </tbody>
         </table>
-      </div>
+      </ScrollRow>
     </Section>
   );
 }

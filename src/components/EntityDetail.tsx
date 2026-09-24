@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { enrolmentLabel } from "@/lib/enrolment";
 import { publicTags, tagRoute } from "@/lib/tags";
-import type { ReactNode } from "react";
+import { Fragment, type ReactNode } from "react";
 import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL, type Cancer, type Entity, type Roadmap, type Term } from "@/lib/schema";
 import { KIND_META, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
@@ -29,6 +29,7 @@ import { Wireframe3D } from "./Wireframe3D";
 import { StickyAside } from "./StickyAside";
 import { schematicFor } from "@/data/schematics";
 import { Tabs, type Tab } from "./Tabs";
+import { ScrollRow } from "./ScrollRow";
 import { RoadmapStory } from "./RoadmapStory";
 import { TrialOutcomes } from "./Pictogram";
 import { TrialExplainer } from "./TrialExplainer";
@@ -147,7 +148,7 @@ function websiteView(url: string): { label: string; text: string } {
 function Field({ label, children }: { label: string; children: ReactNode }) {
   if (children === undefined || children === null || children === "" || (Array.isArray(children) && children.length === 0)) return null;
   return (
-    <div>
+    <div className="min-w-0">
       <div className="kicker mb-1"><TL text={label} /></div>
       <div {...EN_TEXT} className="text-[15px] leading-relaxed">{children}</div>
     </div>
@@ -191,7 +192,10 @@ export function EntityDetail({ e }: { e: Entity }) {
   const meta = KIND_META[e.kind];
   const nCon = [...neighbours.values()].reduce((a, l) => a + l.length, 0);
 
-  const tabs: Tab[] = [
+  // Each tab's content is one keyed fragment. React Flight collapses a keyless fragment into a plain array as it
+  // crosses to the client, and Tabs would then render that array as a list without keys (the warning on every record
+  // page); a fragment keyed on the tab id crosses intact, so the section has one child.
+  const tabs: Tab[] = keyedContent([
     ...kindTabs(e),
     ...(e.notes.length ? [{ id: "notes", label: "Notes", content: <Bullets items={e.notes} linked={(t) => withTermHovers(t, { skipId: e.id })} /> }] : []),
     ...keyPapersTab(e),
@@ -199,7 +203,7 @@ export function EntityDetail({ e }: { e: Entity }) {
     // Cancer pages carry "Related pages" (every direct link plus the products' targets, companies and technologies, with
     // the Similar strip) instead: the generic Connected tab repeated the same lists and doubled the markup of the page.
     ...(e.kind === "cancer" ? [] : [{ id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} similar={similarLinks(e.id)} max={NEIGHBOUR_CAP} /> }]),
-  ];
+  ]);
   const aside = <RecordAside e={e} />;
   const openMedical = (e.kind === "section" || e.kind === "technology") ? <OpenMedicalPanel id={e.id} kind={e.kind} limit={e.kind === "section" ? 12 : undefined} /> : null;
   const openSource = (e.kind === "technology" || e.kind === "collection" || e.kind === "institution" || e.kind === "company") ? <OpenSourcePanel id={e.id} name={e.name} kind={e.kind} /> : null;
@@ -221,11 +225,16 @@ export function EntityDetail({ e }: { e: Entity }) {
         {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
         {tabs.length > 1
           ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={afterTabs} aside={aside} />
-          : <div className="grid gap-10 lg:grid-cols-[1fr_300px]"><div className="min-w-0"><div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>{afterTabs}</div>{aside}</div>}
+          : <div className="grid *:min-w-0 gap-10 lg:grid-cols-[1fr_300px]"><div className="min-w-0"><div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>{afterTabs}</div>{aside}</div>}
       </Container>
       <MachineLinks e={e} />
     </>
   );
+}
+
+/** Wraps each tab's content in a fragment keyed on the tab id (see the note where the tabs are assembled). */
+function keyedContent(tabs: Tab[]): Tab[] {
+  return tabs.map((t) => ({ ...t, content: <Fragment key={`${t.id}-content`}>{t.content}</Fragment> }));
 }
 
 /** The right-hand column of a record page: evidence, review and provenance, links and tags, data, suggest an edit, quick links. */
@@ -290,10 +299,10 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<>
           <div className="mt-8"><TechSchematic tech={e} /></div>
-          {modelFor(e.id) && (() => { const m = modelFor(e.id)!; return (<div className="mt-6 card p-4 text-sm"><div className="kicker mb-1">Model registry</div><div className="grid gap-x-6 gap-y-1 sm:grid-cols-2"><div><span className="text-muted">Modality:</span> {m.modality}</div>{m.parametersM && <div><span className="text-muted">Parameters:</span> {m.parametersM >= 1000 ? `${m.parametersM / 1000} B` : `${m.parametersM} M`}</div>}<div><span className="text-muted">Weights:</span> {m.weights}</div>{m.licence && <div><span className="text-muted">Licence:</span> {m.licence}</div>}<div className="sm:col-span-2"><span className="text-muted">Training data:</span> {m.trainingData}</div>{m.benchmark && <div className="sm:col-span-2"><span className="text-muted">Reported result:</span> {m.benchmark}</div>}</div><Link className="underline text-xs text-muted mt-2 inline-block" href="/models/">Compare all models →</Link></div>); })()}
+          {modelFor(e.id) && (() => { const m = modelFor(e.id)!; return (<div className="mt-6 card p-4 text-sm"><div className="kicker mb-1">Model registry</div><div className="grid *:min-w-0 gap-x-6 gap-y-1 sm:grid-cols-2"><div><span className="text-muted">Modality:</span> {m.modality}</div>{m.parametersM && <div><span className="text-muted">Parameters:</span> {m.parametersM >= 1000 ? `${m.parametersM / 1000} B` : `${m.parametersM} M`}</div>}<div><span className="text-muted">Weights:</span> {m.weights}</div>{m.licence && <div><span className="text-muted">Licence:</span> {m.licence}</div>}<div className="sm:col-span-2"><span className="text-muted">Training data:</span> {m.trainingData}</div>{m.benchmark && <div className="sm:col-span-2"><span className="text-muted">Reported result:</span> {m.benchmark}</div>}</div><Link className="underline text-xs text-muted mt-2 inline-block" href="/models/">Compare all models →</Link></div>); })()}
           {questionsFor(e.id).length > 0 && <Block title="Open questions"><ul className="list-disc ps-5 space-y-1 text-[15px]">{questionsFor(e.id).map((q) => <li key={q.id}><Link className="hover:underline" href={`/open-questions/?subject=${encodeURIComponent(e.name)}`}>{q.question}</Link></li>)}</ul></Block>}
           <Block title="How it works"><p className="text-[15px] leading-relaxed max-w-3xl">{e.principle}</p></Block>
-          <div className="grid gap-6 sm:grid-cols-2 mt-8">
+          <div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
             <Field label="Strengths"><Bullets items={e.strengths} linked={(t) => withTermHovers(t, { skipId: e.id })} /></Field>
             <Field label="Limitations"><Bullets items={e.limitations} linked={(t) => withTermHovers(t, { skipId: e.id })} /></Field>
             <Field label="Generation">{e.generation}</Field>
@@ -331,7 +340,7 @@ function kindTabs(e: Entity): Tab[] {
           <ReadoutStrip targetId={e.id} />
           {modelsFor(e.id) && <p className="text-sm text-muted mt-4"><Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(e.name.split(" (")[0])}`}>Cell lines and mouse models for this target →</Link></p>}
           <Block title="Biology"><p className="text-[15px] leading-relaxed max-w-3xl">{withTermHovers(e.biology, { skipId: e.id })}</p></Block>
-          <div className="grid gap-6 sm:grid-cols-2 mt-8">
+          <div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
             <Field label="Where it is found"><Bullets items={e.whereFound} linked={(t) => withTermHovers(t, { skipId: e.id })} /></Field>
             <Field label="Class"><span className="capitalize">{e.targetClass.replace("-", " ")}</span>{e.symbol && <span className="text-muted"> · {e.symbol}</span>}</Field>
             {e.hgnc && <Field label="Identifiers"><IdentifierRow target={e} /></Field>}
@@ -346,7 +355,7 @@ function kindTabs(e: Entity): Tab[] {
           {STRUCTURES[e.id] ? <div className="mt-8"><MoleculeViewer entries={STRUCTURES[e.id]} /></div> : <DrugSchematic technologies={e.technologies} modality={e.modality} />}
           <div className="mt-6"><SeeItInAction drug={e.name} group={modalityGroup(e.modality)} mechanism={e.mechanism} steps={e.mechanismSteps} complex={STRUCTURES[e.id]?.find((s) => s.source === "pdb" && /bound to/i.test(s.label))} molecule={STRUCTURES[e.id]?.find((s) => s.source === "pubchem")} targets={e.targets.map((id) => graph().get(id)).filter((t): t is NonNullable<typeof t> => !!t).map((t) => ({ id: t.id, name: t.name, route: routeFor(t) }))} schematic={processSchematicKey(e) ? <ProcessSchematic entity={e} bare height="h-64 sm:h-72" /> : undefined} /></div>
           {/resist|escape|progress/i.test(e.summary) && <div className="mt-6"><WhatIsBeingDone topic="resistance" compact /></div>}
-          <div className="grid gap-6 sm:grid-cols-2 mt-8">
+          <div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
             <Field label="Modality">{e.modality}</Field>
             <Field label="Mechanism">{e.mechanism}</Field>
             <Field label="Brand / code">{[e.brand, e.code].filter(Boolean).join(" · ")}</Field>
@@ -362,11 +371,11 @@ function kindTabs(e: Entity): Tab[] {
         </>),
         ...(e.approvals.length || e.regulatoryEvents.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length, content: (<>
           {e.regulatoryEvents.length > 0 && <RegulatoryTimeline events={e.regulatoryEvents} />}
-          {e.approvals.length > 0 && <Block title="Approvals"><div className="overflow-x-auto -mx-4 px-4"><table className="onco" lang="en"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
-            <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> · {a.note}</span>}</td></tr>)}</tbody></table></div></Block>}
+          {e.approvals.length > 0 && <Block title="Approvals"><ScrollRow className="-mx-4 px-4"><table className="onco" lang="en"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
+            <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> · {a.note}</span>}</td></tr>)}</tbody></table></ScrollRow></Block>}
         </>) }] : []),
         ...(regimensFor(e.id).length ? [{ id: "regimens", label: "Regimens", count: regimensFor(e.id).length, content: (
-          <ul className="grid gap-3 sm:grid-cols-2">{regimensFor(e.id).map((r) => <li key={r.id}><Link href={regimenRoute(r)} className="card block p-3 text-sm hover:shadow-md transition"><div className="font-medium">{r.name}</div><div className="text-xs text-muted mt-1 line-clamp-2">{r.setting}</div><div className="text-xs text-muted mt-1">{cycleSummary(r)}</div></Link></li>)}</ul>) }] : []),
+          <ul className="grid *:min-w-0 gap-3 sm:grid-cols-2">{regimensFor(e.id).map((r) => <li key={r.id}><Link href={regimenRoute(r)} className="card block p-3 text-sm hover:shadow-md transition"><div className="font-medium">{r.name}</div><div className="text-xs text-muted mt-1 line-clamp-2">{r.setting}</div><div className="text-xs text-muted mt-1">{cycleSummary(r)}</div></Link></li>)}</ul>) }] : []),
         ...(e.toxicity.length || agentById(e.id) ? [{ id: "safety", label: "Safety", count: e.toxicity.length || undefined, content: (<>
           {e.toxicity.length > 0 && <ToxicityTable toxicity={e.toxicity} />}
           {agentById(e.id) && <p className="text-sm mt-3"><Link href={`/interactions/?drugs=${e.id}`} className="underline">Check interactions for {e.name} →</Link></p>}
@@ -379,7 +388,7 @@ function kindTabs(e: Entity): Tab[] {
       const stage = stageOf(e);
       const portfolio = e.companyType === "investor" ? portfolioOf(e.id) : [];
       return [
-        overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
+        overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
           <Field label="Headquarters">{e.hq}, {e.country}</Field>
           <div className="sm:col-span-2 space-y-4"><CompanyScorePanel id={e.id} /><FundingPanel id={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /><ManufacturingPanel companyId={e.id} /></div>
           <Field label="Type"><span className="capitalize">{e.companyType.replace("-", " ")}</span>{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
@@ -395,7 +404,7 @@ function kindTabs(e: Entity): Tab[] {
       const row = rankInstitutions().find((r) => r.institution.id === e.id);
       return [
         overview(<>
-          <div className="grid gap-6 sm:grid-cols-2 mt-8">
+          <div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
             <Field label="Location">{e.city}, {e.country}</Field>
             <Field label="Type"><span className="capitalize">{e.institutionType.replace("-", " ")}</span>{e.university && <span className="text-muted"> · {e.university}</span>}</Field>
             {e.website && <Field label={websiteView(e.website).label}><a className="underline break-all" href={e.website} rel="noopener">{websiteView(e.website).text}</a></Field>}
@@ -419,7 +428,7 @@ function kindTabs(e: Entity): Tab[] {
       return [overview(<><div className="mt-8"><TermVisualPanel term={e} /></div><ReadoutsForTerm termId={e.id} /><div className="mt-6"><Field label="Category"><Link className="underline" href={`/terms/?category=${encodeURIComponent(e.category)}`}>{e.category}</Link></Field></div></>)];
     case "trial":
       return [
-        overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
+        overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
           <Field label="Setting">{e.setting}</Field>
           <Field label="Phase">{phaseLabel(e.phase)}</Field>
           <Field label="Sponsor">{e.sponsor}</Field>
@@ -441,7 +450,7 @@ function kindTabs(e: Entity): Tab[] {
             {b && <Link href={routeFor(b)} className={`chip border text-sm ${KIND_COLOR[b.kind]}`}>{b.name}</Link>}
             <span className={`chip ml-auto ${statusClass(e.pairingType === "caution" ? "negative" : "established")}`}>{e.pairingType.replace("-", " → ")}</span>
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 mt-8">
+          <div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
             <Field label="Rationale">{e.rationale}</Field>
             <Field label="Evidence">{e.evidence}</Field>
           </div>
@@ -452,13 +461,13 @@ function kindTabs(e: Entity): Tab[] {
       return [overview(), { id: "steps", label: "Steps", count: e.steps.length, content: <RoadmapSteps r={e} /> }, { id: "story", label: "Story", content: <RoadmapStory title={e.name} steps={roadmapStorySteps(e)} /> }];
     case "idea":
       return [
-        overview(<div className="grid gap-6 mt-8">
+        overview(<div className="grid *:min-w-0 gap-6 mt-8">
           {(confidence[e.id] || e.confidence) && <Field label="Confidence"><ConfidenceChip id={e.id} value={e.confidence ?? undefined} /></Field>}
           <Field label="Hypothesis">{e.hypothesis}</Field>
           <Field label="Rationale">{e.rationale}</Field>
           <Field label="Proposed test">{e.test}</Field>
           <Field label="Maturity"><span className={`chip ${statusClass(e.maturity === "being-tested-at-scale" ? "phase-3" : e.maturity === "early-clinical" ? "phase-2" : e.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{e.maturity.replace(/-/g, " ")}</span></Field>
-          {(e.actor || e.cost || e.horizonYears !== undefined) && <div className="grid gap-6 sm:grid-cols-3">
+          {(e.actor || e.cost || e.horizonYears !== undefined) && <div className="grid *:min-w-0 gap-6 sm:grid-cols-3">
             {e.actor && <Field label="Who acts"><span className="capitalize">{e.actor}</span></Field>}
             {e.cost && <Field label="Cost to try">{e.cost === "small" ? "Small (under $1M)" : e.cost === "medium" ? "Medium ($1M to $50M)" : "Large (over $50M)"}</Field>}
             {e.horizonYears !== undefined && <Field label="Years to first evidence">{e.horizonYears}</Field>}
@@ -469,14 +478,14 @@ function kindTabs(e: Entity): Tab[] {
     case "paper": {
       const typeLabel: Record<string, string> = { rct: "Randomised controlled trial", "meta-analysis": "Meta-analysis", observational: "Observational study", "real-world": "Real-world evidence", basic: "Basic science", translational: "Translational study", review: "Review", guideline: "Guideline", methods: "Methods" };
       return [
-        overview(<div className="grid gap-6 mt-8">
+        overview(<div className="grid *:min-w-0 gap-6 mt-8">
           <div className="flex flex-wrap gap-2 items-center text-sm">
             <span className="chip bg-foreground/5">{typeLabel[e.paperType] ?? e.paperType}</span>
             {e.changedPractice !== undefined && <span className={`chip ${statusClass(e.changedPractice ? "approved" : "mixed")}`}>{e.changedPractice ? "Changed practice" : "Has not changed practice yet"}</span>}
             {e.participants !== undefined && <span className="chip bg-foreground/5 tabular-nums">{e.participants.toLocaleString()} participants</span>}
             <CitationChip id={e.id} />
           </div>
-          <div className="grid gap-6 sm:grid-cols-2">
+          <div className="grid *:min-w-0 gap-6 sm:grid-cols-2">
             <Field label="Authors">{e.authors}</Field>
             <Field label="Published">{(() => { const j = g.kind("journal").find((x) => x.kind === "journal" && (x.name === e.journal || x.matchNames.includes(e.journal))); return j ? <Link className="underline" href={routeFor(j)}>{e.journal}</Link> : e.journal; })()}, {e.year}</Field>
             {(e.doi || e.pmid) && <Field label="Full text">{e.doi && <a className="underline mr-3" href={`https://doi.org/${e.doi}`} rel="noopener">doi:{e.doi}</a>}{e.pmid && <a className="underline" href={`https://pubmed.ncbi.nlm.nih.gov/${e.pmid}/`} rel="noopener">PubMed {e.pmid}</a>}</Field>}
@@ -491,8 +500,8 @@ function kindTabs(e: Entity): Tab[] {
       const papers = g.kind("paper").filter((p): p is Paper => p.kind === "paper" && (p.journal === e.name || e.matchNames.includes(p.journal))).sort((a, b) => b.year - a.year);
       const people = g.kind("person").filter((p) => p.kind === "person" && p.papers.some((pp) => pp.journal && (pp.journal === e.name || e.matchNames.includes(pp.journal))));
       return [
-        overview(<div className="grid gap-6 mt-8">
-          <div className="grid gap-6 sm:grid-cols-2">
+        overview(<div className="grid *:min-w-0 gap-6 mt-8">
+          <div className="grid *:min-w-0 gap-6 sm:grid-cols-2">
             <Field label="Publisher">{e.publisher}{e.society && <span className="text-muted"> · {e.society}</span>}</Field>
             <Field label="Scope">{e.scope}</Field>
             <Field label="Website"><a className="underline break-all" href={e.url} rel="noopener">{e.url.replace(/^https?:\/\//, "")}</a></Field>
@@ -503,7 +512,7 @@ function kindTabs(e: Entity): Tab[] {
           </div>
         </div>),
         ...(papers.length ? [{ id: "key-papers", label: "Key papers", count: papers.length, content: (
-          <div className="grid gap-3 md:grid-cols-2">{papers.map((p) => <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition"><div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} /></div><div className="font-medium leading-snug">{p.name}</div><p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p></Link>)}</div>) }] : []),
+          <div className="grid *:min-w-0 gap-3 md:grid-cols-2">{papers.map((p) => <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition"><div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} /></div><div className="font-medium leading-snug">{p.name}</div><p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p></Link>)}</div>) }] : []),
         ...peopleTab(people),
       ];
     }
@@ -512,15 +521,15 @@ function kindTabs(e: Entity): Tab[] {
       const relievers = [...(g.incoming(e.id).get("technology") ?? []), ...(g.incoming(e.id).get("collection") ?? []), ...(g.incoming(e.id).get("trial") ?? [])];
       const sevClass = e.severity === "critical" ? "negative" : e.severity === "major" ? "phase-2" : "mixed";
       return [
-        overview(<div className="grid gap-6 mt-8">
+        overview(<div className="grid *:min-w-0 gap-6 mt-8">
           <div className="flex flex-wrap gap-2"><span className={`chip ${statusClass(sevClass)}`}>{e.severity}</span><span className="chip bg-foreground/5">{e.stage.replace(/-/g, " ")}</span><span className="chip bg-foreground/5">{ideas.length} ideas to fix it</span></div>
-          {e.metrics.length > 0 && <div><div className="kicker mb-2"><TL text="Scale of the problem" /></div><div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{e.metrics.map((m, i) => <div key={i} className="card p-3"><div className="text-2xl font-semibold tabular-nums">{m.value}</div><div className="text-sm">{m.label}</div>{(m.source || m.url) && <div className="text-xs text-muted mt-1">{m.url ? <a className="underline" href={m.url} rel="noopener">{m.source ?? "source"}</a> : m.source}</div>}</div>)}</div></div>}
+          {e.metrics.length > 0 && <div><div className="kicker mb-2"><TL text="Scale of the problem" /></div><div className="grid *:min-w-0 gap-3 sm:grid-cols-2 lg:grid-cols-3">{e.metrics.map((m, i) => <div key={i} className="card p-3"><div className="text-2xl font-semibold tabular-nums">{m.value}</div><div className="text-sm">{m.label}</div>{(m.source || m.url) && <div className="text-xs text-muted mt-1">{m.url ? <a className="underline" href={m.url} rel="noopener">{m.source ?? "source"}</a> : m.source}</div>}</div>)}</div></div>}
           {e.causes.length > 0 && <Field label="Root causes"><ul className="list-disc ps-5 space-y-1">{e.causes.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
           {e.currentEfforts.length > 0 && <Field label="Current efforts"><ul className="list-disc ps-5 space-y-1">{e.currentEfforts.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
           {e.successLooksLike && <Field label="Success criteria">{e.successLooksLike}</Field>}
         </div>),
         ...(ideas.length ? [{ id: "ideas", label: "Ideas to fix it", count: ideas.length, content: (
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{ideas.map((i) => i.kind === "idea" && <Link key={i.id} href={routeFor(i)} className="card p-3 hover:shadow-md transition"><div className="flex flex-wrap gap-1 mb-1"><span className={`chip ${statusClass(i.maturity === "being-tested-at-scale" ? "phase-3" : i.maturity === "early-clinical" ? "phase-2" : i.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{i.maturity.replace(/-/g, " ")}</span>{i.actor && <span className="chip bg-foreground/5">{i.actor}</span>}{i.cost && <span className="chip bg-foreground/5">{i.cost} cost</span>}</div><div className="font-medium">{i.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-3">{i.tldr}</p></Link>)}</div>) }] : []),
+          <div className="grid *:min-w-0 gap-3 sm:grid-cols-2 lg:grid-cols-3">{ideas.map((i) => i.kind === "idea" && <Link key={i.id} href={routeFor(i)} className="card p-3 hover:shadow-md transition"><div className="flex flex-wrap gap-1 mb-1"><span className={`chip ${statusClass(i.maturity === "being-tested-at-scale" ? "phase-3" : i.maturity === "early-clinical" ? "phase-2" : i.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{i.maturity.replace(/-/g, " ")}</span>{i.actor && <span className="chip bg-foreground/5">{i.actor}</span>}{i.cost && <span className="chip bg-foreground/5">{i.cost} cost</span>}</div><div className="font-medium">{i.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-3">{i.tldr}</p></Link>)}</div>) }] : []),
         ...(relievers.length ? [{ id: "relievers", label: "Relief available today", count: relievers.length, content: <RefsWithMolecules ids={relievers.map((r) => r.id)} /> }] : []),
       ];
     }
@@ -528,7 +537,7 @@ function kindTabs(e: Entity): Tab[] {
       return [overview(<BiomarkerDetail bm={e} />)];
     case "collection":
       return [
-        overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
+        overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
           <Field label="URL"><a className="underline break-all" href={e.url} rel="noopener">{e.url.replace(/^https?:\/\//, "")}</a></Field>
           <Field label="Holds">{e.holds}</Field>
           <Field label="Licence">{e.license}</Field>
@@ -539,15 +548,15 @@ function kindTabs(e: Entity): Tab[] {
     case "person": {
       const inst = e.institutionId ? g.get(e.institutionId) : undefined;
       return [
-        overview(<div className="grid gap-6 sm:grid-cols-2 mt-8">
+        overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
           <Field label="Role">{e.role}</Field>
           <Field label="Institution">{inst && <Link className="underline" href={routeFor(inst)}>{inst.name}</Link>}</Field>
           <Field label="Specialisms"><div className="flex flex-wrap gap-1">{e.specialisms.map((s) => <span key={s} className="chip bg-foreground/5">{s}</span>)}</div></Field>
           <Field label="Profiles"><ul className="space-y-0.5">{e.profiles.map((p) => <li key={p.url}><a className="underline" href={p.url} rel="noopener">{p.label}</a></li>)}{e.orcid && <li><a className="underline" href={`https://orcid.org/${e.orcid}`} rel="noopener">ORCID {e.orcid}</a></li>}</ul></Field>
         </div>),
         ...(e.papers.length ? [{ id: "papers", label: "Papers", count: e.papers.length, content: (
-          <div className="card overflow-x-auto"><table className="onco" lang="en"><thead><tr><th>Title</th><th>Journal</th><th>Year</th></tr></thead>
-            <tbody>{e.papers.map((p, i) => <tr key={i}><td>{p.url || p.doi ? <a className="underline" href={p.url ?? `https://doi.org/${p.doi}`} rel="noopener">{p.title}</a> : p.title}{p.note && !PAPER_PROVENANCE[p.note] && <div className="text-xs text-muted">{p.note}</div>}</td><td className="text-muted">{p.journal}</td><td className="tabular-nums text-muted">{p.year}</td></tr>)}</tbody></table>
+          <div className="card"><ScrollRow><table className="onco" lang="en"><thead><tr><th>Title</th><th>Journal</th><th>Year</th></tr></thead>
+            <tbody>{e.papers.map((p, i) => <tr key={i}><td>{p.url || p.doi ? <a className="underline" href={p.url ?? `https://doi.org/${p.doi}`} rel="noopener">{p.title}</a> : p.title}{p.note && !PAPER_PROVENANCE[p.note] && <div className="text-xs text-muted">{p.note}</div>}</td><td className="text-muted">{p.journal}</td><td className="tabular-nums text-muted">{p.year}</td></tr>)}</tbody></table></ScrollRow>
             {paperProvenance(e.papers).map((line) => <p key={line} className="px-4 py-2 text-xs text-muted border-t border-border">{line}</p>)}</div>) }] : []),
       ];
     }
@@ -556,7 +565,7 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<div className="mt-8"><FrontSchematic sectionId={e.id} /></div>),
         { id: "technologies", label: "Technologies", count: techs.length, content: (
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{techs.map((t) => t.kind === "technology" && <Link key={t.id} href={routeFor(t)} className="card overflow-hidden hover:shadow-md transition"><TechSchematic tech={t} compact height="h-32" /><div className="p-3"><div className="flex items-center gap-2 mb-1"><StatusChip status={t.status} /></div><div className="font-medium">{t.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{t.tldr}</p></div></Link>)}</div>) },
+          <div className="grid *:min-w-0 gap-3 sm:grid-cols-2 lg:grid-cols-3">{techs.map((t) => t.kind === "technology" && <Link key={t.id} href={routeFor(t)} className="card overflow-hidden hover:shadow-md transition"><TechSchematic tech={t} compact height="h-32" /><div className="p-3"><div className="flex items-center gap-2 mb-1"><StatusChip status={t.status} /></div><div className="font-medium">{t.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-2">{t.tldr}</p></div></Link>)}</div>) },
       ];
     }
   }
@@ -580,7 +589,7 @@ function keyPapersTab(e: Entity): Tab[] {
   if (!all.length) return [];
   const papers = all.length > NEIGHBOUR_CAP ? all.slice(0, NEIGHBOUR_CAP) : all;
   return [{ id: "key-papers", label: "Key papers", count: all.length, content: (
-    <div className="grid gap-3 md:grid-cols-2">{papers.length < all.length && <p className="md:col-span-2 text-sm text-muted">The {papers.length} most recent of {all.length} papers; <Link href={e.kind === "cancer" ? cancerTableHref("paper", e.name) : "/papers/"} className="underline" data-more>see them all →</Link></p>}{papers.map((p) => (
+    <div className="grid *:min-w-0 gap-3 md:grid-cols-2">{papers.length < all.length && <p className="md:col-span-2 text-sm text-muted">The {papers.length} most recent of {all.length} papers; <Link href={e.kind === "cancer" ? cancerTableHref("paper", e.name) : "/papers/"} className="underline" data-more>see them all →</Link></p>}{papers.map((p) => (
       <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition">
         <div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.journal} {p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} /></div>
         <div className="font-medium leading-snug">{p.name}</div>
@@ -625,7 +634,7 @@ function peopleTab(items: Entity[]): Tab[] {
   const people = [...new Map(items.filter((x) => x.kind === "person").map((x) => [x.id, x])).values()];
   if (!people.length) return [];
   return [{ id: "people", label: "People", count: people.length, content: (
-    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{people.map((p) => p.kind === "person" && (
+    <div className="grid *:min-w-0 gap-3 sm:grid-cols-2 lg:grid-cols-3">{people.map((p) => p.kind === "person" && (
       <Link key={p.id} href={routeFor(p)} className="card p-3 hover:shadow-md transition">
         <div className="flex items-start gap-3">
           <Portrait id={p.id} name={p.name} size={40} className="mt-0.5" />
@@ -755,7 +764,7 @@ function CancerBasics({ c }: { c: Cancer }) {
   );
   return (
     <Block title="Symptoms, diagnosis and staging" aside={sources}>
-      <div className="grid gap-6 sm:grid-cols-3">
+      <div className="grid *:min-w-0 gap-6 sm:grid-cols-3">
         {b.symptoms.length > 0 && <Field label="How it shows"><LinkedBullets items={b.symptoms} skipId={c.id} /></Field>}
         {b.diagnosis.length > 0 && <Field label="How it is confirmed"><LinkedBullets items={b.diagnosis} skipId={c.id} /></Field>}
         {b.staging.length > 0 && <Field label="How it is staged"><LinkedBullets items={b.staging} skipId={c.id} /></Field>}
@@ -801,7 +810,7 @@ function cancerTabs(c: Cancer): Tab[] {
       {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1"><TL text="Treatment journeys" /></div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}
       {organFor(c.id) && <Block title="Anatomy and lymph node drainage"><OrganSchematic cancerId={c.id} /></Block>}
       {modelsFor(c.id) && <Block title="Preclinical models"><p className="text-sm text-muted">{modelsFor(c.id)!.cellLines.length} cell lines, {modelsFor(c.id)!.gemms.length} mouse models and {modelsFor(c.id)!.pdx.length + modelsFor(c.id)!.organoids.length} repositories are listed for this cancer. <Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(c.name.split(" (")[0])}`}>See them →</Link></p></Block>}
-      <div className="grid gap-6 sm:grid-cols-2 mt-8">
+      <div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
         <Field label="Who gets it and what has changed"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>
         <Field label="Group"><Tip title={`${c.group[0].toUpperCase()}${c.group.slice(1)} cancers`} text={`All ${c.group} cancers in OnCo, filtered in the cancers table.`} href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}><Link className="capitalize underline decoration-dotted decoration-foreground/30 underline-offset-[3px]" href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}>{c.group}</Link></Tip></Field>
       </div>
@@ -809,7 +818,7 @@ function cancerTabs(c: Cancer): Tab[] {
       <Block title="Cases by country"><CountryCasesMini cancerId={c.id} limit={10} /></Block>
       {spreadFor(c.id) && (
         <GentleSection className="mt-8" title={SPREAD_LABELS.fold} why={SPREAD_LABELS.why} reassurance={SPREAD_LABELS.reassurance} kicker={<TL text="Advanced disease" />}>
-          <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
+          <div className="grid *:min-w-0 gap-6 lg:grid-cols-[300px_1fr]">
             <div className="card p-3"><SpreadMap spread={spreadFor(c.id)!} cancerName={c.name} /></div>
             <div className="space-y-4">
               <WhatIsBeingDone topic="spread" cancerId={c.id} compact />
@@ -840,7 +849,7 @@ function cancerTabs(c: Cancer): Tab[] {
         ))}
       </div>) },
     { id: "biology", label: "Subtypes & biomarkers", content: (<>
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid *:min-w-0 gap-6 sm:grid-cols-2">
         <Field label="Subtypes"><LinkedBullets items={c.subtypes} skipId={c.id} /></Field>
         <Field label="Biomarkers clinicians test"><LinkedBullets items={c.biomarkers} skipId={c.id} /></Field>
       </div>
@@ -876,7 +885,7 @@ function TechDependencies({ e }: { e: Extract<Entity, { kind: "technology" }> })
   const mapHref = `/dependencies/?root=${e.id}`;
   return (
     <Block title="Dependencies" aside={<Link className="text-sm text-accent hover:underline whitespace-nowrap" href={mapHref}>Open the dependency map →</Link>}>
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid *:min-w-0 gap-4 sm:grid-cols-2">
         <div>
           <div className="kicker mb-1.5"><TL text="Depends on" /> <span className="text-muted font-normal">({up.length})</span></div>
           {up.length ? <div className="flex flex-wrap gap-1.5">{up.map(chip)}</div> : <p className="text-sm text-muted">Nothing recorded yet: a foundation, or a gap to fill.</p>}

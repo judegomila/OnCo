@@ -44,7 +44,7 @@ export function ChangeKindChip({ kind }: { kind: ChangeKind }) {
 
 function ChangeRow({ it }: { it: ChangeItem }) {
   return (
-    <li>
+    <li className="min-w-0">
       <Link href={it.href} className="card block p-3 hover:shadow-md transition">
         <div className="flex flex-wrap items-center gap-2">
           <span className="font-mono text-xs text-muted tabular-nums">{it.date}</span>

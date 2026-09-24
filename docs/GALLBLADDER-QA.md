@@ -114,10 +114,12 @@ For calibration the same measure gives NSCLC 2,292 KB before and 813 KB after, c
   PMIDs instead.
 - Two Macmillan pages (multidisciplinary team, second opinion) have moved with no discoverable replacement; the
   living file now cites Macmillan's hubs instead.
-- The `Tabs` key warning on every entity page predates the spike and belongs to `src/components/EntityDetail.tsx`.
-- Entity pages let the layout viewport grow past 390 px under CDP mobile emulation (tab strip, pipeline list
-  items, Related pages cards); the same happens on `/cancers/pancreatic/`, so it is a shared layout question, not
-  a gallbladder one. `scripts/mobile-audit.ts` could take the cancer, roadmap and term routes as width-only checks.
+- Closed: the `Tabs` key warning came from keyless fragments in each tab's `content`, which React Flight sends to
+  the client as plain arrays; `EntityDetail` now keys every tab's content on the tab id.
+- Closed: the sideways scroll on record pages was a long nowrap pill widening a grid track in the Related pages and
+  Connected cards (and the What changed cards, guideline and product pill wrappers, company tables and institution
+  year bars); grid children can shrink and tables scroll inside `ScrollRow` (docs/MOBILE.md). One record of each kind
+  is now a width-only check in `scripts/mobile-audit.ts`.
 - `/cancers/gallbladder/` still carries 15 standard-of-care rows and 17 open problems from four files; they no
   longer repeat each other but a single editorial pass could order them by the patient's journey.
 - The KEYNOTE-966 gallbladder share and hazard ratio are in the Lancet paper's tables, not its abstract, and are

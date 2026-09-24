@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ScrollRow } from "./ScrollRow";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/kinds";
 import { type Company } from "@/lib/schema";
@@ -54,7 +55,7 @@ export function FundingPanel({ id }: { id: string }) {
         {rounds.length > 0 && (
           <div className="card p-4 text-sm">
             <div className="kicker mb-2">Rounds on record</div>
-            <div className="overflow-x-auto">
+            <ScrollRow>
             <table className="onco text-sm">
               <thead><tr><th>Round</th><th>Year</th><th className="text-right">Amount</th><th>Source</th></tr></thead>
               <tbody>{rounds.map((r, i) => (
@@ -66,7 +67,7 @@ export function FundingPanel({ id }: { id: string }) {
                 </tr>
               ))}</tbody>
             </table>
-            </div>
+            </ScrollRow>
             <p className="text-xs text-muted mt-2">Amounts only where the cited source states them. Rounds without a public source are not listed.</p>
           </div>
         )}
@@ -86,7 +87,7 @@ export function PortfolioPanel({ id }: { id: string }) {
       {portfolio.length === 0 ? (
         <p className="text-sm text-muted">No OnCo company names this investor yet. Portfolio links are declared on the startup record (`investors`), so adding one there lists it here.</p>
       ) : (
-        <div className="overflow-x-auto card">
+        <ScrollRow className="card">
           <table className="onco text-sm">
             <thead><tr><th>Company</th><th>Stage</th><th className="hidden sm:table-cell">Type</th><th className="hidden md:table-cell">Cancers</th><th className="hidden lg:table-cell">Latest round</th></tr></thead>
             <tbody>{portfolio.map((c) => {
@@ -102,7 +103,7 @@ export function PortfolioPanel({ id }: { id: string }) {
               );
             })}</tbody>
           </table>
-        </div>
+        </ScrollRow>
       )}
     </Section>
   );

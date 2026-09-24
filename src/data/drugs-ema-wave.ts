@@ -36,13 +36,13 @@ export const drugsEmaWave: DrugInput[] = [
     cancers: ["all-leukemia", "all-paediatric-standard-risk", "all-paediatric-high-risk"], companies: ["jazz"], related: ["asparaginase", "eryaspase"],
     links: [{ label: "EMA: Enrylaze (EPAR)", url: EPAR("enrylaze") }] }),
 
-  d({ id: "burosumab", name: "Burosumab", brand: "Crysvita", aka: ["burosumab", "Crysvita", "KRN23"], status: "approved", tags: ["supportive"],
+  { ...d({ id: "burosumab", trials: ["ux023t-cl201"], keyPapers: ["paper-ux023t-cl201-jan-de-beur-jbmr-2021"], name: "Burosumab", brand: "Crysvita", aka: ["burosumab", "Crysvita", "KRN23"], status: "approved", tags: ["supportive"],
     modality: "Monoclonal antibody (anti-FGF23)", mechanism: "Antibody to fibroblast growth factor 23; used for FGF23-related hypophosphataemia, including the form caused by phosphate-wasting tumours (tumour-induced osteomalacia), where the tumour cannot be found or removed (indication wording, EMA).",
     tldr: "Crysvita is an antibody for a rare bone-softening condition in which the body leaks phosphate. Some small tumours cause it by making too much of a hormone called FGF23; when the tumour cannot be found or removed, Crysvita blocks the hormone.",
     summary: "Burosumab (Crysvita) has been authorised in the EU since 19 February 2018 (CHMP opinion 14 December 2017; marketing authorisation holder Kyowa Kirin Holdings B.V.; orphan designation) for X-linked hypophosphataemia in children and adolescents aged 1 to 17 with radiographic bone disease and in adults, and for FGF23-related hypophosphataemia in tumour-induced osteomalacia associated with phosphaturic mesenchymal tumours that cannot be curatively resected or localised. The cancer-care indication is the second: it treats the metabolic effect of a tumour rather than the tumour itself.",
     approvals: [{ region: "EU", year: 2018, indication: "X-linked hypophosphataemia; FGF23-related hypophosphataemia in tumour-induced osteomalacia (phosphaturic mesenchymal tumours not curatively resectable or localisable)", note: "Authorised 19 Feb 2018; Kyowa Kirin" }],
     cancers: [], companies: ["kyowa-kirin"],
-    links: [{ label: "EMA: Crysvita (EPAR)", url: EPAR("crysvita") }] }),
+    links: [{ label: "UX023T-CL201 (J Bone Miner Res 2021)", url: "https://doi.org/10.1002/jbmr.4233" }, { label: "EMA: Crysvita (EPAR)", url: EPAR("crysvita") }, { label: "US label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=102f96a0-6e3a-4fc1-b204-34d604683af6" }] }), asOf: "2026-09-24" },
 
   { ...d({ id: "epoetin-theta", trials: ["xm01-22"], keyPapers: ["paper-xm01-22-tjulandin-arch-drug-inf-2011"], name: "Epoetin theta", brand: "Eporatio / Biopoin", aka: ["epoetin theta", "Eporatio", "Biopoin"], status: "approved", tags: ["supportive"],
     modality: "Recombinant erythropoietin (erythropoiesis-stimulating agent)", mechanism: "Recombinant human erythropoietin that acts on the erythropoietin receptor to stimulate red-cell production; used for symptomatic anaemia in adults with non-myeloid cancers receiving chemotherapy and in chronic renal failure (indication wording, EMA).",

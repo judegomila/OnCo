@@ -1,0 +1,75 @@
+src/app/checkpoints/cell-cycle/data.json/route.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-9
+src/app/checkpoints/immune/data.json/route.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-9
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 97
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 97
+src/app/checkpoints/cell-cycle/page.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-92
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 97
+src/components/CheckpointTable.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-121
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 97
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 97
+src/app/checkpoints/page.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-136
+src/components/ImmuneSynapse.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-155
+src/app/mechanics/[stage]/page.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 18,170
+src/app/checkpoints/immune/page.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-65
+src/data/index.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 157,247,296-297
+src/components/CellCycleRing.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-142
+src/data/terms-basics.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 601,605
+src/lib/checkpoints.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-218
+src/components/CheckpointPills.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-32
+src/data/checkpoint-map.test.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-174
+src/components/CheckpointGlyph.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-50
+src/components/CheckpointSwitch.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-30
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_aefa445aec3021 46
+src/data/target-xrefs.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 3321-3701
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 97
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 97
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 44
+src/app/checkpoints/checkpoints.json/route.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-9
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 97
+src/data/checkpoint-map.ts
+  s_0beac9cb5d78fd::t_aefa445aec3021 1-894
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "252cc9799f10cc0369b17765718d68ed64dc9b69",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

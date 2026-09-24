@@ -46,6 +46,7 @@ import { papersIdeasWave6 } from "./papers-ideas-wave6";
 import { ideaLinksWave6 } from "./idea-links-wave6";
 import { companyDrugsWave6, trialCompaniesWave6 } from "./company-drugs-wave6";
 import { entityTrialLinksWave5, entityTrialsWave5, trialsEntitiesWave5 } from "./trials-entities-wave5";
+import { issuesWaveAPapers, issuesWaveATrials } from "./issues-2026-09-wave-a";
 import { nutrition } from "./nutrition";
 import { adcChemistry } from "./adc-chemistry";
 import { journals } from "./journals";
@@ -193,6 +194,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...papersIdeasWave6,
   ...trialsIdeasWave6,
   ...trialsEntitiesWave5,
+  ...issuesWaveATrials, ...issuesWaveAPapers,
   ...nutrition,
   ...adcChemistry,
   ...journals,

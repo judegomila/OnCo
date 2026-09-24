@@ -69,7 +69,9 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
   // Pre-registration chemoradiation and nodal trials (INT-0116, German rectal, ACT II, RTOG 91-11, DBCG 82, EORTC 26951, Slotman and Takahashi PCI).
   "int-0116", "cao-aro-aio-94", "act-ii", "rtog-91-11", "dbcg-82bc", "eortc-26951", "slotman-pci-es-sclc", "takahashi-pci",
   // Indian academic trials registered with the Clinical Trials Registry - India (CTRI) or run before registration was required.
-  "low-dose-nivolumab-tmh", "metronomic-vs-cisplatin-tmh", "metro-plus-varanasi", "gefitinib-chemo-tmh", "progesterone-preop-tmh", "lidocaine-peritumoral-tmh", "osmanabad-hpv-screening", "kerala-oral-screening", "mumbai-via-screening"]);
+  "low-dose-nivolumab-tmh", "metronomic-vs-cisplatin-tmh", "metro-plus-varanasi", "gefitinib-chemo-tmh", "progesterone-preop-tmh", "lidocaine-peritumoral-tmh", "osmanabad-hpv-screening", "kerala-oral-screening", "mumbai-via-screening",
+  // EU industry pivotal registered with EudraCT only (2009-015999-10); the nct field does not accept EudraCT numbers (issue 83).
+  "xm22-03"]);
 
 /** Standard-of-care rows whose approach is surgery or observation, with no product to reference. */
 const SOC_ROWS_WITHOUT_REFS = new Set(["cholangiocarcinoma: Resectable", "dlbcl: Frontline", "endometrial: Early", "neuroendocrine: Localised", "ovarian: Platinum-sensitive relapse"]);

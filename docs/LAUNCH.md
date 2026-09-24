@@ -66,6 +66,8 @@ change.
 
 ## Owner asks of 24 Sept 2026
 - [x] Gallbladder cancer deep spike with a UK and NHS focus (record rewritten, eight subtypes, molecular landscape, treatments and 131 registry trials, /cancers/gallbladder/uk/ on the reusable UK pathway page, roadmap, 40 papers, decisions, first 60 days, red cards; reviewed against sources, docs/GALLBLADDER-QA.md): chains 115 to 118
+- [x] Issues and PRs swept 24 Sept: 31 reader proposals applied (23 trial records, 7 enriched, 27 papers) and closed with live links; PR 74 residue decided row by row and closed; issue 43 (prognosis) held open with a status reply; issue 63 (Atlas) open pending details from the author
+- [x] Checkpoint families map (/checkpoints/), target specificity and distribution (/targets/specificity/), ivermectin evidence page (/drugs/ivermectin/): chains 120 to 122
 - [ ] Gallbladder gaps only the owner or time can close: NDRS pages block automated reading (England stage split, 2023 counts); Public Health Scotland publishes no C23 site; five GLHs publish no turnaround; KEYNOTE-966 gallbladder subgroup, ACTICCA-1, GAIN and POLCAGB results not yet published
 
 ## Owner asks not yet started

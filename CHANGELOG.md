@@ -7,7 +7,13 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 24 September 2026
+- Gallbladder cancer deep spike: the record rewritten with UK and world figures, eight subtypes, molecular landscape, UK and NHS pathway page, 40 papers, roadmap and ideas, decisions, first 60 days and red cards; weekly bot refreshes merged
 - Gallbladder cancer deep spike, first round: the record rewritten with UK and world figures, eight subtypes, molecular landscape, decisions, first 60 days and red cards
+- Citation counts for the gallbladder evidence papers
+- Gallbladder cancer roadmap, ideas, guideline and trial papers, terms and history
+- Gallbladder cancer evidence: surgical, staging, UK, polyp, prevention, HER2 and ctDNA papers from Europe PMC
+- UK and NHS page per cancer: /cancers/<id>/uk/, cancer-page pill, sitemap and JSON companion
+- Gallbladder cancer: UK and NHS layer data, HPB centres, AMMF and UK trialists
 - Gallbladder cancer record rebuilt with sourced UK, world and US figures, TNM 8th edition in plain words, risk factors with evidence, screening rules and patient FAQ; eight subtype pages and ten glossary terms
 - Spike patches reach every cancer record wherever it lives, and fail loudly when the cancer id is missing; gallbladder landscape guard test
 - Spike patches also merge into NCI coverage cancer records
@@ -15,6 +21,10 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Gallbladder cancer: cancer-scoped red cards, dated first-60-days checklist, incidental-cancer journey
 - Pipeline engine: a biparatopic antibody with one declared target resolves both arms at high confidence; zovodotin is a named auristatin payload
 - Gallbladder cancer living-with spike: decision rows, question set and glossary records
+- chore: weekly roadmap registry check (public/roadmap-watch.json)
+- chore: refresh pulse, abstract and citation snapshots (#86)
+- chore: refresh institution research output from OpenAlex (#81)
+- chore: EU regional rows read from the EMA register pages (#73)
 
 ### 23 September 2026
 - Top bar fits at 1280 px with a classic scrollbar

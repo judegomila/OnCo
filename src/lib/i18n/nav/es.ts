@@ -93,6 +93,7 @@ export const navEs: NavDict = {
   "/pulse/": ["Pulso de la investigación", "Qué dicen este mes las principales revistas, reguladores y fuentes de noticias."],
   "/toxicity/": ["Comparar toxicidad", "Eventos adversos de grado 3 o más entre productos de la misma clase."],
   "/isotopes/": ["Suministro de isótopos", "Lu-177, Ac-225, Pb-212 y quién los produce."],
+  "/checkpoints/": ["Familias de puntos de control", "Una palabra, dos biologías: puntos de control inmunitarios en la sinapsis y puertas del ciclo celular en el anillo, cada miembro con su pareja, expresión, fármacos y aprobaciones."],
   "/report/": ["Informe anual", "El estado de la guerra contra el cáncer, año a año, generado a partir del corpus."],
   "/changelog/": ["Registro de cambios", "Qué cambió en OnCo, y cuándo."],
   "/status/": ["Actualidad de los datos", "Cuándo corrió por última vez cada fuente automática, qué está obsoleto y el registro de incidentes."],

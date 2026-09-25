@@ -7,6 +7,7 @@ import { routeFor } from "./kinds";
 import { routeExists } from "./sitemap-urls";
 import { DECISION_TOOLS, enumerateAnswers, isComplete, toolById, toolCard, toolRoute, toolsFor, toolUrls, type Answers } from "./decision-tools";
 import { QUOTED_ROWS } from "@/data/decision-tools/incidental-gallbladder-cancer";
+import { QUOTED_TNBC_ROWS } from "@/data/decision-tools/tnbc-after-chemotherapy";
 import { gallbladderStandardOfCare } from "@/data/spikes/gallbladder-treatment";
 import { NAV_GROUPS } from "./nav";
 import ToolPage, { generateStaticParams } from "@/app/tools/[id]/page";
@@ -144,6 +145,32 @@ describe("decision tools: data", () => {
       const row = gallbladderStandardOfCare.find((r) => r.setting === setting);
       expect(row, setting).toBeTruthy();
       expect(row!.approach).toBe(approach);
+    }
+    const tnbc = graph().must("tnbc");
+    for (const [setting, approach] of Object.entries(QUOTED_TNBC_ROWS)) {
+      const row = tnbc.kind === "cancer" ? tnbc.standardOfCare.find((r) => r.setting === setting) : undefined;
+      expect(row, setting).toBeTruthy();
+      expect(row!.approach).toBe(approach);
+    }
+  });
+
+  it("reads the triple-negative pathology report the way NICE and the trials do", () => {
+    const t = toolById("tnbc-after-chemotherapy")!;
+    const base: Answers = { response: "rcb23", brca: "none", pembro: "yes" };
+    expect(t.decide({ ...base, response: "pcr" })[0]).toBe("pcr");
+    expect(t.decide(base)[0]).toBe("capecitabine");
+    expect(t.decide({ ...base, brca: "variant" })[0]).toBe("olaparib");
+    expect(t.decide({ ...base, brca: "variant" })).toContain("brca-family");
+    expect(t.decide({ ...base, brca: "not-tested" })[0]).toBe("get-tested");
+    expect(t.decide({ ...base, response: "unknown" })[0]).toBe("rcb-not-reported");
+    expect(t.decide({ ...base, response: "pcr", brca: "variant" })).toContain("pcr-brca");
+    expect(t.decide({ ...base, response: "pcr", brca: "variant" })).not.toContain("olaparib");
+    expect(t.decide({ ...base, response: "pcr" })).not.toContain("capecitabine");
+    for (const a of enumerateAnswers(t)) {
+      const ids = t.decide(a);
+      expect(ids.at(-1)).toBe("follow-up");
+      expect(ids).toContain(a.pembro === "yes" ? "pembro-continues" : "no-pembro");
+      if (a.response === "pcr") { expect(ids).not.toContain("olaparib"); expect(ids).not.toContain("capecitabine"); expect(ids).not.toContain("rcb-class"); }
     }
   });
 

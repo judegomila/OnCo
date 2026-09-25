@@ -31,7 +31,8 @@ describe("red flags", () => {
       for (const id of s.concernIds ?? []) expect(g.get(id), `${s.id}: ${id}`).toBeDefined();
     }
     expect(redFlagsForCancerId("gallbladder").map((s) => s.id)).toEqual(["biliary-cholangitis", "biliary-obstruction", "biliary-bleeding", "biliary-pain"]);
-    expect(redFlagsForCancerId("tnbc")).toEqual([]);
+    expect(redFlagsForCancerId("tnbc").map((s) => s.id)).toEqual(["tnbc-neutropenic-sepsis", "tnbc-immune-reactions", "tnbc-adc-lung"]);
+    expect(redFlagsForCancerId("nsclc")).toEqual([]);
   });
 
   it("matches the main classes by id or modality", () => {

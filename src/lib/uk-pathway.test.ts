@@ -9,9 +9,10 @@ import pancreaticSpike from "@/data/spikes/pancreatic-uk";
 import colorectalSpike from "@/data/spikes/colorectal-uk";
 import lungSpike from "@/data/spikes/lung-uk";
 import prostateSpike from "@/data/spikes/prostate-uk";
+import breastSpike from "@/data/spikes/breast-uk";
 import UkPage, { generateStaticParams } from "@/app/cancers/[id]/uk/page";
 
-const SPIKES = [gallbladderSpike, tnbcSpike, pancreaticSpike, colorectalSpike, lungSpike, prostateSpike];
+const SPIKES = [gallbladderSpike, tnbcSpike, pancreaticSpike, colorectalSpike, lungSpike, prostateSpike, breastSpike];
 
 /**
  * The UK and NHS layer quotes public UK sources only. Every URL must be https and sit on one of these domains
@@ -36,6 +37,9 @@ const ALLOWED_DOMAINS = [
   // Prostate cancer pass: the prostate charities, and the Bristol research-information host (ProtecT's recruitment
   // and patient-reported outcomes work was run from Bristol, and Jenny Donovan has no other public page).
   "prostatecanceruk.org", "tackleprostate.org", "prostatescotland.org.uk", "prostate-cancer-research.org.uk", "bris.ac.uk",
+  // Breast cancer family pass: the UK National Screening Committee's recommendation service and nidirect, both of
+  // which are gov.uk service domains. Everything else the breast layer cites is already on the list.
+  "view-health-screening-recommendations.service.gov.uk", "nidirect.gov.uk",
 ];
 
 const hostOk = (url: string) => {
@@ -169,6 +173,48 @@ describe("UK pathway data", () => {
     for (const f of p!.funding) { expect(f.wales, f.line).toBeTruthy(); expect(f.northernIreland, f.line).toBeTruthy(); }
     // Every nation is represented in the centres, and England has the audit's high-volume providers.
     expect(p!.centres.filter((c) => c.nation === "England").length).toBeGreaterThanOrEqual(15);
+  });
+
+  it("registers the breast cancer pathway on the family id, with the receptor subtypes and the histologies as aliases", () => {
+    const p = ukPathwayFor("breast-cancer");
+    expect(p?.cancerId).toBe("breast-cancer");
+    // The family page is where a frightened reader lands: screening, the referral rules, the one-stop clinic and
+    // the waiting-time standards are the same whichever receptor result comes back, so they live here and the
+    // subtype pages carry only what depends on the result.
+    for (const alias of ["breast-hr-positive", "breast-her2-positive", "ductal-carcinoma-in-situ", "invasive-lobular-carcinoma", "male-breast-cancer", "inflammatory-breast-cancer", "paget-disease-of-the-nipple", "her2-low-metastatic-breast-cancer"]) expect(ukPathwayFor(alias)?.cancerId, alias).toBe("breast-cancer");
+    // Triple-negative disease keeps its own pathway and is not an alias of the family one.
+    expect(ukPathwayFor("tnbc")?.cancerId).toBe("tnbc");
+    expect(p!.aliases).not.toContain("tnbc");
+    const g = graph();
+    for (const id of ["breast-cancer", "breast-hr-positive", "male-breast-cancer"]) expect(g.get(id)?.kind, id).toBe("cancer");
+    // The three UK prevention and screening trial records the spike adds, and the three radiotherapy trials it reuses.
+    for (const id of ["ibis-i", "ibis-ii", "agex", "start-b", "fast-forward", "import-low"]) expect(g.get(id)?.kind, id).toBe("trial");
+    // The screening programme, which had no page on the site before this one: ages, interval, recall arithmetic
+    // and the Marmot review's benefit and overdiagnosis estimate, each read from the programme's own documents.
+    expect(JSON.stringify(p)).toContain("between 50 and 53");
+    expect(JSON.stringify(p)).toContain("71st birthday");
+    expect(JSON.stringify(p)).toContain("96 need no further tests; 4 are recalled; 1 of those 4 has cancer");
+    expect(JSON.stringify(p)).toContain("around 1,300 a year");
+    expect(JSON.stringify(p)).toContain("19,291");
+    // The very high risk programme's own thresholds, and the R208 criteria a breast team works to.
+    expect(JSON.stringify(p)).toContain("CanRisk");
+    expect(JSON.stringify(p)).toContain("Whalsay");
+    // Breast is the only cancer with two urgent referral routes, and both are reported.
+    expect(JSON.stringify(p)).toContain("breast symptomatic");
+    expect(JSON.stringify(p)).toContain("183,420");
+    // The audit's variation, which is the reason the centres list exists.
+    expect(JSON.stringify(p)).toContain("5.3");
+    expect(JSON.stringify(p)).toContain("89.3");
+    // Every NICE decision quoted carries its appraisal number, including the refusals and the two appraisals
+    // abandoned because the company did not submit evidence.
+    const refs = p!.funding.filter((f) => f.england.body === "NICE").map((f) => f.england.ref);
+    for (const ta of ["TA886", "TA265", "TA214", "TA1089"]) expect(refs, ta).toContain(ta);
+    // The genomic test directory codes are quoted, not described.
+    for (const code of ["R208.1", "R242.1", "R216.1", "M3.12", "M3.7"]) expect(JSON.stringify(p!.tests), code).toContain(code);
+    // Every funding row names Wales and Northern Ireland.
+    for (const f of p!.funding) { expect(f.wales, f.line).toBeTruthy(); expect(f.northernIreland, f.line).toBeTruthy(); }
+    // Every nation is represented in the centres.
+    expect(p!.centres.filter((c) => c.nation === "England").length).toBeGreaterThanOrEqual(6);
   });
 
   it("cites only https URLs on allowed UK public domains", () => {
@@ -366,6 +412,31 @@ describe("/cancers/[id]/uk/ page", () => {
     expect(renderToStaticMarkup(createElement(() => lowRisk))).toContain("Cambridge Prognostic Group");
     const mcrpc = await UkPage({ params: Promise.resolve({ id: "prostate-mcrpc" }) });
     expect(renderToStaticMarkup(createElement(() => mcrpc))).toContain("TA887");
+  });
+
+  it("renders the breast family page with the screening programme, the family history service, both referral routes and the audit", async () => {
+    const el = await UkPage({ params: Promise.resolve({ id: "breast-cancer" }) });
+    const html = renderToStaticMarkup(createElement(() => el));
+    for (const id of ["pathway", "centres", "funding", "tests", "trials", "data", "support", "nations", "gaps"]) expect(html).toContain(`id="${id}"`);
+    expect(html).toContain("Faster Diagnosis Standard");
+    expect(html).toContain("breast symptomatic");
+    expect(html).toContain("R208.1");
+    expect(html).toContain("TA886");
+    expect(html).toContain("TA1089");
+    expect(html).toContain("SMC2518");
+    expect(html).toContain("26 Gy in 5 fractions");
+    expect(html).toContain("Breast Test Wales");
+    expect(html).toContain("ISRCTN81384017");
+    expect(html).toContain("/api/v1/cancers/breast-cancer/uk.json");
+    expect(html).not.toMatch(/<a[^>]*>[^<]*<a/);
+    // A receptor subtype alias and a histology alias render the same pathway.
+    const hrPositive = await UkPage({ params: Promise.resolve({ id: "breast-hr-positive" }) });
+    expect(renderToStaticMarkup(createElement(() => hrPositive))).toContain("Faster Diagnosis Standard");
+    const lobular = await UkPage({ params: Promise.resolve({ id: "invasive-lobular-carcinoma" }) });
+    expect(renderToStaticMarkup(createElement(() => lobular))).toContain("R208.1");
+    // The triple-negative page is still its own pathway and is not replaced by the family one.
+    const tnbc = await UkPage({ params: Promise.resolve({ id: "tnbc" }) });
+    expect(renderToStaticMarkup(createElement(() => tnbc))).toContain("TA851");
   });
 
   it("returns not-found for a cancer without a pathway", async () => {

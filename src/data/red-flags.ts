@@ -56,6 +56,13 @@ const MAC_SEPSIS = { label: "Macmillan: sepsis", url: "https://www.macmillan.org
 const MAC_PEMBRO = { label: "Macmillan: pembrolizumab", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/pembrolizumab" };
 const BCN_PEMBRO = { label: "Breast Cancer Now: pembrolizumab (Keytruda)", url: "https://breastcancernow.org/about-breast-cancer/treatment/targeted-therapy/pembrolizumab-keytruda" };
 const POWELL_ILD = { label: "Powell et al., pooled analysis of interstitial lung disease in nine trastuzumab deruxtecan studies (ESMO Open 2022)", url: "https://doi.org/10.1016/j.esmoop.2022.100554" };
+const NHS_PC_SYMPTOMS = { label: "NHS: pancreatic cancer, symptoms", url: "https://www.nhs.uk/conditions/pancreatic-cancer/symptoms/" };
+const NHS_DV = { label: "NHS: diarrhoea and vomiting", url: "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/" };
+const NHS_DVT = { label: "NHS: DVT (deep vein thrombosis)", url: "https://www.nhs.uk/conditions/blood-clots/" };
+const MAC_FOLFIRINOX = { label: "Macmillan: FOLFIRINOX", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/folfirinox" };
+const PCUK_STENT_BILE = { label: "Pancreatic Cancer UK: stent for a blocked bile duct", url: "https://www.pancreaticcancer.org.uk/information/treatments-for-pancreatic-cancer/stent-for-a-blocked-bile-duct/" };
+const PCUK_STENT_DUODENUM = { label: "Pancreatic Cancer UK: stents for a blocked duodenum", url: "https://www.pancreaticcancer.org.uk/information/treatments-for-pancreatic-cancer/stents-for-a-blocked-duodenum/" };
+const PCUK_CLOTS = { label: "Pancreatic Cancer UK: blood clots in a vein and pancreatic cancer", url: "https://www.pancreaticcancer.org.uk/information/managing-symptoms-and-side-effects/blood-clots-in-a-vein-dvt-and-pancreatic-cancer/" };
 
 export const GENERAL_RED_FLAGS: RedFlagSet = {
   id: "general",
@@ -356,6 +363,70 @@ export const redFlagSets: RedFlagSet[] = [
     window: "In a pooled analysis of 1,150 people on trastuzumab deruxtecan, 15.4% developed drug-related interstitial lung disease, 87% of them within the first 12 months and 2.2% fatal; the Enhertu label carries a boxed warning and says to report symptoms immediately.",
     flags: [
       { symptom: "New cough, breathlessness or fever on trastuzumab deruxtecan or datopotamab deruxtecan", threshold: "Any new or worsening cough, breathlessness or fever: the label says to interrupt treatment for any suspected interstitial lung disease and to discontinue permanently for grade 2 or higher. Macmillan's wording for the same symptoms on pembrolizumab applies: contact the hospital straight away on the 24-hour number. Breathless at rest or blue lips is 999.", action: "call-now", source: POWELL_ILD },
+    ],
+  },
+  // ---- Pancreatic cancer: the emergencies of the disease and its treatment, whatever the drug (NHS 111 and 999 wording, Pancreatic Cancer UK thresholds).
+  {
+    id: "pancreatic-cholangitis",
+    label: "Pancreatic cancer: infection of a blocked bile duct or stent (cholangitis)",
+    cancerIds: ["pancreatic"],
+    concernIds: ["biliary-stenting-drainage", "acute-cholangitis"],
+    window: "A tumour in the head of the pancreas blocks the bile duct early, and Pancreatic Cancer UK says stents can block, move or become infected; infection behind a blocked duct can become sepsis within hours, and chemotherapy adds to the risk.",
+    flags: [
+      { symptom: "Signs of sepsis", threshold: "Breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin, lips or tongue; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed: the NHS says call 999 or go to A&E, and do not drive yourself.", action: "emergency", source: NHS_SEPSIS },
+      { symptom: "High temperature or shivering with a stent or jaundice", threshold: "Pancreatic Cancer UK says there is a chance of infection after a stent, treated with antibiotics, and that fever or shivering with jaundice can accompany a blocked duct; ring the 24-hour line the same day. After surgery it says sudden worse pain with a high temperature, shivering or feeling generally unwell means going to A&E and telling them about your operation.", action: "call-now", source: PCUK_STENT_BILE },
+    ],
+  },
+  {
+    id: "pancreatic-biliary-obstruction",
+    label: "Pancreatic cancer: jaundice from a new or returning blockage",
+    cancerIds: ["pancreatic"],
+    concernIds: ["biliary-stenting-drainage", "obstructive-jaundice"],
+    flags: [
+      { symptom: "Yellow skin or eyes, dark urine, pale stools or itching", threshold: "The NHS says ask for an urgent GP appointment or get help from NHS 111 if the whites of your eyes or your skin turn yellow. With a stent in place, returning jaundice usually means the stent has blocked; Pancreatic Cancer UK says it can be cleared or replaced the way it went in.", action: "call-now", source: NHS_PC_SYMPTOMS },
+      { symptom: "Being sick for more than 2 days, or diarrhoea for more than 7 days", threshold: "The NHS pancreatic cancer page says ask for an urgent GP appointment or get help from NHS 111 if you're being sick for more than 2 days or have diarrhoea for more than 7 days.", action: "call-today", source: NHS_PC_SYMPTOMS },
+    ],
+  },
+  {
+    id: "pancreatic-neutropenic-sepsis",
+    label: "Pancreatic cancer: infection and sepsis during chemotherapy",
+    cancerIds: ["pancreatic"],
+    concernIds: ["febrile-neutropenia", "folfirinox", "gemcitabine-nab-paclitaxel"],
+    window: "FOLFIRINOX, NALIRIFOX and gemcitabine with nab-paclitaxel all lower white cells; blood counts are checked before each dose and are usually lowest 7 to 14 days after it. A blocked bile duct is a second route to sepsis in this cancer, so fever counts even when the count is normal.",
+    flags: [
+      { symptom: "Signs of sepsis", threshold: "Breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed: the NHS says call 999 or go to A&E. Macmillan's 999 list adds passing no urine in a day.", action: "emergency", source: NHS_SEPSIS },
+      { symptom: "Temperature above 37.5 C or below 36 C, or feeling unwell", threshold: "Macmillan's FOLFIRINOX and nab-paclitaxel pages say to contact the hospital straight away on the 24-hour number for a temperature above 37.5 C or below 36 C, for feeling unwell even with a normal temperature, or for symptoms of infection such as shivering, a sore throat, a cough, breathlessness, diarrhoea or pain passing urine; NICE CG151 says suspected neutropenic sepsis is referred immediately for assessment.", action: "call-now", source: MAC_FOLFIRINOX },
+    ],
+  },
+  {
+    id: "pancreatic-bleeding",
+    label: "Pancreatic cancer: bleeding from the gut, or on a blood thinner",
+    cancerIds: ["pancreatic"],
+    flags: [
+      { symptom: "Vomiting blood or black stools", threshold: "Vomiting blood (bright red, brown, black or like coffee granules) together with feeling unwell, confused, faint or dizzy, rapid or shallow breathing, cold clammy pale skin, tummy pain or black poo: the NHS says call 999 or go to A&E. If the vomiting of blood has stopped and there are no other symptoms, ask for an urgent GP appointment or call 111. The tumour can bleed into the duodenum, and many people with pancreatic cancer take blood-thinning medicine, which makes bleeding last longer.", action: "emergency", source: NHS_VOMITING_BLOOD },
+      { symptom: "Unexplained bruising, nosebleeds or bleeding gums on chemotherapy", threshold: "Macmillan says chemotherapy can lower platelets and to contact the hospital straight away on the 24-hour number for any unexplained bruising or bleeding; you may need a platelet transfusion.", action: "call-now", source: MAC_FOLFIRINOX },
+    ],
+  },
+  {
+    id: "pancreatic-bowel-obstruction",
+    label: "Pancreatic cancer: a blocked duodenum or bowel",
+    cancerIds: ["pancreatic"],
+    concernIds: ["duodenal-stenting-gastric-outlet"],
+    window: "The tumour can press on the duodenum so food cannot leave the stomach (gastric outlet obstruction); a duodenal stent or a bypass operation treats it, and a stent can itself block with food.",
+    flags: [
+      { symptom: "Vomiting large amounts, especially after food, feeling full, bloating or cramps", threshold: "Pancreatic Cancer UK says if you are being sick a lot and cannot keep down food or fluid for half a day or longer, or have signs of dehydration, contact your GP, NHS 111 or your specialist nurse, and the 24-hour chemotherapy number if you are on treatment; with a duodenal stent, vomiting again can mean it has blocked or moved, so speak to the team or go to A&E if you cannot reach them.", action: "call-now", source: PCUK_STENT_DUODENUM },
+      { symptom: "Sudden severe tummy pain, green vomit, or vomit that looks like ground coffee", threshold: "The NHS diarrhoea and vomiting page says call 999 or go to A&E for a sudden, severe tummy ache, green vomit in an adult, or vomiting blood or vomit that looks like ground coffee.", action: "emergency", source: NHS_DV },
+    ],
+  },
+  {
+    id: "pancreatic-blood-clot",
+    label: "Pancreatic cancer: a blood clot in the leg or lungs",
+    cancerIds: ["pancreatic"],
+    concernIds: ["vte", "cancer-associated-thrombosis"],
+    window: "Pancreatic Cancer UK says people with pancreatic cancer are at higher risk of a clot, more so with metastatic disease, surgery and chemotherapy; blood-thinning injections continue for about four weeks after surgery and the oncologist should consider them during chemotherapy.",
+    flags: [
+      { symptom: "Swollen or painful leg or arm with breathlessness or chest pain", threshold: "The NHS says call 999 or go to A&E if you have symptoms of DVT, such as pain and swelling, and feel short of breath or have chest pain; a clot that travels to the lungs (pulmonary embolism) is life-threatening. Do not drive yourself.", action: "emergency", source: NHS_DVT },
+      { symptom: "Pain, swelling, warmth or colour change in one leg or arm; sudden or gradual breathlessness; coughing up blood", threshold: "Pancreatic Cancer UK says tell your doctor or medical team straight away, or go to A&E or call 999; on chemotherapy call the 24-hour emergency number, and if you cannot get through go to A&E or call 999. Most clots are treated with blood-thinning tablets or injections without stopping cancer treatment.", action: "call-now", source: PCUK_CLOTS },
     ],
   },
 ];

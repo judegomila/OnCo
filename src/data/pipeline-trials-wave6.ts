@@ -2014,7 +2014,7 @@ export const pipelineTrialsWave6: TrialInput[] = [
     summary: "Study to Evaluate the Preliminary Efficacy of SKB264 and the Effect of Clarithromycin on the PK of SKB264 in OC is a phase 2 interventional study registered as NCT07341100 by Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd., with 20 participants enrolled, started 2026-01-16 and due to reach its primary completion in 2028-01. Interventions recorded: SKB264 and Clarithromycin.",
     drugs: [], cancers: ["ovarian"], companies: ["kelun-biotech"],
     links: [{ label: "ClinicalTrials.gov NCT07341100", url: "https://clinicaltrials.gov/study/NCT07341100" }] },
-  { id: "nct07346144", aka: ["ADePT"], institutions: ["trog"], kind: "trial", name: "Study of an AAV Mediated Dual-Payload Gene Therapy in Patients With High Grade Glioma", nct: "NCT07346144", phase: "1/2", status: "recruiting", sponsor: "Trogenix ltd", enrolled: 68, asOf, tags,
+  { id: "nct07346144", aka: ["ADePT"], companies: ["trog"], kind: "trial", name: "Study of an AAV Mediated Dual-Payload Gene Therapy in Patients With High Grade Glioma", nct: "NCT07346144", phase: "1/2", status: "recruiting", sponsor: "Trogenix ltd", enrolled: 68, asOf, tags,
     setting: "A Phase I/II Study of an AAV-1 Mediated Dual-Payload Gene Therapy in Patients With High Grade Glioma",
     tldr: "A phase 1/2 trial of TGX-007 in glioma & glioblastoma, run by Trogenix ltd, now recruiting.",
     summary: "Study of an AAV Mediated Dual-Payload Gene Therapy in Patients With High Grade Glioma is a phase 1/2 interventional study registered as NCT07346144 by Trogenix ltd, with 68 participants planned, started 2026-04-21 and due to reach its primary completion in 2030-03. Interventions recorded: TGX-007 and Valaciclovir.",

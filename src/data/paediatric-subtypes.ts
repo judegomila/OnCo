@@ -49,7 +49,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2025, title: "AALL1731: blinatumomab added to chemotherapy lifts three-year disease-free survival to 96 percent", refs: ["aall1731", "paper-aall1731-blinatumomab-children-nejm-2025"] },
     ],
     pipeline: ["blinatumomab", "aall1731", "ngs-mrd-clonoseq", "blinatumomab-frontline-consolidation", "idea-tr2-paediatric-combo-prea"], openProblems: ["Whether blinatumomab allows chemotherapy to be shortened rather than only added to.", "Asparaginase hypersensitivity and silent inactivation, and osteonecrosis in older children.", "Delivering a two-year outpatient regimen in low- and middle-income countries, where most children with ALL live."],
-    targets: ["cd19"], terms: ["mrd", "efs", "b-all-cytogenetic-risk"], technologies: ["flow-cytometry-mrd", "t-cell-engager"], institutions: ["childrens-oncology-group", "st-jude"], keyPapers: ["paper-aall1731-blinatumomab-children-nejm-2025"], related: ["all-paediatric-high-risk", "all-paediatric-relapsed", "all-infant", "all-ph-like", "all-paediatric-ph-positive"],
+    targets: ["cd19"], terms: ["mrd", "efs", "b-all-cytogenetic-risk"], technologies: ["flow-cytometry-mrd", "t-cell-engager"], institutions: ["st-jude"], companies: ["childrens-oncology-group"], keyPapers: ["paper-aall1731-blinatumomab-children-nejm-2025"], related: ["all-paediatric-high-risk", "all-paediatric-relapsed", "all-infant", "all-ph-like", "all-paediatric-ph-positive"],
     links: [{ label: "Wikipedia: Acute lymphoblastic leukaemia", url: W("Acute_lymphoblastic_leukemia") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   { id: "all-paediatric-high-risk", kind: "cancer", trials: ["aall0434"], name: "High-risk acute lymphoblastic leukaemia in children (high-risk B-ALL and T-ALL)", group: "paediatric", parent: "all-leukemia", asOf, tags, wikipedia: W("Acute_lymphoblastic_leukemia"),
@@ -76,7 +76,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2024, title: "Blinatumomab approved for consolidation of newly diagnosed CD19-positive B-ALL", refs: ["blinatumomab", "e1910"] },
     ],
     pipeline: ["inotuzumab-ozogamicin", "blinatumomab", "tisagenlecleucel", "venetoclax", "ngs-mrd-clonoseq", "allogeneic-hsct"], openProblems: ["No antibody or cell therapy target in routine use for T-ALL.", "Which high-risk children still need transplant once immunotherapy clears residual disease.", "Asparaginase toxicity and osteonecrosis in adolescents receiving the most intensive regimens."],
-    targets: ["cd19", "cd22", "cd38"], terms: ["mrd", "efs", "b-all-cytogenetic-risk", "ph-like-all"], technologies: ["flow-cytometry-mrd", "allogeneic-hsct", "cytotoxic-chemotherapy"], institutions: ["childrens-oncology-group"], related: ["all-paediatric-standard-risk", "all-paediatric-ph-positive", "all-ph-like", "all-paediatric-relapsed", "all-infant"],
+    targets: ["cd19", "cd22", "cd38"], terms: ["mrd", "efs", "b-all-cytogenetic-risk", "ph-like-all"], technologies: ["flow-cytometry-mrd", "allogeneic-hsct", "cytotoxic-chemotherapy"], companies: ["childrens-oncology-group"], related: ["all-paediatric-standard-risk", "all-paediatric-ph-positive", "all-ph-like", "all-paediatric-relapsed", "all-infant"],
     links: [{ label: "Wikipedia: Acute lymphoblastic leukaemia", url: W("Acute_lymphoblastic_leukemia") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   { id: "all-paediatric-ph-positive", kind: "cancer", name: "Philadelphia chromosome-positive acute lymphoblastic leukaemia in children (Ph-positive ALL)", group: "paediatric", parent: "all-leukemia", asOf, tags, wikipedia: W("Philadelphia_chromosome"),
@@ -103,7 +103,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2024, title: "PhALLCON: ponatinib beats imatinib in adults with Ph-positive ALL", refs: ["phallcon", "ponatinib"] },
     ],
     pipeline: ["ponatinib", "blinatumomab", "tki-plus-blinatumomab-ph-all", "idea-transplant-free-ph-all", "d-alba", "phallcon", "asciminib", "ngs-mrd-clonoseq"], openProblems: ["Whether chemotherapy-free kinase inhibitor plus blinatumomab regimens can replace intensive chemotherapy in children.", "Kinase domain resistance mutations and the lack of paediatric approval for ponatinib.", "Long-term effects of kinase inhibitors on growth, bone and heart."],
-    targets: ["bcr-abl", "cd19"], pathways: ["bcr-abl1-signalling"], terms: ["philadelphia-chromosome", "ph-positive-all", "mrd", "abl1-kinase-domain-mutations"], technologies: ["kinase-inhibitors", "allogeneic-hsct"], institutions: ["childrens-oncology-group"], related: ["all-ph-like", "cml-chronic-phase", "all-paediatric-high-risk", "all-infant", "all-paediatric-relapsed", "all-paediatric-standard-risk"],
+    targets: ["bcr-abl", "cd19"], pathways: ["bcr-abl1-signalling"], terms: ["philadelphia-chromosome", "ph-positive-all", "mrd", "abl1-kinase-domain-mutations"], technologies: ["kinase-inhibitors", "allogeneic-hsct"], companies: ["childrens-oncology-group"], related: ["all-ph-like", "cml-chronic-phase", "all-paediatric-high-risk", "all-infant", "all-paediatric-relapsed", "all-paediatric-standard-risk"],
     links: [{ label: "Wikipedia: Philadelphia chromosome", url: W("Philadelphia_chromosome") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   { id: "all-ph-like", kind: "cancer", name: "Philadelphia chromosome-like acute lymphoblastic leukaemia (Ph-like or BCR::ABL1-like ALL)", group: "paediatric", parent: "all-leukemia", asOf, tags, wikipedia: W("Acute_lymphoblastic_leukemia"),
@@ -128,7 +128,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2022, title: "WHO classifies B-ALL with BCR::ABL1-like features as an entity" },
     ],
     pipeline: ["ruxolitinib", "dasatinib", "blinatumomab", "tisagenlecleucel", "ngs-mrd-clonoseq", "cgp"], openProblems: ["Whether kinase inhibitors improve cure rather than early response in Ph-like ALL.", "Screening is unavailable in most of the world, so most Ph-like patients are never identified.", "CRLF2-rearranged disease carries RAS and JAK mutations together and is less dependent on a single kinase."],
-    targets: ["jak2", "epor", "pdgfrb", "bcr-abl", "cd19"], terms: ["philadelphia-chromosome", "mrd", "ph-like-all", "b-all-cytogenetic-risk"], technologies: ["kinase-inhibitors", "flow-cytometry-mrd"], institutions: ["childrens-oncology-group", "st-jude"], related: ["all-paediatric-ph-positive", "all-paediatric-high-risk", "aya-cancers", "all-infant", "all-paediatric-relapsed", "all-paediatric-standard-risk"],
+    targets: ["jak2", "epor", "pdgfrb", "bcr-abl", "cd19"], terms: ["philadelphia-chromosome", "mrd", "ph-like-all", "b-all-cytogenetic-risk"], technologies: ["kinase-inhibitors", "flow-cytometry-mrd"], institutions: ["st-jude"], companies: ["childrens-oncology-group"], related: ["all-paediatric-ph-positive", "all-paediatric-high-risk", "aya-cancers", "all-infant", "all-paediatric-relapsed", "all-paediatric-standard-risk"],
     links: [{ label: "Wikipedia: Acute lymphoblastic leukaemia", url: W("Acute_lymphoblastic_leukemia") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   { id: "all-infant", kind: "cancer", name: "Infant acute lymphoblastic leukaemia (KMT2A-rearranged, under one year)", group: "paediatric", parent: "all-leukemia", asOf, tags, wikipedia: W("Acute_lymphoblastic_leukemia"),
@@ -181,7 +181,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2024, title: "Inotuzumab ozogamicin approved for children with relapsed or refractory CD22-positive B-ALL", refs: ["inotuzumab-ozogamicin"] },
     ],
     pipeline: ["tisagenlecleucel", "blinatumomab", "inotuzumab-ozogamicin", "obecabtagene-autoleucel", "felix", "revumenib", "ngs-mrd-clonoseq", "car-t", "venetoclax"], openProblems: ["CD19-negative relapse and lineage switch after CD19-directed therapy.", "Which children need transplant after a CAR T-cell remission.", "Relapsed T-ALL has no approved immunotherapy, and CAR T-cell access is limited to a handful of countries."],
-    targets: ["cd19", "cd22", "cd3"], terms: ["crs", "icans", "mrd"], technologies: ["car-t", "t-cell-engager", "adc", "allogeneic-hsct"], keyPapers: ["paper-eliana-tisagenlecleucel-nejm-2018"], institutions: ["childrens-oncology-group"], related: ["all-paediatric-standard-risk", "all-paediatric-high-risk", "all-infant", "all-ph-like", "all-paediatric-ph-positive"],
+    targets: ["cd19", "cd22", "cd3"], terms: ["crs", "icans", "mrd"], technologies: ["car-t", "t-cell-engager", "adc", "allogeneic-hsct"], keyPapers: ["paper-eliana-tisagenlecleucel-nejm-2018"], companies: ["childrens-oncology-group"], related: ["all-paediatric-standard-risk", "all-paediatric-high-risk", "all-infant", "all-ph-like", "all-paediatric-ph-positive"],
     links: [{ label: "Wikipedia: Tisagenlecleucel", url: W("Tisagenlecleucel") }, { label: "NCI PDQ: Childhood ALL Treatment", url: ALL.url }] },
 
   // ======================= ACUTE MYELOID LEUKAEMIA IN CHILDREN =======================
@@ -211,7 +211,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2024, title: "Revumenib approved for relapsed KMT2A-rearranged acute leukaemia from the age of one", refs: ["revumenib", "augment-101"] },
     ],
     pipeline: ["revumenib", "gilteritinib", "venetoclax", "ziftomenib", "menin-inhibitors", "dexrazoxane", "flow-cytometry-mrd", "cpx-351"], openProblems: ["A third of children relapse and only half of those are cured.", "Infant AML with NUP98 or CBFA2T3::GLIS2 fusions has no effective therapy.", "Anthracycline cardiotoxicity and infection deaths from the most intensive chemotherapy given to children."],
-    targets: ["cd33", "flt3", "kmt2a", "menin"], pathways: ["menin-kmt2a"], terms: ["late-effects", "mrd", "secondary-malignancy"], technologies: ["adc", "allogeneic-hsct", "flow-cytometry-mrd", "cardio-oncology"], institutions: ["childrens-oncology-group", "st-jude"], related: ["aml-npm1-kmt2a", "aml-flt3", "apl", "all-infant", "aml-secondary"],
+    targets: ["cd33", "flt3", "kmt2a", "menin"], pathways: ["menin-kmt2a"], terms: ["late-effects", "mrd", "secondary-malignancy"], technologies: ["adc", "allogeneic-hsct", "flow-cytometry-mrd", "cardio-oncology"], institutions: ["st-jude"], companies: ["childrens-oncology-group"], related: ["aml-npm1-kmt2a", "aml-flt3", "apl", "all-infant", "aml-secondary"],
     links: [{ label: "Wikipedia: Acute myeloid leukaemia", url: W("Acute_myeloid_leukemia") }, { label: "NCI PDQ: Childhood AML Treatment", url: AML.url }] },
 
   // ======================= NEUROBLASTOMA BY RISK GROUP =======================
@@ -237,7 +237,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2012, title: "P9641: surgery alone gives 97 percent survival in low-risk disease; expectant observation of small adrenal masses reported", refs: ["active-surveillance"] },
     ],
     pipeline: ["active-surveillance", "inrg-staging", "idea-mfbg-pet-replaces-mibg", "ultrasound"], openProblems: ["Distinguishing tumours that will regress from those that will grow without biopsy.", "When surgery to the kidney or spinal canal is riskier than watching.", "Identifying the few stage MS infants with MYCN amplification or 11q loss who behave as high risk."],
-    terms: ["inrg-staging", "mycn-amplification", "late-effects", "segmental-chromosomal-aberrations", "urinary-catecholamines"], technologies: ["active-surveillance", "ultrasound", "mri"], institutions: ["childrens-oncology-group", "siop-europe"], related: ["neuroblastoma-intermediate-risk", "neuroblastoma-high-risk"],
+    terms: ["inrg-staging", "mycn-amplification", "late-effects", "segmental-chromosomal-aberrations", "urinary-catecholamines"], technologies: ["active-surveillance", "ultrasound", "mri"], institutions: ["siop-europe"], companies: ["childrens-oncology-group"], related: ["neuroblastoma-intermediate-risk", "neuroblastoma-high-risk"],
     links: [{ label: "Wikipedia: Neuroblastoma", url: W("Neuroblastoma") }, { label: "NCI PDQ: Neuroblastoma Treatment", url: NBL.url }] },
 
   { id: "neuroblastoma-intermediate-risk", kind: "cancer", name: "Intermediate-risk neuroblastoma", group: "paediatric", parent: "neuroblastoma", asOf, tags, wikipedia: W("Neuroblastoma"),
@@ -261,7 +261,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2019, title: "ANBL0531: further response-based reduction, two cycles for the most favourable children", refs: ["inrg-staging"] },
     ],
     pipeline: ["inrg-staging", "idea-mfbg-pet-replaces-mibg", "mibg-theranostics", "cardio-oncology"], openProblems: ["Children with 11q aberration or unfavourable histology still relapse and cannot have therapy shortened.", "Whether telomere maintenance and ALK status should change risk assignment.", "Measuring the late effects of even moderate chemotherapy over decades."],
-    terms: ["inrg-staging", "mycn-amplification", "late-effects", "segmental-chromosomal-aberrations", "urinary-catecholamines"], technologies: ["cytotoxic-chemotherapy", "mri", "mibg-theranostics"], institutions: ["childrens-oncology-group", "siop-europe"], related: ["neuroblastoma-low-risk", "neuroblastoma-high-risk"],
+    terms: ["inrg-staging", "mycn-amplification", "late-effects", "segmental-chromosomal-aberrations", "urinary-catecholamines"], technologies: ["cytotoxic-chemotherapy", "mri", "mibg-theranostics"], institutions: ["siop-europe"], companies: ["childrens-oncology-group"], related: ["neuroblastoma-low-risk", "neuroblastoma-high-risk"],
     links: [{ label: "Wikipedia: Neuroblastoma", url: W("Neuroblastoma") }, { label: "NCI PDQ: Neuroblastoma Treatment", url: NBL.url }] },
 
   { id: "neuroblastoma-high-risk", kind: "cancer", name: "High-risk neuroblastoma", group: "paediatric", parent: "neuroblastoma", asOf, tags, wikipedia: W("Neuroblastoma"),
@@ -292,7 +292,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2023, title: "Eflornithine approved as maintenance on an external-control comparison; GD2 CAR T-cells produce remissions in relapsed disease", refs: ["eflornithine", "nmtrc003", "gd2-cart01"] },
     ],
     pipeline: ["anbl1531", "i131-mibg", "lorlatinib", "gd2-cart01", "idea-gd2-car-t-frontline-consolidation", "idea-mfbg-pet-replaces-mibg", "mibg-theranostics", "eflornithine", "naxitamab", "anti-gd2-plus-chemo-relapse", "tandem-transplant"], openProblems: ["About half of children relapse and relapsed disease is rarely cured.", "MYCN has no direct inhibitor; eflornithine and lorlatinib act around it.", "Cisplatin hearing loss, infertility and second cancers in survivors of the most intensive regimen in paediatric oncology."],
-    targets: ["gd2", "alk"], terms: ["mycn-amplification", "inrg-staging", "late-effects", "adcc", "segmental-chromosomal-aberrations", "urinary-catecholamines", "curie-siopen-score"], technologies: ["monoclonal-antibody", "autologous-stem-cell-transplant", "tandem-transplant", "mibg-theranostics", "car-t"], companies: ["y-mabs", "united-therapeutics", "us-worldmeds"], institutions: ["childrens-oncology-group", "siop-europe"], related: ["neuroblastoma-low-risk", "neuroblastoma-intermediate-risk"],
+    targets: ["gd2", "alk"], terms: ["mycn-amplification", "inrg-staging", "late-effects", "adcc", "segmental-chromosomal-aberrations", "urinary-catecholamines", "curie-siopen-score"], technologies: ["monoclonal-antibody", "autologous-stem-cell-transplant", "tandem-transplant", "mibg-theranostics", "car-t"], companies: ["y-mabs", "united-therapeutics", "us-worldmeds", "childrens-oncology-group"], institutions: ["siop-europe"], related: ["neuroblastoma-low-risk", "neuroblastoma-intermediate-risk"],
     links: [{ label: "Wikipedia: Neuroblastoma", url: W("Neuroblastoma") }, { label: "NCI PDQ: Neuroblastoma Treatment", url: NBL.url }] },
 
   // ======================= MEDULLOBLASTOMA MOLECULAR GROUPS =======================
@@ -319,7 +319,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2021, title: "WHO 2021 defines medulloblastoma by molecular group with methylation profiling", refs: ["methylation-profiling"] },
     ],
     pipeline: ["proton-therapy", "methylation-profiling", "germline-testing"], openProblems: ["How far craniospinal radiotherapy can be reduced without losing cures.", "Whether adult and metastatic WNT tumours share the childhood prognosis.", "No drug targets the mutant beta-catenin pathway."],
-    pathways: ["wnt"], terms: ["late-effects", "medulloblastoma-molecular-groups"], technologies: ["proton-therapy", "methylation-profiling"], institutions: ["st-jude", "childrens-oncology-group", "siop-europe"], related: ["medulloblastoma-shh", "medulloblastoma-group-3-4"],
+    pathways: ["wnt"], terms: ["late-effects", "medulloblastoma-molecular-groups"], technologies: ["proton-therapy", "methylation-profiling"], institutions: ["st-jude", "siop-europe"], companies: ["childrens-oncology-group"], related: ["medulloblastoma-shh", "medulloblastoma-group-3-4"],
     links: [{ label: "Wikipedia: Medulloblastoma", url: W("Medulloblastoma") }, { label: "NCI PDQ: Childhood Medulloblastoma Treatment", url: MB.url }] },
 
   { id: "medulloblastoma-shh", kind: "cancer", name: "SHH-activated medulloblastoma", group: "paediatric", parent: "medulloblastoma", asOf, tags: [...tags, "cns"], wikipedia: W("Medulloblastoma"),
@@ -348,7 +348,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2021, title: "WHO 2021 splits SHH-activated medulloblastoma by TP53 status", refs: ["methylation-profiling"] },
     ],
     pipeline: ["vismodegib", "sonidegib", "methylation-profiling", "proton-therapy", "germline-testing"], openProblems: ["No therapy improves TP53-mutant SHH medulloblastoma.", "Smoothened inhibitors fuse growth plates and fail against downstream activation.", "Which infant SHH tumours can safely receive less chemotherapy."],
-    targets: ["smoothened", "tp53"], pathways: ["hedgehog"], terms: ["li-fraumeni", "late-effects", "secondary-malignancy", "medulloblastoma-molecular-groups"], technologies: ["proton-therapy", "methylation-profiling", "autologous-stem-cell-transplant"], institutions: ["st-jude", "childrens-oncology-group", "siop-europe"], related: ["medulloblastoma-wnt", "medulloblastoma-group-3-4", "basal-cell-carcinoma"],
+    targets: ["smoothened", "tp53"], pathways: ["hedgehog"], terms: ["li-fraumeni", "late-effects", "secondary-malignancy", "medulloblastoma-molecular-groups"], technologies: ["proton-therapy", "methylation-profiling", "autologous-stem-cell-transplant"], institutions: ["st-jude", "siop-europe"], companies: ["childrens-oncology-group"], related: ["medulloblastoma-wnt", "medulloblastoma-group-3-4", "basal-cell-carcinoma"],
     links: [{ label: "Wikipedia: Medulloblastoma", url: W("Medulloblastoma") }, { label: "NCI PDQ: Childhood Medulloblastoma Treatment", url: MB.url }] },
 
   { id: "medulloblastoma-group-3-4", kind: "cancer", trials: ["acns0332"], name: "Group 3 and group 4 medulloblastoma (non-WNT/non-SHH)", group: "paediatric", parent: "medulloblastoma", asOf, tags: [...tags, "cns"], wikipedia: W("Medulloblastoma"),
@@ -377,7 +377,7 @@ export const paediatricSubtypes: CancerInput[] = [
       { year: 2021, title: "WHO 2021 groups them as non-WNT/non-SHH medulloblastoma with eight subgroups", refs: ["methylation-profiling"] },
     ],
     pipeline: ["methylation-profiling", "proton-therapy", "temozolomide", "bevacizumab", "idea-fund-proton-coverage-with-evidence"], openProblems: ["MYC and MYCN have no inhibitor, and relapse is almost always fatal.", "Craniospinal radiotherapy dose cannot be reduced in young children without losing cures.", "Immunotherapy has shown little in an immunologically cold tumour."],
-    pathways: ["myc"], terms: ["late-effects", "medulloblastoma-molecular-groups"], technologies: ["proton-therapy", "imrt-igrt", "methylation-profiling", "autologous-stem-cell-transplant"], institutions: ["childrens-oncology-group", "siop-europe", "st-jude"], related: ["medulloblastoma-wnt", "medulloblastoma-shh"],
+    pathways: ["myc"], terms: ["late-effects", "medulloblastoma-molecular-groups"], technologies: ["proton-therapy", "imrt-igrt", "methylation-profiling", "autologous-stem-cell-transplant"], institutions: ["siop-europe", "st-jude"], companies: ["childrens-oncology-group"], related: ["medulloblastoma-wnt", "medulloblastoma-shh"],
     links: [{ label: "Wikipedia: Medulloblastoma", url: W("Medulloblastoma") }, { label: "NCI PDQ: Childhood Medulloblastoma Treatment", url: MB.url }] },
 
   // ======================= ADOLESCENTS AND YOUNG ADULTS =======================
@@ -407,7 +407,7 @@ export const paediatricSubtypes: CancerInput[] = [
     ],
     pipeline: ["blinatumomab", "e1910", "idea-acc-aya-survivorship-passport", "idea-acc-default-fertility-preservation-referral", "idea-acc-national-late-effects-registry", "fertility-preservation", "ngs-mrd-clonoseq"], openProblems: ["Trial enrolment in AYA remains far below that of children.", "Fertility preservation is offered unevenly and paid for inconsistently.", "Why the same cancer behaves differently at different ages is largely unexplained."],
     cancers: ["all-leukemia", "all-ph-like", "hodgkin-lymphoma", "testicular", "paediatric-germ-cell-tumours", "thyroid", "melanoma", "ewing-sarcoma", "osteosarcoma", "brain-tumours", "breast-cancer", "cervical", "early-onset-colorectal"],
-    terms: ["aya-oncology", "late-effects", "financial-toxicity", "cancer-in-pregnancy"], technologies: ["fertility-preservation", "survivorship-care-plan", "psycho-oncology"], trials: ["e1910", "ccss"], institutions: ["teenage-cancer-trust", "childrens-oncology-group"], related: ["childhood-cancers", "all-leukemia", "hodgkin-lymphoma", "testicular", "thyroid", "melanoma", "breast-cancer", "cervical", "early-onset-colorectal", "osteosarcoma", "ewing-sarcoma", "brain-tumours"],
+    terms: ["aya-oncology", "late-effects", "financial-toxicity", "cancer-in-pregnancy"], technologies: ["fertility-preservation", "survivorship-care-plan", "psycho-oncology"], trials: ["e1910", "ccss"], institutions: ["teenage-cancer-trust"], companies: ["childrens-oncology-group"], related: ["childhood-cancers", "all-leukemia", "hodgkin-lymphoma", "testicular", "thyroid", "melanoma", "breast-cancer", "cervical", "early-onset-colorectal", "osteosarcoma", "ewing-sarcoma", "brain-tumours"],
     links: [{ label: "Wikipedia: Adolescent and young adult oncology", url: W("Adolescent_and_young_adult_oncology") }, { label: "NCI: Adolescents and Young Adults with Cancer", url: AYA.url }] },
 ];
 

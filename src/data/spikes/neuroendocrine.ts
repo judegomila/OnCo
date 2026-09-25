@@ -96,7 +96,7 @@ const drugs: DrugInput[] = [
     mechanism: "Fluoropyrimidine plus alkylating agent; capecitabine depletes MGMT, sensitising to temozolomide.",
     dosing: { route: "Oral", schedule: "Capecitabine 750 mg/m² twice daily days 1-14, temozolomide 200 mg/m² days 10-14, every 28 days", monitoring: "Blood counts, hand-foot syndrome" },
     toxicity: [{ event: "Neutropenia (grade 3-4)", grade3PlusPct: 13, note: "E2211" }, { event: "Thrombocytopenia (grade 3-4)", grade3PlusPct: 15 }, { event: "Fatigue", anyGradePct: 50 }],
-    technologies: ["cytotoxic-chemotherapy"], drugs: ["temozolomide"], cancers: ["neuroendocrine", "pancreatic-net", "grade-3-net"], terms: ["mgmt"], institutions: ["ecog-acrin"] }),
+    technologies: ["cytotoxic-chemotherapy"], drugs: ["temozolomide"], cancers: ["neuroendocrine", "pancreatic-net", "grade-3-net"], terms: ["mgmt"], companies: ["ecog-acrin"] }),
 ];
 
 // ======================= TRIALS =======================
@@ -129,7 +129,7 @@ const trials: TrialInput[] = [
     summary: "CABINET, Alliance trial A021602, NCT03375320, sponsored by the Alliance, the NCI and Exelixis and reported in the New England Journal of Medicine in 2024, showed that cabozantinib roughly tripled the time without progression in neuroendocrine tumours that had outgrown other treatments, leading to FDA approval in March 2025. It randomised 298 patients in separate pancreatic and extra-pancreatic cohorts to cabozantinib or placebo and met its primary progression-free survival endpoint in both, with an ESMO 2025 subgroup analysis showing a large reduction in progression risk in lung and thymic tumours. OnCo links it to neuroendocrine tumours, cabozantinib and the Alliance for Clinical Trials in Oncology. Whether cabozantinib's benefit holds against, or in sequence with, radioligand therapy is the open question.",
     result: "PFS HR 0.23 (pNET), 0.38 (epNET).",
     outcomes: [{ endpoint: "Progression-free survival (pancreatic NET)", primary: true, unit: "months", arms: [{ name: "Cabozantinib", value: 13.8 }, { name: "Placebo", value: 4.4 }], hr: 0.23, ci: [0.12, 0.42], source: "https://doi.org/10.1056/NEJMoa2403991" }, { endpoint: "Progression-free survival (extra-pancreatic NET)", primary: true, unit: "months", arms: [{ name: "Cabozantinib", value: 8.4 }, { name: "Placebo", value: 3.9 }], hr: 0.38, ci: [0.25, 0.59], source: "https://doi.org/10.1056/NEJMoa2403991" }],
-    drugs: ["cabozantinib"], cancers: ["neuroendocrine", "pancreatic-net", "small-intestinal-net", "lung-net"], links: [ct("NCT03375320"), { label: "ESMO 2025 subgroup (Exelixis)", url: "https://businesswire.com/news/home/20251016096352/en/Exelixis-Announces-Results-from-Subgroup-Analysis-of-CABINET-Phase-3-Pivotal-Trial-Evaluating-CABOMETYX-cabozantinib-in-Advanced-Lung-and-Thymic-Neuroendocrine-Tumors-at-ESMO-2025" }], institutions: ["alliance-oncology"] }),
+    drugs: ["cabozantinib"], cancers: ["neuroendocrine", "pancreatic-net", "small-intestinal-net", "lung-net"], links: [ct("NCT03375320"), { label: "ESMO 2025 subgroup (Exelixis)", url: "https://businesswire.com/news/home/20251016096352/en/Exelixis-Announces-Results-from-Subgroup-Analysis-of-CABINET-Phase-3-Pivotal-Trial-Evaluating-CABOMETYX-cabozantinib-in-Advanced-Lung-and-Thymic-Neuroendocrine-Tumors-at-ESMO-2025" }], companies: ["alliance-oncology"] }),
   t({ id: "compete", name: "COMPETE", nct: "NCT03049189", phase: "3", status: "positive", yearReported: 2025, sponsor: "ITM Isotope Technologies Munich", enrolled: 324,
     setting: "Progressive grade 1-2 SSTR-positive GEP-NETs: 177Lu-edotreotide vs everolimus",
     tldr: "The first head-to-head trial of a radioligand against a targeted pill in neuroendocrine tumours; the radioligand won on progression-free survival.",
@@ -248,8 +248,8 @@ const spike: Spike = {
     targets: ["sstr2", "vegf", "met", "akt", "menin", "hif2a", "dll3"],
     technologies: ["sstr-pet", "prrt", "radioligand-therapy", "targeted-alpha-therapy", "pet-ct", "tace", "radioembolisation-tare", "thermal-ablation", "kinase-inhibitors", "germline-testing", "histopathology-ihc"],
     terms: ["net-grade-ki67", "chromogranin-a", "carcinoid-syndrome", "men1-hereditary-net", "theranostics", "alpha-vs-beta", "dosimetry"],
-    companies: ["novartis", "ipsen", "itm", "orano-med", "radiomedix", "sanofi", "rayzebio", "bms", "exelixis", "pfizer"],
-    institutions: ["mskcc", "uke-hamburg", "heidelberg-nct", "royal-marsden", "alliance-oncology", "ecog-acrin"],
+    companies: ["novartis", "ipsen", "itm", "orano-med", "radiomedix", "sanofi", "rayzebio", "bms", "exelixis", "pfizer", "alliance-oncology", "ecog-acrin"],
+    institutions: ["mskcc", "uke-hamburg", "heidelberg-nct", "royal-marsden"],
     related: ["sstr-pet-to-prrt", "prrt-then-alpha-net", "radiopharma-roadmap", "beta-then-alpha"],
     tags: ["spike"],
   },

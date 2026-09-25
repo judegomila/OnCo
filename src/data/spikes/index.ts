@@ -60,6 +60,7 @@ import gallbladderMolecular from "./gallbladder-molecular";
 import gallbladderCore from "./gallbladder-core";
 import gallbladderUk from "./gallbladder-uk";
 import tnbcUk from "./tnbc-uk";
+import pancreaticUk from "./pancreatic-uk";
 import gallbladderEvidence from "./gallbladder-evidence";
 import gallbladderTreatment from "./gallbladder-treatment";
 import gallbladderGeography from "./gallbladder-geography";
@@ -69,7 +70,9 @@ import tnbcLiving from "./tnbc-living";
 import tnbcMolecular from "./tnbc-molecular";
 import tnbcTreatment from "./tnbc-treatment";
 import pancreaticTreatment from "./pancreatic-treatment";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, tnbcCore, tnbcEvidence, tnbcUk, tnbcLiving, tnbcMolecular, tnbcTreatment, pancreaticTreatment, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderTreatment, gallbladderGeography, gallbladderEvidence];
+import pancreaticLiving from "./pancreatic-living";
+import pancreaticEvidence from "./pancreatic-evidence";
+const spikes: Spike[] = [nsclc, prostate, pancreatic, pancreaticUk, pancreaticTreatment, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, tnbcCore, tnbcEvidence, tnbcUk, tnbcLiving, tnbcMolecular, tnbcTreatment, pancreaticLiving, pancreaticEvidence, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderTreatment, gallbladderGeography, gallbladderEvidence];
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's

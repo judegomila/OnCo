@@ -237,7 +237,7 @@ export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
   [/shanghai kechow/, { id: "shanghai-kechow-pharma", label: "Shanghai Kechow Pharma", kind: "company" }],
   [/shenzhen ionova/, { id: "shenzhen-ionova-life-sciences", label: "Shenzhen Ionova Life Sciences", kind: "company" }],
   [/treadwell/, { id: "treadwell-therapeutics", label: "Treadwell Therapeutics", kind: "company" }],
-  [/urogen/, { id: "urogen-pharma", label: "UroGen Pharma", kind: "company" }],
+  [/urogen pharma|^urogen\b/, { id: "urogen-pharma", label: "UroGen Pharma", kind: "company" }],
   [/xuanzhu/, { id: "xuanzhu-biopharmaceutical", label: "Xuanzhu Biopharmaceutical", kind: "company" }],
   [/ap biosciences/, { id: "ap-biosciences", label: "AP Biosciences", kind: "company" }],
   [/ascentawits/, { id: "ascentawits-pharmaceuticals", label: "Ascentawits Pharmaceuticals", kind: "company" }],
@@ -291,9 +291,12 @@ export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
   [/wigen biomedicine technology/, { id: "wigen-biomedicine-technology-shanghai", label: "Wigen Biomedicine Technology (Shanghai)", kind: "company" }],
   // ---- end of ingested sponsors ----
   // ---- Cooperative groups and networks ----
-  // Groups with a company record of type cooperative-group (src/data/companies-cooperative-groups.ts) carry their id; the
+  // Every group named here is a company record of type cooperative-group (src/data/companies-cooperative-groups.ts and
+  // companies-cooperative-groups-migrated.ts; since 25 September 2026 no group is an institution) and carries its id; the
   // specific groups sit before the broad patterns that would otherwise catch them (IFM before IFCT, KGOG before NRG/GOG).
   [/intergroupe francophone du my|\bifm\b/, { id: "ifm", label: "IFM (Intergroupe Francophone du Myélome)", kind: "cooperative-group" }],
+  [/chinese thoracic oncology|\bctong\b/, { id: "ctong", label: "Chinese Thoracic Oncology Group (CTONG)", kind: "cooperative-group" }],
+  [/innovative therapies for children with cancer|\bitcc\b/, { id: "itcc", label: "ITCC (Innovative Therapies for Children with Cancer)", kind: "cooperative-group" }],
   [/korean gynecologic oncology|\bkgog\b/, { id: "kgog", label: "Korean Gynecologic Oncology Group", kind: "cooperative-group" }],
   [/gortec|groupe oncologie radiotherapie|groupe d'oncologie radiothérapie/, { id: "gortec", label: "GORTEC", kind: "cooperative-group" }],
   [/french sarcoma group|groupe sarcome fran|gsf-geto/, { id: "french-sarcoma-group", label: "French Sarcoma Group (GSF-GETO)", kind: "cooperative-group" }],
@@ -314,12 +317,14 @@ export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
   [/ecog|eastern cooperative/, { id: "ecog-acrin", label: "ECOG-ACRIN", kind: "cooperative-group" }],
   [/^swog|southwest oncology/, { id: "swog", label: "SWOG", kind: "cooperative-group" }],
   [/^alliance|cancer and leukemia group b|\bcalgb\b/, { id: "alliance-oncology", label: "Alliance for Clinical Trials in Oncology", kind: "cooperative-group" }],
+  [/gog foundation|gog partners/, { id: "gog-foundation", label: "GOG Foundation", kind: "cooperative-group" }],
+  [/nsabp foundation/, { id: "nsabp-foundation", label: "NSABP Foundation", kind: "cooperative-group" }],
   [/nrg oncology|^rtog|radiation therapy oncology group|^gog\b|gynecologic oncology group|nsabp/, { id: "nrg-oncology", label: "NRG Oncology (RTOG, GOG, NSABP)", kind: "cooperative-group" }],
   [/eortc/, { id: "curie-nki-eortc", label: "EORTC", kind: "cooperative-group" }],
   [/breast international group|\bbig\b/, { id: "big", label: "Breast International Group", kind: "cooperative-group" }],
   [/unicancer/, { id: "unicancer", label: "UNICANCER", kind: "cooperative-group" }],
   [/canadian cancer trials|^cctg|ncic/, { id: "cctg", label: "Canadian Cancer Trials Group", kind: "cooperative-group" }],
-  [/anzup/, { id: "anzup", label: "ANZUP", kind: "cooperative-group" }],
+  [/anzup|australian and new zealand urogenital/, { id: "anzup", label: "ANZUP", kind: "cooperative-group" }],
   [/anzgog/, { label: "ANZGOG", kind: "cooperative-group" }],
   [/^agitg/, { id: "agitg", label: "AGITG", kind: "cooperative-group" }],
   [/^abcsg/, { id: "abcsg", label: "ABCSG", kind: "cooperative-group" }],
@@ -327,7 +332,7 @@ export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
   [/german hodgkin|ghsg/, { id: "ghsg", label: "German Hodgkin Study Group", kind: "cooperative-group" }],
   [/german cll|deutsche cll|dcllsg|gcllsg/, { id: "german-cll-study-group", label: "German CLL Study Group", kind: "cooperative-group" }],
   [/^gimema/, { id: "gimema", label: "GIMEMA", kind: "cooperative-group" }],
-  [/^hovon/, { id: "hovon", label: "HOVON", kind: "cooperative-group" }],
+  [/^hovon|hemato-oncologie voor volwassenen/, { id: "hovon", label: "HOVON", kind: "cooperative-group" }],
   [/^lysa/, { id: "lysa", label: "LYSA", kind: "cooperative-group" }],
   [/^ifct|intergroupe francophone/, { id: "ifct", label: "IFCT", kind: "cooperative-group" }],
   [/arcagy|gineco/, { id: "arcagy-gineco", label: "ARCAGY-GINECO", kind: "cooperative-group" }],

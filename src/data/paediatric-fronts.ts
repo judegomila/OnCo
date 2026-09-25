@@ -77,7 +77,7 @@ const trials: TrialInput[] = [
       { endpoint: "Enrolled on a treatment arm", unit: "%", arms: [{ name: "Screened patients", n: 1000, value: 13.1 }], source: "https://doi.org/10.1200/JCO.21.02838" },
     ],
     replication: "European counterparts (ESMART, run by ITCC, and the INFORM registry in Germany) reached similar conclusions about feasibility and about the weakness of single-agent targeting outside fusion drivers.",
-    drugs: ["larotrectinib", "selpercatinib", "vemurafenib", "erdafitinib", "tazemetostat", "palbociclib", "olaparib", "ivosidenib"], institutions: ["childrens-oncology-group", "nci", "itcc"], technologies: ["cgp", "ngs-bioinformatics-software"], terms: ["basket-umbrella-platform", "race-for-children-act"], bottlenecks: ["b-rare-cancers", "b-trial-design"],
+    drugs: ["larotrectinib", "selpercatinib", "vemurafenib", "erdafitinib", "tazemetostat", "palbociclib", "olaparib", "ivosidenib"], institutions: ["nci"], companies: ["childrens-oncology-group", "itcc"], technologies: ["cgp", "ngs-bioinformatics-software"], terms: ["basket-umbrella-platform", "race-for-children-act"], bottlenecks: ["b-rare-cancers", "b-trial-design"],
     links: [ct("NCT03155620"), doi("Parsons et al., JCO 2022 (screening results)", "10.1200/JCO.21.02838"), doi("Eckstein et al., JCO 2022 (selumetinib arm)", "10.1200/JCO.21.02840"), { label: "NCI: Pediatric MATCH", url: "https://www.cancer.gov/about-cancer/treatment/clinical-trials/nci-supported/pediatric-match" }],
     tags: [...PAEDIATRIC_TAGS, "precision-medicine"] }),
 
@@ -91,7 +91,7 @@ const trials: TrialInput[] = [
       { endpoint: "5-year event-free survival: CSI dose (age 3-7)", primary: true, unit: "%", arms: [{ name: "18 Gy CSI", value: 71.4 }, { name: "23.4 Gy CSI", value: 82.9 }], hr: 1.67, source: "https://doi.org/10.1200/JCO.20.02730" },
     ],
     replication: "Consistent with the earlier CCG 9892 and A9961 experience that 23.4 Gy with chemotherapy is safe for average risk; SIOP PNET5 is testing subgroup-directed reduction.",
-    cancers: ["medulloblastoma", "medulloblastoma-wnt", "medulloblastoma-group-3-4"], technologies: ["proton-therapy", "imrt-igrt"], institutions: ["childrens-oncology-group"], drugs: ["cisplatin", "vincristine", "cyclophosphamide", "lomustine"], terms: ["late-effects", "de-escalation"], bottlenecks: ["b-survivorship", "b-toxicity-qol"],
+    cancers: ["medulloblastoma", "medulloblastoma-wnt", "medulloblastoma-group-3-4"], technologies: ["proton-therapy", "imrt-igrt"], companies: ["childrens-oncology-group"], drugs: ["cisplatin", "vincristine", "cyclophosphamide", "lomustine"], terms: ["late-effects", "de-escalation"], bottlenecks: ["b-survivorship", "b-toxicity-qol"],
     links: [ct("NCT00085735"), doi("Michalski et al., JCO 2021", "10.1200/JCO.20.02730")],
     tags: [...PAEDIATRIC_TAGS, "cns", "de-escalation"] }),
 
@@ -105,7 +105,7 @@ const trials: TrialInput[] = [
       { endpoint: "4-year event-free survival, LOH 1p/16q stage III-IV, Regimen M", unit: "%", arms: [{ name: "AREN0533 Regimen M", n: 51, value: 90.2 }, { name: "NWTS-5 (historical)", value: 61.3 }], source: "https://doi.org/10.1200/JCO.18.01972" },
     ],
     replication: "Non-randomised against historical NWTS-5 controls; the SIOP-RTSG UMBRELLA protocol in Europe pursues the same response- and biology-adapted logic.",
-    cancers: ["wilms-tumor"], institutions: ["childrens-oncology-group"], drugs: ["vincristine", "dactinomycin", "doxorubicin", "cyclophosphamide", "etoposide"], terms: ["de-escalation", "late-effects"], bottlenecks: ["b-survivorship"],
+    cancers: ["wilms-tumor"], companies: ["childrens-oncology-group"], drugs: ["vincristine", "dactinomycin", "doxorubicin", "cyclophosphamide", "etoposide"], terms: ["de-escalation", "late-effects"], bottlenecks: ["b-survivorship"],
     links: [ct("NCT00379340"), doi("Dix et al., JCO 2018 (lung metastases)", "10.1200/JCO.2017.77.1931"), doi("Dix et al., JCO 2019 (LOH 1p/16q)", "10.1200/JCO.18.01972")],
     tags: [...PAEDIATRIC_TAGS, "kidney"] }),
 
@@ -120,7 +120,7 @@ const trials: TrialInput[] = [
       { endpoint: "3-year event-free survival, good responders (all randomised)", unit: "%", arms: [{ name: "MAP with or without interferon alfa-2b", n: 716, value: 76 }], source: "https://doi.org/10.1200/JCO.2014.60.0734" },
     ],
     replication: "Consistent with the earlier INT-0133 and COSS experience that adding agents to MAP does not improve survival; no subsequent trial has displaced MAP.",
-    cancers: ["osteosarcoma"], drugs: ["methotrexate", "doxorubicin", "cisplatin", "ifosfamide", "etoposide", "interferon-alfa"], institutions: ["childrens-oncology-group", "siop-europe"], technologies: ["limb-salvage-surgery", "cytotoxic-chemotherapy"], tags: [...PAEDIATRIC_TAGS, "bone", "lesson:intensification-without-benefit"], bottlenecks: ["b-rare-cancers", "b-negative-results"],
+    cancers: ["osteosarcoma"], drugs: ["methotrexate", "doxorubicin", "cisplatin", "ifosfamide", "etoposide", "interferon-alfa"], institutions: ["siop-europe"], companies: ["childrens-oncology-group"], technologies: ["limb-salvage-surgery", "cytotoxic-chemotherapy"], tags: [...PAEDIATRIC_TAGS, "bone", "lesson:intensification-without-benefit"], bottlenecks: ["b-rare-cancers", "b-negative-results"],
     links: [ct("NCT00134030"), doi("Marina et al., Lancet Oncology 2016 (poor responders)", "10.1016/S1470-2045(16)30214-5"), doi("Bielack et al., JCO 2015 (good responders)", "10.1200/JCO.2014.60.0734")] }),
 
   t({ id: "aaml0531", name: "COG AAML0531", nct: "NCT00372593", phase: "3", status: "positive", yearReported: 2014, sponsor: "Children's Oncology Group", enrolled: 1070,
@@ -132,7 +132,7 @@ const trials: TrialInput[] = [
       { endpoint: "3-year event-free survival", primary: true, unit: "%", arms: [{ name: "Chemotherapy + gemtuzumab ozogamicin", value: 53.1 }, { name: "Chemotherapy", value: 46.9 }], hr: 0.83, ci: [0.70, 0.99], source: "https://doi.org/10.1200/JCO.2014.55.3628" },
     ],
     replication: "Adult ALFA-0701 (fractionated GO) and the MRC AML15/16 meta-analysis showed the same relapse reduction; the CD33 splicing biomarker was confirmed in AAML0531 and AAML1031 correlative studies.",
-    cancers: ["aml", "aml-paediatric"], drugs: ["gemtuzumab-ozogamicin", "cytarabine-7-3"], targets: ["cd33"], technologies: ["adc"], institutions: ["childrens-oncology-group"], trials: ["alfa-0701"],
+    cancers: ["aml", "aml-paediatric"], drugs: ["gemtuzumab-ozogamicin", "cytarabine-7-3"], targets: ["cd33"], technologies: ["adc"], companies: ["childrens-oncology-group"], trials: ["alfa-0701"],
     links: [ct("NCT00372593"), doi("Gamis et al., JCO 2014", "10.1200/JCO.2014.55.3628")],
     tags: [...PAEDIATRIC_TAGS, "haematologic"] }),
 
@@ -145,7 +145,7 @@ const trials: TrialInput[] = [
       { endpoint: "3-year event-free survival", primary: true, unit: "%", arms: [{ name: "Rituximab + LMB chemotherapy", n: 164, value: 93.9 }, { name: "LMB chemotherapy", n: 164, value: 82.3 }], hr: 0.32, ci: [0.15, 0.66], p: "0.00096 (one-sided)", source: "https://doi.org/10.1056/NEJMoa1915315" },
     ],
     replication: "Consistent with the adult experience of rituximab in aggressive B-cell lymphoma (CODOX-M/IVAC-R, DA-EPOCH-R) and with the earlier COG ANHL01P1 pilot; no contradicting paediatric data.",
-    cancers: ["burkitt-lymphoma", "dlbcl"], drugs: ["rituximab", "methotrexate", "cyclophosphamide", "doxorubicin", "vincristine", "cytarabine-7-3", "etoposide"], targets: ["cd20"], institutions: ["gustave-roussy", "childrens-oncology-group", "siop-europe"], terms: ["hypogammaglobulinaemia"],
+    cancers: ["burkitt-lymphoma", "dlbcl"], drugs: ["rituximab", "methotrexate", "cyclophosphamide", "doxorubicin", "vincristine", "cytarabine-7-3", "etoposide"], targets: ["cd20"], institutions: ["gustave-roussy", "siop-europe"], companies: ["childrens-oncology-group"], terms: ["hypogammaglobulinaemia"],
     links: [ct("NCT01516580"), doi("Minard-Colin et al., NEJM 2020", "10.1056/NEJMoa1915315")],
     tags: [...PAEDIATRIC_TAGS, "haematologic"] }),
 
@@ -187,14 +187,7 @@ const institutions: InstitutionInput[] = [
     summary: "Founded in 2013 as a joint initiative of SIOP Europe, ITCC, the European Society for Paediatric Oncology's parent groups and industry, ACCELERATE is a multi-stakeholder platform for paediatric oncology drug development. Its Paediatric Strategy Forums, held with the EMA and the FDA Oncology Center of Excellence, take a mechanism of action (ALK, MEK, BCL2, CDK4/6, ADCs, immunotherapy, radiopharmaceuticals) and agree which products should advance in children and how, an approach that feeds directly into RACE Act and EU Paediatric Regulation obligations. Other workstreams are Fit-for-Filing (making academic trial data acceptable for regulatory submissions), the Long-Term Follow-Up initiative for children on novel agents, the ACCELERATE Paediatric Oncology Master Protocol concept, and the Paediatric Oncology Preclinical Proof-of-Concept programme.",
     programs: ["Paediatric Strategy Forums (with EMA and FDA)", "Fit-for-Filing", "Long-Term Follow-Up of children on novel agents", "Pediatric Oncology Preclinical Proof-of-Concept", "Annual ACCELERATE conference"],
     links: [{ label: "ACCELERATE", url: "https://www.accelerate-platform.org" }, { label: "Paediatric Strategy Forums", url: "https://www.accelerate-platform.org/paediatric-strategy-forums/" }],
-    institutions: ["siop-europe", "itcc", "ema", "fda-oce"], terms: ["race-for-children-act"], cancers: ["neuroblastoma", "dipg-dmg", "paediatric-low-grade-glioma", "all-leukemia"], bottlenecks: ["b-rare-cancers", "b-incentive-misalignment", "b-regulatory-fragmentation"], tags: PAEDIATRIC_TAGS, people: ["nicole-scobie"] }),
-
-  b({ id: "itcc", name: "Innovative Therapies for Children with Cancer (ITCC)", aka: ["ITCC", "ITCC consortium"], institutionType: "consortium", city: "Villejuif", country: "FR", lat: 48.794, lng: 2.349, website: "https://www.itcc-consortium.org",
-    tldr: "Europe's network of children's hospitals that run the first trials of new cancer drugs in children, so that European children can access experimental medicines close to home.",
-    summary: "Founded in 2003 and coordinated from Gustave Roussy, ITCC links more than 60 European paediatric oncology centres and around 25 research laboratories to conduct early-phase (phase 1 and 2) trials of new anticancer agents in children and adolescents. It runs academic platform trials including ESMART (molecularly matched combinations at relapse, the European counterpart of Pediatric MATCH) and the MAPPYACTS sequencing programme, partners with industry on paediatric investigation plans, and works with SIOP Europe and ACCELERATE on regulatory strategy. ITCC-P4 built a library of paediatric patient-derived xenograft models for preclinical testing under the IMI programme.",
-    programs: ["Early-phase paediatric trials network", "ESMART platform trial", "MAPPYACTS molecular profiling", "ITCC-P4 preclinical PDX platform", "Industry partnerships for paediatric investigation plans"],
-    links: [{ label: "ITCC", url: "https://www.itcc-consortium.org" }],
-    institutions: ["gustave-roussy", "siop-europe", "accelerate-platform", "princess-maxima", "great-ormond-street"], trials: ["pediatric-match"], technologies: ["pdx-models", "cgp"], cancers: ["neuroblastoma", "dipg-dmg", "paediatric-low-grade-glioma", "rhabdomyosarcoma"], bottlenecks: ["b-rare-cancers", "b-trial-enrolment"], tags: PAEDIATRIC_TAGS, people: ["pamela-kearns"] }),
+    institutions: ["siop-europe", "ema", "fda-oce"], companies: ["itcc"], terms: ["race-for-children-act"], cancers: ["neuroblastoma", "dipg-dmg", "paediatric-low-grade-glioma", "all-leukemia"], bottlenecks: ["b-rare-cancers", "b-incentive-misalignment", "b-regulatory-fragmentation"], tags: PAEDIATRIC_TAGS, people: ["nicole-scobie"] }),
 
   b({ id: "histiocyte-society", name: "Histiocyte Society", institutionType: "consortium", city: "Pitman", country: "US", lat: 39.733, lng: -75.132, website: "https://histiocytesociety.org",
     tldr: "The international society of doctors and scientists who study histiocytic disorders; its LCH trials, run since the 1990s, set the worldwide standard for treating Langerhans cell histiocytosis in children.",
@@ -212,7 +205,7 @@ const terms: TermInput[] = [
     tldr: "A US law that makes drug companies test new targeted cancer drugs in children whenever the drug's target matters in a childhood cancer, instead of letting them skip children because their cancers are rare.",
     summary: "The RACE for Children Act was enacted as Title V of the FDA Reauthorization Act (FDARA) of 2017 and took effect for applications submitted from 18 August 2020. It amended the Pediatric Research Equity Act (PREA) so that a new drug or biologic for an adult cancer must include a paediatric investigation if it is directed at a molecular target that the FDA judges 'substantially relevant to the growth or progression of a pediatric cancer', and it removed the orphan-drug exemption from PREA for such products. The FDA Oncology Center of Excellence maintains the relevant and non-relevant molecular target lists (updated after Pediatric Oncology Subcommittee of ODAC meetings) and issues written requests and waivers. The Act complements the EU Paediatric Regulation (EC 1901/2006), whose paediatric investigation plans (PIPs) had allowed class waivers for adult-only conditions; the EU is revising that regulation to adopt a mechanism-of-action test. In practice the two levers, together with the ACCELERATE Paediatric Strategy Forums, are why paediatric plans now accompany most new ALK, MEK, BRAF, NTRK, RET, BCL2, CDK4/6 and ADC programmes, and why tovorafenib, dabrafenib-trametinib and selpercatinib reached children within a few years of adult data.",
     links: [ { label: "FDA: relevant paediatric molecular target list", url: "https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology" }, { label: "FDARA 2017 (Public Law 115-52)", url: "https://www.congress.gov/bill/115th-congress/house-bill/2430" }],
-    institutions: ["fda-oce", "ema", "accelerate-platform", "childrens-oncology-group", "itcc"], trials: ["firefly-1", "tadpole", "pediatric-match"], drugs: ["tovorafenib", "dabrafenib-trametinib", "selpercatinib", "larotrectinib"], cancers: ["paediatric-low-grade-glioma", "dipg-dmg", "neuroblastoma"], terms: ["orphan-drug", "accelerated-approval"], related: ["bpca-prea", "eu-paediatric-regulation", "fdasia-2012", "orphan-drug-act", "eu-orphan-regulation"], bottlenecks: ["b-rare-cancers", "b-incentive-misalignment"], tags: [...PAEDIATRIC_TAGS, "regulatory"] }),
+    institutions: ["fda-oce", "ema", "accelerate-platform"], companies: ["childrens-oncology-group", "itcc"], trials: ["firefly-1", "tadpole", "pediatric-match"], drugs: ["tovorafenib", "dabrafenib-trametinib", "selpercatinib", "larotrectinib"], cancers: ["paediatric-low-grade-glioma", "dipg-dmg", "neuroblastoma"], terms: ["orphan-drug", "accelerated-approval"], related: ["bpca-prea", "eu-paediatric-regulation", "fdasia-2012", "orphan-drug-act", "eu-orphan-regulation"], bottlenecks: ["b-rare-cancers", "b-incentive-misalignment"], tags: [...PAEDIATRIC_TAGS, "regulatory"] }),
 ];
 
 export const paediatricFronts: EntityInput[] = [...trials, ...institutions, ...terms];

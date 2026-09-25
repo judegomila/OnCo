@@ -124,12 +124,13 @@ export function sameAuthor(a: string, b: string): boolean {
   return true;
 }
 
-export type PersonLike = { id: string; name: string; aka?: string[]; institutionId?: string; institutions?: string[]; orcid?: string };
+export type PersonLike = { id: string; name: string; aka?: string[]; institutionId?: string; institutions?: string[]; companies?: string[]; orcid?: string };
 
 /**
  * Find the corpus person a top author corresponds to: ORCID when both sides carry one, otherwise a
- * normalised-name match restricted to people attached to the same institution. Returns undefined when
- * no person or more than one person matches.
+ * normalised-name match restricted to people attached to the same institution (or, for a cooperative
+ * group, which is a company record, listed under it in `companies`). Returns undefined when no person
+ * or more than one person matches.
  */
 export function matchAuthorToPerson<P extends PersonLike>(author: { name: string; orcid?: string | null }, institutionId: string, people: P[]): P | undefined {
   if (author.orcid) {
@@ -137,7 +138,7 @@ export function matchAuthorToPerson<P extends PersonLike>(author: { name: string
     const hit = people.filter((p) => p.orcid && p.orcid.replace(/^https?:\/\/orcid\.org\//, "") === orcid);
     if (hit.length === 1) return hit[0];
   }
-  const local = people.filter((p) => p.institutionId === institutionId || p.institutions?.includes(institutionId));
+  const local = people.filter((p) => p.institutionId === institutionId || p.institutions?.includes(institutionId) || p.companies?.includes(institutionId));
   const hits = local.filter((p) => sameAuthor(p.name, author.name) || (p.aka ?? []).some((n) => sameAuthor(n, author.name)));
   return hits.length === 1 ? hits[0] : undefined;
 }

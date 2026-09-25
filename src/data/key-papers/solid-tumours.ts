@@ -1323,7 +1323,7 @@ export const papersSolidTumours: PaperInput[] = [
     ],
     cancers: ["glioblastoma"], technologies: ["cytotoxic-chemotherapy", "imrt-igrt", "methylation-profiling", "ttfields"],
     terms: ["os", "standard-of-care"],
-    institutions: ["curie-nki-eortc"], people: ["roger-stupp", "michael-weller", "denis-lacombe"], bottlenecks: ["b-brain-delivery", "b-negative-results", "b-undruggable-targets"], journals: ["nejm"] }),
+    companies: ["curie-nki-eortc"], people: ["roger-stupp", "michael-weller", "denis-lacombe"], bottlenecks: ["b-brain-delivery", "b-negative-results", "b-undruggable-targets"], journals: ["nejm"] }),
 
   // ---------------------------------------------------------------- Sarcoma and rare tumours
   p({ id: "paper-netter-2-lancet-2024", name: "NETTER-2: lutetium-177 dotatate as first treatment for higher-grade gastroenteropancreatic neuroendocrine tumours",

@@ -8,6 +8,7 @@ import { routeExists } from "./sitemap-urls";
 import { DECISION_TOOLS, enumerateAnswers, isComplete, toolById, toolCard, toolRoute, toolsFor, toolUrls, type Answers } from "./decision-tools";
 import { QUOTED_ROWS } from "@/data/decision-tools/incidental-gallbladder-cancer";
 import { QUOTED_TNBC_ROWS } from "@/data/decision-tools/tnbc-after-chemotherapy";
+import { QUOTED_PANCREATIC_ROWS } from "@/data/decision-tools/pancreatic-first-treatment";
 import { gallbladderStandardOfCare } from "@/data/spikes/gallbladder-treatment";
 import { NAV_GROUPS } from "./nav";
 import ToolPage, { generateStaticParams } from "@/app/tools/[id]/page";
@@ -151,6 +152,39 @@ describe("decision tools: data", () => {
       const row = tnbc.kind === "cancer" ? tnbc.standardOfCare.find((r) => r.setting === setting) : undefined;
       expect(row, setting).toBeTruthy();
       expect(row!.approach).toBe(approach);
+    }
+    const pancreatic = graph().must("pancreatic");
+    for (const [setting, approach] of Object.entries(QUOTED_PANCREATIC_ROWS)) {
+      const row = pancreatic.kind === "cancer" ? pancreatic.standardOfCare.find((r) => r.setting === setting) : undefined;
+      expect(row, setting).toBeTruthy();
+      expect(row!.approach).toBe(approach);
+    }
+  });
+
+  it("orders pancreatic treatment the way NICE NG85 does, by class, jaundice and fitness", () => {
+    const t = toolById("pancreatic-first-treatment")!;
+    const base: Answers = { stage: "resectable", jaundice: "no", fitness: "fit" };
+    expect(t.decide(base)[0]).toBe("surgery-first");
+    expect(t.decide({ ...base, jaundice: "yes" })).toContain("resectable-jaundice-no-drain");
+    expect(t.decide({ ...base, jaundice: "yes" })).not.toContain("resectable-jaundice-stent");
+    expect(t.decide({ ...base, fitness: "less-fit", jaundice: "yes" })).toEqual(expect.arrayContaining(["not-fit-for-surgery", "resectable-jaundice-stent", "after-surgery-chemo"]));
+    expect(t.decide({ ...base, fitness: "not-fit" })).not.toContain("after-surgery-chemo");
+    expect(t.decide({ ...base, stage: "borderline" })[0]).toBe("borderline-chemo-first");
+    expect(t.decide({ ...base, stage: "borderline", jaundice: "yes" })).toContain("jaundice-before-chemo-stent");
+    expect(t.decide({ ...base, stage: "locally-advanced" })[0]).toBe("locally-advanced-chemo");
+    expect(t.decide({ ...base, stage: "locally-advanced", fitness: "not-fit" })[0]).toBe("la-not-fit");
+    expect(t.decide({ ...base, stage: "metastatic" })[0]).toBe("metastatic-fit");
+    expect(t.decide({ ...base, stage: "metastatic", fitness: "less-fit" })[0]).toBe("metastatic-less-fit");
+    expect(t.decide({ ...base, stage: "metastatic", fitness: "not-fit" })[0]).toBe("metastatic-not-fit");
+    expect(t.decide({ ...base, stage: "metastatic", fitness: "not-fit" })).not.toContain("second-line");
+    expect(t.decide({ ...base, stage: "metastatic", jaundice: "yes" })).toContain("unresectable-jaundice-stent");
+    for (const a of enumerateAnswers(t)) {
+      const ids = t.decide(a);
+      expect(ids.at(-1)).toBe("team");
+      expect(ids).toContain("supportive-throughout");
+      expect(new Set(ids).size).toBe(ids.length);
+      if (a.stage === "resectable" || a.stage === "borderline") { expect(ids).toContain("bypass-if-unresectable-at-surgery"); expect(ids).not.toContain("unresectable-jaundice-stent"); }
+      else { expect(ids).not.toContain("after-surgery-chemo"); expect(ids).not.toContain("not-fit-for-surgery"); }
     }
   });
 

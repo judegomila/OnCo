@@ -137,11 +137,24 @@ describe("heavy pages page their sections", () => {
     // 603 KB after the registry outcomes pass of 24 Sept 2026 (130 more trials with posted results, six new sections).
     // 653 KB after the pancreatic deep dive of 24 Sept 2026 (32 hand-written trials with outcomes across the pancreatic
     // stage and biomarker sections, plus the UK, living and evidence layers); budget raised from 640 to 680 KB.
-    // 682 KB after the prostate treatment layer of 25 Sept 2026: 44 hand-written trials, most of them with structured
-    // outcomes, spread across the prostate risk-band, hormone-sensitive and castration-resistant sections, so the page
-    // gains rows rather than sections. Budget raised from 680 to 700 KB. The page grows with the number of trials that
-    // carry outcomes, so raise it only alongside a wave that adds them, and check the growth is rows and not furniture.
-    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(700 * KB);
+    // The total was raised three times in three waves (640, then 680, then 700 KB) and each raise was defensible,
+    // which is the problem: a number that has to be raised every time the corpus learns something is measuring the
+    // corpus, not the page. What a budget is for is furniture, the per-row and per-section cost that creeps up when
+    // a chip gains a wrapper or a row gains an attribute. So measure that directly and let the total follow.
+    //
+    // The page shows at most EXPLAINED_PAGE rows and EXPLAINED_PAGE pills per cancer section, so its size is
+    // sections times the cost of a section. A wave that fills an under-filled section adds rows at the known cost
+    // and passes; a change that makes every row heavier fails here however few rows there are.
+    const bytes = Buffer.byteLength(html, "utf8");
+    const rowBytes = (html.match(/<details[\s>][\s\S]*?<\/details>/g) ?? []).reduce((n, r) => n + Buffer.byteLength(r, "utf8"), 0);
+    const rowCount = (html.match(/<details[\s>]/g) ?? []).length;
+    const pillBytes = [...html.matchAll(/<a href="#[a-z0-9-]+" class="chip explained-ref"[\s\S]*?<\/a>/g)].reduce((n, m) => n + Buffer.byteLength(m[0], "utf8"), 0);
+    const pillCount = (html.match(/class="chip explained-ref"/g) ?? []).length;
+    expect(rowBytes / rowCount, `a row costs ${(rowBytes / rowCount).toFixed(0)} bytes`).toBeLessThan(500);
+    expect(pillBytes / pillCount, `a pill costs ${(pillBytes / pillCount).toFixed(0)} bytes`).toBeLessThan(120);
+    expect(bytes / sections.length, `a section costs ${(bytes / sections.length / KB).toFixed(1)} KB`).toBeLessThan(9 * KB);
+    // The ceiling is the point at which paging itself would have to change rather than the budget being raised.
+    expect(bytes / (1024 * KB), `explained markup is ${(bytes / KB).toFixed(1)} KB of its 1 MB ceiling`).toBeLessThan(MARGIN);
   });
 
   it("idea rankings renders the first page of every view plus the Show more sentinel", () => {

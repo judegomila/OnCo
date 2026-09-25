@@ -1,0 +1,9 @@
+docs/DATA-SOURCES.md
+  ai_agent 204-231
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "04b6daba53fd1affd66799e9c9da32ed91b686e9",
+  "prompts": {}
+}

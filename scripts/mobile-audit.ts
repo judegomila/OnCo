@@ -32,6 +32,8 @@ type Check = {
 
 const v = (name: string) => `[data-mobile-view="${name}"]`;
 export const CHECKS: Check[] = [
+  // The home page's entry point on a phone is the body map in entry mode (src/components/KindGraph.tsx).
+  { route: "/", view: "body-map", label: "home entry, brain", steps: [{ act: "click", sel: `${v("body-map")} [data-mobile-control]`, nth: 0 }], expect: "driven" },
   { route: "/body/", view: "body-map", label: "brain", steps: [{ act: "click", sel: `${v("body-map")} [data-mobile-control]`, nth: 0 }], expect: "driven" },
   { route: "/body/", view: "body-map", label: "mid figure", steps: [{ act: "click", sel: `${v("body-map")} [data-mobile-control]`, nth: 8 }], expect: "driven" },
   { route: "/graph/", view: "graph-explorer", label: "deep neighbour", steps: [{ act: "click", sel: `${v("graph-explorer")} aside [data-mobile-control]`, nth: 0 }, { act: "click", sel: `${v("graph-explorer")} aside [data-mobile-control]`, nth: 12 }], expect: "driven" },
@@ -84,8 +86,11 @@ async function main() {
   await s("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 2, mobile: false });
   await s("Emulation.setTouchEmulationEnabled", { enabled: true });
 
+  // ONLY=/,/body/ runs the checks of those routes alone (a dev server compiles each route on first request).
+  const only = process.env.ONLY?.split(",").map((r) => r.trim()).filter(Boolean);
+  const checks = only?.length ? CHECKS.filter((c) => only.includes(c.route)) : CHECKS;
   let failed = 0;
-  for (const c of CHECKS) {
+  for (const c of checks) {
     await s("Page.navigate", { url: `${BASE}${c.route}` });
     await sleep(6000);
     const r = await s("Runtime.evaluate", { awaitPromise: true, returnByValue: true, expression: `(async () => {
@@ -130,8 +135,8 @@ async function main() {
     console.log(`${out.ok ? "PASS" : "FAIL"} ${c.route} ${c.view}${c.label ? ` (${c.label})` : ""}: ${out.why}`);
   }
   ws.close(); chrome.kill();
-  if (failed) { console.error(`${failed} of ${CHECKS.length} mobile checks failed`); process.exit(1); }
-  console.log(`${CHECKS.length} mobile checks passed`);
+  if (failed) { console.error(`${failed} of ${checks.length} mobile checks failed`); process.exit(1); }
+  console.log(`${checks.length} mobile checks passed`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

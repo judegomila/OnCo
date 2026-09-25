@@ -22,6 +22,7 @@ import { SCHEMATIC_ALIAS, SPECIFIC_IDS, hasAnimation } from "@/data/schematics";
 import { hasAnchorApproval, isDiagnostic, regionalApprovals, regionSpecific } from "@/data/regional-approvals";
 import { reviews } from "@/data/reviews";
 import { simple } from "@/data/simple";
+import { TRIAL_REGISTRY_RESULTS_ABSENT } from "@/data/trial-registry-outcomes";
 import { tldr_es } from "@/data/i18n/es";
 import { tldr_fr } from "@/data/i18n/fr";
 import { tldr_de } from "@/data/i18n/de";
@@ -125,6 +126,25 @@ const EXPLAINED_PLACEHOLDER = /antibody-drug|adc|conjugate|bispecific|engager|an
 
 const APPROVED = new Set(["approved", "standard-of-care"]);
 
+/** Does this cancer pass the deep-dive test on its own record (three settings, three history events, a pipeline)? */
+const hasDeepDive = (c: { standardOfCare: unknown[]; history: unknown[]; pipeline: unknown[] }) =>
+  c.standardOfCare.length >= 3 && c.history.length >= 3 && c.pipeline.length > 0;
+
+/**
+ * True for a subtype page whose treatment is the parent's: wave 4 added 99 such pages deliberately thin ("as for
+ * gallbladder adenocarcinoma", "treated as cervical cancer by stage"), each with one standard-of-care row pointing at
+ * a parent that carries the full deep dive. Their reader gets the depth one click up, so counting them as shallow
+ * measures the shape of the taxonomy, not what OnCo knows. A subtype whose parent is itself thin stays in scope: then
+ * nobody carries the depth. Deliberately shallow only where a deeper page exists to defer to.
+ */
+function deferredToParent(g: Graph, c: { parent?: string }): boolean {
+  const p = c.parent ? g.get(c.parent) : undefined;
+  return !!p && p.kind === "cancer" && hasDeepDive(p);
+}
+
+/** A target a medicine in the corpus is aimed at: the population whose prevalence a reader needs to pick a treatment. */
+const hasCorpusDrug = (g: Graph, id: string) => (g.incoming(id).get("drug") ?? []).length > 0;
+
 export const METRIC_DEFS: MetricDef[] = [
   {
     id: "sources", label: "Records with a primary source",
@@ -157,13 +177,21 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g) => fails(g.entities, (e) => (e.summary.trim().length < 300 ? `${e.summary.trim().length} characters` : null), (e) => (300 - e.summary.length) * 100 + prio(e)),
   },
   {
-    id: "cancer-depth", label: "Cancers with a deep dive", kind: "cancer",
-    plain: "Every cancer page should reach TNBC depth: at least three standard-of-care settings, three history events, and a pipeline.",
-    action: "Add `standardOfCare` rows by setting with refs, `history` events with refs, and `pipeline` ids; see cancers.ts for the TNBC model.",
-    check: (g) => fails(g.kind("cancer"), (c) => {
-      const why = [c.standardOfCare.length < 3 ? `${c.standardOfCare.length} standard-of-care rows` : null, c.history.length < 3 ? `${c.history.length} history events` : null, c.pipeline.length === 0 ? "empty pipeline" : null].filter(Boolean);
-      return why.length ? why.join(", ") : null;
-    }, (c) => -(c.standardOfCare.length + c.history.length + c.pipeline.length)),
+    id: "cancer-depth", label: "Cancers that reach a deep dive, their own or the parent's", kind: "cancer",
+    plain: "A reader who lands on a cancer page should reach TNBC depth in at most one click: at least three standard-of-care settings, three history events and a pipeline, on this page or on the parent it says it is treated as. Wave 4 added 99 subtype pages deliberately thin (\"as for gallbladder adenocarcinoma\", \"treated as cervical cancer by stage\"); copying the parent's table onto each would add pages, not knowledge, so a page that defers to a parent with the depth counts as reaching it.",
+    action: "Add `standardOfCare` rows by setting with refs, `history` events with refs, and `pipeline` ids; see cancers.ts for the TNBC model. A thin subtype with no deep parent needs one of the two filled in.",
+    check: (g) => {
+      const cancers = g.kind("cancer");
+      const r = fails(cancers, (c) => {
+        if (hasDeepDive(c)) return null;
+        if (deferredToParent(g, c)) return null;
+        const why = [c.standardOfCare.length < 3 ? `${c.standardOfCare.length} standard-of-care rows` : null, c.history.length < 3 ? `${c.history.length} history events` : null, c.pipeline.length === 0 ? "empty pipeline" : null].filter(Boolean);
+        return `${why.join(", ")}${c.parent ? ", and the parent has no deep dive either" : ""}`;
+      }, (c) => -(c.standardOfCare.length + c.history.length + c.pipeline.length));
+      const own = cancers.filter((c) => hasDeepDive(c)).length;
+      const viaParent = cancers.filter((c) => !hasDeepDive(c) && deferredToParent(g, c)).length;
+      return { ...r, note: `${own.toLocaleString("en-GB")} carry their own deep dive, ${viaParent.toLocaleString("en-GB")} subtype pages defer to a parent that has one, ${r.failing.length.toLocaleString("en-GB")} reach neither` };
+    },
   },
   {
     id: "regional-approvals", label: "Approved products with regional rows", kind: "drug",
@@ -185,17 +213,32 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g) => { const specific = new Set(SPECIFIC_IDS); return fails(g.kind("technology"), (t) => (hasAnimation(t.id) || specific.has(t.id) || (t.id in SCHEMATIC_ALIAS && (specific.has(SCHEMATIC_ALIAS[t.id]) || hasAnimation(SCHEMATIC_ALIAS[t.id]))) ? null : "generic schematic")); },
   },
   {
-    id: "target-prevalence", label: "Targets with sourced prevalence", kind: "target",
-    plain: "For each target we should say how common it is in each cancer, with a source, so the prevalence matrix is complete.",
-    action: "Add `prevalence` rows ({ cancerId, pct, measure, source }) to the target record.",
-    check: (g) => fails(g.kind("target"), (t) => (t.prevalence.length === 0 ? "no prevalence rows" : null)),
+    id: "target-prevalence", label: "Targets with sourced prevalence, or with no medicine aimed at them", kind: "target",
+    plain: "Where a medicine in the corpus aims at a target, the page should say how common that target is in each cancer, with a source: that is the number a reader needs to judge whether the medicine could be for them. The catalogue genes imported from CIViC, Open Targets and IntOGen have no medicine attached; they are a map of cancer genetics, a cancer-by-cancer prevalence row for each is not knowledge anyone holds, and their absence counts as explained rather than as a gap.",
+    action: "Add `prevalence` rows ({ cancerId, pct, measure, source }) to the target record; take the rate from the pivotal trial's biomarker-prevalence table or a cohort paper, never from a review's round number. Adding a drug record aimed at a catalogue gene brings that gene into scope.",
+    check: (g) => {
+      const targets = g.kind("target");
+      const r = fails(targets, (t) => (t.prevalence.length || !hasCorpusDrug(g, t.id) ? null : "no prevalence rows"));
+      const withRows = targets.filter((t) => t.prevalence.length).length;
+      const noMedicine = targets.filter((t) => !t.prevalence.length && !hasCorpusDrug(g, t.id)).length;
+      return { ...r, note: `${withRows.toLocaleString("en-GB")} with prevalence rows, ${noMedicine.toLocaleString("en-GB")} catalogue genes with no corpus medicine, ${r.failing.length.toLocaleString("en-GB")} targets a medicine is aimed at still without` };
+    },
   },
   {
-    id: "trial-outcomes", label: "Trials with structured outcomes", kind: "trial",
-    plain: "Every trial should carry arms, N, endpoints, and hazard ratios so pictograms and evidence scores can render.",
-    action: "Add an entry in trial-outcomes.ts with the primary endpoint, arms, and the source publication.",
-    // Only trials that have reported can carry outcomes; recruiting, active and planned trials are not gaps.
-    check: (g) => fails(g.kind("trial").filter((t) => ["positive", "negative", "mixed", "completed", "approved", "standard-of-care", "withdrawn"].includes(t.status ?? "")), (t) => (t.outcomes.length === 0 ? (t.result ? "result text only" : "no outcomes") : null), (t) => (t.result ? 0 : 1)),
+    id: "trial-outcomes", label: "Trials with structured outcomes, or with no results in public", kind: "trial",
+    plain: "Where a trial's results exist in public, the page should carry arms, N, endpoints and hazard ratios so pictograms and evidence scores can render. A reported trial whose registry record has no results section and which has published nothing has no number to copy; that silence is the sponsor's, and it counts as explained rather than as a gap.",
+    action: "Add an entry in trial-outcomes.ts with the primary endpoint, arms, and the source publication, or run `npx tsx scripts/fetch-registry-outcomes.ts --apply` when the registry has posted results.",
+    // Only trials that have reported can carry outcomes; recruiting, active and planned trials are not gaps, and
+    // neither are reported trials whose sponsor never posted or published anything (TRIAL_REGISTRY_RESULTS_ABSENT,
+    // regenerated from the registry on every fetch run, so a trial leaves the list the day its sponsor posts).
+    check: (g) => {
+      const reported = g.kind("trial").filter((t) => ["positive", "negative", "mixed", "completed", "approved", "standard-of-care", "withdrawn"].includes(t.status ?? ""));
+      const silent = new Set(TRIAL_REGISTRY_RESULTS_ABSENT);
+      const nothingPublic = (t: (typeof reported)[number]) => silent.has(t.id) && !t.result && (t.keyPapers ?? []).length === 0;
+      const r = fails(reported, (t) => (t.outcomes.length ? null : nothingPublic(t) ? null : t.result ? "result text only" : "no outcomes"), (t) => (t.result ? 0 : 1));
+      const structured = reported.filter((t) => t.outcomes.length).length;
+      return { ...r, note: `${structured.toLocaleString("en-GB")} with structured outcomes, ${reported.filter((t) => !t.outcomes.length && nothingPublic(t)).length.toLocaleString("en-GB")} that have posted and published nothing, ${r.failing.length.toLocaleString("en-GB")} with a public result not yet structured` };
+    },
   },
   {
     id: "institution-people", label: "Institutions with people", kind: "institution",

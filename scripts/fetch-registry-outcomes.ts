@@ -341,6 +341,8 @@ async function main() {
   // Build the side file from the cache.
   const skipped = new Map<string, number>();
   const data: Array<[string, RegistryOutcomeData]> = [];
+  /** Trials the registry says have posted no results at all: nothing exists to copy, now or by trying harder. */
+  const absent: string[] = [];
   let cached = 0, missing = 0, withResults = 0, noResults = 0, resultsButNothingCopied = 0;
   const statusOfResults = new Map<string, number>();
   for (const t of scope.slice(0, first)) {
@@ -348,7 +350,7 @@ async function main() {
     if (!c) continue;
     cached++;
     if (c.missing || !c.study) { missing++; continue; }
-    if (!c.study.hasResults) { noResults++; continue; }
+    if (!c.study.hasResults) { noResults++; absent.push(t.id); continue; }
     withResults++;
     const st = c.study.protocolSection?.statusModule?.overallStatus ?? "unknown";
     statusOfResults.set(st, (statusOfResults.get(st) ?? 0) + 1);
@@ -383,8 +385,20 @@ export type RegistryOutcomeData = Pick<TrialInput, "enrolled" | "enrolledBasis" 
 
 export const TRIAL_REGISTRY_OUTCOMES: Record<string, RegistryOutcomeData> = {
 `;
-  writeFileSync(OUT, `${header}${lines.join("\n")}${lines.length ? "\n" : ""}};\n`);
-  console.log(`wrote ${OUT} (${data.length} trials)`);
+  const absentBlock = `
+/**
+ * Trials whose ClinicalTrials.gov record carries no results section at all, as of ${today}: the sponsor has posted
+ * nothing, so there are no arms, no N and no endpoint values to copy, and no contributor can supply them from the
+ * registry. Read by the \`trial-outcomes\` health gauge (src/lib/health.ts), which counts the trials whose results are
+ * public somewhere and says in its label how many completed trials have reported nothing. Regenerated on every
+ * \`--apply\` run: a trial drops off this list the day its sponsor posts.
+ */
+export const TRIAL_REGISTRY_RESULTS_ABSENT: string[] = [
+${absent.map((id) => `  ${JSON.stringify(id)},`).join("\n")}
+];
+`;
+  writeFileSync(OUT, `${header}${lines.join("\n")}${lines.length ? "\n" : ""}};\n${absentBlock}`);
+  console.log(`wrote ${OUT} (${data.length} trials, ${absent.length} with no results posted)`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

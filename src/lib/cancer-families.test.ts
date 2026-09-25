@@ -95,6 +95,8 @@ const PARENT_PHRASES: Record<string, RegExp> = {
   "paediatric-low-grade-glioma": /glioma|brain/i,
   "pleuropulmonary-blastoma": /pleuropulmonary|lung/i,
   "pancreatic-net": /pancrea|neuroendocrine/i,
+  "pituitary-tumours": /pituitary/i,
+  thymoma: /thymoma|thymus/i,
 };
 
 /** At most this many same-parent siblings in `related`: a comparison set, not the whole family. */

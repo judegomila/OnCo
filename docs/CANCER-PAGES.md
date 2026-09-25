@@ -76,6 +76,11 @@ Recorded here so the next wave does not re-decide them. Family files carry the d
   glioma by site; PNET and myxosarcoma are retired terms; ganglioneuroma, neurofibroma, adrenocortical adenoma and
   haemangioblastoma are benign and are not cancer records; keratoacanthoma stays a string; the pleuropulmonary blastoma
   entity (types I to III) sits under the corpus's childhood lung tumour umbrella page of the same name.
+- Endocrine, thoracic, gynaecological (`cancers-wave4-endocrine-thoracic-gynae.ts`): the five lineage-defined pituitary
+  neuroendocrine tumour types of the WHO 2022 endocrine classification are entities (the plurihormonal PIT1 tumour stays a
+  string); thymoma types A and AB share a page and B1 and B2 share a page because the WHO and ITMIG treat each pair as one
+  prognostic group, while B3 and micronodular thymoma stand alone; "thymoma with myasthenia gravis" is a setting; ciliary
+  body and iris melanoma are site variants of uveal melanoma and stay strings.
 - Mechanics: `linkSiblings` in `cancers-wave4-shared.ts` gives every new record an inbound `related` link from a sibling
   within the six-sibling cap, so the orphan ratchet holds without hand-edits; every new parent needs a `PARENT_PHRASES`
   entry in `src/lib/cancer-families.test.ts`; TL;DRs are capped at 400 characters by `src/lib/graph.test.ts`.

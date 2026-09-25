@@ -57,8 +57,12 @@ const CLASS: Record<Metric, string> = { trials: "bt", drugs: "bd", approvals: "b
 /** Two-letter node classes for the stylesheet ("system" and "subtype" share an initial). */
 const NODE_CLASS: Record<CancerDagNode["layer"], string> = { system: "sy", histology: "hi", cancer: "ca", subtype: "su" };
 
+/** Words for the four badge counts in the hover tooltip; a count of zero is left out rather than read aloud as "0". */
+const METRIC_WORD: Record<Metric, string> = { trials: "trials", drugs: "products", approvals: "approved", ideas: "ideas" };
+
 function tooltip(n: CancerDagNode, d: CancerDag): string {
-  const parts = [`${n.name}: ${n.counts.trials} trials, ${n.counts.drugs} products, ${n.counts.approvals} approved, ${n.counts.ideas} ideas${n.children.length ? ` (with ${n.children.length} beneath)` : ""}`];
+  const counts = METRICS.filter((m) => n.counts[m] > 0).map((m) => `${n.counts[m]} ${METRIC_WORD[m]}`);
+  const parts = [`${n.name}: ${counts.length ? counts.join(", ") : "nothing recorded yet"}${n.children.length ? ` (with ${n.children.length} beneath)` : ""}`];
   if (n.parents.length) parts.push(`Under ${n.parents.map((p) => d.byId.get(p)?.name ?? p).join(" and ")}`);
   return parts.join(". ");
 }

@@ -66,6 +66,8 @@ export const TAG_DESCRIPTIONS: Readonly<Record<string, string>> = {
   "gallbladder-deep-dive": "Registry-only phase 2 and 3 trials that name gallbladder cancer in their conditions or eligibility, recorded from ClinicalTrials.gov during the gallbladder cancer deep dive.",
   "pancreatic-deep-dive": "Registry-only phase 2 and 3 trials that name pancreatic cancer in their title or conditions, recorded from ClinicalTrials.gov during the pancreatic cancer deep dive of September 2026; registry facts only, no outcomes.",
   "tnbc-deep-dive": "Registry-only phase 2 and 3 trials that name triple-negative breast cancer in their title or conditions, recorded from ClinicalTrials.gov during the triple-negative breast cancer deep dive.",
+  gi: "Records written while covering the cancers of the digestive tract: oesophagus, stomach, pancreas, liver and bile ducts, small bowel, colon, rectum, anus and appendix."
+    + " Most were added by the gastrointestinal deep dives.",
   mechanism: "Pathways and ideas that explain how a cancer process works rather than a single product.",
   paediatric: "Cancers, trials, people and institutions concerned with cancer in children and young people.",
   hero: "People shown on the heroes page: patients, pioneers, advocates and donors whose stories shaped the field.",

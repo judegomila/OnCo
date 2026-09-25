@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
+- Pancreatic cancer deep spike, round one: the UK and NHS pathway with the national audit findings, decisions, first 60 days, red cards and the first-treatment aid
 - Cooperative groups have one home: 35 trial groups move from institutions to cooperative-group companies with redirects
 - TNBC reviewed against its sources: figures reconciled, duplicates folded, 822 links checked
 - Wave 4: 99 cancer entity pages under the taxonomy rule; roadmaps page their eras; subtype pages rank below their parents in Ask
@@ -15,6 +16,9 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 
 ### 24 September 2026
+- Pancreatic cancer living with it, care and decisions: ten decision rows, 90 hand-written questions, first 60 days checklist, six red-card sets with the 111 and 999 wording, first-treatment decision aid from NICE NG85, sourced living-with notes on 26 side-effect and procedure records
+- Pancreatic cancer UK and NHS page: NG12 diabetes rule, 28/31/62-day standards, NPaCA 2026 findings, 23 HPB hubs, NICE TA476/TA440/TA750/TA1052 and SMC decisions verified, PERT audit gap, EUROPAC and Precision-Panc legacy, four-nation registry figures
+- Cooperative groups have one home: 35 trial groups move from institutions to cooperative-group companies with redirects
 - One home for cooperative groups: 35 consortium institutions become cooperative-group companies (row 251)
 - TNBC reviewed against its sources: figures reconciled, duplicates folded, 822 links checked
 - Roadmap watch row: text column shrinks and wraps on phones

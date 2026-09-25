@@ -4,6 +4,7 @@
  */
 import { graph } from "./graph";
 import { KIND_META } from "./kinds";
+import { recordWeight } from "./search-rank";
 import { type Entity } from "./schema";
 import type { SemanticDoc } from "./semantic";
 
@@ -47,9 +48,10 @@ export function semanticDocs(): SemanticDoc[] {
   return g.entities.map((e) => {
     const names: string[] = [];
     for (const [k, list] of g.neighbours(e.id)) if (k !== "section") for (const n of list) names.push(n.name);
-    return { id: e.id, kind: e.kind, text: semanticText(e, names), // Biomarker readouts and generated gene records share names with the drugs and targets they describe, so they sit at 0.7 to keep
-    // the Ask OnCo extractive floor honest (measured 0.3476 with them at 1 on 23 Sept 2026). The wave 4 entity pages (tag wave4,
-    // mostly "treated as its parent") join them at 0.7 on 25 Sept 2026: recall fell 0.416 to 0.403 when they arrived at weight 1.
-    ...(e.tags.includes("ctgov-ingest") || e.tags.includes("europepmc-ingest") ? { weight: 0.6 } : e.kind === "biomarker" || e.tags.includes("cancer-genes-wave") || e.tags.includes("wave4") ? { weight: 0.7 } : {}) };
+    // Provenance weight shared with Ask's word search (search-rank.ts recordWeight): registry-ingested records 0.6;
+    // biomarker readouts, generated gene pages and wave 4 subtypes 0.7 (measured 23 to 25 Sept 2026 against the Ask
+    // OnCo extractive floor; wave 4 arriving at weight 1 took recall 0.416 to 0.403).
+    const weight = recordWeight(e.kind, e.tags);
+    return { id: e.id, kind: e.kind, text: semanticText(e, names), ...(weight !== 1 ? { weight } : {}) };
   });
 }

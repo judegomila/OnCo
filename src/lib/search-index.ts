@@ -6,7 +6,7 @@ import { engineRoute, FORMATS, modalityRoute } from "./modular-formats";
 import { DECISION_TOOLS, toolRoute } from "./decision-tools";
 import { COMPARE_SETS, compareRoute } from "./cancer-compare";
 
-export type SearchDoc = { id: string; kind: Kind | "page"; name: string; /** Aliases, one per line: MiniSearch tokenises on the newline as it does on a space, and the ranking can still tell "Breast cancer in men" from a lone "Breast". */ aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string };
+export type SearchDoc = { id: string; kind: Kind | "page"; name: string; /** Aliases, one per line: MiniSearch tokenises on the newline as it does on a space, and the ranking can still tell "Breast cancer in men" from a lone "Breast". */ aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string; /** The broader record this is a subtype of (a cancer's parent page); Ask ranks a subtype below its parent unless the query names it. */ parent?: string };
 
 /** Pages outside the navigation groups that a search should still reach. */
 export const SITE_PAGES: ReadonlyArray<{ href: string; label: string; blurb: string }> = [
@@ -55,6 +55,7 @@ export function searchDocs(): SearchDoc[] {
     route: routeFor(e),
     status: e.status,
     cancers: e.cancers.length ? e.cancers.join(" ") : undefined,
+    parent: "parent" in e && typeof e.parent === "string" ? e.parent : undefined,
   }));
 }
 

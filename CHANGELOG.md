@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- Skin cancer: what a person with a basal cell or squamous cell cancer faces, the family tree given its reason, and the counting rule that hides the commonest cancer there is
+- Skin cancer on the NHS: nearly a third of England's urgent cancer referrals are for skin, and the commonest skin cancer is excluded from the standard that measures them
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,7 +19,14 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- Two layers of the skin round wrote the same trial: the ratchet caught it and the merge tool fixed it
+- Record which of the skin layer's sources a program cannot open, checked one URL at a time
+- The skin cancer NHS pathway, and the two exclusions that mean the published figures are not what they look like
+- A reader on a breast subtype page now gets the cord compression card, and never two sepsis cards
+- Skin cancer: what a person with a basal cell or squamous cell cancer faces, the family tree given its reason, and the counting rule that hides the commonest cancer there is
+- The breast family review: the family page duplicates nothing, but the two receptor pages it routes to said everything twice
 - What a person with a basal cell or squamous cell skin cancer actually faces, and a rule that lets a row cite the leaflet that carries its sentence
+- The treatment of the keratinocyte cancers: the margin, Mohs surgery, the creams and the light, radiotherapy, the hedgehog pathway and the transplant recipient
 - Three review lessons from the skin layer: a citation that does not contain the claim passes every gate
 - The rows about living with a skin cancer now cite the leaflet that actually contains the sentence, and the photodynamic therapy figures move to the cream the trials used
 - The skin family given its routing, the keratinocyte cancers given their subtypes and staging, and the counting rule that governs every figure on them

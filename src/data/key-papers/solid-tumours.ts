@@ -372,31 +372,7 @@ export const papersSolidTumours: PaperInput[] = [
     trials: ["adaura"], terms: ["neoadjuvant-adjuvant", "oncogene-addiction", "mrd"], companies: ["astrazeneca"],
     people: ["wu-yi-long", "he-jie", "lu-shun"], bottlenecks: ["b-dormancy-mrd", "b-drug-pricing"], journals: ["nejm"] }),
 
-  p({ id: "paper-crown-nejm-2020", name: "CROWN: lorlatinib versus crizotinib as first treatment for ALK-positive lung cancer",
-    tldr: "The third-generation ALK inhibitor lorlatinib kept ALK-positive lung cancer under control for years longer than crizotinib and largely prevented brain metastases; at five years most patients on lorlatinib had still not progressed.",
-    summary: "Open-label phase 3 trial of 296 patients with untreated advanced ALK-positive NSCLC randomised to lorlatinib or crizotinib. Primary endpoint was PFS by blinded review.\n\nAt the interim analysis, 12-month PFS was 78% vs 39% (HR 0.28) with intracranial responses in 82% of patients with measurable brain metastases. The 2024 five-year update reported 5-year PFS of 60% vs 8% (HR 0.19), with median PFS still not reached, the longest PFS recorded for a targeted therapy in metastatic NSCLC.",
-    journal: "New England Journal of Medicine", year: 2020, doi: "10.1056/NEJMoa2027187",
-    authors: "Shaw AT, Bauer TM, de Marinis F, et al.", paperType: "rct", participants: 296, changedPractice: true,
-    findings: [
-      "12-month PFS 78% vs 39%; HR 0.28 (95% CI 0.19-0.41).",
-      "Intracranial objective response 82% vs 23% in patients with measurable brain metastases.",
-      "Five-year update (JCO 2024): 5-year PFS 60% vs 8%, HR 0.19; median PFS not reached; time to intracranial progression HR 0.06.",
-      "Grade 3-4 adverse events 72% vs 56%, driven by hyperlipidaemia, weight gain, oedema and cognitive or mood effects.",
-    ],
-    whatItMeans: "For ALK-positive advanced lung cancer, lorlatinib as the first drug offers the possibility of many years without progression and strong protection against brain metastases. Alectinib and brigatinib remain alternatives with a gentler side-effect profile; the choice weighs lorlatinib's cognitive, metabolic and weight effects against its unmatched duration of control.",
-    caveats: [
-      "Open-label; no direct comparison with alectinib or brigatinib, the other first-line standards.",
-      "Neurocognitive and mood adverse events require counselling and sometimes dose reduction.",
-      "Overall survival data remain immature because so few patients have progressed.",
-      "Small trial; crizotinib is no longer a relevant comparator.",
-    ],
-    links: [
-      { label: "NEJM 2020", url: "https://doi.org/10.1056/NEJMoa2027187" },
-      { label: "ClinicalTrials.gov NCT03052608", url: "https://clinicaltrials.gov/study/NCT03052608" },
-    ],
-    cancers: ["nsclc"], drugs: ["lorlatinib"], targets: ["alk"], technologies: ["kinase-inhibitors"],
-    terms: ["oncogene-addiction", "gene-fusion", "pfs", "resistance"], companies: ["pfizer"],
-    institutions: ["peter-mac"], people: ["solomon-benjamin", "enriqueta-felip", "kim-dong-wan"], bottlenecks: ["b-brain-delivery", "b-resistance", "b-toxicity-qol"], journals: ["nejm"] }),
+  // paper-crown-nejm-2020 merged into paper-shaw-crown-lorlatinib-crizotinib-nejm-2020 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-keynote-189-nejm-2018", name: "KEYNOTE-189: pembrolizumab plus chemotherapy as first treatment for non-squamous lung cancer without a driver mutation",
     tldr: "Adding pembrolizumab to standard chemotherapy roughly halved the risk of death in newly diagnosed non-squamous lung cancer, whatever the PD-L1 level, making chemo-immunotherapy the default first treatment.",
@@ -805,31 +781,7 @@ export const papersSolidTumours: PaperInput[] = [
     terms: ["msi", "pcr", "neoadjuvant-adjuvant", "irae"], companies: ["bms"],
     institutions: ["nki"], people: ["myriam-chalabi", "emile-voest", "ton-schumacher", "john-haanen"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation", "b-trial-design"], journals: ["nejm"] }),
 
-  p({ id: "paper-cercek-dmmr-rectal-nejm-2022", name: "Dostarlimab alone cures mismatch-repair-deficient rectal cancer without surgery or radiotherapy",
-    tldr: "Six months of the PD-1 antibody dostarlimab made every tumour disappear in a small group of patients with mismatch-repair-deficient rectal cancer, allowing them to avoid chemotherapy, radiotherapy and surgery.",
-    summary: "Single-arm phase 2 trial of patients with stage II-III mismatch-repair-deficient locally advanced rectal adenocarcinoma treated with dostarlimab 500 mg every three weeks for six months, with the plan to proceed to chemoradiotherapy and surgery only if disease persisted.\n\nAll 12 patients who completed treatment at the time of the report had a clinical complete response on endoscopy, MRI and PET, and none had needed chemoradiotherapy or surgery at a follow-up of 6-25 months. Later expansions confirmed sustained complete responses in over 40 patients. It showed that a subset of solid tumours can be cured by immunotherapy alone with total organ preservation, and led to guideline endorsement and a breakthrough designation.",
-    journal: "New England Journal of Medicine", year: 2022, doi: "10.1056/NEJMoa2201445",
-    authors: "Cercek A, Lumish M, Sinopoli J, et al.", paperType: "rct", participants: 12, changedPractice: true,
-    findings: [
-      "Clinical complete response in 12 of 12 patients (100%) who completed six months of dostarlimab.",
-      "No patient required chemoradiotherapy or surgery, and no progression or recurrence during follow-up (6-25 months at publication).",
-      "No grade 3 or higher adverse events.",
-      "Subsequent expansion (2024-2025) reported sustained complete responses in over 40 rectal patients, with the approach extended to other dMMR tumour types.",
-    ],
-    whatItMeans: "Patients with rectal cancer whose tumour is mismatch-repair deficient (about 5-10% of rectal cancers) can now be offered immunotherapy alone with the realistic expectation of avoiding surgery, radiotherapy and a permanent stoma. This requires mismatch repair testing on the diagnostic biopsy, close endoscopic and MRI surveillance, and treatment in an experienced centre. It does not apply to the 90% of rectal cancers that are mismatch-repair proficient.",
-    caveats: [
-      "Very small single-centre study with short follow-up at publication; durability beyond a few years is still being established.",
-      "Clinical complete response is not the same as pathological complete response; surveillance must be rigorous and long-term.",
-      "Most patients were treated at one specialist centre; reproducibility in routine practice is uncertain.",
-      "Six months of dostarlimab is expensive and access is uneven.",
-    ],
-    links: [
-      { label: "NEJM 2022", url: "https://doi.org/10.1056/NEJMoa2201445" },
-      { label: "ClinicalTrials.gov NCT04165772", url: "https://clinicaltrials.gov/study/NCT04165772" },
-    ],
-    cancers: ["colorectal"], drugs: ["dostarlimab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor", "mri"],
-    terms: ["msi", "pcr", "neoadjuvant-adjuvant", "breakthrough-designation"], companies: ["gsk"],
-    institutions: ["mskcc"], people: ["andrea-cercek", "luis-diaz"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation", "b-toxicity-qol"], journals: ["nejm"] }),
+  // paper-cercek-dmmr-rectal-nejm-2022 merged into paper-cercek-dostarlimab-rectal-nejm-2022 on 2026-09-25: see src/data/merged-records.ts.
 
   // ---------------------------------------------------------------- Genitourinary
   p({ id: "paper-vision-nejm-2021", name: "VISION: lutetium-177 PSMA-617 radioligand therapy extends survival in advanced prostate cancer",

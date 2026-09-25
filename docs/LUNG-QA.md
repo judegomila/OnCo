@@ -150,15 +150,17 @@ lung-cancer (Lung cancer (all types))
   (`paper-mok-n-engl-j-med`, `paper-sequist-sci-transl-med`, `paper-nct02486718-lancet-2021`,
   `paper-nct03800134-n-engl-j-med-2023`, `paper-laura-n-engl-j-med-2024`, `paper-alex-n-engl-j-med-2017`,
   `paper-alina-n-engl-j-med-2024`, `paper-caspian-lancet-2019` and `paper-geometry-mono-1-capmatinib-nejm-2020`) and
-  six are curated key papers. Retiring either side needs the
-  redirect policy for `key-papers` ids that the TNBC and colorectal reviews also asked for; recorded below.
+  six are curated key papers. Retiring either side needed the
+  redirect policy for `key-papers` ids that the TNBC and colorectal reviews also asked for; that policy landed on
+  25 September 2026 (`docs/DUPLICATE-RECORDS.md`) and all fifteen are now merged.
 - **Four pairs of trial records share a registry id**, the four the spike found outside lung. Two are legitimate and
   now say so: `roar` and `roar-atc` are the biliary and anaplastic thyroid cohorts of one basket trial, and `i-spy-2-2`
   runs under the `i-spy-2` registration, which its own summary states. Two are genuine duplicates of a curated record
-  and a registry ingest: `keynote-158` with `nct02628067`, and `impactmf` with `nct04576156`. Merging them means
-  deleting an id that `trial-registry-outcomes.ts` and the simple-English files key on, so instead each record now
-  links the other, and `src/lib/corpus-rules.test.ts` gains a ratchet: **no two trial records may share a registry id
-  except these four, each with its reason**. A new pair now fails the build.
+  and a registry ingest: `keynote-158` with `nct02628067`, and `impactmf` with `nct04576156`. Merging them meant
+  deleting an id that `trial-registry-outcomes.ts` and the simple-English files key on, so at the time each record
+  linked the other, and `src/lib/corpus-rules.test.ts` gained a ratchet: **no two trial records may share a registry
+  id except these four, each with its reason**. A new pair now fails the build. Both duplicate pairs were merged on
+  25 September 2026, keys and all (`docs/DUPLICATE-RECORDS.md`), and the ratchet is down to the two legitimate pairs.
 
 ## 7. Backlinks, mobile, console, private data and budgets
 
@@ -219,11 +221,12 @@ as the NCCN guideline, which is what the panel had complained about.
 
 ## Open gaps
 
-- Fifteen lung papers share a DOI with a record the corpus already held (section 6). Retiring either side needs a
-  redirect policy for paper ids, which the TNBC and colorectal reviews also asked for and which nothing yet provides.
-- `keynote-158` with `nct02628067` and `impactmf` with `nct04576156` are one study each under two records. They are
-  cross-linked and ratcheted, not merged, because the ingest ids are keys in `trial-registry-outcomes.ts` and the
-  simple-English files.
+- ~~Fifteen lung papers share a DOI with a record the corpus already held (section 6)~~ **Closed 25 September 2026.**
+  All fifteen were merged, along with 65 more the corpus-wide survey found outside lung. The redirect policy this gap
+  asked for is `docs/DUPLICATE-RECORDS.md`, and `scripts/merge-records.ts` does the merge.
+- ~~`keynote-158` with `nct02628067` and `impactmf` with `nct04576156`~~ **Closed 25 September 2026.** Both were
+  merged; the keys in `trial-registry-outcomes.ts`, the simple-English files and the translations moved with them, and
+  the registry-id ratchet is down to the two legitimate pairs.
 - `public/reviews/models/nsclc.json` predates this review. Its verdict that the metastatic driver-positive row cited a
   PubMed Central article under an NCCN label is now moot because the row is gone, and the panel needs re-running with
   the owner's key.

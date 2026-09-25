@@ -162,7 +162,7 @@ export const openQuestions: OpenQuestion[] = [
     question: "Will fourth-generation ALK inhibitors extend the more than five-year progression-free survival seen with lorlatinib, or is lorlatinib the ceiling for on-target therapy?",
     why: "CROWN's five-year data made lorlatinib the first-line standard; resistance now runs through compound mutations and bypass pathways that neladalkib targets, but the incremental benefit after lorlatinib is unknown.",
     wouldAnswer: "ALKOVE-1 and randomised post-lorlatinib trials with resistance-mechanism stratification.",
-    refs: ["lorlatinib", "neladalkib", "crown", "alkove-1", "paper-crown-nejm-2020"],
+    refs: ["lorlatinib", "neladalkib", "crown", "alkove-1", "paper-shaw-crown-lorlatinib-crizotinib-nejm-2020"],
     source: doi("10.1200/JCO.24.00581", "CROWN five-year update, J Clin Oncol 2024") },
   { id: "braf-crc-first-line", subject: "braf", stage: "clinical", actor: "clinic",
     question: "Does BREAKWATER's first-line encorafenib plus cetuximab plus chemotherapy improve overall survival enough to displace chemotherapy plus bevacizumab for every BRAF V600E colorectal patient?",

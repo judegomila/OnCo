@@ -307,7 +307,7 @@ export const gynaecologicalSubtypes: CancerInput[] = [
     links: [{ label: "Wikipedia", url: W("Ovarian_cancer") }] },
 
   { id: "platinum-resistant-ovarian-cancer", related: ["platinum-sensitive-ovarian-cancer", "high-grade-serous-ovarian-cancer", "clear-cell-ovarian-cancer", "mucinous-ovarian-cancer"], kind: "cancer", trials: ["soraya"], name: "Platinum-resistant ovarian cancer", group: "gynaecologic", parent: "ovarian", asOf, tags, wikipedia: W("Ovarian_cancer"),
-    keyPapers: ["paper-mirasol-nejm-2023", "paper-aurelia-jco-2014", "paper-rosella-relacorilant-lancet-2025"],
+    keyPapers: ["paper-mirasol-nejm-2023", "paper-aurelia-bevacizumab-platinum-resistant-ovarian-pujade-lauraine-jco-2014", "paper-rosella-relacorilant-lancet-2025"],
     aka: ["Platinum-resistant recurrent ovarian cancer", "Platinum-refractory ovarian cancer", "Platinum-free interval under six months", "PROC"],
     burden: "Every woman who relapses repeatedly eventually reaches this state, and about a quarter of advanced ovarian cancers are resistant from the start; median survival was around a year with single-agent chemotherapy, and it is where the first antibody-drug conjugate and the first new drug classes in a decade have arrived.",
     tldr: "Platinum-resistant ovarian cancer grows back within six months of platinum chemotherapy, or during it, and used to be treated with single chemotherapy drugs that shrink a tumour one time in ten. The antibody-drug conjugate mirvetuximab soravtansine, the cortisol-blocking drug relacorilant and pembrolizumab in PD-L1-positive tumours have each extended survival in phase 3 trials since 2023.",

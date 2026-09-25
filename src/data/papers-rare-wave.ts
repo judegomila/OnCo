@@ -60,16 +60,7 @@ export const papersRareWave: PaperInput[] = [
     links: [{ label: "Ann Oncol 2021", url: "https://doi.org/10.1016/j.annonc.2021.06.015" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/34175386/" }],
     cancers: ["localised-anal-cancer", "metastatic-anal-cancer"], journals: ["annals-of-oncology"] }),
 
-  p({ id: "paper-interaact-anal-cancer-carboplatin-paclitaxel-jco-2020", name: "InterAACT: cisplatin and fluorouracil versus carboplatin and paclitaxel in advanced anal cancer",
-    tldr: "The first randomised trial in advanced anal cancer found that carboplatin with paclitaxel shrank tumours about as often as the older cisplatin and fluorouracil combination, with fewer serious side effects and longer survival, and it became the standard first treatment.",
-    summary: "International Rare Cancers Initiative randomised phase 2 trial of 91 patients with inoperable locally recurrent or metastatic anal squamous cell carcinoma, assigned to cisplatin plus fluorouracil or carboplatin plus weekly paclitaxel.\n\nObjective response rates were similar (about 57 and 59 percent), but serious adverse events were fewer with carboplatin and paclitaxel and median overall survival was 20 months against 12.3 months. Carboplatin and paclitaxel was adopted as the reference first-line regimen and as the chemotherapy backbone for later immunotherapy trials.",
-    journal: "Journal of Clinical Oncology", year: 2020, doi: "10.1200/JCO.19.03266", pmid: "32530769",
-    authors: "Rao S, Sclafani F, Eng C, et al.", paperType: "rct", participants: 91, changedPractice: true,
-    findings: ["Objective response about 59 percent with carboplatin and paclitaxel versus 57 percent with cisplatin and fluorouracil.", "Median overall survival 20 months versus 12.3 months, with fewer serious adverse events."],
-    whatItMeans: "Carboplatin and paclitaxel is the first-line chemotherapy for metastatic anal cancer, and the platform to which PD-1 antibodies such as retifanlimab were added.",
-    caveats: ["Small randomised phase 2 with response as the primary endpoint; the survival difference was a secondary finding.", "Accrual took years across many countries, reflecting how rare metastatic anal cancer is."],
-    links: [{ label: "J Clin Oncol 2020", url: "https://doi.org/10.1200/JCO.19.03266" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32530769/" }],
-    cancers: ["metastatic-anal-cancer"], drugs: ["carboplatin", "paclitaxel", "cisplatin", "fluorouracil"], journals: ["jco"] }),
+  // paper-interaact-anal-cancer-carboplatin-paclitaxel-jco-2020 merged into paper-interaact-carboplatin-paclitaxel-advanced-anal-cancer-rao-jco-2020 on 2026-09-25: see src/data/merged-records.ts.
 
   // ---------------------------------------------------------------------------------------------------------------------
   // Penile cancer
@@ -211,16 +202,7 @@ export const papersRareWave: PaperInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Adrenocortical carcinoma
   // ---------------------------------------------------------------------------------------------------------------------
-  p({ id: "paper-adiuvo-adjuvant-mitotane-acc-lancet-diabetes-endocrinol-2023", name: "ADIUVO: adjuvant mitotane versus surveillance in low-grade, localised adrenocortical carcinoma",
-    tldr: "In the first randomised trial of the adrenal-toxic drug mitotane after surgery, patients whose adrenocortical carcinoma had been fully removed and had a low proliferation rate did no better with two years of mitotane than with observation.",
-    summary: "International open-label randomised phase 3 trial of 91 patients with completely resected stage I to III adrenocortical carcinoma and Ki-67 of 10 percent or less, assigned to adjuvant mitotane for two years or active surveillance, with a parallel observational cohort of patients who declined randomisation.\n\nFive-year recurrence-free survival was similar (about 79 percent with mitotane and 75 percent with surveillance) and overall survival did not differ, while mitotane caused frequent adverse effects. The trial supports omitting mitotane in this low-risk group.",
-    journal: "The Lancet Diabetes & Endocrinology", year: 2023, doi: "10.1016/S2213-8587(23)00193-6", pmid: "37619579",
-    authors: "Terzolo M, Fassnacht M, Perotti P, et al.", paperType: "rct", participants: 91, changedPractice: true,
-    findings: ["Five-year recurrence-free survival about 79 percent with mitotane versus 75 percent with surveillance; no significant difference.", "No difference in overall survival; mitotane caused frequent adverse events."],
-    whatItMeans: "Patients with completely resected, low-proliferation adrenocortical carcinoma can be spared adjuvant mitotane; it remains recommended for higher-risk disease on retrospective evidence.",
-    caveats: ["Slow accrual left the trial underpowered and it closed with 91 of 200 planned patients.", "Applies only to the low-recurrence-risk group defined by complete resection and Ki-67 of 10 percent or less."],
-    links: [{ label: "Lancet Diabetes Endocrinol 2023", url: "https://doi.org/10.1016/S2213-8587(23)00193-6" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37619579/" }],
-    cancers: ["localised-adrenocortical-carcinoma"], drugs: ["mitotane"] }),
+  // paper-adiuvo-adjuvant-mitotane-acc-lancet-diabetes-endocrinol-2023 merged into paper-adiuvo-adjuvant-mitotane-low-grade-acc-terzolo-lancet-diabetes-endocrinol-2023 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-ese-ensat-adrenocortical-carcinoma-guideline-eur-j-endocrinol-2018", name: "European Society of Endocrinology and ENSAT clinical practice guidelines on the management of adrenocortical carcinoma in adults",
     tldr: "The European endocrine guideline for adrenocortical carcinoma: hormonal work-up, complete surgery by an expert, mitotane for those at high risk of relapse, and EDP-mitotane for disease that has spread.",
@@ -572,16 +554,7 @@ export const papersRareWave: PaperInput[] = [
     links: [{ label: "J Clin Oncol 2011", url: "https://doi.org/10.1200/JCO.2010.30.4386" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/21263100/" }],
     cancers: ["low-risk-gtn"], drugs: ["methotrexate", "dactinomycin"], journals: ["jco"] }),
 
-  p({ id: "paper-trophimmun-avelumab-chemoresistant-gtn-jco-2020", name: "TROPHIMMUN cohort A: avelumab in gestational trophoblastic tumours resistant to single-agent chemotherapy",
-    tldr: "The first trial of immunotherapy in gestational trophoblastic disease found that the PD-L1 antibody avelumab cured about half of women whose tumours had stopped responding to a single chemotherapy drug, sparing them combination chemotherapy.",
-    summary: "French multicentre single-arm phase 2 trial of 15 women with gestational trophoblastic tumours resistant to single-agent methotrexate or dactinomycin, treated with avelumab every two weeks until hCG normalised and for three further cycles.\n\nEight of 15 women (53 percent) achieved hCG normalisation and remained in remission, one later had a normal pregnancy; toxicity was mild. Cohort B, in women resistant to combination chemotherapy, was less successful.",
-    journal: "Journal of Clinical Oncology", year: 2020, doi: "10.1200/JCO.20.00803", pmid: "32716740",
-    authors: "You B, Bolze PA, Lotz JP, et al.", paperType: "observational", participants: 15, changedPractice: true,
-    findings: ["hCG normalisation in 8 of 15 women (53 percent) with single-agent-resistant GTN, with durable remissions.", "Mild toxicity and at least one subsequent healthy pregnancy."],
-    whatItMeans: "Immunotherapy is a real option for chemotherapy-resistant GTN, building on the extraordinary PD-L1 expression of trophoblast; the TROPHAMET trial is testing avelumab with methotrexate first line.",
-    caveats: ["Fifteen patients; no comparator.", "Women resistant to combination chemotherapy responded less often."],
-    links: [{ label: "J Clin Oncol 2020", url: "https://doi.org/10.1200/JCO.20.00803" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32716740/" }],
-    cancers: ["low-risk-gtn"], drugs: ["avelumab"], journals: ["jco"] }),
+  // paper-trophimmun-avelumab-chemoresistant-gtn-jco-2020 merged into paper-trophimmun-avelumab-chemoresistant-gtn-you-jco-2020 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-bower-ema-co-high-risk-gtn-charing-cross-jco-1997", name: "EMA/CO for high-risk gestational trophoblastic tumours: results from a cohort of 272 patients",
     tldr: "The Charing Cross series that established EMA/CO, an alternating weekly combination of five drugs, as the standard treatment for high-risk gestational trophoblastic disease, curing more than eight in ten women.",
@@ -650,16 +623,7 @@ export const papersRareWave: PaperInput[] = [
     links: [{ label: "J Clin Endocrinol Metab 2014", url: "https://doi.org/10.1210/jc.2014-1498" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/24893135/" }],
     cancers: ["hereditary-ppgl", "metastatic-ppgl"] }),
 
-  p({ id: "paper-firstmappp-sunitinib-metastatic-ppgl-lancet-2024", name: "FIRSTMAPPP: sunitinib for metastatic progressive pheochromocytomas and paragangliomas",
-    tldr: "The first randomised trial ever completed in metastatic pheochromocytoma and paraganglioma found that the kinase inhibitor sunitinib roughly doubled the proportion of patients whose disease had not progressed at one year compared with placebo.",
-    summary: "Academic international randomised double-blind placebo-controlled phase 2 trial of 78 patients with progressive metastatic pheochromocytoma or paraganglioma assigned to sunitinib 37.5 mg daily or placebo.\n\nProgression-free survival at twelve months was 36 percent with sunitinib against 19 percent with placebo, meeting the primary endpoint; responses were seen including in SDHB carriers, and toxicity was that of sunitinib (fatigue, hypertension, diarrhoea). Accrual took more than a decade.",
-    journal: "The Lancet", year: 2024, doi: "10.1016/S0140-6736(23)02554-0", pmid: "38402886",
-    authors: "Baudin E, Goichot B, Berruti A, et al.", paperType: "rct", participants: 78, changedPractice: true,
-    findings: ["Twelve-month progression-free survival 36 percent with sunitinib versus 19 percent with placebo.", "Objective responses in a minority, including patients with SDHB germline mutations."],
-    whatItMeans: "Sunitinib is an evidence-based option for progressive metastatic pheochromocytoma and paraganglioma, alongside radionuclide therapy and, for VHL-related disease, belzutifan.",
-    caveats: ["Small trial that took more than ten years to accrue, illustrating the difficulty of trials in this disease.", "Overall survival was not improved and the placebo arm could cross over."],
-    links: [{ label: "Lancet 2024", url: "https://doi.org/10.1016/S0140-6736(23)02554-0" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/38402886/" }],
-    cancers: ["metastatic-ppgl"], drugs: ["sunitinib"], journals: ["lancet"] }),
+  // paper-firstmappp-sunitinib-metastatic-ppgl-lancet-2024 merged into paper-firstmappp-sunitinib-metastatic-ppgl-baudin-lancet-2024 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-pryma-high-specific-activity-i131-mibg-ppgl-jnm-2019", name: "Efficacy and safety of high-specific-activity 131I-MIBG therapy in advanced pheochromocytoma or paraganglioma",
     tldr: "A purified radioactive form of MIBG, taken up by adrenaline-producing tumour cells, let a quarter of patients halve their blood pressure medication for at least six months and shrank tumours in about one in five, leading to the first approved radiopharmaceutical for these tumours.",

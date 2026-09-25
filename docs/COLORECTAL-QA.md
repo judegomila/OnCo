@@ -219,8 +219,8 @@ tightened (the colorectal decision-aid row quotes, and colorectal in the section
   CHALLENGE, DYNAMIC, CodeBreaK 300, TCGA, DESTINY-CRC01, HERACLES, NordICC, FRESCO-2, GALAXY, Vogelstein 1988,
   KEYNOTE-177, Le 2015 and 2017, MOUNTAINEER, Imperiale 2014, PRODIGE 23, CheckMate 8HW, OPRA, MOSAIC, PRIME, RAPIDO,
   SUNLIGHT, Tauriello 2018), and five more exist twice inside the spike under two ids from the molecular and evidence
-  layers (Tie 2016, TCGA 2012, HERACLES, Vogelstein 1988, PRIME). The two exact id collisions are fixed; retiring the
-  rest needs the redirect policy for `key-papers` ids that the TNBC and pancreatic reviews also asked for.
+  layers (Tie 2016, TCGA 2012, HERACLES, Vogelstein 1988, PRIME). **Closed 25 September 2026:** every one of them was
+  merged into a single record, and the redirect policy this gap asked for is `docs/DUPLICATE-RECORDS.md`.
 - `public/reviews/models/colorectal.json` (the model panel) was written before the spike and renders in the aside of
   every colorectal page. It says the record "says nothing about established risk factors", which the core layer now
   covers at length, and it queries claims that now carry sources. It needs re-running with the owner's key.

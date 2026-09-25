@@ -88,7 +88,7 @@ const backlinkSupplements: Spike["supplements"] = [
   { id: "paper-therap-lancet-2021", cancers: [PROSTATE], related: [ROADMAP, "paper-de-bono-tropic-cabazitaxel-lancet-2010", PROSTATE_IDEAS.sequence] } satisfies { id: string } & Partial<PaperInput>,
   { id: "paper-propsma-hofman-lancet-2020", cancers: [PROSTATE], related: [ROADMAP] } satisfies { id: string } & Partial<PaperInput>,
   { id: "paper-beltran-nepc-divergent-evolution-nat-med-2016", cancers: [PROSTATE], related: [ROADMAP, "paper-mu-sox2-lineage-plasticity-science-2017", PROSTATE_IDEAS.plasticity] } satisfies { id: string } & Partial<PaperInput>,
-  { id: "paper-ku-science", cancers: [PROSTATE], related: [ROADMAP, "paper-ku-rb1-trp53-lineage-plasticity-science-2017", "paper-mu-sox2-lineage-plasticity-science-2017", PROSTATE_IDEAS.plasticity] } satisfies { id: string } & Partial<PaperInput>,
+  { id: "paper-ku-rb1-trp53-lineage-plasticity-science-2017", cancers: [PROSTATE], related: [ROADMAP, "paper-mu-sox2-lineage-plasticity-science-2017", PROSTATE_IDEAS.plasticity] } satisfies { id: string } & Partial<PaperInput>,
   { id: "paper-aggarwal-t-sccpc-jco-2018", cancers: [PROSTATE], related: [ROADMAP, "paper-mu-sox2-lineage-plasticity-science-2017", PROSTATE_IDEAS.plasticity] } satisfies { id: string } & Partial<PaperInput>,
   { id: "paper-kantoff-n-engl-j-med", cancers: [PROSTATE], related: [ROADMAP, "paper-antonarakis-keynote-199-pembrolizumab-jco-2020"] } satisfies { id: string } & Partial<PaperInput>,
   { id: "paper-langley-lancet", cancers: [PROSTATE], related: [ROADMAP, "paper-huggins-hodges-castration-serum-phosphatases-prostate-1941", PROSTATE_IDEAS.otherCause] } satisfies { id: string } & Partial<PaperInput>,

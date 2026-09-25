@@ -115,7 +115,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["retifanlimab", "cthpv-dna", "nivolumab", "pembrolizumab"],
     openProblems: ["Median survival remains under two years even with a PD-1 antibody added to chemotherapy.", "No second-line standard exists after chemo-immunotherapy.", "Whether local treatment of oligometastases improves survival has never been randomised.", "HPV-directed cell therapies and vaccines are promising but early."],
-    keyPapers: ["paper-interaact-anal-cancer-carboplatin-paclitaxel-jco-2020", "paper-esmo-anal-cancer-guideline-ann-oncol-2021"],
+    keyPapers: ["paper-interaact-carboplatin-paclitaxel-advanced-anal-cancer-rao-jco-2020", "paper-esmo-anal-cancer-guideline-ann-oncol-2021"],
     drugs: ["carboplatin", "paclitaxel", "retifanlimab", "nivolumab", "pembrolizumab", "fluorouracil"], trials: [], technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy", "cthpv-dna", "sbrt"], terms: ["hpv-p16", "re-irradiation"], targets: ["pd1", "pdl1"],
     links: [{ label: "InterAACT (JCO 2020)", url: "https://doi.org/10.1200/JCO.19.03266" }, { label: "POD1UM-303 (Lancet 2025)", url: "https://doi.org/10.1016/S0140-6736(25)00631-2" }, { label: "Wikipedia", url: W("Anal_cancer") }] },
 
@@ -376,7 +376,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["mitotane", "cisplatin", "etoposide"],
     openProblems: ["Whether adjuvant chemotherapy adds to mitotane in high-risk disease awaits ADIUVO-2.", "Mitotane is slow to reach therapeutic levels and causes neurological and gastrointestinal toxicity in many patients.", "Adrenal incidentalomas are common and distinguishing early carcinoma from adenoma on imaging is imperfect.", "Surgical expertise is concentrated in few centres."],
-    keyPapers: ["paper-adiuvo-adjuvant-mitotane-acc-lancet-diabetes-endocrinol-2023", "paper-ese-ensat-adrenocortical-carcinoma-guideline-eur-j-endocrinol-2018"],
+    keyPapers: ["paper-adiuvo-adjuvant-mitotane-low-grade-acc-terzolo-lancet-diabetes-endocrinol-2023", "paper-ese-ensat-adrenocortical-carcinoma-guideline-eur-j-endocrinol-2018"],
     drugs: ["mitotane", "cisplatin", "etoposide"], trials: [], technologies: ["robotic-surgery", "imrt-igrt", "germline-testing", "thermal-ablation", "sbrt", "ct", "mri", "fdg-pet"], terms: ["adrenalectomy", "germline-vs-somatic", "lymphadenectomy", "staging-systems"], targets: ["tp53"],
     links: [{ label: "ADIUVO (Lancet Diabetes and Endocrinology 2023)", url: "https://doi.org/10.1016/S2213-8587(23)00193-6" }, { label: "ESE/ENSAT guideline 2018", url: accG.url }, { label: "Wikipedia", url: W("Adrenocortical_carcinoma") }] },
 
@@ -941,7 +941,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["avelumab", "pembrolizumab"],
     openProblems: ["Methotrexate and actinomycin D have never been compared head to head with the regimens most centres use.", "Which resistant patients should receive immunotherapy rather than EMA-CO is not settled.", "Overtreatment of quiescent disease with persistently low hCG is a risk.", "Care is centralised in only a few countries."],
-    keyPapers: ["paper-gog-174-methotrexate-vs-dactinomycin-low-risk-gtn-jco-2011", "paper-trophimmun-avelumab-chemoresistant-gtn-jco-2020", "paper-figo-2000-staging-gestational-trophoblastic-neoplasia-ijgo-2002"],
+    keyPapers: ["paper-gog-174-methotrexate-vs-dactinomycin-low-risk-gtn-jco-2011", "paper-trophimmun-avelumab-chemoresistant-gtn-you-jco-2020", "paper-figo-2000-staging-gestational-trophoblastic-neoplasia-ijgo-2002"],
     drugs: ["methotrexate", "dactinomycin", "avelumab", "pembrolizumab", "etoposide", "cyclophosphamide", "vincristine"], trials: [], technologies: ["cytotoxic-chemotherapy", "checkpoint-inhibitor", "ultrasound", "fertility-preservation", "serum-tumour-markers"], terms: ["tumour-markers", "staging-systems"], targets: ["pdl1"],
     links: [{ label: "GOG 174 (JCO 2011)", url: "https://doi.org/10.1200/JCO.2010.30.4386" }, { label: "TROPHIMMUN (JCO 2020)", url: "https://doi.org/10.1200/JCO.20.00803" }, { label: "Wikipedia", url: W("Gestational_trophoblastic_disease") }] },
 
@@ -1059,7 +1059,7 @@ export const rareSubtypes: CancerInput[] = [
     ],
     pipeline: ["belzutifan", "nct04924075", "nct07282587", "lutathera", "prrt", "sunitinib", "cabozantinib"],
     openProblems: ["No randomised trial has compared radionuclide therapy with drugs or defined their order.", "Azedra's withdrawal leaves MIBG-avid, somatostatin-receptor-negative patients without a radionuclide option in many countries.", "Catecholamine crises during treatment remain dangerous.", "The disease is too rare and too slow for conventional trial designs."],
-    keyPapers: ["paper-firstmappp-sunitinib-metastatic-ppgl-lancet-2024", "paper-pryma-high-specific-activity-i131-mibg-ppgl-jnm-2019", "paper-endocrine-society-pheochromocytoma-paraganglioma-guideline-jcem-2014"],
+    keyPapers: ["paper-firstmappp-sunitinib-metastatic-ppgl-baudin-lancet-2024", "paper-pryma-high-specific-activity-i131-mibg-ppgl-jnm-2019", "paper-endocrine-society-pheochromocytoma-paraganglioma-guideline-jcem-2014"],
     drugs: ["belzutifan", "sunitinib", "cabozantinib", "lutathera", "i131-mibg", "temozolomide", "cyclophosphamide", "vincristine"], trials: ["nct04924075", "nct07282587"], technologies: ["radioligand-therapy", "prrt", "mibg-theranostics", "sstr-pet", "fdg-pet", "kinase-inhibitors", "cytotoxic-chemotherapy", "thermal-ablation", "sbrt", "active-surveillance"], terms: ["adrenalectomy", "rare-cancers", "sdh-deficiency"], targets: ["hif2a", "sstr2", "vegf"],
     links: [{ label: "FIRSTMAPPP (Lancet 2024)", url: "https://doi.org/10.1016/S0140-6736(23)02554-0" }, { label: "Endocrine Society PPGL guideline 2014", url: ppglG.url }, { label: "Wikipedia", url: W("Pheochromocytoma") }] },
 

@@ -874,7 +874,7 @@ export const simpleP: Record<string, string> = {
   "nct06296706": "CSPC ZhongQi is comparing an albumin-bound form of docetaxel with standard Taxotere docetaxel in stomach cancer, and the trial is recruiting.",
   "nct07071337": "Sichuan Kelun-Biotech is comparing SKB264 with chemotherapy chosen by the doctor in hormone-positive, HER2-negative breast cancer after hormone therapy has failed.",
   "nct07221734": "mAbxience is comparing MB11, a proposed copy of nivolumab, with Opdivo in people with untreated advanced melanoma, and the trial is recruiting.",
-  "nct04576156": "Geron is comparing imetelstat with the best available therapy in myelofibrosis that has not responded to a JAK inhibitor, and the trial is active but no longer recruiting.",
+  "impactmf": "Geron is comparing imetelstat with the best available therapy in myelofibrosis that has not responded to a JAK inhibitor, and the trial is active but no longer recruiting.",
   "nct03815643": "This rollover study from EMD Serono lets people already taking avelumab in earlier company studies keep receiving it, and it is active but no longer recruiting.",
   "nct05894239": "Hoffmann-La Roche is testing inavolisib with Phesgo against a placebo with Phesgo in HER2-positive breast cancer carrying a PIK3CA mutation, and the trial is recruiting.",
   "nct06790693": "Hoffmann-La Roche is adding inavolisib to a CDK4/6 inhibitor and letrozole in hormone-positive, HER2-negative breast cancer with a PIK3CA mutation, and the trial is recruiting.",

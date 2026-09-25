@@ -63,7 +63,7 @@ const termSupplements: TermInput[] = [
 // The trial records themselves live in ./gallbladder-treatment.ts (with UK sites, outcomes and NICE positions); this
 // file attaches the paper records, institutions and cross-references its reading produced.
 const trialSupplements: TrialInput[] = [
-  supplement<TrialInput>({ id: "herizon-btc-01", kind: "trial", keyPapers: [HERIZON_01_PAPER, "paper-angerilli-her2-gallbladder-extrahepatic-concordance-hum-pathol-2026"] }),
+  supplement<TrialInput>({ id: "herizon-btc-01", kind: "trial", keyPapers: [HERIZON_01_PAPER, "paper-angerilli-her2-ihc-cish-biliary-hum-pathol-2026"] }),
   supplement<TrialInput>({ id: "nifty", kind: "trial", people: ["ghassan-abou-alfa"], related: ["abc-06"], keyPapers: ["paper-nifty-liposomal-irinotecan-lancet-oncol-2021"] }),
   supplement<TrialInput>({ id: "swog-s0809", kind: "trial", companies: ["swog"], related: ["bilcap", "polcagb"], keyPapers: ["paper-swog-s0809-adjuvant-chemoradiation-jco-2015", "paper-wang-adjuvant-chemoradiotherapy-nomogram-gallbladder-cancer-jco-2011"] }),
   supplement<TrialInput>({ id: "opt-in", kind: "trial", terms: ["neoadjuvant-adjuvant"], companies: ["ecog-acrin"], related: ["gain-igbc"], keyPapers: ["paper-varshney-neoadjuvant-incidental-gallbladder-cancer-systematic-review-ahbps-2025"],

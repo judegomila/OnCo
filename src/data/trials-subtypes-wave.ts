@@ -189,7 +189,7 @@ export const trialsSubtypesWave: TrialInput[] = [
       { endpoint: "Stable disease", unit: "%", arms: [{ name: "Trastuzumab + lapatinib", n: 27, value: 44 }], source: "https://doi.org/10.1016/S1470-2045(16)00150-9" },
       { endpoint: "Grade 3 adverse events", unit: "%", arms: [{ name: "Trastuzumab + lapatinib", n: 27, value: 22, note: "No grade 4 or 5 events" }], source: "https://doi.org/10.1016/S1470-2045(16)00150-9" },
     ],
-    drugs: ["trastuzumab", "lapatinib", "pertuzumab", "trastuzumab-emtansine"], cancers: ["her2-amplified-colorectal", "colorectal"], keyPapers: ["paper-heracles-lancet-oncol-2016"], links: [ct("NCT03225937")], people: ["andrea-sartore-bianchi", "salvatore-siena"] }),
+    drugs: ["trastuzumab", "lapatinib", "pertuzumab", "trastuzumab-emtansine"], cancers: ["her2-amplified-colorectal", "colorectal"], keyPapers: ["paper-sartore-bianchi-heracles-trastuzumab-lapatinib-lancet-oncol-2016"], links: [ct("NCT03225937")], people: ["andrea-sartore-bianchi", "salvatore-siena"] }),
   t({ id: "spinet", name: "SPINET", nct: "NCT02683941", phase: "3", status: "mixed", yearReported: 2021, sponsor: "Ipsen", enrolled: 77,
     setting: "Unresectable or metastatic well-differentiated typical or atypical lung neuroendocrine tumours: lanreotide autogel against placebo",
     tldr: "SPINET tried to prove that the somatostatin analogue lanreotide slows lung carcinoid tumours, as it does gut tumours, but recruited too few patients to give a definitive answer; the small comparison favoured the drug and it is used on that basis.",

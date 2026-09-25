@@ -832,16 +832,7 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "N Engl J Med 2021", url: "https://doi.org/10.1056/NEJMra2020394" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33826821/" }],
     cancers: ["vestibular-schwannoma"], journals: ["nejm"] }),
 
-  p({ id: "paper-beacon-crc-kopetz-nejm-2019", name: "BEACON CRC: encorafenib and cetuximab with or without binimetinib in BRAF V600E-mutated colorectal cancer",
-    tldr: "Blocking BRAF with encorafenib and EGFR with cetuximab lengthened survival compared with standard chemotherapy in previously treated BRAF V600E-mutant colorectal cancer, the first targeted regimen to work in this poor-prognosis group.",
-    summary: "Phase 3 trial of 665 patients with BRAF V600E-mutated metastatic colorectal cancer after one or two prior regimens randomised to encorafenib, binimetinib and cetuximab (triplet), encorafenib and cetuximab (doublet), or investigator's choice of irinotecan-based chemotherapy with cetuximab.\n\nMedian overall survival was 9.0 months with the triplet and 8.4 months with the doublet against 5.4 months with control; response rates were 26 and 20 percent against 2 percent. The MEK inhibitor added little, so the doublet was approved.",
-    journal: "New England Journal of Medicine", year: 2019, doi: "10.1056/NEJMoa1908075", pmid: "31566309",
-    authors: "Kopetz S, Grothey A, Yaeger R, et al.", paperType: "rct", participants: 665, changedPractice: true,
-    findings: ["Median overall survival 9.0 (triplet) and 8.4 (doublet) vs 5.4 months (control).", "Objective response 26 percent, 20 percent and 2 percent."],
-    whatItMeans: "Encorafenib-cetuximab became the standard second-line treatment for BRAF V600E colorectal cancer, and BREAKWATER has since moved the combination, with chemotherapy, into first line.",
-    caveats: ["Responses are short-lived compared with BRAF-targeted therapy in melanoma.", "Control arm chemotherapy performed poorly."],
-    links: [{ label: "N Engl J Med 2019", url: "https://doi.org/10.1056/NEJMoa1908075" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31566309/" }],
-    cancers: ["braf-v600e-colorectal"], drugs: ["binimetinib", "cetuximab", "encorafenib"], trials: ["beacon-crc"], journals: ["nejm"] }),
+  // paper-beacon-crc-kopetz-nejm-2019 merged into paper-kopetz-beacon-encorafenib-braf-colorectal-nejm-2019 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-cms-guinney-nat-med-2015", name: "The consensus molecular subtypes of colorectal cancer",
     tldr: "An international consortium reconciled six competing gene-expression classifications of colorectal cancer into four consensus subtypes, from immune-active microsatellite-unstable tumours to mesenchymal tumours with the worst outlook.",
@@ -874,49 +865,13 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "JAMA 2021", url: "https://doi.org/10.1001/jama.2021.6238" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/34003218/" }],
     cancers: ["early-onset-colorectal"], journals: ["jama"] }),
 
-  p({ id: "paper-siegel-crc-incidence-1974-2013-jnci-2017", name: "Colorectal cancer incidence patterns in the United States, 1974 to 2013",
-    tldr: "Analysing four decades of US registry data, this study showed colorectal cancer incidence rising steeply in adults under 50 while falling in older adults, with people born around 1990 having double the colon cancer risk and quadruple the rectal cancer risk of those born around 1950.",
-    summary: "Age-period-cohort analysis of colorectal cancer incidence from SEER registries between 1974 and 2013, showing increases of 1 to 2 percent per year in adults aged 20 to 39 and rising rectal cancer incidence in those aged 40 to 54, alongside declines in adults 55 and older attributed to screening.",
-    journal: "JNCI: Journal of the National Cancer Institute", year: 2017, doi: "10.1093/jnci/djw322", pmid: "28376186",
-    authors: "Siegel RL, Fedewa SA, Anderson WF, et al.", paperType: "observational", changedPractice: true,
-    findings: ["Colon cancer incidence rising 1 to 2.4 percent per year in adults aged 20 to 39 since the mid-1980s.", "Rectal cancer incidence rising about 3.2 percent per year in adults aged 20 to 29 and 30 to 39."],
-    whatItMeans: "This is the paper that made early-onset colorectal cancer a public health issue and drove the change in screening age.",
-    caveats: ["Registry analysis cannot identify causes.", "Some increase may reflect greater detection through colonoscopy for symptoms."],
-    links: [{ label: "J Natl Cancer Inst 2017", url: "https://doi.org/10.1093/jnci/djw322" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/28376186/" }],
-    cancers: ["early-onset-colorectal"], journals: ["jnci"] }),
+  // paper-siegel-crc-incidence-1974-2013-jnci-2017 merged into paper-siegel-colorectal-incidence-birth-cohort-jnci-2017 on 2026-09-25: see src/data/merged-records.ts.
 
-  p({ id: "paper-mountaineer-lancet-oncol-2023", name: "MOUNTAINEER: tucatinib plus trastuzumab for HER2-positive, RAS wild-type metastatic colorectal cancer",
-    tldr: "The chemotherapy-free combination of tucatinib and trastuzumab shrank tumours in almost four in ten patients with previously treated HER2-positive colorectal cancer, with responses lasting about a year, and became the first approved HER2 regimen for the disease.",
-    summary: "Phase 2 study of 117 patients with HER2-positive, RAS wild-type unresectable or metastatic colorectal cancer previously treated with chemotherapy, of whom 84 received tucatinib plus trastuzumab.\n\nObjective response was 38.1 percent with a median duration of response of 12.4 months, median progression-free survival 8.2 months and median overall survival 24.1 months; tucatinib alone was less active and patients crossed over to the combination.",
-    journal: "The Lancet Oncology", year: 2023, doi: "10.1016/S1470-2045(23)00150-X", pmid: "37142372",
-    authors: "Strickler JH, Cercek A, Siena S, et al.", paperType: "observational", participants: 117, changedPractice: true,
-    findings: ["Objective response 38.1 percent; median duration of response 12.4 months.", "Median overall survival 24.1 months."],
-    whatItMeans: "HER2 amplification testing is now standard in RAS wild-type metastatic colorectal cancer, and tucatinib-trastuzumab is the approved chemotherapy-free option after first-line therapy.",
-    caveats: ["Single-arm study in a RAS wild-type population; activity in RAS-mutant tumours is not expected.", "Confirmatory first-line trial (MOUNTAINEER-03) ongoing."],
-    links: [{ label: "Lancet Oncol 2023", url: "https://doi.org/10.1016/S1470-2045(23)00150-X" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37142372/" }],
-    cancers: ["her2-amplified-colorectal"], drugs: ["trastuzumab", "tucatinib"], trials: ["mountaineer"], journals: ["lancet-oncology"], people: ["john-strickler"] }),
+  // paper-mountaineer-lancet-oncol-2023 merged into paper-strickler-mountaineer-tucatinib-trastuzumab-lancet-oncol-2023 on 2026-09-25: see src/data/merged-records.ts.
 
-  p({ id: "paper-heracles-lancet-oncol-2016", name: "HERACLES: trastuzumab and lapatinib in HER2-amplified, KRAS wild-type metastatic colorectal cancer",
-    tldr: "This small Italian trial was the first to show that HER2-amplified colorectal cancer responds to dual HER2 blockade, establishing HER2 as a genuine drug target in a disease where it had been ignored.",
-    summary: "Proof-of-concept phase 2 trial that screened 914 KRAS exon 2 wild-type colorectal cancers to find 48 with HER2 amplification and treated 27 heavily pretreated patients with trastuzumab and lapatinib.\n\nObjective response was 30 percent including one complete response, with disease control in 59 percent and a median progression-free survival of 21 weeks; the trial also defined the HERACLES diagnostic criteria for HER2 positivity in colorectal cancer.",
-    journal: "The Lancet Oncology", year: 2016, doi: "10.1016/S1470-2045(16)00150-9", pmid: "27108243",
-    authors: "Sartore-Bianchi A, Trusolino L, Martino C, et al.", paperType: "observational", participants: 27, changedPractice: true,
-    findings: ["Objective response 30 percent (8 of 27), disease control 59 percent.", "HER2 amplification found in about 5 percent of KRAS wild-type tumours."],
-    whatItMeans: "HERACLES opened HER2 as a target in colorectal cancer and set the immunohistochemistry and in situ hybridisation criteria later studies used; tucatinib and trastuzumab deruxtecan built on this result.",
-    caveats: ["Very small and non-randomised.", "Lapatinib-based regimens have been superseded."],
-    links: [{ label: "Lancet Oncol 2016", url: "https://doi.org/10.1016/S1470-2045(16)00150-9" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/27108243/" }],
-    cancers: ["her2-amplified-colorectal"], trials: ["heracles"], drugs: ["lapatinib", "trastuzumab"], journals: ["lancet-oncology"], people: ["andrea-sartore-bianchi"] }),
+  // paper-heracles-lancet-oncol-2016 merged into paper-sartore-bianchi-heracles-trastuzumab-lapatinib-lancet-oncol-2016 on 2026-09-25: see src/data/merged-records.ts.
 
-  p({ id: "paper-destiny-crc01-lancet-oncol-2021", name: "DESTINY-CRC01: trastuzumab deruxtecan in HER2-expressing metastatic colorectal cancer",
-    tldr: "Trastuzumab deruxtecan shrank tumours in about 45 percent of patients with HER2-high colorectal cancer, including those who had already received other HER2 drugs, but did nothing for tumours with low HER2 expression and carried a risk of lung inflammation.",
-    summary: "Phase 2 study of 86 patients with HER2-expressing, RAS and BRAF wild-type metastatic colorectal cancer after at least two regimens, treated with trastuzumab deruxtecan 6.4 mg/kg in three cohorts by HER2 level.\n\nIn the HER2 immunohistochemistry 3+ or 2+ with amplification cohort, objective response was 45.3 percent with median progression-free survival 6.9 months, including responses after prior HER2 therapy; no responses were seen in the low-expression cohorts, and interstitial lung disease occurred in 9 percent with some deaths.",
-    journal: "The Lancet Oncology", year: 2021, doi: "10.1016/S1470-2045(21)00086-3", pmid: "33961795",
-    authors: "Siena S, Di Bartolomeo M, Raghav K, et al.", paperType: "observational", participants: 86, changedPractice: true,
-    findings: ["Objective response 45.3 percent in HER2-positive cohort A; median progression-free survival 6.9 months.", "No responses in HER2 2+ non-amplified or 1+ cohorts; interstitial lung disease 9.3 percent."],
-    whatItMeans: "Trastuzumab deruxtecan is an option for HER2-positive colorectal cancer after HER2 antibodies, and it contributed to the tumour-agnostic approval for HER2 3+ solid tumours; lung monitoring is essential.",
-    caveats: ["Single-arm; interstitial lung disease including fatal cases.", "The 6.4 mg/kg dose is higher than that used in breast cancer."],
-    links: [{ label: "Lancet Oncol 2021", url: "https://doi.org/10.1016/S1470-2045(21)00086-3" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33961795/" }],
-    cancers: ["her2-amplified-colorectal"], drugs: ["crc01", "trastuzumab", "trastuzumab-deruxtecan"], journals: ["lancet-oncology"], people: ["salvatore-siena"] }),
+  // paper-destiny-crc01-lancet-oncol-2021 merged into paper-siena-destiny-crc01-trastuzumab-deruxtecan-lancet-oncol-2021 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-krystal-1-crc-yaeger-nejm-2023", name: "KRYSTAL-1: adagrasib with or without cetuximab in KRAS G12C-mutated colorectal cancer",
     tldr: "The KRAS G12C inhibitor adagrasib on its own shrank about one in five previously treated colorectal cancers, but combined with the EGFR antibody cetuximab the response rate rose to nearly half, showing the two drugs are needed together in this disease.",
@@ -929,16 +884,7 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2212419" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/36546659/" }],
     cancers: ["kras-g12c-colorectal"], drugs: ["adagrasib", "cetuximab"], journals: ["nejm"], people: ["rona-yaeger"] }),
 
-  p({ id: "paper-sunlight-nejm-2023", name: "SUNLIGHT: trifluridine-tipiracil plus bevacizumab in refractory metastatic colorectal cancer",
-    tldr: "Adding bevacizumab to the oral chemotherapy trifluridine-tipiracil lengthened survival by about three months in patients with colorectal cancer that had already been treated with two regimens, making the combination the standard third-line treatment.",
-    summary: "Phase 3 trial of 492 patients with metastatic colorectal cancer after two prior regimens randomised to trifluridine-tipiracil with or without bevacizumab.\n\nMedian overall survival was 10.8 versus 7.5 months (hazard ratio 0.61) and median progression-free survival 5.6 versus 2.4 months, with a longer time to worsening performance status and no unexpected toxicity.",
-    journal: "New England Journal of Medicine", year: 2023, doi: "10.1056/NEJMoa2214963", pmid: "37133585",
-    authors: "Prager GW, Taieb J, Fakih M, et al.", paperType: "rct", participants: 492, changedPractice: true,
-    findings: ["Median overall survival 10.8 vs 7.5 months; hazard ratio 0.61.", "Median progression-free survival 5.6 vs 2.4 months."],
-    whatItMeans: "Trifluridine-tipiracil plus bevacizumab is now the preferred third-line option for most patients regardless of KRAS status, including KRAS G12C tumours once targeted therapy is exhausted.",
-    caveats: ["Open-label; benefit was seen regardless of prior bevacizumab exposure but subgroup sizes were limited."],
-    links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2214963" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37133585/" }],
-    cancers: ["kras-g12c-colorectal"], drugs: ["bevacizumab"], trials: ["sunlight"], journals: ["nejm"], people: ["gerald-prager"] }),
+  // paper-sunlight-nejm-2023 merged into paper-prager-sunlight-trifluridine-tipiracil-bevacizumab-nejm-2023 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-checkmate-8hw-lancet-2025", name: "CheckMate 8HW: nivolumab plus ipilimumab versus nivolumab alone in MSI-high metastatic colorectal cancer",
     tldr: "Dual immunotherapy with nivolumab and ipilimumab delayed progression more than nivolumab alone across all lines of treatment in microsatellite-unstable colorectal cancer, with about seven in ten patients progression-free at three years.",
@@ -984,27 +930,9 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "J Clin Oncol 2019", url: "https://doi.org/10.1200/JCO.19.01389" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31609651/" }],
     cancers: ["primary-mediastinal-b-cell-lymphoma"], drugs: ["pembrolizumab"], trials: ["keynote-170"], journals: ["jco"], people: ["philippe-armand"] }),
 
-  p({ id: "paper-rapido-lancet-oncol-2021", name: "RAPIDO: short-course radiotherapy followed by chemotherapy before surgery for high-risk locally advanced rectal cancer",
-    tldr: "Giving all treatment before surgery, with a week of radiotherapy followed by four to five months of chemotherapy, halved distant metastases and doubled the complete response rate compared with standard chemoradiation in high-risk rectal cancer.",
-    summary: "Phase 3 trial of 912 patients with high-risk locally advanced rectal adenocarcinoma randomised to short-course radiotherapy (5 x 5 Gy) followed by six cycles of CAPOX or nine of FOLFOX then total mesorectal excision, or standard long-course chemoradiotherapy, surgery and optional adjuvant chemotherapy.\n\nDisease-related treatment failure at three years was 23.7 versus 30.4 percent, distant metastases 20.0 versus 26.8 percent and pathological complete response 28 versus 14 percent; longer follow-up showed more locoregional failures in the experimental arm.",
-    journal: "The Lancet Oncology", year: 2021, doi: "10.1016/S1470-2045(20)30555-6", pmid: "33301740",
-    authors: "Bahadoer RR, Dijkstra EA, van Etten B, et al.", paperType: "rct", participants: 912, changedPractice: true,
-    findings: ["Three-year disease-related treatment failure 23.7 percent vs 30.4 percent; hazard ratio 0.75.", "Pathological complete response 28 percent vs 14 percent."],
-    whatItMeans: "Total neoadjuvant therapy is now a standard for high-risk rectal cancer, improving compliance with chemotherapy and enabling organ preservation, though the locoregional recurrence signal favours long-course chemoradiation in some patients.",
-    caveats: ["Five-year locoregional failure was higher with the experimental arm (10 vs 6 percent).", "No overall survival difference."],
-    links: [{ label: "Lancet Oncol 2021", url: "https://doi.org/10.1016/S1470-2045(20)30555-6" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33301740/" }],
-    cancers: ["rectal-cancer"], trials: ["rapido"], journals: ["lancet-oncology"] }),
+  // paper-rapido-lancet-oncol-2021 merged into paper-bahadoer-rapido-short-course-radiotherapy-lancet-oncol-2021 on 2026-09-25: see src/data/merged-records.ts.
 
-  p({ id: "paper-prodige-23-lancet-oncol-2021", name: "PRODIGE 23: induction FOLFIRINOX before chemoradiotherapy and surgery for locally advanced rectal cancer",
-    tldr: "Six cycles of FOLFIRINOX chemotherapy before standard chemoradiation and surgery reduced metastases and improved disease-free survival in locally advanced rectal cancer, and longer follow-up showed a survival benefit.",
-    summary: "Phase 3 trial of 461 patients with cT3 or cT4 rectal adenocarcinoma randomised to induction mFOLFIRINOX followed by chemoradiotherapy, surgery and three months of adjuvant chemotherapy, or chemoradiotherapy, surgery and six months of adjuvant chemotherapy.\n\nThree-year disease-free survival was 76 versus 69 percent (hazard ratio 0.69), pathological complete response 28 versus 12 percent, and the seven-year update showed improved overall survival (81.9 versus 76.1 percent).",
-    journal: "The Lancet Oncology", year: 2021, doi: "10.1016/S1470-2045(21)00079-6", pmid: "33862000",
-    authors: "Conroy T, Bosset JF, Etienne PL, et al.", paperType: "rct", participants: 461, changedPractice: true,
-    findings: ["Three-year disease-free survival 76 percent vs 69 percent; hazard ratio 0.69.", "Seven-year overall survival 81.9 percent vs 76.1 percent."],
-    whatItMeans: "Induction FOLFIRINOX-based total neoadjuvant therapy is a preferred strategy for locally advanced rectal cancer, and the first to show a survival gain.",
-    caveats: ["Total treatment burden is high; FOLFIRINOX toxicity requires fit patients.", "Compared against a control arm receiving six months of adjuvant chemotherapy, which many patients do not complete."],
-    links: [{ label: "Lancet Oncol 2021", url: "https://doi.org/10.1016/S1470-2045(21)00079-6" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33862000/" }],
-    cancers: ["rectal-cancer"], trials: ["prodige-23"], journals: ["lancet-oncology"] }),
+  // paper-prodige-23-lancet-oncol-2021 merged into paper-conroy-prodige-23-neoadjuvant-folfirinox-rectal-lancet-oncol-2021 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-prospect-nejm-2023", name: "PROSPECT: neoadjuvant FOLFOX with selective use of chemoradiotherapy for locally advanced rectal cancer",
     tldr: "For rectal cancers of intermediate risk suitable for sphincter-sparing surgery, six cycles of FOLFOX chemotherapy, with radiotherapy only if the tumour did not shrink, was as effective as routine chemoradiation and spared nine in ten patients pelvic radiotherapy.",
@@ -1214,16 +1142,7 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2309169" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/38055253/" }],
     cancers: ["platinum-resistant-ovarian-cancer", "high-grade-serous-ovarian-cancer"], drugs: ["mirvetuximab-soravtansine"], trials: ["mirasol"], journals: ["nejm"] }),
 
-  p({ id: "paper-aurelia-jco-2014", name: "AURELIA: bevacizumab combined with chemotherapy for platinum-resistant recurrent ovarian cancer",
-    tldr: "Adding bevacizumab to single-agent chemotherapy doubled the time to progression and the response rate in platinum-resistant ovarian cancer, becoming the first regimen to improve outcomes in this hard-to-treat setting.",
-    summary: "Phase 3 trial of 361 patients with platinum-resistant ovarian cancer (progression within six months of platinum) and up to two prior regimens randomised to weekly paclitaxel, pegylated liposomal doxorubicin or topotecan with or without bevacizumab.\n\nMedian progression-free survival was 6.7 versus 3.4 months (hazard ratio 0.48) and objective response 27.3 versus 11.8 percent; overall survival was not significantly improved (16.6 versus 13.3 months), partly because of crossover.",
-    journal: "Journal of Clinical Oncology", year: 2014, doi: "10.1200/JCO.2013.51.4489", pmid: "24637997",
-    authors: "Pujade-Lauraine E, Hilpert F, Weber B, et al.", paperType: "rct", participants: 361, changedPractice: true,
-    findings: ["Median progression-free survival 6.7 vs 3.4 months; hazard ratio 0.48.", "Objective response 27.3 percent vs 11.8 percent."],
-    whatItMeans: "Bevacizumab with weekly paclitaxel or other single agents is a standard for platinum-resistant ovarian cancer in bevacizumab-naive patients, and the control regimen for later trials such as MIRASOL and ROSELLA.",
-    caveats: ["No significant overall survival benefit.", "Patients with bowel involvement were excluded because of perforation risk."],
-    links: [{ label: "J Clin Oncol 2014", url: "https://doi.org/10.1200/JCO.2013.51.4489" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/24637997/" }],
-    cancers: ["platinum-resistant-ovarian-cancer"], drugs: ["bevacizumab"], journals: ["jco"] }),
+  // paper-aurelia-jco-2014 merged into paper-aurelia-bevacizumab-platinum-resistant-ovarian-pujade-lauraine-jco-2014 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-rosella-relacorilant-lancet-2025", name: "ROSELLA: relacorilant plus nab-paclitaxel in platinum-resistant ovarian cancer",
     tldr: "Adding relacorilant, a drug that blocks the cortisol receptor and thereby restores chemotherapy sensitivity, to nab-paclitaxel lengthened progression-free and overall survival in platinum-resistant ovarian cancer regardless of any biomarker.",
@@ -1707,16 +1626,7 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "N Engl J Med 2025", url: "https://doi.org/10.1056/NEJMoa2503704" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/40293180/" }],
     cancers: ["her2-mutant-nsclc"], drugs: ["zongertinib"], trials: ["beamion-lung-1"], journals: ["nejm"] }),
 
-  p({ id: "paper-geometry-mono-1-capmatinib-nejm-2020", name: "GEOMETRY mono-1: capmatinib in MET exon 14-mutated or MET-amplified non-small-cell lung cancer",
-    tldr: "The MET inhibitor capmatinib shrank tumours in two thirds of untreated and four in ten previously treated patients with MET exon 14-skipping lung cancer, leading to the first approval for this driver, while MET-amplified tumours responded only at very high copy number.",
-    summary: "Phase 2 multicohort study of 364 patients with advanced non-small-cell lung cancer with MET exon 14 skipping or MET amplification treated with capmatinib.\n\nIn exon 14-skipping disease, objective response was 68 percent in treatment-naive and 41 percent in previously treated patients, with median durations of 12.6 and 9.7 months; in MET-amplified disease, response was 40 percent only with gene copy number of 10 or more. Peripheral oedema and nausea were common.",
-    journal: "New England Journal of Medicine", year: 2020, doi: "10.1056/NEJMoa2002787", pmid: "32877583",
-    authors: "Wolf J, Seto T, Han JY, et al.", paperType: "observational", participants: 364, changedPractice: true,
-    findings: ["Exon 14 skipping: objective response 68 percent (treatment-naive) and 41 percent (previously treated).", "MET amplification: response 40 percent at gene copy number 10 or more, low below that."],
-    whatItMeans: "MET exon 14 skipping is a standard target in lung cancer, tested by RNA-based methods, with capmatinib or tepotinib as first-line or later options.",
-    caveats: ["Single-arm; peripheral oedema is frequent and can be dose limiting.", "MET amplification without exon 14 skipping is a weaker target."],
-    links: [{ label: "N Engl J Med 2020", url: "https://doi.org/10.1056/NEJMoa2002787" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32877583/" }],
-    cancers: ["met-altered-nsclc"], drugs: ["capmatinib"], trials: ["geometry-mono-1"], journals: ["nejm"] }),
+  // paper-geometry-mono-1-capmatinib-nejm-2020 merged into paper-wolf-geometry-mono-1-capmatinib-nejm-2020 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-vision-tepotinib-paik-nejm-2020", name: "VISION: tepotinib in non-small-cell lung cancer with MET exon 14 skipping mutations",
     tldr: "The once-daily MET inhibitor tepotinib shrank tumours in about half of patients with MET exon 14-skipping lung cancer, detected either in tissue or in a blood test, supporting approval and the use of liquid biopsy to find the alteration.",
@@ -3335,16 +3245,7 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "J Clin Oncol 2021", url: "https://doi.org/10.1200/JCO.20.03296" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/33822655/" }],
     cancers: ["non-seminoma"], journals: ["jco"] }),
 
-  p({ id: "paper-getug-13-fizazi-lancet-oncol-2014", name: "GETUG 13: personalised chemotherapy based on tumour marker decline in poor-prognosis germ cell tumours",
-    tldr: "In poor-risk testicular cancer, men whose tumour markers fell slowly after the first cycle of BEP did better when switched to an intensified dose-dense regimen, the first trial to individualise chemotherapy by early marker response.",
-    summary: "Phase 3 trial of 263 men with poor-prognosis non-seminomatous germ cell tumours; those with unfavourable tumour marker decline after one cycle of BEP were randomised to continue BEP or switch to a dose-dense regimen (paclitaxel-BEP-oxaliplatin alternating with cisplatin-ifosfamide-bleomycin).\n\nThree-year progression-free survival was 59 percent with dose-dense therapy against 48 percent with BEP (hazard ratio 0.66), with more haematological toxicity but no increase in toxic deaths; overall survival was not significantly different.",
-    journal: "The Lancet Oncology", year: 2014, doi: "10.1016/S1470-2045(14)70490-5", pmid: "25456363",
-    authors: "Fizazi K, Pagliaro L, Laplanche A, et al.", paperType: "rct", participants: 263, changedPractice: true,
-    findings: ["Three-year progression-free survival 59 percent vs 48 percent; hazard ratio 0.66.", "Favourable marker decline identified men doing well on standard BEP (70 percent progression-free survival)."],
-    whatItMeans: "Marker decline after the first BEP cycle is now assessed in poor-risk disease, and intensification is offered in expert centres to slow decliners.",
-    caveats: ["No significant overall survival difference; toxicity of the intensified regimen requires specialist care."],
-    links: [{ label: "Lancet Oncol 2014", url: "https://doi.org/10.1016/S1470-2045(14)70490-5" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/25456363/" }],
-    cancers: ["non-seminoma"], journals: ["lancet-oncology"] }),
+  // paper-getug-13-fizazi-lancet-oncol-2014 merged into paper-getug-13-marker-guided-dose-dense-chemotherapy-fizazi-lancet-oncol-2014 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-williams-bep-vs-pvb-nejm-1987", name: "Treatment of disseminated germ cell tumours with cisplatin, bleomycin and either vinblastine or etoposide",
     tldr: "Replacing vinblastine with etoposide in cisplatin-based chemotherapy for testicular cancer cured as many men with far less nerve and muscle toxicity and improved survival in advanced disease, establishing the BEP regimen used ever since.",

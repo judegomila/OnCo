@@ -7,7 +7,11 @@
  * either fix the record or add it here with a reason.
  */
 import { describe, expect, it } from "vitest";
-import { graph } from "./graph";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { graph, outgoing } from "./graph";
+import { KIND_META } from "./kinds";
+import { MERGED_RECORDS } from "@/data/merged-records";
 import { companies } from "@/data/companies";
 import { companiesWave1 } from "@/data/companies-wave1";
 import { companiesYc } from "@/data/companies-yc";
@@ -21,6 +25,7 @@ import { termsBasics } from "@/data/terms-basics";
 import { termsJargon } from "@/data/terms-jargon";
 
 const g = graph();
+const vercel = JSON.parse(readFileSync(join(__dirname, "../../vercel.json"), "utf8")) as { redirects: Array<{ source: string; destination: string }> };
 
 /**
  * House style for rendered copy: no em-dash or en-dash (write "to" for ranges, a comma, full stop or colon
@@ -143,17 +148,15 @@ describe("corpus rules", () => {
 
   /**
    * Two trial records may share a registry id only for a stated reason: a basket cohort or a protocol version that
-   * runs under one registration. The other two pairs are a hand-written record and a registry-ingested one for the
-   * same study, found by the lung review of 25 September 2026 (docs/LUNG-QA.md); retiring the ingested id needs the
-   * redirect policy that the TNBC and colorectal reviews also asked for, so they are listed rather than merged.
-   * Nothing new belongs here: a new pair means a curated record and an ingest record were written for one study.
+   * runs under one registration. The two pairs that were a hand-written record and a registry ingest of one study
+   * (KEYNOTE-158 with nct02628067, IMpactMF with nct04576156) were merged on 25 September 2026; see
+   * src/data/merged-records.ts and docs/DUPLICATE-RECORDS.md. Nothing new belongs here: a new pair means a curated
+   * record and an ingest record were written for one study, and the answer is to merge them, not to list them.
    */
-  it("no two trial records share a registry id except the four recorded pairs", () => {
+  it("no two trial records share a registry id except the two recorded pairs", () => {
     const ALLOWED = new Map<string, string>([
       ["roar|roar-atc", "two cohorts of the ROAR basket trial, biliary tract and anaplastic thyroid"],
       ["i-spy-2|i-spy-2-2", "I-SPY 2.2 runs under the I-SPY 2 registration"],
-      ["keynote-158|nct02628067", "curated record and registry ingest of KEYNOTE-158, not yet merged"],
-      ["impactmf|nct04576156", "curated record and registry ingest of IMpactMF, not yet merged"],
     ]);
     const byNct = new Map<string, string[]>();
     for (const t of g.kind("trial")) {
@@ -164,6 +167,65 @@ describe("corpus rules", () => {
     }
     const pairs = [...byNct.values()].filter((ids) => ids.length > 1).map((ids) => [...ids].sort().join("|"));
     expect(pairs.filter((p) => !ALLOWED.has(p))).toEqual([]);
+  });
+
+  /**
+   * The paper half of the same rule. A DOI and a PubMed id each name one publication, so two paper records carrying
+   * one of them are one paper written twice: once by an editor, once by a fetcher (scripts/fetch-cited-papers.ts,
+   * fetch-trial-papers.ts, fetch-people-papers.ts, fetch-idea-evidence.ts), or twice by two deep dives. The TNBC,
+   * colorectal and lung reviews each found a batch and each recorded it; 80 pairs were merged on 25 September 2026
+   * (src/data/merged-records.ts), which is why this list is empty.
+   *
+   * Nothing new belongs here. A new pair means a second record was written for a paper the corpus already holds:
+   * merge it with `npx tsx scripts/merge-records.ts <survivor> <retired> "<reason>"` (docs/DUPLICATE-RECORDS.md). An
+   * entry is only right where two records genuinely share an identifier, which happens for an article and its own
+   * correction notice when a publisher gives them one DOI; it needs its reason here.
+   */
+  it("no two paper records share a DOI or a PubMed id", () => {
+    const ALLOWED = new Map<string, string>([]);
+    const failures: string[] = [];
+    for (const [label, key] of [["DOI", (p: { doi?: string }) => p.doi?.trim().toLowerCase().replace(/^https?:\/\/(dx\.)?doi\.org\//, "")], ["PubMed id", (p: { pmid?: string }) => p.pmid?.trim()]] as const) {
+      const byKey = new Map<string, string[]>();
+      for (const p of g.kind("paper")) {
+        const k = key(p);
+        if (!k) continue;
+        byKey.set(k, [...(byKey.get(k) ?? []), p.id]);
+      }
+      for (const [k, ids] of byKey) {
+        if (ids.length < 2) continue;
+        const pair = [...ids].sort().join("|");
+        if (!ALLOWED.has(pair)) failures.push(`${label} ${k}: ${pair}`);
+      }
+    }
+    expect(failures).toEqual([]);
+  });
+
+  /**
+   * A merge retires an id, and a retired id has three obligations: its page must redirect (the URL is published and
+   * indexed), its record must be gone (two records for one thing is what the merge fixed), and its survivor must
+   * exist (otherwise the relations the merge moved point nowhere). See src/data/merged-records.ts.
+   */
+  it("every retired id redirects to a survivor that exists and has no record of its own", () => {
+    const redirects = new Set(vercel.redirects.map((r) => r.source));
+    const failures: string[] = [];
+    for (const m of MERGED_RECORDS) {
+      const route = KIND_META[m.kind].route;
+      if (!redirects.has(`/${route}/${m.retired}/:path*`)) failures.push(`${m.retired}: no redirect in vercel.json`);
+      if (g.get(m.retired)) failures.push(`${m.retired}: retired but still a record`);
+      if (!g.get(m.survivor)) failures.push(`${m.retired}: survivor ${m.survivor} does not exist`);
+      if (!m.reason.trim()) failures.push(`${m.retired}: no reason recorded`);
+    }
+    expect(failures).toEqual([]);
+  });
+
+  /**
+   * A record that names itself renders a card linking to the page the reader is on, and gives the graph a self-edge.
+   * It is the shape a careless merge leaves behind: a cross-link written between two records for one thing becomes a
+   * link to self once they are one record.
+   */
+  it("no record references itself", () => {
+    const failures = g.entities.filter((e) => outgoing(e).some(([to]) => to === e.id)).map((e) => e.id);
+    expect(failures).toEqual([]);
   });
 
   it("a trial whose enrolment counts a paper population says so and states the registry figure", () => {

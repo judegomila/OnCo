@@ -2,6 +2,15 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-09-25
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-09-25 | Red flags, urgent advice ([symptoms](/symptoms/)) | The `UKONS` source constant in src/data/red-flags.ts pointed at `ukons.org/site/assets/files/1134/oncology_haematology_24_hour_triage.pdf`, which 404s with an HTML page after a site move. Nine urgent-advice rows cited it. | Source sweep of every URL in src/data/red-flags.ts, checked on content type and size rather than status | Repointed at the current UKONS Oncology/Haemato-oncology 24-hour triage toolkit version 3 (`application/pdf`, 652,152 bytes), linked from [ukons.org resources](https://ukons.org/resources/publicly-available-resources) |
+| 2026-09-25 | Red flags, urgent advice ([symptoms](/symptoms/)) | Six thresholds attributed to the UKONS triage tool were not in it. "Signs of sepsis" listed cold or mottled skin and very low urine output; "Breathlessness" said blue lips; "Uncontrolled vomiting or diarrhoea" said unable to keep fluids down for 24 hours and seven or more stools a day; "Bleeding" said 15 minutes of pressure, blood in vomit, urine or stool and a sudden severe headache; "Confusion or drowsiness" said difficulty speaking and a seizure; "Rash that blisters" said sores in the mouth, eyes or genitals. | Each row read against the toolkit's own grading table after the URL was repaired | Rows reworded to the toolkit's wording (breathlessness at rest or any chest pain; 6 or more vomits in 24 hours; an increase of 7 or more bowel movements a day over pre-treatment normal; bleeding that is not self-limiting; severe confusion or an altered level of consciousness; a rash over 30 percent of the body with blistering or ulceration). The sepsis row now cites the [NHS sepsis page](https://www.nhs.uk/conditions/sepsis/), which states those 999 signs |
+| 2026-09-25 | Red flags, urgent advice ([symptoms](/symptoms/)) | Five more source URLs silently redirected: NHS blood clots, diarrhoea and vomiting, vomiting blood, and three Pancreatic Cancer UK pages under `/information/`. | Same sweep | Updated to the pages the redirects land on |
+| 2026-09-25 | 62 FDA label citations (accessdata.fda.gov) | The weekly link check recorded every accessdata.fda.gov label as gone: the site redirects non-browser clients to `/apology_objects/abuse-detection-apology.html` and serves it with a 404. The documents are live. | A new test comparing red-flag sources against public/links.json | `scripts/check-links.ts` now classifies a bot-wall interstitial as blocked rather than gone |
+
 ## 2026-09-24
 
 | Date | Entity | What was wrong | How found | Fix |

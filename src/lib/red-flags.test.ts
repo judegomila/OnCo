@@ -1,6 +1,9 @@
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import { describe, expect, it } from "vitest";
+import { isGone, isUnreachable, type LinksReport } from "../../scripts/check-links";
 import { graph } from "./graph";
-import { GENERAL_RED_FLAGS, redFlagSets, redFlagsFor, redFlagsForCancerId } from "@/data/red-flags";
+import { GENERAL_RED_FLAGS, redFlagSets, redFlagsFor, redFlagsForCancerId, redFlagSources, redFlagSourceUrls } from "@/data/red-flags";
 
 describe("red flags", () => {
   it("every set has a match rule, every flag has a source URL, and copy has no em-dashes", () => {
@@ -61,5 +64,51 @@ describe("red flags", () => {
     const withTox = g.kind("drug").filter((d) => d.toxicity.length);
     const covered = withTox.filter((d) => redFlagsFor(d.id, d.modality).length > 0);
     expect(covered.length / withTox.length).toBeGreaterThan(0.6);
+  });
+});
+
+describe("red flag sources", () => {
+  /** Every row, with the set it came from, so a failure names the rows a dead constant took down. */
+  const rows = [GENERAL_RED_FLAGS, ...redFlagSets].flatMap((s) => s.flags.map((f) => ({ set: s.id, symptom: f.symptom, source: f.source })));
+
+  it("every source URL is https, has a label, and is reachable in principle", () => {
+    for (const r of rows) {
+      expect(r.source.url, `${r.set}: ${r.symptom}`).toMatch(/^https:\/\//);
+      expect(r.source.label.trim().length, `${r.set}: ${r.symptom}`).toBeGreaterThan(3);
+      expect(() => new URL(r.source.url), `${r.set}: ${r.symptom}`).not.toThrow();
+    }
+    expect(redFlagSourceUrls().length).toBeGreaterThan(10);
+    expect(redFlagSources().length).toBe(redFlagSourceUrls().length);
+  });
+
+  it("one label means one URL, so a fix to a shared constant reaches every row citing it", () => {
+    const urlsByLabel = new Map<string, Set<string>>();
+    for (const r of rows) urlsByLabel.set(r.source.label, (urlsByLabel.get(r.source.label) ?? new Set()).add(r.source.url));
+    for (const [labelText, urls] of urlsByLabel) expect([...urls], labelText).toHaveLength(1);
+  });
+
+  it("the dead UKONS path is gone and the replacement is the toolkit PDF", () => {
+    // The old URL 404s but the publisher answers with a 200 HTML page for some missing files, so this
+    // is pinned by string: see the note at the top of src/data/red-flags.ts on checking content type.
+    for (const r of rows) expect(r.source.url, `${r.set}: ${r.symptom}`).not.toContain("ukons.org/site/assets/files/1134/");
+    const ukons = rows.filter((r) => /ukons/i.test(r.source.label));
+    expect(ukons.length).toBeGreaterThan(0);
+    for (const r of ukons) expect(r.source.url).toMatch(/ukons_triage_toolkit_v3_final\.pdf$/);
+  });
+
+  it("no two rows share a source URL the weekly link check has recorded as dead", () => {
+    const path = join(process.cwd(), "public", "links.json");
+    if (!existsSync(path)) return;
+    const report = JSON.parse(readFileSync(path, "utf8")) as LinksReport;
+    const byUrl = new Map(report.results.map((r) => [r.url, r]));
+    const dead: string[] = [];
+    for (const url of redFlagSourceUrls()) {
+      const result = byUrl.get(url);
+      // Not yet probed, or the site blocked our bot (403/429/5xx): neither is evidence of rot.
+      if (!result || !(isGone(result) || isUnreachable(result))) continue;
+      const citing = rows.filter((r) => r.source.url === url).map((r) => `${r.set}: ${r.symptom}`);
+      dead.push(`${url} [${result.status}${result.softPdf404 ? " soft 404, served " + result.contentType : ""}] cited by ${citing.length} row(s): ${citing.join("; ")}`);
+    }
+    expect(dead, "dead red-flag sources, see public/links.json").toEqual([]);
   });
 });

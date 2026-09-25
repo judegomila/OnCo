@@ -4,10 +4,12 @@
  * regulator sites refuse bare clients.
  *
  * For every URL in the corpus (`links[].url`, `wikipedia`, `website`, `url`, guideline URLs, outcome,
- * toxicity, dosing and access `source` fields) it records:
+ * toxicity, dosing and access `source` fields) plus the urgent-advice sources of src/data/red-flags.ts,
+ * which are not entities and so would otherwise never be probed, it records:
  *   status      HTTP status of the final response (0 on network failure)
  *   ok          2xx, or 3xx that resolved
  *   finalUrl    where redirects ended, if different
+ *   contentType the final Content-Type, so a soft 404 can be told from the real thing
  *   domainMoved the final host differs from the original (a sign the citation now points elsewhere)
  *   archive     nearest Wayback Machine snapshot, if any; a save is requested for broken URLs
  *
@@ -27,11 +29,12 @@
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { redFlagSources } from "../src/data/red-flags";
 import { graph } from "../src/lib/graph";
 import { routeFor, type Entity } from "../src/lib/schema";
 
 export type LinkRef = { id: string; kind: string; name: string; route: string; field: string; label?: string };
-export type LinkResult = { url: string; status: number; ok: boolean; finalUrl?: string; domainMoved?: boolean; archive?: string; archiveRequested?: boolean; error?: string; checked: string; refs: LinkRef[] };
+export type LinkResult = { url: string; status: number; ok: boolean; finalUrl?: string; contentType?: string; softPdf404?: boolean; domainMoved?: boolean; archive?: string; archiveRequested?: boolean; error?: string; checked: string; refs: LinkRef[] };
 export type LinksReport = { generated: string; total: number; checked: number; broken: number; gone: number; blocked: number; unreachable: number; moved: number; archived: number; results: LinkResult[] };
 
 const UA = "Mozilla/5.0 (compatible; OnCo link checker; +https://github.com/judegomila/OnCo)";
@@ -63,6 +66,10 @@ export function collectUrls(entities: Entity[]): Map<string, LinkRef[]> {
     if (e.kind === "person") { for (const p of e.profiles) add(p.url, e, "profiles", p.label); for (const p of e.papers) add(p.url, e, "papers", p.title); }
     if (e.kind === "bottleneck") for (const m of e.metrics) add(m.url, e, `metrics (${m.label})`);
   }
+  for (const src of redFlagSources()) {
+    const ref: LinkRef = { id: "red-flags", kind: "data", name: "Red flags: when to call", route: "/symptoms/", field: "redFlags.source", label: src.label };
+    out.set(src.url, [...(out.get(src.url) ?? []), ref]);
+  }
   return out;
 }
 
@@ -76,21 +83,41 @@ async function fetchWithTimeout(url: string, init: RequestInit, ms = 20000): Pro
 }
 
 /** HEAD first, GET on 405/403/501 or when HEAD errors; retry 429/5xx/network with backoff. */
-/** Actually gone: the server answered and said the resource is not there. */
-export const isGone = (r: { ok: boolean; status: number }) => !r.ok && (r.status === 404 || r.status === 410);
+/** Some sites answer a bot with an interstitial rather than the file. accessdata.fda.gov redirects to
+ *  /apology_objects/abuse-detection-apology.html and serves it with a 404, which reads as a dead
+ *  citation when the document is in fact there. That is a refusal, not rot. */
+export const isBotWall = (finalUrl?: string) => !!finalUrl && /\/apology_objects\/|abuse-detection|distil_r_captcha|\/cdn-cgi\/challenge/i.test(finalUrl);
+
+/** Actually gone: the server answered and said the resource is not there, or served the wrong thing
+ *  entirely (a soft 404, see `isSoftPdf404`), which means the same for a citation. */
+export const isGone = (r: { ok: boolean; status: number; softPdf404?: boolean; finalUrl?: string }) => !r.ok && !isBotWall(r.finalUrl) && (r.status === 404 || r.status === 410 || !!r.softPdf404);
 /** No answer at all — DNS failure, timeout, connection refused. */
 export const isUnreachable = (r: { ok: boolean; status: number }) => !r.ok && r.status === 0;
 /** The server answered and refused us: bot protection, auth wall, rate limit, transient 5xx.
  *  Almost never a broken citation — the same judgement the archiver below already makes. */
-export const isBlocked = (r: { ok: boolean; status: number }) => !r.ok && !isGone(r) && !isUnreachable(r);
+export const isBlocked = (r: { ok: boolean; status: number; softPdf404?: boolean; finalUrl?: string }) => !r.ok && !isGone(r) && !isUnreachable(r);
 
-export async function probe(url: string, attempt = 1): Promise<{ status: number; finalUrl?: string; error?: string }> {
+/**
+ * A citation whose path ends `.pdf` but which answers with an HTML body is a soft 404: the publisher
+ * moved the file and its CMS is serving a "page not found" page with a 200. The status alone looks
+ * healthy, so content type is the only reliable signal. This is how the UKONS 24-hour triage tool sat
+ * broken in src/data/red-flags.ts unnoticed.
+ */
+export const isSoftPdf404 = (url: string, contentType?: string) => {
+  if (!contentType) return false;
+  let path = "";
+  try { path = new URL(url).pathname.toLowerCase(); } catch { return false; }
+  if (!path.endsWith(".pdf")) return false;
+  return !/application\/(pdf|octet-stream)/i.test(contentType);
+};
+
+export async function probe(url: string, attempt = 1): Promise<{ status: number; finalUrl?: string; contentType?: string; error?: string }> {
   const headers = { "User-Agent": UA, Accept: "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8", "Accept-Language": "en-GB,en;q=0.9" };
   try {
     let r = await fetchWithTimeout(url, { method: "HEAD", redirect: "follow", headers });
     if (r.status === 405 || r.status === 403 || r.status === 501 || r.status === 404) r = await fetchWithTimeout(url, { method: "GET", redirect: "follow", headers });
     if ((r.status === 429 || r.status >= 500) && attempt < 3) { await sleep(2000 * 2 ** attempt); return probe(url, attempt + 1); }
-    return { status: r.status, finalUrl: r.url && r.url !== url ? r.url : undefined };
+    return { status: r.status, finalUrl: r.url && r.url !== url ? r.url : undefined, contentType: r.headers.get("content-type") ?? undefined };
   } catch (e) {
     if (attempt < 3) { await sleep(2000 * 2 ** attempt); return probe(url, attempt + 1); }
     return { status: 0, error: String(e instanceof Error ? e.message : e).slice(0, 120) };
@@ -173,9 +200,10 @@ async function main() {
   const checked = new Date().toISOString().slice(0, 10);
   let done = 0;
   await pooled(urls, probe, (url, p) => {
-    const ok = p.status >= 200 && p.status < 400;
+    const softPdf404 = !isBotWall(p.finalUrl) && isSoftPdf404(p.finalUrl ?? url, p.contentType);
+    const ok = p.status >= 200 && p.status < 400 && !softPdf404;
     const finalHost = p.finalUrl ? hostOf(p.finalUrl) : undefined;
-    results.push({ url, status: p.status, ok, finalUrl: p.finalUrl, domainMoved: !!finalHost && finalHost !== hostOf(url) && !finalHost.endsWith(`.${hostOf(url)}`) && !hostOf(url).endsWith(`.${finalHost}`) ? true : undefined, error: p.error, checked, refs: all.get(url) ?? [], archive: prev[url]?.archive });
+    results.push({ url, status: p.status, ok, finalUrl: p.finalUrl, contentType: p.contentType, softPdf404: softPdf404 || undefined, domainMoved: !!finalHost && finalHost !== hostOf(url) && !finalHost.endsWith(`.${hostOf(url)}`) && !hostOf(url).endsWith(`.${finalHost}`) ? true : undefined, error: p.error, checked, refs: all.get(url) ?? [], archive: prev[url]?.archive });
     done++;
     if (done % 100 === 0) { console.log(`  ${done}/${urls.length}`); writeFileSync(checkpointPath, JSON.stringify(results)); }
   });
@@ -207,6 +235,7 @@ async function main() {
   writeFileSync(join(out, "links.json"), JSON.stringify(report, null, 0));
   console.log(`links: ${report.checked} of ${report.total} URLs checked; ${report.gone} gone (404/410); ${report.unreachable} unreachable; ${report.blocked} blocked by the site (not broken); ${report.moved} moved domain; ${report.archived} with an archive copy`);
   for (const r of results.filter((r) => isGone(r) || isUnreachable(r)).slice(0, 40)) console.log(`  [${r.status}] ${r.url} (${r.refs.map((x) => x.id).slice(0, 3).join(", ")})${r.archive ? ` archive: ${r.archive}` : ""}`);
+  for (const r of results.filter((r) => r.softPdf404)) console.log(`  [soft 404] ${r.url} answered ${r.status} with ${r.contentType}, not a PDF (${r.refs.map((x) => x.id).slice(0, 3).join(", ")})`);
 }
 
 if (process.argv[1]?.endsWith("check-links.ts")) main().catch((e) => { console.error(e); process.exit(1); });

@@ -30,7 +30,9 @@ jobs:
           commit-message: "chore: weekly citation link check"
           body: |
             Automated weekly run of `scripts/check-links.ts`: every cited URL probed (HEAD, then GET), redirects and domain moves recorded, Wayback Machine snapshots looked up and requested for broken links.
+            This covers the urgent-advice sources of `src/data/red-flags.ts` as well as the corpus, and flags a soft 404 (a `.pdf` URL answering 200 with HTML) as gone.
             Review `public/links.json`; the broken-links section of /audit/ renders it. Replace dead URLs with the archive copy or a current source; log factual changes in CORRECTIONS.md.
+            A dead red-flag source fails `src/lib/red-flags.test.ts`, so fix those first.
           labels: automated, trust
           delete-branch: true
       - name: Merge the refresh (this run already validated and tested it)

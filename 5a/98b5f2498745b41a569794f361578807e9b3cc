@@ -1,0 +1,24 @@
+src/lib/cancer-rollup.ts
+  s_0beac9cb5d78fd::t_787559f49a0bcf 10
+docs/CANCER-FAMILIES.md
+  s_0beac9cb5d78fd::t_787559f49a0bcf 5
+src/components/FamilyRollup.tsx
+  s_0beac9cb5d78fd::t_787559f49a0bcf 13
+  s_0beac9cb5d78fd::t_af855c806827c0 23,28,33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5a98b5f2498745b41a569794f361578807e9b3cc",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

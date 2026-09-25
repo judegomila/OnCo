@@ -1,0 +1,36 @@
+src/data/spikes/pancreatic-living.ts
+  s_0beac9cb5d78fd::t_53360f6dafa8f3 359
+src/data/spikes/pancreatic-core.ts
+  s_0beac9cb5d78fd::t_d680aa1b749ad4 3-10
+  s_0beac9cb5d78fd::t_9ffe0447ba45c3 488-489
+  s_0beac9cb5d78fd::t_49e3f2102d7fb1 517
+  s_0beac9cb5d78fd::t_6bb0db63aa1b96 51-54
+  s_0beac9cb5d78fd::t_cb8e19dafa33bb 486
+  s_0beac9cb5d78fd::t_5f273c6d24a823 521-532,535
+  s_0beac9cb5d78fd::t_db48250e3cfa99 461-462
+  s_0beac9cb5d78fd::t_d00265e57e9271 278
+  s_0beac9cb5d78fd::t_03a8cb8138c7db 284-285
+  s_0beac9cb5d78fd::t_0228b1795d1c74 281-283
+  s_0beac9cb5d78fd::t_8fbcf7e8b043e6 317,336,374,393
+  s_0beac9cb5d78fd::t_42ae5e9c7fcf38 457-458
+  s_0beac9cb5d78fd::t_217cce620550b3 460
+  s_0beac9cb5d78fd::t_1c55c4219e8d18 37-41
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_f525bab7dccb91 54,58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "849d2a9ab5f96f49c3ee1f26eddd51145c3a805c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

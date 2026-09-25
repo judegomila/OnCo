@@ -1,0 +1,36 @@
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_4f54b904dea425 48,59,64
+src/data/spikes/pancreatic-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_3385f3d6ecd7bc 1-32,34-36,38,45-46,48-74,76-162,164-178,180-186,188-194,196-199,201-210
+  s_0beac9cb5d78fd::t_47172b71a77555 47,75,163,187,195
+  s_0beac9cb5d78fd::t_bc01716dcc5e7c 33,179
+  s_0beac9cb5d78fd::t_8b4690c2df8263 37,39-44
+  s_0beac9cb5d78fd::t_e41d11e3f1d722 200
+src/data/spikes/pancreatic-evidence-papers-foundations.ts
+  s_0beac9cb5d78fd::t_89c2e9714b0d53 1-180
+src/data/spikes/pancreatic-evidence.ts
+  s_0beac9cb5d78fd::t_de8f50b83f1747 1-79
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_8222ff6f558577 72
+  s_0beac9cb5d78fd::t_2713202f0a2a66 71
+src/data/spikes/pancreatic-evidence-papers-treatment.ts
+  s_0beac9cb5d78fd::t_0ef91396c0340c 1-202
+src/data/spikes/pancreatic-evidence-shared.ts
+  s_0beac9cb5d78fd::t_d8f580bfbe7e7a 1-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a7856ef0f3bb498b47b5ed1c2a961dc4be3b251d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

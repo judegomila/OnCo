@@ -115,6 +115,14 @@ const SOC_ROWS_WITHOUT_REFS = new Set(["cholangiocarcinoma: Resectable", "dlbcl:
 
 /** Hosts that publish guidelines, or the primary publication a guideline row cites. */
 const GUIDELINE_HOSTS = ["nccn.org", "jnccn.org", "esmo.org", "esgo.org", "uroweb.org", "who.int", "cancer.gov", "nice.org.uk", "asco.org", "ascopubs.org", "annalsofoncology.org", "doi.org", "pmc.ncbi.nlm.nih.gov", "pubmed.ncbi.nlm.nih.gov", "nature.com", "nejm.org", "thelancet.com"];
+/**
+ * Bodies whose patient information is itself the primary source for a row about living with a disease. A row that
+ * says how long a Mohs surgery day is, or that scars take two years to fade, has no guideline behind it: the
+ * dermatology association's own leaflet or the NHS page is where that is written down, and pointing such a row at
+ * a trial DOI to satisfy this rule would cite a source that does not contain the claim. These hosts are allowed
+ * only when the row names the body in `guideline.version`, so the page still says who said it.
+ */
+const PATIENT_INFO_HOSTS = ["nhs.uk", "skinhealthinfo.org.uk", "bad.org.uk", "macmillan.org.uk", "cancerresearchuk.org", "breastcancernow.org", "prostatecanceruk.org", "bloodcancer.org.uk", "pancreaticcancer.org.uk", "bowelcanceruk.org.uk", "roycastle.org"];
 /** Rows that cite secondary coverage of a guideline update; replace with the guideline URL when it is public. */
 const GUIDELINE_URL_EXCEPTIONS = new Set(["tnbc: Metastatic, first line, PD-L1 CPS ≥10", "tnbc: Metastatic, first line, PD-L1 negative or PD-1 ineligible"]);
 
@@ -262,7 +270,8 @@ describe("corpus rules", () => {
       if (!url) continue;
       const host = new URL(url).hostname.replace(/^www\./, "");
       const ok = GUIDELINE_HOSTS.some((h) => host === h || host.endsWith(`.${h}`));
-      if (!ok && !GUIDELINE_URL_EXCEPTIONS.has(`${c.id}: ${row.setting}`)) failures.push(`${c.id}: ${row.setting} -> ${host}`);
+      const patientInfo = PATIENT_INFO_HOSTS.some((h) => host === h || host.endsWith(`.${h}`)) && !!row.guideline?.version;
+      if (!ok && !patientInfo && !GUIDELINE_URL_EXCEPTIONS.has(`${c.id}: ${row.setting}`)) failures.push(`${c.id}: ${row.setting} -> ${host}`);
     }
     expect(failures).toEqual([]);
   });

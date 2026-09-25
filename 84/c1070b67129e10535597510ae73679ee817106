@@ -1,0 +1,9 @@
+src/data/spikes/tnbc-treatment.ts
+  ai_agent 541
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "84c1070b67129e10535597510ae73679ee817106",
+  "prompts": {}
+}

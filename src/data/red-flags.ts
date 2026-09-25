@@ -96,7 +96,7 @@ const CRUK_BREAST_PROBLEMS = { label: "Cancer Research UK: possible problems aft
 // ---- Keratinocyte skin cancer (basal cell and cutaneous squamous cell carcinoma), added 25 September 2026.
 const NHS_SCARS_RF = { label: "NHS: scars", url: "https://www.nhs.uk/conditions/scars/" };
 const BAD_BCC_RF = { label: "British Association of Dermatologists: basal cell carcinoma, patient information leaflet (updated July 2025)", url: "https://www.skinhealthinfo.org.uk/condition/basal-cell-carcinoma/" };
-const BAD_SCC_RF = { label: "British Association of Dermatologists: squamous cell carcinomas, patient information leaflet (updated April 2022)", url: "https://www.skinhealthinfo.org.uk/condition/squamous-cell-carcinoma/" };
+const BAD_SCC_RF = { label: "British Association of Dermatologists: squamous cell carcinomas, patient information leaflet (updated April 2022; its own next review date was April 2025 and no newer version has been published)", url: "https://www.skinhealthinfo.org.uk/condition/squamous-cell-carcinomas/" };
 const BAD_OTR_RF = { label: "British Association of Dermatologists and BSSCII: skin cancer advice for organ transplant recipients, patient information leaflet (June 2024)", url: "https://www.skinhealthinfo.org.uk/condition/skin-cancer-in-organ-transplant-recipients/" };
 const BAD_MOHS_RF = { label: "British Association of Dermatologists and British Society for Dermatological Surgery: Mohs micrographic surgery, patient information leaflet (updated June 2025)", url: "https://www.skinhealthinfo.org.uk/condition/mohs-micrographic-surgery/" };
 const CRUK_SKIN_PROBLEMS = { label: "Cancer Research UK: problems after surgery for non-melanoma skin cancer", url: "https://www.cancerresearchuk.org/about-cancer/skin-cancer/treatment/surgery/problems-after-surgery" };
@@ -340,7 +340,11 @@ export const redFlagSets: RedFlagSet[] = [
   {
     id: "immunomodulators",
     label: "Immunomodulatory drugs and proteasome inhibitors",
-    modalityRe: "cereblon|imid|immunomodulatory|proteasome",
+    // "imid" must be a word: unanchored it matches pyrimidine, imidazole and benzimidazole, which put the
+    // lenalidomide boxed warning and the bortezomib and carfilzomib cards on eleven drugs including every
+    // fluoropyrimidine. The skin round surfaced it, because topical fluorouracil is a mainstream skin cancer
+    // treatment and those pages have few enough drugs for the cards to reach the top six.
+    modalityRe: "cereblon|\\bimids?\\b|immunomodulatory|proteasome",
     flags: [
       { symptom: "Blood clot (lenalidomide, pomalidomide, thalidomide)", threshold: "A swollen painful calf, or sudden breathlessness with chest pain; venous and arterial thromboembolism is a boxed warning and blood-thinning prophylaxis is recommended.", action: "emergency", source: label("Revlimid") },
       { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; haematologic toxicity is a boxed warning for lenalidomide.", action: "call-now", source: label("Revlimid") },
@@ -769,7 +773,7 @@ export const redFlagSets: RedFlagSet[] = [
   {
     id: "skin-surgery-wound",
     label: "Skin cancer: the wound, the graft and the flap in the first fortnight",
-    cancerIds: ["skin-cancer", "basal-cell-carcinoma", "cutaneous-scc"],
+    cancerIds: ["skin-cancer", "basal-cell-carcinoma", "cutaneous-scc", "bowens-disease"],
     concernIds: ["skin-graft-and-flap-reconstruction", "mohs-surgery", "wide-local-excision", "facial-scar-after-skin-cancer", "curettage-and-cautery"],
     window: "The first two weeks after the operation, while the wound is closing and a graft or flap is taking its blood supply. Bleeding for a few days after Mohs surgery is normal and usually minimal; what follows is what is not.",
     flags: [
@@ -784,7 +788,7 @@ export const redFlagSets: RedFlagSet[] = [
   {
     id: "skin-lesion-changing",
     label: "Skin cancer: the mark that is growing, bleeding, ulcerating or not healing",
-    cancerIds: ["skin-cancer", "basal-cell-carcinoma", "cutaneous-scc"],
+    cancerIds: ["skin-cancer", "basal-cell-carcinoma", "cutaneous-scc", "bowens-disease"],
     concernIds: ["second-primary-skin-cancer", "sun-protection-after-skin-cancer", "field-cancerisation"],
     window: "For life, and sooner than most people expect: in a meta-analysis of 17 studies the three-year cumulative risk of a further basal cell carcinoma after a first one was 44 percent and of a further squamous cell carcinoma after a first one 18 percent, both at least ten times the rate of first tumours in a comparable general population. Most people who have had one of these cancers are asked to check their own skin monthly rather than to wait for an appointment.",
     flags: [
@@ -810,8 +814,8 @@ export const redFlagSets: RedFlagSet[] = [
   {
     id: "skin-cancer-immunosuppressed",
     label: "Skin cancer on immunosuppressants, including after a transplant: what not to wait on",
-    cancerIds: ["skin-cancer", "basal-cell-carcinoma", "cutaneous-scc"],
-    concernIds: ["skin-cancer-in-transplant-recipients", "second-primary-skin-cancer", "sun-protection-after-skin-cancer"],
+    cancerIds: ["skin-cancer", "basal-cell-carcinoma", "cutaneous-scc", "bowens-disease"],
+    concernIds: ["skin-cancer-after-organ-transplant", "second-primary-skin-cancer", "sun-protection-after-skin-cancer"],
     window: "Squamous cell carcinoma is 150 times more common in transplant recipients than in the general population and basal cell carcinoma up to ten times more common; in a UK study one in three people transplanted for more than ten years had developed a skin cancer, and two in three of those who have had one go on to have several. The threshold for going back is correspondingly lower, and these cards apply whatever the medicine is, not only after a transplant.",
     flags: [
       { symptom: "Any mark on the skin that is new or growing, painful or tingling, bleeding or scabbing, changing in appearance in any way, or not healing completely", threshold: "The British Association of Dermatologists and BSSCII say that if you have had a transplant you should see your doctor about any marks on your skin which are new or growing, painful or tingling, bleeding or scabbing, changing in appearance in any way, or not healing completely, and that most skin cancers, if detected and treated early, can be cured.", action: "call-today", source: BAD_OTR_RF },

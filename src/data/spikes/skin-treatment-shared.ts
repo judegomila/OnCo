@@ -67,7 +67,9 @@ export const SRC = {
   scinFiveYear: D("10.1001/jamadermatol.2024.5572"), // PubMed 39878970
   pdtNodularOneYear: D("10.1001/archderm.140.1.17"), // PubMed 14732655
   pdtNodularFiveYear: D("10.1001/archderm.143.9.1131"), // PubMed 17875873
-  pdtCryoFiveYear: D("10.1684/ejd.2008.0472"), // PubMed 18693158
+  // The digital object identifier 10.1684/ejd.2008.0472 is the right one for this paper and does not resolve: doi.org
+  // returns not found for it. The PubMed record is the address that works, so it is the one cited.
+  pdtCryoFiveYear: "https://pubmed.ncbi.nlm.nih.gov/18693158/",
   curettageDenmark: D("10.2340/actadv.v106.adv-2025-0079"), // PubMed 42231632
   curettageAggressive: D("10.1111/dsu.12122"), // PubMed 23379543
   // Radiotherapy

@@ -57,4 +57,5 @@ export const SUPPORTIVE_NOT_FLAGGED: Record<string, string> = {
   ruxolitinib: "myelofibrosis and polycythaemia vera labels beside GVHD", "radium-223": "overall survival benefit in bone-metastatic prostate cancer", omidubicel: "a graft, not a supportive medicine", tregzi: "a graft, not a supportive medicine",
   emapalumab: "treats haemophagocytic lymphohistiocytosis", ravulizumab: "treats paroxysmal nocturnal haemoglobinuria", "propranolol-hemangeol": "treats infantile haemangioma",
   mavorixafor: "treats WHIM syndrome, an inherited immunodeficiency, not a cancer toxicity", raloxifene: "chemoprevention of breast cancer; the osteoporosis label is the setting",
+  sirolimus: "an immunosuppressant: its only approval is prophylaxis of kidney transplant rejection, which the rule reads as prophylaxis but which is not a cancer toxicity. It is in the corpus because switching to it lowers the risk of the next cutaneous squamous cell carcinoma (TUMORAPA), which is chemoprevention rather than supportive care",
 };

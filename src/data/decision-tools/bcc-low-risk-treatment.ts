@@ -55,7 +55,7 @@ const LINKS = {
   reconstruction: { label: "Skin grafts and flaps", href: "/terms/skin-graft-and-flap-reconstruction/" },
   second: { label: "The next skin cancer", href: "/terms/second-primary-skin-cancer/" },
   sun: { label: "Sun protection afterwards", href: "/terms/sun-protection-after-skin-cancer/" },
-  transplant: { label: "Skin cancer after an organ transplant", href: "/terms/skin-cancer-in-transplant-recipients/" },
+  transplant: { label: "Skin cancer after an organ transplant", href: "/terms/skin-cancer-after-organ-transplant/" },
   radiotherapy: { label: "Image-guided radiotherapy", href: "/technologies/imrt-igrt/" },
 };
 
@@ -149,7 +149,7 @@ const cards: ToolCard[] = [
     title: "If what you want is the highest chance of being rid of it, the answer is an operation",
     tone: "surgery",
     quotes: [
-      { text: "At 3 years, 178 (84%) of 213 participants in the imiquimod group were treated successfully compared with 185 (98%) of 188 participants in the surgery group (RR 0.84, 98% CI 0.78-0.91; p<0.0001). ... Although excisional surgery remains the best treatment for low-risk basal-cell carcinoma, imiquimod cream might still be useful.", source: SINS_3Y },
+      { text: "At 3 years, 178 (84%) of 213 participants in the imiquimod group were treated successfully compared with 185 (98%) of 188 participants in the surgery group (RR 0.84, 98% CI 0.78-0.91; p<0.0001). ... Although excisional surgery remains the best treatment for low-risk basal-cell carcinoma, imiquimod cream might still be a useful treatment option for small low-risk superficial or nodular basal-cell carcinoma dependent on factors such as patient preference, size and site of the lesion, and whether the patient has more than one lesion.", source: SINS_3Y },
       { text: "For high-risk facial BCC (high-risk histological subtype or located in the facial 'H-zone' or both), there may be slightly fewer recurrences with Mohs micrographic surgery (MMS) compared to surgical excision (SE) at three years (1.9% versus 2.9%, respectively) ... and at five years (3.2% versus 5.2%, respectively).", source: COCHRANE },
     ],
     meaning: "You said the cure rate matters most, so this is the straight answer rather than a balanced one: excision, or Mohs where the site or the subtype calls for it. Nothing else measured in a randomised trial comes close for a basal cell carcinoma, and the SINS authors wrote that sentence themselves.",
@@ -287,7 +287,7 @@ function decide(a: Answers): string[] {
 export const bccLowRiskTreatmentTool: DecisionTool = {
   id: "bcc-low-risk-treatment",
   cancerId: "basal-cell-carcinoma",
-  entityIds: ["basal-cell-carcinoma", "skin-cancer", "mohs-surgery", "wide-local-excision", "curettage-and-cautery", "imiquimod", "fluorouracil", "methyl-aminolevulinate", "aminolevulinic-acid", "second-primary-skin-cancer", "skin-cancer-in-transplant-recipients", "facial-scar-after-skin-cancer"],
+  entityIds: ["basal-cell-carcinoma", "skin-cancer", "mohs-surgery", "wide-local-excision", "curettage-and-cautery", "imiquimod", "fluorouracil", "methyl-aminolevulinate", "aminolevulinic-acid", "second-primary-skin-cancer", "skin-cancer-after-organ-transplant", "facial-scar-after-skin-cancer"],
   title: "A basal cell carcinoma: surgery, curettage, freezing, a cream, or photodynamic therapy",
   short: "Choosing how a basal cell carcinoma is treated",
   lede: "An educational aid, not advice for your case. For a superficial or low-risk basal cell carcinoma there is a genuine choice, and it is usually summarised in a way that hides what is being traded. Answer four questions and this sets out, for your situation, what the randomised trials found about cure rate, about how the result looks, and about what each treatment does to your skin while it works, quoted word for word with the study it came from. It gives no score and makes no prediction about you.",

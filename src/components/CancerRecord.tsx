@@ -89,6 +89,11 @@ export function cancerStripTabs(c: Cancer, current: SectionId, content?: ReactNo
 
 const short = (name: string) => name.replace(/\s*\(.*?\)\s*$/, "");
 
+
+/** Notes that answer "which of these pages is mine?". Written to this convention by the family core layers. */
+export const ROUTING_NOTE = /^Which page is mine/i;
+const routingNotes = (c: Cancer) => c.notes.filter((n) => ROUTING_NOTE.test(n));
+
 /** Subtypes with pages of their own, and the broader type this one belongs to, shown before anything else on a cancer page. */
 function CancerFamily({ c }: { c: Cancer }) {
   const g = graph();
@@ -183,6 +188,11 @@ export function CancerSection({ c, id, plan }: { c: Cancer; id: SectionId; plan?
   switch (id) {
     case "overview": return (<>
       <CancerFamily c={c} />
+      {routingNotes(c).length > 0 && (
+        <Block id="which-page" title="Which page is mine?">
+          <Bullets items={routingNotes(c)} linked={(t) => withTermHovers(t, { skipId: c.id })} />
+        </Block>
+      )}
       <Summary e={c} />
       <Block id="state-of-the-art" title="State of the art"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
       <CancerOutlook c={c} />
@@ -307,7 +317,7 @@ export function CancerSection({ c, id, plan }: { c: Cancer; id: SectionId; plan?
 
     case "data": { const twins = machineRoutes(c); const nRel = [...forMe.entries()].filter(([k]) => k !== "cancer").reduce((a, [, l]) => a + l.length, 0); return (<>
       <Block id="relevant" title="Related pages" aside={<span className="text-sm text-muted tabular-nums">{nRel}</span>}><p className="text-xs text-muted mb-3">Direct links plus the targets, companies, and technologies of this cancer&apos;s products.</p><Neighbours groups={forMe} exclude={["cancer"]} similar={similarLinks(c.id)} max={NEIGHBOUR_CAP} moreHref={(k: Kind) => cancerTableHref(k, c.name)} /></Block>
-      {c.notes.length > 0 && <Block id="notes" title="Notes"><Bullets items={c.notes} linked={(t) => withTermHovers(t, { skipId: c.id })} /></Block>}
+      {c.notes.filter((n) => !ROUTING_NOTE.test(n)).length > 0 && <Block id="notes" title="Notes"><Bullets items={c.notes.filter((n) => !ROUTING_NOTE.test(n))} linked={(t) => withTermHovers(t, { skipId: c.id })} /></Block>}
       <Block id="machine" title="Machine-readable versions">
         <p className="text-sm text-muted mb-2">The same record for scripts and assistants; checked {c.asOf}. Data CC BY-NC 4.0, attribute &ldquo;Data from OnCo (onco.cc)&rdquo;.</p>
         <div className="flex flex-wrap gap-1.5 text-sm">

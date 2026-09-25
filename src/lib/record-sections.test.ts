@@ -221,3 +221,31 @@ describe("deep links", () => {
     expect(missing).toEqual([]);
   }, 300_000);
 });
+
+describe("the routing note answers the question a reader arrives with", () => {
+  // Three family core layers write a note beginning "Which page is mine?", which is the answer for someone who
+  // knows one thing from a phone call and does not yet know which page is hers. `notes` is a Data-section field,
+  // so until now the fullest statement of the routing rendered on the last tab. It renders on the hub instead,
+  // and is withheld from the Data section, so a reader meets it once and meets it first.
+  const routing = (c: { notes: string[] }) => c.notes.filter((n) => /^Which page is mine/i.test(n));
+  const withRouting = graph().kind("cancer").filter((c) => routing(c).length > 0);
+
+  it("is written by at least the three family pages that have one", () => {
+    expect(withRouting.length).toBeGreaterThanOrEqual(3);
+    for (const c of withRouting) expect(graph().kind("cancer").some((x) => x.parent === c.id), `${c.id} has children`).toBe(true);
+  });
+
+  it("renders on the hub and not in the Data section", () => {
+    const failures: string[] = [];
+    for (const c of withRouting) {
+      const hub = renderToStaticMarkup(createElement(CancerSection, { c, id: "overview" }));
+      const data = renderToStaticMarkup(createElement(CancerSection, { c, id: "data" }));
+      // The note's text cannot be matched verbatim: glossary terms inside it are wrapped in hover markup, so a
+      // family whose first sentence happens to contain a term ("receptor") renders it in pieces. The block's
+      // anchor is the reliable signal on the hub; the opening words are enough to prove it left the Data section.
+      if (!hub.includes('id="which-page"')) failures.push(`${c.id}: no which-page block on the hub`);
+      if (data.includes("Which page is mine")) failures.push(`${c.id}: still in the Data section`);
+    }
+    expect(failures).toEqual([]);
+  });
+});

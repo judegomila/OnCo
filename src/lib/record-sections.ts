@@ -98,10 +98,10 @@ export const SECTIONS: readonly SectionDef[] = [
     purpose: "The TL;DR, the family this cancer belongs to, the organ, who gets it and what the state of the art is.",
     fields: ["tldr", "simple", "summary", "stateOfArt", "burden", "group", "parent", "prognosis"],
     patches: ["spikes/<cancer>-core.ts", "data/organ-schematics.ts", "data/journeys.ts"],
-    anchors: ["state-of-the-art", "key-facts", "anatomy"],
+    anchors: ["which-page", "state-of-the-art", "key-facts", "anatomy"],
     pages: [],
     counts: (c, g) => [{ n: children(g, c), label: pluralise(children(g, c), "subtype") }, { n: c.stateOfArt.length, label: "state-of-the-art points" }].filter((x) => x.n),
-    estimate: (c, g) => ({ rows: c.stateOfArt.length + children(g, c), kb: 30 + c.stateOfArt.length * 0.6 + children(g, c) * 0.3 + (organFor(c.id) ? 10 : 0) }),
+    estimate: (c, g) => { const routing = c.notes.filter((n) => /^Which page is mine/i.test(n)); return { rows: c.stateOfArt.length + children(g, c) + routing.length, kb: 30 + c.stateOfArt.length * 0.6 + children(g, c) * 0.3 + routing.reduce((n, t) => n + t.length / 1024, 0) + (organFor(c.id) ? 10 : 0) }; },
   },
   {
     id: "what-it-is", title: "What it is", glyph: "anatomy",
@@ -190,8 +190,8 @@ export const SECTIONS: readonly SectionDef[] = [
     patches: ["public/api/v1/entities/<id>.json", "public/api/v1/context/<id>.md", "public/api/v1/rdf/<id>.ttl", "lib/similar.ts"],
     anchors: ["relevant", "notes", "machine"],
     pages: [],
-    counts: (c, g) => { let n = 0; for (const [k, l] of g.forCancer(c.id)) if (k !== "cancer") n += l.length; return [{ n, label: "connected records" }, { n: c.notes.length, label: pluralise(c.notes.length, "note") }].filter((x) => x.n); },
-    estimate: (c, g) => { let chips = 0; for (const [k, l] of g.forCancer(c.id)) if (k !== "cancer") chips += cap(l.length); return { rows: chips + c.notes.length, kb: 12 + chips * 0.5 + c.notes.length * 0.5 }; },
+    counts: (c, g) => { let n = 0; for (const [k, l] of g.forCancer(c.id)) if (k !== "cancer") n += l.length; return [{ n, label: "connected records" }, { n: c.notes.filter((n) => !/^Which page is mine/i.test(n)).length, label: pluralise(c.notes.filter((n) => !/^Which page is mine/i.test(n)).length, "note") }].filter((x) => x.n); },
+    estimate: (c, g) => { let chips = 0; for (const [k, l] of g.forCancer(c.id)) if (k !== "cancer") chips += cap(l.length); const notes = c.notes.filter((n) => !/^Which page is mine/i.test(n)).length; return { rows: chips + notes, kb: 12 + chips * 0.5 + notes * 0.5 }; },
   },
 ];
 

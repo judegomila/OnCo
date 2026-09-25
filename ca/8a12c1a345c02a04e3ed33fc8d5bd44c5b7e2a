@@ -1,0 +1,54 @@
+src/app/models/page.tsx
+  s_0beac9cb5d78fd::t_4980be588ccd63 40-41,45,56,66
+  s_0beac9cb5d78fd::t_c54df0d555e932 75
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_8bd69aa043de56 410
+  s_0beac9cb5d78fd::t_d4f890ad1ab7b7 98-100,102
+  s_0beac9cb5d78fd::t_72d451c7a2c207 452-459
+  s_0beac9cb5d78fd::t_74539c40e0f5de 154-156,158,163-165,170-174
+  s_0beac9cb5d78fd::t_e6f38fa234c562 402-404
+src/app/coverage/uk/page.tsx
+  s_0beac9cb5d78fd::t_c54df0d555e932 54-55
+  s_0beac9cb5d78fd::t_98b3d940c684bf 36,38-39,41,43
+src/components/filter-cells.test.ts
+  s_0beac9cb5d78fd::t_61c4cc17126254 1-183
+src/lib/kind-browser.ts
+  s_0beac9cb5d78fd::t_95259d8e5fe079 84-89,137,158,212,273
+  s_0beac9cb5d78fd::t_3a43753f50a629 154,156-157
+  s_0beac9cb5d78fd::t_bc6037dfb8dcde 134-136
+  s_0beac9cb5d78fd::t_d95299d0adafd9 209-211
+  s_0beac9cb5d78fd::t_b3f49984ee584c 6
+src/lib/browser-sort.ts
+  s_0beac9cb5d78fd::t_2b2ec16bd04da5 14-15
+src/app/heavy-pages.test.ts
+  s_0beac9cb5d78fd::t_9da8e0badce5a9 397-406
+  s_0beac9cb5d78fd::t_736052c3761769 65-70
+docs/TABLES.md
+  s_0beac9cb5d78fd::t_249e1039705304 84
+  s_0beac9cb5d78fd::t_397ea289dc9f19 113-137
+src/lib/tables/open-source.ts
+  s_0beac9cb5d78fd::t_136eac4718f106 59-60
+src/app/coverage/us/page.tsx
+  s_0beac9cb5d78fd::t_87abe144682287 49-51
+src/app/machines/page.tsx
+  s_0beac9cb5d78fd::t_2bfce0f1f7486a 6
+  s_0beac9cb5d78fd::t_eecb821b9aee90 64,67-69
+src/lib/kinds.ts
+  s_0beac9cb5d78fd::t_a2bebd1737e052 147-154
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ca8a12c1a345c02a04e3ed33fc8d5bd44c5b7e2a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

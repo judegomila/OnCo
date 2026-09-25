@@ -74,6 +74,7 @@ import { complementary } from "./complementary";
 import { tests } from "./tests";
 import { nciCoverage } from "./nci-coverage";
 import { institutionsIndia } from "./institutions/india";
+import { institutionsGermany } from "./institutions/germany";
 import { institutionsWaveInvestigators } from "./institutions-wave-investigators";
 import { india } from "./india";
 import { china } from "./china";
@@ -238,6 +239,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...nciCoverage,
   ...networkInstitutions, ...networkPeople,
   ...institutionsIndia,
+  ...institutionsGermany,
   ...institutionsWaveInvestigators,
   ...india,
   ...china,

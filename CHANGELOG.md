@@ -8,7 +8,6 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 
 ### 25 September 2026
 - Skin cancer: what a person with a basal cell or squamous cell cancer faces, the family tree given its reason, and the counting rule that hides the commonest cancer there is
-- What a person with a basal cell or squamous cell skin cancer actually faces, and a rule that lets a row cite the leaflet that carries its sentence
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -20,6 +19,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- What a person with a basal cell or squamous cell skin cancer actually faces, and a rule that lets a row cite the leaflet that carries its sentence
 - Three review lessons from the skin layer: a citation that does not contain the claim passes every gate
 - The rows about living with a skin cancer now cite the leaflet that actually contains the sentence, and the photodynamic therapy figures move to the cream the trials used
 - The skin family given its routing, the keratinocyte cancers given their subtypes and staging, and the counting rule that governs every figure on them

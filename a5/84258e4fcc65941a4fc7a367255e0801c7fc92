@@ -1,0 +1,27 @@
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_b1474195c31fc9 92
+  s_0beac9cb5d78fd::t_df073b31729e24 93
+src/data/spikes/prostate-glossary.ts
+  s_0beac9cb5d78fd::t_f0b38f232e72dd 8-13
+  s_0beac9cb5d78fd::t_c84d0d5357bf1d 237-238,277-278,280,461
+  s_0beac9cb5d78fd::t_02bb4385e5d17f 1-7,14-236,239-276,279,281-460,462-519
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_4b7559ed9132cd 80
+  s_0beac9cb5d78fd::t_8b9f2528c32fa6 73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a584258e4fcc65941a4fc7a367255e0801c7fc92",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

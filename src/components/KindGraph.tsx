@@ -1,0 +1,136 @@
+import Link from "next/link";
+import { graph } from "@/lib/graph";
+import { KINDS, type Kind } from "@/lib/kinds";
+import { HUE } from "@/lib/graph-layout";
+import { KIND_COLOR } from "@/lib/text";
+import { BODY_REGIONS } from "@/data/body-regions";
+import { bodyEntry } from "@/lib/body-entry";
+import {
+  KG_COLUMNS, KG_H, KG_MIN_LINKS, KG_POS, KG_W, KIND_GRAPH_URL, edgePath, edgeSentence, edgeWidth, edgesOf, kindGraph, linksSentence, nodeRadius, num,
+  type KindGraph as KindGraphData,
+} from "@/lib/kind-graph";
+import { KindIcon } from "./KindIcon";
+import { BodyMap } from "./BodyMap";
+import { KindGraphFrame } from "./KindGraphFrame";
+
+/**
+ * The home page's "by the numbers" block as a living graph of the kinds (src/lib/kind-graph.ts): one node per kind,
+ * sized by its record count and carrying its glyph and count; one edge per pair of kinds, width by link volume on a
+ * log scale. Everything is a plain link, rendered on the server: a reader without JavaScript gets the same nodes,
+ * counts and destinations. KindGraphFrame adds the hover and focus highlight, the tooltip and the Graph / List pill
+ * (state in `?view=`). Below the md breakpoint the body map is the entry point instead (BodyMap in entry mode), with
+ * a strip beneath for the kinds that are not bound to an organ. The plain counts list is always in the markup for the
+ * List view. The JSON twin is /api/v1/kind-graph.json.
+ */
+
+/** Kinds shown in the strip beneath the phone body map: those not reached through an organ. */
+const STRIP_KINDS: Kind[] = ["company", "institution", "person", "journal", "paper", "idea", "bottleneck", "roadmap", "collection", "term"];
+
+const GLYPH = 1.3; // glyph size as a fraction of the node radius
+
+function GraphSvg({ kg }: { kg: KindGraphData }) {
+  const maxCount = Math.max(...kg.nodes.map((n) => n.count));
+  const drawn = kg.edges.filter((e) => e.a !== e.b && e.links >= KG_MIN_LINKS && kg.nodes.some((n) => n.kind === e.a) && kg.nodes.some((n) => n.kind === e.b));
+  const maxLinks = Math.max(1, ...drawn.map((e) => e.links));
+  const r = (k: Kind) => nodeRadius(kg.nodes.find((n) => n.kind === k)?.count ?? 0, maxCount);
+  return (
+    <svg viewBox={`0 0 ${KG_W} ${KG_H}`} className="kg-svg block w-full h-auto" role="img" aria-labelledby="kg-title kg-desc" fontFamily="inherit">
+      <title id="kg-title">The kinds of record in OnCo and how they link</title>
+      <desc id="kg-desc">{num(kg.total)} records in {kg.nodes.length} kinds with {num(kg.links)} links between them. A node&apos;s size is its record count; an edge&apos;s width is the number of links between the two kinds, log scaled. Columns read left to right: disease, biology, treatment, evidence, who, direction.</desc>
+      <g className="kg-cols" fill="currentColor" fillOpacity={0.55} fontSize={11} fontWeight={600} textAnchor="middle" letterSpacing={0.6}>
+        {KG_COLUMNS.map((c) => <text key={c.title} x={c.x} y={16}>{c.title.toUpperCase()}</text>)}
+      </g>
+      <g className="kg-edges" fill="none" strokeLinecap="round">
+        {drawn.map((e) => {
+          const p = KG_POS[e.a], q = KG_POS[e.b];
+          const t = Math.log(e.links) / Math.log(maxLinks);
+          const d = edgePath(p, q);
+          // The label is the tooltip too (KindGraphFrame reads it); the static stroke attributes live in the frame's stylesheet.
+          return (
+            <a key={`${e.a}-${e.b}`} href={e.href} className="kg-e" data-kg={`${e.a} ${e.b}`} aria-label={edgeSentence(e)}>
+              <path className="kg-eh" d={d} />
+              <path className="kg-el" d={d} strokeOpacity={Math.round((0.07 + 0.28 * t) * 100) / 100} strokeWidth={edgeWidth(e.links, maxLinks)} />
+            </a>
+          );
+        })}
+      </g>
+      <g className="kg-nodes" textAnchor="middle">
+        {kg.nodes.map((n) => {
+          const { x, y } = KG_POS[n.kind];
+          const rad = r(n.kind), g = Math.round(rad * GLYPH * 2) / 2;
+          const neighbours = edgesOf(kg, n.kind).map((e) => e.other).filter((k) => k !== n.kind).join(" ");
+          const tip = `${n.label}: ${num(n.count)} ${n.count === 1 ? "record" : "records"}. ${linksSentence(kg, n.kind)}`;
+          return (
+            <a key={n.kind} href={n.route} className="kg-n" data-kg={n.kind} data-n={neighbours} aria-label={`${tip} Open the ${n.plural}.`} style={{ color: HUE[n.kind] }}>
+              <circle cx={x} cy={y} r={rad} />
+              <svg x={x - g / 2} y={y - g / 2} width={g} height={g} aria-hidden focusable="false"><KindIcon kind={n.kind} className="" /></svg>
+              <text className="kg-c" x={x} y={y + rad + 15}>{num(n.count)}</text>
+              <text className="kg-l" x={x} y={y + rad + 28}>{n.label}</text>
+            </a>
+          );
+        })}
+      </g>
+    </svg>
+  );
+}
+
+/** The plain counts list: the grid the graph replaced, kept for the List view and for readers who prefer it. */
+function CountsList({ kg }: { kg: KindGraphData }) {
+  return (
+    <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-px rounded-xl border border-border bg-card overflow-hidden shadow-card [&>li]:border-border [&>li]:border-b [&>li]:border-r" aria-label="Records by kind">
+      {kg.nodes.map((n) => (
+        <li key={n.kind} className="bg-card">
+          <Link href={n.route} className="flex h-full items-center gap-3 px-3.5 py-3 hover:bg-surface transition-colors" title={linksSentence(kg, n.kind)}>
+            <span aria-hidden className={`inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border ${KIND_COLOR[n.kind]}`}><KindIcon kind={n.kind} className="h-5 w-5" /></span>
+            <span className="min-w-0">
+              <span className="block text-xl font-semibold tabular-nums leading-none tracking-tight">{num(n.count)}</span>
+              <span className="block text-xs text-muted mt-1 truncate">{n.label}</span>
+            </span>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+/** Phones: the kinds no organ reaches, one chip each, in a row that scrolls sideways inside its own box. */
+function KindStrip({ kg }: { kg: KindGraphData }) {
+  const by = new Map(kg.nodes.map((n) => [n.kind, n]));
+  return (
+    <div className="mt-3 -mx-4 px-4 overflow-x-auto" aria-label="Kinds not bound to an organ">
+      <ul className="flex gap-1.5 w-max pb-1">
+        {STRIP_KINDS.map((k) => by.get(k)).filter((n): n is NonNullable<typeof n> => !!n).map((n) => (
+          <li key={n.kind}>
+            <Link href={n.route} className={`chip border ${KIND_COLOR[n.kind]} whitespace-nowrap`} title={linksSentence(kg, n.kind)}>
+              <KindIcon kind={n.kind} className="h-3.5 w-3.5" />
+              <span><b className="font-semibold tabular-nums">{num(n.count)}</b> {n.label.toLowerCase()}</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export function KindGraph() {
+  const g = graph();
+  const kg = kindGraph(g);
+  const { cancers, families } = bodyEntry(g, BODY_REGIONS);
+  const lede = (
+    <p className="text-sm text-muted">
+      <span className="font-semibold text-foreground tabular-nums">{num(kg.total)}</span> linked records in {KINDS.filter((k) => kg.nodes.some((n) => n.kind === k)).length} kinds, <span className="font-semibold text-foreground tabular-nums">{num(kg.links)}</span> links between them, one page each. Every node, edge and count is a link.
+    </p>
+  );
+  return (
+    <>
+      {/* React hoists this into <head>: crawlers and agents find the graph's numbers as JSON. */}
+      <link rel="alternate" type="application/json" href={KIND_GRAPH_URL} title="OnCo kinds and the links between them, as JSON" />
+      <KindGraphFrame lede={lede} jsonHref={KIND_GRAPH_URL}
+        graph={<div className="card p-3 sm:p-4 text-foreground"><GraphSvg kg={kg} /></div>}
+        body={<><BodyMap regions={BODY_REGIONS} cancers={cancers} technologies={{}} families={families} /><KindStrip kg={kg} /></>}
+        list={<CountsList kg={kg} />} />
+    </>
+  );
+}
+
+export { STRIP_KINDS };

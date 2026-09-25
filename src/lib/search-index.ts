@@ -2,7 +2,7 @@ import { MECHANICS } from "@/data/mechanics-atlas";
 import { graph } from "./graph";
 import { NAV_GROUPS } from "./nav";
 import { routeFor, type Kind } from "./kinds";
-import { engineRoute, FORMATS } from "./modular-formats";
+import { engineRoute, FORMATS, modalityRoute } from "./modular-formats";
 import { DECISION_TOOLS, toolRoute } from "./decision-tools";
 import { COMPARE_SETS, compareRoute } from "./cancer-compare";
 
@@ -23,12 +23,14 @@ function pageDocs(): SearchDoc[] {
   const out: SearchDoc[] = [];
   // The open drug engine's format pages are generated from FORMATS, so a search for "radioligand" or "ADC" reaches the grid.
   const enginePages = FORMATS.map((f) => ({ href: engineRoute(f.id), label: `${f.name}: open drug engine`, blurb: f.blurb }));
+  // The modality hubs likewise, so "CAR-T" or "degrader" reaches the hub that gathers everything about the format.
+  const modalityPages = FORMATS.map((f) => ({ href: modalityRoute(f.id), label: `${f.name}: modality hub`, blurb: `Everything OnCo records about ${f.name.toLowerCase()}: how they work, approved medicines, phase 3, parts, companies, trials, side effects, resistance, papers, roadmaps, ideas and manufacturing. ${f.blurb}` }));
   // Decision aids and side-by-side comparisons, so "gallbladder polyp" reaches the aid and not only the glossary term.
   const toolPages = [
     ...DECISION_TOOLS.map((t) => ({ href: toolRoute(t.id), label: `${t.short}: ${t.title}`, blurb: t.lede })),
     ...COMPARE_SETS.map((s) => ({ href: compareRoute(s.anchorId), label: `${graph().must(s.anchorId).name} compared with its neighbours`, blurb: s.title })),
   ];
-  const pages = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES, ...enginePages, ...toolPages];
+  const pages = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES, ...enginePages, ...modalityPages, ...toolPages];
   for (const it of pages) {
     if (seen.has(it.href)) continue; seen.add(it.href);
     out.push({ id: "page:" + it.href, kind: "page", name: it.label, aka: "", tldr: it.blurb, tags: "page", route: it.href, status: "" });

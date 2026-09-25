@@ -1,0 +1,33 @@
+import type { TrialInput } from "@/lib/schema";
+import { CRC, ct, doi, t } from "./colorectal-treatment-shared";
+
+/**
+ * COLORECTAL CANCER: anti-EGFR resistance and rechallenge, and the attempts to make microsatellite-stable disease
+ * respond to immunotherapy. Figures from the primary papers, read through Europe PMC on 2026-09-24. The reference
+ * failure for checkpoint inhibition in microsatellite-stable disease, IMblaze370, is in
+ * ./colorectal-treatment-trials-advanced.ts; the botensilimab and balstilimab phase 2 (`nct05608044`) is supplemented
+ * in ./colorectal-treatment.ts.
+ */
+export const colorectalTrialsRechallenge: TrialInput[] = [
+  t({ id: "chronos", name: "CHRONOS", nct: "NCT03227926", phase: "2", status: "positive", yearReported: 2022, sponsor: "Fondazione del Piemonte per l'Oncologia", enrolled: 27, enrolledBasis: "treated", enrolledNote: "The registry lists 32 participants; 52 patients underwent the interventional circulating tumour DNA screen, 16 (31 percent) were excluded for a resistance mutation and 27 were enrolled and treated.",
+    setting: "RAS wild-type metastatic colorectal cancer that had already progressed on an EGFR antibody: a blood test for RAS, BRAF and EGFR resistance mutations decides who is rechallenged with panitumumab alone",
+    tldr: "The first trial to let a blood test decide whether to give an EGFR antibody a second time. A third of the patients screened had resistance mutations and were excluded; of those rechallenged, three in ten responded.",
+    summary: "Resistance to EGFR antibodies in colorectal cancer arises through RAS, BRAF and EGFR ectodomain mutant clones that expand under treatment and then decline once the drug is withdrawn, which raises the possibility of rechallenging the same tumour later. CHRONOS was an open-label, single-arm phase 2 trial that tested this prospectively: patients whose tissue was RAS wild-type and who had already progressed on an EGFR-based regimen had an interventional circulating tumour DNA screen, and only those without a detectable RAS, BRAF or EGFR resistance mutation were rechallenged with chemotherapy-free panitumumab. Of 52 patients screened, 16 (31 percent) carried at least one resistance mutation and were excluded. Of the 27 enrolled, eight (30 percent) achieved a partial response, including two unconfirmed responses, and 17 (63 percent) had disease control. The primary endpoint was met. These figures compare favourably with standard third-line treatment, and CHRONOS is the proof that a liquid biopsy can be used interventionally, to choose treatment rather than to describe a tumour. It is small and single-arm, so anti-EGFR rechallenge remains unproven in phase 3.",
+    result: "Objective response 30 percent (8 of 27) and disease control 63 percent in ctDNA-selected patients; 31 percent of those screened were excluded by a resistance mutation.",
+    outcomes: [{ endpoint: "Objective response rate", primary: true, unit: "percent", arms: [{ name: "Panitumumab rechallenge after a negative ctDNA resistance screen", n: 27, value: 30, note: "8 of 27, including 2 unconfirmed" }], source: "https://doi.org/10.1038/s41591-022-01886-0" }],
+    drugs: ["panitumumab"], cancers: [CRC], targets: ["egfr", "kras", "nras", "braf"], technologies: ["liquid-biopsy", "monoclonal-antibody", "mrd-testing"], terms: ["ctdna"],
+    links: [ct("NCT03227926"), doi("CHRONOS: ctDNA-guided anti-EGFR rechallenge with panitumumab in metastatic colorectal cancer (Nature Medicine 2022)", "10.1038/s41591-022-01886-0")] }),
+
+  t({ id: "cave", name: "CAVE mCRC", aka: ["CAVE"], nct: "NCT04561336", phase: "2", status: "positive", yearReported: 2021, sponsor: "University of Campania Luigi Vanvitelli", enrolled: 77,
+    setting: "Pretreated RAS wild-type metastatic colorectal cancer: cetuximab rechallenge with the PD-L1 antibody avelumab, single arm",
+    tldr: "Adding a PD-L1 antibody to an EGFR antibody given a second time helped most in patients whose blood showed no resistance mutations, a seven-month difference in survival between the two groups.",
+    summary: "CAVE enrolled 77 patients with pretreated RAS wild-type metastatic colorectal cancer, 71 of them microsatellite-stable, and gave cetuximab rechallenge with avelumab. The trial met its primary endpoint with a median overall survival of 11.6 months (95% CI 8.4 to 14.8) and median progression-free survival of 3.6 months. Baseline circulating tumour DNA for KRAS, NRAS, BRAF and EGFR S492R was analysable in 67 of 77 (87 percent); 48 patients were wild-type in plasma and 19 mutated. Median overall survival was 17.3 months in the plasma wild-type group against 10.4 months in the mutated group (hazard ratio 0.49, 95% CI 0.27 to 0.90, p=0.02), and progression-free survival 4.1 against 3.0 months (hazard ratio 0.42, 0.23 to 0.75, p=0.004). Grade 3 cutaneous eruption affected 14 percent. A later pooled analysis of 180 patients found that the absence of liver metastases and a longer anti-EGFR-free interval mark out who benefits. Like CHRONOS, CAVE is single-arm: it establishes that plasma RAS status selects for rechallenge benefit, not that rechallenge beats standard later-line treatment.",
+    result: "Median overall survival 11.6 months overall; 17.3 months with RAS and BRAF wild-type plasma against 10.4 months with mutated plasma (hazard ratio 0.49).",
+    outcomes: [
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Cetuximab rechallenge plus avelumab", n: 77, value: 11.6 }], ci: [8.4, 14.8], source: "https://doi.org/10.1001/jamaoncol.2021.2915" },
+      { endpoint: "Overall survival by baseline plasma RAS and BRAF status", unit: "months", arms: [{ name: "Plasma wild-type", n: 48, value: 17.3 }, { name: "Plasma mutated", n: 19, value: 10.4 }], hr: 0.49, ci: [0.27, 0.90], p: "0.02", source: "https://doi.org/10.1001/jamaoncol.2021.2915" },
+    ],
+    replication: "A 2026 pooled analysis of 180 patients found median overall survival 15.7 months with cetuximab and avelumab against 12.9 months with cetuximab alone, with liver involvement and a short anti-EGFR-free interval marking out non-responders.",
+    drugs: ["cetuximab", "avelumab"], cancers: [CRC], targets: ["egfr", "pd1"], technologies: ["monoclonal-antibody", "checkpoint-inhibitor", "liquid-biopsy"], terms: ["ctdna", "msi"], trials: ["chronos"],
+    links: [ct("NCT04561336"), doi("CAVE: cetuximab plus avelumab as rechallenge therapy in RAS wild-type metastatic colorectal cancer (JAMA Oncology 2021)", "10.1001/jamaoncol.2021.2915"), doi("CAVE pooled analysis of clinical factors and outcomes (ESMO Gastrointestinal Oncology 2026)", "10.1016/j.esmogo.2026.100398")] }),
+];

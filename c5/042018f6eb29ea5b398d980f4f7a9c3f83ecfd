@@ -1,0 +1,24 @@
+src/data/spikes/colorectal-core.ts
+  s_0beac9cb5d78fd::t_37c1e8712b3139 3,364,391,563-570,600,641-643
+  s_0beac9cb5d78fd::t_47b73b573aaecf 440,443-521,523-540,542-560
+  s_0beac9cb5d78fd::t_0a0654217ffa4a 90-110
+  s_0beac9cb5d78fd::t_1782e5916dc0bb 571-593,597
+  s_0beac9cb5d78fd::t_f8f9d1acb68f3a 248,594-596,598
+  s_0beac9cb5d78fd::t_a7e05b9c39557c 522,541
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c5042018f6eb29ea5b398d980f4f7a9c3f83ecfd",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

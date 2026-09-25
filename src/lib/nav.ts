@@ -133,6 +133,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/countries/", label: "Countries", blurb: "Who is doing the most cancer research: output, growth, trials, burden, funders." },
       { href: "/countries/in/", label: "India deep dive", blurb: "What India is up to: cancer profile, paying for care, CDSCO, institutions, companies, trials and people." },
       { href: "/countries/cn/", label: "China deep dive", blurb: "What China is up to: cancer profile, the NMPA, national insurance listing, institutions, companies, trials and people." },
+      { href: "/countries/il/", label: "Israel deep dive", blurb: "What Israel is up to: the public committee that decides each year which drugs the state pays for, the four health funds, founder genetics and population testing, and the trial and device industry." },
       { href: "/cases/", label: "Cases by country", blurb: "New cancer cases per country and per cancer, with the data gaps made explicit." },
       { href: "/funding/", label: "Funding flows", blurb: "Where the money comes from." },
     ],

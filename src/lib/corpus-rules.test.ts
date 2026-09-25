@@ -82,6 +82,11 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
   // SWOG 8794 opened in 1988 and TAX 327 recruited March 2000 to June 2002, before the 2005 ICMJE registration requirement.
   // SPCG-7 and RADICALS-HD do have primary registry ids and carry them: ISRCTN01534787 and ISRCTN40814031.
   "spcg-4", "rtog-9202", "swog-8794", "tax-327",
+  // Skin cancer trials that pre-date registration: the Institut Gustave Roussy surgery against radiotherapy trial
+  // opened in 1982, and the two multicentre photodynamic therapy trials reported in 2007 and 2008 from recruitment
+  // in the early 2000s. The three randomised skin trials that do carry primary registry ids carry them: the Dutch
+  // Mohs trial is ISRCTN65009900, SINS is ISRCTN48755084 and the Dutch superficial trial is ISRCTN79701845.
+  "avril-surgery-versus-radiotherapy-bcc", "mal-pdt-versus-surgery-nodular-bcc", "mal-pdt-versus-cryotherapy-superficial-bcc",
   // Lung cancer trials that pre-date ClinicalTrials.gov or are registered only where this field cannot hold the id:
   // IALT (randomised 1995 to 2000), JBR.10 (NCIC CTG, 1994 to 2001), Intergroup 0096 (Turrisi, opened 1989) and the
   // Dutch Bone Metastasis Study (1996) all pre-date registration; JCOG0802/WJOG4607L is UMIN000002317 and JROSG 99-1

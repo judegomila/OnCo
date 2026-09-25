@@ -33,6 +33,13 @@ const ROADMAP: RoadmapInput["id"] = tnbcRoadmap.id;
 const backlinkSupplements: Spike["supplements"] = [
   { id: "ctdna-tests", cancers: [TNBC] } satisfies { id: string } & Partial<RoadmapInput>,
   { id: "tnbc-history", related: [ROADMAP] } satisfies { id: string } & Partial<RoadmapInput>,
+  // Slamon 1987 (the third receptor test, and so by exclusion the triple-negative definition) is the HER2 spike's record.
+  { id: "paper-slamon-her2-amplification-science-1987", cancers: [TNBC], related: ["paper-asco-cap-er-pr-testing-guideline-jco-2010"], pmid: "3798106" } satisfies { id: string } & Partial<PaperInput>,
+  // Three papers this file wrote in full also exist as thin Europe PMC ingest records under older ids (same DOI); the
+  // pages point at each other until the ingest records are retired (docs/TNBC-QA.md, open gaps).
+  { id: "paper-masuda-n-engl-j-med", related: ["paper-create-x-adjuvant-capecitabine-nejm-2017"] } satisfies { id: string } & Partial<PaperInput>,
+  { id: "paper-shelley-hwang-j-clin-oncol-2021", related: ["paper-asco-neoadjuvant-therapy-breast-guideline-jco-2021"] } satisfies { id: string } & Partial<PaperInput>,
+  { id: "paper-leon-ferre-jama", related: ["paper-leon-ferre-tils-tnbc-no-chemotherapy-jama-2024"] } satisfies { id: string } & Partial<PaperInput>,
 ];
 
 // ======================= SPIKE =======================
@@ -45,7 +52,7 @@ const spike: Spike = {
     // 2022, 2025 and 2026 entries in ../cancers.ts stand; these add the receptor, hereditary, disparity and residual
     // disease threads and the 2026 trial papers.
     history: [
-      { year: 1987, title: "HER2 amplification found in 30 percent of breast cancers and tied to early relapse", note: "Slamon and colleagues, 189 tumours. With the oestrogen and progesterone receptor assays it completed the three tests whose absence defines triple-negative disease.", refs: ["paper-slamon-her2-amplification-breast-cancer-science-1987", "her2"] },
+      { year: 1987, title: "HER2 amplification found in 30 percent of breast cancers and tied to early relapse", note: "Slamon and colleagues, 189 tumours. With the oestrogen and progesterone receptor assays it completed the three tests whose absence defines triple-negative disease.", refs: ["paper-slamon-her2-amplification-science-1987", "her2"] },
       { year: 1997, title: "Founder BRCA mutations: 56 percent breast cancer risk by 70 in Ashkenazi carriers", note: "Struewing and colleagues, 5,318 volunteers, three founder variants carried by over 2 percent of the population; Górski described the Polish BRCA1 founder set in 2000.", refs: ["paper-struewing-brca-founder-mutations-ashkenazi-nejm-1997", "paper-gorski-brca1-founder-mutations-poland-ajhg-2000", "brca"] },
       { year: 2003, title: "BRCA1 carriers' tumours shown to be basal-like", note: "Sørlie's independent data sets and Foulkes's cytokeratin 5/6 stain (odds ratio 9.0) linked hereditary and basal-like disease; Atchley (2008) found 57 percent of BRCA1 carriers' cancers triple-negative.", refs: ["paper-sorlie-repeated-observation-subtypes-brca1-basal-pnas-2003", "paper-foulkes-brca1-basal-phenotype-jnci-2003", "paper-atchley-brca-status-triple-negative-jco-2008", "germline-testing"] },
       { year: 2006, title: "Carolina Breast Cancer Study: basal-like tumours in 39 percent of young African American women", note: "Carey and colleagues, 496 cases; 16 percent in other women. California registry data (2007) fixed the wider demography of younger, Black, Hispanic and poorer women with worse survival at every stage.", refs: ["paper-carey-race-breast-cancer-subtypes-cbcs-jama-2006", "paper-bauer-triple-negative-california-registry-cancer-2007", TNBC_IDEAS.disparities] },
@@ -60,10 +67,11 @@ const spike: Spike = {
       { year: 2026, title: "TROPION-Breast02 and OlympiA six-year update published; CAPItello-290 negative", note: "Datopotamab deruxtecan first line: overall survival 23.7 vs 18.7 months. Olaparib: six-year survival 87.5 vs 83.2 percent, no excess leukaemia. Capivasertib plus paclitaxel: no survival gain.", refs: ["paper-tropion-breast02-ann-oncol-2026", "paper-olympia-6-year-update-ann-oncol-2026", "paper-capitello-290-capivasertib-paclitaxel-ann-oncol-2026", "tropion-breast02", "olympia", "nct03997123"] },
     ],
     pipeline: [...tnbcIdeas.map((i) => i.id)],
+    // The molecular file's overlapping problems (assay swing, ctDNA timing, ancestry) were folded into these three on review (docs/TNBC-QA.md).
     openProblems: [
-      "PD-L1 assays disagree on about a quarter of tumours (SP142 46 percent positive, 22C3 73 percent, concordance 69 percent in IMpassion130); only 22C3 combined positive score of 10 has an approved drug attached and laboratories are not harmonised.",
-      "Acting on ctDNA after residual disease failed once (c-TRAK TN: detection came after metastases were visible); the next design needs tumour-informed assays, a sample at surgery and an active drug, and has not been run.",
-      "The disparity is measured in the United States and was measured once in the UK (POSH, women under 41, recruited to 2008); NHS statistics do not report triple-negative outcomes by ethnicity.",
+      "PD-L1 assays disagree on about a quarter of tumours (SP142 46 percent positive, 22C3 73 percent, concordance 69 percent in IMpassion130; 27 percent CPS 10 or more against 51 percent SP142-positive in the Swedish early cohort); only 22C3 combined positive score of 10 has an approved drug attached, laboratories are not harmonised, and no assay predicts benefit from the first-line antibody-drug conjugate plus pembrolizumab combinations.",
+      "Acting on ctDNA after residual disease failed once (c-TRAK TN: detection came after metastases were visible, and ctDNA misses brain-only relapse); the next design needs tumour-informed assays, a sample at surgery and an active drug, and has not been run.",
+      "The disparity is measured in the United States and was measured once in the UK (POSH, women under 41, recruited to 2008); NHS statistics do not report triple-negative outcomes by ethnicity, and women of African ancestry, who carry a distinct immune landscape, remain under-represented in the trials that set the biomarker thresholds.",
     ],
     terms: ["ctdna", "mrd", "de-escalation", "germline-testing", "brain-metastases", "adc-sequencing", "pam50", "neoadjuvant-adjuvant"],
     trials: ["ascent-05", "tropion-breast03", "tropion-breast05", "nct03997123"],

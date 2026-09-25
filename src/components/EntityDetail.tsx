@@ -593,9 +593,9 @@ function RoadmapSteps({ r }: { r: Roadmap }) {
         <p className="text-sm text-muted mt-1 max-w-3xl">Readouts, decisions and registry completion dates ahead. Each date is quoted from its source, not inferred; a missing date means no source states one.</p>
         <ol className="card divide-y divide-border mt-3">
           {r.watch.map((w, i) => (
-            <li key={i} className="p-3 grid sm:grid-cols-[9rem_1fr] gap-x-4 gap-y-1 text-sm">
+            <li key={i} className="p-3 grid grid-cols-1 sm:grid-cols-[9rem_minmax(0,1fr)] gap-x-4 gap-y-1 text-sm">
               <span className="font-mono text-xs text-muted tabular-nums pt-0.5">{w.expected ?? "no date stated"}</span>
-              <div>
+              <div className="min-w-0 break-words">
                 <span>{w.item}</span>
                 {w.source && <> <a href={w.source} rel="noopener" className="underline decoration-foreground/25 underline-offset-[3px] hover:decoration-foreground text-xs">source</a></>}
                 {w.refs.length > 0 && <div className="mt-1.5"><Refs ids={w.refs} /></div>}

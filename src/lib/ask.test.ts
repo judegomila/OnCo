@@ -396,10 +396,17 @@ describe("Ask OnCo end to end", () => {
     // index (search-rank.ts recordWeight: registry-ingested 0.6, biomarkers, gene pages and wave 4 0.7). The fusion
     // constant (RRF k 8 to 60) and a term-coverage weight were measured at the same time and changed nothing or lost.
     { date: "2026-09-25", recall: 0.411, note: "subtype capped below its parent; provenance weight shared by both stages; floor held at 0.41" },
+    { date: "2026-09-24", recall: 0.408, note: "pancreatic deep dive: 284 registry trial records naming pancreatic cancer flattened the concept index's inverse document frequency for 'pancreatic' and 'locally advanced' (gi-33 lost pancreatic and panova-3), measured before the fix below" },
+    // 24 Sept 2026: the concept index computes inverse document frequency over the curated records only (semantic.ts
+    // buildSemanticIndex; records with a provenance weight below 1 still get vectors and are still searched). Weighting
+    // the counts by provenance instead (0.6 a record) measured 0.407 and a lower registry weight (0.5) 0.408, so neither
+    // was kept. Natural set 0.886 to 0.892, natural-2 0.983 to 0.978, pipeline benchmark rubric 0.841 to 0.846.
+    { date: "2026-09-24", recall: 0.427, note: "inverse document frequency over curated records only; extractive rubric 0.683" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [
     { date: "2026-09-24", recall: 0.41, rubric: 0.62, change: "function words dropped from Ask's word search; kind tier and name match applied (measured 0.416, rubric 0.676)" },
+    { date: "2026-09-24", recall: 0.42, rubric: 0.65, change: "concept-index inverse document frequency over curated records only (measured 0.427, rubric 0.683)" },
   ];
 
   it("only ever raises the extractive floor", () => {

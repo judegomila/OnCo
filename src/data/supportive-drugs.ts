@@ -23,6 +23,8 @@
  *             diseases are not cancer toxicities).
  */
 export const SUPPORTIVE_DRUGS: Record<string, string> = {
+  // Pancreatic enzyme replacement for exocrine insufficiency in pancreatic cancer (NICE NG85 1.6.1).
+  pancrelipase: "pancreatic enzyme replacement",
   // Antiemetics: chemotherapy- and radiotherapy-induced nausea and vomiting.
   aprepitant: "antiemetic", granisetron: "antiemetic", ondansetron: "antiemetic", palonosetron: "antiemetic", "netupitant-palonosetron": "antiemetic",
   rolapitant: "antiemetic", dolasetron: "antiemetic", dronabinol: "antiemetic", nabilone: "antiemetic",

@@ -510,6 +510,7 @@ export const MODALITY_SCHEMATICS: Array<[RegExp, string]> = [
   [/\bpeptide\b/, "front:targeted-therapy"],
   [/costimulatory|co-stimulatory|immune agonist/, "front:immunotherapy"],
   [/radioenhancer|radiosensiti|nanoparticle/, "front:radiation"],
+  [/hyaluronidase|stroma-degrading|stromal enzyme/, "front:targeted-therapy"],
   [/form not stated|not stated \(registered/, "front:drug-discovery"],
 ];
 

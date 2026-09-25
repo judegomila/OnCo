@@ -99,11 +99,16 @@ export function buildSemanticIndex(docs: SemanticDoc[], opts: BuildOptions = {})
     for (const t of tokenize(d.text)) m.set(t, (m.get(t) ?? 0) + 1);
     return m;
   });
+  // Inverse document frequency is computed over the curated records only (SemanticDoc.weight 1): registry-ingested
+  // trials and other thin records still get vectors and are still searched, but a wave of them naming one cancer no
+  // longer flattens the weight of that cancer's words for every curated record (measured 24 Sept 2026: 284 pancreatic
+  // registry trials took Ask's extractive recall from 0.413 to 0.408 when they counted in the vocabulary).
   const df = new Map<string, number>();
-  for (const m of tfs) for (const t of m.keys()) df.set(t, (df.get(t) ?? 0) + 1);
-  const vocab = [...df.entries()].filter(([, n]) => n >= minDf).map(([t]) => t).sort();
+  const raw = new Map<string, number>();
+  tfs.forEach((m, i) => { const full = (docs[i].weight ?? 1) >= 1; for (const t of m.keys()) { raw.set(t, (raw.get(t) ?? 0) + 1); if (full) df.set(t, (df.get(t) ?? 0) + 1); } });
+  const vocab = [...raw.entries()].filter(([, n]) => n >= minDf).map(([t]) => t).sort();
   const vocabIndex = new Map(vocab.map((t, i) => [t, i]));
-  const N = docs.length;
+  const N = docs.filter((d) => (d.weight ?? 1) >= 1).length;
   const idf = new Float32Array(vocab.map((t) => Math.log((N + 1) / ((df.get(t) ?? 0) + 1)) + 1));
   const out: SemanticIndex["docs"] = tfs.map((m) => {
     const feats: Array<[number, number]> = [];

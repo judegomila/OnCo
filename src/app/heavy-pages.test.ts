@@ -125,7 +125,9 @@ describe("heavy pages page their sections", () => {
     // classes for the section furniture brought it under 600 KB; the markup now grows with the number of cancers
     // that have explained trials (one section each) and, through the noscript lists, slowly with the trials' names.
     // 603 KB after the registry outcomes pass of 24 Sept 2026 (130 more trials with posted results, six new sections).
-    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(640 * KB);
+    // 653 KB after the pancreatic deep dive of 24 Sept 2026 (32 hand-written trials with outcomes across the pancreatic
+    // stage and biomarker sections, plus the UK, living and evidence layers); budget raised from 640 to 680 KB.
+    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(680 * KB);
   });
 
   it("idea rankings renders the first page of every view plus the Show more sentinel", () => {

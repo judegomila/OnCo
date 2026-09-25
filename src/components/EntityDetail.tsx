@@ -91,6 +91,7 @@ import { ChangesPreview, FollowLine } from "./CancerChanges";
 import { changesForCancer, splitUpcoming } from "@/lib/cancer-changes";
 import { TargetSchematic } from "./TargetSchematic";
 import { Tip } from "./Tip";
+import { IntentLink } from "./IntentLink";
 import { TargetExplainer } from "./TargetExplainer";
 import { CoverageUsCard } from "./CoverageUs";
 import { CoverageUkCard } from "./CoverageUk";
@@ -290,7 +291,7 @@ function QuickLinks({ e }: { e: Entity }) {
       {nonEmpty.map(([label, ids]) => (
         <div key={label}>
           <div className="kicker mb-1"><TL text={label} /></div>
-          <ul className="space-y-0.5">{ids.map((id) => { const x = g.get(id); return x ? <li key={id}><Link className="hover:underline" href={routeFor(x)}>{x.name}</Link></li> : null; })}</ul>
+          <ul className="space-y-0.5">{ids.map((id) => { const x = g.get(id); return x ? <li key={id}><IntentLink className="hover:underline" href={routeFor(x)}>{x.name}</IntentLink></li> : null; })}</ul>
         </div>
       ))}
     </div>

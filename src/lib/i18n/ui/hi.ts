@@ -23,6 +23,7 @@ export const hi: UiDict = {
   download: "डाउनलोड",
   breadcrumb: "पथ",
   sections: "अनुभाग",
+  loading: "लोड हो रहा है",
   "sections.of": "{name} के अनुभाग",
   primaryNav: "मुख्य",
 

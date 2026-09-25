@@ -33,7 +33,7 @@ function CiBadge() {
   return (
     <a href={`${REPO}/actions/workflows/ci.yml`} rel="noopener" className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm">
       {/* eslint-disable-next-line @next/next/no-img-element -- live GitHub Actions badge, not an asset */}
-      <img src={`${REPO}/actions/workflows/ci.yml/badge.svg`} alt="CI status" height={20} />
+      <img src={`${REPO}/actions/workflows/ci.yml/badge.svg`} alt="CI status" width={90} height={20} loading="lazy" decoding="async" />
       <span>CI</span>
     </a>
   );

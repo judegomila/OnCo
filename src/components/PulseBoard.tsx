@@ -26,7 +26,7 @@ function SourceLogo({ s, size = 24 }: { s: PulseSource; size?: number }) {
     <span className="inline-flex shrink-0 items-center justify-center rounded-md border border-border bg-white overflow-hidden" style={{ width: size, height: size }} aria-hidden>
       {s.logo ? (
         // eslint-disable-next-line @next/next/no-img-element -- favicon / self-hosted logo
-        <img src={s.logo} alt="" className="h-[70%] w-[70%] object-contain" loading="lazy" referrerPolicy="no-referrer" />
+        <img src={s.logo} alt="" width={size} height={size} className="h-[70%] w-[70%] object-contain" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
       ) : <span className="text-[9px] font-semibold text-zinc-500">{initials}</span>}
     </span>
   );

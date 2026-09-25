@@ -23,6 +23,7 @@ export const ar: UiDict = {
   download: "تنزيل",
   breadcrumb: "مسار التنقل",
   sections: "الأقسام",
+  loading: "جارٍ التحميل",
   "sections.of": "أقسام {name}",
   primaryNav: "الرئيسية",
 

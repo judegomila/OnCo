@@ -23,6 +23,7 @@ export const fr: UiDict = {
   download: "Télécharger",
   breadcrumb: "Fil d'Ariane",
   sections: "Sections",
+  loading: "Chargement",
   "sections.of": "Sections de {name}",
   primaryNav: "Principale",
 

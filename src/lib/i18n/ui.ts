@@ -40,6 +40,7 @@ export const EN = {
   download: "Download",
   breadcrumb: "Breadcrumb",
   sections: "Sections",
+  loading: "Loading",
   "sections.of": "{name} sections",
   primaryNav: "Primary",
 

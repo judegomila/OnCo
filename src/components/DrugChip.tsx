@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { IntentLink } from "./IntentLink";
 import { MoleculeThumb, hasMolecule } from "./MoleculeThumb";
 
 /**
@@ -13,7 +13,7 @@ export function DrugChip({ id, name, route, className = "", tldr }: { id: string
   const has = hasMolecule(id);
   return (
     <span className="relative inline-block max-w-full" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)} onFocus={() => setOpen(true)} onBlur={() => setOpen(false)}>
-      <Link href={route} translate="no" className={`chip border notranslate hover:brightness-95 ${className}`}>{has && <span aria-hidden className="text-[9px] opacity-70">⟳</span>}{name}</Link>
+      <IntentLink href={route} translate="no" className={`chip border notranslate hover:brightness-95 ${className}`}>{has && <span aria-hidden className="text-[9px] opacity-70">⟳</span>}{name}</IntentLink>
       {open && has && (
         <span className="absolute left-0 top-full z-40 mt-1 w-56 card shadow-xl overflow-hidden pointer-events-none">
           <MoleculeThumb drugId={id} className="h-32" />

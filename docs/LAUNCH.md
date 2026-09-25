@@ -70,6 +70,15 @@ change.
 - [x] Checkpoint families map (/checkpoints/), target specificity and distribution (/targets/specificity/), ivermectin evidence page (/drugs/ivermectin/): chains 120 to 122
 - [ ] Gallbladder gaps only the owner or time can close: NDRS pages block automated reading (England stage split, 2023 counts); Public Health Scotland publishes no C23 site; five GLHs publish no turnaround; KEYNOTE-966 gallbladder subgroup, ACTICCA-1, GAIN and POLCAGB results not yet published
 
+## Owner asks and decisions of 25 Sept 2026
+- [x] Decisions made without waiting: wave 4 taxonomy rule (docs/CANCER-PAGES.md), supportive care flag, cooperative-group company type, modality lens, front navigation graph, Cancersim methods terms as a "Methods and models" category, ship chain without a local build (verified alias instead)
+- [x] TNBC as deep as gallbladder: six facets merged (core, treatments and 235 trials, UK and NHS page, molecular landscape, evidence and roadmap, living with it and the after-chemotherapy aid): chains 124 and 125; review pass running
+- [x] Information architecture: cancer hubs with section sub-pages from a section registry (docs/INFORMATION-ARCHITECTURE.md); TNBC hub 1.31 MB to 642 KB on the wire, NSCLC 2.3 MB to 540 KB: chain 125
+- [x] Perceived speed: route progress bar, skeletons, edge caching with stale-while-revalidate, lazy images, hover prefetch, time-to-interactive ceilings: chain 125
+- [x] Ask OnCo recall repaired at the ranking, 0.329 to 0.416, floors table that may only go up: chain 125; wave 4 pushed it to 0.403 and a subtype rule is in progress
+- [ ] Wave 4 (99 entity pages) and roadmap paging: merged, ship with chain 126 once recall is green
+- [ ] One home for cooperative groups (IMPROVEMENTS row 251); translations of the new records need the model key
+
 ## Owner asks not yet started
 - [ ] Health data: see docs/HEALTH-DATA-COMPLIANCE.md; decisions listed there (HIPAA does not apply today; stay browser-only, fix explicit consent for cancer type and gate analytics, plan encrypted sync next)
 - [x] Weekly maintenance and monthly identifiers now run in .github/workflows/maintenance.yml (owner approved 22 Sept 2026); bot pushes deploy on their own through the ignoreCommand test in vercel.json.

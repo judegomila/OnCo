@@ -11,6 +11,7 @@ import { gardenSeed } from "@/lib/garden-seed";
 import { KindName, StatusName } from "./T";
 import { GroupText } from "./NavText";
 import { TldrText } from "./TldrText";
+import { IntentLink } from "./IntentLink";
 import { EN_TEXT, nameAttrs } from "@/lib/translate";
 
 export function KindChip({ kind }: { kind: Kind }) {
@@ -25,22 +26,22 @@ export function StatusChip({ status }: { status?: string }) {
 /** A record's name as a link. Proper-noun kinds (drugs, genes, companies, trials, people) carry translate="no"; see src/lib/translate.ts. */
 export function EntityLink({ e, className = "" }: { e: Entity; className?: string }) {
   return (
-    <Link href={routeFor(e)} {...nameAttrs(e.kind, `underline decoration-foreground/20 underline-offset-[3px] hover:decoration-foreground ${className}`)}>
+    <IntentLink href={routeFor(e)} {...nameAttrs(e.kind, `underline decoration-foreground/20 underline-offset-[3px] hover:decoration-foreground ${className}`)}>
       {e.name}
-    </Link>
+    </IntentLink>
   );
 }
 
 export function EntityCard({ e, compact = false }: { e: Entity; compact?: boolean }) {
   return (
-    <Link href={routeFor(e)} className="card block p-4">
+    <IntentLink href={routeFor(e)} className="card block p-4">
       <div className="flex items-center gap-2 mb-1.5">
         <KindChip kind={e.kind} />
         <StatusChip status={e.status} />
       </div>
       <div {...nameAttrs(e.kind, "font-semibold leading-snug text-balance")}>{e.name}</div>
       {!compact && <p className="text-sm text-muted mt-1.5 line-clamp-3"><TldrText id={e.id} tldr={e.tldr} simple={e.simple} /></p>}
-    </Link>
+    </IntentLink>
   );
 }
 
@@ -58,11 +59,11 @@ export function ChipList({ items, kind, max, moreHref }: { items: Entity[]; kind
       {shown.map((e) => e.kind === "drug" ? (
         <DrugChip key={e.id} id={e.id} name={e.name} route={routeFor(e)} tldr={e.tldr} className={KIND_COLOR[kind ?? e.kind]} />
       ) : (
-        <Link key={e.id} href={routeFor(e)} {...nameAttrs(e.kind, `chip border transition-[filter] hover:brightness-95 dark:hover:brightness-125 ${KIND_COLOR[kind ?? e.kind]}`)}>
+        <IntentLink key={e.id} href={routeFor(e)} {...nameAttrs(e.kind, `chip border transition-[filter] hover:brightness-95 dark:hover:brightness-125 ${KIND_COLOR[kind ?? e.kind]}`)}>
           {e.name}
-        </Link>
+        </IntentLink>
       ))}
-      {rest > 0 && <Link href={moreHref ?? `/${KIND_META[kind ?? items[0].kind].route}/`} className="chip border border-border bg-card hover:bg-foreground/5" data-more>and {rest} more →</Link>}
+      {rest > 0 && <IntentLink href={moreHref ?? `/${KIND_META[kind ?? items[0].kind].route}/`} className="chip border border-border bg-card hover:bg-foreground/5" data-more>and {rest} more →</IntentLink>}
     </div>
   );
 }

@@ -23,6 +23,7 @@ export const ja: UiDict = {
   download: "ダウンロード",
   breadcrumb: "パンくずリスト",
   sections: "セクション",
+  loading: "読み込み中",
   "sections.of": "{name} のセクション",
   primaryNav: "メインナビゲーション",
 

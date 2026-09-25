@@ -534,12 +534,34 @@ html[data-motion~="low"] .gx-node, html[data-motion~="low"] .gx-bubble, html[dat
 .skip-link { position: absolute; left: 0.75rem; top: -3rem; z-index: 200; padding: 0.5rem 0.75rem; border-radius: 0.5rem; background: var(--accent-solid); color: var(--accent-fg); font-weight: 600; transition: top 120ms; }
 .skip-link:focus { top: 0.75rem; }
 
+/* Navigation progress bar (src/components/NavProgress.tsx): a 3 px accent line across the top of the viewport while a
+   client-side navigation's payload is read. It creeps to 92% over twelve seconds (a 700 KB record payload on a slow line),
+   snaps to full and fades when the route commits. Appears after 120 ms so an instant, prefetched navigation shows nothing. */
+.nav-progress { position: fixed; top: 0; inset-inline-start: 0; width: 100%; height: 3px; z-index: 60; pointer-events: none; background: var(--accent-solid); transform-origin: 0 50%; transform: scaleX(0); opacity: 0; }
+[dir="rtl"] .nav-progress { transform-origin: 100% 50%; }
+.nav-progress[data-state="running"] { animation: nav-progress-run 12s cubic-bezier(0.1, 0.6, 0.3, 1) forwards, nav-progress-in 200ms ease 120ms both; }
+.nav-progress[data-state="done"] { transform: scaleX(1); opacity: 0; transition: transform 150ms ease-out, opacity 300ms ease 150ms; }
+@keyframes nav-progress-run { from { transform: scaleX(0); } 12% { transform: scaleX(0.3); } 45% { transform: scaleX(0.66); } to { transform: scaleX(0.92); } }
+@keyframes nav-progress-in { from { opacity: 0; } to { opacity: 1; } }
+/* With reduced motion the bar does not creep: a still line while the route is in flight, gone when it commits. */
+html[data-motion~="reduced"] .nav-progress[data-state="running"] { animation: nav-progress-in 200ms ease 120ms both; transform: scaleX(1); opacity: 0.7; }
+
+/* Loading skeletons (src/components/Skeletons.tsx, mounted by the loading.tsx files): boxes at the sizes of the content
+   they stand in for, with a slow pulse that reduced motion turns off. */
+/* Unlayered, so it wins over the width and height utilities' layer only for what it sets: never display, which the utilities choose (block bars, inline pills). */
+.skel { border-radius: 0.375rem; background: color-mix(in srgb, var(--foreground) 7%, var(--surface)); animation: skel-pulse 1.6s ease-in-out infinite; }
+.skeleton .tabstrip > .tab { pointer-events: none; }
+@keyframes skel-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+html[data-motion~="reduced"] .skel { animation: none; }
+
 /* Reduced motion: no transitions, no animation, instant scroll. */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
   a.card:hover, .card-link:hover { transform: none; }
   .garden-sway { animation: none !important; }
   .mech-pulse { display: none; }
+  .nav-progress[data-state="running"] { animation: none !important; transform: scaleX(1); opacity: 0.7; }
+  .skel { animation: none !important; }
 }
 
 /* ------------------------------------------------------------------------------------------------

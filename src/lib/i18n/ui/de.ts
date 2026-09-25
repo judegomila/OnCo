@@ -23,6 +23,7 @@ export const de: UiDict = {
   download: "Herunterladen",
   breadcrumb: "Navigationspfad",
   sections: "Abschnitte",
+  loading: "Wird geladen",
   "sections.of": "Abschnitte zu {name}",
   primaryNav: "Hauptnavigation",
 

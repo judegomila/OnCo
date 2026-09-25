@@ -23,6 +23,7 @@ export const zh: UiDict = {
   download: "下载",
   breadcrumb: "面包屑导航",
   sections: "章节",
+  loading: "加载中",
   "sections.of": "{name} 的章节",
   primaryNav: "主导航",
 

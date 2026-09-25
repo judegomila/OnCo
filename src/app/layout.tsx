@@ -18,9 +18,13 @@ import { GardenDefs } from "@/components/Garden";
 import { MotionGovernor } from "@/components/MotionGovernor";
 import { ChipTitles } from "@/components/ChipTitles";
 import { AnalyticsConsentBar } from "@/components/AnalyticsConsent";
+import { NavProgress } from "@/components/NavProgress";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+// Above the fold every page sets in Geist Sans (preloaded, display swap, the next/font defaults); the mono face is for
+// identifiers and years further down, so it is not preloaded: on a slow line that was a second woff2 fetched before the
+// body, and swap shows the fallback until it arrives anyway.
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"], preload: false });
 
 /**
  * Site-wide defaults. Every page sets its own title, description, canonical URL and social copies via `pageMeta`
@@ -63,6 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LayerScript />
         <GardenDefs />
         <SkipLink />
+        <NavProgress />
         <SiteHeader />
         <LangStrip />
         <CommandPalette />

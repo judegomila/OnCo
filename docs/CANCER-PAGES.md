@@ -127,3 +127,54 @@ and the molecular subsets decide the second. The decisions, with the detail in t
 7. **Pancoast (superior sulcus) tumour is a term, not a record.** It is a location and a presentation, not a WHO entity:
    an ordinary non-small-cell lung cancer at the apex of the lung, named for what it invades. The same reasoning keeps
    "combined small-cell carcinoma" a string on the small-cell page rather than a page of its own.
+
+## The prostate family (decided 25 September 2026, during the prostate deep spike)
+
+Prostate is the family where the most classifications are in daily use at once, and unlike lung's four they do not
+describe the same axis. A man handed a pathology report in Britain in 2026 is holding five separate classifications:
+the histological type (WHO Classification of Tumours, 5th edition, 2022), the grade (Gleason score and the ISUP/WHO
+grade groups on top of it), the TNM stage, the risk band (the Cambridge Prognostic Groups here, NCCN's six in the
+United States) and the disease state (hormone-sensitive or castration-resistant, metastatic or not). They are
+orthogonal: one man is acinar adenocarcinoma, grade group 3, cT2b, Cambridge Prognostic Group 3 and hormone-sensitive
+all at once. Only the first is a tumour type, so only the first generates cancer records. The detail is in the header
+of `src/data/spikes/prostate-core.ts`.
+
+1. **`prostate` is the organ family page and also the acinar adenocarcinoma page.** Prostatic acinar adenocarcinoma is
+   more than 95 percent of prostate cancer (RCPath G084, October 2024), so a separate record would be a near-duplicate
+   of the family page. The name is carried in the family page's `aka` and in the glossary term
+   `prostate-acinar-adenocarcinoma`, so a reader who types it from a report lands in the right place. This is the
+   opposite call from lung, where `lung-cancer` splits into `nsclc` and `sclc` before any histology, because in lung
+   that split changes the first treatment decision and in prostate it does not: the first decision is made on grade,
+   stage and PSA.
+2. **The histology tier holds two records.** `prostate-ductal-adenocarcinoma` is **created**: the fifth edition
+   considered folding ductal adenocarcinoma into acinar adenocarcinoma as a subtype and kept it a separate type
+   because of its distinctive behaviour and metastatic pattern. `prostate-nepc` already existed and is **not** one of
+   the four state records: its subject, treatment-related neuroendocrine prostatic carcinoma, has its own section in
+   the WHO fifth edition prostate chapter, so it is a genuine entity and its aliases are widened to the WHO name.
+   Adenoid cystic (basal cell) carcinoma, squamous and adenosquamous carcinoma, PIN-like carcinoma (moved in the fifth
+   edition from ductal to a subtype of acinar, graded Gleason 6 only) and the prostatic stromal tumours are rare
+   enough that a page would be thinner than the parent's section on them, so they stay strings and glossary entries.
+   Urothelial carcinoma of the prostatic urethra is in the urinary tract chapter of the same book, not the prostate
+   one, so it is not a prostate cancer record here.
+3. **Grade generates no records, and a UK report carries both scales.** The Royal College of Pathologists dataset in
+   force (G084, version 4, October 2024) sets out the grade groups to be used "in tangent with the Gleason score" and
+   its proforma asks for each separately, so the corpus's `gleason-grade-group` term, which says both, is correct. What
+   it was missing are the two core items the 2024 revision added and which change management: the percentage of
+   Gleason pattern 4 in core biopsies, and the presence of intraductal or invasive cribriform carcinoma. Both are now
+   terms. "Gleason 6 prostate cancer" is a grade, not a disease.
+4. **Risk bands are settings, and Britain and America use different ones.** NICE NG131 recommendation 1.2.15 asks
+   urological cancer MDTs to assign every newly diagnosed localised or locally advanced case a Cambridge Prognostic
+   Group from 1 to 5, and the whole of NG131's treatment section is written in those numbers (1.3.8 to 1.3.12). Under
+   rule 2 a risk band is never a record; the three localised records in `src/data/prostate-subtypes.ts` predate the
+   rule, are kept for their URLs, are not added to, and are instead **mapped**: CPG 1 to `prostate-low-risk`, CPG 2 and
+   3 to `prostate-intermediate-risk`, CPG 4 and 5 to `prostate-high-risk`, through aliases and a note on each so that a
+   man told "CPG 3" can find his page. The groups gain a glossary term and a staging table (`prostate-cpg`) beside the
+   NCCN one already in `src/data/staging.ts`.
+5. **Stage and disease state are settings.** `prostate-mhspc`, `prostate-nmcrpc`, `prostate-mcrpc` and `prostate-bcr`
+   are kept for their URLs and not added to; no new state record and no molecular-subset record is created. The
+   staging facts they hang off are written on the family page instead: UK pathology reports stage against **UICC TNM
+   8**, which the RCPath dataset names and reprints; the **9th edition**, published 3 July 2025 and recommended from
+   1 January 2026, leaves the prostate T, N and M categories unchanged, clarifies the clinical stage grouping (and
+   states there is no pathological stage I) and introduces imaging suffixes, cT2b(mr) and N1(PET), because prostate is
+   "probably the malignancy most affected by stage migration"; and **NICE NG131 names no TNM edition at all**, using
+   bare T1 to T4 categories that are identical in both editions, so the guideline is not stranded by the change.

@@ -50,7 +50,7 @@ const LINKS = {
   curettage: { label: "Curettage and cautery", href: "/terms/curettage-and-cautery/" },
   imiquimod: { label: "Imiquimod cream", href: "/drugs/imiquimod/" },
   fluorouracil: { label: "Fluorouracil cream", href: "/drugs/fluorouracil/" },
-  pdt: { label: "Photodynamic therapy (aminolevulinic acid)", href: "/drugs/aminolevulinic-acid/" },
+  pdt: { label: "Photodynamic therapy (methyl aminolevulinate)", href: "/drugs/methyl-aminolevulinate/" },
   scar: { label: "The scar on the face afterwards", href: "/terms/facial-scar-after-skin-cancer/" },
   reconstruction: { label: "Skin grafts and flaps", href: "/terms/skin-graft-and-flap-reconstruction/" },
   second: { label: "The next skin cancer", href: "/terms/second-primary-skin-cancer/" },
@@ -287,7 +287,7 @@ function decide(a: Answers): string[] {
 export const bccLowRiskTreatmentTool: DecisionTool = {
   id: "bcc-low-risk-treatment",
   cancerId: "basal-cell-carcinoma",
-  entityIds: ["basal-cell-carcinoma", "skin-cancer", "mohs-surgery", "wide-local-excision", "curettage-and-cautery", "imiquimod", "fluorouracil", "aminolevulinic-acid", "second-primary-skin-cancer", "skin-cancer-in-transplant-recipients", "facial-scar-after-skin-cancer"],
+  entityIds: ["basal-cell-carcinoma", "skin-cancer", "mohs-surgery", "wide-local-excision", "curettage-and-cautery", "imiquimod", "fluorouracil", "methyl-aminolevulinate", "aminolevulinic-acid", "second-primary-skin-cancer", "skin-cancer-in-transplant-recipients", "facial-scar-after-skin-cancer"],
   title: "A basal cell carcinoma: surgery, curettage, freezing, a cream, or photodynamic therapy",
   short: "Choosing how a basal cell carcinoma is treated",
   lede: "An educational aid, not advice for your case. For a superficial or low-risk basal cell carcinoma there is a genuine choice, and it is usually summarised in a way that hides what is being traded. Answer four questions and this sets out, for your situation, what the randomised trials found about cure rate, about how the result looks, and about what each treatment does to your skin while it works, quoted word for word with the study it came from. It gives no score and makes no prediction about you.",

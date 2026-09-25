@@ -1,0 +1,101 @@
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_48161cf0cba40d 26
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_48161cf0cba40d 43
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_48161cf0cba40d 26
+src/app/cancers/[id]/loading.tsx
+  s_0beac9cb5d78fd::t_da8f26ad6c8af8 1-6
+src/components/CancerPipeline.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 7,43-44
+src/app/globals.css
+  s_0beac9cb5d78fd::t_48161cf0cba40d 537-550,553-556,563-564
+  s_0beac9cb5d78fd::t_7c938fe50db7eb 551-552
+src/components/IntentLink.tsx
+  s_0beac9cb5d78fd::t_a0f1d166fff1b4 1-28
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_48161cf0cba40d 26
+vercel.json
+  s_0beac9cb5d78fd::t_48161cf0cba40d 4-11
+src/lib/nav-progress.test.ts
+  s_0beac9cb5d78fd::t_2551e15edce4ff 1-43
+src/app/[kind]/[id]/loading.tsx
+  s_0beac9cb5d78fd::t_5f96c44c9f716b 1-10
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 21,24-27,70
+scripts/perf-tti.ts
+  s_0beac9cb5d78fd::t_81fada43ac5a48 1-85
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_48161cf0cba40d 26
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_48161cf0cba40d 26
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_48161cf0cba40d 26
+src/app/status/page.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 36
+src/app/[kind]/loading.tsx
+  s_0beac9cb5d78fd::t_a7ee86dc9e1f91 2,4,6
+  s_0beac9cb5d78fd::t_5cea8d72f3be96 1,3,5
+src/components/Skeletons.tsx
+  s_0beac9cb5d78fd::t_5cea8d72f3be96 4,7,111-127
+  s_0beac9cb5d78fd::t_7c938fe50db7eb 55,57,78,84,103,106
+  s_0beac9cb5d78fd::t_4faeba932ffe74 1-2,5,8-33,42,44-54,56,58-77,79-83,85-102,104-105,107-110,128-141
+  s_0beac9cb5d78fd::t_c4717e4a3c23f8 40
+  s_0beac9cb5d78fd::t_c456eae9467819 3,6,34-39,41,43
+src/components/PulseBoard.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 29
+src/app/record-fold.test.ts
+  s_0beac9cb5d78fd::t_5cea8d72f3be96 13-14,101-110
+  s_0beac9cb5d78fd::t_8f85089d8cb105 1,55-56,58,79-81
+  s_0beac9cb5d78fd::t_edb107eafcfde5 2-12,15-54,57,59-78,82-100,111-117
+src/app/loading.tsx
+  s_0beac9cb5d78fd::t_ab8e23281d38a6 2-3,7-9,11
+  s_0beac9cb5d78fd::t_5cea8d72f3be96 1,4-6,10
+src/components/NavProgress.tsx
+  s_0beac9cb5d78fd::t_d203bb49a066bb 1-4,6-25,27-45,47,49-67
+  s_0beac9cb5d78fd::t_c456eae9467819 5,46,48
+  s_0beac9cb5d78fd::t_34d3608d97bf93 26
+src/components/ui.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 14,29,37,62,66
+  s_0beac9cb5d78fd::t_81962bfa96c928 31,44,64
+src/components/DrugCard.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 1,19
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_48161cf0cba40d 26
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_8865643719b75b 415-430
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_48161cf0cba40d 26
+src/lib/nav-progress.ts
+  s_0beac9cb5d78fd::t_29ce8f063ff4ab 1-29,38-39
+  s_0beac9cb5d78fd::t_c456eae9467819 30-37
+src/components/DrugChip.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 4
+  s_0beac9cb5d78fd::t_056dd2485c5780 16
+src/components/Neighbours.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 2,60,62
+src/components/RowAvatar.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 27
+package.json
+  s_0beac9cb5d78fd::t_48161cf0cba40d 61
+src/lib/vercel-headers.test.ts
+  s_0beac9cb5d78fd::t_00825c22ad4af0 1-61
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_48161cf0cba40d 94,294
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1baf6098a23f8b296483f86507f1bc3d9a988209",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

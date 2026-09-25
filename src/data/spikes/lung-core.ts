@@ -88,7 +88,8 @@ import type { Spike } from "./index";
  *   terms                        targeted-lung-health-check, pack-year, never-smoker-lung-cancer, ebus-tbna,
  *                                tnm-9-lung-cancer, resectability-lung-cancer, pneumonitis, pulmonary-nodule,
  *                                lung-rads, radon, asbestos, smoking-cessation, haemoptysis, pancoast-tumour,
- *                                spread-through-air-spaces, ttf1-p40, mediastinal-lymph-node-stations
+ *                                spread-through-air-spaces, ttf1-p40, mediastinal-lymph-node-stations,
+ *                                malignant-pleural-effusion, superior-vena-cava-obstruction, sublobar-resection
  *   supplements                  nhs-targeted-lung-health-check, low-dose-ct-screening, bronchoscopy, lung-net,
  *                                mesothelioma, pleuropulmonary-blastoma, lung-adenocarcinoma,
  *                                lung-squamous-cell-carcinoma
@@ -146,6 +147,10 @@ const SRC = {
   lcinsUk2023: doi("BJC Reports 2023: lung cancer in never smokers, development of a UK national research strategy (127 surveys, 190 attendees)", "10.1038/s44276-023-00006-w"),
   olive2026: doi("BMJ Open Respir Res 2026: observational study of predictors and outcomes of lung cancer in never-smokers in the UK (OLIVE), study protocol", "10.1136/bmjresp-2025-003966"),
   millionWomen2016: doi("Pirie, Int J Cancer 2016: lung cancer in never smokers in the UK Million Women Study (634,039 never smokers, 1,469 lung cancers over 14 years)", "10.1002/ijc.30084"),
+  // Palliative and surgical extent (terms asked for by the treatment and living-with layers)
+  ng122pall: nice("NICE NG122: lung cancer, palliative interventions and supportive and palliative care (1.13 to 1.18)", "ng122/chapter/Palliative-interventions-and-supportive-and-palliative-care"),
+  jcog0802: doi("Saji, Lancet 2022: JCOG0802/WJOG4607L, segmentectomy versus lobectomy in small-sized peripheral non-small-cell lung cancer (1,106 patients)", "10.1016/s0140-6736(21)02333-3"),
+  calgb140503: doi("Altorki, N Engl J Med 2023: CALGB 140503, lobar or sublobar resection for peripheral stage IA non-small-cell lung cancer (697 patients)", "10.1056/nejmoa2212083"),
   lcinsBurden2026: doi("Health Sci Rep 2026: lung cancer in never smokers, an underappreciated public health burden", "10.1002/hsr2.73080"),
 };
 
@@ -228,6 +233,10 @@ const lungParentPatch: Spike["patch"] = {
     ],
     sources: [],
   },
+  prognosis: {
+    text: "Population averages for the whole family, not a personal prognosis, and they lag the treatments now in use. In the United States 29.5 percent of people diagnosed with lung and bronchus cancer in 2016 to 2022 were alive five years later relative to people of the same age without the disease; by stage that is 65.5 percent for localised disease, which is 24 percent of cases, 38.2 percent for regional (21 percent), 10.5 percent for distant (51 percent) and 17.5 percent for unstaged (4 percent) (SEER). In the UK 11.1 percent of people are predicted to survive ten years or more, against 3.3 percent in the 1970s, and 18.1 percent of people diagnosed in England survive five years, rising to 43.5 percent among those who have already survived a year. Survival is higher in women than men and falls steeply with age, from 32.7 percent of women and 22.2 percent of men diagnosed at 15 to 44 to 9.2 percent of women and 5.2 percent of men diagnosed at 75 to 99, and it tracks deprivation: 20.1 percent at five years in the most deprived group in England against 27.6 percent in the least (Cancer Research UK). The averages differ sharply by type, which is why each type page carries its own.",
+    sources: [SRC.seer, SRC.crukSurv],
+  },
   standardOfCare: [
     { setting: "Referral when symptoms suggest lung cancer (UK)", approach: "Refer on the suspected cancer pathway for chest X-ray findings that suggest lung cancer, or for unexplained haemoptysis at 40 and over. Offer an urgent direct access chest X-ray at 40 and over for two or more of cough, fatigue, shortness of breath, chest pain, weight loss and appetite loss, or for one of them in anyone who has ever smoked. Consider one for persistent or recurrent chest infection, finger clubbing, supraclavicular or persistent cervical lymphadenopathy, chest signs consistent with lung cancer, or thrombocytosis. Mesothelioma has its own rules in the same section, with asbestos exposure lowering the threshold.", refs: ["haemoptysis", "ct"], guideline: { version: "NICE NG12: suspected cancer, recognition and referral (lung and pleural cancers 1.1.1 to 1.1.6)", url: "https://www.nice.org.uk/guidance/ng12" } },
     { setting: "Prevention and stopping smoking", approach: "Tobacco control and stopping smoking, which is the only lever that reaches the 72 percent of UK cases caused by smoking. NICE NG209 covers preventing uptake in people aged 24 and under and treating dependence in everyone aged 12 and over, and was updated in February 2025 to add cytisinicline. Screening services carry smoking cessation with them, as the UK National Screening Committee required. Radon can be measured in a home and reduced; workplace exposures are regulated.", refs: ["smoking-cessation", "radon", "asbestos"], guideline: { version: "NICE NG209: tobacco, preventing uptake, promoting quitting and treating dependence", url: "https://www.nice.org.uk/guidance/ng209" } },
@@ -249,7 +258,7 @@ const lungParentPatch: Spike["patch"] = {
     "Overdiagnosis has never been measured well enough to quote. Estimates across the trials range from 0 to 67 percent (US Preventive Services Task Force evidence report, 2021), which is the widest range for any screened cancer, and the number decides how much of the screening benefit is real.",
     "Deprivation drives both the disease and the outcome. UK lung cancer mortality is 102 percent higher in women and 93 percent higher in men in the most deprived fifth than in the least, around 13,400 UK deaths a year are linked with deprivation, and five-year survival in England is 20.1 percent in the most deprived group against 27.6 percent in the least. Screening programmes sited in deprived areas narrow the first gap and may widen the second if uptake does not follow.",
   ],
-  terms: ["targeted-lung-health-check", "pack-year", "never-smoker-lung-cancer", "tnm-9-lung-cancer", "radon", "asbestos", "smoking-cessation", "haemoptysis", "pulmonary-nodule", "lung-rads", "pancoast-tumour", "ttf1-p40", "tnm-staging", "performance-status"],
+  terms: ["targeted-lung-health-check", "pack-year", "never-smoker-lung-cancer", "tnm-9-lung-cancer", "radon", "asbestos", "smoking-cessation", "haemoptysis", "pulmonary-nodule", "lung-rads", "pancoast-tumour", "ttf1-p40", "tnm-staging", "performance-status", "malignant-pleural-effusion", "superior-vena-cava-obstruction"],
   technologies: ["low-dose-ct-screening", "nhs-targeted-lung-health-check", "ct", "pet", "histopathology-ihc"],
   related: ["nsclc", "sclc", "lung-lcnec", "lung-net", "mesothelioma", "pleuropulmonary-blastoma", "lung-adenocarcinoma", "lung-squamous-cell-carcinoma"],
   links: [SRC.globocan, SRC.seer, SRC.crukMain, SRC.crukInc, SRC.crukMort, SRC.crukSurv, SRC.crukRisk, SRC.nhs, SRC.nhsSymptoms, SRC.nhsScreening, SRC.ng12, SRC.ng122, SRC.ng209, SRC.uknsc, SRC.govRollout, SRC.nlst2011, SRC.nelson2020, SRC.uspstf2021, SRC.uspstfReview, SRC.lcsp2026, SRC.tnm9intro, SRC.tnm9stages, SRC.who2021, SRC.histology2025, SRC.lcinsUk2023],
@@ -314,7 +323,7 @@ const nsclcPatch: Spike["patch"] = {
     "The staging change of January 2025 breaks every survival series that spans it. N2a and N2b patients were one group until 2024, several stage groups moved, and a cohort staged either side of the line cannot be pooled without restaging.",
     "NICE's diagnostic guideline is anchored two staging editions behind the clinic. NG122 states that its recommendations were developed with the 7th edition of the AJCC system while the ninth edition of TNM has been in force since January 2025, and the thresholds in the guideline (for example which stage triggers brain imaging) were fixed against the older groupings.",
   ],
-  terms: ["pack-year", "never-smoker-lung-cancer", "ebus-tbna", "tnm-9-lung-cancer", "resectability-lung-cancer", "pneumonitis", "pulmonary-nodule", "lung-rads", "radon", "asbestos", "smoking-cessation", "haemoptysis", "pancoast-tumour", "spread-through-air-spaces", "ttf1-p40", "mediastinal-lymph-node-stations", "targeted-lung-health-check", "oligometastatic", "performance-status", "resectability", "tnm-staging", "bronchoscopy"],
+  terms: ["pack-year", "never-smoker-lung-cancer", "ebus-tbna", "tnm-9-lung-cancer", "resectability-lung-cancer", "pneumonitis", "pulmonary-nodule", "lung-rads", "radon", "asbestos", "smoking-cessation", "haemoptysis", "pancoast-tumour", "spread-through-air-spaces", "ttf1-p40", "mediastinal-lymph-node-stations", "targeted-lung-health-check", "oligometastatic", "performance-status", "resectability", "tnm-staging", "bronchoscopy", "malignant-pleural-effusion", "superior-vena-cava-obstruction", "sublobar-resection"],
   technologies: ["pet", "histopathology-ihc"],
   related: ["lung-cancer", "lung-lcnec"],
   links: [SRC.globocan, SRC.seer, SRC.crukMain, SRC.crukInc, SRC.crukMort, SRC.crukSurv, SRC.crukRisk, SRC.nhs, SRC.nhsSymptoms, SRC.nhsScreening, SRC.ng12, SRC.ng122, SRC.ng209, SRC.uknsc, SRC.govRollout, SRC.nlst2011, SRC.nelson2020, SRC.uspstf2021, SRC.uspstfReview, SRC.lcsp2026, SRC.lcspQa2026, SRC.riskModels2021, SRC.riskThreshold2023, SRC.tnm9intro, SRC.tnm9stages, SRC.tnm9t, SRC.tnm9m, SRC.tnm9db, SRC.uicc9, SRC.who2021, SRC.histology2025, SRC.lcinsUk2023, SRC.olive2026, SRC.millionWomen2016, SRC.lcinsBurden2026],
@@ -340,7 +349,7 @@ const sclcPatch: Spike["patch"] = {
   parent: "lung-cancer",
   aka: ["Small cell lung carcinoma", "SCLC", "Oat cell carcinoma", "Small cell carcinoma of the lung"],
   related: ["lung-cancer", "lung-lcnec", "lung-net"],
-  terms: ["pack-year", "smoking-cessation", "tnm-9-lung-cancer", "ebus-tbna", "pancoast-tumour"],
+  terms: ["pack-year", "smoking-cessation", "tnm-9-lung-cancer", "ebus-tbna", "pancoast-tumour", "superior-vena-cava-obstruction", "malignant-pleural-effusion"],
 };
 
 // ======================= NEW CANCER RECORD =======================
@@ -523,6 +532,31 @@ export const lungCoreTerms: TermInput[] = [
     terms: ["ebus-tbna", "tnm-9-lung-cancer", "resectability-lung-cancer", "mediastinum", "tnm-staging"],
     technologies: ["pet", "ct", "bronchoscopy"],
     links: [SRC.tnm9stages, SRC.ng122, SRC.tnm9intro] }),
+
+  tm({ id: "malignant-pleural-effusion", name: "Malignant pleural effusion", category: "Clinical", wikipedia: W("Pleural_effusion"),
+    aka: ["pleural effusion in cancer", "malignant effusion", "fluid on the lung", "malignant pleural fluid", "recurrent pleural effusion"],
+    tldr: "Fluid collecting in the space between the lung and the chest wall because cancer has reached the lining. It makes people breathless, it comes back after it is drained, and the decision is not whether to drain it but how to stop it returning.",
+    summary: "Cancer on the pleural surface leaks fluid into the pleural space faster than the lymphatics can clear it; lung cancer, breast cancer and mesothelioma are the commonest causes. Fluid in that space is also an M1a descriptor in the TNM classification, so its presence usually places a lung cancer at stage IV whatever the size of the primary. Symptomatically it causes breathlessness, a dry cough and sometimes chest discomfort, and the fluid can be removed in minutes at the bedside with lasting relief. The problem is recurrence. NICE NG122 asks teams to perform pleural aspiration or drainage to relieve symptoms, and to offer talc pleurodesis to people who would get long-term benefit from repeated drainage: talc is instilled to stick the two pleural layers together so that no space is left for fluid to collect. An indwelling pleural catheter, drained at home, is the alternative where the lung will not re-expand or where a person prefers to avoid admission. The choice turns on how trapped the lung is, how long the person is expected to live and how much time in hospital the treatment costs them.",
+    cancers: ["lung-cancer", "nsclc", "sclc", "mesothelioma", "pleural-mesothelioma"],
+    terms: ["pleura", "pleurodesis", "pleural-effusion", "tnm-9-lung-cancer", "performance-status"],
+    links: [SRC.ng122pall, SRC.tnm9intro] }),
+
+  tm({ id: "superior-vena-cava-obstruction", name: "Superior vena cava obstruction", category: "Clinical", wikipedia: W("Superior_vena_cava_syndrome"),
+    aka: ["superior vena cava syndrome", "SVC obstruction", "SVCO", "SVC syndrome"],
+    tldr: "A tumour or clot blocks the large vein that returns blood from the head and arms to the heart, so the face, neck and arms swell and the veins on the chest stand out. It is frightening and looks urgent, but it is usually treatable and rarely an immediate emergency.",
+    summary: "The superior vena cava runs through a tight space in the right side of the chest surrounded by lymph nodes, so a mediastinal mass, most often a lung cancer or a lymphoma, can compress it; a clot around an indwelling line is the other common cause. Pressure builds behind the blockage and produces facial and arm swelling, distended neck and chest wall veins, headache that is worse on bending forward, and breathlessness. NICE NG122 treats it as a problem of the underlying cancer first: it asks teams to offer chemotherapy and radiotherapy based on the stage of disease and performance status, and to consider inserting a stent for immediate relief of severe symptoms or after earlier treatment has failed. The order matters, because chemosensitive tumours such as small-cell lung cancer and lymphoma often respond fast enough that the vein reopens without a stent, while a slow-growing or already-treated tumour is better served by the stent. Getting a tissue diagnosis before treatment is usually still possible and still worth doing.",
+    cancers: ["lung-cancer", "sclc", "nsclc", "dlbcl", "thymic-epithelial"],
+    terms: ["mediastinum", "performance-status", "mediastinal-lymph-node-stations", "pancoast-tumour"],
+    links: [SRC.ng122pall] }),
+
+  tm({ id: "sublobar-resection", name: "Sublobar resection (segmentectomy and wedge)", category: "Procedures", wikipedia: W("Lung_cancer_surgery"),
+    aka: ["sublobar resection", "segmentectomy versus lobectomy", "wedge resection", "limited resection", "lung-sparing resection", "anatomical segmentectomy"],
+    tldr: "Removing part of a lobe of the lung rather than the whole lobe. For small peripheral tumours with lymph nodes shown to be clear, two randomised trials found it as good as taking the whole lobe, and it leaves more lung behind.",
+    summary: "Lobectomy has been the standard operation for lung cancer since a randomised trial in 1995 found limited resection worse, and two modern trials overturned that for the smallest tumours. JCOG0802/WJOG4607L randomised 1,106 Japanese patients with clinical stage IA non-small-cell lung cancer 2 cm or smaller with a consolidation-to-tumour ratio above 0.5 to lobectomy or anatomical segmentectomy; at a median 7.3 years the 5-year overall survival was 94.3 percent after segmentectomy against 91.1 percent after lobectomy (hazard ratio 0.663, 95 percent confidence interval 0.474 to 0.927), which met both non-inferiority and superiority. CALGB 140503 randomised 697 American patients with clinically T1aN0 tumours of 2 cm or less, after the hilar and mediastinal nodes were confirmed negative during the operation, to sublobar or lobar resection; at a median 7 years disease-free survival was non-inferior (hazard ratio 1.01, 90 percent confidence interval 0.83 to 1.24), 5-year disease-free survival was 63.6 against 64.1 percent, 5-year overall survival 80.3 against 78.9 percent, and 2 percentage points more predicted forced expiratory volume was preserved at 6 months. The two conditions that make the result apply are the same in both trials: a small peripheral tumour, and lymph nodes shown to be clear, which is why systematic nodal staging is part of the operation rather than an optional extra. Spread through air spaces, which cannot be assessed before the specimen is examined, argues the other way.",
+    cancers: ["nsclc", "lung-cancer", "lung-adenocarcinoma", "lung-adenocarcinoma-in-situ-and-minimally-invasive"],
+    terms: ["lobectomy", "segmentectomy", "resectability-lung-cancer", "spread-through-air-spaces", "mediastinal-lymph-node-stations", "tnm-9-lung-cancer"],
+    technologies: ["minimally-invasive-surgery", "sbrt"],
+    links: [SRC.jcog0802, SRC.calgb140503, SRC.ng122] }),
 ];
 
 // ======================= SPIKES =======================

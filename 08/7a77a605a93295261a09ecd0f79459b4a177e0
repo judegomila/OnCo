@@ -1,0 +1,124 @@
+src/data/companies-makers-wave4.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 48,68,72,76,79-80,88,91,96,108,111,136,139,144,176,180,183,208,216,228,247,264,284,287,300,303
+src/data/essential-thrombocythaemia.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 79
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 142
+src/data/papers-ideas-wave6.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 18-20,23,25-27,29,32-36,38-39,41,43-44,50-59,61-69,71,75,77-89,92-96,98-101,103-105,107,109,114-116,119-124,127-138,140-141
+src/data/papers-people-wave6.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 21,36
+src/data/radiation-wave1.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 59
+src/data/papers-rare-wave.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 132
+src/data/drugs-pipeline-wave7.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 93
+src/data/institutions/us.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 60,137,193,207,219,298
+src/data/people/leaders-wave2.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 783,846,1279
+src/data/spikes/esophageal.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 122
+src/data/china.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 92,110,301
+src/data/investors.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 164
+src/data/spikes/pancreatic-treatment.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 59
+src/data/papers-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 553,2277,2286,2703,2843,3555,3564
+src/data/spikes/colorectal-registry-trials.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 46,58,76,136,768,840,918,1098,1783,1813,1843,1855,1873,1927,1969,2119,2435,2603,2609,2615,2711,3005,3149,3179,3305,3323,3353,3437,3533,3623,3713,3905,3911
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 244,286,294
+src/data/institutions/bodies.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 218
+src/data/foundation-models.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 79
+src/data/spikes/colorectal-treatment.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 67
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 250,263,272,284,318,829
+src/data/drugs-china-wave1.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 47,62
+src/data/pancreatic-subtypes.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 56,152
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 195
+src/data/spikes/pancreatic-registry-trials.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 110,182,200,254,260,344,398,404,422,566,638,662,674,710,734,801,819,825,849,903,951,957,963,987,1012,1018,1030,1060,1091,1103,1121,1151,1193,1199,1211,1283,1313,1361,1373,1379,1433,1475,1499,1541,1625,1661,1667,1691,1703
+src/data/spikes/gallbladder-treatment.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 139,147
+src/data/people/leaders-wave4.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 366,449,683,860,1052,1076,1214,1291
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 225,233,240
+src/data/journals-wave2.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 320
+src/data/institutions/centres-wave3.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 73,183,199
+src/data/ivermectin.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 346
+src/data/institutions/world.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 22,40,46,58,82,99,106,125,230
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 222,345,350,391,396,401,406,645,898
+src/data/tests.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 340
+src/data/spikes/cervical.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 138
+src/data/papers-trials-wave1.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 24,26,37,41,57,74,95,101,103,110,120,128,133,141-142,146,149,255,259,264,275,316,323,334,336,339
+src/data/papers-cited-wave7.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 137,139,165,173-174,187,200,231,234-236,239,244,272,321,323,326,351,379-380,393,401,409,417-420,442,460,477,503,511,517,519,527,533,536-537,551,568-571,574-576,582,584,600-601,603,618-620,642,649,696,698,744,746,752
+src/data/breast-subtypes.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 184
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 41,192,197,439
+src/data/spikes/head-and-neck.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 135
+src/data/cancers-wave4-colon-kidney-testis.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 103
+src/data/companies-cooperative-groups.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 86
+src/data/institutions/europe.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 267,477,1033
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 18,26,45,54,63,72,93,232,397,451,532,682,769,807,979,1070
+src/data/spikes/tnbc-registry-trials.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 97,133,157,163,187,265,277,289,373,385,541,559,679,727,757,763,775,805,871,889,913,949,1039,1063,1094,1112,1220,1250,1256
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 154
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 24
+src/data/colorectal-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 120
+scripts/backlink-fill.ts
+  s_0beac9cb5d78fd::t_7b9712ea31263a 15-22
+  s_0beac9cb5d78fd::t_fd1e6ddd2cae27 170-176,181-186
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 15,20,29,37,39,43,45,51,61,63,98-99,105,127,132,134,138,142
+src/data/complementary.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 276
+src/data/people/leaders-wave3.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 400,865
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_98b44a16c6fa04 25,126,398,412,429,470,487,774,1157
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "087a77a605a93295261a09ecd0f79459b4a177e0",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

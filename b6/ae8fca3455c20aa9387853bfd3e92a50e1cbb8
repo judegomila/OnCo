@@ -1,0 +1,55 @@
+src/lib/term-hover.tsx
+  s_0beac9cb5d78fd::t_625abed34b8680 12
+src/data/spikes/prostate-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 27-28,67,91,141
+src/data/spikes/prostate-evidence-papers-genomics.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 242
+src/lib/record-sections.test.ts
+  ai_agent 33
+src/data/spikes/prostate-evidence.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 91,124,128-129,131,137,141
+src/data/spikes/prostate-evidence-shared.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 25-28,36
+src/data/spikes/prostate-glossary.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 55
+src/data/spikes/prostate-uk.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 119,123,126,132,167,204,238,282-283,366,397,404,446,457,464,488,530,544,561,613,619,622,629-631,633
+src/data/spikes/prostate-treatment.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 3,25,70,80,97,101,233,267,282,294
+src/data/spikes/prostate-living.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 327,353-354,361,363-364
+src/data/spikes/prostate-molecular.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 70,72,74,78,80-82,91,95,101,114,248,264,825,1027,1029-1039,1099,1134,1141-1143
+src/data/spikes/prostate-treatment-shared.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 35-36,48-49
+src/data/decision-tools/prostate-localised.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 142
+src/data/spikes/prostate-core.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 247,309,427
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 208,304-306,329-330,389,392,394,424,426
+docs/PROSTATE-QA.md
+  s_0beac9cb5d78fd::t_625abed34b8680 1-268
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 287
+src/data/spikes/prostate-evidence-papers-screening.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 106,140
+src/data/spikes/prostate-treatment-trials-localised.ts
+  s_0beac9cb5d78fd::t_625abed34b8680 22-46,272
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b6ae8fca3455c20aa9387853bfd3e92a50e1cbb8",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

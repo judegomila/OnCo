@@ -836,7 +836,8 @@ export const cancers: CancerInput[] = [
     burden: "Most cancer deaths follow metastasis rather than growth of the original tumour; how often a cancer spreads, and where, depends on the primary site.",
     tldr: "Metastatic cancer means the original cancer has spread to other parts of the body, most often the bones, liver, lungs or brain. It keeps the name of where it started, is treated with therapies that reach the whole body, and can increasingly be controlled for years; with limited spread it is sometimes treated with the aim of cure.",
     summary: "Metastasis is the process by which cancer cells leave the original tumour, travel through blood or lymph and grow in another organ. A breast cancer that has spread to the liver is still breast cancer and is treated with breast cancer drugs, which is why this page points to the cancer-specific pages for treatment. What metastatic cancers share is the intent and the tools: systemic therapy (chemotherapy, targeted drugs, hormone therapy, immunotherapy) rather than surgery alone; radiotherapy and bone-strengthening drugs for bone metastases; radiosurgery or surgery for brain metastases; and early palliative care alongside treatment, which improves quality of life and in some studies survival. Two ideas have changed the outlook: many metastatic cancers are now chronic conditions controlled for years, and oligometastatic disease, spread limited to a few sites, is increasingly treated with stereotactic radiotherapy or surgery to every site with the aim of long remission, as the SABR-COMET trial suggested. Circulating tumour DNA is beginning to detect and monitor spread from a blood sample.",
-    subtypes: ["Bone metastases", "Liver metastases", "Lung metastases", "Brain metastases and leptomeningeal disease", "Peritoneal metastases", "Oligometastatic disease (limited spread)", "Cancer of unknown primary (spread found before the origin)"],
+    // Cross-cutting group (docs/CANCER-PAGES.md): no subtypes of its own; the sites of spread are linked below through `related`.
+    subtypes: [],
     biomarkers: ["Imaging (CT, PET, MRI) and biopsy of a metastatic site to confirm the primary and re-test targets", "Circulating tumour DNA", "Site-specific markers such as bone scan uptake or alkaline phosphatase"],
     standardOfCare: [
       { setting: "Widespread metastatic disease", approach: "Systemic therapy chosen by the primary cancer and its biomarkers, with early palliative care; see the individual cancer pages.", refs: ["palliative-care"] },
@@ -854,7 +855,7 @@ export const cancers: CancerInput[] = [
       { year: 2019, title: "SABR-COMET reports", note: "Randomised phase 2 trial in which stereotactic radiotherapy to all sites of oligometastatic disease was associated with longer survival, launching phase 3 trials of the approach.", refs: ["sbrt"] },
     ],
     openProblems: ["Metastasis itself has no approved drug: treatments target the growing cells, not the spreading.", "Which patients with limited spread truly benefit from treating every site is still being tested in phase 3 trials."],
-    related: ["cancer-of-unknown-primary"],
+    related: ["cancer-of-unknown-primary", "secondary-brain-tumours", "bone-metastases", "brain-metastases", "leptomeningeal-disease", "oligometastatic", "sabr-comet"],
     targets: [], technologies: ["sbrt", "stereotactic-radiosurgery", "palliative-radiotherapy", "bone-modifying-agents", "palliative-care", "ctdna"], drugs: ["zoledronic-acid", "denosumab", "radium-223"], terms: ["metastasis", "oligometastatic", "bone-metastases", "brain-metastases", "leptomeningeal-disease", "palliative-treatment"],
     links: [{ label: "NCI: Metastatic cancer", url: "https://www.cancer.gov/types/metastatic-cancer" }],
     tags: ["umbrella"],

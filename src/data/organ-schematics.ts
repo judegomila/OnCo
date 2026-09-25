@@ -55,7 +55,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, polyline([[1.3, 0.6, -0.4], [2.0, 0.9, 0.1], [2.6, 1.5, -0.1], [2.2, 2.3, 0]], "soft")); // lymphatic route
       return m;
     } },
-  { id: "lung", name: "Lungs, pleura and mediastinum", cancers: ["nsclc", "lung-cancer", "sclc", "mesothelioma", "pleural-mesothelioma", "thymic-epithelial", "pleuropulmonary-blastoma", "inflammatory-myofibroblastic-tumour", "egfr-mutant-nsclc", "alk-positive-nsclc", "kras-g12c-nsclc", "ros1-positive-nsclc", "met-altered-nsclc", "ret-fusion-nsclc", "braf-v600e-nsclc", "her2-mutant-nsclc", "ntrk-fusion-nsclc", "pdl1-high-nsclc", "resectable-nsclc", "stage-iii-unresectable-nsclc", "limited-stage-sclc", "extensive-stage-sclc", "lung-net", "thymoma", "thymic-carcinoma"],
+  { id: "lung", name: "Lungs, pleura and mediastinum", cancers: ["mediastinal-germ-cell-tumour","nsclc", "lung-cancer", "sclc", "mesothelioma", "pleural-mesothelioma", "thymic-epithelial", "pleuropulmonary-blastoma", "inflammatory-myofibroblastic-tumour", "egfr-mutant-nsclc", "alk-positive-nsclc", "kras-g12c-nsclc", "ros1-positive-nsclc", "met-altered-nsclc", "ret-fusion-nsclc", "braf-v600e-nsclc", "her2-mutant-nsclc", "ntrk-fusion-nsclc", "pdl1-high-nsclc", "resectable-nsclc", "stage-iii-unresectable-nsclc", "limited-stage-sclc", "extensive-stage-sclc", "lung-net", "thymoma", "thymic-carcinoma"],
     caption: "Central tumours arise in the large airways, peripheral ones in the alveoli; both drain to hilar then mediastinal nodes, and the pleural lining is a separate cancer site.",
     subsites: [
       { id: "central", label: "Central airways (squamous, small-cell)", at: [-0.75, 0.55, 0.05], match: ["squamous", "small-cell", "small cell", "sclc", "neuroendocrine", "pleuropulmonary", "tracheobronchial", "bronchus", "myofibroblastic"] },
@@ -184,7 +184,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ellipsoid(0.55, 0.5, 0.3, 3, 8, "soft"), { at: [0, -0.2, -1.55] }); // rectum
       return m;
     } },
-  { id: "kidney-bladder-adrenal", name: "Kidneys, adrenals, ureters and bladder", cancers: ["non-muscle-invasive-bladder-cancer", "muscle-invasive-bladder-cancer", "urothelial", "clear-cell-rcc", "papillary-rcc", "chromophobe-rcc", "rcc", "wilms-tumor", "neuroblastoma", "neuroblastoma-low-risk", "neuroblastoma-intermediate-risk", "neuroblastoma-high-risk", "adrenocortical", "pheochromocytoma-paraganglioma", "urethral", "penile", "localised-penile-cancer", "node-positive-penile-cancer", "localised-adrenocortical-carcinoma", "advanced-adrenocortical-carcinoma", "hereditary-ppgl", "metastatic-ppgl"],
+  { id: "kidney-bladder-adrenal", name: "Kidneys, adrenals, ureters and bladder", cancers: ["urethral-urothelial-carcinoma", "urethral-squamous-cell-carcinoma", "urethral-adenocarcinoma", "urethral-melanoma","non-muscle-invasive-bladder-cancer", "muscle-invasive-bladder-cancer", "urothelial", "clear-cell-rcc", "papillary-rcc", "chromophobe-rcc", "rcc", "wilms-tumor", "neuroblastoma", "neuroblastoma-low-risk", "neuroblastoma-intermediate-risk", "neuroblastoma-high-risk", "adrenocortical", "pheochromocytoma-paraganglioma", "urethral", "penile", "localised-penile-cancer", "node-positive-penile-cancer", "localised-adrenocortical-carcinoma", "advanced-adrenocortical-carcinoma", "hereditary-ppgl", "metastatic-ppgl"],
     caption: "Renal cell carcinoma comes from the kidney's filtering cortex, urothelial cancer from the lining of the collecting system and bladder, and the adrenal on top hosts cortical and medullary (neuroblastoma) tumours.",
     subsites: [
       { id: "cortex", label: "Renal cortex (RCC)", at: [-1.95, 1.75, 0.15], match: ["clear cell", "ccrcc", "papillary", "chromophobe", "vhl", "tfe3", "translocation", "collecting duct", "medullary", "sarcomatoid"] },
@@ -236,7 +236,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ring(0.45, 14, undefined, "z"), { at: [0, -2.7, 0.3] }); // vulva
       return m;
     } },
-  { id: "testis", name: "Testis and retroperitoneum", cancers: ["testicular", "seminoma", "non-seminoma", "paediatric-germ-cell-tumours"],
+  { id: "testis", name: "Testis and retroperitoneum", cancers: ["retroperitoneal-germ-cell-tumour","testicular", "seminoma", "non-seminoma", "paediatric-germ-cell-tumours"],
     caption: "Germ cell tumours drain along the spermatic cord to the para-aortic nodes high in the abdomen, not to the groin, which is why staging scans look at the retroperitoneum.",
     subsites: [
       { id: "germ", label: "Germinal epithelium", at: [-0.65, -1.0, 0.45], match: ["nsgct", "embryonal", "teratoma", "yolk sac", "choriocarcinoma", "mixed", "good-risk", "poor-risk", "intermediate"] },
@@ -322,7 +322,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ring(0.35, 12, "soft", "x"), { at: [-0.6, 0.15, -0.25] }); add(m, ring(0.35, 12, "soft", "x"), { at: [0.6, 0.15, -0.25] }); // ventricles
       return m;
     } },
-  { id: "head-neck", name: "Head and neck, salivary glands and thyroid", cancers: ["oropharyngeal-cancer", "laryngeal-cancer", "oral-cavity-cancer", "head-and-neck", "nasopharyngeal", "salivary-gland", "papillary-thyroid-cancer", "follicular-thyroid-cancer", "medullary-thyroid-cancer", "anaplastic-thyroid-cancer", "thyroid", "sinonasal", "nut-carcinoma", "parathyroid-carcinoma", "multiple-endocrine-neoplasia", "hpv-positive-oropharyngeal-cancer", "hpv-negative-head-and-neck-cancer", "recurrent-metastatic-hnscc", "hypopharyngeal-cancer", "adenoid-cystic-carcinoma", "salivary-duct-carcinoma", "mucoepidermoid-carcinoma", "oral-tongue-cancer", "buccal-mucosa-cancer", "lip-cancer", "locoregionally-advanced-nasopharyngeal-carcinoma", "recurrent-metastatic-nasopharyngeal-carcinoma", "esthesioneuroblastoma", "sinonasal-undifferentiated-carcinoma"],
+  { id: "head-neck", name: "Head and neck, salivary glands and thyroid", cancers: ["men1-syndrome", "men2-syndrome", "hyperparathyroidism-jaw-tumour-syndrome","oropharyngeal-cancer", "laryngeal-cancer", "oral-cavity-cancer", "head-and-neck", "nasopharyngeal", "salivary-gland", "papillary-thyroid-cancer", "follicular-thyroid-cancer", "medullary-thyroid-cancer", "anaplastic-thyroid-cancer", "thyroid", "sinonasal", "nut-carcinoma", "parathyroid-carcinoma", "multiple-endocrine-neoplasia", "hpv-positive-oropharyngeal-cancer", "hpv-negative-head-and-neck-cancer", "recurrent-metastatic-hnscc", "hypopharyngeal-cancer", "adenoid-cystic-carcinoma", "salivary-duct-carcinoma", "mucoepidermoid-carcinoma", "oral-tongue-cancer", "buccal-mucosa-cancer", "lip-cancer", "locoregionally-advanced-nasopharyngeal-carcinoma", "recurrent-metastatic-nasopharyngeal-carcinoma", "esthesioneuroblastoma", "sinonasal-undifferentiated-carcinoma"],
     caption: "Site decides cause and behaviour: HPV drives oropharyngeal cancer, EBV drives nasopharyngeal cancer, tobacco drives oral and laryngeal cancer; all drain into the neck node levels that surgeons and radiotherapists map.",
     subsites: [
       { id: "oral", label: "Oral cavity and tongue", at: [1.15, -0.6, 0.35], match: ["oral", "tongue", "oral cavity", "hpv-negative", "hpv negative", "tobacco", "tp53"] },

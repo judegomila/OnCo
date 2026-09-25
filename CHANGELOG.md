@@ -7,12 +7,15 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
+- TNBC reviewed against its sources: figures reconciled, duplicates folded, 822 links checked
 - Wave 4: 99 cancer entity pages under the taxonomy rule; roadmaps page their eras; subtype pages rank below their parents in Ask
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 
 ### 24 September 2026
+- TNBC QA: de-duplicate the six patches, correct KEYNOTE-522, BRCA share, NG101 1.3.6, TA992 and TROPION-Breast05, fix four dead links, roadmap and UK page fit 390 px; docs/TNBC-QA.md
+- Wave 4: 99 cancer entity pages under the taxonomy rule; roadmaps page their eras; subtype pages rank below their parents in Ask
 - Ask OnCo retrieval: subtype capped below its parent, provenance weight shared by both stages; extractive recall 0.403 to 0.411, floor held at 0.41
 - LAUNCH: decisions and shipping of 25 Sept 2026
 - Section planner test allows eight paged sections for NSCLC after the lung histologies; wave 4 pages weigh 0.7 in the Ask index

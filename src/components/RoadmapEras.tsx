@@ -139,7 +139,7 @@ export function WatchRowView({ row }: { row: WatchRow }) {
   return (
     <li className="p-3 grid grid-cols-1 sm:grid-cols-[9rem_minmax(0,1fr)] gap-x-4 gap-y-1 text-sm" data-watch-row>
       <span className="font-mono text-xs text-muted tabular-nums pt-0.5">{row.expected ?? "no date stated"}</span>
-      <div>
+      <div className="min-w-0 break-words">
         <span>{row.item}</span>
         {row.source && <> <a href={row.source} rel="noopener" className="underline decoration-foreground/25 underline-offset-[3px] hover:decoration-foreground text-xs">source</a></>}
         {row.refs.length > 0 && <div className="mt-1.5"><RefPills refs={row.refs} /></div>}

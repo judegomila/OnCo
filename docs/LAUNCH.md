@@ -4,11 +4,11 @@ The owner returns in five days and expects the site ready to launch and maximise
 (30-minute cron) should pick the next unchecked item, ship it through the gated chain, and tick it here.
 
 ## Ship chain (never skip)
-validate → typecheck → lint → test → `rm -rf out && npm run build` (gate on exit code and `out/index.html`,
-`out/coverage/us/index.html`) → commit → `git push origin HEAD` → `vercel deploy --prod --yes --archive=tgz`.
+changelog-sync with the commit subject → validate → typecheck → lint → test → `npm run build:api` (the generated files) → commit → `git push origin HEAD` → `vercel deploy --prod --yes --archive=tgz` → verify the alias serves the round's check pages with 200 (up to 30 minutes; the CLI log can drop while the remote build continues).
+Decided 25 Sept 2026: the local `next build` is no longer part of the chain. Vercel builds from source and a failed remote build never aliases, so the site cannot regress from a build error; the local build cost about 25 minutes and 9 GB of disk per chain and caused the 21 Sept memory crash. The template is /tmp/drafts/chain-template.sh (recreate from this section after a reboot): `chain-template.sh <n> "<subject>" <check page paths...>`.
 Merge finished worktree agents before the chain; never `cd` into a worktree; never `vercel link`.
 
-### Proposals bot: what merges itself and what waits (23 Sept 2026)
+## Proposals bot: what merges itself and what waits (23 Sept 2026)
 The nightly bot (`.github/workflows/propose.yml`) now has two outputs from one decision. EU rows for
 `src/data/regional-approvals.ts` merge themselves when every check passes: `scripts/apply-proposals.ts` reads each EMA
 medicine page (the page's status field and its dates, not the snapshot diff), matches the product by exact INN, brand or

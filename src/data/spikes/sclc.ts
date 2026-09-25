@@ -139,7 +139,7 @@ const drugs: DrugInput[] = [
     toxicity: [{ event: "Immune-related adverse events (any)", anyGradePct: 37 }, { event: "Hypothyroidism", anyGradePct: 12 }, { event: "Pneumonitis", anyGradePct: 4 }],
     approvals: [{ region: "China", year: 2022, indication: "First-line ES-SCLC with chemotherapy" }, { region: "EU", year: 2025, indication: "First-line ES-SCLC with carboplatin-etoposide" }],
     regulatoryEvents: [{ date: "2025-02", type: "approval", region: "EU", note: "European Commission approval for ES-SCLC", source: "https://www.henlius.com/en/NewsDetails-5903-26.html" }, { date: "2025", type: "approval", region: "UK", note: "MHRA approval", source: "https://www.henlius.com/en/NewsDetails-5324-26.html" }],
-    targets: ["pd1"], technologies: ["checkpoint-inhibitor"], companies: ["henlius"], cancers: ["sclc", "extensive-stage-sclc"], trials: ["astrum-005", "nct05353257", "nct04547166", "nct05468489", "nct07253142", "nct07269782", "nct06848699", "nct06349980", "nct05787613"], terms: ["limited-extensive-stage"] }),
+    targets: ["pd1"], technologies: ["checkpoint-inhibitor"], companies: ["henlius"], cancers: ["sclc", "extensive-stage-sclc"], trials: ["astrum-005", "nct05353257", "nct04547166", "nct05468489", "nct07253142", "nct07269782", "nct06848699", "nct06349980", "nct05787613", "nct05742425"], terms: ["limited-extensive-stage"] }),
 ];
 
 // ======================= TECHNOLOGIES, TERMS, COMPANIES =======================

@@ -78,7 +78,9 @@ async function main() {
   }
 
   let done = 0, skipped = 0, failed = 0;
-  const queue = [...jobs];
+  // Records with no snapshot at all go first: the papers-snapshot health gauge counts coverage, so a run cut short
+  // by a timeout or a rate limit should have closed the gaps rather than refreshed pages that already have a page.
+  const queue = [...jobs].sort((a, b) => Number(existsSync(join(OUT, `${a.e.id}.json`))) - Number(existsSync(join(OUT, `${b.e.id}.json`))));
   const worker = async () => {
     for (;;) {
       const job = queue.shift();

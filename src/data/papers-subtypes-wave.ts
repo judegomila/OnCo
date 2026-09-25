@@ -550,7 +550,7 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "Cancer 2002", url: "https://doi.org/10.1002/cncr.10638" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/12115309/" }],
     cancers: ["paget-disease-of-the-nipple"], journals: ["cancer-wiley"] }),
 
-  p({ id: "paper-tan-phyllodes-consensus-histopathology-2016", name: "Phyllodes tumours of the breast: a consensus review",
+  p({ id: "paper-tan-phyllodes-consensus-histopathology-2016", targets: ["med12"], name: "Phyllodes tumours of the breast: a consensus review",
     tldr: "This international consensus review sets out how pathologists grade phyllodes tumours as benign, borderline or malignant and how those grades should guide surgery and follow-up.",
     summary: "Consensus review by an international group of breast pathologists on the diagnosis, grading criteria (stromal cellularity, atypia, mitoses, overgrowth and margins), differential diagnosis from fibroadenoma, molecular findings including MED12 mutations, and management implications for phyllodes tumours.",
     journal: "Histopathology", year: 2016, doi: "10.1111/his.12876", pmid: "26768026",
@@ -2274,7 +2274,7 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "J Clin Oncol 2019", url: "https://doi.org/10.1200/JCO.19.00919" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31386611/" }],
     cancers: ["neuroblastoma-intermediate-risk"], journals: ["jco"] }),
 
-  p({ id: "paper-anbl00p2-expectant-observation-nuchtern-ann-surg-2012", name: "ANBL00P2: expectant observation as primary therapy for neuroblastoma in young infants",
+  p({ id: "paper-anbl00p2-expectant-observation-nuchtern-ann-surg-2012", companies: ["childrens-oncology-group"], technologies: ["ultrasound"], name: "ANBL00P2: expectant observation as primary therapy for neuroblastoma in young infants",
     tldr: "Small adrenal masses found in infants under six months could safely be watched rather than operated on: nearly half shrank or disappeared and the rest were removed later without any child dying of neuroblastoma.",
     summary: "Children's Oncology Group prospective study of 87 infants under six months with small (under 3.1 cm solid or 5 cm cystic) adrenal masses managed by observation with serial ultrasound and urinary catecholamines, with surgery for growth or progression.\n\nEighty-one percent avoided surgery; among those observed, 45 percent had complete or partial spontaneous resolution, and three-year event-free and overall survival were 97.7 and 100 percent.",
     journal: "Annals of Surgery", year: 2012, doi: "10.1097/SLA.0b013e31826cbbbd", pmid: "22964741",
@@ -2283,7 +2283,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Observation without biopsy is standard for small adrenal masses in young infants, sparing them surgery for tumours that often regress.",
     caveats: ["Applies only to small localised masses in infants under six months with defined imaging criteria."],
     links: [{ label: "Ann Surg 2012", url: "https://doi.org/10.1097/SLA.0b013e31826cbbbd" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/22964741/" }],
-    cancers: ["neuroblastoma-low-risk"] }),
+    cancers: ["neuroblastoma-low-risk", "neuroblastoma"] }),
 
   p({ id: "paper-p9641-low-risk-neuroblastoma-strother-jco-2012", name: "COG P9641: surgery alone or with restricted chemotherapy for low-risk neuroblastoma",
     tldr: "In the largest low-risk neuroblastoma trial, surgery alone cured almost all children with stage 1 and most with stage 2 disease, with chemotherapy reserved for symptoms or unfavourable features, confirming that many children need no drug treatment.",
@@ -2700,7 +2700,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "IDH mutation testing helps distinguish chondrosarcoma from chondroblastic osteosarcoma and other mimics, and IDH inhibitors are being tested in advanced chondrosarcoma.",
     caveats: ["Ivosidenib trials in chondrosarcoma have shown disease stabilisation rather than shrinkage so far."],
     links: [{ label: "J Pathol 2011", url: "https://doi.org/10.1002/path.2913" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/21598255/" }],
-    cancers: ["chondrosarcoma"] }),
+    cancers: ["chondrosarcoma", "sarcoma"] }),
 
   p({ id: "paper-esmo-bone-sarcoma-guideline-strauss-ann-oncol-2021", name: "Bone sarcomas: ESMO-EURACAN-GENTURIS-ERN PaedCan clinical practice guideline",
     tldr: "The European guideline for bone sarcomas covers referral to specialist centres, biopsy, surgery, chemotherapy for osteosarcoma and Ewing sarcoma, and the surgery-based management of chondrosarcoma and chordoma including proton and carbon-ion radiotherapy.",
@@ -2840,7 +2840,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Histology-specific strategies, such as considering neoadjuvant chemotherapy for leiomyosarcoma and high-grade dedifferentiated liposarcoma in STRASS2, follow from these patterns.",
     caveats: ["Retrospective data from expert centres; results may not generalise to non-specialist surgery."],
     links: [{ label: "Ann Surg 2016", url: "https://doi.org/10.1097/SLA.0000000000001447" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/26727100/" }],
-    cancers: ["retroperitoneal-sarcoma"] }),
+    cancers: ["retroperitoneal-sarcoma", "leiomyosarcoma", "liposarcoma"] }),
 
   p({ id: "paper-bonvalot-retroperitoneal-sarcoma-compartmental-jco-2009", name: "Primary retroperitoneal sarcomas: a multivariate analysis of surgical factors associated with local control",
     tldr: "This French multicentre study showed that resecting a retroperitoneal sarcoma together with the adjacent organs, even when not obviously involved, reduced local recurrence more than threefold, establishing the compartmental surgical approach.",
@@ -3552,7 +3552,7 @@ export const papersSubtypesWave: PaperInput[] = [
     links: [{ label: "N Engl J Med 2022", url: "https://doi.org/10.1056/NEJMoa2111953" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35263518/" }],
     cancers: ["papillary-thyroid-cancer"], trials: ["estimabl2"], journals: ["nejm"] }),
 
-  p({ id: "paper-ito-kuma-active-surveillance-microcarcinoma-thyroid-2014", name: "Active surveillance of papillary thyroid microcarcinoma at Kuma Hospital: patient age and progression",
+  p({ id: "paper-ito-kuma-active-surveillance-microcarcinoma-thyroid-2014", technologies: ["active-surveillance"], name: "Active surveillance of papillary thyroid microcarcinoma at Kuma Hospital: patient age and progression",
     tldr: "Following more than 1,200 patients with small papillary thyroid cancers under observation, the Kuma Hospital group found that only 8 percent grew and under 4 percent developed node metastases over ten years, with the lowest risk in older patients, establishing surveillance as a safe alternative to surgery.",
     summary: "Prospective observational cohort of 1,235 patients with low-risk papillary thyroid microcarcinoma managed by active surveillance between 1993 and 2011, analysing tumour enlargement and nodal metastasis by age.\n\nTen-year rates of tumour enlargement of 3 mm or more and of new node metastases were 8.0 and 3.8 percent; progression was most frequent in patients under 40 and rarest in those over 60, and no patient died of thyroid cancer or developed distant metastases.",
     journal: "Thyroid", year: 2014, doi: "10.1089/thy.2013.0367", pmid: "24001104",
@@ -3561,7 +3561,7 @@ export const papersSubtypesWave: PaperInput[] = [
     whatItMeans: "Active surveillance is a guideline-endorsed option for papillary microcarcinoma, adopted in Japan, the United States and elsewhere, especially for older patients.",
     caveats: ["Single-centre Japanese cohort with expert ultrasound; selection excluded tumours near the trachea or nerve."],
     links: [{ label: "Thyroid 2014", url: "https://doi.org/10.1089/thy.2013.0367" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/24001104/" }],
-    cancers: ["papillary-thyroid-cancer"] }),
+    cancers: ["papillary-thyroid-cancer", "thyroid"] }),
 
   p({ id: "paper-himalaya-nejm-evidence-2022", name: "HIMALAYA: tremelimumab plus durvalumab in unresectable hepatocellular carcinoma",
     tldr: "A single priming dose of the CTLA-4 antibody tremelimumab followed by durvalumab lengthened survival compared with sorafenib in advanced liver cancer without the bleeding risk of bevacizumab, giving a second first-line immunotherapy standard.",

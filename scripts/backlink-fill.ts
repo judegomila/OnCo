@@ -59,6 +59,15 @@ const SKIP_TOKENS = new Set<string>([
   "care", "supportive care", "second opinion", "second opinions", "telehealth", "nurse", "nurses", "doctor", "doctors", "oncologist", "oncologists", "hospice", "the who", "who", "nih", "nhs", "fda", "ema", "eu", "us", "uk", "usa", "wellcome", "nice",
   "inc.", "target", "dart", "prism", "match trial", "mit", "open", "bispecific", "mrna", "ire", "cea", "state", "google", "sus", "national cancer institute", "nci", "cancercare", "clinicaltrials.gov", "blood cancer",
 ]);
+/**
+ * Aliases one record may not be recognised by, `<id>:<alias>`. For an acronym that another record or a common term
+ * owns in ordinary oncology prose, this is finer than SKIP_TOKENS, which would drop the acronym for every record:
+ * "MRI" still links to the imaging technology, it just no longer links to Manchester Royal Infirmary.
+ */
+const SKIP_ALIASES = new Set<string>([
+  "pan-mass-challenge:PMC", // "Europe PMC" in a paper's provenance line is PubMed Central, not the Pan-Mass Challenge
+  "manchester-royal-infirmary:MRI", // "MRI" in a trial's outcome text is the scan
+]);
 /** Tokens shorter than this must match case-sensitively (acronyms and codes). */
 const CASE_SENSITIVE_UNDER = 7;
 
@@ -82,7 +91,7 @@ function tokensFor(e: Entity): string[] {
     if (e.kind === "drug") { if (e.brand) for (const b of e.brand.split(/[;,]/)) add(stripParens(b)); if (e.code) add(e.code); }
   }
   return [...out].filter((t) => {
-    if (SKIP_TOKENS.has(t.toLowerCase()) || /^(a|an|the)\s/i.test(t)) return false;
+    if (SKIP_TOKENS.has(t.toLowerCase()) || SKIP_ALIASES.has(`${e.id}:${t}`) || /^(a|an|the)\s/i.test(t)) return false;
     const acronym = /^[A-Z][A-Z0-9-]+$/.test(t);
     if (t.length < (acronym ? 3 : 4)) return false;
     if (e.kind === "term" && t.length < 10 && !t.includes(" ")) return false;

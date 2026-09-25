@@ -129,7 +129,7 @@ export const papersRareWave: PaperInput[] = [
     whatItMeans: "Because primary vaginal cancer is too rare for randomised trials, staging and prognosis rest on registry reports like this one, and treatment is extrapolated from cervical cancer.",
     caveats: ["Registry data from participating centres, with incomplete reporting of treatment details.", "Predates modern chemoradiotherapy and image-guided brachytherapy."],
     links: [{ label: "Int J Gynaecol Obstet 2006", url: "https://doi.org/10.1016/S0020-7292(06)60029-5" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/29644658/" }],
-    cancers: ["vaginal-squamous-cell-carcinoma"] }),
+    cancers: ["vaginal-squamous-cell-carcinoma", "vaginal"] }),
 
   p({ id: "paper-figo-cancer-report-cancer-of-the-vagina-ijgo-2018", name: "FIGO Cancer Report 2018: cancer of the vagina",
     tldr: "The FIGO review of vaginal cancer: how it is staged, that radiotherapy with brachytherapy is the main treatment, and that adding cisplatin is borrowed from cervical cancer because vaginal cancer is too rare for its own trials.",

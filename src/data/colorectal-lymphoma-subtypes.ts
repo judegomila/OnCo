@@ -117,7 +117,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     pipeline: ["azur-1", "nct06640049", "dostarlimab", "signatera", "idea-ctdna-guided-adjuvant-crc"],
     openProblems: ["No validated test predicts which clinical complete responders will regrow under watch and wait.", "Long-term bowel, sexual and urinary function after total neoadjuvant therapy is poorly measured.", "Whether circulating tumour DNA can safely guide surveillance after organ preservation is untested in randomised trials.", "Lateral pelvic node disease is managed differently in Japan and the West with no comparative trial."],
     targets: ["pd1", "egfr", "vegf"], technologies: ["imrt-igrt", "hypofractionated-radiotherapy", "robotic-surgery", "mri", "checkpoint-inhibitor"], terms: ["total-neoadjuvant-therapy", "organ-preservation", "clinical-complete-response", "total-mesorectal-excision", "chemoradiation", "stoma", "msi"],
-    trials: ["rapido", "prodige-23", "opra", "prospect", "cao-aro-aio-94", "azur-1", "nct06640049"], drugs: ["folfox", "capox", "dostarlimab", "fluorouracil", "capecitabine"],
+    trials: ["rapido", "prodige-23", "opra", "prospect", "cao-aro-aio-94", "azur-1", "nct06640049", "nct06936774", "nct07537998", "nct04087421", "nct07070622", "nct05939687"], drugs: ["folfox", "capox", "dostarlimab", "fluorouracil", "capecitabine"],
     people: ["angelita-habr-gama", "julio-garcia-aguilar", "andrea-cercek", "luis-diaz"], pathways: ["colorectal-cancer-signalling"],
     links: [{ label: "Wikipedia", url: W("Colorectal_cancer") }, { label: "NCCN Guidelines: Rectal Cancer", url: NCCN_RECTAL }] },
 

@@ -343,7 +343,7 @@ export const ivermectinPapers: PaperInput[] = [
     findings: ["Three patients; symptom relief reported; no objective response measured."],
     whatItMeans: "An anecdote from the clinic that prescribed the regimen; it cannot show benefit and has not led to a trial.",
     caveats: ["No control group, no tumour measurements, authors treated the patients they report on."],
-    links: [L.ishiguro, pubmed("35265417")], drugs: ["ivermectin"] }),
+    links: [L.ishiguro, pubmed("35265417")], drugs: ["ivermectin", "tamoxifen"] }),
 
   p({ id: "paper-guilford-antiparasitic-acupuncture-meridian-case-series-2026", name: "Cancer therapy using antiparasitic medications guided by acupuncture meridian assessment: a case series of six patients",
     tldr: "Six patients with advanced cancers treated over a decade with antiparasitic drugs chosen by measuring electrical conductance at acupuncture points were reported to have lived longer than expected; the method has no established basis and the series has no controls.",

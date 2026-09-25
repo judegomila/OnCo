@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- Prostate cancer in depth: 57 trials from their publications, the receptor landscape from eighteen deposits, the March 2026 screening recommendation, and four wrong NHS funding rows corrected
+- The lung review: 33 lines the layers had written twice folded away, four contradictory figures resolved against their sources, and two duplicate-key bugs the lung data exposed
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,6 +19,8 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- The lung review: a placeholder idea rewritten from the UK page's own gaps, 33 duplicated base lines folded, three papers that existed twice merged, and two duplicate-key bugs the lung data exposed
+- Prostate cancer in depth: 57 trials from their publications, the receptor landscape from eighteen deposits, the March 2026 screening recommendation, and four wrong NHS funding rows corrected
 - Wire the two prostate pathology terms into the papers that found them
 - Prostate molecular: the androgen receptor's five escape routes, the repair genes the four PARP labels disagree about, and what a PSMA PET cannot tell you
 - The explained page budget measures its furniture, not how much the corpus knows

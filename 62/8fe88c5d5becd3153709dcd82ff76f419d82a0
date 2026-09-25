@@ -1,0 +1,55 @@
+src/lib/decision-tools.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 5,78
+public/newsletter/2026-09-25.json
+  s_0beac9cb5d78fd::t_10b4961ffcee93 1
+src/data/spikes/colorectal-uk.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 1-691
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_10b4961ffcee93 10,23-24
+public/freshness.json
+  s_0beac9cb5d78fd::t_10b4961ffcee93 1
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_10b4961ffcee93 14-16
+src/data/coverage-uk.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 234
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 36
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_10b4961ffcee93 1
+src/data/decision-tools/colorectal-adjuvant-chemotherapy.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 1-305
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 11,17
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 9,12,30-31,78-95,229-245
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_10b4961ffcee93 80-82
+src/data/spikes/colorectal-living.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 1-465
+public/newsletter/2026-09-25/index.html
+  s_0beac9cb5d78fd::t_10b4961ffcee93 2,9-10
+public/llms.txt
+  s_0beac9cb5d78fd::t_10b4961ffcee93 5
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 15,133
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 67-75,441-515
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_10b4961ffcee93 91-112,175-194
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "628fe88c5d5becd3153709dcd82ff76f419d82a0",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -45,6 +45,21 @@ export const KIND_TIER: Record<SearchKind, Tier> = {
 /** Score multiplier per tier. Tier 5 keeps just under a third of its text score: an exact name or alias match (x3, x2) still wins. */
 export const TIER_WEIGHT: Record<Tier, number> = { 1: 1, 2: 0.8, 3: 0.6, 4: 0.45, 5: 0.3 };
 
+/**
+ * How much a record's text is worth once matched, by provenance: registry-ingested trials and fetched papers carry a
+ * title and little else (0.6); biomarker readouts, generated gene pages and the wave 4 cancer subtypes ("treated as
+ * its parent") share names with the hand-written records they describe (0.7). One rule for both retrieval stages:
+ * the concept index (semantic-docs.ts) and Ask's word search (search-client.ts askLexical). Measured 25 Sept 2026:
+ * with the word stage unweighted, 132 registry trials filled the benchmark's lexical top twelves and extractive recall
+ * sat at 0.409; applying this weight there took it to 0.411.
+ */
+export function recordWeight(kind: string, tags: readonly string[] | string): number {
+  const t = typeof tags === "string" ? tags.split(/\s+/) : tags;
+  if (t.includes("ctgov-ingest") || t.includes("europepmc-ingest")) return 0.6;
+  if (kind === "biomarker" || t.includes("cancer-genes-wave") || t.includes("wave4")) return 0.7;
+  return 1;
+}
+
 /** Multipliers for how the query sits against the record's own name, on top of MiniSearch's field boosts. */
 export const NAME_BOOST = {
   /** The query is the record's name. */
@@ -62,7 +77,7 @@ export const NAME_BOOST = {
 /** The MiniSearch build every consumer shares, so tests index exactly what the browser indexes. */
 export const SEARCH_INDEX_OPTIONS: Options<SearchDoc> = {
   fields: ["name", "aka", "tldr", "tags", "id"],
-  storeFields: ["id", "kind", "name", "aka", "tldr", "route", "status", "cancers"],
+  storeFields: ["id", "kind", "name", "aka", "tldr", "route", "status", "cancers", "parent", "tags"],
   searchOptions: { boost: { name: 4, aka: 3, id: 2 }, prefix: true, fuzzy: 0.2 },
 };
 

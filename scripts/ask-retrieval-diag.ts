@@ -6,7 +6,8 @@
  *
  *   npx tsx ask-retrieval-diag.ts            summary plus every miss (run from scripts/)
  *   npx tsx ask-retrieval-diag.ts --quiet    recall figures only
- *   npx tsx ask-retrieval-diag.ts --stats    aggregate: where the missed records rank, which kinds fill the lists
+ *   npx tsx ask-retrieval-diag.ts --stats    aggregate: where the missed records rank, which kinds fill the lists, one line a question
+ *   EXCLUDE=wave4 npx tsx ask-retrieval-diag.ts --stats   the same with one tagged wave left out; diff the Q lines to see what it displaced
  *
  * Uses the same word search as the browser (search-client.ts askLexical) and the same concept index build, so the
  * figures agree with the floors in src/lib/ask.test.ts.
@@ -32,8 +33,10 @@ const S = { missLex: new Map<string, number>(), missSem: new Map<string, number>
 const bucket = (i: number) => (i < 0 ? "absent" : i < 6 ? "1-6" : i < 12 ? "7-12" : i < 30 ? "13-30" : i < 100 ? "31-100" : ">100");
 const g = graph();
 const ms = new MiniSearch<SearchDoc>(SEARCH_INDEX_OPTIONS);
-ms.addAll(searchDocs());
-const docs = semanticDocs();
+const EXCLUDE = process.env.EXCLUDE; // A tag to leave out of both indexes (EXCLUDE=wave4), to attribute a recall change to one wave.
+const skip = (id: string) => !!EXCLUDE && !!g.get(id)?.tags.includes(EXCLUDE);
+ms.addAll(searchDocs().filter((d) => !skip(d.id)));
+const docs = semanticDocs().filter((d) => !skip(d.id));
 const sem = buildSemanticIndex(docs);
 const weightOf = new Map(docs.map((d) => [d.id, d.weight ?? 1]));
 const r3 = (x: number) => Math.round(x * 1000) / 1000;
@@ -53,6 +56,7 @@ for (const q of benchmark) {
   const r = q.entities.length ? hit.length / q.entities.length : 1;
   score += s; recall += r; questions++;
   if (stats) {
+    console.log(`Q ${q.id} ${hit.length}/${q.entities.length} ${ids.join(",")} MISS ${q.entities.filter((id) => !ids.includes(id)).join(",")}`);
     for (const h of lexAll.slice(0, 12)) count(S.lexTopKind, tagOf(String(h.id)).split(" ")[0]);
     for (const h of semTop) count(S.semTopKind, tagOf(h.id).split(" ")[0]);
     for (const id of ids) if (!q.entities.includes(id)) { S.wrongTotal++; count(S.wrongKind, tagOf(id).split(" ")[0]); if (inQuestion(q.question, g.must(id))) S.wrongNamed++; }

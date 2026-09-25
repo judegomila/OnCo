@@ -389,6 +389,13 @@ describe("Ask OnCo end to end", () => {
     // harness and this test). Per-kind concept weights for papers, journals and the CanSim terms were measured at the
     // same time and moved recall by at most 0.002 while lowering the rubric score, so they were not added.
     { date: "2026-09-24", recall: 0.416, note: "after the ranking fix: function words dropped, kind tier and name match applied to Ask's word search" },
+    { date: "2026-09-25", recall: 0.403, note: "wave 4: 99 cancer subtype pages; lung-16 lost nsclc to large-cell-lung-carcinoma, img-48 and proc-83 lost hand-written records to registry trials and ideas present in both fused lists" },
+    // 25 Sept 2026: a subtype whose matched words are all its parent's sits just below the parent (askLexical,
+    // SUBTYPE_BELOW_PARENT; a flat penalty on every record with a parent measured 0.401 because tnbc-early and
+    // tnbc-metastatic are expected records), and the word stage applies the same provenance weight as the concept
+    // index (search-rank.ts recordWeight: registry-ingested 0.6, biomarkers, gene pages and wave 4 0.7). The fusion
+    // constant (RRF k 8 to 60) and a term-coverage weight were measured at the same time and changed nothing or lost.
+    { date: "2026-09-25", recall: 0.411, note: "subtype capped below its parent; provenance weight shared by both stages; floor held at 0.41" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

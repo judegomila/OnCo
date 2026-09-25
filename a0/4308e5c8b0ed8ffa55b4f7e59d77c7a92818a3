@@ -1,0 +1,19 @@
+public/newsletter/index.json
+  ai_agent 1
+public/newsletter/2026-09-25.json
+  ai_agent 1
+public/llms.txt
+  ai_agent 5
+public/freshness.json
+  ai_agent 1
+public/newsletter/2026-09-25/index.html
+  ai_agent 2,9-10
+public/newsletter/feed.xml
+  ai_agent 14-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a04308e5c8b0ed8ffa55b4f7e59d77c7a92818a3",
+  "prompts": {}
+}

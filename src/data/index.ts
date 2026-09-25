@@ -63,6 +63,7 @@ import { institutionsUs } from "./institutions/us";
 import { institutionsWorld } from "./institutions/world";
 import { institutionsBodies } from "./institutions/bodies";
 import { institutionsEurope } from "./institutions/europe";
+import { russiaInstitutions, russiaPapers } from "./russia-entities";
 import { institutionsCentresWave3 } from "./institutions/centres-wave3";
 import { institutionsDonorFoundations } from "./institutions/donor-foundations";
 import { foundationModels } from "./foundation-models";
@@ -227,6 +228,8 @@ const RAW_INPUTS: EntityInput[] = [
   ...institutionsWorld,
   ...institutionsBodies,
   ...institutionsEurope,
+  ...russiaInstitutions,
+  ...russiaPapers,
   ...institutionsCentresWave3,
   ...institutionsDonorFoundations,
   ...foundationModels,

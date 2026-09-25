@@ -6,6 +6,7 @@ import { colorectalAdjuvantChemotherapyTool } from "@/data/decision-tools/colore
 import { lungEarlyStageTool } from "@/data/decision-tools/lung-early-stage";
 import { prostateLocalisedTool } from "@/data/decision-tools/prostate-localised";
 import { breastSurgeryChoiceTool } from "@/data/decision-tools/breast-surgery-choice";
+import { bccLowRiskTreatmentTool } from "@/data/decision-tools/bcc-low-risk-treatment";
 
 /**
  * Decision aids (/tools/<id>/): a handful of questions, and for the answers given, the guideline statement that
@@ -78,7 +79,7 @@ export type DecisionTool = {
   asOf: string;
 };
 
-export const DECISION_TOOLS: DecisionTool[] = [gallbladderPolypTool, incidentalGallbladderCancerTool, tnbcAfterChemotherapyTool, pancreaticFirstTreatmentTool, colorectalAdjuvantChemotherapyTool, lungEarlyStageTool, prostateLocalisedTool, breastSurgeryChoiceTool];
+export const DECISION_TOOLS: DecisionTool[] = [gallbladderPolypTool, incidentalGallbladderCancerTool, tnbcAfterChemotherapyTool, pancreaticFirstTreatmentTool, colorectalAdjuvantChemotherapyTool, lungEarlyStageTool, prostateLocalisedTool, breastSurgeryChoiceTool, bccLowRiskTreatmentTool];
 
 export const toolRoute = (id: string) => `/tools/${id}/`;
 

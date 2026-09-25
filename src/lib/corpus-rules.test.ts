@@ -97,7 +97,13 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
   "avf2107g", "dutch-tme-trial", "idea-collaboration",
   // Colorectal screening, rectal radiotherapy and peritoneal trials that ran before registration: the Swedish Rectal Cancer
   // Trial (1987 to 1990), the Minnesota and Funen faecal occult blood trials, and the Netherlands Cancer Institute HIPEC trial.
-  "swedish-rectal-cancer-trial", "minnesota-fob", "funen-fob", "netherlands-hipec"]);
+  "swedish-rectal-cancer-trial", "minnesota-fob", "funen-fob", "netherlands-hipec",
+  // Breast conservation and axillary trials that predate the registries entirely: NSABP B-04 opened in 1971,
+  // NSABP B-06 in 1976, Milan I randomised 1973 to 1980, EORTC 10801 accrued 1980 to 1986 and ALMANAC 1999 to 2003.
+  "nsabp-b04", "nsabp-b06", "milan-i", "eortc-10801", "almanac",
+  // START-A shares ISRCTN59368779 with START-B, which already holds it; FAST is registered only under the Cancer
+  // Research UK reference CRUKE/04/015.
+  "start-a", "fast-trial"]);
 
 /** Standard-of-care rows whose approach is surgery or observation, with no product to reference. */
 const SOC_ROWS_WITHOUT_REFS = new Set(["cholangiocarcinoma: Resectable", "dlbcl: Frontline", "endometrial: Early", "neuroendocrine: Localised", "ovarian: Platinum-sensitive relapse"]);

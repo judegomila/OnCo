@@ -79,6 +79,24 @@ const PARENT_PHRASES: Record<string, RegExp> = {
   nasopharyngeal: /nasopharyn/i,
   sinonasal: /sinonasal|nasal cavity|nose|sinus/i,
   pancreatic: /pancrea/i,
+  // Wave 4 (docs/CANCER-PAGES.md): entity pages under parents that had none.
+  "extragonadal-germ-cell-tumour": /germ cell/i,
+  "multiple-endocrine-neoplasia": /multiple endocrine neoplasia|MEN[124]/,
+  "parathyroid-carcinoma": /parathyroid/i,
+  urethral: /urethra/i,
+  "non-seminoma": /non-seminoma|germ cell|testic/i,
+  "marginal-zone-lymphoma": /lymphoma/i,
+  "follicular-lymphoma": /lymphoma/i,
+  "cutaneous-t-cell-lymphoma": /lymphoma|mycosis/i,
+  dlbcl: /lymphoma/i,
+  "aml-paediatric": /leuk(a)?emia/i,
+  "burkitt-lymphoma": /burkitt/i,
+  chordoma: /chordoma/i,
+  "paediatric-low-grade-glioma": /glioma|brain/i,
+  "pleuropulmonary-blastoma": /pleuropulmonary|lung/i,
+  "pancreatic-net": /pancrea|neuroendocrine/i,
+  "pituitary-tumours": /pituitary/i,
+  thymoma: /thymoma|thymus/i,
 };
 
 /** At most this many same-parent siblings in `related`: a comparison set, not the whole family. */

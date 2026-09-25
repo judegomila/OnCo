@@ -150,6 +150,7 @@ export const navPt: NavDict = {
   "/costs/": ["Reduzir os custos do tratamento oncológico", "Cada fator de custo a par do que está a ser feito e das ideias que podiam fazer mais: biossimilares, negociação, otimização de dose, ciclos mais curtos, paridade, autorização prévia."],
   "/countries/in/": ["Índia em profundidade", "O que a Índia está a fazer: perfil do cancro, como se pagam os cuidados, a CDSCO, instituições, empresas, ensaios e pessoas."],
   "/countries/cn/": ["China em profundidade", "O que a China está a fazer: perfil do cancro, a NMPA, a lista do seguro nacional, instituições, empresas, ensaios e pessoas."],
+  "/countries/gb/": ["Reino Unido em profundidade", "O que o Reino Unido faz: quatro serviços de saúde com um só nome, quem paga, o NICE e o SMC, os ensaios e a genómica, e o que os números dizem que faz mal."],
   "/live/complementary/": ["Abordagens complementares e de apoio", "Acupuntura, mindfulness, ioga, ervas, dietas, canábis, gorros frios e mais: o que os ensaios mostram, classificado com honestidade, e o que evitar ou nunca usar em vez do tratamento."],
   "/live/hair/": ["Queda e recuperação do cabelo", "Arrefecimento do couro cabeludo e os regimes a que se adequa, minoxidil para o desbaste persistente, sobrancelhas e pestanas, perucas no NHS e por receita nos EUA, que fármacos a causam e quando o cabelo volta."],
   "/completeness/": ["Completude", "Quanto do que existe está no OnCo: cada tipo face a uma contagem do mundo com fonte, com os itens em falta nomeados."],

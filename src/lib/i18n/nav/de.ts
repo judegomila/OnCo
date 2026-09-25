@@ -150,6 +150,7 @@ export const navDe: NavDict = {
   "/costs/": ["Kosten der Krebsbehandlung senken", "Jeder Kostentreiber neben dem, was bereits geschieht, und den Ideen, die mehr bewirken könnten: Biosimilars, Preisverhandlung, Dosisoptimierung, kürzere Therapien, Gleichstellung, Vorabgenehmigung."],
   "/countries/in/": ["Indien im Detail", "Was Indien tut: Krebsprofil, Finanzierung der Versorgung, die CDSCO, Institutionen, Unternehmen, Studien und Menschen."],
   "/countries/cn/": ["China im Detail", "Was China tut: Krebsprofil, die NMPA, die nationale Erstattungsliste, Institutionen, Unternehmen, Studien und Menschen."],
+  "/countries/gb/": ["Vereinigtes Königreich im Detail", "Was das Vereinigte Königreich tut: vier Gesundheitssysteme unter einem Namen, wer zahlt, NICE und das SMC, Studien und Genomik, und was die Zahlen über seine Schwächen sagen."],
   "/live/complementary/": ["Komplementäre und unterstützende Ansätze", "Akupunktur, Achtsamkeit, Yoga, Kräuter, Diäten, Cannabis, Kühlkappen und mehr: was die Studien zeigen, ehrlich bewertet, und was zu meiden oder niemals statt der Behandlung zu nutzen ist."],
   "/live/hair/": ["Haarausfall und Nachwachsen", "Kopfhautkühlung und passende Schemata, Minoxidil bei anhaltender Ausdünnung, Brauen und Wimpern, Perücken über den NHS und auf Rezept in den USA, welche Medikamente ihn auslösen und wann das Haar zurückkommt."],
   "/completeness/": ["Vollständigkeit", "Wie viel von dem, was es gibt, in OnCo steht: jede Art gegen eine belegte Weltzahl, mit den fehlenden Einträgen beim Namen genannt."],

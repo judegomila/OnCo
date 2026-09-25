@@ -533,7 +533,10 @@ export const PersonSchema = Base.extend({
   kind: z.literal("person"),
   /** Current role and affiliation in one line, e.g. "Chief, Breast Medicine Service". */
   role: z.string(),
-  /** Primary institution id (also list in `institutions`). */
+  /**
+   * Primary affiliation id (also list in `institutions`): an institution, or a cooperative trials group, which is a
+   * company record of type cooperative-group (list those in `companies`).
+   */
   institutionId: id.optional(),
   specialisms: z.array(z.string()).default([]),
   /** Professional links: profile, lab, Google Scholar, ORCID, PubMed, X/LinkedIn. */

@@ -1,5 +1,5 @@
 /**
- * Oncology research output per institution from OpenAlex (CC0), five publication years.
+ * Oncology research output per institution (and per cooperative trials group, a company record since 25 September 2026) from OpenAlex (CC0), five publication years.
  *
  * For every institution record: resolve an OpenAlex institution id (the id already recorded in
  * public/openalex/institutions.json first; otherwise the free ROR affiliation matcher picks the ROR
@@ -35,9 +35,12 @@ import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
-import type { Institution, Person } from "../src/lib/schema";
+import type { Company, Institution, Person } from "../src/lib/schema";
 import { publicPath, sleep, today, writeJson } from "./feed-utils";
 import { acronymMatches, bareDoi, CLINICAL_TRIAL_CONCEPT, institutionCoreTokens, matchAuthorToPerson, nameSimilarity, ONCOLOGY_SUBFIELD, researchWindow, type InstitutionResearch, type MatchConfidence, type ResearchAuthor, type ResearchIndex, type ResearchIndexRow, type ResearchWork } from "../src/lib/research";
+
+/** What the matcher needs of a record: institutions, and cooperative trials groups, which are company records since 25 September 2026. */
+type Subject = Pick<Institution, "id" | "name" | "aka" | "country">;
 
 const MAILTO = "onco@judegomila.com";
 const API = "https://api.openalex.org";
@@ -136,7 +139,7 @@ type Candidate = { id: string; display_name: string; country_code?: string; type
 type Resolved = { oid: string; oname: string; ror: string | null; confidence: MatchConfidence };
 
 /** Names to try in order: the main name before any " / ", then each alias. */
-function searchNames(inst: Institution): string[] {
+function searchNames(inst: Subject): string[] {
   const main = inst.name.split(" / ")[0].replace(/\(.*?\)/g, "").trim();
   const rest = inst.name.split(" / ").slice(1).map((s) => s.replace(/\(.*?\)/g, "").trim());
   return [...new Set([main, ...(inst.aka ?? []), ...rest].filter((s) => s && /[a-z]/i.test(s)))];
@@ -146,7 +149,7 @@ type RorItem = { chosen: boolean; score: number; organization: { id: string; nam
 const ROR_TYPES = new Set(["healthcare", "education", "facility", "government", "nonprofit", "other", "funder"]);
 
 /** ROR's affiliation matcher: the chosen organisation for a name string, when it is confident and in the right country. */
-async function rorFor(inst: Institution): Promise<{ ror: string; name: string } | { reason: string }> {
+async function rorFor(inst: Subject): Promise<{ ror: string; name: string } | { reason: string }> {
   let reason = "ROR affiliation matcher found nothing";
   for (const q of searchNames(inst)) {
     const j = await getRor(`https://api.ror.org/v2/organizations?affiliation=${encodeURIComponent(q)}`);
@@ -163,7 +166,7 @@ async function rorFor(inst: Institution): Promise<{ ror: string; name: string } 
   return { reason };
 }
 
-async function resolve(inst: Institution, previous: Record<string, { openalexId: string; openalexName: string }>): Promise<Resolved | { reason: string }> {
+async function resolve(inst: Subject, previous: Record<string, { openalexId: string; openalexName: string }>): Promise<Resolved | { reason: string }> {
   const prev = previous[inst.id];
   if (prev) return { oid: prev.openalexId, oname: prev.openalexName, ror: null, confidence: "override" };
   if (OVERRIDE_IDS[inst.id]) {
@@ -207,7 +210,7 @@ type RawWork = {
   primary_location?: { source?: { display_name?: string } | null } | null;
 };
 
-async function pull(inst: Institution, r: Resolved, years: [number, number]): Promise<InstitutionResearch | null> {
+async function pull(inst: Subject, r: Resolved, years: [number, number]): Promise<InstitutionResearch | null> {
   const base = `authorships.institutions.lineage:${r.oid},primary_topic.subfield.id:${ONCOLOGY_SUBFIELD},publication_year:${years[0]}-${years[1]}`;
   const works = `${API}/works?filter=${base}`;
   // Sequential on purpose: the rate limiter in get() spaces requests about 200 ms apart.
@@ -353,7 +356,9 @@ async function main() {
   const fileOf = PEOPLE ? personFiles() : new Map<string, string>();
   const planned = new Map<string, number>();
   const additions: Addition[] = [];
-  const institutions = (g.kind("institution") as Institution[]).filter((i) => !SKIP.has(i.id));
+  // Cooperative trials groups (company records of type cooperative-group) keep their research snapshot under their id.
+  const groups = (g.kind("company") as Company[]).filter((c) => c.companyType === "cooperative-group");
+  const institutions = ([...(g.kind("institution") as Institution[]), ...groups] as Subject[]).filter((i) => !SKIP.has(i.id));
   const known = new Set(institutions.map((i) => i.id));
 
   // Unresolved verdicts carry over ("reason (checked YYYY-MM-DD)") and are retried after 30 days.

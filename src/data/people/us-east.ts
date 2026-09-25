@@ -1,4 +1,5 @@
 import type { PersonInput } from "@/lib/schema";
+import { COOPERATIVE_GROUP_IDS } from "../companies-cooperative-groups";
 
 /**
  * People: leading clinicians and scientists at US East Coast / Midwest centres and Toronto.
@@ -11,7 +12,8 @@ const doi = (title: string, journal: string, year: number, d: string, note?: str
 const paper = (title: string, journal: string, year: number, note?: string) => ({ title, journal, year, note });
 
 type P = Omit<PersonInput, "kind" | "asOf"> & { institutionId: string };
-const p = (x: P): PersonInput => ({ kind: "person", asOf, institutions: [x.institutionId], links: x.profiles, ...x });
+// A cooperative trials group is a company record, so a person whose primary affiliation is a group is filed under `companies`.
+const p = (x: P): PersonInput => ({ kind: "person", asOf, ...(COOPERATIVE_GROUP_IDS.has(x.institutionId) ? { companies: [x.institutionId] } : { institutions: [x.institutionId] }), links: x.profiles, ...x });
 
 export const peopleUsEast: PersonInput[] = [
   // =================== Memorial Sloan Kettering ===================

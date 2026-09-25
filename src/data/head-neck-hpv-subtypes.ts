@@ -40,7 +40,7 @@ export const headNeckHpvTrials: TrialInput[] = [
       { endpoint: "Progression-free survival at 2 years", primary: true, unit: "%", arms: [{ name: "Low risk, observation", value: 96.9 }, { name: "Intermediate risk, 50 Gy", value: 94.9 }, { name: "Intermediate risk, 60 Gy", value: 96.0 }, { name: "High risk, 66 Gy + cisplatin", value: 90.7 }] },
     ],
     replication: "PATHOS (phase 2/3, United Kingdom) is testing the same design with swallowing and survival endpoints; the Mayo Clinic MC1273 series reported similar control with even lower postoperative doses.",
-    drugs: ["cisplatin"], cancers: ["oropharyngeal-cancer", "hpv-positive-oropharyngeal-cancer"], technologies: ["tors", "imrt-igrt"], terms: ["hpv-p16", "pfs"], institutions: ["ecog-acrin"],
+    drugs: ["cisplatin"], cancers: ["oropharyngeal-cancer", "hpv-positive-oropharyngeal-cancer"], technologies: ["tors", "imrt-igrt"], terms: ["hpv-p16", "pfs"], companies: ["ecog-acrin"],
     links: [ct("NCT01898494")] },
   { id: "pathos", kind: "trial", name: "PATHOS", nct: "NCT02215265", phase: "2/3", status: "active", sponsor: "Velindre University NHS Trust", asOf,
     setting: "Resectable HPV-positive oropharyngeal cancer: transoral surgery and neck dissection, then risk-stratified reduction of adjuvant treatment (50 versus 60 Gy in intermediate risk; radiotherapy alone versus chemoradiation in high risk), with swallowing function and survival as endpoints",

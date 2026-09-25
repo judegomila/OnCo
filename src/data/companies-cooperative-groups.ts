@@ -17,14 +17,16 @@
  * website gives no seat or country (European Uro-Oncology Group, Nordic Myeloma Study Group, NOPHO, North American
  * Consortium for Histiocytosis); and the trials units and hospitals that are institutions, not groups (Wales Cancer Trials
  * Unit, Krankenhaus Nordwest, Dutch Childhood Oncology Group). SWOG, ECOG-ACRIN, NRG Oncology, Alliance, EORTC, COG,
- * JCOG, ANZUP, CCTG, BIG, GBG, UNICANCER and twenty other groups already have institution records of type consortium
- * (src/data/groups.ts, src/data/institutions/bodies.ts) and are left in place.
+ * JCOG, ANZUP, CCTG, BIG, GBG, UNICANCER and 23 other groups that had institution records of type consortium were moved
+ * to cooperative-group companies on 25 September 2026 (docs/IMPROVEMENTS-100.md row 251); they live in
+ * src/data/companies-cooperative-groups-migrated.ts, and the old /institutions/<id>/ routes redirect.
  *
  * Registered in src/data/index.ts as `companiesCooperativeGroups`; sponsor spellings carry the same ids in
  * src/data/sponsor-aliases.ts; scripts/fetch-entity-trials.ts links a registry lead sponsor through companyKeys, so the
  * registry spelling of each group is among its `aka`.
  */
 import type { CompanyInput } from "@/lib/schema";
+import { companiesCooperativeGroupsMigrated } from "./companies-cooperative-groups-migrated";
 
 const asOf = "2026-09-25";
 const tags = ["ctgov-sponsor", "cooperative-group"];
@@ -170,12 +172,16 @@ export const companiesCooperativeGroups: CompanyInput[] = [
 ];
 
 /**
- * Trial id to the cooperative group that sponsors it, derived from the records above and merged into each trial's
- * `companies` by src/data/index.ts (as trialCompaniesWave6 is), so every group has an inbound link and the trial page
- * names its sponsor as a record. A trial with two groups (SSG XVIII/AIO) lists both.
+ * Trial id to the cooperative group that sponsors it, derived from the records above and the migrated groups
+ * (companies-cooperative-groups-migrated.ts) and merged into each trial's `companies` by src/data/index.ts (as
+ * trialCompaniesWave6 is), so every group has an inbound link and the trial page names its sponsor as a record. A trial
+ * with two groups (SSG XVIII/AIO) lists both.
  */
+/** Ids of every cooperative-group company, for the people wrappers that file a person's primary affiliation under `institutions` or `companies` by kind. */
+export const COOPERATIVE_GROUP_IDS: ReadonlySet<string> = new Set([...companiesCooperativeGroups, ...companiesCooperativeGroupsMigrated].map((c) => c.id));
+
 export const cooperativeGroupTrialCompanies: Record<string, string[]> = (() => {
   const out: Record<string, string[]> = {};
-  for (const c of companiesCooperativeGroups) for (const t of c.trials ?? []) (out[t] ??= []).push(c.id);
+  for (const c of [...companiesCooperativeGroups, ...companiesCooperativeGroupsMigrated]) for (const t of c.trials ?? []) if (!(out[t] ?? []).includes(c.id)) (out[t] ??= []).push(c.id);
   return out;
 })();

@@ -10,13 +10,16 @@ const DOI_URL = /^https:\/\/doi\.org\/10\.\d{4,9}\/\S+$/;
 
 const files = existsSync(DIR) ? readdirSync(DIR).filter((f) => f.endsWith(".json")) : [];
 
+/** A research subject is an institution, or a cooperative trials group (a company record of type cooperative-group since 25 September 2026). */
+const isSubject = (e: ReturnType<ReturnType<typeof graph>["get"]>) => e?.kind === "institution" || (e?.kind === "company" && e.companyType === "cooperative-group");
+
 describe("institution research snapshots", () => {
-  it("every research file names an existing institution and every DOI carries the doi.org prefix", () => {
+  it("every research file names an existing institution or cooperative group and every DOI carries the doi.org prefix", () => {
     const g = graph();
     for (const f of files) {
       const id = f.replace(/\.json$/, "");
       const e = g.get(id);
-      expect(e?.kind, `${f} should belong to an institution record`).toBe("institution");
+      expect(isSubject(e), `${f} should belong to an institution or cooperative-group record`).toBe(true);
       const r = JSON.parse(readFileSync(join(DIR, f), "utf8")) as InstitutionResearch;
       expect(r.institutionId).toBe(id);
       expect(r.openalexId).toMatch(/^I\d+$/);
@@ -40,13 +43,13 @@ describe("institution research snapshots", () => {
     const ids = new Set(files.map((f) => f.replace(/\.json$/, "")));
     expect(new Set(Object.keys(index.institutions))).toEqual(ids);
     for (const [id, row] of Object.entries(index.institutions)) {
-      expect(g.get(id)?.kind).toBe("institution");
+      expect(isSubject(g.get(id)), id).toBe(true);
       const r = JSON.parse(readFileSync(join(DIR, `${id}.json`), "utf8")) as InstitutionResearch;
       expect(row.works).toBe(r.works);
       expect(row.cited).toBe(r.cited);
       expect(row.openalexId).toBe(r.openalexId);
     }
-    for (const id of Object.keys(index.unresolved)) expect(g.get(id)?.kind).toBe("institution");
+    for (const id of Object.keys(index.unresolved)) expect(isSubject(g.get(id)), id).toBe(true);
   });
 
   it("keeps each research file small", () => {

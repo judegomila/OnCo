@@ -137,7 +137,11 @@ describe("heavy pages page their sections", () => {
     // 603 KB after the registry outcomes pass of 24 Sept 2026 (130 more trials with posted results, six new sections).
     // 653 KB after the pancreatic deep dive of 24 Sept 2026 (32 hand-written trials with outcomes across the pancreatic
     // stage and biomarker sections, plus the UK, living and evidence layers); budget raised from 640 to 680 KB.
-    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(680 * KB);
+    // 682 KB after the prostate treatment layer of 25 Sept 2026: 44 hand-written trials, most of them with structured
+    // outcomes, spread across the prostate risk-band, hormone-sensitive and castration-resistant sections, so the page
+    // gains rows rather than sections. Budget raised from 680 to 700 KB. The page grows with the number of trials that
+    // carry outcomes, so raise it only alongside a wave that adds them, and check the growth is rows and not furniture.
+    expect(Buffer.byteLength(html, "utf8"), "explained markup").toBeLessThan(700 * KB);
   });
 
   it("idea rankings renders the first page of every view plus the Show more sentinel", () => {

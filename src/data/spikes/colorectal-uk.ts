@@ -681,7 +681,7 @@ const spike: Spike = {
     people: ["david-sebag-montefiore", "matt-seymour", "dion-morton", "john-burn", "rachel-kerr", "tim-maughan", "naureen-starling", "ian-chau"],
     trials: ["quasar", "scot", "cr07", "coin", "foxtrot", "mercury", "star-trec", "nottingham-fob", "ukfss"],
     links: [
-      { label: "NICE NG151: colorectal cancer", url: `${nice("ng151")}/chapter/Recommendations` },
+      // NG151 is linked by the living-with patch of this record; the same URL twice gives React duplicate-key errors.
       { label: "National Bowel Cancer Audit: State of the Nation 2025", url: S.nboca2025.url },
       { label: "Bowel Cancer UK", url: S.bcukHome.url },
     ],

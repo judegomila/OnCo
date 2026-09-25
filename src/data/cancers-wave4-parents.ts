@@ -14,6 +14,7 @@
  * said to be missing rather than estimated. Registered in src/data/index.ts as cancersWave4Parents.
  */
 import type { CancerInput } from "@/lib/schema";
+import { linkSiblings } from "./cancers-wave4-shared";
 
 const asOf = "2026-09-24";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
@@ -56,7 +57,7 @@ const SRC = {
 type Sub = Omit<CancerInput, "kind" | "asOf">;
 const sub = (x: Sub): CancerInput => ({ kind: "cancer", asOf, tags, ...x });
 
-export const cancersWave4Parents: CancerInput[] = [
+export const cancersWave4Parents: CancerInput[] = linkSiblings([
   // ---------------- Extragonadal germ cell tumour ----------------
   sub({ id: "mediastinal-germ-cell-tumour", name: "Mediastinal germ cell tumour", group: "genitourinary", parent: "extragonadal-germ-cell-tumour", wikipedia: W("Germ_cell_tumor"),
     aka: ["Primary mediastinal germ cell tumour", "Mediastinal seminoma", "Primary mediastinal non-seminomatous germ cell tumour", "PMNSGCT", "Mediastinal teratoma"],
@@ -189,4 +190,4 @@ export const cancersWave4Parents: CancerInput[] = [
     drugs: ["nivolumab", "pembrolizumab"],
     related: ["urethral", "mucosal-melanoma", "melanoma", "urethral-squamous-cell-carcinoma"],
     links: [SRC.pdqUrethral, SRC.olivaMel, SRC.dimarco, SRC.sanchez] }),
-];
+]);

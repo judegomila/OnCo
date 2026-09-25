@@ -16,6 +16,7 @@
  * src/data/index.ts as cancersWave4Lung.
  */
 import type { CancerInput } from "@/lib/schema";
+import { linkSiblings } from "./cancers-wave4-shared";
 
 const asOf = "2026-09-24";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
@@ -55,7 +56,7 @@ const SRC = {
 type Sub = Omit<CancerInput, "kind" | "asOf" | "group" | "parent">;
 const sub = (x: Sub): CancerInput => ({ kind: "cancer", asOf, group: "lung", parent: "nsclc", tags, ...x });
 
-export const cancersWave4Lung: CancerInput[] = [
+export const cancersWave4Lung: CancerInput[] = linkSiblings([
   sub({ id: "lung-adenocarcinoma", name: "Adenocarcinoma of the lung", wikipedia: W("Adenocarcinoma_of_the_lung"),
     aka: ["Lung adenocarcinoma", "Pulmonary adenocarcinoma", "Adenocarcinoma", "Adenocarcinoma (~50%)", "Non-squamous non-small-cell lung cancer (in trial entry criteria)", "Bronchioloalveolar carcinoma (term retired in 2011)"],
     burden: "About 40 percent of all lung cancers, the commonest histological type in many countries (NCI PDQ); Cancer Research UK also lists it as the most common type. GLOBOCAN counts it within the 2,480,675 lung cancers of 2022.",
@@ -199,4 +200,4 @@ export const cancersWave4Lung: CancerInput[] = [
     terms: ["lobectomy"],
     related: ["nsclc", "pulmonary-sarcomatoid-carcinoma", "pleuropulmonary-blastoma", "lung-adenocarcinoma"],
     links: [SRC.who2021, SRC.blastomaReview, SRC.blastomaDicer1] }),
-];
+]);

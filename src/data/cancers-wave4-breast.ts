@@ -16,6 +16,7 @@
  * UK; the rest quoted from the paper named beside each figure. Registered in src/data/index.ts as cancersWave4Breast.
  */
 import type { CancerInput } from "@/lib/schema";
+import { linkSiblings } from "./cancers-wave4-shared";
 
 const asOf = "2026-09-24";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
@@ -60,7 +61,7 @@ const SRC = {
 type Sub = Omit<CancerInput, "kind" | "asOf" | "group" | "parent">;
 const sub = (x: Sub): CancerInput => ({ kind: "cancer", asOf, group: "breast", parent: "breast-cancer", tags, ...x });
 
-export const cancersWave4Breast: CancerInput[] = [
+export const cancersWave4Breast: CancerInput[] = linkSiblings([
   sub({ id: "invasive-lobular-carcinoma", name: "Invasive lobular carcinoma of the breast", wikipedia: W("Invasive_lobular_carcinoma"),
     aka: ["Invasive lobular carcinoma", "ILC", "Lobular breast cancer", "Invasive lobular breast cancer", "Infiltrating lobular carcinoma", "Pleomorphic lobular carcinoma"],
     burden: "Around 15 in every 100 breast cancers, the second most common type (Cancer Research UK). GLOBOCAN counts it within the 2,296,840 breast cancers of 2022.",
@@ -260,4 +261,4 @@ export const cancersWave4Breast: CancerInput[] = [
     drugs: ["tamoxifen"], trials: ["tam-01"], terms: ["aromatase-inhibitor", "carcinoma-in-situ", "mastectomy"], targets: ["cdh1"],
     related: ["breast-cancer", "ductal-carcinoma-in-situ", "invasive-lobular-carcinoma", "breast-hr-positive"],
     links: [SRC.who2019, SRC.kingLcis, SRC.plcis, SRC.crukTypes] }),
-];
+]);

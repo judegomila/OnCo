@@ -59,7 +59,8 @@ describe("first 60 days guide", () => {
       expect(item.source.url).toMatch(/^https:\/\//);
       expect(`${item.item} ${item.why} ${item.when}`).not.toMatch(/[—–]/);
     }
-    expect(buildGuide(must("nsclc"), g).checklist).toBeUndefined();
+    expect(buildGuide(must("nsclc"), g).checklist).toBeDefined();
+    expect(buildGuide(must("glioblastoma"), g).checklist).toBeUndefined();
   });
 
   it("omits every data-driven section for a record with no optional fields", () => {

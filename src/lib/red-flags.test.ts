@@ -37,7 +37,9 @@ describe("red flags", () => {
     expect(redFlagsForCancerId("tnbc").map((s) => s.id)).toEqual(["tnbc-neutropenic-sepsis", "tnbc-immune-reactions", "tnbc-adc-lung"]);
     expect(redFlagsForCancerId("pancreatic").map((s) => s.id)).toEqual(["pancreatic-cholangitis", "pancreatic-biliary-obstruction", "pancreatic-neutropenic-sepsis", "pancreatic-bleeding", "pancreatic-bowel-obstruction", "pancreatic-blood-clot"]);
     expect(redFlagsForCancerId("colorectal").map((s) => s.id)).toEqual(["colorectal-bowel-obstruction", "colorectal-perforation-peritonitis", "colorectal-neutropenic-sepsis", "colorectal-bleeding", "colorectal-stoma-emergencies", "colorectal-oxaliplatin-egfr"]);
-    expect(redFlagsForCancerId("nsclc")).toEqual([]);
+    expect(redFlagsForCancerId("nsclc").map((s) => s.id)).toEqual(["lung-breathlessness", "lung-pneumonitis", "lung-neutropenic-sepsis", "lung-haemoptysis", "lung-svc-obstruction", "lung-spinal-cord-compression"]);
+    expect(redFlagsForCancerId("sclc").map((s) => s.id)).toEqual(redFlagsForCancerId("nsclc").map((s) => s.id));
+    expect(redFlagsForCancerId("mesothelioma")).toEqual([]);
   });
 
   it("matches the main classes by id or modality", () => {

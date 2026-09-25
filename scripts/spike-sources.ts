@@ -74,13 +74,14 @@ import lungTreatment from "../src/data/spikes/lung-treatment";
 import prostateCore from "../src/data/spikes/prostate-core";
 import prostateTreatment from "../src/data/spikes/prostate-treatment";
 import prostateGlossary from "../src/data/spikes/prostate-glossary";
+import breastTreatment from "../src/data/spikes/breast-treatment";
 
 /** File stem -> spike, so the test can compare against `readdirSync("src/data/spikes")`. */
 export const SPIKE_FILES: Record<string, Spike> = {
   nsclc, prostate, pancreatic, "pancreatic-core": pancreaticCore, "pancreatic-uk": pancreaticUk, "colorectal-uk": colorectalUk, "lung-uk": lungUk, "prostate-evidence": prostateEvidence, glioblastoma, "breast-hr-positive": breastHr, "breast-her2-positive": breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, "prostate-uk": prostateUk,
   "head-and-neck": headAndNeck, thyroid, colorectal, "colorectal-core": colorectalCore, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, "all-leukemia": allLeukemia,
   cll, dlbcl, "multiple-myeloma": multipleMyeloma, "hodgkin-lymphoma": hodgkin, sarcoma, neuroblastoma, "gallbladder-living": gallbladderLiving, "gallbladder-molecular": gallbladderMolecular, "gallbladder-core": gallbladderCore, "gallbladder-uk": gallbladderUk, "gallbladder-evidence": gallbladderEvidence, "gallbladder-treatment": gallbladderTreatment,
-  "gallbladder-geography": gallbladderGeography, "tnbc-core": tnbcCore, "tnbc-evidence": tnbcEvidence, "tnbc-uk": tnbcUk, "tnbc-living": tnbcLiving, "tnbc-molecular": tnbcMolecular, "tnbc-treatment": tnbcTreatment, "pancreatic-living": pancreaticLiving, "pancreatic-evidence": pancreaticEvidence, "pancreatic-treatment": pancreaticTreatment, "pancreatic-molecular": pancreaticMolecular, "colorectal-living": colorectalLiving, "colorectal-molecular": colorectalMolecular, "colorectal-evidence": colorectalEvidence, "colorectal-treatment": colorectalTreatment, "lung-core": lungCore, "lung-living": lungLiving, "lung-evidence": lungEvidence, "lung-molecular": lungMolecular, "lung-treatment": lungTreatment, "prostate-core": prostateCore, "prostate-living": prostateLiving, "prostate-treatment": prostateTreatment, "prostate-glossary": prostateGlossary, "prostate-molecular": prostateMolecular,
+  "gallbladder-geography": gallbladderGeography, "tnbc-core": tnbcCore, "tnbc-evidence": tnbcEvidence, "tnbc-uk": tnbcUk, "tnbc-living": tnbcLiving, "tnbc-molecular": tnbcMolecular, "tnbc-treatment": tnbcTreatment, "pancreatic-living": pancreaticLiving, "pancreatic-evidence": pancreaticEvidence, "pancreatic-treatment": pancreaticTreatment, "pancreatic-molecular": pancreaticMolecular, "colorectal-living": colorectalLiving, "colorectal-molecular": colorectalMolecular, "colorectal-evidence": colorectalEvidence, "colorectal-treatment": colorectalTreatment, "lung-core": lungCore, "lung-living": lungLiving, "lung-evidence": lungEvidence, "lung-molecular": lungMolecular, "lung-treatment": lungTreatment, "prostate-core": prostateCore, "prostate-living": prostateLiving, "prostate-treatment": prostateTreatment, "prostate-glossary": prostateGlossary, "prostate-molecular": prostateMolecular, "breast-treatment": breastTreatment,
 };
 
 /** Spike files that are not spikes (the registry itself, and gap-cancers which exports plain entities). */
@@ -89,6 +90,8 @@ export const NON_SPIKE_FILES = ["index", "gap-cancers", "nci-paediatric", "nci-r
   // Helpers of the lung-treatment spike: shared constants, the hand-written trial lists, the registry snapshot and the sponsor backfill.
   "lung-treatment-shared", "lung-treatment-trials", "lung-treatment-trials-advanced", "lung-treatment-trials-sclc", "lung-registry-trials", "lung-trial-sponsors",
   // Helpers of the prostate-treatment spike: shared constants and the hand-written trial lists.
-  "prostate-treatment-shared", "prostate-treatment-trials-localised", "prostate-treatment-trials-hormone", "prostate-treatment-trials-crpc", "prostate-treatment-trials-failed"];
+  "prostate-treatment-shared", "prostate-treatment-trials-localised", "prostate-treatment-trials-hormone", "prostate-treatment-trials-crpc", "prostate-treatment-trials-failed",
+  // Helpers of the breast-treatment spike: shared constants and the hand-written trial lists.
+  "breast-treatment-shared", "breast-treatment-trials-surgery", "breast-treatment-trials-radiotherapy", "breast-treatment-trials-reconstruction"];
 
 export const spikeSources: Spike[] = Object.values(SPIKE_FILES);

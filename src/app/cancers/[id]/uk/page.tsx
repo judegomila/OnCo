@@ -163,7 +163,7 @@ function Page({ p, id }: { p: UkPathway; id: string }) {
           <div className="grid gap-3 sm:grid-cols-3 mb-4">
             {p.presentation.map((x) => (
               <div key={x.title} className="card p-4">
-                <div className="flex items-center justify-between gap-2"><div className="font-semibold inline-flex items-center gap-1.5"><Ico name="door" className="h-4 w-4 text-accent" />{x.title}</div>{x.share && <span className="chip bg-accent-soft text-accent text-[11px] tabular-nums">{x.share}</span>}</div>
+                <div className="flex flex-wrap items-center justify-between gap-2"><div className="font-semibold inline-flex flex-wrap items-center gap-1.5 min-w-0"><Ico name="door" className="h-4 w-4 text-accent" />{x.title}</div>{x.share && <span className="chip bg-accent-soft text-accent text-[11px] tabular-nums whitespace-normal">{x.share}</span>}</div>
                 <p className="text-sm mt-2 text-foreground/85 leading-relaxed">{x.detail}</p>
                 <Sources items={x.sources} className="mt-2" />
               </div>
@@ -245,11 +245,11 @@ function Page({ p, id }: { p: UkPathway; id: string }) {
                 <div key={t.url} className="card p-4 flex flex-col">
                   <div className="flex flex-wrap items-center gap-2">
                     <span className="chip bg-foreground/5 text-[11px]">{t.registry}</span>
-                    <span className={`chip text-[11px] ${/open|recruit/i.test(t.status) ? "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300" : "bg-foreground/5"}`}>{t.status}</span>
+                    <span className={`chip text-[11px] whitespace-normal ${/open|recruit/i.test(t.status) ? "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300" : "bg-foreground/5"}`}>{t.status}</span>
                   </div>
                   <div className="font-semibold mt-2">{rec ? <Link href={routeFor(rec)} className="hover:underline">{t.name}</Link> : t.name}</div>
                   <div className="text-xs text-muted mt-0.5">{t.setting}</div>
-                  <div className="mt-2 flex flex-wrap gap-1">{t.sites.map((s) => <span key={s} className="chip border border-border bg-card text-[11px]">{s}</span>)}</div>
+                  <div className="mt-2 flex flex-wrap gap-1">{t.sites.map((s) => <span key={s} className="chip border border-border bg-card text-[11px] whitespace-normal">{s}</span>)}</div>
                   {t.note && <p className="text-sm text-muted mt-2">{t.note}</p>}
                   <a href={t.url} className="mt-3 text-sm underline text-accent" rel="noopener noreferrer">Registry or sponsor page →</a>
                 </div>

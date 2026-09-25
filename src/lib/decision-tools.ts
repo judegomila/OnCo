@@ -1,6 +1,7 @@
 import { gallbladderPolypTool } from "@/data/decision-tools/gallbladder-polyp";
 import { incidentalGallbladderCancerTool } from "@/data/decision-tools/incidental-gallbladder-cancer";
 import { tnbcAfterChemotherapyTool } from "@/data/decision-tools/tnbc-after-chemotherapy";
+import { pancreaticFirstTreatmentTool } from "@/data/decision-tools/pancreatic-first-treatment";
 
 /**
  * Decision aids (/tools/<id>/): a handful of questions, and for the answers given, the guideline statement that
@@ -73,7 +74,7 @@ export type DecisionTool = {
   asOf: string;
 };
 
-export const DECISION_TOOLS: DecisionTool[] = [gallbladderPolypTool, incidentalGallbladderCancerTool, tnbcAfterChemotherapyTool];
+export const DECISION_TOOLS: DecisionTool[] = [gallbladderPolypTool, incidentalGallbladderCancerTool, tnbcAfterChemotherapyTool, pancreaticFirstTreatmentTool];
 
 export const toolRoute = (id: string) => `/tools/${id}/`;
 

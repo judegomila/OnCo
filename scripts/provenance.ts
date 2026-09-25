@@ -72,8 +72,24 @@ for (const file of files) {
   const rel = relative(root, file);
   const fileKind = FILE_KIND[basename(file, ".ts")];
   const idLines: Array<{ id: string; line: number; indent: number }> = [];
-  // An entity record starts on a line with `id: "<kebab>"` that also carries `kind:` or `name:` (pathway nodes carry `label:` instead).
-  src.forEach((l, i) => { const m = /^(\s*).*?\bid: "([a-z0-9-]+)"/.exec(l); if (m && /\b(kind|name):/.test(l)) idLines.push({ id: m[2], line: i, indent: m[1].length }); });
+  /**
+   * An entity record starts on a line carrying its id. Three forms occur:
+   *   - `id: "tnbc", kind: "cancer", name: ...`   hand-written records, one line
+   *   - `id: "b-tumor-heterogeneity",`            hand-written records with the id on its own line (bottlenecks, papers)
+   *   - `t({"id":"ctnnb1","kind":"target",...})`  generated files (targets-genes-wave.ts and the other catalogue layers)
+   * A line counts when it declares the record's `kind` or `name` (the JSON key form included), or, for the id-alone
+   * form, when one of the next two lines does and the id names a record in the graph. That keeps out the supplement
+   * calls (`sup<TargetInput>({ id: "ctnnb1", notes: [...] })`) and reference rows that carry an id and no record.
+   * Before this, 1,441 catalogue genes and 45 bottlenecks had no provenance line although their file and commit were
+   * right there in the blame.
+   */
+  const declares = (l: string | undefined) => !!l && /\b"?(kind|name)"?:\s?"/.test(l);
+  src.forEach((l, i) => {
+    const m = /^(\s*).*?\b"?id"?:\s?"([a-z0-9-]+)"/.exec(l);
+    if (!m) return;
+    // The record's kind or name on the same line, or on one of the next two when the id sits alone on its line.
+    if (declares(l) || (g.byId.has(m[2]) && (declares(src[i + 1]) || declares(src[i + 2])))) idLines.push({ id: m[2], line: i, indent: m[1].length });
+  });
   for (let k = 0; k < idLines.length; k++) {
     const { id, line } = idLines[k];
     const end = k + 1 < idLines.length ? idLines[k + 1].line : src.length;

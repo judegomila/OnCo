@@ -32,6 +32,8 @@ export const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `
 export const isrctn = (id: string) => ({ label: `ISRCTN registry ${id}`, url: `https://www.isrctn.com/${id}` });
 export const doi = (label: string, id: string) => ({ label, url: `https://doi.org/${id}` });
 export const nice = (ref: string, label: string) => ({ label: `NICE ${ref.toUpperCase()}: ${label}`, url: `https://www.nice.org.uk/guidance/${ref}` });
+/** Terminated appraisals live under /guidance/terminated/; /guidance/<ref> redirects there, so the address is written out. */
+export const niceTerminated = (ref: string, label: string) => ({ label: `NICE ${ref.toUpperCase()}: ${label}`, url: `https://www.nice.org.uk/guidance/terminated/${ref}` });
 export const D = (id: string) => `https://doi.org/${id}`;
 
 export const t = (x: Omit<TrialInput, "kind" | "asOf">): TrialInput => ({ kind: "trial", asOf, ...x });
@@ -43,6 +45,8 @@ export const SRC = {
   // Localised disease: monitoring, surgery, radiotherapy
   protect15: D("10.1056/NEJMoa2214122"), protect10: D("10.1056/NEJMoa1606220"), protectPro: D("10.1056/NEJMoa1606221"),
   spcg4: D("10.1056/NEJMoa1807801"), pivot: D("10.1056/NEJMoa1615869"),
+  // Screening, the trials the whole diagnostic pathway rests on
+  erspc2009: D("10.1056/NEJMoa0810084"), erspc16: D("10.1016/j.eururo.2019.02.009"), plco2009: D("10.1056/NEJMoa0810696"),
   // Fractionation and technique
   chhip: D("10.1016/S1470-2045(16)30102-4"), hypoRtPc: D("10.1016/S0140-6736(19)31131-6"),
   hypoRtPcQol: D("10.1016/S1470-2045(20)30581-7"), rtog0415: D("10.1200/JCO.2016.67.0448"),

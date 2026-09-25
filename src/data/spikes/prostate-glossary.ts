@@ -52,7 +52,7 @@ const tags = ["gu", "prostate-glossary"];
 
 const SRC = {
   ng131: { label: "NICE NG131: prostate cancer, diagnosis and management (recommendations)", url: "https://www.nice.org.uk/guidance/ng131/chapter/Recommendations" },
-  ng131terms: { label: "NICE NG131: terms used in this guideline (template biopsy and mapping template biopsy)", url: "https://www.nice.org.uk/guidance/ng131/chapter/Terms-used-in-this-guideline" },
+  ng131terms: { label: "NICE NG131: terms used in this guideline (template biopsy and mapping template biopsy)", url: "https://www.nice.org.uk/guidance/ng131/chapter/Recommendations#terms-used-in-this-guideline" },
   rcpath: { label: "Royal College of Pathologists G084: dataset for histopathology reports for prostatic carcinoma, version 4, October 2024", url: "https://www.rcpath.org/static/8cc88604-2c8d-4df4-a99542df41c102af/G084-dataset-for-histopathology-reports-for-prostatic-carcinoma.pdf" },
   who2022: { label: "WHO Classification of Tumours, 5th edition: tumours of the prostate (IARC, 2022)", url: "https://tumourclassification.iarc.who.int/chapters/36" },
   kench2022: doi("Kench et al., Histopathology 2022: WHO Classification of Tumours fifth edition, evolving issues in the classification, diagnosis and prognostication of prostate cancer", "10.1111/his.14711"),

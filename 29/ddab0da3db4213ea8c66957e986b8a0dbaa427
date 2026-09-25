@@ -1,0 +1,9 @@
+docs/PROSTATE-QA.md
+  ai_agent 269-282
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "29ddab0da3db4213ea8c66957e986b8a0dbaa427",
+  "prompts": {}
+}

@@ -1,0 +1,21 @@
+src/data/spikes/prostate-molecular.ts
+  s_0beac9cb5d78fd::t_b2727400bafd42 797
+  s_0beac9cb5d78fd::t_551551cfd1858e 805
+  s_0beac9cb5d78fd::t_764b5ad68d4b65 613
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b66ed0b7b607220782ac04a1fd1c470843828841",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

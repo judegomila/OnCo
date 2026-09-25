@@ -402,6 +402,11 @@ describe("Ask OnCo end to end", () => {
     // the counts by provenance instead (0.6 a record) measured 0.407 and a lower registry weight (0.5) 0.408, so neither
     // was kept. Natural set 0.886 to 0.892, natural-2 0.983 to 0.978, pipeline benchmark rubric 0.841 to 0.846.
     { date: "2026-09-24", recall: 0.427, note: "inverse document frequency over curated records only; extractive rubric 0.683" },
+    // 25 Sept 2026, lung deep dive: 323 registry trials and 36 hand-written lung trials measured 0.4193, below the
+    // floor, because IALT ("International Adjuvant Lung Cancer Trial") and KEYNOTE-091 out-matched adaura on lung-17,
+    // whose name is four letters and whose aka was empty. Fixed in the record, not the bar: adaura gained the aliases
+    // "Adjuvant osimertinib after complete resection of EGFR-mutant lung cancer" and "ADAURA trial".
+    { date: "2026-09-25", recall: 0.4243, note: "lung deep dive plus the ADAURA aliases; extractive rubric 0.685" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

@@ -77,6 +77,8 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
   // ACTRN pattern does not cover; STARS and ROSEL is a pooled analysis of two trials (NCT00840749, NCT00687986), so
   // no single registry id belongs on the record.
   "ialt", "jbr-10", "turrisi-intergroup-0096", "dutch-bone-metastasis-study", "jcog0802", "jrosg-99-1", "ample", "stars-rosel",
+  // J-ALEX is registered with the Japan Pharmaceutical Information Center as JapicCTI-132316 only.
+  "j-alex",
   // Pre-registration chemoradiation and nodal trials (INT-0116, German rectal, ACT II, RTOG 91-11, DBCG 82, EORTC 26951, Slotman and Takahashi PCI).
   "int-0116", "cao-aro-aio-94", "act-ii", "rtog-91-11", "dbcg-82bc", "eortc-26951", "slotman-pci-es-sclc", "takahashi-pci",
   // Indian academic trials registered with the Clinical Trials Registry - India (CTRI) or run before registration was required.

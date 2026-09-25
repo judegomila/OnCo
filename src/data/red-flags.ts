@@ -715,7 +715,9 @@ export const redFlagSets: RedFlagSet[] = [
   {
     id: "breast-infection-sepsis",
     label: "Breast cancer: infection and sepsis, during chemotherapy and after surgery",
-    cancerIds: ["breast-cancer"],
+    // Triple-negative has its own sepsis card naming the drugs it is given, so this one stops short of that page:
+    // one page, one sepsis card. The other three breast sets have no subtype equivalent and reach every branch.
+    cancerIds: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "invasive-lobular-carcinoma", "inflammatory-breast-cancer", "male-breast-cancer", "ductal-carcinoma-in-situ"],
     concernIds: ["febrile-neutropenia", "neutropenic-sepsis-breast-chemotherapy", "seroma-after-breast-surgery"],
     window: "Chemotherapy for any type of breast cancer lowers the white cell count, and the count is usually at its lowest 7 to 14 days after each dose. A breast or chest wall wound is the other route in, in the first weeks after an operation.",
     flags: [
@@ -728,7 +730,7 @@ export const redFlagSets: RedFlagSet[] = [
   {
     id: "breast-cord-compression",
     label: "Breast cancer: spinal cord compression, the emergency nobody mentions at diagnosis",
-    cancerIds: ["breast-cancer"],
+    cancerIds: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-lobular-carcinoma", "inflammatory-breast-cancer", "male-breast-cancer", "ductal-carcinoma-in-situ"],
     concernIds: ["metastatic-spinal-cord-compression", "bone-metastases"],
     window: "Bone is where breast cancer goes first and most often, and a deposit in the spine can press on the cord. Treated within hours the damage is usually recoverable; left for days it may not be. This applies at any time after a diagnosis, including years later.",
     flags: [
@@ -740,7 +742,7 @@ export const redFlagSets: RedFlagSet[] = [
   {
     id: "breast-lymphoedema-cellulitis",
     label: "Breast cancer: a hot, red or suddenly swollen arm after lymph node surgery or radiotherapy",
-    cancerIds: ["breast-cancer"],
+    cancerIds: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-lobular-carcinoma", "inflammatory-breast-cancer", "male-breast-cancer", "ductal-carcinoma-in-situ"],
     concernIds: ["lymphoedema-after-breast-cancer", "lymphoedema-decongestive-therapy", "lymphadenectomy"],
     window: "An arm whose lymph nodes have been removed or irradiated drains badly and fights infection badly, so cellulitis in it can move fast. The risk is lifelong, and how long ago the surgery was does not make it less urgent.",
     flags: [
@@ -753,7 +755,7 @@ export const redFlagSets: RedFlagSet[] = [
   {
     id: "breast-recurrence-signs",
     label: "Breast cancer: the symptoms that are worth a phone call rather than a wait",
-    cancerIds: ["breast-cancer"],
+    cancerIds: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-lobular-carcinoma", "inflammatory-breast-cancer", "male-breast-cancer", "ductal-carcinoma-in-situ"],
     concernIds: ["brain-metastases", "bone-metastases", "survivorship-care-plan"],
     window: "Breast Cancer Now's rule is easier to hold than a list: talk to your GP or breast care nurse about any symptom that is new, does not have an obvious cause, and does not go away. Most turn out to be something else. Waiting months in order not to make a fuss is the thing to avoid.",
     flags: [

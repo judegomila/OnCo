@@ -34,7 +34,11 @@ describe("red flags", () => {
       for (const id of s.concernIds ?? []) expect(g.get(id), `${s.id}: ${id}`).toBeDefined();
     }
     expect(redFlagsForCancerId("gallbladder").map((s) => s.id)).toEqual(["biliary-cholangitis", "biliary-obstruction", "biliary-bleeding", "biliary-pain"]);
-    expect(redFlagsForCancerId("tnbc").map((s) => s.id)).toEqual(["tnbc-neutropenic-sepsis", "tnbc-immune-reactions", "tnbc-adc-lung"]);
+    // The family's cards reach the branch pages, as they do for prostate and lung: a triple-negative reader was
+    // getting no spinal cord compression card at all. The family sepsis card stops short of this page because
+    // this page has its own, naming the drugs it is given; one page, one sepsis card.
+    expect(redFlagsForCancerId("tnbc").map((s) => s.id)).toEqual(["tnbc-neutropenic-sepsis", "tnbc-immune-reactions", "tnbc-adc-lung", "breast-cord-compression", "breast-lymphoedema-cellulitis", "breast-recurrence-signs"]);
+    expect(redFlagsForCancerId("breast-her2-positive").map((s) => s.id)).toEqual(["breast-infection-sepsis", "breast-cord-compression", "breast-lymphoedema-cellulitis", "breast-recurrence-signs"]);
     expect(redFlagsForCancerId("pancreatic").map((s) => s.id)).toEqual(["pancreatic-cholangitis", "pancreatic-biliary-obstruction", "pancreatic-neutropenic-sepsis", "pancreatic-bleeding", "pancreatic-bowel-obstruction", "pancreatic-blood-clot"]);
     expect(redFlagsForCancerId("colorectal").map((s) => s.id)).toEqual(["colorectal-bowel-obstruction", "colorectal-perforation-peritonitis", "colorectal-neutropenic-sepsis", "colorectal-bleeding", "colorectal-stoma-emergencies", "colorectal-oxaliplatin-egfr"]);
     expect(redFlagsForCancerId("nsclc").map((s) => s.id)).toEqual(["lung-breathlessness", "lung-pneumonitis", "lung-neutropenic-sepsis", "lung-haemoptysis", "lung-svc-obstruction", "lung-spinal-cord-compression"]);

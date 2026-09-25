@@ -1,5 +1,5 @@
 import { graph } from "@/lib/graph";
-import { phaseLabel, routeFor } from "@/lib/kinds";
+import { phaseLabel, routeFor, facetLabel } from "@/lib/kinds";
 import { type Cancer, type Drug, type Entity, type Technology, type Trial } from "@/lib/schema";
 import { DrugGrid } from "./DrugCard";
 import { ChipList } from "./ui";
@@ -20,7 +20,7 @@ const TRIAL_CAP = 48;
 
 export function CancerPipeline({ c }: { c: Cancer }) {
   const g = graph();
-  const trialsHref = `/trials/?cancers=${encodeURIComponent(c.name)}`;
+  const trialsHref = `/trials/?cancers=${encodeURIComponent(facetLabel(c.name))}`;
   const forMe = g.forCancer(c.id);
   const curated = c.pipeline.map((id) => g.get(id)).filter((x): x is Entity => !!x);
   const seen = new Set<string>();

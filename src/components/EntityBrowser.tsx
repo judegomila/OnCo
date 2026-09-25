@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { normalisePhaseLabel } from "@/lib/kinds";
+import { facetLabel, normalisePhaseLabel } from "@/lib/kinds";
 import Link from "next/link";
 import { valueTone } from "@/lib/valueTone";
 import { ValueIcon } from "@/components/ValueIcon";
@@ -104,9 +104,9 @@ export type CellValue = string | number | undefined | RichText | FacetLink | Yea
 export { cellText };
 
 /** `normalise` names a client-side mapper of historical URL values to the current facet label, so old shared links keep filtering. A string key, not a function: facet definitions cross the server-to-client boundary. */
-const NORMALISERS: Record<"phase", (value: string) => string> = { phase: normalisePhaseLabel };
+const NORMALISERS: Record<"phase" | "cancer", (value: string) => string> = { phase: normalisePhaseLabel, cancer: facetLabel };
 
-export type FacetDef = { key: string; label: string; searchable?: boolean; width?: string; order?: string[]; normalise?: "phase" };
+export type FacetDef = { key: string; label: string; searchable?: boolean; width?: string; order?: string[]; normalise?: "phase" | "cancer" };
 export type ColDef = { key: string; label: string; sortable?: boolean; hide?: string; className?: string; numeric?: boolean; chip?: boolean; tip?: string; /** Tips for chip/string values keyed by value, e.g. { "Phase 3": "..." }. */ valueTips?: Record<string, string>;
   /** The facet this column filters from its header. Defaults to the facet with the column's key, or the facet its chips point at; `null` turns the header filter off. */
   facet?: string | null;

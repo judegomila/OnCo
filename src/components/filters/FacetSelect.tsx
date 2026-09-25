@@ -50,15 +50,37 @@ export function FacetSelect({ label: labelEn, options, value, onChange, multi = 
   useEffect(() => { if (open) setTimeout(() => input.current?.focus(), 0); }, [open]);
 
   const selected = useMemo(() => new Set(Array.isArray(value) ? value : value ? [value] : []), [value]);
+  /**
+   * How well an option answers what was typed. Substring alone is not enough: the options arrive in count order,
+   * so typing "stan" put Stanford below every larger sponsor whose name merely contains those letters. An exact
+   * match comes first, then a label that starts with the words, then a word inside the label that starts with
+   * them, then anything containing them, and last a match only in the underlying value. Ties keep the order the
+   * options came in, which is the count or the facet's own order, so the ranking never reshuffles equal answers.
+   */
+  const rank = (o: FacetOption, n: string) => {
+    const label = o.label.toLowerCase();
+    const value = o.value.toLowerCase();
+    if (label === n || value === n) return 0;
+    if (label.startsWith(n)) return 1;
+    if (label.split(/[^a-z0-9]+/i).some((w) => w.startsWith(n))) return 2;
+    if (label.includes(n)) return 3;
+    if (value.includes(n)) return 4;
+    return 5;
+  };
+
   const filtered = useMemo(() => {
     const n = q.trim().toLowerCase();
-    return n ? options.filter((o) => o.label.toLowerCase().includes(n) || o.value.toLowerCase().includes(n)) : options;
+    if (!n) return options;
+    return options.map((o, i) => ({ o, r: rank(o, n), i })).filter((x) => x.r < 5).sort((a, b) => a.r - b.r || a.i - b.i).map((x) => x.o);
   }, [options, q]);
+
   const groups = useMemo(() => {
     const m = new Map<string, FacetOption[]>();
     for (const o of filtered) { const g = o.group ?? ""; m.set(g, [...(m.get(g) ?? []), o]); }
-    return [...m.entries()];
-  }, [filtered]);
+    // What is already chosen goes to the top of its group, so a reader can see and undo a filter without
+    // hunting for it: with hundreds of options the chosen one is otherwise wherever its count happens to put it.
+    return [...m.entries()].map(([g, list]) => [g, [...list.filter((o) => selected.has(o.value)), ...list.filter((o) => !selected.has(o.value))]] as [string, FacetOption[]]);
+  }, [filtered, selected]);
 
   const summary = selected.size === 0 ? (placeholder ?? all) : selected.size === 1 ? (options.find((o) => selected.has(o.value))?.label ?? [...selected][0]) : t("table.nSelected", { n: selected.size });
 

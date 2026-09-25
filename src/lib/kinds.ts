@@ -136,8 +136,25 @@ export function routeFor(e: { kind: Kind; id: string }): string {
   return `/${KIND_META[e.kind].route}/${e.id}/`;
 }
 
+/**
+ * The label a table facet uses for a record: its name without a trailing parenthetical. "Lung cancer (all types)"
+ * filters as "Lung cancer". Exported because the links that pre-filter a table have to build the same string: a
+ * cancer page linked to `/trials/?cancers=Breast cancer (all types)` and the table, which had shortened its
+ * values, matched nothing and showed an empty list.
+ */
+export const facetLabel = (name: string) => name.replace(/ \(.*\)$/, "");
+
 /** Trial phase values (the `phase` enum in schema.ts) in display order: late-stage first, then platform and observational designs. */
 export const PHASE_ORDER = ["3", "2/3", "platform", "2", "1/2", "1", "4", "observational"] as const;
+
+/**
+ * The same values in the order a drug meets them, earliest first. A filter is a list of the choices available,
+ * and a reader scanning it is asking "how far along?", so the list should run the way time does. PHASE_ORDER is
+ * the other question, "what is furthest along?", and stays as it is: a dossier's trial list leads with phase 3.
+ * Phase 4 is after approval, so it follows phase 3; platform and observational designs sit outside the sequence
+ * and go last.
+ */
+export const PHASE_FILTER_ORDER = ["1", "1/2", "2", "2/3", "3", "4", "platform", "observational"] as const;
 
 const PHASE_LABEL: Record<string, string> = { "3": "Phase 3", "2/3": "Phase 2/3", "2": "Phase 2", "1/2": "Phase 1/2", "1": "Phase 1", "4": "Phase 4", platform: "Platform trial", observational: "Observational study" };
 

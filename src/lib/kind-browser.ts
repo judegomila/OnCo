@@ -3,7 +3,7 @@ import { graph } from "@/lib/graph";
 import { logoSrc } from "@/lib/logos";
 import { portraitSrc } from "@/lib/portraits";
 import { rankInstitutions } from "@/lib/ranking";
-import { PHASE_ORDER, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
+import { PHASE_FILTER_ORDER, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
 import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_DISTRIBUTION_LABEL, TARGET_DISTRIBUTIONS, TARGET_ROLE_LABEL, TARGET_ROLES, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, type Entity } from "@/lib/schema";
 import { distributionTip, specificityTip, TUMOUR_AGNOSTIC_FACET } from "@/lib/target-specificity";
 import { COMPANY_TYPE_LABEL, portfolioOf, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf } from "@/lib/startups";
@@ -28,6 +28,25 @@ const HERO_ROLE_LABEL: Record<string, string> = { donor: "Donors", patient: "Pat
 export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[]; columns: ColDef[]; hideStatus?: boolean; hideTldr?: boolean; defaultSort?: { key: string; dir: 1 | -1 } } {
   const g = graph();
   const names = (ids: string[]) => ids.map((id) => short(g.must(id).name));
+  /**
+   * Cancer facet values for a row: the cancers it names, plus every family above them. A trial in triple-negative
+   * breast cancer is a breast cancer trial, and a reader filtering the table has usually not yet worked out which
+   * subtype is hers, so filtering on the family must find it. Without this, `/trials/?cancers=Breast cancer` came
+   * back empty while 484 breast trials sat in the table under their subtypes. This is the same rule the family
+   * pages follow (docs/CANCER-FAMILIES.md); here it decides what a filter matches rather than what a page shows.
+   */
+  const cancerFacet = (ids: string[]) => {
+    const out = new Set<string>();
+    for (const id of ids) {
+      let cur = g.get(id);
+      for (let hops = 0; cur && hops < 8; hops++) {
+        out.add(short(cur.name));
+        const parent: string | undefined = cur.kind === "cancer" ? cur.parent : undefined;
+        cur = parent ? g.get(parent) : undefined;
+      }
+    }
+    return [...out];
+  };
   const links = (ids: string[]) => ids.map((id) => { const x = g.must(id); return { label: short(x.name), href: routeFor(x), tip: x.tldr }; });
   const base = (e: Entity): BrowserRow => ({ id: e.id, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status, kind: e.kind, facets: {}, cols: {} });
   /**
@@ -177,8 +196,8 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
       defaultSort: { key: "category", dir: 1 },
     };
     case "trial": return {
-      rows: g.kind("trial").map((t) => ({ ...base(t), ...borrowed(t), sub: t.nct, facets: { phase: [phaseLabel(t.phase)], cancers: names(t.cancers), sponsor: sponsorParts(t.sponsor), drugs: names(t.drugs) }, cols: { phase: fl("phase", phaseLabel(t.phase)), cancers: links(t.cancers), drugs: links(t.drugs), sponsor: sponsorCell(t.sponsor), year: t.yearReported }, sortKeys: { year: t.yearReported ?? 0 }, tie: t.yearReported ?? 0 })),
-      facets: [{ key: "cancers", label: "Cancer", width: "w-56" }, { key: "phase", label: "Phase", searchable: false, width: "w-40", order: PHASE_ORDER.map(phaseLabel), normalise: "phase" }, { key: "drugs", label: "Product", width: "w-48" }, { key: "sponsor", label: "Sponsor", width: "w-48" }],
+      rows: g.kind("trial").map((t) => ({ ...base(t), ...borrowed(t), sub: t.nct, facets: { phase: [phaseLabel(t.phase)], cancers: cancerFacet(t.cancers), sponsor: sponsorParts(t.sponsor), drugs: names(t.drugs) }, cols: { phase: fl("phase", phaseLabel(t.phase)), cancers: links(t.cancers), drugs: links(t.drugs), sponsor: sponsorCell(t.sponsor), year: t.yearReported }, sortKeys: { year: t.yearReported ?? 0 }, tie: t.yearReported ?? 0 })),
+      facets: [{ key: "cancers", label: "Cancer", width: "w-56", normalise: "cancer" }, { key: "phase", label: "Phase", searchable: false, width: "w-40", order: PHASE_FILTER_ORDER.map(phaseLabel), normalise: "phase" }, { key: "drugs", label: "Product", width: "w-48" }, { key: "sponsor", label: "Sponsor", width: "w-48" }],
       columns: [{ key: "phase", label: "Phase", sortable: true, hide: "hidden sm:table-cell" }, { key: "drugs", label: "Products", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "sponsor", label: "Sponsor", hide: "hidden lg:table-cell" }, { key: "year", label: "Reported", sortable: true, numeric: true }],
       // What works first: positive and approved results at the top, negative and withdrawn last; newest first within a status.
       defaultSort: { key: "status", dir: 1 },

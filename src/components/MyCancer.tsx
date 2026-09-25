@@ -4,6 +4,7 @@ import Link from "next/link";
 import { CancerIcon } from "./CancerIcon";
 import { pickMyCancer, shortCancerName, useMyCancer, type MyCancerLite } from "@/lib/use-my-cancer";
 import { useMyCancerList } from "@/lib/use-my-cancer-list";
+import { facetLabel } from "@/lib/kinds";
 
 /**
  * The remembered cancer, wherever it helps: a header chip, the home hero button, a pinned tile on the cancer hub,
@@ -69,7 +70,7 @@ export function MyCancerPin({ cancers }: { cancers: MyCancerTile[] }) {
         </Link>
         <div className="flex flex-col justify-center gap-1.5 text-sm">
           <Link href={`${mine.route}changes/`} className="chip border border-border bg-card hover:bg-foreground/5"><ChangesGlyph className="h-3 w-3" />What changed</Link>
-          <Link href={`/trials/?cancers=${encodeURIComponent(mine.name)}`} className="chip border border-border bg-card hover:bg-foreground/5"><TrialGlyph className="h-3 w-3" />Trials</Link>
+          <Link href={`/trials/?cancers=${encodeURIComponent(facetLabel(mine.name))}`} className="chip border border-border bg-card hover:bg-foreground/5"><TrialGlyph className="h-3 w-3" />Trials</Link>
           <Link href="/for-me/" className="chip border border-border bg-card hover:bg-foreground/5 text-muted"><PickGlyph className="h-3 w-3" />Change</Link>
         </div>
       </div>

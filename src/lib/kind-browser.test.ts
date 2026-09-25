@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { buildBrowser } from "./kind-browser";
 import { fallbackSlot, hasVisual, visualSource } from "./row-visual";
-import type { Kind } from "./kinds";
+import { facetLabel, type Kind } from "./kinds";
 
 /**
  * Every row in the kind index tables must show something in its picture slot: a molecule, a drawing, an organ
@@ -59,5 +59,36 @@ describe("fallbackSlot", () => {
     expect(fallbackSlot([{ kind: "term" }])).toBeNull();
     expect(fallbackSlot([{ logo: "/x.png", avatar: "org" }, { kind: "paper" }])).toEqual({ className: "h-7 w-7", round: false });
     expect(fallbackSlot([{ molecule: "d1" }, { kind: "drug" }])).toEqual({ className: "h-10 w-10", round: false });
+  });
+});
+
+describe("filtering a table by a cancer family", () => {
+  const trials = buildBrowser("trial");
+  const vals = (name: string) => trials.rows.filter((r) => (r.facets.cancers ?? []).includes(name)).length;
+
+  /**
+   * The owner followed a link from a cancer page to `/trials/?cancers=Breast cancer (all types)` and got an empty
+   * table, with 601 breast trials sitting in it under their subtypes. Two faults, one on each side of the link:
+   * the facet held only each trial's own cancers, and the link sent the record's full name while the facet used
+   * the short one. Both are fixed here, so both are guarded here.
+   */
+  it("finds the subtypes' trials under the family", () => {
+    for (const [family, child] of [["Breast cancer", "Triple-negative breast cancer"], ["Lung cancer", "Non-small-cell lung cancer"], ["Skin cancer", "Basal cell carcinoma"]] as const) {
+      expect(vals(child), `${child} has trials of its own`).toBeGreaterThan(0);
+      expect(vals(family), `${family} reaches at least as many as ${child}`).toBeGreaterThanOrEqual(vals(child));
+    }
+  });
+
+  it("labels the facet the way the pre-filtered links write it", () => {
+    expect(facetLabel("Lung cancer (all types)")).toBe("Lung cancer");
+    expect(facetLabel("Breast cancer (all types)")).toBe("Breast cancer");
+    expect(facetLabel("Prostate cancer")).toBe("Prostate cancer");
+    const cancers = trials.facets.find((f) => f.key === "cancers");
+    expect(cancers?.normalise, "an already-shared link carrying the full name still filters").toBe("cancer");
+  });
+
+  it("orders the phase filter the way a drug meets the phases", () => {
+    const phase = trials.facets.find((f) => f.key === "phase");
+    expect(phase?.order).toEqual(["Phase 1", "Phase 1/2", "Phase 2", "Phase 2/3", "Phase 3", "Phase 4", "Platform trial", "Observational study"]);
   });
 });

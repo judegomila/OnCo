@@ -68,6 +68,9 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
   "jaspac-01", "preopanc-2", "conko-005", "espac-1",
   // UK MRC trial run before ClinicalTrials.gov registration was required; registered as ISRCTN72251782.
   "pt-1",
+  // Two UK lung cancer phase 3 trials that predate trial registration entirely: CHART recruited 1990 to 1995 and the
+  // Big Lung Trial reported in 2004 from four separately randomised settings, neither with a registry record.
+  "chart-lung", "big-lung-trial",
   // Radiotherapy trials from the pre-registration era: CALGB 9343 (opened 1994), DAHANCA 5 (1986 to 1994), START-B, CHHiP, HYPO-RT-PC, PRIME II, IMPORT LOW and QUARTZ (UK and Nordic trials registered with ISRCTN only).
   "calgb-9343", "dahanca-5", "start-b", "chhip", "hypo-rt-pc", "prime-ii", "import-low", "quartz", "fast-forward",
   // Pre-registration chemoradiation and nodal trials (INT-0116, German rectal, ACT II, RTOG 91-11, DBCG 82, EORTC 26951, Slotman and Takahashi PCI).

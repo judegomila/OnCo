@@ -7,9 +7,10 @@ import gallbladderSpike from "@/data/spikes/gallbladder-uk";
 import tnbcSpike from "@/data/spikes/tnbc-uk";
 import pancreaticSpike from "@/data/spikes/pancreatic-uk";
 import colorectalSpike from "@/data/spikes/colorectal-uk";
+import lungSpike from "@/data/spikes/lung-uk";
 import UkPage, { generateStaticParams } from "@/app/cancers/[id]/uk/page";
 
-const SPIKES = [gallbladderSpike, tnbcSpike, pancreaticSpike, colorectalSpike];
+const SPIKES = [gallbladderSpike, tnbcSpike, pancreaticSpike, colorectalSpike, lungSpike];
 
 /**
  * The UK and NHS layer quotes public UK sources only. Every URL must be https and sit on one of these domains
@@ -29,6 +30,8 @@ const ALLOWED_DOMAINS = [
   "gla.ac.uk", "nhsgrampian.org", "pancreaticcanceraction.org", "orcid.org",
   // Colorectal cancer pass: the two bowel charities, the four universities whose staff pages are cited, and Public Health Northern Ireland.
   "bowelcanceruk.org.uk", "bowelresearchuk.org", "leeds.ac.uk", "birmingham.ac.uk", "ncl.ac.uk", "ox.ac.uk", "publichealth.hscni.net",
+  // Lung cancer pass: the lung charity, the Francis Crick Institute (Charles Swanton's lab page, because his UCL profile answers 403) and Nottingham.
+  "roycastle.org", "crick.ac.uk", "nottingham.ac.uk",
 ];
 
 const hostOk = (url: string) => {
@@ -42,7 +45,7 @@ describe("UK pathway data", () => {
     const p = ukPathwayFor("gallbladder");
     expect(p?.cancerId).toBe("gallbladder");
     expect(graph().get("gallbladder")?.kind).toBe("cancer");
-    expect(ukPathwayFor("nsclc")).toBeUndefined();
+    expect(ukPathwayFor("melanoma")).toBeUndefined();
   });
 
   it("registers the triple-negative breast cancer pathway under tnbc and its subtype aliases", () => {
@@ -91,6 +94,40 @@ describe("UK pathway data", () => {
     // The faecal immunochemical test threshold that now governs referral is on the page, and so is Scotland's different one.
     expect(JSON.stringify(p)).toContain("10 micrograms of haemoglobin per gram");
     expect(JSON.stringify(p)).toContain("20 micrograms per gram");
+  });
+
+  it("registers the lung cancer pathway under nsclc, the lung parent and the molecular and stage subtypes", () => {
+    const p = ukPathwayFor("nsclc");
+    expect(p?.cancerId).toBe("nsclc");
+    // Agent A is settling the lung taxonomy; until then the pathway keys to nsclc and the parent and subtypes are aliases.
+    for (const alias of ["lung-cancer", "sclc", "egfr-mutant-nsclc", "alk-positive-nsclc", "kras-g12c-nsclc", "limited-stage-sclc", "extensive-stage-sclc"]) expect(ukPathwayFor(alias)?.cancerId, alias).toBe("nsclc");
+    const g = graph();
+    for (const id of ["nsclc", "lung-cancer", "sclc", "resectable-nsclc"]) expect(g.get(id)?.kind, id).toBe("cancer");
+    // The eight UK legacy trial records and the seven researchers the spike adds resolve in the graph.
+    for (const id of ["ukls", "ylst", "summit-lung", "lungsearch", "chart-lung", "big-lung-trial", "violet", "tracerx"]) expect(g.get(id)?.kind, id).toBe("trial");
+    for (const id of ["philip-crosbie", "matthew-callister", "john-field", "david-baldwin", "gary-middleton", "sanjay-popat", "alastair-greystoke"]) expect(g.get(id)?.kind, id).toBe("person");
+    for (const id of ["roy-castle-lung-cancer-foundation", "royal-papworth", "liverpool-heart-and-chest"]) expect(g.get(id)?.kind, id).toBe("institution");
+    // Every NICE decision quoted carries its appraisal number, including the managed-access and Cancer Drugs Fund rows and the two refusals.
+    const refs = p!.funding.filter((f) => f.england.body === "NICE").map((f) => f.england.ref);
+    for (const ta of ["TA1043", "TA1014", "TA1071", "TA1127", "TA798", "TA1122", "TA1158", "TA1103", "TA1021", "TA1042", "TA781", "TA789", "TA1150", "TA630", "TA531", "TA683", "TA713", "TA1041", "TA1099", "TA184", "TA265"]) expect(refs, ta).toContain(ta);
+    // The four Cancer Drugs Fund lung indications on version 1.408 of the national list are marked as such.
+    expect(p!.funding.filter((f) => f.england.cdf).length).toBe(3);
+    // The 26 English and 2 Welsh thoracic units of the national audit are covered.
+    expect(p!.centres.filter((c) => c.nation === "England").length).toBeGreaterThanOrEqual(20);
+    // The deprivation gradient, which is steeper in lung cancer than in any other common cancer, is stated with its source.
+    expect(JSON.stringify(p)).toContain("102 percent higher");
+    expect(JSON.stringify(p)).toContain("3.16");
+    // The reflex testing turnaround and what happens when the tissue is insufficient are both on the page.
+    expect(JSON.stringify(p)).toContain("14 calendar days");
+    expect(JSON.stringify(p)).toContain("the pathologist emails or telephones the lung multidisciplinary team the same day");
+    // The National Genomic Test Directory codes are quoted from version 16, not described in the abstract.
+    for (const code of ["M4.1", "M4.2", "M4.13", "M4.14", "M231.1"]) expect(JSON.stringify(p!.tests), code).toContain(code);
+    // The screening programme's two risk models and their thresholds, and the four-nation timetable.
+    expect(JSON.stringify(p)).toContain("1.51 percent");
+    expect(JSON.stringify(p)).toContain("2027/28");
+    expect(JSON.stringify(p)).toContain("28 June 2025");
+    // Every source on the page carries a label; every funding row names Wales and Northern Ireland or says why not.
+    for (const f of p!.funding) expect(f.wales, f.line).toBeTruthy();
   });
 
   it("cites only https URLs on allowed UK public domains", () => {
@@ -166,7 +203,7 @@ describe("/cancers/[id]/uk/ page", () => {
     const ids = generateStaticParams().map((x) => x.id);
     expect(ids).toEqual(ukPathwayCancerIds());
     expect(ids).toContain("gallbladder");
-    expect(ids).not.toContain("nsclc");
+    expect(ids).not.toContain("melanoma");
     expect(ukPathwayRoute("gallbladder", "funding")).toBe("/cancers/gallbladder/uk/#funding");
   });
 
@@ -245,7 +282,30 @@ describe("/cancers/[id]/uk/ page", () => {
     expect(renderToStaticMarkup(createElement(() => alias))).toContain("TA1136");
   });
 
+  it("renders the lung page with the screening eligibility, the audit's stage shift, the perioperative divergence and the UK trials", async () => {
+    const el = await UkPage({ params: Promise.resolve({ id: "nsclc" }) });
+    const html = renderToStaticMarkup(createElement(() => el));
+    for (const id of ["pathway", "centres", "funding", "tests", "trials", "data", "support", "nations", "gaps"]) expect(html).toContain(`id="${id}"`);
+    expect(html).toContain("lung health check");
+    expect(html).toContain("TA1127");
+    expect(html).toContain("TA781");
+    expect(html).toContain("SMC2874");
+    expect(html).toContain("PLCOm2012");
+    expect(html).toContain("M4.14");
+    expect(html).toContain("phase 1 of national lung screening in 2027/28");
+    expect(html).toContain("Royal Papworth");
+    expect(html).toContain("Belfast City Hospital");
+    expect(html).toContain("ISRCTN70247820");
+    expect(html).toContain("/api/v1/cancers/nsclc/uk.json");
+    expect(html).not.toMatch(/<a[^>]*>[^<]*<a/);
+    // The lung parent and a molecular subtype alias render the same pathway.
+    const parent = await UkPage({ params: Promise.resolve({ id: "lung-cancer" }) });
+    expect(renderToStaticMarkup(createElement(() => parent))).toContain("TA1127");
+    const alias = await UkPage({ params: Promise.resolve({ id: "egfr-mutant-nsclc" }) });
+    expect(renderToStaticMarkup(createElement(() => alias))).toContain("TA1122");
+  });
+
   it("returns not-found for a cancer without a pathway", async () => {
-    await expect(UkPage({ params: Promise.resolve({ id: "nsclc" }) })).rejects.toThrow();
+    await expect(UkPage({ params: Promise.resolve({ id: "melanoma" }) })).rejects.toThrow();
   });
 });

@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- The prostate review found an appraisal that refused a drug recorded as merely restricting it, and the breast family page given the routing a reader needs
+- The breast family page given its surgery, its NHS pathway and its shared decisions, and 83 duplicate records retired onto the ones that carry the reading
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,6 +19,11 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- The prostate review found an appraisal that refused a drug recorded as merely restricting it, and the breast family page given the routing a reader needs
+- Breast cancer in the NHS: the screening programme the site never had, the family history service, both referral routes, and four wrong or stale funding claims corrected
+- One thing, one id: 83 duplicate records merged, with the rule, the helper and the ratchet the three reviews asked for
+- Breast cancer, the shared treatment spine: 22 trials on the operation, the axilla, radiotherapy and reconstruction, read at twenty and twenty-five years
+- Breast cancer, living with it: the surgery choice with the twenty-year figures, the axilla and lymphoedema, fertility, sensation, hair, and four red cards
 - The breast family page: the routing a reader needs in one click, the shared story of grade, stage and the receptor tests, and the classification edition nobody had noticed changed
 - Prostate review: the appraisal that refused abiraterone was recorded as one that restricted it, eleven papers written twice, and the screening trials the whole section rests on
 - The lung review: 33 lines the layers had written twice folded away, four contradictory figures resolved against their sources, and two duplicate-key bugs the lung data exposed

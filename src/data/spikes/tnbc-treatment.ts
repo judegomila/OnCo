@@ -538,7 +538,7 @@ export const tnbcStandardOfCare: NonNullable<CancerInput["standardOfCare"]> = [
 
 /**
  * Settings the core tnbc record does not already carry. The de-escalation, failed-programme and UK-access rows stay exported
- * only (the UK layer and the decision pages draw on them) so the cancer page stays within its markup ceiling.
+ * only (the UK and NHS page and the decision pages draw on them) so the cancer page stays within its markup ceiling.
  */
 const PATCH_SETTINGS = new Set(["Choice of neoadjuvant backbone: the platinum debate", "Residual disease after neoadjuvant therapy (RCB I to III)", "Germline BRCA1 or BRCA2 carriers: testing and early-stage choices", "Metastatic, germline BRCA1 or BRCA2", "Metastatic, HER2-low, after one or two lines of chemotherapy", "Brain metastases", "Palliation of symptoms: bone, pleura, skin and end of life"]);
 

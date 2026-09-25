@@ -1,0 +1,147 @@
+src/lib/schema-docs.ts
+  s_0beac9cb5d78fd::t_e67bb5042c3bf3 13,18
+src/lib/kinds.ts
+  s_0beac9cb5d78fd::t_062e2b6eb511b9 27,133
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_29cce9c6a7a2b0 26-27
+src/components/YearRecord.tsx
+  s_0beac9cb5d78fd::t_b89b37699b1ba4 1-23,27,32,35-99
+  s_0beac9cb5d78fd::t_4a694e8b7022a9 24-26,28-31,33-34
+src/components/TimelineChart.tsx
+  s_0beac9cb5d78fd::t_134a93f0f39860 1-27,29-37,39-43,46-50,52-93
+  s_0beac9cb5d78fd::t_00b7ca1903c396 28,38,44-45
+  s_0beac9cb5d78fd::t_8625168508550b 51
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_aefb123c894566 76,521-526
+scripts/new-record.ts
+  s_0beac9cb5d78fd::t_444f9defb14783 20,28,35
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_29cce9c6a7a2b0 26-27
+src/lib/source-location.ts
+  s_0beac9cb5d78fd::t_444f9defb14783 14
+src/components/KindIcon.tsx
+  s_0beac9cb5d78fd::t_cafd44958f7d4b 27-28
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 234
+src/lib/years.ts
+  s_0beac9cb5d78fd::t_b2f95976f76136 6-7
+  s_0beac9cb5d78fd::t_07dcc8a89a29e7 51-55,58-64
+  s_0beac9cb5d78fd::t_7cc4d58c83fda1 86-87
+  s_0beac9cb5d78fd::t_d6457edc299920 114-116
+  s_0beac9cb5d78fd::t_d4096764936daf 144
+  s_0beac9cb5d78fd::t_d282e7fad74933 187-195
+  s_0beac9cb5d78fd::t_b3ed4dbb7647bb 24
+  s_0beac9cb5d78fd::t_1b9e1c9dd9e9aa 35-40
+  s_0beac9cb5d78fd::t_8ca48abb2b4002 110
+  s_0beac9cb5d78fd::t_d12a71e503800a 177
+  s_0beac9cb5d78fd::t_c44808550bb273 1-5,8-23,26-33,41-50,56-57,65-76,78-79,81-85,88-109,111-113,117-141,146-166,168,171-176,178-186,196,199-216
+  s_0beac9cb5d78fd::t_06e525d84dcb99 25,142-143,145
+  s_0beac9cb5d78fd::t_91c9d9e32b4dad 34
+  s_0beac9cb5d78fd::t_94c14e530f4d4d 77,80,167,169-170,197-198
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_d01124e011fc16 445-453
+src/app/heavy-pages.test.ts
+  s_0beac9cb5d78fd::t_7da10fc18686fd 518-551,553-564
+  s_0beac9cb5d78fd::t_8625168508550b 552
+  s_0beac9cb5d78fd::t_7cbe885f6f6454 33-35
+src/lib/text.ts
+  s_0beac9cb5d78fd::t_3984d78a5d51b9 118
+src/lib/year-groups.ts
+  s_0beac9cb5d78fd::t_b9b78088512298 1-8,10-11,27,31-54
+  s_0beac9cb5d78fd::t_0e4b70853bc876 12-15,17-26,28-30
+  s_0beac9cb5d78fd::t_d6ce3ef41fbc33 9
+  s_0beac9cb5d78fd::t_7f9d73418e5194 16
+public/freshness.json
+  s_0beac9cb5d78fd::t_0cd5cae16b4df8 1-2
+src/lib/kind-browser.ts
+  s_0beac9cb5d78fd::t_8490caf8597d2d 298-314
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_c6825c778a5374 3,525-536,539-554,608,631,653
+  s_0beac9cb5d78fd::t_a75d6e7ca8fe9e 537-538
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 234
+src/lib/completeness.test.ts
+  s_0beac9cb5d78fd::t_b44b9309578349 31
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 234
+packages/onco-mcp/src/server.test.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 81
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_29cce9c6a7a2b0 26-27
+src/lib/years.test.ts
+  ai_agent 1-148
+src/app/globals.css
+  s_0beac9cb5d78fd::t_2d6712bc82e309 277-285
+  s_0beac9cb5d78fd::t_3984d78a5d51b9 275
+src/lib/kind-graph.ts
+  s_0beac9cb5d78fd::t_e67bb5042c3bf3 98
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 265
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_29cce9c6a7a2b0 26-27
+scripts/rdf.ts
+  s_0beac9cb5d78fd::t_444f9defb14783 26
+src/data/index.ts
+  s_0beac9cb5d78fd::t_f23cceb26ca2bc 51,315,401-406
+src/data/universe.ts
+  s_0beac9cb5d78fd::t_3eabfda3462d8d 190-193
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 234
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 234
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_29cce9c6a7a2b0 26-27
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_29cce9c6a7a2b0 26-27
+src/app/timeline/page.tsx
+  s_0beac9cb5d78fd::t_8c23ca3d12eefc 2,8-10,12,14-18,29-41,45-51,53,61,64-65,67-87,92-111,113-124,126-127,132-134
+  s_0beac9cb5d78fd::t_06ced2212133b7 52,112,125
+  s_0beac9cb5d78fd::t_d712f31ad7300a 11,88-91
+src/lib/graph-layout.ts
+  s_0beac9cb5d78fd::t_444f9defb14783 25
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 234
+src/data/years.ts
+  s_0beac9cb5d78fd::t_33daede54525b6 6-7,25,34-35
+  s_0beac9cb5d78fd::t_6458c41d90ef29 20,50,61
+  s_0beac9cb5d78fd::t_2b44c95e255262 1-5,8-18,21-24,26-33,36-49,51-60,62-73,75-79
+  s_0beac9cb5d78fd::t_94c14e530f4d4d 19,74
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_29cce9c6a7a2b0 26-27
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 234
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_29cce9c6a7a2b0 26-27
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_29cce9c6a7a2b0 26-27
+src/lib/search-rank.ts
+  s_0beac9cb5d78fd::t_444f9defb14783 43-44
+  s_0beac9cb5d78fd::t_a4cf7dd71c9994 61-65
+.github/ISSUE_TEMPLATE/new-object.yml
+  s_0beac9cb5d78fd::t_161f9e92be5ec5 10
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_8ffaf5fffd51ed 234
+src/lib/timeline.ts
+  s_0beac9cb5d78fd::t_1bf88e5302bad7 68
+  s_0beac9cb5d78fd::t_fe81d7be0e7af7 136
+  s_0beac9cb5d78fd::t_34832acabb2e64 205
+  s_0beac9cb5d78fd::t_26245a7f2fa8b3 1-67,69,71-135,137-204,206-292,294-330
+  s_0beac9cb5d78fd::t_33daede54525b6 70
+  s_0beac9cb5d78fd::t_d641e694df76ef 293
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a8c1a74c61dbc0aa635c5d2e43fa03a2156690c1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

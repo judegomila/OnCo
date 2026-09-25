@@ -10,7 +10,7 @@ import { US_PLANS, US_METRICS, US_RULES, US_EXTRA_SOURCES, PAYMENT_MECHANICS, UK
 
 export const metadata: Metadata = pageMeta({
   title: "Coverage rankings",
-  description: "US insurers and plan types ranked by one published metric at a time (prior authorisation denial and overturn rates, Star Ratings, enrolment), nationwide rules with year and source, published cancer drug prices, UK NHS entitlement against private medical insurance cancer cover, and how nine countries pay for cancer drugs.",
+  description: "US insurers and plan types ranked by one published metric at a time (prior authorisation denial and overturn rates, Star Ratings, enrolment), nationwide rules with year and source, published cancer drug prices, UK NHS entitlement against private medical insurance cancer cover, and how ten countries pay for cancer drugs.",
   path: "/coverage/rankings/",
 });
 
@@ -39,7 +39,7 @@ export default function CoverageRankingsPage() {
       <PageHeader
         kicker={<GroupKicker id="live"><span className="kicker">·</span><Link href="/coverage/us/" className="kicker hover:underline">Paying for care in the US</Link><span className="kicker">·</span><Link href="/costs/" className="kicker hover:underline">Getting the cost down</Link></GroupKicker>}
         title="Coverage rankings"
-        lede={`No insurer publishes a cancer-specific scorecard, so this page does the next honest thing: ${US_PLANS.length} US insurers and plan types ranked by one published metric at a time, with the year and the document behind every number and a blank wherever nothing has been published (${withFigure} rows have at least one figure). Then the rules that protect everyone in a category, published prices for cancer drugs, how NHS entitlement compares with private medical insurance in the UK, and how nine countries pay for cancer drugs.`}
+        lede={`No insurer publishes a cancer-specific scorecard, so this page does the next honest thing: ${US_PLANS.length} US insurers and plan types ranked by one published metric at a time, with the year and the document behind every number and a blank wherever nothing has been published (${withFigure} rows have at least one figure). Then the rules that protect everyone in a category, published prices for cancer drugs, how NHS entitlement compares with private medical insurance in the UK, and how ten countries pay for cancer drugs.`}
       />
       <Container className="pb-16">
         <div className="card p-4 text-sm text-muted max-w-3xl border-amber-300/60 dark:border-amber-700/60">
@@ -110,7 +110,7 @@ export default function CoverageRankingsPage() {
           <p className="mt-3 text-sm text-muted">The NICE, Cancer Drugs Fund and SMC position on every product is on <Link className="underline" href="/coverage/uk/">NHS coverage</Link>.</p>
         </Section>
 
-        <Section id="international" title="Drug payment in nine countries" aside={<span className="text-sm text-muted">{INTL_ROWS.length} countries</span>}>
+        <Section id="international" title="Drug payment in ten countries" aside={<span className="text-sm text-muted">{INTL_ROWS.length} countries</span>}>
           <p className="text-sm text-muted mb-3 max-w-3xl">Funding model, what the patient typically pays as the source states it, and who decides whether a new drug is funded. Appraisal verdicts per product and country are on the <Link className="underline" href="/hta/">HTA decisions</Link> page.</p>
           <div className="card results-table overflow-x-auto">
             <table className="onco">

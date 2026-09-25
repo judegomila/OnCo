@@ -712,8 +712,8 @@ export const checkpointTargets: TargetInput[] = [
     summary: "PVRIG (chromosome 7q22.1) is a cell-surface receptor for NECTIN2 (CD112) that may act as a co-inhibitory receptor suppressing T-cell receptor signals, inhibits T-cell proliferation after NECTIN2 binding and competes with CD226 for it; it is expressed at low levels on freshly isolated T and NK cells, predominantly memory and effector CD8 T cells and both CD16-positive and CD16-negative NK cells, and not on B cells, naive or helper T cells, monocytes or neutrophils (UniProt Q6DKI7). COM701 completed a phase 1/2 study with the TIGIT antibody BMS-986207 and nivolumab (NCT04570839) and is recruiting in relapsed platinum-sensitive ovarian cancer (NCT06888921).",
     biology: "An immunoglobulin-domain receptor with an ITIM-like tail; part of the CD226/TIGIT/CD96/PVRIG axis over CD155 and CD112.",
     whereFound: ["Memory and effector CD8 T cells and NK cells (UniProt Q6DKI7)", "Ovarian cancer trial of COM701 (NCT06888921)"],
-    cancers: ["ovarian"], pathways: ["cancer-immunity-cycle"], technologies: ["checkpoint-inhibitor", "tigit-blockade"], related: ["nectin2", "tigit", "nivolumab"],
-    links: [{ label: "ClinicalTrials.gov NCT06888921", url: "https://clinicaltrials.gov/study/NCT06888921" }] }),
+    cancers: ["ovarian"], pathways: ["cancer-immunity-cycle"], technologies: ["checkpoint-inhibitor", "tigit-blockade"], companies: ["compugen"], related: ["nectin2", "tigit", "nivolumab"],
+    links: [{ label: "ClinicalTrials.gov NCT06888921", url: "https://clinicaltrials.gov/study/NCT06888921" }, { label: "Compugen, which predicted the target computationally and made the antibody", url: "https://www.cgen.com" }] }),
 
   target({ id: "cd86", name: "CD86 (B7-2)", symbol: "CD86", aka: ["B7-2", "B7.2", "CD28LG2", "CD86 molecule"], hgnc: "HGNC:1705", ensembl: "ENSG00000114013", uniprot: "P42081", entrez: "942", targetClass: "checkpoint", role: IC,
     tldr: "CD86 is one of the two B7 molecules on antigen-presenting cells that either wake a T cell up (through CD28) or calm it down (through CTLA-4). Ipilimumab works by stopping CTLA-4 from hogging CD86 and CD80.",

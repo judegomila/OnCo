@@ -213,4 +213,16 @@ export const simpleS: Record<string, string> = {
   "deutsche-krebsgesellschaft": "The German Cancer Society writes the published standards a German cancer centre must meet, has them audited on site every year, and prints how each centre did.",
   "nngm": "The nNGM is the German network that gets full molecular testing to lung cancer patients anywhere in the country, paid for by contracts with 66 sickness funds.",
   "dnpm": "The DNPM links German university centres for personalised medicine so a patient can reach a molecular tumour board wherever they live.",
+  // Israel (country deep dive, September 2026)
+  "founder-variant": "A founder variant is a harmful gene change that is common in one group of people because many of them share distant ancestors, one of whom had it. It says nothing about any one person.",
+  "zelig-eshhar": "Zelig Eshhar built the first T cell with an antibody's aim, in 1989. Every CAR-T treatment given today comes from that idea.",
+  "aaron-ciechanover": "Aaron Ciechanover shared the 2004 Nobel Prize in Chemistry for working out how cells label unwanted proteins for destruction.",
+  "avram-hershko": "Avram Hershko shared the 2004 Nobel Prize in Chemistry for the discovery of how cells tag proteins to be destroyed, and still studies how that controls cell division.",
+  "yechezkel-barenholz": "Yechezkel Barenholz worked out how to hide a chemotherapy drug inside a fatty bubble so it reaches tumours and spares the heart. It became Doxil, the first nanomedicine approved anywhere.",
+  "ephrat-levy-lahad": "Ephrat Levy-Lahad measured cancer risk in BRCA carriers found among healthy men, which is the evidence that let Israel offer the test to a whole population.",
+  "polina-stepensky": "Polina Stepensky runs a hospital department in Jerusalem that makes its own CAR-T cells for myeloma and gives them fresh, without freezing them first.",
+  "israel-national-cancer-registry": "Israel has counted its cancers since 1960 and reporting has been compulsory since 1982. It checked its own work and found it held about 94 of every 100 cancers it should have.",
+  "israel-cancer-association": "The Israel Cancer Association is a charity that runs on donations and started both of Israel's national cancer screening programmes.",
+  "iscort": "ISCORT is the small Israeli society of doctors who treat cancer without surgery. Each year it ranks the new cancer drugs for the committee that decides what the state will pay for.",
+  "compugen": "Compugen is an Israeli company that predicts new immune brakes on a computer first and only then tests them in the laboratory. That is how it found PVRIG.",
 };

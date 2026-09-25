@@ -12,6 +12,7 @@ import { graph } from "./graph";
 import { gallbladderUkPathway } from "@/data/spikes/gallbladder-uk";
 import { tnbcUkPathway } from "@/data/spikes/tnbc-uk";
 import { pancreaticUkPathway } from "@/data/spikes/pancreatic-uk";
+import { colorectalUkPathway } from "@/data/spikes/colorectal-uk";
 
 /** A checkable citation: the page a figure or statement was read from, and when it was checked or published. */
 export type UkSource = { label: string; url: string; date?: string };
@@ -129,7 +130,7 @@ export type UkPathway = {
   gaps: string[];
 };
 
-export const UK_PATHWAYS: UkPathway[] = [gallbladderUkPathway, tnbcUkPathway, pancreaticUkPathway];
+export const UK_PATHWAYS: UkPathway[] = [gallbladderUkPathway, tnbcUkPathway, pancreaticUkPathway, colorectalUkPathway];
 
 /** The pathway for a cancer id, matching the canonical id or an alias. */
 export function ukPathwayFor(cancerId: string): UkPathway | undefined {

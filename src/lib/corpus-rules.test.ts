@@ -62,6 +62,8 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
   "ace-breast-02",
   // Japanese JCOG phase 3 registered with UMIN only (UMIN000011688).
   "ascot-jcog1202",
+  // Japan Breast Cancer Research Group phase 3 registered with UMIN only (UMIN000000843).
+  "create-x",
   // UK MRC trial run before ClinicalTrials.gov registration was required; registered as ISRCTN72251782.
   "pt-1",
   // Radiotherapy trials from the pre-registration era: CALGB 9343 (opened 1994), DAHANCA 5 (1986 to 1994), START-B, CHHiP, HYPO-RT-PC, PRIME II, IMPORT LOW and QUARTZ (UK and Nordic trials registered with ISRCTN only).

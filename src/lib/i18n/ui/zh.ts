@@ -319,6 +319,7 @@ export const zh: UiDict = {
   "l.OnCo score": "OnCo 评分",
   "l.Analogy": "类比",
   "l.Category": "类别",
+  "l.Methods and models": "方法与模型",
   "l.Setting": "治疗背景",
   "l.Phase": "阶段",
   "l.Sponsor": "申办方",

@@ -319,6 +319,7 @@ export const ja: UiDict = {
   "l.OnCo score": "OnCo スコア",
   "l.Analogy": "たとえ",
   "l.Category": "カテゴリー",
+  "l.Methods and models": "手法とモデル",
   "l.Setting": "治療セッティング",
   "l.Phase": "相",
   "l.Sponsor": "スポンサー",

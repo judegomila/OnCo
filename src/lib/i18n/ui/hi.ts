@@ -319,6 +319,7 @@ export const hi: UiDict = {
   "l.OnCo score": "OnCo स्कोर",
   "l.Analogy": "उपमा",
   "l.Category": "श्रेणी",
+  "l.Methods and models": "विधियाँ और मॉडल",
   "l.Setting": "परिस्थिति",
   "l.Phase": "चरण",
   "l.Sponsor": "प्रायोजक",

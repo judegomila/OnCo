@@ -351,6 +351,7 @@ export const EN = {
   "l.OnCo score": "OnCo score",
   "l.Analogy": "Analogy",
   "l.Category": "Category",
+  "l.Methods and models": "Methods and models",
   "l.Setting": "Setting",
   "l.Phase": "Phase",
   "l.Sponsor": "Sponsor",

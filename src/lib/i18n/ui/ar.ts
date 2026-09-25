@@ -319,6 +319,7 @@ export const ar: UiDict = {
   "l.OnCo score": "درجة OnCo",
   "l.Analogy": "تشبيه",
   "l.Category": "الفئة",
+  "l.Methods and models": "الأساليب والنماذج",
   "l.Setting": "السياق العلاجي",
   "l.Phase": "المرحلة",
   "l.Sponsor": "الجهة الراعية",

@@ -319,6 +319,7 @@ export const de: UiDict = {
   "l.OnCo score": "OnCo-Punktzahl",
   "l.Analogy": "Analogie",
   "l.Category": "Kategorie",
+  "l.Methods and models": "Methoden und Modelle",
   "l.Setting": "Setting",
   "l.Phase": "Phase",
   "l.Sponsor": "Sponsor",

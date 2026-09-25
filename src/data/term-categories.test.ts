@@ -12,7 +12,8 @@ describe("glossary categories", () => {
     const silent = TERM_CATEGORIES.filter((c) => !hasTermAnimation(c));
     expect(silent).toEqual([]);
   });
-  it("uses twenty categories so the grid fills evenly at two, four and five columns", () => {
-    expect(TERM_CATEGORIES.length).toBe(20);
+  it("uses twenty oncology categories plus Methods and models", () => {
+    expect(TERM_CATEGORIES.length).toBe(21);
+    expect(TERM_CATEGORIES[TERM_CATEGORIES.length - 1]).toBe("Methods and models");
   });
 });

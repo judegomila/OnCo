@@ -262,3 +262,31 @@ Two smaller ones worth recording. `www.gov.wales` answers 403 to a bare `curl` a
 `Accept-Language`, the opposite of the trust sites above. And `opendata.nhs.scot` answers exit code 0 with no HTTP
 response at all to `curl` from some networks while working normally through a fetch helper, so a failure there is
 not evidence that the dataset is gone.
+
+## Four more UK routes, found on the skin cancer layer
+
+Added 25 September 2026. Same principle again: a 403 describes the request, not the source.
+
+- **ISRCTN has a query API that works when the web pages do not.** `www.isrctn.com/search?q=…` returns
+  "Please enable cookies and JavaScript to use ISRCTN" to any program, and the individual record pages behave the
+  same way. The registry's own API does not:
+  `www.isrctn.com/api/query/format/default?q=<query>&limit=<n>` returns XML with a `totalCount` attribute and one
+  `<fullTrial>` element per result, carrying the ISRCTN number, both titles, the acronym, the hypothesis, the
+  primary outcome, sponsor, target and final enrolment, recruitment and overall dates and any linked DOIs. A bare
+  keyword `q` is ignored and returns everything; the syntax that filters is `field:"value"`, for example
+  `condition:"Basal cell carcinoma"` or `title:"imiquimod" AND condition:"Cancer"`. This is how every trial on the
+  skin layer was read.
+- **NHS England's long-reads carry whole policy documents the site will not serve.** The cancer waiting times
+  monitoring dataset guidance is 200,000 characters of rules, including the exact ICD-10 scope of every waiting-time
+  standard tumour by tumour, and it is reachable only as `…/wp-json/wp/v2/long-read/<id>`, found first through
+  `…/wp-json/wp/v2/search?search=<terms>`. Anything that turns on what counts as a cancer for a national statistic
+  is in there rather than in a statistics release.
+- **Public Health Scotland's waiting-time workbooks carry their own inclusion criteria.** The contents-and-notes
+  sheet of `cwt-table-1-compliance-to-standard.xlsx` lists, by ICD-10 code, the cancer types Scotland records at all.
+  It is the only readable source for the fact that Scotland's standards cover C43 and not C44. The sheets are
+  pivot-cached, so only the currently selected slicer combination is in the file: read what is there rather than
+  expecting every standard and every filter.
+- **qub.ac.uk answers 403 to everything.** The Northern Ireland Cancer Registry's pages refused a browser header
+  set, a bare `curl` and every path tried, so no Northern Ireland incidence figure could be read for the skin layer.
+  The Department of Health's own waiting-time workbooks at health-ni.gov.uk do open, and its ICD-10 mapping workbook
+  is the readable substitute for how Northern Ireland classifies a tumour site.

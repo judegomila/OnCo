@@ -10,9 +10,10 @@ import colorectalSpike from "@/data/spikes/colorectal-uk";
 import lungSpike from "@/data/spikes/lung-uk";
 import prostateSpike from "@/data/spikes/prostate-uk";
 import breastSpike from "@/data/spikes/breast-uk";
+import skinSpike from "@/data/spikes/skin-uk";
 import UkPage, { generateStaticParams } from "@/app/cancers/[id]/uk/page";
 
-const SPIKES = [gallbladderSpike, tnbcSpike, pancreaticSpike, colorectalSpike, lungSpike, prostateSpike, breastSpike];
+const SPIKES = [gallbladderSpike, tnbcSpike, pancreaticSpike, colorectalSpike, lungSpike, prostateSpike, breastSpike, skinSpike];
 
 /**
  * The UK and NHS layer quotes public UK sources only. Every URL must be https and sit on one of these domains
@@ -40,6 +41,12 @@ const ALLOWED_DOMAINS = [
   // Breast cancer family pass: the UK National Screening Committee's recommendation service and nidirect, both of
   // which are gov.uk service domains. Everything else the breast layer cites is already on the list.
   "view-health-screening-recommendations.service.gov.uk", "nidirect.gov.uk",
+  // Skin cancer family pass: the legislation register, the Health and Safety Executive, the three skin charities,
+  // the professional body's patient information service, and the trust and health board sites the centres cite.
+  // (ons.gov.uk needs no entry: it is already covered by the gov.uk suffix.)
+  "legislation.gov.uk", "hse.gov.uk", "melanomafocus.org", "skcin.org", "skinhealthinfo.org.uk", "changingfaces.org.uk",
+  "guysandstthomas.nhs.uk", "leedsth.nhs.uk", "northerncarealliance.nhs.uk", "newcastle-hospitals.nhs.uk",
+  "cuh.nhs.uk", "nnuh.nhs.uk", "uhb.nhs.uk", "nhslothian.scot", "cavuhb.nhs.wales", "belfasttrust.hscni.net",
 ];
 
 const hostOk = (url: string) => {
@@ -53,7 +60,7 @@ describe("UK pathway data", () => {
     const p = ukPathwayFor("gallbladder");
     expect(p?.cancerId).toBe("gallbladder");
     expect(graph().get("gallbladder")?.kind).toBe("cancer");
-    expect(ukPathwayFor("melanoma")).toBeUndefined();
+    expect(ukPathwayFor("glioblastoma")).toBeUndefined();
   });
 
   it("registers the triple-negative breast cancer pathway under tnbc and its subtype aliases", () => {
@@ -217,6 +224,50 @@ describe("UK pathway data", () => {
     expect(p!.centres.filter((c) => c.nation === "England").length).toBeGreaterThanOrEqual(6);
   });
 
+  it("registers the skin cancer pathway on the family id, with the keratinocyte cancers and melanoma as aliases", () => {
+    const p = ukPathwayFor("skin-cancer");
+    expect(p?.cancerId).toBe("skin-cancer");
+    // The family page is where a reader lands: the referral rules, the teledermatology triage, the waiting-time
+    // standards, the multidisciplinary team structure and prevention are the same whichever histology comes back.
+    for (const alias of ["basal-cell-carcinoma", "cutaneous-scc", "advanced-cutaneous-scc", "merkel-cell-carcinoma", "melanoma", "advanced-melanoma", "braf-v600-melanoma", "acral-melanoma", "mucosal-melanoma"]) expect(ukPathwayFor(alias)?.cancerId, alias).toBe("skin-cancer");
+    // Uveal and conjunctival melanoma are eye cancers on an ocular oncology pathway and are deliberately not aliases.
+    expect(p!.aliases).not.toContain("uveal-melanoma");
+    expect(p!.aliases).not.toContain("conjunctival-melanoma");
+    const g = graph();
+    for (const id of ["skin-cancer", "basal-cell-carcinoma", "cutaneous-scc", "merkel-cell-carcinoma", "melanoma"]) expect(g.get(id)?.kind, id).toBe("cancer");
+    // The six trial records, two researchers and three institutions the spike adds resolve in the graph.
+    for (const id of ["sins", "molemate", "mcc-rational-treatment", "impact-bcc", "spot-it", "scc-after"]) expect(g.get(id)?.kind, id).toBe("trial");
+    for (const id of ["hywel-williams", "nick-levell"]) expect(g.get(id)?.kind, id).toBe("person");
+    for (const id of ["melanoma-focus", "skcin", "british-association-of-dermatologists"]) expect(g.get(id)?.kind, id).toBe("institution");
+    // The two exclusions that govern every figure on the page are stated in the page's own words.
+    expect(JSON.stringify(p)).toContain("excluding basal cell carcinoma of Skin");
+    expect(JSON.stringify(p)).toContain("greatly under-registered");
+    // The volume finding, which is the reason the layer exists.
+    expect(JSON.stringify(p)).toContain("89,978");
+    expect(JSON.stringify(p)).toContain("29.2");
+    expect(JSON.stringify(p)).toContain("5,733");
+    // The referral rules are quoted by recommendation number, including the one that says a basal cell carcinoma
+    // gets a routine referral rather than an urgent one.
+    expect(JSON.stringify(p)).toContain("1.7.5");
+    expect(JSON.stringify(p)).toContain("weighted 7-point checklist");
+    // Every NICE decision quoted carries its appraisal number, including the refusal.
+    const refs = p!.funding.filter((f) => f.england.body === "NICE").map((f) => f.england.ref);
+    for (const ta of ["TA489", "TA802", "TA691", "TA950", "TA766", "TA396"]) expect(refs, ta).toContain(ta);
+    // Mohs provision, which is the sharpest inequality on the page.
+    expect(JSON.stringify(p)).toContain("79 dermatology doctors");
+    expect(JSON.stringify(p)).toContain("fewer than 30");
+    // Prevention: the legislation nation by nation, and the powers England has never used.
+    expect(JSON.stringify(p)).toContain("Sunbeds (Regulation) Act 2010");
+    expect(JSON.stringify(p)).toContain("unsupervised");
+    expect(JSON.stringify(p)).toContain("86%");
+    // The genomic test directory codes are quoted, not described.
+    for (const code of ["M7.1", "M7.2", "R214.1", "R227.1", "R254.1"]) expect(JSON.stringify(p!.tests), code).toContain(code);
+    // Every funding row names Wales and Northern Ireland.
+    for (const f of p!.funding) { expect(f.wales, f.line).toBeTruthy(); expect(f.northernIreland, f.line).toBeTruthy(); }
+    // Every nation is represented in the centres.
+    expect(p!.centres.filter((c) => c.nation === "England").length).toBeGreaterThanOrEqual(7);
+  });
+
   it("cites only https URLs on allowed UK public domains", () => {
     for (const p of UK_PATHWAYS) {
       const urls = ukPathwayUrls(p);
@@ -290,7 +341,7 @@ describe("/cancers/[id]/uk/ page", () => {
     const ids = generateStaticParams().map((x) => x.id);
     expect(ids).toEqual(ukPathwayCancerIds());
     expect(ids).toContain("gallbladder");
-    expect(ids).not.toContain("melanoma");
+    expect(ids).not.toContain("glioblastoma");
     expect(ukPathwayRoute("gallbladder", "funding")).toBe("/cancers/gallbladder/uk/#funding");
   });
 
@@ -439,7 +490,30 @@ describe("/cancers/[id]/uk/ page", () => {
     expect(renderToStaticMarkup(createElement(() => tnbc))).toContain("TA851");
   });
 
+  it("renders the skin cancer family page with the counting exclusions, the referral rules, Mohs and the sunbed law", async () => {
+    const el = await UkPage({ params: Promise.resolve({ id: "skin-cancer" }) });
+    const html = renderToStaticMarkup(createElement(() => el));
+    for (const id of ["pathway", "centres", "funding", "tests", "trials", "data", "support", "nations", "gaps"]) expect(html).toContain(`id="${id}"`);
+    expect(html).toContain("Faster Diagnosis Standard");
+    expect(html).toContain("TA489");
+    expect(html).toContain("TA802");
+    expect(html).toContain("SMC2584");
+    expect(html).toContain("M7.1");
+    expect(html).toContain("Mohs");
+    expect(html).toContain("Sunbeds (Regulation) Act 2010");
+    expect(html).toContain("Welsh Institute of Dermatology");
+    expect(html).toContain("Belfast");
+    expect(html).toContain("ISRCTN10511385");
+    expect(html).toContain("/api/v1/cancers/skin-cancer/uk.json");
+    expect(html).not.toMatch(/<a[^>]*>[^<]*<a/);
+    // A keratinocyte alias and the melanoma alias both render the same pathway.
+    const bcc = await UkPage({ params: Promise.resolve({ id: "basal-cell-carcinoma" }) });
+    expect(renderToStaticMarkup(createElement(() => bcc))).toContain("TA489");
+    const mel = await UkPage({ params: Promise.resolve({ id: "melanoma" }) });
+    expect(renderToStaticMarkup(createElement(() => mel))).toContain("weighted 7-point checklist");
+  });
+
   it("returns not-found for a cancer without a pathway", async () => {
-    await expect(UkPage({ params: Promise.resolve({ id: "melanoma" }) })).rejects.toThrow();
+    await expect(UkPage({ params: Promise.resolve({ id: "glioblastoma" }) })).rejects.toThrow();
   });
 });

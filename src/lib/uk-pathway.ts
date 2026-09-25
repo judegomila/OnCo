@@ -16,6 +16,7 @@ import { colorectalUkPathway } from "@/data/spikes/colorectal-uk";
 import { lungUkPathway } from "@/data/spikes/lung-uk";
 import { prostateUkPathway } from "@/data/spikes/prostate-uk";
 import { breastUkPathway } from "@/data/spikes/breast-uk";
+import { skinUkPathway } from "@/data/spikes/skin-uk";
 
 /** A checkable citation: the page a figure or statement was read from, and when it was checked or published. */
 export type UkSource = { label: string; url: string; date?: string };
@@ -51,7 +52,12 @@ export type UkCentre = {
   sources: UkSource[];
 };
 
-export type UkDecision = { body: "NICE" | "SMC" | "AWMSG" | "NHS England"; decision: string; ref?: string; date?: string; url: string; cdf?: boolean };
+/**
+ * A funding or commissioning position and who took it. Most rows are NICE or the SMC; "NHS England" and
+ * "NHS Scotland" cover the positions that are commissioning or service decisions rather than appraisals, which
+ * is how most of skin cancer care is governed.
+ */
+export type UkDecision = { body: "NICE" | "SMC" | "AWMSG" | "NHS England" | "NHS Scotland"; decision: string; ref?: string; date?: string; url: string; cdf?: boolean };
 
 /** One line of treatment and what the NHS funds for it. */
 export type UkFundingRow = {
@@ -133,7 +139,7 @@ export type UkPathway = {
   gaps: string[];
 };
 
-export const UK_PATHWAYS: UkPathway[] = [gallbladderUkPathway, tnbcUkPathway, pancreaticUkPathway, colorectalUkPathway, lungUkPathway, prostateUkPathway, breastUkPathway];
+export const UK_PATHWAYS: UkPathway[] = [gallbladderUkPathway, tnbcUkPathway, pancreaticUkPathway, colorectalUkPathway, lungUkPathway, prostateUkPathway, breastUkPathway, skinUkPathway];
 
 /** The pathway for a cancer id, matching the canonical id or an alias. */
 export function ukPathwayFor(cancerId: string): UkPathway | undefined {

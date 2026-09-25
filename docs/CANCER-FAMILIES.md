@@ -2,7 +2,7 @@
 
 Decided 25 September 2026, after a discovery defect: a cancer family page showed only the records attached to the
 family record itself, and the records attached to its children were invisible there. The reader who lands on a family
-page is exactly the one who has not yet worked out which type she has, so she was shown the least.
+page is exactly the one who has not yet worked out which type they have, so they were shown the least.
 
 Measured across the corpus before the fix (incoming trial records, six of the 86 families worst affected):
 

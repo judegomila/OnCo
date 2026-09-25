@@ -10,7 +10,7 @@ import { ChipList } from "./ui";
  * What the subtypes hold and the family record does not (docs/CANCER-FAMILIES.md): the trials, medicines and expert
  * centres attached to a type of this cancer rather than to the cancer itself, grouped by the type each came from.
  *
- * The reader who lands on a family page is the one who does not yet know which type she has, so she is shown the work
+ * The reader who lands on a family page is the one who does not yet know which type they have, so they are shown the work
  * and told where it sits. Nothing is copied onto the family record: the roll-up is a view. Each group names the first
  * `ROLLUP_ITEM_CAP` records and links the rest into the subtype's own page, so the markup grows with the number of
  * subtypes, not with the number of trials.
@@ -20,17 +20,17 @@ const COPY: Record<RollupKind, { title: string; anchor: string; lead: (c: Cancer
   trial: {
     title: "Trials in the types of this cancer",
     anchor: "landmark-trials",
-    lead: (c, n) => `${n.toLocaleString("en-GB")} trials on record are attached to a type of ${c.name} rather than to ${c.name} itself. They are grouped by the type that holds them, so a reader still working out which type she has can see the whole field from here.`,
+    lead: (c, n) => `${n.toLocaleString("en-GB")} trials on record are attached to one of the types below rather than to ${c.name} itself. They are grouped by the type that holds them, so someone still working out which type they have can see the whole field from here.`,
   },
   drug: {
     title: "Medicines in the types of this cancer",
     anchor: "pipeline",
-    lead: (c, n) => `${n.toLocaleString("en-GB")} medicines on record are linked to a type of ${c.name} rather than to ${c.name} itself. Grouped by the type that holds them; each list opens that type's own page.`,
+    lead: (c, n) => `${n.toLocaleString("en-GB")} medicines on record are linked to one of the types below rather than to ${c.name} itself. Grouped by the type that holds them; each list opens that type's own page.`,
   },
   institution: {
     title: "Expert centres named on the types of this cancer",
     anchor: "centres",
-    lead: (c, n) => `${n.toLocaleString("en-GB")} centres are named on a type of ${c.name} rather than on ${c.name} itself. Grouped by the type that holds them; the full table for each sits on that type's page.`,
+    lead: (c, n) => `${n.toLocaleString("en-GB")} centres are named on one of the types below rather than on ${c.name} itself. Grouped by the type that holds them; the full table for each sits on that type's page.`,
   },
 };
 

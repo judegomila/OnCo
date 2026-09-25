@@ -7,7 +7,7 @@ import type { Cancer, Entity } from "./schema";
  *
  * A cancer family page used to show only the records attached to the family record itself. A trial in non-small-cell
  * lung cancer is attached to `nsclc`, not to `lung-cancer`, which is right as data and wrong as a page: the reader who
- * lands on the family is exactly the one who does not yet know which type she has, and 796 of lung cancer's 851 trials
+ * lands on the family is exactly the one who does not yet know which type they have, and 796 of lung cancer's 851 trials
  * were invisible to her. Re-tagging the records onto the family would be a lie (and would break the page budgets), so
  * the fix lives here, in what the page shows.
  *

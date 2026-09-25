@@ -1,0 +1,85 @@
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_60dcc16be961e2 68-70,151-163,250,425,899
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 294
+scripts/fetch-fda.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 18,23-24,31,69-72
+src/components/CompanyTypePill.tsx
+  s_0beac9cb5d78fd::t_60dcc16be961e2 1-25
+src/lib/valueTone.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 29,38
+scripts/fetch-entity-trials.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 25-28
+src/data/companies-cooperative-groups.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 1-181
+src/lib/schema-docs.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 140
+src/lib/kind-graph.ts
+  s_0beac9cb5d78fd::t_c5bef35c4f891d 2,39-40
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_60dcc16be961e2 338
+src/lib/cooperative-groups.test.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 1-77
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 294
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 294
+src/lib/rankings.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 8,81-82,95,109,125,138,140,165,175,188,198,210,274-277,292
+src/components/ScorecardTable.tsx
+  s_0beac9cb5d78fd::t_60dcc16be961e2 25
+src/data/index.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 49,102,243,303-305,327-328
+src/data/sponsor-aliases.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 294-312,316,328,339,345-348
+src/components/SupportivePill.tsx
+  s_0beac9cb5d78fd::t_60dcc16be961e2 1-35
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 326
+src/lib/kind-browser.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 13,127,129
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 294
+src/lib/supportive-care.test.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 1-73
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 294
+src/lib/supportive-care.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 1-68
+docs/IMPROVEMENTS-100.md
+  s_0beac9cb5d78fd::t_60dcc16be961e2 321
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 205-212,227-233
+scripts/fetch-company-drugs.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 45-47
+src/lib/ask-compose.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 153
+scripts/fetch-ema.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 27,36-42,207-209
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 294
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 294
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 294
+src/data/supportive-drugs.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 1-58
+src/lib/startups.ts
+  s_0beac9cb5d78fd::t_60dcc16be961e2 15,18-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "38ba9b3961fa8039c41feda0ef3ee321b8cead4d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

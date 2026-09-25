@@ -351,7 +351,7 @@ const spike: Spike = {
     openProblems: [
       "Microsatellite-stable metastatic disease (95%) remains immunotherapy-resistant; liver metastases actively suppress systemic immunity.",
       "KRAS G12D and G12V, the most common drivers, have no approved inhibitor; RAS(ON) inhibitors are the first credible attempt.",
-      "Early-onset colorectal cancer is rising ~2% per year with no established cause and no screening before 45.",
+      "Early-onset colorectal cancer is rising with no established cause: 3% a year in adults aged 20-49 in the United States over 2013-2022, against a 2.5% annual fall in the over-65s (American Cancer Society, Colorectal cancer statistics 2026). Screening starts at 45 in the United States and 50 in England, so the rise is almost all below the screening age.",
       "ctDNA identifies who will relapse but no escalation strategy has changed outcomes (ALTAIR negative).",
       "Anti-EGFR resistance is universal; rechallenge and ctDNA-guided sequencing are unproven in phase 3.",
       "Rectal cancer organ preservation lacks randomised comparison against surgery in pMMR disease.",

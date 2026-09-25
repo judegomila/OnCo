@@ -7,8 +7,10 @@ export type Question = { setting: string; question: string; why: string };
 
 import { GALLBLADDER_CANCER_ID, gallbladderQuestions } from "./spikes/gallbladder-living";
 import { TNBC_CANCER_ID, tnbcQuestions } from "./spikes/tnbc-living";
+import { PANCREATIC_CANCER_ID, pancreaticQuestions } from "./spikes/pancreatic-living";
 
 export const questions: Record<string, Question[]> = {
   [GALLBLADDER_CANCER_ID]: gallbladderQuestions,
   [TNBC_CANCER_ID]: tnbcQuestions,
+  [PANCREATIC_CANCER_ID]: pancreaticQuestions,
 };

@@ -69,7 +69,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Trial networks that spend 10% on implementation trials increase guideline-concordant care for at least two measurable indicators (for example biomarker testing before first-line therapy, adjuvant therapy completion) by 10 percentage points in participating regions within four years.",
     rationale: "Implementation science has a track record in cardiovascular medicine (statin and blood-pressure programmes) and in HIV; in oncology, the gap between proven and delivered care is well documented but seldom the object of a funded trial because no drug sponsor benefits.",
     test: "One network runs the quota for a full funding cycle and compares indicator improvement and cost per additional patient correctly treated with a matched network that does not.",
-    institutions: ["swog", "ecog-acrin", "curie-nki-eortc"], technologies: ["geriatric-assessment", "cgp"], related: ["nccn", "esmo-guidelines", "idea-fund-payer-funded-pragmatic-trials"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
+    companies: ["swog", "ecog-acrin", "curie-nki-eortc"], technologies: ["geriatric-assessment", "cgp"], related: ["nccn", "esmo-guidelines", "idea-fund-payer-funded-pragmatic-trials"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   i({ id: "idea-fund-lmic-burden-match", name: "Burden-matched funding for trials led in low- and middle-income countries", maturity: "speculative",
     actor: "philanthropy", cost: "large", horizonYears: 6, bottlenecks: ["b-funding-allocation", "b-global-access", "b-trial-diversity"],
@@ -116,7 +116,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "A 25% floor doubles the number of adequately powered randomised surgical and radiotherapy trials started per year within five years, without reducing the total number of practice-changing results per public dollar.",
     rationale: "Published audits show surgery and radiotherapy receive a small single-digit share of cancer research funding despite delivering around half of cures; where dedicated infrastructure exists (UK CTRad, TROG, the German Hodgkin Study Group) these fields have produced practice-changing trials at low cost.",
     test: "Audit one funder's portfolio by intervention type, apply the floor for one funding cycle, and count trials started, completed and practice-changing five years later against the prior cycle.",
-    institutions: ["nrg-oncology", "alliance-oncology", "the-christie", "royal-marsden"], technologies: ["sbrt", "robotic-surgery", "imrt-igrt"], related: ["idea-fund-surgical-trials-network", "idea-fund-radiotherapy-trials-infrastructure"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
+    institutions: ["the-christie", "royal-marsden"], companies: ["nrg-oncology", "alliance-oncology"], technologies: ["sbrt", "robotic-surgery", "imrt-igrt"], related: ["idea-fund-surgical-trials-network", "idea-fund-radiotherapy-trials-infrastructure"], links: [{ label: "Bottleneck evidence (Funding follows fashion, not burden): Carter & Nguyen, A comparison of cancer burden and research spending (BMC Cancer 2012)", url: "https://doi.org/10.1186/1471-2407-12-526" }] }),
 
   i({ id: "idea-fund-replication-set-aside", name: "Set aside 3% of grant budgets to replicate findings before translation", maturity: "speculative",
     actor: "research", cost: "medium", horizonYears: 3, bottlenecks: ["b-funding-allocation", "b-reproducibility", "b-translational-valley"],
@@ -244,7 +244,7 @@ export const ideasFunding: IdeaInput[] = [
     rationale: "The pneumococcal AMC accelerated vaccine availability in poor countries by years and drew in new manufacturers. Paediatric oncology drug development is delayed by uncertain and small markets; the RACE Act mandates studies but does not make them profitable. A guaranteed market is the missing pull.",
     test: "Design one AMC with a target product profile and escrowed funds for a single indication, publish it, and count programme entries and phase 1/2 starts in that indication over five years against comparable indications.",
     links: [{ label: "Gavi pneumococcal Advance Market Commitment", url: "https://www.gavi.org/investing-gavi/innovative-financing/pneumococcal-amc" }],
-    cancers: ["neuroblastoma", "sarcoma", "glioblastoma"], institutions: ["childrens-oncology-group"], related: ["idea-fund-paediatric-deferral-escrow", "idea-fund-nonprofit-pharma"] }),
+    cancers: ["neuroblastoma", "sarcoma", "glioblastoma"], companies: ["childrens-oncology-group"], related: ["idea-fund-paediatric-deferral-escrow", "idea-fund-nonprofit-pharma"] }),
 
   i({ id: "idea-fund-conditional-transferable-voucher", name: "Transferable priority vouchers for first-in-class drugs, with price conditions", maturity: "speculative",
     actor: "regulator", cost: "small", horizonYears: 4, bottlenecks: ["b-incentive-misalignment", "b-drug-pricing"],
@@ -398,7 +398,7 @@ export const ideasFunding: IdeaInput[] = [
     rationale: "Deferral without financial consequence is why paediatric plans drift; financial holdbacks are standard tools in construction and procurement contracts. The RACE Act closed the loophole of indication-based exemption but left timing weakly enforced.",
     test: "Implement in one jurisdiction for newly approved oncology drugs with paediatric requirements and compare completion timelines with the prior cohort.",
     links: [{ label: "FDA Oncology Center of Excellence pediatric oncology", url: "https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology" }],
-    institutions: ["childrens-oncology-group"], cancers: ["neuroblastoma", "all-leukemia", "sarcoma"], related: ["idea-fund-amc-paediatric-rare"] }),
+    companies: ["childrens-oncology-group"], cancers: ["neuroblastoma", "all-leukemia", "sarcoma"], related: ["idea-fund-amc-paediatric-rare"] }),
 
   i({ id: "idea-fund-abbreviated-pathway-me-too-biologics", name: "An abbreviated approval path for follow-on antibodies within a validated class", maturity: "speculative",
     actor: "regulator", cost: "small", horizonYears: 4, bottlenecks: ["b-incentive-misalignment", "b-drug-pricing", "b-trial-design"],
@@ -505,7 +505,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Academic trials supported by a non-profit CRO complete recruitment and report results at least 30% faster than academic trials using commercial or in-house ad hoc support, at lower total cost per patient.",
     rationale: "EORTC and the German and UK cooperative trials units show that shared professional infrastructure lifts completion rates and quality; a non-profit CRO extends this from cooperative-group phase 3 to the early-phase academic trials where the valley of death is deepest.",
     test: "Fund a pilot CRO to sponsor twenty academic phase 1/2 oncology trials and compare start-up time, recruitment velocity, protocol deviations and reporting time against a matched set of contemporaneous academic trials.",
-    institutions: ["curie-nki-eortc", "nci"], related: ["idea-fund-translational-institutes-gmp", "idea-fund-global-academic-phase-one-network"], keyPapers: ["paper-reproducibility-project-cancer-biology-elife-2021"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
+    institutions: ["nci"], companies: ["curie-nki-eortc"], related: ["idea-fund-translational-institutes-gmp", "idea-fund-global-academic-phase-one-network"], keyPapers: ["paper-reproducibility-project-cancer-biology-elife-2021"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-translational-fellowships", name: "Two-year translational fellowships that pay scientists to develop their own discovery", maturity: "speculative",
     actor: "research", cost: "medium", horizonYears: 4, bottlenecks: ["b-translational-valley", "b-workforce"],
@@ -637,7 +637,7 @@ export const ideasFunding: IdeaInput[] = [
     hypothesis: "Academic first-in-human trials run through the network accrue at least three times faster than comparable single-institution academic trials and reach a recommended phase 2 dose within eighteen months in the majority of cases.",
     rationale: "Industry phase 1 trials open globally through CRO networks; academic ones do not, and rare-cancer academic trials routinely close for slow accrual. The EORTC and the Children's Oncology Group show that academic multinational early-phase trials work when infrastructure is shared.",
     test: "Run five academic first-in-human trials through a pilot network of ten units and compare activation time and accrual rate with matched single-centre trials.",
-    institutions: ["curie-nki-eortc", "royal-marsden", "gustave-roussy", "mskcc"], terms: ["basket-umbrella-platform"], related: ["idea-fund-public-nonprofit-cro", "idea-fund-translational-institutes-gmp"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
+    institutions: ["royal-marsden", "gustave-roussy", "mskcc"], companies: ["curie-nki-eortc"], terms: ["basket-umbrella-platform"], related: ["idea-fund-public-nonprofit-cro", "idea-fund-translational-institutes-gmp"], links: [{ label: "Bottleneck evidence (The valley of death between lab and product): Butler, Translational research: crossing the valley of death (Nature 2008)", url: "https://doi.org/10.1038/453840a" }] }),
 
   i({ id: "idea-fund-academic-sponsor-indemnity-pool", name: "A public indemnity pool so universities can sponsor first-in-human cancer trials", maturity: "speculative",
     actor: "policy", cost: "medium", horizonYears: 2, bottlenecks: ["b-translational-valley", "b-trial-design"],
@@ -775,7 +775,7 @@ export const ideasFunding: IdeaInput[] = [
     rationale: "I-SPY 2 graduated several agents to phase 3 and informed approvals at a fraction of stand-alone trial cost; GBM AGILE and Lung-MAP demonstrate industry willingness to participate under neutral sponsorship. The bottleneck is the absence of a durable institution, not of willing companies.",
     test: "Fund the sponsor for five years with a mandate to launch platforms in three under-served indications; report agents evaluated, time to activation and cost per agent against historical stand-alone trials.",
     links: [{ label: "I-SPY Trials (QuantumLeap Healthcare Collaborative)", url: "https://www.ispytrials.org/" }, { label: "Lung-MAP", url: "https://www.lung-map.org/" }],
-    terms: ["basket-umbrella-platform"], institutions: ["swog"], cancers: ["glioblastoma", "pancreatic", "tnbc"], related: ["idea-fund-combination-patent-pool", "idea-fund-control-arm-commons", "idea-fund-rt-io-platform"] }),
+    terms: ["basket-umbrella-platform"], companies: ["swog"], cancers: ["glioblastoma", "pancreatic", "tnbc"], related: ["idea-fund-combination-patent-pool", "idea-fund-control-arm-commons", "idea-fund-rt-io-platform"] }),
 
   i({ id: "idea-fund-portable-patient-consent", name: "Patient-held portable consent for reusing samples and data across studies", maturity: "early-clinical",
     actor: "patients", cost: "medium", horizonYears: 3, bottlenecks: ["b-ip-collaboration", "b-patient-voice", "b-data-silos"],
@@ -807,7 +807,7 @@ export const ideasFunding: IdeaInput[] = [
     rationale: "Where surgical trial infrastructure has been funded, landmark results followed: the LACC trial on minimally invasive radical hysterectomy, the JCOG gastric lymphadenectomy trials, the Dutch TME trial, and the CLASS and COLOR laparoscopic colectomy trials all changed practice worldwide. The scarcity is of infrastructure and funding, not of questions or willing surgeons.",
     test: "Fund the network for one five-year cycle with a portfolio of five trials and audit accrual, completion and guideline impact against surgical trials run without network support in the same period.",
     links: [{ label: "GlobalSurg Collaborative", url: "https://globalsurg.org/" }, { label: "IDEAL Collaboration", url: "https://www.ideal-collaboration.net/" }],
-    institutions: ["jcog", "alliance-oncology", "royal-marsden", "ncc-japan"], technologies: ["robotic-surgery", "sentinel-node"], people: ["kitagawa-yuko", "sano-takeshi", "chaturvedi-pankaj"], related: ["idea-fund-non-drug-trial-quota", "idea-fund-surgical-video-registry", "idea-fund-organ-preservation-programme"] }),
+    institutions: ["royal-marsden", "ncc-japan"], companies: ["jcog", "alliance-oncology"], technologies: ["robotic-surgery", "sentinel-node"], people: ["kitagawa-yuko", "sano-takeshi", "chaturvedi-pankaj"], related: ["idea-fund-non-drug-trial-quota", "idea-fund-surgical-video-registry", "idea-fund-organ-preservation-programme"] }),
 
   i({ id: "idea-fund-radiotherapy-trials-infrastructure", name: "Core-funded radiotherapy trials infrastructure with central quality assurance", maturity: "being-tested-at-scale",
     actor: "policy", cost: "large", horizonYears: 4, bottlenecks: ["b-surgery-radiation-innovation", "b-trial-design"],
@@ -817,7 +817,7 @@ export const ideasFunding: IdeaInput[] = [
     rationale: "The TROG 02.02 head and neck trial showed that poor plan quality erased the treatment effect; conversely, hypofractionation trials with strong QA changed global practice within a few years of publication. Radiotherapy has produced some of the highest-value trials in oncology per dollar; the constraint is infrastructure capacity.",
     test: "Fund infrastructure for one country for four years with throughput targets; compare trials opened, deviation rates and time to accrual with the preceding four years.",
     links: [{ label: "NRG Oncology", url: "https://www.nrgoncology.org/" }, { label: "ESTRO", url: "https://www.estro.org/" }],
-    institutions: ["nrg-oncology", "the-christie", "icr-london", "heidelberg-nct"], technologies: ["imrt-igrt", "sbrt", "mr-linac"], people: ["uwe-oelfke", "michael-baumann", "ananya-choudhury"], related: ["idea-fund-non-drug-trial-quota", "idea-fund-flash-evidence-programme", "idea-fund-course-based-radiotherapy-payment"] }),
+    institutions: ["the-christie", "icr-london", "heidelberg-nct"], companies: ["nrg-oncology"], technologies: ["imrt-igrt", "sbrt", "mr-linac"], people: ["uwe-oelfke", "michael-baumann", "ananya-choudhury"], related: ["idea-fund-non-drug-trial-quota", "idea-fund-flash-evidence-programme", "idea-fund-course-based-radiotherapy-payment"] }),
 
   i({ id: "idea-fund-device-technique-registry", name: "Mandatory staged registries for new surgical techniques before wide adoption", maturity: "early-clinical",
     actor: "regulator", cost: "medium", horizonYears: 3, bottlenecks: ["b-surgery-radiation-innovation", "b-real-world-evidence"],

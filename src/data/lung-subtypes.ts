@@ -144,7 +144,7 @@ export const lungSubtypeTrials: TrialInput[] = [
     ],
     replication: "JCOG0802/WJOG4607L (Japan, 2022) found segmentectomy non-inferior for recurrence-free survival and superior for overall survival in the same tumour size range.",
     cancers: ["nsclc", "resectable-nsclc"], terms: ["lobectomy", "segmentectomy", "minimally-invasive-surgery"], technologies: ["robotic-surgery", "low-dose-ct-screening"],
-    institutions: ["alliance-oncology"],
+    companies: ["alliance-oncology"],
     links: [ct("NCT00499330"), { label: "New England Journal of Medicine 2023", url: "https://doi.org/10.1056/NEJMoa2212083" }] },
 ];
 
@@ -464,7 +464,7 @@ export const lungSubtypes: CancerInput[] = [
     openProblems: ["Whether adjuvant immunotherapy adds anything after neoadjuvant treatment and surgery, especially for complete pathological responders, has not been tested directly.", "Circulating tumour DNA after surgery identifies high-risk patients but no trial yet shows that acting on it improves survival.", "About a fifth of patients given neoadjuvant therapy never reach surgery, from progression, toxicity or decline.", "Screening uptake is low in most countries, so most lung cancers are still found late."],
     targets: ["pd1", "pdl1", "egfr", "alk"], technologies: ["robotic-surgery", "sbrt", "checkpoint-inhibitor", "kinase-inhibitors", "pet-ct", "mri", "low-dose-ct-screening", "robotic-bronchoscopy", "mrd-testing", "cytotoxic-chemotherapy", "platinum"], terms: ["lobectomy", "segmentectomy", "pneumonectomy", "minimally-invasive-surgery", "neoadjuvant-adjuvant", "pcr", "major-pathological-response", "efs", "tnm-staging", "cancer-stage", "bronchoscopy", "ctdna"],
     trials: ["checkmate-816", "keynote-671", "nct03800134", "nct04025879", "nct02486718", "adaura", "alina", "calgb-140503", "chisel", "jcog0403", "nlst-nelson", "alchemist"], drugs: ["nivolumab", "pembrolizumab", "durvalumab", "atezolizumab", "osimertinib", "alectinib", "cisplatin", "carboplatin", "pemetrexed", "paclitaxel", "vinorelbine"],
-    people: ["patrick-forde", "jonathan-spicer", "tina-cascone", "heather-wakelee", "john-heymach", "enriqueta-felip", "roy-herbst", "wu-yi-long"], companies: ["bms", "merck", "astrazeneca", "roche-genentech"], institutions: ["alliance-oncology", "jcog", "iaslc"], pathways: ["pd1-checkpoint"],
+    people: ["patrick-forde", "jonathan-spicer", "tina-cascone", "heather-wakelee", "john-heymach", "enriqueta-felip", "roy-herbst", "wu-yi-long"], companies: ["bms", "merck", "astrazeneca", "roche-genentech", "alliance-oncology", "jcog"], institutions: ["iaslc"], pathways: ["pd1-checkpoint"],
     keyPapers: ["paper-checkmate-816-nejm-2022", "paper-adaura-nejm-2020", "paper-adaura-8-year-os-jto-2026", "paper-nlst-nejm-2011"],
     links: [{ label: "Wikipedia", url: W("Lung_cancer_surgery") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
@@ -494,7 +494,7 @@ export const lungSubtypes: CancerInput[] = [
     openProblems: ["Pneumonitis from radiotherapy followed by immunotherapy limits treatment in patients with poor lung function.", "Whether ALK, RET, ROS1 or other driver subtypes should receive targeted rather than immune consolidation is untested.", "Patients too frail for concurrent chemoradiation, a large share, have no evidence-based route to durvalumab.", "Proton therapy's heart-sparing has not yet been shown to improve survival."],
     targets: ["pdl1", "pd1", "egfr"], technologies: ["imrt-igrt", "proton-therapy", "checkpoint-inhibitor", "kinase-inhibitors", "pet-ct", "cytotoxic-chemotherapy", "platinum", "hypofractionated-radiotherapy"], terms: ["chemoradiation", "consolidation-therapy", "radiation-pneumonitis", "ild", "tnm-staging", "cancer-stage", "mediastinum"],
     trials: ["pacific", "laura", "nct04380636", "pacific-2"], drugs: ["durvalumab", "osimertinib", "cisplatin", "carboplatin", "etoposide", "pemetrexed", "paclitaxel", "vinorelbine"],
-    people: ["scott-antonia", "david-planchard", "wu-yi-long", "suresh-ramalingam"], companies: ["astrazeneca", "merck"], institutions: ["nrg-oncology"], pathways: ["pd1-checkpoint"],
+    people: ["scott-antonia", "david-planchard", "wu-yi-long", "suresh-ramalingam"], companies: ["astrazeneca", "merck", "nrg-oncology"], pathways: ["pd1-checkpoint"],
     keyPapers: ["paper-pacific-nejm-2017"],
     links: [{ label: "Wikipedia", url: W("Chemoradiotherapy") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 

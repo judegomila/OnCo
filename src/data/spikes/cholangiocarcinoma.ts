@@ -242,7 +242,7 @@ const spike: Spike = {
     targets: ["fgfr2", "idh", "her2", "her3", "pd1", "pdl1", "braf", "ntrk", "cldn18-2"],
     technologies: ["biliary-stenting-drainage", "liver-transplant-oncology", "radioembolisation-tare", "checkpoint-inhibitor", "kinase-inhibitors", "cgp", "rna-seq", "liquid-biopsy", "sbrt"],
     terms: ["biliary-anatomy-subtypes", "fgfr2-fusion", "ca19-9", "gene-fusion", "tumour-agnostic"],
-    companies: ["astrazeneca", "merck", "incyte", "taiho", "servier", "jazz", "zymeworks", "merus", "transthera", "cruk"],
+    companies: ["astrazeneca", "merck", "incyte", "taiho", "servier", "jazz", "zymeworks", "merus", "transthera"],
     institutions: ["mayo-clinic", "mskcc", "cruk", "royal-marsden", "asan-medical-center"],
     related: ["gemcis-plus-io-btc"],
     tags: ["spike"],

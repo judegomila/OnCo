@@ -248,7 +248,7 @@ const issue91: (TrialInput | PaperInput)[] = [
       { endpoint: "Best response by Macdonald criteria, all grades", primary: true, unit: "%", arms: [{ name: "GSK2256098 750 mg twice daily", n: 36, value: 3, note: "One partial response among 36 patients (about 3%); 24 had stable disease" }], source: "https://doi.org/10.1200/JCO.21.02371" },
     ],
     replication: "Single-arm cohort judged against historical controls; the other arms of the same umbrella and any confirmatory FAK-inhibitor study in meningioma have not yet reported.",
-    drugs: ["gsk2256098"], cancers: ["meningioma"], targets: ["fak"], technologies: ["kinase-inhibitors"], companies: ["gsk"], institutions: ["alliance-oncology"], keyPapers: ["paper-a071401-brastianos-jco-2023"],
+    drugs: ["gsk2256098"], cancers: ["meningioma"], targets: ["fak"], technologies: ["kinase-inhibitors"], companies: ["gsk", "alliance-oncology"], keyPapers: ["paper-a071401-brastianos-jco-2023"],
     links: [ct("NCT02523014"), doi("Journal of Clinical Oncology 2023", "10.1200/JCO.21.02371")] }),
   p({ id: "paper-a071401-brastianos-jco-2023", name: "Alliance A071401: phase II trial of focal adhesion kinase inhibition in meningiomas with somatic NF2 mutations",
     tldr: "In the first trial to match meningioma patients to a drug by their tumour's mutation, a FAK-blocking tablet kept 83 percent of low-grade and 33 percent of higher-grade NF2-mutant tumours from progressing for six months, clearing the bar the trial had set.",
@@ -259,7 +259,7 @@ const issue91: (TrialInput | PaperInput)[] = [
     whatItMeans: "Meningioma had no systemic therapy with proven activity; this cohort shows that matching a drug to the NF2 mutation can slow progression, and it validates the synthetic-lethal idea that NF2-deficient cells depend on FAK. It is a signal-finding result against historical controls, not yet a change to standard care.",
     caveats: ["Single-arm cohort compared with historical controls; no randomised comparison.", "Small numbers, especially in the grade 1 group (12 patients), so the confidence intervals are wide.", "Response by Macdonald criteria was rare (one partial response); the benefit is disease stabilisation."],
     links: [doi("Journal of Clinical Oncology 2023", "10.1200/JCO.21.02371"), pubmed("36288512"), ct("NCT02523014")],
-    drugs: ["gsk2256098"], trials: ["a071401"], cancers: ["meningioma"], targets: ["fak"], institutions: ["alliance-oncology"], journals: ["jco"] }),
+    drugs: ["gsk2256098"], trials: ["a071401"], cancers: ["meningioma"], targets: ["fak"], companies: ["alliance-oncology"], journals: ["jco"] }),
 ];
 
 // Issue 93: ROMAN (NCT03689712, GTI-4419-301), the avasopasem manganese phase 3 in radiation-induced severe oral mucositis.

@@ -100,6 +100,7 @@ import { targetsReaderEdits } from "./targets-reader-edits";
 import { drugsEmaWave } from "./drugs-ema-wave";
 import { companiesSponsorsWave } from "./companies-sponsors-wave";
 import { companiesCooperativeGroups, cooperativeGroupTrialCompanies } from "./companies-cooperative-groups";
+import { companiesCooperativeGroupsMigrated } from "./companies-cooperative-groups-migrated";
 import { drugsPipelineWave1 } from "./drugs-pipeline-wave1";
 import { pipelineTrialsWave2 } from "./pipeline-trials-wave2";
 import { drugsPipelineWave2 } from "./drugs-pipeline-wave2";
@@ -250,7 +251,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...pathwaysKegg,
   ...journalsWave2,
   ...companiesSponsors,
-  ...companiesSponsorsWave3, ...companiesCooperativeGroups,
+  ...companiesSponsorsWave3, ...companiesCooperativeGroups, ...companiesCooperativeGroupsMigrated,
   ...companiesMakersWave4,
   ...targetsWaveSoc, ...targetsReaderEdits, ...targetsGenesWave, ...drugsEmaWave, ...companiesSponsorsWave,
   ...drugsPipelineWave1,

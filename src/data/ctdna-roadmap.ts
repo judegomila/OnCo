@@ -179,7 +179,7 @@ export const ctdnaTrials: TrialInput[] = [
     setting: "Adults without a cancer diagnosis in the United States: randomised to a multi-cancer detection blood test or usual care to test whether a full randomised screening trial is feasible",
     tldr: "The US government's first randomised study of multi-cancer blood tests: 24,000 people are being assigned to a blood test or usual care to work out how a much larger trial should be run.",
     summary: "The Vanguard study is the National Cancer Institute's randomised feasibility trial for multi-cancer detection tests, run through its Cancer Screening Research Network. The registry lists it as an interventional, randomised study with no drug phase, an estimated 24,000 participants, a start on 18 June 2025, recruiting status, primary completion on 31 January 2029 and study completion on 30 June 2029, across bladder, breast, colorectal, oesophageal, gastric, liver, lung, ovarian, pancreatic and prostate cancers. It is the counterpart to NHS-Galleri: a public-sector randomised test of the approach rather than of one company's product, and its design will decide whether a mortality-powered trial follows.",
-    links: [ct("NCT06995898")], technologies: ["mced", "liquid-biopsy"], companies: ["nci"], terms: ["stage-shift", "ppv"], related: ["nhs-galleri", "pathfinder-2", "galleri", "idea-prev-mced-registry-randomised", "ctdna-tests"],
+    links: [ct("NCT06995898")], technologies: ["mced", "liquid-biopsy"], institutions: ["nci"], terms: ["stage-shift", "ppv"], related: ["nhs-galleri", "pathfinder-2", "galleri", "idea-prev-mced-registry-randomised", "ctdna-tests"],
   }),
 ];
 

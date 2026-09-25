@@ -177,7 +177,7 @@ export const nciRareSolidCancers: CancerInput[] = [
     pipeline: ["crizotinib", "lorlatinib", "repotrectinib"],
     openProblems: ["How long to continue ALK inhibition in children with complete response, and whether surgery after response can allow stopping.", "The fusion-negative minority: RNA sequencing to find drivers.", "Rare aggressive epithelioid variants that develop resistance mutations to sequential ALK inhibitors."],
     targets: ["alk", "ros1", "ntrk", "pdgfra", "ret"], technologies: ["kinase-inhibitors", "limb-salvage-surgery", "rna-seq"], drugs: ["crizotinib", "alectinib", "ceritinib", "lorlatinib", "entrectinib", "larotrectinib", "repotrectinib", "imatinib"],
-    pathways: ["rtk-activation", "ras-mapk"], companies: ["pfizer"], institutions: ["childrens-oncology-group", "curie-nki-eortc"], terms: ["gene-fusion", "race-for-children-act", "rare-cancers"], bottlenecks: ["b-rare-cancers"],
+    pathways: ["rtk-activation", "ras-mapk"], companies: ["pfizer", "childrens-oncology-group", "curie-nki-eortc"], terms: ["gene-fusion", "race-for-children-act", "rare-cancers"], bottlenecks: ["b-rare-cancers"],
     links: [{ label: "NCI PDQ: childhood soft tissue sarcoma (includes IMT)", url: PDQ("soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq") }, { label: "FDA approval of crizotinib for ALK-positive IMT (archived copy)", url: "https://web.archive.org/web/20260213082319/https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-crizotinib-alk-positive-inflammatory-myofibroblastic-tumor" }, { label: "EORTC 90101 CREATE (Lancet Respir Med 2018)", url: "https://doi.org/10.1016/S2213-2600(18)30116-4" }],
     tags: ["nci-coverage", "rare", "sarcoma", "paediatric"],
   }),

@@ -54,7 +54,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     ],
     targets: ["braf"], pathways: ["ras-mapk", "glioma-signalling"], drugs: ["dabrafenib-trametinib", "tovorafenib", "carboplatin", "vincristine", "vinblastine"],
     technologies: ["kinase-inhibitors", "methylation-profiling", "proton-therapy", "mri", "survivorship-care-plan"], trials: ["tadpole", "firefly-1", "pediatric-match"],
-    institutions: ["childrens-oncology-group", "siop-europe", "cclg"], companies: ["day-one-biopharmaceuticals", "novartis"], terms: ["late-effects", "germline-testing"], bottlenecks: ["b-rare-cancers", "b-survivorship"],
+    institutions: ["siop-europe"], companies: ["day-one-biopharmaceuticals", "novartis", "childrens-oncology-group", "cclg"], terms: ["late-effects", "germline-testing"], bottlenecks: ["b-rare-cancers", "b-survivorship"],
     related: ["dipg-dmg", "glioblastoma", "race-for-children-act", "ependymoma", "craniopharyngioma", "idh-mutant-astrocytoma", "oligodendroglioma", "paediatric-high-grade-glioma"],
     links: [
       { label: "NCI PDQ: childhood astrocytomas, other gliomas and glioneuronal tumours", url: PDQ("brain/hp/child-astrocytoma-treament-pdq") },
@@ -101,7 +101,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     ],
     targets: ["gd2", "ezh2"], pathways: ["epigenetic-reprogramming", "p53-cell-cycle"], drugs: ["dordaviprone", "temozolomide"],
     technologies: ["imrt-igrt", "glioma-car-t", "bbb-focused-ultrasound", "car-t", "methylation-profiling", "palliative-care"], trials: ["action-dmg", "pediatric-match"],
-    institutions: ["childrens-oncology-group", "siop-europe", "stanford", "dkfz"], terms: ["h3k27m", "blood-brain-barrier", "late-effects"], bottlenecks: ["b-brain-delivery", "b-rare-cancers"],
+    institutions: ["siop-europe", "stanford", "dkfz"], companies: ["childrens-oncology-group"], terms: ["h3k27m", "blood-brain-barrier", "late-effects"], bottlenecks: ["b-brain-delivery", "b-rare-cancers"],
     related: ["paediatric-low-grade-glioma", "glioblastoma", "race-for-children-act", "accelerate-platform", "idh-mutant-astrocytoma", "oligodendroglioma", "paediatric-high-grade-glioma"],
     links: [
       { label: "NCI PDQ: childhood astrocytomas and other gliomas (includes diffuse midline glioma)", url: PDQ("brain/hp/child-astrocytoma-treament-pdq") },
@@ -145,7 +145,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Rarity: international registries (EU-RHAB) and shared protocols are the only route to adequately powered trials.",
     ],
     targets: ["ezh2"], pathways: ["swi-snf-chromatin", "epigenetic-reprogramming", "hedgehog", "myc"], drugs: ["tazemetostat", "methotrexate", "cyclophosphamide", "cisplatin", "carboplatin", "vincristine"],
-    technologies: ["autologous-stem-cell-transplant", "methylation-profiling", "proton-therapy", "cytotoxic-chemotherapy", "germline-testing"], institutions: ["childrens-oncology-group", "siop-europe", "dkfz", "st-jude"],
+    technologies: ["autologous-stem-cell-transplant", "methylation-profiling", "proton-therapy", "cytotoxic-chemotherapy", "germline-testing"], institutions: ["siop-europe", "dkfz", "st-jude"], companies: ["childrens-oncology-group"],
     terms: ["hereditary-cancer-syndromes", "late-effects"], bottlenecks: ["b-rare-cancers", "b-survivorship"], related: ["epithelioid-sarcoma", "medulloblastoma", "wilms-tumor", "ependymoma", "cns-germ-cell-tumours"],
     links: [
       { label: "NCI PDQ: childhood CNS atypical teratoid/rhabdoid tumour", url: PDQ("brain/hp/child-cns-atrt-treatment-pdq") },
@@ -189,7 +189,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Adult spinal and intracranial ependymoma lack dedicated trials and borrow from paediatric evidence.",
     ],
     targets: ["cdk4-6"], pathways: ["epigenetic-reprogramming", "inflammation-nfkb", "hippo-yap"], drugs: ["vincristine", "carboplatin", "cyclophosphamide", "etoposide"],
-    technologies: ["imrt-igrt", "proton-therapy", "methylation-profiling", "mri", "survivorship-care-plan"], trials: ["pediatric-match"], institutions: ["childrens-oncology-group", "siop-europe", "st-jude", "dkfz"],
+    technologies: ["imrt-igrt", "proton-therapy", "methylation-profiling", "mri", "survivorship-care-plan"], trials: ["pediatric-match"], institutions: ["siop-europe", "st-jude", "dkfz"], companies: ["childrens-oncology-group"],
     terms: ["late-effects", "ependymoma-molecular-groups"], bottlenecks: ["b-rare-cancers", "b-survivorship"], related: ["medulloblastoma", "paediatric-low-grade-glioma", "atrt", "glioblastoma", "spinal-cord-tumours"],
     links: [
       { label: "NCI PDQ: childhood ependymoma", url: PDQ("brain/hp/child-ependymoma-treatment-pdq") },
@@ -234,7 +234,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Recurrence after subtotal resection in children too young for radiotherapy.",
     ],
     targets: ["braf"], pathways: ["wnt", "ras-mapk", "inflammation-nfkb"], drugs: ["dabrafenib-trametinib", "vemurafenib", "cobimetinib", "interferon-alfa", "bleomycin", "setmelanotide"],
-    technologies: ["proton-therapy", "imrt-igrt", "mri", "survivorship-care-plan"], institutions: ["st-jude", "childrens-oncology-group", "alliance-oncology"], terms: ["late-effects"], bottlenecks: ["b-survivorship", "b-rare-cancers"],
+    technologies: ["proton-therapy", "imrt-igrt", "mri", "survivorship-care-plan"], institutions: ["st-jude"], companies: ["childrens-oncology-group", "alliance-oncology"], terms: ["late-effects"], bottlenecks: ["b-survivorship", "b-rare-cancers"],
     related: ["pituitary-tumours", "paediatric-low-grade-glioma", "cns-germ-cell-tumours", "meningioma"],
     links: [
       { label: "NCI PDQ: childhood craniopharyngioma", url: PDQ("brain/hp/child-cranio-treatment-pdq") },
@@ -277,7 +277,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Uptake of germline testing and surveillance across families, and the psychological burden of surveillance in carriers.",
       "Diagnostic delay for childhood airway tumours misdiagnosed as asthma.",
     ],
-    drugs: ["ifosfamide", "vincristine", "dactinomycin", "doxorubicin"], technologies: ["germline-testing", "ct", "cytotoxic-chemotherapy"], institutions: ["childrens-oncology-group", "siop-europe"],
+    drugs: ["ifosfamide", "vincristine", "dactinomycin", "doxorubicin"], technologies: ["germline-testing", "ct", "cytotoxic-chemotherapy"], institutions: ["siop-europe"], companies: ["childrens-oncology-group"],
     terms: ["hereditary-cancer-syndromes", "bronchoscopy"], bottlenecks: ["b-rare-cancers", "b-hereditary-risk"], related: ["inflammatory-myofibroblastic-tumour", "rhabdomyosarcoma", "rare-childhood-cancers", "thyroid", "wilms-tumor", "hepatoblastoma"],
     links: [
       { label: "NCI PDQ: childhood pleuropulmonary blastoma (in rare cancers of childhood)", url: PDQ("childhood-cancers/patient/rare-childhood-cancers-pdq") },
@@ -324,7 +324,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Harmonising paediatric, adolescent and adult protocols so that a 17-year-old and a 19-year-old receive the same evidence-based care.",
     ],
     drugs: ["cisplatin", "carboplatin", "etoposide", "bleomycin", "ifosfamide", "sodium-thiosulfate"], technologies: ["cytotoxic-chemotherapy", "active-surveillance", "autologous-stem-cell-transplant", "imrt-igrt", "proton-therapy", "fertility-preservation", "survivorship-care-plan"],
-    institutions: ["childrens-oncology-group", "cclg", "siop-europe"], terms: ["afp", "late-effects", "aya-oncology", "bleomycin-omission-caution", "retroperitoneum"], bottlenecks: ["b-survivorship", "b-rare-cancers"],
+    institutions: ["siop-europe"], companies: ["childrens-oncology-group", "cclg"], terms: ["afp", "late-effects", "aya-oncology", "bleomycin-omission-caution", "retroperitoneum"], bottlenecks: ["b-survivorship", "b-rare-cancers"],
     related: ["testicular", "ovarian", "rare-childhood-cancers", "neuroblastoma", "hepatoblastoma"],
     links: [
       { label: "NCI PDQ: childhood extracranial germ cell tumours", url: PDQ("extracranial-germ-cell/hp/germ-cell-treatment-pdq") },
@@ -373,7 +373,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Adult LCH is under-recognised and under-studied; shared paediatric-adult guidelines are a first step.",
     ],
     targets: ["braf"], pathways: ["ras-mapk"], drugs: ["vinblastine", "vemurafenib", "dabrafenib-trametinib", "cladribine"],
-    technologies: ["kinase-inhibitors", "cytotoxic-chemotherapy", "mri", "liquid-biopsy", "survivorship-care-plan"], trials: ["lch-iii"], institutions: ["histiocyte-society", "childrens-oncology-group", "siop-europe"],
+    technologies: ["kinase-inhibitors", "cytotoxic-chemotherapy", "mri", "liquid-biopsy", "survivorship-care-plan"], trials: ["lch-iii"], institutions: ["histiocyte-society", "siop-europe"], companies: ["childrens-oncology-group"],
     terms: ["late-effects"], bottlenecks: ["b-rare-cancers"], related: ["histiocytoses", "bpdcn", "aml"],
     links: [
       { label: "NCI PDQ: Langerhans cell histiocytosis", url: PDQ("langerhans/hp/langerhans-treatment-pdq") },
@@ -421,7 +421,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Late effects of anthracyclines and alkylators in survivors treated as children.",
     ],
     targets: ["cd20", "cd19"], pathways: ["myc", "oncogenic-viruses", "bcr-signalling"], drugs: ["rituximab", "cyclophosphamide", "methotrexate", "doxorubicin", "vincristine", "etoposide"],
-    technologies: ["monoclonal-antibody", "cytotoxic-chemotherapy", "car-t", "global-oncology-access", "cytogenetics-fish"], trials: ["inter-b-nhl-ritux-2010"], institutions: ["childrens-oncology-group", "siop-europe", "uganda-cancer-institute"],
+    technologies: ["monoclonal-antibody", "cytotoxic-chemotherapy", "car-t", "global-oncology-access", "cytogenetics-fish"], trials: ["inter-b-nhl-ritux-2010"], institutions: ["siop-europe", "uganda-cancer-institute"], companies: ["childrens-oncology-group"],
     terms: ["tumor-lysis-syndrome", "ebv-term", "lymphoma-type"], bottlenecks: ["b-global-access"], related: ["dlbcl", "hiv-associated-lymphoma", "all-leukemia", "primary-mediastinal-b-cell-lymphoma", "primary-cns-lymphoma"],
     links: [
       { label: "NCI PDQ: childhood non-Hodgkin lymphoma (Burkitt)", url: PDQ("lymphoma/hp/child-nhl-treatment-pdq") },
@@ -432,7 +432,7 @@ export const nciPaediatricCancers: CancerInput[] = [
   }),
   // ======================= NCI rare cancers of childhood umbrella =======================
   c({
-    id: "rare-childhood-cancers", companies: ["shanghai-fosun-pharmaceutical-industrial-development", "shanghai-kechow-pharma"], name: "Rare cancers of childhood (NCI PDQ umbrella)", group: "paediatric", wikipedia: W("Childhood_cancer"),
+    id: "rare-childhood-cancers", companies: ["shanghai-fosun-pharmaceutical-industrial-development", "shanghai-kechow-pharma", "childrens-oncology-group", "cclg"], name: "Rare cancers of childhood (NCI PDQ umbrella)", group: "paediatric", wikipedia: W("Childhood_cancer"),
     aka: ["Childhood cardiac tumours", "Laryngeal papillomatosis", "Recurrent respiratory papillomatosis", "Childhood melanoma", "Childhood carcinomas", "Very rare tumours of childhood"],
     burden: "Individually vanishingly rare, but together the tumours grouped by the NCI as rare cancers of childhood account for roughly one in ten childhood cancers, and their share rises in adolescence (NCI PDQ).",
     tldr: "Some childhood cancers are so rare that no single hospital sees enough to learn from. The NCI groups them together: heart tumours, airway papillomas, cancers of the thyroid, adrenal, nose and throat, melanoma and carcinomas more typical of adults. The answer has been international registries and expert networks that pool every case, so treatment guidance exists even without trials.",
@@ -464,7 +464,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Access to molecular profiling and matched therapy for rare tumours outside major centres.",
     ],
     drugs: ["everolimus", "bevacizumab", "gardasil-9"], technologies: ["hpv-vaccine", "germline-testing", "cancer-registries-surveillance"], trials: ["pediatric-match", "nct07407803"],
-    institutions: ["childrens-oncology-group", "siop-europe", "cclg"], terms: ["hereditary-cancer-syndromes", "aya-oncology"], bottlenecks: ["b-rare-cancers", "b-trial-enrolment"],
+    institutions: ["siop-europe"], terms: ["hereditary-cancer-syndromes", "aya-oncology"], bottlenecks: ["b-rare-cancers", "b-trial-enrolment"],
     related: ["nasopharyngeal", "thyroid", "adrenocortical", "melanoma", "pleuropulmonary-blastoma", "nut-carcinoma", "sinonasal", "pheochromocytoma-paraganglioma", "multiple-endocrine-neoplasia", "race-for-children-act", "paediatric-germ-cell-tumours", "retinoblastoma", "hepatoblastoma"],
     links: [
       { label: "NCI PDQ: rare cancers of childhood", url: PDQ("childhood-cancers/patient/rare-childhood-cancers-pdq") },

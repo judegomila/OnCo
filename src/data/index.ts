@@ -46,6 +46,7 @@ import { trialsIdeasWave6 } from "./trials-ideas-wave6";
 import { papersIdeasWave6 } from "./papers-ideas-wave6";
 import { ideaLinksWave6 } from "./idea-links-wave6";
 import { companyDrugsWave6, trialCompaniesWave6 } from "./company-drugs-wave6";
+import { SUPPORTIVE_DRUGS } from "./supportive-drugs";
 import { entityTrialLinksWave5, entityTrialsWave5, trialsEntitiesWave5 } from "./trials-entities-wave5";
 import { issuesWaveAPapers, issuesWaveATrials } from "./issues-2026-09-wave-a";
 import { nutrition } from "./nutrition";
@@ -298,6 +299,9 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];
   let e: EntityInput = cited ? { ...raw, keyPapers: [...(raw.keyPapers ?? []), ...cited.filter((id) => !(raw.keyPapers ?? []).includes(id))] } : raw;
+  // Supportive care medicines (src/data/supportive-drugs.ts): the flag that keeps antiemetics, growth factors, bone agents,
+  // antidotes and opioids out of treatment counts and rankings, and renders the "Supportive care" pill.
+  if (e.kind === "drug" && SUPPORTIVE_DRUGS[e.id]) e = { ...e, supportive: true };
   // Immune members of the checkpoint map (src/data/checkpoint-map.ts) carry the immune-checkpoint role, whichever file owns the record.
   if (e.kind === "target" && IMMUNE_CHECKPOINT_TARGET_IDS.has(e.id) && !(e.role ?? []).includes("immune-checkpoint")) e = { ...e, role: [...(e.role ?? []), "immune-checkpoint"] };
   if (e.kind === "term") return { ...e, category: canonicalTermCategory(e.id, e.category) };

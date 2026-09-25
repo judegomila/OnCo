@@ -323,6 +323,7 @@ export const EN = {
   "l.Class": "Class",
   "l.How drugs attack it": "How drugs attack it",
   "l.Modality": "Modality",
+  "l.Purpose": "Purpose",
   "l.Mechanism": "Mechanism",
   "l.Brand / code": "Brand / code",
   "l.Payload": "Payload",

@@ -202,6 +202,14 @@ export const DrugSchema = Base.extend({
   code: z.string().optional(),
   /** Modality, e.g. "ADC", "small molecule", "mAb", "radioligand", "cell therapy", "vaccine", "device". */
   modality: z.string(),
+  /**
+   * True for a supportive care medicine: its approved indications are symptom control, toxicity rescue or prophylaxis,
+   * or infection prophylaxis (antiemetics, growth factors, epoetins, bone-modifying agents, antidotes, opioids for cancer
+   * pain, immunoglobulin). Set from src/data/supportive-drugs.ts; the rule the fetchers apply to indication text is
+   * isSupportiveIndication in src/lib/supportive-care.ts. Supportive medicines stay in the corpus but are excluded from
+   * treatment counts and rankings and carry a "Supportive care" pill so they never read as cancer treatments.
+   */
+  supportive: z.boolean().optional(),
   payload: z.string().optional(),
   linker: z.string().optional(),
   mechanism: z.string(),

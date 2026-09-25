@@ -64,6 +64,8 @@ import { DrugGrid } from "./DrugCard";
 import type { Drug, Paper } from "@/lib/schema";
 import { LayerAware } from "./LayerAware";
 import { TargetSpecificityPills } from "./TargetSpecificityPills";
+import { SupportiveMark, SupportivePill } from "./SupportivePill";
+import { splitSupportive } from "@/lib/supportive-care";
 import { TargetWhereFound, hpaFor } from "./TargetWhereFound";
 import { KindName, TL } from "./T";
 import { withTermHovers } from "@/lib/term-hover";
@@ -142,6 +144,19 @@ function Refs({ ids }: { ids: string[] }) {
   const g = graph();
   const items = ids.map((id) => g.get(id)).filter((x): x is Entity => !!x);
   return <ChipList items={items} />;
+}
+
+/**
+ * References on a standard-of-care row: treatments and technologies as chips, supportive care medicines (bone agents,
+ * growth factors, antiemetics) on their own muted line with the supportive glyph, so they never read as the treatment.
+ */
+function SocRefs({ g, ids }: { g: ReturnType<typeof graph>; ids: string[] }) {
+  if (!ids.length) return null;
+  const { treatments: tr, supportive: sp } = splitSupportive(g, ids);
+  return (<>
+    {tr.length > 0 && <div className="mt-2"><Refs ids={tr} /></div>}
+    {sp.length > 0 && <div className="mt-2 flex flex-wrap items-center gap-1.5" data-supportive-refs><SupportiveMark /><Refs ids={sp} /></div>}
+  </>);
 }
 
 /** Labels and block titles are English source strings, translated on the client through the chrome dictionary (`TL`). */
@@ -230,6 +245,7 @@ export function EntityDetail({ e }: { e: Entity }) {
       />
       <Container className="pb-16">
         {(e.kind === "target" || e.kind === "pathway") && <MechanicsPills id={e.id} className="mb-6" />}
+        {e.kind === "drug" && e.supportive && <SupportivePill className="mb-6" />}
         {e.kind !== "cancer" && <ToolsStrip e={e} />}
         {(e.kind === "target" || e.kind === "pathway" || e.kind === "term" || e.kind === "technology") && <CheckpointPills id={e.id} className="mb-6" />}
         {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
@@ -877,7 +893,7 @@ function cancerTabs(c: Cancer): Tab[] {
             <div className="font-medium">{s.setting}</div>
             <p className="text-[15px] text-foreground/85 mt-1">{s.approach}</p>
             {s.guideline && <div className="mt-2"><GuidelineChip g={s.guideline} /></div>}
-            {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
+            <SocRefs g={g} ids={s.refs} />
           </div>
         ))}
       </div>) },

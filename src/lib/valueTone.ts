@@ -35,6 +35,7 @@ const TONES: Record<string, Record<string, string>> = {
     Haematologic: T.rose, Paediatric: T.pink, Gastrointestinal: T.amber, Endocrine: T.lime, Gynaecologic: T.violet, Sarcoma: T.orange, Skin: T.yellow, Genitourinary: T.sky,
     Breast: T.fuchsia, "Head and neck": T.indigo, "Central nervous system": T.zinc, Thoracic: T.cyan, Lung: T.cyan, Other: T.zinc,
   },
+  purpose: { "Supportive care": T.teal, "Treatment or test": T.zinc },
   stage: { Startup: T.lime, "Growth stage": T.emerald, Public: T.sky, "Large private": T.indigo, Acquired: T.amber, Defunct: T.zinc },
 };
 

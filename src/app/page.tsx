@@ -20,6 +20,7 @@ import { MyCancerContinue } from "@/components/MyCancer";
 import { Spotlight } from "@/components/Spotlight";
 import { spotlightSets } from "@/lib/spotlight";
 import { SPOTLIGHT_URL, spotlightKindFor } from "@/lib/spotlight-schedule";
+import { treatments } from "@/lib/supportive-care";
 
 const HOME_DESCRIPTION = "The open, cited map of oncology: every cancer, treatment, target, trial, company, institution and idea on one page each, in plain English first, with sources.";
 
@@ -76,7 +77,9 @@ export default function Home() {
   const approvals = drugs.filter((d) => d.approvals.some((a) => a.year === approvalYear)).sort((a, b) => a.name.localeCompare(b.name));
   const frontier = g.kind("technology").filter((t) => t.tags.includes("frontier")).slice(0, 8);
   const roadmaps = g.kind("roadmap");
-  const counts = KINDS.map((k) => ({ k, n: g.kind(k).length })).filter((c) => c.n > 0);
+  // The "Treatments & tests" tile counts treatments and tests only: supportive care medicines (antiemetics, growth factors,
+  // bone agents, antidotes) stay in the corpus but are not treatments (src/lib/supportive-care.ts).
+  const counts = KINDS.map((k) => ({ k, n: k === "drug" ? treatments(g).length : g.kind(k).length })).filter((c) => c.n > 0);
   const total = counts.reduce((a, c) => a + c.n, 0);
 
   // Latest milestone per cancer for the most recent year in any cancer's history.

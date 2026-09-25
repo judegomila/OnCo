@@ -16,6 +16,7 @@ import { Portrait, PortraitCredit } from "./Portrait";
 import { JsonLd } from "./JsonLd";
 import { MachineLinks } from "./MachineLinks";
 import { CheckpointPills } from "./CheckpointPills";
+import { ModalityPills } from "./ModalityPills";
 import { PrintButton } from "./PrintButton";
 import { TrialFinderGeo as TrialFinder } from "./TrialFinderGeo";
 import { Questions } from "./Questions";
@@ -232,6 +233,7 @@ export function EntityDetail({ e }: { e: Entity }) {
         {(e.kind === "target" || e.kind === "pathway") && <MechanicsPills id={e.id} className="mb-6" />}
         {e.kind !== "cancer" && <ToolsStrip e={e} />}
         {(e.kind === "target" || e.kind === "pathway" || e.kind === "term" || e.kind === "technology") && <CheckpointPills id={e.id} className="mb-6" />}
+        {(e.kind === "technology" || e.kind === "drug") && <ModalityPills e={e} className="mb-6" />}
         {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
         {tabs.length > 1
           ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={afterTabs} aside={aside} />

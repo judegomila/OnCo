@@ -5,7 +5,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Tip } from "@/components/Tip";
 import { engine } from "@/lib/modular";
-import { CELL_STATES, COMPONENT_LABEL, engineFile, engineRoute, STATE_META, type FormatDef } from "@/lib/modular-formats";
+import { CELL_STATES, COMPONENT_LABEL, engineFile, engineRoute, modalityRoute, STATE_META, type FormatDef } from "@/lib/modular-formats";
 
 export const metadata: Metadata = pageMeta({ title: "Open drug engine", description: "Every medicine in OnCo taken apart into its modules (target, payload, linker, isotope, costimulatory domain, E3 ligase) and, per format, the grid of every combination: approved, in development, tried and stopped with the recorded reason, or never tried.", path: "/pipeline/engine/" });
 
@@ -25,7 +25,7 @@ export default function EnginePage() {
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Pipeline funnel", href: "/pipeline/" }, { label: "Open drug engine", href: "/pipeline/engine/" }]} />
       <PageHeader kicker={<GroupKicker id="intel" />} title="Open drug engine"
         lede={`A medicine is a set of parts. This engine takes the ${n(inFormats)} medicines in OnCo that fit one of ${e.formats.length} modular formats apart into those parts, then lays out every combination of two of them: ${n(totals.approved)} combinations with an approved medicine, ${n(totals.development)} being worked on, ${n(totals.stopped)} tried and stopped with the record that says why, and ${n(totals.untried)} that no medicine in this corpus has ever combined.`}
-        right={<a href={engineFile("index")} className="chip border bg-card border-border hover:bg-foreground/5 text-sm" title="Counts per format as JSON; each format has its own file under /api/v1/pipeline/engine/">JSON for agents</a>} />
+        right={<div className="flex flex-wrap gap-2 justify-end"><a href={engineFile("index")} className="chip border bg-card border-border hover:bg-foreground/5 text-sm" title="Counts per format as JSON; each format has its own file under /api/v1/pipeline/engine/">JSON for agents</a><Link href={modalityRoute()} className="chip border bg-card border-border hover:bg-foreground/5 text-sm" title="The same formats read the other way: one hub per format with everything the corpus records about it">Modality hubs →</Link></div>} />
       <Container className="pb-16">
         <div className="flex flex-wrap gap-2 mb-8">
           {e.formats.map((f) => (

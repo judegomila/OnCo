@@ -51,6 +51,10 @@ export const CHECKS: Check[] = [
     ["target", "/targets/her2/"], ["biomarker", "/biomarkers/her2-ihc-3-plus/"], ["company", "/companies/astrazeneca/"], ["institution", "/institutions/nci/"],
     ["person", "/people/thomas-powles/"], ["paper", "/key-papers/paper-haslam-jama-netw-open/"], ["idea", "/ideas/idea-bio2-let-rbe-ab-selects-protons/"], ["roadmap", "/roadmaps/global-access-roadmap/"],
   ] as const).map(([kind, route]): Check => ({ route, view: "record", label: kind, steps: [], expect: "width" })),
+  // Modality hubs (src/app/modalities/): the format switcher and section bar carry data-tabbar; width only.
+  { route: "/modalities/", view: "modality-hub", label: "index", steps: [], expect: "width" },
+  { route: "/modalities/adc/", view: "modality-hub", label: "adc", steps: [], expect: "width" },
+  { route: "/modalities/small-molecule/", view: "modality-hub", label: "small-molecule", steps: [], expect: "width" },
   // Decision aids (src/components/DecisionToolView.tsx): the result is a sticky preview above the question pills.
   { route: "/tools/gallbladder-polyp/", view: "decision-tool", label: "first pill", steps: [{ act: "click", sel: `${v("decision-tool")} [data-mobile-control]`, nth: 0 }], expect: "driven" },
   { route: "/tools/gallbladder-polyp/", view: "decision-tool", label: "last pill", steps: [{ act: "click", sel: `${v("decision-tool")} [data-mobile-control]`, nth: 17 }], expect: "driven" },

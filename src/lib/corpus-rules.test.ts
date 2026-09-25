@@ -78,7 +78,10 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
   "xm22-03",
   // Colorectal trials that predate registration or have none: AVF2107g (bevacizumab pivotal, accrued 2000 to 2002), the Dutch TME trial (1996 to 1999)
   // and the IDEA collaboration, which is a prospective pooled analysis of six separately registered trials rather than a trial with its own record.
-  "avf2107g", "dutch-tme", "idea-collaboration"]);
+  "avf2107g", "dutch-tme-trial", "idea-collaboration",
+  // Colorectal screening, rectal radiotherapy and peritoneal trials that ran before registration: the Swedish Rectal Cancer
+  // Trial (1987 to 1990), the Minnesota and Funen faecal occult blood trials, and the Netherlands Cancer Institute HIPEC trial.
+  "swedish-rectal-cancer-trial", "minnesota-fob", "funen-fob", "netherlands-hipec"]);
 
 /** Standard-of-care rows whose approach is surgery or observation, with no product to reference. */
 const SOC_ROWS_WITHOUT_REFS = new Set(["cholangiocarcinoma: Resectable", "dlbcl: Frontline", "endometrial: Early", "neuroendocrine: Localised", "ovarian: Platinum-sensitive relapse"]);

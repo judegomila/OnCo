@@ -4,6 +4,7 @@ import { CRC, SRC, asOf, ct, d, doi, t, term } from "./colorectal-treatment-shar
 import { colorectalTrialsEarly, colorectalTrialsRectal } from "./colorectal-treatment-trials";
 import { colorectalTrialsBiomarker, colorectalTrialsCtdna, colorectalTrialsLocal, colorectalTrialsMetastatic } from "./colorectal-treatment-trials-advanced";
 import { colorectalTrialsRechallenge } from "./colorectal-treatment-trials-rechallenge";
+import { colorectalTrialsHistory } from "./colorectal-treatment-trials-history";
 import { colorectalRegistryTrials, colorectalRegistryTrialIds } from "./colorectal-registry-trials";
 import { trialSponsorCompanies } from "./trial-sponsor-companies";
 
@@ -149,9 +150,49 @@ const colorectalDrugSupplements: SpikeSupplement[] = [
   { id: "signatera", trials: ["dynamic-iii", "altair"] },
 ];
 
+/**
+ * Targets for colorectal-linked registry drug records that carried none, so the pipeline engine could not place them
+ * (raised by agent D of the colorectal spike). Each target is taken from a public source quoted on the record: the
+ * ClinicalTrials.gov intervention description, the NCI Drug Dictionary definition, or the primary paper. Four of them
+ * name a target that has no record in the corpus yet, so the sentence and the source are carried in `notes` until one
+ * exists: GFRAL (JMT203), CD73 / NT5E (oleclumab), clusterin (sotevtamab) and GPR35 (CT3001).
+ */
+const colorectalPipelineDrugTargets: SpikeSupplement[] = [
+  { id: "ak117", targets: ["cd47"],
+    notes: ["AK117 is ligufalimab, a humanised IgG4 monoclonal antibody against CD47 that blocks the CD47 to SIRP-alpha signal tumour cells use to avoid being eaten by macrophages (NCI Drug Dictionary; ClinicalTrials.gov NCT04980885 is titled \"A Trial of AK117 (Anti-CD47 Antibody) in Patients With Acute Myeloid Leukemia\")."],
+    links: [{ label: "NCI Drug Dictionary: ligufalimab", url: "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/ligufalimab" }, ct("NCT04980885")] },
+  { id: "tst003", targets: ["grem1"],
+    notes: ["TST003 is described in its first-in-human registry record as an intravenous humanised anti-GREM1 monoclonal antibody; gremlin-1 is a BMP antagonist that keeps intestinal and tumour cells in a stem-like state."],
+    links: [ct("NCT05731271")] },
+  { id: "jk08", targets: ["ctla4"],
+    notes: ["JK08 is a recombinant fusion protein of a fully human anti-CTLA-4 antibody with a complex of human IL-15 and the sushi domain of IL-15 receptor alpha, so it blocks a checkpoint and delivers a T-cell growth signal from the same molecule (registry intervention description, NCT05620134). The IL-15 half has no target record in the corpus."],
+    links: [ct("NCT05620134")] },
+  { id: "eik1005", targets: ["wrn"],
+    notes: ["EIK1005 is described in its registry record as a selective inhibitor of the Werner helicase, the synthetic-lethal dependency of microsatellite-unstable tumours, and is being tested alone and with pembrolizumab."],
+    links: [ct("NCT07262619")] },
+  { id: "hr070803", targets: ["top1"],
+    notes: ["HR070803 is a novel nanoliposomal formulation of irinotecan, so its target is topoisomerase I through the active metabolite SN-38 (phase 1b dose-escalation report, Investigational New Drugs 2024)."],
+    links: [doi("Liposomal irinotecan (HR070803) with fluorouracil and leucovorin in advanced solid tumours: phase 1b (Investigational New Drugs 2024)", "10.1007/s10637-024-01442-2")] },
+  { id: "onvansertib", targets: ["plk1"],
+    notes: ["Onvansertib is an orally bioavailable, ATP-competitive inhibitor of polo-like kinase 1, which disrupts mitosis and causes G2/M arrest in PLK1-overexpressing cells (NCI Drug Dictionary)."],
+    links: [{ label: "NCI Drug Dictionary: onvansertib", url: "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/onvansertib" }] },
+  { id: "oleclumab",
+    notes: ["Oleclumab (MEDI9447) is a monoclonal antibody against the ectoenzyme CD73, also called ecto-5'-nucleotidase, which converts AMP to adenosine; blocking it lowers free adenosine and lifts adenosine-mediated suppression of CD8 T cells (NCI Drug Dictionary). CD73 has no target record in the corpus yet."],
+    links: [{ label: "NCI Drug Dictionary: oleclumab", url: "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/oleclumab" }] },
+  { id: "jmt203",
+    notes: ["JMT203 is described in its registry record as an anti-GFRAL monoclonal antibody given subcutaneously for cancer cachexia; GFRAL is the brainstem receptor for GDF15, the signal that drives appetite loss and weight loss in advanced cancer. GFRAL has no target record in the corpus yet."],
+    links: [ct("NCT06868849")] },
+  { id: "sotevtamab",
+    notes: ["Sotevtamab (AB-16B5) is described in its registry record as a fully humanised IgG2 monoclonal antibody against tumour-associated secreted clusterin, given as an inhibitor of the epithelial-to-mesenchymal transition; it is being tested with FOLFOX before resection of colorectal liver metastases. Clusterin has no target record in the corpus yet."],
+    links: [ct("NCT06225843")] },
+  { id: "ct3001",
+    notes: ["CT3001 is described in its registry record as an oral solution of a small-molecule inhibitor of GPR35, a G-protein-coupled receptor. GPR35 has no target record in the corpus yet."],
+    links: [ct("NCT06598007")] },
+];
+
 // ======================= TRIAL SUPPLEMENTS =======================
 const colorectalTrialSupplements: SpikeSupplement[] = [
-  { id: "crystal-fire3", nct: "NCT00154102", enrolled: 1198, enrolledBasis: "randomised", enrolledNote: "Two trials under one record: CRYSTAL (NCT00154102) randomised 1,198 patients, 599 per arm, and FIRE-3 (NCT00433927) treated 592 patients with KRAS exon 2 wild-type tumours.",
+  { id: "crystal-fire3", aka: ["CRYSTAL", "FIRE-3", "CRYSTAL and FIRE-3"], nct: "NCT00154102", enrolled: 1198, enrolledBasis: "randomised", enrolledNote: "Two trials under one record: CRYSTAL (NCT00154102) randomised 1,198 patients, 599 per arm, and FIRE-3 (NCT00433927) treated 592 patients with KRAS exon 2 wild-type tumours.",
     outcomes: [
       { endpoint: "CRYSTAL: progression-free survival (KRAS wild-type)", unit: "hazard ratio", arms: [{ name: "FOLFIRI plus cetuximab", value: 0.68 }, { name: "FOLFIRI", value: 1 }], hr: 0.68, ci: [0.50, 0.94], source: SRC.crystal },
       { endpoint: "FIRE-3: overall survival (KRAS exon 2 wild-type)", unit: "months", arms: [{ name: "FOLFIRI plus cetuximab", n: 297, value: 28.7 }, { name: "FOLFIRI plus bevacizumab", n: 295, value: 25.0 }], hr: 0.77, ci: [0.62, 0.96], p: "0.017", source: SRC.fire3 },
@@ -161,7 +202,7 @@ const colorectalTrialSupplements: SpikeSupplement[] = [
     trials: ["prime", "opus", "calgb-80405"] },
   { id: "cao-aro-aio-94", replication: "Confirmed at eleven years: local recurrence 7.1 against 10.1 percent (p=0.048), with no difference in overall survival or distant metastases.",
     links: [doi("CAO/ARO/AIO-94 at eleven years (Journal of Clinical Oncology 2012)", "10.1200/JCO.2011.40.1836")],
-    trials: ["rapido", "prodige-23", "stellar-rectal", "stockholm-iii", "dutch-tme", "cao-aro-aio-12"] },
+    trials: ["rapido", "prodige-23", "stellar-rectal", "stockholm-iii", "dutch-tme-trial", "cao-aro-aio-12"] },
   { id: "mountaineer", trials: ["mountaineer-03", "destiny-crc01"],
     notes: ["The randomised phase 3 successor is a separate record, `mountaineer-03` (NCT05253651), which is recruiting with primary completion due 31 December 2027."],
     links: [doi("MOUNTAINEER: tucatinib plus trastuzumab for chemotherapy-refractory HER2-positive RAS wild-type metastatic colorectal cancer (Lancet Oncology 2023)", "10.1016/S1470-2045(23)00150-X")] },
@@ -177,7 +218,7 @@ const colorectalTrialSupplements: SpikeSupplement[] = [
     cancers: [CRC], terms: ["msi", "cold-vs-hot"], technologies: ["checkpoint-inhibitor"],
     links: [doi("Botensilimab plus balstilimab in previously treated microsatellite-stable metastatic colorectal cancer without liver metastases (Clinical Cancer Research 2026)", "10.1158/1078-0432.CCR-26-1610")] },
   { id: "dynamic", trials: ["dynamic-iii", "altair", "circulate-us", "quasar"], terms: ["ctdna", "de-escalation"] },
-  { id: "circulate-japan", trials: ["altair", "dynamic-iii"], links: [doi("ALTAIR: post-adjuvant chemotherapy in ctDNA-positive patients with resected colorectal cancer (Nature Medicine 2026)", "10.1038/s41591-026-04428-0")] },
+  { id: "circulate-japan", aka: ["GALAXY", "VEGA", "ALTAIR"], trials: ["altair", "dynamic-iii"], links: [doi("ALTAIR: post-adjuvant chemotherapy in ctDNA-positive patients with resected colorectal cancer (Nature Medicine 2026)", "10.1038/s41591-026-04428-0")] },
   { id: "bespoke-crc", trials: ["dynamic-iii", "altair"] },
   { id: "circulate-us", trials: ["dynamic-iii", "altair"] },
   { id: "tracc", trials: ["dynamic-iii", "altair"] },
@@ -189,8 +230,8 @@ const colorectalTrialSupplements: SpikeSupplement[] = [
   { id: "keynote-177", trials: ["calgb-80405"] },
   { id: "paradigm", trials: ["prime", "calgb-80405", "opus", "cairo5"] },
   { id: "opra", trials: ["cao-aro-aio-12", "iwwd", "stellar-rectal"] },
-  { id: "prospect", trials: ["iwwd", "dutch-tme", "cao-aro-aio-12"] },
-  { id: "rapido", trials: ["stellar-rectal", "stockholm-iii", "dutch-tme", "iwwd"] },
+  { id: "prospect", trials: ["iwwd", "dutch-tme-trial", "cao-aro-aio-12"] },
+  { id: "rapido", trials: ["stellar-rectal", "stockholm-iii", "dutch-tme-trial", "iwwd"] },
   { id: "prodige-23", trials: ["stellar-rectal", "cao-aro-aio-12", "iwwd"] },
   { id: "sunlight", trials: ["recourse", "correct", "fresco"] },
   { id: "fresco-2", trials: ["fresco", "correct", "concur"] },
@@ -213,7 +254,7 @@ export const colorectalStandardOfCare: NonNullable<CancerInput["standardOfCare"]
   { setting: "Stage III colon cancer, mismatch-repair proficient", approach: "Resection then adjuvant oxaliplatin-fluoropyrimidine chemotherapy. MOSAIC established it (three-year disease-free survival 78.2 against 72.9 percent with fluorouracil alone, hazard ratio 0.77; six-year overall survival gain confined to stage III). Duration follows IDEA: three months of CAPOX for T1-3 N1 disease (three-year disease-free survival 83.1 against 83.3 percent for six months) and six months of FOLFOX or CAPOX for T4 or N2. Cetuximab must not be added: N0147 and PETACC-8 both found no benefit and more toxicity.", refs: ["mosaic", "idea-collaboration", "scot", "tosca", "folfox", "capox", "n0147", "petacc-8"], guideline: { nccn: "Category 1", version: "NCCN Colon Cancer; IDEA; NICE NG151", url: SRC.nccnColon } },
   { setting: "Stage III colon cancer, mismatch-repair deficient", approach: "Resection then FOLFOX with atezolizumab for twelve months (ATOMIC, three-year disease-free survival 86 against 77 percent), the first adjuvant immunotherapy success in colorectal cancer. Neoadjuvant nivolumab with ipilimumab is the alternative under test: NICHE-2 produced a 68 percent pathological complete response rate and AZUR-2 (NCT05855200, 892 patients, primary completion March 2029) is the phase 3 that would make perioperative dostarlimab standard.", refs: ["atomic", "niche-2", "nct05855200", "atezolizumab", "folfox", "msi"], guideline: { version: "NCCN Colon Cancer", url: SRC.nccnColon } },
   { setting: "Locally advanced operable colon cancer: chemotherapy before surgery", approach: "Six weeks of preoperative oxaliplatin-fluoropyrimidine chemotherapy followed by surgery and eighteen weeks more is an option for radiologically staged T3 with deep invasion or T4 disease. FOxTROT (1,053 patients) found residual or recurrent disease within two years in 16.9 against 21.5 percent with surgery first (rate ratio 0.72), with fewer serious postoperative complications and 4.3 percent needing expedited surgery for obstruction. Panitumumab added nothing and mismatch-repair deficient tumours gained little, so they are better served by neoadjuvant immunotherapy in a trial.", refs: ["foxtrot", "folfox", "capox", "niche-2"], guideline: { version: "NCCN Colon Cancer; ESMO", url: SRC.nccnColon } },
-  { setting: "Locally advanced rectal cancer: radiotherapy and total neoadjuvant therapy", approach: "Total mesorectal excision is the operation (Dutch TME trial) and preoperative rather than postoperative radiotherapy is the sequence (CAO/ARO/AIO-94: five-year local relapse 6 against 13 percent, no survival difference). High-risk disease (cT4, extramural vascular invasion, cN2, threatened mesorectal fascia, lateral nodes) is treated with total neoadjuvant therapy: short-course 5 x 5 Gy then CAPOX or FOLFOX before surgery (RAPIDO: three-year disease-related treatment failure 23.7 against 30.4 percent, hazard ratio 0.75; STELLAR: three-year disease-free survival 64.5 against 62.3 percent) or long-course chemoradiotherapy with FOLFIRINOX before it (PRODIGE 23: three-year disease-free survival 76 against 69 percent, hazard ratio 0.69). Delaying surgery four to eight weeks after short-course radiotherapy is safe (Stockholm III). For sphincter-sparing candidates who do not need radiotherapy, PROSPECT showed neoadjuvant FOLFOX with selective chemoradiotherapy is non-inferior (five-year disease-free survival 80.8 against 78.6 percent).", refs: ["dutch-tme", "cao-aro-aio-94", "rapido", "prodige-23", "stellar-rectal", "stockholm-iii", "prospect", "total-neoadjuvant-therapy", "imrt-igrt", "chemoradiation"], guideline: { nccn: "Category 1", version: "NCCN Rectal Cancer; NICE NG151; ESMO", url: SRC.nccnRectal } },
+  { setting: "Locally advanced rectal cancer: radiotherapy and total neoadjuvant therapy", approach: "Total mesorectal excision is the operation (Dutch TME trial) and preoperative rather than postoperative radiotherapy is the sequence (CAO/ARO/AIO-94: five-year local relapse 6 against 13 percent, no survival difference). High-risk disease (cT4, extramural vascular invasion, cN2, threatened mesorectal fascia, lateral nodes) is treated with total neoadjuvant therapy: short-course 5 x 5 Gy then CAPOX or FOLFOX before surgery (RAPIDO: three-year disease-related treatment failure 23.7 against 30.4 percent, hazard ratio 0.75; STELLAR: three-year disease-free survival 64.5 against 62.3 percent) or long-course chemoradiotherapy with FOLFIRINOX before it (PRODIGE 23: three-year disease-free survival 76 against 69 percent, hazard ratio 0.69). Delaying surgery four to eight weeks after short-course radiotherapy is safe (Stockholm III). For sphincter-sparing candidates who do not need radiotherapy, PROSPECT showed neoadjuvant FOLFOX with selective chemoradiotherapy is non-inferior (five-year disease-free survival 80.8 against 78.6 percent).", refs: ["dutch-tme-trial", "cao-aro-aio-94", "rapido", "prodige-23", "stellar-rectal", "stockholm-iii", "prospect", "total-neoadjuvant-therapy", "imrt-igrt", "chemoradiation"], guideline: { nccn: "Category 1", version: "NCCN Rectal Cancer; NICE NG151; ESMO", url: SRC.nccnRectal } },
   { setting: "Rectal cancer: organ preservation and watch and wait", approach: "Consolidation chemotherapy after chemoradiotherapy, not induction before it, is the sequence that preserves the rectum: OPRA gave five-year TME-free survival of 54 against 39 percent, and CAO/ARO/AIO-12 found pathological complete response 25 against 17 percent with the same ordering. Patients with a clinical complete response on digital examination, endoscopy and MRI are offered watch and wait with endoscopy and MRI every three to four months. The International Watch & Wait Database (880 patients with a clinical complete response from 47 institutes) records two-year local regrowth of 25.2 percent, 88 percent of it within two years and 97 percent in the bowel wall where salvage surgery is possible, with five-year overall survival 85 percent and disease-specific survival 94 percent. In mismatch-repair deficient rectal cancer, dostarlimab for six months has produced complete clinical responses without surgery and AZUR-1 is the registrational trial.", refs: ["opra", "cao-aro-aio-12", "iwwd", "azur-1", "dostarlimab", "clinical-complete-response", "organ-preservation"], guideline: { version: "NCCN Rectal Cancer; ESMO", url: SRC.nccnRectal } },
   { setting: "Metastatic disease, mismatch-repair deficient or MSI-high, first line", approach: "Immunotherapy, not chemotherapy: pembrolizumab (KEYNOTE-177) or nivolumab with ipilimumab (CheckMate 8HW). In England NICE TA709 recommends pembrolizumab stopped at two years and TA1065 recommends nivolumab with ipilimumab; TA914 places pembrolizumab after fluoropyrimidine therapy only where nivolumab with ipilimumab is unsuitable. The FDA approved nivolumab with ipilimumab for this indication on 8 April 2025. Universal mismatch-repair or MSI testing at diagnosis is what makes this route possible.", refs: ["keynote-177", "checkmate-8hw", "pembrolizumab", "nivolumab", "ipilimumab", "msi", "colorectal-uk-drug-access"], guideline: { nccn: "Category 1", version: "NCCN Colon Cancer; NICE TA709, TA1065, TA914", url: SRC.ta1065 } },
   { setting: "Metastatic disease, RAS and BRAF wild-type, left-sided, first line", approach: "FOLFOX or FOLFIRI with panitumumab or cetuximab. PARADIGM showed panitumumab beats bevacizumab in left-sided RAS wild-type disease; FIRE-3 found overall survival 28.7 against 25.0 months for cetuximab against bevacizumab with FOLFIRI, while CALGB/SWOG 80405 found no overall difference (30.0 against 29.0 months) before sidedness was taken into account. Extended RAS testing of KRAS and NRAS exons 2, 3 and 4 is mandatory: PRIME showed patients with non-exon-2 RAS mutations do worse with panitumumab. In England TA439 funds cetuximab or panitumumab with FOLFOX or FOLFIRI first line only.", refs: ["paradigm", "crystal-fire3", "calgb-80405", "prime", "opus", "panitumumab", "cetuximab", "folfox", "folfiri", "sidedness"], guideline: { nccn: "Category 1", version: "NCCN Colon Cancer; NICE TA439", url: SRC.ta439 } },
@@ -234,7 +275,7 @@ export const colorectalStandardOfCare: NonNullable<CancerInput["standardOfCare"]
   { setting: "Palliation: liver capsule pain, pelvic symptoms and early palliative care", approach: "Liver capsule pain from bulky metastases is a position-dependent right upper quadrant pain that usually responds to dexamethasone and, when it does not, to a short course of palliative radiotherapy to the liver. Bleeding, discharge and pain from an unresectable rectal tumour respond to hypofractionated palliative radiotherapy; tenesmus is the hardest symptom and may need a nerve block or a stoma. Opioids are titrated with laxatives, and anaemia from chronic blood loss is treated with iron or transfusion. Early integrated palliative care alongside oncology from the diagnosis of incurable disease is recommended, and dietetic review matters where a stoma or short bowel follows surgery.", refs: ["colorectal-palliation-obstruction-pain", "palliative-radiotherapy", "palliative-care", "transfusion-support"], guideline: { version: "NICE NG151", url: SRC.ng151 } },
 ];
 
-const handWrittenTrials = [...colorectalTrialsEarly, ...colorectalTrialsRectal, ...colorectalTrialsMetastatic, ...colorectalTrialsBiomarker, ...colorectalTrialsLocal, ...colorectalTrialsCtdna, ...colorectalTrialsRechallenge];
+const handWrittenTrials = [...colorectalTrialsEarly, ...colorectalTrialsRectal, ...colorectalTrialsMetastatic, ...colorectalTrialsBiomarker, ...colorectalTrialsLocal, ...colorectalTrialsCtdna, ...colorectalTrialsRechallenge, ...colorectalTrialsHistory];
 
 export const colorectalTreatmentPatch: Spike["patch"] = {
   standardOfCare: colorectalStandardOfCare,
@@ -256,7 +297,7 @@ const spike: Spike = {
   cancerId: CRC,
   entities: [...terms, ...drugs, ...handWrittenTrials, ...colorectalRegistryTrials] as EntityInput[],
   patch: colorectalTreatmentPatch,
-  supplements: [...colorectalDrugSupplements, ...colorectalTrialSupplements, ...trialSponsorCompanies],
+  supplements: [...colorectalDrugSupplements, ...colorectalPipelineDrugTargets, ...colorectalTrialSupplements, ...trialSponsorCompanies],
 };
 
 export { colorectalRegistryTrialIds, asOf, t, ct, doi };

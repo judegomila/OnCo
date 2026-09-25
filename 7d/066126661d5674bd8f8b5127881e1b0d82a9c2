@@ -1,0 +1,42 @@
+src/data/index.ts
+  s_0beac9cb5d78fd::t_91c14e175fdd29 153
+  s_0beac9cb5d78fd::t_02529823a785ad 252
+src/lib/cancer-families.test.ts
+  s_0beac9cb5d78fd::t_9484fa01ef9b43 94-97
+src/app/cancers/map/page.test.ts
+  s_0beac9cb5d78fd::t_a01be432b023f2 18-20,22
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_74089659b7afca 278
+  s_0beac9cb5d78fd::t_f04f470772d4a0 58
+  s_0beac9cb5d78fd::t_22490401018146 298
+  s_0beac9cb5d78fd::t_c342dbf0026a60 123
+  s_0beac9cb5d78fd::t_d8087ed2164ab6 375
+docs/CANCER-PAGES.md
+  s_0beac9cb5d78fd::t_eeb83dd1035c8a 59-81
+src/data/cancers-wave4-rare.ts
+  s_0beac9cb5d78fd::t_85ee21a1857f62 131
+  s_0beac9cb5d78fd::t_9764747d6791bb 137
+  s_0beac9cb5d78fd::t_846c2e08140432 156
+  s_0beac9cb5d78fd::t_3a60a6e7265bf4 170
+  s_0beac9cb5d78fd::t_7f78536031f1c8 218
+  s_0beac9cb5d78fd::t_0036c848f9842f 1-85,87-130,132-136,138-155,157-169,171-217,219-244,246-260,262-271
+  s_0beac9cb5d78fd::t_79fab4a449b193 245
+  s_0beac9cb5d78fd::t_29a30653d78e12 261
+  s_0beac9cb5d78fd::t_854faac75652be 86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "7d066126661d5674bd8f8b5127881e1b0d82a9c2",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

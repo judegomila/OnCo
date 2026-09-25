@@ -49,13 +49,14 @@ import tnbcUk from "../src/data/spikes/tnbc-uk";
 import tnbcLiving from "../src/data/spikes/tnbc-living";
 import tnbcMolecular from "../src/data/spikes/tnbc-molecular";
 import tnbcTreatment from "../src/data/spikes/tnbc-treatment";
+import pancreaticMolecular from "../src/data/spikes/pancreatic-molecular";
 
 /** File stem -> spike, so the test can compare against `readdirSync("src/data/spikes")`. */
 export const SPIKE_FILES: Record<string, Spike> = {
   nsclc, prostate, pancreatic, glioblastoma, "breast-hr-positive": breastHr, "breast-her2-positive": breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma,
   "head-and-neck": headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, "all-leukemia": allLeukemia,
   cll, dlbcl, "multiple-myeloma": multipleMyeloma, "hodgkin-lymphoma": hodgkin, sarcoma, neuroblastoma, "gallbladder-living": gallbladderLiving, "gallbladder-molecular": gallbladderMolecular, "gallbladder-core": gallbladderCore, "gallbladder-uk": gallbladderUk, "gallbladder-evidence": gallbladderEvidence, "gallbladder-treatment": gallbladderTreatment,
-  "gallbladder-geography": gallbladderGeography, "tnbc-core": tnbcCore, "tnbc-evidence": tnbcEvidence, "tnbc-uk": tnbcUk, "tnbc-living": tnbcLiving, "tnbc-molecular": tnbcMolecular, "tnbc-treatment": tnbcTreatment,
+  "gallbladder-geography": gallbladderGeography, "tnbc-core": tnbcCore, "tnbc-evidence": tnbcEvidence, "tnbc-uk": tnbcUk, "tnbc-living": tnbcLiving, "tnbc-molecular": tnbcMolecular, "tnbc-treatment": tnbcTreatment, "pancreatic-molecular": pancreaticMolecular,
 };
 
 /** Spike files that are not spikes (the registry itself, and gap-cancers which exports plain entities). */

@@ -1,0 +1,71 @@
+scripts/mobile-audit.ts
+  s_0beac9cb5d78fd::t_9ef8bfcd7bd8b4 35-36
+  s_0beac9cb5d78fd::t_8fbc754d7ef146 89-91,93
+  s_0beac9cb5d78fd::t_25d16b0c563b57 138-139
+src/lib/body-entry.ts
+  s_0beac9cb5d78fd::t_04e2007b10b576 1-30
+src/app/page.tsx
+  s_0beac9cb5d78fd::t_592ec4e8f82000 110,112
+  s_0beac9cb5d78fd::t_9cf832a7a25ebc 4,12
+src/components/kind-graph.test.ts
+  s_0beac9cb5d78fd::t_dd9ddf744d06af 87
+  s_0beac9cb5d78fd::t_d8d5aaf7fcb0c3 70-75
+  s_0beac9cb5d78fd::t_18e71672a23c12 1-69,76-86,88-101,104-131
+  s_0beac9cb5d78fd::t_2933eace96f95a 102-103
+src/lib/graph.ts
+  s_0beac9cb5d78fd::t_df5c9d1fe3eefb 122-123
+src/components/BodyMap.tsx
+  s_0beac9cb5d78fd::t_96ba515b0a923e 203
+  s_0beac9cb5d78fd::t_5aab46d5ceb7cf 174
+  s_0beac9cb5d78fd::t_e2478551508184 85-88
+  s_0beac9cb5d78fd::t_29e79972bfcc05 38-42,44-45,50-53
+  s_0beac9cb5d78fd::t_6006d717d8bc3a 194
+  s_0beac9cb5d78fd::t_8208637b476e72 7
+  s_0beac9cb5d78fd::t_5e06b55b2d2119 176
+  s_0beac9cb5d78fd::t_fcfeb0ceb83ce6 43,46-49
+  s_0beac9cb5d78fd::t_c6eff37fb146ad 11-12,14-18
+  s_0beac9cb5d78fd::t_79043f7cd46f4a 188
+  s_0beac9cb5d78fd::t_04483715a1a710 60-61
+src/components/KindGraphFrame.tsx
+  s_0beac9cb5d78fd::t_141e80abe288e8 82,84,87,93
+  s_0beac9cb5d78fd::t_97eb423c8c92bc 1-3,5-24,28,32-81,83,85-86,88-92,94-108,110-111,114,116-127
+  s_0beac9cb5d78fd::t_b75a99d7394592 4
+  s_0beac9cb5d78fd::t_e6e6d18888a8ab 25-27,30-31
+  s_0beac9cb5d78fd::t_d88241f5bbb80d 29
+  s_0beac9cb5d78fd::t_5d51ee20ea04e3 109,112-113,115
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_75326372078604 109-110
+  s_0beac9cb5d78fd::t_dc565abb2f84f1 34
+src/components/KindGraph.tsx
+  s_0beac9cb5d78fd::t_13a6e7c4384bf6 1-2,4-8,10-28,30-46,49,53-63,69-135
+  s_0beac9cb5d78fd::t_05d080b4aa2c0a 3
+  s_0beac9cb5d78fd::t_9067c989197aa0 64-68
+  s_0beac9cb5d78fd::t_8e9bfcdc259263 136
+  s_0beac9cb5d78fd::t_bc01b3ab6f9dbe 29
+  s_0beac9cb5d78fd::t_9ece0c33bc99b7 9
+  s_0beac9cb5d78fd::t_7fa8ac49b7770f 47,52
+  s_0beac9cb5d78fd::t_efd3d84960aa8f 48,50-51
+src/lib/kind-graph.ts
+  s_0beac9cb5d78fd::t_c4929852dfe6df 101-104,106-114
+  s_0beac9cb5d78fd::t_5f04cf31bc7d68 1-100
+  s_0beac9cb5d78fd::t_b65b118b1a92ae 105
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_52a679c17b93cd 29
+  s_0beac9cb5d78fd::t_8878531d877bbe 109
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "24845a6efb1276f8b321b9787d6a804f26cd3ad8",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

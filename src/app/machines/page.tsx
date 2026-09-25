@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity } from "@/lib/schema";
+import { decadeLabel } from "@/lib/kinds";
 import { logoFor } from "@/lib/logos";
 import { flagFor } from "@/lib/flags";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
@@ -60,10 +61,12 @@ export default function MachinesPage() {
       rows.push({
         id: t.id, name: t.name, tldr: t.tldr, route: routeFor(t), status: t.status, logo, avatar: "org",
         schematic: { id: t.id, sections: t.sections },
-        facets: { family: [f.name], front: t.sections.map((s) => g.get(s)?.name ?? s), rarity: [centres.length >= 10 ? "Widespread in the corpus" : centres.length > 0 ? "Few named centres" : "Not tracked by centre"], era: t.since ? [String(t.since).slice(0, 3) + "0s"] : ["Not dated"] },
+        facets: { family: [f.name], front: t.sections.map((s) => g.get(s)?.name ?? s), rarity: [centres.length >= 10 ? "Widespread in the corpus" : centres.length > 0 ? "Few named centres" : "Not tracked by centre"], era: t.since ? [decadeLabel(t.since)] : ["Not dated"] },
         cols: {
           vendors: vendors.map(link), centres: centres.map(link), cancers: cancers.slice(0, 8).map(link),
-          strength: t.strengths[0], limit: t.limitations[0], since: t.since,
+          strength: t.strengths[0], limit: t.limitations[0],
+          // The year prints exactly and filters by the decade the era facet holds, which is what a reader narrows by.
+          since: t.since ? { facet: "era", value: decadeLabel(t.since), label: String(t.since) } : undefined,
         },
         sortKeys: { vendors: vendors.length, centres: centres.length, since: typeof t.since === "number" ? t.since : 0 },
       });

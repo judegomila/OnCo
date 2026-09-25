@@ -81,7 +81,7 @@ Owner report: "table last column grey broken here https://onco.cc/drugs/". At 14
 What changed, for every EntityBrowser table:
 
 - `src/components/filters/ResultsTable.tsx`: the table sits in a `ScrollRow` (`fitClass="overflow-x-auto lg:overflow-x-visible"`): while it fits, the box is visible from lg so the header can stick to the viewport as before; measured wider than its card, the box becomes a sideways scroller with the edge fade and arrows, and the page never widens. `scroll` keeps the box scrolling at every width.
-- `src/components/EntityBrowser.tsx`: list cells show `cap` linked names (column `cap`, default `LIST_CAP` = 3) and a "+N more" pill (a button with a plus glyph; its tooltip names the rest; pressing it shows every name inline). The name cell is bounded at 24 rem; facet chips in cells are capped at 11 rem with an ellipsis (the full label is in the tooltip). A `YearRange` cell value (`{ first, last?, regions? }`) prints the first year in the foreground weight, a muted "to <latest>" only when the years differ, a tooltip "First approval 2007, latest 2017" with the regions, and one small flag per region the row records (flags may drop to a second line, so the column is never wider than the years). Sorting stays numeric on `sortKeys` (the first year); `cellText` gives "2007 to 2017" for search and export.
+- `src/components/EntityBrowser.tsx`: list cells show `cap` linked names (column `cap`, default `LIST_CAP` = 3) and a "+N more" pill (a button with a plus glyph; its tooltip names the rest; pressing it shows every name inline). The name cell is bounded at 24 rem; facet chips in cells are capped at 11 rem with an ellipsis (the full label is in the tooltip). A `YearRange` cell value (`{ first, last?, regions?, facet? }`) prints the first year in the foreground weight, a muted "to <latest>" only when the years differ, a tooltip "First approval 2007, latest 2017" with the regions, and one small flag per region the row records (flags may drop to a second line, so the column is never wider than the years). Sorting stays numeric on `sortKeys` (the first year); `cellText` gives "2007 to 2017" for search and export. With `facet` (25 Sept 2026) the first year is also the control that filters the table by it; the range is not a facet value, so the muted "to <latest>" stays text.
 - `src/components/ApprovalChip.tsx`: at most four flags inside the chip, then "+N"; the tooltip still names every region.
 - `src/lib/kind-browser.ts`: drugs' Targets, Cancers and Companies columns take `cap: 2`; Approved is a `YearRange` with the regions from `approvals[]`. No other kind browser has a year range column (trials and papers show a single year; technologies show `since`).
 
@@ -109,6 +109,31 @@ Every kind index on the dev server at 1280 and 1440 px, headless Chrome with a c
 | /bottlenecks/ | 1,215 / 1,215 | 1,230 / 1,230 | 6 |
 
 The deepest cells are the name column (a long name, its sub-line and the two-line TL;DR) and, on /key-papers/ and /ideas/, a long title; no list cell now runs past its cap. Not a table finding, fixed the same day: at exactly 1280 px with a classic scrollbar (Windows, Linux, headless Chrome) the site header itself was 37 px wider than the viewport on every page (it needed 1,326 px; the full navigation appears at xl, 1280 px, and a classic scrollbar leaves 1,263 to 1,265 px). Between xl and 2xl the header row now uses gap 1.5, the navigation labels are 13 px with `px-1`, and the GitHub star count folds into its icon (the count stays in the title and aria-label), as the region and language labels already did; the "Sign in/up" label stays. Measured after (`/tmp/drafts/onco-overflow/header.mjs`, headless Chrome, 15 px scrollbar): the header needs 1,215 px between xl and 2xl and fits a 1,263 px viewport with 48 px to spare; at 1440 (1,425 px) and 1024 (1,009 px, menu button) nothing overflows or wraps.
+
+## Cells that filter (25 Sept 2026)
+
+Owner: "clicking on the year in 'reported' will allow the table in trials and other ones to be filtered. look for other opportunities to allow filtering to occur by clicking on the specific unlink data eg 2026." A cell already becomes a filter when the row builder gives it a `FacetLink` (`{ facet, value, label?, tip? }`, the `fl()` helper in `src/lib/kind-browser.ts`); `EntityBrowser.facetChip` renders it as a chip that sets that facet, which is the same state a shared link carries (`/trials/?year=2025`). The survey counted the cells that print a value the table can facet on and did not do this.
+
+Converted, with the facet each needed:
+
+| Table | Cell | Filters by | New facet |
+| --- | --- | --- | --- |
+| /trials/ | Reported | the year, exactly | yes, `year` ("Reported"), 33 values, 1,252 dated trials of 5,935 |
+| /drugs/ | Approved (first year of the range) | the first approval year | yes, `approved` ("First approval"), 72 values |
+| /technologies/ | Since | the decade, printed as the year | yes, `era` ("First used"), 13 values |
+| /machines/ | Since | the decade (the `era` facet it already had) | no |
+| /coverage/uk/ | NICE, SMC, Year | outcome, verdict, appraisal year | `year` ("Appraisal year"), 24 values |
+| /coverage/us/ | Medicare, Commercial | part, commercial pattern | no |
+| /models/ | Year, Licence | the year; the licence family behind the SPDX id | no |
+| /open-source/ | Maintainer, where it is not a record | the maintainer name | no |
+
+Two rules came out of it. **Precision**: a year is an exact value and filters exactly; a range is not, so on /drugs/ only the first year of "2007 to 2017" is a control and the muted "to 2017" stays text (`YearRange.facet`). **Grain**: where a year is too fine to be a filter (technologies have 66 distinct years, twenty of them holding one record) the cell prints the year and sets the decade, `decadeLabel` in `src/lib/kinds.ts`, the one rule /machines/ and /technologies/ share. A chip now says what it will do with the value it sets rather than the label it prints, so "2020" says "Filter by First used: 2020s" and "Apache-2.0" says "Filter by Licence family: Permissive".
+
+Left as text, and why: names, NCT numbers and Cellosaurus ids (unique to the row); impact factors, list prices, enrolment and every count (continuous or derived, one row per value); HQ city (510 values over 1,244 companies, 348 of them holding one company); a data source's cadence (free prose, 14 of 17 values held by one source); an assay's approval year (38 rows, six years holding one); a startup's latest round ("Series B 2024 · $50M" is three facts in one cell, and only the round name is a facet value); a regimen's setting and a collection's holds (prose, which would become a field of links); the `intent` facet on /regimens/ has no column to click at all. The `StaticTable` family (/evidence/, /countries/cn/, /universities/, /audit/, /pathway-drugs/, the modality hubs, the engine grids) filters from its column headers only: its cells are plain data with no setter in reach, so making them filters is a change to `FilterableTable`, not to a row builder, and is not in this round.
+
+Cost, measured on the first page of each browser (markup bytes in `<tbody>` divided by rows): trials 3,980 to 4,254 bytes a row, drugs 4,053 to 4,379, technologies 2,584 to 2,806, papers unchanged at 3,866; a chip costs about 260 bytes. The heaviest row on the site is an idea at 5,169 bytes. `src/app/heavy-pages.test.ts` now holds every paged kind browser to a 6,500 byte row with the same 15 percent margin the roadmaps and dossiers use, so the next column turned into a filter has to be paid for knowingly. Pages outside that loop, measured the same day: /coverage/uk/ 2,134 to 2,915 bytes a row (three cells converted), /coverage/us/ 1,948 to 2,460, /models/ 2,814 to 3,263, /machines/ 4,503 to 4,668, /open-source/ 4,516 to 4,679.
+
+`src/components/filter-cells.test.ts` is the guard that a filter link is never a dead end: over every templated table, every filtering cell names a facet the table has and a value the same row carries, and for the paged browsers the value is in the facet counts the page ships.
 
 ## On the shared header filter before this round
 

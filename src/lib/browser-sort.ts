@@ -11,7 +11,8 @@ import type { SortState } from "@/components/filters/ResultsTable";
 export const STATUS_ORDER = ["approved", "standard-of-care", "positive", "phase-3", "established", "completed", "recruiting", "active", "phase-2", "emerging", "phase-1", "preclinical", "concept", "planned", "mixed", "historic", "negative", "withdrawn"];
 
 export const isRich = (v: unknown): v is RichText => !!v && typeof v === "object" && !Array.isArray(v) && "text" in (v as object);
-export const isFacetLink = (v: unknown): v is FacetLink => !!v && typeof v === "object" && !Array.isArray(v) && "facet" in (v as object);
+// A year range also names a facet (its first year filters the table), so a facet link is told apart by its `value`.
+export const isFacetLink = (v: unknown): v is FacetLink => !!v && typeof v === "object" && !Array.isArray(v) && "facet" in (v as object) && "value" in (v as object);
 export const isYearRange = (v: unknown): v is YearRange => !!v && typeof v === "object" && !Array.isArray(v) && "first" in (v as object);
 export const itemLabel = (i: LinkItem | FacetLink): string => ("href" in i ? i.label : (i.label ?? i.value));
 /** "2007 to 2017", or the one year when the range has no later end. */

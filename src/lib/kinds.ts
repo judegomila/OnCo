@@ -144,6 +144,14 @@ export function routeFor(e: { kind: Kind; id: string }): string {
  */
 export const facetLabel = (name: string) => name.replace(/ \(.*\)$/, "");
 
+/**
+ * The decade a year belongs to, as a facet value: 1987 becomes "1980s". The one rule for the era facets, so the
+ * technologies table and /machines/ bucket the same year the same way and a link from one filters the other.
+ * A single year is too fine to filter a table of technologies by (two thirds of the years hold one record), so the
+ * cell prints the exact year and the filter it sets is the decade.
+ */
+export const decadeLabel = (year: number | string) => `${String(year).slice(0, 3)}0s`;
+
 /** Trial phase values (the `phase` enum in schema.ts) in display order: late-stage first, then platform and observational designs. */
 export const PHASE_ORDER = ["3", "2/3", "platform", "2", "1/2", "1", "4", "observational"] as const;
 

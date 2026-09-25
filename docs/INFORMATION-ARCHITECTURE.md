@@ -14,11 +14,11 @@ Measured after the pass (markup inside the layout, `src/lib/record-sections.test
 | `what-it-is` | What it is | subtypes, staging, spread map | `/compared/` |
 | `finding-it` | Finding it | symptoms, diagnosis, biomarkers, late-diagnosis panel | |
 | `treating-it` | Treating it | standard of care by setting, regimens, guidelines, sequencing links | |
-| `evidence` | Evidence | trial finder, landmark trials, key papers, latest literature, milestones (history) | |
+| `evidence` | Evidence | trial finder, landmark trials, the subtypes' trials (family roll-up), key papers, latest literature, milestones (history) | |
 | `science` | The science | targets, prevalence rows, pathways, preclinical models | |
-| `where-you-are` | Where you are | geography layer or cases by country, UK strip, expert centres | `/uk/` |
+| `where-you-are` | Where you are | geography layer or cases by country, UK strip, expert centres, the subtypes' centres (family roll-up) | `/uk/` |
 | `living-with-it` | Living with it | decisions strip, decision aids, red cards, journeys, questions to ask | `/decisions/` |
-| `coming` | What is coming | pipeline, open problems, what changed preview | `/changes/` |
+| `coming` | What is coming | pipeline, the subtypes' medicines (family roll-up), open problems, what changed preview | `/changes/` |
 | `data` | Data | related pages (every connected record), notes, machine-readable twins | |
 
 The Overview is pinned: it is the hub. Three sections are pages for every cancer (`alwaysPage`): Where you are, What is coming and Data. They are lists of other records (the expert centres, everything in development, every connected record) that grow with the corpus rather than with the record, and on 24 Sept 2026 they took 285 KB of TNBC's 536 KB hub (Related pages 171 KB, In development 83 KB, Expert centres 31 KB); the hub carries their summary cards. Every other section is placed by `placementOf`: **own page when the estimate passes `INLINE_MAX_KB` (60 KB of markup) or `INLINE_MAX_ROWS` (40 rows)**. The estimate is a small formula per section (items it will list, capped where the component caps them, times a per-item cost measured on 24 Sept 2026); it is deliberately data-only so that scripts can compute the plan without rendering. The test keeps the estimate honest: no inline section of the heaviest cancers may render past twice the inline line, and the hub and page budgets (`HUB_BUDGET_KB` 350, `SUBPAGE_BUDGET_KB` 600) are measured on gallbladder, TNBC, NSCLC and pancreatic.
@@ -50,6 +50,17 @@ Every element id a section owns is declared in `anchors`, and the tab ids of the
 - `/api/v1/cancers/<id>/sections.json` (written by `scripts/build-api.ts`, described in `scripts/api-layout.ts` and the OpenAPI document as `getCancerSections`): the ten sections with purpose, placement, route, `href`, absolute anchors, counts, estimate, fields, patches and sub-pages, plus the record's machine twins.
 - The Markdown context file of every cancer (`/api/v1/context/<id>.md`) opens with "Sections of this record": one line per section with its address and counts.
 - The hidden "Machine-readable versions" landmark on a cancer page links the sections file (`data-onco-format="sections"`), and the Data section shows the same links as pills.
+
+## Families
+
+A cancer with children (any cancer that another names in its `parent` field) carries a **family roll-up** in three of
+the ten sections: its descendants' trials in Evidence, their medicines in What is coming and their expert centres in
+Where you are, each grouped by the child they came from and capped at eight named records per child. It is a view over
+the `parent` chain (`src/lib/cancer-rollup.ts`), never a copy of ids onto the parent record, and it covers trials,
+medicines and centres only: prose, standard-of-care rows, milestones and open problems stay on the record that wrote
+them. The rule, the shape and the gate are in docs/CANCER-FAMILIES.md. Nothing is registered: a subtype added with a
+`parent` appears in its parent's roll-up on the next build, and the roll-up's weight goes into the section estimate,
+so a family heavy enough to need a page gets one.
 
 ## How a spike agent writes into a section
 

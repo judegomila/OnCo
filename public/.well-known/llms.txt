@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, fronts, technologies, targets, treatments and tests, companies, institutions, people, pathways, trials, pairings, roadmaps, key papers, journals, bottlenecks and ideas, one page per object, each with a plain-English TL;DR, a technical summary, dated facts and links to primary sources. Not medical advice.
 
-18,949 records in 19 kinds: 455 cancers, 19 fronts, 591 technologies, 1,674 targets, 1,088 drugs, 1,244 companies, 723 institutions, 108 pathways, 1,146 terms, 5,935 trials, 86 pairings, 36 roadmaps, 1,193 ideas, 135 collections, 1,596 people, 45 bottlenecks, 2,522 key papers, 261 journals, 92 biomarkers. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Facts may be incomplete or out of date: cite the OnCo page and check the primary source it links before relying on anything that matters.
+18,973 records in 19 kinds: 455 cancers, 19 fronts, 591 technologies, 1,674 targets, 1,088 drugs, 1,244 companies, 723 institutions, 108 pathways, 1,146 terms, 5,935 trials, 86 pairings, 36 roadmaps, 1,193 ideas, 135 collections, 1,602 people, 45 bottlenecks, 2,540 key papers, 261 journals, 92 biomarkers. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Facts may be incomplete or out of date: cite the OnCo page and check the primary source it links before relying on anything that matters.
 
 ## Licence and attribution
 
@@ -100,6 +100,7 @@
 - [Treatments & tests](https://onco.cc/drugs/): Approved and pipeline products, with rotating molecules.
 - [Pathways](https://onco.cc/pathways/): Signalling circuits, drawn and explained.
 - [Checkpoint families](https://onco.cc/checkpoints/): One word, two biologies: immune checkpoints on the synapse and cell-cycle gates on the ring, each member with its partner, expression, drugs and approvals.
+- [Oncolytic viruses](https://onco.cc/virotherapy/): Why a virus kills a cancer cell and not its neighbour, every approved product with what its trial really showed, and the failures.
 - [Target dossiers](https://onco.cc/dossiers/): Everything about a target on one page: biology, prevalence, hotspots, products by phase, trials, resistance, assays, models, open questions, external ids.
 - [Pathway-to-drug matrix](https://onco.cc/pathway-drugs/): Which pathway nodes have a drug, at what phase, and which druggable nodes have none.
 - [Tumour sequencing tests](https://onco.cc/tumour-testing/): BostonGene, Tempus, Foundation Medicine, Caris, Guardant and the rest side by side: tissue or blood, panel or exome, what the report returns, and regulatory status where certain.

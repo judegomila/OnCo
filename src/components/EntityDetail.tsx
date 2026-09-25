@@ -73,6 +73,7 @@ import { RegionStrip } from "./RegionMatrix";
 import { RegistryCheck } from "./RegistryCheck";
 import { regionalApprovals } from "@/data/regional-approvals";
 import { CancerIcon } from "./CancerIcon";
+import { YearEvents, YearNav, YearStats } from "./YearRecord";
 import { ResearchOutput } from "./ResearchOutput";
 import { confidence } from "@/data/confidence";
 import { FrontIcon } from "./FrontIcon";
@@ -517,6 +518,12 @@ function kindTabs(e: Entity): Tab[] {
     }
     case "biomarker":
       return [overview(<BiomarkerDetail bm={e} />)];
+    case "year":
+      // Generated from every dated field in the corpus (src/data/years.ts). One tab: the counts strip, then every
+      // dated entry grouped by what kind of thing it was, then the previous and next year.
+      return [
+        overview(<><YearStats y={e} /><YearEvents y={e} /><YearNav y={e} /></>),
+      ];
     case "collection":
       return [
         overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">

@@ -231,6 +231,7 @@ export const hi: UiDict = {
   "kind.paper.label": "प्रमुख शोधपत्र", "kind.paper.plural": "प्रमुख शोधपत्र",
   "kind.bottleneck.label": "अड़चन", "kind.bottleneck.plural": "अड़चनें", "kind.bottleneck.title": "कैंसर के विरुद्ध युद्ध की अड़चनें",
   "kind.biomarker.label": "बायोमार्कर", "kind.biomarker.plural": "बायोमार्कर", "kind.biomarker.title": "बायोमार्कर और रीडआउट",
+  "kind.year.label": "वर्ष", "kind.year.plural": "वर्ष", "kind.year.title": "वर्ष और समयरेखा",
 
   "l.Summary": "सार",
   "l.Overview": "अवलोकन",

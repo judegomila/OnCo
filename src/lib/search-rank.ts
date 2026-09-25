@@ -40,6 +40,8 @@ export const KIND_TIER: Record<SearchKind, Tier> = {
   person: 4,
   paper: 5,
   journal: 5,
+  // A year is a view of records that are themselves in the index, so it never outranks the record a question is about.
+  year: 5,
 };
 
 /** Score multiplier per tier. Tier 5 keeps just under a third of its text score: an exact name or alias match (x3, x2) still wins. */
@@ -56,6 +58,11 @@ export const TIER_WEIGHT: Record<Tier, number> = { 1: 1, 2: 0.8, 3: 0.6, 4: 0.45
 export function recordWeight(kind: string, tags: readonly string[] | string): number {
   const t = typeof tags === "string" ? tags.split(/\s+/) : tags;
   if (t.includes("ctgov-ingest") || t.includes("europepmc-ingest")) return 0.6;
+  // A year record is a view of records that are already in the index, and its text is the group names of what it
+  // holds ("approvals", "papers", "trials reported"), which is the vocabulary of the questions themselves. At full
+  // weight the 174 of them took extractive recall from 0.4346 to 0.4246, below the floor, and flattened the concept
+  // index's inverse document frequency for those words. The fix is the weight, not the bar (src/lib/ask.test.ts).
+  if (kind === "year") return 0.5;
   if (kind === "biomarker" || t.includes("cancer-genes-wave") || t.includes("wave4")) return 0.7;
   return 1;
 }

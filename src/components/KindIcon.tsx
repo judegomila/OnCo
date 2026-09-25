@@ -24,6 +24,8 @@ const ICONS: Record<Kind, (p: P) => React.ReactElement> = {
   bottleneck: (p) => <Svg {...p}><path d="M4 4h16l-6 8v7l-4 2v-9L4 4Z" /></Svg>,
   paper: (p) => <Svg {...p}><path d="M6 3h8l4 4v14H6V3ZM14 3v4h4" /><path d="M9 12h6M9 16h6" /></Svg>,
   journal: (p) => <Svg {...p}><path d="M4 4h16v16H4z" /><path d="M7 8h5v5H7zM14 8h3M14 11h3M7 16h10" /></Svg>,
+  // A year: the calendar the whole record hangs on, with the current row marked.
+  year: (p) => <Svg {...p}><rect x="3.5" y="5" width="17" height="15" rx="2" /><path d="M8 3v4M16 3v4M3.5 10h17M8 14h3" /></Svg>,
   biomarker: (p) => <Svg {...p}><path d="M4 18h16" /><path d="M6 18V11M10 18V7M14 18v-5M18 18V9" /><path d="M4 8.5h2.5M9 8.5h1.5" strokeDasharray="1.5 1.5" /></Svg>,
 };
 

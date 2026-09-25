@@ -231,6 +231,7 @@ export const es: UiDict = {
   "kind.paper.label": "Artículo clave", "kind.paper.plural": "artículos clave",
   "kind.bottleneck.label": "Cuello de botella", "kind.bottleneck.plural": "cuellos de botella", "kind.bottleneck.title": "Cuellos de botella de la guerra contra el cáncer",
   "kind.biomarker.label": "Biomarcador", "kind.biomarker.plural": "biomarcadores", "kind.biomarker.title": "Biomarcadores y lecturas",
+  "kind.year.label": "Año", "kind.year.plural": "años", "kind.year.title": "Años y la línea de tiempo",
 
   "l.Summary": "Resumen",
   "l.Overview": "Visión general",

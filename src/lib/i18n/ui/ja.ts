@@ -231,6 +231,7 @@ export const ja: UiDict = {
   "kind.paper.label": "重要論文", "kind.paper.plural": "重要論文",
   "kind.bottleneck.label": "ボトルネック", "kind.bottleneck.plural": "ボトルネック", "kind.bottleneck.title": "がんとの戦いのボトルネック",
   "kind.biomarker.label": "バイオマーカー", "kind.biomarker.plural": "バイオマーカー", "kind.biomarker.title": "バイオマーカーと判定値",
+  "kind.year.label": "年", "kind.year.plural": "年", "kind.year.title": "年とタイムライン",
 
   "l.Summary": "要約",
   "l.Overview": "概要",

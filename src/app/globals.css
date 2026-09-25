@@ -272,6 +272,17 @@
   .k-paper { @apply bg-sky-50 text-sky-800 border-sky-200 dark:bg-sky-950/40 dark:text-sky-200 dark:border-sky-900; }
   .k-bottleneck { @apply bg-red-50 text-red-800 border-red-200 dark:bg-red-950/40 dark:text-red-200 dark:border-red-900; }
   .k-biomarker { @apply bg-violet-50 text-violet-800 border-violet-200 dark:bg-violet-950/40 dark:text-violet-200 dark:border-violet-900; }
+  .k-year { @apply bg-stone-50 text-stone-800 border-stone-200 dark:bg-stone-900 dark:text-stone-200 dark:border-stone-700; }
+
+  /* One dated line on a year page (src/components/YearRecord.tsx). Same reasoning as .k-*: a busy year renders
+     eight hundred of these rows, so the row furniture is four short classes rather than a dozen utilities repeated
+     on every line. The page's markup budget is in src/app/heavy-pages.test.ts. */
+  .yr { @apply py-2 border-t border-border first:border-t-0; }
+  .yr-h { @apply flex flex-wrap items-baseline gap-x-2 gap-y-1; }
+  .yr-d { @apply tabular-nums text-xs text-muted w-36 shrink-0; }
+  .yr-t { @apply text-[15px] min-w-0; }
+  .yr-n { @apply text-sm text-muted mt-0.5 sm:ms-[9.5rem]; }
+  .yr-r { @apply flex flex-wrap gap-1 mt-1 sm:ms-[9.5rem]; }
 
   /* Trials in plain words (src/app/explained/page.tsx, src/components/ExplainedSection.tsx). Six hundred rows, 256
      section headings and 750 cross-reference pills share one page, so every byte of their markup is paid hundreds of

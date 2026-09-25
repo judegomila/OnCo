@@ -22,6 +22,7 @@ export const HUE: Record<Kind, string> = {
   roadmap: "#4f9fb3",
   idea: "#8aa64a",
   collection: "#96897b",
+  year: "#8a8175",
   person: "#b5836e",
   bottleneck: "#c25b5b",
   paper: "#5a86a8",

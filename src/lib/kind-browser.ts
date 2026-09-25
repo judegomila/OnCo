@@ -283,6 +283,23 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
       facets: [{ key: "license", label: "Licence", searchable: false, width: "w-56" }],
       columns: [{ key: "holds", label: "Holds", hide: "hidden md:table-cell" }, { key: "license", label: "Licence", hide: "hidden lg:table-cell" }],
     };
+    // Years are generated from every dated field in the corpus (src/data/years.ts). The table is the timeline as a
+    // list: how much each year holds and what kind of thing it was, newest first, filterable by decade.
+    case "year": return {
+      hideStatus: true,
+      hideTldr: true,
+      rows: g.kind("year").map((y) => {
+        const n = (group: string) => y.events.filter((e) => e.group === group).length;
+        const decade = `${Math.floor(y.year / 10) * 10}s`;
+        const era = y.year > new Date().getFullYear() ? "Expected" : y.year >= 1900 ? "Read year by year" : "Landmarks only";
+        return { ...base(y), facets: { decade: [decade], era: [era] },
+          cols: { entries: count(y.events.length, y, "what-happened", "entry", "dated to"), decade: fl("decade", decade), approvals: n("approval"), trials: n("trial"), papers: n("paper") + n("person-paper"), landmarks: n("history") },
+          sortKeys: { entries: y.events.length, approvals: n("approval"), trials: n("trial"), papers: n("paper") + n("person-paper"), landmarks: n("history"), name: y.year }, tie: y.year };
+      }),
+      facets: [{ key: "decade", label: "Decade", searchable: false, width: "w-36" }, { key: "era", label: "How it was read", searchable: false, width: "w-52", order: ["Read year by year", "Landmarks only", "Expected"] }],
+      columns: [{ key: "entries", label: "Dated entries", sortable: true, numeric: true }, { key: "approvals", label: "Approvals", sortable: true, numeric: true, hide: "hidden sm:table-cell" }, { key: "trials", label: "Trials reported", sortable: true, numeric: true, hide: "hidden md:table-cell" }, { key: "papers", label: "Papers", sortable: true, numeric: true, hide: "hidden lg:table-cell" }, { key: "landmarks", label: "Landmarks", sortable: true, numeric: true, hide: "hidden xl:table-cell", tip: "History entries editors wrote on cancer records: the dated turning points of a disease." }],
+      defaultSort: { key: "name", dir: -1 },
+    };
   }
 }
 /** Browser-row fields for a glossary term's picture: one slot only, the most specific available. */

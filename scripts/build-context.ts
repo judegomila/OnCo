@@ -167,4 +167,24 @@ for (const k of liveKinds) {
 }
 writeFileSync(join(process.cwd(), "public", "llms-full.txt"), full.join("\n"));
 
-console.log(`context: ${g.entities.length} Markdown files, index.md, llms.txt and llms-full.txt written`);
+// Discovery under /.well-known/, so an agent that has only the origin can find the corpus without being told.
+// Two files: the MCP server descriptor an agent needs to connect, and a copy of llms.txt for the crawlers that
+// look there rather than at the root. Both are derived from MACHINE in src/lib/seo.ts, so a tool renamed in the
+// server is renamed here; src/lib/agent-surface.test.ts holds them in step. No contact address is published,
+// because the project does not have one; the repository's issues are the route in.
+const wellKnown = join(process.cwd(), "public", ".well-known");
+mkdirSync(wellKnown, { recursive: true });
+writeFileSync(join(wellKnown, "mcp.json"), JSON.stringify({
+  name: "onco",
+  description: `OnCo: a public, cited knowledge graph of oncology. ${g.entities.length.toLocaleString("en-GB")} records in ${liveKinds.length} kinds, every fact dated and linked to a primary source. Not medical advice.`,
+  version: "1",
+  homepage: SITE,
+  repository: REPO,
+  license: { data: "CC-BY-NC-4.0", code: "MIT", url: "https://creativecommons.org/licenses/by-nc/4.0/", note: "Attribute as \"Data from OnCo (onco.cc)\"; commercial use of the data needs permission." },
+  servers: [{ type: "stdio", command: MACHINE.mcp.command, tools: MACHINE.mcp.tools }],
+  http: { openapi: `${SITE}${MACHINE.openapi}`, search: `${SITE}${MACHINE.search}`, meta: `${SITE}${MACHINE.meta}`, llms: `${SITE}${MACHINE.llms}`, triples: `${SITE}${MACHINE.triples}` },
+  contact: `${REPO}/issues`,
+}, null, 2) + "\n");
+writeFileSync(join(wellKnown, "llms.txt"), llms.join("\n"));
+
+console.log(`context: ${g.entities.length} Markdown files, index.md, llms.txt, llms-full.txt and 2 .well-known files written`);

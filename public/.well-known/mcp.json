@@ -1,0 +1,35 @@
+{
+  "name": "onco",
+  "description": "OnCo: a public, cited knowledge graph of oncology. 18,660 records in 19 kinds, every fact dated and linked to a primary source. Not medical advice.",
+  "version": "1",
+  "homepage": "https://onco.cc",
+  "repository": "https://github.com/judegomila/OnCo",
+  "license": {
+    "data": "CC-BY-NC-4.0",
+    "code": "MIT",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "note": "Attribute as \"Data from OnCo (onco.cc)\"; commercial use of the data needs permission."
+  },
+  "servers": [
+    {
+      "type": "stdio",
+      "command": "npx -y onco-mcp",
+      "tools": [
+        "search",
+        "get_entity",
+        "list_kind",
+        "ask",
+        "context",
+        "compare"
+      ]
+    }
+  ],
+  "http": {
+    "openapi": "https://onco.cc/api/v1/openapi.json",
+    "search": "https://onco.cc/api/v1/search.json",
+    "meta": "https://onco.cc/api/v1/meta.json",
+    "llms": "https://onco.cc/llms.txt",
+    "triples": "https://onco.cc/api/v1/onco.nt"
+  },
+  "contact": "https://github.com/judegomila/OnCo/issues"
+}

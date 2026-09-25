@@ -23,6 +23,14 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400"
+        },
+        {
+          "key": "X-OnCo-License",
+          "value": "CC-BY-NC-4.0; https://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        {
+          "key": "X-OnCo-Provenance",
+          "value": "Every fact is dated and linked to a primary source on its page; cite the OnCo page URL and check the source before relying on anything that matters. Not medical advice."
         }
       ]
     },

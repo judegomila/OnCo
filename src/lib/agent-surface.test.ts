@@ -192,6 +192,35 @@ describe("machine tool names stay in step with their registrations", () => {
   });
 });
 
+describe("discovery under /.well-known/", () => {
+  const wellKnown = (name: string) => readFileSync(new URL(`../../public/.well-known/${name}`, import.meta.url), "utf8");
+
+  // An agent that has only the origin should be able to find the corpus. scripts/build-context.ts writes both files
+  // from MACHINE, so a tool renamed in the MCP server is renamed here too; these assertions catch the case where
+  // the generator is edited but not re-run, which leaves a stale descriptor served to every agent that looks.
+  it("the MCP descriptor names the same server and tools as MACHINE", () => {
+    const d = JSON.parse(wellKnown("mcp.json"));
+    expect(d.servers[0].command).toBe(MACHINE.mcp.command);
+    expect(d.servers[0].tools).toEqual([...MACHINE.mcp.tools]);
+    expect(d.http.openapi).toBe(`https://onco.cc${MACHINE.openapi}`);
+    expect(d.http.llms).toBe(`https://onco.cc${MACHINE.llms}`);
+    expect(d.license.data).toBe("CC-BY-NC-4.0");
+    // No contact address is published because the project does not have one; the issues page is the route in.
+    expect(d.contact).toMatch(/^https:\/\/github\.com\/.*\/issues$/);
+  });
+  it("the .well-known copy of llms.txt matches the one at the root", () => {
+    expect(wellKnown("llms.txt")).toBe(readFileSync(new URL("../../public/llms.txt", import.meta.url), "utf8"));
+  });
+  it("the API responses carry the licence and the provenance caveat", () => {
+    const vercel = JSON.parse(readFileSync(new URL("../../vercel.json", import.meta.url), "utf8"));
+    const api = vercel.headers.find((h: { source: string }) => h.source === "/api/v1/(.*)");
+    const keys = api.headers.map((h: { key: string }) => h.key);
+    expect(keys).toContain("X-OnCo-License");
+    expect(keys).toContain("X-OnCo-Provenance");
+    expect(api.headers.find((h: { key: string }) => h.key === "X-OnCo-Provenance").value).toContain("Not medical advice");
+  });
+});
+
 describe("entity titles", () => {
   it("stay within the search-result title budget for every record", () => {
     const over = g.entities.map((e) => `${entityTitle(e)} · OnCo`).filter((t) => t.length > TITLE_MAX);

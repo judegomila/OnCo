@@ -116,3 +116,14 @@ export const KIND_COLOR: Record<string, string> = {
   bottleneck: "bg-red-50 text-red-800 border-red-200 dark:bg-red-950/40 dark:text-red-200 dark:border-red-900",
   biomarker: "bg-violet-50 text-violet-800 border-violet-200 dark:bg-violet-950/40 dark:text-violet-200 dark:border-violet-900",
 };
+
+/**
+ * The same colours as KIND_COLOR in one short class (`.k-<kind>` in globals.css), for the reference pills a record
+ * page renders once per link it carries. A roadmap's Connected tab renders 186 of them and KIND_COLOR's eight
+ * utilities were 140 bytes of each pill's markup; the page's markup has a budget (src/app/heavy-pages.test.ts).
+ * src/lib/text.test.ts holds the two in step.
+ */
+export const kindTone = (kind: string): string => `k-${kind}`;
+
+/** One reference pill's whole class: the pill, its hairline and hover, and the kind's tone. */
+export const refChipClass = (kind: string): string => `chip chip-ref ${kindTone(kind)}`;

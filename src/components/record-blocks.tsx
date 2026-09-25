@@ -12,7 +12,7 @@ import { EN_TEXT } from "@/lib/translate";
 import { TL } from "./T";
 import { Tip } from "./Tip";
 import { withTermHovers } from "@/lib/term-hover";
-import { CitationChip } from "./CitationChip";
+import { CitationChip, CitationChipDefs } from "./CitationChip";
 import { LatestPapers } from "./LatestPapers";
 import { PaperTrend } from "./PapersPulse";
 import { paperQuery } from "@/lib/europepmc";
@@ -113,16 +113,33 @@ export function keyPapersFor(e: Entity): Paper[] {
   return [...new Map([...(g.incoming(e.id).get("paper") ?? []), ...e.keyPapers.map((id) => g.get(id)).filter((x): x is Entity => !!x)].map((p) => [p.id, p])).values()].filter((p): p is Paper => p.kind === "paper").sort((a, b) => b.year - a.year);
 }
 
+/**
+ * How many key papers a record shows as cards. Beyond this the section leads with the newest PAPER_CARDS as cards
+ * and lists the rest as reference pills: one link each, no journal line, no what-it-means, no citation count, so the
+ * section's markup grows by a pill per paper rather than by a card (a roadmap with 42 key papers spent 44 KB of its
+ * 300 KB budget on them, and every weekly citation refresh added to it). Each pill still names its paper and links
+ * to its page, so crawlers and readers without JavaScript reach every one.
+ */
+export const PAPER_CARDS = 8;
+
 export function KeyPapers({ e, all }: { e: Entity; all: Paper[] }) {
   const papers = all.length > NEIGHBOUR_CAP ? all.slice(0, NEIGHBOUR_CAP) : all;
-  return (
-    <div className="grid *:min-w-0 gap-3 md:grid-cols-2">{papers.length < all.length && <p className="md:col-span-2 text-sm text-muted">The {papers.length} most recent of {all.length} papers; <Link href={e.kind === "cancer" ? cancerTableHref("paper", e.name) : "/papers/"} className="underline" data-more>see them all →</Link></p>}{papers.map((p) => (
+  const cards = papers.length > PAPER_CARDS ? papers.slice(0, PAPER_CARDS) : papers;
+  const rest = papers.slice(cards.length);
+  return (<>
+    <div className="grid *:min-w-0 gap-3 md:grid-cols-2">{papers.length < all.length && <p className="md:col-span-2 text-sm text-muted">The {papers.length} most recent of {all.length} papers; <Link href={e.kind === "cancer" ? cancerTableHref("paper", e.name) : "/papers/"} className="underline" data-more>see them all →</Link></p>}
+      {cards.length > 0 && <CitationChipDefs />}
+      {cards.map((p) => (
       <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition">
-        <div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.journal} {p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} /></div>
+        <div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.journal} {p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} sprite /></div>
         <div className="font-medium leading-snug">{p.name}</div>
         <p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p>
       </Link>))}</div>
-  );
+    {rest.length > 0 && <div className="mt-3" data-paper-refs>
+      <div className="kicker mb-1.5">{rest.length} more, oldest last</div>
+      <ChipList items={rest} />
+    </div>}
+  </>);
 }
 
 /** Live literature: what the world is publishing about this object, from Europe PMC, plus the weekly-refreshed trend; null when no query can be built. */

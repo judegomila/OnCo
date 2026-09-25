@@ -55,13 +55,15 @@ jobs:
         run: npx tsx scripts/apply-proposals.ts --apply
         env:
           ONCO_CACHE_DIR: ${{ runner.temp }}/onco-cache
-      - run: npm run validate
-      - run: npm run typecheck
-      - name: Test, re-reading every written row's source page
-        run: npx vitest run
+      # The merge below is unattended, so the rows it lands must pass what a person's branch passes. The gates never
+      # fail the job: when one does the pull request is still opened, the merge is skipped and the last step of this
+      # branch labels it for review, so a red run waits for a person rather than landing on main.
+      - id: gates
+        continue-on-error: true
         env:
           ONCO_CACHE_DIR: ${{ runner.temp }}/onco-cache
           ONCO_VERIFY_APPLIED: "1"
+        run: npm run validate && npm run typecheck && npm run lint && npx vitest run
       - uses: peter-evans/create-pull-request@v7
         id: auto
         with:
@@ -76,11 +78,19 @@ jobs:
             every source page. Merged by the workflow, as the weekly maintenance is.
           labels: automated, pipeline, regional-approval
           delete-branch: true
-      - name: Merge the auto rows (this run already validated and tested them)
-        if: steps.auto.outputs.pull-request-number != ''
+      - name: Merge the auto rows (only when this run's gates passed)
+        if: steps.auto.outputs.pull-request-number != '' && steps.gates.outcome == 'success'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh pr merge --squash --delete-branch "${{ steps.auto.outputs.pull-request-number }}" || echo "merge deferred, the pull request stays open for a person"
+      - name: Leave the auto rows for review (a gate failed in this run)
+        if: steps.auto.outputs.pull-request-number != '' && steps.gates.outcome != 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create needs-review --color D93F0B --description "A person must check this before it lands" --force || true
+          gh pr edit "${{ steps.auto.outputs.pull-request-number }}" --add-label needs-review
+          gh pr comment "${{ steps.auto.outputs.pull-request-number }}" --body "Not merged: a gate failed in [this run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}). The rows are on this branch for a person to read."
 
       # ---- 2. Review branch: the residue, each row with its reason ----
       - name: Reset the working tree for the review pass

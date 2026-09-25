@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Kind } from "@/lib/kinds";
 import type { Entity } from "@/lib/schema";
 import { KIND_META, routeFor } from "@/lib/kinds";
-import { KIND_COLOR, statusClass } from "@/lib/text";
+import { kindTone, refChipClass, statusClass } from "@/lib/text";
 import { NAV_GROUPS } from "@/lib/nav";
 import { DrugChip } from "./DrugChip";
 import { NavIcon } from "./NavIcon";
@@ -15,7 +15,7 @@ import { IntentLink } from "./IntentLink";
 import { EN_TEXT, nameAttrs } from "@/lib/translate";
 
 export function KindChip({ kind }: { kind: Kind }) {
-  return <span className={`chip border ${KIND_COLOR[kind]}`}><KindName kind={kind} form="label" fallback={KIND_META[kind].label} /></span>;
+  return <span className={`chip border ${kindTone(kind)}`}><KindName kind={kind} form="label" fallback={KIND_META[kind].label} /></span>;
 }
 
 export function StatusChip({ status }: { status?: string }) {
@@ -57,9 +57,9 @@ export function ChipList({ items, kind, max, moreHref }: { items: Entity[]; kind
   return (
     <div className="flex flex-wrap gap-1.5">
       {shown.map((e) => e.kind === "drug" ? (
-        <DrugChip key={e.id} id={e.id} name={e.name} route={routeFor(e)} tldr={e.tldr} className={KIND_COLOR[kind ?? e.kind]} />
+        <DrugChip key={e.id} id={e.id} name={e.name} route={routeFor(e)} tldr={e.tldr} className={kindTone(kind ?? e.kind)} />
       ) : (
-        <IntentLink key={e.id} href={routeFor(e)} {...nameAttrs(e.kind, `chip border transition-[filter] hover:brightness-95 dark:hover:brightness-125 ${KIND_COLOR[kind ?? e.kind]}`)}>
+        <IntentLink key={e.id} href={routeFor(e)} {...nameAttrs(e.kind, refChipClass(kind ?? e.kind))}>
           {e.name}
         </IntentLink>
       ))}

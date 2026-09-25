@@ -95,14 +95,16 @@ export function dossierData(t: Target) {
   };
 }
 
-export function Dossier({ target: t }: { target: Target }) {
+/**
+ * The dossier as one machine-readable record, written to /api/v1/dossiers/<id>.json by scripts/build-api.ts and
+ * linked from the Export section. It used to be built in the page and handed to the reader as a `data:` URI, which
+ * put a percent-encoded copy of every product, trial, paper, hotspot, question and assay into the HTML: 295 KB of
+ * the PD-1 dossier's 469 KB of markup, growing with the corpus, which is what took the page past its budget when
+ * the colorectal registry trials landed (src/app/heavy-pages.test.ts).
+ */
+export function dossierJson(t: Target) {
   const d = dossierData(t);
-  // Dossiers with more than a page of trials carry the first page; the rest is /api/v1/tables/dossier-trials-<id>.json.
-  const trialTable = pageRows(dossierTrialsTableId(t.id), dossierTrialRows(d.trials));
-  const families = [...new Set(d.drugs.map((x) => modalityFamily(x.modality)))].sort((a, b) => d.drugs.filter((x) => modalityFamily(x.modality) === b).length - d.drugs.filter((x) => modalityFamily(x.modality) === a).length || a.localeCompare(b));
-  const usedPhases = PHASES.filter((p) => d.drugs.some((x) => phaseOf(x.status) === p.key));
-  const query = paperQuery(t);
-  const exportJson = JSON.stringify({
+  return {
     id: t.id, name: t.name, symbol: t.symbol, route: routeFor(t), asOf: t.asOf,
     xrefs: xrefJson(t.id),
     products: d.drugs.map((x) => ({ id: x.id, name: x.name, status: x.status, modality: x.modality, route: routeFor(x) })),
@@ -113,8 +115,19 @@ export function Dossier({ target: t }: { target: Target }) {
     assays: d.assays.map((a) => ({ id: a.id, name: a.name, cutoff: a.cutoff })),
     resistance: d.mechanisms.map((m) => ({ class: m.classId, mechanism: m.m.name, category: m.m.category })),
     licence: "CC BY-NC 4.0, attribution to OnCo (https://onco.cc); commercial use needs a licence",
-  });
-  const exportHref = `data:application/json;charset=utf-8,${encodeURIComponent(exportJson)}`;
+  };
+}
+
+/** Site-relative URL of one dossier's file. */
+export const dossierFile = (id: string): string => `/api/v1/dossiers/${id}.json`;
+
+export function Dossier({ target: t }: { target: Target }) {
+  const d = dossierData(t);
+  // Dossiers with more than a page of trials carry the first page; the rest is /api/v1/tables/dossier-trials-<id>.json.
+  const trialTable = pageRows(dossierTrialsTableId(t.id), dossierTrialRows(d.trials));
+  const families = [...new Set(d.drugs.map((x) => modalityFamily(x.modality)))].sort((a, b) => d.drugs.filter((x) => modalityFamily(x.modality) === b).length - d.drugs.filter((x) => modalityFamily(x.modality) === a).length || a.localeCompare(b));
+  const usedPhases = PHASES.filter((p) => d.drugs.some((x) => phaseOf(x.status) === p.key));
+  const query = paperQuery(t);
 
   return (
     <div className="space-y-2">
@@ -307,9 +320,9 @@ export function Dossier({ target: t }: { target: Target }) {
       </Section>
 
       <Section id="export" title="Export">
-        <p className="text-sm text-muted max-w-3xl">The dossier as machine-readable JSON: identifiers from HGNC, Ensembl, UniProt and ChEMBL, products with status, trials, pathways, hotspots, open questions and assays. The full entity record is in the <Link className="underline" href="/api/">open API</Link> at <code className="text-xs">/api/v1/entities/{t.id}.json</code>. Licence CC BY-NC 4.0.</p>
+        <p className="text-sm text-muted max-w-3xl">The dossier as machine-readable JSON, at <code className="text-xs">{dossierFile(t.id)}</code>: identifiers from HGNC, Ensembl, UniProt and ChEMBL, products with status, trials, pathways, hotspots, open questions and assays. The full entity record is in the <Link className="underline" href="/api/">open API</Link> at <code className="text-xs">/api/v1/entities/{t.id}.json</code>. Licence CC BY-NC 4.0.</p>
         <div className="mt-3 flex flex-wrap gap-2 text-sm">
-          <a href={exportHref} download={`onco-dossier-${t.id}.json`} className="chip border bg-card border-border hover:bg-foreground/5">Download dossier JSON</a>
+          <a href={dossierFile(t.id)} download={`onco-dossier-${t.id}.json`} className="chip border bg-card border-border hover:bg-foreground/5">Download dossier JSON</a>
           <a href={`/api/v1/entities/${t.id}.json`} className="chip border bg-card border-border hover:bg-foreground/5">Entity JSON</a>
           <Link href="/suggest/" className="chip border bg-card border-border hover:bg-foreground/5">Suggest a correction</Link>
         </div>

@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- Lung cancer given a family and a patient side: five tiers under lung-cancer, ten decision rows, 86 appointment questions, six red-card sets
+- Lung cancer given its trials, its molecular landscape and its evidence: 36 trials written from source, three landscapes, 44 papers, a roadmap of eleven eras
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,10 +19,27 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- A standard-of-care row for the antibody-drug conjugates and bispecifics entering lung cancer
+- Lung molecular layer: adenocarcinoma, squamous and small-cell landscapes read separately, PD-L1 by assay, why tumour mutational burden failed, and resistance mechanism by mechanism
+- Approval dates cut back to what the FDA notification page shows
+- Lung cancer evidence: 44 landmark papers from Doll and Hill to tarlatamab, a roadmap in eleven eras with a 2032 registry watch, and seven open questions
+- Registry routing reads the title and conditions, not the eligibility text
+- Roadmap page quoted the old review gauge label
+- Write down the three gauges no script can move, and what the owner holds
+- Lung registry snapshot gets a breadth rule, later lines get their trials, and Ask keeps its floor
+- Lung cancer given a family and a patient side: five tiers under lung-cancer, ten decision rows, 86 appointment questions, six red-card sets
+- Europe PMC snapshots for 1,545 records, 42 logos, and a collection that had borrowed a charity's mark
+- Take the backlink fill back out: it costs 0.002 of Ask recall, and the floor does not move
 - Lung cancer: the patient side, written so a person who smoked and a person who never smoked are both addressed
 - Read the three new lung pages in the dev server and drop one redundant alias
 - Three more lung glossary terms the other layers will need, and an outlook paragraph on the family page
+- Glossary terms: four Wikipedia links found, 58 absences recorded as checked
 - Lung taxonomy settled and the core layer written: the family now hangs together, and lung cancer is described from its sources
+- Lung cancer treatment layer: 884 registry trials, 31 landmark trials and the England access rows
+- A test that fails when a gauge's denominator moves and its label does not
+- Backlink fill for 1,002 weak records: two acronym collisions fixed first
+- Provenance was blind to the generated files: 1,486 records get their commit line back
+- Three gauges were measuring the wrong population; fix the questions, not the targets
 - Colorectal reviewed against its sources: duplicate treatment rows folded, eleven NICE errors corrected, RAS wild-type recorded as a biomarker, 1,406 links checked
 - Review the colorectal deep spike: fold the duplicated rows, settle the contradictory figures, fix eleven NICE errors and add the RAS wild-type readout
 - Colorectal cancer deep spike complete (core, 710 trials, molecular landscape, evidence and roadmap); red cards re-sourced against the live toolkit; pages no longer grow with what is known about a reference; weekly jobs merge only when the gates pass

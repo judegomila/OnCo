@@ -66,16 +66,21 @@ describe("lung cancer molecular landscape", () => {
     if (rb1?.kind === "target") expect(rb1.prevalence.filter((p) => p.cancerId === "sclc").length).toBeGreaterThanOrEqual(1);
   });
 
-  it("the four new readouts have a parent, a quoted scoring rule and something that defines them", () => {
+  // nrg1-fusion is not in this list: the core layer wrote that readout into biomarker-readouts-2.ts, where its
+  // scoring rule is quoted from the zenocutuzumab label rather than a paper, and this layer supplements it. The
+  // rule below still holds for every readout, so the quote and the patient sentence are checked on all four.
+  it("the new readouts have a parent, a quoted scoring rule and something that defines them", () => {
     for (const id of ["egfr-c797s", "alk-resistance-mutation", "nrg1-fusion", "stk11-keap1-loss"]) {
       const bm = g.get(id);
       expect(bm?.kind, id).toBe("biomarker");
       if (bm?.kind !== "biomarker") continue;
       expect(g.get(bm.target ?? "")?.kind, `${id} parent`).toBe("target");
       expect(bm.scoringRule.quote.length, id).toBeGreaterThan(10);
+      expect(bm.scoringRule.source, id).toMatch(/^https:\/\//);
+      expect(bm.forPatient.length, `${id} forPatient`).toBeGreaterThan(40);
+      if (id === "nrg1-fusion") continue;
       expect(bm.scoringRule.source, id).toMatch(/^https:\/\/doi\.org\//);
       expect(bm.definedBy?.url, `${id} definedBy`).toMatch(/^https:\/\/doi\.org\//);
-      expect(bm.forPatient.length, `${id} forPatient`).toBeGreaterThan(40);
     }
   });
 

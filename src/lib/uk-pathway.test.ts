@@ -5,9 +5,10 @@ import { graph } from "./graph";
 import { UK_PATHWAYS, ukPathwayCancerIds, ukPathwayFor, ukPathwayJson, ukPathwayRoute, ukPathwayUrls } from "./uk-pathway";
 import gallbladderSpike from "@/data/spikes/gallbladder-uk";
 import tnbcSpike from "@/data/spikes/tnbc-uk";
+import pancreaticSpike from "@/data/spikes/pancreatic-uk";
 import UkPage, { generateStaticParams } from "@/app/cancers/[id]/uk/page";
 
-const SPIKES = [gallbladderSpike, tnbcSpike];
+const SPIKES = [gallbladderSpike, tnbcSpike, pancreaticSpike];
 
 /**
  * The UK and NHS layer quotes public UK sources only. Every URL must be https and sit on one of these domains
@@ -23,6 +24,8 @@ const ALLOWED_DOMAINS = [
   "qub.ac.uk", "nhsinform.scot", "liverpool.ac.uk", "hcahealthcare.co.uk",
   // Triple-negative breast cancer pass: the breast charity, the US TNBC foundation, and the two universities whose staff pages are cited.
   "breastcancernow.org", "tnbcfoundation.org", "cam.ac.uk", "southampton.ac.uk",
+  // Pancreatic cancer pass: the Glasgow staff page, NHS Grampian's site (not under nhs.scot), the early-diagnosis charity and an ORCID profile.
+  "gla.ac.uk", "nhsgrampian.org", "pancreaticcanceraction.org", "orcid.org",
 ];
 
 const hostOk = (url: string) => {
@@ -50,6 +53,23 @@ describe("UK pathway data", () => {
     for (const id of ["tnt", "partner"]) expect(g.get(id)?.kind, id).toBe("trial");
     for (const id of ["jean-abraham", "ellen-copson", "anne-armstrong"]) expect(g.get(id)?.kind, id).toBe("person");
     expect(g.get("breast-cancer-now")?.kind).toBe("institution");
+  });
+
+  it("registers the pancreatic cancer pathway under pancreatic and its resectability and molecular subtype aliases", () => {
+    const p = ukPathwayFor("pancreatic");
+    expect(p?.cancerId).toBe("pancreatic");
+    for (const alias of ["resectable-pdac", "borderline-resectable-pdac", "locally-advanced-pdac", "metastatic-pdac", "brca-palb2-pdac"]) expect(ukPathwayFor(alias)?.cancerId, alias).toBe("pancreatic");
+    const g = graph();
+    for (const id of ["pancreatic", "metastatic-pdac", "brca-palb2-pdac"]) expect(g.get(id)?.kind, id).toBe("cancer");
+    // The two UK programme records, the five researchers and the eleven institutions the spike adds resolve in the graph.
+    for (const id of ["europac", "precision-panc"]) expect(g.get(id)?.kind, id).toBe("trial");
+    for (const id of ["andrew-biankin", "paula-ghaneh", "daniel-palmer", "chris-halloran", "bill-greenhalf"]) expect(g.get(id)?.kind, id).toBe("person");
+    for (const id of ["pancreatic-cancer-uk", "pancreatic-cancer-action", "wolfson-wohl-cancer-research-centre", "hull-castle-hill", "royal-stoke-uhnm", "uhcw-coventry", "royal-surrey-guildford", "royal-blackburn-elht", "ninewells-dundee", "aberdeen-royal-infirmary", "raigmore-inverness"]) expect(g.get(id)?.kind, id).toBe("institution");
+    // Every NICE decision quoted carries its appraisal number: one recommendation, one refusal, two terminated appraisals.
+    const refs = p!.funding.filter((f) => f.england.body === "NICE").map((f) => f.england.ref);
+    for (const ta of ["TA476", "TA440", "TA750", "TA1052", "TA630", "TA914"]) expect(refs).toContain(ta);
+    // The 23 English hubs of the national audit are all present, by institution or by name.
+    expect(p!.centres.filter((c) => c.nation === "England").length).toBeGreaterThanOrEqual(23);
   });
 
   it("cites only https URLs on allowed UK public domains", () => {
@@ -160,6 +180,29 @@ describe("/cancers/[id]/uk/ page", () => {
     // The subtype alias renders the same pathway.
     const alias = await UkPage({ params: Promise.resolve({ id: "tnbc-early" }) });
     expect(renderToStaticMarkup(createElement(() => alias))).toContain("TA851");
+  });
+
+  it("renders the pancreatic page with the NG12 diabetes rule, the audit's PERT finding, the four NICE positions, the SMC refusals, the hubs and the UK trials", async () => {
+    const el = await UkPage({ params: Promise.resolve({ id: "pancreatic" }) });
+    const html = renderToStaticMarkup(createElement(() => el));
+    for (const id of ["pathway", "centres", "funding", "tests", "trials", "data", "support", "nations", "gaps"]) expect(html).toContain(`id="${id}"`);
+    expect(html).toContain("new-onset diabetes");
+    expect(html).toContain("TA476");
+    expect(html).toContain("TA440");
+    expect(html).toContain("TA750");
+    expect(html).toContain("TA1052");
+    expect(html).toContain("SMC2812");
+    expect(html).toContain("SMC2435");
+    expect(html).toContain("pancreatic enzyme replacement therapy");
+    expect(html).toContain("Ninewells");
+    expect(html).toContain("Castle Hill");
+    expect(html).toContain("ISRCTN62546421");
+    expect(html).toContain("EUROPAC");
+    expect(html).toContain("/api/v1/cancers/pancreatic/uk.json");
+    expect(html).not.toMatch(/<a[^>]*>[^<]*<a/);
+    // A resectability subtype alias renders the same pathway.
+    const alias = await UkPage({ params: Promise.resolve({ id: "metastatic-pdac" }) });
+    expect(renderToStaticMarkup(createElement(() => alias))).toContain("TA476");
   });
 
   it("returns not-found for a cancer without a pathway", async () => {

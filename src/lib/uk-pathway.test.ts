@@ -96,11 +96,12 @@ describe("UK pathway data", () => {
     expect(JSON.stringify(p)).toContain("20 micrograms per gram");
   });
 
-  it("registers the lung cancer pathway under nsclc, the lung parent and the molecular and stage subtypes", () => {
-    const p = ukPathwayFor("nsclc");
-    expect(p?.cancerId).toBe("nsclc");
-    // Agent A is settling the lung taxonomy; until then the pathway keys to nsclc and the parent and subtypes are aliases.
-    for (const alias of ["lung-cancer", "sclc", "egfr-mutant-nsclc", "alk-positive-nsclc", "kras-g12c-nsclc", "limited-stage-sclc", "extensive-stage-sclc"]) expect(ukPathwayFor(alias)?.cancerId, alias).toBe("nsclc");
+  it("registers the lung cancer pathway under the lung family, both branches and the molecular and stage subtypes", () => {
+    const p = ukPathwayFor("lung-cancer");
+    expect(p?.cancerId).toBe("lung-cancer");
+    // The pathway keys to the family: screening, the 62-day standard, the tests and the centres are the same
+    // whichever histology comes back, and the family page is where a reader lands. Both branches are aliases.
+    for (const alias of ["nsclc", "sclc", "egfr-mutant-nsclc", "alk-positive-nsclc", "kras-g12c-nsclc", "limited-stage-sclc", "extensive-stage-sclc"]) expect(ukPathwayFor(alias)?.cancerId, alias).toBe("lung-cancer");
     const g = graph();
     for (const id of ["nsclc", "lung-cancer", "sclc", "resectable-nsclc"]) expect(g.get(id)?.kind, id).toBe("cancer");
     // The eight UK legacy trial records and the seven researchers the spike adds resolve in the graph.
@@ -283,7 +284,7 @@ describe("/cancers/[id]/uk/ page", () => {
   });
 
   it("renders the lung page with the screening eligibility, the audit's stage shift, the perioperative divergence and the UK trials", async () => {
-    const el = await UkPage({ params: Promise.resolve({ id: "nsclc" }) });
+    const el = await UkPage({ params: Promise.resolve({ id: "lung-cancer" }) });
     const html = renderToStaticMarkup(createElement(() => el));
     for (const id of ["pathway", "centres", "funding", "tests", "trials", "data", "support", "nations", "gaps"]) expect(html).toContain(`id="${id}"`);
     expect(html).toContain("lung health check");
@@ -296,10 +297,10 @@ describe("/cancers/[id]/uk/ page", () => {
     expect(html).toContain("Royal Papworth");
     expect(html).toContain("Belfast City Hospital");
     expect(html).toContain("ISRCTN70247820");
-    expect(html).toContain("/api/v1/cancers/nsclc/uk.json");
+    expect(html).toContain("/api/v1/cancers/lung-cancer/uk.json");
     expect(html).not.toMatch(/<a[^>]*>[^<]*<a/);
-    // The lung parent and a molecular subtype alias render the same pathway.
-    const parent = await UkPage({ params: Promise.resolve({ id: "lung-cancer" }) });
+    // Both branches of the family and a molecular subtype alias render the same pathway.
+    const parent = await UkPage({ params: Promise.resolve({ id: "nsclc" }) });
     expect(renderToStaticMarkup(createElement(() => parent))).toContain("TA1127");
     const alias = await UkPage({ params: Promise.resolve({ id: "egfr-mutant-nsclc" }) });
     expect(renderToStaticMarkup(createElement(() => alias))).toContain("TA1122");

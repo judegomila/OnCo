@@ -3,8 +3,11 @@ import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { graph } from "./graph";
 import { UK_PATHWAYS, ukPathwayCancerIds, ukPathwayFor, ukPathwayJson, ukPathwayRoute, ukPathwayUrls } from "./uk-pathway";
-import spike from "@/data/spikes/gallbladder-uk";
+import gallbladderSpike from "@/data/spikes/gallbladder-uk";
+import tnbcSpike from "@/data/spikes/tnbc-uk";
 import UkPage, { generateStaticParams } from "@/app/cancers/[id]/uk/page";
+
+const SPIKES = [gallbladderSpike, tnbcSpike];
 
 /**
  * The UK and NHS layer quotes public UK sources only. Every URL must be https and sit on one of these domains
@@ -18,6 +21,8 @@ const ALLOWED_DOMAINS = [
   "europepmc.org", "doi.org", "ucl.ac.uk", "manchester.ac.uk", "imperial.ac.uk",
   // Second UK pass: the Northern Ireland Cancer Registry (Queen's), NHS inform, and the two public pages Hassan Malik has.
   "qub.ac.uk", "nhsinform.scot", "liverpool.ac.uk", "hcahealthcare.co.uk",
+  // Triple-negative breast cancer pass: the breast charity, the US TNBC foundation, and the two universities whose staff pages are cited.
+  "breastcancernow.org", "tnbcfoundation.org", "cam.ac.uk", "southampton.ac.uk",
 ];
 
 const hostOk = (url: string) => {
@@ -34,6 +39,19 @@ describe("UK pathway data", () => {
     expect(ukPathwayFor("nsclc")).toBeUndefined();
   });
 
+  it("registers the triple-negative breast cancer pathway under tnbc and its subtype aliases", () => {
+    const p = ukPathwayFor("tnbc");
+    expect(p?.cancerId).toBe("tnbc");
+    expect(ukPathwayFor("tnbc-early")?.cancerId).toBe("tnbc");
+    expect(ukPathwayFor("tnbc-metastatic")?.cancerId).toBe("tnbc");
+    const g = graph();
+    for (const id of ["tnbc", "tnbc-early", "tnbc-metastatic"]) expect(g.get(id)?.kind, id).toBe("cancer");
+    // The two UK-led trial records and the three researchers the spike adds resolve in the graph.
+    for (const id of ["tnt", "partner"]) expect(g.get(id)?.kind, id).toBe("trial");
+    for (const id of ["jean-abraham", "ellen-copson", "anne-armstrong"]) expect(g.get(id)?.kind, id).toBe("person");
+    expect(g.get("breast-cancer-now")?.kind).toBe("institution");
+  });
+
   it("cites only https URLs on allowed UK public domains", () => {
     for (const p of UK_PATHWAYS) {
       const urls = ukPathwayUrls(p);
@@ -41,7 +59,7 @@ describe("UK pathway data", () => {
       const bad = urls.filter((u) => !hostOk(u));
       expect(bad, `${p.cancerId}: ${bad.join(", ")}`).toEqual([]);
     }
-    for (const e of spike.entities) {
+    for (const e of SPIKES.flatMap((s) => s.entities)) {
       const urls = [...e.links ?? [], ...("profiles" in e ? e.profiles ?? [] : [])].map((l) => l.url);
       if ("website" in e && e.website) urls.push(e.website);
       const bad = urls.filter((u) => !hostOk(u));
@@ -123,6 +141,25 @@ describe("/cancers/[id]/uk/ page", () => {
     expect(html).toContain("ISRCTN13555554");
     expect(html).toContain("/api/v1/cancers/gallbladder/uk.json");
     expect(html).not.toMatch(/<a[^>]*>[^<]*<a/);
+  });
+
+  it("renders the triple-negative page with the screening caveat, the TA refusal, the SMC split, the R208 test and the UK trials", async () => {
+    const el = await UkPage({ params: Promise.resolve({ id: "tnbc" }) });
+    const html = renderToStaticMarkup(createElement(() => el));
+    for (const id of ["pathway", "centres", "funding", "tests", "trials", "data", "support", "nations", "gaps"]) expect(html).toContain(`id="${id}"`);
+    expect(html).toContain("TA851");
+    expect(html).toContain("TA992");
+    expect(html).toContain("SMC2608");
+    expect(html).toContain("R208");
+    expect(html).toContain("PHOENIX");
+    expect(html).toContain("Western General");
+    expect(html).toContain("Belfast City Hospital");
+    expect(html).toContain("71st birthday");
+    expect(html).toContain("/api/v1/cancers/tnbc/uk.json");
+    expect(html).not.toMatch(/<a[^>]*>[^<]*<a/);
+    // The subtype alias renders the same pathway.
+    const alias = await UkPage({ params: Promise.resolve({ id: "tnbc-early" }) });
+    expect(renderToStaticMarkup(createElement(() => alias))).toContain("TA851");
   });
 
   it("returns not-found for a cancer without a pathway", async () => {

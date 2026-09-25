@@ -1062,7 +1062,7 @@ const otherSupplements: SpikeSupplement[] = [
   // Trials already in the corpus.
   sup<TrialInput>({ id: "polo", keyPapers: [SRC.golan2014.paper, SRC.park2020.paper] }),
   sup<TrialInput>({ id: "rasolute-302", keyPapers: [SRC.bournet2016.paper] }),
-  sup<TrialInput>({ id: "keynote-158", cancers: [PC, "msi-high-pdac"], keyPapers: [SRC.hu2018ccr.paper, SRC.luchini2021.paper] }),
+  sup<TrialInput>({ id: "keynote-158", cancers: [PC, "msi-high-pdac"], keyPapers: [SRC.hu2018ccr.paper, SRC.luchini2021.paper], trials: ["nct02628067"] }),
   sup<TrialInput>({ id: "precede", keyPapers: [SRC.gonda2021.paper, SRC.worthington2026.paper, SRC.canto2018.paper] }),
 
   // Technologies the layer's evidence sits under.

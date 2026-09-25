@@ -415,6 +415,11 @@ describe("Ask OnCo end to end", () => {
     // whose name is four letters and whose aka was empty. Fixed in the record, not the bar: adaura gained the aliases
     // "Adjuvant osimertinib after complete resection of EGFR-mutant lung cancer" and "ADAURA trial".
     { date: "2026-09-25", recall: 0.4243, note: "lung deep dive plus the ADAURA aliases; extractive rubric 0.685" },
+    // 25 Sept 2026, lung review (docs/LUNG-QA.md): the base records gave up eighteen lines the spikes had written in
+    // full (three standard-of-care settings, seven history entries, ten open problems) and three paper records that
+    // existed twice under two ids for one DOI became supplements. Removing text removes lexical matches, so the figure
+    // moves; it stays above the floor and the floor is not moved.
+    { date: "2026-09-25", recall: 0.422, note: "lung review: base one-liners folded into the spike rows, three duplicate paper records merged; extractive rubric 0.688" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

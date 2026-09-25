@@ -28,10 +28,11 @@ import type { Spike, SpikeSupplement } from "./index";
  * verdict, and the emotional material says plainly that nobody has to earn their treatment. Where a sentence could be
  * read as blame it has been rewritten.
  *
- * This file creates no glossary terms: the glossary pass (agent A) owns them. Drafts for the terms this material
- * wants are exported as `lungLivingTermDrafts`, written to the glossary standard so they can be registered by
- * spreading the array; the ids they use are referenced nowhere in the graph until then. Trials are owned by the
- * trials pass (agent B): no trial record is created here, and the rows reference only trials the corpus already has.
+ * This file creates no glossary terms: ./lung-core.ts owns them. Drafts for the terms this material wants are
+ * exported as `lungLivingTermDrafts`, written to the glossary standard so they can be registered by spreading the
+ * array; the ids they use are referenced nowhere in the graph until then. Trials are owned by
+ * ./lung-treatment-trials*.ts and ./lung-registry-trials.ts: no trial record is created here, and the rows reference
+ * only trials the corpus already has.
  *
  * Sources, all read 25 September 2026: NICE NG122 (lung cancer: diagnosis and management, 2019, last updated March
  * 2024) and NICE NG234 (spinal metastases and metastatic spinal cord compression, 2023); the NHS lung cancer,
@@ -487,9 +488,11 @@ const lungSpike: Spike = {
       "multidisciplinary-tumour-board", "financial-navigation", "cbt-fatigue-distress", "exercise-during-chemotherapy",
       "liquid-biopsy", "sbrt", "pet-ct", "checkpoint-inhibitor",
     ],
+    // The NHS symptoms page and the NG122 diagnosis chapter are on the record already, under the fuller labels the
+    // core layer (lung-core.ts) gives them; adding them again here put the same URL on the record twice.
     links: [
-      NHS_LUNG, NHS_LUNG_SYMPTOMS, NHS_LUNG_TESTS, NHS_LUNG_TREATMENT, NHS_COUGHING_BLOOD, NHS_QUIT, NHS_GENOMIC, NHS_TRIALS,
-      NG122_MANAGEMENT, NG122_DIAGNOSIS, NG122_PALLIATIVE, NG122_CNS, NG122_FOLLOW_UP, NG234,
+      NHS_LUNG, NHS_LUNG_TESTS, NHS_LUNG_TREATMENT, NHS_COUGHING_BLOOD, NHS_QUIT, NHS_GENOMIC, NHS_TRIALS,
+      NG122_MANAGEMENT, NG122_PALLIATIVE, NG122_CNS, NG122_FOLLOW_UP, NG234,
       ROY_CASTLE_LIVING, ROY_CASTLE_SUPPORT, ROY_CASTLE_QUIT, ROY_CASTLE_DIAGNOSED, ROY_CASTLE_TREATMENTS,
       MAC_LUNG, MAC_NSCLC, MAC_BREATHLESSNESS, MAC_SVCO,
       CRUK_LUNG_LIVING, CRUK_BREATHLESSNESS, CRUK_COPING, CRUK_PLEURAL, CRUK_BREATHE_TREATMENTS, CRUK_METASTATIC_SYMPTOMS,

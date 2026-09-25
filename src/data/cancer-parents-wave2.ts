@@ -41,20 +41,19 @@ export const cancerParentsWave2: CancerInput[] = [
     summary: "Lung cancer is divided by histology into non-small-cell lung cancer, itself split into adenocarcinoma, squamous and large-cell carcinoma, and small-cell lung cancer, a fast-growing neuroendocrine tumour almost always linked to smoking. Non-small-cell disease has more than a dozen targetable driver mutations and is treated with surgery, radiotherapy, targeted drugs and immunotherapy by stage and biology; small-cell disease is treated with chemotherapy, immunotherapy and radiotherapy and relapses quickly. Low-dose CT screening of heavy smokers cuts lung cancer deaths by about a fifth, and tobacco control remains the largest lever. Mesothelioma and thymic tumours are separate thoracic cancers.",
     subtypes: ["Non-small-cell lung cancer (adenocarcinoma, squamous, large cell)", "Small-cell lung cancer", "Carcinoid and other neuroendocrine tumours of the lung", "Pleuropulmonary blastoma (childhood)"],
     biomarkers: ["EGFR, ALK, ROS1, KRAS G12C, BRAF V600E, MET exon 14, RET, NTRK, HER2 mutations (non-small-cell)", "PD-L1 expression", "Stage by TNM and PET-CT", "Circulating tumour DNA for minimal residual disease"],
-    standardOfCare: [
-      { setting: "Screening", approach: "Annual low-dose CT for people aged about 50 to 80 with a heavy smoking history (NLST, NELSON).", refs: ["nlst-nelson"] },
-      { setting: "Diagnosis and staging", approach: "CT, PET-CT, bronchoscopy or CT-guided biopsy, endobronchial ultrasound of nodes, brain MRI; molecular testing on every non-squamous non-small-cell tumour.", refs: ["nsclc", "pet"] },
-      { setting: "Treatment", approach: "By type and stage on the subtype pages: surgery or stereotactic radiotherapy for early disease, chemoradiation with immunotherapy for locally advanced, targeted or immune therapy for metastatic disease.", refs: ["nsclc", "sclc", "sbrt"] },
-    ],
-    stateOfArt: ["Immunotherapy and targeted drugs have doubled or tripled survival in metastatic non-small-cell disease over a decade.", "CT screening is now recommended in the US, UK and much of Europe but uptake is low.", "Small-cell lung cancer has gained immunotherapy and the DLL3 T-cell engager tarlatamab after decades without progress."],
+    // Standard of care, history and open problems are written in full, with their sources, by the September 2026 deep
+    // dive (src/data/spikes/lung-treatment.ts, lung-core.ts, lung-living.ts and lung-evidence.ts). The three one-line
+    // settings and the four one-line problems that stood here said the same things without a figure or a source, and
+    // the two history entries below were written twice; every record they referenced is still reachable from the rows
+    // that replaced them.
+    standardOfCare: [],
+    stateOfArt: ["Immunotherapy and targeted drugs have doubled or tripled survival in metastatic non-small-cell disease over a decade.", "CT screening is recommended in the United States and, since June 2022, across the four UK nations; in Europe it is still mostly not a programme, and uptake is low where it is.", "Small-cell lung cancer has gained immunotherapy and the DLL3 T-cell engager tarlatamab after decades without progress."],
     history: [
-      { year: 1950, title: "Doll and Hill link smoking to lung cancer" },
       { year: 2004, title: "EGFR mutations explain gefitinib responses", refs: ["gefitinib"] },
-      { year: 2011, title: "NLST: CT screening cuts lung cancer deaths by 20 percent", refs: ["nlst-nelson"] },
       { year: 2015, title: "Nivolumab approved: immunotherapy enters lung cancer", refs: ["nivolumab"] },
       { year: 2024, title: "Tarlatamab: first targeted drug for small-cell lung cancer", refs: ["tarlatamab"] },
     ],
-    pipeline: ["tarlatamab","datopotamab-deruxtecan"], openProblems: ["Most patients still present with advanced disease.", "Resistance to every targeted drug emerges within one to three years.", "Screening reaches a small fraction of those eligible.", "Small-cell lung cancer survival remains under a year for most with extensive disease."],
+    pipeline: ["tarlatamab","datopotamab-deruxtecan"], openProblems: [],
     links: [{ label: "Wikipedia", url: W("Lung_cancer") }, { label: "NCI PDQ", url: "https://www.cancer.gov/types/lung" }] },
   { id: "leukaemia", kind: "cancer", name: "Leukaemia (all types)", group: "haematologic", asOf, tags, wikipedia: W("Leukemia"),
     aka: ["Leukemia", "Blood cancer (leukaemias)"],

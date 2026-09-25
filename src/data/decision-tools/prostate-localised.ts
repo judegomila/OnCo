@@ -359,7 +359,7 @@ const decide = (a: Answers): string[] => {
 export const prostateLocalisedTool: DecisionTool = {
   id: "prostate-localised",
   cancerId: "prostate",
-  entityIds: ["prostate", "prostate-low-risk", "prostate-intermediate-risk", "prostate-high-risk", "active-surveillance", "psa", "gleason-grade-group", "protect"],
+  entityIds: ["prostate", "prostate-low-risk", "prostate-intermediate-risk", "prostate-high-risk", "active-surveillance", "psa", "gleason-grade-group", "cambridge-prognostic-group", "percentage-gleason-pattern-4", "intraductal-carcinoma-prostate", "protect"],
   title: "Prostate cancer that has not spread: monitoring, surgery or radiotherapy",
   short: "Localised prostate cancer",
   lede: "An educational aid, not advice for your case. Enter your Cambridge Prognostic Group and it shows what NICE NG131 offers at that group, word for word, together with NICE's own numbers for what each option did to survival, progression, continence, erections and bowels in a UK randomised trial.",

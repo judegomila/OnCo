@@ -1,0 +1,35 @@
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_cb75916750a691 71
+  s_0beac9cb5d78fd::t_12ec9dd8cc56ec 86
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_65bdf33e489882 45-47
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_cbc10f39ea658c 65-76,224-246
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_12ec9dd8cc56ec 99
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_cb75916750a691 14,24
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_6c62cffc928551 92-95,703-752
+src/lib/decision-tools.ts
+  s_0beac9cb5d78fd::t_dc8a29c18b1e22 8,81
+src/data/decision-tools/breast-surgery-choice.ts
+  s_0beac9cb5d78fd::t_e231327828f2dd 194
+  s_0beac9cb5d78fd::t_c597b69f2ad4db 1-193,195-369
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e62b428e0e9aa6a1d42779ae7fbcfee90ddbf293",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -201,3 +201,31 @@ Honourable mentions: Purple Book (S) for a biosimilar layer; Human Protein Atlas
 ## Sources we should not ingest
 
 Recorded so the decision is visible: **COSMIC**, **OncoKB**, **DrugBank** (main dataset), **KEGG**, **Semantic Scholar API**, **SMC text**, **NCCN text**, **jRCT**, **PMDA** (automated), **NMPA/CDE**, **ChiCTR**, **NCDB**, **COSD**, **NATCAN** (without permission), **IARC data beyond cited estimates for commercial reuse**, and all **patient forums and social media**. Each is linked where useful; none is copied.
+
+## Reading UK public bodies that answer a script with a wall
+
+Three UK sources that matter for every NHS pathway page refuse an ordinary fetch. Each has a way through that is
+still the body's own published material, found while building the lung layer on 25 September 2026.
+
+- **www.england.nhs.uk answers HTTP 202 with a 1,999-byte AWS WAF challenge**, so the HTML is unreadable and a link
+  checker records the page as alive but empty. Its WordPress REST API is not behind the wall and returns 200 JSON:
+  `…/wp-json/wp/v2/search?search=<terms>&per_page=20` to find an item, then `…/wp-json/wp/v2/documents/<id>`, whose
+  `custom_fields` gives every attached file's exact `wp-content/uploads` URL, filename, version text and page count,
+  or `…/wp-json/wp/v2/long-read/<id>` and `…/pages/<id>` for the full `content.rendered` of a blocked page. The
+  statistics sub-site answers at `…/statistics/wp-json/wp/v2/…`. The same works on gettingitrightfirsttime.co.uk and
+  norththamesgenomics.nhs.uk. It does not work on genomicseducation.hee.nhs.uk, which answers 401
+  `rest_cannot_access`. Files under `wp-content/uploads` are served normally once you know the URL.
+- **Some trust sites block browser-like headers, not scripts.** guysandstthomas.nhs.uk and gstt.nhs.uk answer a
+  Chrome user agent with a 403 and a 783 KB "Access forbidden" page on every path including the root, while a plain
+  `curl -sS -L` with no extra headers returns 200 and the real page. If a fetch helper adds a user agent by default,
+  keep a second helper that does not.
+- **Scotland publishes activity, not directories.** nhsinform.scot's hospital directory and Public Health Scotland's
+  site search both return nothing useful for a specialty. The route that works is the open data CKAN API at
+  opendata.nhs.scot: `…/api/3/action/package_show?id=annual-inpatient-and-daycase-activity` for the metadata, then
+  `…/api/3/action/datastore_search_sql?sql=…` for episodes by location and specialty, resolved against the hospital
+  locations lookup. This is how the lung layer established which hospitals operate: cardiothoracic surgery is
+  specialty C4, and a centre with zero C4 episodes in the latest year is not a surgical centre whatever a secondary
+  source says. It corrected one listing that way.
+
+The general point: a 403 or a 202 is a statement about the request, not about the source. Before recording a fact as
+unsourceable, try the body's API, its file store, and a request with fewer headers rather than more.

@@ -65,6 +65,7 @@ import type { Drug, Paper } from "@/lib/schema";
 import { LayerAware } from "./LayerAware";
 import { TargetSpecificityPills } from "./TargetSpecificityPills";
 import { SupportiveMark, SupportivePill } from "./SupportivePill";
+import { CompanyTypePill } from "./CompanyTypePill";
 import { splitSupportive } from "@/lib/supportive-care";
 import { TargetWhereFound, hpaFor } from "./TargetWhereFound";
 import { KindName, TL } from "./T";
@@ -419,7 +420,7 @@ function kindTabs(e: Entity): Tab[] {
         overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
           <Field label="Headquarters">{e.hq}, {e.country}</Field>
           <div className="sm:col-span-2 space-y-4"><CompanyScorePanel id={e.id} /><FundingPanel id={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /><ManufacturingPanel companyId={e.id} /></div>
-          <Field label="Type"><span className="capitalize">{e.companyType.replace("-", " ")}</span>{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
+          <Field label="Type"><CompanyTypePill type={e.companyType} />{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
           <Field label="Stage">{stage && <span className="inline-flex items-center gap-1.5"><StageIcon stage={stage} className="h-4 w-4 text-accent" />{STAGE_LABEL[stage]}{e.ycBatch && <span className="text-muted"> · Y Combinator {ycBatchLabel(e.ycBatch)}</span>}</span>}</Field>
           {e.website && <Field label={websiteView(e.website).label}><a className="underline break-all" href={e.website} rel="noopener">{websiteView(e.website).text}</a></Field>}
           <Field label="Founded">{e.founded}</Field>

@@ -22,7 +22,10 @@
  * corpus already holds (same NCT id, anywhere) is linked through entityTrialLinksWave5, not rewritten. New records go to
  * src/data/trials-entities-wave5.ts with drugs, technologies, cancers and companies set to the corpus records the registry
  * fields matched; the lead sponsor becomes a company link only on an exact company name or alias (companyKeys), never by
- * pattern. The entity's own `trials` array gains the same ids through entityTrialsWave5 (merged by src/data/index.ts), so
+ * pattern. Cooperative groups and public trial sponsors are company records with companyType "cooperative-group"
+ * (src/data/companies-cooperative-groups.ts; the registry spellings "AIO-Studien-gGmbH", "German CLL Study Group",
+ * "Groupe Oncologie Radiotherapie Tete et Cou" are their aliases), so an academic lead sponsor links exactly as an
+ * industry one does; src/data/sponsor-aliases.ts carries the same ids for the /sponsors/ leaderboard. The entity's own `trials` array gains the same ids through entityTrialsWave5 (merged by src/data/index.ts), so
  * the new record has an inbound link and the orphan ratchet (src/data/orphans.test.ts) holds. Entities with no kept study
  * are written to ENTITY_TRIAL_SKIP with the reason so the next run does not ask again.
  *

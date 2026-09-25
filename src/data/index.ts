@@ -99,6 +99,7 @@ import { targetSpecificity } from "./target-specificity";
 import { targetsReaderEdits } from "./targets-reader-edits";
 import { drugsEmaWave } from "./drugs-ema-wave";
 import { companiesSponsorsWave } from "./companies-sponsors-wave";
+import { companiesCooperativeGroups, cooperativeGroupTrialCompanies } from "./companies-cooperative-groups";
 import { drugsPipelineWave1 } from "./drugs-pipeline-wave1";
 import { pipelineTrialsWave2 } from "./pipeline-trials-wave2";
 import { drugsPipelineWave2 } from "./drugs-pipeline-wave2";
@@ -239,7 +240,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...pathwaysKegg,
   ...journalsWave2,
   ...companiesSponsors,
-  ...companiesSponsorsWave3,
+  ...companiesSponsorsWave3, ...companiesCooperativeGroups,
   ...companiesMakersWave4,
   ...targetsWaveSoc, ...targetsReaderEdits, ...targetsGenesWave, ...drugsEmaWave, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
@@ -323,6 +324,8 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
     if (trialKeyPapersWave1[t.id]) t = { ...t, keyPapers: [...(t.keyPapers ?? []), ...trialKeyPapersWave1[t.id].filter((id) => !(t.keyPapers ?? []).includes(id))] };
     // Sponsors verified through the ClinicalTrials.gov lead-sponsor field by scripts/fetch-company-drugs.ts (wave 6).
     if (trialCompaniesWave6[t.id]) t = { ...t, companies: [...(t.companies ?? []), ...trialCompaniesWave6[t.id].filter((id) => !(t.companies ?? []).includes(id))] };
+    // Cooperative groups and public trial sponsors (src/data/companies-cooperative-groups.ts): the group record that lists the trial.
+    if (cooperativeGroupTrialCompanies[t.id]) t = { ...t, companies: [...(t.companies ?? []), ...cooperativeGroupTrialCompanies[t.id].filter((id) => !(t.companies ?? []).includes(id))] };
     // Drugs and technologies the registry's intervention list names, found by scripts/fetch-entity-trials.ts (wave 5) for
     // records that had no trial; the trial record itself stays as written.
     const ent = entityTrialLinksWave5[t.id];

@@ -36,7 +36,7 @@ export function organMesh(o: OrganSchematic): Mesh {
 }
 
 export const ORGAN_SCHEMATICS: OrganSchematic[] = [
-  { id: "breast", name: "Breast", cancers: ["tnbc", "breast-cancer", "breast-hr-positive", "breast-her2-positive", "male-breast-cancer", "ductal-carcinoma-in-situ", "hr-positive-early-high-risk", "hr-positive-metastatic-post-cdk46", "her2-low-metastatic-breast-cancer", "her2-positive-early-breast-cancer", "her2-positive-breast-brain-metastases", "tnbc-early", "tnbc-metastatic", "inflammatory-breast-cancer", "paget-disease-of-the-nipple", "phyllodes-tumour"],
+  { id: "breast", name: "Breast", cancers: ["tnbc", "breast-cancer", "breast-hr-positive", "breast-her2-positive", "male-breast-cancer", "ductal-carcinoma-in-situ", "hr-positive-early-high-risk", "hr-positive-metastatic-post-cdk46", "her2-low-metastatic-breast-cancer", "her2-positive-early-breast-cancer", "her2-positive-breast-brain-metastases", "tnbc-early", "tnbc-metastatic", "tnbc-basal-like-1", "tnbc-basal-like-2", "tnbc-mesenchymal", "tnbc-mesenchymal-stem-like", "tnbc-luminal-androgen-receptor", "tnbc-immunomodulatory", "metaplastic-breast-carcinoma", "medullary-pattern-breast-carcinoma", "adenoid-cystic-carcinoma-breast", "apocrine-carcinoma-breast", "secretory-carcinoma-breast", "brca-associated-tnbc", "inflammatory-breast-cancer", "paget-disease-of-the-nipple", "phyllodes-tumour"],
     caption: "Most cancers start in the ducts and drain first to the axillary nodes, which is why the armpit is checked and a sentinel node is sampled.",
     subsites: [
       { id: "ducts", label: "Ducts (most cancers start here)", at: [0.35, 0.15, 0.85], match: ["ductal", "dcis", "no special type", "nst", "luminal", "basal", "her2", "claudin"] },

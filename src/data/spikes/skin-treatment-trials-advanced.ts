@@ -11,7 +11,7 @@ import { ADV_CSCC, BCC, CSCC, LA_BCC, MCC, SKIN, SRC, ct, doi, pubmed, t } from 
  * (pembrolizumab), JAVELIN Merkel 200 (avelumab) and KEYNOTE-017 (pembrolizumab in Merkel cell carcinoma). The
  * cosibelimab pivotal study is in src/data/issues-2026-09-wave-a.ts as ck-301-101 and the adjuvant pembrolizumab
  * trial STAMP is in src/data/trials-subtypes-wave.ts. Searching by registry number and then by acronym before
- * writing is what kept this file to nine records rather than seventeen.
+ * writing is what kept this file to ten records rather than seventeen.
  *
  * Every figure is from the primary publication named on the record, read through Europe PMC on
  * 25 September 2026, with its digital object identifier and PubMed id.
@@ -32,7 +32,7 @@ export const skinTrialsAdvanced: TrialInput[] = [
       { endpoint: "Objective response rate, metastatic basal cell carcinoma (investigator assessed)", unit: "%", arms: [{ name: "Vismodegib 150 mg daily", n: 96, value: 36.9, note: "95 per cent confidence interval 26.6 to 48.1" }], source: SRC.stevie },
       { endpoint: "Serious treatment-emergent adverse events", primary: true, unit: "%", arms: [{ name: "Vismodegib 150 mg daily", n: 1215, value: 23.8, note: "289 of 1,215 patients; any treatment-emergent adverse event in 98 per cent" }], source: SRC.stevie },
       { endpoint: "Median duration of treatment", unit: "months", arms: [{ name: "Vismodegib 150 mg daily", n: 1215, value: 8.6, note: "range 0 to 44; 147 patients (12 per cent) still on study at the analysis" }], source: SRC.stevie }],
-    replication: "The Italian cohort of 182 patients reported the same pattern separately, with an overall response rate of 67.1 per cent in locally advanced disease and adverse events at the same incidence as the whole population.",
+    replication: "The Italian cohort of 182 patients within STEVIE reported the same pattern separately, with an overall response rate of 67.1 per cent in locally advanced disease and adverse events at the same incidence as the whole population (Future Oncology 2020, PubMed 32374193).",
     cancers: [BCC, LA_BCC, SKIN], drugs: ["vismodegib"], targets: ["smoothened"], pathways: ["hedgehog"], technologies: ["hedgehog-inhibitors"],
     terms: ["hedgehog-inhibitor-tolerability"], trials: ["erivance", "bolt", "vismoneo", "cemiplimab-advanced-bcc"],
     links: [ct("NCT01367665"), doi("Primary analysis (European Journal of Cancer 2017)", "10.1016/j.ejca.2017.08.022"), pubmed("Primary analysis on PubMed", "29073584")] }),
@@ -48,7 +48,7 @@ export const skinTrialsAdvanced: TrialInput[] = [
       { endpoint: "Surgical downstaging after neoadjuvant vismodegib", primary: true, unit: "%", arms: [{ name: "Vismodegib 150 mg daily before surgery", n: 55, value: 80, note: "44 of 55 patients; 95 per cent confidence interval 67 to 90" }], source: SRC.vismoneo },
       { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Vismodegib 150 mg daily before surgery", n: 55, value: 71, note: "95 per cent confidence interval 59 to 88" }], source: SRC.vismoneo },
       { endpoint: "Recurrence at 3 years among downstaged patients", unit: "%", arms: [{ name: "Vismodegib 150 mg daily before surgery", n: 44, value: 36, note: "16 of 44 patients; 95 per cent confidence interval 22 to 51" }], source: SRC.vismoneo }],
-    replication: "Small periocular series have reported the same direction with mixed histological response: in one series of eight patients only two had complete histological regression, and two showed squamous differentiation after treatment.",
+    replication: "No second randomised trial of neoadjuvant vismodegib exists. The published periocular and facial experience is a set of small single-arm series, and no source could be found for a figure on how often the histological response matches the clinical one, which is the question the trial leaves open.",
     cancers: [BCC, LA_BCC, SKIN], drugs: ["vismodegib"], targets: ["smoothened"], pathways: ["hedgehog"], technologies: ["hedgehog-inhibitors"],
     terms: ["hedgehog-inhibitor-tolerability", "mohs-surgery"], trials: ["erivance", "stevie", "cemiplimab-advanced-bcc"],
     links: [ct("NCT02667574"), doi("First results (EClinicalMedicine 2021)", "10.1016/j.eclinm.2021.100844"), pubmed("First results on PubMed", "33997740")] }),
@@ -159,7 +159,7 @@ export const skinTrialsAdvanced: TrialInput[] = [
       { endpoint: "New cutaneous squamous cell carcinoma", primary: true, unit: "%", arms: [{ name: "Switch to sirolimus", n: 64, value: 22, note: "14 of 64 patients, 6 of them after sirolimus was withdrawn; median time to onset 15 months" }, { name: "Continue calcineurin inhibitor", n: 56, value: 39, note: "22 of 56 patients; median time to onset 7 months" }], p: "0.02", source: SRC.tumorapa },
       { endpoint: "Serious adverse events per patient", unit: "events per patient", arms: [{ name: "Switch to sirolimus", n: 64, value: 0.938, note: "60 serious adverse events; 23 per cent discontinued sirolimus" }, { name: "Continue calcineurin inhibitor", n: 56, value: 0.250, note: "14 serious adverse events" }], source: SRC.tumorapa }],
     replication: "Retrospective and registry work has pointed the same way, and mammalian target of rapamycin inhibitor conversion is in transplant dermatology guidance, but no second randomised trial of the size of TUMORAPA has been run.",
-    cancers: [CSCC, SKIN], technologies: ["chemoprevention"],
+    cancers: [CSCC, SKIN], drugs: ["sirolimus"], targets: ["mtor"], technologies: ["chemoprevention"],
     terms: ["skin-cancer-after-organ-transplant", "field-cancerisation"], trials: ["cemiplimab-kidney-transplant-cscc"],
     links: [ct("NCT00133887"), doi("Primary report (New England Journal of Medicine 2012)", "10.1056/NEJMoa1204166"), pubmed("Primary report on PubMed", "22830463")] }),
 
@@ -175,7 +175,7 @@ export const skinTrialsAdvanced: TrialInput[] = [
       { endpoint: "Kidney rejection or graft loss", primary: true, unit: "events", arms: [{ name: "Cemiplimab with mammalian target of rapamycin inhibitor and pulsed prednisone", n: 12, value: 0 }], source: SRC.cemiplimabKtr },
       { endpoint: "Objective response", unit: "%", arms: [{ name: "Cemiplimab with mammalian target of rapamycin inhibitor and pulsed prednisone", n: 11, value: 46, note: "5 of 11 evaluable patients; 90 per cent confidence interval 22 to 73; 2 responses beyond a year" }], source: SRC.cemiplimabKtr },
       { endpoint: "Treatment-related grade 3 or higher adverse events", unit: "%", arms: [{ name: "Cemiplimab with mammalian target of rapamycin inhibitor and pulsed prednisone", n: 12, value: 42, note: "5 of 12 patients; one death from angioedema and anaphylaxis attributed to the cross-taper" }], source: SRC.cemiplimabKtr }],
-    replication: "Case series support it without settling it: a Belgian cohort of seven kidney transplant recipients given cemiplimab reported an overall response rate of 42.8 per cent with biopsy-proven acute rejection in one patient, who lost graft function but had a complete tumour response.",
+    replication: "Case series support it without settling it: a Belgian cohort of seven kidney transplant recipients given cemiplimab reported an overall response rate of 42.8 per cent with biopsy-proven acute rejection in one patient, who lost graft function but had a complete tumour response (Frontiers in Nephrology 2022, PubMed 37675002).",
     cancers: [CSCC, ADV_CSCC, SKIN], drugs: ["cemiplimab"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"],
     terms: ["skin-cancer-after-organ-transplant", "irae"], trials: ["tumorapa", "empower-cscc-1"],
     links: [ct("NCT04339062"), doi("Primary report (Journal of Clinical Oncology 2024)", "10.1200/JCO.23.01498"), pubmed("Primary report on PubMed", "38252908")] }),
@@ -192,6 +192,6 @@ export const skinTrialsAdvanced: TrialInput[] = [
       { endpoint: "New surgically eligible basal cell carcinomas over 6 months", primary: true, unit: "post hoc analysis", arms: [{ name: "Patidegib topical gel 2 or 4 per cent", n: 17, note: "reduced against vehicle on post hoc analysis, with reduced hedgehog signalling and minimal adverse effects; the trial was not powered for a pre-specified endpoint" }], source: SRC.patidegibGel }],
     replication: "The phase 3 programme in Gorlin syndrome that followed is recorded on the basal cell carcinoma page as NCT06050122; no peer-reviewed phase 3 report of topical patidegib had been published when this record was written.",
     cancers: [BCC, SKIN], drugs: ["patidegib"], targets: ["smoothened"], pathways: ["hedgehog"], technologies: ["hedgehog-inhibitors"],
-    terms: ["hedgehog-inhibitor-tolerability"], trials: ["erivance", "stevie"],
+    terms: ["hedgehog-inhibitor-tolerability", "inherited-skin-cancer-syndromes"], trials: ["erivance", "stevie"],
     links: [ct("NCT02762084"), doi("Phase 2A report (British Journal of Dermatology 2025)", "10.1093/bjd/ljae444"), pubmed("Phase 2A report on PubMed", "39545486")] }),
 ];

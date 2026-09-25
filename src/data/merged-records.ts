@@ -156,6 +156,7 @@ export const MERGED_RECORDS: readonly MergedRecord[] = [
   { retired: "nct04576156", survivor: "impactmf", kind: "trial", merged: "2026-09-25", reason: "The same study: registry id NCT04576156. nct04576156 is the ClinicalTrials.gov ingest (tagged ctgov-ingest); impactmf is the curated record, and the lung review of 25 September 2026 recorded the pair rather than merging it." },
   { retired: "androgen-deprivation-therapy", survivor: "adt", kind: "term", merged: "2026-09-25", reason: "The same glossary term under two ids, found by the survey's name pass: both records are called \"Androgen deprivation therapy (ADT)\". adt (src/data/terms-jargon.ts) is the fuller record and carries 39 backlinks against 3; the prostate deep dive's draft is retired into it and its aliases move across, so the same words still link, to one page instead of two." },
   { retired: "sins", survivor: "sins-trial", kind: "trial", merged: "2026-09-25", reason: "Both layers of the skin round wrote the SINS trial under ISRCTN48755084; the treatment layer's record carries the five-year figures and the non-inferiority reading" },
+  { retired: "skin-cancer-in-transplant-recipients", survivor: "skin-cancer-after-organ-transplant", kind: "term", merged: "2026-09-25", reason: "Two layers of the skin round wrote one glossary term under two ids and the same name, Skin cancer after an organ transplant; the treatment layer's record carries the evidence base and the backlinks, and the living layer's patient-facing reading is now a supplement on it" },
 ];
 
 /* merge:supplements */

@@ -30,7 +30,7 @@ const hub = (id: string) => EntityPage({ params: Promise.resolve({ kind: "cancer
 const page = (id: string, section: string) => SectionPage({ params: Promise.resolve({ id, section }) });
 const cancer = (id: string) => { const c = graph().must(id); if (c.kind !== "cancer") throw new Error(id); return c; };
 
-const HEAVY = ["gallbladder", "tnbc", "nsclc", "pancreatic", "colorectal", "lung-cancer", "prostate", "breast-cancer", "breast-hr-positive", "breast-her2-positive"];
+const HEAVY = ["gallbladder", "tnbc", "nsclc", "pancreatic", "colorectal", "lung-cancer", "prostate", "breast-cancer", "breast-hr-positive", "breast-her2-positive", "skin-cancer", "basal-cell-carcinoma", "cutaneous-scc"];
 /** A rare cancer with little behind it: everything but the record-list sections should stay on the hub. */
 const SMALL = "gallbladder-papillary-carcinoma";
 /** The sections that are pages for every cancer (`alwaysPage` in the registry), in story order. */

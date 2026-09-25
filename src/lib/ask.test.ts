@@ -434,6 +434,14 @@ describe("Ask OnCo end to end", () => {
     // lines removed were the short unsourced ones competing with the long sourced ones for the same question. The
     // floor rises with it, to the measurement minus 0.005 (below).
     { date: "2026-09-25", recall: 0.4326, note: "breast family review: duplicated base lines folded into the receptor spikes; extractive rubric 0.6900" },
+    // 25 Sept 2026, skin round review (docs/SKIN-QA.md): the base record for skin-cancer gave up three
+    // standard-of-care one-liners, seven subtype strings, two melanoma biomarker lines and the registry-counting
+    // open problem that skin-core.ts writes in full; six duplicate link URLs came off three records; and one
+    // glossary term that existed twice under two ids was merged. Recall rose again, for the same reason as the
+    // breast round: each removed line was a second, weaker index entry competing with the long sourced one. The
+    // rubric fell slightly and is well above its floor. Neither floor is moved: the measurement is 0.0071 above
+    // the recall floor, inside the 0.0101 the ratchet allows.
+    { date: "2026-09-25", recall: 0.4346, note: "skin round review: base one-liners folded into the skin spikes, six duplicate link URLs removed, one duplicate glossary term merged; extractive rubric 0.6875" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

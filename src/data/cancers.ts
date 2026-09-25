@@ -684,20 +684,24 @@ export const cancers: CancerInput[] = [
     burden: "The commonest cancer worldwide: about 1.2 million non-melanoma skin cancers and 325,000 melanomas recorded in 2020 (GLOBOCAN), with non-melanoma cases badly under-counted because many registries do not record them.",
     tldr: "Skin cancer covers the very common and rarely dangerous basal cell and squamous cell carcinomas, the less common but more serious melanoma, and rarer tumours such as Merkel cell carcinoma and Kaposi sarcoma. Almost all of it is caused by ultraviolet light and most of it is found and cured by simple surgery.",
     summary: "Skin cancers share a cause, ultraviolet light, and a first line of defence, sun protection and early recognition of a changing spot, but they differ sharply in behaviour. Basal cell carcinoma almost never spreads and is cured by excision, Mohs surgery, topical treatment or radiotherapy. Cutaneous squamous cell carcinoma usually behaves the same way but can spread in immunosuppressed people or when neglected, where PD-1 blockade now works well. Melanoma accounts for most skin cancer deaths; caught early it is cured by excision, and at advanced stages checkpoint immunotherapy and BRAF and MEK inhibitors have transformed survival. Merkel cell carcinoma, Kaposi sarcoma and cutaneous lymphomas are rarer and have their own pages. This page is the entry point for readers who have been told only 'skin cancer'.",
-    subtypes: ["Basal cell carcinoma", "Cutaneous squamous cell carcinoma", "Melanoma (including uveal and mucosal melanoma)", "Merkel cell carcinoma", "Kaposi sarcoma", "Cutaneous T-cell lymphoma", "Actinic keratosis (precancer)"],
-    biomarkers: ["Dermoscopy and biopsy for diagnosis", "Breslow thickness, ulceration and sentinel node status in melanoma", "BRAF V600 mutation in melanoma", "PD-L1 and tumour mutational burden as imperfect immunotherapy markers", "Merkel cell polyomavirus status"],
-    standardOfCare: [
-      { setting: "Basal cell and squamous cell carcinoma", approach: "Surgical excision or Mohs surgery; topical or photodynamic therapy for superficial lesions; radiotherapy when surgery is unsuitable; hedgehog inhibitors for advanced basal cell carcinoma and cemiplimab or pembrolizumab for advanced squamous cell carcinoma. See the subtype pages.", refs: ["cemiplimab", "vismodegib"] },
-      { setting: "Melanoma", approach: "Excision with margins by thickness, sentinel node biopsy, adjuvant PD-1 blockade or BRAF/MEK inhibitors for high-risk disease, and checkpoint immunotherapy or targeted therapy for advanced disease. See the melanoma page.", refs: ["pembrolizumab", "nivolumab", "dabrafenib"] },
-      { setting: "Prevention", approach: "Sun protection, avoiding sunbeds and treating actinic keratoses; regular skin checks for people at high risk, with dermoscopy and AI tools improving lesion triage.", refs: ["dermoscopy-ai"] },
-    ],
+    // Subtypes are written in full by src/data/spikes/skin-core.ts, which says which of them is a page and which is
+    // a glossary term; the seven one-line strings that used to sit here said the same things again and contradicted
+    // it on actinic keratosis. Two melanoma biomarker lines went the same way: skin-core.ts states them once and
+    // routes to the melanoma pages.
+    biomarkers: ["Dermoscopy and biopsy for diagnosis", "PD-L1 and tumour mutational burden as imperfect immunotherapy markers", "Merkel cell polyomavirus status"],
+    // The three one-line settings that used to sit here are written in full, with their trials and their figures, by
+    // src/data/spikes/skin-treatment.ts (surgery, the margin, Mohs, curettage, radiotherapy and how melanoma differs),
+    // src/data/spikes/skin-living.ts (the same decisions for a patient) and src/data/spikes/skin-uk.ts (prevention).
+    standardOfCare: [],
     history: [
       { year: 2011, title: "Ipilimumab and vemurafenib approved for advanced melanoma", note: "The first checkpoint inhibitor and the first BRAF inhibitor, the two routes that transformed melanoma.", refs: ["ipilimumab", "vemurafenib"] },
       { year: 2012, title: "Vismodegib approved for advanced basal cell carcinoma", note: "First hedgehog pathway inhibitor.", refs: ["vismodegib"] },
       { year: 2014, title: "PD-1 blockade approved in melanoma", note: "Pembrolizumab and nivolumab approved for advanced melanoma, later moving to adjuvant and neoadjuvant use.", refs: ["pembrolizumab", "nivolumab"] },
     ],
     pipeline: ["fianlimab","lifileucel"],
-    openProblems: ["Non-melanoma skin cancer is missing from most cancer registries, so its true burden is unknown.", "Melanoma incidence continues to rise in fair-skinned populations."],
+    // The registry-counting problem is written in full by src/data/spikes/skin-core.ts, with the rule, the two
+    // methods and what each of them found.
+    openProblems: ["Melanoma incidence continues to rise in fair-skinned populations."],
     related: ["melanoma", "basal-cell-carcinoma", "cutaneous-scc", "merkel-cell-carcinoma", "kaposi-sarcoma", "uveal-melanoma"],
     targets: ["braf", "mek", "pd1"], technologies: ["checkpoint-inhibitor", "dermoscopy-ai"], drugs: ["pembrolizumab", "nivolumab", "cemiplimab", "dabrafenib", "vismodegib"],
     links: [{ label: "NCI: Skin cancer", url: "https://www.cancer.gov/types/skin" }, { label: "GLOBOCAN 2020 (Sung 2021)", url: "https://doi.org/10.3322/caac.21660" }],

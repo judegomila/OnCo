@@ -148,6 +148,7 @@ export const navEs: NavDict = {
   "https://github.com/judegomila/OnCo": ["GitHub", "Código y datos. Propón cambios mediante los formularios de incidencias."],
   "/coverage/rankings/": ["Ranking de coberturas", "Aseguradoras y tipos de plan de EE. UU. ordenados por una métrica publicada a la vez, la cobertura del NHS frente al seguro privado en el Reino Unido, y cómo pagan los fármacos contra el cáncer nueve países."],
   "/costs/": ["Reducir el coste de la atención oncológica", "Cada factor de coste junto a lo que se está haciendo y las ideas que podrían hacer más: biosimilares, negociación, optimización de dosis, tratamientos más cortos, paridad, autorización previa."],
+  "/countries/us/": ["Estados Unidos en profundidad", "Qué hace Estados Unidos: quién paga y cuánto le cuesta a una persona, la FDA, por qué la cobertura no es la aprobación, la red de ensayos del NCI y las desigualdades."],
   "/countries/in/": ["India en profundidad", "Qué hace India: perfil del cáncer, cómo se paga la atención, la CDSCO, instituciones, empresas, ensayos y personas."],
   "/countries/cn/": ["China en profundidad", "Qué hace China: perfil del cáncer, la NMPA, listado en el seguro nacional, instituciones, empresas, ensayos y personas."],
   "/countries/de/": ["Alemania en profundidad", "Lo que Alemania hace de otro modo: reembolso desde el primer día y la evaluación del beneficio añadido después, centros oncológicos certificados, registro clínico obligatorio del cáncer, instituciones, empresas, ensayos y personas."],

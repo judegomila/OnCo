@@ -43,6 +43,7 @@ import { regimensFor } from "@/lib/regimens";
 import { guidelineCancerIds } from "@/lib/guidelines";
 import { modelsFor } from "@/data/preclinical-models";
 import { CancerPipeline } from "./CancerPipeline";
+import { FamilyRollup } from "./FamilyRollup";
 import { Bullets } from "./ui";
 import { machineRoutes } from "@/lib/seo";
 
@@ -249,6 +250,7 @@ export function CancerSection({ c, id, plan }: { c: Cancer; id: SectionId; plan?
     case "evidence": { const trials = forMe.get("trial") ?? []; const papers = keyPapersFor(c); return (<>
       <Block id="trials" title="Trials recruiting now"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>
       {trials.length > 0 && <Block id="landmark-trials" title="Landmark trials" aside={<span className="text-sm text-muted tabular-nums">{trials.length}</span>}><ChipList items={trials} max={NEIGHBOUR_CAP} moreHref={cancerTableHref("trial", c.name)} /></Block>}
+      <FamilyRollup c={c} kind="trial" id="subtype-trials" />
       {papers.length > 0 && <Block id="key-papers" title="Key papers" aside={<span className="text-sm text-muted tabular-nums">{papers.length}</span>}><KeyPapers e={c} all={papers} /></Block>}
       <Block id="papers" title="Latest papers"><LatestLiterature e={c} /></Block>
       {c.history.length > 0 && <Block id="history" title="Milestones" aside={<span className="text-sm text-muted tabular-nums">{c.history.length}</span>}>
@@ -278,6 +280,7 @@ export function CancerSection({ c, id, plan }: { c: Cancer; id: SectionId; plan?
       {geographyFor(c.id) ? <CancerGeographySection c={c} /> : <Block id="geography" title="Cases by country"><CountryCasesMini cancerId={c.id} limit={10} /></Block>}
       <div className="mt-8"><UkPathwayStrip c={c} id="uk" /></div>
       <Block id="centres" title="Expert centres"><ExpertCentres cancerId={c.id} /></Block>
+      <FamilyRollup c={c} kind="institution" id="subtype-centres" />
     </>);
 
     case "living-with-it": return (<>
@@ -297,6 +300,7 @@ export function CancerSection({ c, id, plan }: { c: Cancer; id: SectionId; plan?
     case "coming": { const changes = splitUpcoming(changesForCancer(g, c), new Date().toISOString().slice(0, 10)).past; return (<>
       <PillRow label="More on what is coming" items={[...pages, { href: `/edge/?cancer=${encodeURIComponent(c.id)}`, text: "Edge: the freshest items →", glyph: <ToolGlyph name="trend" className="h-3.5 w-3.5" />, accent: true }, { href: `/roadmap/`, text: "Roadmaps →", glyph: <ToolGlyph name="compass" className="h-3.5 w-3.5" /> }]} />
       <Block id="pipeline" title="In development"><CancerPipeline c={c} /></Block>
+      <FamilyRollup c={c} kind="drug" id="subtype-pipeline" />
       {c.openProblems.length > 0 && <Block id="open-problems" title="Open problems and what is being done"><ul className="space-y-4">{c.openProblems.map((pr, i) => <li key={i}><p className="text-[15px] leading-relaxed">{withTermHovers(pr, { skipId: c.id })}</p><div className="mt-2"><WhatIsBeingDoneFor text={pr} cancerId={c.id} /></div></li>)}</ul></Block>}
       <Block id="changes" title="What changed" aside={<span className="text-sm text-muted tabular-nums">{changes.length}</span>}><ChangesPreview items={changes.slice(0, 6)} total={changes.length} href={`${routeFor(c)}changes/`} cancerId={c.id} /><div className="mt-4"><FollowLine cancer={{ id: c.id, name: c.name, route: routeFor(c), asOf: c.asOf }} /></div></Block>
     </>); }

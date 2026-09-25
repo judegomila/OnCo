@@ -14,6 +14,7 @@ import { journeysForCancer } from "@/data/journeys";
 import { organFor } from "@/data/organ-schematics";
 import { spreadFor } from "@/data/spread";
 import { modelsFor } from "@/data/preclinical-models";
+import { familyRollup, rollupEstimate, type RollupKind } from "./cancer-rollup";
 
 /**
  * The section model of a cancer record (docs/INFORMATION-ARCHITECTURE.md).
@@ -88,6 +89,8 @@ const prevalenceRows = (g: G, c: Cancer) => { let n = 0; for (const t of g.kind(
 const keyPaperCount = (g: G, c: Cancer) => new Set([...(g.incoming(c.id).get("paper") ?? []).map((p) => p.id), ...c.keyPapers]).size;
 const children = (g: G, c: Cancer) => g.kind("cancer").filter((x) => x.parent === c.id).length;
 const pluralise = (n: number, one: string, many = `${one}s`) => (n === 1 ? one : many);
+/** The family roll-up count a section's card shows: what the subtypes hold and this record does not (src/lib/cancer-rollup.ts). */
+const rolled = (g: G, c: Cancer, k: RollupKind, one: string): SectionCount => { const n = familyRollup(c, k, g).total; return { n, label: `${pluralise(n, one)} in the subtypes` }; };
 
 export const SECTIONS: readonly SectionDef[] = [
   {
@@ -132,13 +135,13 @@ export const SECTIONS: readonly SectionDef[] = [
   },
   {
     id: "evidence", title: "Evidence", glyph: "flask",
-    purpose: "Trials recruiting now, the landmark trials, the key papers and what they mean, the latest literature, and the milestones year by year.",
+    purpose: "Trials recruiting now, the landmark trials, the trials held by this cancer's subtypes, the key papers and what they mean, the latest literature, and the milestones year by year.",
     fields: ["history", "keyPapers", "trials"],
-    patches: ["spikes/<cancer>-evidence*.ts", "spikes/<cancer>-registry-trials.ts", "data/key-papers/", "Europe PMC (LatestPapers)"],
-    anchors: ["trials", "landmark-trials", "key-papers", "papers", "history"],
+    patches: ["spikes/<cancer>-evidence*.ts", "spikes/<cancer>-registry-trials.ts", "data/key-papers/", "Europe PMC (LatestPapers)", "lib/cancer-rollup.ts (family roll-up)"],
+    anchors: ["trials", "landmark-trials", "subtype-trials", "key-papers", "papers", "history"],
     pages: [],
-    counts: (c, g) => { const t = forCancerCount(g, c, "trial"); const p = keyPaperCount(g, c); return [{ n: t, label: pluralise(t, "trial") }, { n: p, label: pluralise(p, "key paper") }, { n: c.history.length, label: pluralise(c.history.length, "milestone") }].filter((x) => x.n); },
-    estimate: (c, g) => { const t = forCancerCount(g, c, "trial"); const p = keyPaperCount(g, c); return { rows: t + p + c.history.length, kb: 6 + cap(t) * 0.45 + cap(p) * 1.1 + c.history.length * 0.7 + (paperQuery(c) ? 4 : 0) }; },
+    counts: (c, g) => { const t = forCancerCount(g, c, "trial"); const p = keyPaperCount(g, c); return [{ n: t, label: pluralise(t, "trial") }, rolled(g, c, "trial", "trial"), { n: p, label: pluralise(p, "key paper") }, { n: c.history.length, label: pluralise(c.history.length, "milestone") }].filter((x) => x.n); },
+    estimate: (c, g) => { const t = forCancerCount(g, c, "trial"); const p = keyPaperCount(g, c); const r = rollupEstimate(c, "trial", g); return { rows: t + p + c.history.length + r.rows, kb: 6 + cap(t) * 0.45 + cap(p) * 1.1 + c.history.length * 0.7 + (paperQuery(c) ? 4 : 0) + r.kb }; },
   },
   {
     id: "science", title: "The science", glyph: "dna",
@@ -152,13 +155,13 @@ export const SECTIONS: readonly SectionDef[] = [
   },
   {
     id: "where-you-are", title: "Where you are", glyph: "pin", alwaysPage: true,
-    purpose: "Cases by country, the UK and NHS pathway and other country lenses, and the expert centres with trials on record.",
+    purpose: "Cases by country, the UK and NHS pathway and other country lenses, the expert centres with trials on record, and the centres named on this cancer's subtypes.",
     fields: ["institutions"],
-    patches: ["spikes/<cancer>-geography.ts", "spikes/<cancer>-uk.ts", "lib/centre-table.ts", "GLOBOCAN (data/globocan-map.ts)"],
-    anchors: ["geography", "uk", "centres"],
+    patches: ["spikes/<cancer>-geography.ts", "spikes/<cancer>-uk.ts", "lib/centre-table.ts", "lib/cancer-rollup.ts (family roll-up)", "GLOBOCAN (data/globocan-map.ts)"],
+    anchors: ["geography", "uk", "centres", "subtype-centres"],
     pages: [{ slug: "uk", title: "UK and NHS", when: (c) => !!ukPathwayFor(c.id) }],
-    counts: (c, g) => { const i = forCancerCount(g, c, "institution"); const uk = ukPathwayFor(c.id); const geo = geographyFor(c.id); return [{ n: i, label: pluralise(i, "centre") }, { n: uk?.centres.length ?? 0, label: "UK centres" }, { n: geo?.regions.length ?? 0, label: "high-burden regions" }].filter((x) => x.n); },
-    estimate: (c, g) => ({ rows: forCancerCount(g, c, "institution") + (geographyFor(c.id)?.regions.length ?? 0), kb: (geographyFor(c.id) ? 130 : 12) + 6 + cap(forCancerCount(g, c, "institution")) * 1.6 + (ukPathwayFor(c.id) ? 4 : 0) }),
+    counts: (c, g) => { const i = forCancerCount(g, c, "institution"); const uk = ukPathwayFor(c.id); const geo = geographyFor(c.id); return [{ n: i, label: pluralise(i, "centre") }, rolled(g, c, "institution", "centre"), { n: uk?.centres.length ?? 0, label: "UK centres" }, { n: geo?.regions.length ?? 0, label: "high-burden regions" }].filter((x) => x.n); },
+    estimate: (c, g) => { const r = rollupEstimate(c, "institution", g); return { rows: forCancerCount(g, c, "institution") + (geographyFor(c.id)?.regions.length ?? 0) + r.rows, kb: (geographyFor(c.id) ? 130 : 12) + 6 + cap(forCancerCount(g, c, "institution")) * 1.6 + (ukPathwayFor(c.id) ? 4 : 0) + r.kb }; },
   },
   {
     id: "living-with-it", title: "Living with it", glyph: "heart",
@@ -172,13 +175,13 @@ export const SECTIONS: readonly SectionDef[] = [
   },
   {
     id: "coming", title: "What is coming", glyph: "rocket", alwaysPage: true,
-    purpose: "Everything in development, the open problems and what is being done about them, the roadmaps, and what changed on this record.",
+    purpose: "Everything in development, the medicines held by this cancer's subtypes, the open problems and what is being done about them, the roadmaps, and what changed on this record.",
     fields: ["pipeline", "openProblems", "roadmaps"],
-    patches: ["spikes/<cancer>-evidence-roadmap.ts", "lib/cancer-changes.ts", "data/ideas*.ts", "Edge (lib/edge.ts)"],
-    anchors: ["pipeline", "open-problems", "changes"],
+    patches: ["spikes/<cancer>-evidence-roadmap.ts", "lib/cancer-changes.ts", "data/ideas*.ts", "lib/cancer-rollup.ts (family roll-up)", "Edge (lib/edge.ts)"],
+    anchors: ["pipeline", "subtype-pipeline", "open-problems", "changes"],
     pages: [{ slug: "changes", title: "What changed", when: () => true }],
-    counts: (c, g) => { const d = forCancerCount(g, c, "drug"); const t = g.incoming(c.id).get("trial")?.length ?? 0; const i = forCancerCount(g, c, "idea"); return [{ n: d, label: pluralise(d, "medicine") }, { n: t, label: pluralise(t, "trial") }, { n: i, label: pluralise(i, "idea") }, { n: c.openProblems.length, label: pluralise(c.openProblems.length, "open problem") }].filter((x) => x.n); },
-    estimate: (c, g) => { const d = forCancerCount(g, c, "drug"); const t = g.incoming(c.id).get("trial")?.length ?? 0; const i = forCancerCount(g, c, "idea"); const rows = d + t + i + c.pipeline.length + c.openProblems.length; return { rows, kb: 18 + d * 0.9 + cap(t) * 0.35 + i * 0.4 + c.openProblems.length * 2 }; },
+    counts: (c, g) => { const d = forCancerCount(g, c, "drug"); const t = g.incoming(c.id).get("trial")?.length ?? 0; const i = forCancerCount(g, c, "idea"); return [{ n: d, label: pluralise(d, "medicine") }, rolled(g, c, "drug", "medicine"), { n: t, label: pluralise(t, "trial") }, { n: i, label: pluralise(i, "idea") }, { n: c.openProblems.length, label: pluralise(c.openProblems.length, "open problem") }].filter((x) => x.n); },
+    estimate: (c, g) => { const d = forCancerCount(g, c, "drug"); const t = g.incoming(c.id).get("trial")?.length ?? 0; const i = forCancerCount(g, c, "idea"); const r = rollupEstimate(c, "drug", g); const rows = d + t + i + c.pipeline.length + c.openProblems.length + r.rows; return { rows, kb: 18 + d * 0.9 + cap(t) * 0.35 + i * 0.4 + c.openProblems.length * 2 + r.kb }; },
   },
   {
     id: "data", title: "Data", glyph: "braces", alwaysPage: true,

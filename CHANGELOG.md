@@ -6,7 +6,13 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 25 September 2026
+- Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+
 ### 24 September 2026
+- Home page: the counts grid becomes a living graph of the kinds, with the body map as the entry point on phones
+- LAUNCH: the ship chain no longer builds locally; Vercel builds and the chain verifies the alias
+- LAUNCH: issue and PR sweep of 24 Sept, checkpoints, target statuses, ivermectin
 - Ivermectin: the trial evidence so far, with the label toxicity table and the papers under expressions of concern stated
 - Ivermectin evidence page: drug record with label toxicity table, four registry trials, 22 papers with expressions of concern and retraction stated, compact fenbendazole and mebendazole records, per-file citation test
 - Checkpoint families mapped with immune and cell-cycle hubs, 26 new targets; 31 reader proposals applied as 23 trial records and 27 papers; Cancersim terms gap filed

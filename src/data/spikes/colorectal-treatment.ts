@@ -5,6 +5,7 @@ import { colorectalTrialsEarly, colorectalTrialsRectal } from "./colorectal-trea
 import { colorectalTrialsBiomarker, colorectalTrialsCtdna, colorectalTrialsLocal, colorectalTrialsMetastatic } from "./colorectal-treatment-trials-advanced";
 import { colorectalTrialsRechallenge } from "./colorectal-treatment-trials-rechallenge";
 import { colorectalRegistryTrials, colorectalRegistryTrialIds } from "./colorectal-registry-trials";
+import { trialSponsorCompanies } from "./trial-sponsor-companies";
 
 /**
  * COLORECTAL CANCER: TREATMENTS, TRIALS, APPROVALS AND PALLIATION. Facts checked 2026-09-24 against the primary papers
@@ -55,7 +56,7 @@ const terms: TermInput[] = [
 
 // ======================= DRUGS AND REGIMENS =======================
 const drugs: DrugInput[] = [
-  d({ id: "folfoxiri", name: "FOLFOXIRI (5-FU, leucovorin, oxaliplatin, irinotecan)", code: "mFOLFOXIRI", modality: "Cytotoxic regimen", status: "standard-of-care",
+  d({ id: "folfoxiri", name: "FOLFOXIRI (5-FU, leucovorin, oxaliplatin, irinotecan)", code: "mFOLFOXIRI", modality: "Cytotoxic regimen", status: "established",
     tldr: "All three of the active bowel cancer chemotherapy drugs given together instead of two. It shrinks more tumours than a doublet and is chosen when shrinking the tumour is what matters, usually with bevacizumab.",
     summary: "FOLFOXIRI combines infusional fluorouracil and leucovorin with both oxaliplatin and irinotecan every fourteen days, most often with bevacizumab. TRIBE showed that FOLFOXIRI plus bevacizumab gives a longer progression-free survival (12.1 against 9.7 months) and a higher response rate (65 against 53 percent) than FOLFIRI plus bevacizumab in untreated metastatic disease, and TRIBE2 showed the advantage survives as a strategy, with progression-free survival 2 of 19.2 against 16.4 months against a planned sequence of doublets. CAIRO5 found it the best induction for right-sided or RAS/BRAF-mutant liver-limited disease. The price is toxicity: grade 3 or 4 neutropenia in about half of patients, and more diarrhoea, stomatitis and neuropathy, so it is reserved for fit patients under about 75 with good performance status. In practice it is used when deep response matters most, to convert unresectable liver metastases, in BRAF V600E disease before the targeted triplet was available, and in young patients with heavy disease burden. Induction is usually limited to eight to twelve cycles followed by fluoropyrimidine and bevacizumab maintenance.",
     mechanism: "Oxaliplatin crosslinks DNA, irinotecan (through SN-38) traps topoisomerase I, and fluorouracil with leucovorin inhibits thymidylate synthase: three separate attacks on DNA replication at once.",
@@ -255,7 +256,7 @@ const spike: Spike = {
   cancerId: CRC,
   entities: [...terms, ...drugs, ...handWrittenTrials, ...colorectalRegistryTrials] as EntityInput[],
   patch: colorectalTreatmentPatch,
-  supplements: [...colorectalDrugSupplements, ...colorectalTrialSupplements],
+  supplements: [...colorectalDrugSupplements, ...colorectalTrialSupplements, ...trialSponsorCompanies],
 };
 
 export { colorectalRegistryTrialIds, asOf, t, ct, doi };

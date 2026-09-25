@@ -16,7 +16,7 @@ const groups = g.kind("company").filter((c) => c.companyType === "cooperative-gr
  * they qualified as records through their people, programmes and research output, and drop off this list when a
  * fetch links a trial to them.
  */
-const NO_CORPUS_TRIAL_YET = new Set(["kcsg", "agitg", "solti", "german-lymphoma-alliance", "nordic-lymphoma-group"]);
+const NO_CORPUS_TRIAL_YET = new Set(["kcsg", "solti", "german-lymphoma-alliance", "nordic-lymphoma-group"]);
 
 describe("cooperative groups as company records", () => {
   it("every cooperative-group record sponsors at least one corpus trial, and every trial it lists exists", () => {

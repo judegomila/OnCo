@@ -2,7 +2,10 @@
  * Hand-curated country context for the research ranking. Every row carries its sources.
  *
  *  population        millions, World Bank 2024 estimates (rounded)
- *  incidence         GLOBOCAN 2022 age-standardised incidence rate, all cancers excl. NMSC, per 100,000 (both sexes)
+ *  incidence         GLOBOCAN 2022 age-standardised incidence rate, all cancers (C00-97, code 39), per 100,000 (both sexes).
+ *                    Not "excluding non-melanoma skin", which this file said until 25 September 2026: GLOBOCAN's code 40
+ *                    for that is null for every country here, so every value has always been the all-cancers one. It matters
+ *                    most where a registry counts keratinocyte cancers heavily, which is why the Russia page names the code.
  *  mortality         GLOBOCAN 2022 age-standardised mortality rate, per 100,000 (both sexes)
  *  funder / budget   main public cancer-research funder and an approximate annual figure with year and source
  *

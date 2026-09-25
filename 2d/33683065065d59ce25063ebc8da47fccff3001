@@ -1,0 +1,36 @@
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_499b98d2d6ee8a 71
+  s_0beac9cb5d78fd::t_f4373fe9e4371e 72
+public/citations/index.json
+  s_0beac9cb5d78fd::t_7a28975c4ebd14 1
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_3c30b6ee2cd883 59
+  s_0beac9cb5d78fd::t_b48e5de91d71c4 52
+src/data/pancreatic-molecular.test.ts
+  s_0beac9cb5d78fd::t_f598f4f557bb16 1-90
+src/data/spikes/pancreatic-molecular.ts
+  s_0beac9cb5d78fd::t_606a2d5854779f 1189
+  s_0beac9cb5d78fd::t_6bce61250f258e 1182-1185
+  s_0beac9cb5d78fd::t_e2330c53f7180f 1228
+  s_0beac9cb5d78fd::t_790d4cc09ef84f 2-41,43-286
+  s_0beac9cb5d78fd::t_cad71f4693306d 287-1165,1179-1181,1186-1188,1190-1227,1229-1239
+  s_0beac9cb5d78fd::t_612e9d9e7701a8 1
+  s_0beac9cb5d78fd::t_6dd3c1ea5eaaaa 42
+  s_0beac9cb5d78fd::t_4deb9fd7f76d50 1166-1178
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2d33683065065d59ce25063ebc8da47fccff3001",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

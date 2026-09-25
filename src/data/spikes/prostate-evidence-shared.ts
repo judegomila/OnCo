@@ -22,7 +22,10 @@ export const pubmed = (pmid: string) => ({ label: "PubMed", url: `https://pubmed
 export const epmc = (pmid: string, label: string) => ({ label, url: `https://europepmc.org/article/MED/${pmid}` });
 
 /**
- * Trial ids the trials file of the deep dive owns and that did not exist in the corpus when this file was written.
+ * Trial ids named in this layer's prose that still have no record. The list was longer when the file was written;
+ * the treatment layer has since written most of them, and the review pass added ERSPC and PLCO, the two the
+ * screening section rests on. What remains is named in text only and linked to its paper record, so nothing
+ * dangles.
  * They are named in text and linked to their paper record, not placed in `trials` arrays, so the build does not
  * dangle; the merge wires them once the trial records land. Trial records that already exist and are used by id are
  * not listed here: alsympca, aramis, arasens, capitello-281, chaarted, embark, enzamet, goteborg-2, latitude,
@@ -30,9 +33,7 @@ export const epmc = (pmid: string, label: string) => ({ label, url: `https://eur
  * the registry-numbered records nct03767244 (PROTEUS), nct04821622 (TALAPRO-3) and nct05939414 (PSMA-DC).
  */
 export const PENDING_TRIALS = [
-  "tax-327", "swog-9916", "tropic", "affirm", "prevail", "cou-aa-302", "getug-afu-15", "stopcap",
-  "erspc", "plco-prostate", "spcg-4", "pivot", "promis", "toparp-a", "triton2", "triton3",
-  "transformer", "restore", "keynote-199", "swog-9346", "spartan", "peace-3", "probio", "stampede2",
+  "stopcap", "toparp-a", "triton2", "transformer", "restore", "keynote-199", "spartan", "probio", "stampede2",
 ] as const;
 
 /**

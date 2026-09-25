@@ -239,7 +239,7 @@ export const prostateResistancePapers: PaperInput[] = [
     cancers: [PROSTATE, MCRPC, NEPC], targets: ["tp53", "rb1", "androgen-receptor"], people: ["charles-sawyers"],
     institutions: ["mskcc"], journals: ["science"], sections: ["targeted-therapy", "epigenetics"],
     bottlenecks: ["b-resistance", "b-undruggable-targets", "b-tumor-heterogeneity"], terms: ["castration-resistance"],
-    related: ["paper-ku-science", "paper-beltran-nepc-divergent-evolution-nat-med-2016", "paper-aggarwal-t-sccpc-jco-2018", "paper-rubin-mol-cell", "idea-bio1-cfrna-plasticity-tracking", "prostate-roadmap"] }),
+    related: ["paper-ku-rb1-trp53-lineage-plasticity-science-2017", "paper-beltran-nepc-divergent-evolution-nat-med-2016", "paper-aggarwal-t-sccpc-jco-2018", "paper-rubin-mol-cell", "idea-bio1-cfrna-plasticity-tracking", "prostate-roadmap"] }),
   p({ id: "paper-antonarakis-keynote-199-pembrolizumab-jco-2020",
     name: "KEYNOTE-199: pembrolizumab for treatment-refractory metastatic castration-resistant prostate cancer",
     aka: ["KEYNOTE-199", "Antonarakis 2020 pembrolizumab prostate"],

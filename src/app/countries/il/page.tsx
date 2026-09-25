@@ -58,28 +58,26 @@ function Grid({ items, compact = true }: { items: Entity[]; compact?: boolean })
 type OpenAlex = { built: string; years: number[]; source: string; countries: Record<string, { name: string; works: Record<string, number>; total: number; citedHigh: number; oa: number; trials?: number }> };
 
 /**
- * Output per head, computed here rather than asserted: works in the latest OpenAlex year and registered trials with a
- * site in the country, both divided by the population in millions from src/data/country-extras.ts, ranked across the
- * countries that carry a population row. The caveats on whole counting, topic assignment and the trial query are the
- * ones set out on /countries/.
+ * Oncology publications per head, computed here rather than asserted: works in the latest OpenAlex year divided by the
+ * population in millions from src/data/country-extras.ts, ranked across the countries that carry a population row.
+ * The caveats on whole counting, topic assignment and language bias are the ones set out on /countries/. This is the
+ * half of the comparison the corpus can compute; the phase 1 trial counts in the card beside it are a point-in-time
+ * read of the ClinicalTrials.gov API and are quoted there with the query and the date.
  */
 function perHead(raw: OpenAlex, year: number) {
   const rows = Object.entries(countryExtras)
     .map(([code, extra]) => {
       const c = raw.countries[code];
       if (!c || !extra.population) return null;
-      return { code, name: extra.name, works: c.works[String(year)] ?? 0, worksPer: (c.works[String(year)] ?? 0) / extra.population, trials: c.trials ?? 0, trialsPer: (c.trials ?? 0) / extra.population };
+      return { code, name: extra.name, works: c.works[String(year)] ?? 0, worksPer: (c.works[String(year)] ?? 0) / extra.population };
     })
     .filter((r): r is NonNullable<typeof r> => !!r);
   const byWorks = [...rows].sort((a, b) => b.worksPer - a.worksPer);
-  const byTrials = [...rows].filter((r) => r.trials > 0).sort((a, b) => b.trialsPer - a.trialsPer);
   return {
     total: rows.length,
     works: byWorks.find((r) => r.code === "IL"),
     worksRank: byWorks.findIndex((r) => r.code === "IL") + 1,
-    trialsRank: byTrials.findIndex((r) => r.code === "IL") + 1,
-    trialsTotal: byTrials.length,
-    trialsTop: byTrials.slice(0, 8),
+    top: byWorks.slice(0, 12),
     volumeRank: Object.entries(raw.countries).sort((a, b) => (b[1].works[String(year)] ?? 0) - (a[1].works[String(year)] ?? 0)).findIndex(([code]) => code === "IL") + 1,
     volumeTotal: Object.keys(raw.countries).length,
   };
@@ -119,23 +117,23 @@ export default function IsraelPage() {
       <PageHeader
         kicker={<GroupKicker id="who"><span className="kicker">·</span><Link href="/countries/" className="kicker hover:underline">Countries</Link></GroupKicker>}
         title="🇮🇱 Cancer in Israel"
-        lede={`A country of about ${extra.population} million people that answers the question every health system faces, which new medicines the state will pay for, in a way no other country does: a public committee argues it out in the open every year inside a fixed budget, and publishes what got in and what did not. This page gathers that mechanism, the four health funds a patient actually deals with, the registry and what it leaves out, the founder variants behind the world's first national population screening programme for inherited cancer risk, and ${institutions.length} institutions, ${companies.length} companies, ${trials.length} trials, ${papers.length} papers and ${people.length} people from the corpus. Facts checked ${IL_ASOF}; every card links its sources.`}
+        lede={`A country of about ${extra.population} million people that answers the question every health system faces, which new medicines the state will pay for, at the opposite pole from Germany. Germany funds a drug from the day it is licensed and argues about its value afterwards. Israel licenses it, funds nothing, and then a public committee argues in the open, once a year, inside a sum fixed in advance, and publishes what got in and what did not. In 2026 that sum was 650 million shekels and 52 percent of it went to cancer. This page sets out that mechanism, the four health funds a patient actually deals with, the registry and the comparison it says you cannot make, the founder variants behind the first national population screening programme for inherited cancer risk anywhere, and why a country eleventh in the world for oncology papers per head is fourth for phase 1 cancer trials. It gathers ${institutions.length} institutions, ${companies.length} companies, ${trials.length} trials, ${papers.length} papers and ${people.length} people from the corpus. Facts checked ${IL_ASOF}; every card links its sources.`}
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
           {[["#profile", "Cancer profile"], ["#basket", "The health basket"], ["#paying", "Who pays"], ["#regulator", "Regulator"], ["#genetics", "Founder genetics"], ["#doing", "What Israel does"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
-        <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year} estimates, rendered from the corpus data file</span>}>
+        <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">Registry figures in the cards; the table below is GLOBOCAN {GLOBOCAN.year}</span>}>
           <Cards cards={IL_PROFILE} />
           {profile && all && (
             <div className="mt-6 card p-5">
               <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
-                <h3 className="font-semibold">Leading cancers in Israel, {GLOBOCAN.year}</h3>
+                <h3 className="font-semibold">Leading cancers in Israel, GLOBOCAN {GLOBOCAN.year} estimates</h3>
                 <span className="text-xs text-muted">All cancers excluding non-melanoma skin: {fmt(all[0])} new cases, {fmt(all[2])} deaths; age-standardised incidence {fmt1(all[1])} and mortality {fmt1(all[3])} per 100,000; cumulative risk to 74: {fmt1(all[4])}%.</span>
               </div>
               <StaticTable rows={siteRows} columns={SITE_COLUMNS} noun="sites" defaultSort={{ key: "cases", dir: -1 }} />
-              <p className="mt-3 text-xs text-muted">Source: {GLOBOCAN.citation} <a href={GLOBOCAN.sourceUrl} className="underline" rel="noopener">{GLOBOCAN.sourceUrl}</a>. ASR = age-standardised rate per 100,000 (World standard). These are modelled estimates, not registry counts; the Israel National Cancer Registry publishes its own figures, which differ, and the registry card says how. Compare countries on the <Link href="/cases/" className="underline">cases by country</Link> page.</p>
+              <p className="mt-3 text-xs text-muted">Source: {GLOBOCAN.citation} <a href={GLOBOCAN.sourceUrl} className="underline" rel="noopener">{GLOBOCAN.sourceUrl}</a>. Three things to hold in mind. These are modelled estimates, not counts. The Israel National Cancer Registry states in its own report that the Global Cancer Observatory data for Israel do not separate Arabs from Jews and others and therefore cannot be compared with the rates it measures, which is why the cards above lead with the registry&apos;s four figures rather than one. And IARC released GLOBOCAN 2024 in July 2026, which supersedes the {GLOBOCAN.year} file this table is built from; its Israel fact sheet gives 30,468 new cases and 12,657 deaths, an age-standardised incidence rate of 233.7 and mortality of 77.5, on figures that include non-melanoma skin cancer where the table above excludes it, from a projected 2024 population of 9,387,026. Compare countries on the <Link href="/cases/" className="underline">cases by country</Link> page.</p>
             </div>
           )}
         </Section>
@@ -170,19 +168,19 @@ export default function IsraelPage() {
           {head.works && (
             <div className="mt-6 card p-5">
               <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
-                <h3 className="font-semibold">Small country, dense trial base</h3>
-                <span className="text-xs text-muted">OpenAlex oncology works {year}; ClinicalTrials.gov studies with a site in the country</span>
+                <h3 className="font-semibold">The other half of the contrast: oncology papers per million people, {year}</h3>
+                <span className="text-xs text-muted">Computed from the corpus OpenAlex file, built {raw.built}</span>
               </div>
-              <p className="text-[15px] leading-relaxed">Israel published {head.works.works.toLocaleString("en-GB")} oncology works in {year}, {head.volumeRank}th of {head.volumeTotal} countries by volume but {head.worksRank}th of {head.total} per million people. On registered trials with a site in the country it ranks {head.trialsRank} of {head.trialsTotal}, at {Math.round(head.works.trialsPer).toLocaleString("en-GB")} studies per million people.</p>
+              <p className="text-[15px] leading-relaxed">Israel published {head.works.works.toLocaleString("en-GB")} oncology works in {year}, {head.volumeRank}th of {head.volumeTotal} countries by volume and {head.worksRank}th of {head.total} per million people. It is fourth in the world on phase 1 cancer trials per head and about eleventh on papers per head, which is the finding: Israel over-indexes on giving new treatments to people, not on writing about them.</p>
               <ol className="mt-3 grid gap-1 sm:grid-cols-2 text-sm">
-                {head.trialsTop.map((r, i) => (
+                {head.top.map((r, i) => (
                   <li key={r.code} className={`flex items-baseline justify-between gap-2 rounded px-2 py-1 ${r.code === "IL" ? "bg-accent-soft font-medium" : ""}`}>
-                    <span><span className="tabular-nums text-muted text-xs me-2">{i + 1}</span><Link href={`/countries/?country=${r.code}`} className="hover:underline">{r.name}</Link></span>
-                    <span className="tabular-nums">{Math.round(r.trialsPer).toLocaleString("en-GB")}</span>
+                    <span><span className="tabular-nums text-muted text-xs me-2">{i + 1}</span><span>{r.name}</span></span>
+                    <span className="tabular-nums">{r.worksPer.toFixed(1)}</span>
                   </li>
                 ))}
               </ol>
-              <p className="mt-3 text-xs text-muted">Both counts carry the caveats set out on the <Link href="/countries/" className="underline">country ranking</Link>: OpenAlex credits a work to every country among its authors, so collaborative countries are flattered; the trial count is every registered study with a site in the country, all conditions and all statuses, not cancer trials alone. Population from the World Bank rows in <code>src/data/country-extras.ts</code>. Data built {raw.built}.</p>
+              <p className="mt-3 text-xs text-muted">Carries the caveats set out on the <Link href="/countries/" className="underline">country ranking</Link>: OpenAlex credits a work to every country among its authors, so collaborative countries are flattered, and only works whose primary topic falls in the oncology subfield are counted. Population from the World Bank rows in <code>src/data/country-extras.ts</code>. A separate OpenAlex query restricted to 2024 articles gives Israel 41.6 oncology papers per million and the same eleventh place, so the ranking is robust to the query even though the level is not.</p>
             </div>
           )}
         </Section>

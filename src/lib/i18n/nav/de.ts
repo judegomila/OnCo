@@ -146,7 +146,7 @@ export const navDe: NavDict = {
   "/api/": ["Offene API", "Der Korpus als JSON."],
   "/data-sources/": ["Offene Daten", "Jede offene Datenbank, aus der OnCo schöpft, mit Lizenzen und Takt, und die, die wir als Nächstes ergänzen könnten."],
   "https://github.com/judegomila/OnCo": ["GitHub", "Code und Daten. Änderungen über die Issue-Formulare vorschlagen."],
-  "/coverage/rankings/": ["Rangliste der Kostenübernahme", "US-Versicherer und Tariftypen, jeweils nach einer veröffentlichten Kennzahl geordnet, NHS-Leistungen gegenüber privater Versicherung im Vereinigten Königreich und wie neun Länder Krebsmedikamente bezahlen."],
+  "/coverage/rankings/": ["Rangliste der Kostenübernahme", "US-Versicherer und Tariftypen, jeweils nach einer veröffentlichten Kennzahl geordnet, NHS-Leistungen gegenüber privater Versicherung im Vereinigten Königreich und wie zehn Länder Krebsmedikamente bezahlen."],
   "/costs/": ["Kosten der Krebsbehandlung senken", "Jeder Kostentreiber neben dem, was bereits geschieht, und den Ideen, die mehr bewirken könnten: Biosimilars, Preisverhandlung, Dosisoptimierung, kürzere Therapien, Gleichstellung, Vorabgenehmigung."],
   "/countries/in/": ["Indien im Detail", "Was Indien tut: Krebsprofil, Finanzierung der Versorgung, die CDSCO, Institutionen, Unternehmen, Studien und Menschen."],
   "/countries/cn/": ["China im Detail", "Was China tut: Krebsprofil, die NMPA, die nationale Erstattungsliste, Institutionen, Unternehmen, Studien und Menschen."],

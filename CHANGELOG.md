@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
+- Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
 - Pancreatic cancer deep spike, round two: the record extended with sourced epidemiology, risk, diagnosis and surveillance, six subtypes, 22 terms, 34 papers and a twelve-era roadmap
@@ -19,6 +20,8 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 
 ### 24 September 2026
+- Pancreatic deep spike review: duplicates merged across seven files, daraxonrasib approval and NICE terminations settled, 13 paper duplicates supplemented, 47 redirected URLs rewritten, seven glossary terms and two journals, UK and tool pages lay out at 390 px; docs/PANCREATIC-QA.md
+- Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic molecular layer: the genomic landscape, subtypes, precursors, stroma and monitoring markers with their cohorts
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
 - Ask concept index: inverse document frequency over curated records only; extractive recall 0.408 to 0.427, floor raised to 0.42

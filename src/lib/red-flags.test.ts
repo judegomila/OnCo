@@ -33,6 +33,7 @@ describe("red flags", () => {
     expect(redFlagsForCancerId("gallbladder").map((s) => s.id)).toEqual(["biliary-cholangitis", "biliary-obstruction", "biliary-bleeding", "biliary-pain"]);
     expect(redFlagsForCancerId("tnbc").map((s) => s.id)).toEqual(["tnbc-neutropenic-sepsis", "tnbc-immune-reactions", "tnbc-adc-lung"]);
     expect(redFlagsForCancerId("pancreatic").map((s) => s.id)).toEqual(["pancreatic-cholangitis", "pancreatic-biliary-obstruction", "pancreatic-neutropenic-sepsis", "pancreatic-bleeding", "pancreatic-bowel-obstruction", "pancreatic-blood-clot"]);
+    expect(redFlagsForCancerId("colorectal").map((s) => s.id)).toEqual(["colorectal-bowel-obstruction", "colorectal-perforation-peritonitis", "colorectal-neutropenic-sepsis", "colorectal-bleeding", "colorectal-stoma-emergencies", "colorectal-oxaliplatin-egfr"]);
     expect(redFlagsForCancerId("nsclc")).toEqual([]);
   });
 

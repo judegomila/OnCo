@@ -83,7 +83,7 @@ export const companiesCooperativeGroups: CompanyInput[] = [
   grp({ id: "dpcg", name: "Dutch Pancreatic Cancer Group", aka: ["DPCG"], hq: "Amsterdam", country: "NL", website: "https://dpcg.nl",
     tldr: "The Dutch Pancreatic Cancer Group is the national Dutch collaboration of pancreatic cancer surgeons, oncologists and researchers that ran PREOPANC, the trial that established neoadjuvant chemoradiotherapy for resectable pancreatic cancer.",
     summary: "The Dutch Pancreatic Cancer Group (DPCG) is the Dutch multidisciplinary collaboration for pancreatic cancer, with its address at Amsterdam UMC, De Boelelaan 1117-1118, Amsterdam, and contact points at the LUMC in Leiden and Radboudumc in Nijmegen (dpcg.nl). No founding year is stated on the pages read. In OnCo it is the sponsor of PREOPANC-1 and PREOPANC-2 (Netherlands Trial Register NTR3709), the phase 3 trials of preoperative chemoradiotherapy and of neoadjuvant FOLFIRINOX in resectable and borderline resectable pancreatic cancer. It has no products of its own.",
-    cancers: ["pancreatic", "resectable-pdac", "borderline-resectable-pdac"], trials: ["preopanc", "nct07802418", "nct07595835"], institutions: ["amsterdam-umc"], drugs: [],
+    cancers: ["pancreatic", "resectable-pdac", "borderline-resectable-pdac"], trials: ["preopanc"], institutions: ["amsterdam-umc"], drugs: [],
     links: [site("Official website", "https://dpcg.nl"), CT("Dutch Pancreatic Cancer Group")] }),
 
   grp({ id: "dbcg", name: "Danish Breast Cancer Group", aka: ["Danish Breast Cancer Cooperative Group", "DBCG"], hq: "Copenhagen", country: "DK", founded: 1976, website: "https://www.dbcg.dk",

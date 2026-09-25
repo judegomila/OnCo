@@ -181,7 +181,7 @@ export const breastSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Triple-negative disease by state
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "tnbc-early", related: ["tnbc-metastatic"], kind: "cancer", trials: ["geparsixto", "brightness", "nct07723469"], name: "Early triple-negative breast cancer", group: "breast", parent: "tnbc", asOf, tags, wikipedia: W("Triple-negative_breast_cancer"),
+  { id: "tnbc-early", related: ["tnbc-metastatic"], kind: "cancer", trials: ["geparsixto", "brightness"], name: "Early triple-negative breast cancer", group: "breast", parent: "tnbc", asOf, tags, wikipedia: W("Triple-negative_breast_cancer"),
     aka: ["Stage I to III triple-negative breast cancer", "Operable triple-negative breast cancer", "Curable TNBC"],
     burden: "Most of the roughly 200,000 triple-negative breast cancers diagnosed each year are found before they have spread; relapses cluster in the first three years, so what happens around surgery decides most outcomes.",
     tldr: "Early triple-negative breast cancer is treated to cure. For tumours over 2 cm or with node involvement, chemotherapy plus the immunotherapy pembrolizumab before and after surgery has raised cure rates; BRCA carriers with cancer left at surgery add a year of olaparib, and others with residual cancer are offered capecitabine. Whether the tumour has vanished by surgery guides what comes next.",

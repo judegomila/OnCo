@@ -100,7 +100,7 @@ export const cancersWave4ColonKidneyTestis: CancerInput[] = linkSiblings([
       { setting: "Mismatch-repair deficient, localised", approach: "Neoadjuvant nivolumab and ipilimumab (NICHE-2) and adjuvant atezolizumab with FOLFOX (ATOMIC) in trials.", refs: ["niche-2", "atomic", "nivolumab", "ipilimumab"] },
       { setting: "Metastatic", approach: "As the colorectal page by sidedness and RAS, BRAF and HER2 status.", refs: ["colorectal", "cetuximab", "panitumumab", "bevacizumab", "paradigm"] },
     ],
-    drugs: ["folfox", "capox", "oxaliplatin", "capecitabine", "fluorouracil", "bevacizumab", "cetuximab", "panitumumab", "nivolumab", "ipilimumab"], trials: ["niche-2", "atomic", "dynamic", "circulate-us", "challenge", "alascca", "paradigm", "crystal-fire3", "nct06709144", "nct02448173", "nct06119867", "nct06107920", "nct06940947"],
+    drugs: ["folfox", "capox", "oxaliplatin", "capecitabine", "fluorouracil", "bevacizumab", "cetuximab", "panitumumab", "nivolumab", "ipilimumab"], trials: ["niche-2", "atomic", "dynamic", "circulate-us", "challenge", "alascca", "paradigm", "crystal-fire3"],
     related: ["colorectal", "rectal-cancer", "msi-high-colorectal", "braf-v600e-colorectal", "colorectal-mucinous-adenocarcinoma", "colorectal-serrated-adenocarcinoma"],
     links: [SRC.pdqColon, SRC.whoGi, SRC.colonRectal, SRC.arcad, SRC.munich] }),
 

@@ -12,7 +12,14 @@
  *   npx tsx scripts/backlink-fill.ts --kinds trial,person   limit to some kinds
  *
  * Tokens that match generically (single common words, cancer names inside other cancer names) are listed in SKIP_TOKENS; add
- * to it when the plan shows a false positive rather than hand-editing the output.
+ * to it when the plan shows a false positive rather than hand-editing the output. An acronym only one record misuses goes in
+ * SKIP_ALIASES instead, so the acronym still works for the record that owns it.
+ *
+ * Applying a full run is not free: every new relation feeds the neighbour names in src/lib/semantic-docs.ts, which shifts
+ * document frequencies across the whole concept index. A 1,365-edit run on 2026-09-25 moved one Ask benchmark question
+ * (gi-30) from 2 of 3 expected records to 1 of 3 and put the extractive recall floor in src/lib/ask.test.ts 0.002 under
+ * its target, with neither displaced record edited. Run the plan, apply, then run that test before committing: the floor
+ * is never lowered to let a fill land.
  */
 import { graph } from "../src/lib/graph";
 import { resolveSponsor } from "../src/data/sponsor-aliases";
@@ -160,11 +167,23 @@ export function plan(kinds: Set<Kind>): { proposals: Proposal[]; weak: Entity[];
     if (w.kind === "company") { for (const inv of w.investors) have.add(inv); if (w.acquiredBy) have.add(w.acquiredBy); }
     if (w.kind === "person" && w.institutionId) have.add(w.institutionId);
     have.add(w.id);
+    /**
+     * Longest match wins where two records' names cover the same words. "Epidermal growth factor" sits inside
+     * "epidermal growth factor receptor", so a paper about EGFR was proposing a link to EGF as well, and "lung
+     * cancer" inside "small-cell lung cancer" was pulling the parent onto records that name only the subtype.
+     * Spans are collected first, then a token is kept only where no longer token's match already covers it.
+     */
+    const spans: Array<{ t: Tok; m: RegExpExecArray }> = [];
     for (const t of toks) {
       if (have.has(t.id)) continue;
       if (!/\d/.test(t.text) && !lower.includes(t.text.toLowerCase())) continue;
       const m = t.re.exec(text);
-      if (!m) continue;
+      if (m) spans.push({ t, m });
+    }
+    const covers = (a: { m: RegExpExecArray }, b: { m: RegExpExecArray }) =>
+      a.m.index <= b.m.index && a.m.index + a.m[0].length >= b.m.index + b.m[0].length && a.m[0].length > b.m[0].length;
+    for (const { t, m } of spans.filter((s) => !spans.some((o) => o !== s && covers(o, s)))) {
+      if (have.has(t.id)) continue;
       const field = FIELD_FOR[t.kind]!;
       // Registry trials already carry cancers matched from condition terms; do not re-derive them from the title, and
       // registry boilerplate names glossary terms and other trials constantly without meaning them.

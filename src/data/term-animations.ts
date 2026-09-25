@@ -384,6 +384,36 @@ export function geneticsTerm(): Mesh {
   });
 }
 
+// ---------------------------------------------------------------- Methods and models
+/** Data matrix → model → held-out test → calibration: what the methods vocabulary of cancer AI is about. */
+export function methodsTerm(): Mesh {
+  const sc = scene();
+  const gridPts: Vec3[] = []; for (let i = 0; i < 6; i++) for (let j = 0; j < 5; j++) gridPts.push([-2.7 + i * 0.22, 0.9 - j * 0.22, 0]);
+  const matrix = put(sc, "matrix", dots(gridPts, "soft"));
+  const frameM = put(sc, "frame", box(1.5, 1.3, 0.05, "soft"), { at: [-2.15, 0.46, 0] });
+  const model = put(sc, "model", box(1.1, 0.9, 0.5, "accent"), { at: [-0.2, 0.46, 0] });
+  const inArrow = put(sc, "in", arrow([-1.3, 0.46, 0], [-0.8, 0.46, 0], "accent", 0.25));
+  const outArrow = put(sc, "out", arrow([0.4, 0.46, 0], [0.95, 0.46, 0], "accent", 0.25));
+  const heldPts: Vec3[] = []; for (let i = 0; i < 4; i++) heldPts.push([-2.6 + i * 0.22, -0.9, 0]);
+  const held = put(sc, "held", dots(heldPts, "hot"));
+  const heldBox = put(sc, "heldbox", box(1.2, 0.4, 0.05, "hot"), { at: [-2.27, -0.9, 0] });
+  const O: Vec3 = [1.3, -1.0, 0];
+  const ax = put(sc, "axes", axes(O, 1.9, 1.9));
+  const diag = put(sc, "diag", line(O, [O[0] + 1.8, O[1] + 1.8, 0], "soft"));
+  const calPts: Vec3[] = []; for (let i = 0; i <= 8; i++) { const x = i / 8; calPts.push([O[0] + 1.8 * x, O[1] + 1.8 * (0.5 * x + 0.5 * x * x), 0]); }
+  const cal = put(sc, "cal", polyline(calPts, "accent"));
+  const calDots = put(sc, "caldots", dots(calPts.filter((_, i) => i % 2 === 0), "hot"));
+  return frame(sc, 13, (t, pts, alpha) => {
+    hide(alpha, model, inArrow, outArrow, held, heldBox, ax, diag, cal, calDots);
+    let caption = "";
+    if (t < 0.25) { const u = phase(t, 0, 0.25); grow(alpha, matrix, u); setAlpha(alpha, frameM, u); caption = "1 · Data: rows are patients or samples, columns are genes, pixels or clinical fields"; }
+    else if (t < 0.5) { setAlpha(alpha, frameM, 1); const u = phase(t, 0.25, 0.5); setAlpha(alpha, inArrow, u); setAlpha(alpha, model, u); setAlpha(alpha, outArrow, Math.max(0, u * 2 - 1)); caption = "2 · A model (transformer, random forest, Cox regression) learns to map inputs to an output"; }
+    else if (t < 0.75) { setAlpha(alpha, frameM, 1); setAlpha(alpha, inArrow, 1); setAlpha(alpha, model, 1); setAlpha(alpha, outArrow, 1); const u = phase(t, 0.5, 0.75); setAlpha(alpha, heldBox, u); grow(alpha, held, u); setAlpha(alpha, matrix, 1 - 0.5 * u); caption = "3 · Held-out and external cohorts: the model is only judged on patients it never saw"; }
+    else { setAlpha(alpha, frameM, 1); setAlpha(alpha, matrix, 0.5); setAlpha(alpha, inArrow, 1); setAlpha(alpha, model, 1); setAlpha(alpha, outArrow, 1); setAlpha(alpha, heldBox, 1); setAlpha(alpha, held, 1); const u = phase(t, 0.75, 1); setAlpha(alpha, ax, u); setAlpha(alpha, diag, u * 0.6); grow(alpha, cal, u); setAlpha(alpha, calDots, u * pulse(t, 4)); caption = "4 · Metrics: AUC and C-index rank, calibration asks whether a predicted 30% risk happens 30% of the time"; }
+    return { caption, labels: [{ at: [-2.15, 1.35, 0], text: "Data matrix" }, ...(t >= 0.25 ? [{ at: [-0.2, 1.2, 0] as Vec3, text: "Model" }] : []), ...(t >= 0.5 ? [{ at: [-2.27, -1.35, 0] as Vec3, text: "Held-out test" }] : []), ...(t >= 0.75 ? [{ at: [O[0] + 2.1, O[1], 0] as Vec3, text: "Predicted" }, { at: [O[0], O[1] + 2.1, 0] as Vec3, text: "Observed" }] : [])] };
+  });
+}
+
 /** Slug for a category string: "Cancer biology" → "cancer-biology". */
 export function termCategoryKey(category: string): string { return category.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
 
@@ -402,6 +432,7 @@ export const TERM_ANIMATED: Record<string, () => Mesh> = {
   "anatomy": FRONT_ANIMATED["imaging"],
   "diagnostics-imaging": diagnosticsTerm,
   "epidemiology-prevention": FRONT_ANIMATED["prevention"],
+  "methods-and-models": methodsTerm,
   endpoints: endpointsTerm,
   biomarkers: biomarkersTerm,
   genomics: genomicsTerm,

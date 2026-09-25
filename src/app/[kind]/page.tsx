@@ -96,7 +96,7 @@ function GlossaryCategories() {
   return (
     <div className="mb-8">
       <div className="kicker mb-1">Browse by category</div>
-      <p className="text-sm text-muted mb-3">Twenty kinds of term, each with a short animation of what that kind is about. Click one to filter the glossary; every term page opens with its own picture.</p>
+      <p className="text-sm text-muted mb-3">Twenty-one kinds of term, each with a short animation of what that kind is about. Click one to filter the glossary; every term page opens with its own picture.</p>
       <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-3">
         {cats.map(([c, n]) => (
           <li key={c} className="min-w-0">

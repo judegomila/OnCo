@@ -42,6 +42,7 @@ export const NO_DESCRIPTION = "No description yet";
  * records have in common), not from any outside meaning. Tags absent here read "No description yet" on their page.
  */
 export const TAG_DESCRIPTIONS: Readonly<Record<string, string>> = {
+  "cansim-terms": "Glossary terms, gene targets and the hub added on 24 September 2026 from the CanSim terms map (CC BY 4.0): the vocabulary of cancer AI, each record paraphrasing the page it links.",
   biomarker: "Records that measure or score a biomarker: readouts, thresholds and the tests that report them.",
   "gallbladder-evidence": "Papers, trials and ideas added by the September 2026 gallbladder cancer deep dive, each checked against Europe PMC or ClinicalTrials.gov on the date recorded.",
   "tnbc-evidence": "Papers, roadmap and ideas added by the September 2026 triple-negative breast cancer deep dive, each checked against Europe PMC or ClinicalTrials.gov on the date recorded.",

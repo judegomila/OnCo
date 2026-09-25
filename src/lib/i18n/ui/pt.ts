@@ -321,6 +321,7 @@ export const pt: UiDict = {
   "l.OnCo score": "Pontuação OnCo",
   "l.Analogy": "Analogia",
   "l.Category": "Categoria",
+  "l.Methods and models": "Métodos e modelos",
   "l.Setting": "Contexto",
   "l.Phase": "Fase",
   "l.Sponsor": "Promotor",

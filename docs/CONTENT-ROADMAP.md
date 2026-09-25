@@ -164,3 +164,41 @@ npm run content:gaps -- --json    # machine-readable, for a wave script to consu
 ```
 
 The heuristics are stated in the script: a subtype string is an entity when it carries a histology word and no setting word; a target symbol must look like a gene symbol and be absent from every non-target record's names; a trial acronym must start in its first word and match no trial, drug or other record. The candidate lists are for hand curation, not bulk import.
+
+## 6. Country deep dives (owner request, 25 September 2026)
+
+Two countries have a deep dive today, `/countries/cn/` and `/countries/in/`, each written as hand-written cards in
+`src/data/country-<iso2>.ts` with the entity lists pulled from the graph by id. The owner asked for the rest,
+**starting with the highest research output**, and named **Israel** and **Russia** explicitly.
+
+Ranked by what the corpus itself holds (institutions, papers, trials and people with a country, weighted toward
+papers), the order after China and India is:
+
+| | Country | Institutions | Papers | Trials | People |
+| --- | --- | --- | --- | --- | --- |
+| 1 | United States | 151 | 218 | 51 | 498 |
+| 2 | United Kingdom | 97 | 31 | 75 | 140 |
+| 3 | France | 33 | 18 | 9 | 80 |
+| 4 | Germany | 27 | 5 | 9 | 74 |
+| 5 | Italy | 28 | 9 | 3 | 57 |
+| 6 | Canada | 25 | 10 | 2 | 49 |
+| 7 | Netherlands | 15 | 13 | 9 | 44 |
+| 8 | Spain | 24 | 3 | 1 | 51 |
+| 9 | Australia | 17 | 7 | 2 | 43 |
+| 10 | Japan | 17 | 5 | 4 | 34 |
+| … | Israel | 8 | 3 | 2 | 9 |
+| … | Russia | 0 | 0 | 0 | 0 |
+
+**That table measures our coverage, not the world.** Japan and South Korea sit lower here than their real output,
+and Russia is absent entirely, which is itself the finding: a country page that starts from the corpus would
+mistake a gap in our reading for a gap in the country. Each spike must therefore start from the country's own
+sources and registries, and record what we did not previously hold.
+
+Order of work: **wave 1** United States, Japan, Germany, United Kingdom, Israel, Russia (the owner's two are in
+the first wave regardless of rank). **Wave 2** France, Canada, Italy, Netherlands, South Korea, Australia, Spain,
+Brazil, Sweden, Switzerland.
+
+Each spike follows `/countries/in/`: what is different about cancer here, who pays and how, the regulator and how
+fast it moves, what the country does that others do not, the institutions, companies, drugs, trials, papers and
+people, and the gaps. Every figure carries its source and the national registry is read directly rather than
+through a summary of it.

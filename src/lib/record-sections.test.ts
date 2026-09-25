@@ -72,7 +72,8 @@ describe("section registry", () => {
       const paged = plan.filter((p) => p.placement === "page").map((p) => p.def.id);
       expect(paged, `${id} pages`).toContain("evidence");
       expect(paged, `${id} pages`).toContain("data");
-      expect(paged.length, `${id} keeps the first sections inline`).toBeLessThanOrEqual(7);
+      // Wave 4 (25 Sept 2026) gave lung ten histology pages, so What it is now pages for NSCLC as well: eight of ten sections page there.
+      expect(paged.length, `${id} keeps the first sections inline`).toBeLessThanOrEqual(8);
     }
     // The route list the [section] page is generated from is exactly the paged sections.
     const params = sectionParams();

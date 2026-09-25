@@ -195,6 +195,32 @@ describe("decision tools: data", () => {
     }
   });
 
+  it("offers localised prostate cancer by Cambridge Prognostic Group, and shows box 2 only where it applies", () => {
+    const t = toolById("prostate-localised")!;
+    const base: Answers = { risk: "cpg2", radical: "considering", priority: "unsure" };
+    expect(t.decide({ ...base, risk: "cpg1" })[0]).toBe("cpg1-active-surveillance");
+    expect(t.decide(base)[0]).toBe("cpg2-three-way-choice");
+    expect(t.decide({ ...base, risk: "cpg3" })[0]).toBe("cpg3-radical-first");
+    expect(t.decide({ ...base, risk: "cpg4-5" })[0]).toBe("cpg4-5-no-surveillance");
+    expect(t.decide({ ...base, risk: "unknown" })[0]).toBe("risk-unknown");
+    expect(t.decide({ ...base, radical: "not-suitable" })[0]).toBe("not-suitable-watchful-waiting");
+    // Box 2 was built on CPG 1 to 3 disease, so the harm cards are not shown for CPG 4 and 5.
+    for (const a of enumerateAnswers(t)) {
+      const ids = t.decide(a);
+      const boxTwo = ["protect-survival", "protect-urinary", "protect-sexual", "protect-bowel"];
+      if (a.risk === "cpg4-5" || a.radical === "not-suitable") expect(ids.some((id) => boxTwo.includes(id)), JSON.stringify(a)).toBe(false);
+      else for (const id of boxTwo) expect(ids, JSON.stringify(a)).toContain(id);
+      if (a.risk === "cpg1") expect(ids).not.toContain("adt-with-radiotherapy");
+      if (a.radical === "not-suitable") expect(ids).not.toContain("surveillance-protocol");
+    }
+    // What the man says he is most worried about decides which service card he is sent to, and the order of the harms.
+    expect(t.decide({ ...base, priority: "continence" })).toContain("continence-services");
+    expect(t.decide({ ...base, priority: "sexual" })[2]).toBe("protect-sexual");
+    expect(t.decide({ ...base, priority: "sexual" })).toContain("sexual-services");
+    expect(t.decide({ ...base, priority: "progression" })).toContain("progression-and-follow-up");
+    expect(t.decide(base)).toContain("decision-aid-and-nomograms");
+  });
+
   it("reads the triple-negative pathology report the way NICE and the trials do", () => {
     const t = toolById("tnbc-after-chemotherapy")!;
     const base: Answers = { response: "rcb23", brca: "none", pembro: "yes" };

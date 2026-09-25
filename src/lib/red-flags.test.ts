@@ -39,6 +39,9 @@ describe("red flags", () => {
     expect(redFlagsForCancerId("colorectal").map((s) => s.id)).toEqual(["colorectal-bowel-obstruction", "colorectal-perforation-peritonitis", "colorectal-neutropenic-sepsis", "colorectal-bleeding", "colorectal-stoma-emergencies", "colorectal-oxaliplatin-egfr"]);
     expect(redFlagsForCancerId("nsclc").map((s) => s.id)).toEqual(["lung-breathlessness", "lung-pneumonitis", "lung-neutropenic-sepsis", "lung-haemoptysis", "lung-svc-obstruction", "lung-spinal-cord-compression"]);
     expect(redFlagsForCancerId("sclc").map((s) => s.id)).toEqual(redFlagsForCancerId("nsclc").map((s) => s.id));
+    expect(redFlagsForCancerId("prostate").map((s) => s.id)).toEqual(["prostate-cord-compression", "prostate-urinary-retention", "prostate-bone-pain", "prostate-hormone-therapy", "prostate-sexual-function", "prostate-docetaxel-sepsis"]);
+    // Cord compression is the prostate emergency men are least often warned about: it leads on every prostate record that carries it.
+    for (const id of ["prostate", "prostate-mhspc", "prostate-mcrpc", "prostate-nmcrpc"]) expect(redFlagsForCancerId(id)[0]?.id, id).toBe("prostate-cord-compression");
     expect(redFlagsForCancerId("mesothelioma")).toEqual([]);
   });
 

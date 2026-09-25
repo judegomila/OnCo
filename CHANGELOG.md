@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
+- Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
 - Pancreatic cancer deep spike, round two: the record extended with sourced epidemiology, risk, diagnosis and surveillance, six subtypes, 22 terms, 34 papers and a twelve-era roadmap
 - Pancreatic cancer deep spike, round one: the UK and NHS pathway with the national audit findings, decisions, first 60 days, red cards and the first-treatment aid
 - Cooperative groups have one home: 35 trial groups move from institutions to cooperative-group companies with redirects
@@ -17,8 +18,13 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 
 ### 24 September 2026
+- Ask concept index: inverse document frequency over curated records only; extractive recall 0.408 to 0.427, floor raised to 0.42
+- Pancreatic treatment layer gates: cooperative groups under companies, pancrelipase flagged supportive, deep-dive tag described, stroma-enzyme schematic rule
+- Pancreatic cancer deep spike, round two: the record extended with sourced epidemiology, risk, diagnosis and surveillance, six subtypes, 22 terms, 34 papers and a twelve-era roadmap
 - Pancreatic core: classical versus basal-like (GATA6) and clinical benefit response terms for the evidence layer, high-risk individual folded into familial pancreatic cancer, disease-free survival note on the EFS term; the other requested ids resolve to existing records
+- Pancreatic treatment layer: ESPAC-1 record, shorter TL;DRs, duplicate label links removed, explained-page budget note
 - Pancreatic evidence: UNICANCER is a cooperative-group company, listed under companies
+- Pancreatic treatment layer: 32 hand-written trials, 284 registry trials, drug approvals by regulator, standard-of-care export
 - Pancreatic core: register the seven living-with glossary drafts (enzyme draft folded into pancreatic-enzyme-replacement, new-onset diabetes alias repointed), drop URLs the UK and living patches already link, subtype rows cite the neoadjuvant term rather than PRODIGE 24 so /explained/ stays under budget, audit list and stale zh summary updated
 - Pancreatic cancer evidence: 34 Europe PMC paper records, a roadmap from Whipple 1935 to the 2031 registry watch, nine ideas
 - Pancreatic cancer deep spike, round one: the UK and NHS pathway with the national audit findings, decisions, first 60 days, red cards and the first-treatment aid

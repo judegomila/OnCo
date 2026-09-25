@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- Colorectal cancer deep spike, round one: the UK and NHS pathway across four nations with the national audit indicators, decisions, first 60 days, red cards and the adjuvant chemotherapy aid
+- Colorectal cancer deep spike complete (core, 710 trials, molecular landscape, evidence and roadmap); red cards re-sourced against the live toolkit; pages no longer grow with what is known about a reference; weekly jobs merge only when the gates pass
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,8 +19,25 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- Roadmaps and dossiers made robust to corpus growth: a reference costs the same whatever is known about it, the dossier export is a file, and no bot merges a tree the tests have not seen
+- Check every cited URL and fix the one that was dead
+- Register the colorectal treatment spike, its helper files and the sponsor supplement with the audit
+- De-duplicate the NICE NG151 link across the three colorectal patches, and the CMS paper on its own term
+- Thirteen glossary terms the evidence, living-with and molecular layers asked for, and the eight living-with drafts registered
+- Colorectal: the historical trials the evidence and molecular layers cite, and targets for ten pipeline drugs
+- Colorectal cancer deep spike, round one: the UK and NHS pathway across four nations with the national audit indicators, decisions, first 60 days, red cards and the adjuvant chemotherapy aid
+- Red flags re-sourced: the UKONS triage tool found at its new URL, nine thresholds quote-checked against it, six redirects fixed, soft 404s caught by the weekly link check
+- Colorectal: company links for the trials the registry names, and the sponsor backfill that keeps the rankings honest
+- Colorectal molecular layer: 38-row genomic landscape from eight cBioPortal cohorts, sidedness as biology, the adenoma and serrated routes, CMS, immunity and ctDNA, with 47 paper records
 - Colorectal cancer, the UK and NHS layer: the screening programme and its four-nation differences, the faecal immunochemical test that now governs referral, the National Bowel Cancer Audit, 13 NICE appraisals with the 2026 bevacizumab reversal, and the UK trial legacy
+- Colorectal cancer deep spike: the evidence, the roadmap and the ideas
+- Colorectal core, second pass: sidedness and consensus molecular subtype supplements, the screening standards source, and three claims tightened against their sources
+- Colorectal: anti-EGFR rechallenge and the microsatellite-stable immunotherapy attempt
+- Colorectal trials: cross-links into the records already in the corpus, and two corrections
 - Colorectal cancer, living with it, care and decisions: ten decision rows, 74 appointment questions, a 19-item first 60 days checklist, six red-card sets and a NICE NG151 adjuvant decision aid
+- Fold the duplicates the base colorectal record and spike carried: five history entries, seven biomarker lines, three state-of-the-art points and three open problems written twice
+- Colorectal treatment layer: 38 hand-written trials from MOSAIC to ALTAIR, 661 registry trials, verified NICE and FDA approval rows, palliation
+- Colorectal core layer: sourced epidemiology, the early-onset rise, risk, referral, screening, staging, pathology and prevention on the colorectal record; four subtype pages and eleven glossary terms
 
 ### 24 September 2026
 - LAUNCH: pancreatic spike and the cooperative-group home ticked

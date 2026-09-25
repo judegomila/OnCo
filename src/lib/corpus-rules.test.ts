@@ -70,6 +70,15 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
   "pt-1",
   // Radiotherapy trials from the pre-registration era: CALGB 9343 (opened 1994), DAHANCA 5 (1986 to 1994), START-B, CHHiP, HYPO-RT-PC, PRIME II, IMPORT LOW and QUARTZ (UK and Nordic trials registered with ISRCTN only).
   "calgb-9343", "dahanca-5", "start-b", "chhip", "hypo-rt-pc", "prime-ii", "import-low", "quartz", "fast-forward",
+  // Lung cancer trials that pre-date ClinicalTrials.gov or are registered only where this field cannot hold the id:
+  // IALT (randomised 1995 to 2000), JBR.10 (NCIC CTG, 1994 to 2001), Intergroup 0096 (Turrisi, opened 1989) and the
+  // Dutch Bone Metastasis Study (1996) all pre-date registration; JCOG0802/WJOG4607L is UMIN000002317 and JROSG 99-1
+  // is UMIN C000000412, and UMIN ids do not match the pattern below; AMPLE is on ANZCTR under a number this field's
+  // ACTRN pattern does not cover; STARS and ROSEL is a pooled analysis of two trials (NCT00840749, NCT00687986), so
+  // no single registry id belongs on the record.
+  "ialt", "jbr-10", "turrisi-intergroup-0096", "dutch-bone-metastasis-study", "jcog0802", "jrosg-99-1", "ample", "stars-rosel",
+  // J-ALEX is registered with the Japan Pharmaceutical Information Center as JapicCTI-132316 only.
+  "j-alex",
   // Pre-registration chemoradiation and nodal trials (INT-0116, German rectal, ACT II, RTOG 91-11, DBCG 82, EORTC 26951, Slotman and Takahashi PCI).
   "int-0116", "cao-aro-aio-94", "act-ii", "rtog-91-11", "dbcg-82bc", "eortc-26951", "slotman-pci-es-sclc", "takahashi-pci",
   // Indian academic trials registered with the Clinical Trials Registry - India (CTRI) or run before registration was required.

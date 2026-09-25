@@ -410,6 +410,11 @@ describe("Ask OnCo end to end", () => {
     // in the word-search list it out-fused nsclc, which only had the word list. Capping the layer's papers at one
     // person each restores 0.421; two people each measured 0.419 again, so the cap is the fix and not a guess.
     { date: "2026-09-25", recall: 0.421, note: "lung molecular layer with one person named per new paper; floor held at 0.42" },
+    // 25 Sept 2026, lung deep dive: 323 registry trials and 36 hand-written lung trials measured 0.4193, below the
+    // floor, because IALT ("International Adjuvant Lung Cancer Trial") and KEYNOTE-091 out-matched adaura on lung-17,
+    // whose name is four letters and whose aka was empty. Fixed in the record, not the bar: adaura gained the aliases
+    // "Adjuvant osimertinib after complete resection of EGFR-mutant lung cancer" and "ADAURA trial".
+    { date: "2026-09-25", recall: 0.4243, note: "lung deep dive plus the ADAURA aliases; extractive rubric 0.685" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

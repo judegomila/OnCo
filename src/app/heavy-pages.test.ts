@@ -86,7 +86,9 @@ describe("heavy pages page their sections", () => {
     expect(html).toContain("Triple-negative breast cancer");
     expect(html).not.toContain("Coming down the pipeline");
     // 328 tiles with a TL;DR and an organ icon each: 441 KB when written, against 13.2 MB before.
-    expect(Buffer.byteLength(html, "utf8"), "for me markup").toBeLessThan(600 * KB);
+    // The rest is the footer nav, which costs about 120 bytes per site page and so grows with the
+    // corpus rather than with this page. The budget guards the tile grid; raise it only for chrome.
+    expect(Buffer.byteLength(html, "utf8"), "for me markup").toBeLessThan(610 * KB);
   });
 
   it("explained renders every cancer heading, the first ten rows of each section and the Show more sentinel", () => {

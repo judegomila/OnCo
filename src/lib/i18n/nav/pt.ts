@@ -96,6 +96,7 @@ export const navPt: NavDict = {
   "/toxicity/": ["Comparar toxicidade", "Eventos adversos de grau 3 ou superior entre produtos da mesma classe."],
   "/isotopes/": ["Fornecimento de isótopos", "Lu-177, Ac-225, Pb-212 e quem os produz."],
   "/checkpoints/": ["Famílias de pontos de controlo", "Uma palavra, duas biologias: pontos de controlo imunitários na sinapse e portões do ciclo celular no anel, cada membro com o seu parceiro, expressão, fármacos e aprovações."],
+  "/virotherapy/": ["Vírus oncolíticos", "Porque é que um vírus mata uma célula tumoral e não a vizinha, cada produto aprovado com o que o seu ensaio mostrou realmente, e os fracassos."],
   "/report/": ["Relatório anual", "O estado da guerra contra o cancro, ano a ano, gerado a partir do corpus."],
   "/changelog/": ["Registo de alterações", "O que mudou no OnCo, e quando."],
   "/status/": ["Atualidade dos dados", "Quando cada fonte automática correu pela última vez, o que está desatualizado e o registo de incidentes."],

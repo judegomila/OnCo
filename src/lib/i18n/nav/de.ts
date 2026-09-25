@@ -96,6 +96,7 @@ export const navDe: NavDict = {
   "/toxicity/": ["Toxizität vergleichen", "Nebenwirkungen ab Grad 3 über Produkte derselben Klasse."],
   "/isotopes/": ["Isotopenversorgung", "Lu-177, Ac-225, Pb-212 und wer sie herstellt."],
   "/checkpoints/": ["Checkpoint-Familien", "Ein Wort, zwei Biologien: Immun-Checkpoints an der Synapse und Zellzyklus-Schranken auf dem Ring, jedes Mitglied mit Partner, Expression, Wirkstoffen und Zulassungen."],
+  "/virotherapy/": ["Onkolytische Viren", "Warum ein Virus eine Krebszelle tötet und ihre Nachbarin nicht, jedes zugelassene Produkt mit dem, was seine Studie wirklich zeigte, und die Fehlschläge."],
   "/report/": ["Jahresbericht", "Der Stand des Krieges gegen den Krebs, Jahr für Jahr, aus dem Korpus erzeugt."],
   "/changelog/": ["Änderungsprotokoll", "Was sich in OnCo geändert hat, und wann."],
   "/status/": ["Datenaktualität", "Wann jeder automatische Feed zuletzt lief, was veraltet ist, und das Vorfallsprotokoll."],

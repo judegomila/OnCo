@@ -136,6 +136,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/countries/cn/", label: "China deep dive", blurb: "What China is up to: cancer profile, the NMPA, national insurance listing, institutions, companies, trials and people." },
       { href: "/countries/de/", label: "Germany deep dive", blurb: "What Germany does differently: reimbursement from day one and the benefit assessment that follows, certified cancer centres, mandatory clinical cancer registration, institutions, companies, trials and people." },
       { href: "/countries/il/", label: "Israel deep dive", blurb: "What Israel is up to: the public committee that decides each year which drugs the state pays for, the four health funds, founder genetics and population testing, and the trial and device industry." },
+      { href: "/countries/gb/", label: "United Kingdom deep dive", blurb: "What the UK does: four health services under one name, who pays, NICE and the SMC, the trials and the genomics, and what the figures say it does badly." },
       { href: "/cases/", label: "Cases by country", blurb: "New cancer cases per country and per cancer, with the data gaps made explicit." },
       { href: "/funding/", label: "Funding flows", blurb: "Where the money comes from." },
     ],

@@ -290,3 +290,32 @@ Added 25 September 2026. Same principle again: a 403 describes the request, not 
   set, a bare `curl` and every path tried, so no Northern Ireland incidence figure could be read for the skin layer.
   The Department of Health's own waiting-time workbooks at health-ni.gov.uk do open, and its ICD-10 mapping workbook
   is the readable substitute for how Northern Ireland classifies a tumour site.
+
+## Three routes found on the United Kingdom country layer
+
+Added 25 September 2026, writing `/countries/gb/`. Two of these turn a paywalled or JavaScript-only comparison into
+a file you can compute from, which is the difference between quoting a summary and quoting a number.
+
+- **ICBP SURVMARK-2 publishes its whole dataset as one CSV.** The Lancet Oncology paper behind every "UK cancer
+  survival lags" headline (Arnold et al 2019) is subscription-only, PubMed Central serves a reCAPTCHA and Europe
+  PMC's `fullTextXML` endpoint answers HTTP 500 for it. The data are open:
+  `https://gco.iarc.who.int/survival/survmark/data/V3.csv` is 56,570 rows of `year, country, sub_region,
+  cancer_site, sex, measure_type, time, measure, measure_lci, measure_uci, agegrp`, covering net survival at 1, 3
+  and 5 years, conditional net survival, incidence and mortality, for seven countries, seven sites and four
+  cohorts from 1995-1999 to 2010-2014. Filter on `measure_type="Net Survival"`, `time="5"`, `sub_region="All"`,
+  `agegrp="All"`; `measure` is a proportion, not a percentage. Every UK survival figure and every rank on the
+  country page was computed from this file rather than read from a summary.
+- **nice.org.uk answers 403 to WebFetch and 200 to curl with a browser user agent, and its chapter URLs move.**
+  `nice.org.uk/process/pmg36/chapter/committee-recommendations` 302s to `…/committee-recommendations-2`, so follow
+  redirects. Two things worth knowing once you are in: a **terminated appraisal lives at
+  `nice.org.uk/guidance/terminated/<ta>`**, and `nice.org.uk/guidance/<ta>` redirects there, which is the only
+  machine-readable way to tell a termination from a refusal; and NICE's cancer appraisal counts are prose on
+  `…/technology-appraisal-data-cancer-appraisal-recommendations`, where the non-submission count sits under a
+  heading reading "Not included in the data" and is therefore *not* part of the headline recommendation total.
+  Quote the two numbers separately.
+- **gov.uk has a public search API, which matters because the site's own URLs rot.** `https://www.gov.uk/api/search.json?q=<terms>&count=5&fields=title,link,public_timestamp`
+  returns JSON with no key and no bot challenge. It is how the 2009 guidance on NHS patients paying for additional
+  private care was found after the address this corpus had been citing for it, `…/publications/guidance-on-nhs-patients-who-wish-to-pay-for-additional-private-care`,
+  turned out to answer 404; the live address drops the leading "guidance-on-". Attachments live on
+  `assets.publishing.service.gov.uk`, which is never blocked, and `pdftotext -layout` reads them cleanly, which is
+  how the paragraph numbers in that guidance were quoted.

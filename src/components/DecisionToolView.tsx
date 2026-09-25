@@ -69,7 +69,7 @@ export function DecisionToolView({ toolId }: { toolId: string }) {
                 return (
                   <button key={o.value} type="button" role="radio" aria-checked={on} aria-controls={resultId} data-mobile-control title={o.hint}
                     onClick={() => setAnswers((a) => (a[input.id] === o.value ? Object.fromEntries(Object.entries(a).filter(([k]) => k !== input.id)) : { ...a, [input.id]: o.value }))}
-                    className={`chip border text-sm inline-flex items-center gap-1.5 cursor-pointer ${on ? "bg-accent text-white border-accent" : "bg-card border-border hover:border-accent hover:bg-accent-soft"}`}>
+                    className={`chip border text-sm inline-flex items-center gap-1.5 cursor-pointer whitespace-normal text-start ${on ? "bg-accent text-white border-accent" : "bg-card border-border hover:border-accent hover:bg-accent-soft"}`}>
                     <span aria-hidden className={`inline-block h-2 w-2 rounded-full ${on ? "bg-white" : "bg-foreground/20"}`} />{o.label}
                   </button>
                 );

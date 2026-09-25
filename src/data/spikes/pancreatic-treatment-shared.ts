@@ -32,7 +32,7 @@ export const SRC = {
   esmo2023: D("10.1016/j.annonc.2023.08.009"), asco2020: D("10.1200/JCO.20.01364"), lap07: D("10.1001/jama.2016.4324"), conko001: D("10.1001/jama.2013.279201"), norpact: D("10.1016/S2468-1253(23)00405-3"),
   nccn: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1455",
   ng85: "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations", ta476: "https://www.nice.org.uk/guidance/ta476", ta440: "https://www.nice.org.uk/guidance/ta440", ta630: "https://www.nice.org.uk/guidance/ta630",
-  ta644: "https://www.nice.org.uk/guidance/ta644", ta1118: "https://www.nice.org.uk/guidance/ta1118", ta914: "https://www.nice.org.uk/guidance/ta914", ta25: "https://www.nice.org.uk/guidance/ta25",
+  ta644: "https://www.nice.org.uk/guidance/ta644", ta1118: "https://www.nice.org.uk/guidance/terminated/ta1118", ta914: "https://www.nice.org.uk/guidance/ta914", ta25: "https://www.nice.org.uk/guidance/ta25",
   fdaOnivyde: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22ONIVYDE%22", fdaAbraxane: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22ABRAXANE%22",
   fdaLynparza: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22", fdaRasonque: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22RASONQUE%22",
   fdaKeytruda: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22KEYTRUDA%22", fdaBizengri: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22BIZENGRI%22",

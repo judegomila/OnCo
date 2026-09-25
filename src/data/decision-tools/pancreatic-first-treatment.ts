@@ -26,8 +26,8 @@ const NG85: ToolSource = { label: "NICE NG85: pancreatic cancer in adults, diagn
 const TA476: ToolSource = { label: "NICE TA476: paclitaxel as albumin-bound nanoparticles with gemcitabine for untreated metastatic pancreatic cancer, recommendation 1.1 (September 2017)", url: "https://www.nice.org.uk/guidance/ta476/chapter/1-Recommendations" };
 const TA440: ToolSource = { label: "NICE TA440: pegylated liposomal irinotecan for treating pancreatic cancer after gemcitabine, recommendation 1.1 (April 2017)", url: "https://www.nice.org.uk/guidance/ta440/chapter/1-Recommendations" };
 const CRUK_DECISIONS: ToolSource = { label: "Cancer Research UK: treatment options for pancreatic cancer", url: "https://www.cancerresearchuk.org/about-cancer/pancreatic-cancer/treatment/treatment-decisions" };
-const PCUK_WHO: ToolSource = { label: "Pancreatic Cancer UK: who can have surgery for pancreatic cancer?", url: "https://www.pancreaticcancer.org.uk/information/treatments-for-pancreatic-cancer/surgery-for-pancreatic-cancer/who-can-have-surgery/" };
-const PCUK_STENT: ToolSource = { label: "Pancreatic Cancer UK: stent for a blocked bile duct", url: "https://www.pancreaticcancer.org.uk/information/treatments-for-pancreatic-cancer/stent-for-a-blocked-bile-duct/" };
+const PCUK_WHO: ToolSource = { label: "Pancreatic Cancer UK: who can have surgery for pancreatic cancer?", url: "https://www.pancreaticcancer.org.uk/information-and-support/treatments-for-pancreatic-cancer/surgery-for-pancreatic-cancer/who-can-have-surgery/" };
+const PCUK_STENT: ToolSource = { label: "Pancreatic Cancer UK: stent for a blocked bile duct", url: "https://www.pancreaticcancer.org.uk/information-and-support/treatments-for-pancreatic-cancer/stent-for-a-blocked-bile-duct/" };
 const NHS_TREATMENT: ToolSource = { label: "NHS: treatment for pancreatic cancer", url: "https://www.nhs.uk/conditions/pancreatic-cancer/treatment/" };
 const ROW_NCCN: ToolSource = { label: "OnCo standard-of-care rows for pancreatic ductal adenocarcinoma (src/data/spikes/pancreatic.ts), written from NCCN Guidelines: Pancreatic Adenocarcinoma", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1455" };
 
@@ -280,7 +280,7 @@ export const pancreaticFirstTreatmentTool: DecisionTool = {
     { id: "jaundice", label: "Jaundice now", hint: "Yellow eyes or skin, dark urine, pale stools or itching: the tumour is blocking the bile duct.", icon: "liver",
       options: [{ value: "yes", label: "Yes" }, { value: "no", label: "No" }] },
     { id: "fitness", label: "How well you are", hint: "Fitness for a major operation and for combination chemotherapy, as your team judges it (performance status). A rough guide, not a score you give yourself.", icon: "age",
-      options: [{ value: "fit", label: "Well: up and about, largely independent (performance status 0 to 1)" }, { value: "less-fit", label: "Less well: not fit for FOLFIRINOX-type treatment or a major operation yet, but able to have a gentler combination" }, { value: "not-fit", label: "Not well enough for combination chemotherapy" }] },
+      options: [{ value: "fit", label: "Well (performance status 0 to 1)", hint: "Up and about, largely independent" }, { value: "less-fit", label: "Less well: a gentler combination, not FOLFIRINOX or a major operation yet", hint: "Not fit for FOLFIRINOX-type treatment or a major operation yet, but able to have a gentler combination" }, { value: "not-fit", label: "Not well enough for combination chemotherapy" }] },
   ],
   cards,
   decide,

@@ -96,6 +96,15 @@ const MAC_OSIMERTINIB = { label: "Macmillan: osimertinib (Tagrisso)", url: "http
 const CRUK_LUNG_BREATHLESSNESS = { label: "Cancer Research UK: coping with breathlessness when you have lung cancer", url: "https://www.cancerresearchuk.org/about-cancer/lung-cancer/living-with/coping-with-breathlessness" };
 const CRUK_PLEURAL_EFFUSION = { label: "Cancer Research UK: fluid on the lungs (pleural effusion)", url: "https://www.cancerresearchuk.org/about-cancer/coping/physically/breathing-problems/fluid-on-lungs-pleural-effusion" };
 
+// Prostate cancer
+const NG131_PROSTATE = { label: "NICE NG131: prostate cancer, diagnosis and management", url: "https://www.nice.org.uk/guidance/ng131/chapter/Recommendations" };
+const PCUK_MSCC = { label: "Prostate Cancer UK: metastatic spinal cord compression (MSCC)", url: "https://prostatecanceruk.org/prostate-information-and-support/advanced-prostate-cancer/metastatic-spinal-cord-compression-mscc" };
+const PCUK_URINARY = { label: "Prostate Cancer UK: urinary problems after prostate cancer treatment", url: "https://prostatecanceruk.org/prostate-information-and-support/living-with-prostate-cancer/urinary-problems" };
+const PCUK_ED_TREATMENTS = { label: "Prostate Cancer UK: treatments for erection problems", url: "https://prostatecanceruk.org/prostate-information-and-support/living-with-prostate-cancer/sex-and-relationships/treatments-for-erection-problems" };
+const PCUK_HORMONE = { label: "Prostate Cancer UK: how hormone therapy affects you", url: "https://prostatecanceruk.org/prostate-information-and-support/living-with-prostate-cancer/how-hormone-therapy-affects-you" };
+const NHS_PROSTATE_SYMPTOMS = { label: "NHS: symptoms of prostate cancer", url: "https://www.nhs.uk/conditions/prostate-cancer/symptoms/" };
+const MAC_DOCETAXEL = { label: "Macmillan: docetaxel", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/docetaxel" };
+
 export const GENERAL_RED_FLAGS: RedFlagSet = {
   id: "general",
   label: "Anyone on cancer treatment",
@@ -608,6 +617,83 @@ export const redFlagSets: RedFlagSet[] = [
       { symptom: "Numbness or tingling that is getting worse or lasting between cycles", threshold: "NICE NG151 says to emphasise the importance of monitoring and managing side effects during non-surgical treatment to try to prevent permanent damage, giving monitoring of prolonged sensory symptoms after platinum-based chemotherapy as the example, which can be a sign that the dose needs to be reduced to minimise future permanent peripheral neuropathy.", action: "call-today", source: NG151 },
       { symptom: "A rash, or sore and swollen skin around the nails, on cetuximab or panitumumab", threshold: "Macmillan says skin changes are often mild but can be more severe, and that if you notice any skin changes you should contact the hospital as soon as possible on the 24-hour number, because you may need creams, steroids or antibiotics and treatment may be paused; sore, swollen skin around the nails may be a sign of infection.", action: "call-today", source: MAC_CETUXIMAB },
       { symptom: "Blistering skin, or sores in the mouth, eyes or genitals", threshold: "Macmillan says that rarely cetuximab can cause a serious skin reaction that needs to be treated immediately in hospital, and to contact the hospital straight away on the 24-hour number.", action: "emergency", source: MAC_CETUXIMAB },
+    ],
+  },
+  {
+    id: "prostate-cord-compression",
+    label: "Prostate cancer: spinal cord compression, the emergency men are not warned about",
+    cancerIds: ["prostate", "prostate-mhspc", "prostate-mcrpc", "prostate-nmcrpc"],
+    concernIds: ["bone-metastases"],
+    window: "About 4 in 100 people with prostate cancer develop metastatic spinal cord compression, and the risk is highest once the cancer has reached the spine. Treated quickly the damage is usually recoverable; left for days it may not be.",
+    flags: [
+      { symptom: "New weakness or numbness in the legs, unsteadiness, or loss of control of the bladder or bowel", threshold: "NICE NG234 says to immediately contact the metastatic spinal cord compression coordinator if a person with a past or current diagnosis of cancer presents with bladder or bowel dysfunction, gait disturbance or difficulty walking, limb weakness, neurological signs of spinal cord or cauda equina compression, numbness, paraesthesia or sensory loss, or radicular pain, and to treat this as an oncological emergency.", action: "emergency", source: NG234_MSCC },
+      { symptom: "New, severe or worsening back or neck pain, worse lying down, coughing or straining, or waking you at night", threshold: "NICE NG234 says to seek advice through the coordinator within 24 hours for severe unremitting back pain, progressive back pain, mechanical pain aggravated by standing, sitting or moving, back pain aggravated by straining such as coughing or sneezing, night-time back pain disturbing sleep, localised tenderness, or claudication. Prostate Cancer UK says not to wait to see if it gets better and not to worry that it is an inconvenient time such as the evening or the weekend.", action: "call-now", source: PCUK_MSCC },
+      { symptom: "A band of pain around the chest or abdomen, or pain running down an arm or leg", threshold: "Prostate Cancer UK lists a narrow band of pain around the chest or abdomen that can move towards the back, buttocks or legs, and pain that moves down the arms or legs, among the symptoms of cord compression to get medical advice about straight away.", action: "call-now", source: PCUK_MSCC },
+      { symptom: "You cannot reach anyone from your team", threshold: "Prostate Cancer UK says that if you do not have details of who to contact, or your doctor or nurse is not available, go to your nearest accident and emergency department, and tell the staff or paramedics that you have prostate cancer and symptoms of spinal cord compression, because not everyone will be familiar with it. Ask your team in advance to write down who to contact during the day, at night and at the weekend.", action: "emergency", source: PCUK_MSCC },
+    ],
+  },
+  {
+    id: "prostate-urinary-retention",
+    label: "Prostate cancer: not being able to pass urine, and other urgent bladder problems",
+    cancerIds: ["prostate", "prostate-low-risk", "prostate-intermediate-risk", "prostate-high-risk"],
+    concernIds: ["brachytherapy", "robotic-surgery"],
+    window: "Acute retention is commonest in the days and weeks after brachytherapy, radiotherapy or a focal treatment, when the prostate swells, and after surgery if the urethra narrows with scarring.",
+    flags: [
+      { symptom: "Suddenly and painfully unable to pass urine at all", threshold: "Prostate Cancer UK says acute urine retention is when you suddenly and painfully cannot urinate, that it needs treating straight away, and to call your doctor or nurse or go to your nearest accident and emergency department, where they may need to drain the bladder with a catheter. Make sure they know what prostate cancer treatment you have had.", action: "emergency", source: PCUK_URINARY },
+      { symptom: "A catheter that stops draining, or leaks around itself, with pain or a swollen tummy", threshold: "A blocked catheter recreates retention with the catheter still in place. Prostate Cancer UK describes catheter drainage as the treatment for retention, so a catheter that has stopped working is the same problem and needs the urology team or A and E rather than the next district nurse round.", action: "call-now", source: PCUK_URINARY },
+      { symptom: "Fever, shivering or burning when passing urine after a biopsy or with a catheter", threshold: "NICE NG131 says the most serious complication of transrectal ultrasound-guided biopsy is sepsis, which develops in a bit fewer than 1 out of 100 people, and that other serious complications including acute urinary retention, severe haematuria and severe rectal bleeding may need hospitalisation.", action: "call-now", source: NG131_PROSTATE },
+      { symptom: "Blood in the urine with clots, or bleeding heavy enough to stop you passing urine", threshold: "The NHS lists blood in the urine among the symptoms of prostate cancer to see a GP about. Clots that stop the bladder emptying turn bleeding into retention, so heavy bleeding with difficulty passing urine is an A and E problem rather than a wait-and-see.", action: "call-now", source: NHS_PROSTATE_SYMPTOMS },
+    ],
+  },
+  {
+    id: "prostate-bone-pain",
+    label: "Prostate cancer: bone pain and fractures",
+    cancerIds: ["prostate", "prostate-mhspc", "prostate-mcrpc", "prostate-nmcrpc"],
+    concernIds: ["bone-metastases", "zoledronic-acid", "denosumab"],
+    window: "Bone is where prostate cancer goes first and most often. Pain that is new, worsening, or waking you at night is the pattern that matters, not the ache you have had for years.",
+    flags: [
+      { symptom: "Bone pain that your usual painkillers are not controlling", threshold: "NICE NG131 says to consider oral or intravenous bisphosphonates for pain relief for people with hormone-relapsed metastatic prostate cancer when other treatments, including analgesics and palliative radiotherapy, have not given satisfactory pain relief, so uncontrolled bone pain is a reason to ring the team rather than to take more tablets.", action: "call-today", source: NG131_PROSTATE },
+      { symptom: "Sudden severe pain in a hip, thigh, arm or rib, especially after a minor knock", threshold: "Hormone therapy thins bone from the first year of treatment: in a study of 50,613 men, 19.4 percent of those on androgen deprivation who survived at least five years had a fracture, against 12.6 percent of those not on it. A bone weakened by cancer or by treatment can break with very little force, so sudden severe pain with an inability to bear weight is an emergency assessment.", action: "emergency", source: PCUK_HORMONE },
+      { symptom: "New back pain anywhere in the spine", threshold: "Prostate Cancer UK says MSCC can be mistaken for general back pain or for bone pain caused by the cancer, so new spinal pain in someone with prostate cancer is assessed for cord compression rather than assumed to be either.", action: "call-now", source: PCUK_MSCC },
+    ],
+  },
+  {
+    id: "prostate-hormone-therapy",
+    label: "Prostate cancer: hormone therapy effects that need action rather than endurance",
+    cancerIds: ["prostate", "prostate-mhspc", "prostate-mcrpc", "prostate-nmcrpc"],
+    concernIds: ["cancer-related-fatigue", "bone-metastases"],
+    window: "Most of these build over months rather than arriving suddenly, which is why they get tolerated. Each of them has something NICE NG131 says to offer for it.",
+    flags: [
+      { symptom: "Chest pain, breathlessness, or the signs of a stroke while on hormone therapy", threshold: "Prostate Cancer UK says evidence suggests hormone therapy might increase the chance of developing heart disease, stroke and type-2 diabetes; in 73,196 men, GnRH agonist use carried an adjusted hazard ratio of 1.16 for coronary heart disease and 1.16 for sudden cardiac death. Chest pain or stroke symptoms are 999 whatever the cause.", action: "emergency", source: PCUK_HORMONE },
+      { symptom: "Hot flushes that are disrupting your sleep or your day", threshold: "NICE NG131 says to offer medroxyprogesterone 20 mg per day, initially for 10 weeks, to manage troublesome hot flushes caused by long-term androgen suppression, and to consider cyproterone acetate 50 mg twice a day for 4 weeks if medroxyprogesterone is not effective or not tolerated. There is a prescription for this, so it is worth ringing rather than enduring.", action: "call-today", source: NG131_PROSTATE },
+      { symptom: "Low mood, loss of interest in everything, or thoughts of harming yourself", threshold: "Prostate Cancer UK says hormone therapy itself can cause low moods, anxiety or depression, and a meta-analysis of 18 studies in 168,756 men found androgen deprivation carried a 41 percent higher risk of depression. Thoughts of harming yourself are an emergency: call 999 or go to A and E, or ring 111 and choose the mental health option.", action: "emergency", source: PCUK_HORMONE },
+      { symptom: "Fatigue that is stopping you doing ordinary things", threshold: "NICE NG131 says to tell people starting androgen deprivation therapy that fatigue is a recognised side effect of this therapy and might not be because of their prostate cancer, and to offer supervised resistance and aerobic exercise at least twice a week for 12 weeks to reduce fatigue and improve quality of life. That is a referral you can ask for.", action: "call-today", source: NG131_PROSTATE },
+    ],
+  },
+  {
+    id: "prostate-sexual-function",
+    label: "Prostate cancer: erections, and the one sexual problem that is an emergency",
+    cancerIds: ["prostate", "prostate-low-risk", "prostate-intermediate-risk", "prostate-high-risk"],
+    concernIds: ["robotic-surgery"],
+    window: "Treatments for erection problems are free on the NHS at any age. Most of what follows is a reason to ring the clinic; one item on it is a reason to go to A and E the same hour.",
+    flags: [
+      { symptom: "An erection that will not go down after four hours", threshold: "Prostate Cancer UK says to go to your nearest accident and emergency department straight away if your erection lasts more than four hours, that this is called priapism and is considered a medical emergency but can be treated, and that it affects fewer than 1 in 100 men using treatments for erection problems and about 1 in 100 using injections. Walking, squatting, passing urine or something cold may help while you get there.", action: "emergency", source: PCUK_ED_TREATMENTS },
+      { symptom: "Chest pain or faintness after taking a PDE5 inhibitor tablet", threshold: "Prostate Cancer UK says you should not take PDE5 inhibitor tablets if you are taking drugs called nitrates, including the recreational drugs known as poppers, because taking them at the same time can cause your blood pressure to drop dangerously low, which can be fatal, and that alpha blockers may need to be taken at least four hours apart.", action: "emergency", source: PCUK_ED_TREATMENTS },
+      { symptom: "Pain, swelling or fever after a penile implant", threshold: "Prostate Cancer UK says about 3 in 100 men who have an implant get an infection, and that if that happens the implant is taken out to treat the infection before a new one is put in; bruising and swelling around the scrotum are expected in the first weeks, but fever is not.", action: "call-now", source: PCUK_ED_TREATMENTS },
+      { symptom: "Nothing is working, and nobody has asked you about it", threshold: "NICE NG131 says to offer people who have had radical treatment for prostate cancer access to specialist erectile dysfunction services, to offer PDE5 inhibitors to people who experience loss of erectile function, and to offer vacuum devices, intraurethral inserts or penile injections, or penile prostheses where those do not work or are contraindicated. The NHS pays for this and there is no age limit, so asking for the referral is asking for something already offered.", action: "call-today", source: NG131_PROSTATE },
+    ],
+  },
+  {
+    id: "prostate-docetaxel-sepsis",
+    label: "Prostate cancer chemotherapy: neutropenic sepsis on docetaxel",
+    cancerIds: ["prostate", "prostate-mhspc", "prostate-mcrpc"],
+    concernIds: ["neutropenia", "febrile-neutropenia"],
+    window: "The risk is highest about 7 to 14 days after each three-weekly dose, when the white cell count is at its lowest, but a fever at any point counts. NICE NG131 reports febrile neutropenia in 15 out of 100 men given docetaxel for high-risk non-metastatic disease.",
+    flags: [
+      { symptom: "Fever, shivering, or feeling unwell with a normal temperature", threshold: "NICE CG151 defines neutropenic sepsis as a temperature higher than 38 C or any symptoms and signs of sepsis in a person having anticancer treatment; NICE NG131 reports that 15 out of 100 people who took docetaxel developed febrile neutropenia and 1 out of 100 died because of infections that, in the opinion of the investigators, they might not have developed without it.", action: "call-now", source: NICE_CG151 },
+      { symptom: "Signs of sepsis", threshold: "The NHS says to call 999 or go to A and E for breathing very fast, confusion or slurred speech or not making sense, blue, pale or blotchy skin, lips or tongue, a very high or very low temperature, feeling hot or cold to the touch or shivery, or a rash that does not fade when pressed.", action: "emergency", source: NHS_SEPSIS },
+      { symptom: "Diarrhoea, a sore mouth or vomiting that stops you drinking", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number if you have diarrhoea, a sore mouth or throat that affects how much you can eat or drink, or if you are being sick, because dehydration with a low white cell count is how a manageable side effect becomes sepsis.", action: "call-now", source: MAC_DOCETAXEL },
+      { symptom: "Numbness or tingling in the hands or feet that is getting worse", threshold: "Macmillan says docetaxel can cause numbness or tingling in the hands and feet and to tell your doctor or nurse if this affects you, because the dose may need to be changed to stop the damage becoming permanent.", action: "call-today", source: MAC_DOCETAXEL },
     ],
   },
 ];

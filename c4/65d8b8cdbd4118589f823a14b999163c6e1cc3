@@ -1,0 +1,28 @@
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_315b980bbcb59d 70
+  s_0beac9cb5d78fd::t_12ec9dd8cc56ec 100
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_5af938eb82b269 12,15,40-42,178-219,417-439
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_500d9cfa98ef03 18,136
+src/data/coverage-uk.ts
+  s_0beac9cb5d78fd::t_23a83c64b205b8 110,112,162,164,173,189
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_315b980bbcb59d 56,84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c465d8b8cdbd4118589f823a14b999163c6e1cc3",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

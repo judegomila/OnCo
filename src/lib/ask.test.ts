@@ -402,6 +402,14 @@ describe("Ask OnCo end to end", () => {
     // the counts by provenance instead (0.6 a record) measured 0.407 and a lower registry weight (0.5) 0.408, so neither
     // was kept. Natural set 0.886 to 0.892, natural-2 0.983 to 0.978, pipeline benchmark rubric 0.841 to 0.846.
     { date: "2026-09-24", recall: 0.427, note: "inverse document frequency over curated records only; extractive rubric 0.683" },
+    // 25 Sept 2026, lung molecular layer (45 landscape papers, 4 readouts, prevalence rows on 30 targets). Measured
+    // 0.419 before the fix below, against 0.421 for the same corpus without the layer. The single lost record was
+    // `nsclc` in lung-16: naming three to five lung investigators on each new paper diluted those people's concept
+    // vectors (semantic-docs.ts appends every neighbour's name to a record's text), matthew-hellmann fell from 0.212
+    // to 0.189 and john-heymach left the concept top twelve, which let ret-fusion-nsclc in, and because it also sits
+    // in the word-search list it out-fused nsclc, which only had the word list. Capping the layer's papers at one
+    // person each restores 0.421; two people each measured 0.419 again, so the cap is the fix and not a guess.
+    { date: "2026-09-25", recall: 0.421, note: "lung molecular layer with one person named per new paper; floor held at 0.42" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

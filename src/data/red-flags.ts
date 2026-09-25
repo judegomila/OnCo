@@ -85,6 +85,17 @@ const MAC_CETUXIMAB = { label: "Macmillan: cetuximab (Erbitux)", url: "https://w
 const MAC_FOLFOX = { label: "Macmillan: FOLFOX", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/folfox" };
 const BCUK_STOMA = { label: "Bowel Cancer UK: stomas", url: "https://www.bowelcanceruk.org.uk/about-bowel-cancer/treatment/surgery/stomas/" };
 
+const NHS_LUNG_SYMPTOMS = { label: "NHS: symptoms of lung cancer", url: "https://www.nhs.uk/conditions/lung-cancer/symptoms/" };
+const NHS_COUGHING_BLOOD = { label: "NHS: coughing up blood (blood in phlegm)", url: "https://www.nhs.uk/symptoms/coughing-up-blood/" };
+const NG122_PALLIATIVE = { label: "NICE NG122: lung cancer, palliative interventions and supportive and palliative care", url: "https://www.nice.org.uk/guidance/ng122/chapter/Palliative-interventions-and-supportive-and-palliative-care" };
+const NG234_MSCC = { label: "NICE NG234: spinal metastases and metastatic spinal cord compression, recommendations", url: "https://www.nice.org.uk/guidance/ng234/chapter/Recommendations" };
+const MAC_SVCO = { label: "Macmillan: superior vena cava obstruction (SVCO)", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/superior-vena-cava-obstruction" };
+const MAC_BREATHLESSNESS = { label: "Macmillan: breathlessness", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/breathlessness" };
+const MAC_DURVALUMAB = { label: "Macmillan: durvalumab (Imfinzi)", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/durvalumab" };
+const MAC_OSIMERTINIB = { label: "Macmillan: osimertinib (Tagrisso)", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/osimertinib" };
+const CRUK_LUNG_BREATHLESSNESS = { label: "Cancer Research UK: coping with breathlessness when you have lung cancer", url: "https://www.cancerresearchuk.org/about-cancer/lung-cancer/living-with/coping-with-breathlessness" };
+const CRUK_PLEURAL_EFFUSION = { label: "Cancer Research UK: fluid on the lungs (pleural effusion)", url: "https://www.cancerresearchuk.org/about-cancer/coping/physically/breathing-problems/fluid-on-lungs-pleural-effusion" };
+
 export const GENERAL_RED_FLAGS: RedFlagSet = {
   id: "general",
   label: "Anyone on cancer treatment",
@@ -448,6 +459,78 @@ export const redFlagSets: RedFlagSet[] = [
     flags: [
       { symptom: "Swollen or painful leg or arm with breathlessness or chest pain", threshold: "The NHS says call 999 or go to A&E if you have symptoms of DVT, such as pain and swelling, and feel short of breath or have chest pain; a clot that travels to the lungs (pulmonary embolism) is life-threatening. Do not drive yourself.", action: "emergency", source: NHS_DVT },
       { symptom: "Pain, swelling, warmth or colour change in one leg or arm; sudden or gradual breathlessness; coughing up blood", threshold: "Pancreatic Cancer UK says tell your doctor or medical team straight away, or go to A&E or call 999; on chemotherapy call the 24-hour emergency number, and if you cannot get through go to A&E or call 999. Most clots are treated with blood-thinning tablets or injections without stopping cancer treatment.", action: "call-now", source: PCUK_CLOTS },
+    ],
+  },
+  {
+    id: "lung-breathlessness",
+    label: "Lung cancer: breathlessness that is new, worse, or there at rest",
+    cancerIds: ["lung-cancer", "nsclc", "sclc"],
+    concernIds: ["pleural-effusion", "anaemia", "cancer-related-fatigue"],
+    window: "Breathlessness in lung cancer has several separately treatable causes (a chest infection, anaemia, fluid around the lung, a partly blocked airway, a clot, inflammation after radiotherapy or immunotherapy), and they cannot be told apart at home.",
+    flags: [
+      { symptom: "Struggling to breathe, choking or gasping and unable to speak", threshold: "The NHS says to call 999 or go to A&E if you are struggling to breathe, if you are choking, gasping and unable to speak, or if you have pain in your chest or upper back. Do not drive yourself.", action: "emergency", source: NHS_LUNG_SYMPTOMS },
+      { symptom: "Breathlessness that is new, or worse quickly, or painful to breathe", threshold: "Macmillan says to contact your doctor straight away if breathlessness is a new symptom, if you have pain when you breathe, or if the breathlessness gets worse quickly, and that if you cannot speak to your doctor and it continues to get worse, go straight to your nearest A&E.", action: "call-now", source: MAC_BREATHLESSNESS },
+      { symptom: "Suddenly more breathless when you already have fluid around the lung", threshold: "Cancer Research UK says that if you suddenly become breathless or your breathing gets worse with a pleural effusion, call 999 or go to your local A&E straight away, because you may need urgent treatment.", action: "emergency", source: CRUK_PLEURAL_EFFUSION },
+      { symptom: "More breathless than usual with coloured phlegm or a high temperature", threshold: "Cancer Research UK says that if you are more breathless than usual you might have a chest infection, with coughing up coloured phlegm and a high temperature, that people with lung cancer can be more prone to infections, and to contact your GP or specialist nurse because you might need antibiotics.", action: "call-today", source: CRUK_LUNG_BREATHLESSNESS },
+    ],
+  },
+  {
+    id: "lung-pneumonitis",
+    label: "Lung cancer: pneumonitis from immunotherapy, targeted drugs or radiotherapy",
+    cancerIds: ["lung-cancer", "nsclc", "sclc"],
+    concernIds: ["radiation-pneumonitis", "irae"],
+    window: "Immunotherapy pneumonitis can start at any point during treatment and for months after the last dose; radiotherapy pneumonitis usually starts in the weeks after treatment, and a smaller number of people develop a later, longer-lasting form months or years on.",
+    flags: [
+      { symptom: "Breathlessness, a cough that does not go away, wheezing, or a fever over 37.5 C on immunotherapy", threshold: "Macmillan says this treatment can cause inflammation of the lungs (pneumonitis) and to contact the hospital straight away on the 24-hour number for breathlessness, a cough that does not go away, wheezing, or a fever with a temperature over 37.5 C, during treatment or after it ends.", action: "call-now", source: MAC_PEMBRO },
+      { symptom: "The same symptoms after chemoradiotherapy and durvalumab", threshold: "Macmillan gives durvalumab the same warning: contact the hospital straight away on the 24-hour number for breathlessness, a cough that does not go away, wheezing, or a fever with a temperature over 37.5 C. Having had chest radiotherapy as well does not make the symptoms less urgent, it makes them harder to explain, which is the reason to ring.", action: "call-now", source: MAC_DURVALUMAB },
+      { symptom: "A dry cough or shortness of breath in the weeks after chest radiotherapy", threshold: "Cancer Research UK says radiotherapy to the chest might inflame the lungs, that soon after treatment you might have a dry cough or shortness of breath (acute radiation pneumonitis), and that in a small number of people cough and breathlessness continue because of chronic radiation pneumonitis starting months or years later.", action: "call-today", source: CRUK_LUNG_BREATHLESSNESS },
+      { symptom: "Breathlessness, a cough that does not go away, wheezing, or a fever over 37.5 C on a targeted tablet", threshold: "Macmillan gives osimertinib the same warning as the immunotherapies: this treatment can cause inflammation of the lungs, so contact the hospital straight away on the 24-hour number if you notice breathlessness, a cough that does not go away, wheezing, or a fever with a temperature over 37.5 C, during treatment or after it ends.", action: "call-now", source: MAC_OSIMERTINIB },
+    ],
+  },
+  {
+    id: "lung-neutropenic-sepsis",
+    label: "Lung cancer treatment: neutropenic sepsis",
+    cancerIds: ["lung-cancer", "nsclc", "sclc"],
+    concernIds: ["neutropenia", "febrile-neutropenia"],
+    window: "The risk is highest about 7 to 14 days after each dose of platinum chemotherapy, when the white cell count is at its lowest, but a fever at any point counts, and a chest infection in a lung already affected by cancer gets worse faster.",
+    flags: [
+      { symptom: "A temperature above 37.5 C, a temperature below 36 C, or feeling unwell with a normal temperature", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number if you have a temperature above 37.5 C, a temperature below 36 C, or you feel unwell even with a normal temperature; NICE CG151 defines neutropenic sepsis as a temperature higher than 38 C or any symptoms and signs of sepsis in a person having anticancer treatment.", action: "call-now", source: MAC_PEMBRO },
+      { symptom: "Signs of sepsis", threshold: "The NHS says to call 999 or go to A&E if an adult is breathing very fast, is confused, has slurred speech or is not making sense, has blue, pale or blotchy skin, has a very high or very low temperature or feels hot or cold to the touch or shivery, or has a rash that does not fade when you press it.", action: "emergency", source: NHS_SEPSIS },
+      { symptom: "Fever with a cough and coloured phlegm", threshold: "NICE CG151 treats fever during anticancer treatment as neutropenic sepsis until proved otherwise; a chest infection is the commonest source in lung cancer, so ringing the 24-hour line comes before starting antibiotics from a previous course.", action: "call-now", source: NICE_CG151 },
+      { symptom: "Unexplained bruising or bleeding", threshold: "Macmillan says that if you have any unexplained bruising or bleeding, contact the hospital straight away on the 24-hour number, because you may need a platelet transfusion.", action: "call-now", source: MAC_OSIMERTINIB },
+    ],
+  },
+  {
+    id: "lung-haemoptysis",
+    label: "Lung cancer: coughing up blood",
+    cancerIds: ["lung-cancer", "nsclc", "sclc"],
+    flags: [
+      { symptom: "Coughing up more than a few spots or streaks of blood", threshold: "The NHS says to call 999 or go to A&E immediately if you are coughing up more than just a few spots or streaks of blood, or if you are coughing up blood and finding it hard to breathe, have a very fast heartbeat, or have pain in your chest or upper back.", action: "emergency", source: NHS_COUGHING_BLOOD },
+      { symptom: "A few spots, flecks or streaks of blood in phlegm", threshold: "The NHS says to ask for an urgent GP appointment or get help from NHS 111 if you have coughed up a few small spots, flecks or streaks of blood, or noticed blood in your phlegm or on a tissue you have coughed into.", action: "call-today", source: NHS_COUGHING_BLOOD },
+      { symptom: "Coughing up blood for the first time when you are on treatment", threshold: "Tell the cancer team on the 24-hour number as well as using 111 or 999 as the amount dictates: the treatment may need holding, and a clot in the lung and a bleeding tumour are treated in opposite ways.", action: "call-now", source: NHS_LUNG_SYMPTOMS },
+    ],
+  },
+  {
+    id: "lung-svc-obstruction",
+    label: "Lung cancer: superior vena cava obstruction (swelling of the face, neck and arms)",
+    cancerIds: ["lung-cancer", "nsclc", "sclc"],
+    window: "Most cases of superior vena cava obstruction are caused by lung cancer, and Macmillan says the symptoms can develop over a few days or over a few weeks, so a change over a week still counts as new.",
+    flags: [
+      { symptom: "Swelling of the face, neck, arms or hands, with breathlessness", threshold: "Macmillan says the most common symptoms are breathlessness because of swelling around the windpipe, headaches or a feeling of fullness in the head that gets worse leaning forward or bending over, facial swelling with changes to your complexion, changes in eyesight, a swollen neck, swollen arms and hands, visible swollen veins on the chest and dizziness, and that if you have any of these it is important to contact your cancer doctor or nurse straight away because it needs to be treated quickly.", action: "call-now", source: MAC_SVCO },
+      { symptom: "Swelling of the face or neck with stridor, difficulty breathing or confusion", threshold: "Breathlessness that is severe, noisy breathing, or drowsiness and confusion alongside the swelling is an emergency rather than a same-day call: the NHS says to call 999 or go to A&E if you are struggling to breathe, and confusion is one of the sepsis and emergency signs on the same page.", action: "emergency", source: NHS_LUNG_SYMPTOMS },
+      { symptom: "Being told you need urgent treatment for a blocked vein in the chest", threshold: "NICE NG122 (1.15.7) says that for people who present with superior vena cava obstruction, offer chemotherapy and radiotherapy based on the stage of disease and performance status, and (1.15.8) consider stent insertion for the immediate relief of severe symptoms or after earlier treatment has failed, so this is treatable and the treatment is planned quickly.", action: "call-now", source: NG122_PALLIATIVE },
+    ],
+  },
+  {
+    id: "lung-spinal-cord-compression",
+    label: "Lung cancer: spinal cord compression and spinal metastases",
+    cancerIds: ["lung-cancer", "nsclc", "sclc"],
+    concernIds: ["bone-metastases"],
+    window: "NICE NG234 treats new cord compression symptoms in anyone with a past or current diagnosis of cancer as an oncological emergency, and asks for advice within 24 hours for the pain pattern that suggests spinal metastases.",
+    flags: [
+      { symptom: "New weakness, numbness or altered sensation in the legs, difficulty walking, or bladder or bowel problems", threshold: "NICE NG234 says to immediately contact the metastatic spinal cord compression coordinator if a person with a past or current diagnosis of cancer presents with bladder or bowel dysfunction, gait disturbance or difficulty walking, limb weakness, neurological signs of spinal cord or cauda equina compression, numbness, paraesthesia or sensory loss, or radicular pain, and to treat this as an oncological emergency.", action: "emergency", source: NG234_MSCC },
+      { symptom: "Severe, unremitting or progressive back pain, worse on coughing, straining or lying down", threshold: "NICE NG234 says to seek advice through the coordinator within 24 hours if a person with a past or current diagnosis of cancer has severe unremitting back pain, progressive back pain, mechanical pain aggravated by standing, sitting or moving, back pain aggravated by straining such as coughing or sneezing, night-time back pain disturbing sleep, localised tenderness, or claudication.", action: "call-now", source: NG234_MSCC },
+      { symptom: "Bone pain that ordinary painkillers are not controlling", threshold: "NICE NG122 (1.17.1) says to offer single-fraction radiotherapy to people with bone metastasis who need palliation and for whom standard pain relief is inadequate, so uncontrolled bone pain is a reason to ring the team rather than to take more tablets.", action: "call-today", source: NG122_PALLIATIVE },
     ],
   },
   {

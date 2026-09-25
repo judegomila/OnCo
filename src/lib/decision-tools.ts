@@ -3,6 +3,7 @@ import { incidentalGallbladderCancerTool } from "@/data/decision-tools/incidenta
 import { tnbcAfterChemotherapyTool } from "@/data/decision-tools/tnbc-after-chemotherapy";
 import { pancreaticFirstTreatmentTool } from "@/data/decision-tools/pancreatic-first-treatment";
 import { colorectalAdjuvantChemotherapyTool } from "@/data/decision-tools/colorectal-adjuvant-chemotherapy";
+import { lungEarlyStageTool } from "@/data/decision-tools/lung-early-stage";
 
 /**
  * Decision aids (/tools/<id>/): a handful of questions, and for the answers given, the guideline statement that
@@ -75,7 +76,7 @@ export type DecisionTool = {
   asOf: string;
 };
 
-export const DECISION_TOOLS: DecisionTool[] = [gallbladderPolypTool, incidentalGallbladderCancerTool, tnbcAfterChemotherapyTool, pancreaticFirstTreatmentTool, colorectalAdjuvantChemotherapyTool];
+export const DECISION_TOOLS: DecisionTool[] = [gallbladderPolypTool, incidentalGallbladderCancerTool, tnbcAfterChemotherapyTool, pancreaticFirstTreatmentTool, colorectalAdjuvantChemotherapyTool, lungEarlyStageTool];
 
 export const toolRoute = (id: string) => `/tools/${id}/`;
 

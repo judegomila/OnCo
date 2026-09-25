@@ -266,3 +266,17 @@ Follow the lists at the end of `docs/GALLBLADDER-QA.md`, `docs/TNBC-QA.md`, `doc
     status codes and a firewall vendor into the page.
 30. **A worktree with no `node_modules` cannot run `next dev` under Turbopack**, because a symlink out of the
     filesystem root is refused; `next dev --webpack` works and is what the page reading here used.
+31. **Open the source and check it contains the claim, not merely that it is a respectable source.** The rule that a
+    standard-of-care row must cite a guideline body or a primary publication is satisfied by any DOI, so a row whose
+    real source is a patient leaflet can pass by pointing at a paper nobody opened. The skin layer did this eight
+    times, twice at paywalled guideline papers known only from a leaflet's reference list. The rule now accepts a
+    patient-information body when the row names it in `guideline.version` (see `PATIENT_INFO_HOSTS` in
+    `src/lib/corpus-rules.test.ts`), because a source that does not contain the sentence is a worse failure than an
+    informal one that does. Nothing in the gates catches this class; only reading the source does.
+32. **Check a figure is attributed to the drug it was measured on.** The photodynamic therapy figures in the skin
+    layer were attached to aminolevulinic acid and were measured on methyl aminolevulinate, which is a different
+    photosensitiser with different approvals and already had its own record. Same class as lesson 31: a citation
+    that does not contain the claim.
+33. **Note any source past its own stated review date.** The dermatology association's squamous cell leaflet, quoted
+    by several rows, says its next review was due April 2025 and no newer version exists at the URL. That is not a
+    reason to drop it, but it is a reason to say so and to re-read it next round.

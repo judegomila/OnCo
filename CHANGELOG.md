@@ -7,14 +7,32 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
+- Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 
 ### 24 September 2026
+- Ask OnCo retrieval: drop function words and rank by kind and name in the word search; extractive recall 0.329 to 0.416, floor 0.41 with a ratchet
+- TNBC treatment: reword a code comment to the page name
+- TNBC treatment: LOTUS, PAKT, SCAN-B and ZEST detail, registry trials linked to subtype pages, test fixtures for the new rows
+- EntityDetail: remove the conflict markers committed with the architecture merge, drop the unused Tip import
+- TNBC molecular layer: sourced genomic landscape, Lehmann and Burstein subtypes, ancestry and founder mutations, ctDNA studies, assay-specific PD-L1 and HER2-low thresholds, 55 landscape papers
+- TNBC core: register the eight living-with glossary terms drafted by the living file, drop the brand-name aliases that hijacked Ask, trim two TL;DRs and a jargon phrase
+- TNBC treatment deep dive: trial and drug records, approvals by regulator with NICE appraisal numbers, 229 registry trials, standard-of-care rows
+- record-fold test: TNBC ceiling follows the new layers until the hub architecture lands, then drops to 300 KB
+- CanSim terms, methods group: 58 "Methods and models" glossary terms with one-line definitions and why they appear in cancer papers; gap document gets a Done column
+- CanSim terms, oncology group: 70 sourced glossary terms and the cancer-ai-vocabulary hub, 11 HGNC-sourced gene targets, TCGA cohort codes as cancer aliases, 12 data-source rows, Methods and models category
+- Loading experience: navigation progress bar, route skeletons, intent prefetch on dense lists, pages hot at the edge, above-the-fold checks
+- Decisions page holds 390 px: referenced-record and guideline pills truncate with tooltips, grid children may shrink
+- TNBC core layer: sourced epidemiology, risk, presentation, diagnosis, pathology, staging, screening and outlook on the tnbc record; twelve subtype pages; nineteen glossary terms
+- Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
+- Geography section fits 390 px: grid items may shrink and source labels wrap
 - TNBC living with it, care and decisions: eleven decision rows, 77 hand-written questions, first 60 days checklist, three red-card sets with the 111 and 999 wording, after-chemotherapy decision aid, sourced living-with notes on 20 side-effect and procedure records
 - TNBC UK and NHS layer: pathway page for tnbc with the screening caveat, NG12 and NG101 steps, every NICE and SMC decision including the TA992 refusal against SMC2608, R208 and M234 tests, eight UK-open trials with sites, TNT, POSH/OlympiA and PARTNER legacy, registry figures read from PHS, WCISU and NICR downloads, Breast Cancer Now and three researcher records, named gaps
+- WIP: tnbc-core spike draft before merging main
 - Cooperative groups as company records: `cooperative-group` company type with browser facet, glyph pill and tooltip; 22 group records (GORTEC, German CLL Study Group, French Sarcoma Group, AGO, AIO, MRC CTU, HORG, DPCG, DBCG, DAHANCA, GERCOR, ISG, SSG, EMN, IFM, ALFA, AMC, OCOG, KGOG, SARC, FIL, FILO) linked to 41 corpus trials as sponsor; sponsor aliases carry their ids and the IFM and KGOG mis-resolutions are fixed; the trials fetchers link and never give products to them
 - Supportive care medicines: `supportive` drug flag on 55 records, "Supportive care" pill with glyph and tooltip, Purpose facet on /drugs/, excluded from the home treatments count, the product rankings and the treatment references on standard-of-care rows; EMA and FDA fetchers flag candidates by a stated indication rule
+- Cancer records as a hub with ten sections: registry, section pages, shared strip, sections.json, budgets and deep-link tests
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 - TNBC evidence: 45 papers verbatim from Europe PMC (guidelines, receptor and basal-like discovery, BRCA1 founder mutations, disparities, subtypes, pCR and RCB, platinum, CREATE-X, OlympiA updates, PD-L1 assays, TILs, TROPION-Breast02, CAPItello-290, HER2-low, ctDNA), tnbc-roadmap with 14 eras and a registry watch list to 2033, nine ideas
 - Modality lens: /modalities/ and twelve format hubs assembling what the corpus records per shape of medicine

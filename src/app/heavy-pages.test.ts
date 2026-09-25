@@ -21,8 +21,10 @@ import Genome from "./targets/genome/page";
 import { genomeHub } from "@/lib/tables/genome";
 import { GENOME_TABLE } from "@/lib/genome-hub";
 import { kindBrowser } from "@/lib/tables/kinds";
-import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL } from "@/lib/kinds";
+import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL, routeFor } from "@/lib/kinds";
 import KindIndex from "./[kind]/page";
+import EntityPage from "./[kind]/[id]/page";
+import { defaultOpen, roadmapFile, WATCH_PAGE } from "@/lib/roadmap-eras";
 import EngineHub from "./pipeline/engine/page";
 import EngineFormat from "./pipeline/engine/[format]/page";
 import { FORMATS } from "@/lib/modular-formats";
@@ -343,6 +345,54 @@ describe("kind browsers carry one page of rows", () => {
     expect(html).not.toContain("data-more");
     expect(html).not.toContain("data-kind-export");
   });
+});
+
+/**
+ * The roadmap pages grew with the deep spikes: /roadmaps/tnbc-roadmap/ was 1.0 MB on the wire and
+ * /roadmaps/gallbladder-cancer-roadmap/ 680 KB (461 KB and 308 KB of markup) on 24 Sept 2026, because every era
+ * rendered its records inline twice (the Steps pills and the Story cards with TL;DRs). Each era's body now sits
+ * behind a "Show era" pill that fetches /api/v1/roadmaps/<id>.json (src/lib/roadmap-eras.ts), the first and the
+ * current era open by default, the story's summaries and cards come from the same file and the watch table pages past
+ * WATCH_PAGE: 296 KB and 215 KB of markup after. What remains is the record chrome every page carries (the Connected
+ * tab and the key papers are most of it), which grows with the roadmap's links rather than with its eras.
+ */
+describe("roadmap pages collapse their eras", () => {
+  const escape = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#x27;");
+  const roadmaps = graph().kind("roadmap");
+  it("has roadmaps with more than two eras and a watch table longer than a page to test", () => {
+    expect(roadmaps.length).toBeGreaterThan(20);
+    expect(roadmaps.some((r) => r.steps.length > 10)).toBe(true);
+    expect(roadmaps.some((r) => r.watch.length > 0)).toBe(true);
+  });
+  for (const r of roadmaps) {
+    it(`/roadmaps/${r.id}/ keeps every era's heading and summary, opens the first and current eras, pages the watch table and stays under 300 KB`, async () => {
+      const html = render(await EntityPage({ params: Promise.resolve({ kind: "roadmaps", id: r.id }) }));
+      // The timeline reads whole without JavaScript: every era's date range, title and summary are in the HTML.
+      for (const s of r.steps) {
+        expect(html, s.title).toContain(`<span class="kicker">${escape(s.era)}</span>`);
+        expect(html, s.title).toContain(`<h3 class="font-semibold mt-1">${escape(s.title)}</h3>`);
+        expect(html, s.title).toContain(escape(s.description));
+      }
+      // Eras with records carry a toggle: open (body in the HTML) for the first and the current era, closed for the rest.
+      const open = defaultOpen(r).filter((i) => r.steps[i].refs.length);
+      const closed = r.steps.filter((s, i) => s.refs.length && !open.includes(i));
+      expect((html.match(/data-era-toggle="open"/g) ?? []).length).toBe(open.length);
+      expect((html.match(/data-era-toggle="closed"/g) ?? []).length).toBe(closed.length);
+      expect((html.match(/data-era-body/g) ?? []).length).toBe(open.length);
+      expect(html).toContain("Show era");
+      if (open.length) expect(html).toContain("Hide era");
+      // The open eras' records are real links for search engines; a closed era's are not on the page.
+      const first = graph().get(r.steps[0].refs[0]);
+      if (first) expect(html).toMatch(new RegExp(`href="${routeFor(first).replace(/\/$/, "")}/?"`));
+      // Crawlers and agents reach every era without the pills' fetch.
+      expect(html).toContain("data-roadmap-export");
+      expect(html).toContain(`href="${roadmapFile(r.id)}"`);
+      // The watch table carries its first WATCH_PAGE rows and the Show more foot when there are more.
+      expect((html.match(/data-watch-row/g) ?? []).length).toBe(Math.min(WATCH_PAGE, r.watch.length));
+      if (r.watch.length > WATCH_PAGE) { expect(html).toContain("data-more"); expect(html).toContain(`Show ${Math.min(WATCH_PAGE, r.watch.length - WATCH_PAGE)} more`); }
+      expect(Buffer.byteLength(html, "utf8"), `${r.id} markup`).toBeLessThan(300 * KB);
+    });
+  }
 });
 
 /**

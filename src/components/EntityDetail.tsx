@@ -66,6 +66,8 @@ import { KIND_COLOR, statusClass } from "@/lib/text";
 import { withTermHovers } from "@/lib/term-hover";
 import { paperQuery } from "@/lib/europepmc";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
+import { defaultOpen, eraBody, eraCounts, roadmapFile, WATCH_PAGE, watchRows } from "@/lib/roadmap-eras";
+import { RoadmapEra, RoadmapWatchMore, WatchRowView } from "./RoadmapEras";
 import structureIndex from "../../public/structures/index.json";
 import { RegionStrip } from "./RegionMatrix";
 import { RegistryCheck } from "./RegistryCheck";
@@ -427,7 +429,7 @@ function kindTabs(e: Entity): Tab[] {
       ];
     }
     case "roadmap":
-      return [overview(), { id: "steps", label: "Steps", count: e.steps.length, content: <RoadmapSteps r={e} /> }, { id: "story", label: "Story", content: <RoadmapStory title={e.name} steps={roadmapStorySteps(e)} /> }];
+      return [overview(), { id: "steps", label: "Steps", count: e.steps.length, content: <RoadmapSteps r={e} /> }, { id: "story", label: "Story", content: <RoadmapStory title={e.name} steps={roadmapStorySteps(e)} src={roadmapFile(e.id)} /> }];
     case "idea":
       return [
         overview(<div className="grid *:min-w-0 gap-6 mt-8">
@@ -572,36 +574,44 @@ function RefsWithMolecules({ ids }: { ids: string[] }) {
   </>);
 }
 
+/**
+ * The timeline. Every era's date range, status, title and summary are in the HTML; each era's records, trial
+ * outcomes and papers sit behind a "Show era" pill that fetches /api/v1/roadmaps/<id>.json (src/lib/roadmap-eras.ts),
+ * except the first and the current era, which are open and carry their bodies. The watch table carries its first
+ * WATCH_PAGE rows and pages the rest from the same file.
+ */
 function RoadmapSteps({ r }: { r: Roadmap }) {
+  const g = graph();
   const tone: Record<string, string> = { historic: "bg-zinc-400", current: "bg-emerald-500", emerging: "bg-amber-500", speculative: "bg-violet-500" };
+  const src = roadmapFile(r.id);
+  const open = new Set(defaultOpen(r));
+  const watch = watchRows(g, r);
   return (<>
     <ol className="relative border-s-2 border-border ms-3 space-y-8">
-      {r.steps.map((s, i) => (
-        <li key={i} className="ml-6">
-          <span className={`absolute -left-[9px] mt-1.5 h-4 w-4 rounded-full ring-4 ring-background ${tone[s.status]}`} />
-          <div className="flex flex-wrap items-center gap-2"><span className="kicker">{s.era}</span><span className={`chip ${statusClass(s.status === "current" ? "approved" : s.status === "emerging" ? "phase-2" : s.status === "speculative" ? "concept" : "historic")}`}>{s.status}</span>{s.status === "speculative" && <ConfidenceChip id={`${r.id}#${i}`} compact />}</div>
-          <h3 className="font-semibold mt-1">{s.title}</h3>
-          <p className="text-[15px] leading-relaxed mt-1 max-w-3xl">{s.description}</p>
-          {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
-        </li>
-      ))}
+      {r.steps.map((s, i) => {
+        const body = eraBody(g, s);
+        return (
+          <li key={i} className="ml-6">
+            <span className={`absolute -left-[9px] mt-1.5 h-4 w-4 rounded-full ring-4 ring-background ${tone[s.status]}`} />
+            <div className="flex flex-wrap items-center gap-2"><span className="kicker">{s.era}</span><span className={`chip ${statusClass(s.status === "current" ? "approved" : s.status === "emerging" ? "phase-2" : s.status === "speculative" ? "concept" : "historic")}`}>{s.status}</span>{s.status === "speculative" && <ConfidenceChip id={`${r.id}#${i}`} compact />}</div>
+            <h3 className="font-semibold mt-1">{s.title}</h3>
+            <p className="text-[15px] leading-relaxed mt-1 max-w-3xl">{s.description}</p>
+            <RoadmapEra src={src} index={i} counts={eraCounts(body)} initial={open.has(i) ? body : undefined} />
+          </li>
+        );
+      })}
     </ol>
+    <p className="text-xs text-muted mt-4" data-roadmap-export>
+      <noscript>Show era needs JavaScript. </noscript>Every era&apos;s records, trial outcomes and papers, and every watch item, as <a href={src} className="underline">JSON</a>.
+    </p>
     {r.steps.some((s) => s.status === "speculative") && <div className="mt-4"><ConfidenceLegend /></div>}
-    {r.watch.length > 0 && (
+    {watch.length > 0 && (
       <section className="mt-10" aria-labelledby={`${r.id}-watch`}>
-        <h3 id={`${r.id}-watch`} className="font-semibold">What to watch</h3>
+        <h3 id={`${r.id}-watch`} className="font-semibold">What to watch <span className="text-muted font-normal tabular-nums">({watch.length.toLocaleString("en-GB")})</span></h3>
         <p className="text-sm text-muted mt-1 max-w-3xl">Readouts, decisions and registry completion dates ahead. Each date is quoted from its source, not inferred; a missing date means no source states one.</p>
         <ol className="card divide-y divide-border mt-3">
-          {r.watch.map((w, i) => (
-            <li key={i} className="p-3 grid sm:grid-cols-[9rem_1fr] gap-x-4 gap-y-1 text-sm">
-              <span className="font-mono text-xs text-muted tabular-nums pt-0.5">{w.expected ?? "no date stated"}</span>
-              <div>
-                <span>{w.item}</span>
-                {w.source && <> <a href={w.source} rel="noopener" className="underline decoration-foreground/25 underline-offset-[3px] hover:decoration-foreground text-xs">source</a></>}
-                {w.refs.length > 0 && <div className="mt-1.5"><Refs ids={w.refs} /></div>}
-              </div>
-            </li>
-          ))}
+          {watch.slice(0, WATCH_PAGE).map((w, i) => <WatchRowView key={i} row={w} />)}
+          {watch.length > WATCH_PAGE && <RoadmapWatchMore src={src} total={watch.length} first={WATCH_PAGE} />}
         </ol>
       </section>
     )}

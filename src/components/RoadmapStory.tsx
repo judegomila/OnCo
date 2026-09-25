@@ -4,9 +4,12 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
 import { useAnimationBudget, useMotionSnapshot } from "@/lib/use-animation-budget";
+import type { EraRef } from "@/lib/roadmap-eras";
+import { useRoadmapFile } from "./RoadmapEras";
 
-export type StoryRef = { id: string; kind: string; name: string; tldr: string; route: string; status?: string };
-export type StoryStep = { era: string; title: string; description: string; status: "historic" | "current" | "emerging" | "speculative"; refs: StoryRef[] };
+export type StoryRef = EraRef;
+/** The skeleton of one step, in the HTML; its summary and cards come from the roadmap's file. */
+export type StoryStep = { era: string; title: string; status: "historic" | "current" | "emerging" | "speculative" };
 
 const TONE: Record<StoryStep["status"], string> = { historic: "bg-zinc-400", current: "bg-emerald-500", emerging: "bg-amber-500", speculative: "bg-violet-500" };
 const TONE_STATUS: Record<StoryStep["status"], string> = { historic: "historic", current: "approved", emerging: "phase-2", speculative: "concept" };
@@ -15,11 +18,15 @@ const TONE_STATUS: Record<StoryStep["status"], string> = { historic: "historic",
  * Scroll-driven roadmap narrative: a sticky timeline on the left tracks the step in view;
  * each step on the right shows its description and the entities it references as cards.
  * "Play" auto-scrolls step by step. Respects prefers-reduced-motion (jumps instead of smooth scroll).
+ * The cards come from the roadmap's file (`src`, /api/v1/roadmaps/<id>.json, shared with the Steps tab), fetched
+ * once the story comes within 600 px of the viewport; the steps themselves (era, title, summary) are props.
  */
-export function RoadmapStory({ title, steps }: { title: string; steps: StoryStep[] }) {
+export function RoadmapStory({ title, steps, src }: { title: string; steps: StoryStep[]; src: string }) {
   const [active, setActive] = useState(0);
   const [playing, setPlaying] = useState(false);
   const refs = useRef<Array<HTMLElement | null>>([]);
+  const [root, setRoot] = useState<HTMLDivElement | null>(null);
+  const file = useRoadmapFile(src, root);
 
   useEffect(() => {
     const els = refs.current.filter((x): x is HTMLElement => !!x);
@@ -42,6 +49,8 @@ export function RoadmapStory({ title, steps }: { title: string; steps: StoryStep
 
   // Auto-play: advance every 6 s; stop after the last step (state change happens inside the timer callback).
   // The timer waits while the tab is hidden (shared animation budget) and resumes where it was.
+  /** The cards of one step, once the file has arrived. */
+  const cards = (i: number): StoryRef[] => file?.eras[i]?.refs ?? [];
   const motion = useMotionSnapshot(useAnimationBudget(null));
   useEffect(() => {
     if (!playing || motion.hidden) return;
@@ -51,7 +60,7 @@ export function RoadmapStory({ title, steps }: { title: string; steps: StoryStep
   }, [playing, active, motion.hidden]);
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[280px_1fr]">
+    <div ref={setRoot} className="grid gap-8 lg:grid-cols-[280px_1fr]">
       <aside className="lg:sticky lg:top-28 self-start">
         <div className="flex items-center justify-between mb-3">
           <div className="kicker">{title}</div>
@@ -81,10 +90,12 @@ export function RoadmapStory({ title, steps }: { title: string; steps: StoryStep
           <section key={i} ref={(el) => { refs.current[i] = el; }} data-step={i} aria-labelledby={`story-step-${i}`} className={`transition-opacity ${i === active ? "opacity-100" : "opacity-60"}`}>
             <div className="flex flex-wrap items-center gap-2"><span className="kicker">{s.era}</span><span className={`chip ${statusClass(TONE_STATUS[s.status])}`}>{s.status}</span><span className="text-xs text-muted">step {i + 1} of {steps.length}</span></div>
             <h3 id={`story-step-${i}`} className="text-2xl font-semibold tracking-tight mt-1">{s.title}</h3>
-            <p className="text-[15px] leading-relaxed mt-3 max-w-3xl">{s.description}</p>
-            {s.refs.length > 0 && (
+            {file && <p className="text-[15px] leading-relaxed mt-3 max-w-3xl">{file.eras[i]?.description}</p>}
+            {file === undefined && <p className="text-xs text-muted mt-3" aria-live="polite">Loading this step…</p>}
+            {file === null && <p className="text-xs text-muted mt-3">This step could not be loaded; read it under Steps above, or in the roadmap&apos;s <a href={src} className="underline">JSON</a>.</p>}
+            {cards(i).length > 0 && (
               <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-                {s.refs.map((r) => (
+                {cards(i).map((r) => (
                   <Link key={r.id} href={r.route} className="card p-3 hover:shadow-md transition">
                     <div className="flex items-center gap-2 mb-1"><span className="chip bg-foreground/5 capitalize">{r.kind}</span>{r.status && <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span>}</div>
                     <div className="font-medium leading-snug">{r.name}</div>

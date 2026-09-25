@@ -1,13 +1,11 @@
 import type { Roadmap } from "@/lib/schema";
-import { graph } from "@/lib/graph";
-import { routeFor } from "@/lib/kinds";
 import type { StoryStep } from "@/components/RoadmapStory";
 
-/** Resolve a roadmap's steps and their refs into the plain data the story component needs. */
+/**
+ * A roadmap's steps as the skeleton the story component needs: era, title and status. Each step's summary and cards
+ * (the records it links to) come from the roadmap's file, /api/v1/roadmaps/<id>.json (src/lib/roadmap-eras.ts),
+ * fetched when the story scrolls into view, so the page carries nothing twice; the Steps tab has the full text.
+ */
 export function roadmapStorySteps(r: Roadmap): StoryStep[] {
-  const g = graph();
-  return r.steps.map((s) => ({
-    era: s.era, title: s.title, description: s.description, status: s.status,
-    refs: s.refs.map((id) => g.get(id)).filter((e): e is NonNullable<typeof e> => !!e).map((e) => ({ id: e.id, kind: e.kind, name: e.name, tldr: e.tldr, route: routeFor(e), status: e.status })),
-  }));
+  return r.steps.map((s) => ({ era: s.era, title: s.title, status: s.status }));
 }

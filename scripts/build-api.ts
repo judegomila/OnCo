@@ -35,6 +35,7 @@ import { kindGraphFile } from "../src/lib/kind-graph";
 import { UK_PATHWAYS, ukPathwayJson } from "../src/lib/uk-pathway";
 import { CANCER_GEOGRAPHIES, geographyJson } from "../src/lib/cancer-geography";
 import { sectionsJson } from "../src/lib/record-sections";
+import { roadmapEraFile } from "../src/lib/roadmap-eras";
 
 const out = join(process.cwd(), "public", "api", "v1");
 // Clear the previous build, keeping rdf/: scripts/build-triples.ts rewrites only the Turtle files whose content changed
@@ -99,6 +100,10 @@ for (const t of tagList) write(`tagged/${t.slug}.json`, {
 // Trials in plain words: the explainer bodies of one cancer section per file; the page keeps the headings and summaries.
 mkdirSync(join(out, "explained"), { recursive: true });
 for (const grp of explainedGroups(g)) write(`explained/${grp.key}.json`, explainedFileFor(grp));
+// Roadmaps: every era's linked records, trial outcomes and papers, and every watch row, one file per roadmap; the page
+// keeps the era headings and summaries and fetches the bodies (and the story cards, and watch rows past the first page) from here.
+mkdirSync(join(out, "roadmaps"), { recursive: true });
+for (const r of g.kind("roadmap")) write(`roadmaps/${r.id}.json`, roadmapEraFile(g, r));
 // Navigator: the "already tried" chooser list once, and one file per cancer with its rows, standard of care, caregiver details and questions.
 mkdirSync(join(out, "navigator"), { recursive: true });
 const navRows = matchRows();

@@ -201,3 +201,36 @@ Honourable mentions: Purple Book (S) for a biosimilar layer; Human Protein Atlas
 ## Sources we should not ingest
 
 Recorded so the decision is visible: **COSMIC**, **OncoKB**, **DrugBank** (main dataset), **KEGG**, **Semantic Scholar API**, **SMC text**, **NCCN text**, **jRCT**, **PMDA** (automated), **NMPA/CDE**, **ChiCTR**, **NCDB**, **COSD**, **NATCAN** (without permission), **IARC data beyond cited estimates for commercial reuse**, and all **patient forums and social media**. Each is linked where useful; none is copied.
+
+## Three more UK walls, found on the prostate layer
+
+Added 25 September 2026, alongside the lung layer's note above. Same principle: a 403 or a 202 describes the
+request, not the source.
+
+- **nice.org.uk answers 403 to a bare `curl`, to a lone user agent and to a fetch helper, but 200 to a complete
+  browser header set.** What works is `curl -sS -L --compressed` with a desktop Chrome user agent *and*
+  `Accept: text/html,application/xhtml+xml,…`, `Accept-Language: en-GB,en;q=0.9` and
+  `Accept-Encoding: gzip, deflate, br` together; drop any one of them and the same URL 403s. NICE also rate-limits,
+  so leave 20 to 45 seconds between requests or the pages start failing again part way through a sweep. The
+  condition-filtered product list (`/guidance/conditions-and-diseases/…/products?ProductType=…`) refuses even then
+  and sometimes serves an error page instead; the unfiltered `/products` address usually works. Terminated
+  appraisals live at `/guidance/terminated/<ta>`; the bare `/guidance/<ta>` 302s there. Recommendation text is at
+  `/guidance/<ta>/chapter/1-Recommendations`, not on the overview page, and newer appraisals put the decision under
+  a "What this means in practice" heading rather than a numbered recommendation.
+- **scottishmedicines.org.uk has a working search parameter that is not on the form.** The medicines-advice index
+  at `scottishmedicines.org.uk/medicines-advice/` returns only the most recent advice, and `?search=` and
+  `?searchterm=` are ignored. The parameter the site actually reads is **`?keywords=`**: `…/medicines-advice/?keywords=prostate`
+  returned all 25 prostate advices with their slugs, and each slug ends in the SMC number
+  (`…-full-smc2195/`), which is how the reference is obtained when the page's own details block omits it. Note
+  `www.scottishmedicines.org.uk` 301s to the bare host for some paths and 404s for others; use the bare host.
+- **StatsWales has moved and has no download route.** The legacy `statswales.gov.wales/Catalogue/…` addresses 301
+  to a topic index, `open.statswales.gov.wales` no longer resolves at all, and the replacement at
+  `stats.gov.wales` renders in the browser only: its cancer waiting times cube does carry a tumour-site dimension
+  but no CSV, JSON or OData route that answers. For Wales, the readable sources are the monthly
+  `gov.wales/nhs-activity-and-performance-summary-…-html` page, which is all-cancer only, and Public Health Wales's
+  own report workbooks. Treat any Welsh tumour-site waiting-time figure as unsourceable until this changes.
+
+Two smaller ones worth recording. `www.gov.wales` answers 403 to a bare `curl` and 200 to a browser user agent with
+`Accept-Language`, the opposite of the trust sites above. And `opendata.nhs.scot` answers exit code 0 with no HTTP
+response at all to `curl` from some networks while working normally through a fetch helper, so a failure there is
+not evidence that the dataset is gone.

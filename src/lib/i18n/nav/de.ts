@@ -74,6 +74,7 @@ export const navDe: NavDict = {
   "/exclusivity/": ["Exklusivitätsende", "Wann jedes Produkt Patent- oder Regulierungsexklusivität verliert, und die kommenden Biosimilars und Generika."],
   "/pipeline/": ["Pipeline-Trichter", "Assets nach Phase für jede Zielstruktur, Modalität oder Krebsart, und wie umkämpft jede Zielstruktur ist."],
   "/pipeline/engine/": ["Offener Wirkstoff-Baukasten", "Jedes Medikament in seine Module zerlegt, und das Raster aller Kombinationen: zugelassen, in Entwicklung, versucht und gestoppt mit Begründung, oder nie versucht."],
+  "/modalities/": ["Modalitäten", "Ein Hub je Form des Medikaments (ADC, Radioligand, CAR-T, bispezifisch, Degrader und die übrigen): Wirkweise, zugelassene Medikamente, Phase 3, Bauteile, Unternehmen, Studien, Nebenwirkungen, Resistenz, Publikationen, Roadmaps, Ideen und Herstellung, jeder Abschnitt mit seinen Datensätzen."],
   "/market/": ["Adressierbare Population", "Inzidenz mal Häufigkeit mal Setting-Anteil, jede Eingabe verlinkt, als Spanne."],
   "/calendar/": ["Ergebniskalender", "Entscheidungen, Ergebnisse, Beratungsausschüsse, Kongresse."],
   "/digests/": ["Kongress-Digests", "ASCO, ESMO, AACR, ASCO GU, Punkt für Punkt belegt."],

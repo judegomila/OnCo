@@ -15,6 +15,7 @@ export const GLOBOCAN_MAP: Record<string, GlobocanMapping> = {
   tnbc: { codes: [20], label: "Breast (all subtypes)", shared: true, note: "GLOBOCAN reports breast cancer as one site. TNBC is roughly 10-15% of cases; the figures shown are for all breast cancer." },
   "breast-hr-positive": { codes: [20], label: "Breast (all subtypes)", shared: true, note: "GLOBOCAN reports breast cancer as one site. HR+/HER2- disease is roughly 70% of cases; the figures shown are for all breast cancer." },
   "breast-her2-positive": { codes: [20], label: "Breast (all subtypes)", shared: true, note: "GLOBOCAN reports breast cancer as one site. HER2+ disease is roughly 15-20% of cases; the figures shown are for all breast cancer." },
+  "lung-cancer": { codes: [15], label: "Trachea, bronchus and lung", note: "The family page for every type of lung cancer; GLOBOCAN reports the site as one, without a histological split." },
   nsclc: { codes: [15], label: "Trachea, bronchus and lung", shared: true, note: "GLOBOCAN does not split lung cancer by histology. NSCLC is roughly 85% of lung cancer; figures are for all lung cancer." },
   sclc: { codes: [15], label: "Trachea, bronchus and lung", shared: true, note: "GLOBOCAN does not split lung cancer by histology. SCLC is roughly 15% of lung cancer; figures are for all lung cancer." },
   colorectal: { codes: [41], label: "Colorectum (colon, rectum, anus)" },

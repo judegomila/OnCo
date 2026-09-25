@@ -84,3 +84,46 @@ Recorded here so the next wave does not re-decide them. Family files carry the d
 - Mechanics: `linkSiblings` in `cancers-wave4-shared.ts` gives every new record an inbound `related` link from a sibling
   within the six-sibling cap, so the orphan ratchet holds without hand-edits; every new parent needs a `PARENT_PHRASES`
   entry in `src/lib/cancer-families.test.ts`; TL;DRs are capped at 400 characters by `src/lib/graph.test.ts`.
+
+## The lung family (decided 25 September 2026, during the lung deep spike)
+
+Lung is the hardest family in the corpus to fit to the rule above, because four classifications are in daily use at
+once and they do not nest: the WHO Classification of Thoracic Tumours (5th edition, 2021) names the tumour types; the
+NCI PDQ summaries use the clinical small-cell / non-small-cell split; that split decides the first fork of treatment;
+and the molecular subsets decide the second. The decisions, with the detail in the header of
+`src/data/spikes/lung-core.ts`:
+
+1. **`lung-cancer` is the organ family page, not a cross-cutting group.** It keeps its `subtypes` strings and gains
+   children, and its `group` moves from `thoracic` to `lung`, leaving `thoracic` holding exactly the thoracic cancers
+   that are not lung cancers (mesothelioma and the thymic tumours). It gains a GLOBOCAN mapping (site 15) so the family
+   burden rolls up.
+2. **`nsclc` and `sclc` gain `parent: "lung-cancer"`.** Neither had a parent before, so the family page had no children
+   and `content:gaps` counted it as a parent naming subtypes with no subtype record. "Non-small-cell lung cancer" is not
+   a WHO 2021 entity (the Blue Book classifies adenocarcinoma, squamous cell carcinoma and the rest directly) but it is
+   a PDQ entity with its own treatment summary, and the rule accepts WHO **or** PDQ. Small cell carcinoma is both.
+3. **The ten wave 4 histology pages keep `parent: "nsclc"`.** WHO hangs them off the lung; PDQ and the clinic hang them
+   off NSCLC, because histology decides whether a tumour is sequenced and which chemotherapy backbone is safe. Keeping
+   them there also keeps the family three deep rather than flattening thirteen records onto one page.
+4. **The neuroendocrine spectrum crosses the clinical split, and the corpus splits it by where a reader arrives from.**
+   WHO puts typical carcinoid, atypical carcinoid, large cell neuroendocrine carcinoma and small cell carcinoma in one
+   chapter. `lung-net` (the carcinoids) stays under `neuroendocrine`, where the somatostatin-analogue pages sit beside
+   it; `sclc` sits under `lung-cancer`. `lung-lcnec` is **created** under `lung-cancer` rather than under either, because
+   it belongs to neither: WHO classes it with small cell carcinoma, trials have run it both ways, and no guideline
+   settles it. All three are cross-linked through `related`.
+5. **The molecular subsets are biomarker states, not entities.** EGFR-mutant, ALK-rearranged, ROS1, KRAS G12C, MET exon
+   14, RET, BRAF, HER2, NTRK and NRG1 disease are driver subsets of lung adenocarcinoma that no classification separates
+   as tumour types, so under rule 4 above they belong to the `biomarker` kind. Ten of them are cancer records in
+   `src/data/lung-subtypes.ts`, written before the rule; under rule 2 they are kept for their URLs and **not added to**,
+   and the canonical home of each state is its readout in `src/data/biomarker-readouts*.ts`. Nine already had one;
+   `nrg1-fusion` was written during the spike so every subset the family names now has a readout. The same holds for
+   the four stage records in that file (`resectable-nsclc`, `stage-iii-unresectable-nsclc`, `limited-stage-sclc`,
+   `extensive-stage-sclc`): a treatment setting is never a record, they keep their URLs, and no new one is created.
+6. **Mesothelioma is not in the family.** It arises from the pleura, WHO gives it its own chapter, the IASLC runs a
+   separate staging project for it, and NICE NG12 gives it its own referral rule. It keeps `group: "thoracic"` and no
+   lung parent and is not listed among `lung-cancer`'s subtypes. It shares the `lung` organ drawing ("Lungs, pleura and
+   mediastinum") because the drawing is anatomy, not taxonomy. The same holds for the thymic tumours and for the
+   childhood umbrella `pleuropulmonary-blastoma`, which the parent names as a subtype but which is not a subtype of
+   NSCLC or SCLC and is not treated on the adult pathway.
+7. **Pancoast (superior sulcus) tumour is a term, not a record.** It is a location and a presentation, not a WHO entity:
+   an ordinary non-small-cell lung cancer at the apex of the lung, named for what it invades. The same reasoning keeps
+   "combined small-cell carcinoma" a string on the small-cell page rather than a page of its own.

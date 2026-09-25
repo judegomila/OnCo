@@ -39,6 +39,7 @@ import melanoma from "./melanoma";
 import headAndNeck from "./head-and-neck";
 import thyroid from "./thyroid";
 import colorectal from "./colorectal";
+import colorectalCore from "./colorectal-core";
 import gastric from "./gastric";
 import esophageal from "./esophageal";
 import sclc from "./sclc";
@@ -79,7 +80,7 @@ import colorectalTreatment from "./colorectal-treatment";
 import colorectalLiving from "./colorectal-living";
 import colorectalMolecular from "./colorectal-molecular";
 import colorectalEvidence from "./colorectal-evidence";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, pancreaticCore, pancreaticUk, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, tnbcCore, tnbcEvidence, tnbcUk, tnbcLiving, tnbcMolecular, tnbcTreatment, pancreaticLiving, pancreaticEvidence, pancreaticTreatment, pancreaticMolecular, colorectalLiving, colorectalUk, colorectalMolecular, colorectalEvidence, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderTreatment, gallbladderGeography, gallbladderEvidence, colorectalTreatment];
+const spikes: Spike[] = [nsclc, prostate, pancreatic, pancreaticCore, pancreaticUk, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, tnbcCore, tnbcEvidence, tnbcUk, tnbcLiving, tnbcMolecular, tnbcTreatment, pancreaticLiving, pancreaticEvidence, pancreaticTreatment, pancreaticMolecular, colorectalLiving, colorectalUk, colorectalMolecular, colorectalEvidence, colorectalTreatment, colorectalCore, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderTreatment, gallbladderGeography, gallbladderEvidence];
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's

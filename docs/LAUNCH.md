@@ -81,6 +81,30 @@ change.
 - [x] Pancreatic cancer deep spike, third after gallbladder and TNBC: six facets and a review pass (chains 129 to 133), docs/PANCREATIC-QA.md
 - [ ] Translations of the new records need the model key (stale Chinese and Spanish summaries were removed from tnbc, gallbladder and pancreatic; regenerate with scripts/translate-summaries.ts)
 
+### The three gauges no script here can move (reviewed 25 Sept 2026)
+After the corpus went from about 12,400 records to 18,160, eleven gauges fell below target. Seven were fixed on
+25 September by running a fetcher or by correcting a check that was counting the wrong population. These three are
+not work anyone can pick up without something the owner holds:
+
+- **`translations` 7,268/18,160 (40%, target 50).** Seven of the eight languages sit at exactly the same 7,268
+  records; Chinese is ahead at 11,822. The gauge reads the `tldr_<lang>` tables in `src/data/i18n/`. Note that
+  `scripts/translate-summaries.ts` does **not** write those: it writes the long summaries to
+  `public/i18n/summaries/<lang>/`, a different layer. Needs `ANTHROPIC_API_KEY` **and** a TL;DR batch script that
+  does not exist yet; `scripts/i18n-coverage.ts --missing <lang> <kind>` already emits the queue to feed it. The
+  biggest holes are papers (6%), targets (6%), trials (13%) and cancers (22%).
+- **`reviewed` 0/18,141 (0%, target 10).** `src/data/reviews.ts` is empty of real entries. The model panel is not a
+  review and is not counted. This needs named clinicians and patient advocates willing to put their name and a
+  conflict-of-interest statement to a page: 1,815 records to reach the target, and the review issue form at
+  `/review/` is already live to receive them.
+- **`simple` 11,459/18,160 (63%, target 80).** 6,701 plain sentences still to write, and no fetcher exists: 2,179
+  papers, 2,028 trials and 1,512 targets, the machine-ingested records. Either an authoring push or the model key
+  plus a new batch script; the shape and the length limit are enforced by `src/lib/simple.test.ts`.
+
+Also held, not owner-blocked: `backlinks` sits at 94.5% because the 1,365-edit fill from
+`scripts/backlink-fill.ts` costs 0.002 of Ask extractive recall and the floor in `src/lib/ask.test.ts` may not be
+lowered (see commit "Take the backlink fill back out"). `logos` sits at 80% because 411 organisations have no logo
+any source can find; each needs a Wikidata QID by hand.
+
 ## Owner asks not yet started
 - [ ] Health data: see docs/HEALTH-DATA-COMPLIANCE.md; decisions listed there (HIPAA does not apply today; stay browser-only, fix explicit consent for cancer type and gate analytics, plan encrypted sync next)
 - [x] Weekly maintenance and monthly identifiers now run in .github/workflows/maintenance.yml (owner approved 22 Sept 2026); bot pushes deploy on their own through the ignoreCommand test in vercel.json.

@@ -5,7 +5,9 @@
  *   1. Wikidata: search by name (or manual override QID), verify P31 is an organisation-like class and,
  *      when the item has P856 (official website), that its domain matches ours; take P154 (logo image)
  *      from Wikimedia Commons (SVG as-is, raster via Special:FilePath?width=512).
- *   2. Clearbit logo API by domain (PNG, 256px).
+ *   2. Clearbit logo API by domain (PNG, 256px). Dead since the API was retired: logo.clearbit.com no longer resolves,
+ *      the 2026-09-25 run returned 0 from it out of 1,692 entries, and every call is a wasted timeout. Kept only so
+ *      the resolution order still reads as it was; the favicon step below carries the fallback on its own now.
  *   3. Google favicon service at 256px (quality "favicon").
  *
  * Output: public/logos/<id>.<ext> and public/logos/index.json
@@ -106,7 +108,12 @@ async function getBytes(url: string): Promise<{ buf: Buffer; type: string } | nu
 }
 
 // Acquired companies whose recorded website now redirects to the acquirer; a match there would show the acquirer's logo.
-const NO_LOGO_IDS = new Set(["future-of-cancer-care-today", "sijbrandij-foundation", "invocata", "invoke-bio", "perita-bio", "protom", 
+const NO_LOGO_IDS = new Set(["future-of-cancer-care-today", "sijbrandij-foundation", "invocata", "invoke-bio", "perita-bio", "protom",
+  // A collection's `url` is the page its list was read from, not an organisation's home page, so a favicon there
+  // belongs to whoever published the page. "UK specialist HPB cancer centres" is a list OnCo assembled from a page
+  // on pancreaticcancer.org.uk; taking the favicon gave it Pancreatic Cancer UK's mark, byte for byte the charity's
+  // own logo on a record that is not the charity. Check a collection's url before letting one through.
+  "uk-hpb-specialist-centres",
   "sunesis",
   "infinity-pharmaceuticals",
   "threshold-pharmaceuticals",

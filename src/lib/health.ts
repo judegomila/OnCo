@@ -22,6 +22,7 @@ import { SCHEMATIC_ALIAS, SPECIFIC_IDS, hasAnimation } from "@/data/schematics";
 import { hasAnchorApproval, isDiagnostic, regionalApprovals, regionSpecific } from "@/data/regional-approvals";
 import { reviews } from "@/data/reviews";
 import { simple } from "@/data/simple";
+import { TRIAL_REGISTRY_RESULTS_ABSENT } from "@/data/trial-registry-outcomes";
 import { tldr_es } from "@/data/i18n/es";
 import { tldr_fr } from "@/data/i18n/fr";
 import { tldr_de } from "@/data/i18n/de";
@@ -125,6 +126,32 @@ const EXPLAINED_PLACEHOLDER = /antibody-drug|adc|conjugate|bispecific|engager|an
 
 const APPROVED = new Set(["approved", "standard-of-care"]);
 
+/** Does this cancer pass the deep-dive test on its own record (three settings, three history events, a pipeline)? */
+const hasDeepDive = (c: { standardOfCare: unknown[]; history: unknown[]; pipeline: unknown[] }) =>
+  c.standardOfCare.length >= 3 && c.history.length >= 3 && c.pipeline.length > 0;
+
+/**
+ * True for a subtype page whose treatment is the parent's: wave 4 added 99 such pages deliberately thin ("as for
+ * gallbladder adenocarcinoma", "treated as cervical cancer by stage"), each with one standard-of-care row pointing at
+ * a parent that carries the full deep dive. Their reader gets the depth one click up, so counting them as shallow
+ * measures the shape of the taxonomy, not what OnCo knows. A subtype whose parent is itself thin stays in scope: then
+ * nobody carries the depth. Deliberately shallow only where a deeper page exists to defer to.
+ */
+function deferredToParent(g: Graph, c: { parent?: string }): boolean {
+  const p = c.parent ? g.get(c.parent) : undefined;
+  return !!p && p.kind === "cancer" && hasDeepDive(p);
+}
+
+/** A target a medicine in the corpus is aimed at: the population whose prevalence a reader needs to pick a treatment. */
+const hasCorpusDrug = (g: Graph, id: string) => (g.incoming(id).get("drug") ?? []).length > 0;
+
+/** "1,441 targets, 191 papers, 45 bottlenecks": where a gap sits, for the two-number breakdown a single ratio hides. */
+function byKind(g: Graph, offenders: Offender[], top = 6): string {
+  const counts = new Map<Kind, number>();
+  for (const o of offenders) { const k = g.get(o.id)?.kind; if (k) counts.set(k, (counts.get(k) ?? 0) + 1); }
+  return [...counts].sort((a, b) => b[1] - a[1]).slice(0, top).map(([k, v]) => `${v.toLocaleString("en-GB")} ${KIND_META[k].plural.toLowerCase()}`).join(", ");
+}
+
 export const METRIC_DEFS: MetricDef[] = [
   {
     id: "sources", label: "Records with a primary source",
@@ -134,13 +161,13 @@ export const METRIC_DEFS: MetricDef[] = [
   },
   {
     id: "backlinks", label: "Records with three or more relations",
-    plain: "A hub is made of links: a record with fewer than three relations is a dead end for readers and invisible to the graph tools.",
+    plain: "A hub is made of links: a record with fewer than three relations, counting both directions, is a dead end for readers and invisible to the graph tools. The 19 treatment fronts are navigation and are not counted.",
     action: "Add ids to the typed relation arrays (`cancers`, `targets`, `drugs`, `trials`, `terms`...) on this record or on the records that should point to it.",
     check: (g) => fails(g.entities.filter((e) => e.kind !== "section"), (e) => { const d = g.degree(e.id); return d < 3 ? `${d} relation${d === 1 ? "" : "s"}` : null; }, (e) => (3 - g.degree(e.id)) * 100 + prio(e)),
   },
   {
     id: "orphans", label: "Records something links to",
-    plain: "A record nothing links to can only be found by search; it should be referenced by at least one other page.",
+    plain: "A record nothing links to can only be found by search; it should be referenced by at least one other page. The 19 treatment fronts are the top of the navigation and are not counted.",
     action: "Find the cancer, product, trial, or idea this record belongs with and add this id to its relation arrays.",
     check: (g) => fails(g.entities.filter((e) => e.kind !== "section"), (e) => (g.incoming(e.id).size === 0 ? "no incoming links" : null), prio),
   },
@@ -157,13 +184,21 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g) => fails(g.entities, (e) => (e.summary.trim().length < 300 ? `${e.summary.trim().length} characters` : null), (e) => (300 - e.summary.length) * 100 + prio(e)),
   },
   {
-    id: "cancer-depth", label: "Cancers with a deep dive", kind: "cancer",
-    plain: "Every cancer page should reach TNBC depth: at least three standard-of-care settings, three history events, and a pipeline.",
-    action: "Add `standardOfCare` rows by setting with refs, `history` events with refs, and `pipeline` ids; see cancers.ts for the TNBC model.",
-    check: (g) => fails(g.kind("cancer"), (c) => {
-      const why = [c.standardOfCare.length < 3 ? `${c.standardOfCare.length} standard-of-care rows` : null, c.history.length < 3 ? `${c.history.length} history events` : null, c.pipeline.length === 0 ? "empty pipeline" : null].filter(Boolean);
-      return why.length ? why.join(", ") : null;
-    }, (c) => -(c.standardOfCare.length + c.history.length + c.pipeline.length)),
+    id: "cancer-depth", label: "Cancers that reach a deep dive, their own or the parent's", kind: "cancer",
+    plain: "A reader who lands on a cancer page should reach TNBC depth in at most one click: at least three standard-of-care settings, three history events and a pipeline, on this page or on the parent it says it is treated as. Wave 4 added 99 subtype pages deliberately thin (\"as for gallbladder adenocarcinoma\", \"treated as cervical cancer by stage\"); copying the parent's table onto each would add pages, not knowledge, so a page that defers to a parent with the depth counts as reaching it.",
+    action: "Add `standardOfCare` rows by setting with refs, `history` events with refs, and `pipeline` ids; see cancers.ts for the TNBC model. A thin subtype with no deep parent needs one of the two filled in.",
+    check: (g) => {
+      const cancers = g.kind("cancer");
+      const r = fails(cancers, (c) => {
+        if (hasDeepDive(c)) return null;
+        if (deferredToParent(g, c)) return null;
+        const why = [c.standardOfCare.length < 3 ? `${c.standardOfCare.length} standard-of-care rows` : null, c.history.length < 3 ? `${c.history.length} history events` : null, c.pipeline.length === 0 ? "empty pipeline" : null].filter(Boolean);
+        return `${why.join(", ")}${c.parent ? ", and the parent has no deep dive either" : ""}`;
+      }, (c) => -(c.standardOfCare.length + c.history.length + c.pipeline.length));
+      const own = cancers.filter((c) => hasDeepDive(c)).length;
+      const viaParent = cancers.filter((c) => !hasDeepDive(c) && deferredToParent(g, c)).length;
+      return { ...r, note: `${own.toLocaleString("en-GB")} carry their own deep dive, ${viaParent.toLocaleString("en-GB")} subtype pages defer to a parent that has one, ${r.failing.length.toLocaleString("en-GB")} reach neither` };
+    },
   },
   {
     id: "regional-approvals", label: "Approved products with regional rows", kind: "drug",
@@ -185,17 +220,32 @@ export const METRIC_DEFS: MetricDef[] = [
     check: (g) => { const specific = new Set(SPECIFIC_IDS); return fails(g.kind("technology"), (t) => (hasAnimation(t.id) || specific.has(t.id) || (t.id in SCHEMATIC_ALIAS && (specific.has(SCHEMATIC_ALIAS[t.id]) || hasAnimation(SCHEMATIC_ALIAS[t.id]))) ? null : "generic schematic")); },
   },
   {
-    id: "target-prevalence", label: "Targets with sourced prevalence", kind: "target",
-    plain: "For each target we should say how common it is in each cancer, with a source, so the prevalence matrix is complete.",
-    action: "Add `prevalence` rows ({ cancerId, pct, measure, source }) to the target record.",
-    check: (g) => fails(g.kind("target"), (t) => (t.prevalence.length === 0 ? "no prevalence rows" : null)),
+    id: "target-prevalence", label: "Targets with sourced prevalence, or with no medicine aimed at them", kind: "target",
+    plain: "Where a medicine in the corpus aims at a target, the page should say how common that target is in each cancer, with a source: that is the number a reader needs to judge whether the medicine could be for them. The catalogue genes imported from CIViC, Open Targets and IntOGen have no medicine attached; they are a map of cancer genetics, a cancer-by-cancer prevalence row for each is not knowledge anyone holds, and their absence counts as explained rather than as a gap.",
+    action: "Add `prevalence` rows ({ cancerId, pct, measure, source }) to the target record; take the rate from the pivotal trial's biomarker-prevalence table or a cohort paper, never from a review's round number. Adding a drug record aimed at a catalogue gene brings that gene into scope.",
+    check: (g) => {
+      const targets = g.kind("target");
+      const r = fails(targets, (t) => (t.prevalence.length || !hasCorpusDrug(g, t.id) ? null : "no prevalence rows"));
+      const withRows = targets.filter((t) => t.prevalence.length).length;
+      const noMedicine = targets.filter((t) => !t.prevalence.length && !hasCorpusDrug(g, t.id)).length;
+      return { ...r, note: `${withRows.toLocaleString("en-GB")} with prevalence rows, ${noMedicine.toLocaleString("en-GB")} catalogue genes with no corpus medicine, ${r.failing.length.toLocaleString("en-GB")} targets a medicine is aimed at still without` };
+    },
   },
   {
-    id: "trial-outcomes", label: "Trials with structured outcomes", kind: "trial",
-    plain: "Every trial should carry arms, N, endpoints, and hazard ratios so pictograms and evidence scores can render.",
-    action: "Add an entry in trial-outcomes.ts with the primary endpoint, arms, and the source publication.",
-    // Only trials that have reported can carry outcomes; recruiting, active and planned trials are not gaps.
-    check: (g) => fails(g.kind("trial").filter((t) => ["positive", "negative", "mixed", "completed", "approved", "standard-of-care", "withdrawn"].includes(t.status ?? "")), (t) => (t.outcomes.length === 0 ? (t.result ? "result text only" : "no outcomes") : null), (t) => (t.result ? 0 : 1)),
+    id: "trial-outcomes", label: "Trials with structured outcomes, or with no results in public", kind: "trial",
+    plain: "Where a trial's results exist in public, the page should carry arms, N, endpoints and hazard ratios so pictograms and evidence scores can render. A reported trial whose registry record has no results section and which has published nothing has no number to copy; that silence is the sponsor's, and it counts as explained rather than as a gap.",
+    action: "Add an entry in trial-outcomes.ts with the primary endpoint, arms, and the source publication, or run `npx tsx scripts/fetch-registry-outcomes.ts --apply` when the registry has posted results.",
+    // Only trials that have reported can carry outcomes; recruiting, active and planned trials are not gaps, and
+    // neither are reported trials whose sponsor never posted or published anything (TRIAL_REGISTRY_RESULTS_ABSENT,
+    // regenerated from the registry on every fetch run, so a trial leaves the list the day its sponsor posts).
+    check: (g) => {
+      const reported = g.kind("trial").filter((t) => ["positive", "negative", "mixed", "completed", "approved", "standard-of-care", "withdrawn"].includes(t.status ?? ""));
+      const silent = new Set(TRIAL_REGISTRY_RESULTS_ABSENT);
+      const nothingPublic = (t: (typeof reported)[number]) => silent.has(t.id) && !t.result && (t.keyPapers ?? []).length === 0;
+      const r = fails(reported, (t) => (t.outcomes.length ? null : nothingPublic(t) ? null : t.result ? "result text only" : "no outcomes"), (t) => (t.result ? 0 : 1));
+      const structured = reported.filter((t) => t.outcomes.length).length;
+      return { ...r, note: `${structured.toLocaleString("en-GB")} with structured outcomes, ${reported.filter((t) => !t.outcomes.length && nothingPublic(t)).length.toLocaleString("en-GB")} that have posted and published nothing, ${r.failing.length.toLocaleString("en-GB")} with a public result not yet structured` };
+    },
   },
   {
     id: "institution-people", label: "Institutions with people", kind: "institution",
@@ -236,7 +286,7 @@ export const METRIC_DEFS: MetricDef[] = [
   },
   {
     id: "stale", label: `Records checked in the last ${STALE_DAYS} days`,
-    plain: `Every record says when its facts were last checked (asOf); older than ${STALE_DAYS} days means nobody has looked recently.`,
+    plain: `Every record says when its facts were last checked (asOf); older than ${STALE_DAYS} days means nobody has looked recently. Every record is in scope, and a fetcher touching a field is not a check: asOf moves when a person reads the sources again.`,
     action: "Re-verify the record against its sources and update `asOf`; if something changed, log it in CORRECTIONS.md.",
     target: 90,
     check: (g, ctx) => fails(g.entities, (e) => { const d = daysSince(e.asOf, ctx.today); return d > STALE_DAYS ? `${d} days (${e.asOf})` : null; }, (e) => daysSince(e.asOf, ctx.today)),
@@ -254,37 +304,49 @@ export const METRIC_DEFS: MetricDef[] = [
     },
   },
   {
-    id: "reviewed", label: "Records with a review badge",
-    plain: "Pages should carry a named expert or patient-advocate reviewer with a date and a conflict-of-interest statement.",
-    action: "Recruit a reviewer for this record and add an entry to data/reviews.ts (track, reviewer, role, date, coi).",
+    id: "reviewed", label: "Records a named human reviewer has signed off",
+    plain: "Pages should carry a named expert or patient-advocate reviewer with a date and a conflict-of-interest statement. The model panel at the top of a page is machine commentary and is not counted here; nothing but a named person with a conflict-of-interest statement is. Every record but the 19 fronts is in scope.",
+    action: "Recruit a reviewer for this record and add an entry to data/reviews.ts (track, reviewer, role, date, coi). This is the one gauge no script can move: it needs people who will put their name to a page.",
     target: 10,
-    check: (g) => fails(g.entities.filter((e) => e.kind !== "section"), (e) => ((reviews[e.id] ?? []).length ? null : "not reviewed")),
+    check: (g) => {
+      const scope = g.entities.filter((e) => e.kind !== "section");
+      const r = fails(scope, (e) => ((reviews[e.id] ?? []).length ? null : "not reviewed"));
+      const tracks = scope.flatMap((e) => reviews[e.id] ?? []);
+      return { ...r, note: `${tracks.filter((v) => v.track === "expert").length.toLocaleString("en-GB")} expert sign-offs, ${tracks.filter((v) => v.track === "advocate").length.toLocaleString("en-GB")} advocate sign-offs; the target of ${10}% is ${Math.ceil(scope.length / 10).toLocaleString("en-GB")} records` };
+    },
   },
   {
     id: "simple", label: "Records with a simple explanation",
-    plain: "The 'simple' reading layer (about a 12-year-old reading age) needs its own text on every record.",
-    action: "Add a sentence for this id in the next data/simple/part-*.ts file (see src/data/simple.ts for the registered parts).",
+    plain: "The 'simple' reading layer (about a 12-year-old reading age) needs its own text on every record, machine-ingested ones included: a registry trial and a catalogue gene get a page like any other, and a reader who needs plain words needs them there most. There is no fetcher for this; every sentence is written.",
+    action: "Add a sentence for this id in the next data/simple/part-*.ts file (see src/data/simple.ts for the registered parts). Under 200 characters, one or two sentences, no jargon.",
     target: 80,
-    check: (g) => fails(g.entities, (e) => (e.simple || simple[e.id] ? null : "no simple text")),
+    check: (g) => {
+      const r = fails(g.entities, (e) => (e.simple || simple[e.id] ? null : "no simple text"));
+      return { ...r, note: `${r.failing.length.toLocaleString("en-GB")} still to write, mostly ${byKind(g, r.failing, 3)}` };
+    },
   },
   {
     id: "translations", label: "Records with a TL;DR in all eight languages",
-    plain: "Multilingual TL;DRs (Spanish, Mandarin, Portuguese, Hindi, French, German, Japanese, Arabic) count only where every language has a translation for the record.",
+    plain: "Multilingual TL;DRs (Spanish, Mandarin, Portuguese, Hindi, French, German, Japanese, Arabic) count only where all eight exist for the record; seven of eight counts as nothing, because a reader in the eighth language still sees English. Every record is in scope, and the target is 50 per cent rather than 95 because a translation layer is never finished.",
     action: "Add the TL;DR translation for this id in data/i18n/{es,zh,pt,hi,fr,de,ja,ar}.ts, marked machine-assisted until reviewed.",
     target: 50,
     check: (g) => fails(g.entities, (e) => { const missing = [["es", tldr_es], ["zh", tldr_zh], ["pt", tldr_pt], ["hi", tldr_hi], ["fr", tldr_fr], ["de", tldr_de], ["ja", tldr_ja], ["ar", tldr_ar]].filter(([, t]) => !(t as Record<string, string>)[e.id]).map(([c]) => c); return missing.length ? `missing ${missing.join(", ")}` : null; }, (e) => [tldr_es, tldr_zh, tldr_pt, tldr_hi].filter((t) => !t[e.id]).length),
   },
   {
     id: "provenance", label: "Records with git provenance",
-    plain: "Every page should show its last commit, author, and diff; that comes from public/provenance.json, rebuilt weekly.",
-    action: "Run `npm run provenance` (the weekly fact-check workflow does this) so new records get a provenance line.",
+    plain: "Every page should show its last commit, author and diff; that comes from public/provenance.json, which blames each data file and finds the line carrying the record's id. A record whose id is never written as a literal, because a helper derives it, has nothing to blame and cannot be mapped.",
+    action: "Run `npm run provenance` (the weekly fact-check workflow does this) so new records get a provenance line. If a record stays missing after a run, its id is not a literal in any data file: make the helper write it.",
     check: (g, ctx) => fails(g.entities, (e) => (ctx.provenance.has(e.id) ? null : "no provenance entry")),
   },
   {
-    id: "papers-snapshot", label: "Records with a Europe PMC snapshot",
-    plain: "Drug, target, cancer, and technology pages show what the literature is publishing; that needs a snapshot per record.",
-    action: "Run `npm run fetch:papers` (weekly workflow) so new records are included in public/papers/.",
-    check: (g, ctx) => fails(g.entities.filter((e) => ["drug", "target", "cancer", "technology"].includes(e.kind)), (e) => (ctx.papers.has(e.id) ? null : "no papers snapshot")),
+    id: "papers-snapshot", label: "Drugs, targets, cancers and technologies with a Europe PMC snapshot",
+    plain: "These four kinds show what the literature is publishing about them, year by year; that needs one snapshot per record. People, trials, companies and the other kinds are not in scope: their literature is reached through their papers and their institution.",
+    action: "Run `npm run fetch:papers` (weekly workflow, Europe PMC, no paid budget) so new records are included in public/papers/. The run takes hours at five requests a second; it queues records with no snapshot first, so a run cut short still closes gaps.",
+    check: (g, ctx) => {
+      const scope = g.entities.filter((e) => ["drug", "target", "cancer", "technology"].includes(e.kind));
+      const r = fails(scope, (e) => (ctx.papers.has(e.id) ? null : "no papers snapshot"));
+      return { ...r, note: `${r.failing.length.toLocaleString("en-GB")} awaiting a fetch: ${byKind(g, r.failing)}` };
+    },
   },
   {
     id: "citations", label: "Key papers with a citation count", kind: "paper",
@@ -294,16 +356,20 @@ export const METRIC_DEFS: MetricDef[] = [
   },
   {
     id: "trials-snapshot", label: "Products with a ClinicalTrials.gov snapshot", kind: "drug",
-    plain: "The pipeline tracker should show live phase 2/3 counts for every product, not just the ones it was first run on.",
+    plain: "The pipeline tracker should show live phase 2/3 counts for every product, not just the ones it was first run on. Products only: a snapshot is keyed to one query term, and a cancer or a target has far too many trials for one.",
     action: "Run `npm run fetch:trials` (weekly workflow) for the missing products; check the query term if a product returns nothing.",
     check: (g, ctx) => fails(g.kind("drug"), (d) => (ctx.trials.has(d.id) ? null : "no trials snapshot")),
   },
   {
-    id: "logos", label: "Organisations with a logo",
-    plain: "Companies, institutions, and collections should show a self-hosted logo so lists are scannable.",
-    action: "Run `npm run fetch:logos`; add a Wikidata QID override in the script if the automatic match fails.",
+    id: "logos", label: "Companies, institutions and collections with a logo",
+    plain: "These three kinds should show a self-hosted logo so lists are scannable. Everything else is left out on purpose: a cancer, a target or a trial has no logo to hold. A record counts only when the file sits under public/logos/, so a broken third-party hotlink cannot read as covered.",
+    action: "Run `npm run fetch:logos`; add a Wikidata QID override in the script if the automatic match fails. A small venture fund or a database with no logo item anywhere is a permanent miss, not a backlog.",
     target: 90,
-    check: (g, ctx) => fails(g.entities.filter((e) => ["company", "institution", "collection"].includes(e.kind)), (e) => (ctx.logos.has(e.id) ? null : "no logo")),
+    check: (g, ctx) => {
+      const scope = g.entities.filter((e) => ["company", "institution", "collection"].includes(e.kind));
+      const r = fails(scope, (e) => (ctx.logos.has(e.id) ? null : "no logo"));
+      return { ...r, note: `${r.failing.length.toLocaleString("en-GB")} without one: ${byKind(g, r.failing)}` };
+    },
   },
   {
     id: "completeness", label: "External denominators at least half covered",

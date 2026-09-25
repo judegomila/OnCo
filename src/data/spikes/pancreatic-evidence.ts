@@ -35,14 +35,8 @@ const backlinkSupplements: Spike["supplements"] = [
   { id: "early-detection-roadmap", cancers: [PANC], related: [ROADMAP] } satisfies { id: string } & Partial<RoadmapInput>,
   // Ostrem and Shokat 2013 is the corpus's key paper; the pancreatic reading adds its relations here rather than a second record.
   { id: "paper-ostrem-kras-g12c-nature-2013", related: ["kras-roadmap", "paper-codebreak-100-sotorasib-kras-g12c-pancreatic-nejm-2023", "paper-almoguera-kras-codon-12-pancreatic-cell-1988"] } satisfies { id: string } & Partial<PaperInput>,
-  // Four papers exist twice: the full records in the evidence files and thin Europe PMC ingest records matched to a trial or
-  // a citing page by DOI (papers-cited-wave7.ts, papers-trials-wave1.ts). The ingest record points at the full one (the
-  // full record sees it as an incoming neighbour); the reverse link is not written because the roadmap page renders a
-  // key paper's related papers and the ingest cards pushed it past its 300 KB budget. Until the ingest ids retire.
-  { id: "paper-versteijne-j-clin-oncol", related: ["paper-preopanc-preoperative-chemoradiotherapy-jco-2020"] } satisfies { id: string } & Partial<PaperInput>,
-  { id: "paper-van-cutsem-j-clin-oncol", related: ["paper-halo-301-pegvorhyaluronidase-jco-2020"] } satisfies { id: string } & Partial<PaperInput>,
-  { id: "paper-babiker-j-clin-oncol", related: ["paper-panova-3-ttfields-locally-advanced-pancreatic-jco-2025"] } satisfies { id: string } & Partial<PaperInput>,
-  { id: "paper-ponsegromab-phase-2-n-engl-j-med-2024", related: ["paper-groarke-ponsegromab-cancer-cachexia-nejm-2024"] } satisfies { id: string } & Partial<PaperInput>,
+  // The four thin Europe PMC ingest records that shared a DOI with this file's records were merged into them on
+  // 25 September 2026 (src/data/merged-records.ts), so the cross-links that stood in for the merge are gone.
   // Existing records whose Europe PMC ids were read for this file; the PMIDs let the watch script and the DOI checker match them.
   { id: "paper-conroy-folfirinox-pancreatic-nejm-2011", pmid: "21561347", related: ["paper-napoli-1-nanoliposomal-irinotecan-lancet-2016"] } satisfies { id: string } & Partial<PaperInput>,
   { id: "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023", related: ["paper-sethna-rna-neoantigen-vaccine-long-lived-t-cells-nature-2025"] } satisfies { id: string } & Partial<PaperInput>,

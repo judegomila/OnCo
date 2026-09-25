@@ -11,7 +11,7 @@ import { HIGH_RISK, MCRPC, MHSPC, NEPC, PROSTATE, asOf, ct, doi, epmc, pubmed } 
  * Metadata verbatim from Europe PMC, read 2026-09-25; figures only from the indexed abstracts.
  *
  * Records the corpus already holds are linked by id, not repeated: paper-beltran-nepc-divergent-evolution-nat-med-2016,
- * paper-ku-science (Rb1 and Trp53 cooperate to suppress lineage plasticity), paper-rubin-mol-cell,
+ * paper-ku-rb1-trp53-lineage-plasticity-science-2017 (Rb1 and Trp53 cooperate to suppress lineage plasticity), paper-rubin-mol-cell,
  * paper-aggarwal-t-sccpc-jco-2018, paper-aparicio-aggressive-variant-ccr-2013, paper-profound-nejm-2020 (PROfound),
  * paper-propel-lancet-oncol-2023 (PROpel), paper-talapro-2-lancet-2023 and its 2025 update,
  * paper-magnitude-j-clin-oncol-2023, paper-clarke-nejm-evid, paper-nct04497844-nat-med-2025 (AMPLITUDE),
@@ -239,7 +239,7 @@ export const prostateResistancePapers: PaperInput[] = [
     cancers: [PROSTATE, MCRPC, NEPC], targets: ["tp53", "rb1", "androgen-receptor"], people: ["charles-sawyers"],
     institutions: ["mskcc"], journals: ["science"], sections: ["targeted-therapy", "epigenetics"],
     bottlenecks: ["b-resistance", "b-undruggable-targets", "b-tumor-heterogeneity"], terms: ["castration-resistance"],
-    related: ["paper-ku-science", "paper-beltran-nepc-divergent-evolution-nat-med-2016", "paper-aggarwal-t-sccpc-jco-2018", "paper-rubin-mol-cell", "idea-bio1-cfrna-plasticity-tracking", "prostate-roadmap"] }),
+    related: ["paper-ku-rb1-trp53-lineage-plasticity-science-2017", "paper-beltran-nepc-divergent-evolution-nat-med-2016", "paper-aggarwal-t-sccpc-jco-2018", "paper-rubin-mol-cell", "idea-bio1-cfrna-plasticity-tracking", "prostate-roadmap"] }),
   p({ id: "paper-antonarakis-keynote-199-pembrolizumab-jco-2020",
     name: "KEYNOTE-199: pembrolizumab for treatment-refractory metastatic castration-resistant prostate cancer",
     aka: ["KEYNOTE-199", "Antonarakis 2020 pembrolizumab prostate"],

@@ -413,16 +413,7 @@ export const papersSocWave: PaperInput[] = [
     links: [{ label: "JAMA 2010", url: "https://doi.org/10.1001/jama.2010.1275" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/20823433/" }],
     cancers: ["resectable-pdac", "pancreatic"], drugs: ["gemcitabine", "fluorouracil"], trials: ["espac-3"], journals: ["jama"] }),
 
-  p({ id: "paper-espac-4-gemcitabine-capecitabine-adjuvant-neoptolemos-lancet-2017", name: "ESPAC-4: adjuvant gemcitabine and capecitabine versus gemcitabine monotherapy in resected pancreatic cancer",
-    tldr: "Adding capecitabine to gemcitabine after pancreatic cancer surgery lengthened median survival from 25.5 to 28 months, making the combination a new adjuvant standard.",
-    summary: "Open-label phase 3 trial at 92 hospitals in the United Kingdom, Germany, France and Sweden: 730 analysed patients with resected pancreatic ductal adenocarcinoma were randomised to six cycles of gemcitabine (366) or gemcitabine plus capecitabine (364).\n\nMedian overall survival was 28.0 months with the combination against 25.5 months with gemcitabine (hazard ratio 0.82, p 0.032). Grade 3 to 4 adverse events: 608 in 226 of 359 combination patients against 481 in 196 of 366 gemcitabine patients.",
-    journal: "The Lancet", year: 2017, doi: "10.1016/S0140-6736(16)32409-6", pmid: "28129987",
-    authors: "Neoptolemos JP, Palmer DH, Ghaneh P, et al.", paperType: "rct", participants: 730, changedPractice: true,
-    findings: ["Median overall survival 28.0 months (95% CI 23.5 to 31.5) versus 25.5 months (22.7 to 27.9); hazard ratio 0.82 (0.68 to 0.98), p 0.032.", "Grade 3 to 4 adverse events in 226 of 359 versus 196 of 366 patients."],
-    whatItMeans: "Gemcitabine plus capecitabine became the adjuvant standard after resection and remains the option for patients unfit for modified FOLFIRINOX.",
-    caveats: ["Reported early at the monitoring committee's request after 95 percent of target deaths.", "Registered with ISRCTN only (ISRCTN96397434)."],
-    links: [{ label: "Lancet 2017", url: "https://doi.org/10.1016/S0140-6736(16)32409-6" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/28129987/" }],
-    cancers: ["resectable-pdac", "pancreatic"], drugs: ["gemcitabine", "capecitabine"], trials: ["espac-4"], journals: ["lancet"] }),
+  // paper-espac-4-gemcitabine-capecitabine-adjuvant-neoptolemos-lancet-2017 merged into paper-espac-4-gemcitabine-capecitabine-adjuvant-pancreatic-lancet-2017 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-conko-001-adjuvant-gemcitabine-long-term-oettle-jama-2013", name: "CONKO-001: adjuvant gemcitabine and long-term outcomes after resected pancreatic cancer",
     tldr: "Six months of gemcitabine after complete removal of pancreatic cancer doubled the time to relapse and roughly doubled five-year survival, from 10 to 21 percent, in the trial that established adjuvant chemotherapy for the disease.",
@@ -446,27 +437,9 @@ export const papersSocWave: PaperInput[] = [
     links: [{ label: "Lancet Gastroenterol Hepatol 2024", url: "https://doi.org/10.1016/S2468-1253(23)00405-3" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/38237621/" }],
     cancers: ["resectable-pdac", "pancreatic"], drugs: ["folfirinox"], trials: ["norpact-1"] }),
 
-  p({ id: "paper-lap07-chemoradiotherapy-locally-advanced-pancreatic-hammel-jama-2016", name: "LAP07: chemoradiotherapy versus chemotherapy after four months of gemcitabine in locally advanced pancreatic cancer",
-    tldr: "Adding radiotherapy after four months of chemotherapy did not help people with unresectable, non-metastatic pancreatic cancer live longer, though it delayed local growth; adding erlotinib to gemcitabine did not help either.",
-    summary: "International open-label phase 3 trial: 449 patients with locally advanced pancreatic cancer were randomised to gemcitabine with or without erlotinib for four months; 269 with controlled disease were then randomised to capecitabine-based chemoradiotherapy or two more months of chemotherapy.\n\nThe trial stopped for futility: median overall survival was 16.5 months with chemotherapy and 15.2 months with chemoradiotherapy (hazard ratio 1.03, p 0.83), and 13.6 months with gemcitabine against 11.9 months with gemcitabine plus erlotinib (hazard ratio 1.19). Chemoradiotherapy reduced local progression (32 against 46 percent) with no extra grade 3 to 4 toxicity except nausea.",
-    journal: "JAMA", year: 2016, doi: "10.1001/jama.2016.4324", pmid: "27139057",
-    authors: "Hammel P, Huguet F, van Laethem JL, et al.", paperType: "rct", participants: 449, changedPractice: true,
-    findings: ["Median overall survival 15.2 months (95% CI 13.9 to 17.3) with chemoradiotherapy versus 16.5 months (14.5 to 18.5) with chemotherapy; hazard ratio 1.03 (0.79 to 1.34).", "Gemcitabine 13.6 months versus gemcitabine plus erlotinib 11.9 months; hazard ratio 1.19 (0.97 to 1.45).", "Local progression 32 versus 46 percent (p 0.03)."],
-    whatItMeans: "Consolidation chemoradiotherapy is optional in locally advanced pancreatic cancer, used for local control rather than survival; erlotinib has no role.",
-    caveats: ["Conventional radiotherapy with capecitabine; modern regimens (FOLFIRINOX induction, stereotactic radiotherapy) were not tested."],
-    links: [{ label: "JAMA 2016", url: "https://doi.org/10.1001/jama.2016.4324" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/27139057/" }],
-    cancers: ["locally-advanced-pdac", "pancreatic"], drugs: ["gemcitabine", "erlotinib", "capecitabine"], trials: ["lap07"], journals: ["jama"] }),
+  // paper-lap07-chemoradiotherapy-locally-advanced-pancreatic-hammel-jama-2016 merged into paper-lap07-chemoradiotherapy-locally-advanced-pancreatic-jama-2016 on 2026-09-25: see src/data/merged-records.ts.
 
-  p({ id: "paper-espac-5-neoadjuvant-borderline-resectable-ghaneh-lancet-gastroenterol-hepatol-2023", name: "ESPAC-5: immediate surgery versus short-course neoadjuvant chemotherapy or chemoradiotherapy in borderline resectable pancreatic cancer",
-    tldr: "In borderline resectable pancreatic cancer, two months of chemotherapy before surgery did not change how many tumours could be removed but was followed by far better one-year survival than going straight to surgery.",
-    summary: "Four-arm randomised phase 2 feasibility trial at 16 sites: 90 patients with borderline resectable pancreatic cancer were randomised to immediate surgery (33), neoadjuvant gemcitabine plus capecitabine (20), FOLFIRINOX (20) or capecitabine-based chemoradiotherapy (17); 86 were analysed.\n\nResection rates were 68 percent after immediate surgery and 55 percent after neoadjuvant therapy (p 0.33), with R0 rates of 14 and 23 percent. One-year overall survival was 39 percent with immediate surgery against 78, 84 and 60 percent in the three neoadjuvant arms (p 0.0028); one-year disease-free survival from surgery was 33 against 59 percent (hazard ratio 0.53).",
-    journal: "The Lancet Gastroenterology and Hepatology", year: 2023, doi: "10.1016/S2468-1253(22)00348-X", pmid: "36521500",
-    authors: "Ghaneh P, Palmer D, Cicconi S, et al.", paperType: "rct", participants: 90, changedPractice: true,
-    findings: ["One-year overall survival 39 percent (95% CI 24 to 61) with immediate surgery versus 78 percent (gemcitabine plus capecitabine), 84 percent (FOLFIRINOX) and 60 percent (chemoradiotherapy); p 0.0028.", "Resection 68 versus 55 percent (p 0.33); R0 resection 14 versus 23 percent (p 0.49).", "One-year disease-free survival from surgery 33 versus 59 percent; hazard ratio 0.53 (0.28 to 0.98), p 0.016."],
-    whatItMeans: "Supports neoadjuvant therapy, preferably chemotherapy, for borderline resectable pancreatic cancer while larger trials define the regimen.",
-    caveats: ["Feasibility design with small arms and a survival difference that was a secondary outcome.", "Median follow-up only 12.2 months."],
-    links: [{ label: "Lancet Gastroenterol Hepatol 2023", url: "https://doi.org/10.1016/S2468-1253(22)00348-X" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/36521500/" }],
-    cancers: ["borderline-resectable-pdac", "pancreatic"], drugs: ["gemcitabine", "capecitabine", "folfirinox"], trials: ["espac-5"] }),
+  // paper-espac-5-neoadjuvant-borderline-resectable-ghaneh-lancet-gastroenterol-hepatol-2023 merged into paper-espac-5-neoadjuvant-borderline-resectable-pancreatic-lancet-gastro-hep-2023 on 2026-09-25: see src/data/merged-records.ts.
 
   // ---------------------------------------------------------------- Sarcoma (Kaposi) and anal
   p({ id: "paper-actg-a5263-kaposi-sarcoma-resource-limited-krown-lancet-2020", name: "ACTG A5263/AMC 066: three chemotherapy regimens with antiretroviral therapy for advanced AIDS-associated Kaposi sarcoma in resource-limited settings",
@@ -481,16 +454,7 @@ export const papersSocWave: PaperInput[] = [
     cancers: ["kaposi-sarcoma"], drugs: ["paclitaxel", "etoposide", "bleomycin", "vincristine"], trials: ["actg-a5263"], journals: ["lancet"] }),
 
   // ---------------------------------------------------------------- Anal
-  p({ id: "paper-anchor-treatment-of-anal-hsil-prevents-cancer-palefsky-nejm-2022", name: "ANCHOR: treatment of anal high-grade squamous intraepithelial lesions to prevent anal cancer",
-    tldr: "Treating precancerous anal lesions in people living with HIV cut the rate of progression to anal cancer by 57 percent compared with monitoring alone, the first proof that anal cancer screening and treatment work.",
-    summary: "Phase 3 trial of the AIDS Malignancy Consortium: 4,459 people living with HIV aged 35 or older with biopsy-proven anal high-grade squamous intraepithelial lesions were randomised to treatment (mostly office-based ablation, or topical fluorouracil or imiquimod, or excision) or active monitoring every six months; 4,446 were analysed.\n\nAt a median follow-up of 25.8 months, nine cancers were diagnosed in the treatment group (173 per 100,000 person-years) and 21 in the monitoring group (402 per 100,000 person-years), a 57 percent lower rate of progression (95% CI 6 to 80, p 0.03). The trial stopped early for efficacy.",
-    journal: "New England Journal of Medicine", year: 2022, doi: "10.1056/NEJMoa2201048", pmid: "35704479",
-    authors: "Palefsky JM, Lee JY, Jay N, et al.", paperType: "rct", participants: 4446, changedPractice: true,
-    findings: ["Anal cancer incidence 173 per 100,000 person-years (95% CI 90 to 332) with treatment versus 402 (262 to 616) with active monitoring.", "Rate of progression to anal cancer 57 percent lower with treatment (95% CI 6 to 80; p 0.03)."],
-    whatItMeans: "People living with HIV should be screened for anal high-grade lesions and treated when they are found; guidelines in the United States changed on this trial.",
-    caveats: ["Only 30 cancers occurred and follow-up was short; the trial was stopped early.", "Treatment modalities varied and the benefit for HIV-negative populations is inferred."],
-    links: [{ label: "N Engl J Med 2022", url: "https://doi.org/10.1056/NEJMoa2201048" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35704479/" }],
-    cancers: ["anal-hsil-precursor", "anal"], trials: ["anchor"], journals: ["nejm"] }),
+  // paper-anchor-treatment-of-anal-hsil-prevents-cancer-palefsky-nejm-2022 merged into paper-anchor-anal-hsil-treatment-nejm-2022 on 2026-09-25: see src/data/merged-records.ts.
 
   p({ id: "paper-pod1um-303-retifanlimab-anal-cancer-rao-lancet-2025", name: "POD1UM-303/InterAACT-2: retifanlimab with carboplatin and paclitaxel for locally recurrent or metastatic anal squamous cell carcinoma",
     tldr: "Adding the PD-1 antibody retifanlimab to first-line carboplatin and paclitaxel for advanced anal cancer lengthened the time before the cancer progressed from 7.4 to 9.3 months and cut the risk of progression by 37 percent, with manageable extra toxicity.",
@@ -537,16 +501,7 @@ export const papersSocWave: PaperInput[] = [
     cancers: ["metastatic-anal-cancer", "anal"], drugs: ["nivolumab", "ipilimumab"], trials: ["nci9673"], journals: ["jco"] }),
 
   // ---------------------------------------------------------------- Colorectal (Lynch syndrome)
-  p({ id: "paper-capp2-aspirin-lynch-syndrome-10-year-burn-lancet-2020", name: "CAPP2: cancer prevention with aspirin in Lynch syndrome, 10-year follow-up and registry-based 20-year data",
-    tldr: "Ten years after two to four years of daily aspirin, people with Lynch syndrome had developed about a third fewer bowel cancers than those on placebo, confirming aspirin as a preventive treatment for the condition.",
-    summary: "Double-blind randomised placebo-controlled trial: 861 carriers of Lynch syndrome from 43 international centres were assigned to 600 mg aspirin daily or placebo (mean treatment 25 months) and followed for a mean of ten years, up to 20 years through registries.\n\nColorectal cancer developed in 40 of 427 (9 percent) on aspirin and 58 of 434 (13 percent) on placebo (hazard ratio 0.65, p 0.035; incidence rate ratio 0.58). Among 509 who completed two years of treatment the hazard ratio was 0.56. Non-colorectal Lynch cancers were not significantly reduced and adverse events did not differ during treatment.",
-    journal: "The Lancet", year: 2020, doi: "10.1016/S0140-6736(20)30366-4", pmid: "32534647",
-    authors: "Burn J, Sheth H, Elliott F, et al.", paperType: "rct", participants: 861, changedPractice: true,
-    findings: ["Colorectal cancer in 9 percent on aspirin versus 13 percent on placebo over 10 years; hazard ratio 0.65 (95% CI 0.43 to 0.97), p 0.035.", "Per-protocol hazard ratio 0.56 (0.34 to 0.91) among 509 who completed 2 years of treatment.", "Incidence rate ratio 0.58 (0.39 to 0.87) accounting for multiple primary cancers."],
-    whatItMeans: "Daily aspirin is recommended for people with Lynch syndrome; the optimal dose is being tested in CaPP3.",
-    caveats: ["Registered with ISRCTN only (ISRCTN59521990); the benefit appeared only after several years of follow-up and the 600 mg dose carries bleeding risk."],
-    links: [{ label: "Lancet 2020", url: "https://doi.org/10.1016/S0140-6736(20)30366-4" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/32534647/" }],
-    cancers: ["msi-high-colorectal"], drugs: ["aspirin"], trials: ["capp2"], journals: ["lancet"] }),
+  // paper-capp2-aspirin-lynch-syndrome-10-year-burn-lancet-2020 merged into paper-capp2-aspirin-lynch-lancet-2020 on 2026-09-25: see src/data/merged-records.ts.
 
   // ---------------------------------------------------------------- Head and neck (nasopharyngeal)
   p({ id: "paper-continuum-sintilimab-nasopharyngeal-liu-lancet-2024", name: "CONTINUUM: induction-concurrent chemoradiotherapy with or without sintilimab in locoregionally advanced nasopharyngeal carcinoma",

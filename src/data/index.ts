@@ -15,6 +15,7 @@ import { ideas } from "./ideas";
 import { collections } from "./collections";
 import type { EntityInput, TargetInput } from "@/lib/schema";
 import { applySpikeSupplements, mergeSpikeInto, spikeEntities, unappliedSpikeSupplements, unpatchedSpikeCancers } from "./spikes";
+import { applyMergeSupplements, unappliedMergeSupplements } from "./merged-records";
 import { failures } from "./failures";
 import { pipelineTrials } from "./pipeline-trials";
 import { groups } from "./groups";
@@ -307,7 +308,9 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // Cancer deep-dive patches (mergeSpikeInto) reach every cancer record, whichever file holds it: cancers.ts, the NCI rare
   // and paediatric lists in src/data/spikes/, the subtype waves. Supplements (partial records onto targets, readouts,
   // drugs and papers other files own) come next; arrays append, scalars fill gaps.
-  const raw = applySpikeSupplements(base.kind === "cancer" ? mergeSpikeInto(base) : base);
+  // Merge supplements (src/data/merged-records.ts): what a record retired as a duplicate carried and its survivor did
+  // not. Applied on the same terms as a spike supplement, so retiring an id loses no relation.
+  const raw = applyMergeSupplements(applySpikeSupplements(base.kind === "cancer" ? mergeSpikeInto(base) : base));
   // Paper pages written for DOIs a record cites in its external links by scripts/fetch-cited-papers.ts (wave 7): the
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];
@@ -381,5 +384,7 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   if (missing.length) throw new Error(`Spike supplements name records that do not exist: ${missing.join(", ")}`);
   const unpatched = unpatchedSpikeCancers();
   if (unpatched.length) throw new Error(`Spike patches name cancers that do not exist: ${unpatched.join(", ")}`);
+  const orphanedMerges = unappliedMergeSupplements();
+  if (orphanedMerges.length) throw new Error(`Merge supplements name records that do not exist: ${orphanedMerges.join(", ")}`);
 }
 

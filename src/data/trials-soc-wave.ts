@@ -257,7 +257,7 @@ export const trialsSocWave: TrialInput[] = [
     cancers: ["mds-lower-risk", "mds"], companies: ["novartis"], links: [ct("NCT00940602"), { label: "ClinicalTrials.gov results", url: results("NCT00940602") }] }),
 
   t({ id: "impactmf", name: "IMpactMF", aka: ["MYF3001"], nct: "NCT04576156", phase: "3", status: "active", sponsor: "Geron Corporation", enrolled: 327,
-    technologies: ["kinase-inhibitors"], trials: ["nct04576156"],
+    technologies: ["kinase-inhibitors"],
     setting: "Intermediate-2 or high-risk myelofibrosis relapsed or refractory to a JAK inhibitor: the telomerase inhibitor imetelstat against best available therapy, with overall survival as the primary endpoint",
     tldr: "IMpactMF is the first myelofibrosis trial designed to prove that a drug helps people live longer rather than just shrinking the spleen; it compares the telomerase blocker imetelstat with the best treatment doctors can otherwise offer after a JAK inhibitor has stopped working, and results are expected towards 2028.",
     summary: "IMpactMF is Geron's open-label randomised phase 3 trial in patients with intermediate-2 or high-risk myelofibrosis whose disease has relapsed after or is refractory to a JAK inhibitor. Patients are randomised two to one to imetelstat, an oligonucleotide inhibitor of telomerase, or best available therapy excluding JAK inhibitors. Unusually for myelofibrosis, the primary endpoint is overall survival, following the phase 2 IMbark study in which imetelstat was associated with longer survival than expected in this population.\n\nThe registry lists 327 participants enrolled with a primary completion date of June 2028 and no results. Imetelstat is approved for lower-risk myelodysplastic syndrome with transfusion-dependent anaemia; the corpus's primary myelofibrosis page cites IMpactMF as the trial testing it after JAK inhibitor failure.",
@@ -632,7 +632,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Adjuvant gemcitabine + capecitabine", n: 364, value: 28.0, note: "95% CI 23.5 to 31.5" }, { name: "Adjuvant gemcitabine", n: 366, value: 25.5, note: "95% CI 22.7 to 27.9" }], hr: 0.82, ci: [0.68, 0.98], p: "0.032", source: doi("10.1016/S0140-6736(16)32409-6") },
       { endpoint: "Patients with grade 3 to 4 adverse events", unit: "%", arms: [{ name: "Adjuvant gemcitabine + capecitabine", n: 359, value: 63, note: "226 of 359 patients, 608 events" }, { name: "Adjuvant gemcitabine", n: 366, value: 54, note: "196 of 366 patients, 481 events" }], source: doi("10.1016/S0140-6736(16)32409-6") },
     ],
-    drugs: ["gemcitabine", "capecitabine"], cancers: ["resectable-pdac", "pancreatic"], keyPapers: ["paper-espac-4-gemcitabine-capecitabine-adjuvant-neoptolemos-lancet-2017"], links: [{ label: "ISRCTN96397434", url: "https://www.isrctn.com/ISRCTN96397434" }] }),
+    drugs: ["gemcitabine", "capecitabine"], cancers: ["resectable-pdac", "pancreatic"], keyPapers: ["paper-espac-4-gemcitabine-capecitabine-adjuvant-pancreatic-lancet-2017"], links: [{ label: "ISRCTN96397434", url: "https://www.isrctn.com/ISRCTN96397434" }] }),
 
   t({ id: "conko-001", name: "CONKO-001", aka: ["CONKO 001", "CONKO-1"], nct: "ISRCTN34802808", phase: "3", status: "positive", yearReported: 2013, sponsor: "Charite University, Berlin, Germany", enrolled: 368, enrolledBasis: "randomised", enrolledNote: "CONKO-001 has no ClinicalTrials.gov record; the figure is the 368 randomised in the JAMA report (354 in the intention-to-treat analysis); the trial is registered as ISRCTN34802808.",
     technologies: ["cytotoxic-chemotherapy"],
@@ -672,7 +672,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Overall survival, gemcitabine against gemcitabine plus erlotinib (first randomisation)", unit: "months", arms: [{ name: "Gemcitabine", n: 223, value: 13.6, note: "95% CI 12.3 to 15.3" }, { name: "Gemcitabine + erlotinib", n: 219, value: 11.9, note: "95% CI 10.4 to 13.5" }], hr: 1.19, ci: [0.97, 1.45], p: "0.09", source: doi("10.1001/jama.2016.4324") },
       { endpoint: "Local progression", unit: "%", arms: [{ name: "Capecitabine-based chemoradiotherapy", value: 32 }, { name: "Chemotherapy alone", value: 46 }], p: "0.03", source: doi("10.1001/jama.2016.4324") },
     ],
-    drugs: ["gemcitabine", "erlotinib", "capecitabine"], cancers: ["locally-advanced-pdac", "pancreatic"], keyPapers: ["paper-lap07-chemoradiotherapy-locally-advanced-pancreatic-hammel-jama-2016"], links: [ct("NCT00634725")] }),
+    drugs: ["gemcitabine", "erlotinib", "capecitabine"], cancers: ["locally-advanced-pdac", "pancreatic"], keyPapers: ["paper-lap07-chemoradiotherapy-locally-advanced-pancreatic-jama-2016"], links: [ct("NCT00634725")] }),
 
   t({ id: "espac-5", name: "ESPAC-5", aka: ["ESPAC5", "ESPAC-5F"], phase: "2", status: "positive", yearReported: 2023, sponsor: "University of Liverpool (Cancer Research UK)", enrolled: 90, enrolledBasis: "randomised", enrolledNote: "ESPAC-5 has no ClinicalTrials.gov record and the Lancet Gastroenterology and Hepatology report does not print a registry id; the figure is the 90 patients randomised between 2014 and 2018 (86 analysed).",
     technologies: ["cytotoxic-chemotherapy", "imrt-igrt"],
@@ -686,7 +686,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Disease-free survival at 1 year from surgery", unit: "%", arms: [{ name: "Immediate surgery", value: 33, note: "95% CI 19 to 58" }, { name: "Neoadjuvant therapy arms combined", value: 59, note: "95% CI 46 to 74" }], hr: 0.53, ci: [0.28, 0.98], p: "0.016", source: doi("10.1016/S2468-1253(22)00348-X") },
       { endpoint: "R0 resection among resected patients", unit: "%", arms: [{ name: "Immediate surgery", n: 21, value: 14 }, { name: "Neoadjuvant therapy arms combined", n: 30, value: 23 }], p: "0.49", source: doi("10.1016/S2468-1253(22)00348-X") },
     ],
-    drugs: ["gemcitabine", "capecitabine", "folfirinox"], cancers: ["borderline-resectable-pdac", "pancreatic"], keyPapers: ["paper-espac-5-neoadjuvant-borderline-resectable-ghaneh-lancet-gastroenterol-hepatol-2023"], links: [{ label: "Lancet Gastroenterol Hepatol 2023", url: "https://doi.org/10.1016/S2468-1253(22)00348-X" }] }),
+    drugs: ["gemcitabine", "capecitabine", "folfirinox"], cancers: ["borderline-resectable-pdac", "pancreatic"], keyPapers: ["paper-espac-5-neoadjuvant-borderline-resectable-pancreatic-lancet-gastro-hep-2023"], links: [{ label: "Lancet Gastroenterol Hepatol 2023", url: "https://doi.org/10.1016/S2468-1253(22)00348-X" }] }),
 
   t({ id: "precede", name: "PRECEDE", aka: ["Pancreatic Cancer Early Detection Consortium"], nct: "NCT04970056", phase: "observational", status: "recruiting", sponsor: "Arbor Research Collaborative for Health", enrolled: 20000,
     technologies: ["pancreatic-surveillance"],
@@ -721,7 +721,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Incidence of anal cancer", primary: true, unit: "cases per 100,000 person-years", arms: [{ name: "Treatment of high-grade lesions", value: 173, note: "9 cases; 95% CI 90 to 332; median follow-up 25.8 months" }, { name: "Active monitoring", value: 402, note: "21 cases; 95% CI 262 to 616" }], p: "0.03", source: doi("10.1056/NEJMoa2201048") },
       { endpoint: "Reduction in the rate of progression to anal cancer with treatment", unit: "%", arms: [{ name: "Treatment against active monitoring", value: 57, note: "95% CI 6 to 80" }], source: doi("10.1056/NEJMoa2201048") },
     ],
-    drugs: ["fluorouracil", "imiquimod"], cancers: ["anal-hsil-precursor", "anal"], keyPapers: ["paper-anchor-treatment-of-anal-hsil-prevents-cancer-palefsky-nejm-2022"], links: [ct("NCT02135419")] }),
+    drugs: ["fluorouracil", "imiquimod"], cancers: ["anal-hsil-precursor", "anal"], keyPapers: ["paper-anchor-anal-hsil-treatment-nejm-2022"], links: [ct("NCT02135419")] }),
 
   t({ id: "pod1um-303", name: "POD1UM-303/InterAACT-2", aka: ["POD1UM-303", "InterAACT-2", "INCMGA 0012-303"], nct: "NCT04472429", phase: "3", status: "positive", yearReported: 2025, sponsor: "Incyte Corporation", enrolled: 308,
     technologies: ["checkpoint-inhibitor", "cytotoxic-chemotherapy"],
@@ -777,7 +777,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Colorectal cancer, per protocol (at least 2 years of treatment)", unit: "%", arms: [{ name: "Aspirin 600 mg daily", note: "509 participants across both arms completed 2 years" }, { name: "Placebo" }], hr: 0.56, ci: [0.34, 0.91], p: "0.019", source: doi("10.1016/S0140-6736(20)30366-4") },
       { endpoint: "Incidence rate ratio for colorectal cancer accounting for multiple primaries (intention to treat)", arms: [{ name: "Aspirin 600 mg daily", value: 0.58, note: "95% CI 0.39 to 0.87, p 0.0085" }, { name: "Placebo", value: 1 }], source: doi("10.1016/S0140-6736(20)30366-4") },
     ],
-    drugs: ["aspirin"], cancers: ["msi-high-colorectal"], keyPapers: ["paper-capp2-aspirin-lynch-syndrome-10-year-burn-lancet-2020"], links: [{ label: "ISRCTN59521990", url: "https://www.isrctn.com/ISRCTN59521990" }] }),
+    drugs: ["aspirin"], cancers: ["msi-high-colorectal"], keyPapers: ["paper-capp2-aspirin-lynch-lancet-2020"], links: [{ label: "ISRCTN59521990", url: "https://www.isrctn.com/ISRCTN59521990" }] }),
 
   // ---------------------------------------------------------------- Head and neck (nasopharyngeal)
   t({ id: "continuum", name: "CONTINUUM", aka: ["2018-FXY-135-FLK"], nct: "NCT03700476", phase: "3", status: "positive", yearReported: 2024, sponsor: "Sun Yat-sen University Cancer Center", enrolled: 425,

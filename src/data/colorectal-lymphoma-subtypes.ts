@@ -87,7 +87,7 @@ export const colorectalLymphomaTrials: TrialInput[] = [
 
 export const colorectalLymphomaSubtypes: CancerInput[] = [
   { id: "rectal-cancer", related: ["braf-v600e-colorectal", "early-onset-colorectal", "her2-amplified-colorectal", "kras-g12c-colorectal", "msi-high-colorectal"], kind: "cancer", name: "Rectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("Colorectal_cancer"),
-    keyPapers: ["paper-sauer-preoperative-chemoradiotherapy-rectal-nejm-2004", "paper-rapido-lancet-oncol-2021", "paper-prodige-23-lancet-oncol-2021", "paper-prospect-nejm-2023"],
+    keyPapers: ["paper-sauer-preoperative-chemoradiotherapy-rectal-nejm-2004", "paper-bahadoer-rapido-short-course-radiotherapy-lancet-oncol-2021", "paper-conroy-prodige-23-neoadjuvant-folfirinox-rectal-lancet-oncol-2021", "paper-prospect-nejm-2023"],
     aka: ["TCGA-READ", "rectum adenocarcinoma (TCGA READ cohort)", "Rectal adenocarcinoma", "Cancer of the rectum", "Locally advanced rectal cancer", "Rectum cancer"],
     burden: "About a third of colorectal cancers start in the rectum, the last 15 cm of the bowel; because the rectum sits in the narrow pelvis next to the bladder, sexual organs and sphincter, local recurrence, stomas and function matter more than for colon cancer.",
     tldr: "Rectal cancer is bowel cancer in the last part of the large intestine, where surgery can mean a permanent stoma. Treatment now usually gives all the chemotherapy and radiotherapy first, and about half of people whose tumour disappears completely can keep their rectum and avoid surgery altogether.",
@@ -153,7 +153,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     links: [{ label: "Wikipedia", url: W("Microsatellite_instability") }, { label: "NCCN Guidelines: Colon Cancer", url: NCCN_COLON }] },
 
   { id: "braf-v600e-colorectal", related: ["early-onset-colorectal", "her2-amplified-colorectal", "kras-g12c-colorectal", "msi-high-colorectal", "rectal-cancer"], kind: "cancer", name: "BRAF V600E-mutant colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("BRAF_(gene)"),
-    keyPapers: ["paper-breakwater-nejm-2025", "paper-beacon-crc-kopetz-nejm-2019", "paper-cms-guinney-nat-med-2015"],
+    keyPapers: ["paper-breakwater-nejm-2025", "paper-kopetz-beacon-encorafenib-braf-colorectal-nejm-2019", "paper-cms-guinney-nat-med-2015"],
     aka: ["BRAF-mutant colorectal cancer", "BRAF V600E metastatic colorectal cancer", "BRAF-mutated bowel cancer"],
     burden: "About 8 to 10 percent of colorectal cancers carry BRAF V600E; they are commoner in older women and right-sided tumours, are often mismatch-repair deficient when localised, and when metastatic and microsatellite-stable have had among the shortest survival of any colorectal subtype.",
     tldr: "BRAF V600E bowel cancer carries the same mutation as many melanomas, but BRAF drugs alone did nothing here because the tumour re-routes its growth signal through EGFR. Blocking both with encorafenib and cetuximab, now given with chemotherapy from the start, has doubled survival in a subtype that used to be the worst.",
@@ -184,7 +184,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     links: [{ label: "Wikipedia", url: W("BRAF_(gene)") }, { label: "NCCN Guidelines: Colon Cancer", url: NCCN_COLON }] },
 
   { id: "her2-amplified-colorectal", related: ["braf-v600e-colorectal", "early-onset-colorectal", "kras-g12c-colorectal", "msi-high-colorectal", "rectal-cancer"], kind: "cancer", name: "HER2-amplified colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("HER2/neu"),
-    keyPapers: ["paper-mountaineer-lancet-oncol-2023", "paper-heracles-lancet-oncol-2016", "paper-destiny-crc01-lancet-oncol-2021"],
+    keyPapers: ["paper-strickler-mountaineer-tucatinib-trastuzumab-lancet-oncol-2023", "paper-sartore-bianchi-heracles-trastuzumab-lapatinib-lancet-oncol-2016", "paper-siena-destiny-crc01-trastuzumab-deruxtecan-lancet-oncol-2021"],
     aka: ["HER2-positive colorectal cancer", "ERBB2-amplified colorectal cancer", "HER2-overexpressing bowel cancer"],
     burden: "About 3 to 5 percent of colorectal cancers, and about 5 to 8 percent of RAS and BRAF wild-type tumours, have HER2 amplification; they are mostly left-sided and rectal, and respond poorly to anti-EGFR antibodies.",
     tldr: "A few bowel cancers make too much of the HER2 protein, the same target as in HER2-positive breast cancer. Two HER2 drugs together, tucatinib and trastuzumab, shrink about four in ten of these tumours after chemotherapy has failed, and the antibody-drug conjugate trastuzumab deruxtecan works even when other HER2 drugs have stopped.",
@@ -213,7 +213,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     links: [{ label: "Wikipedia", url: W("HER2/neu") }, { label: "NCCN Guidelines: Colon Cancer", url: NCCN_COLON }] },
 
   { id: "kras-g12c-colorectal", related: ["braf-v600e-colorectal", "early-onset-colorectal", "her2-amplified-colorectal", "msi-high-colorectal", "rectal-cancer"], kind: "cancer", name: "KRAS G12C-mutant colorectal cancer", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("KRAS"),
-    keyPapers: ["paper-codebreak-300-nejm-2023", "paper-krystal-1-crc-yaeger-nejm-2023", "paper-sunlight-nejm-2023"],
+    keyPapers: ["paper-codebreak-300-nejm-2023", "paper-krystal-1-crc-yaeger-nejm-2023", "paper-prager-sunlight-trifluridine-tipiracil-bevacizumab-nejm-2023"],
     aka: ["KRAS G12C colorectal cancer", "G12C-mutant bowel cancer", "RAS-mutant colorectal cancer (G12C subset)"],
     burden: "About 3 to 4 percent of colorectal cancers carry KRAS G12C, a small slice of the 45 percent that are RAS-mutant; they behave like other RAS-mutant tumours, resistant to anti-EGFR antibodies, with a somewhat worse outlook.",
     tldr: "KRAS G12C bowel cancer carries a mutation that was undruggable for forty years. The first KRAS drugs work only weakly on their own in the bowel, because the tumour switches EGFR back on, so they are given with an anti-EGFR antibody: sotorasib with panitumumab and adagrasib with cetuximab are both approved after chemotherapy.",
@@ -242,7 +242,7 @@ export const colorectalLymphomaSubtypes: CancerInput[] = [
     links: [{ label: "Wikipedia", url: W("KRAS") }, { label: "NCCN Guidelines: Colon Cancer", url: NCCN_COLON }] },
 
   { id: "early-onset-colorectal", related: ["braf-v600e-colorectal", "her2-amplified-colorectal", "kras-g12c-colorectal", "msi-high-colorectal", "rectal-cancer"], kind: "cancer", name: "Early-onset colorectal cancer (under 50)", group: "gastrointestinal", parent: "colorectal", asOf, tags, wikipedia: W("Colorectal_cancer"),
-    keyPapers: ["paper-cms-guinney-nat-med-2015", "paper-sinicrope-early-onset-crc-nejm-2022", "paper-uspstf-crc-screening-45-jama-2021", "paper-siegel-crc-incidence-1974-2013-jnci-2017"],
+    keyPapers: ["paper-cms-guinney-nat-med-2015", "paper-sinicrope-early-onset-crc-nejm-2022", "paper-uspstf-crc-screening-45-jama-2021", "paper-siegel-colorectal-incidence-birth-cohort-jnci-2017"],
     aka: ["Young-onset colorectal cancer", "Colorectal cancer in adults under 50", "Early-age-onset colorectal cancer", "Bowel cancer in young adults"],
     burden: "Roughly one in ten colorectal cancers in high-income countries is now diagnosed before 50, and incidence in this age group has risen by about 2 percent a year in the United States since the mid-1990s while falling in older adults; most are left-sided or rectal and diagnosed at a later stage.",
     tldr: "Bowel cancer is rising in people under 50, for reasons that are still not understood, and it is usually found late because neither patients nor doctors expect it. Treatment is the same as in older adults and works as well stage for stage; the changes are earlier screening, genetic testing for everyone diagnosed young, and attention to fertility, work and family.",

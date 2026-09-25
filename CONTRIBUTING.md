@@ -47,6 +47,7 @@ Discussion is separate from change: questions, interpretations and "is anyone wo
 
 ## Adding an object
 
+0. Check the corpus does not already hold it. A paper is its DOI and its PubMed id, a trial is its registry id: if one of those is already on a record, add your links to that record instead of writing a second one. Two records for one thing is the commonest data bug here and `docs/DUPLICATE-RECORDS.md` is the rule, the survey (`npx tsx scripts/dedupe-survey.ts`) and the merge that undoes it.
 1. Pick the kind: `src/data/<kind>.ts` (products live in `drugs.ts`; people under `src/data/people/`; deep cancer material under `src/data/spikes/`).
 2. Scaffold it: `npm run new -- --kind <kind> --name "<name>"` writes `src/data/drafts/<id>.ts`, a schema-valid stub with every required field filled with a `TODO` placeholder and a checklist in the header. Or copy a neighbouring record. Ids are kebab-case and globally unique across all kinds; the scaffolder refuses an id that exists.
 3. Write the `tldr` for someone with no background: one or two sentences, no jargon, no numbers unless essential. Write the `summary` for a clinician or scientist.

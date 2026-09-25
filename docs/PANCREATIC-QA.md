@@ -164,13 +164,11 @@ ids and two dropped where the surviving id was already indexed.
 
 ## Open gaps
 
-- Four papers exist twice: the full evidence records for PREOPANC (2020), HALO-301, PANOVA-3 and the ponsegromab
-  phase 2 and the thin Europe PMC ingest records `paper-versteijne-j-clin-oncol`, `paper-van-cutsem-j-clin-oncol`,
-  `paper-babiker-j-clin-oncol` and `paper-ponsegromab-phase-2-n-engl-j-med-2024`. Supplements make each ingest record
-  point at the full one (the full record sees it as an incoming neighbour); the reverse link was written and withdrawn,
-  because the roadmap page renders a key paper's related papers and the four ingest cards took
-  `/roadmaps/pancreatic-roadmap/` from under to 1.8 KB over its 300 KB budget (`src/app/heavy-pages.test.ts`).
-  Retiring the ingest ids needs the same redirect policy the TNBC review asked for.
+- ~~Four papers exist twice~~ **Closed 25 September 2026.** `paper-versteijne-j-clin-oncol`,
+  `paper-van-cutsem-j-clin-oncol`, `paper-babiker-j-clin-oncol` and `paper-ponsegromab-phase-2-n-engl-j-med-2024` were
+  merged into the full evidence records for PREOPANC (2020), HALO-301, PANOVA-3 and the ponsegromab phase 2, and the
+  cross-link supplements are gone. The redirect policy this gap asked for is `docs/DUPLICATE-RECORDS.md`. The roadmap
+  page's budget problem goes with it: there are no ingest cards left to render.
 - `public/reviews/models/pancreatic.json` (the model panel, 17 September 2026) was written against the pre-spike record
   and still says approval is pending and that the record lacks risk-factor and tumour-suppressor content; it renders in
   the aside of every pancreatic page and needs re-running with the owner's key.

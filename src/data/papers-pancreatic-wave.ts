@@ -200,7 +200,7 @@ export const papersPancreaticWave: PaperInput[] = [
     whatItMeans: "Every pancreatic cancer should be tested for mismatch repair deficiency because the 1 percent who have it can receive pembrolizumab, but responses in pancreatic cancer are less frequent and less durable than in other MSI-high cancers.",
     caveats: ["Single-arm basket study; the pancreatic cohort was small and heavily pretreated.", "Some patients had MSI-high status assigned by PCR or immunohistochemistry alone, and misclassification is a known problem in pancreatic cancer."],
     links: [{ label: "J Clin Oncol 2020", url: "https://doi.org/10.1200/JCO.19.02105" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31682550/" }],
-    cancers: ["msi-high-pdac", "pancreatic"], drugs: ["pembrolizumab"], trials: ["nct02628067"], journals: ["jco"], people: ["aurelien-marabelle", "dung-le"] }),
+    cancers: ["msi-high-pdac", "pancreatic"], drugs: ["pembrolizumab"], trials: ["keynote-158"], journals: ["jco"], people: ["aurelien-marabelle", "dung-le"] }),
 
   p({ id: "paper-hu-mismatch-repair-deficiency-pancreatic-adenocarcinoma-ccr-2018", name: "Hu 2018: evaluating mismatch repair deficiency in pancreatic adenocarcinoma, challenges and recommendations",
     tldr: "Of more than 800 pancreatic cancers sequenced at one centre, under one in a hundred were mismatch repair deficient, most in people with Lynch syndrome, and several responded to immunotherapy. The paper set out how to test for the abnormality reliably in a cancer where standard tests often mislead.",

@@ -540,6 +540,421 @@
       "source": "/institutions/itcc/:path*",
       "destination": "/companies/itcc/:path*",
       "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-adiuvo-adjuvant-mitotane-acc-lancet-diabetes-endocrinol-2023/:path*",
+      "destination": "/key-papers/paper-adiuvo-adjuvant-mitotane-low-grade-acc-terzolo-lancet-diabetes-endocrinol-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-nct02486718-lancet-2021/:path*",
+      "destination": "/key-papers/paper-felip-impower010-adjuvant-atezolizumab-lancet-2021/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-masuda-n-engl-j-med/:path*",
+      "destination": "/key-papers/paper-create-x-adjuvant-capecitabine-nejm-2017/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-cheng-adriatic-durvalumab-limited-stage-sclc-nejm-2024/:path*",
+      "destination": "/key-papers/paper-adriatic-nejm-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-alina-n-engl-j-med-2024/:path*",
+      "destination": "/key-papers/paper-wu-alina-adjuvant-alectinib-nejm-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-alex-n-engl-j-med-2017/:path*",
+      "destination": "/key-papers/paper-peters-alex-alectinib-crizotinib-nejm-2017/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-cho-mariposa-amivantamab-lazertinib-nejm-2024/:path*",
+      "destination": "/key-papers/paper-mariposa-nejm-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-anchor-treatment-of-anal-hsil-prevents-cancer-palefsky-nejm-2022/:path*",
+      "destination": "/key-papers/paper-anchor-anal-hsil-treatment-nejm-2022/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-antonarakis-arv7-enzalutamide-abiraterone-nejm-2014/:path*",
+      "destination": "/key-papers/paper-antonarakis-ar-v7-resistance-nejm-2014/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-aurelia-jco-2014/:path*",
+      "destination": "/key-papers/paper-aurelia-bevacizumab-platinum-resistant-ovarian-pujade-lauraine-jco-2014/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-beacon-crc-kopetz-nejm-2019/:path*",
+      "destination": "/key-papers/paper-kopetz-beacon-encorafenib-braf-colorectal-nejm-2019/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-bullock-nat-med/:path*",
+      "destination": "/key-papers/paper-bullock-botensilimab-balstilimab-mss-colorectal-nat-med-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-burn-capp2-aspirin-lynch-syndrome-lancet-2020/:path*",
+      "destination": "/key-papers/paper-capp2-aspirin-lynch-lancet-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-capp2-aspirin-lynch-syndrome-10-year-burn-lancet-2020/:path*",
+      "destination": "/key-papers/paper-capp2-aspirin-lynch-lancet-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-geometry-mono-1-capmatinib-nejm-2020/:path*",
+      "destination": "/key-papers/paper-wolf-geometry-mono-1-capmatinib-nejm-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-cercek-dmmr-rectal-nejm-2022/:path*",
+      "destination": "/key-papers/paper-cercek-dostarlimab-rectal-nejm-2022/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-courneya-challenge-structured-exercise-colon-nejm-2025/:path*",
+      "destination": "/key-papers/paper-challenge-exercise-nejm-2025/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-checkmate-067-ten-year-nejm-2025/:path*",
+      "destination": "/key-papers/paper-checkmate-067-10-year-nejm-2025/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-tie-ctdna-stage-ii-colon-sci-transl-med-2016/:path*",
+      "destination": "/key-papers/paper-tie-ctdna-minimal-residual-disease-stage-ii-colon-sci-transl-med-2016/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-tie-dynamic-ctdna-guided-adjuvant-stage-ii-colon-nejm-2022/:path*",
+      "destination": "/key-papers/paper-dynamic-nejm-2022/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-de-langen-codebreak-200-sotorasib-docetaxel-lancet-2023/:path*",
+      "destination": "/key-papers/paper-codebreak-200-lancet-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-fakih-codebreak-300-sotorasib-panitumumab-nejm-2023/:path*",
+      "destination": "/key-papers/paper-codebreak-300-nejm-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-siegel-crc-incidence-1974-2013-jnci-2017/:path*",
+      "destination": "/key-papers/paper-siegel-colorectal-incidence-birth-cohort-jnci-2017/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-tcga-colon-rectal-molecular-characterization-nature-2012/:path*",
+      "destination": "/key-papers/paper-tcga-colorectal-comprehensive-characterization-nature-2012/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-crown-nejm-2020/:path*",
+      "destination": "/key-papers/paper-shaw-crown-lorlatinib-crizotinib-nejm-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-ahn-dellphi-301-tarlatamab-sclc-nejm-2023/:path*",
+      "destination": "/key-papers/paper-dellphi-301-nejm-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-destiny-crc01-lancet-oncol-2021/:path*",
+      "destination": "/key-papers/paper-siena-destiny-crc01-trastuzumab-deruxtecan-lancet-oncol-2021/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-heracles-trastuzumab-lapatinib-her2-colorectal-lancet-oncol-2016/:path*",
+      "destination": "/key-papers/paper-sartore-bianchi-heracles-trastuzumab-lapatinib-lancet-oncol-2016/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-heracles-lancet-oncol-2016/:path*",
+      "destination": "/key-papers/paper-sartore-bianchi-heracles-trastuzumab-lapatinib-lancet-oncol-2016/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-caspian-lancet-2019/:path*",
+      "destination": "/key-papers/paper-paz-ares-caspian-durvalumab-es-sclc-lancet-2019/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-bretthauer-nordicc-colonoscopy-screening-nejm-2022/:path*",
+      "destination": "/key-papers/paper-nordicc-nejm-2022/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-espac-4-gemcitabine-capecitabine-adjuvant-neoptolemos-lancet-2017/:path*",
+      "destination": "/key-papers/paper-espac-4-gemcitabine-capecitabine-adjuvant-pancreatic-lancet-2017/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-espac-5-neoadjuvant-borderline-resectable-ghaneh-lancet-gastroenterol-hepatol-2023/:path*",
+      "destination": "/key-papers/paper-espac-5-neoadjuvant-borderline-resectable-pancreatic-lancet-gastro-hep-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-firstmappp-sunitinib-metastatic-ppgl-lancet-2024/:path*",
+      "destination": "/key-papers/paper-firstmappp-sunitinib-metastatic-ppgl-baudin-lancet-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-fresco-2-lancet-2023/:path*",
+      "destination": "/key-papers/paper-dasari-fresco-2-fruquintinib-lancet-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-kotani-galaxy-molecular-residual-disease-nat-med-2023/:path*",
+      "destination": "/key-papers/paper-galaxy-signatera-nat-med-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-mok-n-engl-j-med/:path*",
+      "destination": "/key-papers/paper-mok-ipass-gefitinib-pulmonary-adenocarcinoma-nejm-2009/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-vogelstein-genetic-alterations-colorectal-development-nejm-1988/:path*",
+      "destination": "/key-papers/paper-vogelstein-genetic-alterations-colorectal-tumor-development-nejm-1988/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-sequist-sci-transl-med/:path*",
+      "destination": "/key-papers/paper-sequist-genotypic-histological-evolution-egfr-resistance-sci-transl-med-2011/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-getug-13-fizazi-lancet-oncol-2014/:path*",
+      "destination": "/key-papers/paper-getug-13-marker-guided-dose-dense-chemotherapy-fizazi-lancet-oncol-2014/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-angerilli-her2-gallbladder-extrahepatic-concordance-hum-pathol-2026/:path*",
+      "destination": "/key-papers/paper-angerilli-her2-ihc-cish-biliary-hum-pathol-2026/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-visakorpi-ar-amplification-recurrent-prostate-nat-genet-1995/:path*",
+      "destination": "/key-papers/paper-visakorpi-androgen-receptor-amplification-nat-genet-1995/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-pritchard-inherited-dna-repair-mutations-metastatic-prostate-nejm-2016/:path*",
+      "destination": "/key-papers/paper-pritchard-inherited-dna-repair-metastatic-prostate-nejm-2016/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-robinson-integrative-clinical-genomics-mcrpc-cell-2015/:path*",
+      "destination": "/key-papers/paper-robinson-integrative-clinical-genomics-advanced-prostate-cell-2015/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-taylor-integrative-genomic-profiling-prostate-cancer-cell-2010/:path*",
+      "destination": "/key-papers/paper-taylor-integrative-genomic-profiling-cancer-cell-2010/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-interaact-anal-cancer-carboplatin-paclitaxel-jco-2020/:path*",
+      "destination": "/key-papers/paper-interaact-carboplatin-paclitaxel-advanced-anal-cancer-rao-jco-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-andre-keynote-177-pembrolizumab-msi-high-nejm-2020/:path*",
+      "destination": "/key-papers/paper-keynote-177-nejm-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-lap07-chemoradiotherapy-locally-advanced-pancreatic-hammel-jama-2016/:path*",
+      "destination": "/key-papers/paper-lap07-chemoradiotherapy-locally-advanced-pancreatic-jama-2016/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-le-pd1-blockade-mismatch-repair-deficiency-nejm-2015/:path*",
+      "destination": "/key-papers/paper-le-mmr-deficiency-pd1-nejm-2015/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-le-mismatch-repair-deficiency-pd1-solid-tumours-science-2017/:path*",
+      "destination": "/key-papers/paper-le-mmr-deficiency-science-2017/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-chen-ar-overexpression-antiandrogen-resistance-nat-med-2004/:path*",
+      "destination": "/key-papers/paper-chen-androgen-receptor-overexpression-antiandrogen-resistance-nat-med-2004/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-mountaineer-lancet-oncol-2023/:path*",
+      "destination": "/key-papers/paper-strickler-mountaineer-tucatinib-trastuzumab-lancet-oncol-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-deep-c-n-engl-j-med-2014/:path*",
+      "destination": "/key-papers/paper-imperiale-multitarget-stool-dna-screening-nejm-2014/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-prodige-23-lancet-oncol-2021/:path*",
+      "destination": "/key-papers/paper-conroy-prodige-23-neoadjuvant-folfirinox-rectal-lancet-oncol-2021/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-shelley-hwang-j-clin-oncol-2021/:path*",
+      "destination": "/key-papers/paper-asco-neoadjuvant-therapy-breast-guideline-jco-2021/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-niche-2-neoadjuvant-colon-nejm-2024/:path*",
+      "destination": "/key-papers/paper-niche-2-nejm-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-checkmate-8hw-n-engl-j-med-2024/:path*",
+      "destination": "/key-papers/paper-andre-checkmate-8hw-nivolumab-ipilimumab-nejm-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-garcia-aguilar-j-clin-oncol/:path*",
+      "destination": "/key-papers/paper-garcia-aguilar-opra-organ-preservation-jco-2022/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-laura-n-engl-j-med-2024/:path*",
+      "destination": "/key-papers/paper-lu-laura-osimertinib-stage-iii-nejm-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-andre-n-engl-j-med/:path*",
+      "destination": "/key-papers/paper-mosaic-oxaliplatin-adjuvant-colon-nejm-2004/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-douillard-prime-extended-ras-panitumumab-nejm-2013/:path*",
+      "destination": "/key-papers/paper-douillard-prime-panitumumab-ras-nejm-2013/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-nct03800134-n-engl-j-med-2023/:path*",
+      "destination": "/key-papers/paper-heymach-aegean-perioperative-durvalumab-nejm-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-ponsegromab-phase-2-n-engl-j-med-2024/:path*",
+      "destination": "/key-papers/paper-groarke-ponsegromab-cancer-cachexia-nejm-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-versteijne-j-clin-oncol/:path*",
+      "destination": "/key-papers/paper-preopanc-preoperative-chemoradiotherapy-jco-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-van-cutsem-j-clin-oncol/:path*",
+      "destination": "/key-papers/paper-halo-301-pegvorhyaluronidase-jco-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-rapido-lancet-oncol-2021/:path*",
+      "destination": "/key-papers/paper-bahadoer-rapido-short-course-radiotherapy-lancet-oncol-2021/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-ku-science/:path*",
+      "destination": "/key-papers/paper-ku-rb1-trp53-lineage-plasticity-science-2017/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-tomlins-tmprss2-ets-fusion-prostate-science-2005/:path*",
+      "destination": "/key-papers/paper-tomlins-tmprss2-ets-fusion-science-2005/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-abida-triton2-rucaparib-brca-mcrpc-jco-2020/:path*",
+      "destination": "/key-papers/paper-abida-triton2-rucaparib-brca-jco-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-koshiol-salmonella-typhi-gallbladder-meta-analysis-cancer-med-2016/:path*",
+      "destination": "/key-papers/paper-koshiol-salmonella-typhi-gallbladder-cancer-cancer-med-2016/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-mu-sox2-lineage-plasticity-antiandrogen-resistance-science-2017/:path*",
+      "destination": "/key-papers/paper-mu-sox2-lineage-plasticity-science-2017/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-spearhead-1-afami-cel-sarcoma-lancet-2024/:path*",
+      "destination": "/key-papers/paper-spearhead-1-lancet-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-sunlight-nejm-2023/:path*",
+      "destination": "/key-papers/paper-prager-sunlight-trifluridine-tipiracil-bevacizumab-nejm-2023/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-tcga-prostate-molecular-taxonomy-cell-2015/:path*",
+      "destination": "/key-papers/paper-tcga-molecular-taxonomy-primary-prostate-cell-2015/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-tauriello-nature/:path*",
+      "destination": "/key-papers/paper-tauriello-tgfbeta-immune-evasion-colorectal-nature-2018/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-grasso-lethal-crpc-mutational-landscape-nature-2012/:path*",
+      "destination": "/key-papers/paper-grasso-mutational-landscape-lethal-crpc-nature-2012/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-jamal-hanjani-tracerx-evolution-nsclc-nejm-2017/:path*",
+      "destination": "/key-papers/paper-tracerx-100-nejm-2017/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-trophimmun-avelumab-chemoresistant-gtn-jco-2020/:path*",
+      "destination": "/key-papers/paper-trophimmun-avelumab-chemoresistant-gtn-you-jco-2020/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-babiker-j-clin-oncol/:path*",
+      "destination": "/key-papers/paper-panova-3-ttfields-locally-advanced-pancreatic-jco-2025/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-leon-ferre-jama/:path*",
+      "destination": "/key-papers/paper-leon-ferre-tils-tnbc-no-chemotherapy-jama-2024/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/trials/nct02628067/:path*",
+      "destination": "/trials/keynote-158/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/trials/nct04576156/:path*",
+      "destination": "/trials/impactmf/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/terms/androgen-deprivation-therapy/:path*",
+      "destination": "/terms/adt/:path*",
+      "permanent": true
     }
   ],
   "ignoreCommand": "if [ \"$VERCEL_GIT_COMMIT_AUTHOR_LOGIN\" = \"github-actions[bot]\" ]; then exit 1; else exit 0; fi"

@@ -32,7 +32,7 @@ export const testisOesophagusSubtypes: CancerInput[] = [
     pipeline: ["carboplatin","pet"], openProblems: ["Predicting which stage I patients will relapse.", "Late effects of platinum and radiotherapy decades on.", "Rare relapses more than five years out."],
     links: [{ label: "Wikipedia", url: W("Seminoma") }] },
   { id: "non-seminoma", related: ["seminoma"], kind: "cancer", name: "Non-seminomatous germ cell tumour", group: "genitourinary", parent: "testicular", asOf, tags, wikipedia: W("Testicular_cancer"),
-    keyPapers: ["paper-igcccg-classification-jco-1997", "paper-igcccg-update-gillessen-jco-2021", "paper-getug-13-fizazi-lancet-oncol-2014", "paper-williams-bep-vs-pvb-nejm-1987"],
+    keyPapers: ["paper-igcccg-classification-jco-1997", "paper-igcccg-update-gillessen-jco-2021", "paper-getug-13-marker-guided-dose-dense-chemotherapy-fizazi-lancet-oncol-2014", "paper-williams-bep-vs-pvb-nejm-1987"],
     aka: ["NSGCT", "Non-seminoma", "Embryonal carcinoma", "Yolk sac tumour", "Choriocarcinoma", "Teratoma", "Mixed germ cell tumour"],
     burden: "Just under half of testicular germ cell tumours, in men in their twenties and thirties; cure rates are above 95 percent for early disease and about half for the small poor-risk group, whose treatment is the hardest problem left in testicular cancer.",
     tldr: "Non-seminoma is the faster-growing half of testicular cancer, marked by AFP and hCG in the blood. Surgery cures most early cases, cisplatin chemotherapy cures most of the rest, and surgeons remove what remains after chemotherapy because teratoma does not respond to drugs.",

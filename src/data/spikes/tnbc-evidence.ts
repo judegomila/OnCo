@@ -35,11 +35,8 @@ const backlinkSupplements: Spike["supplements"] = [
   { id: "tnbc-history", related: [ROADMAP] } satisfies { id: string } & Partial<RoadmapInput>,
   // Slamon 1987 (the third receptor test, and so by exclusion the triple-negative definition) is the HER2 spike's record.
   { id: "paper-slamon-her2-amplification-science-1987", cancers: [TNBC], related: ["paper-asco-cap-er-pr-testing-guideline-jco-2010"], pmid: "3798106" } satisfies { id: string } & Partial<PaperInput>,
-  // Three papers this file wrote in full also exist as thin Europe PMC ingest records under older ids (same DOI); the
-  // pages point at each other until the ingest records are retired (docs/TNBC-QA.md, open gaps).
-  { id: "paper-masuda-n-engl-j-med", related: ["paper-create-x-adjuvant-capecitabine-nejm-2017"] } satisfies { id: string } & Partial<PaperInput>,
-  { id: "paper-shelley-hwang-j-clin-oncol-2021", related: ["paper-asco-neoadjuvant-therapy-breast-guideline-jco-2021"] } satisfies { id: string } & Partial<PaperInput>,
-  { id: "paper-leon-ferre-jama", related: ["paper-leon-ferre-tils-tnbc-no-chemotherapy-jama-2024"] } satisfies { id: string } & Partial<PaperInput>,
+  // The three thin Europe PMC ingest records that shared a DOI with this file's records were merged into them on
+  // 25 September 2026 (src/data/merged-records.ts), so the cross-links that stood in for the merge are gone.
 ];
 
 // ======================= SPIKE =======================

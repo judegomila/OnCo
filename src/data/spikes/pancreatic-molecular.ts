@@ -138,7 +138,7 @@ const SRC = {
   pishvaian2020: { label: "Pishvaian et al., Lancet Oncol 2020: Know Your Tumor, matched therapy and survival in 1,082 profiled patients", url: doi("10.1016/S1470-2045(20)30074-7"), paper: "paper-pishvaian-lancet-oncol" },
   schram2025: { label: "Schram et al., N Engl J Med 2025: eNRGy, zenocutuzumab in NRG1 fusion-positive cancer (36 pancreatic)", url: doi("10.1056/NEJMoa2405008"), paper: "paper-enrgy-zenocutuzumab-nrg1-fusion-positive-cancer-nejm-2025" },
   oreilly2026: { label: "O'Reilly et al., N Engl J Med 2026: RASolute 302, daraxonrasib versus chemotherapy in 500 previously treated patients", url: doi("10.1056/NEJMoa2605555"), paper: "paper-daraxonrasib-pancreatic-n-engl-j-med-2026" },
-  vanCutsem2020: { label: "Van Cutsem et al., J Clin Oncol 2020: HALO 109-301, pegvorhyaluronidase alfa in 492 hyaluronan-high patients", url: doi("10.1200/JCO.20.00590"), paper: "paper-van-cutsem-j-clin-oncol" },
+  vanCutsem2020: { label: "Van Cutsem et al., J Clin Oncol 2020: HALO 109-301, pegvorhyaluronidase alfa in 492 hyaluronan-high patients", url: doi("10.1200/JCO.20.00590"), paper: "paper-halo-301-pegvorhyaluronidase-jco-2020" },
   yamamoto2020: { label: "Yamamoto et al., Nature 2020: autophagy degrades MHC-I in pancreatic cancer", url: doi("10.1038/s41586-020-2229-5"), paper: "paper-yamamoto-nature" },
 } as const;
 const link = (s: { label: string; url: string }) => ({ label: s.label, url: s.url });
@@ -1062,7 +1062,7 @@ const otherSupplements: SpikeSupplement[] = [
   // Trials already in the corpus.
   sup<TrialInput>({ id: "polo", keyPapers: [SRC.golan2014.paper, SRC.park2020.paper] }),
   sup<TrialInput>({ id: "rasolute-302", keyPapers: [SRC.bournet2016.paper] }),
-  sup<TrialInput>({ id: "keynote-158", cancers: [PC, "msi-high-pdac"], keyPapers: [SRC.hu2018ccr.paper, SRC.luchini2021.paper], trials: ["nct02628067"] }),
+  sup<TrialInput>({ id: "keynote-158", cancers: [PC, "msi-high-pdac"], keyPapers: [SRC.hu2018ccr.paper, SRC.luchini2021.paper] }),
   sup<TrialInput>({ id: "precede", keyPapers: [SRC.gonda2021.paper, SRC.worthington2026.paper, SRC.canto2018.paper] }),
 
   // Technologies the layer's evidence sits under.

@@ -97,7 +97,7 @@ const technologies: TechnologyInput[] = [
     principle: "The assay deep-sequences a patient-specific clonotype or mutation with error correction.",
     strengths: ["10^-5 to 10^-6 sensitivity", "Blood-based monitoring in many settings"],
     limitations: ["Requires a baseline sample to identify the clone", "Persisting pre-leukaemic clones (CHIP) confound AML MRD"],
-    cancers: ["aml", "all-leukemia", "cll", "multiple-myeloma"], technologies: ["mrd-testing", "ngs-mrd-clonoseq"], companies: ["adaptive-biotechnologies"], terms: ["mrd", "mrd-negative-cr"], links: [{ label: "Wikipedia", url: W("Minimal_residual_disease") }] }),
+    cancers: ["aml", "all-leukemia", "cll", "multiple-myeloma"], technologies: ["mrd-testing"], companies: ["adaptive-biotechnologies"], terms: ["mrd", "mrd-negative-cr"], links: [{ label: "Wikipedia", url: W("Minimal_residual_disease") }] }),
   tech({ id: "cytogenetics-fish", name: "Cytogenetics and FISH", sections: ["diagnostics"], status: "standard-of-care", wikipedia: W("Fluorescence_in_situ_hybridization"),
     tldr: "Looking at the leukaemia's chromosomes under a microscope, or lighting up specific gene breaks with fluorescent probes, to classify risk.",
     summary: "Karyotype and FISH remain the backbone of leukaemia risk stratification: t(15;17), t(8;21), inv(16), complex/monosomal karyotype in AML; t(9;22), KMT2A, hypodiploidy, iAMP21 in ALL; del(17p), del(11q), del(13q), trisomy 12 in CLL. Increasingly complemented by optical genome mapping and NGS panels, but still required by ELN and NCCN.",

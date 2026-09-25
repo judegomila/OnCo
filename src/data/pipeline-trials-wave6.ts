@@ -8926,12 +8926,7 @@ export const pipelineTrialsWave6: TrialInput[] = [
     summary: "To Evaluate the Efficacy, Safety, Tolerability and Pharmacokinetic Profile of ABN401 in Patients With Advanced Solid Tumors Harboring c-MET Dysregulation is a phase 2 interventional study registered as NCT05541822 by Abion Inc, with 178 participants planned, started 2023-01-17 and due to reach its primary completion in 2029-02. Interventions recorded: Vabametkib and Lazertinib.",
     drugs: ["lazertinib"], cancers: ["metastatic-cancer"],
     links: [{ label: "ClinicalTrials.gov NCT05541822", url: "https://clinicaltrials.gov/study/NCT05541822" }] },
-  { id: "nct04576156", technologies: ["antisense-sirna"], trials: ["impactmf"], kind: "trial", name: "A Study Comparing Imetelstat Versus Best Available Therapy for the Treatment of Intermediate-2 or High-risk Myelofibrosis (MF) Who Have Not Responded to Janus Kinase (JAK)-Inhibitor Treatment", nct: "NCT04576156", phase: "3", status: "active", sponsor: "Geron Corporation", enrolled: 327, asOf, tags,
-    setting: "A Randomized Open-Label, Phase 3 Study to Evaluate Imetelstat (GRN163L) Versus Best Available Therapy (BAT) in Patients With Intermediate-2 or High-risk Myelofibrosis (MF) Relapsed / Refractory (R/R) to Janus Kinase (JAK) Inhibitor",
-    tldr: "A phase 3 trial of Imetelstat in myeloproliferative neoplasms, run by Geron Corporation, active and no longer recruiting.",
-    summary: "A Study Comparing Imetelstat Versus Best Available Therapy for the Treatment of Intermediate-2 or High-risk Myelofibrosis (MF) Who Have Not Responded to Janus Kinase (JAK)-Inhibitor Treatment is a phase 3 interventional study registered as NCT04576156 by Geron Corporation, with 327 participants enrolled, started 2021-04-12 and due to reach its primary completion in 2028-06-30. Interventions recorded: Imetelstat and Best Available Therapy (BAT).",
-    drugs: ["imetelstat"], cancers: ["myeloproliferative-neoplasms", "primary-myelofibrosis"], companies: ["geron"],
-    links: [{ label: "ClinicalTrials.gov NCT04576156", url: "https://clinicaltrials.gov/study/NCT04576156" }] },
+  // nct04576156 merged into impactmf on 2026-09-25: see src/data/merged-records.ts.
   { id: "nct06603844", kind: "trial", name: "First-in-human Study of CRB-601-01 to Treat Patients With Advanced Solid Tumor.", nct: "NCT06603844", phase: "1/2", status: "recruiting", sponsor: "Corbus Pharmaceuticals Inc.", enrolled: 156, asOf, tags,
     setting: "A Phase 1/2 Study to Investigate the Safety, Pharmacokinetics and Efficacy of CRB-601, a Monoclonal Antibody Against Integrin avb8, in Patients With Advanced Solid Tumors",
     tldr: "A phase 1/2 trial of CRB-601 monoclonal antibody in advanced solid tumours, run by Corbus Pharmaceuticals Inc., now recruiting.",

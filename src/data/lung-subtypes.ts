@@ -213,7 +213,7 @@ export const lungSubtypes: CancerInput[] = [
     targets: ["alk"], technologies: ["kinase-inhibitors", "radiosurgery-srs", "liquid-biopsy", "cgp"], terms: ["gene-fusion", "oncogene-addiction", "gatekeeper-mutation", "brain-metastases", "oligoprogression", "tki-term", "resistance"],
     trials: ["alex", "alta-1l", "crown", "alina", "alkove-1"], drugs: ["alectinib", "brigatinib", "lorlatinib", "crizotinib", "ceritinib", "ensartinib", "iruplinalkib", "neladalkib"],
     people: ["solomon-benjamin", "ross-camidge", "solange-peters", "tony-mok", "ahn-myung-ju", "wu-yi-long", "justin-gainor"], companies: ["roche-genentech", "pfizer", "takeda", "novartis", "nuvalent"], pathways: ["nsclc-signalling", "rtk-activation"],
-    keyPapers: ["paper-crown-nejm-2020"],
+    keyPapers: ["paper-shaw-crown-lorlatinib-crizotinib-nejm-2020"],
     links: [{ label: "Wikipedia", url: W("Anaplastic_lymphoma_kinase") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
   { id: "kras-g12c-nsclc", related: ["egfr-mutant-nsclc", "alk-positive-nsclc", "braf-v600e-nsclc", "her2-mutant-nsclc", "pdl1-high-nsclc", "met-altered-nsclc"], kind: "cancer", name: "KRAS G12C-mutant non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("KRAS"),
@@ -275,7 +275,7 @@ export const lungSubtypes: CancerInput[] = [
     links: [{ label: "Wikipedia", url: W("ROS1") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
   { id: "met-altered-nsclc", related: ["egfr-mutant-nsclc", "alk-positive-nsclc", "ret-fusion-nsclc", "ros1-positive-nsclc", "kras-g12c-nsclc", "her2-mutant-nsclc"], kind: "cancer", name: "MET exon 14 and MET-amplified non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("C-Met"),
-    keyPapers: ["paper-geometry-mono-1-capmatinib-nejm-2020", "paper-vision-tepotinib-paik-nejm-2020", "paper-frampton-met-exon-14-cancer-discov-2015"],
+    keyPapers: ["paper-wolf-geometry-mono-1-capmatinib-nejm-2020", "paper-vision-tepotinib-paik-nejm-2020", "paper-frampton-met-exon-14-cancer-discov-2015"],
     aka: ["MET exon 14 skipping lung cancer", "METex14 NSCLC", "MET-amplified lung cancer", "c-Met overexpressing NSCLC"],
     burden: "MET exon 14 skipping mutations occur in 3 to 4 percent of non-small-cell lung cancers, typically in older patients and enriched in sarcomatoid tumours; de novo high-level MET amplification in 1 to 2 percent; and MET amplification appears as a resistance mechanism in about 15 percent of EGFR-mutated cancers after osimertinib. About a quarter of non-squamous lung cancers overexpress the c-Met protein.",
     tldr: "MET-driven lung cancer comes in three forms: an exon 14 skipping mutation treated with the pills capmatinib or tepotinib, MET amplification that often arises as an escape route from EGFR drugs, and high c-Met protein levels that the antibody-drug conjugate telisotuzumab vedotin targets.",

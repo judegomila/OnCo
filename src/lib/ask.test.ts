@@ -420,6 +420,13 @@ describe("Ask OnCo end to end", () => {
     // existed twice under two ids for one DOI became supplements. Removing text removes lexical matches, so the figure
     // moves; it stays above the floor and the floor is not moved.
     { date: "2026-09-25", recall: 0.422, note: "lung review: base one-liners folded into the spike rows, three duplicate paper records merged; extractive rubric 0.688" },
+    // 25 Sept 2026, the corpus-wide duplicate merge (docs/DUPLICATE-RECORDS.md): 80 paper records and two trial
+    // records that were the same thing under two ids were retired into their survivors. Measured 0.4238 immediately
+    // before the merge and 0.4271 after it, with the rubric unchanged at 0.6875. Retiring a record usually costs
+    // recall because it removes lexical matches; here it gains, because each retired record was a second index entry
+    // carrying the same title and abstract as its survivor and competing with it for the same question. The floor is
+    // not moved.
+    { date: "2026-09-25", recall: 0.4271, note: "duplicate merge: 80 paper ids and two trial ids retired into their survivors; extractive rubric 0.6875" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

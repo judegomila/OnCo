@@ -116,10 +116,10 @@ measurement noted in the test, following the file's convention.
 
 ## Open gaps
 
-- Three papers exist twice: the full evidence records for CREATE-X, the 2021 ASCO neoadjuvant guideline and Leon-Ferre
-  2024 and the thin Europe PMC ingest records `paper-masuda-n-engl-j-med`, `paper-shelley-hwang-j-clin-oncol-2021`
-  and `paper-leon-ferre-jama` (matched to a person or an idea by DOI, with auto-generated text). Supplements make each
-  point at the other; retiring the ingest records needs a redirect policy for `key-papers` ids.
+- ~~Three papers exist twice~~ **Closed 25 September 2026.** `paper-masuda-n-engl-j-med`,
+  `paper-shelley-hwang-j-clin-oncol-2021` and `paper-leon-ferre-jama` were merged into the full evidence records for
+  CREATE-X, the 2021 ASCO neoadjuvant guideline and Leon-Ferre 2024, and the cross-link supplements are gone. The
+  redirect policy this gap asked for is `docs/DUPLICATE-RECORDS.md`.
 - `public/reviews/models/tnbc.json` (the model panel, 17 September 2026) quotes the record's old "7.9-point overall
   survival gain at seven years" claim as "Unclear"; the review predates the correction and needs re-running with the
   owner's key.

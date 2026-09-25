@@ -1,0 +1,23 @@
+src/data/spikes/colorectal-core.ts
+  s_0beac9cb5d78fd::t_ee8f8979ab609d 282
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_6a62aa9ae7992b 179-180
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_99c2ad45f98913 354
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "eaea5ba64fb44bb05db6979bbf191870febfe0a1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

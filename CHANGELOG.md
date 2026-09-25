@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
+- Skin cancer: what a person with a basal cell or squamous cell cancer faces, the family tree given its reason, and the counting rule that hides the commonest cancer there is
 - What a person with a basal cell or squamous cell skin cancer actually faces, and a rule that lets a row cite the leaflet that carries its sentence
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
@@ -21,6 +22,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 - Three review lessons from the skin layer: a citation that does not contain the claim passes every gate
 - The rows about living with a skin cancer now cite the leaflet that actually contains the sentence, and the photodynamic therapy figures move to the cream the trials used
+- The skin family given its routing, the keratinocyte cancers given their subtypes and staging, and the counting rule that governs every figure on them
 - A patient leaflet may be the source for a row about living with a disease, if the row names who wrote it
 - What a person with a basal cell or squamous cell skin cancer actually faces: the choice between surgery and its alternatives with the trial figures, the operation on the face, Mohs as a day, and the ones that are not cured
 - The family roll-up does not assume who is reading, and stops printing the cancer's name twice in one sentence

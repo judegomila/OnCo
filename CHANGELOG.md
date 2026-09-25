@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
+- Colorectal cancer deep spike, round one: the UK and NHS pathway across four nations with the national audit indicators, decisions, first 60 days, red cards and the adjuvant chemotherapy aid
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -18,8 +19,12 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- Colorectal cancer, the UK and NHS layer: the screening programme and its four-nation differences, the faecal immunochemical test that now governs referral, the National Bowel Cancer Audit, 13 NICE appraisals with the 2026 bevacizumab reversal, and the UK trial legacy
+- Colorectal cancer, living with it, care and decisions: ten decision rows, 74 appointment questions, a 19-item first 60 days checklist, six red-card sets and a NICE NG151 adjuvant decision aid
 
 ### 24 September 2026
+- LAUNCH: pancreatic spike and the cooperative-group home ticked
+- Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic deep spike review: duplicates merged across seven files, daraxonrasib approval and NICE terminations settled, 13 paper duplicates supplemented, 47 redirected URLs rewritten, seven glossary terms and two journals, UK and tool pages lay out at 390 px; docs/PANCREATIC-QA.md
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic molecular layer: the genomic landscape, subtypes, precursors, stroma and monitoring markers with their cohorts

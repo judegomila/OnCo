@@ -42,6 +42,9 @@ describe("red flags", () => {
     expect(redFlagsForCancerId("prostate").map((s) => s.id)).toEqual(["prostate-cord-compression", "prostate-urinary-retention", "prostate-bone-pain", "prostate-hormone-therapy", "prostate-sexual-function", "prostate-docetaxel-sepsis"]);
     // Cord compression is the prostate emergency men are least often warned about: it leads on every prostate record that carries it.
     for (const id of ["prostate", "prostate-mhspc", "prostate-mcrpc", "prostate-nmcrpc"]) expect(redFlagsForCancerId(id)[0]?.id, id).toBe("prostate-cord-compression");
+    // The breast family page carries what is shared whichever receptor result comes back; the immune-related and
+    // deruxtecan lung cards stay on the subtype that prescribes those drugs.
+    expect(redFlagsForCancerId("breast-cancer").map((s) => s.id)).toEqual(["breast-infection-sepsis", "breast-cord-compression", "breast-lymphoedema-cellulitis", "breast-recurrence-signs"]);
     expect(redFlagsForCancerId("mesothelioma")).toEqual([]);
   });
 

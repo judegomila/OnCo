@@ -15,9 +15,11 @@ describe("cancer map page", () => {
   const svg = html.slice(html.indexOf('<svg width='), html.indexOf("</svg>", html.indexOf('<svg width=')) + 6);
   const d = cancerDag();
 
-  it("keeps the SVG under 300 KB", () => {
+  it("keeps the SVG under 320 KB", () => {
+    // Budget raised from 300 KB on 24 Sept 2026 when wave 4 (docs/CANCER-PAGES.md) took the map from 328 to 419 cancer
+    // nodes and the SVG to 300.2 KB; each new entity page adds one node, one edge and one tooltip.
     expect(svg.length).toBeGreaterThan(10_000);
-    expect(svg.length, `svg ${Math.round(svg.length / 1024)} KB`).toBeLessThan(300 * 1024);
+    expect(svg.length, `svg ${Math.round(svg.length / 1024)} KB`).toBeLessThan(320 * 1024);
   });
 
   it("draws every node as a link with a tooltip and every edge as a path", () => {

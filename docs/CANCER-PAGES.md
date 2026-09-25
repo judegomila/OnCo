@@ -56,3 +56,26 @@ Recorded here so the next wave does not re-decide them. Family files carry the d
   too few published cases); parathyroid carcinoma gains the hyperparathyroidism-jaw tumour syndrome ("sporadic" and
   "non-functioning" describe the parent); urethral cancer gains its four histologies. Metastatic cancer and AYA cancers
   are cross-cutting groups and lost their subtype strings in favour of links. NUT carcinoma's fusion partners stay strings.
+- Lung (`cancers-wave4-lung.ts`): giant-cell carcinoma and large cell carcinoma with rhabdoid phenotype are aliases, not
+  pages, because the 2015 and 2021 WHO classifications dropped them as entities; lymphoepithelial carcinoma follows the
+  2021 move into squamous cell carcinoma; adult pulmonary blastoma is a sarcomatoid carcinoma and separate from the
+  childhood pleuropulmonary blastoma. Adenocarcinoma is named "Adenocarcinoma of the lung" so that the search test's
+  "lung" query still ranks the lung cancer page first.
+- Breast (`cancers-wave4-breast.ts`): medullary carcinoma is written under its 2019 name (invasive carcinoma of no special
+  type with medullary pattern) with the old name as an alias; invasive ductal carcinoma and no special type are one page;
+  lobular carcinoma in situ is a page because the WHO lists it beside ductal carcinoma in situ, which already had one.
+- Colon, kidney, testis (`cancers-wave4-colon-kidney-testis.ts`): colon cancer is an anatomical entity mirroring the
+  rectal cancer page; "malignant oncocytoma" is not a WHO 2022 entity and gets no page; sarcomatoid differentiation is a
+  feature, not a type; Leydig and Sertoli cell tumours (sex cord-stromal) sit under the testicular page because it is the
+  corpus's organ page; embryonal carcinoma, yolk sac tumour and choriocarcinoma sit under non-seminoma.
+- Haematology (`cancers-wave4-haematology.ts`): B-cell prolymphocytic leukaemia was discontinued by WHO-HAEM5 and is
+  written under splenic B-cell lymphoma/leukaemia with prominent nucleoli; acute biphenotypic leukaemia is an alias of
+  mixed-phenotype acute leukaemia; acute eosinophilic leukaemia and dendritic cell leukaemia are not WHO-HAEM5 entities;
+  precursor B lymphoblastic leukaemia is the existing ALL page; orbital lymphoma is a site string on the MALT page.
+- Rare tumours (`cancers-wave4-rare.ts`): conventional and chondroid chordoma are the parent page; pineal astrocytoma is a
+  glioma by site; PNET and myxosarcoma are retired terms; ganglioneuroma, neurofibroma, adrenocortical adenoma and
+  haemangioblastoma are benign and are not cancer records; keratoacanthoma stays a string; the pleuropulmonary blastoma
+  entity (types I to III) sits under the corpus's childhood lung tumour umbrella page of the same name.
+- Mechanics: `linkSiblings` in `cancers-wave4-shared.ts` gives every new record an inbound `related` link from a sibling
+  within the six-sibling cap, so the orphan ratchet holds without hand-edits; every new parent needs a `PARENT_PHRASES`
+  entry in `src/lib/cancer-families.test.ts`; TL;DRs are capped at 400 characters by `src/lib/graph.test.ts`.

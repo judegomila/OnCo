@@ -91,6 +91,10 @@ const PARENT_PHRASES: Record<string, RegExp> = {
   dlbcl: /lymphoma/i,
   "aml-paediatric": /leuk(a)?emia/i,
   "burkitt-lymphoma": /burkitt/i,
+  chordoma: /chordoma/i,
+  "paediatric-low-grade-glioma": /glioma|brain/i,
+  "pleuropulmonary-blastoma": /pleuropulmonary|lung/i,
+  "pancreatic-net": /pancrea|neuroendocrine/i,
 };
 
 /** At most this many same-parent siblings in `related`: a comparison set, not the whole family. */

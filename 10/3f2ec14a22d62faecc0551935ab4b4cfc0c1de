@@ -1,0 +1,31 @@
+scripts/fetch-registry-outcomes.ts
+  s_0beac9cb5d78fd::t_e5b5e4c50d548c 388-401
+  s_0beac9cb5d78fd::t_a244b45ccddedd 344-345,353
+src/lib/health.ts
+  s_0beac9cb5d78fd::t_5af75fc10efb78 230-232,234-236,241
+  s_0beac9cb5d78fd::t_18ad3df1026f07 25
+  s_0beac9cb5d78fd::t_615613f533228b 183-184,188,190,194
+  s_0beac9cb5d78fd::t_6b1d31b44ae555 129-147
+  s_0beac9cb5d78fd::t_e5f76a5ffc4b89 216-218,221-224
+  s_0beac9cb5d78fd::t_0304ec16789d39 219-220,225
+  s_0beac9cb5d78fd::t_e5554e7078345e 228-229,233,237-240
+  s_0beac9cb5d78fd::t_020bfd0113a9a7 180-182,185-187,189,191-193
+src/data/trial-registry-outcomes.ts
+  s_0beac9cb5d78fd::t_a42f3377aaf9a8 13-14,70,102-104,298-4620
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "103f2ec14a22d62faecc0551935ab4b4cfc0c1de",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

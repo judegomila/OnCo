@@ -145,6 +145,13 @@ function deferredToParent(g: Graph, c: { parent?: string }): boolean {
 /** A target a medicine in the corpus is aimed at: the population whose prevalence a reader needs to pick a treatment. */
 const hasCorpusDrug = (g: Graph, id: string) => (g.incoming(id).get("drug") ?? []).length > 0;
 
+/** "1,441 targets, 191 papers, 45 bottlenecks": where a gap sits, for the two-number breakdown a single ratio hides. */
+function byKind(g: Graph, offenders: Offender[], top = 6): string {
+  const counts = new Map<Kind, number>();
+  for (const o of offenders) { const k = g.get(o.id)?.kind; if (k) counts.set(k, (counts.get(k) ?? 0) + 1); }
+  return [...counts].sort((a, b) => b[1] - a[1]).slice(0, top).map(([k, v]) => `${v.toLocaleString("en-GB")} ${KIND_META[k].plural.toLowerCase()}`).join(", ");
+}
+
 export const METRIC_DEFS: MetricDef[] = [
   {
     id: "sources", label: "Records with a primary source",
@@ -154,13 +161,13 @@ export const METRIC_DEFS: MetricDef[] = [
   },
   {
     id: "backlinks", label: "Records with three or more relations",
-    plain: "A hub is made of links: a record with fewer than three relations is a dead end for readers and invisible to the graph tools.",
+    plain: "A hub is made of links: a record with fewer than three relations, counting both directions, is a dead end for readers and invisible to the graph tools. The 19 treatment fronts are navigation and are not counted.",
     action: "Add ids to the typed relation arrays (`cancers`, `targets`, `drugs`, `trials`, `terms`...) on this record or on the records that should point to it.",
     check: (g) => fails(g.entities.filter((e) => e.kind !== "section"), (e) => { const d = g.degree(e.id); return d < 3 ? `${d} relation${d === 1 ? "" : "s"}` : null; }, (e) => (3 - g.degree(e.id)) * 100 + prio(e)),
   },
   {
     id: "orphans", label: "Records something links to",
-    plain: "A record nothing links to can only be found by search; it should be referenced by at least one other page.",
+    plain: "A record nothing links to can only be found by search; it should be referenced by at least one other page. The 19 treatment fronts are the top of the navigation and are not counted.",
     action: "Find the cancer, product, trial, or idea this record belongs with and add this id to its relation arrays.",
     check: (g) => fails(g.entities.filter((e) => e.kind !== "section"), (e) => (g.incoming(e.id).size === 0 ? "no incoming links" : null), prio),
   },
@@ -279,7 +286,7 @@ export const METRIC_DEFS: MetricDef[] = [
   },
   {
     id: "stale", label: `Records checked in the last ${STALE_DAYS} days`,
-    plain: `Every record says when its facts were last checked (asOf); older than ${STALE_DAYS} days means nobody has looked recently.`,
+    plain: `Every record says when its facts were last checked (asOf); older than ${STALE_DAYS} days means nobody has looked recently. Every record is in scope, and a fetcher touching a field is not a check: asOf moves when a person reads the sources again.`,
     action: "Re-verify the record against its sources and update `asOf`; if something changed, log it in CORRECTIONS.md.",
     target: 90,
     check: (g, ctx) => fails(g.entities, (e) => { const d = daysSince(e.asOf, ctx.today); return d > STALE_DAYS ? `${d} days (${e.asOf})` : null; }, (e) => daysSince(e.asOf, ctx.today)),
@@ -297,37 +304,49 @@ export const METRIC_DEFS: MetricDef[] = [
     },
   },
   {
-    id: "reviewed", label: "Records with a review badge",
-    plain: "Pages should carry a named expert or patient-advocate reviewer with a date and a conflict-of-interest statement.",
-    action: "Recruit a reviewer for this record and add an entry to data/reviews.ts (track, reviewer, role, date, coi).",
+    id: "reviewed", label: "Records a named human reviewer has signed off",
+    plain: "Pages should carry a named expert or patient-advocate reviewer with a date and a conflict-of-interest statement. The model panel at the top of a page is machine commentary and is not counted here; nothing but a named person with a conflict-of-interest statement is. Every record but the 19 fronts is in scope.",
+    action: "Recruit a reviewer for this record and add an entry to data/reviews.ts (track, reviewer, role, date, coi). This is the one gauge no script can move: it needs people who will put their name to a page.",
     target: 10,
-    check: (g) => fails(g.entities.filter((e) => e.kind !== "section"), (e) => ((reviews[e.id] ?? []).length ? null : "not reviewed")),
+    check: (g) => {
+      const scope = g.entities.filter((e) => e.kind !== "section");
+      const r = fails(scope, (e) => ((reviews[e.id] ?? []).length ? null : "not reviewed"));
+      const tracks = scope.flatMap((e) => reviews[e.id] ?? []);
+      return { ...r, note: `${tracks.filter((v) => v.track === "expert").length.toLocaleString("en-GB")} expert sign-offs, ${tracks.filter((v) => v.track === "advocate").length.toLocaleString("en-GB")} advocate sign-offs; the target of ${10}% is ${Math.ceil(scope.length / 10).toLocaleString("en-GB")} records` };
+    },
   },
   {
     id: "simple", label: "Records with a simple explanation",
-    plain: "The 'simple' reading layer (about a 12-year-old reading age) needs its own text on every record.",
-    action: "Add a sentence for this id in the next data/simple/part-*.ts file (see src/data/simple.ts for the registered parts).",
+    plain: "The 'simple' reading layer (about a 12-year-old reading age) needs its own text on every record, machine-ingested ones included: a registry trial and a catalogue gene get a page like any other, and a reader who needs plain words needs them there most. There is no fetcher for this; every sentence is written.",
+    action: "Add a sentence for this id in the next data/simple/part-*.ts file (see src/data/simple.ts for the registered parts). Under 200 characters, one or two sentences, no jargon.",
     target: 80,
-    check: (g) => fails(g.entities, (e) => (e.simple || simple[e.id] ? null : "no simple text")),
+    check: (g) => {
+      const r = fails(g.entities, (e) => (e.simple || simple[e.id] ? null : "no simple text"));
+      return { ...r, note: `${r.failing.length.toLocaleString("en-GB")} still to write, mostly ${byKind(g, r.failing, 3)}` };
+    },
   },
   {
     id: "translations", label: "Records with a TL;DR in all eight languages",
-    plain: "Multilingual TL;DRs (Spanish, Mandarin, Portuguese, Hindi, French, German, Japanese, Arabic) count only where every language has a translation for the record.",
+    plain: "Multilingual TL;DRs (Spanish, Mandarin, Portuguese, Hindi, French, German, Japanese, Arabic) count only where all eight exist for the record; seven of eight counts as nothing, because a reader in the eighth language still sees English. Every record is in scope, and the target is 50 per cent rather than 95 because a translation layer is never finished.",
     action: "Add the TL;DR translation for this id in data/i18n/{es,zh,pt,hi,fr,de,ja,ar}.ts, marked machine-assisted until reviewed.",
     target: 50,
     check: (g) => fails(g.entities, (e) => { const missing = [["es", tldr_es], ["zh", tldr_zh], ["pt", tldr_pt], ["hi", tldr_hi], ["fr", tldr_fr], ["de", tldr_de], ["ja", tldr_ja], ["ar", tldr_ar]].filter(([, t]) => !(t as Record<string, string>)[e.id]).map(([c]) => c); return missing.length ? `missing ${missing.join(", ")}` : null; }, (e) => [tldr_es, tldr_zh, tldr_pt, tldr_hi].filter((t) => !t[e.id]).length),
   },
   {
     id: "provenance", label: "Records with git provenance",
-    plain: "Every page should show its last commit, author, and diff; that comes from public/provenance.json, rebuilt weekly.",
-    action: "Run `npm run provenance` (the weekly fact-check workflow does this) so new records get a provenance line.",
+    plain: "Every page should show its last commit, author and diff; that comes from public/provenance.json, which blames each data file and finds the line carrying the record's id. A record whose id is never written as a literal, because a helper derives it, has nothing to blame and cannot be mapped.",
+    action: "Run `npm run provenance` (the weekly fact-check workflow does this) so new records get a provenance line. If a record stays missing after a run, its id is not a literal in any data file: make the helper write it.",
     check: (g, ctx) => fails(g.entities, (e) => (ctx.provenance.has(e.id) ? null : "no provenance entry")),
   },
   {
-    id: "papers-snapshot", label: "Records with a Europe PMC snapshot",
-    plain: "Drug, target, cancer, and technology pages show what the literature is publishing; that needs a snapshot per record.",
-    action: "Run `npm run fetch:papers` (weekly workflow) so new records are included in public/papers/.",
-    check: (g, ctx) => fails(g.entities.filter((e) => ["drug", "target", "cancer", "technology"].includes(e.kind)), (e) => (ctx.papers.has(e.id) ? null : "no papers snapshot")),
+    id: "papers-snapshot", label: "Drugs, targets, cancers and technologies with a Europe PMC snapshot",
+    plain: "These four kinds show what the literature is publishing about them, year by year; that needs one snapshot per record. People, trials, companies and the other kinds are not in scope: their literature is reached through their papers and their institution.",
+    action: "Run `npm run fetch:papers` (weekly workflow, Europe PMC, no paid budget) so new records are included in public/papers/. The run takes hours at five requests a second; it queues records with no snapshot first, so a run cut short still closes gaps.",
+    check: (g, ctx) => {
+      const scope = g.entities.filter((e) => ["drug", "target", "cancer", "technology"].includes(e.kind));
+      const r = fails(scope, (e) => (ctx.papers.has(e.id) ? null : "no papers snapshot"));
+      return { ...r, note: `${r.failing.length.toLocaleString("en-GB")} awaiting a fetch: ${byKind(g, r.failing)}` };
+    },
   },
   {
     id: "citations", label: "Key papers with a citation count", kind: "paper",
@@ -337,16 +356,20 @@ export const METRIC_DEFS: MetricDef[] = [
   },
   {
     id: "trials-snapshot", label: "Products with a ClinicalTrials.gov snapshot", kind: "drug",
-    plain: "The pipeline tracker should show live phase 2/3 counts for every product, not just the ones it was first run on.",
+    plain: "The pipeline tracker should show live phase 2/3 counts for every product, not just the ones it was first run on. Products only: a snapshot is keyed to one query term, and a cancer or a target has far too many trials for one.",
     action: "Run `npm run fetch:trials` (weekly workflow) for the missing products; check the query term if a product returns nothing.",
     check: (g, ctx) => fails(g.kind("drug"), (d) => (ctx.trials.has(d.id) ? null : "no trials snapshot")),
   },
   {
-    id: "logos", label: "Organisations with a logo",
-    plain: "Companies, institutions, and collections should show a self-hosted logo so lists are scannable.",
-    action: "Run `npm run fetch:logos`; add a Wikidata QID override in the script if the automatic match fails.",
+    id: "logos", label: "Companies, institutions and collections with a logo",
+    plain: "These three kinds should show a self-hosted logo so lists are scannable. Everything else is left out on purpose: a cancer, a target or a trial has no logo to hold. A record counts only when the file sits under public/logos/, so a broken third-party hotlink cannot read as covered.",
+    action: "Run `npm run fetch:logos`; add a Wikidata QID override in the script if the automatic match fails. A small venture fund or a database with no logo item anywhere is a permanent miss, not a backlog.",
     target: 90,
-    check: (g, ctx) => fails(g.entities.filter((e) => ["company", "institution", "collection"].includes(e.kind)), (e) => (ctx.logos.has(e.id) ? null : "no logo")),
+    check: (g, ctx) => {
+      const scope = g.entities.filter((e) => ["company", "institution", "collection"].includes(e.kind));
+      const r = fails(scope, (e) => (ctx.logos.has(e.id) ? null : "no logo"));
+      return { ...r, note: `${r.failing.length.toLocaleString("en-GB")} without one: ${byKind(g, r.failing)}` };
+    },
   },
   {
     id: "completeness", label: "External denominators at least half covered",

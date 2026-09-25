@@ -52,9 +52,9 @@ function Kicker({ icon, children }: { icon: Parameters<typeof Ico>[0]["name"]; c
 
 function OptionCard({ o }: { o: DecisionOption }) {
   return (
-    <div className="card p-4 h-full flex flex-col">
-      <div className="flex flex-wrap items-center gap-2">
-        <Link href={o.route} className="font-semibold hover:underline">{o.name}</Link>
+    <div className="card p-4 h-full flex flex-col min-w-0">
+      <div className="flex flex-wrap items-center gap-2 min-w-0">
+        <Link href={o.route} className="font-semibold hover:underline break-words min-w-0">{o.name}</Link>
         {o.status && <span className={`chip ${statusClass(o.status)}`}>{STATUS_LABEL[o.status] ?? o.status}</span>}
         {o.modality && <Link href={o.kind === "drug" ? "/drugs/" : "/technologies/"} className="chip bg-foreground/5 text-[10px] hover:bg-foreground/10">{o.modality}</Link>}
       </div>
@@ -68,7 +68,7 @@ function TradeOffs({ options }: { options: DecisionOption[] }) {
   const withData = options.filter((o) => o.sideEffects.length || o.cautions.length);
   if (!withData.length) return <p className="text-sm text-muted">No side-effect rates or interaction flags are recorded for these options yet. The <Link className="underline" href="/side-effects/">side-effect lookup</Link> and <Link className="underline" href="/interactions/">interaction checker</Link> cover the products that have them.</p>;
   return (
-    <div className="grid gap-4 md:grid-cols-2">
+    <div className="grid *:min-w-0 gap-4 md:grid-cols-2">
       {withData.map((o) => (
         <div key={o.id} className="card p-4">
           <div className="flex items-baseline justify-between gap-2"><Link href={o.route} className="font-medium hover:underline">{o.name}</Link>{o.kind === "drug" && <Link href={`${o.route}#toxicity`} className="text-xs text-muted hover:underline">all recorded rates →</Link>}</div>
@@ -138,16 +138,18 @@ function SectionCard({ s, cancerId }: { s: DecisionSection; cancerId: string }) 
           </div>
         </div>
         <p className="text-[15px] leading-relaxed mt-3 text-foreground/90">{s.approach}</p>
-        {s.guideline && <div className="mt-3 inline-flex items-center gap-2 flex-wrap"><Kicker icon="book">Guideline</Kicker><GuidelineChip g={s.guideline} /></div>}
+        {/* Block-level (not inline-flex) so the guideline chips have a width to truncate against on a phone. */}
+        {s.guideline && <div className="mt-3 flex items-center gap-2 flex-wrap max-w-full min-w-0"><Kicker icon="book">Guideline</Kicker><GuidelineChip g={s.guideline} /></div>}
 
         <div className="mt-6">
           <Kicker icon="aim">{s.singlePath ? "The path, in plain words" : "The options, in plain words"}</Kicker>
           {s.options.length === 0 ? (
             <p className="text-sm text-muted">This setting names no product or technology record yet; the approach above is the standard as written. Ask your team which specific treatments they mean.</p>
           ) : (
-            <div className={`grid gap-4 ${s.options.length > 1 ? "md:grid-cols-2" : ""}`}>{s.options.map((o) => <OptionCard key={o.id} o={o} />)}</div>
+            <div className={`grid *:min-w-0 gap-4 ${s.options.length > 1 ? "md:grid-cols-2" : ""}`}>{s.options.map((o) => <OptionCard key={o.id} o={o} />)}</div>
           )}
-          {s.context.length > 0 && <div className="mt-3 flex flex-wrap items-center gap-1.5 text-xs"><span className="text-muted inline-flex items-center gap-1"><Ico name="context" className="h-3 w-3" />Also referenced:</span>{s.context.map((c) => <Tip key={c.id} title={c.name} text={c.tldr} href={c.route}><Link href={c.route} className="chip border bg-card border-border hover:bg-foreground/5">{c.name}</Link></Tip>)}</div>}
+          {/* Each referenced record is one pill: the Tip wrapper is inline-block and capped at the row's width, so a long name truncates behind an ellipsis (the full name is the tooltip and the title) instead of widening the page. */}
+          {s.context.length > 0 && <div className="mt-3 flex flex-wrap items-center gap-1.5 text-xs"><span className="text-muted inline-flex items-center gap-1"><Ico name="context" className="h-3 w-3" />Also referenced:</span>{s.context.map((c) => <Tip key={c.id} title={c.name} text={c.tldr} href={c.route} inline={false} className="max-w-full min-w-0"><Link href={c.route} title={c.name} className="chip border bg-card border-border hover:bg-foreground/5 max-w-full"><span className="truncate">{c.name}</span></Link></Tip>)}</div>}
         </div>
 
         <div className="mt-6">

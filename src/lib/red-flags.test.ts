@@ -124,3 +124,38 @@ describe("red flag sources", () => {
     expect(dead, "dead red-flag sources, see public/links.json").toEqual([]);
   });
 });
+
+describe("a red card reaches only the drugs it is for", () => {
+  /**
+   * Cards attach to a drug by a regex over its name, aka, modality, tags and targets. On 25 September 2026 the
+   * fragment `imid` was written unanchored, and those four letters sit inside **pyrimidine**: every
+   * fluoropyrimidine carried the lenalidomide boxed warning, so a page about a skin cream told the reader to
+   * watch for a blood clot and named three myeloma drugs. Six review passes had missed it.
+   *
+   * The signature is a fragment that starts *inside* a word. A fragment that runs on at the end is usually the
+   * same class and is correct: "vegf" inside "vegfr", "gnrh" inside "gnrh-antagonist". So this fails only on the
+   * first shape, and the two legitimate cases are named with their reason.
+   */
+  const ALLOWED = new Set([
+    "cytotoxic:actinomycin:dactinomycin", // dactinomycin is actinomycin D, and the cytotoxic cards are right for it.
+    "kinase-inhibitors:kinase inhibitor:midostaurin", // a multikinase inhibitor is a kinase inhibitor.
+  ]);
+
+  it("has no pattern fragment that matches inside an unrelated word", () => {
+    const g = graph();
+    const drugs = g.kind("drug");
+    const text = (d: (typeof drugs)[number]) => [d.name, ...d.aka, d.modality ?? "", ...d.tags].join(" ").toLowerCase();
+    const bad: string[] = [];
+    for (const s of redFlagSets) {
+      if (!s.modalityRe) continue;
+      for (const frag of String(s.modalityRe).split("|")) {
+        const f = frag.trim();
+        const core = f.replace(/\\b/g, "").replace(/[$^]/g, "").replace(/s\?$/, "");
+        if (!core || f.includes("\\b") || f.startsWith("^")) continue;
+        const mid = new RegExp(`[a-z0-9]${core}`, "i");
+        for (const d of drugs) if (mid.test(text(d)) && !ALLOWED.has(`${s.id}:${core}:${d.id}`)) bad.push(`${s.id}: "${core}" matches inside a word on ${d.id}`);
+      }
+    }
+    expect(bad).toEqual([]);
+  });
+});

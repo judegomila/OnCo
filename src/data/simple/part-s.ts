@@ -206,4 +206,11 @@ export const simpleS: Record<string, string> = {
   "ecog-e3311": "E3311 showed that after robotic surgery for HPV-positive throat cancer, patients at intermediate risk could safely have a lower radiotherapy dose.",
   "pathos": "PATHOS is the British trial asking whether people with HPV-positive throat cancer who have robotic surgery can safely be given less radiotherapy and keep better swallowing.",
   "captain-1st": "CAPTAIN-1st showed that adding the PD-1 antibody camrelizumab to gemcitabine and cisplatin kept advanced nasopharyngeal cancer under control for about three months longer.",
+  // Germany: the bodies behind /countries/de/ (added 25 September 2026)
+  "bfarm": "BfArM is Germany's medicines agency, which licenses the cancer drugs that are not biological products and runs the data platform for the national genome sequencing project.",
+  "paul-ehrlich-institut": "The Paul-Ehrlich-Institut is the German agency for vaccines and biological medicines, so it regulates every CAR-T and gene therapy given in Germany.",
+  "zfkd-rki": "The Zentrum für Krebsregisterdaten at the Robert Koch Institute pools what Germany's sixteen state cancer registries record and publishes the national cancer figures.",
+  "deutsche-krebsgesellschaft": "The German Cancer Society writes the published standards a German cancer centre must meet, has them audited on site every year, and prints how each centre did.",
+  "nngm": "The nNGM is the German network that gets full molecular testing to lung cancer patients anywhere in the country, paid for by contracts with 66 sickness funds.",
+  "dnpm": "The DNPM links German university centres for personalised medicine so a patient can reach a molecular tumour board wherever they live.",
 };

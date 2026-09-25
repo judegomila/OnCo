@@ -52,6 +52,8 @@ export const CHECKS: Check[] = [
     ["cancer", "/cancers/gallbladder/"], ["cancer", "/cancers/pancreatic/"], ["cancer", "/cancers/nsclc/"], ["drug", "/drugs/pembrolizumab/"], ["trial", "/trials/tapur/"],
     ["target", "/targets/her2/"], ["biomarker", "/biomarkers/her2-ihc-3-plus/"], ["company", "/companies/astrazeneca/"], ["institution", "/institutions/nci/"],
     ["person", "/people/thomas-powles/"], ["paper", "/key-papers/paper-haslam-jama-netw-open/"], ["idea", "/ideas/idea-bio2-let-rbe-ab-selects-protons/"], ["roadmap", "/roadmaps/global-access-roadmap/"],
+    // The decisions pages: long referenced-record and guideline pills used to widen the page to 665 px (24 Sept 2026).
+    ["decisions", "/cancers/gallbladder/decisions/"], ["decisions", "/cancers/tnbc/decisions/"],
   ] as const).map(([kind, route]): Check => ({ route, view: "record", label: kind, steps: [], expect: "width" })),
   // Modality hubs (src/app/modalities/): the format switcher and section bar carry data-tabbar; width only.
   { route: "/modalities/", view: "modality-hub", label: "index", steps: [], expect: "width" },

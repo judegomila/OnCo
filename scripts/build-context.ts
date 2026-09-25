@@ -13,6 +13,7 @@ import { KIND_META, KINDS, routeFor, type Entity } from "../src/lib/schema";
 import { NAV_GROUPS } from "../src/lib/nav";
 import { MACHINE } from "../src/lib/seo";
 import { paragraphs } from "../src/lib/text";
+import { sectionsContextLines } from "../src/lib/record-sections";
 
 const SITE = "https://onco.cc";
 const g = graph();
@@ -55,6 +56,8 @@ function contextMd(e: Entity): string {
   const f = fields(e);
   if (f.length) parts.push("## Fields", "", ...f, "");
   if (e.kind === "cancer") {
+    // The record's sections with their addresses: which are inline on the hub page and which have a page of their own (src/lib/record-sections.ts).
+    parts.push("## Sections of this record", "", `The page is a hub with ten sections in reading order; large sections have their own page. The same plan as JSON: ${SITE}/api/v1/cancers/${e.id}/sections.json`, "", ...sectionsContextLines(e, g, SITE), "");
     if (e.standardOfCare.length) parts.push("## Standard of care", "", ...e.standardOfCare.map((s) => `- ${s.setting}: ${s.approach}${s.refs.length ? ` (${names(s.refs)})` : ""}`), "");
     if (e.stateOfArt.length) parts.push("## State of the art", "", ...e.stateOfArt.map((s) => `- ${s}`), "");
     if (e.openProblems.length) parts.push("## Open problems", "", ...e.openProblems.map((s) => `- ${s}`), "");

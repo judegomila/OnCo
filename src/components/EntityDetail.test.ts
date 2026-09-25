@@ -5,11 +5,14 @@ import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/a
 import { EntityDetail } from "./EntityDetail";
 import { graph } from "@/lib/graph";
 import { publicTags, tagSlug } from "@/lib/tags";
+import { planFor } from "@/lib/record-sections";
 
 /**
  * The record page layout (owner, 23 Sept 2026): the section tabs were cut off at /cancers/male-breast-cancer/#care
  * because the tab bar shared a grid row with the 300 px right column. The bar now spans the full content width and
  * the two columns start beneath it, and every tag chip in the right column is a link to its /tagged/ page.
+ * Since the hub-and-sections layout (src/lib/record-sections.ts) a cancer's tabs are its ten sections; `care` is
+ * the standard-of-care block inside Treating it and still resolves as an element id.
  */
 const router: AppRouterInstance = { push: vi.fn(), replace: vi.fn(), prefetch: vi.fn(), back: vi.fn(), forward: vi.fn(), refresh: vi.fn(), bfcacheId: "static" };
 const render = (id: string) => {
@@ -53,10 +56,15 @@ describe("record page layout", () => {
     }, 120_000); // The first render loads the whole graph; under a loaded machine that alone passes the default budget.
   }
 
-  it("the #care section exists on the male breast cancer page so a hash link has a tab to open", () => {
+  it("the #care block exists on the male breast cancer page inside Treating it, so a hash link has a section to open", () => {
+    const c = graph().must("male-breast-cancer");
+    expect(c.kind).toBe("cancer");
     const html = render("male-breast-cancer");
-    expect(html).toContain('data-id="care"');
-    expect(html).toContain('id="sec-care"');
+    expect(html).toContain('data-id="treating-it"');
+    // A small cancer keeps Treating it inline, so the standard-of-care block is on the hub with its id.
+    expect(c.kind === "cancer" && planFor(c, "treating-it").placement).toBe("inline");
+    expect(html).toContain('id="sec-treating-it"');
+    expect(html).toContain('id="care"');
   });
 
   it("every tag chip is a link to its /tagged/ page", () => {

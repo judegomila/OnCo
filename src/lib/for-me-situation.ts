@@ -205,7 +205,7 @@ export function assembleSituation(data: SituationData, s: Situation): SituationS
   // 1. Where you are: the matching decision section, what has been had, and the rows later in the course.
   {
     const items: SituationItem[] = [];
-    const links = [{ label: `Decisions for ${c.name}`, href: data.rows[0]?.decisionHref.replace(/#.*$/, "") ?? c.route }, { label: "Standard of care on the cancer page", href: `${c.route}#sec-care` }];
+    const links = [{ label: `Decisions for ${c.name}`, href: data.rows[0]?.decisionHref.replace(/#.*$/, "") ?? c.route }, { label: "Standard of care on the cancer page", href: `${c.route}#care` }];
     let lead: string;
     let empty: string | undefined;
     if (row) {
@@ -235,7 +235,7 @@ export function assembleSituation(data: SituationData, s: Situation): SituationS
 
   // 2. What is standard for that setting: the standard-of-care row itself.
   {
-    const links = row ? [{ label: "Standard-of-care row", href: row.socHref }, { label: "Decision page", href: row.decisionHref }, ...(row.guidelineUrl ? [{ label: row.guideline ?? "Guideline", href: row.guidelineUrl }] : [])] : [{ label: "Standard of care on the cancer page", href: `${c.route}#sec-care` }];
+    const links = row ? [{ label: "Standard-of-care row", href: row.socHref }, { label: "Decision page", href: row.decisionHref }, ...(row.guidelineUrl ? [{ label: row.guideline ?? "Guideline", href: row.guidelineUrl }] : [])] : [{ label: "Standard of care on the cancer page", href: `${c.route}#care` }];
     if (row) {
       const items = row.refs.map((r) => link(r, had.has(r.id) ? { badge: "already had", tone: "had" } : r.kind === "trial" ? { badge: "evidence", tone: "plain" } : { badge: r.status ? r.status.replace(/-/g, " ") : r.kind, tone: r.status === "approved" || r.status === "standard-of-care" ? "approved" : "plain" }));
       sections.push({ id: "standard", title: SECTION_TITLE.standard, lead: row.approach, items, links, empty: row.refs.length ? undefined : "The row is described in words only; no product, technology or trial record is linked to it." });

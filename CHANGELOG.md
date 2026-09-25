@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- Two country deep dives: the United States, where the question is who pays, and Germany, where a drug is paid for on the day it is approved and assessed afterwards
+- Six countries in depth, each read from its own registry and regulator: the United States, Germany, Japan, the United Kingdom, Israel and Russia
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,11 +19,22 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- Wave one of the country deep dives is done: six countries
+- Four country pages said the figure excluded non-melanoma skin cancer; it never did
+- The benchmarking partnership is hosted by Cancer Research UK, not founded by it
+- Israel: a committee decides in public, once a year, inside a fixed sum, which cancer drugs the state will pay for
+- One label over four health services: the United Kingdom deep dive, and the cost-per-QALY threshold the corpus had wrong
+- Japan reads tenth in our own count and fifth in the world, so the Japan page is written from Japanese sources
+- Russia read from Russian sources: the Herzen register and what it does not count, who pays, and the Eurasian approvals route
+- Two country deep dives: the United States, where the question is who pays, and Germany, where a drug is paid for on the day it is approved and assessed afterwards
 - The first two country deep dives: the United States and Germany
 - In America the pill has a ceiling and the drip does not, and 239 accelerated approvals show what happens when nobody checks
 - A red-card pattern can no longer match inside an unrelated word
+- Compugen, which found PVRIG by predicting it, and the paper that first measured what a liposome does in a patient
 - Germany pays for a new cancer drug on the day it goes on sale and asks what it is worth afterwards
 - A blood-clot warning for a myeloma drug was reaching every fluoropyrimidine page, because the pattern matched inside the word pyrimidine
+- Remove the scratch script used to survey what the corpus held for Israel
+- Israel: the people and papers behind the country page, and the term for what a founder variant is
 - The skin review: a page about a cream warned a reader about a blood clot, and an appraisal that refused a drug was recorded as one that funds it
 - A second front page at /v2 for review, and table filters that find what you asked for: family cancers, phases in time order, search ranked by what you typed
 - Country deep dives on the roadmap, ranked by what the corpus holds and by what that ranking gets wrong

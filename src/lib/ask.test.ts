@@ -427,11 +427,23 @@ describe("Ask OnCo end to end", () => {
     // carrying the same title and abstract as its survivor and competing with it for the same question. The floor is
     // not moved.
     { date: "2026-09-25", recall: 0.4271, note: "duplicate merge: 80 paper ids and two trial ids retired into their survivors; extractive rubric 0.6875" },
+    // 25 Sept 2026, breast family review (docs/BREAST-QA.md): the base records for breast-hr-positive and
+    // breast-her2-positive gave up the six and five history entries, the six standard-of-care one-liners, the five
+    // open problems and the five state-of-the-art lines their spike files write in full, and three duplicate link
+    // URLs came off three records. Removing text removes lexical matches, and the figure still rose, because the
+    // lines removed were the short unsourced ones competing with the long sourced ones for the same question. The
+    // floor rises with it, to the measurement minus 0.005 (below).
+    { date: "2026-09-25", recall: 0.4326, note: "breast family review: duplicated base lines folded into the receptor spikes; extractive rubric 0.6900" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [
     { date: "2026-09-24", recall: 0.41, rubric: 0.62, change: "function words dropped from Ask's word search; kind tier and name match applied (measured 0.416, rubric 0.676)" },
     { date: "2026-09-24", recall: 0.42, rubric: 0.65, change: "concept-index inverse document frequency over curated records only (measured 0.427, rubric 0.683)" },
+    // Raised, not lowered, and not by a ranking change: the breast family review folded the short unsourced base
+    // lines on the two receptor records into the long sourced spike rows, which stopped a second weak index entry
+    // competing with the strong one for the same question. Measured 0.4326 and 0.6900 (scripts/ask-recall.ts), so
+    // the floor moves to the measurement minus 0.005 as the note above this table asks. docs/BREAST-QA.md.
+    { date: "2026-09-25", recall: 0.4275, rubric: 0.66, change: "breast family review: duplicated base lines folded into the receptor spikes (measured 0.4326, rubric 0.6900)" },
   ];
 
   it("only ever raises the extractive floor", () => {

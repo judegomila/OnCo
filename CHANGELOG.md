@@ -14,6 +14,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 
 ### 24 September 2026
+- Roadmap watch row: text column shrinks and wraps on phones
 - TNBC QA: de-duplicate the six patches, correct KEYNOTE-522, BRCA share, NG101 1.3.6, TA992 and TROPION-Breast05, fix four dead links, roadmap and UK page fit 390 px; docs/TNBC-QA.md
 - Wave 4: 99 cancer entity pages under the taxonomy rule; roadmaps page their eras; subtype pages rank below their parents in Ask
 - Ask OnCo retrieval: subtype capped below its parent, provenance weight shared by both stages; extractive recall 0.403 to 0.411, floor held at 0.41

@@ -89,6 +89,10 @@ const NHS_LUNG_SYMPTOMS = { label: "NHS: symptoms of lung cancer", url: "https:/
 const NHS_COUGHING_BLOOD = { label: "NHS: coughing up blood (blood in phlegm)", url: "https://www.nhs.uk/symptoms/coughing-up-blood/" };
 const NG122_PALLIATIVE = { label: "NICE NG122: lung cancer, palliative interventions and supportive and palliative care", url: "https://www.nice.org.uk/guidance/ng122/chapter/Palliative-interventions-and-supportive-and-palliative-care" };
 const NG234_MSCC = { label: "NICE NG234: spinal metastases and metastatic spinal cord compression, recommendations", url: "https://www.nice.org.uk/guidance/ng234/chapter/Recommendations" };
+const NHS_CELLULITIS = { label: "NHS: cellulitis", url: "https://www.nhs.uk/conditions/cellulitis/" };
+const NG101_BREAST = { label: "NICE NG101: early and locally advanced breast cancer, recommendations (updated 2025)", url: "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations" };
+const BCN_SECONDARY = { label: "Breast Cancer Now: secondary breast cancer symptoms", url: "https://breastcancernow.org/about-breast-cancer/secondary-breast-cancer/secondary-breast-cancer-symptoms" };
+const CRUK_BREAST_PROBLEMS = { label: "Cancer Research UK: possible problems after mastectomy", url: "https://www.cancerresearchuk.org/about-cancer/breast-cancer/treatment/surgery/after-surgery/problems-after-mastectomy" };
 const MAC_SVCO = { label: "Macmillan: superior vena cava obstruction (SVCO)", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/superior-vena-cava-obstruction" };
 const MAC_BREATHLESSNESS = { label: "Macmillan: breathlessness", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/breathlessness" };
 const MAC_DURVALUMAB = { label: "Macmillan: durvalumab (Imfinzi)", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/durvalumab" };
@@ -694,6 +698,58 @@ export const redFlagSets: RedFlagSet[] = [
       { symptom: "Signs of sepsis", threshold: "The NHS says to call 999 or go to A and E for breathing very fast, confusion or slurred speech or not making sense, blue, pale or blotchy skin, lips or tongue, a very high or very low temperature, feeling hot or cold to the touch or shivery, or a rash that does not fade when pressed.", action: "emergency", source: NHS_SEPSIS },
       { symptom: "Diarrhoea, a sore mouth or vomiting that stops you drinking", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number if you have diarrhoea, a sore mouth or throat that affects how much you can eat or drink, or if you are being sick, because dehydration with a low white cell count is how a manageable side effect becomes sepsis.", action: "call-now", source: MAC_DOCETAXEL },
       { symptom: "Numbness or tingling in the hands or feet that is getting worse", threshold: "Macmillan says docetaxel can cause numbness or tingling in the hands and feet and to tell your doctor or nurse if this affects you, because the dose may need to be changed to stop the damage becoming permanent.", action: "call-today", source: MAC_DOCETAXEL },
+    ],
+  },
+  // ---- Breast cancer, whatever the receptor result: the four emergencies the family page shares with all three subtypes.
+  {
+    id: "breast-infection-sepsis",
+    label: "Breast cancer: infection and sepsis, during chemotherapy and after surgery",
+    cancerIds: ["breast-cancer"],
+    concernIds: ["febrile-neutropenia", "neutropenic-sepsis-breast-chemotherapy", "seroma-after-breast-surgery"],
+    window: "Chemotherapy for any type of breast cancer lowers the white cell count, and the count is usually at its lowest 7 to 14 days after each dose. A breast or chest wall wound is the other route in, in the first weeks after an operation.",
+    flags: [
+      { symptom: "Signs of sepsis", threshold: "Breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin, lips or tongue; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed: the NHS says call 999 or go to A and E, and do not drive yourself, ask someone to drive you or call 999.", action: "emergency", source: NHS_SEPSIS },
+      { symptom: "Temperature over 37.5 C or below 36 C, or feeling unwell with a normal temperature", threshold: "Macmillan says to call the hospital team's 24-hour helpline straight away for a temperature over 37.5 C (99.5 F) or below 36 C (96.8 F), for shivering, or for feeling unwell even with a normal temperature, and to call sooner rather than later. NICE CG151 says to suspect neutropenic sepsis in anyone having anticancer treatment who becomes unwell and to refer them immediately for assessment.", action: "call-now", source: MAC_SEPSIS },
+      { symptom: "A wound that is red, hot, painful, swollen or leaking after breast surgery", threshold: "Cancer Research UK lists the signs of a wound infection after breast surgery as a temperature above 37.5 C or below 36 C, redness or a change in the normal colour of the breast, a breast that feels warm, a painful or swollen breast, fluid seeping from the wound, feeling cold and shivery, or feeling generally unwell, and says to tell the team or ring the 24-hour advice line.", action: "call-now", source: CRUK_BREAST_PROBLEMS },
+      { symptom: "A painful, red or swollen leg, breathlessness, chest pain or coughing up blood after an operation", threshold: "Cancer Research UK says to tell your doctor straight away or go to A and E after breast surgery if you have a painful, red or swollen leg which may feel warm to touch, are short of breath, have pain in your chest or upper back, or cough up blood. These are the signs of a clot in the leg or in the lung.", action: "emergency", source: CRUK_BREAST_PROBLEMS },
+    ],
+  },
+  {
+    id: "breast-cord-compression",
+    label: "Breast cancer: spinal cord compression, the emergency nobody mentions at diagnosis",
+    cancerIds: ["breast-cancer"],
+    concernIds: ["metastatic-spinal-cord-compression", "bone-metastases"],
+    window: "Bone is where breast cancer goes first and most often, and a deposit in the spine can press on the cord. Treated within hours the damage is usually recoverable; left for days it may not be. This applies at any time after a diagnosis, including years later.",
+    flags: [
+      { symptom: "New weakness or numbness in the legs, unsteadiness, or loss of control of the bladder or bowel", threshold: "NICE NG234 says to immediately contact the metastatic spinal cord compression coordinator if a person with a past or current diagnosis of cancer presents with bladder or bowel dysfunction, gait disturbance or difficulty walking, limb weakness, neurological signs of spinal cord or cauda equina compression, numbness, paraesthesia or sensory loss, or radicular pain, and to treat this as an oncological emergency. If you cannot reach anyone, go to A and E and say you have breast cancer and symptoms of spinal cord compression.", action: "emergency", source: NG234_MSCC },
+      { symptom: "New, severe or worsening back or neck pain, worse lying down or at night, or on coughing or straining", threshold: "NICE NG234 says to seek advice through the coordinator within 24 hours for severe unremitting back pain, progressive back pain, mechanical pain aggravated by standing, sitting or moving, back pain aggravated by straining such as coughing or sneezing, night-time back pain disturbing sleep, localised tenderness, or claudication. Breast Cancer Now lists unexplained back pain with difficulty walking, numbness and loss of bladder or bowel control among the signs that breast cancer may have spread to the bones.", action: "call-now", source: NG234_MSCC },
+      { symptom: "Bone pain that painkillers are not controlling, or a bone that breaks with very little force", threshold: "Breast Cancer Now says the main symptoms of secondary breast cancer in the bone are pain that does not get better with pain relief and may be worse when lying down or at night, and bone fractures. It also lists sickness, fatigue, passing large amounts of urine, confusion and thirst as possible signs of a high calcium level, which needs treating the same day.", action: "call-now", source: BCN_SECONDARY },
+    ],
+  },
+  {
+    id: "breast-lymphoedema-cellulitis",
+    label: "Breast cancer: a hot, red or suddenly swollen arm after lymph node surgery or radiotherapy",
+    cancerIds: ["breast-cancer"],
+    concernIds: ["lymphoedema-after-breast-cancer", "lymphoedema-decongestive-therapy", "lymphadenectomy"],
+    window: "An arm whose lymph nodes have been removed or irradiated drains badly and fights infection badly, so cellulitis in it can move fast. The risk is lifelong, and how long ago the surgery was does not make it less urgent.",
+    flags: [
+      { symptom: "Cellulitis with a very high temperature, fast heartbeat, confusion, dizziness or purple patches on the skin", threshold: "The NHS says to call 999 or go to A and E if you have cellulitis with a very high temperature or you feel hot, cold or shivery, a fast heartbeat or fast breathing, purple patches on the skin which may be less obvious on brown or black skin, feeling dizzy or faint, confusion or disorientation, cold, clammy or pale skin, or unresponsiveness. These are symptoms of serious complications, which can be life threatening.", action: "emergency", source: NHS_CELLULITIS },
+      { symptom: "Skin on the arm, hand, breast or chest wall that is painful, hot and swollen", threshold: "The NHS says to ask for an urgent GP appointment or get help from NHS 111 if your skin is painful, hot and swollen, because early treatment with antibiotics can stop cellulitis becoming more serious, and that the area usually looks red but this may be less obvious on brown or black skin. It says to contact the GP if you do not start to feel better 2 to 3 days after starting antibiotics.", action: "call-today", source: NHS_CELLULITIS },
+      { symptom: "New or suddenly worse swelling of the arm, hand, breast or chest wall", threshold: "NICE NG101 (1.14.6) says to ensure people with breast cancer who develop lymphoedema are referred to a specialist lymphoedema service as soon as possible. Breast Cancer Now says to get advice from the breast care nurse, treatment team or GP as soon as you notice swelling, tightness, a dull ache, heaviness, tingling, numbness or dry skin on the treated side. Macmillan adds that swelling, aching and redness in an arm or leg can also be a blood clot.", action: "call-today", source: NG101_BREAST },
+      { symptom: "Lymph fluid leaking through the skin, or skin that has broken down", threshold: "NICE NG101 (1.14.7) says people with lymphoedema should be told how to recognise the serious complications that need urgent medical attention, for example cellulitis or deep vein thrombosis. Broken skin on a swollen limb is an open door for infection, so it is treated as urgent rather than watched.", action: "call-now", source: NG101_BREAST },
+    ],
+  },
+  {
+    id: "breast-recurrence-signs",
+    label: "Breast cancer: the symptoms that are worth a phone call rather than a wait",
+    cancerIds: ["breast-cancer"],
+    concernIds: ["brain-metastases", "bone-metastases", "survivorship-care-plan"],
+    window: "Breast Cancer Now's rule is easier to hold than a list: talk to your GP or breast care nurse about any symptom that is new, does not have an obvious cause, and does not go away. Most turn out to be something else. Waiting months in order not to make a fuss is the thing to avoid.",
+    flags: [
+      { symptom: "A seizure, sudden severe headache, new weakness or numbness down one side, or new confusion", threshold: "Breast Cancer Now lists headache, sickness and vomiting especially on waking, weakness or numbness down one side of the body, unsteadiness or loss of balance, seizures, difficulty with speech, vision problems, and changes in behaviour, mood or memory among the signs that breast cancer may have spread to the brain. A seizure, a sudden severe headache or new one-sided weakness is 999 whatever the cause.", action: "emergency", source: BCN_SECONDARY },
+      { symptom: "A new lump or skin change in the treated breast, the chest wall scar, or under the arm or collarbone", threshold: "Breast Cancer Now lists a firm painless lump or multiple lumps, a persistent rash, a change in skin colour, bleeding or an unpleasant smell as signs in the skin, and a lump or swelling under the arm, breastbone or collarbone as a sign in the lymph nodes. Its rule for reporting is that the symptom is new, has no obvious cause, and does not go away.", action: "call-today", source: BCN_SECONDARY },
+      { symptom: "Breathlessness at rest or on activity, a cough that does not go away, or chest pain or tightness that persists", threshold: "Breast Cancer Now lists feeling out of breath on activity or at rest, a cough that does not go away, and pain or tightness in the chest that does not go away as the symptoms of secondary breast cancer in the lungs. Sudden severe breathlessness or chest pain is 999 rather than a call.", action: "call-today", source: BCN_SECONDARY },
+      { symptom: "Pain under the right ribs or in the right shoulder, yellow skin or eyes, a swollen abdomen, or losing weight without trying", threshold: "Breast Cancer Now lists pain in the abdomen that may also be felt in the right shoulder, discomfort under the right ribs, sickness, loss of appetite and weight loss, hiccups, a build-up of fluid causing swelling, itching and yellowing of the skin among the signs of secondary breast cancer in the liver, and constant tiredness, constant nausea and unexplained weight loss among the general ones.", action: "call-today", source: BCN_SECONDARY },
     ],
   },
 ];

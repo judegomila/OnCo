@@ -137,7 +137,7 @@ export function RoadmapEra({ src, index, counts, initial }: { src: string; index
 /** One row of the watch table; the server renders the first WATCH_PAGE, RoadmapWatchMore the rest. */
 export function WatchRowView({ row }: { row: WatchRow }) {
   return (
-    <li className="p-3 grid sm:grid-cols-[9rem_1fr] gap-x-4 gap-y-1 text-sm" data-watch-row>
+    <li className="p-3 grid grid-cols-1 sm:grid-cols-[9rem_minmax(0,1fr)] gap-x-4 gap-y-1 text-sm" data-watch-row>
       <span className="font-mono text-xs text-muted tabular-nums pt-0.5">{row.expected ?? "no date stated"}</span>
       <div>
         <span>{row.item}</span>

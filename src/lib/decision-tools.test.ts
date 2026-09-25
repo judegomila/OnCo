@@ -9,6 +9,7 @@ import { DECISION_TOOLS, enumerateAnswers, isComplete, toolById, toolCard, toolR
 import { QUOTED_ROWS } from "@/data/decision-tools/incidental-gallbladder-cancer";
 import { QUOTED_TNBC_ROWS } from "@/data/decision-tools/tnbc-after-chemotherapy";
 import { QUOTED_PANCREATIC_ROWS } from "@/data/decision-tools/pancreatic-first-treatment";
+import { QUOTED_COLORECTAL_ROWS } from "@/data/decision-tools/colorectal-adjuvant-chemotherapy";
 import { gallbladderStandardOfCare } from "@/data/spikes/gallbladder-treatment";
 import { NAV_GROUPS } from "./nav";
 import ToolPage, { generateStaticParams } from "@/app/tools/[id]/page";
@@ -156,6 +157,12 @@ describe("decision tools: data", () => {
     const pancreatic = graph().must("pancreatic");
     for (const [setting, approach] of Object.entries(QUOTED_PANCREATIC_ROWS)) {
       const row = pancreatic.kind === "cancer" ? pancreatic.standardOfCare.find((r) => r.setting === setting) : undefined;
+      expect(row, setting).toBeTruthy();
+      expect(row!.approach).toBe(approach);
+    }
+    const colorectal = graph().must("colorectal");
+    for (const [setting, approach] of Object.entries(QUOTED_COLORECTAL_ROWS)) {
+      const row = colorectal.kind === "cancer" ? colorectal.standardOfCare.find((r) => r.setting === setting) : undefined;
       expect(row, setting).toBeTruthy();
       expect(row!.approach).toBe(approach);
     }

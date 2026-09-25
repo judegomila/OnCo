@@ -11,7 +11,7 @@ import type { Answers, DecisionTool, ToolCard, ToolSource } from "@/lib/decision
  *     colorectal cancer: 1.2 information for people with colorectal cancer, 1.3.3 to 1.3.5 early and preoperative
  *     treatment for rectal cancer, 1.3.15 adjuvant therapy for rectal cancer, 1.3.16 preoperative therapy for colon
  *     cancer, 1.3.18 adjuvant therapy for colon cancer, 1.6.1 follow-up, 1.6.2 low anterior resection syndrome
- *   the colorectal record's own standard-of-care rows (src/data/spikes/colorectal.ts), quoted and kept equal to the
+ *   the colorectal record's own standard-of-care rows (src/data/spikes/colorectal-treatment.ts), quoted and kept equal to the
  *     data by src/lib/decision-tools.test.ts
  *
  * The aid does not weigh, score or predict. It does not give an absolute benefit figure for an individual, because
@@ -21,12 +21,13 @@ import type { Answers, DecisionTool, ToolCard, ToolSource } from "@/lib/decision
 const asOf = "2026-09-24";
 
 const NG151: ToolSource = { label: "NICE NG151: colorectal cancer, recommendations (January 2020, last updated December 2021)", url: "https://www.nice.org.uk/guidance/ng151/chapter/Recommendations" };
-const ROW_SOURCE: ToolSource = { label: "OnCo standard-of-care rows for colorectal cancer (src/data/spikes/colorectal.ts), written from the NCCN Guidelines for colon and rectal cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1428" };
+const ROW_SOURCE: ToolSource = { label: "OnCo standard-of-care rows for colorectal cancer, each written from the trial and regulator text behind it", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1428" };
 
 /** Row text quoted from the colorectal record; src/lib/decision-tools.test.ts keeps this equal to the data. */
 export const QUOTED_COLORECTAL_ROWS: Record<string, string> = {
-  "Stage I-II colon": "Surgical resection; observation for stage I and low-risk stage II. High-risk stage II (T4, obstruction, <12 nodes, LVI): consider 3-6 months fluoropyrimidine ± oxaliplatin; ctDNA-negative patients can safely omit (DYNAMIC). dMMR stage II derives no benefit from 5-FU alone.",
-  "Stage III colon, pMMR": "Resection then adjuvant CAPOX for 3 months (T1-3 N1, low risk) or FOLFOX/CAPOX for 6 months (T4 or N2), per IDEA.",
+  "Stage I and low-risk stage II colon cancer": "Resection with complete mesocolic excision and at least twelve lymph nodes examined; observation afterwards. Adjuvant chemotherapy is not given for stage I. In stage II the absolute gain from fluorouracil and folinic acid is small: QUASAR (3,239 patients, 2,963 with stage II disease) found a relative risk of death of 0.82 and of recurrence 0.78, translating to about 3.6 percent absolute survival. DYNAMIC showed that a negative circulating tumour DNA result four to seven weeks after surgery identifies patients who can safely have no chemotherapy, cutting adjuvant use from 27.9 to 15.3 percent without worse recurrence-free survival. Mismatch-repair deficient stage II disease gains nothing from fluorouracil alone and is observed.",
+  "High-risk stage II colon cancer": "Resection then a discussion about three to six months of a fluoropyrimidine with or without oxaliplatin, weighing T4 disease, obstruction or perforation, fewer than twelve nodes examined, lymphovascular or perineural invasion and poor differentiation against the neuropathy risk. SCOT included high-risk stage II patients and found three months of oxaliplatin-containing chemotherapy non-inferior to six (three-year disease-free survival 76.7 against 77.1 percent) with grade 2 or worse neuropathy halved. Mismatch-repair deficiency remains a reason not to give fluorouracil alone.",
+  "Stage III colon cancer, mismatch-repair proficient": "Resection then adjuvant oxaliplatin-fluoropyrimidine chemotherapy. MOSAIC established it (three-year disease-free survival 78.2 against 72.9 percent with fluorouracil alone, hazard ratio 0.77; six-year overall survival gain confined to stage III). Duration follows IDEA: three months of CAPOX for T1-3 N1 disease (three-year disease-free survival 83.1 against 83.3 percent for six months) and six months of FOLFOX or CAPOX for T4 or N2. Cetuximab must not be added: N0147 and PETACC-8 both found no benefit and more toxicity.",
 };
 
 const LINKS = {
@@ -61,7 +62,7 @@ const cards: ToolCard[] = [
     tone: "discuss",
     quotes: [
       { text: "For people with stage 3 colon cancer (pT1-4, pN1-2, M0), offer: capecitabine in combination with oxaliplatin (CAPOX) for 3 months, or if this is not suitable either: oxaliplatin in combination with 5-fluorouracil and folinic acid (FOLFOX) for 3 to 6 months, or single-agent fluoropyrimidine (for example, capecitabine) for 6 months.", source: NG151 },
-      { text: `Stage III colon, pMMR: ${QUOTED_COLORECTAL_ROWS["Stage III colon, pMMR"]}`, source: ROW_SOURCE },
+      { text: `Stage III colon cancer, mismatch-repair proficient: ${QUOTED_COLORECTAL_ROWS["Stage III colon cancer, mismatch-repair proficient"]}`, source: ROW_SOURCE },
     ],
     meaning: "Cancer in the lymph nodes is where chemotherapy after surgery has the clearest benefit, and NICE names CAPOX for three months as the first option. Three months of the two-drug combination and six months of the single tablet are both in the guideline, so the length and the number of drugs are genuinely open to discussion.",
     questions: ["Three months of CAPOX or six months of capecitabine: which are you recommending for me, and why?", "How soon after my operation would it start, and what if I am still recovering?"],
@@ -130,7 +131,7 @@ const cards: ToolCard[] = [
     tone: "discuss",
     quotes: [
       { text: "Give people information on all treatment options for colorectal cancer available to them, including: surgery, radiotherapy, systemic anticancer therapy or palliative care, the potential benefits, risks, side effects and implications of treatments, for example, possible effects on bowel and sexual function, quality of life and independence.", source: NG151 },
-      { text: `Stage I-II colon: ${QUOTED_COLORECTAL_ROWS["Stage I-II colon"]}`, source: ROW_SOURCE },
+      { text: `High-risk stage II colon cancer: ${QUOTED_COLORECTAL_ROWS["High-risk stage II colon cancer"]}`, source: ROW_SOURCE },
     ],
     meaning: "NG151's adjuvant recommendations are written for stage 3 only. For node-negative disease the guideline is silent, so the decision runs on the risk features in your pathology report (a T4 tumour, a blocked or perforated bowel, fewer than 12 nodes examined, invasion of lymphatic or blood vessels), on the mismatch repair result, and increasingly on whether tumour DNA can still be found in your blood after the operation. Ask for the absolute numbers rather than percentages of a percentage.",
     questions: ["Which high-risk features does my pathology report have, and what does each add to the risk?", "What is my risk of recurrence with and without chemotherapy, as numbers out of 100?", "Is my tumour mismatch repair deficient, and does that change the answer?", "Is a ctDNA-guided trial open to me?"],
@@ -142,7 +143,7 @@ const cards: ToolCard[] = [
     tone: "stop",
     quotes: [
       { text: "Laparoscopic resection is recommended as an alternative to open resection for treating colon cancer when both techniques are considered suitable.", source: NG151 },
-      { text: `Stage I-II colon: ${QUOTED_COLORECTAL_ROWS["Stage I-II colon"]}`, source: ROW_SOURCE },
+      { text: `Stage I and low-risk stage II colon cancer: ${QUOTED_COLORECTAL_ROWS["Stage I and low-risk stage II colon cancer"]}`, source: ROW_SOURCE },
     ],
     meaning: "For a stage 1 colon cancer removed with clear margins, NICE makes no recommendation for chemotherapy afterwards, and the OnCo record describes observation. What follows the operation is surveillance rather than treatment.",
     questions: ["Is anything about my pathology report unexpected enough to change this?", "What does my follow-up look like from here?"],

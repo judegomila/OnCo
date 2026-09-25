@@ -47,7 +47,7 @@ export const SRC = {
   // Guidelines
   nccnColon: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1428",
   nccnRectal: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1461",
-  esmo: "https://www.esmo.org/guidelines/guidelines-by-topic/esmo-clinical-practice-guidelines-gastrointestinal-cancers/",
+  esmo: "https://www.esmo.org/guidelines/esmo-clinical-practice-guidelines-gastrointestinal-cancers/",
   // NICE (reference number and page title verified on nice.org.uk, 24 September 2026)
   ng151: "https://www.nice.org.uk/guidance/ng151", ta118: "https://www.nice.org.uk/guidance/ta118", ta212: "https://www.nice.org.uk/guidance/ta212",
   ta242: "https://www.nice.org.uk/guidance/ta242", ta307: "https://www.nice.org.uk/guidance/ta307", ta405: "https://www.nice.org.uk/guidance/ta405",
@@ -56,7 +56,7 @@ export const SRC = {
   ta866: "https://www.nice.org.uk/guidance/ta866", ta914: "https://www.nice.org.uk/guidance/ta914", ta1008: "https://www.nice.org.uk/guidance/ta1008",
   ta1065: "https://www.nice.org.uk/guidance/ta1065", ta1079: "https://www.nice.org.uk/guidance/ta1079", ta1136: "https://www.nice.org.uk/guidance/ta1136",
   // FDA and EMA
-  fdaNotices: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+  fdaNotices: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications",
   fdaErbitux: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22ERBITUX%22",
   fdaVectibix: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22VECTIBIX%22",
   fdaAvastin: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22AVASTIN%22",

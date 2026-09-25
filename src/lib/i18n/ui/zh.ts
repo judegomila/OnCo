@@ -291,6 +291,7 @@ export const zh: UiDict = {
   "l.Class": "类别",
   "l.How drugs attack it": "药物如何攻击它",
   "l.Modality": "形式",
+  "l.Purpose": "用途",
   "l.Mechanism": "机制",
   "l.Brand / code": "商品名 / 代号",
   "l.Payload": "载荷",

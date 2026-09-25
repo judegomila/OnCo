@@ -1,4 +1,5 @@
 import { KINDS, KIND_META, type Kind } from "./kinds";
+import { treatments } from "./supportive-care";
 import { outgoing, type Graph } from "./graph";
 import { EXPLORE_KINDS } from "./explore-kinds";
 
@@ -35,7 +36,8 @@ export function edgeHref(a: Kind, b: Kind, counts: Record<Kind, number>): string
 }
 
 export function kindGraph(g: Graph): KindGraph {
-  const counts = Object.fromEntries(KINDS.map((k) => [k, g.kind(k).length])) as Record<Kind, number>;
+  // The drug node counts treatments and tests only: supportive care medicines stay in the corpus but are not treatments (src/lib/supportive-care.ts).
+  const counts = Object.fromEntries(KINDS.map((k) => [k, k === "drug" ? treatments(g).length : g.kind(k).length])) as Record<Kind, number>;
   const seen = new Set<string>();
   const pairs = new Map<string, number>();
   for (const e of g.entities) {

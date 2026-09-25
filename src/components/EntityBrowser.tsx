@@ -335,7 +335,7 @@ export function EntityBrowser({ rows: first, more, counts, facets, columns, noun
       }
       arr = f.order ? arr.sort((a, b) => (f.order!.indexOf(a[0]) + 1 || 999) - (f.order!.indexOf(b[0]) + 1 || 999)) : arr.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
       const dot = (v: string) => { let h = 0; for (const ch of v) h = (h * 31 + ch.charCodeAt(0)) % 360; return <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: `hsl(${h} 55% 55%)` }} />; };
-      out[f.key] = arr.map(([v, n]) => ({ value: v, label: f.key === "status" ? statusText(v) : v, count: n, icon: COUNTRY_FACETS.has(f.key) ? flagFor(v) || undefined : f.key === "status" ? <span className={`inline-block h-2.5 w-2.5 rounded-full ${statusClass(v).split(" ").find((c) => c.startsWith("bg-")) ?? "bg-foreground/30"}`} /> : ["type","group","stage","severity","maturity","modality","access","scope","category","class","kind","actor","cost","front","specialism","license","nci","phase"].includes(f.key) ? dot(v) : undefined }));
+      out[f.key] = arr.map(([v, n]) => ({ value: v, label: f.key === "status" ? statusText(v) : v, count: n, icon: COUNTRY_FACETS.has(f.key) ? flagFor(v) || undefined : f.key === "status" ? <span className={`inline-block h-2.5 w-2.5 rounded-full ${statusClass(v).split(" ").find((c) => c.startsWith("bg-")) ?? "bg-foreground/30"}`} /> : ["type","group","stage","severity","maturity","modality","access","scope","category","class","kind","actor","cost","front","specialism","license","nci","phase","purpose"].includes(f.key) ? dot(v) : undefined }));
     }
     return out;
     // eslint-disable-next-line react-hooks/exhaustive-deps

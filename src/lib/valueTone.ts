@@ -26,7 +26,7 @@ const TONES: Record<string, Record<string, string>> = {
   // Companies (COMPANY_TYPE_LABEL), institutions (institutionType), pairings and papers all use the "type" facet.
   type: {
     "Large pharma": T.indigo, Biotech: T.violet, Diagnostics: T.teal, "Imaging equipment": T.sky, "Devices & RT hardware": T.orange, "AI & software": T.cyan,
-    Radiopharmaceuticals: T.lime, "Cell therapy": T.pink, Services: T.zinc, Nonprofit: T.emerald, Investor: T.amber,
+    Radiopharmaceuticals: T.lime, "Cell therapy": T.pink, Services: T.zinc, Nonprofit: T.emerald, Investor: T.amber, "Cooperative group": T.violet,
     "Cancer center": T.pink, Hospital: T.sky, Consortium: T.violet, "Research institute": T.teal, Government: T.rose, University: T.indigo,
     Rct: T.emerald, "Meta analysis": T.teal, Observational: T.sky, Translational: T.violet, Review: T.zinc, Basic: T.indigo, Methods: T.amber, Guideline: T.rose, "Real world": T.orange,
   },
@@ -35,6 +35,7 @@ const TONES: Record<string, Record<string, string>> = {
     Haematologic: T.rose, Paediatric: T.pink, Gastrointestinal: T.amber, Endocrine: T.lime, Gynaecologic: T.violet, Sarcoma: T.orange, Skin: T.yellow, Genitourinary: T.sky,
     Breast: T.fuchsia, "Head and neck": T.indigo, "Central nervous system": T.zinc, Thoracic: T.cyan, Lung: T.cyan, Other: T.zinc,
   },
+  purpose: { "Supportive care": T.teal, "Treatment or test": T.zinc },
   stage: { Startup: T.lime, "Growth stage": T.emerald, Public: T.sky, "Large private": T.indigo, Acquired: T.amber, Defunct: T.zinc },
 };
 

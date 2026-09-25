@@ -137,7 +137,7 @@ const KIND_FALLBACK: Record<string, string> = {
   regulatoryEvents: "Dated designations, filings, decisions and label changes.",
   hq: "Headquarters city.",
   country: "ISO 3166-1 alpha-2 country code.",
-  companyType: "Broad type used for filtering and the landscape grid; `investor` marks a fund or corporate venture arm whose portfolio is derived from backlinks.",
+  companyType: "Broad type used for filtering and the landscape grid; `investor` marks a fund or corporate venture arm whose portfolio is derived from backlinks; `cooperative-group` marks an academic trials group or public trial sponsor with no products of its own.",
   ycBatch: "Y Combinator batch code such as W21 or S24 (X = Spring, F = Fall).",
   investors: "Ids of investor records that have backed the company; each investor page lists its portfolio from these.",
   funding: "Sourced financing rounds: round name, year, amount in US dollars only when the source states it, and the source URL.",

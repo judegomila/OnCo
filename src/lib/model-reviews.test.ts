@@ -91,12 +91,9 @@ describe("loader", () => {
   it("example claims are plainly true from the record text", () => {
     const g = graph();
     const tnbc = g.must("tnbc");
-    // The example verdicts quote the five treatment rows written in cancers.ts and the Wikipedia link; the September 2026
-    // deep dive (src/data/spikes/tnbc-core.ts) adds diagnosis, testing and prevention rows and its source links, so the
-    // counts are lower bounds and the quoted rows are checked by setting.
-    if (tnbc.kind !== "cancer") throw new Error("tnbc should be a cancer");
-    expect(tnbc.standardOfCare.length).toBeGreaterThanOrEqual(5);
-    expect(tnbc.standardOfCare.map((r) => r.setting)).toEqual(expect.arrayContaining(["Stage II-III", "Metastatic, first line, PD-L1 CPS ≥10", "Metastatic, first line, PD-L1 negative or PD-1 ineligible"]));
+    // The five rows the example review was written against are still there; the TNBC living-with spike adds decision rows and patient-page links after them.
+    expect(tnbc.kind === "cancer" && tnbc.standardOfCare.length).toBeGreaterThanOrEqual(5);
+    expect(tnbc.kind === "cancer" && tnbc.standardOfCare.slice(0, 5).map((r) => r.setting)).toEqual(["Stage I (T1a-b N0)", "Stage II-III", "Metastatic, first line, PD-L1 CPS ≥10", "Metastatic, first line, PD-L1 negative or PD-1 ineligible", "Metastatic, later lines"]);
     expect(tnbc.links.length).toBeGreaterThanOrEqual(1);
     expect(tnbc.links[0].label).toBe("Wikipedia");
     const sg = g.must("sacituzumab-govitecan");

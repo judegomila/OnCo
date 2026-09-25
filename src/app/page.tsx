@@ -19,6 +19,7 @@ import { MyCancerContinue } from "@/components/MyCancer";
 import { Spotlight } from "@/components/Spotlight";
 import { spotlightSets } from "@/lib/spotlight";
 import { SPOTLIGHT_URL, spotlightKindFor } from "@/lib/spotlight-schedule";
+import { treatments } from "@/lib/supportive-care";
 
 const HOME_DESCRIPTION = "The open, cited map of oncology: every cancer, treatment, target, trial, company, institution and idea on one page each, in plain English first, with sources.";
 

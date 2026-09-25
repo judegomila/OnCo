@@ -186,7 +186,7 @@ function Page({ p, id }: { p: UkPathway; id: string }) {
         </section>
 
         <section className="mb-10">
-          <SectionHead id="centres" title="Where you would be treated" icon="hospital" lede={`${p.centres.length} specialist centre entries across ${nations.length} nations. Surgery happens only at these centres; chemotherapy and immunotherapy may be given closer to home under the centre's MDT.`} />
+          <SectionHead id="centres" title="Where you would be treated" icon="hospital" lede={`${p.centres.length} centre entries across ${nations.length} nations, with what each offers for this cancer. The service model note below says what happens only at a specialist centre and what can be given closer to home under its MDT.`} />
           {nations.map((n) => (
             <div key={n} className="mb-6">
               <Kicker icon="flag">{n}</Kicker>
@@ -289,7 +289,7 @@ function Page({ p, id }: { p: UkPathway; id: string }) {
         </section>
 
         <section className="mb-10">
-          <SectionHead id="support" title="Support in the UK" icon="hands" lede="Charities with a biliary focus, the general cancer charities, and the official schemes that help with costs. Each link goes to the organisation's own page." />
+          <SectionHead id="support" title="Support in the UK" icon="hands" lede="Charities focused on this cancer, the general cancer charities, and the official schemes that help with costs. Each link goes to the organisation's own page." />
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {p.support.map((s) => {
               const inst = s.institutionId ? g.get(s.institutionId) : undefined;

@@ -1,4 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
+import { treatments } from "@/lib/supportive-care";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { readFileSync } from "node:fs";
@@ -43,11 +44,12 @@ describe("kind graph data", () => {
     for (const k of KINDS) {
       const n = kg.nodes.find((x) => x.kind === k);
       if (g.kind(k).length === 0) { expect(n).toBeUndefined(); continue; }
-      expect(n?.count).toBe(g.kind(k).length);
+      // The drug node counts treatments and tests only (supportive care medicines are excluded, src/lib/supportive-care.ts).
+      expect(n?.count).toBe(k === "drug" ? treatments(g).length : g.kind(k).length);
       expect(n?.route).toBe(`/${KIND_META[k].route}/`);
       expect(KG_POS[k], `${k} has a position`).toBeTruthy();
     }
-    expect(kg.total).toBe(g.entities.length);
+    expect(kg.total).toBe(g.entities.length - (g.kind("drug").length - treatments(g).length));
     expect(kg.links).toBe(kg.edges.reduce((s, e) => s + e.links, 0));
     expect(kg.edges.map((e) => e.links)).toEqual([...kg.edges.map((e) => e.links)].sort((x, y) => y - x));
   });

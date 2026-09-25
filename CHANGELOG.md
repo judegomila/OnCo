@@ -7,16 +7,26 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
+- Wave 4: 99 cancer entity pages under the taxonomy rule; roadmaps page their eras; subtype pages rank below their parents in Ask
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 
 ### 24 September 2026
+- Ask OnCo retrieval: subtype capped below its parent, provenance weight shared by both stages; extractive recall 0.403 to 0.411, floor held at 0.41
+- LAUNCH: decisions and shipping of 25 Sept 2026
+- Section planner test allows eight paged sections for NSCLC after the lung histologies; wave 4 pages weigh 0.7 in the Ask index
+- Wave 4 cancer pages, family 7: sixteen pituitary, thymoma, salivary, cervical, vulvar and vaginal entities; roadmap Progress row
+- Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
+- Roadmap pages: eras collapse behind Show era pills fed by /api/v1/roadmaps/<id>.json; watch table paged past 20; 300 KB markup budget
 - Ask OnCo retrieval: drop function words and rank by kind and name in the word search; extractive recall 0.329 to 0.416, floor 0.41 with a ratchet
+- Wave 4 cancer pages, family 6: fourteen rare tumour entities; cancer map SVG budget 320 KB
 - TNBC treatment: reword a code comment to the page name
 - TNBC treatment: LOTUS, PAKT, SCAN-B and ZEST detail, registry trials linked to subtype pages, test fixtures for the new rows
+- Wave 4 cancer pages, family 5: sixteen lymphoma and leukaemia entities from WHO-HAEM5
 - EntityDetail: remove the conflict markers committed with the architecture merge, drop the unused Tip import
 - TNBC molecular layer: sourced genomic landscape, Lehmann and Burstein subtypes, ancestry and founder mutations, ctDNA studies, assay-specific PD-L1 and HER2-low thresholds, 55 landscape papers
+- Wave 4 cancer pages, family 4: twenty colon, kidney and testicular entities; sibling linker so no new page arrives orphaned
 - TNBC core: register the eight living-with glossary terms drafted by the living file, drop the brand-name aliases that hijacked Ask, trim two TL;DRs and a jargon phrase
 - TNBC treatment deep dive: trial and drug records, approvals by regulator with NICE appraisal numbers, 229 registry trials, standard-of-care rows
 - record-fold test: TNBC ceiling follows the new layers until the hub architecture lands, then drops to 300 KB
@@ -27,16 +37,19 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - TNBC core layer: sourced epidemiology, risk, presentation, diagnosis, pathology, staging, screening and outlook on the tnbc record; twelve subtype pages; nineteen glossary terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Geography section fits 390 px: grid items may shrink and source labels wrap
+- Wave 4 cancer pages, family 3: fourteen breast histologies under breast-cancer from the WHO 2019 breast classification
 - TNBC living with it, care and decisions: eleven decision rows, 77 hand-written questions, first 60 days checklist, three red-card sets with the 111 and 999 wording, after-chemotherapy decision aid, sourced living-with notes on 20 side-effect and procedure records
 - TNBC UK and NHS layer: pathway page for tnbc with the screening caveat, NG12 and NG101 steps, every NICE and SMC decision including the TA992 refusal against SMC2608, R208 and M234 tests, eight UK-open trials with sites, TNT, POSH/OlympiA and PARTNER legacy, registry figures read from PHS, WCISU and NICR downloads, Breast Cancer Now and three researcher records, named gaps
 - WIP: tnbc-core spike draft before merging main
 - Cooperative groups as company records: `cooperative-group` company type with browser facet, glyph pill and tooltip; 22 group records (GORTEC, German CLL Study Group, French Sarcoma Group, AGO, AIO, MRC CTU, HORG, DPCG, DBCG, DAHANCA, GERCOR, ISG, SSG, EMN, IFM, ALFA, AMC, OCOG, KGOG, SARC, FIL, FILO) linked to 41 corpus trials as sponsor; sponsor aliases carry their ids and the IFM and KGOG mis-resolutions are fixed; the trials fetchers link and never give products to them
 - Supportive care medicines: `supportive` drug flag on 55 records, "Supportive care" pill with glyph and tooltip, Purpose facet on /drugs/, excluded from the home treatments count, the product rankings and the treatment references on standard-of-care rows; EMA and FDA fetchers flag candidates by a stated indication rule
 - Cancer records as a hub with ten sections: registry, section pages, shared strip, sections.json, budgets and deep-link tests
+- Wave 4 cancer pages, family 2: ten lung histologies under nsclc from the WHO 2021 thoracic classification
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 - TNBC evidence: 45 papers verbatim from Europe PMC (guidelines, receptor and basal-like discovery, BRCA1 founder mutations, disparities, subtypes, pCR and RCB, platinum, CREATE-X, OlympiA updates, PD-L1 assays, TILs, TROPION-Breast02, CAPItello-290, HER2-low, ctDNA), tnbc-roadmap with 14 eras and a registry watch list to 2033, nine ideas
 - Modality lens: /modalities/ and twelve format hubs assembling what the corpus records per shape of medicine
 - Home page: the counts grid becomes a living graph of the kinds, with the body map as the entry point on phones
+- Wave 4 cancer pages, family 1: entity pages under the seven parents without subtype records, taxonomy rule in docs/CANCER-PAGES.md
 - LAUNCH: the ship chain no longer builds locally; Vercel builds and the chain verifies the alias
 - LAUNCH: issue and PR sweep of 24 Sept, checkpoints, target statuses, ivermectin
 - Ivermectin: the trial evidence so far, with the label toxicity table and the papers under expressions of concern stated

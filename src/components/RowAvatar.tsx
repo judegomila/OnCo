@@ -24,7 +24,7 @@ export function RowAvatar({ src, name, round = false, size = "md" }: { src?: str
       {!show && <span className={`${size === "sm" ? "text-[7px]" : "text-[10px]"} font-semibold text-foreground/70 leading-none`}>{initials}</span>}
       {show && (
         // eslint-disable-next-line @next/next/no-img-element -- self-hosted or hotlinked icon, never optimised
-        <img src={src} alt="" className={round ? "h-full w-full object-cover" : "h-[70%] w-[70%] object-contain"} loading="lazy" referrerPolicy="no-referrer"
+        <img src={src} alt="" width={size === "sm" ? 16 : 28} height={size === "sm" ? 16 : 28} className={round ? "h-full w-full object-cover" : "h-[70%] w-[70%] object-contain"} loading="lazy" decoding="async" referrerPolicy="no-referrer"
           onError={() => setFailed(true)} onLoad={(e) => { if (e.currentTarget.naturalWidth > 0 && e.currentTarget.naturalWidth <= 16) setFailed(true); }} />
       )}
     </span>

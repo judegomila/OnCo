@@ -97,3 +97,40 @@ export const engineFile = (id: FormatId | "index"): string => `/api/v1/pipeline/
 export const engineTableId = (id: FormatId): string => `engine-${id}`;
 /** The axis-B value a medicine gets when the corpus does not record that part; never counted as a tried combination against the real columns. */
 export const NOT_RECORDED = "not-recorded";
+
+// ---------------------------------------------------------------------------------------------------------------
+// The modality lens (/modalities/): one hub per format assembling what the corpus already records about it.
+
+/** Site route of a modality hub. */
+export const modalityRoute = (id?: FormatId): string => (id ? `/modalities/${id}/` : "/modalities/");
+/** Site-relative path of a hub's JSON companion (a static route handler beside the page). */
+export const modalityFile = (id: FormatId | "index"): string => (id === "index" ? "/modalities/modalities.json" : `/modalities/${id}/data.json`);
+/** Table ids of a hub's paged tables (src/lib/tables/modalities.ts). */
+export type ModalityTable = "approved" | "phase3" | "trials" | "papers" | "ideas";
+export const MODALITY_TABLES: ModalityTable[] = ["approved", "phase3", "trials", "papers", "ideas"];
+export const modalityTableId = (id: FormatId, table: ModalityTable): string => `modality-${id}-${table}`;
+
+/**
+ * The technology records that describe each format, the one whose record explains "how it works" first. Every id
+ * must be a technology in the corpus (src/app/modalities/modalities.test.ts checks); the hub reads the record's
+ * TL;DR, principle, terms, papers, ideas and roadmap steps, and each of these records carries a pill back to the hub.
+ */
+export const FORMAT_TECHNOLOGIES: Record<FormatId, string[]> = {
+  adc: ["adc", "bispecific-adc", "site-specific-conjugation", "topoisomerase-inhibitors", "peptide-drug-conjugate", "dual-payload-adc", "masked-adc", "immune-stimulating-adc", "degrader-antibody-conjugate", "antibody-oligonucleotide-conjugates", "adc-payload-neutralizer", "adc-supply-chain", "adc-cdmo-manufacturing", "high-potency-payload-synthesis"],
+  radioligand: ["radioligand-therapy", "lu177-radioligand-therapy", "targeted-alpha-therapy", "prrt", "radioimmunotherapy", "radioiodine-therapy", "mibg-theranostics", "astatine-211-alpha-therapy", "radioligand-dosimetry", "radionuclide-parp-combination", "alpha-nanogenerators", "therapy-isotope-supply-chain", "actinium-225-supply", "research-reactor-isotope-production", "cyclotron-isotope-production", "radiopharmaceutical-gmp-release", "radiopharmacy-network"],
+  "car-t": ["car-t", "glioma-car-t", "in-vivo-car-t", "car-nk-macrophage", "stroma-directed-car", "car-t-manufacturing-process", "apheresis-starting-material", "cell-therapy-cold-chain", "point-of-care-cell-manufacturing"],
+  "tcr-t": ["tcr-t"],
+  bispecific: ["bispecific-antibody", "t-cell-engager", "trispecific-antibodies", "nk-cell-engagers"],
+  degrader: ["protac-degrader", "celmods", "molecular-glue-platforms", "degrader-antibody-conjugate"],
+  "small-molecule": ["kinase-inhibitors", "parp-inhibitor", "cdk46-inhibitor", "kras-inhibitors", "bcl2-inhibitors", "idh-inhibitors", "menin-inhibitors", "endocrine-therapy", "oral-serds", "pi3k-akt-mtor-inhibitors", "hedgehog-inhibitors", "mdm2-inhibitors", "her2-tyrosine-kinase-inhibitors", "atr-chk1-inhibitors", "kat6-inhibitors", "lsd1-inhibitors", "gamma-secretase-inhibitors", "androgen-deprivation", "epigenetic-drugs", "small-molecule-api-synthesis"],
+  antibody: ["monoclonal-antibody", "checkpoint-inhibitor", "cd47-blockade", "cd40-agonists", "monoclonal-antibody-manufacturing"],
+  cytokine: ["cytokine-therapy", "immunocytokines"],
+  vaccine: ["neoantigen-mrna-vaccine", "shared-antigen-vaccine", "dendritic-cell-vaccines", "hpv-vaccine", "interception-vaccination", "bacterial-vector-vaccines", "mrna-lnp-manufacturing", "plasmid-dna-manufacturing"],
+  "oncolytic-virus": ["oncolytic-virus"],
+  "cell-therapy": ["til-therapy", "nk-cell-therapy", "virus-specific-t-cells", "gamma-delta-t-cell-therapy", "allogeneic-cell-therapy", "allogeneic-cell-banks", "allogeneic-cell-banking", "allogeneic-hsct"],
+};
+
+/** The formats a technology record describes, for the pill on its page. */
+export function formatsForTechnology(id: string): FormatDef[] {
+  return FORMATS.filter((f) => FORMAT_TECHNOLOGIES[f.id].includes(id));
+}

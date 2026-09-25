@@ -56,6 +56,7 @@ const P: Record<string, string> = {
   "/exclusivity/": "M6 11V8a6 6 0 0 1 12 0v3M5 11h14v10H5V11Zm7 4v3",
   "/pipeline/": "M4 5h16l-6 7v5l-4 2v-7L4 5Z",
   "/pipeline/engine/": "M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM17.5 14v7M14 17.5h7",
+  "/modalities/": "M4 5h6v6H4zM14 4l4 4-4 4-4-4 4-4ZM14 14h6v6h-6zM7 14a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z",
   "/market/": "M3 20h18M4 17l5-6 4 3 7-8M16 6h4v4",
   "/calendar/": "M4 6h16v14H4zM8 3v6m8-6v6M4 11h16",
   "/digests/": "M4 4h13v16H4zM17 8h3v10a2 2 0 0 1-2 2H6M7 8h7M7 12h7M7 16h4",

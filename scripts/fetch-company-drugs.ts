@@ -42,7 +42,9 @@ const CLASS_WORD = /\b(agonists?|antagonists?|inhibitors?|blockers?|antibod(y|ie
 const g = graph();
 const drugs = g.kind("drug") as Drug[];
 const trials = g.kind("trial") as Trial[];
-const companies = g.kind("company") as Company[];
+// Cooperative groups and public trial sponsors (companyType "cooperative-group") run trials of other makers' products and
+// have none of their own, so they are never given drugs here.
+const companies = (g.kind("company") as Company[]).filter((c) => c.companyType !== "cooperative-group");
 
 // Wave 2's definition of a studied agent, unchanged.
 const registry = (t: Trial) => t.tags.includes("ctgov-ingest");

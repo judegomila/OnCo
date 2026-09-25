@@ -23,6 +23,7 @@ export const pt: UiDict = {
   download: "Descarregar",
   breadcrumb: "Caminho de navegação",
   sections: "Secções",
+  loading: "A carregar",
   "sections.of": "Secções de {name}",
   primaryNav: "Principal",
 
@@ -291,6 +292,7 @@ export const pt: UiDict = {
   "l.Class": "Classe",
   "l.How drugs attack it": "Como os fármacos o atacam",
   "l.Modality": "Modalidade",
+  "l.Purpose": "Finalidade",
   "l.Mechanism": "Mecanismo",
   "l.Brand / code": "Marca / código",
   "l.Payload": "Carga",
@@ -319,6 +321,7 @@ export const pt: UiDict = {
   "l.OnCo score": "Pontuação OnCo",
   "l.Analogy": "Analogia",
   "l.Category": "Categoria",
+  "l.Methods and models": "Métodos e modelos",
   "l.Setting": "Contexto",
   "l.Phase": "Fase",
   "l.Sponsor": "Promotor",

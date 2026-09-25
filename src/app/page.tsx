@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { graph } from "@/lib/graph";
-import { KIND_META, KINDS, routeFor } from "@/lib/schema";
+import { routeFor } from "@/lib/schema";
 import { Container, EntityCard, KindChip, StatusChip } from "@/components/ui";
 import { SearchBox } from "@/components/SearchBox";
-import { KIND_COLOR } from "@/lib/text";
 import { NAV_GROUPS } from "@/lib/nav";
 import { GroupText, ItemText } from "@/components/NavText";
 import { FrontSchematic } from "@/components/FrontSchematic";
 import { FrontIcon } from "@/components/FrontIcon";
 import { NavIcon } from "@/components/NavIcon";
-import { KindIcon } from "@/components/KindIcon";
+import { KindGraph } from "@/components/KindGraph";
 import { MoleculeSlot } from "@/components/MoleculeSlot";
 import { GardenBackdrop } from "@/components/Garden";
 import { GardenDivider } from "@/components/GardenDivider";
@@ -20,6 +19,7 @@ import { MyCancerContinue } from "@/components/MyCancer";
 import { Spotlight } from "@/components/Spotlight";
 import { spotlightSets } from "@/lib/spotlight";
 import { SPOTLIGHT_URL, spotlightKindFor } from "@/lib/spotlight-schedule";
+import { treatments } from "@/lib/supportive-care";
 
 const HOME_DESCRIPTION = "The open, cited map of oncology: every cancer, treatment, target, trial, company, institution and idea on one page each, in plain English first, with sources.";
 
@@ -76,8 +76,6 @@ export default function Home() {
   const approvals = drugs.filter((d) => d.approvals.some((a) => a.year === approvalYear)).sort((a, b) => a.name.localeCompare(b.name));
   const frontier = g.kind("technology").filter((t) => t.tags.includes("frontier")).slice(0, 8);
   const roadmaps = g.kind("roadmap");
-  const counts = KINDS.map((k) => ({ k, n: g.kind(k).length })).filter((c) => c.n > 0);
-  const total = counts.reduce((a, c) => a + c.n, 0);
 
   // Latest milestone per cancer for the most recent year in any cancer's history.
   const cancers = g.kind("cancer");
@@ -86,8 +84,6 @@ export default function Home() {
     .map((c) => ({ c, ev: c.history.filter((h) => Number(h.year) === milestoneYear).at(-1) }))
     .filter((x): x is { c: typeof cancers[number]; ev: NonNullable<typeof x.ev> } => !!x.ev)
     .sort((a, b) => a.c.name.localeCompare(b.c.name));
-
-  const fmt = (n: number) => n.toLocaleString("en-GB");
 
   // Spotlight: the build day's kind is rendered into the HTML; the client swaps in the reader's day (src/components/Spotlight.tsx).
   const spotlight = spotlightSets(g)[spotlightKindFor(new Date())];
@@ -112,24 +108,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* By the numbers */}
+          {/* By the numbers: the kinds as a living graph (the body map on phones), or the plain list (src/components/KindGraph.tsx) */}
           <div className="mt-14">
-            <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 mb-3">
-              <p className="text-sm text-muted"><span className="font-semibold text-foreground tabular-nums">{fmt(total)}</span> linked objects, one page each. Every count is a link.</p>
-            </div>
-            <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-px rounded-xl border border-border bg-card overflow-hidden shadow-card [&>li]:border-border [&>li]:border-b [&>li]:border-r">
-              {counts.map(({ k, n }) => (
-                <li key={k} className="bg-card">
-                  <Link href={`/${KIND_META[k].route}/`} className="flex h-full items-center gap-3 px-3.5 py-3 hover:bg-surface transition-colors">
-                    <span aria-hidden className={`inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border ${KIND_COLOR[k]}`}><KindIcon kind={k} className="h-5 w-5" /></span>
-                    <span className="min-w-0">
-                      <span className="block text-xl font-semibold tabular-nums leading-none tracking-tight">{fmt(n)}</span>
-                      <span className="block text-xs text-muted capitalize mt-1 truncate">{(KIND_META[k].title ?? KIND_META[k].plural)}</span>
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <KindGraph />
           </div>
         </Container>
       </section>

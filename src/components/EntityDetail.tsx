@@ -16,6 +16,7 @@ import { Portrait, PortraitCredit } from "./Portrait";
 import { JsonLd } from "./JsonLd";
 import { MachineLinks } from "./MachineLinks";
 import { CheckpointPills } from "./CheckpointPills";
+import { ModalityPills } from "./ModalityPills";
 import { PrintButton } from "./PrintButton";
 import { TrialFinderGeo as TrialFinder } from "./TrialFinderGeo";
 import { Questions } from "./Questions";
@@ -64,6 +65,9 @@ import { DrugGrid } from "./DrugCard";
 import type { Drug, Paper } from "@/lib/schema";
 import { LayerAware } from "./LayerAware";
 import { TargetSpecificityPills } from "./TargetSpecificityPills";
+import { SupportiveMark, SupportivePill } from "./SupportivePill";
+import { CompanyTypePill } from "./CompanyTypePill";
+import { splitSupportive } from "@/lib/supportive-care";
 import { TargetWhereFound, hpaFor } from "./TargetWhereFound";
 import { KindName, TL } from "./T";
 import { withTermHovers } from "@/lib/term-hover";
@@ -91,6 +95,7 @@ import { ChangesPreview, FollowLine } from "./CancerChanges";
 import { changesForCancer, splitUpcoming } from "@/lib/cancer-changes";
 import { TargetSchematic } from "./TargetSchematic";
 import { Tip } from "./Tip";
+import { IntentLink } from "./IntentLink";
 import { TargetExplainer } from "./TargetExplainer";
 import { CoverageUsCard } from "./CoverageUs";
 import { CoverageUkCard } from "./CoverageUk";
@@ -142,6 +147,19 @@ function Refs({ ids }: { ids: string[] }) {
   const g = graph();
   const items = ids.map((id) => g.get(id)).filter((x): x is Entity => !!x);
   return <ChipList items={items} />;
+}
+
+/**
+ * References on a standard-of-care row: treatments and technologies as chips, supportive care medicines (bone agents,
+ * growth factors, antiemetics) on their own muted line with the supportive glyph, so they never read as the treatment.
+ */
+function SocRefs({ g, ids }: { g: ReturnType<typeof graph>; ids: string[] }) {
+  if (!ids.length) return null;
+  const { treatments: tr, supportive: sp } = splitSupportive(g, ids);
+  return (<>
+    {tr.length > 0 && <div className="mt-2"><Refs ids={tr} /></div>}
+    {sp.length > 0 && <div className="mt-2 flex flex-wrap items-center gap-1.5" data-supportive-refs><SupportiveMark /><Refs ids={sp} /></div>}
+  </>);
 }
 
 /** Labels and block titles are English source strings, translated on the client through the chrome dictionary (`TL`). */
@@ -230,8 +248,10 @@ export function EntityDetail({ e }: { e: Entity }) {
       />
       <Container className="pb-16">
         {(e.kind === "target" || e.kind === "pathway") && <MechanicsPills id={e.id} className="mb-6" />}
+        {e.kind === "drug" && e.supportive && <SupportivePill className="mb-6" />}
         {e.kind !== "cancer" && <ToolsStrip e={e} />}
         {(e.kind === "target" || e.kind === "pathway" || e.kind === "term" || e.kind === "technology") && <CheckpointPills id={e.id} className="mb-6" />}
+        {(e.kind === "technology" || e.kind === "drug") && <ModalityPills e={e} className="mb-6" />}
         {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
         {tabs.length > 1
           ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={afterTabs} aside={aside} />
@@ -290,7 +310,7 @@ function QuickLinks({ e }: { e: Entity }) {
       {nonEmpty.map(([label, ids]) => (
         <div key={label}>
           <div className="kicker mb-1"><TL text={label} /></div>
-          <ul className="space-y-0.5">{ids.map((id) => { const x = g.get(id); return x ? <li key={id}><Link className="hover:underline" href={routeFor(x)}>{x.name}</Link></li> : null; })}</ul>
+          <ul className="space-y-0.5">{ids.map((id) => { const x = g.get(id); return x ? <li key={id}><IntentLink className="hover:underline" href={routeFor(x)}>{x.name}</IntentLink></li> : null; })}</ul>
         </div>
       ))}
     </div>
@@ -403,7 +423,7 @@ function kindTabs(e: Entity): Tab[] {
         overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
           <Field label="Headquarters">{e.hq}, {e.country}</Field>
           <div className="sm:col-span-2 space-y-4"><CompanyScorePanel id={e.id} /><FundingPanel id={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /><ManufacturingPanel companyId={e.id} /></div>
-          <Field label="Type"><span className="capitalize">{e.companyType.replace("-", " ")}</span>{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
+          <Field label="Type"><CompanyTypePill type={e.companyType} />{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
           <Field label="Stage">{stage && <span className="inline-flex items-center gap-1.5"><StageIcon stage={stage} className="h-4 w-4 text-accent" />{STAGE_LABEL[stage]}{e.ycBatch && <span className="text-muted"> · Y Combinator {ycBatchLabel(e.ycBatch)}</span>}</span>}</Field>
           {e.website && <Field label={websiteView(e.website).label}><a className="underline break-all" href={e.website} rel="noopener">{websiteView(e.website).text}</a></Field>}
           <Field label="Founded">{e.founded}</Field>
@@ -877,7 +897,7 @@ function cancerTabs(c: Cancer): Tab[] {
             <div className="font-medium">{s.setting}</div>
             <p className="text-[15px] text-foreground/85 mt-1">{s.approach}</p>
             {s.guideline && <div className="mt-2"><GuidelineChip g={s.guideline} /></div>}
-            {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
+            <SocRefs g={g} ids={s.refs} />
           </div>
         ))}
       </div>) },

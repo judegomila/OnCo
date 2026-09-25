@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { IntentLink } from "./IntentLink";
 import type { Kind } from "@/lib/kinds";
 import type { Entity } from "@/lib/schema";
 import { KIND_META, KINDS } from "@/lib/kinds";
@@ -56,9 +57,9 @@ export function SimilarStrip({ items }: { items: SimilarLink[] }) {
             <div className="flex items-center gap-1.5 mb-1">
               <span className={`chip border ${KIND_COLOR[s.kind]}`}><KindName kind={s.kind} form="label" fallback={KIND_META[s.kind].label} /></span>
             </div>
-            <Link href={s.route} className="font-medium leading-snug hover:underline">{s.name}</Link>
+            <IntentLink href={s.route} className="font-medium leading-snug hover:underline">{s.name}</IntentLink>
             <p className="text-xs text-muted mt-1 leading-snug">
-              Shares {s.shared.map((x, i) => <span key={x.id}>{i > 0 && ", "}<Link href={x.route} className="underline decoration-foreground/20 hover:decoration-foreground">{x.name}</Link></span>)}
+              Shares {s.shared.map((x, i) => <span key={x.id}>{i > 0 && ", "}<IntentLink href={x.route} className="underline decoration-foreground/20 hover:decoration-foreground">{x.name}</IntentLink></span>)}
               {s.sharedTags.length > 0 && <span>{s.shared.length ? " and " : ""}the tag{s.sharedTags.length > 1 ? "s" : ""} {s.sharedTags.join(", ")}</span>}.
             </p>
           </li>

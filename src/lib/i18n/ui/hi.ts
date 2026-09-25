@@ -23,6 +23,7 @@ export const hi: UiDict = {
   download: "डाउनलोड",
   breadcrumb: "पथ",
   sections: "अनुभाग",
+  loading: "लोड हो रहा है",
   "sections.of": "{name} के अनुभाग",
   primaryNav: "मुख्य",
 
@@ -291,6 +292,7 @@ export const hi: UiDict = {
   "l.Class": "वर्ग",
   "l.How drugs attack it": "दवाएँ इस पर कैसे हमला करती हैं",
   "l.Modality": "प्रकार",
+  "l.Purpose": "उद्देश्य",
   "l.Mechanism": "क्रियाविधि",
   "l.Brand / code": "ब्रांड / कोड",
   "l.Payload": "पेलोड",
@@ -319,6 +321,7 @@ export const hi: UiDict = {
   "l.OnCo score": "OnCo स्कोर",
   "l.Analogy": "उपमा",
   "l.Category": "श्रेणी",
+  "l.Methods and models": "विधियाँ और मॉडल",
   "l.Setting": "परिस्थिति",
   "l.Phase": "चरण",
   "l.Sponsor": "प्रायोजक",

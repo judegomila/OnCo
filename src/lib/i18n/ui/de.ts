@@ -23,6 +23,7 @@ export const de: UiDict = {
   download: "Herunterladen",
   breadcrumb: "Navigationspfad",
   sections: "Abschnitte",
+  loading: "Wird geladen",
   "sections.of": "Abschnitte zu {name}",
   primaryNav: "Hauptnavigation",
 
@@ -291,6 +292,7 @@ export const de: UiDict = {
   "l.Class": "Klasse",
   "l.How drugs attack it": "Wie Medikamente sie angreifen",
   "l.Modality": "Modalität",
+  "l.Purpose": "Zweck",
   "l.Mechanism": "Wirkmechanismus",
   "l.Brand / code": "Marke / Code",
   "l.Payload": "Wirkstofffracht",
@@ -319,6 +321,7 @@ export const de: UiDict = {
   "l.OnCo score": "OnCo-Punktzahl",
   "l.Analogy": "Analogie",
   "l.Category": "Kategorie",
+  "l.Methods and models": "Methoden und Modelle",
   "l.Setting": "Setting",
   "l.Phase": "Phase",
   "l.Sponsor": "Sponsor",

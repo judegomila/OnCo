@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { IntentLink } from "./IntentLink";
 import type { Drug } from "@/lib/schema";
 import { routeFor } from "@/lib/kinds";
 import { MoleculeSlot } from "./MoleculeSlot";
@@ -16,7 +16,7 @@ export function DrugCard({ d, compact = false }: { d: Drug; compact?: boolean })
       <MoleculeSlot drugId={d.id} modality={d.modality} name={d.name} className={`w-full border-0 rounded-none ${compact ? "h-20" : "h-28"}`} />
       <div className="p-3 flex-1">
         <div className="relative z-10 flex items-center gap-2 mb-1"><ApprovalChip drugId={d.id} status={d.status} compact /><span className="text-xs text-muted truncate">{d.modality}</span></div>
-        <div className="font-medium leading-snug"><Link href={routeFor(d)} className="after:absolute after:inset-0 after:content-['']">{d.name}</Link>{d.brand && <span className="text-muted font-normal"> · {d.brand}</span>}</div>
+        <div className="font-medium leading-snug"><IntentLink href={routeFor(d)} className="after:absolute after:inset-0 after:content-['']">{d.name}</IntentLink>{d.brand && <span className="text-muted font-normal"> · {d.brand}</span>}</div>
         {!compact && <p className="text-sm text-muted mt-0.5 line-clamp-2">{d.tldr}</p>}
       </div>
     </div>

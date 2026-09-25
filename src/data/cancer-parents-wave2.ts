@@ -11,7 +11,7 @@ const tags = ["parent-page"];
 
 export const cancerParentsWave2: CancerInput[] = [
   { id: "breast-cancer", kind: "cancer", name: "Breast cancer (all types)", group: "breast", asOf, tags, wikipedia: W("Breast_cancer"),
-    aka: ["Breast carcinoma", "Carcinoma of the breast"],
+    aka: ["TCGA-BRCA", "breast invasive carcinoma (TCGA BRCA cohort)", "Breast carcinoma", "Carcinoma of the breast"],
     burden: "The commonest cancer worldwide, with about 2.3 million new cases and 670,000 deaths a year; in high-income countries about nine in ten women diagnosed are alive five years later.",
     tldr: "Breast cancer is not one disease. Which of three receptor patterns the tumour carries decides its treatment: hormone receptor-positive (about 70 percent), HER2-positive (about 15 percent) or triple-negative (about 15 percent). The pages for each type hold the detail; this page holds what they share.",
     summary: "Breast cancer arises from the milk ducts or lobules and is classified by the receptors on its cells: oestrogen and progesterone receptors, and HER2. Hormone receptor-positive, HER2-negative disease is treated with endocrine therapy and CDK4/6 inhibitors; HER2-positive disease with HER2 antibodies and antibody-drug conjugates; triple-negative disease with chemotherapy, immunotherapy and, for BRCA carriers, PARP inhibitors. Ductal carcinoma in situ is a precursor confined to the duct, and about one percent of cases occur in men. Screening mammography from around age 50, breast-conserving surgery with radiotherapy, sentinel node biopsy and genomic tests that spare chemotherapy are common to all types. Most patients present early and are cured; metastatic disease is treatable for years but rarely curable.",

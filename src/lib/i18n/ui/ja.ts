@@ -23,6 +23,7 @@ export const ja: UiDict = {
   download: "ダウンロード",
   breadcrumb: "パンくずリスト",
   sections: "セクション",
+  loading: "読み込み中",
   "sections.of": "{name} のセクション",
   primaryNav: "メインナビゲーション",
 
@@ -291,6 +292,7 @@ export const ja: UiDict = {
   "l.Class": "分類",
   "l.How drugs attack it": "薬がどう攻撃するか",
   "l.Modality": "モダリティ",
+  "l.Purpose": "目的",
   "l.Mechanism": "作用機序",
   "l.Brand / code": "商品名 / 開発コード",
   "l.Payload": "ペイロード",
@@ -319,6 +321,7 @@ export const ja: UiDict = {
   "l.OnCo score": "OnCo スコア",
   "l.Analogy": "たとえ",
   "l.Category": "カテゴリー",
+  "l.Methods and models": "手法とモデル",
   "l.Setting": "治療セッティング",
   "l.Phase": "相",
   "l.Sponsor": "スポンサー",

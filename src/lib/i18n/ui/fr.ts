@@ -23,6 +23,7 @@ export const fr: UiDict = {
   download: "Télécharger",
   breadcrumb: "Fil d'Ariane",
   sections: "Sections",
+  loading: "Chargement",
   "sections.of": "Sections de {name}",
   primaryNav: "Principale",
 
@@ -291,6 +292,7 @@ export const fr: UiDict = {
   "l.Class": "Classe",
   "l.How drugs attack it": "Comment les médicaments l'attaquent",
   "l.Modality": "Modalité",
+  "l.Purpose": "Finalité",
   "l.Mechanism": "Mécanisme",
   "l.Brand / code": "Marque / code",
   "l.Payload": "Charge",
@@ -319,6 +321,7 @@ export const fr: UiDict = {
   "l.OnCo score": "Score OnCo",
   "l.Analogy": "Analogie",
   "l.Category": "Catégorie",
+  "l.Methods and models": "Méthodes et modèles",
   "l.Setting": "Contexte",
   "l.Phase": "Phase",
   "l.Sponsor": "Promoteur",

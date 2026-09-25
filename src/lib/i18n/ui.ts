@@ -40,6 +40,7 @@ export const EN = {
   download: "Download",
   breadcrumb: "Breadcrumb",
   sections: "Sections",
+  loading: "Loading",
   "sections.of": "{name} sections",
   primaryNav: "Primary",
 
@@ -323,6 +324,7 @@ export const EN = {
   "l.Class": "Class",
   "l.How drugs attack it": "How drugs attack it",
   "l.Modality": "Modality",
+  "l.Purpose": "Purpose",
   "l.Mechanism": "Mechanism",
   "l.Brand / code": "Brand / code",
   "l.Payload": "Payload",
@@ -351,6 +353,7 @@ export const EN = {
   "l.OnCo score": "OnCo score",
   "l.Analogy": "Analogy",
   "l.Category": "Category",
+  "l.Methods and models": "Methods and models",
   "l.Setting": "Setting",
   "l.Phase": "Phase",
   "l.Sponsor": "Sponsor",

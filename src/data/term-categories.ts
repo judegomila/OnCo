@@ -2,15 +2,17 @@
  * Canonical glossary categories. Terms are written across many files with category labels that drifted
  * ("Regulatory", "regulatory", "Regulation", "policy"; "Genetics", "genetics", "Genomics"), which made the
  * glossary grid ragged and split the same idea over several tiles. Every term is mapped here to one of
- * twenty categories at load time (see ALL_INPUTS in ./index.ts); the raw files are left as written.
+ * twenty-one categories at load time (see ALL_INPUTS in ./index.ts); the raw files are left as written.
  *
- * Twenty categories fill the grid evenly at 2, 4 and 5 columns. Each has an animation in
- * ./term-animations.ts, which a test asserts.
+ * Twenty of the categories are oncology; the twenty-first, "Methods and models", holds the machine-learning,
+ * statistics, data-standard and licensing vocabulary a reader meets in cancer AI papers (added 24 Sept 2026 from the
+ * CanSim terms map). Each has an animation in ./term-animations.ts, which a test asserts.
  */
 export const TERM_CATEGORIES = [
   "Treatment jargon", "Biology basics", "Cancer biology", "Procedures", "Clinic basics", "Clinical", "Trials", "Regulation & policy",
   "Biomarkers", "Pathology", "Side effects", "ADC chemistry", "Genomics & genetics", "Nutrition & lifestyle", "Endpoints", "Anatomy",
   "Diagnostics & imaging", "Immunology", "Resistance", "Epidemiology & prevention",
+  "Methods and models",
 ] as const;
 export type TermCategory = (typeof TERM_CATEGORIES)[number];
 
@@ -27,6 +29,7 @@ const ALIASES: Record<string, TermCategory> = {
   "genomics": "Genomics & genetics", "genetics": "Genomics & genetics",
   "diagnostics": "Diagnostics & imaging", "imaging": "Diagnostics & imaging",
   "epidemiology": "Epidemiology & prevention", "prevention": "Epidemiology & prevention", "screening": "Epidemiology & prevention",
+  "methods": "Methods and models", "models": "Methods and models", "methods & models": "Methods and models", "machine learning": "Methods and models", "statistics": "Methods and models",
 };
 
 /** Terms whose umbrella label ("Trials & regulation", "Pathology & biomarkers") splits by meaning; decided term by term. */

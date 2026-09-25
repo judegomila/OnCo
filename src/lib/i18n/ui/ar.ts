@@ -23,6 +23,7 @@ export const ar: UiDict = {
   download: "تنزيل",
   breadcrumb: "مسار التنقل",
   sections: "الأقسام",
+  loading: "جارٍ التحميل",
   "sections.of": "أقسام {name}",
   primaryNav: "الرئيسية",
 
@@ -291,6 +292,7 @@ export const ar: UiDict = {
   "l.Class": "الفئة",
   "l.How drugs attack it": "كيف تهاجمه الأدوية",
   "l.Modality": "النمط",
+  "l.Purpose": "الغرض",
   "l.Mechanism": "آلية العمل",
   "l.Brand / code": "الاسم التجاري / الرمز",
   "l.Payload": "الحمولة",
@@ -319,6 +321,7 @@ export const ar: UiDict = {
   "l.OnCo score": "درجة OnCo",
   "l.Analogy": "تشبيه",
   "l.Category": "الفئة",
+  "l.Methods and models": "الأساليب والنماذج",
   "l.Setting": "السياق العلاجي",
   "l.Phase": "المرحلة",
   "l.Sponsor": "الجهة الراعية",

@@ -23,6 +23,7 @@ export const zh: UiDict = {
   download: "下载",
   breadcrumb: "面包屑导航",
   sections: "章节",
+  loading: "加载中",
   "sections.of": "{name} 的章节",
   primaryNav: "主导航",
 
@@ -291,6 +292,7 @@ export const zh: UiDict = {
   "l.Class": "类别",
   "l.How drugs attack it": "药物如何攻击它",
   "l.Modality": "形式",
+  "l.Purpose": "用途",
   "l.Mechanism": "机制",
   "l.Brand / code": "商品名 / 代号",
   "l.Payload": "载荷",
@@ -319,6 +321,7 @@ export const zh: UiDict = {
   "l.OnCo score": "OnCo 评分",
   "l.Analogy": "类比",
   "l.Category": "类别",
+  "l.Methods and models": "方法与模型",
   "l.Setting": "治疗背景",
   "l.Phase": "阶段",
   "l.Sponsor": "申办方",

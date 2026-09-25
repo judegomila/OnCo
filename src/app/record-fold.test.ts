@@ -40,7 +40,8 @@ const KB = 1024;
 
 const SAMPLES: Array<{ id: string; ceilingKB: number }> = [
   // 692 KB on 25 Sept 2026 after the TNBC UK, evidence and living-with layers; the hub-and-sub-pages architecture brings it to about 213 KB, at which point this ceiling drops to 300.
-  { id: "tnbc", ceilingKB: 720 },
+  // 770 KB after the TNBC treatment layer (seven standard-of-care rows, 19 hand-written trials, 3 terms); its 213 registry trials link to the subtype pages instead.
+  { id: "tnbc", ceilingKB: 800 },
   { id: "gallbladder", ceilingKB: 1100 },
   { id: "pembrolizumab", ceilingKB: 600 },
   { id: "keynote-522", ceilingKB: 260 },

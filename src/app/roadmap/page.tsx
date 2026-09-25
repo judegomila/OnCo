@@ -67,7 +67,7 @@ const EXPANSION: MethodCard[] = [
     runs: "Clinical, scientific, regulatory, patient-advocate, and organisation self-edit tracks, each with named reviewers and a conflict-of-interest field shown next to the badge. The badge component is built; the reviewer list is not yet populated.",
     cadence: "On merge of any factual change; badges dated.",
     code: [{ label: ".github/REVIEWERS.md", path: ".github/REVIEWERS.md" }, { label: "src/data/reviews.ts", path: "src/data/reviews.ts" }, { label: "ReviewBadge.tsx", path: "src/components/ReviewBadge.tsx" }],
-    better: "Recruit one named reviewer per cancer and per front; the “Records with a review badge” gauge above is at zero until then.",
+    better: "Recruit one named reviewer per cancer and per front; the “Records a named human reviewer has signed off” gauge above is at zero until then, and the model panel does not count towards it.",
   },
 ];
 

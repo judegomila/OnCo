@@ -18,6 +18,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- Four page-render tests were measuring how busy the machine is, not the code
 - The front page opens on the list again; the graph is one click away
 - Four launch-list items were already done: tick them so nobody does them twice
 - The answer to which page is mine now sits on the page a reader lands on, not the last tab

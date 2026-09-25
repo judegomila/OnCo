@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
+- Pancreatic cancer deep spike, round two: the record extended with sourced epidemiology, risk, diagnosis and surveillance, six subtypes, 22 terms, 34 papers and a twelve-era roadmap
 - Pancreatic cancer deep spike, round one: the UK and NHS pathway with the national audit findings, decisions, first 60 days, red cards and the first-treatment aid
 - Cooperative groups have one home: 35 trial groups move from institutions to cooperative-group companies with redirects
 - TNBC reviewed against its sources: figures reconciled, duplicates folded, 822 links checked
@@ -16,6 +17,12 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
 
 ### 24 September 2026
+- Pancreatic core: classical versus basal-like (GATA6) and clinical benefit response terms for the evidence layer, high-risk individual folded into familial pancreatic cancer, disease-free survival note on the EFS term; the other requested ids resolve to existing records
+- Pancreatic evidence: UNICANCER is a cooperative-group company, listed under companies
+- Pancreatic core: register the seven living-with glossary drafts (enzyme draft folded into pancreatic-enzyme-replacement, new-onset diabetes alias repointed), drop URLs the UK and living patches already link, subtype rows cite the neoadjuvant term rather than PRODIGE 24 so /explained/ stays under budget, audit list and stale zh summary updated
+- Pancreatic cancer evidence: 34 Europe PMC paper records, a roadmap from Whipple 1935 to the 2031 registry watch, nine ideas
+- Pancreatic cancer deep spike, round one: the UK and NHS pathway with the national audit findings, decisions, first 60 days, red cards and the first-treatment aid
+- Pancreatic core layer: sourced epidemiology, risk factors, presentation and emergency share, diagnosis, resectability and TNM 8, pathology and precursors, surveillance programmes and outlook on the pancreatic record; six WHO subtype pages; thirteen glossary terms; five supplements
 - Pancreatic cancer living with it, care and decisions: ten decision rows, 90 hand-written questions, first 60 days checklist, six red-card sets with the 111 and 999 wording, first-treatment decision aid from NICE NG85, sourced living-with notes on 26 side-effect and procedure records
 - Pancreatic cancer UK and NHS page: NG12 diabetes rule, 28/31/62-day standards, NPaCA 2026 findings, 23 HPB hubs, NICE TA476/TA440/TA750/TA1052 and SMC decisions verified, PERT audit gap, EUROPAC and Precision-Panc legacy, four-nation registry figures
 - Cooperative groups have one home: 35 trial groups move from institutions to cooperative-group companies with redirects

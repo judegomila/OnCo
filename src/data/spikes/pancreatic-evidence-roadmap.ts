@@ -40,7 +40,7 @@ export const pancreaticRoadmap: RoadmapInput = r({
   pathways: ["ras-mapk", "ddr"],
   terms: ["whipple", "resectability", "neoadjuvant-adjuvant", "ca19-9", "desmoplasia", "gbrca-mutation", "kras-mutation-subtypes", "neoantigen", "ppv"],
   people: ["thierry-conroy", "daniel-von-hoff", "eileen-oreilly", "talia-golan", "zev-wainberg", "vinod-balachandran", "kevan-shokat", "marc-besselink", "eric-van-cutsem", "anirban-maitra"],
-  institutions: ["esmo", "asco", "cruk", "mayo-clinic", "johns-hopkins", "mskcc", "erasmus-mc", "garvan-institute", "unicancer"],
+  institutions: ["esmo", "asco", "cruk", "mayo-clinic", "johns-hopkins", "mskcc", "erasmus-mc", "garvan-institute"], companies: ["unicancer"],
   companies: ["revolution-medicines", "ipsen", "novocure", "biontech", "elicio-therapeutics", "astrazeneca"],
   bottlenecks: ["b-early-detection", "b-hereditary-risk", "b-undruggable-targets", "b-resistance", "b-tme-immunosuppression", "b-cachexia-supportive", "b-surgery-radiation-innovation", "b-aging-comorbidity", "b-care-fragmentation", "b-negative-results", "b-trial-design", "b-knowledge-diffusion"],
   keyPapers: [

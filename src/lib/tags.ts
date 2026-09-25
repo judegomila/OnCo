@@ -64,6 +64,7 @@ export const TAG_DESCRIPTIONS: Readonly<Record<string, string>> = {
   "registry-only": "Products and companies known so far only from a trial registry entry, with little else published.",
   "subtype-trials": "Landmark trials recorded while writing a cancer subtype page.",
   "gallbladder-deep-dive": "Registry-only phase 2 and 3 trials that name gallbladder cancer in their conditions or eligibility, recorded from ClinicalTrials.gov during the gallbladder cancer deep dive.",
+  "pancreatic-deep-dive": "Registry-only phase 2 and 3 trials that name pancreatic cancer in their title or conditions, recorded from ClinicalTrials.gov during the pancreatic cancer deep dive of September 2026; registry facts only, no outcomes.",
   "tnbc-deep-dive": "Registry-only phase 2 and 3 trials that name triple-negative breast cancer in their title or conditions, recorded from ClinicalTrials.gov during the triple-negative breast cancer deep dive.",
   mechanism: "Pathways and ideas that explain how a cancer process works rather than a single product.",
   paediatric: "Cancers, trials, people and institutions concerned with cancer in children and young people.",

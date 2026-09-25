@@ -1,0 +1,51 @@
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 54,63,68
+src/data/spikes/pancreatic-treatment.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 1-132
+src/data/animated.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 513
+src/app/heavy-pages.test.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 128-130
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 67
+src/data/spikes/pancreatic-treatment-shared.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 1-44
+src/data/spikes/pancreatic-registry-trials.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 1-1729
+src/data/spikes/pancreatic-treatment-trials.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 1-118
+src/data/supportive-drugs.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 26-27
+src/data/spikes/index.ts
+  ai_agent 73,76
+src/data/spikes/pancreatic-treatment-trials-advanced.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 1-144
+src/data/spikes/pancreatic-treatment-trials-targeted.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 1-26
+src/lib/semantic.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 102-105,107-109,111
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 93-98
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 399-404,409
+src/data/spikes/pancreatic-treatment-supplements.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 1-151
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_3245c98389e38a 67-68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "448845337da7d64016f2c526f766eb65e0cc4e50",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

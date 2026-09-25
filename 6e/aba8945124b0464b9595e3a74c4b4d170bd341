@@ -1,0 +1,53 @@
+src/data/cancers-wave4-shared.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 1-31
+src/data/cancers-wave4-breast.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 1-264
+src/lib/cancer-families.test.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 82-99
+src/data/cancers-wave4-endocrine-thoracic-gynae.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 1-293
+src/data/organ-schematics.ts
+  ai_agent 39,58,80,123,187,213,239,278,298,325,351,375
+src/app/cancers/map/page.test.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 18-20,22
+src/data/cancers-wave4-colon-kidney-testis.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 1-367
+src/data/cancers-wave4-haematology.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 1-320
+src/data/paediatric-subtypes.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 389-390,410
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 53-55
+src/data/cancers-wave4-rare.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 1-271
+docs/CANCER-PAGES.md
+  s_0beac9cb5d78fd::t_47c0af379c749e 1-86
+src/app/heavy-pages.test.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 338-340
+docs/CONTENT-ROADMAP.md
+  s_0beac9cb5d78fd::t_47c0af379c749e 156
+src/data/cancers-wave4-parents.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 1-193
+src/data/index.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 150-156,258
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 839-840,858
+src/data/cancers-wave4-lung.ts
+  s_0beac9cb5d78fd::t_47c0af379c749e 1-203
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6eaba8945124b0464b9595e3a74c4b4d170bd341",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+src/data/decision-tools/bcc-low-risk-treatment.ts
+  s_0beac9cb5d78fd::t_4d60476da362aa 152
+  s_0beac9cb5d78fd::t_42f44d06c0ccc1 58,290
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_0dd723f844c340 189
+vercel.json
+  s_0beac9cb5d78fd::t_debff770c755fc 968-972
+src/data/spikes/skin-uk.ts
+  s_0beac9cb5d78fd::t_c7d883dcf21727 236
+  s_0beac9cb5d78fd::t_82f33f507f8d2c 70
+  s_0beac9cb5d78fd::t_afac9e2ca1eee0 129,549
+  s_0beac9cb5d78fd::t_0ac534bfe034ea 418
+  s_0beac9cb5d78fd::t_1f6fd1dc30b909 64
+  s_0beac9cb5d78fd::t_b15d268a3d3488 270
+  s_0beac9cb5d78fd::t_fbf84e8ff9df41 594
+  s_0beac9cb5d78fd::t_94211952f789c4 317
+  s_0beac9cb5d78fd::t_30785921814211 51,56,67,115,147,168
+  s_0beac9cb5d78fd::t_d72dbddee99516 423
+  s_0beac9cb5d78fd::t_2ac41f39663338 61,361
+  s_0beac9cb5d78fd::t_7e9986924e4194 516
+  s_0beac9cb5d78fd::t_f57386ddffad6e 410-411
+  s_0beac9cb5d78fd::t_38b7c76f28d0e5 414
+docs/SKIN-QA.md
+  s_0beac9cb5d78fd::t_04e752efcf4fc9 1-55,57-242,246-271,286-364
+  s_0beac9cb5d78fd::t_3f0dfdb263c4ea 243-245
+  s_0beac9cb5d78fd::t_04aa3679dace24 56
+  s_0beac9cb5d78fd::t_db63e7a681a03c 272-285
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_fda41178ee5939 343-347
+  s_0beac9cb5d78fd::t_0dd723f844c340 99
+  s_0beac9cb5d78fd::t_42f44d06c0ccc1 818
+  s_0beac9cb5d78fd::t_c1b1296a7141f7 776,791,817
+src/data/supportive-drugs.ts
+  s_0beac9cb5d78fd::t_16fcc9a6ecdb6f 60
+src/data/spikes/skin-treatment-trials-advanced.ts
+  s_0beac9cb5d78fd::t_6f0e2416f6acf2 14
+  s_0beac9cb5d78fd::t_288adf9a14ae24 35,51,178
+  s_0beac9cb5d78fd::t_6dfe691b7276cf 162
+  s_0beac9cb5d78fd::t_e17ced23a91995 195
+src/data/merged-records.ts
+  s_0beac9cb5d78fd::t_051a3b4a700c45 159
+src/data/spikes/skin-core.ts
+  s_0beac9cb5d78fd::t_fbe0b748bedb6c 209,424,482,625
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_b915d7596d299e 702-704
+  s_0beac9cb5d78fd::t_1ea177033844dc 687-695
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_640e3da2145e38 437-444
+src/data/spikes/skin-treatment-shared.ts
+  s_0beac9cb5d78fd::t_55eec663fc1a3f 70-72
+public/terms/skin-cancer-in-transplant-recipients/index.html
+  s_0beac9cb5d78fd::t_04c2c86ccbed1c 1
+src/data/spikes/skin-living.ts
+  s_0beac9cb5d78fd::t_2421a7d46c65b0 365-366,393-394
+  s_0beac9cb5d78fd::t_4d60476da362aa 77,89,92,122-123,170,173,228-229,234,286,312,359
+  s_0beac9cb5d78fd::t_0dd723f844c340 382
+  s_0beac9cb5d78fd::t_e79e00bb80927b 389
+  s_0beac9cb5d78fd::t_92a1bfacf879cc 326,363,391
+  s_0beac9cb5d78fd::t_42f44d06c0ccc1 226,232,241-251,313,323,383,388
+  s_0beac9cb5d78fd::t_cfc48f23f9155b 329-332
+src/data/spikes/skin-treatment-trials-local.ts
+  s_0beac9cb5d78fd::t_833229e4015690 21-23,25-26
+  s_0beac9cb5d78fd::t_49145d8b08c373 64
+  s_0beac9cb5d78fd::t_0a9e4a8d3ded23 126
+  s_0beac9cb5d78fd::t_6f0e2416f6acf2 62
+  s_0beac9cb5d78fd::t_5ebfc256c7a550 28
+  s_0beac9cb5d78fd::t_905c2a1ff35a23 74,107,124
+src/data/spikes/skin-treatment.ts
+  s_0beac9cb5d78fd::t_6309a4297fff18 165-170
+  s_0beac9cb5d78fd::t_e0001833461044 52
+  s_0beac9cb5d78fd::t_bec5fac5f1bb6b 79
+  s_0beac9cb5d78fd::t_e17ced23a91995 176
+  s_0beac9cb5d78fd::t_4cb19594fae9bb 186-209,211
+  s_0beac9cb5d78fd::t_7551080f93b860 127
+  s_0beac9cb5d78fd::t_060a973c7bc941 1
+src/lib/record-sections.test.ts
+  s_0beac9cb5d78fd::t_6b51207ca66050 33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ee1a75d97755acf2c4a36547bb884fb67081573f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

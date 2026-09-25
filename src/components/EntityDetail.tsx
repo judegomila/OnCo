@@ -77,11 +77,7 @@ import { FrontIcon } from "./FrontIcon";
 import { ApprovalChip } from "./ApprovalChip";
 import { MechanicsPills } from "./MechanicsPills";
 import { TargetSchematic } from "./TargetSchematic";
-<<<<<<< HEAD
-import { Tip } from "./Tip";
 import { IntentLink } from "./IntentLink";
-=======
->>>>>>> worktree-agent-a0a0b7707614c3249
 import { TargetExplainer } from "./TargetExplainer";
 import { CoverageUsCard } from "./CoverageUs";
 import { CoverageUkCard } from "./CoverageUk";

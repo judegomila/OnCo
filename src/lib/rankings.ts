@@ -5,6 +5,7 @@ import { enrolmentLabel } from "./enrolment";
 import { logoSrc } from "./logos";
 import { portraitSrc } from "./portraits";
 import { modalityGroup } from "./modality-group";
+import { isSupportive, treatments } from "./supportive-care";
 
 /**
  * League tables computed from corpus counts and dates only. Every ranking names the field it counts, states its
@@ -77,7 +78,8 @@ function base(e: Entity, value: number, metric: string, context: string, extra: 
 
 const companyImage = (e: Entity) => (e.kind === "company" || e.kind === "institution" ? logoSrc(e.id, e.website) : undefined);
 
-const approvedDrugs = (g: Graph) => g.kind("drug").filter((d) => d.status === "approved" && d.approvals.length > 0);
+/** Approved treatments and tests with at least one approval record; supportive care medicines are not products in these tables. */
+const approvedDrugs = (g: Graph) => treatments(g).filter((d) => d.status === "approved" && d.approvals.length > 0);
 const firstApproval = (d: Extract<Entity, { kind: "drug" }>) => d.approvals.reduce((a, b) => (b.year < a.year ? b : a));
 
 const DEFS: Def[] = [
@@ -90,7 +92,7 @@ const DEFS: Def[] = [
       const trials = g.kind("trial");
       const rows = g.kind("cancer").map((c) => {
         const t = incoming(g, c.id, "trial").length;
-        const approved = incoming(g, c.id, "drug").filter((d) => d.status === "approved").length;
+        const approved = incoming(g, c.id, "drug").filter((d) => !isSupportive(d) && d.status === "approved").length;
         return base(c, t, n(t), plural(approved, "approved product"));
       }).filter((r) => r.value > 0);
       return { rows, coverage: cov(trials.filter((t) => t.cancers.length).length, trials.length, "trials name at least one cancer") };
@@ -104,7 +106,7 @@ const DEFS: Def[] = [
     compute: (g) => {
       const approved = approvedDrugs(g);
       const rows = g.kind("cancer").map((c) => {
-        const a = incoming(g, c.id, "drug").filter((d) => d.status === "approved" && d.approvals.length).length;
+        const a = incoming(g, c.id, "drug").filter((d) => !isSupportive(d) && d.status === "approved" && d.approvals.length).length;
         return base(c, a, n(a), plural(incoming(g, c.id, "trial").length, "trial"));
       }).filter((r) => r.value > 0);
       return { rows, coverage: cov(approved.filter((d) => d.cancers.length).length, approved.length, "approved products name at least one cancer") };
@@ -120,7 +122,7 @@ const DEFS: Def[] = [
       const parents = new Set(g.kind("cancer").map((c) => c.parent).filter(Boolean));
       const rows = g.kind("cancer")
         .filter((c) => !parents.has(c.id))
-        .map((c) => ({ c, t: incoming(g, c.id, "trial").length, a: incoming(g, c.id, "drug").filter((d) => d.status === "approved" && d.approvals.length).length }))
+        .map((c) => ({ c, t: incoming(g, c.id, "trial").length, a: incoming(g, c.id, "drug").filter((d) => !isSupportive(d) && d.status === "approved" && d.approvals.length).length }))
         .filter(({ t }) => t >= 10)
         .map(({ c, t, a }) => base(c, a === 0 ? 1e6 + t : t / a, a === 0 ? "no approved product" : (t / a).toLocaleString("en-GB", { maximumFractionDigits: 1 }), `${plural(t, "trial")}, ${plural(a, "approved product")}`));
       return { rows, coverage: cov(trials.filter((t) => t.cancers.length).length, trials.length, "trials name at least one cancer") };
@@ -133,9 +135,9 @@ const DEFS: Def[] = [
     how: "Counts drug records whose targets field lists the target. Coverage is measured on products of a targeted modality (antibodies, conjugates, small molecules, cell therapies and the like); cytotoxics, hormonal agents, tests, devices and imaging agents have no molecular target field to fill and are not counted against it. The context column counts those products with status approved.",
     compute: (g) => {
       const untargeted = new Set(["Cytotoxic", "Test", "Device", "Imaging agent", "Hormonal"]);
-      const targeted = g.kind("drug").filter((d) => !untargeted.has(modalityGroup(d.modality)));
+      const targeted = treatments(g).filter((d) => !untargeted.has(modalityGroup(d.modality)));
       const rows = g.kind("target").map((t) => {
-        const drugs = incoming(g, t.id, "drug");
+        const drugs = incoming(g, t.id, "drug").filter((d) => !isSupportive(d));
         return base(t, drugs.length, n(drugs.length), `${n(drugs.filter((d) => d.status === "approved").length)} approved`);
       }).filter((r) => r.value > 0);
       return { rows, coverage: cov(targeted.filter((d) => d.targets.length).length, targeted.length, "products of a targeted modality name at least one target") };
@@ -160,7 +162,7 @@ const DEFS: Def[] = [
     compute: (g) => {
       const approved = approvedDrugs(g);
       const rows = approved.map((d) => { const f = firstApproval(d); return base(d, d.approvals.length, n(d.approvals.length), `${f.region} ${f.year}`); });
-      return { rows, coverage: cov(approved.length, g.kind("drug").filter((d) => d.status === "approved").length, "approved products carry at least one approval record") };
+      return { rows, coverage: cov(approved.length, treatments(g).filter((d) => d.status === "approved").length, "approved products carry at least one approval record") };
     },
   },
   {
@@ -170,7 +172,7 @@ const DEFS: Def[] = [
     how: "Counts distinct trial records that either name the product in their drugs field or are named in the product's trials field. The context column gives the product's status and modality group.",
     compute: (g) => {
       const trials = g.kind("trial");
-      const rows = g.kind("drug").map((d) => { const t = trialsOf(g, d).size; return base(d, t, n(t), `${d.status ?? "status not set"} · ${modalityGroup(d.modality)}`); }).filter((r) => r.value > 0);
+      const rows = treatments(g).map((d) => { const t = trialsOf(g, d).size; return base(d, t, n(t), `${d.status ?? "status not set"} · ${modalityGroup(d.modality)}`); }).filter((r) => r.value > 0);
       return { rows, coverage: cov(trials.filter((t) => t.drugs.length).length, trials.length, "trials name at least one product") };
     },
   },
@@ -183,7 +185,7 @@ const DEFS: Def[] = [
       const year = new Date().getFullYear();
       const approved = approvedDrugs(g);
       const rows = approved.map((d) => { const f = firstApproval(d); const y = year - f.year; return base(d, y, plural(y, "year"), `${f.region} ${f.year}`); });
-      return { rows, coverage: cov(approved.length, g.kind("drug").filter((d) => d.status === "approved").length, "approved products carry a dated approval record") };
+      return { rows, coverage: cov(approved.length, treatments(g).filter((d) => d.status === "approved").length, "approved products carry a dated approval record") };
     },
   },
   {
@@ -193,7 +195,7 @@ const DEFS: Def[] = [
     how: "Counts distinct trial records that name the company in their companies field or that the company's own trials field names. Sponsor names typed as free text on trials are not matched; only linked records count. The context column counts product records naming the company.",
     compute: (g) => {
       const trials = g.kind("trial");
-      const rows = g.kind("company").map((c) => { const t = trialsOf(g, c).size; return base(c, t, n(t), plural(incoming(g, c.id, "drug").length, "product"), { image: companyImage(c) }); }).filter((r) => r.value > 0);
+      const rows = g.kind("company").map((c) => { const t = trialsOf(g, c).size; return base(c, t, n(t), plural(incoming(g, c.id, "drug").filter((d) => !isSupportive(d)).length, "product"), { image: companyImage(c) }); }).filter((r) => r.value > 0);
       return { rows, coverage: cov(trials.filter((t) => t.companies.length).length, trials.length, "trials link to at least one company record") };
     },
   },
@@ -205,7 +207,7 @@ const DEFS: Def[] = [
     compute: (g) => {
       const approved = approvedDrugs(g);
       const rows = g.kind("company").map((c) => {
-        const ds = incoming(g, c.id, "drug").filter((d) => d.status === "approved" && d.approvals.length);
+        const ds = incoming(g, c.id, "drug").filter((d) => !isSupportive(d) && d.status === "approved" && d.approvals.length);
         const a = ds.reduce((s, d) => s + d.approvals.length, 0);
         return base(c, a, n(a), plural(ds.length, "approved product"), { image: companyImage(c) });
       }).filter((r) => r.value > 0);
@@ -269,6 +271,10 @@ const DEFS: Def[] = [
   },
 ];
 
+/** Tables that count drug records as products; their "how" note states the supportive care exclusion. */
+export const PRODUCT_RANKING_SLUGS = new Set(["cancers-by-trials", "cancers-by-approved-drugs", "cancers-least-served", "targets-by-drugs", "drugs-by-approvals", "drugs-by-trials", "drugs-longest-in-use", "companies-by-trials", "companies-by-approvals"]);
+export const SUPPORTIVE_NOTE = "Supportive care medicines (antiemetics, growth factors, epoetins, bone-modifying agents, antidotes, opioids for cancer pain, immunoglobulin; drug records flagged supportive) are not products or treatments here and are left out.";
+
 export const RANKING_SLUGS = DEFS.map((d) => d.slug);
 
 let cached: Ranking[] | undefined;
@@ -283,7 +289,7 @@ export function rankings(): Ranking[] {
     const top = sorted.slice(0, TOP).map((r, i) => ({ ...r, rank: i + 1 }));
     const { compute: _compute, ...rest } = d;
     void _compute;
-    return { ...rest, coverage, rows: top, total: sorted.length };
+    return { ...rest, how: PRODUCT_RANKING_SLUGS.has(d.slug) ? `${d.how} ${SUPPORTIVE_NOTE}` : d.how, coverage, rows: top, total: sorted.length };
   });
   return cached;
 }

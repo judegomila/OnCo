@@ -291,6 +291,7 @@ export const hi: UiDict = {
   "l.Class": "वर्ग",
   "l.How drugs attack it": "दवाएँ इस पर कैसे हमला करती हैं",
   "l.Modality": "प्रकार",
+  "l.Purpose": "उद्देश्य",
   "l.Mechanism": "क्रियाविधि",
   "l.Brand / code": "ब्रांड / कोड",
   "l.Payload": "पेलोड",

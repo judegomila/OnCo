@@ -22,7 +22,7 @@ export type ScorecardRow = {
   financials?: ScorecardFinancials;
 };
 
-const TYPE_LABEL: Record<string, string> = { pharma: "Pharma", biotech: "Biotech", diagnostics: "Diagnostics", imaging: "Imaging", devices: "Devices", "ai-software": "AI and software", radiopharma: "Radiopharma", "cell-therapy": "Cell therapy", "cro-services": "CRO and services", nonprofit: "Non-profit", investor: "Investor" };
+const TYPE_LABEL: Record<string, string> = { pharma: "Pharma", biotech: "Biotech", diagnostics: "Diagnostics", imaging: "Imaging", devices: "Devices", "ai-software": "AI and software", radiopharma: "Radiopharma", "cell-therapy": "Cell therapy", "cro-services": "CRO and services", nonprofit: "Non-profit", investor: "Investor", "cooperative-group": "Cooperative group" };
 
 const bn = (f: ScorecardFinancials, n?: number) => (n === undefined ? null : `${f.symbol}${n.toFixed(1)}bn`);
 

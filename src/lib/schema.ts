@@ -202,6 +202,14 @@ export const DrugSchema = Base.extend({
   code: z.string().optional(),
   /** Modality, e.g. "ADC", "small molecule", "mAb", "radioligand", "cell therapy", "vaccine", "device". */
   modality: z.string(),
+  /**
+   * True for a supportive care medicine: its approved indications are symptom control, toxicity rescue or prophylaxis,
+   * or infection prophylaxis (antiemetics, growth factors, epoetins, bone-modifying agents, antidotes, opioids for cancer
+   * pain, immunoglobulin). Set from src/data/supportive-drugs.ts; the rule the fetchers apply to indication text is
+   * isSupportiveIndication in src/lib/supportive-care.ts. Supportive medicines stay in the corpus but are excluded from
+   * treatment counts and rankings and carry a "Supportive care" pill so they never read as cancer treatments.
+   */
+  supportive: z.boolean().optional(),
   payload: z.string().optional(),
   linker: z.string().optional(),
   mechanism: z.string(),
@@ -216,8 +224,13 @@ export const DrugSchema = Base.extend({
   regulatoryEvents: z.array(z.object({ date: z.string(), type: z.enum(["designation", "filing", "pdufa", "approval", "crl", "withdrawal", "label-change", "advisory-committee"]), region: z.string(), note: z.string(), source: url.optional() })).default([]),
 });
 
-/** Broad company type. `investor` is a venture fund, corporate venture arm or disease foundation that finances the others; its portfolio is derived from the `investors` field on the companies it backs. */
-export const COMPANY_TYPES = ["pharma", "biotech", "diagnostics", "imaging", "devices", "ai-software", "radiopharma", "cell-therapy", "cro-services", "nonprofit", "investor"] as const;
+/**
+ * Broad company type. `investor` is a venture fund, corporate venture arm or disease foundation that finances the others; its
+ * portfolio is derived from the `investors` field on the companies it backs. `cooperative-group` is an academic trials group or
+ * public trial sponsor (SWOG, GORTEC, the German CLL Study Group, MRC CTU) that runs trials of other makers' products; it has no
+ * products of its own, so it is not a developer type, and its trials are the `trials` field plus trial records naming it.
+ */
+export const COMPANY_TYPES = ["pharma", "biotech", "diagnostics", "imaging", "devices", "ai-software", "radiopharma", "cell-therapy", "cro-services", "nonprofit", "investor", "cooperative-group"] as const;
 export type CompanyType = (typeof COMPANY_TYPES)[number];
 
 /** Where a company is in its life: a venture-backed startup, a later-stage private company, listed, a large private group, acquired, or wound down. */

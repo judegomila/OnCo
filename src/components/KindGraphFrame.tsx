@@ -19,8 +19,8 @@ const QUERY = "view";
 const CSS = `
 .kg-graph{display:none}
 @media (min-width:48rem){.kg-graph{display:block}.kg-body{display:none}}
-.kg[data-view="list"] .kg-graph,.kg[data-view="list"] .kg-body{display:none}
-.kg:not([data-view="list"]) .kg-list{display:none}
+.kg:not([data-view="graph"]) .kg-graph,.kg:not([data-view="graph"]) .kg-body{display:none}
+.kg[data-view="graph"] .kg-list{display:none}
 .kg-svg a{outline:none;cursor:pointer}
 .kg-eh{stroke:transparent;stroke-width:14;pointer-events:stroke}
 .kg-el{stroke:currentColor}
@@ -50,7 +50,7 @@ const LIST_D = "M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01";
 
 export function KindGraphFrame({ lede, jsonHref, graph, body, list }: { lede: ReactNode; jsonHref: string; graph: ReactNode; body: ReactNode; list: ReactNode }) {
   const root = useRef<HTMLDivElement>(null);
-  const [view, setView] = useState<View>("graph");
+  const [view, setView] = useState<View>("list");
   const [focus, setFocus] = useState<string | null>(null);
   const [tip, setTip] = useState<{ text: string; left: number; top: number } | null>(null);
 
@@ -66,7 +66,7 @@ export function KindGraphFrame({ lede, jsonHref, graph, body, list }: { lede: Re
   const choose = (v: View) => {
     setView(v);
     const p = new URLSearchParams(window.location.search);
-    if (v === "graph") p.delete(QUERY); else p.set(QUERY, v);
+    if (v === "list") p.delete(QUERY); else p.set(QUERY, v);
     const q = p.toString();
     window.history.replaceState(null, "", `${window.location.pathname}${q ? `?${q}` : ""}${window.location.hash}`);
   };
@@ -106,11 +106,11 @@ export function KindGraphFrame({ lede, jsonHref, graph, body, list }: { lede: Re
       <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 mb-3">
         {lede}
         <div className="flex items-center gap-1.5" role="group" aria-label="How to show the kinds">
-          <Link href="/" onClick={(ev) => { ev.preventDefault(); choose("graph"); }} aria-current={view === "graph" ? "true" : undefined} className={pill(view === "graph")} title="The kinds as a graph: nodes by count, edges by links (the body map on a phone)">
+          <Link href={`/?${QUERY}=graph`} onClick={(ev) => { ev.preventDefault(); choose("graph"); }} aria-current={view === "graph" ? "true" : undefined} className={pill(view === "graph")} title="The kinds as a graph: nodes by count, edges by links (the body map on a phone)">
             <span className="hidden md:inline-flex"><Glyph d={GRAPH_D} /></span><span className="inline-flex md:hidden"><Glyph d={BODY_D} /></span>
             <span className="hidden md:inline">Graph</span><span className="md:hidden">Body</span>
           </Link>
-          <Link href={`/?${QUERY}=list`} onClick={(ev) => { ev.preventDefault(); choose("list"); }} aria-current={view === "list" ? "true" : undefined} className={pill(view === "list")} title="The kinds as a plain list of counts">
+          <Link href="/" onClick={(ev) => { ev.preventDefault(); choose("list"); }} aria-current={view === "list" ? "true" : undefined} className={pill(view === "list")} title="The kinds as a plain list of counts">
             <Glyph d={LIST_D} /><span>List</span>
           </Link>
           <a href={jsonHref} className="chip border bg-card border-border hover:bg-foreground/5 text-xs" title="The same nodes and edges as JSON">JSON</a>

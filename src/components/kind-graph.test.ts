@@ -103,8 +103,11 @@ describe("kind graph markup", () => {
   it("stays under 60 KB of markup and carries the list, the body map entry and the strip", () => {
     expect(sizes.graph, `graph svg ${Math.round(sizes.graph / KB)} KB`).toBeLessThan(60 * KB);
     expect(sizes.graph, "the svg was found whole").toBeGreaterThan(8 * KB);
-    expect(html).toContain('data-view="graph"');
-    expect(html).toContain('href="/?view=list"');
+    // The list is the front page's default view (owner's call, 25 September 2026), so the static markup carries
+    // the list and the graph is the view that needs a parameter. Both are in the HTML either way; only which one
+    // the CSS shows without JavaScript changes.
+    expect(html).toContain('data-view="list"');
+    expect(html).toContain('href="/?view=graph"');
     expect(html).toContain('aria-label="Records by kind"');
     expect(html).toContain('data-mobile-view="body-map"');
     expect(html).toContain("Tap where the cancer is");

@@ -85,6 +85,12 @@ const PARENT_PHRASES: Record<string, RegExp> = {
   "parathyroid-carcinoma": /parathyroid/i,
   urethral: /urethra/i,
   "non-seminoma": /non-seminoma|germ cell|testic/i,
+  "marginal-zone-lymphoma": /lymphoma/i,
+  "follicular-lymphoma": /lymphoma/i,
+  "cutaneous-t-cell-lymphoma": /lymphoma|mycosis/i,
+  dlbcl: /lymphoma/i,
+  "aml-paediatric": /leuk(a)?emia/i,
+  "burkitt-lymphoma": /burkitt/i,
 };
 
 /** At most this many same-parent siblings in `related`: a comparison set, not the whole family. */

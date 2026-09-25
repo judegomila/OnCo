@@ -23,7 +23,7 @@ function Refs({ ids }: { ids: string[] | undefined }) {
 function Sources({ list }: { list: GeoSource[] }) {
   return (
     <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-xs">
-      {list.map((s) => <li key={s.url}><a href={s.url} target="_blank" rel="noopener noreferrer" className="underline decoration-foreground/20 underline-offset-[3px] hover:decoration-foreground text-muted hover:text-foreground">{s.label}{s.date ? ` (${s.date})` : ""}</a></li>)}
+      {list.map((s) => <li key={s.url} className="min-w-0 max-w-full"><a href={s.url} target="_blank" rel="noopener noreferrer" className="underline decoration-foreground/20 underline-offset-[3px] hover:decoration-foreground text-muted hover:text-foreground break-words">{s.label}{s.date ? ` (${s.date})` : ""}</a></li>)}
     </ul>
   );
 }
@@ -93,7 +93,7 @@ export function CancerGeographySection({ c }: { c: { id: string; name: string } 
 
       <div>
         <Head id="geography-regions" glyph="map" title="The high-burden regions" lede="Each region with the papers that describe it; press a region's pill above to pick it out on the map." />
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid *:min-w-0 gap-4 md:grid-cols-2">
           {geo.regions.map((r) => (
             <article key={r.id} id={`geography-${r.id}`} className="card p-4 flex flex-col">
               <h4 className="font-semibold leading-snug inline-flex items-center gap-2"><GeoGlyphIcon name={r.glyph} className="h-4 w-4 text-muted" />{r.title}</h4>
@@ -114,7 +114,7 @@ export function CancerGeographySection({ c }: { c: { id: string; name: string } 
 
       <div>
         <Head id="geography-spotlights" glyph="flag" title="Country spotlights" lede="The two countries that carry the most, and what each is doing about it." />
-        <div className="grid gap-4 lg:grid-cols-2">
+        <div className="grid *:min-w-0 gap-4 lg:grid-cols-2">
           {geo.spotlights.map((s) => (
             <article key={s.id} id={`geography-${s.id}`} className="card p-5">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -133,7 +133,7 @@ export function CancerGeographySection({ c }: { c: { id: string; name: string } 
 
       <div>
         <Head id="geography-programmes" glyph="registry" title="Programmes, registries and practice" lede="What the high-burden countries have built: a prevention law, a registry network, a surgical tradition." />
-        <div className="grid gap-4 md:grid-cols-3">
+        <div className="grid *:min-w-0 gap-4 md:grid-cols-3">
           {geo.programmes.map((p) => (
             <article key={p.id} id={`geography-${p.id}`} className="card p-4 flex flex-col">
               <h4 className="font-semibold leading-snug inline-flex items-center gap-2"><GeoGlyphIcon name={p.glyph} className="h-4 w-4 text-muted" />{p.title}</h4>

@@ -12,6 +12,7 @@ import { CancerIcon } from "@/components/CancerIcon";
 import { PrintButton } from "@/components/PrintButton";
 import { CompareCancers } from "@/components/CompareCancers";
 import { ToolGlyph } from "@/components/ToolGlyph";
+import { SectionStrip } from "@/components/SectionStrip";
 
 /** A cancer beside its neighbours (/cancers/<id>/compared/): the compare set anchored at this cancer, rendered by CompareCancers. */
 export function generateStaticParams() {
@@ -46,6 +47,7 @@ export default async function ComparedPage({ params }: { params: Promise<{ id: s
         logo={<span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={c.id} className="h-8 w-8" /></span>}
         right={<div className="flex flex-col items-end gap-2 text-xs text-muted"><PrintButton /><Link href={`/compare/?ids=${set.ids.join(",")}`} className="underline">Generic compare view →</Link><Link href={routeFor(c)} className="underline">Cancer page →</Link></div>} />
       <Container className="pb-16">
+        <SectionStrip cancerId={id} current="what-it-is" />
         <nav aria-label="Cancers compared" className="mb-4 flex flex-wrap gap-1.5 text-sm">
           {cancers.map((x) => <Link key={x.id} href={routeFor(x)} className={`chip border inline-flex items-center gap-1.5 hover:bg-foreground/5 ${x.id === id ? "bg-accent-soft border-accent/40 text-accent" : "bg-card border-border"}`}><CancerIcon cancerId={x.id} className="h-3.5 w-3.5" />{x.name.replace(/\s*\(.*?\)\s*$/, "")}</Link>)}
           <span className="text-muted self-center">·</span>

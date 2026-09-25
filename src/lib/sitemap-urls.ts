@@ -16,6 +16,7 @@ import { allTags } from "./tags";
 import { ukPathwayCancerIds, ukPathwayRoute } from "./uk-pathway";
 import { DECISION_TOOLS, toolRoute } from "./decision-tools";
 import { COMPARE_SETS, compareRoute } from "./cancer-compare";
+import { pagedSectionParams, sectionRoute } from "./record-sections";
 
 export type SitemapUrl = { url: string; lastModified?: string };
 
@@ -100,6 +101,8 @@ export function sitemapUrls(): SitemapUrl[] {
   for (const c of MECHANICS) for (const st of c.stages) add(`/mechanics/${st.id}/`);
   for (const e of g.entities) add(routeFor(e), e.asOf);
   for (const c of g.kind("cancer")) add(`${routeFor(c)}changes/`, c.asOf);
+  // Section pages: only the sections whose weight sent them to their own route (src/lib/record-sections.ts).
+  for (const p of pagedSectionParams(g)) add(sectionRoute(p.id, p.section), g.must(p.id).asOf);
   for (const t of graph().kind("target")) out.push({ url: absoluteUrl(`/dossiers/${t.id}/`), lastModified: t.asOf });
   for (const r of regimens) out.push({ url: absoluteUrl(`/regimens/${r.id}/`), lastModified: r.asOf });
   for (const c of sequencingIndex()) out.push({ url: absoluteUrl(`/sequencing/${c.id}/`) });

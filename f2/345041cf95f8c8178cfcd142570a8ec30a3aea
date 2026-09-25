@@ -1,0 +1,35 @@
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_1889a3a2f496b7 47
+  s_0beac9cb5d78fd::t_74f92b7a133cf7 54
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_c9345775590aa7 131
+  s_0beac9cb5d78fd::t_9c10e2f032dbe8 13
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_7fd5ddd2aca966 146-164
+  s_0beac9cb5d78fd::t_fe3c3ff747c6e9 42-54
+  s_0beac9cb5d78fd::t_c708940cc3dd07 6-7,10
+  s_0beac9cb5d78fd::t_d3ea6ba6e8af42 24-25
+  s_0beac9cb5d78fd::t_83d8c5c5158ebc 62
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_d420c96780ae75 67
+  s_0beac9cb5d78fd::t_4c2cb9cc27a0de 62
+src/app/cancers/[id]/uk/page.tsx
+  s_0beac9cb5d78fd::t_306e891011c97b 292
+  s_0beac9cb5d78fd::t_9d6f3f1c07b737 189
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f2345041cf95f8c8178cfcd142570a8ec30a3aea",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

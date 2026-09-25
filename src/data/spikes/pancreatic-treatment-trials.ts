@@ -1,5 +1,5 @@
 import type { TrialInput } from "@/lib/schema";
-import { PC, SRC, ct, doi, nice, t } from "./pancreatic-treatment-shared";
+import { PC, SRC, ct, doi, t } from "./pancreatic-treatment-shared";
 
 export { pancreaticTrialsAdvanced } from "./pancreatic-treatment-trials-advanced";
 export { pancreaticTrialsTargeted } from "./pancreatic-treatment-trials-targeted";

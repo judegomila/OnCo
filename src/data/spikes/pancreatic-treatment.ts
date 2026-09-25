@@ -1,4 +1,4 @@
-import type { CancerInput, DrugInput, EntityInput, TermInput, TrialInput } from "@/lib/schema";
+import type { CancerInput, DrugInput, EntityInput, TermInput } from "@/lib/schema";
 import type { Spike } from "./index";
 import { pancreaticRegistryTrials, pancreaticRegistryTrialIds } from "./pancreatic-registry-trials";
 

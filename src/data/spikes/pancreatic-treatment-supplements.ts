@@ -1,5 +1,5 @@
 import type { DrugInput, EntityInput, TrialInput } from "@/lib/schema";
-import { PC, SRC, ct, doi, nice } from "./pancreatic-treatment-shared";
+import { PC, SRC, doi, nice } from "./pancreatic-treatment-shared";
 
 /**
  * Supplements onto records other files own (arrays append, empty scalars fill; applied by applySpikeSupplements, which

@@ -66,6 +66,7 @@ import pancreaticUk from "./pancreatic-uk";
 import colorectalUk from "./colorectal-uk";
 import lungUk from "./lung-uk";
 import prostateEvidence from "./prostate-evidence";
+import prostateUk from "./prostate-uk";
 import gallbladderEvidence from "./gallbladder-evidence";
 import gallbladderTreatment from "./gallbladder-treatment";
 import gallbladderGeography from "./gallbladder-geography";
@@ -90,7 +91,7 @@ import lungTreatment from "./lung-treatment";
 import prostateCore, { prostateLowRiskSpike, prostateIntermediateRiskSpike, prostateHighRiskSpike, prostateBcrSpike, prostateMhspcSpike, prostateNmcrpcSpike, prostateMcrpcSpike, prostateNepcSpike } from "./prostate-core";
 import prostateLiving from "./prostate-living";
 import prostateTreatment from "./prostate-treatment";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, pancreaticCore, pancreaticUk, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, tnbcCore, tnbcEvidence, tnbcUk, tnbcLiving, tnbcMolecular, tnbcTreatment, pancreaticLiving, pancreaticEvidence, pancreaticTreatment, pancreaticMolecular, colorectalLiving, colorectalUk, colorectalMolecular, colorectalEvidence, colorectalTreatment, colorectalCore, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderTreatment, gallbladderGeography, gallbladderEvidence, lungCore, nsclcCoreSpike, sclcTaxonomySpike, lungLiving, nsclcLivingSpike, sclcLivingSpike, lungEvidence, lungMolecular, lungTreatment, lungUk, prostateCore, prostateLowRiskSpike, prostateIntermediateRiskSpike, prostateHighRiskSpike, prostateBcrSpike, prostateMhspcSpike, prostateNmcrpcSpike, prostateMcrpcSpike, prostateNepcSpike, prostateLiving, prostateEvidence, prostateTreatment];
+const spikes: Spike[] = [nsclc, prostate, pancreatic, pancreaticCore, pancreaticUk, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, tnbcCore, tnbcEvidence, tnbcUk, tnbcLiving, tnbcMolecular, tnbcTreatment, pancreaticLiving, pancreaticEvidence, pancreaticTreatment, pancreaticMolecular, colorectalLiving, colorectalUk, colorectalMolecular, colorectalEvidence, colorectalTreatment, colorectalCore, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderTreatment, gallbladderGeography, gallbladderEvidence, lungCore, nsclcCoreSpike, sclcTaxonomySpike, lungLiving, nsclcLivingSpike, sclcLivingSpike, lungEvidence, lungMolecular, lungTreatment, lungUk, prostateCore, prostateLowRiskSpike, prostateIntermediateRiskSpike, prostateHighRiskSpike, prostateBcrSpike, prostateMhspcSpike, prostateNmcrpcSpike, prostateMcrpcSpike, prostateNepcSpike, prostateLiving, prostateEvidence, prostateTreatment, prostateUk];
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's

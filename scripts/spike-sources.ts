@@ -52,6 +52,7 @@ import pancreaticUk from "../src/data/spikes/pancreatic-uk";
 import colorectalUk from "../src/data/spikes/colorectal-uk";
 import lungUk from "../src/data/spikes/lung-uk";
 import prostateEvidence from "../src/data/spikes/prostate-evidence";
+import prostateUk from "../src/data/spikes/prostate-uk";
 import tnbcLiving from "../src/data/spikes/tnbc-living";
 import tnbcMolecular from "../src/data/spikes/tnbc-molecular";
 import tnbcTreatment from "../src/data/spikes/tnbc-treatment";
@@ -74,7 +75,7 @@ import prostateTreatment from "../src/data/spikes/prostate-treatment";
 
 /** File stem -> spike, so the test can compare against `readdirSync("src/data/spikes")`. */
 export const SPIKE_FILES: Record<string, Spike> = {
-  nsclc, prostate, pancreatic, "pancreatic-core": pancreaticCore, "pancreatic-uk": pancreaticUk, "colorectal-uk": colorectalUk, "lung-uk": lungUk, "prostate-evidence": prostateEvidence, glioblastoma, "breast-hr-positive": breastHr, "breast-her2-positive": breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma,
+  nsclc, prostate, pancreatic, "pancreatic-core": pancreaticCore, "pancreatic-uk": pancreaticUk, "colorectal-uk": colorectalUk, "lung-uk": lungUk, "prostate-evidence": prostateEvidence, glioblastoma, "breast-hr-positive": breastHr, "breast-her2-positive": breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, "prostate-uk": prostateUk,
   "head-and-neck": headAndNeck, thyroid, colorectal, "colorectal-core": colorectalCore, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, "all-leukemia": allLeukemia,
   cll, dlbcl, "multiple-myeloma": multipleMyeloma, "hodgkin-lymphoma": hodgkin, sarcoma, neuroblastoma, "gallbladder-living": gallbladderLiving, "gallbladder-molecular": gallbladderMolecular, "gallbladder-core": gallbladderCore, "gallbladder-uk": gallbladderUk, "gallbladder-evidence": gallbladderEvidence, "gallbladder-treatment": gallbladderTreatment,
   "gallbladder-geography": gallbladderGeography, "tnbc-core": tnbcCore, "tnbc-evidence": tnbcEvidence, "tnbc-uk": tnbcUk, "tnbc-living": tnbcLiving, "tnbc-molecular": tnbcMolecular, "tnbc-treatment": tnbcTreatment, "pancreatic-living": pancreaticLiving, "pancreatic-evidence": pancreaticEvidence, "pancreatic-treatment": pancreaticTreatment, "pancreatic-molecular": pancreaticMolecular, "colorectal-living": colorectalLiving, "colorectal-molecular": colorectalMolecular, "colorectal-evidence": colorectalEvidence, "colorectal-treatment": colorectalTreatment, "lung-core": lungCore, "lung-living": lungLiving, "lung-evidence": lungEvidence, "lung-molecular": lungMolecular, "lung-treatment": lungTreatment, "prostate-core": prostateCore, "prostate-living": prostateLiving, "prostate-treatment": prostateTreatment,

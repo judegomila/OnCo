@@ -31,8 +31,10 @@ const page = (id: string, section: string) => SectionPage({ params: Promise.reso
 const cancer = (id: string) => { const c = graph().must(id); if (c.kind !== "cancer") throw new Error(id); return c; };
 
 const HEAVY = ["gallbladder", "tnbc", "nsclc", "pancreatic"];
-/** A rare cancer with little behind it: everything should stay on the hub. */
+/** A rare cancer with little behind it: everything but the record-list sections should stay on the hub. */
 const SMALL = "gallbladder-papillary-carcinoma";
+/** The sections that are pages for every cancer (`alwaysPage` in the registry), in story order. */
+const ALWAYS_PAGED: SectionId[] = ["where-you-are", "coming", "data"];
 
 describe("section registry", () => {
   it("lists the ten sections once each, in story order, with unique anchors and a purpose", () => {
@@ -59,9 +61,11 @@ describe("section registry", () => {
     }
   });
 
-  it("plans a small cancer whole on its hub and sends the heavy sections of the spikes to pages", () => {
+  it("plans a small cancer on its hub bar the three record-list sections, and sends the heavy sections of the spikes to pages", () => {
     const small = sectionPlan(cancer(SMALL));
-    expect(small.every((p) => p.placement === "inline"), small.filter((p) => p.placement === "page").map((p) => p.def.id).join(",")).toBe(true);
+    // Related pages, In development and Expert centres are lists of other records and grow with the corpus: always a page.
+    expect(small.filter((p) => p.placement === "page").map((p) => p.def.id)).toEqual(ALWAYS_PAGED);
+    expect(SECTIONS.filter((s) => s.alwaysPage).map((s) => s.id)).toEqual(ALWAYS_PAGED);
     for (const id of ["gallbladder", "nsclc"]) {
       const plan = sectionPlan(cancer(id));
       expect(plan.find((p) => p.def.id === "overview")!.placement).toBe("inline");
@@ -74,7 +78,7 @@ describe("section registry", () => {
     const params = sectionParams();
     expect(params).toEqual(pagedSectionParams());
     expect(params.some((p) => p.id === "gallbladder" && p.section === "evidence")).toBe(true);
-    expect(params.some((p) => p.id === SMALL)).toBe(false);
+    expect(params.filter((p) => p.id === SMALL).map((p) => p.section)).toEqual(ALWAYS_PAGED);
   });
 
   it("sections.json carries every section with its route, counts and anchors", () => {
@@ -116,12 +120,21 @@ describe("budgets", () => {
     }, 300_000);
   }
 
-  it(`a small rare cancer renders every section inline with no summary card`, async () => {
+  it(`a small rare cancer renders every section inline except the three record-list sections, which are summary cards`, async () => {
     const html = inLayout(await hub(SMALL));
-    expect(html).not.toContain("data-section-card=");
+    expect([...html.matchAll(/data-section-card="([a-z-]+)"/g)].map((m) => m[1])).toEqual(ALWAYS_PAGED);
     for (const id of SECTION_IDS) expect(html).toContain(`id="sec-${id}"`);
     expect(kb(html)).toBeLessThan(HUB_BUDGET_KB);
   }, 120_000);
+
+  it("the hub of every heavy cancer carries Related pages, In development and Expert centres as cards, never in full", async () => {
+    for (const id of [...HEAVY, "male-breast-cancer"]) {
+      const html = inLayout(await hub(id));
+      for (const s of ALWAYS_PAGED) expect(html, `${id} ${s}`).toContain(`data-section-card="${s}"`);
+      // The full lists would carry these ids; the cards do not.
+      for (const anchor of ["relevant", "pipeline", "centres"]) expect(html, `${id} #${anchor} on hub`).not.toContain(`id="${anchor}"`);
+    }
+  }, 300_000);
 
   it("the estimate is honest: no inline section of the heavy cancers renders past twice the inline line", () => {
     for (const id of [...HEAVY, SMALL]) {

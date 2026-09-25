@@ -31,6 +31,7 @@ import { writeEngineFiles } from "./build-engine";
 import { explainedFileFor, explainedGroups } from "../src/lib/explained-data";
 import { allTags, relatedTags } from "../src/lib/tags";
 import { spotlightFile } from "../src/lib/spotlight";
+import { kindGraphFile } from "../src/lib/kind-graph";
 import { UK_PATHWAYS, ukPathwayJson } from "../src/lib/uk-pathway";
 import { CANCER_GEOGRAPHIES, geographyJson } from "../src/lib/cancer-geography";
 import { sectionsJson } from "../src/lib/record-sections";
@@ -108,6 +109,8 @@ for (const c of g.kind("cancer")) write(`navigator/${c.id}.json`, navigatorCance
 write("my-cancers.json", myCancerList());
 // Home page spotlight: one hero set per kind in rotation; the page embeds the build day's and the browser swaps in the reader's day.
 write("spotlight.json", spotlightFile(g));
+// Home page kind graph: one node per kind, one edge per pair of kinds with the link count (src/lib/kind-graph.ts).
+write("kind-graph.json", kindGraphFile(g));
 write("ranking.json", rankInstitutions().map((r) => ({ rank: r.rank, id: r.institution.id, name: r.institution.name, city: r.institution.city, country: r.institution.country, newsweekOncology2026: r.institution.newsweekOncology2026 ?? null, nci: r.institution.nci ?? null, links: r.links, newsweekPoints: r.newsweekPoints, nciPoints: r.nciPoints, linkPoints: r.linkPoints, score: r.score })));
 write("benchmark.json", benchmark);
 // Open-source oncology projects (/open-source/): the generated records, the date, and what was looked for and not recorded.

@@ -6,7 +6,21 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 25 September 2026
+- Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
+- Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+
 ### 24 September 2026
+- TNBC living with it, care and decisions: eleven decision rows, 77 hand-written questions, first 60 days checklist, three red-card sets with the 111 and 999 wording, after-chemotherapy decision aid, sourced living-with notes on 20 side-effect and procedure records
+- TNBC UK and NHS layer: pathway page for tnbc with the screening caveat, NG12 and NG101 steps, every NICE and SMC decision including the TA992 refusal against SMC2608, R208 and M234 tests, eight UK-open trials with sites, TNT, POSH/OlympiA and PARTNER legacy, registry figures read from PHS, WCISU and NICR downloads, Breast Cancer Now and three researcher records, named gaps
+- Cooperative groups as company records: `cooperative-group` company type with browser facet, glyph pill and tooltip; 22 group records (GORTEC, German CLL Study Group, French Sarcoma Group, AGO, AIO, MRC CTU, HORG, DPCG, DBCG, DAHANCA, GERCOR, ISG, SSG, EMN, IFM, ALFA, AMC, OCOG, KGOG, SARC, FIL, FILO) linked to 41 corpus trials as sponsor; sponsor aliases carry their ids and the IFM and KGOG mis-resolutions are fixed; the trials fetchers link and never give products to them
+- Supportive care medicines: `supportive` drug flag on 55 records, "Supportive care" pill with glyph and tooltip, Purpose facet on /drugs/, excluded from the home treatments count, the product rankings and the treatment references on standard-of-care rows; EMA and FDA fetchers flag candidates by a stated indication rule
+- Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- TNBC evidence: 45 papers verbatim from Europe PMC (guidelines, receptor and basal-like discovery, BRCA1 founder mutations, disparities, subtypes, pCR and RCB, platinum, CREATE-X, OlympiA updates, PD-L1 assays, TILs, TROPION-Breast02, CAPItello-290, HER2-low, ctDNA), tnbc-roadmap with 14 eras and a registry watch list to 2033, nine ideas
+- Modality lens: /modalities/ and twelve format hubs assembling what the corpus records per shape of medicine
+- Home page: the counts grid becomes a living graph of the kinds, with the body map as the entry point on phones
+- LAUNCH: the ship chain no longer builds locally; Vercel builds and the chain verifies the alias
+- LAUNCH: issue and PR sweep of 24 Sept, checkpoints, target statuses, ivermectin
 - Ivermectin: the trial evidence so far, with the label toxicity table and the papers under expressions of concern stated
 - Ivermectin evidence page: drug record with label toxicity table, four registry trials, 22 papers with expressions of concern and retraction stated, compact fenbendazole and mebendazole records, per-file citation test
 - Checkpoint families mapped with immune and cell-cycle hubs, 26 new targets; 31 reader proposals applied as 23 trial records and 27 papers; Cancersim terms gap filed

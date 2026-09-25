@@ -83,6 +83,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/exclusivity/", label: "Exclusivity expiry", blurb: "When each product loses patent or regulatory exclusivity, and the biosimilars and generics coming." },
       { href: "/pipeline/", label: "Pipeline funnel", blurb: "Assets by phase for any target, modality or cancer, and how crowded each target is." },
       { href: "/pipeline/engine/", label: "Open drug engine", blurb: "Every medicine taken apart into its modules, and the grid of every combination: approved, in development, tried and stopped with the reason, or never tried." },
+      { href: "/modalities/", label: "Modalities", blurb: "One hub per shape of medicine (ADC, radioligand, CAR-T, bispecific, degrader and the rest): how it works, approved medicines, phase 3, parts, companies, trials, side effects, resistance, papers, roadmaps, ideas and manufacturing, each section naming its records." },
       { href: "/market/", label: "Addressable population", blurb: "Incidence times prevalence times setting share, every input linked, as a range." },
       { href: "/calendar/", label: "Readout calendar", blurb: "Decisions, readouts, advisory committees, congresses." },
       { href: "/digests/", label: "Congress digests", blurb: "ASCO, ESMO, AACR, ASCO GU, sourced item by item." },

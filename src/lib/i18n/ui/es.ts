@@ -291,6 +291,7 @@ export const es: UiDict = {
   "l.Class": "Clase",
   "l.How drugs attack it": "Cómo lo atacan los fármacos",
   "l.Modality": "Modalidad",
+  "l.Purpose": "Propósito",
   "l.Mechanism": "Mecanismo",
   "l.Brand / code": "Marca / código",
   "l.Payload": "Carga útil",

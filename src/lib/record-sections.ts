@@ -59,6 +59,12 @@ export type SectionDef = {
   patches: readonly string[];
   /** Always inline on the hub, whatever its weight (the overview is the hub). */
   pinned?: boolean;
+  /**
+   * Always its own page, whatever the estimate. The three sections that are lists of other records (every connected
+   * record, everything in development, the expert centres) took 285 KB of TNBC's 536 KB hub on 24 Sept 2026 and grow
+   * with the corpus rather than with the record, so the hub carries their summary cards for every cancer.
+   */
+  alwaysPage?: boolean;
   /** Element ids inside the section: sub-headings, the tab ids of the previous layout, ids other pages link to. */
   anchors: readonly string[];
   /** Existing routes that belong to this section and keep their URLs (/cancers/<id>/decisions/, uk, compared, changes). */
@@ -145,7 +151,7 @@ export const SECTIONS: readonly SectionDef[] = [
     estimate: (c, g) => { const rows = forCancerCount(g, c, "target") + forCancerCount(g, c, "pathway") + prevalenceRows(g, c); return { rows, kb: 4 + cap(forCancerCount(g, c, "target")) * 0.5 + cap(forCancerCount(g, c, "pathway")) * 0.5 + prevalenceRows(g, c) * 0.7 + (modelsFor(c.id) ? 2 : 0) }; },
   },
   {
-    id: "where-you-are", title: "Where you are", glyph: "pin",
+    id: "where-you-are", title: "Where you are", glyph: "pin", alwaysPage: true,
     purpose: "Cases by country, the UK and NHS pathway and other country lenses, and the expert centres with trials on record.",
     fields: ["institutions"],
     patches: ["spikes/<cancer>-geography.ts", "spikes/<cancer>-uk.ts", "lib/centre-table.ts", "GLOBOCAN (data/globocan-map.ts)"],
@@ -165,7 +171,7 @@ export const SECTIONS: readonly SectionDef[] = [
     estimate: (c, g) => { const rows = questionsFor(c).items.length + redCardsForCancer(g, c).length + journeysForCancer(c.id).length + toolsFor(c.id).length; return { rows, kb: 10 + rows * 0.6 + (decisionsFor(c.id) ? 3 : 0) }; },
   },
   {
-    id: "coming", title: "What is coming", glyph: "rocket",
+    id: "coming", title: "What is coming", glyph: "rocket", alwaysPage: true,
     purpose: "Everything in development, the open problems and what is being done about them, the roadmaps, and what changed on this record.",
     fields: ["pipeline", "openProblems", "roadmaps"],
     patches: ["spikes/<cancer>-evidence-roadmap.ts", "lib/cancer-changes.ts", "data/ideas*.ts", "Edge (lib/edge.ts)"],
@@ -175,7 +181,7 @@ export const SECTIONS: readonly SectionDef[] = [
     estimate: (c, g) => { const d = forCancerCount(g, c, "drug"); const t = g.incoming(c.id).get("trial")?.length ?? 0; const i = forCancerCount(g, c, "idea"); const rows = d + t + i + c.pipeline.length + c.openProblems.length; return { rows, kb: 18 + d * 0.9 + cap(t) * 0.35 + i * 0.4 + c.openProblems.length * 2 }; },
   },
   {
-    id: "data", title: "Data", glyph: "braces",
+    id: "data", title: "Data", glyph: "braces", alwaysPage: true,
     purpose: "Every connected record, the notes, the JSON, Markdown and RDF twins, and where the record came from and when it was checked.",
     fields: ["notes", "asOf", "links", "tags", "related"],
     patches: ["public/api/v1/entities/<id>.json", "public/api/v1/context/<id>.md", "public/api/v1/rdf/<id>.ttl", "lib/similar.ts"],
@@ -207,6 +213,7 @@ export const hubRoute = (cancerId: string) => `/cancers/${cancerId}/`;
 
 export function placementOf(def: SectionDef, est: SectionEstimate): Placement {
   if (def.pinned) return "inline";
+  if (def.alwaysPage) return "page";
   return est.kb > INLINE_MAX_KB || est.rows > INLINE_MAX_ROWS ? "page" : "inline";
 }
 

@@ -46,6 +46,7 @@ import { trialsIdeasWave6 } from "./trials-ideas-wave6";
 import { papersIdeasWave6 } from "./papers-ideas-wave6";
 import { ideaLinksWave6 } from "./idea-links-wave6";
 import { companyDrugsWave6, trialCompaniesWave6 } from "./company-drugs-wave6";
+import { SUPPORTIVE_DRUGS } from "./supportive-drugs";
 import { entityTrialLinksWave5, entityTrialsWave5, trialsEntitiesWave5 } from "./trials-entities-wave5";
 import { issuesWaveAPapers, issuesWaveATrials } from "./issues-2026-09-wave-a";
 import { nutrition } from "./nutrition";
@@ -98,6 +99,7 @@ import { targetSpecificity } from "./target-specificity";
 import { targetsReaderEdits } from "./targets-reader-edits";
 import { drugsEmaWave } from "./drugs-ema-wave";
 import { companiesSponsorsWave } from "./companies-sponsors-wave";
+import { companiesCooperativeGroups, cooperativeGroupTrialCompanies } from "./companies-cooperative-groups";
 import { drugsPipelineWave1 } from "./drugs-pipeline-wave1";
 import { pipelineTrialsWave2 } from "./pipeline-trials-wave2";
 import { drugsPipelineWave2 } from "./drugs-pipeline-wave2";
@@ -238,7 +240,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...pathwaysKegg,
   ...journalsWave2,
   ...companiesSponsors,
-  ...companiesSponsorsWave3,
+  ...companiesSponsorsWave3, ...companiesCooperativeGroups,
   ...companiesMakersWave4,
   ...targetsWaveSoc, ...targetsReaderEdits, ...targetsGenesWave, ...drugsEmaWave, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
@@ -298,6 +300,9 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];
   let e: EntityInput = cited ? { ...raw, keyPapers: [...(raw.keyPapers ?? []), ...cited.filter((id) => !(raw.keyPapers ?? []).includes(id))] } : raw;
+  // Supportive care medicines (src/data/supportive-drugs.ts): the flag that keeps antiemetics, growth factors, bone agents,
+  // antidotes and opioids out of treatment counts and rankings, and renders the "Supportive care" pill.
+  if (e.kind === "drug" && SUPPORTIVE_DRUGS[e.id]) e = { ...e, supportive: true };
   // Immune members of the checkpoint map (src/data/checkpoint-map.ts) carry the immune-checkpoint role, whichever file owns the record.
   if (e.kind === "target" && IMMUNE_CHECKPOINT_TARGET_IDS.has(e.id) && !(e.role ?? []).includes("immune-checkpoint")) e = { ...e, role: [...(e.role ?? []), "immune-checkpoint"] };
   if (e.kind === "term") return { ...e, category: canonicalTermCategory(e.id, e.category) };
@@ -319,6 +324,8 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
     if (trialKeyPapersWave1[t.id]) t = { ...t, keyPapers: [...(t.keyPapers ?? []), ...trialKeyPapersWave1[t.id].filter((id) => !(t.keyPapers ?? []).includes(id))] };
     // Sponsors verified through the ClinicalTrials.gov lead-sponsor field by scripts/fetch-company-drugs.ts (wave 6).
     if (trialCompaniesWave6[t.id]) t = { ...t, companies: [...(t.companies ?? []), ...trialCompaniesWave6[t.id].filter((id) => !(t.companies ?? []).includes(id))] };
+    // Cooperative groups and public trial sponsors (src/data/companies-cooperative-groups.ts): the group record that lists the trial.
+    if (cooperativeGroupTrialCompanies[t.id]) t = { ...t, companies: [...(t.companies ?? []), ...cooperativeGroupTrialCompanies[t.id].filter((id) => !(t.companies ?? []).includes(id))] };
     // Drugs and technologies the registry's intervention list names, found by scripts/fetch-entity-trials.ts (wave 5) for
     // records that had no trial; the trial record itself stays as written.
     const ent = entityTrialLinksWave5[t.id];

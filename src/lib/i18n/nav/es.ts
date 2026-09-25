@@ -74,6 +74,7 @@ export const navEs: NavDict = {
   "/exclusivity/": ["Fin de la exclusividad", "Cuándo pierde cada producto la exclusividad de patente o regulatoria, y los biosimilares y genéricos que llegan."],
   "/pipeline/": ["Embudo de desarrollo", "Activos por fase para cualquier diana, modalidad o cáncer, y qué tan saturada está cada diana."],
   "/pipeline/engine/": ["Motor abierto de fármacos", "Cada medicamento desmontado en sus módulos, y la cuadrícula de todas las combinaciones: aprobadas, en desarrollo, probadas y detenidas con el motivo, o nunca probadas."],
+  "/modalities/": ["Modalidades", "Un centro por cada forma de medicamento (ADC, radioligando, CAR-T, biespecífico, degradador y el resto): cómo funciona, medicamentos aprobados, fase 3, componentes, empresas, ensayos, efectos secundarios, resistencia, artículos, hojas de ruta, ideas y fabricación, cada sección con sus registros."],
   "/market/": ["Población abordable", "Incidencia por prevalencia por cuota del contexto, cada dato enlazado, como rango."],
   "/calendar/": ["Calendario de resultados", "Decisiones, resultados, comités asesores, congresos."],
   "/digests/": ["Resúmenes de congresos", "ASCO, ESMO, AACR, ASCO GU, con fuente en cada punto."],

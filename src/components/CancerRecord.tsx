@@ -7,7 +7,7 @@ import { ChipList } from "./ui";
 import { TL } from "./T";
 import { Tip } from "./Tip";
 import { withTermHovers } from "@/lib/term-hover";
-import { Block, Field, KeyPapers, keyPapersFor, LatestLiterature, LinkedBullets, Refs, Summary, ToolsStrip } from "./record-blocks";
+import { Block, Field, KeyPapers, keyPapersFor, LatestLiterature, LinkedBullets, Refs, SocRefs, Summary, ToolsStrip } from "./record-blocks";
 import { SectionGlyph } from "./SectionGlyph";
 import type { Tab } from "./Tabs";
 import { NEIGHBOUR_CAP, SECTIONS, cancerTableHref, sectionPlan, type SectionId, type SectionPlan } from "@/lib/record-sections";
@@ -238,7 +238,7 @@ export function CancerSection({ c, id, plan }: { c: Cancer; id: SectionId; plan?
               <div className="font-medium">{s.setting}</div>
               <p className="text-[15px] text-foreground/85 mt-1">{s.approach}</p>
               {s.guideline && <div className="mt-2"><GuidelineChip g={s.guideline} /></div>}
-              {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
+              <SocRefs ids={s.refs} />
             </div>
           ))}
           {!c.standardOfCare.length && <p className="text-sm text-muted">No standard-of-care rows are recorded yet; the parent cancer&apos;s page may carry them.</p>}

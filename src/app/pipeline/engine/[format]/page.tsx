@@ -6,7 +6,7 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EngineView, type GridCell, type GridItem } from "@/components/EngineView";
 import { formatIndex } from "@/lib/modular";
-import { COMPONENT_LABEL, engineFile, engineRoute, engineTableId, FORMATS, formatById, STATE_META, type FormatId } from "@/lib/modular-formats";
+import { COMPONENT_LABEL, engineFile, engineRoute, engineTableId, FORMATS, formatById, modalityRoute, STATE_META, type FormatId } from "@/lib/modular-formats";
 import { engineColumns, engineRows } from "@/lib/tables/engine";
 import { pageRows } from "@/lib/static-tables";
 import { proposedCells, PROPOSAL_STATUS, scoreParts } from "@/lib/combination-ideas-adapter";
@@ -53,7 +53,7 @@ export default async function EngineFormatPage({ params }: { params: Promise<{ f
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Pipeline funnel", href: "/pipeline/" }, { label: "Open drug engine", href: "/pipeline/engine/" }, { label: def.name, href: engineRoute(def.id) }]} />
       <PageHeader kicker={<GroupKicker id="intel"><Link href="/pipeline/engine/" className="kicker hover:underline">· Open drug engine</Link></GroupKicker>} title={def.name}
         lede={`${def.blurb} The grid below is ${COMPONENT_LABEL[ka].toLowerCase()} against ${COMPONENT_LABEL[kb].toLowerCase()}: ${n(f.rows.length)} by ${n(realCols)} from ${n(f.drugs.length)} medicines, ${n(f.counts.approved)} combinations approved, ${n(f.counts.development)} in development, ${n(f.counts.stopped)} tried and stopped, ${n(f.counts.untried)} untried in this corpus.`}
-        right={<div className="flex flex-wrap gap-2"><a href={engineFile(def.id)} className="chip border bg-card border-border hover:bg-foreground/5 text-sm" title="This format's medicines, cells, components, evidence and stopped reasons as one JSON file">JSON for agents</a><Link href="/pipeline/engine/" className="chip border bg-card border-border hover:bg-foreground/5 text-sm">All formats →</Link></div>} />
+        right={<div className="flex flex-wrap gap-2"><a href={engineFile(def.id)} className="chip border bg-card border-border hover:bg-foreground/5 text-sm" title="This format's medicines, cells, components, evidence and stopped reasons as one JSON file">JSON for agents</a><Link href={modalityRoute(def.id)} className="chip border bg-card border-border hover:bg-foreground/5 text-sm" title="Everything the corpus records about this format: how it works, approved medicines, trials, side effects, resistance, papers, manufacturing">Modality hub →</Link><Link href="/pipeline/engine/" className="chip border bg-card border-border hover:bg-foreground/5 text-sm">All formats →</Link></div>} />
       <Container className="pb-16">
         <div className="flex flex-wrap gap-1.5 mb-6 text-xs">
           {FORMATS.map((x) => <Link key={x.id} href={engineRoute(x.id)} className={`chip border ${x.id === def.id ? "bg-accent-solid text-accent-fg border-accent-solid" : "border-border bg-card hover:bg-accent-soft hover:text-accent hover:border-accent"}`} aria-current={x.id === def.id ? "page" : undefined}>{x.name}</Link>)}

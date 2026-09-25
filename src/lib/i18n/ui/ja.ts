@@ -291,6 +291,7 @@ export const ja: UiDict = {
   "l.Class": "分類",
   "l.How drugs attack it": "薬がどう攻撃するか",
   "l.Modality": "モダリティ",
+  "l.Purpose": "目的",
   "l.Mechanism": "作用機序",
   "l.Brand / code": "商品名 / 開発コード",
   "l.Payload": "ペイロード",

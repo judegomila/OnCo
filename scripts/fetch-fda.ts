@@ -15,18 +15,20 @@
  */
 import { graph } from "../src/lib/graph";
 import { FDA_OCE_URL, NameMatcher, getJson, getText, isoDaysAgo, matchableFromGraph, parseOcePage, publicPath, readJson, sleep, today, writeJson } from "./feed-utils";
+import { isSupportiveIndication } from "../src/lib/supportive-care";
 
 const WINDOW_DAYS = Number(process.argv.find((a) => a.startsWith("--days="))?.slice(7) ?? 120);
 const OUT = publicPath("fda", "recent.json");
 
-export type OceApproval = { date: string; title: string; url: string; summary: string; drugIds: string[]; cancerIds: string[]; firstSeen: string };
+/** `supportive` is true when the notification text reads as supportive care under the rule in src/lib/supportive-care.ts (symptom control, toxicity rescue or prophylaxis, infection prophylaxis, no antitumour purpose); a record written from it belongs in src/data/supportive-drugs.ts. */
+export type OceApproval = { date: string; title: string; url: string; summary: string; drugIds: string[]; cancerIds: string[]; firstSeen: string; supportive?: boolean };
 export type DrugsFdaApproval = { applicationNumber: string; sponsor?: string; brand?: string; generic?: string; submissionType: string; submissionNumber: string; classCode?: string; classDescription?: string; statusDate: string; drugIds: string[]; firstSeen: string };
 export type FdaSnapshot = {
   fetched: string; previousFetched?: string; window: { from: string; to: string };
   sources: { oce: string; drugsfda: string };
   oce: OceApproval[];
   drugsfda: DrugsFdaApproval[];
-  notInCorpus: Array<{ date: string; title: string; url: string; firstSeen: string; generic?: string }>;
+  notInCorpus: Array<{ date: string; title: string; url: string; firstSeen: string; generic?: string; supportive?: boolean }>;
   errors: string[];
 };
 
@@ -64,8 +66,10 @@ async function main() {
       const ids = matcher.match(text);
       const drugIds = ids.filter((id) => g.get(id)?.kind === "drug");
       const cancerIds = ids.filter((id) => g.get(id)?.kind === "cancer");
-      if (drugIds.length) snap.oce.push({ ...it, drugIds, cancerIds, firstSeen: prevOce.get(it.url) ?? fetched });
-      else snap.notInCorpus.push({ date: it.date, title: it.title, url: it.url, generic: genericFromSummary(it.summary), firstSeen: prevNic.get(it.url) ?? fetched });
+      // Supportive care rule (src/lib/supportive-care.ts) applied to the notification text; only set when true so old snapshots compare equal.
+      const supportive = isSupportiveIndication(text) ? { supportive: true } : {};
+      if (drugIds.length) snap.oce.push({ ...it, drugIds, cancerIds, firstSeen: prevOce.get(it.url) ?? fetched, ...supportive });
+      else snap.notInCorpus.push({ date: it.date, title: it.title, url: it.url, generic: genericFromSummary(it.summary), firstSeen: prevNic.get(it.url) ?? fetched, ...supportive });
     }
     console.log(`fda: OCE ${items.length} notifications since ${from}; ${snap.oce.length} matched, ${snap.notInCorpus.length} not in corpus`);
   }

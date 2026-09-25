@@ -59,10 +59,13 @@ import gallbladderLiving from "./gallbladder-living";
 import gallbladderMolecular from "./gallbladder-molecular";
 import gallbladderCore from "./gallbladder-core";
 import gallbladderUk from "./gallbladder-uk";
+import tnbcUk from "./tnbc-uk";
 import gallbladderEvidence from "./gallbladder-evidence";
 import gallbladderTreatment from "./gallbladder-treatment";
 import gallbladderGeography from "./gallbladder-geography";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderEvidence, gallbladderTreatment, gallbladderGeography];
+import tnbcEvidence from "./tnbc-evidence";
+import tnbcLiving from "./tnbc-living";
+const spikes: Spike[] = [nsclc, prostate, pancreatic, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, tnbcEvidence, tnbcUk, tnbcLiving, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderTreatment, gallbladderGeography, gallbladderEvidence];
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's

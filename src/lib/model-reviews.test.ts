@@ -91,8 +91,11 @@ describe("loader", () => {
   it("example claims are plainly true from the record text", () => {
     const g = graph();
     const tnbc = g.must("tnbc");
-    expect(tnbc.kind === "cancer" && tnbc.standardOfCare.length).toBe(5);
-    expect(tnbc.links).toHaveLength(1);
+    // The five rows the example review was written against are still there; the TNBC living-with spike adds decision rows and patient-page links after them.
+    expect(tnbc.kind === "cancer" && tnbc.standardOfCare.length).toBeGreaterThanOrEqual(5);
+    expect(tnbc.kind === "cancer" && tnbc.standardOfCare.slice(0, 5).map((r) => r.setting)).toEqual(["Stage I (T1a-b N0)", "Stage II-III", "Metastatic, first line, PD-L1 CPS ≥10", "Metastatic, first line, PD-L1 negative or PD-1 ineligible", "Metastatic, later lines"]);
+    expect(tnbc.links.length).toBeGreaterThanOrEqual(1);
+    expect(tnbc.links[0].label).toBe("Wikipedia");
     const sg = g.must("sacituzumab-govitecan");
     if (sg.kind !== "drug") throw new Error("sacituzumab-govitecan should be a drug");
     expect(sg.approvals).toHaveLength(4);

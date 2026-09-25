@@ -24,6 +24,7 @@ import { Portrait, PortraitCredit } from "./Portrait";
 import { JsonLd } from "./JsonLd";
 import { MachineLinks } from "./MachineLinks";
 import { CheckpointPills } from "./CheckpointPills";
+import { ModalityPills } from "./ModalityPills";
 import { PrintButton } from "./PrintButton";
 import { TrialFinderGeo as TrialFinder } from "./TrialFinderGeo";
 import { TrialCounts } from "./TrialCounts";
@@ -57,6 +58,8 @@ import { termVisual } from "@/lib/term-visual";
 import { DrugGrid } from "./DrugCard";
 import type { Drug, Paper } from "@/lib/schema";
 import { TargetSpecificityPills } from "./TargetSpecificityPills";
+import { SupportivePill } from "./SupportivePill";
+import { CompanyTypePill } from "./CompanyTypePill";
 import { TargetWhereFound, hpaFor } from "./TargetWhereFound";
 import { KindName, TL } from "./T";
 import { KIND_COLOR, statusClass } from "@/lib/text";
@@ -110,7 +113,6 @@ function structuresForTarget(targetId: string): StructureEntry[] {
   }
   return out.slice(0, 6);
 }
-
 
 /** Labels and block titles are English source strings, translated on the client through the chrome dictionary (`TL`). */
 /** A Wayback Machine snapshot recorded as the website is shown as an archived copy of the original address. */
@@ -169,8 +171,10 @@ export function EntityDetail({ e }: { e: Entity }) {
       />
       <Container className="pb-16">
         {(e.kind === "target" || e.kind === "pathway") && <MechanicsPills id={e.id} className="mb-6" />}
+        {e.kind === "drug" && e.supportive && <SupportivePill className="mb-6" />}
         {e.kind !== "cancer" && <ToolsStrip e={e} />}
         {(e.kind === "target" || e.kind === "pathway" || e.kind === "term" || e.kind === "technology") && <CheckpointPills id={e.id} className="mb-6" />}
+        {(e.kind === "technology" || e.kind === "drug") && <ModalityPills e={e} className="mb-6" />}
         {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
         {tabs.length > 1
           ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={afterTabs} aside={aside} anchors={e.kind === "cancer" ? forwardedAnchors(e) : undefined} />
@@ -355,7 +359,7 @@ function kindTabs(e: Entity): Tab[] {
         overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
           <Field label="Headquarters">{e.hq}, {e.country}</Field>
           <div className="sm:col-span-2 space-y-4"><CompanyScorePanel id={e.id} /><FundingPanel id={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /><ManufacturingPanel companyId={e.id} /></div>
-          <Field label="Type"><span className="capitalize">{e.companyType.replace("-", " ")}</span>{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
+          <Field label="Type"><CompanyTypePill type={e.companyType} />{e.ticker && <span className="text-muted"> · {e.ticker}</span>}</Field>
           <Field label="Stage">{stage && <span className="inline-flex items-center gap-1.5"><StageIcon stage={stage} className="h-4 w-4 text-accent" />{STAGE_LABEL[stage]}{e.ycBatch && <span className="text-muted"> · Y Combinator {ycBatchLabel(e.ycBatch)}</span>}</span>}</Field>
           {e.website && <Field label={websiteView(e.website).label}><a className="underline break-all" href={e.website} rel="noopener">{websiteView(e.website).text}</a></Field>}
           <Field label="Founded">{e.founded}</Field>
@@ -535,10 +539,6 @@ function kindTabs(e: Entity): Tab[] {
   }
 }
 
-
-
-
-
 function peopleTab(items: Entity[]): Tab[] {
   const people = [...new Map(items.filter((x) => x.kind === "person").map((x) => [x.id, x])).values()];
   if (!people.length) return [];
@@ -607,13 +607,6 @@ function RoadmapSteps({ r }: { r: Roadmap }) {
     <RegistryCheck roadmapId={r.id} />
   </>);
 }
-
-
-
-
-
-
-
 
 /** "Depends on" and "Needed by" strips from the technology dependency DAG (`dependsOn`), linking to the map with this technology as root. */
 function TechDependencies({ e }: { e: Extract<Entity, { kind: "technology" }> }) {

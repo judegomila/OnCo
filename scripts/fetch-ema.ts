@@ -24,6 +24,7 @@ import { inflateRawSync } from "node:zlib";
 import { graph } from "../src/lib/graph";
 import { REGION_META, regionalApprovals, type RegionalStatus } from "../src/data/regional-approvals";
 import { NameMatcher, decodeEntities, getBuffer, matchableFromGraph, publicPath, today, writeJson } from "./feed-utils";
+import { isSupportiveIndication } from "../src/lib/supportive-care";
 
 const EMA_XLSX = "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx";
 const OUT = publicPath("regional", "candidates.json");
@@ -32,7 +33,13 @@ const DATA_FILE = join(process.cwd(), "src", "data", "regional-approvals.ts");
 const STAMP = !process.argv.includes("--no-stamp");
 
 export type EmaRow = { name: string; productNumber?: string; status: string; generic: boolean; biosimilar: boolean; opinionStatus?: string; inn?: string; substance?: string; therapeuticArea?: string; atc?: string; conditional: boolean; authorised?: string; withdrawn?: string; refused?: string; holder?: string; url?: string; indication?: string };
-export type RegionalCandidate = { region: "EU"; drugId?: string; product: string; inn?: string; reason: "missing-row" | "status-mismatch" | "year-mismatch" | "not-in-corpus"; recorded?: string; register: string; date?: string; /** Date the marketing authorisation was withdrawn, when the register records one (so a "withdrawn" row can be written without a second lookup). */ withdrawn?: string; url?: string; indication?: string };
+export type RegionalCandidate = { region: "EU"; drugId?: string; product: string; inn?: string; reason: "missing-row" | "status-mismatch" | "year-mismatch" | "not-in-corpus"; recorded?: string; register: string; date?: string; /** Date the marketing authorisation was withdrawn, when the register records one (so a "withdrawn" row can be written without a second lookup). */ withdrawn?: string; url?: string; indication?: string;
+  /**
+   * True when the register's therapeutic indication reads as supportive care under the rule in src/lib/supportive-care.ts
+   * (symptom control, toxicity rescue or prophylaxis, infection prophylaxis, and no antitumour purpose). A record written
+   * from such a candidate goes into src/data/supportive-drugs.ts so it carries `supportive: true`.
+   */
+  supportive?: boolean };
 export type RegionalVerified = { drugId: string; region: "EU"; status: string; year?: number; url?: string; verifiedOn: string };
 export type RegionalSnapshot = {
   fetched: string; sources: { ema: string; mhra: { url: string; note: string }; pmda: { url: string; note: string } };
@@ -197,6 +204,9 @@ async function main() {
   // A candidate should not also be listed as verified.
   const cand = new Set(snap.candidates.map((c) => c.drugId).filter(Boolean));
   snap.verified = snap.verified.filter((v) => !cand.has(v.drugId));
+  // Supportive care rule (src/lib/supportive-care.ts): a candidate whose indication names symptom control, toxicity rescue or
+  // infection prophylaxis and no antitumour purpose is flagged, so the record written from it is a supportive medicine, not a treatment.
+  snap.candidates = snap.candidates.map((c) => (c.indication && isSupportiveIndication(c.indication) ? { ...c, supportive: true } : c));
   snap.candidates.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
 
   writeJson(OUT, snap);

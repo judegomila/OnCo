@@ -52,6 +52,10 @@ const NHS_JAUNDICE = { label: "NHS: jaundice", url: "https://www.nhs.uk/conditio
 const NHS_GB_SYMPTOMS = { label: "NHS: gallbladder cancer, symptoms", url: "https://www.nhs.uk/conditions/gallbladder-cancer/symptoms/" };
 const CRUK_STENTS = { label: "Cancer Research UK: biliary stents", url: "https://www.cancerresearchuk.org/about-cancer/bile-duct-cancer/treatment/stents" };
 const MAC_PAIN = { label: "Macmillan: pain", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/pain" };
+const MAC_SEPSIS = { label: "Macmillan: sepsis", url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/sepsis" };
+const MAC_PEMBRO = { label: "Macmillan: pembrolizumab", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/pembrolizumab" };
+const BCN_PEMBRO = { label: "Breast Cancer Now: pembrolizumab (Keytruda)", url: "https://breastcancernow.org/about-breast-cancer/treatment/targeted-therapy/pembrolizumab-keytruda" };
+const POWELL_ILD = { label: "Powell et al., pooled analysis of interstitial lung disease in nine trastuzumab deruxtecan studies (ESMO Open 2022)", url: "https://doi.org/10.1016/j.esmoop.2022.100554" };
 
 export const GENERAL_RED_FLAGS: RedFlagSet = {
   id: "general",
@@ -318,6 +322,40 @@ export const redFlagSets: RedFlagSet[] = [
     cancerIds: ["gallbladder"],
     flags: [
       { symptom: "Pain the painkillers do not control", threshold: "Pain that does not settle with the medicines you have been given, or pain that is new or getting worse: Macmillan says your cancer team may ask you to contact them if you have pain or if it gets worse, and to follow their advice. New severe pain with a temperature or jaundice can mean a blocked or infected bile duct.", action: "call-now", source: MAC_PAIN },
+    ],
+  },
+  // ---- Triple-negative breast cancer: the three emergencies its treatment brings, whatever the drug (NHS 111 and 999 wording).
+  {
+    id: "tnbc-neutropenic-sepsis",
+    label: "Triple-negative breast cancer: infection and sepsis during chemotherapy",
+    cancerIds: ["tnbc"],
+    concernIds: ["febrile-neutropenia", "carboplatin", "sacituzumab-govitecan"],
+    window: "Carboplatin-paclitaxel, anthracycline chemotherapy and sacituzumab govitecan all lower white cells; Macmillan says a minor infection can become life-threatening within hours when neutrophils are low, and the risk is usually highest 7 to 14 days after each dose.",
+    flags: [
+      { symptom: "Signs of sepsis", threshold: "Breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed: the NHS says call 999 or go to A&E, and do not drive yourself. Macmillan's 999 list adds passing no urine in a day and feeling the worst you ever have.", action: "emergency", source: NHS_SEPSIS },
+      { symptom: "Temperature over 37.5 C or below 36 C, or feeling unwell", threshold: "Macmillan says to call the hospital team's 24-hour helpline straight away for a temperature over 37.5 C (99.5 F) or below 36 C (96.8 F), for shivering, or for feeling unwell even with a normal temperature, and to call sooner rather than later; NICE CG151 says suspected neutropenic sepsis is referred immediately for assessment.", action: "call-now", source: MAC_SEPSIS },
+    ],
+  },
+  {
+    id: "tnbc-immune-reactions",
+    label: "Triple-negative breast cancer: immune-related reactions on pembrolizumab (bowel, lungs, liver, glands)",
+    cancerIds: ["tnbc"],
+    concernIds: ["pembrolizumab", "irae"],
+    window: "Pembrolizumab runs for about a year around surgery in early disease; Macmillan says immune-related side effects can start during treatment or after it ends, and Breast Cancer Now says to carry the alert card and use its out-of-hours number.",
+    flags: [
+      { symptom: "Diarrhoea, stools at night or tummy cramps (colitis)", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number if you pass more stools than is normal for you, pass stools at night, have watery or loose stools, or have uncomfortable tummy cramps or pain, during treatment or after it ends; Breast Cancer Now adds blood or mucus in the stool.", action: "call-now", source: MAC_PEMBRO },
+      { symptom: "Breathlessness, a cough that does not go away, wheeze or fever (pneumonitis)", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number for breathlessness, a cough that does not go away, wheezing, or a fever with a temperature over 37.5 C, during treatment or after it ends. Breast Cancer Now says sudden difficulty breathing means the alert card number immediately, or A&E.", action: "call-now", source: BCN_PEMBRO },
+      { symptom: "Yellow eyes, unusual tiredness, headaches, thirst or dizziness (liver or glands)", threshold: "Macmillan says to contact the 24-hour number for yellowing skin or eyes and sickness (liver inflammation), and for increased sweating, weight change, dizziness or fainting, feeling more hungry or thirsty, passing urine more often or headaches that do not go away (hormone glands, which can be permanently affected).", action: "call-today", source: MAC_PEMBRO },
+    ],
+  },
+  {
+    id: "tnbc-adc-lung",
+    label: "Triple-negative breast cancer: lung inflammation on a deruxtecan antibody-drug conjugate",
+    cancerIds: ["tnbc"],
+    concernIds: ["ild", "trastuzumab-deruxtecan", "datopotamab-deruxtecan"],
+    window: "In a pooled analysis of 1,150 people on trastuzumab deruxtecan, 15.4% developed drug-related interstitial lung disease, 87% of them within the first 12 months and 2.2% fatal; the Enhertu label carries a boxed warning and says to report symptoms immediately.",
+    flags: [
+      { symptom: "New cough, breathlessness or fever on trastuzumab deruxtecan or datopotamab deruxtecan", threshold: "Any new or worsening cough, breathlessness or fever: the label says to interrupt treatment for any suspected interstitial lung disease and to discontinue permanently for grade 2 or higher. Macmillan's wording for the same symptoms on pembrolizumab applies: contact the hospital straight away on the 24-hour number. Breathless at rest or blue lips is 999.", action: "call-now", source: POWELL_ILD },
     ],
   },
 ];

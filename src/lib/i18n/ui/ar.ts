@@ -291,6 +291,7 @@ export const ar: UiDict = {
   "l.Class": "الفئة",
   "l.How drugs attack it": "كيف تهاجمه الأدوية",
   "l.Modality": "النمط",
+  "l.Purpose": "الغرض",
   "l.Mechanism": "آلية العمل",
   "l.Brand / code": "الاسم التجاري / الرمز",
   "l.Payload": "الحمولة",

@@ -20,6 +20,8 @@ import { toolsFor, toolRoute } from "@/lib/decision-tools";
 import { compareRoute, compareSetFor } from "@/lib/cancer-compare";
 import { ToolGlyph } from "./ToolGlyph";
 import { NEIGHBOUR_CAP, cancerTableHref } from "@/lib/record-sections";
+import { SupportiveMark } from "./SupportivePill";
+import { splitSupportive } from "@/lib/supportive-care";
 
 /**
  * Building blocks shared by the record page (EntityDetail) and the cancer sections (CancerRecord): a labelled
@@ -32,6 +34,19 @@ export function Refs({ ids }: { ids: string[] }) {
   const g = graph();
   const items = ids.map((id) => g.get(id)).filter((x): x is Entity => !!x);
   return <ChipList items={items} />;
+}
+
+/**
+ * References on a standard-of-care row: treatments and technologies as chips, supportive care medicines (bone agents,
+ * growth factors, antiemetics) on their own muted line with the supportive glyph, so they never read as the treatment.
+ */
+export function SocRefs({ ids }: { ids: string[] }) {
+  if (!ids.length) return null;
+  const { treatments: tr, supportive: sp } = splitSupportive(graph(), ids);
+  return (<>
+    {tr.length > 0 && <div className="mt-2"><Refs ids={tr} /></div>}
+    {sp.length > 0 && <div className="mt-2 flex flex-wrap items-center gap-1.5" data-supportive-refs><SupportiveMark /><Refs ids={sp} /></div>}
+  </>);
 }
 
 export function Field({ label, children }: { label: string; children: ReactNode }) {

@@ -11,7 +11,7 @@ import { MECHANICS } from "../data/mechanics-atlas";
 import { paths } from "../data/paths";
 import { absoluteUrl } from "./seo";
 import { RANKING_SLUGS } from "./rankings";
-import { engineRoute, FORMATS } from "./modular-formats";
+import { engineRoute, FORMATS, modalityRoute } from "./modular-formats";
 import { allTags } from "./tags";
 import { ukPathwayCancerIds, ukPathwayRoute } from "./uk-pathway";
 import { DECISION_TOOLS, toolRoute } from "./decision-tools";
@@ -113,6 +113,7 @@ export function sitemapUrls(): SitemapUrl[] {
   for (const s of COMPARE_SETS) add(compareRoute(s.anchorId), s.asOf);
   for (const slug of RANKING_SLUGS) add(`/rankings/${slug}/`);
   for (const f of FORMATS) add(engineRoute(f.id), newest.drug);
+  for (const f of FORMATS) add(modalityRoute(f.id), newest.drug);
   for (const t of allTags()) add(`/tagged/${t.slug}/`);
   return out;
 }
